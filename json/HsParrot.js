@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HsParrot"
+        "phrase": "HsParrot",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParrot PIR syntax tree.\n\u003c/p\u003e\u003cpre\u003e   All that is gold does not glitter,\n   Not all those who wander are lost;\n   The old that is strong does not wither,\n   Deep roots are not reached by the frost.\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "PIR",
           "package": "HsParrot",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parrot PIR syntax tree All that is gold does not glitter Not all those who wander are lost The old that is strong does not wither Deep roots are not reached by the frost",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "PIR",
           "package": "HsParrot",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "ArgFlag",
           "package": "HsParrot",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "ArgFlag",
           "package": "HsParrot",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "CallConv",
           "package": "HsParrot",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "CallConv",
           "package": "HsParrot",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "Decl",
           "package": "HsParrot",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "Decl",
           "package": "HsParrot",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "Emit",
           "package": "HsParrot",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "Emit",
           "package": "HsParrot",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "Expression",
           "package": "HsParrot",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "Expression",
           "package": "HsParrot",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "Ins",
           "package": "HsParrot",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "Ins",
           "package": "HsParrot",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "LValue",
           "package": "HsParrot",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "LValue",
           "package": "HsParrot",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "LabelName",
           "package": "HsParrot",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "LabelName",
           "package": "HsParrot",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "Literal",
           "package": "HsParrot",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "Literal",
           "package": "HsParrot",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "LiteralClass",
           "package": "HsParrot",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "LiteralClass",
           "package": "HsParrot",
@@ -252,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA PMC type, which, for example, can be given as an argument to the \u003ccode\u003enew\u003c/code\u003e\n    opcode (e.g. \u003ccode\u003enew .PerlScalar\u003c/code\u003e). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "ObjType",
           "package": "HsParrot",
@@ -261,6 +284,7 @@
         "index": {
           "description": "PMC type which for example can be given as an argument to the new opcode e.g new PerlScalar",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "ObjType",
           "package": "HsParrot",
@@ -275,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePIR code consists of declarations. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "PIR",
           "package": "HsParrot",
@@ -284,6 +309,7 @@
         "index": {
           "description": "PIR code consists of declarations",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "PIR",
           "package": "HsParrot",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "PkgName",
           "package": "HsParrot",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "PkgName",
           "package": "HsParrot",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "PrimName",
           "package": "HsParrot",
@@ -326,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "PrimName",
           "package": "HsParrot",
@@ -339,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "RegClass",
           "package": "HsParrot",
@@ -347,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "RegClass",
           "package": "HsParrot",
@@ -360,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "RegType",
           "package": "HsParrot",
@@ -368,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "RegType",
           "package": "HsParrot",
@@ -381,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "Sig",
           "package": "HsParrot",
@@ -389,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "Sig",
           "package": "HsParrot",
@@ -402,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "Stmt",
           "package": "HsParrot",
@@ -410,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "Stmt",
           "package": "HsParrot",
@@ -424,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTags a PIR subroutine definition with \u003ccode\u003e@MAIN\u003c/code\u003e, \u003ccode\u003e@LOAD\u003c/code\u003e, \u003ccode\u003e@ANON\u003c/code\u003e,\n    \u003ccode\u003e@METHOD\u003c/code\u003e, or \u003ccode\u003e@MULTI\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "SubFlag",
           "package": "HsParrot",
@@ -433,6 +472,7 @@
         "index": {
           "description": "Tags PIR subroutine definition with MAIN LOAD ANON METHOD or MULTI",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "SubFlag",
           "package": "HsParrot",
@@ -446,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "SubName",
           "package": "HsParrot",
@@ -454,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "SubName",
           "package": "HsParrot",
@@ -467,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "VarName",
           "package": "HsParrot",
@@ -475,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "VarName",
           "package": "HsParrot",
@@ -489,6 +533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns from a sub. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "(--\u003e)",
           "package": "HsParrot",
@@ -499,6 +544,7 @@
         "index": {
           "description": "Returns from sub",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "(--\u003e) --\u003e",
           "normalized": "Decl-\u003e[Expression]-\u003eDecl",
@@ -514,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalls an user-defined sub which returns a list of values. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "(\u003c-&)",
           "package": "HsParrot",
@@ -524,6 +571,7 @@
         "index": {
           "description": "Calls an user-defined sub which returns list of values",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "(\u003c-&) \u003c-&",
           "normalized": "[Sig]-\u003eExpression-\u003e[Expression]-\u003eIns",
@@ -539,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalls an opcode which returns a value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "(\u003c--)",
           "package": "HsParrot",
@@ -549,6 +598,7 @@
         "index": {
           "description": "Calls an opcode which returns value",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "(\u003c--) \u003c--",
           "normalized": "LValue-\u003ePrimName-\u003e[Expression]-\u003eIns",
@@ -564,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort for \u003ccode\u003e\u003ca\u003eInsAssign\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "(\u003c==)",
           "package": "HsParrot",
@@ -574,6 +625,7 @@
         "index": {
           "description": "Short for InsAssign",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "(\u003c==) \u003c==",
           "normalized": "LValue-\u003eExpression-\u003eIns",
@@ -589,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort for \u003ccode\u003e\u003ca\u003eInsBind\u003c/a\u003e\u003c/code\u003e (binding). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "(\u003c:=)",
           "package": "HsParrot",
@@ -599,6 +652,7 @@
         "index": {
           "description": "Short for InsBind binding",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "(\u003c:=) \u003c:=",
           "normalized": "LValue-\u003eExpression-\u003eIns",
@@ -614,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalls an user-defined sub, ignoring any return values. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "(.&)",
           "package": "HsParrot",
@@ -624,6 +679,7 @@
         "index": {
           "description": "Calls an user-defined sub ignoring any return values",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "(.&) .&",
           "normalized": "Expression-\u003e[Expression]-\u003eIns",
@@ -639,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalls an opcode, ignoring any return values. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "(.-)",
           "package": "HsParrot",
@@ -649,6 +706,7 @@
         "index": {
           "description": "Calls an opcode ignoring any return values",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "(.-) .-",
           "normalized": "PrimName-\u003e[Expression]-\u003eIns",
@@ -663,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "BareType",
           "package": "HsParrot",
@@ -672,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "BareType",
           "package": "HsParrot",
@@ -685,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "Closure",
           "package": "HsParrot",
@@ -694,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "Closure",
           "package": "HsParrot",
@@ -707,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "Continuation",
           "package": "HsParrot",
@@ -716,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "Continuation",
           "package": "HsParrot",
@@ -730,6 +794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eHLL\u003c/code\u003e directive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "DeclHLL",
           "package": "HsParrot",
@@ -740,6 +805,7 @@
         "index": {
           "description": "HLL directive",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "DeclHLL",
           "package": "HsParrot",
@@ -754,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e.include\u003c/code\u003e directive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "DeclInc",
           "package": "HsParrot",
@@ -764,6 +831,7 @@
         "index": {
           "description": "include directive",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "DeclInc",
           "package": "HsParrot",
@@ -778,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamespace declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "DeclNS",
           "package": "HsParrot",
@@ -788,6 +857,7 @@
         "index": {
           "description": "Namespace declaration",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "DeclNS",
           "package": "HsParrot",
@@ -802,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubroutine declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "DeclSub",
           "package": "HsParrot",
@@ -812,6 +883,7 @@
         "index": {
           "description": "Subroutine declaration",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "DeclSub",
           "package": "HsParrot",
@@ -826,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "ExpLV",
           "package": "HsParrot",
@@ -836,6 +909,7 @@
         "index": {
           "description": "Variables",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "ExpLV",
           "package": "HsParrot",
@@ -850,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiterals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "ExpLit",
           "package": "HsParrot",
@@ -860,6 +935,7 @@
         "index": {
           "description": "Literals",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "ExpLit",
           "package": "HsParrot",
@@ -874,6 +950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteger register \u003cem\u003en\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "INT",
           "package": "HsParrot",
@@ -884,6 +961,7 @@
         "index": {
           "description": "Integer register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "INT",
           "package": "HsParrot",
@@ -898,6 +976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eassign\u003c/code\u003e opcode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "InsAssign",
           "package": "HsParrot",
@@ -908,6 +987,7 @@
         "index": {
           "description": "assign opcode",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "InsAssign",
           "package": "HsParrot",
@@ -922,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eset\u003c/code\u003e opcode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "InsBind",
           "package": "HsParrot",
@@ -932,6 +1013,7 @@
         "index": {
           "description": "set opcode",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "InsBind",
           "package": "HsParrot",
@@ -946,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "InsComment",
           "package": "HsParrot",
@@ -956,6 +1039,7 @@
         "index": {
           "description": "Comment",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "InsComment",
           "package": "HsParrot",
@@ -970,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "InsConst",
           "package": "HsParrot",
@@ -980,6 +1065,7 @@
         "index": {
           "description": "Constant",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "InsConst",
           "package": "HsParrot",
@@ -994,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "InsExp",
           "package": "HsParrot",
@@ -1004,6 +1091,7 @@
         "index": {
           "description": "Generic expressions",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "InsExp",
           "package": "HsParrot",
@@ -1018,6 +1106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction call\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "InsFun",
           "package": "HsParrot",
@@ -1028,6 +1117,7 @@
         "index": {
           "description": "Function call",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "InsFun",
           "normalized": "InsFun[Sig]Expression[Expression]",
@@ -1044,6 +1134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "InsLabel",
           "package": "HsParrot",
@@ -1054,6 +1145,7 @@
         "index": {
           "description": "Label",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "InsLabel",
           "package": "HsParrot",
@@ -1068,6 +1160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e.local\u003c/code\u003e directive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "InsLocal",
           "package": "HsParrot",
@@ -1078,6 +1171,7 @@
         "index": {
           "description": "local directive",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "InsLocal",
           "package": "HsParrot",
@@ -1092,6 +1186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enew\u003c/code\u003e opcode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "InsNew",
           "package": "HsParrot",
@@ -1102,6 +1197,7 @@
         "index": {
           "description": "new opcode",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "InsNew",
           "package": "HsParrot",
@@ -1116,6 +1212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther opcodes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "InsPrim",
           "package": "HsParrot",
@@ -1126,6 +1223,7 @@
         "index": {
           "description": "Other opcodes",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "InsPrim",
           "normalized": "InsPrim(Maybe LValue)PrimName[Expression]",
@@ -1142,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTail call\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "InsTailFun",
           "package": "HsParrot",
@@ -1152,6 +1251,7 @@
         "index": {
           "description": "Tail call",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "InsTailFun",
           "normalized": "InsTailFun Expression[Expression]",
@@ -1167,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "KEYED",
           "package": "HsParrot",
@@ -1176,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "KEYED",
           "package": "HsParrot",
@@ -1190,6 +1292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "LitInt",
           "package": "HsParrot",
@@ -1200,6 +1303,7 @@
         "index": {
           "description": "literal integer",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "LitInt",
           "package": "HsParrot",
@@ -1214,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "LitNum",
           "package": "HsParrot",
@@ -1224,6 +1329,7 @@
         "index": {
           "description": "literal number",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "LitNum",
           "package": "HsParrot",
@@ -1238,6 +1344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA literal string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "LitStr",
           "package": "HsParrot",
@@ -1248,6 +1355,7 @@
         "index": {
           "description": "literal string",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "LitStr",
           "package": "HsParrot",
@@ -1261,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "MkArgFlatten",
           "package": "HsParrot",
@@ -1270,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "MkArgFlatten",
           "package": "HsParrot",
@@ -1283,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "MkArgMaybeFlatten",
           "package": "HsParrot",
@@ -1292,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "MkArgMaybeFlatten",
           "package": "HsParrot",
@@ -1305,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "MkArgOptional",
           "package": "HsParrot",
@@ -1314,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "MkArgOptional",
           "package": "HsParrot",
@@ -1327,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "MkArgSlurpyArray",
           "package": "HsParrot",
@@ -1336,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "MkArgSlurpyArray",
           "package": "HsParrot",
@@ -1349,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "MkSig",
           "package": "HsParrot",
@@ -1358,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "MkSig",
           "package": "HsParrot",
@@ -1372,6 +1490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber register \u003cem\u003en\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "NUM",
           "package": "HsParrot",
@@ -1382,6 +1501,7 @@
         "index": {
           "description": "Number register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "NUM",
           "package": "HsParrot",
@@ -1396,6 +1516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePMC register \u003cem\u003en\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "PMC",
           "package": "HsParrot",
@@ -1406,6 +1527,7 @@
         "index": {
           "description": "PMC register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "PMC",
           "package": "HsParrot",
@@ -1419,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "PerlArray",
           "package": "HsParrot",
@@ -1428,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "PerlArray",
           "package": "HsParrot",
@@ -1441,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "PerlEnv",
           "package": "HsParrot",
@@ -1450,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "PerlEnv",
           "package": "HsParrot",
@@ -1463,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "PerlHash",
           "package": "HsParrot",
@@ -1472,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "PerlHash",
           "package": "HsParrot",
@@ -1485,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "PerlInt",
           "package": "HsParrot",
@@ -1494,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "PerlInt",
           "package": "HsParrot",
@@ -1507,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "PerlPair",
           "package": "HsParrot",
@@ -1516,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "PerlPair",
           "package": "HsParrot",
@@ -1529,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "PerlRef",
           "package": "HsParrot",
@@ -1538,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "PerlRef",
           "package": "HsParrot",
@@ -1551,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "PerlScalar",
           "package": "HsParrot",
@@ -1560,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "PerlScalar",
           "package": "HsParrot",
@@ -1574,6 +1710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eI\u003c/code\u003e (Integer) register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "RegInt",
           "package": "HsParrot",
@@ -1584,6 +1721,7 @@
         "index": {
           "description": "Integer register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "RegInt",
           "package": "HsParrot",
@@ -1598,6 +1736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eN\u003c/code\u003e (Number) register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "RegNum",
           "package": "HsParrot",
@@ -1608,6 +1747,7 @@
         "index": {
           "description": "Number register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "RegNum",
           "package": "HsParrot",
@@ -1622,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eP\u003c/code\u003e (PMC) register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "RegPMC",
           "package": "HsParrot",
@@ -1632,6 +1773,7 @@
         "index": {
           "description": "PMC register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "RegPMC",
           "package": "HsParrot",
@@ -1646,6 +1788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eS\u003c/code\u003e (String) register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "RegStr",
           "package": "HsParrot",
@@ -1656,6 +1799,7 @@
         "index": {
           "description": "String register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "RegStr",
           "package": "HsParrot",
@@ -1670,6 +1814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString register \u003cem\u003en\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "STR",
           "package": "HsParrot",
@@ -1680,6 +1825,7 @@
         "index": {
           "description": "String register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "STR",
           "package": "HsParrot",
@@ -1694,6 +1840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "StmtComment",
           "package": "HsParrot",
@@ -1704,6 +1851,7 @@
         "index": {
           "description": "Comment",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "StmtComment",
           "package": "HsParrot",
@@ -1718,6 +1866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric instructions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "StmtIns",
           "package": "HsParrot",
@@ -1728,6 +1877,7 @@
         "index": {
           "description": "Generic instructions",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "StmtIns",
           "package": "HsParrot",
@@ -1742,6 +1892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e#line\u003c/code\u003e directive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "StmtLine",
           "package": "HsParrot",
@@ -1752,6 +1903,7 @@
         "index": {
           "description": "line directive",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "StmtLine",
           "package": "HsParrot",
@@ -1766,6 +1918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLexical Pad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "StmtPad",
           "package": "HsParrot",
@@ -1776,6 +1929,7 @@
         "index": {
           "description": "Lexical Pad",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "StmtPad",
           "normalized": "StmtPad[(VarName,Expression)][Stmt]",
@@ -1792,6 +1946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBackdoor into raw \u003ccode\u003eDoc\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "StmtRaw",
           "package": "HsParrot",
@@ -1802,6 +1957,7 @@
         "index": {
           "description": "Backdoor into raw Doc",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "StmtRaw",
           "package": "HsParrot",
@@ -1816,6 +1972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInner subroutine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "StmtSub",
           "package": "HsParrot",
@@ -1826,6 +1983,7 @@
         "index": {
           "description": "Inner subroutine",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "StmtSub",
           "normalized": "StmtSub SubName[Stmt]",
@@ -1841,6 +1999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "Sub",
           "package": "HsParrot",
@@ -1850,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "Sub",
           "package": "HsParrot",
@@ -1863,6 +2023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "SubANON",
           "package": "HsParrot",
@@ -1872,6 +2033,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "SubANON",
           "package": "HsParrot",
@@ -1885,6 +2047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "SubLOAD",
           "package": "HsParrot",
@@ -1894,6 +2057,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "SubLOAD",
           "package": "HsParrot",
@@ -1907,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "SubMAIN",
           "package": "HsParrot",
@@ -1916,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "SubMAIN",
           "package": "HsParrot",
@@ -1929,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "SubMETHOD",
           "package": "HsParrot",
@@ -1938,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "SubMETHOD",
           "package": "HsParrot",
@@ -1951,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "SubMULTI",
           "package": "HsParrot",
@@ -1960,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "SubMULTI",
           "normalized": "SubMULTI[ObjType]",
@@ -1975,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "SubOUTER",
           "package": "HsParrot",
@@ -1984,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "SubOUTER",
           "package": "HsParrot",
@@ -1998,6 +2170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variable declared by \u003ccode\u003e.local\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "VAR",
           "package": "HsParrot",
@@ -2008,6 +2181,7 @@
         "index": {
           "description": "variable declared by local",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "VAR",
           "package": "HsParrot",
@@ -2022,6 +2196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$P10\u003c/code\u003e register \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "arg0",
           "package": "HsParrot",
@@ -2032,6 +2207,7 @@
         "index": {
           "description": "P10 register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "arg0",
           "package": "HsParrot",
@@ -2045,6 +2221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$P11\u003c/code\u003e register \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "arg1",
           "package": "HsParrot",
@@ -2055,6 +2232,7 @@
         "index": {
           "description": "P11 register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "arg1",
           "package": "HsParrot",
@@ -2068,6 +2246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$P12\u003c/code\u003e register \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "arg2",
           "package": "HsParrot",
@@ -2078,6 +2257,7 @@
         "index": {
           "description": "P12 register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "arg2",
           "package": "HsParrot",
@@ -2091,6 +2271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$P13\u003c/code\u003e register \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "arg3",
           "package": "HsParrot",
@@ -2101,6 +2282,7 @@
         "index": {
           "description": "P13 register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "arg3",
           "package": "HsParrot",
@@ -2113,6 +2295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "argVal",
           "package": "HsParrot",
@@ -2122,6 +2305,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "argVal",
           "normalized": "ArgFlag-\u003eInt",
@@ -2137,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "bare",
           "package": "HsParrot",
@@ -2146,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "bare",
           "normalized": "VarName-\u003eExpression",
@@ -2160,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "callThunkCC",
           "package": "HsParrot",
@@ -2169,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "callThunkCC",
           "normalized": "Expression-\u003e[Ins]",
@@ -2184,6 +2372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "collectCC",
           "package": "HsParrot",
@@ -2193,6 +2382,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "collectCC",
           "normalized": "[Ins]",
@@ -2208,6 +2398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "commaSep",
           "package": "HsParrot",
@@ -2217,6 +2408,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "commaSep",
           "normalized": "[a]-\u003eDoc",
@@ -2232,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "curPad",
           "package": "HsParrot",
@@ -2241,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "curPad",
           "package": "HsParrot",
@@ -2254,6 +2448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "dhGroup",
           "package": "HsParrot",
@@ -2263,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "dhGroup",
           "package": "HsParrot",
@@ -2276,6 +2472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "dhLang",
           "package": "HsParrot",
@@ -2285,6 +2482,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "dhLang",
           "package": "HsParrot",
@@ -2298,6 +2496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "diFile",
           "package": "HsParrot",
@@ -2307,6 +2506,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "diFile",
           "package": "HsParrot",
@@ -2320,6 +2520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "dnBody",
           "package": "HsParrot",
@@ -2329,6 +2530,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "dnBody",
           "normalized": "[Decl]",
@@ -2344,6 +2546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "dnPackage",
           "package": "HsParrot",
@@ -2353,6 +2556,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "dnPackage",
           "package": "HsParrot",
@@ -2366,6 +2570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "dsBody",
           "package": "HsParrot",
@@ -2375,6 +2580,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "dsBody",
           "normalized": "[Stmt]",
@@ -2390,6 +2596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "dsFlags",
           "package": "HsParrot",
@@ -2399,6 +2606,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "dsFlags",
           "normalized": "[SubFlag]",
@@ -2414,6 +2622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "dsName",
           "package": "HsParrot",
@@ -2423,6 +2632,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "dsName",
           "package": "HsParrot",
@@ -2436,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "emit",
           "package": "HsParrot",
@@ -2445,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "emit",
           "normalized": "a-\u003eDoc",
@@ -2459,6 +2671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "emitArgs",
           "package": "HsParrot",
@@ -2468,6 +2681,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "emitArgs",
           "normalized": "[a]-\u003eDoc",
@@ -2483,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "emitFun",
           "package": "HsParrot",
@@ -2492,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "emitFun",
           "normalized": "CallConv-\u003ea-\u003e[b]-\u003e[Sig]-\u003eDoc",
@@ -2507,6 +2723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "emitFunName",
           "package": "HsParrot",
@@ -2516,6 +2733,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "emitFunName",
           "normalized": "CallConv-\u003eString-\u003e[a]-\u003e[Sig]-\u003eDoc",
@@ -2531,6 +2749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "emitRets",
           "package": "HsParrot",
@@ -2540,6 +2759,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "emitRets",
           "normalized": "[Sig]-\u003eDoc",
@@ -2555,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "emitStmts",
           "package": "HsParrot",
@@ -2564,6 +2785,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "emitStmts",
           "normalized": "[Stmt]-\u003eDoc",
@@ -2579,6 +2801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "eqSep",
           "package": "HsParrot",
@@ -2588,6 +2811,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "eqSep",
           "normalized": "a-\u003eb-\u003e[c]-\u003eDoc",
@@ -2604,6 +2828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscapes characters which have a special meaning in PIR. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "escaped",
           "package": "HsParrot",
@@ -2614,6 +2839,7 @@
         "index": {
           "description": "Escapes characters which have special meaning in PIR",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "escaped",
           "normalized": "String-\u003eString",
@@ -2628,6 +2854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "expKeyed",
           "package": "HsParrot",
@@ -2637,6 +2864,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "expKeyed",
           "normalized": "LValue-\u003eExpression-\u003eExpression",
@@ -2653,6 +2881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$P1\u003c/code\u003e register \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "funPMC",
           "package": "HsParrot",
@@ -2663,6 +2892,7 @@
         "index": {
           "description": "P1 register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "funPMC",
           "package": "HsParrot",
@@ -2677,6 +2907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e.HLL\u003c/code\u003e directive. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "hll",
           "package": "HsParrot",
@@ -2687,6 +2918,7 @@
         "index": {
           "description": "HLL directive",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "hll",
           "normalized": "String-\u003eString-\u003eDecl",
@@ -2702,6 +2934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e.include\u003c/code\u003e directive. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "include",
           "package": "HsParrot",
@@ -2712,6 +2945,7 @@
         "index": {
           "description": "include directive",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "include",
           "normalized": "PkgName-\u003eDecl",
@@ -2726,6 +2960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "lit",
           "package": "HsParrot",
@@ -2735,6 +2970,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "lit",
           "normalized": "a-\u003eExpression",
@@ -2750,6 +2986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral zero \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "lit0",
           "package": "HsParrot",
@@ -2760,6 +2997,7 @@
         "index": {
           "description": "Literal zero",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "lit0",
           "package": "HsParrot",
@@ -2772,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "maybeFlatten",
           "package": "HsParrot",
@@ -2781,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "maybeFlatten",
           "package": "HsParrot",
@@ -2794,6 +3034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "nested",
           "package": "HsParrot",
@@ -2803,6 +3044,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "nested",
           "normalized": "a-\u003eDoc",
@@ -2817,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "noArgs",
           "package": "HsParrot",
@@ -2826,6 +3069,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "noArgs",
           "normalized": "[Expression]",
@@ -2842,6 +3086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$P0\u003c/code\u003e register \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "nullPMC",
           "package": "HsParrot",
@@ -2852,6 +3097,7 @@
         "index": {
           "description": "P0 register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "nullPMC",
           "package": "HsParrot",
@@ -2866,6 +3112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates appropriate \u003ccode\u003e&infix:foo\u003c/code\u003e subs for logical operators (\u003ccode\u003e||\u003c/code\u003e, \u003ccode\u003e&&\u003c/code\u003e,\n    etc.). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "op2Logical",
           "package": "HsParrot",
@@ -2875,6 +3122,7 @@
         "index": {
           "description": "Creates appropriate infix foo subs for logical operators etc",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "op2Logical",
           "normalized": "VarName-\u003ePrimName-\u003eDecl",
@@ -2891,6 +3139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Prelude, defining primitives like \u003ccode\u003e&say\u003c/code\u003e, \u003ccode\u003e&infix:+\u003c/code\u003e, etc. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "preludePIR",
           "package": "HsParrot",
@@ -2901,6 +3150,7 @@
         "index": {
           "description": "The Prelude defining primitives like say infix etc",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "preludePIR",
           "package": "HsParrot",
@@ -2914,6 +3164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "quoted",
           "package": "HsParrot",
@@ -2923,6 +3174,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "quoted",
           "normalized": "String-\u003eString",
@@ -2937,6 +3189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "reg",
           "package": "HsParrot",
@@ -2946,6 +3199,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "reg",
           "normalized": "LValue-\u003ea",
@@ -2960,6 +3214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "retSigList",
           "package": "HsParrot",
@@ -2969,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "retSigList",
           "normalized": "[Expression]-\u003e[Expression]",
@@ -2985,6 +3241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$P2\u003c/code\u003e register \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "rv",
           "package": "HsParrot",
@@ -2995,6 +3252,7 @@
         "index": {
           "description": "P2 register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "rv",
           "package": "HsParrot",
@@ -3007,6 +3265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "sigFlags",
           "package": "HsParrot",
@@ -3016,6 +3275,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "sigFlags",
           "normalized": "[ArgFlag]",
@@ -3031,6 +3291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "sigIdent",
           "package": "HsParrot",
@@ -3040,6 +3301,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "sigIdent",
           "package": "HsParrot",
@@ -3053,6 +3315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "sigList",
           "package": "HsParrot",
@@ -3062,6 +3325,7 @@
         },
         "index": {
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "sigList",
           "normalized": "[Sig]-\u003e[Expression]",
@@ -3078,6 +3342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarks a parameter as slurpy. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "slurpy",
           "package": "HsParrot",
@@ -3088,6 +3353,7 @@
         "index": {
           "description": "Marks parameter as slurpy",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "slurpy",
           "normalized": "Expression-\u003eSig",
@@ -3103,6 +3369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates appropriate \u003ccode\u003e&statement_control:foo\u003c/code\u003e subroutines. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "stmtControlCond",
           "package": "HsParrot",
@@ -3112,6 +3379,7 @@
         "index": {
           "description": "Creates appropriate statement control foo subroutines",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "stmtControlCond",
           "normalized": "VarName-\u003ePrimName-\u003eDecl",
@@ -3128,6 +3396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates appropriate \u003ccode\u003e&statement_control:foo\u003c/code\u003e subroutines. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "stmtControlLoop",
           "package": "HsParrot",
@@ -3137,6 +3406,7 @@
         "index": {
           "description": "Creates appropriate statement control foo subroutines",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "stmtControlLoop",
           "normalized": "VarName-\u003ePrimName-\u003eDecl",
@@ -3153,6 +3423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubroutine declaration. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "sub",
           "package": "HsParrot",
@@ -3162,6 +3433,7 @@
         "index": {
           "description": "Subroutine declaration",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "sub",
           "normalized": "SubName-\u003e[Sig]-\u003e[Ins]-\u003eDecl",
@@ -3177,6 +3449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$I8\u003c/code\u003e register \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "tempINT",
           "package": "HsParrot",
@@ -3187,6 +3460,7 @@
         "index": {
           "description": "I8 register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "tempINT",
           "package": "HsParrot",
@@ -3201,6 +3475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$I9\u003c/code\u003e register \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "tempINT2",
           "package": "HsParrot",
@@ -3211,6 +3486,7 @@
         "index": {
           "description": "I9 register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "tempINT2",
           "package": "HsParrot",
@@ -3225,6 +3501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$I10\u003c/code\u003e register \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "tempINT3",
           "package": "HsParrot",
@@ -3235,6 +3512,7 @@
         "index": {
           "description": "I10 register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "tempINT3",
           "package": "HsParrot",
@@ -3249,6 +3527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$I11\u003c/code\u003e register \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "tempINT4",
           "package": "HsParrot",
@@ -3259,6 +3538,7 @@
         "index": {
           "description": "I11 register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "tempINT4",
           "package": "HsParrot",
@@ -3273,6 +3553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$N8\u003c/code\u003e register \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "tempNUM",
           "package": "HsParrot",
@@ -3283,6 +3564,7 @@
         "index": {
           "description": "N8 register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "tempNUM",
           "package": "HsParrot",
@@ -3297,6 +3579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$N9\u003c/code\u003e register \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "tempNUM2",
           "package": "HsParrot",
@@ -3307,6 +3590,7 @@
         "index": {
           "description": "N9 register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "tempNUM2",
           "package": "HsParrot",
@@ -3321,6 +3605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$P8\u003c/code\u003e register \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "tempPMC",
           "package": "HsParrot",
@@ -3331,6 +3616,7 @@
         "index": {
           "description": "P8 register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "tempPMC",
           "package": "HsParrot",
@@ -3345,6 +3631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$P9\u003c/code\u003e register \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "tempPMC2",
           "package": "HsParrot",
@@ -3355,6 +3642,7 @@
         "index": {
           "description": "P9 register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "tempPMC2",
           "package": "HsParrot",
@@ -3369,6 +3657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$S8\u003c/code\u003e register \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "tempSTR",
           "package": "HsParrot",
@@ -3379,6 +3668,7 @@
         "index": {
           "description": "S8 register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "tempSTR",
           "package": "HsParrot",
@@ -3393,6 +3683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$S9\u003c/code\u003e register \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "tempSTR2",
           "package": "HsParrot",
@@ -3403,6 +3694,7 @@
         "index": {
           "description": "S9 register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "tempSTR2",
           "package": "HsParrot",
@@ -3417,6 +3709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$S10\u003c/code\u003e register \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "tempSTR3",
           "package": "HsParrot",
@@ -3427,6 +3720,7 @@
         "index": {
           "description": "S10 register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "tempSTR3",
           "package": "HsParrot",
@@ -3441,6 +3735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn the case a Perl 6 builtin corresponds exactly to a PIR opcode, you can\n    use \u003ccode\u003e\u003ca\u003evop1\u003c/a\u003e\u003c/code\u003e to create an appropriate wrapper for an opcode expecting \u003cem\u003eone\u003c/em\u003e\n    argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "vop1",
           "package": "HsParrot",
@@ -3450,6 +3745,7 @@
         "index": {
           "description": "In the case Perl builtin corresponds exactly to PIR opcode you can use vop1 to create an appropriate wrapper for an opcode expecting one argument",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "vop1",
           "normalized": "SubName-\u003ePrimName-\u003eDecl",
@@ -3465,6 +3761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric wrapper for coercion/context forcing (used by \u003ccode\u003e&prefix:\u003c+\u003e\u003c/code\u003e,\n    \u003ccode\u003e&prefix:\u003c~\u003e\u003c/code\u003e, etc.) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "vop1coerce",
           "package": "HsParrot",
@@ -3474,6 +3771,7 @@
         "index": {
           "description": "Generic wrapper for coercion context forcing used by prefix prefix etc",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "vop1coerce",
           "normalized": "a)-\u003eDecl",
@@ -3489,6 +3787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for an opcode which accepts and returns an \u003ccode\u003eI\u003c/code\u003e register. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "vop1ii",
           "package": "HsParrot",
@@ -3499,6 +3798,7 @@
         "index": {
           "description": "Wrapper for an opcode which accepts and returns an register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "vop1ii",
           "normalized": "SubName-\u003ePrimName-\u003eDecl",
@@ -3514,6 +3814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for an opcode which returns a \u003ccode\u003eI\u003c/code\u003e register and accepts a \u003ccode\u003eP\u003c/code\u003e register. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "vop1ip",
           "package": "HsParrot",
@@ -3524,6 +3825,7 @@
         "index": {
           "description": "Wrapper for an opcode which returns register and accepts register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "vop1ip",
           "normalized": "SubName-\u003ePrimName-\u003eDecl",
@@ -3539,6 +3841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for an opcode which returns a \u003ccode\u003eI\u003c/code\u003e register and accepts a \u003ccode\u003eS\u003c/code\u003e register. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "vop1is",
           "package": "HsParrot",
@@ -3549,6 +3852,7 @@
         "index": {
           "description": "Wrapper for an opcode which returns register and accepts register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "vop1is",
           "normalized": "SubName-\u003ePrimName-\u003eDecl",
@@ -3564,6 +3868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for an opcode which accepts and returns a \u003ccode\u003eN\u003c/code\u003e register. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "vop1nn",
           "package": "HsParrot",
@@ -3574,6 +3879,7 @@
         "index": {
           "description": "Wrapper for an opcode which accepts and returns register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "vop1nn",
           "normalized": "SubName-\u003ePrimName-\u003eDecl",
@@ -3589,6 +3895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for an opcode which returns a \u003ccode\u003eS\u003c/code\u003e register and accepts a \u003ccode\u003eI\u003c/code\u003e register. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "vop1si",
           "package": "HsParrot",
@@ -3599,6 +3906,7 @@
         "index": {
           "description": "Wrapper for an opcode which returns register and accepts register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "vop1si",
           "normalized": "SubName-\u003ePrimName-\u003eDecl",
@@ -3614,6 +3922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for an opcode which accepts and returns a \u003ccode\u003eS\u003c/code\u003e register. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "vop1ss",
           "package": "HsParrot",
@@ -3624,6 +3933,7 @@
         "index": {
           "description": "Wrapper for an opcode which accepts and returns register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "vop1ss",
           "normalized": "SubName-\u003ePrimName-\u003eDecl",
@@ -3639,6 +3949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric wrapper for unary opcodes. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "vop1x",
           "package": "HsParrot",
@@ -3648,6 +3959,7 @@
         "index": {
           "description": "Generic wrapper for unary opcodes",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "vop1x",
           "normalized": "a)-\u003eDecl",
@@ -3663,6 +3975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn the case a Perl 6 builtin corresponds exactly to a PIR opcode, you can\n    use \u003ccode\u003e\u003ca\u003evop2\u003c/a\u003e\u003c/code\u003e to create an appropriate wrapper for an opcode expecting \u003cem\u003etwo\u003c/em\u003e\n    arguments. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "vop2",
           "package": "HsParrot",
@@ -3672,6 +3985,7 @@
         "index": {
           "description": "In the case Perl builtin corresponds exactly to PIR opcode you can use vop2 to create an appropriate wrapper for an opcode expecting two arguments",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "vop2",
           "normalized": "SubName-\u003ePrimName-\u003eDecl",
@@ -3687,6 +4001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for an opcode which accepts and returns \u003ccode\u003eI\u003c/code\u003e registers. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "vop2iii",
           "package": "HsParrot",
@@ -3697,6 +4012,7 @@
         "index": {
           "description": "Wrapper for an opcode which accepts and returns registers",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "vop2iii",
           "normalized": "SubName-\u003ePrimName-\u003eDecl",
@@ -3712,6 +4028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for an opcode which accepts two \u003ccode\u003eS\u003c/code\u003e registers and returns a native\n    integer (\u003ccode\u003eI\u003c/code\u003e register). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "vop2iss",
           "package": "HsParrot",
@@ -3722,6 +4039,7 @@
         "index": {
           "description": "Wrapper for an opcode which accepts two registers and returns native integer register",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "vop2iss",
           "normalized": "SubName-\u003ePrimName-\u003eDecl",
@@ -3737,6 +4055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a sub which accepts a thing which allows keyed access (for\n    example aggregates) and an index. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "vop2keyed",
           "package": "HsParrot",
@@ -3746,6 +4065,7 @@
         "index": {
           "description": "Creates sub which accepts thing which allows keyed access for example aggregates and an index",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "vop2keyed",
           "normalized": "SubName-\u003eLValue-\u003eDecl",
@@ -3761,6 +4081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for an opcode which accepts and returns \u003ccode\u003eN\u003c/code\u003e registers. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "vop2nnn",
           "package": "HsParrot",
@@ -3771,6 +4092,7 @@
         "index": {
           "description": "Wrapper for an opcode which accepts and returns registers",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "vop2nnn",
           "normalized": "SubName-\u003ePrimName-\u003eDecl",
@@ -3786,6 +4108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric wrapper for two-ary opcodes. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:12 UTC 2014",
           "module": "Language.PIR",
           "name": "vop2x",
           "package": "HsParrot",
@@ -3795,6 +4118,7 @@
         "index": {
           "description": "Generic wrapper for two-ary opcodes",
           "hierarchy": "Language PIR",
+          "indexed": "2014-03-11T16:49:12",
           "module": "Language.PIR",
           "name": "vop2x",
           "normalized": "a)-\u003eDecl",

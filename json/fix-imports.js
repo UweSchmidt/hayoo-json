@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fix-imports"
+        "phrase": "fix-imports",
+        "type": "phrase"
       },
       "type": "context"
     }

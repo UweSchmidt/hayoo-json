@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nanocurses"
+        "phrase": "nanocurses",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "Attr",
           "package": "nanocurses",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "Attr",
           "package": "nanocurses",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "Color",
           "package": "nanocurses",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "Color",
           "package": "nanocurses",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "CursorVisibility",
           "package": "nanocurses",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "CursorVisibility",
           "package": "nanocurses",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "Pair",
           "package": "nanocurses",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "Pair",
           "package": "nanocurses",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "attr0",
           "package": "nanocurses",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "attr0",
           "package": "nanocurses",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "attrPlus",
           "package": "nanocurses",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "attrPlus",
           "normalized": "Attr-\u003eAttr-\u003eAttr",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "attrSet",
           "package": "nanocurses",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "attrSet",
           "normalized": "Attr-\u003ePair-\u003eIO()",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "bkgrndSet",
           "package": "nanocurses",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "bkgrndSet",
           "normalized": "Attr-\u003ePair-\u003eIO()",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "clrToEol",
           "package": "nanocurses",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "clrToEol",
           "normalized": "IO()",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "color",
           "package": "nanocurses",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "color",
           "normalized": "String-\u003eMaybe Color",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the cursor state\n\u003c/p\u003e\u003cpre\u003e       The curs_set routine sets  the  cursor  state  is  set  to\n       invisible, normal, or very visible for visibility equal to\n       0, 1, or 2 respectively.  If  the  terminal  supports  the\n       visibility   requested,   the  previous  cursor  state  is\n       returned; otherwise, ERR is returned.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "cursSet",
           "package": "nanocurses",
@@ -253,6 +274,7 @@
         "index": {
           "description": "Set the cursor state The curs set routine sets the cursor state is set to invisible normal or very visible for visibility equal to or respectively If the terminal supports the visibility requested the previous cursor state is returned otherwise ERR is returned",
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "cursSet",
           "normalized": "CInt-\u003eIO CInt",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e The program must call endwin for each terminal being used before\n exiting from curses.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "endWin",
           "package": "nanocurses",
@@ -279,6 +302,7 @@
         "index": {
           "description": "The program must call endwin for each terminal being used before exiting from curses",
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "endWin",
           "normalized": "IO()",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread a character from the window\n\u003c/p\u003e\u003cp\u003eWhen ESC followed by another key is pressed before the ESC timeout,\n that second character is not returned until a third character is\n pressed. wtimeout, nodelay and timeout don't appear to change this\n behaviour.\n\u003c/p\u003e\u003cp\u003eOn emacs, we really would want Alt to be our meta key, I think.\n\u003c/p\u003e\u003cp\u003eBe warned, getCh will block the whole process without noDelay\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "getCh",
           "package": "nanocurses",
@@ -305,6 +330,7 @@
         "index": {
           "description": "read character from the window When ESC followed by another key is pressed before the ESC timeout that second character is not returned until third character is pressed wtimeout nodelay and timeout don appear to change this behaviour On emacs we really would want Alt to be our meta key think Be warned getCh will block the whole process without noDelay",
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "getCh",
           "package": "nanocurses",
@@ -319,6 +345,7 @@
       "document": {
         "description": {
           "description": "Get the current cursor coordinates\n",
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "getYX",
           "package": "nanocurses",
@@ -329,6 +356,7 @@
         "index": {
           "description": "Get the current cursor coordinates",
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "getYX",
           "normalized": "Window-\u003eIO(Int,Int)",
@@ -344,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "hasColors",
           "package": "nanocurses",
@@ -353,6 +382,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "hasColors",
           "package": "nanocurses",
@@ -367,6 +397,7 @@
       "document": {
         "description": {
           "description": "Start it all up\n",
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "initCurses",
           "package": "nanocurses",
@@ -377,6 +408,7 @@
         "index": {
           "description": "Start it all up",
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "initCurses",
           "normalized": "IO()-\u003eIO()",
@@ -393,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e curses support color attributes  on  terminals  with  that\n capability.   To  use  these  routines start_color must be\n called, usually right after initscr.   Colors  are  always\n used  in pairs (referred to as color-pairs).  A color-pair\n consists of a foreground  color  (for  characters)  and  a\n background color (for the blank field on which the charac-\n ters are displayed).  A programmer  initializes  a  color-\n pair  with  the routine init_pair.  After it has been ini-\n tialized, COLOR_PAIR(n), a macro  defined  in  \u003ccurses.h\u003e,\n can be used as a new video attribute.\n\u003c/pre\u003e\u003cpre\u003e If  a  terminal  is capable of redefining colors, the pro-\n grammer can use the routine init_color to change the defi-\n nition   of   a   color.\n\u003c/pre\u003e\u003cpre\u003e The init_pair routine changes the definition of  a  color-\n pair.   It takes three arguments: the number of the color-\n pair to be changed, the foreground color number,  and  the\n background color number.  For portable applications:\n\u003c/pre\u003e\u003cpre\u003e -  The value of the first argument must be between 1 and\n    COLOR_PAIRS-1.\n\u003c/pre\u003e\u003cpre\u003e -  The value of the second and third arguments  must  be\n    between  0  and  COLORS (the 0 color pair is wired to\n    white on black and cannot be changed).\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "initPair",
           "package": "nanocurses",
@@ -403,6 +436,7 @@
         "index": {
           "description": "curses support color attributes on terminals with that capability To use these routines start color must be called usually right after initscr Colors are always used in pairs referred to as color-pairs color-pair consists of foreground color for characters and background color for the blank field on which the charac ters are displayed programmer initializes color pair with the routine init pair After it has been ini tialized COLOR PAIR macro defined in curses.h can be used as new video attribute If terminal is capable of redefining colors the pro grammer can use the routine init color to change the defi nition of color The init pair routine changes the definition of color pair It takes three arguments the number of the color pair to be changed the foreground color number and the background color number For portable applications The value of the first argument must be between and COLOR PAIRS-1 The value of the second and third arguments must be between and COLORS the color pair is wired to white on black and cannot be changed",
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "initPair",
           "normalized": "Pair-\u003eColor-\u003eColor-\u003eIO()",
@@ -418,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "keyBackspace",
           "package": "nanocurses",
@@ -427,6 +462,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "keyBackspace",
           "package": "nanocurses",
@@ -441,6 +477,7 @@
       "document": {
         "description": {
           "description": "Some constants for easy symbolic manipulation.\n NB we don't map keys to an abstract type anymore, as we can't use\n Alex lexers then.\n",
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "keyDown",
           "package": "nanocurses",
@@ -451,6 +488,7 @@
         "index": {
           "description": "Some constants for easy symbolic manipulation NB we don map keys to an abstract type anymore as we can use Alex lexers then",
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "keyDown",
           "package": "nanocurses",
@@ -464,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "keyEnd",
           "package": "nanocurses",
@@ -473,6 +512,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "keyEnd",
           "package": "nanocurses",
@@ -486,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "keyHome",
           "package": "nanocurses",
@@ -495,6 +536,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "keyHome",
           "package": "nanocurses",
@@ -508,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "keyLeft",
           "package": "nanocurses",
@@ -517,6 +560,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "keyLeft",
           "package": "nanocurses",
@@ -530,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "keyNPage",
           "package": "nanocurses",
@@ -539,6 +584,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "keyNPage",
           "package": "nanocurses",
@@ -552,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "keyPPage",
           "package": "nanocurses",
@@ -561,6 +608,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "keyPPage",
           "package": "nanocurses",
@@ -574,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "keyResize",
           "package": "nanocurses",
@@ -583,6 +632,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "keyResize",
           "package": "nanocurses",
@@ -596,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "keyRight",
           "package": "nanocurses",
@@ -605,6 +656,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "keyRight",
           "package": "nanocurses",
@@ -618,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "keyUp",
           "package": "nanocurses",
@@ -627,6 +680,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "keyUp",
           "package": "nanocurses",
@@ -641,6 +695,7 @@
       "document": {
         "description": {
           "description": "Enable the keypad of the user's terminal.\n",
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "keypad",
           "package": "nanocurses",
@@ -651,6 +706,7 @@
         "index": {
           "description": "Enable the keypad of the user terminal",
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "keypad",
           "normalized": "Window-\u003eBool-\u003eIO()",
@@ -666,6 +722,7 @@
       "document": {
         "description": {
           "description": "refresh curses windows and lines. curs_refresh(3)\n",
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "refresh",
           "package": "nanocurses",
@@ -676,6 +733,7 @@
         "index": {
           "description": "refresh curses windows and lines curs refresh",
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "refresh",
           "normalized": "IO()",
@@ -691,6 +749,7 @@
       "document": {
         "description": {
           "description": "A bunch of settings we need\n",
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "resetParams",
           "package": "nanocurses",
@@ -701,6 +760,7 @@
         "index": {
           "description": "bunch of settings we need",
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "resetParams",
           "normalized": "IO()",
@@ -717,6 +777,7 @@
       "document": {
         "description": {
           "description": "get the dimensions of the screen\n",
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "scrSize",
           "package": "nanocurses",
@@ -727,6 +788,7 @@
         "index": {
           "description": "get the dimensions of the screen",
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "scrSize",
           "normalized": "IO(Int,Int)",
@@ -742,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "setBold",
           "package": "nanocurses",
@@ -751,6 +814,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "setBold",
           "normalized": "Attr-\u003eBool-\u003eAttr",
@@ -766,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "setReverse",
           "package": "nanocurses",
@@ -775,6 +840,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "setReverse",
           "normalized": "Attr-\u003eBool-\u003eAttr",
@@ -791,6 +857,7 @@
       "document": {
         "description": {
           "description": "The standard screen\n",
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "stdScr",
           "package": "nanocurses",
@@ -801,6 +868,7 @@
         "index": {
           "description": "The standard screen",
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "stdScr",
           "package": "nanocurses",
@@ -815,6 +883,7 @@
       "document": {
         "description": {
           "description": "Discard result\n",
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "throwIfErr_",
           "package": "nanocurses",
@@ -825,6 +894,7 @@
         "index": {
           "description": "Discard result",
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "throwIfErr_",
           "normalized": "ByteString-\u003eIO a-\u003eIO()",
@@ -841,6 +911,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e    move the cursor associated with the window\n    to line y and column x.  This routine does  not  move  the\n    physical  cursor  of the terminal until refresh is called.\n    The position specified is relative to the upper  left-hand\n    corner of the window, which is (0,0).\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "wMove",
           "package": "nanocurses",
@@ -851,6 +922,7 @@
         "index": {
           "description": "move the cursor associated with the window to line and column This routine does not move the physical cursor of the terminal until refresh is called The position specified is relative to the upper left-hand corner of the window which is",
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "wMove",
           "normalized": "Window-\u003eInt-\u003eInt-\u003eIO()",
@@ -866,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:54 UTC 2014",
           "module": "UI.Nanocurses.Curses",
           "name": "waddnstr",
           "package": "nanocurses",
@@ -875,6 +948,7 @@
         },
         "index": {
           "hierarchy": "UI Nanocurses Curses",
+          "indexed": "2014-03-11T19:25:54",
           "module": "UI.Nanocurses.Curses",
           "name": "waddnstr",
           "normalized": "Window-\u003eCString-\u003eCInt-\u003eIO CInt",

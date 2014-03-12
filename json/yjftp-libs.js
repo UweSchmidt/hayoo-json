@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yjftp-libs"
+        "phrase": "yjftp-libs",
+        "type": "phrase"
       },
       "type": "context"
     }

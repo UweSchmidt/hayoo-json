@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dates"
+        "phrase": "dates",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module allows to parse arbitrary date formats.\n Date formats are specified as strings:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eDD.MM.YYY\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eYYYY/MM/DD\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eDD/MM/YYYY, HH:mm:SS\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eYY.MM.DD[, HH:mm:SS]\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e and so on.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Formats",
           "name": "Formats",
           "package": "dates",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module allows to parse arbitrary date formats Date formats are specified as strings DD.MM.YYY YYYY MM DD DD MM YYYY HH mm SS YY.MM.DD HH mm SS and so on",
           "hierarchy": "Data Dates Formats",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Formats",
           "name": "Formats",
           "package": "dates",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate/time format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Formats",
           "name": "Format",
           "package": "dates",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Date time format",
           "hierarchy": "Data Dates Formats",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Formats",
           "name": "Format",
           "package": "dates",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate/time format element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Formats",
           "name": "FormatElement",
           "package": "dates",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Date time format element",
           "hierarchy": "Data Dates Formats",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Formats",
           "name": "FormatElement",
           "package": "dates",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Formats",
           "name": "FormatParser",
           "package": "dates",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data Dates Formats",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Formats",
           "name": "FormatParser",
           "package": "dates",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Formats",
           "name": "DAY",
           "package": "dates",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Dates Formats",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Formats",
           "name": "DAY",
           "package": "dates",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Formats",
           "name": "Fixed",
           "package": "dates",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Data Dates Formats",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Formats",
           "name": "Fixed",
           "package": "dates",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Formats",
           "name": "HOUR",
           "package": "dates",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Data Dates Formats",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Formats",
           "name": "HOUR",
           "package": "dates",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Formats",
           "name": "MINUTE",
           "package": "dates",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Data Dates Formats",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Formats",
           "name": "MINUTE",
           "package": "dates",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Formats",
           "name": "MONTH",
           "package": "dates",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Data Dates Formats",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Formats",
           "name": "MONTH",
           "package": "dates",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Formats",
           "name": "SECOND",
           "package": "dates",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Data Dates Formats",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Formats",
           "name": "SECOND",
           "package": "dates",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Formats",
           "name": "Whitespace",
           "package": "dates",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Data Dates Formats",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Formats",
           "name": "Whitespace",
           "package": "dates",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Formats",
           "name": "YEAR",
           "package": "dates",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Data Dates Formats",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Formats",
           "name": "YEAR",
           "package": "dates",
@@ -285,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake Parser for specified date format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Formats",
           "name": "formatParser",
           "package": "dates",
@@ -295,6 +320,7 @@
         "index": {
           "description": "Make Parser for specified date format",
           "hierarchy": "Data Dates Formats",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Formats",
           "name": "formatParser",
           "normalized": "Format-\u003eParsecT a b c DateTime",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Formats",
           "name": "pFormat",
           "package": "dates",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Data Dates Formats",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Formats",
           "name": "pFormat",
           "package": "dates",
@@ -333,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse date/time in specified format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Formats",
           "name": "parseDateFormat",
           "package": "dates",
@@ -342,6 +371,7 @@
         "index": {
           "description": "Parse date time in specified format",
           "hierarchy": "Data Dates Formats",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Formats",
           "name": "parseDateFormat",
           "normalized": "String-\u003eString-\u003eEither ParseError DateTime",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Formats",
           "name": "parseFormat",
           "package": "dates",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Data Dates Formats",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Formats",
           "name": "parseFormat",
           "normalized": "String-\u003eEither ParseError Format",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Internal",
           "name": "Internal",
           "package": "dates",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Data Dates Internal",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Internal",
           "name": "Internal",
           "package": "dates",
@@ -403,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse natural number of N digits\n which is not greater than M\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Internal",
           "name": "number",
           "package": "dates",
@@ -412,6 +447,7 @@
         "index": {
           "description": "Parse natural number of digits which is not greater than",
           "hierarchy": "Data Dates Internal",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Internal",
           "name": "number",
           "normalized": "Int-\u003eInt-\u003eParsecT a b c Int",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Internal",
           "name": "pDay",
           "package": "dates",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Data Dates Internal",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Internal",
           "name": "pDay",
           "package": "dates",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Internal",
           "name": "pMonth",
           "package": "dates",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Data Dates Internal",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Internal",
           "name": "pMonth",
           "package": "dates",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Internal",
           "name": "pYear",
           "package": "dates",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Data Dates Internal",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Internal",
           "name": "pYear",
           "package": "dates",
@@ -493,6 +535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply parser N times\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Internal",
           "name": "times",
           "package": "dates",
@@ -503,6 +546,7 @@
         "index": {
           "description": "Apply parser times",
           "hierarchy": "Data Dates Internal",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Internal",
           "name": "times",
           "normalized": "Int-\u003eParsecT a b c d-\u003eParsecT a b c[d]",
@@ -569,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Types",
           "name": "Types",
           "package": "dates",
@@ -577,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Data Dates Types",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Types",
           "name": "Types",
           "package": "dates",
@@ -591,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate / Time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Types",
           "name": "DateTime",
           "package": "dates",
@@ -600,6 +647,7 @@
         "index": {
           "description": "Date Time",
           "hierarchy": "Data Dates Types",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Types",
           "name": "DateTime",
           "package": "dates",
@@ -614,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly time, without date\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Types",
           "name": "Time",
           "package": "dates",
@@ -623,6 +672,7 @@
         "index": {
           "description": "Only time without date",
           "hierarchy": "Data Dates Types",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Types",
           "name": "Time",
           "package": "dates",
@@ -683,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecapitalize first letter of the string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Types",
           "name": "capitalize",
           "package": "dates",
@@ -693,6 +744,7 @@
         "index": {
           "description": "capitalize first letter of the string",
           "hierarchy": "Data Dates Types",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Types",
           "name": "capitalize",
           "normalized": "String-\u003eString",
@@ -796,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e12 months names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates.Types",
           "name": "months",
           "package": "dates",
@@ -806,6 +859,7 @@
         "index": {
           "description": "months names",
           "hierarchy": "Data Dates Types",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates.Types",
           "name": "months",
           "normalized": "[String]",
@@ -934,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOperations with dates\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "Dates",
           "package": "dates",
@@ -943,6 +998,7 @@
         "index": {
           "description": "Operations with dates",
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "Dates",
           "package": "dates",
@@ -956,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "DateInterval",
           "package": "dates",
@@ -964,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "DateInterval",
           "package": "dates",
@@ -977,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "DateIntervalType",
           "package": "dates",
@@ -985,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "DateIntervalType",
           "package": "dates",
@@ -999,6 +1059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate / Time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "DateTime",
           "package": "dates",
@@ -1008,6 +1069,7 @@
         "index": {
           "description": "Date Time",
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "DateTime",
           "package": "dates",
@@ -1022,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly time, without date\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "Time",
           "package": "dates",
@@ -1031,6 +1094,7 @@
         "index": {
           "description": "Only time without date",
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "Time",
           "package": "dates",
@@ -1044,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "WeekDay",
           "package": "dates",
@@ -1052,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "WeekDay",
           "package": "dates",
@@ -1065,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "Day",
           "package": "dates",
@@ -1074,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "Day",
           "package": "dates",
@@ -1087,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "Days",
           "package": "dates",
@@ -1096,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "Days",
           "package": "dates",
@@ -1109,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "Friday",
           "package": "dates",
@@ -1118,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "Friday",
           "package": "dates",
@@ -1131,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "Monday",
           "package": "dates",
@@ -1140,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "Monday",
           "package": "dates",
@@ -1153,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "Month",
           "package": "dates",
@@ -1162,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "Month",
           "package": "dates",
@@ -1175,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "Months",
           "package": "dates",
@@ -1184,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "Months",
           "package": "dates",
@@ -1197,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "Saturday",
           "package": "dates",
@@ -1206,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "Saturday",
           "package": "dates",
@@ -1219,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "Sunday",
           "package": "dates",
@@ -1228,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "Sunday",
           "package": "dates",
@@ -1241,6 +1323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "Thursday",
           "package": "dates",
@@ -1250,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "Thursday",
           "package": "dates",
@@ -1263,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "Tuesday",
           "package": "dates",
@@ -1272,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "Tuesday",
           "package": "dates",
@@ -1285,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "Wednesday",
           "package": "dates",
@@ -1294,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "Wednesday",
           "package": "dates",
@@ -1307,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "Week",
           "package": "dates",
@@ -1316,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "Week",
           "package": "dates",
@@ -1329,6 +1419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "Weeks",
           "package": "dates",
@@ -1338,6 +1429,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "Weeks",
           "package": "dates",
@@ -1351,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "Year",
           "package": "dates",
@@ -1360,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "Year",
           "package": "dates",
@@ -1373,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "Years",
           "package": "dates",
@@ -1382,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "Years",
           "package": "dates",
@@ -1396,6 +1492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd date interval to DateTime\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "addInterval",
           "package": "dates",
@@ -1406,6 +1503,7 @@
         "index": {
           "description": "Add date interval to DateTime",
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "addInterval",
           "normalized": "DateTime-\u003eDateInterval-\u003eDateTime",
@@ -1421,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "addTime",
           "package": "dates",
@@ -1430,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "addTime",
           "normalized": "DateTime-\u003eTime-\u003eDateTime",
@@ -1446,6 +1546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert date from DateTime to Day\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "dateTimeToDay",
           "package": "dates",
@@ -1456,6 +1557,7 @@
         "index": {
           "description": "Convert date from DateTime to Day",
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "dateTimeToDay",
           "normalized": "DateTime-\u003eDay",
@@ -1472,6 +1574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet weekday of given date.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "dateWeekDay",
           "package": "dates",
@@ -1482,6 +1585,7 @@
         "index": {
           "description": "Get weekday of given date",
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "dateWeekDay",
           "normalized": "DateTime-\u003eWeekDay",
@@ -1498,6 +1602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of days between two dates\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "datesDifference",
           "package": "dates",
@@ -1508,6 +1613,7 @@
         "index": {
           "description": "Number of days between two dates",
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "datesDifference",
           "normalized": "DateTime-\u003eDateTime-\u003eInteger",
@@ -1524,6 +1630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert date from Day to DateTime\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "dayToDateTime",
           "package": "dates",
@@ -1534,6 +1641,7 @@
         "index": {
           "description": "Convert date from Day to DateTime",
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "dayToDateTime",
           "normalized": "Day-\u003eDateTime",
@@ -1550,6 +1658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet current date and time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "getCurrentDateTime",
           "package": "dates",
@@ -1560,6 +1669,7 @@
         "index": {
           "description": "Get current date and time",
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "getCurrentDateTime",
           "package": "dates",
@@ -1574,6 +1684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse for weekdayNumber\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "intToWeekday",
           "package": "dates",
@@ -1584,6 +1695,7 @@
         "index": {
           "description": "Reverse for weekdayNumber",
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "intToWeekday",
           "normalized": "Int-\u003eWeekDay",
@@ -1599,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "lastMonday",
           "package": "dates",
@@ -1608,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "lastMonday",
           "normalized": "DateTime-\u003eDateTime",
@@ -1624,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract DateInterval from DateTime.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "minusInterval",
           "package": "dates",
@@ -1634,6 +1749,7 @@
         "index": {
           "description": "Subtract DateInterval from DateTime",
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "minusInterval",
           "normalized": "DateTime-\u003eDateInterval-\u003eDateTime",
@@ -1650,6 +1766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify DateTime with pure function on Day\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "modifyDate",
           "package": "dates",
@@ -1660,6 +1777,7 @@
         "index": {
           "description": "Modify DateTime with pure function on Day",
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "modifyDate",
           "normalized": "(a-\u003eDay-\u003eDay)-\u003ea-\u003eDateTime-\u003eDateTime",
@@ -1676,6 +1794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegate DateInterval value: Days 3 &#8594; Days (-3).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "negateInterval",
           "package": "dates",
@@ -1686,6 +1805,7 @@
         "index": {
           "description": "Negate DateInterval value Days Days",
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "negateInterval",
           "normalized": "DateInterval-\u003eDateInterval",
@@ -1701,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "nextMonday",
           "package": "dates",
@@ -1710,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "nextMonday",
           "normalized": "DateTime-\u003eDateTime",
@@ -1726,6 +1848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsec parser for Date only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "pDate",
           "package": "dates",
@@ -1735,6 +1858,7 @@
         "index": {
           "description": "Parsec parser for Date only",
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "pDate",
           "normalized": "DateTime-\u003eParsecT a b c DateTime",
@@ -1750,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "pDateInterval",
           "package": "dates",
@@ -1759,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "pDateInterval",
           "package": "dates",
@@ -1773,6 +1899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsec parser for DateTime.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "pDateTime",
           "package": "dates",
@@ -1782,6 +1909,7 @@
         "index": {
           "description": "Parsec parser for DateTime",
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "pDateTime",
           "normalized": "DateTime-\u003eParsecT a b c DateTime",
@@ -1797,6 +1925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "pTime",
           "package": "dates",
@@ -1806,6 +1935,7 @@
         },
         "index": {
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "pTime",
           "package": "dates",
@@ -1820,6 +1950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse date/time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "parseDate",
           "package": "dates",
@@ -1829,6 +1960,7 @@
         "index": {
           "description": "Parse date time",
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "parseDate",
           "normalized": "DateTime-\u003eString-\u003eEither ParseError DateTime",
@@ -1845,6 +1977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of weekday, with Monday == 1 and Sunday == 7.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "weekdayNumber",
           "package": "dates",
@@ -1855,6 +1988,7 @@
         "index": {
           "description": "Number of weekday with Monday and Sunday",
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "weekdayNumber",
           "normalized": "WeekDay-\u003eInt",
@@ -1871,6 +2005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeekday as interval from Monday, so that\n weekdayToInterval Monday == 0 and\n weekdayToInterval Sunday == 6.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:32 UTC 2014",
           "module": "Data.Dates",
           "name": "weekdayToInterval",
           "package": "dates",
@@ -1881,6 +2016,7 @@
         "index": {
           "description": "Weekday as interval from Monday so that weekdayToInterval Monday and weekdayToInterval Sunday",
           "hierarchy": "Data Dates",
+          "indexed": "2014-03-11T17:50:32",
           "module": "Data.Dates",
           "name": "weekdayToInterval",
           "normalized": "WeekDay-\u003eDateInterval",

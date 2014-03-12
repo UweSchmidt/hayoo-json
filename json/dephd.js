@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dephd"
+        "phrase": "dephd",
+        "type": "phrase"
       },
       "type": "context"
     }

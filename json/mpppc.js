@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mpppc"
+        "phrase": "mpppc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "OneDim",
           "package": "mpppc",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "OneDim",
           "package": "mpppc",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "FormatState",
           "package": "mpppc",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "FormatState",
           "package": "mpppc",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Pretties",
           "package": "mpppc",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Pretties",
           "package": "mpppc",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Pretty",
           "package": "mpppc",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Pretty",
           "package": "mpppc",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Printable",
           "package": "mpppc",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Printable",
           "package": "mpppc",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Seq",
           "package": "mpppc",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Seq",
           "package": "mpppc",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "SimplePretty",
           "package": "mpppc",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "SimplePretty",
           "package": "mpppc",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Tok",
           "package": "mpppc",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Tok",
           "package": "mpppc",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "(\u003c$$\u003e)",
           "package": "mpppc",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "(\u003c$$\u003e) \u003c$$\u003e",
           "normalized": "Pretty a b-\u003ePretty a b-\u003ePretty a b",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "(\u003c$\u003e)",
           "package": "mpppc",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "(\u003c$\u003e) \u003c$\u003e",
           "normalized": "Pretty a b-\u003ePretty a b-\u003ePretty a b",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "(\u003c+\u003e)",
           "package": "mpppc",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "Pretty a b-\u003ePretty a b-\u003ePretty a b",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "(\u003c//\u003e)",
           "package": "mpppc",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "(\u003c//\u003e) \u003c//\u003e",
           "normalized": "Pretty a b-\u003ePretty a b-\u003ePretty a b",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "(\u003c/\u003e)",
           "package": "mpppc",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "(\u003c/\u003e) \u003c/\u003e",
           "normalized": "Pretty a b-\u003ePretty a b-\u003ePretty a b",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "(\u003c\u003e)",
           "package": "mpppc",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "Pretty a b-\u003ePretty a b-\u003ePretty a b",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Cat",
           "package": "mpppc",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Cat",
           "package": "mpppc",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Char",
           "package": "mpppc",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Char",
           "package": "mpppc",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Color",
           "package": "mpppc",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Color",
           "package": "mpppc",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Column",
           "package": "mpppc",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Column",
           "normalized": "Column(Int-\u003ePretty a b)",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Cons",
           "package": "mpppc",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Cons",
           "package": "mpppc",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Empty",
           "package": "mpppc",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Empty",
           "package": "mpppc",
@@ -458,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "FormatState",
           "package": "mpppc",
@@ -467,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "FormatState",
           "package": "mpppc",
@@ -480,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Intensify",
           "package": "mpppc",
@@ -489,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Intensify",
           "package": "mpppc",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Line",
           "package": "mpppc",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Line",
           "package": "mpppc",
@@ -524,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Nest",
           "package": "mpppc",
@@ -533,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Nest",
           "package": "mpppc",
@@ -546,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Nesting",
           "package": "mpppc",
@@ -555,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Nesting",
           "normalized": "Nesting(Int-\u003ePretty a b)",
@@ -570,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Nil",
           "package": "mpppc",
@@ -579,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Nil",
           "package": "mpppc",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "RestoreFormat",
           "package": "mpppc",
@@ -601,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "RestoreFormat",
           "package": "mpppc",
@@ -637,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "SimpleChar",
           "package": "mpppc",
@@ -646,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "SimpleChar",
           "package": "mpppc",
@@ -659,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "SimpleEmpty",
           "package": "mpppc",
@@ -668,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "SimpleEmpty",
           "package": "mpppc",
@@ -681,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "SimpleLine",
           "package": "mpppc",
@@ -690,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "SimpleLine",
           "package": "mpppc",
@@ -703,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "SimpleSGR",
           "package": "mpppc",
@@ -712,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "SimpleSGR",
           "normalized": "SimpleSGR[SGR](SimplePretty a b)",
@@ -727,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "SimpleText",
           "package": "mpppc",
@@ -736,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "SimpleText",
           "package": "mpppc",
@@ -749,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Text",
           "package": "mpppc",
@@ -758,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Text",
           "package": "mpppc",
@@ -794,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Underline",
           "package": "mpppc",
@@ -803,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Underline",
           "package": "mpppc",
@@ -816,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Union",
           "package": "mpppc",
@@ -825,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "Union",
           "package": "mpppc",
@@ -838,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "align",
           "package": "mpppc",
@@ -847,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "align",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -861,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "angleLeft",
           "package": "mpppc",
@@ -870,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "angleLeft",
           "package": "mpppc",
@@ -883,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "angleRight",
           "package": "mpppc",
@@ -892,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "angleRight",
           "package": "mpppc",
@@ -905,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "angles",
           "package": "mpppc",
@@ -914,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "angles",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -928,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "append",
           "package": "mpppc",
@@ -937,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "append",
           "normalized": "a-\u003ea-\u003ea",
@@ -951,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "backslash",
           "package": "mpppc",
@@ -960,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "backslash",
           "package": "mpppc",
@@ -972,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "beside",
           "package": "mpppc",
@@ -981,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "beside",
           "normalized": "Pretty a b-\u003ePretty a b-\u003ePretty a b",
@@ -995,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "black",
           "package": "mpppc",
@@ -1004,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "black",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -1018,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "blue",
           "package": "mpppc",
@@ -1027,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "blue",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -1041,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "bold",
           "package": "mpppc",
@@ -1050,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "bold",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -1064,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "braceLeft",
           "package": "mpppc",
@@ -1073,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "braceLeft",
           "package": "mpppc",
@@ -1086,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "braceRight",
           "package": "mpppc",
@@ -1095,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "braceRight",
           "package": "mpppc",
@@ -1108,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "braces",
           "package": "mpppc",
@@ -1117,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "braces",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -1131,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "bracketLeft",
           "package": "mpppc",
@@ -1140,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "bracketLeft",
           "package": "mpppc",
@@ -1153,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "bracketRight",
           "package": "mpppc",
@@ -1162,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "bracketRight",
           "package": "mpppc",
@@ -1175,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "brackets",
           "package": "mpppc",
@@ -1184,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "brackets",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -1198,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "cat",
           "package": "mpppc",
@@ -1207,6 +1310,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "cat",
           "normalized": "[Pretty a b]-\u003ePretty a b",
@@ -1221,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "char",
           "package": "mpppc",
@@ -1230,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "char",
           "normalized": "a-\u003ePretty b a",
@@ -1244,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "chunk",
           "package": "mpppc",
@@ -1253,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "chunk",
           "normalized": "Int-\u003ea-\u003e[a]",
@@ -1267,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "colon",
           "package": "mpppc",
@@ -1276,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "colon",
           "package": "mpppc",
@@ -1288,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "column",
           "package": "mpppc",
@@ -1297,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "column",
           "normalized": "(Int-\u003ePretty a b)-\u003ePretty a b",
@@ -1311,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "comma",
           "package": "mpppc",
@@ -1320,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "comma",
           "package": "mpppc",
@@ -1332,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "cons",
           "package": "mpppc",
@@ -1341,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "cons",
           "normalized": "a-\u003eb-\u003eb",
@@ -1355,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "cyan",
           "package": "mpppc",
@@ -1364,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "cyan",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -1378,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "deBold",
           "package": "mpppc",
@@ -1387,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "deBold",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -1402,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "deUnderline",
           "package": "mpppc",
@@ -1411,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "deUnderline",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -1426,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "dot",
           "package": "mpppc",
@@ -1435,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "dot",
           "package": "mpppc",
@@ -1447,6 +1571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "dullBlack",
           "package": "mpppc",
@@ -1456,6 +1581,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "dullBlack",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -1471,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "dullBlue",
           "package": "mpppc",
@@ -1480,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "dullBlue",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -1495,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "dullCyan",
           "package": "mpppc",
@@ -1504,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "dullCyan",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -1519,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "dullGreen",
           "package": "mpppc",
@@ -1528,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "dullGreen",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -1543,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "dullMagenta",
           "package": "mpppc",
@@ -1552,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "dullMagenta",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -1567,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "dullRed",
           "package": "mpppc",
@@ -1576,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "dullRed",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -1591,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "dullWhite",
           "package": "mpppc",
@@ -1600,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "dullWhite",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -1615,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "dullYellow",
           "package": "mpppc",
@@ -1624,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "dullYellow",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -1639,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "empty",
           "package": "mpppc",
@@ -1648,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "empty",
           "package": "mpppc",
@@ -1660,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "enclose",
           "package": "mpppc",
@@ -1669,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "enclose",
           "normalized": "Pretty a b-\u003ePretty a b-\u003ePretty a b-\u003ePretty a b",
@@ -1683,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "encloseSep",
           "package": "mpppc",
@@ -1692,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "encloseSep",
           "normalized": "Pretty a b-\u003ePretty a b-\u003ePretty a b-\u003e[Pretty a b]-\u003ePretty a b",
@@ -1707,6 +1853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "equals",
           "package": "mpppc",
@@ -1716,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "equals",
           "package": "mpppc",
@@ -1728,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "fill",
           "package": "mpppc",
@@ -1737,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "fill",
           "normalized": "Int-\u003ePretty a b-\u003ePretty a b",
@@ -1751,6 +1901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "fillBreak",
           "package": "mpppc",
@@ -1760,6 +1911,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "fillBreak",
           "normalized": "Int-\u003ePretty a b-\u003ePretty a b",
@@ -1775,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "fillCat",
           "package": "mpppc",
@@ -1784,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "fillCat",
           "normalized": "[Pretty a b]-\u003ePretty a b",
@@ -1799,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "fillSep",
           "package": "mpppc",
@@ -1808,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "fillSep",
           "normalized": "[Pretty a b]-\u003ePretty a b",
@@ -1823,6 +1979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "flatten",
           "package": "mpppc",
@@ -1832,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "flatten",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -1846,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "fold",
           "package": "mpppc",
@@ -1855,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "fold",
           "normalized": "(Pretty a b-\u003ePretty a b-\u003ePretty a b)-\u003e[Pretty a b]-\u003ePretty a b",
@@ -1869,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "green",
           "package": "mpppc",
@@ -1878,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "green",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -1892,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "group",
           "package": "mpppc",
@@ -1901,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "group",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -1915,6 +2079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "hPutPretty",
           "package": "mpppc",
@@ -1924,6 +2089,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "hPutPretty",
           "normalized": "Handle-\u003ePretty a b-\u003eIO()",
@@ -1939,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "hPutSeq",
           "package": "mpppc",
@@ -1948,6 +2115,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "hPutSeq",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -1963,6 +2131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "hPutSimplePretty",
           "package": "mpppc",
@@ -1972,6 +2141,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "hPutSimplePretty",
           "normalized": "Handle-\u003eSimplePretty a b-\u003eIO()",
@@ -1987,6 +2157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "hPutTok",
           "package": "mpppc",
@@ -1996,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "hPutTok",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -2011,6 +2183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "hang",
           "package": "mpppc",
@@ -2020,6 +2193,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "hang",
           "normalized": "Int-\u003ePretty a b-\u003ePretty a b",
@@ -2034,6 +2208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "hcat",
           "package": "mpppc",
@@ -2043,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "hcat",
           "normalized": "[Pretty a b]-\u003ePretty a b",
@@ -2057,6 +2233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "head",
           "package": "mpppc",
@@ -2066,6 +2243,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "head",
           "normalized": "a-\u003eb",
@@ -2080,6 +2258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "hsep",
           "package": "mpppc",
@@ -2089,6 +2268,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "hsep",
           "normalized": "[Pretty a b]-\u003ePretty a b",
@@ -2103,6 +2283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "indent",
           "package": "mpppc",
@@ -2112,6 +2293,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "indent",
           "normalized": "Int-\u003ePretty a b-\u003ePretty a b",
@@ -2126,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "isNull",
           "package": "mpppc",
@@ -2135,6 +2318,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "isNull",
           "normalized": "a-\u003eBool",
@@ -2150,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "length",
           "package": "mpppc",
@@ -2159,6 +2344,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "length",
           "normalized": "a-\u003eInt",
@@ -2173,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "line",
           "package": "mpppc",
@@ -2182,6 +2369,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "line",
           "package": "mpppc",
@@ -2194,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "lineBreak",
           "package": "mpppc",
@@ -2203,6 +2392,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "lineBreak",
           "package": "mpppc",
@@ -2216,6 +2406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "list",
           "package": "mpppc",
@@ -2225,6 +2416,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "list",
           "normalized": "[Pretty a b]-\u003ePretty a b",
@@ -2239,6 +2431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "magenta",
           "package": "mpppc",
@@ -2248,6 +2441,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "magenta",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2262,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "nest",
           "package": "mpppc",
@@ -2271,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "nest",
           "normalized": "Int-\u003ePretty a b-\u003ePretty a b",
@@ -2285,6 +2481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "nesting",
           "package": "mpppc",
@@ -2294,6 +2491,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "nesting",
           "normalized": "(Int-\u003ePretty a b)-\u003ePretty a b",
@@ -2308,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onBlack",
           "package": "mpppc",
@@ -2317,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onBlack",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2332,6 +2532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onBlue",
           "package": "mpppc",
@@ -2341,6 +2542,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onBlue",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2356,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onCyan",
           "package": "mpppc",
@@ -2365,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onCyan",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2380,6 +2584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onDullBlack",
           "package": "mpppc",
@@ -2389,6 +2594,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onDullBlack",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2404,6 +2610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onDullBlue",
           "package": "mpppc",
@@ -2413,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onDullBlue",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2428,6 +2636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onDullCyan",
           "package": "mpppc",
@@ -2437,6 +2646,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onDullCyan",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2452,6 +2662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onDullGreen",
           "package": "mpppc",
@@ -2461,6 +2672,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onDullGreen",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2476,6 +2688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onDullMagenta",
           "package": "mpppc",
@@ -2485,6 +2698,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onDullMagenta",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2500,6 +2714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onDullRed",
           "package": "mpppc",
@@ -2509,6 +2724,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onDullRed",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2524,6 +2740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onDullWhite",
           "package": "mpppc",
@@ -2533,6 +2750,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onDullWhite",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2548,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onDullYellow",
           "package": "mpppc",
@@ -2557,6 +2776,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onDullYellow",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2572,6 +2792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onGreen",
           "package": "mpppc",
@@ -2581,6 +2802,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onGreen",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2596,6 +2818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onMagenta",
           "package": "mpppc",
@@ -2605,6 +2828,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onMagenta",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2620,6 +2844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onRed",
           "package": "mpppc",
@@ -2629,6 +2854,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onRed",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2644,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onWhite",
           "package": "mpppc",
@@ -2653,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onWhite",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2668,6 +2896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onYellow",
           "package": "mpppc",
@@ -2677,6 +2906,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "onYellow",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2692,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "pack",
           "package": "mpppc",
@@ -2701,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "pack",
           "normalized": "String-\u003ea",
@@ -2715,6 +2947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "parenLeft",
           "package": "mpppc",
@@ -2724,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "parenLeft",
           "package": "mpppc",
@@ -2737,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "parenRight",
           "package": "mpppc",
@@ -2746,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "parenRight",
           "package": "mpppc",
@@ -2759,6 +2995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "parens",
           "package": "mpppc",
@@ -2768,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "parens",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2782,6 +3020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "punctuate",
           "package": "mpppc",
@@ -2791,6 +3030,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "punctuate",
           "normalized": "Pretty a b-\u003e[Pretty a b]-\u003e[Pretty a b]",
@@ -2805,6 +3045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "putPretty",
           "package": "mpppc",
@@ -2814,6 +3055,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "putPretty",
           "normalized": "Pretty a b-\u003eIO()",
@@ -2829,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "quoteDouble",
           "package": "mpppc",
@@ -2838,6 +3081,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "quoteDouble",
           "package": "mpppc",
@@ -2851,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "quoteSingle",
           "package": "mpppc",
@@ -2860,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "quoteSingle",
           "package": "mpppc",
@@ -2873,6 +3119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "quotesDouble",
           "package": "mpppc",
@@ -2882,6 +3129,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "quotesDouble",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2897,6 +3145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "quotesSingle",
           "package": "mpppc",
@@ -2906,6 +3155,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "quotesSingle",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2921,6 +3171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "red",
           "package": "mpppc",
@@ -2930,6 +3181,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "red",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -2944,6 +3196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "renderCompact",
           "package": "mpppc",
@@ -2953,6 +3206,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "renderCompact",
           "normalized": "Pretty a b-\u003eSimplePretty a b",
@@ -2968,6 +3222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "renderPretty",
           "package": "mpppc",
@@ -2977,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "renderPretty",
           "normalized": "Float-\u003eInt-\u003ePretty a b-\u003eSimplePretty a b",
@@ -2992,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "renderSeq",
           "package": "mpppc",
@@ -3001,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "renderSeq",
           "normalized": "Pretty a b-\u003ea",
@@ -3016,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "renderSimplePretty",
           "package": "mpppc",
@@ -3025,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "renderSimplePretty",
           "normalized": "SimplePretty a b-\u003ea",
@@ -3040,6 +3300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "replicate",
           "package": "mpppc",
@@ -3049,6 +3310,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "replicate",
           "normalized": "Int-\u003ea-\u003ea",
@@ -3063,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "reverse",
           "package": "mpppc",
@@ -3072,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "reverse",
           "normalized": "a-\u003ea",
@@ -3086,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "semi",
           "package": "mpppc",
@@ -3095,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "semi",
           "package": "mpppc",
@@ -3107,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "semiBraces",
           "package": "mpppc",
@@ -3116,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "semiBraces",
           "normalized": "[Pretty a b]-\u003ePretty a b",
@@ -3131,6 +3399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "sep",
           "package": "mpppc",
@@ -3140,6 +3409,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "sep",
           "normalized": "[Pretty a b]-\u003ePretty a b",
@@ -3154,6 +3424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "seqEmpty",
           "package": "mpppc",
@@ -3163,6 +3434,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "seqEmpty",
           "package": "mpppc",
@@ -3176,6 +3448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "singleton",
           "package": "mpppc",
@@ -3185,6 +3458,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "singleton",
           "normalized": "a-\u003eb",
@@ -3199,6 +3473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "softBreak",
           "package": "mpppc",
@@ -3208,6 +3483,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "softBreak",
           "package": "mpppc",
@@ -3221,6 +3497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "softLine",
           "package": "mpppc",
@@ -3230,6 +3507,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "softLine",
           "package": "mpppc",
@@ -3243,6 +3521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "space",
           "package": "mpppc",
@@ -3252,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "space",
           "package": "mpppc",
@@ -3264,6 +3544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "spaces",
           "package": "mpppc",
@@ -3273,6 +3554,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "spaces",
           "normalized": "Int-\u003ePretty a b",
@@ -3287,6 +3569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "splitAt",
           "package": "mpppc",
@@ -3296,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "splitAt",
           "normalized": "Int-\u003ea-\u003e(a,a)",
@@ -3311,6 +3595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "stBackground",
           "package": "mpppc",
@@ -3320,6 +3605,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "stBackground",
           "normalized": "Maybe(ColorIntensity,Color)",
@@ -3335,6 +3621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "stForeground",
           "package": "mpppc",
@@ -3344,6 +3631,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "stForeground",
           "normalized": "Maybe(ColorIntensity,Color)",
@@ -3359,6 +3647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "stIntensity",
           "package": "mpppc",
@@ -3368,6 +3657,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "stIntensity",
           "package": "mpppc",
@@ -3381,6 +3671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "stUnderlining",
           "package": "mpppc",
@@ -3390,6 +3681,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "stUnderlining",
           "package": "mpppc",
@@ -3403,6 +3695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tail",
           "package": "mpppc",
@@ -3412,6 +3705,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tail",
           "normalized": "a-\u003ea",
@@ -3426,6 +3720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "take",
           "package": "mpppc",
@@ -3435,6 +3730,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "take",
           "normalized": "Int-\u003ea-\u003ea",
@@ -3449,6 +3745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "text",
           "package": "mpppc",
@@ -3458,6 +3755,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "text",
           "normalized": "a-\u003ePretty a b",
@@ -3472,6 +3770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokAngleLeft",
           "package": "mpppc",
@@ -3481,6 +3780,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokAngleLeft",
           "package": "mpppc",
@@ -3494,6 +3794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokAngleRight",
           "package": "mpppc",
@@ -3503,6 +3804,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokAngleRight",
           "package": "mpppc",
@@ -3516,6 +3818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokBackslash",
           "package": "mpppc",
@@ -3525,6 +3828,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokBackslash",
           "package": "mpppc",
@@ -3538,6 +3842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokBraceLeft",
           "package": "mpppc",
@@ -3547,6 +3852,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokBraceLeft",
           "package": "mpppc",
@@ -3560,6 +3866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokBraceRight",
           "package": "mpppc",
@@ -3569,6 +3876,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokBraceRight",
           "package": "mpppc",
@@ -3582,6 +3890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokBracketLeft",
           "package": "mpppc",
@@ -3591,6 +3900,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokBracketLeft",
           "package": "mpppc",
@@ -3604,6 +3914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokBracketRight",
           "package": "mpppc",
@@ -3613,6 +3924,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokBracketRight",
           "package": "mpppc",
@@ -3626,6 +3938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokColon",
           "package": "mpppc",
@@ -3635,6 +3948,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokColon",
           "package": "mpppc",
@@ -3648,6 +3962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokComma",
           "package": "mpppc",
@@ -3657,6 +3972,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokComma",
           "package": "mpppc",
@@ -3670,6 +3986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokDot",
           "package": "mpppc",
@@ -3679,6 +3996,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokDot",
           "package": "mpppc",
@@ -3692,6 +4010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokEquals",
           "package": "mpppc",
@@ -3701,6 +4020,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokEquals",
           "package": "mpppc",
@@ -3714,6 +4034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokNewline",
           "package": "mpppc",
@@ -3723,6 +4044,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokNewline",
           "package": "mpppc",
@@ -3736,6 +4058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokParenLeft",
           "package": "mpppc",
@@ -3745,6 +4068,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokParenLeft",
           "package": "mpppc",
@@ -3758,6 +4082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokParenRight",
           "package": "mpppc",
@@ -3767,6 +4092,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokParenRight",
           "package": "mpppc",
@@ -3780,6 +4106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokQuoteDouble",
           "package": "mpppc",
@@ -3789,6 +4116,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokQuoteDouble",
           "package": "mpppc",
@@ -3802,6 +4130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokQuoteSingle",
           "package": "mpppc",
@@ -3811,6 +4140,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokQuoteSingle",
           "package": "mpppc",
@@ -3824,6 +4154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokSemi",
           "package": "mpppc",
@@ -3833,6 +4164,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokSemi",
           "package": "mpppc",
@@ -3846,6 +4178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokSpace",
           "package": "mpppc",
@@ -3855,6 +4188,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tokSpace",
           "package": "mpppc",
@@ -3868,6 +4202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tupled",
           "package": "mpppc",
@@ -3877,6 +4212,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "tupled",
           "normalized": "[Pretty a b]-\u003ePretty a b",
@@ -3937,6 +4273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "underline",
           "package": "mpppc",
@@ -3946,6 +4283,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "underline",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -3960,6 +4298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "unlines",
           "package": "mpppc",
@@ -3969,6 +4308,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "unlines",
           "normalized": "[a]-\u003ea",
@@ -3983,6 +4323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "unwords",
           "package": "mpppc",
@@ -3992,6 +4333,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "unwords",
           "normalized": "[a]-\u003ea",
@@ -4006,6 +4348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "vcat",
           "package": "mpppc",
@@ -4015,6 +4358,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "vcat",
           "normalized": "[Pretty a b]-\u003ePretty a b",
@@ -4029,6 +4373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "vsep",
           "package": "mpppc",
@@ -4038,6 +4383,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "vsep",
           "normalized": "[Pretty a b]-\u003ePretty a b",
@@ -4052,6 +4398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "white",
           "package": "mpppc",
@@ -4061,6 +4408,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "white",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -4075,6 +4423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "width",
           "package": "mpppc",
@@ -4084,6 +4433,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "width",
           "normalized": "Pretty a b-\u003e(Int-\u003ePretty a b)-\u003ePretty a b",
@@ -4098,6 +4448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "words",
           "package": "mpppc",
@@ -4107,6 +4458,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "words",
           "normalized": "a-\u003e[a]",
@@ -4121,6 +4473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "yellow",
           "package": "mpppc",
@@ -4130,6 +4483,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC OneDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.OneDim",
           "name": "yellow",
           "normalized": "Pretty a b-\u003ePretty a b",
@@ -4144,6 +4498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "TwoDim",
           "package": "mpppc",
@@ -4152,6 +4507,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "TwoDim",
           "package": "mpppc",
@@ -4165,6 +4521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Alignment",
           "package": "mpppc",
@@ -4173,6 +4530,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Alignment",
           "package": "mpppc",
@@ -4186,6 +4544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Content",
           "package": "mpppc",
@@ -4194,6 +4553,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Content",
           "package": "mpppc",
@@ -4207,6 +4567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Line",
           "package": "mpppc",
@@ -4215,6 +4576,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Line",
           "package": "mpppc",
@@ -4228,6 +4590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Para",
           "package": "mpppc",
@@ -4236,6 +4599,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Para",
           "package": "mpppc",
@@ -4249,6 +4613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "ParaContent",
           "package": "mpppc",
@@ -4257,6 +4622,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "ParaContent",
           "package": "mpppc",
@@ -4270,6 +4636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Pretty",
           "package": "mpppc",
@@ -4278,6 +4645,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Pretty",
           "package": "mpppc",
@@ -4291,6 +4659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Printable",
           "package": "mpppc",
@@ -4299,6 +4668,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Printable",
           "package": "mpppc",
@@ -4312,6 +4682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Seq",
           "package": "mpppc",
@@ -4320,6 +4691,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Seq",
           "package": "mpppc",
@@ -4333,6 +4705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Tok",
           "package": "mpppc",
@@ -4341,6 +4714,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Tok",
           "package": "mpppc",
@@ -4354,6 +4728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Word",
           "package": "mpppc",
@@ -4362,6 +4737,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Word",
           "package": "mpppc",
@@ -4375,6 +4751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "(/+/)",
           "package": "mpppc",
@@ -4384,6 +4761,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "(/+/) /+/",
           "normalized": "Pretty a b-\u003ePretty a b-\u003ePretty a b",
@@ -4398,6 +4776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "(//)",
           "package": "mpppc",
@@ -4407,6 +4786,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "(//) //",
           "normalized": "Pretty a b-\u003ePretty a b-\u003ePretty a b",
@@ -4421,6 +4801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "(\u003c+\u003e)",
           "package": "mpppc",
@@ -4430,6 +4811,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "Pretty a b-\u003ePretty a b-\u003ePretty a b",
@@ -4444,6 +4826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "(\u003c\u003e)",
           "package": "mpppc",
@@ -4453,6 +4836,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "Pretty a b-\u003ePretty a b-\u003ePretty a b",
@@ -4467,6 +4851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "AlignCenterBotRight",
           "package": "mpppc",
@@ -4476,6 +4861,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "AlignCenterBotRight",
           "package": "mpppc",
@@ -4489,6 +4875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "AlignCenterTopLeft",
           "package": "mpppc",
@@ -4498,6 +4885,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "AlignCenterTopLeft",
           "package": "mpppc",
@@ -4511,6 +4899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "AlignFirst",
           "package": "mpppc",
@@ -4520,6 +4909,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "AlignFirst",
           "package": "mpppc",
@@ -4533,6 +4923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "AlignLast",
           "package": "mpppc",
@@ -4542,6 +4933,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "AlignLast",
           "package": "mpppc",
@@ -4555,6 +4947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Blank",
           "package": "mpppc",
@@ -4564,6 +4957,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Blank",
           "package": "mpppc",
@@ -4577,6 +4971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Col",
           "package": "mpppc",
@@ -4586,6 +4981,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Col",
           "normalized": "Col[Pretty a b]",
@@ -4601,6 +4997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Line",
           "package": "mpppc",
@@ -4610,6 +5007,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Line",
           "package": "mpppc",
@@ -4623,6 +5021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Para",
           "package": "mpppc",
@@ -4632,6 +5031,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Para",
           "package": "mpppc",
@@ -4645,6 +5045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "ParaContent",
           "package": "mpppc",
@@ -4654,6 +5055,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "ParaContent",
           "package": "mpppc",
@@ -4667,6 +5069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Pretty",
           "package": "mpppc",
@@ -4676,6 +5079,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Pretty",
           "package": "mpppc",
@@ -4689,6 +5093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Row",
           "package": "mpppc",
@@ -4698,6 +5103,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Row",
           "normalized": "Row[Pretty a b]",
@@ -4713,6 +5119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Sub",
           "package": "mpppc",
@@ -4722,6 +5129,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Sub",
           "package": "mpppc",
@@ -4735,6 +5143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Text",
           "package": "mpppc",
@@ -4744,6 +5153,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Text",
           "package": "mpppc",
@@ -4757,6 +5167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Word",
           "package": "mpppc",
@@ -4766,6 +5177,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "Word",
           "package": "mpppc",
@@ -4779,6 +5191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "addWordL",
           "package": "mpppc",
@@ -4788,6 +5201,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "addWordL",
           "normalized": "Word a b-\u003eLine a b-\u003eLine a b",
@@ -4803,6 +5217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "addWordP",
           "package": "mpppc",
@@ -4812,6 +5227,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "addWordP",
           "normalized": "Para a b-\u003eWord a b-\u003ePara a b",
@@ -4827,6 +5243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "align",
           "package": "mpppc",
@@ -4836,6 +5253,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "align",
           "normalized": "Alignment-\u003eAlignment-\u003eInt-\u003eInt-\u003ePretty a b-\u003ePretty a b",
@@ -4850,6 +5268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "alignHoriz",
           "package": "mpppc",
@@ -4859,6 +5278,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "alignHoriz",
           "normalized": "Alignment-\u003eInt-\u003ePretty a b-\u003ePretty a b",
@@ -4874,6 +5294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "alignVert",
           "package": "mpppc",
@@ -4883,6 +5304,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "alignVert",
           "normalized": "Alignment-\u003eInt-\u003ePretty a b-\u003ePretty a b",
@@ -4898,6 +5320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "append",
           "package": "mpppc",
@@ -4907,6 +5330,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "append",
           "normalized": "a-\u003ea-\u003ea",
@@ -4921,6 +5345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "blanks",
           "package": "mpppc",
@@ -4930,6 +5355,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "blanks",
           "normalized": "Int-\u003ea",
@@ -4944,6 +5370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "bottom",
           "package": "mpppc",
@@ -4953,6 +5380,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "bottom",
           "package": "mpppc",
@@ -4965,6 +5393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "centerTopLeft",
           "package": "mpppc",
@@ -4974,6 +5403,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "centerTopLeft",
           "package": "mpppc",
@@ -4987,6 +5417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "centerTopRight",
           "package": "mpppc",
@@ -4996,6 +5427,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "centerTopRight",
           "package": "mpppc",
@@ -5009,6 +5441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "char",
           "package": "mpppc",
@@ -5018,6 +5451,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "char",
           "normalized": "a-\u003ePretty b a",
@@ -5032,6 +5466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "chunk",
           "package": "mpppc",
@@ -5041,6 +5476,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "chunk",
           "normalized": "Int-\u003ea-\u003e[a]",
@@ -5055,6 +5491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "cols",
           "package": "mpppc",
@@ -5064,6 +5501,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "cols",
           "package": "mpppc",
@@ -5076,6 +5514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "columns",
           "package": "mpppc",
@@ -5085,6 +5524,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "columns",
           "normalized": "Alignment-\u003eInt-\u003eInt-\u003ea-\u003e[Pretty a b]",
@@ -5099,6 +5539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "cons",
           "package": "mpppc",
@@ -5108,6 +5549,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "cons",
           "normalized": "a-\u003eb-\u003eb",
@@ -5122,6 +5564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "content",
           "package": "mpppc",
@@ -5131,6 +5574,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "content",
           "package": "mpppc",
@@ -5143,6 +5587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "empty",
           "package": "mpppc",
@@ -5152,6 +5597,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "empty",
           "normalized": "Int-\u003eInt-\u003ePretty a b",
@@ -5166,6 +5612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "emptyPara",
           "package": "mpppc",
@@ -5175,6 +5622,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "emptyPara",
           "normalized": "Int-\u003ePara a b",
@@ -5190,6 +5638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "flow",
           "package": "mpppc",
@@ -5199,6 +5648,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "flow",
           "normalized": "Int-\u003ea-\u003e[a]",
@@ -5213,6 +5663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "fullLines",
           "package": "mpppc",
@@ -5222,6 +5673,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "fullLines",
           "normalized": "[Line a b]",
@@ -5237,6 +5689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "getLines",
           "package": "mpppc",
@@ -5246,6 +5699,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "getLines",
           "normalized": "a b c Para b d-\u003e[b]",
@@ -5261,6 +5715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "getWord",
           "package": "mpppc",
@@ -5270,6 +5725,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "getWord",
           "package": "mpppc",
@@ -5283,6 +5739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "getWords",
           "package": "mpppc",
@@ -5292,6 +5749,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "getWords",
           "normalized": "[Word a b]",
@@ -5307,6 +5765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "hPutPretty",
           "package": "mpppc",
@@ -5316,6 +5775,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "hPutPretty",
           "normalized": "Handle-\u003ePretty a b-\u003eIO()",
@@ -5331,6 +5791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "hPutSeq",
           "package": "mpppc",
@@ -5340,6 +5801,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "hPutSeq",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -5355,6 +5817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "hPutTok",
           "package": "mpppc",
@@ -5364,6 +5827,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "hPutTok",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -5379,6 +5843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "hcat",
           "package": "mpppc",
@@ -5388,6 +5853,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "hcat",
           "normalized": "Alignment-\u003e[Pretty a b]-\u003ePretty a b",
@@ -5402,6 +5868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "head",
           "package": "mpppc",
@@ -5411,6 +5878,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "head",
           "normalized": "a-\u003eb",
@@ -5425,6 +5893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "hsep",
           "package": "mpppc",
@@ -5434,6 +5903,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "hsep",
           "normalized": "Int-\u003eAlignment-\u003e[Pretty a b]-\u003ePretty a b",
@@ -5448,6 +5918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "isNull",
           "package": "mpppc",
@@ -5457,6 +5928,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "isNull",
           "normalized": "a-\u003eBool",
@@ -5472,6 +5944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "lLen",
           "package": "mpppc",
@@ -5481,6 +5954,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "lLen",
           "package": "mpppc",
@@ -5494,6 +5968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "lastLine",
           "package": "mpppc",
@@ -5503,6 +5978,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "lastLine",
           "package": "mpppc",
@@ -5516,6 +5992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "left",
           "package": "mpppc",
@@ -5525,6 +6002,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "left",
           "package": "mpppc",
@@ -5537,6 +6015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "length",
           "package": "mpppc",
@@ -5546,6 +6025,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "length",
           "normalized": "a-\u003eInt",
@@ -5560,6 +6040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "mkLine",
           "package": "mpppc",
@@ -5569,6 +6050,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "mkLine",
           "normalized": "[Word a b]-\u003eLine a b",
@@ -5584,6 +6066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "mkParaBox",
           "package": "mpppc",
@@ -5593,6 +6076,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "mkParaBox",
           "normalized": "Alignment-\u003eInt-\u003e[a]-\u003ePretty a b",
@@ -5608,6 +6092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "mkWord",
           "package": "mpppc",
@@ -5617,6 +6102,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "mkWord",
           "normalized": "a-\u003eWord a b",
@@ -5632,6 +6118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "moveDown",
           "package": "mpppc",
@@ -5641,6 +6128,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "moveDown",
           "normalized": "Int-\u003ePretty a b-\u003ePretty a b",
@@ -5656,6 +6144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "moveLeft",
           "package": "mpppc",
@@ -5665,6 +6154,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "moveLeft",
           "normalized": "Int-\u003ePretty a b-\u003ePretty a b",
@@ -5680,6 +6170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "moveRight",
           "package": "mpppc",
@@ -5689,6 +6180,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "moveRight",
           "normalized": "Int-\u003ePretty a b-\u003ePretty a b",
@@ -5704,6 +6196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "moveUp",
           "package": "mpppc",
@@ -5713,6 +6206,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "moveUp",
           "normalized": "Int-\u003ePretty a b-\u003ePretty a b",
@@ -5728,6 +6222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "null",
           "package": "mpppc",
@@ -5737,6 +6232,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "null",
           "package": "mpppc",
@@ -5749,6 +6245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "pack",
           "package": "mpppc",
@@ -5758,6 +6255,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "pack",
           "normalized": "String-\u003ea",
@@ -5772,6 +6270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "para",
           "package": "mpppc",
@@ -5781,6 +6280,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "para",
           "normalized": "Alignment-\u003eInt-\u003ea-\u003ePretty a b",
@@ -5795,6 +6295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "paraContent",
           "package": "mpppc",
@@ -5804,6 +6305,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "paraContent",
           "package": "mpppc",
@@ -5817,6 +6319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "paraWidth",
           "package": "mpppc",
@@ -5826,6 +6329,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "paraWidth",
           "package": "mpppc",
@@ -5839,6 +6343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "punctuateH",
           "package": "mpppc",
@@ -5848,6 +6353,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "punctuateH",
           "normalized": "Alignment-\u003ePretty a b-\u003e[Pretty a b]-\u003ePretty a b",
@@ -5862,6 +6368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "punctuateV",
           "package": "mpppc",
@@ -5871,6 +6378,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "punctuateV",
           "normalized": "Alignment-\u003ePretty a b-\u003e[Pretty a b]-\u003ePretty a b",
@@ -5885,6 +6393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "putPretty",
           "package": "mpppc",
@@ -5894,6 +6403,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "putPretty",
           "normalized": "Pretty a b-\u003eIO()",
@@ -5909,6 +6419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "renderPretty",
           "package": "mpppc",
@@ -5918,6 +6429,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "renderPretty",
           "normalized": "Pretty a b-\u003ea",
@@ -5933,6 +6445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "renderPrettyLines",
           "package": "mpppc",
@@ -5942,6 +6455,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "renderPrettyLines",
           "normalized": "Pretty a b-\u003e[a]",
@@ -5957,6 +6471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "renderPrettyWithCols",
           "package": "mpppc",
@@ -5966,6 +6481,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "renderPrettyWithCols",
           "normalized": "Int-\u003ePretty a b-\u003e[a]",
@@ -5981,6 +6497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "renderPrettyWithRows",
           "package": "mpppc",
@@ -5990,6 +6507,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "renderPrettyWithRows",
           "normalized": "Int-\u003ePretty a b-\u003e[a]",
@@ -6005,6 +6523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "replicate",
           "package": "mpppc",
@@ -6014,6 +6533,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "replicate",
           "normalized": "Int-\u003ea-\u003ea",
@@ -6028,6 +6548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "resizePretty",
           "package": "mpppc",
@@ -6037,6 +6558,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "resizePretty",
           "normalized": "Int-\u003eInt-\u003e[a]-\u003e[a]",
@@ -6052,6 +6574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "resizePrettyAligned",
           "package": "mpppc",
@@ -6061,6 +6584,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "resizePrettyAligned",
           "normalized": "Int-\u003eInt-\u003eAlignment-\u003eAlignment-\u003e[a]-\u003e[a]",
@@ -6076,6 +6600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "reverse",
           "package": "mpppc",
@@ -6085,6 +6610,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "reverse",
           "normalized": "a-\u003ea",
@@ -6099,6 +6625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "right",
           "package": "mpppc",
@@ -6108,6 +6635,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "right",
           "package": "mpppc",
@@ -6120,6 +6648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "rows",
           "package": "mpppc",
@@ -6129,6 +6658,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "rows",
           "package": "mpppc",
@@ -6141,6 +6671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "seqEmpty",
           "package": "mpppc",
@@ -6150,6 +6681,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "seqEmpty",
           "package": "mpppc",
@@ -6163,6 +6695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "singleton",
           "package": "mpppc",
@@ -6172,6 +6705,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "singleton",
           "normalized": "a-\u003eb",
@@ -6186,6 +6720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "splitAt",
           "package": "mpppc",
@@ -6195,6 +6730,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "splitAt",
           "normalized": "Int-\u003ea-\u003e(a,a)",
@@ -6210,6 +6746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "startLine",
           "package": "mpppc",
@@ -6219,6 +6756,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "startLine",
           "normalized": "Word a b-\u003eLine a b",
@@ -6234,6 +6772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tail",
           "package": "mpppc",
@@ -6243,6 +6782,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tail",
           "normalized": "a-\u003ea",
@@ -6257,6 +6797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "take",
           "package": "mpppc",
@@ -6266,6 +6807,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "take",
           "normalized": "Int-\u003ea-\u003ea",
@@ -6280,6 +6822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "takePad",
           "package": "mpppc",
@@ -6289,6 +6832,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "takePad",
           "normalized": "a-\u003eInt-\u003ea-\u003ea",
@@ -6304,6 +6848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "takePadAlign",
           "package": "mpppc",
@@ -6313,6 +6858,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "takePadAlign",
           "normalized": "Alignment-\u003ea-\u003eInt-\u003ea-\u003ea",
@@ -6328,6 +6874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "takePadAlignList",
           "package": "mpppc",
@@ -6337,6 +6884,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "takePadAlignList",
           "normalized": "Alignment-\u003ea-\u003eInt-\u003e[a]-\u003e[a]",
@@ -6352,6 +6900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "takePadList",
           "package": "mpppc",
@@ -6361,6 +6910,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "takePadList",
           "normalized": "a-\u003eInt-\u003e[a]-\u003e[a]",
@@ -6376,6 +6926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "text",
           "package": "mpppc",
@@ -6385,6 +6936,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "text",
           "normalized": "a-\u003ePretty a b",
@@ -6399,6 +6951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokAngleLeft",
           "package": "mpppc",
@@ -6408,6 +6961,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokAngleLeft",
           "package": "mpppc",
@@ -6421,6 +6975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokAngleRight",
           "package": "mpppc",
@@ -6430,6 +6985,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokAngleRight",
           "package": "mpppc",
@@ -6443,6 +6999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokBackslash",
           "package": "mpppc",
@@ -6452,6 +7009,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokBackslash",
           "package": "mpppc",
@@ -6465,6 +7023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokBraceLeft",
           "package": "mpppc",
@@ -6474,6 +7033,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokBraceLeft",
           "package": "mpppc",
@@ -6487,6 +7047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokBraceRight",
           "package": "mpppc",
@@ -6496,6 +7057,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokBraceRight",
           "package": "mpppc",
@@ -6509,6 +7071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokBracketLeft",
           "package": "mpppc",
@@ -6518,6 +7081,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokBracketLeft",
           "package": "mpppc",
@@ -6531,6 +7095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokBracketRight",
           "package": "mpppc",
@@ -6540,6 +7105,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokBracketRight",
           "package": "mpppc",
@@ -6553,6 +7119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokColon",
           "package": "mpppc",
@@ -6562,6 +7129,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokColon",
           "package": "mpppc",
@@ -6575,6 +7143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokComma",
           "package": "mpppc",
@@ -6584,6 +7153,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokComma",
           "package": "mpppc",
@@ -6597,6 +7167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokDot",
           "package": "mpppc",
@@ -6606,6 +7177,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokDot",
           "package": "mpppc",
@@ -6619,6 +7191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokEquals",
           "package": "mpppc",
@@ -6628,6 +7201,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokEquals",
           "package": "mpppc",
@@ -6641,6 +7215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokNewline",
           "package": "mpppc",
@@ -6650,6 +7225,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokNewline",
           "package": "mpppc",
@@ -6663,6 +7239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokParenLeft",
           "package": "mpppc",
@@ -6672,6 +7249,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokParenLeft",
           "package": "mpppc",
@@ -6685,6 +7263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokParenRight",
           "package": "mpppc",
@@ -6694,6 +7273,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokParenRight",
           "package": "mpppc",
@@ -6707,6 +7287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokQuoteDouble",
           "package": "mpppc",
@@ -6716,6 +7297,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokQuoteDouble",
           "package": "mpppc",
@@ -6729,6 +7311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokQuoteSingle",
           "package": "mpppc",
@@ -6738,6 +7321,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokQuoteSingle",
           "package": "mpppc",
@@ -6751,6 +7335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokSemi",
           "package": "mpppc",
@@ -6760,6 +7345,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokSemi",
           "package": "mpppc",
@@ -6773,6 +7359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokSpace",
           "package": "mpppc",
@@ -6782,6 +7369,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "tokSpace",
           "package": "mpppc",
@@ -6795,6 +7383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "top",
           "package": "mpppc",
@@ -6804,6 +7393,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "top",
           "package": "mpppc",
@@ -6816,6 +7406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "unlines",
           "package": "mpppc",
@@ -6825,6 +7416,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "unlines",
           "normalized": "[a]-\u003ea",
@@ -6839,6 +7431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "unwords",
           "package": "mpppc",
@@ -6848,6 +7441,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "unwords",
           "normalized": "[a]-\u003ea",
@@ -6862,6 +7456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "vcat",
           "package": "mpppc",
@@ -6871,6 +7466,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "vcat",
           "normalized": "Alignment-\u003e[Pretty a b]-\u003ePretty a b",
@@ -6885,6 +7481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "vsep",
           "package": "mpppc",
@@ -6894,6 +7491,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "vsep",
           "normalized": "Int-\u003eAlignment-\u003e[Pretty a b]-\u003ePretty a b",
@@ -6908,6 +7506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "wLen",
           "package": "mpppc",
@@ -6917,6 +7516,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "wLen",
           "package": "mpppc",
@@ -6930,6 +7530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "wordFits",
           "package": "mpppc",
@@ -6939,6 +7540,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "wordFits",
           "normalized": "Int-\u003eWord a b-\u003eLine a b-\u003eBool",
@@ -6954,6 +7556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:52 UTC 2014",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "words",
           "package": "mpppc",
@@ -6963,6 +7566,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint MPPPC TwoDim",
+          "indexed": "2014-03-11T19:22:52",
           "module": "Text.PrettyPrint.MPPPC.TwoDim",
           "name": "words",
           "normalized": "a-\u003e[a]",

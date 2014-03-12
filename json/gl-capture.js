@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gl-capture"
+        "phrase": "gl-capture",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple image capture from OpenGL.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:49 UTC 2014",
           "module": "Graphics.Rendering.OpenGL.Capture",
           "name": "Capture",
           "package": "gl-capture",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Simple image capture from OpenGL",
           "hierarchy": "Graphics Rendering OpenGL Capture",
+          "indexed": "2014-03-11T18:17:49",
           "module": "Graphics.Rendering.OpenGL.Capture",
           "name": "Capture",
           "package": "gl-capture",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCapture the current viewport to a ByteString in PPM P6 format.\n      Correctly handles pixel alignment for oddly-sized regions.\n      Corrects the image orientation so that the origin is top left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:49 UTC 2014",
           "module": "Graphics.Rendering.OpenGL.Capture",
           "name": "capturePPM",
           "package": "gl-capture",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Capture the current viewport to ByteString in PPM P6 format Correctly handles pixel alignment for oddly-sized regions Corrects the image orientation so that the origin is top left",
           "hierarchy": "Graphics Rendering OpenGL Capture",
+          "indexed": "2014-03-11T18:17:49",
           "module": "Graphics.Rendering.OpenGL.Capture",
           "name": "capturePPM",
           "package": "gl-capture",

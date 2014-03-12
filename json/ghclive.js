@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghclive"
+        "phrase": "ghclive",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "Display",
           "package": "ghclive",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "Display",
           "package": "ghclive",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "ClientType",
           "package": "ghclive",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "ClientType",
           "package": "ghclive",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "DR",
           "package": "ghclive",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "DR",
           "package": "ghclive",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "Display",
           "package": "ghclive",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "Display",
           "package": "ghclive",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "DisplayResult",
           "package": "ghclive",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "DisplayResult",
           "package": "ghclive",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "GDisplay",
           "package": "ghclive",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "GDisplay",
           "package": "ghclive",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "DR",
           "package": "ghclive",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "DR",
           "package": "ghclive",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "DisplayResult",
           "package": "ghclive",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "DisplayResult",
           "normalized": "DisplayResult[DR]",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "Html",
           "package": "ghclive",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "Html",
           "package": "ghclive",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "Svg",
           "package": "ghclive",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "Svg",
           "package": "ghclive",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "Text",
           "package": "ghclive",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "Text",
           "package": "ghclive",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "clientType",
           "package": "ghclive",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "clientType",
           "package": "ghclive",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "display",
           "package": "ghclive",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "display",
           "normalized": "a-\u003eDisplayResult",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "displayChar",
           "package": "ghclive",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "displayChar",
           "normalized": "Char-\u003eDisplayResult",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "displayEmpty",
           "package": "ghclive",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "displayEmpty",
           "package": "ghclive",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "displayList",
           "package": "ghclive",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "displayList",
           "normalized": "[a]-\u003eDisplayResult",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "displayListOf",
           "package": "ghclive",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "displayListOf",
           "normalized": "(a-\u003eDisplayResult)-\u003e[a]-\u003eDisplayResult",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "displayString",
           "package": "ghclive",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "displayString",
           "normalized": "String-\u003eDisplayResult",
@@ -420,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToo fool ExtendedDefaultRules into firing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "displaying",
           "package": "ghclive",
@@ -430,6 +467,7 @@
         "index": {
           "description": "Too fool ExtendedDefaultRules into firing",
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "displaying",
           "normalized": "a-\u003eDisplayResult",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "gdisplay",
           "package": "ghclive",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "gdisplay",
           "normalized": "a b-\u003eDisplayResult",
@@ -467,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "html",
           "package": "ghclive",
@@ -476,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "html",
           "normalized": "Markup-\u003eDisplayResult",
@@ -490,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "renderMyDiagramToSvg",
           "package": "ghclive",
@@ -499,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "renderMyDiagramToSvg",
           "normalized": "Double-\u003eDiagram SVG R-\u003eHtml",
@@ -514,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "result",
           "package": "ghclive",
@@ -523,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "result",
           "package": "ghclive",
@@ -535,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "svg",
           "package": "ghclive",
@@ -544,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "svg",
           "normalized": "Markup-\u003eDisplayResult",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:46 UTC 2014",
           "module": "Network.Web.GHCLive.Display",
           "name": "text",
           "package": "ghclive",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Network Web GHCLive Display",
+          "indexed": "2014-03-11T18:16:46",
           "module": "Network.Web.GHCLive.Display",
           "name": "text",
           "normalized": "Text-\u003eDisplayResult",

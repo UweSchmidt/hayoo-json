@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "universe-th"
+        "phrase": "universe-th",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:28 UTC 2014",
           "module": "Language.Haskell.TH.Universe",
           "name": "Universe",
           "package": "universe-th",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Universe",
+          "indexed": "2014-03-11T20:30:28",
           "module": "Language.Haskell.TH.Universe",
           "name": "Universe",
           "package": "universe-th",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:28 UTC 2014",
           "module": "Language.Haskell.TH.Universe",
           "name": "Universe",
           "package": "universe-th",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Universe",
+          "indexed": "2014-03-11T20:30:28",
           "module": "Language.Haskell.TH.Universe",
           "name": "Universe",
           "package": "universe-th",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:28 UTC 2014",
           "module": "Language.Haskell.TH.Universe",
           "name": "collect_dec_type_names",
           "package": "universe-th",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Universe",
+          "indexed": "2014-03-11T20:30:28",
           "module": "Language.Haskell.TH.Universe",
           "name": "collect_dec_type_names",
           "normalized": "Dec-\u003e[Name]",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:28 UTC 2014",
           "module": "Language.Haskell.TH.Universe",
           "name": "collect_new_dec_names",
           "package": "universe-th",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Universe",
+          "indexed": "2014-03-11T20:30:28",
           "module": "Language.Haskell.TH.Universe",
           "name": "collect_new_dec_names",
           "normalized": "Dec-\u003ea[Name]",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:28 UTC 2014",
           "module": "Language.Haskell.TH.Universe",
           "name": "eval_state",
           "package": "universe-th",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Universe",
+          "indexed": "2014-03-11T20:30:28",
           "module": "Language.Haskell.TH.Universe",
           "name": "eval_state",
           "normalized": "ErrorStateT a[b]c b-\u003ec(Either a b)",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:28 UTC 2014",
           "module": "Language.Haskell.TH.Universe",
           "name": "filter_dups'",
           "package": "universe-th",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Universe",
+          "indexed": "2014-03-11T20:30:28",
           "module": "Language.Haskell.TH.Universe",
           "name": "filter_dups'",
           "normalized": "[a]-\u003e[(a,b)]-\u003e[a]",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:28 UTC 2014",
           "module": "Language.Haskell.TH.Universe",
           "name": "get_type_names",
           "package": "universe-th",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Universe",
+          "indexed": "2014-03-11T20:30:28",
           "module": "Language.Haskell.TH.Universe",
           "name": "get_type_names",
           "normalized": "Type-\u003e[Name]",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect all the ancestor Dec's for whatever is passed in by name. \n   For instance if we have\n\u003c/p\u003e\u003cpre\u003e data Otherthing = Otherthing Float\n\u003c/pre\u003e\u003cpre\u003e data Thing = Thing OtherThing Int\n\u003c/pre\u003e\u003cp\u003ethen \n\u003c/p\u003e\u003cpre\u003e get_universe ''Thing\n\u003c/pre\u003e\u003cp\u003ewould return the Dec's for Thing, OtherThing, Int and Float\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:28 UTC 2014",
           "module": "Language.Haskell.TH.Universe",
           "name": "get_universe",
           "package": "universe-th",
@@ -186,6 +201,7 @@
         "index": {
           "description": "Collect all the ancestor Dec for whatever is passed in by name For instance if we have data Otherthing Otherthing Float data Thing Thing OtherThing Int then get universe Thing would return the Dec for Thing OtherThing Int and Float",
           "hierarchy": "Language Haskell TH Universe",
+          "indexed": "2014-03-11T20:30:28",
           "module": "Language.Haskell.TH.Universe",
           "name": "get_universe",
           "normalized": "Name-\u003eQ Universe",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the type in the passed in universe of Decs ([Dec]), and all of the ancestors in the universe.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:28 UTC 2014",
           "module": "Language.Haskell.TH.Universe",
           "name": "sub_universe",
           "package": "universe-th",
@@ -211,6 +228,7 @@
         "index": {
           "description": "Find the type in the passed in universe of Decs Dec and all of the ancestors in the universe",
           "hierarchy": "Language Haskell TH Universe",
+          "indexed": "2014-03-11T20:30:28",
           "module": "Language.Haskell.TH.Universe",
           "name": "sub_universe",
           "normalized": "[Dec]-\u003eName-\u003eUniverse",

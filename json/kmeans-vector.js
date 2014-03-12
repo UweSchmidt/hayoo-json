@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "kmeans-vector"
+        "phrase": "kmeans-vector",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn implementation of the k-means clustering algorithm based on the efficient vector package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:03:16 UTC 2014",
           "module": "Math.KMeans",
           "name": "KMeans",
           "package": "kmeans-vector",
@@ -28,6 +29,7 @@
         "index": {
           "description": "An implementation of the k-means clustering algorithm based on the efficient vector package",
           "hierarchy": "Math KMeans",
+          "indexed": "2014-03-11T19:03:16",
           "module": "Math.KMeans",
           "name": "KMeans",
           "package": "kmeans-vector",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType representing a cluster (group) of vectors by its center and an id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:16 UTC 2014",
           "module": "Math.KMeans",
           "name": "Cluster",
           "package": "kmeans-vector",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Type representing cluster group of vectors by its center and an id",
           "hierarchy": "Math KMeans",
+          "indexed": "2014-03-11T19:03:16",
           "module": "Math.KMeans",
           "name": "Cluster",
           "package": "kmeans-vector",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType holding an object of any type and its associated feature vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:16 UTC 2014",
           "module": "Math.KMeans",
           "name": "Point",
           "package": "kmeans-vector",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Type holding an object of any type and its associated feature vector",
           "hierarchy": "Math KMeans",
+          "indexed": "2014-03-11T19:03:16",
           "module": "Math.KMeans",
           "name": "Point",
           "package": "kmeans-vector",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:16 UTC 2014",
           "module": "Math.KMeans",
           "name": "Cluster",
           "package": "kmeans-vector",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Math KMeans",
+          "indexed": "2014-03-11T19:03:16",
           "module": "Math.KMeans",
           "name": "Cluster",
           "package": "kmeans-vector",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:16 UTC 2014",
           "module": "Math.KMeans",
           "name": "center",
           "package": "kmeans-vector",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Math KMeans",
+          "indexed": "2014-03-11T19:03:16",
           "module": "Math.KMeans",
           "name": "center",
           "package": "kmeans-vector",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:16 UTC 2014",
           "module": "Math.KMeans",
           "name": "cid",
           "package": "kmeans-vector",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Math KMeans",
+          "indexed": "2014-03-11T19:03:16",
           "module": "Math.KMeans",
           "name": "cid",
           "package": "kmeans-vector",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:16 UTC 2014",
           "module": "Math.KMeans",
           "name": "computeClusters",
           "package": "kmeans-vector",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Math KMeans",
+          "indexed": "2014-03-11T19:03:16",
           "module": "Math.KMeans",
           "name": "computeClusters",
           "normalized": "[[Vector Double]]-\u003e[Cluster]",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms the k-means clustering algorithm\n   using trying to use \u003ccode\u003ek\u003c/code\u003e clusters on the given list of points\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:16 UTC 2014",
           "module": "Math.KMeans",
           "name": "kmeans",
           "package": "kmeans-vector",
@@ -186,6 +201,7 @@
         "index": {
           "description": "Performs the k-means clustering algorithm using trying to use clusters on the given list of points",
           "hierarchy": "Math KMeans",
+          "indexed": "2014-03-11T19:03:16",
           "module": "Math.KMeans",
           "name": "kmeans",
           "normalized": "Int-\u003e[Point a]-\u003e[[Point a]]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xml-hamlet"
+        "phrase": "xml-hamlet",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:17 UTC 2014",
           "module": "Text.Hamlet.XML",
           "name": "XML",
           "package": "xml-hamlet",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet XML",
+          "indexed": "2014-03-11T20:42:17",
           "module": "Text.Hamlet.XML",
           "name": "XML",
           "package": "xml-hamlet",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:17 UTC 2014",
           "module": "Text.Hamlet.XML",
           "name": "xml",
           "package": "xml-hamlet",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet XML",
+          "indexed": "2014-03-11T20:42:17",
           "module": "Text.Hamlet.XML",
           "name": "xml",
           "package": "xml-hamlet",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:17 UTC 2014",
           "module": "Text.Hamlet.XML",
           "name": "xmlFile",
           "package": "xml-hamlet",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Text Hamlet XML",
+          "indexed": "2014-03-11T20:42:17",
           "module": "Text.Hamlet.XML",
           "name": "xmlFile",
           "normalized": "FilePath-\u003eQ Exp",

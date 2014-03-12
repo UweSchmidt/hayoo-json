@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "LibZip"
+        "phrase": "LibZip",
+        "type": "phrase"
       },
       "type": "context"
     }

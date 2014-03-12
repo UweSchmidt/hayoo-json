@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hjs"
+        "phrase": "hjs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Array",
           "name": "Array",
           "package": "hjs",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Array",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Array",
           "name": "Array",
           "package": "hjs",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Array",
           "name": "arrayConstructor",
           "package": "hjs",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Array",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Array",
           "name": "arrayConstructor",
           "package": "hjs",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Array",
           "name": "newArrayObject",
           "package": "hjs",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Array",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Array",
           "name": "newArrayObject",
           "normalized": "[Value]-\u003eInterpM ObjId",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Array",
           "name": "push",
           "package": "hjs",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Array",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Array",
           "name": "push",
           "package": "hjs",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Array",
           "name": "toList",
           "package": "hjs",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Array",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Array",
           "name": "toList",
           "normalized": "Value-\u003eInterpM[Value]",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Debugger",
           "name": "Debugger",
           "package": "hjs",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Debugger",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Debugger",
           "name": "Debugger",
           "package": "hjs",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Debugger",
           "name": "debugPoint",
           "package": "hjs",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Debugger",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Debugger",
           "name": "debugPoint",
           "normalized": "(Int,Int)-\u003eInterpM()",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Error",
           "name": "Error",
           "package": "hjs",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Error",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Error",
           "name": "Error",
           "package": "hjs",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Error",
           "name": "errorConstructor",
           "package": "hjs",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Error",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Error",
           "name": "errorConstructor",
           "package": "hjs",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Eval",
           "name": "Eval",
           "package": "hjs",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Eval",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Eval",
           "name": "Eval",
           "package": "hjs",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Eval",
           "name": "eval",
           "package": "hjs",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Eval",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Eval",
           "name": "eval",
           "normalized": "String-\u003eInterpM Value",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Function",
           "name": "Function",
           "package": "hjs",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Function",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Function",
           "name": "Function",
           "package": "hjs",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Host",
           "name": "Host",
           "package": "hjs",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Host",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Host",
           "name": "Host",
           "package": "hjs",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Host",
           "name": "addBuiltIn",
           "package": "hjs",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Host",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Host",
           "name": "addBuiltIn",
           "normalized": "InterpM()",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Host",
           "name": "constructorConstructor",
           "package": "hjs",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Host",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Host",
           "name": "constructorConstructor",
           "package": "hjs",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Host",
           "name": "newConstructorWith",
           "package": "hjs",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Host",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Host",
           "name": "newConstructorWith",
           "normalized": "String-\u003eInterpM Value-\u003eInterpM ObjId",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Host",
           "name": "objectConstructor",
           "package": "hjs",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Host",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Host",
           "name": "objectConstructor",
           "package": "hjs",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Host",
           "name": "print'",
           "package": "hjs",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Host",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Host",
           "name": "print'",
           "package": "hjs",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Host",
           "name": "print''",
           "package": "hjs",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Host",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Host",
           "name": "print''",
           "package": "hjs",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Host",
           "name": "putBuiltIn",
           "package": "hjs",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Host",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Host",
           "name": "putBuiltIn",
           "normalized": "ObjId-\u003eString-\u003e[String]-\u003eInterpM Value-\u003eInterpM()",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Interp",
           "name": "Interp",
           "package": "hjs",
@@ -470,6 +511,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Interp",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Interp",
           "name": "Interp",
           "package": "hjs",
@@ -483,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Interp",
           "name": "InterpC",
           "package": "hjs",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Interp",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Interp",
           "name": "InterpC",
           "package": "hjs",
@@ -504,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Interp",
           "name": "MyError",
           "package": "hjs",
@@ -512,6 +557,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Interp",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Interp",
           "name": "MyError",
           "package": "hjs",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Interp",
           "name": "Msg",
           "package": "hjs",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Interp",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Interp",
           "name": "Msg",
           "package": "hjs",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Interp",
           "name": "NoMsg",
           "package": "hjs",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Interp",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Interp",
           "name": "NoMsg",
           "package": "hjs",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Interp",
           "name": "callFunction",
           "package": "hjs",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Interp",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Interp",
           "name": "callFunction",
           "normalized": "Value-\u003e[Value]-\u003eObjId-\u003eInterpM Value",
@@ -593,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Interp",
           "name": "callIt",
           "package": "hjs",
@@ -602,6 +655,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Interp",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Interp",
           "name": "callIt",
           "normalized": "Int-\u003eInt",
@@ -617,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Interp",
           "name": "defaultConstructor",
           "package": "hjs",
@@ -626,6 +681,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Interp",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Interp",
           "name": "defaultConstructor",
           "normalized": "String-\u003eInterpM Value",
@@ -641,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Interp",
           "name": "interp",
           "package": "hjs",
@@ -650,6 +707,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Interp",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Interp",
           "name": "interp",
           "normalized": "a-\u003eInterpM Value",
@@ -664,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Interp",
           "name": "interpList",
           "package": "hjs",
@@ -673,6 +732,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Interp",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Interp",
           "name": "interpList",
           "normalized": "[a]-\u003eInterpM Value",
@@ -688,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Interp",
           "name": "liftIt",
           "package": "hjs",
@@ -697,6 +758,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Interp",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Interp",
           "name": "liftIt",
           "normalized": "(a-\u003ea-\u003eInt)-\u003eb-\u003eb-\u003eInterpM Value",
@@ -712,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Interp",
           "name": "liftIt22",
           "package": "hjs",
@@ -721,6 +784,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Interp",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Interp",
           "name": "liftIt22",
           "normalized": "(Int-\u003eInt-\u003eInt)-\u003ea-\u003eb-\u003eInterpM Value",
@@ -736,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Interp",
           "name": "liftIt3",
           "package": "hjs",
@@ -745,6 +810,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Interp",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Interp",
           "name": "liftIt3",
           "normalized": "(a-\u003ea-\u003eInt)-\u003eValue-\u003eValue-\u003eInterpM Value",
@@ -760,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Interp",
           "name": "toProperty",
           "package": "hjs",
@@ -769,6 +836,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Interp",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Interp",
           "name": "toProperty",
           "normalized": "Value-\u003eEither(PropName,AssignE)GetterPutter-\u003eInterpM()",
@@ -784,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Interp",
           "name": "x",
           "package": "hjs",
@@ -793,6 +862,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Interp",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Interp",
           "name": "x",
           "package": "hjs",
@@ -805,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "InterpM",
           "package": "hjs",
@@ -813,6 +884,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "InterpM",
           "package": "hjs",
@@ -826,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "Convert",
           "package": "hjs",
@@ -834,6 +907,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "Convert",
           "package": "hjs",
@@ -847,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "PrimHint",
           "package": "hjs",
@@ -855,6 +930,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "PrimHint",
           "package": "hjs",
@@ -868,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "SubType",
           "package": "hjs",
@@ -876,6 +953,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "SubType",
           "package": "hjs",
@@ -889,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "HNone",
           "package": "hjs",
@@ -898,6 +977,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "HNone",
           "package": "hjs",
@@ -911,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "HNumber",
           "package": "hjs",
@@ -920,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "HNumber",
           "package": "hjs",
@@ -933,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "HString",
           "package": "hjs",
@@ -942,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "HString",
           "package": "hjs",
@@ -955,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "checkAttr",
           "package": "hjs",
@@ -964,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "checkAttr",
           "normalized": "Object-\u003eString-\u003eAttribute-\u003eInterpM Bool",
@@ -979,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "deleteProperty",
           "package": "hjs",
@@ -988,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "deleteProperty",
           "normalized": "Object-\u003eString-\u003eObject",
@@ -1003,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "getArgs",
           "package": "hjs",
@@ -1012,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "getArgs",
           "normalized": "InterpM[Value]",
@@ -1027,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "getAttr",
           "package": "hjs",
@@ -1036,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "getAttr",
           "normalized": "Object-\u003eString-\u003eInterpM[Attribute]",
@@ -1051,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "getCallee",
           "package": "hjs",
@@ -1060,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "getCallee",
           "package": "hjs",
@@ -1073,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "getDebugFlags",
           "package": "hjs",
@@ -1082,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "getDebugFlags",
           "normalized": "InterpM[DebugAction]",
@@ -1097,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "getFlags",
           "package": "hjs",
@@ -1106,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "getFlags",
           "normalized": "InterpM[RunFlag]",
@@ -1121,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "getObject",
           "package": "hjs",
@@ -1130,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "getObject",
           "normalized": "ObjId-\u003eInterpM Object",
@@ -1145,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "getObjectProperty'",
           "package": "hjs",
@@ -1154,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "getObjectProperty'",
           "normalized": "Object-\u003eString-\u003eInterpM(Maybe ObjId)",
@@ -1169,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "getObjectValue",
           "package": "hjs",
@@ -1178,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "getObjectValue",
           "normalized": "Value-\u003eInterpM ObjId",
@@ -1193,6 +1297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "getProperty",
           "package": "hjs",
@@ -1202,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "getProperty",
           "normalized": "ObjId-\u003eString-\u003eInterpM Value",
@@ -1217,6 +1323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "getProperty'",
           "package": "hjs",
@@ -1226,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "getProperty'",
           "normalized": "Object-\u003eString-\u003eInterpM Value",
@@ -1241,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "getPropertyNames",
           "package": "hjs",
@@ -1250,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "getPropertyNames",
           "normalized": "ObjId-\u003eInterpM[String]",
@@ -1265,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "getPropertyNames'",
           "package": "hjs",
@@ -1274,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "getPropertyNames'",
           "normalized": "Object-\u003eInterpM[String]",
@@ -1289,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "getStmtLine",
           "package": "hjs",
@@ -1298,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "getStmtLine",
           "package": "hjs",
@@ -1311,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "getThis",
           "package": "hjs",
@@ -1320,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "getThis",
           "package": "hjs",
@@ -1333,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "getValue",
           "package": "hjs",
@@ -1342,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "getValue",
           "normalized": "Value-\u003eInterpM Value",
@@ -1357,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "getValue'",
           "package": "hjs",
@@ -1366,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "getValue'",
           "normalized": "[ObjId]-\u003eString-\u003eInterpM Value",
@@ -1381,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "hasProperty",
           "package": "hjs",
@@ -1390,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "hasProperty",
           "normalized": "Object-\u003eString-\u003eBool",
@@ -1405,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "inj",
           "package": "hjs",
@@ -1414,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "inj",
           "normalized": "a-\u003eb",
@@ -1428,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "newBuiltInFunction",
           "package": "hjs",
@@ -1437,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "newBuiltInFunction",
           "normalized": "[String]-\u003eInterpM Value-\u003eInterpM ObjId",
@@ -1452,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "newFuncObject",
           "package": "hjs",
@@ -1461,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "newFuncObject",
           "normalized": "[String]-\u003e[SourceElement]-\u003eInterpM Value-\u003eInterpM ObjId",
@@ -1476,6 +1604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "newObjectRaw",
           "package": "hjs",
@@ -1485,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "newObjectRaw",
           "normalized": "String-\u003eInterpM ObjId",
@@ -1500,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "nullObjValue",
           "package": "hjs",
@@ -1509,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "nullObjValue",
           "package": "hjs",
@@ -1522,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "nullStringValue",
           "package": "hjs",
@@ -1531,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "nullStringValue",
           "package": "hjs",
@@ -1544,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "nullValue",
           "package": "hjs",
@@ -1553,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "nullValue",
           "package": "hjs",
@@ -1566,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "popContext",
           "package": "hjs",
@@ -1575,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "popContext",
           "normalized": "InterpM()",
@@ -1590,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "prj",
           "package": "hjs",
@@ -1599,6 +1738,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "prj",
           "normalized": "a-\u003eMaybe b",
@@ -1613,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "prjBool",
           "package": "hjs",
@@ -1622,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "prjBool",
           "normalized": "Value-\u003eBool",
@@ -1637,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "prjInt",
           "package": "hjs",
@@ -1646,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "prjInt",
           "normalized": "Value-\u003eInt",
@@ -1661,6 +1805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "prjObjId",
           "package": "hjs",
@@ -1670,6 +1815,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "prjObjId",
           "normalized": "Value-\u003eObjId",
@@ -1685,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "prjString",
           "package": "hjs",
@@ -1694,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "prjString",
           "normalized": "Value-\u003eString",
@@ -1709,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "pushContext",
           "package": "hjs",
@@ -1718,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "pushContext",
           "normalized": "Ctx-\u003eInterpM()",
@@ -1733,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "putDebugFlags",
           "package": "hjs",
@@ -1742,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "putDebugFlags",
           "normalized": "[DebugAction]-\u003eInterpM()",
@@ -1757,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "putObject",
           "package": "hjs",
@@ -1766,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "putObject",
           "normalized": "Object-\u003eInterpM()",
@@ -1781,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "putProperty",
           "package": "hjs",
@@ -1790,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "putProperty",
           "normalized": "ObjId-\u003eString-\u003eValue-\u003eInterpM()",
@@ -1805,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "putValue",
           "package": "hjs",
@@ -1814,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "putValue",
           "normalized": "Value-\u003eValue-\u003eInterpM()",
@@ -1829,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "toBoolean",
           "package": "hjs",
@@ -1838,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "toBoolean",
           "normalized": "a-\u003eInterpM Value",
@@ -1853,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "toNumber",
           "package": "hjs",
@@ -1862,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "toNumber",
           "normalized": "a-\u003eValue",
@@ -1877,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "toPrimitive",
           "package": "hjs",
@@ -1886,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "toPrimitive",
           "normalized": "PrimHint-\u003ea-\u003eInterpM Value",
@@ -1901,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "toRealBool",
           "package": "hjs",
@@ -1910,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "toRealBool",
           "normalized": "a-\u003eInterpM Bool",
@@ -1925,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "toRealInt",
           "package": "hjs",
@@ -1934,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "toRealInt",
           "normalized": "a-\u003eInt",
@@ -1949,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "toRealString",
           "package": "hjs",
@@ -1958,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "toRealString",
           "normalized": "a-\u003eInterpM String",
@@ -1973,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "toString",
           "package": "hjs",
@@ -1982,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "toString",
           "normalized": "a-\u003eInterpM Value",
@@ -1997,6 +2169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "toUInt32",
           "package": "hjs",
@@ -2006,6 +2179,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "toUInt32",
           "normalized": "String-\u003eInt",
@@ -2021,6 +2195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "toValueList",
           "package": "hjs",
@@ -2030,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "toValueList",
           "normalized": "Value-\u003e[Value]",
@@ -2045,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "traceM",
           "package": "hjs",
@@ -2054,6 +2231,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "traceM",
           "normalized": "String-\u003eInterpM()",
@@ -2068,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "trueValue",
           "package": "hjs",
@@ -2077,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "trueValue",
           "package": "hjs",
@@ -2090,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "typeOf",
           "package": "hjs",
@@ -2099,6 +2280,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "typeOf",
           "normalized": "a-\u003e[Int]",
@@ -2114,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "typeOfString",
           "package": "hjs",
@@ -2123,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "typeOfString",
           "normalized": "Value-\u003eInterpM Value",
@@ -2138,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "undefinedValue",
           "package": "hjs",
@@ -2147,6 +2332,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "undefinedValue",
           "package": "hjs",
@@ -2160,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpM",
           "name": "zeroValue",
           "package": "hjs",
@@ -2169,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpM",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpM",
           "name": "zeroValue",
           "package": "hjs",
@@ -2182,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "InterpMDecl",
           "package": "hjs",
@@ -2190,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "InterpMDecl",
           "package": "hjs",
@@ -2203,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ArgList",
           "package": "hjs",
@@ -2211,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ArgList",
           "package": "hjs",
@@ -2224,6 +2416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Attribute",
           "package": "hjs",
@@ -2232,6 +2425,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Attribute",
           "package": "hjs",
@@ -2245,6 +2439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "BreakContinue",
           "package": "hjs",
@@ -2253,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "BreakContinue",
           "package": "hjs",
@@ -2266,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "CallValue",
           "package": "hjs",
@@ -2274,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "CallValue",
           "package": "hjs",
@@ -2287,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Ctx",
           "package": "hjs",
@@ -2295,6 +2494,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Ctx",
           "package": "hjs",
@@ -2308,6 +2508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "DebugAction",
           "package": "hjs",
@@ -2316,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "DebugAction",
           "package": "hjs",
@@ -2329,6 +2531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "InterpM",
           "package": "hjs",
@@ -2337,6 +2540,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "InterpM",
           "package": "hjs",
@@ -2350,6 +2554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "JSState",
           "package": "hjs",
@@ -2358,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "JSState",
           "package": "hjs",
@@ -2371,6 +2577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Null",
           "package": "hjs",
@@ -2379,6 +2586,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Null",
           "package": "hjs",
@@ -2392,6 +2600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ObjId",
           "package": "hjs",
@@ -2400,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ObjId",
           "package": "hjs",
@@ -2413,6 +2623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Object",
           "package": "hjs",
@@ -2421,6 +2632,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Object",
           "package": "hjs",
@@ -2434,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Ref",
           "package": "hjs",
@@ -2442,6 +2655,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Ref",
           "package": "hjs",
@@ -2455,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "RunFlag",
           "package": "hjs",
@@ -2463,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "RunFlag",
           "package": "hjs",
@@ -2476,6 +2692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Throwable",
           "package": "hjs",
@@ -2484,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Throwable",
           "package": "hjs",
@@ -2497,6 +2715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Undefined",
           "package": "hjs",
@@ -2505,6 +2724,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Undefined",
           "package": "hjs",
@@ -2518,6 +2738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Value",
           "package": "hjs",
@@ -2526,6 +2747,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Value",
           "package": "hjs",
@@ -2539,6 +2761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ArgList",
           "package": "hjs",
@@ -2548,6 +2771,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ArgList",
           "normalized": "ArgList[String]",
@@ -2563,6 +2787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Break",
           "package": "hjs",
@@ -2572,6 +2797,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Break",
           "package": "hjs",
@@ -2585,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "CallBuiltIn",
           "package": "hjs",
@@ -2594,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "CallBuiltIn",
           "package": "hjs",
@@ -2607,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "CallJS",
           "package": "hjs",
@@ -2616,6 +2845,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "CallJS",
           "normalized": "CallJS[SourceElement]",
@@ -2631,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Continue",
           "package": "hjs",
@@ -2640,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Continue",
           "package": "hjs",
@@ -2653,6 +2885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "DBBreak",
           "package": "hjs",
@@ -2662,6 +2895,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "DBBreak",
           "package": "hjs",
@@ -2675,6 +2909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "DBContinue",
           "package": "hjs",
@@ -2684,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "DBContinue",
           "package": "hjs",
@@ -2697,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Debug",
           "package": "hjs",
@@ -2706,6 +2943,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Debug",
           "package": "hjs",
@@ -2719,6 +2957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "DontDelete",
           "package": "hjs",
@@ -2728,6 +2967,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "DontDelete",
           "package": "hjs",
@@ -2741,6 +2981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "DontEnum",
           "package": "hjs",
@@ -2750,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "DontEnum",
           "package": "hjs",
@@ -2763,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Eval",
           "package": "hjs",
@@ -2772,6 +3015,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Eval",
           "package": "hjs",
@@ -2785,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Internal",
           "package": "hjs",
@@ -2794,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Internal",
           "package": "hjs",
@@ -2807,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "JSS",
           "package": "hjs",
@@ -2816,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "JSS",
           "package": "hjs",
@@ -2829,6 +3077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Null",
           "package": "hjs",
@@ -2838,6 +3087,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Null",
           "package": "hjs",
@@ -2851,6 +3101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ObjId",
           "package": "hjs",
@@ -2860,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ObjId",
           "package": "hjs",
@@ -2873,6 +3125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ObjIdNull",
           "package": "hjs",
@@ -2882,6 +3135,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ObjIdNull",
           "package": "hjs",
@@ -2895,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Object",
           "package": "hjs",
@@ -2904,6 +3159,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Object",
           "package": "hjs",
@@ -2917,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "PrintHeap",
           "package": "hjs",
@@ -2926,6 +3183,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "PrintHeap",
           "package": "hjs",
@@ -2939,6 +3197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "PrintLine",
           "package": "hjs",
@@ -2948,6 +3207,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "PrintLine",
           "package": "hjs",
@@ -2961,6 +3221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "PrintObj",
           "package": "hjs",
@@ -2970,6 +3231,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "PrintObj",
           "package": "hjs",
@@ -2983,6 +3245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "PrintStack",
           "package": "hjs",
@@ -2992,6 +3255,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "PrintStack",
           "package": "hjs",
@@ -3005,6 +3269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "PrintVar",
           "package": "hjs",
@@ -3014,6 +3279,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "PrintVar",
           "package": "hjs",
@@ -3027,6 +3293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ReadOnly",
           "package": "hjs",
@@ -3036,6 +3303,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ReadOnly",
           "package": "hjs",
@@ -3049,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Ref",
           "package": "hjs",
@@ -3058,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Ref",
           "package": "hjs",
@@ -3071,6 +3341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "RefObj",
           "package": "hjs",
@@ -3080,6 +3351,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "RefObj",
           "package": "hjs",
@@ -3093,6 +3365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ShowHeap",
           "package": "hjs",
@@ -3102,6 +3375,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ShowHeap",
           "package": "hjs",
@@ -3115,6 +3389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "StepInto",
           "package": "hjs",
@@ -3124,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "StepInto",
           "package": "hjs",
@@ -3137,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "StepOver",
           "package": "hjs",
@@ -3146,6 +3423,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "StepOver",
           "package": "hjs",
@@ -3159,6 +3437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ThrowBreak",
           "package": "hjs",
@@ -3168,6 +3447,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ThrowBreak",
           "package": "hjs",
@@ -3181,6 +3461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ThrowContinue",
           "package": "hjs",
@@ -3190,6 +3471,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ThrowContinue",
           "package": "hjs",
@@ -3203,6 +3485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ThrowException",
           "package": "hjs",
@@ -3212,6 +3495,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ThrowException",
           "package": "hjs",
@@ -3225,6 +3509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ThrowInternalError",
           "package": "hjs",
@@ -3234,6 +3519,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ThrowInternalError",
           "package": "hjs",
@@ -3247,6 +3533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ThrowReturn",
           "package": "hjs",
@@ -3256,6 +3543,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ThrowReturn",
           "package": "hjs",
@@ -3269,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ThrowTypeError",
           "package": "hjs",
@@ -3278,6 +3567,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ThrowTypeError",
           "package": "hjs",
@@ -3291,6 +3581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Trace",
           "package": "hjs",
@@ -3300,6 +3591,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Trace",
           "package": "hjs",
@@ -3313,6 +3605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Undefined",
           "package": "hjs",
@@ -3322,6 +3615,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "Undefined",
           "package": "hjs",
@@ -3335,6 +3629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "VarArgList",
           "package": "hjs",
@@ -3344,6 +3639,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "VarArgList",
           "package": "hjs",
@@ -3357,6 +3653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ctx",
           "package": "hjs",
@@ -3366,6 +3663,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "ctx",
           "normalized": "[Ctx]",
@@ -3380,6 +3678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "debug",
           "package": "hjs",
@@ -3389,6 +3688,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "debug",
           "normalized": "[DebugAction]",
@@ -3403,6 +3703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "flags",
           "package": "hjs",
@@ -3412,6 +3713,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "flags",
           "normalized": "[RunFlag]",
@@ -3426,6 +3728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "idd",
           "package": "hjs",
@@ -3435,6 +3738,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "idd",
           "package": "hjs",
@@ -3447,6 +3751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "klass",
           "package": "hjs",
@@ -3456,6 +3761,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "klass",
           "package": "hjs",
@@ -3468,6 +3774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "oheap",
           "package": "hjs",
@@ -3477,6 +3784,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "oheap",
           "package": "hjs",
@@ -3489,6 +3797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "pos",
           "package": "hjs",
@@ -3498,6 +3807,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "pos",
           "normalized": "(Int,Int)",
@@ -3512,6 +3822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "properties",
           "package": "hjs",
@@ -3521,6 +3832,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "properties",
           "normalized": "Map String(Value,[Attribute])",
@@ -3535,6 +3847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "prototype",
           "package": "hjs",
@@ -3544,6 +3857,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "prototype",
           "package": "hjs",
@@ -3556,6 +3870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "value",
           "package": "hjs",
@@ -3565,6 +3880,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter InterpMDecl",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.InterpMDecl",
           "name": "value",
           "package": "hjs",
@@ -3577,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Object",
           "name": "Object",
           "package": "hjs",
@@ -3585,6 +3902,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Object",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Object",
           "name": "Object",
           "package": "hjs",
@@ -3598,6 +3916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Object",
           "name": "hasOwnProperty",
           "package": "hjs",
@@ -3607,6 +3926,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Object",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Object",
           "name": "hasOwnProperty",
           "package": "hjs",
@@ -3620,6 +3940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Object",
           "name": "propertyNames",
           "package": "hjs",
@@ -3629,6 +3950,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Object",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Object",
           "name": "propertyNames",
           "package": "hjs",
@@ -3642,6 +3964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Object",
           "name": "toString'",
           "package": "hjs",
@@ -3651,6 +3974,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Object",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Object",
           "name": "toString'",
           "package": "hjs",
@@ -3664,6 +3988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.ObjectBasic",
           "name": "ObjectBasic",
           "package": "hjs",
@@ -3672,6 +3997,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter ObjectBasic",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.ObjectBasic",
           "name": "ObjectBasic",
           "package": "hjs",
@@ -3686,6 +4012,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA C printf like formatter.\n\u003c/p\u003e\u003cp\u003eModified by MPW to take arbitrary instances of Show\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Printf",
           "name": "Printf",
           "package": "hjs",
@@ -3695,6 +4022,7 @@
         "index": {
           "description": "printf like formatter Modified by MPW to take arbitrary instances of Show",
           "hierarchy": "HJS Interpreter Printf",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Printf",
           "name": "Printf",
           "package": "hjs",
@@ -3709,6 +4037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eHPrintfType\u003c/a\u003e\u003c/code\u003e class provides the variable argument magic for\n \u003ccode\u003e\u003ca\u003ehPrintf\u003c/a\u003e\u003c/code\u003e.  Its implementation is intentionally not visible from\n this module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Printf",
           "name": "HPrintfType",
           "package": "hjs",
@@ -3718,6 +4047,7 @@
         "index": {
           "description": "The HPrintfType class provides the variable argument magic for hPrintf Its implementation is intentionally not visible from this module",
           "hierarchy": "HJS Interpreter Printf",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Printf",
           "name": "HPrintfType",
           "package": "hjs",
@@ -3731,6 +4061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Printf",
           "name": "IsChar",
           "package": "hjs",
@@ -3739,6 +4070,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Printf",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Printf",
           "name": "IsChar",
           "package": "hjs",
@@ -3752,6 +4084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Printf",
           "name": "PrintfArg",
           "package": "hjs",
@@ -3760,6 +4093,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Printf",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Printf",
           "name": "PrintfArg",
           "package": "hjs",
@@ -3774,6 +4108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ePrintfType\u003c/a\u003e\u003c/code\u003e class provides the variable argument magic for\n \u003ccode\u003e\u003ca\u003eprintf\u003c/a\u003e\u003c/code\u003e.  Its implementation is intentionally not visible from\n this module. If you attempt to pass an argument of a type which\n is not an instance of this class to \u003ccode\u003e\u003ca\u003eprintf\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ehPrintf\u003c/a\u003e\u003c/code\u003e, then\n the compiler will report it as a missing instance of \u003ccode\u003e\u003ca\u003ePrintfArg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Printf",
           "name": "PrintfType",
           "package": "hjs",
@@ -3783,6 +4118,7 @@
         "index": {
           "description": "The PrintfType class provides the variable argument magic for printf Its implementation is intentionally not visible from this module If you attempt to pass an argument of type which is not an instance of this class to printf or hPrintf then the compiler will report it as missing instance of PrintfArg",
           "hierarchy": "HJS Interpreter Printf",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Printf",
           "name": "PrintfType",
           "package": "hjs",
@@ -3797,6 +4133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eprintf\u003c/a\u003e\u003c/code\u003e, except that output is via the specified\n \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e.  The return type is restricted to \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e a)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Printf",
           "name": "hPrintf",
           "package": "hjs",
@@ -3807,6 +4144,7 @@
         "index": {
           "description": "Similar to printf except that output is via the specified Handle The return type is restricted to IO",
           "hierarchy": "HJS Interpreter Printf",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Printf",
           "name": "hPrintf",
           "normalized": "Handle-\u003eString-\u003ea",
@@ -3823,6 +4161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat a variable number of arguments with the C-style formatting string.\n The return value is either \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e a)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe format string consists of ordinary characters and /conversion\n specifications/, which specify how to format one of the arguments\n to printf in the output string.  A conversion specification begins with the\n character \u003ccode\u003e%\u003c/code\u003e, followed by one or more of the following flags:\n\u003c/p\u003e\u003cpre\u003e    -      left adjust (default is right adjust)\n    0      pad with zeroes rather than spaces\n\u003c/pre\u003e\u003cp\u003efollowed optionally by a field width:\n\u003c/p\u003e\u003cpre\u003e    num    field width\n    *      as num, but taken from argument list\n\u003c/pre\u003e\u003cp\u003efollowed optionally by a precision:\n\u003c/p\u003e\u003cpre\u003e    .num   precision (number of decimal places)\n\u003c/pre\u003e\u003cp\u003eand finally, a format character:\n\u003c/p\u003e\u003cpre\u003e    c      character               Char, Int, Integer\n    d      decimal                 Char, Int, Integer\n    o      octal                   Char, Int, Integer\n    x      hexadecimal             Char, Int, Integer\n    u      unsigned decimal        Char, Int, Integer\n    f      floating point          Float, Double\n    g      general format float    Float, Double\n    e      exponent format float   Float, Double\n    s      string                  String\n\u003c/pre\u003e\u003cp\u003eMismatch between the argument types and the format string will cause\n an exception to be thrown at runtime.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e   \u003e printf \"%d\\n\" (23::Int)\n   23\n   \u003e printf \"%s %s\\n\" \"Hello\" \"World\"\n   Hello World\n   \u003e printf \"%.2f\\n\" pi\n   3.14\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Printf",
           "name": "printf",
           "package": "hjs",
@@ -3833,6 +4172,7 @@
         "index": {
           "description": "Format variable number of arguments with the C-style formatting string The return value is either String or IO The format string consists of ordinary characters and conversion specifications which specify how to format one of the arguments to printf in the output string conversion specification begins with the character followed by one or more of the following flags left adjust default is right adjust pad with zeroes rather than spaces followed optionally by field width num field width as num but taken from argument list followed optionally by precision num precision number of decimal places and finally format character character Char Int Integer decimal Char Int Integer octal Char Int Integer hexadecimal Char Int Integer unsigned decimal Char Int Integer floating point Float Double general format float Float Double exponent format float Float Double string String Mismatch between the argument types and the format string will cause an exception to be thrown at runtime Examples printf Int printf Hello World Hello World printf pi",
           "hierarchy": "HJS Interpreter Printf",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Printf",
           "name": "printf",
           "normalized": "String-\u003ea",
@@ -3847,6 +4187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Regex",
           "name": "Regex",
           "package": "hjs",
@@ -3855,6 +4196,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Regex",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Regex",
           "name": "Regex",
           "package": "hjs",
@@ -3868,6 +4210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Regex",
           "name": "newRegexObject",
           "package": "hjs",
@@ -3877,6 +4220,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Regex",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Regex",
           "name": "newRegexObject",
           "normalized": "Value-\u003eValue-\u003eValue-\u003eInterpM Value",
@@ -3892,6 +4236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Regex",
           "name": "regexConstructor",
           "package": "hjs",
@@ -3901,6 +4246,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Regex",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Regex",
           "name": "regexConstructor",
           "package": "hjs",
@@ -3914,6 +4260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.Regex",
           "name": "test",
           "package": "hjs",
@@ -3923,6 +4270,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter Regex",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.Regex",
           "name": "test",
           "package": "hjs",
@@ -3935,6 +4283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.String",
           "name": "String",
           "package": "hjs",
@@ -3943,6 +4292,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter String",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.String",
           "name": "String",
           "package": "hjs",
@@ -3956,6 +4306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.String",
           "name": "match",
           "package": "hjs",
@@ -3965,6 +4316,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter String",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.String",
           "name": "match",
           "package": "hjs",
@@ -3977,6 +4329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.String",
           "name": "stringConstructor",
           "package": "hjs",
@@ -3986,6 +4339,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter String",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.String",
           "name": "stringConstructor",
           "package": "hjs",
@@ -3999,6 +4353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.VarArgs",
           "name": "VarArgs",
           "package": "hjs",
@@ -4007,6 +4362,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter VarArgs",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.VarArgs",
           "name": "VarArgs",
           "package": "hjs",
@@ -4020,6 +4376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.VarArgs",
           "name": "BuildList",
           "package": "hjs",
@@ -4028,6 +4385,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter VarArgs",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.VarArgs",
           "name": "BuildList",
           "package": "hjs",
@@ -4041,6 +4399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter.VarArgs",
           "name": "build'",
           "package": "hjs",
@@ -4050,6 +4409,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter VarArgs",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter.VarArgs",
           "name": "build'",
           "normalized": "[a]-\u003ea-\u003eb",
@@ -4064,6 +4424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter",
           "name": "Interpreter",
           "package": "hjs",
@@ -4072,6 +4433,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter",
           "name": "Interpreter",
           "package": "hjs",
@@ -4085,6 +4447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter",
           "name": "runInterp",
           "package": "hjs",
@@ -4094,6 +4457,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter",
           "name": "runInterp",
           "normalized": "a-\u003eInterpM Value",
@@ -4109,6 +4473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Interpreter",
           "name": "runProgram",
           "package": "hjs",
@@ -4118,6 +4483,7 @@
         },
         "index": {
           "hierarchy": "HJS Interpreter",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Interpreter",
           "name": "runProgram",
           "normalized": "[RunFlag]-\u003ea-\u003eIO Bool",
@@ -4133,6 +4499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "JavaScript",
           "package": "hjs",
@@ -4141,6 +4508,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "JavaScript",
           "package": "hjs",
@@ -4154,6 +4522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "AExpr",
           "package": "hjs",
@@ -4162,6 +4531,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "AExpr",
           "package": "hjs",
@@ -4175,6 +4545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "ArrayLit",
           "package": "hjs",
@@ -4183,6 +4554,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "ArrayLit",
           "package": "hjs",
@@ -4196,6 +4568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "AssignE",
           "package": "hjs",
@@ -4204,6 +4577,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "AssignE",
           "package": "hjs",
@@ -4217,6 +4591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "AssignOp",
           "package": "hjs",
@@ -4225,6 +4600,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "AssignOp",
           "package": "hjs",
@@ -4238,6 +4614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "CallExpr",
           "package": "hjs",
@@ -4246,6 +4623,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "CallExpr",
           "package": "hjs",
@@ -4259,6 +4637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "CaseBlock",
           "package": "hjs",
@@ -4267,6 +4646,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "CaseBlock",
           "package": "hjs",
@@ -4280,6 +4660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "CaseClause",
           "package": "hjs",
@@ -4288,6 +4669,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "CaseClause",
           "package": "hjs",
@@ -4301,6 +4683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Catch",
           "package": "hjs",
@@ -4309,6 +4692,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Catch",
           "package": "hjs",
@@ -4322,6 +4706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "CondE",
           "package": "hjs",
@@ -4330,6 +4715,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "CondE",
           "package": "hjs",
@@ -4343,6 +4729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "EmitHaskell",
           "package": "hjs",
@@ -4351,6 +4738,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "EmitHaskell",
           "package": "hjs",
@@ -4364,6 +4752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Expr",
           "package": "hjs",
@@ -4372,6 +4761,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Expr",
           "package": "hjs",
@@ -4385,6 +4775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "FuncDecl",
           "package": "hjs",
@@ -4393,6 +4784,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "FuncDecl",
           "package": "hjs",
@@ -4406,6 +4798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "GetterPutter",
           "package": "hjs",
@@ -4414,6 +4807,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "GetterPutter",
           "package": "hjs",
@@ -4427,6 +4821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "IfStmt",
           "package": "hjs",
@@ -4435,6 +4830,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "IfStmt",
           "package": "hjs",
@@ -4448,6 +4844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "ItStmt",
           "package": "hjs",
@@ -4456,6 +4853,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "ItStmt",
           "package": "hjs",
@@ -4469,6 +4867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "JSProgram",
           "package": "hjs",
@@ -4477,6 +4876,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "JSProgram",
           "package": "hjs",
@@ -4490,6 +4890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "LeftExpr",
           "package": "hjs",
@@ -4498,6 +4899,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "LeftExpr",
           "package": "hjs",
@@ -4511,6 +4913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Literal",
           "package": "hjs",
@@ -4519,6 +4922,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Literal",
           "package": "hjs",
@@ -4532,6 +4936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "MemberExpr",
           "package": "hjs",
@@ -4540,6 +4945,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "MemberExpr",
           "package": "hjs",
@@ -4553,6 +4959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "NewExpr",
           "package": "hjs",
@@ -4561,6 +4968,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "NewExpr",
           "package": "hjs",
@@ -4574,6 +4982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "PostFix",
           "package": "hjs",
@@ -4582,6 +4991,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "PostFix",
           "package": "hjs",
@@ -4595,6 +5005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "PrimExpr",
           "package": "hjs",
@@ -4603,6 +5014,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "PrimExpr",
           "package": "hjs",
@@ -4616,6 +5028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "PropName",
           "package": "hjs",
@@ -4624,6 +5037,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "PropName",
           "package": "hjs",
@@ -4637,6 +5051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "SourceElement",
           "package": "hjs",
@@ -4645,6 +5060,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "SourceElement",
           "package": "hjs",
@@ -4658,6 +5074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Stmt",
           "package": "hjs",
@@ -4666,6 +5083,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Stmt",
           "package": "hjs",
@@ -4679,6 +5097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Stmt'",
           "package": "hjs",
@@ -4687,6 +5106,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Stmt'",
           "package": "hjs",
@@ -4700,6 +5120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Switch",
           "package": "hjs",
@@ -4708,6 +5129,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Switch",
           "package": "hjs",
@@ -4721,6 +5143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "TryStmt",
           "package": "hjs",
@@ -4729,6 +5152,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "TryStmt",
           "package": "hjs",
@@ -4742,6 +5166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "UExpr",
           "package": "hjs",
@@ -4750,6 +5175,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "UExpr",
           "package": "hjs",
@@ -4763,6 +5189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "VarDecl",
           "package": "hjs",
@@ -4771,6 +5198,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "VarDecl",
           "package": "hjs",
@@ -4784,6 +5212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "AEFuncDecl",
           "package": "hjs",
@@ -4793,6 +5222,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "AEFuncDecl",
           "package": "hjs",
@@ -4806,6 +5236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "AEUExpr",
           "package": "hjs",
@@ -4815,6 +5246,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "AEUExpr",
           "package": "hjs",
@@ -4828,6 +5260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "AExpr",
           "package": "hjs",
@@ -4837,6 +5270,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "AExpr",
           "package": "hjs",
@@ -4850,6 +5284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "AOp",
           "package": "hjs",
@@ -4859,6 +5294,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "AOp",
           "package": "hjs",
@@ -4872,6 +5308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "ArrSimple",
           "package": "hjs",
@@ -4881,6 +5318,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "ArrSimple",
           "normalized": "ArrSimple[AssignE]",
@@ -4896,6 +5334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Array",
           "package": "hjs",
@@ -4905,6 +5344,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Array",
           "package": "hjs",
@@ -4918,6 +5358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "ArrayExpr",
           "package": "hjs",
@@ -4927,6 +5368,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "ArrayExpr",
           "package": "hjs",
@@ -4940,6 +5382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Assign",
           "package": "hjs",
@@ -4949,6 +5392,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Assign",
           "package": "hjs",
@@ -4962,6 +5406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "AssignE",
           "package": "hjs",
@@ -4971,6 +5416,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "AssignE",
           "package": "hjs",
@@ -4984,6 +5430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "AssignNormal",
           "package": "hjs",
@@ -4993,6 +5440,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "AssignNormal",
           "package": "hjs",
@@ -5006,6 +5454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "AssignOpDiv",
           "package": "hjs",
@@ -5015,6 +5464,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "AssignOpDiv",
           "package": "hjs",
@@ -5028,6 +5478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "AssignOpMinus",
           "package": "hjs",
@@ -5037,6 +5488,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "AssignOpMinus",
           "package": "hjs",
@@ -5050,6 +5502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "AssignOpMod",
           "package": "hjs",
@@ -5059,6 +5512,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "AssignOpMod",
           "package": "hjs",
@@ -5072,6 +5526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "AssignOpMult",
           "package": "hjs",
@@ -5081,6 +5536,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "AssignOpMult",
           "package": "hjs",
@@ -5094,6 +5550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "AssignOpPlus",
           "package": "hjs",
@@ -5103,6 +5560,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "AssignOpPlus",
           "package": "hjs",
@@ -5116,6 +5574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "BitNot",
           "package": "hjs",
@@ -5125,6 +5584,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "BitNot",
           "package": "hjs",
@@ -5138,6 +5598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Block",
           "package": "hjs",
@@ -5147,6 +5608,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Block",
           "normalized": "Block[Stmt]",
@@ -5162,6 +5624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Brack",
           "package": "hjs",
@@ -5171,6 +5634,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Brack",
           "package": "hjs",
@@ -5184,6 +5648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "BreakStmt",
           "package": "hjs",
@@ -5193,6 +5658,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "BreakStmt",
           "package": "hjs",
@@ -5206,6 +5672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "CallCall",
           "package": "hjs",
@@ -5215,6 +5682,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "CallCall",
           "normalized": "CallCall CallExpr[AssignE]",
@@ -5230,6 +5698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "CallDot",
           "package": "hjs",
@@ -5239,6 +5708,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "CallDot",
           "package": "hjs",
@@ -5252,6 +5722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "CallExpr",
           "package": "hjs",
@@ -5261,6 +5732,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "CallExpr",
           "package": "hjs",
@@ -5274,6 +5746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "CallMember",
           "package": "hjs",
@@ -5283,6 +5756,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "CallMember",
           "normalized": "CallMember MemberExpr[AssignE]",
@@ -5298,6 +5772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "CallPrim",
           "package": "hjs",
@@ -5307,6 +5782,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "CallPrim",
           "package": "hjs",
@@ -5320,6 +5796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "CallSquare",
           "package": "hjs",
@@ -5329,6 +5806,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "CallSquare",
           "package": "hjs",
@@ -5342,6 +5820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "CaseBlock",
           "package": "hjs",
@@ -5351,6 +5830,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "CaseBlock",
           "normalized": "CaseBlock[CaseClause]",
@@ -5366,6 +5846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "CaseClause",
           "package": "hjs",
@@ -5375,6 +5856,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "CaseClause",
           "normalized": "CaseClause Expr[Stmt]",
@@ -5390,6 +5872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Catch",
           "package": "hjs",
@@ -5399,6 +5882,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Catch",
           "normalized": "Catch String[Stmt]",
@@ -5414,6 +5898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "CatchCatch",
           "package": "hjs",
@@ -5423,6 +5908,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "CatchCatch",
           "normalized": "CatchCatch String(Maybe Expr)[Stmt]",
@@ -5438,6 +5924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "CatchIf",
           "package": "hjs",
@@ -5447,6 +5934,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "CatchIf",
           "normalized": "CatchIf String[Stmt]Expr",
@@ -5462,6 +5950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "CondE",
           "package": "hjs",
@@ -5471,6 +5960,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "CondE",
           "package": "hjs",
@@ -5484,6 +5974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "CondIf",
           "package": "hjs",
@@ -5493,6 +5984,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "CondIf",
           "package": "hjs",
@@ -5506,6 +5998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "ContStmt",
           "package": "hjs",
@@ -5515,6 +6008,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "ContStmt",
           "package": "hjs",
@@ -5528,6 +6022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "DefaultClause",
           "package": "hjs",
@@ -5537,6 +6032,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "DefaultClause",
           "normalized": "DefaultClause[Stmt]",
@@ -5552,6 +6048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Delete",
           "package": "hjs",
@@ -5561,6 +6058,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Delete",
           "package": "hjs",
@@ -5574,6 +6072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "DoWhile",
           "package": "hjs",
@@ -5583,6 +6082,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "DoWhile",
           "package": "hjs",
@@ -5596,6 +6096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "DoubleMinus",
           "package": "hjs",
@@ -5605,6 +6106,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "DoubleMinus",
           "package": "hjs",
@@ -5618,6 +6120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "DoublePlus",
           "package": "hjs",
@@ -5627,6 +6130,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "DoublePlus",
           "package": "hjs",
@@ -5640,6 +6144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "EmptyStmt",
           "package": "hjs",
@@ -5649,6 +6154,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "EmptyStmt",
           "package": "hjs",
@@ -5662,6 +6168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "ExprStmt",
           "package": "hjs",
@@ -5671,6 +6178,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "ExprStmt",
           "package": "hjs",
@@ -5684,6 +6192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "For",
           "package": "hjs",
@@ -5693,6 +6202,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "For",
           "package": "hjs",
@@ -5706,6 +6216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "ForIn",
           "package": "hjs",
@@ -5715,6 +6226,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "ForIn",
           "package": "hjs",
@@ -5728,6 +6240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "ForVar",
           "package": "hjs",
@@ -5737,6 +6250,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "ForVar",
           "normalized": "ForVar[VarDecl](Maybe Expr)(Maybe Expr)Stmt",
@@ -5752,6 +6266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "FuncDecl",
           "package": "hjs",
@@ -5761,6 +6276,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "FuncDecl",
           "normalized": "FuncDecl(Maybe String)[String][SourceElement]",
@@ -5776,6 +6292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "GetterPutter",
           "package": "hjs",
@@ -5785,6 +6302,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "GetterPutter",
           "package": "hjs",
@@ -5798,6 +6316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Ident",
           "package": "hjs",
@@ -5807,6 +6326,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Ident",
           "package": "hjs",
@@ -5820,6 +6340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "If2",
           "package": "hjs",
@@ -5829,6 +6350,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "If2",
           "package": "hjs",
@@ -5842,6 +6364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "If3",
           "package": "hjs",
@@ -5851,6 +6374,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "If3",
           "package": "hjs",
@@ -5864,6 +6388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "IfElse",
           "package": "hjs",
@@ -5873,6 +6398,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "IfElse",
           "package": "hjs",
@@ -5886,6 +6412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "IfOnly",
           "package": "hjs",
@@ -5895,6 +6422,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "IfOnly",
           "package": "hjs",
@@ -5908,6 +6436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "IfStmt",
           "package": "hjs",
@@ -5917,6 +6446,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "IfStmt",
           "package": "hjs",
@@ -5930,6 +6460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "It2",
           "package": "hjs",
@@ -5939,6 +6470,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "It2",
           "package": "hjs",
@@ -5952,6 +6484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "ItStmt",
           "package": "hjs",
@@ -5961,6 +6494,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "ItStmt",
           "package": "hjs",
@@ -5974,6 +6508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "JSProgram",
           "package": "hjs",
@@ -5983,6 +6518,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "JSProgram",
           "normalized": "JSProgram[SourceElement]",
@@ -5998,6 +6534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "LabelledStmt",
           "package": "hjs",
@@ -6007,6 +6544,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "LabelledStmt",
           "package": "hjs",
@@ -6020,6 +6558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "LeftExpr",
           "package": "hjs",
@@ -6029,6 +6568,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "LeftExpr",
           "package": "hjs",
@@ -6042,6 +6582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "LitBool",
           "package": "hjs",
@@ -6051,6 +6592,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "LitBool",
           "package": "hjs",
@@ -6064,6 +6606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "LitInt",
           "package": "hjs",
@@ -6073,6 +6616,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "LitInt",
           "package": "hjs",
@@ -6086,6 +6630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "LitNull",
           "package": "hjs",
@@ -6095,6 +6640,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "LitNull",
           "package": "hjs",
@@ -6108,6 +6654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "LitString",
           "package": "hjs",
@@ -6117,6 +6664,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "LitString",
           "package": "hjs",
@@ -6130,6 +6678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Literal",
           "package": "hjs",
@@ -6139,6 +6688,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Literal",
           "package": "hjs",
@@ -6152,6 +6702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "MemPrimExpr",
           "package": "hjs",
@@ -6161,6 +6712,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "MemPrimExpr",
           "package": "hjs",
@@ -6174,6 +6726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "MemberCall",
           "package": "hjs",
@@ -6183,6 +6736,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "MemberCall",
           "package": "hjs",
@@ -6196,6 +6750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "MemberCall2",
           "package": "hjs",
@@ -6205,6 +6760,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "MemberCall2",
           "package": "hjs",
@@ -6218,6 +6774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "MemberExpr",
           "package": "hjs",
@@ -6227,6 +6784,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "MemberExpr",
           "package": "hjs",
@@ -6240,6 +6798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "MemberNew",
           "package": "hjs",
@@ -6249,6 +6808,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "MemberNew",
           "normalized": "MemberNew MemberExpr[AssignE]",
@@ -6264,6 +6824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "NewExpr",
           "package": "hjs",
@@ -6273,6 +6834,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "NewExpr",
           "package": "hjs",
@@ -6286,6 +6848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "NewNewExpr",
           "package": "hjs",
@@ -6295,6 +6858,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "NewNewExpr",
           "package": "hjs",
@@ -6308,6 +6872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Not",
           "package": "hjs",
@@ -6317,6 +6882,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Not",
           "package": "hjs",
@@ -6330,6 +6896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Object",
           "package": "hjs",
@@ -6339,6 +6906,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Object",
           "normalized": "Object[Either(PropName,AssignE)GetterPutter]",
@@ -6354,6 +6922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "PEFuncDecl",
           "package": "hjs",
@@ -6363,6 +6932,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "PEFuncDecl",
           "package": "hjs",
@@ -6376,6 +6946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "PostDec",
           "package": "hjs",
@@ -6385,6 +6956,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "PostDec",
           "package": "hjs",
@@ -6398,6 +6970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "PostFix",
           "package": "hjs",
@@ -6407,6 +6980,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "PostFix",
           "package": "hjs",
@@ -6420,6 +6994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "PostInc",
           "package": "hjs",
@@ -6429,6 +7004,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "PostInc",
           "package": "hjs",
@@ -6442,6 +7018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "PropNameId",
           "package": "hjs",
@@ -6451,6 +7028,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "PropNameId",
           "package": "hjs",
@@ -6464,6 +7042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "PropNameInt",
           "package": "hjs",
@@ -6473,6 +7052,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "PropNameInt",
           "package": "hjs",
@@ -6486,6 +7066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "PropNameStr",
           "package": "hjs",
@@ -6495,6 +7076,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "PropNameStr",
           "package": "hjs",
@@ -6508,6 +7090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Putter",
           "package": "hjs",
@@ -6517,6 +7100,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Putter",
           "package": "hjs",
@@ -6530,6 +7114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Regex",
           "package": "hjs",
@@ -6539,6 +7124,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Regex",
           "normalized": "Regex(String,String)",
@@ -6554,6 +7140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "ReturnStmt",
           "package": "hjs",
@@ -6563,6 +7150,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "ReturnStmt",
           "package": "hjs",
@@ -6576,6 +7164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "SEFuncDecl",
           "package": "hjs",
@@ -6585,6 +7174,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "SEFuncDecl",
           "package": "hjs",
@@ -6598,6 +7188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "SSwitch",
           "package": "hjs",
@@ -6607,6 +7198,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "SSwitch",
           "normalized": "SSwitch Expr[CaseClause]",
@@ -6622,6 +7214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Stmt",
           "package": "hjs",
@@ -6631,6 +7224,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Stmt",
           "package": "hjs",
@@ -6644,6 +7238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "StmtPos",
           "package": "hjs",
@@ -6653,6 +7248,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "StmtPos",
           "normalized": "StmtPos(Int,Int)Stmt'",
@@ -6668,6 +7264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Switch",
           "package": "hjs",
@@ -6677,6 +7274,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Switch",
           "normalized": "Switch Expr[CaseClause]",
@@ -6692,6 +7290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "This",
           "package": "hjs",
@@ -6701,6 +7300,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "This",
           "package": "hjs",
@@ -6714,6 +7314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "ThrowExpr",
           "package": "hjs",
@@ -6723,6 +7324,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "ThrowExpr",
           "package": "hjs",
@@ -6736,6 +7338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "TryBC",
           "package": "hjs",
@@ -6745,6 +7348,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "TryBC",
           "normalized": "TryBC[Stmt][Catch]",
@@ -6760,6 +7364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "TryBCF",
           "package": "hjs",
@@ -6769,6 +7374,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "TryBCF",
           "normalized": "TryBCF[Stmt][Catch][Stmt]",
@@ -6784,6 +7390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "TryBF",
           "package": "hjs",
@@ -6793,6 +7400,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "TryBF",
           "normalized": "TryBF[Stmt][Stmt]",
@@ -6808,6 +7416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "TryStmt",
           "package": "hjs",
@@ -6817,6 +7426,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "TryStmt",
           "package": "hjs",
@@ -6830,6 +7440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "TryTry",
           "package": "hjs",
@@ -6839,6 +7450,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "TryTry",
           "normalized": "TryTry[Stmt][Catch][Stmt]",
@@ -6854,6 +7466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "TypeOf",
           "package": "hjs",
@@ -6863,6 +7476,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "TypeOf",
           "package": "hjs",
@@ -6876,6 +7490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "UnaryMinus",
           "package": "hjs",
@@ -6885,6 +7500,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "UnaryMinus",
           "package": "hjs",
@@ -6898,6 +7514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "UnaryPlus",
           "package": "hjs",
@@ -6907,6 +7524,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "UnaryPlus",
           "package": "hjs",
@@ -6920,6 +7538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "VarDecl",
           "package": "hjs",
@@ -6929,6 +7548,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "VarDecl",
           "package": "hjs",
@@ -6942,6 +7562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "VarStmt",
           "package": "hjs",
@@ -6951,6 +7572,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "VarStmt",
           "normalized": "VarStmt[VarDecl]",
@@ -6966,6 +7588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "Void",
           "package": "hjs",
@@ -6975,6 +7598,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "Void",
           "package": "hjs",
@@ -6988,6 +7612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "While",
           "package": "hjs",
@@ -6997,6 +7622,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "While",
           "package": "hjs",
@@ -7010,6 +7636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "WithStmt",
           "package": "hjs",
@@ -7019,6 +7646,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "WithStmt",
           "package": "hjs",
@@ -7032,6 +7660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScript",
           "name": "eHs",
           "package": "hjs",
@@ -7041,6 +7670,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScript",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScript",
           "name": "eHs",
           "normalized": "a-\u003eString",
@@ -7056,6 +7686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.JavaScriptParser",
           "name": "JavaScriptParser",
           "package": "hjs",
@@ -7064,6 +7695,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser JavaScriptParser",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.JavaScriptParser",
           "name": "JavaScriptParser",
           "package": "hjs",
@@ -7152,6 +7784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Lexer",
           "name": "Lexer",
           "package": "hjs",
@@ -7160,6 +7793,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Lexer",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Lexer",
           "name": "Lexer",
           "package": "hjs",
@@ -7173,6 +7807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Lexer",
           "name": "Token",
           "package": "hjs",
@@ -7181,6 +7816,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Lexer",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Lexer",
           "name": "Token",
           "package": "hjs",
@@ -7194,6 +7830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Lexer",
           "name": "TokenEof",
           "package": "hjs",
@@ -7203,6 +7840,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Lexer",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Lexer",
           "name": "TokenEof",
           "package": "hjs",
@@ -7216,6 +7854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Lexer",
           "name": "TokenIdent",
           "package": "hjs",
@@ -7225,6 +7864,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Lexer",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Lexer",
           "name": "TokenIdent",
           "package": "hjs",
@@ -7238,6 +7878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Lexer",
           "name": "TokenInt",
           "package": "hjs",
@@ -7247,6 +7888,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Lexer",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Lexer",
           "name": "TokenInt",
           "package": "hjs",
@@ -7260,6 +7902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Lexer",
           "name": "TokenNL",
           "package": "hjs",
@@ -7269,6 +7912,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Lexer",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Lexer",
           "name": "TokenNL",
           "package": "hjs",
@@ -7282,6 +7926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Lexer",
           "name": "TokenRID",
           "package": "hjs",
@@ -7291,6 +7936,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Lexer",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Lexer",
           "name": "TokenRID",
           "package": "hjs",
@@ -7304,6 +7950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Lexer",
           "name": "TokenROP",
           "package": "hjs",
@@ -7313,6 +7960,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Lexer",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Lexer",
           "name": "TokenROP",
           "package": "hjs",
@@ -7326,6 +7974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Lexer",
           "name": "TokenRegex",
           "package": "hjs",
@@ -7335,6 +7984,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Lexer",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Lexer",
           "name": "TokenRegex",
           "normalized": "TokenRegex(String,String)",
@@ -7350,6 +8000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Lexer",
           "name": "TokenStringLit",
           "package": "hjs",
@@ -7359,6 +8010,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Lexer",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Lexer",
           "name": "TokenStringLit",
           "package": "hjs",
@@ -7372,6 +8024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Lexer",
           "name": "TokenWhite",
           "package": "hjs",
@@ -7381,6 +8034,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Lexer",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Lexer",
           "name": "TokenWhite",
           "package": "hjs",
@@ -7394,6 +8048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Lexer",
           "name": "runIO",
           "package": "hjs",
@@ -7403,6 +8058,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Lexer",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Lexer",
           "name": "runIO",
           "normalized": "Parser a-\u003eString-\u003eIO()",
@@ -7418,6 +8074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Prim",
           "name": "Prim",
           "package": "hjs",
@@ -7426,6 +8083,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Prim",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Prim",
           "name": "Prim",
           "package": "hjs",
@@ -7439,6 +8097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Prim",
           "name": "JSPState",
           "package": "hjs",
@@ -7447,6 +8106,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Prim",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Prim",
           "name": "JSPState",
           "package": "hjs",
@@ -7460,6 +8120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Prim",
           "name": "JSParser",
           "package": "hjs",
@@ -7468,6 +8129,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Prim",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Prim",
           "name": "JSParser",
           "package": "hjs",
@@ -7481,6 +8143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Prim",
           "name": "JSPState",
           "package": "hjs",
@@ -7490,6 +8153,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Prim",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Prim",
           "name": "JSPState",
           "package": "hjs",
@@ -7503,6 +8167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Prim",
           "name": "braces",
           "package": "hjs",
@@ -7512,6 +8177,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Prim",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Prim",
           "name": "braces",
           "normalized": "JSParser a-\u003eJSParser a",
@@ -7526,6 +8192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Prim",
           "name": "equal",
           "package": "hjs",
@@ -7535,6 +8202,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Prim",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Prim",
           "name": "equal",
           "normalized": "Token-\u003eJSParser()",
@@ -7549,6 +8217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Prim",
           "name": "identifier",
           "package": "hjs",
@@ -7558,6 +8227,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Prim",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Prim",
           "name": "identifier",
           "package": "hjs",
@@ -7570,6 +8240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Prim",
           "name": "mytoken",
           "package": "hjs",
@@ -7579,6 +8250,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Prim",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Prim",
           "name": "mytoken",
           "normalized": "(Token-\u003eMaybe a)-\u003eJSParser a",
@@ -7593,6 +8265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Prim",
           "name": "nest",
           "package": "hjs",
@@ -7602,6 +8275,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Prim",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Prim",
           "name": "nest",
           "package": "hjs",
@@ -7614,6 +8288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Prim",
           "name": "nlFlag",
           "package": "hjs",
@@ -7623,6 +8298,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Prim",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Prim",
           "name": "nlFlag",
           "package": "hjs",
@@ -7636,6 +8312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Prim",
           "name": "rID",
           "package": "hjs",
@@ -7645,6 +8322,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Prim",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Prim",
           "name": "rID",
           "normalized": "String-\u003eJSParser()",
@@ -7660,6 +8338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Prim",
           "name": "rOp",
           "package": "hjs",
@@ -7669,6 +8348,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Prim",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Prim",
           "name": "rOp",
           "normalized": "String-\u003eJSParser()",
@@ -7684,6 +8364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser.Utils",
           "name": "Utils",
           "package": "hjs",
@@ -7692,6 +8373,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser Utils",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser.Utils",
           "name": "Utils",
           "package": "hjs",
@@ -7705,6 +8387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser",
           "name": "Parser",
           "package": "hjs",
@@ -7713,6 +8396,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser",
           "name": "Parser",
           "package": "hjs",
@@ -7726,6 +8410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:37 UTC 2014",
           "module": "HJS.Parser",
           "name": "lexFile",
           "package": "hjs",
@@ -7735,6 +8420,7 @@
         },
         "index": {
           "hierarchy": "HJS Parser",
+          "indexed": "2014-03-11T18:40:37",
           "module": "HJS.Parser",
           "name": "lexFile",
           "normalized": "a-\u003eFilePath-\u003eIO()",

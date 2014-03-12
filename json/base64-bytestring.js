@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "base64-bytestring"
+        "phrase": "base64-bytestring",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast and efficient encoding and decoding of base64-encoded\n lazy bytestrings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:11 UTC 2014",
           "module": "Data.ByteString.Base64.Lazy",
           "name": "Lazy",
           "package": "base64-bytestring",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Fast and efficient encoding and decoding of base64-encoded lazy bytestrings",
           "hierarchy": "Data ByteString Base64 Lazy",
+          "indexed": "2014-03-11T17:17:11",
           "module": "Data.ByteString.Base64.Lazy",
           "name": "Lazy",
           "package": "base64-bytestring",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a base64-encoded string.  This function strictly follows\n the specification in RFC 4648,\n \u003ca\u003ehttp://www.apps.ietf.org/rfc/rfc4648.html\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:11 UTC 2014",
           "module": "Data.ByteString.Base64.Lazy",
           "name": "decode",
           "package": "base64-bytestring",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Decode base64-encoded string This function strictly follows the specification in RFC http www.apps.ietf.org rfc rfc4648.html",
           "hierarchy": "Data ByteString Base64 Lazy",
+          "indexed": "2014-03-11T17:17:11",
           "module": "Data.ByteString.Base64.Lazy",
           "name": "decode",
           "normalized": "ByteString-\u003eEither String ByteString",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a base64-encoded string.  This function is lenient in\n following the specification from RFC 4648,\n \u003ca\u003ehttp://www.apps.ietf.org/rfc/rfc4648.html\u003c/a\u003e, and will not generate\n parse errors no matter how poor its input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:11 UTC 2014",
           "module": "Data.ByteString.Base64.Lazy",
           "name": "decodeLenient",
           "package": "base64-bytestring",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Decode base64-encoded string This function is lenient in following the specification from RFC http www.apps.ietf.org rfc rfc4648.html and will not generate parse errors no matter how poor its input",
           "hierarchy": "Data ByteString Base64 Lazy",
+          "indexed": "2014-03-11T17:17:11",
           "module": "Data.ByteString.Base64.Lazy",
           "name": "decodeLenient",
           "normalized": "ByteString-\u003eByteString",
@@ -93,6 +99,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a string into base64 form.  The result will always be a\n multiple of 4 bytes in length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:11 UTC 2014",
           "module": "Data.ByteString.Base64.Lazy",
           "name": "encode",
           "package": "base64-bytestring",
@@ -103,6 +110,7 @@
         "index": {
           "description": "Encode string into base64 form The result will always be multiple of bytes in length",
           "hierarchy": "Data ByteString Base64 Lazy",
+          "indexed": "2014-03-11T17:17:11",
           "module": "Data.ByteString.Base64.Lazy",
           "name": "encode",
           "normalized": "ByteString-\u003eByteString",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast and efficient encoding and decoding of base64-encoded\n lazy bytestrings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:11 UTC 2014",
           "module": "Data.ByteString.Base64.URL.Lazy",
           "name": "Lazy",
           "package": "base64-bytestring",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Fast and efficient encoding and decoding of base64-encoded lazy bytestrings",
           "hierarchy": "Data ByteString Base64 URL Lazy",
+          "indexed": "2014-03-11T17:17:11",
           "module": "Data.ByteString.Base64.URL.Lazy",
           "name": "Lazy",
           "package": "base64-bytestring",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a base64-encoded string.  This function strictly follows\n the specification in RFC 4648,\n \u003ca\u003ehttp://www.apps.ietf.org/rfc/rfc4648.html\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:11 UTC 2014",
           "module": "Data.ByteString.Base64.URL.Lazy",
           "name": "decode",
           "package": "base64-bytestring",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Decode base64-encoded string This function strictly follows the specification in RFC http www.apps.ietf.org rfc rfc4648.html",
           "hierarchy": "Data ByteString Base64 URL Lazy",
+          "indexed": "2014-03-11T17:17:11",
           "module": "Data.ByteString.Base64.URL.Lazy",
           "name": "decode",
           "normalized": "ByteString-\u003eEither String ByteString",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a base64-encoded string.  This function is lenient in\n following the specification from RFC 4648,\n \u003ca\u003ehttp://www.apps.ietf.org/rfc/rfc4648.html\u003c/a\u003e, and will not generate\n parse errors no matter how poor its input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:11 UTC 2014",
           "module": "Data.ByteString.Base64.URL.Lazy",
           "name": "decodeLenient",
           "package": "base64-bytestring",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Decode base64-encoded string This function is lenient in following the specification from RFC http www.apps.ietf.org rfc rfc4648.html and will not generate parse errors no matter how poor its input",
           "hierarchy": "Data ByteString Base64 URL Lazy",
+          "indexed": "2014-03-11T17:17:11",
           "module": "Data.ByteString.Base64.URL.Lazy",
           "name": "decodeLenient",
           "normalized": "ByteString-\u003eByteString",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a string into base64 form.  The result will always be a\n multiple of 4 bytes in length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:11 UTC 2014",
           "module": "Data.ByteString.Base64.URL.Lazy",
           "name": "encode",
           "package": "base64-bytestring",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Encode string into base64 form The result will always be multiple of bytes in length",
           "hierarchy": "Data ByteString Base64 URL Lazy",
+          "indexed": "2014-03-11T17:17:11",
           "module": "Data.ByteString.Base64.URL.Lazy",
           "name": "encode",
           "normalized": "ByteString-\u003eByteString",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast and efficient encoding and decoding of base64url-encoded strings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:11 UTC 2014",
           "module": "Data.ByteString.Base64.URL",
           "name": "URL",
           "package": "base64-bytestring",
@@ -226,6 +243,7 @@
         "index": {
           "description": "Fast and efficient encoding and decoding of base64url-encoded strings",
           "hierarchy": "Data ByteString Base64 URL",
+          "indexed": "2014-03-11T17:17:11",
           "module": "Data.ByteString.Base64.URL",
           "name": "URL",
           "package": "base64-bytestring",
@@ -240,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a base64url-encoded string.  This function strictly follows\n the specification in RFC 4648,\n \u003ca\u003ehttp://www.apps.ietf.org/rfc/rfc4648.html\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:11 UTC 2014",
           "module": "Data.ByteString.Base64.URL",
           "name": "decode",
           "package": "base64-bytestring",
@@ -250,6 +269,7 @@
         "index": {
           "description": "Decode base64url-encoded string This function strictly follows the specification in RFC http www.apps.ietf.org rfc rfc4648.html",
           "hierarchy": "Data ByteString Base64 URL",
+          "indexed": "2014-03-11T17:17:11",
           "module": "Data.ByteString.Base64.URL",
           "name": "decode",
           "normalized": "ByteString-\u003eEither String ByteString",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a base64url-encoded string.  This function is lenient in\n following the specification from RFC 4648,\n \u003ca\u003ehttp://www.apps.ietf.org/rfc/rfc4648.html\u003c/a\u003e, and will not generate\n parse errors no matter how poor its input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:11 UTC 2014",
           "module": "Data.ByteString.Base64.URL",
           "name": "decodeLenient",
           "package": "base64-bytestring",
@@ -275,6 +296,7 @@
         "index": {
           "description": "Decode base64url-encoded string This function is lenient in following the specification from RFC http www.apps.ietf.org rfc rfc4648.html and will not generate parse errors no matter how poor its input",
           "hierarchy": "Data ByteString Base64 URL",
+          "indexed": "2014-03-11T17:17:11",
           "module": "Data.ByteString.Base64.URL",
           "name": "decodeLenient",
           "normalized": "ByteString-\u003eByteString",
@@ -291,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a string into base64url form.  The result will always be a\n multiple of 4 bytes in length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:11 UTC 2014",
           "module": "Data.ByteString.Base64.URL",
           "name": "encode",
           "package": "base64-bytestring",
@@ -301,6 +324,7 @@
         "index": {
           "description": "Encode string into base64url form The result will always be multiple of bytes in length",
           "hierarchy": "Data ByteString Base64 URL",
+          "indexed": "2014-03-11T17:17:11",
           "module": "Data.ByteString.Base64.URL",
           "name": "encode",
           "normalized": "ByteString-\u003eByteString",
@@ -342,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast and efficient encoding and decoding of base64-encoded strings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:11 UTC 2014",
           "module": "Data.ByteString.Base64",
           "name": "Base64",
           "package": "base64-bytestring",
@@ -351,6 +376,7 @@
         "index": {
           "description": "Fast and efficient encoding and decoding of base64-encoded strings",
           "hierarchy": "Data ByteString Base64",
+          "indexed": "2014-03-11T17:17:11",
           "module": "Data.ByteString.Base64",
           "name": "Base64",
           "package": "base64-bytestring",
@@ -365,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a base64-encoded string.  This function strictly follows\n the specification in RFC 4648,\n \u003ca\u003ehttp://www.apps.ietf.org/rfc/rfc4648.html\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:11 UTC 2014",
           "module": "Data.ByteString.Base64",
           "name": "decode",
           "package": "base64-bytestring",
@@ -375,6 +402,7 @@
         "index": {
           "description": "Decode base64-encoded string This function strictly follows the specification in RFC http www.apps.ietf.org rfc rfc4648.html",
           "hierarchy": "Data ByteString Base64",
+          "indexed": "2014-03-11T17:17:11",
           "module": "Data.ByteString.Base64",
           "name": "decode",
           "normalized": "ByteString-\u003eEither String ByteString",
@@ -390,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a base64-encoded string.  This function is lenient in\n following the specification from RFC 4648,\n \u003ca\u003ehttp://www.apps.ietf.org/rfc/rfc4648.html\u003c/a\u003e, and will not generate\n parse errors no matter how poor its input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:11 UTC 2014",
           "module": "Data.ByteString.Base64",
           "name": "decodeLenient",
           "package": "base64-bytestring",
@@ -400,6 +429,7 @@
         "index": {
           "description": "Decode base64-encoded string This function is lenient in following the specification from RFC http www.apps.ietf.org rfc rfc4648.html and will not generate parse errors no matter how poor its input",
           "hierarchy": "Data ByteString Base64",
+          "indexed": "2014-03-11T17:17:11",
           "module": "Data.ByteString.Base64",
           "name": "decodeLenient",
           "normalized": "ByteString-\u003eByteString",
@@ -416,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a string into base64 form.  The result will always be a\n multiple of 4 bytes in length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:11 UTC 2014",
           "module": "Data.ByteString.Base64",
           "name": "encode",
           "package": "base64-bytestring",
@@ -426,6 +457,7 @@
         "index": {
           "description": "Encode string into base64 form The result will always be multiple of bytes in length",
           "hierarchy": "Data ByteString Base64",
+          "indexed": "2014-03-11T17:17:11",
           "module": "Data.ByteString.Base64",
           "name": "encode",
           "normalized": "ByteString-\u003eByteString",

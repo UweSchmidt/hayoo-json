@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "weather-api"
+        "phrase": "weather-api",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi.WWOnline",
           "name": "WWOnline",
           "package": "weather-api",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi WWOnline",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi.WWOnline",
           "name": "WWOnline",
           "package": "weather-api",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi.WWOnline",
           "name": "ApiKey",
           "package": "weather-api",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi WWOnline",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi.WWOnline",
           "name": "ApiKey",
           "package": "weather-api",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi.WWOnline",
           "name": "apiUrl",
           "package": "weather-api",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi WWOnline",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi.WWOnline",
           "name": "apiUrl",
           "normalized": "[Char]",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi.WWOnline",
           "name": "get",
           "package": "weather-api",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi WWOnline",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi.WWOnline",
           "name": "get",
           "normalized": "HandleStream a-\u003eURI-\u003eIO(Either ApiError a)",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake config for use with WeatherApi functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi.WWOnline",
           "name": "initApi",
           "package": "weather-api",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Make config for use with WeatherApi functions",
           "hierarchy": "WeatherApi WWOnline",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi.WWOnline",
           "name": "initApi",
           "normalized": "ApiKey-\u003eConfig",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis return function witch will actualy retrieve and parse weather from stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi.WWOnline",
           "name": "makeQueryFun",
           "package": "weather-api",
@@ -144,6 +155,7 @@
         "index": {
           "description": "This return function witch will actualy retrieve and parse weather from stream",
           "hierarchy": "WeatherApi WWOnline",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi.WWOnline",
           "name": "makeQueryFun",
           "normalized": "(String-\u003eString)-\u003eHandleStream String-\u003eString-\u003eIO ApiResponse",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi.WWOnline",
           "name": "retrieve",
           "package": "weather-api",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi WWOnline",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi.WWOnline",
           "name": "retrieve",
           "normalized": "HandleStream a-\u003e[Char]-\u003eIO(Either ApiError a)",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUsage:\n\u003c/p\u003e\u003cp\u003erequired imports\n\u003c/p\u003e\u003cpre\u003e import WeatherApi\n import WeatherApi.Google\n\u003c/pre\u003e\u003cp\u003eWith handler in case server will alow you to make\n few requests with one connection\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet h = mkWeatherHandler $ initApi \"en\" \"utf-8\"\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003egetWeather h \"moscow\"\n\u003c/code\u003e\u003c/strong\u003eRight (Weather { tempF = 75.0\n               , tempC = 24.0\n               , humidity = \"Humidity: 25%\"\n               , windCondition = \"Wind: S at 16 mph\"\n               , condition = \"Clear\"\n               })\n\u003c/pre\u003e\u003cp\u003eSimple case\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003egetWeather' (initApi \"en\" \"utf-8\") \"moscow\"\n\u003c/code\u003e\u003c/strong\u003eRight (Weather { tempF = 75.0\n               , tempC = 24.0\n               , humidity = \"Humidity: 25%\"\n               , windCondition = \"Wind: S at 16 mph\"\n               , condition = \"Clear\"\n               })\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "WeatherApi",
           "package": "weather-api",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Usage required imports import WeatherApi import WeatherApi.Google With handler in case server will alow you to make few requests with one connection let mkWeatherHandler initApi en utf-8 getWeather moscow Right Weather tempF tempC humidity Humidity windCondition Wind at mph condition Clear Simple case getWeather initApi en utf-8 moscow Right Weather tempF tempC humidity Humidity windCondition Wind at mph condition Clear",
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "WeatherApi",
           "package": "weather-api",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "ApiError",
           "package": "weather-api",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "ApiError",
           "package": "weather-api",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "ApiResponse",
           "package": "weather-api",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "ApiResponse",
           "package": "weather-api",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "Config",
           "package": "weather-api",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "Config",
           "package": "weather-api",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "Weather",
           "package": "weather-api",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "Weather",
           "package": "weather-api",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "WeatherApiHandler",
           "package": "weather-api",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "WeatherApiHandler",
           "package": "weather-api",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "Config",
           "package": "weather-api",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "Config",
           "package": "weather-api",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "NetworkError",
           "package": "weather-api",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "NetworkError",
           "package": "weather-api",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "NotFoundError",
           "package": "weather-api",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "NotFoundError",
           "package": "weather-api",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "ParseError",
           "package": "weather-api",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "ParseError",
           "package": "weather-api",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "Weather",
           "package": "weather-api",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "Weather",
           "package": "weather-api",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "WeatherApiHandler",
           "package": "weather-api",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "WeatherApiHandler",
           "package": "weather-api",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "apiHost",
           "package": "weather-api",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "apiHost",
           "package": "weather-api",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "apiPort",
           "package": "weather-api",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "apiPort",
           "package": "weather-api",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "closeHandler",
           "package": "weather-api",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "closeHandler",
           "normalized": "WeatherApiHandler-\u003eIO()",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "condition",
           "package": "weather-api",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "condition",
           "package": "weather-api",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "config",
           "package": "weather-api",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "config",
           "package": "weather-api",
@@ -553,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve weather using existing handler\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "getWeather",
           "package": "weather-api",
@@ -563,6 +612,7 @@
         "index": {
           "description": "Retrieve weather using existing handler",
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "getWeather",
           "normalized": "WeatherApiHandler-\u003eString-\u003eIO ApiResponse",
@@ -579,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve weather using just config\n It's usefull when you don't need one connection for few requests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "getWeather'",
           "package": "weather-api",
@@ -589,6 +640,7 @@
         "index": {
           "description": "Retrieve weather using just config It usefull when you don need one connection for few requests",
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "getWeather'",
           "normalized": "Config-\u003eString-\u003eIO ApiResponse",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "humidity",
           "package": "weather-api",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "humidity",
           "package": "weather-api",
@@ -625,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "isHandlerAlive",
           "package": "weather-api",
@@ -634,6 +689,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "isHandlerAlive",
           "normalized": "WeatherApiHandler-\u003eIO Bool",
@@ -649,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "mkWeatherHandler",
           "package": "weather-api",
@@ -658,6 +715,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "mkWeatherHandler",
           "normalized": "Config-\u003eWeatherApiHandler",
@@ -673,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "queryFun",
           "package": "weather-api",
@@ -682,6 +741,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "queryFun",
           "normalized": "HandleStream String-\u003eString-\u003eIO ApiResponse",
@@ -697,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "stream",
           "package": "weather-api",
@@ -706,6 +767,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "stream",
           "package": "weather-api",
@@ -718,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "tempC",
           "package": "weather-api",
@@ -727,6 +790,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "tempC",
           "package": "weather-api",
@@ -739,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "tempF",
           "package": "weather-api",
@@ -748,6 +813,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "tempF",
           "package": "weather-api",
@@ -760,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:30 UTC 2014",
           "module": "WeatherApi",
           "name": "windCondition",
           "package": "weather-api",
@@ -769,6 +836,7 @@
         },
         "index": {
           "hierarchy": "WeatherApi",
+          "indexed": "2014-03-11T20:37:30",
           "module": "WeatherApi",
           "name": "windCondition",
           "package": "weather-api",

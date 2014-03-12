@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "concatenative"
+        "phrase": "concatenative",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eControl.Concatenative brings concatenative combinators in the style of factor\n    (see \u003ca\u003ehttp://docs.factorcode.org/content/article-dataflow-combinators.html\u003c/a\u003e)\n    to haskell in a variety of interfaces, allowing a terse, pointfree style. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "Concatenative",
           "package": "concatenative",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Control.Concatenative brings concatenative combinators in the style of factor see http docs.factorcode.org content article-dataflow-combinators.html to haskell in variety of interfaces allowing terse pointfree style",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "Concatenative",
           "package": "concatenative",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenative continuation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "Concatenative",
           "package": "concatenative",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Concatenative continuation",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "Concatenative",
           "package": "concatenative",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft associative version of \u003ccode\u003e\u003ca\u003e&&&\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "(&&.)",
           "package": "concatenative",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Left associative version of",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "(&&.) &&.",
           "normalized": "a b c-\u003ea b d-\u003ea b(c,d)",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a function and add it to a \u003ccode\u003e\u003ca\u003eConcatenative\u003c/a\u003e\u003c/code\u003e for cleaving\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "(&.)",
           "package": "concatenative",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Lift function and add it to Concatenative for cleaving",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "(&.) &.",
           "normalized": "(a-\u003eb)-\u003e(a-\u003ec)-\u003eConcatenative a b(c-\u003ed)d",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft associative version of \u003ccode\u003e\u003ca\u003e***\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "(**.)",
           "package": "concatenative",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Left associative version of",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "(**.) **.",
           "normalized": "a b c-\u003ea d e-\u003ea(b,d)(c,e)",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a function and add it to a \u003ccode\u003e\u003ca\u003eConcatenative\u003c/a\u003e\u003c/code\u003e for spreading\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "(*.)",
           "package": "concatenative",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Lift function and add it to Concatenative for spreading",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "(*.) *.",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003eConcatenative c b(b-\u003ed)(a-\u003ed)",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine with a binary function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "(\u003e\u003e@)",
           "package": "concatenative",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Combine with binary function",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "(\u003e\u003e@) \u003e\u003e@",
           "normalized": "a b(c,d)-\u003e(c-\u003ed-\u003ee)-\u003ea b e",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft associative version of \u003ccode\u003e\u003ca\u003e\u003e\u003e\u003e\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "(\u003e\u003e.)",
           "package": "concatenative",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Left associative version of",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "(\u003e\u003e.) \u003e\u003e.",
           "normalized": "a b c-\u003ea c d-\u003ea b d",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eConcatenative\u003c/a\u003e\u003c/code\u003e for cleaving\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "(.&.)",
           "package": "concatenative",
@@ -225,6 +242,7 @@
         "index": {
           "description": "Construct Concatenative for cleaving",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "(.&.) .&.",
           "normalized": "Concatenative a b c d-\u003e(a-\u003ee)-\u003eConcatenative a b(e-\u003ec)d",
@@ -240,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eConcatenative\u003c/a\u003e\u003c/code\u003e for spreading\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "(.*.)",
           "package": "concatenative",
@@ -250,6 +269,7 @@
         "index": {
           "description": "Construct Concatenative for spreading",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "(.*.) .*.",
           "normalized": "Concatenative a b c d-\u003e(e-\u003ef)-\u003eConcatenative e b(f-\u003ec)(a-\u003ed)",
@@ -264,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "Concatenative",
           "package": "concatenative",
@@ -273,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "Concatenative",
           "package": "concatenative",
@@ -287,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eConcatenative\u003c/a\u003e\u003c/code\u003e for applying a monadic function n times\n\u003c/p\u003e\u003cpre\u003e biApM (+1)\n\u003c/pre\u003e\u003cp\u003etranslates to\n\u003c/p\u003e\u003cpre\u003e $(apM 2) (+1)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "apM",
           "package": "concatenative",
@@ -297,6 +320,7 @@
         "index": {
           "description": "Create Concatenative for applying monadic function times biApM translates to apM",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "apM",
           "normalized": "Int-\u003eQ Exp",
@@ -312,6 +336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience synonym for \u003ccode\u003e\u003ca\u003ereplicateM_\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "apM_",
           "package": "concatenative",
@@ -322,6 +347,7 @@
         "index": {
           "description": "Convenience synonym for replicateM",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "apM_",
           "normalized": "Int-\u003ea b-\u003ea()",
@@ -337,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eConcatenative\u003c/a\u003e\u003c/code\u003e for applying a function n times\n\u003c/p\u003e\u003cpre\u003e biAp (+1)\n\u003c/pre\u003e\u003cp\u003etranslates to\n\u003c/p\u003e\u003cpre\u003e $(apN 2) (+1)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "apN",
           "package": "concatenative",
@@ -347,6 +374,7 @@
         "index": {
           "description": "Create Concatenative for applying function times biAp translates to apN",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "apN",
           "normalized": "Int-\u003eQ Exp",
@@ -362,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply both arguments to a and combine the results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "bi",
           "package": "concatenative",
@@ -372,6 +401,7 @@
         "index": {
           "description": "Apply both arguments to and combine the results",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "bi",
           "normalized": "(a-\u003eb)-\u003e(a-\u003ec)-\u003e(b-\u003ec-\u003ed)-\u003ea-\u003ed",
@@ -387,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to two values and combine the results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "biAp",
           "package": "concatenative",
@@ -397,6 +428,7 @@
         "index": {
           "description": "Apply function to two values and combine the results",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "biAp",
           "normalized": "(a-\u003ea)-\u003e(a-\u003ea-\u003ea)-\u003ea-\u003ea-\u003ea",
@@ -413,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ebiAp\u003c/a\u003e\u003c/code\u003e, but functions can return monadic values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "biApM",
           "package": "concatenative",
@@ -423,6 +456,7 @@
         "index": {
           "description": "Like biAp but functions can return monadic values",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "biApM",
           "normalized": "(a-\u003eb a)-\u003e(a-\u003ea-\u003eb a)-\u003ea-\u003ea-\u003eb a",
@@ -439,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ebiApM\u003c/a\u003e\u003c/code\u003e, but throws away the end result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "biApM_",
           "package": "concatenative",
@@ -449,6 +484,7 @@
         "index": {
           "description": "Like biApM but throws away the end result",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "biApM_",
           "normalized": "(a-\u003eb a)-\u003ea-\u003ea-\u003eb()",
@@ -465,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ebi\u003c/a\u003e\u003c/code\u003e, but functions can return monadic values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "biM",
           "package": "concatenative",
@@ -475,6 +512,7 @@
         "index": {
           "description": "Like bi but functions can return monadic values",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "biM",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb d)-\u003e(c-\u003ed-\u003eb e)-\u003ea-\u003eb e",
@@ -490,6 +528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ebiM\u003c/a\u003e\u003c/code\u003e, but throws away the end result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "biM_",
           "package": "concatenative",
@@ -500,6 +539,7 @@
         "index": {
           "description": "Like biM but throws away the end result",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "biM_",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb d)-\u003ea-\u003eb()",
@@ -515,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the first argument to a, the second to b, and combine the results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "biSp",
           "package": "concatenative",
@@ -525,6 +566,7 @@
         "index": {
           "description": "Apply the first argument to the second to and combine the results",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "biSp",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003e(b-\u003ed-\u003ee)-\u003ea-\u003ec-\u003ee",
@@ -541,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ebiSp\u003c/a\u003e\u003c/code\u003e, but functions can return monadic values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "biSpM",
           "package": "concatenative",
@@ -551,6 +594,7 @@
         "index": {
           "description": "Like biSp but functions can return monadic values",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "biSpM",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003e(c-\u003ee-\u003eb f)-\u003ea-\u003ed-\u003eb f",
@@ -567,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArrow version of \u003ccode\u003e\u003ca\u003ebiAp\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "both",
           "package": "concatenative",
@@ -577,6 +622,7 @@
         "index": {
           "description": "Arrow version of biAp",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "both",
           "normalized": "a b c-\u003ea(b,b)(c,c)",
@@ -592,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts a function into \u003ccode\u003e\u003ca\u003eConcatenative\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "cat",
           "package": "concatenative",
@@ -602,6 +649,7 @@
         "index": {
           "description": "Lifts function into Concatenative",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "cat",
           "normalized": "(a-\u003eb)-\u003eConcatenative a b c c",
@@ -617,6 +665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a monadic function to a \u003ccode\u003e\u003ca\u003eConcatenative\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "catM",
           "package": "concatenative",
@@ -627,6 +676,7 @@
         "index": {
           "description": "Lift monadic function to Concatenative",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "catM",
           "normalized": "(a-\u003eb c)-\u003eConcatenative a c(b d)(b d)",
@@ -642,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a monadic function and add it to a \u003ccode\u003e\u003ca\u003eConcatenative\u003c/a\u003e\u003c/code\u003e for cleaving\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "cl",
           "package": "concatenative",
@@ -652,6 +703,7 @@
         "index": {
           "description": "Lift monadic function and add it to Concatenative for cleaving",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "cl",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb d)-\u003eConcatenative a c(d-\u003eb e)(b e)",
@@ -667,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eConcatenative\u003c/a\u003e\u003c/code\u003e for spreading monadic functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "clM",
           "package": "concatenative",
@@ -677,6 +730,7 @@
         "index": {
           "description": "Construct Concatenative for spreading monadic functions",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "clM",
           "normalized": "Concatenative a b c(d e)-\u003e(a-\u003ed f)-\u003eConcatenative a b(f-\u003ec)(d e)",
@@ -691,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "dup",
           "package": "concatenative",
@@ -700,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "dup",
           "normalized": "a b(b,b)",
@@ -715,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend the first component of the input through the argument\n   arrow, and copy the rest unchanged to the output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "first",
           "package": "concatenative",
@@ -724,6 +781,7 @@
         "index": {
           "description": "Send the first component of the input through the argument arrow and copy the rest unchanged to the output",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "first",
           "normalized": "a b c d e b c-\u003ee(b,f)(c,f)",
@@ -738,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "ifte",
           "package": "concatenative",
@@ -746,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "ifte",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eb)-\u003e(a-\u003eb)-\u003ea-\u003eb",
@@ -761,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mirror image of \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe default definition may be overridden with a more efficient\n   version if desired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "second",
           "package": "concatenative",
@@ -770,6 +831,7 @@
         "index": {
           "description": "mirror image of first The default definition may be overridden with more efficient version if desired",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "second",
           "normalized": "a b c d e b c-\u003ee(f,b)(f,c)",
@@ -785,6 +847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a monadic function and add it to a \u003ccode\u003e\u003ca\u003eConcatenative\u003c/a\u003e\u003c/code\u003e for spreading\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "sp",
           "package": "concatenative",
@@ -795,6 +858,7 @@
         "index": {
           "description": "Lift monadic function and add it to Concatenative for spreading",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "sp",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003eConcatenative d c(e-\u003eb f)(a-\u003eb f)",
@@ -810,6 +874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eConcatenative\u003c/a\u003e\u003c/code\u003e for spreading monadic functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "spM",
           "package": "concatenative",
@@ -820,6 +885,7 @@
         "index": {
           "description": "Construct Concatenative for spreading monadic functions",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "spM",
           "normalized": "Concatenative a b c(d e)-\u003e(f-\u003ed g)-\u003eConcatenative f b(g-\u003ec)(a-\u003ed e)",
@@ -834,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "swap",
           "package": "concatenative",
@@ -843,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "swap",
           "normalized": "a(b,c)(c,b)",
@@ -858,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply each of three arguments to a and combine the results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "tri",
           "package": "concatenative",
@@ -868,6 +937,7 @@
         "index": {
           "description": "Apply each of three arguments to and combine the results",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "tri",
           "normalized": "(a-\u003eb)-\u003e(a-\u003ec)-\u003e(a-\u003ed)-\u003e(b-\u003ec-\u003ed-\u003ee)-\u003ea-\u003ee",
@@ -883,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to three values and combine the results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "triAp",
           "package": "concatenative",
@@ -893,6 +964,7 @@
         "index": {
           "description": "Apply function to three values and combine the results",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "triAp",
           "normalized": "(a-\u003eb)-\u003e(b-\u003eb-\u003eb-\u003ec)-\u003ea-\u003ea-\u003ea-\u003ec",
@@ -909,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003etriAp\u003c/a\u003e\u003c/code\u003e, but functions can return monadic values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "triApM",
           "package": "concatenative",
@@ -919,6 +992,7 @@
         "index": {
           "description": "Like triAp but functions can return monadic values",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "triApM",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003ec-\u003ec-\u003eb d)-\u003ea-\u003ea-\u003ea-\u003eb d",
@@ -935,6 +1009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003etriApM\u003c/a\u003e\u003c/code\u003e, but throws away the end result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "triApM_",
           "package": "concatenative",
@@ -945,6 +1020,7 @@
         "index": {
           "description": "Like triApM but throws away the end result",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "triApM_",
           "normalized": "(a-\u003eb c)-\u003ea-\u003ea-\u003ea-\u003eb()",
@@ -961,6 +1037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003etri\u003c/a\u003e\u003c/code\u003e, but functions can return monadic values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "triM",
           "package": "concatenative",
@@ -971,6 +1048,7 @@
         "index": {
           "description": "Like tri but functions can return monadic values",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "triM",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb d)-\u003e(a-\u003eb e)-\u003e(c-\u003ed-\u003ee-\u003eb f)-\u003ea-\u003eb f",
@@ -986,6 +1064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003etriM\u003c/a\u003e\u003c/code\u003e, but throws away the end result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "triM_",
           "package": "concatenative",
@@ -996,6 +1075,7 @@
         "index": {
           "description": "Like triM but throws away the end result",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "triM_",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb d)-\u003e(a-\u003eb e)-\u003ea-\u003eb()",
@@ -1011,6 +1091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the first argument to a, the second to b, and the third to c, combining the results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "triSp",
           "package": "concatenative",
@@ -1021,6 +1102,7 @@
         "index": {
           "description": "Apply the first argument to the second to and the third to combining the results",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "triSp",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003e(e-\u003ef)-\u003e(b-\u003ed-\u003ef-\u003eg)-\u003ea-\u003ec-\u003ee-\u003eg",
@@ -1037,6 +1119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003etriSp\u003c/a\u003e\u003c/code\u003e, but functions can return monadic values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "triSpM",
           "package": "concatenative",
@@ -1047,6 +1130,7 @@
         "index": {
           "description": "Like triSp but functions can return monadic values",
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "triSpM",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003e(f-\u003eb g)-\u003e(c-\u003ee-\u003eg-\u003eb h)-\u003ea-\u003ed-\u003ef-\u003eb h",
@@ -1062,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:45 UTC 2014",
           "module": "Control.Concatenative",
           "name": "with",
           "package": "concatenative",
@@ -1071,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Control Concatenative",
+          "indexed": "2014-03-11T17:37:45",
           "module": "Control.Concatenative",
           "name": "with",
           "normalized": "(a-\u003eb)-\u003ec-\u003ed",

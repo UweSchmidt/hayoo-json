@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "synthesizer-alsa"
+        "phrase": "synthesizer-alsa",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.CausalIO.Process",
           "name": "Process",
           "package": "synthesizer-alsa",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA CausalIO Process",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.CausalIO.Process",
           "name": "Process",
           "package": "synthesizer-alsa",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.CausalIO.Process",
           "name": "Events",
           "package": "synthesizer-alsa",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA CausalIO Process",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.CausalIO.Process",
           "name": "Events",
           "package": "synthesizer-alsa",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.CausalIO.Process",
           "name": "Output",
           "package": "synthesizer-alsa",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA CausalIO Process",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.CausalIO.Process",
           "name": "Output",
           "package": "synthesizer-alsa",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.CausalIO.Process",
           "name": "playFromEvents",
           "package": "synthesizer-alsa",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA CausalIO Process",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.CausalIO.Process",
           "name": "playFromEvents",
           "normalized": "Device-\u003eClientName-\u003ea-\u003ea-\u003eSampleFreq-\u003eT Events(Vector b)-\u003eIO()",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.CausalIO.Process",
           "name": "playFromEventsWithParams",
           "package": "synthesizer-alsa",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA CausalIO Process",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.CausalIO.Process",
           "name": "playFromEventsWithParams",
           "normalized": "Output a b()-\u003eClientName-\u003e((Size,SampleFreq)-\u003eT Events b)-\u003eIO()",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "Play",
           "package": "synthesizer-alsa",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA Dimensional Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "Play",
           "package": "synthesizer-alsa",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "Device",
           "package": "synthesizer-alsa",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA Dimensional Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "Device",
           "package": "synthesizer-alsa",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "RenderedStorableSignal",
           "package": "synthesizer-alsa",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA Dimensional Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "RenderedStorableSignal",
           "package": "synthesizer-alsa",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "StorableSignal",
           "package": "synthesizer-alsa",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA Dimensional Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "StorableSignal",
           "package": "synthesizer-alsa",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "makeSink",
           "package": "synthesizer-alsa",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA Dimensional Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "makeSink",
           "normalized": "Device-\u003eTime a-\u003eFrequency a-\u003eSoundSink Pcm b",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "renderTimeVoltageMonoStorableToInt16",
           "package": "synthesizer-alsa",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA Dimensional Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "renderTimeVoltageMonoStorableToInt16",
           "normalized": "Device-\u003eTime a-\u003eT Frequency a-\u003e(b c T d Time a(StorableSignal d Voltage e e))-\u003eIO()",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "renderTimeVoltageStereoStorableToInt16",
           "package": "synthesizer-alsa",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA Dimensional Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "renderTimeVoltageStereoStorableToInt16",
           "normalized": "Device-\u003eTime a-\u003eT Frequency a-\u003e(b c T d Time a(StorableSignal d Voltage e(T e)))-\u003eIO()",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "renderTimeVoltageStorable",
           "package": "synthesizer-alsa",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA Dimensional Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "renderTimeVoltageStorable",
           "normalized": "Device-\u003eTime a-\u003eT Frequency a-\u003e(b c T d Time a(StorableSignal d Voltage e f))-\u003eIO()",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "timeVoltageMonoStorableToInt16",
           "package": "synthesizer-alsa",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA Dimensional Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "timeVoltageMonoStorableToInt16",
           "normalized": "Device-\u003eTime a-\u003eRenderedStorableSignal Time a Voltage b b-\u003eIO()",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "timeVoltageStereoStorableToInt16",
           "package": "synthesizer-alsa",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA Dimensional Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "timeVoltageStereoStorableToInt16",
           "normalized": "Device-\u003eTime a-\u003eRenderedStorableSignal Time a Voltage b(T b)-\u003eIO()",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "timeVoltageStorable",
           "package": "synthesizer-alsa",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA Dimensional Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Dimensional.Play",
           "name": "timeVoltageStorable",
           "normalized": "Device-\u003eTime a-\u003eRenderedStorableSignal Time a Voltage b c-\u003eIO()",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "EventList",
           "package": "synthesizer-alsa",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "EventList",
           "package": "synthesizer-alsa",
@@ -401,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "ClientName",
           "package": "synthesizer-alsa",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "ClientName",
           "package": "synthesizer-alsa",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "StampedEvent",
           "package": "synthesizer-alsa",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "StampedEvent",
           "package": "synthesizer-alsa",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "StrictTime",
           "package": "synthesizer-alsa",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "StrictTime",
           "package": "synthesizer-alsa",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "ClientName",
           "package": "synthesizer-alsa",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "ClientName",
           "package": "synthesizer-alsa",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "addStamp",
           "package": "synthesizer-alsa",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "addStamp",
           "normalized": "T-\u003eStampedEvent a",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "clockTimeToSeconds",
           "package": "synthesizer-alsa",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "clockTimeToSeconds",
           "normalized": "ClockTime-\u003ea",
@@ -535,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe first discretize the absolute time values,\nthen we compute differences,\nin order to avoid rounding errors in further computations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "discretizeTime",
           "package": "synthesizer-alsa",
@@ -545,6 +592,7 @@
         "index": {
           "description": "We first discretize the absolute time values then we compute differences in order to avoid rounding errors in further computations",
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "discretizeTime",
           "normalized": "a-\u003eT a b-\u003eT StrictTime b",
@@ -561,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe client id may differ from the receiving sequencer.\nI do not know, whether there are circumstances, where this is useful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "getEventsUntilEcho",
           "package": "synthesizer-alsa",
@@ -571,6 +620,7 @@
         "index": {
           "description": "The client id may differ from the receiving sequencer do not know whether there are circumstances where this is useful",
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "getEventsUntilEcho",
           "normalized": "T-\u003eT a-\u003eIO[T]",
@@ -587,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet events until a certain point in time.\nIt sends itself an Echo event in order to measure time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "getEventsUntilTime",
           "package": "synthesizer-alsa",
@@ -597,6 +648,7 @@
         "index": {
           "description": "Get events until certain point in time It sends itself an Echo event in order to measure time",
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "getEventsUntilTime",
           "normalized": "T a-\u003eT-\u003eT-\u003eb-\u003eIO[T]",
@@ -613,6 +665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eonly use it for non-blocking sequencers\n\u003c/p\u003e\u003cp\u003eWe ignore ALSA time stamps and use the time of fetching the event,\nbecause I don't know whether the ALSA time stamps are in sync with getClockTime.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "getStampedEvent",
           "package": "synthesizer-alsa",
@@ -623,6 +676,7 @@
         "index": {
           "description": "only use it for non-blocking sequencers We ignore ALSA time stamps and use the time of fetching the event because don know whether the ALSA time stamps are in sync with getClockTime",
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "getStampedEvent",
           "normalized": "T a-\u003eIO(StampedEvent b)",
@@ -639,6 +693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eonly use it for blocking sequencers \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "getStampedEventsUntilTime",
           "package": "synthesizer-alsa",
@@ -649,6 +704,7 @@
         "index": {
           "description": "only use it for blocking sequencers",
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "getStampedEventsUntilTime",
           "normalized": "T a-\u003eT-\u003eT-\u003eb-\u003eIO[StampedEvent b]",
@@ -665,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003etime\u003c/code\u003e type needs high precision,\nso you will certainly have to instantiate it with \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e.\n\u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e has definitely not enough bits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "getTimeSeconds",
           "package": "synthesizer-alsa",
@@ -675,6 +732,7 @@
         "index": {
           "description": "The time type needs high precision so you will certainly have to instantiate it with Double Float has definitely not enough bits",
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "getTimeSeconds",
           "package": "synthesizer-alsa",
@@ -688,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "getWaitingEvents",
           "package": "synthesizer-alsa",
@@ -697,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "getWaitingEvents",
           "normalized": "T a-\u003eIO[T]",
@@ -713,6 +773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eonly use it for non-blocking sequencers \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "getWaitingStampedEvents",
           "package": "synthesizer-alsa",
@@ -723,6 +784,7 @@
         "index": {
           "description": "only use it for non-blocking sequencers",
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "getWaitingStampedEvents",
           "normalized": "T a-\u003eIO[StampedEvent b]",
@@ -738,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "ioToLazyList",
           "package": "synthesizer-alsa",
@@ -747,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "ioToLazyList",
           "normalized": "IO a-\u003eIO[a]",
@@ -762,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "lazySequence",
           "package": "synthesizer-alsa",
@@ -771,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "lazySequence",
           "normalized": "[IO a]-\u003eIO[a]",
@@ -786,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "makeEcho",
           "package": "synthesizer-alsa",
@@ -795,6 +862,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "makeEcho",
           "normalized": "T-\u003eT-\u003eT-\u003ea-\u003eCustom-\u003eT",
@@ -811,6 +879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRealTime.toFractional for NumericPrelude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "realTimeToField",
           "package": "synthesizer-alsa",
@@ -821,6 +890,7 @@
         "index": {
           "description": "RealTime.toFractional for NumericPrelude",
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "realTimeToField",
           "normalized": "T-\u003ea",
@@ -836,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "setTimestamping",
           "package": "synthesizer-alsa",
@@ -845,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "setTimestamping",
           "normalized": "T a-\u003eT-\u003eT-\u003eIO()",
@@ -860,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "wait",
           "package": "synthesizer-alsa",
@@ -869,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "wait",
           "normalized": "a-\u003eIO()",
@@ -883,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withInPort",
           "package": "synthesizer-alsa",
@@ -892,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withInPort",
           "normalized": "ClientName-\u003eBlockMode-\u003e(T DuplexMode-\u003eT-\u003eIO a)-\u003eIO a",
@@ -907,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEvents",
           "package": "synthesizer-alsa",
@@ -916,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEvents",
           "normalized": "ClientName-\u003ea-\u003ea-\u003e(T StrictTime[T]-\u003eIO b)-\u003eIO b",
@@ -931,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsBlock",
           "package": "synthesizer-alsa",
@@ -940,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsBlock",
           "normalized": "ClientName-\u003ea-\u003e(T StrictTime T-\u003eIO b)-\u003eIO b",
@@ -955,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsBlockEcho",
           "package": "synthesizer-alsa",
@@ -964,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsBlockEcho",
           "normalized": "ClientName-\u003ea-\u003ea-\u003e(T StrictTime[T]-\u003eIO b)-\u003eIO b",
@@ -980,6 +1062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is like withMIDIEventsBlockEcho\nbut collects all events at the beginning of the beats.\nThis way, further processing steps may collapse\nall controller events within one beat to one event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsBlockEchoQuantised",
           "package": "synthesizer-alsa",
@@ -990,6 +1073,7 @@
         "index": {
           "description": "This is like withMIDIEventsBlockEcho but collects all events at the beginning of the beats This way further processing steps may collapse all controller events within one beat to one event",
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsBlockEchoQuantised",
           "normalized": "ClientName-\u003ea-\u003ea-\u003e(T StrictTime[T]-\u003eIO b)-\u003eIO b",
@@ -1006,6 +1090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake sure, that \u003ccode\u003ebeat\u003c/code\u003e is an integer multiple of \u003ccode\u003erecip rate\u003c/code\u003e.\nSince we round time within each chunk,\nwe would otherwise accumulate rounding errors over time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsChunked",
           "package": "synthesizer-alsa",
@@ -1016,6 +1101,7 @@
         "index": {
           "description": "Make sure that beat is an integer multiple of recip rate Since we round time within each chunk we would otherwise accumulate rounding errors over time",
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsChunked",
           "normalized": "ClientName-\u003ea-\u003ea-\u003e([IO(T StrictTime[T])]-\u003eIO b)-\u003eIO b",
@@ -1031,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsChunkedQuantised",
           "package": "synthesizer-alsa",
@@ -1040,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsChunkedQuantised",
           "normalized": "ClientName-\u003ea-\u003ea-\u003e([IO(T StrictTime[T])]-\u003eIO b)-\u003eIO b",
@@ -1055,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsNonblockConstantPause",
           "package": "synthesizer-alsa",
@@ -1064,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsNonblockConstantPause",
           "normalized": "ClientName-\u003ea-\u003ea-\u003e(T StrictTime(Maybe T)-\u003eIO b)-\u003eIO b",
@@ -1079,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsNonblockSimple",
           "package": "synthesizer-alsa",
@@ -1088,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsNonblockSimple",
           "normalized": "ClientName-\u003ea-\u003ea-\u003e(T StrictTime T-\u003eIO b)-\u003eIO b",
@@ -1103,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsNonblockWaitDefer",
           "package": "synthesizer-alsa",
@@ -1112,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsNonblockWaitDefer",
           "normalized": "ClientName-\u003ea-\u003ea-\u003e(T StrictTime(Maybe T)-\u003eIO b)-\u003eIO b",
@@ -1127,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsNonblockWaitGrouped",
           "package": "synthesizer-alsa",
@@ -1136,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsNonblockWaitGrouped",
           "normalized": "ClientName-\u003ea-\u003ea-\u003e(T StrictTime[T]-\u003eIO b)-\u003eIO b",
@@ -1151,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsNonblockWaitMin",
           "package": "synthesizer-alsa",
@@ -1160,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsNonblockWaitMin",
           "normalized": "ClientName-\u003ea-\u003ea-\u003e(T StrictTime(Maybe T)-\u003eIO b)-\u003eIO b",
@@ -1175,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsNonblockWaitSkip",
           "package": "synthesizer-alsa",
@@ -1184,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA EventList",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.EventList",
           "name": "withMIDIEventsNonblockWaitSkip",
           "normalized": "ClientName-\u003ea-\u003ea-\u003e(T StrictTime(Maybe T)-\u003eIO b)-\u003eIO b",
@@ -1200,6 +1300,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlay audio signals via ALSA.\nThe module could also be called \u003ccode\u003eOutput\u003c/code\u003e,\nbecause with a \u003ccode\u003efile\u003c/code\u003e sink, data can also be written to disk.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "Play",
           "package": "synthesizer-alsa",
@@ -1209,6 +1310,7 @@
         "index": {
           "description": "Play audio signals via ALSA The module could also be called Output because with file sink data can also be written to disk",
           "hierarchy": "Synthesizer ALSA Storable Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "Play",
           "package": "synthesizer-alsa",
@@ -1222,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "Device",
           "package": "synthesizer-alsa",
@@ -1230,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA Storable Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "Device",
           "package": "synthesizer-alsa",
@@ -1243,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "auto",
           "package": "synthesizer-alsa",
@@ -1252,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA Storable Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "auto",
           "normalized": "SoundSink a b-\u003eT b-\u003eIO()",
@@ -1267,6 +1373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlay a signal and write it to disk via SoX simultaneously.\nConsider using \u003ccode\u003e\u003ca\u003eauto\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003etee\u003c/code\u003e device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "autoAndRecord",
           "package": "synthesizer-alsa",
@@ -1277,6 +1384,7 @@
         "index": {
           "description": "Play signal and write it to disk via SoX simultaneously Consider using auto with tee device",
           "hierarchy": "Synthesizer ALSA Storable Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "autoAndRecord",
           "normalized": "FilePath-\u003eSoundFmt a-\u003eSoundSink b a-\u003eT a-\u003eIO ExitCode",
@@ -1293,6 +1401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlay a signal and write it to multiple files.\nThe Functor \u003ccode\u003ef\u003c/code\u003e may be \u003ccode\u003eMaybe\u003c/code\u003e for no or one file to write,\nor \u003ccode\u003e[]\u003c/code\u003e for many files to write.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "autoAndRecordMany",
           "package": "synthesizer-alsa",
@@ -1303,6 +1412,7 @@
         "index": {
           "description": "Play signal and write it to multiple files The Functor may be Maybe for no or one file to write or for many files to write",
           "hierarchy": "Synthesizer ALSA Storable Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "autoAndRecordMany",
           "normalized": "a FilePath-\u003eSoundFmt b-\u003eSoundSink c b-\u003eT b-\u003eIO(a ExitCode)",
@@ -1319,6 +1429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA suggested default chunk size.\nIt is not used by the functions in this module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "defaultChunkSize",
           "package": "synthesizer-alsa",
@@ -1329,6 +1440,7 @@
         "index": {
           "description": "suggested default chunk size It is not used by the functions in this module",
           "hierarchy": "Synthesizer ALSA Storable Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "defaultChunkSize",
           "package": "synthesizer-alsa",
@@ -1342,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "defaultDevice",
           "package": "synthesizer-alsa",
@@ -1351,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA Storable Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "defaultDevice",
           "package": "synthesizer-alsa",
@@ -1365,6 +1479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUseful values for the output device are\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\"default\"\u003c/code\u003e for mixing with the output of other applications.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\"plughw:0,0\"\u003c/code\u003e for accessing sound output in an exclusive way.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\"tee:default,'output.raw',raw\"\u003c/code\u003e for playing and simultaneously writing raw data to disk.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\"tee:default,'output.wav',wav\"\u003c/code\u003e for playing and writing to WAVE file format.\n  Note that the length cannot be written,\n  when the program is terminated,\n  leaving the file in an invalid format.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "makeSink",
           "package": "synthesizer-alsa",
@@ -1374,6 +1489,7 @@
         "index": {
           "description": "Useful values for the output device are default for mixing with the output of other applications plughw for accessing sound output in an exclusive way tee default output.raw raw for playing and simultaneously writing raw data to disk tee default output.wav wav for playing and writing to WAVE file format Note that the length cannot be written when the program is terminated leaving the file in an invalid format",
           "hierarchy": "Synthesizer ALSA Storable Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "makeSink",
           "normalized": "Device-\u003ea-\u003eSampleFreq-\u003eSoundSink Pcm b",
@@ -1389,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "monoToInt16",
           "package": "synthesizer-alsa",
@@ -1398,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA Storable Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "monoToInt16",
           "normalized": "SoundSink a Int-\u003eT b-\u003eIO()",
@@ -1413,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "stereoToInt16",
           "package": "synthesizer-alsa",
@@ -1422,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA Storable Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "stereoToInt16",
           "normalized": "SoundSink a(T Int)-\u003eT(T b)-\u003eIO()",
@@ -1437,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "write",
           "package": "synthesizer-alsa",
@@ -1446,6 +1567,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA Storable Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "write",
           "normalized": "SoundSink a b-\u003ea b-\u003eVector b-\u003eIO()",
@@ -1460,6 +1582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:19 UTC 2014",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "writeLazy",
           "package": "synthesizer-alsa",
@@ -1469,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "Synthesizer ALSA Storable Play",
+          "indexed": "2014-03-11T20:15:19",
           "module": "Synthesizer.ALSA.Storable.Play",
           "name": "writeLazy",
           "normalized": "SoundSink a b-\u003ea b-\u003eVector b-\u003eIO()",

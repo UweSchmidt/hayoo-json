@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xturtle"
+        "phrase": "xturtle",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "Turtle",
           "package": "xturtle",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "Turtle",
           "package": "xturtle",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "ColorClass",
           "package": "xturtle",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "ColorClass",
           "package": "xturtle",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "Field",
           "package": "xturtle",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "Field",
           "package": "xturtle",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "Turtle",
           "package": "xturtle",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "Turtle",
           "package": "xturtle",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "addshape",
           "package": "xturtle",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "addshape",
           "normalized": "Turtle-\u003eString-\u003e[(Double,Double)]-\u003eIO()",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "backward",
           "package": "xturtle",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "backward",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "beginfill",
           "package": "xturtle",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "beginfill",
           "normalized": "Turtle-\u003eIO()",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "beginpoly",
           "package": "xturtle",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "beginpoly",
           "normalized": "Turtle-\u003eIO()",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "bgcolor",
           "package": "xturtle",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "bgcolor",
           "normalized": "Turtle-\u003ea-\u003eIO()",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "center",
           "package": "xturtle",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "center",
           "normalized": "Field-\u003eIO()",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "circle",
           "package": "xturtle",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "circle",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "clear",
           "package": "xturtle",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "clear",
           "normalized": "Turtle-\u003eIO()",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "closeField",
           "package": "xturtle",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "closeField",
           "normalized": "Field-\u003eIO()",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "degrees",
           "package": "xturtle",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "degrees",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "distance",
           "package": "xturtle",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "distance",
           "normalized": "Turtle-\u003eDouble-\u003eDouble-\u003eIO Double",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "dot",
           "package": "xturtle",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "dot",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "endfill",
           "package": "xturtle",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "endfill",
           "normalized": "Turtle-\u003eIO()",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "endpoly",
           "package": "xturtle",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "endpoly",
           "normalized": "Turtle-\u003eIO[(Double,Double)]",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "field",
           "package": "xturtle",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "field",
           "normalized": "Turtle-\u003eField",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "flush",
           "package": "xturtle",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "flush",
           "normalized": "Turtle-\u003eIO()",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "flushoff",
           "package": "xturtle",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "flushoff",
           "normalized": "Turtle-\u003eIO()",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "flushon",
           "package": "xturtle",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "flushon",
           "normalized": "Turtle-\u003eIO()",
@@ -517,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "forward",
           "package": "xturtle",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "forward",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -540,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "getSVG",
           "package": "xturtle",
@@ -549,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "getSVG",
           "normalized": "Turtle-\u003eIO[SVG]",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "getshapes",
           "package": "xturtle",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "getshapes",
           "normalized": "Turtle-\u003eIO[String]",
@@ -587,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "goto",
           "package": "xturtle",
@@ -596,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "goto",
           "normalized": "Turtle-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -610,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "heading",
           "package": "xturtle",
@@ -619,6 +672,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "heading",
           "normalized": "Turtle-\u003eIO Double",
@@ -633,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "hideturtle",
           "package": "xturtle",
@@ -642,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "hideturtle",
           "normalized": "Turtle-\u003eIO()",
@@ -656,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "home",
           "package": "xturtle",
@@ -665,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "home",
           "normalized": "Turtle-\u003eIO()",
@@ -679,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "image",
           "package": "xturtle",
@@ -688,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "image",
           "normalized": "Turtle-\u003eFilePath-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -702,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "inputs",
           "package": "xturtle",
@@ -711,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "inputs",
           "normalized": "Turtle-\u003eIO[TurtleInput]",
@@ -725,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "isdown",
           "package": "xturtle",
@@ -734,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "isdown",
           "normalized": "Turtle-\u003eIO Bool",
@@ -748,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "isvisible",
           "package": "xturtle",
@@ -757,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "isvisible",
           "normalized": "Turtle-\u003eIO Bool",
@@ -771,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "killTurtle",
           "package": "xturtle",
@@ -780,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "killTurtle",
           "normalized": "Turtle-\u003eIO()",
@@ -795,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "left",
           "package": "xturtle",
@@ -804,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "left",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -818,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "newTurtle",
           "package": "xturtle",
@@ -827,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "newTurtle",
           "normalized": "Field-\u003eIO Turtle",
@@ -842,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "onclick",
           "package": "xturtle",
@@ -851,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "onclick",
           "normalized": "Field-\u003e(Int-\u003eDouble-\u003eDouble-\u003eIO Bool)-\u003eIO()",
@@ -865,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "ondrag",
           "package": "xturtle",
@@ -874,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "ondrag",
           "normalized": "Field-\u003e(Int-\u003eDouble-\u003eDouble-\u003eIO())-\u003eIO()",
@@ -888,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "onkeypress",
           "package": "xturtle",
@@ -897,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "onkeypress",
           "normalized": "Field-\u003e(Char-\u003eIO Bool)-\u003eIO()",
@@ -911,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "onmotion",
           "package": "xturtle",
@@ -920,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "onmotion",
           "normalized": "Field-\u003e(Double-\u003eDouble-\u003eIO())-\u003eIO()",
@@ -934,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "onrelease",
           "package": "xturtle",
@@ -943,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "onrelease",
           "normalized": "Field-\u003e(Int-\u003eDouble-\u003eDouble-\u003eIO Bool)-\u003eIO()",
@@ -957,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "ontimer",
           "package": "xturtle",
@@ -966,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "ontimer",
           "normalized": "Field-\u003eInt-\u003eIO Bool-\u003eIO()",
@@ -980,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "openField",
           "package": "xturtle",
@@ -989,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "openField",
           "package": "xturtle",
@@ -1002,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "pencolor",
           "package": "xturtle",
@@ -1011,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "pencolor",
           "normalized": "Turtle-\u003ea-\u003eIO()",
@@ -1025,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "pendown",
           "package": "xturtle",
@@ -1034,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "pendown",
           "normalized": "Turtle-\u003eIO()",
@@ -1048,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "pensize",
           "package": "xturtle",
@@ -1057,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "pensize",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -1071,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "penup",
           "package": "xturtle",
@@ -1080,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "penup",
           "normalized": "Turtle-\u003eIO()",
@@ -1094,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "position",
           "package": "xturtle",
@@ -1103,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "position",
           "normalized": "Turtle-\u003eIO(Double,Double)",
@@ -1117,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "radians",
           "package": "xturtle",
@@ -1126,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "radians",
           "normalized": "Turtle-\u003eIO()",
@@ -1140,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "right",
           "package": "xturtle",
@@ -1149,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "right",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -1163,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "runInputs",
           "package": "xturtle",
@@ -1172,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "runInputs",
           "normalized": "Turtle-\u003e[TurtleInput]-\u003eIO()",
@@ -1187,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "setheading",
           "package": "xturtle",
@@ -1196,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "setheading",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -1210,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "setx",
           "package": "xturtle",
@@ -1219,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "setx",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -1233,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "sety",
           "package": "xturtle",
@@ -1242,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "sety",
           "normalized": "Turtle-\u003eDouble-\u003eIO()",
@@ -1256,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "shape",
           "package": "xturtle",
@@ -1265,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "shape",
           "normalized": "Turtle-\u003eString-\u003eIO()",
@@ -1279,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "shapesize",
           "package": "xturtle",
@@ -1288,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "shapesize",
           "normalized": "Turtle-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -1302,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "showturtle",
           "package": "xturtle",
@@ -1311,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "showturtle",
           "normalized": "Turtle-\u003eIO()",
@@ -1325,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "silentundo",
           "package": "xturtle",
@@ -1334,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "silentundo",
           "normalized": "Turtle-\u003eInt-\u003eIO()",
@@ -1348,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "sleep",
           "package": "xturtle",
@@ -1357,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "sleep",
           "normalized": "Turtle-\u003eInt-\u003eIO()",
@@ -1371,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "speed",
           "package": "xturtle",
@@ -1380,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "speed",
           "normalized": "Turtle-\u003eString-\u003eIO()",
@@ -1394,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "stamp",
           "package": "xturtle",
@@ -1403,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "stamp",
           "normalized": "Turtle-\u003eIO()",
@@ -1417,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "topleft",
           "package": "xturtle",
@@ -1426,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "topleft",
           "normalized": "Field-\u003eIO()",
@@ -1440,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "towards",
           "package": "xturtle",
@@ -1449,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "towards",
           "normalized": "Turtle-\u003eDouble-\u003eDouble-\u003eIO Double",
@@ -1463,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "undo",
           "package": "xturtle",
@@ -1472,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "undo",
           "normalized": "Turtle-\u003eIO()",
@@ -1486,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "waitField",
           "package": "xturtle",
@@ -1495,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "waitField",
           "normalized": "Field-\u003eIO()",
@@ -1510,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "waitTurtle",
           "package": "xturtle",
@@ -1519,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "waitTurtle",
           "normalized": "Turtle-\u003eIO()",
@@ -1534,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "windowHeight",
           "package": "xturtle",
@@ -1543,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "windowHeight",
           "normalized": "Turtle-\u003eIO Double",
@@ -1558,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "windowWidth",
           "package": "xturtle",
@@ -1567,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "windowWidth",
           "normalized": "Turtle-\u003eIO Double",
@@ -1582,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "write",
           "package": "xturtle",
@@ -1591,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "write",
           "normalized": "Turtle-\u003eString-\u003eDouble-\u003eString-\u003eIO()",
@@ -1605,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "xcor",
           "package": "xturtle",
@@ -1614,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "xcor",
           "normalized": "Turtle-\u003eIO Double",
@@ -1628,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "xturtleVersion",
           "package": "xturtle",
@@ -1637,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "xturtleVersion",
           "normalized": "(Int,String)",
@@ -1652,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:07 UTC 2014",
           "module": "Graphics.X11.Turtle",
           "name": "ycor",
           "package": "xturtle",
@@ -1661,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 Turtle",
+          "indexed": "2014-03-11T20:44:07",
           "module": "Graphics.X11.Turtle",
           "name": "ycor",
           "normalized": "Turtle-\u003eIO Double",

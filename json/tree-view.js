@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tree-view"
+        "phrase": "tree-view",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:21 UTC 2014",
           "module": "Data.Tree.View",
           "name": "View",
           "package": "tree-view",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Tree View",
+          "indexed": "2014-03-11T20:25:21",
           "module": "Data.Tree.View",
           "name": "View",
           "package": "tree-view",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tree node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:21 UTC 2014",
           "module": "Data.Tree.View",
           "name": "NodeInfo",
           "package": "tree-view",
@@ -49,6 +52,7 @@
         "index": {
           "description": "tree node",
           "hierarchy": "Data Tree View",
+          "indexed": "2014-03-11T20:25:21",
           "module": "Data.Tree.View",
           "name": "NodeInfo",
           "package": "tree-view",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:21 UTC 2014",
           "module": "Data.Tree.View",
           "name": "NodeInfo",
           "package": "tree-view",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Tree View",
+          "indexed": "2014-03-11T20:25:21",
           "module": "Data.Tree.View",
           "name": "NodeInfo",
           "package": "tree-view",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a \u003ccode\u003e\u003ca\u003eTree\u003c/a\u003e\u003c/code\u003e on the terminal using Unicode art\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e *Data.Tree.View\u003e drawTree $ Node \"Add\" [Node \"Sub\" [Node \"3\" [], Node \"Mul\" [Node \"1\" [], Node \"2\" []]], Node \"4\" []]\n Add\n  &#9500;&#9588;Sub\n  &#9474;  &#9500;&#9588;3\n  &#9474;  &#9492;&#9588;Mul\n  &#9474;     &#9500;&#9588;1\n  &#9474;     &#9492;&#9588;2\n  &#9492;&#9588;4\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:25:21 UTC 2014",
           "module": "Data.Tree.View",
           "name": "drawTree",
           "package": "tree-view",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Draw Tree on the terminal using Unicode art Example Data.Tree.View drawTree Node Add Node Sub Node Node Mul Node Node Node Add Sub Mul",
           "hierarchy": "Data Tree View",
+          "indexed": "2014-03-11T20:25:21",
           "module": "Data.Tree.View",
           "name": "drawTree",
           "normalized": "Tree String-\u003eIO()",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eTree\u003c/a\u003e\u003c/code\u003e to HTML with foldable nodes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:21 UTC 2014",
           "module": "Data.Tree.View",
           "name": "htmlTree",
           "package": "tree-view",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Convert Tree to HTML with foldable nodes",
           "hierarchy": "Data Tree View",
+          "indexed": "2014-03-11T20:25:21",
           "module": "Data.Tree.View",
           "name": "htmlTree",
           "normalized": "Tree NodeInfo-\u003eString",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional information (to be displayed when hovering the mouse over\n   the node). This field may contain line breaks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:21 UTC 2014",
           "module": "Data.Tree.View",
           "name": "nodeInfo",
           "package": "tree-view",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Additional information to be displayed when hovering the mouse over the node This field may contain line breaks",
           "hierarchy": "Data Tree View",
+          "indexed": "2014-03-11T20:25:21",
           "module": "Data.Tree.View",
           "name": "nodeInfo",
           "package": "tree-view",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNode name (to be displayed in the HTML tree view)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:21 UTC 2014",
           "module": "Data.Tree.View",
           "name": "nodeName",
           "package": "tree-view",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Node name to be displayed in the HTML tree view",
           "hierarchy": "Data Tree View",
+          "indexed": "2014-03-11T20:25:21",
           "module": "Data.Tree.View",
           "name": "nodeName",
           "package": "tree-view",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a \u003ccode\u003e\u003ca\u003eTree\u003c/a\u003e\u003c/code\u003e using Unicode art\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:21 UTC 2014",
           "module": "Data.Tree.View",
           "name": "showTree",
           "package": "tree-view",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Show Tree using Unicode art",
           "hierarchy": "Data Tree View",
+          "indexed": "2014-03-11T20:25:21",
           "module": "Data.Tree.View",
           "name": "showTree",
           "normalized": "Tree String-\u003eString",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eTree\u003c/a\u003e\u003c/code\u003e to an HTML file with foldable nodes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:21 UTC 2014",
           "module": "Data.Tree.View",
           "name": "writeHtmlTree",
           "package": "tree-view",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Convert Tree to an HTML file with foldable nodes",
           "hierarchy": "Data Tree View",
+          "indexed": "2014-03-11T20:25:21",
           "module": "Data.Tree.View",
           "name": "writeHtmlTree",
           "normalized": "FilePath-\u003eTree NodeInfo-\u003eIO()",

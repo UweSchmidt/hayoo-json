@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "regex-pcre"
+        "phrase": "regex-pcre",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis exports instances of the high level API and the medium level\nAPI of \u003ccode\u003e\u003ca\u003ecompile\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eexecute\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eregexec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Lazy",
           "name": "Lazy",
           "package": "regex-pcre",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This exports instances of the high level API and the medium level API of compile execute and regexec",
           "hierarchy": "Text Regex PCRE ByteString Lazy",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.ByteString.Lazy",
           "name": "Lazy",
           "package": "regex-pcre",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Lazy",
           "name": "CompOption",
           "package": "regex-pcre",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE ByteString Lazy",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.ByteString.Lazy",
           "name": "CompOption",
           "package": "regex-pcre",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Lazy",
           "name": "ExecOption",
           "package": "regex-pcre",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE ByteString Lazy",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.ByteString.Lazy",
           "name": "ExecOption",
           "package": "regex-pcre",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon-negative length of a match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Lazy",
           "name": "MatchLength",
           "package": "regex-pcre",
@@ -92,6 +99,7 @@
         "index": {
           "description": "non-negative length of match",
           "hierarchy": "Text Regex PCRE ByteString Lazy",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.ByteString.Lazy",
           "name": "MatchLength",
           "package": "regex-pcre",
@@ -106,6 +114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e0 based index from start of source, or (-1) for unused\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Lazy",
           "name": "MatchOffset",
           "package": "regex-pcre",
@@ -114,6 +123,7 @@
         "index": {
           "description": "based index from start of source or for unused",
           "hierarchy": "Text Regex PCRE ByteString Lazy",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.ByteString.Lazy",
           "name": "MatchOffset",
           "package": "regex-pcre",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compiled regular expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Lazy",
           "name": "Regex",
           "package": "regex-pcre",
@@ -137,6 +148,7 @@
         "index": {
           "description": "compiled regular expression",
           "hierarchy": "Text Regex PCRE ByteString Lazy",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.ByteString.Lazy",
           "name": "Regex",
           "package": "regex-pcre",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Lazy",
           "name": "ReturnCode",
           "package": "regex-pcre",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE ByteString Lazy",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.ByteString.Lazy",
           "name": "ReturnCode",
           "package": "regex-pcre",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString.Lazy",
           "name": "WrapError",
           "package": "regex-pcre",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE ByteString Lazy",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.ByteString.Lazy",
           "name": "WrapError",
           "package": "regex-pcre",
@@ -843,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis exports instances of the high level API and the medium level\nAPI of \u003ccode\u003e\u003ca\u003ecompile\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eexecute\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eregexec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString",
           "name": "ByteString",
           "package": "regex-pcre",
@@ -852,6 +869,7 @@
         "index": {
           "description": "This exports instances of the high level API and the medium level API of compile execute and regexec",
           "hierarchy": "Text Regex PCRE ByteString",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.ByteString",
           "name": "ByteString",
           "package": "regex-pcre",
@@ -865,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString",
           "name": "CompOption",
           "package": "regex-pcre",
@@ -873,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE ByteString",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.ByteString",
           "name": "CompOption",
           "package": "regex-pcre",
@@ -886,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString",
           "name": "ExecOption",
           "package": "regex-pcre",
@@ -894,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE ByteString",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.ByteString",
           "name": "ExecOption",
           "package": "regex-pcre",
@@ -908,6 +930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon-negative length of a match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString",
           "name": "MatchLength",
           "package": "regex-pcre",
@@ -916,6 +939,7 @@
         "index": {
           "description": "non-negative length of match",
           "hierarchy": "Text Regex PCRE ByteString",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.ByteString",
           "name": "MatchLength",
           "package": "regex-pcre",
@@ -930,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e0 based index from start of source, or (-1) for unused\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString",
           "name": "MatchOffset",
           "package": "regex-pcre",
@@ -938,6 +963,7 @@
         "index": {
           "description": "based index from start of source or for unused",
           "hierarchy": "Text Regex PCRE ByteString",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.ByteString",
           "name": "MatchOffset",
           "package": "regex-pcre",
@@ -952,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compiled regular expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString",
           "name": "Regex",
           "package": "regex-pcre",
@@ -961,6 +988,7 @@
         "index": {
           "description": "compiled regular expression",
           "hierarchy": "Text Regex PCRE ByteString",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.ByteString",
           "name": "Regex",
           "package": "regex-pcre",
@@ -974,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString",
           "name": "ReturnCode",
           "package": "regex-pcre",
@@ -982,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE ByteString",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.ByteString",
           "name": "ReturnCode",
           "package": "regex-pcre",
@@ -995,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.ByteString",
           "name": "WrapError",
           "package": "regex-pcre",
@@ -1003,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE ByteString",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.ByteString",
           "name": "WrapError",
           "package": "regex-pcre",
@@ -1017,6 +1049,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis exports instances of the high level API and the medium level\nAPI of \u003ccode\u003e\u003ca\u003ecompile\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eexecute\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eregexec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "Sequence",
           "package": "regex-pcre",
@@ -1026,6 +1059,7 @@
         "index": {
           "description": "This exports instances of the high level API and the medium level API of compile execute and regexec",
           "hierarchy": "Text Regex PCRE Sequence",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "Sequence",
           "package": "regex-pcre",
@@ -1039,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "CompOption",
           "package": "regex-pcre",
@@ -1047,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Sequence",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "CompOption",
           "package": "regex-pcre",
@@ -1060,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "ExecOption",
           "package": "regex-pcre",
@@ -1068,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Sequence",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "ExecOption",
           "package": "regex-pcre",
@@ -1082,6 +1120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon-negative length of a match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "MatchLength",
           "package": "regex-pcre",
@@ -1090,6 +1129,7 @@
         "index": {
           "description": "non-negative length of match",
           "hierarchy": "Text Regex PCRE Sequence",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "MatchLength",
           "package": "regex-pcre",
@@ -1104,6 +1144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e0 based index from start of source, or (-1) for unused\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "MatchOffset",
           "package": "regex-pcre",
@@ -1112,6 +1153,7 @@
         "index": {
           "description": "based index from start of source or for unused",
           "hierarchy": "Text Regex PCRE Sequence",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "MatchOffset",
           "package": "regex-pcre",
@@ -1126,6 +1168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compiled regular expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "Regex",
           "package": "regex-pcre",
@@ -1135,6 +1178,7 @@
         "index": {
           "description": "compiled regular expression",
           "hierarchy": "Text Regex PCRE Sequence",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "Regex",
           "package": "regex-pcre",
@@ -1148,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "ReturnCode",
           "package": "regex-pcre",
@@ -1156,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Sequence",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "ReturnCode",
           "package": "regex-pcre",
@@ -1169,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "WrapError",
           "package": "regex-pcre",
@@ -1177,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Sequence",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "WrapError",
           "package": "regex-pcre",
@@ -1191,6 +1239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompiles a regular expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "compile",
           "package": "regex-pcre",
@@ -1200,6 +1249,7 @@
         "index": {
           "description": "Compiles regular expression",
           "hierarchy": "Text Regex PCRE Sequence",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "compile",
           "normalized": "CompOption-\u003eExecOption-\u003eSeq Char-\u003eIO(Either(MatchOffset,String)Regex)",
@@ -1215,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches a regular expression against a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "execute",
           "package": "regex-pcre",
@@ -1224,6 +1275,7 @@
         "index": {
           "description": "Matches regular expression against string",
           "hierarchy": "Text Regex PCRE Sequence",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "execute",
           "normalized": "Regex-\u003eSeq Char-\u003eIO(Either WrapError(Maybe(Array Int(MatchOffset,MatchLength))))",
@@ -1239,6 +1291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexecute match and extract substrings rather than just offsets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "regexec",
           "package": "regex-pcre",
@@ -1248,6 +1301,7 @@
         "index": {
           "description": "execute match and extract substrings rather than just offsets",
           "hierarchy": "Text Regex PCRE Sequence",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Sequence",
           "name": "regexec",
           "normalized": "Regex-\u003eSeq Char-\u003eIO(Either WrapError(Maybe(Seq Char,Seq Char,Seq Char,[Seq Char])))",
@@ -1263,6 +1317,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis exports instances of the high level API and the medium level\nAPI of \u003ccode\u003e\u003ca\u003ecompile\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eexecute\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eregexec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.String",
           "name": "String",
           "package": "regex-pcre",
@@ -1272,6 +1327,7 @@
         "index": {
           "description": "This exports instances of the high level API and the medium level API of compile execute and regexec",
           "hierarchy": "Text Regex PCRE String",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.String",
           "name": "String",
           "package": "regex-pcre",
@@ -1285,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.String",
           "name": "CompOption",
           "package": "regex-pcre",
@@ -1293,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE String",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.String",
           "name": "CompOption",
           "package": "regex-pcre",
@@ -1306,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.String",
           "name": "ExecOption",
           "package": "regex-pcre",
@@ -1314,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE String",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.String",
           "name": "ExecOption",
           "package": "regex-pcre",
@@ -1328,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon-negative length of a match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.String",
           "name": "MatchLength",
           "package": "regex-pcre",
@@ -1336,6 +1397,7 @@
         "index": {
           "description": "non-negative length of match",
           "hierarchy": "Text Regex PCRE String",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.String",
           "name": "MatchLength",
           "package": "regex-pcre",
@@ -1350,6 +1412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e0 based index from start of source, or (-1) for unused\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.String",
           "name": "MatchOffset",
           "package": "regex-pcre",
@@ -1358,6 +1421,7 @@
         "index": {
           "description": "based index from start of source or for unused",
           "hierarchy": "Text Regex PCRE String",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.String",
           "name": "MatchOffset",
           "package": "regex-pcre",
@@ -1372,6 +1436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compiled regular expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.String",
           "name": "Regex",
           "package": "regex-pcre",
@@ -1381,6 +1446,7 @@
         "index": {
           "description": "compiled regular expression",
           "hierarchy": "Text Regex PCRE String",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.String",
           "name": "Regex",
           "package": "regex-pcre",
@@ -1394,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.String",
           "name": "ReturnCode",
           "package": "regex-pcre",
@@ -1402,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE String",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.String",
           "name": "ReturnCode",
           "package": "regex-pcre",
@@ -1415,6 +1483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.String",
           "name": "WrapError",
           "package": "regex-pcre",
@@ -1423,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE String",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.String",
           "name": "WrapError",
           "package": "regex-pcre",
@@ -1437,6 +1507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompiles a regular expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.String",
           "name": "compile",
           "package": "regex-pcre",
@@ -1446,6 +1517,7 @@
         "index": {
           "description": "Compiles regular expression",
           "hierarchy": "Text Regex PCRE String",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.String",
           "name": "compile",
           "normalized": "CompOption-\u003eExecOption-\u003eString-\u003eIO(Either(MatchOffset,String)Regex)",
@@ -1461,6 +1533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches a regular expression against a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.String",
           "name": "execute",
           "package": "regex-pcre",
@@ -1470,6 +1543,7 @@
         "index": {
           "description": "Matches regular expression against string",
           "hierarchy": "Text Regex PCRE String",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.String",
           "name": "execute",
           "normalized": "Regex-\u003eString-\u003eIO(Either WrapError(Maybe(Array Int(MatchOffset,MatchLength))))",
@@ -1485,6 +1559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexecute match and extract substrings rather than just offsets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.String",
           "name": "regexec",
           "package": "regex-pcre",
@@ -1494,6 +1569,7 @@
         "index": {
           "description": "execute match and extract substrings rather than just offsets",
           "hierarchy": "Text Regex PCRE String",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.String",
           "name": "regexec",
           "normalized": "Regex-\u003eString-\u003eIO(Either WrapError(Maybe(String,String,String,[String])))",
@@ -1509,6 +1585,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis will fail or error only if allocation fails or a nullPtr is passed in.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "Wrap",
           "package": "regex-pcre",
@@ -1518,6 +1595,7 @@
         "index": {
           "description": "This will fail or error only if allocation fails or nullPtr is passed in",
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "Wrap",
           "package": "regex-pcre",
@@ -1531,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "CompOption",
           "package": "regex-pcre",
@@ -1539,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "CompOption",
           "package": "regex-pcre",
@@ -1552,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "EndOffset",
           "package": "regex-pcre",
@@ -1560,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "EndOffset",
           "package": "regex-pcre",
@@ -1573,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "ExecOption",
           "package": "regex-pcre",
@@ -1581,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "ExecOption",
           "package": "regex-pcre",
@@ -1595,6 +1679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compiled regular expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "Regex",
           "package": "regex-pcre",
@@ -1604,6 +1689,7 @@
         "index": {
           "description": "compiled regular expression",
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "Regex",
           "package": "regex-pcre",
@@ -1617,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "ReturnCode",
           "package": "regex-pcre",
@@ -1625,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "ReturnCode",
           "package": "regex-pcre",
@@ -1638,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "StartOffset",
           "package": "regex-pcre",
@@ -1646,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "StartOffset",
           "package": "regex-pcre",
@@ -1659,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "WrapError",
           "package": "regex-pcre",
@@ -1667,6 +1758,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "WrapError",
           "package": "regex-pcre",
@@ -1680,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "(=~)",
           "package": "regex-pcre",
@@ -1689,6 +1782,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "(=~) =~",
           "normalized": "a-\u003ea-\u003eb",
@@ -1703,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "(=~~)",
           "package": "regex-pcre",
@@ -1712,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "(=~~) =~~",
           "normalized": "a-\u003ea-\u003eb c",
@@ -1726,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "ReturnCode",
           "package": "regex-pcre",
@@ -1735,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "ReturnCode",
           "package": "regex-pcre",
@@ -1748,6 +1846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "configUTF8",
           "package": "regex-pcre",
@@ -1757,6 +1856,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "configUTF8",
           "package": "regex-pcre",
@@ -1770,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "getNumSubs",
           "package": "regex-pcre",
@@ -1779,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "getNumSubs",
           "normalized": "Regex-\u003eInt",
@@ -1794,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "retBadMagic",
           "package": "regex-pcre",
@@ -1803,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "retBadMagic",
           "package": "regex-pcre",
@@ -1816,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "retBadOption",
           "package": "regex-pcre",
@@ -1825,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "retBadOption",
           "package": "regex-pcre",
@@ -1838,6 +1944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "retNoMatch",
           "package": "regex-pcre",
@@ -1847,6 +1954,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "retNoMatch",
           "package": "regex-pcre",
@@ -1860,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "retNoMemory",
           "package": "regex-pcre",
@@ -1869,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "retNoMemory",
           "package": "regex-pcre",
@@ -1882,6 +1992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "retNoSubstring",
           "package": "regex-pcre",
@@ -1891,6 +2002,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "retNoSubstring",
           "package": "regex-pcre",
@@ -1904,6 +2016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "retNull",
           "package": "regex-pcre",
@@ -1913,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "retNull",
           "package": "regex-pcre",
@@ -1926,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "retOk",
           "package": "regex-pcre",
@@ -1935,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "retOk",
           "package": "regex-pcre",
@@ -1948,6 +2064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "retUnknownNode",
           "package": "regex-pcre",
@@ -1957,6 +2074,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "retUnknownNode",
           "package": "regex-pcre",
@@ -1971,6 +2089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompiles a regular expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "wrapCompile",
           "package": "regex-pcre",
@@ -1980,6 +2099,7 @@
         "index": {
           "description": "Compiles regular expression",
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "wrapCompile",
           "normalized": "CompOption-\u003eExecOption-\u003eCString-\u003eIO(Either(MatchOffset,String)Regex)",
@@ -1995,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "wrapCount",
           "package": "regex-pcre",
@@ -2004,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "wrapCount",
           "normalized": "Regex-\u003eCStringLen-\u003eIO(Either WrapError Int)",
@@ -2020,6 +2142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches a regular expression against a string\n\u003c/p\u003e\u003cp\u003eShould never return (Right (Just []))\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "wrapMatch",
           "package": "regex-pcre",
@@ -2029,6 +2152,7 @@
         "index": {
           "description": "Matches regular expression against string Should never return Right Just",
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "wrapMatch",
           "normalized": "StartOffset-\u003eRegex-\u003eCStringLen-\u003eIO(Either WrapError(Maybe[(StartOffset,EndOffset)]))",
@@ -2045,6 +2169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrapMatchAll is an improvement over wrapMatch since it only\n allocates memory with allocaBytes once at the start.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "wrapMatchAll",
           "package": "regex-pcre",
@@ -2055,6 +2180,7 @@
         "index": {
           "description": "wrapMatchAll is an improvement over wrapMatch since it only allocates memory with allocaBytes once at the start",
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "wrapMatchAll",
           "normalized": "Regex-\u003eCStringLen-\u003eIO(Either WrapError[MatchArray])",
@@ -2070,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "wrapTest",
           "package": "regex-pcre",
@@ -2078,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Wrap",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE.Wrap",
           "name": "wrapTest",
           "normalized": "StartOffset-\u003eRegex-\u003eCStringLen-\u003eIO(Either WrapError Bool)",
@@ -2094,6 +2222,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ca\u003eText.Regex.PCRE\u003c/a\u003e module provides a backend for regular\nexpressions.  If you import this along with other backends, then\nyou should do so with qualified imports, perhaps renamed for\nconvenience.\n\u003c/p\u003e\u003cp\u003eYou will need to have libpcre, from www.pcre.org, to use\nthis module.  The haskell must be compiled with -DHAVE_PCRE_H and\nlinked with pcre.  This is the default in the cabal file.\n\u003c/p\u003e\u003cp\u003eIf you do not compile with 1 then the functions will still\nexist, but using them will create a run time error.  You can test for\nthe existance of PCRE by checking \u003ccode\u003e\u003ca\u003egetVersion\u003c/a\u003e\u003c/code\u003e which is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if\nnot compiled with PCRE or \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e if PCRE is present.\n\u003c/p\u003e\u003cp\u003eUsing the provided \u003ccode\u003e\u003ca\u003eCompOption\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eExecOption\u003c/a\u003e\u003c/code\u003e values and if\n\u003ccode\u003e\u003ca\u003econfigUTF8\u003c/a\u003e\u003c/code\u003e is True, then you might be able to send UTF8 encoded\nByteStrings to PCRE and get sensible results.  This is currently\nuntested.\n\u003c/p\u003e\u003cp\u003eThe regular expression can be provided as a \u003ccode\u003eByteString\u003c/code\u003e, but it will\nbe copied and a NUL byte appended to make a \u003ccode\u003eCString\u003c/code\u003e unless such a\nbyte is already present.  Thus the regular expression cannot contain\nan explicit NUL byte. The search string is passed as a \u003ccode\u003eCStringLen\u003c/code\u003e\nand may contain NUL bytes and does not need to end in a NUL\nbyte. \u003ccode\u003eByteString\u003c/code\u003es are searched in place (via unsafeUseAsCStringLen).\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e will be converted into a \u003ccode\u003eCString\u003c/code\u003e or \u003ccode\u003eCStringLen\u003c/code\u003e for\nprocessing.  Doing this repeatedly will be very inefficient.\n\u003c/p\u003e\u003cp\u003eThe \u003ca\u003eText.Regex.PCRE.String\u003c/a\u003e, \u003ca\u003eText.Regex.PCRE.ByteString\u003c/a\u003e, and\n\u003ca\u003eText.Regex.PCRE.Wrap\u003c/a\u003e modules provides both the high level interface\nexported by this module and medium- and low-level interfaces that\nreturns error using Either structures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE",
           "name": "PCRE",
           "package": "regex-pcre",
@@ -2103,6 +2232,7 @@
         "index": {
           "description": "The Text.Regex.PCRE module provides backend for regular expressions If you import this along with other backends then you should do so with qualified imports perhaps renamed for convenience You will need to have libpcre from www.pcre.org to use this module The haskell must be compiled with DHAVE PCRE and linked with pcre This is the default in the cabal file If you do not compile with then the functions will still exist but using them will create run time error You can test for the existance of PCRE by checking getVersion which is Nothing if not compiled with PCRE or Just String if PCRE is present Using the provided CompOption and ExecOption values and if configUTF8 is True then you might be able to send UTF8 encoded ByteStrings to PCRE and get sensible results This is currently untested The regular expression can be provided as ByteString but it will be copied and NUL byte appended to make CString unless such byte is already present Thus the regular expression cannot contain an explicit NUL byte The search string is passed as CStringLen and may contain NUL bytes and does not need to end in NUL byte ByteString are searched in place via unsafeUseAsCStringLen String will be converted into CString or CStringLen for processing Doing this repeatedly will be very inefficient The Text.Regex.PCRE.String Text.Regex.PCRE.ByteString and Text.Regex.PCRE.Wrap modules provides both the high level interface exported by this module and medium and low-level interfaces that returns error using Either structures",
           "hierarchy": "Text Regex PCRE",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE",
           "name": "PCRE",
           "package": "regex-pcre",
@@ -2116,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:13 UTC 2014",
           "module": "Text.Regex.PCRE",
           "name": "getVersion_Text_Regex_PCRE",
           "package": "regex-pcre",
@@ -2125,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE",
+          "indexed": "2014-03-11T19:51:13",
           "module": "Text.Regex.PCRE",
           "name": "getVersion_Text_Regex_PCRE",
           "package": "regex-pcre",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tableaux"
+        "phrase": "tableaux",
+        "type": "phrase"
       },
       "type": "context"
     }

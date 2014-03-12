@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "turing-music"
+        "phrase": "turing-music",
+        "type": "phrase"
       },
       "type": "context"
     }

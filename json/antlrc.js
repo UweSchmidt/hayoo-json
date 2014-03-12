@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "antlrc"
+        "phrase": "antlrc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "Lexer",
           "package": "antlrc",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "Lexer",
           "package": "antlrc",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePointer to an ANTLR string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "AntlrString",
           "package": "antlrc",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Pointer to an ANTLR string",
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "AntlrString",
           "package": "antlrc",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLexer token struct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "CommonToken",
           "package": "antlrc",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Lexer token struct",
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "CommonToken",
           "package": "antlrc",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLexer input stream struct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "InputStream",
           "package": "antlrc",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Lexer input stream struct",
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "InputStream",
           "package": "antlrc",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLexer struct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "Lexer",
           "package": "antlrc",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Lexer struct",
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "Lexer",
           "package": "antlrc",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "AntlrString",
           "package": "antlrc",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "AntlrString",
           "package": "antlrc",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "CommonToken",
           "package": "antlrc",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "CommonToken",
           "package": "antlrc",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "InputStream",
           "package": "antlrc",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "InputStream",
           "package": "antlrc",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "Lexer",
           "package": "antlrc",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "Lexer",
           "package": "antlrc",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCast from an ANTLR string to a pointer to an ANTLR string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "fromAntlrString",
           "package": "antlrc",
@@ -230,6 +249,7 @@
         "index": {
           "description": "Cast from an ANTLR string to pointer to an ANTLR string",
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "fromAntlrString",
           "normalized": "AntlrString-\u003ePtr a",
@@ -246,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an ANTLR string to a Maybe String. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "fromAntlrStringToMaybeString",
           "package": "antlrc",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Convert an ANTLR string to Maybe String",
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "fromAntlrStringToMaybeString",
           "normalized": "AntlrString-\u003eIO(Maybe String)",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from an ANTLR string to a String.\n   Note: the peekCStringLen function does not say what will happen if the\n   C pointer is 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "fromAntlrStringToString",
           "package": "antlrc",
@@ -282,6 +305,7 @@
         "index": {
           "description": "Convert from an ANTLR string to String Note the peekCStringLen function does not say what will happen if the pointer is",
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "fromAntlrStringToString",
           "normalized": "AntlrString-\u003eIO String",
@@ -298,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCast from a token to a pointer to a token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "fromCommonToken",
           "package": "antlrc",
@@ -308,6 +333,7 @@
         "index": {
           "description": "Cast from token to pointer to token",
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "fromCommonToken",
           "normalized": "CommonToken-\u003ePtr a",
@@ -324,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookahead in the input stream at the token at the specified\n   positive offset, where:\n\u003c/p\u003e\u003cpre\u003e LT input 1 \n\u003c/pre\u003e\u003cp\u003eis the current token.  Or a negative offset may be specified, where: \n\u003c/p\u003e\u003cpre\u003e LT input (-1) \n\u003c/pre\u003e\u003cp\u003eis the previous token.\n\u003c/p\u003e\u003cpre\u003e foreign export ccall isUnsignedInt :: Ptr InputStream -\u003e IO Bool\n isUnsignedInt input =\n   do token1 \u003c- lT input 1 \u003e\u003e= tokenGetType\n      if token1 /= UNSIGNED\n        then return False\n        else \n        do \n          token2 \u003c- lT input 2 \u003e\u003e= tokenGetType\n          return ((token2 /= CHAR) && (token2 /= SHORT) && (token2 /= LONG))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "lT",
           "package": "antlrc",
@@ -334,6 +361,7 @@
         "index": {
           "description": "Lookahead in the input stream at the token at the specified positive offset where LT input is the current token Or negative offset may be specified where LT input is the previous token foreign export ccall isUnsignedInt Ptr InputStream IO Bool isUnsignedInt input do token1 lT input tokenGetType if token1 UNSIGNED then return False else do token2 lT input tokenGetType return token2 CHAR token2 SHORT token2 LONG",
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "lT",
           "normalized": "Ptr InputStream-\u003eInt-\u003eIO(Ptr CommonToken)",
@@ -348,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "lT'_",
           "package": "antlrc",
@@ -357,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "lT'_",
           "normalized": "InputStream-\u003eCInt-\u003eIO CommonToken",
@@ -373,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCast from a pointer to a token to a token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "toCommonToken",
           "package": "antlrc",
@@ -383,6 +414,7 @@
         "index": {
           "description": "Cast from pointer to token to token",
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "toCommonToken",
           "normalized": "Ptr CommonToken-\u003eCommonToken",
@@ -399,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCast from a pointer to an input stream to an input stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "toInputStream",
           "package": "antlrc",
@@ -409,6 +442,7 @@
         "index": {
           "description": "Cast from pointer to an input stream to an input stream",
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "toInputStream",
           "normalized": "Ptr InputStream-\u003eInputStream",
@@ -425,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain the token name ANTLR string for the specified token.\n\u003c/p\u003e\u003cpre\u003e tokenGetAntlrString token\n\u003c/pre\u003e\u003cp\u003eFor identifier tokens, the token string is interesting.  For\n   other tokens such as operator tokens, the token string is\n   uninteresting, and may not be present, the token identifier enum \n   should be used instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "tokenGetAntlrString",
           "package": "antlrc",
@@ -435,6 +470,7 @@
         "index": {
           "description": "Obtain the token name ANTLR string for the specified token tokenGetAntlrString token For identifier tokens the token string is interesting For other tokens such as operator tokens the token string is uninteresting and may not be present the token identifier enum should be used instead",
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "tokenGetAntlrString",
           "normalized": "Ptr CommonToken-\u003eIO(Ptr AntlrString)",
@@ -450,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "tokenGetAntlrString'_",
           "package": "antlrc",
@@ -459,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "tokenGetAntlrString'_",
           "normalized": "CommonToken-\u003eIO AntlrString",
@@ -475,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain the character position in the source code line of where the token\n   was read, for non-imaginary tokens.\n\u003c/p\u003e\u003cpre\u003e foreign export ccall saTrue :: Ptr CommonToken -\u003e IO (StablePtr TermInfo)\n saTrue token =\n   do\n     -- obtain the source code line and charPosition from the token\n     l \u003c- tokenGetLine token\n     c \u003c- tokenGetCharPositionInLine token\n     -- return the TmTrue term\n     newStablePtr (TmTrue (Info l c))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "tokenGetCharPositionInLine",
           "package": "antlrc",
@@ -485,6 +524,7 @@
         "index": {
           "description": "Obtain the character position in the source code line of where the token was read for non-imaginary tokens foreign export ccall saTrue Ptr CommonToken IO StablePtr TermInfo saTrue token do obtain the source code line and charPosition from the token tokenGetLine token tokenGetCharPositionInLine token return the TmTrue term newStablePtr TmTrue Info",
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "tokenGetCharPositionInLine",
           "normalized": "Ptr CommonToken-\u003eIO Int",
@@ -501,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain the the source code line of where the token was read, for non-imaginary tokens.\n\u003c/p\u003e\u003cpre\u003e foreign export ccall saFalse :: Ptr CommonToken -\u003e IO (StablePtr TermInfo)\n saFalse token =\n   do\n     -- obtain the source code line and charPosition from the token\n     l \u003c- tokenGetLine token\n     c \u003c- tokenGetCharPositionInLine token\n     -- return the TmFalse term\n     newStablePtr (TmFalse (Info l c))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "tokenGetLine",
           "package": "antlrc",
@@ -511,6 +552,7 @@
         "index": {
           "description": "Obtain the the source code line of where the token was read for non-imaginary tokens foreign export ccall saFalse Ptr CommonToken IO StablePtr TermInfo saFalse token do obtain the source code line and charPosition from the token tokenGetLine token tokenGetCharPositionInLine token return the TmFalse term newStablePtr TmFalse Info",
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "tokenGetLine",
           "normalized": "Ptr CommonToken-\u003eIO Int",
@@ -527,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain the token String for the specified token.\n   Note: the peekCStringLen function does not say what will happen if the\n   C pointer is 0.\n\u003c/p\u003e\u003cpre\u003e foreign export ccall saIntV :: Ptr CommonToken -\u003e IO (StablePtr TermInfo)\n saIntV token =\n   do\n     -- read the IntV integer value from the token text into n\n     t \u003c- tokenGetText token\n     n \u003c- readIO t\n     -- obtain the source code line and charPosition from the token\n     l \u003c- tokenGetLine token\n     c \u003c- tokenGetCharPositionInLine token\n     -- return the term, which is TmZero, or TmSucc TmZero, or TmSucc (TmSucc (...TmSucc TmZero))\n     newStablePtr (intV (Info l c) n)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "tokenGetText",
           "package": "antlrc",
@@ -537,6 +580,7 @@
         "index": {
           "description": "Obtain the token String for the specified token Note the peekCStringLen function does not say what will happen if the pointer is foreign export ccall saIntV Ptr CommonToken IO StablePtr TermInfo saIntV token do read the IntV integer value from the token text into tokenGetText token readIO obtain the source code line and charPosition from the token tokenGetLine token tokenGetCharPositionInLine token return the term which is TmZero or TmSucc TmZero or TmSucc TmSucc TmSucc TmZero newStablePtr intV Info",
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "tokenGetText",
           "normalized": "Ptr CommonToken-\u003eIO String",
@@ -553,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain the token Maybe String for the specified token.\n   For identifier tokens, the token string is interesting.  For\n   other tokens such as operator tokens, the token string is\n   uninteresting, and may not be present, the token identifier enum \n   should be used instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "tokenGetTextMaybe",
           "package": "antlrc",
@@ -563,6 +608,7 @@
         "index": {
           "description": "Obtain the token Maybe String for the specified token For identifier tokens the token string is interesting For other tokens such as operator tokens the token string is uninteresting and may not be present the token identifier enum should be used instead",
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "tokenGetTextMaybe",
           "normalized": "Ptr CommonToken-\u003eIO(Maybe String)",
@@ -579,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain the token identifier for the specified token.\n\u003c/p\u003e\u003cpre\u003e foreign export ccall isInt :: Ptr InputStream -\u003e IO Bool\n isInt input =\n   do \n     token1 \u003c- lT input 1 \u003e\u003e= tokenGetType\n     return (token1 == INT)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc.Lexer",
           "name": "tokenGetType",
           "package": "antlrc",
@@ -589,6 +636,7 @@
         "index": {
           "description": "Obtain the token identifier for the specified token foreign export ccall isInt Ptr InputStream IO Bool isInt input do token1 lT input tokenGetType return token1 INT",
           "hierarchy": "Text Antlrc Lexer",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc.Lexer",
           "name": "tokenGetType",
           "normalized": "Ptr CommonToken-\u003eIO a",
@@ -605,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eANTLR C runtime library Haskell binding, for the ANTLR LL(*) parser generator.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:11:27 UTC 2014",
           "module": "Text.Antlrc",
           "name": "Antlrc",
           "package": "antlrc",
@@ -614,6 +663,7 @@
         "index": {
           "description": "ANTLR runtime library Haskell binding for the ANTLR LL parser generator",
           "hierarchy": "Text Antlrc",
+          "indexed": "2014-03-11T17:11:27",
           "module": "Text.Antlrc",
           "name": "Antlrc",
           "package": "antlrc",

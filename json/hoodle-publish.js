@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hoodle-publish"
+        "phrase": "hoodle-publish",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-paginator"
+        "phrase": "yesod-paginator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:10 UTC 2014",
           "module": "Yesod.Paginator.Widget",
           "name": "Widget",
           "package": "yesod-paginator",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Yesod Paginator Widget",
+          "indexed": "2014-03-11T20:46:10",
           "module": "Yesod.Paginator.Widget",
           "name": "Widget",
           "package": "yesod-paginator",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecurrentPage, itemsPerPage, totalItems -\u003e widget\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:10 UTC 2014",
           "module": "Yesod.Paginator.Widget",
           "name": "PageWidget",
           "package": "yesod-paginator",
@@ -49,6 +52,7 @@
         "index": {
           "description": "currentPage itemsPerPage totalItems widget",
           "hierarchy": "Yesod Paginator Widget",
+          "indexed": "2014-03-11T20:46:10",
           "module": "Yesod.Paginator.Widget",
           "name": "PageWidget",
           "package": "yesod-paginator",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:10 UTC 2014",
           "module": "Yesod.Paginator.Widget",
           "name": "PageWidgetConfig",
           "package": "yesod-paginator",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Yesod Paginator Widget",
+          "indexed": "2014-03-11T20:46:10",
           "module": "Yesod.Paginator.Widget",
           "name": "PageWidgetConfig",
           "package": "yesod-paginator",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:10 UTC 2014",
           "module": "Yesod.Paginator.Widget",
           "name": "PageWidgetConfig",
           "package": "yesod-paginator",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Yesod Paginator Widget",
+          "indexed": "2014-03-11T20:46:10",
           "module": "Yesod.Paginator.Widget",
           "name": "PageWidgetConfig",
           "package": "yesod-paginator",
@@ -106,6 +114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to list pages in ascending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:10 UTC 2014",
           "module": "Yesod.Paginator.Widget",
           "name": "ascending",
           "package": "yesod-paginator",
@@ -116,6 +125,7 @@
         "index": {
           "description": "Whether to list pages in ascending order",
           "hierarchy": "Yesod Paginator Widget",
+          "indexed": "2014-03-11T20:46:10",
           "module": "Yesod.Paginator.Widget",
           "name": "ascending",
           "package": "yesod-paginator",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault widget config provided for easy overriding of only some fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:10 UTC 2014",
           "module": "Yesod.Paginator.Widget",
           "name": "defaultPageWidgetConfig",
           "package": "yesod-paginator",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Default widget config provided for easy overriding of only some fields",
           "hierarchy": "Yesod Paginator Widget",
+          "indexed": "2014-03-11T20:46:10",
           "module": "Yesod.Paginator.Widget",
           "name": "defaultPageWidgetConfig",
           "package": "yesod-paginator",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:10 UTC 2014",
           "module": "Yesod.Paginator.Widget",
           "name": "defaultWidget",
           "package": "yesod-paginator",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Yesod Paginator Widget",
+          "indexed": "2014-03-11T20:46:10",
           "module": "Yesod.Paginator.Widget",
           "name": "defaultWidget",
           "package": "yesod-paginator",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elooks up the \"p\" GET param and converts it to an Int. returns a\n   default of 1 when conversion fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:10 UTC 2014",
           "module": "Yesod.Paginator.Widget",
           "name": "getCurrentPage",
           "package": "yesod-paginator",
@@ -185,6 +200,7 @@
         "index": {
           "description": "looks up the GET param and converts it to an Int returns default of when conversion fails",
           "hierarchy": "Yesod Paginator Widget",
+          "indexed": "2014-03-11T20:46:10",
           "module": "Yesod.Paginator.Widget",
           "name": "getCurrentPage",
           "package": "yesod-paginator",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional classes for top level list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:10 UTC 2014",
           "module": "Yesod.Paginator.Widget",
           "name": "listClasses",
           "package": "yesod-paginator",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Additional classes for top level list",
           "hierarchy": "Yesod Paginator Widget",
+          "indexed": "2014-03-11T20:46:10",
           "module": "Yesod.Paginator.Widget",
           "name": "listClasses",
           "normalized": "[Text]",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe text for the 'next page' link.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:10 UTC 2014",
           "module": "Yesod.Paginator.Widget",
           "name": "nextText",
           "package": "yesod-paginator",
@@ -235,6 +254,7 @@
         "index": {
           "description": "The text for the next page link",
           "hierarchy": "Yesod Paginator Widget",
+          "indexed": "2014-03-11T20:46:10",
           "module": "Yesod.Paginator.Widget",
           "name": "nextText",
           "package": "yesod-paginator",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of page links to show\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:10 UTC 2014",
           "module": "Yesod.Paginator.Widget",
           "name": "pageCount",
           "package": "yesod-paginator",
@@ -259,6 +280,7 @@
         "index": {
           "description": "The number of page links to show",
           "hierarchy": "Yesod Paginator Widget",
+          "indexed": "2014-03-11T20:46:10",
           "module": "Yesod.Paginator.Widget",
           "name": "pageCount",
           "package": "yesod-paginator",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA widget showing pagination links. Follows bootstrap principles.\n   Utilizes a \"p\" GET param but leaves all other GET params intact.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:10 UTC 2014",
           "module": "Yesod.Paginator.Widget",
           "name": "paginationWidget",
           "package": "yesod-paginator",
@@ -283,6 +306,7 @@
         "index": {
           "description": "widget showing pagination links Follows bootstrap principles Utilizes GET param but leaves all other GET params intact",
           "hierarchy": "Yesod Paginator Widget",
+          "indexed": "2014-03-11T20:46:10",
           "module": "Yesod.Paginator.Widget",
           "name": "paginationWidget",
           "normalized": "PageWidgetConfig-\u003ePageWidget a",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe text for the 'previous page' link.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:10 UTC 2014",
           "module": "Yesod.Paginator.Widget",
           "name": "prevText",
           "package": "yesod-paginator",
@@ -309,6 +334,7 @@
         "index": {
           "description": "The text for the previous page link",
           "hierarchy": "Yesod Paginator Widget",
+          "indexed": "2014-03-11T20:46:10",
           "module": "Yesod.Paginator.Widget",
           "name": "prevText",
           "package": "yesod-paginator",
@@ -323,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to show an ellipsis if there are\n   more pages than pageCount\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:10 UTC 2014",
           "module": "Yesod.Paginator.Widget",
           "name": "showEllipsis",
           "package": "yesod-paginator",
@@ -333,6 +360,7 @@
         "index": {
           "description": "Whether to show an ellipsis if there are more pages than pageCount",
           "hierarchy": "Yesod Paginator Widget",
+          "indexed": "2014-03-11T20:46:10",
           "module": "Yesod.Paginator.Widget",
           "name": "showEllipsis",
           "package": "yesod-paginator",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInspiration from a concept by ajdunlap:\n      \u003ca\u003ehttp://hackage.haskell.org/package/yesod-paginate\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eBut uses an entirely different approach.\n\u003c/p\u003e\u003cp\u003eThere are two pagination functions. One for arbitrary items where you\n provide the list of things to be paginated:\n\u003c/p\u003e\u003cpre\u003e getSomeRoute = do\n     things' \u003c- getAllThings\n\n     (things, widget) \u003c- paginate 10 things'\n\n     defaultLayout $ do\n         [whamlet|\n             $forall thing \u003c- things\n                 ^{showThing thing}\n\n             \u003cdiv .pagination\u003e\n                  ^{widget}\n             |]\n\u003c/pre\u003e\u003cp\u003eAnd another for paginating directly out of the database, you provide\n the same filters as you would to \u003ccode\u003eselectList\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e getSomeRoute something = do\n     -- note: things is [Entity val] just like selectList returns\n     (things, widget) \u003c- runDB $ selectPaginated 10 [SomeThing ==. something] []\n\n     defaultLayout $ do\n         [whamlet|\n             $forall thing \u003c- things\n                 ^{showThing $ entityVal thing}\n\n             \u003cdiv .pagination\u003e\n                  ^{widget}\n             |]\n\u003c/pre\u003e\u003cp\u003eBoth functions return a tuple: the first element being the list of\n items (or Entities) to display on this page and the second being a\n widget showing the pagination navagation links.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:10 UTC 2014",
           "module": "Yesod.Paginator",
           "name": "Paginator",
           "package": "yesod-paginator",
@@ -356,6 +385,7 @@
         "index": {
           "description": "Inspiration from concept by ajdunlap http hackage.haskell.org package yesod-paginate But uses an entirely different approach There are two pagination functions One for arbitrary items where you provide the list of things to be paginated getSomeRoute do things getAllThings things widget paginate things defaultLayout do whamlet forall thing things showThing thing div pagination widget And another for paginating directly out of the database you provide the same filters as you would to selectList getSomeRoute something do note things is Entity val just like selectList returns things widget runDB selectPaginated SomeThing something defaultLayout do whamlet forall thing things showThing entityVal thing div pagination widget Both functions return tuple the first element being the list of items or Entities to display on this page and the second being widget showing the pagination navagation links",
           "hierarchy": "Yesod Paginator",
+          "indexed": "2014-03-11T20:46:10",
           "module": "Yesod.Paginator",
           "name": "Paginator",
           "package": "yesod-paginator",
@@ -369,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:10 UTC 2014",
           "module": "Yesod.Paginator",
           "name": "paginate",
           "package": "yesod-paginator",
@@ -378,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Yesod Paginator",
+          "indexed": "2014-03-11T20:46:10",
           "module": "Yesod.Paginator",
           "name": "paginate",
           "normalized": "Int-\u003e[a]-\u003eHandlerT b IO([a],WidgetT b IO())",
@@ -392,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:10 UTC 2014",
           "module": "Yesod.Paginator",
           "name": "paginateWith",
           "package": "yesod-paginator",
@@ -401,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Yesod Paginator",
+          "indexed": "2014-03-11T20:46:10",
           "module": "Yesod.Paginator",
           "name": "paginateWith",
           "normalized": "PageWidget a-\u003eInt-\u003e[b]-\u003eHandlerT a IO([b],WidgetT a IO())",
@@ -416,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:10 UTC 2014",
           "module": "Yesod.Paginator",
           "name": "selectPaginated",
           "package": "yesod-paginator",
@@ -425,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Yesod Paginator",
+          "indexed": "2014-03-11T20:46:10",
           "module": "Yesod.Paginator",
           "name": "selectPaginated",
           "normalized": "Int-\u003e[Filter a]-\u003e[SelectOpt a]-\u003eYesodDB b([Entity a],WidgetT b IO())",
@@ -440,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:10 UTC 2014",
           "module": "Yesod.Paginator",
           "name": "selectPaginatedWith",
           "package": "yesod-paginator",
@@ -449,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Yesod Paginator",
+          "indexed": "2014-03-11T20:46:10",
           "module": "Yesod.Paginator",
           "name": "selectPaginatedWith",
           "normalized": "PageWidget a-\u003eInt-\u003e[Filter b]-\u003e[SelectOpt b]-\u003eYesodDB a([Entity b],WidgetT a IO())",

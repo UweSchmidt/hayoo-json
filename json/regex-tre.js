@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "regex-tre"
+        "phrase": "regex-tre",
+        "type": "phrase"
       },
       "type": "context"
     }

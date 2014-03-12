@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gconf"
+        "phrase": "gconf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGConf is a system for maintaining program configuration information.\n\u003c/p\u003e\u003cp\u003eThe main difference between GConf and traditional configuration file\n API's is that GConf is 'live'. Applications can be notified of changes\n in their configuration, it allows desktop wide setting\n to be propogated without restarting all applications, or multiple instances\n of a single application to synchronise their configuration. It is similar\n in many ways to the Win32 Registry with its directory-like structure.\n\u003c/p\u003e\u003cp\u003eThis module only binds the client library which is the only interface that\n normal applications should need. Only special GConf apps need lower level\n access.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Some low level functions have not been bound\n eg \u003ccode\u003egconf_client_get_for_engine\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfClient",
           "package": "gconf",
@@ -28,6 +29,7 @@
         "index": {
           "description": "GConf is system for maintaining program configuration information The main difference between GConf and traditional configuration file API is that GConf is live Applications can be notified of changes in their configuration it allows desktop wide setting to be propogated without restarting all applications or multiple instances of single application to synchronise their configuration It is similar in many ways to the Win32 Registry with its directory-like structure This module only binds the client library which is the only interface that normal applications should need Only special GConf apps need lower level access Some low level functions have not been bound eg gconf client get for engine",
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfClient",
           "package": "gconf",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConf",
           "package": "gconf",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConf",
           "package": "gconf",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ca\u003eGError\u003c/a\u003e exceptions that can be thrown by functions in this module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfError",
           "package": "gconf",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The GError exceptions that can be thrown by functions in this module",
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfError",
           "package": "gconf",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfPreloadType",
           "package": "gconf",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfPreloadType",
           "package": "gconf",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfPrimitiveValueClass",
           "package": "gconf",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfPrimitiveValueClass",
           "package": "gconf",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValue",
           "package": "gconf",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValue",
           "package": "gconf",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types which can be kept by GConf\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValueClass",
           "package": "gconf",
@@ -158,6 +171,7 @@
         "index": {
           "description": "Class of types which can be kept by GConf",
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValueClass",
           "package": "gconf",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic version for when the type is not known statically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValueDyn",
           "package": "gconf",
@@ -181,6 +196,7 @@
         "index": {
           "description": "Dynamic version for when the type is not known statically",
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValueDyn",
           "package": "gconf",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValueBool",
           "package": "gconf",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValueBool",
           "package": "gconf",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValueFloat",
           "package": "gconf",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValueFloat",
           "package": "gconf",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValueInt",
           "package": "gconf",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValueInt",
           "package": "gconf",
@@ -261,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMust all be of same primitive type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValueList",
           "package": "gconf",
@@ -271,6 +294,7 @@
         "index": {
           "description": "Must all be of same primitive type",
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValueList",
           "normalized": "GConfValueList[GConfValueDyn]",
@@ -287,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMust both be primitive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValuePair",
           "package": "gconf",
@@ -297,6 +322,7 @@
         "index": {
           "description": "Must both be primitive",
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValuePair",
           "normalized": "GConfValuePair(GConfValueDyn,GConfValueDyn)",
@@ -313,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot supported\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValueSchema",
           "package": "gconf",
@@ -323,6 +350,7 @@
         "index": {
           "description": "Not supported",
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValueSchema",
           "package": "gconf",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValueString",
           "package": "gconf",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "GConfValueString",
           "package": "gconf",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "afterValueChanged",
           "package": "gconf",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "afterValueChanged",
           "normalized": "GConf-\u003e(String-\u003eMaybe GConfValueDyn-\u003eIO())-\u003eIO(ConnectId GConf)",
@@ -383,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a directory to the list of directories the\n GConf will watch. You should use gconfNotifyAdd to associate\n change handlers with specific keys.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Added directories may not overlap. That is, if you add \"/foo\", you may\n not add \"/foo/bar\". However you can add \"/foo\" and \"/bar\". You can\n also add \"/foo\" multiple times; if you add a directory multiple times, it\n will not be removed until you call \u003ccode\u003e\u003ca\u003egconfRemoveDir\u003c/a\u003e\u003c/code\u003e an equal number of\n times.\n\u003c/li\u003e\u003cli\u003e Note that the watch is recursive, all keys below the given directory will\n be watched. So it would be a bad idea to watch the root \"/\".\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfAddDir",
           "package": "gconf",
@@ -393,6 +426,7 @@
         "index": {
           "description": "Add directory to the list of directories the GConf will watch You should use gconfNotifyAdd to associate change handlers with specific keys Added directories may not overlap That is if you add foo you may not add foo bar However you can add foo and bar You can also add foo multiple times if you add directory multiple times it will not be removed until you call gconfRemoveDir an equal number of times Note that the watch is recursive all keys below the given directory will be watched So it would be bad idea to watch the root",
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfAddDir",
           "normalized": "GConf-\u003eString-\u003eIO()",
@@ -408,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfAllDirs",
           "package": "gconf",
@@ -417,6 +452,7 @@
         },
         "index": {
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfAllDirs",
           "normalized": "GConf-\u003eString-\u003eIO[String]",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfAllEntries",
           "package": "gconf",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfAllEntries",
           "normalized": "GConf-\u003eString-\u003eIO[(String,GConfValueDyn)]",
@@ -457,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDumps everything out of the GConf client-side cache. If you know you're\n done using the GConf for a while, you can call this function to save some\n memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfClearCache",
           "package": "gconf",
@@ -467,6 +506,7 @@
         "index": {
           "description": "Dumps everything out of the GConf client-side cache If you know you re done using the GConf for while you can call this function to save some memory",
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfClearCache",
           "normalized": "GConf-\u003eIO()",
@@ -482,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfDirExists",
           "package": "gconf",
@@ -491,6 +532,7 @@
         },
         "index": {
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfDirExists",
           "normalized": "GConf-\u003eString-\u003eIO Bool",
@@ -507,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the value of a configuration key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfGet",
           "package": "gconf",
@@ -516,6 +559,7 @@
         "index": {
           "description": "Gets the value of configuration key",
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfGet",
           "normalized": "GConf-\u003eString-\u003eIO a",
@@ -532,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new GConf object using the default configuration engine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfGetDefault",
           "package": "gconf",
@@ -542,6 +587,7 @@
         "index": {
           "description": "Create new GConf object using the default configuration engine",
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfGetDefault",
           "package": "gconf",
@@ -556,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the default value stored in the key's schema, if the key has a\n schema associated and the schema exists and the schema contains a default\n value. Note that \u003ccode\u003e\u003ca\u003egconfSet\u003c/a\u003e\u003c/code\u003e already returns the default value if no other\n value is found, so normally you do not need this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfGetDefaultFromSchema",
           "package": "gconf",
@@ -566,6 +613,7 @@
         "index": {
           "description": "Returns the default value stored in the key schema if the key has schema associated and the schema exists and the schema contains default value Note that gconfSet already returns the default value if no other value is found so normally you do not need this function",
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfGetDefaultFromSchema",
           "normalized": "GConf-\u003eString-\u003eIO a",
@@ -582,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the value of a configuration key.\n\u003c/p\u003e\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003egconfGet\u003c/a\u003e\u003c/code\u003e, but doesn't look for a default value if the key is\n unset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfGetWithoutDefault",
           "package": "gconf",
@@ -592,6 +641,7 @@
         "index": {
           "description": "Gets the value of configuration key Same as gconfGet but doesn look for default value if the key is unset",
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfGetWithoutDefault",
           "normalized": "GConf-\u003eString-\u003eIO a",
@@ -607,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfNotifyAdd",
           "package": "gconf",
@@ -616,6 +667,7 @@
         },
         "index": {
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfNotifyAdd",
           "normalized": "GConf-\u003eString-\u003e(String-\u003ea-\u003eIO())-\u003eIO GConfConnectId",
@@ -631,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfNotifyRemove",
           "package": "gconf",
@@ -640,6 +693,7 @@
         },
         "index": {
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfNotifyRemove",
           "normalized": "GConf-\u003eGConfConnectId-\u003eIO()",
@@ -656,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePreloads a directory. Normally you do this when you call\n \u003ccode\u003egconfAddDirWithPreload\u003c/code\u003e, but if you've called \u003ccode\u003e\u003ca\u003egconfClearCache\u003c/a\u003e\u003c/code\u003e there may\n be a reason to do it again.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfPreload",
           "package": "gconf",
@@ -666,6 +721,7 @@
         "index": {
           "description": "Preloads directory Normally you do this when you call gconfAddDirWithPreload but if you ve called gconfClearCache there may be reason to do it again",
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfPreload",
           "normalized": "GConf-\u003eString-\u003eGConfPreloadType-\u003eIO()",
@@ -682,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a directory from the list created with \u003ccode\u003e\u003ca\u003egconfAddDir\u003c/a\u003e\u003c/code\u003e. If any\n notifications have been added below this directory with \u003ccode\u003e\u003ca\u003egconfNotifyAdd\u003c/a\u003e\u003c/code\u003e,\n those notifications will be disabled until you re-add the removed directory.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Note that if a directory has been added multiple times, you must remove it\n the same number of times before the remove takes effect.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfRemoveDir",
           "package": "gconf",
@@ -692,6 +749,7 @@
         "index": {
           "description": "Remove directory from the list created with gconfAddDir If any notifications have been added below this directory with gconfNotifyAdd those notifications will be disabled until you re-add the removed directory Note that if directory has been added multiple times you must remove it the same number of times before the remove takes effect",
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfRemoveDir",
           "normalized": "GConf-\u003eString-\u003eIO()",
@@ -708,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the value of a configuration key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfSet",
           "package": "gconf",
@@ -717,6 +776,7 @@
         "index": {
           "description": "Sets the value of configuration key",
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfSet",
           "normalized": "GConf-\u003eString-\u003ea-\u003eIO()",
@@ -733,6 +793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuggests to gconfd that you've just finished a block of changes, and it\n would be an optimal time to sync to permanent storage. This is only a\n suggestion; and gconfd will eventually sync even if you don't call \n \u003ccode\u003e\u003ca\u003egconfSuggestSync\u003c/a\u003e\u003c/code\u003e. This function is just a \u003ca\u003ehint\u003c/a\u003e provided to gconfd to\n maximize efficiency and minimize data loss.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfSuggestSync",
           "package": "gconf",
@@ -743,6 +804,7 @@
         "index": {
           "description": "Suggests to gconfd that you ve just finished block of changes and it would be an optimal time to sync to permanent storage This is only suggestion and gconfd will eventually sync even if you don call gconfSuggestSync This function is just hint provided to gconfd to maximize efficiency and minimize data loss",
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfSuggestSync",
           "normalized": "GConf-\u003eIO()",
@@ -759,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsets the value of key; if key is already unset, has no effect. An error\n of note is \u003ccode\u003eGconfErrorOverridden\u003c/code\u003e, indicating that the system administrator\n has \"forced\" a value for this key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfUnset",
           "package": "gconf",
@@ -769,6 +832,7 @@
         "index": {
           "description": "Unsets the value of key if key is already unset has no effect An error of note is GconfErrorOverridden indicating that the system administrator has forced value for this key",
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "gconfUnset",
           "normalized": "GConf-\u003eString-\u003eIO()",
@@ -784,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "onValueChanged",
           "package": "gconf",
@@ -793,6 +858,7 @@
         },
         "index": {
           "hierarchy": "System Gnome GConf GConfClient",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf.GConfClient",
           "name": "onValueChanged",
           "normalized": "GConf-\u003e(String-\u003eMaybe GConfValueDyn-\u003eIO())-\u003eIO(ConnectId GConf)",
@@ -808,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:15 UTC 2014",
           "module": "System.Gnome.GConf",
           "name": "GConf",
           "package": "gconf",
@@ -816,6 +883,7 @@
         },
         "index": {
           "hierarchy": "System Gnome GConf",
+          "indexed": "2014-03-11T18:14:15",
           "module": "System.Gnome.GConf",
           "name": "GConf",
           "package": "gconf",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HSHHelpers"
+        "phrase": "HSHHelpers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.Email",
           "name": "Email",
           "package": "HSHHelpers",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers Email",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.Email",
           "name": "Email",
           "package": "HSHHelpers",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.Email",
           "name": "PureInput",
           "package": "HSHHelpers",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers Email",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.Email",
           "name": "PureInput",
           "package": "HSHHelpers",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.Email",
           "name": "PureInput",
           "package": "HSHHelpers",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers Email",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.Email",
           "name": "PureInput",
           "package": "HSHHelpers",
@@ -83,6 +89,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend an email via mailx.\n\u003c/p\u003e\u003cp\u003eFor sysadmin steps required for this command to work with most of the work outsourced to gmail, see last three posts in thread\n\u003c/p\u003e\u003cp\u003ehttp:\u003cem/\u003egroups.google.com\u003cem\u003egroup\u003c/em\u003eHAppS\u003cem\u003ebrowse_thread\u003c/em\u003ethread\u003cem\u003e93317d4d7317040f\u003c/em\u003e14cd89d98f1f4041\n\u003c/p\u003e\u003cp\u003eThis assumes a unixy environment, \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.Email",
           "name": "mailxEmail",
           "package": "HSHHelpers",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Send an email via mailx For sysadmin steps required for this command to work with most of the work outsourced to gmail see last three posts in thread http groups.google.com group HAppS browse thread thread d4d7317040f cd89d98f1f4041 This assumes unixy environment",
           "hierarchy": "HSH Helpers Email",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.Email",
           "name": "mailxEmail",
           "normalized": "String-\u003eString-\u003e[Char]-\u003eIO(Either String())",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.Email",
           "name": "unpureinput",
           "package": "HSHHelpers",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers Email",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.Email",
           "name": "unpureinput",
           "package": "HSHHelpers",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.FileManip",
           "name": "FileManip",
           "package": "HSHHelpers",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers FileManip",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.FileManip",
           "name": "FileManip",
           "package": "HSHHelpers",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.FileManip",
           "name": "SymlinkArgs",
           "package": "HSHHelpers",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers FileManip",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.FileManip",
           "name": "SymlinkArgs",
           "package": "HSHHelpers",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.FileManip",
           "name": "SymLinkArgs",
           "package": "HSHHelpers",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers FileManip",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.FileManip",
           "name": "SymLinkArgs",
           "package": "HSHHelpers",
@@ -194,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrapper over find /path/to/top/dir -type d\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.FileManip",
           "name": "findDirectories",
           "package": "HSHHelpers",
@@ -204,6 +221,7 @@
         "index": {
           "description": "wrapper over find path to top dir type",
           "hierarchy": "HSH Helpers FileManip",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.FileManip",
           "name": "findDirectories",
           "normalized": "FilePath-\u003eIO[FilePath]",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.FileManip",
           "name": "link",
           "package": "HSHHelpers",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers FileManip",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.FileManip",
           "name": "link",
           "package": "HSHHelpers",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.FileManip",
           "name": "runS",
           "package": "HSHHelpers",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers FileManip",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.FileManip",
           "name": "runS",
           "normalized": "String-\u003eIO String",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.FileManip",
           "name": "runStrings",
           "package": "HSHHelpers",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers FileManip",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.FileManip",
           "name": "runStrings",
           "normalized": "String-\u003eIO[String]",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.FileManip",
           "name": "symlink",
           "package": "HSHHelpers",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers FileManip",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.FileManip",
           "name": "symlink",
           "normalized": "SymlinkArgs-\u003eIO()",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.FileManip",
           "name": "target",
           "package": "HSHHelpers",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers FileManip",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.FileManip",
           "name": "target",
           "package": "HSHHelpers",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.FileManip",
           "name": "writeFileForce",
           "package": "HSHHelpers",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers FileManip",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.FileManip",
           "name": "writeFileForce",
           "normalized": "FilePath-\u003eString-\u003eIO()",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.FileManip",
           "name": "writeFileForce'",
           "package": "HSHHelpers",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers FileManip",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.FileManip",
           "name": "writeFileForce'",
           "normalized": "(FilePath-\u003ea-\u003eIO b)-\u003eFilePath-\u003ea-\u003eIO b",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.FileManip",
           "name": "writeFileForceB",
           "package": "HSHHelpers",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers FileManip",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.FileManip",
           "name": "writeFileForceB",
           "normalized": "FilePath-\u003eByteString-\u003eIO()",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.Instances",
           "name": "Instances",
           "package": "HSHHelpers",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers Instances",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.Instances",
           "name": "Instances",
           "package": "HSHHelpers",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.Instances",
           "name": "CWDCommand",
           "package": "HSHHelpers",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers Instances",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.Instances",
           "name": "CWDCommand",
           "package": "HSHHelpers",
@@ -445,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.Instances",
           "name": "CWDCommand",
           "package": "HSHHelpers",
@@ -454,6 +493,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers Instances",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.Instances",
           "name": "CWDCommand",
           "package": "HSHHelpers",
@@ -468,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates result codes and raises an error for any bad ones it finds. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.Instances",
           "name": "checkProcessStatus",
           "package": "HSHHelpers",
@@ -478,6 +519,7 @@
         "index": {
           "description": "Evaluates result codes and raises an error for any bad ones it finds",
           "hierarchy": "HSH Helpers Instances",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.Instances",
           "name": "checkProcessStatus",
           "normalized": "(String,ProcessStatus)-\u003eIO(Either String())",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.Instances",
           "name": "cwdCmd",
           "package": "HSHHelpers",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers Instances",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.Instances",
           "name": "cwdCmd",
           "package": "HSHHelpers",
@@ -515,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.Instances",
           "name": "cwdDir",
           "package": "HSHHelpers",
@@ -524,6 +569,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers Instances",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.Instances",
           "name": "cwdDir",
           "package": "HSHHelpers",
@@ -538,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erunCD dir command\n | useful alternative to bracketCD where bracketCD has the wrong behavior due to lazy IO\n | note, not a drop in replacement to bracketCD because you specify an actual shell command, not arbitrary IO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.Instances",
           "name": "runCD",
           "package": "HSHHelpers",
@@ -548,6 +595,7 @@
         "index": {
           "description": "runCD dir command useful alternative to bracketCD where bracketCD has the wrong behavior due to lazy IO note not drop in replacement to bracketCD because you specify an actual shell command not arbitrary IO",
           "hierarchy": "HSH Helpers Instances",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.Instances",
           "name": "runCD",
           "normalized": "FilePath-\u003eString-\u003eIO()",
@@ -563,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.Instances",
           "name": "t",
           "package": "HSHHelpers",
@@ -572,6 +621,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers Instances",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.Instances",
           "name": "t",
           "normalized": "IO()",
@@ -586,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "UnixUsers",
           "package": "HSHHelpers",
@@ -594,6 +645,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "UnixUsers",
           "package": "HSHHelpers",
@@ -607,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodAddDelEq",
           "package": "HSHHelpers",
@@ -615,6 +668,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodAddDelEq",
           "package": "HSHHelpers",
@@ -628,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodPerm",
           "package": "HSHHelpers",
@@ -636,6 +691,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodPerm",
           "package": "HSHHelpers",
@@ -649,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodRole",
           "package": "HSHHelpers",
@@ -657,6 +714,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodRole",
           "package": "HSHHelpers",
@@ -670,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "Recurse",
           "package": "HSHHelpers",
@@ -678,6 +737,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "Recurse",
           "package": "HSHHelpers",
@@ -691,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "SysGroup",
           "package": "HSHHelpers",
@@ -699,6 +760,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "SysGroup",
           "package": "HSHHelpers",
@@ -712,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "SysHomedir",
           "package": "HSHHelpers",
@@ -720,6 +783,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "SysHomedir",
           "package": "HSHHelpers",
@@ -733,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "SysShell",
           "package": "HSHHelpers",
@@ -741,6 +806,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "SysShell",
           "package": "HSHHelpers",
@@ -754,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "SysUser",
           "package": "HSHHelpers",
@@ -762,6 +829,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "SysUser",
           "package": "HSHHelpers",
@@ -775,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodAdd",
           "package": "HSHHelpers",
@@ -784,6 +853,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodAdd",
           "package": "HSHHelpers",
@@ -797,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodDel",
           "package": "HSHHelpers",
@@ -806,6 +877,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodDel",
           "package": "HSHHelpers",
@@ -819,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodEq",
           "package": "HSHHelpers",
@@ -828,6 +901,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodEq",
           "package": "HSHHelpers",
@@ -841,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodG",
           "package": "HSHHelpers",
@@ -850,6 +925,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodG",
           "package": "HSHHelpers",
@@ -863,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodGO",
           "package": "HSHHelpers",
@@ -872,6 +949,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodGO",
           "package": "HSHHelpers",
@@ -885,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodO",
           "package": "HSHHelpers",
@@ -894,6 +973,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodO",
           "package": "HSHHelpers",
@@ -907,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodR",
           "package": "HSHHelpers",
@@ -916,6 +997,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodR",
           "package": "HSHHelpers",
@@ -929,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodRW",
           "package": "HSHHelpers",
@@ -938,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodRW",
           "package": "HSHHelpers",
@@ -951,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodRWX",
           "package": "HSHHelpers",
@@ -960,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodRWX",
           "package": "HSHHelpers",
@@ -973,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodRX",
           "package": "HSHHelpers",
@@ -982,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodRX",
           "package": "HSHHelpers",
@@ -995,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodU",
           "package": "HSHHelpers",
@@ -1004,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodU",
           "package": "HSHHelpers",
@@ -1017,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodUG",
           "package": "HSHHelpers",
@@ -1026,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodUG",
           "package": "HSHHelpers",
@@ -1039,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodUGO",
           "package": "HSHHelpers",
@@ -1048,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodUGO",
           "package": "HSHHelpers",
@@ -1061,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodUO",
           "package": "HSHHelpers",
@@ -1070,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodUO",
           "package": "HSHHelpers",
@@ -1083,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodW",
           "package": "HSHHelpers",
@@ -1092,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodW",
           "package": "HSHHelpers",
@@ -1105,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodWX",
           "package": "HSHHelpers",
@@ -1114,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodWX",
           "package": "HSHHelpers",
@@ -1127,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodX",
           "package": "HSHHelpers",
@@ -1136,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "ChmodX",
           "package": "HSHHelpers",
@@ -1149,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "Recurse",
           "package": "HSHHelpers",
@@ -1158,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "Recurse",
           "package": "HSHHelpers",
@@ -1171,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "SysGroup",
           "package": "HSHHelpers",
@@ -1180,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "SysGroup",
           "package": "HSHHelpers",
@@ -1193,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "SysHomedir",
           "package": "HSHHelpers",
@@ -1202,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "SysHomedir",
           "package": "HSHHelpers",
@@ -1215,6 +1323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "SysShell",
           "package": "HSHHelpers",
@@ -1224,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "SysShell",
           "package": "HSHHelpers",
@@ -1237,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "SysUser",
           "package": "HSHHelpers",
@@ -1246,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "SysUser",
           "package": "HSHHelpers",
@@ -1259,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "addUserToGroup",
           "package": "HSHHelpers",
@@ -1268,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "addUserToGroup",
           "normalized": "SysUser-\u003eSysGroup-\u003eIO(Either String())",
@@ -1283,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "chmod",
           "package": "HSHHelpers",
@@ -1292,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "chmod",
           "normalized": "ChmodAddDelEq-\u003eChmodRole-\u003eChmodPerm-\u003eRecurse-\u003eFilePath-\u003eIO(Either String())",
@@ -1306,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "chown",
           "package": "HSHHelpers",
@@ -1315,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "chown",
           "normalized": "Maybe SysUser-\u003eMaybe SysGroup-\u003eRecurse-\u003eFilePath-\u003eIO(Either String())",
@@ -1329,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "getSysGroupPrimary",
           "package": "HSHHelpers",
@@ -1338,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "getSysGroupPrimary",
           "normalized": "SysUser-\u003eIO SysGroup",
@@ -1353,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "getSysGroupsAll",
           "package": "HSHHelpers",
@@ -1362,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "getSysGroupsAll",
           "normalized": "SysUser-\u003eIO[SysGroup]",
@@ -1377,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "getSysGroupsSecondary",
           "package": "HSHHelpers",
@@ -1386,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "getSysGroupsSecondary",
           "normalized": "SysUser-\u003eIO[SysGroup]",
@@ -1401,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "groupadd",
           "package": "HSHHelpers",
@@ -1410,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "groupadd",
           "normalized": "SysGroup-\u003eIO(Either String())",
@@ -1424,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "groupdel",
           "package": "HSHHelpers",
@@ -1433,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "groupdel",
           "normalized": "SysGroup-\u003eIO(Either String())",
@@ -1447,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "isSysGroupMember",
           "package": "HSHHelpers",
@@ -1456,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "isSysGroupMember",
           "normalized": "SysUser-\u003eSysGroup-\u003eIO Bool",
@@ -1471,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "isSystemGroup",
           "package": "HSHHelpers",
@@ -1480,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "isSystemGroup",
           "normalized": "SysGroup-\u003eIO Bool",
@@ -1495,6 +1627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "isSystemUser",
           "package": "HSHHelpers",
@@ -1504,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "isSystemUser",
           "normalized": "SysUser-\u003eIO Bool",
@@ -1519,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "parseug",
           "package": "HSHHelpers",
@@ -1528,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "parseug",
           "normalized": "a-\u003eString",
@@ -1542,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "rmUserFromGroup",
           "package": "HSHHelpers",
@@ -1551,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "rmUserFromGroup",
           "normalized": "SysUser-\u003eSysGroup-\u003eIO(Either String())",
@@ -1566,6 +1704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "systemGroups",
           "package": "HSHHelpers",
@@ -1575,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "systemGroups",
           "normalized": "IO[SysGroup]",
@@ -1590,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "systemUsers",
           "package": "HSHHelpers",
@@ -1599,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "systemUsers",
           "normalized": "IO[SysUser]",
@@ -1614,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "unrecures",
           "package": "HSHHelpers",
@@ -1623,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "unrecures",
           "package": "HSHHelpers",
@@ -1635,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "unsysgroup",
           "package": "HSHHelpers",
@@ -1644,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "unsysgroup",
           "package": "HSHHelpers",
@@ -1656,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "unsyshomedir",
           "package": "HSHHelpers",
@@ -1665,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "unsyshomedir",
           "package": "HSHHelpers",
@@ -1677,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "unsysshell",
           "package": "HSHHelpers",
@@ -1686,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "unsysshell",
           "package": "HSHHelpers",
@@ -1698,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "unsysuser",
           "package": "HSHHelpers",
@@ -1707,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "unsysuser",
           "package": "HSHHelpers",
@@ -1719,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "useradd",
           "package": "HSHHelpers",
@@ -1728,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "useradd",
           "normalized": "SysUser-\u003eMaybe SysGroup-\u003eMaybe SysShell-\u003eMaybe SysHomedir-\u003eIO(Either String())",
@@ -1742,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.UnixUsers",
           "name": "userdel",
           "package": "HSHHelpers",
@@ -1751,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers UnixUsers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.UnixUsers",
           "name": "userdel",
           "normalized": "SysUser-\u003eIO(Either String())",
@@ -1765,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.Utils",
           "name": "Utils",
           "package": "HSHHelpers",
@@ -1773,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers Utils",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.Utils",
           "name": "Utils",
           "package": "HSHHelpers",
@@ -1786,6 +1944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.Utils",
           "name": "failIf",
           "package": "HSHHelpers",
@@ -1795,6 +1954,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers Utils",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.Utils",
           "name": "failIf",
           "normalized": "a Bool-\u003eString-\u003ea()",
@@ -1810,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.Utils",
           "name": "inPath",
           "package": "HSHHelpers",
@@ -1819,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers Utils",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.Utils",
           "name": "inPath",
           "normalized": "FilePath-\u003eErrorT String IO()",
@@ -1834,6 +1996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers.Utils",
           "name": "tryS",
           "package": "HSHHelpers",
@@ -1843,6 +2006,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers Utils",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers.Utils",
           "name": "tryS",
           "normalized": "IO a-\u003eIO(Either String a)",
@@ -1857,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:28 UTC 2014",
           "module": "HSH.Helpers",
           "name": "Helpers",
           "package": "HSHHelpers",
@@ -1865,6 +2030,7 @@
         },
         "index": {
           "hierarchy": "HSH Helpers",
+          "indexed": "2014-03-11T16:46:28",
           "module": "HSH.Helpers",
           "name": "Helpers",
           "package": "HSHHelpers",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "imagemagick"
+        "phrase": "imagemagick",
+        "type": "phrase"
       },
       "type": "context"
     }

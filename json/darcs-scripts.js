@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "darcs-scripts"
+        "phrase": "darcs-scripts",
+        "type": "phrase"
       },
       "type": "context"
     }

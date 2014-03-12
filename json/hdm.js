@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hdm"
+        "phrase": "hdm",
+        "type": "phrase"
       },
       "type": "context"
     }

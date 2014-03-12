@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "elm-repl"
+        "phrase": "elm-repl",
+        "type": "phrase"
       },
       "type": "context"
     }

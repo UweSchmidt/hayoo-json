@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uglymemo"
+        "phrase": "uglymemo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:43 UTC 2014",
           "module": "Data.MemoUgly",
           "name": "MemoUgly",
           "package": "uglymemo",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data MemoUgly",
+          "indexed": "2014-03-11T20:28:43",
           "module": "Data.MemoUgly",
           "name": "MemoUgly",
           "package": "uglymemo",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe pure version of \u003ccode\u003e\u003ca\u003ememoIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:43 UTC 2014",
           "module": "Data.MemoUgly",
           "name": "memo",
           "package": "uglymemo",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The pure version of memoIO",
           "hierarchy": "Data MemoUgly",
+          "indexed": "2014-03-11T20:28:43",
           "module": "Data.MemoUgly",
           "name": "memo",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize the given function by allocating a memo table,\n and then updating the memo table on each function call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:43 UTC 2014",
           "module": "Data.MemoUgly",
           "name": "memoIO",
           "package": "uglymemo",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Memoize the given function by allocating memo table and then updating the memo table on each function call",
           "hierarchy": "Data MemoUgly",
+          "indexed": "2014-03-11T20:28:43",
           "module": "Data.MemoUgly",
           "name": "memoIO",
           "normalized": "(a-\u003eb)-\u003eIO(a-\u003eIO b)",

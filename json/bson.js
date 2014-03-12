@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bson"
+        "phrase": "bson",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStandard binary encoding of BSON documents, version 1.0. See bsonspec.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson.Binary",
           "name": "Binary",
           "package": "bson",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Standard binary encoding of BSON documents version See bsonspec.org",
           "hierarchy": "Data Bson Binary",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson.Binary",
           "name": "Binary",
           "package": "bson",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson.Binary",
           "name": "getCString",
           "package": "bson",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Data Bson Binary",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson.Binary",
           "name": "getCString",
           "package": "bson",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson.Binary",
           "name": "getDocument",
           "package": "bson",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data Bson Binary",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson.Binary",
           "name": "getDocument",
           "package": "bson",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson.Binary",
           "name": "getDouble",
           "package": "bson",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Bson Binary",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson.Binary",
           "name": "getDouble",
           "package": "bson",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson.Binary",
           "name": "getInt32",
           "package": "bson",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data Bson Binary",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson.Binary",
           "name": "getInt32",
           "package": "bson",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson.Binary",
           "name": "getInt64",
           "package": "bson",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data Bson Binary",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson.Binary",
           "name": "getInt64",
           "package": "bson",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson.Binary",
           "name": "putCString",
           "package": "bson",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data Bson Binary",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson.Binary",
           "name": "putCString",
           "normalized": "Text-\u003ePut",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson.Binary",
           "name": "putDocument",
           "package": "bson",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Data Bson Binary",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson.Binary",
           "name": "putDocument",
           "normalized": "Document-\u003ePut",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson.Binary",
           "name": "putDouble",
           "package": "bson",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Data Bson Binary",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson.Binary",
           "name": "putDouble",
           "normalized": "Double-\u003ePut",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson.Binary",
           "name": "putInt32",
           "package": "bson",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data Bson Binary",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson.Binary",
           "name": "putInt32",
           "normalized": "Int-\u003ePut",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson.Binary",
           "name": "putInt64",
           "package": "bson",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Data Bson Binary",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson.Binary",
           "name": "putInt64",
           "normalized": "Int-\u003ePut",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA BSON document is a JSON-like object with a standard binary encoding\n defined at bsonspec.org. This implements version 1.0 of that spec.\n\u003c/p\u003e\u003cp\u003eUse the GHC language extension \u003cem\u003eOverloadedStrings\u003c/em\u003e to automatically convert\n String literals to Text\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Bson",
           "package": "bson",
@@ -281,6 +304,7 @@
         "index": {
           "description": "BSON document is JSON-like object with standard binary encoding defined at bsonspec.org This implements version of that spec Use the GHC language extension OverloadedStrings to automatically convert String literals to Text",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Bson",
           "package": "bson",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Binary",
           "package": "bson",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Binary",
           "package": "bson",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA BSON document is a list of \u003ccode\u003e\u003ca\u003eField\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Document",
           "package": "bson",
@@ -325,6 +352,7 @@
         "index": {
           "description": "BSON document is list of Field",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Document",
           "package": "bson",
@@ -339,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA BSON field is a named value, where the name (label) is a string and the value is a BSON \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Field",
           "package": "bson",
@@ -348,6 +377,7 @@
         "index": {
           "description": "BSON field is named value where the name label is string and the value is BSON Value",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Field",
           "package": "bson",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Function",
           "package": "bson",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Function",
           "package": "bson",
@@ -383,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJavascript code with possibly empty environment mapping variables to values that the code may reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Javascript",
           "package": "bson",
@@ -392,6 +425,7 @@
         "index": {
           "description": "Javascript code with possibly empty environment mapping variables to values that the code may reference",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Javascript",
           "package": "bson",
@@ -406,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of a BSON field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Label",
           "package": "bson",
@@ -415,6 +450,7 @@
         "index": {
           "description": "The name of BSON field",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Label",
           "package": "bson",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "MD5",
           "package": "bson",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "MD5",
           "package": "bson",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "MinMaxKey",
           "package": "bson",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "MinMaxKey",
           "package": "bson",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "MongoStamp",
           "package": "bson",
@@ -478,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "MongoStamp",
           "package": "bson",
@@ -492,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA BSON ObjectID is a 12-byte value consisting of a 4-byte timestamp (seconds since epoch), a 3-byte machine id, a 2-byte process id, and a 3-byte counter. Note that the timestamp and counter fields must be stored big endian unlike the rest of BSON. This is because they are compared byte-by-byte and we want to ensure a mostly increasing order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "ObjectId",
           "package": "bson",
@@ -501,6 +544,7 @@
         "index": {
           "description": "BSON ObjectID is byte value consisting of byte timestamp seconds since epoch byte machine id byte process id and byte counter Note that the timestamp and counter fields must be stored big endian unlike the rest of BSON This is because they are compared byte-by-byte and we want to ensure mostly increasing order",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "ObjectId",
           "package": "bson",
@@ -515,6 +559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first string is the regex pattern, the second is the regex options string. Options are identified by characters, which must be listed in alphabetical order. Valid options are *i* for case insensitive matching, *m* for multiline matching, *x* for verbose mode, *l* to make \\w, \\W, etc. locale dependent, *s* for dotall mode (\".\" matches everything), and *u* to make \\w, \\W, etc. match unicode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Regex",
           "package": "bson",
@@ -524,6 +569,7 @@
         "index": {
           "description": "The first string is the regex pattern the second is the regex options string Options are identified by characters which must be listed in alphabetical order Valid options are for case insensitive matching for multiline matching for verbose mode to make etc locale dependent for dotall mode matches everything and to make etc match unicode",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Regex",
           "package": "bson",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Symbol",
           "package": "bson",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Symbol",
           "package": "bson",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "UUID",
           "package": "bson",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "UUID",
           "package": "bson",
@@ -579,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "UserDefined",
           "package": "bson",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "UserDefined",
           "package": "bson",
@@ -601,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell types of this class correspond to BSON value types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Val",
           "package": "bson",
@@ -610,6 +663,7 @@
         "index": {
           "description": "Haskell types of this class correspond to BSON value types",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Val",
           "package": "bson",
@@ -624,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA BSON value is one of the following types of values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Value",
           "package": "bson",
@@ -633,6 +688,7 @@
         "index": {
           "description": "BSON value is one of the following types of values",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Value",
           "package": "bson",
@@ -647,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursively lookup a nested field in a Document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "(!?)",
           "package": "bson",
@@ -657,6 +714,7 @@
         "index": {
           "description": "Recursively lookup nested field in Document",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "(!?) !?",
           "normalized": "Document-\u003eLabel-\u003eMaybe a",
@@ -672,6 +730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf Just value then return one field document, otherwise return empty document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "(=?)",
           "package": "bson",
@@ -682,6 +741,7 @@
         "index": {
           "description": "If Just value then return one field document otherwise return empty document",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "(=?) =?",
           "normalized": "Label-\u003eMaybe a-\u003eDocument",
@@ -697,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField with given label and typed value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "(=:)",
           "package": "bson",
@@ -707,6 +768,7 @@
         "index": {
           "description": "Field with given label and typed value",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "(=:) =:",
           "normalized": "Label-\u003ea-\u003eField",
@@ -721,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": ":=",
           "package": "bson",
@@ -730,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": ":=",
           "package": "bson",
@@ -742,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Array",
           "package": "bson",
@@ -751,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Array",
           "normalized": "Array[Value]",
@@ -766,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Bin",
           "package": "bson",
@@ -775,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Bin",
           "package": "bson",
@@ -788,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Binary",
           "package": "bson",
@@ -797,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Binary",
           "package": "bson",
@@ -810,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Bool",
           "package": "bson",
@@ -819,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Bool",
           "package": "bson",
@@ -832,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Doc",
           "package": "bson",
@@ -841,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Doc",
           "package": "bson",
@@ -854,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Float",
           "package": "bson",
@@ -863,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Float",
           "package": "bson",
@@ -876,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Fun",
           "package": "bson",
@@ -885,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Fun",
           "package": "bson",
@@ -898,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Function",
           "package": "bson",
@@ -907,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Function",
           "package": "bson",
@@ -920,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Int32",
           "package": "bson",
@@ -929,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Int32",
           "package": "bson",
@@ -942,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Int64",
           "package": "bson",
@@ -951,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Int64",
           "package": "bson",
@@ -964,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "JavaScr",
           "package": "bson",
@@ -973,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "JavaScr",
           "package": "bson",
@@ -986,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Javascript",
           "package": "bson",
@@ -995,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Javascript",
           "package": "bson",
@@ -1008,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "MD5",
           "package": "bson",
@@ -1017,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "MD5",
           "package": "bson",
@@ -1030,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "MaxKey",
           "package": "bson",
@@ -1039,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "MaxKey",
           "package": "bson",
@@ -1052,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Md5",
           "package": "bson",
@@ -1061,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Md5",
           "package": "bson",
@@ -1074,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "MinKey",
           "package": "bson",
@@ -1083,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "MinKey",
           "package": "bson",
@@ -1096,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "MinMax",
           "package": "bson",
@@ -1105,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "MinMax",
           "package": "bson",
@@ -1118,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "MongoStamp",
           "package": "bson",
@@ -1127,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "MongoStamp",
           "package": "bson",
@@ -1140,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Null",
           "package": "bson",
@@ -1149,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Null",
           "package": "bson",
@@ -1162,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "ObjId",
           "package": "bson",
@@ -1171,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "ObjId",
           "package": "bson",
@@ -1184,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Oid",
           "package": "bson",
@@ -1193,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Oid",
           "package": "bson",
@@ -1206,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "RegEx",
           "package": "bson",
@@ -1215,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "RegEx",
           "package": "bson",
@@ -1228,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Regex",
           "package": "bson",
@@ -1237,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Regex",
           "package": "bson",
@@ -1250,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Stamp",
           "package": "bson",
@@ -1259,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Stamp",
           "package": "bson",
@@ -1272,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "String",
           "package": "bson",
@@ -1281,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "String",
           "package": "bson",
@@ -1294,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Sym",
           "package": "bson",
@@ -1303,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Sym",
           "package": "bson",
@@ -1316,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Symbol",
           "package": "bson",
@@ -1325,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Symbol",
           "package": "bson",
@@ -1338,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "UTC",
           "package": "bson",
@@ -1347,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "UTC",
           "package": "bson",
@@ -1360,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "UUID",
           "package": "bson",
@@ -1369,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "UUID",
           "package": "bson",
@@ -1382,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "UserDef",
           "package": "bson",
@@ -1391,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "UserDef",
           "package": "bson",
@@ -1404,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "UserDefined",
           "package": "bson",
@@ -1413,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "UserDefined",
           "package": "bson",
@@ -1426,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "Uuid",
           "package": "bson",
@@ -1435,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "Uuid",
           "package": "bson",
@@ -1449,6 +1577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTyped value of field in document. Error if missing or wrong type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "at",
           "package": "bson",
@@ -1459,6 +1588,7 @@
         "index": {
           "description": "Typed value of field in document Error if missing or wrong type",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "at",
           "normalized": "Label-\u003eDocument-\u003ea",
@@ -1474,6 +1604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert Value to expected type, or fail (Nothing) if not of that type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "cast",
           "package": "bson",
@@ -1484,6 +1615,7 @@
         "index": {
           "description": "Convert Value to expected type or fail Nothing if not of that type",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "cast",
           "normalized": "Value-\u003ea b",
@@ -1498,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "cast'",
           "package": "bson",
@@ -1507,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "cast'",
           "normalized": "Value-\u003eMaybe a",
@@ -1522,6 +1656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExclude fields from document in label list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "exclude",
           "package": "bson",
@@ -1532,6 +1667,7 @@
         "index": {
           "description": "Exclude fields from document in label list",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "exclude",
           "normalized": "[Label]-\u003eDocument-\u003eDocument",
@@ -1547,6 +1683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply generic function to typed value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "fval",
           "package": "bson",
@@ -1557,6 +1694,7 @@
         "index": {
           "description": "Apply generic function to typed value",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "fval",
           "normalized": "a-\u003eb)-\u003eValue-\u003eb",
@@ -1572,6 +1710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a fresh ObjectId\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "genObjectId",
           "package": "bson",
@@ -1582,6 +1721,7 @@
         "index": {
           "description": "Create fresh ObjectId",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "genObjectId",
           "package": "bson",
@@ -1596,6 +1736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly include fields of document in label list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "include",
           "package": "bson",
@@ -1606,6 +1747,7 @@
         "index": {
           "description": "Only include fields of document in label list",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "include",
           "normalized": "[Label]-\u003eDocument-\u003eDocument",
@@ -1620,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "label",
           "package": "bson",
@@ -1629,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "label",
           "package": "bson",
@@ -1642,6 +1786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue of field in document, or fail (Nothing) if field not found\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "look",
           "package": "bson",
@@ -1652,6 +1797,7 @@
         "index": {
           "description": "Value of field in document or fail Nothing if field not found",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "look",
           "normalized": "Label-\u003eDocument-\u003ea Value",
@@ -1667,6 +1813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup value of field in document and cast to expected type. Fail (Nothing) if field not found or value not of expected type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "lookup",
           "package": "bson",
@@ -1677,6 +1824,7 @@
         "index": {
           "description": "Lookup value of field in document and cast to expected type Fail Nothing if field not found or value not of expected type",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "lookup",
           "normalized": "Label-\u003eDocument-\u003ea b",
@@ -1692,6 +1840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge documents with preference given to first one when both have the same label. I.e. for every (k := v) in first argument, if k exists in second argument then replace its value with v, otherwise add (k := v) to second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "merge",
           "package": "bson",
@@ -1702,6 +1851,7 @@
         "index": {
           "description": "Merge documents with preference given to first one when both have the same label I.e for every in first argument if exists in second argument then replace its value with otherwise add to second argument",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "merge",
           "normalized": "Document-\u003eDocument-\u003eDocument",
@@ -1717,6 +1867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime when objectId was created\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "timestamp",
           "package": "bson",
@@ -1727,6 +1878,7 @@
         "index": {
           "description": "Time when objectId was created",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "timestamp",
           "normalized": "ObjectId-\u003eUTCTime",
@@ -1742,6 +1894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of typed value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "typeOfVal",
           "package": "bson",
@@ -1752,6 +1905,7 @@
         "index": {
           "description": "Type of typed value",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "typeOfVal",
           "normalized": "Value-\u003eTypeRep",
@@ -1768,6 +1922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert Value to expected type. Error if not that type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "typed",
           "package": "bson",
@@ -1778,6 +1933,7 @@
         "index": {
           "description": "Convert Value to expected type Error if not that type",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "typed",
           "normalized": "Value-\u003ea",
@@ -1792,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "val",
           "package": "bson",
@@ -1801,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "val",
           "normalized": "a-\u003eValue",
@@ -1815,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "value",
           "package": "bson",
@@ -1824,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "value",
           "package": "bson",
@@ -1837,6 +1997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue of field in document. Error if missing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:33 UTC 2014",
           "module": "Data.Bson",
           "name": "valueAt",
           "package": "bson",
@@ -1847,6 +2008,7 @@
         "index": {
           "description": "Value of field in document Error if missing",
           "hierarchy": "Data Bson",
+          "indexed": "2014-03-11T17:25:33",
           "module": "Data.Bson",
           "name": "valueAt",
           "normalized": "Label-\u003eDocument-\u003eValue",

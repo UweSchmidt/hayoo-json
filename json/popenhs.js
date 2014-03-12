@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "popenhs"
+        "phrase": "popenhs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:43 UTC 2014",
           "module": "System.Posix.POpen",
           "name": "POpen",
           "package": "popenhs",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Posix POpen",
+          "indexed": "2014-03-11T19:41:43",
           "module": "System.Posix.POpen",
           "name": "POpen",
           "package": "popenhs",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:43 UTC 2014",
           "module": "System.Posix.POpen",
           "name": "popen",
           "package": "popenhs",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "System Posix POpen",
+          "indexed": "2014-03-11T19:41:43",
           "module": "System.Posix.POpen",
           "name": "popen",
           "normalized": "FilePath-\u003e[String]-\u003eMaybe String-\u003eIO(String,String,ProcessID)",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:43 UTC 2014",
           "module": "System.Posix.POpen",
           "name": "popenEnvDir",
           "package": "popenhs",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "System Posix POpen",
+          "indexed": "2014-03-11T19:41:43",
           "module": "System.Posix.POpen",
           "name": "popenEnvDir",
           "normalized": "FilePath-\u003e[String]-\u003eMaybe String-\u003eMaybe[(String,String)]-\u003eMaybe FilePath-\u003eIO(String,String,ProcessID)",

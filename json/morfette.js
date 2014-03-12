@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "morfette"
+        "phrase": "morfette",
+        "type": "phrase"
       },
       "type": "context"
     }

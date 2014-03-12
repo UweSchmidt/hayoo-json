@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "XAttr"
+        "phrase": "XAttr",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eXAttr provides bindings to the glibc function for reading and manipulating extended attributes (setxattr, getxattr, listxattr, ...).\n\u003c/p\u003e\u003cp\u003eEach function in this module has two variants: the one with the name\nprefixed by \"l\" and \"fd\".  Both of these are identical to the original\nversion except that the \"l\"-variant does not follow symbolic link but\nacts on the link itself, and the \"fd\"-variant take a file descriptor\nas argument rather than a filepath.  \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:27 UTC 2014",
           "module": "System.XAttr",
           "name": "XAttr",
           "package": "XAttr",
@@ -28,6 +29,7 @@
         "index": {
           "description": "XAttr provides bindings to the glibc function for reading and manipulating extended attributes setxattr getxattr listxattr Each function in this module has two variants the one with the name prefixed by and fd Both of these are identical to the original version except that the variant does not follow symbolic link but acts on the link itself and the fd variant take file descriptor as argument rather than filepath",
           "hierarchy": "System XAttr",
+          "indexed": "2014-03-11T17:05:27",
           "module": "System.XAttr",
           "name": "XAttr",
           "package": "XAttr",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreateXAttr is identical to setXAttr, but if the attribute\n already exists it fails and sets errno to EEXIST.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:27 UTC 2014",
           "module": "System.XAttr",
           "name": "createXAttr",
           "package": "XAttr",
@@ -52,6 +55,7 @@
         "index": {
           "description": "createXAttr is identical to setXAttr but if the attribute already exists it fails and sets errno to EEXIST",
           "hierarchy": "System XAttr",
+          "indexed": "2014-03-11T17:05:27",
           "module": "System.XAttr",
           "name": "createXAttr",
           "normalized": "FilePath-\u003eString-\u003eString-\u003eIO()",
@@ -67,6 +71,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:27 UTC 2014",
           "module": "System.XAttr",
           "name": "fdCreateXAttr",
           "package": "XAttr",
@@ -76,6 +81,7 @@
         },
         "index": {
           "hierarchy": "System XAttr",
+          "indexed": "2014-03-11T17:05:27",
           "module": "System.XAttr",
           "name": "fdCreateXAttr",
           "normalized": "Fd-\u003eString-\u003eString-\u003eIO()",
@@ -91,6 +97,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:27 UTC 2014",
           "module": "System.XAttr",
           "name": "fdGetXAttr",
           "package": "XAttr",
@@ -100,6 +107,7 @@
         },
         "index": {
           "hierarchy": "System XAttr",
+          "indexed": "2014-03-11T17:05:27",
           "module": "System.XAttr",
           "name": "fdGetXAttr",
           "normalized": "Fd-\u003eString-\u003eIO String",
@@ -115,6 +123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:27 UTC 2014",
           "module": "System.XAttr",
           "name": "fdListXAttr",
           "package": "XAttr",
@@ -124,6 +133,7 @@
         },
         "index": {
           "hierarchy": "System XAttr",
+          "indexed": "2014-03-11T17:05:27",
           "module": "System.XAttr",
           "name": "fdListXAttr",
           "normalized": "Fd-\u003eIO[String]",
@@ -139,6 +149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:27 UTC 2014",
           "module": "System.XAttr",
           "name": "fdRemoveXAttr",
           "package": "XAttr",
@@ -148,6 +159,7 @@
         },
         "index": {
           "hierarchy": "System XAttr",
+          "indexed": "2014-03-11T17:05:27",
           "module": "System.XAttr",
           "name": "fdRemoveXAttr",
           "normalized": "Fd-\u003eString-\u003eIO()",
@@ -163,6 +175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:27 UTC 2014",
           "module": "System.XAttr",
           "name": "fdReplaceXAttr",
           "package": "XAttr",
@@ -172,6 +185,7 @@
         },
         "index": {
           "hierarchy": "System XAttr",
+          "indexed": "2014-03-11T17:05:27",
           "module": "System.XAttr",
           "name": "fdReplaceXAttr",
           "normalized": "Fd-\u003eString-\u003eString-\u003eIO()",
@@ -187,6 +201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:27 UTC 2014",
           "module": "System.XAttr",
           "name": "fdSetXAttr",
           "package": "XAttr",
@@ -196,6 +211,7 @@
         },
         "index": {
           "hierarchy": "System XAttr",
+          "indexed": "2014-03-11T17:05:27",
           "module": "System.XAttr",
           "name": "fdSetXAttr",
           "normalized": "Fd-\u003eString-\u003eString-\u003eIO()",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egetXAttr retrieves the value of an extended attribute \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:27 UTC 2014",
           "module": "System.XAttr",
           "name": "getXAttr",
           "package": "XAttr",
@@ -221,6 +238,7 @@
         "index": {
           "description": "getXAttr retrieves the value of an extended attribute",
           "hierarchy": "System XAttr",
+          "indexed": "2014-03-11T17:05:27",
           "module": "System.XAttr",
           "name": "getXAttr",
           "normalized": "FilePath-\u003eString-\u003eIO String",
@@ -236,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:27 UTC 2014",
           "module": "System.XAttr",
           "name": "lCreateXAttr",
           "package": "XAttr",
@@ -245,6 +264,7 @@
         },
         "index": {
           "hierarchy": "System XAttr",
+          "indexed": "2014-03-11T17:05:27",
           "module": "System.XAttr",
           "name": "lCreateXAttr",
           "normalized": "FilePath-\u003eString-\u003eString-\u003eIO()",
@@ -260,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:27 UTC 2014",
           "module": "System.XAttr",
           "name": "lGetXAttr",
           "package": "XAttr",
@@ -269,6 +290,7 @@
         },
         "index": {
           "hierarchy": "System XAttr",
+          "indexed": "2014-03-11T17:05:27",
           "module": "System.XAttr",
           "name": "lGetXAttr",
           "normalized": "FilePath-\u003eString-\u003eIO String",
@@ -284,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:27 UTC 2014",
           "module": "System.XAttr",
           "name": "lListXAttr",
           "package": "XAttr",
@@ -293,6 +316,7 @@
         },
         "index": {
           "hierarchy": "System XAttr",
+          "indexed": "2014-03-11T17:05:27",
           "module": "System.XAttr",
           "name": "lListXAttr",
           "normalized": "FilePath-\u003eIO[String]",
@@ -308,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:27 UTC 2014",
           "module": "System.XAttr",
           "name": "lRemoveXAttr",
           "package": "XAttr",
@@ -317,6 +342,7 @@
         },
         "index": {
           "hierarchy": "System XAttr",
+          "indexed": "2014-03-11T17:05:27",
           "module": "System.XAttr",
           "name": "lRemoveXAttr",
           "normalized": "FilePath-\u003eString-\u003eIO()",
@@ -332,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:27 UTC 2014",
           "module": "System.XAttr",
           "name": "lReplaceXAttr",
           "package": "XAttr",
@@ -341,6 +368,7 @@
         },
         "index": {
           "hierarchy": "System XAttr",
+          "indexed": "2014-03-11T17:05:27",
           "module": "System.XAttr",
           "name": "lReplaceXAttr",
           "normalized": "FilePath-\u003eString-\u003eString-\u003eIO()",
@@ -356,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:27 UTC 2014",
           "module": "System.XAttr",
           "name": "lSetXAttr",
           "package": "XAttr",
@@ -365,6 +394,7 @@
         },
         "index": {
           "hierarchy": "System XAttr",
+          "indexed": "2014-03-11T17:05:27",
           "module": "System.XAttr",
           "name": "lSetXAttr",
           "normalized": "FilePath-\u003eString-\u003eString-\u003eIO()",
@@ -381,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elistXAttr retrieves the list of attribute names associated with\n the given filepath.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:27 UTC 2014",
           "module": "System.XAttr",
           "name": "listXAttr",
           "package": "XAttr",
@@ -390,6 +421,7 @@
         "index": {
           "description": "listXAttr retrieves the list of attribute names associated with the given filepath",
           "hierarchy": "System XAttr",
+          "indexed": "2014-03-11T17:05:27",
           "module": "System.XAttr",
           "name": "listXAttr",
           "normalized": "FilePath-\u003eIO[String]",
@@ -406,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremoveXAttr removes an extended attribute from the give filepath.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:27 UTC 2014",
           "module": "System.XAttr",
           "name": "removeXAttr",
           "package": "XAttr",
@@ -415,6 +448,7 @@
         "index": {
           "description": "removeXAttr removes an extended attribute from the give filepath",
           "hierarchy": "System XAttr",
+          "indexed": "2014-03-11T17:05:27",
           "module": "System.XAttr",
           "name": "removeXAttr",
           "normalized": "FilePath-\u003eString-\u003eIO()",
@@ -431,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereplaceXAttr is identical to setXAttr, but if the attribute\n does not exist it fails and sets errno to ENOATTR.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:27 UTC 2014",
           "module": "System.XAttr",
           "name": "replaceXAttr",
           "package": "XAttr",
@@ -441,6 +476,7 @@
         "index": {
           "description": "replaceXAttr is identical to setXAttr but if the attribute does not exist it fails and sets errno to ENOATTR",
           "hierarchy": "System XAttr",
+          "indexed": "2014-03-11T17:05:27",
           "module": "System.XAttr",
           "name": "replaceXAttr",
           "normalized": "FilePath-\u003eString-\u003eString-\u003eIO()",
@@ -457,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esetXAttr sets the value of an extended attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:27 UTC 2014",
           "module": "System.XAttr",
           "name": "setXAttr",
           "package": "XAttr",
@@ -466,6 +503,7 @@
         "index": {
           "description": "setXAttr sets the value of an extended attribute",
           "hierarchy": "System XAttr",
+          "indexed": "2014-03-11T17:05:27",
           "module": "System.XAttr",
           "name": "setXAttr",
           "normalized": "FilePath-\u003eString-\u003eString-\u003eIO()",

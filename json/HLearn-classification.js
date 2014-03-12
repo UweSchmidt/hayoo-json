@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HLearn-classification"
+        "phrase": "HLearn-classification",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "CrossValidation",
           "package": "HLearn-classification",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HLearn Evaluation CrossValidation",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "CrossValidation",
           "package": "HLearn-classification",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "LossFunction",
           "package": "HLearn-classification",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "HLearn Evaluation CrossValidation",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "LossFunction",
           "package": "HLearn-classification",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "crossValidate",
           "package": "HLearn-classification",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "HLearn Evaluation CrossValidation",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "crossValidate",
           "normalized": "[[Datapoint a]]-\u003eLossFunction a-\u003eNormal Double",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "crossValidate_group",
           "package": "HLearn-classification",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "HLearn Evaluation CrossValidation",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "crossValidate_group",
           "normalized": "[[Datapoint a]]-\u003eLossFunction a-\u003eNormal Double",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "crossValidate_monoid",
           "package": "HLearn-classification",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "HLearn Evaluation CrossValidation",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "crossValidate_monoid",
           "normalized": "[[Datapoint a]]-\u003eLossFunction a-\u003eNormal Double",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the standard cross-validation technique for use with the HomTrainer type class.  It is asymptotically faster than standard k-fold cross-validation (implemented with lame_crossvalidation), yet is guaranteed to get the exact same answer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "crossvalidation",
           "package": "HLearn-classification",
@@ -143,6 +154,7 @@
         "index": {
           "description": "This is the standard cross-validation technique for use with the HomTrainer type class It is asymptotically faster than standard k-fold cross-validation implemented with lame crossvalidation yet is guaranteed to get the exact same answer",
           "hierarchy": "HLearn Evaluation CrossValidation",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "crossvalidation",
           "normalized": "a(Datapoint b)-\u003e(b-\u003ea(Datapoint b)-\u003ec)-\u003eInt-\u003ec",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "errorRate",
           "package": "HLearn-classification",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "HLearn Evaluation CrossValidation",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "errorRate",
           "package": "HLearn-classification",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "folds",
           "package": "HLearn-classification",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "HLearn Evaluation CrossValidation",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "folds",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "genTestList",
           "package": "HLearn-classification",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "HLearn Evaluation CrossValidation",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "genTestList",
           "normalized": "[a]-\u003e[(a,a)]",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "leaveOneOut",
           "package": "HLearn-classification",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "HLearn Evaluation CrossValidation",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "leaveOneOut",
           "normalized": "[a]-\u003e[[a]]",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "listAllBut",
           "package": "HLearn-classification",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "HLearn Evaluation CrossValidation",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "listAllBut",
           "normalized": "[a]-\u003e[a]",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "listAllBut2",
           "package": "HLearn-classification",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "HLearn Evaluation CrossValidation",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Evaluation.CrossValidation",
           "name": "listAllBut2",
           "normalized": "[a]-\u003e[a]",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Evaluation.RSquared",
           "name": "RSquared",
           "package": "HLearn-classification",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "HLearn Evaluation RSquared",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Evaluation.RSquared",
           "name": "RSquared",
           "package": "HLearn-classification",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Evaluation.RSquared",
           "name": "rsquared",
           "package": "HLearn-classification",
@@ -328,6 +355,7 @@
         },
         "index": {
           "hierarchy": "HLearn Evaluation RSquared",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Evaluation.RSquared",
           "name": "rsquared",
           "normalized": "a-\u003e[Datapoint a]-\u003eRing a",
@@ -343,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBayesian classification is one of the standard algorithms in machine learning.  Typically, we make the naive bayes assumption of assuming that none of our attributes are correlated.  The Bayes data type, however, is capable of both naive and non-naive assumptions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Bayes",
           "name": "Bayes",
           "package": "HLearn-classification",
@@ -352,6 +381,7 @@
         "index": {
           "description": "Bayesian classification is one of the standard algorithms in machine learning Typically we make the naive bayes assumption of assuming that none of our attributes are correlated The Bayes data type however is capable of both naive and non-naive assumptions",
           "hierarchy": "HLearn Models Classifiers Bayes",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Bayes",
           "name": "Bayes",
           "package": "HLearn-classification",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Bayes",
           "name": "Bayes",
           "package": "HLearn-classification",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Bayes",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Bayes",
           "name": "Bayes",
           "package": "HLearn-classification",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Centroid",
           "name": "Centroid",
           "package": "HLearn-classification",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Centroid",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Centroid",
           "name": "Centroid",
           "package": "HLearn-classification",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Centroid",
           "name": "Centroid",
           "package": "HLearn-classification",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Centroid",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Centroid",
           "name": "Centroid",
           "package": "HLearn-classification",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Centroid",
           "name": "Centroid",
           "package": "HLearn-classification",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Centroid",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Centroid",
           "name": "Centroid",
           "package": "HLearn-classification",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Centroid",
           "name": "c_numdp",
           "package": "HLearn-classification",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Centroid",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Centroid",
           "name": "c_numdp",
           "package": "HLearn-classification",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Centroid",
           "name": "vector",
           "package": "HLearn-classification",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Centroid",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Centroid",
           "name": "vector",
           "package": "HLearn-classification",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "Common",
           "package": "HLearn-classification",
@@ -500,6 +543,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Common",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "Common",
           "package": "HLearn-classification",
@@ -513,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "Classifier",
           "package": "HLearn-classification",
@@ -521,6 +566,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Common",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "Classifier",
           "package": "HLearn-classification",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "Labeled",
           "package": "HLearn-classification",
@@ -542,6 +589,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Common",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "Labeled",
           "package": "HLearn-classification",
@@ -555,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "MarginClassifier",
           "package": "HLearn-classification",
@@ -563,6 +612,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Common",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "MarginClassifier",
           "package": "HLearn-classification",
@@ -576,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "ProbabilityClassifier",
           "package": "HLearn-classification",
@@ -584,6 +635,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Common",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "ProbabilityClassifier",
           "package": "HLearn-classification",
@@ -598,6 +650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis is a default instance that any instance of Classifier should satisfy if it is also an instance of ProbabilityClassifier\n instance \n     ( Label (Datapoint model) ~ Datapoint (ResultDistribution model)\n     , Mean (ResultDistribution model)\n     , ProbabilityClassifier model\n     ) =\u003e Classifier model\n         where\n     classify model dp = mean $ probabilityClassify model dp\n\u003c/p\u003e\u003cp\u003eRegression is classification where the class labels are (isomorphic to) real numbers.  The constraints could probably be better specified, but they're close enough for now.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "Regression",
           "package": "HLearn-classification",
@@ -607,6 +660,7 @@
         "index": {
           "description": "this is default instance that any instance of Classifier should satisfy if it is also an instance of ProbabilityClassifier instance Label Datapoint model Datapoint ResultDistribution model Mean ResultDistribution model ProbabilityClassifier model Classifier model where classify model dp mean probabilityClassify model dp Regression is classification where the class labels are isomorphic to real numbers The constraints could probably be better specified but they re close enough for now",
           "hierarchy": "HLearn Models Classifiers Common",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "Regression",
           "package": "HLearn-classification",
@@ -620,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "bool2num",
           "package": "HLearn-classification",
@@ -629,6 +684,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Common",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "bool2num",
           "normalized": "Bool-\u003ea",
@@ -643,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "classify",
           "package": "HLearn-classification",
@@ -652,6 +709,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Common",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "classify",
           "normalized": "a-\u003eAttributes(Datapoint a)-\u003eLabel(Datapoint a)",
@@ -666,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "getAttributes",
           "package": "HLearn-classification",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Common",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "getAttributes",
           "normalized": "a-\u003eAttributes a",
@@ -690,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "getLabel",
           "package": "HLearn-classification",
@@ -699,6 +760,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Common",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "getLabel",
           "normalized": "a-\u003eLabel a",
@@ -714,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "indicator",
           "package": "HLearn-classification",
@@ -723,6 +786,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Common",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "indicator",
           "normalized": "Bool-\u003ea",
@@ -737,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "margin",
           "package": "HLearn-classification",
@@ -746,6 +811,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Common",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "margin",
           "normalized": "a-\u003eAttributes(Datapoint a)-\u003e(Ring a,Label(Datapoint a))",
@@ -760,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "num2bool",
           "package": "HLearn-classification",
@@ -769,6 +836,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Common",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "num2bool",
           "normalized": "a-\u003eBool",
@@ -783,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "probabilityClassify",
           "package": "HLearn-classification",
@@ -792,6 +861,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Common",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Common",
           "name": "probabilityClassify",
           "normalized": "a-\u003eAttributes(Datapoint a)-\u003eResultDistribution a",
@@ -807,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.FiniteBoost",
           "name": "FiniteBoost",
           "package": "HLearn-classification",
@@ -815,6 +886,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Experimental Boosting FiniteBoost",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.FiniteBoost",
           "name": "FiniteBoost",
           "package": "HLearn-classification",
@@ -828,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.FiniteBoost",
           "name": "FiniteBoost",
           "package": "HLearn-classification",
@@ -836,6 +909,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Experimental Boosting FiniteBoost",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.FiniteBoost",
           "name": "FiniteBoost",
           "package": "HLearn-classification",
@@ -849,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.FiniteBoost",
           "name": "FiniteBoostParams",
           "package": "HLearn-classification",
@@ -857,6 +932,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Experimental Boosting FiniteBoost",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.FiniteBoost",
           "name": "FiniteBoostParams",
           "package": "HLearn-classification",
@@ -870,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.FiniteBoost",
           "name": "FiniteBoost",
           "package": "HLearn-classification",
@@ -879,6 +956,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Experimental Boosting FiniteBoost",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.FiniteBoost",
           "name": "FiniteBoost",
           "package": "HLearn-classification",
@@ -892,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.FiniteBoost",
           "name": "getModelL",
           "package": "HLearn-classification",
@@ -901,6 +980,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Experimental Boosting FiniteBoost",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.FiniteBoost",
           "name": "getModelL",
           "normalized": "a-\u003e[BaseModel a]",
@@ -916,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.FiniteBoost",
           "name": "numModels",
           "package": "HLearn-classification",
@@ -925,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Experimental Boosting FiniteBoost",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.FiniteBoost",
           "name": "numModels",
           "normalized": "a-\u003eInt",
@@ -940,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.FiniteBoost",
           "name": "weights",
           "package": "HLearn-classification",
@@ -949,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Experimental Boosting FiniteBoost",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.FiniteBoost",
           "name": "weights",
           "package": "HLearn-classification",
@@ -961,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.MonoidBoost",
           "name": "MonoidBoost",
           "package": "HLearn-classification",
@@ -969,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Experimental Boosting MonoidBoost",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.MonoidBoost",
           "name": "MonoidBoost",
           "package": "HLearn-classification",
@@ -982,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.MonoidBoost",
           "name": "MonoidBoost",
           "package": "HLearn-classification",
@@ -990,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Experimental Boosting MonoidBoost",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.MonoidBoost",
           "name": "MonoidBoost",
           "package": "HLearn-classification",
@@ -1003,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.MonoidBoost",
           "name": "MonoidBoost",
           "package": "HLearn-classification",
@@ -1012,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Experimental Boosting MonoidBoost",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.MonoidBoost",
           "name": "MonoidBoost",
           "package": "HLearn-classification",
@@ -1025,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.MonoidBoost",
           "name": "boost_numdp",
           "package": "HLearn-classification",
@@ -1034,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Experimental Boosting MonoidBoost",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.MonoidBoost",
           "name": "boost_numdp",
           "package": "HLearn-classification",
@@ -1046,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.MonoidBoost",
           "name": "dataL",
           "package": "HLearn-classification",
@@ -1055,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Experimental Boosting MonoidBoost",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.MonoidBoost",
           "name": "dataL",
           "package": "HLearn-classification",
@@ -1067,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.MonoidBoost",
           "name": "leave",
           "package": "HLearn-classification",
@@ -1076,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Experimental Boosting MonoidBoost",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.MonoidBoost",
           "name": "leave",
           "normalized": "Int-\u003eSeq a-\u003eSeq a",
@@ -1090,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.MonoidBoost",
           "name": "modelL",
           "package": "HLearn-classification",
@@ -1099,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Experimental Boosting MonoidBoost",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.MonoidBoost",
           "name": "modelL",
           "package": "HLearn-classification",
@@ -1111,6 +1209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.MonoidBoost",
           "name": "testassociativity",
           "package": "HLearn-classification",
@@ -1120,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Experimental Boosting MonoidBoost",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.MonoidBoost",
           "name": "testassociativity",
           "normalized": "IO()",
@@ -1134,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.MonoidBoost",
           "name": "weightL",
           "package": "HLearn-classification",
@@ -1143,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Experimental Boosting MonoidBoost",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Experimental.Boosting.MonoidBoost",
           "name": "weightL",
           "package": "HLearn-classification",
@@ -1155,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.NearestNeighbor",
           "name": "NearestNeighbor",
           "package": "HLearn-classification",
@@ -1163,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers NearestNeighbor",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.NearestNeighbor",
           "name": "NearestNeighbor",
           "package": "HLearn-classification",
@@ -1176,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.NearestNeighbor",
           "name": "NaiveNN",
           "package": "HLearn-classification",
@@ -1184,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers NearestNeighbor",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.NearestNeighbor",
           "name": "NaiveNN",
           "package": "HLearn-classification",
@@ -1197,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.NearestNeighbor",
           "name": "NaiveNN",
           "package": "HLearn-classification",
@@ -1206,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers NearestNeighbor",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.NearestNeighbor",
           "name": "NaiveNN",
           "package": "HLearn-classification",
@@ -1219,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.NearestNeighbor",
           "name": "getcontainer",
           "package": "HLearn-classification",
@@ -1228,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers NearestNeighbor",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.NearestNeighbor",
           "name": "getcontainer",
           "normalized": "a(b,c)",
@@ -1242,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.NearestNeighbor",
           "name": "neighborList",
           "package": "HLearn-classification",
@@ -1251,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers NearestNeighbor",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.NearestNeighbor",
           "name": "neighborList",
           "normalized": "a-\u003eNaiveNN b c a-\u003e[(c,a)]",
@@ -1266,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Perceptron",
           "name": "Perceptron",
           "package": "HLearn-classification",
@@ -1274,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Perceptron",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Perceptron",
           "name": "Perceptron",
           "package": "HLearn-classification",
@@ -1287,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Perceptron",
           "name": "Perceptron",
           "package": "HLearn-classification",
@@ -1295,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Perceptron",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Perceptron",
           "name": "Perceptron",
           "package": "HLearn-classification",
@@ -1308,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Perceptron",
           "name": "Perceptron",
           "package": "HLearn-classification",
@@ -1317,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Perceptron",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Perceptron",
           "name": "Perceptron",
           "package": "HLearn-classification",
@@ -1330,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers.Perceptron",
           "name": "centroids",
           "package": "HLearn-classification",
@@ -1339,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Classifiers Perceptron",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers.Perceptron",
           "name": "centroids",
           "package": "HLearn-classification",
@@ -1352,6 +1472,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis file exports the most commonly used modules within HLearn-classifiers.  Most likely this is the only file you will have to import.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Classifiers",
           "name": "Classifiers",
           "package": "HLearn-classification",
@@ -1361,6 +1482,7 @@
         "index": {
           "description": "This file exports the most commonly used modules within HLearn-classifiers Most likely this is the only file you will have to import",
           "hierarchy": "HLearn Models Classifiers",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Classifiers",
           "name": "Classifiers",
           "package": "HLearn-classification",
@@ -1374,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "PowerLaw",
           "package": "HLearn-classification",
@@ -1382,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Regression PowerLaw",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "PowerLaw",
           "package": "HLearn-classification",
@@ -1395,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "Coord",
           "package": "HLearn-classification",
@@ -1403,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Regression PowerLaw",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "Coord",
           "package": "HLearn-classification",
@@ -1416,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "PowerLaw",
           "package": "HLearn-classification",
@@ -1424,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Regression PowerLaw",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "PowerLaw",
           "package": "HLearn-classification",
@@ -1437,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "Coord",
           "package": "HLearn-classification",
@@ -1446,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Regression PowerLaw",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "Coord",
           "package": "HLearn-classification",
@@ -1459,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "PowerLaw",
           "package": "HLearn-classification",
@@ -1468,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Regression PowerLaw",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "PowerLaw",
           "package": "HLearn-classification",
@@ -1481,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "dataset1",
           "package": "HLearn-classification",
@@ -1490,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Regression PowerLaw",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "dataset1",
           "normalized": "[Coord Double]",
@@ -1504,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "dataset2",
           "package": "HLearn-classification",
@@ -1513,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Regression PowerLaw",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "dataset2",
           "normalized": "[Coord Double]",
@@ -1527,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "lnx",
           "package": "HLearn-classification",
@@ -1536,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Regression PowerLaw",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "lnx",
           "package": "HLearn-classification",
@@ -1548,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "lnx2",
           "package": "HLearn-classification",
@@ -1557,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Regression PowerLaw",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "lnx2",
           "package": "HLearn-classification",
@@ -1569,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "lnxlny",
           "package": "HLearn-classification",
@@ -1578,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Regression PowerLaw",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "lnxlny",
           "package": "HLearn-classification",
@@ -1590,6 +1732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "lny",
           "package": "HLearn-classification",
@@ -1599,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Regression PowerLaw",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "lny",
           "package": "HLearn-classification",
@@ -1611,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "model1",
           "package": "HLearn-classification",
@@ -1620,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Regression PowerLaw",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "model1",
           "package": "HLearn-classification",
@@ -1632,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "model2",
           "package": "HLearn-classification",
@@ -1641,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Regression PowerLaw",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "model2",
           "package": "HLearn-classification",
@@ -1653,6 +1801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "n",
           "package": "HLearn-classification",
@@ -1662,6 +1811,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Regression PowerLaw",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "n",
           "package": "HLearn-classification",
@@ -1674,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "result1",
           "package": "HLearn-classification",
@@ -1683,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Regression PowerLaw",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "result1",
           "package": "HLearn-classification",
@@ -1695,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "result2",
           "package": "HLearn-classification",
@@ -1704,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Regression PowerLaw",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "result2",
           "package": "HLearn-classification",
@@ -1716,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "x",
           "package": "HLearn-classification",
@@ -1725,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Regression PowerLaw",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "x",
           "package": "HLearn-classification",
@@ -1737,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:37 UTC 2014",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "y",
           "package": "HLearn-classification",
@@ -1746,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "HLearn Models Regression PowerLaw",
+          "indexed": "2014-03-11T16:45:37",
           "module": "HLearn.Models.Regression.PowerLaw",
           "name": "y",
           "package": "HLearn-classification",

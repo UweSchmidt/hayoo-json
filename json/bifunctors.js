@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bifunctors"
+        "phrase": "bifunctors",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Biapplicative",
           "name": "Biapplicative",
           "package": "bifunctors",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Biapplicative",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Biapplicative",
           "name": "Biapplicative",
           "package": "bifunctors",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Biapplicative",
           "name": "Biapplicative",
           "package": "bifunctors",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Biapplicative",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Biapplicative",
           "name": "Biapplicative",
           "package": "bifunctors",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n a \u003ccode\u003e\u003ca\u003e*\u003e\u003c/a\u003e\u003c/code\u003e b &#8801; \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e\u003c$\u003e\u003c/a\u003e\u003c/code\u003e a \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Biapplicative",
           "name": "(*\u003e\u003e)",
           "package": "bifunctors",
@@ -71,6 +76,7 @@
         "index": {
           "description": "const id",
           "hierarchy": "Data Biapplicative",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Biapplicative",
           "name": "(*\u003e\u003e) *\u003e\u003e",
           "normalized": "a b c-\u003ea d e-\u003ea d e",
@@ -110,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n a \u003ccode\u003e\u003ca\u003e\u003c*\u003c/a\u003e\u003c/code\u003e b &#8801; \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e\u003c$\u003e\u003c/a\u003e\u003c/code\u003e a \u003ccode\u003e\u003c.\u003e\u003c/code\u003e b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Biapplicative",
           "name": "(\u003c\u003c*)",
           "package": "bifunctors",
@@ -120,6 +127,7 @@
         "index": {
           "description": "const",
           "hierarchy": "Data Biapplicative",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Biapplicative",
           "name": "(\u003c\u003c*) \u003c\u003c*",
           "normalized": "a b c-\u003ea d e-\u003ea b c",
@@ -134,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Biapplicative",
           "name": "(\u003c\u003c**\u003e\u003e)",
           "package": "bifunctors",
@@ -143,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data Biapplicative",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Biapplicative",
           "name": "(\u003c\u003c**\u003e\u003e) \u003c\u003c**\u003e\u003e",
           "normalized": "a b c-\u003ea(b-\u003ed)(c-\u003ee)-\u003ea d e",
@@ -157,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Biapplicative",
           "name": "(\u003c\u003c*\u003e\u003e)",
           "package": "bifunctors",
@@ -166,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Data Biapplicative",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Biapplicative",
           "name": "(\u003c\u003c*\u003e\u003e) \u003c\u003c*\u003e\u003e",
           "normalized": "a(b-\u003ec)(d-\u003ee)-\u003ea b d-\u003ea c e",
@@ -181,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift binary functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Biapplicative",
           "name": "biliftA2",
           "package": "bifunctors",
@@ -191,6 +204,7 @@
         "index": {
           "description": "Lift binary functions",
           "hierarchy": "Data Biapplicative",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Biapplicative",
           "name": "biliftA2",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(d-\u003ee-\u003ef)-\u003eg a d-\u003eg b e-\u003eg c f",
@@ -206,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift ternary functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Biapplicative",
           "name": "biliftA3",
           "package": "bifunctors",
@@ -216,6 +231,7 @@
         "index": {
           "description": "Lift ternary functions",
           "hierarchy": "Data Biapplicative",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Biapplicative",
           "name": "biliftA3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003e(e-\u003ef-\u003eg-\u003eh)-\u003ei a e-\u003ei b f-\u003ei c g-\u003ei d h",
@@ -230,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Biapplicative",
           "name": "bipure",
           "package": "bifunctors",
@@ -239,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Data Biapplicative",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Biapplicative",
           "name": "bipure",
           "normalized": "a-\u003eb-\u003ec a b",
@@ -253,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "Bifoldable",
           "package": "bifunctors",
@@ -261,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "Bifoldable",
           "package": "bifunctors",
@@ -274,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "Bifoldable",
           "package": "bifunctors",
@@ -282,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "Bifoldable",
           "package": "bifunctors",
@@ -295,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "biList",
           "package": "bifunctors",
@@ -304,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "biList",
           "normalized": "a b b-\u003e[b]",
@@ -319,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "biall",
           "package": "bifunctors",
@@ -328,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "biall",
           "normalized": "(a-\u003eBool)-\u003e(b-\u003eBool)-\u003ec a b-\u003eBool",
@@ -342,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "biany",
           "package": "bifunctors",
@@ -351,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "biany",
           "normalized": "(a-\u003eBool)-\u003e(b-\u003eBool)-\u003ec a b-\u003eBool",
@@ -365,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "biconcat",
           "package": "bifunctors",
@@ -374,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "biconcat",
           "normalized": "a[b][b]-\u003e[b]",
@@ -388,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "biconcatMap",
           "package": "bifunctors",
@@ -397,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "biconcatMap",
           "normalized": "(a-\u003e[b])-\u003e(c-\u003e[b])-\u003ed a c-\u003e[b]",
@@ -412,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "bifold",
           "package": "bifunctors",
@@ -421,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "bifold",
           "normalized": "a b b-\u003eb",
@@ -435,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "bifoldMap",
           "package": "bifunctors",
@@ -444,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "bifoldMap",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003ed a c-\u003eb",
@@ -459,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "bifoldl",
           "package": "bifunctors",
@@ -468,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "bifoldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003e(a-\u003ec-\u003ea)-\u003ea-\u003ed b c-\u003ea",
@@ -482,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "bifoldl'",
           "package": "bifunctors",
@@ -491,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "bifoldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003e(a-\u003ec-\u003ea)-\u003ea-\u003ed b c-\u003ea",
@@ -505,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "bifoldlM",
           "package": "bifunctors",
@@ -514,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "bifoldlM",
           "normalized": "(a-\u003eb-\u003ec a)-\u003e(a-\u003ed-\u003ec a)-\u003ea-\u003ee b d-\u003ec a",
@@ -528,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "bifoldr",
           "package": "bifunctors",
@@ -537,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "bifoldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003e(c-\u003eb-\u003eb)-\u003eb-\u003ed a c-\u003eb",
@@ -551,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "bifoldr'",
           "package": "bifunctors",
@@ -560,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "bifoldr'",
           "normalized": "(a-\u003eb-\u003eb)-\u003e(c-\u003eb-\u003eb)-\u003eb-\u003ed a c-\u003eb",
@@ -574,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "bifoldrM",
           "package": "bifunctors",
@@ -583,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "bifoldrM",
           "normalized": "(a-\u003eb-\u003ec b)-\u003e(d-\u003eb-\u003ec b)-\u003eb-\u003ee a d-\u003ec b",
@@ -597,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "biforM_",
           "package": "bifunctors",
@@ -606,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "biforM_",
           "normalized": "a b c-\u003e(b-\u003ed e)-\u003e(c-\u003ed f)-\u003ed()",
@@ -620,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "bifor_",
           "package": "bifunctors",
@@ -629,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "bifor_",
           "normalized": "a b c-\u003e(b-\u003ed e)-\u003e(c-\u003ed f)-\u003ed()",
@@ -643,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "bimapM_",
           "package": "bifunctors",
@@ -652,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "bimapM_",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ef a d-\u003eb()",
@@ -666,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "bisequenceA_",
           "package": "bifunctors",
@@ -675,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "bisequenceA_",
           "normalized": "a(b c)(b d)-\u003eb()",
@@ -689,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "bisequence_",
           "package": "bifunctors",
@@ -698,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "bisequence_",
           "normalized": "a(b c)(b d)-\u003eb()",
@@ -712,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifoldable",
           "name": "bitraverse_",
           "package": "bifunctors",
@@ -721,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Data Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifoldable",
           "name": "bitraverse_",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ef a d-\u003eb()",
@@ -735,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Apply",
           "name": "Apply",
           "package": "bifunctors",
@@ -743,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Data Bifunctor Apply",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Apply",
           "name": "Apply",
           "package": "bifunctors",
@@ -756,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Apply",
           "name": "Biapply",
           "package": "bifunctors",
@@ -764,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Data Bifunctor Apply",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Apply",
           "name": "Biapply",
           "package": "bifunctors",
@@ -778,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n a \u003ccode\u003e\u003c.\u003c/code\u003e b &#8801; \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e\u003c$\u003e\u003c/a\u003e\u003c/code\u003e a \u003ccode\u003e\u003c.\u003e\u003c/code\u003e b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Apply",
           "name": "(\u003c\u003c.)",
           "package": "bifunctors",
@@ -788,6 +853,7 @@
         "index": {
           "description": "const",
           "hierarchy": "Data Bifunctor Apply",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Apply",
           "name": "(\u003c\u003c.) \u003c\u003c.",
           "normalized": "a b c-\u003ea d e-\u003ea b c",
@@ -802,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Apply",
           "name": "(\u003c\u003c.\u003e\u003e)",
           "package": "bifunctors",
@@ -811,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Data Bifunctor Apply",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Apply",
           "name": "(\u003c\u003c.\u003e\u003e) \u003c\u003c.\u003e\u003e",
           "normalized": "a(b-\u003ec)(d-\u003ee)-\u003ea b d-\u003ea c e",
@@ -825,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Apply",
           "name": "(\u003c\u003c..\u003e\u003e)",
           "package": "bifunctors",
@@ -834,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Data Bifunctor Apply",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Apply",
           "name": "(\u003c\u003c..\u003e\u003e) \u003c\u003c..\u003e\u003e",
           "normalized": "a b c-\u003ea(b-\u003ed)(c-\u003ee)-\u003ea d e",
@@ -849,6 +919,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n a \u003ccode\u003e.\u003e\u003c/code\u003e b &#8801; \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e\u003c$\u003e\u003c/a\u003e\u003c/code\u003e a \u003ccode\u003e\u003c.\u003e\u003c/code\u003e b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Apply",
           "name": "(.\u003e\u003e)",
           "package": "bifunctors",
@@ -859,6 +930,7 @@
         "index": {
           "description": "const id",
           "hierarchy": "Data Bifunctor Apply",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Apply",
           "name": "(.\u003e\u003e) .\u003e\u003e",
           "normalized": "a b c-\u003ea d e-\u003ea d e",
@@ -874,6 +946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift binary functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Apply",
           "name": "bilift2",
           "package": "bifunctors",
@@ -884,6 +957,7 @@
         "index": {
           "description": "Lift binary functions",
           "hierarchy": "Data Bifunctor Apply",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Apply",
           "name": "bilift2",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(d-\u003ee-\u003ef)-\u003eg a d-\u003eg b e-\u003eg c f",
@@ -899,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift ternary functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Apply",
           "name": "bilift3",
           "package": "bifunctors",
@@ -909,6 +984,7 @@
         "index": {
           "description": "Lift ternary functions",
           "hierarchy": "Data Bifunctor Apply",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Apply",
           "name": "bilift3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003e(e-\u003ef-\u003eg-\u003eh)-\u003ei a e-\u003ei b f-\u003ei c g-\u003ei d h",
@@ -924,6 +1000,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFrom the Functional Pearl \"Clowns to the Left of me, Jokers to the Right: Dissecting Data Structures\"\n by Conor McBride.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Clown",
           "name": "Clown",
           "package": "bifunctors",
@@ -933,6 +1010,7 @@
         "index": {
           "description": "From the Functional Pearl Clowns to the Left of me Jokers to the Right Dissecting Data Structures by Conor McBride",
           "hierarchy": "Data Bifunctor Clown",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Clown",
           "name": "Clown",
           "package": "bifunctors",
@@ -947,6 +1025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e over the first argument of a \u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Clown",
           "name": "Clown",
           "package": "bifunctors",
@@ -956,6 +1035,7 @@
         "index": {
           "description": "Make Functor over the first argument of Bifunctor",
           "hierarchy": "Data Bifunctor Clown",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Clown",
           "name": "Clown",
           "package": "bifunctors",
@@ -969,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Clown",
           "name": "Clown",
           "package": "bifunctors",
@@ -978,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Data Bifunctor Clown",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Clown",
           "name": "Clown",
           "package": "bifunctors",
@@ -991,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Clown",
           "name": "runClown",
           "package": "bifunctors",
@@ -1000,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Data Bifunctor Clown",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Clown",
           "name": "runClown",
           "package": "bifunctors",
@@ -1013,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Flip",
           "name": "Flip",
           "package": "bifunctors",
@@ -1021,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Data Bifunctor Flip",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Flip",
           "name": "Flip",
           "package": "bifunctors",
@@ -1035,6 +1121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e over the first argument of a \u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Flip",
           "name": "Flip",
           "package": "bifunctors",
@@ -1044,6 +1131,7 @@
         "index": {
           "description": "Make Functor over the first argument of Bifunctor",
           "hierarchy": "Data Bifunctor Flip",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Flip",
           "name": "Flip",
           "package": "bifunctors",
@@ -1057,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Flip",
           "name": "Flip",
           "package": "bifunctors",
@@ -1066,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Data Bifunctor Flip",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Flip",
           "name": "Flip",
           "package": "bifunctors",
@@ -1079,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Flip",
           "name": "runFlip",
           "package": "bifunctors",
@@ -1088,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Data Bifunctor Flip",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Flip",
           "name": "runFlip",
           "package": "bifunctors",
@@ -1101,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Join",
           "name": "Join",
           "package": "bifunctors",
@@ -1109,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Data Bifunctor Join",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Join",
           "name": "Join",
           "package": "bifunctors",
@@ -1123,6 +1217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e over both arguments of a \u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Join",
           "name": "Join",
           "package": "bifunctors",
@@ -1132,6 +1227,7 @@
         "index": {
           "description": "Make Functor over both arguments of Bifunctor",
           "hierarchy": "Data Bifunctor Join",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Join",
           "name": "Join",
           "package": "bifunctors",
@@ -1145,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Join",
           "name": "Join",
           "package": "bifunctors",
@@ -1154,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Data Bifunctor Join",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Join",
           "name": "Join",
           "package": "bifunctors",
@@ -1167,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Join",
           "name": "runJoin",
           "package": "bifunctors",
@@ -1176,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Data Bifunctor Join",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Join",
           "name": "runJoin",
           "package": "bifunctors",
@@ -1190,6 +1290,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFrom the Functional Pearl \"Clowns to the Left of me, Jokers to the Right: Dissecting Data Structures\"\n by Conor McBride.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Joker",
           "name": "Joker",
           "package": "bifunctors",
@@ -1199,6 +1300,7 @@
         "index": {
           "description": "From the Functional Pearl Clowns to the Left of me Jokers to the Right Dissecting Data Structures by Conor McBride",
           "hierarchy": "Data Bifunctor Joker",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Joker",
           "name": "Joker",
           "package": "bifunctors",
@@ -1213,6 +1315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e over the second argument of a \u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Joker",
           "name": "Joker",
           "package": "bifunctors",
@@ -1222,6 +1325,7 @@
         "index": {
           "description": "Make Functor over the second argument of Bifunctor",
           "hierarchy": "Data Bifunctor Joker",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Joker",
           "name": "Joker",
           "package": "bifunctors",
@@ -1235,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Joker",
           "name": "Joker",
           "package": "bifunctors",
@@ -1244,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Data Bifunctor Joker",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Joker",
           "name": "Joker",
           "package": "bifunctors",
@@ -1257,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Joker",
           "name": "runJoker",
           "package": "bifunctors",
@@ -1266,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Data Bifunctor Joker",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Joker",
           "name": "runJoker",
           "package": "bifunctors",
@@ -1280,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe product of two bifunctors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Product",
           "name": "Product",
           "package": "bifunctors",
@@ -1289,6 +1398,7 @@
         "index": {
           "description": "The product of two bifunctors",
           "hierarchy": "Data Bifunctor Product",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Product",
           "name": "Product",
           "package": "bifunctors",
@@ -1303,6 +1413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm the product of two bifunctors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Product",
           "name": "Product",
           "package": "bifunctors",
@@ -1312,6 +1423,7 @@
         "index": {
           "description": "Form the product of two bifunctors",
           "hierarchy": "Data Bifunctor Product",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Product",
           "name": "Product",
           "package": "bifunctors",
@@ -1325,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Product",
           "name": "Pair",
           "package": "bifunctors",
@@ -1334,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Data Bifunctor Product",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Product",
           "name": "Pair",
           "package": "bifunctors",
@@ -1347,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Wrapped",
           "name": "Wrapped",
           "package": "bifunctors",
@@ -1355,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "Data Bifunctor Wrapped",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Wrapped",
           "name": "Wrapped",
           "package": "bifunctors",
@@ -1369,6 +1485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e over the second argument of a \u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Wrapped",
           "name": "WrappedBifunctor",
           "package": "bifunctors",
@@ -1378,6 +1495,7 @@
         "index": {
           "description": "Make Functor over the second argument of Bifunctor",
           "hierarchy": "Data Bifunctor Wrapped",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Wrapped",
           "name": "WrappedBifunctor",
           "package": "bifunctors",
@@ -1391,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Wrapped",
           "name": "WrapBifunctor",
           "package": "bifunctors",
@@ -1400,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Data Bifunctor Wrapped",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Wrapped",
           "name": "WrapBifunctor",
           "package": "bifunctors",
@@ -1413,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor.Wrapped",
           "name": "unwrapBifunctor",
           "package": "bifunctors",
@@ -1422,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "Data Bifunctor Wrapped",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor.Wrapped",
           "name": "unwrapBifunctor",
           "package": "bifunctors",
@@ -1435,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor",
           "name": "Bifunctor",
           "package": "bifunctors",
@@ -1443,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "Data Bifunctor",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor",
           "name": "Bifunctor",
           "package": "bifunctors",
@@ -1457,6 +1581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal definition either \u003ccode\u003e\u003ca\u003ebimap\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esecond\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eFormally, the class \u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e represents a bifunctor\n from \u003ccode\u003eHask\u003c/code\u003e -\u003e \u003ccode\u003eHask\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIntuitively it is a bifunctor where both the first and second arguments are covariant.\n\u003c/p\u003e\u003cp\u003eYou can define a \u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e by either defining \u003ccode\u003e\u003ca\u003ebimap\u003c/a\u003e\u003c/code\u003e or by defining both\n \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esecond\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf you supply \u003ccode\u003e\u003ca\u003ebimap\u003c/a\u003e\u003c/code\u003e, you should ensure that:\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003ebimap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e &#8801; \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eIf you supply \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esecond\u003c/a\u003e\u003c/code\u003e, ensure:\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e &#8801; \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003e\u003ca\u003esecond\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e &#8801; \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eIf you supply both, you should also ensure:\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003ebimap\u003c/a\u003e\u003c/code\u003e f g &#8801; \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003esecond\u003c/a\u003e\u003c/code\u003e g\u003c/pre\u003e\u003cp\u003eThese ensure by parametricity:\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003ebimap\u003c/a\u003e\u003c/code\u003e  (f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e g) (h \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e i) &#8801; \u003ccode\u003e\u003ca\u003ebimap\u003c/a\u003e\u003c/code\u003e f h \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ebimap\u003c/a\u003e\u003c/code\u003e g i\n \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e  (f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e g) &#8801; \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e  f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e  g\n \u003ccode\u003e\u003ca\u003esecond\u003c/a\u003e\u003c/code\u003e (f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e g) &#8801; \u003ccode\u003e\u003ca\u003esecond\u003c/a\u003e\u003c/code\u003e f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003esecond\u003c/a\u003e\u003c/code\u003e g\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor",
           "name": "Bifunctor",
           "package": "bifunctors",
@@ -1466,6 +1591,7 @@
         "index": {
           "description": "Minimal definition either bimap or first and second Formally the class Bifunctor represents bifunctor from Hask Hask Intuitively it is bifunctor where both the first and second arguments are covariant You can define Bifunctor by either defining bimap or by defining both first and second If you supply bimap you should ensure that bimap id id id If you supply first and second ensure first id id second id id If you supply both you should also ensure bimap first second These ensure by parametricity bimap bimap bimap first first first second second second",
           "hierarchy": "Data Bifunctor",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor",
           "name": "Bifunctor",
           "package": "bifunctors",
@@ -1480,6 +1606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over both arguments at the same time.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003ebimap\u003c/a\u003e\u003c/code\u003e f g &#8801; \u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003esecond\u003c/a\u003e\u003c/code\u003e g\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor",
           "name": "bimap",
           "package": "bifunctors",
@@ -1490,6 +1617,7 @@
         "index": {
           "description": "Map over both arguments at the same time bimap first second",
           "hierarchy": "Data Bifunctor",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor",
           "name": "bimap",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003ee a c-\u003ee b d",
@@ -1505,6 +1633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap covariantly over the first argument.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003efirst\u003c/a\u003e\u003c/code\u003e f &#8801; \u003ccode\u003e\u003ca\u003ebimap\u003c/a\u003e\u003c/code\u003e f \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor",
           "name": "first",
           "package": "bifunctors",
@@ -1515,6 +1644,7 @@
         "index": {
           "description": "Map covariantly over the first argument first bimap id",
           "hierarchy": "Data Bifunctor",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor",
           "name": "first",
           "normalized": "(a-\u003eb)-\u003ec a d-\u003ec b d",
@@ -1530,6 +1660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap covariantly over the second argument.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003esecond\u003c/a\u003e\u003c/code\u003e &#8801; \u003ccode\u003e\u003ca\u003ebimap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bifunctor",
           "name": "second",
           "package": "bifunctors",
@@ -1540,6 +1671,7 @@
         "index": {
           "description": "Map covariantly over the second argument second bimap id",
           "hierarchy": "Data Bifunctor",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bifunctor",
           "name": "second",
           "normalized": "(a-\u003eb)-\u003ec d a-\u003ec d b",
@@ -1554,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bitraversable",
           "name": "Bitraversable",
           "package": "bifunctors",
@@ -1562,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "Data Bitraversable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bitraversable",
           "name": "Bitraversable",
           "package": "bifunctors",
@@ -1575,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bitraversable",
           "name": "Bitraversable",
           "package": "bifunctors",
@@ -1583,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Data Bitraversable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bitraversable",
           "name": "Bitraversable",
           "package": "bifunctors",
@@ -1596,6 +1732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bitraversable",
           "name": "bifoldMapDefault",
           "package": "bifunctors",
@@ -1605,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "Data Bitraversable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bitraversable",
           "name": "bifoldMapDefault",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003ed a c-\u003eb",
@@ -1620,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bitraversable",
           "name": "bifor",
           "package": "bifunctors",
@@ -1629,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "Data Bitraversable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bitraversable",
           "name": "bifor",
           "normalized": "a b c-\u003e(b-\u003ed e)-\u003e(c-\u003ed f)-\u003ed(a e f)",
@@ -1643,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bitraversable",
           "name": "biforM",
           "package": "bifunctors",
@@ -1652,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "Data Bitraversable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bitraversable",
           "name": "biforM",
           "normalized": "a b c-\u003e(b-\u003ed e)-\u003e(c-\u003ed f)-\u003ed(a e f)",
@@ -1666,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bitraversable",
           "name": "bimapAccumL",
           "package": "bifunctors",
@@ -1675,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Data Bitraversable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bitraversable",
           "name": "bimapAccumL",
           "normalized": "(a-\u003eb-\u003e(a,c))-\u003e(a-\u003ed-\u003e(a,e))-\u003ea-\u003ef b d-\u003e(a,f c e)",
@@ -1690,6 +1834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bitraversable",
           "name": "bimapAccumR",
           "package": "bifunctors",
@@ -1699,6 +1844,7 @@
         },
         "index": {
           "hierarchy": "Data Bitraversable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bitraversable",
           "name": "bimapAccumR",
           "normalized": "(a-\u003eb-\u003e(a,c))-\u003e(a-\u003ed-\u003e(a,e))-\u003ea-\u003ef b d-\u003e(a,f c e)",
@@ -1714,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bitraversable",
           "name": "bimapDefault",
           "package": "bifunctors",
@@ -1723,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Data Bitraversable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bitraversable",
           "name": "bimapDefault",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003ee a c-\u003ee b d",
@@ -1738,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bitraversable",
           "name": "bimapM",
           "package": "bifunctors",
@@ -1747,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "Data Bitraversable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bitraversable",
           "name": "bimapM",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ef a d-\u003eb(f c e)",
@@ -1761,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bitraversable",
           "name": "bisequence",
           "package": "bifunctors",
@@ -1770,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "Data Bitraversable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bitraversable",
           "name": "bisequence",
           "normalized": "a(b c)(b d)-\u003eb(a c d)",
@@ -1784,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bitraversable",
           "name": "bisequenceA",
           "package": "bifunctors",
@@ -1793,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Data Bitraversable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bitraversable",
           "name": "bisequenceA",
           "normalized": "a(b c)(b d)-\u003eb(a c d)",
@@ -1807,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Bitraversable",
           "name": "bitraverse",
           "package": "bifunctors",
@@ -1816,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Data Bitraversable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Bitraversable",
           "name": "bitraverse",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ef a d-\u003eb(f c e)",
@@ -1830,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Semigroup.Bifoldable",
           "name": "Bifoldable",
           "package": "bifunctors",
@@ -1838,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Semigroup.Bifoldable",
           "name": "Bifoldable",
           "package": "bifunctors",
@@ -1851,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Semigroup.Bifoldable",
           "name": "Bifoldable1",
           "package": "bifunctors",
@@ -1859,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Semigroup.Bifoldable",
           "name": "Bifoldable1",
           "package": "bifunctors",
@@ -1872,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Semigroup.Bifoldable",
           "name": "bifold1",
           "package": "bifunctors",
@@ -1881,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Semigroup.Bifoldable",
           "name": "bifold1",
           "normalized": "a b b-\u003eb",
@@ -1895,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Semigroup.Bifoldable",
           "name": "bifoldMap1",
           "package": "bifunctors",
@@ -1904,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Semigroup.Bifoldable",
           "name": "bifoldMap1",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003ed a c-\u003eb",
@@ -1920,6 +2084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsable default for foldMap, but only if you define bifoldMap1 yourself\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Semigroup.Bifoldable",
           "name": "bifoldMapDefault1",
           "package": "bifunctors",
@@ -1930,6 +2095,7 @@
         "index": {
           "description": "Usable default for foldMap but only if you define bifoldMap1 yourself",
           "hierarchy": "Data Semigroup Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Semigroup.Bifoldable",
           "name": "bifoldMapDefault1",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003ed a c-\u003eb",
@@ -1945,6 +2111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Semigroup.Bifoldable",
           "name": "bifor1_",
           "package": "bifunctors",
@@ -1954,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Semigroup.Bifoldable",
           "name": "bifor1_",
           "normalized": "a b c-\u003e(b-\u003ed e)-\u003e(c-\u003ed f)-\u003ed()",
@@ -1968,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Semigroup.Bifoldable",
           "name": "bisequenceA1_",
           "package": "bifunctors",
@@ -1977,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Semigroup.Bifoldable",
           "name": "bisequenceA1_",
           "normalized": "a(b c)(b d)-\u003eb()",
@@ -1991,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Semigroup.Bifoldable",
           "name": "bitraverse1_",
           "package": "bifunctors",
@@ -2000,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Bifoldable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Semigroup.Bifoldable",
           "name": "bitraverse1_",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ef a d-\u003eb()",
@@ -2014,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Semigroup.Bitraversable",
           "name": "Bitraversable",
           "package": "bifunctors",
@@ -2022,6 +2195,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Bitraversable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Semigroup.Bitraversable",
           "name": "Bitraversable",
           "package": "bifunctors",
@@ -2035,6 +2209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Semigroup.Bitraversable",
           "name": "Bitraversable1",
           "package": "bifunctors",
@@ -2043,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Bitraversable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Semigroup.Bitraversable",
           "name": "Bitraversable1",
           "package": "bifunctors",
@@ -2056,6 +2232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Semigroup.Bitraversable",
           "name": "bifoldMap1Default",
           "package": "bifunctors",
@@ -2065,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Bitraversable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Semigroup.Bitraversable",
           "name": "bifoldMap1Default",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003ed a c-\u003eb",
@@ -2080,6 +2258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Semigroup.Bitraversable",
           "name": "bisequence1",
           "package": "bifunctors",
@@ -2089,6 +2268,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Bitraversable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Semigroup.Bitraversable",
           "name": "bisequence1",
           "normalized": "a(b c)(b d)-\u003eb(a c d)",
@@ -2103,6 +2283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:16 UTC 2014",
           "module": "Data.Semigroup.Bitraversable",
           "name": "bitraverse1",
           "package": "bifunctors",
@@ -2112,6 +2293,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Bitraversable",
+          "indexed": "2014-03-11T17:18:16",
           "module": "Data.Semigroup.Bitraversable",
           "name": "bitraverse1",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ef a d-\u003eb(f c e)",

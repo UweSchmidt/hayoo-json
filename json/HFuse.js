@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HFuse"
+        "phrase": "HFuse",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA binding for the FUSE (Filesystem in USErspace) library\n (\u003ca\u003ehttp://fuse.sourceforge.net/\u003c/a\u003e), which allows filesystems to be implemented\n as userspace processes.\n\u003c/p\u003e\u003cp\u003eThe binding tries to follow as much as possible current Haskell POSIX\n interface in \u003ca\u003eSystem.Posix.Files\u003c/a\u003e and \u003ca\u003eSystem.Posix.Directory\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eFUSE uses POSIX threads, so any Haskell application using this library must\n be linked against a threaded runtime system (eg. using the \u003ccode\u003ethreaded\u003c/code\u003e GHC\n option).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "Fuse",
           "package": "HFuse",
@@ -28,6 +29,7 @@
         "index": {
           "description": "binding for the FUSE Filesystem in USErspace library http fuse.sourceforge.net which allows filesystems to be implemented as userspace processes The binding tries to follow as much as possible current Haskell POSIX interface in System.Posix.Files and System.Posix.Directory FUSE uses POSIX threads so any Haskell application using this library must be linked against threaded runtime system eg using the threaded GHC option",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "Fuse",
           "package": "HFuse",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Unix type of a node in the filesystem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "EntryType",
           "package": "HFuse",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The Unix type of node in the filesystem",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "EntryType",
           "package": "HFuse",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by \u003ccode\u003e\u003ca\u003efuseGetFileStat\u003c/a\u003e\u003c/code\u003e.  Corresponds to \u003ccode\u003estruct stat\u003c/code\u003e from \u003ccode\u003estat.h\u003c/code\u003e;\n     \u003ccode\u003est_dev\u003c/code\u003e, \u003ccode\u003est_ino\u003c/code\u003e and \u003ccode\u003est_blksize\u003c/code\u003e are omitted, since (from the libfuse\n     documentation): \"the \u003ccode\u003est_dev\u003c/code\u003e and \u003ccode\u003est_blksize\u003c/code\u003e fields are ignored.  The\n     \u003ccode\u003est_ino\u003c/code\u003e field is ignored except if the use_ino mount option is given.\"\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eTODO: at some point the inode field will probably be needed.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "FileStat",
           "package": "HFuse",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Used by fuseGetFileStat Corresponds to struct stat from stat.h st dev st ino and st blksize are omitted since from the libfuse documentation the st dev and st blksize fields are ignored The st ino field is ignored except if the use ino mount option is given TODO at some point the inode field will probably be needed",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "FileStat",
           "package": "HFuse",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType used by the \u003ccode\u003e\u003ca\u003efuseGetFileSystemStats\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "FileSystemStats",
           "package": "HFuse",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Type used by the fuseGetFileSystemStats",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "FileSystemStats",
           "package": "HFuse",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturned by \u003ccode\u003e\u003ca\u003egetFuseContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "FuseContext",
           "package": "HFuse",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Returned by getFuseContext",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "FuseContext",
           "package": "HFuse",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis record, given to \u003ccode\u003e\u003ca\u003efuseMain\u003c/a\u003e\u003c/code\u003e, binds each required file system\n   operations.\n\u003c/p\u003e\u003cp\u003eEach field is named against \u003ccode\u003e\u003ca\u003ePosix\u003c/a\u003e\u003c/code\u003e names. Matching Linux system\n   calls are also given as a reference.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003efh\u003c/code\u003e is the file handle type returned by \u003ccode\u003e\u003ca\u003efuseOpen\u003c/a\u003e\u003c/code\u003e and subsequently passed\n   to all other file operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "FuseOperations",
           "package": "HFuse",
@@ -143,6 +154,7 @@
         "index": {
           "description": "This record given to fuseMain binds each required file system operations Each field is named against Posix names Matching Linux system calls are also given as reference fh is the file handle type returned by fuseOpen and subsequently passed to all other file operations",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "FuseOperations",
           "package": "HFuse",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorrespond to some of the int flags from C's fcntl.h.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "OpenFileFlags",
           "package": "HFuse",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Correspond to some of the int flags from fcntl.h",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "OpenFileFlags",
           "package": "HFuse",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "OpenMode",
           "package": "HFuse",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "OpenMode",
           "package": "HFuse",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by \u003ccode\u003e\u003ca\u003efuseSynchronizeFile\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efuseSynchronizeDirectory\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "SyncType",
           "package": "HFuse",
@@ -208,6 +225,7 @@
         "index": {
           "description": "Used by fuseSynchronizeFile and fuseSynchronizeDirectory",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "SyncType",
           "package": "HFuse",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "BlockSpecial",
           "package": "HFuse",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "BlockSpecial",
           "package": "HFuse",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "CharacterSpecial",
           "package": "HFuse",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "CharacterSpecial",
           "package": "HFuse",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronize only the file content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "DataSync",
           "package": "HFuse",
@@ -276,6 +299,7 @@
         "index": {
           "description": "Synchronize only the file content",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "DataSync",
           "package": "HFuse",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "Directory",
           "package": "HFuse",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "Directory",
           "package": "HFuse",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "FileStat",
           "package": "HFuse",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "FileStat",
           "package": "HFuse",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "FileSystemStats",
           "package": "HFuse",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "FileSystemStats",
           "package": "HFuse",
@@ -356,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronize all in-core parts of a file to disk: file content and\n metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "FullSync",
           "package": "HFuse",
@@ -366,6 +397,7 @@
         "index": {
           "description": "Synchronize all in-core parts of file to disk file content and metadata",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "FullSync",
           "package": "HFuse",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "FuseOperations",
           "package": "HFuse",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "FuseOperations",
           "package": "HFuse",
@@ -401,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "NamedPipe",
           "package": "HFuse",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "NamedPipe",
           "package": "HFuse",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "OpenFileFlags",
           "package": "HFuse",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "OpenFileFlags",
           "package": "HFuse",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "ReadOnly",
           "package": "HFuse",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "ReadOnly",
           "package": "HFuse",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "ReadWrite",
           "package": "HFuse",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "ReadWrite",
           "package": "HFuse",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "RegularFile",
           "package": "HFuse",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "RegularFile",
           "package": "HFuse",
@@ -508,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "Socket",
           "package": "HFuse",
@@ -517,6 +562,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "Socket",
           "package": "HFuse",
@@ -530,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "SymbolicLink",
           "package": "HFuse",
@@ -539,6 +586,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "SymbolicLink",
           "package": "HFuse",
@@ -553,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnknown entry type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "Unknown",
           "package": "HFuse",
@@ -563,6 +612,7 @@
         "index": {
           "description": "Unknown entry type",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "Unknown",
           "package": "HFuse",
@@ -576,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "WriteOnly",
           "package": "HFuse",
@@ -584,6 +635,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "WriteOnly",
           "package": "HFuse",
@@ -598,6 +650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO_APPEND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "append",
           "package": "HFuse",
@@ -607,6 +660,7 @@
         "index": {
           "description": "APPEND",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "append",
           "package": "HFuse",
@@ -620,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault exception handler.\n Print the exception on error output and returns \u003ccode\u003e\u003ca\u003eeFAULT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "defaultExceptionHandler",
           "package": "HFuse",
@@ -630,6 +685,7 @@
         "index": {
           "description": "Default exception handler Print the exception on error output and returns eFAULT",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "defaultExceptionHandler",
           "normalized": "SomeException-\u003eIO Errno",
@@ -646,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty / default versions of the FUSE operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "defaultFuseOps",
           "package": "HFuse",
@@ -656,6 +713,7 @@
         "index": {
           "description": "Empty default versions of the FUSE operations",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "defaultFuseOps",
           "package": "HFuse",
@@ -670,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an \u003ccode\u003e\u003ca\u003eEntryType\u003c/a\u003e\u003c/code\u003e into the corresponding POSIX \u003ccode\u003e\u003ca\u003eFileMode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "entryTypeToFileMode",
           "package": "HFuse",
@@ -680,6 +739,7 @@
         "index": {
           "description": "Converts an EntryType into the corresponding POSIX FileMode",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "entryTypeToFileMode",
           "normalized": "EntryType-\u003eFileMode",
@@ -696,6 +756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO_EXCL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "exclusive",
           "package": "HFuse",
@@ -705,6 +766,7 @@
         "index": {
           "description": "EXCL",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "exclusive",
           "package": "HFuse",
@@ -717,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fileModeToEntryType",
           "package": "HFuse",
@@ -726,6 +789,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fileModeToEntryType",
           "normalized": "FileMode-\u003eEntryType",
@@ -742,6 +806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal data blocks in file system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fsStatBlockCount",
           "package": "HFuse",
@@ -752,6 +817,7 @@
         "index": {
           "description": "Total data blocks in file system",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fsStatBlockCount",
           "package": "HFuse",
@@ -766,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptimal transfer block size. FUSE default is 512.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fsStatBlockSize",
           "package": "HFuse",
@@ -776,6 +843,7 @@
         "index": {
           "description": "Optimal transfer block size FUSE default is",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fsStatBlockSize",
           "package": "HFuse",
@@ -790,6 +858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree blocks available to non-superusers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fsStatBlocksAvailable",
           "package": "HFuse",
@@ -800,6 +869,7 @@
         "index": {
           "description": "Free blocks available to non-superusers",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fsStatBlocksAvailable",
           "package": "HFuse",
@@ -814,6 +884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree blocks in file system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fsStatBlocksFree",
           "package": "HFuse",
@@ -824,6 +895,7 @@
         "index": {
           "description": "Free blocks in file system",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fsStatBlocksFree",
           "package": "HFuse",
@@ -838,6 +910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal file nodes in file system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fsStatFileCount",
           "package": "HFuse",
@@ -848,6 +921,7 @@
         "index": {
           "description": "Total file nodes in file system",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fsStatFileCount",
           "package": "HFuse",
@@ -862,6 +936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree file nodes in file system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fsStatFilesFree",
           "package": "HFuse",
@@ -872,6 +947,7 @@
         "index": {
           "description": "Free file nodes in file system",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fsStatFilesFree",
           "package": "HFuse",
@@ -886,6 +962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum length of filenames. FUSE default is 255.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fsStatMaxNameLength",
           "package": "HFuse",
@@ -896,6 +973,7 @@
         "index": {
           "description": "Maximum length of filenames FUSE default is",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fsStatMaxNameLength",
           "package": "HFuse",
@@ -910,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck file access permissions; this will be called for the\n   access() system call.  If the \u003ccode\u003edefault_permissions\u003c/code\u003e mount option\n   is given, this method is not called.  This method is also not\n   called under Linux kernel versions 2.4.x\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseAccess",
           "package": "HFuse",
@@ -920,6 +999,7 @@
         "index": {
           "description": "Check file access permissions this will be called for the access system call If the default permissions mount option is given this method is not called This method is also not called under Linux kernel versions",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseAccess",
           "normalized": "FilePath-\u003eInt-\u003eIO Errno",
@@ -936,6 +1016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements \u003ccode\u003e\u003ca\u003ecreateDevice\u003c/a\u003e\u003c/code\u003e (POSIX \u003ccode\u003emknod(2)\u003c/code\u003e).\n   This function will also be called for regular file creation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseCreateDevice",
           "package": "HFuse",
@@ -946,6 +1027,7 @@
         "index": {
           "description": "Implements createDevice POSIX mknod This function will also be called for regular file creation",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseCreateDevice",
           "normalized": "FilePath-\u003eEntryType-\u003eFileMode-\u003eDeviceID-\u003eIO Errno",
@@ -962,6 +1044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements \u003ccode\u003e\u003ca\u003ecreateDirectory\u003c/a\u003e\u003c/code\u003e (POSIX\n   \u003ccode\u003emkdir(2)\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseCreateDirectory",
           "package": "HFuse",
@@ -972,6 +1055,7 @@
         "index": {
           "description": "Implements createDirectory POSIX mkdir",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseCreateDirectory",
           "normalized": "FilePath-\u003eFileMode-\u003eIO Errno",
@@ -988,6 +1072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements \u003ccode\u003e\u003ca\u003ecreateLink\u003c/a\u003e\u003c/code\u003e (POSIX \u003ccode\u003elink(2)\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseCreateLink",
           "package": "HFuse",
@@ -998,6 +1083,7 @@
         "index": {
           "description": "Implements createLink POSIX link",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseCreateLink",
           "normalized": "FilePath-\u003eFilePath-\u003eIO Errno",
@@ -1014,6 +1100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements \u003ccode\u003e\u003ca\u003ecreateSymbolicLink\u003c/a\u003e\u003c/code\u003e (POSIX\n   \u003ccode\u003esymlink(2)\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseCreateSymbolicLink",
           "package": "HFuse",
@@ -1024,6 +1111,7 @@
         "index": {
           "description": "Implements createSymbolicLink POSIX symlink",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseCreateSymbolicLink",
           "normalized": "FilePath-\u003eFilePath-\u003eIO Errno",
@@ -1040,6 +1128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalled on filesystem exit to allow cleanup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseDestroy",
           "package": "HFuse",
@@ -1050,6 +1139,7 @@
         "index": {
           "description": "Called on filesystem exit to allow cleanup",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseDestroy",
           "normalized": "IO()",
@@ -1066,6 +1156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalled when \u003ccode\u003eclose(2)\u003c/code\u003e has been called on an open file.\n   Note: this does not mean that the file is released.  This function may be\n   called more than once for each \u003ccode\u003eopen(2)\u003c/code\u003e.  The return value is passed on\n   to the \u003ccode\u003eclose(2)\u003c/code\u003e system call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseFlush",
           "package": "HFuse",
@@ -1076,6 +1167,7 @@
         "index": {
           "description": "Called when close has been called on an open file Note this does not mean that the file is released This function may be called more than once for each open The return value is passed on to the close system call",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseFlush",
           "normalized": "FilePath-\u003ea-\u003eIO Errno",
@@ -1092,6 +1184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements \u003ccode\u003e\u003ca\u003egetSymbolicLinkStatus\u003c/a\u003e\u003c/code\u003e operation\n   (POSIX \u003ccode\u003elstat(2)\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseGetFileStat",
           "package": "HFuse",
@@ -1102,6 +1195,7 @@
         "index": {
           "description": "Implements getSymbolicLinkStatus operation POSIX lstat",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseGetFileStat",
           "normalized": "FilePath-\u003eIO(Either Errno FileStat)",
@@ -1118,6 +1212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements \u003ccode\u003estatfs(2)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseGetFileSystemStats",
           "package": "HFuse",
@@ -1128,6 +1223,7 @@
         "index": {
           "description": "Implements statfs",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseGetFileSystemStats",
           "normalized": "String-\u003eIO(Either Errno FileSystemStats)",
@@ -1144,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializes the filesystem.  This is called before all other\n   operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseInit",
           "package": "HFuse",
@@ -1154,6 +1251,7 @@
         "index": {
           "description": "Initializes the filesystem This is called before all other operations",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseInit",
           "normalized": "IO()",
@@ -1170,6 +1268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain function of FUSE.\n This is all that has to be called from the \u003ccode\u003emain\u003c/code\u003e function. On top of\n the \u003ccode\u003e\u003ca\u003eFuseOperations\u003c/a\u003e\u003c/code\u003e record with filesystem implementation, you must give\n an exception handler converting Haskell exceptions to \u003ccode\u003e\u003ca\u003eErrno\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function does the following:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e parses command line options (\u003ccode\u003e-d\u003c/code\u003e, \u003ccode\u003e-s\u003c/code\u003e and \u003ccode\u003e-h\u003c/code\u003e) ;\n\u003c/li\u003e\u003cli\u003e passes all options after \u003ccode\u003e--\u003c/code\u003e to the fusermount program ;\n\u003c/li\u003e\u003cli\u003e mounts the filesystem by calling \u003ccode\u003efusermount\u003c/code\u003e ;\n\u003c/li\u003e\u003cli\u003e installs signal handlers for \u003ccode\u003e\u003ca\u003ekeyboardSignal\u003c/a\u003e\u003c/code\u003e,\n     \u003ccode\u003e\u003ca\u003elostConnection\u003c/a\u003e\u003c/code\u003e,\n     \u003ccode\u003e\u003ca\u003esoftwareTermination\u003c/a\u003e\u003c/code\u003e and\n     \u003ccode\u003e\u003ca\u003eopenEndedPipe\u003c/a\u003e\u003c/code\u003e ;\n\u003c/li\u003e\u003cli\u003e registers an exit handler to unmount the filesystem on program exit ;\n\u003c/li\u003e\u003cli\u003e registers the operations ;\n\u003c/li\u003e\u003cli\u003e calls FUSE event loop.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseMain",
           "package": "HFuse",
@@ -1180,6 +1279,7 @@
         "index": {
           "description": "Main function of FUSE This is all that has to be called from the main function On top of the FuseOperations record with filesystem implementation you must give an exception handler converting Haskell exceptions to Errno This function does the following parses command line options and passes all options after to the fusermount program mounts the filesystem by calling fusermount installs signal handlers for keyboardSignal lostConnection softwareTermination and openEndedPipe registers an exit handler to unmount the filesystem on program exit registers the operations calls FUSE event loop",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseMain",
           "normalized": "FuseOperations a-\u003e(b-\u003eIO Errno)-\u003eIO()",
@@ -1196,6 +1296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements \u003ccode\u003e\u003ca\u003eopenFd\u003c/a\u003e\u003c/code\u003e (POSIX \u003ccode\u003eopen(2)\u003c/code\u003e).  On\n   success, returns \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e of a filehandle-like value that will be\n   passed to future file operations; on failure, returns \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e of the\n   appropriate \u003ccode\u003e\u003ca\u003eErrno\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNo creation, exclusive access or truncating flags will be passed.\n   This should check that the operation is permitted for the given\n   flags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseOpen",
           "package": "HFuse",
@@ -1206,6 +1307,7 @@
         "index": {
           "description": "Implements openFd POSIX open On success returns Right of filehandle-like value that will be passed to future file operations on failure returns Left of the appropriate Errno No creation exclusive access or truncating flags will be passed This should check that the operation is permitted for the given flags",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseOpen",
           "normalized": "FilePath-\u003eOpenMode-\u003eOpenFileFlags-\u003eIO(Either Errno a)",
@@ -1222,6 +1324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements \u003ccode\u003eopendir(3)\u003c/code\u003e.  This method should check if the open\n   operation is permitted for this directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseOpenDirectory",
           "package": "HFuse",
@@ -1232,6 +1335,7 @@
         "index": {
           "description": "Implements opendir This method should check if the open operation is permitted for this directory",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseOpenDirectory",
           "normalized": "FilePath-\u003eIO Errno",
@@ -1248,6 +1352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements Unix98 \u003ccode\u003epread(2)\u003c/code\u003e. It differs from\n   \u003ccode\u003e\u003ca\u003efdRead\u003c/a\u003e\u003c/code\u003e by the explicit \u003ccode\u003e\u003ca\u003eFileOffset\u003c/a\u003e\u003c/code\u003e argument.\n   The \u003ccode\u003efuse.h\u003c/code\u003e documentation stipulates that this \"should return\n   exactly the number of bytes requested except on EOF or error,\n   otherwise the rest of the data will be substituted with zeroes.\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseRead",
           "package": "HFuse",
@@ -1258,6 +1363,7 @@
         "index": {
           "description": "Implements Unix98 pread It differs from fdRead by the explicit FileOffset argument The fuse.h documentation stipulates that this should return exactly the number of bytes requested except on EOF or error otherwise the rest of the data will be substituted with zeroes",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseRead",
           "normalized": "FilePath-\u003ea-\u003eByteCount-\u003eFileOffset-\u003eIO(Either Errno ByteString)",
@@ -1274,6 +1380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements \u003ccode\u003ereaddir(3)\u003c/code\u003e.  The entire contents of the directory\n   should be returned as a list of tuples (corresponding to the first\n   mode of operation documented in \u003ccode\u003efuse.h\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseReadDirectory",
           "package": "HFuse",
@@ -1284,6 +1391,7 @@
         "index": {
           "description": "Implements readdir The entire contents of the directory should be returned as list of tuples corresponding to the first mode of operation documented in fuse.h",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseReadDirectory",
           "normalized": "FilePath-\u003eIO(Either Errno[(FilePath,FileStat)])",
@@ -1300,6 +1408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements \u003ccode\u003e\u003ca\u003ereadSymbolicLink\u003c/a\u003e\u003c/code\u003e operation (POSIX\n   \u003ccode\u003ereadlink(2)\u003c/code\u003e).  The returned \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e might be truncated\n   depending on caller buffer size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseReadSymbolicLink",
           "package": "HFuse",
@@ -1310,6 +1419,7 @@
         "index": {
           "description": "Implements readSymbolicLink operation POSIX readlink The returned FilePath might be truncated depending on caller buffer size",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseReadSymbolicLink",
           "normalized": "FilePath-\u003eIO(Either Errno FilePath)",
@@ -1326,6 +1436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalled when an open file has all file descriptors closed and all\n memory mappings unmapped.  For every \u003ccode\u003eopen\u003c/code\u003e call there will be\n exactly one \u003ccode\u003erelease\u003c/code\u003e call with the same flags.  It is possible to\n have a file opened more than once, in which case only the last\n release will mean that no more reads or writes will happen on the\n file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseRelease",
           "package": "HFuse",
@@ -1336,6 +1447,7 @@
         "index": {
           "description": "Called when an open file has all file descriptors closed and all memory mappings unmapped For every open call there will be exactly one release call with the same flags It is possible to have file opened more than once in which case only the last release will mean that no more reads or writes will happen on the file",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseRelease",
           "normalized": "FilePath-\u003ea-\u003eIO()",
@@ -1352,6 +1464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements \u003ccode\u003eclosedir(3)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseReleaseDirectory",
           "package": "HFuse",
@@ -1362,6 +1475,7 @@
         "index": {
           "description": "Implements closedir",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseReleaseDirectory",
           "normalized": "FilePath-\u003eIO Errno",
@@ -1378,6 +1492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements \u003ccode\u003e\u003ca\u003eremoveDirectory\u003c/a\u003e\u003c/code\u003e (POSIX\n   \u003ccode\u003ermdir(2)\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseRemoveDirectory",
           "package": "HFuse",
@@ -1388,6 +1503,7 @@
         "index": {
           "description": "Implements removeDirectory POSIX rmdir",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseRemoveDirectory",
           "normalized": "FilePath-\u003eIO Errno",
@@ -1404,6 +1520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements \u003ccode\u003e\u003ca\u003eremoveLink\u003c/a\u003e\u003c/code\u003e (POSIX \u003ccode\u003eunlink(2)\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseRemoveLink",
           "package": "HFuse",
@@ -1414,6 +1531,7 @@
         "index": {
           "description": "Implements removeLink POSIX unlink",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseRemoveLink",
           "normalized": "FilePath-\u003eIO Errno",
@@ -1430,6 +1548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements \u003ccode\u003e\u003ca\u003erename\u003c/a\u003e\u003c/code\u003e (POSIX \u003ccode\u003erename(2)\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseRename",
           "package": "HFuse",
@@ -1440,6 +1559,7 @@
         "index": {
           "description": "Implements rename POSIX rename",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseRename",
           "normalized": "FilePath-\u003eFilePath-\u003eIO Errno",
@@ -1455,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseRun",
           "package": "HFuse",
@@ -1464,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseRun",
           "normalized": "FuseOperations a-\u003e(b-\u003eIO Errno)-\u003eIO()",
@@ -1480,6 +1602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements \u003ccode\u003e\u003ca\u003esetFileMode\u003c/a\u003e\u003c/code\u003e (POSIX \u003ccode\u003echmod(2)\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseSetFileMode",
           "package": "HFuse",
@@ -1490,6 +1613,7 @@
         "index": {
           "description": "Implements setFileMode POSIX chmod",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseSetFileMode",
           "normalized": "FilePath-\u003eFileMode-\u003eIO Errno",
@@ -1506,6 +1630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements \u003ccode\u003e\u003ca\u003esetFileSize\u003c/a\u003e\u003c/code\u003e (POSIX \u003ccode\u003etruncate(2)\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseSetFileSize",
           "package": "HFuse",
@@ -1516,6 +1641,7 @@
         "index": {
           "description": "Implements setFileSize POSIX truncate",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseSetFileSize",
           "normalized": "FilePath-\u003eFileOffset-\u003eIO Errno",
@@ -1532,6 +1658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements \u003ccode\u003e\u003ca\u003esetFileTimes\u003c/a\u003e\u003c/code\u003e\n   (POSIX \u003ccode\u003eutime(2)\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseSetFileTimes",
           "package": "HFuse",
@@ -1542,6 +1669,7 @@
         "index": {
           "description": "Implements setFileTimes POSIX utime",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseSetFileTimes",
           "normalized": "FilePath-\u003eEpochTime-\u003eEpochTime-\u003eIO Errno",
@@ -1558,6 +1686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements \u003ccode\u003e\u003ca\u003esetOwnerAndGroup\u003c/a\u003e\u003c/code\u003e (POSIX\n   \u003ccode\u003echown(2)\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseSetOwnerAndGroup",
           "package": "HFuse",
@@ -1568,6 +1697,7 @@
         "index": {
           "description": "Implements setOwnerAndGroup POSIX chown",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseSetOwnerAndGroup",
           "normalized": "FilePath-\u003eUserID-\u003eGroupID-\u003eIO Errno",
@@ -1584,6 +1714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronize the directory's contents; analogous to\n   \u003ccode\u003e\u003ca\u003efuseSynchronizeFile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseSynchronizeDirectory",
           "package": "HFuse",
@@ -1594,6 +1725,7 @@
         "index": {
           "description": "Synchronize the directory contents analogous to fuseSynchronizeFile",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseSynchronizeDirectory",
           "normalized": "FilePath-\u003eSyncType-\u003eIO Errno",
@@ -1610,6 +1742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements \u003ccode\u003efsync(2)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseSynchronizeFile",
           "package": "HFuse",
@@ -1620,6 +1753,7 @@
         "index": {
           "description": "Implements fsync",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseSynchronizeFile",
           "normalized": "FilePath-\u003eSyncType-\u003eIO Errno",
@@ -1636,6 +1770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements Unix98 \u003ccode\u003epwrite(2)\u003c/code\u003e. It differs\n   from \u003ccode\u003e\u003ca\u003efdWrite\u003c/a\u003e\u003c/code\u003e by the explicit \u003ccode\u003e\u003ca\u003eFileOffset\u003c/a\u003e\u003c/code\u003e argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "fuseWrite",
           "package": "HFuse",
@@ -1646,6 +1781,7 @@
         "index": {
           "description": "Implements Unix98 pwrite It differs from fdWrite by the explicit FileOffset argument",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "fuseWrite",
           "normalized": "FilePath-\u003ea-\u003eByteString-\u003eFileOffset-\u003eIO(Either Errno ByteCount)",
@@ -1662,6 +1798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the context of the program doing the current FUSE call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "getFuseContext",
           "package": "HFuse",
@@ -1672,6 +1809,7 @@
         "index": {
           "description": "Returns the context of the program doing the current FUSE call",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "getFuseContext",
           "package": "HFuse",
@@ -1686,6 +1824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines two file modes into one that only contains modes that appear in\n both.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "intersectFileModes",
           "package": "HFuse",
@@ -1695,6 +1834,7 @@
         "index": {
           "description": "Combines two file modes into one that only contains modes that appear in both",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "intersectFileModes",
           "normalized": "FileMode-\u003eFileMode-\u003eFileMode",
@@ -1711,6 +1851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO_NOCTTY\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "noctty",
           "package": "HFuse",
@@ -1720,6 +1861,7 @@
         "index": {
           "description": "NOCTTY",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "noctty",
           "package": "HFuse",
@@ -1733,6 +1875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO_NONBLOCK\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "nonBlock",
           "package": "HFuse",
@@ -1742,6 +1885,7 @@
         "index": {
           "description": "NONBLOCK",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "nonBlock",
           "package": "HFuse",
@@ -1755,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "statAccessTime",
           "package": "HFuse",
@@ -1764,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "statAccessTime",
           "package": "HFuse",
@@ -1777,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "statBlocks",
           "package": "HFuse",
@@ -1786,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "statBlocks",
           "package": "HFuse",
@@ -1799,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "statEntryType",
           "package": "HFuse",
@@ -1808,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "statEntryType",
           "package": "HFuse",
@@ -1821,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "statFileGroup",
           "package": "HFuse",
@@ -1830,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "statFileGroup",
           "package": "HFuse",
@@ -1843,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "statFileMode",
           "package": "HFuse",
@@ -1852,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "statFileMode",
           "package": "HFuse",
@@ -1865,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "statFileOwner",
           "package": "HFuse",
@@ -1874,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "statFileOwner",
           "package": "HFuse",
@@ -1887,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "statFileSize",
           "package": "HFuse",
@@ -1896,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "statFileSize",
           "package": "HFuse",
@@ -1909,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "statLinkCount",
           "package": "HFuse",
@@ -1918,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "statLinkCount",
           "package": "HFuse",
@@ -1931,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "statModificationTime",
           "package": "HFuse",
@@ -1940,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "statModificationTime",
           "package": "HFuse",
@@ -1953,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "statSpecialDeviceID",
           "package": "HFuse",
@@ -1962,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "statSpecialDeviceID",
           "package": "HFuse",
@@ -1975,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "statStatusChangeTime",
           "package": "HFuse",
@@ -1984,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "statStatusChangeTime",
           "package": "HFuse",
@@ -1998,6 +2164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO_TRUNC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "trunc",
           "package": "HFuse",
@@ -2007,6 +2174,7 @@
         "index": {
           "description": "TRUNC",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "trunc",
           "package": "HFuse",
@@ -2020,6 +2188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines the two file modes into one that contains modes that appear in\n either.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:49 UTC 2014",
           "module": "System.Fuse",
           "name": "unionFileModes",
           "package": "HFuse",
@@ -2029,6 +2198,7 @@
         "index": {
           "description": "Combines the two file modes into one that contains modes that appear in either",
           "hierarchy": "System Fuse",
+          "indexed": "2014-03-11T16:44:49",
           "module": "System.Fuse",
           "name": "unionFileModes",
           "normalized": "FileMode-\u003eFileMode-\u003eFileMode",

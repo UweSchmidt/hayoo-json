@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "aeson-toolkit"
+        "phrase": "aeson-toolkit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:57 UTC 2014",
           "module": "Data.Aeson.Toolkit",
           "name": "Toolkit",
           "package": "aeson-toolkit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Toolkit",
+          "indexed": "2014-03-11T17:08:57",
           "module": "Data.Aeson.Toolkit",
           "name": "Toolkit",
           "package": "aeson-toolkit",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:57 UTC 2014",
           "module": "Data.Aeson.Toolkit",
           "name": "(.:)",
           "package": "aeson-toolkit",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Toolkit",
+          "indexed": "2014-03-11T17:08:57",
           "module": "Data.Aeson.Toolkit",
           "name": "(.:) .:",
           "normalized": "Object-\u003eText-\u003ea b",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:57 UTC 2014",
           "module": "Data.Aeson.Toolkit",
           "name": "decode",
           "package": "aeson-toolkit",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Toolkit",
+          "indexed": "2014-03-11T17:08:57",
           "module": "Data.Aeson.Toolkit",
           "name": "decode",
           "normalized": "ByteString-\u003ea b",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:57 UTC 2014",
           "module": "Data.Aeson.Toolkit",
           "name": "decode'",
           "package": "aeson-toolkit",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Toolkit",
+          "indexed": "2014-03-11T17:08:57",
           "module": "Data.Aeson.Toolkit",
           "name": "decode'",
           "normalized": "ByteString-\u003ea b",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "robot"
+        "phrase": "robot",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLow-level wrappers around the XTest protocol.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Internal.XTest",
           "name": "XTest",
           "package": "robot",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Low-level wrappers around the XTest protocol",
           "hierarchy": "Test Robot Internal XTest",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Internal.XTest",
           "name": "XTest",
           "package": "robot",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Internal.XTest",
           "name": "button",
           "package": "robot",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Internal XTest",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Internal.XTest",
           "name": "button",
           "normalized": "Connection-\u003eBool-\u003eBUTTON-\u003eIO()",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a structure mapping keysyms to their keycode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Internal.XTest",
           "name": "getKeysymMap",
           "package": "robot",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Return structure mapping keysyms to their keycode",
           "hierarchy": "Test Robot Internal XTest",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Internal.XTest",
           "name": "getKeysymMap",
           "normalized": "Connection-\u003eIO(Map KEYSYM KEYCODE)",
@@ -90,6 +96,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Internal.XTest",
           "name": "keyboard",
           "package": "robot",
@@ -99,6 +106,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Internal XTest",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Internal.XTest",
           "name": "keyboard",
           "normalized": "Connection-\u003eBool-\u003eKEYCODE-\u003eIO()",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Internal.XTest",
           "name": "motion",
           "package": "robot",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Internal XTest",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Internal.XTest",
           "name": "motion",
           "normalized": "Connection-\u003eBool-\u003e(Int,Int)-\u003eIO()",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMiscellaneous low-level functions. You should rarely need to use\n these directly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Internal",
           "name": "Internal",
           "package": "robot",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Miscellaneous low-level functions You should rarely need to use these directly",
           "hierarchy": "Test Robot Internal",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Internal",
           "name": "Internal",
           "package": "robot",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Robot monad: a reader monad over IO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Internal",
           "name": "Robot",
           "package": "robot",
@@ -169,6 +182,7 @@
         "index": {
           "description": "The Robot monad reader monad over IO",
           "hierarchy": "Test Robot Internal",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Internal",
           "name": "Robot",
           "package": "robot",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Internal",
           "name": "Robot",
           "package": "robot",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Internal",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Internal",
           "name": "Robot",
           "package": "robot",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Internal",
           "name": "bracketRobot_",
           "package": "robot",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Internal",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Internal",
           "name": "bracketRobot_",
           "normalized": "Robot a-\u003eRobot b-\u003eRobot c-\u003eRobot c",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Internal",
           "name": "button",
           "package": "robot",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Internal",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Internal",
           "name": "button",
           "normalized": "Bool-\u003eButton-\u003eRobot()",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Internal",
           "name": "keyboard",
           "package": "robot",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Internal",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Internal",
           "name": "keyboard",
           "normalized": "Bool-\u003eKey-\u003eRobot()",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Internal",
           "name": "mkRobot",
           "package": "robot",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Internal",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Internal",
           "name": "mkRobot",
           "normalized": "((Connection,Map KEYSYM KEYCODE)-\u003eIO a)-\u003eRobot a",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Internal",
           "name": "mkRobot'",
           "package": "robot",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Internal",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Internal",
           "name": "mkRobot'",
           "normalized": "(Connection-\u003eIO a)-\u003eRobot a",
@@ -322,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Internal",
           "name": "motion",
           "package": "robot",
@@ -331,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Internal",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Internal",
           "name": "motion",
           "normalized": "Bool-\u003eInt-\u003eInt-\u003eRobot()",
@@ -399,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Internal",
           "name": "unRobot",
           "package": "robot",
@@ -408,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Internal",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Internal",
           "name": "unRobot",
           "normalized": "ReaderT(Connection,Map KEYSYM KEYCODE)IO a",
@@ -424,6 +454,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines the \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eButton\u003c/a\u003e\u003c/code\u003e types, along with a list of\n constants of those types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "Types",
           "package": "robot",
@@ -433,6 +464,7 @@
         "index": {
           "description": "Defines the Key and Button types along with list of constants of those types",
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "Types",
           "package": "robot",
@@ -447,6 +479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mouse button or scroll wheel.\n\u003c/p\u003e\u003cp\u003eNote that the scroll wheel is treated as two separate buttons: one\n scrolling up, and one scrolling down.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "Button",
           "package": "robot",
@@ -456,6 +489,7 @@
         "index": {
           "description": "mouse button or scroll wheel Note that the scroll wheel is treated as two separate buttons one scrolling up and one scrolling down",
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "Button",
           "package": "robot",
@@ -470,6 +504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA key on the keyboard.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "Key",
           "package": "robot",
@@ -479,6 +514,7 @@
         "index": {
           "description": "key on the keyboard",
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "Key",
           "package": "robot",
@@ -492,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_0",
           "package": "robot",
@@ -501,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_0",
           "package": "robot",
@@ -513,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_1",
           "package": "robot",
@@ -522,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_1",
           "package": "robot",
@@ -534,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_2",
           "package": "robot",
@@ -543,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_2",
           "package": "robot",
@@ -555,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_3",
           "package": "robot",
@@ -564,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_3",
           "package": "robot",
@@ -576,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_4",
           "package": "robot",
@@ -585,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_4",
           "package": "robot",
@@ -597,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_5",
           "package": "robot",
@@ -606,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_5",
           "package": "robot",
@@ -618,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_6",
           "package": "robot",
@@ -627,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_6",
           "package": "robot",
@@ -639,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_7",
           "package": "robot",
@@ -648,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_7",
           "package": "robot",
@@ -660,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_8",
           "package": "robot",
@@ -669,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_8",
           "package": "robot",
@@ -681,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_9",
           "package": "robot",
@@ -690,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_9",
           "package": "robot",
@@ -702,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_A",
           "package": "robot",
@@ -711,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_A",
           "package": "robot",
@@ -723,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Alt",
           "package": "robot",
@@ -732,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Alt",
           "package": "robot",
@@ -745,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Alt_L",
           "package": "robot",
@@ -754,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Alt_L",
           "package": "robot",
@@ -767,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Alt_R",
           "package": "robot",
@@ -776,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Alt_R",
           "package": "robot",
@@ -789,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Ampersand",
           "package": "robot",
@@ -798,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Ampersand",
           "package": "robot",
@@ -811,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Apostrophe",
           "package": "robot",
@@ -820,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Apostrophe",
           "package": "robot",
@@ -833,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Asterisk",
           "package": "robot",
@@ -842,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Asterisk",
           "package": "robot",
@@ -855,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_At",
           "package": "robot",
@@ -864,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_At",
           "package": "robot",
@@ -877,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_B",
           "package": "robot",
@@ -886,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_B",
           "package": "robot",
@@ -898,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Backslash",
           "package": "robot",
@@ -907,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Backslash",
           "package": "robot",
@@ -920,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Backspace",
           "package": "robot",
@@ -929,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Backspace",
           "package": "robot",
@@ -942,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Bar",
           "package": "robot",
@@ -951,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Bar",
           "package": "robot",
@@ -964,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Begin",
           "package": "robot",
@@ -973,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Begin",
           "package": "robot",
@@ -986,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_BraceLeft",
           "package": "robot",
@@ -995,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_BraceLeft",
           "package": "robot",
@@ -1008,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_BraceRight",
           "package": "robot",
@@ -1017,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_BraceRight",
           "package": "robot",
@@ -1030,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_BracketLeft",
           "package": "robot",
@@ -1039,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_BracketLeft",
           "package": "robot",
@@ -1052,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_BracketRight",
           "package": "robot",
@@ -1061,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_BracketRight",
           "package": "robot",
@@ -1074,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Break",
           "package": "robot",
@@ -1083,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Break",
           "package": "robot",
@@ -1096,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_C",
           "package": "robot",
@@ -1105,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_C",
           "package": "robot",
@@ -1117,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Cancel",
           "package": "robot",
@@ -1126,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Cancel",
           "package": "robot",
@@ -1139,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_CapsLock",
           "package": "robot",
@@ -1148,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_CapsLock",
           "package": "robot",
@@ -1161,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Circumflex",
           "package": "robot",
@@ -1170,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Circumflex",
           "package": "robot",
@@ -1183,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Clear",
           "package": "robot",
@@ -1192,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Clear",
           "package": "robot",
@@ -1205,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Colon",
           "package": "robot",
@@ -1214,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Colon",
           "package": "robot",
@@ -1227,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Comma",
           "package": "robot",
@@ -1236,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Comma",
           "package": "robot",
@@ -1249,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Control",
           "package": "robot",
@@ -1258,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Control",
           "package": "robot",
@@ -1271,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Control_L",
           "package": "robot",
@@ -1280,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Control_L",
           "package": "robot",
@@ -1293,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Control_R",
           "package": "robot",
@@ -1302,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Control_R",
           "package": "robot",
@@ -1315,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Ctrl",
           "package": "robot",
@@ -1324,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Ctrl",
           "package": "robot",
@@ -1337,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_D",
           "package": "robot",
@@ -1346,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_D",
           "package": "robot",
@@ -1358,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Delete",
           "package": "robot",
@@ -1367,6 +1484,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Delete",
           "package": "robot",
@@ -1380,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Dollar",
           "package": "robot",
@@ -1389,6 +1508,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Dollar",
           "package": "robot",
@@ -1402,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Down",
           "package": "robot",
@@ -1411,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Down",
           "package": "robot",
@@ -1424,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_E",
           "package": "robot",
@@ -1433,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_E",
           "package": "robot",
@@ -1445,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_End",
           "package": "robot",
@@ -1454,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_End",
           "package": "robot",
@@ -1467,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Equal",
           "package": "robot",
@@ -1476,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Equal",
           "package": "robot",
@@ -1489,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Escape",
           "package": "robot",
@@ -1498,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Escape",
           "package": "robot",
@@ -1511,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Exclamation",
           "package": "robot",
@@ -1520,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Exclamation",
           "package": "robot",
@@ -1533,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Execute",
           "package": "robot",
@@ -1542,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Execute",
           "package": "robot",
@@ -1555,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F",
           "package": "robot",
@@ -1564,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F",
           "package": "robot",
@@ -1576,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F1",
           "package": "robot",
@@ -1585,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F1",
           "package": "robot",
@@ -1597,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F10",
           "package": "robot",
@@ -1606,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F10",
           "package": "robot",
@@ -1618,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F11",
           "package": "robot",
@@ -1627,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F11",
           "package": "robot",
@@ -1639,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F12",
           "package": "robot",
@@ -1648,6 +1791,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F12",
           "package": "robot",
@@ -1660,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F13",
           "package": "robot",
@@ -1669,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F13",
           "package": "robot",
@@ -1681,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F14",
           "package": "robot",
@@ -1690,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F14",
           "package": "robot",
@@ -1702,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F15",
           "package": "robot",
@@ -1711,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F15",
           "package": "robot",
@@ -1723,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F16",
           "package": "robot",
@@ -1732,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F16",
           "package": "robot",
@@ -1744,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F17",
           "package": "robot",
@@ -1753,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F17",
           "package": "robot",
@@ -1765,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F18",
           "package": "robot",
@@ -1774,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F18",
           "package": "robot",
@@ -1786,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F19",
           "package": "robot",
@@ -1795,6 +1952,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F19",
           "package": "robot",
@@ -1807,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F2",
           "package": "robot",
@@ -1816,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F2",
           "package": "robot",
@@ -1828,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F3",
           "package": "robot",
@@ -1837,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F3",
           "package": "robot",
@@ -1849,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F4",
           "package": "robot",
@@ -1858,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F4",
           "package": "robot",
@@ -1870,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F5",
           "package": "robot",
@@ -1879,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F5",
           "package": "robot",
@@ -1891,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F6",
           "package": "robot",
@@ -1900,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F6",
           "package": "robot",
@@ -1912,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F7",
           "package": "robot",
@@ -1921,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F7",
           "package": "robot",
@@ -1933,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F8",
           "package": "robot",
@@ -1942,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F8",
           "package": "robot",
@@ -1954,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_F9",
           "package": "robot",
@@ -1963,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_F9",
           "package": "robot",
@@ -1975,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Find",
           "package": "robot",
@@ -1984,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Find",
           "package": "robot",
@@ -1997,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_G",
           "package": "robot",
@@ -2006,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_G",
           "package": "robot",
@@ -2018,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Grave",
           "package": "robot",
@@ -2027,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Grave",
           "package": "robot",
@@ -2040,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Greater",
           "package": "robot",
@@ -2049,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Greater",
           "package": "robot",
@@ -2062,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_H",
           "package": "robot",
@@ -2071,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_H",
           "package": "robot",
@@ -2083,6 +2267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Help",
           "package": "robot",
@@ -2092,6 +2277,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Help",
           "package": "robot",
@@ -2105,6 +2291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Home",
           "package": "robot",
@@ -2114,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Home",
           "package": "robot",
@@ -2127,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Hyper",
           "package": "robot",
@@ -2136,6 +2325,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Hyper",
           "package": "robot",
@@ -2149,6 +2339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Hyper_L",
           "package": "robot",
@@ -2158,6 +2349,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Hyper_L",
           "package": "robot",
@@ -2171,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Hyper_R",
           "package": "robot",
@@ -2180,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Hyper_R",
           "package": "robot",
@@ -2193,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_I",
           "package": "robot",
@@ -2202,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_I",
           "package": "robot",
@@ -2214,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Insert",
           "package": "robot",
@@ -2223,6 +2420,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Insert",
           "package": "robot",
@@ -2236,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_J",
           "package": "robot",
@@ -2245,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_J",
           "package": "robot",
@@ -2257,6 +2457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_K",
           "package": "robot",
@@ -2266,6 +2467,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_K",
           "package": "robot",
@@ -2278,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_0",
           "package": "robot",
@@ -2287,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_0",
           "package": "robot",
@@ -2300,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_1",
           "package": "robot",
@@ -2309,6 +2514,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_1",
           "package": "robot",
@@ -2322,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_2",
           "package": "robot",
@@ -2331,6 +2538,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_2",
           "package": "robot",
@@ -2344,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_3",
           "package": "robot",
@@ -2353,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_3",
           "package": "robot",
@@ -2366,6 +2576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_4",
           "package": "robot",
@@ -2375,6 +2586,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_4",
           "package": "robot",
@@ -2388,6 +2600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_5",
           "package": "robot",
@@ -2397,6 +2610,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_5",
           "package": "robot",
@@ -2410,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_6",
           "package": "robot",
@@ -2419,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_6",
           "package": "robot",
@@ -2432,6 +2648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_7",
           "package": "robot",
@@ -2441,6 +2658,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_7",
           "package": "robot",
@@ -2454,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_8",
           "package": "robot",
@@ -2463,6 +2682,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_8",
           "package": "robot",
@@ -2476,6 +2696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_9",
           "package": "robot",
@@ -2485,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_9",
           "package": "robot",
@@ -2498,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Add",
           "package": "robot",
@@ -2507,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Add",
           "package": "robot",
@@ -2520,6 +2744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Begin",
           "package": "robot",
@@ -2529,6 +2754,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Begin",
           "package": "robot",
@@ -2542,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Decimal",
           "package": "robot",
@@ -2551,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Decimal",
           "package": "robot",
@@ -2564,6 +2792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Delete",
           "package": "robot",
@@ -2573,6 +2802,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Delete",
           "package": "robot",
@@ -2586,6 +2816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Divide",
           "package": "robot",
@@ -2595,6 +2826,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Divide",
           "package": "robot",
@@ -2608,6 +2840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Down",
           "package": "robot",
@@ -2617,6 +2850,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Down",
           "package": "robot",
@@ -2630,6 +2864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_End",
           "package": "robot",
@@ -2639,6 +2874,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_End",
           "package": "robot",
@@ -2652,6 +2888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Enter",
           "package": "robot",
@@ -2661,6 +2898,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Enter",
           "package": "robot",
@@ -2674,6 +2912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Equal",
           "package": "robot",
@@ -2683,6 +2922,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Equal",
           "package": "robot",
@@ -2696,6 +2936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_F1",
           "package": "robot",
@@ -2705,6 +2946,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_F1",
           "package": "robot",
@@ -2718,6 +2960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_F2",
           "package": "robot",
@@ -2727,6 +2970,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_F2",
           "package": "robot",
@@ -2740,6 +2984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_F3",
           "package": "robot",
@@ -2749,6 +2994,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_F3",
           "package": "robot",
@@ -2762,6 +3008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_F4",
           "package": "robot",
@@ -2771,6 +3018,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_F4",
           "package": "robot",
@@ -2784,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Home",
           "package": "robot",
@@ -2793,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Home",
           "package": "robot",
@@ -2806,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Insert",
           "package": "robot",
@@ -2815,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Insert",
           "package": "robot",
@@ -2828,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Left",
           "package": "robot",
@@ -2837,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Left",
           "package": "robot",
@@ -2850,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Multiply",
           "package": "robot",
@@ -2859,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Multiply",
           "package": "robot",
@@ -2872,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Next",
           "package": "robot",
@@ -2881,6 +3138,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Next",
           "package": "robot",
@@ -2894,6 +3152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_PageDown",
           "package": "robot",
@@ -2903,6 +3162,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_PageDown",
           "package": "robot",
@@ -2916,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_PageUp",
           "package": "robot",
@@ -2925,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_PageUp",
           "package": "robot",
@@ -2938,6 +3200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Prior",
           "package": "robot",
@@ -2947,6 +3210,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Prior",
           "package": "robot",
@@ -2960,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Right",
           "package": "robot",
@@ -2969,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Right",
           "package": "robot",
@@ -2982,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Separator",
           "package": "robot",
@@ -2991,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Separator",
           "package": "robot",
@@ -3004,6 +3272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Space",
           "package": "robot",
@@ -3013,6 +3282,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Space",
           "package": "robot",
@@ -3026,6 +3296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Subtract",
           "package": "robot",
@@ -3035,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Subtract",
           "package": "robot",
@@ -3048,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Tab",
           "package": "robot",
@@ -3057,6 +3330,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Tab",
           "package": "robot",
@@ -3070,6 +3344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_KP_Up",
           "package": "robot",
@@ -3079,6 +3354,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_KP_Up",
           "package": "robot",
@@ -3092,6 +3368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_L",
           "package": "robot",
@@ -3101,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_L",
           "package": "robot",
@@ -3113,6 +3391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Left",
           "package": "robot",
@@ -3122,6 +3401,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Left",
           "package": "robot",
@@ -3135,6 +3415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Less",
           "package": "robot",
@@ -3144,6 +3425,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Less",
           "package": "robot",
@@ -3157,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_LineFeed",
           "package": "robot",
@@ -3166,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_LineFeed",
           "package": "robot",
@@ -3179,6 +3463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_M",
           "package": "robot",
@@ -3188,6 +3473,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_M",
           "package": "robot",
@@ -3200,6 +3486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Menu",
           "package": "robot",
@@ -3209,6 +3496,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Menu",
           "package": "robot",
@@ -3222,6 +3510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Meta",
           "package": "robot",
@@ -3231,6 +3520,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Meta",
           "package": "robot",
@@ -3244,6 +3534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Meta_L",
           "package": "robot",
@@ -3253,6 +3544,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Meta_L",
           "package": "robot",
@@ -3266,6 +3558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Meta_R",
           "package": "robot",
@@ -3275,6 +3568,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Meta_R",
           "package": "robot",
@@ -3288,6 +3582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Minus",
           "package": "robot",
@@ -3297,6 +3592,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Minus",
           "package": "robot",
@@ -3310,6 +3606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_ModeSwitch",
           "package": "robot",
@@ -3319,6 +3616,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_ModeSwitch",
           "package": "robot",
@@ -3332,6 +3630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_N",
           "package": "robot",
@@ -3341,6 +3640,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_N",
           "package": "robot",
@@ -3353,6 +3653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Next",
           "package": "robot",
@@ -3362,6 +3663,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Next",
           "package": "robot",
@@ -3375,6 +3677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_NumLock",
           "package": "robot",
@@ -3384,6 +3687,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_NumLock",
           "package": "robot",
@@ -3397,6 +3701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_NumberSign",
           "package": "robot",
@@ -3406,6 +3711,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_NumberSign",
           "package": "robot",
@@ -3419,6 +3725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_O",
           "package": "robot",
@@ -3428,6 +3735,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_O",
           "package": "robot",
@@ -3440,6 +3748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_P",
           "package": "robot",
@@ -3449,6 +3758,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_P",
           "package": "robot",
@@ -3461,6 +3771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_PageDown",
           "package": "robot",
@@ -3470,6 +3781,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_PageDown",
           "package": "robot",
@@ -3483,6 +3795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_PageUp",
           "package": "robot",
@@ -3492,6 +3805,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_PageUp",
           "package": "robot",
@@ -3505,6 +3819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_ParenLeft",
           "package": "robot",
@@ -3514,6 +3829,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_ParenLeft",
           "package": "robot",
@@ -3527,6 +3843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_ParenRight",
           "package": "robot",
@@ -3536,6 +3853,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_ParenRight",
           "package": "robot",
@@ -3549,6 +3867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Pause",
           "package": "robot",
@@ -3558,6 +3877,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Pause",
           "package": "robot",
@@ -3571,6 +3891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Percent",
           "package": "robot",
@@ -3580,6 +3901,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Percent",
           "package": "robot",
@@ -3593,6 +3915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Period",
           "package": "robot",
@@ -3602,6 +3925,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Period",
           "package": "robot",
@@ -3615,6 +3939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Plus",
           "package": "robot",
@@ -3624,6 +3949,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Plus",
           "package": "robot",
@@ -3637,6 +3963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Print",
           "package": "robot",
@@ -3646,6 +3973,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Print",
           "package": "robot",
@@ -3659,6 +3987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Prior",
           "package": "robot",
@@ -3668,6 +3997,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Prior",
           "package": "robot",
@@ -3681,6 +4011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Q",
           "package": "robot",
@@ -3690,6 +4021,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Q",
           "package": "robot",
@@ -3702,6 +4034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Question",
           "package": "robot",
@@ -3711,6 +4044,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Question",
           "package": "robot",
@@ -3724,6 +4058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Quotation",
           "package": "robot",
@@ -3733,6 +4068,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Quotation",
           "package": "robot",
@@ -3746,6 +4082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_R",
           "package": "robot",
@@ -3755,6 +4092,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_R",
           "package": "robot",
@@ -3767,6 +4105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Redo",
           "package": "robot",
@@ -3776,6 +4115,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Redo",
           "package": "robot",
@@ -3789,6 +4129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Return",
           "package": "robot",
@@ -3798,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Return",
           "package": "robot",
@@ -3811,6 +4153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Right",
           "package": "robot",
@@ -3820,6 +4163,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Right",
           "package": "robot",
@@ -3833,6 +4177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_S",
           "package": "robot",
@@ -3842,6 +4187,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_S",
           "package": "robot",
@@ -3854,6 +4200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_ScriptSwitch",
           "package": "robot",
@@ -3863,6 +4210,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_ScriptSwitch",
           "package": "robot",
@@ -3876,6 +4224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_ScrollLock",
           "package": "robot",
@@ -3885,6 +4234,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_ScrollLock",
           "package": "robot",
@@ -3898,6 +4248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Select",
           "package": "robot",
@@ -3907,6 +4258,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Select",
           "package": "robot",
@@ -3920,6 +4272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Semicolon",
           "package": "robot",
@@ -3929,6 +4282,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Semicolon",
           "package": "robot",
@@ -3942,6 +4296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Shift",
           "package": "robot",
@@ -3951,6 +4306,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Shift",
           "package": "robot",
@@ -3964,6 +4320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_ShiftLock",
           "package": "robot",
@@ -3973,6 +4330,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_ShiftLock",
           "package": "robot",
@@ -3986,6 +4344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Shift_L",
           "package": "robot",
@@ -3995,6 +4354,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Shift_L",
           "package": "robot",
@@ -4008,6 +4368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Shift_R",
           "package": "robot",
@@ -4017,6 +4378,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Shift_R",
           "package": "robot",
@@ -4030,6 +4392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Slash",
           "package": "robot",
@@ -4039,6 +4402,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Slash",
           "package": "robot",
@@ -4052,6 +4416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Space",
           "package": "robot",
@@ -4061,6 +4426,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Space",
           "package": "robot",
@@ -4074,6 +4440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Super",
           "package": "robot",
@@ -4083,6 +4450,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Super",
           "package": "robot",
@@ -4096,6 +4464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Super_L",
           "package": "robot",
@@ -4105,6 +4474,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Super_L",
           "package": "robot",
@@ -4118,6 +4488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Super_R",
           "package": "robot",
@@ -4127,6 +4498,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Super_R",
           "package": "robot",
@@ -4140,6 +4512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_SysReq",
           "package": "robot",
@@ -4149,6 +4522,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_SysReq",
           "package": "robot",
@@ -4162,6 +4536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_T",
           "package": "robot",
@@ -4171,6 +4546,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_T",
           "package": "robot",
@@ -4183,6 +4559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Tab",
           "package": "robot",
@@ -4192,6 +4569,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Tab",
           "package": "robot",
@@ -4205,6 +4583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Tilde",
           "package": "robot",
@@ -4214,6 +4593,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Tilde",
           "package": "robot",
@@ -4227,6 +4607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_U",
           "package": "robot",
@@ -4236,6 +4617,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_U",
           "package": "robot",
@@ -4248,6 +4630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Underscore",
           "package": "robot",
@@ -4257,6 +4640,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Underscore",
           "package": "robot",
@@ -4270,6 +4654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Undo",
           "package": "robot",
@@ -4279,6 +4664,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Undo",
           "package": "robot",
@@ -4292,6 +4678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Up",
           "package": "robot",
@@ -4301,6 +4688,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Up",
           "package": "robot",
@@ -4314,6 +4702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_V",
           "package": "robot",
@@ -4323,6 +4712,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_V",
           "package": "robot",
@@ -4335,6 +4725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_W",
           "package": "robot",
@@ -4344,6 +4735,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_W",
           "package": "robot",
@@ -4356,6 +4748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_X",
           "package": "robot",
@@ -4365,6 +4758,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_X",
           "package": "robot",
@@ -4377,6 +4771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Y",
           "package": "robot",
@@ -4386,6 +4781,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Y",
           "package": "robot",
@@ -4398,6 +4794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "_Z",
           "package": "robot",
@@ -4407,6 +4804,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "_Z",
           "package": "robot",
@@ -4419,6 +4817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "backButton",
           "package": "robot",
@@ -4428,6 +4827,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "backButton",
           "package": "robot",
@@ -4441,6 +4841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "customButton",
           "package": "robot",
@@ -4450,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "customButton",
           "normalized": "BUTTON-\u003eButton",
@@ -4465,6 +4867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "customKey",
           "package": "robot",
@@ -4474,6 +4877,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "customKey",
           "normalized": "KEYSYM-\u003eKey",
@@ -4489,6 +4893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "forwardButton",
           "package": "robot",
@@ -4498,6 +4903,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "forwardButton",
           "package": "robot",
@@ -4511,6 +4917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "leftButton",
           "package": "robot",
@@ -4520,6 +4927,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "leftButton",
           "package": "robot",
@@ -4533,6 +4941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "middleButton",
           "package": "robot",
@@ -4542,6 +4951,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "middleButton",
           "package": "robot",
@@ -4556,6 +4966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the internal identifier for this button.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "rawButton",
           "package": "robot",
@@ -4566,6 +4977,7 @@
         "index": {
           "description": "Retrieve the internal identifier for this button",
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "rawButton",
           "normalized": "Button-\u003eBUTTON",
@@ -4582,6 +4994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the internal identifier for this key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "rawKey",
           "package": "robot",
@@ -4592,6 +5005,7 @@
         "index": {
           "description": "Retrieve the internal identifier for this key",
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "rawKey",
           "normalized": "Key-\u003eKEYSYM",
@@ -4607,6 +5021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "rightButton",
           "package": "robot",
@@ -4616,6 +5031,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "rightButton",
           "package": "robot",
@@ -4629,6 +5045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "scrollDown",
           "package": "robot",
@@ -4638,6 +5055,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "scrollDown",
           "package": "robot",
@@ -4651,6 +5069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "scrollLeft",
           "package": "robot",
@@ -4660,6 +5079,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "scrollLeft",
           "package": "robot",
@@ -4673,6 +5093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "scrollRight",
           "package": "robot",
@@ -4682,6 +5103,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "scrollRight",
           "package": "robot",
@@ -4695,6 +5117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot.Types",
           "name": "scrollUp",
           "package": "robot",
@@ -4704,6 +5127,7 @@
         },
         "index": {
           "hierarchy": "Test Robot Types",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot.Types",
           "name": "scrollUp",
           "package": "robot",
@@ -4718,6 +5142,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe main Robot interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot",
           "name": "Robot",
           "package": "robot",
@@ -4727,6 +5152,7 @@
         "index": {
           "description": "The main Robot interface",
           "hierarchy": "Test Robot",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot",
           "name": "Robot",
           "package": "robot",
@@ -4741,6 +5167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents things that can be pressed: either a key on a keyboard\n or a button on a mouse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot",
           "name": "Pressable",
           "package": "robot",
@@ -4750,6 +5177,7 @@
         "index": {
           "description": "Represents things that can be pressed either key on keyboard or button on mouse",
           "hierarchy": "Test Robot",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot",
           "name": "Pressable",
           "package": "robot",
@@ -4764,6 +5192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Robot monad: a reader monad over IO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot",
           "name": "Robot",
           "package": "robot",
@@ -4773,6 +5202,7 @@
         "index": {
           "description": "The Robot monad reader monad over IO",
           "hierarchy": "Test Robot",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot",
           "name": "Robot",
           "package": "robot",
@@ -4787,6 +5217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ehold x act\u003c/code\u003e holds down \u003ccode\u003ex\u003c/code\u003e while executing \u003ccode\u003eact\u003c/code\u003e. It is\n equivalent to:\n\u003c/p\u003e\u003cpre\u003e\n press x \u003e\u003e act \u003e\u003e release x\n\u003c/pre\u003e\u003cp\u003eexcept \u003ccode\u003ehold\u003c/code\u003e ensures that the argument is released in the event\n of an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot",
           "name": "hold",
           "package": "robot",
@@ -4797,6 +5228,7 @@
         "index": {
           "description": "hold act holds down while executing act It is equivalent to press act release except hold ensures that the argument is released in the event of an exception",
           "hierarchy": "Test Robot",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot",
           "name": "hold",
           "normalized": "a-\u003eRobot b-\u003eRobot b",
@@ -4812,6 +5244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the pointer by an offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot",
           "name": "moveBy",
           "package": "robot",
@@ -4822,6 +5255,7 @@
         "index": {
           "description": "Move the pointer by an offset",
           "hierarchy": "Test Robot",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot",
           "name": "moveBy",
           "normalized": "Int-\u003eInt-\u003eRobot()",
@@ -4838,6 +5272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the pointer to a point on the screen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot",
           "name": "moveTo",
           "package": "robot",
@@ -4848,6 +5283,7 @@
         "index": {
           "description": "Move the pointer to point on the screen",
           "hierarchy": "Test Robot",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot",
           "name": "moveTo",
           "normalized": "Int-\u003eInt-\u003eRobot()",
@@ -4864,6 +5300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePress a key or button.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot",
           "name": "press",
           "package": "robot",
@@ -4874,6 +5311,7 @@
         "index": {
           "description": "Press key or button",
           "hierarchy": "Test Robot",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot",
           "name": "press",
           "normalized": "a-\u003eRobot()",
@@ -4889,6 +5327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelease a key or button.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot",
           "name": "release",
           "package": "robot",
@@ -4899,6 +5338,7 @@
         "index": {
           "description": "Release key or button",
           "hierarchy": "Test Robot",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot",
           "name": "release",
           "normalized": "a-\u003eRobot()",
@@ -4914,6 +5354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo nothing for the specified number of seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot",
           "name": "sleep",
           "package": "robot",
@@ -4924,6 +5365,7 @@
         "index": {
           "description": "Do nothing for the specified number of seconds",
           "hierarchy": "Test Robot",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot",
           "name": "sleep",
           "normalized": "Rational-\u003eRobot()",
@@ -4939,6 +5381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePress the argument, then release it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:42 UTC 2014",
           "module": "Test.Robot",
           "name": "tap",
           "package": "robot",
@@ -4949,6 +5392,7 @@
         "index": {
           "description": "Press the argument then release it",
           "hierarchy": "Test Robot",
+          "indexed": "2014-03-11T19:54:42",
           "module": "Test.Robot",
           "name": "tap",
           "normalized": "a-\u003eRobot()",

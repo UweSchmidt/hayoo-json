@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "spata"
+        "phrase": "spata",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.DSL",
           "name": "DSL",
           "package": "spata",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Spata DSL",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.DSL",
           "name": "DSL",
           "package": "spata",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.DSL",
           "name": "guard",
           "package": "spata",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network Spata DSL",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.DSL",
           "name": "guard",
           "normalized": "Assoc-\u003eGuardians-\u003eEither String Assoc",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.DSL",
           "name": "guardM",
           "package": "spata",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Network Spata DSL",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.DSL",
           "name": "guardM",
           "normalized": "Assoc-\u003eGuardiansM a-\u003ea(Either String Assoc)",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.DSL",
           "name": "guard_m",
           "package": "spata",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Network Spata DSL",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.DSL",
           "name": "guard_m",
           "normalized": "Assoc-\u003eGuardiansM a-\u003ea(Either String Assoc)",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.DSL",
           "name": "inclusion_of",
           "package": "spata",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Network Spata DSL",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.DSL",
           "name": "inclusion_of",
           "package": "spata",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.DSL",
           "name": "int_of",
           "package": "spata",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Network Spata DSL",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.DSL",
           "name": "int_of",
           "package": "spata",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.DSL",
           "name": "length_of",
           "package": "spata",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Network Spata DSL",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.DSL",
           "name": "length_of",
           "normalized": "(Integer-\u003eBool)-\u003eGuard",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.DSL",
           "name": "p",
           "package": "spata",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Network Spata DSL",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.DSL",
           "name": "p",
           "normalized": "(String-\u003eBool)-\u003eString-\u003eGuard",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.DSL",
           "name": "predicate",
           "package": "spata",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Network Spata DSL",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.DSL",
           "name": "predicate",
           "normalized": "(String-\u003eBool)-\u003eString-\u003eGuard",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.DSL",
           "name": "predicateM",
           "package": "spata",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Network Spata DSL",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.DSL",
           "name": "predicateM",
           "normalized": "(String-\u003ea Bool)-\u003eString-\u003eGuardM a",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.DSL",
           "name": "predicate_m",
           "package": "spata",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Network Spata DSL",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.DSL",
           "name": "predicate_m",
           "normalized": "(String-\u003ea Bool)-\u003eString-\u003eGuardM a",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.DSL",
           "name": "presence_of",
           "package": "spata",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Network Spata DSL",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.DSL",
           "name": "presence_of",
           "package": "spata",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.DSL",
           "name": "train",
           "package": "spata",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Network Spata DSL",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.DSL",
           "name": "train",
           "normalized": "Task-\u003eGuardians",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.DSL",
           "name": "validate",
           "package": "spata",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Network Spata DSL",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.DSL",
           "name": "validate",
           "normalized": "Guard-\u003e[String]-\u003eGuardians",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.DSL",
           "name": "validateM",
           "package": "spata",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Network Spata DSL",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.DSL",
           "name": "validateM",
           "normalized": "GuardM a-\u003e[String]-\u003eGuardiansM a",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.DSL",
           "name": "validate_m",
           "package": "spata",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Network Spata DSL",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.DSL",
           "name": "validate_m",
           "normalized": "GuardM a-\u003e[String]-\u003eGuardiansM a",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.Type",
           "name": "Type",
           "package": "spata",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Network Spata Type",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.Type",
           "name": "Type",
           "package": "spata",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.Type",
           "name": "Assoc",
           "package": "spata",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Network Spata Type",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.Type",
           "name": "Assoc",
           "package": "spata",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.Type",
           "name": "Guard",
           "package": "spata",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Network Spata Type",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.Type",
           "name": "Guard",
           "package": "spata",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.Type",
           "name": "GuardM",
           "package": "spata",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Network Spata Type",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.Type",
           "name": "GuardM",
           "package": "spata",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.Type",
           "name": "Guardians",
           "package": "spata",
@@ -470,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Network Spata Type",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.Type",
           "name": "Guardians",
           "package": "spata",
@@ -483,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.Type",
           "name": "GuardiansM",
           "package": "spata",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Network Spata Type",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.Type",
           "name": "GuardiansM",
           "package": "spata",
@@ -504,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.Type",
           "name": "GuardiansT",
           "package": "spata",
@@ -512,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Network Spata Type",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.Type",
           "name": "GuardiansT",
           "package": "spata",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.Type",
           "name": "GuardiansTM",
           "package": "spata",
@@ -533,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Network Spata Type",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.Type",
           "name": "GuardiansTM",
           "package": "spata",
@@ -546,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.Type",
           "name": "Task",
           "package": "spata",
@@ -554,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Network Spata Type",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.Type",
           "name": "Task",
           "package": "spata",
@@ -567,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata.Type",
           "name": "TaskM",
           "package": "spata",
@@ -575,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Network Spata Type",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata.Type",
           "name": "TaskM",
           "package": "spata",
@@ -588,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:50 UTC 2014",
           "module": "Network.Spata",
           "name": "Spata",
           "package": "spata",
@@ -596,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Network Spata",
+          "indexed": "2014-03-11T20:07:50",
           "module": "Network.Spata",
           "name": "Spata",
           "package": "spata",

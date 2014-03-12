@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Docs"
+        "phrase": "Docs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClasses for \u003ccode\u003e\u003ca\u003eDocumentable\u003c/a\u003e\u003c/code\u003e types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "Class",
           "package": "Docs",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Classes for Documentable types",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "Class",
           "package": "Docs",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDocumentable\u003c/a\u003e\u003c/code\u003e types with links.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "DocLinked",
           "package": "Docs",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Documentable types with links",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "DocLinked",
           "package": "Docs",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDocumentable\u003c/a\u003e\u003c/code\u003e types with lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "DocList",
           "package": "Docs",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Documentable types with lists",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "DocList",
           "package": "Docs",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDocumentable\u003c/a\u003e\u003c/code\u003e types with titles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "DocTitled",
           "package": "Docs",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Documentable types with titles",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "DocTitled",
           "package": "Docs",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for types that represents a documentation text. Minimal complete definition: All except \u003ccode\u003e\u003ca\u003elnappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eEvery instance of \u003ccode\u003e\u003ca\u003eDocumentable\u003c/a\u003e\u003c/code\u003e class can be an instance of \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "Documentable",
           "package": "Docs",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Class for types that represents documentation text Minimal complete definition All except lnappend Every instance of Documentable class can be an instance of Monoid class",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "Documentable",
           "package": "Docs",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to a code format text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "code",
           "package": "Docs",
@@ -144,6 +155,7 @@
         "index": {
           "description": "String to code format text",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "code",
           "normalized": "String-\u003ea",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to a code block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "codeblock",
           "package": "Docs",
@@ -169,6 +182,7 @@
         "index": {
           "description": "String to code block",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "codeblock",
           "normalized": "String-\u003ea",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppending documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "dappend",
           "package": "Docs",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Appending documentation",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "dappend",
           "normalized": "a-\u003ea-\u003ea",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDocumentable\u003c/a\u003e\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003eunlines\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "dunlines",
           "package": "Docs",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Documentable version of unlines",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "dunlines",
           "normalized": "[a]-\u003ea",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerated list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "elist",
           "package": "Docs",
@@ -244,6 +263,7 @@
         "index": {
           "description": "Enumerated list",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "elist",
           "normalized": "[a]-\u003ea",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmphasizing documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "emphasize",
           "package": "Docs",
@@ -269,6 +290,7 @@
         "index": {
           "description": "Emphasizing documentation",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "emphasize",
           "normalized": "a-\u003ea",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "emptydoc",
           "package": "Docs",
@@ -294,6 +317,7 @@
         "index": {
           "description": "An empty documentation",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "emptydoc",
           "package": "Docs",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppending documentation, with line break.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "lnappend",
           "package": "Docs",
@@ -317,6 +342,7 @@
         "index": {
           "description": "Appending documentation with line break",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "lnappend",
           "normalized": "a-\u003ea-\u003ea",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA named URL to documentation. First argument is the name of the link, second argument the URL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "nameurl",
           "package": "Docs",
@@ -342,6 +369,7 @@
         "index": {
           "description": "named URL to documentation First argument is the name of the link second argument the URL",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "nameurl",
           "normalized": "String-\u003eString-\u003ea",
@@ -357,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRendering documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "renderdoc",
           "package": "Docs",
@@ -367,6 +396,7 @@
         "index": {
           "description": "Rendering documentation",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "renderdoc",
           "normalized": "a-\u003eString",
@@ -382,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaking a subtitle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "subtitle",
           "package": "Docs",
@@ -392,6 +423,7 @@
         "index": {
           "description": "Making subtitle",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "subtitle",
           "normalized": "a-\u003ea",
@@ -407,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to a documentation text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "text",
           "package": "Docs",
@@ -417,6 +450,7 @@
         "index": {
           "description": "String to documentation text",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "text",
           "normalized": "String-\u003ea",
@@ -432,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaking a title.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "title",
           "package": "Docs",
@@ -442,6 +477,7 @@
         "index": {
           "description": "Making title",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "title",
           "normalized": "a-\u003ea",
@@ -457,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnordered list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "ulist",
           "package": "Docs",
@@ -467,6 +504,7 @@
         "index": {
           "description": "Unordered list",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "ulist",
           "normalized": "[a]-\u003ea",
@@ -482,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn URL to documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:13 UTC 2014",
           "module": "Text.Docs.Class",
           "name": "url",
           "package": "Docs",
@@ -492,6 +531,7 @@
         "index": {
           "description": "An URL to documentation",
           "hierarchy": "Text Docs Class",
+          "indexed": "2014-03-11T16:39:13",
           "module": "Text.Docs.Class",
           "name": "url",
           "normalized": "String-\u003ea",

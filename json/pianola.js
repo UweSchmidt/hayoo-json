@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pianola"
+        "phrase": "pianola",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "Geometry",
           "package": "pianola",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "Geometry",
           "package": "pianola",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(width,height)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "Dimensions2d",
           "package": "pianola",
@@ -49,6 +52,7 @@
         "index": {
           "description": "width height",
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "Dimensions2d",
           "package": "pianola",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of objects with rectangular shape and located in a two-dimensional\n plane.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "Geometrical",
           "package": "pianola",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Class of objects with rectangular shape and located in two-dimensional plane",
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "Geometrical",
           "package": "pianola",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "Interval",
           "package": "pianola",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "Interval",
           "package": "pianola",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "Point1d",
           "package": "pianola",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "Point1d",
           "package": "pianola",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(x,y)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "Point2d",
           "package": "pianola",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "Point2d",
           "package": "pianola",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "after1d",
           "package": "pianola",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "after1d",
           "normalized": "Interval-\u003ePoint a-\u003eBool",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "area",
           "package": "pianola",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "area",
           "normalized": "a-\u003eInt",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "before1d",
           "package": "pianola",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "before1d",
           "normalized": "Interval-\u003ePoint a-\u003eBool",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "dimensions",
           "package": "pianola",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "dimensions",
           "normalized": "a-\u003eDimensions b",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "height",
           "package": "pianola",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "height",
           "normalized": "a-\u003eInt",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "inside1d",
           "package": "pianola",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "inside1d",
           "normalized": "Interval-\u003ePoint a-\u003eBool",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "mid",
           "package": "pianola",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "mid",
           "normalized": "Interval-\u003ePoint a",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "midX",
           "package": "pianola",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "midX",
           "normalized": "a-\u003eInt",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "midY",
           "package": "pianola",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "midY",
           "normalized": "a-\u003eInt",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "midpoint",
           "package": "pianola",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "midpoint",
           "normalized": "a-\u003ePoint b",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "minX",
           "package": "pianola",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "minX",
           "normalized": "a-\u003eInt",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "minY",
           "package": "pianola",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "minY",
           "normalized": "a-\u003eInt",
@@ -426,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition of the north-west corner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "nwcorner",
           "package": "pianola",
@@ -436,6 +473,7 @@
         "index": {
           "description": "Position of the north-west corner",
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "nwcorner",
           "normalized": "a-\u003ePoint b",
@@ -451,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the second object is roughly at the same height and to the right\n of the first object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "sameLevelRightOf",
           "package": "pianola",
@@ -461,6 +500,7 @@
         "index": {
           "description": "True if the second object is roughly at the same height and to the right of the first object",
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "sameLevelRightOf",
           "normalized": "a-\u003ea-\u003eBool",
@@ -476,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "width",
           "package": "pianola",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "width",
           "normalized": "a-\u003eInt",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "xband",
           "package": "pianola",
@@ -508,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "xband",
           "normalized": "a-\u003eInterval",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Geometry",
           "name": "yband",
           "package": "pianola",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Pianola Geometry",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Geometry",
           "name": "yband",
           "normalized": "a-\u003eInterval",
@@ -546,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module should not be imported by clients unless for the purpose of\n extending the library. \n\u003c/p\u003e\u003cp\u003eThe constructors of the data types defined in this module are meant to be\n hidden from the client. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Internal",
           "name": "Internal",
           "package": "pianola",
@@ -555,6 +602,7 @@
         "index": {
           "description": "This module should not be imported by clients unless for the purpose of extending the library The constructors of the data types defined in this module are meant to be hidden from the client",
           "hierarchy": "Pianola Internal",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Internal",
           "name": "Internal",
           "package": "pianola",
@@ -569,6 +617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps a monad in order to tag those operations which don't actually change\n the state of the remote system. For example: taking a screenshot doesn't\n change the state of a GUI, as opposed to clicking a button.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Internal",
           "name": "Nullipotent",
           "package": "pianola",
@@ -578,6 +627,7 @@
         "index": {
           "description": "Wraps monad in order to tag those operations which don actually change the state of the remote system For example taking screenshot doesn change the state of GUI as opposed to clicking button",
           "hierarchy": "Pianola Internal",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Internal",
           "name": "Nullipotent",
           "package": "pianola",
@@ -592,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulates a monadic action so that clients can't manipulate it in any\n way, only dispatch it to some function.\n\u003c/p\u003e\u003cp\u003eThere may be tags attached that describe the action. Clients should be able\n to inspect the tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Internal",
           "name": "Sealed",
           "package": "pianola",
@@ -601,6 +652,7 @@
         "index": {
           "description": "Encapsulates monadic action so that clients can manipulate it in any way only dispatch it to some function There may be tags attached that describe the action Clients should be able to inspect the tags",
           "hierarchy": "Pianola Internal",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Internal",
           "name": "Sealed",
           "package": "pianola",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Internal",
           "name": "Tag",
           "package": "pianola",
@@ -622,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Pianola Internal",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Internal",
           "name": "Tag",
           "package": "pianola",
@@ -635,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Internal",
           "name": "Nullipotent",
           "package": "pianola",
@@ -644,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Pianola Internal",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Internal",
           "name": "Nullipotent",
           "package": "pianola",
@@ -657,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Internal",
           "name": "Sealed",
           "package": "pianola",
@@ -666,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Pianola Internal",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Internal",
           "name": "Sealed",
           "package": "pianola",
@@ -704,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Internal",
           "name": "runNullipotent",
           "package": "pianola",
@@ -713,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Pianola Internal",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Internal",
           "name": "runNullipotent",
           "package": "pianola",
@@ -726,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Internal",
           "name": "tags",
           "package": "pianola",
@@ -735,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Pianola Internal",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Internal",
           "name": "tags",
           "normalized": "[Tag]",
@@ -749,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Internal",
           "name": "unseal",
           "package": "pianola",
@@ -758,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Pianola Internal",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Internal",
           "name": "unseal",
           "normalized": "a()",
@@ -772,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing.Driver",
           "name": "Driver",
           "package": "pianola",
@@ -780,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing Driver",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing.Driver",
           "name": "Driver",
           "package": "pianola",
@@ -794,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialization of \u003ccode\u003e\u003ca\u003esimpleDriver\u003c/a\u003e\u003c/code\u003e which doesn't require the client to\n provide the snapshot action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing.Driver",
           "name": "simpleSwingDriver",
           "package": "pianola",
@@ -804,6 +871,7 @@
         "index": {
           "description": "Specialization of simpleDriver which doesn require the client to provide the snapshot action",
           "hierarchy": "Pianola Model Swing Driver",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing.Driver",
           "name": "simpleSwingDriver",
           "normalized": "Endpoint-\u003ePianola Protocol LogEntry(GUI Protocol)a-\u003eStream FilePath-\u003eEitherT DriverError IO a",
@@ -819,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing.Protocol",
           "name": "Protocol",
           "package": "pianola",
@@ -827,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing Protocol",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing.Protocol",
           "name": "Protocol",
           "package": "pianola",
@@ -841,6 +911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic action to obtain a local representation of the state of a remote\n Swing GUI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing.Protocol",
           "name": "snapshot",
           "package": "pianola",
@@ -851,6 +922,7 @@
         "index": {
           "description": "Monadic action to obtain local representation of the state of remote Swing GUI",
           "hierarchy": "Pianola Model Swing Protocol",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing.Protocol",
           "name": "snapshot",
           "package": "pianola",
@@ -863,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "Swing",
           "package": "pianola",
@@ -871,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "Swing",
           "package": "pianola",
@@ -885,6 +959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplex gui components like lists, tables and trees are represented as\n list of cells, list of lists (list of columns) of cells, and trees of cells,\n respectively.\n\u003c/p\u003e\u003cp\u003eBear in mind that in Swing the renderer sub-components of a complex\n component do \u003cem\u003enot\u003c/em\u003e count as children of the component. However, editor\n components \u003cem\u003edo\u003c/em\u003e count as children of the component. \n\u003c/p\u003e\u003cp\u003eA common case is to double click on a table cell to activate the cell's\n editor, and then having to look for that editor among the descendants of the\n table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "Cell",
           "package": "pianola",
@@ -894,6 +969,7 @@
         "index": {
           "description": "Complex gui components like lists tables and trees are represented as list of cells list of lists list of columns of cells and trees of cells respectively Bear in mind that in Swing the renderer sub-components of complex component do not count as children of the component However editor components do count as children of the component common case is to double click on table cell to activate the cell editor and then having to look for that editor among the descendants of the table",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "Cell",
           "package": "pianola",
@@ -907,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "Component",
           "package": "pianola",
@@ -915,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "Component",
           "package": "pianola",
@@ -928,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "ComponentInfo",
           "package": "pianola",
@@ -936,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "ComponentInfo",
           "package": "pianola",
@@ -950,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypeclass which provides convenience functions to supplement the bare fields of a \u003ccode\u003e\u003ca\u003eComponentInfo\u003c/a\u003e\u003c/code\u003e record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "ComponentLike",
           "package": "pianola",
@@ -959,6 +1040,7 @@
         "index": {
           "description": "Typeclass which provides convenience functions to supplement the bare fields of ComponentInfo record",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "ComponentLike",
           "package": "pianola",
@@ -973,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents data specific to each subclass of Swing components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "ComponentType",
           "package": "pianola",
@@ -982,6 +1065,7 @@
         "index": {
           "description": "Represents data specific to each subclass of Swing components",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "ComponentType",
           "package": "pianola",
@@ -996,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA component which carries a reference to the window to which it belongs.\n See \u003ccode\u003e\u003ca\u003eWindowed\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "ComponentW",
           "package": "pianola",
@@ -1005,6 +1090,7 @@
         "index": {
           "description": "component which carries reference to the window to which it belongs See Windowed",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "ComponentW",
           "package": "pianola",
@@ -1019,6 +1105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA client-side representation of the state of a remote Swing GUI.\n Interaction with the GUI is through actions in the monad \u003cem\u003em\u003c/em\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "GUI",
           "package": "pianola",
@@ -1028,6 +1115,7 @@
         "index": {
           "description": "client-side representation of the state of remote Swing GUI Interaction with the GUI is through actions in the monad",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "GUI",
           "package": "pianola",
@@ -1041,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "Tab",
           "package": "pianola",
@@ -1049,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "Tab",
           "package": "pianola",
@@ -1062,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "Window",
           "package": "pianola",
@@ -1070,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "Window",
           "package": "pianola",
@@ -1083,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "WindowInfo",
           "package": "pianola",
@@ -1091,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "WindowInfo",
           "package": "pianola",
@@ -1105,6 +1199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypeclass which provides convenience functions to supplement the bare fields of a \u003ccode\u003e\u003ca\u003eWindowInfo\u003c/a\u003e\u003c/code\u003e record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "WindowLike",
           "package": "pianola",
@@ -1114,6 +1209,7 @@
         "index": {
           "description": "Typeclass which provides convenience functions to supplement the bare fields of WindowInfo record",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "WindowLike",
           "package": "pianola",
@@ -1128,6 +1224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypeclass instantiated by windows and components aware of belonging to a\n window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "Windowed",
           "package": "pianola",
@@ -1137,6 +1234,7 @@
         "index": {
           "description": "Typeclass instantiated by windows and components aware of belonging to window",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "Windowed",
           "package": "pianola",
@@ -1151,6 +1249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA button with its selection action. Menu items in popup menus are also\n treated as buttons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "Button",
           "package": "pianola",
@@ -1161,6 +1260,7 @@
         "index": {
           "description": "button with its selection action Menu items in popup menus are also treated as buttons",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "Button",
           "package": "pianola",
@@ -1174,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "Cell",
           "package": "pianola",
@@ -1183,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "Cell",
           "package": "pianola",
@@ -1197,6 +1299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA combo box which may already have a selection, and which offers a click\n action which shows the drop-down list. See \u003ccode\u003e\u003ca\u003eselectInComboBox\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "ComboBox",
           "package": "pianola",
@@ -1207,6 +1310,7 @@
         "index": {
           "description": "combo box which may already have selection and which offers click action which shows the drop-down list See selectInComboBox",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "ComboBox",
           "package": "pianola",
@@ -1220,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "Component",
           "package": "pianola",
@@ -1229,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "Component",
           "package": "pianola",
@@ -1242,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "ComponentInfo",
           "package": "pianola",
@@ -1251,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "ComponentInfo",
           "package": "pianola",
@@ -1264,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "ComponentW",
           "package": "pianola",
@@ -1273,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "ComponentW",
           "package": "pianola",
@@ -1286,6 +1396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "Label",
           "package": "pianola",
@@ -1295,6 +1406,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "Label",
           "package": "pianola",
@@ -1309,6 +1421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003elistCellByText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "List",
           "package": "pianola",
@@ -1319,6 +1432,7 @@
         "index": {
           "description": "See listCellByText",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "List",
           "normalized": "List[Cell a]",
@@ -1335,6 +1449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe text value holds the name of the class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "Other",
           "package": "pianola",
@@ -1345,6 +1460,7 @@
         "index": {
           "description": "The text value holds the name of the class",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "Other",
           "package": "pianola",
@@ -1358,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "Panel",
           "package": "pianola",
@@ -1367,6 +1484,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "Panel",
           "package": "pianola",
@@ -1381,6 +1499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn Swing, popup menus reside in the popup layer of a window or, if the\n popup extends beyond the window, in the contents pane of a child window\n created to hold the popup. See \u003ccode\u003e\u003ca\u003epopupItem\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "PopupMenu",
           "package": "pianola",
@@ -1391,6 +1510,7 @@
         "index": {
           "description": "In Swing popup menus reside in the popup layer of window or if the popup extends beyond the window in the contents pane of child window created to hold the popup See popupItem",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "PopupMenu",
           "package": "pianola",
@@ -1404,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "Tab",
           "package": "pianola",
@@ -1413,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "Tab",
           "package": "pianola",
@@ -1427,6 +1549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eselectTabByText\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "TabbedPane",
           "package": "pianola",
@@ -1437,6 +1560,7 @@
         "index": {
           "description": "See selectTabByText",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "TabbedPane",
           "normalized": "TabbedPane[Tab a]",
@@ -1453,6 +1577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTables are represented as lists of columns. See \u003ccode\u003e\u003ca\u003etableCellByText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "Table",
           "package": "pianola",
@@ -1463,6 +1588,7 @@
         "index": {
           "description": "Tables are represented as lists of columns See tableCellByText",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "Table",
           "normalized": "Table[[Cell a]]",
@@ -1479,6 +1605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e when the textfield is not editable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "TextField",
           "package": "pianola",
@@ -1489,6 +1616,7 @@
         "index": {
           "description": "Nothing when the textfield is not editable",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "TextField",
           "normalized": "TextField(Maybe(Text-\u003eSealed a))",
@@ -1505,6 +1633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA check box, either in a window or in a popup menu. The bool value is the\n current selection state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "Toggleable",
           "package": "pianola",
@@ -1515,6 +1644,7 @@
         "index": {
           "description": "check box either in window or in popup menu The bool value is the current selection state",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "Toggleable",
           "normalized": "Toggleable Bool(Bool-\u003eSealed a)",
@@ -1531,6 +1661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of trees of \u003ccode\u003e\u003ca\u003eCell\u003c/a\u003e\u003c/code\u003e. It is a list of trees instead of a single tree\n so that JTrees which do not show the root can be represented. See \u003ccode\u003e\u003ca\u003etreeCellByText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "Treegui",
           "package": "pianola",
@@ -1541,6 +1672,7 @@
         "index": {
           "description": "list of trees of Cell It is list of trees instead of single tree so that JTrees which do not show the root can be represented See treeCellByText",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "Treegui",
           "package": "pianola",
@@ -1554,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "Window",
           "package": "pianola",
@@ -1563,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "Window",
           "package": "pianola",
@@ -1576,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "WindowInfo",
           "package": "pianola",
@@ -1585,6 +1720,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "WindowInfo",
           "package": "pianola",
@@ -1599,6 +1735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction which returns a screenshot capture of the window. See \u003ccode\u003e\u003ca\u003elogcapture\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_capture",
           "package": "pianola",
@@ -1609,6 +1746,7 @@
         "index": {
           "description": "Action which returns screenshot capture of the window See logcapture",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_capture",
           "package": "pianola",
@@ -1621,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_click",
           "package": "pianola",
@@ -1630,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_click",
           "package": "pianola",
@@ -1642,6 +1782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_clickCell",
           "package": "pianola",
@@ -1651,6 +1792,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_clickCell",
           "package": "pianola",
@@ -1665,6 +1807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eclose\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_close",
           "package": "pianola",
@@ -1675,6 +1818,7 @@
         "index": {
           "description": "See close",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_close",
           "package": "pianola",
@@ -1687,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_componentType",
           "package": "pianola",
@@ -1696,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_componentType",
           "package": "pianola",
@@ -1710,6 +1856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe contents pane. All non-popup components of the window are\n descendants of the contents pane. See \u003ccode\u003e\u003ca\u003econtentPane\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edescendants\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_contentPane",
           "package": "pianola",
@@ -1720,6 +1867,7 @@
         "index": {
           "description": "The contents pane All non-popup components of the window are descendants of the contents pane See contentPane and descendants",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_contentPane",
           "package": "pianola",
@@ -1734,6 +1882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidth and height.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_dim",
           "package": "pianola",
@@ -1744,6 +1893,7 @@
         "index": {
           "description": "Width and height",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_dim",
           "normalized": "(Int,Int)",
@@ -1758,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_doubleClick",
           "package": "pianola",
@@ -1767,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_doubleClick",
           "package": "pianola",
@@ -1780,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_doubleClickCell",
           "package": "pianola",
@@ -1789,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_doubleClickCell",
           "package": "pianola",
@@ -1802,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_enabled",
           "package": "pianola",
@@ -1811,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_enabled",
           "package": "pianola",
@@ -1824,6 +1980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eenter\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_enter",
           "package": "pianola",
@@ -1834,6 +1991,7 @@
         "index": {
           "description": "See enter",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_enter",
           "package": "pianola",
@@ -1847,6 +2005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eescape\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_escape",
           "package": "pianola",
@@ -1857,6 +2016,7 @@
         "index": {
           "description": "See escape",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_escape",
           "package": "pianola",
@@ -1870,6 +2030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlways \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e for cells not belonging to trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_expand",
           "package": "pianola",
@@ -1880,6 +2041,7 @@
         "index": {
           "description": "Always Nothing for cells not belonging to trees",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_expand",
           "normalized": "Maybe(Bool-\u003eSealed a)",
@@ -1894,6 +2056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_isTabSelected",
           "package": "pianola",
@@ -1903,6 +2066,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_isTabSelected",
           "package": "pianola",
@@ -1917,6 +2081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of components in the menu bar. See \u003ccode\u003e\u003ca\u003eselectInMenuBar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_menu",
           "package": "pianola",
@@ -1927,6 +2092,7 @@
         "index": {
           "description": "List of components in the menu bar See selectInMenuBar",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_menu",
           "normalized": "[Component a]",
@@ -1941,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_name",
           "package": "pianola",
@@ -1950,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_name",
           "package": "pianola",
@@ -1963,6 +2131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of components in the popup layer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_popupLayer",
           "package": "pianola",
@@ -1973,6 +2142,7 @@
         "index": {
           "description": "List of components in the popup layer",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_popupLayer",
           "normalized": "[Component a]",
@@ -1989,6 +2159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe position of the component within the containing window. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_pos",
           "package": "pianola",
@@ -1999,6 +2170,7 @@
         "index": {
           "description": "The position of the component within the containing window",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_pos",
           "normalized": "(Int,Int)",
@@ -2014,6 +2186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rendering component. Clients should not try to invoke actions on\n rendering components, as they are inert and only used for display\n purposes. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_renderer",
           "package": "pianola",
@@ -2024,6 +2197,7 @@
         "index": {
           "description": "The rendering component Clients should not try to invoke actions on rendering components as they are inert and only used for display purposes",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_renderer",
           "package": "pianola",
@@ -2036,6 +2210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_rightClick",
           "package": "pianola",
@@ -2045,6 +2220,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_rightClick",
           "package": "pianola",
@@ -2058,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_rightClickCell",
           "package": "pianola",
@@ -2067,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_rightClickCell",
           "package": "pianola",
@@ -2080,6 +2258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_selectTab",
           "package": "pianola",
@@ -2089,6 +2268,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_selectTab",
           "package": "pianola",
@@ -2102,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_tabText",
           "package": "pianola",
@@ -2111,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_tabText",
           "package": "pianola",
@@ -2124,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_tabToolTip",
           "package": "pianola",
@@ -2133,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_tabToolTip",
           "package": "pianola",
@@ -2147,6 +2331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe textual value of the component.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_text",
           "package": "pianola",
@@ -2157,6 +2342,7 @@
         "index": {
           "description": "The textual value of the component",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_text",
           "package": "pianola",
@@ -2170,6 +2356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003etoFront\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_toFront",
           "package": "pianola",
@@ -2180,6 +2367,7 @@
         "index": {
           "description": "See toFront",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_toFront",
           "package": "pianola",
@@ -2193,6 +2381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_tooltip",
           "package": "pianola",
@@ -2202,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_tooltip",
           "package": "pianola",
@@ -2215,6 +2405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidth, height.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_windowDim",
           "package": "pianola",
@@ -2225,6 +2416,7 @@
         "index": {
           "description": "Width height",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_windowDim",
           "normalized": "(Int,Int)",
@@ -2240,6 +2432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "_windowTitle",
           "package": "pianola",
@@ -2249,6 +2442,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "_windowTitle",
           "package": "pianola",
@@ -2262,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "cInfo",
           "package": "pianola",
@@ -2271,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "cInfo",
           "normalized": "a b-\u003eComponentInfo b",
@@ -2286,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "cType",
           "package": "pianola",
@@ -2295,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "cType",
           "normalized": "a b-\u003eComponentType b",
@@ -2311,6 +2509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the children of a window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "childWindow",
           "package": "pianola",
@@ -2321,6 +2520,7 @@
         "index": {
           "description": "Returns the children of window",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "childWindow",
           "package": "pianola",
@@ -2335,6 +2535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the click action of a component.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "click",
           "package": "pianola",
@@ -2345,6 +2546,7 @@
         "index": {
           "description": "Returns the click action of component",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "click",
           "normalized": "a b-\u003ec(Sealed b)",
@@ -2360,6 +2562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the component is a button returns its click action, otherwise\n \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "clickButton",
           "package": "pianola",
@@ -2370,6 +2573,7 @@
         "index": {
           "description": "If the component is button returns its click action otherwise mzero",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "clickButton",
           "normalized": "a b-\u003ec(Sealed b)",
@@ -2386,6 +2590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the component or *any of its descendants* is a button whose text\n satisfies the predicate, returns the click action. Otherwise \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "clickButtonByText",
           "package": "pianola",
@@ -2396,6 +2601,7 @@
         "index": {
           "description": "If the component or any of its descendants is button whose text satisfies the predicate returns the click action Otherwise mzero",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "clickButtonByText",
           "normalized": "(Text-\u003eBool)-\u003eGlance a b(c a)(Sealed a)",
@@ -2412,6 +2618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eclickButtonByText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "clickButtonByToolTip",
           "package": "pianola",
@@ -2422,6 +2629,7 @@
         "index": {
           "description": "Similar to clickButtonByText",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "clickButtonByToolTip",
           "normalized": "(Text-\u003eBool)-\u003eGlance a b(c a)(Sealed a)",
@@ -2438,6 +2646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the component is a combo box returns its click action, otherwise\n \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "clickCombo",
           "package": "pianola",
@@ -2448,6 +2657,7 @@
         "index": {
           "description": "If the component is combo box returns its click action otherwise mzero",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "clickCombo",
           "normalized": "a b-\u003ec(Sealed b)",
@@ -2463,6 +2673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "close",
           "package": "pianola",
@@ -2472,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "close",
           "package": "pianola",
@@ -2485,6 +2697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function which returns the content pane component\n augmented with a reference to the containing window. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "contentPane",
           "package": "pianola",
@@ -2495,6 +2708,7 @@
         "index": {
           "description": "Convenience function which returns the content pane component augmented with reference to the containing window",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "contentPane",
           "package": "pianola",
@@ -2508,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "doubleClick",
           "package": "pianola",
@@ -2517,6 +2732,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "doubleClick",
           "normalized": "a b-\u003ec(Sealed b)",
@@ -2533,6 +2749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends an \u003cem\u003eenter\u003c/em\u003e keypress to the window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "enter",
           "package": "pianola",
@@ -2543,6 +2760,7 @@
         "index": {
           "description": "Sends an enter keypress to the window",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "enter",
           "package": "pianola",
@@ -2556,6 +2774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends an \u003cem\u003eescape\u003c/em\u003e keypress to the window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "escape",
           "package": "pianola",
@@ -2566,6 +2785,7 @@
         "index": {
           "description": "Sends an escape keypress to the window",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "escape",
           "package": "pianola",
@@ -2579,6 +2799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the expand/collapse action of the root node of a tree of cells,\n depending on a boolean parameter.  Useful with gui trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "expand",
           "package": "pianola",
@@ -2589,6 +2810,7 @@
         "index": {
           "description": "Returns the expand collapse action of the root node of tree of cells depending on boolean parameter Useful with gui trees",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "expand",
           "normalized": "Bool-\u003eGlance a b(Tree(Cell a))(Sealed a)",
@@ -2604,6 +2826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the component has a name and the name satisfies the predicate,\n returns the component, otherwise \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "hasName",
           "package": "pianola",
@@ -2614,6 +2837,7 @@
         "index": {
           "description": "If the component has name and the name satisfies the predicate returns the component otherwise mzero",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "hasName",
           "normalized": "(Text-\u003eBool)-\u003ea b-\u003ec(a b)",
@@ -2630,6 +2854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the component has some kind of textual content and the text\n satisfies the predicate, returns the component, otherwise \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "hasText",
           "package": "pianola",
@@ -2640,6 +2865,7 @@
         "index": {
           "description": "If the component has some kind of textual content and the text satisfies the predicate returns the component otherwise mzero",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "hasText",
           "normalized": "(Text-\u003eBool)-\u003ea b-\u003ec(a b)",
@@ -2656,6 +2882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the window has a title that satisfies the predicate, returns the\n window, otherwise \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "hasTitle",
           "package": "pianola",
@@ -2666,6 +2893,7 @@
         "index": {
           "description": "If the window has title that satisfies the predicate returns the window otherwise mzero",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "hasTitle",
           "normalized": "(Text-\u003eBool)-\u003ea b-\u003ec(a b)",
@@ -2682,6 +2910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the component has a tooltip and the tooltip satisfies the\n predicate, returns the component, otherwise \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "hasToolTip",
           "package": "pianola",
@@ -2692,6 +2921,7 @@
         "index": {
           "description": "If the component has tooltip and the tooltip satisfies the predicate returns the component otherwise mzero",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "hasToolTip",
           "normalized": "(Text-\u003eBool)-\u003ea b-\u003ec(a b)",
@@ -2708,6 +2938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a component, searches its descendants to find a label whose text\n matches the predicate, finds the component to which the label applies, and\n returns it.\n\u003c/p\u003e\u003cp\u003eUseful for targeting text fields in form-like dialogs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "labeledBy",
           "package": "pianola",
@@ -2718,6 +2949,7 @@
         "index": {
           "description": "Takes component searches its descendants to find label whose text matches the predicate finds the component to which the label applies and returns it Useful for targeting text fields in form-like dialogs",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "labeledBy",
           "normalized": "(Text-\u003eBool)-\u003eGlance a b(c a)(c a)",
@@ -2734,6 +2966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the component is a list and has a cell whose renderer's text\n satisfies the predicate, returns the cell, otherwise \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "listCellByText",
           "package": "pianola",
@@ -2744,6 +2977,7 @@
         "index": {
           "description": "If the component is list and has cell whose renderer text satisfies the predicate returns the cell otherwise mzero",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "listCellByText",
           "normalized": "(Text-\u003eBool)-\u003ea b-\u003ec(Cell b)",
@@ -2760,6 +2994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function to log an screenshot of a window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "logcapture",
           "package": "pianola",
@@ -2770,6 +3005,7 @@
         "index": {
           "description": "Convenience function to log an screenshot of window",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "logcapture",
           "normalized": "Pianola a LogEntry(b a)()",
@@ -2785,6 +3021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the main window of the application. Only works properly when there\n is only one top-level window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "mainWindow",
           "package": "pianola",
@@ -2795,6 +3032,7 @@
         "index": {
           "description": "Returns the main window of the application Only works properly when there is only one top-level window",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "mainWindow",
           "package": "pianola",
@@ -2809,6 +3047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all the visible popup items belonging to a window (that is, not\n only the popup components themselves, but all their clickable children).\n Clients should use this function instead of trying to access the popup layer\n directly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "popupItem",
           "package": "pianola",
@@ -2819,6 +3058,7 @@
         "index": {
           "description": "Returns all the visible popup items belonging to window that is not only the popup components themselves but all their clickable children Clients should use this function instead of trying to access the popup layer directly",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "popupItem",
           "package": "pianola",
@@ -2833,6 +3073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function to access the components in the popup layer. Most\n of the time, clients should use \u003ccode\u003e\u003ca\u003epopupItem\u003c/a\u003e\u003c/code\u003e instead of this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "popupLayer",
           "package": "pianola",
@@ -2843,6 +3084,7 @@
         "index": {
           "description": "Convenience function to access the components in the popup layer Most of the time clients should use popupItem instead of this function",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "popupLayer",
           "package": "pianola",
@@ -2856,6 +3098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "rightClick",
           "package": "pianola",
@@ -2865,6 +3108,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "rightClick",
           "normalized": "a b-\u003ec(Sealed b)",
@@ -2881,6 +3125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eclickButtonByText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "rightClickByText",
           "package": "pianola",
@@ -2891,6 +3136,7 @@
         "index": {
           "description": "Similar to clickButtonByText",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "rightClickByText",
           "normalized": "(Text-\u003eBool)-\u003eGlance a b(c a)(Sealed a)",
@@ -2907,6 +3153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the component is a combo box, clicks on it and selects an option by its\n text. Otherwise fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "selectInComboBox",
           "package": "pianola",
@@ -2917,6 +3164,7 @@
         "index": {
           "description": "If the component is combo box clicks on it and selects an option by its text Otherwise fails",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "selectInComboBox",
           "normalized": "(Text-\u003eBool)-\u003ePianola a b(c a)()",
@@ -2933,6 +3181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms a sequence of selections in a window menu, based to the text of\n the options. Pass it something like \n\u003c/p\u003e\u003cpre\u003e map (==) [\"menuitem1\",\"menuitem2',...]\n\u003c/pre\u003e\u003cp\u003eTo match the exact names of the options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "selectInMenuBar",
           "package": "pianola",
@@ -2943,6 +3192,7 @@
         "index": {
           "description": "Performs sequence of selections in window menu based to the text of the options Pass it something like map menuitem1 menuitem2 To match the exact names of the options",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "selectInMenuBar",
           "normalized": "[Text-\u003eBool]-\u003ePianola a b(Window a)()",
@@ -2959,6 +3209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the component is a tabbed pane returns the select action of a tab whose\n text matches the predicate. Returns \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e if the component is not a tabbed\n pane.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "selectTabByText",
           "package": "pianola",
@@ -2969,6 +3220,7 @@
         "index": {
           "description": "If the component is tabbed pane returns the select action of tab whose text matches the predicate Returns mzero if the component is not tabbed pane",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "selectTabByText",
           "normalized": "(Text-\u003eBool)-\u003eGlance a b(c a)(Sealed a)",
@@ -2985,6 +3237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003eselecTabByText\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "selectTabByToolTip",
           "package": "pianola",
@@ -2995,6 +3248,7 @@
         "index": {
           "description": "Similar to selecTabByText",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "selectTabByToolTip",
           "normalized": "(Text-\u003eBool)-\u003eGlance a b(c a)(Sealed a)",
@@ -3011,6 +3265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the component is a text field and is editable, set the text of the\n text field. Otherwise \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "setText",
           "package": "pianola",
@@ -3021,6 +3276,7 @@
         "index": {
           "description": "If the component is text field and is editable set the text of the text field Otherwise mzero",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "setText",
           "normalized": "Text-\u003ea b-\u003ec(Sealed b)",
@@ -3037,6 +3293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the tabs of a component if the component is a tabbed pane,\n \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "tab",
           "package": "pianola",
@@ -3047,6 +3304,7 @@
         "index": {
           "description": "Returns the tabs of component if the component is tabbed pane mzero otherwise",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "tab",
           "normalized": "a b-\u003ec(Tab b)",
@@ -3062,6 +3320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the component is a table and has a cell at the specified column\n whose renderer's text satisfies the predicate, returns a pair of the\n cell and the row to which it belongs, otherwise \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "tableCellByText",
           "package": "pianola",
@@ -3072,6 +3331,7 @@
         "index": {
           "description": "If the component is table and has cell at the specified column whose renderer text satisfies the predicate returns pair of the cell and the row to which it belongs otherwise mzero",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "tableCellByText",
           "normalized": "Int-\u003e(Text-\u003eBool)-\u003ea b-\u003ec(Cell b,[Cell b])",
@@ -3088,6 +3348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the component's textual content or \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e if it doesn't have\n any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "text",
           "package": "pianola",
@@ -3098,6 +3359,7 @@
         "index": {
           "description": "Returns the component textual content or mzero if it doesn have any",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "text",
           "normalized": "a b-\u003ec Text",
@@ -3112,6 +3374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "title",
           "package": "pianola",
@@ -3121,6 +3384,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "title",
           "normalized": "a b-\u003ec Text",
@@ -3136,6 +3400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBrings the window to the front of the screen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "toFront",
           "package": "pianola",
@@ -3146,6 +3411,7 @@
         "index": {
           "description": "Brings the window to the front of the screen",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "toFront",
           "package": "pianola",
@@ -3160,6 +3426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToggles the component to the desired state if the component is\n toggleable, \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "toggle",
           "package": "pianola",
@@ -3170,6 +3437,7 @@
         "index": {
           "description": "Toggles the component to the desired state if the component is toggleable mzero otherwise",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "toggle",
           "normalized": "Bool-\u003ea b-\u003ec(Sealed b)",
@@ -3185,6 +3453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eselectInMenuBar\u003c/a\u003e\u003c/code\u003e, but for when the last item is a toggleable\n component. The boolean paramenter is the desired selection state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "toggleInMenuBar",
           "package": "pianola",
@@ -3195,6 +3464,7 @@
         "index": {
           "description": "Like selectInMenuBar but for when the last item is toggleable component The boolean paramenter is the desired selection state",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "toggleInMenuBar",
           "normalized": "Bool-\u003e[Text-\u003eBool]-\u003ePianola a b(Window a)()",
@@ -3211,6 +3481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the component's tooltip or \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e if it doesn't have any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "tooltip",
           "package": "pianola",
@@ -3221,6 +3492,7 @@
         "index": {
           "description": "Returns the component tooltip or mzero if it doesn have any",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "tooltip",
           "normalized": "a b-\u003ec Text",
@@ -3236,6 +3508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the component is a tree and has a cell at the specified depth\n (starting at 0 for the root) whose renderer's text satisfies the\n predicate, returns the subtree which has the cell as a root, otherwise\n \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "treeCellByText",
           "package": "pianola",
@@ -3246,6 +3519,7 @@
         "index": {
           "description": "If the component is tree and has cell at the specified depth starting at for the root whose renderer text satisfies the predicate returns the subtree which has the cell as root otherwise mzero",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "treeCellByText",
           "normalized": "Int-\u003e(Text-\u003eBool)-\u003ea b-\u003ec(Tree(Cell b))",
@@ -3261,6 +3535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "unComponent",
           "package": "pianola",
@@ -3270,6 +3545,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "unComponent",
           "package": "pianola",
@@ -3283,6 +3559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "unComponentW",
           "package": "pianola",
@@ -3292,6 +3569,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "unComponentW",
           "package": "pianola",
@@ -3305,6 +3583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "unWindow",
           "package": "pianola",
@@ -3314,6 +3593,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "unWindow",
           "package": "pianola",
@@ -3327,6 +3607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "wInfo",
           "package": "pianola",
@@ -3336,6 +3617,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "wInfo",
           "normalized": "a b-\u003eWindowInfo b",
@@ -3351,6 +3633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "window",
           "package": "pianola",
@@ -3360,6 +3643,7 @@
         },
         "index": {
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "window",
           "normalized": "a b-\u003ec(Window b)",
@@ -3375,6 +3659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all visible windows whose title satisfies the predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Model.Swing",
           "name": "windowTitled",
           "package": "pianola",
@@ -3385,6 +3670,7 @@
         "index": {
           "description": "Returns all visible windows whose title satisfies the predicate",
           "hierarchy": "Pianola Model Swing",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Model.Swing",
           "name": "windowTitled",
           "normalized": "(Text-\u003eBool)-\u003eGlance a b(GUI a)(Window a)",
@@ -3400,6 +3686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola.Driver",
           "name": "Driver",
           "package": "pianola",
@@ -3408,6 +3695,7 @@
         },
         "index": {
           "hierarchy": "Pianola Pianola Driver",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola.Driver",
           "name": "Driver",
           "package": "pianola",
@@ -3422,6 +3710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible failure outcomes when running a pianola computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola.Driver",
           "name": "DriverError",
           "package": "pianola",
@@ -3431,6 +3720,7 @@
         "index": {
           "description": "Possible failure outcomes when running pianola computation",
           "hierarchy": "Pianola Pianola Driver",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola.Driver",
           "name": "DriverError",
           "package": "pianola",
@@ -3445,6 +3735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal exception while storing screenshots or log messages.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola.Driver",
           "name": "DriverIOError",
           "package": "pianola",
@@ -3455,6 +3746,7 @@
         "index": {
           "description": "Local exception while storing screenshots or log messages",
           "hierarchy": "Pianola Pianola Driver",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola.Driver",
           "name": "DriverIOError",
           "package": "pianola",
@@ -3469,6 +3761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFailure from a call to \u003ccode\u003e\u003ca\u003epfail\u003c/a\u003e\u003c/code\u003e or from a \u003ccode\u003e\u003ca\u003eGlance\u003c/a\u003e\u003c/code\u003e without results. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola.Driver",
           "name": "PianolaFailure",
           "package": "pianola",
@@ -3479,6 +3772,7 @@
         "index": {
           "description": "Failure from call to pfail or from Glance without results",
           "hierarchy": "Pianola Pianola Driver",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola.Driver",
           "name": "PianolaFailure",
           "package": "pianola",
@@ -3493,6 +3787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException when connecting the remote system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola.Driver",
           "name": "PianolaIOError",
           "package": "pianola",
@@ -3503,6 +3798,7 @@
         "index": {
           "description": "Exception when connecting the remote system",
           "hierarchy": "Pianola Pianola Driver",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola.Driver",
           "name": "PianolaIOError",
           "package": "pianola",
@@ -3517,6 +3813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemote system returns unparseable data. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola.Driver",
           "name": "PianolaParseError",
           "package": "pianola",
@@ -3527,6 +3824,7 @@
         "index": {
           "description": "Remote system returns unparseable data",
           "hierarchy": "Pianola Pianola Driver",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola.Driver",
           "name": "PianolaParseError",
           "package": "pianola",
@@ -3541,6 +3839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer couldn't complete requested operation (either because it\n doesn't support the operation or because of an internal error.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola.Driver",
           "name": "PianolaServerError",
           "package": "pianola",
@@ -3551,6 +3850,7 @@
         "index": {
           "description": "Server couldn complete requested operation either because it doesn support the operation or because of an internal error",
           "hierarchy": "Pianola Pianola Driver",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola.Driver",
           "name": "PianolaServerError",
           "package": "pianola",
@@ -3565,6 +3865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn operation was requested on an obsolete snapshot (first integer) of\n the remote system (whose current snapshot number is the second integer).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola.Driver",
           "name": "PianolaSnapshotError",
           "package": "pianola",
@@ -3575,6 +3876,7 @@
         "index": {
           "description": "An operation was requested on an obsolete snapshot first integer of the remote system whose current snapshot number is the second integer",
           "hierarchy": "Pianola Pianola Driver",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola.Driver",
           "name": "PianolaSnapshotError",
           "package": "pianola",
@@ -3589,6 +3891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA more general version of \u003ccode\u003e\u003ca\u003escreenshotStream\u003c/a\u003e\u003c/code\u003e, which allows the client to\n specify the prefix before the file number, the amount of padding for the\n file number, and the suffix after the file number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola.Driver",
           "name": "filePathStream",
           "package": "pianola",
@@ -3599,6 +3902,7 @@
         "index": {
           "description": "more general version of screenshotStream which allows the client to specify the prefix before the file number the amount of padding for the file number and the suffix after the file number",
           "hierarchy": "Pianola Pianola Driver",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola.Driver",
           "name": "filePathStream",
           "normalized": "String-\u003eInt-\u003eString-\u003eFilePath-\u003eStream FilePath",
@@ -3615,6 +3919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an infinite stream of filenames for storing screenshots, located\n in the directory supplied as a parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola.Driver",
           "name": "screenshotStream",
           "package": "pianola",
@@ -3625,6 +3930,7 @@
         "index": {
           "description": "Returns an infinite stream of filenames for storing screenshots located in the directory supplied as parameter",
           "hierarchy": "Pianola Pianola Driver",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola.Driver",
           "name": "screenshotStream",
           "normalized": "FilePath-\u003eStream FilePath",
@@ -3641,6 +3947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a pianola computation. Receives as argument a monadic action to\n obtain snapshots of type \u003cem\u003eo\u003c/em\u003e of a remote system, a connection endpoint to\n the remote system, a \u003ccode\u003e\u003ca\u003ePianola\u003c/a\u003e\u003c/code\u003e computation with context of type \u003cem\u003eo\u003c/em\u003e and\n return value of type \u003cem\u003ea\u003c/em\u003e, and an infinite stream of filenames to store the\n screenshots. Textual log messages are written to standard output. The\n computation may fail with an error of type \u003ccode\u003e\u003ca\u003eDriverError\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003esimpleSwingDriver\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola.Driver",
           "name": "simpleDriver",
           "package": "pianola",
@@ -3651,6 +3958,7 @@
         "index": {
           "description": "Runs pianola computation Receives as argument monadic action to obtain snapshots of type of remote system connection endpoint to the remote system Pianola computation with context of type and return value of type and an infinite stream of filenames to store the screenshots Textual log messages are written to standard output The computation may fail with an error of type DriverError See also simpleSwingDriver",
           "hierarchy": "Pianola Pianola Driver",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola.Driver",
           "name": "simpleDriver",
           "normalized": "Protocol a-\u003eEndpoint-\u003ePianola Protocol LogEntry a b-\u003eStream FilePath-\u003eEitherT DriverError IO b",
@@ -3666,6 +3974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "Pianola",
           "package": "pianola",
@@ -3674,6 +3983,7 @@
         },
         "index": {
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "Pianola",
           "package": "pianola",
@@ -3687,6 +3997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "Delay",
           "package": "pianola",
@@ -3695,6 +4006,7 @@
         },
         "index": {
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "Delay",
           "package": "pianola",
@@ -3709,6 +4021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Glance is just a kleisli arrow used to locate and extract particular\n elements of type \u003cem\u003ea\u003c/em\u003e in a data structure of type \u003cem\u003eo\u003c/em\u003e. \n\u003c/p\u003e\u003cp\u003eThe following effects are allowed: \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Nondeterminism and failure. A Glance can return more than one value (or zero\n       values, with \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e). See the \u003ccode\u003e\u003ca\u003ereplusify\u003c/a\u003e\u003c/code\u003e function, which is a valid Glance.\n\u003c/li\u003e\u003cli\u003e Logging. A Glance can log messages of type \u003cem\u003el\u003c/em\u003e about the elements it\n       encounters during search, even elements visited in search branches which\n       ultimately fail to produce any results. See \u003ccode\u003e\u003ca\u003elogmsg\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Interactions  with the server through the monad \u003cem\u003em\u003c/em\u003e, but only interactions\n       that don't change the state of the GUI. For example, getting a image capture\n       of a window. See \u003ccode\u003e\u003ca\u003eNullipotent\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe following effects are forbidden: \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Any kind of delay effect. Glances must return as soon as possible.  \n\u003c/li\u003e\u003cli\u003e Interactions with the server which \u003cem\u003edo\u003c/em\u003e change the state of the GUI. Note\n       that you can target and return the actions of type \u003ccode\u003e\u003ca\u003eSealed\u003c/a\u003e\u003c/code\u003e which dangle\n       on the branches of the source data structure. You just can't execute them\n       inside a Glance. To actually execute them, pass the glance as an argument to\n       \u003ccode\u003e\u003ca\u003epoke\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "Glance",
           "package": "pianola",
@@ -3718,6 +4031,7 @@
         "index": {
           "description": "Glance is just kleisli arrow used to locate and extract particular elements of type in data structure of type The following effects are allowed Nondeterminism and failure Glance can return more than one value or zero values with mzero See the replusify function which is valid Glance Logging Glance can log messages of type about the elements it encounters during search even elements visited in search branches which ultimately fail to produce any results See logmsg Interactions with the server through the monad but only interactions that don change the state of the GUI For example getting image capture of window See Nullipotent The following effects are forbidden Any kind of delay effect Glances must return as soon as possible Interactions with the server which do change the state of the GUI Note that you can target and return the actions of type Sealed which dangle on the branches of the source data structure You just can execute them inside Glance To actually execute them pass the glance as an argument to poke",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "Glance",
           "package": "pianola",
@@ -3732,6 +4046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA computation which interacts which an external system represented locally\n by the type \u003cem\u003eo\u003c/em\u003e, using actions on the monad \u003cem\u003em\u003c/em\u003e, emitting log messages of\n type \u003cem\u003el\u003c/em\u003e, and returning a value of type \u003cem\u003ea\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThe following effects are allowed:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Purely observational interactions with the external system. See \u003ccode\u003e\u003ca\u003epeek\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Logging. Log messages are emitted in the middle of the computation, unlike\n       in a Writer monad. See \u003ccode\u003e\u003ca\u003elogmsg\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003elogimg\u003c/a\u003e\u003c/code\u003e. \n\u003c/li\u003e\u003cli\u003e Failure. See \u003ccode\u003e\u003ca\u003epfail\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Delays. See \u003ccode\u003e\u003ca\u003esleep\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Actions in the \u003cem\u003em\u003c/em\u003e monad which actually change the external system, like\n       clicking on a button of a GUI. See \u003ccode\u003e\u003ca\u003epoke\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eInstead of baking all possible effects into the base free monad, Pianola\n takes the approach of representing each effect using the \u003ccode\u003e\u003ca\u003eProxy\u003c/a\u003e\u003c/code\u003e type from\n the pipes package.\n\u003c/p\u003e\u003cp\u003eThe order of the trasformers in the monad stack is not arbitrary. For\n example: it does not make sense for a log message to make the computation\n fail or to trigger actions against the external system,  so the log producer\n is colocated closest to the base monad, where it doesn't have access to\n those kind of effects. \n\u003c/p\u003e\u003cp\u003eAnother example: it can be conveniento to automatically introduce a delay\n after every action (see \u003ccode\u003e\u003ca\u003eralentize\u003c/a\u003e\u003c/code\u003e) or to automatically log each action\n (see \u003ccode\u003e\u003ca\u003eautolog\u003c/a\u003e\u003c/code\u003e).  Therefore, the \u003ccode\u003e\u003ca\u003eSealed\u003c/a\u003e\u003c/code\u003e action producer is in the\n outermost position, having access to all the effects.\n\u003c/p\u003e\u003cp\u003eTo actually execute a Pianola, use a driver function like\n \u003ccode\u003e\u003ca\u003esimpleDriver\u003c/a\u003e\u003c/code\u003e or a specialization of it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "Pianola",
           "package": "pianola",
@@ -3741,6 +4056,7 @@
         "index": {
           "description": "computation which interacts which an external system represented locally by the type using actions on the monad emitting log messages of type and returning value of type The following effects are allowed Purely observational interactions with the external system See peek Logging Log messages are emitted in the middle of the computation unlike in Writer monad See logmsg and logimg Failure See pfail Delays See sleep Actions in the monad which actually change the external system like clicking on button of GUI See poke Instead of baking all possible effects into the base free monad Pianola takes the approach of representing each effect using the Proxy type from the pipes package The order of the trasformers in the monad stack is not arbitrary For example it does not make sense for log message to make the computation fail or to trigger actions against the external system so the log producer is colocated closest to the base monad where it doesn have access to those kind of effects Another example it can be conveniento to automatically introduce delay after every action see ralentize or to automatically log each action see autolog Therefore the Sealed action producer is in the outermost position having access to all the effects To actually execute Pianola use driver function like simpleDriver or specialization of it",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "Pianola",
           "package": "pianola",
@@ -3754,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "Pianola",
           "package": "pianola",
@@ -3763,6 +4080,7 @@
         },
         "index": {
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "Pianola",
           "package": "pianola",
@@ -3777,6 +4095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies a \u003ccode\u003e\u003ca\u003ePianola\u003c/a\u003e\u003c/code\u003e so that the default tags associated to an action are\n logged automatically when the action is executed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "autolog",
           "package": "pianola",
@@ -3787,6 +4106,7 @@
         "index": {
           "description": "Modifies Pianola so that the default tags associated to an action are logged automatically when the action is executed",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "autolog",
           "normalized": "Pianola a LogEntry b c-\u003ePianola a LogEntry b c",
@@ -3802,6 +4122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes all the values returned by a \u003ccode\u003e\u003ca\u003eGlance\u003c/a\u003e\u003c/code\u003e and returns a new Glance in\n which those values have been collected in a \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e (often a list). This\n is useful when we want to recover a list of components which meet certain\n criteria in order to compare them among themselves. For example, getting all\n the buttons present in a window and sorting them left to right by their\n position on the screen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "collect",
           "package": "pianola",
@@ -3812,6 +4133,7 @@
         "index": {
           "description": "Takes all the values returned by Glance and returns new Glance in which those values have been collected in MonadPlus often list This is useful when we want to recover list of components which meet certain criteria in order to compare them among themselves For example getting all the buttons present in window and sorting them left to right by their position on the screen",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "collect",
           "normalized": "Glance a b c d-\u003eGlance a b c(e d)",
@@ -3827,6 +4149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes a \u003ccode\u003e\u003ca\u003eNullipotent\u003c/a\u003e\u003c/code\u003e action in the context of a \u003ccode\u003e\u003ca\u003eGlance\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "liftN",
           "package": "pianola",
@@ -3837,6 +4160,7 @@
         "index": {
           "description": "Executes Nullipotent action in the context of Glance",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "liftN",
           "package": "pianola",
@@ -3850,6 +4174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen the \u003ccode\u003e\u003ca\u003eGlance\u003c/a\u003e\u003c/code\u003e passed as argument finds nothing, the returned glance\n finds a single (). When the Glance passed as argument finds one or more\n values, the returned Glance finds zero results.\n\u003c/p\u003e\u003cp\u003eThis function can be used in combination with \u003ccode\u003e\u003ca\u003eretryPeek1s\u003c/a\u003e\u003c/code\u003e to wait for the\n dissapearance of a component on screen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "missing",
           "package": "pianola",
@@ -3860,6 +4185,7 @@
         "index": {
           "description": "When the Glance passed as argument finds nothing the returned glance finds single When the Glance passed as argument finds one or more values the returned Glance finds zero results This function can be used in combination with retryPeek1s to wait for the dissapearance of component on screen",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "missing",
           "normalized": "Glance a b c d-\u003eGlance a b c()",
@@ -3875,6 +4201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts a \u003ccode\u003e\u003ca\u003eGlance\u003c/a\u003e\u003c/code\u003e into the \u003ccode\u003e\u003ca\u003ePianola\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "peek",
           "package": "pianola",
@@ -3885,6 +4212,7 @@
         "index": {
           "description": "Lifts Glance into the Pianola monad",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "peek",
           "normalized": "Glance a b c d-\u003ePianola a b c d",
@@ -3900,6 +4228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003epeek\u003c/a\u003e\u003c/code\u003e, but if the \u003ccode\u003e\u003ca\u003eGlance\u003c/a\u003e\u003c/code\u003e returns zero results then Nothing is\n returned instead of failing and halting the whole computation. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "peekMaybe",
           "package": "pianola",
@@ -3910,6 +4239,7 @@
         "index": {
           "description": "Like peek but if the Glance returns zero results then Nothing is returned instead of failing and halting the whole computation",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "peekMaybe",
           "normalized": "Glance a b c d-\u003ePianola a b c(Maybe d)",
@@ -3926,6 +4256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAborts a \u003ccode\u003e\u003ca\u003ePianola\u003c/a\u003e\u003c/code\u003e computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "pfail",
           "package": "pianola",
@@ -3936,6 +4267,7 @@
         "index": {
           "description": "Aborts Pianola computation",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "pfail",
           "package": "pianola",
@@ -3949,6 +4281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwinds all the Glances contained in a \u003ccode\u003e\u003ca\u003ePianola\u003c/a\u003e\u003c/code\u003e by supplying them with\n the monadic value passed as the first argument. When a \u003ccode\u003e\u003ca\u003eGlance\u003c/a\u003e\u003c/code\u003e returns with\n more than one result, one of the results is selected in order to continue (\u003cem\u003eTO DO\u003c/em\u003e: \n emit a warning when this happens). The log messages of the glances are\n fused with the Pianola's own log stream. All the \u003ccode\u003e\u003ca\u003eSealed\u003c/a\u003e\u003c/code\u003e actions are\n injected into the base monad. The delay and log effects remain uninjected.\n\u003c/p\u003e\u003cp\u003eUsually, clients should not call this function directly, but use a\n driver function like \u003ccode\u003e\u003ca\u003esimpleDriver\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "play",
           "package": "pianola",
@@ -3959,6 +4292,7 @@
         "index": {
           "description": "Unwinds all the Glances contained in Pianola by supplying them with the monadic value passed as the first argument When Glance returns with more than one result one of the results is selected in order to continue TO DO emit warning when this happens The log messages of the glances are fused with the Pianola own log stream All the Sealed actions are injected into the base monad The delay and log effects remain uninjected Usually clients should not call this function directly but use driver function like simpleDriver",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "play",
           "normalized": "a b-\u003ePianola a c b d-\u003eProdu Delay(MaybeT(Produ c a))d",
@@ -3974,6 +4308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the second \u003ccode\u003e\u003ca\u003ePianola\u003c/a\u003e\u003c/code\u003e argument returns Nothing, the first one is executed.\n Often used in combination with \u003ccode\u003e\u003ca\u003epfail\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "pmaybe",
           "package": "pianola",
@@ -3984,6 +4319,7 @@
         "index": {
           "description": "If the second Pianola argument returns Nothing the first one is executed Often used in combination with pfail",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "pmaybe",
           "normalized": "Pianola a b c d-\u003ePianola a b c(Maybe d)-\u003ePianola a b c d",
@@ -3999,6 +4335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a glance that extracts an action of type \u003ccode\u003e\u003ca\u003eSealed\u003c/a\u003e\u003c/code\u003e from a data\n structure, and returns a \u003ccode\u003e\u003ca\u003ePianola\u003c/a\u003e\u003c/code\u003e executing the action (when the Pianola is\n interpreted by some driver-like fuction like\n \u003ccode\u003e\u003ca\u003esimpleDriver\u003c/a\u003e\u003c/code\u003e.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "poke",
           "package": "pianola",
@@ -4009,6 +4346,7 @@
         "index": {
           "description": "Takes glance that extracts an action of type Sealed from data structure and returns Pianola executing the action when the Pianola is interpreted by some driver-like fuction like simpleDriver",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "poke",
           "normalized": "Glance a b c(Sealed a)-\u003ePianola a b c()",
@@ -4024,6 +4362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003epoke\u003c/a\u003e\u003c/code\u003e, but if the \u003ccode\u003e\u003ca\u003eGlance\u003c/a\u003e\u003c/code\u003e returns zero results then Nothing is\n returned instead of failing and halting the whole computation. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "pokeMaybe",
           "package": "pianola",
@@ -4034,6 +4373,7 @@
         "index": {
           "description": "Like poke but if the Glance returns zero results then Nothing is returned instead of failing and halting the whole computation",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "pokeMaybe",
           "normalized": "Glance a b c(Sealed a)-\u003ePianola a b c(Maybe())",
@@ -4050,6 +4390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a delay in seconds and a \u003ccode\u003e\u003ca\u003ePianola\u003c/a\u003e\u003c/code\u003e as parameters, and returns a\n ralentized Pianola in which the delay has been inserted after every action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "ralentize",
           "package": "pianola",
@@ -4060,6 +4401,7 @@
         "index": {
           "description": "Takes delay in seconds and Pianola as parameters and returns ralentized Pianola in which the delay has been inserted after every action",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "ralentize",
           "normalized": "Delay-\u003ePianola a b c d-\u003ePianola a b c d",
@@ -4074,6 +4416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "ralentizeByTag",
           "package": "pianola",
@@ -4083,6 +4426,7 @@
         },
         "index": {
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "ralentizeByTag",
           "normalized": "([Tag]-\u003eBool)-\u003eDelay-\u003ePianola a b c d-\u003ePianola a b c d",
@@ -4099,6 +4443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA more general version of \u003ccode\u003e\u003ca\u003eretryPeek1s\u003c/a\u003e\u003c/code\u003e which intersperses any \u003ccode\u003e\u003ca\u003ePianola\u003c/a\u003e\u003c/code\u003e\n action between retries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "retryPeek",
           "package": "pianola",
@@ -4109,6 +4454,7 @@
         "index": {
           "description": "more general version of retryPeek1s which intersperses any Pianola action between retries",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "retryPeek",
           "normalized": "Pianola a b c d-\u003eInt-\u003eGlance a b c e-\u003ePianola a b c(Maybe e)",
@@ -4125,6 +4471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003epeekMaybe\u003c/a\u003e\u003c/code\u003e, but the specified number of retries is performed before\n returning Nothing. There is an sleep of 1 second between each retry. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "retryPeek1s",
           "package": "pianola",
@@ -4135,6 +4482,7 @@
         "index": {
           "description": "Like peekMaybe but the specified number of retries is performed before returning Nothing There is an sleep of second between each retry",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "retryPeek1s",
           "normalized": "Int-\u003eGlance a b c d-\u003ePianola a b c(Maybe d)",
@@ -4151,6 +4499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA more general version of \u003ccode\u003e\u003ca\u003eretryPoke1s\u003c/a\u003e\u003c/code\u003e which intersperses any \u003ccode\u003e\u003ca\u003ePianola\u003c/a\u003e\u003c/code\u003e\n action between retries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "retryPoke",
           "package": "pianola",
@@ -4161,6 +4510,7 @@
         "index": {
           "description": "more general version of retryPoke1s which intersperses any Pianola action between retries",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "retryPoke",
           "normalized": "Pianola a b c d-\u003eInt-\u003eGlance a b c(Sealed a)-\u003ePianola a b c(Maybe())",
@@ -4177,6 +4527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003epokeMaybe\u003c/a\u003e\u003c/code\u003e, but the specified number of retries is performed before\n returning Nothing. There is an sleep of 1 second between each retry. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "retryPoke1s",
           "package": "pianola",
@@ -4187,6 +4538,7 @@
         "index": {
           "description": "Like pokeMaybe but the specified number of retries is performed before returning Nothing There is an sleep of second between each retry",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "retryPoke1s",
           "normalized": "Int-\u003eGlance a b c(Sealed a)-\u003ePianola a b c(Maybe())",
@@ -4203,6 +4555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSleeps for the specified number of seconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "sleep",
           "package": "pianola",
@@ -4213,6 +4566,7 @@
         "index": {
           "description": "Sleeps for the specified number of seconds",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "sleep",
           "normalized": "Delay-\u003ePianola a b c()",
@@ -4227,6 +4581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "unPianola",
           "package": "pianola",
@@ -4236,6 +4591,7 @@
         },
         "index": {
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "unPianola",
           "package": "pianola",
@@ -4250,6 +4606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpands the context of a \u003ccode\u003e\u003ca\u003ePianola\u003c/a\u003e\u003c/code\u003e using a \u003ccode\u003e\u003ca\u003eGlance\u003c/a\u003e\u003c/code\u003e. Typical use: transform a Pianola whose context is a particular window to a Pianola whose context is the whole GUI, using a Glance which locates the window in the GUI.\n\u003c/p\u003e\u003cpre\u003e with glance1 $ peek glance2 \n\u003c/pre\u003e\u003cp\u003eis equal to \n\u003c/p\u003e\u003cpre\u003e peek $ glance1 \u003e=\u003e glance2\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ewith\u003c/a\u003e\u003c/code\u003e can be used to group peeks and pokes whose glances share part of thir paths in common:\n\u003c/p\u003e\u003cpre\u003e do\n     poke $ glance1 \u003e=\u003e glance2\n     poke $ glance1 \u003e=\u003e glance3\n\u003c/pre\u003e\u003cp\u003eis equal to \n\u003c/p\u003e\u003cpre\u003e with glance1 $ do\n     poke glance2\n     poke glance3\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "with",
           "package": "pianola",
@@ -4260,6 +4617,7 @@
         "index": {
           "description": "Expands the context of Pianola using Glance Typical use transform Pianola whose context is particular window to Pianola whose context is the whole GUI using Glance which locates the window in the GUI with glance1 peek glance2 is equal to peek glance1 glance2 with can be used to group peeks and pokes whose glances share part of thir paths in common do poke glance1 glance2 poke glance1 glance3 is equal to with glance1 do poke glance2 poke glance3",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "with",
           "normalized": "Glance a b c d-\u003ePianola a b d e-\u003ePianola a b c e",
@@ -4275,6 +4633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ewith\u003c/a\u003e\u003c/code\u003e, but when the element targeted by the \u003ccode\u003e\u003ca\u003eGlance\u003c/a\u003e\u003c/code\u003e doens't exist,\n the Pianola argument is not executed and \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "withMaybe",
           "package": "pianola",
@@ -4285,6 +4644,7 @@
         "index": {
           "description": "Like with but when the element targeted by the Glance doens exist the Pianola argument is not executed and Nothing is returned",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "withMaybe",
           "normalized": "Glance a b c d-\u003ePianola a b d e-\u003ePianola a b c(Maybe e)",
@@ -4301,6 +4661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA more general \u003ccode\u003e\u003ca\u003ewithMaybe\u003c/a\u003e\u003c/code\u003e for which any \u003ccode\u003e\u003ca\u003ePianola\u003c/a\u003e\u003c/code\u003e action can be interstpersed between retries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "withRetry",
           "package": "pianola",
@@ -4311,6 +4672,7 @@
         "index": {
           "description": "more general withMaybe for which any Pianola action can be interstpersed between retries",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "withRetry",
           "normalized": "Pianola a b c d-\u003eInt-\u003eGlance a b c e-\u003ePianola a b e f-\u003ePianola a b c(Maybe f)",
@@ -4327,6 +4689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ewithMaybe\u003c/a\u003e\u003c/code\u003e, but several attempts to locate the target of the glance\n are performed, with a separation of 1 second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Pianola",
           "name": "withRetry1s",
           "package": "pianola",
@@ -4337,6 +4700,7 @@
         "index": {
           "description": "Like withMaybe but several attempts to locate the target of the glance are performed with separation of second",
           "hierarchy": "Pianola Pianola",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Pianola",
           "name": "withRetry1s",
           "normalized": "Int-\u003eGlance a b c d-\u003ePianola a b d e-\u003ePianola a b c(Maybe e)",
@@ -4352,6 +4716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Protocol.IO",
           "name": "IO",
           "package": "pianola",
@@ -4360,6 +4725,7 @@
         },
         "index": {
           "hierarchy": "Pianola Protocol IO",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Protocol.IO",
           "name": "IO",
           "package": "pianola",
@@ -4373,6 +4739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Protocol.IO",
           "name": "Endpoint",
           "package": "pianola",
@@ -4381,6 +4748,7 @@
         },
         "index": {
           "hierarchy": "Pianola Protocol IO",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Protocol.IO",
           "name": "Endpoint",
           "package": "pianola",
@@ -4394,6 +4762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Protocol.IO",
           "name": "RunInIOError",
           "package": "pianola",
@@ -4402,6 +4771,7 @@
         },
         "index": {
           "hierarchy": "Pianola Protocol IO",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Protocol.IO",
           "name": "RunInIOError",
           "package": "pianola",
@@ -4415,6 +4785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Protocol.IO",
           "name": "CommError",
           "package": "pianola",
@@ -4424,6 +4795,7 @@
         },
         "index": {
           "hierarchy": "Pianola Protocol IO",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Protocol.IO",
           "name": "CommError",
           "package": "pianola",
@@ -4437,6 +4809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Protocol.IO",
           "name": "Endpoint",
           "package": "pianola",
@@ -4446,6 +4819,7 @@
         },
         "index": {
           "hierarchy": "Pianola Protocol IO",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Protocol.IO",
           "name": "Endpoint",
           "package": "pianola",
@@ -4459,6 +4833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Protocol.IO",
           "name": "ParseError",
           "package": "pianola",
@@ -4468,6 +4843,7 @@
         },
         "index": {
           "hierarchy": "Pianola Protocol IO",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Protocol.IO",
           "name": "ParseError",
           "package": "pianola",
@@ -4481,6 +4857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Protocol.IO",
           "name": "hostName",
           "package": "pianola",
@@ -4490,6 +4867,7 @@
         },
         "index": {
           "hierarchy": "Pianola Protocol IO",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Protocol.IO",
           "name": "hostName",
           "package": "pianola",
@@ -4503,6 +4881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Protocol.IO",
           "name": "portID",
           "package": "pianola",
@@ -4512,6 +4891,7 @@
         },
         "index": {
           "hierarchy": "Pianola Protocol IO",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Protocol.IO",
           "name": "portID",
           "package": "pianola",
@@ -4526,6 +4906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a sequence of RPC calls in a base monad which has access to an\n \u003ccode\u003e\u003ca\u003eEndpoint\u003c/a\u003e\u003c/code\u003e value which identifies the server. An accessor function must be\n provided to extract the Endpoint from the base monad's environment, which\n may be more general. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Protocol.IO",
           "name": "runProtocol",
           "package": "pianola",
@@ -4536,6 +4917,7 @@
         "index": {
           "description": "Runs sequence of RPC calls in base monad which has access to an Endpoint value which identifies the server An accessor function must be provided to extract the Endpoint from the base monad environment which may be more general",
           "hierarchy": "Pianola Protocol IO",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Protocol.IO",
           "name": "runProtocol",
           "normalized": "(a-\u003eEndpoint)-\u003eProtocol b-\u003eEitherT ServerError(EitherT RunInIOError c)b",
@@ -4551,6 +4933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Protocol",
           "name": "Protocol",
           "package": "pianola",
@@ -4559,6 +4942,7 @@
         },
         "index": {
           "hierarchy": "Pianola Protocol",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Protocol",
           "name": "Protocol",
           "package": "pianola",
@@ -4573,6 +4957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad to represent interactions with a remote server. A free monad over\n a RPC call functor, augmented with some error conditions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Protocol",
           "name": "Protocol",
           "package": "pianola",
@@ -4582,6 +4967,7 @@
         "index": {
           "description": "monad to represent interactions with remote server free monad over RPC call functor augmented with some error conditions",
           "hierarchy": "Pianola Protocol",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Protocol",
           "name": "Protocol",
           "package": "pianola",
@@ -4596,6 +4982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e which models a RPC call as a pair in which the first component\n is a list of bytestrings (the arguments of the call) and the second is a\n pure \u003ccode\u003eIteratee\u003c/code\u003e that consumes the bytes sent from the server and returns the\n response of the call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Protocol",
           "name": "ProtocolF",
           "package": "pianola",
@@ -4605,6 +4992,7 @@
         "index": {
           "description": "Functor which models RPC call as pair in which the first component is list of bytestrings the arguments of the call and the second is pure Iteratee that consumes the bytes sent from the server and returns the response of the call",
           "hierarchy": "Pianola Protocol",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Protocol",
           "name": "ProtocolF",
           "package": "pianola",
@@ -4618,6 +5006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Protocol",
           "name": "ServerError",
           "package": "pianola",
@@ -4626,6 +5015,7 @@
         },
         "index": {
           "hierarchy": "Pianola Protocol",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Protocol",
           "name": "ServerError",
           "package": "pianola",
@@ -4640,6 +5030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer couldn't perform the requested operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Protocol",
           "name": "ServerError",
           "package": "pianola",
@@ -4650,6 +5041,7 @@
         "index": {
           "description": "Server couldn perform the requested operation",
           "hierarchy": "Pianola Protocol",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Protocol",
           "name": "ServerError",
           "package": "pianola",
@@ -4664,6 +5056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClient targeted obsolete snapshot. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Protocol",
           "name": "SnapshotError",
           "package": "pianola",
@@ -4674,6 +5067,7 @@
         "index": {
           "description": "Client targeted obsolete snapshot",
           "hierarchy": "Pianola Protocol",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Protocol",
           "name": "SnapshotError",
           "package": "pianola",
@@ -4688,6 +5082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a RPC call from a packed list of arguments and a pure\n \u003ccode\u003eIteratee\u003c/code\u003e to consume the response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Protocol",
           "name": "call",
           "package": "pianola",
@@ -4698,6 +5093,7 @@
         "index": {
           "description": "Constructs RPC call from packed list of arguments and pure Iteratee to consume the response",
           "hierarchy": "Pianola Protocol",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Protocol",
           "name": "call",
           "normalized": "[ByteString]-\u003eIteratee ByteString Identity a-\u003eProtocol a",
@@ -4712,6 +5108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Tutorial",
           "name": "Tutorial",
           "package": "pianola",
@@ -4720,6 +5117,7 @@
         },
         "index": {
           "hierarchy": "Pianola Tutorial",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Tutorial",
           "name": "Tutorial",
           "package": "pianola",
@@ -4733,6 +5131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "Util",
           "package": "pianola",
@@ -4741,6 +5140,7 @@
         },
         "index": {
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "Util",
           "package": "pianola",
@@ -4754,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "Consu",
           "package": "pianola",
@@ -4762,6 +5163,7 @@
         },
         "index": {
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "Consu",
           "package": "pianola",
@@ -4775,6 +5177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "Image",
           "package": "pianola",
@@ -4783,6 +5186,7 @@
         },
         "index": {
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "Image",
           "package": "pianola",
@@ -4796,6 +5200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "LogEntry",
           "package": "pianola",
@@ -4804,6 +5209,7 @@
         },
         "index": {
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "LogEntry",
           "package": "pianola",
@@ -4817,6 +5223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "Loggy",
           "package": "pianola",
@@ -4825,6 +5232,7 @@
         },
         "index": {
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "Loggy",
           "package": "pianola",
@@ -4839,6 +5247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps a monad in order to tag those operations which don't actually change\n the state of the remote system. For example: taking a screenshot doesn't\n change the state of a GUI, as opposed to clicking a button.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "Nullipotent",
           "package": "pianola",
@@ -4848,6 +5257,7 @@
         "index": {
           "description": "Wraps monad in order to tag those operations which don actually change the state of the remote system For example taking screenshot doesn change the state of GUI as opposed to clicking button",
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "Nullipotent",
           "package": "pianola",
@@ -4861,6 +5271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "Produ",
           "package": "pianola",
@@ -4869,6 +5280,7 @@
         },
         "index": {
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "Produ",
           "package": "pianola",
@@ -4883,6 +5295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulates a monadic action so that clients can't manipulate it in any\n way, only dispatch it to some function.\n\u003c/p\u003e\u003cp\u003eThere may be tags attached that describe the action. Clients should be able\n to inspect the tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "Sealed",
           "package": "pianola",
@@ -4892,6 +5305,7 @@
         "index": {
           "description": "Encapsulates monadic action so that clients can manipulate it in any way only dispatch it to some function There may be tags attached that describe the action Clients should be able to inspect the tags",
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "Sealed",
           "package": "pianola",
@@ -4905,6 +5319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "Tag",
           "package": "pianola",
@@ -4913,6 +5328,7 @@
         },
         "index": {
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "Tag",
           "package": "pianola",
@@ -4927,6 +5343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types whose values have children of the same type as themselves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "Treeish",
           "package": "pianola",
@@ -4936,6 +5353,7 @@
         "index": {
           "description": "Class of types whose values have children of the same type as themselves",
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "Treeish",
           "package": "pianola",
@@ -4949,6 +5367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "ImageEntry",
           "package": "pianola",
@@ -4958,6 +5377,7 @@
         },
         "index": {
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "ImageEntry",
           "package": "pianola",
@@ -4971,6 +5391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "TextEntry",
           "package": "pianola",
@@ -4980,6 +5401,7 @@
         },
         "index": {
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "TextEntry",
           "package": "pianola",
@@ -4994,6 +5416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirect descendants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "children",
           "package": "pianola",
@@ -5004,6 +5427,7 @@
         "index": {
           "description": "Direct descendants",
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "children",
           "normalized": "a-\u003eb a",
@@ -5019,6 +5443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll direct or indirect descendants, plus the original value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "descendants",
           "package": "pianola",
@@ -5029,6 +5454,7 @@
         "index": {
           "description": "All direct or indirect descendants plus the original value",
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "descendants",
           "normalized": "a-\u003eb a",
@@ -5043,6 +5469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "logentry",
           "package": "pianola",
@@ -5052,6 +5479,7 @@
         },
         "index": {
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "logentry",
           "normalized": "LogEntry-\u003ea()",
@@ -5066,6 +5494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "logimg",
           "package": "pianola",
@@ -5075,6 +5504,7 @@
         },
         "index": {
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "logimg",
           "normalized": "Image-\u003ea()",
@@ -5089,6 +5519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "logmsg",
           "package": "pianola",
@@ -5098,6 +5529,7 @@
         },
         "index": {
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "logmsg",
           "normalized": "Text-\u003ea()",
@@ -5113,6 +5545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogs a message and returns the second argument unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "logmsgK",
           "package": "pianola",
@@ -5123,6 +5556,7 @@
         "index": {
           "description": "Logs message and returns the second argument unchanged",
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "logmsgK",
           "normalized": "Text-\u003ea-\u003eb a",
@@ -5138,6 +5572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function to transform a list into any \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "replusify",
           "package": "pianola",
@@ -5148,6 +5583,7 @@
         "index": {
           "description": "Convenience function to transform list into any MonadPlus",
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "replusify",
           "normalized": "[a]-\u003eb a",
@@ -5163,6 +5599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a zero-or-many result into a zero-or-one result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:36 UTC 2014",
           "module": "Pianola.Util",
           "name": "tomaybet",
           "package": "pianola",
@@ -5173,6 +5610,7 @@
         "index": {
           "description": "Transforms zero-or-many result into zero-or-one result",
           "hierarchy": "Pianola Util",
+          "indexed": "2014-03-11T19:38:36",
           "module": "Pianola.Util",
           "name": "tomaybet",
           "normalized": "LogicT a b-\u003eMaybeT a b",

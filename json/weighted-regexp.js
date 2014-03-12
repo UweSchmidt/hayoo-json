@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "weighted-regexp"
+        "phrase": "weighted-regexp",
+        "type": "phrase"
       },
       "type": "context"
     }

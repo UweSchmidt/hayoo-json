@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "erlang"
+        "phrase": "erlang",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSpeaks the Erlang network protocol and impersonates an Erlang node\n on the network.  Fully capable of bi-directional communication with\n Erlang.  Erlang types are, as far as reasonable, mapped to Haskell\n types.  Messages to Erlang are just function calls in Haskell, and\n messages from Erlang are delivered to MVars.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "Erlang",
           "package": "erlang",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Speaks the Erlang network protocol and impersonates an Erlang node on the network Fully capable of bi-directional communication with Erlang Erlang types are as far as reasonable mapped to Haskell types Messages to Erlang are just function calls in Haskell and messages from Erlang are delivered to MVars",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "Erlang",
           "package": "erlang",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "ErlRecv",
           "package": "erlang",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "ErlRecv",
           "package": "erlang",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "ErlSend",
           "package": "erlang",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "ErlSend",
           "package": "erlang",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "ErlType",
           "package": "erlang",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "ErlType",
           "package": "erlang",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "Erlang",
           "package": "erlang",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "Erlang",
           "package": "erlang",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHaskell threads don't natively have Erlang process IDs.  Instead, we\n use a mailbox abstraction that we can assign PIDs to for communication\n with Erlang.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "MBox",
           "package": "erlang",
@@ -135,6 +146,7 @@
         "index": {
           "description": "Haskell threads don natively have Erlang process IDs Instead we use mailbox abstraction that we can assign PIDs to for communication with Erlang",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "MBox",
           "package": "erlang",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of an Erlang node on the network.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "Node",
           "package": "erlang",
@@ -158,6 +171,7 @@
         "index": {
           "description": "The name of an Erlang node on the network",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "Node",
           "package": "erlang",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a foreign (Erlang) process.  A process can be identified\n either by its low-level ID (Left pid) or by its registered name (Right name).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "Pid",
           "package": "erlang",
@@ -181,6 +196,7 @@
         "index": {
           "description": "Represents foreign Erlang process process can be identified either by its low-level ID Left pid or by its registered name Right name",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "Pid",
           "package": "erlang",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a Haskell node.  There should be one of these per process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "Self",
           "package": "erlang",
@@ -204,6 +221,7 @@
         "index": {
           "description": "Represents Haskell node There should be one of these per process",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "Self",
           "package": "erlang",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "ErlAtom",
           "package": "erlang",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "ErlAtom",
           "package": "erlang",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "ErlBigInt",
           "package": "erlang",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "ErlBigInt",
           "package": "erlang",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "ErlBinary",
           "package": "erlang",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "ErlBinary",
           "normalized": "ErlBinary[Word]",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "ErlInt",
           "package": "erlang",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "ErlInt",
           "package": "erlang",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "ErlList",
           "package": "erlang",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "ErlList",
           "normalized": "ErlList[ErlType]",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "ErlNewRef",
           "package": "erlang",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "ErlNewRef",
           "normalized": "ErlNewRef ErlType Int[Word]",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "ErlNull",
           "package": "erlang",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "ErlNull",
           "package": "erlang",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "ErlPid",
           "package": "erlang",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "ErlPid",
           "package": "erlang",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "ErlPort",
           "package": "erlang",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "ErlPort",
           "package": "erlang",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "ErlRef",
           "package": "erlang",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "ErlRef",
           "package": "erlang",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "ErlString",
           "package": "erlang",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "ErlString",
           "package": "erlang",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "ErlTuple",
           "package": "erlang",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "ErlTuple",
           "normalized": "ErlTuple[ErlType]",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "backup",
           "package": "erlang",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "backup",
           "normalized": "MBox-\u003eString-\u003eString-\u003eIO ErlType",
@@ -513,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new process on the Haskell side.  Usually corresponds\n to a thread but doesn't need to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "createMBox",
           "package": "erlang",
@@ -523,6 +568,7 @@
         "index": {
           "description": "Create new process on the Haskell side Usually corresponds to thread but doesn need to",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "createMBox",
           "normalized": "Self-\u003eIO MBox",
@@ -539,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstantiate a Haskell node.  This initializes the FFI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "createSelf",
           "package": "erlang",
@@ -549,6 +596,7 @@
         "index": {
           "description": "Instantiate Haskell node This initializes the FFI",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "createSelf",
           "normalized": "String-\u003eIO Self",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "dirtyAllKeys",
           "package": "erlang",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "dirtyAllKeys",
           "normalized": "MBox-\u003eString-\u003eString-\u003eIO ErlType",
@@ -588,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "dirtyFirst",
           "package": "erlang",
@@ -597,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "dirtyFirst",
           "normalized": "MBox-\u003eString-\u003eString-\u003eIO ErlType",
@@ -612,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "dirtyLast",
           "package": "erlang",
@@ -621,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "dirtyLast",
           "normalized": "MBox-\u003eString-\u003eString-\u003eIO ErlType",
@@ -636,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "dirtyMatchObject",
           "package": "erlang",
@@ -645,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "dirtyMatchObject",
           "normalized": "MBox-\u003eString-\u003eErlType-\u003eIO ErlType",
@@ -660,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "dirtyNext",
           "package": "erlang",
@@ -669,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "dirtyNext",
           "normalized": "MBox-\u003eString-\u003eString-\u003eErlType-\u003eIO ErlType",
@@ -684,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "dirtyPrev",
           "package": "erlang",
@@ -693,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "dirtyPrev",
           "normalized": "MBox-\u003eString-\u003eString-\u003eErlType-\u003eIO ErlType",
@@ -708,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "dirtyRead",
           "package": "erlang",
@@ -717,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "dirtyRead",
           "normalized": "MBox-\u003eString-\u003eString-\u003eErlType-\u003eIO ErlType",
@@ -732,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "dirtySelect",
           "package": "erlang",
@@ -741,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "dirtySelect",
           "normalized": "MBox-\u003eString-\u003eString-\u003eErlType-\u003eIO ErlType",
@@ -757,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the names and addresses of all registered Erlang nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "epmdGetNames",
           "package": "erlang",
@@ -767,6 +832,7 @@
         "index": {
           "description": "Return the names and addresses of all registered Erlang nodes",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "epmdGetNames",
           "normalized": "IO[String]",
@@ -783,6 +849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the port address of a named Erlang node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "epmdGetPort",
           "package": "erlang",
@@ -793,6 +860,7 @@
         "index": {
           "description": "Return the port address of named Erlang node",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "epmdGetPort",
           "normalized": "String-\u003eIO Int",
@@ -809,6 +877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns (port, nodeType, protocol, vsnMax, vsnMin, name, extra)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "epmdGetPortR4",
           "package": "erlang",
@@ -819,6 +888,7 @@
         "index": {
           "description": "Returns port nodeType protocol vsnMax vsnMin name extra",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "epmdGetPortR4",
           "normalized": "String-\u003eIO(Int,Int,Int,Int,Int,String,String)",
@@ -834,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "erlConnect",
           "package": "erlang",
@@ -843,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "erlConnect",
           "normalized": "String-\u003eString-\u003eIO(ErlSend,ErlRecv)",
@@ -859,6 +931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a tuple (from erlang:now()) to seconds from Jan 1, 1970.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "erlangTimeToSeconds",
           "package": "erlang",
@@ -869,6 +942,7 @@
         "index": {
           "description": "Convert tuple from erlang now to seconds from Jan",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "erlangTimeToSeconds",
           "normalized": "ErlType-\u003ea",
@@ -884,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "fromErlang",
           "package": "erlang",
@@ -893,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "fromErlang",
           "normalized": "ErlType-\u003ea",
@@ -909,6 +985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egen_server:call(Pid, Msg)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "genCall",
           "package": "erlang",
@@ -919,6 +996,7 @@
         "index": {
           "description": "gen server call Pid Msg",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "genCall",
           "normalized": "MBox-\u003eNode-\u003ePid-\u003ea-\u003eIO ErlType",
@@ -935,6 +1013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egen_server:cast(Pid, Msg)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "genCast",
           "package": "erlang",
@@ -945,6 +1024,7 @@
         "index": {
           "description": "gen server cast Pid Msg",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "genCast",
           "normalized": "MBox-\u003eNode-\u003ePid-\u003ea-\u003eIO()",
@@ -960,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "getA",
           "package": "erlang",
@@ -969,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "getA",
           "normalized": "Int-\u003eGet[Char]",
@@ -983,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "getC",
           "package": "erlang",
@@ -992,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "getC",
           "package": "erlang",
@@ -1004,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "getErl",
           "package": "erlang",
@@ -1013,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "getErl",
           "package": "erlang",
@@ -1026,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "getN",
           "package": "erlang",
@@ -1035,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "getN",
           "package": "erlang",
@@ -1047,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "geta",
           "package": "erlang",
@@ -1056,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "geta",
           "normalized": "Int-\u003eGet[Word]",
@@ -1070,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "getn",
           "package": "erlang",
@@ -1079,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "getn",
           "package": "erlang",
@@ -1092,6 +1184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive the next message addressed to this mailbox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "mboxRecv",
           "package": "erlang",
@@ -1102,6 +1195,7 @@
         "index": {
           "description": "Receive the next message addressed to this mailbox",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "mboxRecv",
           "normalized": "MBox-\u003eIO ErlType",
@@ -1118,6 +1212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive a reply message.  That is, looks for the next message\n identified by the given reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "mboxRecv'",
           "package": "erlang",
@@ -1128,6 +1223,7 @@
         "index": {
           "description": "Receive reply message That is looks for the next message identified by the given reference",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "mboxRecv'",
           "normalized": "MBox-\u003eErlType-\u003eIO ErlType",
@@ -1144,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a new unique object reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "mboxRef",
           "package": "erlang",
@@ -1154,6 +1251,7 @@
         "index": {
           "description": "Return new unique object reference",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "mboxRef",
           "normalized": "MBox-\u003eIO ErlType",
@@ -1170,6 +1268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the PID of the given mailbox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "mboxSelf",
           "package": "erlang",
@@ -1180,6 +1279,7 @@
         "index": {
           "description": "Return the PID of the given mailbox",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "mboxSelf",
           "normalized": "MBox-\u003eErlType",
@@ -1196,6 +1296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e{Node, Pid} ! Msg.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "mboxSend",
           "package": "erlang",
@@ -1206,6 +1307,7 @@
         "index": {
           "description": "Node Pid Msg",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "mboxSend",
           "normalized": "MBox-\u003eNode-\u003ePid-\u003ea-\u003eIO()",
@@ -1221,6 +1323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "nth",
           "package": "erlang",
@@ -1230,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "nth",
           "normalized": "Int-\u003eErlType-\u003ea",
@@ -1244,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "putA",
           "package": "erlang",
@@ -1253,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "putA",
           "normalized": "String-\u003ePut",
@@ -1267,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "putC",
           "package": "erlang",
@@ -1276,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "putC",
           "normalized": "Int-\u003ePut",
@@ -1290,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "putErl",
           "package": "erlang",
@@ -1299,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "putErl",
           "normalized": "ErlType-\u003ePutM()",
@@ -1314,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "putN",
           "package": "erlang",
@@ -1323,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "putN",
           "normalized": "Int-\u003ePut",
@@ -1337,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "puta",
           "package": "erlang",
@@ -1346,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "puta",
           "normalized": "[Word]-\u003ePut",
@@ -1360,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "putn",
           "package": "erlang",
@@ -1369,6 +1484,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "putn",
           "normalized": "Int-\u003ePut",
@@ -1384,6 +1500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erpc:call(Node, Module, Function, Arguments)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "rpcCall",
           "package": "erlang",
@@ -1394,6 +1511,7 @@
         "index": {
           "description": "rpc call Node Module Function Arguments",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "rpcCall",
           "normalized": "MBox-\u003eNode-\u003eString-\u003eString-\u003e[ErlType]-\u003eIO ErlType",
@@ -1410,6 +1528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erpc:cast(Node, Module, Function, Arguments)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "rpcCast",
           "package": "erlang",
@@ -1420,6 +1539,7 @@
         "index": {
           "description": "rpc cast Node Module Function Arguments",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "rpcCast",
           "normalized": "MBox-\u003eNode-\u003eString-\u003eString-\u003e[ErlType]-\u003eIO()",
@@ -1436,6 +1556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert seconds to an Erlang tuple representing time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "secondsToErlangTime",
           "package": "erlang",
@@ -1446,6 +1567,7 @@
         "index": {
           "description": "Convert seconds to an Erlang tuple representing time",
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "secondsToErlangTime",
           "normalized": "a-\u003eErlType",
@@ -1461,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "tag",
           "package": "erlang",
@@ -1470,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "tag",
           "normalized": "Char-\u003ePut",
@@ -1484,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "toErlang",
           "package": "erlang",
@@ -1493,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "toErlang",
           "normalized": "a-\u003eErlType",
@@ -1508,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:46 UTC 2014",
           "module": "Foreign.Erlang",
           "name": "toNetwork",
           "package": "erlang",
@@ -1517,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Foreign Erlang",
+          "indexed": "2014-03-11T18:03:46",
           "module": "Foreign.Erlang",
           "name": "toNetwork",
           "normalized": "Int-\u003eInteger-\u003e[Word]",

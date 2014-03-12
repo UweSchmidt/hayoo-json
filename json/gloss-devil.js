@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gloss-devil"
+        "phrase": "gloss-devil",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:20 UTC 2014",
           "module": "Graphics.Gloss.DevIL",
           "name": "DevIL",
           "package": "gloss-devil",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Gloss DevIL",
+          "indexed": "2014-03-11T18:18:20",
           "module": "Graphics.Gloss.DevIL",
           "name": "DevIL",
           "package": "gloss-devil",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erepaToPicture cacheMeFlag array\u003c/code\u003e will convert a \u003ccode\u003eRepa\u003c/code\u003e RGBA array to a\n tuple of the number of columns, rows and a bitmap for use with \u003ccode\u003eGloss\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:20 UTC 2014",
           "module": "Graphics.Gloss.DevIL",
           "name": "imageToPicture",
           "package": "gloss-devil",
@@ -50,6 +53,7 @@
         "index": {
           "description": "repaToPicture cacheMeFlag array will convert Repa RGBA array to tuple of the number of columns rows and bitmap for use with Gloss",
           "hierarchy": "Graphics Gloss DevIL",
+          "indexed": "2014-03-11T18:18:20",
           "module": "Graphics.Gloss.DevIL",
           "name": "imageToPicture",
           "normalized": "Bool-\u003eImage-\u003e(Int,Int,Picture)",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad  picture using 'Codec-Image-DevIL' and convert it a bitmap for display by \u003ccode\u003eGloss\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:20 UTC 2014",
           "module": "Graphics.Gloss.DevIL",
           "name": "loadDevILPicture",
           "package": "gloss-devil",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Load picture using Codec-Image-DevIL and convert it bitmap for display by Gloss",
           "hierarchy": "Graphics Gloss DevIL",
+          "indexed": "2014-03-11T18:18:20",
           "module": "Graphics.Gloss.DevIL",
           "name": "loadDevILPicture",
           "normalized": "FilePath-\u003eIO(Int,Int,Picture)",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in a file into a repa array (using the 'repa-devil' package)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:20 UTC 2014",
           "module": "Graphics.Gloss.DevIL",
           "name": "readRepaImage",
           "package": "gloss-devil",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Read in file into repa array using the repa-devil package",
           "hierarchy": "Graphics Gloss DevIL",
+          "indexed": "2014-03-11T18:18:20",
           "module": "Graphics.Gloss.DevIL",
           "name": "readRepaImage",
           "normalized": "FilePath-\u003eIO Image",

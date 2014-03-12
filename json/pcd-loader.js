@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pcd-loader"
+        "phrase": "pcd-loader",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFacility to convert an ASCII PCD file to a Binary one.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Conversion",
           "name": "Conversion",
           "package": "pcd-loader",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Facility to convert an ASCII PCD file to Binary one",
           "hierarchy": "PCD Conversion",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Conversion",
           "name": "Conversion",
           "package": "pcd-loader",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003easciiToBinary inputFile outputFile\u003c/code\u003e converts a PCD file from\n ASCII to Binary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Conversion",
           "name": "asciiToBinary",
           "package": "pcd-loader",
@@ -52,6 +55,7 @@
         "index": {
           "description": "asciiToBinary inputFile outputFile converts PCD file from ASCII to Binary",
           "hierarchy": "PCD Conversion",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Conversion",
           "name": "asciiToBinary",
           "normalized": "FilePath-\u003eFilePath-\u003eIO()",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParser for PCD (point cloud data) files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Data",
           "name": "Data",
           "package": "pcd-loader",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Parser for PCD point cloud data files",
           "hierarchy": "PCD Data",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Data",
           "name": "Data",
           "package": "pcd-loader",
@@ -90,6 +96,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Data",
           "name": "FieldType",
           "package": "pcd-loader",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "PCD Data",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Data",
           "name": "FieldType",
           "package": "pcd-loader",
@@ -296,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse every field of every point in a PCD file. Returns a function\n that may be used to project out a named field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Data",
           "name": "loadFieldsByName",
           "package": "pcd-loader",
@@ -306,6 +315,7 @@
         "index": {
           "description": "Parse every field of every point in PCD file Returns function that may be used to project out named field",
           "hierarchy": "PCD Data",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Data",
           "name": "loadFieldsByName",
           "normalized": "FilePath-\u003eIO(Text-\u003eVector FieldType)",
@@ -322,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e of points, each represented as a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e of\n \u003ccode\u003e\u003ca\u003eFieldType\u003c/a\u003e\u003c/code\u003e fields. If you wish to use field names to access to the\n data, consider using \u003ccode\u003e\u003ca\u003eloadFieldsByName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Data",
           "name": "loadFlexiblePoints",
           "package": "pcd-loader",
@@ -332,6 +343,7 @@
         "index": {
           "description": "Load Vector of points each represented as Vector of FieldType fields If you wish to use field names to access to the data consider using loadFieldsByName",
           "hierarchy": "PCD Data",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Data",
           "name": "loadFlexiblePoints",
           "normalized": "Header-\u003eHandle-\u003eIO(Vector(Vector FieldType))",
@@ -348,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a PCD file consisting of floating point XYZ coordinates for\n each point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Data",
           "name": "loadXyz",
           "package": "pcd-loader",
@@ -358,6 +371,7 @@
         "index": {
           "description": "Read PCD file consisting of floating point XYZ coordinates for each point",
           "hierarchy": "PCD Data",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Data",
           "name": "loadXyz",
           "normalized": "FilePath-\u003eIO(Vector(V a))",
@@ -374,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a PCD file consisting of floating point XYZW coordinates for\n each point (where the final \"W\" field may be an RGB triple\n encoded as a float).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Data",
           "name": "loadXyzw",
           "package": "pcd-loader",
@@ -384,6 +399,7 @@
         "index": {
           "description": "Read PCD file consisting of floating point XYZW coordinates for each point where the final field may be an RGB triple encoded as float",
           "hierarchy": "PCD Data",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Data",
           "name": "loadXyzw",
           "normalized": "FilePath-\u003eIO(Vector(V a))",
@@ -454,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave a binary PCD file including only the named fields. This is\n useful when you have a PCD file that has more fields for each point\n than you care about. For instance, you may wish to extract just the\n \"x\", \"y\", and \"z\" fields for each point. This can be\n accomplished using, \u003ccode\u003eprojectBinaryFields [\"x\", \"y\", \"z\"]\n inputFile outputFile\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Data",
           "name": "projectBinaryFields",
           "package": "pcd-loader",
@@ -464,6 +481,7 @@
         "index": {
           "description": "Save binary PCD file including only the named fields This is useful when you have PCD file that has more fields for each point than you care about For instance you may wish to extract just the and fields for each point This can be accomplished using projectBinaryFields inputFile outputFile",
           "hierarchy": "PCD Data",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Data",
           "name": "projectBinaryFields",
           "normalized": "[Text]-\u003eFilePath-\u003eFilePath-\u003eIO()",
@@ -480,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse an existing PCD header to save binary point data to a\n file. The supplied header is used as-is, except that its format is\n set to \u003ccode\u003e\u003ca\u003eBinary\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Data",
           "name": "saveBinaryPcd",
           "package": "pcd-loader",
@@ -490,6 +509,7 @@
         "index": {
           "description": "Use an existing PCD header to save binary point data to file The supplied header is used as-is except that its format is set to Binary",
           "hierarchy": "PCD Data",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Data",
           "name": "saveBinaryPcd",
           "normalized": "FilePath-\u003eHeader-\u003eVector a-\u003eIO()",
@@ -506,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a raw Haskell value from the \u003ccode\u003e\u003ca\u003eFieldType\u003c/a\u003e\u003c/code\u003e variant. If you\n know what you've got, this frees from having to pattern match on\n the \u003ccode\u003e\u003ca\u003eFieldType\u003c/a\u003e\u003c/code\u003e constructor. If you're wrong, you'll get an\n exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Data",
           "name": "unsafeUnwrap",
           "package": "pcd-loader",
@@ -516,6 +537,7 @@
         "index": {
           "description": "Extract raw Haskell value from the FieldType variant If you know what you ve got this frees from having to pattern match on the FieldType constructor If you re wrong you ll get an exception",
           "hierarchy": "PCD Data",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Data",
           "name": "unsafeUnwrap",
           "normalized": "FieldType-\u003ea",
@@ -532,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefine a data structure for a PCD file header and an associated\n parser.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "Header",
           "package": "pcd-loader",
@@ -541,6 +564,7 @@
         "index": {
           "description": "Define data structure for PCD file header and an associated parser",
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "Header",
           "package": "pcd-loader",
@@ -555,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe PCD format has both ASCII and binary variants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "DataFormat",
           "package": "pcd-loader",
@@ -564,6 +589,7 @@
         "index": {
           "description": "The PCD format has both ASCII and binary variants",
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "DataFormat",
           "package": "pcd-loader",
@@ -578,6 +604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFields attached to a point may be signed integers (I), unsigned\n integers (U), or floating point (F).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "DimType",
           "package": "pcd-loader",
@@ -587,6 +614,7 @@
         "index": {
           "description": "Fields attached to point may be signed integers unsigned integers or floating point",
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "DimType",
           "package": "pcd-loader",
@@ -600,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "FieldType",
           "package": "pcd-loader",
@@ -608,6 +637,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "FieldType",
           "package": "pcd-loader",
@@ -621,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "Header",
           "package": "pcd-loader",
@@ -629,6 +660,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "Header",
           "package": "pcd-loader",
@@ -642,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "PCDType",
           "package": "pcd-loader",
@@ -650,6 +683,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "PCDType",
           "package": "pcd-loader",
@@ -663,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "ASCII",
           "package": "pcd-loader",
@@ -672,6 +707,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "ASCII",
           "package": "pcd-loader",
@@ -685,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "Binary",
           "package": "pcd-loader",
@@ -694,6 +731,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "Binary",
           "package": "pcd-loader",
@@ -707,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "F",
           "package": "pcd-loader",
@@ -716,6 +755,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "F",
           "package": "pcd-loader",
@@ -728,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "Header",
           "package": "pcd-loader",
@@ -737,6 +778,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "Header",
           "package": "pcd-loader",
@@ -750,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "I",
           "package": "pcd-loader",
@@ -759,6 +802,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "I",
           "package": "pcd-loader",
@@ -771,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "U",
           "package": "pcd-loader",
@@ -780,6 +825,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "U",
           "package": "pcd-loader",
@@ -792,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "_counts",
           "package": "pcd-loader",
@@ -801,6 +848,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "_counts",
           "normalized": "[Int]",
@@ -815,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "_dimTypes",
           "package": "pcd-loader",
@@ -824,6 +873,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "_dimTypes",
           "normalized": "[DimType]",
@@ -839,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "_fields",
           "package": "pcd-loader",
@@ -848,6 +899,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "_fields",
           "normalized": "[Text]",
@@ -862,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "_format",
           "package": "pcd-loader",
@@ -871,6 +924,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "_format",
           "package": "pcd-loader",
@@ -883,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "_height",
           "package": "pcd-loader",
@@ -892,6 +947,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "_height",
           "package": "pcd-loader",
@@ -904,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "_points",
           "package": "pcd-loader",
@@ -913,6 +970,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "_points",
           "package": "pcd-loader",
@@ -925,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "_sizes",
           "package": "pcd-loader",
@@ -934,6 +993,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "_sizes",
           "normalized": "[Int]",
@@ -948,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "_version",
           "package": "pcd-loader",
@@ -957,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "_version",
           "package": "pcd-loader",
@@ -969,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "_viewpoint",
           "package": "pcd-loader",
@@ -978,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "_viewpoint",
           "normalized": "(V Double,Quaternion Double)",
@@ -992,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "_width",
           "package": "pcd-loader",
@@ -1001,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "_width",
           "package": "pcd-loader",
@@ -1013,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "counts",
           "package": "pcd-loader",
@@ -1022,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "counts",
           "normalized": "Lens' Header[Int]",
@@ -1036,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "defaultHeader",
           "package": "pcd-loader",
@@ -1045,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "defaultHeader",
           "package": "pcd-loader",
@@ -1059,6 +1129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default PCD version of 0.7.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "defaultVersion",
           "package": "pcd-loader",
@@ -1069,6 +1140,7 @@
         "index": {
           "description": "The default PCD version of",
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "defaultVersion",
           "package": "pcd-loader",
@@ -1082,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "dimTypes",
           "package": "pcd-loader",
@@ -1091,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "dimTypes",
           "normalized": "Lens' Header[DimType]",
@@ -1107,6 +1181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a parser for a field based on its type and size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "fieldParser",
           "package": "pcd-loader",
@@ -1117,6 +1192,7 @@
         "index": {
           "description": "Construct parser for field based on its type and size",
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "fieldParser",
           "normalized": "DimType-\u003eInt-\u003eParser FieldType",
@@ -1132,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "fields",
           "package": "pcd-loader",
@@ -1141,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "fields",
           "normalized": "Lens' Header[Text]",
@@ -1156,6 +1234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e based on an existing one that keeps only the\n fields whose names pass the supplied predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "filterFields",
           "package": "pcd-loader",
@@ -1166,6 +1245,7 @@
         "index": {
           "description": "Create Header based on an existing one that keeps only the fields whose names pass the supplied predicate",
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "filterFields",
           "normalized": "(Text-\u003eBool)-\u003eHeader-\u003eHeader",
@@ -1181,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "format",
           "package": "pcd-loader",
@@ -1190,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "format",
           "package": "pcd-loader",
@@ -1203,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociate a \u003ccode\u003e\u003ca\u003eDimType\u003c/a\u003e\u003c/code\u003e and a size (in bytes) for every instance\n of \u003ccode\u003e\u003ca\u003ePCDType\u003c/a\u003e\u003c/code\u003e. The argument to \u003ccode\u003e\u003ca\u003efromHaskell\u003c/a\u003e\u003c/code\u003e is never evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "fromHaskell",
           "package": "pcd-loader",
@@ -1213,6 +1296,7 @@
         "index": {
           "description": "Associate DimType and size in bytes for every instance of PCDType The argument to fromHaskell is never evaluated",
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "fromHaskell",
           "normalized": "a-\u003e(DimType,Int)",
@@ -1228,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "height",
           "package": "pcd-loader",
@@ -1237,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "height",
           "package": "pcd-loader",
@@ -1249,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "namedIntegral",
           "package": "pcd-loader",
@@ -1258,6 +1345,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "namedIntegral",
           "normalized": "Text-\u003eParser a",
@@ -1273,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "namedIntegrals",
           "package": "pcd-loader",
@@ -1282,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "namedIntegrals",
           "normalized": "Text-\u003eParser[a]",
@@ -1298,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next non-comment line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "nextLine",
           "package": "pcd-loader",
@@ -1308,6 +1399,7 @@
         "index": {
           "description": "Get the next non-comment line",
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "nextLine",
           "normalized": "Handle-\u003eIO Text",
@@ -1324,6 +1416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssemble a parser for points by sequencing together all necessary\n field parsers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "pointParser",
           "package": "pcd-loader",
@@ -1334,6 +1427,7 @@
         "index": {
           "description": "Assemble parser for points by sequencing together all necessary field parsers",
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "pointParser",
           "normalized": "Header-\u003eParser[FieldType]",
@@ -1349,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "points",
           "package": "pcd-loader",
@@ -1358,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "points",
           "package": "pcd-loader",
@@ -1370,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "readFields",
           "package": "pcd-loader",
@@ -1379,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "readFields",
           "normalized": "Parser[Text]",
@@ -1394,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "readFormat",
           "package": "pcd-loader",
@@ -1403,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "readFormat",
           "package": "pcd-loader",
@@ -1417,6 +1517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a PCD header. Returns the \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e and the rest of the file\n contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "readHeader",
           "package": "pcd-loader",
@@ -1427,6 +1528,7 @@
         "index": {
           "description": "Parse PCD header Returns the Header and the rest of the file contents",
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "readHeader",
           "normalized": "Handle-\u003eIO(Header,Maybe Text)",
@@ -1442,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "readTypes",
           "package": "pcd-loader",
@@ -1451,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "readTypes",
           "normalized": "Parser[DimType]",
@@ -1466,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "readVersion",
           "package": "pcd-loader",
@@ -1475,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "readVersion",
           "package": "pcd-loader",
@@ -1488,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "readViewpoint",
           "package": "pcd-loader",
@@ -1497,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "readViewpoint",
           "normalized": "Parser(V Double,Quaternion Double)",
@@ -1512,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "sequence'",
           "package": "pcd-loader",
@@ -1521,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "sequence'",
           "normalized": "[a b]-\u003ea[b]",
@@ -1535,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "sizes",
           "package": "pcd-loader",
@@ -1544,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "sizes",
           "normalized": "Lens' Header[Int]",
@@ -1559,6 +1671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the number of bytes this point cloud would occupy if\n serialized with the \u003ccode\u003e\u003ca\u003eBinary\u003c/a\u003e\u003c/code\u003e encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "totalBinarySize",
           "package": "pcd-loader",
@@ -1569,6 +1682,7 @@
         "index": {
           "description": "Compute the number of bytes this point cloud would occupy if serialized with the Binary encoding",
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "totalBinarySize",
           "normalized": "Header-\u003eInt",
@@ -1585,6 +1699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a raw Haskell value from the \u003ccode\u003e\u003ca\u003eFieldType\u003c/a\u003e\u003c/code\u003e variant. If you\n know what you've got, this frees from having to pattern match on\n the \u003ccode\u003e\u003ca\u003eFieldType\u003c/a\u003e\u003c/code\u003e constructor. If you're wrong, you'll get an\n exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "unsafeUnwrap",
           "package": "pcd-loader",
@@ -1595,6 +1710,7 @@
         "index": {
           "description": "Extract raw Haskell value from the FieldType variant If you know what you ve got this frees from having to pattern match on the FieldType constructor If you re wrong you ll get an exception",
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "unsafeUnwrap",
           "normalized": "FieldType-\u003ea",
@@ -1610,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "version",
           "package": "pcd-loader",
@@ -1619,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "version",
           "package": "pcd-loader",
@@ -1631,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "viewpoint",
           "package": "pcd-loader",
@@ -1640,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "viewpoint",
           "normalized": "Lens' Header(V Double,Quaternion Double)",
@@ -1654,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "width",
           "package": "pcd-loader",
@@ -1663,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "width",
           "package": "pcd-loader",
@@ -1676,6 +1798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat a \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e to be compatible with the PCD specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Header",
           "name": "writeHeader",
           "package": "pcd-loader",
@@ -1686,6 +1809,7 @@
         "index": {
           "description": "Format Header to be compatible with the PCD specification",
           "hierarchy": "PCD Header",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Header",
           "name": "writeHeader",
           "normalized": "Header-\u003eText",
@@ -1701,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.AsciiParsers",
           "name": "AsciiParsers",
           "package": "pcd-loader",
@@ -1709,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "PCD Internal AsciiParsers",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.AsciiParsers",
           "name": "AsciiParsers",
           "package": "pcd-loader",
@@ -1723,6 +1849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead point data using a user-supplied ASCII point parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.AsciiParsers",
           "name": "readPoints",
           "package": "pcd-loader",
@@ -1733,6 +1860,7 @@
         "index": {
           "description": "Read point data using user-supplied ASCII point parser",
           "hierarchy": "PCD Internal AsciiParsers",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.AsciiParsers",
           "name": "readPoints",
           "normalized": "Header-\u003eHandle-\u003eParser a-\u003eIO(b a)",
@@ -1749,6 +1877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad points of arbitrary dimension into a boxed vector with a\n \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eFieldType\u003c/a\u003e\u003c/code\u003e as the point representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.AsciiParsers",
           "name": "readPointsDefault",
           "package": "pcd-loader",
@@ -1759,6 +1888,7 @@
         "index": {
           "description": "Load points of arbitrary dimension into boxed vector with Vector of FieldType as the point representation",
           "hierarchy": "PCD Internal AsciiParsers",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.AsciiParsers",
           "name": "readPointsDefault",
           "normalized": "Header-\u003eHandle-\u003eIO(Vector(Vector FieldType))",
@@ -1775,6 +1905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse 3D points serialized in ASCII.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.AsciiParsers",
           "name": "readXYZ",
           "package": "pcd-loader",
@@ -1785,6 +1916,7 @@
         "index": {
           "description": "Parse points serialized in ASCII",
           "hierarchy": "PCD Internal AsciiParsers",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.AsciiParsers",
           "name": "readXYZ",
           "package": "pcd-loader",
@@ -1799,6 +1931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse 4D points serialized to ASCII. This is useful for points\n with X,Y,Z, and RGB fields each represented by a single float.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.AsciiParsers",
           "name": "readXYZW",
           "package": "pcd-loader",
@@ -1809,6 +1942,7 @@
         "index": {
           "description": "Parse points serialized to ASCII This is useful for points with and RGB fields each represented by single float",
           "hierarchy": "PCD Internal AsciiParsers",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.AsciiParsers",
           "name": "readXYZW",
           "package": "pcd-loader",
@@ -1822,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.StorableFieldType",
           "name": "StorableFieldType",
           "package": "pcd-loader",
@@ -1830,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "PCD Internal StorableFieldType",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.StorableFieldType",
           "name": "StorableFieldType",
           "package": "pcd-loader",
@@ -1843,6 +1979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.StorableFieldType",
           "name": "parseBinaryPoints",
           "package": "pcd-loader",
@@ -1852,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "PCD Internal StorableFieldType",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.StorableFieldType",
           "name": "parseBinaryPoints",
           "normalized": "Header-\u003eHandle-\u003eIO(Vector(Vector FieldType))",
@@ -1867,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.StorableFieldType",
           "name": "pokeBinaryPoints",
           "package": "pcd-loader",
@@ -1876,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "PCD Internal StorableFieldType",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.StorableFieldType",
           "name": "pokeBinaryPoints",
           "normalized": "Ptr a-\u003eVector(Vector FieldType)-\u003eIO()",
@@ -1892,6 +2032,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon types for dealing with PCD files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.Types",
           "name": "Types",
           "package": "pcd-loader",
@@ -1901,6 +2042,7 @@
         "index": {
           "description": "Common types for dealing with PCD files",
           "hierarchy": "PCD Internal Types",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.Types",
           "name": "Types",
           "package": "pcd-loader",
@@ -1915,6 +2057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 4x4 matrix with row-major representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.Types",
           "name": "M44",
           "package": "pcd-loader",
@@ -1923,6 +2066,7 @@
         "index": {
           "description": "x4 matrix with row-major representation",
           "hierarchy": "PCD Internal Types",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.Types",
           "name": "M44",
           "package": "pcd-loader",
@@ -1936,6 +2080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuaternions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.Types",
           "name": "Quaternion",
           "package": "pcd-loader",
@@ -1944,6 +2089,7 @@
         "index": {
           "description": "Quaternions",
           "hierarchy": "PCD Internal Types",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.Types",
           "name": "Quaternion",
           "package": "pcd-loader",
@@ -1958,6 +2104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2-dimensional vector\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003epure 1 :: V2 Int\n\u003c/code\u003e\u003c/strong\u003eV2 1 1\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 1 2 + V2 3 4\n\u003c/code\u003e\u003c/strong\u003eV2 4 6\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 1 2 * V2 3 4\n\u003c/code\u003e\u003c/strong\u003eV2 3 8\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esum (V2 1 2)\n\u003c/code\u003e\u003c/strong\u003e3\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.Types",
           "name": "V2",
           "package": "pcd-loader",
@@ -1966,6 +2113,7 @@
         "index": {
           "description": "dimensional vector pure V2 Int V2 V2 V2 V2 V2 V2 V2 sum V2",
           "hierarchy": "PCD Internal Types",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.Types",
           "name": "V2",
           "package": "pcd-loader",
@@ -1979,6 +2127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 3-dimensional vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.Types",
           "name": "V3",
           "package": "pcd-loader",
@@ -1987,6 +2136,7 @@
         "index": {
           "description": "dimensional vector",
           "hierarchy": "PCD Internal Types",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.Types",
           "name": "V3",
           "package": "pcd-loader",
@@ -2000,6 +2150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 4-dimensional vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.Types",
           "name": "V4",
           "package": "pcd-loader",
@@ -2008,6 +2159,7 @@
         "index": {
           "description": "dimensional vector",
           "hierarchy": "PCD Internal Types",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.Types",
           "name": "V4",
           "package": "pcd-loader",
@@ -2021,6 +2173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e-based vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.Types",
           "name": "Vector",
           "package": "pcd-loader",
@@ -2029,6 +2182,7 @@
         "index": {
           "description": "Storable based vectors",
           "hierarchy": "PCD Internal Types",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.Types",
           "name": "Vector",
           "package": "pcd-loader",
@@ -2043,6 +2197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.Types",
           "name": "Word8",
           "package": "pcd-loader",
@@ -2051,6 +2206,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "PCD Internal Types",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.Types",
           "name": "Word8",
           "package": "pcd-loader",
@@ -2064,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.Types",
           "name": "Quaternion",
           "package": "pcd-loader",
@@ -2072,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "PCD Internal Types",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.Types",
           "name": "Quaternion",
           "package": "pcd-loader",
@@ -2085,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.Types",
           "name": "V2",
           "package": "pcd-loader",
@@ -2093,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "PCD Internal Types",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.Types",
           "name": "V2",
           "package": "pcd-loader",
@@ -2105,6 +2265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.Types",
           "name": "V3",
           "package": "pcd-loader",
@@ -2113,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "PCD Internal Types",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.Types",
           "name": "V3",
           "package": "pcd-loader",
@@ -2125,6 +2287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:17 UTC 2014",
           "module": "PCD.Internal.Types",
           "name": "V4",
           "package": "pcd-loader",
@@ -2133,6 +2296,7 @@
         },
         "index": {
           "hierarchy": "PCD Internal Types",
+          "indexed": "2014-03-11T19:36:17",
           "module": "PCD.Internal.Types",
           "name": "V4",
           "package": "pcd-loader",

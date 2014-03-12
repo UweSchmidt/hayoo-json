@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "afv"
+        "phrase": "afv",
+        "type": "phrase"
       },
       "type": "context"
     }

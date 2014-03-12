@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "RxHaskell"
+        "phrase": "RxHaskell",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Disposable",
           "name": "Disposable",
           "package": "RxHaskell",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Disposable",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Disposable",
           "name": "Disposable",
           "package": "RxHaskell",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows disposal of a resource by running an action in the monad \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Disposable",
           "name": "Disposable",
           "package": "RxHaskell",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Allows disposal of resource by running an action in the monad",
           "hierarchy": "Disposable",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Disposable",
           "name": "Disposable",
           "package": "RxHaskell",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA synchronized set of disposables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Disposable",
           "name": "DisposableSet",
           "package": "RxHaskell",
@@ -72,6 +77,7 @@
         "index": {
           "description": "synchronized set of disposables",
           "hierarchy": "Disposable",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Disposable",
           "name": "DisposableSet",
           "package": "RxHaskell",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Disposable",
           "name": "EmptyDisposable",
           "package": "RxHaskell",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Disposable",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Disposable",
           "name": "EmptyDisposable",
           "package": "RxHaskell",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a disposable to a set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Disposable",
           "name": "addDisposable",
           "package": "RxHaskell",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Adds disposable to set",
           "hierarchy": "Disposable",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Disposable",
           "name": "addDisposable",
           "normalized": "DisposableSet-\u003eDisposable-\u003eIO()",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisposes a disposable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Disposable",
           "name": "dispose",
           "package": "RxHaskell",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Disposes disposable",
           "hierarchy": "Disposable",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Disposable",
           "name": "dispose",
           "normalized": "Disposable-\u003eIO()",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a disposable which runs the given action upon disposal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Disposable",
           "name": "newDisposable",
           "package": "RxHaskell",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Creates disposable which runs the given action upon disposal",
           "hierarchy": "Disposable",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Disposable",
           "name": "newDisposable",
           "normalized": "IO()-\u003eIO Disposable",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a set of disposables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Disposable",
           "name": "newDisposableSet",
           "package": "RxHaskell",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Creates set of disposables",
           "hierarchy": "Disposable",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Disposable",
           "name": "newDisposableSet",
           "package": "RxHaskell",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves a disposable from a set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Disposable",
           "name": "removeDisposable",
           "package": "RxHaskell",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Removes disposable from set",
           "hierarchy": "Disposable",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Disposable",
           "name": "removeDisposable",
           "normalized": "DisposableSet-\u003eDisposable-\u003eIO()",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a set of disposables into a disposable.\n   The constructed disposable will dispose of all disposables in the set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Disposable",
           "name": "toDisposable",
           "package": "RxHaskell",
@@ -245,6 +264,7 @@
         "index": {
           "description": "Converts set of disposables into disposable The constructed disposable will dispose of all disposables in the set",
           "hierarchy": "Disposable",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Disposable",
           "name": "toDisposable",
           "normalized": "DisposableSet-\u003eIO Disposable",
@@ -260,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler.Internal",
           "name": "Internal",
           "package": "RxHaskell",
@@ -268,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Scheduler Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler.Internal",
           "name": "Internal",
           "package": "RxHaskell",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA scheduler which runs enqueued actions in a dedicated background thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler.Internal",
           "name": "BackgroundScheduler",
           "package": "RxHaskell",
@@ -291,6 +314,7 @@
         "index": {
           "description": "scheduler which runs enqueued actions in dedicated background thread",
           "hierarchy": "Scheduler Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler.Internal",
           "name": "BackgroundScheduler",
           "package": "RxHaskell",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an action on a scheduler, along with a flag indicating whether it should be canceled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler.Internal",
           "name": "ScheduledAction",
           "package": "RxHaskell",
@@ -314,6 +339,7 @@
         "index": {
           "description": "Represents an action on scheduler along with flag indicating whether it should be canceled",
           "hierarchy": "Scheduler Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler.Internal",
           "name": "ScheduledAction",
           "package": "RxHaskell",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a queue of \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e actions which can be executed in FIFO order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler.Internal",
           "name": "Scheduler",
           "package": "RxHaskell",
@@ -337,6 +364,7 @@
         "index": {
           "description": "Represents queue of IO actions which can be executed in FIFO order",
           "hierarchy": "Scheduler Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler.Internal",
           "name": "Scheduler",
           "package": "RxHaskell",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computation that must be performed in a scheduler of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler.Internal",
           "name": "SchedulerIO",
           "package": "RxHaskell",
@@ -360,6 +389,7 @@
         "index": {
           "description": "An IO computation that must be performed in scheduler of type",
           "hierarchy": "Scheduler Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler.Internal",
           "name": "SchedulerIO",
           "package": "RxHaskell",
@@ -373,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler.Internal",
           "name": "BackgroundScheduler",
           "package": "RxHaskell",
@@ -382,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Scheduler Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler.Internal",
           "name": "BackgroundScheduler",
           "package": "RxHaskell",
@@ -395,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler.Internal",
           "name": "SchedulerIO",
           "package": "RxHaskell",
@@ -404,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Scheduler Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler.Internal",
           "name": "SchedulerIO",
           "normalized": "(a-\u003eIO b)-\u003eSchedulerIO a b",
@@ -420,6 +454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes the given action, then re-enters \u003ccode\u003e\u003ca\u003eschedulerMain\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler.Internal",
           "name": "executeScheduledAction",
           "package": "RxHaskell",
@@ -430,6 +465,7 @@
         "index": {
           "description": "Executes the given action then re-enters schedulerMain",
           "hierarchy": "Scheduler Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler.Internal",
           "name": "executeScheduledAction",
           "normalized": "a-\u003eScheduledAction a-\u003eIO()",
@@ -471,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new scheduled action, and returns a disposable which can be used to cancel it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler.Internal",
           "name": "newScheduledAction",
           "package": "RxHaskell",
@@ -481,6 +518,7 @@
         "index": {
           "description": "Creates new scheduled action and returns disposable which can be used to cancel it",
           "hierarchy": "Scheduler Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler.Internal",
           "name": "newScheduledAction",
           "normalized": "SchedulerIO a()-\u003eIO(ScheduledAction a,Disposable)",
@@ -497,6 +535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSchedules an action on the scheduler. Returns a disposable which can be used to cancel it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler.Internal",
           "name": "schedule",
           "package": "RxHaskell",
@@ -507,6 +546,7 @@
         "index": {
           "description": "Schedules an action on the scheduler Returns disposable which can be used to cancel it",
           "hierarchy": "Scheduler Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler.Internal",
           "name": "schedule",
           "normalized": "a-\u003eSchedulerIO a()-\u003eIO Disposable",
@@ -522,6 +562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes all current and future actions enqueued on the given scheduler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler.Internal",
           "name": "schedulerMain",
           "package": "RxHaskell",
@@ -532,6 +573,7 @@
         "index": {
           "description": "Executes all current and future actions enqueued on the given scheduler",
           "hierarchy": "Scheduler Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler.Internal",
           "name": "schedulerMain",
           "normalized": "a-\u003eIO()",
@@ -547,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler.Main",
           "name": "Main",
           "package": "RxHaskell",
@@ -555,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Scheduler Main",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler.Main",
           "name": "Main",
           "package": "RxHaskell",
@@ -569,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA scheduler which runs enqueued actions on the main thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler.Main",
           "name": "MainScheduler",
           "package": "RxHaskell",
@@ -578,6 +623,7 @@
         "index": {
           "description": "scheduler which runs enqueued actions on the main thread",
           "hierarchy": "Scheduler Main",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler.Main",
           "name": "MainScheduler",
           "package": "RxHaskell",
@@ -592,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a scheduler representing the main thread.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003erunMainScheduler\u003c/a\u003e\u003c/code\u003e must be called for enqueued actions to actually execute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler.Main",
           "name": "getMainScheduler",
           "package": "RxHaskell",
@@ -602,6 +649,7 @@
         "index": {
           "description": "Returns scheduler representing the main thread Note that runMainScheduler must be called for enqueued actions to actually execute",
           "hierarchy": "Scheduler Main",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler.Main",
           "name": "getMainScheduler",
           "package": "RxHaskell",
@@ -616,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the main scheduler indefinitely using the current thread.\n   The current thread will be bound if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler.Main",
           "name": "runMainScheduler",
           "package": "RxHaskell",
@@ -626,6 +675,7 @@
         "index": {
           "description": "Runs the main scheduler indefinitely using the current thread The current thread will be bound if possible",
           "hierarchy": "Scheduler Main",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler.Main",
           "name": "runMainScheduler",
           "normalized": "IO()",
@@ -641,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler.Unsafe",
           "name": "Unsafe",
           "package": "RxHaskell",
@@ -649,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Scheduler Unsafe",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler.Unsafe",
           "name": "Unsafe",
           "package": "RxHaskell",
@@ -662,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler",
           "name": "Scheduler",
           "package": "RxHaskell",
@@ -670,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Scheduler",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler",
           "name": "Scheduler",
           "package": "RxHaskell",
@@ -684,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA scheduler which runs enqueued actions in a dedicated background thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler",
           "name": "BackgroundScheduler",
           "package": "RxHaskell",
@@ -693,6 +748,7 @@
         "index": {
           "description": "scheduler which runs enqueued actions in dedicated background thread",
           "hierarchy": "Scheduler",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler",
           "name": "BackgroundScheduler",
           "package": "RxHaskell",
@@ -707,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a queue of \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e actions which can be executed in FIFO order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler",
           "name": "Scheduler",
           "package": "RxHaskell",
@@ -716,6 +773,7 @@
         "index": {
           "description": "Represents queue of IO actions which can be executed in FIFO order",
           "hierarchy": "Scheduler",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler",
           "name": "Scheduler",
           "package": "RxHaskell",
@@ -730,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computation that must be performed in a scheduler of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler",
           "name": "SchedulerIO",
           "package": "RxHaskell",
@@ -739,6 +798,7 @@
         "index": {
           "description": "An IO computation that must be performed in scheduler of type",
           "hierarchy": "Scheduler",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler",
           "name": "SchedulerIO",
           "package": "RxHaskell",
@@ -753,6 +813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new background scheduler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler",
           "name": "newScheduler",
           "package": "RxHaskell",
@@ -763,6 +824,7 @@
         "index": {
           "description": "Creates new background scheduler",
           "hierarchy": "Scheduler",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler",
           "name": "newScheduler",
           "package": "RxHaskell",
@@ -777,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSchedules an action on the scheduler. Returns a disposable which can be used to cancel it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Scheduler",
           "name": "schedule",
           "package": "RxHaskell",
@@ -787,6 +850,7 @@
         "index": {
           "description": "Schedules an action on the scheduler Returns disposable which can be used to cancel it",
           "hierarchy": "Scheduler",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Scheduler",
           "name": "schedule",
           "normalized": "a-\u003eSchedulerIO a()-\u003eIO Disposable",
@@ -801,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Channel",
           "name": "Channel",
           "package": "RxHaskell",
@@ -809,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Signal Channel",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Channel",
           "name": "Channel",
           "package": "RxHaskell",
@@ -823,6 +889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA controllable signal, represented by a \u003ccode\u003e\u003ca\u003eSubscriber\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eSignal\u003c/a\u003e\u003c/code\u003e pair.\n\u003c/p\u003e\u003cp\u003eValues sent to the subscriber will automatically be broadcast to all of the signal's subscribers.\n   In effect, the subscriber is the write end, while the signal is the read end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Channel",
           "name": "Channel",
           "package": "RxHaskell",
@@ -832,6 +899,7 @@
         "index": {
           "description": "controllable signal represented by Subscriber and Signal pair Values sent to the subscriber will automatically be broadcast to all of the signal subscribers In effect the subscriber is the write end while the signal is the read end",
           "hierarchy": "Signal Channel",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Channel",
           "name": "Channel",
           "package": "RxHaskell",
@@ -846,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines how many events a replay channel will save.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Channel",
           "name": "ChannelCapacity",
           "package": "RxHaskell",
@@ -855,6 +924,7 @@
         "index": {
           "description": "Determines how many events replay channel will save",
           "hierarchy": "Signal Channel",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Channel",
           "name": "ChannelCapacity",
           "package": "RxHaskell",
@@ -869,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a queue of \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e actions which can be executed in FIFO order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Channel",
           "name": "Scheduler",
           "package": "RxHaskell",
@@ -878,6 +949,7 @@
         "index": {
           "description": "Represents queue of IO actions which can be executed in FIFO order",
           "hierarchy": "Signal Channel",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Channel",
           "name": "Scheduler",
           "package": "RxHaskell",
@@ -892,6 +964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signal which will send values of type \u003ccode\u003ev\u003c/code\u003e on a scheduler of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Channel",
           "name": "Signal",
           "package": "RxHaskell",
@@ -901,6 +974,7 @@
         "index": {
           "description": "signal which will send values of type on scheduler of type",
           "hierarchy": "Signal Channel",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Channel",
           "name": "Signal",
           "package": "RxHaskell",
@@ -915,6 +989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceives events from a signal with values of type \u003ccode\u003ev\u003c/code\u003e and running in a scheduler of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003es\u003c/code\u003e refers to the scheduler that events must be sent on. Events are always sent\n   synchronously, regardless of \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Channel",
           "name": "Subscriber",
           "package": "RxHaskell",
@@ -924,6 +999,7 @@
         "index": {
           "description": "Receives events from signal with values of type and running in scheduler of type Note that refers to the scheduler that events must be sent on Events are always sent synchronously regardless of",
           "hierarchy": "Signal Channel",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Channel",
           "name": "Subscriber",
           "package": "RxHaskell",
@@ -938,6 +1014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe channel will only save the specified number of events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Channel",
           "name": "LimitedCapacity",
           "package": "RxHaskell",
@@ -948,6 +1025,7 @@
         "index": {
           "description": "The channel will only save the specified number of events",
           "hierarchy": "Signal Channel",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Channel",
           "name": "LimitedCapacity",
           "package": "RxHaskell",
@@ -962,6 +1040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe channel will save an unlimited number of events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Channel",
           "name": "UnlimitedCapacity",
           "package": "RxHaskell",
@@ -972,6 +1051,7 @@
         "index": {
           "description": "The channel will save an unlimited number of events",
           "hierarchy": "Signal Channel",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Channel",
           "name": "UnlimitedCapacity",
           "package": "RxHaskell",
@@ -986,6 +1066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a simple channel which broadcasts all values sent to it.\n\u003c/p\u003e\u003cp\u003eSending an \u003ccode\u003e\u003ca\u003eErrorEvent\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eCompletedEvent\u003c/a\u003e\u003c/code\u003e will terminate the channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Channel",
           "name": "newChannel",
           "package": "RxHaskell",
@@ -996,6 +1077,7 @@
         "index": {
           "description": "Creates simple channel which broadcasts all values sent to it Sending an ErrorEvent or CompletedEvent will terminate the channel",
           "hierarchy": "Signal Channel",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Channel",
           "name": "newChannel",
           "package": "RxHaskell",
@@ -1010,6 +1092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003enewChannel\u003c/a\u003e\u003c/code\u003e, but new subscriptions to the returned signal will receive all values\n   (up to the specified capacity) which have been sent thus far.\n\u003c/p\u003e\u003cp\u003eSending an \u003ccode\u003e\u003ca\u003eErrorEvent\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eCompletedEvent\u003c/a\u003e\u003c/code\u003e will terminate the channel. Any terminating event\n   will be replayed to future subscribers, assuming sufficient capacity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Channel",
           "name": "newReplayChannel",
           "package": "RxHaskell",
@@ -1020,6 +1103,7 @@
         "index": {
           "description": "Like newChannel but new subscriptions to the returned signal will receive all values up to the specified capacity which have been sent thus far Sending an ErrorEvent or CompletedEvent will terminate the channel Any terminating event will be replayed to future subscribers assuming sufficient capacity",
           "hierarchy": "Signal Channel",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Channel",
           "name": "newReplayChannel",
           "normalized": "ChannelCapacity-\u003eIO(Channel a b)",
@@ -1035,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Command",
           "name": "Command",
           "package": "RxHaskell",
@@ -1043,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Signal Command",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Command",
           "name": "Command",
           "package": "RxHaskell",
@@ -1057,6 +1143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA scheduler which runs enqueued actions in a dedicated background thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Command",
           "name": "BackgroundScheduler",
           "package": "RxHaskell",
@@ -1066,6 +1153,7 @@
         "index": {
           "description": "scheduler which runs enqueued actions in dedicated background thread",
           "hierarchy": "Signal Command",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Command",
           "name": "BackgroundScheduler",
           "package": "RxHaskell",
@@ -1080,6 +1168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA controllable signal, represented by a \u003ccode\u003e\u003ca\u003eSubscriber\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eSignal\u003c/a\u003e\u003c/code\u003e pair.\n\u003c/p\u003e\u003cp\u003eValues sent to the subscriber will automatically be broadcast to all of the signal's subscribers.\n   In effect, the subscriber is the write end, while the signal is the read end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Command",
           "name": "Channel",
           "package": "RxHaskell",
@@ -1089,6 +1178,7 @@
         "index": {
           "description": "controllable signal represented by Subscriber and Signal pair Values sent to the subscriber will automatically be broadcast to all of the signal subscribers In effect the subscriber is the write end while the signal is the read end",
           "hierarchy": "Signal Command",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Command",
           "name": "Channel",
           "package": "RxHaskell",
@@ -1103,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signal triggered in response to some action, typically UI-related.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Command",
           "name": "Command",
           "package": "RxHaskell",
@@ -1112,6 +1203,7 @@
         "index": {
           "description": "signal triggered in response to some action typically UI-related",
           "hierarchy": "Signal Command",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Command",
           "name": "Command",
           "package": "RxHaskell",
@@ -1126,6 +1218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines a command's behavior.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Command",
           "name": "CommandPolicy",
           "package": "RxHaskell",
@@ -1135,6 +1228,7 @@
         "index": {
           "description": "Determines command behavior",
           "hierarchy": "Signal Command",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Command",
           "name": "CommandPolicy",
           "package": "RxHaskell",
@@ -1149,6 +1243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA scheduler which runs enqueued actions on the main thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Command",
           "name": "MainScheduler",
           "package": "RxHaskell",
@@ -1158,6 +1253,7 @@
         "index": {
           "description": "scheduler which runs enqueued actions on the main thread",
           "hierarchy": "Signal Command",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Command",
           "name": "MainScheduler",
           "package": "RxHaskell",
@@ -1172,6 +1268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a queue of \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e actions which can be executed in FIFO order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Command",
           "name": "Scheduler",
           "package": "RxHaskell",
@@ -1181,6 +1278,7 @@
         "index": {
           "description": "Represents queue of IO actions which can be executed in FIFO order",
           "hierarchy": "Signal Command",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Command",
           "name": "Scheduler",
           "package": "RxHaskell",
@@ -1195,6 +1293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computation that must be performed in a scheduler of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Command",
           "name": "SchedulerIO",
           "package": "RxHaskell",
@@ -1204,6 +1303,7 @@
         "index": {
           "description": "An IO computation that must be performed in scheduler of type",
           "hierarchy": "Signal Command",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Command",
           "name": "SchedulerIO",
           "package": "RxHaskell",
@@ -1218,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signal which will send values of type \u003ccode\u003ev\u003c/code\u003e on a scheduler of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Command",
           "name": "Signal",
           "package": "RxHaskell",
@@ -1227,6 +1328,7 @@
         "index": {
           "description": "signal which will send values of type on scheduler of type",
           "hierarchy": "Signal Command",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Command",
           "name": "Signal",
           "package": "RxHaskell",
@@ -1241,6 +1343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe command can be executed concurrently any number of times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Command",
           "name": "ExecuteConcurrently",
           "package": "RxHaskell",
@@ -1251,6 +1354,7 @@
         "index": {
           "description": "The command can be executed concurrently any number of times",
           "hierarchy": "Signal Command",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Command",
           "name": "ExecuteConcurrently",
           "package": "RxHaskell",
@@ -1265,6 +1369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe command can only be executed once at a time.\n   Attempts to \u003ccode\u003e\u003ca\u003eexecute\u003c/a\u003e\u003c/code\u003e while the command is already running will fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Command",
           "name": "ExecuteSerially",
           "package": "RxHaskell",
@@ -1275,6 +1380,7 @@
         "index": {
           "description": "The command can only be executed once at time Attempts to execute while the command is already running will fail",
           "hierarchy": "Signal Command",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Command",
           "name": "ExecuteSerially",
           "package": "RxHaskell",
@@ -1289,6 +1395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends whether this command is able to execute.\n\u003c/p\u003e\u003cp\u003eThis signal will always send at least one value immediately upon subscription.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Command",
           "name": "canExecute",
           "package": "RxHaskell",
@@ -1299,6 +1406,7 @@
         "index": {
           "description": "Sends whether this command is able to execute This signal will always send at least one value immediately upon subscription",
           "hierarchy": "Signal Command",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Command",
           "name": "canExecute",
           "normalized": "Command a-\u003eSignal MainScheduler Bool",
@@ -1315,6 +1423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signal of errors received from all signals created by \u003ccode\u003e\u003ca\u003eonExecute\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Command",
           "name": "errors",
           "package": "RxHaskell",
@@ -1325,6 +1434,7 @@
         "index": {
           "description": "signal of errors received from all signals created by onExecute",
           "hierarchy": "Signal Command",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Command",
           "name": "errors",
           "normalized": "Command a-\u003eSignal MainScheduler IOException",
@@ -1340,6 +1450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to execute a command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Command",
           "name": "execute",
           "package": "RxHaskell",
@@ -1349,6 +1460,7 @@
         "index": {
           "description": "Attempts to execute command",
           "hierarchy": "Signal Command",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Command",
           "name": "execute",
           "normalized": "Command a-\u003ea-\u003eSchedulerIO MainScheduler Bool",
@@ -1364,6 +1476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends whether this command is currently executing.\n\u003c/p\u003e\u003cp\u003eThis signal will always send at least one value immediately upon subscription.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Command",
           "name": "executing",
           "package": "RxHaskell",
@@ -1374,6 +1487,7 @@
         "index": {
           "description": "Sends whether this command is currently executing This signal will always send at least one value immediately upon subscription",
           "hierarchy": "Signal Command",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Command",
           "name": "executing",
           "normalized": "Command a-\u003eSignal MainScheduler Bool",
@@ -1389,6 +1503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Command",
           "name": "newCommand",
           "package": "RxHaskell",
@@ -1398,6 +1513,7 @@
         "index": {
           "description": "Creates command",
           "hierarchy": "Signal Command",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Command",
           "name": "newCommand",
           "normalized": "CommandPolicy-\u003eSignal MainScheduler Bool-\u003eSchedulerIO MainScheduler(Command a)",
@@ -1414,6 +1530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a signal whenever the command executes, then subscribes to it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Command",
           "name": "onExecute",
           "package": "RxHaskell",
@@ -1423,6 +1540,7 @@
         "index": {
           "description": "Creates signal whenever the command executes then subscribes to it",
           "hierarchy": "Signal Command",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Command",
           "name": "onExecute",
           "normalized": "Command a-\u003e(a-\u003eSignal BackgroundScheduler())-\u003eSchedulerIO MainScheduler(Signal MainScheduler(Signal BackgroundScheduler()))",
@@ -1439,6 +1557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signal of the values passed to \u003ccode\u003e\u003ca\u003eexecute\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Command",
           "name": "values",
           "package": "RxHaskell",
@@ -1449,6 +1568,7 @@
         "index": {
           "description": "signal of the values passed to execute",
           "hierarchy": "Signal Command",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Command",
           "name": "values",
           "normalized": "Command a-\u003eSignal MainScheduler a",
@@ -1463,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Connection",
           "name": "Connection",
           "package": "RxHaskell",
@@ -1471,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "Signal Connection",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Connection",
           "name": "Connection",
           "package": "RxHaskell",
@@ -1485,6 +1607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA controllable signal, represented by a \u003ccode\u003e\u003ca\u003eSubscriber\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eSignal\u003c/a\u003e\u003c/code\u003e pair.\n\u003c/p\u003e\u003cp\u003eValues sent to the subscriber will automatically be broadcast to all of the signal's subscribers.\n   In effect, the subscriber is the write end, while the signal is the read end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Connection",
           "name": "Channel",
           "package": "RxHaskell",
@@ -1494,6 +1617,7 @@
         "index": {
           "description": "controllable signal represented by Subscriber and Signal pair Values sent to the subscriber will automatically be broadcast to all of the signal subscribers In effect the subscriber is the write end while the signal is the read end",
           "hierarchy": "Signal Connection",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Connection",
           "name": "Channel",
           "package": "RxHaskell",
@@ -1508,6 +1632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMulticasts a signal to many subscribers, without triggering any side effects more than once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Connection",
           "name": "Connection",
           "package": "RxHaskell",
@@ -1517,6 +1642,7 @@
         "index": {
           "description": "Multicasts signal to many subscribers without triggering any side effects more than once",
           "hierarchy": "Signal Connection",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Connection",
           "name": "Connection",
           "package": "RxHaskell",
@@ -1531,6 +1657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows disposal of a resource by running an action in the monad \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Connection",
           "name": "Disposable",
           "package": "RxHaskell",
@@ -1540,6 +1667,7 @@
         "index": {
           "description": "Allows disposal of resource by running an action in the monad",
           "hierarchy": "Signal Connection",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Connection",
           "name": "Disposable",
           "package": "RxHaskell",
@@ -1554,6 +1682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a queue of \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e actions which can be executed in FIFO order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Connection",
           "name": "Scheduler",
           "package": "RxHaskell",
@@ -1563,6 +1692,7 @@
         "index": {
           "description": "Represents queue of IO actions which can be executed in FIFO order",
           "hierarchy": "Signal Connection",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Connection",
           "name": "Scheduler",
           "package": "RxHaskell",
@@ -1577,6 +1707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computation that must be performed in a scheduler of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Connection",
           "name": "SchedulerIO",
           "package": "RxHaskell",
@@ -1586,6 +1717,7 @@
         "index": {
           "description": "An IO computation that must be performed in scheduler of type",
           "hierarchy": "Signal Connection",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Connection",
           "name": "SchedulerIO",
           "package": "RxHaskell",
@@ -1600,6 +1732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signal which will send values of type \u003ccode\u003ev\u003c/code\u003e on a scheduler of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Connection",
           "name": "Signal",
           "package": "RxHaskell",
@@ -1609,6 +1742,7 @@
         "index": {
           "description": "signal which will send values of type on scheduler of type",
           "hierarchy": "Signal Connection",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Connection",
           "name": "Signal",
           "package": "RxHaskell",
@@ -1623,6 +1757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActivates a connection by subscribing to its underlying signal.\n   Calling this function multiple times just returns the existing disposable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Connection",
           "name": "connect",
           "package": "RxHaskell",
@@ -1633,6 +1768,7 @@
         "index": {
           "description": "Activates connection by subscribing to its underlying signal Calling this function multiple times just returns the existing disposable",
           "hierarchy": "Signal Connection",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Connection",
           "name": "connect",
           "normalized": "Connection a b-\u003eSchedulerIO a Disposable",
@@ -1648,6 +1784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a connection that will subscribe to the given base signal,\n   and forward all events onto the given channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Connection",
           "name": "multicast",
           "package": "RxHaskell",
@@ -1658,6 +1795,7 @@
         "index": {
           "description": "Creates connection that will subscribe to the given base signal and forward all events onto the given channel",
           "hierarchy": "Signal Connection",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Connection",
           "name": "multicast",
           "normalized": "Signal a b-\u003eChannel a b-\u003eIO(Connection a b)",
@@ -1673,6 +1811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the multicasted signal of a connection.\n\u003c/p\u003e\u003cp\u003eNo events will be sent on the resulting signal until \u003ccode\u003e\u003ca\u003econnect\u003c/a\u003e\u003c/code\u003e is invoked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Connection",
           "name": "multicastedSignal",
           "package": "RxHaskell",
@@ -1683,6 +1822,7 @@
         "index": {
           "description": "Returns the multicasted signal of connection No events will be sent on the resulting signal until connect is invoked",
           "hierarchy": "Signal Connection",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Connection",
           "name": "multicastedSignal",
           "normalized": "Connection a b-\u003eSignal a b",
@@ -1699,6 +1839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMulticasts to a simple channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Connection",
           "name": "publish",
           "package": "RxHaskell",
@@ -1709,6 +1850,7 @@
         "index": {
           "description": "Multicasts to simple channel",
           "hierarchy": "Signal Connection",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Connection",
           "name": "publish",
           "normalized": "Signal a b-\u003eIO(Connection a b)",
@@ -1724,6 +1866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMulticasts to a replay channel of unlimited capacity, then connects immediately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Connection",
           "name": "replay",
           "package": "RxHaskell",
@@ -1734,6 +1877,7 @@
         "index": {
           "description": "Multicasts to replay channel of unlimited capacity then connects immediately",
           "hierarchy": "Signal Connection",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Connection",
           "name": "replay",
           "normalized": "Signal a b-\u003eSchedulerIO a(Signal a b)",
@@ -1749,6 +1893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMulticasts to a replay channel of capacity 1, then connects immediately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Connection",
           "name": "replayLast",
           "package": "RxHaskell",
@@ -1759,6 +1904,7 @@
         "index": {
           "description": "Multicasts to replay channel of capacity then connects immediately",
           "hierarchy": "Signal Connection",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Connection",
           "name": "replayLast",
           "normalized": "Signal a b-\u003eSchedulerIO a(Signal a b)",
@@ -1774,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Event",
           "name": "Event",
           "package": "RxHaskell",
@@ -1782,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Signal Event",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Event",
           "name": "Event",
           "package": "RxHaskell",
@@ -1796,6 +1944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an event that a signal might send.\n\u003c/p\u003e\u003cp\u003eSignals may send any number of \u003ccode\u003e\u003ca\u003eNextEvent\u003c/a\u003e\u003c/code\u003es, followed by one \u003ccode\u003e\u003ca\u003eErrorEvent\u003c/a\u003e\u003c/code\u003e \u003cem\u003eor\u003c/em\u003e \u003ccode\u003e\u003ca\u003eCompletedEvent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Event",
           "name": "Event",
           "package": "RxHaskell",
@@ -1805,6 +1954,7 @@
         "index": {
           "description": "Represents an event that signal might send Signals may send any number of NextEvent followed by one ErrorEvent or CompletedEvent",
           "hierarchy": "Signal Event",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Event",
           "name": "Event",
           "package": "RxHaskell",
@@ -1893,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Operators",
           "name": "Operators",
           "package": "RxHaskell",
@@ -1901,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Signal Operators",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Operators",
           "name": "Operators",
           "package": "RxHaskell",
@@ -1915,6 +2067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signal which will send values of type \u003ccode\u003ev\u003c/code\u003e on a scheduler of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Operators",
           "name": "Signal",
           "package": "RxHaskell",
@@ -1924,6 +2077,7 @@
         "index": {
           "description": "signal which will send values of type on scheduler of type",
           "hierarchy": "Signal Operators",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Operators",
           "name": "Signal",
           "package": "RxHaskell",
@@ -1938,6 +2092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines the latest values sent by both signals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Operators",
           "name": "combine",
           "package": "RxHaskell",
@@ -1948,6 +2103,7 @@
         "index": {
           "description": "Combines the latest values sent by both signals",
           "hierarchy": "Signal Operators",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Operators",
           "name": "combine",
           "normalized": "Signal a b-\u003eSignal a c-\u003eSignal a(b,c)",
@@ -1963,6 +2119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe inverse of \u003ccode\u003e\u003ca\u003ematerialize\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Operators",
           "name": "dematerialize",
           "package": "RxHaskell",
@@ -1973,6 +2130,7 @@
         "index": {
           "description": "The inverse of materialize",
           "hierarchy": "Signal Operators",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Operators",
           "name": "dematerialize",
           "normalized": "Signal a(Event b)-\u003eSignal a b",
@@ -1988,6 +2146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a side-effecting action when the signal completes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Operators",
           "name": "doCompleted",
           "package": "RxHaskell",
@@ -1998,6 +2157,7 @@
         "index": {
           "description": "Runs side-effecting action when the signal completes",
           "hierarchy": "Signal Operators",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Operators",
           "name": "doCompleted",
           "normalized": "Signal a b-\u003eSchedulerIO a()-\u003eSignal a b",
@@ -2014,6 +2174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a side-effecting action whenever the signal sends an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Operators",
           "name": "doError",
           "package": "RxHaskell",
@@ -2024,6 +2185,7 @@
         "index": {
           "description": "Runs side-effecting action whenever the signal sends an error",
           "hierarchy": "Signal Operators",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Operators",
           "name": "doError",
           "normalized": "Signal a b-\u003e(IOException-\u003eSchedulerIO a())-\u003eSignal a b",
@@ -2040,6 +2202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a side-effecting action whenever the signal sends an event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Operators",
           "name": "doEvent",
           "package": "RxHaskell",
@@ -2050,6 +2213,7 @@
         "index": {
           "description": "Runs side-effecting action whenever the signal sends an event",
           "hierarchy": "Signal Operators",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Operators",
           "name": "doEvent",
           "normalized": "Signal a b-\u003e(Event b-\u003eSchedulerIO a())-\u003eSignal a b",
@@ -2066,6 +2230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a side-effecting action whenever the signal sends a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Operators",
           "name": "doNext",
           "package": "RxHaskell",
@@ -2076,6 +2241,7 @@
         "index": {
           "description": "Runs side-effecting action whenever the signal sends value",
           "hierarchy": "Signal Operators",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Operators",
           "name": "doNext",
           "normalized": "Signal a b-\u003e(b-\u003eSchedulerIO a())-\u003eSignal a b",
@@ -2092,6 +2258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a signal without the first \u003ccode\u003en\u003c/code\u003e elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Operators",
           "name": "drop",
           "package": "RxHaskell",
@@ -2102,6 +2269,7 @@
         "index": {
           "description": "Returns signal without the first elements",
           "hierarchy": "Signal Operators",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Operators",
           "name": "drop",
           "normalized": "Signal a b-\u003ec-\u003eSignal a b",
@@ -2141,6 +2309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilters the values of a signal according to a predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Operators",
           "name": "filter",
           "package": "RxHaskell",
@@ -2151,6 +2320,7 @@
         "index": {
           "description": "Filters the values of signal according to predicate",
           "hierarchy": "Signal Operators",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Operators",
           "name": "filter",
           "normalized": "Signal a b-\u003e(b-\u003eBool)-\u003eSignal a b",
@@ -2166,6 +2336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a side-effecting action when the signal completes or errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Operators",
           "name": "finally",
           "package": "RxHaskell",
@@ -2176,6 +2347,7 @@
         "index": {
           "description": "Runs side-effecting action when the signal completes or errors",
           "hierarchy": "Signal Operators",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Operators",
           "name": "finally",
           "normalized": "Signal a b-\u003eSchedulerIO a()-\u003eSignal a b",
@@ -2191,6 +2363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns any \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e into a signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Operators",
           "name": "fromFoldable",
           "package": "RxHaskell",
@@ -2201,6 +2374,7 @@
         "index": {
           "description": "Turns any Foldable into signal",
           "hierarchy": "Signal Operators",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Operators",
           "name": "fromFoldable",
           "normalized": "a b-\u003eSignal c b",
@@ -2217,6 +2391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a signal of mapped values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Operators",
           "name": "map",
           "package": "RxHaskell",
@@ -2227,6 +2402,7 @@
         "index": {
           "description": "Returns signal of mapped values",
           "hierarchy": "Signal Operators",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Operators",
           "name": "map",
           "normalized": "Signal a b-\u003e(b-\u003ec)-\u003eSignal a c",
@@ -2242,6 +2418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBrings every signal event into the monad, as a \u003ccode\u003e\u003ca\u003eNextEvent\u003c/a\u003e\u003c/code\u003e containing the event itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Operators",
           "name": "materialize",
           "package": "RxHaskell",
@@ -2252,6 +2429,7 @@
         "index": {
           "description": "Brings every signal event into the monad as NextEvent containing the event itself",
           "hierarchy": "Signal Operators",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Operators",
           "name": "materialize",
           "normalized": "Signal a b-\u003eSignal a(Event b)",
@@ -2291,6 +2469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a signal that sends the values from the most recently sent signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Operators",
           "name": "switch",
           "package": "RxHaskell",
@@ -2301,6 +2480,7 @@
         "index": {
           "description": "Returns signal that sends the values from the most recently sent signal",
           "hierarchy": "Signal Operators",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Operators",
           "name": "switch",
           "normalized": "Signal a(Signal a b)-\u003eSignal a b",
@@ -2316,6 +2496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a signal of the first \u003ccode\u003en\u003c/code\u003e elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Operators",
           "name": "take",
           "package": "RxHaskell",
@@ -2326,6 +2507,7 @@
         "index": {
           "description": "Returns signal of the first elements",
           "hierarchy": "Signal Operators",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Operators",
           "name": "take",
           "normalized": "Signal a b-\u003ec-\u003eSignal a b",
@@ -2340,6 +2522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Scheduled",
           "name": "Scheduled",
           "package": "RxHaskell",
@@ -2348,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "Signal Scheduled",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Scheduled",
           "name": "Scheduled",
           "package": "RxHaskell",
@@ -2362,6 +2546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a queue of \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e actions which can be executed in FIFO order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Scheduled",
           "name": "Scheduler",
           "package": "RxHaskell",
@@ -2371,6 +2556,7 @@
         "index": {
           "description": "Represents queue of IO actions which can be executed in FIFO order",
           "hierarchy": "Signal Scheduled",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Scheduled",
           "name": "Scheduler",
           "package": "RxHaskell",
@@ -2385,6 +2571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computation that must be performed in a scheduler of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Scheduled",
           "name": "SchedulerIO",
           "package": "RxHaskell",
@@ -2394,6 +2581,7 @@
         "index": {
           "description": "An IO computation that must be performed in scheduler of type",
           "hierarchy": "Signal Scheduled",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Scheduled",
           "name": "SchedulerIO",
           "package": "RxHaskell",
@@ -2408,6 +2596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signal which will send values of type \u003ccode\u003ev\u003c/code\u003e on a scheduler of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Scheduled",
           "name": "Signal",
           "package": "RxHaskell",
@@ -2417,6 +2606,7 @@
         "index": {
           "description": "signal which will send values of type on scheduler of type",
           "hierarchy": "Signal Scheduled",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Scheduled",
           "name": "Signal",
           "package": "RxHaskell",
@@ -2431,6 +2621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a signal which subscribes to \u003ccode\u003esig\u003c/code\u003e on scheduler \u003ccode\u003eschA\u003c/code\u003e and delivers its events onto scheduler \u003ccode\u003eschB\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Scheduled",
           "name": "deliverOn",
           "package": "RxHaskell",
@@ -2441,6 +2632,7 @@
         "index": {
           "description": "Returns signal which subscribes to sig on scheduler schA and delivers its events onto scheduler schB",
           "hierarchy": "Signal Scheduled",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Scheduled",
           "name": "deliverOn",
           "normalized": "Signal a b-\u003ea-\u003ec-\u003eSignal c b",
@@ -2457,6 +2649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubscribes to \u003ccode\u003esig\u003c/code\u003e and synchronously waits for an event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Scheduled",
           "name": "first",
           "package": "RxHaskell",
@@ -2467,6 +2660,7 @@
         "index": {
           "description": "Subscribes to sig and synchronously waits for an event",
           "hierarchy": "Signal Scheduled",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Scheduled",
           "name": "first",
           "normalized": "Signal a b-\u003eSchedulerIO a(Event b)",
@@ -2482,6 +2676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts a signal which executes \u003ccode\u003eaction\u003c/code\u003e on \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Scheduled",
           "name": "start",
           "package": "RxHaskell",
@@ -2492,6 +2687,7 @@
         "index": {
           "description": "Starts signal which executes action on",
           "hierarchy": "Signal Scheduled",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Scheduled",
           "name": "start",
           "normalized": "a-\u003e(Subscriber a b-\u003eSchedulerIO a())-\u003eIO(Signal a b)",
@@ -2507,6 +2703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a signal which subscribes to \u003ccode\u003esig\u003c/code\u003e on scheduler \u003ccode\u003esch\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Scheduled",
           "name": "subscribeOn",
           "package": "RxHaskell",
@@ -2517,6 +2714,7 @@
         "index": {
           "description": "Returns signal which subscribes to sig on scheduler sch",
           "hierarchy": "Signal Scheduled",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Scheduled",
           "name": "subscribeOn",
           "normalized": "Signal a b-\u003ea-\u003eSignal a b",
@@ -2532,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Subscriber.Internal",
           "name": "Internal",
           "package": "RxHaskell",
@@ -2540,6 +2739,7 @@
         },
         "index": {
           "hierarchy": "Signal Subscriber Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Subscriber.Internal",
           "name": "Internal",
           "package": "RxHaskell",
@@ -2554,6 +2754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceives events from a signal with values of type \u003ccode\u003ev\u003c/code\u003e and running in a scheduler of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003es\u003c/code\u003e refers to the scheduler that events must be sent on. Events are always sent\n   synchronously, regardless of \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Subscriber.Internal",
           "name": "Subscriber",
           "package": "RxHaskell",
@@ -2563,6 +2764,7 @@
         "index": {
           "description": "Receives events from signal with values of type and running in scheduler of type Note that refers to the scheduler that events must be sent on Events are always sent synchronously regardless of",
           "hierarchy": "Signal Subscriber Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Subscriber.Internal",
           "name": "Subscriber",
           "package": "RxHaskell",
@@ -2576,6 +2778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Subscriber.Internal",
           "name": "Subscriber",
           "package": "RxHaskell",
@@ -2585,6 +2788,7 @@
         },
         "index": {
           "hierarchy": "Signal Subscriber Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Subscriber.Internal",
           "name": "Subscriber",
           "package": "RxHaskell",
@@ -2599,6 +2803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a disposable representing a subscription to the subscriber.\n   If the subscriber is later sent completed or error, the disposable will be disposed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Subscriber.Internal",
           "name": "addSubscriptionDisposable",
           "package": "RxHaskell",
@@ -2609,6 +2814,7 @@
         "index": {
           "description": "Adds disposable representing subscription to the subscriber If the subscriber is later sent completed or error the disposable will be disposed",
           "hierarchy": "Signal Subscriber Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Subscriber.Internal",
           "name": "addSubscriptionDisposable",
           "normalized": "Subscriber a b-\u003eDisposable-\u003eIO()",
@@ -2624,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Subscriber.Internal",
           "name": "disposables",
           "package": "RxHaskell",
@@ -2633,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "Signal Subscriber Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Subscriber.Internal",
           "name": "disposables",
           "package": "RxHaskell",
@@ -2646,6 +2854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisposes the subscriber, preventing it from receiving any new events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Subscriber.Internal",
           "name": "disposeSubscriber",
           "package": "RxHaskell",
@@ -2656,6 +2865,7 @@
         "index": {
           "description": "Disposes the subscriber preventing it from receiving any new events",
           "hierarchy": "Signal Subscriber Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Subscriber.Internal",
           "name": "disposeSubscriber",
           "normalized": "Subscriber a b-\u003eIO()",
@@ -2671,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Subscriber.Internal",
           "name": "disposed",
           "package": "RxHaskell",
@@ -2680,6 +2891,7 @@
         },
         "index": {
           "hierarchy": "Signal Subscriber Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Subscriber.Internal",
           "name": "disposed",
           "package": "RxHaskell",
@@ -2692,6 +2904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Subscriber.Internal",
           "name": "lockedThread",
           "package": "RxHaskell",
@@ -2701,6 +2914,7 @@
         },
         "index": {
           "hierarchy": "Signal Subscriber Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Subscriber.Internal",
           "name": "lockedThread",
           "package": "RxHaskell",
@@ -2714,6 +2928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Subscriber.Internal",
           "name": "onEvent",
           "package": "RxHaskell",
@@ -2723,6 +2938,7 @@
         },
         "index": {
           "hierarchy": "Signal Subscriber Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Subscriber.Internal",
           "name": "onEvent",
           "normalized": "Event a-\u003eSchedulerIO b()",
@@ -2738,6 +2954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Subscriber.Internal",
           "name": "threadLockCounter",
           "package": "RxHaskell",
@@ -2747,6 +2964,7 @@
         },
         "index": {
           "hierarchy": "Signal Subscriber Internal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Subscriber.Internal",
           "name": "threadLockCounter",
           "package": "RxHaskell",
@@ -2760,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Subscriber",
           "name": "Subscriber",
           "package": "RxHaskell",
@@ -2768,6 +2987,7 @@
         },
         "index": {
           "hierarchy": "Signal Subscriber",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Subscriber",
           "name": "Subscriber",
           "package": "RxHaskell",
@@ -2782,6 +3002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an event that a signal might send.\n\u003c/p\u003e\u003cp\u003eSignals may send any number of \u003ccode\u003e\u003ca\u003eNextEvent\u003c/a\u003e\u003c/code\u003es, followed by one \u003ccode\u003e\u003ca\u003eErrorEvent\u003c/a\u003e\u003c/code\u003e \u003cem\u003eor\u003c/em\u003e \u003ccode\u003e\u003ca\u003eCompletedEvent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Subscriber",
           "name": "Event",
           "package": "RxHaskell",
@@ -2791,6 +3012,7 @@
         "index": {
           "description": "Represents an event that signal might send Signals may send any number of NextEvent followed by one ErrorEvent or CompletedEvent",
           "hierarchy": "Signal Subscriber",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Subscriber",
           "name": "Event",
           "package": "RxHaskell",
@@ -2805,6 +3027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceives events from a signal with values of type \u003ccode\u003ev\u003c/code\u003e and running in a scheduler of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003es\u003c/code\u003e refers to the scheduler that events must be sent on. Events are always sent\n   synchronously, regardless of \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Subscriber",
           "name": "Subscriber",
           "package": "RxHaskell",
@@ -2814,6 +3037,7 @@
         "index": {
           "description": "Receives events from signal with values of type and running in scheduler of type Note that refers to the scheduler that events must be sent on Events are always sent synchronously regardless of",
           "hierarchy": "Signal Subscriber",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Subscriber",
           "name": "Subscriber",
           "package": "RxHaskell",
@@ -2828,6 +3052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronously sends an event to a subscriber.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Subscriber",
           "name": "send",
           "package": "RxHaskell",
@@ -2838,6 +3063,7 @@
         "index": {
           "description": "Synchronously sends an event to subscriber",
           "hierarchy": "Signal Subscriber",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Subscriber",
           "name": "send",
           "normalized": "Subscriber a b-\u003eEvent b-\u003eSchedulerIO a()",
@@ -2853,6 +3079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a subscriber.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal.Subscriber",
           "name": "subscriber",
           "package": "RxHaskell",
@@ -2862,6 +3089,7 @@
         "index": {
           "description": "Constructs subscriber",
           "hierarchy": "Signal Subscriber",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal.Subscriber",
           "name": "subscriber",
           "normalized": "(Event a-\u003eSchedulerIO b())-\u003eIO(Subscriber b a)",
@@ -2876,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal",
           "name": "Signal",
           "package": "RxHaskell",
@@ -2884,6 +3113,7 @@
         },
         "index": {
           "hierarchy": "Signal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal",
           "name": "Signal",
           "package": "RxHaskell",
@@ -2898,6 +3128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows disposal of a resource by running an action in the monad \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal",
           "name": "Disposable",
           "package": "RxHaskell",
@@ -2907,6 +3138,7 @@
         "index": {
           "description": "Allows disposal of resource by running an action in the monad",
           "hierarchy": "Signal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal",
           "name": "Disposable",
           "package": "RxHaskell",
@@ -2921,6 +3153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an event that a signal might send.\n\u003c/p\u003e\u003cp\u003eSignals may send any number of \u003ccode\u003e\u003ca\u003eNextEvent\u003c/a\u003e\u003c/code\u003es, followed by one \u003ccode\u003e\u003ca\u003eErrorEvent\u003c/a\u003e\u003c/code\u003e \u003cem\u003eor\u003c/em\u003e \u003ccode\u003e\u003ca\u003eCompletedEvent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal",
           "name": "Event",
           "package": "RxHaskell",
@@ -2930,6 +3163,7 @@
         "index": {
           "description": "Represents an event that signal might send Signals may send any number of NextEvent followed by one ErrorEvent or CompletedEvent",
           "hierarchy": "Signal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal",
           "name": "Event",
           "package": "RxHaskell",
@@ -2944,6 +3178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a queue of \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e actions which can be executed in FIFO order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal",
           "name": "Scheduler",
           "package": "RxHaskell",
@@ -2953,6 +3188,7 @@
         "index": {
           "description": "Represents queue of IO actions which can be executed in FIFO order",
           "hierarchy": "Signal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal",
           "name": "Scheduler",
           "package": "RxHaskell",
@@ -2967,6 +3203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computation that must be performed in a scheduler of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal",
           "name": "SchedulerIO",
           "package": "RxHaskell",
@@ -2976,6 +3213,7 @@
         "index": {
           "description": "An IO computation that must be performed in scheduler of type",
           "hierarchy": "Signal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal",
           "name": "SchedulerIO",
           "package": "RxHaskell",
@@ -2990,6 +3228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signal which will send values of type \u003ccode\u003ev\u003c/code\u003e on a scheduler of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal",
           "name": "Signal",
           "package": "RxHaskell",
@@ -2999,6 +3238,7 @@
         "index": {
           "description": "signal which will send values of type on scheduler of type",
           "hierarchy": "Signal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal",
           "name": "Signal",
           "package": "RxHaskell",
@@ -3013,6 +3253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a subscriber and subscribes to the signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal",
           "name": "(\u003e\u003e:)",
           "package": "RxHaskell",
@@ -3022,6 +3263,7 @@
         "index": {
           "description": "Creates subscriber and subscribes to the signal",
           "hierarchy": "Signal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal",
           "name": "(\u003e\u003e:) \u003e\u003e:",
           "normalized": "Signal a b-\u003e(Event b-\u003eSchedulerIO a())-\u003eSchedulerIO a Disposable",
@@ -3037,6 +3279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a signal which sends its values to new subscribers synchronously.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal",
           "name": "signal",
           "package": "RxHaskell",
@@ -3046,6 +3289,7 @@
         "index": {
           "description": "Constructs signal which sends its values to new subscribers synchronously",
           "hierarchy": "Signal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal",
           "name": "signal",
           "normalized": "(Subscriber a b-\u003eSchedulerIO a Disposable)-\u003eSignal a b",
@@ -3061,6 +3305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubscribes to a signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:01 UTC 2014",
           "module": "Signal",
           "name": "subscribe",
           "package": "RxHaskell",
@@ -3070,6 +3315,7 @@
         "index": {
           "description": "Subscribes to signal",
           "hierarchy": "Signal",
+          "indexed": "2014-03-11T16:59:01",
           "module": "Signal",
           "name": "subscribe",
           "normalized": "Signal a b-\u003eSubscriber a b-\u003eSchedulerIO a Disposable",

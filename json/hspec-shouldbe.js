@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hspec-shouldbe"
+        "phrase": "hspec-shouldbe",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:06 UTC 2014",
           "module": "Test.Hspec.ShouldBe",
           "name": "ShouldBe",
           "package": "hspec-shouldbe",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec ShouldBe",
+          "indexed": "2014-03-11T18:50:06",
           "module": "Test.Hspec.ShouldBe",
           "name": "ShouldBe",
           "package": "hspec-shouldbe",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic DSL shortcut, use this instead of \u003ccode\u003eit\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:06 UTC 2014",
           "module": "Test.Hspec.ShouldBe",
           "name": "prop",
           "package": "hspec-shouldbe",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Monadic DSL shortcut use this instead of it",
           "hierarchy": "Test Hspec ShouldBe",
+          "indexed": "2014-03-11T18:50:06",
           "module": "Test.Hspec.ShouldBe",
           "name": "prop",
           "normalized": "String-\u003ea-\u003eSpecs",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:06 UTC 2014",
           "module": "Test.Hspec.ShouldBe",
           "name": "property",
           "package": "hspec-shouldbe",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec ShouldBe",
+          "indexed": "2014-03-11T18:50:06",
           "module": "Test.Hspec.ShouldBe",
           "name": "property",
           "normalized": "a-\u003eQuickCheckProperty a",

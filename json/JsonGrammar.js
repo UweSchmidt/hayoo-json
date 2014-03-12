@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "JsonGrammar"
+        "phrase": "JsonGrammar",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConstructor-destructor isomorphisms for some common datatypes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Common",
           "name": "Common",
           "package": "JsonGrammar",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Constructor-destructor isomorphisms for some common datatypes",
           "hierarchy": "Data Iso Common",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Common",
           "name": "Common",
           "package": "JsonGrammar",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Common",
           "name": "bool",
           "package": "JsonGrammar",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Data Iso Common",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Common",
           "name": "bool",
           "package": "JsonGrammar",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Common",
           "name": "cons",
           "package": "JsonGrammar",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Iso Common",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Common",
           "name": "cons",
           "normalized": "Iso(a([a]b))([a]b)",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Common",
           "name": "either",
           "package": "JsonGrammar",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Iso Common",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Common",
           "name": "either",
           "normalized": "Iso a(b a)-\u003eIso a(c a)-\u003eIso a(Either b c a)",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Common",
           "name": "false",
           "package": "JsonGrammar",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Iso Common",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Common",
           "name": "false",
           "package": "JsonGrammar",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Common",
           "name": "just",
           "package": "JsonGrammar",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data Iso Common",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Common",
           "name": "just",
           "package": "JsonGrammar",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Common",
           "name": "left",
           "package": "JsonGrammar",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data Iso Common",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Common",
           "name": "left",
           "package": "JsonGrammar",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Common",
           "name": "maybe",
           "package": "JsonGrammar",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Data Iso Common",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Common",
           "name": "maybe",
           "normalized": "Iso a(b a)-\u003eIso a(Maybe b a)",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Common",
           "name": "nil",
           "package": "JsonGrammar",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Data Iso Common",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Common",
           "name": "nil",
           "normalized": "Iso a([b]a)",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Common",
           "name": "nothing",
           "package": "JsonGrammar",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Data Iso Common",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Common",
           "name": "nothing",
           "package": "JsonGrammar",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Common",
           "name": "right",
           "package": "JsonGrammar",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Data Iso Common",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Common",
           "name": "right",
           "package": "JsonGrammar",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Common",
           "name": "true",
           "package": "JsonGrammar",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Data Iso Common",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Common",
           "name": "true",
           "package": "JsonGrammar",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Common",
           "name": "tup",
           "package": "JsonGrammar",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Data Iso Common",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Common",
           "name": "tup",
           "normalized": "Iso(a(b c))((a,b)c)",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Common",
           "name": "tup3",
           "package": "JsonGrammar",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Data Iso Common",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Common",
           "name": "tup3",
           "normalized": "Iso(a(b(c d)))((a,b,c)d)",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Common",
           "name": "unit",
           "package": "JsonGrammar",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Data Iso Common",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Common",
           "name": "unit",
           "normalized": "Iso a(()a)",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Core",
           "name": "Core",
           "package": "JsonGrammar",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Data Iso Core",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Core",
           "name": "Core",
           "package": "JsonGrammar",
@@ -371,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeterogenous stack with a head and a tail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Core",
           "name": ":-",
           "package": "JsonGrammar",
@@ -380,6 +413,7 @@
         "index": {
           "description": "Heterogenous stack with head and tail",
           "hierarchy": "Data Iso Core",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Core",
           "name": ":-",
           "package": "JsonGrammar",
@@ -393,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBidirectional partial isomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Core",
           "name": "Iso",
           "package": "JsonGrammar",
@@ -402,6 +437,7 @@
         "index": {
           "description": "Bidirectional partial isomorphism",
           "hierarchy": "Data Iso Core",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Core",
           "name": "Iso",
           "package": "JsonGrammar",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Core",
           "name": ":-",
           "package": "JsonGrammar",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Data Iso Core",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Core",
           "name": ":-",
           "package": "JsonGrammar",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Core",
           "name": "Iso",
           "package": "JsonGrammar",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Data Iso Core",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Core",
           "name": "Iso",
           "normalized": "Iso(a-\u003eMaybe b)(b-\u003eMaybe a)",
@@ -461,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an isomorphism in one direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Core",
           "name": "convert",
           "package": "JsonGrammar",
@@ -471,6 +512,7 @@
         "index": {
           "description": "Apply an isomorphism in one direction",
           "hierarchy": "Data Iso Core",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Core",
           "name": "convert",
           "normalized": "Iso a b-\u003ea-\u003eMaybe b",
@@ -486,6 +528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntroduce a head value that is passed unmodified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Core",
           "name": "duck",
           "package": "JsonGrammar",
@@ -496,6 +539,7 @@
         "index": {
           "description": "Introduce head value that is passed unmodified",
           "hierarchy": "Data Iso Core",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Core",
           "name": "duck",
           "normalized": "Iso a a-\u003eIso(b a)(b a)",
@@ -511,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen converting from left to right, push the default value on top of the stack. When converting from right to left, pop the value and discard it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Core",
           "name": "ignoreWithDefault",
           "package": "JsonGrammar",
@@ -521,6 +566,7 @@
         "index": {
           "description": "When converting from left to right push the default value on top of the stack When converting from right to left pop the value and discard it",
           "hierarchy": "Data Iso Core",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Core",
           "name": "ignoreWithDefault",
           "normalized": "a-\u003eIso b(a b)",
@@ -537,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of an isomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Core",
           "name": "inverse",
           "package": "JsonGrammar",
@@ -547,6 +594,7 @@
         "index": {
           "description": "Inverse of an isomorphism",
           "hierarchy": "Data Iso Core",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Core",
           "name": "inverse",
           "normalized": "Iso a b-\u003eIso b a",
@@ -562,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of \u003ccode\u003e\u003ca\u003elit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Core",
           "name": "inverseLit",
           "package": "JsonGrammar",
@@ -572,6 +621,7 @@
         "index": {
           "description": "Inverse of lit",
           "hierarchy": "Data Iso Core",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Core",
           "name": "inverseLit",
           "normalized": "a-\u003eIso(a b)b",
@@ -588,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePush or pop a specific value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Core",
           "name": "lit",
           "package": "JsonGrammar",
@@ -598,6 +649,7 @@
         "index": {
           "description": "Push or pop specific value",
           "hierarchy": "Data Iso Core",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Core",
           "name": "lit",
           "normalized": "a-\u003eIso b(a b)",
@@ -613,6 +665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an isomorphism as many times as possible, greedily.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Core",
           "name": "many",
           "package": "JsonGrammar",
@@ -623,6 +676,7 @@
         "index": {
           "description": "Apply an isomorphism as many times as possible greedily",
           "hierarchy": "Data Iso Core",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Core",
           "name": "many",
           "normalized": "Iso a a-\u003eIso a a",
@@ -638,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen converting from left to right, push the default value on top of the\n stack. When converting from right to left, pop the value, make sure it\n matches the predicate and then discard it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Core",
           "name": "matchWithDefault",
           "package": "JsonGrammar",
@@ -648,6 +703,7 @@
         "index": {
           "description": "When converting from left to right push the default value on top of the stack When converting from right to left pop the value make sure it matches the predicate and then discard it",
           "hierarchy": "Data Iso Core",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Core",
           "name": "matchWithDefault",
           "normalized": "(a-\u003eBool)-\u003ea-\u003eIso b(a b)",
@@ -664,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to a stack isomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Core",
           "name": "stack",
           "package": "JsonGrammar",
@@ -674,6 +731,7 @@
         "index": {
           "description": "Convert to stack isomorphism",
           "hierarchy": "Data Iso Core",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Core",
           "name": "stack",
           "normalized": "Iso a b-\u003eIso(a c)(b c)",
@@ -689,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwap the top two arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Core",
           "name": "swap",
           "package": "JsonGrammar",
@@ -699,6 +758,7 @@
         "index": {
           "description": "Swap the top two arguments",
           "hierarchy": "Data Iso Core",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Core",
           "name": "swap",
           "package": "JsonGrammar",
@@ -712,6 +772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from a stack isomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.Core",
           "name": "unstack",
           "package": "JsonGrammar",
@@ -722,6 +783,7 @@
         "index": {
           "description": "Convert from stack isomorphism",
           "hierarchy": "Data Iso Core",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.Core",
           "name": "unstack",
           "normalized": "Iso(a())(b())-\u003eIso a b",
@@ -736,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.TH",
           "name": "TH",
           "package": "JsonGrammar",
@@ -744,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Data Iso TH",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.TH",
           "name": "TH",
           "package": "JsonGrammar",
@@ -758,6 +822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive partial isomorphisms for a given datatype. The resulting\n expression is a tuple with one isomorphism element for each constructor in\n the datatype.\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre\u003e nothing :: Iso t (Maybe a :- t)\n just    :: Iso (a :- t) (Maybe a :- t)\n (nothing, just) = $(deriveIsos ''Maybe)\n\u003c/pre\u003e\u003cp\u003eDeriving isomorphisms this way requires \u003ccode\u003e-XNoMonoPatBinds\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso.TH",
           "name": "deriveIsos",
           "package": "JsonGrammar",
@@ -768,6 +833,7 @@
         "index": {
           "description": "Derive partial isomorphisms for given datatype The resulting expression is tuple with one isomorphism element for each constructor in the datatype For example nothing Iso Maybe just Iso Maybe nothing just deriveIsos Maybe Deriving isomorphisms this way requires XNoMonoPatBinds",
           "hierarchy": "Data Iso TH",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso.TH",
           "name": "deriveIsos",
           "normalized": "Name-\u003eQ Exp",
@@ -784,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience module that re-exports the available submodules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Data.Iso",
           "name": "Iso",
           "package": "JsonGrammar",
@@ -793,6 +860,7 @@
         "index": {
           "description": "Convenience module that re-exports the available submodules",
           "hierarchy": "Data Iso",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Data.Iso",
           "name": "Iso",
           "package": "JsonGrammar",
@@ -806,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "JsonGrammar",
           "package": "JsonGrammar",
@@ -814,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "JsonGrammar",
           "package": "JsonGrammar",
@@ -828,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert values of a type to and from JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "Json",
           "package": "JsonGrammar",
@@ -837,6 +908,7 @@
         "index": {
           "description": "Convert values of type to and from JSON",
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "Json",
           "package": "JsonGrammar",
@@ -851,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a bunch of elements in a JSON array. For example, to match an array of exactly length two:\n\u003c/p\u003e\u003cpre\u003e array (element . element)\n\u003c/pre\u003e\u003cp\u003eOr to match an empty array:\n\u003c/p\u003e\u003cpre\u003e array id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "array",
           "package": "JsonGrammar",
@@ -861,6 +934,7 @@
         "index": {
           "description": "Wrap bunch of elements in JSON array For example to match an array of exactly length two array element element Or to match an empty array array id",
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "array",
           "normalized": "Iso([Value]a)([Value]a)-\u003eIso(Value a)a",
@@ -876,6 +950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribe a single array element whose grammar is given by a \u003ccode\u003e\u003ca\u003eJson\u003c/a\u003e\u003c/code\u003e\n instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "element",
           "package": "JsonGrammar",
@@ -886,6 +961,7 @@
         "index": {
           "description": "Describe single array element whose grammar is given by Json instance",
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "element",
           "normalized": "Iso([Value]a)([Value](b a))",
@@ -901,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribe a single array element with the given grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "elementBy",
           "package": "JsonGrammar",
@@ -911,6 +988,7 @@
         "index": {
           "description": "Describe single array element with the given grammar",
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "elementBy",
           "normalized": "Iso(Value a)a-\u003eIso([Value]a)([Value]a)",
@@ -927,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpect a specific key/value pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "fixedProp",
           "package": "JsonGrammar",
@@ -937,6 +1016,7 @@
         "index": {
           "description": "Expect specific key value pair",
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "fixedProp",
           "normalized": "String-\u003ea-\u003eIso(Object b)(Object b)",
@@ -953,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "fromJson",
           "package": "JsonGrammar",
@@ -963,6 +1044,7 @@
         "index": {
           "description": "Convert from JSON",
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "fromJson",
           "normalized": "Value-\u003eMaybe a",
@@ -978,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "grammar",
           "package": "JsonGrammar",
@@ -987,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "grammar",
           "package": "JsonGrammar",
@@ -1000,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntroduce \u003ccode\u003e\u003ca\u003eNull\u003c/a\u003e\u003c/code\u003e as possible (greedy) value. Always converts \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e to\n \u003ccode\u003e\u003ca\u003eNull\u003c/a\u003e\u003c/code\u003e and vice versa, even if the argument grammar knows how to handle\n these values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "greedyOption",
           "package": "JsonGrammar",
@@ -1010,6 +1095,7 @@
         "index": {
           "description": "Introduce Null as possible greedy value Always converts Nothing to Null and vice versa even if the argument grammar knows how to handle these values",
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "greedyOption",
           "normalized": "Iso(Value a)(b a)-\u003eIso(Value a)(Maybe b a)",
@@ -1026,6 +1112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch and discard all properties left in the object. When converting back to JSON, produces no properties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "ignoreRest",
           "package": "JsonGrammar",
@@ -1036,6 +1123,7 @@
         "index": {
           "description": "Match and discard all properties left in the object When converting back to JSON produces no properties",
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "ignoreRest",
           "package": "JsonGrammar",
@@ -1050,6 +1138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert any Aeson-enabled type to a grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "liftAeson",
           "package": "JsonGrammar",
@@ -1060,6 +1149,7 @@
         "index": {
           "description": "Convert any Aeson-enabled type to grammar",
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "liftAeson",
           "package": "JsonGrammar",
@@ -1074,6 +1164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert between a JSON array and Haskell list of arbitrary lengts. The\n elements are converted using the argument grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "list",
           "package": "JsonGrammar",
@@ -1084,6 +1175,7 @@
         "index": {
           "description": "Convert between JSON array and Haskell list of arbitrary lengts The elements are converted using the argument grammar",
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "list",
           "normalized": "Iso(Value a)(b a)-\u003eIso(Value a)([b]a)",
@@ -1099,6 +1191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpect/produce a specific JSON \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "litJson",
           "package": "JsonGrammar",
@@ -1109,6 +1202,7 @@
         "index": {
           "description": "Expect produce specific JSON Value",
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "litJson",
           "normalized": "a-\u003eIso(Value b)b",
@@ -1125,6 +1219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap an exhaustive bunch of properties in an object. Typical usage:\n\u003c/p\u003e\u003cpre\u003e object (prop \"key1\" . prop \"key2\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "object",
           "package": "JsonGrammar",
@@ -1135,6 +1230,7 @@
         "index": {
           "description": "Wrap an exhaustive bunch of properties in an object Typical usage object prop key1 prop key2",
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "object",
           "normalized": "Iso(Object a)(Object a)-\u003eIso(Value a)a",
@@ -1150,6 +1246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntroduce \u003ccode\u003e\u003ca\u003eNull\u003c/a\u003e\u003c/code\u003e as possible value. First gives the argument grammar a\n chance, only yielding \u003ccode\u003e\u003ca\u003eNull\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the argument grammar fails to\n handle the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "option",
           "package": "JsonGrammar",
@@ -1160,6 +1257,7 @@
         "index": {
           "description": "Introduce Null as possible value First gives the argument grammar chance only yielding Null or Nothing if the argument grammar fails to handle the input",
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "option",
           "normalized": "Iso(Value a)(b a)-\u003eIso(Value a)(Maybe b a)",
@@ -1175,6 +1273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribe a property whose value grammar is described by a \u003ccode\u003e\u003ca\u003eJson\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "prop",
           "package": "JsonGrammar",
@@ -1185,6 +1284,7 @@
         "index": {
           "description": "Describe property whose value grammar is described by Json instance",
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "prop",
           "normalized": "String-\u003eIso(Object a)(Object(b a))",
@@ -1200,6 +1300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribe a property with the given name and value grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "propBy",
           "package": "JsonGrammar",
@@ -1210,6 +1311,7 @@
         "index": {
           "description": "Describe property with the given name and value grammar",
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "propBy",
           "normalized": "Iso(Value a)(b a)-\u003eString-\u003eIso(Object a)(Object(b a))",
@@ -1226,6 +1328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpect a specific key/value pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "rawFixedProp",
           "package": "JsonGrammar",
@@ -1236,6 +1339,7 @@
         "index": {
           "description": "Expect specific key value pair",
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "rawFixedProp",
           "normalized": "String-\u003eValue-\u003eIso(Object a)(Object a)",
@@ -1252,6 +1356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect all properties left in an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "rest",
           "package": "JsonGrammar",
@@ -1262,6 +1367,7 @@
         "index": {
           "description": "Collect all properties left in an object",
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "rest",
           "package": "JsonGrammar",
@@ -1275,6 +1381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:25 UTC 2014",
           "module": "Language.JsonGrammar",
           "name": "toJson",
           "package": "JsonGrammar",
@@ -1285,6 +1392,7 @@
         "index": {
           "description": "Convert to JSON",
           "hierarchy": "Language JsonGrammar",
+          "indexed": "2014-03-11T16:50:25",
           "module": "Language.JsonGrammar",
           "name": "toJson",
           "normalized": "a-\u003eMaybe Value",

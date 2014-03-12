@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HueAPI"
+        "phrase": "HueAPI",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "HueAPI",
           "package": "HueAPI",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "HueAPI",
           "package": "HueAPI",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "Group",
           "package": "HueAPI",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "Group",
           "package": "HueAPI",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "Hue",
           "package": "HueAPI",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "Hue",
           "package": "HueAPI",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "HueData",
           "package": "HueAPI",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "HueData",
           "package": "HueAPI",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "Light",
           "package": "HueAPI",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "Light",
           "package": "HueAPI",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "LightState",
           "package": "HueAPI",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "LightState",
           "package": "HueAPI",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "Name",
           "package": "HueAPI",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "Name",
           "package": "HueAPI",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "Group",
           "package": "HueAPI",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "Group",
           "package": "HueAPI",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "Hue",
           "package": "HueAPI",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "Hue",
           "package": "HueAPI",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "Light",
           "package": "HueAPI",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "Light",
           "package": "HueAPI",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "LightState",
           "package": "HueAPI",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "LightState",
           "package": "HueAPI",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "action",
           "package": "HueAPI",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "action",
           "package": "HueAPI",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "bri",
           "package": "HueAPI",
@@ -283,6 +308,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "bri",
           "package": "HueAPI",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "getLightState",
           "package": "HueAPI",
@@ -304,6 +331,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "getLightState",
           "normalized": "Name-\u003eHue LightState",
@@ -319,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "getState",
           "package": "HueAPI",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "getState",
           "package": "HueAPI",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "groupLights",
           "package": "HueAPI",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "groupLights",
           "normalized": "[Name]",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "groupName",
           "package": "HueAPI",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "groupName",
           "package": "HueAPI",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "groups",
           "package": "HueAPI",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "groups",
           "package": "HueAPI",
@@ -408,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "hue",
           "package": "HueAPI",
@@ -417,6 +454,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "hue",
           "package": "HueAPI",
@@ -429,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "initLight",
           "package": "HueAPI",
@@ -438,6 +477,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "initLight",
           "normalized": "Name-\u003eLightState-\u003eHue()",
@@ -453,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "lights",
           "package": "HueAPI",
@@ -462,6 +503,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "lights",
           "package": "HueAPI",
@@ -474,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "modelid",
           "package": "HueAPI",
@@ -483,6 +526,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "modelid",
           "package": "HueAPI",
@@ -495,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "name",
           "package": "HueAPI",
@@ -504,6 +549,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "name",
           "package": "HueAPI",
@@ -516,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "on",
           "package": "HueAPI",
@@ -525,6 +572,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "on",
           "package": "HueAPI",
@@ -537,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "runHue",
           "package": "HueAPI",
@@ -546,6 +595,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "runHue",
           "normalized": "String-\u003eString-\u003eHue a-\u003eIO a",
@@ -561,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "sat",
           "package": "HueAPI",
@@ -570,6 +621,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "sat",
           "package": "HueAPI",
@@ -582,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "state",
           "package": "HueAPI",
@@ -591,6 +644,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "state",
           "package": "HueAPI",
@@ -603,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "swversion",
           "package": "HueAPI",
@@ -612,6 +667,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "swversion",
           "package": "HueAPI",
@@ -624,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:26 UTC 2014",
           "module": "HueAPI",
           "name": "updateLight",
           "package": "HueAPI",
@@ -633,6 +690,7 @@
         },
         "index": {
           "hierarchy": "HueAPI",
+          "indexed": "2014-03-11T16:49:26",
           "module": "HueAPI",
           "name": "updateLight",
           "normalized": "Name-\u003eLightState-\u003eHue()",

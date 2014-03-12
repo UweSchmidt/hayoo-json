@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-links"
+        "phrase": "yesod-links",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:00 UTC 2014",
           "module": "Yesod.Links",
           "name": "Links",
           "package": "yesod-links",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Yesod Links",
+          "indexed": "2014-03-11T20:46:00",
           "module": "Yesod.Links",
           "name": "Links",
           "package": "yesod-links",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn internal route or external url\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:00 UTC 2014",
           "module": "Yesod.Links",
           "name": "Destination",
           "package": "yesod-links",
@@ -49,6 +52,7 @@
         "index": {
           "description": "An internal route or external url",
           "hierarchy": "Yesod Links",
+          "indexed": "2014-03-11T20:46:00",
           "module": "Yesod.Links",
           "name": "Destination",
           "package": "yesod-links",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny type can represent a link.\n\u003c/p\u003e\u003cpre\u003e instance IsLink MyAppRoute where\n     toLink RootR  = Link (Internal RootR)  \"go home\"         \"home\"\n     toLink AboutR = Link (Internal AboutR) \"about this site\" \"about\"\n     ...\n\n getRootR :: Handler RepHtml\n getRootR = defaultLayout $ do\n     [hamlet|\n\n         be sure to visit our ^{link AboutR} page.\n\n         |]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:46:00 UTC 2014",
           "module": "Yesod.Links",
           "name": "IsLink",
           "package": "yesod-links",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Any type can represent link instance IsLink MyAppRoute where toLink RootR Link Internal RootR go home home toLink AboutR Link Internal AboutR about this site about getRootR Handler RepHtml getRootR defaultLayout do hamlet be sure to visit our link AboutR page",
           "hierarchy": "Yesod Links",
+          "indexed": "2014-03-11T20:46:00",
           "module": "Yesod.Links",
           "name": "IsLink",
           "package": "yesod-links",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA link to a \u003ccode\u003e\u003ca\u003eDestination\u003c/a\u003e\u003c/code\u003e with supplied titles and text to be used \n   when showing the html.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:00 UTC 2014",
           "module": "Yesod.Links",
           "name": "Link",
           "package": "yesod-links",
@@ -95,6 +102,7 @@
         "index": {
           "description": "link to Destination with supplied titles and text to be used when showing the html",
           "hierarchy": "Yesod Links",
+          "indexed": "2014-03-11T20:46:00",
           "module": "Yesod.Links",
           "name": "Link",
           "package": "yesod-links",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type family class used to generalize widgets printing routes that \n   are internal to your site\n\u003c/p\u003e\u003cpre\u003e instance YesodLinked MySite where\n     type Linked = MySite\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:46:00 UTC 2014",
           "module": "Yesod.Links",
           "name": "YesodLinked",
           "package": "yesod-links",
@@ -118,6 +127,7 @@
         "index": {
           "description": "type family class used to generalize widgets printing routes that are internal to your site instance YesodLinked MySite where type Linked MySite",
           "hierarchy": "Yesod Links",
+          "indexed": "2014-03-11T20:46:00",
           "module": "Yesod.Links",
           "name": "YesodLinked",
           "package": "yesod-links",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:00 UTC 2014",
           "module": "Yesod.Links",
           "name": "External",
           "package": "yesod-links",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Yesod Links",
+          "indexed": "2014-03-11T20:46:00",
           "module": "Yesod.Links",
           "name": "External",
           "package": "yesod-links",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:00 UTC 2014",
           "module": "Yesod.Links",
           "name": "Internal",
           "package": "yesod-links",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Yesod Links",
+          "indexed": "2014-03-11T20:46:00",
           "module": "Yesod.Links",
           "name": "Internal",
           "package": "yesod-links",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:00 UTC 2014",
           "module": "Yesod.Links",
           "name": "Link",
           "package": "yesod-links",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Yesod Links",
+          "indexed": "2014-03-11T20:46:00",
           "module": "Yesod.Links",
           "name": "Link",
           "package": "yesod-links",
@@ -198,6 +214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink to any \u003ccode\u003e\u003ccode\u003e\u003ca\u003eIsLink\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e type. This is simply \u003ccode\u003e\u003ccode\u003e\u003ca\u003elink'\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003etoLink\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:00 UTC 2014",
           "module": "Yesod.Links",
           "name": "link",
           "package": "yesod-links",
@@ -208,6 +225,7 @@
         "index": {
           "description": "Link to any IsLink type This is simply link toLink",
           "hierarchy": "Yesod Links",
+          "indexed": "2014-03-11T20:46:00",
           "module": "Yesod.Links",
           "name": "link",
           "normalized": "a-\u003eWidgetT Linked IO()",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink to a raw \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLink\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. Can be used even if your site is not an\n   instance of \u003ccode\u003e\u003ca\u003eYesodLinked\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:00 UTC 2014",
           "module": "Yesod.Links",
           "name": "link'",
           "package": "yesod-links",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Link to raw Link Can be used even if your site is not an instance of YesodLinked",
           "hierarchy": "Yesod Links",
+          "indexed": "2014-03-11T20:46:00",
           "module": "Yesod.Links",
           "name": "link'",
           "normalized": "Link a-\u003eWidgetT a IO()",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:00 UTC 2014",
           "module": "Yesod.Links",
           "name": "linkDest",
           "package": "yesod-links",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Yesod Links",
+          "indexed": "2014-03-11T20:46:00",
           "module": "Yesod.Links",
           "name": "linkDest",
           "package": "yesod-links",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:00 UTC 2014",
           "module": "Yesod.Links",
           "name": "linkText",
           "package": "yesod-links",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Yesod Links",
+          "indexed": "2014-03-11T20:46:00",
           "module": "Yesod.Links",
           "name": "linkText",
           "package": "yesod-links",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:00 UTC 2014",
           "module": "Yesod.Links",
           "name": "linkTitle",
           "package": "yesod-links",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Yesod Links",
+          "indexed": "2014-03-11T20:46:00",
           "module": "Yesod.Links",
           "name": "linkTitle",
           "package": "yesod-links",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:00 UTC 2014",
           "module": "Yesod.Links",
           "name": "toLink",
           "package": "yesod-links",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Yesod Links",
+          "indexed": "2014-03-11T20:46:00",
           "module": "Yesod.Links",
           "name": "toLink",
           "normalized": "a-\u003eLink Linked",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "webkitgtk3-javascriptcore"
+        "phrase": "webkitgtk3-javascriptcore",
+        "type": "phrase"
       },
       "type": "context"
     }

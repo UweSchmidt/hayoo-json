@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "c-io"
+        "phrase": "c-io",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFFI bindings to \u003ccode\u003eread(2)\u003c/code\u003e, \u003ccode\u003ewrite(2)\u003c/code\u003e, \u003ccode\u003eopen(2)\u003c/code\u003e, and \u003ccode\u003eclose(2)\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:23 UTC 2014",
           "module": "System.C.IO",
           "name": "IO",
           "package": "c-io",
@@ -28,6 +29,7 @@
         "index": {
           "description": "FFI bindings to read write open and close",
           "hierarchy": "System C IO",
+          "indexed": "2014-03-11T17:27:23",
           "module": "System.C.IO",
           "name": "IO",
           "package": "c-io",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:23 UTC 2014",
           "module": "System.C.IO",
           "name": "OFlag",
           "package": "c-io",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "System C IO",
+          "indexed": "2014-03-11T17:27:23",
           "module": "System.C.IO",
           "name": "OFlag",
           "package": "c-io",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:23 UTC 2014",
           "module": "System.C.IO",
           "name": "O_APPEND",
           "package": "c-io",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "System C IO",
+          "indexed": "2014-03-11T17:27:23",
           "module": "System.C.IO",
           "name": "O_APPEND",
           "package": "c-io",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:23 UTC 2014",
           "module": "System.C.IO",
           "name": "O_CREAT",
           "package": "c-io",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "System C IO",
+          "indexed": "2014-03-11T17:27:23",
           "module": "System.C.IO",
           "name": "O_CREAT",
           "package": "c-io",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:23 UTC 2014",
           "module": "System.C.IO",
           "name": "O_DSYNC",
           "package": "c-io",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "System C IO",
+          "indexed": "2014-03-11T17:27:23",
           "module": "System.C.IO",
           "name": "O_DSYNC",
           "package": "c-io",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:23 UTC 2014",
           "module": "System.C.IO",
           "name": "O_EXCL",
           "package": "c-io",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "System C IO",
+          "indexed": "2014-03-11T17:27:23",
           "module": "System.C.IO",
           "name": "O_EXCL",
           "package": "c-io",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:23 UTC 2014",
           "module": "System.C.IO",
           "name": "O_NOCTTY",
           "package": "c-io",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "System C IO",
+          "indexed": "2014-03-11T17:27:23",
           "module": "System.C.IO",
           "name": "O_NOCTTY",
           "package": "c-io",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:23 UTC 2014",
           "module": "System.C.IO",
           "name": "O_NONBLOCK",
           "package": "c-io",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "System C IO",
+          "indexed": "2014-03-11T17:27:23",
           "module": "System.C.IO",
           "name": "O_NONBLOCK",
           "package": "c-io",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:23 UTC 2014",
           "module": "System.C.IO",
           "name": "O_RDONLY",
           "package": "c-io",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "System C IO",
+          "indexed": "2014-03-11T17:27:23",
           "module": "System.C.IO",
           "name": "O_RDONLY",
           "package": "c-io",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:23 UTC 2014",
           "module": "System.C.IO",
           "name": "O_RDWR",
           "package": "c-io",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "System C IO",
+          "indexed": "2014-03-11T17:27:23",
           "module": "System.C.IO",
           "name": "O_RDWR",
           "package": "c-io",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:23 UTC 2014",
           "module": "System.C.IO",
           "name": "O_RSYNC",
           "package": "c-io",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "System C IO",
+          "indexed": "2014-03-11T17:27:23",
           "module": "System.C.IO",
           "name": "O_RSYNC",
           "package": "c-io",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:23 UTC 2014",
           "module": "System.C.IO",
           "name": "O_SYNC",
           "package": "c-io",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "System C IO",
+          "indexed": "2014-03-11T17:27:23",
           "module": "System.C.IO",
           "name": "O_SYNC",
           "package": "c-io",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:23 UTC 2014",
           "module": "System.C.IO",
           "name": "O_TRUNC",
           "package": "c-io",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "System C IO",
+          "indexed": "2014-03-11T17:27:23",
           "module": "System.C.IO",
           "name": "O_TRUNC",
           "package": "c-io",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:23 UTC 2014",
           "module": "System.C.IO",
           "name": "O_WRONLY",
           "package": "c-io",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "System C IO",
+          "indexed": "2014-03-11T17:27:23",
           "module": "System.C.IO",
           "name": "O_WRONLY",
           "package": "c-io",
@@ -327,6 +355,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eclose(2)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:27:23 UTC 2014",
           "module": "System.C.IO",
           "name": "cclose",
           "package": "c-io",
@@ -337,6 +366,7 @@
         "index": {
           "description": "close",
           "hierarchy": "System C IO",
+          "indexed": "2014-03-11T17:27:23",
           "module": "System.C.IO",
           "name": "cclose",
           "normalized": "Int-\u003eIO Bool",
@@ -352,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eopen(2)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:27:23 UTC 2014",
           "module": "System.C.IO",
           "name": "copen",
           "package": "c-io",
@@ -362,6 +393,7 @@
         "index": {
           "description": "open",
           "hierarchy": "System C IO",
+          "indexed": "2014-03-11T17:27:23",
           "module": "System.C.IO",
           "name": "copen",
           "normalized": "FilePath-\u003e[OFlag]-\u003eIO Int",
@@ -377,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eread(2)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:27:23 UTC 2014",
           "module": "System.C.IO",
           "name": "cread",
           "package": "c-io",
@@ -387,6 +420,7 @@
         "index": {
           "description": "read",
           "hierarchy": "System C IO",
+          "indexed": "2014-03-11T17:27:23",
           "module": "System.C.IO",
           "name": "cread",
           "normalized": "Int-\u003ePtr Word-\u003eInt-\u003eIO Int",
@@ -402,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ewrite(2)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:27:23 UTC 2014",
           "module": "System.C.IO",
           "name": "cwrite",
           "package": "c-io",
@@ -412,6 +447,7 @@
         "index": {
           "description": "write",
           "hierarchy": "System C IO",
+          "indexed": "2014-03-11T17:27:23",
           "module": "System.C.IO",
           "name": "cwrite",
           "normalized": "Int-\u003ePtr Word-\u003eInt-\u003eIO Int",
@@ -427,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBitwise \u003ccode\u003eor\u003c/code\u003e of the flags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:23 UTC 2014",
           "module": "System.C.IO",
           "name": "oflags",
           "package": "c-io",
@@ -437,6 +474,7 @@
         "index": {
           "description": "Bitwise or of the flags",
           "hierarchy": "System C IO",
+          "indexed": "2014-03-11T17:27:23",
           "module": "System.C.IO",
           "name": "oflags",
           "normalized": "[OFlag]-\u003eInt",

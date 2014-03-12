@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cereal-enumerator"
+        "phrase": "cereal-enumerator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:00 UTC 2014",
           "module": "Data.Serialize.Get.Enumerator",
           "name": "Enumerator",
           "package": "cereal-enumerator",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Serialize Get Enumerator",
+          "indexed": "2014-03-11T17:31:00",
           "module": "Data.Serialize.Get.Enumerator",
           "name": "Enumerator",
           "package": "cereal-enumerator",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:00 UTC 2014",
           "module": "Data.Serialize.Get.Enumerator",
           "name": "ParseError",
           "package": "cereal-enumerator",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Serialize Get Enumerator",
+          "indexed": "2014-03-11T17:31:00",
           "module": "Data.Serialize.Get.Enumerator",
           "name": "ParseError",
           "package": "cereal-enumerator",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:00 UTC 2014",
           "module": "Data.Serialize.Get.Enumerator",
           "name": "ParseError",
           "package": "cereal-enumerator",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Serialize Get Enumerator",
+          "indexed": "2014-03-11T17:31:00",
           "module": "Data.Serialize.Get.Enumerator",
           "name": "ParseError",
           "package": "cereal-enumerator",
@@ -83,6 +89,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eGet\u003c/a\u003e\u003c/code\u003e to an \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e. The resulting \u003ccode\u003e\u003ca\u003eIteratee\u003c/a\u003e\u003c/code\u003e may fail with a\n \u003ccode\u003e\u003ca\u003eParseError\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:00 UTC 2014",
           "module": "Data.Serialize.Get.Enumerator",
           "name": "iterGet",
           "package": "cereal-enumerator",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Convert Get to an Iteratee The resulting Iteratee may fail with ParseError",
           "hierarchy": "Data Serialize Get Enumerator",
+          "indexed": "2014-03-11T17:31:00",
           "module": "Data.Serialize.Get.Enumerator",
           "name": "iterGet",
           "normalized": "Get a-\u003eIteratee ByteString b a",

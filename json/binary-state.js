@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "binary-state"
+        "phrase": "binary-state",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "BinaryState",
           "package": "binary-state",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "BinaryState",
           "package": "binary-state",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "BinaryState",
           "package": "binary-state",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "BinaryState",
           "package": "binary-state",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "GetState",
           "package": "binary-state",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "GetState",
           "package": "binary-state",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "PutState",
           "package": "binary-state",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "PutState",
           "package": "binary-state",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "bytesRead",
           "package": "binary-state",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "bytesRead",
           "package": "binary-state",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "decodeFile",
           "package": "binary-state",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "decodeFile",
           "normalized": "FilePath-\u003ea-\u003eIO b",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "decodeFile'",
           "package": "binary-state",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "decodeFile'",
           "normalized": "FilePath-\u003ea-\u003eIO(b,a)",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "decodeS",
           "package": "binary-state",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "decodeS",
           "normalized": "a-\u003eByteString-\u003eb",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "decodeWith",
           "package": "binary-state",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "decodeWith",
           "normalized": "GetState a b-\u003ea-\u003eByteString-\u003eb",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "encodeFile",
           "package": "binary-state",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "encodeFile",
           "normalized": "FilePath-\u003ea-\u003eb-\u003eIO()",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "encodeS",
           "package": "binary-state",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "encodeS",
           "normalized": "a-\u003eb-\u003eByteString",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "encodeWith",
           "package": "binary-state",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "encodeWith",
           "normalized": "(a-\u003ePutState b())-\u003eb-\u003ea-\u003eByteString",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "get",
           "package": "binary-state",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "get",
           "package": "binary-state",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "getByte",
           "package": "binary-state",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "getByte",
           "package": "binary-state",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "getOffset",
           "package": "binary-state",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "getOffset",
           "package": "binary-state",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "getZ",
           "package": "binary-state",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "getZ",
           "package": "binary-state",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "isEmpty",
           "package": "binary-state",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "isEmpty",
           "package": "binary-state",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "liftOffset",
           "package": "binary-state",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "liftOffset",
           "normalized": "Integer-\u003e(a-\u003ePut)-\u003ea-\u003ePutState Integer()",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "put",
           "package": "binary-state",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "put",
           "normalized": "a-\u003ePutState b()",
@@ -445,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "putByte",
           "package": "binary-state",
@@ -454,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "putByte",
           "normalized": "Word-\u003ePutState Integer()",
@@ -469,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "putZ",
           "package": "binary-state",
@@ -478,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "putZ",
           "normalized": "a-\u003ePutState b()",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:08 UTC 2014",
           "module": "Data.BinaryState",
           "name": "skip",
           "package": "binary-state",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Data BinaryState",
+          "indexed": "2014-03-11T17:19:08",
           "module": "Data.BinaryState",
           "name": "skip",
           "normalized": "Int-\u003eGetState a()",

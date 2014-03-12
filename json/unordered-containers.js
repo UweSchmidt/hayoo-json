@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unordered-containers"
+        "phrase": "unordered-containers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA map from \u003cem\u003ehashable\u003c/em\u003e keys to values.  A map cannot contain\n duplicate keys; each key can map to at most one value.  A \u003ccode\u003e\u003ca\u003eHashMap\u003c/a\u003e\u003c/code\u003e\n makes no guarantees as to the order of its elements.\n\u003c/p\u003e\u003cp\u003eThe implementation is based on \u003cem\u003ehash array mapped tries\u003c/em\u003e.  A\n \u003ccode\u003e\u003ca\u003eHashMap\u003c/a\u003e\u003c/code\u003e is often faster than other tree-based set types,\n especially when key comparison is expensive, as in the case of\n strings.\n\u003c/p\u003e\u003cp\u003eMany operations have a average-case complexity of \u003cem\u003eO(log n)\u003c/em\u003e.  The\n implementation uses a large base (i.e. 16) so in practice these\n operations are constant time.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Lazy",
           "name": "Lazy",
           "package": "unordered-containers",
@@ -28,6 +29,7 @@
         "index": {
           "description": "map from hashable keys to values map cannot contain duplicate keys each key can map to at most one value HashMap makes no guarantees as to the order of its elements The implementation is based on hash array mapped tries HashMap is often faster than other tree-based set types especially when key comparison is expensive as in the case of strings Many operations have average-case complexity of log The implementation uses large base i.e so in practice these operations are constant time",
           "hierarchy": "Data HashMap Lazy",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Lazy",
           "name": "Lazy",
           "package": "unordered-containers",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map from keys to values.  A map cannot contain duplicate keys;\n each key can map to at most one value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Lazy",
           "name": "HashMap",
           "package": "unordered-containers",
@@ -51,6 +54,7 @@
         "index": {
           "description": "map from keys to values map cannot contain duplicate keys each key can map to at most one value",
           "hierarchy": "Data HashMap Lazy",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Lazy",
           "name": "HashMap",
           "package": "unordered-containers",
@@ -91,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e Adjust the value tied to a given key in this map only\n if it is present. Otherwise, leave the map alone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Lazy",
           "name": "adjust",
           "package": "unordered-containers",
@@ -101,6 +106,7 @@
         "index": {
           "description": "log Adjust the value tied to given key in this map only if it is present Otherwise leave the map alone",
           "hierarchy": "Data HashMap Lazy",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Lazy",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eb-\u003eHashMap b a-\u003eHashMap b a",
@@ -377,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Construct a map with the supplied mappings.  If the list\n contains duplicate mappings, the later mappings take precedence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Lazy",
           "name": "fromList",
           "package": "unordered-containers",
@@ -387,6 +394,7 @@
         "index": {
           "description": "Construct map with the supplied mappings If the list contains duplicate mappings the later mappings take precedence",
           "hierarchy": "Data HashMap Lazy",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Lazy",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eHashMap a b",
@@ -403,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n*log n)\u003c/em\u003e Construct a map from a list of elements.  Uses\n the provided function to merge duplicate entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Lazy",
           "name": "fromListWith",
           "package": "unordered-containers",
@@ -413,6 +422,7 @@
         "index": {
           "description": "log Construct map from list of elements Uses the provided function to merge duplicate entries",
           "hierarchy": "Data HashMap Lazy",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Lazy",
           "name": "fromListWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(b,a)]-\u003eHashMap b a",
@@ -429,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e Associate the specified value with the specified\n key in this map.  If this map previously contained a mapping for\n the key, the old value is replaced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Lazy",
           "name": "insert",
           "package": "unordered-containers",
@@ -439,6 +450,7 @@
         "index": {
           "description": "log Associate the specified value with the specified key in this map If this map previously contained mapping for the key the old value is replaced",
           "hierarchy": "Data HashMap Lazy",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Lazy",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eHashMap a b-\u003eHashMap a b",
@@ -454,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e Associate the value with the key in this map.  If\n this map previously contained a mapping for the key, the old value\n is replaced by the result of applying the given function to the new\n and old value.  Example:\n\u003c/p\u003e\u003cpre\u003e insertWith f k v map\n   where f new old = new + old\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Lazy",
           "name": "insertWith",
           "package": "unordered-containers",
@@ -464,6 +477,7 @@
         "index": {
           "description": "log Associate the value with the key in this map If this map previously contained mapping for the key the old value is replaced by the result of applying the given function to the new and old value Example insertWith map where new old new old",
           "hierarchy": "Data HashMap Lazy",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Lazy",
           "name": "insertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb-\u003ea-\u003eHashMap b a-\u003eHashMap b a",
@@ -506,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e Intersection of two maps. If a key occurs in both maps\n the provided function is used to combine the values from the two\n maps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Lazy",
           "name": "intersectionWith",
           "package": "unordered-containers",
@@ -516,6 +531,7 @@
         "index": {
           "description": "Intersection of two maps If key occurs in both maps the provided function is used to combine the values from the two maps",
           "hierarchy": "Data HashMap Lazy",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Lazy",
           "name": "intersectionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eHashMap b a-\u003eHashMap b a-\u003eHashMap b a",
@@ -609,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Lazy",
           "name": "map",
           "package": "unordered-containers",
@@ -618,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Data HashMap Lazy",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Lazy",
           "name": "map",
           "normalized": "(a-\u003ea)-\u003eHashMap b a-\u003eHashMap b a",
@@ -685,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Construct a map with a single element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Lazy",
           "name": "singleton",
           "package": "unordered-containers",
@@ -695,6 +714,7 @@
         "index": {
           "description": "Construct map with single element",
           "hierarchy": "Data HashMap Lazy",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Lazy",
           "name": "singleton",
           "normalized": "a-\u003eb-\u003eHashMap a b",
@@ -816,6 +836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e The union of two maps.  If a key occurs in both maps,\n the provided function (first argument) will be used to compute the\n result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Lazy",
           "name": "unionWith",
           "package": "unordered-containers",
@@ -826,6 +847,7 @@
         "index": {
           "description": "The union of two maps If key occurs in both maps the provided function first argument will be used to compute the result",
           "hierarchy": "Data HashMap Lazy",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Lazy",
           "name": "unionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eHashMap b a-\u003eHashMap b a-\u003eHashMap b a",
@@ -868,6 +890,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA map from \u003cem\u003ehashable\u003c/em\u003e keys to values.  A map cannot contain\n duplicate keys; each key can map to at most one value.  A \u003ccode\u003e\u003ca\u003eHashMap\u003c/a\u003e\u003c/code\u003e\n makes no guarantees as to the order of its elements.\n\u003c/p\u003e\u003cp\u003eThe implementation is based on \u003cem\u003ehash array mapped tries\u003c/em\u003e.  A\n \u003ccode\u003e\u003ca\u003eHashMap\u003c/a\u003e\u003c/code\u003e is often faster than other tree-based set types,\n especially when key comparison is expensive, as in the case of\n strings.\n\u003c/p\u003e\u003cp\u003eMany operations have a average-case complexity of \u003cem\u003eO(log n)\u003c/em\u003e.  The\n implementation uses a large base (i.e. 16) so in practice these\n operations are constant time.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Strict",
           "name": "Strict",
           "package": "unordered-containers",
@@ -877,6 +900,7 @@
         "index": {
           "description": "map from hashable keys to values map cannot contain duplicate keys each key can map to at most one value HashMap makes no guarantees as to the order of its elements The implementation is based on hash array mapped tries HashMap is often faster than other tree-based set types especially when key comparison is expensive as in the case of strings Many operations have average-case complexity of log The implementation uses large base i.e so in practice these operations are constant time",
           "hierarchy": "Data HashMap Strict",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Strict",
           "name": "Strict",
           "package": "unordered-containers",
@@ -891,6 +915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map from keys to values.  A map cannot contain duplicate keys;\n each key can map to at most one value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Strict",
           "name": "HashMap",
           "package": "unordered-containers",
@@ -900,6 +925,7 @@
         "index": {
           "description": "map from keys to values map cannot contain duplicate keys each key can map to at most one value",
           "hierarchy": "Data HashMap Strict",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Strict",
           "name": "HashMap",
           "package": "unordered-containers",
@@ -914,6 +940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e Adjust the value tied to a given key in this map only\n if it is present. Otherwise, leave the map alone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Strict",
           "name": "adjust",
           "package": "unordered-containers",
@@ -924,6 +951,7 @@
         "index": {
           "description": "log Adjust the value tied to given key in this map only if it is present Otherwise leave the map alone",
           "hierarchy": "Data HashMap Strict",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Strict",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eb-\u003eHashMap b a-\u003eHashMap b a",
@@ -939,6 +967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n*log n)\u003c/em\u003e Construct a map with the supplied mappings.  If the\n list contains duplicate mappings, the later mappings take\n precedence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Strict",
           "name": "fromList",
           "package": "unordered-containers",
@@ -949,6 +978,7 @@
         "index": {
           "description": "log Construct map with the supplied mappings If the list contains duplicate mappings the later mappings take precedence",
           "hierarchy": "Data HashMap Strict",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Strict",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eHashMap a b",
@@ -965,6 +995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n*log n)\u003c/em\u003e Construct a map from a list of elements.  Uses\n the provided function to merge duplicate entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Strict",
           "name": "fromListWith",
           "package": "unordered-containers",
@@ -975,6 +1006,7 @@
         "index": {
           "description": "log Construct map from list of elements Uses the provided function to merge duplicate entries",
           "hierarchy": "Data HashMap Strict",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Strict",
           "name": "fromListWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(b,a)]-\u003eHashMap b a",
@@ -991,6 +1023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e Associate the specified value with the specified\n key in this map.  If this map previously contained a mapping for\n the key, the old value is replaced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Strict",
           "name": "insert",
           "package": "unordered-containers",
@@ -1001,6 +1034,7 @@
         "index": {
           "description": "log Associate the specified value with the specified key in this map If this map previously contained mapping for the key the old value is replaced",
           "hierarchy": "Data HashMap Strict",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Strict",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eHashMap a b-\u003eHashMap a b",
@@ -1016,6 +1050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log n)\u003c/em\u003e Associate the value with the key in this map.  If\n this map previously contained a mapping for the key, the old value\n is replaced by the result of applying the given function to the new\n and old value.  Example:\n\u003c/p\u003e\u003cpre\u003e insertWith f k v map\n   where f new old = new + old\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Strict",
           "name": "insertWith",
           "package": "unordered-containers",
@@ -1026,6 +1061,7 @@
         "index": {
           "description": "log Associate the value with the key in this map If this map previously contained mapping for the key the old value is replaced by the result of applying the given function to the new and old value Example insertWith map where new old new old",
           "hierarchy": "Data HashMap Strict",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Strict",
           "name": "insertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb-\u003ea-\u003eHashMap b a-\u003eHashMap b a",
@@ -1042,6 +1078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e Intersection of two maps. If a key occurs in both maps\n the provided function is used to combine the values from the two\n maps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Strict",
           "name": "intersectionWith",
           "package": "unordered-containers",
@@ -1052,6 +1089,7 @@
         "index": {
           "description": "Intersection of two maps If key occurs in both maps the provided function is used to combine the values from the two maps",
           "hierarchy": "Data HashMap Strict",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Strict",
           "name": "intersectionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eHashMap b a-\u003eHashMap b a-\u003eHashMap b a",
@@ -1067,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Strict",
           "name": "map",
           "package": "unordered-containers",
@@ -1076,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Data HashMap Strict",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Strict",
           "name": "map",
           "normalized": "(a-\u003ea)-\u003eHashMap b a-\u003eHashMap b a",
@@ -1091,6 +1131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Construct a map with a single element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Strict",
           "name": "singleton",
           "package": "unordered-containers",
@@ -1101,6 +1142,7 @@
         "index": {
           "description": "Construct map with single element",
           "hierarchy": "Data HashMap Strict",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Strict",
           "name": "singleton",
           "normalized": "a-\u003eb-\u003eHashMap a b",
@@ -1116,6 +1158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e The union of two maps.  If a key occurs in both maps,\n the provided function (first argument) will be used to compute the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashMap.Strict",
           "name": "unionWith",
           "package": "unordered-containers",
@@ -1126,6 +1169,7 @@
         "index": {
           "description": "The union of two maps If key occurs in both maps the provided function first argument will be used to compute the result",
           "hierarchy": "Data HashMap Strict",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashMap.Strict",
           "name": "unionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eHashMap b a-\u003eHashMap b a-\u003eHashMap b a",
@@ -1142,6 +1186,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA set of \u003cem\u003ehashable\u003c/em\u003e values.  A set cannot contain duplicate items.\n A \u003ccode\u003e\u003ca\u003eHashSet\u003c/a\u003e\u003c/code\u003e makes no guarantees as to the order of its elements.\n\u003c/p\u003e\u003cp\u003eThe implementation is based on \u003cem\u003ehash array mapped trie\u003c/em\u003e.  A\n \u003ccode\u003e\u003ca\u003eHashSet\u003c/a\u003e\u003c/code\u003e is often faster than other tree-based set types,\n especially when value comparison is expensive, as in the case of\n strings.\n\u003c/p\u003e\u003cp\u003eMany operations have a average-case complexity of \u003cem\u003eO(log n)\u003c/em\u003e.  The\n implementation uses a large base (i.e. 16) so in practice these\n operations are constant time.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashSet",
           "name": "HashSet",
           "package": "unordered-containers",
@@ -1151,6 +1196,7 @@
         "index": {
           "description": "set of hashable values set cannot contain duplicate items HashSet makes no guarantees as to the order of its elements The implementation is based on hash array mapped trie HashSet is often faster than other tree-based set types especially when value comparison is expensive as in the case of strings Many operations have average-case complexity of log The implementation uses large base i.e so in practice these operations are constant time",
           "hierarchy": "Data HashSet",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashSet",
           "name": "HashSet",
           "package": "unordered-containers",
@@ -1165,6 +1211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of values.  A set cannot contain duplicate values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashSet",
           "name": "HashSet",
           "package": "unordered-containers",
@@ -1174,6 +1221,7 @@
         "index": {
           "description": "set of values set cannot contain duplicate values",
           "hierarchy": "Data HashSet",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashSet",
           "name": "HashSet",
           "package": "unordered-containers",
@@ -1188,6 +1236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(min(n,W))\u003c/em\u003e Remove the specified value from this set if\n present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashSet",
           "name": "delete",
           "package": "unordered-containers",
@@ -1198,6 +1247,7 @@
         "index": {
           "description": "min Remove the specified value from this set if present",
           "hierarchy": "Data HashSet",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashSet",
           "name": "delete",
           "normalized": "a-\u003eHashSet a-\u003eHashSet a",
@@ -1213,6 +1263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Difference of two sets. Return elements of the first set\n not existing in the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashSet",
           "name": "difference",
           "package": "unordered-containers",
@@ -1223,6 +1274,7 @@
         "index": {
           "description": "Difference of two sets Return elements of the first set not existing in the second",
           "hierarchy": "Data HashSet",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashSet",
           "name": "difference",
           "normalized": "HashSet a-\u003eHashSet a-\u003eHashSet a",
@@ -1238,6 +1290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Construct an empty set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashSet",
           "name": "empty",
           "package": "unordered-containers",
@@ -1248,6 +1301,7 @@
         "index": {
           "description": "Construct an empty set",
           "hierarchy": "Data HashSet",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashSet",
           "name": "empty",
           "package": "unordered-containers",
@@ -1261,6 +1315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Filter this set by retaining only elements satisfying a\n predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashSet",
           "name": "filter",
           "package": "unordered-containers",
@@ -1271,6 +1326,7 @@
         "index": {
           "description": "Filter this set by retaining only elements satisfying predicate",
           "hierarchy": "Data HashSet",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashSet",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eHashSet a-\u003eHashSet a",
@@ -1286,6 +1342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Reduce this set by applying a binary operator to all\n elements, using the given starting value (typically the\n left-identity of the operator).  Each application of the operator\n is evaluated before before using the result in the next\n application.  This function is strict in the starting value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashSet",
           "name": "foldl'",
           "package": "unordered-containers",
@@ -1296,6 +1353,7 @@
         "index": {
           "description": "Reduce this set by applying binary operator to all elements using the given starting value typically the left-identity of the operator Each application of the operator is evaluated before before using the result in the next application This function is strict in the starting value",
           "hierarchy": "Data HashSet",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashSet",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eHashSet b-\u003ea",
@@ -1311,6 +1369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Reduce this set by applying a binary operator to all\n elements, using the given starting value (typically the\n right-identity of the operator).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashSet",
           "name": "foldr",
           "package": "unordered-containers",
@@ -1321,6 +1380,7 @@
         "index": {
           "description": "Reduce this set by applying binary operator to all elements using the given starting value typically the right-identity of the operator",
           "hierarchy": "Data HashSet",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashSet",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eHashSet a-\u003eb",
@@ -1336,6 +1396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n*min(W, n))\u003c/em\u003e Construct a set from a list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashSet",
           "name": "fromList",
           "package": "unordered-containers",
@@ -1346,6 +1407,7 @@
         "index": {
           "description": "min Construct set from list of elements",
           "hierarchy": "Data HashSet",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashSet",
           "name": "fromList",
           "normalized": "[a]-\u003eHashSet a",
@@ -1362,6 +1424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(min(n,W))\u003c/em\u003e Add the specified value to this set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashSet",
           "name": "insert",
           "package": "unordered-containers",
@@ -1372,6 +1435,7 @@
         "index": {
           "description": "min Add the specified value to this set",
           "hierarchy": "Data HashSet",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashSet",
           "name": "insert",
           "normalized": "a-\u003eHashSet a-\u003eHashSet a",
@@ -1387,6 +1451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Intersection of two sets. Return elements present in both\n the first set and the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashSet",
           "name": "intersection",
           "package": "unordered-containers",
@@ -1397,6 +1462,7 @@
         "index": {
           "description": "Intersection of two sets Return elements present in both the first set and the second",
           "hierarchy": "Data HashSet",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashSet",
           "name": "intersection",
           "normalized": "HashSet a-\u003eHashSet a-\u003eHashSet a",
@@ -1412,6 +1478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Transform this set by applying a function to every value.\n The resulting set may be smaller than the source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashSet",
           "name": "map",
           "package": "unordered-containers",
@@ -1422,6 +1489,7 @@
         "index": {
           "description": "Transform this set by applying function to every value The resulting set may be smaller than the source",
           "hierarchy": "Data HashSet",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashSet",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eHashSet a-\u003eHashSet b",
@@ -1437,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(min(n,W))\u003c/em\u003e Return \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the given value is present in this\n set, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashSet",
           "name": "member",
           "package": "unordered-containers",
@@ -1447,6 +1516,7 @@
         "index": {
           "description": "min Return True if the given value is present in this set False otherwise",
           "hierarchy": "Data HashSet",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashSet",
           "name": "member",
           "normalized": "a-\u003eHashSet a-\u003eBool",
@@ -1462,6 +1532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Return \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if this set is empty, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashSet",
           "name": "null",
           "package": "unordered-containers",
@@ -1472,6 +1543,7 @@
         "index": {
           "description": "Return True if this set is empty False otherwise",
           "hierarchy": "Data HashSet",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashSet",
           "name": "null",
           "normalized": "HashSet a-\u003eBool",
@@ -1487,6 +1559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Construct a set with a single element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashSet",
           "name": "singleton",
           "package": "unordered-containers",
@@ -1497,6 +1570,7 @@
         "index": {
           "description": "Construct set with single element",
           "hierarchy": "Data HashSet",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashSet",
           "name": "singleton",
           "normalized": "a-\u003eHashSet a",
@@ -1512,6 +1586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Return the number of elements in this set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashSet",
           "name": "size",
           "package": "unordered-containers",
@@ -1522,6 +1597,7 @@
         "index": {
           "description": "Return the number of elements in this set",
           "hierarchy": "Data HashSet",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashSet",
           "name": "size",
           "normalized": "HashSet a-\u003eInt",
@@ -1537,6 +1613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Return a list of this set's elements.  The list is\n produced lazily.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashSet",
           "name": "toList",
           "package": "unordered-containers",
@@ -1547,6 +1624,7 @@
         "index": {
           "description": "Return list of this set elements The list is produced lazily",
           "hierarchy": "Data HashSet",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashSet",
           "name": "toList",
           "normalized": "HashSet a-\u003e[a]",
@@ -1563,6 +1641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e Construct a set containing all elements from both sets.\n\u003c/p\u003e\u003cp\u003eTo obtain good performance, the smaller set must be presented as\n the first argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashSet",
           "name": "union",
           "package": "unordered-containers",
@@ -1573,6 +1652,7 @@
         "index": {
           "description": "Construct set containing all elements from both sets To obtain good performance the smaller set must be presented as the first argument",
           "hierarchy": "Data HashSet",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashSet",
           "name": "union",
           "normalized": "HashSet a-\u003eHashSet a-\u003eHashSet a",
@@ -1588,6 +1668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a set containing all elements from a list of sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:57 UTC 2014",
           "module": "Data.HashSet",
           "name": "unions",
           "package": "unordered-containers",
@@ -1598,6 +1679,7 @@
         "index": {
           "description": "Construct set containing all elements from list of sets",
           "hierarchy": "Data HashSet",
+          "indexed": "2014-03-11T20:30:57",
           "module": "Data.HashSet",
           "name": "unions",
           "normalized": "[HashSet a]-\u003eHashSet a",

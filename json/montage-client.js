@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "montage-client"
+        "phrase": "montage-client",
+        "type": "phrase"
       },
       "type": "context"
     }

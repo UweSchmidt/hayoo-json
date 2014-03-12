@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lzma-conduit"
+        "phrase": "lzma-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }

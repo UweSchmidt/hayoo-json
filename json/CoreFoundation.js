@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "CoreFoundation"
+        "phrase": "CoreFoundation",
+        "type": "phrase"
       },
       "type": "context"
     }

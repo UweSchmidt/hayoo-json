@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rosezipper"
+        "phrase": "rosezipper",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "Zipper",
           "package": "rosezipper",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "Zipper",
           "package": "rosezipper",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition which does not point to a tree (e.g., it is between two trees).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "Empty",
           "package": "rosezipper",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Position which does not point to tree e.g it is between two trees",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "Empty",
           "package": "rosezipper",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition which points to a tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "Full",
           "package": "rosezipper",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Position which points to tree",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "Full",
           "package": "rosezipper",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePositions may be either \u003ccode\u003e\u003ca\u003eFull\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eEmpty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "PosType",
           "package": "rosezipper",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Positions may be either Full or Empty",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "PosType",
           "package": "rosezipper",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA position within a \u003ccode\u003e\u003ca\u003eTree\u003c/a\u003e\u003c/code\u003e.\n The parameter \u003ccode\u003et\u003c/code\u003e inidcates if the position is pointing to\n a specific tree (if \u003ccode\u003et\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eFull\u003c/a\u003e\u003c/code\u003e), or if it is pointing in-between\n trees (if \u003ccode\u003et\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eEmpty\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "TreePos",
           "package": "rosezipper",
@@ -118,6 +127,7 @@
         "index": {
           "description": "position within Tree The parameter inidcates if the position is pointing to specific tree if is Full or if it is pointing in-between trees if is Empty",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "TreePos",
           "package": "rosezipper",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSiblings after this position, closest first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "after",
           "package": "rosezipper",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Siblings after this position closest first",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "after",
           "normalized": "TreePos a b-\u003eForest b",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSiblings before this position, closest first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "before",
           "package": "rosezipper",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Siblings before this position closest first",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "before",
           "normalized": "TreePos a b-\u003eForest b",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe child at the given index in the tree.\n The first child is at index 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "childAt",
           "package": "rosezipper",
@@ -192,6 +207,7 @@
         "index": {
           "description": "The child at the given index in the tree The first child is at index",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "childAt",
           "normalized": "Int-\u003eTreePos Full a-\u003eMaybe(TreePos Full a)",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe location at the beginning of the forest of children.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "children",
           "package": "rosezipper",
@@ -218,6 +235,7 @@
         "index": {
           "description": "The location at the beginning of the forest of children",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "children",
           "normalized": "TreePos Full a-\u003eTreePos Empty a",
@@ -233,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the tree at the current position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "delete",
           "package": "rosezipper",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Remove the tree at the current position",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "delete",
           "normalized": "TreePos Full a-\u003eTreePos Empty a",
@@ -258,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first space in the current forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "first",
           "package": "rosezipper",
@@ -268,6 +289,7 @@
         "index": {
           "description": "The first space in the current forest",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "first",
           "normalized": "TreePos Empty a-\u003eTreePos Empty a",
@@ -283,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first child of the given location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "firstChild",
           "package": "rosezipper",
@@ -293,6 +316,7 @@
         "index": {
           "description": "The first child of the given location",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "firstChild",
           "normalized": "TreePos Full a-\u003eMaybe(TreePos Full a)",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll trees at this location\n (i.e., the current tree---if any---and its siblings).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "forest",
           "package": "rosezipper",
@@ -319,6 +344,7 @@
         "index": {
           "description": "All trees at this location i.e the current tree---if any---and its siblings",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "forest",
           "normalized": "TreePos a b-\u003eForest b",
@@ -334,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe location at the beginning of the forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "fromForest",
           "package": "rosezipper",
@@ -344,6 +371,7 @@
         "index": {
           "description": "The location at the beginning of the forest",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "fromForest",
           "normalized": "Forest a-\u003eTreePos Empty a",
@@ -360,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA location corresponding to the root of the given tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "fromTree",
           "package": "rosezipper",
@@ -370,6 +399,7 @@
         "index": {
           "description": "location corresponding to the root of the given tree",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "fromTree",
           "normalized": "Tree a-\u003eTreePos Full a",
@@ -386,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo we have children?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "hasChildren",
           "package": "rosezipper",
@@ -396,6 +427,7 @@
         "index": {
           "description": "Do we have children",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "hasChildren",
           "normalized": "TreePos Full a-\u003eBool",
@@ -412,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a new tree at the current position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "insert",
           "package": "rosezipper",
@@ -422,6 +455,7 @@
         "index": {
           "description": "Insert new tree at the current position",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "insert",
           "normalized": "Tree a-\u003eTreePos Empty a-\u003eTreePos Full a",
@@ -437,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo we have a parent?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "isContained",
           "package": "rosezipper",
@@ -447,6 +482,7 @@
         "index": {
           "description": "Do we have parent",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "isContained",
           "normalized": "TreePos a b-\u003eBool",
@@ -463,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre we the first position (of its kind) in a forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "isFirst",
           "package": "rosezipper",
@@ -473,6 +510,7 @@
         "index": {
           "description": "Are we the first position of its kind in forest",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "isFirst",
           "normalized": "TreePos a b-\u003eBool",
@@ -489,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre we the last position (of its kind) in a forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "isLast",
           "package": "rosezipper",
@@ -499,6 +538,7 @@
         "index": {
           "description": "Are we the last position of its kind in forest",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "isLast",
           "normalized": "TreePos a b-\u003eBool",
@@ -515,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre we at the bottom of the tree?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "isLeaf",
           "package": "rosezipper",
@@ -525,6 +566,7 @@
         "index": {
           "description": "Are we at the bottom of the tree",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "isLeaf",
           "normalized": "TreePos Full a-\u003eBool",
@@ -541,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre we at the top of the tree?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "isRoot",
           "package": "rosezipper",
@@ -551,6 +594,7 @@
         "index": {
           "description": "Are we at the top of the tree",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "isRoot",
           "normalized": "TreePos a b-\u003eBool",
@@ -567,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "label",
           "package": "rosezipper",
@@ -577,6 +622,7 @@
         "index": {
           "description": "The current label",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "label",
           "normalized": "TreePos Full a-\u003ea",
@@ -592,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe last space in the current forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "last",
           "package": "rosezipper",
@@ -602,6 +649,7 @@
         "index": {
           "description": "The last space in the current forest",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "last",
           "normalized": "TreePos Empty a-\u003eTreePos Empty a",
@@ -617,6 +665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe last child of the given location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "lastChild",
           "package": "rosezipper",
@@ -627,6 +676,7 @@
         "index": {
           "description": "The last child of the given location",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "lastChild",
           "normalized": "TreePos Full a-\u003eMaybe(TreePos Full a)",
@@ -643,6 +693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the label at the current node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "modifyLabel",
           "package": "rosezipper",
@@ -653,6 +704,7 @@
         "index": {
           "description": "Modify the label at the current node",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "modifyLabel",
           "normalized": "(a-\u003ea)-\u003eTreePos Full a-\u003eTreePos Full a",
@@ -669,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the current tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "modifyTree",
           "package": "rosezipper",
@@ -679,6 +732,7 @@
         "index": {
           "description": "Modify the current tree",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "modifyTree",
           "normalized": "(Tree a-\u003eTree a)-\u003eTreePos Full a-\u003eTreePos Full a",
@@ -695,6 +749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sibling after this location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "next",
           "package": "rosezipper",
@@ -705,6 +760,7 @@
         "index": {
           "description": "The sibling after this location",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "next",
           "normalized": "TreePos a b-\u003eMaybe(TreePos a b)",
@@ -720,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe space immediately after this location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "nextSpace",
           "package": "rosezipper",
@@ -730,6 +787,7 @@
         "index": {
           "description": "The space immediately after this location",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "nextSpace",
           "normalized": "TreePos Full a-\u003eTreePos Empty a",
@@ -746,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tree after this location, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "nextTree",
           "package": "rosezipper",
@@ -756,6 +815,7 @@
         "index": {
           "description": "The tree after this location if any",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "nextTree",
           "normalized": "TreePos Empty a-\u003eMaybe(TreePos Full a)",
@@ -772,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parent of the given location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "parent",
           "package": "rosezipper",
@@ -782,6 +843,7 @@
         "index": {
           "description": "The parent of the given location",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "parent",
           "normalized": "TreePos a b-\u003eMaybe(TreePos Full b)",
@@ -797,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe contexts of the parents for this position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "parents",
           "package": "rosezipper",
@@ -807,6 +870,7 @@
         "index": {
           "description": "The contexts of the parents for this position",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "parents",
           "normalized": "TreePos a b-\u003e[(Forest b,b,Forest b)]",
@@ -822,6 +886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sibling before this location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "prev",
           "package": "rosezipper",
@@ -832,6 +897,7 @@
         "index": {
           "description": "The sibling before this location",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "prev",
           "normalized": "TreePos a b-\u003eMaybe(TreePos a b)",
@@ -847,6 +913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe space immediately before this location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "prevSpace",
           "package": "rosezipper",
@@ -857,6 +924,7 @@
         "index": {
           "description": "The space immediately before this location",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "prevSpace",
           "normalized": "TreePos Full a-\u003eTreePos Empty a",
@@ -873,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tree before this location, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "prevTree",
           "package": "rosezipper",
@@ -883,6 +952,7 @@
         "index": {
           "description": "The tree before this location if any",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "prevTree",
           "normalized": "TreePos Empty a-\u003eMaybe(TreePos Full a)",
@@ -899,6 +969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe top-most parent of the given location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "root",
           "package": "rosezipper",
@@ -909,6 +980,7 @@
         "index": {
           "description": "The top-most parent of the given location",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "root",
           "normalized": "TreePos Full a-\u003eTreePos Full a",
@@ -924,6 +996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the label at the current node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "setLabel",
           "package": "rosezipper",
@@ -934,6 +1007,7 @@
         "index": {
           "description": "Change the label at the current node",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "setLabel",
           "normalized": "a-\u003eTreePos Full a-\u003eTreePos Full a",
@@ -950,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the current tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "setTree",
           "package": "rosezipper",
@@ -960,6 +1035,7 @@
         "index": {
           "description": "Change the current tree",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "setTree",
           "normalized": "Tree a-\u003eTreePos Full a-\u003eTreePos Full a",
@@ -976,6 +1052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty space at the given index.  The first space is at index 0.\n For indexes that are negative or too large, we return the first and last\n position in the tree, respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "spaceAt",
           "package": "rosezipper",
@@ -986,6 +1063,7 @@
         "index": {
           "description": "The empty space at the given index The first space is at index For indexes that are negative or too large we return the first and last position in the tree respectively",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "spaceAt",
           "normalized": "Int-\u003eTreePos Empty a-\u003eTreePos Empty a",
@@ -1002,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe forest containing this location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "toForest",
           "package": "rosezipper",
@@ -1012,6 +1091,7 @@
         "index": {
           "description": "The forest containing this location",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "toForest",
           "normalized": "TreePos a b-\u003eForest b",
@@ -1028,6 +1108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tree containing this location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "toTree",
           "package": "rosezipper",
@@ -1038,6 +1119,7 @@
         "index": {
           "description": "The tree containing this location",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "toTree",
           "normalized": "TreePos Full a-\u003eTree a",
@@ -1054,6 +1136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe selected tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:08 UTC 2014",
           "module": "Data.Tree.Zipper",
           "name": "tree",
           "package": "rosezipper",
@@ -1064,6 +1147,7 @@
         "index": {
           "description": "The selected tree",
           "hierarchy": "Data Tree Zipper",
+          "indexed": "2014-03-11T19:55:08",
           "module": "Data.Tree.Zipper",
           "name": "tree",
           "normalized": "TreePos Full a-\u003eTree a",

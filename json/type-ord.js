@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "type-ord"
+        "phrase": "type-ord",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level comparison operator, its result \"kind\", and that kind's case\nexpression.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:49 UTC 2014",
           "module": "Type.Ord.Base",
           "name": "Base",
           "package": "type-ord",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Type-level comparison operator its result kind and that kind case expression",
           "hierarchy": "Type Ord Base",
+          "indexed": "2014-03-11T20:27:49",
           "module": "Type.Ord.Base",
           "name": "Base",
           "package": "type-ord",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-level comparison.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:49 UTC 2014",
           "module": "Type.Ord.Base",
           "name": "Compare",
           "package": "type-ord",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Type-level comparison",
           "hierarchy": "Type Ord Base",
+          "indexed": "2014-03-11T20:27:49",
           "module": "Type.Ord.Base",
           "name": "Compare",
           "package": "type-ord",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:49 UTC 2014",
           "module": "Type.Ord.Base",
           "name": "IsEQ",
           "package": "type-ord",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Type Ord Base",
+          "indexed": "2014-03-11T20:27:49",
           "module": "Type.Ord.Base",
           "name": "IsEQ",
           "package": "type-ord",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:49 UTC 2014",
           "module": "Type.Ord.Base",
           "name": "IsGT",
           "package": "type-ord",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Type Ord Base",
+          "indexed": "2014-03-11T20:27:49",
           "module": "Type.Ord.Base",
           "name": "IsGT",
           "package": "type-ord",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:49 UTC 2014",
           "module": "Type.Ord.Base",
           "name": "IsLT",
           "package": "type-ord",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Type Ord Base",
+          "indexed": "2014-03-11T20:27:49",
           "module": "Type.Ord.Base",
           "name": "IsLT",
           "package": "type-ord",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eOrdCase x a b c\u003c/code\u003e reduces to \u003ccode\u003ea\u003c/code\u003e, \u003ccode\u003eb\u003c/code\u003e, or \u003ccode\u003ec\u003c/code\u003e, if \u003ccode\u003ex\u003c/code\u003e is \u003ccode\u003eLT\u003c/code\u003e, \u003ccode\u003eEQ\u003c/code\u003e, or\n \u003ccode\u003eGT\u003c/code\u003e, respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:49 UTC 2014",
           "module": "Type.Ord.Base",
           "name": "OrdCase",
           "package": "type-ord",
@@ -137,6 +148,7 @@
         "index": {
           "description": "OrdCase reduces to or if is LT EQ or GT respectively",
           "hierarchy": "Type Ord Base",
+          "indexed": "2014-03-11T20:27:49",
           "module": "Type.Ord.Base",
           "name": "OrdCase",
           "package": "type-ord",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level comparison operator, its result \"kind\", and that kind's case\nexpression. Plus instances for \u003ccode\u003e()\u003c/code\u003e-terminated \u003ccode\u003etype-digits\u003c/code\u003e numerals.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:49 UTC 2014",
           "module": "Type.Ord",
           "name": "Ord",
           "package": "type-ord",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Type-level comparison operator its result kind and that kind case expression Plus instances for terminated type-digits numerals",
           "hierarchy": "Type Ord",
+          "indexed": "2014-03-11T20:27:49",
           "module": "Type.Ord",
           "name": "Ord",
           "package": "type-ord",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wraxml"
+        "phrase": "wraxml",
+        "type": "phrase"
       },
       "type": "context"
     }

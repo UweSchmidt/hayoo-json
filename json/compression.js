@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "compression"
+        "phrase": "compression",
+        "type": "phrase"
       },
       "type": "context"
     }

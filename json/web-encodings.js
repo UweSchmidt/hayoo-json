@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "web-encodings"
+        "phrase": "web-encodings",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.ListHelper",
           "name": "ListHelper",
           "package": "web-encodings",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings ListHelper",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.ListHelper",
           "name": "ListHelper",
           "package": "web-encodings",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.ListHelper",
           "name": "cons",
           "package": "web-encodings",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings ListHelper",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.ListHelper",
           "name": "cons",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for parsing MIME headers (Key: value; k1=v1; k2=v2)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.MimeHeader",
           "name": "MimeHeader",
           "package": "web-encodings",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Functions for parsing MIME headers Key value k1 v1 k2 v2",
           "hierarchy": "Web Encodings MimeHeader",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.MimeHeader",
           "name": "MimeHeader",
           "package": "web-encodings",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.MimeHeader",
           "name": "AttributeNotFound",
           "package": "web-encodings",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings MimeHeader",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.MimeHeader",
           "name": "AttributeNotFound",
           "package": "web-encodings",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single MIME header.\ntype Header = (B8.ByteString, B8.ByteString, BSMap)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.MimeHeader",
           "name": "Header",
           "package": "web-encodings",
@@ -116,6 +125,7 @@
         "index": {
           "description": "single MIME header type Header B8.ByteString B8.ByteString BSMap",
           "hierarchy": "Web Encodings MimeHeader",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.MimeHeader",
           "name": "Header",
           "package": "web-encodings",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.MimeHeader",
           "name": "HeaderNotFound",
           "package": "web-encodings",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings MimeHeader",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.MimeHeader",
           "name": "HeaderNotFound",
           "package": "web-encodings",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.MimeHeader",
           "name": "AttributeNotFound",
           "package": "web-encodings",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings MimeHeader",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.MimeHeader",
           "name": "AttributeNotFound",
           "package": "web-encodings",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.MimeHeader",
           "name": "HeaderNotFound",
           "package": "web-encodings",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings MimeHeader",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.MimeHeader",
           "name": "HeaderNotFound",
           "package": "web-encodings",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.MimeHeader",
           "name": "lookupHeader",
           "package": "web-encodings",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings MimeHeader",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.MimeHeader",
           "name": "lookupHeader",
           "normalized": "a-\u003e[Header a]-\u003eb a",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.MimeHeader",
           "name": "lookupHeaderAttr",
           "package": "web-encodings",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings MimeHeader",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.MimeHeader",
           "name": "lookupHeaderAttr",
           "normalized": "a-\u003ea-\u003e[Header a]-\u003eb a",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a header line in the format:\n\u003c/p\u003e\u003cp\u003eName: value; attkey=attval; attkey2=attval2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.MimeHeader",
           "name": "parseHeader",
           "package": "web-encodings",
@@ -253,6 +274,7 @@
         "index": {
           "description": "Parse header line in the format Name value attkey attval attkey2 attval2",
           "hierarchy": "Web Encodings MimeHeader",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.MimeHeader",
           "name": "parseHeader",
           "normalized": "a-\u003eHeader a",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "StringLike",
           "package": "web-encodings",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "StringLike",
           "package": "web-encodings",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "StringLike",
           "package": "web-encodings",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "StringLike",
           "package": "web-encodings",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "append",
           "package": "web-encodings",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "append",
           "normalized": "a-\u003ea-\u003ea",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "break",
           "package": "web-encodings",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "break",
           "normalized": "(Char-\u003eBool)-\u003ea-\u003e(a,a)",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "breakChar",
           "package": "web-encodings",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "breakChar",
           "normalized": "Char-\u003ea-\u003e(a,a)",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "breakCharMaybe",
           "package": "web-encodings",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "breakCharMaybe",
           "normalized": "Char-\u003ea-\u003eMaybe(a,a)",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "breakChars",
           "package": "web-encodings",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "breakChars",
           "normalized": "[Char]-\u003ea-\u003e(a,a)",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "breakCharsMaybe",
           "package": "web-encodings",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "breakCharsMaybe",
           "normalized": "[Char]-\u003ea-\u003eMaybe(a,a)",
@@ -452,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "breakString",
           "package": "web-encodings",
@@ -461,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "breakString",
           "normalized": "a-\u003ea-\u003e(a,a)",
@@ -476,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "chomp",
           "package": "web-encodings",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "chomp",
           "normalized": "a-\u003ea",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "chompStart",
           "package": "web-encodings",
@@ -508,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "chompStart",
           "normalized": "a-\u003ea",
@@ -523,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "concatMap",
           "package": "web-encodings",
@@ -532,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "concatMap",
           "normalized": "(Char-\u003eString)-\u003ea-\u003ea",
@@ -548,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUTF8 encode each character before passing to concatMap, if\n appropriate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "concatMapUtf8",
           "package": "web-encodings",
@@ -558,6 +605,7 @@
         "index": {
           "description": "UTF8 encode each character before passing to concatMap if appropriate",
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "concatMapUtf8",
           "normalized": "(Char-\u003eString)-\u003ea-\u003ea",
@@ -573,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "cons",
           "package": "web-encodings",
@@ -582,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "cons",
           "normalized": "Char-\u003ea-\u003ea",
@@ -596,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "dropPrefix",
           "package": "web-encodings",
@@ -605,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "dropPrefix",
           "normalized": "a-\u003ea-\u003eMaybe a",
@@ -620,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "dropPrefix'",
           "package": "web-encodings",
@@ -629,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "dropPrefix'",
           "normalized": "a-\u003ea-\u003ea",
@@ -644,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "dropQuotes",
           "package": "web-encodings",
@@ -653,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "dropQuotes",
           "normalized": "a-\u003ea",
@@ -668,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "dropWhile",
           "package": "web-encodings",
@@ -677,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "dropWhile",
           "normalized": "(Char-\u003eBool)-\u003ea-\u003ea",
@@ -692,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "empty",
           "package": "web-encodings",
@@ -701,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "empty",
           "package": "web-encodings",
@@ -713,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "head",
           "package": "web-encodings",
@@ -722,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "head",
           "normalized": "a-\u003eChar",
@@ -736,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "init",
           "package": "web-encodings",
@@ -745,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "init",
           "normalized": "a-\u003ea",
@@ -759,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "intercalate",
           "package": "web-encodings",
@@ -768,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "intercalate",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -782,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "isPrefixOf",
           "package": "web-encodings",
@@ -791,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "isPrefixOf",
           "normalized": "a-\u003ea-\u003eBool",
@@ -806,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "last",
           "package": "web-encodings",
@@ -815,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "last",
           "normalized": "a-\u003eChar",
@@ -829,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "lengthGE",
           "package": "web-encodings",
@@ -838,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "lengthGE",
           "normalized": "Int-\u003ea-\u003eBool",
@@ -853,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "lengthLT",
           "package": "web-encodings",
@@ -862,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "lengthLT",
           "normalized": "Int-\u003ea-\u003eBool",
@@ -877,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "null",
           "package": "web-encodings",
@@ -886,6 +961,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "null",
           "normalized": "a-\u003eBool",
@@ -900,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "pack",
           "package": "web-encodings",
@@ -909,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "pack",
           "normalized": "String-\u003ea",
@@ -923,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "packUtf8",
           "package": "web-encodings",
@@ -932,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "packUtf8",
           "normalized": "String-\u003ea",
@@ -947,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "span",
           "package": "web-encodings",
@@ -956,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "span",
           "normalized": "(Char-\u003eBool)-\u003ea-\u003e(a,a)",
@@ -970,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "split",
           "package": "web-encodings",
@@ -979,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "split",
           "normalized": "Char-\u003ea-\u003e[a]",
@@ -993,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "splitOneOf",
           "package": "web-encodings",
@@ -1002,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "splitOneOf",
           "normalized": "[Char]-\u003ea-\u003e[a]",
@@ -1017,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "tail",
           "package": "web-encodings",
@@ -1026,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "tail",
           "normalized": "a-\u003ea",
@@ -1040,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "take",
           "package": "web-encodings",
@@ -1049,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "take",
           "normalized": "Int-\u003ea-\u003ea",
@@ -1063,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "takeLine",
           "package": "web-encodings",
@@ -1072,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "takeLine",
           "normalized": "a-\u003e(a,a)",
@@ -1087,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "takeLineMaybe",
           "package": "web-encodings",
@@ -1096,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "takeLineMaybe",
           "normalized": "a-\u003eMaybe(a,a)",
@@ -1111,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "takeUntilBlank",
           "package": "web-encodings",
@@ -1120,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "takeUntilBlank",
           "normalized": "a-\u003e([a],a)",
@@ -1135,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "takeUntilBlankMaybe",
           "package": "web-encodings",
@@ -1144,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "takeUntilBlankMaybe",
           "normalized": "a-\u003eMaybe([a],a)",
@@ -1159,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "uncons",
           "package": "web-encodings",
@@ -1168,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "uncons",
           "normalized": "a-\u003eMaybe(Char,a)",
@@ -1182,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "unpack",
           "package": "web-encodings",
@@ -1191,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "unpack",
           "normalized": "a-\u003eString",
@@ -1205,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings.StringLike",
           "name": "unpackUtf8",
           "package": "web-encodings",
@@ -1214,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings StringLike",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings.StringLike",
           "name": "unpackUtf8",
           "normalized": "ByteString-\u003eMaybe a",
@@ -1230,6 +1334,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious web encodings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "Encodings",
           "package": "web-encodings",
@@ -1239,6 +1344,7 @@
         "index": {
           "description": "Various web encodings",
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "Encodings",
           "package": "web-encodings",
@@ -1252,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "DecodeUrlException",
           "package": "web-encodings",
@@ -1260,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "DecodeUrlException",
           "package": "web-encodings",
@@ -1274,6 +1382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation on an uploaded file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "FileInfo",
           "package": "web-encodings",
@@ -1283,6 +1392,7 @@
         "index": {
           "description": "Information on an uploaded file",
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "FileInfo",
           "package": "web-encodings",
@@ -1297,6 +1407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA destination for data, the opposite of a \u003ccode\u003eSource\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "Sink",
           "package": "web-encodings",
@@ -1306,6 +1417,7 @@
         "index": {
           "description": "destination for data the opposite of Source",
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "Sink",
           "package": "web-encodings",
@@ -1319,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "FileInfo",
           "package": "web-encodings",
@@ -1328,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "FileInfo",
           "package": "web-encodings",
@@ -1341,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "InvalidPercentEncoding",
           "package": "web-encodings",
@@ -1350,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "InvalidPercentEncoding",
           "package": "web-encodings",
@@ -1363,6 +1479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "InvalidUtf8Encoding",
           "package": "web-encodings",
@@ -1372,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "InvalidUtf8Encoding",
           "package": "web-encodings",
@@ -1385,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "Sink",
           "package": "web-encodings",
@@ -1394,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "Sink",
           "package": "web-encodings",
@@ -1408,6 +1528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeprecate alias for \u003ccode\u003e\u003ca\u003eparseCookies\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "decodeCookies",
           "package": "web-encodings",
@@ -1418,6 +1539,7 @@
         "index": {
           "description": "Deprecate alias for parseCookies",
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "decodeCookies",
           "normalized": "a-\u003e[(a,a)]",
@@ -1434,6 +1556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode HTML-encoded content into plain content.\n\u003c/p\u003e\u003cp\u003eNote: this does not support all HTML entities available. It also swallows\n all failures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "decodeHtml",
           "package": "web-encodings",
@@ -1444,6 +1567,7 @@
         "index": {
           "description": "Decode HTML-encoded content into plain content Note this does not support all HTML entities available It also swallows all failures",
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "decodeHtml",
           "normalized": "a-\u003ea",
@@ -1459,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "decodeJson",
           "package": "web-encodings",
@@ -1468,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "decodeJson",
           "normalized": "a-\u003ea",
@@ -1484,6 +1610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode percentage encoding. Assumes use of UTF-8 character encoding.\n\u003c/p\u003e\u003cp\u003eIf there are any parse errors, this returns the original input. If you would\n like to be alerted more directly of errors, use \u003ccode\u003e\u003ca\u003edecodeUrlFailure\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "decodeUrl",
           "package": "web-encodings",
@@ -1494,6 +1621,7 @@
         "index": {
           "description": "Decode percentage encoding Assumes use of UTF-8 character encoding If there are any parse errors this returns the original input If you would like to be alerted more directly of errors use decodeUrlFailure",
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "decodeUrl",
           "normalized": "a-\u003ea",
@@ -1510,6 +1638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003edecodeUrl\u003c/a\u003e\u003c/code\u003e, but \u003ccode\u003e\u003ca\u003efailure\u003c/a\u003e\u003c/code\u003es on either invalid percent or UTF8\n encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "decodeUrlFailure",
           "package": "web-encodings",
@@ -1520,6 +1649,7 @@
         "index": {
           "description": "Same as decodeUrl but failure on either invalid percent or UTF8 encoding",
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "decodeUrlFailure",
           "normalized": "a-\u003eb a",
@@ -1536,6 +1666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert into key-value pairs. Strips the leading ? if necesary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "decodeUrlPairs",
           "package": "web-encodings",
@@ -1546,6 +1677,7 @@
         "index": {
           "description": "Convert into key-value pairs Strips the leading if necesary",
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "decodeUrlPairs",
           "normalized": "a-\u003e[(a,a)]",
@@ -1562,6 +1694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert into key-value pairs. Strips the leading ? if necesary. \u003ccode\u003e\u003ca\u003efailure\u003c/a\u003e\u003c/code\u003es\n as necesary for invalid encodings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "decodeUrlPairsFailure",
           "package": "web-encodings",
@@ -1572,6 +1705,7 @@
         "index": {
           "description": "Convert into key-value pairs Strips the leading if necesary failure as necesary for invalid encodings",
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "decodeUrlPairsFailure",
           "normalized": "a-\u003eb[(a,a)]",
@@ -1588,6 +1722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape special HTML characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "encodeHtml",
           "package": "web-encodings",
@@ -1598,6 +1733,7 @@
         "index": {
           "description": "Escape special HTML characters",
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "encodeHtml",
           "normalized": "a-\u003ea",
@@ -1614,6 +1750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform JSON-encoding on a string. Does not wrap in quotation marks.\n Taken from json package by Sigbjorn Finne.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "encodeJson",
           "package": "web-encodings",
@@ -1624,6 +1761,7 @@
         "index": {
           "description": "Perform JSON-encoding on string Does not wrap in quotation marks Taken from json package by Sigbjorn Finne",
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "encodeJson",
           "normalized": "a-\u003ea",
@@ -1640,6 +1778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode all but unreserved characters with percentage encoding.\n\u003c/p\u003e\u003cp\u003eThis function implicitly converts the given value to a UTF-8 bytestream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "encodeUrl",
           "package": "web-encodings",
@@ -1650,6 +1789,7 @@
         "index": {
           "description": "Encode all but unreserved characters with percentage encoding This function implicitly converts the given value to UTF-8 bytestream",
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "encodeUrl",
           "normalized": "a-\u003ea",
@@ -1666,6 +1806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list of key-values pairs into a query string.\n Does not include the question mark at the beginning.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "encodeUrlPairs",
           "package": "web-encodings",
@@ -1676,6 +1817,7 @@
         "index": {
           "description": "Convert list of key-values pairs into query string Does not include the question mark at the beginning",
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "encodeUrlPairs",
           "normalized": "[(a,a)]-\u003ea",
@@ -1691,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "fileContent",
           "package": "web-encodings",
@@ -1700,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "fileContent",
           "package": "web-encodings",
@@ -1713,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "fileContentType",
           "package": "web-encodings",
@@ -1722,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "fileContentType",
           "package": "web-encodings",
@@ -1735,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "fileName",
           "package": "web-encodings",
@@ -1744,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "fileName",
           "package": "web-encodings",
@@ -1758,6 +1906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat a \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e in W3 format; useful for setting cookies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "formatW3",
           "package": "web-encodings",
@@ -1768,6 +1917,7 @@
         "index": {
           "description": "Format UTCTime in W3 format useful for setting cookies",
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "formatW3",
           "normalized": "UTCTime-\u003eString",
@@ -1782,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "lbsSink",
           "package": "web-encodings",
@@ -1791,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "lbsSink",
           "normalized": "Sink([ByteString]-\u003e[ByteString])ByteString",
@@ -1807,6 +1959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode the value of an HTTP_COOKIE header into key/value pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "parseCookies",
           "package": "web-encodings",
@@ -1817,6 +1970,7 @@
         "index": {
           "description": "Decode the value of an HTTP COOKIE header into key value pairs",
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "parseCookies",
           "normalized": "a-\u003e[(a,a)]",
@@ -1833,6 +1987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the HTTP accept string to determine supported content types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "parseHttpAccept",
           "package": "web-encodings",
@@ -1843,6 +1998,7 @@
         "index": {
           "description": "Parse the HTTP accept string to determine supported content types",
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "parseHttpAccept",
           "normalized": "a-\u003e[a]",
@@ -1859,6 +2015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a multipart form into parameters and files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "parseMultipart",
           "package": "web-encodings",
@@ -1868,6 +2025,7 @@
         "index": {
           "description": "Parse multipart form into parameters and files",
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "parseMultipart",
           "normalized": "String-\u003ea-\u003e([(a,a)],[(a,FileInfo a a)])",
@@ -1884,6 +2042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a post request. This function determines the correct decoding\n function to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "parsePost",
           "package": "web-encodings",
@@ -1893,6 +2052,7 @@
         "index": {
           "description": "Parse post request This function determines the correct decoding function to use",
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "parsePost",
           "normalized": "String-\u003eString-\u003ea-\u003e([(a,a)],[(a,FileInfo a a)])",
@@ -1908,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "sinkAppend",
           "package": "web-encodings",
@@ -1917,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "sinkAppend",
           "normalized": "a-\u003eByteString-\u003eIO a",
@@ -1932,6 +2094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "sinkClose",
           "package": "web-encodings",
@@ -1941,6 +2104,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "sinkClose",
           "normalized": "a-\u003eIO b",
@@ -1956,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "sinkFinalize",
           "package": "web-encodings",
@@ -1965,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "sinkFinalize",
           "normalized": "a-\u003eIO()",
@@ -1980,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "sinkInit",
           "package": "web-encodings",
@@ -1989,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "sinkInit",
           "package": "web-encodings",
@@ -2002,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:35 UTC 2014",
           "module": "Web.Encodings",
           "name": "tempFileSink",
           "package": "web-encodings",
@@ -2011,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Web Encodings",
+          "indexed": "2014-03-11T20:37:35",
           "module": "Web.Encodings",
           "name": "tempFileSink",
           "normalized": "Sink(FilePath,Handle)FilePath",

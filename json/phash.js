@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "phash"
+        "phrase": "phash",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:20 UTC 2014",
           "module": "Data.PHash.Image",
           "name": "Image",
           "package": "phash",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data PHash Image",
+          "indexed": "2014-03-11T19:38:20",
           "module": "Data.PHash.Image",
           "name": "Image",
           "package": "phash",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain the hash of an image. Returns Nothing on failure. pHash's API does\nnot provide any error information when this fails, but CImg may dump\nsomething to stderr.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Data.PHash\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimageHash imgPath\n\u003c/code\u003e\u003c/strong\u003eJust (PHash 17549625427362946731)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:38:20 UTC 2014",
           "module": "Data.PHash.Image",
           "name": "imageHash",
           "package": "phash",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Obtain the hash of an image Returns Nothing on failure pHash API does not provide any error information when this fails but CImg may dump something to stderr Examples import Data.PHash imageHash imgPath Just PHash",
           "hierarchy": "Data PHash Image",
+          "indexed": "2014-03-11T19:38:20",
           "module": "Data.PHash.Image",
           "name": "imageHash",
           "normalized": "FilePath-\u003eIO(Maybe PHash)",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:20 UTC 2014",
           "module": "Data.PHash.Types",
           "name": "Types",
           "package": "phash",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data PHash Types",
+          "indexed": "2014-03-11T19:38:20",
           "module": "Data.PHash.Types",
           "name": "Types",
           "package": "phash",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:20 UTC 2014",
           "module": "Data.PHash.Types",
           "name": "PHash",
           "package": "phash",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data PHash Types",
+          "indexed": "2014-03-11T19:38:20",
           "module": "Data.PHash.Types",
           "name": "PHash",
           "package": "phash",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:20 UTC 2014",
           "module": "Data.PHash.Types",
           "name": "PHash",
           "package": "phash",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data PHash Types",
+          "indexed": "2014-03-11T19:38:20",
           "module": "Data.PHash.Types",
           "name": "PHash",
           "package": "phash",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:20 UTC 2014",
           "module": "Data.PHash.Types",
           "name": "fromCPHash",
           "package": "phash",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data PHash Types",
+          "indexed": "2014-03-11T19:38:20",
           "module": "Data.PHash.Types",
           "name": "fromCPHash",
           "normalized": "CULong-\u003ePHash",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:20 UTC 2014",
           "module": "Data.PHash.Types",
           "name": "toCPHash",
           "package": "phash",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data PHash Types",
+          "indexed": "2014-03-11T19:38:20",
           "module": "Data.PHash.Types",
           "name": "toCPHash",
           "normalized": "PHash-\u003eCULong",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:20 UTC 2014",
           "module": "Data.PHash",
           "name": "PHash",
           "package": "phash",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Data PHash",
+          "indexed": "2014-03-11T19:38:20",
           "module": "Data.PHash",
           "name": "PHash",
           "package": "phash",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the distance between two hashes. This can be used to detect how\nsimilar two images are.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Data.PHash\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehammingDistance (PHash 15243782418149777067) (PHash 17549625427362946731)\n\u003c/code\u003e\u003c/strong\u003e2\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehammingDistance (PHash 15243782418149777067) (PHash 15243782418149777067)\n\u003c/code\u003e\u003c/strong\u003e0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:38:20 UTC 2014",
           "module": "Data.PHash",
           "name": "hammingDistance",
           "package": "phash",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Calculate the distance between two hashes This can be used to detect how similar two images are import Data.PHash hammingDistance PHash PHash hammingDistance PHash PHash",
           "hierarchy": "Data PHash",
+          "indexed": "2014-03-11T19:38:20",
           "module": "Data.PHash",
           "name": "hammingDistance",
           "normalized": "PHash-\u003ePHash-\u003eInt",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if two images are similar by a user-defined threshold\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:20 UTC 2014",
           "module": "Data.PHash",
           "name": "imagesSimilar",
           "package": "phash",
@@ -234,6 +253,7 @@
         "index": {
           "description": "Determine if two images are similar by user-defined threshold",
           "hierarchy": "Data PHash",
+          "indexed": "2014-03-11T19:38:20",
           "module": "Data.PHash",
           "name": "imagesSimilar",
           "normalized": "FilePath-\u003eFilePath-\u003eInt-\u003eIO(Maybe Bool)",

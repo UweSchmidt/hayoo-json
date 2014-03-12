@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HaskellNN"
+        "phrase": "HaskellNN",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides common activation functions\n and their derivative\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Calculation.Activation",
           "name": "Activation",
           "package": "HaskellNN",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides common activation functions and their derivative",
           "hierarchy": "AI Calculation Activation",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Calculation.Activation",
           "name": "Activation",
           "package": "HaskellNN",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the activation of\n each neuron in the neural network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Calculation.Activation",
           "name": "Activation",
           "package": "HaskellNN",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Represents the activation of each neuron in the neural network",
           "hierarchy": "AI Calculation Activation",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Calculation.Activation",
           "name": "Activation",
           "package": "HaskellNN",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hyperbolic tangent activation function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Calculation.Activation",
           "name": "HyperbolicTangent",
           "package": "HaskellNN",
@@ -75,6 +80,7 @@
         "index": {
           "description": "The hyperbolic tangent activation function",
           "hierarchy": "AI Calculation Activation",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Calculation.Activation",
           "name": "HyperbolicTangent",
           "package": "HaskellNN",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sigmoid activation function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Calculation.Activation",
           "name": "Sigmoid",
           "package": "HaskellNN",
@@ -99,6 +106,7 @@
         "index": {
           "description": "The sigmoid activation function",
           "hierarchy": "AI Calculation Activation",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Calculation.Activation",
           "name": "Sigmoid",
           "package": "HaskellNN",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the activation function associated with an activation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Calculation.Activation",
           "name": "getActivation",
           "package": "HaskellNN",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Get the activation function associated with an activation",
           "hierarchy": "AI Calculation Activation",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Calculation.Activation",
           "name": "getActivation",
           "normalized": "Activation-\u003eActivationFunction",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the derivative function associated with an activation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Calculation.Activation",
           "name": "getDerivative",
           "package": "HaskellNN",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Get the derivative function associated with an activation",
           "hierarchy": "AI Calculation Activation",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Calculation.Activation",
           "name": "getDerivative",
           "normalized": "Activation-\u003eDerivativeFunction",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides common cost functions\n and their derivatives\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Calculation.Cost",
           "name": "Cost",
           "package": "HaskellNN",
@@ -174,6 +187,7 @@
         "index": {
           "description": "This module provides common cost functions and their derivatives",
           "hierarchy": "AI Calculation Cost",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Calculation.Cost",
           "name": "Cost",
           "package": "HaskellNN",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the cost model\n of the Neural Network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Calculation.Cost",
           "name": "Cost",
           "package": "HaskellNN",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Represents the cost model of the Neural Network",
           "hierarchy": "AI Calculation Cost",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Calculation.Cost",
           "name": "Cost",
           "package": "HaskellNN",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe logistic cost\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Calculation.Cost",
           "name": "Logistic",
           "package": "HaskellNN",
@@ -221,6 +238,7 @@
         "index": {
           "description": "The logistic cost",
           "hierarchy": "AI Calculation Cost",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Calculation.Cost",
           "name": "Logistic",
           "package": "HaskellNN",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe mean-squared cost\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Calculation.Cost",
           "name": "MeanSquared",
           "package": "HaskellNN",
@@ -245,6 +264,7 @@
         "index": {
           "description": "The mean-squared cost",
           "hierarchy": "AI Calculation Cost",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Calculation.Cost",
           "name": "MeanSquared",
           "package": "HaskellNN",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the cost derivative associated\n with the cost model\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Calculation.Cost",
           "name": "getCostDerivative",
           "package": "HaskellNN",
@@ -269,6 +290,7 @@
         "index": {
           "description": "Gets the cost derivative associated with the cost model",
           "hierarchy": "AI Calculation Cost",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Calculation.Cost",
           "name": "getCostDerivative",
           "normalized": "Cost-\u003eCostDerivative",
@@ -285,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the cost function associated\n with the cost model\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Calculation.Cost",
           "name": "getCostFunction",
           "package": "HaskellNN",
@@ -295,6 +318,7 @@
         "index": {
           "description": "Gets the cost function associated with the cost model",
           "hierarchy": "AI Calculation Cost",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Calculation.Cost",
           "name": "getCostFunction",
           "normalized": "Cost-\u003eCostFunction",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module represents ways to calculate the gradient\n vector of the weights of the neural network\n\u003c/p\u003e\u003cp\u003eBackpropagation should always be preferred over\n the Numerical Gradient method\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Calculation.Gradients",
           "name": "Gradients",
           "package": "HaskellNN",
@@ -320,6 +345,7 @@
         "index": {
           "description": "This module represents ways to calculate the gradient vector of the weights of the neural network Backpropagation should always be preferred over the Numerical Gradient method",
           "hierarchy": "AI Calculation Gradients",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Calculation.Gradients",
           "name": "Gradients",
           "package": "HaskellNN",
@@ -334,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the analytical gradient of the weights of the network\n by using backpropagation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Calculation.Gradients",
           "name": "backpropagation",
           "package": "HaskellNN",
@@ -344,6 +371,7 @@
         "index": {
           "description": "Calculate the analytical gradient of the weights of the network by using backpropagation",
           "hierarchy": "AI Calculation Gradients",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Calculation.Gradients",
           "name": "backpropagation",
           "package": "HaskellNN",
@@ -357,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNOTE: This should only be used as a last resort\n if for some reason (bugs?) the backpropagation\n algorithm does not give you good gradients\n\u003c/p\u003e\u003cp\u003eThe numerical algorithm requires two forward\n propagations, while the backpropagation algorithm\n only requires one, so this is more costly\n\u003c/p\u003e\u003cp\u003eAlso, analytical gradients almost always perform\n better than numerical gradients\n\u003c/p\u003e\u003cp\u003eUser must provide an epsilon value.\n Make sure to use a very small value for the epsilon\n for more accurate gradients\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Calculation.Gradients",
           "name": "numericalGradients",
           "package": "HaskellNN",
@@ -366,6 +395,7 @@
         "index": {
           "description": "NOTE This should only be used as last resort if for some reason bugs the backpropagation algorithm does not give you good gradients The numerical algorithm requires two forward propagations while the backpropagation algorithm only requires one so this is more costly Also analytical gradients almost always perform better than numerical gradients User must provide an epsilon value Make sure to use very small value for the epsilon for more accurate gradients",
           "hierarchy": "AI Calculation Gradients",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Calculation.Gradients",
           "name": "numericalGradients",
           "normalized": "Double-\u003eGradientFunction",
@@ -382,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides forward propagation\n to let the user get the output of the neural\n network given an input vector\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Calculation.NetworkOutput",
           "name": "NetworkOutput",
           "package": "HaskellNN",
@@ -391,6 +422,7 @@
         "index": {
           "description": "This module provides forward propagation to let the user get the output of the neural network given an input vector",
           "hierarchy": "AI Calculation NetworkOutput",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Calculation.NetworkOutput",
           "name": "NetworkOutput",
           "package": "HaskellNN",
@@ -405,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForward propagate to get the network's output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Calculation.NetworkOutput",
           "name": "networkOutput",
           "package": "HaskellNN",
@@ -414,6 +447,7 @@
         "index": {
           "description": "Forward propagate to get the network output",
           "hierarchy": "AI Calculation NetworkOutput",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Calculation.NetworkOutput",
           "name": "networkOutput",
           "normalized": "Network-\u003eVector Double-\u003eVector Double",
@@ -430,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides common calculation functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Calculation",
           "name": "Calculation",
           "package": "HaskellNN",
@@ -439,6 +474,7 @@
         "index": {
           "description": "This module provides common calculation functions",
           "hierarchy": "AI Calculation",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Calculation",
           "name": "Calculation",
           "package": "HaskellNN",
@@ -453,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides an initialization for\n a classification neural network model\n\u003c/p\u003e\u003cp\u003eNOTE: This theoretically should be faster than\n the General model if used for classification\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Model.Classification",
           "name": "Classification",
           "package": "HaskellNN",
@@ -462,6 +499,7 @@
         "index": {
           "description": "This module provides an initialization for classification neural network model NOTE This theoretically should be faster than the General model if used for classification",
           "hierarchy": "AI Model Classification",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Model.Classification",
           "name": "Classification",
           "package": "HaskellNN",
@@ -476,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a neural network model\n that should be used for classification\n using the Sigmoid as the activation model\n and Logistic as the cost model\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Model.Classification",
           "name": "initializeClassification",
           "package": "HaskellNN",
@@ -485,6 +524,7 @@
         "index": {
           "description": "Make neural network model that should be used for classification using the Sigmoid as the activation model and Logistic as the cost model",
           "hierarchy": "AI Model Classification",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Model.Classification",
           "name": "initializeClassification",
           "normalized": "[Int]-\u003eDouble-\u003eStdGen-\u003eGenericModel",
@@ -501,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides an initialization for\n a general neural network model that can do\n either regression or classification\n\u003c/p\u003e\u003cp\u003eIf for regression, the training\n data must be normalized by user to have\n range of [-1,1]\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Model.General",
           "name": "General",
           "package": "HaskellNN",
@@ -510,6 +551,7 @@
         "index": {
           "description": "This module provides an initialization for general neural network model that can do either regression or classification If for regression the training data must be normalized by user to have range of",
           "hierarchy": "AI Model General",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Model.General",
           "name": "General",
           "package": "HaskellNN",
@@ -524,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a general neural network\n model that can be used for classification\n or regression using HyperbolicTangent\n as the activation model and MeanSquared as\n the cost model\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Model.General",
           "name": "initializeGeneral",
           "package": "HaskellNN",
@@ -533,6 +576,7 @@
         "index": {
           "description": "This is general neural network model that can be used for classification or regression using HyperbolicTangent as the activation model and MeanSquared as the cost model",
           "hierarchy": "AI Model General",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Model.General",
           "name": "initializeGeneral",
           "normalized": "[Int]-\u003eDouble-\u003eStdGen-\u003eGenericModel",
@@ -549,6 +593,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a generic module for\n initiialization and training of neural networks\n\u003c/p\u003e\u003cp\u003eUser must provide the needed functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Model.GenericModel",
           "name": "GenericModel",
           "package": "HaskellNN",
@@ -558,6 +603,7 @@
         "index": {
           "description": "This module provides generic module for initiialization and training of neural networks User must provide the needed functions",
           "hierarchy": "AI Model GenericModel",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Model.GenericModel",
           "name": "GenericModel",
           "package": "HaskellNN",
@@ -572,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric neural network model for expansion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Model.GenericModel",
           "name": "GenericModel",
           "package": "HaskellNN",
@@ -581,6 +628,7 @@
         "index": {
           "description": "Generic neural network model for expansion",
           "hierarchy": "AI Model GenericModel",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Model.GenericModel",
           "name": "GenericModel",
           "package": "HaskellNN",
@@ -594,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Model.GenericModel",
           "name": "GenericModel",
           "package": "HaskellNN",
@@ -603,6 +652,7 @@
         },
         "index": {
           "hierarchy": "AI Model GenericModel",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Model.GenericModel",
           "name": "GenericModel",
           "package": "HaskellNN",
@@ -617,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cost model of the model\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Model.GenericModel",
           "name": "cost",
           "package": "HaskellNN",
@@ -627,6 +678,7 @@
         "index": {
           "description": "The cost model of the model",
           "hierarchy": "AI Model GenericModel",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Model.GenericModel",
           "name": "cost",
           "package": "HaskellNN",
@@ -640,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the output of the model\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Model.GenericModel",
           "name": "getOutput",
           "package": "HaskellNN",
@@ -649,6 +702,7 @@
         "index": {
           "description": "Get the output of the model",
           "hierarchy": "AI Model GenericModel",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Model.GenericModel",
           "name": "getOutput",
           "normalized": "GenericModel-\u003eVector Double-\u003eVector Double",
@@ -665,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize neural network model with the weights\n randomized within [-1.0,1.0]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Model.GenericModel",
           "name": "initializeModel",
           "package": "HaskellNN",
@@ -674,6 +729,7 @@
         "index": {
           "description": "Initialize neural network model with the weights randomized within",
           "hierarchy": "AI Model GenericModel",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Model.GenericModel",
           "name": "initializeModel",
           "normalized": "Activation-\u003eCost-\u003e[Int]-\u003eDouble-\u003eStdGen-\u003eGenericModel",
@@ -690,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe neural network to be used for modeling\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Model.GenericModel",
           "name": "net",
           "package": "HaskellNN",
@@ -700,6 +757,7 @@
         "index": {
           "description": "The neural network to be used for modeling",
           "hierarchy": "AI Model GenericModel",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Model.GenericModel",
           "name": "net",
           "package": "HaskellNN",
@@ -713,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrain the model given the parameters and the training algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Model.GenericModel",
           "name": "trainModel",
           "package": "HaskellNN",
@@ -722,6 +781,7 @@
         "index": {
           "description": "Train the model given the parameters and the training algorithm",
           "hierarchy": "AI Model GenericModel",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Model.GenericModel",
           "name": "trainModel",
           "normalized": "GenericModel-\u003eTrainingAlgorithm-\u003eDouble-\u003eInt-\u003eMatrix Double-\u003eMatrix Double-\u003eGenericModel",
@@ -738,6 +798,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides models interface for easy initialization and\n training of neural networks\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Model",
           "name": "Model",
           "package": "HaskellNN",
@@ -747,6 +808,7 @@
         "index": {
           "description": "Provides models interface for easy initialization and training of neural networks",
           "hierarchy": "AI Model",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Model",
           "name": "Model",
           "package": "HaskellNN",
@@ -761,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEfficient representation of an Artificial Neural Network\n using vector to represent the weights between each layer\n\u003c/p\u003e\u003cp\u003eThis module provides the neural network data representation\n that will be used extensively\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Network",
           "name": "Network",
           "package": "HaskellNN",
@@ -770,6 +833,7 @@
         "index": {
           "description": "Efficient representation of an Artificial Neural Network using vector to represent the weights between each layer This module provides the neural network data representation that will be used extensively",
           "hierarchy": "AI Network",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Network",
           "name": "Network",
           "package": "HaskellNN",
@@ -784,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe representation of an Artificial Neural Network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Network",
           "name": "Network",
           "package": "HaskellNN",
@@ -793,6 +858,7 @@
         "index": {
           "description": "The representation of an Artificial Neural Network",
           "hierarchy": "AI Network",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Network",
           "name": "Network",
           "package": "HaskellNN",
@@ -806,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Network",
           "name": "Network",
           "package": "HaskellNN",
@@ -815,6 +882,7 @@
         },
         "index": {
           "hierarchy": "AI Network",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Network",
           "name": "Network",
           "package": "HaskellNN",
@@ -829,6 +897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe activation function for each\n   neuron\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Network",
           "name": "activation",
           "package": "HaskellNN",
@@ -839,6 +908,7 @@
         "index": {
           "description": "The activation function for each neuron",
           "hierarchy": "AI Network",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Network",
           "name": "activation",
           "normalized": "Double-\u003eDouble",
@@ -854,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe architecture of the neural\n   networks.\n\u003c/p\u003e\u003cp\u003ee.g., a network of an architecture\n   of 2-3-1 would have an architecture\n   representation of [2,3,1]\n\u003c/p\u003e\u003cp\u003eNOTE: The library will automatically create\n a bias neuron in each layer, so you do not need\n to state them explicitly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Network",
           "name": "architecture",
           "package": "HaskellNN",
@@ -864,6 +935,7 @@
         "index": {
           "description": "The architecture of the neural networks e.g network of an architecture of would have an architecture representation of NOTE The library will automatically create bias neuron in each layer so you do not need to state them explicitly",
           "hierarchy": "AI Network",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Network",
           "name": "architecture",
           "normalized": "[Int]",
@@ -879,6 +951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe derivative of the activation\n   function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Network",
           "name": "derivative",
           "package": "HaskellNN",
@@ -889,6 +962,7 @@
         "index": {
           "description": "The derivative of the activation function",
           "hierarchy": "AI Network",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Network",
           "name": "derivative",
           "normalized": "Double-\u003eDouble",
@@ -904,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe regularization constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Network",
           "name": "lambda",
           "package": "HaskellNN",
@@ -914,6 +989,7 @@
         "index": {
           "description": "The regularization constant",
           "hierarchy": "AI Network",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Network",
           "name": "lambda",
           "package": "HaskellNN",
@@ -926,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Network",
           "name": "setActivation",
           "package": "HaskellNN",
@@ -935,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "AI Network",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Network",
           "name": "setActivation",
           "normalized": "Network-\u003e(Double-\u003eDouble)-\u003eNetwork",
@@ -950,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Network",
           "name": "setArchitecture",
           "package": "HaskellNN",
@@ -959,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "AI Network",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Network",
           "name": "setArchitecture",
           "normalized": "Network-\u003e[Int]-\u003eNetwork",
@@ -974,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Network",
           "name": "setDerivative",
           "package": "HaskellNN",
@@ -983,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "AI Network",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Network",
           "name": "setDerivative",
           "normalized": "Network-\u003e(Double-\u003eDouble)-\u003eNetwork",
@@ -998,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Network",
           "name": "setLambda",
           "package": "HaskellNN",
@@ -1007,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "AI Network",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Network",
           "name": "setLambda",
           "normalized": "Network-\u003eDouble-\u003eNetwork",
@@ -1022,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Network",
           "name": "setWeights",
           "package": "HaskellNN",
@@ -1031,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "AI Network",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Network",
           "name": "setWeights",
           "normalized": "Network-\u003eVector Double-\u003eNetwork",
@@ -1046,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Network",
           "name": "toActivation",
           "package": "HaskellNN",
@@ -1055,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "AI Network",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Network",
           "name": "toActivation",
           "normalized": "Network-\u003eDouble-\u003eDouble",
@@ -1070,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Network",
           "name": "toArchitecture",
           "package": "HaskellNN",
@@ -1079,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "AI Network",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Network",
           "name": "toArchitecture",
           "normalized": "Network-\u003e[Int]",
@@ -1094,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Network",
           "name": "toDerivative",
           "package": "HaskellNN",
@@ -1103,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "AI Network",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Network",
           "name": "toDerivative",
           "normalized": "Network-\u003eDouble-\u003eDouble",
@@ -1118,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Network",
           "name": "toLambda",
           "package": "HaskellNN",
@@ -1127,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "AI Network",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Network",
           "name": "toLambda",
           "normalized": "Network-\u003eDouble",
@@ -1143,6 +1237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of matrices of weights between\n each layer. This can be more useful\n than the barebone vector representation\n of the weights\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Network",
           "name": "toWeightMatrices",
           "package": "HaskellNN",
@@ -1153,6 +1248,7 @@
         "index": {
           "description": "Get the list of matrices of weights between each layer This can be more useful than the barebone vector representation of the weights",
           "hierarchy": "AI Network",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Network",
           "name": "toWeightMatrices",
           "normalized": "Network-\u003e[Matrix Double]",
@@ -1168,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Network",
           "name": "toWeights",
           "package": "HaskellNN",
@@ -1177,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "AI Network",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Network",
           "name": "toWeights",
           "normalized": "Network-\u003eVector Double",
@@ -1193,6 +1291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe vector of the weights between each\n   layer of the neural network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Network",
           "name": "weights",
           "package": "HaskellNN",
@@ -1203,6 +1302,7 @@
         "index": {
           "description": "The vector of the weights between each layer of the neural network",
           "hierarchy": "AI Network",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Network",
           "name": "weights",
           "package": "HaskellNN",
@@ -1216,6 +1316,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the signatures for needed\n functions in a neural network\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Signatures",
           "name": "Signatures",
           "package": "HaskellNN",
@@ -1225,6 +1326,7 @@
         "index": {
           "description": "This module provides the signatures for needed functions in neural network",
           "hierarchy": "AI Signatures",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Signatures",
           "name": "Signatures",
           "package": "HaskellNN",
@@ -1239,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType that represents the activation function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Signatures",
           "name": "ActivationFunction",
           "package": "HaskellNN",
@@ -1248,6 +1351,7 @@
         "index": {
           "description": "Type that represents the activation function",
           "hierarchy": "AI Signatures",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Signatures",
           "name": "ActivationFunction",
           "package": "HaskellNN",
@@ -1262,6 +1366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType that represents the cost function derivative.\n on the output nodes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Signatures",
           "name": "CostDerivative",
           "package": "HaskellNN",
@@ -1271,6 +1376,7 @@
         "index": {
           "description": "Type that represents the cost function derivative on the output nodes",
           "hierarchy": "AI Signatures",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Signatures",
           "name": "CostDerivative",
           "package": "HaskellNN",
@@ -1285,6 +1391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType that represents the function\n that can calculate the total cost of the neural networks\n given the neural networks, the input matrix and an expected output matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Signatures",
           "name": "CostFunction",
           "package": "HaskellNN",
@@ -1294,6 +1401,7 @@
         "index": {
           "description": "Type that represents the function that can calculate the total cost of the neural networks given the neural networks the input matrix and an expected output matrix",
           "hierarchy": "AI Signatures",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Signatures",
           "name": "CostFunction",
           "package": "HaskellNN",
@@ -1308,6 +1416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType that represents the derivative of the activation function\n\u003c/p\u003e\u003cp\u003eNOTE: The derivative can be non-trivial and must be continuous\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Signatures",
           "name": "DerivativeFunction",
           "package": "HaskellNN",
@@ -1317,6 +1426,7 @@
         "index": {
           "description": "Type that represents the derivative of the activation function NOTE The derivative can be non-trivial and must be continuous",
           "hierarchy": "AI Signatures",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Signatures",
           "name": "DerivativeFunction",
           "package": "HaskellNN",
@@ -1331,6 +1441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType that represents the error function\n between the calculated output vector\n and the expected output vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Signatures",
           "name": "ErrorFunction",
           "package": "HaskellNN",
@@ -1340,6 +1451,7 @@
         "index": {
           "description": "Type that represents the error function between the calculated output vector and the expected output vector",
           "hierarchy": "AI Signatures",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Signatures",
           "name": "ErrorFunction",
           "package": "HaskellNN",
@@ -1354,6 +1466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type to represent a function that\n can calculate the gradient vector\n of the weights of the neural network\n\u003c/p\u003e\u003cp\u003eNOTE: Must be supplied a function to calculate the cost, the\n cost derivative of the output neurons, the neural network\n the input matrix, and the expected output matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Signatures",
           "name": "GradientFunction",
           "package": "HaskellNN",
@@ -1363,6 +1476,7 @@
         "index": {
           "description": "The type to represent function that can calculate the gradient vector of the weights of the neural network NOTE Must be supplied function to calculate the cost the cost derivative of the output neurons the neural network the input matrix and the expected output matrix",
           "hierarchy": "AI Signatures",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Signatures",
           "name": "GradientFunction",
           "package": "HaskellNN",
@@ -1377,6 +1491,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides training algorithms to train\n a neural network given training data.\n\u003c/p\u003e\u003cp\u003eUser should only use LBFGS though because\n it uses custom bindings to the C-library liblbfgs\n\u003c/p\u003e\u003cp\u003eGSL's multivariate minimization algorithms are known to be inefficient\n \u003ca\u003ehttp://www.alglib.net/optimization/lbfgsandcg.php#header6\u003c/a\u003e\n and LBFGS outperforms them on many (of my) tests\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Training",
           "name": "Training",
           "package": "HaskellNN",
@@ -1386,6 +1501,7 @@
         "index": {
           "description": "This module provides training algorithms to train neural network given training data User should only use LBFGS though because it uses custom bindings to the C-library liblbfgs GSL multivariate minimization algorithms are known to be inefficient http www.alglib.net optimization lbfgsandcg.php header6 and LBFGS outperforms them on many of my tests",
           "hierarchy": "AI Training",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Training",
           "name": "Training",
           "package": "HaskellNN",
@@ -1400,6 +1516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe types of training algorithm to use\n\u003c/p\u003e\u003cp\u003eNOTE: These are all batch training algorithms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Training",
           "name": "TrainingAlgorithm",
           "package": "HaskellNN",
@@ -1409,6 +1526,7 @@
         "index": {
           "description": "The types of training algorithm to use NOTE These are all batch training algorithms",
           "hierarchy": "AI Training",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Training",
           "name": "TrainingAlgorithm",
           "package": "HaskellNN",
@@ -1423,6 +1541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehmatrix's binding to GSL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Training",
           "name": "BFGS",
           "package": "HaskellNN",
@@ -1433,6 +1552,7 @@
         "index": {
           "description": "hmatrix binding to GSL",
           "hierarchy": "AI Training",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Training",
           "name": "BFGS",
           "package": "HaskellNN",
@@ -1447,6 +1567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehmatrix's binding to GSL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Training",
           "name": "ConjugateGradient",
           "package": "HaskellNN",
@@ -1457,6 +1578,7 @@
         "index": {
           "description": "hmatrix binding to GSL",
           "hierarchy": "AI Training",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Training",
           "name": "ConjugateGradient",
           "package": "HaskellNN",
@@ -1471,6 +1593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehmatrix's binding to GSL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Training",
           "name": "GradientDescent",
           "package": "HaskellNN",
@@ -1481,6 +1604,7 @@
         "index": {
           "description": "hmatrix binding to GSL",
           "hierarchy": "AI Training",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Training",
           "name": "GradientDescent",
           "package": "HaskellNN",
@@ -1495,6 +1619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehome-made binding to liblbfgs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Training",
           "name": "LBFGS",
           "package": "HaskellNN",
@@ -1505,6 +1630,7 @@
         "index": {
           "description": "home-made binding to liblbfgs",
           "hierarchy": "AI Training",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Training",
           "name": "LBFGS",
           "package": "HaskellNN",
@@ -1519,6 +1645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrain the neural network given a training algorithm,\n the training parameters and the training data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:56 UTC 2014",
           "module": "AI.Training",
           "name": "trainNetwork",
           "package": "HaskellNN",
@@ -1528,6 +1655,7 @@
         "index": {
           "description": "Train the neural network given training algorithm the training parameters and the training data",
           "hierarchy": "AI Training",
+          "indexed": "2014-03-11T16:47:56",
           "module": "AI.Training",
           "name": "trainNetwork",
           "normalized": "TrainingAlgorithm-\u003eCost-\u003eGradientFunction-\u003eNetwork-\u003eDouble-\u003eInt-\u003eMatrix Double-\u003eMatrix Double-\u003eNetwork",

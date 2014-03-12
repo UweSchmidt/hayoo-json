@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gnome-keyring"
+        "phrase": "gnome-keyring",
+        "type": "phrase"
       },
       "type": "context"
     }

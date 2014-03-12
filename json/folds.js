@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "folds"
+        "phrase": "folds",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Class",
           "name": "Class",
           "package": "folds",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Class",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Class",
           "name": "Class",
           "package": "folds",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Class",
           "name": "Folding",
           "package": "folds",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Class",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Class",
           "name": "Folding",
           "package": "folds",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Class",
           "name": "Scan",
           "package": "folds",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Class",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Class",
           "name": "Scan",
           "package": "folds",
@@ -107,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Class",
           "name": "filtering",
           "package": "folds",
@@ -116,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Class",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Class",
           "name": "filtering",
           "normalized": "(a-\u003eBool)-\u003eb a c-\u003eb a c",
@@ -130,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Class",
           "name": "interspersing",
           "package": "folds",
@@ -139,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Class",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Class",
           "name": "interspersing",
           "normalized": "a-\u003eb a c-\u003eb a c",
@@ -153,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Class",
           "name": "postfix",
           "package": "folds",
@@ -162,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Class",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Class",
           "name": "postfix",
           "normalized": "a b c-\u003ed b-\u003ea b c",
@@ -176,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Class",
           "name": "postfix1",
           "package": "folds",
@@ -185,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Class",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Class",
           "name": "postfix1",
           "normalized": "a b c-\u003eb-\u003ea b c",
@@ -199,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Class",
           "name": "postfixOf",
           "package": "folds",
@@ -208,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Class",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Class",
           "name": "postfixOf",
           "normalized": "Fold a b-\u003ec b d-\u003ea-\u003ec b d",
@@ -224,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartially apply a \u003ccode\u003e\u003ca\u003eFolding\u003c/a\u003e\u003c/code\u003e to some initial input on the left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Class",
           "name": "prefix",
           "package": "folds",
@@ -234,6 +251,7 @@
         "index": {
           "description": "Partially apply Folding to some initial input on the left",
           "hierarchy": "Data Fold Class",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Class",
           "name": "prefix",
           "normalized": "a b-\u003ec b d-\u003ec b d",
@@ -248,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Class",
           "name": "prefix1",
           "package": "folds",
@@ -257,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Class",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Class",
           "name": "prefix1",
           "normalized": "a-\u003eb a c-\u003eb a c",
@@ -271,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Class",
           "name": "prefixOf",
           "package": "folds",
@@ -280,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Class",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Class",
           "name": "prefixOf",
           "normalized": "Fold a b-\u003ea-\u003ec b d-\u003ec b d",
@@ -296,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eFolding\u003c/a\u003e\u003c/code\u003e to a container full of input:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erun [\"hello\",\"world\"] $ L id (++) []\n\u003c/code\u003e\u003c/strong\u003e\"helloworld\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erun [1,2,3] $ L id (+) 0\n\u003c/code\u003e\u003c/strong\u003e6\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Class",
           "name": "run",
           "package": "folds",
@@ -306,6 +329,7 @@
         "index": {
           "description": "Apply Folding to container full of input run hello world id helloworld run id",
           "hierarchy": "Data Fold Class",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Class",
           "name": "run",
           "normalized": "a b-\u003ec b d-\u003ed",
@@ -321,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eFolding\u003c/a\u003e\u003c/code\u003e to a single element of input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Class",
           "name": "run1",
           "package": "folds",
@@ -331,6 +356,7 @@
         "index": {
           "description": "Apply Folding to single element of input",
           "hierarchy": "Data Fold Class",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Class",
           "name": "run1",
           "normalized": "a-\u003eb a c-\u003ec",
@@ -345,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Class",
           "name": "runOf",
           "package": "folds",
@@ -354,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Class",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Class",
           "name": "runOf",
           "normalized": "Fold a b-\u003ea-\u003ec b d-\u003ed",
@@ -369,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Internal",
           "name": "Internal",
           "package": "folds",
@@ -377,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Internal",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Internal",
           "name": "Internal",
           "package": "folds",
@@ -391,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Internal",
           "name": "Maybe'",
           "package": "folds",
@@ -400,6 +431,7 @@
         "index": {
           "description": "Strict Maybe",
           "hierarchy": "Data Fold Internal",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Internal",
           "name": "Maybe'",
           "package": "folds",
@@ -414,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reified \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Internal",
           "name": "N",
           "package": "folds",
@@ -423,6 +456,7 @@
         "index": {
           "description": "reified Monoid",
           "hierarchy": "Data Fold Internal",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Internal",
           "name": "N",
           "package": "folds",
@@ -436,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict Pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Internal",
           "name": "Pair'",
           "package": "folds",
@@ -445,6 +480,7 @@
         "index": {
           "description": "Strict Pair",
           "hierarchy": "Data Fold Internal",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Internal",
           "name": "Pair'",
           "package": "folds",
@@ -459,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReversed '[]'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Internal",
           "name": "SnocList",
           "package": "folds",
@@ -468,6 +505,7 @@
         "index": {
           "description": "Reversed",
           "hierarchy": "Data Fold Internal",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Internal",
           "name": "SnocList",
           "package": "folds",
@@ -482,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe shape of a \u003ccode\u003e\u003ca\u003efoldMap\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Internal",
           "name": "Tree",
           "package": "folds",
@@ -491,6 +530,7 @@
         "index": {
           "description": "The shape of foldMap",
           "hierarchy": "Data Fold Internal",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Internal",
           "name": "Tree",
           "package": "folds",
@@ -504,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Internal",
           "name": "Just'",
           "package": "folds",
@@ -513,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Internal",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Internal",
           "name": "Just'",
           "package": "folds",
@@ -526,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Internal",
           "name": "N",
           "package": "folds",
@@ -535,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Internal",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Internal",
           "name": "N",
           "package": "folds",
@@ -547,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Internal",
           "name": "Nil",
           "package": "folds",
@@ -556,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Internal",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Internal",
           "name": "Nil",
           "package": "folds",
@@ -569,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Internal",
           "name": "Nothing'",
           "package": "folds",
@@ -578,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Internal",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Internal",
           "name": "Nothing'",
           "package": "folds",
@@ -591,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Internal",
           "name": "One",
           "package": "folds",
@@ -600,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Internal",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Internal",
           "name": "One",
           "package": "folds",
@@ -613,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Internal",
           "name": "Pair'",
           "package": "folds",
@@ -622,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Internal",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Internal",
           "name": "Pair'",
           "package": "folds",
@@ -635,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Internal",
           "name": "Snoc",
           "package": "folds",
@@ -644,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Internal",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Internal",
           "name": "Snoc",
           "package": "folds",
@@ -657,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Internal",
           "name": "Two",
           "package": "folds",
@@ -666,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Internal",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Internal",
           "name": "Two",
           "package": "folds",
@@ -679,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Internal",
           "name": "Zero",
           "package": "folds",
@@ -688,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Internal",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Internal",
           "name": "Zero",
           "package": "folds",
@@ -701,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Internal",
           "name": "maybe'",
           "package": "folds",
@@ -710,6 +769,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Internal",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Internal",
           "name": "maybe'",
           "normalized": "a-\u003e(b-\u003ea)-\u003eMaybe' b-\u003ea",
@@ -724,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.Internal",
           "name": "runN",
           "package": "folds",
@@ -733,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Data Fold Internal",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.Internal",
           "name": "runN",
           "package": "folds",
@@ -745,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.L",
           "name": "L",
           "package": "folds",
@@ -753,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Data Fold L",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.L",
           "name": "L",
           "package": "folds",
@@ -766,6 +830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Moore Machine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.L",
           "name": "L",
           "package": "folds",
@@ -775,6 +840,7 @@
         "index": {
           "description": "Moore Machine",
           "hierarchy": "Data Fold L",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.L",
           "name": "L",
           "package": "folds",
@@ -812,6 +878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a Moore machine from a state valuation and transition function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.L",
           "name": "unfoldL",
           "package": "folds",
@@ -822,6 +889,7 @@
         "index": {
           "description": "Construct Moore machine from state valuation and transition function",
           "hierarchy": "Data Fold L",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.L",
           "name": "unfoldL",
           "normalized": "(a-\u003e(b,c-\u003ea))-\u003ea-\u003eL c b",
@@ -836,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.L1",
           "name": "L1",
           "package": "folds",
@@ -844,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Data Fold L1",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.L1",
           "name": "L1",
           "package": "folds",
@@ -857,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Mealy Machine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.L1",
           "name": "L1",
           "package": "folds",
@@ -866,6 +937,7 @@
         "index": {
           "description": "Mealy Machine",
           "hierarchy": "Data Fold L1",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.L1",
           "name": "L1",
           "package": "folds",
@@ -903,6 +975,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnlike \u003ccode\u003e\u003ca\u003eL\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e this \u003ccode\u003e\u003ca\u003eComonad\u003c/a\u003e\u003c/code\u003e\n is based on a \u003ccode\u003e(-\u003e) r\u003c/code\u003e \u003ccode\u003e\u003ca\u003eComonad\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003eMonoid\u003c/code\u003e \u003ccode\u003er\u003c/code\u003e rather than\n than on the \u003ccode\u003e\u003ccode\u003eStore\u003c/code\u003e r\u003c/code\u003e \u003ccode\u003e\u003ca\u003eComonad\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.M",
           "name": "M",
           "package": "folds",
@@ -912,6 +985,7 @@
         "index": {
           "description": "Unlike and this Comonad is based on Comonad for Monoid rather than than on the Store Comonad",
           "hierarchy": "Data Fold M",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.M",
           "name": "M",
           "package": "folds",
@@ -925,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003efoldMap\u003c/a\u003e\u003c/code\u003e caught in amber. a.k.a. a monoidal reducer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.M",
           "name": "M",
           "package": "folds",
@@ -934,6 +1009,7 @@
         "index": {
           "description": "foldMap caught in amber a.k.a monoidal reducer",
           "hierarchy": "Data Fold M",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.M",
           "name": "M",
           "package": "folds",
@@ -970,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.M1",
           "name": "M1",
           "package": "folds",
@@ -978,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Data Fold M1",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.M1",
           "name": "M1",
           "package": "folds",
@@ -991,6 +1069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA semigroup reducer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.M1",
           "name": "M1",
           "package": "folds",
@@ -1000,6 +1079,7 @@
         "index": {
           "description": "semigroup reducer",
           "hierarchy": "Data Fold M1",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.M1",
           "name": "M1",
           "package": "folds",
@@ -1036,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.R",
           "name": "R",
           "package": "folds",
@@ -1044,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Data Fold R",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.R",
           "name": "R",
           "package": "folds",
@@ -1057,6 +1139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eright folds / a reversed Moore machine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.R",
           "name": "R",
           "package": "folds",
@@ -1066,6 +1149,7 @@
         "index": {
           "description": "right folds reversed Moore machine",
           "hierarchy": "Data Fold R",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.R",
           "name": "R",
           "package": "folds",
@@ -1102,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.R1",
           "name": "R1",
           "package": "folds",
@@ -1110,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Data Fold R1",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.R1",
           "name": "R1",
           "package": "folds",
@@ -1123,6 +1209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reversed Mealy machine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold.R1",
           "name": "R1",
           "package": "folds",
@@ -1132,6 +1219,7 @@
         "index": {
           "description": "reversed Mealy machine",
           "hierarchy": "Data Fold R1",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold.R1",
           "name": "R1",
           "package": "folds",
@@ -1168,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "Fold",
           "package": "folds",
@@ -1176,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "Fold",
           "package": "folds",
@@ -1189,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "AsL'",
           "package": "folds",
@@ -1197,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "AsL'",
           "package": "folds",
@@ -1210,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "AsRM",
           "package": "folds",
@@ -1218,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "AsRM",
           "package": "folds",
@@ -1231,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "Folding",
           "package": "folds",
@@ -1239,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "Folding",
           "package": "folds",
@@ -1253,6 +1349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Moore Machine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "L",
           "package": "folds",
@@ -1262,6 +1359,7 @@
         "index": {
           "description": "Moore Machine",
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "L",
           "package": "folds",
@@ -1275,6 +1373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strict left fold / strict Moore machine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "L'",
           "package": "folds",
@@ -1284,6 +1383,7 @@
         "index": {
           "description": "strict left fold strict Moore machine",
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "L'",
           "package": "folds",
@@ -1298,6 +1398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Mealy Machine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "L1",
           "package": "folds",
@@ -1307,6 +1408,7 @@
         "index": {
           "description": "Mealy Machine",
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "L1",
           "package": "folds",
@@ -1320,6 +1422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strict Mealy Machine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "L1'",
           "package": "folds",
@@ -1329,6 +1432,7 @@
         "index": {
           "description": "strict Mealy Machine",
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "L1'",
           "package": "folds",
@@ -1342,6 +1446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003efoldMap\u003c/a\u003e\u003c/code\u003e caught in amber. a.k.a. a monoidal reducer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "M",
           "package": "folds",
@@ -1351,6 +1456,7 @@
         "index": {
           "description": "foldMap caught in amber a.k.a monoidal reducer",
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "M",
           "package": "folds",
@@ -1364,6 +1470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA semigroup reducer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "M1",
           "package": "folds",
@@ -1373,6 +1480,7 @@
         "index": {
           "description": "semigroup reducer",
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "M1",
           "package": "folds",
@@ -1386,6 +1494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eright folds / a reversed Moore machine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "R",
           "package": "folds",
@@ -1395,6 +1504,7 @@
         "index": {
           "description": "right folds reversed Moore machine",
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "R",
           "package": "folds",
@@ -1408,6 +1518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reversed Mealy machine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "R1",
           "package": "folds",
@@ -1417,6 +1528,7 @@
         "index": {
           "description": "reversed Mealy machine",
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "R1",
           "package": "folds",
@@ -1429,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "Scan",
           "package": "folds",
@@ -1437,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "Scan",
           "package": "folds",
@@ -1450,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "L'",
           "package": "folds",
@@ -1459,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "L'",
           "normalized": "a b L'(b-\u003ec)(b-\u003ed-\u003eb)b",
@@ -1474,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "L1'",
           "package": "folds",
@@ -1483,6 +1600,7 @@
         },
         "index": {
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "L1'",
           "normalized": "a b L(b-\u003ec)(b-\u003ed-\u003eb)(d-\u003eb)",
@@ -1498,6 +1616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e is a folding homomorphism to a strict left folding\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e xs (\u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e &#966;)         &#8801; \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e xs &#966;\n \u003ccode\u003e\u003ca\u003eprefix\u003c/a\u003e\u003c/code\u003e xs (\u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e &#966;)      &#8801; \u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eprefix\u003c/a\u003e\u003c/code\u003e xs &#966;)\n \u003ccode\u003e\u003ca\u003eprefixOf\u003c/a\u003e\u003c/code\u003e l xs (\u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e &#966;)  &#8801; \u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eprefixOf\u003c/a\u003e\u003c/code\u003e l xs &#966;)\n \u003ccode\u003e\u003ca\u003epostfix\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e &#966;) xs     &#8801; \u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003epostfix\u003c/a\u003e\u003c/code\u003e &#966; xs)\n \u003ccode\u003e\u003ca\u003epostfixOf\u003c/a\u003e\u003c/code\u003e l (\u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e &#966;) xs &#8801; \u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003epostfixOf\u003c/a\u003e\u003c/code\u003e l &#966; xs)\n \u003ccode\u003eleft'\u003c/code\u003e (\u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e &#966;)          &#8801; \u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003eleft'\u003c/code\u003e &#966;)\n \u003ccode\u003eright'\u003c/code\u003e (\u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e &#966;)         &#8801; \u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003eright'\u003c/code\u003e &#966;)\n \u003ccode\u003edimap\u003c/code\u003e l r (\u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e &#966;)      &#8801; \u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003edimap\u003c/code\u003e l r &#966;)\n \u003ccode\u003eextract\u003c/code\u003e (\u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e &#966;)        &#8801; \u003ccode\u003eextract\u003c/code\u003e &#966;\n \u003ccode\u003epure\u003c/code\u003e a                   &#8801; \u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003epure\u003c/code\u003e a)\n \u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e &#966; \u003ccode\u003e\u003c*\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e &#968;       &#8801; \u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e (&#966; \u003ccode\u003e\u003c*\u003e\u003c/code\u003e &#968;)\n \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e a                 &#8801; \u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e a)\n \u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e &#966; \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e . k     &#8801; \u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e (&#966; \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e k)\n \u003ccode\u003e\u003ca\u003efiltering\u003c/a\u003e\u003c/code\u003e p (\u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e &#966;)     &#8801; \u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003efiltering\u003c/a\u003e\u003c/code\u003e p &#966;)\n \u003ccode\u003e\u003ca\u003einterspersing\u003c/a\u003e\u003c/code\u003e a (\u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e &#966;) &#8801; \u003ccode\u003e\u003ca\u003easL'\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003einterspersing\u003c/a\u003e\u003c/code\u003e a &#966;)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "asL'",
           "package": "folds",
@@ -1508,6 +1627,7 @@
         "index": {
           "description": "asL is folding homomorphism to strict left folding run xs asL run xs prefix xs asL asL prefix xs prefixOf xs asL asL prefixOf xs postfix asL xs asL postfix xs postfixOf asL xs asL postfixOf xs left asL asL left right asL asL right dimap asL asL dimap extract asL extract pure asL pure asL asL asL return asL return asL asL asL filtering asL asL filtering interspersing asL asL interspersing",
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "asL'",
           "normalized": "a b c-\u003eL' b c",
@@ -1524,6 +1644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e is a folding homomorphism to a monoidal folding\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e xs (\u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e &#966;)         &#8801; \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e xs &#966;\n \u003ccode\u003e\u003ca\u003eprefix\u003c/a\u003e\u003c/code\u003e xs (\u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e &#966;)      &#8801; \u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eprefix\u003c/a\u003e\u003c/code\u003e xs &#966;)\n \u003ccode\u003e\u003ca\u003eprefixOf\u003c/a\u003e\u003c/code\u003e l xs (\u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e &#966;)  &#8801; \u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eprefixOf\u003c/a\u003e\u003c/code\u003e l xs &#966;)\n \u003ccode\u003e\u003ca\u003epostfix\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e &#966;) xs     &#8801; \u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003epostfix\u003c/a\u003e\u003c/code\u003e &#966; xs)\n \u003ccode\u003e\u003ca\u003epostfixOf\u003c/a\u003e\u003c/code\u003e l (\u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e &#966;) xs &#8801; \u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003epostfixOf\u003c/a\u003e\u003c/code\u003e l &#966; xs)\n \u003ccode\u003eleft'\u003c/code\u003e (\u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e &#966;)          &#8801; \u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003eleft'\u003c/code\u003e &#966;)\n \u003ccode\u003eright'\u003c/code\u003e (\u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e &#966;)         &#8801; \u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003eright'\u003c/code\u003e &#966;)\n \u003ccode\u003edimap\u003c/code\u003e l r (\u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e &#966;)      &#8801; \u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003edimap\u003c/code\u003e l r &#966;)\n \u003ccode\u003eextract\u003c/code\u003e (\u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e &#966;)        &#8801; \u003ccode\u003eextract\u003c/code\u003e &#966;\n \u003ccode\u003epure\u003c/code\u003e a                  &#8801; \u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003epure\u003c/code\u003e a)\n \u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e &#966; \u003ccode\u003e\u003c*\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e &#968;        &#8801; \u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e (&#966; \u003ccode\u003e\u003c*\u003e\u003c/code\u003e &#968;)\n \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e a                &#8801; \u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e a)\n \u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e &#966; \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e . k      &#8801; \u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e (&#966; \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e k)\n \u003ccode\u003e\u003ca\u003efiltering\u003c/a\u003e\u003c/code\u003e p (\u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e &#966;)     &#8801; \u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003efiltering\u003c/a\u003e\u003c/code\u003e p &#966;)\n \u003ccode\u003e\u003ca\u003einterspersing\u003c/a\u003e\u003c/code\u003e a (\u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e &#966;) &#8801; \u003ccode\u003e\u003ca\u003easM\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003einterspersing\u003c/a\u003e\u003c/code\u003e a &#966;)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "asM",
           "package": "folds",
@@ -1534,6 +1655,7 @@
         "index": {
           "description": "asM is folding homomorphism to monoidal folding run xs asM run xs prefix xs asM asM prefix xs prefixOf xs asM asM prefixOf xs postfix asM xs asM postfix xs postfixOf asM xs asM postfixOf xs left asM asM left right asM asM right dimap asM asM dimap extract asM extract pure asM pure asM asM asM return asM return asM asM asM filtering asM asM filtering interspersing asM asM interspersing",
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "asM",
           "normalized": "a b c-\u003eM b c",
@@ -1549,6 +1671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e is a folding homomorphism to a right folding\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e xs (\u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e &#966;)         &#8801; \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e xs &#966;\n \u003ccode\u003e\u003ca\u003eprefix\u003c/a\u003e\u003c/code\u003e xs (\u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e &#966;)      &#8801; \u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eprefix\u003c/a\u003e\u003c/code\u003e xs &#966;)\n \u003ccode\u003e\u003ca\u003eprefixOf\u003c/a\u003e\u003c/code\u003e l xs (\u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e &#966;)  &#8801; \u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eprefixOf\u003c/a\u003e\u003c/code\u003e l xs &#966;)\n \u003ccode\u003e\u003ca\u003epostfix\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e &#966;) xs     &#8801; \u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003epostfix\u003c/a\u003e\u003c/code\u003e &#966; xs)\n \u003ccode\u003e\u003ca\u003epostfixOf\u003c/a\u003e\u003c/code\u003e l (\u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e &#966;) xs &#8801; \u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003epostfixOf\u003c/a\u003e\u003c/code\u003e l &#966; xs)\n \u003ccode\u003eleft'\u003c/code\u003e (\u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e &#966;)          &#8801; \u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003eleft'\u003c/code\u003e &#966;)\n \u003ccode\u003eright'\u003c/code\u003e (\u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e &#966;)         &#8801; \u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003eright'\u003c/code\u003e &#966;)\n \u003ccode\u003edimap\u003c/code\u003e l r (\u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e &#966;)      &#8801; \u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003edimap\u003c/code\u003e l r &#966;)\n \u003ccode\u003eextract\u003c/code\u003e (\u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e &#966;)        &#8801; \u003ccode\u003eextract\u003c/code\u003e &#966;\n \u003ccode\u003epure\u003c/code\u003e a                  &#8801; \u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003epure\u003c/code\u003e a)\n \u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e &#966; \u003ccode\u003e\u003c*\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e &#968;        &#8801; \u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e (&#966; \u003ccode\u003e\u003c*\u003e\u003c/code\u003e &#968;)\n \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e a                &#8801; \u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e a)\n \u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e &#966; \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e . k      &#8801; \u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e (&#966; \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e k)\n \u003ccode\u003e\u003ca\u003efiltering\u003c/a\u003e\u003c/code\u003e p (\u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e &#966;)     &#8801; \u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003efiltering\u003c/a\u003e\u003c/code\u003e p &#966;)\n \u003ccode\u003e\u003ca\u003einterspersing\u003c/a\u003e\u003c/code\u003e a (\u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e &#966;) &#8801; \u003ccode\u003e\u003ca\u003easR\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003einterspersing\u003c/a\u003e\u003c/code\u003e a &#966;)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "asR",
           "package": "folds",
@@ -1559,6 +1682,7 @@
         "index": {
           "description": "asR is folding homomorphism to right folding run xs asR run xs prefix xs asR asR prefix xs prefixOf xs asR asR prefixOf xs postfix asR xs asR postfix xs postfixOf asR xs asR postfixOf xs left asR asR left right asR asR right dimap asR asR dimap extract asR extract pure asR pure asR asR asR return asR return asR asR asR filtering asR asR filtering interspersing asR asR interspersing",
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "asR",
           "normalized": "a b c-\u003eR b c",
@@ -1573,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "filtering",
           "package": "folds",
@@ -1582,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "filtering",
           "normalized": "(a-\u003eBool)-\u003eb a c-\u003eb a c",
@@ -1596,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "interspersing",
           "package": "folds",
@@ -1605,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "interspersing",
           "normalized": "a-\u003eb a c-\u003eb a c",
@@ -1619,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "postfix",
           "package": "folds",
@@ -1628,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "postfix",
           "normalized": "a b c-\u003ed b-\u003ea b c",
@@ -1642,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "postfix1",
           "package": "folds",
@@ -1651,6 +1782,7 @@
         },
         "index": {
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "postfix1",
           "normalized": "a b c-\u003eb-\u003ea b c",
@@ -1665,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "postfixOf",
           "package": "folds",
@@ -1674,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "postfixOf",
           "normalized": "Fold a b-\u003ec b d-\u003ea-\u003ec b d",
@@ -1690,6 +1824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartially apply a \u003ccode\u003e\u003ca\u003eFolding\u003c/a\u003e\u003c/code\u003e to some initial input on the left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "prefix",
           "package": "folds",
@@ -1700,6 +1835,7 @@
         "index": {
           "description": "Partially apply Folding to some initial input on the left",
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "prefix",
           "normalized": "a b-\u003ec b d-\u003ec b d",
@@ -1714,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "prefix1",
           "package": "folds",
@@ -1723,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "prefix1",
           "normalized": "a-\u003eb a c-\u003eb a c",
@@ -1737,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "prefixOf",
           "package": "folds",
@@ -1746,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "prefixOf",
           "normalized": "Fold a b-\u003ea-\u003ec b d-\u003ec b d",
@@ -1762,6 +1902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eFolding\u003c/a\u003e\u003c/code\u003e to a container full of input:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erun [\"hello\",\"world\"] $ L id (++) []\n\u003c/code\u003e\u003c/strong\u003e\"helloworld\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erun [1,2,3] $ L id (+) 0\n\u003c/code\u003e\u003c/strong\u003e6\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "run",
           "package": "folds",
@@ -1772,6 +1913,7 @@
         "index": {
           "description": "Apply Folding to container full of input run hello world id helloworld run id",
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "run",
           "normalized": "a b-\u003ec b d-\u003ed",
@@ -1787,6 +1929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eFolding\u003c/a\u003e\u003c/code\u003e to a single element of input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "run1",
           "package": "folds",
@@ -1797,6 +1940,7 @@
         "index": {
           "description": "Apply Folding to single element of input",
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "run1",
           "normalized": "a-\u003eb a c-\u003ec",
@@ -1811,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:06 UTC 2014",
           "module": "Data.Fold",
           "name": "runOf",
           "package": "folds",
@@ -1820,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Data Fold",
+          "indexed": "2014-03-11T18:11:06",
           "module": "Data.Fold",
           "name": "runOf",
           "normalized": "Fold a b-\u003ea-\u003ec b d-\u003ed",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hTensor"
+        "phrase": "hTensor",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon multidimensional array decompositions. See the paper by Kolda & Balder.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Decomposition",
           "name": "Decomposition",
           "package": "hTensor",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Common multidimensional array decompositions See the paper by Kolda Balder",
           "hierarchy": "Numeric LinearAlgebra Array Decomposition",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Decomposition",
           "name": "Decomposition",
           "package": "hTensor",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoptimization parameters for alternating least squares\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Decomposition",
           "name": "ALSParam",
           "package": "hTensor",
@@ -51,6 +54,7 @@
         "index": {
           "description": "optimization parameters for alternating least squares",
           "hierarchy": "Numeric LinearAlgebra Array Decomposition",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Decomposition",
           "name": "ALSParam",
           "package": "hTensor",
@@ -88,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExperimental implementation of the CP decomposition, based on alternating\n     least squares. We try approximations of increasing rank, until the relative reconstruction error is below a desired percent of Frobenius norm (epsilon).\n\u003c/p\u003e\u003cp\u003eThe approximation of rank k is abandoned if the error does not decrease at least delta% in an iteration.\n\u003c/p\u003e\u003cp\u003ePractical usage can be based on something like this:\n\u003c/p\u003e\u003cpre\u003e\ncp finit d e t = cpAuto (finit t) defaultParameters {delta = d, epsilon = e} t\n\ncpS = cp (InitSvd . fst . hosvd')\ncpR s = cp (cpInitRandom s)\n\u003c/pre\u003e\u003cp\u003eSo we can write\n\u003c/p\u003e\u003cpre\u003e\n -- initialization based on hosvd\ny = cpS 0.01 1E-6 t\n\n-- (pseudo)random initialization\nz = cpR seed 0.1 0.1 t\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Decomposition",
           "name": "cpAuto",
           "package": "hTensor",
@@ -97,6 +102,7 @@
         "index": {
           "description": "Experimental implementation of the CP decomposition based on alternating least squares We try approximations of increasing rank until the relative reconstruction error is below desired percent of Frobenius norm epsilon The approximation of rank is abandoned if the error does not decrease at least delta in an iteration Practical usage can be based on something like this cp finit cpAuto finit defaultParameters delta epsilon cpS cp InitSvd fst hosvd cpR cp cpInitRandom So we can write initialization based on hosvd cpS E-6 pseudo random initialization cpR seed",
           "hierarchy": "Numeric LinearAlgebra Array Decomposition",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Decomposition",
           "name": "cpAuto",
           "normalized": "(Int-\u003e[Array Double])-\u003eALSParam None Double-\u003eArray Double-\u003e[Array Double]",
@@ -113,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epseudorandom cp initialization from a given seed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Decomposition",
           "name": "cpInitRandom",
           "package": "hTensor",
@@ -122,6 +129,7 @@
         "index": {
           "description": "pseudorandom cp initialization from given seed",
           "hierarchy": "Numeric LinearAlgebra Array Decomposition",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Decomposition",
           "name": "cpInitRandom",
           "normalized": "Int-\u003eNArray a b-\u003eInt-\u003e[NArray None Double]",
@@ -138,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecp initialization based on the hosvd\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Decomposition",
           "name": "cpInitSvd",
           "package": "hTensor",
@@ -147,6 +156,7 @@
         "index": {
           "description": "cp initialization based on the hosvd",
           "hierarchy": "Numeric LinearAlgebra Array Decomposition",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Decomposition",
           "name": "cpInitSvd",
           "normalized": "[NArray None Double]-\u003eInt-\u003e[NArray None Double]",
@@ -163,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic CP optimization for a given rank. The result includes the obtained sequence of errors.\n\u003c/p\u003e\u003cp\u003eFor example, a rank 3 approximation can be obtained as follows, where initialization\nis based on the hosvd:\n\u003c/p\u003e\u003cpre\u003e\n(y,errs) = cpRank 3 t\n     where cpRank r t = cpRun (cpInitSvd (fst $ hosvd' t) r) defaultParameters t\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Decomposition",
           "name": "cpRun",
           "package": "hTensor",
@@ -172,6 +183,7 @@
         "index": {
           "description": "Basic CP optimization for given rank The result includes the obtained sequence of errors For example rank approximation can be obtained as follows where initialization is based on the hosvd errs cpRank where cpRank cpRun cpInitSvd fst hosvd defaultParameters",
           "hierarchy": "Numeric LinearAlgebra Array Decomposition",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Decomposition",
           "name": "cpRun",
           "normalized": "[Array Double]-\u003eALSParam None Double-\u003eArray Double-\u003e([Array Double],[Double])",
@@ -261,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultilinear Singular Value Decomposition (or Tucker's method, see Lathauwer et al.).\n\u003c/p\u003e\u003cp\u003eThe result is a list with the core (head) and rotations so that\n    t == product (hsvd t).\n\u003c/p\u003e\u003cp\u003eThe core and the rotations are truncated to the rank of each mode.\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003ehosvd'\u003c/a\u003e\u003c/code\u003e to get full transformations and rank information about each mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Decomposition",
           "name": "hosvd",
           "package": "hTensor",
@@ -271,6 +284,7 @@
         "index": {
           "description": "Multilinear Singular Value Decomposition or Tucker method see Lathauwer et al The result is list with the core head and rotations so that product hsvd The core and the rotations are truncated to the rank of each mode Use hosvd to get full transformations and rank information about each mode",
           "hierarchy": "Numeric LinearAlgebra Array Decomposition",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Decomposition",
           "name": "hosvd",
           "normalized": "Array Double-\u003e[Array Double]",
@@ -286,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFull version of \u003ccode\u003e\u003ca\u003ehosvd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe first element in the result pair is a list with the core (head) and rotations so that\n    t == product (fst (hsvd' t)).\n\u003c/p\u003e\u003cp\u003eThe second element is a list of rank and singular values along each mode,\n    to give some idea about core structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Decomposition",
           "name": "hosvd'",
           "package": "hTensor",
@@ -296,6 +311,7 @@
         "index": {
           "description": "Full version of hosvd The first element in the result pair is list with the core head and rotations so that product fst hsvd The second element is list of rank and singular values along each mode to give some idea about core structure",
           "hierarchy": "Numeric LinearAlgebra Array Decomposition",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Decomposition",
           "name": "hosvd'",
           "normalized": "Array Double-\u003e([Array Double],[(Int,Vector Double)])",
@@ -414,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTruncate a \u003ccode\u003e\u003ca\u003ehosvd\u003c/a\u003e\u003c/code\u003e decomposition from the desired number of principal components in each dimension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Decomposition",
           "name": "truncateFactors",
           "package": "hTensor",
@@ -424,6 +441,7 @@
         "index": {
           "description": "Truncate hosvd decomposition from the desired number of principal components in each dimension",
           "hierarchy": "Numeric LinearAlgebra Array Decomposition",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Decomposition",
           "name": "truncateFactors",
           "normalized": "[Int]-\u003e[Array Double]-\u003e[Array Double]",
@@ -440,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSolution of general multidimensional linear and multilinear systems.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "Solve",
           "package": "hTensor",
@@ -449,6 +468,7 @@
         "index": {
           "description": "Solution of general multidimensional linear and multilinear systems",
           "hierarchy": "Numeric LinearAlgebra Array Solve",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "Solve",
           "package": "hTensor",
@@ -463,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoptimization parameters for alternating least squares\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "ALSParam",
           "package": "hTensor",
@@ -472,6 +493,7 @@
         "index": {
           "description": "optimization parameters for alternating least squares",
           "hierarchy": "Numeric LinearAlgebra Array Solve",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "ALSParam",
           "package": "hTensor",
@@ -486,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe machine precision of a Double: \u003ccode\u003eeps = 2.22044604925031e-16\u003c/code\u003e (the value used by GNU-Octave).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "eps",
           "package": "hTensor",
@@ -495,6 +518,7 @@
         "index": {
           "description": "The machine precision of Double eps e-16 the value used by GNU-Octave",
           "hierarchy": "Numeric LinearAlgebra Array Solve",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "eps",
           "package": "hTensor",
@@ -508,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epost processing function that modifies a list of tensors so that they\n have equal frobenius norm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "eqnorm",
           "package": "hTensor",
@@ -518,6 +543,7 @@
         "index": {
           "description": "post processing function that modifies list of tensors so that they have equal frobenius norm",
           "hierarchy": "Numeric LinearAlgebra Array Solve",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "eqnorm",
           "normalized": "[NArray a Double]-\u003e[NArray a Double]",
@@ -533,6 +559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edebugging function (e.g. for \u003ccode\u003e\u003ca\u003epresys\u003c/a\u003e\u003c/code\u003e), which shows rows, columns and rank of the\n coefficient matrix of a linear system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "infoRank",
           "package": "hTensor",
@@ -543,6 +570,7 @@
         "index": {
           "description": "debugging function e.g for presys which shows rows columns and rank of the coefficient matrix of linear system",
           "hierarchy": "Numeric LinearAlgebra Array Solve",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "infoRank",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -559,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolution of a multilinear system a x y z ... = b based on alternating least squares.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "mlSolve",
           "package": "hTensor",
@@ -568,6 +597,7 @@
         "index": {
           "description": "Solution of multilinear system based on alternating least squares",
           "hierarchy": "Numeric LinearAlgebra Array Solve",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "mlSolve",
           "normalized": "ALSParam a b-\u003e[NArray a b]-\u003e[NArray a b]-\u003eNArray a b-\u003e([NArray a b],[Double])",
@@ -584,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolution of the homogeneous multilinear system a x y z ... = 0 based on alternating least squares.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "mlSolveH",
           "package": "hTensor",
@@ -593,6 +624,7 @@
         "index": {
           "description": "Solution of the homogeneous multilinear system based on alternating least squares",
           "hierarchy": "Numeric LinearAlgebra Array Solve",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "mlSolveH",
           "normalized": "ALSParam a b-\u003e[NArray a b]-\u003e[NArray a b]-\u003e([NArray a b],[Double])",
@@ -609,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolution of a multilinear system a x y z ... = b, with a homogeneous index, based on alternating least squares.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "mlSolveP",
           "package": "hTensor",
@@ -618,6 +651,7 @@
         "index": {
           "description": "Solution of multilinear system with homogeneous index based on alternating least squares",
           "hierarchy": "Numeric LinearAlgebra Array Solve",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "mlSolveP",
           "normalized": "ALSParam Variant Double-\u003e[Tensor Double]-\u003e[Tensor Double]-\u003eTensor Double-\u003eName-\u003e([Tensor Double],[Double])",
@@ -634,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolution of the linear system a x = b, where a and b are\n general multidimensional arrays. The structure and dimension names\n of the result are inferred from the arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solve",
           "package": "hTensor",
@@ -643,6 +678,7 @@
         "index": {
           "description": "Solution of the linear system where and are general multidimensional arrays The structure and dimension names of the result are inferred from the arguments",
           "hierarchy": "Numeric LinearAlgebra Array Solve",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solve",
           "normalized": "NArray a b-\u003eNArray a b-\u003eNArray a b",
@@ -657,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solve'",
           "package": "hTensor",
@@ -666,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Array Solve",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solve'",
           "normalized": "(Matrix a-\u003eMatrix b)-\u003eNArray c a-\u003eNArray c a-\u003eNArray c b",
@@ -681,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven two arrays a (source) and  b (target), we try to compute linear transformations x,y,z,... for each dimension, such that product [a,x,y,z,...] == b.\n(We can use \u003ccode\u003e\u003ca\u003eeqnorm\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003epost\u003c/a\u003e\u003c/code\u003e processing, or \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solveFactors",
           "package": "hTensor",
@@ -690,6 +729,7 @@
         "index": {
           "description": "Given two arrays source and target we try to compute linear transformations for each dimension such that product We can use eqnorm for post processing or id",
           "hierarchy": "Numeric LinearAlgebra Array Solve",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solveFactors",
           "normalized": "Int-\u003eALSParam a b-\u003e[NArray a b]-\u003eString-\u003eNArray a b-\u003e([NArray a b],[Double])",
@@ -706,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHomogeneous factorized system. Given an array a,\n given as a list of factors as, and a list of pairs of indices\n [\"pi\",\"qj\", \"rk\", etc.], we try to compute linear transformations\n x!\"pi\", y!\"pi\", z!\"rk\", etc. such that product [a,x,y,z,...] == 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solveFactorsH",
           "package": "hTensor",
@@ -715,6 +756,7 @@
         "index": {
           "description": "Homogeneous factorized system Given an array given as list of factors as and list of pairs of indices pi qj rk etc we try to compute linear transformations pi pi rk etc such that product",
           "hierarchy": "Numeric LinearAlgebra Array Solve",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solveFactorsH",
           "normalized": "Int-\u003eALSParam a b-\u003e[NArray a b]-\u003eString-\u003e([NArray a b],[Double])",
@@ -731,6 +773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esolveHomog1\u003c/a\u003e\u003c/code\u003e for single letter index names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solveH",
           "package": "hTensor",
@@ -741,6 +784,7 @@
         "index": {
           "description": "solveHomog1 for single letter index names",
           "hierarchy": "Numeric LinearAlgebra Array Solve",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solveH",
           "normalized": "NArray a b-\u003e[Char]-\u003eNArray a b",
@@ -756,6 +800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolution of the homogeneous linear system a x = 0, where a is a\n general multidimensional array.\n\u003c/p\u003e\u003cp\u003eIf the system is overconstrained we may provide the theoretical rank to get a MSE solution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solveHomog",
           "package": "hTensor",
@@ -765,6 +810,7 @@
         "index": {
           "description": "Solution of the homogeneous linear system where is general multidimensional array If the system is overconstrained we may provide the theoretical rank to get MSE solution",
           "hierarchy": "Numeric LinearAlgebra Array Solve",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solveHomog",
           "normalized": "NArray a b-\u003e[Name]-\u003eEither Double Int-\u003e[NArray a b]",
@@ -780,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solveHomog'",
           "package": "hTensor",
@@ -789,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Array Solve",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solveHomog'",
           "normalized": "(Matrix a-\u003eMatrix b)-\u003eNArray c a-\u003e[Name]-\u003eEither Double Int-\u003e[NArray c b]",
@@ -805,6 +853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simpler way to use \u003ccode\u003e\u003ca\u003esolveHomog\u003c/a\u003e\u003c/code\u003e, which returns just one solution.\n If the system is overconstrained it returns the MSE solution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solveHomog1",
           "package": "hTensor",
@@ -815,6 +864,7 @@
         "index": {
           "description": "simpler way to use solveHomog which returns just one solution If the system is overconstrained it returns the MSE solution",
           "hierarchy": "Numeric LinearAlgebra Array Solve",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solveHomog1",
           "normalized": "NArray a b-\u003e[Name]-\u003eNArray a b",
@@ -830,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solveHomog1'",
           "package": "hTensor",
@@ -839,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Array Solve",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solveHomog1'",
           "normalized": "(Matrix a-\u003eMatrix b)-\u003eNArray c a-\u003e[Name]-\u003eNArray c b",
@@ -855,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolution of the linear system a x = b, where a and b are\n general multidimensional arrays, with homogeneous equality along a given index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solveP",
           "package": "hTensor",
@@ -864,6 +917,7 @@
         "index": {
           "description": "Solution of the linear system where and are general multidimensional arrays with homogeneous equality along given index",
           "hierarchy": "Numeric LinearAlgebra Array Solve",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solveP",
           "normalized": "Tensor Double-\u003eTensor Double-\u003eName-\u003eTensor Double",
@@ -878,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solveP'",
           "package": "hTensor",
@@ -887,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Array Solve",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Solve",
           "name": "solveP'",
           "normalized": "(Matrix Double-\u003eMatrix a)-\u003eNArray Variant Double-\u003eNArray Variant Double-\u003eName-\u003eNArray Variant a",
@@ -903,6 +959,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAdditional tools for manipulation of multidimensional arrays.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "Util",
           "package": "hTensor",
@@ -912,6 +969,7 @@
         "index": {
           "description": "Additional tools for manipulation of multidimensional arrays",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "Util",
           "package": "hTensor",
@@ -926,6 +984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of compatible indices for contractions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "Compat",
           "package": "hTensor",
@@ -935,6 +994,7 @@
         "index": {
           "description": "Class of compatible indices for contractions",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "Compat",
           "package": "hTensor",
@@ -949,6 +1009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes that can be elements of the multidimensional arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "Coord",
           "package": "hTensor",
@@ -958,6 +1019,7 @@
         "index": {
           "description": "Types that can be elements of the multidimensional arrays",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "Coord",
           "package": "hTensor",
@@ -972,6 +1034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDimension descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "Idx",
           "package": "hTensor",
@@ -981,6 +1044,7 @@
         "index": {
           "description": "Dimension descriptor",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "Idx",
           "package": "hTensor",
@@ -995,6 +1059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA multidimensional array with index type i and elements t.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "NArray",
           "package": "hTensor",
@@ -1004,6 +1069,7 @@
         "index": {
           "description": "multidimensional array with index type and elements",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "NArray",
           "package": "hTensor",
@@ -1018,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindices are denoted by strings, (frequently single-letter)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "Name",
           "package": "hTensor",
@@ -1027,6 +1094,7 @@
         "index": {
           "description": "indices are denoted by strings frequently single-letter",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "Name",
           "package": "hTensor",
@@ -1041,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTensor product with automatic contraction of repeated indices, following Einstein summation convention.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "(|*|)",
           "package": "hTensor",
@@ -1051,6 +1120,7 @@
         "index": {
           "description": "Tensor product with automatic contraction of repeated indices following Einstein summation convention",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "(|*|) |*|",
           "normalized": "NArray a b-\u003eNArray a b-\u003eNArray a b",
@@ -1143,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "Idx",
           "package": "hTensor",
@@ -1152,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "Idx",
           "package": "hTensor",
@@ -1165,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "analyzeProduct",
           "package": "hTensor",
@@ -1174,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "analyzeProduct",
           "normalized": "NArray a b-\u003eNArray a b-\u003eMaybe(NArray a b,Int)",
@@ -1189,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "applyAsMatrix",
           "package": "hTensor",
@@ -1198,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "applyAsMatrix",
           "normalized": "(Matrix a-\u003eMatrix a)-\u003eNArray b a-\u003eNArray b a",
@@ -1214,6 +1290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the \u003ccode\u003e\u003ca\u003eMatrix\u003c/a\u003e\u003c/code\u003e corresponding to a two-dimensional array,\n in the rows,cols order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "asMatrix",
           "package": "hTensor",
@@ -1224,6 +1301,7 @@
         "index": {
           "description": "Extract the Matrix corresponding to two-dimensional array in the rows cols order",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "asMatrix",
           "normalized": "NArray a b-\u003eMatrix b",
@@ -1240,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the scalar element corresponding to a 0-dimensional array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "asScalar",
           "package": "hTensor",
@@ -1250,6 +1329,7 @@
         "index": {
           "description": "Extract the scalar element corresponding to dimensional array",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "asScalar",
           "normalized": "NArray a b-\u003eb",
@@ -1266,6 +1346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e corresponding to a one-dimensional array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "asVector",
           "package": "hTensor",
@@ -1276,6 +1357,7 @@
         "index": {
           "description": "Extract the Vector corresponding to one-dimensional array",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "asVector",
           "normalized": "NArray a b-\u003eVector b",
@@ -1291,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "atT",
           "package": "hTensor",
@@ -1300,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "atT",
           "normalized": "NArray a b-\u003e[Int]-\u003eNArray a b",
@@ -1315,6 +1399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain a canonical base for the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "basisOf",
           "package": "hTensor",
@@ -1325,6 +1410,7 @@
         "index": {
           "description": "Obtain canonical base for the array",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "basisOf",
           "normalized": "NArray a b-\u003e[NArray a b]",
@@ -1340,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "compat",
           "package": "hTensor",
@@ -1349,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "compat",
           "normalized": "Idx a-\u003eIdx a-\u003eBool",
@@ -1364,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtains most general structure of a list of dimension specifications\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "conformable",
           "package": "hTensor",
@@ -1374,6 +1463,7 @@
         "index": {
           "description": "Obtains most general structure of list of dimension specifications",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "conformable",
           "normalized": "[[Idx a]]-\u003eMaybe[Idx a]",
@@ -1389,6 +1479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the coordinates of an array as a\n flattened structure (in the order specified by \u003ccode\u003e\u003ca\u003edims\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "coords",
           "package": "hTensor",
@@ -1399,6 +1490,7 @@
         "index": {
           "description": "Get the coordinates of an array as flattened structure in the order specified by dims",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "coords",
           "normalized": "NArray a b-\u003eVector b",
@@ -1414,6 +1506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultidimensional diagonal of given order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "diagT",
           "package": "hTensor",
@@ -1424,6 +1517,7 @@
         "index": {
           "description": "Multidimensional diagonal of given order",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "diagT",
           "normalized": "[Double]-\u003eInt-\u003eArray Double",
@@ -1439,6 +1533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet detailed dimension information about the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "dims",
           "package": "hTensor",
@@ -1449,6 +1544,7 @@
         "index": {
           "description": "Get detailed dimension information about the array",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "dims",
           "normalized": "NArray a b-\u003e[Idx a]",
@@ -1464,6 +1560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a dummy index of dimension 1 at a given level (for formatting purposes).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "dummyAt",
           "package": "hTensor",
@@ -1474,6 +1571,7 @@
         "index": {
           "description": "Insert dummy index of dimension at given level for formatting purposes",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "dummyAt",
           "normalized": "Int-\u003eNArray a b-\u003eNArray a b",
@@ -1490,6 +1588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect some parts of an array, taking into account position and value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "extract",
           "package": "hTensor",
@@ -1500,6 +1599,7 @@
         "index": {
           "description": "Select some parts of an array taking into account position and value",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "extract",
           "normalized": "(Int-\u003eNArray a b-\u003eBool)-\u003eName-\u003eNArray a b-\u003eNArray a b",
@@ -1515,6 +1615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain a matrix whose columns are the fibers of the array in the given dimension. The column order depends on the selected index (see \u003ccode\u003e\u003ca\u003ematrixator\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "fibers",
           "package": "hTensor",
@@ -1525,6 +1626,7 @@
         "index": {
           "description": "Obtain matrix whose columns are the fibers of the array in the given dimension The column order depends on the selected index see matrixator",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "fibers",
           "normalized": "Name-\u003eNArray a b-\u003eMatrix b",
@@ -1540,6 +1642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a multidimensional array as a nested 2D table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "formatArray",
           "package": "hTensor",
@@ -1549,6 +1652,7 @@
         "index": {
           "description": "Show multidimensional array as nested table",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "formatArray",
           "normalized": "(a-\u003eString)-\u003eNArray b a-\u003eString",
@@ -1565,6 +1669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the array as a nested table with a \"%.nf\" format. If all entries\n are approximate integers the array is shown without the .00.. digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "formatFixed",
           "package": "hTensor",
@@ -1574,6 +1679,7 @@
         "index": {
           "description": "Show the array as nested table with nf format If all entries are approximate integers the array is shown without the digits",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "formatFixed",
           "normalized": "Int-\u003eNArray a Double-\u003eString",
@@ -1590,6 +1696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the array as a nested table with autoscaled entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "formatScaled",
           "package": "hTensor",
@@ -1599,6 +1706,7 @@
         "index": {
           "description": "Show the array as nested table with autoscaled entries",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "formatScaled",
           "normalized": "Int-\u003eNArray a Double-\u003eString",
@@ -1615,6 +1723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a 2nd order array from a \u003ccode\u003e\u003ca\u003eMatrix\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "fromMatrix",
           "package": "hTensor",
@@ -1625,6 +1734,7 @@
         "index": {
           "description": "Create nd order array from Matrix",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "fromMatrix",
           "normalized": "a-\u003ea-\u003eMatrix b-\u003eNArray a b",
@@ -1641,6 +1751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a 1st order array from a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "fromVector",
           "package": "hTensor",
@@ -1651,6 +1762,7 @@
         "index": {
           "description": "Create st order array from Vector",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "fromVector",
           "normalized": "a-\u003eVector b-\u003eNArray a b",
@@ -1666,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "iDim",
           "package": "hTensor",
@@ -1675,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "iDim",
           "package": "hTensor",
@@ -1688,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "iName",
           "package": "hTensor",
@@ -1697,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "iName",
           "package": "hTensor",
@@ -1710,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "iType",
           "package": "hTensor",
@@ -1719,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "iType",
           "package": "hTensor",
@@ -1733,6 +1851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a list of arrays to a common structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "makeConformant",
           "package": "hTensor",
@@ -1743,6 +1862,7 @@
         "index": {
           "description": "Converts list of arrays to common structure",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "makeConformant",
           "normalized": "[NArray a b]-\u003e[NArray a b]",
@@ -1759,6 +1879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function (defined on hmatrix \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003es) to all elements of a structure.\n Use \u003ccode\u003emapArray (mapVector f)\u003c/code\u003e for general functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "mapArray",
           "package": "hTensor",
@@ -1769,6 +1890,7 @@
         "index": {
           "description": "Apply function defined on hmatrix Vector to all elements of structure Use mapArray mapVector for general functions",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "mapArray",
           "normalized": "(Vector a-\u003eVector b)-\u003eNArray c a-\u003eNArray c b",
@@ -1785,6 +1907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function at the internal level selected by a set of indices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "mapTat",
           "package": "hTensor",
@@ -1795,6 +1918,7 @@
         "index": {
           "description": "Map function at the internal level selected by set of indices",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "mapTat",
           "normalized": "(NArray a b-\u003eNArray a c)-\u003e[Name]-\u003eNArray a b-\u003eNArray a c",
@@ -1811,6 +1935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReshapes an array as a matrix with the desired dimensions as flattened rows and flattened columns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "matrixator",
           "package": "hTensor",
@@ -1820,6 +1945,7 @@
         "index": {
           "description": "Reshapes an array as matrix with the desired dimensions as flattened rows and flattened columns",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "matrixator",
           "normalized": "NArray a b-\u003e[Name]-\u003e[Name]-\u003eMatrix b",
@@ -1835,6 +1961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReshapes an array as a matrix with the desired dimensions as flattened rows and flattened columns. We do not force the order of the columns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "matrixatorFree",
           "package": "hTensor",
@@ -1844,6 +1971,7 @@
         "index": {
           "description": "Reshapes an array as matrix with the desired dimensions as flattened rows and flattened columns We do not force the order of the columns",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "matrixatorFree",
           "normalized": "NArray a b-\u003e[Name]-\u003e(Matrix b,[Name])",
@@ -1860,6 +1988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine an array using an association list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "mkAssoc",
           "package": "hTensor",
@@ -1870,6 +1999,7 @@
         "index": {
           "description": "Define an array using an association list",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "mkAssoc",
           "normalized": "[Int]-\u003e[([Int],Double)]-\u003eArray Double",
@@ -1886,6 +2016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine an array using a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "mkFun",
           "package": "hTensor",
@@ -1896,6 +2027,7 @@
         "index": {
           "description": "Define an array using function",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "mkFun",
           "normalized": "[Int]-\u003e([Int]-\u003eDouble)-\u003eArray Double",
@@ -1912,6 +2044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "names",
           "package": "hTensor",
@@ -1922,6 +2055,7 @@
         "index": {
           "description": "Index names",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "names",
           "normalized": "NArray a b-\u003e[Name]",
@@ -1937,6 +2071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an array from a list of subarrays. (The inverse of \u003ccode\u003e\u003ca\u003eparts\u003c/a\u003e\u003c/code\u003e.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "newIndex",
           "package": "hTensor",
@@ -1946,6 +2081,7 @@
         "index": {
           "description": "Create an array from list of subarrays The inverse of parts",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "newIndex",
           "normalized": "a-\u003eName-\u003e[NArray a b]-\u003eNArray a b",
@@ -1962,6 +2098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename indices so that they are not shown in formatted output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "noIdx",
           "package": "hTensor",
@@ -1972,6 +2109,7 @@
         "index": {
           "description": "Rename indices so that they are not shown in formatted output",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "noIdx",
           "normalized": "NArray a b-\u003eNArray a b",
@@ -1988,6 +2126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a list function to the parts of an array at a given index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "onIndex",
           "package": "hTensor",
@@ -1998,6 +2137,7 @@
         "index": {
           "description": "Apply list function to the parts of an array at given index",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "onIndex",
           "normalized": "([NArray a b]-\u003e[NArray a c])-\u003eName-\u003eNArray a b-\u003eNArray a c",
@@ -2013,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "opos",
           "package": "hTensor",
@@ -2022,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "opos",
           "normalized": "Idx a-\u003eIdx a",
@@ -2037,6 +2179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of dimensions of a multidimensional array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "order",
           "package": "hTensor",
@@ -2047,6 +2190,7 @@
         "index": {
           "description": "The number of dimensions of multidimensional array",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "order",
           "normalized": "NArray a b-\u003eInt",
@@ -2062,6 +2206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOuter product of a list of arrays along the common indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "outers",
           "package": "hTensor",
@@ -2072,6 +2217,7 @@
         "index": {
           "description": "Outer product of list of arrays along the common indices",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "outers",
           "normalized": "[NArray a b]-\u003eNArray a b",
@@ -2087,6 +2233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a list of the substructures at the given level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "parts",
           "package": "hTensor",
@@ -2096,6 +2243,7 @@
         "index": {
           "description": "Create list of the substructures at the given level",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "parts",
           "normalized": "NArray a b-\u003eName-\u003e[NArray a b]",
@@ -2111,6 +2259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename indices using an association list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "renameExplicit",
           "package": "hTensor",
@@ -2121,6 +2270,7 @@
         "index": {
           "description": "Rename indices using an association list",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "renameExplicit",
           "normalized": "[(Name,Name)]-\u003eNArray a b-\u003eNArray a b",
@@ -2137,6 +2287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename indices in alphabetical order. Equal indices of compatible type are contracted out.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "renameO",
           "package": "hTensor",
@@ -2147,6 +2298,7 @@
         "index": {
           "description": "Rename indices in alphabetical order Equal indices of compatible type are contracted out",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "renameO",
           "normalized": "NArray a b-\u003e[Name]-\u003eNArray a b",
@@ -2162,6 +2314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the \u003ccode\u003e\u003ca\u003eparts\u003c/a\u003e\u003c/code\u003e of an array, and renameRaw one of the remaining indices\n with succesive integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "renameParts",
           "package": "hTensor",
@@ -2171,6 +2324,7 @@
         "index": {
           "description": "Extract the parts of an array and renameRaw one of the remaining indices with succesive integers",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "renameParts",
           "normalized": "Name-\u003eNArray a b-\u003eName-\u003eString-\u003e[NArray a b]",
@@ -2187,6 +2341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the internal layout of coordinates.\n The array, considered as an abstract object, does not change.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "reorder",
           "package": "hTensor",
@@ -2197,6 +2352,7 @@
         "index": {
           "description": "Change the internal layout of coordinates The array considered as an abstract object does not change",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "reorder",
           "normalized": "[Name]-\u003eNArray a b-\u003eNArray a b",
@@ -2212,6 +2368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echange the whole set of coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "resetCoords",
           "package": "hTensor",
@@ -2222,6 +2379,7 @@
         "index": {
           "description": "change the whole set of coordinates",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "resetCoords",
           "normalized": "NArray a b-\u003eVector b-\u003eNArray a b",
@@ -2238,6 +2396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if two arrays have the same structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "sameStructure",
           "package": "hTensor",
@@ -2248,6 +2407,7 @@
         "index": {
           "description": "Check if two arrays have the same structure",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "sameStructure",
           "normalized": "NArray a b-\u003eNArray a b-\u003eBool",
@@ -2290,6 +2450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange type of index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "setType",
           "package": "hTensor",
@@ -2300,6 +2461,7 @@
         "index": {
           "description": "Change type of index",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "setType",
           "normalized": "Name-\u003ea-\u003eNArray a b-\u003eNArray a b",
@@ -2316,6 +2478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDimension of given index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "size",
           "package": "hTensor",
@@ -2326,6 +2489,7 @@
         "index": {
           "description": "Dimension of given index",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "size",
           "normalized": "Name-\u003eNArray a b-\u003eInt",
@@ -2340,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "sizes",
           "package": "hTensor",
@@ -2349,6 +2514,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "sizes",
           "normalized": "NArray a b-\u003e[Int]",
@@ -2364,6 +2530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is equivalent to the regular \u003ccode\u003e\u003ca\u003eproduct\u003c/a\u003e\u003c/code\u003e, but in the order that minimizes the size of the\n intermediate factors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "smartProduct",
           "package": "hTensor",
@@ -2374,6 +2541,7 @@
         "index": {
           "description": "This is equivalent to the regular product but in the order that minimizes the size of the intermediate factors",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "smartProduct",
           "normalized": "[NArray a b]-\u003eNArray a b",
@@ -2389,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "takeDiagT",
           "package": "hTensor",
@@ -2398,6 +2567,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "takeDiagT",
           "normalized": "NArray a b-\u003e[b]",
@@ -2414,6 +2584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of given index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "typeOf",
           "package": "hTensor",
@@ -2424,6 +2595,7 @@
         "index": {
           "description": "Type of given index",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "typeOf",
           "normalized": "Name-\u003eNArray a b-\u003ea",
@@ -2440,6 +2612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an element-by-element binary function to the coordinates of two arrays. The arguments are automatically made conformant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "zipArray",
           "package": "hTensor",
@@ -2449,6 +2622,7 @@
         "index": {
           "description": "Apply an element-by-element binary function to the coordinates of two arrays The arguments are automatically made conformant",
           "hierarchy": "Numeric LinearAlgebra Array Util",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array.Util",
           "name": "zipArray",
           "normalized": "(Vector a-\u003eVector b-\u003eVector c)-\u003eNArray d a-\u003eNArray d b-\u003eNArray d c",
@@ -2465,6 +2639,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple multidimensional array with useful numeric instances.\n\u003c/p\u003e\u003cp\u003eContractions only require equal dimension.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array",
           "name": "Array",
           "package": "hTensor",
@@ -2474,6 +2649,7 @@
         "index": {
           "description": "Simple multidimensional array with useful numeric instances Contractions only require equal dimension",
           "hierarchy": "Numeric LinearAlgebra Array",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array",
           "name": "Array",
           "package": "hTensor",
@@ -2488,6 +2664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultidimensional array with unespecified coordinate type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array",
           "name": "Array",
           "package": "hTensor",
@@ -2497,6 +2674,7 @@
         "index": {
           "description": "Multidimensional array with unespecified coordinate type",
           "hierarchy": "Numeric LinearAlgebra Array",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array",
           "name": "Array",
           "package": "hTensor",
@@ -2511,6 +2689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnespecified coordinate type. Contractions only\n require equal dimension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array",
           "name": "None",
           "package": "hTensor",
@@ -2520,6 +2699,7 @@
         "index": {
           "description": "Unespecified coordinate type Contractions only require equal dimension",
           "hierarchy": "Numeric LinearAlgebra Array",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array",
           "name": "None",
           "package": "hTensor",
@@ -2534,6 +2714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement by element product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array",
           "name": "(.*)",
           "package": "hTensor",
@@ -2544,6 +2725,7 @@
         "index": {
           "description": "Element by element product",
           "hierarchy": "Numeric LinearAlgebra Array",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array",
           "name": "(.*) .*",
           "normalized": "NArray a b-\u003eNArray a b-\u003eNArray a b",
@@ -2558,6 +2740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array",
           "name": "None",
           "package": "hTensor",
@@ -2567,6 +2750,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Array",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array",
           "name": "None",
           "package": "hTensor",
@@ -2581,6 +2765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e from a list of parts (\u003ccode\u003eindex = \u003ccode\u003e\u003ca\u003enewIndex\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eNone\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array",
           "name": "index",
           "package": "hTensor",
@@ -2591,6 +2776,7 @@
         "index": {
           "description": "Create an Array from list of parts index newIndex None",
           "hierarchy": "Numeric LinearAlgebra Array",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array",
           "name": "index",
           "normalized": "Name-\u003e[Array a]-\u003eArray a",
@@ -2606,6 +2792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruction of an \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e from a list of dimensions and a list of elements in left to right order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array",
           "name": "listArray",
           "package": "hTensor",
@@ -2615,6 +2802,7 @@
         "index": {
           "description": "Construction of an Array from list of dimensions and list of elements in left to right order",
           "hierarchy": "Numeric LinearAlgebra Array",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array",
           "name": "listArray",
           "normalized": "[Int]-\u003e[a]-\u003eArray a",
@@ -2631,6 +2819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the array as a nested table with the desired format (e.g. %7.2f) (see also \u003ccode\u003e\u003ca\u003eformatArray\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eformatScaled\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Array",
           "name": "printA",
           "package": "hTensor",
@@ -2641,6 +2830,7 @@
         "index": {
           "description": "Print the array as nested table with the desired format e.g see also formatArray and formatScaled",
           "hierarchy": "Numeric LinearAlgebra Array",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Array",
           "name": "printA",
           "normalized": "String-\u003eNArray a b-\u003eIO()",
@@ -2656,6 +2846,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExterior Algebra.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Exterior",
           "name": "Exterior",
           "package": "hTensor",
@@ -2665,6 +2856,7 @@
         "index": {
           "description": "Exterior Algebra",
           "hierarchy": "Numeric LinearAlgebra Exterior",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Exterior",
           "name": "Exterior",
           "package": "hTensor",
@@ -2679,6 +2871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe exterior (wedge) product of two tensors. Obtains the union of subspaces.\n\u003c/p\u003e\u003cp\u003eImplemented as the antisymmetrization of the tensor product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Exterior",
           "name": "(/\\)",
           "package": "hTensor",
@@ -2689,6 +2882,7 @@
         "index": {
           "description": "The exterior wedge product of two tensors Obtains the union of subspaces Implemented as the antisymmetrization of the tensor product",
           "hierarchy": "Numeric LinearAlgebra Exterior",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Exterior",
           "name": "(/\\) /\\",
           "normalized": "Tensor a-\u003eTensor a-\u003eTensor a",
@@ -2704,6 +2898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \"meet\" operator. Obtains the intersection of subspaces.\n\u003c/p\u003e\u003cpre\u003ea \\/ b = dual (dual a /\\ dual b)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Exterior",
           "name": "(\\/)",
           "package": "hTensor",
@@ -2714,6 +2909,7 @@
         "index": {
           "description": "The meet operator Obtains the intersection of subspaces dual dual dual",
           "hierarchy": "Numeric LinearAlgebra Exterior",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Exterior",
           "name": "(\\/) \\/",
           "normalized": "Tensor Double-\u003eTensor Double-\u003eTensor Double",
@@ -2729,6 +2925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a compact multivector representation from a full antisymmetric tensor.\n\u003c/p\u003e\u003cp\u003easMultivector = Multivector.\u003ccode\u003e\u003ca\u003efromTensor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e(We do not check that the tensor is actually antisymmetric.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Exterior",
           "name": "asMultivector",
           "package": "hTensor",
@@ -2739,6 +2936,7 @@
         "index": {
           "description": "Extract compact multivector representation from full antisymmetric tensor asMultivector Multivector fromTensor We do not check that the tensor is actually antisymmetric",
           "hierarchy": "Numeric LinearAlgebra Exterior",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Exterior",
           "name": "asMultivector",
           "normalized": "Tensor Double-\u003eMultivector",
@@ -2755,6 +2953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInner product of a r-vector with the whole space.\n\u003c/p\u003e\u003cpre\u003edual t = inner (leviCivita n) t\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Exterior",
           "name": "dual",
           "package": "hTensor",
@@ -2765,6 +2964,7 @@
         "index": {
           "description": "Inner product of r-vector with the whole space dual inner leviCivita",
           "hierarchy": "Numeric LinearAlgebra Exterior",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Exterior",
           "name": "dual",
           "normalized": "Tensor Double-\u003eTensor Double",
@@ -2780,6 +2980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an explicit antisymmetric \u003ccode\u003e\u003ca\u003eTensor\u003c/a\u003e\u003c/code\u003e from the components of a Multivector of a given grade.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Exterior",
           "name": "fromMultivector",
           "package": "hTensor",
@@ -2790,6 +2991,7 @@
         "index": {
           "description": "Create an explicit antisymmetric Tensor from the components of Multivector of given grade",
           "hierarchy": "Numeric LinearAlgebra Exterior",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Exterior",
           "name": "fromMultivector",
           "normalized": "Int-\u003eMultivector-\u003eTensor Double",
@@ -2806,6 +3008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEuclidean inner product of multivectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Exterior",
           "name": "inner",
           "package": "hTensor",
@@ -2816,6 +3019,7 @@
         "index": {
           "description": "Euclidean inner product of multivectors",
           "hierarchy": "Numeric LinearAlgebra Exterior",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Exterior",
           "name": "inner",
           "normalized": "Tensor a-\u003eTensor a-\u003eTensor a",
@@ -2831,6 +3035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe full antisymmetric tensor of order n (contravariant version).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Exterior",
           "name": "leviCivita",
           "package": "hTensor",
@@ -2841,6 +3046,7 @@
         "index": {
           "description": "The full antisymmetric tensor of order contravariant version",
           "hierarchy": "Numeric LinearAlgebra Exterior",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Exterior",
           "name": "leviCivita",
           "normalized": "Int-\u003eTensor Double",
@@ -2857,6 +3063,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple implementation of Geometric Algebra.\n\u003c/p\u003e\u003cp\u003eThe Num instance provides the geometric product, and the Fractional\n instance provides the inverse of multivectors.\n\u003c/p\u003e\u003cp\u003eThis module provides a simple Euclidean embedding.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "Multivector",
           "package": "hTensor",
@@ -2866,6 +3073,7 @@
         "index": {
           "description": "simple implementation of Geometric Algebra The Num instance provides the geometric product and the Fractional instance provides the inverse of multivectors This module provides simple Euclidean embedding",
           "hierarchy": "Numeric LinearAlgebra Multivector",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "Multivector",
           "package": "hTensor",
@@ -2879,6 +3087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "Multivector",
           "package": "hTensor",
@@ -2887,6 +3096,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Multivector",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "Multivector",
           "package": "hTensor",
@@ -2901,6 +3111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe contractive inner product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "(-|)",
           "package": "hTensor",
@@ -2911,6 +3122,7 @@
         "index": {
           "description": "The contractive inner product",
           "hierarchy": "Numeric LinearAlgebra Multivector",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "(-|) -|",
           "normalized": "Multivector-\u003eMultivector-\u003eMultivector",
@@ -2926,6 +3138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe exterior (outer) product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "(/\\)",
           "package": "hTensor",
@@ -2936,6 +3149,7 @@
         "index": {
           "description": "The exterior outer product",
           "hierarchy": "Numeric LinearAlgebra Multivector",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "(/\\) /\\",
           "normalized": "Multivector-\u003eMultivector-\u003eMultivector",
@@ -2951,6 +3165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersection of subspaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "(\\/)",
           "package": "hTensor",
@@ -2961,6 +3176,7 @@
         "index": {
           "description": "Intersection of subspaces",
           "hierarchy": "Numeric LinearAlgebra Multivector",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "(\\/) \\/",
           "normalized": "Multivector-\u003eMultivector-\u003eMultivector",
@@ -2976,6 +3192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a linear transformation, expressed as the image of the element i-th of the basis.\n\u003c/p\u003e\u003cp\u003e(This is a monadic bind!)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "apply",
           "package": "hTensor",
@@ -2986,6 +3203,7 @@
         "index": {
           "description": "Apply linear transformation expressed as the image of the element i-th of the basis This is monadic bind",
           "hierarchy": "Numeric LinearAlgebra Multivector",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "apply",
           "normalized": "(Int-\u003eMultivector)-\u003eMultivector-\u003eMultivector",
@@ -3000,6 +3218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "coords",
           "package": "hTensor",
@@ -3009,6 +3228,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Multivector",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "coords",
           "normalized": "Multivector-\u003e[(Double,[Int])]",
@@ -3024,6 +3244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe k-th basis element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "e",
           "package": "hTensor",
@@ -3034,6 +3255,7 @@
         "index": {
           "description": "The k-th basis element",
           "hierarchy": "Numeric LinearAlgebra Multivector",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "e",
           "normalized": "Int-\u003eMultivector",
@@ -3049,6 +3271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a multivector representation from a full antisymmetric tensor.\n\u003c/p\u003e\u003cp\u003e(We do not check that the tensor is actually antisymmetric.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "fromTensor",
           "package": "hTensor",
@@ -3059,6 +3282,7 @@
         "index": {
           "description": "Extract multivector representation from full antisymmetric tensor We do not check that the tensor is actually antisymmetric",
           "hierarchy": "Numeric LinearAlgebra Multivector",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "fromTensor",
           "normalized": "Tensor Double-\u003eMultivector",
@@ -3075,6 +3299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe full space of the given dimension. This is the leviCivita simbol, and the basis of the pseudoscalar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "full",
           "package": "hTensor",
@@ -3085,6 +3310,7 @@
         "index": {
           "description": "The full space of the given dimension This is the leviCivita simbol and the basis of the pseudoscalar",
           "hierarchy": "Numeric LinearAlgebra Multivector",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "full",
           "normalized": "Int-\u003eMultivector",
@@ -3099,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "grade",
           "package": "hTensor",
@@ -3108,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Multivector",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "grade",
           "normalized": "Int-\u003eMultivector-\u003eMultivector",
@@ -3122,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "maxDim",
           "package": "hTensor",
@@ -3131,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Multivector",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "maxDim",
           "normalized": "Multivector-\u003eInt",
@@ -3146,6 +3376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "maxGrade",
           "package": "hTensor",
@@ -3155,6 +3386,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Multivector",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "maxGrade",
           "normalized": "Multivector-\u003eInt",
@@ -3171,6 +3403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe reversion operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "rever",
           "package": "hTensor",
@@ -3181,6 +3414,7 @@
         "index": {
           "description": "The reversion operator",
           "hierarchy": "Numeric LinearAlgebra Multivector",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "rever",
           "normalized": "Multivector-\u003eMultivector",
@@ -3196,6 +3430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rotor operator, used in a sandwich product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "rotor",
           "package": "hTensor",
@@ -3205,6 +3440,7 @@
         "index": {
           "description": "The rotor operator used in sandwich product",
           "hierarchy": "Numeric LinearAlgebra Multivector",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "rotor",
           "normalized": "Int-\u003eDouble-\u003eMultivector-\u003eMultivector",
@@ -3220,6 +3456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a scalar multivector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "scalar",
           "package": "hTensor",
@@ -3230,6 +3467,7 @@
         "index": {
           "description": "Creates scalar multivector",
           "hierarchy": "Numeric LinearAlgebra Multivector",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "scalar",
           "normalized": "Double-\u003eMultivector",
@@ -3245,6 +3483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a grade 1 multivector of from a list of coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "vector",
           "package": "hTensor",
@@ -3255,6 +3494,7 @@
         "index": {
           "description": "Creates grade multivector of from list of coordinates",
           "hierarchy": "Numeric LinearAlgebra Multivector",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Multivector",
           "name": "vector",
           "normalized": "[Double]-\u003eMultivector",
@@ -3270,6 +3510,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTensor computations. Indices can only be contracted if they are of different \u003ccode\u003e\u003ca\u003eVariant\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "Tensor",
           "package": "hTensor",
@@ -3279,6 +3520,7 @@
         "index": {
           "description": "Tensor computations Indices can only be contracted if they are of different Variant type",
           "hierarchy": "Numeric LinearAlgebra Tensor",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "Tensor",
           "package": "hTensor",
@@ -3292,6 +3534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "Tensor",
           "package": "hTensor",
@@ -3300,6 +3543,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Tensor",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "Tensor",
           "package": "hTensor",
@@ -3313,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "Variant",
           "package": "hTensor",
@@ -3321,6 +3566,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Tensor",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "Variant",
           "package": "hTensor",
@@ -3334,6 +3580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "Co",
           "package": "hTensor",
@@ -3343,6 +3590,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Tensor",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "Co",
           "package": "hTensor",
@@ -3356,6 +3604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "Contra",
           "package": "hTensor",
@@ -3365,6 +3614,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Tensor",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "Contra",
           "package": "hTensor",
@@ -3379,6 +3629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake all dimensions contravariant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "contrav",
           "package": "hTensor",
@@ -3389,6 +3640,7 @@
         "index": {
           "description": "Make all dimensions contravariant",
           "hierarchy": "Numeric LinearAlgebra Tensor",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "contrav",
           "normalized": "NArray a b-\u003eTensor b",
@@ -3404,6 +3656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake all dimensions covariant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "cov",
           "package": "hTensor",
@@ -3414,6 +3667,7 @@
         "index": {
           "description": "Make all dimensions covariant",
           "hierarchy": "Numeric LinearAlgebra Tensor",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "cov",
           "normalized": "NArray a b-\u003eTensor b",
@@ -3429,6 +3683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a covariant 1st order tensor from a list of coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "covector",
           "package": "hTensor",
@@ -3439,6 +3694,7 @@
         "index": {
           "description": "Create covariant st order tensor from list of coordinates",
           "hierarchy": "Numeric LinearAlgebra Tensor",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "covector",
           "normalized": "[Double]-\u003eTensor Double",
@@ -3454,6 +3710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the \u003ccode\u003e\u003ca\u003eVariant\u003c/a\u003e\u003c/code\u003e nature of coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "forget",
           "package": "hTensor",
@@ -3464,6 +3721,7 @@
         "index": {
           "description": "Remove the Variant nature of coordinates",
           "hierarchy": "Numeric LinearAlgebra Tensor",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "forget",
           "normalized": "NArray a b-\u003eArray b",
@@ -3479,6 +3737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a tensor from a list of dimensions and a list of coordinates.\n A positive dimension means that the index is assumed to be contravariant (vector-like), and\n a negative dimension means that the index is assumed to be covariant (like a linear function, or covector). Contractions can only be performed between indices of different type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "listTensor",
           "package": "hTensor",
@@ -3488,6 +3747,7 @@
         "index": {
           "description": "Creates tensor from list of dimensions and list of coordinates positive dimension means that the index is assumed to be contravariant vector-like and negative dimension means that the index is assumed to be covariant like linear function or covector Contractions can only be performed between indices of different type",
           "hierarchy": "Numeric LinearAlgebra Tensor",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "listTensor",
           "normalized": "[Int]-\u003e[a]-\u003eTensor a",
@@ -3504,6 +3764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003ca\u003eTensor\u003c/a\u003e\u003c/code\u003e from a list of parts with a covariant index (\u003ccode\u003esubindex = \u003ccode\u003e\u003ca\u003enewIndex\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCo\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "subindex",
           "package": "hTensor",
@@ -3514,6 +3775,7 @@
         "index": {
           "description": "Create an Tensor from list of parts with covariant index subindex newIndex Co",
           "hierarchy": "Numeric LinearAlgebra Tensor",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "subindex",
           "normalized": "Name-\u003e[Tensor a]-\u003eTensor a",
@@ -3529,6 +3791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003ca\u003eTensor\u003c/a\u003e\u003c/code\u003e from a list of parts with a contravariant index (\u003ccode\u003esuperindex = \u003ccode\u003e\u003ca\u003enewIndex\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eContra\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "superindex",
           "package": "hTensor",
@@ -3539,6 +3802,7 @@
         "index": {
           "description": "Create an Tensor from list of parts with contravariant index superindex newIndex Contra",
           "hierarchy": "Numeric LinearAlgebra Tensor",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "superindex",
           "normalized": "Name-\u003e[Tensor a]-\u003eTensor a",
@@ -3554,6 +3818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the \u003ccode\u003e\u003ca\u003eVariant\u003c/a\u003e\u003c/code\u003e nature of all dimensions to the opposite ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "switch",
           "package": "hTensor",
@@ -3564,6 +3829,7 @@
         "index": {
           "description": "Change the Variant nature of all dimensions to the opposite ones",
           "hierarchy": "Numeric LinearAlgebra Tensor",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "switch",
           "normalized": "Tensor a-\u003eTensor a",
@@ -3579,6 +3845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a 1-contravariant, 1-covariant 2nd order from list of lists of coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "transf",
           "package": "hTensor",
@@ -3589,6 +3856,7 @@
         "index": {
           "description": "Create contravariant covariant nd order from list of lists of coordinates",
           "hierarchy": "Numeric LinearAlgebra Tensor",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "transf",
           "normalized": "[[Double]]-\u003eTensor Double",
@@ -3604,6 +3872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a contravariant 1st order tensor from a list of coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:49 UTC 2014",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "vector",
           "package": "hTensor",
@@ -3614,6 +3883,7 @@
         "index": {
           "description": "Create contravariant st order tensor from list of coordinates",
           "hierarchy": "Numeric LinearAlgebra Tensor",
+          "indexed": "2014-03-11T18:24:49",
           "module": "Numeric.LinearAlgebra.Tensor",
           "name": "vector",
           "normalized": "[Double]-\u003eTensor Double",

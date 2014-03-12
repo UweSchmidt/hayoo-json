@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ranges"
+        "phrase": "ranges",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:33 UTC 2014",
           "module": "Data.Ranges",
           "name": "Ranges",
           "package": "ranges",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Ranges",
+          "indexed": "2014-03-11T19:48:33",
           "module": "Data.Ranges",
           "name": "Ranges",
           "package": "ranges",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:33 UTC 2014",
           "module": "Data.Ranges",
           "name": "Range",
           "package": "ranges",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Ranges",
+          "indexed": "2014-03-11T19:48:33",
           "module": "Data.Ranges",
           "name": "Range",
           "package": "ranges",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:33 UTC 2014",
           "module": "Data.Ranges",
           "name": "Ranges",
           "package": "ranges",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Ranges",
+          "indexed": "2014-03-11T19:48:33",
           "module": "Data.Ranges",
           "name": "Ranges",
           "package": "ranges",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:33 UTC 2014",
           "module": "Data.Ranges",
           "name": "addRange",
           "package": "ranges",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Ranges",
+          "indexed": "2014-03-11T19:48:33",
           "module": "Data.Ranges",
           "name": "addRange",
           "normalized": "Ranges a-\u003eRange a-\u003eRanges a",
@@ -106,6 +114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests if a given range contains a particular value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:33 UTC 2014",
           "module": "Data.Ranges",
           "name": "inRange",
           "package": "ranges",
@@ -116,6 +125,7 @@
         "index": {
           "description": "Tests if given range contains particular value",
           "hierarchy": "Data Ranges",
+          "indexed": "2014-03-11T19:48:33",
           "module": "Data.Ranges",
           "name": "inRange",
           "normalized": "a-\u003eRange a-\u003eBool",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests if any of the ranges contains a particular value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:33 UTC 2014",
           "module": "Data.Ranges",
           "name": "inRanges",
           "package": "ranges",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Tests if any of the ranges contains particular value",
           "hierarchy": "Data Ranges",
+          "indexed": "2014-03-11T19:48:33",
           "module": "Data.Ranges",
           "name": "inRanges",
           "normalized": "a-\u003eRanges a-\u003eBool",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eRange\u003c/a\u003e\u003c/code\u003e from a lower and upper bound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:33 UTC 2014",
           "module": "Data.Ranges",
           "name": "range",
           "package": "ranges",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Construct Range from lower and upper bound",
           "hierarchy": "Data Ranges",
+          "indexed": "2014-03-11T19:48:33",
           "module": "Data.Ranges",
           "name": "range",
           "normalized": "a-\u003ea-\u003eRange a",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eRanges\u003c/a\u003e\u003c/code\u003e from a list of lower and upper bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:33 UTC 2014",
           "module": "Data.Ranges",
           "name": "ranges",
           "package": "ranges",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Construct Ranges from list of lower and upper bounds",
           "hierarchy": "Data Ranges",
+          "indexed": "2014-03-11T19:48:33",
           "module": "Data.Ranges",
           "name": "ranges",
           "normalized": "[Range a]-\u003eRanges a",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA range consisting of a single value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:33 UTC 2014",
           "module": "Data.Ranges",
           "name": "single",
           "package": "ranges",
@@ -218,6 +235,7 @@
         "index": {
           "description": "range consisting of single value",
           "hierarchy": "Data Ranges",
+          "indexed": "2014-03-11T19:48:33",
           "module": "Data.Ranges",
           "name": "single",
           "normalized": "a-\u003eRange a",
@@ -233,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows quick lookups using ranges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:33 UTC 2014",
           "module": "Data.Ranges",
           "name": "toSet",
           "package": "ranges",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Allows quick lookups using ranges",
           "hierarchy": "Data Ranges",
+          "indexed": "2014-03-11T19:48:33",
           "module": "Data.Ranges",
           "name": "toSet",
           "normalized": "Ranges a-\u003eSet(Range a)",

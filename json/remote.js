@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "remote"
+        "phrase": "remote",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides Template Haskell-based tools\n and syntactic sugar for dealing with closures\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Call",
           "name": "Call",
           "package": "remote",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides Template Haskell-based tools and syntactic sugar for dealing with closures",
           "hierarchy": "Remote Call",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Call",
           "name": "Call",
           "package": "remote",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compile-time macro to expand a function name to its corresponding\n closure name (if such a closure exists), suitable for use with\n \u003ccode\u003espawn\u003c/code\u003e, \u003ccode\u003ecallRemote\u003c/code\u003e, etc\n In general, using the syntax \u003ccode\u003e$(mkClosure foo)\u003c/code\u003e is the same\n as addressing the closure generator by name, that is,\n \u003ccode\u003efoo__closure\u003c/code\u003e. In some cases you may need to use\n \u003ccode\u003e\u003ca\u003emkClosureRec\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Call",
           "name": "mkClosure",
           "package": "remote",
@@ -52,6 +55,7 @@
         "index": {
           "description": "compile-time macro to expand function name to its corresponding closure name if such closure exists suitable for use with spawn callRemote etc In general using the syntax mkClosure foo is the same as addressing the closure generator by name that is foo closure In some cases you may need to use mkClosureRec instead",
           "hierarchy": "Remote Call",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Call",
           "name": "mkClosure",
           "normalized": "Name-\u003eQ Exp",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003emkClosure\u003c/a\u003e\u003c/code\u003e suitable for expanding closures\n of functions declared in the same module, including that\n of the function it's used in. The Rec stands for recursive.\n If you get the \u003ccode\u003eSomething is not in scope at a reify\u003c/code\u003e message\n when using mkClosure, try using this function instead.\n Using this function also turns off the static\n checks used by mkClosure, and therefore you are responsible\n for making sure that you use \u003ccode\u003e\u003ca\u003eremotable\u003c/a\u003e\u003c/code\u003e with each function\n that may be an argument of mkClosureRec\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Call",
           "name": "mkClosureRec",
           "package": "remote",
@@ -78,6 +83,7 @@
         "index": {
           "description": "variant of mkClosure suitable for expanding closures of functions declared in the same module including that of the function it used in The Rec stands for recursive If you get the Something is not in scope at reify message when using mkClosure try using this function instead Using this function also turns off the static checks used by mkClosure and therefore you are responsible for making sure that you use remotable with each function that may be an argument of mkClosureRec",
           "hierarchy": "Remote Call",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Call",
           "name": "mkClosureRec",
           "normalized": "Name-\u003eQ Exp",
@@ -120,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides typed channels, an alternative\n approach to interprocess messaging. Typed channels\n can be used in combination with or instead of the\n the untyped channels available in the \u003ca\u003eRemote.Process\u003c/a\u003e\n module via \u003ccode\u003e\u003ca\u003esend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Channel",
           "name": "Channel",
           "package": "remote",
@@ -129,6 +136,7 @@
         "index": {
           "description": "This module provides typed channels an alternative approach to interprocess messaging Typed channels can be used in combination with or instead of the the untyped channels available in the Remote.Process module via send",
           "hierarchy": "Remote Channel",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Channel",
           "name": "Channel",
           "package": "remote",
@@ -142,6 +150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Channel",
           "name": "CombinedChannelAction",
           "package": "remote",
@@ -150,6 +159,7 @@
         },
         "index": {
           "hierarchy": "Remote Channel",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Channel",
           "name": "CombinedChannelAction",
           "package": "remote",
@@ -164,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA process holding a ReceivePort can extract messages\n from the channel, which we inserted by\n the holder(s) of the corresponding \u003ccode\u003e\u003ca\u003eSendPort\u003c/a\u003e\u003c/code\u003e.\n Critically, ReceivePorts, unlike SendPorts, are not serializable.\n This means that you can only receive messages through a channel\n on the node on which the channel was created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Channel",
           "name": "ReceivePort",
           "package": "remote",
@@ -173,6 +184,7 @@
         "index": {
           "description": "process holding ReceivePort can extract messages from the channel which we inserted by the holder of the corresponding SendPort Critically ReceivePorts unlike SendPorts are not serializable This means that you can only receive messages through channel on the node on which the channel was created",
           "hierarchy": "Remote Channel",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Channel",
           "name": "ReceivePort",
           "package": "remote",
@@ -187,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA channel is a unidirectional communication pipeline\n with two ends: a sending port, and a receiving port.\n This is the sending port. A process holding this\n value can insert messages into the channel. SendPorts\n themselves can also be sent to other processes.\n The other side of the channel is the \u003ccode\u003e\u003ca\u003eReceivePort\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Channel",
           "name": "SendPort",
           "package": "remote",
@@ -196,6 +209,7 @@
         "index": {
           "description": "channel is unidirectional communication pipeline with two ends sending port and receiving port This is the sending port process holding this value can insert messages into the channel SendPorts themselves can also be sent to other processes The other side of the channel is the ReceivePort",
           "hierarchy": "Remote Channel",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Channel",
           "name": "SendPort",
           "package": "remote",
@@ -453,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple type to represent a closure, that is, a function\n and its environment. The current implementation represents\n functions as strings, but this could be theoretically\n swapped out for the \"static\" mechanism described in the\n paper.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Closure",
           "name": "Closure",
           "package": "remote",
@@ -462,6 +477,7 @@
         "index": {
           "description": "simple type to represent closure that is function and its environment The current implementation represents functions as strings but this could be theoretically swapped out for the static mechanism described in the paper",
           "hierarchy": "Remote Closure",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Closure",
           "name": "Closure",
           "package": "remote",
@@ -476,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type representing a closure, that is, a function with its environment.\n   In spirit, this is actually:\n\u003c/p\u003e\u003cpre\u003e   data Closure a where\n     Closure :: Serializable v =\u003e Static (v -\u003e a) -\u003e v -\u003e Closure a     \n\u003c/pre\u003e\u003cp\u003ewhere the Static type wraps a function with no non-static free variables.\n   We simulate this behavior by identifying top-level functions as strings.\n   See the paper for clarification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Closure",
           "name": "Closure",
           "package": "remote",
@@ -485,6 +502,7 @@
         "index": {
           "description": "data type representing closure that is function with its environment In spirit this is actually data Closure where Closure Serializable Static Closure where the Static type wraps function with no non-static free variables We simulate this behavior by identifying top-level functions as strings See the paper for clarification",
           "hierarchy": "Remote Closure",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Closure",
           "name": "Closure",
           "package": "remote",
@@ -498,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Closure",
           "name": "Closure",
           "package": "remote",
@@ -507,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Remote Closure",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Closure",
           "name": "Closure",
           "package": "remote",
@@ -521,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the \u003ccode\u003e\u003ca\u003eSerializable\u003c/a\u003e\u003c/code\u003e type class and\n functions to convert to and from \u003ccode\u003e\u003ca\u003ePayload\u003c/a\u003e\u003c/code\u003es. It's implemented\n in terms of Haskell's \u003ca\u003eData.Binary\u003c/a\u003e. The message sending\n and receiving functionality in \u003ca\u003eRemote.Process\u003c/a\u003e depends on this.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Encoding",
           "name": "Encoding",
           "package": "remote",
@@ -530,6 +551,7 @@
         "index": {
           "description": "This module provides the Serializable type class and functions to convert to and from Payload It implemented in terms of Haskell Data.Binary The message sending and receiving functionality in Remote.Process depends on this",
           "hierarchy": "Remote Encoding",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Encoding",
           "name": "Encoding",
           "package": "remote",
@@ -543,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Encoding",
           "name": "DynamicPayload",
           "package": "remote",
@@ -551,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Remote Encoding",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Encoding",
           "name": "DynamicPayload",
           "package": "remote",
@@ -564,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Encoding",
           "name": "Payload",
           "package": "remote",
@@ -572,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Remote Encoding",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Encoding",
           "name": "Payload",
           "package": "remote",
@@ -585,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Encoding",
           "name": "PayloadLength",
           "package": "remote",
@@ -593,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Remote Encoding",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Encoding",
           "name": "PayloadLength",
           "package": "remote",
@@ -607,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData that can be sent as a message must implement\n this class. The class has no functions of its own,\n but instead simply requires that the type implement\n both \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eBinary\u003c/a\u003e\u003c/code\u003e. Typeable can usually\n be derived automatically. Binary requires the put and get\n functions, which can be easily implemented by hand,\n or you can use the \u003ccode\u003e\u003ca\u003egenericGet\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003egenericPut\u003c/a\u003e\u003c/code\u003e flavors,\n which will work automatically for types implementing\n \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Encoding",
           "name": "Serializable",
           "package": "remote",
@@ -616,6 +645,7 @@
         "index": {
           "description": "Data that can be sent as message must implement this class The class has no functions of its own but instead simply requires that the type implement both Typeable and Binary Typeable can usually be derived automatically Binary requires the put and get functions which can be easily implemented by hand or you can use the genericGet and genericPut flavors which will work automatically for types implementing Data",
           "hierarchy": "Remote Encoding",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Encoding",
           "name": "Serializable",
           "package": "remote",
@@ -629,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Encoding",
           "name": "dynamicDecodePure",
           "package": "remote",
@@ -638,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Remote Encoding",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Encoding",
           "name": "dynamicDecodePure",
           "normalized": "DynamicPayload-\u003eMaybe a",
@@ -653,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Encoding",
           "name": "dynamicEncodePure",
           "package": "remote",
@@ -662,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Remote Encoding",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Encoding",
           "name": "dynamicEncodePure",
           "normalized": "a-\u003eDynamicPayload",
@@ -729,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Encoding",
           "name": "getDynamicPayloadType",
           "package": "remote",
@@ -738,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Remote Encoding",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Encoding",
           "name": "getDynamicPayloadType",
           "normalized": "DynamicPayload-\u003eString",
@@ -753,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Encoding",
           "name": "getPayloadContent",
           "package": "remote",
@@ -762,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Remote Encoding",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Encoding",
           "name": "getPayloadContent",
           "normalized": "Payload-\u003eByteString",
@@ -777,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Encoding",
           "name": "getPayloadType",
           "package": "remote",
@@ -786,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Remote Encoding",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Encoding",
           "name": "getPayloadType",
           "normalized": "Payload-\u003eString",
@@ -801,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Encoding",
           "name": "hGetPayload",
           "package": "remote",
@@ -810,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Remote Encoding",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Encoding",
           "name": "hGetPayload",
           "normalized": "Handle-\u003eIO Payload",
@@ -825,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Encoding",
           "name": "hPutPayload",
           "package": "remote",
@@ -834,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Remote Encoding",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Encoding",
           "name": "hPutPayload",
           "normalized": "Handle-\u003ePayload-\u003eIO()",
@@ -849,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Encoding",
           "name": "payloadLength",
           "package": "remote",
@@ -858,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Remote Encoding",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Encoding",
           "name": "payloadLength",
           "normalized": "Payload-\u003ePayloadLength",
@@ -873,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Encoding",
           "name": "serialDecode",
           "package": "remote",
@@ -882,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Remote Encoding",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Encoding",
           "name": "serialDecode",
           "normalized": "Payload-\u003eIO(Maybe a)",
@@ -897,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Encoding",
           "name": "serialDecodePure",
           "package": "remote",
@@ -906,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Remote Encoding",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Encoding",
           "name": "serialDecodePure",
           "normalized": "Payload-\u003eMaybe a",
@@ -921,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Encoding",
           "name": "serialEncode",
           "package": "remote",
@@ -930,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Remote Encoding",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Encoding",
           "name": "serialEncode",
           "normalized": "a-\u003eIO Payload",
@@ -945,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Encoding",
           "name": "serialEncodePure",
           "package": "remote",
@@ -954,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Remote Encoding",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Encoding",
           "name": "serialEncodePure",
           "normalized": "a-\u003ePayload",
@@ -970,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExposes a high-level interface for starting a node of a distributed\n program, taking into account a local configuration file, command\n line arguments, and commonly-used system processes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Init",
           "name": "Init",
           "package": "remote",
@@ -979,6 +1034,7 @@
         "index": {
           "description": "Exposes high-level interface for starting node of distributed program taking into account local configuration file command line arguments and commonly-used system processes",
           "hierarchy": "Remote Init",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Init",
           "name": "Init",
           "package": "remote",
@@ -1020,6 +1076,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExposes mechanisms for a program built on the \u003ca\u003eRemote.Process\u003c/a\u003e\n framework to discover nodes on the current network. Programs\n can perform node discovery manually, or they can use \u003ca\u003eRemote.Task\u003c/a\u003e,\n which does it automatically.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Peer",
           "name": "Peer",
           "package": "remote",
@@ -1029,6 +1086,7 @@
         "index": {
           "description": "Exposes mechanisms for program built on the Remote.Process framework to discover nodes on the current network Programs can perform node discovery manually or they can use Remote.Task which does it automatically",
           "hierarchy": "Remote Peer",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Peer",
           "name": "Peer",
           "package": "remote",
@@ -1043,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreated by \u003ccode\u003eRemote.Peer.getPeers\u003c/code\u003e, this maps\n each role to a list of nodes that have that role.\n It can be examined directly or queried with\n \u003ccode\u003efindPeerByRole\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Peer",
           "name": "PeerInfo",
           "package": "remote",
@@ -1052,6 +1111,7 @@
         "index": {
           "description": "Created by Remote.Peer.getPeers this maps each role to list of nodes that have that role It can be examined directly or queried with findPeerByRole",
           "hierarchy": "Remote Peer",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Peer",
           "name": "PeerInfo",
           "package": "remote",
@@ -1118,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a PeerInfo, containing a list of known nodes ordered by role.\n This information is acquired by sending out a UDP broadcast on the\n local network; active nodes running the discovery service \n should respond with their information.\n If nodes are running outside of the local network, or if UDP broadcasts\n are disabled by firewall configuration, this won't return useful\n information; in that case, use getPeersStatic.\n This function takes a parameter indicating how long in microseconds \n to wait for hosts to respond. A number like 50000 is usually good enough,\n unless your network is highly congested or with high latency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Peer",
           "name": "getPeersDynamic",
           "package": "remote",
@@ -1128,6 +1189,7 @@
         "index": {
           "description": "Returns PeerInfo containing list of known nodes ordered by role This information is acquired by sending out UDP broadcast on the local network active nodes running the discovery service should respond with their information If nodes are running outside of the local network or if UDP broadcasts are disabled by firewall configuration this won return useful information in that case use getPeersStatic This function takes parameter indicating how long in microseconds to wait for hosts to respond number like is usually good enough unless your network is highly congested or with high latency",
           "hierarchy": "Remote Peer",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Peer",
           "name": "getPeersDynamic",
           "normalized": "Int-\u003eProcessM PeerInfo",
@@ -1144,6 +1206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a PeerInfo, containing a list of known nodes ordered by role.\n This information is acquired by querying the local node registry on\n each of the hosts in the cfgKnownHosts entry in this node's config.\n Hostnames that don't respond are assumed to be down and nodes running\n on them won't be included in the results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Peer",
           "name": "getPeersStatic",
           "package": "remote",
@@ -1154,6 +1217,7 @@
         "index": {
           "description": "Returns PeerInfo containing list of known nodes ordered by role This information is acquired by querying the local node registry on each of the hosts in the cfgKnownHosts entry in this node config Hostnames that don respond are assumed to be down and nodes running on them won be included in the results",
           "hierarchy": "Remote Peer",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Peer",
           "name": "getPeersStatic",
           "package": "remote",
@@ -1168,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts the discovery process, allowing this node to respond to\n queries from getPeersDynamic. You don't want to call this yourself,\n as it's called for you in \u003ccode\u003eRemote.Init.remoteInit\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Peer",
           "name": "startDiscoveryService",
           "package": "remote",
@@ -1178,6 +1243,7 @@
         "index": {
           "description": "Starts the discovery process allowing this node to respond to queries from getPeersDynamic You don want to call this yourself as it called for you in Remote.Init.remoteInit",
           "hierarchy": "Remote Peer",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Peer",
           "name": "startDiscoveryService",
           "normalized": "ProcessM()",
@@ -1194,6 +1260,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is the core of Cloud Haskell. It provides \n processes, messages, monitoring, and configuration.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "Process",
           "package": "remote",
@@ -1203,6 +1270,7 @@
         "index": {
           "description": "This module is the core of Cloud Haskell It provides processes messages monitoring and configuration",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "Process",
           "package": "remote",
@@ -1216,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "AmSpawnOptions",
           "package": "remote",
@@ -1224,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "AmSpawnOptions",
           "package": "remote",
@@ -1238,6 +1308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Config structure encapsulates the user-settable configuration options for each node.\n This settings are usually read in from a configuration file or from the executable's\n command line; in either case, see \u003ccode\u003eRemote.Init.remoteInit\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ereadConfig\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "Config",
           "package": "remote",
@@ -1247,6 +1318,7 @@
         "index": {
           "description": "The Config structure encapsulates the user-settable configuration options for each node This settings are usually read in from configuration file or from the executable command line in either case see Remote.Init.remoteInit and readConfig",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "Config",
           "package": "remote",
@@ -1260,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "LocalProcessId",
           "package": "remote",
@@ -1268,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "LocalProcessId",
           "package": "remote",
@@ -1282,6 +1356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpresses a current configuration of the logging\n subsystem, which determines which log messages to \n be output and where to send them when they are.\n Both processes and nodes have log configurations,\n set with \u003ccode\u003e\u003ca\u003esetLogConfig\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esetNodeLogConfig\u003c/a\u003e\u003c/code\u003e\n respectively. The node log configuration is\n used for all processes that have not explicitly\n set their log configuration. Otherwise, the\n process log configuration takes priority.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "LogConfig",
           "package": "remote",
@@ -1291,6 +1366,7 @@
         "index": {
           "description": "Expresses current configuration of the logging subsystem which determines which log messages to be output and where to send them when they are Both processes and nodes have log configurations set with setLogConfig and setNodeLogConfig respectively The node log configuration is used for all processes that have not explicitly set their log configuration Otherwise the process log configuration takes priority",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "LogConfig",
           "package": "remote",
@@ -1305,6 +1381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies which log messages will be output. \n All log messages of importance below the current\n log level or not among the criterea given here\n will be suppressed. This type lets you limit\n displayed log messages to certain components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "LogFilter",
           "package": "remote",
@@ -1314,6 +1391,7 @@
         "index": {
           "description": "Specifies which log messages will be output All log messages of importance below the current log level or not among the criterea given here will be suppressed This type lets you limit displayed log messages to certain components",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "LogFilter",
           "package": "remote",
@@ -1328,6 +1406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the importance of a particular log entry.\n Can also be used to filter log output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "LogLevel",
           "package": "remote",
@@ -1337,6 +1416,7 @@
         "index": {
           "description": "Specifies the importance of particular log entry Can also be used to filter log output",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "LogLevel",
           "package": "remote",
@@ -1351,6 +1431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the subsystem or region that is responsible for\n generating a given log entry. This is useful in conjunction\n with \u003ccode\u003e\u003ca\u003eLogFilter\u003c/a\u003e\u003c/code\u003e to limit displayed log output to the\n particular area of your program that you are currently debugging.\n The SYS, TSK, and SAY spheres are used by the framework\n for messages relating to the Process layer, the Task layer,\n and the \u003ccode\u003e\u003ca\u003esay\u003c/a\u003e\u003c/code\u003e function.\n The remainder of values are free for use at the application level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "LogSphere",
           "package": "remote",
@@ -1360,6 +1441,7 @@
         "index": {
           "description": "Specifies the subsystem or region that is responsible for generating given log entry This is useful in conjunction with LogFilter to limit displayed log output to the particular area of your program that you are currently debugging The SYS TSK and SAY spheres are used by the framework for messages relating to the Process layer the Task layer and the say function The remainder of values are free for use at the application level",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "LogSphere",
           "package": "remote",
@@ -1374,6 +1456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA preference as to what is done with log messages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "LogTarget",
           "package": "remote",
@@ -1383,6 +1466,7 @@
         "index": {
           "description": "preference as to what is done with log messages",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "LogTarget",
           "package": "remote",
@@ -1397,6 +1481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis monad provides the state and structure for\n matching received messages from the incoming message queue.\n It's the interface between the \u003ccode\u003e\u003ca\u003ereceive\u003c/a\u003e\u003c/code\u003e family of functions,\n and the \u003ccode\u003e\u003ca\u003ematch\u003c/a\u003e\u003c/code\u003e family, which together can express which\n messages can be accepted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "MatchM",
           "package": "remote",
@@ -1406,6 +1491,7 @@
         "index": {
           "description": "This monad provides the state and structure for matching received messages from the incoming message queue It the interface between the receive family of functions and the match family which together can express which messages can be accepted",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "MatchM",
           "package": "remote",
@@ -1419,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "Message",
           "package": "remote",
@@ -1427,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "Message",
           "package": "remote",
@@ -1441,6 +1529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different kinds of monitoring available between processes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "MonitorAction",
           "package": "remote",
@@ -1450,6 +1539,7 @@
         "index": {
           "description": "The different kinds of monitoring available between processes",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "MonitorAction",
           "package": "remote",
@@ -1463,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "Node",
           "package": "remote",
@@ -1471,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "Node",
           "package": "remote",
@@ -1485,6 +1577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies a node somewhere on the network. These\n can be queried from \u003ccode\u003egetPeers\u003c/code\u003e. See also \u003ccode\u003e\u003ca\u003egetSelfNode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "NodeId",
           "package": "remote",
@@ -1494,6 +1587,7 @@
         "index": {
           "description": "Identifies node somewhere on the network These can be queried from getPeers See also getSelfNode",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "NodeId",
           "package": "remote",
@@ -1507,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "PayloadDisposition",
           "package": "remote",
@@ -1515,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "PayloadDisposition",
           "package": "remote",
@@ -1529,6 +1625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreated by \u003ccode\u003eRemote.Peer.getPeers\u003c/code\u003e, this maps\n each role to a list of nodes that have that role.\n It can be examined directly or queried with\n \u003ccode\u003efindPeerByRole\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "PeerInfo",
           "package": "remote",
@@ -1538,6 +1635,7 @@
         "index": {
           "description": "Created by Remote.Peer.getPeers this maps each role to list of nodes that have that role It can be examined directly or queried with findPeerByRole",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "PeerInfo",
           "package": "remote",
@@ -1551,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "PortId",
           "package": "remote",
@@ -1559,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "PortId",
           "package": "remote",
@@ -1572,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "Process",
           "package": "remote",
@@ -1580,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "Process",
           "package": "remote",
@@ -1594,6 +1696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies a process somewhere on the network. These\n are produced by the \u003ccode\u003e\u003ca\u003espawn\u003c/a\u003e\u003c/code\u003e family of functions and\n consumed by \u003ccode\u003e\u003ca\u003esend\u003c/a\u003e\u003c/code\u003e. When a process ends, its process ID\n ceases to be valid. See also \u003ccode\u003e\u003ca\u003egetSelfPid\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "ProcessId",
           "package": "remote",
@@ -1603,6 +1706,7 @@
         "index": {
           "description": "Identifies process somewhere on the network These are produced by the spawn family of functions and consumed by send When process ends its process ID ceases to be valid See also getSelfPid",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "ProcessId",
           "package": "remote",
@@ -1617,6 +1721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monad ProcessM is the core of the process layer. Functions\n in the ProcessM monad may participate in messaging and create\n additional concurrent processes. You can create\n a ProcessM context from an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e context with the \u003ccode\u003eremoteInit\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "ProcessM",
           "package": "remote",
@@ -1626,6 +1731,7 @@
         "index": {
           "description": "The monad ProcessM is the core of the process layer Functions in the ProcessM monad may participate in messaging and create additional concurrent processes You can create ProcessM context from an IO context with the remoteInit function",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "ProcessM",
           "package": "remote",
@@ -1640,6 +1746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main form of notification to a monitoring process that a monitored process has terminated.\n This data structure can be delivered to the monitor either as a message (if the monitor is\n of type \u003ccode\u003e\u003ca\u003eMaMonitor\u003c/a\u003e\u003c/code\u003e) or as an asynchronous exception (if the monitor is of type \u003ccode\u003e\u003ca\u003eMaLink\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eMaLinkError\u003c/a\u003e\u003c/code\u003e).\n It contains the PID of the monitored process and the reason for its nofication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "ProcessMonitorException",
           "package": "remote",
@@ -1649,6 +1756,7 @@
         "index": {
           "description": "The main form of notification to monitoring process that monitored process has terminated This data structure can be delivered to the monitor either as message if the monitor is of type MaMonitor or as an asynchronous exception if the monitor is of type MaLink or MaLinkError It contains the PID of the monitored process and the reason for its nofication",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "ProcessMonitorException",
           "package": "remote",
@@ -1663,6 +1771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrown by \u003ca\u003eRemote.Process\u003c/a\u003e system services in response\n to some problem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "ServiceException",
           "package": "remote",
@@ -1672,6 +1781,7 @@
         "index": {
           "description": "Thrown by Remote.Process system services in response to some problem",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "ServiceException",
           "package": "remote",
@@ -1686,6 +1796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePart of the notification system of process monitoring, indicating why the monitor is being notified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "SignalReason",
           "package": "remote",
@@ -1695,6 +1806,7 @@
         "index": {
           "description": "Part of the notification system of process monitoring indicating why the monitor is being notified",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "SignalReason",
           "package": "remote",
@@ -1709,6 +1821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrown by various network-related functions when\n communication with a host has failed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "TransmitException",
           "package": "remote",
@@ -1718,6 +1831,7 @@
         "index": {
           "description": "Thrown by various network-related functions when communication with host has failed",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "TransmitException",
           "package": "remote",
@@ -1731,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "TransmitStatus",
           "package": "remote",
@@ -1739,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "TransmitStatus",
           "package": "remote",
@@ -1753,6 +1869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrown by \u003ccode\u003e\u003ca\u003ematchUnknownThrow\u003c/a\u003e\u003c/code\u003e in response to a message\n of a wrong type being received by a process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "UnknownMessageException",
           "package": "remote",
@@ -1762,6 +1879,7 @@
         "index": {
           "description": "Thrown by matchUnknownThrow in response to message of wrong type being received by process",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "UnknownMessageException",
           "package": "remote",
@@ -1798,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "Config",
           "package": "remote",
@@ -1807,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "Config",
           "package": "remote",
@@ -2256,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "PldAdmin",
           "package": "remote",
@@ -2265,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "PldAdmin",
           "package": "remote",
@@ -2278,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "PldUser",
           "package": "remote",
@@ -2287,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "PldUser",
           "package": "remote",
@@ -2646,6 +2770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe monitee terminated with an uncaught exception, which is given as a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "SrException",
           "package": "remote",
@@ -2656,6 +2781,7 @@
         "index": {
           "description": "the monitee terminated with an uncaught exception which is given as string",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "SrException",
           "package": "remote",
@@ -2670,6 +2796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSrInvalid: the monitee was not running at the time of the attempt to establish monitoring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "SrInvalid",
           "package": "remote",
@@ -2680,6 +2807,7 @@
         "index": {
           "description": "SrInvalid the monitee was not running at the time of the attempt to establish monitoring",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "SrInvalid",
           "package": "remote",
@@ -2694,6 +2822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe monitee is believed to have ended or be inaccessible, as the node on which its running is not responding to pings. This may indicate a network bisection or that the remote node has crashed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "SrNoPing",
           "package": "remote",
@@ -2704,6 +2833,7 @@
         "index": {
           "description": "the monitee is believed to have ended or be inaccessible as the node on which its running is not responding to pings This may indicate network bisection or that the remote node has crashed",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "SrNoPing",
           "package": "remote",
@@ -2718,6 +2848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe monitee terminated normally\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "SrNormal",
           "package": "remote",
@@ -2728,6 +2859,7 @@
         "index": {
           "description": "the monitee terminated normally",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "SrNormal",
           "package": "remote",
@@ -2959,6 +3091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand-line arguments that are not part of the node configuration are placed here and can be examined by your application\n             logConfig :: LogConfig\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "cfgArgs",
           "package": "remote",
@@ -2969,6 +3102,7 @@
         "index": {
           "description": "Command-line arguments that are not part of the node configuration are placed here and can be examined by your application logConfig LogConfig",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "cfgArgs",
           "normalized": "[String]",
@@ -2985,6 +3119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hostname, used as a basis for creating the name of the node. If unspecified, the OS will be queried. Since the hostname is part of the nodename, the computer must be accessible to other nodes using this name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "cfgHostName",
           "package": "remote",
@@ -2995,6 +3130,7 @@
         "index": {
           "description": "The hostname used as basis for creating the name of the node If unspecified the OS will be queried Since the hostname is part of the nodename the computer must be accessible to other nodes using this name",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "cfgHostName",
           "package": "remote",
@@ -3009,6 +3145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of hosts where nodes may be running. When \u003ccode\u003eRemote.Peer.getPeers\u003c/code\u003e or \u003ccode\u003eRemote.Peer.getPeerStatic\u003c/code\u003e is called, each host on this list will be queried for its nodes. Only matters if you rely on static peer discovery.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "cfgKnownHosts",
           "package": "remote",
@@ -3019,6 +3156,7 @@
         "index": {
           "description": "list of hosts where nodes may be running When Remote.Peer.getPeers or Remote.Peer.getPeerStatic is called each host on this list will be queried for its nodes Only matters if you rely on static peer discovery",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "cfgKnownHosts",
           "normalized": "[String]",
@@ -3035,6 +3173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TCP port on which to listen to for new connections. If unassigned or 0, the OS will assign a free port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "cfgListenPort",
           "package": "remote",
@@ -3045,6 +3184,7 @@
         "index": {
           "description": "The TCP port on which to listen to for new connections If unassigned or the OS will assign free port",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "cfgListenPort",
           "package": "remote",
@@ -3059,6 +3199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TCP port on which to communicate with the local node registry, or to start the local node registry if it isn't already running. This defaults to 38813 and shouldn't be changed unless you have prohibitive firewall rules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "cfgLocalRegistryListenPort",
           "package": "remote",
@@ -3069,6 +3210,7 @@
         "index": {
           "description": "The TCP port on which to communicate with the local node registry or to start the local node registry if it isn already running This defaults to and shouldn be changed unless you have prohibitive firewall rules",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "cfgLocalRegistryListenPort",
           "package": "remote",
@@ -3083,6 +3225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA limit on the number of simultaneous outgoing connections per node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "cfgMaxOutgoing",
           "package": "remote",
@@ -3093,6 +3236,7 @@
         "index": {
           "description": "limit on the number of simultaneous outgoing connections per node",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "cfgMaxOutgoing",
           "package": "remote",
@@ -3107,6 +3251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unique identifying string for this network or application. Must not contain spaces. The uniqueness of this string ensures that multiple applications running on the same physical network won't accidentally communicate with each other. All nodes of your application should have the same network magic. Defaults to MAGIC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "cfgNetworkMagic",
           "package": "remote",
@@ -3117,6 +3262,7 @@
         "index": {
           "description": "The unique identifying string for this network or application Must not contain spaces The uniqueness of this string ensures that multiple applications running on the same physical network won accidentally communicate with each other All nodes of your application should have the same network magic Defaults to MAGIC",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "cfgNetworkMagic",
           "package": "remote",
@@ -3131,6 +3277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe UDP port on which local peer discovery broadcasts are sent. Defaults to 38813, and only matters if you rely on dynamic peer discovery\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "cfgPeerDiscoveryPort",
           "package": "remote",
@@ -3141,6 +3288,7 @@
         "index": {
           "description": "The UDP port on which local peer discovery broadcasts are sent Defaults to and only matters if you rely on dynamic peer discovery",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "cfgPeerDiscoveryPort",
           "package": "remote",
@@ -3155,6 +3303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime in microseconds before an in-memory promise is flushed to disk. 0 to disable disk flush entirely.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "cfgPromiseFlushDelay",
           "package": "remote",
@@ -3165,6 +3314,7 @@
         "index": {
           "description": "Time in microseconds before an in-memory promise is flushed to disk to disable disk flush entirely",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "cfgPromiseFlushDelay",
           "package": "remote",
@@ -3179,6 +3329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepended to the filename of flushed promises.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "cfgPromisePrefix",
           "package": "remote",
@@ -3189,6 +3340,7 @@
         "index": {
           "description": "Prepended to the filename of flushed promises",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "cfgPromisePrefix",
           "package": "remote",
@@ -3203,6 +3355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe user-assigned role of this node determines what its initial behavior is and how it presents itself to its peers. Default to NODE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "cfgRole",
           "package": "remote",
@@ -3213,6 +3366,7 @@
         "index": {
           "description": "The user-assigned role of this node determines what its initial behavior is and how it presents itself to its peers Default to NODE",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "cfgRole",
           "package": "remote",
@@ -3227,6 +3381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMicroseconds to wait for a response from a system service on a remote node. If your network has high latency or congestion, you may need to increase this to avoid incorrect reports of node inaccessibility. 0 to wait indefinitely (not recommended).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "cfgRoundtripTimeout",
           "package": "remote",
@@ -3237,6 +3392,7 @@
         "index": {
           "description": "Microseconds to wait for response from system service on remote node If your network has high latency or congestion you may need to increase this to avoid incorrect reports of node inaccessibility to wait indefinitely not recommended",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "cfgRoundtripTimeout",
           "package": "remote",
@@ -3298,6 +3454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "diffTime",
           "package": "remote",
@@ -3307,6 +3464,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "diffTime",
           "normalized": "UTCTime-\u003eUTCTime-\u003eInt",
@@ -3322,6 +3480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "emptyConfig",
           "package": "remote",
@@ -3331,6 +3490,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "emptyConfig",
           "package": "remote",
@@ -3344,6 +3504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "evaluateClosure",
           "package": "remote",
@@ -3353,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "evaluateClosure",
           "normalized": "Closure a-\u003eProcessM(Maybe(Payload-\u003eb))",
@@ -3393,6 +3555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts a message-receive loop on the given node. You probably don't want to call this function yourself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "forkAndListenAndDeliver",
           "package": "remote",
@@ -3403,6 +3566,7 @@
         "index": {
           "description": "Starts message-receive loop on the given node You probably don want to call this function yourself",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "forkAndListenAndDeliver",
           "normalized": "MVar Node-\u003eConfig-\u003eIO()",
@@ -3419,6 +3583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA synonym for \u003ccode\u003e\u003ca\u003espawnLocal\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "forkProcess",
           "package": "remote",
@@ -3429,6 +3594,7 @@
         "index": {
           "description": "synonym for spawnLocal",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "forkProcess",
           "normalized": "ProcessM()-\u003eProcessM ProcessId",
@@ -3471,6 +3637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "getConfig",
           "package": "remote",
@@ -3480,6 +3647,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "getConfig",
           "package": "remote",
@@ -3518,6 +3686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "getLookup",
           "package": "remote",
@@ -3527,6 +3696,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "getLookup",
           "package": "remote",
@@ -3540,6 +3710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "getMessagePayload",
           "package": "remote",
@@ -3549,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "getMessagePayload",
           "normalized": "Message-\u003eMaybe a",
@@ -3564,6 +3736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "getMessageType",
           "package": "remote",
@@ -3573,6 +3746,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "getMessageType",
           "normalized": "Message-\u003eString",
@@ -3588,6 +3762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "getNewMessageLocal",
           "package": "remote",
@@ -3597,6 +3772,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "getNewMessageLocal",
           "normalized": "Node-\u003eLocalProcessId-\u003eSTM(Maybe Message)",
@@ -3612,6 +3788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "getProcess",
           "package": "remote",
@@ -3621,6 +3798,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "getProcess",
           "package": "remote",
@@ -3634,6 +3812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "getQueueLength",
           "package": "remote",
@@ -3643,6 +3822,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "getQueueLength",
           "package": "remote",
@@ -3706,6 +3886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "hostFromNid",
           "package": "remote",
@@ -3715,6 +3896,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "hostFromNid",
           "normalized": "NodeId-\u003eHostName",
@@ -3731,6 +3913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e object, given the specified configuration (usually created by \u003ccode\u003e\u003ca\u003ereadConfig\u003c/a\u003e\u003c/code\u003e) and\n function metadata table (usually create by \u003ccode\u003eRemote.Call.registerCalls\u003c/code\u003e). You probably want to use\n \u003ccode\u003eRemote.Init.remoteInit\u003c/code\u003e instead of this lower-level function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "initNode",
           "package": "remote",
@@ -3741,6 +3924,7 @@
         "index": {
           "description": "Creates new Node object given the specified configuration usually created by readConfig and function metadata table usually create by Remote.Call.registerCalls You probably want to use Remote.Init.remoteInit instead of this lower-level function",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "initNode",
           "normalized": "Config-\u003eLookup-\u003eIO(MVar Node)",
@@ -3782,6 +3966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the given process ID is associated with the current node.\n Does not examine if the process is currently running.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "isPidLocal",
           "package": "remote",
@@ -3792,6 +3977,7 @@
         "index": {
           "description": "Returns true if the given process ID is associated with the current node Does not examine if the process is currently running",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "isPidLocal",
           "normalized": "ProcessId-\u003eProcessM Bool",
@@ -3834,6 +4020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "localFromPid",
           "package": "remote",
@@ -3843,6 +4030,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "localFromPid",
           "normalized": "ProcessId-\u003eLocalProcessId",
@@ -3859,6 +4047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContacts the local node registry and attempts to verify that it is alive.\n If the local node registry cannot be contacted, an exception will be thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "localRegistryHello",
           "package": "remote",
@@ -3869,6 +4058,7 @@
         "index": {
           "description": "Contacts the local node registry and attempts to verify that it is alive If the local node registry cannot be contacted an exception will be thrown",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "localRegistryHello",
           "normalized": "ProcessM()",
@@ -3884,6 +4074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "localRegistryQueryNodes",
           "package": "remote",
@@ -3893,6 +4084,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "localRegistryQueryNodes",
           "normalized": "NodeId-\u003eProcessM(Maybe PeerInfo)",
@@ -3909,6 +4101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContacts the local node registry and attempts to register current node. \n You probably don't want to call this function yourself, as it's done for you in \u003ccode\u003eRemote.Init.remoteInit\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "localRegistryRegisterNode",
           "package": "remote",
@@ -3919,6 +4112,7 @@
         "index": {
           "description": "Contacts the local node registry and attempts to register current node You probably don want to call this function yourself as it done for you in Remote.Init.remoteInit",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "localRegistryRegisterNode",
           "normalized": "ProcessM()",
@@ -3935,6 +4129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContacts the local node registry and attempts to unregister current node. \n You probably don't want to call this function yourself, as it's done for you in \u003ccode\u003eRemote.Init.remoteInit\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "localRegistryUnregisterNode",
           "package": "remote",
@@ -3945,6 +4140,7 @@
         "index": {
           "description": "Contacts the local node registry and attempts to unregister current node You probably don want to call this function yourself as it done for you in Remote.Init.remoteInit",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "localRegistryUnregisterNode",
           "normalized": "ProcessM()",
@@ -4086,6 +4282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "makeNodeFromHost",
           "package": "remote",
@@ -4095,6 +4292,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "makeNodeFromHost",
           "normalized": "String-\u003ePortId-\u003eNodeId",
@@ -4110,6 +4308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "makePayloadClosure",
           "package": "remote",
@@ -4119,6 +4318,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "makePayloadClosure",
           "normalized": "Closure a-\u003eMaybe(Closure Payload)",
@@ -4160,6 +4360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "matchCond",
           "package": "remote",
@@ -4169,6 +4370,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "matchCond",
           "normalized": "(a-\u003eMaybe(ProcessM b))-\u003eMatchM b()",
@@ -4400,6 +4602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "nodeFromPid",
           "package": "remote",
@@ -4409,6 +4612,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "nodeFromPid",
           "normalized": "ProcessId-\u003eNodeId",
@@ -4424,6 +4628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "nullPid",
           "package": "remote",
@@ -4433,6 +4638,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "nullPid",
           "package": "remote",
@@ -4447,6 +4653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eProcessM\u003c/a\u003e\u003c/code\u003e-flavoured variant of \u003ccode\u003e\u003ca\u003ebracket\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "pbracket",
           "package": "remote",
@@ -4457,6 +4664,7 @@
         "index": {
           "description": "ProcessM flavoured variant of bracket",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "pbracket",
           "normalized": "ProcessM a-\u003e(a-\u003eProcessM b)-\u003e(a-\u003eProcessM c)-\u003eProcessM c",
@@ -4471,6 +4679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "performFinalization",
           "package": "remote",
@@ -4480,6 +4689,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "performFinalization",
           "normalized": "MVar Node-\u003eIO()",
@@ -4496,6 +4706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eProcessM\u003c/a\u003e\u003c/code\u003e-flavoured variant of \u003ccode\u003e\u003ca\u003efinally\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "pfinally",
           "package": "remote",
@@ -4506,6 +4717,7 @@
         "index": {
           "description": "ProcessM flavoured variant of finally",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "pfinally",
           "normalized": "ProcessM a-\u003eProcessM b-\u003eProcessM a",
@@ -4521,6 +4733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a small message to the specified node to determine if it's alive.\n If the node cannot be reached or does not respond within a time frame, the function\n will return False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "pingNode",
           "package": "remote",
@@ -4531,6 +4744,7 @@
         "index": {
           "description": "Sends small message to the specified node to determine if it alive If the node cannot be reached or does not respond within time frame the function will return False",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "pingNode",
           "normalized": "NodeId-\u003eProcessM Bool",
@@ -4546,6 +4760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "prNodeRef",
           "package": "remote",
@@ -4555,6 +4770,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "prNodeRef",
           "normalized": "Process-\u003eMVar Node",
@@ -4571,6 +4787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eProcessM\u003c/a\u003e\u003c/code\u003e-flavoured variant of \u003ccode\u003e\u003ca\u003etimeout\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "ptimeout",
           "package": "remote",
@@ -4581,6 +4798,7 @@
         "index": {
           "description": "ProcessM flavoured variant of timeout",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "ptimeout",
           "normalized": "Int-\u003eProcessM a-\u003eProcessM(Maybe a)",
@@ -4596,6 +4814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eProcessM\u003c/a\u003e\u003c/code\u003e-flavoured variant of \u003ccode\u003e\u003ca\u003etry\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "ptry",
           "package": "remote",
@@ -4606,6 +4825,7 @@
         "index": {
           "description": "ProcessM flavoured variant of try",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "ptry",
           "normalized": "ProcessM a-\u003eProcessM(Either b a)",
@@ -4621,6 +4841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads in configuration data from external sources, specifically from the command line arguments\n and a configuration file. \n The first parameter to this function determines whether command-line arguments are consulted.\n If the second parameter is not \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e then it should be the name of the configuration file;\n an exception will be thrown if the specified file does not exist.\n Usually, this function shouldn't be called directly, but rather from \u003ccode\u003eRemote.Init.remoteInit\u003c/code\u003e,\n which also takes into account environment variables.\n Options set by command-line parameters have the highest precedence,\n followed by options read from a configuration file; if a configuration option is not explicitly\n specified anywhere, a reasonable default is used. The configuration file has a format, wherein\n one configuration option is specified on each line; the first token on each line is the name\n of the configuration option, followed by whitespace, followed by its value. Lines beginning with #\n are comments. Thus:\n\u003c/p\u003e\u003cpre\u003e # This is a sample configuration file\n cfgHostName host3\n cfgKnownHosts host1 host2 host3 host4\n\u003c/pre\u003e\u003cp\u003eOptions may be specified on the command line similarly. Note that command-line arguments containing spaces must be quoted.\n\u003c/p\u003e\u003cpre\u003e ./MyProgram -cfgHostName=host3 -cfgKnownHosts='host1 host2 host3 host4'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "readConfig",
           "package": "remote",
@@ -4631,6 +4852,7 @@
         "index": {
           "description": "Reads in configuration data from external sources specifically from the command line arguments and configuration file The first parameter to this function determines whether command-line arguments are consulted If the second parameter is not Nothing then it should be the name of the configuration file an exception will be thrown if the specified file does not exist Usually this function shouldn be called directly but rather from Remote.Init.remoteInit which also takes into account environment variables Options set by command-line parameters have the highest precedence followed by options read from configuration file if configuration option is not explicitly specified anywhere reasonable default is used The configuration file has format wherein one configuration option is specified on each line the first token on each line is the name of the configuration option followed by whitespace followed by its value Lines beginning with are comments Thus This is sample configuration file cfgHostName host3 cfgKnownHosts host1 host2 host3 host4 Options may be specified on the command line similarly Note that command-line arguments containing spaces must be quoted MyProgram cfgHostName host3 cfgKnownHosts host1 host2 host3 host4",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "readConfig",
           "normalized": "Bool-\u003eMaybe FilePath-\u003eIO Config",
@@ -4727,6 +4949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a Node (created by \u003ccode\u003e\u003ca\u003einitNode\u003c/a\u003e\u003c/code\u003e), start execution of user-provided code\n by invoking the given function with the node's \u003ccode\u003e\u003ca\u003ecfgRole\u003c/a\u003e\u003c/code\u003e string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "roleDispatch",
           "package": "remote",
@@ -4737,6 +4960,7 @@
         "index": {
           "description": "Given Node created by initNode start execution of user-provided code by invoking the given function with the node cfgRole string",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "roleDispatch",
           "normalized": "MVar Node-\u003e(String-\u003eProcessM())-\u003eIO()",
@@ -4752,6 +4976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "roundtripQuery",
           "package": "remote",
@@ -4761,6 +4986,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "roundtripQuery",
           "normalized": "PayloadDisposition-\u003eProcessId-\u003ea-\u003eProcessM(Either TransmitStatus b)",
@@ -4776,6 +5002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "roundtripQueryImpl",
           "package": "remote",
@@ -4785,6 +5012,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "roundtripQueryImpl",
           "normalized": "Int-\u003ePayloadDisposition-\u003eProcessId-\u003ea-\u003e(b-\u003ec)-\u003e[MatchM(Either TransmitStatus c)()]-\u003eProcessM(Either TransmitStatus c)",
@@ -4800,6 +5028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "roundtripQueryMulti",
           "package": "remote",
@@ -4809,6 +5038,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "roundtripQueryMulti",
           "normalized": "PayloadDisposition-\u003e[ProcessId]-\u003ea-\u003eProcessM[Either TransmitStatus b]",
@@ -4824,6 +5054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "roundtripQueryUnsafe",
           "package": "remote",
@@ -4833,6 +5064,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "roundtripQueryUnsafe",
           "normalized": "PayloadDisposition-\u003eProcessId-\u003ea-\u003eProcessM(Either TransmitStatus b)",
@@ -4848,6 +5080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "roundtripResponse",
           "package": "remote",
@@ -4857,6 +5090,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "roundtripResponse",
           "normalized": "(a-\u003eProcessM(b,c))-\u003eMatchM c()",
@@ -4872,6 +5106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "roundtripResponseAsync",
           "package": "remote",
@@ -4881,6 +5116,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "roundtripResponseAsync",
           "normalized": "(a-\u003e(b-\u003eProcessM())-\u003eProcessM c)-\u003eBool-\u003eMatchM c()",
@@ -4896,6 +5132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "runLocalProcess",
           "package": "remote",
@@ -4905,6 +5142,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "runLocalProcess",
           "normalized": "MVar Node-\u003eProcessM()-\u003eIO ProcessId",
@@ -4999,6 +5237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "sendSimple",
           "package": "remote",
@@ -5008,6 +5247,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "sendSimple",
           "normalized": "ProcessId-\u003ea-\u003ePayloadDisposition-\u003eProcessM TransmitStatus",
@@ -5023,6 +5263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "setDaemonic",
           "package": "remote",
@@ -5032,6 +5273,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "setDaemonic",
           "normalized": "ProcessM()",
@@ -5102,6 +5344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the log configuration of a remote node.\n May throw TransmitException\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "setRemoteNodeLogConfig",
           "package": "remote",
@@ -5112,6 +5355,7 @@
         "index": {
           "description": "Sets the log configuration of remote node May throw TransmitException",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "setRemoteNodeLogConfig",
           "normalized": "NodeId-\u003eLogConfig-\u003eProcessM()",
@@ -5235,6 +5479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart executing a process on the current node. This is a variation of \u003ccode\u003e\u003ca\u003espawnLocal\u003c/a\u003e\u003c/code\u003e\n which accepts two blocks of user-defined code. The first block\n is the main body of the code to run concurrently. The second block is a \u003ca\u003eprefix\u003c/a\u003e\n which is run in the new process, prior to the main body, but its completion\n is guaranteed before spawnAnd returns. Thus, the prefix code is useful for\n initializing the new process synchronously.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "spawnLocalAnd",
           "package": "remote",
@@ -5245,6 +5490,7 @@
         "index": {
           "description": "Start executing process on the current node This is variation of spawnLocal which accepts two blocks of user-defined code The first block is the main body of the code to run concurrently The second block is prefix which is run in the new process prior to the main body but its completion is guaranteed before spawnAnd returns Thus the prefix code is useful for initializing the new process synchronously",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "spawnLocalAnd",
           "normalized": "ProcessM()-\u003eProcessM()-\u003eProcessM ProcessId",
@@ -5261,6 +5507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery host on which a node is running also needs a node registry,\n which arbitrates those nodes can responds to peer queries. If\n no registry is running, one will be automatically started\n when the framework is started, but the registry can be started\n independently, also. This function does that.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "standaloneLocalRegistry",
           "package": "remote",
@@ -5271,6 +5518,7 @@
         "index": {
           "description": "Every host on which node is running also needs node registry which arbitrates those nodes can responds to peer queries If no registry is running one will be automatically started when the framework is started but the registry can be started independently also This function does that",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "standaloneLocalRegistry",
           "normalized": "String-\u003eIO()",
@@ -5286,6 +5534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "startFinalizerService",
           "package": "remote",
@@ -5295,6 +5544,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "startFinalizerService",
           "normalized": "ProcessM()-\u003eProcessM()",
@@ -5310,6 +5560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "startLocalRegistry",
           "package": "remote",
@@ -5319,6 +5570,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "startLocalRegistry",
           "normalized": "Config-\u003eBool-\u003eIO TransmitStatus",
@@ -5334,6 +5586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "startLoggingService",
           "package": "remote",
@@ -5343,6 +5596,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "startLoggingService",
           "normalized": "ProcessM()",
@@ -5358,6 +5612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "startNodeMonitorService",
           "package": "remote",
@@ -5367,6 +5622,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "startNodeMonitorService",
           "normalized": "ProcessM()",
@@ -5382,6 +5638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "startProcessMonitorService",
           "package": "remote",
@@ -5391,6 +5648,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "startProcessMonitorService",
           "normalized": "ProcessM()",
@@ -5406,6 +5664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "startProcessRegistryService",
           "package": "remote",
@@ -5415,6 +5674,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "startProcessRegistryService",
           "normalized": "ProcessM()",
@@ -5430,6 +5690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "startSpawnerService",
           "package": "remote",
@@ -5439,6 +5700,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "startSpawnerService",
           "normalized": "ProcessM()",
@@ -5454,6 +5716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "suppressTransmitException",
           "package": "remote",
@@ -5463,6 +5726,7 @@
         },
         "index": {
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "suppressTransmitException",
           "normalized": "ProcessM a-\u003eProcessM(Maybe a)",
@@ -5530,6 +5794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a remote process has been started in a paused state with \u003ccode\u003e\u003ca\u003espawnAnd\u003c/a\u003e\u003c/code\u003e ,\n it will be running but inactive until unpaused. Use this function to unpause\n such a function. It has no effect on processes that are not paused or that\n have already been unpaused.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "unpause",
           "package": "remote",
@@ -5540,6 +5805,7 @@
         "index": {
           "description": "If remote process has been started in paused state with spawnAnd it will be running but inactive until unpaused Use this function to unpause such function It has no effect on processes that are not paused or that have already been unpaused",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "unpause",
           "normalized": "ProcessId-\u003eProcessM()",
@@ -5555,6 +5821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlocks until all non-daemonic processes of the given\n node have ended. Usually called on the main thread of a program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Process",
           "name": "waitForThreads",
           "package": "remote",
@@ -5565,6 +5832,7 @@
         "index": {
           "description": "Blocks until all non-daemonic processes of the given node have ended Usually called on the main thread of program",
           "hierarchy": "Remote Process",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Process",
           "name": "waitForThreads",
           "normalized": "MVar Node-\u003eIO()",
@@ -5608,6 +5876,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRuntime metadata functions, part of the \n RPC mechanism\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Reg",
           "name": "Reg",
           "package": "remote",
@@ -5617,6 +5886,7 @@
         "index": {
           "description": "Runtime metadata functions part of the RPC mechanism",
           "hierarchy": "Remote Reg",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Reg",
           "name": "Reg",
           "package": "remote",
@@ -5630,6 +5900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Reg",
           "name": "Identifier",
           "package": "remote",
@@ -5638,6 +5909,7 @@
         },
         "index": {
           "hierarchy": "Remote Reg",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Reg",
           "name": "Identifier",
           "package": "remote",
@@ -5651,6 +5923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Reg",
           "name": "Lookup",
           "package": "remote",
@@ -5659,6 +5932,7 @@
         },
         "index": {
           "hierarchy": "Remote Reg",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Reg",
           "name": "Lookup",
           "package": "remote",
@@ -5673,6 +5947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData of this type is generated at compile-time\n by \u003ccode\u003eremotable\u003c/code\u003e and can be used with \u003ccode\u003e\u003ca\u003eregisterCalls\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003eremoteInit\u003c/code\u003e to create a metadata lookup table, \u003ccode\u003e\u003ca\u003eLookup\u003c/a\u003e\u003c/code\u003e.\n The name \u003ccode\u003e__remoteCallMetaData\u003c/code\u003e will be present\n in any module that uses \u003ccode\u003eremotable\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Reg",
           "name": "RemoteCallMetaData",
           "package": "remote",
@@ -5682,6 +5957,7 @@
         "index": {
           "description": "Data of this type is generated at compile-time by remotable and can be used with registerCalls and remoteInit to create metadata lookup table Lookup The name remoteCallMetaData will be present in any module that uses remotable",
           "hierarchy": "Remote Reg",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Reg",
           "name": "RemoteCallMetaData",
           "package": "remote",
@@ -5695,6 +5971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Reg",
           "name": "empty",
           "package": "remote",
@@ -5704,6 +5981,7 @@
         },
         "index": {
           "hierarchy": "Remote Reg",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Reg",
           "name": "empty",
           "package": "remote",
@@ -5716,6 +5994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Reg",
           "name": "getEntryByIdent",
           "package": "remote",
@@ -5725,6 +6004,7 @@
         },
         "index": {
           "hierarchy": "Remote Reg",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Reg",
           "name": "getEntryByIdent",
           "normalized": "Lookup-\u003eIdentifier-\u003eMaybe a",
@@ -5740,6 +6020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Reg",
           "name": "putReg",
           "package": "remote",
@@ -5749,6 +6030,7 @@
         },
         "index": {
           "hierarchy": "Remote Reg",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Reg",
           "name": "putReg",
           "normalized": "a-\u003eIdentifier-\u003eLookup-\u003eLookup",
@@ -5765,6 +6047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a metadata lookup table based on compile-time metadata.\n You probably don't want to call this function yourself, but instead\n use \u003ccode\u003eRemote.Init.remoteInit\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Reg",
           "name": "registerCalls",
           "package": "remote",
@@ -5775,6 +6058,7 @@
         "index": {
           "description": "Creates metadata lookup table based on compile-time metadata You probably don want to call this function yourself but instead use Remote.Init.remoteInit",
           "hierarchy": "Remote Reg",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Reg",
           "name": "registerCalls",
           "normalized": "[RemoteCallMetaData]-\u003eLookup",
@@ -5791,6 +6075,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides data dependency resolution and\n fault tolerance via \u003cem\u003epromises\u003c/em\u003e (known elsewhere as \u003cem\u003efutures\u003c/em\u003e).\n It's implemented in terms of the \u003ca\u003eRemote.Process\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Task",
           "name": "Task",
           "package": "remote",
@@ -5800,6 +6085,7 @@
         "index": {
           "description": "This module provides data dependency resolution and fault tolerance via promises known elsewhere as futures It implemented in terms of the Remote.Process module",
           "hierarchy": "Remote Task",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Task",
           "name": "Task",
           "package": "remote",
@@ -5814,6 +6100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specification of preference\n of where a promise should be allocated,\n among the nodes visible to the master.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Task",
           "name": "Locality",
           "package": "remote",
@@ -5823,6 +6110,7 @@
         "index": {
           "description": "specification of preference of where promise should be allocated among the nodes visible to the master",
           "hierarchy": "Remote Task",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Task",
           "name": "Locality",
           "package": "remote",
@@ -5837,6 +6125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure that stores the important\n user-provided functions that are the namesakes\n of the MapReduce algorithm.\n The number of mapper processes can be controlled\n by the user by controlling the length of the string\n returned by mtChunkify. The number of reducer\n promises is controlled by the number of values\n values returned by shuffler.\n The user must provide their own mapper and reducer.\n For many cases, the default chunkifier (\u003ccode\u003e\u003ca\u003echunkify\u003c/a\u003e\u003c/code\u003e)\n and shuffler (\u003ccode\u003e\u003ca\u003eshuffle\u003c/a\u003e\u003c/code\u003e) are adequate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Task",
           "name": "MapReduce",
           "package": "remote",
@@ -5846,6 +6135,7 @@
         "index": {
           "description": "data structure that stores the important user-provided functions that are the namesakes of the MapReduce algorithm The number of mapper processes can be controlled by the user by controlling the length of the string returned by mtChunkify The number of reducer promises is controlled by the number of values values returned by shuffler The user must provide their own mapper and reducer For many cases the default chunkifier chunkify and shuffler shuffle are adequate",
           "hierarchy": "Remote Task",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Task",
           "name": "MapReduce",
           "package": "remote",
@@ -5860,6 +6150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic data type for expressing data dependence\n in the \u003ccode\u003e\u003ca\u003eTaskM\u003c/a\u003e\u003c/code\u003e monad. A Promise represents a value that\n may or may not have been computed yet; thus, it's like\n a distributed thunk (in the sense of a non-strict unit\n of evaluation). These are created by \u003ccode\u003e\u003ca\u003enewPromise\u003c/a\u003e\u003c/code\u003e and friends,\n and the underlying value can be gotten with \u003ccode\u003e\u003ca\u003ereadPromise\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Task",
           "name": "Promise",
           "package": "remote",
@@ -5869,6 +6160,7 @@
         "index": {
           "description": "The basic data type for expressing data dependence in the TaskM monad Promise represents value that may or may not have been computed yet thus it like distributed thunk in the sense of non-strict unit of evaluation These are created by newPromise and friends and the underlying value can be gotten with readPromise",
           "hierarchy": "Remote Task",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Task",
           "name": "Promise",
           "package": "remote",
@@ -5882,6 +6174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Task",
           "name": "PromiseList",
           "package": "remote",
@@ -5890,6 +6183,7 @@
         },
         "index": {
           "hierarchy": "Remote Task",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Task",
           "name": "PromiseList",
           "package": "remote",
@@ -5903,6 +6197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Task",
           "name": "TaskException",
           "package": "remote",
@@ -5911,6 +6206,7 @@
         },
         "index": {
           "hierarchy": "Remote Task",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Task",
           "name": "TaskException",
           "package": "remote",
@@ -5924,6 +6220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Task",
           "name": "TaskM",
           "package": "remote",
@@ -5932,6 +6229,7 @@
         },
         "index": {
           "hierarchy": "Remote Task",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Task",
           "name": "TaskM",
           "package": "remote",
@@ -5946,6 +6244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe given nodes will be preferred\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Task",
           "name": "LcByNode",
           "package": "remote",
@@ -5956,6 +6255,7 @@
         "index": {
           "description": "The given nodes will be preferred",
           "hierarchy": "Remote Task",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Task",
           "name": "LcByNode",
           "normalized": "LcByNode[NodeId]",
@@ -5972,6 +6272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNodes having the given roles will be preferred\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Task",
           "name": "LcByRole",
           "package": "remote",
@@ -5982,6 +6283,7 @@
         "index": {
           "description": "Nodes having the given roles will be preferred",
           "hierarchy": "Remote Task",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Task",
           "name": "LcByRole",
           "normalized": "LcByRole[String]",
@@ -5998,6 +6300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default preference is applied, which is for nodes having a role of NODE of WORKER\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Task",
           "name": "LcDefault",
           "package": "remote",
@@ -6008,6 +6311,7 @@
         "index": {
           "description": "The default preference is applied which is for nodes having role of NODE of WORKER",
           "hierarchy": "Remote Task",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Task",
           "name": "LcDefault",
           "package": "remote",
@@ -6022,6 +6326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe promise can be placed anywhere.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Task",
           "name": "LcUnrestricted",
           "package": "remote",
@@ -6032,6 +6337,7 @@
         "index": {
           "description": "The promise can be placed anywhere",
           "hierarchy": "Remote Task",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Task",
           "name": "LcUnrestricted",
           "package": "remote",
@@ -6068,6 +6374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Task",
           "name": "PlChunk",
           "package": "remote",
@@ -6077,6 +6384,7 @@
         },
         "index": {
           "hierarchy": "Remote Task",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Task",
           "name": "PlChunk",
           "package": "remote",
@@ -6090,6 +6398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Task",
           "name": "PlNil",
           "package": "remote",
@@ -6099,6 +6408,7 @@
         },
         "index": {
           "hierarchy": "Remote Task",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Task",
           "name": "PlNil",
           "package": "remote",
@@ -6135,6 +6445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Task",
           "name": "__remoteCallMetaData",
           "package": "remote",
@@ -6144,6 +6455,7 @@
         },
         "index": {
           "hierarchy": "Remote Task",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Task",
           "name": "__remoteCallMetaData",
           "package": "remote",
@@ -6338,6 +6650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003enewPromise\u003c/a\u003e\u003c/code\u003e that lets the user\n specify a \u003ccode\u003e\u003ca\u003eLocality\u003c/a\u003e\u003c/code\u003e. The other flavors of newPromise,\n such as \u003ccode\u003e\u003ca\u003enewPromiseAtRole\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003enewPromiseNear\u003c/a\u003e\u003c/code\u003e, and\n \u003ccode\u003e\u003ca\u003enewPromiseHere\u003c/a\u003e\u003c/code\u003e at just shorthand for a call to this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Task",
           "name": "newPromiseAt",
           "package": "remote",
@@ -6348,6 +6661,7 @@
         "index": {
           "description": "variant of newPromise that lets the user specify Locality The other flavors of newPromise such as newPromiseAtRole newPromiseNear and newPromiseHere at just shorthand for call to this function",
           "hierarchy": "Remote Task",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Task",
           "name": "newPromiseAt",
           "normalized": "Locality-\u003eClosure(TaskM a)-\u003eTaskM(Promise a)",
@@ -6498,6 +6812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Task",
           "name": "serialDecodeA",
           "package": "remote",
@@ -6507,6 +6822,7 @@
         },
         "index": {
           "hierarchy": "Remote Task",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Task",
           "name": "serialDecodeA",
           "normalized": "Payload-\u003eTaskM(Maybe a)",
@@ -6522,6 +6838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Task",
           "name": "serialEncodeA",
           "package": "remote",
@@ -6531,6 +6848,7 @@
         },
         "index": {
           "hierarchy": "Remote Task",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Task",
           "name": "serialEncodeA",
           "normalized": "a-\u003eTaskM Payload",
@@ -6626,6 +6944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003etoPromise\u003c/a\u003e\u003c/code\u003e that lets the user\n express a locality preference, i.e. some information\n about which node will become the owner of the\n new promise. These preferences will not necessarily\n be respected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote.Task",
           "name": "toPromiseAt",
           "package": "remote",
@@ -6636,6 +6955,7 @@
         "index": {
           "description": "variant of toPromise that lets the user express locality preference i.e some information about which node will become the owner of the new promise These preferences will not necessarily be respected",
           "hierarchy": "Remote Task",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote.Task",
           "name": "toPromiseAt",
           "normalized": "Locality-\u003ea-\u003eTaskM(Promise a)",
@@ -6732,6 +7052,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCloud Haskell (previously Remote Haskell) is a distributed computing\n framework for Haskell. We can describe its interface\n as roughly two levels: the \u003cem\u003eprocess layer\u003c/em\u003e, consisting of\n processes, messages, and fault monitoring; and the\n \u003cem\u003etask layer\u003c/em\u003e, consisting of tasks, promises, and fault recovery.\n This summary module provides the most common interface\n functions for both layers, although advanced users might want to import names\n from the other constituent modules, as well.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "Remote",
           "package": "remote",
@@ -6741,6 +7062,7 @@
         "index": {
           "description": "Cloud Haskell previously Remote Haskell is distributed computing framework for Haskell We can describe its interface as roughly two levels the process layer consisting of processes messages and fault monitoring and the task layer consisting of tasks promises and fault recovery This summary module provides the most common interface functions for both layers although advanced users might want to import names from the other constituent modules as well",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "Remote",
           "package": "remote",
@@ -6754,6 +7076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "AmSpawnOptions",
           "package": "remote",
@@ -6762,6 +7085,7 @@
         },
         "index": {
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "AmSpawnOptions",
           "package": "remote",
@@ -6776,6 +7100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type representing a closure, that is, a function with its environment.\n   In spirit, this is actually:\n\u003c/p\u003e\u003cpre\u003e   data Closure a where\n     Closure :: Serializable v =\u003e Static (v -\u003e a) -\u003e v -\u003e Closure a     \n\u003c/pre\u003e\u003cp\u003ewhere the Static type wraps a function with no non-static free variables.\n   We simulate this behavior by identifying top-level functions as strings.\n   See the paper for clarification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "Closure",
           "package": "remote",
@@ -6785,6 +7110,7 @@
         "index": {
           "description": "data type representing closure that is function with its environment In spirit this is actually data Closure where Closure Serializable Static Closure where the Static type wraps function with no non-static free variables We simulate this behavior by identifying top-level functions as strings See the paper for clarification",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "Closure",
           "package": "remote",
@@ -6798,6 +7124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "CombinedChannelAction",
           "package": "remote",
@@ -6806,6 +7133,7 @@
         },
         "index": {
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "CombinedChannelAction",
           "package": "remote",
@@ -6820,6 +7148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpresses a current configuration of the logging\n subsystem, which determines which log messages to \n be output and where to send them when they are.\n Both processes and nodes have log configurations,\n set with \u003ccode\u003e\u003ca\u003esetLogConfig\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esetNodeLogConfig\u003c/a\u003e\u003c/code\u003e\n respectively. The node log configuration is\n used for all processes that have not explicitly\n set their log configuration. Otherwise, the\n process log configuration takes priority.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "LogConfig",
           "package": "remote",
@@ -6829,6 +7158,7 @@
         "index": {
           "description": "Expresses current configuration of the logging subsystem which determines which log messages to be output and where to send them when they are Both processes and nodes have log configurations set with setLogConfig and setNodeLogConfig respectively The node log configuration is used for all processes that have not explicitly set their log configuration Otherwise the process log configuration takes priority",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "LogConfig",
           "package": "remote",
@@ -6843,6 +7173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies which log messages will be output. \n All log messages of importance below the current\n log level or not among the criterea given here\n will be suppressed. This type lets you limit\n displayed log messages to certain components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "LogFilter",
           "package": "remote",
@@ -6852,6 +7183,7 @@
         "index": {
           "description": "Specifies which log messages will be output All log messages of importance below the current log level or not among the criterea given here will be suppressed This type lets you limit displayed log messages to certain components",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "LogFilter",
           "package": "remote",
@@ -6866,6 +7198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the importance of a particular log entry.\n Can also be used to filter log output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "LogLevel",
           "package": "remote",
@@ -6875,6 +7208,7 @@
         "index": {
           "description": "Specifies the importance of particular log entry Can also be used to filter log output",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "LogLevel",
           "package": "remote",
@@ -6889,6 +7223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the subsystem or region that is responsible for\n generating a given log entry. This is useful in conjunction\n with \u003ccode\u003e\u003ca\u003eLogFilter\u003c/a\u003e\u003c/code\u003e to limit displayed log output to the\n particular area of your program that you are currently debugging.\n The SYS, TSK, and SAY spheres are used by the framework\n for messages relating to the Process layer, the Task layer,\n and the \u003ccode\u003e\u003ca\u003esay\u003c/a\u003e\u003c/code\u003e function.\n The remainder of values are free for use at the application level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "LogSphere",
           "package": "remote",
@@ -6898,6 +7233,7 @@
         "index": {
           "description": "Specifies the subsystem or region that is responsible for generating given log entry This is useful in conjunction with LogFilter to limit displayed log output to the particular area of your program that you are currently debugging The SYS TSK and SAY spheres are used by the framework for messages relating to the Process layer the Task layer and the say function The remainder of values are free for use at the application level",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "LogSphere",
           "package": "remote",
@@ -6912,6 +7248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA preference as to what is done with log messages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "LogTarget",
           "package": "remote",
@@ -6921,6 +7258,7 @@
         "index": {
           "description": "preference as to what is done with log messages",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "LogTarget",
           "package": "remote",
@@ -6934,6 +7272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "Lookup",
           "package": "remote",
@@ -6942,6 +7281,7 @@
         },
         "index": {
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "Lookup",
           "package": "remote",
@@ -6956,6 +7296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure that stores the important\n user-provided functions that are the namesakes\n of the MapReduce algorithm.\n The number of mapper processes can be controlled\n by the user by controlling the length of the string\n returned by mtChunkify. The number of reducer\n promises is controlled by the number of values\n values returned by shuffler.\n The user must provide their own mapper and reducer.\n For many cases, the default chunkifier (\u003ccode\u003e\u003ca\u003echunkify\u003c/a\u003e\u003c/code\u003e)\n and shuffler (\u003ccode\u003e\u003ca\u003eshuffle\u003c/a\u003e\u003c/code\u003e) are adequate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "MapReduce",
           "package": "remote",
@@ -6965,6 +7306,7 @@
         "index": {
           "description": "data structure that stores the important user-provided functions that are the namesakes of the MapReduce algorithm The number of mapper processes can be controlled by the user by controlling the length of the string returned by mtChunkify The number of reducer promises is controlled by the number of values values returned by shuffler The user must provide their own mapper and reducer For many cases the default chunkifier chunkify and shuffler shuffle are adequate",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "MapReduce",
           "package": "remote",
@@ -6979,6 +7321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis monad provides the state and structure for\n matching received messages from the incoming message queue.\n It's the interface between the \u003ccode\u003e\u003ca\u003ereceive\u003c/a\u003e\u003c/code\u003e family of functions,\n and the \u003ccode\u003e\u003ca\u003ematch\u003c/a\u003e\u003c/code\u003e family, which together can express which\n messages can be accepted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "MatchM",
           "package": "remote",
@@ -6988,6 +7331,7 @@
         "index": {
           "description": "This monad provides the state and structure for matching received messages from the incoming message queue It the interface between the receive family of functions and the match family which together can express which messages can be accepted",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "MatchM",
           "package": "remote",
@@ -7002,6 +7346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different kinds of monitoring available between processes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "MonitorAction",
           "package": "remote",
@@ -7011,6 +7356,7 @@
         "index": {
           "description": "The different kinds of monitoring available between processes",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "MonitorAction",
           "package": "remote",
@@ -7025,6 +7371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies a node somewhere on the network. These\n can be queried from \u003ccode\u003egetPeers\u003c/code\u003e. See also \u003ccode\u003e\u003ca\u003egetSelfNode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "NodeId",
           "package": "remote",
@@ -7034,6 +7381,7 @@
         "index": {
           "description": "Identifies node somewhere on the network These can be queried from getPeers See also getSelfNode",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "NodeId",
           "package": "remote",
@@ -7047,6 +7395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "Payload",
           "package": "remote",
@@ -7055,6 +7404,7 @@
         },
         "index": {
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "Payload",
           "package": "remote",
@@ -7069,6 +7419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreated by \u003ccode\u003eRemote.Peer.getPeers\u003c/code\u003e, this maps\n each role to a list of nodes that have that role.\n It can be examined directly or queried with\n \u003ccode\u003efindPeerByRole\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "PeerInfo",
           "package": "remote",
@@ -7078,6 +7429,7 @@
         "index": {
           "description": "Created by Remote.Peer.getPeers this maps each role to list of nodes that have that role It can be examined directly or queried with findPeerByRole",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "PeerInfo",
           "package": "remote",
@@ -7092,6 +7444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies a process somewhere on the network. These\n are produced by the \u003ccode\u003e\u003ca\u003espawn\u003c/a\u003e\u003c/code\u003e family of functions and\n consumed by \u003ccode\u003e\u003ca\u003esend\u003c/a\u003e\u003c/code\u003e. When a process ends, its process ID\n ceases to be valid. See also \u003ccode\u003e\u003ca\u003egetSelfPid\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "ProcessId",
           "package": "remote",
@@ -7101,6 +7454,7 @@
         "index": {
           "description": "Identifies process somewhere on the network These are produced by the spawn family of functions and consumed by send When process ends its process ID ceases to be valid See also getSelfPid",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "ProcessId",
           "package": "remote",
@@ -7115,6 +7469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monad ProcessM is the core of the process layer. Functions\n in the ProcessM monad may participate in messaging and create\n additional concurrent processes. You can create\n a ProcessM context from an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e context with the \u003ccode\u003eremoteInit\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "ProcessM",
           "package": "remote",
@@ -7124,6 +7479,7 @@
         "index": {
           "description": "The monad ProcessM is the core of the process layer Functions in the ProcessM monad may participate in messaging and create additional concurrent processes You can create ProcessM context from an IO context with the remoteInit function",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "ProcessM",
           "package": "remote",
@@ -7138,6 +7494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main form of notification to a monitoring process that a monitored process has terminated.\n This data structure can be delivered to the monitor either as a message (if the monitor is\n of type \u003ccode\u003e\u003ca\u003eMaMonitor\u003c/a\u003e\u003c/code\u003e) or as an asynchronous exception (if the monitor is of type \u003ccode\u003e\u003ca\u003eMaLink\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eMaLinkError\u003c/a\u003e\u003c/code\u003e).\n It contains the PID of the monitored process and the reason for its nofication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "ProcessMonitorException",
           "package": "remote",
@@ -7147,6 +7504,7 @@
         "index": {
           "description": "The main form of notification to monitoring process that monitored process has terminated This data structure can be delivered to the monitor either as message if the monitor is of type MaMonitor or as an asynchronous exception if the monitor is of type MaLink or MaLinkError It contains the PID of the monitored process and the reason for its nofication",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "ProcessMonitorException",
           "package": "remote",
@@ -7161,6 +7519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic data type for expressing data dependence\n in the \u003ccode\u003e\u003ca\u003eTaskM\u003c/a\u003e\u003c/code\u003e monad. A Promise represents a value that\n may or may not have been computed yet; thus, it's like\n a distributed thunk (in the sense of a non-strict unit\n of evaluation). These are created by \u003ccode\u003e\u003ca\u003enewPromise\u003c/a\u003e\u003c/code\u003e and friends,\n and the underlying value can be gotten with \u003ccode\u003e\u003ca\u003ereadPromise\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "Promise",
           "package": "remote",
@@ -7170,6 +7529,7 @@
         "index": {
           "description": "The basic data type for expressing data dependence in the TaskM monad Promise represents value that may or may not have been computed yet thus it like distributed thunk in the sense of non-strict unit of evaluation These are created by newPromise and friends and the underlying value can be gotten with readPromise",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "Promise",
           "package": "remote",
@@ -7184,6 +7544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA process holding a ReceivePort can extract messages\n from the channel, which we inserted by\n the holder(s) of the corresponding \u003ccode\u003e\u003ca\u003eSendPort\u003c/a\u003e\u003c/code\u003e.\n Critically, ReceivePorts, unlike SendPorts, are not serializable.\n This means that you can only receive messages through a channel\n on the node on which the channel was created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "ReceivePort",
           "package": "remote",
@@ -7193,6 +7554,7 @@
         "index": {
           "description": "process holding ReceivePort can extract messages from the channel which we inserted by the holder of the corresponding SendPort Critically ReceivePorts unlike SendPorts are not serializable This means that you can only receive messages through channel on the node on which the channel was created",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "ReceivePort",
           "package": "remote",
@@ -7207,6 +7569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData of this type is generated at compile-time\n by \u003ccode\u003eremotable\u003c/code\u003e and can be used with \u003ccode\u003e\u003ca\u003eregisterCalls\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003eremoteInit\u003c/code\u003e to create a metadata lookup table, \u003ccode\u003e\u003ca\u003eLookup\u003c/a\u003e\u003c/code\u003e.\n The name \u003ccode\u003e__remoteCallMetaData\u003c/code\u003e will be present\n in any module that uses \u003ccode\u003eremotable\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "RemoteCallMetaData",
           "package": "remote",
@@ -7216,6 +7579,7 @@
         "index": {
           "description": "Data of this type is generated at compile-time by remotable and can be used with registerCalls and remoteInit to create metadata lookup table Lookup The name remoteCallMetaData will be present in any module that uses remotable",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "RemoteCallMetaData",
           "package": "remote",
@@ -7230,6 +7594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA channel is a unidirectional communication pipeline\n with two ends: a sending port, and a receiving port.\n This is the sending port. A process holding this\n value can insert messages into the channel. SendPorts\n themselves can also be sent to other processes.\n The other side of the channel is the \u003ccode\u003e\u003ca\u003eReceivePort\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "SendPort",
           "package": "remote",
@@ -7239,6 +7604,7 @@
         "index": {
           "description": "channel is unidirectional communication pipeline with two ends sending port and receiving port This is the sending port process holding this value can insert messages into the channel SendPorts themselves can also be sent to other processes The other side of the channel is the ReceivePort",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "SendPort",
           "package": "remote",
@@ -7253,6 +7619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData that can be sent as a message must implement\n this class. The class has no functions of its own,\n but instead simply requires that the type implement\n both \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eBinary\u003c/a\u003e\u003c/code\u003e. Typeable can usually\n be derived automatically. Binary requires the put and get\n functions, which can be easily implemented by hand,\n or you can use the \u003ccode\u003e\u003ca\u003egenericGet\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003egenericPut\u003c/a\u003e\u003c/code\u003e flavors,\n which will work automatically for types implementing\n \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "Serializable",
           "package": "remote",
@@ -7262,6 +7629,7 @@
         "index": {
           "description": "Data that can be sent as message must implement this class The class has no functions of its own but instead simply requires that the type implement both Typeable and Binary Typeable can usually be derived automatically Binary requires the put and get functions which can be easily implemented by hand or you can use the genericGet and genericPut flavors which will work automatically for types implementing Data",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "Serializable",
           "package": "remote",
@@ -7276,6 +7644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrown by \u003ca\u003eRemote.Process\u003c/a\u003e system services in response\n to some problem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "ServiceException",
           "package": "remote",
@@ -7285,6 +7654,7 @@
         "index": {
           "description": "Thrown by Remote.Process system services in response to some problem",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "ServiceException",
           "package": "remote",
@@ -7298,6 +7668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "TaskException",
           "package": "remote",
@@ -7306,6 +7677,7 @@
         },
         "index": {
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "TaskException",
           "package": "remote",
@@ -7319,6 +7691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "TaskM",
           "package": "remote",
@@ -7327,6 +7700,7 @@
         },
         "index": {
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "TaskM",
           "package": "remote",
@@ -7341,6 +7715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrown by various network-related functions when\n communication with a host has failed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "TransmitException",
           "package": "remote",
@@ -7350,6 +7725,7 @@
         "index": {
           "description": "Thrown by various network-related functions when communication with host has failed",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "TransmitException",
           "package": "remote",
@@ -7363,6 +7739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "TransmitStatus",
           "package": "remote",
@@ -7371,6 +7748,7 @@
         },
         "index": {
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "TransmitStatus",
           "package": "remote",
@@ -7385,6 +7763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrown by \u003ccode\u003e\u003ca\u003ematchUnknownThrow\u003c/a\u003e\u003c/code\u003e in response to a message\n of a wrong type being received by a process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:44 UTC 2014",
           "module": "Remote",
           "name": "UnknownMessageException",
           "package": "remote",
@@ -7394,6 +7773,7 @@
         "index": {
           "description": "Thrown by matchUnknownThrow in response to message of wrong type being received by process",
           "hierarchy": "Remote",
+          "indexed": "2014-03-11T19:52:44",
           "module": "Remote",
           "name": "UnknownMessageException",
           "package": "remote",

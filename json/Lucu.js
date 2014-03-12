@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Lucu"
+        "phrase": "Lucu",
+        "type": "phrase"
       },
       "type": "context"
     }

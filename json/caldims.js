@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "caldims"
+        "phrase": "caldims",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "Action",
           "package": "caldims",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "Action",
           "package": "caldims",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "Command",
           "package": "caldims",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "Command",
           "package": "caldims",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "Mon",
           "package": "caldims",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "Mon",
           "package": "caldims",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "Result",
           "package": "caldims",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "Result",
           "package": "caldims",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "AddBasicUnit",
           "package": "caldims",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "AddBasicUnit",
           "package": "caldims",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "AddFunction",
           "package": "caldims",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "AddFunction",
           "package": "caldims",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "AddUnit",
           "package": "caldims",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "AddUnit",
           "package": "caldims",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "DebugDependencies",
           "package": "caldims",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "DebugDependencies",
           "package": "caldims",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "DebugExpr",
           "package": "caldims",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "DebugExpr",
           "package": "caldims",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "DebugName",
           "package": "caldims",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "DebugName",
           "package": "caldims",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "DimsResult",
           "package": "caldims",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "DimsResult",
           "package": "caldims",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "Echo",
           "package": "caldims",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "Echo",
           "package": "caldims",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "Eval",
           "package": "caldims",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "Eval",
           "package": "caldims",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "EvalDimsPart",
           "package": "caldims",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "EvalDimsPart",
           "package": "caldims",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "EvaledResult",
           "package": "caldims",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "EvaledResult",
           "normalized": "EvaledResult(R,Dims)",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "ExprResult",
           "package": "caldims",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "ExprResult",
           "package": "caldims",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "GetState",
           "package": "caldims",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "GetState",
           "package": "caldims",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "Help",
           "package": "caldims",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "Help",
           "package": "caldims",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "Ok",
           "package": "caldims",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "Ok",
           "package": "caldims",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "Remove",
           "package": "caldims",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "Remove",
           "package": "caldims",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "RemoveCascade",
           "package": "caldims",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "RemoveCascade",
           "package": "caldims",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "StringResult",
           "package": "caldims",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "StringResult",
           "package": "caldims",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "WriteState",
           "package": "caldims",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "WriteState",
           "package": "caldims",
@@ -522,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "WriteStringToFile",
           "package": "caldims",
@@ -531,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "WriteStringToFile",
           "package": "caldims",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "dependencies",
           "package": "caldims",
@@ -553,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "dependencies",
           "normalized": "Name-\u003eMon[Name]",
@@ -567,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "doCall",
           "package": "caldims",
@@ -576,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "doCall",
           "normalized": "Name-\u003e[(R,Dims)]-\u003eMon(R,Dims)",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "eval",
           "package": "caldims",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "eval",
           "normalized": "Expr-\u003eMon(R,Dims)",
@@ -614,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "evalDimsPart",
           "package": "caldims",
@@ -623,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "evalDimsPart",
           "normalized": "Expr-\u003eMon Dims",
@@ -638,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "process",
           "package": "caldims",
@@ -647,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "process",
           "normalized": "Command-\u003eMon Result",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Action",
           "name": "run",
           "package": "caldims",
@@ -670,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Action",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Action",
           "name": "run",
           "normalized": "State-\u003eCommand-\u003e(Either String Result,State)",
@@ -684,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Expr",
           "name": "Expr",
           "package": "caldims",
@@ -692,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Expr",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Expr",
           "name": "Expr",
           "package": "caldims",
@@ -705,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Expr",
           "name": "BinOp",
           "package": "caldims",
@@ -713,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Expr",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Expr",
           "name": "BinOp",
           "package": "caldims",
@@ -726,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Expr",
           "name": "Expr",
           "package": "caldims",
@@ -734,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Expr",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Expr",
           "name": "Expr",
           "package": "caldims",
@@ -747,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Expr",
           "name": "UniOp",
           "package": "caldims",
@@ -755,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Expr",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Expr",
           "name": "UniOp",
           "package": "caldims",
@@ -1370,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Expression",
           "name": "Expression",
           "package": "caldims",
@@ -1378,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Expression",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Expression",
           "name": "Expression",
           "package": "caldims",
@@ -1391,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Expression",
           "name": "brackets",
           "package": "caldims",
@@ -1400,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Expression",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Expression",
           "name": "brackets",
           "normalized": "MyParser a-\u003eMyParser a",
@@ -1414,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Expression",
           "name": "flush",
           "package": "caldims",
@@ -1423,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Expression",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Expression",
           "name": "flush",
           "normalized": "GenParser Char State(IO(),State)",
@@ -1437,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Expression",
           "name": "parseBind",
           "package": "caldims",
@@ -1446,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Expression",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Expression",
           "name": "parseBind",
           "package": "caldims",
@@ -1459,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Expression",
           "name": "parseBindE",
           "package": "caldims",
@@ -1468,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Expression",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Expression",
           "name": "parseBindE",
           "package": "caldims",
@@ -1481,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Expression",
           "name": "parseColon",
           "package": "caldims",
@@ -1490,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Expression",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Expression",
           "name": "parseColon",
           "package": "caldims",
@@ -1503,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Expression",
           "name": "parseComma",
           "package": "caldims",
@@ -1512,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Expression",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Expression",
           "name": "parseComma",
           "package": "caldims",
@@ -1525,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Expression",
           "name": "parseEinh",
           "package": "caldims",
@@ -1534,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Expression",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Expression",
           "name": "parseEinh",
           "package": "caldims",
@@ -1547,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Expression",
           "name": "parseExistingName",
           "package": "caldims",
@@ -1556,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Expression",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Expression",
           "name": "parseExistingName",
           "normalized": "MyParser(Name,StateEntry)",
@@ -1571,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Expression",
           "name": "parseExpr",
           "package": "caldims",
@@ -1580,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Expression",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Expression",
           "name": "parseExpr",
           "package": "caldims",
@@ -1593,6 +1681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Expression",
           "name": "parseName",
           "package": "caldims",
@@ -1602,6 +1691,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Expression",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Expression",
           "name": "parseName",
           "package": "caldims",
@@ -1615,6 +1705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Expression",
           "name": "parseNonRecursiveExpr",
           "package": "caldims",
@@ -1624,6 +1715,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Expression",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Expression",
           "name": "parseNonRecursiveExpr",
           "normalized": "Name-\u003eMyParser Expr",
@@ -1639,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Helpers",
           "name": "Helpers",
           "package": "caldims",
@@ -1647,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Helpers",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Helpers",
           "name": "Helpers",
           "package": "caldims",
@@ -1660,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Helpers",
           "name": "ErrorAndState",
           "package": "caldims",
@@ -1668,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Helpers",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Helpers",
           "name": "ErrorAndState",
           "package": "caldims",
@@ -1681,6 +1777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Helpers",
           "name": "F",
           "package": "caldims",
@@ -1689,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Helpers",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Helpers",
           "name": "F",
           "package": "caldims",
@@ -1701,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Helpers",
           "name": "(#&&#)",
           "package": "caldims",
@@ -1710,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Helpers",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Helpers",
           "name": "(#&&#) #&&#",
           "normalized": "a Bool-\u003ea Bool-\u003ea Bool",
@@ -1724,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Helpers",
           "name": "again",
           "package": "caldims",
@@ -1733,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Helpers",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Helpers",
           "name": "again",
           "normalized": "(a-\u003eb c)-\u003e[a]-\u003eb()",
@@ -1747,6 +1849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Helpers",
           "name": "combination",
           "package": "caldims",
@@ -1756,6 +1859,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Helpers",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Helpers",
           "name": "combination",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -1770,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Helpers",
           "name": "eqClassesWith",
           "package": "caldims",
@@ -1779,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Helpers",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Helpers",
           "name": "eqClassesWith",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[(a,[a])]",
@@ -1794,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Helpers",
           "name": "headWithDefault",
           "package": "caldims",
@@ -1803,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Helpers",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Helpers",
           "name": "headWithDefault",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -1818,6 +1926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Helpers",
           "name": "if_",
           "package": "caldims",
@@ -1827,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Helpers",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Helpers",
           "name": "if_",
           "normalized": "Bool-\u003ea-\u003ea-\u003ea",
@@ -1841,6 +1951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Helpers",
           "name": "logBaseInt",
           "package": "caldims",
@@ -1850,6 +1961,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Helpers",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Helpers",
           "name": "logBaseInt",
           "normalized": "a-\u003ea-\u003eMaybe a",
@@ -1865,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Helpers",
           "name": "permutation",
           "package": "caldims",
@@ -1874,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Helpers",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Helpers",
           "name": "permutation",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -1888,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Helpers",
           "name": "third",
           "package": "caldims",
@@ -1897,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Helpers",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Helpers",
           "name": "third",
           "normalized": "(a,b,c)-\u003ec",
@@ -1911,6 +2027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Helpers",
           "name": "unlines'",
           "package": "caldims",
@@ -1920,6 +2037,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Helpers",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Helpers",
           "name": "unlines'",
           "normalized": "[String]-\u003eString",
@@ -1934,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Misc",
           "name": "Misc",
           "package": "caldims",
@@ -1942,6 +2061,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Misc",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Misc",
           "name": "Misc",
           "package": "caldims",
@@ -1955,6 +2075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Misc",
           "name": "parseLine",
           "package": "caldims",
@@ -1964,6 +2085,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Misc",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Misc",
           "name": "parseLine",
           "package": "caldims",
@@ -1977,6 +2099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Program",
           "name": "Program",
           "package": "caldims",
@@ -1985,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Program",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Program",
           "name": "Program",
           "package": "caldims",
@@ -1998,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Program",
           "name": "OutputMode",
           "package": "caldims",
@@ -2006,6 +2131,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Program",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Program",
           "name": "OutputMode",
           "package": "caldims",
@@ -2019,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Program",
           "name": "OutputMode",
           "package": "caldims",
@@ -2028,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Program",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Program",
           "name": "OutputMode",
           "package": "caldims",
@@ -2041,6 +2169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Program",
           "name": "defMain",
           "package": "caldims",
@@ -2050,6 +2179,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Program",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Program",
           "name": "defMain",
           "normalized": "IO()",
@@ -2065,6 +2195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Program",
           "name": "echo",
           "package": "caldims",
@@ -2074,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Program",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Program",
           "name": "echo",
           "package": "caldims",
@@ -2086,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Program",
           "name": "getUserState",
           "package": "caldims",
@@ -2095,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Program",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Program",
           "name": "getUserState",
           "normalized": "Maybe String-\u003eIO State",
@@ -2110,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Program",
           "name": "loop",
           "package": "caldims",
@@ -2119,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Program",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Program",
           "name": "loop",
           "normalized": "OutputMode-\u003eHandle-\u003eState-\u003eIO State",
@@ -2133,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Program",
           "name": "omRun",
           "package": "caldims",
@@ -2142,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Program",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Program",
           "name": "omRun",
           "package": "caldims",
@@ -2155,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Program",
           "name": "pErrors",
           "package": "caldims",
@@ -2164,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Program",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Program",
           "name": "pErrors",
           "package": "caldims",
@@ -2177,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Program",
           "name": "ppCommand",
           "package": "caldims",
@@ -2186,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Program",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Program",
           "name": "ppCommand",
           "package": "caldims",
@@ -2199,6 +2341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Program",
           "name": "ppResult",
           "package": "caldims",
@@ -2208,6 +2351,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Program",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Program",
           "name": "ppResult",
           "package": "caldims",
@@ -2221,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Program",
           "name": "prompt",
           "package": "caldims",
@@ -2230,6 +2375,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Program",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Program",
           "name": "prompt",
           "package": "caldims",
@@ -2242,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Program",
           "name": "sCommand",
           "package": "caldims",
@@ -2251,6 +2398,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Program",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Program",
           "name": "sCommand",
           "package": "caldims",
@@ -2264,6 +2412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Program",
           "name": "sResult",
           "package": "caldims",
@@ -2273,6 +2422,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Program",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Program",
           "name": "sResult",
           "package": "caldims",
@@ -2286,6 +2436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Program",
           "name": "tolerant",
           "package": "caldims",
@@ -2295,6 +2446,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Program",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Program",
           "name": "tolerant",
           "package": "caldims",
@@ -2307,6 +2459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.State",
           "name": "State",
           "package": "caldims",
@@ -2315,6 +2468,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims State",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.State",
           "name": "State",
           "package": "caldims",
@@ -2328,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.State",
           "name": "Arg",
           "package": "caldims",
@@ -2336,6 +2491,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims State",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.State",
           "name": "Arg",
           "package": "caldims",
@@ -2349,6 +2505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.State",
           "name": "Args",
           "package": "caldims",
@@ -2357,6 +2514,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims State",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.State",
           "name": "Args",
           "package": "caldims",
@@ -2370,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.State",
           "name": "MyParser",
           "package": "caldims",
@@ -2378,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims State",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.State",
           "name": "MyParser",
           "package": "caldims",
@@ -2391,6 +2551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.State",
           "name": "Scope",
           "package": "caldims",
@@ -2399,6 +2560,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims State",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.State",
           "name": "Scope",
           "package": "caldims",
@@ -2412,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.State",
           "name": "State",
           "package": "caldims",
@@ -2420,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims State",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.State",
           "name": "State",
           "package": "caldims",
@@ -2433,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.State",
           "name": "StateEntry",
           "package": "caldims",
@@ -2441,6 +2606,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims State",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.State",
           "name": "StateEntry",
           "package": "caldims",
@@ -2732,6 +2898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.State",
           "name": "isBasicUnit",
           "package": "caldims",
@@ -2741,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims State",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.State",
           "name": "isBasicUnit",
           "normalized": "State-\u003eName-\u003eBool",
@@ -2756,6 +2924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.State",
           "name": "isBuiltin",
           "package": "caldims",
@@ -2765,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims State",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.State",
           "name": "isBuiltin",
           "normalized": "State-\u003eName-\u003eBool",
@@ -2780,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.State",
           "name": "isDerivedUnit",
           "package": "caldims",
@@ -2789,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims State",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.State",
           "name": "isDerivedUnit",
           "normalized": "State-\u003eName-\u003eBool",
@@ -2804,6 +2976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.State",
           "name": "isFunction",
           "package": "caldims",
@@ -2813,6 +2986,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims State",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.State",
           "name": "isFunction",
           "normalized": "State-\u003eName-\u003eBool",
@@ -2828,6 +3002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.State",
           "name": "isUnit",
           "package": "caldims",
@@ -2837,6 +3012,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims State",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.State",
           "name": "isUnit",
           "normalized": "State-\u003eName-\u003eBool",
@@ -2852,6 +3028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.State",
           "name": "lu",
           "package": "caldims",
@@ -2861,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims State",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.State",
           "name": "lu",
           "normalized": "Name-\u003eState-\u003eMaybe StateEntry",
@@ -2875,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.State",
           "name": "start",
           "package": "caldims",
@@ -2884,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims State",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.State",
           "name": "start",
           "package": "caldims",
@@ -2896,6 +3076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Texts",
           "name": "Texts",
           "package": "caldims",
@@ -2904,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Texts",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Texts",
           "name": "Texts",
           "package": "caldims",
@@ -2917,6 +3099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Texts",
           "name": "HelpTree",
           "package": "caldims",
@@ -2925,6 +3108,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Texts",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Texts",
           "name": "HelpTree",
           "package": "caldims",
@@ -2938,6 +3122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Texts",
           "name": "Para",
           "package": "caldims",
@@ -2947,6 +3132,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Texts",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Texts",
           "name": "Para",
           "package": "caldims",
@@ -2960,6 +3146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Texts",
           "name": "Section",
           "package": "caldims",
@@ -2969,6 +3156,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Texts",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Texts",
           "name": "Section",
           "normalized": "Section String[HelpTree]",
@@ -2984,6 +3172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Texts",
           "name": "helpText",
           "package": "caldims",
@@ -2993,6 +3182,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Texts",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Texts",
           "name": "helpText",
           "package": "caldims",
@@ -3006,6 +3196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Texts",
           "name": "name",
           "package": "caldims",
@@ -3015,6 +3206,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Texts",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Texts",
           "name": "name",
           "package": "caldims",
@@ -3027,6 +3219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Texts",
           "name": "preludeText",
           "package": "caldims",
@@ -3036,6 +3229,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Texts",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Texts",
           "name": "preludeText",
           "package": "caldims",
@@ -3049,6 +3243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Texts",
           "name": "version",
           "package": "caldims",
@@ -3058,6 +3253,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Texts",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Texts",
           "name": "version",
           "package": "caldims",
@@ -3070,6 +3266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Texts",
           "name": "welcomeText",
           "package": "caldims",
@@ -3079,6 +3276,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Texts",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Texts",
           "name": "welcomeText",
           "package": "caldims",
@@ -3092,6 +3290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "Types",
           "package": "caldims",
@@ -3100,6 +3299,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "Types",
           "package": "caldims",
@@ -3113,6 +3313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "AcosM",
           "package": "caldims",
@@ -3121,6 +3322,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "AcosM",
           "package": "caldims",
@@ -3134,6 +3336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "AcoshM",
           "package": "caldims",
@@ -3142,6 +3345,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "AcoshM",
           "package": "caldims",
@@ -3155,6 +3359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "AddM",
           "package": "caldims",
@@ -3163,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "AddM",
           "package": "caldims",
@@ -3176,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "Arg",
           "package": "caldims",
@@ -3184,6 +3391,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "Arg",
           "package": "caldims",
@@ -3197,6 +3405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "Args",
           "package": "caldims",
@@ -3205,6 +3414,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "Args",
           "package": "caldims",
@@ -3218,6 +3428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "AsinM",
           "package": "caldims",
@@ -3226,6 +3437,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "AsinM",
           "package": "caldims",
@@ -3239,6 +3451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "AsinhM",
           "package": "caldims",
@@ -3247,6 +3460,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "AsinhM",
           "package": "caldims",
@@ -3260,6 +3474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "AtanM",
           "package": "caldims",
@@ -3268,6 +3483,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "AtanM",
           "package": "caldims",
@@ -3281,6 +3497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "AtanhM",
           "package": "caldims",
@@ -3289,6 +3506,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "AtanhM",
           "package": "caldims",
@@ -3302,6 +3520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "BinOp",
           "package": "caldims",
@@ -3310,6 +3529,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "BinOp",
           "package": "caldims",
@@ -3323,6 +3543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "Conversion",
           "package": "caldims",
@@ -3331,6 +3552,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "Conversion",
           "package": "caldims",
@@ -3344,6 +3566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "CosM",
           "package": "caldims",
@@ -3352,6 +3575,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "CosM",
           "package": "caldims",
@@ -3365,6 +3589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "CoshM",
           "package": "caldims",
@@ -3373,6 +3598,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "CoshM",
           "package": "caldims",
@@ -3386,6 +3612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "D",
           "package": "caldims",
@@ -3394,6 +3621,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "D",
           "package": "caldims",
@@ -3406,6 +3634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "Dims",
           "package": "caldims",
@@ -3414,6 +3643,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "Dims",
           "package": "caldims",
@@ -3427,6 +3657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "DivM",
           "package": "caldims",
@@ -3435,6 +3666,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "DivM",
           "package": "caldims",
@@ -3448,6 +3680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "EqM",
           "package": "caldims",
@@ -3456,6 +3689,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "EqM",
           "package": "caldims",
@@ -3469,6 +3703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "ExpM",
           "package": "caldims",
@@ -3477,6 +3712,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "ExpM",
           "package": "caldims",
@@ -3490,6 +3726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "ExpotM",
           "package": "caldims",
@@ -3498,6 +3735,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "ExpotM",
           "package": "caldims",
@@ -3511,6 +3749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "Expr",
           "package": "caldims",
@@ -3519,6 +3758,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "Expr",
           "package": "caldims",
@@ -3532,6 +3772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "LogBaseM",
           "package": "caldims",
@@ -3540,6 +3781,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "LogBaseM",
           "package": "caldims",
@@ -3553,6 +3795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "LogM",
           "package": "caldims",
@@ -3561,6 +3804,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "LogM",
           "package": "caldims",
@@ -3574,6 +3818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "MulM",
           "package": "caldims",
@@ -3582,6 +3827,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "MulM",
           "package": "caldims",
@@ -3595,6 +3841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "MyParser",
           "package": "caldims",
@@ -3603,6 +3850,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "MyParser",
           "package": "caldims",
@@ -3616,6 +3864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "Name",
           "package": "caldims",
@@ -3624,6 +3873,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "Name",
           "package": "caldims",
@@ -3637,6 +3887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "NegateM",
           "package": "caldims",
@@ -3645,6 +3896,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "NegateM",
           "package": "caldims",
@@ -3658,6 +3910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "Pretty",
           "package": "caldims",
@@ -3666,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "Pretty",
           "package": "caldims",
@@ -3679,6 +3933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "Priority",
           "package": "caldims",
@@ -3687,6 +3942,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "Priority",
           "package": "caldims",
@@ -3700,6 +3956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "R",
           "package": "caldims",
@@ -3708,6 +3965,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "R",
           "package": "caldims",
@@ -3720,6 +3978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "Scope",
           "package": "caldims",
@@ -3728,6 +3987,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "Scope",
           "package": "caldims",
@@ -3741,6 +4001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "SinM",
           "package": "caldims",
@@ -3749,6 +4010,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "SinM",
           "package": "caldims",
@@ -3762,6 +4024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "SinhM",
           "package": "caldims",
@@ -3770,6 +4033,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "SinhM",
           "package": "caldims",
@@ -3783,6 +4047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "SqrtM",
           "package": "caldims",
@@ -3791,6 +4056,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "SqrtM",
           "package": "caldims",
@@ -3804,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "State",
           "package": "caldims",
@@ -3812,6 +4079,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "State",
           "package": "caldims",
@@ -3825,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "StateEntry",
           "package": "caldims",
@@ -3833,6 +4102,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "StateEntry",
           "package": "caldims",
@@ -3846,6 +4116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "SubM",
           "package": "caldims",
@@ -3854,6 +4125,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "SubM",
           "package": "caldims",
@@ -3867,6 +4139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "TanM",
           "package": "caldims",
@@ -3875,6 +4148,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "TanM",
           "package": "caldims",
@@ -3888,6 +4162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "TanhM",
           "package": "caldims",
@@ -3896,6 +4171,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "TanhM",
           "package": "caldims",
@@ -3909,6 +4185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "UniOp",
           "package": "caldims",
@@ -3917,6 +4194,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "UniOp",
           "package": "caldims",
@@ -3930,6 +4208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "(#~#)",
           "package": "caldims",
@@ -3939,6 +4218,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "(#~#) #~#",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -3953,6 +4233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "(#*#)",
           "package": "caldims",
@@ -3962,6 +4243,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "(#*#) #*#",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -3976,6 +4258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "(#+#)",
           "package": "caldims",
@@ -3985,6 +4268,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "(#+#) #+#",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -3999,6 +4283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "(#-#)",
           "package": "caldims",
@@ -4008,6 +4293,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "(#-#) #-#",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -4022,6 +4308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "(#/#)",
           "package": "caldims",
@@ -4031,6 +4318,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "(#/#) #/#",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -4045,6 +4333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "(#==#)",
           "package": "caldims",
@@ -4054,6 +4343,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "(#==#) #==#",
           "normalized": "a b-\u003ea b-\u003ea Bool",
@@ -4068,6 +4358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "(#^#)",
           "package": "caldims",
@@ -4077,6 +4368,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "(#^#) #^#",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -4091,6 +4383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "Basic",
           "package": "caldims",
@@ -4100,6 +4393,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "Basic",
           "package": "caldims",
@@ -4113,6 +4407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "Dims",
           "package": "caldims",
@@ -4122,6 +4417,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "Dims",
           "package": "caldims",
@@ -4135,6 +4431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "Explicit",
           "package": "caldims",
@@ -4144,6 +4441,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "Explicit",
           "package": "caldims",
@@ -4157,6 +4455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "InTermsOf",
           "package": "caldims",
@@ -4166,6 +4465,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "InTermsOf",
           "package": "caldims",
@@ -4179,6 +4479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "Keep",
           "package": "caldims",
@@ -4188,6 +4489,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "Keep",
           "package": "caldims",
@@ -4201,6 +4503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "Minimal",
           "package": "caldims",
@@ -4210,6 +4513,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "Minimal",
           "package": "caldims",
@@ -4223,6 +4527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "Name",
           "package": "caldims",
@@ -4232,6 +4537,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "Name",
           "package": "caldims",
@@ -4245,6 +4551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "P_Add",
           "package": "caldims",
@@ -4254,6 +4561,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "P_Add",
           "package": "caldims",
@@ -4267,6 +4575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "P_Elementary",
           "package": "caldims",
@@ -4276,6 +4585,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "P_Elementary",
           "package": "caldims",
@@ -4289,6 +4599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "P_Exp",
           "package": "caldims",
@@ -4298,6 +4609,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "P_Exp",
           "package": "caldims",
@@ -4311,6 +4623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "P_Mul",
           "package": "caldims",
@@ -4320,6 +4633,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "P_Mul",
           "package": "caldims",
@@ -4333,6 +4647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "P_Negate",
           "package": "caldims",
@@ -4342,6 +4657,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "P_Negate",
           "package": "caldims",
@@ -4355,6 +4671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "acosM",
           "package": "caldims",
@@ -4364,6 +4681,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "acosM",
           "normalized": "a b-\u003ea b",
@@ -4378,6 +4696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "acoshM",
           "package": "caldims",
@@ -4387,6 +4706,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "acoshM",
           "normalized": "a b-\u003ea b",
@@ -4401,6 +4721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "asinM",
           "package": "caldims",
@@ -4410,6 +4731,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "asinM",
           "normalized": "a b-\u003ea b",
@@ -4424,6 +4746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "asinhM",
           "package": "caldims",
@@ -4433,6 +4756,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "asinhM",
           "normalized": "a b-\u003ea b",
@@ -4447,6 +4771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "atanM",
           "package": "caldims",
@@ -4456,6 +4781,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "atanM",
           "normalized": "a b-\u003ea b",
@@ -4470,6 +4796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "atanhM",
           "package": "caldims",
@@ -4479,6 +4806,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "atanhM",
           "normalized": "a b-\u003ea b",
@@ -4493,6 +4821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "cosM",
           "package": "caldims",
@@ -4502,6 +4831,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "cosM",
           "normalized": "a b-\u003ea b",
@@ -4516,6 +4846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "coshM",
           "package": "caldims",
@@ -4525,6 +4856,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "coshM",
           "normalized": "a b-\u003ea b",
@@ -4539,6 +4871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "expM",
           "package": "caldims",
@@ -4548,6 +4881,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "expM",
           "normalized": "a b-\u003ea b",
@@ -4562,6 +4896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "logM",
           "package": "caldims",
@@ -4571,6 +4906,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "logM",
           "normalized": "a b-\u003ea b",
@@ -4585,6 +4921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "negateM",
           "package": "caldims",
@@ -4594,6 +4931,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "negateM",
           "normalized": "a b-\u003ea b",
@@ -4608,6 +4946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "noDims",
           "package": "caldims",
@@ -4617,6 +4956,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "noDims",
           "package": "caldims",
@@ -4630,6 +4970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "pretty",
           "package": "caldims",
@@ -4639,6 +4980,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "pretty",
           "normalized": "a-\u003eString",
@@ -4653,6 +4995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "sinM",
           "package": "caldims",
@@ -4662,6 +5005,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "sinM",
           "normalized": "a b-\u003ea b",
@@ -4676,6 +5020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "sinhM",
           "package": "caldims",
@@ -4685,6 +5030,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "sinhM",
           "normalized": "a b-\u003ea b",
@@ -4699,6 +5045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "sqrtM",
           "package": "caldims",
@@ -4708,6 +5055,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "sqrtM",
           "normalized": "a b-\u003ea b",
@@ -4722,6 +5070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "tanM",
           "package": "caldims",
@@ -4731,6 +5080,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "tanM",
           "normalized": "a b-\u003ea b",
@@ -4745,6 +5095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "tanhM",
           "package": "caldims",
@@ -4754,6 +5105,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "tanhM",
           "normalized": "a b-\u003ea b",
@@ -4768,6 +5120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "unDims",
           "package": "caldims",
@@ -4777,6 +5130,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "unDims",
           "package": "caldims",
@@ -4790,6 +5144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:31 UTC 2014",
           "module": "Language.CalDims.Types",
           "name": "unName",
           "package": "caldims",
@@ -4799,6 +5154,7 @@
         },
         "index": {
           "hierarchy": "Language CalDims Types",
+          "indexed": "2014-03-11T17:29:31",
           "module": "Language.CalDims.Types",
           "name": "unName",
           "package": "caldims",

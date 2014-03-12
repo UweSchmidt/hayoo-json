@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "FixedPoint-simple"
+        "phrase": "FixedPoint-simple",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint.TH",
           "name": "TH",
           "package": "FixedPoint-simple",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint TH",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint.TH",
           "name": "TH",
           "package": "FixedPoint-simple",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint.TH",
           "name": "mkFixedPoint",
           "package": "FixedPoint-simple",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint TH",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint.TH",
           "name": "mkFixedPoint",
           "normalized": "Int-\u003eInt-\u003eDecsQ",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$(mkInt X)\u003c/code\u003e Makes a type alias named \u003ccode\u003eIntX\u003c/code\u003e for an int of X bits.\n See the requirements under \u003ccode\u003e\u003ca\u003emkWord\u003c/a\u003e\u003c/code\u003e for additional information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint.TH",
           "name": "mkInt",
           "package": "FixedPoint-simple",
@@ -74,6 +79,7 @@
         "index": {
           "description": "mkInt Makes type alias named IntX for an int of bits See the requirements under mkWord for additional information",
           "hierarchy": "Data FixedPoint TH",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint.TH",
           "name": "mkInt",
           "normalized": "Int-\u003eDecsQ",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e$(mkWord X)\u003c/code\u003e Makes a type alias named \u003ccode\u003eWordX\u003c/code\u003e for a word of \u003ccode\u003eX\u003c/code\u003e bits.\n Notice \u003ccode\u003eX\u003c/code\u003e must be a multiple of 8, \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e must be in scope,\n \u003ccode\u003e\u003ca\u003eBigWord\u003c/a\u003e\u003c/code\u003e must be in scope, and this splice will add\n all smaller \u003ccode\u003eWordY\u003c/code\u003e type aliases needed that aren't already in scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint.TH",
           "name": "mkWord",
           "package": "FixedPoint-simple",
@@ -100,6 +107,7 @@
         "index": {
           "description": "mkWord Makes type alias named WordX for word of bits Notice must be multiple of Word8 must be in scope BigWord must be in scope and this splice will add all smaller WordY type aliases needed that aren already in scope",
           "hierarchy": "Data FixedPoint TH",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint.TH",
           "name": "mkWord",
           "normalized": "Int-\u003eDecsQ",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis FixedPoint module implements arbitrary sized fixed point types and\n  computations.  This module intentionally avoids converting to \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e for\n  computations because one purpose is to allow easy translation to other\n  languages to produce stand-alone fixed point libraries.  Instead of using\n  \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e, elementary long multiplication and long division are implemented\n  explicitly along with sqrt, exp, and erf functions that are implemented using\n  only primitive operations. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "FixedPoint",
           "package": "FixedPoint-simple",
@@ -125,6 +134,7 @@
         "index": {
           "description": "This FixedPoint module implements arbitrary sized fixed point types and computations This module intentionally avoids converting to Integer for computations because one purpose is to allow easy translation to other languages to produce stand-alone fixed point libraries Instead of using Integer elementary long multiplication and long division are implemented explicitly along with sqrt exp and erf functions that are implemented using only primitive operations",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "FixedPoint",
           "package": "FixedPoint-simple",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type constructor for building 2^n bit signed ints.\n BigInt is normally just used as a wrapper around BigWord\n since twos-complement arithmatic is the same, we simply\n need to provide alternate show, read, and comparison operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "BigInt",
           "package": "FixedPoint-simple",
@@ -148,6 +159,7 @@
         "index": {
           "description": "type constructor for building bit signed ints BigInt is normally just used as wrapper around BigWord since twos-complement arithmatic is the same we simply need to provide alternate show read and comparison operations",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "BigInt",
           "package": "FixedPoint-simple",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type constuctor allowing construction of \u003ccode\u003e2^n\u003c/code\u003e bit unsigned words\n The type variable represents half the underlying representation, so\n \u003ccode\u003etype Foo = BigWord Word13\u003c/code\u003e would have a bit size of \u003ccode\u003e26 (2*13)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "BigWord",
           "package": "FixedPoint-simple",
@@ -171,6 +184,7 @@
         "index": {
           "description": "type constuctor allowing construction of bit unsigned words The type variable represents half the underlying representation so type Foo BigWord Word13 would have bit size of",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "BigWord",
           "package": "FixedPoint-simple",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "FixedPoint10241024",
           "package": "FixedPoint-simple",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "FixedPoint10241024",
           "package": "FixedPoint-simple",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "FixedPoint128128",
           "package": "FixedPoint-simple",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "FixedPoint128128",
           "package": "FixedPoint-simple",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "FixedPoint256256",
           "package": "FixedPoint-simple",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "FixedPoint256256",
           "package": "FixedPoint-simple",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "FixedPoint3232",
           "package": "FixedPoint-simple",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "FixedPoint3232",
           "package": "FixedPoint-simple",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "FixedPoint4816",
           "package": "FixedPoint-simple",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "FixedPoint4816",
           "package": "FixedPoint-simple",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "FixedPoint512512",
           "package": "FixedPoint-simple",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "FixedPoint512512",
           "package": "FixedPoint-simple",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "FixedPoint6464",
           "package": "FixedPoint-simple",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "FixedPoint6464",
           "package": "FixedPoint-simple",
@@ -332,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenericFixedPoint is a type constructor for arbitrarily-sized fixed point\n tyes. Take note the first type variable, \u003ccode\u003eflat\u003c/code\u003e, should be a signed int\n equal to the size of the fixed point integral plus fractional bits.\n The second type variable, \u003ccode\u003einternal\u003c/code\u003e, should be unsigned and twice\n as large a bit size as the \u003ccode\u003eflat\u003c/code\u003e type.  The final type variable,\n \u003ccode\u003efracBitRepr\u003c/code\u003e, should be a data structure of equal bit size to the\n fractional bits in the fixed point type.  See the existing type aliases,\n such as \u003ccode\u003eFixedPoint4816\u003c/code\u003e, for examples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "GenericFixedPoint",
           "package": "FixedPoint-simple",
@@ -341,6 +370,7 @@
         "index": {
           "description": "GenericFixedPoint is type constructor for arbitrarily-sized fixed point tyes Take note the first type variable flat should be signed int equal to the size of the fixed point integral plus fractional bits The second type variable internal should be unsigned and twice as large bit size as the flat type The final type variable fracBitRepr should be data structure of equal bit size to the fractional bits in the fixed point type See the existing type aliases such as FixedPoint4816 for examples",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "GenericFixedPoint",
           "package": "FixedPoint-simple",
@@ -355,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 1024 bit int (signed)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "Int1024",
           "package": "FixedPoint-simple",
@@ -364,6 +395,7 @@
         "index": {
           "description": "bit int signed",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "Int1024",
           "package": "FixedPoint-simple",
@@ -378,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 128 bit int (signed)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "Int128",
           "package": "FixedPoint-simple",
@@ -387,6 +420,7 @@
         "index": {
           "description": "bit int signed",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "Int128",
           "package": "FixedPoint-simple",
@@ -401,6 +435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2048 bit int (signed)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "Int2048",
           "package": "FixedPoint-simple",
@@ -410,6 +445,7 @@
         "index": {
           "description": "bit int signed",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "Int2048",
           "package": "FixedPoint-simple",
@@ -424,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 256 bit int (signed)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "Int256",
           "package": "FixedPoint-simple",
@@ -433,6 +470,7 @@
         "index": {
           "description": "bit int signed",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "Int256",
           "package": "FixedPoint-simple",
@@ -447,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 4096 bit int (signed)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "Int4096",
           "package": "FixedPoint-simple",
@@ -456,6 +495,7 @@
         "index": {
           "description": "bit int signed",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "Int4096",
           "package": "FixedPoint-simple",
@@ -470,6 +510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 512 bit int (signed)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "Int512",
           "package": "FixedPoint-simple",
@@ -479,6 +520,7 @@
         "index": {
           "description": "bit int signed",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "Int512",
           "package": "FixedPoint-simple",
@@ -493,6 +535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 8192 bit int (signed)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "Int8192",
           "package": "FixedPoint-simple",
@@ -502,6 +545,7 @@
         "index": {
           "description": "bit int signed",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "Int8192",
           "package": "FixedPoint-simple",
@@ -516,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 1024 bit unsigned word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "Word1024",
           "package": "FixedPoint-simple",
@@ -525,6 +570,7 @@
         "index": {
           "description": "bit unsigned word",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "Word1024",
           "package": "FixedPoint-simple",
@@ -538,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "Word128",
           "package": "FixedPoint-simple",
@@ -546,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "Word128",
           "package": "FixedPoint-simple",
@@ -560,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 1280 bit unsigned word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "Word1280",
           "package": "FixedPoint-simple",
@@ -569,6 +618,7 @@
         "index": {
           "description": "bit unsigned word",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "Word1280",
           "package": "FixedPoint-simple",
@@ -583,6 +633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2048 bit unsigned word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "Word2048",
           "package": "FixedPoint-simple",
@@ -592,6 +643,7 @@
         "index": {
           "description": "bit unsigned word",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "Word2048",
           "package": "FixedPoint-simple",
@@ -606,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 256 bit unsigned word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "Word256",
           "package": "FixedPoint-simple",
@@ -615,6 +668,7 @@
         "index": {
           "description": "bit unsigned word",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "Word256",
           "package": "FixedPoint-simple",
@@ -629,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2632 bit unsigned word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "Word2632",
           "package": "FixedPoint-simple",
@@ -638,6 +693,7 @@
         "index": {
           "description": "bit unsigned word",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "Word2632",
           "package": "FixedPoint-simple",
@@ -652,6 +708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 4096 bit unsigned word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "Word4096",
           "package": "FixedPoint-simple",
@@ -661,6 +718,7 @@
         "index": {
           "description": "bit unsigned word",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "Word4096",
           "package": "FixedPoint-simple",
@@ -675,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 512 bit unsigned word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "Word512",
           "package": "FixedPoint-simple",
@@ -684,6 +743,7 @@
         "index": {
           "description": "bit unsigned word",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "Word512",
           "package": "FixedPoint-simple",
@@ -698,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 576 bit unsigned word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "Word576",
           "package": "FixedPoint-simple",
@@ -707,6 +768,7 @@
         "index": {
           "description": "bit unsigned word",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "Word576",
           "package": "FixedPoint-simple",
@@ -721,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 584 bit unsigned word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "Word584",
           "package": "FixedPoint-simple",
@@ -730,6 +793,7 @@
         "index": {
           "description": "bit unsigned word",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "Word584",
           "package": "FixedPoint-simple",
@@ -744,6 +808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 72 bit unsigned word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "Word72",
           "package": "FixedPoint-simple",
@@ -753,6 +818,7 @@
         "index": {
           "description": "bit unsigned word",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "Word72",
           "package": "FixedPoint-simple",
@@ -767,6 +833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 8192 bit unsigned word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "Word8192",
           "package": "FixedPoint-simple",
@@ -776,6 +843,7 @@
         "index": {
           "description": "bit unsigned word",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "Word8192",
           "package": "FixedPoint-simple",
@@ -789,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "BigInt",
           "package": "FixedPoint-simple",
@@ -798,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "BigInt",
           "package": "FixedPoint-simple",
@@ -811,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "BigWord",
           "package": "FixedPoint-simple",
@@ -820,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "BigWord",
           "package": "FixedPoint-simple",
@@ -833,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "FixedPoint",
           "package": "FixedPoint-simple",
@@ -842,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "FixedPoint",
           "package": "FixedPoint-simple",
@@ -855,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "W128",
           "package": "FixedPoint-simple",
@@ -864,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "W128",
           "package": "FixedPoint-simple",
@@ -876,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "erf'",
           "package": "FixedPoint-simple",
@@ -885,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "erf'",
           "normalized": "Int-\u003ea-\u003ea",
@@ -899,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "exp'",
           "package": "FixedPoint-simple",
@@ -908,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "exp'",
           "normalized": "Int-\u003ea-\u003ea",
@@ -923,6 +1003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain the number of bits used to represent the fractional component of this fixed point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "fracBits",
           "package": "FixedPoint-simple",
@@ -933,6 +1014,7 @@
         "index": {
           "description": "Obtain the number of bits used to represent the fractional component of this fixed point",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "fracBits",
           "normalized": "GenericFixedPoint a b c-\u003eInt",
@@ -948,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "fromInternal",
           "package": "FixedPoint-simple",
@@ -957,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "fromInternal",
           "normalized": "a-\u003eGenericFixedPoint b a c",
@@ -972,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "pi'",
           "package": "FixedPoint-simple",
@@ -981,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "pi'",
           "package": "FixedPoint-simple",
@@ -994,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe square root operation converges in O(bitSize input).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "sqrt'",
           "package": "FixedPoint-simple",
@@ -1004,6 +1091,7 @@
         "index": {
           "description": "The square root operation converges in bitSize input",
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "sqrt'",
           "normalized": "GenericFixedPoint a b c-\u003eGenericFixedPoint a b c",
@@ -1018,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "toFlat",
           "package": "FixedPoint-simple",
@@ -1027,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "toFlat",
           "package": "FixedPoint-simple",
@@ -1040,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "toInternal",
           "package": "FixedPoint-simple",
@@ -1049,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "toInternal",
           "normalized": "GenericFixedPoint a b c-\u003eb",
@@ -1064,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:25 UTC 2014",
           "module": "Data.FixedPoint",
           "name": "unBI",
           "package": "FixedPoint-simple",
@@ -1073,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Data FixedPoint",
+          "indexed": "2014-03-11T16:41:25",
           "module": "Data.FixedPoint",
           "name": "unBI",
           "package": "FixedPoint-simple",

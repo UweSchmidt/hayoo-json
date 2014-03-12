@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vector-space-points"
+        "phrase": "vector-space-points",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA type for \u003cem\u003epoints\u003c/em\u003e (as distinct from vectors), with an appropriate\n AffineSpace instance.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:34:45 UTC 2014",
           "module": "Data.AffineSpace.Point",
           "name": "Point",
           "package": "vector-space-points",
@@ -28,6 +29,7 @@
         "index": {
           "description": "type for points as distinct from vectors with an appropriate AffineSpace instance",
           "hierarchy": "Data AffineSpace Point",
+          "indexed": "2014-03-11T20:34:45",
           "module": "Data.AffineSpace.Point",
           "name": "Point",
           "package": "vector-space-points",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePoint\u003c/code\u003e is a newtype wrapper around vectors used to represent\n   points, so we don't get them mixed up. The distinction between\n   vectors and points is important: translations affect points, but\n   leave vectors unchanged.  Points are instances of the\n   \u003ccode\u003e\u003ca\u003eAffineSpace\u003c/a\u003e\u003c/code\u003e class from \u003ca\u003eData.AffineSpace\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:45 UTC 2014",
           "module": "Data.AffineSpace.Point",
           "name": "Point",
           "package": "vector-space-points",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Point is newtype wrapper around vectors used to represent points so we don get them mixed up The distinction between vectors and points is important translations affect points but leave vectors unchanged Points are instances of the AffineSpace class from Data.AffineSpace",
           "hierarchy": "Data AffineSpace Point",
+          "indexed": "2014-03-11T20:34:45",
           "module": "Data.AffineSpace.Point",
           "name": "Point",
           "package": "vector-space-points",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale a point by a scalar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:45 UTC 2014",
           "module": "Data.AffineSpace.Point",
           "name": "(*.)",
           "package": "vector-space-points",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Scale point by scalar",
           "hierarchy": "Data AffineSpace Point",
+          "indexed": "2014-03-11T20:34:45",
           "module": "Data.AffineSpace.Point",
           "name": "(*.) *.",
           "normalized": "Scalar a-\u003ePoint a-\u003ePoint a",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:45 UTC 2014",
           "module": "Data.AffineSpace.Point",
           "name": "P",
           "package": "vector-space-points",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Data AffineSpace Point",
+          "indexed": "2014-03-11T20:34:45",
           "module": "Data.AffineSpace.Point",
           "name": "P",
           "package": "vector-space-points",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReflect a point through the \u003ccode\u003e\u003ca\u003eorigin\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:45 UTC 2014",
           "module": "Data.AffineSpace.Point",
           "name": "mirror",
           "package": "vector-space-points",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Reflect point through the origin",
           "hierarchy": "Data AffineSpace Point",
+          "indexed": "2014-03-11T20:34:45",
           "module": "Data.AffineSpace.Point",
           "name": "mirror",
           "normalized": "Point a-\u003ePoint a",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe origin of the vector space \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:45 UTC 2014",
           "module": "Data.AffineSpace.Point",
           "name": "origin",
           "package": "vector-space-points",
@@ -146,6 +157,7 @@
         "index": {
           "description": "The origin of the vector space",
           "hierarchy": "Data AffineSpace Point",
+          "indexed": "2014-03-11T20:34:45",
           "module": "Data.AffineSpace.Point",
           "name": "origin",
           "package": "vector-space-points",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMirror a point through a given point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:45 UTC 2014",
           "module": "Data.AffineSpace.Point",
           "name": "reflectThrough",
           "package": "vector-space-points",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Mirror point through given point",
           "hierarchy": "Data AffineSpace Point",
+          "indexed": "2014-03-11T20:34:45",
           "module": "Data.AffineSpace.Point",
           "name": "reflectThrough",
           "normalized": "a-\u003ea-\u003ea",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transformation relative to the given point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:45 UTC 2014",
           "module": "Data.AffineSpace.Point",
           "name": "relative",
           "package": "vector-space-points",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Apply transformation relative to the given point",
           "hierarchy": "Data AffineSpace Point",
+          "indexed": "2014-03-11T20:34:45",
           "module": "Data.AffineSpace.Point",
           "name": "relative",
           "normalized": "a-\u003e(Diff a-\u003eDiff a)-\u003ea-\u003ea",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transformation relative to the given point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:45 UTC 2014",
           "module": "Data.AffineSpace.Point",
           "name": "relative2",
           "package": "vector-space-points",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Apply transformation relative to the given point",
           "hierarchy": "Data AffineSpace Point",
+          "indexed": "2014-03-11T20:34:45",
           "module": "Data.AffineSpace.Point",
           "name": "relative2",
           "normalized": "a-\u003e(Diff a-\u003eDiff a-\u003eDiff a)-\u003ea-\u003ea-\u003ea",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transformation relative to the given point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:45 UTC 2014",
           "module": "Data.AffineSpace.Point",
           "name": "relative3",
           "package": "vector-space-points",
@@ -245,6 +264,7 @@
         "index": {
           "description": "Apply transformation relative to the given point",
           "hierarchy": "Data AffineSpace Point",
+          "indexed": "2014-03-11T20:34:45",
           "module": "Data.AffineSpace.Point",
           "name": "relative3",
           "normalized": "a-\u003e(Diff a-\u003eDiff a-\u003eDiff a-\u003eDiff a)-\u003ea-\u003ea-\u003ea-\u003ea",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a point \u003ccode\u003ep\u003c/code\u003e into the vector from the origin to \u003ccode\u003ep\u003c/code\u003e.  This\n   should be considered a \"semantically unsafe\" operation; think\n   carefully about whether and why you need to use it.  The\n   recommended way to do this conversion would be to write \u003ccode\u003e(p\n   \u003ccode\u003e\u003ca\u003e.-.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eorigin\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:45 UTC 2014",
           "module": "Data.AffineSpace.Point",
           "name": "unPoint",
           "package": "vector-space-points",
@@ -270,6 +291,7 @@
         "index": {
           "description": "Convert point into the vector from the origin to This should be considered semantically unsafe operation think carefully about whether and why you need to use it The recommended way to do this conversion would be to write origin",
           "hierarchy": "Data AffineSpace Point",
+          "indexed": "2014-03-11T20:34:45",
           "module": "Data.AffineSpace.Point",
           "name": "unPoint",
           "normalized": "Point a-\u003ea",

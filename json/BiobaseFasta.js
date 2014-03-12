@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BiobaseFasta"
+        "phrase": "BiobaseFasta",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta.Import",
           "name": "Import",
           "package": "BiobaseFasta",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Biobase Fasta Import",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta.Import",
           "name": "Import",
           "package": "BiobaseFasta",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn event is either a FASTA header or a part of a FASTA data stream,\n chunked into user-defineable pieces. If there is no more input, we are\n \u003ccode\u003e\u003ca\u003eDone\u003c/a\u003e\u003c/code\u003e. But we are only \u003ccode\u003e\u003ca\u003eDone\u003c/a\u003e\u003c/code\u003e if there was some input in the first place!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta.Import",
           "name": "Event",
           "package": "BiobaseFasta",
@@ -49,6 +52,7 @@
         "index": {
           "description": "An event is either FASTA header or part of FASTA data stream chunked into user-defineable pieces If there is no more input we are Done But we are only Done if there was some input in the first place",
           "hierarchy": "Biobase Fasta Import",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta.Import",
           "name": "Event",
           "package": "BiobaseFasta",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta.Import",
           "name": "Data",
           "package": "BiobaseFasta",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Biobase Fasta Import",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta.Import",
           "name": "Data",
           "package": "BiobaseFasta",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta.Import",
           "name": "Done",
           "package": "BiobaseFasta",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Biobase Fasta Import",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta.Import",
           "name": "Done",
           "package": "BiobaseFasta",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta.Import",
           "name": "Header",
           "package": "BiobaseFasta",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Biobase Fasta Import",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta.Import",
           "name": "Header",
           "package": "BiobaseFasta",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta.Import",
           "name": "isHeader",
           "package": "BiobaseFasta",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Biobase Fasta Import",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta.Import",
           "name": "isHeader",
           "normalized": "Event-\u003eBool",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse from \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta.Import",
           "name": "parseEvents",
           "package": "BiobaseFasta",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Parse from ByteString into Event",
           "hierarchy": "Biobase Fasta Import",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta.Import",
           "name": "parseEvents",
           "normalized": "Int-\u003eGInfConduit ByteString a Event",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse from \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into \u003ccode\u003e\u003ca\u003eFastaWindow\u003c/a\u003e\u003c/code\u003es with a past.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta.Import",
           "name": "parseFastaWindows",
           "package": "BiobaseFasta",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Parse from ByteString into FastaWindow with past",
           "hierarchy": "Biobase Fasta Import",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta.Import",
           "name": "parseFastaWindows",
           "normalized": "Int-\u003eConduit ByteString a FastaWindow",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta.Import",
           "name": "printHeader",
           "package": "BiobaseFasta",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Biobase Fasta Import",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta.Import",
           "name": "printHeader",
           "normalized": "Event-\u003eByteString",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender from \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003es into \u003ccode\u003eByteStrings\u003c/code\u003e. \u003ccode\u003ecols\u003c/code\u003e is the number of\n characters after which a newline is introduced into the stream. Such\n newlines are introduced only into \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta.Import",
           "name": "renderEvents",
           "package": "BiobaseFasta",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Render from Event into ByteStrings cols is the number of characters after which newline is introduced into the stream Such newlines are introduced only into Data events",
           "hierarchy": "Biobase Fasta Import",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta.Import",
           "name": "renderEvents",
           "normalized": "Int-\u003eConduit Event a ByteString",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender from \u003ccode\u003e\u003ca\u003eFastaWindow\u003c/a\u003e\u003c/code\u003es into \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta.Import",
           "name": "renderFastaWindows",
           "package": "BiobaseFasta",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Render from FastaWindow into ByteString",
           "hierarchy": "Biobase Fasta Import",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta.Import",
           "name": "renderFastaWindows",
           "normalized": "Int-\u003eConduit FastaWindow a ByteString",
@@ -280,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta.Import",
           "name": "test",
           "package": "BiobaseFasta",
@@ -289,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Biobase Fasta Import",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta.Import",
           "name": "test",
           "normalized": "IO()",
@@ -304,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is currently home to a preliminary version of indices based\n on a minimal index of \u003ccode\u003eZero\u003c/code\u003e or \u003ccode\u003eOne\u003c/code\u003e (and possibly others).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta",
           "name": "Fasta",
           "package": "BiobaseFasta",
@@ -313,6 +338,7 @@
         "index": {
           "description": "This module is currently home to preliminary version of indices based on minimal index of Zero or One and possibly others",
           "hierarchy": "Biobase Fasta",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta",
           "name": "Fasta",
           "package": "BiobaseFasta",
@@ -326,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta",
           "name": "FastaWindow",
           "package": "BiobaseFasta",
@@ -334,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Biobase Fasta",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta",
           "name": "FastaWindow",
           "package": "BiobaseFasta",
@@ -347,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta",
           "name": "FastaW",
           "package": "BiobaseFasta",
@@ -356,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Biobase Fasta",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta",
           "name": "FastaW",
           "package": "BiobaseFasta",
@@ -370,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eand description, if any\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta",
           "name": "_description",
           "package": "BiobaseFasta",
@@ -380,6 +411,7 @@
         "index": {
           "description": "and description if any",
           "hierarchy": "Biobase Fasta",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta",
           "name": "_description",
           "package": "BiobaseFasta",
@@ -393,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewindow data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta",
           "name": "_fasta",
           "package": "BiobaseFasta",
@@ -403,6 +436,7 @@
         "index": {
           "description": "window data",
           "hierarchy": "Biobase Fasta",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta",
           "name": "_fasta",
           "package": "BiobaseFasta",
@@ -416,6 +450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe current identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta",
           "name": "_identifier",
           "package": "BiobaseFasta",
@@ -426,6 +461,7 @@
         "index": {
           "description": "the current identifier",
           "hierarchy": "Biobase Fasta",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta",
           "name": "_identifier",
           "package": "BiobaseFasta",
@@ -439,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero-based offset into the current stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta",
           "name": "_offset",
           "package": "BiobaseFasta",
@@ -449,6 +486,7 @@
         "index": {
           "description": "Zero-based offset into the current stream",
           "hierarchy": "Biobase Fasta",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta",
           "name": "_offset",
           "package": "BiobaseFasta",
@@ -461,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:25 UTC 2014",
           "module": "Biobase.Fasta",
           "name": "_past",
           "package": "BiobaseFasta",
@@ -470,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Biobase Fasta",
+          "indexed": "2014-03-11T16:34:25",
           "module": "Biobase.Fasta",
           "name": "_past",
           "package": "BiobaseFasta",

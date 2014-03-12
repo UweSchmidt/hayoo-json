@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "http-date"
+        "phrase": "http-date",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast parser and formatter for HTTP Date.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:52:37 UTC 2014",
           "module": "Network.HTTP.Date",
           "name": "Date",
           "package": "http-date",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Fast parser and formatter for HTTP Date",
           "hierarchy": "Network HTTP Date",
+          "indexed": "2014-03-11T18:52:37",
           "module": "Network.HTTP.Date",
           "name": "Date",
           "package": "http-date",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData structure for HTTP Date. This value should be specified\n  with \u003ccode\u003e\u003ca\u003edefaultHTTPDate\u003c/a\u003e\u003c/code\u003e and its field labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:37 UTC 2014",
           "module": "Network.HTTP.Date",
           "name": "HTTPDate",
           "package": "http-date",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Data structure for HTTP Date This value should be specified with defaultHTTPDate and its field labels",
           "hierarchy": "Network HTTP Date",
+          "indexed": "2014-03-11T18:52:37",
           "module": "Network.HTTP.Date",
           "name": "HTTPDate",
           "package": "http-date",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default value for \u003ccode\u003e\u003ca\u003eHTTPDate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:37 UTC 2014",
           "module": "Network.HTTP.Date",
           "name": "defaultHTTPDate",
           "package": "http-date",
@@ -75,6 +80,7 @@
         "index": {
           "description": "default value for HTTPDate",
           "hierarchy": "Network HTTP Date",
+          "indexed": "2014-03-11T18:52:37",
           "module": "Network.HTTP.Date",
           "name": "defaultHTTPDate",
           "package": "http-date",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslating \u003ccode\u003e\u003ca\u003eEpochTime\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eHTTPDate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:37 UTC 2014",
           "module": "Network.HTTP.Date",
           "name": "epochTimeToHTTPDate",
           "package": "http-date",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Translating EpochTime to HTTPDate",
           "hierarchy": "Network HTTP Date",
+          "indexed": "2014-03-11T18:52:37",
           "module": "Network.HTTP.Date",
           "name": "epochTimeToHTTPDate",
           "normalized": "EpochTime-\u003eHTTPDate",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerating HTTP Date in RFC1123 style.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eformatHTTPDate defaultHTTPDate {hdYear = 1994, hdMonth = 11, hdDay = 15, hdHour = 8, hdMinute = 12, hdSecond = 31, hdWkday = 2}\n\u003c/code\u003e\u003c/strong\u003e\"Tue, 15 Nov 1994 08:12:31 GMT\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:52:37 UTC 2014",
           "module": "Network.HTTP.Date",
           "name": "formatHTTPDate",
           "package": "http-date",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Generating HTTP Date in RFC1123 style formatHTTPDate defaultHTTPDate hdYear hdMonth hdDay hdHour hdMinute hdSecond hdWkday Tue Nov GMT",
           "hierarchy": "Network HTTP Date",
+          "indexed": "2014-03-11T18:52:37",
           "module": "Network.HTTP.Date",
           "name": "formatHTTPDate",
           "normalized": "HTTPDate-\u003eByteString",
@@ -140,6 +150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:37 UTC 2014",
           "module": "Network.HTTP.Date",
           "name": "hdDay",
           "package": "http-date",
@@ -149,6 +160,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Date",
+          "indexed": "2014-03-11T18:52:37",
           "module": "Network.HTTP.Date",
           "name": "hdDay",
           "normalized": "HTTPDate-\u003eInt",
@@ -164,6 +176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:37 UTC 2014",
           "module": "Network.HTTP.Date",
           "name": "hdHour",
           "package": "http-date",
@@ -173,6 +186,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Date",
+          "indexed": "2014-03-11T18:52:37",
           "module": "Network.HTTP.Date",
           "name": "hdHour",
           "normalized": "HTTPDate-\u003eInt",
@@ -188,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:37 UTC 2014",
           "module": "Network.HTTP.Date",
           "name": "hdMinute",
           "package": "http-date",
@@ -197,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Date",
+          "indexed": "2014-03-11T18:52:37",
           "module": "Network.HTTP.Date",
           "name": "hdMinute",
           "normalized": "HTTPDate-\u003eInt",
@@ -212,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:37 UTC 2014",
           "module": "Network.HTTP.Date",
           "name": "hdMonth",
           "package": "http-date",
@@ -221,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Date",
+          "indexed": "2014-03-11T18:52:37",
           "module": "Network.HTTP.Date",
           "name": "hdMonth",
           "normalized": "HTTPDate-\u003eInt",
@@ -236,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:37 UTC 2014",
           "module": "Network.HTTP.Date",
           "name": "hdSecond",
           "package": "http-date",
@@ -245,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Date",
+          "indexed": "2014-03-11T18:52:37",
           "module": "Network.HTTP.Date",
           "name": "hdSecond",
           "normalized": "HTTPDate-\u003eInt",
@@ -260,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:37 UTC 2014",
           "module": "Network.HTTP.Date",
           "name": "hdWkday",
           "package": "http-date",
@@ -269,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Date",
+          "indexed": "2014-03-11T18:52:37",
           "module": "Network.HTTP.Date",
           "name": "hdWkday",
           "normalized": "HTTPDate-\u003eInt",
@@ -284,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:37 UTC 2014",
           "module": "Network.HTTP.Date",
           "name": "hdYear",
           "package": "http-date",
@@ -293,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Date",
+          "indexed": "2014-03-11T18:52:37",
           "module": "Network.HTTP.Date",
           "name": "hdYear",
           "normalized": "HTTPDate-\u003eInt",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing HTTP Date. Currently only RFC1123 style is supported.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseHTTPDate \"Tue, 15 Nov 1994 08:12:31 GMT\"\n\u003c/code\u003e\u003c/strong\u003eJust (HTTPDate {hdYear = 1994, hdMonth = 11, hdDay = 15, hdHour = 8, hdMinute = 12, hdSecond = 31, hdWkday = 2})\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:52:37 UTC 2014",
           "module": "Network.HTTP.Date",
           "name": "parseHTTPDate",
           "package": "http-date",
@@ -319,6 +344,7 @@
         "index": {
           "description": "Parsing HTTP Date Currently only RFC1123 style is supported parseHTTPDate Tue Nov GMT Just HTTPDate hdYear hdMonth hdDay hdHour hdMinute hdSecond hdWkday",
           "hierarchy": "Network HTTP Date",
+          "indexed": "2014-03-11T18:52:37",
           "module": "Network.HTTP.Date",
           "name": "parseHTTPDate",
           "normalized": "ByteString-\u003eMaybe HTTPDate",

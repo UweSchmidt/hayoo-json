@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haha"
+        "phrase": "haha",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "Bitmap",
           "package": "haha",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "Bitmap",
           "package": "haha",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "Bitmap",
           "package": "haha",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "Bitmap",
           "package": "haha",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "Bitmap",
           "package": "haha",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "Bitmap",
           "package": "haha",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "bits",
           "package": "haha",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "bits",
           "package": "haha",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "clip",
           "package": "haha",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "clip",
           "normalized": "Rect a-\u003eBitmap a b-\u003eBitmap a b",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "drawCircle",
           "package": "haha",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "drawCircle",
           "normalized": "Circle a-\u003ea-\u003eb-\u003eBitmap a b-\u003eBitmap a b",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "drawElipse",
           "package": "haha",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "drawElipse",
           "normalized": "Elipse a-\u003ea-\u003eb-\u003eBitmap a b-\u003eBitmap a b",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "drawLine",
           "package": "haha",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "drawLine",
           "normalized": "Line a-\u003eb-\u003eBitmap a b-\u003eBitmap a b",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "drawList",
           "package": "haha",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "drawList",
           "normalized": "[Point a]-\u003eb-\u003eBitmap a b-\u003eBitmap a b",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "drawPoint",
           "package": "haha",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "drawPoint",
           "normalized": "Point a-\u003eb-\u003eBitmap a b-\u003eBitmap a b",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "drawPoly",
           "package": "haha",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "drawPoly",
           "normalized": "Poly a-\u003eb-\u003eBitmap a b-\u003eBitmap a b",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "drawRect",
           "package": "haha",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "drawRect",
           "normalized": "Rect a-\u003eb-\u003eBitmap a b-\u003eBitmap a b",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "empty",
           "package": "haha",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "empty",
           "package": "haha",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "erase",
           "package": "haha",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "erase",
           "normalized": "Point a-\u003eBitmap a b-\u003eBitmap a b",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "filterPt",
           "package": "haha",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "filterPt",
           "normalized": "(Point a-\u003eb-\u003eBool)-\u003eBitmap a b-\u003eBitmap a b",
@@ -362,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "get",
           "package": "haha",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "get",
           "normalized": "Point a-\u003eBitmap a b-\u003eMaybe b",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "mapPoints",
           "package": "haha",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "mapPoints",
           "normalized": "(Point a-\u003ePoint b)-\u003eBitmap a c-\u003eBitmap b c",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "put",
           "package": "haha",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "put",
           "normalized": "Point a-\u003eb-\u003eBitmap a b-\u003eBitmap a b",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "toList",
           "package": "haha",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "toList",
           "normalized": "Bitmap a b-\u003e[(Point a,b)]",
@@ -456,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "withBits",
           "package": "haha",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Bitmap",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Bitmap",
           "name": "withBits",
           "normalized": "(Map(Point a)b-\u003eMap(Point c)d)-\u003eBitmap a b-\u003eBitmap c d",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Geometry",
           "package": "haha",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Geometry",
           "package": "haha",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Circle",
           "package": "haha",
@@ -509,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Circle",
           "package": "haha",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Elipse",
           "package": "haha",
@@ -530,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Elipse",
           "package": "haha",
@@ -543,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Geometry",
           "package": "haha",
@@ -551,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Geometry",
           "package": "haha",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Line",
           "package": "haha",
@@ -572,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Line",
           "package": "haha",
@@ -585,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Mesh",
           "package": "haha",
@@ -593,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Mesh",
           "package": "haha",
@@ -606,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Point",
           "package": "haha",
@@ -614,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Point",
           "package": "haha",
@@ -627,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Poly",
           "package": "haha",
@@ -635,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Poly",
           "package": "haha",
@@ -648,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Rect",
           "package": "haha",
@@ -656,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Rect",
           "package": "haha",
@@ -669,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Tri",
           "package": "haha",
@@ -677,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Tri",
           "package": "haha",
@@ -690,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Circle",
           "package": "haha",
@@ -699,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Circle",
           "package": "haha",
@@ -712,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Elipse",
           "package": "haha",
@@ -721,6 +784,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Elipse",
           "package": "haha",
@@ -734,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Line",
           "package": "haha",
@@ -743,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Line",
           "package": "haha",
@@ -756,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Mesh",
           "package": "haha",
@@ -765,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Mesh",
           "normalized": "Mesh[Tri a]",
@@ -780,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Point",
           "package": "haha",
@@ -789,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Point",
           "package": "haha",
@@ -802,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Poly",
           "package": "haha",
@@ -811,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Poly",
           "normalized": "Poly[Point a]",
@@ -826,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Rect",
           "package": "haha",
@@ -835,6 +908,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Rect",
           "package": "haha",
@@ -848,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Tri",
           "package": "haha",
@@ -857,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "Tri",
           "package": "haha",
@@ -870,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "_a",
           "package": "haha",
@@ -879,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "_a",
           "package": "haha",
@@ -891,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "_b",
           "package": "haha",
@@ -900,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "_b",
           "package": "haha",
@@ -912,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "_x",
           "package": "haha",
@@ -921,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "_x",
           "package": "haha",
@@ -933,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "_y",
           "package": "haha",
@@ -942,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "_y",
           "package": "haha",
@@ -954,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "bounds",
           "package": "haha",
@@ -963,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "bounds",
           "normalized": "a b-\u003eRect b",
@@ -977,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "boundsLine",
           "package": "haha",
@@ -986,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "boundsLine",
           "normalized": "Line a-\u003eRect a",
@@ -1001,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "boundsPoint",
           "package": "haha",
@@ -1010,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "boundsPoint",
           "normalized": "Point a-\u003eRect a",
@@ -1025,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "boundsPoly",
           "package": "haha",
@@ -1034,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "boundsPoly",
           "normalized": "Poly a-\u003eRect a",
@@ -1049,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "boundsTri",
           "package": "haha",
@@ -1058,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "boundsTri",
           "normalized": "Tri a-\u003eRect a",
@@ -1073,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "centroid",
           "package": "haha",
@@ -1082,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "centroid",
           "normalized": "a b-\u003ePoint b",
@@ -1096,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "centroidLine",
           "package": "haha",
@@ -1105,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "centroidLine",
           "normalized": "Line a-\u003ePoint a",
@@ -1120,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "centroidPoint",
           "package": "haha",
@@ -1129,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "centroidPoint",
           "normalized": "Point a-\u003ePoint a",
@@ -1144,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "centroidPoly",
           "package": "haha",
@@ -1153,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "centroidPoly",
           "normalized": "Poly a-\u003ePoint a",
@@ -1168,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "centroidTri",
           "package": "haha",
@@ -1177,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "centroidTri",
           "normalized": "Tri a-\u003ePoint a",
@@ -1192,6 +1296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "discrete",
           "package": "haha",
@@ -1201,6 +1306,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "discrete",
           "normalized": "a b-\u003ea c",
@@ -1215,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "discreteLine",
           "package": "haha",
@@ -1224,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "discreteLine",
           "normalized": "Line a-\u003eLine b",
@@ -1239,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "discretePoint",
           "package": "haha",
@@ -1248,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "discretePoint",
           "normalized": "Point a-\u003ePoint b",
@@ -1263,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "discretePoly",
           "package": "haha",
@@ -1272,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "discretePoly",
           "normalized": "Poly a-\u003ePoly b",
@@ -1287,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "discreteTri",
           "package": "haha",
@@ -1296,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "discreteTri",
           "normalized": "Tri a-\u003eTri b",
@@ -1311,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "inRect",
           "package": "haha",
@@ -1320,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "inRect",
           "normalized": "Point a-\u003eRect a-\u003eBool",
@@ -1335,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "intersectRect",
           "package": "haha",
@@ -1344,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "intersectRect",
           "normalized": "Rect a-\u003eRect a-\u003eMaybe(Rect a)",
@@ -1359,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "mesh",
           "package": "haha",
@@ -1368,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "mesh",
           "normalized": "a b-\u003eMesh b",
@@ -1382,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "meshLine",
           "package": "haha",
@@ -1391,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "meshLine",
           "normalized": "Line a-\u003eMesh a",
@@ -1406,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "meshPoint",
           "package": "haha",
@@ -1415,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "meshPoint",
           "normalized": "Point a-\u003eMesh a",
@@ -1430,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "meshPoly",
           "package": "haha",
@@ -1439,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "meshPoly",
           "normalized": "Poly a-\u003eMesh a",
@@ -1454,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "meshTri",
           "package": "haha",
@@ -1463,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "meshTri",
           "normalized": "Tri a-\u003eMesh a",
@@ -1478,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "outline",
           "package": "haha",
@@ -1487,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "outline",
           "normalized": "a b-\u003ePoly b",
@@ -1501,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "outlineLine",
           "package": "haha",
@@ -1510,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "outlineLine",
           "normalized": "Line a-\u003ePoly a",
@@ -1525,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "outlinePoint",
           "package": "haha",
@@ -1534,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "outlinePoint",
           "normalized": "Point a-\u003ePoly a",
@@ -1549,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "outlinePoly",
           "package": "haha",
@@ -1558,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "outlinePoly",
           "normalized": "Poly a-\u003ePoly a",
@@ -1573,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "outlineTri",
           "package": "haha",
@@ -1582,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "outlineTri",
           "normalized": "Tri a-\u003ePoly a",
@@ -1597,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "rotate",
           "package": "haha",
@@ -1606,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "rotate",
           "normalized": "a-\u003ePoint a-\u003eb a-\u003eb a",
@@ -1620,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "rotateLine",
           "package": "haha",
@@ -1629,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "rotateLine",
           "normalized": "a-\u003ePoint a-\u003eLine a-\u003eLine a",
@@ -1644,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "rotateLocal",
           "package": "haha",
@@ -1653,6 +1796,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "rotateLocal",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -1668,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "rotatePoint",
           "package": "haha",
@@ -1677,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "rotatePoint",
           "normalized": "a-\u003ePoint a-\u003ePoint a-\u003ePoint a",
@@ -1692,6 +1838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "rotatePoly",
           "package": "haha",
@@ -1701,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "rotatePoly",
           "normalized": "a-\u003ePoint a-\u003ePoly a-\u003ePoly a",
@@ -1716,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "rotateTri",
           "package": "haha",
@@ -1725,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "rotateTri",
           "normalized": "a-\u003ePoint a-\u003eTri a-\u003eTri a",
@@ -1740,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "scale",
           "package": "haha",
@@ -1749,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "scale",
           "normalized": "a-\u003ePoint a-\u003eb a-\u003eb a",
@@ -1763,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "scaleLine",
           "package": "haha",
@@ -1772,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "scaleLine",
           "normalized": "a-\u003ePoint a-\u003eLine a-\u003eLine a",
@@ -1787,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "scalePoint",
           "package": "haha",
@@ -1796,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "scalePoint",
           "normalized": "a-\u003ePoint a-\u003ePoint a-\u003ePoint a",
@@ -1811,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "scalePoly",
           "package": "haha",
@@ -1820,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "scalePoly",
           "normalized": "a-\u003ePoint a-\u003ePoly a-\u003ePoly a",
@@ -1835,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "scaleTri",
           "package": "haha",
@@ -1844,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "scaleTri",
           "normalized": "a-\u003ePoint a-\u003eTri a-\u003eTri a",
@@ -1859,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "star",
           "package": "haha",
@@ -1868,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "star",
           "normalized": "Point a-\u003ea-\u003ea-\u003ea-\u003ePoly a",
@@ -1882,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "translate",
           "package": "haha",
@@ -1891,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "translate",
           "normalized": "a-\u003ea-\u003eb a-\u003eb a",
@@ -1905,6 +2069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "translateLine",
           "package": "haha",
@@ -1914,6 +2079,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "translateLine",
           "normalized": "a-\u003ea-\u003eLine a-\u003eLine a",
@@ -1929,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "translatePoint",
           "package": "haha",
@@ -1938,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "translatePoint",
           "normalized": "a-\u003ea-\u003ePoint a-\u003ePoint a",
@@ -1953,6 +2121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "translatePoly",
           "package": "haha",
@@ -1962,6 +2131,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "translatePoly",
           "normalized": "a-\u003ea-\u003ePoly a-\u003ePoly a",
@@ -1977,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "translateTri",
           "package": "haha",
@@ -1986,6 +2157,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Geometry",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Geometry",
           "name": "translateTri",
           "normalized": "a-\u003ea-\u003eTri a-\u003eTri a",
@@ -2001,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Plot",
           "name": "Plot",
           "package": "haha",
@@ -2009,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Plot",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Plot",
           "name": "Plot",
           "package": "haha",
@@ -2022,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Plot",
           "name": "Pixel",
           "package": "haha",
@@ -2030,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Plot",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Plot",
           "name": "Pixel",
           "package": "haha",
@@ -2043,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Plot",
           "name": "Pixel",
           "package": "haha",
@@ -2052,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Plot",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Plot",
           "name": "Pixel",
           "package": "haha",
@@ -2065,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Plot",
           "name": "list",
           "package": "haha",
@@ -2074,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Plot",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Plot",
           "name": "list",
           "normalized": "a-\u003eRect a-\u003eBitmap a b-\u003e[(Point c,b)]",
@@ -2088,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Plot",
           "name": "orderPoint",
           "package": "haha",
@@ -2097,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Plot",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Plot",
           "name": "orderPoint",
           "normalized": "Point a-\u003ePoint a-\u003eOrdering",
@@ -2112,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Plot",
           "name": "string",
           "package": "haha",
@@ -2121,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Plot",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Plot",
           "name": "string",
           "normalized": "Bool-\u003eRect a-\u003ePoint a-\u003eString-\u003eString-\u003e[(Point a,Pixel)]-\u003eString",
@@ -2135,6 +2319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Terminal",
           "package": "haha",
@@ -2143,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Terminal",
           "package": "haha",
@@ -2156,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Color",
           "package": "haha",
@@ -2164,6 +2351,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Color",
           "package": "haha",
@@ -2177,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Black",
           "package": "haha",
@@ -2186,6 +2375,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Black",
           "package": "haha",
@@ -2199,6 +2389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Blue",
           "package": "haha",
@@ -2208,6 +2399,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Blue",
           "package": "haha",
@@ -2221,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Cyan",
           "package": "haha",
@@ -2230,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Cyan",
           "package": "haha",
@@ -2243,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Green",
           "package": "haha",
@@ -2252,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Green",
           "package": "haha",
@@ -2265,6 +2461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Magenta",
           "package": "haha",
@@ -2274,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Magenta",
           "package": "haha",
@@ -2287,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Red",
           "package": "haha",
@@ -2296,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Red",
           "package": "haha",
@@ -2309,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Reset",
           "package": "haha",
@@ -2318,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Reset",
           "package": "haha",
@@ -2331,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "White",
           "package": "haha",
@@ -2340,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "White",
           "package": "haha",
@@ -2353,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Yellow",
           "package": "haha",
@@ -2362,6 +2567,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "Yellow",
           "package": "haha",
@@ -2375,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "bg",
           "package": "haha",
@@ -2384,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "bg",
           "normalized": "Color-\u003e[String]",
@@ -2398,6 +2606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "bg256",
           "package": "haha",
@@ -2407,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "bg256",
           "normalized": "a-\u003e[String]",
@@ -2421,6 +2631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "black",
           "package": "haha",
@@ -2430,6 +2641,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "black",
           "package": "haha",
@@ -2442,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "blackBg",
           "package": "haha",
@@ -2451,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "blackBg",
           "package": "haha",
@@ -2464,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "blackBold",
           "package": "haha",
@@ -2473,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "blackBold",
           "package": "haha",
@@ -2486,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "blink",
           "package": "haha",
@@ -2495,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "blink",
           "normalized": "[String]-\u003e[String]",
@@ -2509,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "blue",
           "package": "haha",
@@ -2518,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "blue",
           "package": "haha",
@@ -2530,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "blueBg",
           "package": "haha",
@@ -2539,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "blueBg",
           "package": "haha",
@@ -2552,6 +2774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "blueBold",
           "package": "haha",
@@ -2561,6 +2784,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "blueBold",
           "package": "haha",
@@ -2574,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "bold",
           "package": "haha",
@@ -2583,6 +2808,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "bold",
           "normalized": "[String]-\u003e[String]",
@@ -2597,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "clear",
           "package": "haha",
@@ -2606,6 +2833,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "clear",
           "package": "haha",
@@ -2618,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "clearAll",
           "package": "haha",
@@ -2627,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "clearAll",
           "package": "haha",
@@ -2640,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "clearEol",
           "package": "haha",
@@ -2649,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "clearEol",
           "package": "haha",
@@ -2662,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "clr",
           "package": "haha",
@@ -2671,6 +2904,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "clr",
           "normalized": "[String]-\u003eString",
@@ -2685,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "cyan",
           "package": "haha",
@@ -2694,6 +2929,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "cyan",
           "package": "haha",
@@ -2706,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "cyanBg",
           "package": "haha",
@@ -2715,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "cyanBg",
           "package": "haha",
@@ -2728,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "cyanBold",
           "package": "haha",
@@ -2737,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "cyanBold",
           "package": "haha",
@@ -2750,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "esc",
           "package": "haha",
@@ -2759,6 +3000,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "esc",
           "normalized": "String-\u003e[String]-\u003eString-\u003eString",
@@ -2773,6 +3015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "faint",
           "package": "haha",
@@ -2782,6 +3025,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "faint",
           "normalized": "[String]-\u003e[String]",
@@ -2796,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "fg",
           "package": "haha",
@@ -2805,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "fg",
           "normalized": "Color-\u003e[String]",
@@ -2819,6 +3065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "fg256",
           "package": "haha",
@@ -2828,6 +3075,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "fg256",
           "normalized": "a-\u003e[String]",
@@ -2842,6 +3090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "geometry",
           "package": "haha",
@@ -2851,6 +3100,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "geometry",
           "normalized": "IO(a,a)",
@@ -2865,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "green",
           "package": "haha",
@@ -2874,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "green",
           "package": "haha",
@@ -2886,6 +3138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "greenBg",
           "package": "haha",
@@ -2895,6 +3148,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "greenBg",
           "package": "haha",
@@ -2908,6 +3162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "greenBold",
           "package": "haha",
@@ -2917,6 +3172,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "greenBold",
           "package": "haha",
@@ -2930,6 +3186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "height",
           "package": "haha",
@@ -2939,6 +3196,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "height",
           "package": "haha",
@@ -2951,6 +3209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "invisible",
           "package": "haha",
@@ -2960,6 +3219,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "invisible",
           "normalized": "[String]-\u003e[String]",
@@ -2974,6 +3234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "load",
           "package": "haha",
@@ -2983,6 +3244,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "load",
           "package": "haha",
@@ -2995,6 +3257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "magenta",
           "package": "haha",
@@ -3004,6 +3267,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "magenta",
           "package": "haha",
@@ -3016,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "magentaBg",
           "package": "haha",
@@ -3025,6 +3290,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "magentaBg",
           "package": "haha",
@@ -3038,6 +3304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "magentaBold",
           "package": "haha",
@@ -3047,6 +3314,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "magentaBold",
           "package": "haha",
@@ -3060,6 +3328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "move",
           "package": "haha",
@@ -3069,6 +3338,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "move",
           "normalized": "a-\u003ea-\u003eString",
@@ -3083,6 +3353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "moveBack",
           "package": "haha",
@@ -3092,6 +3363,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "moveBack",
           "normalized": "a-\u003eString",
@@ -3107,6 +3379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "moveDown",
           "package": "haha",
@@ -3116,6 +3389,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "moveDown",
           "normalized": "a-\u003eString",
@@ -3131,6 +3405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "moveForward",
           "package": "haha",
@@ -3140,6 +3415,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "moveForward",
           "normalized": "a-\u003eString",
@@ -3155,6 +3431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "moveUp",
           "package": "haha",
@@ -3164,6 +3441,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "moveUp",
           "normalized": "a-\u003eString",
@@ -3179,6 +3457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "normal",
           "package": "haha",
@@ -3188,6 +3467,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "normal",
           "normalized": "[String]-\u003e[String]",
@@ -3202,6 +3482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "num",
           "package": "haha",
@@ -3211,6 +3492,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "num",
           "normalized": "Color-\u003ea",
@@ -3225,6 +3507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "red",
           "package": "haha",
@@ -3234,6 +3517,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "red",
           "package": "haha",
@@ -3246,6 +3530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "redBg",
           "package": "haha",
@@ -3255,6 +3540,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "redBg",
           "package": "haha",
@@ -3268,6 +3554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "redBold",
           "package": "haha",
@@ -3277,6 +3564,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "redBold",
           "package": "haha",
@@ -3290,6 +3578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "reset",
           "package": "haha",
@@ -3299,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "reset",
           "package": "haha",
@@ -3311,6 +3601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "resetBg",
           "package": "haha",
@@ -3320,6 +3611,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "resetBg",
           "package": "haha",
@@ -3333,6 +3625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "reverse",
           "package": "haha",
@@ -3342,6 +3635,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "reverse",
           "normalized": "[String]-\u003e[String]",
@@ -3356,6 +3650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "save",
           "package": "haha",
@@ -3365,6 +3660,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "save",
           "package": "haha",
@@ -3377,6 +3673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "standout",
           "package": "haha",
@@ -3386,6 +3683,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "standout",
           "normalized": "[String]-\u003e[String]",
@@ -3400,6 +3698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "underline",
           "package": "haha",
@@ -3409,6 +3708,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "underline",
           "normalized": "[String]-\u003e[String]",
@@ -3423,6 +3723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "white",
           "package": "haha",
@@ -3432,6 +3733,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "white",
           "package": "haha",
@@ -3444,6 +3746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "whiteBg",
           "package": "haha",
@@ -3453,6 +3756,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "whiteBg",
           "package": "haha",
@@ -3466,6 +3770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "whiteBold",
           "package": "haha",
@@ -3475,6 +3780,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "whiteBold",
           "package": "haha",
@@ -3488,6 +3794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "width",
           "package": "haha",
@@ -3497,6 +3804,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "width",
           "package": "haha",
@@ -3509,6 +3817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "x256",
           "package": "haha",
@@ -3518,6 +3827,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "x256",
           "normalized": "a-\u003eString",
@@ -3532,6 +3842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "x256Bg",
           "package": "haha",
@@ -3541,6 +3852,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "x256Bg",
           "normalized": "a-\u003eString",
@@ -3556,6 +3868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "x256Bold",
           "package": "haha",
@@ -3565,6 +3878,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "x256Bold",
           "normalized": "a-\u003eString",
@@ -3580,6 +3894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "yellow",
           "package": "haha",
@@ -3589,6 +3904,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "yellow",
           "package": "haha",
@@ -3601,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "yellowBg",
           "package": "haha",
@@ -3610,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "yellowBg",
           "package": "haha",
@@ -3623,6 +3941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:47 UTC 2014",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "yellowBold",
           "package": "haha",
@@ -3632,6 +3951,7 @@
         },
         "index": {
           "hierarchy": "Graphics Ascii Haha Terminal",
+          "indexed": "2014-03-11T18:26:47",
           "module": "Graphics.Ascii.Haha.Terminal",
           "name": "yellowBold",
           "package": "haha",

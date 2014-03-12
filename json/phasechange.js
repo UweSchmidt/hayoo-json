@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "phasechange"
+        "phrase": "phasechange",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module allows you to write instances for PhaseChangeable types.\n   To work with PhaseChangeable data, see \u003ca\u003eData.PhaseChange\u003c/a\u003e. For unsafe functions, see \u003ca\u003eData.PhaseChange.Unsafe\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange.Impl",
           "name": "Impl",
           "package": "phasechange",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module allows you to write instances for PhaseChangeable types To work with PhaseChangeable data see Data.PhaseChange For unsafe functions see Data.PhaseChange.Unsafe",
           "hierarchy": "Data PhaseChange Impl",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange.Impl",
           "name": "Impl",
           "package": "phasechange",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype for mutable types whose state thread parameter is in the second-to-last position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange.Impl",
           "name": "M1",
           "package": "phasechange",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Newtype for mutable types whose state thread parameter is in the second-to-last position",
           "hierarchy": "Data PhaseChange Impl",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange.Impl",
           "name": "M1",
           "package": "phasechange",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype for mutable types whose state thread parameter is in the third-to-last position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange.Impl",
           "name": "M2",
           "package": "phasechange",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Newtype for mutable types whose state thread parameter is in the third-to-last position",
           "hierarchy": "Data PhaseChange Impl",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange.Impl",
           "name": "M2",
           "package": "phasechange",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003ePhaseChange\u003c/code\u003e class ties together types which provide a mutable and an immutable view\n   on the same data. The mutable type must have a phantom type parameter representing the\n   state thread it is being used in. Many types have this type parameter in the wrong place\n   (not at the end): instances for them can be provided using the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eM1\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and \u003ccode\u003e\u003ccode\u003e\u003ca\u003eM2\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e newtypes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange.Impl",
           "name": "PhaseChange",
           "package": "phasechange",
@@ -95,6 +102,7 @@
         "index": {
           "description": "The PhaseChange class ties together types which provide mutable and an immutable view on the same data The mutable type must have phantom type parameter representing the state thread it is being used in Many types have this type parameter in the wrong place not at the end instances for them can be provided using the M1 and M2 newtypes",
           "hierarchy": "Data PhaseChange Impl",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange.Impl",
           "name": "PhaseChange",
           "package": "phasechange",
@@ -153,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould make a perfect copy of the input argument, leaving nothing shared between\n   the original and the copy, and making no other changes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange.Impl",
           "name": "copyImpl",
           "package": "phasechange",
@@ -163,6 +172,7 @@
         "index": {
           "description": "Should make perfect copy of the input argument leaving nothing shared between the original and the copy and making no other changes",
           "hierarchy": "Data PhaseChange Impl",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange.Impl",
           "name": "copyImpl",
           "normalized": "a b-\u003eST b(a b)",
@@ -223,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould return the same data it got as input, viewed as an immutable type, making no\n   changes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange.Impl",
           "name": "unsafeFreezeImpl",
           "package": "phasechange",
@@ -233,6 +244,7 @@
         "index": {
           "description": "Should return the same data it got as input viewed as an immutable type making no changes",
           "hierarchy": "Data PhaseChange Impl",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange.Impl",
           "name": "unsafeFreezeImpl",
           "normalized": "a b-\u003eST b(Frozen a)",
@@ -249,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould return the same data it got as input, viewed as a mutable type, making no\n   changes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange.Impl",
           "name": "unsafeThawImpl",
           "package": "phasechange",
@@ -259,6 +272,7 @@
         "index": {
           "description": "Should return the same data it got as input viewed as mutable type making no changes",
           "hierarchy": "Data PhaseChange Impl",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange.Impl",
           "name": "unsafeThawImpl",
           "normalized": "a-\u003eST b(Thawed a b)",
@@ -275,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions on PhaseChangeable data which can break referential transparency if used incorrectly.\n   For safe functions, see \u003ca\u003eData.PhaseChange\u003c/a\u003e. To write an instance, see \u003ca\u003eData.PhaseChange.Impl\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange.Unsafe",
           "name": "Unsafe",
           "package": "phasechange",
@@ -284,6 +299,7 @@
         "index": {
           "description": "This module provides functions on PhaseChangeable data which can break referential transparency if used incorrectly For safe functions see Data.PhaseChange To write an instance see Data.PhaseChange.Impl",
           "hierarchy": "Data PhaseChange Unsafe",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange.Unsafe",
           "name": "Unsafe",
           "package": "phasechange",
@@ -298,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a value from immutable data with a reading-computation on mutable data.\n   This function is referentially transparent as long as the computation does\n   not mutate its input argument, but there is no way to enforce this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange.Unsafe",
           "name": "readWith",
           "package": "phasechange",
@@ -308,6 +325,7 @@
         "index": {
           "description": "Read value from immutable data with reading-computation on mutable data This function is referentially transparent as long as the computation does not mutate its input argument but there is no way to enforce this",
           "hierarchy": "Data PhaseChange Unsafe",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange.Unsafe",
           "name": "readWith",
           "normalized": "(a b Thawed c d-\u003eST d e)-\u003ec-\u003ee",
@@ -323,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange.Unsafe",
           "name": "readWith1",
           "package": "phasechange",
@@ -332,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Data PhaseChange Unsafe",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange.Unsafe",
           "name": "readWith1",
           "normalized": "(a b c d e-\u003eST d f)-\u003eg e-\u003ef",
@@ -347,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange.Unsafe",
           "name": "readWith2",
           "package": "phasechange",
@@ -356,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Data PhaseChange Unsafe",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange.Unsafe",
           "name": "readWith2",
           "normalized": "(a b c d e f-\u003eST d g)-\u003eh e f-\u003eg",
@@ -372,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the input argument viewed as an immutable type. The input argument must not be used\n   afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange.Unsafe",
           "name": "unsafeFreeze",
           "package": "phasechange",
@@ -382,6 +405,7 @@
         "index": {
           "description": "Returns the input argument viewed as an immutable type The input argument must not be used afterwards",
           "hierarchy": "Data PhaseChange Unsafe",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange.Unsafe",
           "name": "unsafeFreeze",
           "normalized": "a b-\u003ec(Frozen a)",
@@ -397,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange.Unsafe",
           "name": "unsafeFreeze1",
           "package": "phasechange",
@@ -406,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Data PhaseChange Unsafe",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange.Unsafe",
           "name": "unsafeFreeze1",
           "normalized": "a b c-\u003ed(e c)",
@@ -421,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange.Unsafe",
           "name": "unsafeFreeze2",
           "package": "phasechange",
@@ -430,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Data PhaseChange Unsafe",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange.Unsafe",
           "name": "unsafeFreeze2",
           "normalized": "a b c d-\u003ee(f c d)",
@@ -446,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the input argument viewed as a mutable type. The input argument must not be used\n   afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange.Unsafe",
           "name": "unsafeThaw",
           "package": "phasechange",
@@ -456,6 +485,7 @@
         "index": {
           "description": "Returns the input argument viewed as mutable type The input argument must not be used afterwards",
           "hierarchy": "Data PhaseChange Unsafe",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange.Unsafe",
           "name": "unsafeThaw",
           "normalized": "a-\u003eb(Thawed a c)",
@@ -471,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange.Unsafe",
           "name": "unsafeThaw1",
           "package": "phasechange",
@@ -480,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Data PhaseChange Unsafe",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange.Unsafe",
           "name": "unsafeThaw1",
           "normalized": "a b-\u003ec(d e b)",
@@ -495,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange.Unsafe",
           "name": "unsafeThaw2",
           "package": "phasechange",
@@ -504,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Data PhaseChange Unsafe",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange.Unsafe",
           "name": "unsafeThaw2",
           "normalized": "a b c-\u003ed(e f b c)",
@@ -520,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides referentially transparent functions for working with PhaseChangeable data.\n   For functions that can break referential transparency, see \u003ca\u003eData.PhaseChange.Unsafe\u003c/a\u003e.\n   If you want to write instances, see \u003ca\u003eData.PhaseChange.Impl\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "PhaseChange",
           "package": "phasechange",
@@ -529,6 +564,7 @@
         "index": {
           "description": "This module provides referentially transparent functions for working with PhaseChangeable data For functions that can break referential transparency see Data.PhaseChange.Unsafe If you want to write instances see Data.PhaseChange.Impl",
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "PhaseChange",
           "package": "phasechange",
@@ -542,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "Immutable",
           "package": "phasechange",
@@ -550,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "Immutable",
           "package": "phasechange",
@@ -564,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype for mutable types whose state thread parameter is in the second-to-last position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "M1",
           "package": "phasechange",
@@ -573,6 +612,7 @@
         "index": {
           "description": "Newtype for mutable types whose state thread parameter is in the second-to-last position",
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "M1",
           "package": "phasechange",
@@ -586,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype for mutable types whose state thread parameter is in the third-to-last position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "M2",
           "package": "phasechange",
@@ -595,6 +636,7 @@
         "index": {
           "description": "Newtype for mutable types whose state thread parameter is in the third-to-last position",
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "M2",
           "package": "phasechange",
@@ -607,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "Mutable",
           "package": "phasechange",
@@ -615,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "Mutable",
           "package": "phasechange",
@@ -629,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003ePhaseChange\u003c/code\u003e class ties together types which provide a mutable and an immutable view\n   on the same data. The mutable type must have a phantom type parameter representing the\n   state thread it is being used in. Many types have this type parameter in the wrong place\n   (not at the end): instances for them can be provided using the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eM1\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and \u003ccode\u003e\u003ccode\u003e\u003ca\u003eM2\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e newtypes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "PhaseChange",
           "package": "phasechange",
@@ -638,6 +683,7 @@
         "index": {
           "description": "The PhaseChange class ties together types which provide mutable and an immutable view on the same data The mutable type must have phantom type parameter representing the state thread it is being used in Many types have this type parameter in the wrong place not at the end instances for them can be provided using the M1 and M2 newtypes",
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "PhaseChange",
           "package": "phasechange",
@@ -652,6 +698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a copy of mutable data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "copy",
           "package": "phasechange",
@@ -662,6 +709,7 @@
         "index": {
           "description": "Make copy of mutable data",
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "copy",
           "normalized": "a b-\u003ec(a b)",
@@ -676,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "copy1",
           "package": "phasechange",
@@ -685,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "copy1",
           "normalized": "a b c-\u003ed(a b c)",
@@ -699,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "copy2",
           "package": "phasechange",
@@ -708,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "copy2",
           "normalized": "a b c d-\u003ee(a b c d)",
@@ -723,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a copy of mutable data in immutable form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "freeze",
           "package": "phasechange",
@@ -733,6 +786,7 @@
         "index": {
           "description": "Get copy of mutable data in immutable form",
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "freeze",
           "normalized": "a b-\u003ec(Frozen a)",
@@ -747,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "freeze1",
           "package": "phasechange",
@@ -756,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "freeze1",
           "normalized": "a b c-\u003ed(e c)",
@@ -770,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "freeze2",
           "package": "phasechange",
@@ -779,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "freeze2",
           "normalized": "a b c d-\u003ee(f c d)",
@@ -794,6 +852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce immutable data from a mutating computation. No copies are made.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "frozen",
           "package": "phasechange",
@@ -804,6 +863,7 @@
         "index": {
           "description": "Produce immutable data from mutating computation No copies are made",
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "frozen",
           "normalized": "(a b ST c(d c))-\u003eFrozen d",
@@ -818,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "frozen1",
           "package": "phasechange",
@@ -827,6 +888,7 @@
         },
         "index": {
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "frozen1",
           "normalized": "(a b ST c(d c e))-\u003ef e",
@@ -841,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "frozen2",
           "package": "phasechange",
@@ -850,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "frozen2",
           "normalized": "(a b ST c(d c e f))-\u003eg e f",
@@ -865,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a copy of immutable data in mutable form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "thaw",
           "package": "phasechange",
@@ -875,6 +940,7 @@
         "index": {
           "description": "Get copy of immutable data in mutable form",
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "thaw",
           "normalized": "a-\u003eb(Thawed a c)",
@@ -889,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "thaw1",
           "package": "phasechange",
@@ -898,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "thaw1",
           "normalized": "a b-\u003ec(d e b)",
@@ -912,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "thaw2",
           "package": "phasechange",
@@ -921,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "thaw2",
           "normalized": "a b c-\u003ed(e f b c)",
@@ -936,6 +1006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an update of immutable data by applying a mutating action. This function allows for\n   copy elision.\n\u003c/p\u003e\u003cp\u003eEach chain of \u003ccode\u003e\u003ca\u003eupdateWith\u003c/a\u003e\u003c/code\u003es makes only one copy. A chain of \u003ccode\u003e\u003ca\u003eupdateWith\u003c/a\u003e\u003c/code\u003es on\n   top of a \u003ccode\u003e\u003ca\u003efrozen\u003c/a\u003e\u003c/code\u003e makes no copies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "updateWith",
           "package": "phasechange",
@@ -946,6 +1017,7 @@
         "index": {
           "description": "Make an update of immutable data by applying mutating action This function allows for copy elision Each chain of updateWith makes only one copy chain of updateWith on top of frozen makes no copies",
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "updateWith",
           "normalized": "(a b c d-\u003eST d())-\u003eFrozen c-\u003eFrozen c",
@@ -961,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "updateWith1",
           "package": "phasechange",
@@ -970,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "updateWith1",
           "normalized": "(a b c d e-\u003eST d())-\u003ef e-\u003ef e",
@@ -985,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:18 UTC 2014",
           "module": "Data.PhaseChange",
           "name": "updateWith2",
           "package": "phasechange",
@@ -994,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Data PhaseChange",
+          "indexed": "2014-03-11T19:38:18",
           "module": "Data.PhaseChange",
           "name": "updateWith2",
           "normalized": "(a b c d e f-\u003eST d())-\u003eg e f-\u003eg e f",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "for-free"
+        "phrase": "for-free",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "ForFree",
           "package": "for-free",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "ForFree",
           "package": "for-free",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Co",
           "package": "for-free",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Co",
           "package": "for-free",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a monad transformer from any comonad as Edward Kmett described.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "CoT",
           "package": "for-free",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Make monad transformer from any comonad as Edward Kmett described",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "CoT",
           "package": "for-free",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft Yoneda lemma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "CoYoneda",
           "package": "for-free",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Left Yoneda lemma",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "CoYoneda",
           "package": "for-free",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCodensity monad from anything (it doesn't have to be a functor)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Codensity",
           "package": "for-free",
@@ -116,6 +125,7 @@
         "index": {
           "description": "Codensity monad from anything it doesn have to be functor",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Codensity",
           "package": "for-free",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCodensity monad taking a parameter holding something related to the output type. If this parameter is a comonad, you get a \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "CodensityAsk",
           "package": "for-free",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Codensity monad taking parameter holding something related to the output type If this parameter is comonad you get MonadPlus",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "CodensityAsk",
           "package": "for-free",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "CodensityAskT",
           "package": "for-free",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "CodensityAskT",
           "package": "for-free",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree comonad from a functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Cofree",
           "package": "for-free",
@@ -183,6 +198,7 @@
         "index": {
           "description": "Free comonad from functor",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Cofree",
           "package": "for-free",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "CofreeT",
           "package": "for-free",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "CofreeT",
           "package": "for-free",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Const",
           "package": "for-free",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Const",
           "package": "for-free",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Decompose",
           "package": "for-free",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Decompose",
           "package": "for-free",
@@ -259,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDensity comonad from anything (it doesn't have to be a functor)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Density",
           "package": "for-free",
@@ -268,6 +291,7 @@
         "index": {
           "description": "Density comonad from anything it doesn have to be functor",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Density",
           "package": "for-free",
@@ -282,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDensity comonad taking a parameter holding something related to the output type. If this parameter is a \u003ccode\u003e\u003ca\u003ePlus\u003c/a\u003e\u003c/code\u003e, you get a comonad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "DensityAsk",
           "package": "for-free",
@@ -291,6 +316,7 @@
         "index": {
           "description": "Density comonad taking parameter holding something related to the output type If this parameter is Plus you get comonad",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "DensityAsk",
           "package": "for-free",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "DensityAskT",
           "package": "for-free",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "DensityAskT",
           "package": "for-free",
@@ -326,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monoid of endomorphisms under composition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Endo",
           "package": "for-free",
@@ -334,6 +363,7 @@
         "index": {
           "description": "The monoid of endomorphisms under composition",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Endo",
           "package": "for-free",
@@ -348,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinalize monad on '(-\u003e)' category. (The Finalize monad is the only possible monad of a endofunctor taking all objects to one final object of the category.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Finalize",
           "package": "for-free",
@@ -357,6 +388,7 @@
         "index": {
           "description": "Finalize monad on category The Finalize monad is the only possible monad of endofunctor taking all objects to one final object of the category",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Finalize",
           "package": "for-free",
@@ -371,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree monad from a functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Free",
           "package": "for-free",
@@ -380,6 +413,7 @@
         "index": {
           "description": "Free monad from functor",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Free",
           "package": "for-free",
@@ -394,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransformer of free monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "FreeT",
           "package": "for-free",
@@ -403,6 +438,7 @@
         "index": {
           "description": "Transformer of free monad",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "FreeT",
           "package": "for-free",
@@ -417,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize comonad on '(-\u003e)' category. (The Initialize comonad is dual to the Finalize monad.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Initialize",
           "package": "for-free",
@@ -426,6 +463,7 @@
         "index": {
           "description": "Initialize comonad on category The Initialize comonad is dual to the Finalize monad",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Initialize",
           "package": "for-free",
@@ -440,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDual function arrows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Op",
           "package": "for-free",
@@ -448,6 +487,7 @@
         "index": {
           "description": "Dual function arrows",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Op",
           "package": "for-free",
@@ -462,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eOp\u003c/a\u003e\u003c/code\u003e but apply another type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "OpT",
           "package": "for-free",
@@ -471,6 +512,7 @@
         "index": {
           "description": "Like Op but apply another type",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "OpT",
           "package": "for-free",
@@ -485,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ezero\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eplus\u003c/a\u003e\u003c/code\u003e should form a monoid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Plus",
           "package": "for-free",
@@ -494,6 +537,7 @@
         "index": {
           "description": "zero and plus should form monoid",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Plus",
           "package": "for-free",
@@ -507,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Recompose",
           "package": "for-free",
@@ -515,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Recompose",
           "package": "for-free",
@@ -529,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight Yoneda lemma\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Yoneda",
           "package": "for-free",
@@ -538,6 +585,7 @@
         "index": {
           "description": "Right Yoneda lemma",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Yoneda",
           "package": "for-free",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": ":\u003c",
           "package": "for-free",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": ":\u003c",
           "package": "for-free",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "CoT",
           "package": "for-free",
@@ -581,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "CoT",
           "package": "for-free",
@@ -594,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "CoYoneda",
           "package": "for-free",
@@ -603,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "CoYoneda",
           "normalized": "a b CoYoneda(b-\u003ec)(d b)",
@@ -618,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Codensity",
           "package": "for-free",
@@ -627,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Codensity",
           "package": "for-free",
@@ -640,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "CodensityAsk",
           "package": "for-free",
@@ -649,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "CodensityAsk",
           "package": "for-free",
@@ -662,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "CodensityAskT",
           "package": "for-free",
@@ -671,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "CodensityAskT",
           "package": "for-free",
@@ -684,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "CofreeT",
           "package": "for-free",
@@ -693,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "CofreeT",
           "package": "for-free",
@@ -706,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Const",
           "package": "for-free",
@@ -714,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Const",
           "package": "for-free",
@@ -727,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Decompose",
           "package": "for-free",
@@ -736,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Decompose",
           "normalized": "a b-\u003eDecompose c a(c b)",
@@ -751,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Density",
           "package": "for-free",
@@ -760,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Density",
           "normalized": "a b Density(c b-\u003ed)(c b)",
@@ -775,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "DensityAskT",
           "package": "for-free",
@@ -784,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "DensityAskT",
           "normalized": "a b DensityAskT(c b-\u003ed b-\u003ee)(d b)",
@@ -799,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Endo",
           "package": "for-free",
@@ -807,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Endo",
           "package": "for-free",
@@ -820,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Finalize",
           "package": "for-free",
@@ -829,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Finalize",
           "package": "for-free",
@@ -842,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Free",
           "package": "for-free",
@@ -851,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Free",
           "package": "for-free",
@@ -864,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "FreeT",
           "package": "for-free",
@@ -873,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "FreeT",
           "package": "for-free",
@@ -886,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Op",
           "package": "for-free",
@@ -894,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Op",
           "package": "for-free",
@@ -907,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "OpT",
           "package": "for-free",
@@ -916,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "OpT",
           "package": "for-free",
@@ -929,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Pure",
           "package": "for-free",
@@ -938,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Pure",
           "package": "for-free",
@@ -951,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Recompose",
           "package": "for-free",
@@ -960,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Recompose",
           "normalized": "a b c d e b c d(c f)-\u003eRecompose b d f",
@@ -975,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "Yoneda",
           "package": "for-free",
@@ -984,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "Yoneda",
           "package": "for-free",
@@ -998,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAffect each level of the structure and pass a result of reading them to each node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "affectCofree",
           "package": "for-free",
@@ -1008,6 +1097,7 @@
         "index": {
           "description": "Affect each level of the structure and pass result of reading them to each node",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "affectCofree",
           "normalized": "(a b(c,d e)-\u003ef(c,e))-\u003e(c,Cofree d g)-\u003eCofree f(c,g)",
@@ -1024,6 +1114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAffect each level of the structure and pass a result of reading them to the leaf nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "affectFree",
           "package": "for-free",
@@ -1034,6 +1125,7 @@
         "index": {
           "description": "Affect each level of the structure and pass result of reading them to the leaf nodes",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "affectFree",
           "normalized": "(a b(c,d e)-\u003ef(c,e))-\u003e(c,Free d g)-\u003eFree f(c,g)",
@@ -1049,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "appEndo",
           "package": "for-free",
@@ -1057,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "appEndo",
           "normalized": "a-\u003ea",
@@ -1072,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "catchCodensityAsk",
           "package": "for-free",
@@ -1081,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "catchCodensityAsk",
           "normalized": "a(CodensityAsk a b)-\u003eCodensityAsk a b-\u003eCodensityAsk a b",
@@ -1096,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "catchCodensityAskT",
           "package": "for-free",
@@ -1105,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "catchCodensityAskT",
           "normalized": "a(CodensityAskT a b c)-\u003eCodensityAskT a b c-\u003eCodensityAskT a b c",
@@ -1120,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "getConst",
           "package": "for-free",
@@ -1128,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "getConst",
           "package": "for-free",
@@ -1141,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "getOp",
           "package": "for-free",
@@ -1149,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "getOp",
           "normalized": "a-\u003eb",
@@ -1164,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "getOpT",
           "package": "for-free",
@@ -1173,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "getOpT",
           "normalized": "a b-\u003ec",
@@ -1188,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "liftCoT0",
           "package": "for-free",
@@ -1197,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "liftCoT0",
           "normalized": "(a b c d-\u003ee)-\u003eCoT c f e",
@@ -1212,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "liftCoT1",
           "package": "for-free",
@@ -1221,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "liftCoT1",
           "normalized": "(a b c d-\u003ed)-\u003eCoT c e()",
@@ -1237,6 +1345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou can make the density comonad from any copointed functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "liftDensity",
           "package": "for-free",
@@ -1247,6 +1356,7 @@
         "index": {
           "description": "You can make the density comonad from any copointed functor",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "liftDensity",
           "normalized": "a b-\u003eDensity a b",
@@ -1262,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "liftDensityAsk",
           "package": "for-free",
@@ -1271,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "liftDensityAsk",
           "normalized": "a b-\u003eDensityAskT c a b",
@@ -1286,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "lowerCo0",
           "package": "for-free",
@@ -1295,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "lowerCo0",
           "normalized": "Co a b-\u003ea c-\u003eb",
@@ -1310,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "lowerCo1",
           "package": "for-free",
@@ -1319,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "lowerCo1",
           "normalized": "Co a b-\u003ea c-\u003ec",
@@ -1334,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "lowerCoT0",
           "package": "for-free",
@@ -1343,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "lowerCoT0",
           "normalized": "CoT a b c-\u003ea d-\u003eb c",
@@ -1358,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "lowerCoT1",
           "package": "for-free",
@@ -1367,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "lowerCoT1",
           "normalized": "CoT a b c-\u003ea d-\u003eb d",
@@ -1383,6 +1503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou can reduce the codensity monad of any applicative functor to that applicative functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "lowerCodensity",
           "package": "for-free",
@@ -1393,6 +1514,7 @@
         "index": {
           "description": "You can reduce the codensity monad of any applicative functor to that applicative functor",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "lowerCodensity",
           "normalized": "Codensity a b-\u003ea b",
@@ -1408,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "lowerCodensityAskT",
           "package": "for-free",
@@ -1417,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "lowerCodensityAskT",
           "normalized": "CodensityAskT a b c-\u003eb c",
@@ -1433,6 +1557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess the result of some \u003ccode\u003e\u003ca\u003eCodensityAsk\u003c/a\u003e\u003c/code\u003e by specifying an input which corresponds to the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "peekCodensityAsk",
           "package": "for-free",
@@ -1443,6 +1568,7 @@
         "index": {
           "description": "Access the result of some CodensityAsk by specifying an input which corresponds to the result",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "peekCodensityAsk",
           "normalized": "a b-\u003eCodensityAsk a b-\u003eb",
@@ -1458,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "peekCodensityAskT",
           "package": "for-free",
@@ -1467,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "peekCodensityAskT",
           "normalized": "a(b c)-\u003eCodensityAskT a b c-\u003eb c",
@@ -1482,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "plus",
           "package": "for-free",
@@ -1491,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "plus",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -1506,6 +1636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower the left Yoneda by specifying the translation from the inner type to any functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "reduceCoYoneda",
           "package": "for-free",
@@ -1516,6 +1647,7 @@
         "index": {
           "description": "Lower the left Yoneda by specifying the translation from the inner type to any functor",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "reduceCoYoneda",
           "normalized": "(a b c d-\u003ee d)-\u003eCoYoneda c f-\u003ee f",
@@ -1532,6 +1664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLowers the free monad to another monad by giving the translation from the functor to the monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "reduceFree",
           "package": "for-free",
@@ -1542,6 +1675,7 @@
         "index": {
           "description": "Lowers the free monad to another monad by giving the translation from the functor to the monad",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "reduceFree",
           "normalized": "(a b c d-\u003ee d)-\u003eFree c f-\u003ee f",
@@ -1558,6 +1692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003ereduceFree\u003c/a\u003e\u003c/code\u003e for transformers (you must reduce to the monad being transformed).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "reduceFreeT",
           "package": "for-free",
@@ -1568,6 +1703,7 @@
         "index": {
           "description": "As reduceFree for transformers you must reduce to the monad being transformed",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "reduceFreeT",
           "normalized": "(a b c d-\u003ee d)-\u003eFreeT c e f-\u003ee f",
@@ -1583,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "runCo",
           "package": "for-free",
@@ -1592,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "runCo",
           "normalized": "Co a b-\u003ea(b-\u003ec)-\u003ec",
@@ -1607,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "runCoT",
           "package": "for-free",
@@ -1616,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "runCoT",
           "normalized": "a b c(d-\u003ee f)-\u003ee f",
@@ -1631,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "runCodensity",
           "package": "for-free",
@@ -1640,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "runCodensity",
           "normalized": "a b(c-\u003ed e)-\u003ed e",
@@ -1655,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "runCodensityAsk",
           "package": "for-free",
@@ -1664,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "runCodensityAsk",
           "normalized": "a b c d-\u003e(e-\u003ed)-\u003ed",
@@ -1679,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "runCodensityAskT",
           "package": "for-free",
@@ -1688,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "runCodensityAskT",
           "normalized": "a b c(d e)-\u003e(f-\u003ed e)-\u003ed e",
@@ -1703,6 +1849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "runFreeT",
           "package": "for-free",
@@ -1712,6 +1859,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "runFreeT",
           "package": "for-free",
@@ -1725,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "runYoneda",
           "package": "for-free",
@@ -1734,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "runYoneda",
           "normalized": "a b(c-\u003ed)-\u003ee d",
@@ -1750,6 +1900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild the free comonad from a comonad by giving the translation from the comonad to a functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "unreduceCofree",
           "package": "for-free",
@@ -1760,6 +1911,7 @@
         "index": {
           "description": "Build the free comonad from comonad by giving the translation from the comonad to functor",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "unreduceCofree",
           "normalized": "(a b c d-\u003ee d)-\u003ec f-\u003eCofree e f",
@@ -1776,6 +1928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003eunreduceCofree\u003c/a\u003e\u003c/code\u003e for transformers (you must unreduce from the comonad being transformed).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "unreduceCofreeT",
           "package": "for-free",
@@ -1786,6 +1939,7 @@
         "index": {
           "description": "As unreduceCofree for transformers you must unreduce from the comonad being transformed",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "unreduceCofreeT",
           "normalized": "(a b c d-\u003ee d)-\u003ec f-\u003eCofreeT e c f",
@@ -1802,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild the right Yoneda by specifying the translation from a functor to anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "unreduceYoneda",
           "package": "for-free",
@@ -1812,6 +1967,7 @@
         "index": {
           "description": "Build the right Yoneda by specifying the translation from functor to anything",
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "unreduceYoneda",
           "normalized": "(a b c d-\u003ee d)-\u003ec f-\u003eYoneda e f",
@@ -1827,6 +1983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:14 UTC 2014",
           "module": "Control.ForFree",
           "name": "zero",
           "package": "for-free",
@@ -1836,6 +1993,7 @@
         },
         "index": {
           "hierarchy": "Control ForFree",
+          "indexed": "2014-03-11T18:11:14",
           "module": "Control.ForFree",
           "name": "zero",
           "package": "for-free",

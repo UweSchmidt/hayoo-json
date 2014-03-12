@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wxAsteroids"
+        "phrase": "wxAsteroids",
+        "type": "phrase"
       },
       "type": "context"
     }

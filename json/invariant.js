@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "invariant"
+        "phrase": "invariant",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:52 UTC 2014",
           "module": "Data.Functor.Invariant",
           "name": "Invariant",
           "package": "invariant",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Invariant",
+          "indexed": "2014-03-11T18:58:52",
           "module": "Data.Functor.Invariant",
           "name": "Invariant",
           "package": "invariant",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny \u003ccode\u003e*-\u003e*\u003c/code\u003e type parametric in the argument permits an instance of\n \u003ccode\u003eInvariant\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eInstances should satisfy the following laws:\n\u003c/p\u003e\u003cpre\u003e invmap id id = id\n invmap f2 f2' . invmap f1 f1' = invmap (f2 . f1) (f1' . f2')\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:58:52 UTC 2014",
           "module": "Data.Functor.Invariant",
           "name": "Invariant",
           "package": "invariant",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Any type parametric in the argument permits an instance of Invariant Instances should satisfy the following laws invmap id id id invmap f2 f2 invmap f1 f1 invmap f2 f1 f1 f2",
           "hierarchy": "Data Functor Invariant",
+          "indexed": "2014-03-11T18:58:52",
           "module": "Data.Functor.Invariant",
           "name": "Invariant",
           "package": "invariant",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny \u003ccode\u003e*-\u003e*-\u003e*\u003c/code\u003e type parametric in both arguments permits an instance of\n \u003ccode\u003eInvariant2\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eInstances should satisfy the following laws:\n\u003c/p\u003e\u003cpre\u003e invmap2 id id id id = id\n invmap2 f2 f2' g2 g2' . invmap2 f1 f1' g1 g1' =\n   invmap2 (f2 . f1) (f1' . f2') (g2 . g1) (g1' . g2')\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:58:52 UTC 2014",
           "module": "Data.Functor.Invariant",
           "name": "Invariant2",
           "package": "invariant",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Any type parametric in both arguments permits an instance of Invariant2 Instances should satisfy the following laws invmap2 id id id id id invmap2 f2 f2 g2 g2 invmap2 f1 f1 g1 g1 invmap2 f2 f1 f1 f2 g2 g1 g1 g2",
           "hierarchy": "Data Functor Invariant",
+          "indexed": "2014-03-11T18:58:52",
           "module": "Data.Functor.Invariant",
           "name": "Invariant2",
           "package": "invariant",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:52 UTC 2014",
           "module": "Data.Functor.Invariant",
           "name": "invmap",
           "package": "invariant",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Invariant",
+          "indexed": "2014-03-11T18:58:52",
           "module": "Data.Functor.Invariant",
           "name": "invmap",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003ec a-\u003ec b",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:52 UTC 2014",
           "module": "Data.Functor.Invariant",
           "name": "invmap2",
           "package": "invariant",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Invariant",
+          "indexed": "2014-03-11T18:58:52",
           "module": "Data.Functor.Invariant",
           "name": "invmap2",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003e(c-\u003ed)-\u003e(d-\u003ec)-\u003ee a c-\u003ee b d",

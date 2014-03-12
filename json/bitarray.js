@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bitarray"
+        "phrase": "bitarray",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMutable one-dimensional packed bit arrays in the IO monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.IO",
           "name": "IO",
           "package": "bitarray",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Mutable one-dimensional packed bit arrays in the IO monad",
           "hierarchy": "Data BitArray IO",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.IO",
           "name": "IO",
           "package": "bitarray",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.IO",
           "name": "IOBitArray",
           "package": "bitarray",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray IO",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.IO",
           "name": "IOBitArray",
           "package": "bitarray",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflips the bit and returns the \u003cem\u003eold\u003c/em\u003e value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.IO",
           "name": "flipBit",
           "package": "bitarray",
@@ -73,6 +78,7 @@
         "index": {
           "description": "flips the bit and returns the old value",
           "hierarchy": "Data BitArray IO",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.IO",
           "name": "flipBit",
           "normalized": "IOBitArray-\u003eInt-\u003eIO Bool",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.IO",
           "name": "freezeBitArray",
           "package": "bitarray",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray IO",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.IO",
           "name": "freezeBitArray",
           "normalized": "IOBitArray-\u003eIO BitArray",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.IO",
           "name": "getBitArrayBounds",
           "package": "bitarray",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray IO",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.IO",
           "name": "getBitArrayBounds",
           "normalized": "IOBitArray-\u003eIO(Int,Int)",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.IO",
           "name": "newBitArray",
           "package": "bitarray",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray IO",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.IO",
           "name": "newBitArray",
           "normalized": "(Int,Int)-\u003eBool-\u003eIO IOBitArray",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.IO",
           "name": "readBit",
           "package": "bitarray",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray IO",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.IO",
           "name": "readBit",
           "normalized": "IOBitArray-\u003eInt-\u003eIO Bool",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.IO",
           "name": "thawBitArray",
           "package": "bitarray",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray IO",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.IO",
           "name": "thawBitArray",
           "normalized": "BitArray-\u003eIO IOBitArray",
@@ -208,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.IO",
           "name": "unsafeFlipBit",
           "package": "bitarray",
@@ -217,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray IO",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.IO",
           "name": "unsafeFlipBit",
           "normalized": "IOBitArray-\u003eInt-\u003eIO Bool",
@@ -232,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.IO",
           "name": "unsafeFreezeBitArray",
           "package": "bitarray",
@@ -241,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray IO",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.IO",
           "name": "unsafeFreezeBitArray",
           "normalized": "IOBitArray-\u003eIO BitArray",
@@ -256,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.IO",
           "name": "unsafeReadBit",
           "package": "bitarray",
@@ -265,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray IO",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.IO",
           "name": "unsafeReadBit",
           "normalized": "IOBitArray-\u003eInt-\u003eIO Bool",
@@ -280,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.IO",
           "name": "unsafeThawBitArray",
           "package": "bitarray",
@@ -289,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray IO",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.IO",
           "name": "unsafeThawBitArray",
           "normalized": "BitArray-\u003eIO IOBitArray",
@@ -304,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.IO",
           "name": "unsafeWriteBit",
           "package": "bitarray",
@@ -313,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray IO",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.IO",
           "name": "unsafeWriteBit",
           "normalized": "IOBitArray-\u003eInt-\u003eBool-\u003eIO()",
@@ -328,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.IO",
           "name": "writeBit",
           "package": "bitarray",
@@ -337,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray IO",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.IO",
           "name": "writeBit",
           "normalized": "IOBitArray-\u003eInt-\u003eBool-\u003eIO()",
@@ -353,6 +381,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMutable one-dimensional packed bit arrays in the (strict) ST monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.ST",
           "name": "ST",
           "package": "bitarray",
@@ -362,6 +391,7 @@
         "index": {
           "description": "Mutable one-dimensional packed bit arrays in the strict ST monad",
           "hierarchy": "Data BitArray ST",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.ST",
           "name": "ST",
           "package": "bitarray",
@@ -375,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.ST",
           "name": "STBitArray",
           "package": "bitarray",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray ST",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.ST",
           "name": "STBitArray",
           "package": "bitarray",
@@ -397,6 +429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflips the bit and returns the \u003cem\u003eold\u003c/em\u003e value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.ST",
           "name": "flipBit",
           "package": "bitarray",
@@ -407,6 +440,7 @@
         "index": {
           "description": "flips the bit and returns the old value",
           "hierarchy": "Data BitArray ST",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.ST",
           "name": "flipBit",
           "normalized": "STBitArray a-\u003eInt-\u003eST a Bool",
@@ -422,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.ST",
           "name": "freezeBitArray",
           "package": "bitarray",
@@ -431,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray ST",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.ST",
           "name": "freezeBitArray",
           "normalized": "STBitArray a-\u003eST a BitArray",
@@ -446,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.ST",
           "name": "getBitArrayBounds",
           "package": "bitarray",
@@ -455,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray ST",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.ST",
           "name": "getBitArrayBounds",
           "normalized": "STBitArray a-\u003eST a(Int,Int)",
@@ -470,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.ST",
           "name": "newBitArray",
           "package": "bitarray",
@@ -479,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray ST",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.ST",
           "name": "newBitArray",
           "normalized": "(Int,Int)-\u003eBool-\u003eST a(STBitArray a)",
@@ -494,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.ST",
           "name": "readBit",
           "package": "bitarray",
@@ -503,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray ST",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.ST",
           "name": "readBit",
           "normalized": "STBitArray a-\u003eInt-\u003eST a Bool",
@@ -518,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.ST",
           "name": "thawBitArray",
           "package": "bitarray",
@@ -527,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray ST",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.ST",
           "name": "thawBitArray",
           "normalized": "BitArray-\u003eST a(STBitArray a)",
@@ -542,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.ST",
           "name": "unsafeFlipBit",
           "package": "bitarray",
@@ -551,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray ST",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.ST",
           "name": "unsafeFlipBit",
           "normalized": "STBitArray a-\u003eInt-\u003eST a Bool",
@@ -566,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.ST",
           "name": "unsafeFreezeBitArray",
           "package": "bitarray",
@@ -575,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray ST",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.ST",
           "name": "unsafeFreezeBitArray",
           "normalized": "STBitArray a-\u003eST a BitArray",
@@ -590,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.ST",
           "name": "unsafeReadBit",
           "package": "bitarray",
@@ -599,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray ST",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.ST",
           "name": "unsafeReadBit",
           "normalized": "STBitArray a-\u003eInt-\u003eST a Bool",
@@ -614,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.ST",
           "name": "unsafeThawBitArray",
           "package": "bitarray",
@@ -623,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray ST",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.ST",
           "name": "unsafeThawBitArray",
           "normalized": "BitArray-\u003eST a(STBitArray a)",
@@ -638,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.ST",
           "name": "unsafeWriteBit",
           "package": "bitarray",
@@ -647,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray ST",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.ST",
           "name": "unsafeWriteBit",
           "normalized": "STBitArray a-\u003eInt-\u003eBool-\u003eST a()",
@@ -662,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray.ST",
           "name": "writeBit",
           "package": "bitarray",
@@ -671,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray ST",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray.ST",
           "name": "writeBit",
           "normalized": "STBitArray a-\u003eInt-\u003eBool-\u003eST a()",
@@ -687,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImmutable one-dimensional packed bit arrays.\n The main advantage should be compactness in memory.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray",
           "name": "BitArray",
           "package": "bitarray",
@@ -696,6 +753,7 @@
         "index": {
           "description": "Immutable one-dimensional packed bit arrays The main advantage should be compactness in memory",
           "hierarchy": "Data BitArray",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray",
           "name": "BitArray",
           "package": "bitarray",
@@ -710,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA packed bit array. \n Internally, it is represented as an unboxed array of \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e-s.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray",
           "name": "BitArray",
           "package": "bitarray",
@@ -719,6 +778,7 @@
         "index": {
           "description": "packed bit array Internally it is represented as an unboxed array of Word64",
           "hierarchy": "Data BitArray",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray",
           "name": "BitArray",
           "package": "bitarray",
@@ -732,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray",
           "name": "accumBitArray",
           "package": "bitarray",
@@ -741,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray",
           "name": "accumBitArray",
           "normalized": "(Bool-\u003ea-\u003eBool)-\u003eBool-\u003e(Int,Int)-\u003e[(Int,a)]-\u003eBitArray",
@@ -757,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnspecified values become \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray",
           "name": "bitArray",
           "package": "bitarray",
@@ -767,6 +830,7 @@
         "index": {
           "description": "Unspecified values become False",
           "hierarchy": "Data BitArray",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray",
           "name": "bitArray",
           "normalized": "(Int,Int)-\u003e[(Int,Bool)]-\u003eBitArray",
@@ -783,6 +847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first argument gives the default value (instead of \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray",
           "name": "bitArray'",
           "package": "bitarray",
@@ -793,6 +858,7 @@
         "index": {
           "description": "The first argument gives the default value instead of False",
           "hierarchy": "Data BitArray",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray",
           "name": "bitArray'",
           "normalized": "Bool-\u003e(Int,Int)-\u003e[(Int,Bool)]-\u003eBitArray",
@@ -808,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray",
           "name": "bitArrayBounds",
           "package": "bitarray",
@@ -817,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray",
           "name": "bitArrayBounds",
           "normalized": "BitArray-\u003e(Int,Int)",
@@ -832,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray",
           "name": "bits",
           "package": "bitarray",
@@ -841,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray",
           "name": "bits",
           "normalized": "BitArray-\u003e[Bool]",
@@ -855,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray",
           "name": "bits01",
           "package": "bitarray",
@@ -864,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray",
           "name": "bits01",
           "normalized": "BitArray-\u003e[Int]",
@@ -879,6 +951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the list is too short, the rest of the array is filled with \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray",
           "name": "listBitArray",
           "package": "bitarray",
@@ -889,6 +962,7 @@
         "index": {
           "description": "If the list is too short the rest of the array is filled with False",
           "hierarchy": "Data BitArray",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray",
           "name": "listBitArray",
           "normalized": "(Int,Int)-\u003e[Bool]-\u003eBitArray",
@@ -904,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray",
           "name": "listBitArray01",
           "package": "bitarray",
@@ -913,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray",
           "name": "listBitArray01",
           "normalized": "(Int,Int)-\u003e[Int]-\u003eBitArray",
@@ -928,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray",
           "name": "lookupBit",
           "package": "bitarray",
@@ -937,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray",
           "name": "lookupBit",
           "normalized": "BitArray-\u003eInt-\u003eBool",
@@ -952,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:35 UTC 2014",
           "module": "Data.BitArray",
           "name": "unsafeLookupBit",
           "package": "bitarray",
@@ -961,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Data BitArray",
+          "indexed": "2014-03-11T17:22:35",
           "module": "Data.BitArray",
           "name": "unsafeLookupBit",
           "normalized": "BitArray-\u003eInt-\u003eBool",

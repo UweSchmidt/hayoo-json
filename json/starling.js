@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "starling"
+        "phrase": "starling",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAll of the craziness for thread-safety\nand asynchronous operations lives here.\n\u003c/p\u003e\u003cp\u003eThe idea is that if someone comes up\nwith a better way of managing connection\nstate they can build what they want on top\nof the Core module.\n\u003c/p\u003e\u003cp\u003eOperations are not entirely asynch -\nthey block until a response is returned.\n\u003c/p\u003e\u003cp\u003eBut we don't hold the connection lock while\nwe're blocking, so other threads can still\nput requests on the connection.\n\u003c/p\u003e\u003cp\u003eThis should work well where each thread needs one\nrequest to do it's job.\n\u003c/p\u003e\u003cp\u003eIf you have a good idea for what an asynchronous\nAPI should look like let me know. It shouldn't be too\nhard to add on to what's already here.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Connection",
           "name": "Connection",
           "package": "starling",
@@ -28,6 +29,7 @@
         "index": {
           "description": "All of the craziness for thread-safety and asynchronous operations lives here The idea is that if someone comes up with better way of managing connection state they can build what they want on top of the Core module Operations are not entirely asynch they block until response is returned But we don hold the connection lock while we re blocking so other threads can still put requests on the connection This should work well where each thread needs one request to do it job If you have good idea for what an asynchronous API should look like let me know It shouldn be too hard to add on to what already here",
           "hierarchy": "Network Starling Connection",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Connection",
           "name": "Connection",
           "package": "starling",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor thread safety of operations, we perform\n all requests on a wrapper around a handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Connection",
           "name": "Connection",
           "package": "starling",
@@ -51,6 +54,7 @@
         "index": {
           "description": "For thread safety of operations we perform all requests on wrapper around handle",
           "hierarchy": "Network Starling Connection",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Connection",
           "name": "Connection",
           "package": "starling",
@@ -91,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function ignores anything coming back from\n the server.\n Non-blocking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Connection",
           "name": "ignorantRequest",
           "package": "starling",
@@ -101,6 +106,7 @@
         "index": {
           "description": "This function ignores anything coming back from the server Non-blocking",
           "hierarchy": "Network Starling Connection",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Connection",
           "name": "ignorantRequest",
           "normalized": "Connection-\u003eRequest-\u003eIO()",
@@ -143,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlace a synchronous request which only returns\n one reply\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Connection",
           "name": "synchRequest",
           "package": "starling",
@@ -153,6 +160,7 @@
         "index": {
           "description": "Place synchronous request which only returns one reply",
           "hierarchy": "Network Starling Connection",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Connection",
           "name": "synchRequest",
           "normalized": "Connection-\u003eRequest-\u003eIO Response",
@@ -169,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlace a synchronous request which may return\n multiple response (\u003ccode\u003e\u003ca\u003eStat\u003c/a\u003e\u003c/code\u003e, pretty much)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Connection",
           "name": "synchRequestMulti",
           "package": "starling",
@@ -179,6 +188,7 @@
         "index": {
           "description": "Place synchronous request which may return multiple response Stat pretty much",
           "hierarchy": "Network Starling Connection",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Connection",
           "name": "synchRequestMulti",
           "normalized": "Connection-\u003eRequest-\u003eIO[Response]",
@@ -195,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrimitives for the memcached protocol.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Core",
           "package": "starling",
@@ -204,6 +215,7 @@
         "index": {
           "description": "Primitives for the memcached protocol",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Core",
           "package": "starling",
@@ -217,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "AuthData",
           "package": "starling",
@@ -225,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "AuthData",
           "package": "starling",
@@ -238,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "AuthMechanism",
           "package": "starling",
@@ -246,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "AuthMechanism",
           "package": "starling",
@@ -259,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "CAS",
           "package": "starling",
@@ -267,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "CAS",
           "package": "starling",
@@ -280,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "DataType",
           "package": "starling",
@@ -288,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "DataType",
           "package": "starling",
@@ -301,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Deserialize",
           "package": "starling",
@@ -309,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Deserialize",
           "package": "starling",
@@ -322,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Key",
           "package": "starling",
@@ -330,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Key",
           "package": "starling",
@@ -343,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "OpCode",
           "package": "starling",
@@ -351,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "OpCode",
           "package": "starling",
@@ -364,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Opaque",
           "package": "starling",
@@ -372,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Opaque",
           "package": "starling",
@@ -385,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Request",
           "package": "starling",
@@ -393,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Request",
           "package": "starling",
@@ -406,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Response",
           "package": "starling",
@@ -414,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Response",
           "package": "starling",
@@ -427,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "ResponseStatus",
           "package": "starling",
@@ -435,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "ResponseStatus",
           "package": "starling",
@@ -448,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Serialize",
           "package": "starling",
@@ -456,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Serialize",
           "package": "starling",
@@ -469,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "StarlingReadError",
           "package": "starling",
@@ -477,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "StarlingReadError",
           "package": "starling",
@@ -490,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Value",
           "package": "starling",
@@ -498,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Value",
           "package": "starling",
@@ -511,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Add",
           "package": "starling",
@@ -520,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Add",
           "package": "starling",
@@ -533,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "AddQ",
           "package": "starling",
@@ -542,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "AddQ",
           "package": "starling",
@@ -555,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Append",
           "package": "starling",
@@ -564,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Append",
           "package": "starling",
@@ -577,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "AppendQ",
           "package": "starling",
@@ -586,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "AppendQ",
           "package": "starling",
@@ -622,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Decrement",
           "package": "starling",
@@ -631,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Decrement",
           "package": "starling",
@@ -644,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "DecrementQ",
           "package": "starling",
@@ -653,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "DecrementQ",
           "package": "starling",
@@ -666,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Delete",
           "package": "starling",
@@ -675,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Delete",
           "package": "starling",
@@ -688,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "DeleteQ",
           "package": "starling",
@@ -697,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "DeleteQ",
           "package": "starling",
@@ -710,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Flush",
           "package": "starling",
@@ -719,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Flush",
           "package": "starling",
@@ -732,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "FlushQ",
           "package": "starling",
@@ -741,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "FlushQ",
           "package": "starling",
@@ -777,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Get",
           "package": "starling",
@@ -786,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Get",
           "package": "starling",
@@ -799,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "GetK",
           "package": "starling",
@@ -808,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "GetK",
           "package": "starling",
@@ -821,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "GetKQ",
           "package": "starling",
@@ -830,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "GetKQ",
           "package": "starling",
@@ -843,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "GetQ",
           "package": "starling",
@@ -852,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "GetQ",
           "package": "starling",
@@ -888,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Increment",
           "package": "starling",
@@ -897,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Increment",
           "package": "starling",
@@ -910,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "IncrementQ",
           "package": "starling",
@@ -919,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "IncrementQ",
           "package": "starling",
@@ -1024,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "ListAuthMechanisms",
           "package": "starling",
@@ -1033,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "ListAuthMechanisms",
           "package": "starling",
@@ -1069,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "NoOp",
           "package": "starling",
@@ -1078,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "NoOp",
           "package": "starling",
@@ -1114,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Prepend",
           "package": "starling",
@@ -1123,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Prepend",
           "package": "starling",
@@ -1136,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "PrependQ",
           "package": "starling",
@@ -1145,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "PrependQ",
           "package": "starling",
@@ -1158,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Quit",
           "package": "starling",
@@ -1167,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Quit",
           "package": "starling",
@@ -1180,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "QuitQ",
           "package": "starling",
@@ -1189,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "QuitQ",
           "package": "starling",
@@ -1202,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "RawData",
           "package": "starling",
@@ -1211,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "RawData",
           "package": "starling",
@@ -1224,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Replace",
           "package": "starling",
@@ -1233,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Replace",
           "package": "starling",
@@ -1246,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "ReplaceQ",
           "package": "starling",
@@ -1255,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "ReplaceQ",
           "package": "starling",
@@ -1268,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Res",
           "package": "starling",
@@ -1277,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Res",
           "package": "starling",
@@ -1290,6 +1382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Set",
           "package": "starling",
@@ -1299,6 +1392,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Set",
           "package": "starling",
@@ -1312,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "SetQ",
           "package": "starling",
@@ -1321,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "SetQ",
           "package": "starling",
@@ -1334,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "StarlingReadError",
           "package": "starling",
@@ -1343,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "StarlingReadError",
           "package": "starling",
@@ -1356,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "StartAuth",
           "package": "starling",
@@ -1365,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "StartAuth",
           "package": "starling",
@@ -1378,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Stat",
           "package": "starling",
@@ -1387,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Stat",
           "package": "starling",
@@ -1400,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "StepAuth",
           "package": "starling",
@@ -1409,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "StepAuth",
           "package": "starling",
@@ -1468,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "Version",
           "package": "starling",
@@ -1477,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "Version",
           "package": "starling",
@@ -1491,6 +1597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a value to cache. Fails if\n already present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "add",
           "package": "starling",
@@ -1501,6 +1608,7 @@
         "index": {
           "description": "Add value to cache Fails if already present",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "add",
           "normalized": "Key-\u003eValue-\u003eRequest",
@@ -1516,6 +1624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a version tag to a request. When\n added to a set/replace request, the request\n will fail if the data has been modified since\n the CAS was retrieved for the item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "addCAS",
           "package": "starling",
@@ -1526,6 +1635,7 @@
         "index": {
           "description": "Add version tag to request When added to set replace request the request will fail if the data has been modified since the CAS was retrieved for the item",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "addCAS",
           "normalized": "CAS-\u003eRequest-\u003eRequest",
@@ -1542,6 +1652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an opaque marker to a request.\n This is returned unchanged in the corresponding\n response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "addOpaque",
           "package": "starling",
@@ -1552,6 +1663,7 @@
         "index": {
           "description": "Add an opaque marker to request This is returned unchanged in the corresponding response",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "addOpaque",
           "normalized": "Opaque-\u003eRequest-\u003eRequest",
@@ -1568,6 +1680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppends the value to the value in the cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "append",
           "package": "starling",
@@ -1578,6 +1691,7 @@
         "index": {
           "description": "Appends the value to the value in the cache",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "append",
           "normalized": "Key-\u003eValue-\u003eRequest",
@@ -1592,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "decrement",
           "package": "starling",
@@ -1600,6 +1715,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "decrement",
           "normalized": "Key-\u003eWord-\u003eWord-\u003eRequest",
@@ -1615,6 +1731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a cache entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "delete",
           "package": "starling",
@@ -1625,6 +1742,7 @@
         "index": {
           "description": "Delete cache entry",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "delete",
           "normalized": "Key-\u003eRequest",
@@ -1639,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "deserialize",
           "package": "starling",
@@ -1648,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "deserialize",
           "package": "starling",
@@ -1661,6 +1781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlush the cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "flush",
           "package": "starling",
@@ -1671,6 +1792,7 @@
         "index": {
           "description": "Flush the cache",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "flush",
           "package": "starling",
@@ -1684,6 +1806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a value from cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "get",
           "package": "starling",
@@ -1694,6 +1817,7 @@
         "index": {
           "description": "Get value from cache",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "get",
           "normalized": "Key-\u003eRequest",
@@ -1709,6 +1833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePulls a reponse to an operation\n off of a handle.\n May throw a \u003ccode\u003e\u003ca\u003eStarlingReadError\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "getResponse",
           "package": "starling",
@@ -1719,6 +1844,7 @@
         "index": {
           "description": "Pulls reponse to an operation off of handle May throw StarlingReadError",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "getResponse",
           "normalized": "Handle-\u003eIO Response",
@@ -1734,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "increment",
           "package": "starling",
@@ -1742,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "increment",
           "normalized": "Key-\u003eWord-\u003eWord-\u003eRequest",
@@ -1757,6 +1885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList SASL authenitication mechanisms, space delimeted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "listAuthMechanisms",
           "package": "starling",
@@ -1767,6 +1896,7 @@
         "index": {
           "description": "List SASL authenitication mechanisms space delimeted",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "listAuthMechanisms",
           "package": "starling",
@@ -1781,6 +1911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeepalive. Flushes responses for quiet operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "noop",
           "package": "starling",
@@ -1791,6 +1922,7 @@
         "index": {
           "description": "Keepalive Flushes responses for quiet operations",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "noop",
           "package": "starling",
@@ -1803,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "nullCAS",
           "package": "starling",
@@ -1812,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "nullCAS",
           "package": "starling",
@@ -1826,6 +1960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepends the value to the value in the cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "prepend",
           "package": "starling",
@@ -1836,6 +1971,7 @@
         "index": {
           "description": "Prepends the value to the value in the cache",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "prepend",
           "normalized": "Key-\u003eValue-\u003eRequest",
@@ -1851,6 +1987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "quit",
           "package": "starling",
@@ -1861,6 +1998,7 @@
         "index": {
           "description": "Quit",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "quit",
           "package": "starling",
@@ -1874,6 +2012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplaces a value in cahce. Fails if\n not present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "replace",
           "package": "starling",
@@ -1884,6 +2023,7 @@
         "index": {
           "description": "Replaces value in cahce Fails if not present",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "replace",
           "normalized": "Key-\u003eValue-\u003eRequest",
@@ -1899,6 +2039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the operation the request will perform\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "requestOp",
           "package": "starling",
@@ -1909,6 +2050,7 @@
         "index": {
           "description": "Returns the operation the request will perform",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "requestOp",
           "normalized": "Request-\u003eOpCode",
@@ -1924,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "rsBody",
           "package": "starling",
@@ -1933,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "rsBody",
           "package": "starling",
@@ -1946,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "rsCas",
           "package": "starling",
@@ -1955,6 +2100,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "rsCas",
           "package": "starling",
@@ -1968,6 +2114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "rsDataType",
           "package": "starling",
@@ -1977,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "rsDataType",
           "package": "starling",
@@ -1990,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "rsExtras",
           "package": "starling",
@@ -1999,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "rsExtras",
           "package": "starling",
@@ -2012,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "rsKey",
           "package": "starling",
@@ -2021,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "rsKey",
           "package": "starling",
@@ -2034,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "rsMagic",
           "package": "starling",
@@ -2043,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "rsMagic",
           "package": "starling",
@@ -2056,6 +2210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "rsOp",
           "package": "starling",
@@ -2065,6 +2220,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "rsOp",
           "package": "starling",
@@ -2078,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "rsOpaque",
           "package": "starling",
@@ -2087,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "rsOpaque",
           "package": "starling",
@@ -2100,6 +2258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "rsStatus",
           "package": "starling",
@@ -2109,6 +2268,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "rsStatus",
           "package": "starling",
@@ -2122,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "serialize",
           "package": "starling",
@@ -2131,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "serialize",
           "normalized": "a-\u003eBuilder",
@@ -2146,6 +2308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a value in the cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "set",
           "package": "starling",
@@ -2156,6 +2319,7 @@
         "index": {
           "description": "Set value in the cache",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "set",
           "normalized": "Key-\u003eValue-\u003eRequest",
@@ -2171,6 +2335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegin SASL authentication. May return the further auth\n required error if further steps are needed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "startAuth",
           "package": "starling",
@@ -2181,6 +2346,7 @@
         "index": {
           "description": "Begin SASL authentication May return the further auth required error if further steps are needed",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "startAuth",
           "normalized": "AuthMechanism-\u003eAuthData-\u003eRequest",
@@ -2197,6 +2363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch statistics about the cahce. Returns a sequence\n of responses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "stat",
           "package": "starling",
@@ -2207,6 +2374,7 @@
         "index": {
           "description": "Fetch statistics about the cahce Returns sequence of responses",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "stat",
           "normalized": "Maybe Key-\u003eRequest",
@@ -2222,6 +2390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContinue SASL authentication. May return the further\n aut required error if further steps are needed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "stepAuth",
           "package": "starling",
@@ -2232,6 +2401,7 @@
         "index": {
           "description": "Continue SASL authentication May return the further aut required error if further steps are needed",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "stepAuth",
           "normalized": "AuthMechanism-\u003eAuthData-\u003eRequest",
@@ -2248,6 +2418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the server version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling.Core",
           "name": "version",
           "package": "starling",
@@ -2258,6 +2429,7 @@
         "index": {
           "description": "Returns the server version",
           "hierarchy": "Network Starling Core",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling.Core",
           "name": "version",
           "package": "starling",
@@ -2271,6 +2443,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA haskell implementation of the memcahed\nprotocol.\n\u003c/p\u003e\u003cp\u003eThis implements the new binary protocol, so\nit only works with memcached version 1.3 and newer.\n\u003c/p\u003e\u003cp\u003eExample of usage, using the network package to obain\na handle, and the OverloadedStrings language extension:\n\u003c/p\u003e\u003cpre\u003e h \u003c- connectTo \"filename\" $ UnixSocket \"filename\"\n hSetBuffering h NoBuffering\n con \u003c- open h\n\u003c/pre\u003e\u003cpre\u003e set con \"hello\" \"world\"\n get con \"hello\"\n\u003c/pre\u003e\u003cp\u003eIn the above example we connect to a unix socket in the file \"filename\",\nset the key \"hello\" to the value \"world\" and then retrieve the value.\n\u003c/p\u003e\u003cp\u003eOperations are thread safe - multiple threads of execution may make\nconcurrent requests on the memcahced connection.\n\u003c/p\u003e\u003cp\u003eOperations are blocking, but do not block other concurrent threads\nfrom placing requests on the connection.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "Starling",
           "package": "starling",
@@ -2280,6 +2453,7 @@
         "index": {
           "description": "haskell implementation of the memcahed protocol This implements the new binary protocol so it only works with memcached version and newer Example of usage using the network package to obain handle and the OverloadedStrings language extension connectTo filename UnixSocket filename hSetBuffering NoBuffering con open set con hello world get con hello In the above example we connect to unix socket in the file filename set the key hello to the value world and then retrieve the value Operations are thread safe multiple threads of execution may make concurrent requests on the memcahced connection Operations are blocking but do not block other concurrent threads from placing requests on the connection",
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "Starling",
           "package": "starling",
@@ -2294,6 +2468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome authentications require mutliple back and forths between the\n client and the server. This type encapsulates that.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "AuthCallback",
           "package": "starling",
@@ -2303,6 +2478,7 @@
         "index": {
           "description": "Some authentications require mutliple back and forths between the client and the server This type encapsulates that",
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "AuthCallback",
           "package": "starling",
@@ -2316,6 +2492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "AuthData",
           "package": "starling",
@@ -2324,6 +2501,7 @@
         },
         "index": {
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "AuthData",
           "package": "starling",
@@ -2337,6 +2515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "AuthMechanism",
           "package": "starling",
@@ -2345,6 +2524,7 @@
         },
         "index": {
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "AuthMechanism",
           "package": "starling",
@@ -2359,6 +2539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor thread safety of operations, we perform\n all requests on a wrapper around a handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "Connection",
           "package": "starling",
@@ -2368,6 +2549,7 @@
         "index": {
           "description": "For thread safety of operations we perform all requests on wrapper around handle",
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "Connection",
           "package": "starling",
@@ -2381,6 +2563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "Key",
           "package": "starling",
@@ -2389,6 +2572,7 @@
         },
         "index": {
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "Key",
           "package": "starling",
@@ -2402,6 +2586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "ResponseStatus",
           "package": "starling",
@@ -2410,6 +2595,7 @@
         },
         "index": {
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "ResponseStatus",
           "package": "starling",
@@ -2424,6 +2610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error consists of the error code returned by the\n server and a human-readble error string returned by the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "StarlingError",
           "package": "starling",
@@ -2433,6 +2620,7 @@
         "index": {
           "description": "An error consists of the error code returned by the server and human-readble error string returned by the server",
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "StarlingError",
           "package": "starling",
@@ -2446,6 +2634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "Value",
           "package": "starling",
@@ -2454,6 +2643,7 @@
         },
         "index": {
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "Value",
           "package": "starling",
@@ -2467,6 +2657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "AuthCallback",
           "package": "starling",
@@ -2476,6 +2667,7 @@
         },
         "index": {
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "AuthCallback",
           "normalized": "AuthCallback(ByteString-\u003ea(AuthData,Maybe(AuthCallback a)))",
@@ -2491,6 +2683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "StarlingError",
           "package": "starling",
@@ -2500,6 +2693,7 @@
         },
         "index": {
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "StarlingError",
           "package": "starling",
@@ -2514,6 +2708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a vlue in the cache. Fails if a value is already defined\n for the indicated key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "add",
           "package": "starling",
@@ -2524,6 +2719,7 @@
         "index": {
           "description": "Set vlue in the cache Fails if value is already defined for the indicated key",
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "add",
           "normalized": "Connection-\u003eKey-\u003eValue-\u003ea()",
@@ -2539,6 +2735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSASL authenitcation. Multi-step authentication is supported by un-folding\n the passed-in AuthCallback. Returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if authentication is supported\n and complete. If the supplied callback completes while there are still steps\n remaining we throw FurtherAuthRequired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "auth",
           "package": "starling",
@@ -2549,6 +2746,7 @@
         "index": {
           "description": "SASL authenitcation Multi-step authentication is supported by un-folding the passed-in AuthCallback Returns True if authentication is supported and complete If the supplied callback completes while there are still steps remaining we throw FurtherAuthRequired",
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "auth",
           "normalized": "Connection-\u003eAuthMechanism-\u003eAuthData-\u003eMaybe(AuthCallback a)-\u003ea Bool",
@@ -2564,6 +2762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrement a value in the cache. The first \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e argument is the\n amount by which to decrement and the second is the intial value to\n use if the key does not yet have a value.\n The return value is the updated value in the cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "decrement",
           "package": "starling",
@@ -2574,6 +2773,7 @@
         "index": {
           "description": "Decrement value in the cache The first Word64 argument is the amount by which to decrement and the second is the intial value to use if the key does not yet have value The return value is the updated value in the cache",
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "decrement",
           "normalized": "Connection-\u003eKey-\u003eWord-\u003eWord-\u003ea Word",
@@ -2589,6 +2789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete an entry in the cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "delete",
           "package": "starling",
@@ -2599,6 +2800,7 @@
         "index": {
           "description": "Delete an entry in the cache",
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "delete",
           "normalized": "Connection-\u003eKey-\u003ea()",
@@ -2614,6 +2816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete all entries in the cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "flush",
           "package": "starling",
@@ -2624,6 +2827,7 @@
         "index": {
           "description": "Delete all entries in the cache",
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "flush",
           "normalized": "Connection-\u003ea()",
@@ -2639,6 +2843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrive a value from the cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "get",
           "package": "starling",
@@ -2649,6 +2854,7 @@
         "index": {
           "description": "Retrive value from the cache",
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "get",
           "normalized": "Connection-\u003eKey-\u003ea ByteString",
@@ -2664,6 +2870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement a value in the cache. The first \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e argument is the\n amount by which to increment and the second is the intial value to\n use if the key does not yet have a value.\n The return value is the updated value in the cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "increment",
           "package": "starling",
@@ -2674,6 +2881,7 @@
         "index": {
           "description": "Increment value in the cache The first Word64 argument is the amount by which to increment and the second is the intial value to use if the key does not yet have value The return value is the updated value in the cache",
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "increment",
           "normalized": "Connection-\u003eKey-\u003eWord-\u003eWord-\u003ea Word",
@@ -2689,6 +2897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList allowed SASL mechanisms. The server must support SASL\n authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "listAuthMechanisms",
           "package": "starling",
@@ -2699,6 +2908,7 @@
         "index": {
           "description": "List allowed SASL mechanisms The server must support SASL authentication",
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "listAuthMechanisms",
           "normalized": "Connection-\u003ea[AuthMechanism]",
@@ -2715,6 +2925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a value in the cache. Fails if a value is not already defined\n for the indicated key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "replace",
           "package": "starling",
@@ -2725,6 +2936,7 @@
         "index": {
           "description": "Set value in the cache Fails if value is not already defined for the indicated key",
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "replace",
           "normalized": "Connection-\u003eKey-\u003eValue-\u003ea()",
@@ -2740,6 +2952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a value in the cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "set",
           "package": "starling",
@@ -2750,6 +2963,7 @@
         "index": {
           "description": "Set value in the cache",
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "set",
           "normalized": "Connection-\u003eKey-\u003eValue-\u003ea()",
@@ -2765,6 +2979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of stats about the server in key,value pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "stats",
           "package": "starling",
@@ -2775,6 +2990,7 @@
         "index": {
           "description": "Returns list of stats about the server in key value pairs",
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "stats",
           "normalized": "Connection-\u003ea[(ByteString,ByteString)]",
@@ -2790,6 +3006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate a value in the cache. This operation requires two round trips.\n This operation can fail if the key is not present in the cache, or if\n the value changes in the cache between the two calls.\n So watch out! Even if the value exists the operation might\n not go through in the face of concurrent access.\n\u003c/p\u003e\u003cp\u003eTesting indicates that if we fail because we could not gaurantee\n atomicity the failure code will be \u003ccode\u003e\u003ca\u003eKeyExists\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "update",
           "package": "starling",
@@ -2800,6 +3017,7 @@
         "index": {
           "description": "Update value in the cache This operation requires two round trips This operation can fail if the key is not present in the cache or if the value changes in the cache between the two calls So watch out Even if the value exists the operation might not go through in the face of concurrent access Testing indicates that if we fail because we could not gaurantee atomicity the failure code will be KeyExists",
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "update",
           "normalized": "Connection-\u003eKey-\u003e(Value-\u003ea(Maybe Value))-\u003ea()",
@@ -2815,6 +3033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the version of the server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:41 UTC 2014",
           "module": "Network.Starling",
           "name": "version",
           "package": "starling",
@@ -2825,6 +3044,7 @@
         "index": {
           "description": "Returns the version of the server",
           "hierarchy": "Network Starling",
+          "indexed": "2014-03-11T20:09:41",
           "module": "Network.Starling",
           "name": "version",
           "normalized": "Connection-\u003ea ByteString",

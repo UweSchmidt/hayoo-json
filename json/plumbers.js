@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "plumbers"
+        "phrase": "plumbers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the plumbing variants of monad operators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "Monad",
           "package": "plumbers",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains the plumbing variants of monad operators",
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "Monad",
           "package": "plumbers",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c)",
           "package": "plumbers",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c) \u003c\u003c",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&)",
           "package": "plumbers",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&) \u003c\u003c&",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb d)-\u003ea-\u003eb c",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&&)",
           "package": "plumbers",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&&) \u003c\u003c&&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003eb-\u003ec e)-\u003ea-\u003eb-\u003ec d",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&&&)",
           "package": "plumbers",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&&&) \u003c\u003c&&&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003eb-\u003ec-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed e",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&&*)",
           "package": "plumbers",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&&*) \u003c\u003c&&*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003eb-\u003ef-\u003ed g)-\u003ea-\u003eb-\u003e(c,f)-\u003ed e",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&&\u003c)",
           "package": "plumbers",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&&\u003c) \u003c\u003c&&\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003eb-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed e",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&&\u003e)",
           "package": "plumbers",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&&\u003e) \u003c\u003c&&\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003eb-\u003ee-\u003ec f)-\u003ea-\u003eb-\u003ee-\u003ec d",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&&^)",
           "package": "plumbers",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&&^) \u003c\u003c&&^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003eb-\u003ec e)-\u003ea-\u003eb-\u003ef-\u003ec d",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&*)",
           "package": "plumbers",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&*) \u003c\u003c&*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ec f)-\u003ea-\u003e(b,e)-\u003ec d",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&*&)",
           "package": "plumbers",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&*&) \u003c\u003c&*&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003ec-\u003ed g)-\u003ea-\u003e(b,f)-\u003ec-\u003ed e",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&**)",
           "package": "plumbers",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&**) \u003c\u003c&**",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003eg-\u003ed h)-\u003ea-\u003e(b,f)-\u003e(c,g)-\u003ed e",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&*\u003c)",
           "package": "plumbers",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&*\u003c) \u003c\u003c&*\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003ed g)-\u003ea-\u003e(b,f)-\u003ec-\u003ed e",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&*\u003e)",
           "package": "plumbers",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&*\u003e) \u003c\u003c&*\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ef-\u003ec g)-\u003ea-\u003e(b,e)-\u003ef-\u003ec d",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&*^)",
           "package": "plumbers",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&*^) \u003c\u003c&*^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ec f)-\u003ea-\u003e(b,e)-\u003eg-\u003ec d",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003c)",
           "package": "plumbers",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003c) \u003c\u003c&\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ec e)-\u003ea-\u003eb-\u003ec d",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003c&)",
           "package": "plumbers",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003c&) \u003c\u003c&\u003c&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ec-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed e",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003c*)",
           "package": "plumbers",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003c*) \u003c\u003c&\u003c*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003ed g)-\u003ea-\u003eb-\u003e(c,f)-\u003ed e",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003c\u003c)",
           "package": "plumbers",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003c\u003c) \u003c\u003c&\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed e",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003c\u003e)",
           "package": "plumbers",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003c\u003e) \u003c\u003c&\u003c\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ec f)-\u003ea-\u003eb-\u003ee-\u003ec d",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003c^)",
           "package": "plumbers",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003c^) \u003c\u003c&\u003c^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ec e)-\u003ea-\u003eb-\u003ef-\u003ec d",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003e)",
           "package": "plumbers",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003e) \u003c\u003c&\u003e",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ed-\u003eb e)-\u003ea-\u003ed-\u003eb c",
@@ -524,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003e&)",
           "package": "plumbers",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003e&) \u003c\u003c&\u003e&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003eb-\u003ec f)-\u003ea-\u003ee-\u003eb-\u003ec d",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003e*)",
           "package": "plumbers",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003e*) \u003c\u003c&\u003e*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ef-\u003ec g)-\u003ea-\u003ee-\u003e(b,f)-\u003ec d",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003e\u003c)",
           "package": "plumbers",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003e\u003c) \u003c\u003c&\u003e\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ec f)-\u003ea-\u003ee-\u003eb-\u003ec d",
@@ -593,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003e\u003e)",
           "package": "plumbers",
@@ -602,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003e\u003e) \u003c\u003c&\u003e\u003e",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ed-\u003ee-\u003eb f)-\u003ea-\u003ed-\u003ee-\u003eb c",
@@ -616,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003e^)",
           "package": "plumbers",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&\u003e^) \u003c\u003c&\u003e^",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ed-\u003eb e)-\u003ea-\u003ed-\u003ef-\u003eb c",
@@ -639,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&^)",
           "package": "plumbers",
@@ -648,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&^) \u003c\u003c&^",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb d)-\u003ea-\u003ee-\u003eb c",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&^&)",
           "package": "plumbers",
@@ -671,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&^&) \u003c\u003c&^&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003eb-\u003ec e)-\u003ea-\u003ef-\u003eb-\u003ec d",
@@ -685,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&^*)",
           "package": "plumbers",
@@ -694,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&^*) \u003c\u003c&^*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ec f)-\u003ea-\u003eg-\u003e(b,e)-\u003ec d",
@@ -708,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&^\u003c)",
           "package": "plumbers",
@@ -717,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&^\u003c) \u003c\u003c&^\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ec e)-\u003ea-\u003ef-\u003eb-\u003ec d",
@@ -731,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&^\u003e)",
           "package": "plumbers",
@@ -740,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&^\u003e) \u003c\u003c&^\u003e",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ed-\u003eb e)-\u003ea-\u003ef-\u003ed-\u003eb c",
@@ -754,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&^^)",
           "package": "plumbers",
@@ -763,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c&^^) \u003c\u003c&^^",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb d)-\u003ea-\u003ee-\u003ef-\u003eb c",
@@ -777,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*)",
           "package": "plumbers",
@@ -786,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*) \u003c\u003c*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003e(a,d)-\u003eb c",
@@ -800,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*&)",
           "package": "plumbers",
@@ -809,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*&) \u003c\u003c*&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ec f)-\u003e(a,e)-\u003eb-\u003ec d",
@@ -823,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*&&)",
           "package": "plumbers",
@@ -832,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*&&) \u003c\u003c*&&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eb-\u003ec-\u003ed g)-\u003e(a,f)-\u003eb-\u003ec-\u003ed e",
@@ -846,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*&*)",
           "package": "plumbers",
@@ -855,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*&*) \u003c\u003c*&*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eb-\u003eg-\u003ed h)-\u003e(a,f)-\u003eb-\u003e(c,g)-\u003ed e",
@@ -869,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*&\u003c)",
           "package": "plumbers",
@@ -878,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*&\u003c) \u003c\u003c*&\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eb-\u003ed g)-\u003e(a,f)-\u003eb-\u003ec-\u003ed e",
@@ -892,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*&\u003e)",
           "package": "plumbers",
@@ -901,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*&\u003e) \u003c\u003c*&\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ef-\u003ec g)-\u003e(a,e)-\u003eb-\u003ef-\u003ec d",
@@ -915,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*&^)",
           "package": "plumbers",
@@ -924,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*&^) \u003c\u003c*&^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ec f)-\u003e(a,e)-\u003eb-\u003eg-\u003ec d",
@@ -938,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c**)",
           "package": "plumbers",
@@ -947,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c**) \u003c\u003c**",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003e(a,e)-\u003e(b,f)-\u003ec d",
@@ -961,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c**&)",
           "package": "plumbers",
@@ -970,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c**&) \u003c\u003c**&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ec-\u003ed h)-\u003e(a,f)-\u003e(b,g)-\u003ec-\u003ed e",
@@ -984,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c***)",
           "package": "plumbers",
@@ -993,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c***) \u003c\u003c***",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003eh-\u003ed i)-\u003e(a,f)-\u003e(b,g)-\u003e(c,h)-\u003ed e",
@@ -1007,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c**\u003c)",
           "package": "plumbers",
@@ -1016,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c**\u003c) \u003c\u003c**\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ed h)-\u003e(a,f)-\u003e(b,g)-\u003ec-\u003ed e",
@@ -1030,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c**\u003e)",
           "package": "plumbers",
@@ -1039,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c**\u003e) \u003c\u003c**\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003eg-\u003ec h)-\u003e(a,e)-\u003e(b,f)-\u003eg-\u003ec d",
@@ -1053,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c**^)",
           "package": "plumbers",
@@ -1062,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c**^) \u003c\u003c**^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003e(a,e)-\u003e(b,f)-\u003eh-\u003ec d",
@@ -1076,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003c)",
           "package": "plumbers",
@@ -1085,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003c) \u003c\u003c*\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003e(a,e)-\u003eb-\u003ec d",
@@ -1099,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003c&)",
           "package": "plumbers",
@@ -1108,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003c&) \u003c\u003c*\u003c&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ec-\u003ed g)-\u003e(a,f)-\u003eb-\u003ec-\u003ed e",
@@ -1122,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003c*)",
           "package": "plumbers",
@@ -1131,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003c*) \u003c\u003c*\u003c*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ed h)-\u003e(a,f)-\u003eb-\u003e(c,g)-\u003ed e",
@@ -1145,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003c\u003c)",
           "package": "plumbers",
@@ -1154,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003c\u003c) \u003c\u003c*\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ed g)-\u003e(a,f)-\u003eb-\u003ec-\u003ed e",
@@ -1168,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003c\u003e)",
           "package": "plumbers",
@@ -1177,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003c\u003e) \u003c\u003c*\u003c\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003e(a,e)-\u003eb-\u003ef-\u003ec d",
@@ -1191,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003c^)",
           "package": "plumbers",
@@ -1200,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003c^) \u003c\u003c*\u003c^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003e(a,e)-\u003eb-\u003eg-\u003ec d",
@@ -1214,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003e)",
           "package": "plumbers",
@@ -1223,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003e) \u003c\u003c*\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003e(a,d)-\u003ee-\u003eb c",
@@ -1237,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003e&)",
           "package": "plumbers",
@@ -1246,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003e&) \u003c\u003c*\u003e&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003eb-\u003ec g)-\u003e(a,e)-\u003ef-\u003eb-\u003ec d",
@@ -1260,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003e*)",
           "package": "plumbers",
@@ -1269,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003e*) \u003c\u003c*\u003e*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003eg-\u003ec h)-\u003e(a,e)-\u003ef-\u003e(b,g)-\u003ec d",
@@ -1283,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003e\u003c)",
           "package": "plumbers",
@@ -1292,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003e\u003c) \u003c\u003c*\u003e\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003e(a,e)-\u003ef-\u003eb-\u003ec d",
@@ -1306,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003e\u003e)",
           "package": "plumbers",
@@ -1315,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003e\u003e) \u003c\u003c*\u003e\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ef-\u003eb g)-\u003e(a,d)-\u003ee-\u003ef-\u003eb c",
@@ -1329,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003e^)",
           "package": "plumbers",
@@ -1338,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*\u003e^) \u003c\u003c*\u003e^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003e(a,d)-\u003ee-\u003eg-\u003eb c",
@@ -1352,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*^)",
           "package": "plumbers",
@@ -1361,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*^) \u003c\u003c*^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003e(a,d)-\u003ef-\u003eb c",
@@ -1375,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*^&)",
           "package": "plumbers",
@@ -1384,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*^&) \u003c\u003c*^&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ec f)-\u003e(a,e)-\u003eg-\u003eb-\u003ec d",
@@ -1398,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*^*)",
           "package": "plumbers",
@@ -1407,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*^*) \u003c\u003c*^*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003e(a,e)-\u003eh-\u003e(b,f)-\u003ec d",
@@ -1421,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*^\u003c)",
           "package": "plumbers",
@@ -1430,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*^\u003c) \u003c\u003c*^\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003e(a,e)-\u003eg-\u003eb-\u003ec d",
@@ -1444,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*^\u003e)",
           "package": "plumbers",
@@ -1453,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*^\u003e) \u003c\u003c*^\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003e(a,d)-\u003eg-\u003ee-\u003eb c",
@@ -1467,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*^^)",
           "package": "plumbers",
@@ -1476,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c*^^) \u003c\u003c*^^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003e(a,d)-\u003ef-\u003eg-\u003eb c",
@@ -1490,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c)",
           "package": "plumbers",
@@ -1499,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c) \u003c\u003c\u003c",
           "normalized": "(a-\u003eb c)-\u003eb d-\u003ea-\u003eb c",
@@ -1513,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c&)",
           "package": "plumbers",
@@ -1522,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c&) \u003c\u003c\u003c&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(b-\u003ec e)-\u003ea-\u003eb-\u003ec d",
@@ -1536,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c&&)",
           "package": "plumbers",
@@ -1545,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c&&) \u003c\u003c\u003c&&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(b-\u003ec-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed e",
@@ -1559,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c&*)",
           "package": "plumbers",
@@ -1568,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c&*) \u003c\u003c\u003c&*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(b-\u003ef-\u003ed g)-\u003ea-\u003eb-\u003e(c,f)-\u003ed e",
@@ -1582,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c&\u003c)",
           "package": "plumbers",
@@ -1591,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c&\u003c) \u003c\u003c\u003c&\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(b-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed e",
@@ -1605,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c&\u003e)",
           "package": "plumbers",
@@ -1614,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c&\u003e) \u003c\u003c\u003c&\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(b-\u003ee-\u003ec f)-\u003ea-\u003eb-\u003ee-\u003ec d",
@@ -1628,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c&^)",
           "package": "plumbers",
@@ -1637,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c&^) \u003c\u003c\u003c&^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(b-\u003ec e)-\u003ea-\u003eb-\u003ef-\u003ec d",
@@ -1651,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c*)",
           "package": "plumbers",
@@ -1660,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c*) \u003c\u003c\u003c*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003ea-\u003e(b,e)-\u003ec d",
@@ -1674,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c*&)",
           "package": "plumbers",
@@ -1683,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c*&) \u003c\u003c\u003c*&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ec-\u003ed g)-\u003ea-\u003e(b,f)-\u003ec-\u003ed e",
@@ -1697,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c**)",
           "package": "plumbers",
@@ -1706,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c**) \u003c\u003c\u003c**",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ed h)-\u003ea-\u003e(b,f)-\u003e(c,g)-\u003ed e",
@@ -1720,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c*\u003c)",
           "package": "plumbers",
@@ -1729,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c*\u003c) \u003c\u003c\u003c*\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ed g)-\u003ea-\u003e(b,f)-\u003ec-\u003ed e",
@@ -1743,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c*\u003e)",
           "package": "plumbers",
@@ -1752,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c*\u003e) \u003c\u003c\u003c*\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003ea-\u003e(b,e)-\u003ef-\u003ec d",
@@ -1766,6 +1918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c*^)",
           "package": "plumbers",
@@ -1775,6 +1928,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c*^) \u003c\u003c\u003c*^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003ea-\u003e(b,e)-\u003eg-\u003ec d",
@@ -1789,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003c)",
           "package": "plumbers",
@@ -1798,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003c) \u003c\u003c\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ec e-\u003ea-\u003eb-\u003ec d",
@@ -1812,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003c&)",
           "package": "plumbers",
@@ -1821,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003c&) \u003c\u003c\u003c\u003c&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(c-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed e",
@@ -1835,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003c*)",
           "package": "plumbers",
@@ -1844,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003c*) \u003c\u003c\u003c\u003c*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ed g)-\u003ea-\u003eb-\u003e(c,f)-\u003ed e",
@@ -1858,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003c\u003c)",
           "package": "plumbers",
@@ -1867,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003c\u003c) \u003c\u003c\u003c\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003ed f-\u003ea-\u003eb-\u003ec-\u003ed e",
@@ -1881,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003c\u003e)",
           "package": "plumbers",
@@ -1890,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003c\u003e) \u003c\u003c\u003c\u003c\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003ea-\u003eb-\u003ee-\u003ec d",
@@ -1904,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003c^)",
           "package": "plumbers",
@@ -1913,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003c^) \u003c\u003c\u003c\u003c^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ec e-\u003ea-\u003eb-\u003ef-\u003ec d",
@@ -1927,6 +2093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003e)",
           "package": "plumbers",
@@ -1936,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003e) \u003c\u003c\u003c\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ea-\u003ed-\u003eb c",
@@ -1950,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003e&)",
           "package": "plumbers",
@@ -1959,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003e&) \u003c\u003c\u003c\u003e&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ec f)-\u003ea-\u003ee-\u003eb-\u003ec d",
@@ -1973,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003e*)",
           "package": "plumbers",
@@ -1982,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003e*) \u003c\u003c\u003c\u003e*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003ea-\u003ee-\u003e(b,f)-\u003ec d",
@@ -1996,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003e\u003c)",
           "package": "plumbers",
@@ -2005,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003e\u003c) \u003c\u003c\u003c\u003e\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003ea-\u003ee-\u003eb-\u003ec d",
@@ -2019,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003e\u003e)",
           "package": "plumbers",
@@ -2028,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003e\u003e) \u003c\u003c\u003c\u003e\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003ea-\u003ed-\u003ee-\u003eb c",
@@ -2042,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003e^)",
           "package": "plumbers",
@@ -2051,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c\u003e^) \u003c\u003c\u003c\u003e^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ea-\u003ed-\u003ef-\u003eb c",
@@ -2065,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c^)",
           "package": "plumbers",
@@ -2074,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c^) \u003c\u003c\u003c^",
           "normalized": "(a-\u003eb c)-\u003eb d-\u003ea-\u003ee-\u003eb c",
@@ -2088,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c^&)",
           "package": "plumbers",
@@ -2097,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c^&) \u003c\u003c\u003c^&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(b-\u003ec e)-\u003ea-\u003ef-\u003eb-\u003ec d",
@@ -2111,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c^*)",
           "package": "plumbers",
@@ -2120,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c^*) \u003c\u003c\u003c^*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003ea-\u003eg-\u003e(b,e)-\u003ec d",
@@ -2134,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c^\u003c)",
           "package": "plumbers",
@@ -2143,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c^\u003c) \u003c\u003c\u003c^\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ec e-\u003ea-\u003ef-\u003eb-\u003ec d",
@@ -2157,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c^\u003e)",
           "package": "plumbers",
@@ -2166,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c^\u003e) \u003c\u003c\u003c^\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ea-\u003ef-\u003ed-\u003eb c",
@@ -2180,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c^^)",
           "package": "plumbers",
@@ -2189,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003c^^) \u003c\u003c\u003c^^",
           "normalized": "(a-\u003eb c)-\u003eb d-\u003ea-\u003ee-\u003ef-\u003eb c",
@@ -2203,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e)",
           "package": "plumbers",
@@ -2212,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e) \u003c\u003c\u003e",
           "normalized": "a b-\u003e(c-\u003ea d)-\u003ec-\u003ea b",
@@ -2226,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e&)",
           "package": "plumbers",
@@ -2235,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e&) \u003c\u003c\u003e&",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ea-\u003eb e)-\u003ed-\u003ea-\u003eb c",
@@ -2249,6 +2443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e&&)",
           "package": "plumbers",
@@ -2258,6 +2453,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e&&) \u003c\u003c\u003e&&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ea-\u003eb-\u003ec f)-\u003ee-\u003ea-\u003eb-\u003ec d",
@@ -2272,6 +2468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e&*)",
           "package": "plumbers",
@@ -2281,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e&*) \u003c\u003c\u003e&*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ea-\u003ef-\u003ec g)-\u003ee-\u003ea-\u003e(b,f)-\u003ec d",
@@ -2295,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e&\u003c)",
           "package": "plumbers",
@@ -2304,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e&\u003c) \u003c\u003c\u003e&\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ea-\u003ec f)-\u003ee-\u003ea-\u003eb-\u003ec d",
@@ -2318,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e&\u003e)",
           "package": "plumbers",
@@ -2327,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e&\u003e) \u003c\u003c\u003e&\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ea-\u003ee-\u003eb f)-\u003ed-\u003ea-\u003ee-\u003eb c",
@@ -2341,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e&^)",
           "package": "plumbers",
@@ -2350,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e&^) \u003c\u003c\u003e&^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ea-\u003eb e)-\u003ed-\u003ea-\u003ef-\u003eb c",
@@ -2364,6 +2568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e*)",
           "package": "plumbers",
@@ -2373,6 +2578,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e*) \u003c\u003c\u003e*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003ed-\u003e(a,e)-\u003eb c",
@@ -2387,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e*&)",
           "package": "plumbers",
@@ -2396,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e*&) \u003c\u003c\u003e*&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003eb-\u003ec g)-\u003ee-\u003e(a,f)-\u003eb-\u003ec d",
@@ -2410,6 +2618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e**)",
           "package": "plumbers",
@@ -2419,6 +2628,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e**) \u003c\u003c\u003e**",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003eg-\u003ec h)-\u003ee-\u003e(a,f)-\u003e(b,g)-\u003ec d",
@@ -2433,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e*\u003c)",
           "package": "plumbers",
@@ -2442,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e*\u003c) \u003c\u003c\u003e*\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003ee-\u003e(a,f)-\u003eb-\u003ec d",
@@ -2456,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e*\u003e)",
           "package": "plumbers",
@@ -2465,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e*\u003e) \u003c\u003c\u003e*\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ef-\u003eb g)-\u003ed-\u003e(a,e)-\u003ef-\u003eb c",
@@ -2479,6 +2693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e*^)",
           "package": "plumbers",
@@ -2488,6 +2703,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e*^) \u003c\u003c\u003e*^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003ed-\u003e(a,e)-\u003eg-\u003eb c",
@@ -2502,6 +2718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003c)",
           "package": "plumbers",
@@ -2511,6 +2728,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003c) \u003c\u003c\u003e\u003c",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ed-\u003ea-\u003eb c",
@@ -2525,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003c&)",
           "package": "plumbers",
@@ -2534,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003c&) \u003c\u003c\u003e\u003c&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ec f)-\u003ee-\u003ea-\u003eb-\u003ec d",
@@ -2548,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003c*)",
           "package": "plumbers",
@@ -2557,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003c*) \u003c\u003c\u003e\u003c*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003ee-\u003ea-\u003e(b,f)-\u003ec d",
@@ -2571,6 +2793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003c\u003c)",
           "package": "plumbers",
@@ -2580,6 +2803,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003c\u003c) \u003c\u003c\u003e\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003ee-\u003ea-\u003eb-\u003ec d",
@@ -2594,6 +2818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003c\u003e)",
           "package": "plumbers",
@@ -2603,6 +2828,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003c\u003e) \u003c\u003c\u003e\u003c\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003ed-\u003ea-\u003ee-\u003eb c",
@@ -2617,6 +2843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003c^)",
           "package": "plumbers",
@@ -2626,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003c^) \u003c\u003c\u003e\u003c^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ed-\u003ea-\u003ef-\u003eb c",
@@ -2640,6 +2868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003e)",
           "package": "plumbers",
@@ -2649,6 +2878,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003e) \u003c\u003c\u003e\u003e",
           "normalized": "a b-\u003e(c-\u003ed-\u003ea e)-\u003ec-\u003ed-\u003ea b",
@@ -2663,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003e&)",
           "package": "plumbers",
@@ -2672,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003e&) \u003c\u003c\u003e\u003e&",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ea-\u003eb f)-\u003ed-\u003ee-\u003ea-\u003eb c",
@@ -2686,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003e*)",
           "package": "plumbers",
@@ -2695,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003e*) \u003c\u003c\u003e\u003e*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ef-\u003eb g)-\u003ed-\u003ee-\u003e(a,f)-\u003eb c",
@@ -2709,6 +2943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003e\u003c)",
           "package": "plumbers",
@@ -2718,6 +2953,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003e\u003c) \u003c\u003c\u003e\u003e\u003c",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003ed-\u003ee-\u003ea-\u003eb c",
@@ -2732,6 +2968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003e\u003e)",
           "package": "plumbers",
@@ -2741,6 +2978,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003e\u003e) \u003c\u003c\u003e\u003e\u003e",
           "normalized": "a b-\u003e(c-\u003ed-\u003ee-\u003ea f)-\u003ec-\u003ed-\u003ee-\u003ea b",
@@ -2755,6 +2993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003e^)",
           "package": "plumbers",
@@ -2764,6 +3003,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e\u003e^) \u003c\u003c\u003e\u003e^",
           "normalized": "a b-\u003e(c-\u003ed-\u003ea e)-\u003ec-\u003ed-\u003ef-\u003ea b",
@@ -2778,6 +3018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e^)",
           "package": "plumbers",
@@ -2787,6 +3028,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e^) \u003c\u003c\u003e^",
           "normalized": "a b-\u003e(c-\u003ea d)-\u003ec-\u003ee-\u003ea b",
@@ -2801,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e^&)",
           "package": "plumbers",
@@ -2810,6 +3053,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e^&) \u003c\u003c\u003e^&",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ea-\u003eb e)-\u003ed-\u003ef-\u003ea-\u003eb c",
@@ -2824,6 +3068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e^*)",
           "package": "plumbers",
@@ -2833,6 +3078,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e^*) \u003c\u003c\u003e^*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003ed-\u003eg-\u003e(a,e)-\u003eb c",
@@ -2847,6 +3093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e^\u003c)",
           "package": "plumbers",
@@ -2856,6 +3103,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e^\u003c) \u003c\u003c\u003e^\u003c",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ed-\u003ef-\u003ea-\u003eb c",
@@ -2870,6 +3118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e^\u003e)",
           "package": "plumbers",
@@ -2879,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e^\u003e) \u003c\u003c\u003e^\u003e",
           "normalized": "a b-\u003e(c-\u003ed-\u003ea e)-\u003ec-\u003ef-\u003ed-\u003ea b",
@@ -2893,6 +3143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e^^)",
           "package": "plumbers",
@@ -2902,6 +3153,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c\u003e^^) \u003c\u003c\u003e^^",
           "normalized": "a b-\u003e(c-\u003ea d)-\u003ec-\u003ee-\u003ef-\u003ea b",
@@ -2916,6 +3168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^)",
           "package": "plumbers",
@@ -2925,6 +3178,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^) \u003c\u003c^",
           "normalized": "a b-\u003ea c-\u003ed-\u003ea b",
@@ -2939,6 +3193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^&)",
           "package": "plumbers",
@@ -2948,6 +3203,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^&) \u003c\u003c^&",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb d)-\u003ee-\u003ea-\u003eb c",
@@ -2962,6 +3218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^&&)",
           "package": "plumbers",
@@ -2971,6 +3228,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^&&) \u003c\u003c^&&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003eb-\u003ec e)-\u003ef-\u003ea-\u003eb-\u003ec d",
@@ -2985,6 +3243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^&*)",
           "package": "plumbers",
@@ -2994,6 +3253,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^&*) \u003c\u003c^&*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ec f)-\u003eg-\u003ea-\u003e(b,e)-\u003ec d",
@@ -3008,6 +3268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^&\u003c)",
           "package": "plumbers",
@@ -3017,6 +3278,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^&\u003c) \u003c\u003c^&\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ec e)-\u003ef-\u003ea-\u003eb-\u003ec d",
@@ -3031,6 +3293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^&\u003e)",
           "package": "plumbers",
@@ -3040,6 +3303,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^&\u003e) \u003c\u003c^&\u003e",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ed-\u003eb e)-\u003ef-\u003ea-\u003ed-\u003eb c",
@@ -3054,6 +3318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^&^)",
           "package": "plumbers",
@@ -3063,6 +3328,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^&^) \u003c\u003c^&^",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb d)-\u003ee-\u003ea-\u003ef-\u003eb c",
@@ -3077,6 +3343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^*)",
           "package": "plumbers",
@@ -3086,6 +3353,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^*) \u003c\u003c^*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ef-\u003e(a,d)-\u003eb c",
@@ -3100,6 +3368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^*&)",
           "package": "plumbers",
@@ -3109,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^*&) \u003c\u003c^*&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ec f)-\u003eg-\u003e(a,e)-\u003eb-\u003ec d",
@@ -3123,6 +3393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^**)",
           "package": "plumbers",
@@ -3132,6 +3403,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^**) \u003c\u003c^**",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003eh-\u003e(a,e)-\u003e(b,f)-\u003ec d",
@@ -3146,6 +3418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^*\u003c)",
           "package": "plumbers",
@@ -3155,6 +3428,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^*\u003c) \u003c\u003c^*\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003eg-\u003e(a,e)-\u003eb-\u003ec d",
@@ -3169,6 +3443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^*\u003e)",
           "package": "plumbers",
@@ -3178,6 +3453,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^*\u003e) \u003c\u003c^*\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003eg-\u003e(a,d)-\u003ee-\u003eb c",
@@ -3192,6 +3468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^*^)",
           "package": "plumbers",
@@ -3201,6 +3478,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^*^) \u003c\u003c^*^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ef-\u003e(a,d)-\u003eg-\u003eb c",
@@ -3215,6 +3493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003c)",
           "package": "plumbers",
@@ -3224,6 +3503,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003c) \u003c\u003c^\u003c",
           "normalized": "(a-\u003eb c)-\u003eb d-\u003ee-\u003ea-\u003eb c",
@@ -3238,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003c&)",
           "package": "plumbers",
@@ -3247,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003c&) \u003c\u003c^\u003c&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(b-\u003ec e)-\u003ef-\u003ea-\u003eb-\u003ec d",
@@ -3261,6 +3543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003c*)",
           "package": "plumbers",
@@ -3270,6 +3553,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003c*) \u003c\u003c^\u003c*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003eg-\u003ea-\u003e(b,e)-\u003ec d",
@@ -3284,6 +3568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003c\u003c)",
           "package": "plumbers",
@@ -3293,6 +3578,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003c\u003c) \u003c\u003c^\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ec e-\u003ef-\u003ea-\u003eb-\u003ec d",
@@ -3307,6 +3593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003c\u003e)",
           "package": "plumbers",
@@ -3316,6 +3603,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003c\u003e) \u003c\u003c^\u003c\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ef-\u003ea-\u003ed-\u003eb c",
@@ -3330,6 +3618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003c^)",
           "package": "plumbers",
@@ -3339,6 +3628,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003c^) \u003c\u003c^\u003c^",
           "normalized": "(a-\u003eb c)-\u003eb d-\u003ee-\u003ea-\u003ef-\u003eb c",
@@ -3353,6 +3643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003e)",
           "package": "plumbers",
@@ -3362,6 +3653,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003e) \u003c\u003c^\u003e",
           "normalized": "a b-\u003e(c-\u003ea d)-\u003ee-\u003ec-\u003ea b",
@@ -3376,6 +3668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003e&)",
           "package": "plumbers",
@@ -3385,6 +3678,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003e&) \u003c\u003c^\u003e&",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ea-\u003eb e)-\u003ef-\u003ed-\u003ea-\u003eb c",
@@ -3399,6 +3693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003e*)",
           "package": "plumbers",
@@ -3408,6 +3703,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003e*) \u003c\u003c^\u003e*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003eg-\u003ed-\u003e(a,e)-\u003eb c",
@@ -3422,6 +3718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003e\u003c)",
           "package": "plumbers",
@@ -3431,6 +3728,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003e\u003c) \u003c\u003c^\u003e\u003c",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ef-\u003ed-\u003ea-\u003eb c",
@@ -3445,6 +3743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003e\u003e)",
           "package": "plumbers",
@@ -3454,6 +3753,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003e\u003e) \u003c\u003c^\u003e\u003e",
           "normalized": "a b-\u003e(c-\u003ed-\u003ea e)-\u003ef-\u003ec-\u003ed-\u003ea b",
@@ -3468,6 +3768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003e^)",
           "package": "plumbers",
@@ -3477,6 +3778,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^\u003e^) \u003c\u003c^\u003e^",
           "normalized": "a b-\u003e(c-\u003ea d)-\u003ee-\u003ec-\u003ef-\u003ea b",
@@ -3491,6 +3793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^^)",
           "package": "plumbers",
@@ -3500,6 +3803,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^^) \u003c\u003c^^",
           "normalized": "a b-\u003ea c-\u003ed-\u003ee-\u003ea b",
@@ -3514,6 +3818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^^&)",
           "package": "plumbers",
@@ -3523,6 +3828,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^^&) \u003c\u003c^^&",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb d)-\u003ee-\u003ef-\u003ea-\u003eb c",
@@ -3537,6 +3843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^^*)",
           "package": "plumbers",
@@ -3546,6 +3853,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^^*) \u003c\u003c^^*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ef-\u003eg-\u003e(a,d)-\u003eb c",
@@ -3560,6 +3868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^^\u003c)",
           "package": "plumbers",
@@ -3569,6 +3878,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^^\u003c) \u003c\u003c^^\u003c",
           "normalized": "(a-\u003eb c)-\u003eb d-\u003ee-\u003ef-\u003ea-\u003eb c",
@@ -3583,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^^\u003e)",
           "package": "plumbers",
@@ -3592,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^^\u003e) \u003c\u003c^^\u003e",
           "normalized": "a b-\u003e(c-\u003ea d)-\u003ee-\u003ef-\u003ec-\u003ea b",
@@ -3606,6 +3918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^^^)",
           "package": "plumbers",
@@ -3615,6 +3928,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c\u003c^^^) \u003c\u003c^^^",
           "normalized": "a b-\u003ea c-\u003ed-\u003ee-\u003ef-\u003ea b",
@@ -3629,6 +3943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&)",
           "package": "plumbers",
@@ -3638,6 +3953,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&) \u003c=&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ec b)-\u003ea-\u003ec d",
@@ -3652,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&&)",
           "package": "plumbers",
@@ -3661,6 +3978,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&&) \u003c=&&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003eb-\u003ed c)-\u003ea-\u003eb-\u003ed e",
@@ -3675,6 +3993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&&&)",
           "package": "plumbers",
@@ -3684,6 +4003,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&&&) \u003c=&&&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(a-\u003eb-\u003ec-\u003ee d)-\u003ea-\u003eb-\u003ec-\u003ee f",
@@ -3698,6 +4018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&&*)",
           "package": "plumbers",
@@ -3707,6 +4028,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&&*) \u003c=&&*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(a-\u003eb-\u003eg-\u003ee d)-\u003ea-\u003eb-\u003e(c,g)-\u003ee f",
@@ -3721,6 +4043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&&\u003c)",
           "package": "plumbers",
@@ -3730,6 +4053,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&&\u003c) \u003c=&&\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(a-\u003eb-\u003ee d)-\u003ea-\u003eb-\u003ec-\u003ee f",
@@ -3744,6 +4068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&&\u003e)",
           "package": "plumbers",
@@ -3753,6 +4078,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&&\u003e) \u003c=&&\u003e",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003eb-\u003ef-\u003ed c)-\u003ea-\u003eb-\u003ef-\u003ed e",
@@ -3767,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&&^)",
           "package": "plumbers",
@@ -3776,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&&^) \u003c=&&^",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003eb-\u003ed c)-\u003ea-\u003eb-\u003ef-\u003ed e",
@@ -3790,6 +4118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&*)",
           "package": "plumbers",
@@ -3799,6 +4128,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&*) \u003c=&*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003ed c)-\u003ea-\u003e(b,f)-\u003ed e",
@@ -3813,6 +4143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&*&)",
           "package": "plumbers",
@@ -3822,6 +4153,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&*&) \u003c=&*&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(a-\u003eg-\u003ec-\u003ee d)-\u003ea-\u003e(b,g)-\u003ec-\u003ee f",
@@ -3836,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&**)",
           "package": "plumbers",
@@ -3845,6 +4178,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&**) \u003c=&**",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(a-\u003eg-\u003eh-\u003ee d)-\u003ea-\u003e(b,g)-\u003e(c,h)-\u003ee f",
@@ -3859,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&*\u003c)",
           "package": "plumbers",
@@ -3868,6 +4203,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&*\u003c) \u003c=&*\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(a-\u003eg-\u003ee d)-\u003ea-\u003e(b,g)-\u003ec-\u003ee f",
@@ -3882,6 +4218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&*\u003e)",
           "package": "plumbers",
@@ -3891,6 +4228,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&*\u003e) \u003c=&*\u003e",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003eg-\u003ed c)-\u003ea-\u003e(b,f)-\u003eg-\u003ed e",
@@ -3905,6 +4243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&*^)",
           "package": "plumbers",
@@ -3914,6 +4253,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&*^) \u003c=&*^",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003ed c)-\u003ea-\u003e(b,f)-\u003eg-\u003ed e",
@@ -3928,6 +4268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003c)",
           "package": "plumbers",
@@ -3937,6 +4278,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003c) \u003c=&\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ed c)-\u003ea-\u003eb-\u003ed e",
@@ -3951,6 +4293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003c&)",
           "package": "plumbers",
@@ -3960,6 +4303,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003c&) \u003c=&\u003c&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(a-\u003ec-\u003ee d)-\u003ea-\u003eb-\u003ec-\u003ee f",
@@ -3974,6 +4318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003c*)",
           "package": "plumbers",
@@ -3983,6 +4328,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003c*) \u003c=&\u003c*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(a-\u003eg-\u003ee d)-\u003ea-\u003eb-\u003e(c,g)-\u003ee f",
@@ -3997,6 +4343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003c\u003c)",
           "package": "plumbers",
@@ -4006,6 +4353,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003c\u003c) \u003c=&\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(a-\u003ee d)-\u003ea-\u003eb-\u003ec-\u003ee f",
@@ -4020,6 +4368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003c\u003e)",
           "package": "plumbers",
@@ -4029,6 +4378,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003c\u003e) \u003c=&\u003c\u003e",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003ed c)-\u003ea-\u003eb-\u003ef-\u003ed e",
@@ -4043,6 +4393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003c^)",
           "package": "plumbers",
@@ -4052,6 +4403,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003c^) \u003c=&\u003c^",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ed c)-\u003ea-\u003eb-\u003ef-\u003ed e",
@@ -4066,6 +4418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003e)",
           "package": "plumbers",
@@ -4075,6 +4428,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003e) \u003c=&\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ec b)-\u003ea-\u003ee-\u003ec d",
@@ -4089,6 +4443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003e&)",
           "package": "plumbers",
@@ -4098,6 +4453,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003e&) \u003c=&\u003e&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003eb-\u003ed c)-\u003ea-\u003ef-\u003eb-\u003ed e",
@@ -4112,6 +4468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003e*)",
           "package": "plumbers",
@@ -4121,6 +4478,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003e*) \u003c=&\u003e*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003eg-\u003ed c)-\u003ea-\u003ef-\u003e(b,g)-\u003ed e",
@@ -4135,6 +4493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003e\u003c)",
           "package": "plumbers",
@@ -4144,6 +4503,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003e\u003c) \u003c=&\u003e\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003ed c)-\u003ea-\u003ef-\u003eb-\u003ed e",
@@ -4158,6 +4518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003e\u003e)",
           "package": "plumbers",
@@ -4167,6 +4528,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003e\u003e) \u003c=&\u003e\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ef-\u003ec b)-\u003ea-\u003ee-\u003ef-\u003ec d",
@@ -4181,6 +4543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003e^)",
           "package": "plumbers",
@@ -4190,6 +4553,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&\u003e^) \u003c=&\u003e^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ec b)-\u003ea-\u003ee-\u003ef-\u003ec d",
@@ -4204,6 +4568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&^)",
           "package": "plumbers",
@@ -4213,6 +4578,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&^) \u003c=&^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ec b)-\u003ea-\u003ee-\u003ec d",
@@ -4227,6 +4593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&^&)",
           "package": "plumbers",
@@ -4236,6 +4603,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&^&) \u003c=&^&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003eb-\u003ed c)-\u003ea-\u003ef-\u003eb-\u003ed e",
@@ -4250,6 +4618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&^*)",
           "package": "plumbers",
@@ -4259,6 +4628,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&^*) \u003c=&^*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003ed c)-\u003ea-\u003eg-\u003e(b,f)-\u003ed e",
@@ -4273,6 +4643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&^\u003c)",
           "package": "plumbers",
@@ -4282,6 +4653,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&^\u003c) \u003c=&^\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ed c)-\u003ea-\u003ef-\u003eb-\u003ed e",
@@ -4296,6 +4668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&^\u003e)",
           "package": "plumbers",
@@ -4305,6 +4678,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&^\u003e) \u003c=&^\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ec b)-\u003ea-\u003ef-\u003ee-\u003ec d",
@@ -4319,6 +4693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&^^)",
           "package": "plumbers",
@@ -4328,6 +4703,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=&^^) \u003c=&^^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ec b)-\u003ea-\u003ee-\u003ef-\u003ec d",
@@ -4342,6 +4718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*)",
           "package": "plumbers",
@@ -4351,6 +4728,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*) \u003c=*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec b)-\u003e(a,e)-\u003ec d",
@@ -4365,6 +4743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*&)",
           "package": "plumbers",
@@ -4374,6 +4753,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*&) \u003c=*&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eb-\u003ed c)-\u003e(a,f)-\u003eb-\u003ed e",
@@ -4388,6 +4768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*&&)",
           "package": "plumbers",
@@ -4397,6 +4778,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*&&) \u003c=*&&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(g-\u003eb-\u003ec-\u003ee d)-\u003e(a,g)-\u003eb-\u003ec-\u003ee f",
@@ -4411,6 +4793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*&*)",
           "package": "plumbers",
@@ -4420,6 +4803,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*&*) \u003c=*&*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(g-\u003eb-\u003eh-\u003ee d)-\u003e(a,g)-\u003eb-\u003e(c,h)-\u003ee f",
@@ -4434,6 +4818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*&\u003c)",
           "package": "plumbers",
@@ -4443,6 +4828,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*&\u003c) \u003c=*&\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(g-\u003eb-\u003ee d)-\u003e(a,g)-\u003eb-\u003ec-\u003ee f",
@@ -4457,6 +4843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*&\u003e)",
           "package": "plumbers",
@@ -4466,6 +4853,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*&\u003e) \u003c=*&\u003e",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eb-\u003eg-\u003ed c)-\u003e(a,f)-\u003eb-\u003eg-\u003ed e",
@@ -4480,6 +4868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*&^)",
           "package": "plumbers",
@@ -4489,6 +4878,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*&^) \u003c=*&^",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eb-\u003ed c)-\u003e(a,f)-\u003eb-\u003eg-\u003ed e",
@@ -4503,6 +4893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=**)",
           "package": "plumbers",
@@ -4512,6 +4903,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=**) \u003c=**",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ed c)-\u003e(a,f)-\u003e(b,g)-\u003ed e",
@@ -4526,6 +4918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=**&)",
           "package": "plumbers",
@@ -4535,6 +4928,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=**&) \u003c=**&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(g-\u003eh-\u003ec-\u003ee d)-\u003e(a,g)-\u003e(b,h)-\u003ec-\u003ee f",
@@ -4549,6 +4943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=***)",
           "package": "plumbers",
@@ -4558,6 +4953,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=***) \u003c=***",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(g-\u003eh-\u003ei-\u003ee d)-\u003e(a,g)-\u003e(b,h)-\u003e(c,i)-\u003ee f",
@@ -4572,6 +4968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=**\u003c)",
           "package": "plumbers",
@@ -4581,6 +4978,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=**\u003c) \u003c=**\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(g-\u003eh-\u003ee d)-\u003e(a,g)-\u003e(b,h)-\u003ec-\u003ee f",
@@ -4595,6 +4993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=**\u003e)",
           "package": "plumbers",
@@ -4604,6 +5003,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=**\u003e) \u003c=**\u003e",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003eh-\u003ed c)-\u003e(a,f)-\u003e(b,g)-\u003eh-\u003ed e",
@@ -4618,6 +5018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=**^)",
           "package": "plumbers",
@@ -4627,6 +5028,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=**^) \u003c=**^",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ed c)-\u003e(a,f)-\u003e(b,g)-\u003eh-\u003ed e",
@@ -4641,6 +5043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003c)",
           "package": "plumbers",
@@ -4650,6 +5053,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003c) \u003c=*\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ed c)-\u003e(a,f)-\u003eb-\u003ed e",
@@ -4664,6 +5068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003c&)",
           "package": "plumbers",
@@ -4673,6 +5078,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003c&) \u003c=*\u003c&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(g-\u003ec-\u003ee d)-\u003e(a,g)-\u003eb-\u003ec-\u003ee f",
@@ -4687,6 +5093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003c*)",
           "package": "plumbers",
@@ -4696,6 +5103,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003c*) \u003c=*\u003c*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(g-\u003eh-\u003ee d)-\u003e(a,g)-\u003eb-\u003e(c,h)-\u003ee f",
@@ -4710,6 +5118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003c\u003c)",
           "package": "plumbers",
@@ -4719,6 +5128,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003c\u003c) \u003c=*\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(g-\u003ee d)-\u003e(a,g)-\u003eb-\u003ec-\u003ee f",
@@ -4733,6 +5143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003c\u003e)",
           "package": "plumbers",
@@ -4742,6 +5153,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003c\u003e) \u003c=*\u003c\u003e",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ed c)-\u003e(a,f)-\u003eb-\u003eg-\u003ed e",
@@ -4756,6 +5168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003c^)",
           "package": "plumbers",
@@ -4765,6 +5178,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003c^) \u003c=*\u003c^",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ed c)-\u003e(a,f)-\u003eb-\u003eg-\u003ed e",
@@ -4779,6 +5193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003e)",
           "package": "plumbers",
@@ -4788,6 +5203,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003e) \u003c=*\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec b)-\u003e(a,e)-\u003ef-\u003ec d",
@@ -4802,6 +5218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003e&)",
           "package": "plumbers",
@@ -4811,6 +5228,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003e&) \u003c=*\u003e&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003eb-\u003ed c)-\u003e(a,f)-\u003eg-\u003eb-\u003ed e",
@@ -4825,6 +5243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003e*)",
           "package": "plumbers",
@@ -4834,6 +5253,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003e*) \u003c=*\u003e*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003eh-\u003ed c)-\u003e(a,f)-\u003eg-\u003e(b,h)-\u003ed e",
@@ -4848,6 +5268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003e\u003c)",
           "package": "plumbers",
@@ -4857,6 +5278,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003e\u003c) \u003c=*\u003e\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ed c)-\u003e(a,f)-\u003eg-\u003eb-\u003ed e",
@@ -4871,6 +5293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003e\u003e)",
           "package": "plumbers",
@@ -4880,6 +5303,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003e\u003e) \u003c=*\u003e\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003eg-\u003ec b)-\u003e(a,e)-\u003ef-\u003eg-\u003ec d",
@@ -4894,6 +5318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003e^)",
           "package": "plumbers",
@@ -4903,6 +5328,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*\u003e^) \u003c=*\u003e^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec b)-\u003e(a,e)-\u003ef-\u003eg-\u003ec d",
@@ -4917,6 +5343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*^)",
           "package": "plumbers",
@@ -4926,6 +5353,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*^) \u003c=*^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec b)-\u003e(a,e)-\u003ef-\u003ec d",
@@ -4940,6 +5368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*^&)",
           "package": "plumbers",
@@ -4949,6 +5378,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*^&) \u003c=*^&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eb-\u003ed c)-\u003e(a,f)-\u003eg-\u003eb-\u003ed e",
@@ -4963,6 +5393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*^*)",
           "package": "plumbers",
@@ -4972,6 +5403,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*^*) \u003c=*^*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ed c)-\u003e(a,f)-\u003eh-\u003e(b,g)-\u003ed e",
@@ -4986,6 +5418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*^\u003c)",
           "package": "plumbers",
@@ -4995,6 +5428,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*^\u003c) \u003c=*^\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ed c)-\u003e(a,f)-\u003eg-\u003eb-\u003ed e",
@@ -5009,6 +5443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*^\u003e)",
           "package": "plumbers",
@@ -5018,6 +5453,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*^\u003e) \u003c=*^\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec b)-\u003e(a,e)-\u003eg-\u003ef-\u003ec d",
@@ -5032,6 +5468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*^^)",
           "package": "plumbers",
@@ -5041,6 +5478,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=*^^) \u003c=*^^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec b)-\u003e(a,e)-\u003ef-\u003eg-\u003ec d",
@@ -5055,6 +5493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c)",
           "package": "plumbers",
@@ -5064,6 +5503,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c) \u003c=\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ec b-\u003ea-\u003ec d",
@@ -5078,6 +5518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c&)",
           "package": "plumbers",
@@ -5087,6 +5528,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c&) \u003c=\u003c&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(b-\u003ed c)-\u003ea-\u003eb-\u003ed e",
@@ -5101,6 +5543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c&&)",
           "package": "plumbers",
@@ -5110,6 +5553,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c&&) \u003c=\u003c&&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(b-\u003ec-\u003ee d)-\u003ea-\u003eb-\u003ec-\u003ee f",
@@ -5124,6 +5568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c&*)",
           "package": "plumbers",
@@ -5133,6 +5578,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c&*) \u003c=\u003c&*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(b-\u003eg-\u003ee d)-\u003ea-\u003eb-\u003e(c,g)-\u003ee f",
@@ -5147,6 +5593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c&\u003c)",
           "package": "plumbers",
@@ -5156,6 +5603,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c&\u003c) \u003c=\u003c&\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(b-\u003ee d)-\u003ea-\u003eb-\u003ec-\u003ee f",
@@ -5170,6 +5618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c&\u003e)",
           "package": "plumbers",
@@ -5179,6 +5628,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c&\u003e) \u003c=\u003c&\u003e",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(b-\u003ef-\u003ed c)-\u003ea-\u003eb-\u003ef-\u003ed e",
@@ -5193,6 +5643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c&^)",
           "package": "plumbers",
@@ -5202,6 +5653,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c&^) \u003c=\u003c&^",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(b-\u003ed c)-\u003ea-\u003eb-\u003ef-\u003ed e",
@@ -5216,6 +5668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c*)",
           "package": "plumbers",
@@ -5225,6 +5678,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c*) \u003c=\u003c*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ed c)-\u003ea-\u003e(b,f)-\u003ed e",
@@ -5239,6 +5693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c*&)",
           "package": "plumbers",
@@ -5248,6 +5703,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c*&) \u003c=\u003c*&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(g-\u003ec-\u003ee d)-\u003ea-\u003e(b,g)-\u003ec-\u003ee f",
@@ -5262,6 +5718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c**)",
           "package": "plumbers",
@@ -5271,6 +5728,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c**) \u003c=\u003c**",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(g-\u003eh-\u003ee d)-\u003ea-\u003e(b,g)-\u003e(c,h)-\u003ee f",
@@ -5285,6 +5743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c*\u003c)",
           "package": "plumbers",
@@ -5294,6 +5753,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c*\u003c) \u003c=\u003c*\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(g-\u003ee d)-\u003ea-\u003e(b,g)-\u003ec-\u003ee f",
@@ -5308,6 +5768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c*\u003e)",
           "package": "plumbers",
@@ -5317,6 +5778,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c*\u003e) \u003c=\u003c*\u003e",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ed c)-\u003ea-\u003e(b,f)-\u003eg-\u003ed e",
@@ -5331,6 +5793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c*^)",
           "package": "plumbers",
@@ -5340,6 +5803,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c*^) \u003c=\u003c*^",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ed c)-\u003ea-\u003e(b,f)-\u003eg-\u003ed e",
@@ -5354,6 +5818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003c)",
           "package": "plumbers",
@@ -5363,6 +5828,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003c) \u003c=\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003ed c-\u003ea-\u003eb-\u003ed e",
@@ -5377,6 +5843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003c&)",
           "package": "plumbers",
@@ -5386,6 +5853,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003c&) \u003c=\u003c\u003c&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(c-\u003ee d)-\u003ea-\u003eb-\u003ec-\u003ee f",
@@ -5400,6 +5868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003c*)",
           "package": "plumbers",
@@ -5409,6 +5878,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003c*) \u003c=\u003c\u003c*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e(g-\u003ee d)-\u003ea-\u003eb-\u003e(c,g)-\u003ee f",
@@ -5423,6 +5893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003c\u003c)",
           "package": "plumbers",
@@ -5432,6 +5903,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003c\u003c) \u003c=\u003c\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003ee d-\u003ea-\u003eb-\u003ec-\u003ee f",
@@ -5446,6 +5918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003c\u003e)",
           "package": "plumbers",
@@ -5455,6 +5928,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003c\u003e) \u003c=\u003c\u003c\u003e",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ed c)-\u003ea-\u003eb-\u003ef-\u003ed e",
@@ -5469,6 +5943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003c^)",
           "package": "plumbers",
@@ -5478,6 +5953,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003c^) \u003c=\u003c\u003c^",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003ed c-\u003ea-\u003eb-\u003ef-\u003ed e",
@@ -5492,6 +5968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003e)",
           "package": "plumbers",
@@ -5501,6 +5978,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003e) \u003c=\u003c\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec b)-\u003ea-\u003ee-\u003ec d",
@@ -5515,6 +5993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003e&)",
           "package": "plumbers",
@@ -5524,6 +6003,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003e&) \u003c=\u003c\u003e&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eb-\u003ed c)-\u003ea-\u003ef-\u003eb-\u003ed e",
@@ -5538,6 +6018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003e*)",
           "package": "plumbers",
@@ -5547,6 +6028,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003e*) \u003c=\u003c\u003e*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ed c)-\u003ea-\u003ef-\u003e(b,g)-\u003ed e",
@@ -5561,6 +6043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003e\u003c)",
           "package": "plumbers",
@@ -5570,6 +6053,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003e\u003c) \u003c=\u003c\u003e\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ed c)-\u003ea-\u003ef-\u003eb-\u003ed e",
@@ -5584,6 +6068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003e\u003e)",
           "package": "plumbers",
@@ -5593,6 +6078,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003e\u003e) \u003c=\u003c\u003e\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec b)-\u003ea-\u003ee-\u003ef-\u003ec d",
@@ -5607,6 +6093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003e^)",
           "package": "plumbers",
@@ -5616,6 +6103,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c\u003e^) \u003c=\u003c\u003e^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec b)-\u003ea-\u003ee-\u003ef-\u003ec d",
@@ -5630,6 +6118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c^)",
           "package": "plumbers",
@@ -5639,6 +6128,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c^) \u003c=\u003c^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ec b-\u003ea-\u003ee-\u003ec d",
@@ -5653,6 +6143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c^&)",
           "package": "plumbers",
@@ -5662,6 +6153,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c^&) \u003c=\u003c^&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(b-\u003ed c)-\u003ea-\u003ef-\u003eb-\u003ed e",
@@ -5676,6 +6168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c^*)",
           "package": "plumbers",
@@ -5685,6 +6178,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c^*) \u003c=\u003c^*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ed c)-\u003ea-\u003eg-\u003e(b,f)-\u003ed e",
@@ -5699,6 +6193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c^\u003c)",
           "package": "plumbers",
@@ -5708,6 +6203,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c^\u003c) \u003c=\u003c^\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003ed c-\u003ea-\u003ef-\u003eb-\u003ed e",
@@ -5722,6 +6218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c^\u003e)",
           "package": "plumbers",
@@ -5731,6 +6228,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c^\u003e) \u003c=\u003c^\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec b)-\u003ea-\u003ef-\u003ee-\u003ec d",
@@ -5745,6 +6243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c^^)",
           "package": "plumbers",
@@ -5754,6 +6253,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003c^^) \u003c=\u003c^^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ec b-\u003ea-\u003ee-\u003ef-\u003ec d",
@@ -5768,6 +6268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e)",
           "package": "plumbers",
@@ -5777,6 +6278,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e) \u003c=\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb a)-\u003ed-\u003eb c",
@@ -5791,6 +6293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e&)",
           "package": "plumbers",
@@ -5800,6 +6303,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e&) \u003c=\u003e&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ea-\u003ec b)-\u003ee-\u003ea-\u003ec d",
@@ -5814,6 +6318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e&&)",
           "package": "plumbers",
@@ -5823,6 +6328,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e&&) \u003c=\u003e&&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ea-\u003eb-\u003ed c)-\u003ef-\u003ea-\u003eb-\u003ed e",
@@ -5837,6 +6343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e&*)",
           "package": "plumbers",
@@ -5846,6 +6353,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e&*) \u003c=\u003e&*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ea-\u003eg-\u003ed c)-\u003ef-\u003ea-\u003e(b,g)-\u003ed e",
@@ -5860,6 +6368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e&\u003c)",
           "package": "plumbers",
@@ -5869,6 +6378,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e&\u003c) \u003c=\u003e&\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ea-\u003ed c)-\u003ef-\u003ea-\u003eb-\u003ed e",
@@ -5883,6 +6393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e&\u003e)",
           "package": "plumbers",
@@ -5892,6 +6403,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e&\u003e) \u003c=\u003e&\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ea-\u003ef-\u003ec b)-\u003ee-\u003ea-\u003ef-\u003ec d",
@@ -5906,6 +6418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e&^)",
           "package": "plumbers",
@@ -5915,6 +6428,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e&^) \u003c=\u003e&^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ea-\u003ec b)-\u003ee-\u003ea-\u003ef-\u003ec d",
@@ -5929,6 +6443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e*)",
           "package": "plumbers",
@@ -5938,6 +6453,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e*) \u003c=\u003e*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec b)-\u003ee-\u003e(a,f)-\u003ec d",
@@ -5952,6 +6468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e*&)",
           "package": "plumbers",
@@ -5961,6 +6478,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e*&) \u003c=\u003e*&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003eb-\u003ed c)-\u003ef-\u003e(a,g)-\u003eb-\u003ed e",
@@ -5975,6 +6493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e**)",
           "package": "plumbers",
@@ -5984,6 +6503,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e**) \u003c=\u003e**",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003eh-\u003ed c)-\u003ef-\u003e(a,g)-\u003e(b,h)-\u003ed e",
@@ -5998,6 +6518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e*\u003c)",
           "package": "plumbers",
@@ -6007,6 +6528,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e*\u003c) \u003c=\u003e*\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ed c)-\u003ef-\u003e(a,g)-\u003eb-\u003ed e",
@@ -6021,6 +6543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e*\u003e)",
           "package": "plumbers",
@@ -6030,6 +6553,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e*\u003e) \u003c=\u003e*\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003eg-\u003ec b)-\u003ee-\u003e(a,f)-\u003eg-\u003ec d",
@@ -6044,6 +6568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e*^)",
           "package": "plumbers",
@@ -6053,6 +6578,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e*^) \u003c=\u003e*^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec b)-\u003ee-\u003e(a,f)-\u003eg-\u003ec d",
@@ -6067,6 +6593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003c)",
           "package": "plumbers",
@@ -6076,6 +6603,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003c) \u003c=\u003e\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec b)-\u003ee-\u003ea-\u003ec d",
@@ -6090,6 +6618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003c&)",
           "package": "plumbers",
@@ -6099,6 +6628,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003c&) \u003c=\u003e\u003c&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eb-\u003ed c)-\u003ef-\u003ea-\u003eb-\u003ed e",
@@ -6113,6 +6643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003c*)",
           "package": "plumbers",
@@ -6122,6 +6653,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003c*) \u003c=\u003e\u003c*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ed c)-\u003ef-\u003ea-\u003e(b,g)-\u003ed e",
@@ -6136,6 +6668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003c\u003c)",
           "package": "plumbers",
@@ -6145,6 +6678,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003c\u003c) \u003c=\u003e\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ed c)-\u003ef-\u003ea-\u003eb-\u003ed e",
@@ -6159,6 +6693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003c\u003e)",
           "package": "plumbers",
@@ -6168,6 +6703,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003c\u003e) \u003c=\u003e\u003c\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec b)-\u003ee-\u003ea-\u003ef-\u003ec d",
@@ -6182,6 +6718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003c^)",
           "package": "plumbers",
@@ -6191,6 +6728,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003c^) \u003c=\u003e\u003c^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec b)-\u003ee-\u003ea-\u003ef-\u003ec d",
@@ -6205,6 +6743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003e)",
           "package": "plumbers",
@@ -6214,6 +6753,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003e) \u003c=\u003e\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb a)-\u003ed-\u003ee-\u003eb c",
@@ -6228,6 +6768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003e&)",
           "package": "plumbers",
@@ -6237,6 +6778,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003e&) \u003c=\u003e\u003e&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ea-\u003ec b)-\u003ee-\u003ef-\u003ea-\u003ec d",
@@ -6251,6 +6793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003e*)",
           "package": "plumbers",
@@ -6260,6 +6803,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003e*) \u003c=\u003e\u003e*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003eg-\u003ec b)-\u003ee-\u003ef-\u003e(a,g)-\u003ec d",
@@ -6274,6 +6818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003e\u003c)",
           "package": "plumbers",
@@ -6283,6 +6828,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003e\u003c) \u003c=\u003e\u003e\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec b)-\u003ee-\u003ef-\u003ea-\u003ec d",
@@ -6297,6 +6843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003e\u003e)",
           "package": "plumbers",
@@ -6306,6 +6853,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003e\u003e) \u003c=\u003e\u003e\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ef-\u003eb a)-\u003ed-\u003ee-\u003ef-\u003eb c",
@@ -6320,6 +6868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003e^)",
           "package": "plumbers",
@@ -6329,6 +6878,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e\u003e^) \u003c=\u003e\u003e^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb a)-\u003ed-\u003ee-\u003ef-\u003eb c",
@@ -6343,6 +6893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e^)",
           "package": "plumbers",
@@ -6352,6 +6903,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e^) \u003c=\u003e^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb a)-\u003ed-\u003ee-\u003eb c",
@@ -6366,6 +6918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e^&)",
           "package": "plumbers",
@@ -6375,6 +6928,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e^&) \u003c=\u003e^&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ea-\u003ec b)-\u003ee-\u003ef-\u003ea-\u003ec d",
@@ -6389,6 +6943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e^*)",
           "package": "plumbers",
@@ -6398,6 +6953,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e^*) \u003c=\u003e^*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec b)-\u003ee-\u003eg-\u003e(a,f)-\u003ec d",
@@ -6412,6 +6968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e^\u003c)",
           "package": "plumbers",
@@ -6421,6 +6978,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e^\u003c) \u003c=\u003e^\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec b)-\u003ee-\u003ef-\u003ea-\u003ec d",
@@ -6435,6 +6993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e^\u003e)",
           "package": "plumbers",
@@ -6444,6 +7003,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e^\u003e) \u003c=\u003e^\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb a)-\u003ed-\u003ef-\u003ee-\u003eb c",
@@ -6458,6 +7018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e^^)",
           "package": "plumbers",
@@ -6467,6 +7028,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=\u003e^^) \u003c=\u003e^^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb a)-\u003ed-\u003ee-\u003ef-\u003eb c",
@@ -6481,6 +7043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^)",
           "package": "plumbers",
@@ -6490,6 +7053,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^) \u003c=^",
           "normalized": "(a-\u003eb c)-\u003eb a-\u003ed-\u003eb c",
@@ -6504,6 +7068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^&)",
           "package": "plumbers",
@@ -6513,6 +7078,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^&) \u003c=^&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ec b)-\u003ee-\u003ea-\u003ec d",
@@ -6527,6 +7093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^&&)",
           "package": "plumbers",
@@ -6536,6 +7103,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^&&) \u003c=^&&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003eb-\u003ed c)-\u003ef-\u003ea-\u003eb-\u003ed e",
@@ -6550,6 +7118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^&*)",
           "package": "plumbers",
@@ -6559,6 +7128,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^&*) \u003c=^&*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003ed c)-\u003eg-\u003ea-\u003e(b,f)-\u003ed e",
@@ -6573,6 +7143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^&\u003c)",
           "package": "plumbers",
@@ -6582,6 +7153,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^&\u003c) \u003c=^&\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ed c)-\u003ef-\u003ea-\u003eb-\u003ed e",
@@ -6596,6 +7168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^&\u003e)",
           "package": "plumbers",
@@ -6605,6 +7178,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^&\u003e) \u003c=^&\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ec b)-\u003ef-\u003ea-\u003ee-\u003ec d",
@@ -6619,6 +7193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^&^)",
           "package": "plumbers",
@@ -6628,6 +7203,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^&^) \u003c=^&^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ec b)-\u003ee-\u003ea-\u003ef-\u003ec d",
@@ -6642,6 +7218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^*)",
           "package": "plumbers",
@@ -6651,6 +7228,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^*) \u003c=^*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec b)-\u003ef-\u003e(a,e)-\u003ec d",
@@ -6665,6 +7243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^*&)",
           "package": "plumbers",
@@ -6674,6 +7253,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^*&) \u003c=^*&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eb-\u003ed c)-\u003eg-\u003e(a,f)-\u003eb-\u003ed e",
@@ -6688,6 +7268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^**)",
           "package": "plumbers",
@@ -6697,6 +7278,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^**) \u003c=^**",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ed c)-\u003eh-\u003e(a,f)-\u003e(b,g)-\u003ed e",
@@ -6711,6 +7293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^*\u003c)",
           "package": "plumbers",
@@ -6720,6 +7303,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^*\u003c) \u003c=^*\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ed c)-\u003eg-\u003e(a,f)-\u003eb-\u003ed e",
@@ -6734,6 +7318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^*\u003e)",
           "package": "plumbers",
@@ -6743,6 +7328,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^*\u003e) \u003c=^*\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec b)-\u003eg-\u003e(a,e)-\u003ef-\u003ec d",
@@ -6757,6 +7343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^*^)",
           "package": "plumbers",
@@ -6766,6 +7353,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^*^) \u003c=^*^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec b)-\u003ef-\u003e(a,e)-\u003eg-\u003ec d",
@@ -6780,6 +7368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003c)",
           "package": "plumbers",
@@ -6789,6 +7378,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003c) \u003c=^\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ec b-\u003ee-\u003ea-\u003ec d",
@@ -6803,6 +7393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003c&)",
           "package": "plumbers",
@@ -6812,6 +7403,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003c&) \u003c=^\u003c&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(b-\u003ed c)-\u003ef-\u003ea-\u003eb-\u003ed e",
@@ -6826,6 +7418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003c*)",
           "package": "plumbers",
@@ -6835,6 +7428,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003c*) \u003c=^\u003c*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ed c)-\u003eg-\u003ea-\u003e(b,f)-\u003ed e",
@@ -6849,6 +7443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003c\u003c)",
           "package": "plumbers",
@@ -6858,6 +7453,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003c\u003c) \u003c=^\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003ed c-\u003ef-\u003ea-\u003eb-\u003ed e",
@@ -6872,6 +7468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003c\u003e)",
           "package": "plumbers",
@@ -6881,6 +7478,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003c\u003e) \u003c=^\u003c\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec b)-\u003ef-\u003ea-\u003ee-\u003ec d",
@@ -6895,6 +7493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003c^)",
           "package": "plumbers",
@@ -6904,6 +7503,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003c^) \u003c=^\u003c^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ec b-\u003ee-\u003ea-\u003ef-\u003ec d",
@@ -6918,6 +7518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003e)",
           "package": "plumbers",
@@ -6927,6 +7528,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003e) \u003c=^\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb a)-\u003ee-\u003ed-\u003eb c",
@@ -6941,6 +7543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003e&)",
           "package": "plumbers",
@@ -6950,6 +7553,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003e&) \u003c=^\u003e&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ea-\u003ec b)-\u003ef-\u003ee-\u003ea-\u003ec d",
@@ -6964,6 +7568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003e*)",
           "package": "plumbers",
@@ -6973,6 +7578,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003e*) \u003c=^\u003e*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec b)-\u003eg-\u003ee-\u003e(a,f)-\u003ec d",
@@ -6987,6 +7593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003e\u003c)",
           "package": "plumbers",
@@ -6996,6 +7603,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003e\u003c) \u003c=^\u003e\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec b)-\u003ef-\u003ee-\u003ea-\u003ec d",
@@ -7010,6 +7618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003e\u003e)",
           "package": "plumbers",
@@ -7019,6 +7628,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003e\u003e) \u003c=^\u003e\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb a)-\u003ef-\u003ed-\u003ee-\u003eb c",
@@ -7033,6 +7643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003e^)",
           "package": "plumbers",
@@ -7042,6 +7653,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^\u003e^) \u003c=^\u003e^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb a)-\u003ee-\u003ed-\u003ef-\u003eb c",
@@ -7056,6 +7668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^^)",
           "package": "plumbers",
@@ -7065,6 +7678,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^^) \u003c=^^",
           "normalized": "(a-\u003eb c)-\u003eb a-\u003ed-\u003ee-\u003eb c",
@@ -7079,6 +7693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^^&)",
           "package": "plumbers",
@@ -7088,6 +7703,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^^&) \u003c=^^&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ec b)-\u003ee-\u003ef-\u003ea-\u003ec d",
@@ -7102,6 +7718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^^*)",
           "package": "plumbers",
@@ -7111,6 +7728,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^^*) \u003c=^^*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec b)-\u003ef-\u003eg-\u003e(a,e)-\u003ec d",
@@ -7125,6 +7743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^^\u003c)",
           "package": "plumbers",
@@ -7134,6 +7753,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^^\u003c) \u003c=^^\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ec b-\u003ee-\u003ef-\u003ea-\u003ec d",
@@ -7148,6 +7768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^^\u003e)",
           "package": "plumbers",
@@ -7157,6 +7778,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^^\u003e) \u003c=^^\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb a)-\u003ee-\u003ef-\u003ed-\u003eb c",
@@ -7171,6 +7793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^^^)",
           "package": "plumbers",
@@ -7180,6 +7803,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003c=^^^) \u003c=^^^",
           "normalized": "(a-\u003eb c)-\u003eb a-\u003ed-\u003ee-\u003ef-\u003eb c",
@@ -7194,6 +7818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&)",
           "package": "plumbers",
@@ -7203,6 +7828,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&) \u003e=&",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ec-\u003eb d)-\u003ea-\u003eb d",
@@ -7217,6 +7843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&&)",
           "package": "plumbers",
@@ -7226,6 +7853,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&&) \u003e=&&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003eb-\u003ed-\u003ec e)-\u003ea-\u003eb-\u003ec e",
@@ -7240,6 +7868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&&&)",
           "package": "plumbers",
@@ -7249,6 +7878,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&&&) \u003e=&&&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003eb-\u003ec-\u003ee-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed f",
@@ -7263,6 +7893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&&*)",
           "package": "plumbers",
@@ -7272,6 +7903,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&&*) \u003e=&&*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003eb-\u003ef-\u003ee-\u003ed g)-\u003ea-\u003eb-\u003e(c,f)-\u003ed g",
@@ -7286,6 +7918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&&\u003c)",
           "package": "plumbers",
@@ -7295,6 +7928,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&&\u003c) \u003e=&&\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003eb-\u003ee-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed f",
@@ -7309,6 +7943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&&\u003e)",
           "package": "plumbers",
@@ -7318,6 +7953,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&&\u003e) \u003e=&&\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003eb-\u003ee-\u003ed-\u003ec f)-\u003ea-\u003eb-\u003ee-\u003ec f",
@@ -7332,6 +7968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&&^)",
           "package": "plumbers",
@@ -7341,6 +7978,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&&^) \u003e=&&^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003eb-\u003ed-\u003ec e)-\u003ea-\u003eb-\u003ef-\u003ec e",
@@ -7355,6 +7993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&*)",
           "package": "plumbers",
@@ -7364,6 +8003,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&*) \u003e=&*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ed-\u003ec f)-\u003ea-\u003e(b,e)-\u003ec f",
@@ -7378,6 +8018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&*&)",
           "package": "plumbers",
@@ -7387,6 +8028,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&*&) \u003e=&*&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003ec-\u003ee-\u003ed g)-\u003ea-\u003e(b,f)-\u003ec-\u003ed g",
@@ -7401,6 +8043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&**)",
           "package": "plumbers",
@@ -7410,6 +8053,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&**) \u003e=&**",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003eg-\u003ee-\u003ed h)-\u003ea-\u003e(b,f)-\u003e(c,g)-\u003ed h",
@@ -7424,6 +8068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&*\u003c)",
           "package": "plumbers",
@@ -7433,6 +8078,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&*\u003c) \u003e=&*\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003ee-\u003ed g)-\u003ea-\u003e(b,f)-\u003ec-\u003ed g",
@@ -7447,6 +8093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&*\u003e)",
           "package": "plumbers",
@@ -7456,6 +8103,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&*\u003e) \u003e=&*\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ef-\u003ed-\u003ec g)-\u003ea-\u003e(b,e)-\u003ef-\u003ec g",
@@ -7470,6 +8118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&*^)",
           "package": "plumbers",
@@ -7479,6 +8128,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&*^) \u003e=&*^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ed-\u003ec f)-\u003ea-\u003e(b,e)-\u003eg-\u003ec f",
@@ -7493,6 +8143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003c)",
           "package": "plumbers",
@@ -7502,6 +8153,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003c) \u003e=&\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ed-\u003ec e)-\u003ea-\u003eb-\u003ec e",
@@ -7516,6 +8168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003c&)",
           "package": "plumbers",
@@ -7525,6 +8178,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003c&) \u003e=&\u003c&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ec-\u003ee-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed f",
@@ -7539,6 +8193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003c*)",
           "package": "plumbers",
@@ -7548,6 +8203,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003c*) \u003e=&\u003c*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003ee-\u003ed g)-\u003ea-\u003eb-\u003e(c,f)-\u003ed g",
@@ -7562,6 +8218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003c\u003c)",
           "package": "plumbers",
@@ -7571,6 +8228,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003c\u003c) \u003e=&\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ee-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed f",
@@ -7585,6 +8243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003c\u003e)",
           "package": "plumbers",
@@ -7594,6 +8253,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003c\u003e) \u003e=&\u003c\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ed-\u003ec f)-\u003ea-\u003eb-\u003ee-\u003ec f",
@@ -7608,6 +8268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003c^)",
           "package": "plumbers",
@@ -7617,6 +8278,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003c^) \u003e=&\u003c^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ed-\u003ec e)-\u003ea-\u003eb-\u003ef-\u003ec e",
@@ -7631,6 +8293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003e)",
           "package": "plumbers",
@@ -7640,6 +8303,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003e) \u003e=&\u003e",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ed-\u003ec-\u003eb e)-\u003ea-\u003ed-\u003eb e",
@@ -7654,6 +8318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003e&)",
           "package": "plumbers",
@@ -7663,6 +8328,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003e&) \u003e=&\u003e&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003eb-\u003ed-\u003ec f)-\u003ea-\u003ee-\u003eb-\u003ec f",
@@ -7677,6 +8343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003e*)",
           "package": "plumbers",
@@ -7686,6 +8353,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003e*) \u003e=&\u003e*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ef-\u003ed-\u003ec g)-\u003ea-\u003ee-\u003e(b,f)-\u003ec g",
@@ -7700,6 +8368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003e\u003c)",
           "package": "plumbers",
@@ -7709,6 +8378,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003e\u003c) \u003e=&\u003e\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ed-\u003ec f)-\u003ea-\u003ee-\u003eb-\u003ec f",
@@ -7723,6 +8393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003e\u003e)",
           "package": "plumbers",
@@ -7732,6 +8403,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003e\u003e) \u003e=&\u003e\u003e",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ed-\u003ee-\u003ec-\u003eb f)-\u003ea-\u003ed-\u003ee-\u003eb f",
@@ -7746,6 +8418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003e^)",
           "package": "plumbers",
@@ -7755,6 +8428,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&\u003e^) \u003e=&\u003e^",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ed-\u003ec-\u003eb e)-\u003ea-\u003ed-\u003ef-\u003eb e",
@@ -7769,6 +8443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&^)",
           "package": "plumbers",
@@ -7778,6 +8453,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&^) \u003e=&^",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ec-\u003eb d)-\u003ea-\u003ee-\u003eb d",
@@ -7792,6 +8468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&^&)",
           "package": "plumbers",
@@ -7801,6 +8478,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&^&) \u003e=&^&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003eb-\u003ed-\u003ec e)-\u003ea-\u003ef-\u003eb-\u003ec e",
@@ -7815,6 +8493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&^*)",
           "package": "plumbers",
@@ -7824,6 +8503,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&^*) \u003e=&^*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ed-\u003ec f)-\u003ea-\u003eg-\u003e(b,e)-\u003ec f",
@@ -7838,6 +8518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&^\u003c)",
           "package": "plumbers",
@@ -7847,6 +8528,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&^\u003c) \u003e=&^\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ed-\u003ec e)-\u003ea-\u003ef-\u003eb-\u003ec e",
@@ -7861,6 +8543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&^\u003e)",
           "package": "plumbers",
@@ -7870,6 +8553,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&^\u003e) \u003e=&^\u003e",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ed-\u003ec-\u003eb e)-\u003ea-\u003ef-\u003ed-\u003eb e",
@@ -7884,6 +8568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&^^)",
           "package": "plumbers",
@@ -7893,6 +8578,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=&^^) \u003e=&^^",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ec-\u003eb d)-\u003ea-\u003ee-\u003ef-\u003eb d",
@@ -7907,6 +8593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*)",
           "package": "plumbers",
@@ -7916,6 +8603,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*) \u003e=*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ec-\u003eb e)-\u003e(a,d)-\u003eb e",
@@ -7930,6 +8618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*&)",
           "package": "plumbers",
@@ -7939,6 +8628,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*&) \u003e=*&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ed-\u003ec f)-\u003e(a,e)-\u003eb-\u003ec f",
@@ -7953,6 +8643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*&&)",
           "package": "plumbers",
@@ -7962,6 +8653,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*&&) \u003e=*&&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eb-\u003ec-\u003ee-\u003ed g)-\u003e(a,f)-\u003eb-\u003ec-\u003ed g",
@@ -7976,6 +8668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*&*)",
           "package": "plumbers",
@@ -7985,6 +8678,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*&*) \u003e=*&*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eb-\u003eg-\u003ee-\u003ed h)-\u003e(a,f)-\u003eb-\u003e(c,g)-\u003ed h",
@@ -7999,6 +8693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*&\u003c)",
           "package": "plumbers",
@@ -8008,6 +8703,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*&\u003c) \u003e=*&\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eb-\u003ee-\u003ed g)-\u003e(a,f)-\u003eb-\u003ec-\u003ed g",
@@ -8022,6 +8718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*&\u003e)",
           "package": "plumbers",
@@ -8031,6 +8728,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*&\u003e) \u003e=*&\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ef-\u003ed-\u003ec g)-\u003e(a,e)-\u003eb-\u003ef-\u003ec g",
@@ -8045,6 +8743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*&^)",
           "package": "plumbers",
@@ -8054,6 +8753,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*&^) \u003e=*&^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ed-\u003ec f)-\u003e(a,e)-\u003eb-\u003eg-\u003ec f",
@@ -8068,6 +8768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=**)",
           "package": "plumbers",
@@ -8077,6 +8778,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=**) \u003e=**",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ed-\u003ec g)-\u003e(a,e)-\u003e(b,f)-\u003ec g",
@@ -8091,6 +8793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=**&)",
           "package": "plumbers",
@@ -8100,6 +8803,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=**&) \u003e=**&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ec-\u003ee-\u003ed h)-\u003e(a,f)-\u003e(b,g)-\u003ec-\u003ed h",
@@ -8114,6 +8818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=***)",
           "package": "plumbers",
@@ -8123,6 +8828,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=***) \u003e=***",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003eh-\u003ee-\u003ed i)-\u003e(a,f)-\u003e(b,g)-\u003e(c,h)-\u003ed i",
@@ -8137,6 +8843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=**\u003c)",
           "package": "plumbers",
@@ -8146,6 +8853,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=**\u003c) \u003e=**\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ee-\u003ed h)-\u003e(a,f)-\u003e(b,g)-\u003ec-\u003ed h",
@@ -8160,6 +8868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=**\u003e)",
           "package": "plumbers",
@@ -8169,6 +8878,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=**\u003e) \u003e=**\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003eg-\u003ed-\u003ec h)-\u003e(a,e)-\u003e(b,f)-\u003eg-\u003ec h",
@@ -8183,6 +8893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=**^)",
           "package": "plumbers",
@@ -8192,6 +8903,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=**^) \u003e=**^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ed-\u003ec g)-\u003e(a,e)-\u003e(b,f)-\u003eh-\u003ec g",
@@ -8206,6 +8918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003c)",
           "package": "plumbers",
@@ -8215,6 +8928,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003c) \u003e=*\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ed-\u003ec f)-\u003e(a,e)-\u003eb-\u003ec f",
@@ -8229,6 +8943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003c&)",
           "package": "plumbers",
@@ -8238,6 +8953,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003c&) \u003e=*\u003c&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ec-\u003ee-\u003ed g)-\u003e(a,f)-\u003eb-\u003ec-\u003ed g",
@@ -8252,6 +8968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003c*)",
           "package": "plumbers",
@@ -8261,6 +8978,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003c*) \u003e=*\u003c*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ee-\u003ed h)-\u003e(a,f)-\u003eb-\u003e(c,g)-\u003ed h",
@@ -8275,6 +8993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003c\u003c)",
           "package": "plumbers",
@@ -8284,6 +9003,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003c\u003c) \u003e=*\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ee-\u003ed g)-\u003e(a,f)-\u003eb-\u003ec-\u003ed g",
@@ -8298,6 +9018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003c\u003e)",
           "package": "plumbers",
@@ -8307,6 +9028,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003c\u003e) \u003e=*\u003c\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ed-\u003ec g)-\u003e(a,e)-\u003eb-\u003ef-\u003ec g",
@@ -8321,6 +9043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003c^)",
           "package": "plumbers",
@@ -8330,6 +9053,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003c^) \u003e=*\u003c^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ed-\u003ec f)-\u003e(a,e)-\u003eb-\u003eg-\u003ec f",
@@ -8344,6 +9068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003e)",
           "package": "plumbers",
@@ -8353,6 +9078,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003e) \u003e=*\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ec-\u003eb f)-\u003e(a,d)-\u003ee-\u003eb f",
@@ -8367,6 +9093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003e&)",
           "package": "plumbers",
@@ -8376,6 +9103,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003e&) \u003e=*\u003e&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003eb-\u003ed-\u003ec g)-\u003e(a,e)-\u003ef-\u003eb-\u003ec g",
@@ -8390,6 +9118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003e*)",
           "package": "plumbers",
@@ -8399,6 +9128,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003e*) \u003e=*\u003e*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003eg-\u003ed-\u003ec h)-\u003e(a,e)-\u003ef-\u003e(b,g)-\u003ec h",
@@ -8413,6 +9143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003e\u003c)",
           "package": "plumbers",
@@ -8422,6 +9153,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003e\u003c) \u003e=*\u003e\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ed-\u003ec g)-\u003e(a,e)-\u003ef-\u003eb-\u003ec g",
@@ -8436,6 +9168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003e\u003e)",
           "package": "plumbers",
@@ -8445,6 +9178,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003e\u003e) \u003e=*\u003e\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ef-\u003ec-\u003eb g)-\u003e(a,d)-\u003ee-\u003ef-\u003eb g",
@@ -8459,6 +9193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003e^)",
           "package": "plumbers",
@@ -8468,6 +9203,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*\u003e^) \u003e=*\u003e^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ec-\u003eb f)-\u003e(a,d)-\u003ee-\u003eg-\u003eb f",
@@ -8482,6 +9218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*^)",
           "package": "plumbers",
@@ -8491,6 +9228,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*^) \u003e=*^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ec-\u003eb e)-\u003e(a,d)-\u003ef-\u003eb e",
@@ -8505,6 +9243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*^&)",
           "package": "plumbers",
@@ -8514,6 +9253,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*^&) \u003e=*^&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ed-\u003ec f)-\u003e(a,e)-\u003eg-\u003eb-\u003ec f",
@@ -8528,6 +9268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*^*)",
           "package": "plumbers",
@@ -8537,6 +9278,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*^*) \u003e=*^*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ed-\u003ec g)-\u003e(a,e)-\u003eh-\u003e(b,f)-\u003ec g",
@@ -8551,6 +9293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*^\u003c)",
           "package": "plumbers",
@@ -8560,6 +9303,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*^\u003c) \u003e=*^\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ed-\u003ec f)-\u003e(a,e)-\u003eg-\u003eb-\u003ec f",
@@ -8574,6 +9318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*^\u003e)",
           "package": "plumbers",
@@ -8583,6 +9328,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*^\u003e) \u003e=*^\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ec-\u003eb f)-\u003e(a,d)-\u003eg-\u003ee-\u003eb f",
@@ -8597,6 +9343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*^^)",
           "package": "plumbers",
@@ -8606,6 +9353,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=*^^) \u003e=*^^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ec-\u003eb e)-\u003e(a,d)-\u003ef-\u003eg-\u003eb e",
@@ -8620,6 +9368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c)",
           "package": "plumbers",
@@ -8629,6 +9378,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c) \u003e=\u003c",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003eb d)-\u003ea-\u003eb d",
@@ -8643,6 +9393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c&)",
           "package": "plumbers",
@@ -8652,6 +9403,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c&) \u003e=\u003c&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(b-\u003ed-\u003ec e)-\u003ea-\u003eb-\u003ec e",
@@ -8666,6 +9418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c&&)",
           "package": "plumbers",
@@ -8675,6 +9428,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c&&) \u003e=\u003c&&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(b-\u003ec-\u003ee-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed f",
@@ -8689,6 +9443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c&*)",
           "package": "plumbers",
@@ -8698,6 +9453,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c&*) \u003e=\u003c&*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(b-\u003ef-\u003ee-\u003ed g)-\u003ea-\u003eb-\u003e(c,f)-\u003ed g",
@@ -8712,6 +9468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c&\u003c)",
           "package": "plumbers",
@@ -8721,6 +9478,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c&\u003c) \u003e=\u003c&\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(b-\u003ee-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed f",
@@ -8735,6 +9493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c&\u003e)",
           "package": "plumbers",
@@ -8744,6 +9503,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c&\u003e) \u003e=\u003c&\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(b-\u003ee-\u003ed-\u003ec f)-\u003ea-\u003eb-\u003ee-\u003ec f",
@@ -8758,6 +9518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c&^)",
           "package": "plumbers",
@@ -8767,6 +9528,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c&^) \u003e=\u003c&^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(b-\u003ed-\u003ec e)-\u003ea-\u003eb-\u003ef-\u003ec e",
@@ -8781,6 +9543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c*)",
           "package": "plumbers",
@@ -8790,6 +9553,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c*) \u003e=\u003c*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ed-\u003ec f)-\u003ea-\u003e(b,e)-\u003ec f",
@@ -8804,6 +9568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c*&)",
           "package": "plumbers",
@@ -8813,6 +9578,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c*&) \u003e=\u003c*&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ec-\u003ee-\u003ed g)-\u003ea-\u003e(b,f)-\u003ec-\u003ed g",
@@ -8827,6 +9593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c**)",
           "package": "plumbers",
@@ -8836,6 +9603,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c**) \u003e=\u003c**",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ee-\u003ed h)-\u003ea-\u003e(b,f)-\u003e(c,g)-\u003ed h",
@@ -8850,6 +9618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c*\u003c)",
           "package": "plumbers",
@@ -8859,6 +9628,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c*\u003c) \u003e=\u003c*\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ee-\u003ed g)-\u003ea-\u003e(b,f)-\u003ec-\u003ed g",
@@ -8873,6 +9643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c*\u003e)",
           "package": "plumbers",
@@ -8882,6 +9653,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c*\u003e) \u003e=\u003c*\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ed-\u003ec g)-\u003ea-\u003e(b,e)-\u003ef-\u003ec g",
@@ -8896,6 +9668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c*^)",
           "package": "plumbers",
@@ -8905,6 +9678,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c*^) \u003e=\u003c*^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ed-\u003ec f)-\u003ea-\u003e(b,e)-\u003eg-\u003ec f",
@@ -8919,6 +9693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003c)",
           "package": "plumbers",
@@ -8928,6 +9703,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003c) \u003e=\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(d-\u003ec e)-\u003ea-\u003eb-\u003ec e",
@@ -8942,6 +9718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003c&)",
           "package": "plumbers",
@@ -8951,6 +9728,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003c&) \u003e=\u003c\u003c&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(c-\u003ee-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed f",
@@ -8965,6 +9743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003c*)",
           "package": "plumbers",
@@ -8974,6 +9753,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003c*) \u003e=\u003c\u003c*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ee-\u003ed g)-\u003ea-\u003eb-\u003e(c,f)-\u003ed g",
@@ -8988,6 +9768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003c\u003c)",
           "package": "plumbers",
@@ -8997,6 +9778,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003c\u003c) \u003e=\u003c\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(e-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed f",
@@ -9011,6 +9793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003c\u003e)",
           "package": "plumbers",
@@ -9020,6 +9803,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003c\u003e) \u003e=\u003c\u003c\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ed-\u003ec f)-\u003ea-\u003eb-\u003ee-\u003ec f",
@@ -9034,6 +9818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003c^)",
           "package": "plumbers",
@@ -9043,6 +9828,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003c^) \u003e=\u003c\u003c^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(d-\u003ec e)-\u003ea-\u003eb-\u003ef-\u003ec e",
@@ -9057,6 +9843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003e)",
           "package": "plumbers",
@@ -9066,6 +9853,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003e) \u003e=\u003c\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ec-\u003eb e)-\u003ea-\u003ed-\u003eb e",
@@ -9080,6 +9868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003e&)",
           "package": "plumbers",
@@ -9089,6 +9878,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003e&) \u003e=\u003c\u003e&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ed-\u003ec f)-\u003ea-\u003ee-\u003eb-\u003ec f",
@@ -9103,6 +9893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003e*)",
           "package": "plumbers",
@@ -9112,6 +9903,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003e*) \u003e=\u003c\u003e*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ed-\u003ec g)-\u003ea-\u003ee-\u003e(b,f)-\u003ec g",
@@ -9126,6 +9918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003e\u003c)",
           "package": "plumbers",
@@ -9135,6 +9928,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003e\u003c) \u003e=\u003c\u003e\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ed-\u003ec f)-\u003ea-\u003ee-\u003eb-\u003ec f",
@@ -9149,6 +9943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003e\u003e)",
           "package": "plumbers",
@@ -9158,6 +9953,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003e\u003e) \u003e=\u003c\u003e\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ec-\u003eb f)-\u003ea-\u003ed-\u003ee-\u003eb f",
@@ -9172,6 +9968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003e^)",
           "package": "plumbers",
@@ -9181,6 +9978,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c\u003e^) \u003e=\u003c\u003e^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ec-\u003eb e)-\u003ea-\u003ed-\u003ef-\u003eb e",
@@ -9195,6 +9993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c^)",
           "package": "plumbers",
@@ -9204,6 +10003,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c^) \u003e=\u003c^",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003eb d)-\u003ea-\u003ee-\u003eb d",
@@ -9218,6 +10018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c^&)",
           "package": "plumbers",
@@ -9227,6 +10028,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c^&) \u003e=\u003c^&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(b-\u003ed-\u003ec e)-\u003ea-\u003ef-\u003eb-\u003ec e",
@@ -9241,6 +10043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c^*)",
           "package": "plumbers",
@@ -9250,6 +10053,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c^*) \u003e=\u003c^*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ed-\u003ec f)-\u003ea-\u003eg-\u003e(b,e)-\u003ec f",
@@ -9264,6 +10068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c^\u003c)",
           "package": "plumbers",
@@ -9273,6 +10078,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c^\u003c) \u003e=\u003c^\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(d-\u003ec e)-\u003ea-\u003ef-\u003eb-\u003ec e",
@@ -9287,6 +10093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c^\u003e)",
           "package": "plumbers",
@@ -9296,6 +10103,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c^\u003e) \u003e=\u003c^\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ec-\u003eb e)-\u003ea-\u003ef-\u003ed-\u003eb e",
@@ -9310,6 +10118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c^^)",
           "package": "plumbers",
@@ -9319,6 +10128,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003c^^) \u003e=\u003c^^",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003eb d)-\u003ea-\u003ee-\u003ef-\u003eb d",
@@ -9333,6 +10143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e)",
           "package": "plumbers",
@@ -9342,6 +10153,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e) \u003e=\u003e",
           "normalized": "a b-\u003e(c-\u003eb-\u003ea d)-\u003ec-\u003ea d",
@@ -9356,6 +10168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e&)",
           "package": "plumbers",
@@ -9365,6 +10178,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e&) \u003e=\u003e&",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ea-\u003ec-\u003eb e)-\u003ed-\u003ea-\u003eb e",
@@ -9379,6 +10193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e&&)",
           "package": "plumbers",
@@ -9388,6 +10203,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e&&) \u003e=\u003e&&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ea-\u003eb-\u003ed-\u003ec f)-\u003ee-\u003ea-\u003eb-\u003ec f",
@@ -9402,6 +10218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e&*)",
           "package": "plumbers",
@@ -9411,6 +10228,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e&*) \u003e=\u003e&*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ea-\u003ef-\u003ed-\u003ec g)-\u003ee-\u003ea-\u003e(b,f)-\u003ec g",
@@ -9425,6 +10243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e&\u003c)",
           "package": "plumbers",
@@ -9434,6 +10253,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e&\u003c) \u003e=\u003e&\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ea-\u003ed-\u003ec f)-\u003ee-\u003ea-\u003eb-\u003ec f",
@@ -9448,6 +10268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e&\u003e)",
           "package": "plumbers",
@@ -9457,6 +10278,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e&\u003e) \u003e=\u003e&\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ea-\u003ee-\u003ec-\u003eb f)-\u003ed-\u003ea-\u003ee-\u003eb f",
@@ -9471,6 +10293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e&^)",
           "package": "plumbers",
@@ -9480,6 +10303,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e&^) \u003e=\u003e&^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ea-\u003ec-\u003eb e)-\u003ed-\u003ea-\u003ef-\u003eb e",
@@ -9494,6 +10318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e*)",
           "package": "plumbers",
@@ -9503,6 +10328,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e*) \u003e=\u003e*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ec-\u003eb f)-\u003ed-\u003e(a,e)-\u003eb f",
@@ -9517,6 +10343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e*&)",
           "package": "plumbers",
@@ -9526,6 +10353,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e*&) \u003e=\u003e*&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003eb-\u003ed-\u003ec g)-\u003ee-\u003e(a,f)-\u003eb-\u003ec g",
@@ -9540,6 +10368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e**)",
           "package": "plumbers",
@@ -9549,6 +10378,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e**) \u003e=\u003e**",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003eg-\u003ed-\u003ec h)-\u003ee-\u003e(a,f)-\u003e(b,g)-\u003ec h",
@@ -9563,6 +10393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e*\u003c)",
           "package": "plumbers",
@@ -9572,6 +10403,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e*\u003c) \u003e=\u003e*\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ed-\u003ec g)-\u003ee-\u003e(a,f)-\u003eb-\u003ec g",
@@ -9586,6 +10418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e*\u003e)",
           "package": "plumbers",
@@ -9595,6 +10428,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e*\u003e) \u003e=\u003e*\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ef-\u003ec-\u003eb g)-\u003ed-\u003e(a,e)-\u003ef-\u003eb g",
@@ -9609,6 +10443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e*^)",
           "package": "plumbers",
@@ -9618,6 +10453,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e*^) \u003e=\u003e*^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ec-\u003eb f)-\u003ed-\u003e(a,e)-\u003eg-\u003eb f",
@@ -9632,6 +10468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003c)",
           "package": "plumbers",
@@ -9641,6 +10478,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003c) \u003e=\u003e\u003c",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ec-\u003eb e)-\u003ed-\u003ea-\u003eb e",
@@ -9655,6 +10493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003c&)",
           "package": "plumbers",
@@ -9664,6 +10503,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003c&) \u003e=\u003e\u003c&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ed-\u003ec f)-\u003ee-\u003ea-\u003eb-\u003ec f",
@@ -9678,6 +10518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003c*)",
           "package": "plumbers",
@@ -9687,6 +10528,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003c*) \u003e=\u003e\u003c*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ed-\u003ec g)-\u003ee-\u003ea-\u003e(b,f)-\u003ec g",
@@ -9701,6 +10543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003c\u003c)",
           "package": "plumbers",
@@ -9710,6 +10553,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003c\u003c) \u003e=\u003e\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ed-\u003ec f)-\u003ee-\u003ea-\u003eb-\u003ec f",
@@ -9724,6 +10568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003c\u003e)",
           "package": "plumbers",
@@ -9733,6 +10578,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003c\u003e) \u003e=\u003e\u003c\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ec-\u003eb f)-\u003ed-\u003ea-\u003ee-\u003eb f",
@@ -9747,6 +10593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003c^)",
           "package": "plumbers",
@@ -9756,6 +10603,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003c^) \u003e=\u003e\u003c^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ec-\u003eb e)-\u003ed-\u003ea-\u003ef-\u003eb e",
@@ -9770,6 +10618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003e)",
           "package": "plumbers",
@@ -9779,6 +10628,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003e) \u003e=\u003e\u003e",
           "normalized": "a b-\u003e(c-\u003ed-\u003eb-\u003ea e)-\u003ec-\u003ed-\u003ea e",
@@ -9793,6 +10643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003e&)",
           "package": "plumbers",
@@ -9802,6 +10653,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003e&) \u003e=\u003e\u003e&",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ea-\u003ec-\u003eb f)-\u003ed-\u003ee-\u003ea-\u003eb f",
@@ -9816,6 +10668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003e*)",
           "package": "plumbers",
@@ -9825,6 +10678,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003e*) \u003e=\u003e\u003e*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ef-\u003ec-\u003eb g)-\u003ed-\u003ee-\u003e(a,f)-\u003eb g",
@@ -9839,6 +10693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003e\u003c)",
           "package": "plumbers",
@@ -9848,6 +10703,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003e\u003c) \u003e=\u003e\u003e\u003c",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ec-\u003eb f)-\u003ed-\u003ee-\u003ea-\u003eb f",
@@ -9862,6 +10718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003e\u003e)",
           "package": "plumbers",
@@ -9871,6 +10728,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003e\u003e) \u003e=\u003e\u003e\u003e",
           "normalized": "a b-\u003e(c-\u003ed-\u003ee-\u003eb-\u003ea f)-\u003ec-\u003ed-\u003ee-\u003ea f",
@@ -9885,6 +10743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003e^)",
           "package": "plumbers",
@@ -9894,6 +10753,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e\u003e^) \u003e=\u003e\u003e^",
           "normalized": "a b-\u003e(c-\u003ed-\u003eb-\u003ea e)-\u003ec-\u003ed-\u003ef-\u003ea e",
@@ -9908,6 +10768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e^)",
           "package": "plumbers",
@@ -9917,6 +10778,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e^) \u003e=\u003e^",
           "normalized": "a b-\u003e(c-\u003eb-\u003ea d)-\u003ec-\u003ee-\u003ea d",
@@ -9931,6 +10793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e^&)",
           "package": "plumbers",
@@ -9940,6 +10803,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e^&) \u003e=\u003e^&",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ea-\u003ec-\u003eb e)-\u003ed-\u003ef-\u003ea-\u003eb e",
@@ -9954,6 +10818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e^*)",
           "package": "plumbers",
@@ -9963,6 +10828,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e^*) \u003e=\u003e^*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ec-\u003eb f)-\u003ed-\u003eg-\u003e(a,e)-\u003eb f",
@@ -9977,6 +10843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e^\u003c)",
           "package": "plumbers",
@@ -9986,6 +10853,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e^\u003c) \u003e=\u003e^\u003c",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ec-\u003eb e)-\u003ed-\u003ef-\u003ea-\u003eb e",
@@ -10000,6 +10868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e^\u003e)",
           "package": "plumbers",
@@ -10009,6 +10878,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e^\u003e) \u003e=\u003e^\u003e",
           "normalized": "a b-\u003e(c-\u003ed-\u003eb-\u003ea e)-\u003ec-\u003ef-\u003ed-\u003ea e",
@@ -10023,6 +10893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e^^)",
           "package": "plumbers",
@@ -10032,6 +10903,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=\u003e^^) \u003e=\u003e^^",
           "normalized": "a b-\u003e(c-\u003eb-\u003ea d)-\u003ec-\u003ee-\u003ef-\u003ea d",
@@ -10046,6 +10918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^)",
           "package": "plumbers",
@@ -10055,6 +10928,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^) \u003e=^",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ed-\u003ea c",
@@ -10069,6 +10943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^&)",
           "package": "plumbers",
@@ -10078,6 +10953,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^&) \u003e=^&",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ec-\u003eb d)-\u003ee-\u003ea-\u003eb d",
@@ -10092,6 +10968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^&&)",
           "package": "plumbers",
@@ -10101,6 +10978,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^&&) \u003e=^&&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003eb-\u003ed-\u003ec e)-\u003ef-\u003ea-\u003eb-\u003ec e",
@@ -10115,6 +10993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^&*)",
           "package": "plumbers",
@@ -10124,6 +11003,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^&*) \u003e=^&*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ed-\u003ec f)-\u003eg-\u003ea-\u003e(b,e)-\u003ec f",
@@ -10138,6 +11018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^&\u003c)",
           "package": "plumbers",
@@ -10147,6 +11028,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^&\u003c) \u003e=^&\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ed-\u003ec e)-\u003ef-\u003ea-\u003eb-\u003ec e",
@@ -10161,6 +11043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^&\u003e)",
           "package": "plumbers",
@@ -10170,6 +11053,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^&\u003e) \u003e=^&\u003e",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ed-\u003ec-\u003eb e)-\u003ef-\u003ea-\u003ed-\u003eb e",
@@ -10184,6 +11068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^&^)",
           "package": "plumbers",
@@ -10193,6 +11078,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^&^) \u003e=^&^",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ec-\u003eb d)-\u003ee-\u003ea-\u003ef-\u003eb d",
@@ -10207,6 +11093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^*)",
           "package": "plumbers",
@@ -10216,6 +11103,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^*) \u003e=^*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ec-\u003eb e)-\u003ef-\u003e(a,d)-\u003eb e",
@@ -10230,6 +11118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^*&)",
           "package": "plumbers",
@@ -10239,6 +11128,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^*&) \u003e=^*&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ed-\u003ec f)-\u003eg-\u003e(a,e)-\u003eb-\u003ec f",
@@ -10253,6 +11143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^**)",
           "package": "plumbers",
@@ -10262,6 +11153,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^**) \u003e=^**",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ed-\u003ec g)-\u003eh-\u003e(a,e)-\u003e(b,f)-\u003ec g",
@@ -10276,6 +11168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^*\u003c)",
           "package": "plumbers",
@@ -10285,6 +11178,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^*\u003c) \u003e=^*\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ed-\u003ec f)-\u003eg-\u003e(a,e)-\u003eb-\u003ec f",
@@ -10299,6 +11193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^*\u003e)",
           "package": "plumbers",
@@ -10308,6 +11203,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^*\u003e) \u003e=^*\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ec-\u003eb f)-\u003eg-\u003e(a,d)-\u003ee-\u003eb f",
@@ -10322,6 +11218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^*^)",
           "package": "plumbers",
@@ -10331,6 +11228,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^*^) \u003e=^*^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ec-\u003eb e)-\u003ef-\u003e(a,d)-\u003eg-\u003eb e",
@@ -10345,6 +11243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003c)",
           "package": "plumbers",
@@ -10354,6 +11253,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003c) \u003e=^\u003c",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003eb d)-\u003ee-\u003ea-\u003eb d",
@@ -10368,6 +11268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003c&)",
           "package": "plumbers",
@@ -10377,6 +11278,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003c&) \u003e=^\u003c&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(b-\u003ed-\u003ec e)-\u003ef-\u003ea-\u003eb-\u003ec e",
@@ -10391,6 +11293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003c*)",
           "package": "plumbers",
@@ -10400,6 +11303,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003c*) \u003e=^\u003c*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ed-\u003ec f)-\u003eg-\u003ea-\u003e(b,e)-\u003ec f",
@@ -10414,6 +11318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003c\u003c)",
           "package": "plumbers",
@@ -10423,6 +11328,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003c\u003c) \u003e=^\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(d-\u003ec e)-\u003ef-\u003ea-\u003eb-\u003ec e",
@@ -10437,6 +11343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003c\u003e)",
           "package": "plumbers",
@@ -10446,6 +11353,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003c\u003e) \u003e=^\u003c\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ec-\u003eb e)-\u003ef-\u003ea-\u003ed-\u003eb e",
@@ -10460,6 +11368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003c^)",
           "package": "plumbers",
@@ -10469,6 +11378,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003c^) \u003e=^\u003c^",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003eb d)-\u003ee-\u003ea-\u003ef-\u003eb d",
@@ -10483,6 +11393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003e)",
           "package": "plumbers",
@@ -10492,6 +11403,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003e) \u003e=^\u003e",
           "normalized": "a b-\u003e(c-\u003eb-\u003ea d)-\u003ee-\u003ec-\u003ea d",
@@ -10506,6 +11418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003e&)",
           "package": "plumbers",
@@ -10515,6 +11428,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003e&) \u003e=^\u003e&",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ea-\u003ec-\u003eb e)-\u003ef-\u003ed-\u003ea-\u003eb e",
@@ -10529,6 +11443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003e*)",
           "package": "plumbers",
@@ -10538,6 +11453,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003e*) \u003e=^\u003e*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ec-\u003eb f)-\u003eg-\u003ed-\u003e(a,e)-\u003eb f",
@@ -10552,6 +11468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003e\u003c)",
           "package": "plumbers",
@@ -10561,6 +11478,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003e\u003c) \u003e=^\u003e\u003c",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ec-\u003eb e)-\u003ef-\u003ed-\u003ea-\u003eb e",
@@ -10575,6 +11493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003e\u003e)",
           "package": "plumbers",
@@ -10584,6 +11503,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003e\u003e) \u003e=^\u003e\u003e",
           "normalized": "a b-\u003e(c-\u003ed-\u003eb-\u003ea e)-\u003ef-\u003ec-\u003ed-\u003ea e",
@@ -10598,6 +11518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003e^)",
           "package": "plumbers",
@@ -10607,6 +11528,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^\u003e^) \u003e=^\u003e^",
           "normalized": "a b-\u003e(c-\u003eb-\u003ea d)-\u003ee-\u003ec-\u003ef-\u003ea d",
@@ -10621,6 +11543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^^)",
           "package": "plumbers",
@@ -10630,6 +11553,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^^) \u003e=^^",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ed-\u003ee-\u003ea c",
@@ -10644,6 +11568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^^&)",
           "package": "plumbers",
@@ -10653,6 +11578,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^^&) \u003e=^^&",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ec-\u003eb d)-\u003ee-\u003ef-\u003ea-\u003eb d",
@@ -10667,6 +11593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^^*)",
           "package": "plumbers",
@@ -10676,6 +11603,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^^*) \u003e=^^*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ec-\u003eb e)-\u003ef-\u003eg-\u003e(a,d)-\u003eb e",
@@ -10690,6 +11618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^^\u003c)",
           "package": "plumbers",
@@ -10699,6 +11628,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^^\u003c) \u003e=^^\u003c",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003eb d)-\u003ee-\u003ef-\u003ea-\u003eb d",
@@ -10713,6 +11643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^^\u003e)",
           "package": "plumbers",
@@ -10722,6 +11653,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^^\u003e) \u003e=^^\u003e",
           "normalized": "a b-\u003e(c-\u003eb-\u003ea d)-\u003ee-\u003ef-\u003ec-\u003ea d",
@@ -10736,6 +11668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^^^)",
           "package": "plumbers",
@@ -10745,6 +11678,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e=^^^) \u003e=^^^",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ed-\u003ee-\u003ef-\u003ea c",
@@ -10759,6 +11693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&)",
           "package": "plumbers",
@@ -10768,6 +11703,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&) \u003e\u003e&",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb d)-\u003ea-\u003eb d",
@@ -10782,6 +11718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&&)",
           "package": "plumbers",
@@ -10791,6 +11728,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&&) \u003e\u003e&&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003eb-\u003ec e)-\u003ea-\u003eb-\u003ec e",
@@ -10805,6 +11743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&&&)",
           "package": "plumbers",
@@ -10814,6 +11753,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&&&) \u003e\u003e&&&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003eb-\u003ec-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed f",
@@ -10828,6 +11768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&&*)",
           "package": "plumbers",
@@ -10837,6 +11778,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&&*) \u003e\u003e&&*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003eb-\u003ef-\u003ed g)-\u003ea-\u003eb-\u003e(c,f)-\u003ed g",
@@ -10851,6 +11793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&&\u003c)",
           "package": "plumbers",
@@ -10860,6 +11803,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&&\u003c) \u003e\u003e&&\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003eb-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed f",
@@ -10874,6 +11818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&&\u003e)",
           "package": "plumbers",
@@ -10883,6 +11828,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&&\u003e) \u003e\u003e&&\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003eb-\u003ee-\u003ec f)-\u003ea-\u003eb-\u003ee-\u003ec f",
@@ -10897,6 +11843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&&^)",
           "package": "plumbers",
@@ -10906,6 +11853,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&&^) \u003e\u003e&&^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003eb-\u003ec e)-\u003ea-\u003eb-\u003ef-\u003ec e",
@@ -10920,6 +11868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&*)",
           "package": "plumbers",
@@ -10929,6 +11878,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&*) \u003e\u003e&*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ec f)-\u003ea-\u003e(b,e)-\u003ec f",
@@ -10943,6 +11893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&*&)",
           "package": "plumbers",
@@ -10952,6 +11903,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&*&) \u003e\u003e&*&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003ec-\u003ed g)-\u003ea-\u003e(b,f)-\u003ec-\u003ed g",
@@ -10966,6 +11918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&**)",
           "package": "plumbers",
@@ -10975,6 +11928,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&**) \u003e\u003e&**",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003eg-\u003ed h)-\u003ea-\u003e(b,f)-\u003e(c,g)-\u003ed h",
@@ -10989,6 +11943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&*\u003c)",
           "package": "plumbers",
@@ -10998,6 +11953,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&*\u003c) \u003e\u003e&*\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003ed g)-\u003ea-\u003e(b,f)-\u003ec-\u003ed g",
@@ -11012,6 +11968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&*\u003e)",
           "package": "plumbers",
@@ -11021,6 +11978,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&*\u003e) \u003e\u003e&*\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ef-\u003ec g)-\u003ea-\u003e(b,e)-\u003ef-\u003ec g",
@@ -11035,6 +11993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&*^)",
           "package": "plumbers",
@@ -11044,6 +12003,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&*^) \u003e\u003e&*^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ec f)-\u003ea-\u003e(b,e)-\u003eg-\u003ec f",
@@ -11058,6 +12018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003c)",
           "package": "plumbers",
@@ -11067,6 +12028,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003c) \u003e\u003e&\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ec e)-\u003ea-\u003eb-\u003ec e",
@@ -11081,6 +12043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003c&)",
           "package": "plumbers",
@@ -11090,6 +12053,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003c&) \u003e\u003e&\u003c&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ec-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed f",
@@ -11104,6 +12068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003c*)",
           "package": "plumbers",
@@ -11113,6 +12078,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003c*) \u003e\u003e&\u003c*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ef-\u003ed g)-\u003ea-\u003eb-\u003e(c,f)-\u003ed g",
@@ -11127,6 +12093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003c\u003c)",
           "package": "plumbers",
@@ -11136,6 +12103,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003c\u003c) \u003e\u003e&\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(a-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed f",
@@ -11150,6 +12118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003c\u003e)",
           "package": "plumbers",
@@ -11159,6 +12128,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003c\u003e) \u003e\u003e&\u003c\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ec f)-\u003ea-\u003eb-\u003ee-\u003ec f",
@@ -11173,6 +12143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003c^)",
           "package": "plumbers",
@@ -11182,6 +12153,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003c^) \u003e\u003e&\u003c^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ec e)-\u003ea-\u003eb-\u003ef-\u003ec e",
@@ -11196,6 +12168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003e)",
           "package": "plumbers",
@@ -11205,6 +12178,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003e) \u003e\u003e&\u003e",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ed-\u003eb e)-\u003ea-\u003ed-\u003eb e",
@@ -11219,6 +12193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003e&)",
           "package": "plumbers",
@@ -11228,6 +12203,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003e&) \u003e\u003e&\u003e&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003eb-\u003ec f)-\u003ea-\u003ee-\u003eb-\u003ec f",
@@ -11242,6 +12218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003e*)",
           "package": "plumbers",
@@ -11251,6 +12228,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003e*) \u003e\u003e&\u003e*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ef-\u003ec g)-\u003ea-\u003ee-\u003e(b,f)-\u003ec g",
@@ -11265,6 +12243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003e\u003c)",
           "package": "plumbers",
@@ -11274,6 +12253,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003e\u003c) \u003e\u003e&\u003e\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ec f)-\u003ea-\u003ee-\u003eb-\u003ec f",
@@ -11288,6 +12268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003e\u003e)",
           "package": "plumbers",
@@ -11297,6 +12278,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003e\u003e) \u003e\u003e&\u003e\u003e",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ed-\u003ee-\u003eb f)-\u003ea-\u003ed-\u003ee-\u003eb f",
@@ -11311,6 +12293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003e^)",
           "package": "plumbers",
@@ -11320,6 +12303,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&\u003e^) \u003e\u003e&\u003e^",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ed-\u003eb e)-\u003ea-\u003ed-\u003ef-\u003eb e",
@@ -11334,6 +12318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&^)",
           "package": "plumbers",
@@ -11343,6 +12328,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&^) \u003e\u003e&^",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb d)-\u003ea-\u003ee-\u003eb d",
@@ -11357,6 +12343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&^&)",
           "package": "plumbers",
@@ -11366,6 +12353,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&^&) \u003e\u003e&^&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003eb-\u003ec e)-\u003ea-\u003ef-\u003eb-\u003ec e",
@@ -11380,6 +12368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&^*)",
           "package": "plumbers",
@@ -11389,6 +12378,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&^*) \u003e\u003e&^*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ec f)-\u003ea-\u003eg-\u003e(b,e)-\u003ec f",
@@ -11403,6 +12393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&^\u003c)",
           "package": "plumbers",
@@ -11412,6 +12403,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&^\u003c) \u003e\u003e&^\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ec e)-\u003ea-\u003ef-\u003eb-\u003ec e",
@@ -11426,6 +12418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&^\u003e)",
           "package": "plumbers",
@@ -11435,6 +12428,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&^\u003e) \u003e\u003e&^\u003e",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ed-\u003eb e)-\u003ea-\u003ef-\u003ed-\u003eb e",
@@ -11449,6 +12443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&^^)",
           "package": "plumbers",
@@ -11458,6 +12453,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e&^^) \u003e\u003e&^^",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb d)-\u003ea-\u003ee-\u003ef-\u003eb d",
@@ -11472,6 +12468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*)",
           "package": "plumbers",
@@ -11481,6 +12478,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*) \u003e\u003e*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003e(a,d)-\u003eb e",
@@ -11495,6 +12493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*&)",
           "package": "plumbers",
@@ -11504,6 +12503,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*&) \u003e\u003e*&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ec f)-\u003e(a,e)-\u003eb-\u003ec f",
@@ -11518,6 +12518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*&&)",
           "package": "plumbers",
@@ -11527,6 +12528,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*&&) \u003e\u003e*&&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eb-\u003ec-\u003ed g)-\u003e(a,f)-\u003eb-\u003ec-\u003ed g",
@@ -11541,6 +12543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*&*)",
           "package": "plumbers",
@@ -11550,6 +12553,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*&*) \u003e\u003e*&*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eb-\u003eg-\u003ed h)-\u003e(a,f)-\u003eb-\u003e(c,g)-\u003ed h",
@@ -11564,6 +12568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*&\u003c)",
           "package": "plumbers",
@@ -11573,6 +12578,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*&\u003c) \u003e\u003e*&\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eb-\u003ed g)-\u003e(a,f)-\u003eb-\u003ec-\u003ed g",
@@ -11587,6 +12593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*&\u003e)",
           "package": "plumbers",
@@ -11596,6 +12603,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*&\u003e) \u003e\u003e*&\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ef-\u003ec g)-\u003e(a,e)-\u003eb-\u003ef-\u003ec g",
@@ -11610,6 +12618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*&^)",
           "package": "plumbers",
@@ -11619,6 +12628,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*&^) \u003e\u003e*&^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ec f)-\u003e(a,e)-\u003eb-\u003eg-\u003ec f",
@@ -11633,6 +12643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e**)",
           "package": "plumbers",
@@ -11642,6 +12653,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e**) \u003e\u003e**",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003e(a,e)-\u003e(b,f)-\u003ec g",
@@ -11656,6 +12668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e**&)",
           "package": "plumbers",
@@ -11665,6 +12678,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e**&) \u003e\u003e**&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ec-\u003ed h)-\u003e(a,f)-\u003e(b,g)-\u003ec-\u003ed h",
@@ -11679,6 +12693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e***)",
           "package": "plumbers",
@@ -11688,6 +12703,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e***) \u003e\u003e***",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003eh-\u003ed i)-\u003e(a,f)-\u003e(b,g)-\u003e(c,h)-\u003ed i",
@@ -11702,6 +12718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e**\u003c)",
           "package": "plumbers",
@@ -11711,6 +12728,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e**\u003c) \u003e\u003e**\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ed h)-\u003e(a,f)-\u003e(b,g)-\u003ec-\u003ed h",
@@ -11725,6 +12743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e**\u003e)",
           "package": "plumbers",
@@ -11734,6 +12753,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e**\u003e) \u003e\u003e**\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003eg-\u003ec h)-\u003e(a,e)-\u003e(b,f)-\u003eg-\u003ec h",
@@ -11748,6 +12768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e**^)",
           "package": "plumbers",
@@ -11757,6 +12778,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e**^) \u003e\u003e**^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003e(a,e)-\u003e(b,f)-\u003eh-\u003ec g",
@@ -11771,6 +12793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003c)",
           "package": "plumbers",
@@ -11780,6 +12803,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003c) \u003e\u003e*\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003e(a,e)-\u003eb-\u003ec f",
@@ -11794,6 +12818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003c&)",
           "package": "plumbers",
@@ -11803,6 +12828,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003c&) \u003e\u003e*\u003c&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ec-\u003ed g)-\u003e(a,f)-\u003eb-\u003ec-\u003ed g",
@@ -11817,6 +12843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003c*)",
           "package": "plumbers",
@@ -11826,6 +12853,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003c*) \u003e\u003e*\u003c*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ed h)-\u003e(a,f)-\u003eb-\u003e(c,g)-\u003ed h",
@@ -11840,6 +12868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003c\u003c)",
           "package": "plumbers",
@@ -11849,6 +12878,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003c\u003c) \u003e\u003e*\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ed g)-\u003e(a,f)-\u003eb-\u003ec-\u003ed g",
@@ -11863,6 +12893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003c\u003e)",
           "package": "plumbers",
@@ -11872,6 +12903,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003c\u003e) \u003e\u003e*\u003c\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003e(a,e)-\u003eb-\u003ef-\u003ec g",
@@ -11886,6 +12918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003c^)",
           "package": "plumbers",
@@ -11895,6 +12928,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003c^) \u003e\u003e*\u003c^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003e(a,e)-\u003eb-\u003eg-\u003ec f",
@@ -11909,6 +12943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003e)",
           "package": "plumbers",
@@ -11918,6 +12953,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003e) \u003e\u003e*\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003e(a,d)-\u003ee-\u003eb f",
@@ -11932,6 +12968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003e&)",
           "package": "plumbers",
@@ -11941,6 +12978,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003e&) \u003e\u003e*\u003e&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003eb-\u003ec g)-\u003e(a,e)-\u003ef-\u003eb-\u003ec g",
@@ -11955,6 +12993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003e*)",
           "package": "plumbers",
@@ -11964,6 +13003,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003e*) \u003e\u003e*\u003e*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003eg-\u003ec h)-\u003e(a,e)-\u003ef-\u003e(b,g)-\u003ec h",
@@ -11978,6 +13018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003e\u003c)",
           "package": "plumbers",
@@ -11987,6 +13028,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003e\u003c) \u003e\u003e*\u003e\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003e(a,e)-\u003ef-\u003eb-\u003ec g",
@@ -12001,6 +13043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003e\u003e)",
           "package": "plumbers",
@@ -12010,6 +13053,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003e\u003e) \u003e\u003e*\u003e\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ef-\u003eb g)-\u003e(a,d)-\u003ee-\u003ef-\u003eb g",
@@ -12024,6 +13068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003e^)",
           "package": "plumbers",
@@ -12033,6 +13078,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*\u003e^) \u003e\u003e*\u003e^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003e(a,d)-\u003ee-\u003eg-\u003eb f",
@@ -12047,6 +13093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*^)",
           "package": "plumbers",
@@ -12056,6 +13103,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*^) \u003e\u003e*^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003e(a,d)-\u003ef-\u003eb e",
@@ -12070,6 +13118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*^&)",
           "package": "plumbers",
@@ -12079,6 +13128,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*^&) \u003e\u003e*^&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ec f)-\u003e(a,e)-\u003eg-\u003eb-\u003ec f",
@@ -12093,6 +13143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*^*)",
           "package": "plumbers",
@@ -12102,6 +13153,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*^*) \u003e\u003e*^*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003e(a,e)-\u003eh-\u003e(b,f)-\u003ec g",
@@ -12116,6 +13168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*^\u003c)",
           "package": "plumbers",
@@ -12125,6 +13178,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*^\u003c) \u003e\u003e*^\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003e(a,e)-\u003eg-\u003eb-\u003ec f",
@@ -12139,6 +13193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*^\u003e)",
           "package": "plumbers",
@@ -12148,6 +13203,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*^\u003e) \u003e\u003e*^\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003e(a,d)-\u003eg-\u003ee-\u003eb f",
@@ -12162,6 +13218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*^^)",
           "package": "plumbers",
@@ -12171,6 +13228,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e*^^) \u003e\u003e*^^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003e(a,d)-\u003ef-\u003eg-\u003eb e",
@@ -12185,6 +13243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c)",
           "package": "plumbers",
@@ -12194,6 +13253,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c) \u003e\u003e\u003c",
           "normalized": "(a-\u003eb c)-\u003eb d-\u003ea-\u003eb d",
@@ -12208,6 +13268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c&)",
           "package": "plumbers",
@@ -12217,6 +13278,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c&) \u003e\u003e\u003c&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(b-\u003ec e)-\u003ea-\u003eb-\u003ec e",
@@ -12231,6 +13293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c&&)",
           "package": "plumbers",
@@ -12240,6 +13303,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c&&) \u003e\u003e\u003c&&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(b-\u003ec-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed f",
@@ -12254,6 +13318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c&*)",
           "package": "plumbers",
@@ -12263,6 +13328,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c&*) \u003e\u003e\u003c&*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(b-\u003ef-\u003ed g)-\u003ea-\u003eb-\u003e(c,f)-\u003ed g",
@@ -12277,6 +13343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c&\u003c)",
           "package": "plumbers",
@@ -12286,6 +13353,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c&\u003c) \u003e\u003e\u003c&\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(b-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed f",
@@ -12300,6 +13368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c&\u003e)",
           "package": "plumbers",
@@ -12309,6 +13378,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c&\u003e) \u003e\u003e\u003c&\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(b-\u003ee-\u003ec f)-\u003ea-\u003eb-\u003ee-\u003ec f",
@@ -12323,6 +13393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c&^)",
           "package": "plumbers",
@@ -12332,6 +13403,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c&^) \u003e\u003e\u003c&^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(b-\u003ec e)-\u003ea-\u003eb-\u003ef-\u003ec e",
@@ -12346,6 +13418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c*)",
           "package": "plumbers",
@@ -12355,6 +13428,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c*) \u003e\u003e\u003c*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003ea-\u003e(b,e)-\u003ec f",
@@ -12369,6 +13443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c*&)",
           "package": "plumbers",
@@ -12378,6 +13453,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c*&) \u003e\u003e\u003c*&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ec-\u003ed g)-\u003ea-\u003e(b,f)-\u003ec-\u003ed g",
@@ -12392,6 +13468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c**)",
           "package": "plumbers",
@@ -12401,6 +13478,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c**) \u003e\u003e\u003c**",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003eg-\u003ed h)-\u003ea-\u003e(b,f)-\u003e(c,g)-\u003ed h",
@@ -12415,6 +13493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c*\u003c)",
           "package": "plumbers",
@@ -12424,6 +13503,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c*\u003c) \u003e\u003e\u003c*\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ed g)-\u003ea-\u003e(b,f)-\u003ec-\u003ed g",
@@ -12438,6 +13518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c*\u003e)",
           "package": "plumbers",
@@ -12447,6 +13528,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c*\u003e) \u003e\u003e\u003c*\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003ea-\u003e(b,e)-\u003ef-\u003ec g",
@@ -12461,6 +13543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c*^)",
           "package": "plumbers",
@@ -12470,6 +13553,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c*^) \u003e\u003e\u003c*^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003ea-\u003e(b,e)-\u003eg-\u003ec f",
@@ -12484,6 +13568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003c)",
           "package": "plumbers",
@@ -12493,6 +13578,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003c) \u003e\u003e\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ec e-\u003ea-\u003eb-\u003ec e",
@@ -12507,6 +13593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003c&)",
           "package": "plumbers",
@@ -12516,6 +13603,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003c&) \u003e\u003e\u003c\u003c&",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(c-\u003ed f)-\u003ea-\u003eb-\u003ec-\u003ed f",
@@ -12530,6 +13618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003c*)",
           "package": "plumbers",
@@ -12539,6 +13628,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003c*) \u003e\u003e\u003c\u003c*",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e(f-\u003ed g)-\u003ea-\u003eb-\u003e(c,f)-\u003ed g",
@@ -12553,6 +13643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003c\u003c)",
           "package": "plumbers",
@@ -12562,6 +13653,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003c\u003c) \u003e\u003e\u003c\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003ed f-\u003ea-\u003eb-\u003ec-\u003ed f",
@@ -12576,6 +13668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003c\u003e)",
           "package": "plumbers",
@@ -12585,6 +13678,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003c\u003e) \u003e\u003e\u003c\u003c\u003e",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003ea-\u003eb-\u003ee-\u003ec f",
@@ -12599,6 +13693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003c^)",
           "package": "plumbers",
@@ -12608,6 +13703,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003c^) \u003e\u003e\u003c\u003c^",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ec e-\u003ea-\u003eb-\u003ef-\u003ec e",
@@ -12622,6 +13718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003e)",
           "package": "plumbers",
@@ -12631,6 +13728,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003e) \u003e\u003e\u003c\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ea-\u003ed-\u003eb e",
@@ -12645,6 +13743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003e&)",
           "package": "plumbers",
@@ -12654,6 +13753,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003e&) \u003e\u003e\u003c\u003e&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ec f)-\u003ea-\u003ee-\u003eb-\u003ec f",
@@ -12668,6 +13768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003e*)",
           "package": "plumbers",
@@ -12677,6 +13778,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003e*) \u003e\u003e\u003c\u003e*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003ea-\u003ee-\u003e(b,f)-\u003ec g",
@@ -12691,6 +13793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003e\u003c)",
           "package": "plumbers",
@@ -12700,6 +13803,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003e\u003c) \u003e\u003e\u003c\u003e\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003ea-\u003ee-\u003eb-\u003ec f",
@@ -12714,6 +13818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003e\u003e)",
           "package": "plumbers",
@@ -12723,6 +13828,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003e\u003e) \u003e\u003e\u003c\u003e\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003ea-\u003ed-\u003ee-\u003eb f",
@@ -12737,6 +13843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003e^)",
           "package": "plumbers",
@@ -12746,6 +13853,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c\u003e^) \u003e\u003e\u003c\u003e^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ea-\u003ed-\u003ef-\u003eb e",
@@ -12760,6 +13868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c^)",
           "package": "plumbers",
@@ -12769,6 +13878,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c^) \u003e\u003e\u003c^",
           "normalized": "(a-\u003eb c)-\u003eb d-\u003ea-\u003ee-\u003eb d",
@@ -12783,6 +13893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c^&)",
           "package": "plumbers",
@@ -12792,6 +13903,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c^&) \u003e\u003e\u003c^&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(b-\u003ec e)-\u003ea-\u003ef-\u003eb-\u003ec e",
@@ -12806,6 +13918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c^*)",
           "package": "plumbers",
@@ -12815,6 +13928,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c^*) \u003e\u003e\u003c^*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003ea-\u003eg-\u003e(b,e)-\u003ec f",
@@ -12829,6 +13943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c^\u003c)",
           "package": "plumbers",
@@ -12838,6 +13953,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c^\u003c) \u003e\u003e\u003c^\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ec e-\u003ea-\u003ef-\u003eb-\u003ec e",
@@ -12852,6 +13968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c^\u003e)",
           "package": "plumbers",
@@ -12861,6 +13978,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c^\u003e) \u003e\u003e\u003c^\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ea-\u003ef-\u003ed-\u003eb e",
@@ -12875,6 +13993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c^^)",
           "package": "plumbers",
@@ -12884,6 +14003,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003c^^) \u003e\u003e\u003c^^",
           "normalized": "(a-\u003eb c)-\u003eb d-\u003ea-\u003ee-\u003ef-\u003eb d",
@@ -12898,6 +14018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e)",
           "package": "plumbers",
@@ -12907,6 +14028,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e) \u003e\u003e\u003e",
           "normalized": "a b-\u003e(c-\u003ea d)-\u003ec-\u003ea d",
@@ -12921,6 +14043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e&)",
           "package": "plumbers",
@@ -12930,6 +14053,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e&) \u003e\u003e\u003e&",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ea-\u003eb e)-\u003ed-\u003ea-\u003eb e",
@@ -12944,6 +14068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e&&)",
           "package": "plumbers",
@@ -12953,6 +14078,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e&&) \u003e\u003e\u003e&&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ea-\u003eb-\u003ec f)-\u003ee-\u003ea-\u003eb-\u003ec f",
@@ -12967,6 +14093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e&*)",
           "package": "plumbers",
@@ -12976,6 +14103,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e&*) \u003e\u003e\u003e&*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ea-\u003ef-\u003ec g)-\u003ee-\u003ea-\u003e(b,f)-\u003ec g",
@@ -12990,6 +14118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e&\u003c)",
           "package": "plumbers",
@@ -12999,6 +14128,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e&\u003c) \u003e\u003e\u003e&\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ea-\u003ec f)-\u003ee-\u003ea-\u003eb-\u003ec f",
@@ -13013,6 +14143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e&\u003e)",
           "package": "plumbers",
@@ -13022,6 +14153,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e&\u003e) \u003e\u003e\u003e&\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ea-\u003ee-\u003eb f)-\u003ed-\u003ea-\u003ee-\u003eb f",
@@ -13036,6 +14168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e&^)",
           "package": "plumbers",
@@ -13045,6 +14178,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e&^) \u003e\u003e\u003e&^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ea-\u003eb e)-\u003ed-\u003ea-\u003ef-\u003eb e",
@@ -13059,6 +14193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e*)",
           "package": "plumbers",
@@ -13068,6 +14203,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e*) \u003e\u003e\u003e*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003ed-\u003e(a,e)-\u003eb f",
@@ -13082,6 +14218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e*&)",
           "package": "plumbers",
@@ -13091,6 +14228,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e*&) \u003e\u003e\u003e*&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003eb-\u003ec g)-\u003ee-\u003e(a,f)-\u003eb-\u003ec g",
@@ -13105,6 +14243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e**)",
           "package": "plumbers",
@@ -13114,6 +14253,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e**) \u003e\u003e\u003e**",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003eg-\u003ec h)-\u003ee-\u003e(a,f)-\u003e(b,g)-\u003ec h",
@@ -13128,6 +14268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e*\u003c)",
           "package": "plumbers",
@@ -13137,6 +14278,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e*\u003c) \u003e\u003e\u003e*\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003ee-\u003e(a,f)-\u003eb-\u003ec g",
@@ -13151,6 +14293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e*\u003e)",
           "package": "plumbers",
@@ -13160,6 +14303,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e*\u003e) \u003e\u003e\u003e*\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ef-\u003eb g)-\u003ed-\u003e(a,e)-\u003ef-\u003eb g",
@@ -13174,6 +14318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e*^)",
           "package": "plumbers",
@@ -13183,6 +14328,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e*^) \u003e\u003e\u003e*^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003ed-\u003e(a,e)-\u003eg-\u003eb f",
@@ -13197,6 +14343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003c)",
           "package": "plumbers",
@@ -13206,6 +14353,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003c) \u003e\u003e\u003e\u003c",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ed-\u003ea-\u003eb e",
@@ -13220,6 +14368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003c&)",
           "package": "plumbers",
@@ -13229,6 +14378,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003c&) \u003e\u003e\u003e\u003c&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ec f)-\u003ee-\u003ea-\u003eb-\u003ec f",
@@ -13243,6 +14393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003c*)",
           "package": "plumbers",
@@ -13252,6 +14403,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003c*) \u003e\u003e\u003e\u003c*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003ee-\u003ea-\u003e(b,f)-\u003ec g",
@@ -13266,6 +14418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003c\u003c)",
           "package": "plumbers",
@@ -13275,6 +14428,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003c\u003c) \u003e\u003e\u003e\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003ee-\u003ea-\u003eb-\u003ec f",
@@ -13289,6 +14443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003c\u003e)",
           "package": "plumbers",
@@ -13298,6 +14453,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003c\u003e) \u003e\u003e\u003e\u003c\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003ed-\u003ea-\u003ee-\u003eb f",
@@ -13312,6 +14468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003c^)",
           "package": "plumbers",
@@ -13321,6 +14478,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003c^) \u003e\u003e\u003e\u003c^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ed-\u003ea-\u003ef-\u003eb e",
@@ -13335,6 +14493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003e)",
           "package": "plumbers",
@@ -13344,6 +14503,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003e) \u003e\u003e\u003e\u003e",
           "normalized": "a b-\u003e(c-\u003ed-\u003ea e)-\u003ec-\u003ed-\u003ea e",
@@ -13358,6 +14518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003e&)",
           "package": "plumbers",
@@ -13367,6 +14528,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003e&) \u003e\u003e\u003e\u003e&",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ea-\u003eb f)-\u003ed-\u003ee-\u003ea-\u003eb f",
@@ -13381,6 +14543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003e*)",
           "package": "plumbers",
@@ -13390,6 +14553,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003e*) \u003e\u003e\u003e\u003e*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003ef-\u003eb g)-\u003ed-\u003ee-\u003e(a,f)-\u003eb g",
@@ -13404,6 +14568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003e\u003c)",
           "package": "plumbers",
@@ -13413,6 +14578,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003e\u003c) \u003e\u003e\u003e\u003e\u003c",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003ed-\u003ee-\u003ea-\u003eb f",
@@ -13427,6 +14593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003e\u003e)",
           "package": "plumbers",
@@ -13436,6 +14603,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003e\u003e) \u003e\u003e\u003e\u003e\u003e",
           "normalized": "a b-\u003e(c-\u003ed-\u003ee-\u003ea f)-\u003ec-\u003ed-\u003ee-\u003ea f",
@@ -13450,6 +14618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003e^)",
           "package": "plumbers",
@@ -13459,6 +14628,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e\u003e^) \u003e\u003e\u003e\u003e^",
           "normalized": "a b-\u003e(c-\u003ed-\u003ea e)-\u003ec-\u003ed-\u003ef-\u003ea e",
@@ -13473,6 +14643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e^)",
           "package": "plumbers",
@@ -13482,6 +14653,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e^) \u003e\u003e\u003e^",
           "normalized": "a b-\u003e(c-\u003ea d)-\u003ec-\u003ee-\u003ea d",
@@ -13496,6 +14668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e^&)",
           "package": "plumbers",
@@ -13505,6 +14678,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e^&) \u003e\u003e\u003e^&",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ea-\u003eb e)-\u003ed-\u003ef-\u003ea-\u003eb e",
@@ -13519,6 +14693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e^*)",
           "package": "plumbers",
@@ -13528,6 +14703,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e^*) \u003e\u003e\u003e^*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003ed-\u003eg-\u003e(a,e)-\u003eb f",
@@ -13542,6 +14718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e^\u003c)",
           "package": "plumbers",
@@ -13551,6 +14728,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e^\u003c) \u003e\u003e\u003e^\u003c",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ed-\u003ef-\u003ea-\u003eb e",
@@ -13565,6 +14743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e^\u003e)",
           "package": "plumbers",
@@ -13574,6 +14753,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e^\u003e) \u003e\u003e\u003e^\u003e",
           "normalized": "a b-\u003e(c-\u003ed-\u003ea e)-\u003ec-\u003ef-\u003ed-\u003ea e",
@@ -13588,6 +14768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e^^)",
           "package": "plumbers",
@@ -13597,6 +14778,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e\u003e^^) \u003e\u003e\u003e^^",
           "normalized": "a b-\u003e(c-\u003ea d)-\u003ec-\u003ee-\u003ef-\u003ea d",
@@ -13611,6 +14793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^)",
           "package": "plumbers",
@@ -13620,6 +14803,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^) \u003e\u003e^",
           "normalized": "a b-\u003ea c-\u003ed-\u003ea c",
@@ -13634,6 +14818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^&)",
           "package": "plumbers",
@@ -13643,6 +14828,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^&) \u003e\u003e^&",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb d)-\u003ee-\u003ea-\u003eb d",
@@ -13657,6 +14843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^&&)",
           "package": "plumbers",
@@ -13666,6 +14853,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^&&) \u003e\u003e^&&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003eb-\u003ec e)-\u003ef-\u003ea-\u003eb-\u003ec e",
@@ -13680,6 +14868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^&*)",
           "package": "plumbers",
@@ -13689,6 +14878,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^&*) \u003e\u003e^&*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ee-\u003ec f)-\u003eg-\u003ea-\u003e(b,e)-\u003ec f",
@@ -13703,6 +14893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^&\u003c)",
           "package": "plumbers",
@@ -13712,6 +14903,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^&\u003c) \u003e\u003e^&\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(a-\u003ec e)-\u003ef-\u003ea-\u003eb-\u003ec e",
@@ -13726,6 +14918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^&\u003e)",
           "package": "plumbers",
@@ -13735,6 +14928,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^&\u003e) \u003e\u003e^&\u003e",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ed-\u003eb e)-\u003ef-\u003ea-\u003ed-\u003eb e",
@@ -13749,6 +14943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^&^)",
           "package": "plumbers",
@@ -13758,6 +14953,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^&^) \u003e\u003e^&^",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb d)-\u003ee-\u003ea-\u003ef-\u003eb d",
@@ -13772,6 +14968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^*)",
           "package": "plumbers",
@@ -13781,6 +14978,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^*) \u003e\u003e^*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ef-\u003e(a,d)-\u003eb e",
@@ -13795,6 +14993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^*&)",
           "package": "plumbers",
@@ -13804,6 +15003,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^*&) \u003e\u003e^*&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003eb-\u003ec f)-\u003eg-\u003e(a,e)-\u003eb-\u003ec f",
@@ -13818,6 +15018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^**)",
           "package": "plumbers",
@@ -13827,6 +15028,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^**) \u003e\u003e^**",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ef-\u003ec g)-\u003eh-\u003e(a,e)-\u003e(b,f)-\u003ec g",
@@ -13841,6 +15043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^*\u003c)",
           "package": "plumbers",
@@ -13850,6 +15053,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^*\u003c) \u003e\u003e^*\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003eg-\u003e(a,e)-\u003eb-\u003ec f",
@@ -13864,6 +15068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^*\u003e)",
           "package": "plumbers",
@@ -13873,6 +15078,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^*\u003e) \u003e\u003e^*\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003eg-\u003e(a,d)-\u003ee-\u003eb f",
@@ -13887,6 +15093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^*^)",
           "package": "plumbers",
@@ -13896,6 +15103,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^*^) \u003e\u003e^*^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ef-\u003e(a,d)-\u003eg-\u003eb e",
@@ -13910,6 +15118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003c)",
           "package": "plumbers",
@@ -13919,6 +15128,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003c) \u003e\u003e^\u003c",
           "normalized": "(a-\u003eb c)-\u003eb d-\u003ee-\u003ea-\u003eb d",
@@ -13933,6 +15143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003c&)",
           "package": "plumbers",
@@ -13942,6 +15153,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003c&) \u003e\u003e^\u003c&",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(b-\u003ec e)-\u003ef-\u003ea-\u003eb-\u003ec e",
@@ -13956,6 +15168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003c*)",
           "package": "plumbers",
@@ -13965,6 +15178,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003c*) \u003e\u003e^\u003c*",
           "normalized": "(a-\u003eb-\u003ec d)-\u003e(e-\u003ec f)-\u003eg-\u003ea-\u003e(b,e)-\u003ec f",
@@ -13979,6 +15193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003c\u003c)",
           "package": "plumbers",
@@ -13988,6 +15203,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003c\u003c) \u003e\u003e^\u003c\u003c",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ec e-\u003ef-\u003ea-\u003eb-\u003ec e",
@@ -14002,6 +15218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003c\u003e)",
           "package": "plumbers",
@@ -14011,6 +15228,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003c\u003e) \u003e\u003e^\u003c\u003e",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ef-\u003ea-\u003ed-\u003eb e",
@@ -14025,6 +15243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003c^)",
           "package": "plumbers",
@@ -14034,6 +15253,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003c^) \u003e\u003e^\u003c^",
           "normalized": "(a-\u003eb c)-\u003eb d-\u003ee-\u003ea-\u003ef-\u003eb d",
@@ -14048,6 +15268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003e)",
           "package": "plumbers",
@@ -14057,6 +15278,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003e) \u003e\u003e^\u003e",
           "normalized": "a b-\u003e(c-\u003ea d)-\u003ee-\u003ec-\u003ea d",
@@ -14071,6 +15293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003e&)",
           "package": "plumbers",
@@ -14080,6 +15303,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003e&) \u003e\u003e^\u003e&",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ea-\u003eb e)-\u003ef-\u003ed-\u003ea-\u003eb e",
@@ -14094,6 +15318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003e*)",
           "package": "plumbers",
@@ -14103,6 +15328,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003e*) \u003e\u003e^\u003e*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ee-\u003eb f)-\u003eg-\u003ed-\u003e(a,e)-\u003eb f",
@@ -14117,6 +15343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003e\u003c)",
           "package": "plumbers",
@@ -14126,6 +15353,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003e\u003c) \u003e\u003e^\u003e\u003c",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ef-\u003ed-\u003ea-\u003eb e",
@@ -14140,6 +15368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003e\u003e)",
           "package": "plumbers",
@@ -14149,6 +15378,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003e\u003e) \u003e\u003e^\u003e\u003e",
           "normalized": "a b-\u003e(c-\u003ed-\u003ea e)-\u003ef-\u003ec-\u003ed-\u003ea e",
@@ -14163,6 +15393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003e^)",
           "package": "plumbers",
@@ -14172,6 +15403,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^\u003e^) \u003e\u003e^\u003e^",
           "normalized": "a b-\u003e(c-\u003ea d)-\u003ee-\u003ec-\u003ef-\u003ea d",
@@ -14186,6 +15418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^^)",
           "package": "plumbers",
@@ -14195,6 +15428,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^^) \u003e\u003e^^",
           "normalized": "a b-\u003ea c-\u003ed-\u003ee-\u003ea c",
@@ -14209,6 +15443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^^&)",
           "package": "plumbers",
@@ -14218,6 +15453,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^^&) \u003e\u003e^^&",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb d)-\u003ee-\u003ef-\u003ea-\u003eb d",
@@ -14232,6 +15468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^^*)",
           "package": "plumbers",
@@ -14241,6 +15478,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^^*) \u003e\u003e^^*",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ef-\u003eg-\u003e(a,d)-\u003eb e",
@@ -14255,6 +15493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^^\u003c)",
           "package": "plumbers",
@@ -14264,6 +15503,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^^\u003c) \u003e\u003e^^\u003c",
           "normalized": "(a-\u003eb c)-\u003eb d-\u003ee-\u003ef-\u003ea-\u003eb d",
@@ -14278,6 +15518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^^\u003e)",
           "package": "plumbers",
@@ -14287,6 +15528,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^^\u003e) \u003e\u003e^^\u003e",
           "normalized": "a b-\u003e(c-\u003ea d)-\u003ee-\u003ef-\u003ec-\u003ea d",
@@ -14301,6 +15543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^^^)",
           "package": "plumbers",
@@ -14310,6 +15553,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Monad",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Monad",
           "name": "(\u003e\u003e^^^) \u003e\u003e^^^",
           "normalized": "a b-\u003ea c-\u003ed-\u003ee-\u003ef-\u003ea c",
@@ -14325,6 +15569,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the specifications used by \u003ca\u003eControl.Plumbers\u003c/a\u003e and\n \u003ca\u003eControl.Plumbers.Monad\u003c/a\u003e.  These need to be defined in a separate module \n in order to handle GHC Template Haskell staging restrictions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Specs",
           "name": "Specs",
           "package": "plumbers",
@@ -14334,6 +15579,7 @@
         "index": {
           "description": "This module defines the specifications used by Control.Plumbers and Control.Plumbers.Monad These need to be defined in separate module in order to handle GHC Template Haskell staging restrictions",
           "hierarchy": "Control Plumbers Specs",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Specs",
           "name": "Specs",
           "package": "plumbers",
@@ -14347,6 +15593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Specs",
           "name": "addBaseContext",
           "package": "plumbers",
@@ -14356,6 +15603,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Specs",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Specs",
           "name": "addBaseContext",
           "normalized": "PlumberTypes-\u003ePlumberTypes",
@@ -14371,6 +15619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Specs",
           "name": "addMonadContext",
           "package": "plumbers",
@@ -14380,6 +15629,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Specs",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Specs",
           "name": "addMonadContext",
           "normalized": "PlumberTypes-\u003ePlumberTypes",
@@ -14395,6 +15645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Specs",
           "name": "compositionSpec",
           "package": "plumbers",
@@ -14404,6 +15655,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Specs",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Specs",
           "name": "compositionSpec",
           "package": "plumbers",
@@ -14417,6 +15669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Specs",
           "name": "compositionTypes",
           "package": "plumbers",
@@ -14426,6 +15679,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Specs",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Specs",
           "name": "compositionTypes",
           "package": "plumbers",
@@ -14439,6 +15693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Specs",
           "name": "fbindTypes",
           "package": "plumbers",
@@ -14448,6 +15703,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Specs",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Specs",
           "name": "fbindTypes",
           "normalized": "Bool-\u003ePlumberTypes",
@@ -14463,6 +15719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Specs",
           "name": "flbindSpec",
           "package": "plumbers",
@@ -14472,6 +15729,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Specs",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Specs",
           "name": "flbindSpec",
           "package": "plumbers",
@@ -14485,6 +15743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Specs",
           "name": "frbindSpec",
           "package": "plumbers",
@@ -14494,6 +15753,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Specs",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Specs",
           "name": "frbindSpec",
           "package": "plumbers",
@@ -14507,6 +15767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Specs",
           "name": "lbindSpec",
           "package": "plumbers",
@@ -14516,6 +15777,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Specs",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Specs",
           "name": "lbindSpec",
           "package": "plumbers",
@@ -14529,6 +15791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Specs",
           "name": "lbindTypes",
           "package": "plumbers",
@@ -14538,6 +15801,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Specs",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Specs",
           "name": "lbindTypes",
           "package": "plumbers",
@@ -14551,6 +15815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Specs",
           "name": "productSpec",
           "package": "plumbers",
@@ -14560,6 +15825,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Specs",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Specs",
           "name": "productSpec",
           "package": "plumbers",
@@ -14573,6 +15839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Specs",
           "name": "productTypes",
           "package": "plumbers",
@@ -14582,6 +15849,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Specs",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Specs",
           "name": "productTypes",
           "package": "plumbers",
@@ -14595,6 +15863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Specs",
           "name": "rbindSpec",
           "package": "plumbers",
@@ -14604,6 +15873,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Specs",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Specs",
           "name": "rbindSpec",
           "package": "plumbers",
@@ -14617,6 +15887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.Specs",
           "name": "rbindTypes",
           "package": "plumbers",
@@ -14626,6 +15897,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers Specs",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.Specs",
           "name": "rbindTypes",
           "package": "plumbers",
@@ -14640,6 +15912,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is used to generate operators that follow the plumbers symbolic\n convention for routing parameters.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "TH",
           "package": "plumbers",
@@ -14649,6 +15922,7 @@
         "index": {
           "description": "This module is used to generate operators that follow the plumbers symbolic convention for routing parameters",
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "TH",
           "package": "plumbers",
@@ -14663,6 +15937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies all of the information needed to implement a plumber.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "PlumberSpec",
           "package": "plumbers",
@@ -14672,6 +15947,7 @@
         "index": {
           "description": "Specifies all of the information needed to implement plumber",
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "PlumberSpec",
           "package": "plumbers",
@@ -14686,6 +15962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies all of the information needed to construct type declarations\n   for the plumber.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "PlumberTypes",
           "package": "plumbers",
@@ -14695,6 +15972,7 @@
         "index": {
           "description": "Specifies all of the information needed to construct type declarations for the plumber",
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "PlumberTypes",
           "package": "plumbers",
@@ -14708,6 +15986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "PlumberSpec",
           "package": "plumbers",
@@ -14717,6 +15996,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "PlumberSpec",
           "package": "plumbers",
@@ -14730,6 +16010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "PlumberTypes",
           "package": "plumbers",
@@ -14739,6 +16020,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "PlumberTypes",
           "package": "plumbers",
@@ -14752,6 +16034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "addForalls",
           "package": "plumbers",
@@ -14761,6 +16044,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "addForalls",
           "normalized": "Type-\u003eType-\u003eType",
@@ -14776,6 +16060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "appsT",
           "package": "plumbers",
@@ -14785,6 +16070,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "appsT",
           "normalized": "[Type]-\u003eType",
@@ -14800,6 +16086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor now this is just a string-yielding function, to be evaluated by the\n   user, to generate the line defining the fixities.  This code should be\n   pasted below the TH invocation of implementPlumbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "aritiesString",
           "package": "plumbers",
@@ -14810,6 +16097,7 @@
         "index": {
           "description": "For now this is just string-yielding function to be evaluated by the user to generate the line defining the fixities This code should be pasted below the TH invocation of implementPlumbers",
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "aritiesString",
           "normalized": "PlumberSpec-\u003eString",
@@ -14825,6 +16113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "arrowsT",
           "package": "plumbers",
@@ -14834,6 +16123,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "arrowsT",
           "normalized": "[Type]-\u003eType",
@@ -14849,6 +16139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a plumber spec for the given prefix for the generated operators,\n   and the name of the infix operator to use to construct the implementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "baseSpec",
           "package": "plumbers",
@@ -14859,6 +16150,7 @@
         "index": {
           "description": "Creates plumber spec for the given prefix for the generated operators and the name of the infix operator to use to construct the implementation",
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "baseSpec",
           "normalized": "String-\u003eString-\u003ePlumberSpec",
@@ -14875,6 +16167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic set of types, which make r' the left type, and r'' the right type.\n   The resultType is a forall that introduces these type variables, and has \n   undefined content.  Therefore any implementation in terms of baseTypes\n   needs to redefine resultType, as the Forall has undefined as its content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "baseTypes",
           "package": "plumbers",
@@ -14885,6 +16178,7 @@
         "index": {
           "description": "basic set of types which make the left type and the right type The resultType is forall that introduces these type variables and has undefined content Therefore any implementation in terms of baseTypes needs to redefine resultType as the Forall has undefined as its content",
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "baseTypes",
           "package": "plumbers",
@@ -14899,6 +16193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplement only the specific plumber requested.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "implementPlumber",
           "package": "plumbers",
@@ -14909,6 +16204,7 @@
         "index": {
           "description": "Implement only the specific plumber requested",
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "implementPlumber",
           "normalized": "PlumberSpec-\u003eString-\u003eDecsQ",
@@ -14925,6 +16221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements all of the plumbers specified by the given \u003ccode\u003ePlumberSpec\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "implementPlumbers",
           "package": "plumbers",
@@ -14935,6 +16232,7 @@
         "index": {
           "description": "Implements all of the plumbers specified by the given PlumberSpec",
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "implementPlumbers",
           "normalized": "PlumberSpec-\u003eDecsQ",
@@ -14951,6 +16249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the left argument's result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "leftType",
           "package": "plumbers",
@@ -14961,6 +16260,7 @@
         "index": {
           "description": "Type of the left argument result",
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "leftType",
           "package": "plumbers",
@@ -14974,6 +16274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "mkVB",
           "package": "plumbers",
@@ -14983,6 +16284,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "mkVB",
           "normalized": "String-\u003eTyVarBndr",
@@ -14998,6 +16300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "mkVE",
           "package": "plumbers",
@@ -15007,6 +16310,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "mkVE",
           "normalized": "String-\u003eExp",
@@ -15022,6 +16326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "mkVP",
           "package": "plumbers",
@@ -15031,6 +16336,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "mkVP",
           "normalized": "String-\u003ePat",
@@ -15046,6 +16352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "mkVT",
           "package": "plumbers",
@@ -15055,6 +16362,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "mkVT",
           "normalized": "String-\u003eType",
@@ -15071,6 +16379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll of the operator names that the given PlumberSpec would implement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "operatorNames",
           "package": "plumbers",
@@ -15081,6 +16390,7 @@
         "index": {
           "description": "All of the operator names that the given PlumberSpec would implement",
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "operatorNames",
           "normalized": "PlumberSpec-\u003e[[String]]",
@@ -15097,6 +16407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArities to generate - 26 is max\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "plumberArities",
           "package": "plumbers",
@@ -15107,6 +16418,7 @@
         "index": {
           "description": "Arities to generate is max",
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "plumberArities",
           "normalized": "[Int]",
@@ -15123,6 +16435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe plumber implementation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "plumberOpE",
           "package": "plumbers",
@@ -15133,6 +16446,7 @@
         "index": {
           "description": "The plumber implementation",
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "plumberOpE",
           "normalized": "Exp-\u003eExp-\u003eExp",
@@ -15149,6 +16463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix to use for operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "plumberPrefix",
           "package": "plumbers",
@@ -15159,6 +16474,7 @@
         "index": {
           "description": "Prefix to use for operator",
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "plumberPrefix",
           "package": "plumbers",
@@ -15173,6 +16489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional explicit type signatures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "plumberTypes",
           "package": "plumbers",
@@ -15183,6 +16500,7 @@
         "index": {
           "description": "Optional explicit type signatures",
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "plumberTypes",
           "package": "plumbers",
@@ -15197,6 +16515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResults type.  This needs to be wrapped in a\n   forall naming all of the utilized type variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "resultType",
           "package": "plumbers",
@@ -15207,6 +16526,7 @@
         "index": {
           "description": "Results type This needs to be wrapped in forall naming all of the utilized type variables",
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "resultType",
           "package": "plumbers",
@@ -15221,6 +16541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the right argument's result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "rightType",
           "package": "plumbers",
@@ -15231,6 +16552,7 @@
         "index": {
           "description": "Type of the right argument result",
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "rightType",
           "package": "plumbers",
@@ -15244,6 +16566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers.TH",
           "name": "tuplesT",
           "package": "plumbers",
@@ -15253,6 +16576,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers TH",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers.TH",
           "name": "tuplesT",
           "normalized": "[Type]-\u003eType",
@@ -15268,6 +16592,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports 2 * (5 + 5^2 + 5^3) = 310 operators, all \u003ccode\u003epointless\u003c/code\u003e\n combinators for composing functions together with additional plumbing.\n\u003c/p\u003e\u003cp\u003eSee the plumbers post at \u003ca\u003ewww.mgsloan.com\u003c/a\u003e for more information.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "Plumbers",
           "package": "plumbers",
@@ -15277,6 +16602,7 @@
         "index": {
           "description": "This module exports operators all pointless combinators for composing functions together with additional plumbing See the plumbers post at www.mgsloan.com for more information",
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "Plumbers",
           "package": "plumbers",
@@ -15290,6 +16616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&)",
           "package": "plumbers",
@@ -15299,6 +16626,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&) $&",
           "normalized": "a b c d(b-\u003ee-\u003ec)-\u003e(b-\u003ee)-\u003eb-\u003ec",
@@ -15313,6 +16641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&&)",
           "package": "plumbers",
@@ -15322,6 +16651,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&&) $&&",
           "normalized": "a b c d e(b-\u003ec-\u003ef-\u003ed)-\u003e(b-\u003ec-\u003ef)-\u003eb-\u003ec-\u003ed",
@@ -15336,6 +16666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&&&)",
           "package": "plumbers",
@@ -15345,6 +16676,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&&&) $&&&",
           "normalized": "a b c d e f(b-\u003ec-\u003ed-\u003eg-\u003ee)-\u003e(b-\u003ec-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -15359,6 +16691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&&*)",
           "package": "plumbers",
@@ -15368,6 +16701,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&&*) $&&*",
           "normalized": "a b c d e f g(b-\u003ec-\u003ed-\u003eh-\u003ef)-\u003e(b-\u003ec-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003ef",
@@ -15382,6 +16716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&&\u003c)",
           "package": "plumbers",
@@ -15391,6 +16726,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&&\u003c) $&&\u003c",
           "normalized": "a b c d e f(b-\u003ec-\u003ed-\u003eg-\u003ee)-\u003e(b-\u003ec-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -15405,6 +16741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&&\u003e)",
           "package": "plumbers",
@@ -15414,6 +16751,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&&\u003e) $&&\u003e",
           "normalized": "a b c d e f(b-\u003ec-\u003eg-\u003ee)-\u003e(b-\u003ec-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -15428,6 +16766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&&^)",
           "package": "plumbers",
@@ -15437,6 +16776,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&&^) $&&^",
           "normalized": "a b c d e f(b-\u003ec-\u003eg-\u003ee)-\u003e(b-\u003ec-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -15451,6 +16791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&*)",
           "package": "plumbers",
@@ -15460,6 +16801,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&*) $&*",
           "normalized": "a b c d e f(b-\u003ec-\u003eg-\u003ee)-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003e(c,d)-\u003ee",
@@ -15474,6 +16816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&*&)",
           "package": "plumbers",
@@ -15483,6 +16826,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&*&) $&*&",
           "normalized": "a b c d e f g(b-\u003ec-\u003ee-\u003eh-\u003ef)-\u003e(b-\u003ed-\u003ee-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003ef",
@@ -15497,6 +16841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&**)",
           "package": "plumbers",
@@ -15506,6 +16851,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&**) $&**",
           "normalized": "a b c d e f g h(b-\u003ec-\u003ee-\u003ei-\u003eg)-\u003e(b-\u003ed-\u003ef-\u003ei)-\u003eb-\u003e(c,d)-\u003e(e,f)-\u003eg",
@@ -15520,6 +16866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&*\u003c)",
           "package": "plumbers",
@@ -15529,6 +16876,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&*\u003c) $&*\u003c",
           "normalized": "a b c d e f g(b-\u003ec-\u003ee-\u003eh-\u003ef)-\u003e(b-\u003ed-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003ef",
@@ -15543,6 +16891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&*\u003e)",
           "package": "plumbers",
@@ -15552,6 +16901,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&*\u003e) $&*\u003e",
           "normalized": "a b c d e f g(b-\u003ec-\u003eh-\u003ef)-\u003e(b-\u003ed-\u003ee-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003ef",
@@ -15566,6 +16916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&*^)",
           "package": "plumbers",
@@ -15575,6 +16926,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&*^) $&*^",
           "normalized": "a b c d e f g(b-\u003ec-\u003eh-\u003ef)-\u003e(b-\u003ed-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003ef",
@@ -15589,6 +16941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&\u003c)",
           "package": "plumbers",
@@ -15598,6 +16951,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&\u003c) $&\u003c",
           "normalized": "a b c d e(b-\u003ec-\u003ef-\u003ed)-\u003e(b-\u003ef)-\u003eb-\u003ec-\u003ed",
@@ -15612,6 +16966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&\u003c&)",
           "package": "plumbers",
@@ -15621,6 +16976,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&\u003c&) $&\u003c&",
           "normalized": "a b c d e f(b-\u003ec-\u003ed-\u003eg-\u003ee)-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -15635,6 +16991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&\u003c*)",
           "package": "plumbers",
@@ -15644,6 +17001,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&\u003c*) $&\u003c*",
           "normalized": "a b c d e f g(b-\u003ec-\u003ed-\u003eh-\u003ef)-\u003e(b-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003ef",
@@ -15658,6 +17016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&\u003c\u003c)",
           "package": "plumbers",
@@ -15667,6 +17026,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&\u003c\u003c) $&\u003c\u003c",
           "normalized": "a b c d e f(b-\u003ec-\u003ed-\u003eg-\u003ee)-\u003e(b-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -15681,6 +17041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&\u003c\u003e)",
           "package": "plumbers",
@@ -15690,6 +17051,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&\u003c\u003e) $&\u003c\u003e",
           "normalized": "a b c d e f(b-\u003ec-\u003eg-\u003ee)-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -15704,6 +17066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&\u003c^)",
           "package": "plumbers",
@@ -15713,6 +17076,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&\u003c^) $&\u003c^",
           "normalized": "a b c d e f(b-\u003ec-\u003eg-\u003ee)-\u003e(b-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -15727,6 +17091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&\u003e)",
           "package": "plumbers",
@@ -15736,6 +17101,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&\u003e) $&\u003e",
           "normalized": "a b c d e(b-\u003ef-\u003ed)-\u003e(b-\u003ec-\u003ef)-\u003eb-\u003ec-\u003ed",
@@ -15750,6 +17116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&\u003e&)",
           "package": "plumbers",
@@ -15759,6 +17126,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&\u003e&) $&\u003e&",
           "normalized": "a b c d e f(b-\u003ed-\u003eg-\u003ee)-\u003e(b-\u003ec-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -15773,6 +17141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&\u003e*)",
           "package": "plumbers",
@@ -15782,6 +17151,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&\u003e*) $&\u003e*",
           "normalized": "a b c d e f g(b-\u003ed-\u003eh-\u003ef)-\u003e(b-\u003ec-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003ef",
@@ -15796,6 +17166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&\u003e\u003c)",
           "package": "plumbers",
@@ -15805,6 +17176,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&\u003e\u003c) $&\u003e\u003c",
           "normalized": "a b c d e f(b-\u003ed-\u003eg-\u003ee)-\u003e(b-\u003ec-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -15819,6 +17191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&\u003e\u003e)",
           "package": "plumbers",
@@ -15828,6 +17201,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&\u003e\u003e) $&\u003e\u003e",
           "normalized": "a b c d e f(b-\u003eg-\u003ee)-\u003e(b-\u003ec-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -15842,6 +17216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&\u003e^)",
           "package": "plumbers",
@@ -15851,6 +17226,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&\u003e^) $&\u003e^",
           "normalized": "a b c d e f(b-\u003eg-\u003ee)-\u003e(b-\u003ec-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -15865,6 +17241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&^)",
           "package": "plumbers",
@@ -15874,6 +17251,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&^) $&^",
           "normalized": "a b c d e(b-\u003ef-\u003ed)-\u003e(b-\u003ef)-\u003eb-\u003ec-\u003ed",
@@ -15888,6 +17266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&^&)",
           "package": "plumbers",
@@ -15897,6 +17276,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&^&) $&^&",
           "normalized": "a b c d e f(b-\u003ed-\u003eg-\u003ee)-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -15911,6 +17291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&^*)",
           "package": "plumbers",
@@ -15920,6 +17301,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&^*) $&^*",
           "normalized": "a b c d e f g(b-\u003ed-\u003eh-\u003ef)-\u003e(b-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003ef",
@@ -15934,6 +17316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&^\u003c)",
           "package": "plumbers",
@@ -15943,6 +17326,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&^\u003c) $&^\u003c",
           "normalized": "a b c d e f(b-\u003ed-\u003eg-\u003ee)-\u003e(b-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -15957,6 +17341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&^\u003e)",
           "package": "plumbers",
@@ -15966,6 +17351,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&^\u003e) $&^\u003e",
           "normalized": "a b c d e f(b-\u003eg-\u003ee)-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -15980,6 +17366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($&^^)",
           "package": "plumbers",
@@ -15989,6 +17376,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($&^^) $&^^",
           "normalized": "a b c d e f(b-\u003eg-\u003ee)-\u003e(b-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -16003,6 +17391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*)",
           "package": "plumbers",
@@ -16012,6 +17401,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*) $*",
           "normalized": "a b c d e(b-\u003ef-\u003ed)-\u003e(c-\u003ef)-\u003e(b,c)-\u003ed",
@@ -16026,6 +17416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*&)",
           "package": "plumbers",
@@ -16035,6 +17426,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*&) $*&",
           "normalized": "a b c d e f(b-\u003ed-\u003eg-\u003ee)-\u003e(c-\u003ed-\u003eg)-\u003e(b,c)-\u003ed-\u003ee",
@@ -16049,6 +17441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*&&)",
           "package": "plumbers",
@@ -16058,6 +17451,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*&&) $*&&",
           "normalized": "a b c d e f g(b-\u003ed-\u003ee-\u003eh-\u003ef)-\u003e(c-\u003ed-\u003ee-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003ef",
@@ -16072,6 +17466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*&*)",
           "package": "plumbers",
@@ -16081,6 +17476,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*&*) $*&*",
           "normalized": "a b c d e f g h(b-\u003ed-\u003ee-\u003ei-\u003eg)-\u003e(c-\u003ed-\u003ef-\u003ei)-\u003e(b,c)-\u003ed-\u003e(e,f)-\u003eg",
@@ -16095,6 +17491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*&\u003c)",
           "package": "plumbers",
@@ -16104,6 +17501,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*&\u003c) $*&\u003c",
           "normalized": "a b c d e f g(b-\u003ed-\u003ee-\u003eh-\u003ef)-\u003e(c-\u003ed-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003ef",
@@ -16118,6 +17516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*&\u003e)",
           "package": "plumbers",
@@ -16127,6 +17526,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*&\u003e) $*&\u003e",
           "normalized": "a b c d e f g(b-\u003ed-\u003eh-\u003ef)-\u003e(c-\u003ed-\u003ee-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003ef",
@@ -16141,6 +17541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*&^)",
           "package": "plumbers",
@@ -16150,6 +17551,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*&^) $*&^",
           "normalized": "a b c d e f g(b-\u003ed-\u003eh-\u003ef)-\u003e(c-\u003ed-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003ef",
@@ -16164,6 +17566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($**)",
           "package": "plumbers",
@@ -16173,6 +17576,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($**) $**",
           "normalized": "a b c d e f g(b-\u003ed-\u003eh-\u003ef)-\u003e(c-\u003ee-\u003eh)-\u003e(b,c)-\u003e(d,e)-\u003ef",
@@ -16187,6 +17591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($**&)",
           "package": "plumbers",
@@ -16196,6 +17601,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($**&) $**&",
           "normalized": "a b c d e f g h(b-\u003ed-\u003ef-\u003ei-\u003eg)-\u003e(c-\u003ee-\u003ef-\u003ei)-\u003e(b,c)-\u003e(d,e)-\u003ef-\u003eg",
@@ -16210,6 +17616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($***)",
           "package": "plumbers",
@@ -16219,6 +17626,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($***) $***",
           "normalized": "a b c d e f g h i(b-\u003ed-\u003ef-\u003ej-\u003eh)-\u003e(c-\u003ee-\u003eg-\u003ej)-\u003e(b,c)-\u003e(d,e)-\u003e(f,g)-\u003eh",
@@ -16233,6 +17641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($**\u003c)",
           "package": "plumbers",
@@ -16242,6 +17651,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($**\u003c) $**\u003c",
           "normalized": "a b c d e f g h(b-\u003ed-\u003ef-\u003ei-\u003eg)-\u003e(c-\u003ee-\u003ei)-\u003e(b,c)-\u003e(d,e)-\u003ef-\u003eg",
@@ -16256,6 +17666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($**\u003e)",
           "package": "plumbers",
@@ -16265,6 +17676,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($**\u003e) $**\u003e",
           "normalized": "a b c d e f g h(b-\u003ed-\u003ei-\u003eg)-\u003e(c-\u003ee-\u003ef-\u003ei)-\u003e(b,c)-\u003e(d,e)-\u003ef-\u003eg",
@@ -16279,6 +17691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($**^)",
           "package": "plumbers",
@@ -16288,6 +17701,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($**^) $**^",
           "normalized": "a b c d e f g h(b-\u003ed-\u003ei-\u003eg)-\u003e(c-\u003ee-\u003ei)-\u003e(b,c)-\u003e(d,e)-\u003ef-\u003eg",
@@ -16302,6 +17716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*\u003c)",
           "package": "plumbers",
@@ -16311,6 +17726,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*\u003c) $*\u003c",
           "normalized": "a b c d e f(b-\u003ed-\u003eg-\u003ee)-\u003e(c-\u003eg)-\u003e(b,c)-\u003ed-\u003ee",
@@ -16325,6 +17741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*\u003c&)",
           "package": "plumbers",
@@ -16334,6 +17751,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*\u003c&) $*\u003c&",
           "normalized": "a b c d e f g(b-\u003ed-\u003ee-\u003eh-\u003ef)-\u003e(c-\u003ee-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003ef",
@@ -16348,6 +17766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*\u003c*)",
           "package": "plumbers",
@@ -16357,6 +17776,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*\u003c*) $*\u003c*",
           "normalized": "a b c d e f g h(b-\u003ed-\u003ee-\u003ei-\u003eg)-\u003e(c-\u003ef-\u003ei)-\u003e(b,c)-\u003ed-\u003e(e,f)-\u003eg",
@@ -16371,6 +17791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*\u003c\u003c)",
           "package": "plumbers",
@@ -16380,6 +17801,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*\u003c\u003c) $*\u003c\u003c",
           "normalized": "a b c d e f g(b-\u003ed-\u003ee-\u003eh-\u003ef)-\u003e(c-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003ef",
@@ -16394,6 +17816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*\u003c\u003e)",
           "package": "plumbers",
@@ -16403,6 +17826,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*\u003c\u003e) $*\u003c\u003e",
           "normalized": "a b c d e f g(b-\u003ed-\u003eh-\u003ef)-\u003e(c-\u003ee-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003ef",
@@ -16417,6 +17841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*\u003c^)",
           "package": "plumbers",
@@ -16426,6 +17851,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*\u003c^) $*\u003c^",
           "normalized": "a b c d e f g(b-\u003ed-\u003eh-\u003ef)-\u003e(c-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003ef",
@@ -16440,6 +17866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*\u003e)",
           "package": "plumbers",
@@ -16449,6 +17876,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*\u003e) $*\u003e",
           "normalized": "a b c d e f(b-\u003eg-\u003ee)-\u003e(c-\u003ed-\u003eg)-\u003e(b,c)-\u003ed-\u003ee",
@@ -16463,6 +17891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*\u003e&)",
           "package": "plumbers",
@@ -16472,6 +17901,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*\u003e&) $*\u003e&",
           "normalized": "a b c d e f g(b-\u003ee-\u003eh-\u003ef)-\u003e(c-\u003ed-\u003ee-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003ef",
@@ -16486,6 +17916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*\u003e*)",
           "package": "plumbers",
@@ -16495,6 +17926,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*\u003e*) $*\u003e*",
           "normalized": "a b c d e f g h(b-\u003ee-\u003ei-\u003eg)-\u003e(c-\u003ed-\u003ef-\u003ei)-\u003e(b,c)-\u003ed-\u003e(e,f)-\u003eg",
@@ -16509,6 +17941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*\u003e\u003c)",
           "package": "plumbers",
@@ -16518,6 +17951,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*\u003e\u003c) $*\u003e\u003c",
           "normalized": "a b c d e f g(b-\u003ee-\u003eh-\u003ef)-\u003e(c-\u003ed-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003ef",
@@ -16532,6 +17966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*\u003e\u003e)",
           "package": "plumbers",
@@ -16541,6 +17976,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*\u003e\u003e) $*\u003e\u003e",
           "normalized": "a b c d e f g(b-\u003eh-\u003ef)-\u003e(c-\u003ed-\u003ee-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003ef",
@@ -16555,6 +17991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*\u003e^)",
           "package": "plumbers",
@@ -16564,6 +18001,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*\u003e^) $*\u003e^",
           "normalized": "a b c d e f g(b-\u003eh-\u003ef)-\u003e(c-\u003ed-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003ef",
@@ -16578,6 +18016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*^)",
           "package": "plumbers",
@@ -16587,6 +18026,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*^) $*^",
           "normalized": "a b c d e f(b-\u003eg-\u003ee)-\u003e(c-\u003eg)-\u003e(b,c)-\u003ed-\u003ee",
@@ -16601,6 +18041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*^&)",
           "package": "plumbers",
@@ -16610,6 +18051,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*^&) $*^&",
           "normalized": "a b c d e f g(b-\u003ee-\u003eh-\u003ef)-\u003e(c-\u003ee-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003ef",
@@ -16624,6 +18066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*^*)",
           "package": "plumbers",
@@ -16633,6 +18076,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*^*) $*^*",
           "normalized": "a b c d e f g h(b-\u003ee-\u003ei-\u003eg)-\u003e(c-\u003ef-\u003ei)-\u003e(b,c)-\u003ed-\u003e(e,f)-\u003eg",
@@ -16647,6 +18091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*^\u003c)",
           "package": "plumbers",
@@ -16656,6 +18101,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*^\u003c) $*^\u003c",
           "normalized": "a b c d e f g(b-\u003ee-\u003eh-\u003ef)-\u003e(c-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003ef",
@@ -16670,6 +18116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*^\u003e)",
           "package": "plumbers",
@@ -16679,6 +18126,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*^\u003e) $*^\u003e",
           "normalized": "a b c d e f g(b-\u003eh-\u003ef)-\u003e(c-\u003ee-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003ef",
@@ -16693,6 +18141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($*^^)",
           "package": "plumbers",
@@ -16702,6 +18151,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($*^^) $*^^",
           "normalized": "a b c d e f g(b-\u003eh-\u003ef)-\u003e(c-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003ef",
@@ -16716,6 +18166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c)",
           "package": "plumbers",
@@ -16725,6 +18176,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c) $\u003c",
           "normalized": "a b c d(b-\u003ee-\u003ec)-\u003ee-\u003eb-\u003ec",
@@ -16739,6 +18191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c&)",
           "package": "plumbers",
@@ -16748,6 +18201,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c&) $\u003c&",
           "normalized": "a b c d e(b-\u003ec-\u003ef-\u003ed)-\u003e(c-\u003ef)-\u003eb-\u003ec-\u003ed",
@@ -16762,6 +18216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c&&)",
           "package": "plumbers",
@@ -16771,6 +18226,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c&&) $\u003c&&",
           "normalized": "a b c d e f(b-\u003ec-\u003ed-\u003eg-\u003ee)-\u003e(c-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -16785,6 +18241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c&*)",
           "package": "plumbers",
@@ -16794,6 +18251,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c&*) $\u003c&*",
           "normalized": "a b c d e f g(b-\u003ec-\u003ed-\u003eh-\u003ef)-\u003e(c-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003ef",
@@ -16808,6 +18266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c&\u003c)",
           "package": "plumbers",
@@ -16817,6 +18276,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c&\u003c) $\u003c&\u003c",
           "normalized": "a b c d e f(b-\u003ec-\u003ed-\u003eg-\u003ee)-\u003e(c-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -16831,6 +18291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c&\u003e)",
           "package": "plumbers",
@@ -16840,6 +18301,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c&\u003e) $\u003c&\u003e",
           "normalized": "a b c d e f(b-\u003ec-\u003eg-\u003ee)-\u003e(c-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -16854,6 +18316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c&^)",
           "package": "plumbers",
@@ -16863,6 +18326,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c&^) $\u003c&^",
           "normalized": "a b c d e f(b-\u003ec-\u003eg-\u003ee)-\u003e(c-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -16877,6 +18341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c*)",
           "package": "plumbers",
@@ -16886,6 +18351,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c*) $\u003c*",
           "normalized": "a b c d e f(b-\u003ec-\u003eg-\u003ee)-\u003e(d-\u003eg)-\u003eb-\u003e(c,d)-\u003ee",
@@ -16900,6 +18366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c*&)",
           "package": "plumbers",
@@ -16909,6 +18376,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c*&) $\u003c*&",
           "normalized": "a b c d e f g(b-\u003ec-\u003ee-\u003eh-\u003ef)-\u003e(d-\u003ee-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003ef",
@@ -16923,6 +18391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c**)",
           "package": "plumbers",
@@ -16932,6 +18401,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c**) $\u003c**",
           "normalized": "a b c d e f g h(b-\u003ec-\u003ee-\u003ei-\u003eg)-\u003e(d-\u003ef-\u003ei)-\u003eb-\u003e(c,d)-\u003e(e,f)-\u003eg",
@@ -16946,6 +18416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c*\u003c)",
           "package": "plumbers",
@@ -16955,6 +18426,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c*\u003c) $\u003c*\u003c",
           "normalized": "a b c d e f g(b-\u003ec-\u003ee-\u003eh-\u003ef)-\u003e(d-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003ef",
@@ -16969,6 +18441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c*\u003e)",
           "package": "plumbers",
@@ -16978,6 +18451,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c*\u003e) $\u003c*\u003e",
           "normalized": "a b c d e f g(b-\u003ec-\u003eh-\u003ef)-\u003e(d-\u003ee-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003ef",
@@ -16992,6 +18466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c*^)",
           "package": "plumbers",
@@ -17001,6 +18476,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c*^) $\u003c*^",
           "normalized": "a b c d e f g(b-\u003ec-\u003eh-\u003ef)-\u003e(d-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003ef",
@@ -17015,6 +18491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003c)",
           "package": "plumbers",
@@ -17024,6 +18501,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003c) $\u003c\u003c",
           "normalized": "a b c d e(b-\u003ec-\u003ef-\u003ed)-\u003ef-\u003eb-\u003ec-\u003ed",
@@ -17038,6 +18516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003c&)",
           "package": "plumbers",
@@ -17047,6 +18526,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003c&) $\u003c\u003c&",
           "normalized": "a b c d e f(b-\u003ec-\u003ed-\u003eg-\u003ee)-\u003e(d-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17061,6 +18541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003c*)",
           "package": "plumbers",
@@ -17070,6 +18551,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003c*) $\u003c\u003c*",
           "normalized": "a b c d e f g(b-\u003ec-\u003ed-\u003eh-\u003ef)-\u003e(e-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003ef",
@@ -17084,6 +18566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003c\u003c)",
           "package": "plumbers",
@@ -17093,6 +18576,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003c\u003c) $\u003c\u003c\u003c",
           "normalized": "a b c d e f(b-\u003ec-\u003ed-\u003eg-\u003ee)-\u003eg-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17107,6 +18591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003c\u003e)",
           "package": "plumbers",
@@ -17116,6 +18601,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003c\u003e) $\u003c\u003c\u003e",
           "normalized": "a b c d e f(b-\u003ec-\u003eg-\u003ee)-\u003e(d-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17130,6 +18616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003c^)",
           "package": "plumbers",
@@ -17139,6 +18626,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003c^) $\u003c\u003c^",
           "normalized": "a b c d e f(b-\u003ec-\u003eg-\u003ee)-\u003eg-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17153,6 +18641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003e)",
           "package": "plumbers",
@@ -17162,6 +18651,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003e) $\u003c\u003e",
           "normalized": "a b c d e(b-\u003ef-\u003ed)-\u003e(c-\u003ef)-\u003eb-\u003ec-\u003ed",
@@ -17176,6 +18666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003e&)",
           "package": "plumbers",
@@ -17185,6 +18676,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003e&) $\u003c\u003e&",
           "normalized": "a b c d e f(b-\u003ed-\u003eg-\u003ee)-\u003e(c-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17199,6 +18691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003e*)",
           "package": "plumbers",
@@ -17208,6 +18701,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003e*) $\u003c\u003e*",
           "normalized": "a b c d e f g(b-\u003ed-\u003eh-\u003ef)-\u003e(c-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003ef",
@@ -17222,6 +18716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003e\u003c)",
           "package": "plumbers",
@@ -17231,6 +18726,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003e\u003c) $\u003c\u003e\u003c",
           "normalized": "a b c d e f(b-\u003ed-\u003eg-\u003ee)-\u003e(c-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17245,6 +18741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003e\u003e)",
           "package": "plumbers",
@@ -17254,6 +18751,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003e\u003e) $\u003c\u003e\u003e",
           "normalized": "a b c d e f(b-\u003eg-\u003ee)-\u003e(c-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17268,6 +18766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003e^)",
           "package": "plumbers",
@@ -17277,6 +18776,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c\u003e^) $\u003c\u003e^",
           "normalized": "a b c d e f(b-\u003eg-\u003ee)-\u003e(c-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17291,6 +18791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c^)",
           "package": "plumbers",
@@ -17300,6 +18801,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c^) $\u003c^",
           "normalized": "a b c d e(b-\u003ef-\u003ed)-\u003ef-\u003eb-\u003ec-\u003ed",
@@ -17314,6 +18816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c^&)",
           "package": "plumbers",
@@ -17323,6 +18826,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c^&) $\u003c^&",
           "normalized": "a b c d e f(b-\u003ed-\u003eg-\u003ee)-\u003e(d-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17337,6 +18841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c^*)",
           "package": "plumbers",
@@ -17346,6 +18851,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c^*) $\u003c^*",
           "normalized": "a b c d e f g(b-\u003ed-\u003eh-\u003ef)-\u003e(e-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003ef",
@@ -17360,6 +18866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c^\u003c)",
           "package": "plumbers",
@@ -17369,6 +18876,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c^\u003c) $\u003c^\u003c",
           "normalized": "a b c d e f(b-\u003ed-\u003eg-\u003ee)-\u003eg-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17383,6 +18891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c^\u003e)",
           "package": "plumbers",
@@ -17392,6 +18901,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c^\u003e) $\u003c^\u003e",
           "normalized": "a b c d e f(b-\u003eg-\u003ee)-\u003e(d-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17406,6 +18916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003c^^)",
           "package": "plumbers",
@@ -17415,6 +18926,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003c^^) $\u003c^^",
           "normalized": "a b c d e f(b-\u003eg-\u003ee)-\u003eg-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17429,6 +18941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e)",
           "package": "plumbers",
@@ -17438,6 +18951,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e) $\u003e",
           "normalized": "a b c d(e-\u003ec)-\u003e(b-\u003ee)-\u003eb-\u003ec",
@@ -17452,6 +18966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e&)",
           "package": "plumbers",
@@ -17461,6 +18976,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e&) $\u003e&",
           "normalized": "a b c d e(c-\u003ef-\u003ed)-\u003e(b-\u003ec-\u003ef)-\u003eb-\u003ec-\u003ed",
@@ -17475,6 +18991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e&&)",
           "package": "plumbers",
@@ -17484,6 +19001,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e&&) $\u003e&&",
           "normalized": "a b c d e f(c-\u003ed-\u003eg-\u003ee)-\u003e(b-\u003ec-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17498,6 +19016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e&*)",
           "package": "plumbers",
@@ -17507,6 +19026,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e&*) $\u003e&*",
           "normalized": "a b c d e f g(c-\u003ed-\u003eh-\u003ef)-\u003e(b-\u003ec-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003ef",
@@ -17521,6 +19041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e&\u003c)",
           "package": "plumbers",
@@ -17530,6 +19051,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e&\u003c) $\u003e&\u003c",
           "normalized": "a b c d e f(c-\u003ed-\u003eg-\u003ee)-\u003e(b-\u003ec-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17544,6 +19066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e&\u003e)",
           "package": "plumbers",
@@ -17553,6 +19076,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e&\u003e) $\u003e&\u003e",
           "normalized": "a b c d e f(c-\u003eg-\u003ee)-\u003e(b-\u003ec-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17567,6 +19091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e&^)",
           "package": "plumbers",
@@ -17576,6 +19101,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e&^) $\u003e&^",
           "normalized": "a b c d e f(c-\u003eg-\u003ee)-\u003e(b-\u003ec-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17590,6 +19116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e*)",
           "package": "plumbers",
@@ -17599,6 +19126,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e*) $\u003e*",
           "normalized": "a b c d e f(c-\u003eg-\u003ee)-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003e(c,d)-\u003ee",
@@ -17613,6 +19141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e*&)",
           "package": "plumbers",
@@ -17622,6 +19151,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e*&) $\u003e*&",
           "normalized": "a b c d e f g(c-\u003ee-\u003eh-\u003ef)-\u003e(b-\u003ed-\u003ee-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003ef",
@@ -17636,6 +19166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e**)",
           "package": "plumbers",
@@ -17645,6 +19176,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e**) $\u003e**",
           "normalized": "a b c d e f g h(c-\u003ee-\u003ei-\u003eg)-\u003e(b-\u003ed-\u003ef-\u003ei)-\u003eb-\u003e(c,d)-\u003e(e,f)-\u003eg",
@@ -17659,6 +19191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e*\u003c)",
           "package": "plumbers",
@@ -17668,6 +19201,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e*\u003c) $\u003e*\u003c",
           "normalized": "a b c d e f g(c-\u003ee-\u003eh-\u003ef)-\u003e(b-\u003ed-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003ef",
@@ -17682,6 +19216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e*\u003e)",
           "package": "plumbers",
@@ -17691,6 +19226,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e*\u003e) $\u003e*\u003e",
           "normalized": "a b c d e f g(c-\u003eh-\u003ef)-\u003e(b-\u003ed-\u003ee-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003ef",
@@ -17705,6 +19241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e*^)",
           "package": "plumbers",
@@ -17714,6 +19251,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e*^) $\u003e*^",
           "normalized": "a b c d e f g(c-\u003eh-\u003ef)-\u003e(b-\u003ed-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003ef",
@@ -17728,6 +19266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003c)",
           "package": "plumbers",
@@ -17737,6 +19276,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003c) $\u003e\u003c",
           "normalized": "a b c d e(c-\u003ef-\u003ed)-\u003e(b-\u003ef)-\u003eb-\u003ec-\u003ed",
@@ -17751,6 +19291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003c&)",
           "package": "plumbers",
@@ -17760,6 +19301,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003c&) $\u003e\u003c&",
           "normalized": "a b c d e f(c-\u003ed-\u003eg-\u003ee)-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17774,6 +19316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003c*)",
           "package": "plumbers",
@@ -17783,6 +19326,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003c*) $\u003e\u003c*",
           "normalized": "a b c d e f g(c-\u003ed-\u003eh-\u003ef)-\u003e(b-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003ef",
@@ -17797,6 +19341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003c\u003c)",
           "package": "plumbers",
@@ -17806,6 +19351,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003c\u003c) $\u003e\u003c\u003c",
           "normalized": "a b c d e f(c-\u003ed-\u003eg-\u003ee)-\u003e(b-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17820,6 +19366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003c\u003e)",
           "package": "plumbers",
@@ -17829,6 +19376,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003c\u003e) $\u003e\u003c\u003e",
           "normalized": "a b c d e f(c-\u003eg-\u003ee)-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17843,6 +19391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003c^)",
           "package": "plumbers",
@@ -17852,6 +19401,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003c^) $\u003e\u003c^",
           "normalized": "a b c d e f(c-\u003eg-\u003ee)-\u003e(b-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17866,6 +19416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003e)",
           "package": "plumbers",
@@ -17875,6 +19426,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003e) $\u003e\u003e",
           "normalized": "a b c d e(f-\u003ed)-\u003e(b-\u003ec-\u003ef)-\u003eb-\u003ec-\u003ed",
@@ -17889,6 +19441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003e&)",
           "package": "plumbers",
@@ -17898,6 +19451,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003e&) $\u003e\u003e&",
           "normalized": "a b c d e f(d-\u003eg-\u003ee)-\u003e(b-\u003ec-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17912,6 +19466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003e*)",
           "package": "plumbers",
@@ -17921,6 +19476,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003e*) $\u003e\u003e*",
           "normalized": "a b c d e f g(d-\u003eh-\u003ef)-\u003e(b-\u003ec-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003ef",
@@ -17935,6 +19491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003e\u003c)",
           "package": "plumbers",
@@ -17944,6 +19501,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003e\u003c) $\u003e\u003e\u003c",
           "normalized": "a b c d e f(d-\u003eg-\u003ee)-\u003e(b-\u003ec-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17958,6 +19516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003e\u003e)",
           "package": "plumbers",
@@ -17967,6 +19526,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003e\u003e) $\u003e\u003e\u003e",
           "normalized": "a b c d e f(g-\u003ee)-\u003e(b-\u003ec-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -17981,6 +19541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003e^)",
           "package": "plumbers",
@@ -17990,6 +19551,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e\u003e^) $\u003e\u003e^",
           "normalized": "a b c d e f(g-\u003ee)-\u003e(b-\u003ec-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18004,6 +19566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e^)",
           "package": "plumbers",
@@ -18013,6 +19576,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e^) $\u003e^",
           "normalized": "a b c d e(f-\u003ed)-\u003e(b-\u003ef)-\u003eb-\u003ec-\u003ed",
@@ -18027,6 +19591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e^&)",
           "package": "plumbers",
@@ -18036,6 +19601,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e^&) $\u003e^&",
           "normalized": "a b c d e f(d-\u003eg-\u003ee)-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18050,6 +19616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e^*)",
           "package": "plumbers",
@@ -18059,6 +19626,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e^*) $\u003e^*",
           "normalized": "a b c d e f g(d-\u003eh-\u003ef)-\u003e(b-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003ef",
@@ -18073,6 +19641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e^\u003c)",
           "package": "plumbers",
@@ -18082,6 +19651,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e^\u003c) $\u003e^\u003c",
           "normalized": "a b c d e f(d-\u003eg-\u003ee)-\u003e(b-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18096,6 +19666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e^\u003e)",
           "package": "plumbers",
@@ -18105,6 +19676,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e^\u003e) $\u003e^\u003e",
           "normalized": "a b c d e f(g-\u003ee)-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18119,6 +19691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($\u003e^^)",
           "package": "plumbers",
@@ -18128,6 +19701,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($\u003e^^) $\u003e^^",
           "normalized": "a b c d e f(g-\u003ee)-\u003e(b-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18142,6 +19716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^)",
           "package": "plumbers",
@@ -18151,6 +19726,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^) $^",
           "normalized": "a b c d(e-\u003ec)-\u003ee-\u003eb-\u003ec",
@@ -18165,6 +19741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^&)",
           "package": "plumbers",
@@ -18174,6 +19751,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^&) $^&",
           "normalized": "a b c d e(c-\u003ef-\u003ed)-\u003e(c-\u003ef)-\u003eb-\u003ec-\u003ed",
@@ -18188,6 +19766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^&&)",
           "package": "plumbers",
@@ -18197,6 +19776,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^&&) $^&&",
           "normalized": "a b c d e f(c-\u003ed-\u003eg-\u003ee)-\u003e(c-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18211,6 +19791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^&*)",
           "package": "plumbers",
@@ -18220,6 +19801,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^&*) $^&*",
           "normalized": "a b c d e f g(c-\u003ed-\u003eh-\u003ef)-\u003e(c-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003ef",
@@ -18234,6 +19816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^&\u003c)",
           "package": "plumbers",
@@ -18243,6 +19826,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^&\u003c) $^&\u003c",
           "normalized": "a b c d e f(c-\u003ed-\u003eg-\u003ee)-\u003e(c-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18257,6 +19841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^&\u003e)",
           "package": "plumbers",
@@ -18266,6 +19851,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^&\u003e) $^&\u003e",
           "normalized": "a b c d e f(c-\u003eg-\u003ee)-\u003e(c-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18280,6 +19866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^&^)",
           "package": "plumbers",
@@ -18289,6 +19876,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^&^) $^&^",
           "normalized": "a b c d e f(c-\u003eg-\u003ee)-\u003e(c-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18303,6 +19891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^*)",
           "package": "plumbers",
@@ -18312,6 +19901,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^*) $^*",
           "normalized": "a b c d e f(c-\u003eg-\u003ee)-\u003e(d-\u003eg)-\u003eb-\u003e(c,d)-\u003ee",
@@ -18326,6 +19916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^*&)",
           "package": "plumbers",
@@ -18335,6 +19926,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^*&) $^*&",
           "normalized": "a b c d e f g(c-\u003ee-\u003eh-\u003ef)-\u003e(d-\u003ee-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003ef",
@@ -18349,6 +19941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^**)",
           "package": "plumbers",
@@ -18358,6 +19951,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^**) $^**",
           "normalized": "a b c d e f g h(c-\u003ee-\u003ei-\u003eg)-\u003e(d-\u003ef-\u003ei)-\u003eb-\u003e(c,d)-\u003e(e,f)-\u003eg",
@@ -18372,6 +19966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^*\u003c)",
           "package": "plumbers",
@@ -18381,6 +19976,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^*\u003c) $^*\u003c",
           "normalized": "a b c d e f g(c-\u003ee-\u003eh-\u003ef)-\u003e(d-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003ef",
@@ -18395,6 +19991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^*\u003e)",
           "package": "plumbers",
@@ -18404,6 +20001,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^*\u003e) $^*\u003e",
           "normalized": "a b c d e f g(c-\u003eh-\u003ef)-\u003e(d-\u003ee-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003ef",
@@ -18418,6 +20016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^*^)",
           "package": "plumbers",
@@ -18427,6 +20026,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^*^) $^*^",
           "normalized": "a b c d e f g(c-\u003eh-\u003ef)-\u003e(d-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003ef",
@@ -18441,6 +20041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^\u003c)",
           "package": "plumbers",
@@ -18450,6 +20051,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^\u003c) $^\u003c",
           "normalized": "a b c d e(c-\u003ef-\u003ed)-\u003ef-\u003eb-\u003ec-\u003ed",
@@ -18464,6 +20066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^\u003c&)",
           "package": "plumbers",
@@ -18473,6 +20076,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^\u003c&) $^\u003c&",
           "normalized": "a b c d e f(c-\u003ed-\u003eg-\u003ee)-\u003e(d-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18487,6 +20091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^\u003c*)",
           "package": "plumbers",
@@ -18496,6 +20101,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^\u003c*) $^\u003c*",
           "normalized": "a b c d e f g(c-\u003ed-\u003eh-\u003ef)-\u003e(e-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003ef",
@@ -18510,6 +20116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^\u003c\u003c)",
           "package": "plumbers",
@@ -18519,6 +20126,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^\u003c\u003c) $^\u003c\u003c",
           "normalized": "a b c d e f(c-\u003ed-\u003eg-\u003ee)-\u003eg-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18533,6 +20141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^\u003c\u003e)",
           "package": "plumbers",
@@ -18542,6 +20151,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^\u003c\u003e) $^\u003c\u003e",
           "normalized": "a b c d e f(c-\u003eg-\u003ee)-\u003e(d-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18556,6 +20166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^\u003c^)",
           "package": "plumbers",
@@ -18565,6 +20176,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^\u003c^) $^\u003c^",
           "normalized": "a b c d e f(c-\u003eg-\u003ee)-\u003eg-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18579,6 +20191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^\u003e)",
           "package": "plumbers",
@@ -18588,6 +20201,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^\u003e) $^\u003e",
           "normalized": "a b c d e(f-\u003ed)-\u003e(c-\u003ef)-\u003eb-\u003ec-\u003ed",
@@ -18602,6 +20216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^\u003e&)",
           "package": "plumbers",
@@ -18611,6 +20226,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^\u003e&) $^\u003e&",
           "normalized": "a b c d e f(d-\u003eg-\u003ee)-\u003e(c-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18625,6 +20241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^\u003e*)",
           "package": "plumbers",
@@ -18634,6 +20251,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^\u003e*) $^\u003e*",
           "normalized": "a b c d e f g(d-\u003eh-\u003ef)-\u003e(c-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003ef",
@@ -18648,6 +20266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^\u003e\u003c)",
           "package": "plumbers",
@@ -18657,6 +20276,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^\u003e\u003c) $^\u003e\u003c",
           "normalized": "a b c d e f(d-\u003eg-\u003ee)-\u003e(c-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18671,6 +20291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^\u003e\u003e)",
           "package": "plumbers",
@@ -18680,6 +20301,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^\u003e\u003e) $^\u003e\u003e",
           "normalized": "a b c d e f(g-\u003ee)-\u003e(c-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18694,6 +20316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^\u003e^)",
           "package": "plumbers",
@@ -18703,6 +20326,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^\u003e^) $^\u003e^",
           "normalized": "a b c d e f(g-\u003ee)-\u003e(c-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18717,6 +20341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^^)",
           "package": "plumbers",
@@ -18726,6 +20351,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^^) $^^",
           "normalized": "a b c d e(f-\u003ed)-\u003ef-\u003eb-\u003ec-\u003ed",
@@ -18740,6 +20366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^^&)",
           "package": "plumbers",
@@ -18749,6 +20376,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^^&) $^^&",
           "normalized": "a b c d e f(d-\u003eg-\u003ee)-\u003e(d-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18763,6 +20391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^^*)",
           "package": "plumbers",
@@ -18772,6 +20401,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^^*) $^^*",
           "normalized": "a b c d e f g(d-\u003eh-\u003ef)-\u003e(e-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003ef",
@@ -18786,6 +20416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^^\u003c)",
           "package": "plumbers",
@@ -18795,6 +20426,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^^\u003c) $^^\u003c",
           "normalized": "a b c d e f(d-\u003eg-\u003ee)-\u003eg-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18809,6 +20441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^^\u003e)",
           "package": "plumbers",
@@ -18818,6 +20451,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^^\u003e) $^^\u003e",
           "normalized": "a b c d e f(g-\u003ee)-\u003e(d-\u003eg)-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18832,6 +20466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "($^^^)",
           "package": "plumbers",
@@ -18841,6 +20476,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "($^^^) $^^^",
           "normalized": "a b c d e f(g-\u003ee)-\u003eg-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -18855,6 +20491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&)",
           "package": "plumbers",
@@ -18864,6 +20501,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&) *&",
           "normalized": "a b c d(b-\u003ec)-\u003e(b-\u003ee)-\u003eb-\u003e(c,e)",
@@ -18878,6 +20516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&&)",
           "package": "plumbers",
@@ -18887,6 +20526,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&&) *&&",
           "normalized": "a b c d e(b-\u003ec-\u003ed)-\u003e(b-\u003ec-\u003ef)-\u003eb-\u003ec-\u003e(d,f)",
@@ -18901,6 +20541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&&&)",
           "package": "plumbers",
@@ -18910,6 +20551,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&&&) *&&&",
           "normalized": "a b c d e f(b-\u003ec-\u003ed-\u003ee)-\u003e(b-\u003ec-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -18924,6 +20566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&&*)",
           "package": "plumbers",
@@ -18933,6 +20576,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&&*) *&&*",
           "normalized": "a b c d e f g(b-\u003ec-\u003ed-\u003ef)-\u003e(b-\u003ec-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003e(f,h)",
@@ -18947,6 +20591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&&\u003c)",
           "package": "plumbers",
@@ -18956,6 +20601,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&&\u003c) *&&\u003c",
           "normalized": "a b c d e f(b-\u003ec-\u003ed-\u003ee)-\u003e(b-\u003ec-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -18970,6 +20616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&&\u003e)",
           "package": "plumbers",
@@ -18979,6 +20626,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&&\u003e) *&&\u003e",
           "normalized": "a b c d e f(b-\u003ec-\u003ee)-\u003e(b-\u003ec-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -18993,6 +20641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&&^)",
           "package": "plumbers",
@@ -19002,6 +20651,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&&^) *&&^",
           "normalized": "a b c d e f(b-\u003ec-\u003ee)-\u003e(b-\u003ec-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -19016,6 +20666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&*)",
           "package": "plumbers",
@@ -19025,6 +20676,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&*) *&*",
           "normalized": "a b c d e f(b-\u003ec-\u003ee)-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003e(c,d)-\u003e(e,g)",
@@ -19039,6 +20691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&*&)",
           "package": "plumbers",
@@ -19048,6 +20701,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&*&) *&*&",
           "normalized": "a b c d e f g(b-\u003ec-\u003ee-\u003ef)-\u003e(b-\u003ed-\u003ee-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003e(f,h)",
@@ -19062,6 +20716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&**)",
           "package": "plumbers",
@@ -19071,6 +20726,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&**) *&**",
           "normalized": "a b c d e f g h(b-\u003ec-\u003ee-\u003eg)-\u003e(b-\u003ed-\u003ef-\u003ei)-\u003eb-\u003e(c,d)-\u003e(e,f)-\u003e(g,i)",
@@ -19085,6 +20741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&*\u003c)",
           "package": "plumbers",
@@ -19094,6 +20751,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&*\u003c) *&*\u003c",
           "normalized": "a b c d e f g(b-\u003ec-\u003ee-\u003ef)-\u003e(b-\u003ed-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003e(f,h)",
@@ -19108,6 +20766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&*\u003e)",
           "package": "plumbers",
@@ -19117,6 +20776,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&*\u003e) *&*\u003e",
           "normalized": "a b c d e f g(b-\u003ec-\u003ef)-\u003e(b-\u003ed-\u003ee-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003e(f,h)",
@@ -19131,6 +20791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&*^)",
           "package": "plumbers",
@@ -19140,6 +20801,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&*^) *&*^",
           "normalized": "a b c d e f g(b-\u003ec-\u003ef)-\u003e(b-\u003ed-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003e(f,h)",
@@ -19154,6 +20816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&\u003c)",
           "package": "plumbers",
@@ -19163,6 +20826,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&\u003c) *&\u003c",
           "normalized": "a b c d e(b-\u003ec-\u003ed)-\u003e(b-\u003ef)-\u003eb-\u003ec-\u003e(d,f)",
@@ -19177,6 +20841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&\u003c&)",
           "package": "plumbers",
@@ -19186,6 +20851,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&\u003c&) *&\u003c&",
           "normalized": "a b c d e f(b-\u003ec-\u003ed-\u003ee)-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -19200,6 +20866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&\u003c*)",
           "package": "plumbers",
@@ -19209,6 +20876,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&\u003c*) *&\u003c*",
           "normalized": "a b c d e f g(b-\u003ec-\u003ed-\u003ef)-\u003e(b-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003e(f,h)",
@@ -19223,6 +20891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&\u003c\u003c)",
           "package": "plumbers",
@@ -19232,6 +20901,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&\u003c\u003c) *&\u003c\u003c",
           "normalized": "a b c d e f(b-\u003ec-\u003ed-\u003ee)-\u003e(b-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -19246,6 +20916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&\u003c\u003e)",
           "package": "plumbers",
@@ -19255,6 +20926,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&\u003c\u003e) *&\u003c\u003e",
           "normalized": "a b c d e f(b-\u003ec-\u003ee)-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -19269,6 +20941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&\u003c^)",
           "package": "plumbers",
@@ -19278,6 +20951,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&\u003c^) *&\u003c^",
           "normalized": "a b c d e f(b-\u003ec-\u003ee)-\u003e(b-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -19292,6 +20966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&\u003e)",
           "package": "plumbers",
@@ -19301,6 +20976,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&\u003e) *&\u003e",
           "normalized": "a b c d e(b-\u003ed)-\u003e(b-\u003ec-\u003ef)-\u003eb-\u003ec-\u003e(d,f)",
@@ -19315,6 +20991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&\u003e&)",
           "package": "plumbers",
@@ -19324,6 +21001,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&\u003e&) *&\u003e&",
           "normalized": "a b c d e f(b-\u003ed-\u003ee)-\u003e(b-\u003ec-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -19338,6 +21016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&\u003e*)",
           "package": "plumbers",
@@ -19347,6 +21026,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&\u003e*) *&\u003e*",
           "normalized": "a b c d e f g(b-\u003ed-\u003ef)-\u003e(b-\u003ec-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003e(f,h)",
@@ -19361,6 +21041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&\u003e\u003c)",
           "package": "plumbers",
@@ -19370,6 +21051,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&\u003e\u003c) *&\u003e\u003c",
           "normalized": "a b c d e f(b-\u003ed-\u003ee)-\u003e(b-\u003ec-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -19384,6 +21066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&\u003e\u003e)",
           "package": "plumbers",
@@ -19393,6 +21076,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&\u003e\u003e) *&\u003e\u003e",
           "normalized": "a b c d e f(b-\u003ee)-\u003e(b-\u003ec-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -19407,6 +21091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&\u003e^)",
           "package": "plumbers",
@@ -19416,6 +21101,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&\u003e^) *&\u003e^",
           "normalized": "a b c d e f(b-\u003ee)-\u003e(b-\u003ec-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -19430,6 +21116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&^)",
           "package": "plumbers",
@@ -19439,6 +21126,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&^) *&^",
           "normalized": "a b c d e(b-\u003ed)-\u003e(b-\u003ef)-\u003eb-\u003ec-\u003e(d,f)",
@@ -19453,6 +21141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&^&)",
           "package": "plumbers",
@@ -19462,6 +21151,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&^&) *&^&",
           "normalized": "a b c d e f(b-\u003ed-\u003ee)-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -19476,6 +21166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&^*)",
           "package": "plumbers",
@@ -19485,6 +21176,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&^*) *&^*",
           "normalized": "a b c d e f g(b-\u003ed-\u003ef)-\u003e(b-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003e(f,h)",
@@ -19499,6 +21191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&^\u003c)",
           "package": "plumbers",
@@ -19508,6 +21201,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&^\u003c) *&^\u003c",
           "normalized": "a b c d e f(b-\u003ed-\u003ee)-\u003e(b-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -19522,6 +21216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&^\u003e)",
           "package": "plumbers",
@@ -19531,6 +21226,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&^\u003e) *&^\u003e",
           "normalized": "a b c d e f(b-\u003ee)-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -19545,6 +21241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*&^^)",
           "package": "plumbers",
@@ -19554,6 +21251,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*&^^) *&^^",
           "normalized": "a b c d e f(b-\u003ee)-\u003e(b-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -19568,6 +21266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**)",
           "package": "plumbers",
@@ -19577,6 +21276,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**) **",
           "normalized": "a b c d e(b-\u003ed)-\u003e(c-\u003ef)-\u003e(b,c)-\u003e(d,f)",
@@ -19591,6 +21291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**&)",
           "package": "plumbers",
@@ -19600,6 +21301,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**&) **&",
           "normalized": "a b c d e f(b-\u003ed-\u003ee)-\u003e(c-\u003ed-\u003eg)-\u003e(b,c)-\u003ed-\u003e(e,g)",
@@ -19614,6 +21316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**&&)",
           "package": "plumbers",
@@ -19623,6 +21326,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**&&) **&&",
           "normalized": "a b c d e f g(b-\u003ed-\u003ee-\u003ef)-\u003e(c-\u003ed-\u003ee-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003e(f,h)",
@@ -19637,6 +21341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**&*)",
           "package": "plumbers",
@@ -19646,6 +21351,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**&*) **&*",
           "normalized": "a b c d e f g h(b-\u003ed-\u003ee-\u003eg)-\u003e(c-\u003ed-\u003ef-\u003ei)-\u003e(b,c)-\u003ed-\u003e(e,f)-\u003e(g,i)",
@@ -19660,6 +21366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**&\u003c)",
           "package": "plumbers",
@@ -19669,6 +21376,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**&\u003c) **&\u003c",
           "normalized": "a b c d e f g(b-\u003ed-\u003ee-\u003ef)-\u003e(c-\u003ed-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003e(f,h)",
@@ -19683,6 +21391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**&\u003e)",
           "package": "plumbers",
@@ -19692,6 +21401,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**&\u003e) **&\u003e",
           "normalized": "a b c d e f g(b-\u003ed-\u003ef)-\u003e(c-\u003ed-\u003ee-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003e(f,h)",
@@ -19706,6 +21416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**&^)",
           "package": "plumbers",
@@ -19715,6 +21426,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**&^) **&^",
           "normalized": "a b c d e f g(b-\u003ed-\u003ef)-\u003e(c-\u003ed-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003e(f,h)",
@@ -19729,6 +21441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(***)",
           "package": "plumbers",
@@ -19738,6 +21451,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(***) ***",
           "normalized": "a b c d e f g(b-\u003ed-\u003ef)-\u003e(c-\u003ee-\u003eh)-\u003e(b,c)-\u003e(d,e)-\u003e(f,h)",
@@ -19752,6 +21466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(***&)",
           "package": "plumbers",
@@ -19761,6 +21476,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(***&) ***&",
           "normalized": "a b c d e f g h(b-\u003ed-\u003ef-\u003eg)-\u003e(c-\u003ee-\u003ef-\u003ei)-\u003e(b,c)-\u003e(d,e)-\u003ef-\u003e(g,i)",
@@ -19775,6 +21491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(****)",
           "package": "plumbers",
@@ -19784,6 +21501,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(****) ****",
           "normalized": "a b c d e f g h i(b-\u003ed-\u003ef-\u003eh)-\u003e(c-\u003ee-\u003eg-\u003ej)-\u003e(b,c)-\u003e(d,e)-\u003e(f,g)-\u003e(h,j)",
@@ -19798,6 +21516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(***\u003c)",
           "package": "plumbers",
@@ -19807,6 +21526,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(***\u003c) ***\u003c",
           "normalized": "a b c d e f g h(b-\u003ed-\u003ef-\u003eg)-\u003e(c-\u003ee-\u003ei)-\u003e(b,c)-\u003e(d,e)-\u003ef-\u003e(g,i)",
@@ -19821,6 +21541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(***\u003e)",
           "package": "plumbers",
@@ -19830,6 +21551,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(***\u003e) ***\u003e",
           "normalized": "a b c d e f g h(b-\u003ed-\u003eg)-\u003e(c-\u003ee-\u003ef-\u003ei)-\u003e(b,c)-\u003e(d,e)-\u003ef-\u003e(g,i)",
@@ -19844,6 +21566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(***^)",
           "package": "plumbers",
@@ -19853,6 +21576,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(***^) ***^",
           "normalized": "a b c d e f g h(b-\u003ed-\u003eg)-\u003e(c-\u003ee-\u003ei)-\u003e(b,c)-\u003e(d,e)-\u003ef-\u003e(g,i)",
@@ -19867,6 +21591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**\u003c)",
           "package": "plumbers",
@@ -19876,6 +21601,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**\u003c) **\u003c",
           "normalized": "a b c d e f(b-\u003ed-\u003ee)-\u003e(c-\u003eg)-\u003e(b,c)-\u003ed-\u003e(e,g)",
@@ -19890,6 +21616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**\u003c&)",
           "package": "plumbers",
@@ -19899,6 +21626,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**\u003c&) **\u003c&",
           "normalized": "a b c d e f g(b-\u003ed-\u003ee-\u003ef)-\u003e(c-\u003ee-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003e(f,h)",
@@ -19913,6 +21641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**\u003c*)",
           "package": "plumbers",
@@ -19922,6 +21651,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**\u003c*) **\u003c*",
           "normalized": "a b c d e f g h(b-\u003ed-\u003ee-\u003eg)-\u003e(c-\u003ef-\u003ei)-\u003e(b,c)-\u003ed-\u003e(e,f)-\u003e(g,i)",
@@ -19936,6 +21666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**\u003c\u003c)",
           "package": "plumbers",
@@ -19945,6 +21676,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**\u003c\u003c) **\u003c\u003c",
           "normalized": "a b c d e f g(b-\u003ed-\u003ee-\u003ef)-\u003e(c-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003e(f,h)",
@@ -19959,6 +21691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**\u003c\u003e)",
           "package": "plumbers",
@@ -19968,6 +21701,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**\u003c\u003e) **\u003c\u003e",
           "normalized": "a b c d e f g(b-\u003ed-\u003ef)-\u003e(c-\u003ee-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003e(f,h)",
@@ -19982,6 +21716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**\u003c^)",
           "package": "plumbers",
@@ -19991,6 +21726,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**\u003c^) **\u003c^",
           "normalized": "a b c d e f g(b-\u003ed-\u003ef)-\u003e(c-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003e(f,h)",
@@ -20005,6 +21741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**\u003e)",
           "package": "plumbers",
@@ -20014,6 +21751,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**\u003e) **\u003e",
           "normalized": "a b c d e f(b-\u003ee)-\u003e(c-\u003ed-\u003eg)-\u003e(b,c)-\u003ed-\u003e(e,g)",
@@ -20028,6 +21766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**\u003e&)",
           "package": "plumbers",
@@ -20037,6 +21776,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**\u003e&) **\u003e&",
           "normalized": "a b c d e f g(b-\u003ee-\u003ef)-\u003e(c-\u003ed-\u003ee-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003e(f,h)",
@@ -20051,6 +21791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**\u003e*)",
           "package": "plumbers",
@@ -20060,6 +21801,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**\u003e*) **\u003e*",
           "normalized": "a b c d e f g h(b-\u003ee-\u003eg)-\u003e(c-\u003ed-\u003ef-\u003ei)-\u003e(b,c)-\u003ed-\u003e(e,f)-\u003e(g,i)",
@@ -20074,6 +21816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**\u003e\u003c)",
           "package": "plumbers",
@@ -20083,6 +21826,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**\u003e\u003c) **\u003e\u003c",
           "normalized": "a b c d e f g(b-\u003ee-\u003ef)-\u003e(c-\u003ed-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003e(f,h)",
@@ -20097,6 +21841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**\u003e\u003e)",
           "package": "plumbers",
@@ -20106,6 +21851,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**\u003e\u003e) **\u003e\u003e",
           "normalized": "a b c d e f g(b-\u003ef)-\u003e(c-\u003ed-\u003ee-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003e(f,h)",
@@ -20120,6 +21866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**\u003e^)",
           "package": "plumbers",
@@ -20129,6 +21876,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**\u003e^) **\u003e^",
           "normalized": "a b c d e f g(b-\u003ef)-\u003e(c-\u003ed-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003e(f,h)",
@@ -20143,6 +21891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**^)",
           "package": "plumbers",
@@ -20152,6 +21901,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**^) **^",
           "normalized": "a b c d e f(b-\u003ee)-\u003e(c-\u003eg)-\u003e(b,c)-\u003ed-\u003e(e,g)",
@@ -20166,6 +21916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**^&)",
           "package": "plumbers",
@@ -20175,6 +21926,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**^&) **^&",
           "normalized": "a b c d e f g(b-\u003ee-\u003ef)-\u003e(c-\u003ee-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003e(f,h)",
@@ -20189,6 +21941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**^*)",
           "package": "plumbers",
@@ -20198,6 +21951,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**^*) **^*",
           "normalized": "a b c d e f g h(b-\u003ee-\u003eg)-\u003e(c-\u003ef-\u003ei)-\u003e(b,c)-\u003ed-\u003e(e,f)-\u003e(g,i)",
@@ -20212,6 +21966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**^\u003c)",
           "package": "plumbers",
@@ -20221,6 +21976,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**^\u003c) **^\u003c",
           "normalized": "a b c d e f g(b-\u003ee-\u003ef)-\u003e(c-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003e(f,h)",
@@ -20235,6 +21991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**^\u003e)",
           "package": "plumbers",
@@ -20244,6 +22001,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**^\u003e) **^\u003e",
           "normalized": "a b c d e f g(b-\u003ef)-\u003e(c-\u003ee-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003e(f,h)",
@@ -20258,6 +22016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(**^^)",
           "package": "plumbers",
@@ -20267,6 +22026,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(**^^) **^^",
           "normalized": "a b c d e f g(b-\u003ef)-\u003e(c-\u003eh)-\u003e(b,c)-\u003ed-\u003ee-\u003e(f,h)",
@@ -20281,6 +22041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c)",
           "package": "plumbers",
@@ -20290,6 +22051,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c) *\u003c",
           "normalized": "a b c d(b-\u003ec)-\u003ee-\u003eb-\u003e(c,e)",
@@ -20304,6 +22066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c&)",
           "package": "plumbers",
@@ -20313,6 +22076,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c&) *\u003c&",
           "normalized": "a b c d e(b-\u003ec-\u003ed)-\u003e(c-\u003ef)-\u003eb-\u003ec-\u003e(d,f)",
@@ -20327,6 +22091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c&&)",
           "package": "plumbers",
@@ -20336,6 +22101,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c&&) *\u003c&&",
           "normalized": "a b c d e f(b-\u003ec-\u003ed-\u003ee)-\u003e(c-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -20350,6 +22116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c&*)",
           "package": "plumbers",
@@ -20359,6 +22126,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c&*) *\u003c&*",
           "normalized": "a b c d e f g(b-\u003ec-\u003ed-\u003ef)-\u003e(c-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003e(f,h)",
@@ -20373,6 +22141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c&\u003c)",
           "package": "plumbers",
@@ -20382,6 +22151,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c&\u003c) *\u003c&\u003c",
           "normalized": "a b c d e f(b-\u003ec-\u003ed-\u003ee)-\u003e(c-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -20396,6 +22166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c&\u003e)",
           "package": "plumbers",
@@ -20405,6 +22176,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c&\u003e) *\u003c&\u003e",
           "normalized": "a b c d e f(b-\u003ec-\u003ee)-\u003e(c-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -20419,6 +22191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c&^)",
           "package": "plumbers",
@@ -20428,6 +22201,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c&^) *\u003c&^",
           "normalized": "a b c d e f(b-\u003ec-\u003ee)-\u003e(c-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -20442,6 +22216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c*)",
           "package": "plumbers",
@@ -20451,6 +22226,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c*) *\u003c*",
           "normalized": "a b c d e f(b-\u003ec-\u003ee)-\u003e(d-\u003eg)-\u003eb-\u003e(c,d)-\u003e(e,g)",
@@ -20465,6 +22241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c*&)",
           "package": "plumbers",
@@ -20474,6 +22251,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c*&) *\u003c*&",
           "normalized": "a b c d e f g(b-\u003ec-\u003ee-\u003ef)-\u003e(d-\u003ee-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003e(f,h)",
@@ -20488,6 +22266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c**)",
           "package": "plumbers",
@@ -20497,6 +22276,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c**) *\u003c**",
           "normalized": "a b c d e f g h(b-\u003ec-\u003ee-\u003eg)-\u003e(d-\u003ef-\u003ei)-\u003eb-\u003e(c,d)-\u003e(e,f)-\u003e(g,i)",
@@ -20511,6 +22291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c*\u003c)",
           "package": "plumbers",
@@ -20520,6 +22301,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c*\u003c) *\u003c*\u003c",
           "normalized": "a b c d e f g(b-\u003ec-\u003ee-\u003ef)-\u003e(d-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003e(f,h)",
@@ -20534,6 +22316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c*\u003e)",
           "package": "plumbers",
@@ -20543,6 +22326,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c*\u003e) *\u003c*\u003e",
           "normalized": "a b c d e f g(b-\u003ec-\u003ef)-\u003e(d-\u003ee-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003e(f,h)",
@@ -20557,6 +22341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c*^)",
           "package": "plumbers",
@@ -20566,6 +22351,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c*^) *\u003c*^",
           "normalized": "a b c d e f g(b-\u003ec-\u003ef)-\u003e(d-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003e(f,h)",
@@ -20580,6 +22366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003c)",
           "package": "plumbers",
@@ -20589,6 +22376,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003c) *\u003c\u003c",
           "normalized": "a b c d e(b-\u003ec-\u003ed)-\u003ef-\u003eb-\u003ec-\u003e(d,f)",
@@ -20603,6 +22391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003c&)",
           "package": "plumbers",
@@ -20612,6 +22401,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003c&) *\u003c\u003c&",
           "normalized": "a b c d e f(b-\u003ec-\u003ed-\u003ee)-\u003e(d-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -20626,6 +22416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003c*)",
           "package": "plumbers",
@@ -20635,6 +22426,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003c*) *\u003c\u003c*",
           "normalized": "a b c d e f g(b-\u003ec-\u003ed-\u003ef)-\u003e(e-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003e(f,h)",
@@ -20649,6 +22441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003c\u003c)",
           "package": "plumbers",
@@ -20658,6 +22451,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003c\u003c) *\u003c\u003c\u003c",
           "normalized": "a b c d e f(b-\u003ec-\u003ed-\u003ee)-\u003eg-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -20672,6 +22466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003c\u003e)",
           "package": "plumbers",
@@ -20681,6 +22476,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003c\u003e) *\u003c\u003c\u003e",
           "normalized": "a b c d e f(b-\u003ec-\u003ee)-\u003e(d-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -20695,6 +22491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003c^)",
           "package": "plumbers",
@@ -20704,6 +22501,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003c^) *\u003c\u003c^",
           "normalized": "a b c d e f(b-\u003ec-\u003ee)-\u003eg-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -20718,6 +22516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003e)",
           "package": "plumbers",
@@ -20727,6 +22526,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003e) *\u003c\u003e",
           "normalized": "a b c d e(b-\u003ed)-\u003e(c-\u003ef)-\u003eb-\u003ec-\u003e(d,f)",
@@ -20741,6 +22541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003e&)",
           "package": "plumbers",
@@ -20750,6 +22551,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003e&) *\u003c\u003e&",
           "normalized": "a b c d e f(b-\u003ed-\u003ee)-\u003e(c-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -20764,6 +22566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003e*)",
           "package": "plumbers",
@@ -20773,6 +22576,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003e*) *\u003c\u003e*",
           "normalized": "a b c d e f g(b-\u003ed-\u003ef)-\u003e(c-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003e(f,h)",
@@ -20787,6 +22591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003e\u003c)",
           "package": "plumbers",
@@ -20796,6 +22601,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003e\u003c) *\u003c\u003e\u003c",
           "normalized": "a b c d e f(b-\u003ed-\u003ee)-\u003e(c-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -20810,6 +22616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003e\u003e)",
           "package": "plumbers",
@@ -20819,6 +22626,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003e\u003e) *\u003c\u003e\u003e",
           "normalized": "a b c d e f(b-\u003ee)-\u003e(c-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -20833,6 +22641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003e^)",
           "package": "plumbers",
@@ -20842,6 +22651,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c\u003e^) *\u003c\u003e^",
           "normalized": "a b c d e f(b-\u003ee)-\u003e(c-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -20856,6 +22666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c^)",
           "package": "plumbers",
@@ -20865,6 +22676,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c^) *\u003c^",
           "normalized": "a b c d e(b-\u003ed)-\u003ef-\u003eb-\u003ec-\u003e(d,f)",
@@ -20879,6 +22691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c^&)",
           "package": "plumbers",
@@ -20888,6 +22701,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c^&) *\u003c^&",
           "normalized": "a b c d e f(b-\u003ed-\u003ee)-\u003e(d-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -20902,6 +22716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c^*)",
           "package": "plumbers",
@@ -20911,6 +22726,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c^*) *\u003c^*",
           "normalized": "a b c d e f g(b-\u003ed-\u003ef)-\u003e(e-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003e(f,h)",
@@ -20925,6 +22741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c^\u003c)",
           "package": "plumbers",
@@ -20934,6 +22751,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c^\u003c) *\u003c^\u003c",
           "normalized": "a b c d e f(b-\u003ed-\u003ee)-\u003eg-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -20948,6 +22766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c^\u003e)",
           "package": "plumbers",
@@ -20957,6 +22776,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c^\u003e) *\u003c^\u003e",
           "normalized": "a b c d e f(b-\u003ee)-\u003e(d-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -20971,6 +22791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003c^^)",
           "package": "plumbers",
@@ -20980,6 +22801,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003c^^) *\u003c^^",
           "normalized": "a b c d e f(b-\u003ee)-\u003eg-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -20994,6 +22816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e)",
           "package": "plumbers",
@@ -21003,6 +22826,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e) *\u003e",
           "normalized": "a b c d c-\u003e(b-\u003ee)-\u003eb-\u003e(c,e)",
@@ -21017,6 +22841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e&)",
           "package": "plumbers",
@@ -21026,6 +22851,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e&) *\u003e&",
           "normalized": "a b c d e(c-\u003ed)-\u003e(b-\u003ec-\u003ef)-\u003eb-\u003ec-\u003e(d,f)",
@@ -21040,6 +22866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e&&)",
           "package": "plumbers",
@@ -21049,6 +22876,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e&&) *\u003e&&",
           "normalized": "a b c d e f(c-\u003ed-\u003ee)-\u003e(b-\u003ec-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21063,6 +22891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e&*)",
           "package": "plumbers",
@@ -21072,6 +22901,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e&*) *\u003e&*",
           "normalized": "a b c d e f g(c-\u003ed-\u003ef)-\u003e(b-\u003ec-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003e(f,h)",
@@ -21086,6 +22916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e&\u003c)",
           "package": "plumbers",
@@ -21095,6 +22926,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e&\u003c) *\u003e&\u003c",
           "normalized": "a b c d e f(c-\u003ed-\u003ee)-\u003e(b-\u003ec-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21109,6 +22941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e&\u003e)",
           "package": "plumbers",
@@ -21118,6 +22951,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e&\u003e) *\u003e&\u003e",
           "normalized": "a b c d e f(c-\u003ee)-\u003e(b-\u003ec-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21132,6 +22966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e&^)",
           "package": "plumbers",
@@ -21141,6 +22976,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e&^) *\u003e&^",
           "normalized": "a b c d e f(c-\u003ee)-\u003e(b-\u003ec-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21155,6 +22991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e*)",
           "package": "plumbers",
@@ -21164,6 +23001,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e*) *\u003e*",
           "normalized": "a b c d e f(c-\u003ee)-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003e(c,d)-\u003e(e,g)",
@@ -21178,6 +23016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e*&)",
           "package": "plumbers",
@@ -21187,6 +23026,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e*&) *\u003e*&",
           "normalized": "a b c d e f g(c-\u003ee-\u003ef)-\u003e(b-\u003ed-\u003ee-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003e(f,h)",
@@ -21201,6 +23041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e**)",
           "package": "plumbers",
@@ -21210,6 +23051,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e**) *\u003e**",
           "normalized": "a b c d e f g h(c-\u003ee-\u003eg)-\u003e(b-\u003ed-\u003ef-\u003ei)-\u003eb-\u003e(c,d)-\u003e(e,f)-\u003e(g,i)",
@@ -21224,6 +23066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e*\u003c)",
           "package": "plumbers",
@@ -21233,6 +23076,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e*\u003c) *\u003e*\u003c",
           "normalized": "a b c d e f g(c-\u003ee-\u003ef)-\u003e(b-\u003ed-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003e(f,h)",
@@ -21247,6 +23091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e*\u003e)",
           "package": "plumbers",
@@ -21256,6 +23101,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e*\u003e) *\u003e*\u003e",
           "normalized": "a b c d e f g(c-\u003ef)-\u003e(b-\u003ed-\u003ee-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003e(f,h)",
@@ -21270,6 +23116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e*^)",
           "package": "plumbers",
@@ -21279,6 +23126,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e*^) *\u003e*^",
           "normalized": "a b c d e f g(c-\u003ef)-\u003e(b-\u003ed-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003e(f,h)",
@@ -21293,6 +23141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003c)",
           "package": "plumbers",
@@ -21302,6 +23151,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003c) *\u003e\u003c",
           "normalized": "a b c d e(c-\u003ed)-\u003e(b-\u003ef)-\u003eb-\u003ec-\u003e(d,f)",
@@ -21316,6 +23166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003c&)",
           "package": "plumbers",
@@ -21325,6 +23176,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003c&) *\u003e\u003c&",
           "normalized": "a b c d e f(c-\u003ed-\u003ee)-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21339,6 +23191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003c*)",
           "package": "plumbers",
@@ -21348,6 +23201,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003c*) *\u003e\u003c*",
           "normalized": "a b c d e f g(c-\u003ed-\u003ef)-\u003e(b-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003e(f,h)",
@@ -21362,6 +23216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003c\u003c)",
           "package": "plumbers",
@@ -21371,6 +23226,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003c\u003c) *\u003e\u003c\u003c",
           "normalized": "a b c d e f(c-\u003ed-\u003ee)-\u003e(b-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21385,6 +23241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003c\u003e)",
           "package": "plumbers",
@@ -21394,6 +23251,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003c\u003e) *\u003e\u003c\u003e",
           "normalized": "a b c d e f(c-\u003ee)-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21408,6 +23266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003c^)",
           "package": "plumbers",
@@ -21417,6 +23276,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003c^) *\u003e\u003c^",
           "normalized": "a b c d e f(c-\u003ee)-\u003e(b-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21431,6 +23291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003e)",
           "package": "plumbers",
@@ -21440,6 +23301,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003e) *\u003e\u003e",
           "normalized": "a b c d e d-\u003e(b-\u003ec-\u003ef)-\u003eb-\u003ec-\u003e(d,f)",
@@ -21454,6 +23316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003e&)",
           "package": "plumbers",
@@ -21463,6 +23326,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003e&) *\u003e\u003e&",
           "normalized": "a b c d e f(d-\u003ee)-\u003e(b-\u003ec-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21477,6 +23341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003e*)",
           "package": "plumbers",
@@ -21486,6 +23351,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003e*) *\u003e\u003e*",
           "normalized": "a b c d e f g(d-\u003ef)-\u003e(b-\u003ec-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003e(f,h)",
@@ -21500,6 +23366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003e\u003c)",
           "package": "plumbers",
@@ -21509,6 +23376,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003e\u003c) *\u003e\u003e\u003c",
           "normalized": "a b c d e f(d-\u003ee)-\u003e(b-\u003ec-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21523,6 +23391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003e\u003e)",
           "package": "plumbers",
@@ -21532,6 +23401,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003e\u003e) *\u003e\u003e\u003e",
           "normalized": "a b c d e f e-\u003e(b-\u003ec-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21546,6 +23416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003e^)",
           "package": "plumbers",
@@ -21555,6 +23426,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e\u003e^) *\u003e\u003e^",
           "normalized": "a b c d e f e-\u003e(b-\u003ec-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21569,6 +23441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e^)",
           "package": "plumbers",
@@ -21578,6 +23451,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e^) *\u003e^",
           "normalized": "a b c d e d-\u003e(b-\u003ef)-\u003eb-\u003ec-\u003e(d,f)",
@@ -21592,6 +23466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e^&)",
           "package": "plumbers",
@@ -21601,6 +23476,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e^&) *\u003e^&",
           "normalized": "a b c d e f(d-\u003ee)-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21615,6 +23491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e^*)",
           "package": "plumbers",
@@ -21624,6 +23501,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e^*) *\u003e^*",
           "normalized": "a b c d e f g(d-\u003ef)-\u003e(b-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003e(f,h)",
@@ -21638,6 +23516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e^\u003c)",
           "package": "plumbers",
@@ -21647,6 +23526,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e^\u003c) *\u003e^\u003c",
           "normalized": "a b c d e f(d-\u003ee)-\u003e(b-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21661,6 +23541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e^\u003e)",
           "package": "plumbers",
@@ -21670,6 +23551,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e^\u003e) *\u003e^\u003e",
           "normalized": "a b c d e f e-\u003e(b-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21684,6 +23566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*\u003e^^)",
           "package": "plumbers",
@@ -21693,6 +23576,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*\u003e^^) *\u003e^^",
           "normalized": "a b c d e f e-\u003e(b-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21707,6 +23591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^)",
           "package": "plumbers",
@@ -21716,6 +23601,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^) *^",
           "normalized": "a b c d c-\u003ee-\u003eb-\u003e(c,e)",
@@ -21730,6 +23616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^&)",
           "package": "plumbers",
@@ -21739,6 +23626,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^&) *^&",
           "normalized": "a b c d e(c-\u003ed)-\u003e(c-\u003ef)-\u003eb-\u003ec-\u003e(d,f)",
@@ -21753,6 +23641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^&&)",
           "package": "plumbers",
@@ -21762,6 +23651,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^&&) *^&&",
           "normalized": "a b c d e f(c-\u003ed-\u003ee)-\u003e(c-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21776,6 +23666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^&*)",
           "package": "plumbers",
@@ -21785,6 +23676,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^&*) *^&*",
           "normalized": "a b c d e f g(c-\u003ed-\u003ef)-\u003e(c-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003e(f,h)",
@@ -21799,6 +23691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^&\u003c)",
           "package": "plumbers",
@@ -21808,6 +23701,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^&\u003c) *^&\u003c",
           "normalized": "a b c d e f(c-\u003ed-\u003ee)-\u003e(c-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21822,6 +23716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^&\u003e)",
           "package": "plumbers",
@@ -21831,6 +23726,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^&\u003e) *^&\u003e",
           "normalized": "a b c d e f(c-\u003ee)-\u003e(c-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21845,6 +23741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^&^)",
           "package": "plumbers",
@@ -21854,6 +23751,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^&^) *^&^",
           "normalized": "a b c d e f(c-\u003ee)-\u003e(c-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -21868,6 +23766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^*)",
           "package": "plumbers",
@@ -21877,6 +23776,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^*) *^*",
           "normalized": "a b c d e f(c-\u003ee)-\u003e(d-\u003eg)-\u003eb-\u003e(c,d)-\u003e(e,g)",
@@ -21891,6 +23791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^*&)",
           "package": "plumbers",
@@ -21900,6 +23801,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^*&) *^*&",
           "normalized": "a b c d e f g(c-\u003ee-\u003ef)-\u003e(d-\u003ee-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003e(f,h)",
@@ -21914,6 +23816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^**)",
           "package": "plumbers",
@@ -21923,6 +23826,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^**) *^**",
           "normalized": "a b c d e f g h(c-\u003ee-\u003eg)-\u003e(d-\u003ef-\u003ei)-\u003eb-\u003e(c,d)-\u003e(e,f)-\u003e(g,i)",
@@ -21937,6 +23841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^*\u003c)",
           "package": "plumbers",
@@ -21946,6 +23851,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^*\u003c) *^*\u003c",
           "normalized": "a b c d e f g(c-\u003ee-\u003ef)-\u003e(d-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003e(f,h)",
@@ -21960,6 +23866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^*\u003e)",
           "package": "plumbers",
@@ -21969,6 +23876,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^*\u003e) *^*\u003e",
           "normalized": "a b c d e f g(c-\u003ef)-\u003e(d-\u003ee-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003e(f,h)",
@@ -21983,6 +23891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^*^)",
           "package": "plumbers",
@@ -21992,6 +23901,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^*^) *^*^",
           "normalized": "a b c d e f g(c-\u003ef)-\u003e(d-\u003eh)-\u003eb-\u003e(c,d)-\u003ee-\u003e(f,h)",
@@ -22006,6 +23916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^\u003c)",
           "package": "plumbers",
@@ -22015,6 +23926,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^\u003c) *^\u003c",
           "normalized": "a b c d e(c-\u003ed)-\u003ef-\u003eb-\u003ec-\u003e(d,f)",
@@ -22029,6 +23941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^\u003c&)",
           "package": "plumbers",
@@ -22038,6 +23951,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^\u003c&) *^\u003c&",
           "normalized": "a b c d e f(c-\u003ed-\u003ee)-\u003e(d-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -22052,6 +23966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^\u003c*)",
           "package": "plumbers",
@@ -22061,6 +23976,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^\u003c*) *^\u003c*",
           "normalized": "a b c d e f g(c-\u003ed-\u003ef)-\u003e(e-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003e(f,h)",
@@ -22075,6 +23991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^\u003c\u003c)",
           "package": "plumbers",
@@ -22084,6 +24001,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^\u003c\u003c) *^\u003c\u003c",
           "normalized": "a b c d e f(c-\u003ed-\u003ee)-\u003eg-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -22098,6 +24016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^\u003c\u003e)",
           "package": "plumbers",
@@ -22107,6 +24026,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^\u003c\u003e) *^\u003c\u003e",
           "normalized": "a b c d e f(c-\u003ee)-\u003e(d-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -22121,6 +24041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^\u003c^)",
           "package": "plumbers",
@@ -22130,6 +24051,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^\u003c^) *^\u003c^",
           "normalized": "a b c d e f(c-\u003ee)-\u003eg-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -22144,6 +24066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^\u003e)",
           "package": "plumbers",
@@ -22153,6 +24076,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^\u003e) *^\u003e",
           "normalized": "a b c d e d-\u003e(c-\u003ef)-\u003eb-\u003ec-\u003e(d,f)",
@@ -22167,6 +24091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^\u003e&)",
           "package": "plumbers",
@@ -22176,6 +24101,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^\u003e&) *^\u003e&",
           "normalized": "a b c d e f(d-\u003ee)-\u003e(c-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -22190,6 +24116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^\u003e*)",
           "package": "plumbers",
@@ -22199,6 +24126,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^\u003e*) *^\u003e*",
           "normalized": "a b c d e f g(d-\u003ef)-\u003e(c-\u003ee-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003e(f,h)",
@@ -22213,6 +24141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^\u003e\u003c)",
           "package": "plumbers",
@@ -22222,6 +24151,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^\u003e\u003c) *^\u003e\u003c",
           "normalized": "a b c d e f(d-\u003ee)-\u003e(c-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -22236,6 +24166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^\u003e\u003e)",
           "package": "plumbers",
@@ -22245,6 +24176,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^\u003e\u003e) *^\u003e\u003e",
           "normalized": "a b c d e f e-\u003e(c-\u003ed-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -22259,6 +24191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^\u003e^)",
           "package": "plumbers",
@@ -22268,6 +24201,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^\u003e^) *^\u003e^",
           "normalized": "a b c d e f e-\u003e(c-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -22282,6 +24216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^^)",
           "package": "plumbers",
@@ -22291,6 +24226,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^^) *^^",
           "normalized": "a b c d e d-\u003ef-\u003eb-\u003ec-\u003e(d,f)",
@@ -22305,6 +24241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^^&)",
           "package": "plumbers",
@@ -22314,6 +24251,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^^&) *^^&",
           "normalized": "a b c d e f(d-\u003ee)-\u003e(d-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -22328,6 +24266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^^*)",
           "package": "plumbers",
@@ -22337,6 +24276,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^^*) *^^*",
           "normalized": "a b c d e f g(d-\u003ef)-\u003e(e-\u003eh)-\u003eb-\u003ec-\u003e(d,e)-\u003e(f,h)",
@@ -22351,6 +24291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^^\u003c)",
           "package": "plumbers",
@@ -22360,6 +24301,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^^\u003c) *^^\u003c",
           "normalized": "a b c d e f(d-\u003ee)-\u003eg-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -22374,6 +24316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^^\u003e)",
           "package": "plumbers",
@@ -22383,6 +24326,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^^\u003e) *^^\u003e",
           "normalized": "a b c d e f e-\u003e(d-\u003eg)-\u003eb-\u003ec-\u003ed-\u003e(e,g)",
@@ -22397,6 +24341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:23 UTC 2014",
           "module": "Control.Plumbers",
           "name": "(*^^^)",
           "package": "plumbers",
@@ -22406,6 +24351,7 @@
         },
         "index": {
           "hierarchy": "Control Plumbers",
+          "indexed": "2014-03-11T19:40:23",
           "module": "Control.Plumbers",
           "name": "(*^^^) *^^^",
           "normalized": "a b c d e f e-\u003eg-\u003eb-\u003ec-\u003ed-\u003e(e,g)",

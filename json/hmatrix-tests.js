@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hmatrix-tests"
+        "phrase": "hmatrix-tests",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome tests.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:10 UTC 2014",
           "module": "Numeric.LinearAlgebra.Tests",
           "name": "Tests",
           "package": "hmatrix-tests",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Some tests",
           "hierarchy": "Numeric LinearAlgebra Tests",
+          "indexed": "2014-03-11T18:42:10",
           "module": "Numeric.LinearAlgebra.Tests",
           "name": "Tests",
           "package": "hmatrix-tests",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerformance measurements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:10 UTC 2014",
           "module": "Numeric.LinearAlgebra.Tests",
           "name": "runBenchmarks",
           "package": "hmatrix-tests",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Performance measurements",
           "hierarchy": "Numeric LinearAlgebra Tests",
+          "indexed": "2014-03-11T18:42:10",
           "module": "Numeric.LinearAlgebra.Tests",
           "name": "runBenchmarks",
           "normalized": "IO()",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll tests must pass with a maximum dimension of about 20\n  (some tests may fail with bigger sizes due to precision loss).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:10 UTC 2014",
           "module": "Numeric.LinearAlgebra.Tests",
           "name": "runTests",
           "package": "hmatrix-tests",
@@ -77,6 +82,7 @@
         "index": {
           "description": "All tests must pass with maximum dimension of about some tests may fail with bigger sizes due to precision loss",
           "hierarchy": "Numeric LinearAlgebra Tests",
+          "indexed": "2014-03-11T18:42:10",
           "module": "Numeric.LinearAlgebra.Tests",
           "name": "runTests",
           "normalized": "Int-\u003eIO()",

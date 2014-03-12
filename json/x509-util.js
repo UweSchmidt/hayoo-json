@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "x509-util"
+        "phrase": "x509-util",
+        "type": "phrase"
       },
       "type": "context"
     }

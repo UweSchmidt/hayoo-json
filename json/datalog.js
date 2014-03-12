@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "datalog"
+        "phrase": "datalog",
+        "type": "phrase"
       },
       "type": "context"
     }

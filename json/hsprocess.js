@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsprocess"
+        "phrase": "hsprocess",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:25 UTC 2014",
           "module": "System.Console.HSProcess.Representable",
           "name": "Representable",
           "package": "hsprocess",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Console HSProcess Representable",
+          "indexed": "2014-03-11T18:50:25",
           "module": "System.Console.HSProcess.Representable",
           "name": "Representable",
           "package": "hsprocess",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Row is something that can be expressed as a line. \n The output of repr' should be formatted such that\n it can be read and processed from the command line.\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eIO.putStrLn $ show [1,2,3,4]\n\u003c/code\u003e\u003c/strong\u003e[1,2,3,4]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eData.ByteString.Lazy.Char8.putStrLn $ repr' [1,2,3,4]\n\u003c/code\u003e\u003c/strong\u003e1 2 3 4\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:50:25 UTC 2014",
           "module": "System.Console.HSProcess.Representable",
           "name": "Row",
           "package": "hsprocess",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Row is something that can be expressed as line The output of repr should be formatted such that it can be read and processed from the command line For example IO.putStrLn show Data.ByteString.Lazy.Char8.putStrLn repr",
           "hierarchy": "System Console HSProcess Representable",
+          "indexed": "2014-03-11T18:50:25",
           "module": "System.Console.HSProcess.Representable",
           "name": "Row",
           "package": "hsprocess",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that instantiate Rows is a type that can be represented as\n a list of rows, where typically a row is a line.\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emapM_ Data.ByteString.Lazy.Char8.putStrLn $ repr [1,2,3,4]\n\u003c/code\u003e\u003c/strong\u003e1\n2\n3\n4\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:50:25 UTC 2014",
           "module": "System.Console.HSProcess.Representable",
           "name": "Rows",
           "package": "hsprocess",
@@ -72,6 +77,7 @@
         "index": {
           "description": "type that instantiate Rows is type that can be represented as list of rows where typically row is line For example mapM Data.ByteString.Lazy.Char8.putStrLn repr",
           "hierarchy": "System Console HSProcess Representable",
+          "indexed": "2014-03-11T18:50:25",
           "module": "System.Console.HSProcess.Representable",
           "name": "Rows",
           "package": "hsprocess",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:25 UTC 2014",
           "module": "System.Console.HSProcess.Representable",
           "name": "printRow",
           "package": "hsprocess",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "System Console HSProcess Representable",
+          "indexed": "2014-03-11T18:50:25",
           "module": "System.Console.HSProcess.Representable",
           "name": "printRow",
           "normalized": "Bool-\u003ea-\u003eIO()",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:25 UTC 2014",
           "module": "System.Console.HSProcess.Representable",
           "name": "printRows",
           "package": "hsprocess",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "System Console HSProcess Representable",
+          "indexed": "2014-03-11T18:50:25",
           "module": "System.Console.HSProcess.Representable",
           "name": "printRows",
           "normalized": "Bool-\u003ea-\u003eIO()",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:25 UTC 2014",
           "module": "System.Console.HSProcess.Representable",
           "name": "repr",
           "package": "hsprocess",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "System Console HSProcess Representable",
+          "indexed": "2014-03-11T18:50:25",
           "module": "System.Console.HSProcess.Representable",
           "name": "repr",
           "normalized": "a-\u003e[ByteString]",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:25 UTC 2014",
           "module": "System.Console.HSProcess.Representable",
           "name": "repr'",
           "package": "hsprocess",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "System Console HSProcess Representable",
+          "indexed": "2014-03-11T18:50:25",
           "module": "System.Console.HSProcess.Representable",
           "name": "repr'",
           "normalized": "a-\u003eByteString",

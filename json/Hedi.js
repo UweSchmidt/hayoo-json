@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Hedi"
+        "phrase": "Hedi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "Command",
           "package": "Hedi",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "Command",
           "package": "Hedi",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "CompleteCommand",
           "package": "Hedi",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "CompleteCommand",
           "package": "Hedi",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "main datatype for the program-- beyond the core state, a simulation layer \u003ctt\u003e\u003ca\u003eSIO\u003c/a\u003e\u003c/tt\u003e can be read \n and errors \u003ctt\u003e\u003ca\u003eErr\u003c/a\u003e\u003c/tt\u003e can be thrown to kill the monad flow\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "Editor",
           "package": "Hedi",
@@ -70,6 +75,7 @@
         "index": {
           "description": "main datatype for the program beyond the core state simulation layer SIO can be read and errors Err can be thrown to kill the monad flow",
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "Editor",
           "package": "Hedi",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "Err",
           "package": "Hedi",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "Err",
           "package": "Hedi",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "Offset",
           "package": "Hedi",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "Offset",
           "package": "Hedi",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "OffsetOrRange",
           "package": "Hedi",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "OffsetOrRange",
           "package": "Hedi",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "Range",
           "package": "Hedi",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "Range",
           "package": "Hedi",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "Stato",
           "package": "Hedi",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "Stato",
           "package": "Hedi",
@@ -189,6 +205,7 @@
       "document": {
         "description": {
           "description": "the core editor runs under the state monad with state (Stato) .\n Wrapped around a monad (IO mainly) to permit console input and output of commands with IO\n and testing with State\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "StatoE",
           "package": "Hedi",
@@ -198,6 +215,7 @@
         "index": {
           "description": "the core editor runs under the state monad with state Stato Wrapped around monad IO mainly to permit console input and output of commands with IO and testing with State",
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "StatoE",
           "package": "Hedi",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "Ctx",
           "package": "Hedi",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "Ctx",
           "package": "Hedi",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "SIO",
           "package": "Hedi",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "SIO",
           "package": "Hedi",
@@ -254,6 +276,7 @@
       "document": {
         "description": {
           "description": "maybe action\nmonading \n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "backend",
           "package": "Hedi",
@@ -264,6 +287,7 @@
         "index": {
           "description": "maybe action monading",
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "backend",
           "normalized": "Maybe a-\u003eEditor b a",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "commandhelpSIO",
           "package": "Hedi",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "commandhelpSIO",
           "package": "Hedi",
@@ -301,6 +327,7 @@
       "document": {
         "description": {
           "description": "output an error string\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "errorSIO",
           "package": "Hedi",
@@ -311,6 +338,7 @@
         "index": {
           "description": "output an error string",
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "errorSIO",
           "normalized": "String-\u003ea()",
@@ -327,6 +355,7 @@
       "document": {
         "description": {
           "description": "the errorSIO action lifted to Editor\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "errorlog",
           "package": "Hedi",
@@ -337,6 +366,7 @@
         "index": {
           "description": "the errorSIO action lifted to Editor",
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "errorlog",
           "normalized": "String-\u003eEditor a()",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "externalSio",
           "package": "Hedi",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "externalSio",
           "normalized": "String-\u003eErrorT String a String",
@@ -376,6 +408,7 @@
       "document": {
         "description": {
           "description": "the historySIO action lifted to Editor \n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "history",
           "package": "Hedi",
@@ -386,6 +419,7 @@
         "index": {
           "description": "the historySIO action lifted to Editor",
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "history",
           "normalized": "String-\u003eEditor a()",
@@ -401,6 +435,7 @@
       "document": {
         "description": {
           "description": "put a line in the history (which is global)\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "historySio",
           "package": "Hedi",
@@ -411,6 +446,7 @@
         "index": {
           "description": "put line in the history which is global",
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "historySio",
           "normalized": "String-\u003ea()",
@@ -427,6 +463,7 @@
       "document": {
         "description": {
           "description": "push a new file (data \u003ctt\u003e\u003ca\u003eEngine\u003c/a\u003e\u003c/tt\u003e instance) in the core State, pushing the old state in the undo stack\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "hputfile",
           "package": "Hedi",
@@ -437,6 +474,7 @@
         "index": {
           "description": "push new file data Engine instance in the core State pushing the old state in the undo stack",
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "hputfile",
           "normalized": "Engine-\u003eEditor a()",
@@ -452,6 +490,7 @@
       "document": {
         "description": {
           "description": "the inputSio action lifted to Editor with empty prompt\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "input",
           "package": "Hedi",
@@ -462,6 +501,7 @@
         "index": {
           "description": "the inputSio action lifted to Editor with empty prompt",
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "input",
           "package": "Hedi",
@@ -475,6 +515,7 @@
       "document": {
         "description": {
           "description": "accepts a prompt and should return Nothing on eof else a line of input\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "inputSio",
           "package": "Hedi",
@@ -485,6 +526,7 @@
         "index": {
           "description": "accepts prompt and should return Nothing on eof else line of input",
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "inputSio",
           "normalized": "String-\u003ea(Maybe String)",
@@ -500,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "liftSio",
           "package": "Hedi",
@@ -509,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "liftSio",
           "normalized": "a b-\u003eEditor a b",
@@ -524,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "liftStatoE",
           "package": "Hedi",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "liftStatoE",
           "normalized": "StatoE a b-\u003eEditor a b",
@@ -549,6 +595,7 @@
       "document": {
         "description": {
           "description": "the outputSio action lifted to Editor\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "output",
           "package": "Hedi",
@@ -559,6 +606,7 @@
         "index": {
           "description": "the outputSio action lifted to Editor",
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "output",
           "normalized": "String-\u003eEditor a()",
@@ -574,6 +622,7 @@
       "document": {
         "description": {
           "description": "output a normal string\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "outputSio",
           "package": "Hedi",
@@ -584,6 +633,7 @@
         "index": {
           "description": "output normal string",
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "outputSio",
           "normalized": "String-\u003ea()",
@@ -600,6 +650,7 @@
       "document": {
         "description": {
           "description": "the inputSio action lifted to Editor\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "pinput",
           "package": "Hedi",
@@ -610,6 +661,7 @@
         "index": {
           "description": "the inputSio action lifted to Editor",
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "pinput",
           "normalized": "String-\u003eEditor a(Maybe String)",
@@ -625,6 +677,7 @@
       "document": {
         "description": {
           "description": "read a file\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "readfileSio",
           "package": "Hedi",
@@ -635,6 +688,7 @@
         "index": {
           "description": "read file",
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "readfileSio",
           "normalized": "String-\u003eErrorT String a String",
@@ -651,6 +705,7 @@
       "document": {
         "description": {
           "description": "the action to run\nthe initial state \nthe final state wrapped in the monad choosen for the SIO\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "run",
           "package": "Hedi",
@@ -661,6 +716,7 @@
         "index": {
           "description": "the action to run the initial state the final state wrapped in the monad choosen for the SIO",
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "run",
           "normalized": "Editor a b-\u003eStato-\u003ea Stato",
@@ -676,6 +732,7 @@
       "document": {
         "description": {
           "description": "an action from an engine w to a maybe\nthe result from Just in the Editor monad\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "through",
           "package": "Hedi",
@@ -686,6 +743,7 @@
         "index": {
           "description": "an action from an engine to maybe the result from Just in the Editor monad",
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "through",
           "normalized": "Engine-\u003eMaybe a-\u003eEditor b a",
@@ -701,6 +759,7 @@
       "document": {
         "description": {
           "description": "write a file\n | runs an external command , first arg is the command\n the output is returned or an error is signalled in the errort monad\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Editor",
           "name": "writefileSio",
           "package": "Hedi",
@@ -711,6 +770,7 @@
         "index": {
           "description": "write file runs an external command first arg is the command the output is returned or an error is signalled in the errort monad",
           "hierarchy": "Editor",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Editor",
           "name": "writefileSio",
           "normalized": "String-\u003eString-\u003eErrorT String a()",
@@ -727,6 +787,7 @@
       "document": {
         "description": {
           "description": "represent an action, which can fail with Nothing , an index error\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "Change",
           "package": "Hedi",
@@ -736,6 +797,7 @@
         "index": {
           "description": "represent an action which can fail with Nothing an index error",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "Change",
           "package": "Hedi",
@@ -749,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "Engine",
           "package": "Hedi",
@@ -757,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "Engine",
           "package": "Hedi",
@@ -770,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "Pos",
           "package": "Hedi",
@@ -778,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "Pos",
           "package": "Hedi",
@@ -792,6 +858,7 @@
       "document": {
         "description": {
           "description": "Insert some lines after the addressed line\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "add",
           "package": "Hedi",
@@ -802,6 +869,7 @@
         "index": {
           "description": "Insert some lines after the addressed line",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "add",
           "normalized": "[String]-\u003eChange Engine",
@@ -817,6 +885,7 @@
       "document": {
         "description": {
           "description": "all the prev engines from the addressed prev to itself , wrapping around\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "bwdcycle",
           "package": "Hedi",
@@ -827,6 +896,7 @@
         "index": {
           "description": "all the prev engines from the addressed prev to itself wrapping around",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "bwdcycle",
           "normalized": "Engine-\u003e[Engine]",
@@ -842,6 +912,7 @@
       "document": {
         "description": {
           "description": "Delete the addressed line , address the next one\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "del",
           "package": "Hedi",
@@ -852,6 +923,7 @@
         "index": {
           "description": "Delete the addressed line address the next one",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "del",
           "package": "Hedi",
@@ -865,6 +937,7 @@
       "document": {
         "description": {
           "description": "Delete n lines from the addressed position\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "deln",
           "package": "Hedi",
@@ -875,6 +948,7 @@
         "index": {
           "description": "Delete lines from the addressed position",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "deln",
           "normalized": "Int-\u003eChange Engine",
@@ -890,6 +964,7 @@
       "document": {
         "description": {
           "description": "An empty engine\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "empty",
           "package": "Hedi",
@@ -900,6 +975,7 @@
         "index": {
           "description": "An empty engine",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "empty",
           "package": "Hedi",
@@ -913,6 +989,7 @@
       "document": {
         "description": {
           "description": "Address an append position\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "end",
           "package": "Hedi",
@@ -923,6 +1000,7 @@
         "index": {
           "description": "Address an append position",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "end",
           "package": "Hedi",
@@ -936,6 +1014,7 @@
       "document": {
         "description": {
           "description": "first element if present\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "first",
           "package": "Hedi",
@@ -946,6 +1025,7 @@
         "index": {
           "description": "first element if present",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "first",
           "package": "Hedi",
@@ -959,6 +1039,7 @@
       "document": {
         "description": {
           "description": "Create all the engines from the start to the addressed one included\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "fromstart",
           "package": "Hedi",
@@ -969,6 +1050,7 @@
         "index": {
           "description": "Create all the engines from the start to the addressed one included",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "fromstart",
           "normalized": "Engine-\u003e[Engine]",
@@ -984,6 +1066,7 @@
       "document": {
         "description": {
           "description": "all the next engines from the addressed next to itself , wrapping around\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "fwdcycle",
           "package": "Hedi",
@@ -994,6 +1077,7 @@
         "index": {
           "description": "all the next engines from the addressed next to itself wrapping around",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "fwdcycle",
           "normalized": "Engine-\u003e[Engine]",
@@ -1009,6 +1093,7 @@
       "document": {
         "description": {
           "description": "Insert some lines before the addressed line\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "ins",
           "package": "Hedi",
@@ -1019,6 +1104,7 @@
         "index": {
           "description": "Insert some lines before the addressed line",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "ins",
           "normalized": "[String]-\u003eChange Engine",
@@ -1033,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "isInside",
           "package": "Hedi",
@@ -1042,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "isInside",
           "normalized": "Engine-\u003eBool",
@@ -1058,6 +1146,7 @@
       "document": {
         "description": {
           "description": "Possibly set the addressed line to the nth line\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "jump",
           "package": "Hedi",
@@ -1068,6 +1157,7 @@
         "index": {
           "description": "Possibly set the addressed line to the nth line",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "jump",
           "normalized": "Int-\u003eChange Engine",
@@ -1083,6 +1173,7 @@
       "document": {
         "description": {
           "description": "last element if present\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "last",
           "package": "Hedi",
@@ -1093,6 +1184,7 @@
         "index": {
           "description": "last element if present",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "last",
           "package": "Hedi",
@@ -1106,6 +1198,7 @@
       "document": {
         "description": {
           "description": "Extract the addressed line\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "line",
           "package": "Hedi",
@@ -1116,6 +1209,7 @@
         "index": {
           "description": "Extract the addressed line",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "line",
           "normalized": "Engine-\u003eMaybe String",
@@ -1131,6 +1225,7 @@
       "document": {
         "description": {
           "description": "Extract n lines from the position addressed\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "linen",
           "package": "Hedi",
@@ -1141,6 +1236,7 @@
         "index": {
           "description": "Extract lines from the position addressed",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "linen",
           "normalized": "Int-\u003eEngine-\u003eMaybe[String]",
@@ -1156,6 +1252,7 @@
       "document": {
         "description": {
           "description": "An engine is isomorphic to Engine list\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "listIn",
           "package": "Hedi",
@@ -1166,6 +1263,7 @@
         "index": {
           "description": "An engine is isomorphic to Engine list",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "listIn",
           "normalized": "[String]-\u003eEngine",
@@ -1182,6 +1280,7 @@
       "document": {
         "description": {
           "description": "Extract the list from the engine\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "listOut",
           "package": "Hedi",
@@ -1192,6 +1291,7 @@
         "index": {
           "description": "Extract the list from the engine",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "listOut",
           "normalized": "Engine-\u003eMaybe[String]",
@@ -1208,6 +1308,7 @@
       "document": {
         "description": {
           "description": "Address the next line\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "next",
           "package": "Hedi",
@@ -1218,6 +1319,7 @@
         "index": {
           "description": "Address the next line",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "next",
           "package": "Hedi",
@@ -1231,6 +1333,7 @@
       "document": {
         "description": {
           "description": "Jump ahead n lines\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "nextn",
           "package": "Hedi",
@@ -1241,6 +1344,7 @@
         "index": {
           "description": "Jump ahead lines",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "nextn",
           "normalized": "Int-\u003eChange Engine",
@@ -1256,6 +1360,7 @@
       "document": {
         "description": {
           "description": "The number of the addressed line\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "pos",
           "package": "Hedi",
@@ -1266,6 +1371,7 @@
         "index": {
           "description": "The number of the addressed line",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "pos",
           "normalized": "Engine-\u003ePos",
@@ -1281,6 +1387,7 @@
       "document": {
         "description": {
           "description": "Address the prev line\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "prev",
           "package": "Hedi",
@@ -1291,6 +1398,7 @@
         "index": {
           "description": "Address the prev line",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "prev",
           "package": "Hedi",
@@ -1304,6 +1412,7 @@
       "document": {
         "description": {
           "description": "Jump back n lines \n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "prevn",
           "package": "Hedi",
@@ -1314,6 +1423,7 @@
         "index": {
           "description": "Jump back lines",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "prevn",
           "normalized": "Int-\u003eChange Engine",
@@ -1329,6 +1439,7 @@
       "document": {
         "description": {
           "description": "Jump n lines relative to the addredded line\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "rjump",
           "package": "Hedi",
@@ -1339,6 +1450,7 @@
         "index": {
           "description": "Jump lines relative to the addredded line",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "rjump",
           "normalized": "Int-\u003eChange Engine",
@@ -1353,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "runner",
           "package": "Hedi",
@@ -1362,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "runner",
           "normalized": "Change Engine-\u003eEngine-\u003e[Engine]",
@@ -1377,6 +1491,7 @@
       "document": {
         "description": {
           "description": "Address before the first line\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "start",
           "package": "Hedi",
@@ -1387,6 +1502,7 @@
         "index": {
           "description": "Address before the first line",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "start",
           "package": "Hedi",
@@ -1400,6 +1516,7 @@
       "document": {
         "description": {
           "description": "Create all the engines from the addressed one to the last one \n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Engine",
           "name": "tillend",
           "package": "Hedi",
@@ -1410,6 +1527,7 @@
         "index": {
           "description": "Create all the engines from the addressed one to the last one",
           "hierarchy": "Engine",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Engine",
           "name": "tillend",
           "normalized": "Engine-\u003e[Engine]",
@@ -1425,6 +1543,7 @@
       "document": {
         "description": {
           "description": "the command to match for execution\nmonading ..\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Eval",
           "name": "eval",
           "package": "Hedi",
@@ -1435,6 +1554,7 @@
         "index": {
           "description": "the command to match for execution monading",
           "hierarchy": "Eval",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Eval",
           "name": "eval",
           "normalized": "CompleteCommand-\u003eEditor a()",
@@ -1450,6 +1570,7 @@
       "document": {
         "description": {
           "description": "get the filename defaulting to some other action to produce one\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Eval",
           "name": "getname",
           "package": "Hedi",
@@ -1460,6 +1581,7 @@
         "index": {
           "description": "get the filename defaulting to some other action to produce one",
           "hierarchy": "Eval",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Eval",
           "name": "getname",
           "normalized": "Editor a String-\u003eEditor a String",
@@ -1475,6 +1597,7 @@
       "document": {
         "description": {
           "description": "filename\nmonading\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Eval",
           "name": "write",
           "package": "Hedi",
@@ -1485,6 +1608,7 @@
         "index": {
           "description": "filename monading",
           "hierarchy": "Eval",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Eval",
           "name": "write",
           "normalized": "String-\u003eEditor a()",
@@ -1500,6 +1624,7 @@
       "document": {
         "description": {
           "description": "throw a writerSio error to Editor\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Eval",
           "name": "writefail",
           "package": "Hedi",
@@ -1510,6 +1635,7 @@
         "index": {
           "description": "throw writerSio error to Editor",
           "hierarchy": "Eval",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Eval",
           "name": "writefail",
           "normalized": "Either String()-\u003eEditor a()",
@@ -1524,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Helper",
           "name": "CommandHelp",
           "package": "Hedi",
@@ -1532,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Helper",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Helper",
           "name": "CommandHelp",
           "package": "Hedi",
@@ -1546,6 +1674,7 @@
       "document": {
         "description": {
           "description": "the command name\nthe string with the help inside\na parse error or (Just the command help or Nothing if the command is missing)\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Helper",
           "name": "helpCommand",
           "package": "Hedi",
@@ -1556,6 +1685,7 @@
         "index": {
           "description": "the command name the string with the help inside parse error or Just the command help or Nothing if the command is missing",
           "hierarchy": "Helper",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Helper",
           "name": "helpCommand",
           "normalized": "String-\u003eString-\u003eEither String(Maybe String)",
@@ -1572,6 +1702,7 @@
       "document": {
         "description": {
           "description": "the string with the help inside\na parse error or Just a prettyprint of a list of command helps\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Helper",
           "name": "listOfCommands",
           "package": "Hedi",
@@ -1582,6 +1713,7 @@
         "index": {
           "description": "the string with the help inside parse error or Just prettyprint of list of command helps",
           "hierarchy": "Helper",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Helper",
           "name": "listOfCommands",
           "normalized": "String-\u003eEither String(Maybe String)",
@@ -1598,6 +1730,7 @@
       "document": {
         "description": {
           "description": "parses a CommandHelp\t\t\t\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Helper",
           "name": "parseACommandHelp",
           "package": "Hedi",
@@ -1608,6 +1741,7 @@
         "index": {
           "description": "parses CommandHelp",
           "hierarchy": "Helper",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Helper",
           "name": "parseACommandHelp",
           "normalized": "CharParser()CommandHelp",
@@ -1624,6 +1758,7 @@
       "document": {
         "description": {
           "description": "parses all commands help\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Helper",
           "name": "parseCommandsHelp",
           "package": "Hedi",
@@ -1634,6 +1769,7 @@
         "index": {
           "description": "parses all commands help",
           "hierarchy": "Helper",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Helper",
           "name": "parseCommandsHelp",
           "normalized": "CharParser()[CommandHelp]",
@@ -1650,6 +1786,7 @@
       "document": {
         "description": {
           "description": "The string to parse\nthe parser to use\na function to use on the result , if it succed \nthe error showed if it fails or the result closed\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Helper",
           "name": "run",
           "package": "Hedi",
@@ -1660,6 +1797,7 @@
         "index": {
           "description": "The string to parse the parser to use function to use on the result if it succed the error showed if it fails or the result closed",
           "hierarchy": "Helper",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Helper",
           "name": "run",
           "normalized": "String-\u003eGenParser Char()a-\u003ea-\u003eMaybe b-\u003eEither String(Maybe b)",
@@ -1675,6 +1813,7 @@
       "document": {
         "description": {
           "description": "create a nice table from lines of words\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Helper",
           "name": "tabulate",
           "package": "Hedi",
@@ -1685,6 +1824,7 @@
         "index": {
           "description": "create nice table from lines of words",
           "hierarchy": "Helper",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Helper",
           "name": "tabulate",
           "normalized": "[[String]]-\u003eString",
@@ -1700,6 +1840,7 @@
       "document": {
         "description": {
           "description": "launches an external program , catching output and errors, return on exit\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Main",
           "name": "externalCommand",
           "package": "Hedi",
@@ -1710,6 +1851,7 @@
         "index": {
           "description": "launches an external program catching output and errors return on exit",
           "hierarchy": "Main",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Main",
           "name": "externalCommand",
           "normalized": "String-\u003eErrorT String IO String",
@@ -1726,6 +1868,7 @@
       "document": {
         "description": {
           "description": "the greetings\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Main",
           "name": "greetings",
           "package": "Hedi",
@@ -1736,6 +1879,7 @@
         "index": {
           "description": "the greetings",
           "hierarchy": "Main",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Main",
           "name": "greetings",
           "normalized": "IO()",
@@ -1750,6 +1894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Main",
           "name": "handleWith",
           "package": "Hedi",
@@ -1759,6 +1904,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Main",
           "name": "handleWith",
           "normalized": "(IOError-\u003ea)-\u003eIO b-\u003eErrorT a IO b",
@@ -1774,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Main",
           "name": "main",
           "package": "Hedi",
@@ -1783,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Main",
           "name": "main",
           "normalized": "IO()",
@@ -1797,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Main",
           "name": "strictReadFile",
           "package": "Hedi",
@@ -1806,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "Main",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Main",
           "name": "strictReadFile",
           "normalized": "String-\u003eIO String",
@@ -1822,6 +1972,7 @@
       "document": {
         "description": {
           "description": "Offset for the action\nthe final action\nthe backend ation\n..\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Offset",
           "name": "doOffset",
           "package": "Hedi",
@@ -1832,6 +1983,7 @@
         "index": {
           "description": "Offset for the action the final action the backend ation",
           "hierarchy": "Offset",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Offset",
           "name": "doOffset",
           "normalized": "Offset-\u003ea-\u003eEditor b c-\u003eEngine-\u003eMaybe a-\u003eEditor b c",
@@ -1848,6 +2000,7 @@
       "document": {
         "description": {
           "description": "the addressed range\nthe closing Editor action\nthe backend action \n... \n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Offset",
           "name": "doRange",
           "package": "Hedi",
@@ -1858,6 +2011,7 @@
         "index": {
           "description": "the addressed range the closing Editor action the backend action",
           "hierarchy": "Offset",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Offset",
           "name": "doRange",
           "normalized": "Range-\u003ea-\u003eEditor b c-\u003eInt-\u003eEngine-\u003eMaybe a-\u003eEditor b c",
@@ -1874,6 +2028,7 @@
       "document": {
         "description": {
           "description": "Offset for the backend action\nthe backend ation\nmodified monad\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Offset",
           "name": "editOffset",
           "package": "Hedi",
@@ -1884,6 +2039,7 @@
         "index": {
           "description": "Offset for the backend action the backend ation modified monad",
           "hierarchy": "Offset",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Offset",
           "name": "editOffset",
           "normalized": "Offset-\u003eEngine-\u003eMaybe Engine-\u003eEditor a()",
@@ -1900,6 +2056,7 @@
       "document": {
         "description": {
           "description": "the addressed range\nthe backend action \nmodified monad\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Offset",
           "name": "editRange",
           "package": "Hedi",
@@ -1910,6 +2067,7 @@
         "index": {
           "description": "the addressed range the backend action modified monad",
           "hierarchy": "Offset",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Offset",
           "name": "editRange",
           "normalized": "Range-\u003eInt-\u003eEngine-\u003eMaybe Engine-\u003eEditor a()",
@@ -1926,6 +2084,7 @@
       "document": {
         "description": {
           "description": "the new position for the cursor\nthe modified engine under the Editor\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Offset",
           "name": "jumpE",
           "package": "Hedi",
@@ -1936,6 +2095,7 @@
         "index": {
           "description": "the new position for the cursor the modified engine under the Editor",
           "hierarchy": "Offset",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Offset",
           "name": "jumpE",
           "normalized": "Offset-\u003eEditor a Engine",
@@ -1951,6 +2111,7 @@
       "document": {
         "description": {
           "description": "the range to focus\nthe tuple (nelements,engine placed\n at first offset of range)\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Offset",
           "name": "rangeResolve",
           "package": "Hedi",
@@ -1961,6 +2122,7 @@
         "index": {
           "description": "the range to focus the tuple nelements engine placed at first offset of range",
           "hierarchy": "Offset",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Offset",
           "name": "rangeResolve",
           "normalized": "Range-\u003eEditor a(Int,Engine)",
@@ -1977,6 +2139,7 @@
       "document": {
         "description": {
           "description": "a wrapper for commands evaluation which cannot discard changes\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Operation",
           "name": "checkPendings",
           "package": "Hedi",
@@ -1987,6 +2150,7 @@
         "index": {
           "description": "wrapper for commands evaluation which cannot discard changes",
           "hierarchy": "Operation",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Operation",
           "name": "checkPendings",
           "normalized": "Editor a()-\u003eEditor a()",
@@ -2003,6 +2167,7 @@
       "document": {
         "description": {
           "description": "the parser for the command on the line\nthe evaluator for the parsed command\nupdated beast\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Operation",
           "name": "commandLoop",
           "package": "Hedi",
@@ -2013,6 +2178,7 @@
         "index": {
           "description": "the parser for the command on the line the evaluator for the parsed command updated beast",
           "hierarchy": "Operation",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Operation",
           "name": "commandLoop",
           "normalized": "String-\u003eEither String CompleteCommand-\u003eCompleteCommand-\u003eEditor a()-\u003eEditor a()",
@@ -2029,6 +2195,7 @@
       "document": {
         "description": {
           "description": "the parser for the command on the line\nthe evaluator for the parsed command\nupdated beast\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Operation",
           "name": "commandMode",
           "package": "Hedi",
@@ -2039,6 +2206,7 @@
         "index": {
           "description": "the parser for the command on the line the evaluator for the parsed command updated beast",
           "hierarchy": "Operation",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Operation",
           "name": "commandMode",
           "normalized": "String-\u003eEither String CompleteCommand-\u003eCompleteCommand-\u003eEditor a()-\u003eEditor a()",
@@ -2055,6 +2223,7 @@
       "document": {
         "description": {
           "description": "a wrapper for commands evaluation which can discard changes\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Operation",
           "name": "evalSensible",
           "package": "Hedi",
@@ -2065,6 +2234,7 @@
         "index": {
           "description": "wrapper for commands evaluation which can discard changes",
           "hierarchy": "Operation",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Operation",
           "name": "evalSensible",
           "normalized": "Command-\u003eEditor a()-\u003eEditor a()",
@@ -2081,6 +2251,7 @@
       "document": {
         "description": {
           "description": "the secondary mode for the editor where lines are inserted as input. It returns the lines.Use CTRL-D to exit \n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Operation",
           "name": "inputMode",
           "package": "Hedi",
@@ -2091,6 +2262,7 @@
         "index": {
           "description": "the secondary mode for the editor where lines are inserted as input It returns the lines.Use CTRL-D to exit",
           "hierarchy": "Operation",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Operation",
           "name": "inputMode",
           "normalized": "Editor a[String]",
@@ -2107,6 +2279,7 @@
       "document": {
         "description": {
           "description": "a real check for file modification\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Operation",
           "name": "modified",
           "package": "Hedi",
@@ -2117,6 +2290,7 @@
         "index": {
           "description": "real check for file modification",
           "hierarchy": "Operation",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Operation",
           "name": "modified",
           "package": "Hedi",
@@ -2129,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Operation",
           "name": "resetpending",
           "package": "Hedi",
@@ -2138,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Operation",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Operation",
           "name": "resetpending",
           "normalized": "Editor a()",
@@ -2153,6 +2329,7 @@
       "document": {
         "description": {
           "description": "shortcut for a parser of chars with no state\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Parser",
           "name": "ParseE",
           "package": "Hedi",
@@ -2162,6 +2339,7 @@
         "index": {
           "description": "shortcut for parser of chars with no state",
           "hierarchy": "Parser",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Parser",
           "name": "ParseE",
           "package": "Hedi",
@@ -2176,6 +2354,7 @@
       "document": {
         "description": {
           "description": "forces a failure for a command if a Range was parsed\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Parser",
           "name": "acceptOffsetOnly",
           "package": "Hedi",
@@ -2186,6 +2365,7 @@
         "index": {
           "description": "forces failure for command if Range was parsed",
           "hierarchy": "Parser",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Parser",
           "name": "acceptOffsetOnly",
           "normalized": "Command-\u003eOffsetOrRange-\u003eParseE()",
@@ -2202,6 +2382,7 @@
       "document": {
         "description": {
           "description": "defaults Offset  or Range for the commands\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Parser",
           "name": "defaultOR",
           "package": "Hedi",
@@ -2212,6 +2393,7 @@
         "index": {
           "description": "defaults Offset or Range for the commands",
           "hierarchy": "Parser",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Parser",
           "name": "defaultOR",
           "normalized": "Command-\u003eOffsetOrRange",
@@ -2228,6 +2410,7 @@
       "document": {
         "description": {
           "description": "parse an integer  number\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Parser",
           "name": "numero",
           "package": "Hedi",
@@ -2238,6 +2421,7 @@
         "index": {
           "description": "parse an integer number",
           "hierarchy": "Parser",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Parser",
           "name": "numero",
           "package": "Hedi",
@@ -2251,6 +2435,7 @@
       "document": {
         "description": {
           "description": "the parser from a String to either a String representing an error or a CompleteCommand\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Parser",
           "name": "parse",
           "package": "Hedi",
@@ -2261,6 +2446,7 @@
         "index": {
           "description": "the parser from String to either String representing an error or CompleteCommand",
           "hierarchy": "Parser",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Parser",
           "name": "parse",
           "normalized": "String-\u003eEither String CompleteCommand",
@@ -2276,6 +2462,7 @@
       "document": {
         "description": {
           "description": "parse a function from OffsetOrRange to a parse Command\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Parser",
           "name": "parseCommand",
           "package": "Hedi",
@@ -2286,6 +2473,7 @@
         "index": {
           "description": "parse function from OffsetOrRange to parse Command",
           "hierarchy": "Parser",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Parser",
           "name": "parseCommand",
           "normalized": "ParseE(OffsetOrRange-\u003eParseE Command)",
@@ -2302,6 +2490,7 @@
       "document": {
         "description": {
           "description": "parse an Offset\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Parser",
           "name": "parseOffset",
           "package": "Hedi",
@@ -2312,6 +2501,7 @@
         "index": {
           "description": "parse an Offset",
           "hierarchy": "Parser",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Parser",
           "name": "parseOffset",
           "package": "Hedi",
@@ -2326,6 +2516,7 @@
       "document": {
         "description": {
           "description": "parse an OffsetOrRange\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Parser",
           "name": "parseOffsetOrRange",
           "package": "Hedi",
@@ -2336,6 +2527,7 @@
         "index": {
           "description": "parse an OffsetOrRange",
           "hierarchy": "Parser",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Parser",
           "name": "parseOffsetOrRange",
           "package": "Hedi",
@@ -2350,6 +2542,7 @@
       "document": {
         "description": {
           "description": "parse a Range\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Parser",
           "name": "parseRange",
           "package": "Hedi",
@@ -2360,6 +2553,7 @@
         "index": {
           "description": "parse Range",
           "hierarchy": "Parser",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Parser",
           "name": "parseRange",
           "package": "Hedi",
@@ -2374,6 +2568,7 @@
       "document": {
         "description": {
           "description": "parse a CompleteCommand  made of an OffsetOrRange and a Command\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Parser",
           "name": "parser",
           "package": "Hedi",
@@ -2384,6 +2579,7 @@
         "index": {
           "description": "parse CompleteCommand made of an OffsetOrRange and Command",
           "hierarchy": "Parser",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Parser",
           "name": "parser",
           "package": "Hedi",
@@ -2397,6 +2593,7 @@
       "document": {
         "description": {
           "description": "helper for skipping a filter\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Parser",
           "name": "rconst",
           "package": "Hedi",
@@ -2407,6 +2604,7 @@
         "index": {
           "description": "helper for skipping filter",
           "hierarchy": "Parser",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Parser",
           "name": "rconst",
           "normalized": "Command-\u003eParseE(OffsetOrRange-\u003eParseE Command)",
@@ -2421,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Test",
           "name": "CState",
           "package": "Hedi",
@@ -2429,6 +2628,7 @@
         },
         "index": {
           "hierarchy": "Test",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Test",
           "name": "CState",
           "package": "Hedi",
@@ -2442,6 +2642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Test",
           "name": "Emulator",
           "package": "Hedi",
@@ -2450,6 +2651,7 @@
         },
         "index": {
           "hierarchy": "Test",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Test",
           "name": "Emulator",
           "package": "Hedi",
@@ -2463,6 +2665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Test",
           "name": "Line",
           "package": "Hedi",
@@ -2471,6 +2674,7 @@
         },
         "index": {
           "hierarchy": "Test",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Test",
           "name": "Line",
           "package": "Hedi",
@@ -2484,6 +2688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Test",
           "name": "errorT",
           "package": "Hedi",
@@ -2493,6 +2698,7 @@
         },
         "index": {
           "hierarchy": "Test",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Test",
           "name": "errorT",
           "normalized": "String-\u003eCState()",
@@ -2507,6 +2713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Test",
           "name": "inputT",
           "package": "Hedi",
@@ -2516,6 +2723,7 @@
         },
         "index": {
           "hierarchy": "Test",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Test",
           "name": "inputT",
           "normalized": "String-\u003eCState(Maybe String)",
@@ -2530,6 +2738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Test",
           "name": "outputT",
           "package": "Hedi",
@@ -2539,6 +2748,7 @@
         },
         "index": {
           "hierarchy": "Test",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Test",
           "name": "outputT",
           "normalized": "String-\u003eCState()",
@@ -2554,6 +2764,7 @@
       "document": {
         "description": {
           "description": "a state monad transformer with the state history\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Undo",
           "name": "HStateT",
           "package": "Hedi",
@@ -2563,6 +2774,7 @@
         "index": {
           "description": "state monad transformer with the state history",
           "hierarchy": "Undo",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Undo",
           "name": "HStateT",
           "package": "Hedi",
@@ -2576,6 +2788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Undo",
           "name": "History",
           "package": "Hedi",
@@ -2584,6 +2797,7 @@
         },
         "index": {
           "hierarchy": "Undo",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Undo",
           "name": "History",
           "package": "Hedi",
@@ -2597,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Undo",
           "name": "UndoT",
           "package": "Hedi",
@@ -2605,6 +2820,7 @@
         },
         "index": {
           "hierarchy": "Undo",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Undo",
           "name": "UndoT",
           "package": "Hedi",
@@ -2618,6 +2834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Undo",
           "name": "HCtx",
           "package": "Hedi",
@@ -2626,6 +2843,7 @@
         },
         "index": {
           "hierarchy": "Undo",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Undo",
           "name": "HCtx",
           "package": "Hedi",
@@ -2640,6 +2858,7 @@
       "document": {
         "description": {
           "description": "an History of one state\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Undo",
           "name": "blank",
           "package": "Hedi",
@@ -2650,6 +2869,7 @@
         "index": {
           "description": "an History of one state",
           "hierarchy": "Undo",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Undo",
           "name": "blank",
           "normalized": "a-\u003eHistory a",
@@ -2665,6 +2885,7 @@
       "document": {
         "description": {
           "description": "a UndoT action\nthe initial state\nthe result\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Undo",
           "name": "evalUndoT",
           "package": "Hedi",
@@ -2675,6 +2896,7 @@
         "index": {
           "description": "UndoT action the initial state the result",
           "hierarchy": "Undo",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Undo",
           "name": "evalUndoT",
           "normalized": "UndoT a b c-\u003ea-\u003eb c",
@@ -2691,6 +2913,7 @@
       "document": {
         "description": {
           "description": "a UndoT action\nthe initial state\nthe final state\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Undo",
           "name": "execUndoT",
           "package": "Hedi",
@@ -2701,6 +2924,7 @@
         "index": {
           "description": "UndoT action the initial state the final state",
           "hierarchy": "Undo",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Undo",
           "name": "execUndoT",
           "normalized": "UndoT a b c-\u003ea-\u003eb a",
@@ -2717,6 +2941,7 @@
       "document": {
         "description": {
           "description": "the new state to put\nmonading\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Undo",
           "name": "hput",
           "package": "Hedi",
@@ -2727,6 +2952,7 @@
         "index": {
           "description": "the new state to put monading",
           "hierarchy": "Undo",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Undo",
           "name": "hput",
           "normalized": "a-\u003eUndoT a b()",
@@ -2742,6 +2968,7 @@
       "document": {
         "description": {
           "description": "False if the redo stack was empty\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Undo",
           "name": "redo",
           "package": "Hedi",
@@ -2752,6 +2979,7 @@
         "index": {
           "description": "False if the redo stack was empty",
           "hierarchy": "Undo",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Undo",
           "name": "redo",
           "package": "Hedi",
@@ -2765,6 +2993,7 @@
       "document": {
         "description": {
           "description": "False if the undo stack was empty\n",
+          "indexed": "Tue Mar 11 16:48:15 UTC 2014",
           "module": "Undo",
           "name": "undo",
           "package": "Hedi",
@@ -2775,6 +3004,7 @@
         "index": {
           "description": "False if the undo stack was empty",
           "hierarchy": "Undo",
+          "indexed": "2014-03-11T16:48:15",
           "module": "Undo",
           "name": "undo",
           "package": "Hedi",

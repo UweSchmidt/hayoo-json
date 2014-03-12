@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "noise"
+        "phrase": "noise",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unusable-pkg"
+        "phrase": "unusable-pkg",
+        "type": "phrase"
       },
       "type": "context"
     }

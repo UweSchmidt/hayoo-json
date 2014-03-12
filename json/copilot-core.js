@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "copilot-core"
+        "phrase": "copilot-core",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGenerates a C99 header from a copilot-specification. The functionality\n provided by the header must be implemented by back-ends targetting C99.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Compile.Header.C99",
           "name": "C99",
           "package": "copilot-core",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Generates C99 header from copilot-specification The functionality provided by the header must be implemented by back-ends targetting C99",
           "hierarchy": "Copilot Compile Header C99",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Compile.Header.C99",
           "name": "C99",
           "package": "copilot-core",
@@ -40,6 +42,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Compile.Header.C99",
           "name": "c99HeaderName",
           "package": "copilot-core",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile Header C99",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Compile.Header.C99",
           "name": "c99HeaderName",
           "normalized": "Maybe String-\u003eString",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Compile.Header.C99",
           "name": "genC99Header",
           "package": "copilot-core",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Copilot Compile Header C99",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Compile.Header.C99",
           "name": "genC99Header",
           "normalized": "Maybe String-\u003eFilePath-\u003eSpec-\u003eIO()",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Error",
           "name": "Error",
           "package": "copilot-core",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Error",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Error",
           "name": "Error",
           "package": "copilot-core",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Error",
           "name": "badUsage",
           "package": "copilot-core",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Error",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Error",
           "name": "badUsage",
           "normalized": "String-\u003ea",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Error",
           "name": "impossible",
           "package": "copilot-core",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Error",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Error",
           "name": "impossible",
           "normalized": "String-\u003eString-\u003ea",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "Expr",
           "package": "copilot-core",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "Expr",
           "package": "copilot-core",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn index for the drop operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "DropIdx",
           "package": "copilot-core",
@@ -187,6 +202,7 @@
         "index": {
           "description": "An index for the drop operator",
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "DropIdx",
           "package": "copilot-core",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "Expr",
           "package": "copilot-core",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "Expr",
           "package": "copilot-core",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stream identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "Id",
           "package": "copilot-core",
@@ -231,6 +250,7 @@
         "index": {
           "description": "stream identifier",
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "Id",
           "package": "copilot-core",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name of a trigger, an external variable, or an external function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "Name",
           "package": "copilot-core",
@@ -254,6 +275,7 @@
         "index": {
           "description": "name of trigger an external variable or an external function",
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "Name",
           "package": "copilot-core",
@@ -268,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA unique tag for external arrays/function calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "Tag",
           "package": "copilot-core",
@@ -277,6 +300,7 @@
         "index": {
           "description": "unique tag for external arrays function calls",
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "Tag",
           "package": "copilot-core",
@@ -291,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA untyped expression (no phantom type).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "UExpr",
           "package": "copilot-core",
@@ -300,6 +325,7 @@
         "index": {
           "description": "untyped expression no phantom type",
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "UExpr",
           "package": "copilot-core",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "Const",
           "package": "copilot-core",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "Const",
           "normalized": "Type a-\u003ea-\u003eExpr a",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "Drop",
           "package": "copilot-core",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "Drop",
           "normalized": "Type a-\u003eDropIdx-\u003eId-\u003eExpr a",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "ExternArray",
           "package": "copilot-core",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "ExternArray",
           "normalized": "Type a-\u003eType b-\u003eName-\u003eInt-\u003eExpr a-\u003eMaybe[[b]]-\u003eMaybe Tag-\u003eExpr b",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "ExternFun",
           "package": "copilot-core",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "ExternFun",
           "normalized": "Type a-\u003eName-\u003e[UExpr]-\u003eMaybe(Expr a)-\u003eMaybe Tag-\u003eExpr a",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "ExternVar",
           "package": "copilot-core",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "ExternVar",
           "normalized": "Type a-\u003eName-\u003eMaybe[a]-\u003eExpr a",
@@ -433,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "Local",
           "package": "copilot-core",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "Local",
           "normalized": "Type a-\u003eType b-\u003eName-\u003eExpr a-\u003eExpr b-\u003eExpr b",
@@ -457,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "Op1",
           "package": "copilot-core",
@@ -466,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "Op1",
           "normalized": "Op a b-\u003eExpr a-\u003eExpr b",
@@ -481,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "Op2",
           "package": "copilot-core",
@@ -490,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "Op2",
           "normalized": "Op a b c-\u003eExpr a-\u003eExpr b-\u003eExpr c",
@@ -505,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "Op3",
           "package": "copilot-core",
@@ -514,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "Op3",
           "normalized": "Op a b c d-\u003eExpr a-\u003eExpr b-\u003eExpr c-\u003eExpr d",
@@ -529,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "UExpr",
           "package": "copilot-core",
@@ -538,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "UExpr",
           "package": "copilot-core",
@@ -551,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "Var",
           "package": "copilot-core",
@@ -560,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "Var",
           "normalized": "Type a-\u003eName-\u003eExpr a",
@@ -575,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "uExprExpr",
           "package": "copilot-core",
@@ -584,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "uExprExpr",
           "package": "copilot-core",
@@ -597,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Expr",
           "name": "uExprType",
           "package": "copilot-core",
@@ -606,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Expr",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Expr",
           "name": "uExprType",
           "package": "copilot-core",
@@ -619,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "External",
           "package": "copilot-core",
@@ -627,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "External",
           "package": "copilot-core",
@@ -640,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "ExtArray",
           "package": "copilot-core",
@@ -648,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "ExtArray",
           "package": "copilot-core",
@@ -661,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "ExtFun",
           "package": "copilot-core",
@@ -669,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "ExtFun",
           "package": "copilot-core",
@@ -682,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "ExtVar",
           "package": "copilot-core",
@@ -690,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "ExtVar",
           "package": "copilot-core",
@@ -703,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "ExtArray",
           "package": "copilot-core",
@@ -712,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "ExtArray",
           "package": "copilot-core",
@@ -725,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "ExtFun",
           "package": "copilot-core",
@@ -734,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "ExtFun",
           "package": "copilot-core",
@@ -747,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "ExtVar",
           "package": "copilot-core",
@@ -756,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "ExtVar",
           "package": "copilot-core",
@@ -769,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "externArrayElemType",
           "package": "copilot-core",
@@ -778,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "externArrayElemType",
           "package": "copilot-core",
@@ -791,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "externArrayIdx",
           "package": "copilot-core",
@@ -800,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "externArrayIdx",
           "package": "copilot-core",
@@ -813,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "externArrayIdxType",
           "package": "copilot-core",
@@ -822,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "externArrayIdxType",
           "package": "copilot-core",
@@ -835,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "externArrayName",
           "package": "copilot-core",
@@ -844,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "externArrayName",
           "package": "copilot-core",
@@ -857,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "externArraySize",
           "package": "copilot-core",
@@ -866,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "externArraySize",
           "package": "copilot-core",
@@ -879,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "externArrayTag",
           "package": "copilot-core",
@@ -888,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "externArrayTag",
           "package": "copilot-core",
@@ -901,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "externArrays",
           "package": "copilot-core",
@@ -910,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "externArrays",
           "normalized": "Spec-\u003e[ExtArray]",
@@ -925,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "externFunArgs",
           "package": "copilot-core",
@@ -934,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "externFunArgs",
           "normalized": "[UExpr]",
@@ -949,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "externFunName",
           "package": "copilot-core",
@@ -958,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "externFunName",
           "package": "copilot-core",
@@ -971,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "externFunTag",
           "package": "copilot-core",
@@ -980,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "externFunTag",
           "package": "copilot-core",
@@ -993,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "externFunType",
           "package": "copilot-core",
@@ -1002,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "externFunType",
           "package": "copilot-core",
@@ -1015,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "externFuns",
           "package": "copilot-core",
@@ -1024,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "externFuns",
           "normalized": "Spec-\u003e[ExtFun]",
@@ -1039,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "externVarName",
           "package": "copilot-core",
@@ -1048,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "externVarName",
           "package": "copilot-core",
@@ -1061,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "externVarType",
           "package": "copilot-core",
@@ -1070,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "externVarType",
           "package": "copilot-core",
@@ -1083,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.External",
           "name": "externVars",
           "package": "copilot-core",
@@ -1092,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core External",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.External",
           "name": "externVars",
           "normalized": "Spec-\u003e[ExtVar]",
@@ -1108,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA tagless interpreter for Copilot specifications.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Interpret.Eval",
           "name": "Eval",
           "package": "copilot-core",
@@ -1117,6 +1214,7 @@
         "index": {
           "description": "tagless interpreter for Copilot specifications",
           "hierarchy": "Copilot Core Interpret Eval",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Interpret.Eval",
           "name": "Eval",
           "package": "copilot-core",
@@ -1130,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Interpret.Eval",
           "name": "Env",
           "package": "copilot-core",
@@ -1138,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Interpret Eval",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Interpret.Eval",
           "name": "Env",
           "package": "copilot-core",
@@ -1151,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Interpret.Eval",
           "name": "ExecTrace",
           "package": "copilot-core",
@@ -1159,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Interpret Eval",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Interpret.Eval",
           "name": "ExecTrace",
           "package": "copilot-core",
@@ -1172,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Interpret.Eval",
           "name": "Output",
           "package": "copilot-core",
@@ -1180,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Interpret Eval",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Interpret.Eval",
           "name": "Output",
           "package": "copilot-core",
@@ -1193,6 +1297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Interpret.Eval",
           "name": "ExecTrace",
           "package": "copilot-core",
@@ -1202,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Interpret Eval",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Interpret.Eval",
           "name": "ExecTrace",
           "package": "copilot-core",
@@ -1215,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Interpret.Eval",
           "name": "eval",
           "package": "copilot-core",
@@ -1224,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Interpret Eval",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Interpret.Eval",
           "name": "eval",
           "normalized": "ShowType-\u003eInt-\u003eSpec-\u003eExecTrace",
@@ -1238,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Interpret.Eval",
           "name": "interpObservers",
           "package": "copilot-core",
@@ -1247,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Interpret Eval",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Interpret.Eval",
           "name": "interpObservers",
           "normalized": "Map String[Output]",
@@ -1262,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Interpret.Eval",
           "name": "interpTriggers",
           "package": "copilot-core",
@@ -1271,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Interpret Eval",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Interpret.Eval",
           "name": "interpTriggers",
           "normalized": "Map String[Maybe[Output]]",
@@ -1287,6 +1399,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn tagless interpreter for Copilot specifications.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Interpret.Render",
           "name": "Render",
           "package": "copilot-core",
@@ -1296,6 +1409,7 @@
         "index": {
           "description": "An tagless interpreter for Copilot specifications",
           "hierarchy": "Copilot Core Interpret Render",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Interpret.Render",
           "name": "Render",
           "package": "copilot-core",
@@ -1309,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Interpret.Render",
           "name": "renderAsCSV",
           "package": "copilot-core",
@@ -1318,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Interpret Render",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Interpret.Render",
           "name": "renderAsCSV",
           "normalized": "ExecTrace-\u003eString",
@@ -1333,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Interpret.Render",
           "name": "renderAsTable",
           "package": "copilot-core",
@@ -1342,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Interpret Render",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Interpret.Render",
           "name": "renderAsTable",
           "normalized": "ExecTrace-\u003eString",
@@ -1358,6 +1476,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn interpreter for Copilot specifications.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Interpret",
           "name": "Interpret",
           "package": "copilot-core",
@@ -1367,6 +1486,7 @@
         "index": {
           "description": "An interpreter for Copilot specifications",
           "hierarchy": "Copilot Core Interpret",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Interpret",
           "name": "Interpret",
           "package": "copilot-core",
@@ -1380,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Interpret",
           "name": "Format",
           "package": "copilot-core",
@@ -1388,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Interpret",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Interpret",
           "name": "Format",
           "package": "copilot-core",
@@ -1401,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Interpret",
           "name": "CSV",
           "package": "copilot-core",
@@ -1410,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Interpret",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Interpret",
           "name": "CSV",
           "package": "copilot-core",
@@ -1423,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Interpret",
           "name": "Table",
           "package": "copilot-core",
@@ -1432,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Interpret",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Interpret",
           "name": "Table",
           "package": "copilot-core",
@@ -1446,6 +1572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterprets a Copilot specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Interpret",
           "name": "interpret",
           "package": "copilot-core",
@@ -1456,6 +1583,7 @@
         "index": {
           "description": "Interprets Copilot specification",
           "hierarchy": "Copilot Core Interpret",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Interpret",
           "name": "interpret",
           "normalized": "Format-\u003eInt-\u003eSpec-\u003eString",
@@ -1471,6 +1599,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLet expressions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Locals",
           "name": "Locals",
           "package": "copilot-core",
@@ -1480,6 +1609,7 @@
         "index": {
           "description": "Let expressions",
           "hierarchy": "Copilot Core Locals",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Locals",
           "name": "Locals",
           "package": "copilot-core",
@@ -1493,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Locals",
           "name": "Loc",
           "package": "copilot-core",
@@ -1501,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Locals",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Locals",
           "name": "Loc",
           "package": "copilot-core",
@@ -1514,6 +1646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Locals",
           "name": "Loc",
           "package": "copilot-core",
@@ -1523,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Locals",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Locals",
           "name": "Loc",
           "package": "copilot-core",
@@ -1536,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Locals",
           "name": "localName",
           "package": "copilot-core",
@@ -1545,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Locals",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Locals",
           "name": "localName",
           "package": "copilot-core",
@@ -1558,6 +1694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Locals",
           "name": "localType",
           "package": "copilot-core",
@@ -1567,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Locals",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Locals",
           "name": "localType",
           "package": "copilot-core",
@@ -1580,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Locals",
           "name": "locals",
           "package": "copilot-core",
@@ -1589,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Locals",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Locals",
           "name": "locals",
           "normalized": "Spec-\u003e[Loc]",
@@ -1604,6 +1744,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSets a unique tags for each external array/function call.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.MakeTags",
           "name": "MakeTags",
           "package": "copilot-core",
@@ -1613,6 +1754,7 @@
         "index": {
           "description": "Sets unique tags for each external array function call",
           "hierarchy": "Copilot Core MakeTags",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.MakeTags",
           "name": "MakeTags",
           "package": "copilot-core",
@@ -1626,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.MakeTags",
           "name": "makeTags",
           "package": "copilot-core",
@@ -1635,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core MakeTags",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.MakeTags",
           "name": "makeTags",
           "normalized": "Spec-\u003eSpec",
@@ -1650,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Operators",
           "package": "copilot-core",
@@ -1658,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Operators",
           "package": "copilot-core",
@@ -1671,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Op1",
           "package": "copilot-core",
@@ -1679,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Op1",
           "package": "copilot-core",
@@ -1693,6 +1841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Op2",
           "package": "copilot-core",
@@ -1702,6 +1851,7 @@
         "index": {
           "description": "Binary operators",
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Op2",
           "package": "copilot-core",
@@ -1716,6 +1866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTernary operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Op3",
           "package": "copilot-core",
@@ -1725,6 +1876,7 @@
         "index": {
           "description": "Ternary operators",
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Op3",
           "package": "copilot-core",
@@ -1738,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Abs",
           "package": "copilot-core",
@@ -1747,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Abs",
           "normalized": "Type a-\u003eOp a a",
@@ -1762,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Acos",
           "package": "copilot-core",
@@ -1771,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Acos",
           "normalized": "Type a-\u003eOp a a",
@@ -1786,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Acosh",
           "package": "copilot-core",
@@ -1795,6 +1952,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Acosh",
           "normalized": "Type a-\u003eOp a a",
@@ -1810,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Add",
           "package": "copilot-core",
@@ -1819,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Add",
           "normalized": "Type a-\u003eOp a a a",
@@ -1834,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "And",
           "package": "copilot-core",
@@ -1843,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "And",
           "package": "copilot-core",
@@ -1856,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Asin",
           "package": "copilot-core",
@@ -1865,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Asin",
           "normalized": "Type a-\u003eOp a a",
@@ -1880,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Asinh",
           "package": "copilot-core",
@@ -1889,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Asinh",
           "normalized": "Type a-\u003eOp a a",
@@ -1904,6 +2070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Atan",
           "package": "copilot-core",
@@ -1913,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Atan",
           "normalized": "Type a-\u003eOp a a",
@@ -1928,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Atanh",
           "package": "copilot-core",
@@ -1937,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Atanh",
           "normalized": "Type a-\u003eOp a a",
@@ -1952,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "BwAnd",
           "package": "copilot-core",
@@ -1961,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "BwAnd",
           "normalized": "Type a-\u003eOp a a a",
@@ -1976,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "BwNot",
           "package": "copilot-core",
@@ -1985,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "BwNot",
           "normalized": "Type a-\u003eOp a a",
@@ -2000,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "BwOr",
           "package": "copilot-core",
@@ -2009,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "BwOr",
           "normalized": "Type a-\u003eOp a a a",
@@ -2024,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "BwShiftL",
           "package": "copilot-core",
@@ -2033,6 +2210,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "BwShiftL",
           "normalized": "Type a-\u003eType b-\u003eOp a b a",
@@ -2048,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "BwShiftR",
           "package": "copilot-core",
@@ -2057,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "BwShiftR",
           "normalized": "Type a-\u003eType b-\u003eOp a b a",
@@ -2072,6 +2252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "BwXor",
           "package": "copilot-core",
@@ -2081,6 +2262,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "BwXor",
           "normalized": "Type a-\u003eOp a a a",
@@ -2096,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Cast",
           "package": "copilot-core",
@@ -2105,6 +2288,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Cast",
           "normalized": "Type a-\u003eType b-\u003eOp a b",
@@ -2120,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Cos",
           "package": "copilot-core",
@@ -2129,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Cos",
           "normalized": "Type a-\u003eOp a a",
@@ -2144,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Cosh",
           "package": "copilot-core",
@@ -2153,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Cosh",
           "normalized": "Type a-\u003eOp a a",
@@ -2168,6 +2356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Div",
           "package": "copilot-core",
@@ -2177,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Div",
           "normalized": "Type a-\u003eOp a a a",
@@ -2192,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Eq",
           "package": "copilot-core",
@@ -2201,6 +2392,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Eq",
           "normalized": "Type a-\u003eOp a a Bool",
@@ -2216,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Exp",
           "package": "copilot-core",
@@ -2225,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Exp",
           "normalized": "Type a-\u003eOp a a",
@@ -2240,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Fdiv",
           "package": "copilot-core",
@@ -2249,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Fdiv",
           "normalized": "Type a-\u003eOp a a a",
@@ -2264,6 +2460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Ge",
           "package": "copilot-core",
@@ -2273,6 +2470,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Ge",
           "normalized": "Type a-\u003eOp a a Bool",
@@ -2288,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Gt",
           "package": "copilot-core",
@@ -2297,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Gt",
           "normalized": "Type a-\u003eOp a a Bool",
@@ -2312,6 +2512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Le",
           "package": "copilot-core",
@@ -2321,6 +2522,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Le",
           "normalized": "Type a-\u003eOp a a Bool",
@@ -2336,6 +2538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Log",
           "package": "copilot-core",
@@ -2345,6 +2548,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Log",
           "normalized": "Type a-\u003eOp a a",
@@ -2360,6 +2564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Logb",
           "package": "copilot-core",
@@ -2369,6 +2574,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Logb",
           "normalized": "Type a-\u003eOp a a a",
@@ -2384,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Lt",
           "package": "copilot-core",
@@ -2393,6 +2600,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Lt",
           "normalized": "Type a-\u003eOp a a Bool",
@@ -2408,6 +2616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Mod",
           "package": "copilot-core",
@@ -2417,6 +2626,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Mod",
           "normalized": "Type a-\u003eOp a a a",
@@ -2432,6 +2642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Mul",
           "package": "copilot-core",
@@ -2441,6 +2652,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Mul",
           "normalized": "Type a-\u003eOp a a a",
@@ -2456,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Mux",
           "package": "copilot-core",
@@ -2465,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Mux",
           "normalized": "Type a-\u003eOp Bool a a a",
@@ -2480,6 +2694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Ne",
           "package": "copilot-core",
@@ -2489,6 +2704,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Ne",
           "normalized": "Type a-\u003eOp a a Bool",
@@ -2504,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Not",
           "package": "copilot-core",
@@ -2513,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Not",
           "package": "copilot-core",
@@ -2526,6 +2744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Or",
           "package": "copilot-core",
@@ -2535,6 +2754,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Or",
           "package": "copilot-core",
@@ -2548,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Pow",
           "package": "copilot-core",
@@ -2557,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Pow",
           "normalized": "Type a-\u003eOp a a a",
@@ -2572,6 +2794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Recip",
           "package": "copilot-core",
@@ -2581,6 +2804,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Recip",
           "normalized": "Type a-\u003eOp a a",
@@ -2596,6 +2820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Sign",
           "package": "copilot-core",
@@ -2605,6 +2830,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Sign",
           "normalized": "Type a-\u003eOp a a",
@@ -2620,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Sin",
           "package": "copilot-core",
@@ -2629,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Sin",
           "normalized": "Type a-\u003eOp a a",
@@ -2644,6 +2872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Sinh",
           "package": "copilot-core",
@@ -2653,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Sinh",
           "normalized": "Type a-\u003eOp a a",
@@ -2668,6 +2898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Sqrt",
           "package": "copilot-core",
@@ -2677,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Sqrt",
           "normalized": "Type a-\u003eOp a a",
@@ -2692,6 +2924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Sub",
           "package": "copilot-core",
@@ -2701,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Sub",
           "normalized": "Type a-\u003eOp a a a",
@@ -2716,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Tan",
           "package": "copilot-core",
@@ -2725,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Tan",
           "normalized": "Type a-\u003eOp a a",
@@ -2740,6 +2976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Operators",
           "name": "Tanh",
           "package": "copilot-core",
@@ -2749,6 +2986,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Operators",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Operators",
           "name": "Tanh",
           "normalized": "Type a-\u003eOp a a",
@@ -2765,6 +3003,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA pretty printer for Copilot specifications.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.PrettyPrint",
           "name": "PrettyPrint",
           "package": "copilot-core",
@@ -2774,6 +3013,7 @@
         "index": {
           "description": "pretty printer for Copilot specifications",
           "hierarchy": "Copilot Core PrettyPrint",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.PrettyPrint",
           "name": "PrettyPrint",
           "package": "copilot-core",
@@ -2788,6 +3028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-prints a Copilot specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.PrettyPrint",
           "name": "prettyPrint",
           "package": "copilot-core",
@@ -2798,6 +3039,7 @@
         "index": {
           "description": "Pretty-prints Copilot specification",
           "hierarchy": "Copilot Core PrettyPrint",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.PrettyPrint",
           "name": "prettyPrint",
           "normalized": "Spec-\u003eString",
@@ -2813,6 +3055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Gen",
           "name": "Gen",
           "package": "copilot-core",
@@ -2821,6 +3064,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Gen",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Gen",
           "name": "Gen",
           "package": "copilot-core",
@@ -2835,6 +3079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erunGen\u003c/code\u003e takes a \u003ccode\u003eGen a\u003c/code\u003e, a max depth of the expression, the weights, and\n the standard random generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Gen",
           "name": "Gen",
           "package": "copilot-core",
@@ -2844,6 +3089,7 @@
         "index": {
           "description": "runGen takes Gen max depth of the expression the weights and the standard random generator",
           "hierarchy": "Copilot Core Random Gen",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Gen",
           "name": "Gen",
           "package": "copilot-core",
@@ -2857,6 +3103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Gen",
           "name": "choose",
           "package": "copilot-core",
@@ -2866,6 +3113,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Gen",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Gen",
           "name": "choose",
           "normalized": "(a,a)-\u003eGen a",
@@ -2880,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Gen",
           "name": "depth",
           "package": "copilot-core",
@@ -2889,6 +3138,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Gen",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Gen",
           "name": "depth",
           "package": "copilot-core",
@@ -2901,6 +3151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Gen",
           "name": "elements",
           "package": "copilot-core",
@@ -2910,6 +3161,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Gen",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Gen",
           "name": "elements",
           "normalized": "[a]-\u003eGen a",
@@ -2925,6 +3177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of pairs (weight, Gen), and choose the Gen based on the\n weights.  To get the frequency of choosing a Gen, sum up all the weights, and\n choose c between 1 and the total.  Now recurse down the list, choosing an\n item only when c \u003c= weight.  If not, subtract the current weight from c.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Gen",
           "name": "freq",
           "package": "copilot-core",
@@ -2935,6 +3188,7 @@
         "index": {
           "description": "Takes list of pairs weight Gen and choose the Gen based on the weights To get the frequency of choosing Gen sum up all the weights and choose between and the total Now recurse down the list choosing an item only when weight If not subtract the current weight from",
           "hierarchy": "Copilot Core Random Gen",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Gen",
           "name": "freq",
           "normalized": "[(Int,Gen a)]-\u003eGen a",
@@ -2949,6 +3203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Gen",
           "name": "incDepth",
           "package": "copilot-core",
@@ -2958,6 +3213,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Gen",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Gen",
           "name": "incDepth",
           "normalized": "Gen a-\u003eGen a",
@@ -2973,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Gen",
           "name": "oneOf",
           "package": "copilot-core",
@@ -2982,6 +3239,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Gen",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Gen",
           "name": "oneOf",
           "normalized": "[Gen a]-\u003eGen a",
@@ -2997,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Gen",
           "name": "randomFromType",
           "package": "copilot-core",
@@ -3006,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Gen",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Gen",
           "name": "randomFromType",
           "normalized": "Type a-\u003eGen a",
@@ -3021,6 +3281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Gen",
           "name": "randomReplicate",
           "package": "copilot-core",
@@ -3030,6 +3291,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Gen",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Gen",
           "name": "randomReplicate",
           "normalized": "Int-\u003eType a-\u003eGen[a]",
@@ -3045,6 +3307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Gen",
           "name": "runGen",
           "package": "copilot-core",
@@ -3054,6 +3317,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Gen",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Gen",
           "name": "runGen",
           "normalized": "Gen a-\u003eDepth-\u003eWeights-\u003eStdGen-\u003ea",
@@ -3069,6 +3333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Gen",
           "name": "weights",
           "package": "copilot-core",
@@ -3078,6 +3343,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Gen",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Gen",
           "name": "weights",
           "package": "copilot-core",
@@ -3090,6 +3356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "Weights",
           "package": "copilot-core",
@@ -3098,6 +3365,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "Weights",
           "package": "copilot-core",
@@ -3111,6 +3379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "Depth",
           "package": "copilot-core",
@@ -3119,6 +3388,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "Depth",
           "package": "copilot-core",
@@ -3132,6 +3402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "Weights",
           "package": "copilot-core",
@@ -3140,6 +3411,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "Weights",
           "package": "copilot-core",
@@ -3153,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "Weights",
           "package": "copilot-core",
@@ -3162,6 +3435,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "Weights",
           "package": "copilot-core",
@@ -3175,6 +3449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "boolFreq",
           "package": "copilot-core",
@@ -3184,6 +3459,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "boolFreq",
           "package": "copilot-core",
@@ -3197,6 +3473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "constFreq",
           "package": "copilot-core",
@@ -3206,6 +3483,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "constFreq",
           "package": "copilot-core",
@@ -3219,6 +3497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "divModFreq",
           "package": "copilot-core",
@@ -3228,6 +3507,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "divModFreq",
           "package": "copilot-core",
@@ -3241,6 +3521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "doubleFreq",
           "package": "copilot-core",
@@ -3250,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "doubleFreq",
           "package": "copilot-core",
@@ -3263,6 +3545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "drop0Freq",
           "package": "copilot-core",
@@ -3272,6 +3555,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "drop0Freq",
           "package": "copilot-core",
@@ -3285,6 +3569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "dropFreq",
           "package": "copilot-core",
@@ -3294,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "dropFreq",
           "package": "copilot-core",
@@ -3307,6 +3593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "extVarFreq",
           "package": "copilot-core",
@@ -3316,6 +3603,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "extVarFreq",
           "package": "copilot-core",
@@ -3329,6 +3617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "externFreq",
           "package": "copilot-core",
@@ -3338,6 +3627,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "externFreq",
           "package": "copilot-core",
@@ -3351,6 +3641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "floatFreq",
           "package": "copilot-core",
@@ -3360,6 +3651,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "floatFreq",
           "package": "copilot-core",
@@ -3373,6 +3665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "int16Freq",
           "package": "copilot-core",
@@ -3382,6 +3675,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "int16Freq",
           "package": "copilot-core",
@@ -3395,6 +3689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "int32Freq",
           "package": "copilot-core",
@@ -3404,6 +3699,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "int32Freq",
           "package": "copilot-core",
@@ -3417,6 +3713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "int64Freq",
           "package": "copilot-core",
@@ -3426,6 +3723,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "int64Freq",
           "package": "copilot-core",
@@ -3439,6 +3737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "int8Freq",
           "package": "copilot-core",
@@ -3448,6 +3747,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "int8Freq",
           "package": "copilot-core",
@@ -3461,6 +3761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "maxBuffSize",
           "package": "copilot-core",
@@ -3470,6 +3771,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "maxBuffSize",
           "package": "copilot-core",
@@ -3483,6 +3785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "maxExprDepth",
           "package": "copilot-core",
@@ -3492,6 +3795,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "maxExprDepth",
           "package": "copilot-core",
@@ -3505,6 +3809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "maxExtVars",
           "package": "copilot-core",
@@ -3514,6 +3819,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "maxExtVars",
           "package": "copilot-core",
@@ -3527,6 +3833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "maxObservers",
           "package": "copilot-core",
@@ -3536,6 +3843,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "maxObservers",
           "package": "copilot-core",
@@ -3549,6 +3857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "maxTrigArgs",
           "package": "copilot-core",
@@ -3558,6 +3867,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "maxTrigArgs",
           "package": "copilot-core",
@@ -3571,6 +3881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "maxTriggers",
           "package": "copilot-core",
@@ -3580,6 +3891,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "maxTriggers",
           "package": "copilot-core",
@@ -3593,6 +3905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "numStreams",
           "package": "copilot-core",
@@ -3602,6 +3915,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "numStreams",
           "package": "copilot-core",
@@ -3615,6 +3929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "op1Freq",
           "package": "copilot-core",
@@ -3624,6 +3939,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "op1Freq",
           "package": "copilot-core",
@@ -3637,6 +3953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "op2Freq",
           "package": "copilot-core",
@@ -3646,6 +3963,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "op2Freq",
           "package": "copilot-core",
@@ -3659,6 +3977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "op3Freq",
           "package": "copilot-core",
@@ -3668,6 +3987,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "op3Freq",
           "package": "copilot-core",
@@ -3681,6 +4001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "simpleWeights",
           "package": "copilot-core",
@@ -3690,6 +4011,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "simpleWeights",
           "package": "copilot-core",
@@ -3703,6 +4025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "word16Freq",
           "package": "copilot-core",
@@ -3712,6 +4035,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "word16Freq",
           "package": "copilot-core",
@@ -3725,6 +4049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "word32Freq",
           "package": "copilot-core",
@@ -3734,6 +4059,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "word32Freq",
           "package": "copilot-core",
@@ -3747,6 +4073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "word64Freq",
           "package": "copilot-core",
@@ -3756,6 +4083,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "word64Freq",
           "package": "copilot-core",
@@ -3769,6 +4097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random.Weights",
           "name": "word8Freq",
           "package": "copilot-core",
@@ -3778,6 +4107,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random Weights",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random.Weights",
           "name": "word8Freq",
           "package": "copilot-core",
@@ -3792,6 +4122,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRandom spec generator.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random",
           "name": "Random",
           "package": "copilot-core",
@@ -3801,6 +4132,7 @@
         "index": {
           "description": "Random spec generator",
           "hierarchy": "Copilot Core Random",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random",
           "name": "Random",
           "package": "copilot-core",
@@ -3814,6 +4146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Random",
           "name": "randomSpec",
           "package": "copilot-core",
@@ -3823,6 +4156,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Random",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Random",
           "name": "randomSpec",
           "normalized": "Int-\u003eWeights-\u003eStdGen-\u003eSpec",
@@ -3838,6 +4172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "Spec",
           "package": "copilot-core",
@@ -3846,6 +4181,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "Spec",
           "package": "copilot-core",
@@ -3860,6 +4196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn observer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "Observer",
           "package": "copilot-core",
@@ -3869,6 +4206,7 @@
         "index": {
           "description": "An observer",
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "Observer",
           "package": "copilot-core",
@@ -3883,6 +4221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Copilot specification consists of a list of variables bound to anonymous\n streams, a lost of anomymous streams, a list of observers, and a list of\n triggers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "Spec",
           "package": "copilot-core",
@@ -3892,6 +4231,7 @@
         "index": {
           "description": "Copilot specification consists of list of variables bound to anonymous streams lost of anomymous streams list of observers and list of triggers",
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "Spec",
           "package": "copilot-core",
@@ -3906,6 +4246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "Stream",
           "package": "copilot-core",
@@ -3915,6 +4256,7 @@
         "index": {
           "description": "stream",
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "Stream",
           "package": "copilot-core",
@@ -3929,6 +4271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA trigger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "Trigger",
           "package": "copilot-core",
@@ -3938,6 +4281,7 @@
         "index": {
           "description": "trigger",
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "Trigger",
           "package": "copilot-core",
@@ -3951,6 +4295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "Observer",
           "package": "copilot-core",
@@ -3960,6 +4305,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "Observer",
           "package": "copilot-core",
@@ -3973,6 +4319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "Spec",
           "package": "copilot-core",
@@ -3982,6 +4329,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "Spec",
           "package": "copilot-core",
@@ -3995,6 +4343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "Stream",
           "package": "copilot-core",
@@ -4004,6 +4353,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "Stream",
           "package": "copilot-core",
@@ -4017,6 +4367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "Trigger",
           "package": "copilot-core",
@@ -4026,6 +4377,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "Trigger",
           "package": "copilot-core",
@@ -4039,6 +4391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "observerExpr",
           "package": "copilot-core",
@@ -4048,6 +4401,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "observerExpr",
           "package": "copilot-core",
@@ -4061,6 +4415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "observerExprType",
           "package": "copilot-core",
@@ -4070,6 +4425,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "observerExprType",
           "package": "copilot-core",
@@ -4083,6 +4439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "observerName",
           "package": "copilot-core",
@@ -4092,6 +4449,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "observerName",
           "package": "copilot-core",
@@ -4105,6 +4463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "specObservers",
           "package": "copilot-core",
@@ -4114,6 +4473,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "specObservers",
           "normalized": "[Observer]",
@@ -4129,6 +4489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "specStreams",
           "package": "copilot-core",
@@ -4138,6 +4499,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "specStreams",
           "normalized": "[Stream]",
@@ -4153,6 +4515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "specTriggers",
           "package": "copilot-core",
@@ -4162,6 +4525,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "specTriggers",
           "normalized": "[Trigger]",
@@ -4177,6 +4541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "streamBuffer",
           "package": "copilot-core",
@@ -4186,6 +4551,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "streamBuffer",
           "normalized": "[a]",
@@ -4201,6 +4567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "streamExpr",
           "package": "copilot-core",
@@ -4210,6 +4577,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "streamExpr",
           "package": "copilot-core",
@@ -4223,6 +4591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "streamExprType",
           "package": "copilot-core",
@@ -4232,6 +4601,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "streamExprType",
           "package": "copilot-core",
@@ -4245,6 +4615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "streamId",
           "package": "copilot-core",
@@ -4254,6 +4625,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "streamId",
           "package": "copilot-core",
@@ -4267,6 +4639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "triggerArgs",
           "package": "copilot-core",
@@ -4276,6 +4649,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "triggerArgs",
           "normalized": "[UExpr]",
@@ -4291,6 +4665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "triggerGuard",
           "package": "copilot-core",
@@ -4300,6 +4675,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "triggerGuard",
           "package": "copilot-core",
@@ -4313,6 +4689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Spec",
           "name": "triggerName",
           "package": "copilot-core",
@@ -4322,6 +4699,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Spec",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Spec",
           "name": "triggerName",
           "package": "copilot-core",
@@ -4336,6 +4714,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn implementation of dynamic types using \u003ca\u003eCopilot.Core.Type.Equality\u003c/a\u003e.\n The theory behind this technique is described the following paper:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Baars, Arthur I. and Swierstra, S. Doaitse,\n \"\u003cem\u003eTyping dynamic typing\u003c/em\u003e\",\n ACM SIGPLAN Notices vol. 37, p. 157-166, 2002\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Dynamic",
           "name": "Dynamic",
           "package": "copilot-core",
@@ -4345,6 +4724,7 @@
         "index": {
           "description": "An implementation of dynamic types using Copilot.Core.Type.Equality The theory behind this technique is described the following paper Baars Arthur and Swierstra Doaitse Typing dynamic typing ACM SIGPLAN Notices vol",
           "hierarchy": "Copilot Core Type Dynamic",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Dynamic",
           "name": "Dynamic",
           "package": "copilot-core",
@@ -4358,6 +4738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Dynamic",
           "name": "Dynamic",
           "package": "copilot-core",
@@ -4366,6 +4747,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Dynamic",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Dynamic",
           "name": "Dynamic",
           "package": "copilot-core",
@@ -4379,6 +4761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Dynamic",
           "name": "DynamicF",
           "package": "copilot-core",
@@ -4387,6 +4770,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Dynamic",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Dynamic",
           "name": "DynamicF",
           "package": "copilot-core",
@@ -4400,6 +4784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Dynamic",
           "name": "DynamicF",
           "package": "copilot-core",
@@ -4409,6 +4794,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Dynamic",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Dynamic",
           "name": "DynamicF",
           "normalized": "a b-\u003ec b-\u003eDynamicF a c",
@@ -4424,6 +4810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Dynamic",
           "name": "fromDyn",
           "package": "copilot-core",
@@ -4433,6 +4820,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Dynamic",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Dynamic",
           "name": "fromDyn",
           "normalized": "a b-\u003eDynamic a-\u003eMaybe b",
@@ -4448,6 +4836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Dynamic",
           "name": "fromDynF",
           "package": "copilot-core",
@@ -4457,6 +4846,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Dynamic",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Dynamic",
           "name": "fromDynF",
           "normalized": "a b-\u003eDynamicF c a-\u003eMaybe(c b)",
@@ -4472,6 +4862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Dynamic",
           "name": "toDyn",
           "package": "copilot-core",
@@ -4481,6 +4872,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Dynamic",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Dynamic",
           "name": "toDyn",
           "normalized": "a b-\u003eb-\u003eDynamic a",
@@ -4496,6 +4888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Dynamic",
           "name": "toDynF",
           "package": "copilot-core",
@@ -4505,6 +4898,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Dynamic",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Dynamic",
           "name": "toDynF",
           "normalized": "a b-\u003ec b-\u003eDynamicF c a",
@@ -4520,6 +4914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Eq",
           "name": "Eq",
           "package": "copilot-core",
@@ -4528,6 +4923,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Eq",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Eq",
           "name": "Eq",
           "package": "copilot-core",
@@ -4541,6 +4937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Eq",
           "name": "EqWit",
           "package": "copilot-core",
@@ -4549,6 +4946,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Eq",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Eq",
           "name": "EqWit",
           "package": "copilot-core",
@@ -4562,6 +4960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Eq",
           "name": "UVal",
           "package": "copilot-core",
@@ -4570,6 +4969,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Eq",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Eq",
           "name": "UVal",
           "package": "copilot-core",
@@ -4583,6 +4983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Eq",
           "name": "EqWit",
           "package": "copilot-core",
@@ -4592,6 +4993,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Eq",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Eq",
           "name": "EqWit",
           "package": "copilot-core",
@@ -4605,6 +5007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Eq",
           "name": "UVal",
           "package": "copilot-core",
@@ -4614,6 +5017,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Eq",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Eq",
           "name": "UVal",
           "package": "copilot-core",
@@ -4627,6 +5031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Eq",
           "name": "eqWit",
           "package": "copilot-core",
@@ -4636,6 +5041,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Eq",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Eq",
           "name": "eqWit",
           "normalized": "Type a-\u003eEqWit a",
@@ -4651,6 +5057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Eq",
           "name": "uType",
           "package": "copilot-core",
@@ -4660,6 +5067,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Eq",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Eq",
           "name": "uType",
           "package": "copilot-core",
@@ -4673,6 +5081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Eq",
           "name": "uVal",
           "package": "copilot-core",
@@ -4682,6 +5091,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Eq",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Eq",
           "name": "uVal",
           "package": "copilot-core",
@@ -4695,6 +5105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Equality",
           "name": "Equality",
           "package": "copilot-core",
@@ -4703,6 +5114,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Equality",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Equality",
           "name": "Equality",
           "package": "copilot-core",
@@ -4716,6 +5128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Equality",
           "name": "Equal",
           "package": "copilot-core",
@@ -4724,6 +5137,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Equality",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Equality",
           "name": "Equal",
           "package": "copilot-core",
@@ -4737,6 +5151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Equality",
           "name": "EqualType",
           "package": "copilot-core",
@@ -4745,6 +5160,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Equality",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Equality",
           "name": "EqualType",
           "package": "copilot-core",
@@ -4758,6 +5174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Equality",
           "name": "(=~=)",
           "package": "copilot-core",
@@ -4767,6 +5184,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Equality",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Equality",
           "name": "(=~=) =~=",
           "normalized": "a b-\u003ea c-\u003eMaybe(Equal b c)",
@@ -4781,6 +5199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Equality",
           "name": "Refl",
           "package": "copilot-core",
@@ -4790,6 +5209,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Equality",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Equality",
           "name": "Refl",
           "package": "copilot-core",
@@ -4803,6 +5223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Equality",
           "name": "coerce",
           "package": "copilot-core",
@@ -4812,6 +5233,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Equality",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Equality",
           "name": "coerce",
           "normalized": "Equal a b-\u003ea-\u003eb",
@@ -4826,6 +5248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Equality",
           "name": "cong",
           "package": "copilot-core",
@@ -4835,6 +5258,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Equality",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Equality",
           "name": "cong",
           "normalized": "Equal a b-\u003eEqual(c a)(c b)",
@@ -4849,6 +5273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Equality",
           "name": "refl",
           "package": "copilot-core",
@@ -4858,6 +5283,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Equality",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Equality",
           "name": "refl",
           "package": "copilot-core",
@@ -4870,6 +5296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Equality",
           "name": "symm",
           "package": "copilot-core",
@@ -4879,6 +5306,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Equality",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Equality",
           "name": "symm",
           "normalized": "Equal a b-\u003eEqual b a",
@@ -4893,6 +5321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Equality",
           "name": "trans",
           "package": "copilot-core",
@@ -4902,6 +5331,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Equality",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Equality",
           "name": "trans",
           "normalized": "Equal a b-\u003eEqual b c-\u003eEqual a c",
@@ -4916,6 +5346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Read",
           "name": "Read",
           "package": "copilot-core",
@@ -4924,6 +5355,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Read",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Read",
           "name": "Read",
           "package": "copilot-core",
@@ -4937,6 +5369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Read",
           "name": "ReadWit",
           "package": "copilot-core",
@@ -4945,6 +5378,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Read",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Read",
           "name": "ReadWit",
           "package": "copilot-core",
@@ -4958,6 +5392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Read",
           "name": "ReadWit",
           "package": "copilot-core",
@@ -4967,6 +5402,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Read",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Read",
           "name": "ReadWit",
           "package": "copilot-core",
@@ -4980,6 +5416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Read",
           "name": "readWit",
           "package": "copilot-core",
@@ -4989,6 +5426,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Read",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Read",
           "name": "readWit",
           "normalized": "Type a-\u003eReadWit a",
@@ -5004,6 +5442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Read",
           "name": "readWithType",
           "package": "copilot-core",
@@ -5013,6 +5452,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Read",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Read",
           "name": "readWithType",
           "normalized": "Type a-\u003eString-\u003ea",
@@ -5028,6 +5468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Show",
           "name": "Show",
           "package": "copilot-core",
@@ -5036,6 +5477,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Show",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Show",
           "name": "Show",
           "package": "copilot-core",
@@ -5049,6 +5491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Show",
           "name": "ShowType",
           "package": "copilot-core",
@@ -5057,6 +5500,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Show",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Show",
           "name": "ShowType",
           "package": "copilot-core",
@@ -5070,6 +5514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Show",
           "name": "ShowWit",
           "package": "copilot-core",
@@ -5078,6 +5523,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Show",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Show",
           "name": "ShowWit",
           "package": "copilot-core",
@@ -5091,6 +5537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Show",
           "name": "C",
           "package": "copilot-core",
@@ -5100,6 +5547,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Show",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Show",
           "name": "C",
           "package": "copilot-core",
@@ -5112,6 +5560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Show",
           "name": "Haskell",
           "package": "copilot-core",
@@ -5121,6 +5570,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Show",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Show",
           "name": "Haskell",
           "package": "copilot-core",
@@ -5134,6 +5584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Show",
           "name": "ShowWit",
           "package": "copilot-core",
@@ -5143,6 +5594,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Show",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Show",
           "name": "ShowWit",
           "package": "copilot-core",
@@ -5156,6 +5608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Show",
           "name": "showType",
           "package": "copilot-core",
@@ -5165,6 +5618,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Show",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Show",
           "name": "showType",
           "normalized": "Type a-\u003eString",
@@ -5180,6 +5634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Show",
           "name": "showWit",
           "package": "copilot-core",
@@ -5189,6 +5644,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Show",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Show",
           "name": "showWit",
           "normalized": "Type a-\u003eShowWit a",
@@ -5204,6 +5660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Show",
           "name": "showWithType",
           "package": "copilot-core",
@@ -5213,6 +5670,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Show",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Show",
           "name": "showWithType",
           "normalized": "ShowType-\u003eType a-\u003ea-\u003eString",
@@ -5229,6 +5687,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInitial values for give types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Uninitialized",
           "name": "Uninitialized",
           "package": "copilot-core",
@@ -5238,6 +5697,7 @@
         "index": {
           "description": "Initial values for give types",
           "hierarchy": "Copilot Core Type Uninitialized",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Uninitialized",
           "name": "Uninitialized",
           "package": "copilot-core",
@@ -5251,6 +5711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type.Uninitialized",
           "name": "uninitialized",
           "package": "copilot-core",
@@ -5260,6 +5721,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type Uninitialized",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type.Uninitialized",
           "name": "uninitialized",
           "normalized": "Type a-\u003ea",
@@ -5275,6 +5737,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTyping for Core.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "Type",
           "package": "copilot-core",
@@ -5284,6 +5747,7 @@
         "index": {
           "description": "Typing for Core",
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "Type",
           "package": "copilot-core",
@@ -5297,6 +5761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "SimpleType",
           "package": "copilot-core",
@@ -5305,6 +5770,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "SimpleType",
           "package": "copilot-core",
@@ -5318,6 +5784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "Type",
           "package": "copilot-core",
@@ -5326,6 +5793,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "Type",
           "package": "copilot-core",
@@ -5339,6 +5807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "Typed",
           "package": "copilot-core",
@@ -5347,6 +5816,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "Typed",
           "package": "copilot-core",
@@ -5361,6 +5831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA untyped type (no phantom type).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "UType",
           "package": "copilot-core",
@@ -5370,6 +5841,7 @@
         "index": {
           "description": "untyped type no phantom type",
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "UType",
           "package": "copilot-core",
@@ -5383,6 +5855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "Bool",
           "package": "copilot-core",
@@ -5392,6 +5865,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "Bool",
           "package": "copilot-core",
@@ -5405,6 +5879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "Double",
           "package": "copilot-core",
@@ -5414,6 +5889,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "Double",
           "package": "copilot-core",
@@ -5427,6 +5903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "Float",
           "package": "copilot-core",
@@ -5436,6 +5913,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "Float",
           "package": "copilot-core",
@@ -5449,6 +5927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "Int16",
           "package": "copilot-core",
@@ -5458,6 +5937,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "Int16",
           "package": "copilot-core",
@@ -5471,6 +5951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "Int32",
           "package": "copilot-core",
@@ -5480,6 +5961,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "Int32",
           "package": "copilot-core",
@@ -5493,6 +5975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "Int64",
           "package": "copilot-core",
@@ -5502,6 +5985,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "Int64",
           "package": "copilot-core",
@@ -5515,6 +5999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "Int8",
           "package": "copilot-core",
@@ -5524,6 +6009,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "Int8",
           "package": "copilot-core",
@@ -5537,6 +6023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "SBool",
           "package": "copilot-core",
@@ -5546,6 +6033,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "SBool",
           "package": "copilot-core",
@@ -5559,6 +6047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "SDouble",
           "package": "copilot-core",
@@ -5568,6 +6057,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "SDouble",
           "package": "copilot-core",
@@ -5581,6 +6071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "SFloat",
           "package": "copilot-core",
@@ -5590,6 +6081,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "SFloat",
           "package": "copilot-core",
@@ -5603,6 +6095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "SInt16",
           "package": "copilot-core",
@@ -5612,6 +6105,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "SInt16",
           "package": "copilot-core",
@@ -5625,6 +6119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "SInt32",
           "package": "copilot-core",
@@ -5634,6 +6129,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "SInt32",
           "package": "copilot-core",
@@ -5647,6 +6143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "SInt64",
           "package": "copilot-core",
@@ -5656,6 +6153,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "SInt64",
           "package": "copilot-core",
@@ -5669,6 +6167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "SInt8",
           "package": "copilot-core",
@@ -5678,6 +6177,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "SInt8",
           "package": "copilot-core",
@@ -5691,6 +6191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "SWord16",
           "package": "copilot-core",
@@ -5700,6 +6201,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "SWord16",
           "package": "copilot-core",
@@ -5713,6 +6215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "SWord32",
           "package": "copilot-core",
@@ -5722,6 +6225,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "SWord32",
           "package": "copilot-core",
@@ -5735,6 +6239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "SWord64",
           "package": "copilot-core",
@@ -5744,6 +6249,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "SWord64",
           "package": "copilot-core",
@@ -5757,6 +6263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "SWord8",
           "package": "copilot-core",
@@ -5766,6 +6273,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "SWord8",
           "package": "copilot-core",
@@ -5779,6 +6287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "UType",
           "package": "copilot-core",
@@ -5788,6 +6297,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "UType",
           "package": "copilot-core",
@@ -5801,6 +6311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "Word16",
           "package": "copilot-core",
@@ -5810,6 +6321,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "Word16",
           "package": "copilot-core",
@@ -5823,6 +6335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "Word32",
           "package": "copilot-core",
@@ -5832,6 +6345,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "Word32",
           "package": "copilot-core",
@@ -5845,6 +6359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "Word64",
           "package": "copilot-core",
@@ -5854,6 +6369,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "Word64",
           "package": "copilot-core",
@@ -5867,6 +6383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "Word8",
           "package": "copilot-core",
@@ -5876,6 +6393,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "Word8",
           "package": "copilot-core",
@@ -5889,6 +6407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "simpleType",
           "package": "copilot-core",
@@ -5898,6 +6417,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "simpleType",
           "normalized": "Type a-\u003eSimpleType",
@@ -5913,6 +6433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "typeOf",
           "package": "copilot-core",
@@ -5922,6 +6443,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "typeOf",
           "package": "copilot-core",
@@ -5935,6 +6457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core.Type",
           "name": "uTypeType",
           "package": "copilot-core",
@@ -5944,6 +6467,7 @@
         },
         "index": {
           "hierarchy": "Copilot Core Type",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core.Type",
           "name": "uTypeType",
           "package": "copilot-core",
@@ -5958,6 +6482,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIntermediate representation for Copilot specifications.\n The form of the representation is based on this paper:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Carette, Jacques and Kiselyov, Oleg and Shan, Chung-chieh,\n \"\u003cem\u003eFinally tagless, partially evaluated: Tagless staged\u003c/em\u003e\n \u003cem\u003einterpreters for simpler typed languages\u003c/em\u003e\",\n Journal of Functional Programming vol. 19, p. 509-543, 2009.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe following article might also be useful:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Guillemette, Louis-Julien and Monnier, Stefan,\n \"\u003cem\u003eType-Safe Code Transformations in Haskell\u003c/em\u003e\",\n Electronic Notes in Theoretical Computer Science vol. 174, p. 23-39, 2007.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eFor examples of how to traverse a Copilot specification see\n the source code of the interpreter\n (\u003ca\u003eCopilot.Core.Interpret\u003c/a\u003e)\n and the pretty-printer\n (\u003ca\u003eCopilot.Core.PrettyPrint\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:08 UTC 2014",
           "module": "Copilot.Core",
           "name": "Core",
           "package": "copilot-core",
@@ -5967,6 +6492,7 @@
         "index": {
           "description": "Intermediate representation for Copilot specifications The form of the representation is based on this paper Carette Jacques and Kiselyov Oleg and Shan Chung-chieh Finally tagless partially evaluated Tagless staged interpreters for simpler typed languages Journal of Functional Programming vol The following article might also be useful Guillemette Louis-Julien and Monnier Stefan Type-Safe Code Transformations in Haskell Electronic Notes in Theoretical Computer Science vol For examples of how to traverse Copilot specification see the source code of the interpreter Copilot.Core.Interpret and the pretty-printer Copilot.Core.PrettyPrint",
           "hierarchy": "Copilot Core",
+          "indexed": "2014-03-11T17:41:08",
           "module": "Copilot.Core",
           "name": "Core",
           "package": "copilot-core",

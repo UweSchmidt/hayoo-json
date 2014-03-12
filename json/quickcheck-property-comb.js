@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "quickcheck-property-comb"
+        "phrase": "quickcheck-property-comb",
+        "type": "phrase"
       },
       "type": "context"
     }

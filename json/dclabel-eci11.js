@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dclabel-eci11"
+        "phrase": "dclabel-eci11",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements Disjunction Category labels.\n\u003c/p\u003e\u003cp\u003eA DCLabel is a pair of \u003ccode\u003e\u003ca\u003esecrecy\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eintegrity\u003c/a\u003e\u003c/code\u003e category sets (of type \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e).\nA category set (of type \u003ccode\u003e\u003ca\u003eConj\u003c/a\u003e\u003c/code\u003e) is a conjunction of categories (of type \u003ccode\u003e\u003ca\u003eDisj\u003c/a\u003e\u003c/code\u003e).\nEach category, in turn, is a disjunction of \u003ccode\u003e\u003ca\u003ePrincipal\u003c/a\u003e\u003c/code\u003es, where a \u003ccode\u003e\u003ca\u003ePrincipal\u003c/a\u003e\u003c/code\u003e \nis just a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e whose meaning is up to the application.\n\u003c/p\u003e\u003cp\u003eA category imposes an information flow restriction. In the case of secrecy, a \ncategory restricts who can read, receive, or propagate the information, while in \nthe case of integrity it restricts who can modify a piece of data. The \nprincipals constructing a category are said to \u003cem\u003eown\u003c/em\u003e the category.\n\u003c/p\u003e\u003cp\u003eFor information to flow from a source labeled \u003ccode\u003eL_1\u003c/code\u003e to a sink \u003ccode\u003eL_2\u003c/code\u003e, the \nrestrictions imposed by the categories of \u003ccode\u003eL_2\u003c/code\u003e must at least as restrictive as \nall the restrictions imposed by the categories of \u003ccode\u003eL_1\u003c/code\u003e (hence the conjunction)\nin the case of secrecy, and at least as permissive in the case of integrity.\nMore specifically, for information to flow from \u003ccode\u003eL_1\u003c/code\u003e to \u003ccode\u003eL_2\u003c/code\u003e,\nthe labels must satisfy the \"can-flow-to\" relation: \u003ccode\u003eL_1 &#8849; L_2\u003c/code\u003e.\nThe &#8849; label check is implemented by the \u003ccode\u003e\u003ca\u003ecanflowto\u003c/a\u003e\u003c/code\u003e function.\nFor labels \u003ccode\u003eL_1=\u003cS_1, I_1\u003e\u003c/code\u003e, \u003ccode\u003eL_2=\u003cS_2, I_2\u003e\u003c/code\u003e the can-flow-to relation is \nsatisfied if the secrecy category set \u003ccode\u003eS_2\u003c/code\u003e \u003ccode\u003e\u003ca\u003eimplies\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eS_1\u003c/code\u003e and \u003ccode\u003eI_1\u003c/code\u003e \n\u003ccode\u003e\u003ca\u003eimplies\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eI_2\u003c/code\u003e (recall that a category set is a conjunction of \ndisjunctions of principals).\nFor example, \u003ccode\u003e\u003c{[P_1 &#8897; P_2]},{}\u003e &#8849; \u003c{[P_1]},{}\u003e\u003c/code\u003e because data \nthat can be read by \u003ccode\u003eP_1\u003c/code\u003e is more restricting than that readable by \u003ccode\u003eP_1\u003c/code\u003e or \n\u003ccode\u003eP_2\u003c/code\u003e. Conversely, \u003ccode\u003e\u003c{{},[P_1]}\u003e &#8849; \u003c{},[P_1 &#8897; P_2]},{}\u003e\u003c/code\u003e because\ndata vouched for by \u003ccode\u003eP_1\u003c/code\u003e or \u003ccode\u003eP_2\u003c/code\u003e is more permissive than just \u003ccode\u003eP_1\u003c/code\u003e (note \nthe same idea holds when writing to sinks with such labeling).\n\u003c/p\u003e\u003cp\u003eA piece of a code running with a privilege object (of type \u003ccode\u003e\u003ca\u003eTCBPriv\u003c/a\u003e\u003c/code\u003e), i.e.,\nowning a \u003ccode\u003e\u003ca\u003ePrincipal\u003c/a\u003e\u003c/code\u003e confers the right to modify\nlabels by removing any \u003ccode\u003e\u003ca\u003esecrecy\u003c/a\u003e\u003c/code\u003e categories containing that \u003ccode\u003e\u003ca\u003ePrincipal\u003c/a\u003e\u003c/code\u003e and\nadding any \u003ccode\u003e\u003ca\u003eintegrity\u003c/a\u003e\u003c/code\u003e categories containing the \u003ccode\u003e\u003ca\u003ePrincipal\u003c/a\u003e\u003c/code\u003e \n(hence the name disjunction categories: the category \u003ccode\u003e[P1 &#8897; P2]\u003c/code\u003e can be\n\u003cem\u003edowngraded\u003c/em\u003e by either \u003ccode\u003e\u003ca\u003ePrincipal\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eP1\u003c/code\u003e or \u003ccode\u003eP2\u003c/code\u003e).\nMore specifically, privileges can be used to bypass information flow restrictions\nby using the more permissive \"can-flow-to given permission\"\nrelation:&#8849;&#7528;. The label check function implementing this restriction\nis \u003ccode\u003e\u003ca\u003ecanflowto_p\u003c/a\u003e\u003c/code\u003e, taking an additional argument (of type \u003ccode\u003e\u003ca\u003eTCBPriv\u003c/a\u003e\u003c/code\u003e). For\nexample, if\n\u003ccode\u003eL_1=\u003c{[P_1 &#8897; P_2] &#8896; [P_3]},{}\u003e\u003c/code\u003e, and \u003ccode\u003eL_2=\u003c{[P_1]},{}\u003e\u003c/code\u003e, then\n\u003ccode\u003eL_1 &#8930; L_2\u003c/code\u003e, but given a privilege object corresponding to \u003ccode\u003e[P_3]\u003c/code\u003e the\n\u003ccode\u003eL_1 &#8849;&#7528; L_2\u003c/code\u003e holds.\n\u003c/p\u003e\u003cp\u003eTo construct DC labels and privilege objects the constructors exported by this \nmodule may be used, but we strongly suggest using \u003ca\u003eDCLabel.NanoEDSL\u003c/a\u003e as exported by \n\u003ca\u003eDCLabel.TCB\u003c/a\u003e and \u003ca\u003eDCLabel.Safe\u003c/a\u003e. The former is to be used by trusted code \nonly, while the latter module should be imported by untrusted code as it prevents the\ncreation of arbitrary privileges.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "Core",
           "package": "dclabel-eci11",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module implements Disjunction Category labels DCLabel is pair of secrecy and integrity category sets of type Label category set of type Conj is conjunction of categories of type Disj Each category in turn is disjunction of Principal where Principal is just String whose meaning is up to the application category imposes an information flow restriction In the case of secrecy category restricts who can read receive or propagate the information while in the case of integrity it restricts who can modify piece of data The principals constructing category are said to own the category For information to flow from source labeled to sink the restrictions imposed by the categories of must at least as restrictive as all the restrictions imposed by the categories of hence the conjunction in the case of secrecy and at least as permissive in the case of integrity More specifically for information to flow from to the labels must satisfy the can-flow-to relation The label check is implemented by the canflowto function For labels the can-flow-to relation is satisfied if the secrecy category set implies and implies recall that category set is conjunction of disjunctions of principals For example because data that can be read by is more restricting than that readable by or Conversely because data vouched for by or is more permissive than just note the same idea holds when writing to sinks with such labeling piece of code running with privilege object of type TCBPriv i.e owning Principal confers the right to modify labels by removing any secrecy categories containing that Principal and adding any integrity categories containing the Principal hence the name disjunction categories the category P1 P2 can be downgraded by either Principal P1 or P2 More specifically privileges can be used to bypass information flow restrictions by using the more permissive can-flow-to given permission relation The label check function implementing this restriction is canflowto taking an additional argument of type TCBPriv For example if and then but given privilege object corresponding to the holds To construct DC labels and privilege objects the constructors exported by this module may be used but we strongly suggest using DCLabel.NanoEDSL as exported by DCLabel.TCB and DCLabel.Safe The former is to be used by trusted code only while the latter module should be imported by untrusted code as it prevents the creation of arbitrary privileges",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "Core",
           "package": "dclabel-eci11",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass used for checking if a computation can use a privilege in place of\n the other. This notion is similar to the DLM \"can-act-for\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "CanDelegate",
           "package": "dclabel-eci11",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Class used for checking if computation can use privilege in place of the other This notion is similar to the DLM can-act-for",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "CanDelegate",
           "package": "dclabel-eci11",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA category set, i.e., a conjunction of disjunctions. \n The empty list '[]' corresponds to the single disjunction of all principals.\n In other words, conceptually, \u003ccode\u003e[] =  {[P_1 &#8897; P_2 &#8897; ...]}\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "Conj",
           "package": "dclabel-eci11",
@@ -74,6 +79,7 @@
         "index": {
           "description": "category set i.e conjunction of disjunctions The empty list corresponds to the single disjunction of all principals In other words conceptually",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "Conj",
           "package": "dclabel-eci11",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eDCLabel\u003c/code\u003e is a pair of secrecy and integrity category sets, i.e., \n a pair of \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "DCLabel",
           "package": "dclabel-eci11",
@@ -97,6 +104,7 @@
         "index": {
           "description": "DCLabel is pair of secrecy and integrity category sets i.e pair of Label",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "DCLabel",
           "package": "dclabel-eci11",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA category, i.e., disjunction, of \u003ccode\u003e\u003ca\u003ePrincipal\u003c/a\u003e\u003c/code\u003es.\n The empty list '[]' corresponds to the disjunction of all principals.\n Conceptually, \u003ccode\u003e[] =  [P_1 &#8897;  P_2 &#8897; ...]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "Disj",
           "package": "dclabel-eci11",
@@ -120,6 +129,7 @@
         "index": {
           "description": "category i.e disjunction of Principal The empty list corresponds to the disjunction of all principals Conceptually",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "Disj",
           "package": "dclabel-eci11",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass used to convert list of principals to a disjunction category and\n vice versa.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "DisjToFromList",
           "package": "dclabel-eci11",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Class used to convert list of principals to disjunction category and vice versa",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "DisjToFromList",
           "package": "dclabel-eci11",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA label is a conjunction of disjunctions, where \u003ccode\u003eMkLabelAll\u003c/code\u003e is \n the constructor that is associated with the conjunction of all\n possible disjunctions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "Label",
           "package": "dclabel-eci11",
@@ -166,6 +179,7 @@
         "index": {
           "description": "label is conjunction of disjunctions where MkLabelAll is the constructor that is associated with the conjunction of all possible disjunctions",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "Label",
           "package": "dclabel-eci11",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabels forma a partial order according to the &#8849; relation.\n Specifically, this means that for any two labels \u003ccode\u003eL_1\u003c/code\u003e and \u003ccode\u003eL_2\u003c/code\u003e there is a \n unique label \u003ccode\u003eL_3 = L_1 &#8852; L_2\u003c/code\u003e, known as the \u003cem\u003ejoin\u003c/em\u003e, such that\n \u003ccode\u003eL_1 &#8849; L_3\u003c/code\u003e and \u003ccode\u003eL_2 &#8849; L_3\u003c/code\u003e. Similarly, there is a unique label \n \u003ccode\u003eL_3' = L_1 &#8851; L_2\u003c/code\u003e, known as the \u003cem\u003emeet\u003c/em\u003e, such that\n \u003ccode\u003eL_3 &#8849; L_1\u003c/code\u003e and \u003ccode\u003eL_3 &#8849; L_2\u003c/code\u003e. This class defines a \u003cem\u003ebounded\u003c/em\u003e \n lattice, which further requires the definition of the \u003cem\u003ebottom\u003c/em\u003e &#8869; and \n \u003cem\u003etop\u003c/em\u003e &#8868; elements of the lattice, such that \u003ccode\u003e&#8869; &#8849; L\u003c/code\u003e and\n \u003ccode\u003eL &#8849; &#8868;\u003c/code\u003e for any label \u003ccode\u003eL\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "Lattice",
           "package": "dclabel-eci11",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Labels forma partial order according to the relation Specifically this means that for any two labels and there is unique label known as the join such that and Similarly there is unique label known as the meet such that and This class defines bounded lattice which further requires the definition of the bottom and top elements of the lattice such that and for any label",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "Lattice",
           "package": "dclabel-eci11",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe say a \u003ccode\u003e\u003ca\u003eTCBPriv\u003c/a\u003e\u003c/code\u003e privilege object owns a category when the privileges\n allow code to bypass restrictions implied by the category. This is the\n case if and only if the \u003ccode\u003e\u003ca\u003eTCBPriv\u003c/a\u003e\u003c/code\u003e object contains one of the \u003ccode\u003e\u003ca\u003ePrincipal\u003c/a\u003e\u003c/code\u003es\n in the \u003ccode\u003e\u003ca\u003eDisj\u003c/a\u003e\u003c/code\u003e. This class is used to check ownership\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "Owns",
           "package": "dclabel-eci11",
@@ -212,6 +229,7 @@
         "index": {
           "description": "We say TCBPriv privilege object owns category when the privileges allow code to bypass restrictions implied by the category This is the case if and only if the TCBPriv object contains one of the Principal in the Disj This class is used to check ownership",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "Owns",
           "package": "dclabel-eci11",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrincipal is a simple string representing a source of authority. Any piece \n of code can create principals, regarless of how untrusted it is. However, \n for principals to be used in integrity labels or be ignoerd a corresponding \n privilege (\u003ccode\u003e\u003ca\u003eTCBPriv\u003c/a\u003e\u003c/code\u003e) must be created (by trusted code) or delegated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "Principal",
           "package": "dclabel-eci11",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Principal is simple string representing source of authority Any piece of code can create principals regarless of how untrusted it is However for principals to be used in integrity labels or be ignoerd corresponding privilege TCBPriv must be created by trusted code or delegated",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "Principal",
           "package": "dclabel-eci11",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUntrusted privileged object, which can be converted to a \u003ccode\u003e\u003ca\u003eTCBPriv\u003c/a\u003e\u003c/code\u003e with\n \u003ccode\u003e\u003ca\u003edelegatePriv\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "Priv",
           "package": "dclabel-eci11",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Untrusted privileged object which can be converted to TCBPriv with delegatePriv",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "Priv",
           "package": "dclabel-eci11",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass extending \u003ccode\u003e\u003ca\u003eLattice\u003c/a\u003e\u003c/code\u003e, by allowing for the more relaxed label\n comparison  \u003ccode\u003ecanflowto_p\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "RelaxedLattice",
           "package": "dclabel-eci11",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Class extending Lattice by allowing for the more relaxed label comparison canflowto",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "RelaxedLattice",
           "package": "dclabel-eci11",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrivilege object is just a conjunction of disjunctions, i.e., a \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e.\n A trusted privileged object must be introduced by trusted code, after which\n trusted privileged objects can be created by delegation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "TCBPriv",
           "package": "dclabel-eci11",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Privilege object is just conjunction of disjunctions i.e Label trusted privileged object must be introduced by trusted code after which trusted privileged objects can be created by delegation",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "TCBPriv",
           "package": "dclabel-eci11",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass used to reduce labels to a unique label normal form (LNF), which \n corresponds to conjunctive normal form of principals. We use this class \n to overload the reduce function used by the \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eDCLabel\u003c/a\u003e\u003c/code\u003e, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "ToLNF",
           "package": "dclabel-eci11",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Class used to reduce labels to unique label normal form LNF which corresponds to conjunctive normal form of principals We use this class to overload the reduce function used by the Label DCLabel etc",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "ToLNF",
           "package": "dclabel-eci11",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "MkConj",
           "package": "dclabel-eci11",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "MkConj",
           "package": "dclabel-eci11",
@@ -362,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "MkDCLabel",
           "package": "dclabel-eci11",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "MkDCLabel",
           "package": "dclabel-eci11",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "MkDisj",
           "package": "dclabel-eci11",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "MkDisj",
           "package": "dclabel-eci11",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "MkLabel",
           "package": "dclabel-eci11",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "MkLabel",
           "package": "dclabel-eci11",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "MkLabelAll",
           "package": "dclabel-eci11",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "MkLabelAll",
           "package": "dclabel-eci11",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "MkPrincipal",
           "package": "dclabel-eci11",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "MkPrincipal",
           "package": "dclabel-eci11",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "MkTCBPriv",
           "package": "dclabel-eci11",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "MkTCBPriv",
           "package": "dclabel-eci11",
@@ -495,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dual of \u003ccode\u003e\u003ca\u003eemptyLabel\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eallLabel\u003c/a\u003e\u003c/code\u003e consists of the conjunction of\n all possible disjunctions, i.e., it is the label that implies all\n other labels. Conceptually,\n \u003ccode\u003eallLabel = \u003c{[P_1] &#8896; [P_2] &#8896; ...}\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "allLabel",
           "package": "dclabel-eci11",
@@ -505,6 +548,7 @@
         "index": {
           "description": "The dual of emptyLabel allLabel consists of the conjunction of all possible disjunctions i.e it is the label that implies all other labels Conceptually allLabel",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "allLabel",
           "package": "dclabel-eci11",
@@ -519,6 +563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven two labels, take the union of the disjunctions, i.e., simply \n perform an \"and\". Note the new label is not necessarily in LNF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "and_label",
           "package": "dclabel-eci11",
@@ -529,6 +574,7 @@
         "index": {
           "description": "Given two labels take the union of the disjunctions i.e simply perform an and Note the new label is not necessarily in LNF",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "and_label",
           "normalized": "Label-\u003eLabel-\u003eLabel",
@@ -543,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "bottom",
           "package": "dclabel-eci11",
@@ -552,6 +599,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "bottom",
           "package": "dclabel-eci11",
@@ -565,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan use first privilege in place of second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "canDelegate",
           "package": "dclabel-eci11",
@@ -575,6 +624,7 @@
         "index": {
           "description": "Can use first privilege in place of second",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "canDelegate",
           "normalized": "a-\u003eb-\u003eBool",
@@ -590,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "canflowto",
           "package": "dclabel-eci11",
@@ -599,6 +650,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "canflowto",
           "package": "dclabel-eci11",
@@ -612,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelaxed partial-order relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "canflowto_p",
           "package": "dclabel-eci11",
@@ -622,6 +675,7 @@
         "index": {
           "description": "Relaxed partial-order relation",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "canflowto_p",
           "normalized": "TCBPriv-\u003ea-\u003ea-\u003eBool",
@@ -637,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves any duplicate principals from categories, and any duplicate\n categories from the label. To return a clean label, it sorts the label\n and removes empty disjunctions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "cleanLabel",
           "package": "dclabel-eci11",
@@ -647,6 +702,7 @@
         "index": {
           "description": "Removes any duplicate principals from categories and any duplicate categories from the label To return clean label it sorts the label and removes empty disjunctions",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "cleanLabel",
           "normalized": "Label-\u003eLabel",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "conj",
           "package": "dclabel-eci11",
@@ -671,6 +728,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "conj",
           "normalized": "[Disj]",
@@ -686,6 +744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function creates any privilege object given an untrusted \n privilege \u003ccode\u003e\u003ca\u003ePriv\u003c/a\u003e\u003c/code\u003e. Note that this function should not be exported\n to untrusted code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "createPrivTCB",
           "package": "dclabel-eci11",
@@ -696,6 +755,7 @@
         "index": {
           "description": "This function creates any privilege object given an untrusted privilege Priv Note that this function should not be exported to untrusted code",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "createPrivTCB",
           "normalized": "Priv-\u003eTCBPriv",
@@ -738,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "disj",
           "package": "dclabel-eci11",
@@ -747,6 +808,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "disj",
           "normalized": "[Principal]",
@@ -761,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "disjToList",
           "package": "dclabel-eci11",
@@ -770,6 +833,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "disjToList",
           "package": "dclabel-eci11",
@@ -784,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA label without any disjunctions or conjunctions. This label, conceptually\n corresponds to the label consisting of a single category containing all\n principals. Conceptually,\n \u003ccode\u003eemptyLabel = \u003c{[P_1 &#8897; P_2 &#8897; ...]}\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "emptyLabel",
           "package": "dclabel-eci11",
@@ -794,6 +859,7 @@
         "index": {
           "description": "label without any disjunctions or conjunctions This label conceptually corresponds to the label consisting of single category containing all principals Conceptually emptyLabel",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "emptyLabel",
           "package": "dclabel-eci11",
@@ -808,6 +874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines if a label implies (in the logical sense) another label. \n In other words, d_1 &#8896; ... &#8896; d_n =\u003e d_1' &#8896; ... &#8896; d_n'.\n\u003c/p\u003e\u003cp\u003eProperties:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e &#8704; X, \u003ccode\u003e\u003ca\u003eallLabel\u003c/a\u003e\u003c/code\u003e `\u003ccode\u003e\u003ca\u003eimplies\u003c/a\u003e\u003c/code\u003e` X := True\n\u003c/li\u003e\u003cli\u003e &#8704; X&#8800;\u003ccode\u003e\u003ca\u003eallLabel\u003c/a\u003e\u003c/code\u003e, X `\u003ccode\u003e\u003ca\u003eimplies\u003c/a\u003e\u003c/code\u003e` \u003ccode\u003e\u003ca\u003eallLabel\u003c/a\u003e\u003c/code\u003e := False\n\u003c/li\u003e\u003cli\u003e &#8704; X, X `\u003ccode\u003e\u003ca\u003eimplies\u003c/a\u003e\u003c/code\u003e` \u003ccode\u003e\u003ca\u003eemptyLabel\u003c/a\u003e\u003c/code\u003e := True\n\u003c/li\u003e\u003cli\u003e &#8704; X&#8800;\u003ccode\u003e\u003ca\u003eemptyLabel\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eemptyLabel\u003c/a\u003e\u003c/code\u003e `\u003ccode\u003e\u003ca\u003eimplies\u003c/a\u003e\u003c/code\u003e` X := False\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "implies",
           "package": "dclabel-eci11",
@@ -818,6 +885,7 @@
         "index": {
           "description": "Determines if label implies in the logical sense another label In other words Properties allLabel implies True allLabel implies allLabel False implies emptyLabel True emptyLabel emptyLabel implies False",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "implies",
           "normalized": "Label-\u003eLabel-\u003eBool",
@@ -833,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecrecy category set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "integrity",
           "package": "dclabel-eci11",
@@ -843,6 +912,7 @@
         "index": {
           "description": "Secrecy category set",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "integrity",
           "package": "dclabel-eci11",
@@ -855,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "join",
           "package": "dclabel-eci11",
@@ -864,6 +935,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "join",
           "package": "dclabel-eci11",
@@ -876,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "label",
           "package": "dclabel-eci11",
@@ -885,6 +958,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "label",
           "package": "dclabel-eci11",
@@ -923,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "listToDisj",
           "package": "dclabel-eci11",
@@ -932,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "listToDisj",
           "package": "dclabel-eci11",
@@ -971,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "meet",
           "package": "dclabel-eci11",
@@ -980,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "meet",
           "package": "dclabel-eci11",
@@ -992,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "name",
           "package": "dclabel-eci11",
@@ -1001,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "name",
           "package": "dclabel-eci11",
@@ -1014,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrivilege object corresponding to no privileges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "noPriv",
           "package": "dclabel-eci11",
@@ -1024,6 +1105,7 @@
         "index": {
           "description": "Privilege object corresponding to no privileges",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "noPriv",
           "package": "dclabel-eci11",
@@ -1038,6 +1120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven two labels, perform an \"or\".\n Note that the new label is not necessarily in LNF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "or_label",
           "package": "dclabel-eci11",
@@ -1048,6 +1131,7 @@
         "index": {
           "description": "Given two labels perform an or Note that the new label is not necessarily in LNF",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "or_label",
           "normalized": "Label-\u003eLabel-\u003eLabel",
@@ -1063,6 +1147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if category restriction can be bypassed given the privilege.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "owns",
           "package": "dclabel-eci11",
@@ -1073,6 +1158,7 @@
         "index": {
           "description": "Checks if category restriction can be bypassed given the privilege",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "owns",
           "normalized": "TCBPriv-\u003ea-\u003eBool",
@@ -1113,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "priv",
           "package": "dclabel-eci11",
@@ -1122,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "priv",
           "package": "dclabel-eci11",
@@ -1135,6 +1223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrivilege object corresponding to the \"root\", or all privileges.\n Any other privilege may be delegated using this privilege object and it must\n therefore not be exported to untrusted code. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "rootPrivTCB",
           "package": "dclabel-eci11",
@@ -1145,6 +1234,7 @@
         "index": {
           "description": "Privilege object corresponding to the root or all privileges Any other privilege may be delegated using this privilege object and it must therefore not be exported to untrusted code",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "rootPrivTCB",
           "package": "dclabel-eci11",
@@ -1159,6 +1249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegrity category set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "secrecy",
           "package": "dclabel-eci11",
@@ -1169,6 +1260,7 @@
         "index": {
           "description": "Integrity category set",
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "secrecy",
           "package": "dclabel-eci11",
@@ -1181,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "toLNF",
           "package": "dclabel-eci11",
@@ -1190,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "toLNF",
           "normalized": "a-\u003ea",
@@ -1205,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Core",
           "name": "top",
           "package": "dclabel-eci11",
@@ -1214,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Core",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Core",
           "name": "top",
           "package": "dclabel-eci11",
@@ -1226,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Integrity",
           "name": "Integrity",
           "package": "dclabel-eci11",
@@ -1234,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Integrity",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Integrity",
           "name": "Integrity",
           "package": "dclabel-eci11",
@@ -1248,6 +1346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn integrity-only DC label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Integrity",
           "name": "ILabel",
           "package": "dclabel-eci11",
@@ -1257,6 +1356,7 @@
         "index": {
           "description": "An integrity-only DC label",
           "hierarchy": "DCLabel Integrity",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Integrity",
           "name": "ILabel",
           "package": "dclabel-eci11",
@@ -1270,6 +1370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Integrity",
           "name": "MkILabel",
           "package": "dclabel-eci11",
@@ -1279,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Integrity",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Integrity",
           "name": "MkILabel",
           "package": "dclabel-eci11",
@@ -1293,6 +1395,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements a `\u003ccode\u003enano\u003c/code\u003e`, very simple, embedded domain specific\n  language to create \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003es and \u003ccode\u003e\u003ca\u003ePriv\u003c/a\u003e\u003c/code\u003eilages from conjunctions of\n  principal disjunctions.\n\u003c/p\u003e\u003cp\u003eA 'Label'/'Priv' is created using the (\u003ccode\u003e\u003ca\u003e.\\/.\u003c/a\u003e\u003c/code\u003e) and (\u003ccode\u003e\u003ca\u003e./\\.\u003c/a\u003e\u003c/code\u003e) operators.\n  The disjunction operator (\u003ccode\u003e\u003ca\u003e.\\/.\u003c/a\u003e\u003c/code\u003e) is used to create a category from\n  \u003ccode\u003e\u003ca\u003ePrincipal\u003c/a\u003e\u003c/code\u003es, \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es, or a disjunctive sub-expression. For example:\n\u003c/p\u003e\u003cpre\u003e\n     p1 = \u003ccode\u003e\u003ca\u003eprincipal\u003c/a\u003e\u003c/code\u003e \"p1\"\n     p2 = \u003ccode\u003e\u003ca\u003eprincipal\u003c/a\u003e\u003c/code\u003e \"p2\"\n     p3 = \u003ccode\u003e\u003ca\u003eprincipal\u003c/a\u003e\u003c/code\u003e \"p3\"\n     e1 = p1 \u003ccode\u003e\u003ca\u003e.\\/.\u003c/a\u003e\u003c/code\u003e p2\n     e2 = e1 \u003ccode\u003e\u003ca\u003e.\\/.\u003c/a\u003e\u003c/code\u003e \"p4\"\n\u003c/pre\u003e\u003cp\u003eSimilarly, the conjunction operator (\u003ccode\u003e\u003ca\u003e./\\.\u003c/a\u003e\u003c/code\u003e) is used to create category-sets\n  from \u003ccode\u003ePrincipals\u003c/code\u003e, \u003ccode\u003eStrings\u003c/code\u003e, and conjunctive or disjunctive sub-expressions.\n  For example:\n\u003c/p\u003e\u003cpre\u003e\n     e3 = p1 \u003ccode\u003e\u003ca\u003e.\\/.\u003c/a\u003e\u003c/code\u003e p2\n     e4 = e1 \u003ccode\u003e\u003ca\u003e./\\.\u003c/a\u003e\u003c/code\u003e \"p4\" \u003ccode\u003e\u003ca\u003e./\\.\u003c/a\u003e\u003c/code\u003e p3\n\u003c/pre\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e that because a category consists of a disjunction of principals, and a\n  category set is composed of the conjunction of categories, (\u003ccode\u003e\u003ca\u003e.\\/.\u003c/a\u003e\u003c/code\u003e) binds\n  more tightly than (\u003ccode\u003e\u003ca\u003e./\\.\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eGiven two \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003es, one for secrecy and one for integrity, you can\n  create a \u003ccode\u003e\u003ca\u003eDCLabel\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003enewDC\u003c/a\u003e\u003c/code\u003e. And, similarly, given a \u003ccode\u003e\u003ca\u003eTCBPriv\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePriv\u003c/a\u003e\u003c/code\u003e \n  you can create a new minted privilege with \u003ccode\u003e\u003ca\u003enewTCBPriv\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eConsider the following, example:\n\u003c/p\u003e\u003cpre\u003e\n     l1 = \"Alice\" \u003ccode\u003e\u003ca\u003e.\\/.\u003c/a\u003e\u003c/code\u003e \"Bob\" \u003ccode\u003e\u003ca\u003e./\\.\u003c/a\u003e\u003c/code\u003e \"Carla\" \n     l2 = \"Alice\" \u003ccode\u003e\u003ca\u003e./\\.\u003c/a\u003e\u003c/code\u003e \"Carla\" \n     dc1 = \u003ccode\u003e\u003ca\u003enewDC\u003c/a\u003e\u003c/code\u003e l1 l2\n     dc2 = \u003ccode\u003e\u003ca\u003enewDC\u003c/a\u003e\u003c/code\u003e \"Deian\" \"Alice\"\n     pr = \u003ccode\u003e\u003ca\u003ecreatePrivTCB\u003c/a\u003e\u003c/code\u003e $ \u003ccode\u003e\u003ca\u003enewPriv\u003c/a\u003e\u003c/code\u003e (\"Alice\" \u003ccode\u003e\u003ca\u003e./\\.\u003c/a\u003e\u003c/code\u003e \"Carla\")\n\u003c/pre\u003e\u003cp\u003ewhere\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e dc1 = \u003c{[\"Alice\" &#8897; \"Bob\"] &#8896; [\"Carla\"]} , {[\"Alice\"] &#8896; [\"Carla\"]}\u003e\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e dc2 = \u003c{[\"Deian\"]} , {[\"Alice\"]}\u003e\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e \u003ccode\u003e\u003ca\u003ecanflowto\u003c/a\u003e\u003c/code\u003e dc1 dc2 = False\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e \u003ccode\u003e\u003ca\u003ecanflowto_p\u003c/a\u003e\u003c/code\u003e pr dc1 dc2 = True\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.NanoEDSL",
           "name": "NanoEDSL",
           "package": "dclabel-eci11",
@@ -1302,6 +1405,7 @@
         "index": {
           "description": "This module implements nano very simple embedded domain specific language to create Label and Priv ilages from conjunctions of principal disjunctions Label Priv is created using the and operators The disjunction operator is used to create category from Principal String or disjunctive sub-expression For example p1 principal p1 p2 principal p2 p3 principal p3 e1 p1 p2 e2 e1 p4 Similarly the conjunction operator is used to create category-sets from Principals Strings and conjunctive or disjunctive sub-expressions For example e3 p1 p2 e4 e1 p4 p3 Note that because category consists of disjunction of principals and category set is composed of the conjunction of categories binds more tightly than Given two Label one for secrecy and one for integrity you can create DCLabel with newDC And similarly given TCBPriv and Priv you can create new minted privilege with newTCBPriv Consider the following example l1 Alice Bob Carla l2 Alice Carla dc1 newDC l1 l2 dc2 newDC Deian Alice pr createPrivTCB newPriv Alice Carla where dc1 Alice Bob Carla Alice Carla dc2 Deian Alice canflowto dc1 dc2 False canflowto pr dc1 dc2 True",
           "hierarchy": "DCLabel NanoEDSL",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.NanoEDSL",
           "name": "NanoEDSL",
           "package": "dclabel-eci11",
@@ -1488,6 +1592,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports a function \u003ccode\u003e\u003ca\u003eprettyShow\u003c/a\u003e\u003c/code\u003e that pretty prints \u003ccode\u003e\u003ca\u003ePrincipal\u003c/a\u003e\u003c/code\u003es,\n\u003ccode\u003e\u003ca\u003eDisj\u003c/a\u003e\u003c/code\u003eunctions, \u003ccode\u003e\u003ca\u003eConj\u003c/a\u003e\u003c/code\u003eunctions, \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003es and \u003ccode\u003e\u003ca\u003eDCLabel\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.PrettyShow",
           "name": "PrettyShow",
           "package": "dclabel-eci11",
@@ -1497,6 +1602,7 @@
         "index": {
           "description": "This module exports function prettyShow that pretty prints Principal Disj unctions Conj unctions Label and DCLabel",
           "hierarchy": "DCLabel PrettyShow",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.PrettyShow",
           "name": "PrettyShow",
           "package": "dclabel-eci11",
@@ -1511,6 +1617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass used to create a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e type of DCLabel-related types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.PrettyShow",
           "name": "PrettyShow",
           "package": "dclabel-eci11",
@@ -1520,6 +1627,7 @@
         "index": {
           "description": "Class used to create Doc type of DCLabel-related types",
           "hierarchy": "DCLabel PrettyShow",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.PrettyShow",
           "name": "PrettyShow",
           "package": "dclabel-eci11",
@@ -1533,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.PrettyShow",
           "name": "pShow",
           "package": "dclabel-eci11",
@@ -1542,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "DCLabel PrettyShow",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.PrettyShow",
           "name": "pShow",
           "package": "dclabel-eci11",
@@ -1556,6 +1666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a \u003ccode\u003e\u003ca\u003ePrettyShow\u003c/a\u003e\u003c/code\u003e type to a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.PrettyShow",
           "name": "prettyShow",
           "package": "dclabel-eci11",
@@ -1566,6 +1677,7 @@
         "index": {
           "description": "Render PrettyShow type to string",
           "hierarchy": "DCLabel PrettyShow",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.PrettyShow",
           "name": "prettyShow",
           "normalized": "a-\u003eString",
@@ -1582,6 +1694,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports a safe-subset of \u003ca\u003eDCLabel.Core\u003c/a\u003e,\nimplementing Disjunction Category Labels. \nThe exported functions and constructors may be used by  \nuntrusted code, guaranteeing that they cannot perform\nanything unsafe.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Safe",
           "name": "Safe",
           "package": "dclabel-eci11",
@@ -1591,6 +1704,7 @@
         "index": {
           "description": "This module exports safe-subset of DCLabel.Core implementing Disjunction Category Labels The exported functions and constructors may be used by untrusted code guaranteeing that they cannot perform anything unsafe",
           "hierarchy": "DCLabel Safe",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Safe",
           "name": "Safe",
           "package": "dclabel-eci11",
@@ -1605,6 +1719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eDCLabel\u003c/code\u003e is a pair of secrecy and integrity category sets, i.e., \n a pair of \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Safe",
           "name": "DCLabel",
           "package": "dclabel-eci11",
@@ -1614,6 +1729,7 @@
         "index": {
           "description": "DCLabel is pair of secrecy and integrity category sets i.e pair of Label",
           "hierarchy": "DCLabel Safe",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Safe",
           "name": "DCLabel",
           "package": "dclabel-eci11",
@@ -1628,6 +1744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA label is a conjunction of disjunctions, where \u003ccode\u003eMkLabelAll\u003c/code\u003e is \n the constructor that is associated with the conjunction of all\n possible disjunctions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Safe",
           "name": "Label",
           "package": "dclabel-eci11",
@@ -1637,6 +1754,7 @@
         "index": {
           "description": "label is conjunction of disjunctions where MkLabelAll is the constructor that is associated with the conjunction of all possible disjunctions",
           "hierarchy": "DCLabel Safe",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Safe",
           "name": "Label",
           "package": "dclabel-eci11",
@@ -1651,6 +1769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUntrusted privileged object, which can be converted to a \u003ccode\u003e\u003ca\u003eTCBPriv\u003c/a\u003e\u003c/code\u003e with\n \u003ccode\u003e\u003ca\u003edelegatePriv\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Safe",
           "name": "Priv",
           "package": "dclabel-eci11",
@@ -1660,6 +1779,7 @@
         "index": {
           "description": "Untrusted privileged object which can be converted to TCBPriv with delegatePriv",
           "hierarchy": "DCLabel Safe",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Safe",
           "name": "Priv",
           "package": "dclabel-eci11",
@@ -1674,6 +1794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrivilege object is just a conjunction of disjunctions, i.e., a \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e.\n A trusted privileged object must be introduced by trusted code, after which\n trusted privileged objects can be created by delegation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Safe",
           "name": "TCBPriv",
           "package": "dclabel-eci11",
@@ -1683,6 +1804,7 @@
         "index": {
           "description": "Privilege object is just conjunction of disjunctions i.e Label trusted privileged object must be introduced by trusted code after which trusted privileged objects can be created by delegation",
           "hierarchy": "DCLabel Safe",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Safe",
           "name": "TCBPriv",
           "package": "dclabel-eci11",
@@ -1696,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Safe",
           "name": "bottom",
           "package": "dclabel-eci11",
@@ -1704,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Safe",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Safe",
           "name": "bottom",
           "package": "dclabel-eci11",
@@ -1717,6 +1841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan use first privilege in place of second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Safe",
           "name": "canDelegate",
           "package": "dclabel-eci11",
@@ -1727,6 +1852,7 @@
         "index": {
           "description": "Can use first privilege in place of second",
           "hierarchy": "DCLabel Safe",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Safe",
           "name": "canDelegate",
           "normalized": "a-\u003eb-\u003eBool",
@@ -1742,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Safe",
           "name": "canflowto",
           "package": "dclabel-eci11",
@@ -1750,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Safe",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Safe",
           "name": "canflowto",
           "normalized": "a-\u003ea-\u003eBool",
@@ -1765,6 +1893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelaxed partial-order relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Safe",
           "name": "canflowto_p",
           "package": "dclabel-eci11",
@@ -1775,6 +1904,7 @@
         "index": {
           "description": "Relaxed partial-order relation",
           "hierarchy": "DCLabel Safe",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Safe",
           "name": "canflowto_p",
           "normalized": "TCBPriv-\u003ea-\u003ea-\u003eBool",
@@ -1789,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Safe",
           "name": "disjToList",
           "package": "dclabel-eci11",
@@ -1797,6 +1928,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Safe",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Safe",
           "name": "disjToList",
           "normalized": "Disj-\u003e[a]",
@@ -1813,6 +1945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecrecy category set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Safe",
           "name": "integrity",
           "package": "dclabel-eci11",
@@ -1823,6 +1956,7 @@
         "index": {
           "description": "Secrecy category set",
           "hierarchy": "DCLabel Safe",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Safe",
           "name": "integrity",
           "normalized": "DCLabel-\u003eLabel",
@@ -1837,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Safe",
           "name": "join",
           "package": "dclabel-eci11",
@@ -1845,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Safe",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Safe",
           "name": "join",
           "normalized": "a-\u003ea-\u003ea",
@@ -1859,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Safe",
           "name": "listToDisj",
           "package": "dclabel-eci11",
@@ -1867,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Safe",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Safe",
           "name": "listToDisj",
           "normalized": "[a]-\u003eDisj",
@@ -1882,6 +2020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Safe",
           "name": "meet",
           "package": "dclabel-eci11",
@@ -1890,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Safe",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Safe",
           "name": "meet",
           "normalized": "a-\u003ea-\u003ea",
@@ -1905,6 +2045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if category restriction can be bypassed given the privilege.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Safe",
           "name": "owns",
           "package": "dclabel-eci11",
@@ -1915,6 +2056,7 @@
         "index": {
           "description": "Checks if category restriction can be bypassed given the privilege",
           "hierarchy": "DCLabel Safe",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Safe",
           "name": "owns",
           "normalized": "TCBPriv-\u003ea-\u003eBool",
@@ -1930,6 +2072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegrity category set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Safe",
           "name": "secrecy",
           "package": "dclabel-eci11",
@@ -1940,6 +2083,7 @@
         "index": {
           "description": "Integrity category set",
           "hierarchy": "DCLabel Safe",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Safe",
           "name": "secrecy",
           "normalized": "DCLabel-\u003eLabel",
@@ -1954,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Safe",
           "name": "top",
           "package": "dclabel-eci11",
@@ -1962,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Safe",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Safe",
           "name": "top",
           "package": "dclabel-eci11",
@@ -1974,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Secrecy",
           "name": "Secrecy",
           "package": "dclabel-eci11",
@@ -1982,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Secrecy",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Secrecy",
           "name": "Secrecy",
           "package": "dclabel-eci11",
@@ -1996,6 +2144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA secrecy-only DC label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Secrecy",
           "name": "SLabel",
           "package": "dclabel-eci11",
@@ -2005,6 +2154,7 @@
         "index": {
           "description": "secrecy-only DC label",
           "hierarchy": "DCLabel Secrecy",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Secrecy",
           "name": "SLabel",
           "package": "dclabel-eci11",
@@ -2018,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.Secrecy",
           "name": "MkSLabel",
           "package": "dclabel-eci11",
@@ -2027,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "DCLabel Secrecy",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.Secrecy",
           "name": "MkSLabel",
           "package": "dclabel-eci11",
@@ -2041,6 +2193,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports an unsafe-subset of \u003ca\u003eDCLabel.Core\u003c/a\u003e,\nimplementing Disjunction Category Labels. \nA subset of the exported functions and constructors\nshoul not be exposed to untrusted code; instead, \nuntursted code should import the \u003ca\u003eDCLabel.Safe\u003c/a\u003e\nmodule.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:09 UTC 2014",
           "module": "DCLabel.TCB",
           "name": "TCB",
           "package": "dclabel-eci11",
@@ -2050,6 +2203,7 @@
         "index": {
           "description": "This module exports an unsafe-subset of DCLabel.Core implementing Disjunction Category Labels subset of the exported functions and constructors shoul not be exposed to untrusted code instead untursted code should import the DCLabel.Safe module",
           "hierarchy": "DCLabel TCB",
+          "indexed": "2014-03-11T17:51:09",
           "module": "DCLabel.TCB",
           "name": "TCB",
           "package": "dclabel-eci11",

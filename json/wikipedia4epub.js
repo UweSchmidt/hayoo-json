@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wikipedia4epub"
+        "phrase": "wikipedia4epub",
+        "type": "phrase"
       },
       "type": "context"
     }

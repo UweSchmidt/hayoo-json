@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ccnx"
+        "phrase": "ccnx",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Messages",
           "package": "ccnx",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Messages",
           "package": "ccnx",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "AnswerOriginKind",
           "package": "ccnx",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "AnswerOriginKind",
           "package": "ccnx",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "AnyBloom",
           "package": "ccnx",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "AnyBloom",
           "package": "ccnx",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "ChildSelector",
           "package": "ccnx",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "ChildSelector",
           "package": "ccnx",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Component",
           "package": "ccnx",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Component",
           "package": "ccnx",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Content",
           "package": "ccnx",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Content",
           "package": "ccnx",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "ContentObject",
           "package": "ccnx",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "ContentObject",
           "package": "ccnx",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "DigestAlgorithm",
           "package": "ccnx",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "DigestAlgorithm",
           "package": "ccnx",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Exclude",
           "package": "ccnx",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Exclude",
           "package": "ccnx",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "FinalBlockID",
           "package": "ccnx",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "FinalBlockID",
           "package": "ccnx",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "FreshnessSeconds",
           "package": "ccnx",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "FreshnessSeconds",
           "package": "ccnx",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Interest",
           "package": "ccnx",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Interest",
           "package": "ccnx",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "KeyLocator",
           "package": "ccnx",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "KeyLocator",
           "package": "ccnx",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "MaxSuffixComponents",
           "package": "ccnx",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "MaxSuffixComponents",
           "package": "ccnx",
@@ -313,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe two types of CCNx messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Message",
           "package": "ccnx",
@@ -322,6 +351,7 @@
         "index": {
           "description": "The two types of CCNx messages",
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Message",
           "package": "ccnx",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "MinSuffixComponents",
           "package": "ccnx",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "MinSuffixComponents",
           "package": "ccnx",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Name",
           "package": "ccnx",
@@ -364,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Name",
           "package": "ccnx",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Nonce",
           "package": "ccnx",
@@ -385,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Nonce",
           "package": "ccnx",
@@ -398,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "PublisherID",
           "package": "ccnx",
@@ -406,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "PublisherID",
           "package": "ccnx",
@@ -419,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "PublisherPublicKeyDigest",
           "package": "ccnx",
@@ -427,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "PublisherPublicKeyDigest",
           "package": "ccnx",
@@ -440,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Scope",
           "package": "ccnx",
@@ -448,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Scope",
           "package": "ccnx",
@@ -461,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Signature",
           "package": "ccnx",
@@ -469,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Signature",
           "package": "ccnx",
@@ -482,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "SignatureBits",
           "package": "ccnx",
@@ -490,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "SignatureBits",
           "package": "ccnx",
@@ -503,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "SignedInfo",
           "package": "ccnx",
@@ -511,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "SignedInfo",
           "package": "ccnx",
@@ -524,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Timestamp",
           "package": "ccnx",
@@ -532,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Timestamp",
           "package": "ccnx",
@@ -545,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Type",
           "package": "ccnx",
@@ -553,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Type",
           "package": "ccnx",
@@ -566,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Witness",
           "package": "ccnx",
@@ -574,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Witness",
           "package": "ccnx",
@@ -587,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Any",
           "package": "ccnx",
@@ -596,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Any",
           "package": "ccnx",
@@ -609,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Bloom",
           "package": "ccnx",
@@ -618,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Bloom",
           "package": "ccnx",
@@ -631,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Certificate",
           "package": "ccnx",
@@ -640,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Certificate",
           "package": "ccnx",
@@ -653,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "ContentObject",
           "package": "ccnx",
@@ -662,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "ContentObject",
           "package": "ccnx",
@@ -675,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "ContentObjectMessage",
           "package": "ccnx",
@@ -684,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "ContentObjectMessage",
           "package": "ccnx",
@@ -697,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "DATA",
           "package": "ccnx",
@@ -706,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "DATA",
           "package": "ccnx",
@@ -719,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "ENCR",
           "package": "ccnx",
@@ -728,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "ENCR",
           "package": "ccnx",
@@ -741,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Exclude",
           "package": "ccnx",
@@ -750,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Exclude",
           "normalized": "Exclude(Maybe AnyBloom)[(Component,Maybe AnyBloom)]",
@@ -765,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "GONE",
           "package": "ccnx",
@@ -774,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "GONE",
           "package": "ccnx",
@@ -787,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Interest",
           "package": "ccnx",
@@ -796,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Interest",
           "package": "ccnx",
@@ -809,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "InterestMessage",
           "package": "ccnx",
@@ -818,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "InterestMessage",
           "package": "ccnx",
@@ -831,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "KEY",
           "package": "ccnx",
@@ -840,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "KEY",
           "package": "ccnx",
@@ -853,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Key",
           "package": "ccnx",
@@ -862,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Key",
           "package": "ccnx",
@@ -875,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "KeyName",
           "package": "ccnx",
@@ -884,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "KeyName",
           "package": "ccnx",
@@ -897,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "LINK",
           "package": "ccnx",
@@ -906,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "LINK",
           "package": "ccnx",
@@ -919,6 +1003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "NACK",
           "package": "ccnx",
@@ -928,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "NACK",
           "package": "ccnx",
@@ -941,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "PublisherCertificateDigest",
           "package": "ccnx",
@@ -950,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "PublisherCertificateDigest",
           "package": "ccnx",
@@ -963,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "PublisherIDPublisherPublicKeyDigest",
           "package": "ccnx",
@@ -972,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "PublisherIDPublisherPublicKeyDigest",
           "package": "ccnx",
@@ -985,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "PublisherIssuerCertificateDigest",
           "package": "ccnx",
@@ -994,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "PublisherIssuerCertificateDigest",
           "package": "ccnx",
@@ -1007,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "PublisherIssuerKeyDigest",
           "package": "ccnx",
@@ -1016,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "PublisherIssuerKeyDigest",
           "package": "ccnx",
@@ -1029,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "Signature",
           "package": "ccnx",
@@ -1038,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "Signature",
           "package": "ccnx",
@@ -1051,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx.Messages",
           "name": "SignedInfo",
           "package": "ccnx",
@@ -1060,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx Messages",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx.Messages",
           "name": "SignedInfo",
           "package": "ccnx",
@@ -1073,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:42 UTC 2014",
           "module": "Network.CCNx",
           "name": "CCNx",
           "package": "ccnx",
@@ -1081,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Network CCNx",
+          "indexed": "2014-03-11T17:30:42",
           "module": "Network.CCNx",
           "name": "CCNx",
           "package": "ccnx",

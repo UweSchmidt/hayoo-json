@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "i18n"
+        "phrase": "i18n",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternationalization support for Haskell. This module contains\n  PO parser. PO files are assumed to be in UTF-8 encoding.\n\u003c/p\u003e\u003cp\u003ePlural forms are not yet implemented.\n\u003c/p\u003e\u003cp\u003emodules Text.I18n, Control.Monad.Trans, and function putStrLn and putStr\n  from System.IO.UTF8 are exported for convenience.\n\u003c/p\u003e\u003cpre\u003e import Prelude hiding (putStr,putStrLn)\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n.Po",
           "name": "Po",
           "package": "i18n",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Internationalization support for Haskell This module contains PO parser PO files are assumed to be in UTF-8 encoding Plural forms are not yet implemented modules Text.I18n Control.Monad.Trans and function putStrLn and putStr from System.IO.UTF8 are exported for convenience import Prelude hiding putStr putStrLn",
           "hierarchy": "Text I18n Po",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n.Po",
           "name": "Po",
           "package": "i18n",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n.Po",
           "name": "Context",
           "package": "i18n",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text I18n Po",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n.Po",
           "name": "Context",
           "package": "i18n",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Internationalization monad built using monad transformers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n.Po",
           "name": "I18n",
           "package": "i18n",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The Internationalization monad built using monad transformers",
           "hierarchy": "Text I18n Po",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n.Po",
           "name": "I18n",
           "package": "i18n",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Localization structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n.Po",
           "name": "L10n",
           "package": "i18n",
@@ -94,6 +101,7 @@
         "index": {
           "description": "The Localization structure",
           "hierarchy": "Text I18n Po",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n.Po",
           "name": "L10n",
           "package": "i18n",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n.Po",
           "name": "Locale",
           "package": "i18n",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Text I18n Po",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n.Po",
           "name": "Locale",
           "package": "i18n",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n.Po",
           "name": "Msgid",
           "package": "i18n",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Text I18n Po",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n.Po",
           "name": "Msgid",
           "package": "i18n",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n.Po",
           "name": "Msgstr",
           "package": "i18n",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Text I18n Po",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n.Po",
           "name": "Msgstr",
           "package": "i18n",
@@ -216,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilds \u003ccode\u003e\u003ca\u003eL10n\u003c/a\u003e\u003c/code\u003e structure by parsing \u003cem\u003e .po \u003c/em\u003e files contained in a given\n directory. \u003ccode\u003e\u003ca\u003eL10n\u003c/a\u003e\u003c/code\u003e structure is to be passed to \u003ccode\u003e\u003ca\u003elocalize\u003c/a\u003e\u003c/code\u003e function.\n \u003ccode\u003e\u003ca\u003eL10n\u003c/a\u003e\u003c/code\u003e structure is used internaly by the \u003ccode\u003e\u003ca\u003eI18n\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n.Po",
           "name": "getL10n",
           "package": "i18n",
@@ -225,6 +240,7 @@
         "index": {
           "description": "Builds L10n structure by parsing po files contained in given directory L10n structure is to be passed to localize function L10n structure is used internaly by the I18n monad",
           "hierarchy": "Text I18n Po",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n.Po",
           "name": "getL10n",
           "normalized": "FilePath-\u003eIO(L a,[ParseError])",
@@ -291,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a UTF8 string to the standard output device\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n.Po",
           "name": "putStr",
           "package": "i18n",
@@ -300,6 +317,7 @@
         "index": {
           "description": "Write UTF8 string to the standard output device",
           "hierarchy": "Text I18n Po",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n.Po",
           "name": "putStr",
           "normalized": "String-\u003eIO()",
@@ -316,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003eputStr\u003c/a\u003e\u003c/code\u003e, but adds a newline character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n.Po",
           "name": "putStrLn",
           "package": "i18n",
@@ -325,6 +344,7 @@
         "index": {
           "description": "The same as putStr but adds newline character",
           "hierarchy": "Text I18n Po",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n.Po",
           "name": "putStrLn",
           "normalized": "String-\u003eIO()",
@@ -393,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA slightly modified version of Text.Printf module. (with permission)\n\u003c/p\u003e\u003cp\u003eThis module is internal to Text.I18n.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n.Printf",
           "name": "Printf",
           "package": "i18n",
@@ -402,6 +423,7 @@
         "index": {
           "description": "slightly modified version of Text.Printf module with permission This module is internal to Text.I18n",
           "hierarchy": "Text I18n Printf",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n.Printf",
           "name": "Printf",
           "package": "i18n",
@@ -415,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n.Printf",
           "name": "HPrintfType",
           "package": "i18n",
@@ -423,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Text I18n Printf",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n.Printf",
           "name": "HPrintfType",
           "package": "i18n",
@@ -436,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n.Printf",
           "name": "IsChar",
           "package": "i18n",
@@ -444,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Text I18n Printf",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n.Printf",
           "name": "IsChar",
           "package": "i18n",
@@ -457,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n.Printf",
           "name": "PrintfArg",
           "package": "i18n",
@@ -465,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Text I18n Printf",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n.Printf",
           "name": "PrintfArg",
           "package": "i18n",
@@ -478,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n.Printf",
           "name": "PrintfType",
           "package": "i18n",
@@ -486,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Text I18n Printf",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n.Printf",
           "name": "PrintfType",
           "package": "i18n",
@@ -499,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n.Printf",
           "name": "hPrintf",
           "package": "i18n",
@@ -508,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Text I18n Printf",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n.Printf",
           "name": "hPrintf",
           "normalized": "Handle-\u003eString-\u003ea",
@@ -523,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n.Printf",
           "name": "printf",
           "package": "i18n",
@@ -532,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Text I18n Printf",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n.Printf",
           "name": "printf",
           "normalized": "String-\u003ea",
@@ -546,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n.Printf",
           "name": "spr",
           "package": "i18n",
@@ -555,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Text I18n Printf",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n.Printf",
           "name": "spr",
           "normalized": "String-\u003e[UPrintf]-\u003ea",
@@ -569,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n.Printf",
           "name": "uprintf",
           "package": "i18n",
@@ -578,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Text I18n Printf",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n.Printf",
           "name": "uprintf",
           "normalized": "String-\u003e[UPrintf]-\u003eString",
@@ -593,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternationalization support for Haskell.\n  Use Text.I18n.Po module.\n\u003c/p\u003e\u003cp\u003ePlural forms are not yet implemented.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n",
           "name": "I18n",
           "package": "i18n",
@@ -602,6 +641,7 @@
         "index": {
           "description": "Internationalization support for Haskell Use Text.I18n.Po module Plural forms are not yet implemented",
           "hierarchy": "Text I18n",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n",
           "name": "I18n",
           "package": "i18n",
@@ -614,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n",
           "name": "Context",
           "package": "i18n",
@@ -622,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Text I18n",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n",
           "name": "Context",
           "package": "i18n",
@@ -636,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Internationalization monad built using monad transformers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n",
           "name": "I18n",
           "package": "i18n",
@@ -645,6 +688,7 @@
         "index": {
           "description": "The Internationalization monad built using monad transformers",
           "hierarchy": "Text I18n",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n",
           "name": "I18n",
           "package": "i18n",
@@ -658,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Localization structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n",
           "name": "L10n",
           "package": "i18n",
@@ -667,6 +712,7 @@
         "index": {
           "description": "The Localization structure",
           "hierarchy": "Text I18n",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n",
           "name": "L10n",
           "package": "i18n",
@@ -679,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n",
           "name": "Locale",
           "package": "i18n",
@@ -687,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Text I18n",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n",
           "name": "Locale",
           "package": "i18n",
@@ -700,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n",
           "name": "Msgid",
           "package": "i18n",
@@ -708,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Text I18n",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n",
           "name": "Msgid",
           "package": "i18n",
@@ -721,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:30 UTC 2014",
           "module": "Text.I18n",
           "name": "Msgstr",
           "package": "i18n",
@@ -729,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Text I18n",
+          "indexed": "2014-03-11T18:55:30",
           "module": "Text.I18n",
           "name": "Msgstr",
           "package": "i18n",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-protocol-xmpp"
+        "phrase": "network-protocol-xmpp",
+        "type": "phrase"
       },
       "type": "context"
     }

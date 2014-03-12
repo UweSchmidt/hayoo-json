@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "penn-treebank"
+        "phrase": "penn-treebank",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:03 UTC 2014",
           "module": "NLP.PennTreebank",
           "name": "PennTreebank",
           "package": "penn-treebank",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "NLP PennTreebank",
+          "indexed": "2014-03-11T19:37:03",
           "module": "NLP.PennTreebank",
           "name": "PennTreebank",
           "package": "penn-treebank",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:03 UTC 2014",
           "module": "NLP.PennTreebank",
           "name": "parseTree",
           "package": "penn-treebank",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "NLP PennTreebank",
+          "indexed": "2014-03-11T19:37:03",
           "module": "NLP.PennTreebank",
           "name": "parseTree",
           "package": "penn-treebank",

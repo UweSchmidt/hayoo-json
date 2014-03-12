@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bk-tree"
+        "phrase": "bk-tree",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation of a BK-tree: \u003ca\u003ehttps://en.wikipedia.org/wiki/Bk-tree\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:18 UTC 2014",
           "module": "Data.BKTree",
           "name": "BKTree",
           "package": "bk-tree",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implementation of BK-tree https en.wikipedia.org wiki Bk-tree",
           "hierarchy": "Data BKTree",
+          "indexed": "2014-03-11T17:23:18",
           "module": "Data.BKTree",
           "name": "BKTree",
           "package": "bk-tree",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:18 UTC 2014",
           "module": "Data.BKTree",
           "name": "BKTree",
           "package": "bk-tree",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data BKTree",
+          "indexed": "2014-03-11T17:23:18",
           "module": "Data.BKTree",
           "name": "BKTree",
           "package": "bk-tree",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:18 UTC 2014",
           "module": "Data.BKTree",
           "name": "Distance",
           "package": "bk-tree",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data BKTree",
+          "indexed": "2014-03-11T17:23:18",
           "module": "Data.BKTree",
           "name": "Distance",
           "package": "bk-tree",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:18 UTC 2014",
           "module": "Data.BKTree",
           "name": "empty",
           "package": "bk-tree",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data BKTree",
+          "indexed": "2014-03-11T17:23:18",
           "module": "Data.BKTree",
           "name": "empty",
           "normalized": "Distance a-\u003eBKTree a",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:18 UTC 2014",
           "module": "Data.BKTree",
           "name": "insert",
           "package": "bk-tree",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data BKTree",
+          "indexed": "2014-03-11T17:23:18",
           "module": "Data.BKTree",
           "name": "insert",
           "normalized": "a-\u003eBKTree a-\u003eBKTree a",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:18 UTC 2014",
           "module": "Data.BKTree",
           "name": "query",
           "package": "bk-tree",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data BKTree",
+          "indexed": "2014-03-11T17:23:18",
           "module": "Data.BKTree",
           "name": "query",
           "normalized": "Int-\u003ea-\u003eBKTree a-\u003e[(a,Int)]",

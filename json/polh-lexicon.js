@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "polh-lexicon"
+        "phrase": "polh-lexicon",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module provides functions for working with the binary\n representation of the historical dictionary of Polish.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "Binary",
           "package": "polh-lexicon",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The module provides functions for working with the binary representation of the historical dictionary of Polish",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "Binary",
           "package": "polh-lexicon",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntry in the binary dictionary consists of the lexical\n entry and corresponding unique identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "BinEntry",
           "package": "polh-lexicon",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Entry in the binary dictionary consists of the lexical entry and corresponding unique identifier",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "BinEntry",
           "package": "polh-lexicon",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA dictionary key which uniquely identifies the lexical entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "Key",
           "package": "polh-lexicon",
@@ -74,6 +79,7 @@
         "index": {
           "description": "dictionary key which uniquely identifies the lexical entry",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "Key",
           "package": "polh-lexicon",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Polh monad is a Polh monad transformer over the hidden IO monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "PolhM",
           "package": "polh-lexicon",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Polh monad is Polh monad transformer over the hidden IO monad",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "PolhM",
           "package": "polh-lexicon",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Polh monad transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "PolhT",
           "package": "polh-lexicon",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Polh monad transformer",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "PolhT",
           "package": "polh-lexicon",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rule for translating a form into a binary dictionary key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "Rule",
           "package": "polh-lexicon",
@@ -143,6 +154,7 @@
         "index": {
           "description": "rule for translating form into binary dictionary key",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "Rule",
           "package": "polh-lexicon",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "BinEntry",
           "package": "polh-lexicon",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "BinEntry",
           "package": "polh-lexicon",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "Key",
           "package": "polh-lexicon",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "Key",
           "package": "polh-lexicon",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "Rule",
           "package": "polh-lexicon",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "Rule",
           "package": "polh-lexicon",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "apply",
           "package": "polh-lexicon",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Apply the rule",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "apply",
           "normalized": "Rule-\u003eText-\u003eKey",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a rule which translates between the string and the key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "between",
           "package": "polh-lexicon",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Make rule which translates between the string and the key",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "between",
           "normalized": "Text-\u003eKey-\u003eRule",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey assigned to the binary entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "binKey",
           "package": "polh-lexicon",
@@ -283,6 +306,7 @@
         "index": {
           "description": "Key assigned to the binary entry",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "binKey",
           "normalized": "BinEntry-\u003eKey",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of characters to cut from the end of the form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "cut",
           "package": "polh-lexicon",
@@ -309,6 +334,7 @@
         "index": {
           "description": "Number of characters to cut from the end of the form",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "cut",
           "package": "polh-lexicon",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLexical entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "entry",
           "package": "polh-lexicon",
@@ -332,6 +359,7 @@
         "index": {
           "description": "Lexical entry",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "entry",
           "package": "polh-lexicon",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of dictionary keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "index",
           "package": "polh-lexicon",
@@ -355,6 +384,7 @@
         "index": {
           "description": "List of dictionary keys",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "index",
           "normalized": "PolhT a[Key]",
@@ -370,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst form (presumably lemma) of the lexical entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "keyForm",
           "package": "polh-lexicon",
@@ -380,6 +411,7 @@
         "index": {
           "description": "First form presumably lemma of the lexical entry",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "keyForm",
           "package": "polh-lexicon",
@@ -394,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique identifier among lexical entries with the same \u003ccode\u003e\u003ca\u003ekeyForm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "keyUid",
           "package": "polh-lexicon",
@@ -404,6 +437,7 @@
         "index": {
           "description": "Unique identifier among lexical entries with the same keyForm",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "keyUid",
           "package": "polh-lexicon",
@@ -418,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad dictionary from a disk in a lazy manner.  Return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n if the path doesn't correspond to a binary representation of the\n dictionary. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "loadPolh",
           "package": "polh-lexicon",
@@ -428,6 +463,7 @@
         "index": {
           "description": "Load dictionary from disk in lazy manner Return Nothing if the path doesn correspond to binary representation of the dictionary",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "loadPolh",
           "normalized": "FilePath-\u003eIO(Maybe[BinEntry])",
@@ -444,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup the form in the dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "lookup",
           "package": "polh-lexicon",
@@ -454,6 +491,7 @@
         "index": {
           "description": "Lookup the form in the dictionary",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "lookup",
           "normalized": "Text-\u003ePolhT a[BinEntry]",
@@ -469,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm representing the lexical entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "proxyForm",
           "package": "polh-lexicon",
@@ -479,6 +518,7 @@
         "index": {
           "description": "Form representing the lexical entry",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "proxyForm",
           "normalized": "LexEntry-\u003eText",
@@ -495,6 +535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique identifier of the entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "ruleUid",
           "package": "polh-lexicon",
@@ -505,6 +546,7 @@
         "index": {
           "description": "Unique identifier of the entry",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "ruleUid",
           "package": "polh-lexicon",
@@ -519,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the Polh monad against the binary Polh representation\n located in the given directory.  Return Nothing if the directory\n doesnt' exist or if it doesn't look like a Polh dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "runPolh",
           "package": "polh-lexicon",
@@ -529,6 +572,7 @@
         "index": {
           "description": "Execute the Polh monad against the binary Polh representation located in the given directory Return Nothing if the directory doesnt exist or if it doesn look like Polh dictionary",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "runPolh",
           "normalized": "FilePath-\u003ePolhM a-\u003eIO(Maybe a)",
@@ -545,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the Polh monad transformer against the binary Polh representation\n located in the given directory.  Return Nothing if the directory doesnt'\n exist or if it doesn't look like a Polh dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "runPolhT",
           "package": "polh-lexicon",
@@ -555,6 +600,7 @@
         "index": {
           "description": "Execute the Polh monad transformer against the binary Polh representation located in the given directory Return Nothing if the directory doesnt exist or if it doesn look like Polh dictionary",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "runPolhT",
           "normalized": "FilePath-\u003ePolhT a b-\u003ea(Maybe b)",
@@ -571,6 +617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave the polh dictionary in the empty directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "savePolh",
           "package": "polh-lexicon",
@@ -581,6 +628,7 @@
         "index": {
           "description": "Save the polh dictionary in the empty directory",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "savePolh",
           "normalized": "FilePath-\u003ePolh-\u003eIO()",
@@ -597,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA suffix to paste.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "suffix",
           "package": "polh-lexicon",
@@ -607,6 +656,7 @@
         "index": {
           "description": "suffix to paste",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "suffix",
           "package": "polh-lexicon",
@@ -620,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique identifier among lexical entries with the same first form\n (see \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e data type).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "uid",
           "package": "polh-lexicon",
@@ -630,6 +681,7 @@
         "index": {
           "description": "Unique identifier among lexical entries with the same first form see Key data type",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "uid",
           "package": "polh-lexicon",
@@ -643,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract lexical entry with the given key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Binary",
           "name": "withKey",
           "package": "polh-lexicon",
@@ -653,6 +706,7 @@
         "index": {
           "description": "Extract lexical entry with the given key",
           "hierarchy": "NLP Polh Binary",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Binary",
           "name": "withKey",
           "normalized": "Key-\u003ePolhT a(Maybe BinEntry)",
@@ -669,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module provides parsing utilities for the LMF dictionary.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.LMF.Parse",
           "name": "Parse",
           "package": "polh-lexicon",
@@ -678,6 +733,7 @@
         "index": {
           "description": "The module provides parsing utilities for the LMF dictionary",
           "hierarchy": "NLP Polh LMF Parse",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.LMF.Parse",
           "name": "Parse",
           "package": "polh-lexicon",
@@ -692,6 +748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the lexical entry LMF representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.LMF.Parse",
           "name": "parseLexEntry",
           "package": "polh-lexicon",
@@ -702,6 +759,7 @@
         "index": {
           "description": "Parse the lexical entry LMF representation",
           "hierarchy": "NLP Polh LMF Parse",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.LMF.Parse",
           "name": "parseLexEntry",
           "normalized": "Text-\u003eLexEntry",
@@ -718,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the entire dictionary in the LMF format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.LMF.Parse",
           "name": "parsePolh",
           "package": "polh-lexicon",
@@ -728,6 +787,7 @@
         "index": {
           "description": "Parse the entire dictionary in the LMF format",
           "hierarchy": "NLP Polh LMF Parse",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.LMF.Parse",
           "name": "parsePolh",
           "normalized": "Text-\u003ePolh",
@@ -744,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the dictionary from the LMF file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.LMF.Parse",
           "name": "readPolh",
           "package": "polh-lexicon",
@@ -754,6 +815,7 @@
         "index": {
           "description": "Read the dictionary from the LMF file",
           "hierarchy": "NLP Polh LMF Parse",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.LMF.Parse",
           "name": "readPolh",
           "normalized": "FilePath-\u003eIO Polh",
@@ -770,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrinting utilities for the LMF dictionary format.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.LMF.Show",
           "name": "Show",
           "package": "polh-lexicon",
@@ -779,6 +842,7 @@
         "index": {
           "description": "Printing utilities for the LMF dictionary format",
           "hierarchy": "NLP Polh LMF Show",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.LMF.Show",
           "name": "Show",
           "package": "polh-lexicon",
@@ -793,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow lexical entry using the LMF format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.LMF.Show",
           "name": "showLexEntry",
           "package": "polh-lexicon",
@@ -803,6 +868,7 @@
         "index": {
           "description": "Show lexical entry using the LMF format",
           "hierarchy": "NLP Polh LMF Show",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.LMF.Show",
           "name": "showLexEntry",
           "normalized": "LexEntry-\u003eText",
@@ -819,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the entire dictionary as a lazy text in the LMF format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.LMF.Show",
           "name": "showPolh",
           "package": "polh-lexicon",
@@ -829,6 +896,7 @@
         "index": {
           "description": "Show the entire dictionary as lazy text in the LMF format",
           "hierarchy": "NLP Polh LMF Show",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.LMF.Show",
           "name": "showPolh",
           "normalized": "Polh-\u003eText",
@@ -845,6 +913,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRe-export modules from the LMF hierarchy.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.LMF",
           "name": "LMF",
           "package": "polh-lexicon",
@@ -854,6 +923,7 @@
         "index": {
           "description": "Re-export modules from the LMF hierarchy",
           "hierarchy": "NLP Polh LMF",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.LMF",
           "name": "LMF",
           "package": "polh-lexicon",
@@ -868,6 +938,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module provides types for dictionary representation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "Types",
           "package": "polh-lexicon",
@@ -877,6 +948,7 @@
         "index": {
           "description": "The module provides types for dictionary representation",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "Types",
           "package": "polh-lexicon",
@@ -891,6 +963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA context in which a given sense is illustrated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "Context",
           "package": "polh-lexicon",
@@ -900,6 +973,7 @@
         "index": {
           "description": "context in which given sense is illustrated",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "Context",
           "package": "polh-lexicon",
@@ -914,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA definition of the lexeme sense.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "Definition",
           "package": "polh-lexicon",
@@ -923,6 +998,7 @@
         "index": {
           "description": "definition of the lexeme sense",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "Definition",
           "package": "polh-lexicon",
@@ -937,6 +1013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of objects with a written representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "HasRepr",
           "package": "polh-lexicon",
@@ -946,6 +1023,7 @@
         "index": {
           "description": "class of objects with written representation",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "HasRepr",
           "package": "polh-lexicon",
@@ -960,6 +1038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lemma (base) form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "Lemma",
           "package": "polh-lexicon",
@@ -969,6 +1048,7 @@
         "index": {
           "description": "lemma base form",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "Lemma",
           "package": "polh-lexicon",
@@ -983,6 +1063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA description of a lexeme.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "LexEntry",
           "package": "polh-lexicon",
@@ -992,6 +1073,7 @@
         "index": {
           "description": "description of lexeme",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "LexEntry",
           "package": "polh-lexicon",
@@ -1006,6 +1088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA polh dictionary is a list of lexical entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "Polh",
           "package": "polh-lexicon",
@@ -1015,6 +1098,7 @@
         "index": {
           "description": "polh dictionary is list of lexical entries",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "Polh",
           "package": "polh-lexicon",
@@ -1029,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA related form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "RelForm",
           "package": "polh-lexicon",
@@ -1038,6 +1123,7 @@
         "index": {
           "description": "related form",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "RelForm",
           "package": "polh-lexicon",
@@ -1052,6 +1138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm or text representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "Repr",
           "package": "polh-lexicon",
@@ -1061,6 +1148,7 @@
         "index": {
           "description": "Form or text representation",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "Repr",
           "package": "polh-lexicon",
@@ -1075,6 +1163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA potential sense of a given lexeme.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "Sense",
           "package": "polh-lexicon",
@@ -1084,6 +1173,7 @@
         "index": {
           "description": "potential sense of given lexeme",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "Sense",
           "package": "polh-lexicon",
@@ -1098,6 +1188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA description of a syntactic behaviour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "SynBehaviour",
           "package": "polh-lexicon",
@@ -1107,6 +1198,7 @@
         "index": {
           "description": "description of syntactic behaviour",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "SynBehaviour",
           "package": "polh-lexicon",
@@ -1121,6 +1213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA word form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "WordForm",
           "package": "polh-lexicon",
@@ -1130,6 +1223,7 @@
         "index": {
           "description": "word form",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "WordForm",
           "package": "polh-lexicon",
@@ -1143,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "Context",
           "package": "polh-lexicon",
@@ -1152,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "Context",
           "normalized": "Context[Repr]",
@@ -1167,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "Definition",
           "package": "polh-lexicon",
@@ -1176,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "Definition",
           "normalized": "Definition[Repr]",
@@ -1191,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "Lemma",
           "package": "polh-lexicon",
@@ -1200,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "Lemma",
           "normalized": "Lemma[Repr]",
@@ -1215,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "LexEntry",
           "package": "polh-lexicon",
@@ -1224,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "LexEntry",
           "package": "polh-lexicon",
@@ -1237,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "RelForm",
           "package": "polh-lexicon",
@@ -1246,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "RelForm",
           "package": "polh-lexicon",
@@ -1259,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "Repr",
           "package": "polh-lexicon",
@@ -1268,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "Repr",
           "package": "polh-lexicon",
@@ -1281,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "Sense",
           "package": "polh-lexicon",
@@ -1290,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "Sense",
           "package": "polh-lexicon",
@@ -1303,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "SynBehaviour",
           "package": "polh-lexicon",
@@ -1312,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "SynBehaviour",
           "package": "polh-lexicon",
@@ -1325,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "WordForm",
           "package": "polh-lexicon",
@@ -1334,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "WordForm",
           "normalized": "WordForm[Repr]",
@@ -1350,6 +1462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of components (only when the entry represent\n a compound lexeme).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "components",
           "package": "polh-lexicon",
@@ -1360,6 +1473,7 @@
         "index": {
           "description": "list of components only when the entry represent compound lexeme",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "components",
           "normalized": "[Text]",
@@ -1374,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "cxts",
           "package": "polh-lexicon",
@@ -1383,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "cxts",
           "normalized": "[Context]",
@@ -1397,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "defs",
           "package": "polh-lexicon",
@@ -1406,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "defs",
           "normalized": "[Definition]",
@@ -1421,6 +1539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWord forms of the lexeme.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "forms",
           "package": "polh-lexicon",
@@ -1431,6 +1550,7 @@
         "index": {
           "description": "Word forms of the lexeme",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "forms",
           "normalized": "[WordForm]",
@@ -1445,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "language",
           "package": "polh-lexicon",
@@ -1454,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "language",
           "package": "polh-lexicon",
@@ -1467,6 +1589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA base form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "lemma",
           "package": "polh-lexicon",
@@ -1477,6 +1600,7 @@
         "index": {
           "description": "base form",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "lemma",
           "package": "polh-lexicon",
@@ -1490,6 +1614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn ID of the lexical entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "lexId",
           "package": "polh-lexicon",
@@ -1500,6 +1625,7 @@
         "index": {
           "description": "An ID of the lexical entry",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "lexId",
           "package": "polh-lexicon",
@@ -1514,6 +1640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA line reference number.  Provisional field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "lineRef",
           "package": "polh-lexicon",
@@ -1524,6 +1651,7 @@
         "index": {
           "description": "line reference number Provisional field",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "lineRef",
           "package": "polh-lexicon",
@@ -1538,6 +1666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePotential parts of speech.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "pos",
           "package": "polh-lexicon",
@@ -1548,6 +1677,7 @@
         "index": {
           "description": "Potential parts of speech",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "pos",
           "normalized": "[Text]",
@@ -1562,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "relRepr",
           "package": "polh-lexicon",
@@ -1571,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "relRepr",
           "normalized": "[Repr]",
@@ -1586,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "relTo",
           "package": "polh-lexicon",
@@ -1595,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "relTo",
           "package": "polh-lexicon",
@@ -1609,6 +1743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForma related to the lexeme.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "related",
           "package": "polh-lexicon",
@@ -1619,6 +1754,7 @@
         "index": {
           "description": "Forma related to the lexeme",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "related",
           "normalized": "[RelForm]",
@@ -1633,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "repr",
           "package": "polh-lexicon",
@@ -1642,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "repr",
           "normalized": "a-\u003e[Repr]",
@@ -1656,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "senseId",
           "package": "polh-lexicon",
@@ -1665,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "senseId",
           "package": "polh-lexicon",
@@ -1679,6 +1819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of potential semantic descriptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "senses",
           "package": "polh-lexicon",
@@ -1689,6 +1830,7 @@
         "index": {
           "description": "list of potential semantic descriptions",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "senses",
           "normalized": "[Sense]",
@@ -1703,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "sourceID",
           "package": "polh-lexicon",
@@ -1712,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "sourceID",
           "package": "polh-lexicon",
@@ -1726,6 +1870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA status of the lexeme.  Provisional field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "status",
           "package": "polh-lexicon",
@@ -1736,6 +1881,7 @@
         "index": {
           "description": "status of the lexeme Provisional field",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "status",
           "package": "polh-lexicon",
@@ -1748,6 +1894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "style",
           "package": "polh-lexicon",
@@ -1757,6 +1904,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "style",
           "normalized": "[Text]",
@@ -1771,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "synRepr",
           "package": "polh-lexicon",
@@ -1780,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "synRepr",
           "normalized": "[Repr]",
@@ -1795,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "synSenseIds",
           "package": "polh-lexicon",
@@ -1804,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "synSenseIds",
           "normalized": "[Text]",
@@ -1820,6 +1972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of potential syntactic behaviours of the lexeme.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "syntactic",
           "package": "polh-lexicon",
@@ -1830,6 +1983,7 @@
         "index": {
           "description": "list of potential syntactic behaviours of the lexeme",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "syntactic",
           "normalized": "[SynBehaviour]",
@@ -1845,6 +1999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet textual representations of an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "text",
           "package": "polh-lexicon",
@@ -1855,6 +2010,7 @@
         "index": {
           "description": "Get textual representations of an object",
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "text",
           "normalized": "a-\u003e[Text]",
@@ -1869,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Types",
           "name": "writtenForm",
           "package": "polh-lexicon",
@@ -1878,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "NLP Polh Types",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Types",
           "name": "writtenForm",
           "package": "polh-lexicon",
@@ -1892,6 +2050,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome utility functions for working with the dictionary.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Util",
           "name": "Util",
           "package": "polh-lexicon",
@@ -1901,6 +2060,7 @@
         "index": {
           "description": "Some utility functions for working with the dictionary",
           "hierarchy": "NLP Polh Util",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Util",
           "name": "Util",
           "package": "polh-lexicon",
@@ -1915,6 +2075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd new word form to the lexeme description.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Util",
           "name": "addForm",
           "package": "polh-lexicon",
@@ -1925,6 +2086,7 @@
         "index": {
           "description": "Add new word form to the lexeme description",
           "hierarchy": "NLP Polh Util",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Util",
           "name": "addForm",
           "normalized": "WordForm-\u003eLexEntry-\u003eLexEntry",
@@ -1941,6 +2103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll format (base form + other forms) of the lexeme.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Util",
           "name": "allForms",
           "package": "polh-lexicon",
@@ -1951,6 +2114,7 @@
         "index": {
           "description": "All format base form other forms of the lexeme",
           "hierarchy": "NLP Polh Util",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Util",
           "name": "allForms",
           "normalized": "LexEntry-\u003e[Text]",
@@ -1967,6 +2131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes lexeme take the given form? \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:57 UTC 2014",
           "module": "NLP.Polh.Util",
           "name": "hasForm",
           "package": "polh-lexicon",
@@ -1977,6 +2142,7 @@
         "index": {
           "description": "Does lexeme take the given form",
           "hierarchy": "NLP Polh Util",
+          "indexed": "2014-03-11T19:40:57",
           "module": "NLP.Polh.Util",
           "name": "hasForm",
           "normalized": "LexEntry-\u003eText-\u003eBool",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-json"
+        "phrase": "yesod-json",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:58 UTC 2014",
           "module": "Yesod.Json",
           "name": "Json",
           "package": "yesod-json",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Yesod Json",
+          "indexed": "2014-03-11T20:45:58",
           "module": "Yesod.Json",
           "name": "Json",
           "package": "yesod-json",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "libxml-sax"
+        "phrase": "libxml-sax",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBindings for the libXML2 SAX interface\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "SAX",
           "package": "libxml-sax",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Bindings for the libXML2 SAX interface",
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "SAX",
           "package": "libxml-sax",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "Callback",
           "package": "libxml-sax",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "Callback",
           "package": "libxml-sax",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e tracks the internal state of a LibXML parser context.\n\u003c/p\u003e\u003cp\u003eAs LibXML is a very stateful library, parsers must operate within either\n the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e monad. Use \u003ccode\u003e\u003ca\u003enewParserIO\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003enewParserST\u003c/a\u003e\u003c/code\u003e to create\n parsers in the appropriate monad.\n\u003c/p\u003e\u003cp\u003eIn general, clients should prefer \u003ccode\u003e\u003ca\u003enewParserST\u003c/a\u003e\u003c/code\u003e, because ST values can be\n safely computed with no side effects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "Parser",
           "package": "libxml-sax",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Parser tracks the internal state of LibXML parser context As LibXML is very stateful library parsers must operate within either the IO or ST monad Use newParserIO or newParserST to create parsers in the appropriate monad In general clients should prefer newParserST because ST values can be safely computed with no side effects",
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "Parser",
           "package": "libxml-sax",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a callback from the parser. This might also change the parser's\n behavior, such as automatically expanding entity references when no\n \u003ccode\u003e\u003ca\u003eparsedReference\u003c/a\u003e\u003c/code\u003e callback is set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "clearCallback",
           "package": "libxml-sax",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Remove callback from the parser This might also change the parser behavior such as automatically expanding entity references when no parsedReference callback is set",
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "clearCallback",
           "normalized": "Parser a-\u003eCallback a b-\u003ea()",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "newParserIO",
           "package": "libxml-sax",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "newParserIO",
           "normalized": "Maybe Text-\u003eIO(Parser IO)",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "newParserST",
           "package": "libxml-sax",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "newParserST",
           "normalized": "Maybe Text-\u003eST a(Parser(ST a))",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "parseBytes",
           "package": "libxml-sax",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "parseBytes",
           "normalized": "Parser a-\u003eByteString-\u003ea()",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinish parsing any buffered data, and check that the document was\n closed correctly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "parseComplete",
           "package": "libxml-sax",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Finish parsing any buffered data and check that the document was closed correctly",
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "parseComplete",
           "normalized": "Parser a-\u003ea()",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedBeginDocument",
           "package": "libxml-sax",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedBeginDocument",
           "package": "libxml-sax",
@@ -229,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedBeginElement",
           "package": "libxml-sax",
@@ -238,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedBeginElement",
           "normalized": "Callback a(Name-\u003e[(Name,[Content])]-\u003ea Bool)",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eparsedCDATA\u003c/a\u003e\u003c/code\u003e is set, it receives any text contained in CDATA\n blocks. By default, all text is received by \u003ccode\u003e\u003ca\u003eparsedCharacters\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedCDATA",
           "package": "libxml-sax",
@@ -264,6 +285,7 @@
         "index": {
           "description": "If parsedCDATA is set it receives any text contained in CDATA blocks By default all text is received by parsedCharacters",
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedCDATA",
           "normalized": "Callback a(Text-\u003ea Bool)",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedCharacters",
           "package": "libxml-sax",
@@ -288,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedCharacters",
           "normalized": "Callback a(Text-\u003ea Bool)",
@@ -303,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedComment",
           "package": "libxml-sax",
@@ -312,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedComment",
           "normalized": "Callback a(Text-\u003ea Bool)",
@@ -327,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedEndDocument",
           "package": "libxml-sax",
@@ -336,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedEndDocument",
           "package": "libxml-sax",
@@ -349,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedEndElement",
           "package": "libxml-sax",
@@ -358,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedEndElement",
           "normalized": "Callback a(Name-\u003ea Bool)",
@@ -373,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedExternalSubset",
           "package": "libxml-sax",
@@ -382,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedExternalSubset",
           "normalized": "Callback a(Text-\u003eMaybe ExternalID-\u003ea Bool)",
@@ -397,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedInstruction",
           "package": "libxml-sax",
@@ -406,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedInstruction",
           "normalized": "Callback a(Instruction-\u003ea Bool)",
@@ -421,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedInternalSubset",
           "package": "libxml-sax",
@@ -430,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedInternalSubset",
           "normalized": "Callback a(Text-\u003eMaybe ExternalID-\u003ea Bool)",
@@ -446,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eparsedReference\u003c/a\u003e\u003c/code\u003e is set, entity references in element and attribute\n content will reported separately from text, and will not be automatically\n expanded.\n\u003c/p\u003e\u003cp\u003eUse this when processing documents in passthrough mode, to preserve\n existing entity references.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedReference",
           "package": "libxml-sax",
@@ -456,6 +493,7 @@
         "index": {
           "description": "If parsedReference is set entity references in element and attribute content will reported separately from text and will not be automatically expanded Use this when processing documents in passthrough mode to preserve existing entity references",
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedReference",
           "normalized": "Callback a(Text-\u003ea Bool)",
@@ -472,6 +510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003e\u003ca\u003eparsedWhitespace\u003c/a\u003e\u003c/code\u003e is set, it receives any whitespace marked as\n ignorable by the document's DTD. By default, all text is received by\n \u003ccode\u003e\u003ca\u003eparsedCharacters\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedWhitespace",
           "package": "libxml-sax",
@@ -482,6 +521,7 @@
         "index": {
           "description": "If parsedWhitespace is set it receives any whitespace marked as ignorable by the document DTD By default all text is received by parsedCharacters",
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "parsedWhitespace",
           "normalized": "Callback a(Text-\u003ea Bool)",
@@ -497,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "reportError",
           "package": "libxml-sax",
@@ -506,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "reportError",
           "normalized": "Callback a(Text-\u003ea Bool)",
@@ -521,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "reportWarning",
           "package": "libxml-sax",
@@ -530,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "reportWarning",
           "normalized": "Callback a(Text-\u003ea Bool)",
@@ -546,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a callback computation to run when a particular parse event occurs.\n The callback should return \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e to continue parsing, or \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\n to abort.\n\u003c/p\u003e\u003cp\u003eAlternatively, callbacks may throw an \u003ccode\u003e\u003ca\u003eException\u003c/a\u003e\u003c/code\u003e to abort parsing. The\n exception will be propagated through to the caller of \u003ccode\u003e\u003ca\u003eparseBytes\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eparseComplete\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:17 UTC 2014",
           "module": "Text.XML.LibXML.SAX",
           "name": "setCallback",
           "package": "libxml-sax",
@@ -556,6 +601,7 @@
         "index": {
           "description": "Set callback computation to run when particular parse event occurs The callback should return True to continue parsing or False to abort Alternatively callbacks may throw an Exception to abort parsing The exception will be propagated through to the caller of parseBytes or parseComplete",
           "hierarchy": "Text XML LibXML SAX",
+          "indexed": "2014-03-11T19:09:17",
           "module": "Text.XML.LibXML.SAX",
           "name": "setCallback",
           "normalized": "Parser a-\u003eCallback a b-\u003eb-\u003ea()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-common"
+        "phrase": "bindings-common",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "c'isalnum",
           "package": "bindings-common",
@@ -27,6 +28,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "c'isalnum",
           "normalized": "CInt-\u003eIO CInt",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "c'isalpha",
           "package": "bindings-common",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "c'isalpha",
           "normalized": "CInt-\u003eIO CInt",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "c'isblank",
           "package": "bindings-common",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "c'isblank",
           "normalized": "CInt-\u003eIO CInt",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "c'iscntrl",
           "package": "bindings-common",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "c'iscntrl",
           "normalized": "CInt-\u003eIO CInt",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "c'isdigit",
           "package": "bindings-common",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "c'isdigit",
           "normalized": "CInt-\u003eIO CInt",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "c'isgraph",
           "package": "bindings-common",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "c'isgraph",
           "normalized": "CInt-\u003eIO CInt",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "c'islower",
           "package": "bindings-common",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "c'islower",
           "normalized": "CInt-\u003eIO CInt",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "c'isprint",
           "package": "bindings-common",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "c'isprint",
           "normalized": "CInt-\u003eIO CInt",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "c'ispunct",
           "package": "bindings-common",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "c'ispunct",
           "normalized": "CInt-\u003eIO CInt",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "c'isspace",
           "package": "bindings-common",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "c'isspace",
           "normalized": "CInt-\u003eIO CInt",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "c'isupper",
           "package": "bindings-common",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "c'isupper",
           "normalized": "CInt-\u003eIO CInt",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "c'isxdigit",
           "package": "bindings-common",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "c'isxdigit",
           "normalized": "CInt-\u003eIO CInt",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "c'tolower",
           "package": "bindings-common",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "c'tolower",
           "normalized": "CInt-\u003eIO CInt",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "c'toupper",
           "package": "bindings-common",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "c'toupper",
           "normalized": "CInt-\u003eIO CInt",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "p'isalnum",
           "package": "bindings-common",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "p'isalnum",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "p'isalpha",
           "package": "bindings-common",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "p'isalpha",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "p'isblank",
           "package": "bindings-common",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "p'isblank",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "p'iscntrl",
           "package": "bindings-common",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "p'iscntrl",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "p'isdigit",
           "package": "bindings-common",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "p'isdigit",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "p'isgraph",
           "package": "bindings-common",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "p'isgraph",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "p'islower",
           "package": "bindings-common",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "p'islower",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "p'isprint",
           "package": "bindings-common",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "p'isprint",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -524,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "p'ispunct",
           "package": "bindings-common",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "p'ispunct",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "p'isspace",
           "package": "bindings-common",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "p'isspace",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "p'isupper",
           "package": "bindings-common",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "p'isupper",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -593,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "p'isxdigit",
           "package": "bindings-common",
@@ -602,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "p'isxdigit",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -616,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "p'tolower",
           "package": "bindings-common",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "p'tolower",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -639,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Ctype",
           "name": "p'toupper",
           "package": "bindings-common",
@@ -648,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Ctype",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Ctype",
           "name": "p'toupper",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Errno",
           "name": "c'EDOM",
           "package": "bindings-common",
@@ -671,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Errno",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Errno",
           "name": "c'EDOM",
           "package": "bindings-common",
@@ -684,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Errno",
           "name": "c'EILSEQ",
           "package": "bindings-common",
@@ -693,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Errno",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Errno",
           "name": "c'EILSEQ",
           "package": "bindings-common",
@@ -706,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Errno",
           "name": "c'ERANGE",
           "package": "bindings-common",
@@ -715,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Errno",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Errno",
           "name": "c'ERANGE",
           "package": "bindings-common",
@@ -728,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Locale",
           "name": "C'lconv",
           "package": "bindings-common",
@@ -736,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Locale",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Locale",
           "name": "C'lconv",
           "package": "bindings-common",
@@ -749,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Locale",
           "name": "c'LC_ALL",
           "package": "bindings-common",
@@ -758,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Locale",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Locale",
           "name": "c'LC_ALL",
           "package": "bindings-common",
@@ -771,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Locale",
           "name": "c'LC_COLLATE",
           "package": "bindings-common",
@@ -780,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Locale",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Locale",
           "name": "c'LC_COLLATE",
           "package": "bindings-common",
@@ -793,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Locale",
           "name": "c'LC_CTYPE",
           "package": "bindings-common",
@@ -802,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Locale",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Locale",
           "name": "c'LC_CTYPE",
           "package": "bindings-common",
@@ -815,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Locale",
           "name": "c'LC_MONETARY",
           "package": "bindings-common",
@@ -824,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Locale",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Locale",
           "name": "c'LC_MONETARY",
           "package": "bindings-common",
@@ -837,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Locale",
           "name": "c'LC_NUMERIC",
           "package": "bindings-common",
@@ -846,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Locale",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Locale",
           "name": "c'LC_NUMERIC",
           "package": "bindings-common",
@@ -859,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Locale",
           "name": "c'LC_TIME",
           "package": "bindings-common",
@@ -868,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Locale",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Locale",
           "name": "c'LC_TIME",
           "package": "bindings-common",
@@ -881,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Locale",
           "name": "c'localeconv",
           "package": "bindings-common",
@@ -890,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Locale",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Locale",
           "name": "c'localeconv",
           "package": "bindings-common",
@@ -902,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Locale",
           "name": "c'setlocale",
           "package": "bindings-common",
@@ -911,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Locale",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Locale",
           "name": "c'setlocale",
           "normalized": "CInt-\u003eCString-\u003eIO CString",
@@ -925,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Locale",
           "name": "p'localeconv",
           "package": "bindings-common",
@@ -934,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Locale",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Locale",
           "name": "p'localeconv",
           "package": "bindings-common",
@@ -946,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Locale",
           "name": "p'setlocale",
           "package": "bindings-common",
@@ -955,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Locale",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Locale",
           "name": "p'setlocale",
           "normalized": "FunPtr(CInt-\u003eCString-\u003eIO CString)",
@@ -969,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'FP_ILOGB0",
           "package": "bindings-common",
@@ -978,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'FP_ILOGB0",
           "package": "bindings-common",
@@ -991,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'FP_ILOGBNAN",
           "package": "bindings-common",
@@ -1000,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'FP_ILOGBNAN",
           "package": "bindings-common",
@@ -1013,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'FP_INFINITE",
           "package": "bindings-common",
@@ -1022,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'FP_INFINITE",
           "package": "bindings-common",
@@ -1035,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'FP_NAN",
           "package": "bindings-common",
@@ -1044,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'FP_NAN",
           "package": "bindings-common",
@@ -1057,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'FP_NORMAL",
           "package": "bindings-common",
@@ -1066,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'FP_NORMAL",
           "package": "bindings-common",
@@ -1079,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'FP_SUBNORMAL",
           "package": "bindings-common",
@@ -1088,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'FP_SUBNORMAL",
           "package": "bindings-common",
@@ -1101,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'FP_ZERO",
           "package": "bindings-common",
@@ -1110,6 +1207,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'FP_ZERO",
           "package": "bindings-common",
@@ -1123,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'MATH_ERREXCEPT",
           "package": "bindings-common",
@@ -1132,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'MATH_ERREXCEPT",
           "package": "bindings-common",
@@ -1145,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'MATH_ERRNO",
           "package": "bindings-common",
@@ -1154,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'MATH_ERRNO",
           "package": "bindings-common",
@@ -1167,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'acos",
           "package": "bindings-common",
@@ -1176,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'acos",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -1190,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'acosf",
           "package": "bindings-common",
@@ -1199,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'acosf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -1213,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'acosh",
           "package": "bindings-common",
@@ -1222,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'acosh",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -1236,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'acoshf",
           "package": "bindings-common",
@@ -1245,6 +1354,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'acoshf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -1259,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'acoshl",
           "package": "bindings-common",
@@ -1268,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'acoshl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -1282,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'acosl",
           "package": "bindings-common",
@@ -1291,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'acosl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -1305,6 +1419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'asin",
           "package": "bindings-common",
@@ -1314,6 +1429,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'asin",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -1328,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'asinf",
           "package": "bindings-common",
@@ -1337,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'asinf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -1351,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'asinh",
           "package": "bindings-common",
@@ -1360,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'asinh",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -1374,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'asinhf",
           "package": "bindings-common",
@@ -1383,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'asinhf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -1397,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'asinhl",
           "package": "bindings-common",
@@ -1406,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'asinhl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -1420,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'asinl",
           "package": "bindings-common",
@@ -1429,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'asinl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -1443,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'atan",
           "package": "bindings-common",
@@ -1452,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'atan",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -1466,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'atan2",
           "package": "bindings-common",
@@ -1475,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'atan2",
           "normalized": "CDouble-\u003eCDouble-\u003eIO CDouble",
@@ -1489,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'atan2f",
           "package": "bindings-common",
@@ -1498,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'atan2f",
           "normalized": "CFloat-\u003eCFloat-\u003eIO CFloat",
@@ -1512,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'atan2l",
           "package": "bindings-common",
@@ -1521,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'atan2l",
           "normalized": "CLDouble-\u003eCLDouble-\u003eIO CLDouble",
@@ -1535,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'atanf",
           "package": "bindings-common",
@@ -1544,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'atanf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -1558,6 +1694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'atanh",
           "package": "bindings-common",
@@ -1567,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'atanh",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -1581,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'atanhf",
           "package": "bindings-common",
@@ -1590,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'atanhf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -1604,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'atanhl",
           "package": "bindings-common",
@@ -1613,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'atanhl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -1627,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'atanl",
           "package": "bindings-common",
@@ -1636,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'atanl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -1650,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'cbrt",
           "package": "bindings-common",
@@ -1659,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'cbrt",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -1673,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'cbrtf",
           "package": "bindings-common",
@@ -1682,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'cbrtf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -1696,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'cbrtl",
           "package": "bindings-common",
@@ -1705,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'cbrtl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -1719,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'ceil",
           "package": "bindings-common",
@@ -1728,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'ceil",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -1742,6 +1894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'ceilf",
           "package": "bindings-common",
@@ -1751,6 +1904,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'ceilf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -1765,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'ceill",
           "package": "bindings-common",
@@ -1774,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'ceill",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -1788,6 +1944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'copysign",
           "package": "bindings-common",
@@ -1797,6 +1954,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'copysign",
           "normalized": "CDouble-\u003eCDouble-\u003eIO CDouble",
@@ -1811,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'copysignf",
           "package": "bindings-common",
@@ -1820,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'copysignf",
           "normalized": "CFloat-\u003eCFloat-\u003eIO CFloat",
@@ -1834,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'copysignl",
           "package": "bindings-common",
@@ -1843,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'copysignl",
           "normalized": "CLDouble-\u003eCLDouble-\u003eIO CLDouble",
@@ -1857,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'cos",
           "package": "bindings-common",
@@ -1866,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'cos",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -1880,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'cosf",
           "package": "bindings-common",
@@ -1889,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'cosf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -1903,6 +2069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'cosh",
           "package": "bindings-common",
@@ -1912,6 +2079,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'cosh",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -1926,6 +2094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'coshf",
           "package": "bindings-common",
@@ -1935,6 +2104,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'coshf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -1949,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'coshl",
           "package": "bindings-common",
@@ -1958,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'coshl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -1972,6 +2144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'cosl",
           "package": "bindings-common",
@@ -1981,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'cosl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -1995,6 +2169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'erf",
           "package": "bindings-common",
@@ -2004,6 +2179,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'erf",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -2018,6 +2194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'erfc",
           "package": "bindings-common",
@@ -2027,6 +2204,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'erfc",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -2041,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'erfcf",
           "package": "bindings-common",
@@ -2050,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'erfcf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -2064,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'erfcl",
           "package": "bindings-common",
@@ -2073,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'erfcl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -2087,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'erff",
           "package": "bindings-common",
@@ -2096,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'erff",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -2110,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'erfl",
           "package": "bindings-common",
@@ -2119,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'erfl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -2133,6 +2319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'exp",
           "package": "bindings-common",
@@ -2142,6 +2329,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'exp",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -2156,6 +2344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'exp2",
           "package": "bindings-common",
@@ -2165,6 +2354,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'exp2",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -2179,6 +2369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'exp2f",
           "package": "bindings-common",
@@ -2188,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'exp2f",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -2202,6 +2394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'exp2l",
           "package": "bindings-common",
@@ -2211,6 +2404,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'exp2l",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -2225,6 +2419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'expf",
           "package": "bindings-common",
@@ -2234,6 +2429,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'expf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -2248,6 +2444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'expl",
           "package": "bindings-common",
@@ -2257,6 +2454,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'expl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -2271,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'expm1",
           "package": "bindings-common",
@@ -2280,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'expm1",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -2294,6 +2494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'expm1f",
           "package": "bindings-common",
@@ -2303,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'expm1f",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -2317,6 +2519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'expm1l",
           "package": "bindings-common",
@@ -2326,6 +2529,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'expm1l",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -2340,6 +2544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'fabs",
           "package": "bindings-common",
@@ -2349,6 +2554,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'fabs",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -2363,6 +2569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'fabsf",
           "package": "bindings-common",
@@ -2372,6 +2579,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'fabsf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -2386,6 +2594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'fabsl",
           "package": "bindings-common",
@@ -2395,6 +2604,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'fabsl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -2409,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'fdim",
           "package": "bindings-common",
@@ -2418,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'fdim",
           "normalized": "CDouble-\u003eCDouble-\u003eIO CDouble",
@@ -2432,6 +2644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'fdimf",
           "package": "bindings-common",
@@ -2441,6 +2654,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'fdimf",
           "normalized": "CFloat-\u003eCFloat-\u003eIO CFloat",
@@ -2455,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'fdiml",
           "package": "bindings-common",
@@ -2464,6 +2679,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'fdiml",
           "normalized": "CLDouble-\u003eCLDouble-\u003eIO CLDouble",
@@ -2478,6 +2694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'floor",
           "package": "bindings-common",
@@ -2487,6 +2704,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'floor",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -2501,6 +2719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'floorf",
           "package": "bindings-common",
@@ -2510,6 +2729,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'floorf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -2524,6 +2744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'floorl",
           "package": "bindings-common",
@@ -2533,6 +2754,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'floorl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -2547,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'fma",
           "package": "bindings-common",
@@ -2556,6 +2779,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'fma",
           "normalized": "CDouble-\u003eCDouble-\u003eCDouble-\u003eIO CDouble",
@@ -2570,6 +2794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'fmaf",
           "package": "bindings-common",
@@ -2579,6 +2804,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'fmaf",
           "normalized": "CFloat-\u003eCFloat-\u003eCFloat-\u003eIO CFloat",
@@ -2593,6 +2819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'fmal",
           "package": "bindings-common",
@@ -2602,6 +2829,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'fmal",
           "normalized": "CLDouble-\u003eCLDouble-\u003eCLDouble-\u003eIO CLDouble",
@@ -2616,6 +2844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'fmax",
           "package": "bindings-common",
@@ -2625,6 +2854,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'fmax",
           "normalized": "CDouble-\u003eCDouble-\u003eIO CDouble",
@@ -2639,6 +2869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'fmaxf",
           "package": "bindings-common",
@@ -2648,6 +2879,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'fmaxf",
           "normalized": "CFloat-\u003eCFloat-\u003eIO CFloat",
@@ -2662,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'fmaxl",
           "package": "bindings-common",
@@ -2671,6 +2904,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'fmaxl",
           "normalized": "CLDouble-\u003eCLDouble-\u003eIO CLDouble",
@@ -2685,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'fmin",
           "package": "bindings-common",
@@ -2694,6 +2929,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'fmin",
           "normalized": "CDouble-\u003eCDouble-\u003eIO CDouble",
@@ -2708,6 +2944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'fminf",
           "package": "bindings-common",
@@ -2717,6 +2954,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'fminf",
           "normalized": "CFloat-\u003eCFloat-\u003eIO CFloat",
@@ -2731,6 +2969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'fminl",
           "package": "bindings-common",
@@ -2740,6 +2979,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'fminl",
           "normalized": "CLDouble-\u003eCLDouble-\u003eIO CLDouble",
@@ -2754,6 +2994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'fmod",
           "package": "bindings-common",
@@ -2763,6 +3004,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'fmod",
           "normalized": "CDouble-\u003eCDouble-\u003eIO CDouble",
@@ -2777,6 +3019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'fmodf",
           "package": "bindings-common",
@@ -2786,6 +3029,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'fmodf",
           "normalized": "CFloat-\u003eCFloat-\u003eIO CFloat",
@@ -2800,6 +3044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'fmodl",
           "package": "bindings-common",
@@ -2809,6 +3054,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'fmodl",
           "normalized": "CLDouble-\u003eCLDouble-\u003eIO CLDouble",
@@ -2823,6 +3069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'frexp",
           "package": "bindings-common",
@@ -2832,6 +3079,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'frexp",
           "normalized": "CDouble-\u003ePtr CInt-\u003eIO CDouble",
@@ -2846,6 +3094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'frexpf",
           "package": "bindings-common",
@@ -2855,6 +3104,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'frexpf",
           "normalized": "CFloat-\u003ePtr CInt-\u003eIO CFloat",
@@ -2869,6 +3119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'frexpl",
           "package": "bindings-common",
@@ -2878,6 +3129,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'frexpl",
           "normalized": "CLDouble-\u003ePtr CInt-\u003eIO CLDouble",
@@ -2892,6 +3144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'hypot",
           "package": "bindings-common",
@@ -2901,6 +3154,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'hypot",
           "normalized": "CDouble-\u003eCDouble-\u003eIO CDouble",
@@ -2915,6 +3169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'hypotf",
           "package": "bindings-common",
@@ -2924,6 +3179,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'hypotf",
           "normalized": "CFloat-\u003eCFloat-\u003eIO CFloat",
@@ -2938,6 +3194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'hypotl",
           "package": "bindings-common",
@@ -2947,6 +3204,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'hypotl",
           "normalized": "CLDouble-\u003eCLDouble-\u003eIO CLDouble",
@@ -2961,6 +3219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'ilogb",
           "package": "bindings-common",
@@ -2970,6 +3229,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'ilogb",
           "normalized": "CDouble-\u003eIO CInt",
@@ -2984,6 +3244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'ilogbf",
           "package": "bindings-common",
@@ -2993,6 +3254,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'ilogbf",
           "normalized": "CFloat-\u003eIO CInt",
@@ -3007,6 +3269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'ilogbl",
           "package": "bindings-common",
@@ -3016,6 +3279,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'ilogbl",
           "normalized": "CLDouble-\u003eIO CInt",
@@ -3030,6 +3294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'ldexp",
           "package": "bindings-common",
@@ -3039,6 +3304,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'ldexp",
           "normalized": "CDouble-\u003eCInt-\u003eIO CDouble",
@@ -3053,6 +3319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'ldexpf",
           "package": "bindings-common",
@@ -3062,6 +3329,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'ldexpf",
           "normalized": "CFloat-\u003eCInt-\u003eIO CFloat",
@@ -3076,6 +3344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'ldexpl",
           "package": "bindings-common",
@@ -3085,6 +3354,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'ldexpl",
           "normalized": "CLDouble-\u003eCInt-\u003eIO CLDouble",
@@ -3099,6 +3369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'lgamma",
           "package": "bindings-common",
@@ -3108,6 +3379,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'lgamma",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -3122,6 +3394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'lgammaf",
           "package": "bindings-common",
@@ -3131,6 +3404,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'lgammaf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -3145,6 +3419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'lgammal",
           "package": "bindings-common",
@@ -3154,6 +3429,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'lgammal",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -3168,6 +3444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'llrint",
           "package": "bindings-common",
@@ -3177,6 +3454,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'llrint",
           "normalized": "CDouble-\u003eIO CLLong",
@@ -3191,6 +3469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'llrintf",
           "package": "bindings-common",
@@ -3200,6 +3479,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'llrintf",
           "normalized": "CFloat-\u003eIO CLLong",
@@ -3214,6 +3494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'llrintl",
           "package": "bindings-common",
@@ -3223,6 +3504,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'llrintl",
           "normalized": "CLDouble-\u003eIO CLLong",
@@ -3237,6 +3519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'llround",
           "package": "bindings-common",
@@ -3246,6 +3529,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'llround",
           "normalized": "CDouble-\u003eIO CLLong",
@@ -3260,6 +3544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'llroundf",
           "package": "bindings-common",
@@ -3269,6 +3554,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'llroundf",
           "normalized": "CFloat-\u003eIO CLLong",
@@ -3283,6 +3569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'llroundl",
           "package": "bindings-common",
@@ -3292,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'llroundl",
           "normalized": "CLDouble-\u003eIO CLLong",
@@ -3306,6 +3594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'log",
           "package": "bindings-common",
@@ -3315,6 +3604,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'log",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -3329,6 +3619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'log10",
           "package": "bindings-common",
@@ -3338,6 +3629,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'log10",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -3352,6 +3644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'log10f",
           "package": "bindings-common",
@@ -3361,6 +3654,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'log10f",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -3375,6 +3669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'log10l",
           "package": "bindings-common",
@@ -3384,6 +3679,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'log10l",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -3398,6 +3694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'log1p",
           "package": "bindings-common",
@@ -3407,6 +3704,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'log1p",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -3421,6 +3719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'log1pf",
           "package": "bindings-common",
@@ -3430,6 +3729,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'log1pf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -3444,6 +3744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'log1pl",
           "package": "bindings-common",
@@ -3453,6 +3754,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'log1pl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -3467,6 +3769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'log2",
           "package": "bindings-common",
@@ -3476,6 +3779,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'log2",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -3490,6 +3794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'log2f",
           "package": "bindings-common",
@@ -3499,6 +3804,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'log2f",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -3513,6 +3819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'log2l",
           "package": "bindings-common",
@@ -3522,6 +3829,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'log2l",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -3536,6 +3844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'logb",
           "package": "bindings-common",
@@ -3545,6 +3854,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'logb",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -3559,6 +3869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'logbf",
           "package": "bindings-common",
@@ -3568,6 +3879,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'logbf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -3582,6 +3894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'logbl",
           "package": "bindings-common",
@@ -3591,6 +3904,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'logbl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -3605,6 +3919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'logf",
           "package": "bindings-common",
@@ -3614,6 +3929,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'logf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -3628,6 +3944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'logl",
           "package": "bindings-common",
@@ -3637,6 +3954,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'logl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -3651,6 +3969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'lrint",
           "package": "bindings-common",
@@ -3660,6 +3979,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'lrint",
           "normalized": "CDouble-\u003eIO CLong",
@@ -3674,6 +3994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'lrintf",
           "package": "bindings-common",
@@ -3683,6 +4004,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'lrintf",
           "normalized": "CFloat-\u003eIO CLong",
@@ -3697,6 +4019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'lrintl",
           "package": "bindings-common",
@@ -3706,6 +4029,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'lrintl",
           "normalized": "CLDouble-\u003eIO CLong",
@@ -3720,6 +4044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'lround",
           "package": "bindings-common",
@@ -3729,6 +4054,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'lround",
           "normalized": "CDouble-\u003eIO CLong",
@@ -3743,6 +4069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'lroundf",
           "package": "bindings-common",
@@ -3752,6 +4079,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'lroundf",
           "normalized": "CFloat-\u003eIO CLong",
@@ -3766,6 +4094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'lroundl",
           "package": "bindings-common",
@@ -3775,6 +4104,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'lroundl",
           "normalized": "CLDouble-\u003eIO CLong",
@@ -3789,6 +4119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'modf",
           "package": "bindings-common",
@@ -3798,6 +4129,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'modf",
           "normalized": "CDouble-\u003ePtr CDouble-\u003eIO CDouble",
@@ -3812,6 +4144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'modff",
           "package": "bindings-common",
@@ -3821,6 +4154,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'modff",
           "normalized": "CFloat-\u003ePtr CFloat-\u003eIO CFloat",
@@ -3835,6 +4169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'modfl",
           "package": "bindings-common",
@@ -3844,6 +4179,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'modfl",
           "normalized": "CLDouble-\u003ePtr CLDouble-\u003eIO CLDouble",
@@ -3858,6 +4194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'nan",
           "package": "bindings-common",
@@ -3867,6 +4204,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'nan",
           "normalized": "CString-\u003eIO CDouble",
@@ -3881,6 +4219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'nanf",
           "package": "bindings-common",
@@ -3890,6 +4229,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'nanf",
           "normalized": "CString-\u003eIO CFloat",
@@ -3904,6 +4244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'nanl",
           "package": "bindings-common",
@@ -3913,6 +4254,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'nanl",
           "normalized": "CString-\u003eIO CLDouble",
@@ -3927,6 +4269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'nearbyint",
           "package": "bindings-common",
@@ -3936,6 +4279,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'nearbyint",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -3950,6 +4294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'nearbyintf",
           "package": "bindings-common",
@@ -3959,6 +4304,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'nearbyintf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -3973,6 +4319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'nearbyintl",
           "package": "bindings-common",
@@ -3982,6 +4329,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'nearbyintl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -3996,6 +4344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'nextafter",
           "package": "bindings-common",
@@ -4005,6 +4354,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'nextafter",
           "normalized": "CDouble-\u003eCDouble-\u003eIO CDouble",
@@ -4019,6 +4369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'nextafterf",
           "package": "bindings-common",
@@ -4028,6 +4379,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'nextafterf",
           "normalized": "CFloat-\u003eCFloat-\u003eIO CFloat",
@@ -4042,6 +4394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'nextafterl",
           "package": "bindings-common",
@@ -4051,6 +4404,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'nextafterl",
           "normalized": "CLDouble-\u003eCLDouble-\u003eIO CLDouble",
@@ -4065,6 +4419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'nexttoward",
           "package": "bindings-common",
@@ -4074,6 +4429,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'nexttoward",
           "normalized": "CDouble-\u003eCLDouble-\u003eIO CDouble",
@@ -4088,6 +4444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'nexttowardf",
           "package": "bindings-common",
@@ -4097,6 +4454,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'nexttowardf",
           "normalized": "CFloat-\u003eCLDouble-\u003eIO CFloat",
@@ -4111,6 +4469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'nexttowardl",
           "package": "bindings-common",
@@ -4120,6 +4479,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'nexttowardl",
           "normalized": "CLDouble-\u003eCLDouble-\u003eIO CLDouble",
@@ -4134,6 +4494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'pow",
           "package": "bindings-common",
@@ -4143,6 +4504,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'pow",
           "normalized": "CDouble-\u003eCDouble-\u003eIO CDouble",
@@ -4157,6 +4519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'powf",
           "package": "bindings-common",
@@ -4166,6 +4529,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'powf",
           "normalized": "CFloat-\u003eCFloat-\u003eIO CFloat",
@@ -4180,6 +4544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'powl",
           "package": "bindings-common",
@@ -4189,6 +4554,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'powl",
           "normalized": "CLDouble-\u003eCLDouble-\u003eIO CLDouble",
@@ -4203,6 +4569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'remainder",
           "package": "bindings-common",
@@ -4212,6 +4579,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'remainder",
           "normalized": "CDouble-\u003eCDouble-\u003eIO CDouble",
@@ -4226,6 +4594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'remainderf",
           "package": "bindings-common",
@@ -4235,6 +4604,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'remainderf",
           "normalized": "CFloat-\u003eCFloat-\u003eIO CFloat",
@@ -4249,6 +4619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'remainderl",
           "package": "bindings-common",
@@ -4258,6 +4629,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'remainderl",
           "normalized": "CLDouble-\u003eCLDouble-\u003eIO CLDouble",
@@ -4272,6 +4644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'remquo",
           "package": "bindings-common",
@@ -4281,6 +4654,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'remquo",
           "normalized": "CDouble-\u003eCDouble-\u003ePtr CInt-\u003eIO CDouble",
@@ -4295,6 +4669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'remquof",
           "package": "bindings-common",
@@ -4304,6 +4679,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'remquof",
           "normalized": "CFloat-\u003eCFloat-\u003ePtr CInt-\u003eIO CFloat",
@@ -4318,6 +4694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'remquol",
           "package": "bindings-common",
@@ -4327,6 +4704,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'remquol",
           "normalized": "CLDouble-\u003eCLDouble-\u003ePtr CInt-\u003eIO CLDouble",
@@ -4341,6 +4719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'rint",
           "package": "bindings-common",
@@ -4350,6 +4729,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'rint",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -4364,6 +4744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'rintf",
           "package": "bindings-common",
@@ -4373,6 +4754,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'rintf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -4387,6 +4769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'rintl",
           "package": "bindings-common",
@@ -4396,6 +4779,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'rintl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -4410,6 +4794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'round",
           "package": "bindings-common",
@@ -4419,6 +4804,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'round",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -4433,6 +4819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'roundf",
           "package": "bindings-common",
@@ -4442,6 +4829,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'roundf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -4456,6 +4844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'roundl",
           "package": "bindings-common",
@@ -4465,6 +4854,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'roundl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -4479,6 +4869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'scalbln",
           "package": "bindings-common",
@@ -4488,6 +4879,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'scalbln",
           "normalized": "CDouble-\u003eCLong-\u003eIO CDouble",
@@ -4502,6 +4894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'scalblnf",
           "package": "bindings-common",
@@ -4511,6 +4904,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'scalblnf",
           "normalized": "CFloat-\u003eCLong-\u003eIO CFloat",
@@ -4525,6 +4919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'scalblnl",
           "package": "bindings-common",
@@ -4534,6 +4929,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'scalblnl",
           "normalized": "CLDouble-\u003eCLong-\u003eIO CLDouble",
@@ -4548,6 +4944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'scalbn",
           "package": "bindings-common",
@@ -4557,6 +4954,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'scalbn",
           "normalized": "CDouble-\u003eCInt-\u003eIO CDouble",
@@ -4571,6 +4969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'scalbnf",
           "package": "bindings-common",
@@ -4580,6 +4979,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'scalbnf",
           "normalized": "CFloat-\u003eCInt-\u003eIO CFloat",
@@ -4594,6 +4994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'scalbnl",
           "package": "bindings-common",
@@ -4603,6 +5004,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'scalbnl",
           "normalized": "CLDouble-\u003eCInt-\u003eIO CLDouble",
@@ -4617,6 +5019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'sin",
           "package": "bindings-common",
@@ -4626,6 +5029,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'sin",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -4640,6 +5044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'sinf",
           "package": "bindings-common",
@@ -4649,6 +5054,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'sinf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -4663,6 +5069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'sinh",
           "package": "bindings-common",
@@ -4672,6 +5079,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'sinh",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -4686,6 +5094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'sinhf",
           "package": "bindings-common",
@@ -4695,6 +5104,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'sinhf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -4709,6 +5119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'sinhl",
           "package": "bindings-common",
@@ -4718,6 +5129,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'sinhl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -4732,6 +5144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'sinl",
           "package": "bindings-common",
@@ -4741,6 +5154,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'sinl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -4755,6 +5169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'sqrt",
           "package": "bindings-common",
@@ -4764,6 +5179,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'sqrt",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -4778,6 +5194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'sqrtf",
           "package": "bindings-common",
@@ -4787,6 +5204,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'sqrtf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -4801,6 +5219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'sqrtl",
           "package": "bindings-common",
@@ -4810,6 +5229,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'sqrtl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -4824,6 +5244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'tan",
           "package": "bindings-common",
@@ -4833,6 +5254,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'tan",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -4847,6 +5269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'tanf",
           "package": "bindings-common",
@@ -4856,6 +5279,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'tanf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -4870,6 +5294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'tanh",
           "package": "bindings-common",
@@ -4879,6 +5304,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'tanh",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -4893,6 +5319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'tanhf",
           "package": "bindings-common",
@@ -4902,6 +5329,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'tanhf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -4916,6 +5344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'tanhl",
           "package": "bindings-common",
@@ -4925,6 +5354,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'tanhl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -4939,6 +5369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'tanl",
           "package": "bindings-common",
@@ -4948,6 +5379,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'tanl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -4962,6 +5394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'tgamma",
           "package": "bindings-common",
@@ -4971,6 +5404,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'tgamma",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -4985,6 +5419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'tgammaf",
           "package": "bindings-common",
@@ -4994,6 +5429,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'tgammaf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -5008,6 +5444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'tgammal",
           "package": "bindings-common",
@@ -5017,6 +5454,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'tgammal",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -5031,6 +5469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'trunc",
           "package": "bindings-common",
@@ -5040,6 +5479,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'trunc",
           "normalized": "CDouble-\u003eIO CDouble",
@@ -5054,6 +5494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'truncf",
           "package": "bindings-common",
@@ -5063,6 +5504,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'truncf",
           "normalized": "CFloat-\u003eIO CFloat",
@@ -5077,6 +5519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "c'truncl",
           "package": "bindings-common",
@@ -5086,6 +5529,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "c'truncl",
           "normalized": "CLDouble-\u003eIO CLDouble",
@@ -5100,6 +5544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'acos",
           "package": "bindings-common",
@@ -5109,6 +5554,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'acos",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -5123,6 +5569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'acosf",
           "package": "bindings-common",
@@ -5132,6 +5579,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'acosf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -5146,6 +5594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'acosh",
           "package": "bindings-common",
@@ -5155,6 +5604,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'acosh",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -5169,6 +5619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'acoshf",
           "package": "bindings-common",
@@ -5178,6 +5629,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'acoshf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -5192,6 +5644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'acoshl",
           "package": "bindings-common",
@@ -5201,6 +5654,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'acoshl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -5215,6 +5669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'acosl",
           "package": "bindings-common",
@@ -5224,6 +5679,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'acosl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -5238,6 +5694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'asin",
           "package": "bindings-common",
@@ -5247,6 +5704,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'asin",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -5261,6 +5719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'asinf",
           "package": "bindings-common",
@@ -5270,6 +5729,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'asinf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -5284,6 +5744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'asinh",
           "package": "bindings-common",
@@ -5293,6 +5754,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'asinh",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -5307,6 +5769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'asinhf",
           "package": "bindings-common",
@@ -5316,6 +5779,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'asinhf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -5330,6 +5794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'asinhl",
           "package": "bindings-common",
@@ -5339,6 +5804,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'asinhl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -5353,6 +5819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'asinl",
           "package": "bindings-common",
@@ -5362,6 +5829,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'asinl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -5376,6 +5844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'atan",
           "package": "bindings-common",
@@ -5385,6 +5854,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'atan",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -5399,6 +5869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'atan2",
           "package": "bindings-common",
@@ -5408,6 +5879,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'atan2",
           "normalized": "FunPtr(CDouble-\u003eCDouble-\u003eIO CDouble)",
@@ -5422,6 +5894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'atan2f",
           "package": "bindings-common",
@@ -5431,6 +5904,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'atan2f",
           "normalized": "FunPtr(CFloat-\u003eCFloat-\u003eIO CFloat)",
@@ -5445,6 +5919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'atan2l",
           "package": "bindings-common",
@@ -5454,6 +5929,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'atan2l",
           "normalized": "FunPtr(CLDouble-\u003eCLDouble-\u003eIO CLDouble)",
@@ -5468,6 +5944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'atanf",
           "package": "bindings-common",
@@ -5477,6 +5954,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'atanf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -5491,6 +5969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'atanh",
           "package": "bindings-common",
@@ -5500,6 +5979,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'atanh",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -5514,6 +5994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'atanhf",
           "package": "bindings-common",
@@ -5523,6 +6004,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'atanhf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -5537,6 +6019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'atanhl",
           "package": "bindings-common",
@@ -5546,6 +6029,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'atanhl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -5560,6 +6044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'atanl",
           "package": "bindings-common",
@@ -5569,6 +6054,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'atanl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -5583,6 +6069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'cbrt",
           "package": "bindings-common",
@@ -5592,6 +6079,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'cbrt",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -5606,6 +6094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'cbrtf",
           "package": "bindings-common",
@@ -5615,6 +6104,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'cbrtf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -5629,6 +6119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'cbrtl",
           "package": "bindings-common",
@@ -5638,6 +6129,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'cbrtl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -5652,6 +6144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'ceil",
           "package": "bindings-common",
@@ -5661,6 +6154,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'ceil",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -5675,6 +6169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'ceilf",
           "package": "bindings-common",
@@ -5684,6 +6179,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'ceilf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -5698,6 +6194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'ceill",
           "package": "bindings-common",
@@ -5707,6 +6204,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'ceill",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -5721,6 +6219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'copysign",
           "package": "bindings-common",
@@ -5730,6 +6229,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'copysign",
           "normalized": "FunPtr(CDouble-\u003eCDouble-\u003eIO CDouble)",
@@ -5744,6 +6244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'copysignf",
           "package": "bindings-common",
@@ -5753,6 +6254,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'copysignf",
           "normalized": "FunPtr(CFloat-\u003eCFloat-\u003eIO CFloat)",
@@ -5767,6 +6269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'copysignl",
           "package": "bindings-common",
@@ -5776,6 +6279,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'copysignl",
           "normalized": "FunPtr(CLDouble-\u003eCLDouble-\u003eIO CLDouble)",
@@ -5790,6 +6294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'cos",
           "package": "bindings-common",
@@ -5799,6 +6304,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'cos",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -5813,6 +6319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'cosf",
           "package": "bindings-common",
@@ -5822,6 +6329,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'cosf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -5836,6 +6344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'cosh",
           "package": "bindings-common",
@@ -5845,6 +6354,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'cosh",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -5859,6 +6369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'coshf",
           "package": "bindings-common",
@@ -5868,6 +6379,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'coshf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -5882,6 +6394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'coshl",
           "package": "bindings-common",
@@ -5891,6 +6404,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'coshl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -5905,6 +6419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'cosl",
           "package": "bindings-common",
@@ -5914,6 +6429,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'cosl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -5928,6 +6444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'erf",
           "package": "bindings-common",
@@ -5937,6 +6454,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'erf",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -5951,6 +6469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'erfc",
           "package": "bindings-common",
@@ -5960,6 +6479,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'erfc",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -5974,6 +6494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'erfcf",
           "package": "bindings-common",
@@ -5983,6 +6504,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'erfcf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -5997,6 +6519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'erfcl",
           "package": "bindings-common",
@@ -6006,6 +6529,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'erfcl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -6020,6 +6544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'erff",
           "package": "bindings-common",
@@ -6029,6 +6554,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'erff",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -6043,6 +6569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'erfl",
           "package": "bindings-common",
@@ -6052,6 +6579,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'erfl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -6066,6 +6594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'exp",
           "package": "bindings-common",
@@ -6075,6 +6604,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'exp",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -6089,6 +6619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'exp2",
           "package": "bindings-common",
@@ -6098,6 +6629,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'exp2",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -6112,6 +6644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'exp2f",
           "package": "bindings-common",
@@ -6121,6 +6654,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'exp2f",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -6135,6 +6669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'exp2l",
           "package": "bindings-common",
@@ -6144,6 +6679,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'exp2l",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -6158,6 +6694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'expf",
           "package": "bindings-common",
@@ -6167,6 +6704,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'expf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -6181,6 +6719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'expl",
           "package": "bindings-common",
@@ -6190,6 +6729,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'expl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -6204,6 +6744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'expm1",
           "package": "bindings-common",
@@ -6213,6 +6754,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'expm1",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -6227,6 +6769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'expm1f",
           "package": "bindings-common",
@@ -6236,6 +6779,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'expm1f",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -6250,6 +6794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'expm1l",
           "package": "bindings-common",
@@ -6259,6 +6804,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'expm1l",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -6273,6 +6819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'fabs",
           "package": "bindings-common",
@@ -6282,6 +6829,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'fabs",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -6296,6 +6844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'fabsf",
           "package": "bindings-common",
@@ -6305,6 +6854,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'fabsf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -6319,6 +6869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'fabsl",
           "package": "bindings-common",
@@ -6328,6 +6879,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'fabsl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -6342,6 +6894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'fdim",
           "package": "bindings-common",
@@ -6351,6 +6904,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'fdim",
           "normalized": "FunPtr(CDouble-\u003eCDouble-\u003eIO CDouble)",
@@ -6365,6 +6919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'fdimf",
           "package": "bindings-common",
@@ -6374,6 +6929,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'fdimf",
           "normalized": "FunPtr(CFloat-\u003eCFloat-\u003eIO CFloat)",
@@ -6388,6 +6944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'fdiml",
           "package": "bindings-common",
@@ -6397,6 +6954,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'fdiml",
           "normalized": "FunPtr(CLDouble-\u003eCLDouble-\u003eIO CLDouble)",
@@ -6411,6 +6969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'floor",
           "package": "bindings-common",
@@ -6420,6 +6979,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'floor",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -6434,6 +6994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'floorf",
           "package": "bindings-common",
@@ -6443,6 +7004,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'floorf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -6457,6 +7019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'floorl",
           "package": "bindings-common",
@@ -6466,6 +7029,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'floorl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -6480,6 +7044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'fma",
           "package": "bindings-common",
@@ -6489,6 +7054,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'fma",
           "normalized": "FunPtr(CDouble-\u003eCDouble-\u003eCDouble-\u003eIO CDouble)",
@@ -6503,6 +7069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'fmaf",
           "package": "bindings-common",
@@ -6512,6 +7079,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'fmaf",
           "normalized": "FunPtr(CFloat-\u003eCFloat-\u003eCFloat-\u003eIO CFloat)",
@@ -6526,6 +7094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'fmal",
           "package": "bindings-common",
@@ -6535,6 +7104,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'fmal",
           "normalized": "FunPtr(CLDouble-\u003eCLDouble-\u003eCLDouble-\u003eIO CLDouble)",
@@ -6549,6 +7119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'fmax",
           "package": "bindings-common",
@@ -6558,6 +7129,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'fmax",
           "normalized": "FunPtr(CDouble-\u003eCDouble-\u003eIO CDouble)",
@@ -6572,6 +7144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'fmaxf",
           "package": "bindings-common",
@@ -6581,6 +7154,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'fmaxf",
           "normalized": "FunPtr(CFloat-\u003eCFloat-\u003eIO CFloat)",
@@ -6595,6 +7169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'fmaxl",
           "package": "bindings-common",
@@ -6604,6 +7179,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'fmaxl",
           "normalized": "FunPtr(CLDouble-\u003eCLDouble-\u003eIO CLDouble)",
@@ -6618,6 +7194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'fmin",
           "package": "bindings-common",
@@ -6627,6 +7204,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'fmin",
           "normalized": "FunPtr(CDouble-\u003eCDouble-\u003eIO CDouble)",
@@ -6641,6 +7219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'fminf",
           "package": "bindings-common",
@@ -6650,6 +7229,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'fminf",
           "normalized": "FunPtr(CFloat-\u003eCFloat-\u003eIO CFloat)",
@@ -6664,6 +7244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'fminl",
           "package": "bindings-common",
@@ -6673,6 +7254,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'fminl",
           "normalized": "FunPtr(CLDouble-\u003eCLDouble-\u003eIO CLDouble)",
@@ -6687,6 +7269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'fmod",
           "package": "bindings-common",
@@ -6696,6 +7279,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'fmod",
           "normalized": "FunPtr(CDouble-\u003eCDouble-\u003eIO CDouble)",
@@ -6710,6 +7294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'fmodf",
           "package": "bindings-common",
@@ -6719,6 +7304,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'fmodf",
           "normalized": "FunPtr(CFloat-\u003eCFloat-\u003eIO CFloat)",
@@ -6733,6 +7319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'fmodl",
           "package": "bindings-common",
@@ -6742,6 +7329,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'fmodl",
           "normalized": "FunPtr(CLDouble-\u003eCLDouble-\u003eIO CLDouble)",
@@ -6756,6 +7344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'frexp",
           "package": "bindings-common",
@@ -6765,6 +7354,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'frexp",
           "normalized": "FunPtr(CDouble-\u003ePtr CInt-\u003eIO CDouble)",
@@ -6779,6 +7369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'frexpf",
           "package": "bindings-common",
@@ -6788,6 +7379,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'frexpf",
           "normalized": "FunPtr(CFloat-\u003ePtr CInt-\u003eIO CFloat)",
@@ -6802,6 +7394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'frexpl",
           "package": "bindings-common",
@@ -6811,6 +7404,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'frexpl",
           "normalized": "FunPtr(CLDouble-\u003ePtr CInt-\u003eIO CLDouble)",
@@ -6825,6 +7419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'hypot",
           "package": "bindings-common",
@@ -6834,6 +7429,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'hypot",
           "normalized": "FunPtr(CDouble-\u003eCDouble-\u003eIO CDouble)",
@@ -6848,6 +7444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'hypotf",
           "package": "bindings-common",
@@ -6857,6 +7454,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'hypotf",
           "normalized": "FunPtr(CFloat-\u003eCFloat-\u003eIO CFloat)",
@@ -6871,6 +7469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'hypotl",
           "package": "bindings-common",
@@ -6880,6 +7479,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'hypotl",
           "normalized": "FunPtr(CLDouble-\u003eCLDouble-\u003eIO CLDouble)",
@@ -6894,6 +7494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'ilogb",
           "package": "bindings-common",
@@ -6903,6 +7504,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'ilogb",
           "normalized": "FunPtr(CDouble-\u003eIO CInt)",
@@ -6917,6 +7519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'ilogbf",
           "package": "bindings-common",
@@ -6926,6 +7529,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'ilogbf",
           "normalized": "FunPtr(CFloat-\u003eIO CInt)",
@@ -6940,6 +7544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'ilogbl",
           "package": "bindings-common",
@@ -6949,6 +7554,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'ilogbl",
           "normalized": "FunPtr(CLDouble-\u003eIO CInt)",
@@ -6963,6 +7569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'ldexp",
           "package": "bindings-common",
@@ -6972,6 +7579,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'ldexp",
           "normalized": "FunPtr(CDouble-\u003eCInt-\u003eIO CDouble)",
@@ -6986,6 +7594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'ldexpf",
           "package": "bindings-common",
@@ -6995,6 +7604,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'ldexpf",
           "normalized": "FunPtr(CFloat-\u003eCInt-\u003eIO CFloat)",
@@ -7009,6 +7619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'ldexpl",
           "package": "bindings-common",
@@ -7018,6 +7629,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'ldexpl",
           "normalized": "FunPtr(CLDouble-\u003eCInt-\u003eIO CLDouble)",
@@ -7032,6 +7644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'lgamma",
           "package": "bindings-common",
@@ -7041,6 +7654,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'lgamma",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -7055,6 +7669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'lgammaf",
           "package": "bindings-common",
@@ -7064,6 +7679,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'lgammaf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -7078,6 +7694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'lgammal",
           "package": "bindings-common",
@@ -7087,6 +7704,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'lgammal",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -7101,6 +7719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'llrint",
           "package": "bindings-common",
@@ -7110,6 +7729,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'llrint",
           "normalized": "FunPtr(CDouble-\u003eIO CLLong)",
@@ -7124,6 +7744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'llrintf",
           "package": "bindings-common",
@@ -7133,6 +7754,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'llrintf",
           "normalized": "FunPtr(CFloat-\u003eIO CLLong)",
@@ -7147,6 +7769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'llrintl",
           "package": "bindings-common",
@@ -7156,6 +7779,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'llrintl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLLong)",
@@ -7170,6 +7794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'llround",
           "package": "bindings-common",
@@ -7179,6 +7804,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'llround",
           "normalized": "FunPtr(CDouble-\u003eIO CLLong)",
@@ -7193,6 +7819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'llroundf",
           "package": "bindings-common",
@@ -7202,6 +7829,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'llroundf",
           "normalized": "FunPtr(CFloat-\u003eIO CLLong)",
@@ -7216,6 +7844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'llroundl",
           "package": "bindings-common",
@@ -7225,6 +7854,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'llroundl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLLong)",
@@ -7239,6 +7869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'log",
           "package": "bindings-common",
@@ -7248,6 +7879,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'log",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -7262,6 +7894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'log10",
           "package": "bindings-common",
@@ -7271,6 +7904,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'log10",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -7285,6 +7919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'log10f",
           "package": "bindings-common",
@@ -7294,6 +7929,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'log10f",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -7308,6 +7944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'log10l",
           "package": "bindings-common",
@@ -7317,6 +7954,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'log10l",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -7331,6 +7969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'log1p",
           "package": "bindings-common",
@@ -7340,6 +7979,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'log1p",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -7354,6 +7994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'log1pf",
           "package": "bindings-common",
@@ -7363,6 +8004,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'log1pf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -7377,6 +8019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'log1pl",
           "package": "bindings-common",
@@ -7386,6 +8029,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'log1pl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -7400,6 +8044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'log2",
           "package": "bindings-common",
@@ -7409,6 +8054,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'log2",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -7423,6 +8069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'log2f",
           "package": "bindings-common",
@@ -7432,6 +8079,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'log2f",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -7446,6 +8094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'log2l",
           "package": "bindings-common",
@@ -7455,6 +8104,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'log2l",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -7469,6 +8119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'logb",
           "package": "bindings-common",
@@ -7478,6 +8129,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'logb",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -7492,6 +8144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'logbf",
           "package": "bindings-common",
@@ -7501,6 +8154,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'logbf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -7515,6 +8169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'logbl",
           "package": "bindings-common",
@@ -7524,6 +8179,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'logbl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -7538,6 +8194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'logf",
           "package": "bindings-common",
@@ -7547,6 +8204,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'logf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -7561,6 +8219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'logl",
           "package": "bindings-common",
@@ -7570,6 +8229,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'logl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -7584,6 +8244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'lrint",
           "package": "bindings-common",
@@ -7593,6 +8254,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'lrint",
           "normalized": "FunPtr(CDouble-\u003eIO CLong)",
@@ -7607,6 +8269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'lrintf",
           "package": "bindings-common",
@@ -7616,6 +8279,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'lrintf",
           "normalized": "FunPtr(CFloat-\u003eIO CLong)",
@@ -7630,6 +8294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'lrintl",
           "package": "bindings-common",
@@ -7639,6 +8304,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'lrintl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLong)",
@@ -7653,6 +8319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'lround",
           "package": "bindings-common",
@@ -7662,6 +8329,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'lround",
           "normalized": "FunPtr(CDouble-\u003eIO CLong)",
@@ -7676,6 +8344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'lroundf",
           "package": "bindings-common",
@@ -7685,6 +8354,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'lroundf",
           "normalized": "FunPtr(CFloat-\u003eIO CLong)",
@@ -7699,6 +8369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'lroundl",
           "package": "bindings-common",
@@ -7708,6 +8379,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'lroundl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLong)",
@@ -7722,6 +8394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'modf",
           "package": "bindings-common",
@@ -7731,6 +8404,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'modf",
           "normalized": "FunPtr(CDouble-\u003ePtr CDouble-\u003eIO CDouble)",
@@ -7745,6 +8419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'modff",
           "package": "bindings-common",
@@ -7754,6 +8429,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'modff",
           "normalized": "FunPtr(CFloat-\u003ePtr CFloat-\u003eIO CFloat)",
@@ -7768,6 +8444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'modfl",
           "package": "bindings-common",
@@ -7777,6 +8454,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'modfl",
           "normalized": "FunPtr(CLDouble-\u003ePtr CLDouble-\u003eIO CLDouble)",
@@ -7791,6 +8469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'nan",
           "package": "bindings-common",
@@ -7800,6 +8479,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'nan",
           "normalized": "FunPtr(CString-\u003eIO CDouble)",
@@ -7814,6 +8494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'nanf",
           "package": "bindings-common",
@@ -7823,6 +8504,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'nanf",
           "normalized": "FunPtr(CString-\u003eIO CFloat)",
@@ -7837,6 +8519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'nanl",
           "package": "bindings-common",
@@ -7846,6 +8529,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'nanl",
           "normalized": "FunPtr(CString-\u003eIO CLDouble)",
@@ -7860,6 +8544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'nearbyint",
           "package": "bindings-common",
@@ -7869,6 +8554,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'nearbyint",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -7883,6 +8569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'nearbyintf",
           "package": "bindings-common",
@@ -7892,6 +8579,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'nearbyintf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -7906,6 +8594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'nearbyintl",
           "package": "bindings-common",
@@ -7915,6 +8604,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'nearbyintl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -7929,6 +8619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'nextafter",
           "package": "bindings-common",
@@ -7938,6 +8629,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'nextafter",
           "normalized": "FunPtr(CDouble-\u003eCDouble-\u003eIO CDouble)",
@@ -7952,6 +8644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'nextafterf",
           "package": "bindings-common",
@@ -7961,6 +8654,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'nextafterf",
           "normalized": "FunPtr(CFloat-\u003eCFloat-\u003eIO CFloat)",
@@ -7975,6 +8669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'nextafterl",
           "package": "bindings-common",
@@ -7984,6 +8679,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'nextafterl",
           "normalized": "FunPtr(CLDouble-\u003eCLDouble-\u003eIO CLDouble)",
@@ -7998,6 +8694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'nexttoward",
           "package": "bindings-common",
@@ -8007,6 +8704,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'nexttoward",
           "normalized": "FunPtr(CDouble-\u003eCLDouble-\u003eIO CDouble)",
@@ -8021,6 +8719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'nexttowardf",
           "package": "bindings-common",
@@ -8030,6 +8729,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'nexttowardf",
           "normalized": "FunPtr(CFloat-\u003eCLDouble-\u003eIO CFloat)",
@@ -8044,6 +8744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'nexttowardl",
           "package": "bindings-common",
@@ -8053,6 +8754,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'nexttowardl",
           "normalized": "FunPtr(CLDouble-\u003eCLDouble-\u003eIO CLDouble)",
@@ -8067,6 +8769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'pow",
           "package": "bindings-common",
@@ -8076,6 +8779,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'pow",
           "normalized": "FunPtr(CDouble-\u003eCDouble-\u003eIO CDouble)",
@@ -8090,6 +8794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'powf",
           "package": "bindings-common",
@@ -8099,6 +8804,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'powf",
           "normalized": "FunPtr(CFloat-\u003eCFloat-\u003eIO CFloat)",
@@ -8113,6 +8819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'powl",
           "package": "bindings-common",
@@ -8122,6 +8829,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'powl",
           "normalized": "FunPtr(CLDouble-\u003eCLDouble-\u003eIO CLDouble)",
@@ -8136,6 +8844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'remainder",
           "package": "bindings-common",
@@ -8145,6 +8854,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'remainder",
           "normalized": "FunPtr(CDouble-\u003eCDouble-\u003eIO CDouble)",
@@ -8159,6 +8869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'remainderf",
           "package": "bindings-common",
@@ -8168,6 +8879,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'remainderf",
           "normalized": "FunPtr(CFloat-\u003eCFloat-\u003eIO CFloat)",
@@ -8182,6 +8894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'remainderl",
           "package": "bindings-common",
@@ -8191,6 +8904,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'remainderl",
           "normalized": "FunPtr(CLDouble-\u003eCLDouble-\u003eIO CLDouble)",
@@ -8205,6 +8919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'remquo",
           "package": "bindings-common",
@@ -8214,6 +8929,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'remquo",
           "normalized": "FunPtr(CDouble-\u003eCDouble-\u003ePtr CInt-\u003eIO CDouble)",
@@ -8228,6 +8944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'remquof",
           "package": "bindings-common",
@@ -8237,6 +8954,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'remquof",
           "normalized": "FunPtr(CFloat-\u003eCFloat-\u003ePtr CInt-\u003eIO CFloat)",
@@ -8251,6 +8969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'remquol",
           "package": "bindings-common",
@@ -8260,6 +8979,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'remquol",
           "normalized": "FunPtr(CLDouble-\u003eCLDouble-\u003ePtr CInt-\u003eIO CLDouble)",
@@ -8274,6 +8994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'rint",
           "package": "bindings-common",
@@ -8283,6 +9004,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'rint",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -8297,6 +9019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'rintf",
           "package": "bindings-common",
@@ -8306,6 +9029,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'rintf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -8320,6 +9044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'rintl",
           "package": "bindings-common",
@@ -8329,6 +9054,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'rintl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -8343,6 +9069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'round",
           "package": "bindings-common",
@@ -8352,6 +9079,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'round",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -8366,6 +9094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'roundf",
           "package": "bindings-common",
@@ -8375,6 +9104,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'roundf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -8389,6 +9119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'roundl",
           "package": "bindings-common",
@@ -8398,6 +9129,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'roundl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -8412,6 +9144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'scalbln",
           "package": "bindings-common",
@@ -8421,6 +9154,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'scalbln",
           "normalized": "FunPtr(CDouble-\u003eCLong-\u003eIO CDouble)",
@@ -8435,6 +9169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'scalblnf",
           "package": "bindings-common",
@@ -8444,6 +9179,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'scalblnf",
           "normalized": "FunPtr(CFloat-\u003eCLong-\u003eIO CFloat)",
@@ -8458,6 +9194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'scalblnl",
           "package": "bindings-common",
@@ -8467,6 +9204,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'scalblnl",
           "normalized": "FunPtr(CLDouble-\u003eCLong-\u003eIO CLDouble)",
@@ -8481,6 +9219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'scalbn",
           "package": "bindings-common",
@@ -8490,6 +9229,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'scalbn",
           "normalized": "FunPtr(CDouble-\u003eCInt-\u003eIO CDouble)",
@@ -8504,6 +9244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'scalbnf",
           "package": "bindings-common",
@@ -8513,6 +9254,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'scalbnf",
           "normalized": "FunPtr(CFloat-\u003eCInt-\u003eIO CFloat)",
@@ -8527,6 +9269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'scalbnl",
           "package": "bindings-common",
@@ -8536,6 +9279,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'scalbnl",
           "normalized": "FunPtr(CLDouble-\u003eCInt-\u003eIO CLDouble)",
@@ -8550,6 +9294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'sin",
           "package": "bindings-common",
@@ -8559,6 +9304,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'sin",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -8573,6 +9319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'sinf",
           "package": "bindings-common",
@@ -8582,6 +9329,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'sinf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -8596,6 +9344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'sinh",
           "package": "bindings-common",
@@ -8605,6 +9354,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'sinh",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -8619,6 +9369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'sinhf",
           "package": "bindings-common",
@@ -8628,6 +9379,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'sinhf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -8642,6 +9394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'sinhl",
           "package": "bindings-common",
@@ -8651,6 +9404,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'sinhl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -8665,6 +9419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'sinl",
           "package": "bindings-common",
@@ -8674,6 +9429,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'sinl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -8688,6 +9444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'sqrt",
           "package": "bindings-common",
@@ -8697,6 +9454,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'sqrt",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -8711,6 +9469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'sqrtf",
           "package": "bindings-common",
@@ -8720,6 +9479,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'sqrtf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -8734,6 +9494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'sqrtl",
           "package": "bindings-common",
@@ -8743,6 +9504,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'sqrtl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -8757,6 +9519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'tan",
           "package": "bindings-common",
@@ -8766,6 +9529,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'tan",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -8780,6 +9544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'tanf",
           "package": "bindings-common",
@@ -8789,6 +9554,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'tanf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -8803,6 +9569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'tanh",
           "package": "bindings-common",
@@ -8812,6 +9579,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'tanh",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -8826,6 +9594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'tanhf",
           "package": "bindings-common",
@@ -8835,6 +9604,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'tanhf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -8849,6 +9619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'tanhl",
           "package": "bindings-common",
@@ -8858,6 +9629,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'tanhl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -8872,6 +9644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'tanl",
           "package": "bindings-common",
@@ -8881,6 +9654,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'tanl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -8895,6 +9669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'tgamma",
           "package": "bindings-common",
@@ -8904,6 +9679,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'tgamma",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -8918,6 +9694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'tgammaf",
           "package": "bindings-common",
@@ -8927,6 +9704,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'tgammaf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -8941,6 +9719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'tgammal",
           "package": "bindings-common",
@@ -8950,6 +9729,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'tgammal",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -8964,6 +9744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'trunc",
           "package": "bindings-common",
@@ -8973,6 +9754,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'trunc",
           "normalized": "FunPtr(CDouble-\u003eIO CDouble)",
@@ -8987,6 +9769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'truncf",
           "package": "bindings-common",
@@ -8996,6 +9779,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'truncf",
           "normalized": "FunPtr(CFloat-\u003eIO CFloat)",
@@ -9010,6 +9794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Math",
           "name": "p'truncl",
           "package": "bindings-common",
@@ -9019,6 +9804,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Math",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Math",
           "name": "p'truncl",
           "normalized": "FunPtr(CLDouble-\u003eIO CLDouble)",
@@ -9033,6 +9819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Signal",
           "name": "c'SIGABRT",
           "package": "bindings-common",
@@ -9042,6 +9829,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Signal",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Signal",
           "name": "c'SIGABRT",
           "package": "bindings-common",
@@ -9055,6 +9843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Signal",
           "name": "c'SIGFPE",
           "package": "bindings-common",
@@ -9064,6 +9853,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Signal",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Signal",
           "name": "c'SIGFPE",
           "package": "bindings-common",
@@ -9077,6 +9867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Signal",
           "name": "c'SIGILL",
           "package": "bindings-common",
@@ -9086,6 +9877,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Signal",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Signal",
           "name": "c'SIGILL",
           "package": "bindings-common",
@@ -9099,6 +9891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Signal",
           "name": "c'SIGINT",
           "package": "bindings-common",
@@ -9108,6 +9901,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Signal",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Signal",
           "name": "c'SIGINT",
           "package": "bindings-common",
@@ -9121,6 +9915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Signal",
           "name": "c'SIGSEGV",
           "package": "bindings-common",
@@ -9130,6 +9925,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Signal",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Signal",
           "name": "c'SIGSEGV",
           "package": "bindings-common",
@@ -9143,6 +9939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Signal",
           "name": "c'SIGTERM",
           "package": "bindings-common",
@@ -9152,6 +9949,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Signal",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Signal",
           "name": "c'SIGTERM",
           "package": "bindings-common",
@@ -9165,6 +9963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Signal",
           "name": "c'SIG_DFL",
           "package": "bindings-common",
@@ -9174,6 +9973,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Signal",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Signal",
           "name": "c'SIG_DFL",
           "package": "bindings-common",
@@ -9187,6 +9987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Signal",
           "name": "c'SIG_ERR",
           "package": "bindings-common",
@@ -9196,6 +9997,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Signal",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Signal",
           "name": "c'SIG_ERR",
           "package": "bindings-common",
@@ -9209,6 +10011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Signal",
           "name": "c'SIG_IGN",
           "package": "bindings-common",
@@ -9218,6 +10021,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Signal",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Signal",
           "name": "c'SIG_IGN",
           "package": "bindings-common",
@@ -9231,6 +10035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Signal",
           "name": "c'raise",
           "package": "bindings-common",
@@ -9240,6 +10045,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Signal",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Signal",
           "name": "c'raise",
           "normalized": "CInt-\u003eIO CInt",
@@ -9254,6 +10060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Signal",
           "name": "c'signal",
           "package": "bindings-common",
@@ -9263,6 +10070,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Signal",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Signal",
           "name": "c'signal",
           "normalized": "CInt-\u003eFunPtr(CInt-\u003eIO())-\u003eIO(FunPtr(CInt-\u003eIO()))",
@@ -9277,6 +10085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Signal",
           "name": "p'raise",
           "package": "bindings-common",
@@ -9286,6 +10095,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Signal",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Signal",
           "name": "p'raise",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -9300,6 +10110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Signal",
           "name": "p'signal",
           "package": "bindings-common",
@@ -9309,6 +10120,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Signal",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Signal",
           "name": "p'signal",
           "normalized": "FunPtr(CInt-\u003eFunPtr(CInt-\u003eIO())-\u003eIO(FunPtr(CInt-\u003eIO())))",
@@ -9323,6 +10135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stddef",
           "name": "c'NULL",
           "package": "bindings-common",
@@ -9332,6 +10145,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stddef",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stddef",
           "name": "c'NULL",
           "package": "bindings-common",
@@ -9345,6 +10159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'BUFSIZ",
           "package": "bindings-common",
@@ -9354,6 +10169,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'BUFSIZ",
           "package": "bindings-common",
@@ -9367,6 +10183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'EOF",
           "package": "bindings-common",
@@ -9376,6 +10193,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'EOF",
           "package": "bindings-common",
@@ -9389,6 +10207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'FILENAME_MAX",
           "package": "bindings-common",
@@ -9398,6 +10217,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'FILENAME_MAX",
           "package": "bindings-common",
@@ -9411,6 +10231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'FOPEN_MAX",
           "package": "bindings-common",
@@ -9420,6 +10241,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'FOPEN_MAX",
           "package": "bindings-common",
@@ -9433,6 +10255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'L_tmpnam",
           "package": "bindings-common",
@@ -9442,6 +10265,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'L_tmpnam",
           "package": "bindings-common",
@@ -9454,6 +10278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'SEEK_CUR",
           "package": "bindings-common",
@@ -9463,6 +10288,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'SEEK_CUR",
           "package": "bindings-common",
@@ -9476,6 +10302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'SEEK_END",
           "package": "bindings-common",
@@ -9485,6 +10312,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'SEEK_END",
           "package": "bindings-common",
@@ -9498,6 +10326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'SEEK_SET",
           "package": "bindings-common",
@@ -9507,6 +10336,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'SEEK_SET",
           "package": "bindings-common",
@@ -9520,6 +10350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'TMP_MAX",
           "package": "bindings-common",
@@ -9529,6 +10360,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'TMP_MAX",
           "package": "bindings-common",
@@ -9542,6 +10374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'_IOFBF",
           "package": "bindings-common",
@@ -9551,6 +10384,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'_IOFBF",
           "package": "bindings-common",
@@ -9564,6 +10398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'_IOLBF",
           "package": "bindings-common",
@@ -9573,6 +10408,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'_IOLBF",
           "package": "bindings-common",
@@ -9586,6 +10422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'_IONBF",
           "package": "bindings-common",
@@ -9595,6 +10432,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'_IONBF",
           "package": "bindings-common",
@@ -9608,6 +10446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'clearerr",
           "package": "bindings-common",
@@ -9617,6 +10456,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'clearerr",
           "normalized": "Ptr CFile-\u003eIO()",
@@ -9631,6 +10471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'fclose",
           "package": "bindings-common",
@@ -9640,6 +10481,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'fclose",
           "normalized": "Ptr CFile-\u003eIO CInt",
@@ -9654,6 +10496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'feof",
           "package": "bindings-common",
@@ -9663,6 +10506,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'feof",
           "normalized": "Ptr CFile-\u003eIO CInt",
@@ -9677,6 +10521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'ferror",
           "package": "bindings-common",
@@ -9686,6 +10531,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'ferror",
           "normalized": "Ptr CFile-\u003eIO CInt",
@@ -9700,6 +10546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'fflush",
           "package": "bindings-common",
@@ -9709,6 +10556,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'fflush",
           "normalized": "Ptr CFile-\u003eIO CInt",
@@ -9723,6 +10571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'fgetc",
           "package": "bindings-common",
@@ -9732,6 +10581,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'fgetc",
           "normalized": "Ptr CFile-\u003eIO CInt",
@@ -9746,6 +10596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'fgetpos",
           "package": "bindings-common",
@@ -9755,6 +10606,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'fgetpos",
           "normalized": "Ptr CFile-\u003ePtr CFpos-\u003eIO CInt",
@@ -9769,6 +10621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'fgets",
           "package": "bindings-common",
@@ -9778,6 +10631,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'fgets",
           "normalized": "CString-\u003eCInt-\u003ePtr CFile-\u003eIO CString",
@@ -9792,6 +10646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'fopen",
           "package": "bindings-common",
@@ -9801,6 +10656,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'fopen",
           "normalized": "CString-\u003eCString-\u003eIO(Ptr CFile)",
@@ -9815,6 +10671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'fputc",
           "package": "bindings-common",
@@ -9824,6 +10681,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'fputc",
           "normalized": "CInt-\u003ePtr CFile-\u003eIO CInt",
@@ -9838,6 +10696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'fputs",
           "package": "bindings-common",
@@ -9847,6 +10706,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'fputs",
           "normalized": "CString-\u003ePtr CFile-\u003eIO CInt",
@@ -9861,6 +10721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'fread",
           "package": "bindings-common",
@@ -9870,6 +10731,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'fread",
           "normalized": "Ptr()-\u003eCSize-\u003eCSize-\u003ePtr CFile-\u003eIO CSize",
@@ -9884,6 +10746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'freopen",
           "package": "bindings-common",
@@ -9893,6 +10756,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'freopen",
           "normalized": "CString-\u003eCString-\u003ePtr CFile-\u003eIO(Ptr CFile)",
@@ -9907,6 +10771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'fseek",
           "package": "bindings-common",
@@ -9916,6 +10781,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'fseek",
           "normalized": "Ptr CFile-\u003eCLong-\u003eCInt-\u003eIO CInt",
@@ -9930,6 +10796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'fsetpos",
           "package": "bindings-common",
@@ -9939,6 +10806,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'fsetpos",
           "normalized": "Ptr CFile-\u003ePtr CFpos-\u003eIO CInt",
@@ -9953,6 +10821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'ftell",
           "package": "bindings-common",
@@ -9962,6 +10831,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'ftell",
           "normalized": "Ptr CFile-\u003eIO CLong",
@@ -9976,6 +10846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'fwrite",
           "package": "bindings-common",
@@ -9985,6 +10856,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'fwrite",
           "normalized": "Ptr()-\u003eCSize-\u003eCSize-\u003ePtr CFile-\u003eIO CSize",
@@ -9999,6 +10871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'getc",
           "package": "bindings-common",
@@ -10008,6 +10881,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'getc",
           "normalized": "Ptr CFile-\u003eIO CInt",
@@ -10022,6 +10896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'getchar",
           "package": "bindings-common",
@@ -10031,6 +10906,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'getchar",
           "package": "bindings-common",
@@ -10043,6 +10919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'perror",
           "package": "bindings-common",
@@ -10052,6 +10929,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'perror",
           "normalized": "CString-\u003eIO()",
@@ -10066,6 +10944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'putc",
           "package": "bindings-common",
@@ -10075,6 +10954,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'putc",
           "normalized": "CInt-\u003ePtr CFile-\u003eIO CInt",
@@ -10089,6 +10969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'putchar",
           "package": "bindings-common",
@@ -10098,6 +10979,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'putchar",
           "normalized": "CInt-\u003eIO CInt",
@@ -10112,6 +10994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'puts",
           "package": "bindings-common",
@@ -10121,6 +11004,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'puts",
           "normalized": "CString-\u003eIO CInt",
@@ -10135,6 +11019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'remove",
           "package": "bindings-common",
@@ -10144,6 +11029,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'remove",
           "normalized": "CString-\u003eIO CInt",
@@ -10158,6 +11044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'rename",
           "package": "bindings-common",
@@ -10167,6 +11054,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'rename",
           "normalized": "CString-\u003eCString-\u003eIO CInt",
@@ -10181,6 +11069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'rewind",
           "package": "bindings-common",
@@ -10190,6 +11079,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'rewind",
           "normalized": "Ptr CFile-\u003eIO()",
@@ -10204,6 +11094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'setbuf",
           "package": "bindings-common",
@@ -10213,6 +11104,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'setbuf",
           "normalized": "Ptr CFile-\u003eCString-\u003eIO()",
@@ -10227,6 +11119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'setvbuf",
           "package": "bindings-common",
@@ -10236,6 +11129,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'setvbuf",
           "normalized": "Ptr CFile-\u003eCString-\u003eCInt-\u003eCSize-\u003eIO CInt",
@@ -10250,6 +11144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'tmpfile",
           "package": "bindings-common",
@@ -10259,6 +11154,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'tmpfile",
           "package": "bindings-common",
@@ -10271,6 +11167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "c'ungetc",
           "package": "bindings-common",
@@ -10280,6 +11177,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "c'ungetc",
           "normalized": "CInt-\u003ePtr CFile-\u003eIO CInt",
@@ -10294,6 +11192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'clearerr",
           "package": "bindings-common",
@@ -10303,6 +11202,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'clearerr",
           "normalized": "FunPtr(Ptr CFile-\u003eIO())",
@@ -10317,6 +11217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'fclose",
           "package": "bindings-common",
@@ -10326,6 +11227,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'fclose",
           "normalized": "FunPtr(Ptr CFile-\u003eIO CInt)",
@@ -10340,6 +11242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'feof",
           "package": "bindings-common",
@@ -10349,6 +11252,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'feof",
           "normalized": "FunPtr(Ptr CFile-\u003eIO CInt)",
@@ -10363,6 +11267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'ferror",
           "package": "bindings-common",
@@ -10372,6 +11277,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'ferror",
           "normalized": "FunPtr(Ptr CFile-\u003eIO CInt)",
@@ -10386,6 +11292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'fflush",
           "package": "bindings-common",
@@ -10395,6 +11302,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'fflush",
           "normalized": "FunPtr(Ptr CFile-\u003eIO CInt)",
@@ -10409,6 +11317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'fgetc",
           "package": "bindings-common",
@@ -10418,6 +11327,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'fgetc",
           "normalized": "FunPtr(Ptr CFile-\u003eIO CInt)",
@@ -10432,6 +11342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'fgetpos",
           "package": "bindings-common",
@@ -10441,6 +11352,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'fgetpos",
           "normalized": "FunPtr(Ptr CFile-\u003ePtr CFpos-\u003eIO CInt)",
@@ -10455,6 +11367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'fgets",
           "package": "bindings-common",
@@ -10464,6 +11377,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'fgets",
           "normalized": "FunPtr(CString-\u003eCInt-\u003ePtr CFile-\u003eIO CString)",
@@ -10478,6 +11392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'fopen",
           "package": "bindings-common",
@@ -10487,6 +11402,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'fopen",
           "normalized": "FunPtr(CString-\u003eCString-\u003eIO(Ptr CFile))",
@@ -10501,6 +11417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'fputc",
           "package": "bindings-common",
@@ -10510,6 +11427,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'fputc",
           "normalized": "FunPtr(CInt-\u003ePtr CFile-\u003eIO CInt)",
@@ -10524,6 +11442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'fputs",
           "package": "bindings-common",
@@ -10533,6 +11452,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'fputs",
           "normalized": "FunPtr(CString-\u003ePtr CFile-\u003eIO CInt)",
@@ -10547,6 +11467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'fread",
           "package": "bindings-common",
@@ -10556,6 +11477,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'fread",
           "normalized": "FunPtr(Ptr()-\u003eCSize-\u003eCSize-\u003ePtr CFile-\u003eIO CSize)",
@@ -10570,6 +11492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'freopen",
           "package": "bindings-common",
@@ -10579,6 +11502,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'freopen",
           "normalized": "FunPtr(CString-\u003eCString-\u003ePtr CFile-\u003eIO(Ptr CFile))",
@@ -10593,6 +11517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'fseek",
           "package": "bindings-common",
@@ -10602,6 +11527,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'fseek",
           "normalized": "FunPtr(Ptr CFile-\u003eCLong-\u003eCInt-\u003eIO CInt)",
@@ -10616,6 +11542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'fsetpos",
           "package": "bindings-common",
@@ -10625,6 +11552,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'fsetpos",
           "normalized": "FunPtr(Ptr CFile-\u003ePtr CFpos-\u003eIO CInt)",
@@ -10639,6 +11567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'ftell",
           "package": "bindings-common",
@@ -10648,6 +11577,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'ftell",
           "normalized": "FunPtr(Ptr CFile-\u003eIO CLong)",
@@ -10662,6 +11592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'fwrite",
           "package": "bindings-common",
@@ -10671,6 +11602,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'fwrite",
           "normalized": "FunPtr(Ptr()-\u003eCSize-\u003eCSize-\u003ePtr CFile-\u003eIO CSize)",
@@ -10685,6 +11617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'getc",
           "package": "bindings-common",
@@ -10694,6 +11627,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'getc",
           "normalized": "FunPtr(Ptr CFile-\u003eIO CInt)",
@@ -10708,6 +11642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'getchar",
           "package": "bindings-common",
@@ -10717,6 +11652,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'getchar",
           "package": "bindings-common",
@@ -10729,6 +11665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'perror",
           "package": "bindings-common",
@@ -10738,6 +11675,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'perror",
           "normalized": "FunPtr(CString-\u003eIO())",
@@ -10752,6 +11690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'putc",
           "package": "bindings-common",
@@ -10761,6 +11700,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'putc",
           "normalized": "FunPtr(CInt-\u003ePtr CFile-\u003eIO CInt)",
@@ -10775,6 +11715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'putchar",
           "package": "bindings-common",
@@ -10784,6 +11725,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'putchar",
           "normalized": "FunPtr(CInt-\u003eIO CInt)",
@@ -10798,6 +11740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'puts",
           "package": "bindings-common",
@@ -10807,6 +11750,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'puts",
           "normalized": "FunPtr(CString-\u003eIO CInt)",
@@ -10821,6 +11765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'remove",
           "package": "bindings-common",
@@ -10830,6 +11775,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'remove",
           "normalized": "FunPtr(CString-\u003eIO CInt)",
@@ -10844,6 +11790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'rename",
           "package": "bindings-common",
@@ -10853,6 +11800,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'rename",
           "normalized": "FunPtr(CString-\u003eCString-\u003eIO CInt)",
@@ -10867,6 +11815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'rewind",
           "package": "bindings-common",
@@ -10876,6 +11825,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'rewind",
           "normalized": "FunPtr(Ptr CFile-\u003eIO())",
@@ -10890,6 +11840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'setbuf",
           "package": "bindings-common",
@@ -10899,6 +11850,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'setbuf",
           "normalized": "FunPtr(Ptr CFile-\u003eCString-\u003eIO())",
@@ -10913,6 +11865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'setvbuf",
           "package": "bindings-common",
@@ -10922,6 +11875,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'setvbuf",
           "normalized": "FunPtr(Ptr CFile-\u003eCString-\u003eCInt-\u003eCSize-\u003eIO CInt)",
@@ -10936,6 +11890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'tmpfile",
           "package": "bindings-common",
@@ -10945,6 +11900,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'tmpfile",
           "package": "bindings-common",
@@ -10957,6 +11913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Stdio",
           "name": "p'ungetc",
           "package": "bindings-common",
@@ -10966,6 +11923,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Stdio",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Stdio",
           "name": "p'ungetc",
           "normalized": "FunPtr(CInt-\u003ePtr CFile-\u003eIO CInt)",
@@ -10980,6 +11938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'memchr",
           "package": "bindings-common",
@@ -10989,6 +11948,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'memchr",
           "normalized": "Ptr()-\u003eCInt-\u003eCSize-\u003eIO(Ptr())",
@@ -11003,6 +11963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'memcmp",
           "package": "bindings-common",
@@ -11012,6 +11973,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'memcmp",
           "normalized": "Ptr()-\u003ePtr()-\u003eCSize-\u003eIO CInt",
@@ -11026,6 +11988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'memcpy",
           "package": "bindings-common",
@@ -11035,6 +11998,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'memcpy",
           "normalized": "Ptr()-\u003ePtr()-\u003eCSize-\u003eIO(Ptr())",
@@ -11049,6 +12013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'memmove",
           "package": "bindings-common",
@@ -11058,6 +12023,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'memmove",
           "normalized": "Ptr()-\u003ePtr()-\u003eCSize-\u003eIO(Ptr())",
@@ -11072,6 +12038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'memset",
           "package": "bindings-common",
@@ -11081,6 +12048,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'memset",
           "normalized": "Ptr()-\u003eCInt-\u003eCSize-\u003eIO(Ptr())",
@@ -11095,6 +12063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'strcat",
           "package": "bindings-common",
@@ -11104,6 +12073,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'strcat",
           "normalized": "CString-\u003eCString-\u003eIO CString",
@@ -11118,6 +12088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'strchr",
           "package": "bindings-common",
@@ -11127,6 +12098,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'strchr",
           "normalized": "CString-\u003eCInt-\u003eIO CString",
@@ -11141,6 +12113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'strcmp",
           "package": "bindings-common",
@@ -11150,6 +12123,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'strcmp",
           "normalized": "CString-\u003eCString-\u003eIO CInt",
@@ -11164,6 +12138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'strcoll",
           "package": "bindings-common",
@@ -11173,6 +12148,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'strcoll",
           "normalized": "CString-\u003eCString-\u003eIO CInt",
@@ -11187,6 +12163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'strcpy",
           "package": "bindings-common",
@@ -11196,6 +12173,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'strcpy",
           "normalized": "CString-\u003eCString-\u003eIO CString",
@@ -11210,6 +12188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'strcspn",
           "package": "bindings-common",
@@ -11219,6 +12198,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'strcspn",
           "normalized": "CString-\u003eCString-\u003eIO CSize",
@@ -11233,6 +12213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'strerror",
           "package": "bindings-common",
@@ -11242,6 +12223,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'strerror",
           "normalized": "CInt-\u003eIO CString",
@@ -11256,6 +12238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'strlen",
           "package": "bindings-common",
@@ -11265,6 +12248,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'strlen",
           "normalized": "CString-\u003eIO CSize",
@@ -11279,6 +12263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'strncat",
           "package": "bindings-common",
@@ -11288,6 +12273,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'strncat",
           "normalized": "CString-\u003eCString-\u003eCSize-\u003eIO CString",
@@ -11302,6 +12288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'strncmp",
           "package": "bindings-common",
@@ -11311,6 +12298,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'strncmp",
           "normalized": "CString-\u003eCString-\u003eCSize-\u003eIO CInt",
@@ -11325,6 +12313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'strncpy",
           "package": "bindings-common",
@@ -11334,6 +12323,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'strncpy",
           "normalized": "CString-\u003eCString-\u003eCSize-\u003eIO CString",
@@ -11348,6 +12338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'strpbrk",
           "package": "bindings-common",
@@ -11357,6 +12348,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'strpbrk",
           "normalized": "CString-\u003eCString-\u003eIO CString",
@@ -11371,6 +12363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'strrchr",
           "package": "bindings-common",
@@ -11380,6 +12373,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'strrchr",
           "normalized": "CString-\u003eCInt-\u003eIO CString",
@@ -11394,6 +12388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'strspn",
           "package": "bindings-common",
@@ -11403,6 +12398,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'strspn",
           "normalized": "CString-\u003eCString-\u003eIO CSize",
@@ -11417,6 +12413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'strstr",
           "package": "bindings-common",
@@ -11426,6 +12423,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'strstr",
           "normalized": "CString-\u003eCString-\u003eIO CString",
@@ -11440,6 +12438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'strtok",
           "package": "bindings-common",
@@ -11449,6 +12448,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'strtok",
           "normalized": "CString-\u003eCString-\u003eIO CString",
@@ -11463,6 +12463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "c'strxfrm",
           "package": "bindings-common",
@@ -11472,6 +12473,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "c'strxfrm",
           "normalized": "CString-\u003eCString-\u003eCSize-\u003eIO CSize",
@@ -11486,6 +12488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'memchr",
           "package": "bindings-common",
@@ -11495,6 +12498,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'memchr",
           "normalized": "FunPtr(Ptr()-\u003eCInt-\u003eCSize-\u003eIO(Ptr()))",
@@ -11509,6 +12513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'memcmp",
           "package": "bindings-common",
@@ -11518,6 +12523,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'memcmp",
           "normalized": "FunPtr(Ptr()-\u003ePtr()-\u003eCSize-\u003eIO CInt)",
@@ -11532,6 +12538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'memcpy",
           "package": "bindings-common",
@@ -11541,6 +12548,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'memcpy",
           "normalized": "FunPtr(Ptr()-\u003ePtr()-\u003eCSize-\u003eIO(Ptr()))",
@@ -11555,6 +12563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'memmove",
           "package": "bindings-common",
@@ -11564,6 +12573,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'memmove",
           "normalized": "FunPtr(Ptr()-\u003ePtr()-\u003eCSize-\u003eIO(Ptr()))",
@@ -11578,6 +12588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'memset",
           "package": "bindings-common",
@@ -11587,6 +12598,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'memset",
           "normalized": "FunPtr(Ptr()-\u003eCInt-\u003eCSize-\u003eIO(Ptr()))",
@@ -11601,6 +12613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'strcat",
           "package": "bindings-common",
@@ -11610,6 +12623,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'strcat",
           "normalized": "FunPtr(CString-\u003eCString-\u003eIO CString)",
@@ -11624,6 +12638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'strchr",
           "package": "bindings-common",
@@ -11633,6 +12648,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'strchr",
           "normalized": "FunPtr(CString-\u003eCInt-\u003eIO CString)",
@@ -11647,6 +12663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'strcmp",
           "package": "bindings-common",
@@ -11656,6 +12673,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'strcmp",
           "normalized": "FunPtr(CString-\u003eCString-\u003eIO CInt)",
@@ -11670,6 +12688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'strcoll",
           "package": "bindings-common",
@@ -11679,6 +12698,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'strcoll",
           "normalized": "FunPtr(CString-\u003eCString-\u003eIO CInt)",
@@ -11693,6 +12713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'strcpy",
           "package": "bindings-common",
@@ -11702,6 +12723,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'strcpy",
           "normalized": "FunPtr(CString-\u003eCString-\u003eIO CString)",
@@ -11716,6 +12738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'strcspn",
           "package": "bindings-common",
@@ -11725,6 +12748,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'strcspn",
           "normalized": "FunPtr(CString-\u003eCString-\u003eIO CSize)",
@@ -11739,6 +12763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'strerror",
           "package": "bindings-common",
@@ -11748,6 +12773,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'strerror",
           "normalized": "FunPtr(CInt-\u003eIO CString)",
@@ -11762,6 +12788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'strlen",
           "package": "bindings-common",
@@ -11771,6 +12798,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'strlen",
           "normalized": "FunPtr(CString-\u003eIO CSize)",
@@ -11785,6 +12813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'strncat",
           "package": "bindings-common",
@@ -11794,6 +12823,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'strncat",
           "normalized": "FunPtr(CString-\u003eCString-\u003eCSize-\u003eIO CString)",
@@ -11808,6 +12838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'strncmp",
           "package": "bindings-common",
@@ -11817,6 +12848,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'strncmp",
           "normalized": "FunPtr(CString-\u003eCString-\u003eCSize-\u003eIO CInt)",
@@ -11831,6 +12863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'strncpy",
           "package": "bindings-common",
@@ -11840,6 +12873,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'strncpy",
           "normalized": "FunPtr(CString-\u003eCString-\u003eCSize-\u003eIO CString)",
@@ -11854,6 +12888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'strpbrk",
           "package": "bindings-common",
@@ -11863,6 +12898,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'strpbrk",
           "normalized": "FunPtr(CString-\u003eCString-\u003eIO CString)",
@@ -11877,6 +12913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'strrchr",
           "package": "bindings-common",
@@ -11886,6 +12923,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'strrchr",
           "normalized": "FunPtr(CString-\u003eCInt-\u003eIO CString)",
@@ -11900,6 +12938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'strspn",
           "package": "bindings-common",
@@ -11909,6 +12948,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'strspn",
           "normalized": "FunPtr(CString-\u003eCString-\u003eIO CSize)",
@@ -11923,6 +12963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'strstr",
           "package": "bindings-common",
@@ -11932,6 +12973,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'strstr",
           "normalized": "FunPtr(CString-\u003eCString-\u003eIO CString)",
@@ -11946,6 +12988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'strtok",
           "package": "bindings-common",
@@ -11955,6 +12998,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'strtok",
           "normalized": "FunPtr(CString-\u003eCString-\u003eIO CString)",
@@ -11969,6 +13013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.String",
           "name": "p'strxfrm",
           "package": "bindings-common",
@@ -11978,6 +13023,7 @@
         },
         "index": {
           "hierarchy": "Bindings C String",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.String",
           "name": "p'strxfrm",
           "normalized": "FunPtr(CString-\u003eCString-\u003eCSize-\u003eIO CSize)",
@@ -11992,6 +13038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Time",
           "name": "C'tm",
           "package": "bindings-common",
@@ -12000,6 +13047,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Time",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Time",
           "name": "C'tm",
           "package": "bindings-common",
@@ -12013,6 +13061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Time",
           "name": "c'CLOCKS_PER_SEC",
           "package": "bindings-common",
@@ -12022,6 +13071,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Time",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Time",
           "name": "c'CLOCKS_PER_SEC",
           "package": "bindings-common",
@@ -12035,6 +13085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Time",
           "name": "c'clock",
           "package": "bindings-common",
@@ -12044,6 +13095,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Time",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Time",
           "name": "c'clock",
           "package": "bindings-common",
@@ -12056,6 +13108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Time",
           "name": "c'difftime",
           "package": "bindings-common",
@@ -12065,6 +13118,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Time",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Time",
           "name": "c'difftime",
           "normalized": "CTime-\u003eCTime-\u003eIO CDouble",
@@ -12079,6 +13133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Time",
           "name": "c'gmtime",
           "package": "bindings-common",
@@ -12088,6 +13143,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Time",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Time",
           "name": "c'gmtime",
           "normalized": "Ptr CTime-\u003eIO(Ptr C'tm)",
@@ -12102,6 +13158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Time",
           "name": "c'localtime",
           "package": "bindings-common",
@@ -12111,6 +13168,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Time",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Time",
           "name": "c'localtime",
           "normalized": "Ptr CTime-\u003eIO(Ptr C'tm)",
@@ -12125,6 +13183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Time",
           "name": "c'mktime",
           "package": "bindings-common",
@@ -12134,6 +13193,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Time",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Time",
           "name": "c'mktime",
           "normalized": "Ptr C'tm-\u003eIO CTime",
@@ -12148,6 +13208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Time",
           "name": "c'strftime",
           "package": "bindings-common",
@@ -12157,6 +13218,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Time",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Time",
           "name": "c'strftime",
           "normalized": "CString-\u003eCSize-\u003eCString-\u003ePtr C'tm-\u003eIO CSize",
@@ -12171,6 +13233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Time",
           "name": "c'time",
           "package": "bindings-common",
@@ -12180,6 +13243,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Time",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Time",
           "name": "c'time",
           "normalized": "Ptr CTime-\u003eIO CTime",
@@ -12194,6 +13258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Time",
           "name": "p'clock",
           "package": "bindings-common",
@@ -12203,6 +13268,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Time",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Time",
           "name": "p'clock",
           "package": "bindings-common",
@@ -12215,6 +13281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Time",
           "name": "p'difftime",
           "package": "bindings-common",
@@ -12224,6 +13291,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Time",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Time",
           "name": "p'difftime",
           "normalized": "FunPtr(CTime-\u003eCTime-\u003eIO CDouble)",
@@ -12238,6 +13306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Time",
           "name": "p'gmtime",
           "package": "bindings-common",
@@ -12247,6 +13316,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Time",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Time",
           "name": "p'gmtime",
           "normalized": "FunPtr(Ptr CTime-\u003eIO(Ptr C'tm))",
@@ -12261,6 +13331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Time",
           "name": "p'localtime",
           "package": "bindings-common",
@@ -12270,6 +13341,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Time",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Time",
           "name": "p'localtime",
           "normalized": "FunPtr(Ptr CTime-\u003eIO(Ptr C'tm))",
@@ -12284,6 +13356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Time",
           "name": "p'mktime",
           "package": "bindings-common",
@@ -12293,6 +13366,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Time",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Time",
           "name": "p'mktime",
           "normalized": "FunPtr(Ptr C'tm-\u003eIO CTime)",
@@ -12307,6 +13381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Time",
           "name": "p'strftime",
           "package": "bindings-common",
@@ -12316,6 +13391,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Time",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Time",
           "name": "p'strftime",
           "normalized": "FunPtr(CString-\u003eCSize-\u003eCString-\u003ePtr C'tm-\u003eIO CSize)",
@@ -12330,6 +13406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:57 UTC 2014",
           "module": "Bindings.C.Time",
           "name": "p'time",
           "package": "bindings-common",
@@ -12339,6 +13416,7 @@
         },
         "index": {
           "hierarchy": "Bindings C Time",
+          "indexed": "2014-03-11T17:19:57",
           "module": "Bindings.C.Time",
           "name": "p'time",
           "normalized": "FunPtr(Ptr CTime-\u003eIO CTime)",

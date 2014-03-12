@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shelly"
+        "phrase": "shelly",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is a wrapper for the module \u003ca\u003eShelly\u003c/a\u003e. \n The only difference is a main type \u003ccode\u003e\u003ca\u003eSh\u003c/a\u003e\u003c/code\u003e. In this module \n \u003ccode\u003e\u003ca\u003eSh\u003c/a\u003e\u003c/code\u003e contains a list of results. Actual definition of the type \u003ccode\u003e\u003ca\u003eSh\u003c/a\u003e\u003c/code\u003e is:\n\u003c/p\u003e\u003cpre\u003e import qualified Shelly as S\n\n newtype Sh a = Sh { unSh :: S.Sh [a] }\n\u003c/pre\u003e\u003cp\u003eThis definition can simplify some filesystem commands. \n A monad bind operator becomes a pipe operator and we can write\n\u003c/p\u003e\u003cpre\u003e findExt ext = findWhen (pure . hasExt ext)\n\n main :: IO ()\n main = shs $ do\n     mkdir \"new\"\n     findExt \"hs\"  \".\" \u003e\u003e= flip cp \"new\"\n     findExt \"cpp\" \".\" \u003e\u003e= rm_f \n     liftIO $ putStrLn \"done\"\n\u003c/pre\u003e\u003cp\u003eMonad methods \u003ca\u003ereturn\u003c/a\u003e and \u003ca\u003e\u003e\u003e=\u003c/a\u003e behave like methods for\n \u003ccode\u003eListT Shelly.Sh\u003c/code\u003e, but \u003ca\u003e\u003e\u003e\u003c/a\u003e forgets the number of \n the empty effects. So the last line prints \u003ccode\u003e\"done\"\u003c/code\u003e only once. \n\u003c/p\u003e\u003cp\u003eDocumentation in this module mostly just reference documentation from\n the main \u003ca\u003eShelly\u003c/a\u003e module.\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n {-# LANGUAGE ExtendedDefaultRules #-}\n {-# OPTIONS_GHC -fno-warn-type-defaults #-}\n import Shelly\n import Data.Text as T\n default (T.Text)\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "Pipe",
           "package": "shelly",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module is wrapper for the module Shelly The only difference is main type Sh In this module Sh contains list of results Actual definition of the type Sh is import qualified Shelly as newtype Sh Sh unSh S.Sh This definition can simplify some filesystem commands monad bind operator becomes pipe operator and we can write findExt ext findWhen pure hasExt ext main IO main shs do mkdir new findExt hs flip cp new findExt cpp rm liftIO putStrLn done Monad methods return and behave like methods for ListT Shelly.Sh but forgets the number of the empty effects So the last line prints done only once Documentation in this module mostly just reference documentation from the main Shelly module LANGUAGE OverloadedStrings LANGUAGE ExtendedDefaultRules OPTIONS GHC fno-warn-type-defaults import Shelly import Data.Text as default T.Text",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "Pipe",
           "package": "shelly",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "FilePath",
           "package": "shelly",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "FilePath",
           "package": "shelly",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "FoldCallback",
           "package": "shelly",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "FoldCallback",
           "package": "shelly",
@@ -83,6 +89,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type is a simple wrapper for a type \u003ccode\u003eShelly.Sh\u003c/code\u003e.\n \u003ccode\u003e\u003ca\u003eSh\u003c/a\u003e\u003c/code\u003e contains a list of results. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "Sh",
           "package": "shelly",
@@ -92,6 +99,7 @@
         "index": {
           "description": "This type is simple wrapper for type Shelly.Sh Sh contains list of results",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "Sh",
           "package": "shelly",
@@ -106,6 +114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003eShellyHandler\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "ShellyHandler",
           "package": "shelly",
@@ -115,6 +124,7 @@
         "index": {
           "description": "see ShellyHandler",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "ShellyHandler",
           "package": "shelly",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003e-|-\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "(-|-)",
           "package": "shelly",
@@ -139,6 +150,7 @@
         "index": {
           "description": "see",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "(-|-) -|-",
           "normalized": "Sh Text-\u003eSh a-\u003eSh a",
@@ -230,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "ShellyHandler",
           "package": "shelly",
@@ -239,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "ShellyHandler",
           "normalized": "ShellyHandler(a-\u003eSh b)",
@@ -255,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003eabsPath\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "absPath",
           "package": "shelly",
@@ -265,6 +280,7 @@
         "index": {
           "description": "see absPath",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "absPath",
           "normalized": "FilePath-\u003eSh FilePath",
@@ -281,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003eappendToPath\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "appendToPath",
           "package": "shelly",
@@ -291,6 +308,7 @@
         "index": {
           "description": "see appendToPath",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "appendToPath",
           "normalized": "FilePath-\u003eSh()",
@@ -307,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003eappendFile\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "appendfile",
           "package": "shelly",
@@ -317,6 +336,7 @@
         "index": {
           "description": "see appendFile",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "appendfile",
           "normalized": "FilePath-\u003eText-\u003eSh()",
@@ -332,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003ecanonic\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "canonic",
           "package": "shelly",
@@ -342,6 +363,7 @@
         "index": {
           "description": "see canonic",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "canonic",
           "normalized": "FilePath-\u003eSh FilePath",
@@ -357,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003ecanonicalize\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "canonicalize",
           "package": "shelly",
@@ -367,6 +390,7 @@
         "index": {
           "description": "see canonicalize",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "canonicalize",
           "normalized": "FilePath-\u003eSh FilePath",
@@ -382,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003ecatch_sh\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "catch_sh",
           "package": "shelly",
@@ -392,6 +417,7 @@
         "index": {
           "description": "see catch sh",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "catch_sh",
           "normalized": "Sh a-\u003e(b-\u003eSh a)-\u003eSh a",
@@ -433,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003ecatchany_sh\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "catchany_sh",
           "package": "shelly",
@@ -443,6 +470,7 @@
         "index": {
           "description": "see catchany sh",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "catchany_sh",
           "normalized": "Sh a-\u003e(SomeException-\u003eSh a)-\u003eSh a",
@@ -458,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003ecatches_sh\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "catches_sh",
           "package": "shelly",
@@ -468,6 +497,7 @@
         "index": {
           "description": "see catches sh",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "catches_sh",
           "normalized": "Sh a-\u003e[ShellyHandler a]-\u003eSh a",
@@ -483,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003ecd\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "cd",
           "package": "shelly",
@@ -493,6 +524,7 @@
         "index": {
           "description": "see cd",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "cd",
           "normalized": "FilePath-\u003eSh()",
@@ -508,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003echdir\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "chdir",
           "package": "shelly",
@@ -518,6 +551,7 @@
         "index": {
           "description": "see chdir",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "chdir",
           "normalized": "FilePath-\u003eSh a-\u003eSh a",
@@ -533,6 +567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003ecmd\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "cmd",
           "package": "shelly",
@@ -543,6 +578,7 @@
         "index": {
           "description": "see cmd",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "cmd",
           "normalized": "FilePath-\u003ea",
@@ -558,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003ecommand\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "command",
           "package": "shelly",
@@ -568,6 +605,7 @@
         "index": {
           "description": "see command",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "command",
           "normalized": "FilePath-\u003e[Text]-\u003e[Text]-\u003eSh Text",
@@ -583,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003ecommand1\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "command1",
           "package": "shelly",
@@ -593,6 +632,7 @@
         "index": {
           "description": "see command1",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "command1",
           "normalized": "FilePath-\u003e[Text]-\u003eText-\u003e[Text]-\u003eSh Text",
@@ -608,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003ecommand1_\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "command1_",
           "package": "shelly",
@@ -618,6 +659,7 @@
         "index": {
           "description": "see command1",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "command1_",
           "normalized": "FilePath-\u003e[Text]-\u003eText-\u003e[Text]-\u003eSh()",
@@ -633,6 +675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003ecommand_\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "command_",
           "package": "shelly",
@@ -643,6 +686,7 @@
         "index": {
           "description": "see command",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "command_",
           "normalized": "FilePath-\u003e[Text]-\u003e[Text]-\u003eSh()",
@@ -658,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003ecp\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "cp",
           "package": "shelly",
@@ -668,6 +713,7 @@
         "index": {
           "description": "see cp",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "cp",
           "normalized": "FilePath-\u003eFilePath-\u003eSh()",
@@ -683,6 +729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003ecp_r\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "cp_r",
           "package": "shelly",
@@ -693,6 +740,7 @@
         "index": {
           "description": "see cp",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "cp_r",
           "normalized": "FilePath-\u003eFilePath-\u003eSh()",
@@ -708,6 +756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEcho text to standard (error, when using _err variants) output. The _n\n variants do not print a final newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "echo",
           "package": "shelly",
@@ -718,6 +767,7 @@
         "index": {
           "description": "Echo text to standard error when using err variants output The variants do not print final newline",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "echo",
           "normalized": "Text-\u003eSh()",
@@ -733,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEcho text to standard (error, when using _err variants) output. The _n\n variants do not print a final newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "echo_err",
           "package": "shelly",
@@ -743,6 +794,7 @@
         "index": {
           "description": "Echo text to standard error when using err variants output The variants do not print final newline",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "echo_err",
           "normalized": "Text-\u003eSh()",
@@ -758,6 +810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEcho text to standard (error, when using _err variants) output. The _n\n variants do not print a final newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "echo_n",
           "package": "shelly",
@@ -768,6 +821,7 @@
         "index": {
           "description": "Echo text to standard error when using err variants output The variants do not print final newline",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "echo_n",
           "normalized": "Text-\u003eSh()",
@@ -783,6 +837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEcho text to standard (error, when using _err variants) output. The _n\n variants do not print a final newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "echo_n_err",
           "package": "shelly",
@@ -793,6 +848,7 @@
         "index": {
           "description": "Echo text to standard error when using err variants output The variants do not print final newline",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "echo_n_err",
           "normalized": "Text-\u003eSh()",
@@ -808,6 +864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003eerrExit\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "errExit",
           "package": "shelly",
@@ -818,6 +875,7 @@
         "index": {
           "description": "see errExit",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "errExit",
           "normalized": "Bool-\u003eSh a-\u003eSh a",
@@ -834,6 +892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003eerrorExit\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "errorExit",
           "package": "shelly",
@@ -844,6 +903,7 @@
         "index": {
           "description": "see errorExit",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "errorExit",
           "normalized": "Text-\u003eSh()",
@@ -860,6 +920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003eescaping\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "escaping",
           "package": "shelly",
@@ -870,6 +931,7 @@
         "index": {
           "description": "see escaping",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "escaping",
           "normalized": "Bool-\u003eSh a-\u003eSh a",
@@ -885,6 +947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003eexit\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "exit",
           "package": "shelly",
@@ -895,6 +958,7 @@
         "index": {
           "description": "see exit",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "exit",
           "normalized": "Int-\u003eSh()",
@@ -910,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003efinally_sh\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "finally_sh",
           "package": "shelly",
@@ -920,6 +985,7 @@
         "index": {
           "description": "see finally sh",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "finally_sh",
           "normalized": "Sh a-\u003eSh b-\u003eSh a",
@@ -935,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003efind\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "find",
           "package": "shelly",
@@ -945,6 +1012,7 @@
         "index": {
           "description": "see find",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "find",
           "normalized": "FilePath-\u003eSh FilePath",
@@ -960,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003efindDirFilter\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "findDirFilter",
           "package": "shelly",
@@ -970,6 +1039,7 @@
         "index": {
           "description": "see findDirFilter",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "findDirFilter",
           "normalized": "(FilePath-\u003eSh Bool)-\u003eFilePath-\u003eSh FilePath",
@@ -986,6 +1056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003efindDirFilterWhen\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "findDirFilterWhen",
           "package": "shelly",
@@ -995,6 +1066,7 @@
         "index": {
           "description": "see findDirFilterWhen",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "findDirFilterWhen",
           "normalized": "(FilePath-\u003eSh Bool)-\u003e(FilePath-\u003eSh Bool)-\u003eFilePath-\u003eSh FilePath",
@@ -1011,6 +1083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003efindFold\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "findFold",
           "package": "shelly",
@@ -1021,6 +1094,7 @@
         "index": {
           "description": "see findFold",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "findFold",
           "normalized": "(a-\u003eFilePath-\u003eSh a)-\u003ea-\u003eFilePath-\u003eSh a",
@@ -1037,6 +1111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003efindFoldDirFilterWhen\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "findFoldDirFilter",
           "package": "shelly",
@@ -1047,6 +1122,7 @@
         "index": {
           "description": "see findFoldDirFilterWhen",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "findFoldDirFilter",
           "normalized": "(a-\u003eFilePath-\u003eSh a)-\u003ea-\u003e(FilePath-\u003eSh Bool)-\u003eFilePath-\u003eSh a",
@@ -1063,6 +1139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003efindWhen\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "findWhen",
           "package": "shelly",
@@ -1073,6 +1150,7 @@
         "index": {
           "description": "see findWhen",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "findWhen",
           "normalized": "(FilePath-\u003eSh Bool)-\u003eFilePath-\u003eSh FilePath",
@@ -1114,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "get",
           "package": "shelly",
@@ -1123,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "get",
           "package": "shelly",
@@ -1136,6 +1216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003eget_env\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "get_env",
           "package": "shelly",
@@ -1146,6 +1227,7 @@
         "index": {
           "description": "see get env",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "get_env",
           "normalized": "Text-\u003eSh(Maybe Text)",
@@ -1161,6 +1243,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use fromMaybe DEFAULT get_env\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003esee \u003ccode\u003e\u003ca\u003eget_env_def\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "get_env_def",
           "package": "shelly",
@@ -1171,6 +1254,7 @@
         "index": {
           "description": "Deprecated use fromMaybe DEFAULT get env see get env def",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "get_env_def",
           "normalized": "Text-\u003eText-\u003eSh Text",
@@ -1186,6 +1270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003eget_env_text\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "get_env_text",
           "package": "shelly",
@@ -1196,6 +1281,7 @@
         "index": {
           "description": "see get env text",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "get_env_text",
           "normalized": "Text-\u003eSh Text",
@@ -1238,6 +1324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003einspect\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "inspect",
           "package": "shelly",
@@ -1248,6 +1335,7 @@
         "index": {
           "description": "see inspect",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "inspect",
           "normalized": "a-\u003eSh()",
@@ -1263,6 +1351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003einspect_err\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "inspect_err",
           "package": "shelly",
@@ -1273,6 +1362,7 @@
         "index": {
           "description": "see inspect err",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "inspect_err",
           "normalized": "a-\u003eSh()",
@@ -1288,6 +1378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003elastExitCode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "lastExitCode",
           "package": "shelly",
@@ -1298,6 +1389,7 @@
         "index": {
           "description": "see lastExitCode",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "lastExitCode",
           "package": "shelly",
@@ -1312,6 +1404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003elastStderr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "lastStderr",
           "package": "shelly",
@@ -1322,6 +1415,7 @@
         "index": {
           "description": "see lastStderr",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "lastStderr",
           "package": "shelly",
@@ -1362,6 +1456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform result as list. It can be useful for filtering. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "liftSh",
           "package": "shelly",
@@ -1372,6 +1467,7 @@
         "index": {
           "description": "Transform result as list It can be useful for filtering",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "liftSh",
           "normalized": "([a]-\u003e[b])-\u003eSh a-\u003eSh b",
@@ -1388,6 +1484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003els\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "ls",
           "package": "shelly",
@@ -1398,6 +1495,7 @@
         "index": {
           "description": "see ls",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "ls",
           "normalized": "FilePath-\u003eSh FilePath",
@@ -1413,6 +1511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003elsT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "lsT",
           "package": "shelly",
@@ -1423,6 +1522,7 @@
         "index": {
           "description": "see lsT",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "lsT",
           "normalized": "FilePath-\u003eSh Text",
@@ -1438,6 +1538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003emkdir\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "mkdir",
           "package": "shelly",
@@ -1448,6 +1549,7 @@
         "index": {
           "description": "see mkdir",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "mkdir",
           "normalized": "FilePath-\u003eSh()",
@@ -1463,6 +1565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003emkdirTree\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "mkdirTree",
           "package": "shelly",
@@ -1473,6 +1576,7 @@
         "index": {
           "description": "see mkdirTree",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "mkdirTree",
           "normalized": "Tree FilePath-\u003eSh()",
@@ -1489,6 +1593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003emkdir_p\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "mkdir_p",
           "package": "shelly",
@@ -1499,6 +1604,7 @@
         "index": {
           "description": "see mkdir",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "mkdir_p",
           "normalized": "FilePath-\u003eSh()",
@@ -1514,6 +1620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003emv\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "mv",
           "package": "shelly",
@@ -1524,6 +1631,7 @@
         "index": {
           "description": "see mv",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "mv",
           "normalized": "FilePath-\u003eFilePath-\u003eSh()",
@@ -1539,6 +1647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee 'S.print_commands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "print_commands",
           "package": "shelly",
@@ -1549,6 +1658,7 @@
         "index": {
           "description": "see S.print commands",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "print_commands",
           "normalized": "Bool-\u003eSh a-\u003eSh a",
@@ -1564,6 +1674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003eprint_stdout\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "print_stdout",
           "package": "shelly",
@@ -1574,6 +1685,7 @@
         "index": {
           "description": "see print stdout",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "print_stdout",
           "normalized": "Bool-\u003eSh a-\u003eSh a",
@@ -1588,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "put",
           "package": "shelly",
@@ -1597,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "put",
           "normalized": "State-\u003eSh()",
@@ -1612,6 +1726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003epwd\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "pwd",
           "package": "shelly",
@@ -1622,6 +1737,7 @@
         "index": {
           "description": "see pwd",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "pwd",
           "package": "shelly",
@@ -1635,6 +1751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003equietExit\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "quietExit",
           "package": "shelly",
@@ -1645,6 +1762,7 @@
         "index": {
           "description": "see quietExit",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "quietExit",
           "normalized": "Int-\u003eSh()",
@@ -1661,6 +1779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003ereadBinary\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "readBinary",
           "package": "shelly",
@@ -1671,6 +1790,7 @@
         "index": {
           "description": "see readBinary",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "readBinary",
           "normalized": "FilePath-\u003eSh ByteString",
@@ -1687,6 +1807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "readfile",
           "package": "shelly",
@@ -1697,6 +1818,7 @@
         "index": {
           "description": "see readFile",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "readfile",
           "normalized": "FilePath-\u003eSh Text",
@@ -1712,6 +1834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003erelPath\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "relPath",
           "package": "shelly",
@@ -1722,6 +1845,7 @@
         "index": {
           "description": "see relPath",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "relPath",
           "normalized": "FilePath-\u003eSh FilePath",
@@ -1738,6 +1862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003erelativeTo\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "relativeTo",
           "package": "shelly",
@@ -1747,6 +1872,7 @@
         "index": {
           "description": "see relativeTo",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "relativeTo",
           "normalized": "FilePath-\u003eFilePath-\u003eSh FilePath",
@@ -1763,6 +1889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003erm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "rm",
           "package": "shelly",
@@ -1773,6 +1900,7 @@
         "index": {
           "description": "see rm",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "rm",
           "normalized": "FilePath-\u003eSh()",
@@ -1788,6 +1916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003erm_f\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "rm_f",
           "package": "shelly",
@@ -1798,6 +1927,7 @@
         "index": {
           "description": "see rm",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "rm_f",
           "normalized": "FilePath-\u003eSh()",
@@ -1813,6 +1943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003erm_rf\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "rm_rf",
           "package": "shelly",
@@ -1823,6 +1954,7 @@
         "index": {
           "description": "see rm rf",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "rm_rf",
           "normalized": "FilePath-\u003eSh()",
@@ -1838,6 +1970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack list of results. It performs \u003ccode\u003econcat\u003c/code\u003e inside \u003ccode\u003e\u003ca\u003eSh\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "roll",
           "package": "shelly",
@@ -1848,6 +1981,7 @@
         "index": {
           "description": "Pack list of results It performs concat inside Sh",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "roll",
           "normalized": "Sh[a]-\u003eSh a",
@@ -1863,6 +1997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "run",
           "package": "shelly",
@@ -1873,6 +2008,7 @@
         "index": {
           "description": "see run",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "run",
           "normalized": "FilePath-\u003e[Text]-\u003eSh Text",
@@ -1888,6 +2024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003erunFoldLines\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "runFoldLines",
           "package": "shelly",
@@ -1898,6 +2035,7 @@
         "index": {
           "description": "see runFoldLines",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "runFoldLines",
           "normalized": "a-\u003eFoldCallback a-\u003eFilePath-\u003e[Text]-\u003eSh a",
@@ -1914,6 +2052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003erun_\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "run_",
           "package": "shelly",
@@ -1924,6 +2063,7 @@
         "index": {
           "description": "see run",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "run_",
           "normalized": "FilePath-\u003e[Text]-\u003eSh()",
@@ -1939,6 +2079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003esetStdin\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "setStdin",
           "package": "shelly",
@@ -1949,6 +2090,7 @@
         "index": {
           "description": "see setStdin",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "setStdin",
           "normalized": "Text-\u003eSh()",
@@ -1965,6 +2107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003esetenv\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "setenv",
           "package": "shelly",
@@ -1975,6 +2118,7 @@
         "index": {
           "description": "see setenv",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "setenv",
           "normalized": "Text-\u003eText-\u003eSh()",
@@ -1990,6 +2134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003eshelly\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "shelly",
           "package": "shelly",
@@ -2000,6 +2145,7 @@
         "index": {
           "description": "see shelly",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "shelly",
           "normalized": "Sh a-\u003eb[a]",
@@ -2015,6 +2161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003eshellyNoDir\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "shellyNoDir",
           "package": "shelly",
@@ -2025,6 +2172,7 @@
         "index": {
           "description": "see shellyNoDir",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "shellyNoDir",
           "normalized": "Sh a-\u003eb[a]",
@@ -2041,6 +2189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003eshow_command\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "show_command",
           "package": "shelly",
@@ -2051,6 +2200,7 @@
         "index": {
           "description": "see show command",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "show_command",
           "normalized": "FilePath-\u003e[Text]-\u003eText",
@@ -2066,6 +2216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms \u003ccode\u003e\u003ca\u003eshelly\u003c/a\u003e\u003c/code\u003e and then an empty action \u003ccode\u003ereturn ()\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "shs",
           "package": "shelly",
@@ -2076,6 +2227,7 @@
         "index": {
           "description": "Performs shelly and then an empty action return",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "shs",
           "normalized": "Sh()-\u003ea()",
@@ -2091,6 +2243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms \u003ccode\u003e\u003ca\u003eshellyNoDir\u003c/a\u003e\u003c/code\u003e and then an empty action \u003ccode\u003ereturn ()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "shsNoDir",
           "package": "shelly",
@@ -2101,6 +2254,7 @@
         "index": {
           "description": "Performs shellyNoDir and then an empty action return",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "shsNoDir",
           "normalized": "Sh()-\u003ea()",
@@ -2116,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "silently",
           "package": "shelly",
@@ -2125,6 +2280,7 @@
         },
         "index": {
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "silently",
           "normalized": "Sh a-\u003eSh a",
@@ -2140,6 +2296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003esshPairs\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "sshPairs",
           "package": "shelly",
@@ -2150,6 +2307,7 @@
         "index": {
           "description": "see sshPairs",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "sshPairs",
           "normalized": "Text-\u003e[(FilePath,[Text])]-\u003eSh Text",
@@ -2166,6 +2324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003esshPairs_\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "sshPairs_",
           "package": "shelly",
@@ -2176,6 +2335,7 @@
         "index": {
           "description": "see sshPairs",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "sshPairs_",
           "normalized": "Text-\u003e[(FilePath,[Text])]-\u003eSh()",
@@ -2192,6 +2352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003esub\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "sub",
           "package": "shelly",
@@ -2202,6 +2363,7 @@
         "index": {
           "description": "see sub",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "sub",
           "normalized": "Sh a-\u003eSh a",
@@ -2217,6 +2379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003etag\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "tag",
           "package": "shelly",
@@ -2227,6 +2390,7 @@
         "index": {
           "description": "see tag",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "tag",
           "normalized": "Sh a-\u003eText-\u003eSh a",
@@ -2242,6 +2406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003eterror\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "terror",
           "package": "shelly",
@@ -2252,6 +2417,7 @@
         "index": {
           "description": "see terror",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "terror",
           "normalized": "Text-\u003eSh a",
@@ -2267,6 +2433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003etest_d\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "test_d",
           "package": "shelly",
@@ -2277,6 +2444,7 @@
         "index": {
           "description": "see test",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "test_d",
           "normalized": "FilePath-\u003eSh Bool",
@@ -2292,6 +2460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003etest_e\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "test_e",
           "package": "shelly",
@@ -2302,6 +2471,7 @@
         "index": {
           "description": "see test",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "test_e",
           "normalized": "FilePath-\u003eSh Bool",
@@ -2317,6 +2487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003etest_f\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "test_f",
           "package": "shelly",
@@ -2327,6 +2498,7 @@
         "index": {
           "description": "see test",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "test_f",
           "normalized": "FilePath-\u003eSh Bool",
@@ -2342,6 +2514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003etest_s\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "test_s",
           "package": "shelly",
@@ -2352,6 +2525,7 @@
         "index": {
           "description": "see test",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "test_s",
           "normalized": "FilePath-\u003eSh Bool",
@@ -2367,6 +2541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003etime\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "time",
           "package": "shelly",
@@ -2377,6 +2552,7 @@
         "index": {
           "description": "see time",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "time",
           "normalized": "Sh a-\u003eSh(Double,a)",
@@ -2419,6 +2595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003etoTextWarn\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "toTextWarn",
           "package": "shelly",
@@ -2429,6 +2606,7 @@
         "index": {
           "description": "see toTextWarn",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "toTextWarn",
           "normalized": "FilePath-\u003eSh Text",
@@ -2445,6 +2623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003etouchFile\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "touchfile",
           "package": "shelly",
@@ -2455,6 +2634,7 @@
         "index": {
           "description": "see touchFile",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "touchfile",
           "normalized": "FilePath-\u003eSh()",
@@ -2470,6 +2650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003etrace\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "trace",
           "package": "shelly",
@@ -2480,6 +2661,7 @@
         "index": {
           "description": "see trace",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "trace",
           "normalized": "Text-\u003eSh()",
@@ -2495,6 +2677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003etracing\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "tracing",
           "package": "shelly",
@@ -2505,6 +2688,7 @@
         "index": {
           "description": "see tracing",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "tracing",
           "normalized": "Bool-\u003eSh a-\u003eSh a",
@@ -2571,6 +2755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack list of results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "unroll",
           "package": "shelly",
@@ -2581,6 +2766,7 @@
         "index": {
           "description": "Unpack list of results",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "unroll",
           "normalized": "Sh a-\u003eSh[a]",
@@ -2595,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "verbosely",
           "package": "shelly",
@@ -2604,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "verbosely",
           "normalized": "Sh a-\u003eSh a",
@@ -2670,6 +2858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee 'S.which\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "which",
           "package": "shelly",
@@ -2680,6 +2869,7 @@
         "index": {
           "description": "see S.which",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "which",
           "normalized": "FilePath-\u003eSh(Maybe FilePath)",
@@ -2695,6 +2885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003ewithTmpDir\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "withTmpDir",
           "package": "shelly",
@@ -2705,6 +2896,7 @@
         "index": {
           "description": "see withTmpDir",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "withTmpDir",
           "normalized": "(FilePath-\u003eSh a)-\u003eSh a",
@@ -2721,6 +2913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003ewriteFile\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly.Pipe",
           "name": "writefile",
           "package": "shelly",
@@ -2731,6 +2924,7 @@
         "index": {
           "description": "see writeFile",
           "hierarchy": "Shelly Pipe",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly.Pipe",
           "name": "writefile",
           "normalized": "FilePath-\u003eText-\u003eSh()",
@@ -2746,6 +2940,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module for shell-like programming in Haskell.\n Shelly's focus is entirely on ease of use for those coming from shell scripting.\n However, it also tries to use modern libraries and techniques to keep things efficient.\n\u003c/p\u003e\u003cp\u003eThe functionality provided by\n this module is (unlike standard Haskell filesystem functionality)\n thread-safe: each Sh maintains its own environment and its own working\n directory.\n\u003c/p\u003e\u003cp\u003eRecommended usage includes putting the following at the top of your program,\n otherwise you will likely need either type annotations or type conversions\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n {-# LANGUAGE ExtendedDefaultRules #-}\n {-# OPTIONS_GHC -fno-warn-type-defaults #-}\n import Shelly\n import qualified Data.Text as T\n default (T.Text)\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "Shelly",
           "package": "shelly",
@@ -2755,6 +2950,7 @@
         "index": {
           "description": "module for shell-like programming in Haskell Shelly focus is entirely on ease of use for those coming from shell scripting However it also tries to use modern libraries and techniques to keep things efficient The functionality provided by this module is unlike standard Haskell filesystem functionality thread-safe each Sh maintains its own environment and its own working directory Recommended usage includes putting the following at the top of your program otherwise you will likely need either type annotations or type conversions LANGUAGE OverloadedStrings LANGUAGE ExtendedDefaultRules OPTIONS GHC fno-warn-type-defaults import Shelly import qualified Data.Text as default T.Text",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "Shelly",
           "package": "shelly",
@@ -2769,6 +2965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument converter for the variadic argument version of \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e called \u003ccode\u003e\u003ca\u003ecmd\u003c/a\u003e\u003c/code\u003e.\n Useful for a type signature of a function that uses \u003ccode\u003e\u003ca\u003ecmd\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "CmdArg",
           "package": "shelly",
@@ -2778,6 +2975,7 @@
         "index": {
           "description": "Argument converter for the variadic argument version of run called cmd Useful for type signature of function that uses cmd",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "CmdArg",
           "package": "shelly",
@@ -2791,6 +2989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "FilePath",
           "package": "shelly",
@@ -2798,6 +2997,7 @@
         },
         "index": {
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "FilePath",
           "package": "shelly",
@@ -2811,6 +3011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "FoldCallback",
           "package": "shelly",
@@ -2819,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "FoldCallback",
           "package": "shelly",
@@ -2832,6 +3034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "Sh",
           "package": "shelly",
@@ -2840,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "Sh",
           "package": "shelly",
@@ -2854,6 +3058,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Sh instead of ShIO\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eShIO is Deprecated in favor of \u003ccode\u003e\u003ca\u003eSh\u003c/a\u003e\u003c/code\u003e, which is easier to type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "ShIO",
           "package": "shelly",
@@ -2863,6 +3068,7 @@
         "index": {
           "description": "Deprecated Use Sh instead of ShIO ShIO is Deprecated in favor of Sh which is easier to type",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "ShIO",
           "package": "shelly",
@@ -2877,6 +3083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor the variadic function \u003ccode\u003e\u003ca\u003ecmd\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003epartially applied variadic functions require type signatures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "ShellCmd",
           "package": "shelly",
@@ -2886,6 +3093,7 @@
         "index": {
           "description": "For the variadic function cmd partially applied variadic functions require type signatures",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "ShellCmd",
           "package": "shelly",
@@ -2900,6 +3108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou need to wrap exception handlers with this when using \u003ccode\u003e\u003ca\u003ecatches_sh\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "ShellyHandler",
           "package": "shelly",
@@ -2909,6 +3118,7 @@
         "index": {
           "description": "You need to wrap exception handlers with this when using catches sh",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "ShellyHandler",
           "package": "shelly",
@@ -2922,6 +3132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "StdHandle",
           "package": "shelly",
@@ -2930,6 +3141,7 @@
         },
         "index": {
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "StdHandle",
           "package": "shelly",
@@ -2943,6 +3155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "StdStream",
           "package": "shelly",
@@ -2950,6 +3163,7 @@
         },
         "index": {
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "StdStream",
           "package": "shelly",
@@ -2964,6 +3178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePipe operator. set the stdout the first command as the stdin of the second.\n This does not create a shell-level pipe, but hopefully it will in the future.\n To create a shell level pipe you can set \u003ccode\u003eescaping False\u003c/code\u003e and use a pipe \u003ccode\u003e|\u003c/code\u003e character in a command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "(-|-)",
           "package": "shelly",
@@ -2974,6 +3189,7 @@
         "index": {
           "description": "Pipe operator set the stdout the first command as the stdin of the second This does not create shell-level pipe but hopefully it will in the future To create shell level pipe you can set escaping False and use pipe character in command",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "(-|-) -|-",
           "normalized": "Sh Text-\u003eSh a-\u003eSh a",
@@ -2989,6 +3205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new pipe.  The returned\n \u003ccode\u003eHandle\u003c/code\u003e will use the default encoding\n and newline translation mode (just\n like \u003ccode\u003eHandle\u003c/code\u003es created by \u003ccode\u003eopenFile\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "CreatePipe",
           "package": "shelly",
@@ -2998,6 +3215,7 @@
         "index": {
           "description": "Create new pipe The returned Handle will use the default encoding and newline translation mode just like Handle created by openFile",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "CreatePipe",
           "package": "shelly",
@@ -3011,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "ErrorHandle",
           "package": "shelly",
@@ -3020,6 +3239,7 @@
         },
         "index": {
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "ErrorHandle",
           "package": "shelly",
@@ -3033,6 +3253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "InHandle",
           "package": "shelly",
@@ -3042,6 +3263,7 @@
         },
         "index": {
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "InHandle",
           "package": "shelly",
@@ -3056,6 +3278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInherit Handle from parent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "Inherit",
           "package": "shelly",
@@ -3065,6 +3288,7 @@
         "index": {
           "description": "Inherit Handle from parent",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "Inherit",
           "package": "shelly",
@@ -3078,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "OutHandle",
           "package": "shelly",
@@ -3087,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "OutHandle",
           "package": "shelly",
@@ -3100,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "ShellyHandler",
           "package": "shelly",
@@ -3109,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "ShellyHandler",
           "normalized": "ShellyHandler(a-\u003eSh b)",
@@ -3125,6 +3353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the supplied Handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "UseHandle",
           "package": "shelly",
@@ -3134,6 +3363,7 @@
         "index": {
           "description": "Use the supplied Handle",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "UseHandle",
           "package": "shelly",
@@ -3148,6 +3378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a relative path absolute by combining with the working directory.\n An absolute path is returned as is.\n To create a relative path, use \u003ccode\u003e\u003ca\u003erelPath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "absPath",
           "package": "shelly",
@@ -3158,6 +3389,7 @@
         "index": {
           "description": "Make relative path absolute by combining with the working directory An absolute path is returned as is To create relative path use relPath",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "absPath",
           "normalized": "FilePath-\u003eSh FilePath",
@@ -3174,6 +3406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd the filepath onto the PATH env variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "appendToPath",
           "package": "shelly",
@@ -3184,6 +3417,7 @@
         "index": {
           "description": "add the filepath onto the PATH env variable",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "appendToPath",
           "normalized": "FilePath-\u003eSh()",
@@ -3200,6 +3434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend a Lazy Text to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "appendfile",
           "package": "shelly",
@@ -3210,6 +3445,7 @@
         "index": {
           "description": "Append Lazy Text to file",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "appendfile",
           "normalized": "FilePath-\u003eText-\u003eSh()",
@@ -3225,6 +3461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003espawn an asynchronous action with a copy of the current state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "asyncSh",
           "package": "shelly",
@@ -3235,6 +3472,7 @@
         "index": {
           "description": "spawn an asynchronous action with copy of the current state",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "asyncSh",
           "normalized": "Sh a-\u003eSh(Async a)",
@@ -3250,6 +3488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "bracket_sh",
           "package": "shelly",
@@ -3259,6 +3498,7 @@
         },
         "index": {
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "bracket_sh",
           "normalized": "Sh a-\u003e(a-\u003eSh b)-\u003e(a-\u003eSh c)-\u003eSh c",
@@ -3274,6 +3514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emakes an absolute path.\n Like \u003ccode\u003e\u003ca\u003ecanonicalize\u003c/a\u003e\u003c/code\u003e, but on an exception returns \u003ccode\u003e\u003ca\u003eabsPath\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "canonic",
           "package": "shelly",
@@ -3284,6 +3525,7 @@
         "index": {
           "description": "makes an absolute path Like canonicalize but on an exception returns absPath",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "canonic",
           "normalized": "FilePath-\u003eSh FilePath",
@@ -3299,6 +3541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain a (reasonably) canonic file path to a filesystem object. Based on\n \u003ca\u003ecanonicalizePath\u003c/a\u003e in system-fileio.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "canonicalize",
           "package": "shelly",
@@ -3309,6 +3552,7 @@
         "index": {
           "description": "Obtain reasonably canonic file path to filesystem object Based on canonicalizePath in system-fileio",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "canonicalize",
           "normalized": "FilePath-\u003eSh FilePath",
@@ -3324,6 +3568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as a normal \u003ccode\u003e\u003ca\u003ecatch\u003c/a\u003e\u003c/code\u003e but specialized for the Sh monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "catch_sh",
           "package": "shelly",
@@ -3334,6 +3579,7 @@
         "index": {
           "description": "Same as normal catch but specialized for the Sh monad",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "catch_sh",
           "normalized": "Sh a-\u003e(b-\u003eSh a)-\u003eSh a",
@@ -3349,6 +3595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch any exception in the Sh monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "catchany_sh",
           "package": "shelly",
@@ -3359,6 +3606,7 @@
         "index": {
           "description": "Catch any exception in the Sh monad",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "catchany_sh",
           "normalized": "Sh a-\u003e(SomeException-\u003eSh a)-\u003eSh a",
@@ -3374,6 +3622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as a normal \u003ccode\u003e\u003ca\u003ecatches\u003c/a\u003e\u003c/code\u003e, but specialized for the \u003ccode\u003e\u003ca\u003eSh\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "catches_sh",
           "package": "shelly",
@@ -3384,6 +3633,7 @@
         "index": {
           "description": "Same as normal catches but specialized for the Sh monad",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "catches_sh",
           "normalized": "Sh a-\u003e[ShellyHandler a]-\u003eSh a",
@@ -3399,6 +3649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange current working directory of Sh. This does *not* change the\n working directory of the process we are running it. Instead, Sh keeps\n track of its own working directory and builds absolute paths internally\n instead of passing down relative paths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "cd",
           "package": "shelly",
@@ -3409,6 +3660,7 @@
         "index": {
           "description": "Change current working directory of Sh This does not change the working directory of the process we are running it Instead Sh keeps track of its own working directory and builds absolute paths internally instead of passing down relative paths",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "cd",
           "normalized": "FilePath-\u003eSh()",
@@ -3424,6 +3676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecd\u003c/a\u003e\u003c/code\u003e, execute a Sh action in the new directory and then pop back to the original directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "chdir",
           "package": "shelly",
@@ -3434,6 +3687,7 @@
         "index": {
           "description": "cd execute Sh action in the new directory and then pop back to the original directory",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "chdir",
           "normalized": "FilePath-\u003eSh a-\u003eSh a",
@@ -3449,6 +3703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariadic argument version of \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e.\n Please see the documenation for \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe syntax is more convenient, but more importantly it also allows the use of a FilePath as a command argument.\n So an argument can be a Text or a FilePath without manual conversions.\n a FilePath is automatically converted to Text with \u003ccode\u003e\u003ca\u003etoTextIgnore\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eConvenient usage of \u003ccode\u003e\u003ca\u003ecmd\u003c/a\u003e\u003c/code\u003e requires the following:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n {-# LANGUAGE ExtendedDefaultRules #-}\n {-# OPTIONS_GHC -fno-warn-type-defaults #-}\n import Shelly\n import qualified Data.Text as T\n default (T.Text)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "cmd",
           "package": "shelly",
@@ -3459,6 +3714,7 @@
         "index": {
           "description": "variadic argument version of run Please see the documenation for run The syntax is more convenient but more importantly it also allows the use of FilePath as command argument So an argument can be Text or FilePath without manual conversions FilePath is automatically converted to Text with toTextIgnore Convenient usage of cmd requires the following LANGUAGE OverloadedStrings LANGUAGE ExtendedDefaultRules OPTIONS GHC fno-warn-type-defaults import Shelly import qualified Data.Text as default T.Text",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "cmd",
           "normalized": "FilePath-\u003ea",
@@ -3473,6 +3729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "cmdAll",
           "package": "shelly",
@@ -3482,6 +3739,7 @@
         },
         "index": {
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "cmdAll",
           "normalized": "FilePath-\u003e[Text]-\u003ea",
@@ -3498,6 +3756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebind some arguments to run for re-use. Example:\n\u003c/p\u003e\u003cpre\u003e monit = command \"monit\" [\"-c\", \"monitrc\"]\n monit [\"stop\", \"program\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "command",
           "package": "shelly",
@@ -3508,6 +3767,7 @@
         "index": {
           "description": "bind some arguments to run for re-use Example monit command monit monitrc monit stop program",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "command",
           "normalized": "FilePath-\u003e[Text]-\u003e[Text]-\u003eSh Text",
@@ -3523,6 +3783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebind some arguments to run for re-use, and require 1 argument. Example:\n\u003c/p\u003e\u003cpre\u003e git = command1 \"git\" []; git \"pull\" [\"origin\", \"master\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "command1",
           "package": "shelly",
@@ -3533,6 +3794,7 @@
         "index": {
           "description": "bind some arguments to run for re-use and require argument Example git command1 git git pull origin master",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "command1",
           "normalized": "FilePath-\u003e[Text]-\u003eText-\u003e[Text]-\u003eSh Text",
@@ -3548,6 +3810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebind some arguments to run for re-use, and require 1 argument. Example:\n\u003c/p\u003e\u003cpre\u003e git_ = command1_ \"git\" []; git \"pull\" [\"origin\", \"master\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "command1_",
           "package": "shelly",
@@ -3558,6 +3821,7 @@
         "index": {
           "description": "bind some arguments to run for re-use and require argument Example git command1 git git pull origin master",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "command1_",
           "normalized": "FilePath-\u003e[Text]-\u003eText-\u003e[Text]-\u003eSh()",
@@ -3573,6 +3837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebind some arguments to \u003ccode\u003e\u003ca\u003erun_\u003c/a\u003e\u003c/code\u003e for re-use. Example:\n\u003c/p\u003e\u003cpre\u003e monit_ = command_ \"monit\" [\"-c\", \"monitrc\"]\n monit_ [\"stop\", \"program\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "command_",
           "package": "shelly",
@@ -3583,6 +3848,7 @@
         "index": {
           "description": "bind some arguments to run for re-use Example monit command monit monitrc monit stop program",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "command_",
           "normalized": "FilePath-\u003e[Text]-\u003e[Text]-\u003eSh()",
@@ -3598,6 +3864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy a file. The second path could be a directory, in which case the\n original file name is used, in that directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "cp",
           "package": "shelly",
@@ -3608,6 +3875,7 @@
         "index": {
           "description": "Copy file The second path could be directory in which case the original file name is used in that directory",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "cp",
           "normalized": "FilePath-\u003eFilePath-\u003eSh()",
@@ -3623,6 +3891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy a file, or a directory recursively.\n uses \u003ccode\u003e\u003ca\u003ecp\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "cp_r",
           "package": "shelly",
@@ -3633,6 +3902,7 @@
         "index": {
           "description": "Copy file or directory recursively uses cp",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "cp_r",
           "normalized": "FilePath-\u003eFilePath-\u003eSh()",
@@ -3648,6 +3918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEcho text to standard (error, when using _err variants) output. The _n\n variants do not print a final newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "echo",
           "package": "shelly",
@@ -3658,6 +3929,7 @@
         "index": {
           "description": "Echo text to standard error when using err variants output The variants do not print final newline",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "echo",
           "normalized": "Text-\u003eSh()",
@@ -3673,6 +3945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEcho text to standard (error, when using _err variants) output. The _n\n variants do not print a final newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "echo_err",
           "package": "shelly",
@@ -3683,6 +3956,7 @@
         "index": {
           "description": "Echo text to standard error when using err variants output The variants do not print final newline",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "echo_err",
           "normalized": "Text-\u003eSh()",
@@ -3698,6 +3972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEcho text to standard (error, when using _err variants) output. The _n\n variants do not print a final newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "echo_n",
           "package": "shelly",
@@ -3708,6 +3983,7 @@
         "index": {
           "description": "Echo text to standard error when using err variants output The variants do not print final newline",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "echo_n",
           "normalized": "Text-\u003eSh()",
@@ -3723,6 +3999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEcho text to standard (error, when using _err variants) output. The _n\n variants do not print a final newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "echo_n_err",
           "package": "shelly",
@@ -3733,6 +4010,7 @@
         "index": {
           "description": "Echo text to standard error when using err variants output The variants do not print final newline",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "echo_n_err",
           "normalized": "Text-\u003eSh()",
@@ -3748,6 +4026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enamed after bash -e errexit. Defaults to \u003ccode\u003eTrue\u003c/code\u003e.\n When \u003ccode\u003eTrue\u003c/code\u003e, throw an exception on a non-zero exit code.\n When \u003ccode\u003eFalse\u003c/code\u003e, ignore a non-zero exit code.\n Not recommended to set to \u003ccode\u003eFalse\u003c/code\u003e unless you are specifically checking the error code with \u003ccode\u003e\u003ca\u003elastExitCode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "errExit",
           "package": "shelly",
@@ -3758,6 +4037,7 @@
         "index": {
           "description": "named after bash errexit Defaults to True When True throw an exception on non-zero exit code When False ignore non-zero exit code Not recommended to set to False unless you are specifically checking the error code with lastExitCode",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "errExit",
           "normalized": "Bool-\u003eSh a-\u003eSh a",
@@ -3774,6 +4054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eecho a message and exit with status 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "errorExit",
           "package": "shelly",
@@ -3784,6 +4065,7 @@
         "index": {
           "description": "echo message and exit with status",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "errorExit",
           "normalized": "Text-\u003eSh a",
@@ -3800,6 +4082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a sub-Sh with shell character escaping on or off.\n Defaults to \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSetting to \u003ccode\u003eFalse\u003c/code\u003e allows for shell wildcard such as * to be expanded by the shell along with any other special shell characters.\n As a side-effect, setting to \u003ccode\u003eFalse\u003c/code\u003e causes changes to \u003ccode\u003ePATH\u003c/code\u003e to be ignored:\n see the \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "escaping",
           "package": "shelly",
@@ -3810,6 +4093,7 @@
         "index": {
           "description": "Create sub-Sh with shell character escaping on or off Defaults to True Setting to False allows for shell wildcard such as to be expanded by the shell along with any other special shell characters As side-effect setting to False causes changes to PATH to be ignored see the run documentation",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "escaping",
           "normalized": "Bool-\u003eSh a-\u003eSh a",
@@ -3825,6 +4109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexit 0 means no errors, all other codes are error conditions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "exit",
           "package": "shelly",
@@ -3835,6 +4120,7 @@
         "index": {
           "description": "exit means no errors all other codes are error conditions",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "exit",
           "normalized": "Int-\u003eSh a",
@@ -3850,6 +4136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as a normal \u003ccode\u003e\u003ca\u003efinally\u003c/a\u003e\u003c/code\u003e but specialized for the \u003ccode\u003e\u003ca\u003eSh\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "finally_sh",
           "package": "shelly",
@@ -3860,6 +4147,7 @@
         "index": {
           "description": "Same as normal finally but specialized for the Sh monad",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "finally_sh",
           "normalized": "Sh a-\u003eSh b-\u003eSh a",
@@ -3875,6 +4163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList directory recursively (like the POSIX utility \u003ca\u003efind\u003c/a\u003e).\n listing is relative if the path given is relative.\n If you want to filter out some results or fold over them you can do that with the returned files.\n A more efficient approach is to use one of the other find functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "find",
           "package": "shelly",
@@ -3885,6 +4174,7 @@
         "index": {
           "description": "List directory recursively like the POSIX utility find listing is relative if the path given is relative If you want to filter out some results or fold over them you can do that with the returned files more efficient approach is to use one of the other find functions",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "find",
           "normalized": "FilePath-\u003eSh[FilePath]",
@@ -3900,6 +4190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efind\u003c/a\u003e\u003c/code\u003e that filters out directories as it finds\n Filtering out directories can make a find much more efficient by avoiding entire trees of files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "findDirFilter",
           "package": "shelly",
@@ -3910,6 +4201,7 @@
         "index": {
           "description": "find that filters out directories as it finds Filtering out directories can make find much more efficient by avoiding entire trees of files",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "findDirFilter",
           "normalized": "(FilePath-\u003eSh Bool)-\u003eFilePath-\u003eSh[FilePath]",
@@ -3926,6 +4218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimilar \u003ccode\u003e\u003ca\u003efindWhen\u003c/a\u003e\u003c/code\u003e, but also filter out directories\n Alternatively, similar to \u003ccode\u003e\u003ca\u003efindDirFilter\u003c/a\u003e\u003c/code\u003e, but also filter out files\n Filtering out directories makes the find much more efficient\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "findDirFilterWhen",
           "package": "shelly",
@@ -3935,6 +4228,7 @@
         "index": {
           "description": "similar findWhen but also filter out directories Alternatively similar to findDirFilter but also filter out files Filtering out directories makes the find much more efficient",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "findDirFilterWhen",
           "normalized": "(FilePath-\u003eSh Bool)-\u003e(FilePath-\u003eSh Bool)-\u003eFilePath-\u003eSh[FilePath]",
@@ -3951,6 +4245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold an arbitrary folding function over files froma a \u003ccode\u003e\u003ca\u003efind\u003c/a\u003e\u003c/code\u003e.\n Like \u003ccode\u003e\u003ca\u003efindWhen\u003c/a\u003e\u003c/code\u003e but use a more general fold rather than a filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "findFold",
           "package": "shelly",
@@ -3961,6 +4256,7 @@
         "index": {
           "description": "Fold an arbitrary folding function over files froma find Like findWhen but use more general fold rather than filter",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "findFold",
           "normalized": "(a-\u003eFilePath-\u003eSh a)-\u003ea-\u003eFilePath-\u003eSh a",
@@ -3977,6 +4273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike \u003ccode\u003e\u003ca\u003efindDirFilterWhen\u003c/a\u003e\u003c/code\u003e but use a folding function rather than a filter\n The most general finder: you likely want a more specific one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "findFoldDirFilter",
           "package": "shelly",
@@ -3987,6 +4284,7 @@
         "index": {
           "description": "like findDirFilterWhen but use folding function rather than filter The most general finder you likely want more specific one",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "findFoldDirFilter",
           "normalized": "(a-\u003eFilePath-\u003eSh a)-\u003ea-\u003e(FilePath-\u003eSh Bool)-\u003eFilePath-\u003eSh a",
@@ -4003,6 +4301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efind\u003c/a\u003e\u003c/code\u003e that filters the found files as it finds.\n Files must satisfy the given filter to be returned in the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "findWhen",
           "package": "shelly",
@@ -4013,6 +4312,7 @@
         "index": {
           "description": "find that filters the found files as it finds Files must satisfy the given filter to be returned in the result",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "findWhen",
           "normalized": "(FilePath-\u003eSh Bool)-\u003eFilePath-\u003eSh[FilePath]",
@@ -4028,6 +4328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "get",
           "package": "shelly",
@@ -4037,6 +4338,7 @@
         },
         "index": {
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "get",
           "package": "shelly",
@@ -4050,6 +4352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch the current value of an environment variable.\n if non-existant or empty text, will be Nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "get_env",
           "package": "shelly",
@@ -4060,6 +4363,7 @@
         "index": {
           "description": "Fetch the current value of an environment variable if non-existant or empty text will be Nothing",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "get_env",
           "normalized": "Text-\u003eSh(Maybe Text)",
@@ -4075,6 +4379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the full environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "get_env_all",
           "package": "shelly",
@@ -4085,6 +4390,7 @@
         "index": {
           "description": "get the full environment",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "get_env_all",
           "normalized": "Sh[(String,String)]",
@@ -4100,6 +4406,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use fromMaybe DEFAULT get_env\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eFetch the current value of an environment variable. Both empty and\n non-existent variables give the default Text value as a result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "get_env_def",
           "package": "shelly",
@@ -4110,6 +4417,7 @@
         "index": {
           "description": "Deprecated use fromMaybe DEFAULT get env Fetch the current value of an environment variable Both empty and non-existent variables give the default Text value as result",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "get_env_def",
           "normalized": "Text-\u003eText-\u003eSh Text",
@@ -4125,6 +4433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch the current value of an environment variable. Both empty and\n non-existent variables give empty string as a result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "get_env_text",
           "package": "shelly",
@@ -4135,6 +4444,7 @@
         "index": {
           "description": "Fetch the current value of an environment variable Both empty and non-existent variables give empty string as result",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "get_env_text",
           "normalized": "Text-\u003eSh Text",
@@ -4150,6 +4460,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use get_env_all\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "get_environment",
           "package": "shelly",
@@ -4160,6 +4471,7 @@
         "index": {
           "description": "Deprecated use get env all",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "get_environment",
           "normalized": "Sh[(String,String)]",
@@ -4175,6 +4487,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use get_env or get_env_text\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003edeprecated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "getenv",
           "package": "shelly",
@@ -4185,6 +4498,7 @@
         "index": {
           "description": "Deprecated use get env or get env text deprecated",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "getenv",
           "normalized": "Text-\u003eSh Text",
@@ -4200,6 +4514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as a normal \u003ccode\u003e\u003ca\u003ecatch\u003c/a\u003e\u003c/code\u003e but specialized for the Sh monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "handle_sh",
           "package": "shelly",
@@ -4210,6 +4525,7 @@
         "index": {
           "description": "Same as normal catch but specialized for the Sh monad",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "handle_sh",
           "normalized": "Sh a-\u003e(b-\u003eSh a)-\u003eSh a",
@@ -4225,6 +4541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle an exception in the Sh monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "handleany_sh",
           "package": "shelly",
@@ -4235,6 +4552,7 @@
         "index": {
           "description": "Handle an exception in the Sh monad",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "handleany_sh",
           "normalized": "Sh a-\u003e(SomeException-\u003eSh a)-\u003eSh a",
@@ -4250,6 +4568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea print lifted into \u003ccode\u003e\u003ca\u003eSh\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "inspect",
           "package": "shelly",
@@ -4260,6 +4579,7 @@
         "index": {
           "description": "print lifted into Sh",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "inspect",
           "normalized": "a-\u003eSh()",
@@ -4275,6 +4595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea print lifted into \u003ccode\u003e\u003ca\u003eSh\u003c/a\u003e\u003c/code\u003e using stderr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "inspect_err",
           "package": "shelly",
@@ -4285,6 +4606,7 @@
         "index": {
           "description": "print lifted into Sh using stderr",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "inspect_err",
           "normalized": "a-\u003eSh()",
@@ -4300,6 +4622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe exit code from the last command.\n Unless you set \u003ccode\u003e\u003ca\u003eerrExit\u003c/a\u003e\u003c/code\u003e to False you won't get a chance to use this: a non-zero exit code will throw an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "lastExitCode",
           "package": "shelly",
@@ -4310,6 +4633,7 @@
         "index": {
           "description": "The exit code from the last command Unless you set errExit to False you won get chance to use this non-zero exit code will throw an exception",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "lastExitCode",
           "package": "shelly",
@@ -4324,6 +4648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe output of last external command. See \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "lastStderr",
           "package": "shelly",
@@ -4334,6 +4659,7 @@
         "index": {
           "description": "The output of last external command See run",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "lastStderr",
           "package": "shelly",
@@ -4348,6 +4674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList directory contents. Does *not* include \".\" and \"..\", but it does\n include (other) hidden files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "ls",
           "package": "shelly",
@@ -4358,6 +4685,7 @@
         "index": {
           "description": "List directory contents Does not include and but it does include other hidden files",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "ls",
           "normalized": "FilePath-\u003eSh[FilePath]",
@@ -4373,6 +4701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet back [Text] instead of [FilePath]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "lsT",
           "package": "shelly",
@@ -4383,6 +4712,7 @@
         "index": {
           "description": "Get back Text instead of FilePath",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "lsT",
           "normalized": "FilePath-\u003eSh[Text]",
@@ -4398,6 +4728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new directory (fails if the directory exists).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "mkdir",
           "package": "shelly",
@@ -4408,6 +4739,7 @@
         "index": {
           "description": "Create new directory fails if the directory exists",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "mkdir",
           "normalized": "FilePath-\u003eSh()",
@@ -4423,6 +4755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new directory tree. You can describe a bunch of directories as\n a tree and this function will create all subdirectories. An example:\n\u003c/p\u003e\u003cpre\u003e exec = mkTree $\n           \"package\" # [\n                \"src\" # [\n                    \"Data\" # leaves [\"Tree\", \"List\", \"Set\", \"Map\"]\n                ],\n                \"test\" # leaves [\"QuickCheck\", \"HUnit\"],\n                \"dist/doc/html\" # []\n            ]\n         where (#) = Node\n               leaves = map (# [])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "mkdirTree",
           "package": "shelly",
@@ -4433,6 +4766,7 @@
         "index": {
           "description": "Create new directory tree You can describe bunch of directories as tree and this function will create all subdirectories An example exec mkTree package src Data leaves Tree List Set Map test leaves QuickCheck HUnit dist doc html where Node leaves map",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "mkdirTree",
           "normalized": "Tree FilePath-\u003eSh()",
@@ -4449,6 +4783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new directory, including parents (succeeds if the directory\n already exists).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "mkdir_p",
           "package": "shelly",
@@ -4459,6 +4794,7 @@
         "index": {
           "description": "Create new directory including parents succeeds if the directory already exists",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "mkdir_p",
           "normalized": "FilePath-\u003eSh()",
@@ -4474,6 +4810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove a file. The second path could be a directory, in which case the\n original file is moved into that directory.\n wraps system-fileio \u003ccode\u003e\u003ca\u003erename\u003c/a\u003e\u003c/code\u003e, which may not work across FS boundaries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "mv",
           "package": "shelly",
@@ -4484,6 +4821,7 @@
         "index": {
           "description": "Move file The second path could be directory in which case the original file is moved into that directory wraps system-fileio rename which may not work across FS boundaries",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "mv",
           "normalized": "FilePath-\u003eFilePath-\u003eSh()",
@@ -4499,6 +4837,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use absPath, canonic, or relPath instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003edeprecated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "path",
           "package": "shelly",
@@ -4509,6 +4848,7 @@
         "index": {
           "description": "Deprecated use absPath canonic or relPath instead deprecated",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "path",
           "normalized": "FilePath-\u003eSh FilePath",
@@ -4524,6 +4864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a sub-Sh with command echoing on or off\n Defaults to False, set to True by \u003ccode\u003e\u003ca\u003everbosely\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "print_commands",
           "package": "shelly",
@@ -4534,6 +4875,7 @@
         "index": {
           "description": "Create sub-Sh with command echoing on or off Defaults to False set to True by verbosely",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "print_commands",
           "normalized": "Bool-\u003eSh a-\u003eSh a",
@@ -4549,6 +4891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a sub-Sh with stderr printing on or off\n Defaults to True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "print_stderr",
           "package": "shelly",
@@ -4559,6 +4902,7 @@
         "index": {
           "description": "Create sub-Sh with stderr printing on or off Defaults to True",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "print_stderr",
           "normalized": "Bool-\u003eSh a-\u003eSh a",
@@ -4574,6 +4918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a sub-Sh with stdout printing on or off\n Defaults to True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "print_stdout",
           "package": "shelly",
@@ -4584,6 +4929,7 @@
         "index": {
           "description": "Create sub-Sh with stdout printing on or off Defaults to True",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "print_stdout",
           "normalized": "Bool-\u003eSh a-\u003eSh a",
@@ -4598,6 +4944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "put",
           "package": "shelly",
@@ -4607,6 +4954,7 @@
         },
         "index": {
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "put",
           "normalized": "State-\u003eSh()",
@@ -4622,6 +4970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain the current (Sh) working directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "pwd",
           "package": "shelly",
@@ -4632,6 +4981,7 @@
         "index": {
           "description": "Obtain the current Sh working directory",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "pwd",
           "package": "shelly",
@@ -4645,6 +4995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor exiting with status \u003e 0 without printing debug information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "quietExit",
           "package": "shelly",
@@ -4655,6 +5006,7 @@
         "index": {
           "description": "for exiting with status without printing debug information",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "quietExit",
           "normalized": "Int-\u003eSh a",
@@ -4671,6 +5023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewraps ByteSting readFile\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "readBinary",
           "package": "shelly",
@@ -4681,6 +5034,7 @@
         "index": {
           "description": "wraps ByteSting readFile",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "readBinary",
           "normalized": "FilePath-\u003eSh ByteString",
@@ -4696,6 +5050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "readfile",
           "package": "shelly",
@@ -4705,6 +5060,7 @@
         },
         "index": {
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "readfile",
           "normalized": "FilePath-\u003eSh Text",
@@ -4720,6 +5076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a relative path relative to the current Sh working directory.\n An absolute path is returned as is.\n To create an absolute path, use \u003ccode\u003e\u003ca\u003eabsPath\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "relPath",
           "package": "shelly",
@@ -4730,6 +5087,7 @@
         "index": {
           "description": "Makes relative path relative to the current Sh working directory An absolute path is returned as is To create an absolute path use absPath",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "relPath",
           "normalized": "FilePath-\u003eSh FilePath",
@@ -4746,6 +5104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake the second path relative to the first\n Uses \u003ccode\u003e\u003ca\u003estripPrefix\u003c/a\u003e\u003c/code\u003e, but will canonicalize the paths if necessary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "relativeTo",
           "package": "shelly",
@@ -4755,6 +5114,7 @@
         "index": {
           "description": "make the second path relative to the first Uses stripPrefix but will canonicalize the paths if necessary",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "relativeTo",
           "normalized": "FilePath-\u003eFilePath-\u003eSh FilePath",
@@ -4771,6 +5131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a file.\n Does fail if the file does not exist (use \u003ccode\u003e\u003ca\u003erm_f\u003c/a\u003e\u003c/code\u003e instead) or is not a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "rm",
           "package": "shelly",
@@ -4781,6 +5142,7 @@
         "index": {
           "description": "Remove file Does fail if the file does not exist use rm instead or is not file",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "rm",
           "normalized": "FilePath-\u003eSh()",
@@ -4796,6 +5158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a file. Does not fail if the file does not exist.\n Does fail if the file is not a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "rm_f",
           "package": "shelly",
@@ -4806,6 +5169,7 @@
         "index": {
           "description": "Remove file Does not fail if the file does not exist Does fail if the file is not file",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "rm_f",
           "normalized": "FilePath-\u003eSh()",
@@ -4821,6 +5185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA swiss army cannon for removing things. Actually this goes farther than a\n normal rm -rf, as it will circumvent permission problems for the files we\n own. Use carefully.\n Uses \u003ccode\u003e\u003ca\u003eremoveTree\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "rm_rf",
           "package": "shelly",
@@ -4831,6 +5196,7 @@
         "index": {
           "description": "swiss army cannon for removing things Actually this goes farther than normal rm rf as it will circumvent permission problems for the files we own Use carefully Uses removeTree",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "rm_rf",
           "normalized": "FilePath-\u003eSh()",
@@ -4846,6 +5212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an external command.\n Takes the command name and arguments.\n\u003c/p\u003e\u003cp\u003eYou may prefer using \u003ccode\u003e\u003ca\u003ecmd\u003c/a\u003e\u003c/code\u003e instead, which is a variadic argument version\n of this function.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003estdout\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003estderr\u003c/a\u003e\u003c/code\u003e are collected. The \u003ccode\u003e\u003ca\u003estdout\u003c/a\u003e\u003c/code\u003e is returned as\n a result of \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e, and complete stderr output is available after the fact using\n \u003ccode\u003e\u003ca\u003elastStderr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eAll of the stdout output will be loaded into memory.\n You can avoid this if you don't need stdout by using \u003ccode\u003e\u003ca\u003erun_\u003c/a\u003e\u003c/code\u003e,\n If you want to avoid the memory and need to process the output then use \u003ccode\u003e\u003ca\u003erunFoldLines\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003erunHandle\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003erunHandles\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eBy default shell characters are escaped and\n the command name is a name of a program that can be found via \u003ccode\u003ePATH\u003c/code\u003e.\n Shelly will look through the \u003ccode\u003ePATH\u003c/code\u003e itself to find the command.\n\u003c/p\u003e\u003cp\u003eWhen \u003ccode\u003e\u003ca\u003eescaping\u003c/a\u003e\u003c/code\u003e is set to \u003ccode\u003eFalse\u003c/code\u003e, shell characters are allowed.\n Since there is no longer a guarantee that a single program name is\n given, Shelly cannot look in the \u003ccode\u003ePATH\u003c/code\u003e for it.\n a \u003ccode\u003ePATH\u003c/code\u003e modified by setenv is not taken into account when finding the exe name.\n Instead the original Haskell program \u003ccode\u003ePATH\u003c/code\u003e is used.\n On a Posix system the \u003ccode\u003eenv\u003c/code\u003e command can be used to make the \u003ccode\u003e\u003ca\u003esetenv\u003c/a\u003e\u003c/code\u003e PATH used when \u003ccode\u003e\u003ca\u003eescaping\u003c/a\u003e\u003c/code\u003e is set to False. \u003ccode\u003eenv echo hello\u003c/code\u003e instead of \u003ccode\u003eecho hello\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "run",
           "package": "shelly",
@@ -4856,6 +5223,7 @@
         "index": {
           "description": "Execute an external command Takes the command name and arguments You may prefer using cmd instead which is variadic argument version of this function stdout and stderr are collected The stdout is returned as result of run and complete stderr output is available after the fact using lastStderr All of the stdout output will be loaded into memory You can avoid this if you don need stdout by using run If you want to avoid the memory and need to process the output then use runFoldLines or runHandle or runHandles By default shell characters are escaped and the command name is name of program that can be found via PATH Shelly will look through the PATH itself to find the command When escaping is set to False shell characters are allowed Since there is no longer guarantee that single program name is given Shelly cannot look in the PATH for it PATH modified by setenv is not taken into account when finding the exe name Instead the original Haskell program PATH is used On Posix system the env command can be used to make the setenv PATH used when escaping is set to False env echo hello instead of echo hello",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "run",
           "normalized": "FilePath-\u003e[Text]-\u003eSh Text",
@@ -4871,6 +5239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused by \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e. fold over stdout line-by-line as it is read to avoid keeping it in memory\n stderr is still being placed in memory under the assumption it is always relatively small\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "runFoldLines",
           "package": "shelly",
@@ -4881,6 +5250,7 @@
         "index": {
           "description": "used by run fold over stdout line-by-line as it is read to avoid keeping it in memory stderr is still being placed in memory under the assumption it is always relatively small",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "runFoldLines",
           "normalized": "a-\u003eFoldCallback a-\u003eFilePath-\u003e[Text]-\u003eSh a",
@@ -4897,6 +5267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e but gives the raw stdout handle in a callback.\n If you want even more control, use \u003ccode\u003e\u003ca\u003erunHandles\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "runHandle",
           "package": "shelly",
@@ -4906,6 +5277,7 @@
         "index": {
           "description": "Similar to run but gives the raw stdout handle in callback If you want even more control use runHandles",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "runHandle",
           "normalized": "FilePath-\u003e[Text]-\u003e(Handle-\u003eSh a)-\u003eSh a",
@@ -4922,6 +5294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e but gives direct access to all input and output handles.\n\u003c/p\u003e\u003cp\u003eBe careful when using the optional input handles.\n If you specify Inherit for a handle then attempting to access the handle in your\n callback is an error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "runHandles",
           "package": "shelly",
@@ -4931,6 +5304,7 @@
         "index": {
           "description": "Similar to run but gives direct access to all input and output handles Be careful when using the optional input handles If you specify Inherit for handle then attempting to access the handle in your callback is an error",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "runHandles",
           "normalized": "FilePath-\u003e[Text]-\u003e[StdHandle]-\u003e(Handle-\u003eHandle-\u003eHandle-\u003eSh a)-\u003eSh a",
@@ -4947,6 +5321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe same as \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e, but return \u003ccode\u003e()\u003c/code\u003e instead of the stdout content\n stdout will be read and discarded line-by-line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "run_",
           "package": "shelly",
@@ -4957,6 +5332,7 @@
         "index": {
           "description": "the same as run but return instead of the stdout content stdout will be read and discarded line-by-line",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "run_",
           "normalized": "FilePath-\u003e[Text]-\u003eSh()",
@@ -4972,6 +5348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the stdin to be used and cleared by the next \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "setStdin",
           "package": "shelly",
@@ -4982,6 +5359,7 @@
         "index": {
           "description": "set the stdin to be used and cleared by the next run",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "setStdin",
           "normalized": "Text-\u003eSh()",
@@ -4998,6 +5376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet an environment variable. The environment is maintained in Sh\n internally, and is passed to any external commands to be executed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "setenv",
           "package": "shelly",
@@ -5008,6 +5387,7 @@
         "index": {
           "description": "Set an environment variable The environment is maintained in Sh internally and is passed to any external commands to be executed",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "setenv",
           "normalized": "Text-\u003eText-\u003eSh()",
@@ -5023,6 +5403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnter a Sh from (Monad)IO. The environment and working directories are\n inherited from the current process-wide values. Any subsequent changes in\n processwide working directory or environment are not reflected in the\n running Sh.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "shelly",
           "package": "shelly",
@@ -5033,6 +5414,7 @@
         "index": {
           "description": "Enter Sh from Monad IO The environment and working directories are inherited from the current process-wide values Any subsequent changes in processwide working directory or environment are not reflected in the running Sh",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "shelly",
           "normalized": "Sh a-\u003eb a",
@@ -5048,6 +5430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsing this entry point does not create a \u003ccode\u003e.shelly\u003c/code\u003e directory in the case\n of failure. Instead it logs directly into the standard error stream (\u003ccode\u003estderr\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "shellyNoDir",
           "package": "shelly",
@@ -5058,6 +5441,7 @@
         "index": {
           "description": "Using this entry point does not create shelly directory in the case of failure Instead it logs directly into the standard error stream stderr",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "shellyNoDir",
           "normalized": "Sh a-\u003eb a",
@@ -5073,6 +5457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "show_command",
           "package": "shelly",
@@ -5082,6 +5467,7 @@
         },
         "index": {
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "show_command",
           "normalized": "FilePath-\u003e[Text]-\u003eText",
@@ -5097,6 +5483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a sub-Sh in which external command outputs are not echoed and\n commands are not printed.\n See \u003ccode\u003e\u003ca\u003esub\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "silently",
           "package": "shelly",
@@ -5107,6 +5494,7 @@
         "index": {
           "description": "Create sub-Sh in which external command outputs are not echoed and commands are not printed See sub",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "silently",
           "normalized": "Sh a-\u003eSh a",
@@ -5122,6 +5510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethreadDelay wrapper that uses seconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "sleep",
           "package": "shelly",
@@ -5132,6 +5521,7 @@
         "index": {
           "description": "threadDelay wrapper that uses seconds",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "sleep",
           "normalized": "Int-\u003eSh()",
@@ -5147,6 +5537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun commands over SSH.\n An ssh executable is expected in your path.\n Commands are in the same form as \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e, but given as pairs\n\u003c/p\u003e\u003cpre\u003e sshPairs \"server-name\" [(\"cd\", \"dir\"), (\"rm\",[\"-r\",\"dir2\"])]\n\u003c/pre\u003e\u003cp\u003eThis interface is crude, but it works for now.\n\u003c/p\u003e\u003cp\u003ePlease note this sets \u003ccode\u003e\u003ca\u003eescaping\u003c/a\u003e\u003c/code\u003e to False: the commands will not be shell escaped.\n Internally the list of commands are combined with the string \u003ccode\u003e&&\u003c/code\u003e before given to ssh.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "sshPairs",
           "package": "shelly",
@@ -5157,6 +5548,7 @@
         "index": {
           "description": "run commands over SSH An ssh executable is expected in your path Commands are in the same form as run but given as pairs sshPairs server-name cd dir rm dir2 This interface is crude but it works for now Please note this sets escaping to False the commands will not be shell escaped Internally the list of commands are combined with the string before given to ssh",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "sshPairs",
           "normalized": "Text-\u003e[(FilePath,[Text])]-\u003eSh Text",
@@ -5173,6 +5565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esame as \u003ccode\u003e\u003ca\u003esshPairs\u003c/a\u003e\u003c/code\u003e, but returns ()\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "sshPairs_",
           "package": "shelly",
@@ -5183,6 +5576,7 @@
         "index": {
           "description": "same as sshPairs but returns",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "sshPairs_",
           "normalized": "Text-\u003e[(FilePath,[Text])]-\u003eSh()",
@@ -5199,6 +5593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnter a sub-Sh that inherits the environment\n The original state will be restored when the sub-Sh completes.\n Exceptions are propagated normally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "sub",
           "package": "shelly",
@@ -5209,6 +5604,7 @@
         "index": {
           "description": "Enter sub-Sh that inherits the environment The original state will be restored when the sub-Sh completes Exceptions are propagated normally",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "sub",
           "normalized": "Sh a-\u003eSh a",
@@ -5224,6 +5620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esame as \u003ccode\u003e\u003ca\u003etrace\u003c/a\u003e\u003c/code\u003e, but use it combinator style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "tag",
           "package": "shelly",
@@ -5234,6 +5631,7 @@
         "index": {
           "description": "same as trace but use it combinator style",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "tag",
           "normalized": "Sh a-\u003eText-\u003eSh a",
@@ -5249,6 +5647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efail that takes a Text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "terror",
           "package": "shelly",
@@ -5259,6 +5658,7 @@
         "index": {
           "description": "fail that takes Text",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "terror",
           "normalized": "Text-\u003eSh a",
@@ -5274,6 +5674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes a path point to an existing directory?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "test_d",
           "package": "shelly",
@@ -5284,6 +5685,7 @@
         "index": {
           "description": "Does path point to an existing directory",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "test_d",
           "normalized": "FilePath-\u003eSh Bool",
@@ -5299,6 +5701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes a path point to an existing filesystem object?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "test_e",
           "package": "shelly",
@@ -5309,6 +5712,7 @@
         "index": {
           "description": "Does path point to an existing filesystem object",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "test_e",
           "normalized": "FilePath-\u003eSh Bool",
@@ -5324,6 +5728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes a path point to an existing file?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "test_f",
           "package": "shelly",
@@ -5334,6 +5739,7 @@
         "index": {
           "description": "Does path point to an existing file",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "test_f",
           "normalized": "FilePath-\u003eSh Bool",
@@ -5349,6 +5755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest that a file is in the PATH and also executable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "test_px",
           "package": "shelly",
@@ -5359,6 +5766,7 @@
         "index": {
           "description": "Test that file is in the PATH and also executable",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "test_px",
           "normalized": "FilePath-\u003eSh Bool",
@@ -5374,6 +5782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes a path point to a symlink?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "test_s",
           "package": "shelly",
@@ -5384,6 +5793,7 @@
         "index": {
           "description": "Does path point to symlink",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "test_s",
           "normalized": "FilePath-\u003eSh Bool",
@@ -5399,6 +5809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a Sh computation and collect timing  information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "time",
           "package": "shelly",
@@ -5409,6 +5820,7 @@
         "index": {
           "description": "Run Sh computation and collect timing information",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "time",
           "normalized": "Sh a-\u003eSh(Double,a)",
@@ -5423,6 +5835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "toTextArg",
           "package": "shelly",
@@ -5432,6 +5845,7 @@
         },
         "index": {
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "toTextArg",
           "normalized": "a-\u003eText",
@@ -5447,6 +5861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "toTextWarn",
           "package": "shelly",
@@ -5456,6 +5871,7 @@
         },
         "index": {
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "toTextWarn",
           "normalized": "FilePath-\u003eSh Text",
@@ -5472,6 +5888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate a file, creating (a blank file) if it does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "touchfile",
           "package": "shelly",
@@ -5482,6 +5899,7 @@
         "index": {
           "description": "Update file creating blank file if it does not exist",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "touchfile",
           "normalized": "FilePath-\u003eSh()",
@@ -5497,6 +5915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einternally log what occurred.\n Log will be re-played on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "trace",
           "package": "shelly",
@@ -5507,6 +5926,7 @@
         "index": {
           "description": "internally log what occurred Log will be re-played on failure",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "trace",
           "normalized": "Text-\u003eSh()",
@@ -5522,6 +5942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a sub-Sh where commands are not traced\n Defaults to True.\n You should only set to False temporarily for very specific reasons\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "tracing",
           "package": "shelly",
@@ -5532,6 +5953,7 @@
         "index": {
           "description": "Create sub-Sh where commands are not traced Defaults to True You should only set to False temporarily for very specific reasons",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "tracing",
           "normalized": "Bool-\u003eSh a-\u003eSh a",
@@ -5547,6 +5969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransfer from one handle to another\n For example, send contents of a process output to stdout.\n does not close the write handle.\n\u003c/p\u003e\u003cp\u003eAlso, fold over the contents being streamed line by line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "transferFoldHandleLines",
           "package": "shelly",
@@ -5557,6 +5980,7 @@
         "index": {
           "description": "Transfer from one handle to another For example send contents of process output to stdout does not close the write handle Also fold over the contents being streamed line by line",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "transferFoldHandleLines",
           "normalized": "a-\u003eFoldCallback a-\u003eHandle-\u003eHandle-\u003eIO a",
@@ -5573,6 +5997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransfer from one handle to another\n For example, send contents of a process output to stdout.\n does not close the write handle.\n\u003c/p\u003e\u003cp\u003eAlso, return the complete contents being streamed line by line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "transferLinesAndCombine",
           "package": "shelly",
@@ -5583,6 +6008,7 @@
         "index": {
           "description": "Transfer from one handle to another For example send contents of process output to stdout does not close the write handle Also return the complete contents being streamed line by line",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "transferLinesAndCombine",
           "normalized": "Handle-\u003eHandle-\u003eIO Text",
@@ -5599,6 +6025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a sub-Sh in which external command outputs are echoed and\n Executed commands are printed\n See \u003ccode\u003e\u003ca\u003esub\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "verbosely",
           "package": "shelly",
@@ -5609,6 +6036,7 @@
         "index": {
           "description": "Create sub-Sh in which external command outputs are echoed and Executed commands are printed See sub",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "verbosely",
           "normalized": "Sh a-\u003eSh a",
@@ -5624,6 +6052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a full path to an executable by looking at the \u003ccode\u003ePATH\u003c/code\u003e environement\n variable. Windows normally looks in additional places besides the\n \u003ccode\u003ePATH\u003c/code\u003e: this does not duplicate that behavior.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "which",
           "package": "shelly",
@@ -5634,6 +6063,7 @@
         "index": {
           "description": "Get full path to an executable by looking at the PATH environement variable Windows normally looks in additional places besides the PATH this does not duplicate that behavior",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "which",
           "normalized": "FilePath-\u003eSh(Maybe FilePath)",
@@ -5649,6 +6079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a temporary directory and pass it as a parameter to a Sh\n computation. The directory is nuked afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "withTmpDir",
           "package": "shelly",
@@ -5659,6 +6090,7 @@
         "index": {
           "description": "Create temporary directory and pass it as parameter to Sh computation The directory is nuked afterwards",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "withTmpDir",
           "normalized": "(FilePath-\u003eSh a)-\u003eSh a",
@@ -5675,6 +6107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a Lazy Text to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:38 UTC 2014",
           "module": "Shelly",
           "name": "writefile",
           "package": "shelly",
@@ -5685,6 +6118,7 @@
         "index": {
           "description": "Write Lazy Text to file",
           "hierarchy": "Shelly",
+          "indexed": "2014-03-11T20:01:38",
           "module": "Shelly",
           "name": "writefile",
           "normalized": "FilePath-\u003eText-\u003eSh()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scalable-server"
+        "phrase": "scalable-server",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:43 UTC 2014",
           "module": "Network.Server.ScalableServer",
           "name": "ScalableServer",
           "package": "scalable-server",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Server ScalableServer",
+          "indexed": "2014-03-11T19:57:43",
           "module": "Network.Server.ScalableServer",
           "name": "ScalableServer",
           "package": "scalable-server",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe RequestCreator is an Attoparsec parser that yields some request\n object \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:57:43 UTC 2014",
           "module": "Network.Server.ScalableServer",
           "name": "RequestCreator",
           "package": "scalable-server",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The RequestCreator is an Attoparsec parser that yields some request object",
           "hierarchy": "Network Server ScalableServer",
+          "indexed": "2014-03-11T19:57:43",
           "module": "Network.Server.ScalableServer",
           "name": "RequestCreator",
           "package": "scalable-server",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eRequestPipeline\u003c/a\u003e\u003c/code\u003e acts as a specification for your service,\n indicating both a parser/request object generator, the RequestCreator,\n and the processor of these requests, one that ultimately generates a\n response expressed by a blaze \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:57:43 UTC 2014",
           "module": "Network.Server.ScalableServer",
           "name": "RequestPipeline",
           "package": "scalable-server",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The RequestPipeline acts as specification for your service indicating both parser request object generator the RequestCreator and the processor of these requests one that ultimately generates response expressed by blaze Builder",
           "hierarchy": "Network Server ScalableServer",
+          "indexed": "2014-03-11T19:57:43",
           "module": "Network.Server.ScalableServer",
           "name": "RequestPipeline",
           "package": "scalable-server",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe RequestProcessor is a function in the IO monad (for DB access, etc)\n that returns a builder that can generate the response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:57:43 UTC 2014",
           "module": "Network.Server.ScalableServer",
           "name": "RequestProcessor",
           "package": "scalable-server",
@@ -95,6 +102,7 @@
         "index": {
           "description": "The RequestProcessor is function in the IO monad for DB access etc that returns builder that can generate the response",
           "hierarchy": "Network Server ScalableServer",
+          "indexed": "2014-03-11T19:57:43",
           "module": "Network.Server.ScalableServer",
           "name": "RequestProcessor",
           "package": "scalable-server",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:43 UTC 2014",
           "module": "Network.Server.ScalableServer",
           "name": "RequestPipeline",
           "package": "scalable-server",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Network Server ScalableServer",
+          "indexed": "2014-03-11T19:57:43",
           "module": "Network.Server.ScalableServer",
           "name": "RequestPipeline",
           "package": "scalable-server",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a pipeline specification and a port, run TCP traffic using the\n pipeline for parsing, processing and response.\n\u003c/p\u003e\u003cp\u003eNote: there is currently no way for a server to specific the socket\n should be disconnected\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:57:43 UTC 2014",
           "module": "Network.Server.ScalableServer",
           "name": "runServer",
           "package": "scalable-server",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Given pipeline specification and port run TCP traffic using the pipeline for parsing processing and response Note there is currently no way for server to specific the socket should be disconnected",
           "hierarchy": "Network Server ScalableServer",
+          "indexed": "2014-03-11T19:57:43",
           "module": "Network.Server.ScalableServer",
           "name": "runServer",
           "normalized": "RequestPipeline a-\u003ePortNumber-\u003eIO()",

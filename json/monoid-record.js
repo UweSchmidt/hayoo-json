@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monoid-record"
+        "phrase": "monoid-record",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:13 UTC 2014",
           "module": "Data.Monoid.Record",
           "name": "Record",
           "package": "monoid-record",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Record",
+          "indexed": "2014-03-11T19:22:13",
           "module": "Data.Monoid.Record",
           "name": "Record",
           "package": "monoid-record",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:13 UTC 2014",
           "module": "Data.Monoid.Record",
           "name": "Wrapper",
           "package": "monoid-record",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Record",
+          "indexed": "2014-03-11T19:22:13",
           "module": "Data.Monoid.Record",
           "name": "Wrapper",
           "package": "monoid-record",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:13 UTC 2014",
           "module": "Data.Monoid.Record",
           "name": "add",
           "package": "monoid-record",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Record",
+          "indexed": "2014-03-11T19:22:13",
           "module": "Data.Monoid.Record",
           "name": "add",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea-\u003ea)-\u003eb-\u003ea-\u003ea",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:13 UTC 2014",
           "module": "Data.Monoid.Record",
           "name": "addP",
           "package": "monoid-record",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Record",
+          "indexed": "2014-03-11T19:22:13",
           "module": "Data.Monoid.Record",
           "name": "addP",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea-\u003ea)-\u003ec-\u003ea-\u003ea",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:13 UTC 2014",
           "module": "Data.Monoid.Record",
           "name": "wrap",
           "package": "monoid-record",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Record",
+          "indexed": "2014-03-11T19:22:13",
           "module": "Data.Monoid.Record",
           "name": "wrap",
           "normalized": "a-\u003eb",

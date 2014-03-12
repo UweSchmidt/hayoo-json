@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monadlist"
+        "phrase": "monadlist",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "ListM",
           "package": "monadlist",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "ListM",
           "package": "monadlist",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "allM",
           "package": "monadlist",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "allM",
           "normalized": "(a-\u003eb Bool)-\u003ec a-\u003eb Bool",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "anyM",
           "package": "monadlist",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "anyM",
           "normalized": "(a-\u003eb Bool)-\u003ec a-\u003eb Bool",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "breakM",
           "package": "monadlist",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "breakM",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb(c a,[a])",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "deleteByM",
           "package": "monadlist",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "deleteByM",
           "normalized": "(a-\u003ea-\u003eb Bool)-\u003ea-\u003e[a]-\u003eb[a]",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "deleteFirstsByM",
           "package": "monadlist",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "deleteFirstsByM",
           "normalized": "(a-\u003ea-\u003eb Bool)-\u003e[a]-\u003e[a]-\u003eb[a]",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "deleteFirstsM",
           "package": "monadlist",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "deleteFirstsM",
           "normalized": "[a]-\u003e[a]-\u003eb[a]",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "deleteM",
           "package": "monadlist",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "deleteM",
           "normalized": "a-\u003e[a]-\u003eb[a]",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "dropM",
           "package": "monadlist",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "dropM",
           "normalized": "a-\u003e[b c]-\u003eb[c]",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "dropWhileM",
           "package": "monadlist",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "dropWhileM",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb[a]",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "elemIndexM",
           "package": "monadlist",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "elemIndexM",
           "normalized": "a-\u003e[a]-\u003eb(c d)",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "elemIndicesM",
           "package": "monadlist",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "elemIndicesM",
           "normalized": "a-\u003e[a]-\u003eb(c d)",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "elemM",
           "package": "monadlist",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "elemM",
           "normalized": "a-\u003e[a]-\u003eb Bool",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "filterMP",
           "package": "monadlist",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "filterMP",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb(c a)",
@@ -345,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "findIndexM",
           "package": "monadlist",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "findIndexM",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb(c d)",
@@ -369,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "findIndicesM",
           "package": "monadlist",
@@ -378,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "findIndicesM",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb(c d)",
@@ -393,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "findM",
           "package": "monadlist",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "findM",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb(c a)",
@@ -416,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "foldM1",
           "package": "monadlist",
@@ -425,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "foldM1",
           "normalized": "(a-\u003ea-\u003eb a)-\u003e[a]-\u003eb a",
@@ -439,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "groupByM",
           "package": "monadlist",
@@ -448,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "groupByM",
           "normalized": "(a-\u003ea-\u003eb Bool)-\u003e[a]-\u003eb(c(d a))",
@@ -463,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "groupM",
           "package": "monadlist",
@@ -472,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "groupM",
           "normalized": "[a]-\u003eb(c(d a))",
@@ -486,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "insertByM",
           "package": "monadlist",
@@ -495,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "insertByM",
           "normalized": "(a-\u003ea-\u003eb Ordering)-\u003ea-\u003e[a]-\u003eb[a]",
@@ -510,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "insertM",
           "package": "monadlist",
@@ -519,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "insertM",
           "normalized": "a-\u003e[a]-\u003eb[a]",
@@ -533,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "intercalateM",
           "package": "monadlist",
@@ -542,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "intercalateM",
           "normalized": "a(b c)-\u003e[b c]-\u003ea(b c)",
@@ -556,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "intersectByM",
           "package": "monadlist",
@@ -565,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "intersectByM",
           "normalized": "(a-\u003ea-\u003eb Bool)-\u003e[a]-\u003e[a]-\u003eb(c a)",
@@ -580,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "intersectM",
           "package": "monadlist",
@@ -589,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "intersectM",
           "normalized": "[a]-\u003e[a]-\u003eb(c a)",
@@ -603,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "intersperseM",
           "package": "monadlist",
@@ -612,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "intersperseM",
           "normalized": "a b-\u003e[b]-\u003ea(c b)",
@@ -626,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "iterateM",
           "package": "monadlist",
@@ -635,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "iterateM",
           "normalized": "(a-\u003eb a)-\u003ea-\u003eb(c a)",
@@ -649,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "joinMap",
           "package": "monadlist",
@@ -658,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "joinMap",
           "normalized": "(a-\u003eb c)-\u003eb a-\u003eb c",
@@ -673,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "joinMapM",
           "package": "monadlist",
@@ -682,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "joinMapM",
           "normalized": "(a-\u003eb(c d))-\u003e[a]-\u003eb(c d)",
@@ -697,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "lookupM",
           "package": "monadlist",
@@ -706,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "lookupM",
           "normalized": "a-\u003e[b(a,c)]-\u003eb(d c)",
@@ -720,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "mapAccumM",
           "package": "monadlist",
@@ -729,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "mapAccumM",
           "normalized": "(a-\u003eb-\u003ec(a,d))-\u003ea-\u003e[b]-\u003ec(a,e d)",
@@ -744,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "mapMP",
           "package": "monadlist",
@@ -753,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "mapMP",
           "normalized": "(a-\u003eb c)-\u003e[a]-\u003eb(d c)",
@@ -768,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "maximumByM",
           "package": "monadlist",
@@ -777,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "maximumByM",
           "normalized": "(a-\u003ea-\u003eb Ordering)-\u003e[a]-\u003eb a",
@@ -792,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "maximumM",
           "package": "monadlist",
@@ -801,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "maximumM",
           "normalized": "[a]-\u003eb a",
@@ -815,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "minimumByM",
           "package": "monadlist",
@@ -824,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "minimumByM",
           "normalized": "(a-\u003ea-\u003eb Ordering)-\u003e[a]-\u003eb a",
@@ -839,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "minimumM",
           "package": "monadlist",
@@ -848,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "minimumM",
           "normalized": "[a]-\u003eb a",
@@ -862,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "notElemM",
           "package": "monadlist",
@@ -871,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "notElemM",
           "normalized": "a-\u003e[a]-\u003eb Bool",
@@ -886,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "nubByM",
           "package": "monadlist",
@@ -895,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "nubByM",
           "normalized": "(a-\u003ea-\u003eb Bool)-\u003e[a]-\u003eb(c a)",
@@ -910,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "nubM",
           "package": "monadlist",
@@ -919,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "nubM",
           "normalized": "[a]-\u003eb(c a)",
@@ -933,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "partitionM",
           "package": "monadlist",
@@ -942,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "partitionM",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb(c a,[a])",
@@ -956,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "scanM",
           "package": "monadlist",
@@ -965,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "scanM",
           "normalized": "(a-\u003eb-\u003ec a)-\u003ea-\u003e[b]-\u003ec(d a)",
@@ -979,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "sortByM",
           "package": "monadlist",
@@ -988,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "sortByM",
           "normalized": "(a-\u003ea-\u003eb Ordering)-\u003e[a]-\u003eb[a]",
@@ -1003,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "sortM",
           "package": "monadlist",
@@ -1012,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "sortM",
           "normalized": "[a]-\u003eb[a]",
@@ -1026,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "spanM",
           "package": "monadlist",
@@ -1035,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "spanM",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb(c a,[a])",
@@ -1049,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "splitAtM",
           "package": "monadlist",
@@ -1058,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "splitAtM",
           "normalized": "a-\u003e[b c]-\u003eb(d c,[c])",
@@ -1073,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "takeM",
           "package": "monadlist",
@@ -1082,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "takeM",
           "normalized": "a-\u003e[b c]-\u003eb(d c)",
@@ -1096,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "takeWhileM",
           "package": "monadlist",
@@ -1105,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "takeWhileM",
           "normalized": "(a-\u003eb Bool)-\u003e[a]-\u003eb(c a)",
@@ -1120,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "unionByM",
           "package": "monadlist",
@@ -1129,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "unionByM",
           "normalized": "(a-\u003ea-\u003eb Bool)-\u003e[a]-\u003e[a]-\u003eb[a]",
@@ -1144,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "unionM",
           "package": "monadlist",
@@ -1153,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "unionM",
           "normalized": "[a]-\u003e[a]-\u003eb[a]",
@@ -1167,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "zipWithM3",
           "package": "monadlist",
@@ -1176,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "zipWithM3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003e[a]-\u003e[b]-\u003e[c]-\u003ed(f e)",
@@ -1191,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "zipWithM4",
           "package": "monadlist",
@@ -1200,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "zipWithM4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee f)-\u003e[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003ee(g f)",
@@ -1215,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "zipWithM5",
           "package": "monadlist",
@@ -1224,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "zipWithM5",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef g)-\u003e[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003ef(h g)",
@@ -1239,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:33 UTC 2014",
           "module": "Control.Monad.ListM",
           "name": "zipWithM6",
           "package": "monadlist",
@@ -1248,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListM",
+          "indexed": "2014-03-11T19:21:33",
           "module": "Control.Monad.ListM",
           "name": "zipWithM6",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg h)-\u003e[a]-\u003e[b]-\u003e[c]-\u003e[d]-\u003e[e]-\u003e[f]-\u003eg(i h)",

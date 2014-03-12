@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "git-checklist"
+        "phrase": "git-checklist",
+        "type": "phrase"
       },
       "type": "context"
     }

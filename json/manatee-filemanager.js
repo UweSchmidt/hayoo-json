@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "manatee-filemanager"
+        "phrase": "manatee-filemanager",
+        "type": "phrase"
       },
       "type": "context"
     }

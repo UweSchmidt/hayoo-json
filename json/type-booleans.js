@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "type-booleans"
+        "phrase": "type-booleans",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level booleans with very basic operations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:01 UTC 2014",
           "module": "Type.Booleans",
           "name": "Booleans",
           "package": "type-booleans",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Type-level booleans with very basic operations",
           "hierarchy": "Type Booleans",
+          "indexed": "2014-03-11T20:27:01",
           "module": "Type.Booleans",
           "name": "Booleans",
           "package": "type-booleans",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:01 UTC 2014",
           "module": "Type.Booleans",
           "name": "And",
           "package": "type-booleans",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Type Booleans",
+          "indexed": "2014-03-11T20:27:01",
           "module": "Type.Booleans",
           "name": "And",
           "package": "type-booleans",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:01 UTC 2014",
           "module": "Type.Booleans",
           "name": "Beq",
           "package": "type-booleans",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Type Booleans",
+          "indexed": "2014-03-11T20:27:01",
           "module": "Type.Booleans",
           "name": "Beq",
           "package": "type-booleans",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:01 UTC 2014",
           "module": "Type.Booleans",
           "name": "False",
           "package": "type-booleans",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Type Booleans",
+          "indexed": "2014-03-11T20:27:01",
           "module": "Type.Booleans",
           "name": "False",
           "package": "type-booleans",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:01 UTC 2014",
           "module": "Type.Booleans",
           "name": "If",
           "package": "type-booleans",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Type Booleans",
+          "indexed": "2014-03-11T20:27:01",
           "module": "Type.Booleans",
           "name": "If",
           "package": "type-booleans",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:01 UTC 2014",
           "module": "Type.Booleans",
           "name": "Nand",
           "package": "type-booleans",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Type Booleans",
+          "indexed": "2014-03-11T20:27:01",
           "module": "Type.Booleans",
           "name": "Nand",
           "package": "type-booleans",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:01 UTC 2014",
           "module": "Type.Booleans",
           "name": "Nor",
           "package": "type-booleans",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Type Booleans",
+          "indexed": "2014-03-11T20:27:01",
           "module": "Type.Booleans",
           "name": "Nor",
           "package": "type-booleans",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:01 UTC 2014",
           "module": "Type.Booleans",
           "name": "Not",
           "package": "type-booleans",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Type Booleans",
+          "indexed": "2014-03-11T20:27:01",
           "module": "Type.Booleans",
           "name": "Not",
           "package": "type-booleans",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:01 UTC 2014",
           "module": "Type.Booleans",
           "name": "Or",
           "package": "type-booleans",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Type Booleans",
+          "indexed": "2014-03-11T20:27:01",
           "module": "Type.Booleans",
           "name": "Or",
           "package": "type-booleans",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:01 UTC 2014",
           "module": "Type.Booleans",
           "name": "True",
           "package": "type-booleans",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Type Booleans",
+          "indexed": "2014-03-11T20:27:01",
           "module": "Type.Booleans",
           "name": "True",
           "package": "type-booleans",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:01 UTC 2014",
           "module": "Type.Booleans",
           "name": "Xor",
           "package": "type-booleans",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Type Booleans",
+          "indexed": "2014-03-11T20:27:01",
           "module": "Type.Booleans",
           "name": "Xor",
           "package": "type-booleans",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Shellac-haskeline"
+        "phrase": "Shellac-haskeline",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:31 UTC 2014",
           "module": "System.Console.Shell.Backend.Haskeline",
           "name": "Haskeline",
           "package": "Shellac-haskeline",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Console Shell Backend Haskeline",
+          "indexed": "2014-03-11T17:00:31",
           "module": "System.Console.Shell.Backend.Haskeline",
           "name": "Haskeline",
           "package": "Shellac-haskeline",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:31 UTC 2014",
           "module": "System.Console.Shell.Backend.Haskeline",
           "name": "ShellacState",
           "package": "Shellac-haskeline",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Console Shell Backend Haskeline",
+          "indexed": "2014-03-11T17:00:31",
           "module": "System.Console.Shell.Backend.Haskeline",
           "name": "ShellacState",
           "package": "Shellac-haskeline",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:31 UTC 2014",
           "module": "System.Console.Shell.Backend.Haskeline",
           "name": "haskelineBackend",
           "package": "Shellac-haskeline",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "System Console Shell Backend Haskeline",
+          "indexed": "2014-03-11T17:00:31",
           "module": "System.Console.Shell.Backend.Haskeline",
           "name": "haskelineBackend",
           "package": "Shellac-haskeline",

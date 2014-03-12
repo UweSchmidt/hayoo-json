@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GraphHammer-examples"
+        "phrase": "GraphHammer-examples",
+        "type": "phrase"
       },
       "type": "context"
     }

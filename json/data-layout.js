@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-layout"
+        "phrase": "data-layout",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eUse the internal representation of layouts at your own risk.\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eThe smart constructors in \u003ca\u003eData.Layout.Language\u003c/a\u003e enforce the\n documented invariants for \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e. The library has undefined\n behavior if these invariants are violated.\n\u003c/p\u003e\u003cp\u003eThe recommended way to use this library is to import \u003ca\u003eData.Layout\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Internal",
           "name": "Internal",
           "package": "data-layout",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Use the internal representation of layouts at your own risk The smart constructors in Data.Layout.Language enforce the documented invariants for Layout The library has undefined behavior if these invariants are violated The recommended way to use this library is to import Data.Layout",
           "hierarchy": "Data Layout Internal",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Internal",
           "name": "Internal",
           "package": "data-layout",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe byte order of a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Internal",
           "name": "ByteOrder",
           "package": "data-layout",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The byte order of value",
           "hierarchy": "Data Layout Internal",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Internal",
           "name": "ByteOrder",
           "package": "data-layout",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Internal",
           "name": "Bytes",
           "package": "data-layout",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Size in bytes",
           "hierarchy": "Data Layout Internal",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Internal",
           "name": "Bytes",
           "package": "data-layout",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes the binary layout of a set of data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Internal",
           "name": "Layout",
           "package": "data-layout",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Describes the binary layout of set of data",
           "hierarchy": "Data Layout Internal",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Internal",
           "name": "Layout",
           "package": "data-layout",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of repetitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Internal",
           "name": "Reps",
           "package": "data-layout",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Number of repetitions",
           "hierarchy": "Data Layout Internal",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Internal",
           "name": "Reps",
           "package": "data-layout",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe size and byte order of a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Internal",
           "name": "ValueFormat",
           "package": "data-layout",
@@ -143,6 +154,7 @@
         "index": {
           "description": "The size and byte order of value",
           "hierarchy": "Data Layout Internal",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Internal",
           "name": "ValueFormat",
           "package": "data-layout",
@@ -182,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA struct which is \u003ccode\u003en\u003c/code\u003e bytes in size.\n \u003cem\u003eThe size of the struct must be larger than that of the field layout it wraps.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Internal",
           "name": "Group",
           "package": "data-layout",
@@ -192,6 +205,7 @@
         "index": {
           "description": "struct which is bytes in size The size of the struct must be larger than that of the field layout it wraps",
           "hierarchy": "Data Layout Internal",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Internal",
           "name": "Group",
           "package": "data-layout",
@@ -256,6 +270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkip \u003ccode\u003en\u003c/code\u003e bytes in to a struct.\n \u003cem\u003eThe offset must be 1 or more bytes.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Internal",
           "name": "Offset",
           "package": "data-layout",
@@ -266,6 +281,7 @@
         "index": {
           "description": "Skip bytes in to struct The offset must be or more bytes",
           "hierarchy": "Data Layout Internal",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Internal",
           "name": "Offset",
           "package": "data-layout",
@@ -280,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn array with \u003ccode\u003en\u003c/code\u003e elements.\n \u003cem\u003eAn array must have 2 or more elements.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Internal",
           "name": "Repeat",
           "package": "data-layout",
@@ -290,6 +307,7 @@
         "index": {
           "description": "An array with elements An array must have or more elements",
           "hierarchy": "Data Layout Internal",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Internal",
           "name": "Repeat",
           "package": "data-layout",
@@ -304,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value with a known format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Internal",
           "name": "Value",
           "package": "data-layout",
@@ -314,6 +333,7 @@
         "index": {
           "description": "value with known format",
           "hierarchy": "Data Layout Internal",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Internal",
           "name": "Value",
           "package": "data-layout",
@@ -328,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e16-bit word, big endian.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Internal",
           "name": "Word16be",
           "package": "data-layout",
@@ -338,6 +359,7 @@
         "index": {
           "description": "bit word big endian",
           "hierarchy": "Data Layout Internal",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Internal",
           "name": "Word16be",
           "package": "data-layout",
@@ -352,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e16-bit word, little endian.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Internal",
           "name": "Word16le",
           "package": "data-layout",
@@ -362,6 +385,7 @@
         "index": {
           "description": "bit word little endian",
           "hierarchy": "Data Layout Internal",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Internal",
           "name": "Word16le",
           "package": "data-layout",
@@ -376,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit word, big endian.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Internal",
           "name": "Word32be",
           "package": "data-layout",
@@ -386,6 +411,7 @@
         "index": {
           "description": "bit word big endian",
           "hierarchy": "Data Layout Internal",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Internal",
           "name": "Word32be",
           "package": "data-layout",
@@ -400,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit word, little endian.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Internal",
           "name": "Word32le",
           "package": "data-layout",
@@ -410,6 +437,7 @@
         "index": {
           "description": "bit word little endian",
           "hierarchy": "Data Layout Internal",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Internal",
           "name": "Word32le",
           "package": "data-layout",
@@ -424,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e64-bit word, big endian.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Internal",
           "name": "Word64be",
           "package": "data-layout",
@@ -434,6 +463,7 @@
         "index": {
           "description": "bit word big endian",
           "hierarchy": "Data Layout Internal",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Internal",
           "name": "Word64be",
           "package": "data-layout",
@@ -448,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e64-bit word, little endian.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Internal",
           "name": "Word64le",
           "package": "data-layout",
@@ -458,6 +489,7 @@
         "index": {
           "description": "bit word little endian",
           "hierarchy": "Data Layout Internal",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Internal",
           "name": "Word64le",
           "package": "data-layout",
@@ -472,6 +504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8-bit word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Internal",
           "name": "Word8",
           "package": "data-layout",
@@ -482,6 +515,7 @@
         "index": {
           "description": "bit word",
           "hierarchy": "Data Layout Internal",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Internal",
           "name": "Word8",
           "package": "data-layout",
@@ -496,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA DSL for describing data laid out in a regular fashion with\n a combination of structures and arrays.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Language",
           "name": "Language",
           "package": "data-layout",
@@ -505,6 +540,7 @@
         "index": {
           "description": "DSL for describing data laid out in regular fashion with combination of structures and arrays",
           "hierarchy": "Data Layout Language",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Language",
           "name": "Language",
           "package": "data-layout",
@@ -519,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the byte order of the values in the layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Language",
           "name": "byteOrder",
           "package": "data-layout",
@@ -529,6 +566,7 @@
         "index": {
           "description": "Gets the byte order of the values in the layout",
           "hierarchy": "Data Layout Language",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Language",
           "name": "byteOrder",
           "normalized": "Layout-\u003eByteOrder",
@@ -545,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits a repeated layout in to multiple layouts each with a maximum\n of \u003ccode\u003en\u003c/code\u003e repetitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Language",
           "name": "chunk",
           "package": "data-layout",
@@ -555,6 +594,7 @@
         "index": {
           "description": "Splits repeated layout in to multiple layouts each with maximum of repetitions",
           "hierarchy": "Data Layout Language",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Language",
           "name": "chunk",
           "normalized": "Int-\u003eLayout-\u003e[Layout]",
@@ -570,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a layout with a group which is \u003ccode\u003en\u003c/code\u003e bytes in size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Language",
           "name": "group",
           "package": "data-layout",
@@ -580,6 +621,7 @@
         "index": {
           "description": "Wrap layout with group which is bytes in size",
           "hierarchy": "Data Layout Language",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Language",
           "name": "group",
           "normalized": "Bytes-\u003eLayout-\u003eLayout",
@@ -595,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkip \u003ccode\u003en\u003c/code\u003e bytes before accessing the next part of the layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Language",
           "name": "offset",
           "package": "data-layout",
@@ -605,6 +648,7 @@
         "index": {
           "description": "Skip bytes before accessing the next part of the layout",
           "hierarchy": "Data Layout Language",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Language",
           "name": "offset",
           "normalized": "Bytes-\u003eLayout-\u003eLayout",
@@ -620,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove redundancies from a layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Language",
           "name": "optimize",
           "package": "data-layout",
@@ -630,6 +675,7 @@
         "index": {
           "description": "Remove redundancies from layout",
           "hierarchy": "Data Layout Language",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Language",
           "name": "optimize",
           "normalized": "Layout-\u003eLayout",
@@ -645,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeat a layout \u003ccode\u003en\u003c/code\u003e times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Language",
           "name": "repeat",
           "package": "data-layout",
@@ -655,6 +702,7 @@
         "index": {
           "description": "Repeat layout times",
           "hierarchy": "Data Layout Language",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Language",
           "name": "repeat",
           "normalized": "Reps-\u003eLayout-\u003eLayout",
@@ -670,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the total size of the layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Language",
           "name": "size",
           "package": "data-layout",
@@ -680,6 +729,7 @@
         "index": {
           "description": "Calculates the total size of the layout",
           "hierarchy": "Data Layout Language",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Language",
           "name": "size",
           "normalized": "Layout-\u003eInt",
@@ -695,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounts the number of times a value is repeated in the layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Language",
           "name": "valueCount",
           "package": "data-layout",
@@ -705,6 +756,7 @@
         "index": {
           "description": "Counts the number of times value is repeated in the layout",
           "hierarchy": "Data Layout Language",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Language",
           "name": "valueCount",
           "normalized": "Layout-\u003eInt",
@@ -721,6 +773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the size of a single value in the layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Language",
           "name": "valueSize1",
           "package": "data-layout",
@@ -731,6 +784,7 @@
         "index": {
           "description": "Calculates the size of single value in the layout",
           "hierarchy": "Data Layout Language",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Language",
           "name": "valueSize1",
           "normalized": "Layout-\u003eInt",
@@ -747,6 +801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the total size of the values stored in the layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Language",
           "name": "valueSizeN",
           "package": "data-layout",
@@ -757,6 +812,7 @@
         "index": {
           "description": "Calculates the total size of the values stored in the layout",
           "hierarchy": "Data Layout Language",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Language",
           "name": "valueSizeN",
           "normalized": "Layout-\u003eInt",
@@ -773,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e16-bit word, big endian.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Language",
           "name": "word16be",
           "package": "data-layout",
@@ -783,6 +840,7 @@
         "index": {
           "description": "bit word big endian",
           "hierarchy": "Data Layout Language",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Language",
           "name": "word16be",
           "package": "data-layout",
@@ -796,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e16-bit word, little endian.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Language",
           "name": "word16le",
           "package": "data-layout",
@@ -806,6 +865,7 @@
         "index": {
           "description": "bit word little endian",
           "hierarchy": "Data Layout Language",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Language",
           "name": "word16le",
           "package": "data-layout",
@@ -819,6 +879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit word, big endian.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Language",
           "name": "word32be",
           "package": "data-layout",
@@ -829,6 +890,7 @@
         "index": {
           "description": "bit word big endian",
           "hierarchy": "Data Layout Language",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Language",
           "name": "word32be",
           "package": "data-layout",
@@ -842,6 +904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit word, little endian.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Language",
           "name": "word32le",
           "package": "data-layout",
@@ -852,6 +915,7 @@
         "index": {
           "description": "bit word little endian",
           "hierarchy": "Data Layout Language",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Language",
           "name": "word32le",
           "package": "data-layout",
@@ -865,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e64-bit word, big endian.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Language",
           "name": "word64be",
           "package": "data-layout",
@@ -875,6 +940,7 @@
         "index": {
           "description": "bit word big endian",
           "hierarchy": "Data Layout Language",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Language",
           "name": "word64be",
           "package": "data-layout",
@@ -888,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e64-bit word, little endian.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Language",
           "name": "word64le",
           "package": "data-layout",
@@ -898,6 +965,7 @@
         "index": {
           "description": "bit word little endian",
           "hierarchy": "Data Layout Language",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Language",
           "name": "word64le",
           "package": "data-layout",
@@ -911,6 +979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8-bit word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Language",
           "name": "word8",
           "package": "data-layout",
@@ -921,6 +990,7 @@
         "index": {
           "description": "bit word",
           "hierarchy": "Data Layout Language",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Language",
           "name": "word8",
           "package": "data-layout",
@@ -933,6 +1003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Vector",
           "name": "Vector",
           "package": "data-layout",
@@ -941,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Data Layout Vector",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Vector",
           "name": "Vector",
           "package": "data-layout",
@@ -955,6 +1027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains the information required to encode or decode a\n \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e from its arbitrary layout in a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Vector",
           "name": "Codec",
           "package": "data-layout",
@@ -964,6 +1037,7 @@
         "index": {
           "description": "Contains the information required to encode or decode Vector from its arbitrary layout in strict ByteString",
           "hierarchy": "Data Layout Vector",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Vector",
           "name": "Codec",
           "package": "data-layout",
@@ -978,6 +1052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstracts over vectors of storable types to allow\n calling \u003ccode\u003e\u003ca\u003eencodeVectors\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eSV\u003c/a\u003e\u003c/code\u003e constructor provides\n proof that the \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e contains \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Vector",
           "name": "StorableVector",
           "package": "data-layout",
@@ -987,6 +1062,7 @@
         "index": {
           "description": "Abstracts over vectors of storable types to allow calling encodeVectors The SV constructor provides proof that the Vector contains Storable elements",
           "hierarchy": "Data Layout Vector",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Vector",
           "name": "StorableVector",
           "package": "data-layout",
@@ -1000,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Vector",
           "name": "SV",
           "package": "data-layout",
@@ -1009,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Data Layout Vector",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Vector",
           "name": "SV",
           "normalized": "Vector a-\u003eStorableVector",
@@ -1025,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompiles a data layout in to a codec capable of encoding\n and decoding data stored in the layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Vector",
           "name": "compile",
           "package": "data-layout",
@@ -1035,6 +1114,7 @@
         "index": {
           "description": "Compiles data layout in to codec capable of encoding and decoding data stored in the layout",
           "hierarchy": "Data Layout Vector",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Vector",
           "name": "compile",
           "normalized": "Layout-\u003eCodec",
@@ -1050,6 +1130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e by decoding a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Vector",
           "name": "decodeVector",
           "package": "data-layout",
@@ -1060,6 +1141,7 @@
         "index": {
           "description": "Creates Vector by decoding strict ByteString",
           "hierarchy": "Data Layout Vector",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Vector",
           "name": "decodeVector",
           "normalized": "Codec-\u003eByteString-\u003eVector a",
@@ -1076,6 +1158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e by interleaving multiple \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout.Vector",
           "name": "encodeVectors",
           "package": "data-layout",
@@ -1086,6 +1169,7 @@
         "index": {
           "description": "Creates strict ByteString by interleaving multiple Vector",
           "hierarchy": "Data Layout Vector",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout.Vector",
           "name": "encodeVectors",
           "normalized": "[(Codec,StorableVector)]-\u003eByteString",
@@ -1102,6 +1186,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA DSL for describing data laid out in a regular fashion with\n a combination of structures and arrays.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout",
           "name": "Layout",
           "package": "data-layout",
@@ -1111,6 +1196,7 @@
         "index": {
           "description": "DSL for describing data laid out in regular fashion with combination of structures and arrays",
           "hierarchy": "Data Layout",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout",
           "name": "Layout",
           "package": "data-layout",
@@ -1125,6 +1211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe byte order of a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout",
           "name": "ByteOrder",
           "package": "data-layout",
@@ -1134,6 +1221,7 @@
         "index": {
           "description": "The byte order of value",
           "hierarchy": "Data Layout",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout",
           "name": "ByteOrder",
           "package": "data-layout",
@@ -1148,6 +1236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout",
           "name": "Bytes",
           "package": "data-layout",
@@ -1157,6 +1246,7 @@
         "index": {
           "description": "Size in bytes",
           "hierarchy": "Data Layout",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout",
           "name": "Bytes",
           "package": "data-layout",
@@ -1171,6 +1261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes the binary layout of a set of data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout",
           "name": "Layout",
           "package": "data-layout",
@@ -1180,6 +1271,7 @@
         "index": {
           "description": "Describes the binary layout of set of data",
           "hierarchy": "Data Layout",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout",
           "name": "Layout",
           "package": "data-layout",
@@ -1194,6 +1286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of repetitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:47 UTC 2014",
           "module": "Data.Layout",
           "name": "Reps",
           "package": "data-layout",
@@ -1203,6 +1296,7 @@
         "index": {
           "description": "Number of repetitions",
           "hierarchy": "Data Layout",
+          "indexed": "2014-03-11T17:48:47",
           "module": "Data.Layout",
           "name": "Reps",
           "package": "data-layout",

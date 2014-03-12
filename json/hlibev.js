@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hlibev"
+        "phrase": "hlibev",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003eNetwork.Libev\u003c/code\u003e is a low-level binding to the libev library\n (\u003ca\u003ehttp://libev.schmorp.de/\u003c/a\u003e). The \u003ccode\u003elibev\u003c/code\u003e documentation is available here:\n \u003ca\u003ehttp://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "Libev",
           "package": "hlibev",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Network.Libev is low-level binding to the libev library http libev.schmorp.de The libev documentation is available here http pod.tst.eu http cvs.schmorp.de libev ev.pod",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "Libev",
           "package": "hlibev",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eAsyncCallback\u003c/a\u003e\u003c/code\u003e is called when you wakeup an event loop with\n \u003ccode\u003eev_async_send\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "AsyncCallback",
           "package": "hlibev",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An AsyncCallback is called when you wakeup an event loop with ev async send",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "AsyncCallback",
           "package": "hlibev",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "CEvBackendFlagType",
           "package": "hlibev",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "CEvBackendFlagType",
           "package": "hlibev",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "CEvFlagType",
           "package": "hlibev",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "CEvFlagType",
           "package": "hlibev",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "CEvLoopFlagType",
           "package": "hlibev",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "CEvLoopFlagType",
           "package": "hlibev",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "CEvUnloopFlagType",
           "package": "hlibev",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "CEvUnloopFlagType",
           "package": "hlibev",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCEventType\u003c/a\u003e\u003c/code\u003e is a bitfield used to flag whether a file descriptor is\n readable, writable, or both. Valid values are \u003ccode\u003e\u003ca\u003eev_read\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eev_write\u003c/a\u003e\u003c/code\u003e. TODO: deprecate and replace by a datatype\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "CEventType",
           "package": "hlibev",
@@ -158,6 +171,7 @@
         "index": {
           "description": "CEventType is bitfield used to flag whether file descriptor is readable writable or both Valid values are ev read and ev write TODO deprecate and replace by datatype",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "CEventType",
           "package": "hlibev",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "EvAsyncPtr",
           "package": "hlibev",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "EvAsyncPtr",
           "package": "hlibev",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "EvIoPtr",
           "package": "hlibev",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "EvIoPtr",
           "package": "hlibev",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "EvLoopPtr",
           "package": "hlibev",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "EvLoopPtr",
           "package": "hlibev",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "EvTimer",
           "package": "hlibev",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "EvTimer",
           "package": "hlibev",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "EvTimerPtr",
           "package": "hlibev",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "EvTimerPtr",
           "package": "hlibev",
@@ -277,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLibev timestamp values are C doubles containing the (floating) number of\n seconds since Jan 1, 1970.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "EvTimestamp",
           "package": "hlibev",
@@ -286,6 +311,7 @@
         "index": {
           "description": "Libev timestamp values are doubles containing the floating number of seconds since Jan",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "EvTimestamp",
           "package": "hlibev",
@@ -300,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eIoCallback\u003c/a\u003e\u003c/code\u003e is called when a file descriptor becomes readable or\n writable. It takes a pointer to an \u003ccode\u003eev_loop\u003c/code\u003e structure, a pointer to an\n \u003ccode\u003eev_io\u003c/code\u003e structure, and an event mask.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "IoCallback",
           "package": "hlibev",
@@ -309,6 +336,7 @@
         "index": {
           "description": "An IoCallback is called when file descriptor becomes readable or writable It takes pointer to an ev loop structure pointer to an ev io structure and an event mask",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "IoCallback",
           "package": "hlibev",
@@ -323,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMutexCallback\u003c/a\u003e\u003c/code\u003e is called by \u003ccode\u003eev_set_loop_release_cb\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "MutexCallback",
           "package": "hlibev",
@@ -332,6 +361,7 @@
         "index": {
           "description": "MutexCallback is called by ev set loop release cb",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "MutexCallback",
           "package": "hlibev",
@@ -346,6 +376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTimerCallback\u003c/a\u003e\u003c/code\u003e is called when a timer expires. It takes a pointer to an\n \u003ccode\u003eev_loop\u003c/code\u003e structure, a pointer to an \u003ccode\u003eev_timer\u003c/code\u003e structure, and an (unused?)\n event mask.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "TimerCallback",
           "package": "hlibev",
@@ -355,6 +386,7 @@
         "index": {
           "description": "TimerCallback is called when timer expires It takes pointer to an ev loop structure pointer to an ev timer structure and an unused event mask",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "TimerCallback",
           "package": "hlibev",
@@ -369,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalls \u003ccode\u003eaccept()\u003c/code\u003e and sets the socket non-blocking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "c_accept",
           "package": "hlibev",
@@ -379,6 +412,7 @@
         "index": {
           "description": "Calls accept and sets the socket non-blocking",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "c_accept",
           "normalized": "CInt-\u003eIO CInt",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "c_close",
           "package": "hlibev",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "c_close",
           "normalized": "CInt-\u003eIO CInt",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "c_read",
           "package": "hlibev",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "c_read",
           "normalized": "CInt-\u003eCString-\u003eCSize-\u003eIO CSize",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "c_setnonblocking",
           "package": "hlibev",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "c_setnonblocking",
           "normalized": "CInt-\u003eIO()",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "c_write",
           "package": "hlibev",
@@ -471,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "c_write",
           "normalized": "CInt-\u003eCString-\u003eCSize-\u003eIO CSize",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evAsyncInit",
           "package": "hlibev",
@@ -494,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evAsyncInit",
           "normalized": "EvAsyncPtr-\u003eFunPtr AsyncCallback-\u003eIO()",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evAsyncSend",
           "package": "hlibev",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evAsyncSend",
           "normalized": "EvLoopPtr-\u003eEvAsyncPtr-\u003eIO()",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evAsyncStart",
           "package": "hlibev",
@@ -542,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evAsyncStart",
           "normalized": "EvLoopPtr-\u003eEvAsyncPtr-\u003eIO()",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evAsyncStop",
           "package": "hlibev",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evAsyncStop",
           "normalized": "EvLoopPtr-\u003eEvAsyncPtr-\u003eIO()",
@@ -581,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evDefaultLoop",
           "package": "hlibev",
@@ -590,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evDefaultLoop",
           "normalized": "CInt-\u003eIO EvLoopPtr",
@@ -605,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evIoInit",
           "package": "hlibev",
@@ -614,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evIoInit",
           "normalized": "EvIoPtr-\u003eFunPtr IoCallback-\u003eCInt-\u003eCEventType-\u003eIO()",
@@ -629,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evIoStart",
           "package": "hlibev",
@@ -638,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evIoStart",
           "normalized": "EvLoopPtr-\u003eEvIoPtr-\u003eIO()",
@@ -653,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evIoStop",
           "package": "hlibev",
@@ -662,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evIoStop",
           "normalized": "EvLoopPtr-\u003eEvIoPtr-\u003eIO()",
@@ -677,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evLoop",
           "package": "hlibev",
@@ -686,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evLoop",
           "normalized": "EvLoopPtr-\u003eCInt-\u003eIO()",
@@ -701,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evLoopDestroy",
           "package": "hlibev",
@@ -710,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evLoopDestroy",
           "normalized": "EvLoopPtr-\u003eIO()",
@@ -725,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evLoopNew",
           "package": "hlibev",
@@ -734,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evLoopNew",
           "normalized": "CUInt-\u003eIO EvLoopPtr",
@@ -750,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch a the cached copy of the current time from a loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evNow",
           "package": "hlibev",
@@ -760,6 +825,7 @@
         "index": {
           "description": "Fetch the cached copy of the current time from loop",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evNow",
           "normalized": "EvLoopPtr-\u003eIO EvTimestamp",
@@ -776,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the default set of \u003ccode\u003e\u003ca\u003eCEvFlagType\u003c/a\u003e\u003c/code\u003e flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evRecommendedBackends",
           "package": "hlibev",
@@ -786,6 +853,7 @@
         "index": {
           "description": "Returns the default set of CEvFlagType flags",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evRecommendedBackends",
           "package": "hlibev",
@@ -800,6 +868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetches the current time from the operating system. Usually \u003ccode\u003e\u003ca\u003eevNow\u003c/a\u003e\u003c/code\u003e is\n preferred since it avoids a context switch by returning a cached value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evTime",
           "package": "hlibev",
@@ -810,6 +879,7 @@
         "index": {
           "description": "Fetches the current time from the operating system Usually evNow is preferred since it avoids context switch by returning cached value",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evTime",
           "package": "hlibev",
@@ -823,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evTimerAgain",
           "package": "hlibev",
@@ -832,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evTimerAgain",
           "normalized": "EvLoopPtr-\u003eEvTimerPtr-\u003eIO()",
@@ -847,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evTimerInit",
           "package": "hlibev",
@@ -856,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evTimerInit",
           "normalized": "EvTimerPtr-\u003eFunPtr TimerCallback-\u003eEvTimestamp-\u003eEvTimestamp-\u003eIO()",
@@ -871,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evTimerRemaining",
           "package": "hlibev",
@@ -880,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evTimerRemaining",
           "normalized": "EvLoopPtr-\u003eEvTimerPtr-\u003eIO EvTimestamp",
@@ -895,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evTimerSetRepeat",
           "package": "hlibev",
@@ -904,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evTimerSetRepeat",
           "normalized": "EvTimerPtr-\u003eDouble-\u003eIO()",
@@ -919,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evTimerStart",
           "package": "hlibev",
@@ -928,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evTimerStart",
           "normalized": "EvLoopPtr-\u003eEvTimerPtr-\u003eIO()",
@@ -943,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evTimerStop",
           "package": "hlibev",
@@ -952,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evTimerStop",
           "normalized": "EvLoopPtr-\u003eEvTimerPtr-\u003eIO()",
@@ -967,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evUnloop",
           "package": "hlibev",
@@ -976,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evUnloop",
           "normalized": "EvLoopPtr-\u003eCInt-\u003eIO()",
@@ -991,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev__iofdset",
           "package": "hlibev",
@@ -1000,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev__iofdset",
           "package": "hlibev",
@@ -1012,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev_async",
           "package": "hlibev",
@@ -1021,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev_async",
           "package": "hlibev",
@@ -1033,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev_check",
           "package": "hlibev",
@@ -1042,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev_check",
           "package": "hlibev",
@@ -1054,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev_child",
           "package": "hlibev",
@@ -1063,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev_child",
           "package": "hlibev",
@@ -1075,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev_custom",
           "package": "hlibev",
@@ -1084,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev_custom",
           "package": "hlibev",
@@ -1096,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev_embed",
           "package": "hlibev",
@@ -1105,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev_embed",
           "package": "hlibev",
@@ -1117,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev_error",
           "package": "hlibev",
@@ -1126,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev_error",
           "package": "hlibev",
@@ -1138,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev_fork",
           "package": "hlibev",
@@ -1147,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev_fork",
           "package": "hlibev",
@@ -1160,6 +1260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCEvFlagType\u003c/a\u003e\u003c/code\u003e is a bitfield used to pass flags into\n \u003ccode\u003e\u003ca\u003eevDefaultLoop\u003c/a\u003e\u003c/code\u003e. Values (\u003ccode\u003e\u003ca\u003eevflag_auto\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eevflag_noenv\u003c/a\u003e\u003c/code\u003e, etc.) are combined\n with bitwise or. TODO: replace with a newtype with a monoid instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev_idle",
           "package": "hlibev",
@@ -1170,6 +1271,7 @@
         "index": {
           "description": "CEvFlagType is bitfield used to pass flags into evDefaultLoop Values evflag auto evflag noenv etc are combined with bitwise or TODO replace with newtype with monoid instance",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev_idle",
           "package": "hlibev",
@@ -1182,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev_io",
           "package": "hlibev",
@@ -1191,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev_io",
           "package": "hlibev",
@@ -1203,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev_none",
           "package": "hlibev",
@@ -1212,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev_none",
           "package": "hlibev",
@@ -1224,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev_periodic",
           "package": "hlibev",
@@ -1233,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev_periodic",
           "package": "hlibev",
@@ -1245,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev_prepare",
           "package": "hlibev",
@@ -1254,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev_prepare",
           "package": "hlibev",
@@ -1266,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev_read",
           "package": "hlibev",
@@ -1275,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev_read",
           "package": "hlibev",
@@ -1287,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev_signal",
           "package": "hlibev",
@@ -1296,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev_signal",
           "package": "hlibev",
@@ -1308,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev_stat",
           "package": "hlibev",
@@ -1317,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev_stat",
           "package": "hlibev",
@@ -1329,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev_timeout",
           "package": "hlibev",
@@ -1338,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev_timeout",
           "package": "hlibev",
@@ -1350,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev_timer",
           "package": "hlibev",
@@ -1359,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev_timer",
           "package": "hlibev",
@@ -1372,6 +1492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeventmask, revents, events...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev_undef",
           "package": "hlibev",
@@ -1382,6 +1503,7 @@
         "index": {
           "description": "eventmask revents events",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev_undef",
           "package": "hlibev",
@@ -1394,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "ev_write",
           "package": "hlibev",
@@ -1403,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "ev_write",
           "package": "hlibev",
@@ -1415,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evbackend_all",
           "package": "hlibev",
@@ -1424,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evbackend_all",
           "package": "hlibev",
@@ -1436,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evbackend_devpoll",
           "package": "hlibev",
@@ -1445,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evbackend_devpoll",
           "package": "hlibev",
@@ -1457,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evbackend_epoll",
           "package": "hlibev",
@@ -1466,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evbackend_epoll",
           "package": "hlibev",
@@ -1478,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evbackend_kqueue",
           "package": "hlibev",
@@ -1487,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evbackend_kqueue",
           "package": "hlibev",
@@ -1499,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evbackend_poll",
           "package": "hlibev",
@@ -1508,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evbackend_poll",
           "package": "hlibev",
@@ -1520,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evbackend_port",
           "package": "hlibev",
@@ -1529,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evbackend_port",
           "package": "hlibev",
@@ -1541,6 +1677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evbackend_select",
           "package": "hlibev",
@@ -1550,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evbackend_select",
           "package": "hlibev",
@@ -1562,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evflag_auto",
           "package": "hlibev",
@@ -1571,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evflag_auto",
           "package": "hlibev",
@@ -1583,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evflag_forkcheck",
           "package": "hlibev",
@@ -1592,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evflag_forkcheck",
           "package": "hlibev",
@@ -1604,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evflag_noenv",
           "package": "hlibev",
@@ -1613,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evflag_noenv",
           "package": "hlibev",
@@ -1625,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evflag_noinotify",
           "package": "hlibev",
@@ -1634,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evflag_noinotify",
           "package": "hlibev",
@@ -1646,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evflag_nosigfd",
           "package": "hlibev",
@@ -1655,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evflag_nosigfd",
           "package": "hlibev",
@@ -1667,6 +1815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evflag_signalfd",
           "package": "hlibev",
@@ -1676,6 +1825,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evflag_signalfd",
           "package": "hlibev",
@@ -1688,6 +1838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evloop_nonblock",
           "package": "hlibev",
@@ -1697,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evloop_nonblock",
           "package": "hlibev",
@@ -1709,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evloop_oneshot",
           "package": "hlibev",
@@ -1718,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evloop_oneshot",
           "package": "hlibev",
@@ -1730,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evunloop_all",
           "package": "hlibev",
@@ -1739,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evunloop_all",
           "package": "hlibev",
@@ -1751,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evunloop_cancel",
           "package": "hlibev",
@@ -1760,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evunloop_cancel",
           "package": "hlibev",
@@ -1772,6 +1930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "evunloop_one",
           "package": "hlibev",
@@ -1781,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "evunloop_one",
           "package": "hlibev",
@@ -1793,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "freeAsyncCallback",
           "package": "hlibev",
@@ -1802,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "freeAsyncCallback",
           "normalized": "FunPtr AsyncCallback-\u003eIO()",
@@ -1818,6 +1980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efree() an \u003ccode\u003eEvAsync\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "freeEvAsync",
           "package": "hlibev",
@@ -1828,6 +1991,7 @@
         "index": {
           "description": "free an EvAsync",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "freeEvAsync",
           "normalized": "EvAsyncPtr-\u003eIO()",
@@ -1844,6 +2008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efree() an \u003ccode\u003e\u003ca\u003eEvIoPtr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "freeEvIo",
           "package": "hlibev",
@@ -1854,6 +2019,7 @@
         "index": {
           "description": "free an EvIoPtr",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "freeEvIo",
           "normalized": "EvIoPtr-\u003eIO()",
@@ -1870,6 +2036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efree() an \u003ccode\u003e\u003ca\u003eEvTimer\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "freeEvTimer",
           "package": "hlibev",
@@ -1880,6 +2047,7 @@
         "index": {
           "description": "free an EvTimer",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "freeEvTimer",
           "normalized": "EvTimerPtr-\u003eIO()",
@@ -1895,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "freeIoCallback",
           "package": "hlibev",
@@ -1904,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "freeIoCallback",
           "normalized": "FunPtr IoCallback-\u003eIO()",
@@ -1919,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "freeMutexCallback",
           "package": "hlibev",
@@ -1928,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "freeMutexCallback",
           "normalized": "FunPtr MutexCallback-\u003eIO()",
@@ -1943,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "freeTimerCallback",
           "package": "hlibev",
@@ -1952,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "freeTimerCallback",
           "normalized": "FunPtr TimerCallback-\u003eIO()",
@@ -1968,6 +2142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap up an \u003ccode\u003e\u003ca\u003eAsyncCallback\u003c/a\u003e\u003c/code\u003e so it can be delivered into C-land. This\n resource is not garbage-collected, you are responsible for freeing it with\n \u003ccode\u003e\u003ca\u003efreeAsyncCallback\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "mkAsyncCallback",
           "package": "hlibev",
@@ -1978,6 +2153,7 @@
         "index": {
           "description": "Wrap up an AsyncCallback so it can be delivered into C-land This resource is not garbage-collected you are responsible for freeing it with freeAsyncCallback",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "mkAsyncCallback",
           "normalized": "AsyncCallback-\u003eIO(FunPtr AsyncCallback)",
@@ -1994,6 +2170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a new \u003ccode\u003eev_async\u003c/code\u003e struct using \u003ccode\u003e\u003ca\u003emalloc\u003c/a\u003e\u003c/code\u003e. You are responsible for\n freeing it with \u003ccode\u003e\u003ca\u003efreeEvAsync\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "mkEvAsync",
           "package": "hlibev",
@@ -2004,6 +2181,7 @@
         "index": {
           "description": "Makes new ev async struct using malloc You are responsible for freeing it with freeEvAsync",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "mkEvAsync",
           "package": "hlibev",
@@ -2018,6 +2196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a new \u003ccode\u003eev_io\u003c/code\u003e struct using \u003ccode\u003e\u003ca\u003emalloc\u003c/a\u003e\u003c/code\u003e. You are responsible for freeing\n it with \u003ccode\u003e\u003ca\u003efreeEvIo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "mkEvIo",
           "package": "hlibev",
@@ -2028,6 +2207,7 @@
         "index": {
           "description": "Makes new ev io struct using malloc You are responsible for freeing it with freeEvIo",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "mkEvIo",
           "package": "hlibev",
@@ -2042,6 +2222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a new \u003ccode\u003eev_timer\u003c/code\u003e struct using \u003ccode\u003e\u003ca\u003emalloc\u003c/a\u003e\u003c/code\u003e. You are responsible for freeing\n it with \u003ccode\u003e\u003ca\u003efreeEvTimer\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "mkEvTimer",
           "package": "hlibev",
@@ -2052,6 +2233,7 @@
         "index": {
           "description": "Makes new ev timer struct using malloc You are responsible for freeing it with freeEvTimer",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "mkEvTimer",
           "package": "hlibev",
@@ -2066,6 +2248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap up an \u003ccode\u003e\u003ca\u003eIoCallback\u003c/a\u003e\u003c/code\u003e so it can be delivered into C-land. This resource\n is not garbage-collected, you are responsible for freeing it with\n \u003ccode\u003e\u003ca\u003efreeIoCallback\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "mkIoCallback",
           "package": "hlibev",
@@ -2076,6 +2259,7 @@
         "index": {
           "description": "Wrap up an IoCallback so it can be delivered into C-land This resource is not garbage-collected you are responsible for freeing it with freeIoCallback",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "mkIoCallback",
           "normalized": "IoCallback-\u003eIO(FunPtr IoCallback)",
@@ -2092,6 +2276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap up a \u003ccode\u003e\u003ca\u003eTimerCallback\u003c/a\u003e\u003c/code\u003e so it can be delivered into C-land. This\n resource is not garbage-collected, you are responsible for freeing it with\n \u003ccode\u003e\u003ca\u003efreeTimerCallback\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "mkTimerCallback",
           "package": "hlibev",
@@ -2102,6 +2287,7 @@
         "index": {
           "description": "Wrap up TimerCallback so it can be delivered into C-land This resource is not garbage-collected you are responsible for freeing it with freeTimerCallback",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "mkTimerCallback",
           "normalized": "TimerCallback-\u003eIO(FunPtr TimerCallback)",
@@ -2118,6 +2304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet up the given loop for mutex locking from haskell-land -- if you want\n to touch the loop from other Haskell threads, you'll need to do this. The\n two FunPtr objects returned need to be explicitly freed with\n \u003ccode\u003e\u003ca\u003efreeMutexCallback\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIMPORTANT: if you want multithreaded access to an \u003ccode\u003e\u003ca\u003eEvLoopPtr\u003c/a\u003e\u003c/code\u003e, you'll have\n to acquire the \u003ccode\u003e\u003ca\u003eMVar\u003c/a\u003e\u003c/code\u003e returned here (using \u003ccode\u003e\u003ca\u003ewithMVar\u003c/a\u003e\u003c/code\u003e) whenever you call any\n of the \u003ccode\u003eev\u003c/code\u003e functions. Very bad C-land crash/bang/boom could otherwise\n result.\n\u003c/p\u003e\u003cp\u003eALSO IMPORTANT: any changes you make to an \u003ccode\u003e\u003ca\u003eEvLoopPtr\u003c/a\u003e\u003c/code\u003e from another thread\n while the event loop thread is blocked inside \u003ccode\u003eev_loop()\u003c/code\u003e will NOT take\n effect until the the event loop thread unblocks. You'll need to set up an\n \u003ccode\u003eev_async\u003c/code\u003e watcher in order to wake up the event loop thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:13 UTC 2014",
           "module": "Network.Libev",
           "name": "setupLockingForLoop",
           "package": "hlibev",
@@ -2128,6 +2315,7 @@
         "index": {
           "description": "Set up the given loop for mutex locking from haskell-land if you want to touch the loop from other Haskell threads you ll need to do this The two FunPtr objects returned need to be explicitly freed with freeMutexCallback IMPORTANT if you want multithreaded access to an EvLoopPtr you ll have to acquire the MVar returned here using withMVar whenever you call any of the ev functions Very bad C-land crash bang boom could otherwise result ALSO IMPORTANT any changes you make to an EvLoopPtr from another thread while the event loop thread is blocked inside ev loop will NOT take effect until the the event loop thread unblocks You ll need to set up an ev async watcher in order to wake up the event loop thread",
           "hierarchy": "Network Libev",
+          "indexed": "2014-03-11T18:41:13",
           "module": "Network.Libev",
           "name": "setupLockingForLoop",
           "normalized": "EvLoopPtr-\u003eIO(FunPtr MutexCallback,FunPtr MutexCallback,MVar())",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hcwiid"
+        "phrase": "hcwiid",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "CWiid",
           "package": "hcwiid",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "CWiid",
           "package": "hcwiid",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "CWiidBtnFlag",
           "package": "hcwiid",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "CWiidBtnFlag",
           "package": "hcwiid",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "CWiidState",
           "package": "hcwiid",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "CWiidState",
           "package": "hcwiid",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "CWiidWiimote",
           "package": "hcwiid",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "CWiidWiimote",
           "package": "hcwiid",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "CWiidBtnFlag",
           "package": "hcwiid",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "CWiidBtnFlag",
           "package": "hcwiid",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "CWiidState",
           "package": "hcwiid",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "CWiidState",
           "package": "hcwiid",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "battery",
           "package": "hcwiid",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "battery",
           "package": "hcwiid",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "buttons",
           "package": "hcwiid",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "buttons",
           "package": "hcwiid",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "combineCwiidBtnFlag",
           "package": "hcwiid",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "combineCwiidBtnFlag",
           "normalized": "[CWiidBtnFlag]-\u003eCWiidBtnFlag",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "combineCwiidLedFlag",
           "package": "hcwiid",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "combineCwiidLedFlag",
           "normalized": "[CWiidLedFlag]-\u003eCWiidLedFlag",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "cwiidBtn1",
           "package": "hcwiid",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "cwiidBtn1",
           "package": "hcwiid",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "cwiidBtn2",
           "package": "hcwiid",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "cwiidBtn2",
           "package": "hcwiid",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "cwiidBtnA",
           "package": "hcwiid",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "cwiidBtnA",
           "package": "hcwiid",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "cwiidBtnB",
           "package": "hcwiid",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "cwiidBtnB",
           "package": "hcwiid",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "cwiidBtnDown",
           "package": "hcwiid",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "cwiidBtnDown",
           "package": "hcwiid",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "cwiidBtnHome",
           "package": "hcwiid",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "cwiidBtnHome",
           "package": "hcwiid",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "cwiidBtnLeft",
           "package": "hcwiid",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "cwiidBtnLeft",
           "package": "hcwiid",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "cwiidBtnMinus",
           "package": "hcwiid",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "cwiidBtnMinus",
           "package": "hcwiid",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "cwiidBtnPlus",
           "package": "hcwiid",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "cwiidBtnPlus",
           "package": "hcwiid",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "cwiidBtnRight",
           "package": "hcwiid",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "cwiidBtnRight",
           "package": "hcwiid",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "cwiidBtnUp",
           "package": "hcwiid",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "cwiidBtnUp",
           "package": "hcwiid",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "cwiidGetBtnState",
           "package": "hcwiid",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "cwiidGetBtnState",
           "normalized": "CWiidWiimote-\u003eIO CWiidBtnFlag",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "cwiidLed1",
           "package": "hcwiid",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "cwiidLed1",
           "package": "hcwiid",
@@ -524,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "cwiidLed2",
           "package": "hcwiid",
@@ -533,6 +580,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "cwiidLed2",
           "package": "hcwiid",
@@ -546,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "cwiidLed3",
           "package": "hcwiid",
@@ -555,6 +604,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "cwiidLed3",
           "package": "hcwiid",
@@ -568,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "cwiidLed4",
           "package": "hcwiid",
@@ -577,6 +628,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "cwiidLed4",
           "package": "hcwiid",
@@ -590,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "cwiidOpen",
           "package": "hcwiid",
@@ -599,6 +652,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "cwiidOpen",
           "package": "hcwiid",
@@ -612,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "cwiidSetLed",
           "package": "hcwiid",
@@ -621,6 +676,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "cwiidSetLed",
           "normalized": "CWiidWiimote-\u003eIO CInt",
@@ -636,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "cwiidSetRptMode",
           "package": "hcwiid",
@@ -645,6 +702,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "cwiidSetRptMode",
           "normalized": "CWiidWiimote-\u003eIO CInt",
@@ -660,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "diffCwiidBtnFlag",
           "package": "hcwiid",
@@ -669,6 +728,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "diffCwiidBtnFlag",
           "normalized": "CWiidBtnFlag-\u003eCWiidBtnFlag-\u003eCWiidBtnFlag",
@@ -684,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "led",
           "package": "hcwiid",
@@ -693,6 +754,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "led",
           "package": "hcwiid",
@@ -705,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "rptMode",
           "package": "hcwiid",
@@ -714,6 +777,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "rptMode",
           "package": "hcwiid",
@@ -727,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "rumble",
           "package": "hcwiid",
@@ -736,6 +801,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "rumble",
           "package": "hcwiid",
@@ -748,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:13 UTC 2014",
           "module": "System.CWiid",
           "name": "unCWiidBtnFlag",
           "package": "hcwiid",
@@ -757,6 +824,7 @@
         },
         "index": {
           "hierarchy": "System CWiid",
+          "indexed": "2014-03-11T18:35:13",
           "module": "System.CWiid",
           "name": "unCWiidBtnFlag",
           "package": "hcwiid",

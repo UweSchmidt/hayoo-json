@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "happstack-server"
+        "phrase": "happstack-server",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for basic access authentication \u003ca\u003ehttp://en.wikipedia.org/wiki/Basic_access_authentication\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Auth",
           "name": "Auth",
           "package": "happstack-server",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Support for basic access authentication http en.wikipedia.org wiki Basic access authentication",
           "hierarchy": "Happstack Server Auth",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Auth",
           "name": "Auth",
           "package": "happstack-server",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple HTTP basic authentication guard.\n\u003c/p\u003e\u003cp\u003eIf authentication fails, this part will call \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eexample:\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $ \n  msum [ basicAuth \"127.0.0.1\" (fromList [(\"happstack\",\"rocks\")]) $ ok \"You are in the secret club\"\n       , ok \"You are not in the secret club.\" \n       ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Auth",
           "name": "basicAuth",
           "package": "happstack-server",
@@ -51,6 +54,7 @@
         "index": {
           "description": "simple HTTP basic authentication guard If authentication fails this part will call mzero example main simpleHTTP nullConf msum basicAuth fromList happstack rocks ok You are in the secret club ok You are not in the secret club",
           "hierarchy": "Happstack Server Auth",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Auth",
           "name": "basicAuth",
           "normalized": "String-\u003eMap String String-\u003ea b-\u003ea b",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ea very simple interface for acting as an HTTP client. This is mostly used for things like \u003ca\u003eHappstack.Server.Proxy\u003c/a\u003e. You are more likely to want a library like http-enumerator \u003ca\u003ehttp://hackage.haskell.org/package/http-enumerator\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Client",
           "name": "Client",
           "package": "happstack-server",
@@ -76,6 +81,7 @@
         "index": {
           "description": "very simple interface for acting as an HTTP client This is mostly used for things like Happstack.Server.Proxy You are more likely to want library like http-enumerator http hackage.haskell.org package http-enumerator",
           "hierarchy": "Happstack Server Client",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Client",
           "name": "Client",
           "package": "happstack-server",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends the serialized request to the host defined in the request\n and attempts to parse response upon arrival.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Client",
           "name": "getResponse",
           "package": "happstack-server",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Sends the serialized request to the host defined in the request and attempts to parse response upon arrival",
           "hierarchy": "Happstack Server Client",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Client",
           "name": "getResponse",
           "normalized": "Request-\u003eIO(Either String Response)",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFilter for compressing the \u003ccode\u003eResponse\u003c/code\u003e body.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Compression",
           "name": "Compression",
           "package": "happstack-server",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Filter for compressing the Response body",
           "hierarchy": "Happstack Server Compression",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Compression",
           "name": "Compression",
           "package": "happstack-server",
@@ -163,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for creating, adding, and expiring cookies. To lookup cookie values see \u003ca\u003eHappstack.Server.RqData\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Cookie",
           "name": "Cookie",
           "package": "happstack-server",
@@ -172,6 +183,7 @@
         "index": {
           "description": "Functions for creating adding and expiring cookies To lookup cookie values see Happstack.Server.RqData",
           "hierarchy": "Happstack Server Cookie",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Cookie",
           "name": "Cookie",
           "package": "happstack-server",
@@ -186,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea type for HTTP cookies. Usually created using \u003ccode\u003e\u003ca\u003emkCookie\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Cookie",
           "name": "Cookie",
           "package": "happstack-server",
@@ -195,6 +208,7 @@
         "index": {
           "description": "type for HTTP cookies Usually created using mkCookie",
           "hierarchy": "Happstack Server Cookie",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Cookie",
           "name": "Cookie",
           "package": "happstack-server",
@@ -209,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the lifetime of a cookie.\n\u003c/p\u003e\u003cp\u003eNote that we always set the max-age and expires headers because\n internet explorer does not honor max-age. You can specific \u003ccode\u003e\u003ca\u003eMaxAge\u003c/a\u003e\u003c/code\u003e\n or \u003ccode\u003e\u003ca\u003eExpires\u003c/a\u003e\u003c/code\u003e and the other will be calculated for you. Choose which\n ever one makes your life easiest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Cookie",
           "name": "CookieLife",
           "package": "happstack-server",
@@ -218,6 +233,7 @@
         "index": {
           "description": "Specify the lifetime of cookie Note that we always set the max-age and expires headers because internet explorer does not honor max-age You can specific MaxAge or Expires and the other will be calculated for you Choose which ever one makes your life easiest",
           "hierarchy": "Happstack Server Cookie",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Cookie",
           "name": "CookieLife",
           "package": "happstack-server",
@@ -355,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the \u003ccode\u003e\u003ca\u003eCookie\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eexample\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $\n   do addCookie Session (mkCookie \"name\" \"value\")\n      ok $ \"You now have a session cookie.\"\n\u003c/pre\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003eaddCookies\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Cookie",
           "name": "addCookie",
           "package": "happstack-server",
@@ -365,6 +382,7 @@
         "index": {
           "description": "Add the Cookie to Response example main simpleHTTP nullConf do addCookie Session mkCookie name value ok You now have session cookie see also addCookies",
           "hierarchy": "Happstack Server Cookie",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Cookie",
           "name": "addCookie",
           "normalized": "CookieLife-\u003eCookie-\u003ea()",
@@ -381,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the list \u003ccode\u003e\u003ca\u003eCookie\u003c/a\u003e\u003c/code\u003e to the \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003eaddCookie\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Cookie",
           "name": "addCookies",
           "package": "happstack-server",
@@ -391,6 +410,7 @@
         "index": {
           "description": "Add the list Cookie to the Response see also addCookie",
           "hierarchy": "Happstack Server Cookie",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Cookie",
           "name": "addCookies",
           "normalized": "[(CookieLife,Cookie)]-\u003ea()",
@@ -522,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpire the named cookie immediately and set the cookie value to \u003ccode\u003e\"\"\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $\n   do expireCookie \"name\"\n      ok $ \"The cookie has been expired.\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Cookie",
           "name": "expireCookie",
           "package": "happstack-server",
@@ -532,6 +553,7 @@
         "index": {
           "description": "Expire the named cookie immediately and set the cookie value to main simpleHTTP nullConf do expireCookie name ok The cookie has been expired",
           "hierarchy": "Happstack Server Cookie",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Cookie",
           "name": "expireCookie",
           "normalized": "String-\u003ea()",
@@ -619,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome useful functions if you want to wrap the \u003ccode\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/code\u003e monad transformer around the \u003ccode\u003e\u003ca\u003eErrorT\u003c/a\u003e\u003c/code\u003e monad transformer. e.g., \u003ccode\u003e\u003ccode\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eErrorT\u003c/a\u003e\u003c/code\u003e e m) a\u003c/code\u003e. This allows you to use \u003ccode\u003ethrowError\u003c/code\u003e and \u003ccode\u003ecatchError\u003c/code\u003e inside your monad.  \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Error",
           "name": "Error",
           "package": "happstack-server",
@@ -628,6 +651,7 @@
         "index": {
           "description": "Some useful functions if you want to wrap the ServerPartT monad transformer around the ErrorT monad transformer e.g ServerPartT ErrorT This allows you to use throwError and catchError inside your monad",
           "hierarchy": "Happstack Server Error",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Error",
           "name": "Error",
           "package": "happstack-server",
@@ -642,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use spUnwrapErrorT\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eThis \u003ccode\u003eServerPart\u003c/code\u003e modifier enables the use of \u003ccode\u003ethrowError\u003c/code\u003e and\n \u003ccode\u003ecatchError\u003c/code\u003e inside the \u003ccode\u003e\u003ca\u003eWebT\u003c/a\u003e\u003c/code\u003e actions, by adding the \u003ccode\u003e\u003ca\u003eErrorT\u003c/a\u003e\u003c/code\u003e\n monad transformer to the stack.\n\u003c/p\u003e\u003cp\u003eYou can wrap the complete second argument to \u003ccode\u003esimpleHTTP\u003c/code\u003e in this\n function.\n\u003c/p\u003e\u003cp\u003eDEPRECATED: use \u003ccode\u003e\u003ca\u003espUnwrapErrorT\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Error",
           "name": "errorHandlerSP",
           "package": "happstack-server",
@@ -652,6 +677,7 @@
         "index": {
           "description": "Deprecated Use spUnwrapErrorT This ServerPart modifier enables the use of throwError and catchError inside the WebT actions by adding the ErrorT monad transformer to the stack You can wrap the complete second argument to simpleHTTP in this function DEPRECATED use spUnwrapErrorT instead",
           "hierarchy": "Happstack Server Error",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Error",
           "name": "errorHandlerSP",
           "normalized": "(Request-\u003ea-\u003eWebT b c)-\u003eServerPartT(ErrorT a b)c-\u003eServerPartT b c",
@@ -668,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple error handler which can be used with \u003ccode\u003e\u003ca\u003espUnwrapErrorT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIt returns the error message as a plain text message to the\n browser. More sophisticated behaviour can be achieved by calling\n your own custom error handler instead.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003espUnwrapErrorT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Error",
           "name": "simpleErrorHandler",
           "package": "happstack-server",
@@ -678,6 +705,7 @@
         "index": {
           "description": "simple error handler which can be used with spUnwrapErrorT It returns the error message as plain text message to the browser More sophisticated behaviour can be achieved by calling your own custom error handler instead see also spUnwrapErrorT",
           "hierarchy": "Happstack Server Error",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Error",
           "name": "simpleErrorHandler",
           "normalized": "String-\u003eServerPartT a Response",
@@ -694,6 +722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten \u003ccode\u003e\u003ccode\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eErrorT\u003c/a\u003e\u003c/code\u003e e m) a\u003c/code\u003e into a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/code\u003e m\n a\u003c/code\u003e so that it can be use with \u003ccode\u003esimpleHTTP\u003c/code\u003e.  Used with\n \u003ccode\u003emapServerPartT'\u003c/code\u003e, e.g.,\n\u003c/p\u003e\u003cpre\u003e simpleHTTP conf $ mapServerPartT' (spUnWrapErrorT simpleErrorHandler)  $ myPart `catchError` errorPart\n\u003c/pre\u003e\u003cp\u003eNote that in this example, \u003ccode\u003esimpleErrorHandler\u003c/code\u003e will only be run if \u003ccode\u003eerrorPart\u003c/code\u003e throws an error. You can replace \u003ccode\u003esimpleErrorHandler\u003c/code\u003e with your own custom error handler.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003esimpleErrorHandler\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Error",
           "name": "spUnwrapErrorT",
           "package": "happstack-server",
@@ -704,6 +733,7 @@
         "index": {
           "description": "Flatten ServerPartT ErrorT into ServerPartT so that it can be use with simpleHTTP Used with mapServerPartT e.g simpleHTTP conf mapServerPartT spUnWrapErrorT simpleErrorHandler myPart catchError errorPart Note that in this example simpleErrorHandler will only be run if errorPart throws an error You can replace simpleErrorHandler with your own custom error handler see also simpleErrorHandler",
           "hierarchy": "Happstack Server Error",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Error",
           "name": "spUnwrapErrorT",
           "normalized": "(a-\u003eServerPartT b c)-\u003eRequest-\u003eUnWebT(ErrorT a b)c-\u003eUnWebT b c",
@@ -720,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBuild your own file serving functions\n\u003c/p\u003e\u003cp\u003eIf the functions in \u003ca\u003eHappstack.Server.FileServe\u003c/a\u003e do not quite do\n you want you can roll your own by reusing pieces from this module.\n\u003c/p\u003e\u003cp\u003eYou will likely want to start by copying the source for a function\n like, \u003ccode\u003e\u003ca\u003eserveDirectory\u003c/a\u003e\u003c/code\u003e and then modifying it to suit your needs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "BuildingBlocks",
           "package": "happstack-server",
@@ -729,6 +760,7 @@
         "index": {
           "description": "Build your own file serving functions If the functions in Happstack.Server.FileServe do not quite do you want you can roll your own by reusing pieces from this module You will likely want to start by copying the source for function like serveDirectory and then modifying it to suit your needs",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "BuildingBlocks",
           "package": "happstack-server",
@@ -743,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003eserveDirectory\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "Browsing",
           "package": "happstack-server",
@@ -752,6 +785,7 @@
         "index": {
           "description": "see serveDirectory",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "Browsing",
           "package": "happstack-server",
@@ -765,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "EntryKind",
           "package": "happstack-server",
@@ -773,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "EntryKind",
           "package": "happstack-server",
@@ -787,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e from file extensions to content-types\n\u003c/p\u003e\u003cp\u003eexample:\n\u003c/p\u003e\u003cpre\u003e myMimeMap :: MimeMap\n myMimeMap = Map.fromList [(\"gz\",\"application/x-gzip\"), ... ]\n\u003c/pre\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003emimeTypes\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "MimeMap",
           "package": "happstack-server",
@@ -796,6 +833,7 @@
         "index": {
           "description": "Map from file extensions to content-types example myMimeMap MimeMap myMimeMap Map.fromList gz application x-gzip see also mimeTypes",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "MimeMap",
           "package": "happstack-server",
@@ -809,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "Directory",
           "package": "happstack-server",
@@ -818,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "Directory",
           "package": "happstack-server",
@@ -877,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "File",
           "package": "happstack-server",
@@ -886,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "File",
           "package": "happstack-server",
@@ -899,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "UnknownKind",
           "package": "happstack-server",
@@ -908,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "UnknownKind",
           "package": "happstack-server",
@@ -948,6 +992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrevents files of the form '.foo' or 'bar/.foo' from being served\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "blockDotFiles",
           "package": "happstack-server",
@@ -958,6 +1003,7 @@
         "index": {
           "description": "Prevents files of the form foo or bar foo from being served",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "blockDotFiles",
           "normalized": "(Request-\u003eIO Response)-\u003eRequest-\u003eIO Response",
@@ -973,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "browseIndex",
           "package": "happstack-server",
@@ -982,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "browseIndex",
           "normalized": "(FilePath-\u003e[FilePath]-\u003ea b)-\u003e(String-\u003eFilePath-\u003ea Response)-\u003e(FilePath-\u003ea String)-\u003e[String]-\u003eFilePath-\u003ea Response",
@@ -998,6 +1046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003es, ensuring that the resulting path leads to\n a file within the first \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ecombineSafe \"/var/uploads/\" \"etc/passwd\"\n\u003c/code\u003e\u003c/strong\u003eJust \"/var/uploads/etc/passwd\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ecombineSafe \"/var/uploads/\" \"/etc/passwd\"\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ecombineSafe \"/var/uploads/\" \"../../etc/passwd\"\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ecombineSafe \"/var/uploads/\" \"../uploads/home/../etc/passwd\"\n\u003c/code\u003e\u003c/strong\u003eJust \"/var/uploads/etc/passwd\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "combineSafe",
           "package": "happstack-server",
@@ -1008,6 +1057,7 @@
         "index": {
           "description": "Combine two FilePath ensuring that the resulting path leads to file within the first FilePath combineSafe var uploads etc passwd Just var uploads etc passwd combineSafe var uploads etc passwd Nothing combineSafe var uploads etc passwd Nothing combineSafe var uploads uploads home etc passwd Just var uploads etc passwd",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "combineSafe",
           "normalized": "FilePath-\u003eFilePath-\u003eMaybe FilePath",
@@ -1051,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eattempt to serve index files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "doIndex",
           "package": "happstack-server",
@@ -1060,6 +1111,7 @@
         "index": {
           "description": "attempt to serve index files",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "doIndex",
           "normalized": "[FilePath]-\u003eMimeMap-\u003eFilePath-\u003ea Response",
@@ -1075,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "doIndex'",
           "package": "happstack-server",
@@ -1084,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "doIndex'",
           "normalized": "(String-\u003eFilePath-\u003ea Response)-\u003e(FilePath-\u003ea String)-\u003e[String]-\u003eFilePath-\u003ea Response",
@@ -1099,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "doIndexLazy",
           "package": "happstack-server",
@@ -1108,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "doIndexLazy",
           "normalized": "[String]-\u003eMimeMap-\u003eFilePath-\u003ea Response",
@@ -1123,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "doIndexStrict",
           "package": "happstack-server",
@@ -1132,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "doIndexStrict",
           "normalized": "[String]-\u003eMimeMap-\u003eFilePath-\u003ea Response",
@@ -1148,6 +1206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn a simple \u003ca\u003eFile not found 404 page.\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "fileNotFound",
           "package": "happstack-server",
@@ -1158,6 +1217,7 @@
         "index": {
           "description": "return simple File not found page",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "fileNotFound",
           "normalized": "FilePath-\u003ea Response",
@@ -1174,6 +1234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend the specified file with the specified mime-type using lazy ByteStrings\n\u003c/p\u003e\u003cp\u003eNOTE: assumes file exists and is readable by the server. See \u003ccode\u003e\u003ca\u003eserveFileUsing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWARNING: No security checks are performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "filePathLazy",
           "package": "happstack-server",
@@ -1183,6 +1244,7 @@
         "index": {
           "description": "Send the specified file with the specified mime-type using lazy ByteStrings NOTE assumes file exists and is readable by the server See serveFileUsing WARNING No security checks are performed",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "filePathLazy",
           "normalized": "String-\u003eFilePath-\u003ea Response",
@@ -1199,6 +1261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend the specified file with the specified mime-type using sendFile()\n\u003c/p\u003e\u003cp\u003eNOTE: assumes file exists and is readable by the server. See \u003ccode\u003e\u003ca\u003eserveFileUsing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWARNING: No security checks are performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "filePathSendFile",
           "package": "happstack-server",
@@ -1208,6 +1271,7 @@
         "index": {
           "description": "Send the specified file with the specified mime-type using sendFile NOTE assumes file exists and is readable by the server See serveFileUsing WARNING No security checks are performed",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "filePathSendFile",
           "normalized": "String-\u003eFilePath-\u003ea Response",
@@ -1224,6 +1288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend the specified file with the specified mime-type using strict ByteStrings\n\u003c/p\u003e\u003cp\u003eNOTE: assumes file exists and is readable by the server. See \u003ccode\u003e\u003ca\u003eserveFileUsing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWARNING: No security checks are performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "filePathStrict",
           "package": "happstack-server",
@@ -1233,6 +1298,7 @@
         "index": {
           "description": "Send the specified file with the specified mime-type using strict ByteStrings NOTE assumes file exists and is readable by the server See serveFileUsing WARNING No security checks are performed",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "filePathStrict",
           "normalized": "String-\u003eFilePath-\u003ea Response",
@@ -1275,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServe files from a directory and its subdirectories (parameterizable version)\n\u003c/p\u003e\u003cp\u003eParameterize this function to create functions like, \u003ccode\u003e\u003ca\u003efileServe\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efileServeLazy\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003efileServeStrict\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eYou supply:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e a low-level function which takes a content-type and \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e and generates a Response\n\u003c/li\u003e\u003cli\u003e a function which determines the content-type from the \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e a list of all the default index files\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eNOTE: unlike fileServe, there are no index files by default. See \u003ccode\u003e\u003ca\u003edefaultIxFiles\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "fileServe'",
           "package": "happstack-server",
@@ -1284,6 +1351,7 @@
         "index": {
           "description": "Serve files from directory and its subdirectories parameterizable version Parameterize this function to create functions like fileServe fileServeLazy and fileServeStrict You supply low-level function which takes content-type and FilePath and generates Response function which determines the content-type from the FilePath list of all the default index files NOTE unlike fileServe there are no index files by default See defaultIxFiles",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "fileServe'",
           "normalized": "(String-\u003eFilePath-\u003ea Response)-\u003e(FilePath-\u003ea String)-\u003e(FilePath-\u003ea Response)-\u003eFilePath-\u003ea Response",
@@ -1300,6 +1368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServe files from a directory and its subdirectories (lazy ByteString version).\n\u003c/p\u003e\u003cp\u003eWARNING: May leak file handles. You should probably use \u003ccode\u003e\u003ca\u003efileServe\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "fileServeLazy",
           "package": "happstack-server",
@@ -1309,6 +1378,7 @@
         "index": {
           "description": "Serve files from directory and its subdirectories lazy ByteString version WARNING May leak file handles You should probably use fileServe instead",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "fileServeLazy",
           "normalized": "[FilePath]-\u003eFilePath-\u003ea Response",
@@ -1325,6 +1395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServe files from a directory and its subdirectories (strict ByteString version).\n\u003c/p\u003e\u003cp\u003eWARNING: the entire file will be read into RAM before being served. You should probably use \u003ccode\u003e\u003ca\u003efileServe\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "fileServeStrict",
           "package": "happstack-server",
@@ -1334,6 +1405,7 @@
         "index": {
           "description": "Serve files from directory and its subdirectories strict ByteString version WARNING the entire file will be read into RAM before being served You should probably use fileServe instead",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "fileServeStrict",
           "normalized": "[FilePath]-\u003eFilePath-\u003ea Response",
@@ -1350,6 +1422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etry to guess the content-type of a file based on its extension\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003eguessContentTypeM\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "guessContentType",
           "package": "happstack-server",
@@ -1360,6 +1433,7 @@
         "index": {
           "description": "try to guess the content-type of file based on its extension see also guessContentTypeM",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "guessContentType",
           "normalized": "MimeMap-\u003eFilePath-\u003eMaybe String",
@@ -1403,6 +1477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the given String either starts with a . or is of the form\n \u003ca\u003efoo/.bar\u003c/a\u003e, e.g. the typical *nix convention for hidden files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "isDot",
           "package": "happstack-server",
@@ -1413,6 +1488,7 @@
         "index": {
           "description": "Returns True if the given String either starts with or is of the form foo bar e.g the typical nix convention for hidden files",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "isDot",
           "normalized": "String-\u003eBool",
@@ -1428,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "isSafePath",
           "package": "happstack-server",
@@ -1437,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "isSafePath",
           "normalized": "[FilePath]-\u003eBool",
@@ -1453,6 +1531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend the contents of a Lazy ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "lazyByteStringResponse",
           "package": "happstack-server",
@@ -1462,6 +1541,7 @@
         "index": {
           "description": "Send the contents of Lazy ByteString",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "lazyByteStringResponse",
           "normalized": "String-\u003eByteString-\u003eMaybe(UTCTime,Request)-\u003eInteger-\u003eInteger-\u003eResponse",
@@ -1503,6 +1583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea function to generate an HTML page showing the contents of a directory on the disk\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003ebrowseIndex\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003erenderDirectoryContentsTable\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "renderDirectoryContents",
           "package": "happstack-server",
@@ -1512,6 +1593,7 @@
         "index": {
           "description": "function to generate an HTML page showing the contents of directory on the disk see also browseIndex renderDirectoryContentsTable",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "renderDirectoryContents",
           "normalized": "FilePath-\u003e[FilePath]-\u003ea Html",
@@ -1528,6 +1610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea function to generate an HTML table showing the contents of a directory on the disk\n\u003c/p\u003e\u003cp\u003eThis function generates most of the content of the\n \u003ccode\u003e\u003ca\u003erenderDirectoryContents\u003c/a\u003e\u003c/code\u003e page. If you want to style the page\n differently, or add google analytics code, etc, you can just create\n a new page template to wrap around this HTML.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003egetMetaData\u003c/code\u003e, \u003ccode\u003e\u003ca\u003erenderDirectoryContents\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "renderDirectoryContentsTable",
           "package": "happstack-server",
@@ -1537,6 +1620,7 @@
         "index": {
           "description": "function to generate an HTML table showing the contents of directory on the disk This function generates most of the content of the renderDirectoryContents page If you want to style the page differently or add google analytics code etc you can just create new page template to wrap around this HTML see also getMetaData renderDirectoryContents",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "renderDirectoryContentsTable",
           "normalized": "[(FilePath,Maybe UTCTime,Maybe Integer,EntryKind)]-\u003eHtml",
@@ -1553,6 +1637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse sendFile to send the contents of a Handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "sendFileResponse",
           "package": "happstack-server",
@@ -1562,6 +1647,7 @@
         "index": {
           "description": "Use sendFile to send the contents of Handle",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "sendFileResponse",
           "normalized": "String-\u003eFilePath-\u003eMaybe(UTCTime,Request)-\u003eInteger-\u003eInteger-\u003eResponse",
@@ -1604,6 +1690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike \u003ccode\u003e\u003ca\u003eserveDirectory\u003c/a\u003e\u003c/code\u003e but with custom mimeTypes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "serveDirectory'",
           "package": "happstack-server",
@@ -1613,6 +1700,7 @@
         "index": {
           "description": "like serveDirectory but with custom mimeTypes",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "serveDirectory'",
           "normalized": "Browsing-\u003e[FilePath]-\u003e(FilePath-\u003ea String)-\u003eFilePath-\u003ea Response",
@@ -1681,6 +1769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServe a single, specified file. The name of the file being served is specified explicity. It is not derived automatically from the \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e url.\n\u003c/p\u003e\u003cp\u003eexample 1:\n\u003c/p\u003e\u003cp\u003eServe using sendfile() and the specified content-type\n\u003c/p\u003e\u003cpre\u003e serveFileUsing filePathSendFile (asContentType \"image/jpeg\") \"/srv/data/image.jpg\"\n\u003c/pre\u003e\u003cp\u003eexample 2:\n\u003c/p\u003e\u003cp\u003eServe using a lazy ByteString and the guess the content-type from the extension\n\u003c/p\u003e\u003cpre\u003e serveFileUsing filePathLazy (guessContentTypeM mimeTypes) \"/srv/data/image.jpg\"\n\u003c/pre\u003e\u003cp\u003eWARNING: No security checks are performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "serveFileUsing",
           "package": "happstack-server",
@@ -1690,6 +1779,7 @@
         "index": {
           "description": "Serve single specified file The name of the file being served is specified explicity It is not derived automatically from the Request url example Serve using sendfile and the specified content-type serveFileUsing filePathSendFile asContentType image jpeg srv data image.jpg example Serve using lazy ByteString and the guess the content-type from the extension serveFileUsing filePathLazy guessContentTypeM mimeTypes srv data image.jpg WARNING No security checks are performed",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "serveFileUsing",
           "normalized": "(String-\u003eFilePath-\u003ea Response)-\u003e(FilePath-\u003ea String)-\u003eFilePath-\u003ea Response",
@@ -1706,6 +1796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend the contents of a Lazy ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "strictByteStringResponse",
           "package": "happstack-server",
@@ -1715,6 +1806,7 @@
         "index": {
           "description": "Send the contents of Lazy ByteString",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "strictByteStringResponse",
           "normalized": "String-\u003eByteString-\u003eMaybe(UTCTime,Request)-\u003eInteger-\u003eInteger-\u003eResponse",
@@ -1731,6 +1823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etry to find an index file, calls mzero on failure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "tryIndex",
           "package": "happstack-server",
@@ -1740,6 +1833,7 @@
         "index": {
           "description": "try to find an index file calls mzero on failure",
           "hierarchy": "Happstack Server FileServe BuildingBlocks",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe.BuildingBlocks",
           "name": "tryIndex",
           "normalized": "(String-\u003eFilePath-\u003ea Response)-\u003e(FilePath-\u003ea String)-\u003e[String]-\u003eFilePath-\u003ea Response",
@@ -1756,6 +1850,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003efunctions for serving static files from the disk\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe",
           "name": "FileServe",
           "package": "happstack-server",
@@ -1765,6 +1860,7 @@
         "index": {
           "description": "functions for serving static files from the disk",
           "hierarchy": "Happstack Server FileServe",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe",
           "name": "FileServe",
           "package": "happstack-server",
@@ -1779,6 +1875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003eserveDirectory\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe",
           "name": "Browsing",
           "package": "happstack-server",
@@ -1788,6 +1885,7 @@
         "index": {
           "description": "see serveDirectory",
           "hierarchy": "Happstack Server FileServe",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe",
           "name": "Browsing",
           "package": "happstack-server",
@@ -1802,6 +1900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e from file extensions to content-types\n\u003c/p\u003e\u003cp\u003eexample:\n\u003c/p\u003e\u003cpre\u003e myMimeMap :: MimeMap\n myMimeMap = Map.fromList [(\"gz\",\"application/x-gzip\"), ... ]\n\u003c/pre\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003emimeTypes\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.FileServe",
           "name": "MimeMap",
           "package": "happstack-server",
@@ -1811,6 +1910,7 @@
         "index": {
           "description": "Map from file extensions to content-types example myMimeMap MimeMap myMimeMap Map.fromList gz application x-gzip see also mimeTypes",
           "hierarchy": "Happstack Server FileServe",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.FileServe",
           "name": "MimeMap",
           "package": "happstack-server",
@@ -1824,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.I18N",
           "name": "I18N",
           "package": "happstack-server",
@@ -1832,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server I18N",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.I18N",
           "name": "I18N",
           "package": "happstack-server",
@@ -1845,6 +1947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse the 'Accept-Language' header, or [] if not found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.I18N",
           "name": "acceptLanguage",
           "package": "happstack-server",
@@ -1855,6 +1958,7 @@
         "index": {
           "description": "parse the Accept-Language header or if not found",
           "hierarchy": "Happstack Server I18N",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.I18N",
           "name": "acceptLanguage",
           "normalized": "a[(Text,Maybe Double)]",
@@ -1871,6 +1975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edeconstruct the \u003ccode\u003e\u003ca\u003eacceptLanguage\u003c/a\u003e\u003c/code\u003e results a return a list of\n languages sorted by preference in descending order.\n\u003c/p\u003e\u003cp\u003eNote: this implementation does not conform to RFC4647\n\u003c/p\u003e\u003cp\u003eAmong other things, it does not handle wildcards. A proper\n implementation needs to take a list of available languages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.I18N",
           "name": "bestLanguage",
           "package": "happstack-server",
@@ -1881,6 +1986,7 @@
         "index": {
           "description": "deconstruct the acceptLanguage results return list of languages sorted by preference in descending order Note this implementation does not conform to RFC4647 Among other things it does not handle wildcards proper implementation needs to take list of available languages",
           "hierarchy": "Happstack Server I18N",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.I18N",
           "name": "bestLanguage",
           "normalized": "[(Text,Maybe Double)]-\u003e[Text]",
@@ -1897,6 +2003,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFilter for compressing the \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e body.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Compression",
           "name": "Compression",
           "package": "happstack-server",
@@ -1906,6 +2013,7 @@
         "index": {
           "description": "Filter for compressing the Response body",
           "hierarchy": "Happstack Server Internal Compression",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Compression",
           "name": "Compression",
           "package": "happstack-server",
@@ -1920,6 +2028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnore the \u003ccode\u003eAccept-Encoding\u003c/code\u003e header in the \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e and attempt to compress the body of the response using the supplied compressor.\n\u003c/p\u003e\u003cp\u003eWe can not compress files being transfered using \u003ccode\u003e\u003ca\u003eSendFile\u003c/a\u003e\u003c/code\u003e. If\n \u003ccode\u003eidentity\u003c/code\u003e is an allowed encoding, then just return the \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e\n unmodified. Otherwise we return \u003ca\u003e406 Not Acceptable\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003egzipFilter\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003edefaultFilter\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Compression",
           "name": "compressWithFilter",
           "package": "happstack-server",
@@ -1929,6 +2038,7 @@
         "index": {
           "description": "Ignore the Accept-Encoding header in the Request and attempt to compress the body of the response using the supplied compressor We can not compress files being transfered using SendFile If identity is an allowed encoding then just return the Response unmodified Otherwise we return Not Acceptable see also gzipFilter and defaultFilter",
           "hierarchy": "Happstack Server Internal Compression",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Compression",
           "name": "compressWithFilter",
           "normalized": "(ByteString-\u003eByteString)-\u003eString-\u003eBool-\u003ea()",
@@ -1945,6 +2055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnore the \u003ccode\u003eAccept-Encoding\u003c/code\u003e header in the \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e and attempt compress the body of the response with zlib's\n \u003ccode\u003edeflate\u003c/code\u003e method\n\u003c/p\u003e\u003cp\u003ecalls \u003ccode\u003e\u003ca\u003ecompressWithFilter\u003c/a\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003ecompress\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003ecompressedResponseFilter\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Compression",
           "name": "deflateFilter",
           "package": "happstack-server",
@@ -1954,6 +2065,7 @@
         "index": {
           "description": "Ignore the Accept-Encoding header in the Request and attempt compress the body of the response with zlib deflate method calls compressWithFilter using compress see also compressedResponseFilter",
           "hierarchy": "Happstack Server Internal Compression",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Compression",
           "name": "deflateFilter",
           "normalized": "String-\u003eBool-\u003ea()",
@@ -1970,6 +2082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea parser for the Accept-Encoding header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Compression",
           "name": "encodings",
           "package": "happstack-server",
@@ -1980,6 +2093,7 @@
         "index": {
           "description": "parser for the Accept-Encoding header",
           "hierarchy": "Happstack Server Internal Compression",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Compression",
           "name": "encodings",
           "normalized": "GenParser Char a[(String,Maybe Double)]",
@@ -1995,6 +2109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnore the \u003ccode\u003eAccept-Encoding\u003c/code\u003e header in the \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e and attempt to compress the body of the response with \u003ccode\u003egzip\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003ecalls \u003ccode\u003e\u003ca\u003ecompressWithFilter\u003c/a\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003ecompress\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003ecompressedResponseFilter\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Compression",
           "name": "gzipFilter",
           "package": "happstack-server",
@@ -2004,6 +2119,7 @@
         "index": {
           "description": "Ignore the Accept-Encoding header in the Request and attempt to compress the body of the response with gzip calls compressWithFilter using compress see also compressedResponseFilter",
           "hierarchy": "Happstack Server Internal Compression",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Compression",
           "name": "gzipFilter",
           "normalized": "String-\u003eBool-\u003ea()",
@@ -2019,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "Cookie",
           "package": "happstack-server",
@@ -2027,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Cookie",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "Cookie",
           "package": "happstack-server",
@@ -2041,6 +2159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea type for HTTP cookies. Usually created using \u003ccode\u003e\u003ca\u003emkCookie\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "Cookie",
           "package": "happstack-server",
@@ -2050,6 +2169,7 @@
         "index": {
           "description": "type for HTTP cookies Usually created using mkCookie",
           "hierarchy": "Happstack Server Internal Cookie",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "Cookie",
           "package": "happstack-server",
@@ -2064,6 +2184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the lifetime of a cookie.\n\u003c/p\u003e\u003cp\u003eNote that we always set the max-age and expires headers because\n internet explorer does not honor max-age. You can specific \u003ccode\u003e\u003ca\u003eMaxAge\u003c/a\u003e\u003c/code\u003e\n or \u003ccode\u003e\u003ca\u003eExpires\u003c/a\u003e\u003c/code\u003e and the other will be calculated for you. Choose which\n ever one makes your life easiest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "CookieLife",
           "package": "happstack-server",
@@ -2073,6 +2194,7 @@
         "index": {
           "description": "Specify the lifetime of cookie Note that we always set the max-age and expires headers because internet explorer does not honor max-age You can specific MaxAge or Expires and the other will be calculated for you Choose which ever one makes your life easiest",
           "hierarchy": "Happstack Server Internal Cookie",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "CookieLife",
           "package": "happstack-server",
@@ -2086,6 +2208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "calcLife",
           "package": "happstack-server",
@@ -2095,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Cookie",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "calcLife",
           "normalized": "CookieLife-\u003eIO(Maybe(Int,UTCTime))",
@@ -2111,6 +2235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enot a supported api.  A parser for RFC 2109 cookies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "cookiesParser",
           "package": "happstack-server",
@@ -2121,6 +2246,7 @@
         "index": {
           "description": "not supported api parser for RFC cookies",
           "hierarchy": "Happstack Server Internal Cookie",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "cookiesParser",
           "normalized": "GenParser Char a[Cookie]",
@@ -2137,6 +2263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the most specific cookie with the given name. Fails if there is no such\n cookie or if the browser did not escape cookies in a proper fashion.\n Browser support for escaping cookies properly is very diverse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "getCookie",
           "package": "happstack-server",
@@ -2147,6 +2274,7 @@
         "index": {
           "description": "Get the most specific cookie with the given name Fails if there is no such cookie or if the browser did not escape cookies in proper fashion Browser support for escaping cookies properly is very diverse",
           "hierarchy": "Happstack Server Internal Cookie",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "getCookie",
           "normalized": "String-\u003eByteString-\u003ea Cookie",
@@ -2162,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "getCookie'",
           "package": "happstack-server",
@@ -2171,6 +2300,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Cookie",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "getCookie'",
           "normalized": "String-\u003eByteString-\u003ea(Either String Cookie)",
@@ -2187,6 +2317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all cookies from the HTTP request. The cookies are ordered per RFC from\n the most specific to the least specific. Multiple cookies with the same\n name are allowed to exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "getCookies",
           "package": "happstack-server",
@@ -2197,6 +2328,7 @@
         "index": {
           "description": "Get all cookies from the HTTP request The cookies are ordered per RFC from the most specific to the least specific Multiple cookies with the same name are allowed to exist",
           "hierarchy": "Happstack Server Internal Cookie",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "getCookies",
           "normalized": "ByteString-\u003ea[Cookie]",
@@ -2212,6 +2344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "getCookies'",
           "package": "happstack-server",
@@ -2221,6 +2354,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Cookie",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "getCookies'",
           "normalized": "ByteString-\u003ea(Either String[Cookie])",
@@ -2237,6 +2371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a Cookie in the Result.\n The values are escaped as per RFC 2109, but some browsers may\n have buggy support for cookies containing e.g. \u003ccode\u003e'\"'\u003c/code\u003e or \u003ccode\u003e' '\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAlso, it seems that chrome, safari, and other webkit browsers do\n not like cookies which have double quotes around the domain and\n reject/ignore the cookie. So, we no longer quote the domain.\n\u003c/p\u003e\u003cp\u003einternet explorer does not honor the max-age directive so we set\n both max-age and expires.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eCookieLife\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ecalcLife\u003c/a\u003e\u003c/code\u003e for a convenient way of calculating\n the first argument to this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "mkCookieHeader",
           "package": "happstack-server",
@@ -2247,6 +2382,7 @@
         "index": {
           "description": "Set Cookie in the Result The values are escaped as per RFC but some browsers may have buggy support for cookies containing e.g or Also it seems that chrome safari and other webkit browsers do not like cookies which have double quotes around the domain and reject ignore the cookie So we no longer quote the domain internet explorer does not honor the max-age directive so we set both max-age and expires See CookieLife and calcLife for convenient way of calculating the first argument to this function",
           "hierarchy": "Happstack Server Internal Cookie",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "mkCookieHeader",
           "normalized": "Maybe(Int,UTCTime)-\u003eCookie-\u003eString",
@@ -2263,6 +2399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot an supported api.  Takes a cookie header and returns\n either a String error message or an array of parsed cookies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "parseCookies",
           "package": "happstack-server",
@@ -2273,6 +2410,7 @@
         "index": {
           "description": "Not an supported api Takes cookie header and returns either String error message or an array of parsed cookies",
           "hierarchy": "Happstack Server Internal Cookie",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Cookie",
           "name": "parseCookies",
           "normalized": "String-\u003eEither String[Cookie]",
@@ -2288,6 +2426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Handler",
           "name": "Handler",
           "package": "happstack-server",
@@ -2296,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Handler",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Handler",
           "name": "Handler",
           "package": "happstack-server",
@@ -2310,6 +2450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnserializes the bytestring into a response.  If there is an\n error it will return \u003ccode\u003eLeft msg\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Handler",
           "name": "parseResponse",
           "package": "happstack-server",
@@ -2320,6 +2461,7 @@
         "index": {
           "description": "Unserializes the bytestring into response If there is an error it will return Left msg",
           "hierarchy": "Happstack Server Internal Handler",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Handler",
           "name": "parseResponse",
           "normalized": "ByteString-\u003eEither String Response",
@@ -2336,6 +2478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerializes the request to the given handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Handler",
           "name": "putRequest",
           "package": "happstack-server",
@@ -2346,6 +2489,7 @@
         "index": {
           "description": "Serializes the request to the given handle",
           "hierarchy": "Happstack Server Internal Handler",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Handler",
           "name": "putRequest",
           "normalized": "Handle-\u003eRequest-\u003eIO()",
@@ -2361,6 +2505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Handler",
           "name": "request",
           "package": "happstack-server",
@@ -2370,6 +2515,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Handler",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Handler",
           "name": "request",
           "normalized": "TimeoutIO-\u003eMaybe(LogAccess UTCTime)-\u003eHost-\u003e(Request-\u003eIO Response)-\u003eIO()",
@@ -2384,6 +2530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Listen",
           "name": "Listen",
           "package": "happstack-server",
@@ -2392,6 +2539,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Listen",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Listen",
           "name": "Listen",
           "package": "happstack-server",
@@ -2406,6 +2554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind and listen port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Listen",
           "name": "listen",
           "package": "happstack-server",
@@ -2416,6 +2565,7 @@
         "index": {
           "description": "Bind and listen port",
           "hierarchy": "Happstack Server Internal Listen",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Listen",
           "name": "listen",
           "normalized": "Conf-\u003e(Request-\u003eIO Response)-\u003eIO()",
@@ -2431,6 +2581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a previously bind port and listen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Listen",
           "name": "listen'",
           "package": "happstack-server",
@@ -2441,6 +2592,7 @@
         "index": {
           "description": "Use previously bind port and listen",
           "hierarchy": "Happstack Server Internal Listen",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Listen",
           "name": "listen'",
           "normalized": "Socket-\u003eConf-\u003e(Request-\u003eIO Response)-\u003eIO()",
@@ -2455,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Listen",
           "name": "listenOn",
           "package": "happstack-server",
@@ -2464,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Listen",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Listen",
           "name": "listenOn",
           "normalized": "Int-\u003eIO Socket",
@@ -2479,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Listen",
           "name": "listenOnIPv4",
           "package": "happstack-server",
@@ -2487,6 +2642,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Listen",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Listen",
           "name": "listenOnIPv4",
           "normalized": "String-\u003eInt-\u003eIO Socket",
@@ -2502,6 +2658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.LogFormat",
           "name": "LogFormat",
           "package": "happstack-server",
@@ -2510,6 +2667,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal LogFormat",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.LogFormat",
           "name": "LogFormat",
           "package": "happstack-server",
@@ -2524,6 +2682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat the request as describe in the Apache combined log format.\n   http:\u003cem/\u003ehttpd.apache.org\u003cem\u003edocs\u003c/em\u003e2.2/logs.html#combined\n\u003c/p\u003e\u003cp\u003eThe format is: \u003ca\u003e%h - %u %t \"%r\" %\u003es %b \"%{Referer}i\" \"%{User-agent}i\"\u003c/a\u003e\n %h:            This is the IP address of the client (remote host) which made the request to the server.\n %u:            This is the userid of the person requesting the document as determined by HTTP authentication.\n %t:            The time that the request was received.\n %r:            The request line from the client is given in double quotes.\n %\u003es:           This is the status code that the server sends back to the client.\n %b:            The last part indicates the size of the object returned to the client, not including the response headers.\n %{Referer}:    The \u003ca\u003eReferer\u003c/a\u003e (sic) HTTP request header.\n %{User-agent}: The User-Agent HTTP request header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.LogFormat",
           "name": "formatRequestCombined",
           "package": "happstack-server",
@@ -2534,6 +2693,7 @@
         "index": {
           "description": "Format the request as describe in the Apache combined log format http httpd.apache.org docs logs.html combined The format is Referer User-agent This is the IP address of the client remote host which made the request to the server This is the userid of the person requesting the document as determined by HTTP authentication The time that the request was received The request line from the client is given in double quotes This is the status code that the server sends back to the client The last part indicates the size of the object returned to the client not including the response headers Referer The Referer sic HTTP request header User-agent The User-Agent HTTP request header",
           "hierarchy": "Happstack Server Internal LogFormat",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.LogFormat",
           "name": "formatRequestCombined",
           "normalized": "String-\u003eString-\u003ea-\u003eString-\u003eInt-\u003eInteger-\u003eString-\u003eString-\u003eString",
@@ -2550,6 +2710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat the time as describe in the Apache combined log format.\n   http:\u003cem/\u003ehttpd.apache.org\u003cem\u003edocs\u003c/em\u003e2.2/logs.html#combined\n\u003c/p\u003e\u003cp\u003eThe format is:\n   [day\u003cem\u003emonth\u003c/em\u003eyear:hour:minute:second zone]\n    day = 2*digit\n    month = 3*letter\n    year = 4*digit\n    hour = 2*digit\n    minute = 2*digit\n    second = 2*digit\n    zone = (\u003ccode\u003e\u003ca\u003e+\u003c/a\u003e\u003c/code\u003e | \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e) 4*digit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.LogFormat",
           "name": "formatTimeCombined",
           "package": "happstack-server",
@@ -2560,6 +2721,7 @@
         "index": {
           "description": "Format the time as describe in the Apache combined log format http httpd.apache.org docs logs.html combined The format is day month year hour minute second zone day digit month letter year digit hour digit minute digit second digit zone digit",
           "hierarchy": "Happstack Server Internal LogFormat",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.LogFormat",
           "name": "formatTimeCombined",
           "normalized": "a-\u003eString",
@@ -2575,6 +2737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.LowLevel",
           "name": "LowLevel",
           "package": "happstack-server",
@@ -2583,6 +2746,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal LowLevel",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.LowLevel",
           "name": "LowLevel",
           "package": "happstack-server",
@@ -2596,6 +2760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "MessageWrap",
           "package": "happstack-server",
@@ -2604,6 +2769,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal MessageWrap",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "MessageWrap",
           "package": "happstack-server",
@@ -2618,6 +2784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003edefaultBodyPolicy\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "BodyPolicy",
           "package": "happstack-server",
@@ -2627,6 +2794,7 @@
         "index": {
           "description": "see defaultBodyPolicy",
           "hierarchy": "Happstack Server Internal MessageWrap",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "BodyPolicy",
           "package": "happstack-server",
@@ -2663,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "bodyInput",
           "package": "happstack-server",
@@ -2672,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal MessageWrap",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "bodyInput",
           "normalized": "BodyPolicy-\u003eRequest-\u003ea([(String,Input)],Maybe String)",
@@ -2687,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "decodeBody",
           "package": "happstack-server",
@@ -2696,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal MessageWrap",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "decodeBody",
           "normalized": "BodyPolicy-\u003eMaybe ContentType-\u003eByteString-\u003eIO([(String,Input)],Maybe String)",
@@ -2763,6 +2935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecodes application/x-www-form-urlencoded inputs.\n TODO: should any of the [] be error conditions?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "formDecode",
           "package": "happstack-server",
@@ -2773,6 +2946,7 @@
         "index": {
           "description": "Decodes application x-www-form-urlencoded inputs TODO should any of the be error conditions",
           "hierarchy": "Happstack Server Internal MessageWrap",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "formDecode",
           "normalized": "String-\u003e[(String,Input)]",
@@ -2889,6 +3063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecodes multipart/form-data input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "multipartDecode",
           "package": "happstack-server",
@@ -2898,6 +3073,7 @@
         "index": {
           "description": "Decodes multipart form-data input",
           "hierarchy": "Happstack Server Internal MessageWrap",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "multipartDecode",
           "normalized": "InputWorker-\u003e[(String,String)]-\u003eByteString-\u003eIO([(String,Input)],Maybe String)",
@@ -2914,6 +3090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the path components from a String.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "pathEls",
           "package": "happstack-server",
@@ -2924,6 +3101,7 @@
         "index": {
           "description": "Get the path components from String",
           "hierarchy": "Happstack Server Internal MessageWrap",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "pathEls",
           "normalized": "String-\u003e[String]",
@@ -2939,6 +3117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "queryInput",
           "package": "happstack-server",
@@ -2948,6 +3127,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal MessageWrap",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "queryInput",
           "normalized": "SURI-\u003e[(String,Input)]",
@@ -2964,6 +3144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit is like break, but the matching element is dropped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "split",
           "package": "happstack-server",
@@ -2974,6 +3155,7 @@
         "index": {
           "description": "Split is like break but the matching element is dropped",
           "hierarchy": "Happstack Server Internal MessageWrap",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "split",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e([a],[a])",
@@ -2989,6 +3171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeadly splits a list by the provided separator and collects the results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "splitList",
           "package": "happstack-server",
@@ -2999,6 +3182,7 @@
         "index": {
           "description": "Repeadly splits list by the provided separator and collects the results",
           "hierarchy": "Happstack Server Internal MessageWrap",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "splitList",
           "normalized": "a-\u003e[a]-\u003e[[a]]",
@@ -3015,6 +3199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeatedly splits a list and collects the results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "splitListBy",
           "package": "happstack-server",
@@ -3025,6 +3210,7 @@
         "index": {
           "description": "Repeatedly splits list and collects the results",
           "hierarchy": "Happstack Server Internal MessageWrap",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.MessageWrap",
           "name": "splitListBy",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -3041,6 +3227,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the Monad stack used by Happstack. You mostly don't want to be looking in here. Look in \u003ca\u003eHappstack.Server.Monads\u003c/a\u003e instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "Monads",
           "package": "happstack-server",
@@ -3050,6 +3237,7 @@
         "index": {
           "description": "This module defines the Monad stack used by Happstack You mostly don want to be looking in here Look in Happstack.Server.Monads instead",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "Monads",
           "package": "happstack-server",
@@ -3064,6 +3252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFilterFun\u003c/a\u003e\u003c/code\u003e is a lot more fun to type than \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSetAppend\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eDual\u003c/a\u003e\u003c/code\u003e\n (\u003ccode\u003e\u003ca\u003eEndo\u003c/a\u003e\u003c/code\u003e a))\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "FilterFun",
           "package": "happstack-server",
@@ -3073,6 +3262,7 @@
         "index": {
           "description": "FilterFun is lot more fun to type than SetAppend Dual Endo",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "FilterFun",
           "package": "happstack-server",
@@ -3087,6 +3277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of functions for manipulating filters.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/code\u003e implements \u003ccode\u003e\u003ca\u003eFilterMonad\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e so these methods\n are the fundamental ways of manipulating \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "FilterMonad",
           "package": "happstack-server",
@@ -3096,6 +3287,7 @@
         "index": {
           "description": "set of functions for manipulating filters ServerPartT implements FilterMonad Response so these methods are the fundamental ways of manipulating Response values",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "FilterMonad",
           "package": "happstack-server",
@@ -3109,6 +3301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "FilterT",
           "package": "happstack-server",
@@ -3117,6 +3310,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "FilterT",
           "package": "happstack-server",
@@ -3131,6 +3325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eServerMonad\u003c/a\u003e\u003c/code\u003e class provides methods for reading or locally\n modifying the \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e. It is essentially a specialized version of\n the \u003ccode\u003e\u003ca\u003eMonadReader\u003c/a\u003e\u003c/code\u003e class. Providing the unique names, \u003ccode\u003e\u003ca\u003easkRq\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003elocalRq\u003c/a\u003e\u003c/code\u003e makes it easier to use \u003ccode\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eReaderT\u003c/a\u003e\u003c/code\u003e\n together.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "ServerMonad",
           "package": "happstack-server",
@@ -3140,6 +3335,7 @@
         "index": {
           "description": "The ServerMonad class provides methods for reading or locally modifying the Request It is essentially specialized version of the MonadReader class Providing the unique names askRq and localRq makes it easier to use ServerPartT and ReaderT together",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "ServerMonad",
           "package": "happstack-server",
@@ -3154,6 +3350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for \u003ccode\u003e\u003ccode\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "ServerPart",
           "package": "happstack-server",
@@ -3163,6 +3360,7 @@
         "index": {
           "description": "An alias for ServerPartT IO",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "ServerPart",
           "package": "happstack-server",
@@ -3177,6 +3375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/code\u003e is a rich, featureful monad for web development.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003esimpleHTTP\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eServerMonad\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFilterMonad\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eWebMonad\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003eHasRqData\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "ServerPartT",
           "package": "happstack-server",
@@ -3186,6 +3385,7 @@
         "index": {
           "description": "ServerPartT is rich featureful monad for web development see also simpleHTTP ServerMonad FilterMonad WebMonad and HasRqData",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "ServerPartT",
           "package": "happstack-server",
@@ -3200,6 +3400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monoid operation container.  If \u003ccode\u003ea\u003c/code\u003e is a monoid, then\n \u003ccode\u003e\u003ca\u003eSetAppend\u003c/a\u003e\u003c/code\u003e is a monoid with the following behaviors:\n\u003c/p\u003e\u003cpre\u003e  Set    x `mappend` Append y = Set    (x `mappend` y)\n  Append x `mappend` Append y = Append (x `mappend` y)\n  _        `mappend` Set y    = Set y\n\u003c/pre\u003e\u003cp\u003eA simple way of summarizing this is, if the right side is \u003ccode\u003e\u003ca\u003eAppend\u003c/a\u003e\u003c/code\u003e,\n then the right is appended to the left.  If the right side is\n \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e, then the left side is ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "SetAppend",
           "package": "happstack-server",
@@ -3209,6 +3410,7 @@
         "index": {
           "description": "monoid operation container If is monoid then SetAppend is monoid with the following behaviors Set mappend Append Set mappend Append mappend Append Append mappend mappend Set Set simple way of summarizing this is if the right side is Append then the right is appended to the left If the right side is Set then the left side is ignored",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "SetAppend",
           "package": "happstack-server",
@@ -3223,6 +3425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eUnWebT\u003c/a\u003e\u003c/code\u003e is almost exclusively used with \u003ccode\u003e\u003ca\u003emapServerPartT\u003c/a\u003e\u003c/code\u003e. If you\n are not using \u003ccode\u003e\u003ca\u003emapServerPartT\u003c/a\u003e\u003c/code\u003e then you do not need to wrap your\n head around this type. If you are -- the type is not as complex as\n it first appears.\n\u003c/p\u003e\u003cp\u003eIt is worth discussing the unpacked structure of \u003ccode\u003e\u003ca\u003eWebT\u003c/a\u003e\u003c/code\u003e a bit as\n it's exposed in \u003ccode\u003e\u003ca\u003emapServerPartT\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emapWebT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eA fully unpacked \u003ccode\u003e\u003ca\u003eWebT\u003c/a\u003e\u003c/code\u003e has a structure that looks like:\n\u003c/p\u003e\u003cpre\u003e ununWebT $ WebT m a :: m (Maybe (Either Response a, FilterFun Response))\n\u003c/pre\u003e\u003cp\u003eSo, ignoring \u003ccode\u003em\u003c/code\u003e, as it is just the containing \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e, the\n  outermost layer is a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e.  This is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e was\n  called or \u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e a, \u003ccode\u003e\u003ca\u003eSetAppend\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eEndo\u003c/a\u003e\u003c/code\u003e\n  \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e))\u003c/code\u003e if \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e wasn't called.  Inside the \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e, there\n  is a pair.  The second element of the pair is our filter function\n  \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFilterFun\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.  \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFilterFun\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is a type\n  alias for \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSetAppend\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eDual\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eEndo\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e))\u003c/code\u003e.  This is\n  just a wrapper for a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e -\u003e \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e function with a\n  particular \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e behavior.  The value\n\u003c/p\u003e\u003cpre\u003e  Append (Dual (Endo f))\n\u003c/pre\u003e\u003cp\u003eCauses \u003ccode\u003ef\u003c/code\u003e to be composed with the previous filter.\n\u003c/p\u003e\u003cpre\u003e  Set (Dual (Endo f))\n\u003c/pre\u003e\u003cp\u003eCauses \u003ccode\u003ef\u003c/code\u003e to not be composed with the previous filter.\n\u003c/p\u003e\u003cp\u003eFinally, the first element of the pair is either \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e\n  \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e or \u003ccode\u003e\u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAnother way of looking at all these pieces is from the behaviors\n  they control.  The \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e controls the \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e behavior.  \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e\n  (\u003ccode\u003e\u003ca\u003eEndo\u003c/a\u003e\u003c/code\u003e f)\u003c/code\u003e comes from the \u003ccode\u003e\u003ca\u003esetFilter\u003c/a\u003e\u003c/code\u003e behavior.  Likewise,\n  \u003ccode\u003e\u003ccode\u003e\u003ca\u003eAppend\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eEndo\u003c/a\u003e\u003c/code\u003e f)\u003c/code\u003e is from \u003ccode\u003e\u003ca\u003ecomposeFilter\u003c/a\u003e\u003c/code\u003e.  \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e\n  \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is what you get when you call \u003ccode\u003e\u003ca\u003efinishWith\u003c/a\u003e\u003c/code\u003e and\n  \u003ccode\u003e\u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e is the normal exit.\n\u003c/p\u003e\u003cp\u003eAn example case statement looks like:\n\u003c/p\u003e\u003cpre\u003e  ex1 webt = do\n    val \u003c- ununWebT webt\n    case val of\n        Nothing -\u003e Nothing  -- this is the interior value when mzero was used\n        Just (Left r, f) -\u003e Just (Left r, f) -- r is the value that was passed into \"finishWith\"\n                                             -- f is our filter function\n        Just (Right a, f) -\u003e Just (Right a, f) -- a is our normal monadic value\n                                               -- f is still our filter function\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "UnWebT",
           "package": "happstack-server",
@@ -3232,6 +3435,7 @@
         "index": {
           "description": "UnWebT is almost exclusively used with mapServerPartT If you are not using mapServerPartT then you do not need to wrap your head around this type If you are the type is not as complex as it first appears It is worth discussing the unpacked structure of WebT bit as it exposed in mapServerPartT and mapWebT fully unpacked WebT has structure that looks like ununWebT WebT Maybe Either Response FilterFun Response So ignoring as it is just the containing Monad the outermost layer is Maybe This is Nothing if mzero was called or Just Either Response SetAppend Endo Response if mzero wasn called Inside the Maybe there is pair The second element of the pair is our filter function FilterFun Response FilterFun Response is type alias for SetAppend Dual Endo Response This is just wrapper for Response Response function with particular Monoid behavior The value Append Dual Endo Causes to be composed with the previous filter Set Dual Endo Causes to not be composed with the previous filter Finally the first element of the pair is either Left Response or Right Another way of looking at all these pieces is from the behaviors they control The Maybe controls the mzero behavior Set Endo comes from the setFilter behavior Likewise Append Endo is from composeFilter Left Response is what you get when you call finishWith and Right is the normal exit An example case statement looks like ex1 webt do val ununWebT webt case val of Nothing Nothing this is the interior value when mzero was used Just Left Just Left is the value that was passed into finishWith is our filter function Just Right Just Right is our normal monadic value is still our filter function",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "UnWebT",
           "package": "happstack-server",
@@ -3246,6 +3450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for \u003ccode\u003e\u003ca\u003eWebT\u003c/a\u003e\u003c/code\u003e when using \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "Web",
           "package": "happstack-server",
@@ -3255,6 +3460,7 @@
         "index": {
           "description": "An alias for WebT when using IO",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "Web",
           "package": "happstack-server",
@@ -3269,6 +3475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eWebMonad\u003c/a\u003e\u003c/code\u003e provides a means to end the current computation\n and return a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e immediately.  This provides an\n alternate escape route.  In particular it has a monadic value\n of any type.  And unless you call \u003ccode\u003e\u003ccode\u003e\u003ca\u003esetFilter\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e first your\n response filters will be applied normally.\n\u003c/p\u003e\u003cp\u003eExtremely useful when you're deep inside a monad and decide\n that you want to return a completely different content type,\n since it doesn't force you to convert all your return types to\n \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e early just to accommodate this.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003eescape\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eescape'\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "WebMonad",
           "package": "happstack-server",
@@ -3278,6 +3485,7 @@
         "index": {
           "description": "WebMonad provides means to end the current computation and return Response immediately This provides an alternate escape route In particular it has monadic value of any type And unless you call setFilter id first your response filters will be applied normally Extremely useful when you re deep inside monad and decide that you want to return completely different content type since it doesn force you to convert all your return types to Response early just to accommodate this see also escape and escape",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "WebMonad",
           "package": "happstack-server",
@@ -3292,6 +3500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e building object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "WebT",
           "package": "happstack-server",
@@ -3301,6 +3510,7 @@
         "index": {
           "description": "The basic Response building object",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "WebT",
           "package": "happstack-server",
@@ -3314,6 +3524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "Append",
           "package": "happstack-server",
@@ -3323,6 +3534,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "Append",
           "package": "happstack-server",
@@ -3336,6 +3548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "FilterT",
           "package": "happstack-server",
@@ -3345,6 +3558,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "FilterT",
           "package": "happstack-server",
@@ -3358,6 +3572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "ServerPartT",
           "package": "happstack-server",
@@ -3367,6 +3582,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "ServerPartT",
           "package": "happstack-server",
@@ -3380,6 +3596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "Set",
           "package": "happstack-server",
@@ -3389,6 +3606,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "Set",
           "package": "happstack-server",
@@ -3402,6 +3620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "WebT",
           "package": "happstack-server",
@@ -3411,6 +3630,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "WebT",
           "package": "happstack-server",
@@ -3425,6 +3645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constructor for a \u003ccode\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/code\u003e when you don't care about the request.\n\u003c/p\u003e\u003cp\u003eNOTE: This is mostly for internal use. If you think you need to use\n it in your own code, you might consider asking on the mailing list\n or IRC to find out if there is an alternative solution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "anyRequest",
           "package": "happstack-server",
@@ -3435,6 +3656,7 @@
         "index": {
           "description": "constructor for ServerPartT when you don care about the request NOTE This is mostly for internal use If you think you need to use it in your own code you might consider asking on the mailing list or IRC to find out if there is an alternative solution",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "anyRequest",
           "normalized": "WebT a b-\u003eServerPartT a b",
@@ -3450,6 +3672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "askRq",
           "package": "happstack-server",
@@ -3459,6 +3682,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "askRq",
           "package": "happstack-server",
@@ -3473,6 +3697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposes your filter function with the existing filter\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "composeFilter",
           "package": "happstack-server",
@@ -3483,6 +3708,7 @@
         "index": {
           "description": "Composes your filter function with the existing filter function",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "composeFilter",
           "normalized": "(a-\u003ea)-\u003eb()",
@@ -3499,6 +3725,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: This function appears to do nothing.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eWhat is this for, exactly?  I don't understand why \u003ccode\u003eShow a\u003c/code\u003e is\n even in the context Deprecated: This function appears to do nothing\n at all. If it use it, let us know why.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "debugFilter",
           "package": "happstack-server",
@@ -3509,6 +3736,7 @@
         "index": {
           "description": "Deprecated This function appears to do nothing What is this for exactly don understand why Show is even in the context Deprecated This function appears to do nothing at all If it use it let us know why",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "debugFilter",
           "normalized": "ServerPartT a b-\u003eServerPartT a b",
@@ -3576,6 +3804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "escapeString",
           "package": "happstack-server",
@@ -3585,6 +3814,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "escapeString",
           "normalized": "String-\u003eString",
@@ -3601,6 +3831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the value from a \u003ccode\u003e\u003ca\u003eSetAppend\u003c/a\u003e\u003c/code\u003e.\n Note that a \u003ccode\u003e\u003ca\u003eSetAppend\u003c/a\u003e\u003c/code\u003e is actually a \u003ccode\u003eCoPointed\u003c/code\u003e from:\n \u003ca\u003ehttp://hackage.haskell.org/packages/archive/category-extras/latest/doc/html/Control-Functor-Pointed.html\u003c/a\u003e\n But lets not drag in that dependency. yet...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "extract",
           "package": "happstack-server",
@@ -3611,6 +3842,7 @@
         "index": {
           "description": "Extract the value from SetAppend Note that SetAppend is actually CoPointed from http hackage.haskell.org packages archive category-extras latest doc html Control-Functor-Pointed.html But lets not drag in that dependency yet",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "extract",
           "normalized": "SetAppend a-\u003ea",
@@ -3625,6 +3857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "failHtml",
           "package": "happstack-server",
@@ -3634,6 +3867,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "failHtml",
           "normalized": "String-\u003eString",
@@ -3676,6 +3910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "finishWith",
           "package": "happstack-server",
@@ -3685,6 +3920,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "finishWith",
           "package": "happstack-server",
@@ -3699,6 +3935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the filter from the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "getFilter",
           "package": "happstack-server",
@@ -3709,6 +3946,7 @@
         "index": {
           "description": "Retrieves the filter from the environment",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "getFilter",
           "normalized": "a b-\u003ea(b,c-\u003ec)",
@@ -3752,6 +3990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is kinda like a very oddly shaped \u003ccode\u003e\u003ca\u003emapServerPartT\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003emapWebT\u003c/a\u003e\u003c/code\u003e.\n You probably want one or the other of those.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "localContext",
           "package": "happstack-server",
@@ -3762,6 +4001,7 @@
         "index": {
           "description": "This is kinda like very oddly shaped mapServerPartT or mapWebT You probably want one or the other of those",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "localContext",
           "normalized": "(WebT a b-\u003eWebT c b)-\u003eServerPartT a b-\u003eServerPartT c b",
@@ -3777,6 +4017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "localRq",
           "package": "happstack-server",
@@ -3786,6 +4027,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "localRq",
           "normalized": "(Request-\u003eRequest)-\u003ea b-\u003ea b",
@@ -3856,6 +4098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003emapServerPartT\u003c/a\u003e\u003c/code\u003e for a discussion of this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "mapWebT",
           "package": "happstack-server",
@@ -3866,6 +4109,7 @@
         "index": {
           "description": "See mapServerPartT for discussion of this function",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "mapWebT",
           "normalized": "(UnWebT a b-\u003eUnWebT c d)-\u003eWebT a b-\u003eWebT c d",
@@ -3881,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "mkFailMessage",
           "package": "happstack-server",
@@ -3890,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "mkFailMessage",
           "normalized": "String-\u003ea b",
@@ -3906,6 +4152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor wrapping a \u003ccode\u003e\u003ca\u003eWebT\u003c/a\u003e\u003c/code\u003e back up.  \u003ccode\u003e\u003ccode\u003e\u003ca\u003emkWebT\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eununWebT\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "mkWebT",
           "package": "happstack-server",
@@ -3916,6 +4163,7 @@
         "index": {
           "description": "For wrapping WebT back up mkWebT ununWebT id",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "mkWebT",
           "normalized": "UnWebT a b-\u003eWebT a b",
@@ -3932,6 +4180,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use msum instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated: use \u003ccode\u003e\u003ca\u003emsum\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "multi",
           "package": "happstack-server",
@@ -3942,6 +4191,7 @@
         "index": {
           "description": "Deprecated Use msum instead Deprecated use msum",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "multi",
           "normalized": "[ServerPartT a b]-\u003eServerPartT a b",
@@ -3956,6 +4206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "outputTraceMessage",
           "package": "happstack-server",
@@ -3965,6 +4216,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "outputTraceMessage",
           "normalized": "String-\u003ea-\u003ea",
@@ -3981,6 +4233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParticularly useful when combined with \u003ccode\u003erunWebT\u003c/code\u003e to produce\n a \u003ccode\u003em (\u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "runServerPartT",
           "package": "happstack-server",
@@ -3991,6 +4244,7 @@
         "index": {
           "description": "Particularly useful when combined with runWebT to produce Maybe Response from Request",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "runServerPartT",
           "normalized": "ServerPartT a b-\u003eRequest-\u003eWebT a b",
@@ -4007,6 +4261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnores all previous alterations to your filter\n\u003c/p\u003e\u003cp\u003eAs an example:\n\u003c/p\u003e\u003cpre\u003e do\n   composeFilter f\n   setFilter g\n   return \"Hello World\"\n\u003c/pre\u003e\u003cp\u003eThe \u003ccode\u003e\u003ccode\u003e\u003ca\u003esetFilter\u003c/a\u003e\u003c/code\u003e g\u003c/code\u003e will cause the first \u003ccode\u003e\u003ccode\u003e\u003ca\u003ecomposeFilter\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e to\n be ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "setFilter",
           "package": "happstack-server",
@@ -4017,6 +4272,7 @@
         "index": {
           "description": "Ignores all previous alterations to your filter As an example do composeFilter setFilter return Hello World The setFilter will cause the first composeFilter to be ignored",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "setFilter",
           "normalized": "(a-\u003ea)-\u003eb()",
@@ -4032,6 +4288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "unFilterFun",
           "package": "happstack-server",
@@ -4041,6 +4298,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "unFilterFun",
           "normalized": "FilterFun a-\u003ea-\u003ea",
@@ -4056,6 +4314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "unFilterT",
           "package": "happstack-server",
@@ -4065,6 +4324,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "unFilterT",
           "package": "happstack-server",
@@ -4078,6 +4338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "unServerPartT",
           "package": "happstack-server",
@@ -4087,6 +4348,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "unServerPartT",
           "package": "happstack-server",
@@ -4100,6 +4362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "unWebT",
           "package": "happstack-server",
@@ -4109,6 +4372,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "unWebT",
           "package": "happstack-server",
@@ -4123,6 +4387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor when you really need to unpack a \u003ccode\u003e\u003ca\u003eWebT\u003c/a\u003e\u003c/code\u003e entirely (and not\n just unwrap the first layer with \u003ccode\u003e\u003ca\u003eunWebT\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "ununWebT",
           "package": "happstack-server",
@@ -4133,6 +4398,7 @@
         "index": {
           "description": "For when you really need to unpack WebT entirely and not just unwrap the first layer with unWebT",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "ununWebT",
           "normalized": "WebT a b-\u003eUnWebT a b",
@@ -4149,6 +4415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction for lifting WebT to ServerPartT\n\u003c/p\u003e\u003cp\u003eNOTE: This is mostly for internal use. If you want to access the\n \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e in user-code see \u003ccode\u003e\u003ca\u003easkRq\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eServerMonad\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e do request \u003c- askRq\n    ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Monads",
           "name": "withRequest",
           "package": "happstack-server",
@@ -4159,6 +4426,7 @@
         "index": {
           "description": "function for lifting WebT to ServerPartT NOTE This is mostly for internal use If you want to access the Request in user-code see askRq from ServerMonad do request askRq",
           "hierarchy": "Happstack Server Internal Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Monads",
           "name": "withRequest",
           "normalized": "(Request-\u003eWebT a b)-\u003eServerPartT a b",
@@ -4174,6 +4442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "Multipart",
           "package": "happstack-server",
@@ -4182,6 +4451,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "Multipart",
           "package": "happstack-server",
@@ -4195,6 +4465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "BodyPart",
           "package": "happstack-server",
@@ -4203,6 +4474,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "BodyPart",
           "package": "happstack-server",
@@ -4216,6 +4488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "FileSaver",
           "package": "happstack-server",
@@ -4224,6 +4497,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "FileSaver",
           "package": "happstack-server",
@@ -4237,6 +4511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "InputIter",
           "package": "happstack-server",
@@ -4245,6 +4520,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "InputIter",
           "package": "happstack-server",
@@ -4258,6 +4534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "InputWorker",
           "package": "happstack-server",
@@ -4266,6 +4543,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "InputWorker",
           "package": "happstack-server",
@@ -4279,6 +4557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "Work",
           "package": "happstack-server",
@@ -4287,6 +4566,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "Work",
           "package": "happstack-server",
@@ -4301,6 +4581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eheaders body\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "BodyPart",
           "package": "happstack-server",
@@ -4311,6 +4592,7 @@
         "index": {
           "description": "headers body",
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "BodyPart",
           "package": "happstack-server",
@@ -4324,6 +4606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "BodyResult",
           "package": "happstack-server",
@@ -4333,6 +4616,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "BodyResult",
           "normalized": "BodyResult(String,Input)InputWorker",
@@ -4348,6 +4632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "BodyWork",
           "package": "happstack-server",
@@ -4357,6 +4642,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "BodyWork",
           "normalized": "BodyWork ContentType[(String,String)]ByteString",
@@ -4372,6 +4658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "Failed",
           "package": "happstack-server",
@@ -4381,6 +4668,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "Failed",
           "normalized": "Failed(Maybe(String,Input))String",
@@ -4396,6 +4684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "HeaderResult",
           "package": "happstack-server",
@@ -4405,6 +4694,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "HeaderResult",
           "normalized": "HeaderResult[Header]InputWorker",
@@ -4420,6 +4710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "HeaderWork",
           "package": "happstack-server",
@@ -4429,6 +4720,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "HeaderWork",
           "package": "happstack-server",
@@ -4442,6 +4734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "blankLine",
           "package": "happstack-server",
@@ -4451,6 +4744,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "blankLine",
           "package": "happstack-server",
@@ -4464,6 +4758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "bodyPartToInput",
           "package": "happstack-server",
@@ -4473,6 +4768,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "bodyPartToInput",
           "normalized": "InputWorker-\u003eBodyPart-\u003eIO InputIter",
@@ -4488,6 +4784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "bodyPartsToInputs",
           "package": "happstack-server",
@@ -4497,6 +4794,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "bodyPartsToInputs",
           "normalized": "InputWorker-\u003e[BodyPart]-\u003eIO([(String,Input)],Maybe String)",
@@ -4512,6 +4810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "crlf",
           "package": "happstack-server",
@@ -4521,6 +4820,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "crlf",
           "package": "happstack-server",
@@ -4533,6 +4833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "crlfcrlf",
           "package": "happstack-server",
@@ -4542,6 +4843,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "crlfcrlf",
           "package": "happstack-server",
@@ -4554,6 +4856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "defaultFileSaver",
           "package": "happstack-server",
@@ -4563,6 +4866,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "defaultFileSaver",
           "normalized": "FilePath-\u003eInt-\u003eFilePath-\u003eByteString-\u003eIO(Bool,Int,FilePath)",
@@ -4579,6 +4883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default content-type for variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "defaultInputType",
           "package": "happstack-server",
@@ -4589,6 +4894,7 @@
         "index": {
           "description": "The default content-type for variables",
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "defaultInputType",
           "package": "happstack-server",
@@ -4602,6 +4908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "dropLine",
           "package": "happstack-server",
@@ -4611,6 +4918,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "dropLine",
           "normalized": "ByteString-\u003eByteString",
@@ -4626,6 +4934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "dropPreamble",
           "package": "happstack-server",
@@ -4635,6 +4944,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "dropPreamble",
           "normalized": "ByteString-\u003eByteString-\u003e(ByteString,Maybe String)",
@@ -4650,6 +4960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "dropWhileS",
           "package": "happstack-server",
@@ -4659,6 +4970,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "dropWhileS",
           "normalized": "(ByteString-\u003eBool)-\u003eByteString-\u003eByteString",
@@ -4674,6 +4986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "hPutLimit",
           "package": "happstack-server",
@@ -4683,6 +4996,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "hPutLimit",
           "normalized": "Int-\u003eHandle-\u003eByteString-\u003eIO(Bool,Int)",
@@ -4698,6 +5012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "hPutLimit'",
           "package": "happstack-server",
@@ -4707,6 +5022,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "hPutLimit'",
           "normalized": "Int-\u003eHandle-\u003eInt-\u003eByteString-\u003eIO(Bool,Int)",
@@ -4723,6 +5039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a string starts with two dashes followed by\n   the given boundary string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "isBoundary",
           "package": "happstack-server",
@@ -4732,6 +5049,7 @@
         "index": {
           "description": "Check whether string starts with two dashes followed by the given boundary string",
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "isBoundary",
           "normalized": "ByteString-\u003eByteString-\u003eBool",
@@ -4747,6 +5065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "multipartBody",
           "package": "happstack-server",
@@ -4756,6 +5075,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "multipartBody",
           "normalized": "InputWorker-\u003eByteString-\u003eByteString-\u003eIO([(String,Input)],Maybe String)",
@@ -4771,6 +5091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "parseMultipartBody",
           "package": "happstack-server",
@@ -4780,6 +5101,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "parseMultipartBody",
           "normalized": "ByteString-\u003eByteString-\u003e([BodyPart],Maybe String)",
@@ -4796,6 +5118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePacks a string into an Input of type \u003ca\u003etext/plain\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "simpleInput",
           "package": "happstack-server",
@@ -4806,6 +5129,7 @@
         "index": {
           "description": "Packs string into an Input of type text plain",
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "simpleInput",
           "normalized": "String-\u003eInput",
@@ -4822,6 +5146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimilar to the normal \u003ccode\u003e\u003ca\u003espan\u003c/a\u003e\u003c/code\u003e function, except the predicate gets the whole rest of the lazy bytestring, not just one character.\n\u003c/p\u003e\u003cp\u003eTODO: this function has not been profiled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "spanS",
           "package": "happstack-server",
@@ -4832,6 +5157,7 @@
         "index": {
           "description": "similar to the normal span function except the predicate gets the whole rest of the lazy bytestring not just one character TODO this function has not been profiled",
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "spanS",
           "normalized": "(ByteString-\u003eBool)-\u003eByteString-\u003e(ByteString,ByteString)",
@@ -4847,6 +5173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a string at the first CRLF. The CRLF is not included\n   in any of the returned strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "splitAtCRLF",
           "package": "happstack-server",
@@ -4856,6 +5183,7 @@
         "index": {
           "description": "Split string at the first CRLF The CRLF is not included in any of the returned strings",
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "splitAtCRLF",
           "normalized": "ByteString-\u003eMaybe(ByteString,ByteString)",
@@ -4871,6 +5199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "splitAtEmptyLine",
           "package": "happstack-server",
@@ -4880,6 +5209,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "splitAtEmptyLine",
           "normalized": "ByteString-\u003eMaybe(ByteString,ByteString)",
@@ -4895,6 +5225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "splitBlank",
           "package": "happstack-server",
@@ -4904,6 +5235,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "splitBlank",
           "normalized": "ByteString-\u003e(ByteString,ByteString)",
@@ -4919,6 +5251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "splitBoundary",
           "package": "happstack-server",
@@ -4928,6 +5261,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "splitBoundary",
           "normalized": "ByteString-\u003eByteString-\u003e(ByteString,ByteString)",
@@ -4943,6 +5277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "splitPart",
           "package": "happstack-server",
@@ -4952,6 +5287,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "splitPart",
           "normalized": "ByteString-\u003eByteString-\u003e(BodyPart,ByteString)",
@@ -4967,6 +5303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "splitParts",
           "package": "happstack-server",
@@ -4976,6 +5313,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "splitParts",
           "normalized": "ByteString-\u003eByteString-\u003e([BodyPart],Maybe String)",
@@ -4992,6 +5330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether a string starts with two dashes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "startsWithDashes",
           "package": "happstack-server",
@@ -5002,6 +5341,7 @@
         "index": {
           "description": "Checks whether string starts with two dashes",
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "startsWithDashes",
           "normalized": "ByteString-\u003eBool",
@@ -5017,6 +5357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "takeWhileS",
           "package": "happstack-server",
@@ -5026,6 +5367,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Multipart",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Multipart",
           "name": "takeWhileS",
           "normalized": "(ByteString-\u003eBool)-\u003eByteString-\u003eByteString",
@@ -5041,6 +5383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Socket",
           "name": "Socket",
           "package": "happstack-server",
@@ -5049,6 +5392,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Socket",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Socket",
           "name": "Socket",
           "package": "happstack-server",
@@ -5063,6 +5407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealternative implementation of accept to work around EAI_AGAIN errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Socket",
           "name": "acceptLite",
           "package": "happstack-server",
@@ -5073,6 +5418,7 @@
         "index": {
           "description": "alternative implementation of accept to work around EAI AGAIN errors",
           "hierarchy": "Happstack Server Internal Socket",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Socket",
           "name": "acceptLite",
           "normalized": "Socket-\u003eIO(Socket,HostName,PortNumber)",
@@ -5088,6 +5434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Socket",
           "name": "sockAddrToPeer",
           "package": "happstack-server",
@@ -5097,6 +5444,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Socket",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Socket",
           "name": "sockAddrToPeer",
           "normalized": "SockAddr-\u003e(HostName,PortNumber)",
@@ -5112,6 +5460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "TimeoutIO",
           "package": "happstack-server",
@@ -5120,6 +5469,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutIO",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "TimeoutIO",
           "package": "happstack-server",
@@ -5134,6 +5484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimeoutIO is a record which abstracts out all the network IO\n functions needed by the request handling loop. This allows use to\n use the same event loop for handle both http:\u003cem/\u003e and https:\u003cem/\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "TimeoutIO",
           "package": "happstack-server",
@@ -5143,6 +5494,7 @@
         "index": {
           "description": "TimeoutIO is record which abstracts out all the network IO functions needed by the request handling loop This allows use to use the same event loop for handle both http and https",
           "hierarchy": "Happstack Server Internal TimeoutIO",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "TimeoutIO",
           "package": "happstack-server",
@@ -5156,6 +5508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "TimeoutIO",
           "package": "happstack-server",
@@ -5165,6 +5518,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutIO",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "TimeoutIO",
           "package": "happstack-server",
@@ -5178,6 +5532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "toGetContents",
           "package": "happstack-server",
@@ -5187,6 +5542,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutIO",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "toGetContents",
           "package": "happstack-server",
@@ -5200,6 +5556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "toHandle",
           "package": "happstack-server",
@@ -5209,6 +5566,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutIO",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "toHandle",
           "package": "happstack-server",
@@ -5222,6 +5580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "toPut",
           "package": "happstack-server",
@@ -5231,6 +5590,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutIO",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "toPut",
           "normalized": "ByteString-\u003eIO()",
@@ -5246,6 +5606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "toPutLazy",
           "package": "happstack-server",
@@ -5255,6 +5616,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutIO",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "toPutLazy",
           "normalized": "ByteString-\u003eIO()",
@@ -5270,6 +5632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "toSecure",
           "package": "happstack-server",
@@ -5279,6 +5642,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutIO",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "toSecure",
           "package": "happstack-server",
@@ -5292,6 +5656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "toSendFile",
           "package": "happstack-server",
@@ -5301,6 +5666,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutIO",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "toSendFile",
           "normalized": "FilePath-\u003eOffset-\u003eByteCount-\u003eIO()",
@@ -5316,6 +5682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "toShutdown",
           "package": "happstack-server",
@@ -5325,6 +5692,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutIO",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutIO",
           "name": "toShutdown",
           "normalized": "IO()",
@@ -5340,6 +5708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "TimeoutManager",
           "package": "happstack-server",
@@ -5348,6 +5717,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutManager",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "TimeoutManager",
           "package": "happstack-server",
@@ -5361,6 +5731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "Handle",
           "package": "happstack-server",
@@ -5369,6 +5740,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutManager",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "Handle",
           "package": "happstack-server",
@@ -5383,6 +5755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA timeout manager\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "Manager",
           "package": "happstack-server",
@@ -5392,6 +5765,7 @@
         "index": {
           "description": "timeout manager",
           "hierarchy": "Happstack Server Internal TimeoutManager",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "Manager",
           "package": "happstack-server",
@@ -5405,6 +5779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "cancel",
           "package": "happstack-server",
@@ -5414,6 +5789,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutManager",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "cancel",
           "normalized": "Handle-\u003eIO()",
@@ -5428,6 +5804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "initialize",
           "package": "happstack-server",
@@ -5437,6 +5814,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutManager",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "initialize",
           "normalized": "Int-\u003eIO Manager",
@@ -5451,6 +5829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "pause",
           "package": "happstack-server",
@@ -5460,6 +5839,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutManager",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "pause",
           "normalized": "Handle-\u003eIO()",
@@ -5474,6 +5854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "register",
           "package": "happstack-server",
@@ -5483,6 +5864,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutManager",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "register",
           "normalized": "Manager-\u003eIO()-\u003eIO Handle",
@@ -5497,6 +5879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "registerKillThread",
           "package": "happstack-server",
@@ -5506,6 +5889,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutManager",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "registerKillThread",
           "normalized": "Manager-\u003eIO Handle",
@@ -5521,6 +5905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "resume",
           "package": "happstack-server",
@@ -5530,6 +5915,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutManager",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "resume",
           "normalized": "Handle-\u003eIO()",
@@ -5544,6 +5930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "tickle",
           "package": "happstack-server",
@@ -5553,6 +5940,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutManager",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutManager",
           "name": "tickle",
           "normalized": "Handle-\u003eIO()",
@@ -5568,6 +5956,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cul\u003e\u003cli\u003e- borrowed from snap-server. Check there periodically for updates.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutSocket",
           "name": "TimeoutSocket",
           "package": "happstack-server",
@@ -5577,6 +5966,7 @@
         "index": {
           "description": "borrowed from snap-server Check there periodically for updates",
           "hierarchy": "Happstack Server Internal TimeoutSocket",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutSocket",
           "name": "TimeoutSocket",
           "package": "happstack-server",
@@ -5590,6 +5980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutSocket",
           "name": "iterTickle",
           "package": "happstack-server",
@@ -5599,6 +5990,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutSocket",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutSocket",
           "name": "iterTickle",
           "normalized": "Handle-\u003eIO Iter-\u003eIO()",
@@ -5614,6 +6006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutSocket",
           "name": "sGetContents",
           "package": "happstack-server",
@@ -5622,6 +6015,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutSocket",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutSocket",
           "name": "sGetContents",
           "normalized": "Handle-\u003eSocket-\u003eIO ByteString",
@@ -5637,6 +6031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutSocket",
           "name": "sPutLazyTickle",
           "package": "happstack-server",
@@ -5646,6 +6041,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutSocket",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutSocket",
           "name": "sPutLazyTickle",
           "normalized": "Handle-\u003eSocket-\u003eByteString-\u003eIO()",
@@ -5661,6 +6057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutSocket",
           "name": "sPutTickle",
           "package": "happstack-server",
@@ -5670,6 +6067,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutSocket",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutSocket",
           "name": "sPutTickle",
           "normalized": "Handle-\u003eSocket-\u003eByteString-\u003eIO()",
@@ -5685,6 +6083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutSocket",
           "name": "sendFileTickle",
           "package": "happstack-server",
@@ -5694,6 +6093,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutSocket",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutSocket",
           "name": "sendFileTickle",
           "normalized": "Handle-\u003eSocket-\u003eFilePath-\u003eOffset-\u003eByteCount-\u003eIO()",
@@ -5709,6 +6109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.TimeoutSocket",
           "name": "timeoutSocketIO",
           "package": "happstack-server",
@@ -5718,6 +6119,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal TimeoutSocket",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.TimeoutSocket",
           "name": "timeoutSocketIO",
           "normalized": "Handle-\u003eSocket-\u003eTimeoutIO",
@@ -5733,6 +6135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Types",
           "name": "Types",
           "package": "happstack-server",
@@ -5741,6 +6144,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Types",
           "name": "Types",
           "package": "happstack-server",
@@ -5755,6 +6159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP configuration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Types",
           "name": "Conf",
           "package": "happstack-server",
@@ -5764,6 +6169,7 @@
         "index": {
           "description": "HTTP configuration",
           "hierarchy": "Happstack Server Internal Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Types",
           "name": "Conf",
           "package": "happstack-server",
@@ -5778,6 +6184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA MIME media type value.\n   The \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance is derived automatically.\n   Use \u003ccode\u003eshowContentType\u003c/code\u003e to obtain the standard\n   string representation.\n   See \u003ca\u003ehttp://www.ietf.org/rfc/rfc2046.txt\u003c/a\u003e for more\n   information about MIME media types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Types",
           "name": "ContentType",
           "package": "happstack-server",
@@ -5787,6 +6194,7 @@
         "index": {
           "description": "MIME media type value The Show instance is derived automatically Use showContentType to obtain the standard string representation See http www.ietf.org rfc rfc2046.txt for more information about MIME media types",
           "hierarchy": "Happstack Server Internal Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Types",
           "name": "ContentType",
           "package": "happstack-server",
@@ -5801,6 +6209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class is used by \u003ccode\u003e\u003ca\u003epath\u003c/a\u003e\u003c/code\u003e to parse a path component into a\n value.\n\u003c/p\u003e\u003cp\u003eThe instances for number types (\u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e, etc) use \u003ccode\u003e\u003ca\u003ereadM\u003c/a\u003e\u003c/code\u003e to\n parse the path component.\n\u003c/p\u003e\u003cp\u003eThe instance for \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, on the other hand, returns the\n unmodified path component.\n\u003c/p\u003e\u003cp\u003eSee the following section of the Happstack Crash Course for\n detailed instructions using and extending \u003ccode\u003e\u003ca\u003eFromReqURI\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.happstack.com/docs/crashcourse/RouteFilters.html#FromReqURI\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Types",
           "name": "FromReqURI",
           "package": "happstack-server",
@@ -5810,6 +6219,7 @@
         "index": {
           "description": "This class is used by path to parse path component into value The instances for number types Int Float etc use readM to parse the path component The instance for String on the other hand returns the unmodified path component See the following section of the Happstack Crash Course for detailed instructions using and extending FromReqURI http www.happstack.com docs crashcourse RouteFilters.html FromReqURI",
           "hierarchy": "Happstack Server Internal Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Types",
           "name": "FromReqURI",
           "package": "happstack-server",
@@ -5824,6 +6234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean HTTP header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Types",
           "name": "HeaderPair",
           "package": "happstack-server",
@@ -5833,6 +6244,7 @@
         "index": {
           "description": "an HTTP header",
           "hierarchy": "Happstack Server Internal Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Types",
           "name": "HeaderPair",
           "package": "happstack-server",
@@ -5847,6 +6259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea Map of HTTP headers\n\u003c/p\u003e\u003cp\u003ethe Map key is the header converted to lowercase\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Types",
           "name": "Headers",
           "package": "happstack-server",
@@ -5856,6 +6269,7 @@
         "index": {
           "description": "Map of HTTP headers the Map key is the header converted to lowercase",
           "hierarchy": "Happstack Server Internal Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Types",
           "name": "Headers",
           "package": "happstack-server",
@@ -5870,6 +6284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehostname & port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Types",
           "name": "Host",
           "package": "happstack-server",
@@ -5879,6 +6294,7 @@
         "index": {
           "description": "hostname port",
           "hierarchy": "Happstack Server Internal Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Types",
           "name": "Host",
           "package": "happstack-server",
@@ -5893,6 +6309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Types",
           "name": "HttpVersion",
           "package": "happstack-server",
@@ -5902,6 +6319,7 @@
         "index": {
           "description": "HTTP version",
           "hierarchy": "Happstack Server Internal Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Types",
           "name": "HttpVersion",
           "package": "happstack-server",
@@ -5916,6 +6334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea value extract from the \u003ccode\u003eQUERY_STRING\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e body\n\u003c/p\u003e\u003cp\u003eIf the input value was a file, then it will be saved to a temporary file on disk and \u003ccode\u003e\u003ca\u003einputValue\u003c/a\u003e\u003c/code\u003e will contain \u003ccode\u003eLeft pathToTempFile\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Types",
           "name": "Input",
           "package": "happstack-server",
@@ -5925,6 +6344,7 @@
         "index": {
           "description": "value extract from the QUERY STRING or Request body If the input value was file then it will be saved to temporary file on disk and inputValue will contain Left pathToTempFile",
           "hierarchy": "Happstack Server Internal Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Types",
           "name": "Input",
           "package": "happstack-server",
@@ -5939,6 +6359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA flag value set in the \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e which controls how the\n \u003ccode\u003eContent-Length\u003c/code\u003e header is set, and whether *chunked* output\n encoding is used.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003enullRsFlags\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003enotContentLength\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003echunked\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Types",
           "name": "Length",
           "package": "happstack-server",
@@ -5948,6 +6369,7 @@
         "index": {
           "description": "flag value set in the Response which controls how the Content-Length header is set and whether chunked output encoding is used see also nullRsFlags notContentLength and chunked",
           "hierarchy": "Happstack Server Internal Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Types",
           "name": "Length",
           "package": "happstack-server",
@@ -5962,6 +6384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction to log access requests (see also: \u003ccode\u003e\u003ca\u003elogMAccess\u003c/a\u003e\u003c/code\u003e)\n type LogAccess time =\n    (   String  -- ^ host\n     -\u003e String  -- ^ user\n     -\u003e time    -- ^ time\n     -\u003e String  -- ^ requestLine\n     -\u003e Int     -- ^ responseCode\n     -\u003e Integer -- ^ size\n     -\u003e String  -- ^ referer\n     -\u003e String  -- ^ userAgent\n     -\u003e IO ())\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Types",
           "name": "LogAccess",
           "package": "happstack-server",
@@ -5971,6 +6394,7 @@
         "index": {
           "description": "function to log access requests see also logMAccess type LogAccess time String host String user time time String requestLine Int responseCode Integer size String referer String userAgent IO",
           "hierarchy": "Happstack Server Internal Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Types",
           "name": "LogAccess",
           "package": "happstack-server",
@@ -5985,6 +6409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP request method\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Types",
           "name": "Method",
           "package": "happstack-server",
@@ -5994,6 +6419,7 @@
         "index": {
           "description": "HTTP request method",
           "hierarchy": "Happstack Server Internal Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Types",
           "name": "Method",
           "package": "happstack-server",
@@ -6008,6 +6434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean HTTP request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Types",
           "name": "Request",
           "package": "happstack-server",
@@ -6017,6 +6444,7 @@
         "index": {
           "description": "an HTTP request",
           "hierarchy": "Happstack Server Internal Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Types",
           "name": "Request",
           "package": "happstack-server",
@@ -6031,6 +6459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean HTTP Response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Types",
           "name": "Response",
           "package": "happstack-server",
@@ -6040,6 +6469,7 @@
         "index": {
           "description": "an HTTP Response",
           "hierarchy": "Happstack Server Internal Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Types",
           "name": "Response",
           "package": "happstack-server",
@@ -6054,6 +6484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe body of an HTTP \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Types",
           "name": "RqBody",
           "package": "happstack-server",
@@ -6063,6 +6494,7 @@
         "index": {
           "description": "The body of an HTTP Request",
           "hierarchy": "Happstack Server Internal Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Types",
           "name": "RqBody",
           "package": "happstack-server",
@@ -6077,6 +6509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Types",
           "name": "RsFlags",
           "package": "happstack-server",
@@ -6086,6 +6519,7 @@
         "index": {
           "description": "Result flags",
           "hierarchy": "Happstack Server Internal Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Types",
           "name": "RsFlags",
           "package": "happstack-server",
@@ -6853,6 +7287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Types",
           "name": "fromReqURI",
           "package": "happstack-server",
@@ -6862,6 +7297,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Internal Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Types",
           "name": "fromReqURI",
           "normalized": "String-\u003eMaybe a",
@@ -7445,6 +7881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in any monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Internal.Types",
           "name": "readM",
           "package": "happstack-server",
@@ -7455,6 +7892,7 @@
         "index": {
           "description": "Read in any monad",
           "hierarchy": "Happstack Server Internal Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Internal.Types",
           "name": "readM",
           "normalized": "String-\u003ea b",
@@ -8332,6 +8770,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides four classes and some related functions\n which provide \u003ccode\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/code\u003e with much of its web-centric behavior.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eServerMonad\u003c/a\u003e\u003c/code\u003e provides access to the HTTP \u003ccode\u003eRequest\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFilterMonad\u003c/a\u003e\u003c/code\u003e provides the ability to apply filters and transformations to a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eWebMonad\u003c/a\u003e\u003c/code\u003e provides a way to escape a computation early and return a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eHasRqData\u003c/a\u003e\u003c/code\u003e which provides access to the decoded QUERY_STRING and request body/form data\n\u003c/li\u003e\u003c/ol\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "Monads",
           "package": "happstack-server",
@@ -8341,6 +8780,7 @@
         "index": {
           "description": "This module provides four classes and some related functions which provide ServerPartT with much of its web-centric behavior ServerMonad provides access to the HTTP Request FilterMonad provides the ability to apply filters and transformations to Response WebMonad provides way to escape computation early and return Response HasRqData which provides access to the decoded QUERY STRING and request body form data",
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "Monads",
           "package": "happstack-server",
@@ -8355,6 +8795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of functions for manipulating filters.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/code\u003e implements \u003ccode\u003e\u003ca\u003eFilterMonad\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e so these methods\n are the fundamental ways of manipulating \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "FilterMonad",
           "package": "happstack-server",
@@ -8364,6 +8805,7 @@
         "index": {
           "description": "set of functions for manipulating filters ServerPartT implements FilterMonad Response so these methods are the fundamental ways of manipulating Response values",
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "FilterMonad",
           "package": "happstack-server",
@@ -8378,6 +8820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class alias for all the classes a standard server monad (such as \u003ccode\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/code\u003e) is expected to have instances for. This allows you to keep your type signatures shorter and easier to understand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "Happstack",
           "package": "happstack-server",
@@ -8387,6 +8830,7 @@
         "index": {
           "description": "class alias for all the classes standard server monad such as ServerPartT is expected to have instances for This allows you to keep your type signatures shorter and easier to understand",
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "Happstack",
           "package": "happstack-server",
@@ -8401,6 +8845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eServerMonad\u003c/a\u003e\u003c/code\u003e class provides methods for reading or locally\n modifying the \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e. It is essentially a specialized version of\n the \u003ccode\u003e\u003ca\u003eMonadReader\u003c/a\u003e\u003c/code\u003e class. Providing the unique names, \u003ccode\u003e\u003ca\u003easkRq\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003elocalRq\u003c/a\u003e\u003c/code\u003e makes it easier to use \u003ccode\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eReaderT\u003c/a\u003e\u003c/code\u003e\n together.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "ServerMonad",
           "package": "happstack-server",
@@ -8410,6 +8855,7 @@
         "index": {
           "description": "The ServerMonad class provides methods for reading or locally modifying the Request It is essentially specialized version of the MonadReader class Providing the unique names askRq and localRq makes it easier to use ServerPartT and ReaderT together",
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "ServerMonad",
           "package": "happstack-server",
@@ -8424,6 +8870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for \u003ccode\u003e\u003ccode\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "ServerPart",
           "package": "happstack-server",
@@ -8433,6 +8880,7 @@
         "index": {
           "description": "An alias for ServerPartT IO",
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "ServerPart",
           "package": "happstack-server",
@@ -8447,6 +8895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/code\u003e is a rich, featureful monad for web development.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003esimpleHTTP\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eServerMonad\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFilterMonad\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eWebMonad\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003eHasRqData\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "ServerPartT",
           "package": "happstack-server",
@@ -8456,6 +8905,7 @@
         "index": {
           "description": "ServerPartT is rich featureful monad for web development see also simpleHTTP ServerMonad FilterMonad WebMonad and HasRqData",
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "ServerPartT",
           "package": "happstack-server",
@@ -8470,6 +8920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eUnWebT\u003c/a\u003e\u003c/code\u003e is almost exclusively used with \u003ccode\u003e\u003ca\u003emapServerPartT\u003c/a\u003e\u003c/code\u003e. If you\n are not using \u003ccode\u003e\u003ca\u003emapServerPartT\u003c/a\u003e\u003c/code\u003e then you do not need to wrap your\n head around this type. If you are -- the type is not as complex as\n it first appears.\n\u003c/p\u003e\u003cp\u003eIt is worth discussing the unpacked structure of \u003ccode\u003e\u003ca\u003eWebT\u003c/a\u003e\u003c/code\u003e a bit as\n it's exposed in \u003ccode\u003e\u003ca\u003emapServerPartT\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emapWebT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eA fully unpacked \u003ccode\u003e\u003ca\u003eWebT\u003c/a\u003e\u003c/code\u003e has a structure that looks like:\n\u003c/p\u003e\u003cpre\u003e ununWebT $ WebT m a :: m (Maybe (Either Response a, FilterFun Response))\n\u003c/pre\u003e\u003cp\u003eSo, ignoring \u003ccode\u003em\u003c/code\u003e, as it is just the containing \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e, the\n  outermost layer is a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e.  This is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e was\n  called or \u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e a, \u003ccode\u003e\u003ca\u003eSetAppend\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eEndo\u003c/a\u003e\u003c/code\u003e\n  \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e))\u003c/code\u003e if \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e wasn't called.  Inside the \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e, there\n  is a pair.  The second element of the pair is our filter function\n  \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFilterFun\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.  \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFilterFun\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is a type\n  alias for \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSetAppend\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eDual\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eEndo\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e))\u003c/code\u003e.  This is\n  just a wrapper for a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e -\u003e \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e function with a\n  particular \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e behavior.  The value\n\u003c/p\u003e\u003cpre\u003e  Append (Dual (Endo f))\n\u003c/pre\u003e\u003cp\u003eCauses \u003ccode\u003ef\u003c/code\u003e to be composed with the previous filter.\n\u003c/p\u003e\u003cpre\u003e  Set (Dual (Endo f))\n\u003c/pre\u003e\u003cp\u003eCauses \u003ccode\u003ef\u003c/code\u003e to not be composed with the previous filter.\n\u003c/p\u003e\u003cp\u003eFinally, the first element of the pair is either \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e\n  \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e or \u003ccode\u003e\u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAnother way of looking at all these pieces is from the behaviors\n  they control.  The \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e controls the \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e behavior.  \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e\n  (\u003ccode\u003e\u003ca\u003eEndo\u003c/a\u003e\u003c/code\u003e f)\u003c/code\u003e comes from the \u003ccode\u003e\u003ca\u003esetFilter\u003c/a\u003e\u003c/code\u003e behavior.  Likewise,\n  \u003ccode\u003e\u003ccode\u003e\u003ca\u003eAppend\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eEndo\u003c/a\u003e\u003c/code\u003e f)\u003c/code\u003e is from \u003ccode\u003e\u003ca\u003ecomposeFilter\u003c/a\u003e\u003c/code\u003e.  \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e\n  \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is what you get when you call \u003ccode\u003e\u003ca\u003efinishWith\u003c/a\u003e\u003c/code\u003e and\n  \u003ccode\u003e\u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e is the normal exit.\n\u003c/p\u003e\u003cp\u003eAn example case statement looks like:\n\u003c/p\u003e\u003cpre\u003e  ex1 webt = do\n    val \u003c- ununWebT webt\n    case val of\n        Nothing -\u003e Nothing  -- this is the interior value when mzero was used\n        Just (Left r, f) -\u003e Just (Left r, f) -- r is the value that was passed into \"finishWith\"\n                                             -- f is our filter function\n        Just (Right a, f) -\u003e Just (Right a, f) -- a is our normal monadic value\n                                               -- f is still our filter function\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "UnWebT",
           "package": "happstack-server",
@@ -8479,6 +8930,7 @@
         "index": {
           "description": "UnWebT is almost exclusively used with mapServerPartT If you are not using mapServerPartT then you do not need to wrap your head around this type If you are the type is not as complex as it first appears It is worth discussing the unpacked structure of WebT bit as it exposed in mapServerPartT and mapWebT fully unpacked WebT has structure that looks like ununWebT WebT Maybe Either Response FilterFun Response So ignoring as it is just the containing Monad the outermost layer is Maybe This is Nothing if mzero was called or Just Either Response SetAppend Endo Response if mzero wasn called Inside the Maybe there is pair The second element of the pair is our filter function FilterFun Response FilterFun Response is type alias for SetAppend Dual Endo Response This is just wrapper for Response Response function with particular Monoid behavior The value Append Dual Endo Causes to be composed with the previous filter Set Dual Endo Causes to not be composed with the previous filter Finally the first element of the pair is either Left Response or Right Another way of looking at all these pieces is from the behaviors they control The Maybe controls the mzero behavior Set Endo comes from the setFilter behavior Likewise Append Endo is from composeFilter Left Response is what you get when you call finishWith and Right is the normal exit An example case statement looks like ex1 webt do val ununWebT webt case val of Nothing Nothing this is the interior value when mzero was used Just Left Just Left is the value that was passed into finishWith is our filter function Just Right Just Right is our normal monadic value is still our filter function",
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "UnWebT",
           "package": "happstack-server",
@@ -8493,6 +8945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eWebMonad\u003c/a\u003e\u003c/code\u003e provides a means to end the current computation\n and return a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e immediately.  This provides an\n alternate escape route.  In particular it has a monadic value\n of any type.  And unless you call \u003ccode\u003e\u003ccode\u003e\u003ca\u003esetFilter\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e first your\n response filters will be applied normally.\n\u003c/p\u003e\u003cp\u003eExtremely useful when you're deep inside a monad and decide\n that you want to return a completely different content type,\n since it doesn't force you to convert all your return types to\n \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e early just to accommodate this.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003eescape\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eescape'\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "WebMonad",
           "package": "happstack-server",
@@ -8502,6 +8955,7 @@
         "index": {
           "description": "WebMonad provides means to end the current computation and return Response immediately This provides an alternate escape route In particular it has monadic value of any type And unless you call setFilter id first your response filters will be applied normally Extremely useful when you re deep inside monad and decide that you want to return completely different content type since it doesn force you to convert all your return types to Response early just to accommodate this see also escape and escape",
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "WebMonad",
           "package": "happstack-server",
@@ -8516,6 +8970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd headers into the response.  This method does not overwrite\n any existing header of the same name, hence the name \u003ccode\u003e\u003ca\u003eaddHeaderM\u003c/a\u003e\u003c/code\u003e.\n If you want to replace a header use \u003ccode\u003e\u003ca\u003esetHeaderM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "addHeaderM",
           "package": "happstack-server",
@@ -8526,6 +8981,7 @@
         "index": {
           "description": "Add headers into the response This method does not overwrite any existing header of the same name hence the name addHeaderM If you want to replace header use setHeaderM",
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "addHeaderM",
           "normalized": "String-\u003eString-\u003ea()",
@@ -8541,6 +8997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "askRq",
           "package": "happstack-server",
@@ -8550,6 +9007,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "askRq",
           "package": "happstack-server",
@@ -8564,6 +9022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposes your filter function with the existing filter\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "composeFilter",
           "package": "happstack-server",
@@ -8574,6 +9033,7 @@
         "index": {
           "description": "Composes your filter function with the existing filter function",
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "composeFilter",
           "normalized": "(a-\u003ea)-\u003eb()",
@@ -8589,6 +9049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "finishWith",
           "package": "happstack-server",
@@ -8598,6 +9059,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "finishWith",
           "package": "happstack-server",
@@ -8612,6 +9074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the filter from the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "getFilter",
           "package": "happstack-server",
@@ -8622,6 +9085,7 @@
         "index": {
           "description": "Retrieves the filter from the environment",
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "getFilter",
           "normalized": "a b-\u003ea(b,c-\u003ec)",
@@ -8638,6 +9102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a header out of the request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "getHeaderM",
           "package": "happstack-server",
@@ -8648,6 +9113,7 @@
         "index": {
           "description": "Get header out of the request",
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "getHeaderM",
           "normalized": "String-\u003ea(Maybe ByteString)",
@@ -8663,6 +9129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "localRq",
           "package": "happstack-server",
@@ -8672,6 +9139,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "localRq",
           "normalized": "(Request-\u003eRequest)-\u003ea b-\u003ea b",
@@ -8688,6 +9156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a far-future Expires header.  Useful for static resources.  If the\n browser has the resource cached, no extra request is spent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "neverExpires",
           "package": "happstack-server",
@@ -8698,6 +9167,7 @@
         "index": {
           "description": "Set far-future Expires header Useful for static resources If the browser has the resource cached no extra request is spent",
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "neverExpires",
           "normalized": "a()",
@@ -8714,6 +9184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action and, if it returns \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e, pass it to the\n second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "require",
           "package": "happstack-server",
@@ -8724,6 +9195,7 @@
         "index": {
           "description": "Run an IO action and if it returns Just pass it to the second argument",
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "require",
           "normalized": "IO(Maybe a)-\u003e(a-\u003eb c)-\u003eb c",
@@ -8739,6 +9211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of require that can run in any monad, not just \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "requireM",
           "package": "happstack-server",
@@ -8749,6 +9222,7 @@
         "index": {
           "description": "variant of require that can run in any monad not just IO",
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "requireM",
           "normalized": "a(Maybe b)-\u003e(b-\u003ec a d)-\u003ec a d",
@@ -8764,6 +9238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnores all previous alterations to your filter\n\u003c/p\u003e\u003cp\u003eAs an example:\n\u003c/p\u003e\u003cpre\u003e do\n   composeFilter f\n   setFilter g\n   return \"Hello World\"\n\u003c/pre\u003e\u003cp\u003eThe \u003ccode\u003e\u003ccode\u003e\u003ca\u003esetFilter\u003c/a\u003e\u003c/code\u003e g\u003c/code\u003e will cause the first \u003ccode\u003e\u003ccode\u003e\u003ca\u003ecomposeFilter\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e to\n be ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "setFilter",
           "package": "happstack-server",
@@ -8774,6 +9249,7 @@
         "index": {
           "description": "Ignores all previous alterations to your filter As an example do composeFilter setFilter return Hello World The setFilter will cause the first composeFilter to be ignored",
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "setFilter",
           "normalized": "(a-\u003ea)-\u003eb()",
@@ -8790,6 +9266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a header into the response.  This will replace an existing\n header of the same name.  Use \u003ccode\u003e\u003ca\u003eaddHeaderM\u003c/a\u003e\u003c/code\u003e if you want to add more\n than one header of the same name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Monads",
           "name": "setHeaderM",
           "package": "happstack-server",
@@ -8800,6 +9277,7 @@
         "index": {
           "description": "Set header into the response This will replace an existing header of the same name Use addHeaderM if you want to add more than one header of the same name",
           "hierarchy": "Happstack Server Monads",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Monads",
           "name": "setHeaderM",
           "normalized": "String-\u003eString-\u003ea()",
@@ -8816,6 +9294,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for creating a proxy or reverse-proxy server\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Proxy",
           "name": "Proxy",
           "package": "happstack-server",
@@ -8825,6 +9304,7 @@
         "index": {
           "description": "Support for creating proxy or reverse-proxy server",
           "hierarchy": "Happstack Server Proxy",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Proxy",
           "name": "Proxy",
           "package": "happstack-server",
@@ -8839,6 +9319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eproxyServe\u003c/a\u003e\u003c/code\u003e is for creating a part that acts as a proxy.  The\n sole argument \u003ccode\u003e[\u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e is a list of allowed domains for\n proxying.  This matches the domain part of the request and the\n wildcard * can be used. E.g.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \"*\" to match anything.\n\u003c/li\u003e\u003cli\u003e \"*.example.com\" to match anything under example.com\n\u003c/li\u003e\u003cli\u003e \"example.com\" to match just example.com\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eTODO: annoyingly enough, this method eventually calls \u003ccode\u003eescape\u003c/code\u003e, so\n  any headers you set won't be used, and the computation immediately\n  ends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Proxy",
           "name": "proxyServe",
           "package": "happstack-server",
@@ -8849,6 +9330,7 @@
         "index": {
           "description": "proxyServe is for creating part that acts as proxy The sole argument String is list of allowed domains for proxying This matches the domain part of the request and the wildcard can be used E.g to match anything example.com to match anything under example.com example.com to match just example.com TODO annoyingly enough this method eventually calls escape so any headers you set won be used and the computation immediately ends",
           "hierarchy": "Happstack Server Proxy",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Proxy",
           "name": "proxyServe",
           "normalized": "[String]-\u003ea Response",
@@ -8865,6 +9347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a proxy \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e and create a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e.  Your basic proxy\n building block.  See \u003ccode\u003e\u003ca\u003eunproxify\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTODO: this would be more useful if it didn't call \u003ccode\u003eescape\u003c/code\u003e\n (e.g. it let you modify the response afterwards, or set additional\n headers)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Proxy",
           "name": "proxyServe'",
           "package": "happstack-server",
@@ -8875,6 +9358,7 @@
         "index": {
           "description": "Take proxy Request and create Response Your basic proxy building block See unproxify TODO this would be more useful if it didn call escape e.g it let you modify the response afterwards or set additional headers",
           "hierarchy": "Happstack Server Proxy",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Proxy",
           "name": "proxyServe'",
           "normalized": "Request-\u003ea Response",
@@ -8891,6 +9375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a reverse proxy implementation.  See \u003ccode\u003e\u003ca\u003eunrproxify\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTODO: this would be more useful if it didn't call \u003ccode\u003eescape\u003c/code\u003e, just\n like \u003ccode\u003e\u003ca\u003eproxyServe'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Proxy",
           "name": "rproxyServe",
           "package": "happstack-server",
@@ -8900,6 +9385,7 @@
         "index": {
           "description": "This is reverse proxy implementation See unrproxify TODO this would be more useful if it didn call escape just like proxyServe",
           "hierarchy": "Happstack Server Proxy",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Proxy",
           "name": "rproxyServe",
           "normalized": "String-\u003e[(String,String)]-\u003ea Response",
@@ -8915,6 +9401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Proxy",
           "name": "unproxify",
           "package": "happstack-server",
@@ -8924,6 +9411,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Proxy",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Proxy",
           "name": "unproxify",
           "normalized": "Request-\u003eRequest",
@@ -8938,6 +9426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Proxy",
           "name": "unrproxify",
           "package": "happstack-server",
@@ -8947,6 +9436,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Proxy",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Proxy",
           "name": "unrproxify",
           "normalized": "String-\u003e[(String,String)]-\u003eRequest-\u003eRequest",
@@ -8962,6 +9452,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions and classes related to generating a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e and setting the response code. For detailed instruction see the Happstack Crash Course: \u003ca\u003ehttp://happstack.com/docs/crashcourse/HelloWorld.html#response_code\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "Response",
           "package": "happstack-server",
@@ -8971,6 +9462,7 @@
         "index": {
           "description": "Functions and classes related to generating Response and setting the response code For detailed instruction see the Happstack Crash Course http happstack.com docs crashcourse HelloWorld.html response code",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "Response",
           "package": "happstack-server",
@@ -8985,6 +9477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etoResponse\u003c/a\u003e\u003c/code\u003e will convert a value into a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e body,\n set the \u003ccode\u003econtent-type\u003c/code\u003e, and set the default response code for that type.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ehappstack-server\u003c/code\u003e Example:\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $ toResponse \"hello, world!\"\n\u003c/pre\u003e\u003cp\u003ewill generate a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e with the content-type \u003ccode\u003etext/plain\u003c/code\u003e,\n the response code \u003ccode\u003e200 OK\u003c/code\u003e, and the body: \u003ccode\u003ehello, world!\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003esimpleHTTP\u003c/code\u003e will call \u003ccode\u003e\u003ca\u003etoResponse\u003c/a\u003e\u003c/code\u003e automatically, so the above can be shortened to:\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $ \"hello, world!\"\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003ehappstack-lite\u003c/code\u003e Example:\n\u003c/p\u003e\u003cpre\u003e main = serve Nothing $ toResponse \"hello, world!\"\n\u003c/pre\u003e\u003cp\u003eMinimal definition: \u003ccode\u003e\u003ca\u003etoMessage\u003c/a\u003e\u003c/code\u003e (and usually \u003ccode\u003e\u003ca\u003etoContentType\u003c/a\u003e\u003c/code\u003e). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "ToMessage",
           "package": "happstack-server",
@@ -8994,6 +9487,7 @@
         "index": {
           "description": "toResponse will convert value into Response body set the content-type and set the default response code for that type happstack-server Example main simpleHTTP nullConf toResponse hello world will generate Response with the content-type text plain the response code OK and the body hello world simpleHTTP will call toResponse automatically so the above can be shortened to main simpleHTTP nullConf hello world happstack-lite Example main serve Nothing toResponse hello world Minimal definition toMessage and usually toContentType",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "ToMessage",
           "package": "happstack-server",
@@ -9008,6 +9502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponds with \u003ccode\u003e502 Bad Gateway\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $ badGateway \"Bad Gateway.\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "badGateway",
           "package": "happstack-server",
@@ -9018,6 +9513,7 @@
         "index": {
           "description": "Responds with Bad Gateway main simpleHTTP nullConf badGateway Bad Gateway",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "badGateway",
           "normalized": "a-\u003eb a",
@@ -9034,6 +9530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRespond with \u003ccode\u003e400 Bad Request\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $ badRequest \"Bad Request.\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "badRequest",
           "package": "happstack-server",
@@ -9044,6 +9541,7 @@
         "index": {
           "description": "Respond with Bad Request main simpleHTTP nullConf badRequest Bad Request",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "badRequest",
           "normalized": "a-\u003eb a",
@@ -9060,6 +9558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealias for: \u003ccode\u003efmap toResponse\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eturns \u003ccode\u003em a\u003c/code\u003e into \u003ccode\u003em \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e using \u003ccode\u003e\u003ca\u003etoResponse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $ flatten $ do return \"flatten me.\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "flatten",
           "package": "happstack-server",
@@ -9070,6 +9569,7 @@
         "index": {
           "description": "alias for fmap toResponse turns into Response using toResponse main simpleHTTP nullConf flatten do return flatten me",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "flatten",
           "normalized": "a b-\u003ea Response",
@@ -9085,6 +9585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRespond with \u003ccode\u003e403 Forbidden\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $ forbidden \"Sorry, it is forbidden.\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "forbidden",
           "package": "happstack-server",
@@ -9095,6 +9596,7 @@
         "index": {
           "description": "Respond with Forbidden main simpleHTTP nullConf forbidden Sorry it is forbidden",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "forbidden",
           "normalized": "a-\u003eb a",
@@ -9110,6 +9612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRespond with \u003ccode\u003e302 Found\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eYou probably want \u003ccode\u003e\u003ca\u003eseeOther\u003c/a\u003e\u003c/code\u003e. This method is not in popular use anymore, and is generally treated like 303 by most user-agents anyway.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "found",
           "package": "happstack-server",
@@ -9120,6 +9623,7 @@
         "index": {
           "description": "Respond with Found You probably want seeOther This method is not in popular use anymore and is generally treated like by most user-agents anyway",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "found",
           "normalized": "a-\u003eb-\u003ec b",
@@ -9135,6 +9639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHonor an \u003ccode\u003eif-modified-since\u003c/code\u003e header in a \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e.\n If the \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e includes the \u003ccode\u003eif-modified-since\u003c/code\u003e header and the\n \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e has not been modified, then return 304 (Not Modified),\n otherwise return the \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "ifModifiedSince",
           "package": "happstack-server",
@@ -9144,6 +9649,7 @@
         "index": {
           "description": "Honor an if-modified-since header in Request If the Request includes the if-modified-since header and the Response has not been modified then return Not Modified otherwise return the Response",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "ifModifiedSince",
           "normalized": "UTCTime-\u003eRequest-\u003eResponse-\u003eResponse",
@@ -9160,6 +9666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRespond with \u003ccode\u003e500 Internal Server Error\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $ internalServerError \"Sorry, there was an internal server error.\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "internalServerError",
           "package": "happstack-server",
@@ -9170,6 +9677,7 @@
         "index": {
           "description": "Respond with Internal Server Error main simpleHTTP nullConf internalServerError Sorry there was an internal server error",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "internalServerError",
           "normalized": "a-\u003eb a",
@@ -9186,6 +9694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRespond with \u003ccode\u003e301 Moved Permanently\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $ movedPermanently \"http://example.org/\" \"What you are looking for is now at http://example.org/\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "movedPermanently",
           "package": "happstack-server",
@@ -9196,6 +9705,7 @@
         "index": {
           "description": "Respond with Moved Permanently main simpleHTTP nullConf movedPermanently http example.org What you are looking for is now at http example.org",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "movedPermanently",
           "normalized": "a-\u003eb-\u003ec b",
@@ -9212,6 +9722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRespond with \u003ccode\u003e204 No Content\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e204 No Content\u003c/code\u003e response may not contain a message-body. If you try to supply one, it will be dutifully ignored.\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $ noContent \"This will be ignored.\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "noContent",
           "package": "happstack-server",
@@ -9222,6 +9733,7 @@
         "index": {
           "description": "Respond with No Content No Content response may not contain message-body If you try to supply one it will be dutifully ignored main simpleHTTP nullConf noContent This will be ignored",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "noContent",
           "normalized": "a-\u003eb a",
@@ -9238,6 +9750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRespond with \u003ccode\u003e404 Not Found\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $ notFound \"What you are looking for has not been found.\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "notFound",
           "package": "happstack-server",
@@ -9248,6 +9761,7 @@
         "index": {
           "description": "Respond with Not Found main simpleHTTP nullConf notFound What you are looking for has not been found",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "notFound",
           "normalized": "a-\u003eb a",
@@ -9264,6 +9778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRespond with \u003ccode\u003e200 OK\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $ ok \"Everything is OK\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "ok",
           "package": "happstack-server",
@@ -9274,6 +9789,7 @@
         "index": {
           "description": "Respond with OK main simpleHTTP nullConf ok Everything is OK",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "ok",
           "normalized": "a-\u003eb a",
@@ -9289,6 +9805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA nicely formatted rendering of a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "prettyResponse",
           "package": "happstack-server",
@@ -9299,6 +9816,7 @@
         "index": {
           "description": "nicely formatted rendering of Response",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "prettyResponse",
           "normalized": "Response-\u003eString",
@@ -9315,6 +9833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRespond with \u003ccode\u003e413 Request Entity Too Large\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $ requestEntityTooLarge \"That's too big for me to handle.\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "requestEntityTooLarge",
           "package": "happstack-server",
@@ -9325,6 +9844,7 @@
         "index": {
           "description": "Respond with Request Entity Too Large main simpleHTTP nullConf requestEntityTooLarge That too big for me to handle",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "requestEntityTooLarge",
           "normalized": "a-\u003eb a",
@@ -9341,6 +9861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ccode\u003e\u003ca\u003esetResponseCode\u003c/a\u003e\u003c/code\u003e status \u003e\u003e return val\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eUse this if you want to set a response code that does not already\n have a helper function. \n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $ resp 200 \"Everything is OK\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "resp",
           "package": "happstack-server",
@@ -9350,6 +9871,7 @@
         "index": {
           "description": "Same as setResponseCode status return val Use this if you want to set response code that does not already have helper function main simpleHTTP nullConf resp Everything is OK",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "resp",
           "normalized": "Int-\u003ea-\u003eb a",
@@ -9365,6 +9887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRespond with \u003ccode\u003e303 See Other\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $ seeOther \"http://example.org/\" \"What you are looking for is now at http://example.org/\"\n\u003c/pre\u003e\u003cp\u003eNOTE: The second argument of \u003ccode\u003e\u003ca\u003eseeOther\u003c/a\u003e\u003c/code\u003e is the message body which will sent to the browser. According to the HTTP 1.1 spec,\n\u003c/p\u003e\u003cpre\u003ethe entity of the response SHOULD contain a short hypertext note with a hyperlink to the new URI(s).\u003c/pre\u003e\u003cp\u003eThis is because pre-HTTP/1.1 user agents do not support 303. However, in practice you can probably just use \u003ccode\u003e\"\"\u003c/code\u003e as the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "seeOther",
           "package": "happstack-server",
@@ -9375,6 +9898,7 @@
         "index": {
           "description": "Respond with See Other main simpleHTTP nullConf seeOther http example.org What you are looking for is now at http example.org NOTE The second argument of seeOther is the message body which will sent to the browser According to the HTTP spec the entity of the response SHOULD contain short hypertext note with hyperlink to the new URI This is because pre-HTTP user agents do not support However in practice you can probably just use as the second argument",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "seeOther",
           "normalized": "a-\u003eb-\u003ec b",
@@ -9391,6 +9915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet an arbitrary return code in your response.\n\u003c/p\u003e\u003cp\u003eA filter for setting the response code. Generally you will use a\n helper function like \u003ccode\u003e\u003ca\u003eok\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eseeOther\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $ do setResponseCode 200\n                                 return \"Everything is OK\"\n\u003c/pre\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003eresp\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "setResponseCode",
           "package": "happstack-server",
@@ -9400,6 +9925,7 @@
         "index": {
           "description": "Set an arbitrary return code in your response filter for setting the response code Generally you will use helper function like ok or seeOther main simpleHTTP nullConf do setResponseCode return Everything is OK see also resp",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "setResponseCode",
           "normalized": "Int-\u003ea()",
@@ -9416,6 +9942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRespond with \u003ccode\u003e307 Temporary Redirect\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $ tempRedirect \"http://example.org/\" \"What you are looking for is temporarily at http://example.org/\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "tempRedirect",
           "package": "happstack-server",
@@ -9426,6 +9953,7 @@
         "index": {
           "description": "Respond with Temporary Redirect main simpleHTTP nullConf tempRedirect http example.org What you are looking for is temporarily at http example.org",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "tempRedirect",
           "normalized": "a-\u003eb-\u003ec b",
@@ -9441,6 +9969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "toContentType",
           "package": "happstack-server",
@@ -9450,6 +9979,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "toContentType",
           "normalized": "a-\u003eByteString",
@@ -9465,6 +9995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "toMessage",
           "package": "happstack-server",
@@ -9474,6 +10005,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "toMessage",
           "normalized": "a-\u003eByteString",
@@ -9489,6 +10021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "toResponse",
           "package": "happstack-server",
@@ -9498,6 +10031,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "toResponse",
           "normalized": "a-\u003eResponse",
@@ -9514,6 +10048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA low-level function to build a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e from a content-type\n and a \u003ccode\u003eByteString\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e in a manner similar to the \u003ccode\u003e\u003ca\u003eToMessage\u003c/a\u003e\u003c/code\u003e class,\n but without requiring an instance declaration.\n\u003c/p\u003e\u003cp\u003eexample:\n\u003c/p\u003e\u003cpre\u003e import Data.ByteString.Char8 as C\n import Data.ByteString.Lazy.Char8 as L\n import Happstack.Server\n\n main = simpleHTTP nullConf $ ok $ toResponseBS (C.pack \"text/plain\") (L.pack \"hello, world\")\n\u003c/pre\u003e\u003cp\u003e(note: \u003ccode\u003e\u003ca\u003epack\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003epack\u003c/a\u003e\u003c/code\u003e only work for ascii. For unicode strings you would need to use \u003ccode\u003eutf8-string\u003c/code\u003e, \u003ccode\u003etext\u003c/code\u003e, or something similar to create a valid \u003ccode\u003eByteString\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "toResponseBS",
           "package": "happstack-server",
@@ -9523,6 +10058,7 @@
         "index": {
           "description": "low-level function to build Response from content-type and ByteString Creates Response in manner similar to the ToMessage class but without requiring an instance declaration example import Data.ByteString.Char8 as import Data.ByteString.Lazy.Char8 as import Happstack.Server main simpleHTTP nullConf ok toResponseBS C.pack text plain L.pack hello world note pack and pack only work for ascii For unicode strings you would need to use utf8-string text or something similar to create valid ByteString",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "toResponseBS",
           "normalized": "ByteString-\u003eByteString-\u003eResponse",
@@ -9539,6 +10075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRespond with \u003ccode\u003e401 Unauthorized\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $ unauthorized \"You are not authorized.\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Response",
           "name": "unauthorized",
           "package": "happstack-server",
@@ -9549,6 +10086,7 @@
         "index": {
           "description": "Respond with Unauthorized main simpleHTTP nullConf unauthorized You are not authorized",
           "hierarchy": "Happstack Server Response",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Response",
           "name": "unauthorized",
           "normalized": "a-\u003eb a",
@@ -9564,6 +10102,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRoute an incoming \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e to a handler. For more in-depth documentation see this section of the Happstack Crash Course: \u003ca\u003ehttp://happstack.com/docs/crashcourse/RouteFilters.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "Routing",
           "package": "happstack-server",
@@ -9573,6 +10112,7 @@
         "index": {
           "description": "Route an incoming Request to handler For more in-depth documentation see this section of the Happstack Crash Course http happstack.com docs crashcourse RouteFilters.html",
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "Routing",
           "package": "happstack-server",
@@ -9587,6 +10127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einstances of this class provide a variety of ways to match on the \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e method.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e method GET                  -- match GET or HEAD\n method [GET, POST]          -- match GET, HEAD or POST\n method HEAD                 -- match HEAD /but not/ GET\n method (== GET)             -- match GET or HEAD\n method (not . (==) DELETE)  -- match any method except DELETE\n method ()                   -- match any method\n\u003c/pre\u003e\u003cp\u003eAs you can see, GET implies that HEAD should match as well.  This is to\n make it harder to write an application that uses HTTP incorrectly.\n Happstack handles HEAD requests automatically, but we still need to make\n sure our handlers don't mismatch or a HEAD will result in a 404.\n\u003c/p\u003e\u003cp\u003eIf you must, you can still do something like this\n to match GET without HEAD:\n\u003c/p\u003e\u003cpre\u003e guardRq ((== GET) . rqMethod)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "MatchMethod",
           "package": "happstack-server",
@@ -9596,6 +10137,7 @@
         "index": {
           "description": "instances of this class provide variety of ways to match on the Request method Examples method GET match GET or HEAD method GET POST match GET HEAD or POST method HEAD match HEAD but not GET method GET match GET or HEAD method not DELETE match any method except DELETE method match any method As you can see GET implies that HEAD should match as well This is to make it harder to write an application that uses HTTP incorrectly Happstack handles HEAD requests automatically but we still need to make sure our handlers don mismatch or HEAD will result in If you must you can still do something like this to match GET without HEAD guardRq GET rqMethod",
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "MatchMethod",
           "package": "happstack-server",
@@ -9610,6 +10152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePop any path element and run the handler.\n\u003c/p\u003e\u003cp\u003eSucceeds if a path component was popped. Fails is the remaining path was empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "anyPath",
           "package": "happstack-server",
@@ -9620,6 +10163,7 @@
         "index": {
           "description": "Pop any path element and run the handler Succeeds if path component was popped Fails is the remaining path was empty",
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "anyPath",
           "normalized": "a b-\u003ea b",
@@ -9636,6 +10180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePop a path element and run the supplied handler if it matches the\n given string.\n\u003c/p\u003e\u003cpre\u003e handler :: ServerPart Response\n handler = dir \"foo\" $ dir \"bar\" $ subHandler\n\u003c/pre\u003e\u003cp\u003eThe path element can not contain '/'. See also \u003ccode\u003e\u003ca\u003edirs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "dir",
           "package": "happstack-server",
@@ -9646,6 +10191,7 @@
         "index": {
           "description": "Pop path element and run the supplied handler if it matches the given string handler ServerPart Response handler dir foo dir bar subHandler The path element can not contain See also dirs",
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "dir",
           "normalized": "String-\u003ea b-\u003ea b",
@@ -9661,6 +10207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGuard against a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e. Unlike \u003ccode\u003e\u003ca\u003edir\u003c/a\u003e\u003c/code\u003e the \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e may\n contain '/'. If the guard succeeds, the matched elements will be\n popped from the directory stack.\n\u003c/p\u003e\u003cpre\u003e dirs \"foo/bar\" $ ...\n\u003c/pre\u003e\u003cp\u003eSee also: \u003ccode\u003e\u003ca\u003edir\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "dirs",
           "package": "happstack-server",
@@ -9671,6 +10218,7 @@
         "index": {
           "description": "Guard against FilePath Unlike dir the FilePath may contain If the guard succeeds the matched elements will be popped from the directory stack dirs foo bar See also dir",
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "dirs",
           "normalized": "FilePath-\u003ea b-\u003ea b",
@@ -9686,6 +10234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGuard using an arbitrary function on the \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "guardRq",
           "package": "happstack-server",
@@ -9696,6 +10245,7 @@
         "index": {
           "description": "Guard using an arbitrary function on the Request",
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "guardRq",
           "normalized": "(Request-\u003eBool)-\u003ea()",
@@ -9712,6 +10262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGuard against the host.\n\u003c/p\u003e\u003cp\u003eThis matches against the \u003ccode\u003ehost\u003c/code\u003e header specified in the incoming \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eCan be used to support virtual hosting, \u003ca\u003ehttp://en.wikipedia.org/wiki/Virtual_hosting\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eNote that this matches against the value of the \u003ccode\u003eHost\u003c/code\u003e header which may include the port number.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.23\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003ewithHost\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "host",
           "package": "happstack-server",
@@ -9722,6 +10273,7 @@
         "index": {
           "description": "Guard against the host This matches against the host header specified in the incoming Request Can be used to support virtual hosting http en.wikipedia.org wiki Virtual hosting Note that this matches against the value of the Host header which may include the port number http www.w3.org Protocols rfc2616 rfc2616-sec14.html sec14.23 see also withHost",
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "host",
           "normalized": "String-\u003ea b-\u003ea b",
@@ -9737,6 +10289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eguard which checks that an insecure connection was made via http://\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e handler :: ServerPart Response\n handler =\n     do https\n        ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "http",
           "package": "happstack-server",
@@ -9747,6 +10300,7 @@
         "index": {
           "description": "guard which checks that an insecure connection was made via http Example handler ServerPart Response handler do https",
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "http",
           "normalized": "a()",
@@ -9762,6 +10316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eguard which checks that a secure connection was made via https://\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e handler :: ServerPart Response\n handler =\n     do https\n        ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "https",
           "package": "happstack-server",
@@ -9772,6 +10327,7 @@
         "index": {
           "description": "guard which checks that secure connection was made via https Example handler ServerPart Response handler do https",
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "https",
           "normalized": "a()",
@@ -9786,6 +10342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "matchMethod",
           "package": "happstack-server",
@@ -9795,6 +10352,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "matchMethod",
           "normalized": "a-\u003eMethod-\u003eBool",
@@ -9811,6 +10369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGuard against the method only (as opposed to \u003ccode\u003e\u003ca\u003emethodM\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e handler :: ServerPart Response\n handler =\n     do methodOnly [GET, HEAD]\n        ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "method",
           "package": "happstack-server",
@@ -9821,6 +10380,7 @@
         "index": {
           "description": "Guard against the method only as opposed to methodM Example handler ServerPart Response handler do methodOnly GET HEAD",
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "method",
           "normalized": "a-\u003eb()",
@@ -9836,6 +10396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGuard against the method. This function also guards against\n *any remaining path segments*. See \u003ccode\u003e\u003ca\u003emethod\u003c/a\u003e\u003c/code\u003e for the version\n that guards only by method.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e handler :: ServerPart Response\n handler =\n     do methodM [GET, HEAD]\n        ...\n\u003c/pre\u003e\u003cp\u003eNOTE: This function is largely retained for backwards\n compatibility. The fact that implicitly calls \u003ccode\u003e\u003ca\u003enullDir\u003c/a\u003e\u003c/code\u003e is often\n forgotten and leads to confusion. It is probably better to just use\n \u003ccode\u003e\u003ca\u003emethod\u003c/a\u003e\u003c/code\u003e and call \u003ccode\u003e\u003ca\u003enullDir\u003c/a\u003e\u003c/code\u003e explicitly.\n\u003c/p\u003e\u003cp\u003eThis function will likely be deprecated in the future.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "methodM",
           "package": "happstack-server",
@@ -9846,6 +10407,7 @@
         "index": {
           "description": "Guard against the method This function also guards against any remaining path segments See method for the version that guards only by method Example handler ServerPart Response handler do methodM GET HEAD NOTE This function is largely retained for backwards compatibility The fact that implicitly calls nullDir is often forgotten and leads to confusion It is probably better to just use method and call nullDir explicitly This function will likely be deprecated in the future",
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "methodM",
           "normalized": "a-\u003eb()",
@@ -9861,6 +10423,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: this function is just an alias for method now\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eGuard against the method only (as opposed to \u003ccode\u003e\u003ca\u003emethodM\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e handler :: ServerPart Response\n handler =\n     do methodOnly [GET, HEAD]\n        ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "methodOnly",
           "package": "happstack-server",
@@ -9871,6 +10434,7 @@
         "index": {
           "description": "Deprecated this function is just an alias for method now Guard against the method only as opposed to methodM Example handler ServerPart Response handler do methodOnly GET HEAD",
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "methodOnly",
           "normalized": "a-\u003eb()",
@@ -9887,6 +10451,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use method instead.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eGuard against the method. Note, this function also guards against\n any remaining path segments. Similar to \u003ccode\u003e\u003ca\u003emethodM\u003c/a\u003e\u003c/code\u003e but with a different type signature.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e handler :: ServerPart Response\n handler = methodSP [GET, HEAD] $ subHandler\n\u003c/pre\u003e\u003cp\u003eNOTE: This style of combinator is going to be deprecated in the\n future. It is better to just use \u003ccode\u003e\u003ca\u003emethod\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e handler :: ServerPart Response\n handler = method [GET, HEAD] \u003e\u003e nullDir \u003e\u003e subHandler\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "methodSP",
           "package": "happstack-server",
@@ -9897,6 +10462,7 @@
         "index": {
           "description": "Deprecated use method instead Guard against the method Note this function also guards against any remaining path segments Similar to methodM but with different type signature Example handler ServerPart Response handler methodSP GET HEAD subHandler NOTE This style of combinator is going to be deprecated in the future It is better to just use method handler ServerPart Response handler method GET HEAD nullDir subHandler",
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "methodSP",
           "normalized": "a-\u003eb c-\u003eb c",
@@ -9913,6 +10479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opposite of \u003ccode\u003e\u003ca\u003etrailingSlash\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "noTrailingSlash",
           "package": "happstack-server",
@@ -9923,6 +10490,7 @@
         "index": {
           "description": "The opposite of trailingSlash",
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "noTrailingSlash",
           "normalized": "a()",
@@ -9939,6 +10507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eguard which only succeeds if there are no remaining path segments\n\u003c/p\u003e\u003cp\u003eOften used if you want to explicitly assign a route for \u003ccode\u003e\u003ca\u003e/\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "nullDir",
           "package": "happstack-server",
@@ -9949,6 +10518,7 @@
         "index": {
           "description": "guard which only succeeds if there are no remaining path segments Often used if you want to explicitly assign route for",
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "nullDir",
           "normalized": "a()",
@@ -9965,6 +10535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePop a path element and parse it using the \u003ccode\u003e\u003ca\u003efromReqURI\u003c/a\u003e\u003c/code\u003e in the\n \u003ccode\u003e\u003ca\u003eFromReqURI\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "path",
           "package": "happstack-server",
@@ -9975,6 +10546,7 @@
         "index": {
           "description": "Pop path element and parse it using the fromReqURI in the FromReqURI class",
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "path",
           "normalized": "(a-\u003eb c)-\u003eb c",
@@ -9990,6 +10562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGuard which checks that the Request URI ends in \u003ccode\u003e'/'\u003c/code\u003e.  Useful\n for distinguishing between \u003ccode\u003efoo\u003c/code\u003e and \u003ccode\u003efoo/\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "trailingSlash",
           "package": "happstack-server",
@@ -10000,6 +10573,7 @@
         "index": {
           "description": "Guard which checks that the Request URI ends in Useful for distinguishing between foo and foo",
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "trailingSlash",
           "normalized": "a()",
@@ -10016,6 +10590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrab the rest of the URL (dirs + query) and passes it to your\n handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "uriRest",
           "package": "happstack-server",
@@ -10026,6 +10601,7 @@
         "index": {
           "description": "Grab the rest of the URL dirs query and passes it to your handler",
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "uriRest",
           "normalized": "(String-\u003ea b)-\u003ea b",
@@ -10042,6 +10618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup the \u003ccode\u003ehost\u003c/code\u003e header in the incoming request and pass it to the handler.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003ehost\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Routing",
           "name": "withHost",
           "package": "happstack-server",
@@ -10052,6 +10629,7 @@
         "index": {
           "description": "Lookup the host header in the incoming request and pass it to the handler see also host",
           "hierarchy": "Happstack Server Routing",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Routing",
           "name": "withHost",
           "normalized": "(String-\u003ea b)-\u003ea b",
@@ -10068,6 +10646,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for extracting values from the query string, form data, cookies, etc.\n\u003c/p\u003e\u003cp\u003eFor in-depth documentation see the following section of the Happstack Crash Course:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://happstack.com/docs/crashcourse/RqData.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "RqData",
           "package": "happstack-server",
@@ -10077,6 +10656,7 @@
         "index": {
           "description": "Functions for extracting values from the query string form data cookies etc For in-depth documentation see the following section of the Happstack Crash Course http happstack.com docs crashcourse RqData.html",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "RqData",
           "package": "happstack-server",
@@ -10091,6 +10671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003edefaultBodyPolicy\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "BodyPolicy",
           "package": "happstack-server",
@@ -10100,6 +10681,7 @@
         "index": {
           "description": "see defaultBodyPolicy",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "BodyPolicy",
           "package": "happstack-server",
@@ -10114,6 +10696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea list of errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "Errors",
           "package": "happstack-server",
@@ -10123,6 +10706,7 @@
         "index": {
           "description": "list of errors",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "Errors",
           "package": "happstack-server",
@@ -10137,6 +10721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by \u003ccode\u003e\u003ca\u003ewithData\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003egetData\u003c/a\u003e\u003c/code\u003e. Make your preferred data\n type an instance of \u003ccode\u003e\u003ca\u003eFromData\u003c/a\u003e\u003c/code\u003e to use those functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "FromData",
           "package": "happstack-server",
@@ -10146,6 +10731,7 @@
         "index": {
           "description": "Used by withData and getData Make your preferred data type an instance of FromData to use those functions",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "FromData",
           "package": "happstack-server",
@@ -10160,6 +10746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for monads which contain a \u003ccode\u003e\u003ca\u003eRqEnv\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "HasRqData",
           "package": "happstack-server",
@@ -10169,6 +10756,7 @@
         "index": {
           "description": "class for monads which contain RqEnv",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "HasRqData",
           "package": "happstack-server",
@@ -10183,6 +10771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn applicative functor and monad for looking up key/value pairs\n in the QUERY_STRING, Request body, and cookies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "RqData",
           "package": "happstack-server",
@@ -10192,6 +10781,7 @@
         "index": {
           "description": "An applicative functor and monad for looking up key value pairs in the QUERY STRING Request body and cookies",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "RqData",
           "package": "happstack-server",
@@ -10206,6 +10796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe environment used to lookup query parameters. It consists of\n the triple: (query string inputs, body inputs, cookie inputs)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "RqEnv",
           "package": "happstack-server",
@@ -10215,6 +10806,7 @@
         "index": {
           "description": "the environment used to lookup query parameters It consists of the triple query string inputs body inputs cookie inputs",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "RqEnv",
           "package": "happstack-server",
@@ -10228,6 +10820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "Errors",
           "package": "happstack-server",
@@ -10237,6 +10830,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "Errors",
           "package": "happstack-server",
@@ -10250,6 +10844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "askRqEnv",
           "package": "happstack-server",
@@ -10259,6 +10854,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "askRqEnv",
           "package": "happstack-server",
@@ -10273,6 +10869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elimit the scope to the Request body\n\u003c/p\u003e\u003cpre\u003e handler :: ServerPart Response\n handler =\n     do foo \u003c- body $ look \"foo\"\n        ok $ toResponse $ \"foo = \" ++ foo\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "body",
           "package": "happstack-server",
@@ -10283,6 +10880,7 @@
         "index": {
           "description": "limit the scope to the Request body handler ServerPart Response handler do foo body look foo ok toResponse foo foo",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "body",
           "normalized": "a b-\u003ea b",
@@ -10298,6 +10896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elimit the scope to \u003ccode\u003e\u003ca\u003eInput\u003c/a\u003e\u003c/code\u003es  which produce a \u003ccode\u003eByteString\u003c/code\u003e (aka, not a file)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "bytestring",
           "package": "happstack-server",
@@ -10308,6 +10907,7 @@
         "index": {
           "description": "limit the scope to Input which produce ByteString aka not file",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "bytestring",
           "normalized": "a b-\u003ea b",
@@ -10323,6 +10923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert or validate a value\n\u003c/p\u003e\u003cp\u003eThis is similar to \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e except that the function can fail by\n returning Left and an error message. The error will be propagated\n by calling \u003ccode\u003e\u003ca\u003erqDataError\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function is useful for a number of things including:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Parsing a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e into another type\n\u003c/li\u003e\u003cli\u003e Checking that a value meets some requirements (for example, that is an Int between 1 and 10).\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eExample usage at:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://happstack.com/docs/crashcourse/RqData.html#rqdatacheckrq\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "checkRq",
           "package": "happstack-server",
@@ -10333,6 +10934,7 @@
         "index": {
           "description": "convert or validate value This is similar to fmap except that the function can fail by returning Left and an error message The error will be propagated by calling rqDataError This function is useful for number of things including Parsing String into another type Checking that value meets some requirements for example that is an Int between and Example usage at http happstack.com docs crashcourse RqData.html rqdatacheckrq",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "checkRq",
           "normalized": "a b-\u003e(b-\u003eEither String c)-\u003ea c",
@@ -10349,6 +10951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike \u003ccode\u003e\u003ca\u003echeckRq\u003c/a\u003e\u003c/code\u003e but the check function can be monadic\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "checkRqM",
           "package": "happstack-server",
@@ -10359,6 +10962,7 @@
         "index": {
           "description": "like checkRq but the check function can be monadic",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "checkRqM",
           "normalized": "a b-\u003e(b-\u003ea(Either String c))-\u003ea c",
@@ -10375,6 +10979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe POST/PUT body of a Request is not received or decoded unless\n this function is invoked.\n\u003c/p\u003e\u003cp\u003eIt is an error to try to use the look functions for a POST/PUT\n request with out first calling this function.\n\u003c/p\u003e\u003cp\u003eIt is ok to call \u003ccode\u003e\u003ca\u003edecodeBody\u003c/a\u003e\u003c/code\u003e at the beginning of every request:\n\u003c/p\u003e\u003cpre\u003e main = simpleHTTP nullConf $\n           do decodeBody (defaultBodyPolicy \"/tmp/\" 4096 4096 4096)\n              handlers\n\u003c/pre\u003e\u003cp\u003eYou can achieve finer granularity quotas by calling \u003ccode\u003e\u003ca\u003edecodeBody\u003c/a\u003e\u003c/code\u003e\n with different values in different handlers.\n\u003c/p\u003e\u003cp\u003eOnly the first call to \u003ccode\u003e\u003ca\u003edecodeBody\u003c/a\u003e\u003c/code\u003e will have any effect. Calling\n it a second time, even with different quota values, will do\n nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "decodeBody",
           "package": "happstack-server",
@@ -10385,6 +10990,7 @@
         "index": {
           "description": "The POST PUT body of Request is not received or decoded unless this function is invoked It is an error to try to use the look functions for POST PUT request with out first calling this function It is ok to call decodeBody at the beginning of every request main simpleHTTP nullConf do decodeBody defaultBodyPolicy tmp handlers You can achieve finer granularity quotas by calling decodeBody with different values in different handlers Only the first call to decodeBody will have any effect Calling it second time even with different quota values will do nothing",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "decodeBody",
           "normalized": "BodyPolicy-\u003ea()",
@@ -10400,6 +11006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "fromData",
           "package": "happstack-server",
@@ -10409,6 +11016,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "fromData",
           "package": "happstack-server",
@@ -10423,6 +11031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003egetDataFn\u003c/a\u003e\u003c/code\u003e that uses \u003ccode\u003e\u003ca\u003eFromData\u003c/a\u003e\u003c/code\u003e to chose your\n \u003ccode\u003e\u003ca\u003eRqData\u003c/a\u003e\u003c/code\u003e for you.  The example from \u003ccode\u003e\u003ca\u003egetData\u003c/a\u003e\u003c/code\u003e becomes:\n\u003c/p\u003e\u003cpre\u003e  data AuthCredentials = AuthCredentials { username :: String,  password :: String }\n\n  isValid :: AuthCredentials -\u003e Bool\n  isValid = const True\n\n  myRqData :: RqData AuthCredentials\n  myRqData = do\n     username \u003c- look \"username\"\n     password \u003c- look \"password\"\n     return (AuthCredentials username password)\n\n  instance FromData AuthCredentials where\n     fromData = myRqData\n\n  checkAuth :: (String -\u003e ServerPart Response) -\u003e ServerPart Response\n  checkAuth errorHandler = do\n     d \u003c- getData\n     case d of\n         (Left e) -\u003e errorHandler (unlines e)\n         (Right a) | isValid a -\u003e mzero\n         (Right a) | otherwise -\u003e errorHandler \"invalid\"\n\u003c/pre\u003e\u003cp\u003eNOTE: you must call \u003ccode\u003e\u003ca\u003edecodeBody\u003c/a\u003e\u003c/code\u003e prior to calling this function if\n the request method is POST or PUT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "getData",
           "package": "happstack-server",
@@ -10433,6 +11042,7 @@
         "index": {
           "description": "variant of getDataFn that uses FromData to chose your RqData for you The example from getData becomes data AuthCredentials AuthCredentials username String password String isValid AuthCredentials Bool isValid const True myRqData RqData AuthCredentials myRqData do username look username password look password return AuthCredentials username password instance FromData AuthCredentials where fromData myRqData checkAuth String ServerPart Response ServerPart Response checkAuth errorHandler do getData case of Left errorHandler unlines Right isValid mzero Right otherwise errorHandler invalid NOTE you must call decodeBody prior to calling this function if the request method is POST or PUT",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "getData",
           "normalized": "a(Either[String]b)",
@@ -10449,6 +11059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun \u003ccode\u003e\u003ca\u003eRqData\u003c/a\u003e\u003c/code\u003e in a \u003ccode\u003e\u003ca\u003eServerMonad\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExample: a simple \u003ccode\u003eGET\u003c/code\u003e or \u003ccode\u003ePOST\u003c/code\u003e variable based authentication\n guard.  It handles the request with \u003ccode\u003eerrorHandler\u003c/code\u003e if\n authentication fails.\n\u003c/p\u003e\u003cpre\u003e  data AuthCredentials = AuthCredentials { username :: String,  password :: String }\n\n  isValid :: AuthCredentials -\u003e Bool\n  isValid = const True\n\n  myRqData :: RqData AuthCredentials\n  myRqData = do\n     username \u003c- look \"username\"\n     password \u003c- look \"password\"\n     return (AuthCredentials username password)\n\n  checkAuth :: (String -\u003e ServerPart Response) -\u003e ServerPart Response\n  checkAuth errorHandler = do\n     d \u003c- getDataFn myRqData\n     case d of\n         (Left e) -\u003e errorHandler (unlines e)\n         (Right a) | isValid a -\u003e mzero\n         (Right a) | otherwise -\u003e errorHandler \"invalid\"\n\u003c/pre\u003e\u003cp\u003eNOTE: you must call \u003ccode\u003e\u003ca\u003edecodeBody\u003c/a\u003e\u003c/code\u003e prior to calling this function if\n the request method is POST or PUT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "getDataFn",
           "package": "happstack-server",
@@ -10458,6 +11069,7 @@
         "index": {
           "description": "run RqData in ServerMonad Example simple GET or POST variable based authentication guard It handles the request with errorHandler if authentication fails data AuthCredentials AuthCredentials username String password String isValid AuthCredentials Bool isValid const True myRqData RqData AuthCredentials myRqData do username look username password look password return AuthCredentials username password checkAuth String ServerPart Response ServerPart Response checkAuth errorHandler do getDataFn myRqData case of Left errorHandler unlines Right isValid mzero Right otherwise errorHandler invalid NOTE you must call decodeBody prior to calling this function if the request method is POST or PUT",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "getDataFn",
           "normalized": "RqData a-\u003eb(Either[String]a)",
@@ -10473,6 +11085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "localRqEnv",
           "package": "happstack-server",
@@ -10482,6 +11095,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "localRqEnv",
           "normalized": "(RqEnv-\u003eRqEnv)-\u003ea b-\u003ea b",
@@ -10498,6 +11112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the first matching named input parameter as a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSearches the QUERY_STRING followed by the Request body.\n\u003c/p\u003e\u003cp\u003eThis function assumes the underlying octets are UTF-8 encoded.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e handler :: ServerPart Response\n handler =\n      do foo \u003c- look \"foo\"\n         ok $ toResponse $ \"foo = \" ++ foo\n\u003c/pre\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003elooks\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003elookBS\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003elookBSs\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "look",
           "package": "happstack-server",
@@ -10508,6 +11123,7 @@
         "index": {
           "description": "Gets the first matching named input parameter as String Searches the QUERY STRING followed by the Request body This function assumes the underlying octets are UTF-8 encoded Example handler ServerPart Response handler do foo look foo ok toResponse foo foo see also looks lookBS and lookBSs",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "look",
           "normalized": "String-\u003ea String",
@@ -10523,6 +11139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the first matching named input parameter as a lazy \u003ccode\u003eByteString\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSearches the QUERY_STRING followed by the Request body.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003elookBSs\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "lookBS",
           "package": "happstack-server",
@@ -10533,6 +11150,7 @@
         "index": {
           "description": "Gets the first matching named input parameter as lazy ByteString Searches the QUERY STRING followed by the Request body see also lookBSs",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "lookBS",
           "normalized": "String-\u003ea ByteString",
@@ -10549,6 +11167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets all matches for the named input parameter as lazy \u003ccode\u003eByteString\u003c/code\u003es\n\u003c/p\u003e\u003cp\u003eSearches the QUERY_STRING followed by the Request body.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003elookBS\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "lookBSs",
           "package": "happstack-server",
@@ -10559,6 +11178,7 @@
         "index": {
           "description": "Gets all matches for the named input parameter as lazy ByteString Searches the QUERY STRING followed by the Request body see also lookBS",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "lookBSs",
           "normalized": "String-\u003ea[ByteString]",
@@ -10575,6 +11195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the named cookie\n the cookie name is case insensitive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "lookCookie",
           "package": "happstack-server",
@@ -10585,6 +11206,7 @@
         "index": {
           "description": "Gets the named cookie the cookie name is case insensitive",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "lookCookie",
           "normalized": "String-\u003ea Cookie",
@@ -10601,6 +11223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egets the named cookie as a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "lookCookieValue",
           "package": "happstack-server",
@@ -10611,6 +11234,7 @@
         "index": {
           "description": "gets the named cookie as string",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "lookCookieValue",
           "normalized": "String-\u003ea String",
@@ -10627,6 +11251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the first matching named file\n\u003c/p\u003e\u003cp\u003eFiles can only appear in the request body. Additionally, the form\n must set enctype=\"multipart/form-data\".\n\u003c/p\u003e\u003cp\u003eThis function returns a tuple consisting of:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e The temporary location of the uploaded file\n\u003c/li\u003e\u003cli\u003e The local filename supplied by the browser\n\u003c/li\u003e\u003cli\u003e The content-type supplied by the browser\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eIf the user does not supply a file in the html form input field,\n the behaviour will depend upon the browser. Most browsers will send\n a 0-length file with an empty file name, so checking that (2) is\n not empty is usually sufficient to ensure the field has been\n filled.\n\u003c/p\u003e\u003cp\u003eNOTE: You must move the file from the temporary location before the\n \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e is sent. The temporary files are automatically removed\n after the \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e is sent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "lookFile",
           "package": "happstack-server",
@@ -10636,6 +11261,7 @@
         "index": {
           "description": "Gets the first matching named file Files can only appear in the request body Additionally the form must set enctype multipart form-data This function returns tuple consisting of The temporary location of the uploaded file The local filename supplied by the browser The content-type supplied by the browser If the user does not supply file in the html form input field the behaviour will depend upon the browser Most browsers will send length file with an empty file name so checking that is not empty is usually sufficient to ensure the field has been filled NOTE You must move the file from the temporary location before the Response is sent The temporary files are automatically removed after the Response is sent",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "lookFile",
           "normalized": "String-\u003ea(FilePath,FilePath,ContentType)",
@@ -10652,6 +11278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the first matching named input parameter\n\u003c/p\u003e\u003cp\u003eSearches the QUERY_STRING followed by the Request body.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003elookInputs\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "lookInput",
           "package": "happstack-server",
@@ -10662,6 +11289,7 @@
         "index": {
           "description": "Gets the first matching named input parameter Searches the QUERY STRING followed by the Request body see also lookInputs",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "lookInput",
           "normalized": "String-\u003ea Input",
@@ -10678,6 +11306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets all matches for the named input parameter\n\u003c/p\u003e\u003cp\u003eSearches the QUERY_STRING followed by the Request body.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003elookInput\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "lookInputs",
           "package": "happstack-server",
@@ -10688,6 +11317,7 @@
         "index": {
           "description": "Gets all matches for the named input parameter Searches the QUERY STRING followed by the Request body see also lookInput",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "lookInputs",
           "normalized": "String-\u003ea[Input]",
@@ -10704,6 +11334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egets all the input parameters, and converts them to a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThe results will contain the QUERY_STRING followed by the Request\n body.\n\u003c/p\u003e\u003cp\u003eThis function assumes the underlying octets are UTF-8 encoded.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003elookPairsBS\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "lookPairs",
           "package": "happstack-server",
@@ -10714,6 +11345,7 @@
         "index": {
           "description": "gets all the input parameters and converts them to String The results will contain the QUERY STRING followed by the Request body This function assumes the underlying octets are UTF-8 encoded see also lookPairsBS",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "lookPairs",
           "normalized": "a[(String,Either FilePath String)]",
@@ -10730,6 +11362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egets all the input parameters\n\u003c/p\u003e\u003cp\u003eThe results will contain the QUERY_STRING followed by the Request\n body.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003elookPairs\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "lookPairsBS",
           "package": "happstack-server",
@@ -10740,6 +11373,7 @@
         "index": {
           "description": "gets all the input parameters The results will contain the QUERY STRING followed by the Request body see also lookPairs",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "lookPairsBS",
           "normalized": "a[(String,Either FilePath ByteString)]",
@@ -10756,6 +11390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the first matching named input parameter and decodes it using \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSearches the QUERY_STRING followed by the Request body.\n\u003c/p\u003e\u003cp\u003eThis function assumes the underlying octets are UTF-8 encoded.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003elookReads\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "lookRead",
           "package": "happstack-server",
@@ -10766,6 +11401,7 @@
         "index": {
           "description": "Gets the first matching named input parameter and decodes it using Read Searches the QUERY STRING followed by the Request body This function assumes the underlying octets are UTF-8 encoded see also lookReads",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "lookRead",
           "normalized": "String-\u003ea b",
@@ -10782,6 +11418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets all matches for the named input parameter and decodes them using \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSearches the QUERY_STRING followed by the Request body.\n\u003c/p\u003e\u003cp\u003eThis function assumes the underlying octets are UTF-8 encoded.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003elookReads\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "lookReads",
           "package": "happstack-server",
@@ -10792,6 +11429,7 @@
         "index": {
           "description": "Gets all matches for the named input parameter and decodes them using Read Searches the QUERY STRING followed by the Request body This function assumes the underlying octets are UTF-8 encoded see also lookReads",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "lookReads",
           "normalized": "String-\u003ea[b]",
@@ -10808,6 +11446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the first matching named input parameter as a lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSearches the QUERY_STRING followed by the Request body.\n\u003c/p\u003e\u003cp\u003eThis function assumes the underlying octets are UTF-8 encoded.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003elookTexts\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003elook\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003elooks\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003elookBS\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003elookBSs\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "lookText",
           "package": "happstack-server",
@@ -10818,6 +11457,7 @@
         "index": {
           "description": "Gets the first matching named input parameter as lazy Text Searches the QUERY STRING followed by the Request body This function assumes the underlying octets are UTF-8 encoded see also lookTexts look looks lookBS and lookBSs",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "lookText",
           "normalized": "String-\u003ea Text",
@@ -10834,6 +11474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the first matching named input parameter as a strict \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eSearches the QUERY_STRING followed by the Request body.\n\u003c/p\u003e\u003cp\u003eThis function assumes the underlying octets are UTF-8 encoded.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003elookTexts\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003elook\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003elooks\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003elookBS\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003elookBSs\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "lookText'",
           "package": "happstack-server",
@@ -10844,6 +11485,7 @@
         "index": {
           "description": "Gets the first matching named input parameter as strict Text Searches the QUERY STRING followed by the Request body This function assumes the underlying octets are UTF-8 encoded see also lookTexts look looks lookBS and lookBSs",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "lookText'",
           "normalized": "String-\u003ea Text",
@@ -10860,6 +11502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets all matches for the named input parameter as lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e\u003cp\u003eSearches the QUERY_STRING followed by the Request body.\n\u003c/p\u003e\u003cp\u003eThis function assumes the underlying octets are UTF-8 encoded.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003elookText\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003elooks\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003elookBSs\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "lookTexts",
           "package": "happstack-server",
@@ -10870,6 +11513,7 @@
         "index": {
           "description": "Gets all matches for the named input parameter as lazy Text Searches the QUERY STRING followed by the Request body This function assumes the underlying octets are UTF-8 encoded see also lookText looks and lookBSs",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "lookTexts",
           "normalized": "String-\u003ea[Text]",
@@ -10886,6 +11530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets all matches for the named input parameter as strict \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e\u003cp\u003eSearches the QUERY_STRING followed by the Request body.\n\u003c/p\u003e\u003cp\u003eThis function assumes the underlying octets are UTF-8 encoded.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003elookText'\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003elooks\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003elookBSs\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "lookTexts'",
           "package": "happstack-server",
@@ -10896,6 +11541,7 @@
         "index": {
           "description": "Gets all matches for the named input parameter as strict Text Searches the QUERY STRING followed by the Request body This function assumes the underlying octets are UTF-8 encoded see also lookText looks and lookBSs",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "lookTexts'",
           "normalized": "String-\u003ea[Text]",
@@ -10912,6 +11558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets all matches for the named input parameter as \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e\u003cp\u003eSearches the QUERY_STRING followed by the Request body.\n\u003c/p\u003e\u003cp\u003eThis function assumes the underlying octets are UTF-8 encoded.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003elook\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003elookBSs\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "looks",
           "package": "happstack-server",
@@ -10922,6 +11569,7 @@
         "index": {
           "description": "Gets all matches for the named input parameter as String Searches the QUERY STRING followed by the Request body This function assumes the underlying octets are UTF-8 encoded see also look and lookBSs",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "looks",
           "normalized": "String-\u003ea[String]",
@@ -10937,6 +11585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etransform the result of 'RqData a'.\n\u003c/p\u003e\u003cp\u003eThis is similar to \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e except it also allows you to modify the\n \u003ccode\u003e\u003ca\u003eErrors\u003c/a\u003e\u003c/code\u003e not just \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "mapRqData",
           "package": "happstack-server",
@@ -10947,6 +11596,7 @@
         "index": {
           "description": "transform the result of RqData This is similar to fmap except it also allows you to modify the Errors not just",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "mapRqData",
           "normalized": "(Either(Errors String)a-\u003eEither(Errors String)b)-\u003eRqData a-\u003eRqData b",
@@ -10963,6 +11613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elimit the scope to the QUERY_STRING\n\u003c/p\u003e\u003cpre\u003e handler :: ServerPart Response\n handler =\n     do foo \u003c- queryString $ look \"foo\"\n        ok $ toResponse $ \"foo = \" ++ foo\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "queryString",
           "package": "happstack-server",
@@ -10973,6 +11624,7 @@
         "index": {
           "description": "limit the scope to the QUERY STRING handler ServerPart Response handler do foo queryString look foo ok toResponse foo foo",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "queryString",
           "normalized": "a b-\u003ea b",
@@ -10989,6 +11641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egets the named cookie as the requested Read type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "readCookieValue",
           "package": "happstack-server",
@@ -10999,6 +11652,7 @@
         "index": {
           "description": "gets the named cookie as the requested Read type",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "readCookieValue",
           "normalized": "String-\u003ea b",
@@ -11015,6 +11669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euse \u003ccode\u003e\u003ca\u003efromReqURI\u003c/a\u003e\u003c/code\u003e to convert a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to a value of type \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e look \"key\" `checkRq` (readRq \"key\")\n\u003c/pre\u003e\u003cp\u003euse with \u003ccode\u003e\u003ca\u003echeckRq\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "readRq",
           "package": "happstack-server",
@@ -11024,6 +11679,7 @@
         "index": {
           "description": "use fromReqURI to convert String to value of type look key checkRq readRq key use with checkRq",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "readRq",
           "normalized": "String-\u003eString-\u003eEither String a",
@@ -11040,6 +11696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elift some \u003ccode\u003e\u003ca\u003eErrors\u003c/a\u003e\u003c/code\u003e into \u003ccode\u003e\u003ca\u003eRqData\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "rqDataError",
           "package": "happstack-server",
@@ -11050,6 +11707,7 @@
         "index": {
           "description": "lift some Errors into RqData",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "rqDataError",
           "normalized": "Errors String-\u003ea b",
@@ -11065,6 +11723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "unErrors",
           "package": "happstack-server",
@@ -11074,6 +11733,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "unErrors",
           "normalized": "[a]",
@@ -11090,6 +11750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euse \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e to convert a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to a value of type \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e look \"key\" `checkRq` (unsafeReadRq \"key\")\n\u003c/pre\u003e\u003cp\u003euse with \u003ccode\u003e\u003ca\u003echeckRq\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eNOTE: This function is marked unsafe because some Read instances\n are vulnerable to attacks that attempt to create an out of memory\n condition. For example:\n\u003c/p\u003e\u003cpre\u003e read \"1e10000000000000\" :: Integer\n\u003c/pre\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003ereadRq\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "unsafeReadRq",
           "package": "happstack-server",
@@ -11099,6 +11760,7 @@
         "index": {
           "description": "use read to convert String to value of type look key checkRq unsafeReadRq key use with checkRq NOTE This function is marked unsafe because some Read instances are vulnerable to attacks that attempt to create an out of memory condition For example read e10000000000000 Integer see also readRq",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "unsafeReadRq",
           "normalized": "String-\u003eString-\u003eEither String a",
@@ -11115,6 +11777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimilar to \u003ccode\u003e\u003ca\u003egetData\u003c/a\u003e\u003c/code\u003e except it calls a subhandler on success or \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e on failure.\n\u003c/p\u003e\u003cp\u003eNOTE: you must call \u003ccode\u003e\u003ca\u003edecodeBody\u003c/a\u003e\u003c/code\u003e prior to calling this function if\n the request method is POST or PUT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "withData",
           "package": "happstack-server",
@@ -11125,6 +11788,7 @@
         "index": {
           "description": "similar to getData except it calls subhandler on success or mzero on failure NOTE you must call decodeBody prior to calling this function if the request method is POST or PUT",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "withData",
           "normalized": "(a-\u003eb c)-\u003eb c",
@@ -11141,6 +11805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimilar to \u003ccode\u003e\u003ca\u003egetDataFn\u003c/a\u003e\u003c/code\u003e, except it calls a sub-handler on success\n or \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e on failure.\n\u003c/p\u003e\u003cp\u003eNOTE: you must call \u003ccode\u003e\u003ca\u003edecodeBody\u003c/a\u003e\u003c/code\u003e prior to calling this function if\n the request method is POST or PUT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.RqData",
           "name": "withDataFn",
           "package": "happstack-server",
@@ -11151,6 +11816,7 @@
         "index": {
           "description": "similar to getDataFn except it calls sub-handler on success or mzero on failure NOTE you must call decodeBody prior to calling this function if the request method is POST or PUT",
           "hierarchy": "Happstack Server RqData",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.RqData",
           "name": "withDataFn",
           "normalized": "RqData a-\u003e(a-\u003eb c)-\u003eb c",
@@ -11167,6 +11833,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA wrapper and type class so that functions like \u003ccode\u003eseeOther\u003c/code\u003e can take a URI which is represented by a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e, or other instance of \u003ccode\u003e\u003ca\u003eToSURI\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "SURI",
           "package": "happstack-server",
@@ -11176,6 +11843,7 @@
         "index": {
           "description": "wrapper and type class so that functions like seeOther can take URI which is represented by String URI or other instance of ToSURI",
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "SURI",
           "package": "happstack-server",
@@ -11189,6 +11857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "FromPath",
           "package": "happstack-server",
@@ -11197,6 +11866,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "FromPath",
           "package": "happstack-server",
@@ -11210,6 +11880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "SURI",
           "package": "happstack-server",
@@ -11218,6 +11889,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "SURI",
           "package": "happstack-server",
@@ -11232,6 +11904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience class for converting data types to URIs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "ToSURI",
           "package": "happstack-server",
@@ -11241,6 +11914,7 @@
         "index": {
           "description": "Convenience class for converting data types to URIs",
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "ToSURI",
           "package": "happstack-server",
@@ -11254,6 +11928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "SURI",
           "package": "happstack-server",
@@ -11263,6 +11938,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "SURI",
           "package": "happstack-server",
@@ -11277,6 +11953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the path component of the URI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "a_path",
           "package": "happstack-server",
@@ -11287,6 +11964,7 @@
         "index": {
           "description": "Sets the path component of the URI",
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "a_path",
           "normalized": "String-\u003eSURI-\u003eSURI",
@@ -11302,6 +11980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the scheme component of the URI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "a_scheme",
           "package": "happstack-server",
@@ -11312,6 +11991,7 @@
         "index": {
           "description": "Sets the scheme component of the URI",
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "a_scheme",
           "normalized": "String-\u003eSURI-\u003eSURI",
@@ -11326,6 +12006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "fromPath",
           "package": "happstack-server",
@@ -11335,6 +12016,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "fromPath",
           "normalized": "String-\u003ea",
@@ -11351,6 +12033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the URI is absolute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "isAbs",
           "package": "happstack-server",
@@ -11361,6 +12044,7 @@
         "index": {
           "description": "Returns true if the URI is absolute",
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "isAbs",
           "normalized": "SURI-\u003eBool",
@@ -11377,6 +12061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a URI from a String.  Returns Nothing on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "parse",
           "package": "happstack-server",
@@ -11387,6 +12072,7 @@
         "index": {
           "description": "Parses URI from String Returns Nothing on failure",
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "parse",
           "normalized": "String-\u003eMaybe SURI",
@@ -11402,6 +12088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the path component from the URI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "path",
           "package": "happstack-server",
@@ -11412,6 +12099,7 @@
         "index": {
           "description": "Retrieves the path component from the URI",
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "path",
           "normalized": "SURI-\u003eString",
@@ -11427,6 +12115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epercent decode a String\n\u003c/p\u003e\u003cp\u003ee.g. \u003ccode\u003e\"hello%2Fworld\"\u003c/code\u003e -\u003e \u003ccode\u003e\"hello/world\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "percentDecode",
           "package": "happstack-server",
@@ -11437,6 +12126,7 @@
         "index": {
           "description": "percent decode String e.g hello Fworld hello world",
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "percentDecode",
           "normalized": "String-\u003eString",
@@ -11453,6 +12143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the query component from the URI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "query",
           "package": "happstack-server",
@@ -11463,6 +12154,7 @@
         "index": {
           "description": "Retrieves the query component from the URI",
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "query",
           "normalized": "SURI-\u003eString",
@@ -11478,6 +12170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender should be used for prettyprinting URIs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "render",
           "package": "happstack-server",
@@ -11488,6 +12181,7 @@
         "index": {
           "description": "Render should be used for prettyprinting URIs",
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "render",
           "normalized": "a-\u003eString",
@@ -11503,6 +12197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the scheme component from the URI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "scheme",
           "package": "happstack-server",
@@ -11513,6 +12208,7 @@
         "index": {
           "description": "Retrieves the scheme component from the URI",
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "scheme",
           "normalized": "SURI-\u003eString",
@@ -11527,6 +12223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "suri",
           "package": "happstack-server",
@@ -11536,6 +12233,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "suri",
           "package": "happstack-server",
@@ -11548,6 +12246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "toSURI",
           "package": "happstack-server",
@@ -11557,6 +12256,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "toSURI",
           "normalized": "a-\u003eSURI",
@@ -11573,6 +12273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies the path component of the URI using the provided function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "u_path",
           "package": "happstack-server",
@@ -11583,6 +12284,7 @@
         "index": {
           "description": "Modifies the path component of the URI using the provided function",
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "u_path",
           "normalized": "(String-\u003eString)-\u003eSURI-\u003eSURI",
@@ -11598,6 +12300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies the scheme component of the URI using the provided function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "u_scheme",
           "package": "happstack-server",
@@ -11608,6 +12311,7 @@
         "index": {
           "description": "Modifies the scheme component of the URI using the provided function",
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "u_scheme",
           "normalized": "(String-\u003eString)-\u003eSURI-\u003eSURI",
@@ -11622,6 +12326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "unEscape",
           "package": "happstack-server",
@@ -11631,6 +12336,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "unEscape",
           "normalized": "String-\u003eString",
@@ -11646,6 +12352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SURI",
           "name": "unEscapeQS",
           "package": "happstack-server",
@@ -11655,6 +12362,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server SURI",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SURI",
           "name": "unEscapeQS",
           "normalized": "String-\u003eString",
@@ -11671,6 +12379,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003esimpleHTTP\u003c/a\u003e\u003c/code\u003e is a self-contained HTTP server which can be used to\n run a \u003ccode\u003e\u003ca\u003eServerPart\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eA very simple, \"Hello World!\" web app looks like:\n\u003c/p\u003e\u003cpre\u003e import Happstack.Server\n main = simpleHTTP nullConf $ ok \"Hello World!\"\n\u003c/pre\u003e\u003cp\u003eBy default the server will listen on port 8000. Run the app and point your browser at: \u003ca\u003ehttp://localhost:8000/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eFor FastCGI support see: \u003ca\u003ehttp://hackage.haskell.org/package/happstack-fastcgi\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "SimpleHTTP",
           "package": "happstack-server",
@@ -11680,6 +12389,7 @@
         "index": {
           "description": "simpleHTTP is self-contained HTTP server which can be used to run ServerPart very simple Hello World web app looks like import Happstack.Server main simpleHTTP nullConf ok Hello World By default the server will listen on port Run the app and point your browser at http localhost For FastCGI support see http hackage.haskell.org package happstack-fastcgi",
           "hierarchy": "Happstack Server SimpleHTTP",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "SimpleHTTP",
           "package": "happstack-server",
@@ -11694,6 +12404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind to ip and port and return the socket for use with \u003ccode\u003e\u003ca\u003esimpleHTTPWithSocket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n import Happstack.Server\n\n main = do let conf = nullConf\n               addr = \"127.0.0.1\"\n           s \u003c- bindIPv4 addr (port conf)\n           simpleHTTPWithSocket s conf $ ok $ toResponse $ \n             \"now listening on ip addr \" ++ addr ++ \n             \" and port \" ++ show (port conf)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "bindIPv4",
           "package": "happstack-server",
@@ -11703,6 +12414,7 @@
         "index": {
           "description": "Bind to ip and port and return the socket for use with simpleHTTPWithSocket import Happstack.Server main do let conf nullConf addr bindIPv4 addr port conf simpleHTTPWithSocket conf ok toResponse now listening on ip addr addr and port show port conf",
           "hierarchy": "Happstack Server SimpleHTTP",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "bindIPv4",
           "normalized": "String-\u003eInt-\u003eIO Socket",
@@ -11719,6 +12431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind port and return the socket for use with \u003ccode\u003e\u003ca\u003esimpleHTTPWithSocket\u003c/a\u003e\u003c/code\u003e. This\n function always binds to IPv4 ports until Network module is fixed\n to support IPv6 in a portable way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "bindPort",
           "package": "happstack-server",
@@ -11729,6 +12442,7 @@
         "index": {
           "description": "Bind port and return the socket for use with simpleHTTPWithSocket This function always binds to IPv4 ports until Network module is fixed to support IPv6 in portable way",
           "hierarchy": "Happstack Server SimpleHTTP",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "bindPort",
           "normalized": "Conf-\u003eIO Socket",
@@ -11745,6 +12459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse command line options into a \u003ccode\u003e\u003ca\u003eConf\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "parseConfig",
           "package": "happstack-server",
@@ -11755,6 +12470,7 @@
         "index": {
           "description": "Parse command line options into Conf",
           "hierarchy": "Happstack Server SimpleHTTP",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "parseConfig",
           "normalized": "[String]-\u003eEither[String]Conf",
@@ -11771,6 +12487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estart the server, and handle requests using the supplied\n \u003ccode\u003e\u003ca\u003eServerPart\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function will not return, though it may throw an exception.\n\u003c/p\u003e\u003cp\u003eNOTE: The server will only listen on IPv4 due to portability issues\n in the \u003ca\u003eNetwork\u003c/a\u003e module. For IPv6 support, use\n \u003ccode\u003e\u003ca\u003esimpleHTTPWithSocket\u003c/a\u003e\u003c/code\u003e with custom socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "simpleHTTP",
           "package": "happstack-server",
@@ -11781,6 +12498,7 @@
         "index": {
           "description": "start the server and handle requests using the supplied ServerPart This function will not return though it may throw an exception NOTE The server will only listen on IPv4 due to portability issues in the Network module For IPv6 support use simpleHTTPWithSocket with custom socket",
           "hierarchy": "Happstack Server SimpleHTTP",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "simpleHTTP",
           "normalized": "Conf-\u003eServerPartT IO a-\u003eIO()",
@@ -11797,6 +12515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA combination of \u003ccode\u003e\u003ca\u003esimpleHTTP''\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emapServerPartT\u003c/a\u003e\u003c/code\u003e.  See\n \u003ccode\u003e\u003ca\u003emapServerPartT\u003c/a\u003e\u003c/code\u003e for a discussion of the first argument of this\n function. \n\u003c/p\u003e\u003cp\u003eNOTE: This function always binds to IPv4 ports until Network\n module is fixed to support IPv6 in a portable way. Use\n \u003ccode\u003e\u003ca\u003esimpleHTTPWithSocket\u003c/a\u003e\u003c/code\u003e with custom socket if you want different\n behaviour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "simpleHTTP'",
           "package": "happstack-server",
@@ -11807,6 +12526,7 @@
         "index": {
           "description": "combination of simpleHTTP and mapServerPartT See mapServerPartT for discussion of the first argument of this function NOTE This function always binds to IPv4 ports until Network module is fixed to support IPv6 in portable way Use simpleHTTPWithSocket with custom socket if you want different behaviour",
           "hierarchy": "Happstack Server SimpleHTTP",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "simpleHTTP'",
           "normalized": "(UnWebT a b-\u003eUnWebT IO c)-\u003eConf-\u003eServerPartT a b-\u003eIO()",
@@ -11823,6 +12543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a result from a \u003ccode\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e. This is\n mainly used by CGI (and fast-cgi) wrappers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "simpleHTTP''",
           "package": "happstack-server",
@@ -11833,6 +12554,7 @@
         "index": {
           "description": "Generate result from ServerPartT and Request This is mainly used by CGI and fast-cgi wrappers",
           "hierarchy": "Happstack Server SimpleHTTP",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "simpleHTTP''",
           "normalized": "ServerPartT a b-\u003eRequest-\u003ea Response",
@@ -11849,6 +12571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun \u003ccode\u003e\u003ca\u003esimpleHTTP\u003c/a\u003e\u003c/code\u003e with a previously bound socket. Useful if you\n want to run happstack as user on port 80. Use something like this:\n\u003c/p\u003e\u003cpre\u003e import System.Posix.User (setUserID, UserEntry(..), getUserEntryForName)\n\n main = do\n     let conf = nullConf { port = 80 }\n     socket \u003c- bindPort conf\n     -- do other stuff as root here\n     getUserEntryForName \"www\" \u003e\u003e= setUserID . userID\n     -- finally start handling incoming requests\n     tid \u003c- forkIO $ simpleHTTPWithSocket socket Nothing conf impl\n\u003c/pre\u003e\u003cp\u003eNote: It's important to use the same conf (or at least the same\n port) for \u003ccode\u003e\u003ca\u003ebindPort\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esimpleHTTPWithSocket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003ebindPort\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ebindIPv4\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "simpleHTTPWithSocket",
           "package": "happstack-server",
@@ -11859,6 +12582,7 @@
         "index": {
           "description": "Run simpleHTTP with previously bound socket Useful if you want to run happstack as user on port Use something like this import System.Posix.User setUserID UserEntry getUserEntryForName main do let conf nullConf port socket bindPort conf do other stuff as root here getUserEntryForName www setUserID userID finally start handling incoming requests tid forkIO simpleHTTPWithSocket socket Nothing conf impl Note It important to use the same conf or at least the same port for bindPort and simpleHTTPWithSocket see also bindPort bindIPv4",
           "hierarchy": "Happstack Server SimpleHTTP",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "simpleHTTPWithSocket",
           "normalized": "Socket-\u003eConf-\u003eServerPartT IO a-\u003eIO()",
@@ -11875,6 +12599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003esimpleHTTP'\u003c/a\u003e\u003c/code\u003e with a socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "simpleHTTPWithSocket'",
           "package": "happstack-server",
@@ -11885,6 +12610,7 @@
         "index": {
           "description": "Like simpleHTTP with socket",
           "hierarchy": "Happstack Server SimpleHTTP",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "simpleHTTPWithSocket'",
           "normalized": "(UnWebT a b-\u003eUnWebT IO c)-\u003eSocket-\u003eConf-\u003eServerPartT a b-\u003eIO()",
@@ -11901,6 +12627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for a signal.\n   On unix, a signal is sigINT or sigTERM (aka Control-C).\n\u003c/p\u003e\u003cp\u003eOn windows, the signal is entering: e \u003ca\u003ereturn\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "waitForTermination",
           "package": "happstack-server",
@@ -11911,6 +12638,7 @@
         "index": {
           "description": "Wait for signal On unix signal is sigINT or sigTERM aka Control-C On windows the signal is entering return",
           "hierarchy": "Happstack Server SimpleHTTP",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.SimpleHTTP",
           "name": "waitForTermination",
           "normalized": "IO()",
@@ -11926,6 +12654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Types",
           "name": "Types",
           "package": "happstack-server",
@@ -11934,6 +12663,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Types",
           "name": "Types",
           "package": "happstack-server",
@@ -11948,6 +12678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP configuration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Types",
           "name": "Conf",
           "package": "happstack-server",
@@ -11957,6 +12688,7 @@
         "index": {
           "description": "HTTP configuration",
           "hierarchy": "Happstack Server Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Types",
           "name": "Conf",
           "package": "happstack-server",
@@ -11971,6 +12703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA MIME media type value.\n   The \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance is derived automatically.\n   Use \u003ccode\u003eshowContentType\u003c/code\u003e to obtain the standard\n   string representation.\n   See \u003ca\u003ehttp://www.ietf.org/rfc/rfc2046.txt\u003c/a\u003e for more\n   information about MIME media types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Types",
           "name": "ContentType",
           "package": "happstack-server",
@@ -11980,6 +12713,7 @@
         "index": {
           "description": "MIME media type value The Show instance is derived automatically Use showContentType to obtain the standard string representation See http www.ietf.org rfc rfc2046.txt for more information about MIME media types",
           "hierarchy": "Happstack Server Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Types",
           "name": "ContentType",
           "package": "happstack-server",
@@ -11994,6 +12728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class is used by \u003ccode\u003e\u003ca\u003epath\u003c/a\u003e\u003c/code\u003e to parse a path component into a\n value.\n\u003c/p\u003e\u003cp\u003eThe instances for number types (\u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e, etc) use \u003ccode\u003e\u003ca\u003ereadM\u003c/a\u003e\u003c/code\u003e to\n parse the path component.\n\u003c/p\u003e\u003cp\u003eThe instance for \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, on the other hand, returns the\n unmodified path component.\n\u003c/p\u003e\u003cp\u003eSee the following section of the Happstack Crash Course for\n detailed instructions using and extending \u003ccode\u003e\u003ca\u003eFromReqURI\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.happstack.com/docs/crashcourse/RouteFilters.html#FromReqURI\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Types",
           "name": "FromReqURI",
           "package": "happstack-server",
@@ -12003,6 +12738,7 @@
         "index": {
           "description": "This class is used by path to parse path component into value The instances for number types Int Float etc use readM to parse the path component The instance for String on the other hand returns the unmodified path component See the following section of the Happstack Crash Course for detailed instructions using and extending FromReqURI http www.happstack.com docs crashcourse RouteFilters.html FromReqURI",
           "hierarchy": "Happstack Server Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Types",
           "name": "FromReqURI",
           "package": "happstack-server",
@@ -12017,6 +12753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean HTTP header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Types",
           "name": "HeaderPair",
           "package": "happstack-server",
@@ -12026,6 +12763,7 @@
         "index": {
           "description": "an HTTP header",
           "hierarchy": "Happstack Server Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Types",
           "name": "HeaderPair",
           "package": "happstack-server",
@@ -12040,6 +12778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea Map of HTTP headers\n\u003c/p\u003e\u003cp\u003ethe Map key is the header converted to lowercase\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Types",
           "name": "Headers",
           "package": "happstack-server",
@@ -12049,6 +12788,7 @@
         "index": {
           "description": "Map of HTTP headers the Map key is the header converted to lowercase",
           "hierarchy": "Happstack Server Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Types",
           "name": "Headers",
           "package": "happstack-server",
@@ -12063,6 +12803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehostname & port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Types",
           "name": "Host",
           "package": "happstack-server",
@@ -12072,6 +12813,7 @@
         "index": {
           "description": "hostname port",
           "hierarchy": "Happstack Server Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Types",
           "name": "Host",
           "package": "happstack-server",
@@ -12086,6 +12828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Types",
           "name": "HttpVersion",
           "package": "happstack-server",
@@ -12095,6 +12838,7 @@
         "index": {
           "description": "HTTP version",
           "hierarchy": "Happstack Server Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Types",
           "name": "HttpVersion",
           "package": "happstack-server",
@@ -12109,6 +12853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea value extract from the \u003ccode\u003eQUERY_STRING\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e body\n\u003c/p\u003e\u003cp\u003eIf the input value was a file, then it will be saved to a temporary file on disk and \u003ccode\u003e\u003ca\u003einputValue\u003c/a\u003e\u003c/code\u003e will contain \u003ccode\u003eLeft pathToTempFile\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Types",
           "name": "Input",
           "package": "happstack-server",
@@ -12118,6 +12863,7 @@
         "index": {
           "description": "value extract from the QUERY STRING or Request body If the input value was file then it will be saved to temporary file on disk and inputValue will contain Left pathToTempFile",
           "hierarchy": "Happstack Server Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Types",
           "name": "Input",
           "package": "happstack-server",
@@ -12132,6 +12878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA flag value set in the \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e which controls how the\n \u003ccode\u003eContent-Length\u003c/code\u003e header is set, and whether *chunked* output\n encoding is used.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003enullRsFlags\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003enotContentLength\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003echunked\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Types",
           "name": "Length",
           "package": "happstack-server",
@@ -12141,6 +12888,7 @@
         "index": {
           "description": "flag value set in the Response which controls how the Content-Length header is set and whether chunked output encoding is used see also nullRsFlags notContentLength and chunked",
           "hierarchy": "Happstack Server Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Types",
           "name": "Length",
           "package": "happstack-server",
@@ -12155,6 +12903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction to log access requests (see also: \u003ccode\u003e\u003ca\u003elogMAccess\u003c/a\u003e\u003c/code\u003e)\n type LogAccess time =\n    (   String  -- ^ host\n     -\u003e String  -- ^ user\n     -\u003e time    -- ^ time\n     -\u003e String  -- ^ requestLine\n     -\u003e Int     -- ^ responseCode\n     -\u003e Integer -- ^ size\n     -\u003e String  -- ^ referer\n     -\u003e String  -- ^ userAgent\n     -\u003e IO ())\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Types",
           "name": "LogAccess",
           "package": "happstack-server",
@@ -12164,6 +12913,7 @@
         "index": {
           "description": "function to log access requests see also logMAccess type LogAccess time String host String user time time String requestLine Int responseCode Integer size String referer String userAgent IO",
           "hierarchy": "Happstack Server Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Types",
           "name": "LogAccess",
           "package": "happstack-server",
@@ -12178,6 +12928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP request method\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Types",
           "name": "Method",
           "package": "happstack-server",
@@ -12187,6 +12938,7 @@
         "index": {
           "description": "HTTP request method",
           "hierarchy": "Happstack Server Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Types",
           "name": "Method",
           "package": "happstack-server",
@@ -12201,6 +12953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean HTTP request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Types",
           "name": "Request",
           "package": "happstack-server",
@@ -12210,6 +12963,7 @@
         "index": {
           "description": "an HTTP request",
           "hierarchy": "Happstack Server Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Types",
           "name": "Request",
           "package": "happstack-server",
@@ -12224,6 +12978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean HTTP Response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Types",
           "name": "Response",
           "package": "happstack-server",
@@ -12233,6 +12988,7 @@
         "index": {
           "description": "an HTTP Response",
           "hierarchy": "Happstack Server Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Types",
           "name": "Response",
           "package": "happstack-server",
@@ -12247,6 +13003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe body of an HTTP \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Types",
           "name": "RqBody",
           "package": "happstack-server",
@@ -12256,6 +13013,7 @@
         "index": {
           "description": "The body of an HTTP Request",
           "hierarchy": "Happstack Server Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Types",
           "name": "RqBody",
           "package": "happstack-server",
@@ -12270,6 +13028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Types",
           "name": "RsFlags",
           "package": "happstack-server",
@@ -12279,6 +13038,7 @@
         "index": {
           "description": "Result flags",
           "hierarchy": "Happstack Server Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Types",
           "name": "RsFlags",
           "package": "happstack-server",
@@ -12292,6 +13052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Types",
           "name": "fromReqURI",
           "package": "happstack-server",
@@ -12301,6 +13062,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server Types",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Types",
           "name": "fromReqURI",
           "normalized": "String-\u003eMaybe a",
@@ -12317,6 +13079,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for validating server output on-the-fly. Validators can be configured on a per content-type basis.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Validation",
           "name": "Validation",
           "package": "happstack-server",
@@ -12326,6 +13089,7 @@
         "index": {
           "description": "Support for validating server output on-the-fly Validators can be configured on per content-type basis",
           "hierarchy": "Happstack Server Validation",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Validation",
           "name": "Validation",
           "package": "happstack-server",
@@ -12340,6 +13104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidate the \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e using an external application.\n\u003c/p\u003e\u003cp\u003eIf the external application returns 0, the original response is\n returned unmodified. If the external application returns non-zero,\n a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e containing the error messages and original response\n body is returned instead.\n\u003c/p\u003e\u003cp\u003eThis function also takes a predicate filter which is applied to the\n content-type of the response. The filter will only be applied if\n the predicate returns true.\n\u003c/p\u003e\u003cp\u003eNOTE: This function requires the use of -threaded to avoid\n blocking.  However, you probably need that for Happstack anyway.\n\u003c/p\u003e\u003cp\u003eSee also: \u003ccode\u003e\u003ca\u003ewdgHTMLValidator\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Validation",
           "name": "lazyProcValidator",
           "package": "happstack-server",
@@ -12349,6 +13114,7 @@
         "index": {
           "description": "Validate the Response using an external application If the external application returns the original response is returned unmodified If the external application returns non-zero Response containing the error messages and original response body is returned instead This function also takes predicate filter which is applied to the content-type of the response The filter will only be applied if the predicate returns true NOTE This function requires the use of threaded to avoid blocking However you probably need that for Happstack anyway See also wdgHTMLValidator",
           "hierarchy": "Happstack Server Validation",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Validation",
           "name": "lazyProcValidator",
           "normalized": "FilePath-\u003e[String]-\u003eMaybe FilePath-\u003eMaybe[(String,String)]-\u003e(Maybe ByteString-\u003eBool)-\u003eResponse-\u003eIO Response",
@@ -12365,6 +13131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA validator which always succeeds.\n\u003c/p\u003e\u003cp\u003eUseful for selectively disabling validation. For example, if you\n are sending down HTML fragments to an AJAX application and the\n default validator only understands complete documents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Validation",
           "name": "noopValidator",
           "package": "happstack-server",
@@ -12375,6 +13142,7 @@
         "index": {
           "description": "validator which always succeeds Useful for selectively disabling validation For example if you are sending down HTML fragments to an AJAX application and the default validator only understands complete documents",
           "hierarchy": "Happstack Server Validation",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Validation",
           "name": "noopValidator",
           "normalized": "Response-\u003eIO Response",
@@ -12391,6 +13159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActually perform the validation on a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eRun the validator specified in the \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e. If none is provide\n use the supplied default instead.\n\u003c/p\u003e\u003cp\u003eNote: This function will run validation unconditionally. You\n probably want \u003ccode\u003e\u003ca\u003esetValidator\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003evalidateConf\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Validation",
           "name": "runValidator",
           "package": "happstack-server",
@@ -12401,6 +13170,7 @@
         "index": {
           "description": "Actually perform the validation on Response Run the validator specified in the Response If none is provide use the supplied default instead Note This function will run validation unconditionally You probably want setValidator or validateConf",
           "hierarchy": "Happstack Server Validation",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Validation",
           "name": "runValidator",
           "normalized": "(Response-\u003eIO Response)-\u003eResponse-\u003eIO Response",
@@ -12417,6 +13187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the validator which should be used for this particular\n \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e when validation is enabled.\n\u003c/p\u003e\u003cp\u003eCalling this function does not enable validation. That can only be\n done by enabling the validation in the \u003ccode\u003e\u003ca\u003eConf\u003c/a\u003e\u003c/code\u003e that is passed to\n \u003ccode\u003esimpleHTTP\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eYou do not need to call this function if the validator set in\n \u003ccode\u003e\u003ca\u003eConf\u003c/a\u003e\u003c/code\u003e does what you want already.\n\u003c/p\u003e\u003cp\u003eExample: (use \u003ccode\u003e\u003ca\u003enoopValidator\u003c/a\u003e\u003c/code\u003e instead of the default supplied by\n \u003ccode\u003e\u003ca\u003evalidateConf\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cpre\u003e simpleHTTP validateConf $ ok . setValidator noopValidator =\u003c\u003c htmlPage\n\u003c/pre\u003e\u003cp\u003eSee also: \u003ccode\u003e\u003ca\u003evalidateConf\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ewdgHTMLValidator\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003enoopValidator\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003elazyProcValidator\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Validation",
           "name": "setValidator",
           "package": "happstack-server",
@@ -12427,6 +13198,7 @@
         "index": {
           "description": "Set the validator which should be used for this particular Response when validation is enabled Calling this function does not enable validation That can only be done by enabling the validation in the Conf that is passed to simpleHTTP You do not need to call this function if the validator set in Conf does what you want already Example use noopValidator instead of the default supplied by validateConf simpleHTTP validateConf ok setValidator noopValidator htmlPage See also validateConf wdgHTMLValidator noopValidator lazyProcValidator",
           "hierarchy": "Happstack Server Validation",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Validation",
           "name": "setValidator",
           "normalized": "(Response-\u003eIO Response)-\u003eResponse-\u003eResponse",
@@ -12443,6 +13215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eServerPart\u003c/code\u003e version of \u003ccode\u003e\u003ca\u003esetValidator\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExample: (Set validator to \u003ccode\u003e\u003ca\u003enoopValidator\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cpre\u003e  simpleHTTP validateConf $ setValidatorSP noopValidator (dir \"ajax\" ... )\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Validation",
           "name": "setValidatorSP",
           "package": "happstack-server",
@@ -12453,6 +13226,7 @@
         "index": {
           "description": "ServerPart version of setValidator Example Set validator to noopValidator simpleHTTP validateConf setValidatorSP noopValidator dir ajax",
           "hierarchy": "Happstack Server Validation",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Validation",
           "name": "setValidatorSP",
           "normalized": "(Response-\u003eIO Response)-\u003ea b-\u003ea Response",
@@ -12469,6 +13243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend \u003ccode\u003e\u003ca\u003enullConf\u003c/a\u003e\u003c/code\u003e by enabling validation and setting\n \u003ccode\u003e\u003ca\u003ewdgHTMLValidator\u003c/a\u003e\u003c/code\u003e as the default validator for \u003ccode\u003etext/html\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e simpleHTTP validateConf . anyRequest $ ok htmlPage\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Validation",
           "name": "validateConf",
           "package": "happstack-server",
@@ -12479,6 +13254,7 @@
         "index": {
           "description": "Extend nullConf by enabling validation and setting wdgHTMLValidator as the default validator for text html Example simpleHTTP validateConf anyRequest ok htmlPage",
           "hierarchy": "Happstack Server Validation",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Validation",
           "name": "validateConf",
           "package": "happstack-server",
@@ -12493,6 +13269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidate \u003ccode\u003etext/html\u003c/code\u003e content with \u003ccode\u003eWDG HTML Validator\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function expects the executable to be named \u003ccode\u003evalidate\u003c/code\u003e and it\n must be in the default \u003ccode\u003ePATH\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSee also: \u003ccode\u003e\u003ca\u003esetValidator\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003evalidateConf\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003elazyProcValidator\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server.Validation",
           "name": "wdgHTMLValidator",
           "package": "happstack-server",
@@ -12503,6 +13280,7 @@
         "index": {
           "description": "Validate text html content with WDG HTML Validator This function expects the executable to be named validate and it must be in the default PATH See also setValidator validateConf lazyProcValidator",
           "hierarchy": "Happstack Server Validation",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server.Validation",
           "name": "wdgHTMLValidator",
           "normalized": "a-\u003eb Response",
@@ -12519,6 +13297,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHappstack.Server provides a self-contained HTTP server and a rich collection of types and functions for routing Requests, generating Responses, working with query parameters, form data, and cookies, serving files and more.\n\u003c/p\u003e\u003cp\u003eA very simple, \"Hello World!\" web app looks like:\n\u003c/p\u003e\u003cpre\u003e import Happstack.Server\n main = simpleHTTP nullConf $ ok \"Hello World!\"\n\u003c/pre\u003e\u003cp\u003eBy default the server will listen on port 8000. Run the app and point your browser at: \u003ca\u003ehttp://localhost:8000/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eAt the core of the Happstack server we have the \u003ccode\u003e\u003ca\u003esimpleHTTP\u003c/a\u003e\u003c/code\u003e function which starts the HTTP server:\n\u003c/p\u003e\u003cpre\u003e simpleHTTP :: ToMessage a =\u003e Conf -\u003e ServerPart a -\u003e IO ()\n\u003c/pre\u003e\u003cp\u003eand we have the user supplied \u003ccode\u003e\u003ca\u003eServerPart\u003c/a\u003e\u003c/code\u003e (also known as,\n\u003ccode\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e), which generates a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e for each incoming\n\u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eA trivial HTTP app server might just take a user supplied function like:\n\u003c/p\u003e\u003cpre\u003e myApp :: Request -\u003e IO Response\n\u003c/pre\u003e\u003cp\u003eFor each incoming \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e the server would fork a new thread, run\n\u003ccode\u003emyApp\u003c/code\u003e to generate a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e, and then send the \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e back to\nthe client. But, that would be a pretty barren wasteland to work in.\n\u003c/p\u003e\u003cp\u003eThe model for \u003ccode\u003e\u003ca\u003eServerPart\u003c/a\u003e\u003c/code\u003e is essential the same, except we use the\nmuch richer \u003ccode\u003e\u003ca\u003eServerPart\u003c/a\u003e\u003c/code\u003e monad instead of the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad. \n\u003c/p\u003e\u003cp\u003eFor in-depth documentation and runnable examples I highly recommend The Happstack Crash Course \u003ca\u003ehttp://happstack.com/docs/crashcourse/index.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:05 UTC 2014",
           "module": "Happstack.Server",
           "name": "Server",
           "package": "happstack-server",
@@ -12528,6 +13307,7 @@
         "index": {
           "description": "Happstack.Server provides self-contained HTTP server and rich collection of types and functions for routing Requests generating Responses working with query parameters form data and cookies serving files and more very simple Hello World web app looks like import Happstack.Server main simpleHTTP nullConf ok Hello World By default the server will listen on port Run the app and point your browser at http localhost At the core of the Happstack server we have the simpleHTTP function which starts the HTTP server simpleHTTP ToMessage Conf ServerPart IO and we have the user supplied ServerPart also known as ServerPartT IO which generates Response for each incoming Request trivial HTTP app server might just take user supplied function like myApp Request IO Response For each incoming Request the server would fork new thread run myApp to generate Response and then send the Response back to the client But that would be pretty barren wasteland to work in The model for ServerPart is essential the same except we use the much richer ServerPart monad instead of the IO monad For in-depth documentation and runnable examples highly recommend The Happstack Crash Course http happstack.com docs crashcourse index.html",
           "hierarchy": "Happstack Server",
+          "indexed": "2014-03-11T18:29:05",
           "module": "Happstack.Server",
           "name": "Server",
           "package": "happstack-server",

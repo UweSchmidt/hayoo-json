@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ipatch"
+        "phrase": "ipatch",
+        "type": "phrase"
       },
       "type": "context"
     }

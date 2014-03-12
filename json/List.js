@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "List"
+        "phrase": "List",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Control.Monad.ListT",
           "name": "ListT",
           "package": "List",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListT",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Control.Monad.ListT",
           "name": "ListT",
           "package": "List",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Control.Monad.ListT",
           "name": "ListT",
           "package": "List",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ListT",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Control.Monad.ListT",
           "name": "ListT",
           "package": "List",
@@ -107,6 +111,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003eList\u003c/code\u003e functions with type limited to use \u003ccode\u003eListT\u003c/code\u003e.\n This might come useful for type interference.\n\u003c/p\u003e\u003cp\u003eFunctions where the \u003ccode\u003eList\u003c/code\u003e is an input type and not only the result type do not need special limited versions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Control.Monad.Trans.List.Funcs",
           "name": "Funcs",
           "package": "List",
@@ -116,6 +121,7 @@
         "index": {
           "description": "List functions with type limited to use ListT This might come useful for type interference Functions where the List is an input type and not only the result type do not need special limited versions",
           "hierarchy": "Control Monad Trans List Funcs",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Control.Monad.Trans.List.Funcs",
           "name": "Funcs",
           "package": "List",
@@ -129,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Control.Monad.Trans.List.Funcs",
           "name": "fromList",
           "package": "List",
@@ -138,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans List Funcs",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Control.Monad.Trans.List.Funcs",
           "name": "fromList",
           "normalized": "[a]-\u003eListT b a",
@@ -153,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Control.Monad.Trans.List.Funcs",
           "name": "iterateM",
           "package": "List",
@@ -162,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans List Funcs",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Control.Monad.Trans.List.Funcs",
           "name": "iterateM",
           "normalized": "(a-\u003eb a)-\u003eb a-\u003eListT b a",
@@ -176,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Control.Monad.Trans.List.Funcs",
           "name": "repeat",
           "package": "List",
@@ -185,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans List Funcs",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Control.Monad.Trans.List.Funcs",
           "name": "repeat",
           "normalized": "a-\u003eListT b a",
@@ -199,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Control.Monad.Trans.List.Funcs",
           "name": "repeatM",
           "package": "List",
@@ -208,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans List Funcs",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Control.Monad.Trans.List.Funcs",
           "name": "repeatM",
           "normalized": "a b-\u003eListT a b",
@@ -223,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA list monad transformer / a monadic list.\n\u003c/p\u003e\u003cp\u003eMonadic list example:\n   A program which reads numbers from the user and accumulates them.\n\u003c/p\u003e\u003cpre\u003e import Control.Monad.Trans.List.Funcs (repeatM)\n import Data.List.Class (execute, scanl, takeWhile, mapL)\n import Prelude hiding (scanl, takeWhile)\n \n main =\n     execute . mapL print .\n     scanl (+) 0 .\n     fmap (fst . head) .\n     takeWhile (not . null) .\n     fmap reads $ repeatM getLine\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Control.Monad.Trans.List",
           "name": "List",
           "package": "List",
@@ -232,6 +247,7 @@
         "index": {
           "description": "list monad transformer monadic list Monadic list example program which reads numbers from the user and accumulates them import Control.Monad.Trans.List.Funcs repeatM import Data.List.Class execute scanl takeWhile mapL import Prelude hiding scanl takeWhile main execute mapL print scanl fmap fst head takeWhile not null fmap reads repeatM getLine",
           "hierarchy": "Control Monad Trans List",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Control.Monad.Trans.List",
           "name": "List",
           "package": "List",
@@ -245,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Control.Monad.Trans.List",
           "name": "ListT",
           "package": "List",
@@ -253,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans List",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Control.Monad.Trans.List",
           "name": "ListT",
           "package": "List",
@@ -267,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eList\u003c/a\u003e\u003c/code\u003e class and actions for lists\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "Class",
           "package": "List",
@@ -276,6 +295,7 @@
         "index": {
           "description": "The List class and actions for lists",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "Class",
           "package": "List",
@@ -290,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for list types.\n Every list has an underlying monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "List",
           "package": "List",
@@ -299,6 +320,7 @@
         "index": {
           "description": "class for list types Every list has an underlying monad",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "List",
           "package": "List",
@@ -312,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "ListItem",
           "package": "List",
@@ -320,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "ListItem",
           "package": "List",
@@ -333,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "Cons",
           "package": "List",
@@ -342,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "Cons",
           "package": "List",
@@ -355,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "Nil",
           "package": "List",
@@ -364,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "Nil",
           "package": "List",
@@ -377,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "catMaybes",
           "package": "List",
@@ -386,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "catMaybes",
           "normalized": "a(Maybe b)-\u003ea b",
@@ -402,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eFor \u003ccode\u003eList l =\u003e l (l a) -\u003e l a\u003c/code\u003e use \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "concat",
           "package": "List",
@@ -412,6 +443,7 @@
         "index": {
           "description": "Generalized concat For List use join",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "concat",
           "normalized": "a[b]-\u003ea b",
@@ -427,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenereralized \u003ccode\u003e\u003ca\u003econcatMap\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eFor \u003ccode\u003eList l =\u003e (a -\u003e l b) -\u003e l a -\u003e l b\u003c/code\u003e use \u003ccode\u003e\u003ca\u003e=\u003c\u003c\u003c/a\u003e\u003c/code\u003e (monadic bind)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "concatMap",
           "package": "List",
@@ -437,6 +470,7 @@
         "index": {
           "description": "Genereralized concatMap For List use monadic bind",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "concatMap",
           "normalized": "(a-\u003e[b])-\u003ec a-\u003ec b",
@@ -453,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econs. Can be derived from MonadPlus but is part of class for performance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "cons",
           "package": "List",
@@ -463,6 +498,7 @@
         "index": {
           "description": "cons Can be derived from MonadPlus but is part of class for performance",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "cons",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -477,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "enumFrom",
           "package": "List",
@@ -486,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "enumFrom",
           "normalized": "a-\u003eb a",
@@ -501,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "enumFromTo",
           "package": "List",
@@ -510,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "enumFromTo",
           "normalized": "a-\u003ea-\u003eb a",
@@ -526,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the monadic actions in a \u003ccode\u003e\u003ca\u003eList\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "execute",
           "package": "List",
@@ -536,6 +577,7 @@
         "index": {
           "description": "Execute the monadic actions in List",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "execute",
           "normalized": "a b-\u003eItemM a()",
@@ -551,6 +593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efilter for any MonadPlus\n\u003c/p\u003e\u003cpre\u003e \u003e filter (\u003e 5) (Just 3)\n Nothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "filter",
           "package": "List",
@@ -561,6 +604,7 @@
         "index": {
           "description": "filter for any MonadPlus filter Just Nothing",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eb a",
@@ -575,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "filterL",
           "package": "List",
@@ -584,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "filterL",
           "normalized": "(a-\u003eItemM b Bool)-\u003eb a-\u003eb a",
@@ -598,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "foldl1L",
           "package": "List",
@@ -607,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "foldl1L",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003eItemM b a",
@@ -622,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn action to do foldl for \u003ccode\u003e\u003ca\u003eList\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "foldlL",
           "package": "List",
@@ -632,6 +681,7 @@
         "index": {
           "description": "An action to do foldl for List",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "foldlL",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec b-\u003eItemM c a",
@@ -647,6 +697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efoldr for \u003ccode\u003e\u003ca\u003eList\u003c/a\u003e\u003c/code\u003es.\n the result and 'right side' values are monadic actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "foldrL",
           "package": "List",
@@ -657,6 +708,7 @@
         "index": {
           "description": "foldr for List the result and right side values are monadic actions",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "foldrL",
           "normalized": "(a-\u003eItemM b c-\u003eItemM b c)-\u003eItemM b c-\u003eb a-\u003eItemM b c",
@@ -672,6 +724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list to a \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e \u003e fromList [] :: Maybe Int\n Nothing\n \u003e fromList [5] :: Maybe Int\n Just 5\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "fromList",
           "package": "List",
@@ -682,6 +735,7 @@
         "index": {
           "description": "Convert list to MonadPlus fromList Maybe Int Nothing fromList Maybe Int Just",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "fromList",
           "normalized": "[a]-\u003eb a",
@@ -697,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "genericTake",
           "package": "List",
@@ -706,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "genericTake",
           "normalized": "a-\u003eb c-\u003eb c",
@@ -721,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "headL",
           "package": "List",
@@ -730,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "headL",
           "package": "List",
@@ -743,6 +801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic version of iterate.\n Can be used to produce trees given a children of node function.\n\u003c/p\u003e\u003cpre\u003e import Data.List.Tree (bfsLayers)\n take 3 $ bfsLayers (iterateM (\\i -\u003e [i*2, i*2+1]) [1] :: ListT [] Int)\n [[1],[2,3],[4,5,6,7]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "iterateM",
           "package": "List",
@@ -753,6 +812,7 @@
         "index": {
           "description": "Monadic version of iterate Can be used to produce trees given children of node function import Data.List.Tree bfsLayers take bfsLayers iterateM ListT Int",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "iterateM",
           "normalized": "(a-\u003eItemM b a)-\u003eItemM b a-\u003eb a",
@@ -768,6 +828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform an action returning a list to the returned list\n\u003c/p\u003e\u003cpre\u003e \u003e joinL $ Identity \"hello\"\n \"hello\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "joinL",
           "package": "List",
@@ -778,6 +839,7 @@
         "index": {
           "description": "Transform an action returning list to the returned list joinL Identity hello hello",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "joinL",
           "normalized": "ItemM a(a b)-\u003ea b",
@@ -793,6 +855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a list of actions to a list of their results\n\u003c/p\u003e\u003cpre\u003e \u003e joinM [Identity 4, Identity 7]\n [4,7]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "joinM",
           "package": "List",
@@ -803,6 +866,7 @@
         "index": {
           "description": "Transform list of actions to list of their results joinM Identity Identity",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "joinM",
           "normalized": "a(ItemM a b)-\u003ea b",
@@ -818,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume all items and return the last one\n\u003c/p\u003e\u003cpre\u003e \u003e runIdentity $ lastL \"hello\"\n 'o'\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "lastL",
           "package": "List",
@@ -828,6 +893,7 @@
         "index": {
           "description": "Consume all items and return the last one runIdentity lastL hello",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "lastL",
           "normalized": "a b-\u003eItemM a b",
@@ -843,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume a list (execute its actions) and return its length\n\u003c/p\u003e\u003cpre\u003e \u003e runIdentity $ lengthL [1,2,3]\n 3\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "lengthL",
           "package": "List",
@@ -853,6 +920,7 @@
         "index": {
           "description": "Consume list execute its actions and return its length runIdentity lengthL",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "lengthL",
           "normalized": "a b-\u003eItemM a c",
@@ -868,6 +936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elistStateJoin can transform a\n \u003ccode\u003eListT (StateT s m) a\u003c/code\u003e to a \u003ccode\u003eStateT s m (ListT m a)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWhen iterating a list, a state is already maintained and passed along\n in the form of the location along the list.\n This joins the inner \u003ccode\u003eStateT s\u003c/code\u003e into the list.\n The list will fork the state given to it and won't share its changes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "listStateJoin",
           "package": "List",
@@ -878,6 +947,7 @@
         "index": {
           "description": "listStateJoin can transform ListT StateT to StateT ListT When iterating list state is already maintained and passed along in the form of the location along the list This joins the inner StateT into the list The list will fork the state given to it and won share its changes",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "listStateJoin",
           "normalized": "a b-\u003eItemM a(c b)",
@@ -893,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "mapL",
           "package": "List",
@@ -902,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "mapL",
           "normalized": "(a-\u003eItemM b c)-\u003eb a-\u003eb c",
@@ -916,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "mapMaybe",
           "package": "List",
@@ -925,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "mapMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003ec a-\u003ec b",
@@ -941,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two lists sorted by a criteria given the criteria\n\u003c/p\u003e\u003cpre\u003e \u003e merge2On id \"01568\" \"239\"\n \"01235689\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "merge2On",
           "package": "List",
@@ -951,6 +1026,7 @@
         "index": {
           "description": "Merge two lists sorted by criteria given the criteria merge2On id",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "merge2On",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec a-\u003ec a",
@@ -967,6 +1043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge many lists sorted by a criteria given the criteria\n\u003c/p\u003e\u003cpre\u003e \u003e mergeOn length [[\"hi\", \"hey\", \"hello\"], [\"cat\", \"falcon\"], [\"banana\", \"cucumber\"]]\n [\"hi\",\"cat\",\"hey\",\"hello\",\"banana\",\"falcon\",\"cucumber\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "mergeOn",
           "package": "List",
@@ -977,6 +1054,7 @@
         "index": {
           "description": "Merge many lists sorted by criteria given the criteria mergeOn length hi hey hello cat falcon banana cucumber hi cat hey hello banana falcon cucumber",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "mergeOn",
           "normalized": "(a-\u003eb)-\u003ec(c a)-\u003ec a",
@@ -992,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "repeat",
           "package": "List",
@@ -1001,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "repeat",
           "normalized": "a-\u003eb a",
@@ -1015,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "repeatM",
           "package": "List",
@@ -1024,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "repeatM",
           "normalized": "ItemM a b-\u003ea b",
@@ -1038,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "runList",
           "package": "List",
@@ -1047,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "runList",
           "normalized": "a b-\u003eItemM a(ListItem a b)",
@@ -1062,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "scanl",
           "package": "List",
@@ -1071,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "scanl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec b-\u003ec a",
@@ -1085,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "scanl1",
           "package": "List",
@@ -1094,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "scanl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003eb a",
@@ -1108,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "sortOn",
           "package": "List",
@@ -1117,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "sortOn",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[a]",
@@ -1133,6 +1223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic variant of splitAt.\n Consumes x items from the list and return them with the remaining monadic list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "splitAtM",
           "package": "List",
@@ -1143,6 +1234,7 @@
         "index": {
           "description": "Monadic variant of splitAt Consumes items from the list and return them with the remaining monadic list",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "splitAtM",
           "normalized": "Int-\u003ea b-\u003eItemM a([b],a b)",
@@ -1159,6 +1251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic variant of break.\n Consumes items from the list until a condition holds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "splitWhenM",
           "package": "List",
@@ -1169,6 +1262,7 @@
         "index": {
           "description": "Monadic variant of break Consumes items from the list until condition holds",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "splitWhenM",
           "normalized": "(a-\u003eItemM b Bool)-\u003eb a-\u003eItemM b([a],b a)",
@@ -1184,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "tail",
           "package": "List",
@@ -1193,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "tail",
           "normalized": "a b-\u003ea b",
@@ -1207,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "tailL",
           "package": "List",
@@ -1216,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "tailL",
           "package": "List",
@@ -1228,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "take",
           "package": "List",
@@ -1237,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "take",
           "normalized": "Int-\u003ea b-\u003ea b",
@@ -1251,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "takeWhile",
           "package": "List",
@@ -1260,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "takeWhile",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eb a",
@@ -1275,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "takeWhileM",
           "package": "List",
@@ -1284,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "takeWhileM",
           "normalized": "(a-\u003eItemM b Bool)-\u003eb a-\u003eb a",
@@ -1300,6 +1404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn action to transform a \u003ccode\u003e\u003ca\u003eList\u003c/a\u003e\u003c/code\u003e to a list\n\u003c/p\u003e\u003cpre\u003e \u003e runIdentity $ toList \"hello!\"\n \"hello!\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "toList",
           "package": "List",
@@ -1310,6 +1415,7 @@
         "index": {
           "description": "An action to transform List to list runIdentity toList hello hello",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "toList",
           "normalized": "a b-\u003eItemM a[b]",
@@ -1326,6 +1432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform the underlying monad of a list given a way to transform the monad\n\u003c/p\u003e\u003cpre\u003e \u003e import Data.List.Tree (bfs)\n \u003e bfs (transformListMonad (\\(Identity x) -\u003e [x, x]) \"hey\" :: ListT [] Char)\n \"hheeeeyyyyyyyy\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "transformListMonad",
           "package": "List",
@@ -1336,6 +1443,7 @@
         "index": {
           "description": "Transform the underlying monad of list given way to transform the monad import Data.List.Tree bfs bfs transformListMonad Identity hey ListT Char hheeeeyyyyyyyy",
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "transformListMonad",
           "normalized": "(ItemM a(b c)-\u003eItemM b(b c))-\u003ea c-\u003eb c",
@@ -1351,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "transpose",
           "package": "List",
@@ -1360,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "transpose",
           "normalized": "a(a b)-\u003ea(a b)",
@@ -1374,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "zip",
           "package": "List",
@@ -1383,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "zip",
           "normalized": "a b-\u003ea c-\u003ea(b,c)",
@@ -1397,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:47 UTC 2014",
           "module": "Data.List.Class",
           "name": "zipWith",
           "package": "List",
@@ -1406,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Data List Class",
+          "indexed": "2014-03-11T16:51:47",
           "module": "Data.List.Class",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",

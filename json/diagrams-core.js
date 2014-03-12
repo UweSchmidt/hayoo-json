@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "diagrams-core"
+        "phrase": "diagrams-core",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides tools for compiling \u003ccode\u003eQDiagrams\u003c/code\u003e into a more\n convenient and optimized tree form, suitable for use by backends.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Compile",
           "name": "Compile",
           "package": "diagrams-core",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides tools for compiling QDiagrams into more convenient and optimized tree form suitable for use by backends",
           "hierarchy": "Diagrams Core Compile",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Compile",
           "name": "Compile",
           "package": "diagrams-core",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Compile",
           "name": "RNode",
           "package": "diagrams-core",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Compile",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Compile",
           "name": "RNode",
           "package": "diagrams-core",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eRTree\u003c/a\u003e\u003c/code\u003e is a compiled and optimized representation of a\n   \u003ccode\u003e\u003ca\u003eQDiagram\u003c/a\u003e\u003c/code\u003e, which can be used by backends.  They have several\n   invariants which backends may rely upon:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e All non-frozen transformations have been pushed all the way to\n     the leaves.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eRPrim\u003c/code\u003e nodes never have any children.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Compile",
           "name": "RTree",
           "package": "diagrams-core",
@@ -72,6 +77,7 @@
         "index": {
           "description": "An RTree is compiled and optimized representation of QDiagram which can be used by backends They have several invariants which backends may rely upon All non-frozen transformations have been pushed all the way to the leaves RPrim nodes never have any children",
           "hierarchy": "Diagrams Core Compile",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Compile",
           "name": "RTree",
           "package": "diagrams-core",
@@ -207,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003eDTree\u003c/code\u003e to an \u003ccode\u003eRTree\u003c/code\u003e which can be used dirctly by backends.\n   A \u003ccode\u003eDTree\u003c/code\u003e includes nodes of type \u003ccode\u003eDTransform (Split (Transformation v))\u003c/code\u003e;\n   in the \u003ccode\u003eRTree\u003c/code\u003e the frozen part of the transform is put in a node of type\n   \u003ccode\u003eRFrozenTr (Transformation v)\u003c/code\u003e and the unfrozen part is pushed down until\n   it is either frozen or reaches a primitive node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Compile",
           "name": "fromDTree",
           "package": "diagrams-core",
@@ -217,6 +224,7 @@
         "index": {
           "description": "Convert DTree to an RTree which can be used dirctly by backends DTree includes nodes of type DTransform Split Transformation in the RTree the frozen part of the transform is put in node of type RFrozenTr Transformation and the unfrozen part is pushed down until it is either frozen or reaches primitive node",
           "hierarchy": "Diagrams Core Compile",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Compile",
           "name": "fromDTree",
           "normalized": "DTree a b()-\u003eRTree a b()",
@@ -233,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003eQDiagram\u003c/code\u003e into a raw tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Compile",
           "name": "toDTree",
           "package": "diagrams-core",
@@ -243,6 +252,7 @@
         "index": {
           "description": "Convert QDiagram into raw tree",
           "hierarchy": "Diagrams Core Compile",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Compile",
           "name": "toDTree",
           "normalized": "QDiagram a b c-\u003eMaybe(DTree a b())",
@@ -259,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a \u003ccode\u003eQDiagram\u003c/code\u003e into an \u003ccode\u003e\u003ca\u003eRTree\u003c/a\u003e\u003c/code\u003e.  Suitable for use by\n   backends when implementing \u003ccode\u003e\u003ca\u003erenderData\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Compile",
           "name": "toRTree",
           "package": "diagrams-core",
@@ -269,6 +280,7 @@
         "index": {
           "description": "Compile QDiagram into an RTree Suitable for use by backends when implementing renderData",
           "hierarchy": "Diagrams Core Compile",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Compile",
           "name": "toRTree",
           "normalized": "QDiagram a b c-\u003eRTree a b()",
@@ -285,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003eGraphics.Rendering.Diagrams\u003c/a\u003e defines the core library of primitives\n forming the basis of an embedded domain-specific language for\n describing and rendering diagrams.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eEnvelope\u003c/code\u003e module defines a data type and type class for\n \"envelopes\", aka functional bounding regions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Envelope",
           "name": "Envelope",
           "package": "diagrams-core",
@@ -294,6 +307,7 @@
         "index": {
           "description": "Graphics.Rendering.Diagrams defines the core library of primitives forming the basis of an embedded domain-specific language for describing and rendering diagrams The Envelope module defines data type and type class for envelopes aka functional bounding regions",
           "hierarchy": "Diagrams Core Envelope",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Envelope",
           "name": "Envelope",
           "package": "diagrams-core",
@@ -308,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery diagram comes equipped with an \u003cem\u003eenvelope\u003c/em\u003e.  What is an envelope?\n\u003c/p\u003e\u003cp\u003eConsider first the idea of a \u003cem\u003ebounding box\u003c/em\u003e. A bounding box\n   expresses the distance to a bounding plane in every direction\n   parallel to an axis.  That is, a bounding box can be thought of\n   as the intersection of a collection of half-planes, two\n   perpendicular to each axis.\n\u003c/p\u003e\u003cp\u003eMore generally, the intersection of half-planes in \u003cem\u003eevery\u003c/em\u003e\n   direction would give a tight \"bounding region\", or convex hull.\n   However, representing such a thing intensionally would be\n   impossible; hence bounding boxes are often used as an\n   approximation.\n\u003c/p\u003e\u003cp\u003eAn envelope is an \u003cem\u003eextensional\u003c/em\u003e representation of such a\n   \"bounding region\".  Instead of storing some sort of direct\n   representation, we store a \u003cem\u003efunction\u003c/em\u003e which takes a direction as\n   input and gives a distance to a bounding half-plane as output.\n   The important point is that envelopes can be composed, and\n   transformed by any affine transformation.\n\u003c/p\u003e\u003cp\u003eFormally, given a vector \u003ccode\u003ev\u003c/code\u003e, the envelope computes a scalar \u003ccode\u003es\u003c/code\u003e such\n   that\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e for every point \u003ccode\u003eu\u003c/code\u003e inside the diagram,\n       if the projection of \u003ccode\u003e(u - origin)\u003c/code\u003e onto \u003ccode\u003ev\u003c/code\u003e is \u003ccode\u003es' *^ v\u003c/code\u003e, then \u003ccode\u003es' \u003c= s\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003es\u003c/code\u003e is the smallest such scalar.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThere is also a special \"empty envelope\".\n\u003c/p\u003e\u003cp\u003eThe idea for envelopes came from\n   Sebastian Setzer; see\n   \u003ca\u003ehttp://byorgey.wordpress.com/2009/10/28/collecting-attributes/#comment-2030\u003c/a\u003e.  See also Brent Yorgey, \u003cem\u003eMonoids: Theme and Variations\u003c/em\u003e, published in the 2012 Haskell Symposium: \u003ca\u003ehttp://www.cis.upenn.edu/~byorgey/pub/monoid-pearl.pdf\u003c/a\u003e; video: \u003ca\u003ehttp://www.youtube.com/watch?v=X-8NCkD2vOw\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Envelope",
           "name": "Envelope",
           "package": "diagrams-core",
@@ -317,6 +332,7 @@
         "index": {
           "description": "Every diagram comes equipped with an envelope What is an envelope Consider first the idea of bounding box bounding box expresses the distance to bounding plane in every direction parallel to an axis That is bounding box can be thought of as the intersection of collection of half-planes two perpendicular to each axis More generally the intersection of half-planes in every direction would give tight bounding region or convex hull However representing such thing intensionally would be impossible hence bounding boxes are often used as an approximation An envelope is an extensional representation of such bounding region Instead of storing some sort of direct representation we store function which takes direction as input and gives distance to bounding half-plane as output The important point is that envelopes can be composed and transformed by any affine transformation Formally given vector the envelope computes scalar such that for every point inside the diagram if the projection of origin onto is then is the smallest such scalar There is also special empty envelope The idea for envelopes came from Sebastian Setzer see http byorgey.wordpress.com collecting-attributes comment-2030 See also Brent Yorgey Monoids Theme and Variations published in the Haskell Symposium http www.cis.upenn.edu byorgey pub monoid-pearl.pdf video http www.youtube.com watch X-8NCkD2vOw",
           "hierarchy": "Diagrams Core Envelope",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Envelope",
           "name": "Envelope",
           "package": "diagrams-core",
@@ -331,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eEnveloped\u003c/code\u003e abstracts over things which have an envelope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Envelope",
           "name": "Enveloped",
           "package": "diagrams-core",
@@ -340,6 +357,7 @@
         "index": {
           "description": "Enveloped abstracts over things which have an envelope",
           "hierarchy": "Diagrams Core Envelope",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Envelope",
           "name": "Enveloped",
           "package": "diagrams-core",
@@ -354,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen dealing with envelopes we often want scalars to be an\n   ordered field (i.e. support all four arithmetic operations and be\n   totally ordered) so we introduce this class as a convenient\n   shorthand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Envelope",
           "name": "OrderedField",
           "package": "diagrams-core",
@@ -363,6 +382,7 @@
         "index": {
           "description": "When dealing with envelopes we often want scalars to be an ordered field i.e support all four arithmetic operations and be totally ordered so we introduce this class as convenient shorthand",
           "hierarchy": "Diagrams Core Envelope",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Envelope",
           "name": "OrderedField",
           "package": "diagrams-core",
@@ -506,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to the magnitude of \u003ccode\u003e\u003ca\u003eenvelopeV\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e envelopeS v x == magnitude (envelopeV v x)\u003c/pre\u003e\u003cp\u003e(other than differences in rounding error)\n\u003c/p\u003e\u003cp\u003eNote that the \u003ccode\u003e\u003ca\u003eenvelopeV\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003e\u003ca\u003eenvelopeP\u003c/a\u003e\u003c/code\u003e functions above should be\n   preferred, as this requires a call to magnitude. However, it is more\n   efficient than calling magnitude on the results of those functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Envelope",
           "name": "envelopeS",
           "package": "diagrams-core",
@@ -516,6 +537,7 @@
         "index": {
           "description": "Equivalent to the magnitude of envelopeV envelopeS magnitude envelopeV other than differences in rounding error Note that the envelopeV envelopeP functions above should be preferred as this requires call to magnitude However it is more efficient than calling magnitude on the results of those functions",
           "hierarchy": "Diagrams Core Envelope",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Envelope",
           "name": "envelopeS",
           "normalized": "V a-\u003ea-\u003eScalar(V a)",
@@ -531,6 +553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to the magnitude of \u003ccode\u003e\u003ca\u003eenvelopeVMay\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e envelopeSMay v x == fmap magnitude (envelopeVMay v x)\u003c/pre\u003e\u003cp\u003e(other than differences in rounding error)\n\u003c/p\u003e\u003cp\u003eNote that the \u003ccode\u003e\u003ca\u003eenvelopeVMay\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003e\u003ca\u003eenvelopePMay\u003c/a\u003e\u003c/code\u003e functions above should be\n   preferred, as this requires a call to magnitude.  However, it is more\n   efficient than calling magnitude on the results of those functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Envelope",
           "name": "envelopeSMay",
           "package": "diagrams-core",
@@ -541,6 +564,7 @@
         "index": {
           "description": "Equivalent to the magnitude of envelopeVMay envelopeSMay fmap magnitude envelopeVMay other than differences in rounding error Note that the envelopeVMay envelopePMay functions above should be preferred as this requires call to magnitude However it is more efficient than calling magnitude on the results of those functions",
           "hierarchy": "Diagrams Core Envelope",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Envelope",
           "name": "envelopeSMay",
           "normalized": "V a-\u003ea-\u003eMaybe(Scalar(V a))",
@@ -610,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the envelope of an object.  For types with an intrinsic\n   notion of \"local origin\", the envelope will be based there.\n   Other types (e.g. \u003ccode\u003eTrail\u003c/code\u003e) may have some other default\n   reference point at which the envelope will be based; their\n   instances should document what it is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Envelope",
           "name": "getEnvelope",
           "package": "diagrams-core",
@@ -620,6 +645,7 @@
         "index": {
           "description": "Compute the envelope of an object For types with an intrinsic notion of local origin the envelope will be based there Other types e.g Trail may have some other default reference point at which the envelope will be based their instances should document what it is",
           "hierarchy": "Diagrams Core Envelope",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Envelope",
           "name": "getEnvelope",
           "normalized": "a-\u003eEnvelope(V a)",
@@ -686,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an envelope for the given point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Envelope",
           "name": "pointEnvelope",
           "package": "diagrams-core",
@@ -696,6 +723,7 @@
         "index": {
           "description": "Create an envelope for the given point",
           "hierarchy": "Diagrams Core Envelope",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Envelope",
           "name": "pointEnvelope",
           "normalized": "Point a-\u003eEnvelope a",
@@ -738,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes which have an intrinsic notion of a \"local origin\",\n \u003cem\u003ei.e.\u003c/em\u003e things which are \u003cem\u003enot\u003c/em\u003e invariant under translation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.HasOrigin",
           "name": "HasOrigin",
           "package": "diagrams-core",
@@ -747,6 +776,7 @@
         "index": {
           "description": "Types which have an intrinsic notion of local origin i.e things which are not invariant under translation",
           "hierarchy": "Diagrams Core HasOrigin",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.HasOrigin",
           "name": "HasOrigin",
           "package": "diagrams-core",
@@ -761,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types which have an intrinsic notion of a \"local\n   origin\", i.e. things which are not invariant under translation,\n   and which allow the origin to be moved.\n\u003c/p\u003e\u003cp\u003eOne might wonder why not just use \u003ccode\u003eTransformable\u003c/code\u003e instead of\n   having a separate class for \u003ccode\u003e\u003ca\u003eHasOrigin\u003c/a\u003e\u003c/code\u003e; indeed, for types which\n   are instances of both we should have the identity\n\u003c/p\u003e\u003cpre\u003e moveOriginTo (origin .^+ v) === translate (negateV v)\n\u003c/pre\u003e\u003cp\u003eThe reason is that some things (e.g. vectors, \u003ccode\u003eTrail\u003c/code\u003es) are\n   transformable but are translationally invariant, i.e. have no\n   origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.HasOrigin",
           "name": "HasOrigin",
           "package": "diagrams-core",
@@ -770,6 +801,7 @@
         "index": {
           "description": "Class of types which have an intrinsic notion of local origin i.e things which are not invariant under translation and which allow the origin to be moved One might wonder why not just use Transformable instead of having separate class for HasOrigin indeed for types which are instances of both we should have the identity moveOriginTo origin translate negateV The reason is that some things e.g vectors Trail are transformable but are translationally invariant i.e have no origin",
           "hierarchy": "Diagrams Core HasOrigin",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.HasOrigin",
           "name": "HasOrigin",
           "package": "diagrams-core",
@@ -811,6 +843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the local origin to another point.\n\u003c/p\u003e\u003cp\u003eNote that this function is in some sense dual to \u003ccode\u003etranslate\u003c/code\u003e\n   (for types which are also \u003ccode\u003eTransformable\u003c/code\u003e); moving the origin\n   itself while leaving the object \"fixed\" is dual to fixing the\n   origin and translating the diagram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.HasOrigin",
           "name": "moveOriginTo",
           "package": "diagrams-core",
@@ -821,6 +854,7 @@
         "index": {
           "description": "Move the local origin to another point Note that this function is in some sense dual to translate for types which are also Transformable moving the origin itself while leaving the object fixed is dual to fixing the origin and translating the diagram",
           "hierarchy": "Diagrams Core HasOrigin",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.HasOrigin",
           "name": "moveOriginTo",
           "normalized": "Point(V a)-\u003ea-\u003ea",
@@ -890,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThings which can be placed \"next to\" other things, for some\n appropriate notion of \"next to\".\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Juxtapose",
           "name": "Juxtapose",
           "package": "diagrams-core",
@@ -899,6 +934,7 @@
         "index": {
           "description": "Things which can be placed next to other things for some appropriate notion of next to",
           "hierarchy": "Diagrams Core Juxtapose",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Juxtapose",
           "name": "Juxtapose",
           "package": "diagrams-core",
@@ -913,6 +949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of things which can be placed \"next to\" other things, for some\n   appropriate notion of \"next to\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Juxtapose",
           "name": "Juxtaposable",
           "package": "diagrams-core",
@@ -922,6 +959,7 @@
         "index": {
           "description": "Class of things which can be placed next to other things for some appropriate notion of next to",
           "hierarchy": "Diagrams Core Juxtapose",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Juxtapose",
           "name": "Juxtaposable",
           "package": "diagrams-core",
@@ -936,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ejuxtapose v a1 a2\u003c/code\u003e positions \u003ccode\u003ea2\u003c/code\u003e next to \u003ccode\u003ea1\u003c/code\u003e in the\n   direction of \u003ccode\u003ev\u003c/code\u003e.  In particular, place \u003ccode\u003ea2\u003c/code\u003e so that \u003ccode\u003ev\u003c/code\u003e points\n   from the local origin of \u003ccode\u003ea1\u003c/code\u003e towards the old local origin of\n   \u003ccode\u003ea2\u003c/code\u003e; \u003ccode\u003ea1\u003c/code\u003e's local origin becomes \u003ccode\u003ea2\u003c/code\u003e's new local origin.  The\n   result is just a translated version of \u003ccode\u003ea2\u003c/code\u003e.  (In particular,\n   this operation does not \u003cem\u003ecombine\u003c/em\u003e \u003ccode\u003ea1\u003c/code\u003e and \u003ccode\u003ea2\u003c/code\u003e in any way.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Juxtapose",
           "name": "juxtapose",
           "package": "diagrams-core",
@@ -946,6 +985,7 @@
         "index": {
           "description": "juxtapose a1 a2 positions a2 next to a1 in the direction of In particular place a2 so that points from the local origin of a1 towards the old local origin of a2 a1 local origin becomes a2 new local origin The result is just translated version of a2 In particular this operation does not combine a1 and a2 in any way",
           "hierarchy": "Diagrams Core Juxtapose",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Juxtapose",
           "name": "juxtapose",
           "normalized": "V a-\u003ea-\u003ea-\u003ea",
@@ -988,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a type of names which can be used for referring\n to subdiagrams, and related types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Names",
           "name": "Names",
           "package": "diagrams-core",
@@ -997,6 +1038,7 @@
         "index": {
           "description": "This module defines type of names which can be used for referring to subdiagrams and related types",
           "hierarchy": "Diagrams Core Names",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Names",
           "name": "Names",
           "package": "diagrams-core",
@@ -1011,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomic names.  \u003ccode\u003eAName\u003c/code\u003e is just an existential wrapper around\n   things which are \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Names",
           "name": "AName",
           "package": "diagrams-core",
@@ -1020,6 +1063,7 @@
         "index": {
           "description": "Atomic names AName is just an existential wrapper around things which are Typeable Ord and Show",
           "hierarchy": "Diagrams Core Names",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Names",
           "name": "AName",
           "package": "diagrams-core",
@@ -1034,6 +1078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for those types which can be used as names.  They must\n   support \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e (to facilitate extracting them from\n   existential wrappers), \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e (for comparison and efficient\n   storage) and \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Names",
           "name": "IsName",
           "package": "diagrams-core",
@@ -1043,6 +1088,7 @@
         "index": {
           "description": "Class for those types which can be used as names They must support Typeable to facilitate extracting them from existential wrappers Ord for comparison and efficient storage and Show",
           "hierarchy": "Diagrams Core Names",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Names",
           "name": "IsName",
           "package": "diagrams-core",
@@ -1057,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (qualified) name is a (possibly empty) sequence of atomic names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Names",
           "name": "Name",
           "package": "diagrams-core",
@@ -1066,6 +1113,7 @@
         "index": {
           "description": "qualified name is possibly empty sequence of atomic names",
           "hierarchy": "Diagrams Core Names",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Names",
           "name": "Name",
           "package": "diagrams-core",
@@ -1080,6 +1128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances of \u003ccode\u003e\u003ca\u003eQualifiable\u003c/a\u003e\u003c/code\u003e are things which can be qualified by\n   prefixing them with a name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Names",
           "name": "Qualifiable",
           "package": "diagrams-core",
@@ -1089,6 +1138,7 @@
         "index": {
           "description": "Instances of Qualifiable are things which can be qualified by prefixing them with name",
           "hierarchy": "Diagrams Core Names",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Names",
           "name": "Qualifiable",
           "package": "diagrams-core",
@@ -1103,6 +1153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQualify with the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Names",
           "name": "(|\u003e)",
           "package": "diagrams-core",
@@ -1113,6 +1164,7 @@
         "index": {
           "description": "Qualify with the given name",
           "hierarchy": "Diagrams Core Names",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Names",
           "name": "(|\u003e) |\u003e",
           "normalized": "a-\u003eb-\u003eb",
@@ -1153,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Names",
           "name": "AName",
           "package": "diagrams-core",
@@ -1162,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Names",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Names",
           "name": "AName",
           "normalized": "a-\u003eAName",
@@ -1177,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Names",
           "name": "Name",
           "package": "diagrams-core",
@@ -1186,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Names",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Names",
           "name": "Name",
           "normalized": "Name[AName]",
@@ -1201,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Names",
           "name": "toName",
           "package": "diagrams-core",
@@ -1210,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Names",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Names",
           "name": "toName",
           "normalized": "a-\u003eName",
@@ -1226,6 +1284,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA type for \u003cem\u003epoints\u003c/em\u003e (as distinct from vectors).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Points",
           "name": "Points",
           "package": "diagrams-core",
@@ -1235,6 +1294,7 @@
         "index": {
           "description": "type for points as distinct from vectors",
           "hierarchy": "Diagrams Core Points",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Points",
           "name": "Points",
           "package": "diagrams-core",
@@ -1249,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePoint\u003c/code\u003e is a newtype wrapper around vectors used to represent\n   points, so we don't get them mixed up. The distinction between\n   vectors and points is important: translations affect points, but\n   leave vectors unchanged.  Points are instances of the\n   \u003ccode\u003e\u003ca\u003eAffineSpace\u003c/a\u003e\u003c/code\u003e class from \u003ca\u003eData.AffineSpace\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Points",
           "name": "Point",
           "package": "diagrams-core",
@@ -1257,6 +1318,7 @@
         "index": {
           "description": "Point is newtype wrapper around vectors used to represent points so we don get them mixed up The distinction between vectors and points is important translations affect points but leave vectors unchanged Points are instances of the AffineSpace class from Data.AffineSpace",
           "hierarchy": "Diagrams Core Points",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Points",
           "name": "Point",
           "package": "diagrams-core",
@@ -1295,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Points",
           "name": "P",
           "package": "diagrams-core",
@@ -1303,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Points",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Points",
           "name": "P",
           "package": "diagrams-core",
@@ -1339,6 +1403,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003eQuery\u003c/code\u003e module defines a type for \"queries\" on diagrams, which\n are functions from points in a vector space to some monoid.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Query",
           "name": "Query",
           "package": "diagrams-core",
@@ -1348,6 +1413,7 @@
         "index": {
           "description": "The Query module defines type for queries on diagrams which are functions from points in vector space to some monoid",
           "hierarchy": "Diagrams Core Query",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Query",
           "name": "Query",
           "package": "diagrams-core",
@@ -1362,6 +1428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA query is a function that maps points in a vector space to\n   values in some monoid. Queries naturally form a monoid, with\n   two queries being combined pointwise.\n\u003c/p\u003e\u003cp\u003eThe idea for annotating diagrams with monoidal queries came from\n   the graphics-drawingcombinators package, \u003ca\u003ehttp://hackage.haskell.org/package/graphics-drawingcombinators\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Query",
           "name": "Query",
           "package": "diagrams-core",
@@ -1371,6 +1438,7 @@
         "index": {
           "description": "query is function that maps points in vector space to values in some monoid Queries naturally form monoid with two queries being combined pointwise The idea for annotating diagrams with monoidal queries came from the graphics-drawingcombinators package http hackage.haskell.org package graphics-drawingcombinators",
           "hierarchy": "Diagrams Core Query",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Query",
           "name": "Query",
           "package": "diagrams-core",
@@ -1433,6 +1501,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA definition of \u003cem\u003estyles\u003c/em\u003e for diagrams as extensible, heterogeneous\n collections of attributes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Style",
           "name": "Style",
           "package": "diagrams-core",
@@ -1442,6 +1511,7 @@
         "index": {
           "description": "definition of styles for diagrams as extensible heterogeneous collections of attributes",
           "hierarchy": "Diagrams Core Style",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Style",
           "name": "Style",
           "package": "diagrams-core",
@@ -1456,6 +1526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn existential wrapper type to hold attributes.  Some attributes\n   are affected by transformations and some are not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Style",
           "name": "Attribute",
           "package": "diagrams-core",
@@ -1465,6 +1536,7 @@
         "index": {
           "description": "An existential wrapper type to hold attributes Some attributes are affected by transformations and some are not",
           "hierarchy": "Diagrams Core Style",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Style",
           "name": "Attribute",
           "package": "diagrams-core",
@@ -1479,6 +1551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery attribute must be an instance of \u003ccode\u003eAttributeClass\u003c/code\u003e, which\n   simply guarantees \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e constraints.  The\n   \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e instance for an attribute determines how it will combine\n   with other attributes of the same type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Style",
           "name": "AttributeClass",
           "package": "diagrams-core",
@@ -1488,6 +1561,7 @@
         "index": {
           "description": "Every attribute must be an instance of AttributeClass which simply guarantees Typeable and Semigroup constraints The Semigroup instance for an attribute determines how it will combine with other attributes of the same type",
           "hierarchy": "Diagrams Core Style",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Style",
           "name": "AttributeClass",
           "package": "diagrams-core",
@@ -1502,6 +1576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for things which have a style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Style",
           "name": "HasStyle",
           "package": "diagrams-core",
@@ -1511,6 +1586,7 @@
         "index": {
           "description": "Type class for things which have style",
           "hierarchy": "Diagrams Core Style",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Style",
           "name": "HasStyle",
           "package": "diagrams-core",
@@ -1525,6 +1601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eStyle\u003c/code\u003e is a heterogeneous collection of attributes, containing\n   at most one attribute of any given type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Style",
           "name": "Style",
           "package": "diagrams-core",
@@ -1534,6 +1611,7 @@
         "index": {
           "description": "Style is heterogeneous collection of attributes containing at most one attribute of any given type",
           "hierarchy": "Diagrams Core Style",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Style",
           "name": "Style",
           "package": "diagrams-core",
@@ -1547,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Style",
           "name": "Attribute",
           "package": "diagrams-core",
@@ -1556,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Style",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Style",
           "name": "Attribute",
           "normalized": "a-\u003eAttribute b",
@@ -1571,6 +1651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Style",
           "name": "Style",
           "package": "diagrams-core",
@@ -1580,6 +1661,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Style",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Style",
           "name": "Style",
           "package": "diagrams-core",
@@ -1593,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Style",
           "name": "TAttribute",
           "package": "diagrams-core",
@@ -1602,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Style",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Style",
           "name": "TAttribute",
           "normalized": "a-\u003eAttribute b",
@@ -1618,6 +1702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to add a new attribute to a style, but if an attribute of\n   the same type already exists, do not replace it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Style",
           "name": "addAttr",
           "package": "diagrams-core",
@@ -1628,6 +1713,7 @@
         "index": {
           "description": "Attempt to add new attribute to style but if an attribute of the same type already exists do not replace it",
           "hierarchy": "Diagrams Core Style",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Style",
           "name": "addAttr",
           "normalized": "a-\u003eStyle b-\u003eStyle b",
@@ -1671,6 +1757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eApply\u003c/em\u003e a style by combining it (on the left) with the\n   existing style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Style",
           "name": "applyStyle",
           "package": "diagrams-core",
@@ -1681,6 +1768,7 @@
         "index": {
           "description": "Apply style by combining it on the left with the existing style",
           "hierarchy": "Diagrams Core Style",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Style",
           "name": "applyStyle",
           "normalized": "Style(V a)-\u003ea-\u003ea",
@@ -1724,6 +1812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a style from a single attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Style",
           "name": "attrToStyle",
           "package": "diagrams-core",
@@ -1734,6 +1823,7 @@
         "index": {
           "description": "Create style from single attribute",
           "hierarchy": "Diagrams Core Style",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Style",
           "name": "attrToStyle",
           "normalized": "a-\u003eStyle b",
@@ -1858,6 +1948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new attribute to a style, or replace the old attribute of\n   the same type if one exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Style",
           "name": "setAttr",
           "package": "diagrams-core",
@@ -1868,6 +1959,7 @@
         "index": {
           "description": "Add new attribute to style or replace the old attribute of the same type if one exists",
           "hierarchy": "Diagrams Core Style",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Style",
           "name": "setAttr",
           "normalized": "a-\u003eStyle b-\u003eStyle b",
@@ -1884,6 +1976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a style from a single transformable attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Style",
           "name": "tAttrToStyle",
           "package": "diagrams-core",
@@ -1894,6 +1987,7 @@
         "index": {
           "description": "Create style from single transformable attribute",
           "hierarchy": "Diagrams Core Style",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Style",
           "name": "tAttrToStyle",
           "normalized": "a-\u003eStyle b",
@@ -1937,6 +2031,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003ediagrams-core\u003c/code\u003e defines the core library of primitives\n forming the basis of an embedded domain-specific language for\n describing and rendering diagrams.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eTrace\u003c/code\u003e module defines a data type and type class for\n \"traces\", aka functional boundaries, essentially corresponding to\n embedding a raytracer with each diagram.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Trace",
           "name": "Trace",
           "package": "diagrams-core",
@@ -1946,6 +2041,7 @@
         "index": {
           "description": "diagrams-core defines the core library of primitives forming the basis of an embedded domain-specific language for describing and rendering diagrams The Trace module defines data type and type class for traces aka functional boundaries essentially corresponding to embedding raytracer with each diagram",
           "hierarchy": "Diagrams Core Trace",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Trace",
           "name": "Trace",
           "package": "diagrams-core",
@@ -1960,6 +2056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery diagram comes equipped with a \u003cem\u003etrace\u003c/em\u003e.  Intuitively, the\n   trace for a diagram is like a raytracer: given a line\n   (represented as a base point and a direction), the trace computes\n   the distance from the base point along the line to the first\n   intersection with the diagram.  The distance can be negative if\n   the intersection is in the opposite direction from the base\n   point, or infinite if the ray never intersects the diagram.\n   Note: to obtain the distance to the \u003cem\u003efurthest\u003c/em\u003e intersection\n   instead of the \u003cem\u003eclosest\u003c/em\u003e, just negate the direction vector and\n   then negate the result.\n\u003c/p\u003e\u003cp\u003eNote that the output should actually be interpreted not as an\n   absolute distance, but as a multiplier relative to the input\n   vector.  That is, if the input vector is \u003ccode\u003ev\u003c/code\u003e and the returned\n   scalar is \u003ccode\u003es\u003c/code\u003e, the distance from the base point to the\n   intersection is given by \u003ccode\u003es * magnitude v\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Trace",
           "name": "Trace",
           "package": "diagrams-core",
@@ -1969,6 +2066,7 @@
         "index": {
           "description": "Every diagram comes equipped with trace Intuitively the trace for diagram is like raytracer given line represented as base point and direction the trace computes the distance from the base point along the line to the first intersection with the diagram The distance can be negative if the intersection is in the opposite direction from the base point or infinite if the ray never intersects the diagram Note to obtain the distance to the furthest intersection instead of the closest just negate the direction vector and then negate the result Note that the output should actually be interpreted not as an absolute distance but as multiplier relative to the input vector That is if the input vector is and the returned scalar is the distance from the base point to the intersection is given by magnitude",
           "hierarchy": "Diagrams Core Trace",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Trace",
           "name": "Trace",
           "package": "diagrams-core",
@@ -1983,6 +2081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTraced\u003c/code\u003e abstracts over things which have a trace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Trace",
           "name": "Traced",
           "package": "diagrams-core",
@@ -1992,6 +2091,7 @@
         "index": {
           "description": "Traced abstracts over things which have trace",
           "hierarchy": "Diagrams Core Trace",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Trace",
           "name": "Traced",
           "package": "diagrams-core",
@@ -2054,6 +2154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the trace of an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Trace",
           "name": "getTrace",
           "package": "diagrams-core",
@@ -2064,6 +2165,7 @@
         "index": {
           "description": "Compute the trace of an object",
           "hierarchy": "Diagrams Core Trace",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Trace",
           "name": "getTrace",
           "normalized": "a-\u003eTrace(V a)",
@@ -2211,6 +2313,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003eDiagrams\u003c/a\u003e defines the core library of primitives\n forming the basis of an embedded domain-specific language for\n describing and rendering diagrams.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eTransform\u003c/code\u003e module defines generic transformations\n parameterized by any vector space.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Transform",
           "name": "Transform",
           "package": "diagrams-core",
@@ -2220,6 +2323,7 @@
         "index": {
           "description": "Diagrams defines the core library of primitives forming the basis of an embedded domain-specific language for describing and rendering diagrams The Transform module defines generic transformations parameterized by any vector space",
           "hierarchy": "Diagrams Core Transform",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Transform",
           "name": "Transform",
           "package": "diagrams-core",
@@ -2234,6 +2338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(v1 :-: v2)\u003c/code\u003e is a linear map paired with its inverse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Transform",
           "name": ":-:",
           "package": "diagrams-core",
@@ -2243,6 +2348,7 @@
         "index": {
           "description": "v1 v2 is linear map paired with its inverse",
           "hierarchy": "Diagrams Core Transform",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Transform",
           "name": ":-:",
           "package": "diagrams-core",
@@ -2256,6 +2362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eHasLinearMap\u003c/a\u003e\u003c/code\u003e is a poor man's class constraint synonym, just to\n   help shorten some of the ridiculously long constraint sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Transform",
           "name": "HasLinearMap",
           "package": "diagrams-core",
@@ -2265,6 +2372,7 @@
         "index": {
           "description": "HasLinearMap is poor man class constraint synonym just to help shorten some of the ridiculously long constraint sets",
           "hierarchy": "Diagrams Core Transform",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Transform",
           "name": "HasLinearMap",
           "package": "diagrams-core",
@@ -2279,6 +2387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTransInv\u003c/code\u003e is a wrapper which makes a transformable type\n   translationally invariant; the translational component of\n   transformations will no longer affect things wrapped in\n   \u003ccode\u003eTransInv\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Transform",
           "name": "TransInv",
           "package": "diagrams-core",
@@ -2288,6 +2397,7 @@
         "index": {
           "description": "TransInv is wrapper which makes transformable type translationally invariant the translational component of transformations will no longer affect things wrapped in TransInv",
           "hierarchy": "Diagrams Core Transform",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Transform",
           "name": "TransInv",
           "package": "diagrams-core",
@@ -2302,6 +2412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for things \u003ccode\u003et\u003c/code\u003e which can be transformed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Transform",
           "name": "Transformable",
           "package": "diagrams-core",
@@ -2311,6 +2422,7 @@
         "index": {
           "description": "Type class for things which can be transformed",
           "hierarchy": "Diagrams Core Transform",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Transform",
           "name": "Transformable",
           "package": "diagrams-core",
@@ -2325,6 +2437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral (affine) transformations, represented by an invertible\n   linear map, its \u003cem\u003etranspose\u003c/em\u003e, and a vector representing a\n   translation component.\n\u003c/p\u003e\u003cp\u003eBy the \u003cem\u003etranspose\u003c/em\u003e of a linear map we mean simply the linear map\n   corresponding to the transpose of the map's matrix\n   representation.  For example, any scale is its own transpose,\n   since scales are represented by matrices with zeros everywhere\n   except the diagonal.  The transpose of a rotation is the same as\n   its inverse.\n\u003c/p\u003e\u003cp\u003eThe reason we need to keep track of transposes is because it\n   turns out that when transforming a shape according to some linear\n   map L, the shape's \u003cem\u003enormal vectors\u003c/em\u003e transform according to L's\n   inverse transpose.  This is exactly what we need when\n   transforming bounding functions, which are defined in terms of\n   \u003cem\u003eperpendicular\u003c/em\u003e (i.e. normal) hyperplanes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Transform",
           "name": "Transformation",
           "package": "diagrams-core",
@@ -2334,6 +2447,7 @@
         "index": {
           "description": "General affine transformations represented by an invertible linear map its transpose and vector representing translation component By the transpose of linear map we mean simply the linear map corresponding to the transpose of the map matrix representation For example any scale is its own transpose since scales are represented by matrices with zeros everywhere except the diagonal The transpose of rotation is the same as its inverse The reason we need to keep track of transposes is because it turns out that when transforming shape according to some linear map the shape normal vectors transform according to inverse transpose This is exactly what we need when transforming bounding functions which are defined in terms of perpendicular i.e normal hyperplanes",
           "hierarchy": "Diagrams Core Transform",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Transform",
           "name": "Transformation",
           "package": "diagrams-core",
@@ -2373,6 +2487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Transform",
           "name": ":-:",
           "package": "diagrams-core",
@@ -2382,6 +2497,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Transform",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Transform",
           "name": ":-:",
           "package": "diagrams-core",
@@ -2417,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Transform",
           "name": "Transformation",
           "package": "diagrams-core",
@@ -2426,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Transform",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Transform",
           "name": "Transformation",
           "package": "diagrams-core",
@@ -2571,6 +2689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the matrix equivalent of the linear transform,\n   (as a list of columns) and the translation vector.  This\n   is mostly useful for implementing backends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Transform",
           "name": "onBasis",
           "package": "diagrams-core",
@@ -2581,6 +2700,7 @@
         "index": {
           "description": "Get the matrix equivalent of the linear transform as list of columns and the translation vector This is mostly useful for implementing backends",
           "hierarchy": "Diagrams Core Transform",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Transform",
           "name": "onBasis",
           "normalized": "Transformation a-\u003e([a],a)",
@@ -2675,6 +2795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transformation to an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Transform",
           "name": "transform",
           "package": "diagrams-core",
@@ -2685,6 +2806,7 @@
         "index": {
           "description": "Apply transformation to an object",
           "hierarchy": "Diagrams Core Transform",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Transform",
           "name": "transform",
           "normalized": "Transformation(V a)-\u003ea-\u003ea",
@@ -2804,6 +2926,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe core library of primitives forming the basis of an embedded\n domain-specific language for describing and rendering diagrams.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eDiagrams.Core.Types\u003c/a\u003e defines types and classes for\n primitives, diagrams, and backends.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "Types",
           "package": "diagrams-core",
@@ -2813,6 +2936,7 @@
         "index": {
           "description": "The core library of primitives forming the basis of an embedded domain-specific language for describing and rendering diagrams Diagrams.Core.Types defines types and classes for primitives diagrams and backends",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "Types",
           "package": "diagrams-core",
@@ -2827,6 +2951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract diagrams are rendered to particular formats by\n   \u003cem\u003ebackends\u003c/em\u003e.  Each backend/vector space combination must be an\n   instance of the \u003ccode\u003e\u003ca\u003eBackend\u003c/a\u003e\u003c/code\u003e class. A minimal complete definition\n   consists of the three associated types, an implementation for\n   \u003ccode\u003e\u003ca\u003edoRender\u003c/a\u003e\u003c/code\u003e, and \u003cem\u003eone of\u003c/em\u003e either \u003ccode\u003e\u003ca\u003ewithStyle\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003erenderData\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "Backend",
           "package": "diagrams-core",
@@ -2836,6 +2961,7 @@
         "index": {
           "description": "Abstract diagrams are rendered to particular formats by backends Each backend vector space combination must be an instance of the Backend class minimal complete definition consists of the three associated types an implementation for doRender and one of either withStyle or renderData",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "Backend",
           "package": "diagrams-core",
@@ -2850,6 +2976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eD\u003c/code\u003e type is provided for convenience in situations where you\n   must give a diagram a concrete, monomorphic type, but don't care\n   which one.  Such situations arise when you pass a diagram to a\n   function which is polymorphic in its input but monomorphic in its\n   output, such as \u003ccode\u003ewidth\u003c/code\u003e, \u003ccode\u003eheight\u003c/code\u003e, \u003ccode\u003ephantom\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003enames\u003c/a\u003e\u003c/code\u003e.  Such\n   functions compute some property of the diagram, or use it to\n   accomplish some other purpose, but do not result in the diagram\n   being rendered.  If the diagram does not have a monomorphic type,\n   GHC complains that it cannot determine the diagram's type.\n\u003c/p\u003e\u003cp\u003eFor example, here is the error we get if we try to compute the\n   width of an image (this example requires \u003ccode\u003ediagrams-lib\u003c/code\u003e):\n\u003c/p\u003e\u003cpre\u003e ghci\u003e width (image \"foo.png\" 200 200)\n\n \u003cinteractive\u003e:8:8:\n     No instance for (Renderable Diagrams.TwoD.Image.Image b0)\n       arising from a use of `image'\n     Possible fix:\n       add an instance declaration for\n       (Renderable Diagrams.TwoD.Image.Image b0)\n     In the first argument of `width', namely\n       `(image \"foo.png\" 200 200)'\n     In the expression: width (image \"foo.png\" 200 200)\n     In an equation for `it': it = width (image \"foo.png\" 200 200)\n\u003c/pre\u003e\u003cp\u003eGHC complains that there is no instance for \u003ccode\u003eRenderable Image\n   b0\u003c/code\u003e; what is really going on is that it does not have enough\n   information to decide what backend to use (hence the\n   uninstantiated \u003ccode\u003eb0\u003c/code\u003e). This is annoying because \u003cem\u003ewe\u003c/em\u003e know that the\n   choice of backend cannot possibly affect the width of the image\n   (it's 200! it's right there in the code!); \u003cem\u003ebut\u003c/em\u003e there is no way\n   for GHC to know that.\n\u003c/p\u003e\u003cp\u003eThe solution is to annotate the call to \u003ccode\u003eimage\u003c/code\u003e with the type\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003eD\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eR2\u003c/code\u003e\u003c/code\u003e, like so:\n\u003c/p\u003e\u003cpre\u003e ghci\u003e width (image \"foo.png\" 200 200 :: D R2)\n 200.00000000000006\n\u003c/pre\u003e\u003cp\u003e(It turns out the width wasn't 200 after all...)\n\u003c/p\u003e\u003cp\u003eAs another example, here is the error we get if we try to compute\n   the width of a radius-1 circle:\n\u003c/p\u003e\u003cpre\u003e ghci\u003e width (circle 1)\n\n \u003cinteractive\u003e:4:1:\n     Couldn't match type `V a0' with `R2'\n     In the expression: width (circle 1)\n     In an equation for `it': it = width (circle 1)\n\u003c/pre\u003e\u003cp\u003eThere's even more ambiguity here.  Whereas \u003ccode\u003eimage\u003c/code\u003e always returns\n   a \u003ccode\u003e\u003ca\u003eDiagram\u003c/a\u003e\u003c/code\u003e, the \u003ccode\u003ecircle\u003c/code\u003e function can produce any \u003ccode\u003ePathLike\u003c/code\u003e\n   type, and the \u003ccode\u003ewidth\u003c/code\u003e function can consume any \u003ccode\u003e\u003ca\u003eEnveloped\u003c/a\u003e\u003c/code\u003e type,\n   so GHC has no idea what type to pick to go in the middle.\n   However, the solution is the same:\n\u003c/p\u003e\u003cpre\u003e ghci\u003e width (circle 1 :: D R2)\n 1.9999999999999998\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "D",
           "package": "diagrams-core",
@@ -2859,6 +2986,7 @@
         "index": {
           "description": "The type is provided for convenience in situations where you must give diagram concrete monomorphic type but don care which one Such situations arise when you pass diagram to function which is polymorphic in its input but monomorphic in its output such as width height phantom or names Such functions compute some property of the diagram or use it to accomplish some other purpose but do not result in the diagram being rendered If the diagram does not have monomorphic type GHC complains that it cannot determine the diagram type For example here is the error we get if we try to compute the width of an image this example requires diagrams-lib ghci width image foo.png interactive No instance for Renderable Diagrams.TwoD.Image.Image b0 arising from use of image Possible fix add an instance declaration for Renderable Diagrams.TwoD.Image.Image b0 In the first argument of width namely image foo.png In the expression width image foo.png In an equation for it it width image foo.png GHC complains that there is no instance for Renderable Image b0 what is really going on is that it does not have enough information to decide what backend to use hence the uninstantiated b0 This is annoying because we know that the choice of backend cannot possibly affect the width of the image it it right there in the code but there is no way for GHC to know that The solution is to annotate the call to image with the type R2 like so ghci width image foo.png R2 It turns out the width wasn after all As another example here is the error we get if we try to compute the width of radius-1 circle ghci width circle interactive Couldn match type a0 with R2 In the expression width circle In an equation for it it width circle There even more ambiguity here Whereas image always returns Diagram the circle function can produce any PathLike type and the width function can consume any Enveloped type so GHC has no idea what type to pick to go in the middle However the solution is the same ghci width circle R2",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "D",
           "package": "diagrams-core",
@@ -2871,6 +2999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "DNode",
           "package": "diagrams-core",
@@ -2879,6 +3008,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "DNode",
           "package": "diagrams-core",
@@ -2893,6 +3023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eDTree\u003c/a\u003e\u003c/code\u003e is a raw tree representation of a \u003ccode\u003e\u003ca\u003eQDiagram\u003c/a\u003e\u003c/code\u003e, with all\n   the \u003ccode\u003eu\u003c/code\u003e-annotations removed.  It is used as an intermediate type\n   by diagrams-core; backends should not need to make use of it.\n   Instead, backends can make use of \u003ccode\u003e\u003ca\u003eRTree\u003c/a\u003e\u003c/code\u003e, which \u003ccode\u003e\u003ca\u003eDTree\u003c/a\u003e\u003c/code\u003e gets\n   compiled and optimized to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "DTree",
           "package": "diagrams-core",
@@ -2902,6 +3033,7 @@
         "index": {
           "description": "DTree is raw tree representation of QDiagram with all the annotations removed It is used as an intermediate type by diagrams-core backends should not need to make use of it Instead backends can make use of RTree which DTree gets compiled and optimized to",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "DTree",
           "package": "diagrams-core",
@@ -2916,6 +3048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default sort of diagram is one where querying at a point\n   simply tells you whether the diagram contains that point or not.\n   Transforming a default diagram into one with a more interesting\n   query can be done via the \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e instance of \u003ccode\u003e\u003ccode\u003e\u003ca\u003eQDiagram\u003c/a\u003e\u003c/code\u003e b\u003c/code\u003e or\n   the \u003ccode\u003e\u003ca\u003evalue\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "Diagram",
           "package": "diagrams-core",
@@ -2925,6 +3058,7 @@
         "index": {
           "description": "The default sort of diagram is one where querying at point simply tells you whether the diagram contains that point or not Transforming default diagram into one with more interesting query can be done via the Functor instance of QDiagram or the value function",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "Diagram",
           "package": "diagrams-core",
@@ -2939,6 +3073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonoidal annotations which travel down the diagram tree,\n   \u003cem\u003ei.e.\u003c/em\u003e which accumulate along each path to a leaf (and which can\n   act on the upwards-travelling annotations):\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e transformations (split at the innermost freeze): see\n     \u003ca\u003eDiagrams.Core.Transform\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e styles (see \u003ca\u003eDiagrams.Core.Style\u003c/a\u003e)\n\u003c/li\u003e\u003cli\u003e names (see \u003ca\u003eDiagrams.Core.Names\u003c/a\u003e)\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "DownAnnots",
           "package": "diagrams-core",
@@ -2948,6 +3083,7 @@
         "index": {
           "description": "Monoidal annotations which travel down the diagram tree i.e which accumulate along each path to leaf and which can act on the upwards-travelling annotations transformations split at the innermost freeze see Diagrams.Core.Transform styles see Diagrams.Core.Style names see Diagrams.Core.Names",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "DownAnnots",
           "package": "diagrams-core",
@@ -2962,6 +3098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class for primitive things which know how to handle being\n   transformed by both a normal transformation and a \"frozen\"\n   transformation.  The default implementation simply applies both.\n   At the moment, \u003ccode\u003eScaleInv\u003c/code\u003e is the only type with a non-default\n   instance of \u003ccode\u003e\u003ca\u003eIsPrim\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "IsPrim",
           "package": "diagrams-core",
@@ -2971,6 +3108,7 @@
         "index": {
           "description": "type class for primitive things which know how to handle being transformed by both normal transformation and frozen transformation The default implementation simply applies both At the moment ScaleInv is the only type with non-default instance of IsPrim",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "IsPrim",
           "package": "diagrams-core",
@@ -2985,6 +3123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for backends which support rendering multiple diagrams,\n   e.g. to a multi-page pdf or something similar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "MultiBackend",
           "package": "diagrams-core",
@@ -2994,6 +3133,7 @@
         "index": {
           "description": "class for backends which support rendering multiple diagrams e.g to multi-page pdf or something similar",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "MultiBackend",
           "package": "diagrams-core",
@@ -3008,6 +3148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA null backend which does no actual rendering.  It is provided\n   mainly for convenience in situations where you must give a\n   diagram a concrete, monomorphic type, but don't actually care\n   which one.  See \u003ccode\u003e\u003ca\u003eD\u003c/a\u003e\u003c/code\u003e for more explanation and examples.\n\u003c/p\u003e\u003cp\u003eIt is courteous, when defining a new primitive \u003ccode\u003eP\u003c/code\u003e, to make an instance\n\u003c/p\u003e\u003cpre\u003e instance Renderable P NullBackend where\n   render _ _ = mempty\n\u003c/pre\u003e\u003cp\u003eThis ensures that the trick with \u003ccode\u003e\u003ca\u003eD\u003c/a\u003e\u003c/code\u003e annotations can be used for\n   diagrams containing your primitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "NullBackend",
           "package": "diagrams-core",
@@ -3017,6 +3158,7 @@
         "index": {
           "description": "null backend which does no actual rendering It is provided mainly for convenience in situations where you must give diagram concrete monomorphic type but don actually care which one See for more explanation and examples It is courteous when defining new primitive to make an instance instance Renderable NullBackend where render mempty This ensures that the trick with annotations can be used for diagrams containing your primitive",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "NullBackend",
           "package": "diagrams-core",
@@ -3031,6 +3173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value of type \u003ccode\u003ePrim b v\u003c/code\u003e is an opaque (existentially quantified)\n   primitive which backend \u003ccode\u003eb\u003c/code\u003e knows how to render in vector space \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "Prim",
           "package": "diagrams-core",
@@ -3040,6 +3183,7 @@
         "index": {
           "description": "value of type Prim is an opaque existentially quantified primitive which backend knows how to render in vector space",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "Prim",
           "package": "diagrams-core",
@@ -3054,6 +3198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA leaf in a \u003ccode\u003e\u003ca\u003eQDiagram\u003c/a\u003e\u003c/code\u003e tree is either a \u003ccode\u003e\u003ca\u003ePrim\u003c/a\u003e\u003c/code\u003e, or a \"delayed\"\n   \u003ccode\u003eQDiagram\u003c/code\u003e which expands to a real \u003ccode\u003eQDiagram\u003c/code\u003e once it learns the\n   \"final context\" in which it will be rendered.  For example, in\n   order to decide how to draw an arrow, we must know the precise\n   transformation applied to it (since the arrow head and tail are\n   scale-invariant).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "QDiaLeaf",
           "package": "diagrams-core",
@@ -3063,6 +3208,7 @@
         "index": {
           "description": "leaf in QDiagram tree is either Prim or delayed QDiagram which expands to real QDiagram once it learns the final context in which it will be rendered For example in order to decide how to draw an arrow we must know the precise transformation applied to it since the arrow head and tail are scale-invariant",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "QDiaLeaf",
           "package": "diagrams-core",
@@ -3077,6 +3223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fundamental diagram type is represented by trees of\n   primitives with various monoidal annotations.  The \u003ccode\u003eQ\u003c/code\u003e in\n   \u003ccode\u003eQDiagram\u003c/code\u003e stands for \"Queriable\", as distinguished from\n   \u003ccode\u003e\u003ca\u003eDiagram\u003c/a\u003e\u003c/code\u003e, a synonym for \u003ccode\u003eQDiagram\u003c/code\u003e with the query type\n   specialized to \u003ccode\u003e\u003ca\u003eAny\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "QDiagram",
           "package": "diagrams-core",
@@ -3086,6 +3233,7 @@
         "index": {
           "description": "The fundamental diagram type is represented by trees of primitives with various monoidal annotations The in QDiagram stands for Queriable as distinguished from Diagram synonym for QDiagram with the query type specialized to Any",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "QDiagram",
           "package": "diagrams-core",
@@ -3099,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "RNode",
           "package": "diagrams-core",
@@ -3107,6 +3256,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "RNode",
           "package": "diagrams-core",
@@ -3121,6 +3271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eRTree\u003c/a\u003e\u003c/code\u003e is a compiled and optimized representation of a\n   \u003ccode\u003e\u003ca\u003eQDiagram\u003c/a\u003e\u003c/code\u003e, which can be used by backends.  They have several\n   invariants which backends may rely upon:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e All non-frozen transformations have been pushed all the way to\n     the leaves.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eRPrim\u003c/code\u003e nodes never have any children.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "RTree",
           "package": "diagrams-core",
@@ -3130,6 +3281,7 @@
         "index": {
           "description": "An RTree is compiled and optimized representation of QDiagram which can be used by backends They have several invariants which backends may rely upon All non-frozen transformations have been pushed all the way to the leaves RPrim nodes never have any children",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "RTree",
           "package": "diagrams-core",
@@ -3144,6 +3296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Renderable type class connects backends to primitives which\n   they know how to render.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "Renderable",
           "package": "diagrams-core",
@@ -3153,6 +3306,7 @@
         "index": {
           "description": "The Renderable type class connects backends to primitives which they know how to render",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "Renderable",
           "package": "diagrams-core",
@@ -3167,6 +3321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSubMap\u003c/a\u003e\u003c/code\u003e is a map associating names to subdiagrams. There can\n   be multiple associations for any given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "SubMap",
           "package": "diagrams-core",
@@ -3176,6 +3331,7 @@
         "index": {
           "description": "SubMap is map associating names to subdiagrams There can be multiple associations for any given name",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "SubMap",
           "package": "diagrams-core",
@@ -3190,6 +3346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eSubdiagram\u003c/code\u003e represents a diagram embedded within the context\n   of a larger diagram.  Essentially, it consists of a diagram\n   paired with any accumulated information from the larger context\n   (transformations, attributes, etc.).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "Subdiagram",
           "package": "diagrams-core",
@@ -3199,6 +3356,7 @@
         "index": {
           "description": "Subdiagram represents diagram embedded within the context of larger diagram Essentially it consists of diagram paired with any accumulated information from the larger context transformations attributes etc",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "Subdiagram",
           "package": "diagrams-core",
@@ -3213,6 +3371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonoidal annotations which travel up the diagram tree, \u003cem\u003ei.e.\u003c/em\u003e which\n   are aggregated from component diagrams to the whole:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e envelopes (see \u003ca\u003eDiagrams.Core.Envelope\u003c/a\u003e).\n     The envelopes are \"deletable\" meaning that at any point we can\n     throw away the existing envelope and replace it with a new one;\n     sometimes we want to consider a diagram as having a different\n     envelope unrelated to its \"natural\" envelope.\n\u003c/li\u003e\u003cli\u003e traces (see \u003ca\u003eDiagrams.Core.Trace\u003c/a\u003e), also\n     deletable.\n\u003c/li\u003e\u003cli\u003e name/subdiagram associations (see \u003ca\u003eDiagrams.Core.Names\u003c/a\u003e)\n\u003c/li\u003e\u003cli\u003e query functions (see \u003ca\u003eDiagrams.Core.Query\u003c/a\u003e)\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "UpAnnots",
           "package": "diagrams-core",
@@ -3222,6 +3381,7 @@
         "index": {
           "description": "Monoidal annotations which travel up the diagram tree i.e which are aggregated from component diagrams to the whole envelopes see Diagrams.Core.Envelope The envelopes are deletable meaning that at any point we can throw away the existing envelope and replace it with new one sometimes we want to consider diagram as having different envelope unrelated to its natural envelope traces see Diagrams.Core.Trace also deletable name subdiagram associations see Diagrams.Core.Names query functions see Diagrams.Core.Query",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "UpAnnots",
           "package": "diagrams-core",
@@ -3235,6 +3395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "DAnnot",
           "package": "diagrams-core",
@@ -3244,6 +3405,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "DAnnot",
           "package": "diagrams-core",
@@ -3258,6 +3420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eDDelay\u003c/code\u003e marks a point where a delayed subtree\n   was expanded.  Such subtrees already take all\n   non-frozen transforms above them into account,\n   so when later processing the tree, upon\n   encountering a \u003ccode\u003eDDelay\u003c/code\u003e node we must drop any\n   accumulated non-frozen transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "DDelay",
           "package": "diagrams-core",
@@ -3268,6 +3431,7 @@
         "index": {
           "description": "DDelay marks point where delayed subtree was expanded Such subtrees already take all non-frozen transforms above them into account so when later processing the tree upon encountering DDelay node we must drop any accumulated non-frozen transformation",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "DDelay",
           "package": "diagrams-core",
@@ -3281,6 +3445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "DEmpty",
           "package": "diagrams-core",
@@ -3290,6 +3455,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "DEmpty",
           "package": "diagrams-core",
@@ -3303,6 +3469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "DPrim",
           "package": "diagrams-core",
@@ -3312,6 +3479,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "DPrim",
           "package": "diagrams-core",
@@ -3325,6 +3493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "DStyle",
           "package": "diagrams-core",
@@ -3334,6 +3503,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "DStyle",
           "package": "diagrams-core",
@@ -3347,6 +3517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "DTransform",
           "package": "diagrams-core",
@@ -3356,6 +3527,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "DTransform",
           "package": "diagrams-core",
@@ -3370,6 +3542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eQDiagram\u003c/code\u003e produced by a \u003ccode\u003eDelayedLeaf\u003c/code\u003e function \u003cem\u003emust\u003c/em\u003e\n   already apply any non-frozen transformation in the given\n   \u003ccode\u003eDownAnnots\u003c/code\u003e (that is, the non-frozen transformation will not\n   be applied by the context). On the other hand, it must assume\n   that any frozen transformation or attributes will be applied\n   by the context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "DelayedLeaf",
           "package": "diagrams-core",
@@ -3380,6 +3553,7 @@
         "index": {
           "description": "The QDiagram produced by DelayedLeaf function must already apply any non-frozen transformation in the given DownAnnots that is the non-frozen transformation will not be applied by the context On the other hand it must assume that any frozen transformation or attributes will be applied by the context",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "DelayedLeaf",
           "normalized": "DelayedLeaf(DownAnnots a-\u003eQDiagram b a c)",
@@ -3420,6 +3594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "PrimLeaf",
           "package": "diagrams-core",
@@ -3429,6 +3604,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "PrimLeaf",
           "package": "diagrams-core",
@@ -3442,6 +3618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "QD",
           "package": "diagrams-core",
@@ -3451,6 +3628,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "QD",
           "normalized": "QD(DUALTree(DownAnnots a)(UpAnnots b a c)()(QDiaLeaf b a c))",
@@ -3515,6 +3693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eadjustDia\u003c/a\u003e\u003c/code\u003e allows the backend to make adjustments to the final\n   diagram (e.g. to adjust the size based on the options) before\n   rendering it.  It can also make adjustments to the options\n   record, usually to fill in incompletely specified size\n   information.  A default implementation is provided which makes\n   no adjustments.  See the diagrams-lib package for other useful\n   implementations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "adjustDia",
           "package": "diagrams-core",
@@ -3525,6 +3704,7 @@
         "index": {
           "description": "adjustDia allows the backend to make adjustments to the final diagram e.g to adjust the size based on the options before rendering it It can also make adjustments to the options record usually to fill in incompletely specified size information default implementation is provided which makes no adjustments See the diagrams-lib package for other useful implementations",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "adjustDia",
           "normalized": "a-\u003eOptions a b-\u003eQDiagram a b c-\u003e(Options a b,QDiagram a b c)",
@@ -3594,6 +3774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edoRender\u003c/a\u003e\u003c/code\u003e is used to interpret rendering operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "doRender",
           "package": "diagrams-core",
@@ -3604,6 +3785,7 @@
         "index": {
           "description": "doRender is used to interpret rendering operations",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "doRender",
           "package": "diagrams-core",
@@ -3774,6 +3956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup the most recent diagram associated with (some\n   qualification of) the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "lookupName",
           "package": "diagrams-core",
@@ -3784,6 +3967,7 @@
         "index": {
           "description": "Lookup the most recent diagram associated with some qualification of the given name",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "lookupName",
           "normalized": "a-\u003eQDiagram b c d-\u003eMaybe(Subdiagram b c d)",
@@ -3854,6 +4038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a diagram from a generic QDiaLeaf, along with an envelope,\n   trace, subdiagram map, and query function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "mkQD'",
           "package": "diagrams-core",
@@ -3864,6 +4049,7 @@
         "index": {
           "description": "Create diagram from generic QDiaLeaf along with an envelope trace subdiagram map and query function",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "mkQD'",
           "normalized": "QDiaLeaf a b c-\u003eEnvelope b-\u003eTrace b-\u003eSubMap a b c-\u003eQuery b c-\u003eQDiagram a b c",
@@ -4118,6 +4304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a token representing the backend and a\n   transformable object, render it in the appropriate rendering\n   context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "render",
           "package": "diagrams-core",
@@ -4128,6 +4315,7 @@
         "index": {
           "description": "Given token representing the backend and transformable object render it in the appropriate rendering context",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "render",
           "normalized": "a-\u003eb-\u003eRender a(V b)",
@@ -4143,6 +4331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBackends may override \u003ccode\u003e\u003ca\u003erenderData\u003c/a\u003e\u003c/code\u003e to gain more control over\n   the way that rendering happens.  A typical implementation might be something like\n\u003c/p\u003e\u003cpre\u003e renderData = renderRTree . toRTree\n\u003c/pre\u003e\u003cp\u003ewhere \u003ccode\u003erenderRTree :: RTree b v () -\u003e Render b v\u003c/code\u003e is\n   implemented by the backend (with appropriate types filled in\n   for \u003ccode\u003eb\u003c/code\u003e and \u003ccode\u003ev\u003c/code\u003e), and \u003ccode\u003etoRTree\u003c/code\u003e is from \u003ca\u003eDiagrams.Core.Compile\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "renderData",
           "package": "diagrams-core",
@@ -4153,6 +4342,7 @@
         "index": {
           "description": "Backends may override renderData to gain more control over the way that rendering happens typical implementation might be something like renderData renderRTree toRTree where renderRTree RTree Render is implemented by the backend with appropriate types filled in for and and toRTree is from Diagrams.Core.Compile",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "renderData",
           "normalized": "a-\u003eQDiagram a b c-\u003eRender a b",
@@ -4168,6 +4358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "renderDia",
           "package": "diagrams-core",
@@ -4177,6 +4368,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "renderDia",
           "normalized": "a-\u003eOptions a b-\u003eQDiagram a b c-\u003eResult a b",
@@ -4193,6 +4385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender multiple diagrams at once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "renderDias",
           "package": "diagrams-core",
@@ -4203,6 +4396,7 @@
         "index": {
           "description": "Render multiple diagrams at once",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "renderDias",
           "normalized": "a-\u003eOptions a b-\u003e[QDiagram a b c]-\u003eResult a b",
@@ -4402,6 +4596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the (total) transformation from a downwards annotation\n   value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "transfFromAnnot",
           "package": "diagrams-core",
@@ -4412,6 +4607,7 @@
         "index": {
           "description": "Extract the total transformation from downwards annotation value",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "transfFromAnnot",
           "normalized": "DownAnnots a-\u003eTransformation a",
@@ -4428,6 +4624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject a transformation into a default downwards annotation\n   value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "transfToAnnot",
           "package": "diagrams-core",
@@ -4438,6 +4635,7 @@
         "index": {
           "description": "Inject transformation into default downwards annotation value",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "transfToAnnot",
           "normalized": "Transformation a-\u003eDownAnnots a",
@@ -4453,6 +4651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "transformWithFreeze",
           "package": "diagrams-core",
@@ -4462,6 +4661,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "transformWithFreeze",
           "normalized": "Transformation(V a)-\u003eTransformation(V a)-\u003ea-\u003ea",
@@ -4584,6 +4784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "withQDiaLeaf",
           "package": "diagrams-core",
@@ -4593,6 +4794,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "withQDiaLeaf",
           "normalized": "(Prim a b-\u003ec)-\u003e((DownAnnots b-\u003eQDiagram a b d)-\u003ec)-\u003eQDiaLeaf a b d-\u003ec",
@@ -4609,6 +4811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a rendering operation with a local style. The default\n   implementation does nothing, and must be overridden by backends\n   that do not override \u003ccode\u003e\u003ca\u003erenderData\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.Types",
           "name": "withStyle",
           "package": "diagrams-core",
@@ -4619,6 +4822,7 @@
         "index": {
           "description": "Perform rendering operation with local style The default implementation does nothing and must be overridden by backends that do not override renderData",
           "hierarchy": "Diagrams Core Types",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.Types",
           "name": "withStyle",
           "package": "diagrams-core",
@@ -4633,6 +4837,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType family for identifying associated vector spaces.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core.V",
           "name": "V",
           "package": "diagrams-core",
@@ -4642,6 +4847,7 @@
         "index": {
           "description": "Type family for identifying associated vector spaces",
           "hierarchy": "Diagrams Core V",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core.V",
           "name": "V",
           "package": "diagrams-core",
@@ -4678,6 +4884,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe core library of primitives forming the basis of an embedded\n domain-specific language for describing and rendering diagrams.\n Normal users of the diagrams library should almost never need to\n import anything from this package directly; instead, import modules\n (especially \u003ca\u003eDiagrams.Prelude\u003c/a\u003e) from the diagrams-lib package,\n which re-exports most things of value to users.\n\u003c/p\u003e\u003cp\u003eFor most library code needing access to core internals, it should\n be sufficient to import this module, which simply re-exports useful\n functionality from other modules in the core library.  Library\n writers needing finer-grained access or functionality may\n occasionally find it useful to directly import one of the\n constituent core modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Core",
           "package": "diagrams-core",
@@ -4687,6 +4894,7 @@
         "index": {
           "description": "The core library of primitives forming the basis of an embedded domain-specific language for describing and rendering diagrams Normal users of the diagrams library should almost never need to import anything from this package directly instead import modules especially Diagrams.Prelude from the diagrams-lib package which re-exports most things of value to users For most library code needing access to core internals it should be sufficient to import this module which simply re-exports useful functionality from other modules in the core library Library writers needing finer-grained access or functionality may occasionally find it useful to directly import one of the constituent core modules",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Core",
           "package": "diagrams-core",
@@ -4701,6 +4909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(v1 :-: v2)\u003c/code\u003e is a linear map paired with its inverse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": ":-:",
           "package": "diagrams-core",
@@ -4710,6 +4919,7 @@
         "index": {
           "description": "v1 v2 is linear map paired with its inverse",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": ":-:",
           "package": "diagrams-core",
@@ -4723,6 +4933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomic names.  \u003ccode\u003eAName\u003c/code\u003e is just an existential wrapper around\n   things which are \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "AName",
           "package": "diagrams-core",
@@ -4732,6 +4943,7 @@
         "index": {
           "description": "Atomic names AName is just an existential wrapper around things which are Typeable Ord and Show",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "AName",
           "package": "diagrams-core",
@@ -4746,6 +4958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn existential wrapper type to hold attributes.  Some attributes\n   are affected by transformations and some are not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Attribute",
           "package": "diagrams-core",
@@ -4755,6 +4968,7 @@
         "index": {
           "description": "An existential wrapper type to hold attributes Some attributes are affected by transformations and some are not",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Attribute",
           "package": "diagrams-core",
@@ -4769,6 +4983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery attribute must be an instance of \u003ccode\u003eAttributeClass\u003c/code\u003e, which\n   simply guarantees \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e constraints.  The\n   \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e instance for an attribute determines how it will combine\n   with other attributes of the same type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "AttributeClass",
           "package": "diagrams-core",
@@ -4778,6 +4993,7 @@
         "index": {
           "description": "Every attribute must be an instance of AttributeClass which simply guarantees Typeable and Semigroup constraints The Semigroup instance for an attribute determines how it will combine with other attributes of the same type",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "AttributeClass",
           "package": "diagrams-core",
@@ -4792,6 +5008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract diagrams are rendered to particular formats by\n   \u003cem\u003ebackends\u003c/em\u003e.  Each backend/vector space combination must be an\n   instance of the \u003ccode\u003e\u003ca\u003eBackend\u003c/a\u003e\u003c/code\u003e class. A minimal complete definition\n   consists of the three associated types, an implementation for\n   \u003ccode\u003e\u003ca\u003edoRender\u003c/a\u003e\u003c/code\u003e, and \u003cem\u003eone of\u003c/em\u003e either \u003ccode\u003e\u003ca\u003ewithStyle\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003erenderData\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Backend",
           "package": "diagrams-core",
@@ -4801,6 +5018,7 @@
         "index": {
           "description": "Abstract diagrams are rendered to particular formats by backends Each backend vector space combination must be an instance of the Backend class minimal complete definition consists of the three associated types an implementation for doRender and one of either withStyle or renderData",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Backend",
           "package": "diagrams-core",
@@ -4815,6 +5033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eD\u003c/code\u003e type is provided for convenience in situations where you\n   must give a diagram a concrete, monomorphic type, but don't care\n   which one.  Such situations arise when you pass a diagram to a\n   function which is polymorphic in its input but monomorphic in its\n   output, such as \u003ccode\u003ewidth\u003c/code\u003e, \u003ccode\u003eheight\u003c/code\u003e, \u003ccode\u003ephantom\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003enames\u003c/a\u003e\u003c/code\u003e.  Such\n   functions compute some property of the diagram, or use it to\n   accomplish some other purpose, but do not result in the diagram\n   being rendered.  If the diagram does not have a monomorphic type,\n   GHC complains that it cannot determine the diagram's type.\n\u003c/p\u003e\u003cp\u003eFor example, here is the error we get if we try to compute the\n   width of an image (this example requires \u003ccode\u003ediagrams-lib\u003c/code\u003e):\n\u003c/p\u003e\u003cpre\u003e ghci\u003e width (image \"foo.png\" 200 200)\n\n \u003cinteractive\u003e:8:8:\n     No instance for (Renderable Diagrams.TwoD.Image.Image b0)\n       arising from a use of `image'\n     Possible fix:\n       add an instance declaration for\n       (Renderable Diagrams.TwoD.Image.Image b0)\n     In the first argument of `width', namely\n       `(image \"foo.png\" 200 200)'\n     In the expression: width (image \"foo.png\" 200 200)\n     In an equation for `it': it = width (image \"foo.png\" 200 200)\n\u003c/pre\u003e\u003cp\u003eGHC complains that there is no instance for \u003ccode\u003eRenderable Image\n   b0\u003c/code\u003e; what is really going on is that it does not have enough\n   information to decide what backend to use (hence the\n   uninstantiated \u003ccode\u003eb0\u003c/code\u003e). This is annoying because \u003cem\u003ewe\u003c/em\u003e know that the\n   choice of backend cannot possibly affect the width of the image\n   (it's 200! it's right there in the code!); \u003cem\u003ebut\u003c/em\u003e there is no way\n   for GHC to know that.\n\u003c/p\u003e\u003cp\u003eThe solution is to annotate the call to \u003ccode\u003eimage\u003c/code\u003e with the type\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003eD\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eR2\u003c/code\u003e\u003c/code\u003e, like so:\n\u003c/p\u003e\u003cpre\u003e ghci\u003e width (image \"foo.png\" 200 200 :: D R2)\n 200.00000000000006\n\u003c/pre\u003e\u003cp\u003e(It turns out the width wasn't 200 after all...)\n\u003c/p\u003e\u003cp\u003eAs another example, here is the error we get if we try to compute\n   the width of a radius-1 circle:\n\u003c/p\u003e\u003cpre\u003e ghci\u003e width (circle 1)\n\n \u003cinteractive\u003e:4:1:\n     Couldn't match type `V a0' with `R2'\n     In the expression: width (circle 1)\n     In an equation for `it': it = width (circle 1)\n\u003c/pre\u003e\u003cp\u003eThere's even more ambiguity here.  Whereas \u003ccode\u003eimage\u003c/code\u003e always returns\n   a \u003ccode\u003e\u003ca\u003eDiagram\u003c/a\u003e\u003c/code\u003e, the \u003ccode\u003ecircle\u003c/code\u003e function can produce any \u003ccode\u003ePathLike\u003c/code\u003e\n   type, and the \u003ccode\u003ewidth\u003c/code\u003e function can consume any \u003ccode\u003e\u003ca\u003eEnveloped\u003c/a\u003e\u003c/code\u003e type,\n   so GHC has no idea what type to pick to go in the middle.\n   However, the solution is the same:\n\u003c/p\u003e\u003cpre\u003e ghci\u003e width (circle 1 :: D R2)\n 1.9999999999999998\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "D",
           "package": "diagrams-core",
@@ -4824,6 +5043,7 @@
         "index": {
           "description": "The type is provided for convenience in situations where you must give diagram concrete monomorphic type but don care which one Such situations arise when you pass diagram to function which is polymorphic in its input but monomorphic in its output such as width height phantom or names Such functions compute some property of the diagram or use it to accomplish some other purpose but do not result in the diagram being rendered If the diagram does not have monomorphic type GHC complains that it cannot determine the diagram type For example here is the error we get if we try to compute the width of an image this example requires diagrams-lib ghci width image foo.png interactive No instance for Renderable Diagrams.TwoD.Image.Image b0 arising from use of image Possible fix add an instance declaration for Renderable Diagrams.TwoD.Image.Image b0 In the first argument of width namely image foo.png In the expression width image foo.png In an equation for it it width image foo.png GHC complains that there is no instance for Renderable Image b0 what is really going on is that it does not have enough information to decide what backend to use hence the uninstantiated b0 This is annoying because we know that the choice of backend cannot possibly affect the width of the image it it right there in the code but there is no way for GHC to know that The solution is to annotate the call to image with the type R2 like so ghci width image foo.png R2 It turns out the width wasn after all As another example here is the error we get if we try to compute the width of radius-1 circle ghci width circle interactive Couldn match type a0 with R2 In the expression width circle In an equation for it it width circle There even more ambiguity here Whereas image always returns Diagram the circle function can produce any PathLike type and the width function can consume any Enveloped type so GHC has no idea what type to pick to go in the middle However the solution is the same ghci width circle R2",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "D",
           "package": "diagrams-core",
@@ -4837,6 +5057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default sort of diagram is one where querying at a point\n   simply tells you whether the diagram contains that point or not.\n   Transforming a default diagram into one with a more interesting\n   query can be done via the \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e instance of \u003ccode\u003e\u003ccode\u003e\u003ca\u003eQDiagram\u003c/a\u003e\u003c/code\u003e b\u003c/code\u003e or\n   the \u003ccode\u003e\u003ca\u003evalue\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Diagram",
           "package": "diagrams-core",
@@ -4846,6 +5067,7 @@
         "index": {
           "description": "The default sort of diagram is one where querying at point simply tells you whether the diagram contains that point or not Transforming default diagram into one with more interesting query can be done via the Functor instance of QDiagram or the value function",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Diagram",
           "package": "diagrams-core",
@@ -4860,6 +5082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery diagram comes equipped with an \u003cem\u003eenvelope\u003c/em\u003e.  What is an envelope?\n\u003c/p\u003e\u003cp\u003eConsider first the idea of a \u003cem\u003ebounding box\u003c/em\u003e. A bounding box\n   expresses the distance to a bounding plane in every direction\n   parallel to an axis.  That is, a bounding box can be thought of\n   as the intersection of a collection of half-planes, two\n   perpendicular to each axis.\n\u003c/p\u003e\u003cp\u003eMore generally, the intersection of half-planes in \u003cem\u003eevery\u003c/em\u003e\n   direction would give a tight \"bounding region\", or convex hull.\n   However, representing such a thing intensionally would be\n   impossible; hence bounding boxes are often used as an\n   approximation.\n\u003c/p\u003e\u003cp\u003eAn envelope is an \u003cem\u003eextensional\u003c/em\u003e representation of such a\n   \"bounding region\".  Instead of storing some sort of direct\n   representation, we store a \u003cem\u003efunction\u003c/em\u003e which takes a direction as\n   input and gives a distance to a bounding half-plane as output.\n   The important point is that envelopes can be composed, and\n   transformed by any affine transformation.\n\u003c/p\u003e\u003cp\u003eFormally, given a vector \u003ccode\u003ev\u003c/code\u003e, the envelope computes a scalar \u003ccode\u003es\u003c/code\u003e such\n   that\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e for every point \u003ccode\u003eu\u003c/code\u003e inside the diagram,\n       if the projection of \u003ccode\u003e(u - origin)\u003c/code\u003e onto \u003ccode\u003ev\u003c/code\u003e is \u003ccode\u003es' *^ v\u003c/code\u003e, then \u003ccode\u003es' \u003c= s\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003es\u003c/code\u003e is the smallest such scalar.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThere is also a special \"empty envelope\".\n\u003c/p\u003e\u003cp\u003eThe idea for envelopes came from\n   Sebastian Setzer; see\n   \u003ca\u003ehttp://byorgey.wordpress.com/2009/10/28/collecting-attributes/#comment-2030\u003c/a\u003e.  See also Brent Yorgey, \u003cem\u003eMonoids: Theme and Variations\u003c/em\u003e, published in the 2012 Haskell Symposium: \u003ca\u003ehttp://www.cis.upenn.edu/~byorgey/pub/monoid-pearl.pdf\u003c/a\u003e; video: \u003ca\u003ehttp://www.youtube.com/watch?v=X-8NCkD2vOw\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Envelope",
           "package": "diagrams-core",
@@ -4869,6 +5092,7 @@
         "index": {
           "description": "Every diagram comes equipped with an envelope What is an envelope Consider first the idea of bounding box bounding box expresses the distance to bounding plane in every direction parallel to an axis That is bounding box can be thought of as the intersection of collection of half-planes two perpendicular to each axis More generally the intersection of half-planes in every direction would give tight bounding region or convex hull However representing such thing intensionally would be impossible hence bounding boxes are often used as an approximation An envelope is an extensional representation of such bounding region Instead of storing some sort of direct representation we store function which takes direction as input and gives distance to bounding half-plane as output The important point is that envelopes can be composed and transformed by any affine transformation Formally given vector the envelope computes scalar such that for every point inside the diagram if the projection of origin onto is then is the smallest such scalar There is also special empty envelope The idea for envelopes came from Sebastian Setzer see http byorgey.wordpress.com collecting-attributes comment-2030 See also Brent Yorgey Monoids Theme and Variations published in the Haskell Symposium http www.cis.upenn.edu byorgey pub monoid-pearl.pdf video http www.youtube.com watch X-8NCkD2vOw",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Envelope",
           "package": "diagrams-core",
@@ -4883,6 +5107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eEnveloped\u003c/code\u003e abstracts over things which have an envelope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Enveloped",
           "package": "diagrams-core",
@@ -4892,6 +5117,7 @@
         "index": {
           "description": "Enveloped abstracts over things which have an envelope",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Enveloped",
           "package": "diagrams-core",
@@ -4906,6 +5132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eHasLinearMap\u003c/a\u003e\u003c/code\u003e is a poor man's class constraint synonym, just to\n   help shorten some of the ridiculously long constraint sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "HasLinearMap",
           "package": "diagrams-core",
@@ -4915,6 +5142,7 @@
         "index": {
           "description": "HasLinearMap is poor man class constraint synonym just to help shorten some of the ridiculously long constraint sets",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "HasLinearMap",
           "package": "diagrams-core",
@@ -4929,6 +5157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types which have an intrinsic notion of a \"local\n   origin\", i.e. things which are not invariant under translation,\n   and which allow the origin to be moved.\n\u003c/p\u003e\u003cp\u003eOne might wonder why not just use \u003ccode\u003eTransformable\u003c/code\u003e instead of\n   having a separate class for \u003ccode\u003e\u003ca\u003eHasOrigin\u003c/a\u003e\u003c/code\u003e; indeed, for types which\n   are instances of both we should have the identity\n\u003c/p\u003e\u003cpre\u003e moveOriginTo (origin .^+ v) === translate (negateV v)\n\u003c/pre\u003e\u003cp\u003eThe reason is that some things (e.g. vectors, \u003ccode\u003eTrail\u003c/code\u003es) are\n   transformable but are translationally invariant, i.e. have no\n   origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "HasOrigin",
           "package": "diagrams-core",
@@ -4938,6 +5167,7 @@
         "index": {
           "description": "Class of types which have an intrinsic notion of local origin i.e things which are not invariant under translation and which allow the origin to be moved One might wonder why not just use Transformable instead of having separate class for HasOrigin indeed for types which are instances of both we should have the identity moveOriginTo origin translate negateV The reason is that some things e.g vectors Trail are transformable but are translationally invariant i.e have no origin",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "HasOrigin",
           "package": "diagrams-core",
@@ -4952,6 +5182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for things which have a style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "HasStyle",
           "package": "diagrams-core",
@@ -4961,6 +5192,7 @@
         "index": {
           "description": "Type class for things which have style",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "HasStyle",
           "package": "diagrams-core",
@@ -4975,6 +5207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for those types which can be used as names.  They must\n   support \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e (to facilitate extracting them from\n   existential wrappers), \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e (for comparison and efficient\n   storage) and \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "IsName",
           "package": "diagrams-core",
@@ -4984,6 +5217,7 @@
         "index": {
           "description": "Class for those types which can be used as names They must support Typeable to facilitate extracting them from existential wrappers Ord for comparison and efficient storage and Show",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "IsName",
           "package": "diagrams-core",
@@ -4998,6 +5232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class for primitive things which know how to handle being\n   transformed by both a normal transformation and a \"frozen\"\n   transformation.  The default implementation simply applies both.\n   At the moment, \u003ccode\u003eScaleInv\u003c/code\u003e is the only type with a non-default\n   instance of \u003ccode\u003e\u003ca\u003eIsPrim\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "IsPrim",
           "package": "diagrams-core",
@@ -5007,6 +5242,7 @@
         "index": {
           "description": "type class for primitive things which know how to handle being transformed by both normal transformation and frozen transformation The default implementation simply applies both At the moment ScaleInv is the only type with non-default instance of IsPrim",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "IsPrim",
           "package": "diagrams-core",
@@ -5021,6 +5257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of things which can be placed \"next to\" other things, for some\n   appropriate notion of \"next to\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Juxtaposable",
           "package": "diagrams-core",
@@ -5030,6 +5267,7 @@
         "index": {
           "description": "Class of things which can be placed next to other things for some appropriate notion of next to",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Juxtaposable",
           "package": "diagrams-core",
@@ -5044,6 +5282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eMonoid'\u003c/code\u003e class is a synonym for things which are instances\n   of both \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e.  Ideally, the \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e class\n   itself will eventually include a \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e superclass and we\n   can get rid of this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Monoid'",
           "package": "diagrams-core",
@@ -5052,6 +5291,7 @@
         "index": {
           "description": "The Monoid class is synonym for things which are instances of both Semigroup and Monoid Ideally the Monoid class itself will eventually include Semigroup superclass and we can get rid of this",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Monoid'",
           "package": "diagrams-core",
@@ -5066,6 +5306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for backends which support rendering multiple diagrams,\n   e.g. to a multi-page pdf or something similar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "MultiBackend",
           "package": "diagrams-core",
@@ -5075,6 +5316,7 @@
         "index": {
           "description": "class for backends which support rendering multiple diagrams e.g to multi-page pdf or something similar",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "MultiBackend",
           "package": "diagrams-core",
@@ -5089,6 +5331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (qualified) name is a (possibly empty) sequence of atomic names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Name",
           "package": "diagrams-core",
@@ -5098,6 +5341,7 @@
         "index": {
           "description": "qualified name is possibly empty sequence of atomic names",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Name",
           "package": "diagrams-core",
@@ -5112,6 +5356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA null backend which does no actual rendering.  It is provided\n   mainly for convenience in situations where you must give a\n   diagram a concrete, monomorphic type, but don't actually care\n   which one.  See \u003ccode\u003e\u003ca\u003eD\u003c/a\u003e\u003c/code\u003e for more explanation and examples.\n\u003c/p\u003e\u003cp\u003eIt is courteous, when defining a new primitive \u003ccode\u003eP\u003c/code\u003e, to make an instance\n\u003c/p\u003e\u003cpre\u003e instance Renderable P NullBackend where\n   render _ _ = mempty\n\u003c/pre\u003e\u003cp\u003eThis ensures that the trick with \u003ccode\u003e\u003ca\u003eD\u003c/a\u003e\u003c/code\u003e annotations can be used for\n   diagrams containing your primitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "NullBackend",
           "package": "diagrams-core",
@@ -5121,6 +5366,7 @@
         "index": {
           "description": "null backend which does no actual rendering It is provided mainly for convenience in situations where you must give diagram concrete monomorphic type but don actually care which one See for more explanation and examples It is courteous when defining new primitive to make an instance instance Renderable NullBackend where render mempty This ensures that the trick with annotations can be used for diagrams containing your primitive",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "NullBackend",
           "package": "diagrams-core",
@@ -5135,6 +5381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen dealing with envelopes we often want scalars to be an\n   ordered field (i.e. support all four arithmetic operations and be\n   totally ordered) so we introduce this class as a convenient\n   shorthand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "OrderedField",
           "package": "diagrams-core",
@@ -5144,6 +5391,7 @@
         "index": {
           "description": "When dealing with envelopes we often want scalars to be an ordered field i.e support all four arithmetic operations and be totally ordered so we introduce this class as convenient shorthand",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "OrderedField",
           "package": "diagrams-core",
@@ -5158,6 +5406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePoint\u003c/code\u003e is a newtype wrapper around vectors used to represent\n   points, so we don't get them mixed up. The distinction between\n   vectors and points is important: translations affect points, but\n   leave vectors unchanged.  Points are instances of the\n   \u003ccode\u003e\u003ca\u003eAffineSpace\u003c/a\u003e\u003c/code\u003e class from \u003ca\u003eData.AffineSpace\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Point",
           "package": "diagrams-core",
@@ -5166,6 +5415,7 @@
         "index": {
           "description": "Point is newtype wrapper around vectors used to represent points so we don get them mixed up The distinction between vectors and points is important translations affect points but leave vectors unchanged Points are instances of the AffineSpace class from Data.AffineSpace",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Point",
           "package": "diagrams-core",
@@ -5180,6 +5430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value of type \u003ccode\u003ePrim b v\u003c/code\u003e is an opaque (existentially quantified)\n   primitive which backend \u003ccode\u003eb\u003c/code\u003e knows how to render in vector space \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Prim",
           "package": "diagrams-core",
@@ -5189,6 +5440,7 @@
         "index": {
           "description": "value of type Prim is an opaque existentially quantified primitive which backend knows how to render in vector space",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Prim",
           "package": "diagrams-core",
@@ -5203,6 +5455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fundamental diagram type is represented by trees of\n   primitives with various monoidal annotations.  The \u003ccode\u003eQ\u003c/code\u003e in\n   \u003ccode\u003eQDiagram\u003c/code\u003e stands for \"Queriable\", as distinguished from\n   \u003ccode\u003e\u003ca\u003eDiagram\u003c/a\u003e\u003c/code\u003e, a synonym for \u003ccode\u003eQDiagram\u003c/code\u003e with the query type\n   specialized to \u003ccode\u003e\u003ca\u003eAny\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "QDiagram",
           "package": "diagrams-core",
@@ -5212,6 +5465,7 @@
         "index": {
           "description": "The fundamental diagram type is represented by trees of primitives with various monoidal annotations The in QDiagram stands for Queriable as distinguished from Diagram synonym for QDiagram with the query type specialized to Any",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "QDiagram",
           "package": "diagrams-core",
@@ -5226,6 +5480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances of \u003ccode\u003e\u003ca\u003eQualifiable\u003c/a\u003e\u003c/code\u003e are things which can be qualified by\n   prefixing them with a name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Qualifiable",
           "package": "diagrams-core",
@@ -5235,6 +5490,7 @@
         "index": {
           "description": "Instances of Qualifiable are things which can be qualified by prefixing them with name",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Qualifiable",
           "package": "diagrams-core",
@@ -5249,6 +5505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA query is a function that maps points in a vector space to\n   values in some monoid. Queries naturally form a monoid, with\n   two queries being combined pointwise.\n\u003c/p\u003e\u003cp\u003eThe idea for annotating diagrams with monoidal queries came from\n   the graphics-drawingcombinators package, \u003ca\u003ehttp://hackage.haskell.org/package/graphics-drawingcombinators\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Query",
           "package": "diagrams-core",
@@ -5258,6 +5515,7 @@
         "index": {
           "description": "query is function that maps points in vector space to values in some monoid Queries naturally form monoid with two queries being combined pointwise The idea for annotating diagrams with monoidal queries came from the graphics-drawingcombinators package http hackage.haskell.org package graphics-drawingcombinators",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Query",
           "package": "diagrams-core",
@@ -5272,6 +5530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Renderable type class connects backends to primitives which\n   they know how to render.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Renderable",
           "package": "diagrams-core",
@@ -5281,6 +5540,7 @@
         "index": {
           "description": "The Renderable type class connects backends to primitives which they know how to render",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Renderable",
           "package": "diagrams-core",
@@ -5295,6 +5555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eStyle\u003c/code\u003e is a heterogeneous collection of attributes, containing\n   at most one attribute of any given type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Style",
           "package": "diagrams-core",
@@ -5304,6 +5565,7 @@
         "index": {
           "description": "Style is heterogeneous collection of attributes containing at most one attribute of any given type",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Style",
           "package": "diagrams-core",
@@ -5318,6 +5580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSubMap\u003c/a\u003e\u003c/code\u003e is a map associating names to subdiagrams. There can\n   be multiple associations for any given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "SubMap",
           "package": "diagrams-core",
@@ -5327,6 +5590,7 @@
         "index": {
           "description": "SubMap is map associating names to subdiagrams There can be multiple associations for any given name",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "SubMap",
           "package": "diagrams-core",
@@ -5341,6 +5605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eSubdiagram\u003c/code\u003e represents a diagram embedded within the context\n   of a larger diagram.  Essentially, it consists of a diagram\n   paired with any accumulated information from the larger context\n   (transformations, attributes, etc.).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Subdiagram",
           "package": "diagrams-core",
@@ -5350,6 +5615,7 @@
         "index": {
           "description": "Subdiagram represents diagram embedded within the context of larger diagram Essentially it consists of diagram paired with any accumulated information from the larger context transformations attributes etc",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Subdiagram",
           "package": "diagrams-core",
@@ -5364,6 +5630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery diagram comes equipped with a \u003cem\u003etrace\u003c/em\u003e.  Intuitively, the\n   trace for a diagram is like a raytracer: given a line\n   (represented as a base point and a direction), the trace computes\n   the distance from the base point along the line to the first\n   intersection with the diagram.  The distance can be negative if\n   the intersection is in the opposite direction from the base\n   point, or infinite if the ray never intersects the diagram.\n   Note: to obtain the distance to the \u003cem\u003efurthest\u003c/em\u003e intersection\n   instead of the \u003cem\u003eclosest\u003c/em\u003e, just negate the direction vector and\n   then negate the result.\n\u003c/p\u003e\u003cp\u003eNote that the output should actually be interpreted not as an\n   absolute distance, but as a multiplier relative to the input\n   vector.  That is, if the input vector is \u003ccode\u003ev\u003c/code\u003e and the returned\n   scalar is \u003ccode\u003es\u003c/code\u003e, the distance from the base point to the\n   intersection is given by \u003ccode\u003es * magnitude v\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Trace",
           "package": "diagrams-core",
@@ -5373,6 +5640,7 @@
         "index": {
           "description": "Every diagram comes equipped with trace Intuitively the trace for diagram is like raytracer given line represented as base point and direction the trace computes the distance from the base point along the line to the first intersection with the diagram The distance can be negative if the intersection is in the opposite direction from the base point or infinite if the ray never intersects the diagram Note to obtain the distance to the furthest intersection instead of the closest just negate the direction vector and then negate the result Note that the output should actually be interpreted not as an absolute distance but as multiplier relative to the input vector That is if the input vector is and the returned scalar is the distance from the base point to the intersection is given by magnitude",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Trace",
           "package": "diagrams-core",
@@ -5387,6 +5655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTraced\u003c/code\u003e abstracts over things which have a trace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Traced",
           "package": "diagrams-core",
@@ -5396,6 +5665,7 @@
         "index": {
           "description": "Traced abstracts over things which have trace",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Traced",
           "package": "diagrams-core",
@@ -5410,6 +5680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTransInv\u003c/code\u003e is a wrapper which makes a transformable type\n   translationally invariant; the translational component of\n   transformations will no longer affect things wrapped in\n   \u003ccode\u003eTransInv\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "TransInv",
           "package": "diagrams-core",
@@ -5419,6 +5690,7 @@
         "index": {
           "description": "TransInv is wrapper which makes transformable type translationally invariant the translational component of transformations will no longer affect things wrapped in TransInv",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "TransInv",
           "package": "diagrams-core",
@@ -5433,6 +5705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for things \u003ccode\u003et\u003c/code\u003e which can be transformed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Transformable",
           "package": "diagrams-core",
@@ -5442,6 +5715,7 @@
         "index": {
           "description": "Type class for things which can be transformed",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Transformable",
           "package": "diagrams-core",
@@ -5456,6 +5730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral (affine) transformations, represented by an invertible\n   linear map, its \u003cem\u003etranspose\u003c/em\u003e, and a vector representing a\n   translation component.\n\u003c/p\u003e\u003cp\u003eBy the \u003cem\u003etranspose\u003c/em\u003e of a linear map we mean simply the linear map\n   corresponding to the transpose of the map's matrix\n   representation.  For example, any scale is its own transpose,\n   since scales are represented by matrices with zeros everywhere\n   except the diagonal.  The transpose of a rotation is the same as\n   its inverse.\n\u003c/p\u003e\u003cp\u003eThe reason we need to keep track of transposes is because it\n   turns out that when transforming a shape according to some linear\n   map L, the shape's \u003cem\u003enormal vectors\u003c/em\u003e transform according to L's\n   inverse transpose.  This is exactly what we need when\n   transforming bounding functions, which are defined in terms of\n   \u003cem\u003eperpendicular\u003c/em\u003e (i.e. normal) hyperplanes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "Transformation",
           "package": "diagrams-core",
@@ -5465,6 +5740,7 @@
         "index": {
           "description": "General affine transformations represented by an invertible linear map its transpose and vector representing translation component By the transpose of linear map we mean simply the linear map corresponding to the transpose of the map matrix representation For example any scale is its own transpose since scales are represented by matrices with zeros everywhere except the diagonal The transpose of rotation is the same as its inverse The reason we need to keep track of transposes is because it turns out that when transforming shape according to some linear map the shape normal vectors transform according to inverse transpose This is exactly what we need when transforming bounding functions which are defined in terms of perpendicular i.e normal hyperplanes",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "Transformation",
           "package": "diagrams-core",
@@ -5479,6 +5755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQualify with the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "(|\u003e)",
           "package": "diagrams-core",
@@ -5489,6 +5766,7 @@
         "index": {
           "description": "Qualify with the given name",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "(|\u003e) |\u003e",
           "normalized": "a-\u003eb-\u003eb",
@@ -5504,6 +5782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eadjustDia\u003c/a\u003e\u003c/code\u003e allows the backend to make adjustments to the final\n   diagram (e.g. to adjust the size based on the options) before\n   rendering it.  It can also make adjustments to the options\n   record, usually to fill in incompletely specified size\n   information.  A default implementation is provided which makes\n   no adjustments.  See the diagrams-lib package for other useful\n   implementations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "adjustDia",
           "package": "diagrams-core",
@@ -5514,6 +5793,7 @@
         "index": {
           "description": "adjustDia allows the backend to make adjustments to the final diagram e.g to adjust the size based on the options before rendering it It can also make adjustments to the options record usually to fill in incompletely specified size information default implementation is provided which makes no adjustments See the diagrams-lib package for other useful implementations",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "adjustDia",
           "normalized": "a-\u003eOptions a b-\u003eQDiagram a b c-\u003e(Options a b,QDiagram a b c)",
@@ -5530,6 +5810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eApply\u003c/em\u003e a style by combining it (on the left) with the\n   existing style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "applyStyle",
           "package": "diagrams-core",
@@ -5540,6 +5821,7 @@
         "index": {
           "description": "Apply style by combining it on the left with the existing style",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "applyStyle",
           "normalized": "Style(V a)-\u003ea-\u003ea",
@@ -5556,6 +5838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edoRender\u003c/a\u003e\u003c/code\u003e is used to interpret rendering operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "doRender",
           "package": "diagrams-core",
@@ -5566,6 +5849,7 @@
         "index": {
           "description": "doRender is used to interpret rendering operations",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "doRender",
           "package": "diagrams-core",
@@ -5580,6 +5864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the envelope of an object.  For types with an intrinsic\n   notion of \"local origin\", the envelope will be based there.\n   Other types (e.g. \u003ccode\u003eTrail\u003c/code\u003e) may have some other default\n   reference point at which the envelope will be based; their\n   instances should document what it is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "getEnvelope",
           "package": "diagrams-core",
@@ -5590,6 +5875,7 @@
         "index": {
           "description": "Compute the envelope of an object For types with an intrinsic notion of local origin the envelope will be based there Other types e.g Trail may have some other default reference point at which the envelope will be based their instances should document what it is",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "getEnvelope",
           "normalized": "a-\u003eEnvelope(V a)",
@@ -5606,6 +5892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the trace of an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "getTrace",
           "package": "diagrams-core",
@@ -5616,6 +5903,7 @@
         "index": {
           "description": "Compute the trace of an object",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "getTrace",
           "normalized": "a-\u003eTrace(V a)",
@@ -5632,6 +5920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ejuxtapose v a1 a2\u003c/code\u003e positions \u003ccode\u003ea2\u003c/code\u003e next to \u003ccode\u003ea1\u003c/code\u003e in the\n   direction of \u003ccode\u003ev\u003c/code\u003e.  In particular, place \u003ccode\u003ea2\u003c/code\u003e so that \u003ccode\u003ev\u003c/code\u003e points\n   from the local origin of \u003ccode\u003ea1\u003c/code\u003e towards the old local origin of\n   \u003ccode\u003ea2\u003c/code\u003e; \u003ccode\u003ea1\u003c/code\u003e's local origin becomes \u003ccode\u003ea2\u003c/code\u003e's new local origin.  The\n   result is just a translated version of \u003ccode\u003ea2\u003c/code\u003e.  (In particular,\n   this operation does not \u003cem\u003ecombine\u003c/em\u003e \u003ccode\u003ea1\u003c/code\u003e and \u003ccode\u003ea2\u003c/code\u003e in any way.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "juxtapose",
           "package": "diagrams-core",
@@ -5642,6 +5931,7 @@
         "index": {
           "description": "juxtapose a1 a2 positions a2 next to a1 in the direction of In particular place a2 so that points from the local origin of a1 towards the old local origin of a2 a1 local origin becomes a2 new local origin The result is just translated version of a2 In particular this operation does not combine a1 and a2 in any way",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "juxtapose",
           "normalized": "V a-\u003ea-\u003ea-\u003ea",
@@ -5657,6 +5947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the local origin to another point.\n\u003c/p\u003e\u003cp\u003eNote that this function is in some sense dual to \u003ccode\u003etranslate\u003c/code\u003e\n   (for types which are also \u003ccode\u003eTransformable\u003c/code\u003e); moving the origin\n   itself while leaving the object \"fixed\" is dual to fixing the\n   origin and translating the diagram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "moveOriginTo",
           "package": "diagrams-core",
@@ -5667,6 +5958,7 @@
         "index": {
           "description": "Move the local origin to another point Note that this function is in some sense dual to translate for types which are also Transformable moving the origin itself while leaving the object fixed is dual to fixing the origin and translating the diagram",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "moveOriginTo",
           "normalized": "Point(V a)-\u003ea-\u003ea",
@@ -5683,6 +5975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a token representing the backend and a\n   transformable object, render it in the appropriate rendering\n   context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "render",
           "package": "diagrams-core",
@@ -5693,6 +5986,7 @@
         "index": {
           "description": "Given token representing the backend and transformable object render it in the appropriate rendering context",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "render",
           "normalized": "a-\u003eb-\u003eRender a(V b)",
@@ -5708,6 +6002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBackends may override \u003ccode\u003e\u003ca\u003erenderData\u003c/a\u003e\u003c/code\u003e to gain more control over\n   the way that rendering happens.  A typical implementation might be something like\n\u003c/p\u003e\u003cpre\u003e renderData = renderRTree . toRTree\n\u003c/pre\u003e\u003cp\u003ewhere \u003ccode\u003erenderRTree :: RTree b v () -\u003e Render b v\u003c/code\u003e is\n   implemented by the backend (with appropriate types filled in\n   for \u003ccode\u003eb\u003c/code\u003e and \u003ccode\u003ev\u003c/code\u003e), and \u003ccode\u003etoRTree\u003c/code\u003e is from \u003ca\u003eDiagrams.Core.Compile\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "renderData",
           "package": "diagrams-core",
@@ -5718,6 +6013,7 @@
         "index": {
           "description": "Backends may override renderData to gain more control over the way that rendering happens typical implementation might be something like renderData renderRTree toRTree where renderRTree RTree Render is implemented by the backend with appropriate types filled in for and and toRTree is from Diagrams.Core.Compile",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "renderData",
           "normalized": "a-\u003eQDiagram a b c-\u003eRender a b",
@@ -5733,6 +6029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "renderDia",
           "package": "diagrams-core",
@@ -5742,6 +6039,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "renderDia",
           "normalized": "a-\u003eOptions a b-\u003eQDiagram a b c-\u003eResult a b",
@@ -5758,6 +6056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender multiple diagrams at once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "renderDias",
           "package": "diagrams-core",
@@ -5768,6 +6067,7 @@
         "index": {
           "description": "Render multiple diagrams at once",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "renderDias",
           "normalized": "a-\u003eOptions a b-\u003e[QDiagram a b c]-\u003eResult a b",
@@ -5783,6 +6083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "toName",
           "package": "diagrams-core",
@@ -5792,6 +6093,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "toName",
           "normalized": "a-\u003eName",
@@ -5808,6 +6110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transformation to an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "transform",
           "package": "diagrams-core",
@@ -5818,6 +6121,7 @@
         "index": {
           "description": "Apply transformation to an object",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "transform",
           "normalized": "Transformation(V a)-\u003ea-\u003ea",
@@ -5832,6 +6136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "transformWithFreeze",
           "package": "diagrams-core",
@@ -5841,6 +6146,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "transformWithFreeze",
           "normalized": "Transformation(V a)-\u003eTransformation(V a)-\u003ea-\u003ea",
@@ -5857,6 +6163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a rendering operation with a local style. The default\n   implementation does nothing, and must be overridden by backends\n   that do not override \u003ccode\u003e\u003ca\u003erenderData\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:11 UTC 2014",
           "module": "Diagrams.Core",
           "name": "withStyle",
           "package": "diagrams-core",
@@ -5867,6 +6174,7 @@
         "index": {
           "description": "Perform rendering operation with local style The default implementation does nothing and must be overridden by backends that do not override renderData",
           "hierarchy": "Diagrams Core",
+          "indexed": "2014-03-11T17:54:11",
           "module": "Diagrams.Core",
           "name": "withStyle",
           "package": "diagrams-core",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rss2irc"
+        "phrase": "rss2irc",
+        "type": "phrase"
       },
       "type": "context"
     }

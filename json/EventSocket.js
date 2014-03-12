@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "EventSocket"
+        "phrase": "EventSocket",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides an interface for the FreeSwitch event socket - \u003ca\u003ehttp://wiki.freeswitch.org/wiki/Event_Socket\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eDeveloped by David Austin (\u003ca\u003emailto:vulpyne+haskelleventsocket@teliax.com\u003c/a\u003e)\n\u003c/p\u003e\u003cp\u003eReleased to the Open Source Software community by Teliax Inc (\u003ca\u003ehttp://www.teliax.com/\u003c/a\u003e)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "EventSocket",
           "package": "EventSocket",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides an interface for the FreeSwitch event socket http wiki.freeswitch.org wiki Event Socket Developed by David Austin mailto vulpyne haskelleventsocket@teliax.com Released to the Open Source Software community by Teliax Inc http www.teliax.com",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "EventSocket",
           "package": "EventSocket",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUUIDs are currently just bytestrings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "ESUUID",
           "package": "EventSocket",
@@ -51,6 +54,7 @@
         "index": {
           "description": "UUIDs are currently just bytestrings",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "ESUUID",
           "package": "EventSocket",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "EventHandlerFunc",
           "package": "EventSocket",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "EventHandlerFunc",
           "package": "EventSocket",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "EventHandlerResult",
           "package": "EventSocket",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "EventHandlerResult",
           "package": "EventSocket",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "EventId",
           "package": "EventSocket",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "EventId",
           "package": "EventSocket",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent Socket commands. This list is far from complete.\n\u003c/p\u003e\u003cp\u003eMore information is available: \u003ca\u003ehttp://wiki.freeswitch.org/wiki/Command_reference\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "EventSocketCommand",
           "package": "EventSocket",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Event Socket commands This list is far from complete More information is available http wiki.freeswitch.org wiki Command reference",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "EventSocketCommand",
           "package": "EventSocket",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError type thrown when something goes boom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "EventSocketError",
           "package": "EventSocket",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Error type thrown when something goes boom",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "EventSocketError",
           "package": "EventSocket",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou may instance this class if you'd like to use a different handle type (or just read/write to the normal Handle in some special way.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "EventSocketIO",
           "package": "EventSocket",
@@ -183,6 +198,7 @@
         "index": {
           "description": "You may instance this class if you like to use different handle type or just read write to the normal Handle in some special way",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "EventSocketIO",
           "package": "EventSocket",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasically, an event. Used and returned by some of the lower level Eventsocket routines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "EventSocketMessage",
           "package": "EventSocket",
@@ -206,6 +223,7 @@
         "index": {
           "description": "Basically an event Used and returned by some of the lower level Eventsocket routines",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "EventSocketMessage",
           "package": "EventSocket",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe state of the event socket connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "EventSocketState",
           "package": "EventSocket",
@@ -229,6 +248,7 @@
         "index": {
           "description": "The state of the event socket connection",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "EventSocketState",
           "package": "EventSocket",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "EventSocketT",
           "package": "EventSocket",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "EventSocketT",
           "package": "EventSocket",
@@ -264,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMainly FreeSwitch events.\n\u003c/p\u003e\u003cp\u003eMore information for FreeSwitch-specific events: \u003ca\u003ehttp://wiki.freeswitch.org/wiki/Event_list\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "EventType",
           "package": "EventSocket",
@@ -273,6 +296,7 @@
         "index": {
           "description": "Mainly FreeSwitch events More information for FreeSwitch-specific events http wiki.freeswitch.org wiki Event list",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "EventType",
           "package": "EventSocket",
@@ -287,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust a simple map ByteString to ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "EvtKVMap",
           "package": "EventSocket",
@@ -296,6 +321,7 @@
         "index": {
           "description": "Just simple map ByteString to ByteString",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "EvtKVMap",
           "package": "EventSocket",
@@ -310,6 +336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStores a session. Two user accessible fields exist:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e sessUUID :: \u003ccode\u003e\u003ca\u003eESUUID\u003c/a\u003e\u003c/code\u003e -- The UUID this session is associated with.\n\u003c/li\u003e\u003cli\u003e sessVariables :: \u003ccode\u003e\u003ca\u003eEvtKVMap\u003c/a\u003e\u003c/code\u003e -- Variables associated with this channel, updated when receiving CHANNEL_DATA events from FreeSwitch.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "SessionState",
           "package": "EventSocket",
@@ -319,6 +346,7 @@
         "index": {
           "description": "Stores session Two user accessible fields exist sessUUID ESUUID The UUID this session is associated with sessVariables EvtKVMap Variables associated with this channel updated when receiving CHANNEL DATA events from FreeSwitch",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "SessionState",
           "package": "EventSocket",
@@ -333,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswers the call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "CmdAnswer",
           "package": "EventSocket",
@@ -343,6 +372,7 @@
         "index": {
           "description": "Answers the call",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "CmdAnswer",
           "package": "EventSocket",
@@ -357,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBridges a call. \u003ca\u003ehttp://wiki.freeswitch.org/wiki/Misc._Dialplan_Tools_bridgecall\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "CmdBridge",
           "package": "EventSocket",
@@ -367,6 +398,7 @@
         "index": {
           "description": "Bridges call http wiki.freeswitch.org wiki Misc Dialplan Tools bridgecall",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "CmdBridge",
           "package": "EventSocket",
@@ -381,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://wiki.freeswitch.org/wiki/Event_Socket#event\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "CmdEvents",
           "package": "EventSocket",
@@ -391,6 +424,7 @@
         "index": {
           "description": "http wiki.freeswitch.org wiki Event Socket event",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "CmdEvents",
           "package": "EventSocket",
@@ -405,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://wiki.freeswitch.org/wiki/Event_Socket#filter\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "CmdFilter",
           "package": "EventSocket",
@@ -415,6 +450,7 @@
         "index": {
           "description": "http wiki.freeswitch.org wiki Event Socket filter",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "CmdFilter",
           "package": "EventSocket",
@@ -429,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHangs up the call. (Uses the UUID in the event socket state.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "CmdHangup",
           "package": "EventSocket",
@@ -439,6 +476,7 @@
         "index": {
           "description": "Hangs up the call Uses the UUID in the event socket state",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "CmdHangup",
           "package": "EventSocket",
@@ -453,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns on event socket linger, causing the event socket to send all remaining events before closing the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "CmdLinger",
           "package": "EventSocket",
@@ -463,6 +502,7 @@
         "index": {
           "description": "Turns on event socket linger causing the event socket to send all remaining events before closing the connection",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "CmdLinger",
           "package": "EventSocket",
@@ -477,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinds a meta application. \u003ca\u003ehttp://wiki.freeswitch.org/wiki/Misc._Dialplan_Tools_bind_meta_app\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "CmdMetaApp",
           "package": "EventSocket",
@@ -487,6 +528,7 @@
         "index": {
           "description": "Binds meta application http wiki.freeswitch.org wiki Misc Dialplan Tools bind meta app",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "CmdMetaApp",
           "package": "EventSocket",
@@ -501,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlays a sound file. \u003ca\u003ehttp://wiki.freeswitch.org/wiki/Misc._Dialplan_Tools_playback\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "CmdPlay",
           "package": "EventSocket",
@@ -511,6 +554,7 @@
         "index": {
           "description": "Plays sound file http wiki.freeswitch.org wiki Misc Dialplan Tools playback",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "CmdPlay",
           "package": "EventSocket",
@@ -525,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlays a sound file and waits for input. \u003ca\u003ehttp://wiki.freeswitch.org/wiki/Misc._Dialplan_Tools_play_and_get_digits\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "CmdPlayGather",
           "package": "EventSocket",
@@ -535,6 +580,7 @@
         "index": {
           "description": "Plays sound file and waits for input http wiki.freeswitch.org wiki Misc Dialplan Tools play and get digits",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "CmdPlayGather",
           "package": "EventSocket",
@@ -549,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecords a sound file. \u003ca\u003ehttp://wiki.freeswitch.org/wiki/Misc._Dialplan_Tools_record\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "CmdRecord",
           "package": "EventSocket",
@@ -559,6 +606,7 @@
         "index": {
           "description": "Records sound file http wiki.freeswitch.org wiki Misc Dialplan Tools record",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "CmdRecord",
           "package": "EventSocket",
@@ -573,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan speak simple output like digits or time. \u003ca\u003ehttp://wiki.freeswitch.org/wiki/Misc._Dialplan_Tools_say\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "CmdSay",
           "package": "EventSocket",
@@ -583,6 +632,7 @@
         "index": {
           "description": "Can speak simple output like digits or time http wiki.freeswitch.org wiki Misc Dialplan Tools say",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "CmdSay",
           "package": "EventSocket",
@@ -597,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a channel variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "CmdSet",
           "package": "EventSocket",
@@ -607,6 +658,7 @@
         "index": {
           "description": "Sets channel variable",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "CmdSet",
           "package": "EventSocket",
@@ -621,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSleeps the specified number of milliseconds. \u003ca\u003ehttp://wiki.freeswitch.org/wiki/Misc._Dialplan_Tools_sleep\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "CmdSleep",
           "package": "EventSocket",
@@ -631,6 +684,7 @@
         "index": {
           "description": "Sleeps the specified number of milliseconds http wiki.freeswitch.org wiki Misc Dialplan Tools sleep",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "CmdSleep",
           "package": "EventSocket",
@@ -645,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan speak arbitrary text using a TTS engine. \u003ca\u003ehttp://wiki.freeswitch.org/wiki/Misc._Dialplan_Tools_speak\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "CmdSpeak",
           "package": "EventSocket",
@@ -655,6 +710,7 @@
         "index": {
           "description": "Can speak arbitrary text using TTS engine http wiki.freeswitch.org wiki Misc Dialplan Tools speak",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "CmdSpeak",
           "package": "EventSocket",
@@ -669,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSync point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "CmdSync",
           "package": "EventSocket",
@@ -679,6 +736,7 @@
         "index": {
           "description": "Sync point",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "CmdSync",
           "package": "EventSocket",
@@ -692,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "EHContinue",
           "package": "EventSocket",
@@ -701,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "EHContinue",
           "package": "EventSocket",
@@ -714,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "EHStopEvents",
           "package": "EventSocket",
@@ -723,6 +784,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "EHStopEvents",
           "package": "EventSocket",
@@ -736,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "EHStopReading",
           "package": "EventSocket",
@@ -745,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "EHStopReading",
           "package": "EventSocket",
@@ -758,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_ADD_SCHEDULE",
           "package": "EventSocket",
@@ -767,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_ADD_SCHEDULE",
           "package": "EventSocket",
@@ -780,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_ALL",
           "package": "EventSocket",
@@ -789,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_ALL",
           "package": "EventSocket",
@@ -802,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_API",
           "package": "EventSocket",
@@ -811,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_API",
           "package": "EventSocket",
@@ -825,6 +895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFreeSwitch API reply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_APIResponse",
           "package": "EventSocket",
@@ -835,6 +906,7 @@
         "index": {
           "description": "FreeSwitch API reply",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_APIResponse",
           "package": "EventSocket",
@@ -848,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_BACKGROUND_JOB",
           "package": "EventSocket",
@@ -857,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_BACKGROUND_JOB",
           "package": "EventSocket",
@@ -870,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CALL_SECURE",
           "package": "EventSocket",
@@ -879,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CALL_SECURE",
           "package": "EventSocket",
@@ -892,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CALL_UPDATE",
           "package": "EventSocket",
@@ -901,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CALL_UPDATE",
           "package": "EventSocket",
@@ -914,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_ANSWER",
           "package": "EventSocket",
@@ -923,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_ANSWER",
           "package": "EventSocket",
@@ -936,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_APPLICATION",
           "package": "EventSocket",
@@ -945,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_APPLICATION",
           "package": "EventSocket",
@@ -958,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_BRIDGE",
           "package": "EventSocket",
@@ -967,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_BRIDGE",
           "package": "EventSocket",
@@ -980,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_CREATE",
           "package": "EventSocket",
@@ -989,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_CREATE",
           "package": "EventSocket",
@@ -1002,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_DATA",
           "package": "EventSocket",
@@ -1011,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_DATA",
           "package": "EventSocket",
@@ -1024,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_DESTROY",
           "package": "EventSocket",
@@ -1033,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_DESTROY",
           "package": "EventSocket",
@@ -1046,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_EXECUTE",
           "package": "EventSocket",
@@ -1055,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_EXECUTE",
           "package": "EventSocket",
@@ -1068,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_EXECUTE_COMPLETE",
           "package": "EventSocket",
@@ -1077,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_EXECUTE_COMPLETE",
           "package": "EventSocket",
@@ -1090,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_HANGUP",
           "package": "EventSocket",
@@ -1099,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_HANGUP",
           "package": "EventSocket",
@@ -1112,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_HANGUP_COMPLETE",
           "package": "EventSocket",
@@ -1121,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_HANGUP_COMPLETE",
           "package": "EventSocket",
@@ -1134,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_ORIGINATE",
           "package": "EventSocket",
@@ -1143,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_ORIGINATE",
           "package": "EventSocket",
@@ -1156,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_OUTGOING",
           "package": "EventSocket",
@@ -1165,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_OUTGOING",
           "package": "EventSocket",
@@ -1178,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_PARK",
           "package": "EventSocket",
@@ -1187,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_PARK",
           "package": "EventSocket",
@@ -1200,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_PROGRESS",
           "package": "EventSocket",
@@ -1209,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_PROGRESS",
           "package": "EventSocket",
@@ -1222,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_PROGRESS_MEDIA",
           "package": "EventSocket",
@@ -1231,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_PROGRESS_MEDIA",
           "package": "EventSocket",
@@ -1244,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_STATE",
           "package": "EventSocket",
@@ -1253,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_STATE",
           "package": "EventSocket",
@@ -1266,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_UNBRIDGE",
           "package": "EventSocket",
@@ -1275,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_UNBRIDGE",
           "package": "EventSocket",
@@ -1288,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_UNPARK",
           "package": "EventSocket",
@@ -1297,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_UNPARK",
           "package": "EventSocket",
@@ -1310,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_UUID",
           "package": "EventSocket",
@@ -1319,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CHANNEL_UUID",
           "package": "EventSocket",
@@ -1332,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CLIENT_DISCONNECTED",
           "package": "EventSocket",
@@ -1341,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CLIENT_DISCONNECTED",
           "package": "EventSocket",
@@ -1354,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CODEC",
           "package": "EventSocket",
@@ -1363,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CODEC",
           "package": "EventSocket",
@@ -1376,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_COMMAND",
           "package": "EventSocket",
@@ -1385,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_COMMAND",
           "package": "EventSocket",
@@ -1398,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CUSTOM",
           "package": "EventSocket",
@@ -1407,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CUSTOM",
           "package": "EventSocket",
@@ -1421,6 +1545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFreeSwitch command reply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_CommandReply",
           "package": "EventSocket",
@@ -1431,6 +1556,7 @@
         "index": {
           "description": "FreeSwitch command reply",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_CommandReply",
           "package": "EventSocket",
@@ -1444,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_DEL_SCHEDULE",
           "package": "EventSocket",
@@ -1453,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_DEL_SCHEDULE",
           "package": "EventSocket",
@@ -1466,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_DETECTED_SPEECH",
           "package": "EventSocket",
@@ -1475,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_DETECTED_SPEECH",
           "package": "EventSocket",
@@ -1488,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_DETECTED_TONE",
           "package": "EventSocket",
@@ -1497,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_DETECTED_TONE",
           "package": "EventSocket",
@@ -1510,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_DTMF",
           "package": "EventSocket",
@@ -1519,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_DTMF",
           "package": "EventSocket",
@@ -1532,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_EXE_SCHEDULE",
           "package": "EventSocket",
@@ -1541,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_EXE_SCHEDULE",
           "package": "EventSocket",
@@ -1555,6 +1691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSent when ending.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_End",
           "package": "EventSocket",
@@ -1565,6 +1702,7 @@
         "index": {
           "description": "Sent when ending",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_End",
           "package": "EventSocket",
@@ -1578,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_GENERAL",
           "package": "EventSocket",
@@ -1587,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_GENERAL",
           "package": "EventSocket",
@@ -1600,6 +1740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_HEARTBEAT",
           "package": "EventSocket",
@@ -1609,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_HEARTBEAT",
           "package": "EventSocket",
@@ -1622,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_INBOUND_CHAN",
           "package": "EventSocket",
@@ -1631,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_INBOUND_CHAN",
           "package": "EventSocket",
@@ -1644,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_LOG",
           "package": "EventSocket",
@@ -1653,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_LOG",
           "package": "EventSocket",
@@ -1666,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_MESSAGE",
           "package": "EventSocket",
@@ -1675,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_MESSAGE",
           "package": "EventSocket",
@@ -1688,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_MESSAGE_QUERY",
           "package": "EventSocket",
@@ -1697,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_MESSAGE_QUERY",
           "package": "EventSocket",
@@ -1710,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_MESSAGE_WAITING",
           "package": "EventSocket",
@@ -1719,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_MESSAGE_WAITING",
           "package": "EventSocket",
@@ -1732,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_MODULE_LOAD",
           "package": "EventSocket",
@@ -1741,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_MODULE_LOAD",
           "package": "EventSocket",
@@ -1754,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_MODULE_UNLOAD",
           "package": "EventSocket",
@@ -1763,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_MODULE_UNLOAD",
           "package": "EventSocket",
@@ -1776,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_NAT",
           "package": "EventSocket",
@@ -1785,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_NAT",
           "package": "EventSocket",
@@ -1798,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_NOTALK",
           "package": "EventSocket",
@@ -1807,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_NOTALK",
           "package": "EventSocket",
@@ -1820,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_NOTIFY",
           "package": "EventSocket",
@@ -1829,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_NOTIFY",
           "package": "EventSocket",
@@ -1842,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_OUTBOUND_CHAN",
           "package": "EventSocket",
@@ -1851,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_OUTBOUND_CHAN",
           "package": "EventSocket",
@@ -1865,6 +2029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSent when the Freeswitch event name could not be parsed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_Other",
           "package": "EventSocket",
@@ -1875,6 +2040,7 @@
         "index": {
           "description": "Sent when the Freeswitch event name could not be parsed",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_Other",
           "package": "EventSocket",
@@ -1888,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_PRESENCE_IN",
           "package": "EventSocket",
@@ -1897,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_PRESENCE_IN",
           "package": "EventSocket",
@@ -1910,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_PRESENCE_OUT",
           "package": "EventSocket",
@@ -1919,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_PRESENCE_OUT",
           "package": "EventSocket",
@@ -1932,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_PRESENCE_PROBE",
           "package": "EventSocket",
@@ -1941,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_PRESENCE_PROBE",
           "package": "EventSocket",
@@ -1954,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_PRIVATE_COMMAND",
           "package": "EventSocket",
@@ -1963,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_PRIVATE_COMMAND",
           "package": "EventSocket",
@@ -1976,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_PUBLISH",
           "package": "EventSocket",
@@ -1985,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_PUBLISH",
           "package": "EventSocket",
@@ -1998,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_RECORD_START",
           "package": "EventSocket",
@@ -2007,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_RECORD_START",
           "package": "EventSocket",
@@ -2020,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_RECORD_STOP",
           "package": "EventSocket",
@@ -2029,6 +2208,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_RECORD_STOP",
           "package": "EventSocket",
@@ -2042,6 +2222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_RECV_INFO",
           "package": "EventSocket",
@@ -2051,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_RECV_INFO",
           "package": "EventSocket",
@@ -2064,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_RECV_MESSAGE",
           "package": "EventSocket",
@@ -2073,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_RECV_MESSAGE",
           "package": "EventSocket",
@@ -2086,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_RELOADXML",
           "package": "EventSocket",
@@ -2095,6 +2280,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_RELOADXML",
           "package": "EventSocket",
@@ -2108,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_REQUEST_PARMS",
           "package": "EventSocket",
@@ -2117,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_REQUEST_PARMS",
           "package": "EventSocket",
@@ -2130,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_RE_SCHEDULE",
           "package": "EventSocket",
@@ -2139,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_RE_SCHEDULE",
           "package": "EventSocket",
@@ -2152,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_ROSTER",
           "package": "EventSocket",
@@ -2161,6 +2352,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_ROSTER",
           "package": "EventSocket",
@@ -2174,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_SEND_INFO",
           "package": "EventSocket",
@@ -2183,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_SEND_INFO",
           "package": "EventSocket",
@@ -2196,6 +2390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_SEND_MESSAGE",
           "package": "EventSocket",
@@ -2205,6 +2400,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_SEND_MESSAGE",
           "package": "EventSocket",
@@ -2218,6 +2414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_SERVER_DISCONNECTED",
           "package": "EventSocket",
@@ -2227,6 +2424,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_SERVER_DISCONNECTED",
           "package": "EventSocket",
@@ -2240,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_SESSION_CRASH",
           "package": "EventSocket",
@@ -2249,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_SESSION_CRASH",
           "package": "EventSocket",
@@ -2262,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_SESSION_HEARTBEAT",
           "package": "EventSocket",
@@ -2271,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_SESSION_HEARTBEAT",
           "package": "EventSocket",
@@ -2284,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_SHUTDOWN",
           "package": "EventSocket",
@@ -2293,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_SHUTDOWN",
           "package": "EventSocket",
@@ -2306,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_STARTUP",
           "package": "EventSocket",
@@ -2315,6 +2520,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_STARTUP",
           "package": "EventSocket",
@@ -2329,6 +2535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSent when the initial negotiation is done.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_Start",
           "package": "EventSocket",
@@ -2339,6 +2546,7 @@
         "index": {
           "description": "Sent when the initial negotiation is done",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_Start",
           "package": "EventSocket",
@@ -2352,6 +2560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_TALK",
           "package": "EventSocket",
@@ -2361,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_TALK",
           "package": "EventSocket",
@@ -2374,6 +2584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_TRAP",
           "package": "EventSocket",
@@ -2383,6 +2594,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_TRAP",
           "package": "EventSocket",
@@ -2396,6 +2608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "E_UNPUBLISH",
           "package": "EventSocket",
@@ -2405,6 +2618,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "E_UNPUBLISH",
           "package": "EventSocket",
@@ -2418,6 +2632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "EventHandlerFunc",
           "package": "EventSocket",
@@ -2427,6 +2642,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "EventHandlerFunc",
           "normalized": "EventHandlerFunc(EventSocketMessage-\u003eEventSocketT a b(Maybe(EventHandlerFunc a b),EventHandlerResult))",
@@ -2442,6 +2658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "EventSocketMessage",
           "package": "EventSocket",
@@ -2451,6 +2668,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "EventSocketMessage",
           "package": "EventSocket",
@@ -2464,6 +2682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "GeneralError",
           "package": "EventSocket",
@@ -2473,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "GeneralError",
           "package": "EventSocket",
@@ -2486,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "NetworkError",
           "package": "EventSocket",
@@ -2495,6 +2716,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "NetworkError",
           "package": "EventSocket",
@@ -2508,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "ParseError",
           "package": "EventSocket",
@@ -2517,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "ParseError",
           "package": "EventSocket",
@@ -2530,6 +2754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "ProtocolError",
           "package": "EventSocket",
@@ -2539,6 +2764,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "ProtocolError",
           "package": "EventSocket",
@@ -2552,6 +2778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "UnknownError",
           "package": "EventSocket",
@@ -2561,6 +2788,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "UnknownError",
           "package": "EventSocket",
@@ -2575,6 +2803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a raw command (such as an API command) to the event socket and waits for the response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "apiAndReply",
           "package": "EventSocket",
@@ -2584,6 +2813,7 @@
         "index": {
           "description": "Sends raw command such as an API command to the event socket and waits for the response",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "apiAndReply",
           "normalized": "ByteString-\u003eByteString-\u003eEventSocketT a b[EventSocketMessage]",
@@ -2599,6 +2829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "appString",
           "package": "EventSocket",
@@ -2608,6 +2839,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "appString",
           "package": "EventSocket",
@@ -2622,6 +2854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a command and then waits for a response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "commandAndReply",
           "package": "EventSocket",
@@ -2631,6 +2864,7 @@
         "index": {
           "description": "Sends command and then waits for response",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "commandAndReply",
           "normalized": "ByteString-\u003eByteString-\u003eEventSocketT a b[EventSocketMessage]",
@@ -2647,6 +2881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends the initial connect message and receives a response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "connectInbound",
           "package": "EventSocket",
@@ -2657,6 +2892,7 @@
         "index": {
           "description": "Sends the initial connect message and receives response",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "connectInbound",
           "package": "EventSocket",
@@ -2670,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "destinations",
           "package": "EventSocket",
@@ -2679,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "destinations",
           "normalized": "[ByteString]",
@@ -2694,6 +2932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDuration to sleep.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "duration",
           "package": "EventSocket",
@@ -2704,6 +2943,7 @@
         "index": {
           "description": "Duration to sleep",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "duration",
           "package": "EventSocket",
@@ -2717,6 +2957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a command of type \u003ccode\u003e\u003ca\u003eEventSocketCommand\u003c/a\u003e\u003c/code\u003e. Behaves roughly the same as \u003ccode\u003e\u003ca\u003ecommandAndReply\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "esRun",
           "package": "EventSocket",
@@ -2726,6 +2967,7 @@
         "index": {
           "description": "Runs command of type EventSocketCommand Behaves roughly the same as commandAndReply",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "esRun",
           "normalized": "EventSocketCommand-\u003eEventSocketT a b[EventSocketMessage]",
@@ -2742,6 +2984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a sequence of \u003ccode\u003e\u003ca\u003eEventSocketCommand\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "esRunActions",
           "package": "EventSocket",
@@ -2751,6 +2994,7 @@
         "index": {
           "description": "Runs sequence of EventSocketCommand",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "esRunActions",
           "normalized": "[EventSocketCommand]-\u003eEventSocketT a b[EventSocketMessage]",
@@ -2766,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "esioBRead",
           "package": "EventSocket",
@@ -2775,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "esioBRead",
           "package": "EventSocket",
@@ -2788,6 +3034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "esioBReadLine",
           "package": "EventSocket",
@@ -2797,6 +3044,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "esioBReadLine",
           "package": "EventSocket",
@@ -2810,6 +3058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "esioBWrite",
           "package": "EventSocket",
@@ -2819,6 +3068,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "esioBWrite",
           "package": "EventSocket",
@@ -2832,6 +3082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "esioFlush",
           "package": "EventSocket",
@@ -2841,6 +3092,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "esioFlush",
           "package": "EventSocket",
@@ -2854,6 +3106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "esioReady",
           "package": "EventSocket",
@@ -2863,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "esioReady",
           "package": "EventSocket",
@@ -2877,6 +3131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither a ByteString or a parsed KV map depending on the type of response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "esmData",
           "package": "EventSocket",
@@ -2887,6 +3142,7 @@
         "index": {
           "description": "Either ByteString or parsed KV map depending on the type of response",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "esmData",
           "package": "EventSocket",
@@ -2901,6 +3157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe headers FreeSwitch sent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "esmHeaders",
           "package": "EventSocket",
@@ -2911,6 +3168,7 @@
         "index": {
           "description": "The headers FreeSwitch sent",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "esmHeaders",
           "package": "EventSocket",
@@ -2925,6 +3183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this a positive response?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "esmSuccess",
           "package": "EventSocket",
@@ -2935,6 +3194,7 @@
         "index": {
           "description": "Is this positive response",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "esmSuccess",
           "package": "EventSocket",
@@ -2949,6 +3209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "esmType",
           "package": "EventSocket",
@@ -2959,6 +3220,7 @@
         "index": {
           "description": "Type of the event",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "esmType",
           "package": "EventSocket",
@@ -2973,6 +3235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader to allow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "eventHeader",
           "package": "EventSocket",
@@ -2983,6 +3246,7 @@
         "index": {
           "description": "Header to allow",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "eventHeader",
           "package": "EventSocket",
@@ -2997,6 +3261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads messages from the event socket until a condition is true.\n\u003c/p\u003e\u003cp\u003eThe handler is called with Nothing to detect whether messages should be read (for example, check if the socket has data waiting.)\n\u003c/p\u003e\u003cp\u003eAt that point, the handler returns whether more messages should be read (True for more messages, False to stop reading messages.)\n\u003c/p\u003e\u003cp\u003eThe handler is called on each received message.\n\u003c/p\u003e\u003cp\u003eAt that the handler returns whether it is done (True for no more messages, False to continue reading messages.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "eventSocketReadEventsUntil",
           "package": "EventSocket",
@@ -3006,6 +3271,7 @@
         "index": {
           "description": "Reads messages from the event socket until condition is true The handler is called with Nothing to detect whether messages should be read for example check if the socket has data waiting At that point the handler returns whether more messages should be read True for more messages False to stop reading messages The handler is called on each received message At that the handler returns whether it is done True for no more messages False to continue reading messages",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "eventSocketReadEventsUntil",
           "normalized": "(Maybe EventSocketMessage-\u003eEventSocketT a b Bool)-\u003eEventSocketT a b(Bool,[EventSocketMessage])",
@@ -3022,6 +3288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue to allow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "eventValue",
           "package": "EventSocket",
@@ -3032,6 +3299,7 @@
         "index": {
           "description": "Value to allow",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "eventValue",
           "package": "EventSocket",
@@ -3046,6 +3314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "events",
           "package": "EventSocket",
@@ -3056,6 +3325,7 @@
         "index": {
           "description": "Event types",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "events",
           "normalized": "[ByteString]",
@@ -3070,6 +3340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "file",
           "package": "EventSocket",
@@ -3079,6 +3350,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "file",
           "package": "EventSocket",
@@ -3091,6 +3363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "filename",
           "package": "EventSocket",
@@ -3100,6 +3373,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "filename",
           "package": "EventSocket",
@@ -3113,6 +3387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent format, either plain or XML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "format",
           "package": "EventSocket",
@@ -3123,6 +3398,7 @@
         "index": {
           "description": "Event format either plain or XML",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "format",
           "package": "EventSocket",
@@ -3136,6 +3412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a session if it exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "getSession",
           "package": "EventSocket",
@@ -3145,6 +3422,7 @@
         "index": {
           "description": "Gets session if it exists",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "getSession",
           "normalized": "ESUUID-\u003eEventSocketT a b(Maybe(SessionState a b))",
@@ -3161,6 +3439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the UUID of the main session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "getUUID",
           "package": "EventSocket",
@@ -3171,6 +3450,7 @@
         "index": {
           "description": "Get the UUID of the main session",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "getUUID",
           "package": "EventSocket",
@@ -3184,6 +3464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "invalidFile",
           "package": "EventSocket",
@@ -3193,6 +3474,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "invalidFile",
           "package": "EventSocket",
@@ -3207,6 +3489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete this filter instead of creating.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "isDelete",
           "package": "EventSocket",
@@ -3217,6 +3500,7 @@
         "index": {
           "description": "Delete this filter instead of creating",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "isDelete",
           "package": "EventSocket",
@@ -3231,6 +3515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "key",
           "package": "EventSocket",
@@ -3241,6 +3526,7 @@
         "index": {
           "description": "Set key",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "key",
           "package": "EventSocket",
@@ -3253,6 +3539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "listenKey",
           "package": "EventSocket",
@@ -3262,6 +3549,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "listenKey",
           "package": "EventSocket",
@@ -3275,6 +3563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "listenTo",
           "package": "EventSocket",
@@ -3284,6 +3573,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "listenTo",
           "package": "EventSocket",
@@ -3297,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "maxDigits",
           "package": "EventSocket",
@@ -3306,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "maxDigits",
           "package": "EventSocket",
@@ -3319,6 +3611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "maxLength",
           "package": "EventSocket",
@@ -3328,6 +3621,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "maxLength",
           "package": "EventSocket",
@@ -3341,6 +3635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "minDigits",
           "package": "EventSocket",
@@ -3350,6 +3645,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "minDigits",
           "package": "EventSocket",
@@ -3364,6 +3660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies the debug level. At high values, the event socket library will spit out massive amounts of data to the console.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "modifyDebugLevel",
           "package": "EventSocket",
@@ -3374,6 +3671,7 @@
         "index": {
           "description": "Modifies the debug level At high values the event socket library will spit out massive amounts of data to the console",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "modifyDebugLevel",
           "normalized": "(Int-\u003eInt)-\u003eEventSocketT a b Int",
@@ -3390,6 +3688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyncMode controls whether \u003ca\u003eEvent-Lock: true\u003c/a\u003e is sent with commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "modifySyncMode",
           "package": "EventSocket",
@@ -3400,6 +3699,7 @@
         "index": {
           "description": "SyncMode controls whether Event-Lock true is sent with commands",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "modifySyncMode",
           "normalized": "(Bool-\u003eBool)-\u003eEventSocketT a b Bool",
@@ -3416,6 +3716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new EventSocketState. You may use your own handle type and functions for reading and writing data to it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "newEventSocketState",
           "package": "EventSocket",
@@ -3425,6 +3726,7 @@
         "index": {
           "description": "Creates new EventSocketState You may use your own handle type and functions for reading and writing data to it",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "newEventSocketState",
           "normalized": "a-\u003eHostName-\u003ePortNumber-\u003eEventSocketState a b",
@@ -3441,6 +3743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReason for hangup: \u003ca\u003ehttp://wiki.freeswitch.org/wiki/Hangup_causes\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "reason",
           "package": "EventSocket",
@@ -3451,6 +3754,7 @@
         "index": {
           "description": "Reason for hangup http wiki.freeswitch.org wiki Hangup causes",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "reason",
           "package": "EventSocket",
@@ -3463,6 +3767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "regexp",
           "package": "EventSocket",
@@ -3472,6 +3777,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "regexp",
           "package": "EventSocket",
@@ -3485,6 +3791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegisters an event handler. If the UUID is left blank, it will trigger globally on all events of the appropriate type.\n\u003c/p\u003e\u003cp\u003eSome event types (example E_CommandReply, E_APIResponse) do not have a UUID and therefore must be added as an global event if you wish to catch it.\n\u003c/p\u003e\u003cp\u003eSince the event may return a new handler function on each invocation, an event handler may maintain private state this way.\n\u003c/p\u003e\u003cp\u003eThe event handler may return EHContinue to continue processing, EHStopEvents to stop processing events for that message or\n   EHStopReading to exit the event reading loop entirely.\n\u003c/p\u003e\u003cp\u003eEvent handlers are only called from within \u003ccode\u003e\u003ca\u003eeventSocketReadEventsUntil\u003c/a\u003e\u003c/code\u003e (and functions that use this: \u003ccode\u003e\u003ca\u003ewaitForEvent\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ecommandAndReply\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eapiAndReply\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eGlobal events are processed first, then session events.\n\u003c/p\u003e\u003cp\u003eYou may not recurse into \u003ccode\u003eeventSocketReadEventUntil\u003c/code\u003e from within an event handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "registerEventHandler",
           "package": "EventSocket",
@@ -3494,6 +3801,7 @@
         "index": {
           "description": "Registers an event handler If the UUID is left blank it will trigger globally on all events of the appropriate type Some event types example CommandReply APIResponse do not have UUID and therefore must be added as an global event if you wish to catch it Since the event may return new handler function on each invocation an event handler may maintain private state this way The event handler may return EHContinue to continue processing EHStopEvents to stop processing events for that message or EHStopReading to exit the event reading loop entirely Event handlers are only called from within eventSocketReadEventsUntil and functions that use this waitForEvent commandAndReply apiAndReply Global events are processed first then session events You may not recurse into eventSocketReadEventUntil from within an event handler",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "registerEventHandler",
           "normalized": "ByteString-\u003eEventType-\u003eInt-\u003eEventHandlerFunc a b-\u003eEventSocketT a b EventId",
@@ -3509,6 +3817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "respondOn",
           "package": "EventSocket",
@@ -3518,6 +3827,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "respondOn",
           "package": "EventSocket",
@@ -3532,6 +3842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the event socket monad transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "runEventSocketT",
           "package": "EventSocket",
@@ -3541,6 +3852,7 @@
         "index": {
           "description": "Runs the event socket monad transformer",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "runEventSocketT",
           "normalized": "EventSocketT a b c-\u003eEventSocketState a b-\u003eb(Either EventSocketError c,EventSocketState a b)",
@@ -3557,6 +3869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a raw command to the event socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "sendAPI",
           "package": "EventSocket",
@@ -3566,6 +3879,7 @@
         "index": {
           "description": "Sends raw command to the event socket",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "sendAPI",
           "normalized": "ByteString-\u003eByteString-\u003eEventSocketT a b()",
@@ -3582,6 +3896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a command to the event socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "sendCommand",
           "package": "EventSocket",
@@ -3591,6 +3906,7 @@
         "index": {
           "description": "Sends command to the event socket",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "sendCommand",
           "normalized": "ByteString-\u003eByteString-\u003eEventSocketT a b()",
@@ -3607,6 +3923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts a listen socket for incoming EventSocket connections. You'll generally want to call \u003ccode\u003e\u003ca\u003econnectInbound\u003c/a\u003e\u003c/code\u003e after the handler is triggered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "startEventSocket",
           "package": "EventSocket",
@@ -3616,6 +3933,7 @@
         "index": {
           "description": "Starts listen socket for incoming EventSocket connections You ll generally want to call connectInbound after the handler is triggered",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "startEventSocket",
           "normalized": "HostName-\u003ePortNumber-\u003e(EventSocketState Handle a-\u003eIO())-\u003eIO()",
@@ -3632,6 +3950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlays a 0 length tone stream to force a CHANNEL_EXECUTE_COMPLETE event as a synchronization point. Will wait forever if events aren't turned on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "syncPoint",
           "package": "EventSocket",
@@ -3642,6 +3961,7 @@
         "index": {
           "description": "Plays length tone stream to force CHANNEL EXECUTE COMPLETE event as synchronization point Will wait forever if events aren turned on",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "syncPoint",
           "normalized": "EventSocketT a b[EventSocketMessage]",
@@ -3657,6 +3977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "terminators",
           "package": "EventSocket",
@@ -3666,6 +3987,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "terminators",
           "package": "EventSocket",
@@ -3678,6 +4000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "text",
           "package": "EventSocket",
@@ -3687,6 +4010,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "text",
           "package": "EventSocket",
@@ -3699,6 +4023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "timeout",
           "package": "EventSocket",
@@ -3708,6 +4033,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "timeout",
           "package": "EventSocket",
@@ -3720,6 +4046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "tries",
           "package": "EventSocket",
@@ -3729,6 +4056,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "tries",
           "package": "EventSocket",
@@ -3742,6 +4070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an event ID, it will remove that event if it exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "unregisterEventHandler",
           "package": "EventSocket",
@@ -3751,6 +4080,7 @@
         "index": {
           "description": "Given an event ID it will remove that event if it exists",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "unregisterEventHandler",
           "normalized": "EventId-\u003eEventSocketT a b()",
@@ -3767,6 +4097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "val",
           "package": "EventSocket",
@@ -3777,6 +4108,7 @@
         "index": {
           "description": "Set value",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "val",
           "package": "EventSocket",
@@ -3789,6 +4121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "varName",
           "package": "EventSocket",
@@ -3798,6 +4131,7 @@
         },
         "index": {
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "varName",
           "package": "EventSocket",
@@ -3812,6 +4146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWaits forever for the specified event type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "waitForEvent",
           "package": "EventSocket",
@@ -3821,6 +4156,7 @@
         "index": {
           "description": "Waits forever for the specified event type",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "waitForEvent",
           "normalized": "EventType-\u003eEventSocketT a b[EventSocketMessage]",
@@ -3837,6 +4173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a monadic action with the specified UUID as the current UUID.\n   Once the action completes, the previous UUID is restored iff it is the same as the original UUID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:29 UTC 2014",
           "module": "Network.EventSocket",
           "name": "withUUID",
           "package": "EventSocket",
@@ -3846,6 +4183,7 @@
         "index": {
           "description": "Run monadic action with the specified UUID as the current UUID Once the action completes the previous UUID is restored iff it is the same as the original UUID",
           "hierarchy": "Network EventSocket",
+          "indexed": "2014-03-11T16:40:29",
           "module": "Network.EventSocket",
           "name": "withUUID",
           "normalized": "ByteString-\u003eEventSocketT a b c-\u003eEventSocketT a b c",

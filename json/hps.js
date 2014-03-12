@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hps"
+        "phrase": "hps",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFont type and functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Font",
           "name": "Font",
           "package": "hps",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Font type and functions",
           "hierarchy": "Graphics PS Font",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Font",
           "name": "Font",
           "package": "hps",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFont data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Font",
           "name": "Font",
           "package": "hps",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Font data type",
           "hierarchy": "Graphics PS Font",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Font",
           "name": "Font",
           "package": "hps",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Font",
           "name": "Font",
           "package": "hps",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Font",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Font",
           "name": "Font",
           "package": "hps",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Font",
           "name": "fontName",
           "package": "hps",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Font",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Font",
           "name": "fontName",
           "package": "hps",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Font",
           "name": "fontSize",
           "package": "hps",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Font",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Font",
           "name": "fontSize",
           "package": "hps",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePS graphics state.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.GS",
           "name": "GS",
           "package": "hps",
@@ -140,6 +151,7 @@
         "index": {
           "description": "PS graphics state",
           "hierarchy": "Graphics PS GS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.GS",
           "name": "GS",
           "package": "hps",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColour model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.GS",
           "name": "Color",
           "package": "hps",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Colour model",
           "hierarchy": "Graphics PS GS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.GS",
           "name": "Color",
           "package": "hps",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraphics state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.GS",
           "name": "GS",
           "package": "hps",
@@ -186,6 +201,7 @@
         "index": {
           "description": "Graphics state",
           "hierarchy": "Graphics PS GS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.GS",
           "name": "GS",
           "package": "hps",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine cap enumeration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.GS",
           "name": "LineCap",
           "package": "hps",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Line cap enumeration",
           "hierarchy": "Graphics PS GS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.GS",
           "name": "LineCap",
           "package": "hps",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine join enumeration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.GS",
           "name": "LineJoin",
           "package": "hps",
@@ -232,6 +251,7 @@
         "index": {
           "description": "Line join enumeration",
           "hierarchy": "Graphics PS GS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.GS",
           "name": "LineJoin",
           "package": "hps",
@@ -246,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine width (real).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.GS",
           "name": "LineWidth",
           "package": "hps",
@@ -255,6 +276,7 @@
         "index": {
           "description": "Line width real",
           "hierarchy": "Graphics PS GS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.GS",
           "name": "LineWidth",
           "package": "hps",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.GS",
           "name": "BevelJoin",
           "package": "hps",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS GS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.GS",
           "name": "BevelJoin",
           "package": "hps",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.GS",
           "name": "ButtCap",
           "package": "hps",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS GS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.GS",
           "name": "ButtCap",
           "package": "hps",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.GS",
           "name": "GS",
           "package": "hps",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS GS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.GS",
           "name": "GS",
           "normalized": "GS Color LineWidth LineCap LineJoin([Int],Int)Double",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.GS",
           "name": "MiterJoin",
           "package": "hps",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS GS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.GS",
           "name": "MiterJoin",
           "package": "hps",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.GS",
           "name": "ProjectingSquareCap",
           "package": "hps",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS GS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.GS",
           "name": "ProjectingSquareCap",
           "package": "hps",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.GS",
           "name": "RGB",
           "package": "hps",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS GS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.GS",
           "name": "RGB",
           "package": "hps",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.GS",
           "name": "RoundCap",
           "package": "hps",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS GS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.GS",
           "name": "RoundCap",
           "package": "hps",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.GS",
           "name": "RoundJoin",
           "package": "hps",
@@ -433,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS GS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.GS",
           "name": "RoundJoin",
           "package": "hps",
@@ -447,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault \u003ccode\u003e\u003ca\u003eGS\u003c/a\u003e\u003c/code\u003e of indicated \u003ccode\u003e\u003ca\u003eColor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.GS",
           "name": "defaultGS",
           "package": "hps",
@@ -457,6 +496,7 @@
         "index": {
           "description": "Default GS of indicated Color",
           "hierarchy": "Graphics PS GS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.GS",
           "name": "defaultGS",
           "normalized": "Color-\u003eGS",
@@ -473,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault \u003ccode\u003e\u003ca\u003eGS\u003c/a\u003e\u003c/code\u003e of indicated shade of grey.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.GS",
           "name": "greyGS",
           "package": "hps",
@@ -483,6 +524,7 @@
         "index": {
           "description": "Default GS of indicated shade of grey",
           "hierarchy": "Graphics PS GS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.GS",
           "name": "greyGS",
           "normalized": "Double-\u003eGS",
@@ -499,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGlyph data type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Glyph",
           "name": "Glyph",
           "package": "hps",
@@ -508,6 +551,7 @@
         "index": {
           "description": "Glyph data type",
           "hierarchy": "Graphics PS Glyph",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Glyph",
           "name": "Glyph",
           "package": "hps",
@@ -522,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Glyph",
           "name": "Glyph",
           "package": "hps",
@@ -531,6 +576,7 @@
         "index": {
           "description": "Character data type",
           "hierarchy": "Graphics PS Glyph",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Glyph",
           "name": "Glyph",
           "package": "hps",
@@ -545,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImage type and functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Image",
           "name": "Image",
           "package": "hps",
@@ -554,6 +601,7 @@
         "index": {
           "description": "Image type and functions",
           "hierarchy": "Graphics PS Image",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Image",
           "name": "Image",
           "package": "hps",
@@ -568,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn image is a rendering of a graph of \u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Image",
           "name": "Image",
           "package": "hps",
@@ -577,6 +626,7 @@
         "index": {
           "description": "An image is rendering of graph of Path",
           "hierarchy": "Graphics PS Image",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Image",
           "name": "Image",
           "package": "hps",
@@ -590,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Image",
           "name": "Empty",
           "package": "hps",
@@ -599,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Image",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Image",
           "name": "Empty",
           "package": "hps",
@@ -612,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Image",
           "name": "Fill",
           "package": "hps",
@@ -621,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Image",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Image",
           "name": "Fill",
           "package": "hps",
@@ -634,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Image",
           "name": "ITransform",
           "package": "hps",
@@ -643,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Image",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Image",
           "name": "ITransform",
           "package": "hps",
@@ -656,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Image",
           "name": "Over",
           "package": "hps",
@@ -665,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Image",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Image",
           "name": "Over",
           "package": "hps",
@@ -678,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Image",
           "name": "Stroke",
           "package": "hps",
@@ -687,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Image",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Image",
           "name": "Stroke",
           "package": "hps",
@@ -701,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLayer one \u003ccode\u003e\u003ca\u003eImage\u003c/a\u003e\u003c/code\u003e over another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Image",
           "name": "over",
           "package": "hps",
@@ -711,6 +772,7 @@
         "index": {
           "description": "Layer one Image over another",
           "hierarchy": "Graphics PS Image",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Image",
           "name": "over",
           "normalized": "Image-\u003eImage-\u003eImage",
@@ -726,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of \u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003es at \u003ccode\u003e\u003ca\u003eImage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Image",
           "name": "paths",
           "package": "hps",
@@ -736,6 +799,7 @@
         "index": {
           "description": "List of Path at Image",
           "hierarchy": "Graphics PS Image",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Image",
           "name": "paths",
           "normalized": "Image-\u003e[Path]",
@@ -751,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePostscript generator.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.PS",
           "name": "PS",
           "package": "hps",
@@ -760,6 +825,7 @@
         "index": {
           "description": "Postscript generator",
           "hierarchy": "Graphics PS PS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.PS",
           "name": "PS",
           "package": "hps",
@@ -774,6 +840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an encapsulated postscript file.  The single image\n   is written.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.PS",
           "name": "eps",
           "package": "hps",
@@ -784,6 +851,7 @@
         "index": {
           "description": "Write an encapsulated postscript file The single image is written",
           "hierarchy": "Graphics PS PS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.PS",
           "name": "eps",
           "normalized": "String-\u003eBBox-\u003eImage-\u003eIO()",
@@ -799,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a postscript file.  The list of images are written\n   one per page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.PS",
           "name": "ps",
           "package": "hps",
@@ -809,6 +878,7 @@
         "index": {
           "description": "Write postscript file The list of images are written one per page",
           "hierarchy": "Graphics PS PS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.PS",
           "name": "ps",
           "normalized": "FilePath-\u003ePaper-\u003e[Image]-\u003eIO()",
@@ -824,6 +894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate postscript data given \u003cem\u003etitle\u003c/em\u003e, page size, and a set of\n page \u003ccode\u003e\u003ca\u003eImages\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.PS",
           "name": "stringFromPS",
           "package": "hps",
@@ -834,6 +905,7 @@
         "index": {
           "description": "Generate postscript data given title page size and set of page Images",
           "hierarchy": "Graphics PS PS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.PS",
           "name": "stringFromPS",
           "normalized": "String-\u003ePaper-\u003e[Image]-\u003eString",
@@ -850,6 +922,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePaper sizes.\n For ISO sizes see \u003ca\u003ehttp://www.cl.cam.ac.uk/~mgk25/iso-paper.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "Paper",
           "package": "hps",
@@ -859,6 +932,7 @@
         "index": {
           "description": "Paper sizes For ISO sizes see http www.cl.cam.ac.uk mgk25 iso-paper.html",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "Paper",
           "package": "hps",
@@ -873,6 +947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoundingBox for an EPSF file with an optional HiResBoundingBox\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "BBox",
           "package": "hps",
@@ -882,6 +957,7 @@
         "index": {
           "description": "BoundingBox for an EPSF file with an optional HiResBoundingBox",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "BBox",
           "package": "hps",
@@ -896,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePaper size data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "Paper",
           "package": "hps",
@@ -905,6 +982,7 @@
         "index": {
           "description": "Paper size data type",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "Paper",
           "package": "hps",
@@ -918,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "BBox",
           "package": "hps",
@@ -927,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "BBox",
           "package": "hps",
@@ -940,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "HRBBox",
           "package": "hps",
@@ -949,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "HRBBox",
           "package": "hps",
@@ -962,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "Paper",
           "package": "hps",
@@ -971,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "Paper",
           "package": "hps",
@@ -985,6 +1069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO A sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e a4 == Paper 210 297\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "a0",
           "package": "hps",
@@ -995,6 +1080,7 @@
         "index": {
           "description": "ISO sizes in millimeters a4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "a0",
           "package": "hps",
@@ -1008,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO A sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e a4 == Paper 210 297\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "a1",
           "package": "hps",
@@ -1018,6 +1105,7 @@
         "index": {
           "description": "ISO sizes in millimeters a4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "a1",
           "package": "hps",
@@ -1031,6 +1119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO A sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e a4 == Paper 210 297\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "a10",
           "package": "hps",
@@ -1041,6 +1130,7 @@
         "index": {
           "description": "ISO sizes in millimeters a4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "a10",
           "package": "hps",
@@ -1054,6 +1144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO A sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e a4 == Paper 210 297\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "a2",
           "package": "hps",
@@ -1064,6 +1155,7 @@
         "index": {
           "description": "ISO sizes in millimeters a4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "a2",
           "package": "hps",
@@ -1077,6 +1169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO A sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e a4 == Paper 210 297\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "a3",
           "package": "hps",
@@ -1087,6 +1180,7 @@
         "index": {
           "description": "ISO sizes in millimeters a4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "a3",
           "package": "hps",
@@ -1100,6 +1194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO A sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e a4 == Paper 210 297\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "a4",
           "package": "hps",
@@ -1110,6 +1205,7 @@
         "index": {
           "description": "ISO sizes in millimeters a4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "a4",
           "package": "hps",
@@ -1123,6 +1219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO A sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e a4 == Paper 210 297\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "a5",
           "package": "hps",
@@ -1133,6 +1230,7 @@
         "index": {
           "description": "ISO sizes in millimeters a4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "a5",
           "package": "hps",
@@ -1146,6 +1244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO A sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e a4 == Paper 210 297\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "a6",
           "package": "hps",
@@ -1156,6 +1255,7 @@
         "index": {
           "description": "ISO sizes in millimeters a4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "a6",
           "package": "hps",
@@ -1169,6 +1269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO A sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e a4 == Paper 210 297\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "a7",
           "package": "hps",
@@ -1179,6 +1280,7 @@
         "index": {
           "description": "ISO sizes in millimeters a4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "a7",
           "package": "hps",
@@ -1192,6 +1294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO A sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e a4 == Paper 210 297\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "a8",
           "package": "hps",
@@ -1202,6 +1305,7 @@
         "index": {
           "description": "ISO sizes in millimeters a4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "a8",
           "package": "hps",
@@ -1215,6 +1319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO A sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e a4 == Paper 210 297\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "a9",
           "package": "hps",
@@ -1225,6 +1330,7 @@
         "index": {
           "description": "ISO sizes in millimeters a4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "a9",
           "package": "hps",
@@ -1238,6 +1344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO B sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e b4 == Paper 250 354\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "b0",
           "package": "hps",
@@ -1248,6 +1355,7 @@
         "index": {
           "description": "ISO sizes in millimeters b4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "b0",
           "package": "hps",
@@ -1261,6 +1369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO B sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e b4 == Paper 250 354\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "b1",
           "package": "hps",
@@ -1271,6 +1380,7 @@
         "index": {
           "description": "ISO sizes in millimeters b4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "b1",
           "package": "hps",
@@ -1284,6 +1394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO B sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e b4 == Paper 250 354\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "b10",
           "package": "hps",
@@ -1294,6 +1405,7 @@
         "index": {
           "description": "ISO sizes in millimeters b4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "b10",
           "package": "hps",
@@ -1307,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO B sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e b4 == Paper 250 354\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "b2",
           "package": "hps",
@@ -1317,6 +1430,7 @@
         "index": {
           "description": "ISO sizes in millimeters b4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "b2",
           "package": "hps",
@@ -1330,6 +1444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO B sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e b4 == Paper 250 354\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "b3",
           "package": "hps",
@@ -1340,6 +1455,7 @@
         "index": {
           "description": "ISO sizes in millimeters b4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "b3",
           "package": "hps",
@@ -1353,6 +1469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO B sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e b4 == Paper 250 354\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "b4",
           "package": "hps",
@@ -1363,6 +1480,7 @@
         "index": {
           "description": "ISO sizes in millimeters b4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "b4",
           "package": "hps",
@@ -1376,6 +1494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO B sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e b4 == Paper 250 354\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "b5",
           "package": "hps",
@@ -1386,6 +1505,7 @@
         "index": {
           "description": "ISO sizes in millimeters b4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "b5",
           "package": "hps",
@@ -1399,6 +1519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO B sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e b4 == Paper 250 354\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "b6",
           "package": "hps",
@@ -1409,6 +1530,7 @@
         "index": {
           "description": "ISO sizes in millimeters b4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "b6",
           "package": "hps",
@@ -1422,6 +1544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO B sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e b4 == Paper 250 354\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "b7",
           "package": "hps",
@@ -1432,6 +1555,7 @@
         "index": {
           "description": "ISO sizes in millimeters b4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "b7",
           "package": "hps",
@@ -1445,6 +1569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO B sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e b4 == Paper 250 354\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "b8",
           "package": "hps",
@@ -1455,6 +1580,7 @@
         "index": {
           "description": "ISO sizes in millimeters b4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "b8",
           "package": "hps",
@@ -1468,6 +1594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO B sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e b4 == Paper 250 354\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "b9",
           "package": "hps",
@@ -1478,6 +1605,7 @@
         "index": {
           "description": "ISO sizes in millimeters b4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "b9",
           "package": "hps",
@@ -1491,6 +1619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewspaper sizes in millimeters.\n See \u003ca\u003ehttp://www.papersizes.org/newspaper-sizes.htm\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "berliner",
           "package": "hps",
@@ -1501,6 +1630,7 @@
         "index": {
           "description": "Newspaper sizes in millimeters See http www.papersizes.org newspaper-sizes.htm",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "berliner",
           "package": "hps",
@@ -1514,6 +1644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewspaper sizes in millimeters.\n See \u003ca\u003ehttp://www.papersizes.org/newspaper-sizes.htm\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "broadsheet",
           "package": "hps",
@@ -1524,6 +1655,7 @@
         "index": {
           "description": "Newspaper sizes in millimeters See http www.papersizes.org newspaper-sizes.htm",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "broadsheet",
           "package": "hps",
@@ -1537,6 +1669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO C sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e c4 == Paper 229 324\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "c0",
           "package": "hps",
@@ -1547,6 +1680,7 @@
         "index": {
           "description": "ISO sizes in millimeters c4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "c0",
           "package": "hps",
@@ -1560,6 +1694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO C sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e c4 == Paper 229 324\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "c1",
           "package": "hps",
@@ -1570,6 +1705,7 @@
         "index": {
           "description": "ISO sizes in millimeters c4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "c1",
           "package": "hps",
@@ -1583,6 +1719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO C sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e c4 == Paper 229 324\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "c10",
           "package": "hps",
@@ -1593,6 +1730,7 @@
         "index": {
           "description": "ISO sizes in millimeters c4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "c10",
           "package": "hps",
@@ -1606,6 +1744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO C sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e c4 == Paper 229 324\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "c2",
           "package": "hps",
@@ -1616,6 +1755,7 @@
         "index": {
           "description": "ISO sizes in millimeters c4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "c2",
           "package": "hps",
@@ -1629,6 +1769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO C sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e c4 == Paper 229 324\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "c3",
           "package": "hps",
@@ -1639,6 +1780,7 @@
         "index": {
           "description": "ISO sizes in millimeters c4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "c3",
           "package": "hps",
@@ -1652,6 +1794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO C sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e c4 == Paper 229 324\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "c4",
           "package": "hps",
@@ -1662,6 +1805,7 @@
         "index": {
           "description": "ISO sizes in millimeters c4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "c4",
           "package": "hps",
@@ -1675,6 +1819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO C sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e c4 == Paper 229 324\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "c5",
           "package": "hps",
@@ -1685,6 +1830,7 @@
         "index": {
           "description": "ISO sizes in millimeters c4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "c5",
           "package": "hps",
@@ -1698,6 +1844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO C sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e c4 == Paper 229 324\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "c6",
           "package": "hps",
@@ -1708,6 +1855,7 @@
         "index": {
           "description": "ISO sizes in millimeters c4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "c6",
           "package": "hps",
@@ -1721,6 +1869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO C sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e c4 == Paper 229 324\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "c7",
           "package": "hps",
@@ -1731,6 +1880,7 @@
         "index": {
           "description": "ISO sizes in millimeters c4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "c7",
           "package": "hps",
@@ -1744,6 +1894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO C sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e c4 == Paper 229 324\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "c8",
           "package": "hps",
@@ -1754,6 +1905,7 @@
         "index": {
           "description": "ISO sizes in millimeters c4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "c8",
           "package": "hps",
@@ -1767,6 +1919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO C sizes in millimeters.\n\u003c/p\u003e\u003cpre\u003e c4 == Paper 229 324\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "c9",
           "package": "hps",
@@ -1777,6 +1930,7 @@
         "index": {
           "description": "ISO sizes in millimeters c4 Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "c9",
           "package": "hps",
@@ -1790,6 +1944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003ediv\u003c/a\u003e\u003c/code\u003e variant that rounds rather than truncates.\n\u003c/p\u003e\u003cpre\u003e let f (Paper _ h) = h `div` 2 == h `divRound` 2\n in all id (map f [b0,b1,b2,b3,b4,b5,b6,b7,b8,b9]) == False\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "divRound",
           "package": "hps",
@@ -1800,6 +1955,7 @@
         "index": {
           "description": "div variant that rounds rather than truncates let Paper div divRound in all id map b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 False",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "divRound",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -1815,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "height",
           "package": "hps",
@@ -1824,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "height",
           "package": "hps",
@@ -1837,6 +1995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehigh resolution \u003ccode\u003e\u003ca\u003ellx\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "hrllx",
           "package": "hps",
@@ -1847,6 +2006,7 @@
         "index": {
           "description": "high resolution llx",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "hrllx",
           "package": "hps",
@@ -1860,6 +2020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehigh resolution \u003ccode\u003e\u003ca\u003elly\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "hrlly",
           "package": "hps",
@@ -1870,6 +2031,7 @@
         "index": {
           "description": "high resolution lly",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "hrlly",
           "package": "hps",
@@ -1883,6 +2045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehigh resolution \u003ccode\u003e\u003ca\u003eurx\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "hrurx",
           "package": "hps",
@@ -1893,6 +2056,7 @@
         "index": {
           "description": "high resolution urx",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "hrurx",
           "package": "hps",
@@ -1906,6 +2070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehigh resolution \u003ccode\u003e\u003ca\u003eury\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "hrury",
           "package": "hps",
@@ -1916,6 +2081,7 @@
         "index": {
           "description": "high resolution ury",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "hrury",
           "package": "hps",
@@ -1929,6 +2095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO size downscaling, ie. from \u003ccode\u003eA0\u003c/code\u003e to \u003ccode\u003eA1\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e iso_down_scale a4 == a5\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "iso_down_scale",
           "package": "hps",
@@ -1939,6 +2106,7 @@
         "index": {
           "description": "ISO size downscaling ie from A0 to A1 iso down scale a4 a5",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "iso_down_scale",
           "normalized": "Paper-\u003ePaper",
@@ -1954,6 +2122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwap width and height of \u003ccode\u003e\u003ca\u003ePaper\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "landscape",
           "package": "hps",
@@ -1964,6 +2133,7 @@
         "index": {
           "description": "Swap width and height of Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "landscape",
           "normalized": "Paper-\u003ePaper",
@@ -1979,6 +2149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elower left x (x-min)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "llx",
           "package": "hps",
@@ -1989,6 +2160,7 @@
         "index": {
           "description": "lower left x-min",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "llx",
           "package": "hps",
@@ -2002,6 +2174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elower left y (y-min)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "lly",
           "package": "hps",
@@ -2012,6 +2185,7 @@
         "index": {
           "description": "lower left y-min",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "lly",
           "package": "hps",
@@ -2025,6 +2199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProportion of \u003ccode\u003e\u003ca\u003ePaper\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e proportion broadsheet == 1.25\n map (round . (* 1e3) . proportion) [a0,b0,c0] == [1414,1414,1414]\n map proportion [usLetter,berliner,tabloid]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "proportion",
           "package": "hps",
@@ -2035,6 +2210,7 @@
         "index": {
           "description": "Proportion of Paper proportion broadsheet map round e3 proportion a0 b0 c0 map proportion usLetter berliner tabloid",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "proportion",
           "normalized": "Paper-\u003eDouble",
@@ -2050,6 +2226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewspaper sizes in millimeters.\n See \u003ca\u003ehttp://www.papersizes.org/newspaper-sizes.htm\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "tabloid",
           "package": "hps",
@@ -2060,6 +2237,7 @@
         "index": {
           "description": "Newspaper sizes in millimeters See http www.papersizes.org newspaper-sizes.htm",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "tabloid",
           "package": "hps",
@@ -2073,6 +2251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupper right x (x-max)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "urx",
           "package": "hps",
@@ -2083,6 +2262,7 @@
         "index": {
           "description": "upper right x-max",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "urx",
           "package": "hps",
@@ -2096,6 +2276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupper right y (y-max)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "ury",
           "package": "hps",
@@ -2106,6 +2287,7 @@
         "index": {
           "description": "upper right y-max",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "ury",
           "package": "hps",
@@ -2119,6 +2301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUS Letter size in millimeters (ie \u003ccode\u003e\u003ca\u003ePaper\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e216 279\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "usLetter",
           "package": "hps",
@@ -2129,6 +2312,7 @@
         "index": {
           "description": "US Letter size in millimeters ie Paper",
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "usLetter",
           "package": "hps",
@@ -2142,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Paper",
           "name": "width",
           "package": "hps",
@@ -2151,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Paper",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Paper",
           "name": "width",
           "package": "hps",
@@ -2164,6 +2350,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSet of predefined \u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path.Graphs",
           "name": "Graphs",
           "package": "hps",
@@ -2173,6 +2360,7 @@
         "index": {
           "description": "Set of predefined Path",
           "hierarchy": "Graphics PS Path Graphs",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path.Graphs",
           "name": "Graphs",
           "package": "hps",
@@ -2187,6 +2375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIsosceles right angled triangle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path.Graphs",
           "name": "erat",
           "package": "hps",
@@ -2197,6 +2386,7 @@
         "index": {
           "description": "Isosceles right angled triangle",
           "hierarchy": "Graphics PS Path Graphs",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path.Graphs",
           "name": "erat",
           "normalized": "Pt Double-\u003eDouble-\u003ePath",
@@ -2212,6 +2402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ca\u003eftp.scsh.net/pub/scsh/contrib/fps/doc/examples/fractal-arrow.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path.Graphs",
           "name": "fractalArrow",
           "package": "hps",
@@ -2222,6 +2413,7 @@
         "index": {
           "description": "See ftp.scsh.net pub scsh contrib fps doc examples fractal-arrow.html",
           "hierarchy": "Graphics PS Path Graphs",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path.Graphs",
           "name": "fractalArrow",
           "normalized": "Double-\u003eInt-\u003ePath",
@@ -2238,6 +2430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003efractal_sqr_pt\u003c/a\u003e\u003c/code\u003e with inputs \u003ccode\u003e(250,250)\u003c/code\u003e, \u003ccode\u003e(175,175)\u003c/code\u003e, \u003ccode\u003e12\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path.Graphs",
           "name": "fractal_sqr",
           "package": "hps",
@@ -2248,6 +2441,7 @@
         "index": {
           "description": "Path of fractal sqr pt with inputs",
           "hierarchy": "Graphics PS Path Graphs",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path.Graphs",
           "name": "fractal_sqr",
           "package": "hps",
@@ -2261,6 +2455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erenderLines'\u003c/a\u003e\u003c/code\u003e variant of \u003ccode\u003e\u003ca\u003efractal_sqr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path.Graphs",
           "name": "fractal_sqr'",
           "package": "hps",
@@ -2271,6 +2466,7 @@
         "index": {
           "description": "renderLines variant of fractal sqr",
           "hierarchy": "Graphics PS Path Graphs",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path.Graphs",
           "name": "fractal_sqr'",
           "package": "hps",
@@ -2284,6 +2480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ca\u003eftp.scsh.net/pub/scsh/contrib/fps/doc/examples/fractal-sqr.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path.Graphs",
           "name": "fractal_sqr_pt",
           "package": "hps",
@@ -2294,6 +2491,7 @@
         "index": {
           "description": "See ftp.scsh.net pub scsh contrib fps doc examples fractal-sqr.html",
           "hierarchy": "Graphics PS Path Graphs",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path.Graphs",
           "name": "fractal_sqr_pt",
           "normalized": "Pt Double-\u003ePt Double-\u003eInt-\u003e[Ln Double]",
@@ -2309,6 +2507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSierpinski triangle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path.Graphs",
           "name": "sierpinski",
           "package": "hps",
@@ -2319,6 +2518,7 @@
         "index": {
           "description": "Sierpinski triangle",
           "hierarchy": "Graphics PS Path Graphs",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path.Graphs",
           "name": "sierpinski",
           "normalized": "Pt Double-\u003eDouble-\u003eDouble-\u003ePath",
@@ -2334,6 +2534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003cem\u003eunit\u003c/em\u003e arrow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path.Graphs",
           "name": "unitArrow",
           "package": "hps",
@@ -2344,6 +2545,7 @@
         "index": {
           "description": "unit arrow",
           "hierarchy": "Graphics PS Path Graphs",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path.Graphs",
           "name": "unitArrow",
           "normalized": "Int-\u003ePath",
@@ -2360,6 +2562,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePath type and functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path",
           "name": "Path",
           "package": "hps",
@@ -2369,6 +2572,7 @@
         "index": {
           "description": "Path type and functions",
           "hierarchy": "Graphics PS Path",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path",
           "name": "Path",
           "package": "hps",
@@ -2383,6 +2587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath data type,in cartesian space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path",
           "name": "Path",
           "package": "hps",
@@ -2392,6 +2597,7 @@
         "index": {
           "description": "Path data type in cartesian space",
           "hierarchy": "Graphics PS Path",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path",
           "name": "Path",
           "package": "hps",
@@ -2406,6 +2612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix notation for \u003ccode\u003e\u003ca\u003eJoin\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path",
           "name": "(+++)",
           "package": "hps",
@@ -2416,6 +2623,7 @@
         "index": {
           "description": "Infix notation for Join",
           "hierarchy": "Graphics PS Path",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path",
           "name": "(+++) +++",
           "normalized": "Path-\u003ePath-\u003ePath",
@@ -2430,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path",
           "name": "ClosePath",
           "package": "hps",
@@ -2439,6 +2648,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Path",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path",
           "name": "ClosePath",
           "package": "hps",
@@ -2452,6 +2662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path",
           "name": "CurveTo",
           "package": "hps",
@@ -2461,6 +2672,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Path",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path",
           "name": "CurveTo",
           "package": "hps",
@@ -2474,6 +2686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path",
           "name": "Join",
           "package": "hps",
@@ -2483,6 +2696,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Path",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path",
           "name": "Join",
           "package": "hps",
@@ -2496,6 +2710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path",
           "name": "LineTo",
           "package": "hps",
@@ -2505,6 +2720,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Path",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path",
           "name": "LineTo",
           "package": "hps",
@@ -2518,6 +2734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path",
           "name": "MoveTo",
           "package": "hps",
@@ -2527,6 +2744,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Path",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path",
           "name": "MoveTo",
           "package": "hps",
@@ -2540,6 +2758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path",
           "name": "PTransform",
           "package": "hps",
@@ -2549,6 +2768,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Path",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path",
           "name": "PTransform",
           "package": "hps",
@@ -2562,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path",
           "name": "Text",
           "package": "hps",
@@ -2571,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Path",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path",
           "name": "Text",
           "normalized": "Text Font[Glyph]",
@@ -2587,6 +2809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnular segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path",
           "name": "annular",
           "package": "hps",
@@ -2597,6 +2820,7 @@
         "index": {
           "description": "Annular segment",
           "hierarchy": "Graphics PS Path",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path",
           "name": "annular",
           "normalized": "Pt Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003ePath",
@@ -2612,6 +2836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArc given by a central point,a radius,and start and end angles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path",
           "name": "arc",
           "package": "hps",
@@ -2622,6 +2847,7 @@
         "index": {
           "description": "Arc given by central point radius and start and end angles",
           "hierarchy": "Graphics PS Path",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path",
           "name": "arc",
           "normalized": "Pt Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003ePath",
@@ -2637,6 +2863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegative arc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path",
           "name": "arcNegative",
           "package": "hps",
@@ -2647,6 +2874,7 @@
         "index": {
           "description": "Negative arc",
           "hierarchy": "Graphics PS Path",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path",
           "name": "arcNegative",
           "normalized": "Pt Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003ePath",
@@ -2663,6 +2891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply any transformations at path.  The resulting path will not\n   have any \u003ccode\u003e\u003ca\u003ePTransform\u003c/a\u003e\u003c/code\u003e nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path",
           "name": "flatten",
           "package": "hps",
@@ -2673,6 +2902,7 @@
         "index": {
           "description": "Apply any transformations at path The resulting path will not have any PTransform nodes",
           "hierarchy": "Graphics PS Path",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path",
           "name": "flatten",
           "normalized": "Path-\u003ePath",
@@ -2688,6 +2918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine segments though list of \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path",
           "name": "line",
           "package": "hps",
@@ -2698,6 +2929,7 @@
         "index": {
           "description": "Line segments though list of Pt",
           "hierarchy": "Graphics PS Path",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path",
           "name": "line",
           "normalized": "[Pt Double]-\u003ePath",
@@ -2713,6 +2945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eline\u003c/a\u003e\u003c/code\u003e connecting the last \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e to the first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path",
           "name": "polygon",
           "package": "hps",
@@ -2723,6 +2956,7 @@
         "index": {
           "description": "Variant of line connecting the last Pt to the first",
           "hierarchy": "Graphics PS Path",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path",
           "name": "polygon",
           "normalized": "[Pt Double]-\u003ePath",
@@ -2738,6 +2972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRectangle with lower left at \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e and of specified width and\n height.  Polygon is ordered anticlockwise from lower left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path",
           "name": "rectangle",
           "package": "hps",
@@ -2748,6 +2983,7 @@
         "index": {
           "description": "Rectangle with lower left at Pt and of specified width and height Polygon is ordered anticlockwise from lower left",
           "hierarchy": "Graphics PS Path",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path",
           "name": "rectangle",
           "normalized": "Pt Double-\u003eDouble-\u003eDouble-\u003ePath",
@@ -2763,6 +2999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender each (p1,p2) as a distinct line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path",
           "name": "renderLines",
           "package": "hps",
@@ -2773,6 +3010,7 @@
         "index": {
           "description": "Render each p1 p2 as distinct line",
           "hierarchy": "Graphics PS Path",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path",
           "name": "renderLines",
           "normalized": "[Ln Double]-\u003ePath",
@@ -2789,6 +3027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollapse line sequences into a single line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Path",
           "name": "renderLines'",
           "package": "hps",
@@ -2799,6 +3038,7 @@
         "index": {
           "description": "Collapse line sequences into single line",
           "hierarchy": "Graphics PS Path",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Path",
           "name": "renderLines'",
           "normalized": "[Ln Double]-\u003ePath",
@@ -2815,6 +3055,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e query functions and related operations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Query",
           "name": "Query",
           "package": "hps",
@@ -2824,6 +3065,7 @@
         "index": {
           "description": "Path query functions and related operations",
           "hierarchy": "Graphics PS Query",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Query",
           "name": "Query",
           "package": "hps",
@@ -2838,6 +3080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApproximate curves as \u003cem\u003en\u003c/em\u003e straight line segments.  That is\n replace \u003ccode\u003e\u003ca\u003eCurveTo\u003c/a\u003e\u003c/code\u003e nodes with \u003cem\u003en\u003c/em\u003e \u003ccode\u003e\u003ca\u003eLineTo\u003c/a\u003e\u003c/code\u003e nodes calculated using\n \u003ccode\u003e\u003ca\u003ebezier4\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Query",
           "name": "approx",
           "package": "hps",
@@ -2848,6 +3091,7 @@
         "index": {
           "description": "Approximate curves as straight line segments That is replace CurveTo nodes with LineTo nodes calculated using bezier4",
           "hierarchy": "Graphics PS Query",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Query",
           "name": "approx",
           "normalized": "Double-\u003ePath-\u003ePath",
@@ -2863,6 +3107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend a \u003ccode\u003e\u003ca\u003eLineTo\u003c/a\u003e\u003c/code\u003e the start point of \u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Query",
           "name": "close",
           "package": "hps",
@@ -2873,6 +3118,7 @@
         "index": {
           "description": "Append LineTo the start point of Path",
           "hierarchy": "Graphics PS Query",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Query",
           "name": "close",
           "normalized": "Path-\u003ePath",
@@ -2888,6 +3134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocate the end point of the path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Query",
           "name": "endPt",
           "package": "hps",
@@ -2898,6 +3145,7 @@
         "index": {
           "description": "Locate the end point of the path",
           "hierarchy": "Graphics PS Query",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Query",
           "name": "endPt",
           "normalized": "Path-\u003eMaybe(Pt Double)",
@@ -2914,6 +3162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure path begins with a \u003ccode\u003e\u003ca\u003eMoveTo\u003c/a\u003e\u003c/code\u003e node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Query",
           "name": "mkValid",
           "package": "hps",
@@ -2924,6 +3173,7 @@
         "index": {
           "description": "Ensure path begins with MoveTo node",
           "hierarchy": "Graphics PS Query",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Query",
           "name": "mkValid",
           "normalized": "Path-\u003ePath",
@@ -2940,6 +3190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocate the starting point of the path, which must begin with a\n \u003ccode\u003e\u003ca\u003eMoveTo\u003c/a\u003e\u003c/code\u003e node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Query",
           "name": "startPt",
           "package": "hps",
@@ -2950,6 +3201,7 @@
         "index": {
           "description": "Locate the starting point of the path which must begin with MoveTo node",
           "hierarchy": "Graphics PS Query",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Query",
           "name": "startPt",
           "normalized": "Path-\u003eMaybe(Pt Double)",
@@ -2966,6 +3218,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e statistics.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Statistics",
           "name": "Statistics",
           "package": "hps",
@@ -2975,6 +3228,7 @@
         "index": {
           "description": "Path statistics",
           "hierarchy": "Graphics PS Statistics",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Statistics",
           "name": "Statistics",
           "package": "hps",
@@ -2989,6 +3243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath statistics data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Statistics",
           "name": "Statistics",
           "package": "hps",
@@ -2998,6 +3253,7 @@
         "index": {
           "description": "Path statistics data type",
           "hierarchy": "Graphics PS Statistics",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Statistics",
           "name": "Statistics",
           "package": "hps",
@@ -3011,6 +3267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Statistics",
           "name": "Statistics",
           "package": "hps",
@@ -3020,6 +3277,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Statistics",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Statistics",
           "name": "Statistics",
           "package": "hps",
@@ -3034,6 +3292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatistics for all \u003ccode\u003e\u003ca\u003epaths\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003eImage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Statistics",
           "name": "imageStatistics",
           "package": "hps",
@@ -3044,6 +3303,7 @@
         "index": {
           "description": "Statistics for all paths at Image",
           "hierarchy": "Graphics PS Statistics",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Statistics",
           "name": "imageStatistics",
           "normalized": "Image-\u003eStatistics",
@@ -3059,6 +3319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Statistics",
           "name": "nClosePath",
           "package": "hps",
@@ -3068,6 +3329,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Statistics",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Statistics",
           "name": "nClosePath",
           "package": "hps",
@@ -3081,6 +3343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Statistics",
           "name": "nCurveTo",
           "package": "hps",
@@ -3090,6 +3353,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Statistics",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Statistics",
           "name": "nCurveTo",
           "package": "hps",
@@ -3103,6 +3367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Statistics",
           "name": "nGlyph",
           "package": "hps",
@@ -3112,6 +3377,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Statistics",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Statistics",
           "name": "nGlyph",
           "package": "hps",
@@ -3125,6 +3391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Statistics",
           "name": "nLineTo",
           "package": "hps",
@@ -3134,6 +3401,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Statistics",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Statistics",
           "name": "nLineTo",
           "package": "hps",
@@ -3147,6 +3415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Statistics",
           "name": "nMoveTo",
           "package": "hps",
@@ -3156,6 +3425,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Statistics",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Statistics",
           "name": "nMoveTo",
           "package": "hps",
@@ -3169,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Statistics",
           "name": "nTransform",
           "package": "hps",
@@ -3178,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "Graphics PS Statistics",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Statistics",
           "name": "nTransform",
           "package": "hps",
@@ -3192,6 +3464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine number of path components of each type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Statistics",
           "name": "pathStatistics",
           "package": "hps",
@@ -3202,6 +3475,7 @@
         "index": {
           "description": "Determine number of path components of each type",
           "hierarchy": "Graphics PS Statistics",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Statistics",
           "name": "pathStatistics",
           "normalized": "Path-\u003eStatistics",
@@ -3218,6 +3492,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClass and associated functions for \u003ccode\u003e\u003ca\u003eMatrix\u003c/a\u003e\u003c/code\u003e transformations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Transform",
           "name": "Transform",
           "package": "hps",
@@ -3227,6 +3502,7 @@
         "index": {
           "description": "Class and associated functions for Matrix transformations",
           "hierarchy": "Graphics PS Transform",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Transform",
           "name": "Transform",
           "package": "hps",
@@ -3241,6 +3517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues that can be transformed in relation to a \u003ccode\u003e\u003ca\u003eMatrix\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Transform",
           "name": "Transformable",
           "package": "hps",
@@ -3250,6 +3527,7 @@
         "index": {
           "description": "Values that can be transformed in relation to Matrix",
           "hierarchy": "Graphics PS Transform",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Transform",
           "name": "Transformable",
           "package": "hps",
@@ -3264,6 +3542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotation, in radians.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Transform",
           "name": "rotate",
           "package": "hps",
@@ -3274,6 +3553,7 @@
         "index": {
           "description": "Rotation in radians",
           "hierarchy": "Graphics PS Transform",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Transform",
           "name": "rotate",
           "normalized": "Double-\u003ea-\u003ea",
@@ -3289,6 +3569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScaling in \u003cem\u003ex\u003c/em\u003e and \u003cem\u003ey\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Transform",
           "name": "scale",
           "package": "hps",
@@ -3299,6 +3580,7 @@
         "index": {
           "description": "Scaling in and",
           "hierarchy": "Graphics PS Transform",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Transform",
           "name": "scale",
           "normalized": "Double-\u003eDouble-\u003ea-\u003ea",
@@ -3314,6 +3596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslation in \u003cem\u003ex\u003c/em\u003e and \u003cem\u003ey\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Transform",
           "name": "translate",
           "package": "hps",
@@ -3324,6 +3607,7 @@
         "index": {
           "description": "Translation in and",
           "hierarchy": "Graphics PS Transform",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Transform",
           "name": "translate",
           "normalized": "Double-\u003eDouble-\u003ea-\u003ea",
@@ -3339,6 +3623,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnit definitions and conversions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Unit",
           "name": "Unit",
           "package": "hps",
@@ -3348,6 +3633,7 @@
         "index": {
           "description": "Unit definitions and conversions",
           "hierarchy": "Graphics PS Unit",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Unit",
           "name": "Unit",
           "package": "hps",
@@ -3362,6 +3648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert millimeters to PS points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Unit",
           "name": "mm_pt",
           "package": "hps",
@@ -3372,6 +3659,7 @@
         "index": {
           "description": "Convert millimeters to PS points",
           "hierarchy": "Graphics PS Unit",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Unit",
           "name": "mm_pt",
           "normalized": "a-\u003ea",
@@ -3387,6 +3675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert degrees to radians.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS.Unit",
           "name": "radians",
           "package": "hps",
@@ -3397,6 +3686,7 @@
         "index": {
           "description": "Convert degrees to radians",
           "hierarchy": "Graphics PS Unit",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS.Unit",
           "name": "radians",
           "normalized": "a-\u003ea",
@@ -3412,6 +3702,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTop-level module for \u003ccode\u003ehps\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:09 UTC 2014",
           "module": "Graphics.PS",
           "name": "PS",
           "package": "hps",
@@ -3421,6 +3712,7 @@
         "index": {
           "description": "Top-level module for hps",
           "hierarchy": "Graphics PS",
+          "indexed": "2014-03-11T18:45:09",
           "module": "Graphics.PS",
           "name": "PS",
           "package": "hps",

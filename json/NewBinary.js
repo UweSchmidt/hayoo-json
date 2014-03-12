@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "NewBinary"
+        "phrase": "NewBinary",
+        "type": "phrase"
       },
       "type": "context"
     }

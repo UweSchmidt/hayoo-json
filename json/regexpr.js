@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "regexpr"
+        "phrase": "regexpr",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:54 UTC 2014",
           "module": "Text.RegexPR",
           "name": "RegexPR",
           "package": "regexpr",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text RegexPR",
+          "indexed": "2014-03-11T19:51:54",
           "module": "Text.RegexPR",
           "name": "RegexPR",
           "package": "regexpr",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:54 UTC 2014",
           "module": "Text.RegexPR",
           "name": "getbrsRegexPR",
           "package": "regexpr",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text RegexPR",
+          "indexed": "2014-03-11T19:51:54",
           "module": "Text.RegexPR",
           "name": "getbrsRegexPR",
           "normalized": "String-\u003eString-\u003e[String]",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:54 UTC 2014",
           "module": "Text.RegexPR",
           "name": "ggetbrsRegexPR",
           "package": "regexpr",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Text RegexPR",
+          "indexed": "2014-03-11T19:51:54",
           "module": "Text.RegexPR",
           "name": "ggetbrsRegexPR",
           "normalized": "String-\u003eString-\u003e[[String]]",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:54 UTC 2014",
           "module": "Text.RegexPR",
           "name": "gmatchRegexPR",
           "package": "regexpr",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Text RegexPR",
+          "indexed": "2014-03-11T19:51:54",
           "module": "Text.RegexPR",
           "name": "gmatchRegexPR",
           "normalized": "MatchFun[]",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:54 UTC 2014",
           "module": "Text.RegexPR",
           "name": "gsubRegexPR",
           "package": "regexpr",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Text RegexPR",
+          "indexed": "2014-03-11T19:51:54",
           "module": "Text.RegexPR",
           "name": "gsubRegexPR",
           "normalized": "String-\u003eString-\u003eString-\u003eString",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:54 UTC 2014",
           "module": "Text.RegexPR",
           "name": "gsubRegexPRBy",
           "package": "regexpr",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Text RegexPR",
+          "indexed": "2014-03-11T19:51:54",
           "module": "Text.RegexPR",
           "name": "gsubRegexPRBy",
           "normalized": "String-\u003e(String-\u003eString)-\u003eString-\u003eString",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:54 UTC 2014",
           "module": "Text.RegexPR",
           "name": "matchRegexPR",
           "package": "regexpr",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Text RegexPR",
+          "indexed": "2014-03-11T19:51:54",
           "module": "Text.RegexPR",
           "name": "matchRegexPR",
           "package": "regexpr",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:54 UTC 2014",
           "module": "Text.RegexPR",
           "name": "multiMatchRegexPR",
           "package": "regexpr",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Text RegexPR",
+          "indexed": "2014-03-11T19:51:54",
           "module": "Text.RegexPR",
           "name": "multiMatchRegexPR",
           "normalized": "MatchFun[]",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:54 UTC 2014",
           "module": "Text.RegexPR",
           "name": "splitRegexPR",
           "package": "regexpr",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Text RegexPR",
+          "indexed": "2014-03-11T19:51:54",
           "module": "Text.RegexPR",
           "name": "splitRegexPR",
           "normalized": "String-\u003eString-\u003e[String]",
@@ -229,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:54 UTC 2014",
           "module": "Text.RegexPR",
           "name": "subRegexPR",
           "package": "regexpr",
@@ -238,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Text RegexPR",
+          "indexed": "2014-03-11T19:51:54",
           "module": "Text.RegexPR",
           "name": "subRegexPR",
           "normalized": "String-\u003eString-\u003eString-\u003eString",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:54 UTC 2014",
           "module": "Text.RegexPR",
           "name": "subRegexPRBy",
           "package": "regexpr",
@@ -262,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Text RegexPR",
+          "indexed": "2014-03-11T19:51:54",
           "module": "Text.RegexPR",
           "name": "subRegexPRBy",
           "normalized": "String-\u003e(String-\u003eString)-\u003eString-\u003eString",

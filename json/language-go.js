@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-go"
+        "phrase": "language-go",
+        "type": "phrase"
       },
       "type": "context"
     }

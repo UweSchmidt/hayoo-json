@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "roguestar-engine"
+        "phrase": "roguestar-engine",
+        "type": "phrase"
       },
       "type": "context"
     }

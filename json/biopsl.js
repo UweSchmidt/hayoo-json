@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "biopsl"
+        "phrase": "biopsl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis models the PSL format used by e.g. the alignment tool BLAT.  \n    It is a simple, textual representation of (spliced) alignments,\n    with tab-separated fields.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://genome.ucsc.edu/FAQ/FAQformat#format2\u003c/a\u003e for details.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "PSL",
           "package": "biopsl",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This models the PSL format used by e.g the alignment tool BLAT It is simple textual representation of spliced alignments with tab-separated fields See http genome.ucsc.edu FAQ FAQformat format2 for details",
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "PSL",
           "package": "biopsl",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis encodes a PSL record, corresponding to one line of the PSL file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "PSL",
           "package": "biopsl",
@@ -51,6 +54,7 @@
         "index": {
           "description": "This encodes PSL record corresponding to one line of the PSL file",
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "PSL",
           "package": "biopsl",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "PSL",
           "package": "biopsl",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "PSL",
           "package": "biopsl",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "blockcount",
           "package": "biopsl",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "blockcount",
           "package": "biopsl",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "blocksizes",
           "package": "biopsl",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "blocksizes",
           "normalized": "[Int]",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "match",
           "package": "biopsl",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "match",
           "package": "biopsl",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "mismatch",
           "package": "biopsl",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "mismatch",
           "package": "biopsl",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "ncount",
           "package": "biopsl",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "ncount",
           "package": "biopsl",
@@ -194,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e as a PSL file (note that it must contain the PSL header).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "parsePSL",
           "package": "biopsl",
@@ -204,6 +221,7 @@
         "index": {
           "description": "Parse ByteString as PSL file note that it must contain the PSL header",
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "parsePSL",
           "normalized": "ByteString-\u003e[PSL]",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "printPSL",
           "package": "biopsl",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "printPSL",
           "normalized": "[PSL]-\u003eIO()",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe PSL header (version 3), as a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "pslHeader",
           "package": "biopsl",
@@ -254,6 +275,7 @@
         "index": {
           "description": "The PSL header version as ByteString",
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "pslHeader",
           "package": "biopsl",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "qend",
           "package": "biopsl",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "qend",
           "package": "biopsl",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "qgapcount",
           "package": "biopsl",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "qgapcount",
           "package": "biopsl",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "qgaplength",
           "package": "biopsl",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "qgaplength",
           "package": "biopsl",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "qname",
           "package": "biopsl",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "qname",
           "package": "biopsl",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "qsize",
           "package": "biopsl",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "qsize",
           "package": "biopsl",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "qstart",
           "package": "biopsl",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "qstart",
           "package": "biopsl",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "qstarts",
           "package": "biopsl",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "qstarts",
           "normalized": "[Int]",
@@ -417,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead and parse a PSL file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "readPSL",
           "package": "biopsl",
@@ -427,6 +464,7 @@
         "index": {
           "description": "Read and parse PSL file",
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "readPSL",
           "normalized": "FilePath-\u003eIO[PSL]",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "repmatch",
           "package": "biopsl",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "repmatch",
           "package": "biopsl",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "strand",
           "package": "biopsl",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "strand",
           "package": "biopsl",
@@ -484,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "tend",
           "package": "biopsl",
@@ -493,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "tend",
           "package": "biopsl",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "tgapcount",
           "package": "biopsl",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "tgapcount",
           "package": "biopsl",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "tgaplength",
           "package": "biopsl",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "tgaplength",
           "package": "biopsl",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "tname",
           "package": "biopsl",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "tname",
           "package": "biopsl",
@@ -568,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "tsize",
           "package": "biopsl",
@@ -577,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "tsize",
           "package": "biopsl",
@@ -589,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "tstart",
           "package": "biopsl",
@@ -598,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "tstart",
           "package": "biopsl",
@@ -610,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "tstarts",
           "package": "biopsl",
@@ -619,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "tstarts",
           "normalized": "[Int]",
@@ -634,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnparse a list of \u003ccode\u003e\u003ca\u003ePSL\u003c/a\u003e\u003c/code\u003e alignments encoding them into a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e (not including PSL header).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "unparsePSL",
           "package": "biopsl",
@@ -644,6 +701,7 @@
         "index": {
           "description": "Unparse list of PSL alignments encoding them into ByteString not including PSL header",
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "unparsePSL",
           "normalized": "[PSL]-\u003eByteString",
@@ -660,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a PSL file from a list of alignments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:22 UTC 2014",
           "module": "Bio.Alignment.PSL",
           "name": "writePSL",
           "package": "biopsl",
@@ -670,6 +729,7 @@
         "index": {
           "description": "Create PSL file from list of alignments",
           "hierarchy": "Bio Alignment PSL",
+          "indexed": "2014-03-11T17:22:22",
           "module": "Bio.Alignment.PSL",
           "name": "writePSL",
           "normalized": "FilePath-\u003e[PSL]-\u003eIO()",

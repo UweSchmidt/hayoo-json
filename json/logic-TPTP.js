@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "logic-TPTP"
+        "phrase": "logic-TPTP",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "Base",
           "package": "logic-TPTP",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "Base",
           "package": "logic-TPTP",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotations about the formulas origin                   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "Annotations",
           "package": "logic-TPTP",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Annotations about the formulas origin",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "Annotations",
           "package": "logic-TPTP",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTPTP constant symbol/predicate symbol/function symbol identifiers (they are output in single quotes unless they are \u003cem\u003elower_word\u003c/em\u003es). \n\u003c/p\u003e\u003cp\u003eTip: Use the \u003ccode\u003e-XOverloadedStrings\u003c/code\u003e compiler flag if you don't want to have to type \u003cem\u003eAtomicWord\u003c/em\u003e to construct an \u003ccode\u003e\u003ca\u003eAtomicWord\u003c/a\u003e\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "AtomicWord",
           "package": "logic-TPTP",
@@ -72,6 +77,7 @@
         "index": {
           "description": "TPTP constant symbol predicate symbol function symbol identifiers they are output in single quotes unless they are lower word Tip Use the XOverloadedStrings compiler flag if you don want to have to type AtomicWord to construct an AtomicWord",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "AtomicWord",
           "package": "logic-TPTP",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary formula connectives \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "BinOp",
           "package": "logic-TPTP",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Binary formula connectives",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "BinOp",
           "package": "logic-TPTP",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormulae whose subexpressions are wrapped in the given type constructor \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003ec = \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e: Plain formulae\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ec = \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e: Formulae that may contain \"holes\"\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ec = \u003ccode\u003eIORef\u003c/code\u003e\u003c/code\u003e: (Mutable) formulae with mutable subexpressions \n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "F",
           "package": "logic-TPTP",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Formulae whose subexpressions are wrapped in the given type constructor For example Identity Plain formulae Maybe Formulae that may contain holes IORef Mutable formulae with mutable subexpressions",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "F",
           "package": "logic-TPTP",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic (undecorated) first-order formulae                   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "Formula",
           "package": "logic-TPTP",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Basic undecorated first-order formulae",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "Formula",
           "package": "logic-TPTP",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ca\u003ehttp://haskell.org/haskellwiki/Indirect_composite\u003c/a\u003e for the point of the type parameters (they allow for future decorations, e.g. monadic subformulae). If you don't need decorations, you can just use \u003ccode\u003e\u003ca\u003eFormula\u003c/a\u003e\u003c/code\u003e and the wrapped constructors above.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "Formula0",
           "package": "logic-TPTP",
@@ -163,6 +176,7 @@
         "index": {
           "description": "See http haskell.org haskellwiki Indirect composite for the point of the type parameters they allow for future decorations e.g monadic subformulae If you don need decorations you can just use Formula and the wrapped constructors above",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "Formula0",
           "package": "logic-TPTP",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst-order formulae decorated with comments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "FormulaC",
           "package": "logic-TPTP",
@@ -186,6 +201,7 @@
         "index": {
           "description": "First-order formulae decorated with comments",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "FormulaC",
           "package": "logic-TPTP",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst-order formulae decorated with state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "FormulaST",
           "package": "logic-TPTP",
@@ -209,6 +226,7 @@
         "index": {
           "description": "First-order formulae decorated with state",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "FormulaST",
           "package": "logic-TPTP",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "FreeVars",
           "package": "logic-TPTP",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "FreeVars",
           "package": "logic-TPTP",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetadata (the \u003cem\u003egeneral_data\u003c/em\u003e rule in TPTP's grammar)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "GData",
           "package": "logic-TPTP",
@@ -253,6 +274,7 @@
         "index": {
           "description": "Metadata the general data rule in TPTP grammar",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "GData",
           "package": "logic-TPTP",
@@ -267,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetadata (the \u003cem\u003egeneral_term\u003c/em\u003e rule in TPTP's grammar)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "GTerm",
           "package": "logic-TPTP",
@@ -276,6 +299,7 @@
         "index": {
           "description": "Metadata the general term rule in TPTP grammar",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "GTerm",
           "package": "logic-TPTP",
@@ -290,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eTerm -\u003e Term -\u003e Formula\u003c/em\u003e infix connectives\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "InfixPred",
           "package": "logic-TPTP",
@@ -299,6 +324,7 @@
         "index": {
           "description": "Term Term Formula infix connectives",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "InfixPred",
           "package": "logic-TPTP",
@@ -313,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuantifier specification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "Quant",
           "package": "logic-TPTP",
@@ -322,6 +349,7 @@
         "index": {
           "description": "Quantifier specification",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "Quant",
           "package": "logic-TPTP",
@@ -336,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormula roles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "Role",
           "package": "logic-TPTP",
@@ -345,6 +374,7 @@
         "index": {
           "description": "Formula roles",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "Role",
           "package": "logic-TPTP",
@@ -359,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerms whose subterms are wrapped in the given type constructor \u003ccode\u003ec\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "T",
           "package": "logic-TPTP",
@@ -368,6 +399,7 @@
         "index": {
           "description": "Terms whose subterms are wrapped in the given type constructor",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "T",
           "package": "logic-TPTP",
@@ -381,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA line of a TPTP file: Annotated formula, comment or include statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "TPTP_Input",
           "package": "logic-TPTP",
@@ -390,6 +423,7 @@
         "index": {
           "description": "line of TPTP file Annotated formula comment or include statement",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "TPTP_Input",
           "package": "logic-TPTP",
@@ -404,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized TPTP_Input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "TPTP_Input_",
           "package": "logic-TPTP",
@@ -413,6 +448,7 @@
         "index": {
           "description": "Generalized TPTP Input",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "TPTP_Input_",
           "package": "logic-TPTP",
@@ -427,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA line of a TPTP file: Annotated formula (with the comment string embbeded in the State monad ), comment or include statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "TPTP_Input_C",
           "package": "logic-TPTP",
@@ -436,6 +473,7 @@
         "index": {
           "description": "line of TPTP file Annotated formula with the comment string embbeded in the State monad comment or include statement",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "TPTP_Input_C",
           "package": "logic-TPTP",
@@ -450,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic (undecorated) terms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "Term",
           "package": "logic-TPTP",
@@ -459,6 +498,7 @@
         "index": {
           "description": "Basic undecorated terms",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "Term",
           "package": "logic-TPTP",
@@ -473,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ca\u003ehttp://haskell.org/haskellwiki/Indirect_composite\u003c/a\u003e for the point of the type parameters (they allow for future decorations). If you don't need decorations, you can just use \u003ccode\u003e\u003ca\u003eTerm\u003c/a\u003e\u003c/code\u003e and the wrapped constructors above.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "Term0",
           "package": "logic-TPTP",
@@ -482,6 +523,7 @@
         "index": {
           "description": "See http haskell.org haskellwiki Indirect composite for the point of the type parameters they allow for future decorations If you don need decorations you can just use Term and the wrapped constructors above",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "Term0",
           "package": "logic-TPTP",
@@ -496,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerms decorated with comments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "TermC",
           "package": "logic-TPTP",
@@ -505,6 +548,7 @@
         "index": {
           "description": "Terms decorated with comments",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "TermC",
           "package": "logic-TPTP",
@@ -519,6 +563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerms decorated with state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "TermST",
           "package": "logic-TPTP",
@@ -528,6 +573,7 @@
         "index": {
           "description": "Terms decorated with state",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "TermST",
           "package": "logic-TPTP",
@@ -542,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMisc annotations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "UsefulInfo",
           "package": "logic-TPTP",
@@ -551,6 +598,7 @@
         "index": {
           "description": "Misc annotations",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "UsefulInfo",
           "package": "logic-TPTP",
@@ -565,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable names\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "V",
           "package": "logic-TPTP",
@@ -574,6 +623,7 @@
         "index": {
           "description": "Variable names",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "V",
           "package": "logic-TPTP",
@@ -587,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisjunction/OR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "(.|.)",
           "package": "logic-TPTP",
@@ -597,6 +648,7 @@
         "index": {
           "description": "Disjunction OR",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "(.|.) .|.",
           "normalized": "F a-\u003eF a-\u003eF a",
@@ -612,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNOR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "(.~|.)",
           "package": "logic-TPTP",
@@ -622,6 +675,7 @@
         "index": {
           "description": "NOR",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "(.~|.) .~|.",
           "normalized": "F a-\u003eF a-\u003eF a",
@@ -637,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNAND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "(.~&.)",
           "package": "logic-TPTP",
@@ -647,6 +702,7 @@
         "index": {
           "description": "NAND",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "(.~&.) .~&.",
           "normalized": "F a-\u003eF a-\u003eF a",
@@ -662,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "(.~.)",
           "package": "logic-TPTP",
@@ -672,6 +729,7 @@
         "index": {
           "description": "Negation",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "(.~.) .~.",
           "normalized": "F a-\u003eF a",
@@ -687,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInequality\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "(.!=.)",
           "package": "logic-TPTP",
@@ -697,6 +756,7 @@
         "index": {
           "description": "Inequality",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "(.!=.) .!=.",
           "normalized": "T a-\u003eT a-\u003eF a",
@@ -712,6 +772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConjunction/AND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "(.&.)",
           "package": "logic-TPTP",
@@ -722,6 +783,7 @@
         "index": {
           "description": "Conjunction AND",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "(.&.) .&.",
           "normalized": "F a-\u003eF a-\u003eF a",
@@ -737,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXOR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "(.\u003c~\u003e.)",
           "package": "logic-TPTP",
@@ -747,6 +810,7 @@
         "index": {
           "description": "XOR",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "(.\u003c~\u003e.) .\u003c~\u003e.",
           "normalized": "F a-\u003eF a-\u003eF a",
@@ -762,6 +826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalence\n\u003c/p\u003e\u003cp\u003eImportant special case:\n\u003c/p\u003e\u003cpre\u003e(.\u003c=\u003e.) :: \u003ccode\u003e\u003ca\u003eFormula\u003c/a\u003e\u003c/code\u003e -\u003e \u003ccode\u003e\u003ca\u003eFormula\u003c/a\u003e\u003c/code\u003e -\u003e \u003ccode\u003e\u003ca\u003eFormula\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "(.\u003c=\u003e.)",
           "package": "logic-TPTP",
@@ -772,6 +837,7 @@
         "index": {
           "description": "Equivalence Important special case Formula Formula Formula",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "(.\u003c=\u003e.) .\u003c=\u003e.",
           "normalized": "F a-\u003eF a-\u003eF a",
@@ -787,6 +853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse implication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "(.\u003c=.)",
           "package": "logic-TPTP",
@@ -797,6 +864,7 @@
         "index": {
           "description": "Reverse implication",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "(.\u003c=.) .\u003c=.",
           "normalized": "F a-\u003eF a-\u003eF a",
@@ -812,6 +880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "(.=\u003e.)",
           "package": "logic-TPTP",
@@ -822,6 +891,7 @@
         "index": {
           "description": "Implication",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "(.=\u003e.) .=\u003e.",
           "normalized": "F a-\u003eF a-\u003eF a",
@@ -837,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "(.=.)",
           "package": "logic-TPTP",
@@ -847,6 +918,7 @@
         "index": {
           "description": "Equality",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "(.=.) .=.",
           "normalized": "T a-\u003eT a-\u003eF a",
@@ -862,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": ":|:",
           "package": "logic-TPTP",
@@ -872,6 +945,7 @@
         "index": {
           "description": "OR",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": ":|:",
           "package": "logic-TPTP",
@@ -885,6 +959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNOR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": ":~|:",
           "package": "logic-TPTP",
@@ -895,6 +970,7 @@
         "index": {
           "description": "NOR",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": ":~|:",
           "package": "logic-TPTP",
@@ -908,6 +984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNAND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": ":~&:",
           "package": "logic-TPTP",
@@ -918,6 +995,7 @@
         "index": {
           "description": "NAND",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": ":~&:",
           "package": "logic-TPTP",
@@ -931,6 +1009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": ":~:",
           "package": "logic-TPTP",
@@ -941,6 +1020,7 @@
         "index": {
           "description": "Negation",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": ":~:",
           "package": "logic-TPTP",
@@ -953,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": ":!=:",
           "package": "logic-TPTP",
@@ -962,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": ":!=:",
           "package": "logic-TPTP",
@@ -975,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": ":&:",
           "package": "logic-TPTP",
@@ -985,6 +1068,7 @@
         "index": {
           "description": "AND",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": ":&:",
           "package": "logic-TPTP",
@@ -998,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXOR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": ":\u003c~\u003e:",
           "package": "logic-TPTP",
@@ -1008,6 +1093,7 @@
         "index": {
           "description": "XOR",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": ":\u003c~\u003e:",
           "package": "logic-TPTP",
@@ -1021,6 +1107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": ":\u003c=\u003e:",
           "package": "logic-TPTP",
@@ -1031,6 +1118,7 @@
         "index": {
           "description": "Equivalence",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": ":\u003c=\u003e:",
           "package": "logic-TPTP",
@@ -1044,6 +1132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse Implication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": ":\u003c=:",
           "package": "logic-TPTP",
@@ -1054,6 +1143,7 @@
         "index": {
           "description": "Reverse Implication",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": ":\u003c=:",
           "package": "logic-TPTP",
@@ -1067,6 +1157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": ":=\u003e:",
           "package": "logic-TPTP",
@@ -1077,6 +1168,7 @@
         "index": {
           "description": "Implication",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": ":=\u003e:",
           "package": "logic-TPTP",
@@ -1089,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": ":=:",
           "package": "logic-TPTP",
@@ -1098,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": ":=:",
           "package": "logic-TPTP",
@@ -1111,6 +1205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotated formulae\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "AFormula",
           "package": "logic-TPTP",
@@ -1121,6 +1216,7 @@
         "index": {
           "description": "Annotated formulae",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "AFormula",
           "package": "logic-TPTP",
@@ -1134,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "All",
           "package": "logic-TPTP",
@@ -1143,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "All",
           "package": "logic-TPTP",
@@ -1156,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "Annotations",
           "package": "logic-TPTP",
@@ -1165,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "Annotations",
           "package": "logic-TPTP",
@@ -1178,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "AtomicWord",
           "package": "logic-TPTP",
@@ -1187,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "AtomicWord",
           "package": "logic-TPTP",
@@ -1201,6 +1303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary connective application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "BinOp",
           "package": "logic-TPTP",
@@ -1211,6 +1314,7 @@
         "index": {
           "description": "Binary connective application",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "BinOp",
           "package": "logic-TPTP",
@@ -1224,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "ColonSep",
           "package": "logic-TPTP",
@@ -1233,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "ColonSep",
           "package": "logic-TPTP",
@@ -1246,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "Comment",
           "package": "logic-TPTP",
@@ -1255,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "Comment",
           "package": "logic-TPTP",
@@ -1269,6 +1377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDouble-quoted item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "DistinctObjectTerm",
           "package": "logic-TPTP",
@@ -1279,6 +1388,7 @@
         "index": {
           "description": "Double-quoted item",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "DistinctObjectTerm",
           "package": "logic-TPTP",
@@ -1292,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "Exists",
           "package": "logic-TPTP",
@@ -1301,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "Exists",
           "package": "logic-TPTP",
@@ -1314,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "F",
           "package": "logic-TPTP",
@@ -1323,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "F",
           "package": "logic-TPTP",
@@ -1336,6 +1450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction symbol application (constants are encoded as nullary functions) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "FunApp",
           "package": "logic-TPTP",
@@ -1346,6 +1461,7 @@
         "index": {
           "description": "Function symbol application constants are encoded as nullary functions",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "FunApp",
           "normalized": "FunApp AtomicWord[a]",
@@ -1361,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "GApp",
           "package": "logic-TPTP",
@@ -1370,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "GApp",
           "normalized": "GApp AtomicWord[GTerm]",
@@ -1385,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "GDistinctObject",
           "package": "logic-TPTP",
@@ -1394,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "GDistinctObject",
           "package": "logic-TPTP",
@@ -1407,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "GFormulaData",
           "package": "logic-TPTP",
@@ -1416,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "GFormulaData",
           "package": "logic-TPTP",
@@ -1429,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "GList",
           "package": "logic-TPTP",
@@ -1438,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "GList",
           "normalized": "GList[GTerm]",
@@ -1453,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "GNumber",
           "package": "logic-TPTP",
@@ -1462,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "GNumber",
           "package": "logic-TPTP",
@@ -1475,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "GTerm",
           "package": "logic-TPTP",
@@ -1484,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "GTerm",
           "package": "logic-TPTP",
@@ -1497,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "GVar",
           "package": "logic-TPTP",
@@ -1506,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "GVar",
           "package": "logic-TPTP",
@@ -1519,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "GWord",
           "package": "logic-TPTP",
@@ -1528,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "GWord",
           "package": "logic-TPTP",
@@ -1541,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "Include",
           "package": "logic-TPTP",
@@ -1550,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "Include",
           "normalized": "Include FilePath[AtomicWord]",
@@ -1566,6 +1700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix predicate application (equalities, inequalities)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "InfixPred",
           "package": "logic-TPTP",
@@ -1576,6 +1711,7 @@
         "index": {
           "description": "Infix predicate application equalities inequalities",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "InfixPred",
           "package": "logic-TPTP",
@@ -1589,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "NoAnnotations",
           "package": "logic-TPTP",
@@ -1598,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "NoAnnotations",
           "package": "logic-TPTP",
@@ -1611,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "NoUsefulInfo",
           "package": "logic-TPTP",
@@ -1620,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "NoUsefulInfo",
           "package": "logic-TPTP",
@@ -1634,6 +1774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "NumberLitTerm",
           "package": "logic-TPTP",
@@ -1644,6 +1785,7 @@
         "index": {
           "description": "Number literal",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "NumberLitTerm",
           "package": "logic-TPTP",
@@ -1658,6 +1800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "PredApp",
           "package": "logic-TPTP",
@@ -1668,6 +1811,7 @@
         "index": {
           "description": "Predicate application",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "PredApp",
           "normalized": "PredApp AtomicWord[a]",
@@ -1684,6 +1828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuantified formula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "Quant",
           "package": "logic-TPTP",
@@ -1694,6 +1839,7 @@
         "index": {
           "description": "Quantified formula",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "Quant",
           "normalized": "Quant Quant[V]a",
@@ -1709,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "Role",
           "package": "logic-TPTP",
@@ -1718,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "Role",
           "package": "logic-TPTP",
@@ -1731,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "T",
           "package": "logic-TPTP",
@@ -1740,6 +1889,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "T",
           "package": "logic-TPTP",
@@ -1752,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "UsefulInfo",
           "package": "logic-TPTP",
@@ -1761,6 +1912,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "UsefulInfo",
           "normalized": "UsefulInfo[GTerm]",
@@ -1776,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "V",
           "package": "logic-TPTP",
@@ -1785,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "V",
           "package": "logic-TPTP",
@@ -1798,6 +1952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "Var",
           "package": "logic-TPTP",
@@ -1808,6 +1963,7 @@
         "index": {
           "description": "Variable",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "Var",
           "package": "logic-TPTP",
@@ -1821,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "annotations",
           "package": "logic-TPTP",
@@ -1830,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "annotations",
           "package": "logic-TPTP",
@@ -1843,6 +2001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDouble-quoted string literal, called \u003cem\u003eDistinct Object\u003c/em\u003e in TPTP's grammar \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "distinctObjectTerm",
           "package": "logic-TPTP",
@@ -1853,6 +2012,7 @@
         "index": {
           "description": "Double-quoted string literal called Distinct Object in TPTP grammar",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "distinctObjectTerm",
           "normalized": "String-\u003eT a",
@@ -1869,6 +2029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExistential quantification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "exists",
           "package": "logic-TPTP",
@@ -1879,6 +2040,7 @@
         "index": {
           "description": "Existential quantification",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "exists",
           "normalized": "[V]-\u003eF a-\u003eF a",
@@ -1894,6 +2056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction symbol application (constants are encoded as nullary functions)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "fApp",
           "package": "logic-TPTP",
@@ -1904,6 +2067,7 @@
         "index": {
           "description": "Function symbol application constants are encoded as nullary functions",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "fApp",
           "normalized": "AtomicWord-\u003e[T a]-\u003eT a",
@@ -1920,6 +2084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEliminate formulae\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "foldF",
           "package": "logic-TPTP",
@@ -1929,6 +2094,7 @@
         "index": {
           "description": "Eliminate formulae",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "foldF",
           "normalized": "(F a-\u003eb)-\u003e(Quant-\u003e[V]-\u003eF a-\u003eb)-\u003e(F a-\u003eBinOp-\u003eF a-\u003eb)-\u003e(T a-\u003eInfixPred-\u003eT a-\u003eb)-\u003e(AtomicWord-\u003e[T a]-\u003eb)-\u003eF a-\u003eb",
@@ -1943,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "foldFormula0",
           "package": "logic-TPTP",
@@ -1952,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "foldFormula0",
           "normalized": "(a-\u003eb)-\u003e(Quant-\u003e[V]-\u003ea-\u003eb)-\u003e(a-\u003eBinOp-\u003ea-\u003eb)-\u003e(c-\u003eInfixPred-\u003ec-\u003eb)-\u003e(AtomicWord-\u003e[c]-\u003eb)-\u003eFormula c a-\u003eb",
@@ -1968,6 +2136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEliminate terms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "foldT",
           "package": "logic-TPTP",
@@ -1977,6 +2146,7 @@
         "index": {
           "description": "Eliminate terms",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "foldT",
           "normalized": "(String-\u003ea)-\u003e(Rational-\u003ea)-\u003e(V-\u003ea)-\u003e(AtomicWord-\u003e[T b]-\u003ea)-\u003eT b-\u003ea",
@@ -1991,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "foldTerm0",
           "package": "logic-TPTP",
@@ -2000,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "foldTerm0",
           "normalized": "(String-\u003ea)-\u003e(Rational-\u003ea)-\u003e(V-\u003ea)-\u003e(AtomicWord-\u003e[b]-\u003ea)-\u003eTerm b-\u003ea",
@@ -2016,6 +2188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniversal quantification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "for_all",
           "package": "logic-TPTP",
@@ -2026,6 +2199,7 @@
         "index": {
           "description": "Universal quantification",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "for_all",
           "normalized": "[V]-\u003eF a-\u003eF a",
@@ -2041,6 +2215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForget comments in formulae decorated with comments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "forgetFC",
           "package": "logic-TPTP",
@@ -2051,6 +2226,7 @@
         "index": {
           "description": "Forget comments in formulae decorated with comments",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "forgetFC",
           "normalized": "FormulaC-\u003eFormula",
@@ -2067,6 +2243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForget comments in terms decorated with comments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "forgetTC",
           "package": "logic-TPTP",
@@ -2077,6 +2254,7 @@
         "index": {
           "description": "Forget comments in terms decorated with comments",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "forgetTC",
           "normalized": "TermC-\u003eTerm",
@@ -2093,6 +2271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForget comments in a line of a TPTP file decorated with comments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "forgetTIC",
           "package": "logic-TPTP",
@@ -2103,6 +2282,7 @@
         "index": {
           "description": "Forget comments in line of TPTP file decorated with comments",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "forgetTIC",
           "normalized": "TPTP_Input_C-\u003eTPTP_Input",
@@ -2118,6 +2298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "formula",
           "package": "logic-TPTP",
@@ -2127,6 +2308,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "formula",
           "package": "logic-TPTP",
@@ -2140,6 +2322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain the free variables from a formula or term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "freeVars",
           "package": "logic-TPTP",
@@ -2150,6 +2333,7 @@
         "index": {
           "description": "Obtain the free variables from formula or term",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "freeVars",
           "normalized": "a-\u003eSet V",
@@ -2165,6 +2349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "name",
           "package": "logic-TPTP",
@@ -2174,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "name",
           "package": "logic-TPTP",
@@ -2187,6 +2373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "numberLitTerm",
           "package": "logic-TPTP",
@@ -2197,6 +2384,7 @@
         "index": {
           "description": "Number literal",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "numberLitTerm",
           "normalized": "Rational-\u003eT a",
@@ -2213,6 +2401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate symbol application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "pApp",
           "package": "logic-TPTP",
@@ -2223,6 +2412,7 @@
         "index": {
           "description": "Predicate symbol application",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "pApp",
           "normalized": "AtomicWord-\u003e[T a]-\u003eF a",
@@ -2238,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "role",
           "package": "logic-TPTP",
@@ -2247,6 +2438,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "role",
           "package": "logic-TPTP",
@@ -2259,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "runF",
           "package": "logic-TPTP",
@@ -2268,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "runF",
           "package": "logic-TPTP",
@@ -2280,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "runT",
           "package": "logic-TPTP",
@@ -2289,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "runT",
           "package": "logic-TPTP",
@@ -2302,6 +2498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniversally quantify all free variables in the formula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "univquant_free_vars",
           "package": "logic-TPTP",
@@ -2312,6 +2509,7 @@
         "index": {
           "description": "Universally quantify all free variables in the formula",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "univquant_free_vars",
           "normalized": "Formula-\u003eFormula",
@@ -2326,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "unrole",
           "package": "logic-TPTP",
@@ -2335,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "unrole",
           "package": "logic-TPTP",
@@ -2347,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "unwrapF",
           "package": "logic-TPTP",
@@ -2356,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "unwrapF",
           "normalized": "F a-\u003eFormula(T a)(F a)",
@@ -2370,6 +2572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "unwrapT",
           "package": "logic-TPTP",
@@ -2379,6 +2582,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "unwrapT",
           "normalized": "T a-\u003eTerm(T a)",
@@ -2394,6 +2598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Base",
           "name": "var",
           "package": "logic-TPTP",
@@ -2404,6 +2609,7 @@
         "index": {
           "description": "Variable",
           "hierarchy": "Codec TPTP Base",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Base",
           "name": "var",
           "normalized": "V-\u003eT a",
@@ -2418,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Diff",
           "name": "Diff",
           "package": "logic-TPTP",
@@ -2426,6 +2633,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Diff",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Diff",
           "name": "Diff",
           "package": "logic-TPTP",
@@ -2439,6 +2647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Diff",
           "name": "DiffResult",
           "package": "logic-TPTP",
@@ -2447,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Diff",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Diff",
           "name": "DiffResult",
           "package": "logic-TPTP",
@@ -2460,6 +2670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Diff",
           "name": "Diffable",
           "package": "logic-TPTP",
@@ -2468,6 +2679,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Diff",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Diff",
           "name": "Diffable",
           "package": "logic-TPTP",
@@ -2481,6 +2693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Diff",
           "name": "F0Diff",
           "package": "logic-TPTP",
@@ -2489,6 +2702,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Diff",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Diff",
           "name": "F0Diff",
           "package": "logic-TPTP",
@@ -2502,6 +2716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Diff",
           "name": "T0Diff",
           "package": "logic-TPTP",
@@ -2510,6 +2725,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Diff",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Diff",
           "name": "T0Diff",
           "package": "logic-TPTP",
@@ -2524,6 +2740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe arguments differ and are not of similar form (don't recurse)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Diff",
           "name": "Differ",
           "package": "logic-TPTP",
@@ -2534,6 +2751,7 @@
         "index": {
           "description": "The arguments differ and are not of similar form don recurse",
           "hierarchy": "Codec TPTP Diff",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Diff",
           "name": "Differ",
           "package": "logic-TPTP",
@@ -2547,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Diff",
           "name": "DontCare",
           "package": "logic-TPTP",
@@ -2556,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Diff",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Diff",
           "name": "DontCare",
           "package": "logic-TPTP",
@@ -2570,6 +2790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoth arguments are the same. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Diff",
           "name": "Same",
           "package": "logic-TPTP",
@@ -2580,6 +2801,7 @@
         "index": {
           "description": "Both arguments are the same",
           "hierarchy": "Codec TPTP Diff",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Diff",
           "name": "Same",
           "package": "logic-TPTP",
@@ -2594,6 +2816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe arguments are recursive expressions of the same form, but their subterms differ. Return a \"decorated\" term that shows where the differences are \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Diff",
           "name": "SameHead",
           "package": "logic-TPTP",
@@ -2604,6 +2827,7 @@
         "index": {
           "description": "The arguments are recursive expressions of the same form but their subterms differ Return decorated term that shows where the differences are",
           "hierarchy": "Codec TPTP Diff",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Diff",
           "name": "SameHead",
           "package": "logic-TPTP",
@@ -2617,6 +2841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Diff",
           "name": "diff",
           "package": "logic-TPTP",
@@ -2626,6 +2851,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Diff",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Diff",
           "name": "diff",
           "normalized": "a-\u003ea-\u003eb",
@@ -2641,6 +2867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLess random generator for generating formulae suitable for testing diff\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Diff",
           "name": "diffGenF",
           "package": "logic-TPTP",
@@ -2651,6 +2878,7 @@
         "index": {
           "description": "Less random generator for generating formulae suitable for testing diff",
           "hierarchy": "Codec TPTP Diff",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Diff",
           "name": "diffGenF",
           "package": "logic-TPTP",
@@ -2664,6 +2892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Diff",
           "name": "diffGenT",
           "package": "logic-TPTP",
@@ -2673,6 +2902,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Diff",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Diff",
           "name": "diffGenT",
           "package": "logic-TPTP",
@@ -2686,6 +2916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Diff",
           "name": "isSame",
           "package": "logic-TPTP",
@@ -2695,6 +2926,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Diff",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Diff",
           "name": "isSame",
           "normalized": "a b DiffResult c-\u003eBool",
@@ -2710,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Diff",
           "name": "printSampleDiffs",
           "package": "logic-TPTP",
@@ -2719,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Diff",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Diff",
           "name": "printSampleDiffs",
           "normalized": "IO()",
@@ -2734,6 +2968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Export",
           "name": "Export",
           "package": "logic-TPTP",
@@ -2742,6 +2977,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Export",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Export",
           "name": "Export",
           "package": "logic-TPTP",
@@ -2755,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Export",
           "name": "ToTPTP",
           "package": "logic-TPTP",
@@ -2763,6 +3000,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Export",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Export",
           "name": "ToTPTP",
           "package": "logic-TPTP",
@@ -2776,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Export",
           "name": "isLowerWord",
           "package": "logic-TPTP",
@@ -2785,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Export",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Export",
           "name": "isLowerWord",
           "normalized": "[Char]-\u003eBool",
@@ -2801,6 +3041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to TPTP\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Export",
           "name": "toTPTP",
           "package": "logic-TPTP",
@@ -2811,6 +3052,7 @@
         "index": {
           "description": "Convert to TPTP",
           "hierarchy": "Codec TPTP Export",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Export",
           "name": "toTPTP",
           "normalized": "a-\u003eShowS",
@@ -2827,6 +3069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient wrapper for \u003ccode\u003e\u003ca\u003etoTPTP\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Export",
           "name": "toTPTP'",
           "package": "logic-TPTP",
@@ -2837,6 +3080,7 @@
         "index": {
           "description": "Convenient wrapper for toTPTP",
           "hierarchy": "Codec TPTP Export",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Export",
           "name": "toTPTP'",
           "normalized": "a-\u003eString",
@@ -2852,6 +3096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "Import",
           "package": "logic-TPTP",
@@ -2860,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "Import",
           "package": "logic-TPTP",
@@ -2873,6 +3119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "Token",
           "package": "logic-TPTP",
@@ -2881,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "Token",
           "package": "logic-TPTP",
@@ -2894,6 +3142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "Comma",
           "package": "logic-TPTP",
@@ -2903,6 +3152,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "Comma",
           "package": "logic-TPTP",
@@ -2916,6 +3166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "CommentToken",
           "package": "logic-TPTP",
@@ -2925,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "CommentToken",
           "package": "logic-TPTP",
@@ -2938,6 +3190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "DollarDollarWord",
           "package": "logic-TPTP",
@@ -2947,6 +3200,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "DollarDollarWord",
           "package": "logic-TPTP",
@@ -2960,6 +3214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "DollarWord",
           "package": "logic-TPTP",
@@ -2969,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "DollarWord",
           "package": "logic-TPTP",
@@ -2982,6 +3238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "Dot",
           "package": "logic-TPTP",
@@ -2991,6 +3248,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "Dot",
           "package": "logic-TPTP",
@@ -3004,6 +3262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "DoubleQuoted",
           "package": "logic-TPTP",
@@ -3013,6 +3272,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "DoubleQuoted",
           "package": "logic-TPTP",
@@ -3026,6 +3286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "LP",
           "package": "logic-TPTP",
@@ -3035,6 +3296,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "LP",
           "package": "logic-TPTP",
@@ -3048,6 +3310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "Lbrack",
           "package": "logic-TPTP",
@@ -3057,6 +3320,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "Lbrack",
           "package": "logic-TPTP",
@@ -3070,6 +3334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "LowerWord",
           "package": "logic-TPTP",
@@ -3079,6 +3344,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "LowerWord",
           "package": "logic-TPTP",
@@ -3092,6 +3358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "Oper",
           "package": "logic-TPTP",
@@ -3101,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "Oper",
           "package": "logic-TPTP",
@@ -3114,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "Plus",
           "package": "logic-TPTP",
@@ -3123,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "Plus",
           "package": "logic-TPTP",
@@ -3136,6 +3406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "RP",
           "package": "logic-TPTP",
@@ -3145,6 +3416,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "RP",
           "package": "logic-TPTP",
@@ -3158,6 +3430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "Rangle",
           "package": "logic-TPTP",
@@ -3167,6 +3440,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "Rangle",
           "package": "logic-TPTP",
@@ -3180,6 +3454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "Rbrack",
           "package": "logic-TPTP",
@@ -3189,6 +3464,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "Rbrack",
           "package": "logic-TPTP",
@@ -3202,6 +3478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "Real",
           "package": "logic-TPTP",
@@ -3211,6 +3488,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "Real",
           "package": "logic-TPTP",
@@ -3224,6 +3502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "SignedInt",
           "package": "logic-TPTP",
@@ -3233,6 +3512,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "SignedInt",
           "package": "logic-TPTP",
@@ -3246,6 +3526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "SingleQuoted",
           "package": "logic-TPTP",
@@ -3255,6 +3536,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "SingleQuoted",
           "package": "logic-TPTP",
@@ -3268,6 +3550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "Slash",
           "package": "logic-TPTP",
@@ -3277,6 +3560,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "Slash",
           "package": "logic-TPTP",
@@ -3290,6 +3574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "Star",
           "package": "logic-TPTP",
@@ -3299,6 +3584,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "Star",
           "package": "logic-TPTP",
@@ -3312,6 +3598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "UnsignedInt",
           "package": "logic-TPTP",
@@ -3321,6 +3608,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "UnsignedInt",
           "package": "logic-TPTP",
@@ -3334,6 +3622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "UpperWord",
           "package": "logic-TPTP",
@@ -3343,6 +3632,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "UpperWord",
           "package": "logic-TPTP",
@@ -3356,6 +3646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "parse",
           "package": "logic-TPTP",
@@ -3365,6 +3656,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "parse",
           "normalized": "String-\u003e[TPTP_Input]",
@@ -3379,6 +3671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "parseFile",
           "package": "logic-TPTP",
@@ -3388,6 +3681,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "parseFile",
           "normalized": "FilePath-\u003eIO[TPTP_Input]",
@@ -3403,6 +3697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "parseWithComment",
           "package": "logic-TPTP",
@@ -3412,6 +3707,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "parseWithComment",
           "normalized": "String-\u003e[TPTP_Input_C]",
@@ -3427,6 +3723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Import",
           "name": "parseWithCommentFile",
           "package": "logic-TPTP",
@@ -3436,6 +3733,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Import",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Import",
           "name": "parseWithCommentFile",
           "normalized": "FilePath-\u003eIO[TPTP_Input_C]",
@@ -3452,6 +3750,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMainly just \u003ccode\u003e\u003ca\u003ePretty\u003c/a\u003e\u003c/code\u003e instances\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Pretty",
           "name": "Pretty",
           "package": "logic-TPTP",
@@ -3461,6 +3760,7 @@
         "index": {
           "description": "Mainly just Pretty instances",
           "hierarchy": "Codec TPTP Pretty",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Pretty",
           "name": "Pretty",
           "package": "logic-TPTP",
@@ -3474,6 +3774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Pretty",
           "name": "Enclosing",
           "package": "logic-TPTP",
@@ -3482,6 +3783,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Pretty",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Pretty",
           "name": "Enclosing",
           "package": "logic-TPTP",
@@ -3496,6 +3798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCarries information about the enclosing operation (for the purpose of printing stuff without parentheses if possible).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Pretty",
           "name": "WithEnclosing",
           "package": "logic-TPTP",
@@ -3505,6 +3808,7 @@
         "index": {
           "description": "Carries information about the enclosing operation for the purpose of printing stuff without parentheses if possible",
           "hierarchy": "Codec TPTP Pretty",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Pretty",
           "name": "WithEnclosing",
           "package": "logic-TPTP",
@@ -3518,6 +3822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Pretty",
           "name": "EnclBinOp",
           "package": "logic-TPTP",
@@ -3527,6 +3832,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Pretty",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Pretty",
           "name": "EnclBinOp",
           "package": "logic-TPTP",
@@ -3540,6 +3846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Pretty",
           "name": "EnclInfixPred",
           "package": "logic-TPTP",
@@ -3549,6 +3856,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Pretty",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Pretty",
           "name": "EnclInfixPred",
           "package": "logic-TPTP",
@@ -3562,6 +3870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Pretty",
           "name": "EnclNeg",
           "package": "logic-TPTP",
@@ -3571,6 +3880,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Pretty",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Pretty",
           "name": "EnclNeg",
           "package": "logic-TPTP",
@@ -3584,6 +3894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Pretty",
           "name": "EnclNothing",
           "package": "logic-TPTP",
@@ -3593,6 +3904,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Pretty",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Pretty",
           "name": "EnclNothing",
           "package": "logic-TPTP",
@@ -3606,6 +3918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Pretty",
           "name": "EnclQuant",
           "package": "logic-TPTP",
@@ -3615,6 +3928,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Pretty",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Pretty",
           "name": "EnclQuant",
           "package": "logic-TPTP",
@@ -3628,6 +3942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Pretty",
           "name": "WithEnclosing",
           "package": "logic-TPTP",
@@ -3637,6 +3952,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Pretty",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Pretty",
           "name": "WithEnclosing",
           "package": "logic-TPTP",
@@ -3650,6 +3966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP.Pretty",
           "name": "prettySimple",
           "package": "logic-TPTP",
@@ -3659,6 +3976,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP Pretty",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP.Pretty",
           "name": "prettySimple",
           "normalized": "a-\u003eString",
@@ -3674,6 +3992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:01 UTC 2014",
           "module": "Codec.TPTP",
           "name": "TPTP",
           "package": "logic-TPTP",
@@ -3682,6 +4001,7 @@
         },
         "index": {
           "hierarchy": "Codec TPTP",
+          "indexed": "2014-03-11T19:12:01",
           "module": "Codec.TPTP",
           "name": "TPTP",
           "package": "logic-TPTP",

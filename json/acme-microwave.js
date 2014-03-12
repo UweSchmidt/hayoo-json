@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "acme-microwave"
+        "phrase": "acme-microwave",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHave you ever wondered why, when using a microwave, pressing \"60\" is the same as pressing \"100\"? Well wonder no longer! I, through epic trials and hardships, have tamed the vexacious wiles of that most enigmatic appliance.\n\u003c/p\u003e\u003cpre\u003e\n     &#955;\u003e let n = 200 :: Microwave\n     &#955;\u003e n\n        2:00\n     &#955;\u003e n \u003e 150\n        True\n     &#955;\u003e n \u003e 170\n        False\n     &#955;\u003e n `quotRem` 7\n        (0:17,0:01)\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:07:18 UTC 2014",
           "module": "Data.Microwave",
           "name": "Microwave",
           "package": "acme-microwave",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Have you ever wondered why when using microwave pressing is the same as pressing Well wonder no longer through epic trials and hardships have tamed the vexacious wiles of that most enigmatic appliance let Microwave True False quotRem",
           "hierarchy": "Data Microwave",
+          "indexed": "2014-03-11T17:07:18",
           "module": "Data.Microwave",
           "name": "Microwave",
           "package": "acme-microwave",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:18 UTC 2014",
           "module": "Data.Microwave",
           "name": "Microwave",
           "package": "acme-microwave",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Microwave",
+          "indexed": "2014-03-11T17:07:18",
           "module": "Data.Microwave",
           "name": "Microwave",
           "package": "acme-microwave",

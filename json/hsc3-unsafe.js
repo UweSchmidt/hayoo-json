@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsc3-unsafe"
+        "phrase": "hsc3-unsafe",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnsafe variants of functions at \u003ccode\u003eSound.SC3.UGen.Demand.Monadic\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "Unsafe",
           "package": "hsc3-unsafe",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Unsafe variants of functions at Sound.SC3.UGen.Demand.Monadic",
           "hierarchy": "Sound SC3 UGen Demand Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "Unsafe",
           "package": "hsc3-unsafe",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate brown noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dbrown",
           "package": "hsc3-unsafe",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Demand rate brown noise",
           "hierarchy": "Sound SC3 UGen Demand Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dbrown",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer demand ugen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dbufrd",
           "package": "hsc3-unsafe",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Buffer demand ugen",
           "hierarchy": "Sound SC3 UGen Demand Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dbufrd",
           "normalized": "UGen-\u003eUGen-\u003eLoop-\u003eUGen",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer write on demand unit generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dbufwr",
           "package": "hsc3-unsafe",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Buffer write on demand unit generator",
           "hierarchy": "Sound SC3 UGen Demand Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dbufwr",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eLoop-\u003eUGen",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate geometric series.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dgeom",
           "package": "hsc3-unsafe",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Demand rate geometric series",
           "hierarchy": "Sound SC3 UGen Demand Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dgeom",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate integer brown noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dibrown",
           "package": "hsc3-unsafe",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Demand rate integer brown noise",
           "hierarchy": "Sound SC3 UGen Demand Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dibrown",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate integer white noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "diwhite",
           "package": "hsc3-unsafe",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Demand rate integer white noise",
           "hierarchy": "Sound SC3 UGen Demand Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "diwhite",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate random selection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "drand",
           "package": "hsc3-unsafe",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Demand rate random selection",
           "hierarchy": "Sound SC3 UGen Demand Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "drand",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate sequence generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dseq",
           "package": "hsc3-unsafe",
@@ -227,6 +244,7 @@
         "index": {
           "description": "Demand rate sequence generator",
           "hierarchy": "Sound SC3 UGen Demand Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dseq",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate series generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dser",
           "package": "hsc3-unsafe",
@@ -252,6 +271,7 @@
         "index": {
           "description": "Demand rate series generator",
           "hierarchy": "Sound SC3 UGen Demand Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dser",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -267,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate arithmetic series.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dseries",
           "package": "hsc3-unsafe",
@@ -277,6 +298,7 @@
         "index": {
           "description": "Demand rate arithmetic series",
           "hierarchy": "Sound SC3 UGen Demand Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dseries",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -292,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand input replication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dstutter",
           "package": "hsc3-unsafe",
@@ -302,6 +325,7 @@
         "index": {
           "description": "Demand input replication",
           "hierarchy": "Sound SC3 UGen Demand Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dstutter",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -317,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate input switching.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dswitch",
           "package": "hsc3-unsafe",
@@ -327,6 +352,7 @@
         "index": {
           "description": "Demand rate input switching",
           "hierarchy": "Sound SC3 UGen Demand Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dswitch",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -342,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate input switching.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dswitch1",
           "package": "hsc3-unsafe",
@@ -352,6 +379,7 @@
         "index": {
           "description": "Demand rate input switching",
           "hierarchy": "Sound SC3 UGen Demand Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dswitch1",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -367,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate white noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dwhite",
           "package": "hsc3-unsafe",
@@ -377,6 +406,7 @@
         "index": {
           "description": "Demand rate white noise",
           "hierarchy": "Sound SC3 UGen Demand Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dwhite",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -392,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate random selection with no immediate repetition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dxrand",
           "package": "hsc3-unsafe",
@@ -402,6 +433,7 @@
         "index": {
           "description": "Demand rate random selection with no immediate repetition",
           "hierarchy": "Sound SC3 UGen Demand Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Demand.Unsafe",
           "name": "dxrand",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -417,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnsafe variants of functions at \u003ccode\u003eSound.SC3.UGen.FFT.Monadic\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.FFT.Unsafe",
           "name": "Unsafe",
           "package": "hsc3-unsafe",
@@ -426,6 +459,7 @@
         "index": {
           "description": "Unsafe variants of functions at Sound.SC3.UGen.FFT.Monadic",
           "hierarchy": "Sound SC3 UGen FFT Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.FFT.Unsafe",
           "name": "Unsafe",
           "package": "hsc3-unsafe",
@@ -440,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomize order of bins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.FFT.Unsafe",
           "name": "pv_BinScramble",
           "package": "hsc3-unsafe",
@@ -450,6 +485,7 @@
         "index": {
           "description": "Randomize order of bins",
           "hierarchy": "Sound SC3 UGen FFT Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.FFT.Unsafe",
           "name": "pv_BinScramble",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -466,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomly clear bins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.FFT.Unsafe",
           "name": "pv_RandComb",
           "package": "hsc3-unsafe",
@@ -476,6 +513,7 @@
         "index": {
           "description": "Randomly clear bins",
           "hierarchy": "Sound SC3 UGen FFT Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.FFT.Unsafe",
           "name": "pv_RandComb",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -492,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCross fade, copying bins in random order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.FFT.Unsafe",
           "name": "pv_RandWipe",
           "package": "hsc3-unsafe",
@@ -502,6 +541,7 @@
         "index": {
           "description": "Cross fade copying bins in random order",
           "hierarchy": "Sound SC3 UGen FFT Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.FFT.Unsafe",
           "name": "pv_RandWipe",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -518,6 +558,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnsafe variants of functions at \u003ccode\u003eSound.SC3.UGen.Noise.Monadic\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "Unsafe",
           "package": "hsc3-unsafe",
@@ -527,6 +568,7 @@
         "index": {
           "description": "Unsafe variants of functions at Sound.SC3.UGen.Noise.Monadic",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "Unsafe",
           "package": "hsc3-unsafe",
@@ -541,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBrown noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "brownNoise",
           "package": "hsc3-unsafe",
@@ -551,6 +594,7 @@
         "index": {
           "description": "Brown noise",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "brownNoise",
           "normalized": "Rate-\u003eUGen",
@@ -567,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClip noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "clipNoise",
           "package": "hsc3-unsafe",
@@ -577,6 +622,7 @@
         "index": {
           "description": "Clip noise",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "clipNoise",
           "normalized": "Rate-\u003eUGen",
@@ -593,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomly pass or block triggers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "coinGate",
           "package": "hsc3-unsafe",
@@ -603,6 +650,7 @@
         "index": {
           "description": "Randomly pass or block triggers",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "coinGate",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -619,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom impulse in (0,1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "dust",
           "package": "hsc3-unsafe",
@@ -629,6 +678,7 @@
         "index": {
           "description": "Random impulse in",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "dust",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -644,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom impulses in (-1, 1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "dust2",
           "package": "hsc3-unsafe",
@@ -654,6 +705,7 @@
         "index": {
           "description": "Random impulses in",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "dust2",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -669,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom value in exponential distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "expRand",
           "package": "hsc3-unsafe",
@@ -679,6 +732,7 @@
         "index": {
           "description": "Random value in exponential distribution",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "expRand",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -695,6 +749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGray noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "grayNoise",
           "package": "hsc3-unsafe",
@@ -705,6 +760,7 @@
         "index": {
           "description": "Gray noise",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "grayNoise",
           "normalized": "Rate-\u003eUGen",
@@ -721,6 +777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom integer in uniform distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "iRand",
           "package": "hsc3-unsafe",
@@ -731,6 +788,7 @@
         "index": {
           "description": "Random integer in uniform distribution",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "iRand",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -747,6 +805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClip noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "lfClipNoise",
           "package": "hsc3-unsafe",
@@ -757,6 +816,7 @@
         "index": {
           "description": "Clip noise",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "lfClipNoise",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -773,6 +833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStep noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "lfNoise0",
           "package": "hsc3-unsafe",
@@ -783,6 +844,7 @@
         "index": {
           "description": "Step noise",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "lfNoise0",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -799,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRamp noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "lfNoise1",
           "package": "hsc3-unsafe",
@@ -809,6 +872,7 @@
         "index": {
           "description": "Ramp noise",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "lfNoise1",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -825,6 +889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuadratic noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "lfNoise2",
           "package": "hsc3-unsafe",
@@ -835,6 +900,7 @@
         "index": {
           "description": "Quadratic noise",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "lfNoise2",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -851,6 +917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic clip noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "lfdClipNoise",
           "package": "hsc3-unsafe",
@@ -861,6 +928,7 @@
         "index": {
           "description": "Dynamic clip noise",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "lfdClipNoise",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -877,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic step noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "lfdNoise0",
           "package": "hsc3-unsafe",
@@ -887,6 +956,7 @@
         "index": {
           "description": "Dynamic step noise",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "lfdNoise0",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -903,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic ramp noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "lfdNoise1",
           "package": "hsc3-unsafe",
@@ -913,6 +984,7 @@
         "index": {
           "description": "Dynamic ramp noise",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "lfdNoise1",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -929,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic quadratic noise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "lfdNoise2",
           "package": "hsc3-unsafe",
@@ -939,6 +1012,7 @@
         "index": {
           "description": "Dynamic quadratic noise",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "lfdNoise2",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -955,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic cubic noise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "lfdNoise3",
           "package": "hsc3-unsafe",
@@ -965,6 +1040,7 @@
         "index": {
           "description": "Dynamic cubic noise",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "lfdNoise3",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -981,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom value in skewed linear distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "linRand",
           "package": "hsc3-unsafe",
@@ -991,6 +1068,7 @@
         "index": {
           "description": "Random value in skewed linear distribution",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "linRand",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -1007,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom value in sum of n linear distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "nRand",
           "package": "hsc3-unsafe",
@@ -1017,6 +1096,7 @@
         "index": {
           "description": "Random value in sum of linear distribution",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "nRand",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -1033,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePink noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "pinkNoise",
           "package": "hsc3-unsafe",
@@ -1043,6 +1124,7 @@
         "index": {
           "description": "Pink noise",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "pinkNoise",
           "normalized": "Rate-\u003eUGen",
@@ -1059,6 +1141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom value in uniform distribution.\n\u003c/p\u003e\u003cpre\u003e import Sound.SC3.UGen.Unsafe\n import Sound.SC3.UGen.Dot\n draw (rand 0 1 + rand 0 1)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "rand",
           "package": "hsc3-unsafe",
@@ -1069,6 +1152,7 @@
         "index": {
           "description": "Random value in uniform distribution import Sound.SC3.UGen.Unsafe import Sound.SC3.UGen.Dot draw rand rand",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "rand",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -1084,6 +1168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom value in exponential distribution on trigger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "tExpRand",
           "package": "hsc3-unsafe",
@@ -1094,6 +1179,7 @@
         "index": {
           "description": "Random value in exponential distribution on trigger",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "tExpRand",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -1110,6 +1196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom integer in uniform distribution on trigger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "tIRand",
           "package": "hsc3-unsafe",
@@ -1120,6 +1207,7 @@
         "index": {
           "description": "Random integer in uniform distribution on trigger",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "tIRand",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -1136,6 +1224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom value in uniform distribution on trigger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "tRand",
           "package": "hsc3-unsafe",
@@ -1146,6 +1235,7 @@
         "index": {
           "description": "Random value in uniform distribution on trigger",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "tRand",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -1162,6 +1252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriggered windex.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "tWindex",
           "package": "hsc3-unsafe",
@@ -1172,6 +1263,7 @@
         "index": {
           "description": "Triggered windex",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "tWindex",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -1188,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhite noise.\n\u003c/p\u003e\u003cpre\u003e import Sound.SC3.UGen\n draw (whiteNoise AR + whiteNoise AR)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "whiteNoise",
           "package": "hsc3-unsafe",
@@ -1198,6 +1291,7 @@
         "index": {
           "description": "White noise import Sound.SC3.UGen draw whiteNoise AR whiteNoise AR",
           "hierarchy": "Sound SC3 UGen Noise Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Noise.Unsafe",
           "name": "whiteNoise",
           "normalized": "Rate-\u003eUGen",
@@ -1214,6 +1308,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions to lifting monadic \u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003es to unsafe forms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Unsafe.Lift",
           "name": "Lift",
           "package": "hsc3-unsafe",
@@ -1223,6 +1318,7 @@
         "index": {
           "description": "Functions to lifting monadic UGen to unsafe forms",
           "hierarchy": "Sound SC3 UGen Unsafe Lift",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Unsafe.Lift",
           "name": "Lift",
           "package": "hsc3-unsafe",
@@ -1237,6 +1333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift monadic UGen to unsafe form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Unsafe.Lift",
           "name": "liftP",
           "package": "hsc3-unsafe",
@@ -1247,6 +1344,7 @@
         "index": {
           "description": "Lift monadic UGen to unsafe form",
           "hierarchy": "Sound SC3 UGen Unsafe Lift",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Unsafe.Lift",
           "name": "liftP",
           "normalized": "(a-\u003eIO UGen)-\u003ea-\u003eUGen",
@@ -1262,6 +1360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift monadic UGen to unsafe form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Unsafe.Lift",
           "name": "liftP2",
           "package": "hsc3-unsafe",
@@ -1272,6 +1371,7 @@
         "index": {
           "description": "Lift monadic UGen to unsafe form",
           "hierarchy": "Sound SC3 UGen Unsafe Lift",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Unsafe.Lift",
           "name": "liftP2",
           "normalized": "(a-\u003eb-\u003eIO UGen)-\u003ea-\u003eb-\u003eUGen",
@@ -1287,6 +1387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift monadic UGen to unsafe form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Unsafe.Lift",
           "name": "liftP3",
           "package": "hsc3-unsafe",
@@ -1297,6 +1398,7 @@
         "index": {
           "description": "Lift monadic UGen to unsafe form",
           "hierarchy": "Sound SC3 UGen Unsafe Lift",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Unsafe.Lift",
           "name": "liftP3",
           "normalized": "(a-\u003eb-\u003ec-\u003eIO UGen)-\u003ea-\u003eb-\u003ec-\u003eUGen",
@@ -1312,6 +1414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift monadic UGen to unsafe form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Unsafe.Lift",
           "name": "liftP4",
           "package": "hsc3-unsafe",
@@ -1322,6 +1425,7 @@
         "index": {
           "description": "Lift monadic UGen to unsafe form",
           "hierarchy": "Sound SC3 UGen Unsafe Lift",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Unsafe.Lift",
           "name": "liftP4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003eIO UGen)-\u003ea-\u003eb-\u003ec-\u003ed-\u003eUGen",
@@ -1337,6 +1441,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnsafe variants of the \u003ccode\u003ehsc3\u003c/code\u003e SuperCollider unit generator bindings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:40 UTC 2014",
           "module": "Sound.SC3.UGen.Unsafe",
           "name": "Unsafe",
           "package": "hsc3-unsafe",
@@ -1346,6 +1451,7 @@
         "index": {
           "description": "Unsafe variants of the hsc3 SuperCollider unit generator bindings",
           "hierarchy": "Sound SC3 UGen Unsafe",
+          "indexed": "2014-03-11T18:47:40",
           "module": "Sound.SC3.UGen.Unsafe",
           "name": "Unsafe",
           "package": "hsc3-unsafe",

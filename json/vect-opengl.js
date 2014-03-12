@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vect-opengl"
+        "phrase": "vect-opengl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOpenGL support, including \u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eTexCoord\u003c/a\u003e\u003c/code\u003e, etc instances for \u003ccode\u003e\u003ca\u003eVec2\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eVec3\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eVec4\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "OpenGL",
           "package": "vect-opengl",
@@ -28,6 +29,7 @@
         "index": {
           "description": "OpenGL support including Vertex TexCoord etc instances for Vec2 Vec3 and Vec4",
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "OpenGL",
           "package": "vect-opengl",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "FromOpenGLMatrix",
           "package": "vect-opengl",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "FromOpenGLMatrix",
           "package": "vect-opengl",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "GLflt",
           "package": "vect-opengl",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "GLflt",
           "package": "vect-opengl",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere should be a big warning here about the different conventions, \n hidden transpositions, and all the confusion this will inevitably cause...\n\u003c/p\u003e\u003cp\u003eAs it stands, \n\u003c/p\u003e\u003cpre\u003e glRotate t1 axis1 \u003e\u003e glRotate t2 axis2 \u003e\u003e glRotate t3 axis3\n\u003c/pre\u003e\u003cp\u003ehas the same result as\n\u003c/p\u003e\u003cpre\u003e multMatrix (rotMatrixProj4 t3 axis3 .*. rotMatrixProj4 t2 axis2 .*. rotMatrixProj4 t1 axis1)\n\u003c/pre\u003e\u003cp\u003ebecause at the interface of OpenGL and this library there is a transposition\n to compensate for the different conventions. (This transposition is implicit\n in the code, because the way the matrices are stored in the memory is also\n different: OpenGL stores them column-major, and we store them row-major).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "ToOpenGLMatrix",
           "package": "vect-opengl",
@@ -93,6 +100,7 @@
         "index": {
           "description": "There should be big warning here about the different conventions hidden transpositions and all the confusion this will inevitably cause As it stands glRotate t1 axis1 glRotate t2 axis2 glRotate t3 axis3 has the same result as multMatrix rotMatrixProj4 t3 axis3 rotMatrixProj4 t2 axis2 rotMatrixProj4 t1 axis1 because at the interface of OpenGL and this library there is transposition to compensate for the different conventions This transposition is implicit in the code because the way the matrices are stored in the memory is also different OpenGL stores them column-major and we store them row-major",
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "ToOpenGLMatrix",
           "package": "vect-opengl",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "VertexAttrib'",
           "package": "vect-opengl",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "VertexAttrib'",
           "package": "vect-opengl",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "currentMatrix",
           "package": "vect-opengl",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "currentMatrix",
           "package": "vect-opengl",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "degreesToRadian",
           "package": "vect-opengl",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "degreesToRadian",
           "normalized": "a-\u003ea",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Perspective projecton\" matrix, a la OpenGL \n (the corresponding functionality is removed in OpenGL 3.1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "frustumMatrix",
           "package": "vect-opengl",
@@ -183,6 +198,7 @@
         "index": {
           "description": "Perspective projecton matrix la OpenGL the corresponding functionality is removed in OpenGL",
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "frustumMatrix",
           "normalized": "(Double,Double)-\u003e(Double,Double)-\u003e(Double,Double)-\u003eMat",
@@ -224,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "getMatrix",
           "package": "vect-opengl",
@@ -233,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "getMatrix",
           "normalized": "Maybe MatrixMode-\u003eIO a",
@@ -249,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe angle is in radians. (WARNING: OpenGL uses degrees!)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "glRotate",
           "package": "vect-opengl",
@@ -259,6 +278,7 @@
         "index": {
           "description": "The angle is in radians WARNING OpenGL uses degrees",
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "glRotate",
           "normalized": "Double-\u003eVec-\u003eIO()",
@@ -274,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "glScale",
           "package": "vect-opengl",
@@ -283,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "glScale",
           "normalized": "Double-\u003eIO()",
@@ -298,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "glScale3",
           "package": "vect-opengl",
@@ -307,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "glScale3",
           "normalized": "Vec-\u003eIO()",
@@ -322,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "glTranslate",
           "package": "vect-opengl",
@@ -331,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "glTranslate",
           "normalized": "Vec-\u003eIO()",
@@ -346,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "glflt",
           "package": "vect-opengl",
@@ -355,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "glflt",
           "normalized": "Double-\u003eGLflt",
@@ -370,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of \u003ca\u003efrustumMatrix\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "inverseFrustumMatrix",
           "package": "vect-opengl",
@@ -379,6 +408,7 @@
         "index": {
           "description": "Inverse of frustumMatrix",
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "inverseFrustumMatrix",
           "normalized": "(Double,Double)-\u003e(Double,Double)-\u003e(Double,Double)-\u003eMat",
@@ -394,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "makeGLMatrix",
           "package": "vect-opengl",
@@ -403,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "makeGLMatrix",
           "normalized": "a-\u003eIO(GLmatrix GLflt)",
@@ -418,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "matrix",
           "package": "vect-opengl",
@@ -427,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "matrix",
           "normalized": "Maybe MatrixMode-\u003eStateVar a",
@@ -441,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "multMatrix",
           "package": "vect-opengl",
@@ -450,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "multMatrix",
           "normalized": "a-\u003eIO()",
@@ -466,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Orthogonal projecton\" matrix, a la OpenGL \n (the corresponding functionality is removed in OpenGL 3.1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "orthoMatrix",
           "package": "vect-opengl",
@@ -475,6 +512,7 @@
         "index": {
           "description": "Orthogonal projecton matrix la OpenGL the corresponding functionality is removed in OpenGL",
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "orthoMatrix",
           "normalized": "(Double,Double)-\u003e(Double,Double)-\u003e(Double,Double)-\u003eMat",
@@ -516,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "peekGLMatrix",
           "package": "vect-opengl",
@@ -525,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "peekGLMatrix",
           "normalized": "GLmatrix GLflt-\u003eIO a",
@@ -540,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "radianToDegrees",
           "package": "vect-opengl",
@@ -549,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "radianToDegrees",
           "normalized": "a-\u003ea",
@@ -564,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "setMatrix",
           "package": "vect-opengl",
@@ -573,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "setMatrix",
           "normalized": "Maybe MatrixMode-\u003ea-\u003eIO()",
@@ -588,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "unflt",
           "package": "vect-opengl",
@@ -597,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "unflt",
           "normalized": "GLflt-\u003eDouble",
@@ -611,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Double.OpenGL",
           "name": "vertexAttrib",
           "package": "vect-opengl",
@@ -620,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Double OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Double.OpenGL",
           "name": "vertexAttrib",
           "normalized": "AttribLocation-\u003ea-\u003eIO()",
@@ -636,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOpenGL support, including \u003ccode\u003e\u003ca\u003eVertex\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eTexCoord\u003c/a\u003e\u003c/code\u003e, etc instances for \u003ccode\u003e\u003ca\u003eVec2\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eVec3\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eVec4\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "OpenGL",
           "package": "vect-opengl",
@@ -645,6 +694,7 @@
         "index": {
           "description": "OpenGL support including Vertex TexCoord etc instances for Vec2 Vec3 and Vec4",
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "OpenGL",
           "package": "vect-opengl",
@@ -658,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "FromOpenGLMatrix",
           "package": "vect-opengl",
@@ -666,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "FromOpenGLMatrix",
           "package": "vect-opengl",
@@ -679,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "GLflt",
           "package": "vect-opengl",
@@ -687,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "GLflt",
           "package": "vect-opengl",
@@ -701,6 +755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere should be a big warning here about the different conventions, \n hidden transpositions, and all the confusion this will inevitably cause...\n\u003c/p\u003e\u003cp\u003eAs it stands, \n\u003c/p\u003e\u003cpre\u003e glRotate t1 axis1 \u003e\u003e glRotate t2 axis2 \u003e\u003e glRotate t3 axis3\n\u003c/pre\u003e\u003cp\u003ehas the same result as\n\u003c/p\u003e\u003cpre\u003e multMatrix (rotMatrixProj4 t3 axis3 .*. rotMatrixProj4 t2 axis2 .*. rotMatrixProj4 t1 axis1)\n\u003c/pre\u003e\u003cp\u003ebecause at the interface of OpenGL and this library there is a transposition\n to compensate for the different conventions. (This transposition is implicit\n in the code, because the way the matrices are stored in the memory is also\n different: OpenGL stores them column-major, and we store them row-major).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "ToOpenGLMatrix",
           "package": "vect-opengl",
@@ -710,6 +765,7 @@
         "index": {
           "description": "There should be big warning here about the different conventions hidden transpositions and all the confusion this will inevitably cause As it stands glRotate t1 axis1 glRotate t2 axis2 glRotate t3 axis3 has the same result as multMatrix rotMatrixProj4 t3 axis3 rotMatrixProj4 t2 axis2 rotMatrixProj4 t1 axis1 because at the interface of OpenGL and this library there is transposition to compensate for the different conventions This transposition is implicit in the code because the way the matrices are stored in the memory is also different OpenGL stores them column-major and we store them row-major",
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "ToOpenGLMatrix",
           "package": "vect-opengl",
@@ -723,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "VertexAttrib'",
           "package": "vect-opengl",
@@ -731,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "VertexAttrib'",
           "package": "vect-opengl",
@@ -744,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "currentMatrix",
           "package": "vect-opengl",
@@ -753,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "currentMatrix",
           "package": "vect-opengl",
@@ -766,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "degreesToRadian",
           "package": "vect-opengl",
@@ -775,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "degreesToRadian",
           "normalized": "a-\u003ea",
@@ -791,6 +853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Perspective projecton\" matrix, a la OpenGL \n (the corresponding functionality is removed in OpenGL 3.1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "frustumMatrix",
           "package": "vect-opengl",
@@ -800,6 +863,7 @@
         "index": {
           "description": "Perspective projecton matrix la OpenGL the corresponding functionality is removed in OpenGL",
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "frustumMatrix",
           "normalized": "(Float,Float)-\u003e(Float,Float)-\u003e(Float,Float)-\u003eMat",
@@ -815,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "getMatrix",
           "package": "vect-opengl",
@@ -824,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "getMatrix",
           "normalized": "Maybe MatrixMode-\u003eIO a",
@@ -840,6 +906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe angle is in radians. (WARNING: OpenGL uses degrees!)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "glRotate",
           "package": "vect-opengl",
@@ -850,6 +917,7 @@
         "index": {
           "description": "The angle is in radians WARNING OpenGL uses degrees",
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "glRotate",
           "normalized": "Float-\u003eVec-\u003eIO()",
@@ -865,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "glScale",
           "package": "vect-opengl",
@@ -874,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "glScale",
           "normalized": "Float-\u003eIO()",
@@ -889,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "glScale3",
           "package": "vect-opengl",
@@ -898,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "glScale3",
           "normalized": "Vec-\u003eIO()",
@@ -913,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "glTranslate",
           "package": "vect-opengl",
@@ -922,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "glTranslate",
           "normalized": "Vec-\u003eIO()",
@@ -937,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "glflt",
           "package": "vect-opengl",
@@ -946,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "glflt",
           "normalized": "Float-\u003eGLflt",
@@ -961,6 +1037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of \u003ca\u003efrustumMatrix\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "inverseFrustumMatrix",
           "package": "vect-opengl",
@@ -970,6 +1047,7 @@
         "index": {
           "description": "Inverse of frustumMatrix",
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "inverseFrustumMatrix",
           "normalized": "(Float,Float)-\u003e(Float,Float)-\u003e(Float,Float)-\u003eMat",
@@ -985,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "makeGLMatrix",
           "package": "vect-opengl",
@@ -994,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "makeGLMatrix",
           "normalized": "a-\u003eIO(GLmatrix GLflt)",
@@ -1009,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "matrix",
           "package": "vect-opengl",
@@ -1018,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "matrix",
           "normalized": "Maybe MatrixMode-\u003eStateVar a",
@@ -1032,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "multMatrix",
           "package": "vect-opengl",
@@ -1041,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "multMatrix",
           "normalized": "a-\u003eIO()",
@@ -1057,6 +1141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Orthogonal projecton\" matrix, a la OpenGL \n (the corresponding functionality is removed in OpenGL 3.1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "orthoMatrix",
           "package": "vect-opengl",
@@ -1066,6 +1151,7 @@
         "index": {
           "description": "Orthogonal projecton matrix la OpenGL the corresponding functionality is removed in OpenGL",
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "orthoMatrix",
           "normalized": "(Float,Float)-\u003e(Float,Float)-\u003e(Float,Float)-\u003eMat",
@@ -1081,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "peekGLMatrix",
           "package": "vect-opengl",
@@ -1090,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "peekGLMatrix",
           "normalized": "GLmatrix GLflt-\u003eIO a",
@@ -1105,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "radianToDegrees",
           "package": "vect-opengl",
@@ -1114,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "radianToDegrees",
           "normalized": "a-\u003ea",
@@ -1129,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "setMatrix",
           "package": "vect-opengl",
@@ -1138,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "setMatrix",
           "normalized": "Maybe MatrixMode-\u003ea-\u003eIO()",
@@ -1153,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "unflt",
           "package": "vect-opengl",
@@ -1162,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "unflt",
           "normalized": "GLflt-\u003eFloat",
@@ -1176,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:50 UTC 2014",
           "module": "Data.Vect.Float.OpenGL",
           "name": "vertexAttrib",
           "package": "vect-opengl",
@@ -1185,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Data Vect Float OpenGL",
+          "indexed": "2014-03-11T20:33:50",
           "module": "Data.Vect.Float.OpenGL",
           "name": "vertexAttrib",
           "normalized": "AttribLocation-\u003ea-\u003eIO()",

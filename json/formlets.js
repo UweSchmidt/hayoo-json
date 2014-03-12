@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "formlets"
+        "phrase": "formlets",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "Formlets",
           "package": "formlets",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html5 Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "Formlets",
           "package": "formlets",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "Html5Form",
           "package": "formlets",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html5 Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "Html5Form",
           "package": "formlets",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "Html5Formlet",
           "package": "formlets",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Html5 Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "Html5Formlet",
           "package": "formlets",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA checkbox with an optional default value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "checkbox",
           "package": "formlets",
@@ -92,6 +99,7 @@
         "index": {
           "description": "checkbox with an optional default value",
           "hierarchy": "Text Blaze Html5 Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "checkbox",
           "package": "formlets",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn radio choice for Enums\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "enumRadio",
           "package": "formlets",
@@ -115,6 +124,7 @@
         "index": {
           "description": "An radio choice for Enums",
           "hierarchy": "Text Blaze Html5 Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "enumRadio",
           "normalized": "[(a,String)]-\u003eHtml Formlet b a",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file upload form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "file",
           "package": "formlets",
@@ -141,6 +152,7 @@
         "index": {
           "description": "file upload form",
           "hierarchy": "Text Blaze Html5 Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "file",
           "package": "formlets",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hidden input field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "hidden",
           "package": "formlets",
@@ -164,6 +177,7 @@
         "index": {
           "description": "hidden input field",
           "hierarchy": "Text Blaze Html5 Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "hidden",
           "package": "formlets",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn input field with an optional value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "input",
           "package": "formlets",
@@ -187,6 +202,7 @@
         "index": {
           "description": "An input field with an optional value",
           "hierarchy": "Text Blaze Html5 Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "input",
           "package": "formlets",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA validated integer component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "inputInteger",
           "package": "formlets",
@@ -210,6 +227,7 @@
         "index": {
           "description": "validated integer component",
           "hierarchy": "Text Blaze Html5 Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "inputInteger",
           "package": "formlets",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "label",
           "package": "formlets",
@@ -234,6 +253,7 @@
         "index": {
           "description": "label",
           "hierarchy": "Text Blaze Html5 Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "label",
           "normalized": "String-\u003eForm Html a()",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA password field with an optional value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "password",
           "package": "formlets",
@@ -259,6 +280,7 @@
         "index": {
           "description": "password field with an optional value",
           "hierarchy": "Text Blaze Html5 Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "password",
           "package": "formlets",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA radio choice\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "radio",
           "package": "formlets",
@@ -282,6 +305,7 @@
         "index": {
           "description": "radio choice",
           "hierarchy": "Text Blaze Html5 Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "radio",
           "normalized": "[(String,String)]-\u003eHtml Formlet a String",
@@ -297,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA drop-down for anything that is an instance of Eq\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "select",
           "package": "formlets",
@@ -306,6 +331,7 @@
         "index": {
           "description": "drop-down for anything that is an instance of Eq",
           "hierarchy": "Text Blaze Html5 Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "select",
           "normalized": "[(a,Html)]-\u003eHtml Formlet b a",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a helper function to generate select boxes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "selectHtml",
           "package": "formlets",
@@ -330,6 +357,7 @@
         "index": {
           "description": "This is helper function to generate select boxes",
           "hierarchy": "Text Blaze Html5 Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "selectHtml",
           "normalized": "[(String,Html)]-\u003eString-\u003eString-\u003eHtml",
@@ -346,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA drop-down for selecting values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "selectRaw",
           "package": "formlets",
@@ -355,6 +384,7 @@
         "index": {
           "description": "drop-down for selecting values",
           "hierarchy": "Text Blaze Html5 Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "selectRaw",
           "normalized": "[(String,Html)]-\u003eHtml Formlet a String",
@@ -371,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA textarea with optional rows and columns, and an optional value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "textarea",
           "package": "formlets",
@@ -381,6 +412,7 @@
         "index": {
           "description": "textarea with optional rows and columns and an optional value",
           "hierarchy": "Text Blaze Html5 Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Blaze.Html5.Formlets",
           "name": "textarea",
           "normalized": "Maybe Int-\u003eMaybe Int-\u003eHtml Formlet a String",
@@ -395,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets.MassInput",
           "name": "MassInput",
           "package": "formlets",
@@ -403,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets MassInput",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets.MassInput",
           "name": "MassInput",
           "package": "formlets",
@@ -416,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets.MassInput",
           "name": "massInput",
           "package": "formlets",
@@ -424,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets MassInput",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets.MassInput",
           "name": "massInput",
           "normalized": "XHtmlFormlet a b-\u003e(Html-\u003eHtml)-\u003e(Html-\u003eHtml)-\u003eXHtmlFormlet a[b]",
@@ -439,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "Formlets",
           "package": "formlets",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "Formlets",
           "package": "formlets",
@@ -460,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "ContentType",
           "package": "formlets",
@@ -468,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "ContentType",
           "package": "formlets",
@@ -481,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "Env",
           "package": "formlets",
@@ -489,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "Env",
           "package": "formlets",
@@ -502,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "File",
           "package": "formlets",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "File",
           "package": "formlets",
@@ -523,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "Form",
           "package": "formlets",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "Form",
           "package": "formlets",
@@ -544,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "FormContentType",
           "package": "formlets",
@@ -552,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "FormContentType",
           "package": "formlets",
@@ -565,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "Formlet",
           "package": "formlets",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "Formlet",
           "package": "formlets",
@@ -586,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "Rect",
           "package": "formlets",
@@ -594,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "Rect",
           "package": "formlets",
@@ -607,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "ContentType",
           "package": "formlets",
@@ -616,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "ContentType",
           "package": "formlets",
@@ -629,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "File",
           "package": "formlets",
@@ -638,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "File",
           "package": "formlets",
@@ -651,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "MultiPart",
           "package": "formlets",
@@ -660,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "MultiPart",
           "package": "formlets",
@@ -673,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "Rect",
           "package": "formlets",
@@ -682,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "Rect",
           "package": "formlets",
@@ -695,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "UrlEncoded",
           "package": "formlets",
@@ -704,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "UrlEncoded",
           "package": "formlets",
@@ -718,6 +780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck a condition or convert a result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "check",
           "package": "formlets",
@@ -728,6 +791,7 @@
         "index": {
           "description": "Check condition or convert result",
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "check",
           "normalized": "Form a b c-\u003e(c-\u003eFailing d)-\u003eForm a b d",
@@ -743,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadically check a condition or convert a result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "checkM",
           "package": "formlets",
@@ -753,6 +818,7 @@
         "index": {
           "description": "Monadically check condition or convert result",
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "checkM",
           "normalized": "Form a b c-\u003e(c-\u003eb(Failing d))-\u003eForm a b d",
@@ -767,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "content",
           "package": "formlets",
@@ -776,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "content",
           "package": "formlets",
@@ -788,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "contentType",
           "package": "formlets",
@@ -797,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "contentType",
           "package": "formlets",
@@ -810,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "ctParameters",
           "package": "formlets",
@@ -819,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "ctParameters",
           "normalized": "[(String,String)]",
@@ -834,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "ctSubtype",
           "package": "formlets",
@@ -843,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "ctSubtype",
           "package": "formlets",
@@ -856,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "ctType",
           "package": "formlets",
@@ -865,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "ctType",
           "package": "formlets",
@@ -879,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a predicate to a value and return FR.Success or FR.Failure as appropriate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "ensure",
           "package": "formlets",
@@ -888,6 +965,7 @@
         "index": {
           "description": "Apply predicate to value and return FR.Success or FR.Failure as appropriate",
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "ensure",
           "normalized": "(a-\u003eBool)-\u003eString-\u003ea-\u003eFailing a",
@@ -902,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "ensureM",
           "package": "formlets",
@@ -910,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "ensureM",
           "normalized": "(a-\u003eb Bool)-\u003eString-\u003ea-\u003eb(Failing a)",
@@ -925,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply multiple predicates to a value, return FR.Success or all the FR.Failure messages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "ensures",
           "package": "formlets",
@@ -934,6 +1015,7 @@
         "index": {
           "description": "Apply multiple predicates to value return FR.Success or all the FR.Failure messages",
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "ensures",
           "normalized": "[(a-\u003eBool,String)]-\u003ea-\u003eFailing a",
@@ -948,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "fileName",
           "package": "formlets",
@@ -957,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "fileName",
           "package": "formlets",
@@ -970,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "fmapFst",
           "package": "formlets",
@@ -979,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "fmapFst",
           "normalized": "(a-\u003ea)-\u003e(a,a)-\u003e(a,a)",
@@ -995,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate a form control\n\u003c/p\u003e\u003cp\u003esee also \u003ccode\u003e\u003ca\u003einput'\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eoptionalInput\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egeneralInputMulti\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "generalInput",
           "package": "formlets",
@@ -1004,6 +1091,7 @@
         "index": {
           "description": "generate form control see also input optionalInput generalInputMulti",
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "generalInput",
           "normalized": "(String-\u003eMaybe String-\u003ea)-\u003eForm a b(Maybe String)",
@@ -1020,6 +1108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate a form control which can return multiple values\n\u003c/p\u003e\u003cp\u003eUseful for controls such as checkboxes and multiple select .\n\u003c/p\u003e\u003cp\u003esee also \u003ccode\u003e\u003ca\u003einput'\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eoptionalInput\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egeneralInput\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "generalInputMulti",
           "package": "formlets",
@@ -1030,6 +1119,7 @@
         "index": {
           "description": "generate form control which can return multiple values Useful for controls such as checkboxes and multiple select see also input optionalInput generalInput",
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "generalInputMulti",
           "normalized": "(String-\u003e[String]-\u003ea)-\u003eForm a b[String]",
@@ -1046,6 +1136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function for genereting input components based forms.\n\u003c/p\u003e\u003cp\u003esee also \u003ccode\u003e\u003ca\u003eoptionalInput\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egeneralInput\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003egeneralInputMulti\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "input'",
           "package": "formlets",
@@ -1055,6 +1146,7 @@
         "index": {
           "description": "Helper function for genereting input components based forms see also optionalInput generalInput and generalInputMulti",
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "input'",
           "normalized": "(String-\u003eString-\u003ea)-\u003eMaybe String-\u003eForm a b String",
@@ -1070,6 +1162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA File input widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "inputFile",
           "package": "formlets",
@@ -1079,6 +1172,7 @@
         "index": {
           "description": "File input widget",
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "inputFile",
           "normalized": "(String-\u003ea)-\u003eForm a b File",
@@ -1095,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edeprecated. See \u003ccode\u003e\u003ca\u003einput'\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "inputM'",
           "package": "formlets",
@@ -1105,6 +1200,7 @@
         "index": {
           "description": "deprecated See input",
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "inputM'",
           "normalized": "(String-\u003eString-\u003ea)-\u003eMaybe String-\u003eForm a b String",
@@ -1121,6 +1217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis generates a single (or more) forms for a, and a parser function for a list of a's.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "massInput",
           "package": "formlets",
@@ -1130,6 +1227,7 @@
         "index": {
           "description": "This generates single or more forms for and parser function for list of",
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "massInput",
           "normalized": "Formlet a b c-\u003eFormlet a b[c]",
@@ -1146,6 +1244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns Nothing if the result is the empty String.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "nothingIfNull",
           "package": "formlets",
@@ -1156,6 +1255,7 @@
         "index": {
           "description": "Returns Nothing if the result is the empty String",
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "nothingIfNull",
           "normalized": "Form a b String-\u003eForm a b(Maybe String)",
@@ -1172,6 +1272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a form control which is not required to be successful\n\u003c/p\u003e\u003cp\u003eThere is no way to provide a default value, because that would\n result in the control being successful.\n\u003c/p\u003e\u003cp\u003eFor more information on successful controls see:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.w3.org/TR/html401/interact/forms.html#successful-controls\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003esee also \u003ccode\u003e\u003ca\u003einput'\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egeneralInput\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003egeneralInputMulti\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "optionalInput",
           "package": "formlets",
@@ -1181,6 +1282,7 @@
         "index": {
           "description": "Create form control which is not required to be successful There is no way to provide default value because that would result in the control being successful For more information on successful controls see http www.w3.org TR html401 interact forms.html successful-controls see also input generalInput and generalInputMulti",
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "optionalInput",
           "normalized": "(String-\u003ea)-\u003eForm a b(Maybe String)",
@@ -1197,6 +1299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform the XML component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "plug",
           "package": "formlets",
@@ -1207,6 +1310,7 @@
         "index": {
           "description": "Transform the XML component",
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "plug",
           "normalized": "(a-\u003ea)-\u003eForm a b c-\u003eForm a b c",
@@ -1221,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "plug'",
           "package": "formlets",
@@ -1230,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "plug'",
           "normalized": "(a-\u003ea)-\u003eFormlet a b c-\u003eFormlet a b c",
@@ -1245,6 +1351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine the XML components of two forms using f, and combine the\n values using g.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "plug2",
           "package": "formlets",
@@ -1255,6 +1362,7 @@
         "index": {
           "description": "Combine the XML components of two forms using and combine the values using",
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "plug2",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(b-\u003ec-\u003eFailing d)-\u003eForm a e b-\u003eForm a e c-\u003eForm a e d",
@@ -1269,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "pureM",
           "package": "formlets",
@@ -1278,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "pureM",
           "normalized": "a b-\u003eForm c a b",
@@ -1292,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "rectCols",
           "package": "formlets",
@@ -1301,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "rectCols",
           "package": "formlets",
@@ -1314,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "rectRows",
           "package": "formlets",
@@ -1323,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "rectRows",
           "package": "formlets",
@@ -1337,6 +1451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the form state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "runFormState",
           "package": "formlets",
@@ -1346,6 +1461,7 @@
         "index": {
           "description": "Runs the form state",
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "runFormState",
           "normalized": "Env-\u003eForm a b c-\u003e(b(Failing c),a,FormContentType)",
@@ -1362,6 +1478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose a good number of rows for a textarea input.  Uses the\n number of newlines in the string and the number of lines that\n are too long for the desired width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "stringRect",
           "package": "formlets",
@@ -1372,6 +1489,7 @@
         "index": {
           "description": "Choose good number of rows for textarea input Uses the number of newlines in the string and the number of lines that are too long for the desired width",
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "stringRect",
           "normalized": "Int-\u003eString-\u003eRect",
@@ -1388,6 +1506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePure xml\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.Formlets",
           "name": "xml",
           "package": "formlets",
@@ -1398,6 +1517,7 @@
         "index": {
           "description": "Pure xml",
           "hierarchy": "Text Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.Formlets",
           "name": "xml",
           "normalized": "a-\u003eForm a b()",
@@ -1412,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "Formlets",
           "package": "formlets",
@@ -1420,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Strict Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "Formlets",
           "package": "formlets",
@@ -1433,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "XHtmlForm",
           "package": "formlets",
@@ -1441,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Strict Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "XHtmlForm",
           "package": "formlets",
@@ -1454,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "XHtmlFormlet",
           "package": "formlets",
@@ -1462,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Strict Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "XHtmlFormlet",
           "package": "formlets",
@@ -1476,6 +1602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA checkbox with an optional default value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "checkbox",
           "package": "formlets",
@@ -1486,6 +1613,7 @@
         "index": {
           "description": "checkbox with an optional default value",
           "hierarchy": "Text XHtml Strict Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "checkbox",
           "package": "formlets",
@@ -1499,6 +1627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn radio choice for Enums\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "enumRadio",
           "package": "formlets",
@@ -1509,6 +1638,7 @@
         "index": {
           "description": "An radio choice for Enums",
           "hierarchy": "Text XHtml Strict Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "enumRadio",
           "normalized": "[(a,String)]-\u003eXHtmlFormlet b a",
@@ -1525,6 +1655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA drop-down for all the options from |a|.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "enumSelect",
           "package": "formlets",
@@ -1535,6 +1666,7 @@
         "index": {
           "description": "drop-down for all the options from",
           "hierarchy": "Text XHtml Strict Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "enumSelect",
           "normalized": "[HtmlAttr]-\u003eXHtmlFormlet a b",
@@ -1551,6 +1683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file upload form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "file",
           "package": "formlets",
@@ -1561,6 +1694,7 @@
         "index": {
           "description": "file upload form",
           "hierarchy": "Text XHtml Strict Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "file",
           "package": "formlets",
@@ -1574,6 +1708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hidden input field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "hidden",
           "package": "formlets",
@@ -1584,6 +1719,7 @@
         "index": {
           "description": "hidden input field",
           "hierarchy": "Text XHtml Strict Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "hidden",
           "package": "formlets",
@@ -1597,6 +1733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn input field with an optional value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "input",
           "package": "formlets",
@@ -1607,6 +1744,7 @@
         "index": {
           "description": "An input field with an optional value",
           "hierarchy": "Text XHtml Strict Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "input",
           "package": "formlets",
@@ -1620,6 +1758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA validated integer component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "inputInteger",
           "package": "formlets",
@@ -1630,6 +1769,7 @@
         "index": {
           "description": "validated integer component",
           "hierarchy": "Text XHtml Strict Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "inputInteger",
           "package": "formlets",
@@ -1643,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "label",
           "package": "formlets",
@@ -1652,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Strict Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "label",
           "normalized": "a-\u003eForm Html b()",
@@ -1667,6 +1809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA password field with an optional value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "password",
           "package": "formlets",
@@ -1677,6 +1820,7 @@
         "index": {
           "description": "password field with an optional value",
           "hierarchy": "Text XHtml Strict Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "password",
           "package": "formlets",
@@ -1690,6 +1834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA radio choice\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "radio",
           "package": "formlets",
@@ -1700,6 +1845,7 @@
         "index": {
           "description": "radio choice",
           "hierarchy": "Text XHtml Strict Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "radio",
           "normalized": "[(String,String)]-\u003eXHtmlFormlet a String",
@@ -1715,6 +1861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA drop-down for anything that is an instance of Eq\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "select",
           "package": "formlets",
@@ -1725,6 +1872,7 @@
         "index": {
           "description": "drop-down for anything that is an instance of Eq",
           "hierarchy": "Text XHtml Strict Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "select",
           "normalized": "[HtmlAttr]-\u003e[(a,b)]-\u003eXHtmlFormlet c a",
@@ -1792,6 +1940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA textarea with optional rows and columns, and an optional value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "textarea",
           "package": "formlets",
@@ -1802,6 +1951,7 @@
         "index": {
           "description": "textarea with optional rows and columns and an optional value",
           "hierarchy": "Text XHtml Strict Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Strict.Formlets",
           "name": "textarea",
           "normalized": "Maybe Int-\u003eMaybe Int-\u003eXHtmlFormlet a String",
@@ -1816,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "Formlets",
           "package": "formlets",
@@ -1824,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "Formlets",
           "package": "formlets",
@@ -1837,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "XHtmlForm",
           "package": "formlets",
@@ -1845,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "XHtmlForm",
           "package": "formlets",
@@ -1858,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "XHtmlFormlet",
           "package": "formlets",
@@ -1866,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "XHtmlFormlet",
           "package": "formlets",
@@ -1880,6 +2036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA checkbox with an optional default value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "checkbox",
           "package": "formlets",
@@ -1890,6 +2047,7 @@
         "index": {
           "description": "checkbox with an optional default value",
           "hierarchy": "Text XHtml Transitional Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "checkbox",
           "package": "formlets",
@@ -1903,6 +2061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn radio choice for Enums\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "enumRadio",
           "package": "formlets",
@@ -1913,6 +2072,7 @@
         "index": {
           "description": "An radio choice for Enums",
           "hierarchy": "Text XHtml Transitional Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "enumRadio",
           "normalized": "[(a,String)]-\u003eXHtmlFormlet b a",
@@ -1929,6 +2089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA drop-down for all the options from |a|.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "enumSelect",
           "package": "formlets",
@@ -1939,6 +2100,7 @@
         "index": {
           "description": "drop-down for all the options from",
           "hierarchy": "Text XHtml Transitional Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "enumSelect",
           "normalized": "[HtmlAttr]-\u003eXHtmlFormlet a b",
@@ -1955,6 +2117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file upload form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "file",
           "package": "formlets",
@@ -1965,6 +2128,7 @@
         "index": {
           "description": "file upload form",
           "hierarchy": "Text XHtml Transitional Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "file",
           "package": "formlets",
@@ -1978,6 +2142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hidden input field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "hidden",
           "package": "formlets",
@@ -1988,6 +2153,7 @@
         "index": {
           "description": "hidden input field",
           "hierarchy": "Text XHtml Transitional Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "hidden",
           "package": "formlets",
@@ -2001,6 +2167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn input field with an optional value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "input",
           "package": "formlets",
@@ -2011,6 +2178,7 @@
         "index": {
           "description": "An input field with an optional value",
           "hierarchy": "Text XHtml Transitional Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "input",
           "package": "formlets",
@@ -2024,6 +2192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA validated integer component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "inputInteger",
           "package": "formlets",
@@ -2034,6 +2203,7 @@
         "index": {
           "description": "validated integer component",
           "hierarchy": "Text XHtml Transitional Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "inputInteger",
           "package": "formlets",
@@ -2047,6 +2217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "label",
           "package": "formlets",
@@ -2056,6 +2227,7 @@
         },
         "index": {
           "hierarchy": "Text XHtml Transitional Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "label",
           "normalized": "a-\u003eForm Html b()",
@@ -2071,6 +2243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA password field with an optional value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "password",
           "package": "formlets",
@@ -2081,6 +2254,7 @@
         "index": {
           "description": "password field with an optional value",
           "hierarchy": "Text XHtml Transitional Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "password",
           "package": "formlets",
@@ -2094,6 +2268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA radio choice\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "radio",
           "package": "formlets",
@@ -2104,6 +2279,7 @@
         "index": {
           "description": "radio choice",
           "hierarchy": "Text XHtml Transitional Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "radio",
           "normalized": "[(String,String)]-\u003eXHtmlFormlet a String",
@@ -2119,6 +2295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA drop-down for anything that is an instance of Eq\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "select",
           "package": "formlets",
@@ -2129,6 +2306,7 @@
         "index": {
           "description": "drop-down for anything that is an instance of Eq",
           "hierarchy": "Text XHtml Transitional Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "select",
           "normalized": "[HtmlAttr]-\u003e[(a,b)]-\u003eXHtmlFormlet c a",
@@ -2144,6 +2322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA textarea with optional rows and columns, and an optional value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:33 UTC 2014",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "textarea",
           "package": "formlets",
@@ -2154,6 +2333,7 @@
         "index": {
           "description": "textarea with optional rows and columns and an optional value",
           "hierarchy": "Text XHtml Transitional Formlets",
+          "indexed": "2014-03-11T18:11:33",
           "module": "Text.XHtml.Transitional.Formlets",
           "name": "textarea",
           "normalized": "Maybe Int-\u003eMaybe Int-\u003eXHtmlFormlet a String",

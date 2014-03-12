@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lgtk"
+        "phrase": "lgtk",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA generic ADT editor defined on top of the main LGtk interface, \u003ca\u003eLGtk\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.ADTEditor",
           "name": "ADTEditor",
           "package": "lgtk",
@@ -28,6 +29,7 @@
         "index": {
           "description": "generic ADT editor defined on top of the main LGtk interface LGtk",
           "hierarchy": "LGtk ADTEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.ADTEditor",
           "name": "ADTEditor",
           "package": "lgtk",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens for editable ADTs with support of shared record fields between constructors.\n\u003c/p\u003e\u003cp\u003eSuppose we have the data type\n\u003c/p\u003e\u003cpre\u003e\ndata X\n    = X1 { a :: Int, b :: Bool }\n    | X2 { a :: Int, c :: Char }\n\u003c/pre\u003e\u003cp\u003eWe can build an editor which can switch between two editor for the constructors.\nIf the field \u003ccode\u003ea\u003c/code\u003e is edited in one editor, it will be updated in the other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.ADTEditor",
           "name": "ADTLens",
           "package": "lgtk",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Lens for editable ADTs with support of shared record fields between constructors Suppose we have the data type data X1 Int Bool X2 Int Char We can build an editor which can switch between two editor for the constructors If the field is edited in one editor it will be updated in the other",
           "hierarchy": "LGtk ADTEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.ADTEditor",
           "name": "ADTLens",
           "package": "lgtk",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeterogeneous lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.ADTEditor",
           "name": "Elems",
           "package": "lgtk",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Heterogeneous lists",
           "hierarchy": "LGtk ADTEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.ADTEditor",
           "name": "Elems",
           "package": "lgtk",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-level lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.ADTEditor",
           "name": "List",
           "package": "lgtk",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Type-level lists",
           "hierarchy": "LGtk ADTEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.ADTEditor",
           "name": "List",
           "package": "lgtk",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.ADTEditor",
           "name": "Cons",
           "package": "lgtk",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "LGtk ADTEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.ADTEditor",
           "name": "Cons",
           "package": "lgtk",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.ADTEditor",
           "name": "ElemsCons",
           "package": "lgtk",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "LGtk ADTEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.ADTEditor",
           "name": "ElemsCons",
           "normalized": "a-\u003eElems b-\u003eElems(Cons a b)",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.ADTEditor",
           "name": "ElemsNil",
           "package": "lgtk",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "LGtk ADTEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.ADTEditor",
           "name": "ElemsNil",
           "package": "lgtk",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.ADTEditor",
           "name": "Nil",
           "package": "lgtk",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "LGtk ADTEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.ADTEditor",
           "name": "Nil",
           "package": "lgtk",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic ADT editor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.ADTEditor",
           "name": "adtEditor",
           "package": "lgtk",
@@ -211,6 +228,7 @@
         "index": {
           "description": "generic ADT editor",
           "hierarchy": "LGtk ADTEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.ADTEditor",
           "name": "adtEditor",
           "normalized": "Ref a b-\u003ea(Widget a)",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe lens which defines an abstract editor.\n\u003c/p\u003e\u003cp\u003eThe first parameter defines the displayed constructor name and the parts of the constructor for each constructor.\n    \u003ccode\u003eInt\u003c/code\u003e is an index in the \u003ccode\u003eADTEls\u003c/code\u003e list.\n\u003c/p\u003e\u003cp\u003eFor example, in case of \u003ccode\u003eX\u003c/code\u003e,\n\u003c/p\u003e\u003cpre\u003efst3 adtLens = [(\"X1\", [0, 1]), (\"X2\", [0, 2])]\u003c/pre\u003e\u003cp\u003eThe second parameter is the list of default values for each part.\n\u003c/p\u003e\u003cp\u003eThe third parameter is a lens from the selected constructor index plus\n    the values of the ADT parts to the ADT values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.ADTEditor",
           "name": "adtLens",
           "package": "lgtk",
@@ -237,6 +256,7 @@
         "index": {
           "description": "The lens which defines an abstract editor The first parameter defines the displayed constructor name and the parts of the constructor for each constructor Int is an index in the ADTEls list For example in case of fst3 adtLens X1 X2 The second parameter is the list of default values for each part The third parameter is lens from the selected constructor index plus the values of the ADT parts to the ADT values",
           "hierarchy": "LGtk ADTEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.ADTEditor",
           "name": "adtLens",
           "normalized": "([(String,[Int])],Elems(ADTEls a),Lens(Int,Elems(ADTEls a))a)",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn integer list editor\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.IntListEditor",
           "name": "IntListEditor",
           "package": "lgtk",
@@ -262,6 +283,7 @@
         "index": {
           "description": "An integer list editor",
           "hierarchy": "LGtk Demos IntListEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.IntListEditor",
           "name": "IntListEditor",
           "package": "lgtk",
@@ -275,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.IntListEditor",
           "name": "intListEditor",
           "package": "lgtk",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "LGtk Demos IntListEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.IntListEditor",
           "name": "intListEditor",
           "normalized": "(a,Bool)-\u003eInt-\u003eRef b[(a,Bool)]-\u003eRef b Bool-\u003eWidget b",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.IntListEditor",
           "name": "listEditor",
           "package": "lgtk",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "LGtk Demos IntListEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.IntListEditor",
           "name": "listEditor",
           "normalized": "a-\u003e[Ref b a-\u003eb(Widget b)]-\u003eRef b[a]-\u003eb(Widget b)",
@@ -322,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.Main",
           "name": "Main",
           "package": "lgtk",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "LGtk Demos Main",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.Main",
           "name": "Main",
           "package": "lgtk",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.Main",
           "name": "main",
           "package": "lgtk",
@@ -352,6 +381,7 @@
         },
         "index": {
           "hierarchy": "LGtk Demos Main",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.Main",
           "name": "main",
           "normalized": "IO()",
@@ -366,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.TEditor",
           "name": "TEditor",
           "package": "lgtk",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "LGtk Demos TEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.TEditor",
           "name": "TEditor",
           "package": "lgtk",
@@ -388,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary tree shapes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.TEditor",
           "name": "T",
           "package": "lgtk",
@@ -397,6 +430,7 @@
         "index": {
           "description": "Binary tree shapes",
           "hierarchy": "LGtk Demos TEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.TEditor",
           "name": "T",
           "package": "lgtk",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.TEditor",
           "name": "Leaf",
           "package": "lgtk",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "LGtk Demos TEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.TEditor",
           "name": "Leaf",
           "package": "lgtk",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.TEditor",
           "name": "Node",
           "package": "lgtk",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "LGtk Demos TEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.TEditor",
           "name": "Node",
           "package": "lgtk",
@@ -454,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eT\u003c/code\u003e editor with comboboxes, as an ADTEditor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.TEditor",
           "name": "tEditor1",
           "package": "lgtk",
@@ -464,6 +503,7 @@
         "index": {
           "description": "editor with comboboxes as an ADTEditor",
           "hierarchy": "LGtk Demos TEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.TEditor",
           "name": "tEditor1",
           "package": "lgtk",
@@ -478,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eT\u003c/code\u003e editor with checkboxes, given directly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.TEditor",
           "name": "tEditor3",
           "package": "lgtk",
@@ -488,6 +529,7 @@
         "index": {
           "description": "editor with checkboxes given directly",
           "hierarchy": "LGtk Demos TEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.TEditor",
           "name": "tEditor3",
           "normalized": "Ref a T-\u003ea(Widget a)",
@@ -504,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLens for \u003ccode\u003eT\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.TEditor",
           "name": "tLens",
           "package": "lgtk",
@@ -514,6 +557,7 @@
         "index": {
           "description": "Lens for",
           "hierarchy": "LGtk Demos TEditor",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.TEditor",
           "name": "tLens",
           "normalized": "Lens(Bool,(T,T))T",
@@ -530,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn editor for integers x, y, z such that x + y = z always hold and\nthe last edited value change.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.Tri",
           "name": "Tri",
           "package": "lgtk",
@@ -539,6 +584,7 @@
         "index": {
           "description": "An editor for integers such that always hold and the last edited value change",
           "hierarchy": "LGtk Demos Tri",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.Tri",
           "name": "Tri",
           "package": "lgtk",
@@ -553,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation pieces: what is known?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.Tri",
           "name": "S",
           "package": "lgtk",
@@ -562,6 +609,7 @@
         "index": {
           "description": "Information pieces what is known",
           "hierarchy": "LGtk Demos Tri",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.Tri",
           "name": "S",
           "package": "lgtk",
@@ -574,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.Tri",
           "name": "X",
           "package": "lgtk",
@@ -583,6 +632,7 @@
         },
         "index": {
           "hierarchy": "LGtk Demos Tri",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.Tri",
           "name": "X",
           "package": "lgtk",
@@ -595,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.Tri",
           "name": "XY",
           "package": "lgtk",
@@ -604,6 +655,7 @@
         },
         "index": {
           "hierarchy": "LGtk Demos Tri",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.Tri",
           "name": "XY",
           "package": "lgtk",
@@ -617,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.Tri",
           "name": "Y",
           "package": "lgtk",
@@ -626,6 +679,7 @@
         },
         "index": {
           "hierarchy": "LGtk Demos Tri",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.Tri",
           "name": "Y",
           "package": "lgtk",
@@ -639,6 +693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.Tri",
           "name": "getX",
           "package": "lgtk",
@@ -649,6 +704,7 @@
         "index": {
           "description": "Getter",
           "hierarchy": "LGtk Demos Tri",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.Tri",
           "name": "getX",
           "normalized": "[S]-\u003eInt",
@@ -664,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.Tri",
           "name": "getXY",
           "package": "lgtk",
@@ -674,6 +731,7 @@
         "index": {
           "description": "Getter",
           "hierarchy": "LGtk Demos Tri",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.Tri",
           "name": "getXY",
           "normalized": "[S]-\u003eInt",
@@ -690,6 +748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.Tri",
           "name": "getY",
           "package": "lgtk",
@@ -700,6 +759,7 @@
         "index": {
           "description": "Getter",
           "hierarchy": "LGtk Demos Tri",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.Tri",
           "name": "getY",
           "normalized": "[S]-\u003eInt",
@@ -715,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.Tri",
           "name": "setX",
           "package": "lgtk",
@@ -725,6 +786,7 @@
         "index": {
           "description": "Setter",
           "hierarchy": "LGtk Demos Tri",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.Tri",
           "name": "setX",
           "normalized": "Int-\u003e[S]-\u003e[S]",
@@ -740,6 +802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.Tri",
           "name": "setXY",
           "package": "lgtk",
@@ -750,6 +813,7 @@
         "index": {
           "description": "Setter",
           "hierarchy": "LGtk Demos Tri",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.Tri",
           "name": "setXY",
           "normalized": "Int-\u003e[S]-\u003e[S]",
@@ -766,6 +830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.Tri",
           "name": "setY",
           "package": "lgtk",
@@ -776,6 +841,7 @@
         "index": {
           "description": "Setter",
           "hierarchy": "LGtk Demos Tri",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.Tri",
           "name": "setY",
           "normalized": "Int-\u003e[S]-\u003e[S]",
@@ -791,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe editor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk.Demos.Tri",
           "name": "tri",
           "package": "lgtk",
@@ -801,6 +868,7 @@
         "index": {
           "description": "The editor",
           "hierarchy": "LGtk Demos Tri",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk.Demos.Tri",
           "name": "tri",
           "package": "lgtk",
@@ -814,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMain LGtk interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "LGtk",
           "package": "lgtk",
@@ -823,6 +892,7 @@
         "index": {
           "description": "Main LGtk interface",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "LGtk",
           "package": "lgtk",
@@ -837,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for categories.\n   id and (.) must form a monoid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "Category",
           "package": "lgtk",
@@ -845,6 +916,7 @@
         "index": {
           "description": "class for categories id and must form monoid",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "Category",
           "package": "lgtk",
@@ -859,6 +931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColor\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Specifies a color with three integer values for red, green and blue.\n   All values range from 0 (least intense) to 65535 (highest intensity).\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "Color",
           "package": "lgtk",
@@ -867,6 +940,7 @@
         "index": {
           "description": "Color Specifies color with three integer values for red green and blue All values range from least intense to highest intensity",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "Color",
           "package": "lgtk",
@@ -881,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for IO actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "EffIORef",
           "package": "lgtk",
@@ -890,6 +965,7 @@
         "index": {
           "description": "Type class for IO actions",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "EffIORef",
           "package": "lgtk",
@@ -904,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad for dynamic actions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "EffRef",
           "package": "lgtk",
@@ -913,6 +990,7 @@
         "index": {
           "description": "Monad for dynamic actions",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "EffRef",
           "package": "lgtk",
@@ -927,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReferences with inherent equivalence.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eEqRef r a\u003c/code\u003e === \u003ccode\u003eReadRefMonad r (exist b . Eq b =\u003e (Lens b a, r b))\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eAs a reference, \u003ccode\u003e(m :: EqRef r a)\u003c/code\u003e behaves as\n\u003c/p\u003e\u003cpre\u003ejoinRef $ liftM (uncurry lensMap) m\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "EqRef",
           "package": "lgtk",
@@ -936,6 +1015,7 @@
         "index": {
           "description": "References with inherent equivalence EqRef ReadRefMonad exist Eq Lens As reference EqRef behaves as joinRef liftM uncurry lensMap",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "EqRef",
           "package": "lgtk",
@@ -950,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReferences with inherent equivalence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "EqReference",
           "package": "lgtk",
@@ -959,6 +1040,7 @@
         "index": {
           "description": "References with inherent equivalence",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "EqReference",
           "package": "lgtk",
@@ -973,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad for reference creation. Reference creation is not a method\nof the \u003ccode\u003e\u003ca\u003eReference\u003c/a\u003e\u003c/code\u003e type class to make possible to\ncreate the same type of references in multiple monads.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e(Extref m) === (StateT s m)\u003c/code\u003e, where \u003ccode\u003es\u003c/code\u003e is an extendible state.\n\u003c/p\u003e\u003cp\u003eFor basic usage examples, look into the source of \u003ccode\u003eControl.Monad.ExtRef.Pure.Test\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "ExtRef",
           "package": "lgtk",
@@ -982,6 +1065,7 @@
         "index": {
           "description": "Monad for reference creation Reference creation is not method of the Reference type class to make possible to create the same type of references in multiple monads Extref StateT where is an extendible state For basic usage examples look into the source of Control.Monad.ExtRef.Pure.Test",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "ExtRef",
           "package": "lgtk",
@@ -996,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003em\u003c/code\u003e has a submonad \u003ccode\u003e(ReadPart m)\u003c/code\u003e which is isomorphic to \u003ccode\u003e\u003ca\u003eReader\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "HasReadPart",
           "package": "lgtk",
@@ -1005,6 +1090,7 @@
         "index": {
           "description": "has submonad ReadPart which is isomorphic to Reader",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "HasReadPart",
           "package": "lgtk",
@@ -1018,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "Lens",
           "package": "lgtk",
@@ -1025,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "Lens",
           "package": "lgtk",
@@ -1039,6 +1127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad morphism. Think as \u003ccode\u003em\u003c/code\u003e is a submonad of \u003ccode\u003en\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "Morph",
           "package": "lgtk",
@@ -1048,6 +1137,7 @@
         "index": {
           "description": "Monad morphism Think as is submonad of",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "Morph",
           "package": "lgtk",
@@ -1061,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "ReadRef",
           "package": "lgtk",
@@ -1069,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "ReadRef",
           "package": "lgtk",
@@ -1082,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "ReadRefMonad",
           "package": "lgtk",
@@ -1090,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "ReadRefMonad",
           "package": "lgtk",
@@ -1104,6 +1198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference \u003ccode\u003e(r a)\u003c/code\u003e is isomorphic to \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eLens\u003c/a\u003e\u003c/code\u003e s a)\u003c/code\u003e for some fixed state \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003er\u003c/code\u003e  ===  \u003ccode\u003eLens s\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "Reference",
           "package": "lgtk",
@@ -1113,6 +1208,7 @@
         "index": {
           "description": "reference is isomorphic to Lens for some fixed state Lens",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "Reference",
           "package": "lgtk",
@@ -1127,6 +1223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for effectless, synchronous \u003ccode\u003eIO\u003c/code\u003e actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "SafeIO",
           "package": "lgtk",
@@ -1136,6 +1233,7 @@
         "index": {
           "description": "Type class for effectless synchronous IO actions",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "SafeIO",
           "package": "lgtk",
@@ -1149,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "Tensor",
           "package": "lgtk",
@@ -1156,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "Tensor",
           "package": "lgtk",
@@ -1170,6 +1270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGtk widget descriptions.\nConstruction of a \u003ccode\u003e(w :: forall m . EffIORef m =\u003e Widget m)\u003c/code\u003e value is side-effect free,\nside-effects happen at running \u003ccode\u003e(\u003ccode\u003e\u003ca\u003erunWidget\u003c/a\u003e\u003c/code\u003e w)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eWidget\u003c/code\u003e should be abstract data type, but it is also safe to keep it as a type synonym because\nthe operations of the revealed implementation are hidden.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "Widget",
           "package": "lgtk",
@@ -1179,6 +1280,7 @@
         "index": {
           "description": "Gtk widget descriptions Construction of forall EffIORef Widget value is side-effect free side-effects happen at running runWidget Widget should be abstract data type but it is also safe to keep it as type synonym because the operations of the revealed implementation are hidden",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "Widget",
           "package": "lgtk",
@@ -1192,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "WriteRef",
           "package": "lgtk",
@@ -1200,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "WriteRef",
           "package": "lgtk",
@@ -1213,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "(***)",
           "package": "lgtk",
@@ -1221,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "(***) ***",
           "normalized": "a b c-\u003ea d e-\u003ea(b,d)(c,e)",
@@ -1236,6 +1342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emorphism composition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "(.)",
           "package": "lgtk",
@@ -1245,6 +1352,7 @@
         "index": {
           "description": "morphism composition",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "(.) .",
           "normalized": "a b c-\u003ea d b-\u003ea d c",
@@ -1259,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "Color",
           "package": "lgtk",
@@ -1267,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "Color",
           "package": "lgtk",
@@ -1280,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "Lens",
           "package": "lgtk",
@@ -1288,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "Lens",
           "package": "lgtk",
@@ -1302,6 +1414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eaction\u003c/code\u003e makes possible to do any \u003ccode\u003e\u003ca\u003eEffRef\u003c/a\u003e\u003c/code\u003e action while creating the widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "action",
           "package": "lgtk",
@@ -1312,6 +1425,7 @@
         "index": {
           "description": "action makes possible to do any EffRef action while creating the widget",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "action",
           "normalized": "a(Widget a)-\u003eWidget a",
@@ -1327,6 +1441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(asyncWrite t f a)\u003c/code\u003e has the effect of doing \u003ccode\u003e(f a)\u003c/code\u003e after waiting \u003ccode\u003et\u003c/code\u003e milliseconds.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003e(asyncWrite 0 f a)\u003c/code\u003e acts immediately after the completion of the current computation,\n    so it is safe, because the effect of \u003ccode\u003e(f a)\u003c/code\u003e is not interleaved with\n    the current computation.\n    Although \u003ccode\u003e(asyncWrite 0)\u003c/code\u003e is safe, code using it has a bad small.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "asyncWrite",
           "package": "lgtk",
@@ -1337,6 +1452,7 @@
         "index": {
           "description": "asyncWrite has the effect of doing after waiting milliseconds Note that asyncWrite acts immediately after the completion of the current computation so it is safe because the effect of is not interleaved with the current computation Although asyncWrite is safe code using it has bad small",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "asyncWrite",
           "normalized": "Int-\u003e(a-\u003eWriteRef b())-\u003ea-\u003eb()",
@@ -1352,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "button",
           "package": "lgtk",
@@ -1360,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "button",
           "normalized": "ReadRef a String-\u003eReadRef a(Maybe(WriteRef a()))-\u003eWidget a",
@@ -1375,6 +1493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow-level button.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "button_",
           "package": "lgtk",
@@ -1384,6 +1503,7 @@
         "index": {
           "description": "Low-level button",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "button_",
           "normalized": "ReadRef a String-\u003eReadRef a Bool-\u003eWriteRef a()-\u003eWidget a",
@@ -1399,6 +1519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow-level button with changeable background color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "button__",
           "package": "lgtk",
@@ -1408,6 +1529,7 @@
         "index": {
           "description": "Low-level button with changeable background color",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "button__",
           "normalized": "ReadRef a String-\u003eReadRef a Bool-\u003eReadRef a Color-\u003eWriteRef a()-\u003eWidget a",
@@ -1423,6 +1545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic cell.\n\u003c/p\u003e\u003cp\u003eThe inner widgets are memoised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "cell",
           "package": "lgtk",
@@ -1433,6 +1556,7 @@
         "index": {
           "description": "Dynamic cell The inner widgets are memoised",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "cell",
           "normalized": "ReadRef a b-\u003e(b-\u003eWidget a)-\u003eWidget a",
@@ -1448,6 +1572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic cell.\n\u003c/p\u003e\u003cp\u003eThe inner widgets are not memoised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "cellNoMemo",
           "package": "lgtk",
@@ -1458,6 +1583,7 @@
         "index": {
           "description": "Dynamic cell The inner widgets are not memoised",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "cellNoMemo",
           "normalized": "ReadRef a b-\u003e(b-\u003eWidget a)-\u003eWidget a",
@@ -1474,6 +1600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic cell.\n\u003c/p\u003e\u003cp\u003eThe monadic action for inner widget creation is memoised in the first monad layer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "cell_",
           "package": "lgtk",
@@ -1484,6 +1611,7 @@
         "index": {
           "description": "Dynamic cell The monadic action for inner widget creation is memoised in the first monad layer",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "cell_",
           "normalized": "ReadRef a b-\u003e(c d(Widget a-\u003ea e)-\u003eb-\u003ea(a e))-\u003eWidget a",
@@ -1499,6 +1627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheckbox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "checkbox",
           "package": "lgtk",
@@ -1509,6 +1638,7 @@
         "index": {
           "description": "Checkbox",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "checkbox",
           "normalized": "Ref a Bool-\u003eWidget a",
@@ -1524,6 +1654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple combo box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "combobox",
           "package": "lgtk",
@@ -1534,6 +1665,7 @@
         "index": {
           "description": "Simple combo box",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "combobox",
           "normalized": "[String]-\u003eRef a Int-\u003eWidget a",
@@ -1549,6 +1681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "empty",
           "package": "lgtk",
@@ -1559,6 +1692,7 @@
         "index": {
           "description": "Empty widget",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "empty",
           "package": "lgtk",
@@ -1572,6 +1706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "entry",
           "package": "lgtk",
@@ -1582,6 +1717,7 @@
         "index": {
           "description": "Text entry",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "entry",
           "normalized": "a String-\u003eWidget b",
@@ -1597,6 +1733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "entryShow",
           "package": "lgtk",
@@ -1607,6 +1744,7 @@
         "index": {
           "description": "Text entry",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "entryShow",
           "normalized": "a b-\u003eWidget c",
@@ -1623,6 +1761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eEqRef\u003c/code\u003e construction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "eqRef",
           "package": "lgtk",
@@ -1633,6 +1772,7 @@
         "index": {
           "description": "EqRef construction",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "eqRef",
           "normalized": "a b-\u003eEqRef a b",
@@ -1649,6 +1789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference creation by extending the state of an existing reference.\n\u003c/p\u003e\u003cp\u003eSuppose that \u003ccode\u003er\u003c/code\u003e is a reference and \u003ccode\u003ek\u003c/code\u003e is a lens.\n\u003c/p\u003e\u003cp\u003eLaw 1: \u003ccode\u003eextRef\u003c/code\u003e applies \u003ccode\u003ek\u003c/code\u003e on \u003ccode\u003er\u003c/code\u003e backwards, i.e. \n    the result of \u003ccode\u003e(extRef r k a0)\u003c/code\u003e should behaves exactly as \u003ccode\u003e(lensMap k r)\u003c/code\u003e.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e  \u003ccode\u003e(liftM (k .) $ extRef r k a0)\u003c/code\u003e === \u003ccode\u003ereturn r\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eLaw 2: \u003ccode\u003eextRef\u003c/code\u003e does not change the value of \u003ccode\u003er\u003c/code\u003e:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e  \u003ccode\u003e(extRef r k a0 \u003e\u003e readRef r)\u003c/code\u003e === \u003ccode\u003e(readRef r)\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eLaw 3: Proper initialization of newly defined reference with \u003ccode\u003ea0\u003c/code\u003e:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e  \u003ccode\u003e(extRef r k a0 \u003e\u003e= readRef)\u003c/code\u003e === \u003ccode\u003e(readRef r \u003e\u003e= setL k a0)\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "extRef",
           "package": "lgtk",
@@ -1659,6 +1800,7 @@
         "index": {
           "description": "Reference creation by extending the state of an existing reference Suppose that is reference and is lens Law extRef applies on backwards i.e the result of extRef a0 should behaves exactly as lensMap liftM extRef a0 return Law extRef does not change the value of extRef a0 readRef readRef Law Proper initialization of newly defined reference with a0 extRef a0 readRef readRef setL a0",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "extRef",
           "normalized": "Ref a b-\u003eLens c b-\u003ec-\u003ea(Ref a c)",
@@ -1675,6 +1817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(fileRef path)\u003c/code\u003e returns a reference which holds the actual contents\n    of the file accessed by \u003ccode\u003epath\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWhen the value of the reference changes, the file changes.\n    When the file changes, the value of the reference changes.\n\u003c/p\u003e\u003cp\u003eIf the reference holds \u003ccode\u003eNothing\u003c/code\u003e, the file does not exist.\n    Note that you delete the file by putting \u003ccode\u003eNothing\u003c/code\u003e into the reference.    \n\u003c/p\u003e\u003cp\u003eImplementation note: The references returned by \u003ccode\u003efileRef\u003c/code\u003e are not\n    memoised so currently it is unsafe to call \u003ccode\u003efileRef\u003c/code\u003e on the same filepath more than once.\n    This restriction will be lifted in the future.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "fileRef",
           "package": "lgtk",
@@ -1685,6 +1828,7 @@
         "index": {
           "description": "fileRef path returns reference which holds the actual contents of the file accessed by path When the value of the reference changes the file changes When the file changes the value of the reference changes If the reference holds Nothing the file does not exist Note that you delete the file by putting Nothing into the reference Implementation note The references returned by fileRef are not memoised so currently it is unsafe to call fileRef on the same filepath more than once This restriction will be lifted in the future",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "fileRef",
           "normalized": "FilePath-\u003ea(Ref a(Maybe String))",
@@ -1700,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "first",
           "package": "lgtk",
@@ -1708,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "first",
           "normalized": "a b c-\u003ea(b,d)(c,d)",
@@ -1722,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "fstLens",
           "package": "lgtk",
@@ -1730,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "fstLens",
           "normalized": "Lens(a,b)a",
@@ -1746,6 +1894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe program's command line arguments (not including the program name). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "getArgs",
           "package": "lgtk",
@@ -1756,6 +1905,7 @@
         "index": {
           "description": "The program command line arguments not including the program name",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "getArgs",
           "normalized": "a[String]",
@@ -1772,6 +1922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the getter function from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "getL",
           "package": "lgtk",
@@ -1781,6 +1932,7 @@
         "index": {
           "description": "Gets the getter function from lens",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "getL",
           "normalized": "Lens a b-\u003ea-\u003eb",
@@ -1796,6 +1948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a line from the standard input device.\n    \u003ccode\u003e(getLine_ f)\u003c/code\u003e returns immediately. When the line \u003ccode\u003es\u003c/code\u003e is read,\n    \u003ccode\u003ef s\u003c/code\u003e is called.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "getLine_",
           "package": "lgtk",
@@ -1806,6 +1959,7 @@
         "index": {
           "description": "Read line from the standard input device getLine returns immediately When the line is read is called",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "getLine_",
           "normalized": "(String-\u003eWriteRef a())-\u003ea()",
@@ -1822,6 +1976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the program as it was invoked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "getProgName",
           "package": "lgtk",
@@ -1832,6 +1987,7 @@
         "index": {
           "description": "The name of the program as it was invoked",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "getProgName",
           "package": "lgtk",
@@ -1846,6 +2002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ehasEffect r f\u003c/code\u003e returns \u003ccode\u003eFalse\u003c/code\u003e iff \u003ccode\u003e(modRef m f)\u003c/code\u003e === \u003ccode\u003e(return ())\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ehasEffect\u003c/code\u003e is correct only if \u003ccode\u003eeqRef\u003c/code\u003e is applied on a pure reference (a reference which is a pure lens on the hidden state).\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ehasEffect\u003c/code\u003e makes defining auto-sensitive buttons easier, for example.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "hasEffect",
           "package": "lgtk",
@@ -1856,6 +2013,7 @@
         "index": {
           "description": "hasEffect returns False iff modRef return hasEffect is correct only if eqRef is applied on pure reference reference which is pure lens on the hidden state hasEffect makes defining auto-sensitive buttons easier for example",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "hasEffect",
           "normalized": "a b-\u003e(b-\u003eb)-\u003eReadRefMonad a Bool",
@@ -1872,6 +2030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal composition of widgets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "hcat",
           "package": "lgtk",
@@ -1882,6 +2041,7 @@
         "index": {
           "description": "Horizontal composition of widgets",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "hcat",
           "normalized": "[Widget a]-\u003eWidget a",
@@ -1897,6 +2057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe identity morphism\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "id",
           "package": "lgtk",
@@ -1906,6 +2067,7 @@
         "index": {
           "description": "the identity morphism",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "id",
           "package": "lgtk",
@@ -1919,6 +2081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebuild a lens out of an isomorphism\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "iso",
           "package": "lgtk",
@@ -1928,6 +2091,7 @@
         "index": {
           "description": "build lens out of an isomorphism",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "iso",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003eLens a b",
@@ -1943,6 +2107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ejoinRef\u003c/code\u003e makes possible to define dynamic references, i.e. references which depends on\n    values of other references.\n    It is not possible to create new reference dynamically with \u003ccode\u003ejoinRef\u003c/code\u003e; for that, see \u003ccode\u003eonChange\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ejoinRef\u003c/code\u003e === \u003ccode\u003eLens . join . (runLens .) . runReader\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "joinRef",
           "package": "lgtk",
@@ -1953,6 +2118,7 @@
         "index": {
           "description": "joinRef makes possible to define dynamic references i.e references which depends on values of other references It is not possible to create new reference dynamically with joinRef for that see onChange joinRef Lens join runLens runReader",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "joinRef",
           "normalized": "ReadRefMonad a(a b)-\u003ea b",
@@ -1969,6 +2135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "label",
           "package": "lgtk",
@@ -1979,6 +2146,7 @@
         "index": {
           "description": "Dynamic label",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "label",
           "normalized": "ReadRef a String-\u003eWidget a",
@@ -1994,6 +2162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebuild a lens out of a getter and setter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "lens",
           "package": "lgtk",
@@ -2003,6 +2172,7 @@
         "index": {
           "description": "build lens out of getter and setter",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "lens",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea-\u003ea)-\u003eLens a b",
@@ -2018,6 +2188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a lens on a reference.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003elensMap\u003c/code\u003e === \u003ccode\u003e(.)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "lensMap",
           "package": "lgtk",
@@ -2028,6 +2199,7 @@
         "index": {
           "description": "Apply lens on reference lensMap",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "lensMap",
           "normalized": "Lens a b-\u003ec a-\u003ec b",
@@ -2044,6 +2216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a function to a monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "liftM",
           "package": "lgtk",
@@ -2053,6 +2226,7 @@
         "index": {
           "description": "Promote function to monad",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "liftM",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -2068,6 +2242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a function to a monad, scanning the monadic arguments from\n left to right.  For example,\n\u003c/p\u003e\u003cpre\u003e    liftM2 (+) [0,1] [0,2] = [0,2,1,3]\n    liftM2 (+) (Just 1) Nothing = Nothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "liftM2",
           "package": "lgtk",
@@ -2077,6 +2252,7 @@
         "index": {
           "description": "Promote function to monad scanning the monadic arguments from left to right For example liftM2 liftM2 Just Nothing Nothing",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "liftM2",
           "normalized": "(a-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec b",
@@ -2092,6 +2268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a function to a monad, scanning the monadic arguments from\n left to right (cf. \u003ccode\u003e\u003ca\u003eliftM2\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "liftM3",
           "package": "lgtk",
@@ -2101,6 +2278,7 @@
         "index": {
           "description": "Promote function to monad scanning the monadic arguments from left to right cf liftM2",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "liftM3",
           "normalized": "(a-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -2116,6 +2294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(ReadPart m)\u003c/code\u003e is a submonad of \u003ccode\u003em\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "liftReadPart",
           "package": "lgtk",
@@ -2126,6 +2305,7 @@
         "index": {
           "description": "ReadPart is submonad of",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "liftReadPart",
           "package": "lgtk",
@@ -2140,6 +2320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eReadRef\u003c/code\u003e lifted to the reference creation class.\n\u003c/p\u003e\u003cp\u003eNote that we do not lift \u003ccode\u003eWriteRef\u003c/code\u003e to the reference creation class, which a crucial restriction\nin the LGtk interface; this is a feature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "liftReadRef",
           "package": "lgtk",
@@ -2150,6 +2331,7 @@
         "index": {
           "description": "ReadRef lifted to the reference creation class Note that we do not lift WriteRef to the reference creation class which crucial restriction in the LGtk interface this is feature",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "liftReadRef",
           "package": "lgtk",
@@ -2163,6 +2345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "listLens",
           "package": "lgtk",
@@ -2172,6 +2355,7 @@
         },
         "index": {
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "listLens",
           "normalized": "Lens(Bool,(a,[a]))[a]",
@@ -2188,6 +2372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(lookupEnv var)\u003c/code\u003e returns the value of the environment variable \u003ccode\u003evar\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "lookupEnv",
           "package": "lgtk",
@@ -2198,6 +2383,7 @@
         "index": {
           "description": "lookupEnv var returns the value of the environment variable var",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "lookupEnv",
           "normalized": "String-\u003ea(Maybe String)",
@@ -2213,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "maybeLens",
           "package": "lgtk",
@@ -2222,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "maybeLens",
           "normalized": "Lens(Bool,a)(Maybe a)",
@@ -2238,6 +2426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazy monadic evaluation.\nIn case of \u003ccode\u003ey \u003c- memoRead x\u003c/code\u003e, invoking \u003ccode\u003ey\u003c/code\u003e will invoke \u003ccode\u003ex\u003c/code\u003e at most once.\n\u003c/p\u003e\u003cp\u003eLaws:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e  \u003ccode\u003e(memoRead x \u003e\u003e return ())\u003c/code\u003e === \u003ccode\u003ereturn ()\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e  \u003ccode\u003e(memoRead x \u003e\u003e= id)\u003c/code\u003e === \u003ccode\u003ex\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e  \u003ccode\u003e(memoRead x \u003e\u003e= y -\u003e liftM2 (,) y y)\u003c/code\u003e === \u003ccode\u003eliftM (a -\u003e (a, a)) y\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e  \u003ccode\u003e(memoRead x \u003e\u003e= y -\u003e liftM3 (,) y y y)\u003c/code\u003e === \u003ccode\u003eliftM (a -\u003e (a, a, a)) y\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e  ...\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "memoRead",
           "package": "lgtk",
@@ -2248,6 +2437,7 @@
         "index": {
           "description": "Lazy monadic evaluation In case of memoRead invoking will invoke at most once Laws memoRead return return memoRead id memoRead liftM2 liftM memoRead liftM3 liftM",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "memoRead",
           "normalized": "a b-\u003ea(a b)",
@@ -2264,6 +2454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the modifier function from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "modL",
           "package": "lgtk",
@@ -2273,6 +2464,7 @@
         "index": {
           "description": "Gets the modifier function from lens",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "modL",
           "normalized": "Lens a b-\u003e(b-\u003eb)-\u003ea-\u003ea",
@@ -2288,6 +2480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emodRef r f\u003c/code\u003e === \u003ccode\u003eliftReadPart (readRef r) \u003e\u003e= writeRef r . f\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "modRef",
           "package": "lgtk",
@@ -2298,6 +2491,7 @@
         "index": {
           "description": "modRef liftReadPart readRef writeRef",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "modRef",
           "normalized": "a b-\u003e(b-\u003eb)-\u003eRefMonad a()",
@@ -2313,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "newEqRef",
           "package": "lgtk",
@@ -2322,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "newEqRef",
           "normalized": "a-\u003eb(EqRef(Ref b)a)",
@@ -2338,6 +2534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enewRef\u003c/code\u003e extends the state \u003ccode\u003es\u003c/code\u003e in an independent way.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003enewRef\u003c/code\u003e === \u003ccode\u003eextRef unitRef (lens (const ()) (const id))\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "newRef",
           "package": "lgtk",
@@ -2348,6 +2545,7 @@
         "index": {
           "description": "newRef extends the state in an independent way newRef extRef unitRef lens const const id",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "newRef",
           "normalized": "a-\u003eb(Ref b a)",
@@ -2364,6 +2562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNotebook (tabs).\n\u003c/p\u003e\u003cp\u003eThe tabs are created lazily.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "notebook",
           "package": "lgtk",
@@ -2374,6 +2573,7 @@
         "index": {
           "description": "Notebook tabs The tabs are created lazily",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "notebook",
           "normalized": "[(String,Widget a)]-\u003eWidget a",
@@ -2389,6 +2589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLet \u003ccode\u003er\u003c/code\u003e be an effectless action (\u003ccode\u003eReadRef\u003c/code\u003e guarantees this).\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e(onChange init r fmm)\u003c/code\u003e has the following effect:\n\u003c/p\u003e\u003cp\u003eWhenever the value of \u003ccode\u003er\u003c/code\u003e changes (with respect to the given equality),\n    \u003ccode\u003efmm\u003c/code\u003e is called with the new value \u003ccode\u003ea\u003c/code\u003e.\n    The value of the \u003ccode\u003e(fmm a)\u003c/code\u003e action is memoized,\n    but the memoized value is run again and again.\n\u003c/p\u003e\u003cp\u003eThe boolean parameter \u003ccode\u003einit\u003c/code\u003e tells whether the action should\n    be run in the beginning or not.\n\u003c/p\u003e\u003cp\u003eFor example, let \u003ccode\u003e(k :: a -\u003e m b)\u003c/code\u003e and \u003ccode\u003e(h :: b -\u003e m ())\u003c/code\u003e,\n    and suppose that \u003ccode\u003er\u003c/code\u003e will have values \u003ccode\u003ea1\u003c/code\u003e, \u003ccode\u003ea2\u003c/code\u003e, \u003ccode\u003ea3\u003c/code\u003e = \u003ccode\u003ea1\u003c/code\u003e, \u003ccode\u003ea4\u003c/code\u003e = \u003ccode\u003ea2\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003eonChange True r $ \\a -\u003e k a \u003e\u003e= return . h\u003c/pre\u003e\u003cp\u003ehas the effect\n\u003c/p\u003e\u003cpre\u003ek a1 \u003e\u003e= \\b1 -\u003e h b1 \u003e\u003e k a2 \u003e\u003e= \\b2 -\u003e h b2 \u003e\u003e h b1 \u003e\u003e h b2\u003c/pre\u003e\u003cp\u003eand\n\u003c/p\u003e\u003cpre\u003eonChange False r $ \\a -\u003e k a \u003e\u003e= return . h\u003c/pre\u003e\u003cp\u003ehas the effect\n\u003c/p\u003e\u003cpre\u003ek a2 \u003e\u003e= \\b2 -\u003e h b2 \u003e\u003e k a1 \u003e\u003e= \\b1 -\u003e h b1 \u003e\u003e h b2\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "onChange",
           "package": "lgtk",
@@ -2399,6 +2600,7 @@
         "index": {
           "description": "Let be an effectless action ReadRef guarantees this onChange init fmm has the following effect Whenever the value of changes with respect to the given equality fmm is called with the new value The value of the fmm action is memoized but the memoized value is run again and again The boolean parameter init tells whether the action should be run in the beginning or not For example let and and suppose that will have values a1 a2 a3 a1 a4 a2 onChange True return has the effect a1 b1 b1 a2 b2 b2 b1 b2 and onChange False return has the effect a2 b2 b2 a1 b1 b1 b2",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "onChange",
           "normalized": "Bool-\u003eReadRef a b-\u003e(b-\u003ea(a()))-\u003ea()",
@@ -2415,6 +2617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eputStrLn_\u003c/code\u003e === \u003ccode\u003eputStr_ . (++ \u003ca\u003en\u003c/a\u003e)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "putStrLn_",
           "package": "lgtk",
@@ -2425,6 +2628,7 @@
         "index": {
           "description": "putStrLn putStr",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "putStrLn_",
           "normalized": "String-\u003ea()",
@@ -2441,6 +2645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to the standard output device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "putStr_",
           "package": "lgtk",
@@ -2451,6 +2656,7 @@
         "index": {
           "description": "Write string to the standard output device",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "putStr_",
           "normalized": "String-\u003ea()",
@@ -2467,6 +2673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ereadRef\u003c/code\u003e === \u003ccode\u003ereader . getL\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eProperties derived from the \u003ccode\u003e\u003ca\u003eHasReadPart\u003c/a\u003e\u003c/code\u003e instance:\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e(readRef r \u003e\u003e return ())\u003c/code\u003e === \u003ccode\u003ereturn ()\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "readRef",
           "package": "lgtk",
@@ -2477,6 +2684,7 @@
         "index": {
           "description": "readRef reader getL Properties derived from the HasReadPart instance readRef return return",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "readRef",
           "normalized": "a b-\u003eReadRefMonad a b",
@@ -2493,6 +2701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ereadRef\u003c/code\u003e lifted to the reference creation class.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ereadRef'\u003c/code\u003e === \u003ccode\u003eliftReadRef . readRef\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "readRef'",
           "package": "lgtk",
@@ -2503,6 +2712,7 @@
         "index": {
           "description": "readRef lifted to the reference creation class readRef liftReadRef readRef",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "readRef'",
           "normalized": "Ref a b-\u003ea b",
@@ -2518,6 +2728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "runLens",
           "package": "lgtk",
@@ -2526,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "runLens",
           "normalized": "Lens a b-\u003ea-\u003eStore b a",
@@ -2542,6 +2754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a Gtk widget description.\n\u003c/p\u003e\u003cp\u003eThe widget is shown in a window and the thread enters into the Gtk event cycle.\nIt leaves the event cycle when the window is closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "runWidget",
           "package": "lgtk",
@@ -2552,6 +2765,7 @@
         "index": {
           "description": "Run Gtk widget description The widget is shown in window and the thread enters into the Gtk event cycle It leaves the event cycle when the window is closed",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "runWidget",
           "normalized": "Widget a)-\u003eIO()",
@@ -2567,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "second",
           "package": "lgtk",
@@ -2575,6 +2790,7 @@
         },
         "index": {
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "second",
           "normalized": "a b c-\u003ea(d,b)(d,c)",
@@ -2590,6 +2806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the setter function from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "setL",
           "package": "lgtk",
@@ -2599,6 +2816,7 @@
         "index": {
           "description": "Gets the setter function from lens",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "setL",
           "normalized": "Lens a b-\u003eb-\u003ea-\u003ea",
@@ -2613,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "showLens",
           "package": "lgtk",
@@ -2622,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "showLens",
           "package": "lgtk",
@@ -2635,6 +2855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "smartButton",
           "package": "lgtk",
@@ -2643,6 +2864,7 @@
         },
         "index": {
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "smartButton",
           "normalized": "ReadRef a String-\u003eb c-\u003e(c-\u003ec)-\u003eWidget a",
@@ -2658,6 +2880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "sndLens",
           "package": "lgtk",
@@ -2666,6 +2889,7 @@
         },
         "index": {
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "sndLens",
           "normalized": "Lens(a,b)b",
@@ -2682,6 +2906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003eEqRef\u003c/code\u003e is a normal reference if we forget about the equality.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003etoRef m\u003c/code\u003e === \u003ccode\u003ejoinRef $ liftM (uncurry lensMap) m\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "toRef",
           "package": "lgtk",
@@ -2692,6 +2917,7 @@
         "index": {
           "description": "An EqRef is normal reference if we forget about the equality toRef joinRef liftM uncurry lensMap",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "toRef",
           "normalized": "EqRef a b-\u003ea b",
@@ -2708,6 +2934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUndo-redo state transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "undoTr",
           "package": "lgtk",
@@ -2717,6 +2944,7 @@
         "index": {
           "description": "Undo-redo state transformation",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "undoTr",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eRef b a-\u003eb(ReadRef b(Maybe(WriteRef b())),ReadRef b(Maybe(WriteRef b())))",
@@ -2733,6 +2961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eunitRef\u003c/code\u003e === \u003ccode\u003elens (const ()) (const id)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "unitRef",
           "package": "lgtk",
@@ -2743,6 +2972,7 @@
         "index": {
           "description": "unitRef lens const const id",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "unitRef",
           "normalized": "a()",
@@ -2759,6 +2989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertical composition of widgets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "vcat",
           "package": "lgtk",
@@ -2769,6 +3000,7 @@
         "index": {
           "description": "Vertical composition of widgets",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "vcat",
           "normalized": "[Widget a]-\u003eWidget a",
@@ -2784,6 +3016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditional execution of monadic expressions. For example, \n\u003c/p\u003e\u003cpre\u003e       when debug (putStr \"Debugging\\n\")\n\u003c/pre\u003e\u003cp\u003ewill output the string \u003ccode\u003eDebugging\\n\u003c/code\u003e if the Boolean value \u003ccode\u003edebug\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e,\nand otherwise do nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "when",
           "package": "lgtk",
@@ -2793,6 +3026,7 @@
         "index": {
           "description": "Conditional execution of monadic expressions For example when debug putStr Debugging will output the string Debugging if the Boolean value debug is True and otherwise do nothing",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "when",
           "normalized": "Bool-\u003ea()-\u003ea()",
@@ -2808,6 +3042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ewriteRef r\u003c/code\u003e === \u003ccode\u003emodify . setL r\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eProperties derived from the set-get, get-set and set-set laws for lenses:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e  \u003ccode\u003e(readRef r \u003e\u003e= writeRef r)\u003c/code\u003e === \u003ccode\u003ereturn ()\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e  \u003ccode\u003e(writeRef r a \u003e\u003e readRef r)\u003c/code\u003e === \u003ccode\u003ereturn a\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e  \u003ccode\u003e(writeRef r a \u003e\u003e writeRef r a')\u003c/code\u003e === \u003ccode\u003ewriteRef r a'\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:07:59 UTC 2014",
           "module": "LGtk",
           "name": "writeRef",
           "package": "lgtk",
@@ -2818,6 +3053,7 @@
         "index": {
           "description": "writeRef modify setL Properties derived from the set-get get-set and set-set laws for lenses readRef writeRef return writeRef readRef return writeRef writeRef writeRef",
           "hierarchy": "LGtk",
+          "indexed": "2014-03-11T19:07:59",
           "module": "LGtk",
           "name": "writeRef",
           "normalized": "a b-\u003eb-\u003eRefMonad a()",

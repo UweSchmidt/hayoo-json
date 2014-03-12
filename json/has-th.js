@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "has-th"
+        "phrase": "has-th",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:37 UTC 2014",
           "module": "Data.Has.TH",
           "name": "TH",
           "package": "has-th",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Has TH",
+          "indexed": "2014-03-11T18:29:37",
           "module": "Data.Has.TH",
           "name": "TH",
           "package": "has-th",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a Has field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:37 UTC 2014",
           "module": "Data.Has.TH",
           "name": "field",
           "package": "has-th",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Define Has field",
           "hierarchy": "Data Has TH",
+          "indexed": "2014-03-11T18:29:37",
           "module": "Data.Has.TH",
           "name": "field",
           "normalized": "String-\u003eTypeQ-\u003eQ[Dec]",

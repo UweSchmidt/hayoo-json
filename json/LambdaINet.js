@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "LambdaINet"
+        "phrase": "LambdaINet",
+        "type": "phrase"
       },
       "type": "context"
     }

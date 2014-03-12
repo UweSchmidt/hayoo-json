@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hg-buildpackage"
+        "phrase": "hg-buildpackage",
+        "type": "phrase"
       },
       "type": "context"
     }

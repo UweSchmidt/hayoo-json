@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "arrow-list"
+        "phrase": "arrow-list",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "ArrowF",
           "package": "arrow-list",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "ArrowF",
           "package": "arrow-list",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type class for arrows that produce containers of results. The container\n arrow can be seen as a generalization for list arrows. Most operations\n assume the container type has an \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e, an \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e and a\n \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "ArrowF",
           "package": "arrow-list",
@@ -49,6 +52,7 @@
         "index": {
           "description": "type class for arrows that produce containers of results The container arrow can be seen as generalization for list arrows Most operations assume the container type has an Applicative an Alternative and Foldable instance",
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "ArrowF",
           "package": "arrow-list",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbed a monadic function returning an ordered list into a container arrow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "arrMF",
           "package": "arrow-list",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Embed monadic function returning an ordered list into container arrow",
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "arrMF",
           "normalized": "(a-\u003eb(c d))-\u003ea e d",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect the results of applying multiple arrows to the same input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "concatA",
           "package": "arrow-list",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Collect the results of applying multiple arrows to the same input",
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "concatA",
           "normalized": "[a b c]-\u003ea b c",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkip the input and produce a constant output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "const",
           "package": "arrow-list",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Skip the input and produce constant output",
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "const",
           "normalized": "a-\u003eb c a",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkip the input and produce a constant output specified as a container.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "constF",
           "package": "arrow-list",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Skip the input and produce constant output specified as container",
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "constF",
           "normalized": "a b-\u003ec d b",
@@ -163,6 +175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "embed",
           "package": "arrow-list",
@@ -172,6 +185,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "embed",
           "package": "arrow-list",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter the results of an arrow with a predicate arrow, when the filter\n condition produces results the input is accepted otherwise it is excluded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "filterA",
           "package": "arrow-list",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Filter the results of an arrow with predicate arrow when the filter condition produces results the input is accepted otherwise it is excluded",
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "filterA",
           "normalized": "(a b c)-\u003ea b a",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a container arrow only when a conditional arrow produces any\n results.  When the conditional produces no results the output arrow\n \u003cem\u003eproduces no results\u003c/em\u003e. The \u003cem\u003efirst\u003c/em\u003e input arrow is used as the conditional,\n this allow you to write: \u003ccode\u003e condition `guards` a \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "guards",
           "package": "arrow-list",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Apply container arrow only when conditional arrow produces any results When the conditional produces no results the output arrow produces no results The first input arrow is used as the conditional this allow you to write condition guards",
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "guards",
           "normalized": "(a b c)-\u003e(a b d)-\u003ea b d",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the result of a container arrow as a conditional, like an if-then-else\n arrow. When the first arrow produces any results the \u003cem\u003ethen\u003c/em\u003e arrow will be\n used, when the first arrow produces no results the \u003cem\u003eelse\u003c/em\u003e arrow will be\n used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "ifA",
           "package": "arrow-list",
@@ -245,6 +264,7 @@
         "index": {
           "description": "Use the result of container arrow as conditional like an if-then-else arrow When the first arrow produces any results the then arrow will be used when the first arrow produces no results the else arrow will be used",
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "ifA",
           "normalized": "(a b c)-\u003e(a b d)-\u003e(a b d)-\u003ea b d",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a filtering container arrow by mapping a predicate function over the\n input. When the predicate returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e the input will be returned in the\n output container, when \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e the empty container is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "isA",
           "package": "arrow-list",
@@ -270,6 +291,7 @@
         "index": {
           "description": "Create filtering container arrow by mapping predicate function over the input When the predicate returns True the input will be returned in the output container when False the empty container is returned",
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "isA",
           "normalized": "(a-\u003eBool)-\u003ea b a",
@@ -285,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over the result collection of a container arrow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "mapF",
           "package": "arrow-list",
@@ -295,6 +318,7 @@
         "index": {
           "description": "Map function over the result collection of container arrow",
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "mapF",
           "normalized": "(a b-\u003ea c)-\u003e(d e b)-\u003ed e c",
@@ -310,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e input to a container output. When the Maybe is a \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n an empty container will be returned, \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e will result in a singleton\n container.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "maybeA",
           "package": "arrow-list",
@@ -320,6 +345,7 @@
         "index": {
           "description": "Map Maybe input to container output When the Maybe is Nothing an empty container will be returned Just will result in singleton container",
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "maybeA",
           "package": "arrow-list",
@@ -333,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnore the input and produce no results. Like \u003ccode\u003e\u003ca\u003ezeroArrow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "none",
           "package": "arrow-list",
@@ -343,6 +370,7 @@
         "index": {
           "description": "Ignore the input and produce no results Like zeroArrow",
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "none",
           "package": "arrow-list",
@@ -356,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegation container arrow. Only accept the input when the condition\n produces no output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "notA",
           "package": "arrow-list",
@@ -366,6 +395,7 @@
         "index": {
           "description": "Negation container arrow Only accept the input when the condition produces no output",
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "notA",
           "normalized": "(a b c)-\u003ea b a",
@@ -380,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "observe",
           "package": "arrow-list",
@@ -389,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "observe",
           "package": "arrow-list",
@@ -402,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a container arrow, when there are no results a \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e will be\n returned, otherwise the results will be wrapped in a \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e. This function\n always produces result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "optional",
           "package": "arrow-list",
@@ -412,6 +445,7 @@
         "index": {
           "description": "Apply container arrow when there are no results Nothing will be returned otherwise the results will be wrapped in Just This function always produces result",
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "optional",
           "normalized": "(a b c)-\u003ea b Maybe c",
@@ -427,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the input arrow, when the arrow does not produces any results the\n second fallback arrow is applied.\n Likely written infix like this \u003ccode\u003e a `orElse` b \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "orElse",
           "package": "arrow-list",
@@ -437,6 +472,7 @@
         "index": {
           "description": "Apply the input arrow when the arrow does not produces any results the second fallback arrow is applied Likely written infix like this orElse",
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "orElse",
           "normalized": "(a b c)-\u003e(a b c)-\u003ea b c",
@@ -453,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin the results of two arrows, like (\u003ca\u003e+\u003c/a\u003e) from ArrowPlus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "plus",
           "package": "arrow-list",
@@ -463,6 +500,7 @@
         "index": {
           "description": "Join the results of two arrows like from ArrowPlus",
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "plus",
           "normalized": "(a b c)-\u003e(a b c)-\u003ea b c",
@@ -478,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e indicating whether the input arrow produces a container\n with any results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "results",
           "package": "arrow-list",
@@ -488,6 +527,7 @@
         "index": {
           "description": "Returns Bool indicating whether the input arrow produces container with any results",
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "results",
           "normalized": "(a b c)-\u003ea b Bool",
@@ -503,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the output of an arrow producing two results and concatenate them\n into the result of the container arrow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "unite",
           "package": "arrow-list",
@@ -513,6 +554,7 @@
         "index": {
           "description": "Take the output of an arrow producing two results and concatenate them into the result of the container arrow",
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "unite",
           "normalized": "(a,a)b a",
@@ -528,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a container arrow only when a conditional arrow produces any\n results.  When the conditional produces no results the output arrow /behaves\n like the identity\u003cem\u003e. The \u003c/em\u003esecond/ input arrow is used as the conditional,\n this allow you to write: \u003ccode\u003e a `when` condition \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowF",
           "name": "when",
           "package": "arrow-list",
@@ -538,6 +581,7 @@
         "index": {
           "description": "Apply container arrow only when conditional arrow produces any results When the conditional produces no results the output arrow behaves like the identity The second input arrow is used as the conditional this allow you to write when condition",
           "hierarchy": "Control Arrow ArrowF",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowF",
           "name": "when",
           "normalized": "(a b a)-\u003e(a b c)-\u003ea b a",
@@ -553,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eArrowKleisli\u003c/a\u003e\u003c/code\u003e type class allows for embedding monadic operations in\nKleisli arrows.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowKleisli",
           "name": "ArrowKleisli",
           "package": "arrow-list",
@@ -562,6 +607,7 @@
         "index": {
           "description": "The ArrowKleisli type class allows for embedding monadic operations in Kleisli arrows",
           "hierarchy": "Control Arrow ArrowKleisli",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowKleisli",
           "name": "ArrowKleisli",
           "package": "arrow-list",
@@ -575,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowKleisli",
           "name": "ArrowKleisli",
           "package": "arrow-list",
@@ -583,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow ArrowKleisli",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowKleisli",
           "name": "ArrowKleisli",
           "package": "arrow-list",
@@ -596,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowKleisli",
           "name": "arrIO",
           "package": "arrow-list",
@@ -605,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow ArrowKleisli",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowKleisli",
           "name": "arrIO",
           "normalized": "(a-\u003eIO b)-\u003ea c b",
@@ -620,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowKleisli",
           "name": "arrM",
           "package": "arrow-list",
@@ -629,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow ArrowKleisli",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowKleisli",
           "name": "arrM",
           "normalized": "(a-\u003eb c)-\u003ea d c",
@@ -643,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowKleisli",
           "name": "constM",
           "package": "arrow-list",
@@ -652,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow ArrowKleisli",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowKleisli",
           "name": "constM",
           "normalized": "a b-\u003ec d b",
@@ -666,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowKleisli",
           "name": "effect",
           "package": "arrow-list",
@@ -675,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow ArrowKleisli",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowKleisli",
           "name": "effect",
           "normalized": "a()-\u003eb c b",
@@ -690,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eArrowList\u003c/a\u003e\u003c/code\u003e type class, and a collection of list arrow related functions.\nThis typeclass can be used to embed functions producing multiple outputs into a\nan arrow.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowList",
           "name": "ArrowList",
           "package": "arrow-list",
@@ -699,6 +756,7 @@
         "index": {
           "description": "The ArrowList type class and collection of list arrow related functions This typeclass can be used to embed functions producing multiple outputs into an arrow",
           "hierarchy": "Control Arrow ArrowList",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowList",
           "name": "ArrowList",
           "package": "arrow-list",
@@ -713,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eArrowList\u003c/a\u003e\u003c/code\u003e class represents two possible actions:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Lifting functions from one value to a list of values into a list arrow.\n\u003c/li\u003e\u003cli\u003e Mapping a function over the result list of a list arrow.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowList",
           "name": "ArrowList",
           "package": "arrow-list",
@@ -722,6 +781,7 @@
         "index": {
           "description": "The ArrowList class represents two possible actions Lifting functions from one value to list of values into list arrow Mapping function over the result list of list arrow",
           "hierarchy": "Control Arrow ArrowList",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowList",
           "name": "ArrowList",
           "package": "arrow-list",
@@ -735,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowList",
           "name": "arrL",
           "package": "arrow-list",
@@ -744,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow ArrowList",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowList",
           "name": "arrL",
           "normalized": "(a-\u003e[b])-\u003ea c b",
@@ -759,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect the results of applying multiple arrows to the same input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowList",
           "name": "concatA",
           "package": "arrow-list",
@@ -769,6 +832,7 @@
         "index": {
           "description": "Collect the results of applying multiple arrows to the same input",
           "hierarchy": "Control Arrow ArrowList",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowList",
           "name": "concatA",
           "normalized": "[a b c]-\u003ea b c",
@@ -784,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e indicating whether the input arrow produce any results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowList",
           "name": "empty",
           "package": "arrow-list",
@@ -794,6 +859,7 @@
         "index": {
           "description": "Returns Bool indicating whether the input arrow produce any results",
           "hierarchy": "Control Arrow ArrowList",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowList",
           "name": "empty",
           "normalized": "(a b c)-\u003ea b Bool",
@@ -809,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter the results of an arrow with a predicate arrow, when the filter\n condition produces results the input is accepted otherwise it is excluded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowList",
           "name": "filterA",
           "package": "arrow-list",
@@ -819,6 +886,7 @@
         "index": {
           "description": "Filter the results of an arrow with predicate arrow when the filter condition produces results the input is accepted otherwise it is excluded",
           "hierarchy": "Control Arrow ArrowList",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowList",
           "name": "filterA",
           "normalized": "(a b c)-\u003ea b a",
@@ -834,6 +902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a list arrow only when a conditional arrow produces any results.\n When the conditional produces no results the output arrow \u003cem\u003eproduces no results\u003c/em\u003e.\n The \u003cem\u003efirst\u003c/em\u003e input arrow is used as the conditional, this allow you\n to write: \u003ccode\u003e c `guards` a \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowList",
           "name": "guards",
           "package": "arrow-list",
@@ -843,6 +912,7 @@
         "index": {
           "description": "Apply list arrow only when conditional arrow produces any results When the conditional produces no results the output arrow produces no results The first input arrow is used as the conditional this allow you to write guards",
           "hierarchy": "Control Arrow ArrowList",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowList",
           "name": "guards",
           "normalized": "(a b c)-\u003e(a b d)-\u003ea b d",
@@ -858,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the result a list arrow as a conditional, like an if-then-else arrow.\n When the first arrow produces any results the \u003cem\u003ethen\u003c/em\u003e arrow will be used,\n when the first arrow produces no results the \u003cem\u003eelse\u003c/em\u003e arrow will be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowList",
           "name": "ifA",
           "package": "arrow-list",
@@ -867,6 +938,7 @@
         "index": {
           "description": "Use the result list arrow as conditional like an if-then-else arrow When the first arrow produces any results the then arrow will be used when the first arrow produces no results the else arrow will be used",
           "hierarchy": "Control Arrow ArrowList",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowList",
           "name": "ifA",
           "normalized": "(a b c)-\u003e(a b d)-\u003e(a b d)-\u003ea b d",
@@ -882,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a filtering list arrow by mapping a predicate function over the\n input. When the predicate returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e the input will be returned in the\n output list, when \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e the empty list is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowList",
           "name": "isA",
           "package": "arrow-list",
@@ -892,6 +965,7 @@
         "index": {
           "description": "Create filtering list arrow by mapping predicate function over the input When the predicate returns True the input will be returned in the output list when False the empty list is returned",
           "hierarchy": "Control Arrow ArrowList",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowList",
           "name": "isA",
           "normalized": "(a-\u003eBool)-\u003ea b a",
@@ -907,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect the entire results of an list arrow as a singleton value in the\n result list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowList",
           "name": "list",
           "package": "arrow-list",
@@ -917,6 +992,7 @@
         "index": {
           "description": "Collect the entire results of an list arrow as singleton value in the result list",
           "hierarchy": "Control Arrow ArrowList",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowList",
           "name": "list",
           "normalized": "(a b c)-\u003ea b[c]",
@@ -931,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowList",
           "name": "mapL",
           "package": "arrow-list",
@@ -940,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow ArrowList",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowList",
           "name": "mapL",
           "normalized": "([a]-\u003e[b])-\u003e(c d a)-\u003ec d b",
@@ -955,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e input to a list output. When the Maybe is a \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e an\n empty list will be returned, \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e will result in a singleton list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowList",
           "name": "maybeL",
           "package": "arrow-list",
@@ -965,6 +1044,7 @@
         "index": {
           "description": "Map Maybe input to list output When the Maybe is Nothing an empty list will be returned Just will result in singleton list",
           "hierarchy": "Control Arrow ArrowList",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowList",
           "name": "maybeL",
           "package": "arrow-list",
@@ -978,6 +1058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnore the input and produce no results. Like \u003ccode\u003e\u003ca\u003ezeroArrow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowList",
           "name": "none",
           "package": "arrow-list",
@@ -988,6 +1069,7 @@
         "index": {
           "description": "Ignore the input and produce no results Like zeroArrow",
           "hierarchy": "Control Arrow ArrowList",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowList",
           "name": "none",
           "package": "arrow-list",
@@ -1001,6 +1083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegation list arrow. Only accept the input when the condition produces no\n output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowList",
           "name": "notA",
           "package": "arrow-list",
@@ -1011,6 +1094,7 @@
         "index": {
           "description": "Negation list arrow Only accept the input when the condition produces no output",
           "hierarchy": "Control Arrow ArrowList",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowList",
           "name": "notA",
           "normalized": "(a b c)-\u003ea b a",
@@ -1026,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a list arrow, when there are no results a \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e will be\n returned, otherwise the results will be wrapped in a \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e. This function\n always produces result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowList",
           "name": "optional",
           "package": "arrow-list",
@@ -1036,6 +1121,7 @@
         "index": {
           "description": "Apply list arrow when there are no results Nothing will be returned otherwise the results will be wrapped in Just This function always produces result",
           "hierarchy": "Control Arrow ArrowList",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowList",
           "name": "optional",
           "normalized": "(a b c)-\u003ea b Maybe c",
@@ -1051,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the input arrow, when the arrow does not produces any results the\n second fallback arrow is applied.\n Likely written infix like this \u003ccode\u003e a `orElse` b \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowList",
           "name": "orElse",
           "package": "arrow-list",
@@ -1061,6 +1148,7 @@
         "index": {
           "description": "Apply the input arrow when the arrow does not produces any results the second fallback arrow is applied Likely written infix like this orElse",
           "hierarchy": "Control Arrow ArrowList",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowList",
           "name": "orElse",
           "normalized": "(a b c)-\u003e(a b c)-\u003ea b c",
@@ -1077,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the output of an arrow producing two results and concatenate them\n into the result of the list arrow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowList",
           "name": "unite",
           "package": "arrow-list",
@@ -1087,6 +1176,7 @@
         "index": {
           "description": "Take the output of an arrow producing two results and concatenate them into the result of the list arrow",
           "hierarchy": "Control Arrow ArrowList",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowList",
           "name": "unite",
           "normalized": "(a b(c,c))-\u003ea b c",
@@ -1102,6 +1192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a list arrow of an input list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowList",
           "name": "unlist",
           "package": "arrow-list",
@@ -1112,6 +1203,7 @@
         "index": {
           "description": "Create list arrow of an input list",
           "hierarchy": "Control Arrow ArrowList",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowList",
           "name": "unlist",
           "normalized": "[a]b a",
@@ -1127,6 +1219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a list arrow only when a conditional arrow produces any results.\n When the conditional produces no results the output arrow \u003cem\u003ebehaves like the identity\u003c/em\u003e.\n The \u003cem\u003esecond\u003c/em\u003e input arrow is used as the conditional, this allow\n you to write: \u003ccode\u003e a `when` c \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.ArrowList",
           "name": "when",
           "package": "arrow-list",
@@ -1136,6 +1229,7 @@
         "index": {
           "description": "Apply list arrow only when conditional arrow produces any results When the conditional produces no results the output arrow behaves like the identity The second input arrow is used as the conditional this allow you to write when",
           "hierarchy": "Control Arrow ArrowList",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.ArrowList",
           "name": "when",
           "normalized": "(a b a)-\u003e(a b c)-\u003ea b a",
@@ -1150,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.List",
           "name": "List",
           "package": "arrow-list",
@@ -1158,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow List",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.List",
           "name": "List",
           "package": "arrow-list",
@@ -1171,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.List",
           "name": "ListArrow",
           "package": "arrow-list",
@@ -1179,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow List",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.List",
           "name": "ListArrow",
           "package": "arrow-list",
@@ -1192,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.List",
           "name": "ListTArrow",
           "package": "arrow-list",
@@ -1200,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow List",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.List",
           "name": "ListTArrow",
           "package": "arrow-list",
@@ -1213,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.List",
           "name": "ListTArrow",
           "package": "arrow-list",
@@ -1222,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow List",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.List",
           "name": "ListTArrow",
           "package": "arrow-list",
@@ -1235,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.List",
           "name": "arrML",
           "package": "arrow-list",
@@ -1244,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow List",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.List",
           "name": "arrML",
           "normalized": "(a-\u003eb[c])-\u003ea d c",
@@ -1259,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.List",
           "name": "runListArrow",
           "package": "arrow-list",
@@ -1268,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow List",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.List",
           "name": "runListArrow",
           "normalized": "ListArrow a b-\u003ea-\u003e[b]",
@@ -1283,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.List",
           "name": "runListTArrow",
           "package": "arrow-list",
@@ -1292,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow List",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.List",
           "name": "runListTArrow",
           "normalized": "ListTArrow a b c-\u003eb-\u003ea[c]",
@@ -1307,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.List",
           "name": "runListTArrow'",
           "package": "arrow-list",
@@ -1316,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow List",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.List",
           "name": "runListTArrow'",
           "package": "arrow-list",
@@ -1329,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.Sequence",
           "name": "Sequence",
           "package": "arrow-list",
@@ -1337,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Sequence",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.Sequence",
           "name": "Sequence",
           "package": "arrow-list",
@@ -1350,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.Sequence",
           "name": "SeqArrow",
           "package": "arrow-list",
@@ -1358,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Sequence",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.Sequence",
           "name": "SeqArrow",
           "package": "arrow-list",
@@ -1371,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.Sequence",
           "name": "SeqTArrow",
           "package": "arrow-list",
@@ -1379,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Sequence",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.Sequence",
           "name": "SeqTArrow",
           "package": "arrow-list",
@@ -1392,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.Sequence",
           "name": "SeqTArrow",
           "package": "arrow-list",
@@ -1401,6 +1518,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Sequence",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.Sequence",
           "name": "SeqTArrow",
           "package": "arrow-list",
@@ -1414,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.Sequence",
           "name": "runSeqArrow",
           "package": "arrow-list",
@@ -1423,6 +1542,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Sequence",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.Sequence",
           "name": "runSeqArrow",
           "normalized": "SeqArrow a b-\u003ea-\u003eSeq b",
@@ -1438,6 +1558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.Sequence",
           "name": "runSeqTArrow",
           "package": "arrow-list",
@@ -1447,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Sequence",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.Sequence",
           "name": "runSeqTArrow",
           "normalized": "SeqTArrow a b c-\u003eb-\u003ea(Seq c)",
@@ -1462,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Arrow.Sequence",
           "name": "runSeqTArrow'",
           "package": "arrow-list",
@@ -1471,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Sequence",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Arrow.Sequence",
           "name": "runSeqTArrow'",
           "package": "arrow-list",
@@ -1484,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Monad.Sequence",
           "name": "Sequence",
           "package": "arrow-list",
@@ -1492,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Sequence",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Monad.Sequence",
           "name": "Sequence",
           "package": "arrow-list",
@@ -1506,6 +1632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameterizable \u003ccode\u003eSequence\u003c/code\u003e monad, with an inner monad. The semantics of\n \u003ccode\u003e\u003ca\u003eSeqT\u003c/a\u003e\u003c/code\u003e are comparable to that of \u003ccode\u003eListT\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote:\u003c/em\u003e Like the ListT monad, this does not yield a monad unless the\n argument monad is commutative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Monad.Sequence",
           "name": "SeqT",
           "package": "arrow-list",
@@ -1515,6 +1642,7 @@
         "index": {
           "description": "Parameterizable Sequence monad with an inner monad The semantics of SeqT are comparable to that of ListT Note Like the ListT monad this does not yield monad unless the argument monad is commutative",
           "hierarchy": "Control Monad Sequence",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Monad.Sequence",
           "name": "SeqT",
           "package": "arrow-list",
@@ -1528,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Monad.Sequence",
           "name": "SeqT",
           "package": "arrow-list",
@@ -1537,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Sequence",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Monad.Sequence",
           "name": "SeqT",
           "package": "arrow-list",
@@ -1550,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:42 UTC 2014",
           "module": "Control.Monad.Sequence",
           "name": "runSeqT",
           "package": "arrow-list",
@@ -1559,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Sequence",
+          "indexed": "2014-03-11T17:12:42",
           "module": "Control.Monad.Sequence",
           "name": "runSeqT",
           "package": "arrow-list",

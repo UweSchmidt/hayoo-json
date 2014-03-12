@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snaplet-mysql-simple"
+        "phrase": "snaplet-mysql-simple",
+        "type": "phrase"
       },
       "type": "context"
     }

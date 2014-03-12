@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xdg-userdirs"
+        "phrase": "xdg-userdirs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:11 UTC 2014",
           "module": "System.Environment.XDG.UserDir",
           "name": "UserDir",
           "package": "xdg-userdirs",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Environment XDG UserDir",
+          "indexed": "2014-03-11T20:41:11",
           "module": "System.Environment.XDG.UserDir",
           "name": "UserDir",
           "package": "xdg-userdirs",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet one specific user directory (e. g., \n getUserDir \"DOWNLOAD\"). If there is no\n such specified directory, return home directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:11 UTC 2014",
           "module": "System.Environment.XDG.UserDir",
           "name": "getUserDir",
           "package": "xdg-userdirs",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Get one specific user directory getUserDir DOWNLOAD If there is no such specified directory return home directory",
           "hierarchy": "System Environment XDG UserDir",
+          "indexed": "2014-03-11T20:41:11",
           "module": "System.Environment.XDG.UserDir",
           "name": "getUserDir",
           "normalized": "String-\u003eIO String",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead user-configured set of user directories\n (from user-dirs.dirs)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:11 UTC 2014",
           "module": "System.Environment.XDG.UserDir",
           "name": "readUserDirs",
           "package": "xdg-userdirs",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Read user-configured set of user directories from user-dirs.dirs",
           "hierarchy": "System Environment XDG UserDir",
+          "indexed": "2014-03-11T20:41:11",
           "module": "System.Environment.XDG.UserDir",
           "name": "readUserDirs",
           "package": "xdg-userdirs",

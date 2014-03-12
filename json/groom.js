@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "groom"
+        "phrase": "groom",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:28 UTC 2014",
           "module": "Text.Groom",
           "name": "Groom",
           "package": "groom",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Groom",
+          "indexed": "2014-03-11T18:21:28",
           "module": "Text.Groom",
           "name": "Groom",
           "package": "groom",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:28 UTC 2014",
           "module": "Text.Groom",
           "name": "groom",
           "package": "groom",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Groom",
+          "indexed": "2014-03-11T18:21:28",
           "module": "Text.Groom",
           "name": "groom",
           "normalized": "a-\u003eString",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:28 UTC 2014",
           "module": "Text.Groom",
           "name": "groomString",
           "package": "groom",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text Groom",
+          "indexed": "2014-03-11T18:21:28",
           "module": "Text.Groom",
           "name": "groomString",
           "normalized": "String-\u003eString",

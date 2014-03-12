@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "authenticate-oauth"
+        "phrase": "authenticate-oauth",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: This module is deprecated; rewrite your code using MonadResource\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eThis Module provides interface for the instance of \u003ccode\u003e\u003ca\u003eMonadIO\u003c/a\u003e\u003c/code\u003e instead of \u003ccode\u003e\u003ca\u003eMonadIO\u003c/a\u003e\u003c/code\u003e.\n What this module do is just adding \u003ccode\u003e\u003ca\u003ewithManager\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003erunResourceT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "IO",
           "package": "authenticate-oauth",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Deprecated This module is deprecated rewrite your code using MonadResource This Module provides interface for the instance of MonadIO instead of MonadIO What this module do is just adding withManager or runResourceT",
           "hierarchy": "Web Authenticate OAuth IO",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "IO",
           "package": "authenticate-oauth",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet Access token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "getAccessToken",
           "package": "authenticate-oauth",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Get Access token",
           "hierarchy": "Web Authenticate OAuth IO",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "getAccessToken",
           "normalized": "OAuth-\u003eCredential-\u003ea Credential",
@@ -66,6 +70,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "getAccessToken'",
           "package": "authenticate-oauth",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OAuth IO",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "getAccessToken'",
           "normalized": "(Request-\u003eRequest)-\u003eOAuth-\u003eCredential-\u003ea Credential",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet Access token via the proxy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "getAccessTokenProxy",
           "package": "authenticate-oauth",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Get Access token via the proxy",
           "hierarchy": "Web Authenticate OAuth IO",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "getAccessTokenProxy",
           "normalized": "Maybe Proxy-\u003eOAuth-\u003eCredential-\u003ea Credential",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet temporary credential for requesting acces token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "getTemporaryCredential",
           "package": "authenticate-oauth",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Get temporary credential for requesting acces token",
           "hierarchy": "Web Authenticate OAuth IO",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "getTemporaryCredential",
           "normalized": "OAuth-\u003ea Credential",
@@ -139,6 +149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "getTemporaryCredential'",
           "package": "authenticate-oauth",
@@ -147,6 +158,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OAuth IO",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "getTemporaryCredential'",
           "normalized": "(Request-\u003eRequest)-\u003eOAuth-\u003ea Credential",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet temporary credential for requesting access token via the proxy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "getTemporaryCredentialProxy",
           "package": "authenticate-oauth",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Get temporary credential for requesting access token via the proxy",
           "hierarchy": "Web Authenticate OAuth IO",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "getTemporaryCredentialProxy",
           "normalized": "Maybe Proxy-\u003eOAuth-\u003ea Credential",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet temporary credential for requesting access token with Scope parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "getTemporaryCredentialWithScope",
           "package": "authenticate-oauth",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Get temporary credential for requesting access token with Scope parameter",
           "hierarchy": "Web Authenticate OAuth IO",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "getTemporaryCredentialWithScope",
           "normalized": "ByteString-\u003eOAuth-\u003ea Credential",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet Access token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "getTokenCredential",
           "package": "authenticate-oauth",
@@ -222,6 +239,7 @@
         "index": {
           "description": "Get Access token",
           "hierarchy": "Web Authenticate OAuth IO",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "getTokenCredential",
           "normalized": "OAuth-\u003eCredential-\u003ea Credential",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet Access token via the proxy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "getTokenCredentialProxy",
           "package": "authenticate-oauth",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Get Access token via the proxy",
           "hierarchy": "Web Authenticate OAuth IO",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth.IO",
           "name": "getTokenCredentialProxy",
           "normalized": "Maybe Proxy-\u003eOAuth-\u003eCredential-\u003ea Credential",
@@ -262,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "OAuth",
           "package": "authenticate-oauth",
@@ -270,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "OAuth",
           "package": "authenticate-oauth",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for redential.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "Credential",
           "package": "authenticate-oauth",
@@ -293,6 +316,7 @@
         "index": {
           "description": "Data type for redential",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "Credential",
           "package": "authenticate-oauth",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for OAuth client (consumer).\n\u003c/p\u003e\u003cp\u003eThe constructor for this data type is not exposed.\n Instead, you should use the \u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e method or \u003ccode\u003e\u003ca\u003enewOAuth\u003c/a\u003e\u003c/code\u003e function to retrieve a default instance,\n and then use the records below to make modifications.\n This approach allows us to add configuration options without breaking backwards compatibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "OAuth",
           "package": "authenticate-oauth",
@@ -316,6 +341,7 @@
         "index": {
           "description": "Data type for OAuth client consumer The constructor for this data type is not exposed Instead you should use the def method or newOAuth function to retrieve default instance and then use the records below to make modifications This approach allows us to add configuration options without breaking backwards compatibility",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "OAuth",
           "package": "authenticate-oauth",
@@ -329,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "OAuthException",
           "package": "authenticate-oauth",
@@ -337,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "OAuthException",
           "package": "authenticate-oauth",
@@ -350,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "OAuthVersion",
           "package": "authenticate-oauth",
@@ -358,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "OAuthVersion",
           "package": "authenticate-oauth",
@@ -372,6 +402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for signature method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "SignMethod",
           "package": "authenticate-oauth",
@@ -381,6 +412,7 @@
         "index": {
           "description": "Data type for signature method",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "SignMethod",
           "package": "authenticate-oauth",
@@ -394,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "Credential",
           "package": "authenticate-oauth",
@@ -403,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "Credential",
           "package": "authenticate-oauth",
@@ -416,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "HMACSHA1",
           "package": "authenticate-oauth",
@@ -425,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "HMACSHA1",
           "package": "authenticate-oauth",
@@ -439,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOAuth protocol ver 1.0 (no oauth_verifier; differs from RFC 5849).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "OAuth10",
           "package": "authenticate-oauth",
@@ -449,6 +486,7 @@
         "index": {
           "description": "OAuth protocol ver no oauth verifier differs from RFC",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "OAuth10",
           "package": "authenticate-oauth",
@@ -463,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOAuth protocol ver 1.0a. This corresponds to community's 1.0a spec and RFC 5849.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "OAuth10a",
           "package": "authenticate-oauth",
@@ -473,6 +512,7 @@
         "index": {
           "description": "OAuth protocol ver This corresponds to community spec and RFC",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "OAuth10a",
           "package": "authenticate-oauth",
@@ -486,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "OAuthException",
           "package": "authenticate-oauth",
@@ -495,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "OAuthException",
           "package": "authenticate-oauth",
@@ -508,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "PLAINTEXT",
           "package": "authenticate-oauth",
@@ -517,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "PLAINTEXT",
           "package": "authenticate-oauth",
@@ -530,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "RSASHA1",
           "package": "authenticate-oauth",
@@ -539,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "RSASHA1",
           "package": "authenticate-oauth",
@@ -552,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "addMaybeProxy",
           "package": "authenticate-oauth",
@@ -561,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "addMaybeProxy",
           "normalized": "Maybe Proxy-\u003eRequest-\u003eRequest",
@@ -576,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "addScope",
           "package": "authenticate-oauth",
@@ -585,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "addScope",
           "normalized": "ByteString-\u003eRequest-\u003eRequest",
@@ -601,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL to obtain OAuth verifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "authorizeUrl",
           "package": "authenticate-oauth",
@@ -610,6 +661,7 @@
         "index": {
           "description": "URL to obtain OAuth verifier",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "authorizeUrl",
           "normalized": "OAuth-\u003eCredential-\u003eString",
@@ -626,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert OAuth and Credential to URL to authorize.\n   This takes function to choice parameter to pass to the server other than\n   \u003cem\u003eoauth_callback\u003c/em\u003e or \u003cem\u003eoauth_token\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "authorizeUrl'",
           "package": "authenticate-oauth",
@@ -635,6 +688,7 @@
         "index": {
           "description": "Convert OAuth and Credential to URL to authorize This takes function to choice parameter to pass to the server other than oauth callback or oauth token",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "authorizeUrl'",
           "normalized": "(OAuth-\u003eCredential-\u003eSimpleQuery)-\u003eOAuth-\u003eCredential-\u003eString",
@@ -651,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value for this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "def",
           "package": "authenticate-oauth",
@@ -660,6 +715,7 @@
         "index": {
           "description": "The default value for this type",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "def",
           "package": "authenticate-oauth",
@@ -673,6 +729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove an oauth parameter for key from given \u003ccode\u003e\u003ca\u003eCredential\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "delete",
           "package": "authenticate-oauth",
@@ -682,6 +739,7 @@
         "index": {
           "description": "Remove an oauth parameter for key from given Credential",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "delete",
           "normalized": "ByteString-\u003eCredential-\u003eCredential",
@@ -697,6 +755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty credential.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "emptyCredential",
           "package": "authenticate-oauth",
@@ -707,6 +766,7 @@
         "index": {
           "description": "Empty credential",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "emptyCredential",
           "package": "authenticate-oauth",
@@ -720,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "genSign",
           "package": "authenticate-oauth",
@@ -729,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "genSign",
           "normalized": "OAuth-\u003eCredential-\u003eRequest-\u003ea ByteString",
@@ -745,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet Access token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "getAccessToken",
           "package": "authenticate-oauth",
@@ -754,6 +817,7 @@
         "index": {
           "description": "Get Access token",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "getAccessToken",
           "normalized": "OAuth-\u003eCredential-\u003eManager-\u003ea Credential",
@@ -769,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "getAccessToken'",
           "package": "authenticate-oauth",
@@ -777,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "getAccessToken'",
           "normalized": "(Request-\u003eRequest)-\u003eOAuth-\u003eCredential-\u003eManager-\u003ea Credential",
@@ -793,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet Access token via the proxy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "getAccessTokenProxy",
           "package": "authenticate-oauth",
@@ -802,6 +869,7 @@
         "index": {
           "description": "Get Access token via the proxy",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "getAccessTokenProxy",
           "normalized": "Maybe Proxy-\u003eOAuth-\u003eCredential-\u003eManager-\u003ea Credential",
@@ -818,6 +886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet temporary credential for requesting acces token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "getTemporaryCredential",
           "package": "authenticate-oauth",
@@ -827,6 +896,7 @@
         "index": {
           "description": "Get temporary credential for requesting acces token",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "getTemporaryCredential",
           "normalized": "OAuth-\u003eManager-\u003ea Credential",
@@ -842,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "getTemporaryCredential'",
           "package": "authenticate-oauth",
@@ -850,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "getTemporaryCredential'",
           "normalized": "(Request-\u003eRequest)-\u003eOAuth-\u003eManager-\u003ea Credential",
@@ -866,6 +938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet temporary credential for requesting access token via the proxy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "getTemporaryCredentialProxy",
           "package": "authenticate-oauth",
@@ -875,6 +948,7 @@
         "index": {
           "description": "Get temporary credential for requesting access token via the proxy",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "getTemporaryCredentialProxy",
           "normalized": "Maybe Proxy-\u003eOAuth-\u003eManager-\u003ea Credential",
@@ -891,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet temporary credential for requesting access token with Scope parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "getTemporaryCredentialWithScope",
           "package": "authenticate-oauth",
@@ -900,6 +975,7 @@
         "index": {
           "description": "Get temporary credential for requesting access token with Scope parameter",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "getTemporaryCredentialWithScope",
           "normalized": "ByteString-\u003eOAuth-\u003eManager-\u003ea Credential",
@@ -916,6 +992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet Access token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "getTokenCredential",
           "package": "authenticate-oauth",
@@ -925,6 +1002,7 @@
         "index": {
           "description": "Get Access token",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "getTokenCredential",
           "normalized": "OAuth-\u003eCredential-\u003eManager-\u003ea Credential",
@@ -941,6 +1019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet Access token via the proxy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "getTokenCredentialProxy",
           "package": "authenticate-oauth",
@@ -950,6 +1029,7 @@
         "index": {
           "description": "Get Access token via the proxy",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "getTokenCredentialProxy",
           "normalized": "Maybe Proxy-\u003eOAuth-\u003eCredential-\u003eManager-\u003ea Credential",
@@ -965,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "injectVerifier",
           "package": "authenticate-oauth",
@@ -974,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "injectVerifier",
           "normalized": "ByteString-\u003eCredential-\u003eCredential",
@@ -990,6 +1072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert an oauth parameter into given \u003ccode\u003e\u003ca\u003eCredential\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "insert",
           "package": "authenticate-oauth",
@@ -999,6 +1082,7 @@
         "index": {
           "description": "Insert an oauth parameter into given Credential",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "insert",
           "normalized": "ByteString-\u003eByteString-\u003eCredential-\u003eCredential",
@@ -1014,6 +1098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient method for inserting multiple parameters into credential.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "inserts",
           "package": "authenticate-oauth",
@@ -1024,6 +1109,7 @@
         "index": {
           "description": "Convenient method for inserting multiple parameters into credential",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "inserts",
           "normalized": "[(ByteString,ByteString)]-\u003eCredential-\u003eCredential",
@@ -1039,6 +1125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient function to create \u003ccode\u003e\u003ca\u003eCredential\u003c/a\u003e\u003c/code\u003e with OAuth Token and Token Secret.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "newCredential",
           "package": "authenticate-oauth",
@@ -1048,6 +1135,7 @@
         "index": {
           "description": "Convenient function to create Credential with OAuth Token and Token Secret",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "newCredential",
           "normalized": "ByteString-\u003eByteString-\u003eCredential",
@@ -1064,6 +1152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault value for OAuth datatype.\n You must specify at least oauthServerName, URIs and Tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "newOAuth",
           "package": "authenticate-oauth",
@@ -1074,6 +1163,7 @@
         "index": {
           "description": "Default value for OAuth datatype You must specify at least oauthServerName URIs and Tokens",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "newOAuth",
           "package": "authenticate-oauth",
@@ -1088,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUri to obtain access token (default: \u003ccode\u003e\"\"\u003c/code\u003e).\n   You MUST specify if you use \u003ccode\u003egetAcessToken\u003c/code\u003e or \u003ccode\u003e\u003ca\u003egetAccessToken'\u003c/a\u003e\u003c/code\u003e;\n   otherwise you can just leave this empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthAccessTokenUri",
           "package": "authenticate-oauth",
@@ -1098,6 +1189,7 @@
         "index": {
           "description": "Uri to obtain access token default You MUST specify if you use getAcessToken or getAccessToken otherwise you can just leave this empty",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthAccessTokenUri",
           "normalized": "OAuth-\u003eString",
@@ -1114,6 +1206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUri to authorize (default: \u003ccode\u003e\"\"\u003c/code\u003e).\n   You MUST specify if you use \u003ccode\u003e\u003ca\u003eauthorizeUrl\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003eauthorizeZUrl'\u003c/code\u003e;\n   otherwise you can just leave this empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthAuthorizeUri",
           "package": "authenticate-oauth",
@@ -1124,6 +1217,7 @@
         "index": {
           "description": "Uri to authorize default You MUST specify if you use authorizeUrl or authorizeZUrl otherwise you can just leave this empty",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthAuthorizeUri",
           "normalized": "OAuth-\u003eString",
@@ -1140,6 +1234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCallback uri to redirect after authentication (default: \u003ccode\u003eNothing\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthCallback",
           "package": "authenticate-oauth",
@@ -1150,6 +1245,7 @@
         "index": {
           "description": "Callback uri to redirect after authentication default Nothing",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthCallback",
           "normalized": "OAuth-\u003eMaybe ByteString",
@@ -1166,6 +1262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsumer key (You MUST specify)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthConsumerKey",
           "package": "authenticate-oauth",
@@ -1176,6 +1273,7 @@
         "index": {
           "description": "Consumer key You MUST specify",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthConsumerKey",
           "normalized": "OAuth-\u003eByteString",
@@ -1192,6 +1290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsumer Secret (You MUST specify)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthConsumerSecret",
           "package": "authenticate-oauth",
@@ -1202,6 +1301,7 @@
         "index": {
           "description": "Consumer Secret You MUST specify",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthConsumerSecret",
           "normalized": "OAuth-\u003eByteString",
@@ -1218,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional authorization realm (default: \u003ccode\u003eNothing\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthRealm",
           "package": "authenticate-oauth",
@@ -1228,6 +1329,7 @@
         "index": {
           "description": "Optional authorization realm default Nothing",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthRealm",
           "normalized": "OAuth-\u003eMaybe ByteString",
@@ -1244,6 +1346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURI to request temporary credential (default: \u003ccode\u003e\"\"\u003c/code\u003e).\n   You MUST specify if you use \u003ccode\u003e\u003ca\u003egetTemporaryCredential'\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egetTemporaryCredentialProxy\u003c/a\u003e\u003c/code\u003e\n   or \u003ccode\u003e\u003ca\u003egetTemporaryCredential\u003c/a\u003e\u003c/code\u003e; otherwise you can just leave this empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthRequestUri",
           "package": "authenticate-oauth",
@@ -1254,6 +1357,7 @@
         "index": {
           "description": "URI to request temporary credential default You MUST specify if you use getTemporaryCredential getTemporaryCredentialProxy or getTemporaryCredential otherwise you can just leave this empty",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthRequestUri",
           "normalized": "OAuth-\u003eString",
@@ -1270,6 +1374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eService name (default: \u003ccode\u003e\"\"\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthServerName",
           "package": "authenticate-oauth",
@@ -1280,6 +1385,7 @@
         "index": {
           "description": "Service name default",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthServerName",
           "normalized": "OAuth-\u003eString",
@@ -1296,6 +1402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature Method (default: \u003ccode\u003e\u003ca\u003eHMACSHA1\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthSignatureMethod",
           "package": "authenticate-oauth",
@@ -1306,6 +1413,7 @@
         "index": {
           "description": "Signature Method default HMACSHA1",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthSignatureMethod",
           "normalized": "OAuth-\u003eSignMethod",
@@ -1322,6 +1430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOAuth spec version (default: \u003ccode\u003e\u003ca\u003eOAuth10a\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthVersion",
           "package": "authenticate-oauth",
@@ -1332,6 +1441,7 @@
         "index": {
           "description": "OAuth spec version default OAuth10a",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "oauthVersion",
           "normalized": "OAuth-\u003eOAuthVersion",
@@ -1348,6 +1458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a string using the percent encoding method for OAuth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "paramEncode",
           "package": "authenticate-oauth",
@@ -1358,6 +1469,7 @@
         "index": {
           "description": "Encode string using the percent encoding method for OAuth",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "paramEncode",
           "normalized": "ByteString-\u003eByteString",
@@ -1374,6 +1486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd OAuth headers & sign to \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "signOAuth",
           "package": "authenticate-oauth",
@@ -1383,6 +1496,7 @@
         "index": {
           "description": "Add OAuth headers sign to Request",
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "signOAuth",
           "normalized": "OAuth-\u003eCredential-\u003eRequest-\u003ea Request",
@@ -1398,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:10 UTC 2014",
           "module": "Web.Authenticate.OAuth",
           "name": "unCredential",
           "package": "authenticate-oauth",
@@ -1407,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "Web Authenticate OAuth",
+          "indexed": "2014-03-11T17:15:10",
           "module": "Web.Authenticate.OAuth",
           "name": "unCredential",
           "normalized": "[(ByteString,ByteString)]",

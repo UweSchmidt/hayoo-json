@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hspec-expectations-lifted"
+        "phrase": "hspec-expectations-lifted",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIntroductory documentation: \u003ca\u003ehttps://github.com/sol/hspec-expectations#readme\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:53 UTC 2014",
           "module": "Test.Hspec.Expectations.Lifted",
           "name": "Lifted",
           "package": "hspec-expectations-lifted",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Introductory documentation https github.com sol hspec-expectations readme",
           "hierarchy": "Test Hspec Expectations Lifted",
+          "indexed": "2014-03-11T18:49:53",
           "module": "Test.Hspec.Expectations.Lifted",
           "name": "Lifted",
           "package": "hspec-expectations-lifted",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just an alias for HUnit's \u003ccode\u003eassertFailure\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:53 UTC 2014",
           "module": "Test.Hspec.Expectations.Lifted",
           "name": "expectationFailure",
           "package": "hspec-expectations-lifted",
@@ -52,6 +55,7 @@
         "index": {
           "description": "This is just an alias for HUnit assertFailure",
           "hierarchy": "Test Hspec Expectations Lifted",
+          "indexed": "2014-03-11T18:49:53",
           "module": "Test.Hspec.Expectations.Lifted",
           "name": "expectationFailure",
           "normalized": "String-\u003ea()",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eactual `shouldBe` expected\u003c/code\u003e sets the expectation that \u003ccode\u003eactual\u003c/code\u003e is equal\n to \u003ccode\u003eexpected\u003c/code\u003e (this is just an alias for \u003ccode\u003e@?=\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:53 UTC 2014",
           "module": "Test.Hspec.Expectations.Lifted",
           "name": "shouldBe",
           "package": "hspec-expectations-lifted",
@@ -78,6 +83,7 @@
         "index": {
           "description": "actual shouldBe expected sets the expectation that actual is equal to expected this is just an alias for",
           "hierarchy": "Test Hspec Expectations Lifted",
+          "indexed": "2014-03-11T18:49:53",
           "module": "Test.Hspec.Expectations.Lifted",
           "name": "shouldBe",
           "normalized": "a-\u003ea-\u003eb()",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elist `shouldContain` sublist\u003c/code\u003e sets the expectation that \u003ccode\u003esublist\u003c/code\u003e is contained,\n wholly and intact, anywhere in the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:53 UTC 2014",
           "module": "Test.Hspec.Expectations.Lifted",
           "name": "shouldContain",
           "package": "hspec-expectations-lifted",
@@ -104,6 +111,7 @@
         "index": {
           "description": "list shouldContain sublist sets the expectation that sublist is contained wholly and intact anywhere in the second",
           "hierarchy": "Test Hspec Expectations Lifted",
+          "indexed": "2014-03-11T18:49:53",
           "module": "Test.Hspec.Expectations.Lifted",
           "name": "shouldContain",
           "normalized": "[a]-\u003e[a]-\u003eb()",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exs `shouldMatchList` ys\u003c/code\u003e sets the expectation that \u003ccode\u003exs\u003c/code\u003e has the same\n elements that \u003ccode\u003eys\u003c/code\u003e has, possibly in another order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:53 UTC 2014",
           "module": "Test.Hspec.Expectations.Lifted",
           "name": "shouldMatchList",
           "package": "hspec-expectations-lifted",
@@ -130,6 +139,7 @@
         "index": {
           "description": "xs shouldMatchList ys sets the expectation that xs has the same elements that ys has possibly in another order",
           "hierarchy": "Test Hspec Expectations Lifted",
+          "indexed": "2014-03-11T18:49:53",
           "module": "Test.Hspec.Expectations.Lifted",
           "name": "shouldMatchList",
           "normalized": "[a]-\u003e[a]-\u003eb()",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eaction `shouldReturn` expected\u003c/code\u003e sets the expectation that \u003ccode\u003eaction\u003c/code\u003e\n returns \u003ccode\u003eexpected\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:53 UTC 2014",
           "module": "Test.Hspec.Expectations.Lifted",
           "name": "shouldReturn",
           "package": "hspec-expectations-lifted",
@@ -156,6 +167,7 @@
         "index": {
           "description": "action shouldReturn expected sets the expectation that action returns expected",
           "hierarchy": "Test Hspec Expectations Lifted",
+          "indexed": "2014-03-11T18:49:53",
           "module": "Test.Hspec.Expectations.Lifted",
           "name": "shouldReturn",
           "normalized": "a b-\u003eb-\u003ea()",
@@ -172,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ev `shouldSatisfy` p\u003c/code\u003e sets the expectation that \u003ccode\u003ep v\u003c/code\u003e is \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:53 UTC 2014",
           "module": "Test.Hspec.Expectations.Lifted",
           "name": "shouldSatisfy",
           "package": "hspec-expectations-lifted",
@@ -182,6 +195,7 @@
         "index": {
           "description": "shouldSatisfy sets the expectation that is True",
           "hierarchy": "Test Hspec Expectations Lifted",
+          "indexed": "2014-03-11T18:49:53",
           "module": "Test.Hspec.Expectations.Lifted",
           "name": "shouldSatisfy",
           "normalized": "a-\u003e(a-\u003eBool)-\u003eb()",

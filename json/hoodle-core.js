@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hoodle-core"
+        "phrase": "hoodle-core",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Accessor",
           "name": "Accessor",
           "package": "hoodle-core",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Accessor",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Accessor",
           "name": "Accessor",
           "package": "hoodle-core",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapply an action to all canvases \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Accessor",
           "name": "applyActionToAllCVS",
           "package": "hoodle-core",
@@ -50,6 +53,7 @@
         "index": {
           "description": "apply an action to all canvases",
           "hierarchy": "Hoodle Accessor",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Accessor",
           "name": "applyActionToAllCVS",
           "normalized": "(CanvasId-\u003eMainCoroutine())-\u003eMainCoroutine()",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Accessor",
           "name": "changeCurrentCanvasId",
           "package": "hoodle-core",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Accessor",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Accessor",
           "name": "changeCurrentCanvasId",
           "normalized": "CanvasId-\u003eMainCoroutine HoodleState",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Accessor",
           "name": "getCanvasGeometryCvsId",
           "package": "hoodle-core",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Accessor",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Accessor",
           "name": "getCanvasGeometryCvsId",
           "normalized": "CanvasId-\u003eHoodleState-\u003eIO CanvasGeometry",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Accessor",
           "name": "getCurrentPageCurr",
           "package": "hoodle-core",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Accessor",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Accessor",
           "name": "getCurrentPageCurr",
           "package": "hoodle-core",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Accessor",
           "name": "getCurrentPageCvsId",
           "package": "hoodle-core",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Accessor",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Accessor",
           "name": "getCurrentPageCvsId",
           "normalized": "CanvasId-\u003eMainCoroutine(Page EditMode)",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Accessor",
           "name": "getCurrentPageEitherFromHoodleModeState",
           "package": "hoodle-core",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Accessor",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Accessor",
           "name": "getCurrentPageEitherFromHoodleModeState",
           "normalized": "CanvasInfo a-\u003eHoodleModeState-\u003eEither(Page EditMode)(Page SelectMode)",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Accessor",
           "name": "getGeometry4CurrCvs",
           "package": "hoodle-core",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Accessor",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Accessor",
           "name": "getGeometry4CurrCvs",
           "normalized": "HoodleState-\u003eIO CanvasGeometry",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Accessor",
           "name": "getPenType",
           "package": "hoodle-core",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Accessor",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Accessor",
           "name": "getPenType",
           "package": "hoodle-core",
@@ -229,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Accessor",
           "name": "otherCanvas",
           "package": "hoodle-core",
@@ -238,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Accessor",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Accessor",
           "name": "otherCanvas",
           "normalized": "HoodleState-\u003e[Int]",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Accessor",
           "name": "rItmsInCurrLyr",
           "package": "hoodle-core",
@@ -262,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Accessor",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Accessor",
           "name": "rItmsInCurrLyr",
           "normalized": "MainCoroutine[RItem]",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset toggle UI button to the corresponding HoodleState \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Accessor",
           "name": "setToggleUIForFlag",
           "package": "hoodle-core",
@@ -287,6 +310,7 @@
         "index": {
           "description": "set toggle UI button to the corresponding HoodleState",
           "hierarchy": "Hoodle Accessor",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Accessor",
           "name": "setToggleUIForFlag",
           "normalized": "String-\u003eSimple Lens HoodleState Bool-\u003eHoodleState-\u003eIO Bool",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate flag in HoodleState when corresponding toggle UI changed \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Accessor",
           "name": "updateFlagFromToggleUI",
           "package": "hoodle-core",
@@ -312,6 +337,7 @@
         "index": {
           "description": "update flag in HoodleState when corresponding toggle UI changed",
           "hierarchy": "Hoodle Accessor",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Accessor",
           "name": "updateFlagFromToggleUI",
           "normalized": "String-\u003eSimple Lens HoodleState Bool-\u003eMainCoroutine Bool",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Accessor",
           "name": "updateXState",
           "package": "hoodle-core",
@@ -338,6 +365,7 @@
         "index": {
           "description": "update state",
           "hierarchy": "Hoodle Accessor",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Accessor",
           "name": "updateXState",
           "normalized": "(HoodleState-\u003eMainCoroutine HoodleState)-\u003eMainCoroutine()",
@@ -353,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Config",
           "name": "Config",
           "package": "hoodle-core",
@@ -361,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Config",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Config",
           "name": "Config",
           "package": "hoodle-core",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Config",
           "name": "emptyConfigString",
           "package": "hoodle-core",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Config",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Config",
           "name": "emptyConfigString",
           "package": "hoodle-core",
@@ -396,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Config",
           "name": "getMaxUndo",
           "package": "hoodle-core",
@@ -405,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Config",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Config",
           "name": "getMaxUndo",
           "normalized": "Config-\u003eIO(Maybe Int)",
@@ -420,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Config",
           "name": "getPenDevConfig",
           "package": "hoodle-core",
@@ -429,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Config",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Config",
           "name": "getPenDevConfig",
           "normalized": "Config-\u003eIO(Maybe String,Maybe String,Maybe String,Maybe String)",
@@ -444,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Config",
           "name": "getWidgetConfig",
           "package": "hoodle-core",
@@ -453,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Config",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Config",
           "name": "getWidgetConfig",
           "normalized": "Config-\u003eIO(Bool,Bool)",
@@ -468,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Config",
           "name": "getXInputConfig",
           "package": "hoodle-core",
@@ -477,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Config",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Config",
           "name": "getXInputConfig",
           "normalized": "Config-\u003eIO Bool",
@@ -492,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Config",
           "name": "loadConfigFile",
           "package": "hoodle-core",
@@ -501,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Config",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Config",
           "name": "loadConfigFile",
           "package": "hoodle-core",
@@ -514,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Callback",
           "name": "Callback",
           "package": "hoodle-core",
@@ -522,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Callback",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Callback",
           "name": "Callback",
           "package": "hoodle-core",
@@ -535,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Callback",
           "name": "allexceptionproc",
           "package": "hoodle-core",
@@ -544,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Callback",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Callback",
           "name": "allexceptionproc",
           "normalized": "SomeException-\u003eIO()",
@@ -558,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Callback",
           "name": "errorcall",
           "package": "hoodle-core",
@@ -567,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Callback",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Callback",
           "name": "errorcall",
           "normalized": "ErrorCall-\u003eIO()",
@@ -581,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Callback",
           "name": "eventHandler",
           "package": "hoodle-core",
@@ -590,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Callback",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Callback",
           "name": "eventHandler",
           "normalized": "MVar(Maybe(Driver a IO()))-\u003ea-\u003eIO()",
@@ -605,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Callback",
           "name": "patternerr",
           "package": "hoodle-core",
@@ -614,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Callback",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Callback",
           "name": "patternerr",
           "normalized": "PatternMatchFail-\u003eIO()",
@@ -628,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Commit",
           "name": "Commit",
           "package": "hoodle-core",
@@ -636,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Commit",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Commit",
           "name": "Commit",
           "package": "hoodle-core",
@@ -649,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Commit",
           "name": "clearUndoHistory",
           "package": "hoodle-core",
@@ -658,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Commit",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Commit",
           "name": "clearUndoHistory",
           "normalized": "MainCoroutine()",
@@ -674,6 +730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esave state and add the current status in undo history \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Commit",
           "name": "commit",
           "package": "hoodle-core",
@@ -684,6 +741,7 @@
         "index": {
           "description": "save state and add the current status in undo history",
           "hierarchy": "Hoodle Coroutine Commit",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Commit",
           "name": "commit",
           "normalized": "HoodleState-\u003eMainCoroutine()",
@@ -698,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Commit",
           "name": "commit_",
           "package": "hoodle-core",
@@ -707,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Commit",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Commit",
           "name": "commit_",
           "normalized": "MainCoroutine()",
@@ -721,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Commit",
           "name": "redo",
           "package": "hoodle-core",
@@ -730,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Commit",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Commit",
           "name": "redo",
           "normalized": "MainCoroutine()",
@@ -744,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Commit",
           "name": "undo",
           "package": "hoodle-core",
@@ -753,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Commit",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Commit",
           "name": "undo",
           "normalized": "MainCoroutine()",
@@ -767,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.ContextMenu",
           "name": "ContextMenu",
           "package": "hoodle-core",
@@ -775,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine ContextMenu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.ContextMenu",
           "name": "ContextMenu",
           "package": "hoodle-core",
@@ -788,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.ContextMenu",
           "name": "exportCurrentSelectionAsPDF",
           "package": "hoodle-core",
@@ -797,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine ContextMenu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.ContextMenu",
           "name": "exportCurrentSelectionAsPDF",
           "normalized": "[RItem]-\u003eBBox-\u003eMainCoroutine()",
@@ -812,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.ContextMenu",
           "name": "exportCurrentSelectionAsSVG",
           "package": "hoodle-core",
@@ -821,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine ContextMenu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.ContextMenu",
           "name": "exportCurrentSelectionAsSVG",
           "normalized": "[RItem]-\u003eBBox-\u003eMainCoroutine()",
@@ -836,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.ContextMenu",
           "name": "linkSelectionWithFile",
           "package": "hoodle-core",
@@ -845,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine ContextMenu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.ContextMenu",
           "name": "linkSelectionWithFile",
           "normalized": "FilePath-\u003eMainCoroutine()",
@@ -860,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.ContextMenu",
           "name": "processContextMenu",
           "package": "hoodle-core",
@@ -869,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine ContextMenu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.ContextMenu",
           "name": "processContextMenu",
           "normalized": "ContextMenuEvent-\u003eMainCoroutine()",
@@ -884,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.ContextMenu",
           "name": "showContextMenu",
           "package": "hoodle-core",
@@ -893,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine ContextMenu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.ContextMenu",
           "name": "showContextMenu",
           "normalized": "(PageNum,(Double,Double))-\u003eMainCoroutine()",
@@ -908,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Default",
           "name": "Default",
           "package": "hoodle-core",
@@ -916,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Default",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Default",
           "name": "Default",
           "package": "hoodle-core",
@@ -929,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Default",
           "name": "colorConvert",
           "package": "hoodle-core",
@@ -938,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Default",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Default",
           "name": "colorConvert",
           "normalized": "Color-\u003ePenColor",
@@ -953,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Default",
           "name": "colorPick",
           "package": "hoodle-core",
@@ -962,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Default",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Default",
           "name": "colorPick",
           "normalized": "MainCoroutine()",
@@ -977,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Default",
           "name": "colorPickerBox",
           "package": "hoodle-core",
@@ -986,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Default",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Default",
           "name": "colorPickerBox",
           "normalized": "String-\u003eMainCoroutine(Maybe PenColor)",
@@ -1001,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Default",
           "name": "defaultEventProcess",
           "package": "hoodle-core",
@@ -1010,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Default",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Default",
           "name": "defaultEventProcess",
           "normalized": "UserEvent-\u003eMainCoroutine()",
@@ -1025,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Default",
           "name": "disableTouch",
           "package": "hoodle-core",
@@ -1034,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Default",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Default",
           "name": "disableTouch",
           "normalized": "MainCoroutine()",
@@ -1049,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Default",
           "name": "dispatchMode",
           "package": "hoodle-core",
@@ -1058,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Default",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Default",
           "name": "dispatchMode",
           "normalized": "MainCoroutine()",
@@ -1073,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Default",
           "name": "guiProcess",
           "package": "hoodle-core",
@@ -1082,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Default",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Default",
           "name": "guiProcess",
           "normalized": "AllEvent-\u003eMainCoroutine()",
@@ -1097,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Default",
           "name": "initCoroutine",
           "package": "hoodle-core",
@@ -1105,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Default",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Default",
           "name": "initCoroutine",
           "normalized": "DeviceList-\u003eWindow-\u003eMaybe FilePath-\u003eMaybe Hook-\u003eInt-\u003e(Bool,Bool,Bool)-\u003eStatusbar-\u003eIO(EventVar,HoodleState,UIManager,VBox)",
@@ -1121,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einitialization according to the setting \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Default",
           "name": "initialize",
           "package": "hoodle-core",
@@ -1131,6 +1226,7 @@
         "index": {
           "description": "initialization according to the setting",
           "hierarchy": "Hoodle Coroutine Default",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Default",
           "name": "initialize",
           "normalized": "AllEvent-\u003eMainCoroutine()",
@@ -1145,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Default",
           "name": "menuEventProcess",
           "package": "hoodle-core",
@@ -1154,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Default",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Default",
           "name": "menuEventProcess",
           "normalized": "MenuEvent-\u003eMainCoroutine()",
@@ -1169,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Default",
           "name": "selectMode",
           "package": "hoodle-core",
@@ -1178,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Default",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Default",
           "name": "selectMode",
           "normalized": "MainCoroutine()",
@@ -1193,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Default",
           "name": "viewAppendMode",
           "package": "hoodle-core",
@@ -1202,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Default",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Default",
           "name": "viewAppendMode",
           "normalized": "MainCoroutine()",
@@ -1217,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Dialog",
           "name": "Dialog",
           "package": "hoodle-core",
@@ -1225,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Dialog",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Dialog",
           "name": "Dialog",
           "package": "hoodle-core",
@@ -1238,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Dialog",
           "name": "fileChooser",
           "package": "hoodle-core",
@@ -1247,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Dialog",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Dialog",
           "name": "fileChooser",
           "normalized": "FileChooserAction-\u003eMaybe String-\u003eMainCoroutine(Maybe FilePath)",
@@ -1262,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Dialog",
           "name": "okCancelMessageBox",
           "package": "hoodle-core",
@@ -1271,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Dialog",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Dialog",
           "name": "okCancelMessageBox",
           "normalized": "String-\u003eMainCoroutine Bool",
@@ -1286,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Dialog",
           "name": "okMessageBox",
           "package": "hoodle-core",
@@ -1295,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Dialog",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Dialog",
           "name": "okMessageBox",
           "normalized": "String-\u003eMainCoroutine()",
@@ -1310,6 +1420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Draw",
           "name": "Draw",
           "package": "hoodle-core",
@@ -1318,6 +1429,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Draw",
           "name": "Draw",
           "package": "hoodle-core",
@@ -1331,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Draw",
           "name": "DrawingFunctionSet",
           "package": "hoodle-core",
@@ -1339,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Draw",
           "name": "DrawingFunctionSet",
           "package": "hoodle-core",
@@ -1352,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Draw",
           "name": "DrawingFunctionSet",
           "package": "hoodle-core",
@@ -1361,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Draw",
           "name": "DrawingFunctionSet",
           "package": "hoodle-core",
@@ -1375,6 +1491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echeck current canvas id and new active canvas id and invalidate if it's changed. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Draw",
           "name": "chkCvsIdNInvalidate",
           "package": "hoodle-core",
@@ -1385,6 +1502,7 @@
         "index": {
           "description": "check current canvas id and new active canvas id and invalidate if it changed",
           "hierarchy": "Hoodle Coroutine Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Draw",
           "name": "chkCvsIdNInvalidate",
           "normalized": "CanvasId-\u003eMainCoroutine()",
@@ -1400,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Draw",
           "name": "contEditDraw",
           "package": "hoodle-core",
@@ -1409,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Draw",
           "name": "contEditDraw",
           "package": "hoodle-core",
@@ -1422,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Draw",
           "name": "contSelectDraw",
           "package": "hoodle-core",
@@ -1431,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Draw",
           "name": "contSelectDraw",
           "package": "hoodle-core",
@@ -1445,6 +1567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einvalidate clear \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Draw",
           "name": "invalidate",
           "package": "hoodle-core",
@@ -1455,6 +1578,7 @@
         "index": {
           "description": "invalidate clear",
           "hierarchy": "Hoodle Coroutine Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Draw",
           "name": "invalidate",
           "normalized": "CanvasId-\u003eMainCoroutine()",
@@ -1469,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Draw",
           "name": "invalidateAll",
           "package": "hoodle-core",
@@ -1478,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Draw",
           "name": "invalidateAll",
           "normalized": "MainCoroutine()",
@@ -1493,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Draw",
           "name": "invalidateAllInBBox",
           "package": "hoodle-core",
@@ -1501,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Draw",
           "name": "invalidateAllInBBox",
           "normalized": "Maybe BBox-\u003eDrawFlag-\u003eMainCoroutine()",
@@ -1517,6 +1645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvalidate Current canvas\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Draw",
           "name": "invalidateCurrent",
           "package": "hoodle-core",
@@ -1527,6 +1656,7 @@
         "index": {
           "description": "Invalidate Current canvas",
           "hierarchy": "Hoodle Coroutine Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Draw",
           "name": "invalidateCurrent",
           "normalized": "MainCoroutine()",
@@ -1542,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Draw",
           "name": "invalidateGeneral",
           "package": "hoodle-core",
@@ -1551,6 +1682,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Draw",
           "name": "invalidateGeneral",
           "normalized": "CanvasId-\u003eMaybe BBox-\u003eDrawFlag-\u003eDrawingFunction SinglePage EditMode-\u003eDrawingFunction SinglePage SelectMode-\u003eDrawingFunction ContinuousPage EditMode-\u003eDrawingFunction ContinuousPage SelectMode-\u003eMainCoroutine()",
@@ -1566,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Draw",
           "name": "invalidateInBBox",
           "package": "hoodle-core",
@@ -1574,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Draw",
           "name": "invalidateInBBox",
           "normalized": "Maybe BBox-\u003eDrawFlag-\u003eCanvasId-\u003eMainCoroutine()",
@@ -1589,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Draw",
           "name": "invalidateOther",
           "package": "hoodle-core",
@@ -1598,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Draw",
           "name": "invalidateOther",
           "normalized": "MainCoroutine()",
@@ -1614,6 +1750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrawing temporary gadgets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Draw",
           "name": "invalidateTemp",
           "package": "hoodle-core",
@@ -1624,6 +1761,7 @@
         "index": {
           "description": "Drawing temporary gadgets",
           "hierarchy": "Hoodle Coroutine Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Draw",
           "name": "invalidateTemp",
           "normalized": "CanvasId-\u003eSurface-\u003eRender()-\u003eMainCoroutine()",
@@ -1640,6 +1778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrawing temporary gadgets with coordinate based on base page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Draw",
           "name": "invalidateTempBasePage",
           "package": "hoodle-core",
@@ -1650,6 +1789,7 @@
         "index": {
           "description": "Drawing temporary gadgets with coordinate based on base page",
           "hierarchy": "Hoodle Coroutine Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Draw",
           "name": "invalidateTempBasePage",
           "normalized": "CanvasId-\u003eSurface-\u003ePageNum-\u003eRender()-\u003eMainCoroutine()",
@@ -1665,6 +1805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Draw",
           "name": "singleEditDraw",
           "package": "hoodle-core",
@@ -1674,6 +1815,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Draw",
           "name": "singleEditDraw",
           "package": "hoodle-core",
@@ -1687,6 +1829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Draw",
           "name": "singleSelectDraw",
           "package": "hoodle-core",
@@ -1696,6 +1839,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Draw",
           "name": "singleSelectDraw",
           "package": "hoodle-core",
@@ -1709,6 +1853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Draw",
           "name": "waitSomeEvent",
           "package": "hoodle-core",
@@ -1718,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Draw",
           "name": "waitSomeEvent",
           "normalized": "(UserEvent-\u003eBool)-\u003eMainCoroutine UserEvent",
@@ -1733,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Eraser",
           "name": "Eraser",
           "package": "hoodle-core",
@@ -1741,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Eraser",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Eraser",
           "name": "Eraser",
           "package": "hoodle-core",
@@ -1754,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Eraser",
           "name": "eraserProcess",
           "package": "hoodle-core",
@@ -1763,6 +1912,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Eraser",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Eraser",
           "name": "eraserProcess",
           "normalized": "CanvasId-\u003ePageNum-\u003eCanvasGeometry-\u003e[RItem]-\u003e(Double,Double)-\u003eMainCoroutine()",
@@ -1778,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Eraser",
           "name": "eraserStart",
           "package": "hoodle-core",
@@ -1787,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Eraser",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Eraser",
           "name": "eraserStart",
           "normalized": "CanvasId-\u003ePointerCoord-\u003eMainCoroutine()",
@@ -1802,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "File",
           "package": "hoodle-core",
@@ -1810,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "File",
           "package": "hoodle-core",
@@ -1823,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "addOneRevisionBox",
           "package": "hoodle-core",
@@ -1832,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "addOneRevisionBox",
           "normalized": "VBox-\u003eHoodle-\u003eRevision-\u003eIO()",
@@ -1847,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "askIfOverwrite",
           "package": "hoodle-core",
@@ -1856,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "askIfOverwrite",
           "normalized": "FilePath-\u003eMainCoroutine()-\u003eMainCoroutine()",
@@ -1871,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "askIfSave",
           "package": "hoodle-core",
@@ -1880,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "askIfSave",
           "normalized": "MainCoroutine()-\u003eMainCoroutine()",
@@ -1895,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "askQuitProgram",
           "package": "hoodle-core",
@@ -1904,6 +2065,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "askQuitProgram",
           "normalized": "MainCoroutine()",
@@ -1919,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "checkEmbedImageSize",
           "package": "hoodle-core",
@@ -1928,6 +2091,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "checkEmbedImageSize",
           "normalized": "FilePath-\u003eMainCoroutine(Maybe FilePath)",
@@ -1943,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "embedAllPDFBackground",
           "package": "hoodle-core",
@@ -1952,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "embedAllPDFBackground",
           "normalized": "MainCoroutine()",
@@ -1967,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "embedImage",
           "package": "hoodle-core",
@@ -1976,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "embedImage",
           "normalized": "FilePath-\u003eMainCoroutine()",
@@ -1991,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "embedPredefinedImage",
           "package": "hoodle-core",
@@ -2000,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "embedPredefinedImage",
           "normalized": "MainCoroutine()",
@@ -2016,6 +2186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis is temporary. I will remove it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "embedPredefinedImage2",
           "package": "hoodle-core",
@@ -2026,6 +2197,7 @@
         "index": {
           "description": "this is temporary will remove it",
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "embedPredefinedImage2",
           "normalized": "MainCoroutine()",
@@ -2042,6 +2214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis is temporary. I will remove it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "embedPredefinedImage3",
           "package": "hoodle-core",
@@ -2052,6 +2225,7 @@
         "index": {
           "description": "this is temporary will remove it",
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "embedPredefinedImage3",
           "normalized": "MainCoroutine()",
@@ -2068,6 +2242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eneed to be merged with ContextMenuEventSVG\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "exportCurrentPageAsSVG",
           "package": "hoodle-core",
@@ -2078,6 +2253,7 @@
         "index": {
           "description": "need to be merged with ContextMenuEventSVG",
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "exportCurrentPageAsSVG",
           "normalized": "MainCoroutine()",
@@ -2093,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "fileAnnotatePDF",
           "package": "hoodle-core",
@@ -2102,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "fileAnnotatePDF",
           "normalized": "MainCoroutine()",
@@ -2117,6 +2295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "fileExport",
           "package": "hoodle-core",
@@ -2126,6 +2305,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "fileExport",
           "normalized": "MainCoroutine()",
@@ -2141,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "fileExtensionInvalid",
           "package": "hoodle-core",
@@ -2150,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "fileExtensionInvalid",
           "normalized": "(String,String)-\u003eMainCoroutine()",
@@ -2165,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "fileLoad",
           "package": "hoodle-core",
@@ -2174,6 +2357,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "fileLoad",
           "normalized": "FilePath-\u003eMainCoroutine()",
@@ -2189,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "fileLoadPNGorJPG",
           "package": "hoodle-core",
@@ -2198,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "fileLoadPNGorJPG",
           "normalized": "MainCoroutine()",
@@ -2213,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "fileLoadSVG",
           "package": "hoodle-core",
@@ -2222,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "fileLoadSVG",
           "normalized": "MainCoroutine()",
@@ -2237,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "fileNew",
           "package": "hoodle-core",
@@ -2246,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "fileNew",
           "normalized": "MainCoroutine()",
@@ -2262,6 +2452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emain coroutine for open a file \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "fileOpen",
           "package": "hoodle-core",
@@ -2272,6 +2463,7 @@
         "index": {
           "description": "main coroutine for open file",
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "fileOpen",
           "normalized": "MainCoroutine()",
@@ -2288,6 +2480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emain coroutine for open a file \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "fileReload",
           "package": "hoodle-core",
@@ -2298,6 +2491,7 @@
         "index": {
           "description": "main coroutine for open file",
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "fileReload",
           "normalized": "MainCoroutine()",
@@ -2313,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "fileSave",
           "package": "hoodle-core",
@@ -2322,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "fileSave",
           "normalized": "MainCoroutine()",
@@ -2338,6 +2534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emain coroutine for save as \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "fileSaveAs",
           "package": "hoodle-core",
@@ -2348,6 +2545,7 @@
         "index": {
           "description": "main coroutine for save as",
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "fileSaveAs",
           "normalized": "MainCoroutine()",
@@ -2363,6 +2561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "fileShowRevisions",
           "package": "hoodle-core",
@@ -2372,6 +2571,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "fileShowRevisions",
           "normalized": "MainCoroutine()",
@@ -2387,6 +2587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "fileShowUUID",
           "package": "hoodle-core",
@@ -2396,6 +2597,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "fileShowUUID",
           "normalized": "MainCoroutine()",
@@ -2411,6 +2613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "fileStartSync",
           "package": "hoodle-core",
@@ -2420,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "fileStartSync",
           "normalized": "MainCoroutine()",
@@ -2435,6 +2639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "fileVersionSave",
           "package": "hoodle-core",
@@ -2444,6 +2649,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "fileVersionSave",
           "normalized": "MainCoroutine()",
@@ -2459,6 +2665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "insertItemAt",
           "package": "hoodle-core",
@@ -2468,6 +2675,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "insertItemAt",
           "normalized": "Maybe(PageNum,PageCoordinate)-\u003eRItem-\u003eMainCoroutine()",
@@ -2483,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "mkPangoText",
           "package": "hoodle-core",
@@ -2492,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "mkPangoText",
           "normalized": "String-\u003eRender()",
@@ -2507,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "mkRevisionHdlFile",
           "package": "hoodle-core",
@@ -2516,6 +2727,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "mkRevisionHdlFile",
           "normalized": "Hoodle-\u003eIO(String,String)",
@@ -2531,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "mkRevisionPdfFile",
           "package": "hoodle-core",
@@ -2540,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "mkRevisionPdfFile",
           "normalized": "RHoodle-\u003eString-\u003eIO()",
@@ -2555,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "renderjob",
           "package": "hoodle-core",
@@ -2564,6 +2779,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "renderjob",
           "normalized": "RHoodle-\u003eFilePath-\u003eIO()",
@@ -2578,6 +2794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "resetHoodleBuffers",
           "package": "hoodle-core",
@@ -2587,6 +2804,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "resetHoodleBuffers",
           "normalized": "MainCoroutine()",
@@ -2603,6 +2821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterleaving a monadic action between each pair of subsequent actions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "sequence1_",
           "package": "hoodle-core",
@@ -2613,6 +2832,7 @@
         "index": {
           "description": "interleaving monadic action between each pair of subsequent actions",
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "sequence1_",
           "normalized": "a()-\u003e[a()]-\u003ea()",
@@ -2627,6 +2847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.File",
           "name": "showRevisionDialog",
           "package": "hoodle-core",
@@ -2636,6 +2857,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.File",
           "name": "showRevisionDialog",
           "normalized": "Hoodle-\u003e[Revision]-\u003eMainCoroutine()",
@@ -2651,6 +2873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Highlighter",
           "name": "Highlighter",
           "package": "hoodle-core",
@@ -2659,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Highlighter",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Highlighter",
           "name": "Highlighter",
           "package": "hoodle-core",
@@ -2672,6 +2896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Highlighter",
           "name": "highlighterStart",
           "package": "hoodle-core",
@@ -2681,6 +2906,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Highlighter",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Highlighter",
           "name": "highlighterStart",
           "normalized": "CanvasId-\u003ePointerCoord-\u003eMainCoroutine()",
@@ -2696,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Layer",
           "name": "Layer",
           "package": "hoodle-core",
@@ -2704,6 +2931,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Layer",
           "name": "Layer",
           "package": "hoodle-core",
@@ -2717,6 +2945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Layer",
           "name": "deleteCurrentLayer",
           "package": "hoodle-core",
@@ -2726,6 +2955,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Layer",
           "name": "deleteCurrentLayer",
           "normalized": "MainCoroutine()",
@@ -2741,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Layer",
           "name": "gotoLayerAt",
           "package": "hoodle-core",
@@ -2750,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Layer",
           "name": "gotoLayerAt",
           "normalized": "Int-\u003eMainCoroutine()",
@@ -2765,6 +2997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Layer",
           "name": "gotoNextLayer",
           "package": "hoodle-core",
@@ -2774,6 +3007,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Layer",
           "name": "gotoNextLayer",
           "normalized": "MainCoroutine()",
@@ -2789,6 +3023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Layer",
           "name": "gotoPrevLayer",
           "package": "hoodle-core",
@@ -2798,6 +3033,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Layer",
           "name": "gotoPrevLayer",
           "normalized": "MainCoroutine()",
@@ -2813,6 +3049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Layer",
           "name": "layerAction",
           "package": "hoodle-core",
@@ -2822,6 +3059,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Layer",
           "name": "layerAction",
           "normalized": "(HoodleModeState-\u003eInt-\u003ePage EditMode-\u003eMainCoroutine HoodleModeState)-\u003eMainCoroutine HoodleState",
@@ -2837,6 +3075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Layer",
           "name": "makeNewLayer",
           "package": "hoodle-core",
@@ -2846,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Layer",
           "name": "makeNewLayer",
           "normalized": "MainCoroutine()",
@@ -2861,6 +3101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Layer",
           "name": "startGotoLayerAt",
           "package": "hoodle-core",
@@ -2870,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Layer",
           "name": "startGotoLayerAt",
           "normalized": "MainCoroutine()",
@@ -2885,6 +3127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Link",
           "name": "Link",
           "package": "hoodle-core",
@@ -2893,6 +3136,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Link",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Link",
           "name": "Link",
           "package": "hoodle-core",
@@ -2906,6 +3150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Link",
           "name": "addLink",
           "package": "hoodle-core",
@@ -2915,6 +3160,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Link",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Link",
           "name": "addLink",
           "normalized": "MainCoroutine()",
@@ -2931,6 +3177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egot a link address (or embedded image) from drag and drop             \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Link",
           "name": "gotLink",
           "package": "hoodle-core",
@@ -2941,6 +3188,7 @@
         "index": {
           "description": "got link address or embedded image from drag and drop",
           "hierarchy": "Hoodle Coroutine Link",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Link",
           "name": "gotLink",
           "normalized": "Maybe String-\u003e(Int,Int)-\u003eMainCoroutine()",
@@ -2956,6 +3204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Link",
           "name": "makeTextSVGFromStringAt",
           "package": "hoodle-core",
@@ -2965,6 +3214,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Link",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Link",
           "name": "makeTextSVGFromStringAt",
           "normalized": "String-\u003eCanvasId-\u003eHoodleState-\u003eCanvasCoordinate-\u003eIO(ByteString,BBox)",
@@ -2980,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Link",
           "name": "notifyLink",
           "package": "hoodle-core",
@@ -2989,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Link",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Link",
           "name": "notifyLink",
           "normalized": "CanvasId-\u003ePointerCoord-\u003eMainCoroutine()",
@@ -3004,6 +3256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "Minibuffer",
           "package": "hoodle-core",
@@ -3012,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Minibuffer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "Minibuffer",
           "package": "hoodle-core",
@@ -3025,6 +3279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "drawMiniBuf",
           "package": "hoodle-core",
@@ -3034,6 +3289,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Minibuffer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "drawMiniBuf",
           "normalized": "a Stroke-\u003eRender()",
@@ -3049,6 +3305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "drawMiniBufBkg",
           "package": "hoodle-core",
@@ -3058,6 +3315,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Minibuffer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "drawMiniBufBkg",
           "normalized": "Render()",
@@ -3073,6 +3331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "drawstrokebit",
           "package": "hoodle-core",
@@ -3082,6 +3341,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Minibuffer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "drawstrokebit",
           "normalized": "(Surface,Surface)-\u003eSeq PointerCoord-\u003eIO()",
@@ -3096,6 +3356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "invalidateMinibuf",
           "package": "hoodle-core",
@@ -3105,6 +3366,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Minibuffer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "invalidateMinibuf",
           "normalized": "DrawWindow-\u003eSurface-\u003eIO()",
@@ -3120,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "minibufDialog",
           "package": "hoodle-core",
@@ -3129,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Minibuffer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "minibufDialog",
           "normalized": "String-\u003eMainCoroutine(Either()[Stroke])",
@@ -3144,6 +3408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "minibufInit",
           "package": "hoodle-core",
@@ -3153,6 +3418,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Minibuffer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "minibufInit",
           "normalized": "MainCoroutine(Either()[Stroke])",
@@ -3168,6 +3434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "minibufStart",
           "package": "hoodle-core",
@@ -3176,6 +3443,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Minibuffer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "minibufStart",
           "normalized": "DrawWindow-\u003e(Surface,Surface)-\u003eSeq Stroke-\u003eMainCoroutine(Either()[Stroke])",
@@ -3191,6 +3459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "mkstroke",
           "package": "hoodle-core",
@@ -3200,6 +3469,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Minibuffer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "mkstroke",
           "normalized": "Seq PointerCoord-\u003eStroke",
@@ -3214,6 +3484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "onestroke",
           "package": "hoodle-core",
@@ -3223,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Minibuffer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Minibuffer",
           "name": "onestroke",
           "normalized": "DrawWindow-\u003e(Surface,Surface)-\u003eSeq PointerCoord-\u003eMainCoroutine(Seq PointerCoord)",
@@ -3237,6 +3509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Mode",
           "name": "Mode",
           "package": "hoodle-core",
@@ -3245,6 +3518,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Mode",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Mode",
           "name": "Mode",
           "package": "hoodle-core",
@@ -3258,6 +3532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Mode",
           "name": "modeChange",
           "package": "hoodle-core",
@@ -3267,6 +3542,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Mode",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Mode",
           "name": "modeChange",
           "normalized": "UserEvent-\u003eMainCoroutine()",
@@ -3282,6 +3558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Mode",
           "name": "viewModeChange",
           "package": "hoodle-core",
@@ -3291,6 +3568,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Mode",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Mode",
           "name": "viewModeChange",
           "normalized": "UserEvent-\u003eMainCoroutine()",
@@ -3306,6 +3584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Network",
           "name": "Network",
           "package": "hoodle-core",
@@ -3314,6 +3593,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Network",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Network",
           "name": "Network",
           "package": "hoodle-core",
@@ -3327,6 +3607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Network",
           "name": "networkTextInput",
           "package": "hoodle-core",
@@ -3336,6 +3617,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Network",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Network",
           "name": "networkTextInput",
           "normalized": "Text-\u003eMainCoroutine(Maybe Text)",
@@ -3351,6 +3633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Network",
           "name": "server",
           "package": "hoodle-core",
@@ -3360,6 +3643,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Network",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Network",
           "name": "server",
           "normalized": "(AllEvent-\u003eIO())-\u003eHostPreference-\u003eText-\u003eIO()",
@@ -3374,6 +3658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Page",
           "name": "Page",
           "package": "hoodle-core",
@@ -3382,6 +3667,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Page",
           "name": "Page",
           "package": "hoodle-core",
@@ -3395,6 +3681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Page",
           "name": "canvasZoomUpdate",
           "package": "hoodle-core",
@@ -3404,6 +3691,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Page",
           "name": "canvasZoomUpdate",
           "normalized": "Maybe ZoomMode-\u003eMainCoroutine()",
@@ -3419,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Page",
           "name": "canvasZoomUpdateAll",
           "package": "hoodle-core",
@@ -3428,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Page",
           "name": "canvasZoomUpdateAll",
           "normalized": "MainCoroutine()",
@@ -3443,6 +3733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Page",
           "name": "canvasZoomUpdateBufAll",
           "package": "hoodle-core",
@@ -3452,6 +3743,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Page",
           "name": "canvasZoomUpdateBufAll",
           "normalized": "MainCoroutine()",
@@ -3467,6 +3759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Page",
           "name": "canvasZoomUpdateCvsId",
           "package": "hoodle-core",
@@ -3476,6 +3769,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Page",
           "name": "canvasZoomUpdateCvsId",
           "normalized": "CanvasId-\u003eMaybe ZoomMode-\u003eMainCoroutine()",
@@ -3491,6 +3785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Page",
           "name": "canvasZoomUpdateGenRenderCvsId",
           "package": "hoodle-core",
@@ -3500,6 +3795,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Page",
           "name": "canvasZoomUpdateGenRenderCvsId",
           "normalized": "MainCoroutine()-\u003eCanvasId-\u003eMaybe ZoomMode-\u003eMaybe(PageNum,PageCoordinate)-\u003eMainCoroutine()",
@@ -3516,6 +3812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echange page of current canvas using a modify function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Page",
           "name": "changePage",
           "package": "hoodle-core",
@@ -3526,6 +3823,7 @@
         "index": {
           "description": "change page of current canvas using modify function",
           "hierarchy": "Hoodle Coroutine Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Page",
           "name": "changePage",
           "normalized": "(Int-\u003eInt)-\u003eMainCoroutine()",
@@ -3541,6 +3839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Page",
           "name": "changePageInHoodleModeState",
           "package": "hoodle-core",
@@ -3549,6 +3848,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Page",
           "name": "changePageInHoodleModeState",
           "normalized": "BackgroundStyle-\u003eInt-\u003eHoodleModeState-\u003e(Bool,Int,Page EditMode,HoodleModeState)",
@@ -3565,6 +3865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete current page of current canvas\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Page",
           "name": "deleteCurrentPage",
           "package": "hoodle-core",
@@ -3575,6 +3876,7 @@
         "index": {
           "description": "delete current page of current canvas",
           "hierarchy": "Hoodle Coroutine Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Page",
           "name": "deleteCurrentPage",
           "normalized": "MainCoroutine()",
@@ -3591,6 +3893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete designated page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Page",
           "name": "deletePageInHoodle",
           "package": "hoodle-core",
@@ -3601,6 +3904,7 @@
         "index": {
           "description": "delete designated page",
           "hierarchy": "Hoodle Coroutine Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Page",
           "name": "deletePageInHoodle",
           "normalized": "Hoodle EditMode-\u003ePageNum-\u003eIO(Hoodle EditMode)",
@@ -3616,6 +3920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Page",
           "name": "newPage",
           "package": "hoodle-core",
@@ -3625,6 +3930,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Page",
           "name": "newPage",
           "normalized": "AddDirection-\u003eMainCoroutine()",
@@ -3640,6 +3946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Page",
           "name": "pageZoomChange",
           "package": "hoodle-core",
@@ -3649,6 +3956,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Page",
           "name": "pageZoomChange",
           "normalized": "ZoomMode-\u003eMainCoroutine()",
@@ -3664,6 +3972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Page",
           "name": "pageZoomChangeRel",
           "package": "hoodle-core",
@@ -3673,6 +3982,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Page",
           "name": "pageZoomChangeRel",
           "normalized": "ZoomModeRel-\u003eMainCoroutine()",
@@ -3688,6 +3998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Pen",
           "name": "Pen",
           "package": "hoodle-core",
@@ -3696,6 +4007,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Pen",
           "name": "Pen",
           "package": "hoodle-core",
@@ -3710,6 +4022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommon Pen Work starting point \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Pen",
           "name": "commonPenStart",
           "package": "hoodle-core",
@@ -3720,6 +4033,7 @@
         "index": {
           "description": "Common Pen Work starting point",
           "hierarchy": "Hoodle Coroutine Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Pen",
           "name": "commonPenStart",
           "normalized": "(a b CanvasInfo c-\u003ePageNum-\u003eCanvasGeometry-\u003e(Double,Double)-\u003eMainCoroutine())-\u003eCanvasId-\u003ePointerCoord-\u003eMainCoroutine()",
@@ -3735,6 +4049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Pen",
           "name": "createTempRender",
           "package": "hoodle-core",
@@ -3744,6 +4059,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Pen",
           "name": "createTempRender",
           "normalized": "CanvasGeometry-\u003ea-\u003eMainCoroutine(TempRender a)",
@@ -3759,6 +4075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Pen",
           "name": "penMoveAndUpInterPage",
           "package": "hoodle-core",
@@ -3768,6 +4085,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Pen",
           "name": "penMoveAndUpInterPage",
           "normalized": "UserEvent-\u003ePageNum-\u003eCanvasGeometry-\u003ea b-\u003e(PageNum-\u003e(PageNum,PageCoordinate)-\u003ea b)-\u003e(PointerCoord-\u003ea b)-\u003ea b",
@@ -3784,6 +4102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ein page action  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Pen",
           "name": "penMoveAndUpOnly",
           "package": "hoodle-core",
@@ -3794,6 +4113,7 @@
         "index": {
           "description": "in page action",
           "hierarchy": "Hoodle Coroutine Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Pen",
           "name": "penMoveAndUpOnly",
           "normalized": "UserEvent-\u003ePageNum-\u003eCanvasGeometry-\u003ea b-\u003e((PointerCoord,(Double,Double))-\u003ea b)-\u003e(PointerCoord-\u003ea b)-\u003ea b",
@@ -3810,6 +4130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epage switch if pen click a page different than the current page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Pen",
           "name": "penPageSwitch",
           "package": "hoodle-core",
@@ -3820,6 +4141,7 @@
         "index": {
           "description": "page switch if pen click page different than the current page",
           "hierarchy": "Hoodle Coroutine Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Pen",
           "name": "penPageSwitch",
           "normalized": "PageNum-\u003eMainCoroutine CanvasInfoBox",
@@ -3836,6 +4158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emain pen coordinate adding process\n | now being changed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Pen",
           "name": "penProcess",
           "package": "hoodle-core",
@@ -3846,6 +4169,7 @@
         "index": {
           "description": "main pen coordinate adding process now being changed",
           "hierarchy": "Hoodle Coroutine Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Pen",
           "name": "penProcess",
           "normalized": "CanvasId-\u003ePageNum-\u003eCanvasGeometry-\u003eTempRender(Seq(Double,Double,Double))-\u003e((Double,Double),Double)-\u003eMainCoroutine(Seq(Double,Double,Double))",
@@ -3862,6 +4186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eenter pen drawing mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Pen",
           "name": "penStart",
           "package": "hoodle-core",
@@ -3872,6 +4197,7 @@
         "index": {
           "description": "enter pen drawing mode",
           "hierarchy": "Hoodle Coroutine Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Pen",
           "name": "penStart",
           "normalized": "CanvasId-\u003ePointerCoord-\u003eMainCoroutine()",
@@ -3887,6 +4213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Pen",
           "name": "processWithDefTimeInterval",
           "package": "hoodle-core",
@@ -3895,6 +4222,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Pen",
           "name": "processWithDefTimeInterval",
           "normalized": "(UTCTime-\u003ea b)-\u003e(UTCTime-\u003ea b)-\u003eUTCTime-\u003ea b",
@@ -3911,6 +4239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprocess action when last time was before time diff limit, otherwise\n   just do default action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Pen",
           "name": "processWithTimeInterval",
           "package": "hoodle-core",
@@ -3920,6 +4249,7 @@
         "index": {
           "description": "process action when last time was before time diff limit otherwise just do default action",
           "hierarchy": "Hoodle Coroutine Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Pen",
           "name": "processWithTimeInterval",
           "normalized": "NominalDiffTime-\u003e(UTCTime-\u003ea b)-\u003e(UTCTime-\u003ea b)-\u003eUTCTime-\u003ea b",
@@ -3935,6 +4265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Pen",
           "name": "skipIfNotInSamePage",
           "package": "hoodle-core",
@@ -3944,6 +4275,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Pen",
           "name": "skipIfNotInSamePage",
           "normalized": "PageNum-\u003eCanvasGeometry-\u003ePointerCoord-\u003ea b-\u003e((PointerCoord,(Double,Double))-\u003ea b)-\u003ea b",
@@ -3959,6 +4291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Pen",
           "name": "switchActionEnteringDiffPage",
           "package": "hoodle-core",
@@ -3968,6 +4301,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Pen",
           "name": "switchActionEnteringDiffPage",
           "normalized": "PageNum-\u003eCanvasGeometry-\u003ePointerCoord-\u003ea b-\u003e(PageNum-\u003e(PageNum,PageCoordinate)-\u003ea b)-\u003e(PageNum-\u003e(PageNum,PageCoordinate)-\u003ea b)-\u003ea b",
@@ -3983,6 +4317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Scroll",
           "name": "Scroll",
           "package": "hoodle-core",
@@ -3991,6 +4326,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Scroll",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Scroll",
           "name": "Scroll",
           "package": "hoodle-core",
@@ -4004,6 +4340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Scroll",
           "name": "adjustScrollbarWithGeometryCurrent",
           "package": "hoodle-core",
@@ -4013,6 +4350,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Scroll",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Scroll",
           "name": "adjustScrollbarWithGeometryCurrent",
           "normalized": "MainCoroutine()",
@@ -4028,6 +4366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Scroll",
           "name": "adjustScrollbarWithGeometryCvsId",
           "package": "hoodle-core",
@@ -4037,6 +4376,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Scroll",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Scroll",
           "name": "adjustScrollbarWithGeometryCvsId",
           "normalized": "CanvasId-\u003eMainCoroutine()",
@@ -4052,6 +4392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Scroll",
           "name": "hscrollBarMoved",
           "package": "hoodle-core",
@@ -4061,6 +4402,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Scroll",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Scroll",
           "name": "hscrollBarMoved",
           "normalized": "CanvasId-\u003eDouble-\u003eMainCoroutine()",
@@ -4076,6 +4418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Scroll",
           "name": "moveViewPortBy",
           "package": "hoodle-core",
@@ -4085,6 +4428,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Scroll",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Scroll",
           "name": "moveViewPortBy",
           "normalized": "MainCoroutine()-\u003eCanvasId-\u003e((Double,Double)-\u003e(Double,Double))-\u003eMainCoroutine()",
@@ -4100,6 +4444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Scroll",
           "name": "smoothScroll",
           "package": "hoodle-core",
@@ -4109,6 +4454,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Scroll",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Scroll",
           "name": "smoothScroll",
           "normalized": "CanvasId-\u003eCanvasGeometry-\u003eDouble-\u003eDouble-\u003eMainCoroutine()",
@@ -4124,6 +4470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Scroll",
           "name": "vscrollBarMoved",
           "package": "hoodle-core",
@@ -4133,6 +4480,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Scroll",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Scroll",
           "name": "vscrollBarMoved",
           "normalized": "CanvasId-\u003eDouble-\u003eMainCoroutine()",
@@ -4148,6 +4496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Scroll",
           "name": "vscrollMove",
           "package": "hoodle-core",
@@ -4157,6 +4506,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Scroll",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Scroll",
           "name": "vscrollMove",
           "normalized": "CanvasId-\u003eDouble-\u003eMainCoroutine()",
@@ -4172,6 +4522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Scroll",
           "name": "vscrollStart",
           "package": "hoodle-core",
@@ -4181,6 +4532,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Scroll",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Scroll",
           "name": "vscrollStart",
           "normalized": "CanvasId-\u003eDouble-\u003eMainCoroutine()",
@@ -4197,6 +4549,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClipboard action while dealing with selection\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select.Clipboard",
           "name": "Clipboard",
           "package": "hoodle-core",
@@ -4206,6 +4559,7 @@
         "index": {
           "description": "Clipboard action while dealing with selection",
           "hierarchy": "Hoodle Coroutine Select Clipboard",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select.Clipboard",
           "name": "Clipboard",
           "package": "hoodle-core",
@@ -4219,6 +4573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select.Clipboard",
           "name": "copySelection",
           "package": "hoodle-core",
@@ -4228,6 +4583,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Select Clipboard",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select.Clipboard",
           "name": "copySelection",
           "normalized": "MainCoroutine()",
@@ -4243,6 +4599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select.Clipboard",
           "name": "cutSelection",
           "package": "hoodle-core",
@@ -4252,6 +4609,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Select Clipboard",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select.Clipboard",
           "name": "cutSelection",
           "normalized": "MainCoroutine()",
@@ -4267,6 +4625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select.Clipboard",
           "name": "deleteSelection",
           "package": "hoodle-core",
@@ -4276,6 +4635,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Select Clipboard",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select.Clipboard",
           "name": "deleteSelection",
           "normalized": "MainCoroutine()",
@@ -4291,6 +4651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select.Clipboard",
           "name": "getClipFromGtk",
           "package": "hoodle-core",
@@ -4300,6 +4661,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Select Clipboard",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select.Clipboard",
           "name": "getClipFromGtk",
           "normalized": "MainCoroutine(Maybe[Item])",
@@ -4315,6 +4677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select.Clipboard",
           "name": "pasteToSelection",
           "package": "hoodle-core",
@@ -4324,6 +4687,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Select Clipboard",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select.Clipboard",
           "name": "pasteToSelection",
           "normalized": "MainCoroutine()",
@@ -4340,6 +4704,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eManipulate Image in selection\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select.ManipulateImage",
           "name": "ManipulateImage",
           "package": "hoodle-core",
@@ -4349,6 +4714,7 @@
         "index": {
           "description": "Manipulate Image in selection",
           "hierarchy": "Hoodle Coroutine Select ManipulateImage",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select.ManipulateImage",
           "name": "ManipulateImage",
           "package": "hoodle-core",
@@ -4362,6 +4728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select.ManipulateImage",
           "name": "createCroppedImage",
           "package": "hoodle-core",
@@ -4371,6 +4738,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Select ManipulateImage",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select.ManipulateImage",
           "name": "createCroppedImage",
           "normalized": "Image-\u003eBBox-\u003eBBox-\u003eIO(Maybe Image)",
@@ -4386,6 +4754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select.ManipulateImage",
           "name": "createRotatedImage",
           "package": "hoodle-core",
@@ -4395,6 +4764,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Select ManipulateImage",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select.ManipulateImage",
           "name": "createRotatedImage",
           "normalized": "RotateDir-\u003eImage-\u003eBBox-\u003eIO(Maybe Image)",
@@ -4410,6 +4780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select.ManipulateImage",
           "name": "cropImage",
           "package": "hoodle-core",
@@ -4419,6 +4790,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Select ManipulateImage",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select.ManipulateImage",
           "name": "cropImage",
           "normalized": "BBoxed Image-\u003eMainCoroutine()",
@@ -4435,6 +4807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estart making a new crop rectangle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select.ManipulateImage",
           "name": "newCropRect",
           "package": "hoodle-core",
@@ -4445,6 +4818,7 @@
         "index": {
           "description": "start making new crop rectangle",
           "hierarchy": "Hoodle Coroutine Select ManipulateImage",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select.ManipulateImage",
           "name": "newCropRect",
           "normalized": "CanvasId-\u003eCanvasGeometry-\u003eTempRender(PageNum,BBox)-\u003e(Double,Double)-\u003e((Double,Double),UTCTime)-\u003eMainCoroutine BBox",
@@ -4460,6 +4834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select.ManipulateImage",
           "name": "rotateImage",
           "package": "hoodle-core",
@@ -4469,6 +4844,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Select ManipulateImage",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select.ManipulateImage",
           "name": "rotateImage",
           "normalized": "RotateDir-\u003eBBoxed Image-\u003eMainCoroutine()",
@@ -4484,6 +4860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select.ManipulateImage",
           "name": "startCropRect",
           "package": "hoodle-core",
@@ -4493,6 +4870,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Select ManipulateImage",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select.ManipulateImage",
           "name": "startCropRect",
           "normalized": "CanvasId-\u003eBBoxed Image-\u003e(Hoodle SelectMode,Page SelectMode)-\u003ePointerCoord-\u003eMainCoroutine()",
@@ -4509,6 +4887,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eselection-related coroutines  \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select",
           "name": "Select",
           "package": "hoodle-core",
@@ -4518,6 +4897,7 @@
         "index": {
           "description": "selection-related coroutines",
           "hierarchy": "Hoodle Coroutine Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select",
           "name": "Select",
           "package": "hoodle-core",
@@ -4532,6 +4912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecommon main mouse pointer click entrance in selection mode. \n   choose either starting new selection or move previously \n   selected selection. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select",
           "name": "commonSelectStart",
           "package": "hoodle-core",
@@ -4542,6 +4923,7 @@
         "index": {
           "description": "common main mouse pointer click entrance in selection mode choose either starting new selection or move previously selected selection",
           "hierarchy": "Hoodle Coroutine Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select",
           "name": "commonSelectStart",
           "normalized": "SelectType-\u003ePenButton-\u003eCanvasId-\u003ePointerCoord-\u003eMainCoroutine()",
@@ -4558,6 +4940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor Selection mode from pen mode with 2nd pen button\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select",
           "name": "dealWithOneTimeSelectMode",
           "package": "hoodle-core",
@@ -4567,6 +4950,7 @@
         "index": {
           "description": "For Selection mode from pen mode with nd pen button",
           "hierarchy": "Hoodle Coroutine Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select",
           "name": "dealWithOneTimeSelectMode",
           "normalized": "MainCoroutine()-\u003eMainCoroutine()-\u003eMainCoroutine()",
@@ -4582,6 +4966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select",
           "name": "moveSelect",
           "package": "hoodle-core",
@@ -4590,6 +4975,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select",
           "name": "moveSelect",
           "normalized": "CanvasId-\u003ePageNum-\u003eCanvasGeometry-\u003e(Double,Double)-\u003e((Double,Double),UTCTime)-\u003eTempRender ItmsNImg-\u003eMainCoroutine()",
@@ -4605,6 +4991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select",
           "name": "newSelectLasso",
           "package": "hoodle-core",
@@ -4614,6 +5001,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select",
           "name": "newSelectLasso",
           "normalized": "CanvasInfo a-\u003ePageNum-\u003eCanvasGeometry-\u003e[RItem]-\u003e(Double,Double)-\u003e((Double,Double),UTCTime)-\u003eSeq(Double,Double)-\u003eTempSelection-\u003eMainCoroutine()",
@@ -4629,6 +5017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select",
           "name": "newSelectRectangle",
           "package": "hoodle-core",
@@ -4638,6 +5027,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select",
           "name": "newSelectRectangle",
           "normalized": "CanvasId-\u003ePageNum-\u003eCanvasGeometry-\u003e[RItem]-\u003e(Double,Double)-\u003e((Double,Double),UTCTime)-\u003eTempSelection-\u003eMainCoroutine()",
@@ -4653,6 +5043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select",
           "name": "resizeSelect",
           "package": "hoodle-core",
@@ -4661,6 +5052,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select",
           "name": "resizeSelect",
           "normalized": "Bool-\u003eHandle-\u003eCanvasId-\u003ePageNum-\u003eCanvasGeometry-\u003eBBox-\u003e((Double,Double),UTCTime)-\u003eTempRender ItmsNImg-\u003eMainCoroutine()",
@@ -4677,6 +5069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emain mouse pointer click entrance in lasso selection mode. \n   choose either starting new rectangular selection or move previously \n   selected selection. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select",
           "name": "selectLassoStart",
           "package": "hoodle-core",
@@ -4687,6 +5080,7 @@
         "index": {
           "description": "main mouse pointer click entrance in lasso selection mode choose either starting new rectangular selection or move previously selected selection",
           "hierarchy": "Hoodle Coroutine Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select",
           "name": "selectLassoStart",
           "normalized": "PenButton-\u003eCanvasId-\u003ePointerCoord-\u003eMainCoroutine()",
@@ -4702,6 +5096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select",
           "name": "selectPenColorChanged",
           "package": "hoodle-core",
@@ -4711,6 +5106,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select",
           "name": "selectPenColorChanged",
           "normalized": "PenColor-\u003eMainCoroutine()",
@@ -4726,6 +5122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select",
           "name": "selectPenWidthChanged",
           "package": "hoodle-core",
@@ -4735,6 +5132,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select",
           "name": "selectPenWidthChanged",
           "normalized": "Double-\u003eMainCoroutine()",
@@ -4751,6 +5149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emain mouse pointer click entrance in rectangular selection mode. \n   choose either starting new rectangular selection or move previously \n   selected selection. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select",
           "name": "selectRectStart",
           "package": "hoodle-core",
@@ -4761,6 +5160,7 @@
         "index": {
           "description": "main mouse pointer click entrance in rectangular selection mode choose either starting new rectangular selection or move previously selected selection",
           "hierarchy": "Hoodle Coroutine Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select",
           "name": "selectRectStart",
           "normalized": "PenButton-\u003eCanvasId-\u003ePointerCoord-\u003eMainCoroutine()",
@@ -4777,6 +5177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprepare for moving selection \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select",
           "name": "startMoveSelect",
           "package": "hoodle-core",
@@ -4787,6 +5188,7 @@
         "index": {
           "description": "prepare for moving selection",
           "hierarchy": "Hoodle Coroutine Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select",
           "name": "startMoveSelect",
           "normalized": "CanvasId-\u003ePageNum-\u003eCanvasGeometry-\u003e((Double,Double),UTCTime)-\u003ePage SelectMode-\u003eMainCoroutine()",
@@ -4803,6 +5205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprepare for resizing selection \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Select",
           "name": "startResizeSelect",
           "package": "hoodle-core",
@@ -4812,6 +5215,7 @@
         "index": {
           "description": "prepare for resizing selection",
           "hierarchy": "Hoodle Coroutine Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Select",
           "name": "startResizeSelect",
           "normalized": "Bool-\u003eHandle-\u003eCanvasId-\u003ePageNum-\u003eCanvasGeometry-\u003eBBox-\u003e((Double,Double),UTCTime)-\u003ePage SelectMode-\u003eMainCoroutine()",
@@ -4827,6 +5231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "TextInput",
           "package": "hoodle-core",
@@ -4835,6 +5240,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine TextInput",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "TextInput",
           "package": "hoodle-core",
@@ -4849,6 +5255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecombine all LaTeX texts into a text file \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "combineLaTeXText",
           "package": "hoodle-core",
@@ -4859,6 +5266,7 @@
         "index": {
           "description": "combine all LaTeX texts into text file",
           "hierarchy": "Hoodle Coroutine TextInput",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "combineLaTeXText",
           "normalized": "MainCoroutine()",
@@ -4874,6 +5282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "convertLinkFromSimpleToDocID",
           "package": "hoodle-core",
@@ -4883,6 +5292,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine TextInput",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "convertLinkFromSimpleToDocID",
           "normalized": "Link-\u003eIO(Maybe Link)",
@@ -4898,6 +5308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "laTeXFooter",
           "package": "hoodle-core",
@@ -4907,6 +5318,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine TextInput",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "laTeXFooter",
           "package": "hoodle-core",
@@ -4920,6 +5332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "laTeXHeader",
           "package": "hoodle-core",
@@ -4929,6 +5342,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine TextInput",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "laTeXHeader",
           "package": "hoodle-core",
@@ -4943,6 +5357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einsert latex\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "laTeXInput",
           "package": "hoodle-core",
@@ -4953,6 +5368,7 @@
         "index": {
           "description": "insert latex",
           "hierarchy": "Hoodle Coroutine TextInput",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "laTeXInput",
           "normalized": "(Double,Double)-\u003eText-\u003eMainCoroutine()",
@@ -4968,6 +5384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "laTeXInputNetwork",
           "package": "hoodle-core",
@@ -4977,6 +5394,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine TextInput",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "laTeXInputNetwork",
           "normalized": "(Double,Double)-\u003eText-\u003eMainCoroutine()",
@@ -4992,6 +5410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "linkInsert",
           "package": "hoodle-core",
@@ -5001,6 +5420,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine TextInput",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "linkInsert",
           "normalized": "ByteString-\u003e(ByteString,FilePath)-\u003eString-\u003e(ByteString,BBox)-\u003eMainCoroutine()",
@@ -5016,6 +5436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "makeLaTeXSVG",
           "package": "hoodle-core",
@@ -5025,6 +5446,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine TextInput",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "makeLaTeXSVG",
           "normalized": "(Double,Double)-\u003eText-\u003eIO(Either String(ByteString,BBox))",
@@ -5040,6 +5462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "makePangoTextSVG",
           "package": "hoodle-core",
@@ -5049,6 +5472,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine TextInput",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "makePangoTextSVG",
           "normalized": "(Double,Double)-\u003eText-\u003eIO(ByteString,BBox)",
@@ -5064,6 +5488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "multiLineDialog",
           "package": "hoodle-core",
@@ -5073,6 +5498,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine TextInput",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "multiLineDialog",
           "normalized": "Text-\u003eEither(ActionOrder AllEvent)AllEvent",
@@ -5088,6 +5514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "multiLineLoop",
           "package": "hoodle-core",
@@ -5097,6 +5524,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine TextInput",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "multiLineLoop",
           "normalized": "Text-\u003eMainCoroutine(Maybe Text)",
@@ -5112,6 +5540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "svgInsert",
           "package": "hoodle-core",
@@ -5121,6 +5550,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine TextInput",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "svgInsert",
           "normalized": "(Text,String)-\u003e(ByteString,BBox)-\u003eMainCoroutine()",
@@ -5137,6 +5567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einsert text \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "textInput",
           "package": "hoodle-core",
@@ -5147,6 +5578,7 @@
         "index": {
           "description": "insert text",
           "hierarchy": "Hoodle Coroutine TextInput",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "textInput",
           "normalized": "(Double,Double)-\u003eText-\u003eMainCoroutine()",
@@ -5163,6 +5595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esingle line text input : almost abandoned now\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "textInputDialog",
           "package": "hoodle-core",
@@ -5173,6 +5606,7 @@
         "index": {
           "description": "single line text input almost abandoned now",
           "hierarchy": "Hoodle Coroutine TextInput",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.TextInput",
           "name": "textInputDialog",
           "package": "hoodle-core",
@@ -5186,6 +5620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.VerticalSpace",
           "name": "VerticalSpace",
           "package": "hoodle-core",
@@ -5194,6 +5629,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine VerticalSpace",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.VerticalSpace",
           "name": "VerticalSpace",
           "package": "hoodle-core",
@@ -5207,6 +5643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.VerticalSpace",
           "name": "addNewPageAndMoveBelow",
           "package": "hoodle-core",
@@ -5216,6 +5653,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine VerticalSpace",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.VerticalSpace",
           "name": "addNewPageAndMoveBelow",
           "normalized": "(PageNum,SeqZipper RItemHitted,BBox)-\u003eMainCoroutine()",
@@ -5231,6 +5669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.VerticalSpace",
           "name": "moveBelowToNewPage",
           "package": "hoodle-core",
@@ -5240,6 +5679,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine VerticalSpace",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.VerticalSpace",
           "name": "moveBelowToNewPage",
           "normalized": "(PageNum,SeqZipper RItemHitted,BBox)-\u003eHoodle EditMode-\u003eHoodle EditMode",
@@ -5255,6 +5695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.VerticalSpace",
           "name": "splitPageByHLine",
           "package": "hoodle-core",
@@ -5264,6 +5705,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine VerticalSpace",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.VerticalSpace",
           "name": "splitPageByHLine",
           "normalized": "Double-\u003ePage EditMode-\u003e([RItem],Page EditMode,SeqZipper RItemHitted)",
@@ -5279,6 +5721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.VerticalSpace",
           "name": "verticalSpaceProcess",
           "package": "hoodle-core",
@@ -5288,6 +5731,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine VerticalSpace",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.VerticalSpace",
           "name": "verticalSpaceProcess",
           "normalized": "CanvasId-\u003eCanvasGeometry-\u003e(BBox,SeqZipper RItemHitted,PageNum,Page EditMode)-\u003e(Double,Double)-\u003e(Surface,Surface,Surface)-\u003eUTCTime-\u003eMainCoroutine()",
@@ -5303,6 +5747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.VerticalSpace",
           "name": "verticalSpaceStart",
           "package": "hoodle-core",
@@ -5312,6 +5757,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine VerticalSpace",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.VerticalSpace",
           "name": "verticalSpaceStart",
           "normalized": "CanvasId-\u003ePointerCoord-\u003eMainCoroutine()",
@@ -5327,6 +5773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Window",
           "name": "Window",
           "package": "hoodle-core",
@@ -5335,6 +5782,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Window",
           "name": "Window",
           "package": "hoodle-core",
@@ -5349,6 +5797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecanvas configure with general zoom update func\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Window",
           "name": "canvasConfigureGenUpdate",
           "package": "hoodle-core",
@@ -5359,6 +5808,7 @@
         "index": {
           "description": "canvas configure with general zoom update func",
           "hierarchy": "Hoodle Coroutine Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Window",
           "name": "canvasConfigureGenUpdate",
           "normalized": "MainCoroutine()-\u003eCanvasId-\u003eCanvasDimension-\u003eMainCoroutine()",
@@ -5374,6 +5824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Window",
           "name": "deleteCanvas",
           "package": "hoodle-core",
@@ -5383,6 +5834,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Window",
           "name": "deleteCanvas",
           "normalized": "MainCoroutine()",
@@ -5398,6 +5850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Window",
           "name": "doCanvasConfigure",
           "package": "hoodle-core",
@@ -5407,6 +5860,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Window",
           "name": "doCanvasConfigure",
           "normalized": "CanvasId-\u003eCanvasDimension-\u003eMainCoroutine()",
@@ -5422,6 +5876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Window",
           "name": "eitherSplit",
           "package": "hoodle-core",
@@ -5431,6 +5886,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Window",
           "name": "eitherSplit",
           "normalized": "SplitType-\u003eMainCoroutine()",
@@ -5446,6 +5902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Window",
           "name": "fullScreen",
           "package": "hoodle-core",
@@ -5455,6 +5912,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Window",
           "name": "fullScreen",
           "normalized": "MainCoroutine()",
@@ -5470,6 +5928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Window",
           "name": "paneMoveStart",
           "package": "hoodle-core",
@@ -5479,6 +5938,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Window",
           "name": "paneMoveStart",
           "normalized": "MainCoroutine()",
@@ -5495,6 +5955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enot yet implemented?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine.Window",
           "name": "paneMoved",
           "package": "hoodle-core",
@@ -5505,6 +5966,7 @@
         "index": {
           "description": "not yet implemented",
           "hierarchy": "Hoodle Coroutine Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine.Window",
           "name": "paneMoved",
           "normalized": "MainCoroutine()",
@@ -5520,6 +5982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Coroutine",
           "name": "Coroutine",
           "package": "hoodle-core",
@@ -5528,6 +5991,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Coroutine",
           "name": "Coroutine",
           "package": "hoodle-core",
@@ -5541,6 +6005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "Device",
           "package": "hoodle-core",
@@ -5549,6 +6014,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "Device",
           "package": "hoodle-core",
@@ -5562,6 +6028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "DeviceList",
           "package": "hoodle-core",
@@ -5570,6 +6037,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "DeviceList",
           "package": "hoodle-core",
@@ -5583,6 +6051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "PenButton",
           "package": "hoodle-core",
@@ -5591,6 +6060,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "PenButton",
           "package": "hoodle-core",
@@ -5604,6 +6074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "PointerCoord",
           "package": "hoodle-core",
@@ -5612,6 +6083,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "PointerCoord",
           "package": "hoodle-core",
@@ -5625,6 +6097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "PointerType",
           "package": "hoodle-core",
@@ -5633,6 +6106,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "PointerType",
           "package": "hoodle-core",
@@ -5646,6 +6120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "Core",
           "package": "hoodle-core",
@@ -5655,6 +6130,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "Core",
           "package": "hoodle-core",
@@ -5668,6 +6144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "DeviceList",
           "package": "hoodle-core",
@@ -5677,6 +6154,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "DeviceList",
           "package": "hoodle-core",
@@ -5690,6 +6168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "Eraser",
           "package": "hoodle-core",
@@ -5699,6 +6178,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "Eraser",
           "package": "hoodle-core",
@@ -5712,6 +6192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "EraserButton",
           "package": "hoodle-core",
@@ -5721,6 +6202,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "EraserButton",
           "package": "hoodle-core",
@@ -5734,6 +6216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "NoPointerCoord",
           "package": "hoodle-core",
@@ -5743,6 +6226,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "NoPointerCoord",
           "package": "hoodle-core",
@@ -5756,6 +6240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "PenButton1",
           "package": "hoodle-core",
@@ -5765,6 +6250,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "PenButton1",
           "package": "hoodle-core",
@@ -5778,6 +6264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "PenButton2",
           "package": "hoodle-core",
@@ -5787,6 +6274,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "PenButton2",
           "package": "hoodle-core",
@@ -5800,6 +6288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "PenButton3",
           "package": "hoodle-core",
@@ -5809,6 +6298,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "PenButton3",
           "package": "hoodle-core",
@@ -5822,6 +6312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "PointerCoord",
           "package": "hoodle-core",
@@ -5831,6 +6322,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "PointerCoord",
           "package": "hoodle-core",
@@ -5844,6 +6336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "Stylus",
           "package": "hoodle-core",
@@ -5853,6 +6346,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "Stylus",
           "package": "hoodle-core",
@@ -5866,6 +6360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "Touch",
           "package": "hoodle-core",
@@ -5875,6 +6370,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "Touch",
           "package": "hoodle-core",
@@ -5888,6 +6384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "TouchButton",
           "package": "hoodle-core",
@@ -5897,6 +6394,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "TouchButton",
           "package": "hoodle-core",
@@ -5910,6 +6408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "c_find_wacom",
           "package": "hoodle-core",
@@ -5919,6 +6418,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "c_find_wacom",
           "normalized": "CString-\u003eCString-\u003eIO()",
@@ -5933,6 +6433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "c_initdevice",
           "package": "hoodle-core",
@@ -5941,6 +6442,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "c_initdevice",
           "normalized": "Ptr CInt-\u003ePtr CInt-\u003ePtr CInt-\u003ePtr CInt-\u003eCString-\u003eCString-\u003eCString-\u003eCString-\u003eIO()",
@@ -5955,6 +6457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "dev_core",
           "package": "hoodle-core",
@@ -5964,6 +6467,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "dev_core",
           "package": "hoodle-core",
@@ -5976,6 +6480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "dev_core_str",
           "package": "hoodle-core",
@@ -5985,6 +6490,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "dev_core_str",
           "package": "hoodle-core",
@@ -5997,6 +6503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "dev_eraser",
           "package": "hoodle-core",
@@ -6006,6 +6513,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "dev_eraser",
           "package": "hoodle-core",
@@ -6018,6 +6526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "dev_eraser_str",
           "package": "hoodle-core",
@@ -6027,6 +6536,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "dev_eraser_str",
           "package": "hoodle-core",
@@ -6039,6 +6549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "dev_stylus",
           "package": "hoodle-core",
@@ -6048,6 +6559,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "dev_stylus",
           "package": "hoodle-core",
@@ -6060,6 +6572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "dev_stylus_str",
           "package": "hoodle-core",
@@ -6069,6 +6582,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "dev_stylus_str",
           "package": "hoodle-core",
@@ -6081,6 +6595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "dev_touch",
           "package": "hoodle-core",
@@ -6090,6 +6605,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "dev_touch",
           "package": "hoodle-core",
@@ -6102,6 +6618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "dev_touch_str",
           "package": "hoodle-core",
@@ -6111,6 +6628,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "dev_touch_str",
           "package": "hoodle-core",
@@ -6123,6 +6641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "getPointer",
           "package": "hoodle-core",
@@ -6132,6 +6651,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "getPointer",
           "normalized": "DeviceList-\u003eEventM a(Maybe PenButton,Maybe PointerCoord)",
@@ -6147,6 +6667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "initDevice",
           "package": "hoodle-core",
@@ -6156,6 +6677,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "initDevice",
           "normalized": "Config-\u003eIO DeviceList",
@@ -6171,6 +6693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "pointerType",
           "package": "hoodle-core",
@@ -6180,6 +6703,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "pointerType",
           "package": "hoodle-core",
@@ -6193,6 +6717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "pointerX",
           "package": "hoodle-core",
@@ -6202,6 +6727,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "pointerX",
           "package": "hoodle-core",
@@ -6214,6 +6740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "pointerY",
           "package": "hoodle-core",
@@ -6223,6 +6750,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "pointerY",
           "package": "hoodle-core",
@@ -6235,6 +6763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "pointerZ",
           "package": "hoodle-core",
@@ -6244,6 +6773,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "pointerZ",
           "package": "hoodle-core",
@@ -6256,6 +6786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "wacomCoordConvert",
           "package": "hoodle-core",
@@ -6265,6 +6796,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "wacomCoordConvert",
           "normalized": "a-\u003e(Double,Double)-\u003eIO(Double,Double)",
@@ -6280,6 +6812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Device",
           "name": "wacomPConvert",
           "package": "hoodle-core",
@@ -6289,6 +6822,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Device",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Device",
           "name": "wacomPConvert",
           "normalized": "a-\u003ePointerCoord-\u003eIO(Double,Double)",
@@ -6305,6 +6839,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConstruct hoodle menus \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "Menu",
           "package": "hoodle-core",
@@ -6314,6 +6849,7 @@
         "index": {
           "description": "Construct hoodle menus",
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "Menu",
           "package": "hoodle-core",
@@ -6327,6 +6863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "actionGroupAddRadioActionsAndGetConnID",
           "package": "hoodle-core",
@@ -6336,6 +6873,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "actionGroupAddRadioActionsAndGetConnID",
           "normalized": "ActionGroup-\u003e[RadioActionEntry]-\u003eInt-\u003e(RadioAction-\u003eIO())-\u003eIO(Maybe(ConnectId RadioAction))",
@@ -6351,6 +6889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "actionNewAndRegisterRef",
           "package": "hoodle-core",
@@ -6360,6 +6899,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "actionNewAndRegisterRef",
           "normalized": "EventVar-\u003eString-\u003eString-\u003eMaybe String-\u003eMaybe StockId-\u003eMaybe UserEvent-\u003eIO Action",
@@ -6375,6 +6915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "assignBkgStyle",
           "package": "hoodle-core",
@@ -6384,6 +6925,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "assignBkgStyle",
           "normalized": "EventVar-\u003eRadioAction-\u003eIO()",
@@ -6399,6 +6941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "assignColor",
           "package": "hoodle-core",
@@ -6408,6 +6951,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "assignColor",
           "normalized": "EventVar-\u003eRadioAction-\u003eIO()",
@@ -6423,6 +6967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "assignPenMode",
           "package": "hoodle-core",
@@ -6432,6 +6977,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "assignPenMode",
           "normalized": "EventVar-\u003eRadioAction-\u003eIO()",
@@ -6447,6 +6993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "assignPoint",
           "package": "hoodle-core",
@@ -6456,6 +7003,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "assignPoint",
           "normalized": "EventVar-\u003eRadioAction-\u003eIO()",
@@ -6471,6 +7019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "assignViewMode",
           "package": "hoodle-core",
@@ -6480,6 +7029,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "assignViewMode",
           "normalized": "EventVar-\u003eRadioAction-\u003eIO()",
@@ -6495,6 +7045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "bkgstyles",
           "package": "hoodle-core",
@@ -6504,6 +7055,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "bkgstyles",
           "normalized": "[RadioActionEntry]",
@@ -6518,6 +7070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "color2Int",
           "package": "hoodle-core",
@@ -6527,6 +7080,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "color2Int",
           "normalized": "PenColor-\u003eInt",
@@ -6542,6 +7096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "colormods",
           "package": "hoodle-core",
@@ -6551,6 +7106,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "colormods",
           "normalized": "[RadioActionEntry]",
@@ -6565,6 +7121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "getMenuUI",
           "package": "hoodle-core",
@@ -6574,6 +7131,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "getMenuUI",
           "normalized": "EventVar-\u003eIO(UIManager,UIComponentSignalHandler)",
@@ -6590,6 +7148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euiDecl :: String \n uiDecl = [verbatim|\n |]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "iconList",
           "package": "hoodle-core",
@@ -6600,6 +7159,7 @@
         "index": {
           "description": "uiDecl String uiDecl verbatim",
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "iconList",
           "normalized": "[(String,String)]",
@@ -6615,6 +7175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "iconResourceAdd",
           "package": "hoodle-core",
@@ -6624,6 +7185,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "iconResourceAdd",
           "normalized": "IconFactory-\u003eFilePath-\u003e(FilePath,StockId)-\u003eIO()",
@@ -6639,6 +7201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "int2BkgStyle",
           "package": "hoodle-core",
@@ -6648,6 +7211,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "int2BkgStyle",
           "normalized": "Int-\u003eBackgroundStyle",
@@ -6663,6 +7227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "int2Color",
           "package": "hoodle-core",
@@ -6672,6 +7237,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "int2Color",
           "normalized": "Int-\u003ePenColor",
@@ -6687,6 +7253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "int2PenType",
           "package": "hoodle-core",
@@ -6696,6 +7263,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "int2PenType",
           "normalized": "Int-\u003eEither PenType SelectType",
@@ -6711,6 +7279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "int2Point",
           "package": "hoodle-core",
@@ -6720,6 +7289,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "int2Point",
           "normalized": "PenType-\u003eInt-\u003eDouble",
@@ -6735,6 +7305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "justMenu",
           "package": "hoodle-core",
@@ -6744,6 +7315,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "justMenu",
           "normalized": "MenuEvent-\u003eMaybe UserEvent",
@@ -6759,6 +7331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "penType2Int",
           "package": "hoodle-core",
@@ -6768,6 +7341,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "penType2Int",
           "normalized": "Either PenType SelectType-\u003eInt",
@@ -6783,6 +7357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "penmods",
           "package": "hoodle-core",
@@ -6792,6 +7367,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "penmods",
           "normalized": "[RadioActionEntry]",
@@ -6806,6 +7382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "point2Int",
           "package": "hoodle-core",
@@ -6815,6 +7392,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "point2Int",
           "normalized": "PenType-\u003eDouble-\u003eInt",
@@ -6830,6 +7408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "pointmods",
           "package": "hoodle-core",
@@ -6839,6 +7418,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "pointmods",
           "normalized": "[RadioActionEntry]",
@@ -6853,6 +7433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "similarTo",
           "package": "hoodle-core",
@@ -6862,6 +7443,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "similarTo",
           "normalized": "Double-\u003eDouble-\u003eBool",
@@ -6877,6 +7459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Menu",
           "name": "viewmods",
           "package": "hoodle-core",
@@ -6886,6 +7469,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Menu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Menu",
           "name": "viewmods",
           "normalized": "[RadioActionEntry]",
@@ -6900,6 +7484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Reflect",
           "name": "Reflect",
           "package": "hoodle-core",
@@ -6908,6 +7493,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Reflect",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Reflect",
           "name": "Reflect",
           "package": "hoodle-core",
@@ -6921,6 +7507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Reflect",
           "name": "blockWhile",
           "package": "hoodle-core",
@@ -6930,6 +7517,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Reflect",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Reflect",
           "name": "blockWhile",
           "normalized": "Maybe(ConnectId a)-\u003eIO()-\u003eIO()",
@@ -6945,6 +7533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Reflect",
           "name": "reflectPenColorUI",
           "package": "hoodle-core",
@@ -6954,6 +7543,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Reflect",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Reflect",
           "name": "reflectPenColorUI",
           "normalized": "MainCoroutine()",
@@ -6969,6 +7559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Reflect",
           "name": "reflectPenModeUI",
           "package": "hoodle-core",
@@ -6978,6 +7569,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Reflect",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Reflect",
           "name": "reflectPenModeUI",
           "normalized": "MainCoroutine()",
@@ -6993,6 +7585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Reflect",
           "name": "reflectPenWidthUI",
           "package": "hoodle-core",
@@ -7002,6 +7595,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Reflect",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Reflect",
           "name": "reflectPenWidthUI",
           "normalized": "MainCoroutine()",
@@ -7017,6 +7611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Reflect",
           "name": "reflectUIComponent",
           "package": "hoodle-core",
@@ -7026,6 +7621,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI Reflect",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Reflect",
           "name": "reflectUIComponent",
           "normalized": "Simple Lens UIComponentSignalHandler(Maybe(ConnectId RadioAction))-\u003eString-\u003e(HoodleState-\u003eMaybe Int)-\u003eMainCoroutine()",
@@ -7042,6 +7638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereflect view mode UI for current canvas info \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI.Reflect",
           "name": "reflectViewModeUI",
           "package": "hoodle-core",
@@ -7052,6 +7649,7 @@
         "index": {
           "description": "reflect view mode UI for current canvas info",
           "hierarchy": "Hoodle GUI Reflect",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI.Reflect",
           "name": "reflectViewModeUI",
           "normalized": "MainCoroutine()",
@@ -7067,6 +7665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI",
           "name": "GUI",
           "package": "hoodle-core",
@@ -7075,6 +7674,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI",
           "name": "GUI",
           "package": "hoodle-core",
@@ -7088,6 +7688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.GUI",
           "name": "startGUI",
           "package": "hoodle-core",
@@ -7097,6 +7698,7 @@
         },
         "index": {
           "hierarchy": "Hoodle GUI",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.GUI",
           "name": "startGUI",
           "normalized": "Maybe FilePath-\u003eMaybe Hook-\u003eIO()",
@@ -7112,6 +7714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Adjustment",
           "name": "Adjustment",
           "package": "hoodle-core",
@@ -7120,6 +7723,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Adjustment",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Adjustment",
           "name": "Adjustment",
           "package": "hoodle-core",
@@ -7134,6 +7738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadjust values, upper limit and page size according to canvas geometry \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Adjustment",
           "name": "adjustScrollbarWithGeometry",
           "package": "hoodle-core",
@@ -7144,6 +7749,7 @@
         "index": {
           "description": "adjust values upper limit and page size according to canvas geometry",
           "hierarchy": "Hoodle ModelAction Adjustment",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Adjustment",
           "name": "adjustScrollbarWithGeometry",
           "normalized": "CanvasGeometry-\u003e((Adjustment,Maybe(ConnectId Adjustment)),(Adjustment,Maybe(ConnectId Adjustment)))-\u003eIO()",
@@ -7159,6 +7765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Adjustment",
           "name": "setAdjustments",
           "package": "hoodle-core",
@@ -7168,6 +7775,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Adjustment",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Adjustment",
           "name": "setAdjustments",
           "normalized": "((Adjustment,Maybe(ConnectId Adjustment)),(Adjustment,Maybe(ConnectId Adjustment)))-\u003e(Double,Double)-\u003e(Double,Double)-\u003e(Double,Double)-\u003e(Double,Double)-\u003eIO()",
@@ -7184,6 +7792,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClipboard io actions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Clipboard",
           "name": "Clipboard",
           "package": "hoodle-core",
@@ -7193,6 +7802,7 @@
         "index": {
           "description": "Clipboard io actions",
           "hierarchy": "Hoodle ModelAction Clipboard",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Clipboard",
           "name": "Clipboard",
           "package": "hoodle-core",
@@ -7206,6 +7816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Clipboard",
           "name": "callback4Clip",
           "package": "hoodle-core",
@@ -7215,6 +7826,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Clipboard",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Clipboard",
           "name": "callback4Clip",
           "normalized": "(AllEvent-\u003eIO())-\u003eMaybe String-\u003eIO()",
@@ -7230,6 +7842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Clipboard",
           "name": "updateClipboard",
           "package": "hoodle-core",
@@ -7239,6 +7852,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Clipboard",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Clipboard",
           "name": "updateClipboard",
           "normalized": "HoodleState-\u003e[Item]-\u003eIO HoodleState",
@@ -7254,6 +7868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.ContextMenu",
           "name": "ContextMenu",
           "package": "hoodle-core",
@@ -7262,6 +7877,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction ContextMenu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.ContextMenu",
           "name": "ContextMenu",
           "package": "hoodle-core",
@@ -7275,6 +7891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.ContextMenu",
           "name": "makeSVGFromSelection",
           "package": "hoodle-core",
@@ -7284,6 +7901,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction ContextMenu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.ContextMenu",
           "name": "makeSVGFromSelection",
           "normalized": "[RItem]-\u003eBBox-\u003eIO SVG",
@@ -7299,6 +7917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.ContextMenu",
           "name": "menuCreateALink",
           "package": "hoodle-core",
@@ -7308,6 +7927,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction ContextMenu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.ContextMenu",
           "name": "menuCreateALink",
           "normalized": "(AllEvent-\u003eIO())-\u003e[RItem]-\u003eIO(Maybe MenuItem)",
@@ -7323,6 +7943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.ContextMenu",
           "name": "menuOpenALink",
           "package": "hoodle-core",
@@ -7332,6 +7953,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction ContextMenu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.ContextMenu",
           "name": "menuOpenALink",
           "normalized": "UrlPath-\u003eIO MenuItem",
@@ -7347,6 +7969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.ContextMenu",
           "name": "openLinkAction",
           "package": "hoodle-core",
@@ -7356,6 +7979,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction ContextMenu",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.ContextMenu",
           "name": "openLinkAction",
           "normalized": "UrlPath-\u003eIO()",
@@ -7371,6 +7995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Eraser",
           "name": "Eraser",
           "package": "hoodle-core",
@@ -7379,6 +8004,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Eraser",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Eraser",
           "name": "Eraser",
           "package": "hoodle-core",
@@ -7392,6 +8018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Eraser",
           "name": "eraseHitted",
           "package": "hoodle-core",
@@ -7401,6 +8028,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Eraser",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Eraser",
           "name": "eraseHitted",
           "normalized": "AlterList(NotHitted a)(AlterList(NotHitted a)(Hitted a))-\u003eState(Maybe BBox)[a]",
@@ -7416,6 +8044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.File",
           "name": "File",
           "package": "hoodle-core",
@@ -7424,6 +8053,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.File",
           "name": "File",
           "package": "hoodle-core",
@@ -7438,6 +8068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echeck hoodle version and migrate if necessary \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.File",
           "name": "checkVersionAndMigrate",
           "package": "hoodle-core",
@@ -7448,6 +8079,7 @@
         "index": {
           "description": "check hoodle version and migrate if necessary",
           "hierarchy": "Hoodle ModelAction File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.File",
           "name": "checkVersionAndMigrate",
           "normalized": "ByteString-\u003eIO(Either String Hoodle)",
@@ -7463,6 +8095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.File",
           "name": "constructNewHoodleStateFromHoodle",
           "package": "hoodle-core",
@@ -7472,6 +8105,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.File",
           "name": "constructNewHoodleStateFromHoodle",
           "normalized": "Hoodle-\u003eHoodleState-\u003eIO HoodleState",
@@ -7487,6 +8121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.File",
           "name": "createPage",
           "package": "hoodle-core",
@@ -7495,6 +8130,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.File",
           "name": "createPage",
           "normalized": "Bool-\u003eDimension-\u003eByteString-\u003eInt-\u003ePage",
@@ -7510,6 +8146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.File",
           "name": "embedPDFInHoodle",
           "package": "hoodle-core",
@@ -7519,6 +8156,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.File",
           "name": "embedPDFInHoodle",
           "normalized": "RHoodle-\u003eIO RHoodle",
@@ -7534,6 +8172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.File",
           "name": "findAllPDFPages",
           "package": "hoodle-core",
@@ -7543,6 +8182,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.File",
           "name": "findAllPDFPages",
           "normalized": "[(Int,RPage)]-\u003e[Int]",
@@ -7559,6 +8199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis is very temporary, need to be changed.     \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.File",
           "name": "findFirstPDFFile",
           "package": "hoodle-core",
@@ -7569,6 +8210,7 @@
         "index": {
           "description": "this is very temporary need to be changed",
           "hierarchy": "Hoodle ModelAction File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.File",
           "name": "findFirstPDFFile",
           "normalized": "[(Int,RPage)]-\u003eMaybe ByteString",
@@ -7585,6 +8227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget file content from xournal file and update xournal state \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.File",
           "name": "getFileContent",
           "package": "hoodle-core",
@@ -7595,6 +8238,7 @@
         "index": {
           "description": "get file content from xournal file and update xournal state",
           "hierarchy": "Hoodle ModelAction File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.File",
           "name": "getFileContent",
           "normalized": "Maybe FilePath-\u003eHoodleState-\u003eIO HoodleState",
@@ -7610,6 +8254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.File",
           "name": "makeEmbeddedPdfSrcString",
           "package": "hoodle-core",
@@ -7619,6 +8264,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.File",
           "name": "makeEmbeddedPdfSrcString",
           "normalized": "ByteString-\u003eByteString",
@@ -7634,6 +8280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.File",
           "name": "makeNewHoodleWithPDF",
           "package": "hoodle-core",
@@ -7642,6 +8289,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.File",
           "name": "makeNewHoodleWithPDF",
           "normalized": "Bool-\u003eFilePath-\u003eIO(Maybe Hoodle)",
@@ -7657,6 +8305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.File",
           "name": "makeNewItemImage",
           "package": "hoodle-core",
@@ -7665,6 +8314,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.File",
           "name": "makeNewItemImage",
           "normalized": "Bool-\u003eFilePath-\u003eIO Item",
@@ -7680,6 +8330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.File",
           "name": "replacePDFPages",
           "package": "hoodle-core",
@@ -7689,6 +8340,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.File",
           "name": "replacePDFPages",
           "normalized": "[(Int,RPage)]-\u003e[(Int,RPage)]",
@@ -7704,6 +8356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.File",
           "name": "saveHoodle",
           "package": "hoodle-core",
@@ -7713,6 +8366,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.File",
           "name": "saveHoodle",
           "normalized": "HoodleState-\u003eIO HoodleState",
@@ -7729,6 +8383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis function must be moved to GUI.Reflect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.File",
           "name": "toggleSave",
           "package": "hoodle-core",
@@ -7739,6 +8394,7 @@
         "index": {
           "description": "this function must be moved to GUI.Reflect",
           "hierarchy": "Hoodle ModelAction File",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.File",
           "name": "toggleSave",
           "normalized": "UIManager-\u003eBool-\u003eIO()",
@@ -7754,6 +8410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Layer",
           "name": "Layer",
           "package": "hoodle-core",
@@ -7762,6 +8419,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Layer",
           "name": "Layer",
           "package": "hoodle-core",
@@ -7775,6 +8433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Layer",
           "name": "adjustCurrentLayer",
           "package": "hoodle-core",
@@ -7784,6 +8443,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Layer",
           "name": "adjustCurrentLayer",
           "normalized": "RLayer-\u003ePage EditMode-\u003ePage EditMode",
@@ -7799,6 +8459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Layer",
           "name": "getCurrentLayer",
           "package": "hoodle-core",
@@ -7808,6 +8469,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Layer",
           "name": "getCurrentLayer",
           "normalized": "Page EditMode-\u003eRLayer",
@@ -7823,6 +8485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Layer",
           "name": "layerChooseDialog",
           "package": "hoodle-core",
@@ -7832,6 +8495,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Layer",
           "name": "layerChooseDialog",
           "normalized": "IORef Int-\u003eInt-\u003eInt-\u003eIO Dialog",
@@ -7847,6 +8511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Page",
           "name": "Page",
           "package": "hoodle-core",
@@ -7855,6 +8520,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Page",
           "name": "Page",
           "package": "hoodle-core",
@@ -7868,6 +8534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Page",
           "name": "addNewPageInHoodle",
           "package": "hoodle-core",
@@ -7877,6 +8544,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Page",
           "name": "addNewPageInHoodle",
           "normalized": "BackgroundStyle-\u003eAddDirection-\u003eHoodle EditMode-\u003eInt-\u003eHoodle EditMode",
@@ -7892,6 +8560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Page",
           "name": "adjustPage",
           "package": "hoodle-core",
@@ -7901,6 +8570,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Page",
           "name": "adjustPage",
           "normalized": "HoodleModeState-\u003eCanvasInfoBox-\u003eCanvasInfoBox",
@@ -7916,6 +8586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Page",
           "name": "getPageFromGHoodleMap",
           "package": "hoodle-core",
@@ -7925,6 +8596,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Page",
           "name": "getPageFromGHoodleMap",
           "normalized": "Int-\u003eGHoodle IntMap a-\u003ea",
@@ -7940,6 +8612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Page",
           "name": "getPageMap",
           "package": "hoodle-core",
@@ -7949,6 +8622,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Page",
           "name": "getPageMap",
           "normalized": "HoodleModeState-\u003eIntMap(Page EditMode)",
@@ -7964,6 +8638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Page",
           "name": "newSinglePageFromOld",
           "package": "hoodle-core",
@@ -7973,6 +8648,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Page",
           "name": "newSinglePageFromOld",
           "normalized": "Page EditMode-\u003ePage EditMode",
@@ -7989,6 +8665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eneed to be refactored into zoomRatioFrmRelToCurr (rename zoomRatioRelPredefined)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Page",
           "name": "relZoomRatio",
           "package": "hoodle-core",
@@ -7999,6 +8676,7 @@
         "index": {
           "description": "need to be refactored into zoomRatioFrmRelToCurr rename zoomRatioRelPredefined",
           "hierarchy": "Hoodle ModelAction Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Page",
           "name": "relZoomRatio",
           "normalized": "CanvasGeometry-\u003eZoomModeRel-\u003eDouble",
@@ -8014,6 +8692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Page",
           "name": "setPage",
           "package": "hoodle-core",
@@ -8023,6 +8702,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Page",
           "name": "setPage",
           "normalized": "HoodleState-\u003ePageNum-\u003eCanvasId-\u003eIO CanvasInfoBox",
@@ -8039,6 +8719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esetPageCont : in Continuous Page mode   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Page",
           "name": "setPageCont",
           "package": "hoodle-core",
@@ -8049,6 +8730,7 @@
         "index": {
           "description": "setPageCont in Continuous Page mode",
           "hierarchy": "Hoodle ModelAction Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Page",
           "name": "setPageCont",
           "normalized": "HoodleState-\u003ePageNum-\u003eCanvasInfo ContinuousPage-\u003eIO(CanvasInfo ContinuousPage)",
@@ -8064,6 +8746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Page",
           "name": "setPageMap",
           "package": "hoodle-core",
@@ -8073,6 +8756,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Page",
           "name": "setPageMap",
           "normalized": "IntMap(Page EditMode)-\u003eHoodleModeState-\u003eHoodleModeState",
@@ -8089,6 +8773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esetPageSingle : in Single Page mode   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Page",
           "name": "setPageSingle",
           "package": "hoodle-core",
@@ -8099,6 +8784,7 @@
         "index": {
           "description": "setPageSingle in Single Page mode",
           "hierarchy": "Hoodle ModelAction Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Page",
           "name": "setPageSingle",
           "normalized": "HoodleState-\u003ePageNum-\u003eCanvasInfo SinglePage-\u003eIO(CanvasInfo SinglePage)",
@@ -8114,6 +8800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Page",
           "name": "updateCvsInfoFrmHoodle",
           "package": "hoodle-core",
@@ -8123,6 +8810,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Page",
           "name": "updateCvsInfoFrmHoodle",
           "normalized": "Hoodle EditMode-\u003eCanvasInfoBox-\u003eIO CanvasInfoBox",
@@ -8138,6 +8826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Page",
           "name": "updatePage",
           "package": "hoodle-core",
@@ -8147,6 +8836,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Page",
           "name": "updatePage",
           "normalized": "HoodleModeState-\u003eCanvasInfoBox-\u003eIO CanvasInfoBox",
@@ -8162,6 +8852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Page",
           "name": "updatePageAll",
           "package": "hoodle-core",
@@ -8171,6 +8862,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Page",
           "name": "updatePageAll",
           "normalized": "HoodleModeState-\u003eHoodleState-\u003eIO HoodleState",
@@ -8186,6 +8878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Page",
           "name": "zoomRatioFrmRelToCurr",
           "package": "hoodle-core",
@@ -8195,6 +8888,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Page",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Page",
           "name": "zoomRatioFrmRelToCurr",
           "normalized": "CanvasGeometry-\u003eDouble-\u003eDouble",
@@ -8210,6 +8904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Pen",
           "name": "Pen",
           "package": "hoodle-core",
@@ -8218,6 +8913,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Pen",
           "name": "Pen",
           "package": "hoodle-core",
@@ -8231,6 +8927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Pen",
           "name": "TempRender",
           "package": "hoodle-core",
@@ -8239,6 +8936,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Pen",
           "name": "TempRender",
           "package": "hoodle-core",
@@ -8252,6 +8950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Pen",
           "name": "TempRender",
           "package": "hoodle-core",
@@ -8261,6 +8960,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Pen",
           "name": "TempRender",
           "package": "hoodle-core",
@@ -8274,6 +8974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Pen",
           "name": "addPDraw",
           "package": "hoodle-core",
@@ -8282,6 +8983,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Pen",
           "name": "addPDraw",
           "normalized": "PenInfo-\u003eRHoodle-\u003ePageNum-\u003eSeq(Double,Double,Double)-\u003eIO(RHoodle,BBox)",
@@ -8297,6 +8999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Pen",
           "name": "createNewStroke",
           "package": "hoodle-core",
@@ -8306,6 +9009,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Pen",
           "name": "createNewStroke",
           "normalized": "PenInfo-\u003eSeq(Double,Double,Double)-\u003eStroke",
@@ -8321,6 +9025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Pen",
           "name": "tempInfo",
           "package": "hoodle-core",
@@ -8330,6 +9035,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Pen",
           "name": "tempInfo",
           "package": "hoodle-core",
@@ -8343,6 +9049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Pen",
           "name": "tempSurfaceSrc",
           "package": "hoodle-core",
@@ -8352,6 +9059,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Pen",
           "name": "tempSurfaceSrc",
           "package": "hoodle-core",
@@ -8365,6 +9073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Pen",
           "name": "tempSurfaceTgt",
           "package": "hoodle-core",
@@ -8374,6 +9083,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Pen",
           "name": "tempSurfaceTgt",
           "package": "hoodle-core",
@@ -8388,6 +9098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate the content of temp selection. should not be often updated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Pen",
           "name": "updateTempRender",
           "package": "hoodle-core",
@@ -8398,6 +9109,7 @@
         "index": {
           "description": "update the content of temp selection should not be often updated",
           "hierarchy": "Hoodle ModelAction Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Pen",
           "name": "updateTempRender",
           "normalized": "TempRender a-\u003eRender()-\u003eBool-\u003eIO()",
@@ -8413,6 +9125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Pen",
           "name": "widthHeight",
           "package": "hoodle-core",
@@ -8422,6 +9135,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Pen",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Pen",
           "name": "widthHeight",
           "normalized": "(Double,Double)",
@@ -8437,6 +9151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "Transform",
           "package": "hoodle-core",
@@ -8445,6 +9160,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select Transform",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "Transform",
           "package": "hoodle-core",
@@ -8458,6 +9174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "changeImageBy",
           "package": "hoodle-core",
@@ -8467,6 +9184,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select Transform",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "changeImageBy",
           "normalized": "((Double,Double)-\u003e(Double,Double))-\u003eBBoxed Image-\u003eBBoxed Image",
@@ -8482,6 +9200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "changeItemBy",
           "package": "hoodle-core",
@@ -8491,6 +9210,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select Transform",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "changeItemBy",
           "normalized": "((Double,Double)-\u003e(Double,Double))-\u003eRItem-\u003eRItem",
@@ -8506,6 +9226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "changeLinkBy",
           "package": "hoodle-core",
@@ -8515,6 +9236,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select Transform",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "changeLinkBy",
           "normalized": "((Double,Double)-\u003e(Double,Double))-\u003eBBoxed Link-\u003eBBoxed Link",
@@ -8530,6 +9252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "changeSVGBy",
           "package": "hoodle-core",
@@ -8539,6 +9262,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select Transform",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "changeSVGBy",
           "normalized": "((Double,Double)-\u003e(Double,Double))-\u003eBBoxed SVG-\u003eBBoxed SVG",
@@ -8555,6 +9279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emodify the whole selection using a function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "changeSelectionBy",
           "package": "hoodle-core",
@@ -8565,6 +9290,7 @@
         "index": {
           "description": "modify the whole selection using function",
           "hierarchy": "Hoodle ModelAction Select Transform",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "changeSelectionBy",
           "normalized": "((Double,Double)-\u003e(Double,Double))-\u003ePage SelectMode-\u003ePage SelectMode",
@@ -8581,6 +9307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003especial case of offset modification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "changeSelectionByOffset",
           "package": "hoodle-core",
@@ -8591,6 +9318,7 @@
         "index": {
           "description": "special case of offset modification",
           "hierarchy": "Hoodle ModelAction Select Transform",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "changeSelectionByOffset",
           "normalized": "(Double,Double)-\u003ePage SelectMode-\u003ePage SelectMode",
@@ -8607,6 +9335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emodify stroke using a function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "changeStrokeBy",
           "package": "hoodle-core",
@@ -8617,6 +9346,7 @@
         "index": {
           "description": "modify stroke using function",
           "hierarchy": "Hoodle ModelAction Select Transform",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "changeStrokeBy",
           "normalized": "((Double,Double)-\u003e(Double,Double))-\u003eBBoxed Stroke-\u003eBBoxed Stroke",
@@ -8632,6 +9362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "offsetFunc",
           "package": "hoodle-core",
@@ -8641,6 +9372,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select Transform",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "offsetFunc",
           "normalized": "(Double,Double)-\u003e(Double,Double)-\u003e(Double,Double)",
@@ -8656,6 +9388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "rItmsInActiveLyr",
           "package": "hoodle-core",
@@ -8665,6 +9398,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select Transform",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "rItmsInActiveLyr",
           "normalized": "Page SelectMode-\u003eEither[RItem](TAlterHitted RItem)",
@@ -8681,6 +9415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereplace selection with one item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "replaceSelection",
           "package": "hoodle-core",
@@ -8691,6 +9426,7 @@
         "index": {
           "description": "replace selection with one item",
           "hierarchy": "Hoodle ModelAction Select Transform",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select.Transform",
           "name": "replaceSelection",
           "normalized": "RItem-\u003ePage SelectMode-\u003ePage SelectMode",
@@ -8706,6 +9442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "Select",
           "package": "hoodle-core",
@@ -8714,6 +9451,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "Select",
           "package": "hoodle-core",
@@ -8727,6 +9465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "CmpBBox",
           "package": "hoodle-core",
@@ -8735,6 +9474,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "CmpBBox",
           "package": "hoodle-core",
@@ -8748,6 +9488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "Handle",
           "package": "hoodle-core",
@@ -8756,6 +9497,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "Handle",
           "package": "hoodle-core",
@@ -8769,6 +9511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "ItmsNImg",
           "package": "hoodle-core",
@@ -8777,6 +9520,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "ItmsNImg",
           "package": "hoodle-core",
@@ -8790,6 +9534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "TempSelection",
           "package": "hoodle-core",
@@ -8798,6 +9543,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "TempSelection",
           "package": "hoodle-core",
@@ -8811,6 +9557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "CmpBBox",
           "package": "hoodle-core",
@@ -8820,6 +9567,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "CmpBBox",
           "package": "hoodle-core",
@@ -8833,6 +9581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "HandleBL",
           "package": "hoodle-core",
@@ -8842,6 +9591,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "HandleBL",
           "package": "hoodle-core",
@@ -8855,6 +9605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "HandleBM",
           "package": "hoodle-core",
@@ -8864,6 +9615,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "HandleBM",
           "package": "hoodle-core",
@@ -8877,6 +9629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "HandleBR",
           "package": "hoodle-core",
@@ -8886,6 +9639,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "HandleBR",
           "package": "hoodle-core",
@@ -8899,6 +9653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "HandleML",
           "package": "hoodle-core",
@@ -8908,6 +9663,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "HandleML",
           "package": "hoodle-core",
@@ -8921,6 +9677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "HandleMR",
           "package": "hoodle-core",
@@ -8930,6 +9687,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "HandleMR",
           "package": "hoodle-core",
@@ -8943,6 +9701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "HandleTL",
           "package": "hoodle-core",
@@ -8952,6 +9711,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "HandleTL",
           "package": "hoodle-core",
@@ -8965,6 +9725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "HandleTM",
           "package": "hoodle-core",
@@ -8974,6 +9735,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "HandleTM",
           "package": "hoodle-core",
@@ -8987,6 +9749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "HandleTR",
           "package": "hoodle-core",
@@ -8996,6 +9759,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "HandleTR",
           "package": "hoodle-core",
@@ -9009,6 +9773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "ItmsNImg",
           "package": "hoodle-core",
@@ -9018,6 +9783,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "ItmsNImg",
           "package": "hoodle-core",
@@ -9031,6 +9797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "adjustItemPosition4Paste",
           "package": "hoodle-core",
@@ -9040,6 +9807,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "adjustItemPosition4Paste",
           "normalized": "CanvasGeometry-\u003ePageNum-\u003e[RItem]-\u003e[RItem]",
@@ -9055,6 +9823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "angleBAC",
           "package": "hoodle-core",
@@ -9064,6 +9833,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "angleBAC",
           "normalized": "(Double,Double)-\u003e(Double,Double)-\u003e(Double,Double)-\u003eDouble",
@@ -9079,6 +9849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "calculateWholeBBox",
           "package": "hoodle-core",
@@ -9088,6 +9859,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "calculateWholeBBox",
           "normalized": "[BBoxed Stroke]-\u003eMaybe BBox",
@@ -9103,6 +9875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "changeItemStrokeColor",
           "package": "hoodle-core",
@@ -9112,6 +9885,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "changeItemStrokeColor",
           "normalized": "PenColor-\u003eRItem-\u003eRItem",
@@ -9127,6 +9901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "changeItemStrokeWidth",
           "package": "hoodle-core",
@@ -9136,6 +9911,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "changeItemStrokeWidth",
           "normalized": "Double-\u003eRItem-\u003eRItem",
@@ -9151,6 +9927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "changeStrokeColor",
           "package": "hoodle-core",
@@ -9160,6 +9937,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "changeStrokeColor",
           "normalized": "PenColor-\u003eBBoxed Stroke-\u003eBBoxed Stroke",
@@ -9175,6 +9953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "changeStrokeWidth",
           "package": "hoodle-core",
@@ -9184,6 +9963,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "changeStrokeWidth",
           "normalized": "Double-\u003eBBoxed Stroke-\u003eBBoxed Stroke",
@@ -9199,6 +9979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "checkIfHandleGrasped",
           "package": "hoodle-core",
@@ -9208,6 +9989,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "checkIfHandleGrasped",
           "normalized": "BBox-\u003e(Double,Double)-\u003eMaybe Handle",
@@ -9224,6 +10006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget unselected part of page and make an ordinary page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "deleteSelected",
           "package": "hoodle-core",
@@ -9234,6 +10017,7 @@
         "index": {
           "description": "get unselected part of page and make an ordinary page",
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "deleteSelected",
           "normalized": "Page SelectMode-\u003ePage SelectMode",
@@ -9249,6 +10033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "drawTempSelectImage",
           "package": "hoodle-core",
@@ -9257,6 +10042,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "drawTempSelectImage",
           "normalized": "CanvasGeometry-\u003eTempRender ItmsNImg-\u003eMatrix-\u003eRender()",
@@ -9272,6 +10058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "getDiffBBox",
           "package": "hoodle-core",
@@ -9281,6 +10068,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "getDiffBBox",
           "normalized": "[a]-\u003e[a]-\u003e[Diff a]",
@@ -9296,6 +10084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "getNewBBoxFromHandlePos",
           "package": "hoodle-core",
@@ -9305,6 +10094,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "getNewBBoxFromHandlePos",
           "normalized": "Handle-\u003eBBox-\u003e(Double,Double)-\u003eBBox",
@@ -9320,6 +10110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "getNewCoordTime",
           "package": "hoodle-core",
@@ -9329,6 +10120,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "getNewCoordTime",
           "normalized": "((Double,Double),UTCTime)-\u003e(Double,Double)-\u003eIO(Bool,((Double,Double),UTCTime))",
@@ -9344,6 +10136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "getSelectedItms",
           "package": "hoodle-core",
@@ -9353,6 +10146,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "getSelectedItms",
           "normalized": "Page SelectMode-\u003e[RItem]",
@@ -9368,6 +10162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "getSelectedItmsFromHoodleState",
           "package": "hoodle-core",
@@ -9377,6 +10172,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "getSelectedItmsFromHoodleState",
           "normalized": "HoodleState-\u003eMaybe[RItem]",
@@ -9392,6 +10188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "getULBBoxFromSelected",
           "package": "hoodle-core",
@@ -9401,6 +10198,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "getULBBoxFromSelected",
           "normalized": "Page SelectMode-\u003eULMaybe BBox",
@@ -9416,6 +10214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "hitInHandle",
           "package": "hoodle-core",
@@ -9425,6 +10224,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "hitInHandle",
           "normalized": "Page SelectMode-\u003e(Double,Double)-\u003eBool",
@@ -9440,6 +10240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "hitInSelection",
           "package": "hoodle-core",
@@ -9449,6 +10250,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "hitInSelection",
           "normalized": "Page SelectMode-\u003e(Double,Double)-\u003eBool",
@@ -9464,6 +10266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "hitLassoItem",
           "package": "hoodle-core",
@@ -9473,6 +10276,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "hitLassoItem",
           "normalized": "Seq(Double,Double)-\u003eRItem-\u003eBool",
@@ -9488,6 +10292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "hitLassoPoint",
           "package": "hoodle-core",
@@ -9497,6 +10302,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "hitLassoPoint",
           "normalized": "Seq(Double,Double)-\u003e(Double,Double)-\u003eBool",
@@ -9512,6 +10318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "hitLassoStroke",
           "package": "hoodle-core",
@@ -9521,6 +10328,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "hitLassoStroke",
           "normalized": "Seq(Double,Double)-\u003eBBoxed Stroke-\u003eBool",
@@ -9536,6 +10344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "imageSurface",
           "package": "hoodle-core",
@@ -9545,6 +10354,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "imageSurface",
           "package": "hoodle-core",
@@ -9558,6 +10368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "isBBoxDeltaSmallerThan",
           "package": "hoodle-core",
@@ -9567,6 +10378,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "isBBoxDeltaSmallerThan",
           "normalized": "Double-\u003ePageNum-\u003eCanvasGeometry-\u003eBBox-\u003eBBox-\u003eBool",
@@ -9582,6 +10394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "isSame",
           "package": "hoodle-core",
@@ -9591,6 +10404,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "isSame",
           "normalized": "Diff a-\u003eBool",
@@ -9606,6 +10420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "itmNimg_itms",
           "package": "hoodle-core",
@@ -9615,6 +10430,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "itmNimg_itms",
           "normalized": "[RItem]",
@@ -9630,6 +10446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "itmNimg_mbbx",
           "package": "hoodle-core",
@@ -9639,6 +10456,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "itmNimg_mbbx",
           "package": "hoodle-core",
@@ -9653,6 +10471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estart a select mode with alter list selection \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "makePageSelectMode",
           "package": "hoodle-core",
@@ -9662,6 +10481,7 @@
         "index": {
           "description": "start select mode with alter list selection",
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "makePageSelectMode",
           "normalized": "Page EditMode-\u003eTAlterHitted RItem-\u003ePage SelectMode",
@@ -9677,6 +10497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "mappingDegree",
           "package": "hoodle-core",
@@ -9686,6 +10507,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "mappingDegree",
           "normalized": "Seq(Double,Double)-\u003e(Double,Double)-\u003eInt",
@@ -9701,6 +10523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "mkItmsNImg",
           "package": "hoodle-core",
@@ -9710,6 +10533,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "mkItmsNImg",
           "normalized": "CanvasGeometry-\u003ePage SelectMode-\u003eIO ItmsNImg",
@@ -9725,6 +10549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "scaleFromToBBox",
           "package": "hoodle-core",
@@ -9734,6 +10559,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "scaleFromToBBox",
           "normalized": "BBox-\u003eBBox-\u003e(Double,Double)-\u003e(Double,Double)",
@@ -9749,6 +10575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "separateFS",
           "package": "hoodle-core",
@@ -9758,6 +10585,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "separateFS",
           "normalized": "[Diff a]-\u003e([a],[a])",
@@ -9773,6 +10601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "toggleCutCopyDelete",
           "package": "hoodle-core",
@@ -9782,6 +10611,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "toggleCutCopyDelete",
           "normalized": "UIManager-\u003eBool-\u003eIO()",
@@ -9797,6 +10627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "togglePaste",
           "package": "hoodle-core",
@@ -9806,6 +10637,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "togglePaste",
           "normalized": "UIManager-\u003eBool-\u003eIO()",
@@ -9821,6 +10653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "unCmpBBox",
           "package": "hoodle-core",
@@ -9830,6 +10663,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "unCmpBBox",
           "package": "hoodle-core",
@@ -9843,6 +10677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "updateTempHoodleSelect",
           "package": "hoodle-core",
@@ -9852,6 +10687,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "updateTempHoodleSelect",
           "normalized": "Hoodle SelectMode-\u003ePage SelectMode-\u003eInt-\u003eHoodle SelectMode",
@@ -9867,6 +10703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "updateTempHoodleSelectIO",
           "package": "hoodle-core",
@@ -9876,6 +10713,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "updateTempHoodleSelectIO",
           "normalized": "Hoodle SelectMode-\u003ePage SelectMode-\u003eInt-\u003eIO(Hoodle SelectMode)",
@@ -9891,6 +10729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Select",
           "name": "wrappingAngle",
           "package": "hoodle-core",
@@ -9900,6 +10739,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Select",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Select",
           "name": "wrappingAngle",
           "normalized": "Seq(Double,Double)-\u003e(Double,Double)-\u003eDouble",
@@ -9915,6 +10755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Window",
           "name": "Window",
           "package": "hoodle-core",
@@ -9923,6 +10764,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Window",
           "name": "Window",
           "package": "hoodle-core",
@@ -9937,6 +10779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eonly connect events \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Window",
           "name": "connectDefaultEventCanvasInfo",
           "package": "hoodle-core",
@@ -9947,6 +10790,7 @@
         "index": {
           "description": "only connect events",
           "hierarchy": "Hoodle ModelAction Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Window",
           "name": "connectDefaultEventCanvasInfo",
           "normalized": "HoodleState-\u003eCanvasInfo a-\u003eIO(CanvasInfo a)",
@@ -9963,6 +10807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault construct frame     \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Window",
           "name": "constructFrame",
           "package": "hoodle-core",
@@ -9973,6 +10818,7 @@
         "index": {
           "description": "default construct frame",
           "hierarchy": "Hoodle ModelAction Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Window",
           "name": "constructFrame",
           "normalized": "HoodleState-\u003eWindowConfig-\u003eIO(HoodleState,Widget,WindowConfig)",
@@ -9989,6 +10835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct frames with template\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Window",
           "name": "constructFrame'",
           "package": "hoodle-core",
@@ -9999,6 +10846,7 @@
         "index": {
           "description": "construct frames with template",
           "hierarchy": "Hoodle ModelAction Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Window",
           "name": "constructFrame'",
           "normalized": "CanvasInfoBox-\u003eHoodleState-\u003eWindowConfig-\u003eIO(HoodleState,Widget,WindowConfig)",
@@ -10015,6 +10863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevent connecting for all windows                          \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Window",
           "name": "eventConnect",
           "package": "hoodle-core",
@@ -10025,6 +10874,7 @@
         "index": {
           "description": "event connecting for all windows",
           "hierarchy": "Hoodle ModelAction Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Window",
           "name": "eventConnect",
           "normalized": "HoodleState-\u003eWindowConfig-\u003eIO(HoodleState,WindowConfig)",
@@ -10040,6 +10890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Window",
           "name": "getDBUSEvent",
           "package": "hoodle-core",
@@ -10049,6 +10900,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Window",
           "name": "getDBUSEvent",
           "normalized": "(AllEvent-\u003eIO())-\u003eTVar Bool-\u003eIO()",
@@ -10065,6 +10917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einitialize CanvasInfo with creating windows and connect events\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Window",
           "name": "initCanvasInfo",
           "package": "hoodle-core",
@@ -10075,6 +10928,7 @@
         "index": {
           "description": "initialize CanvasInfo with creating windows and connect events",
           "hierarchy": "Hoodle ModelAction Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Window",
           "name": "initCanvasInfo",
           "normalized": "HoodleState-\u003eCanvasId-\u003eIO(CanvasInfo a)",
@@ -10091,6 +10945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eonly creating windows \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Window",
           "name": "minimalCanvasInfo",
           "package": "hoodle-core",
@@ -10101,6 +10956,7 @@
         "index": {
           "description": "only creating windows",
           "hierarchy": "Hoodle ModelAction Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Window",
           "name": "minimalCanvasInfo",
           "normalized": "HoodleState-\u003eCanvasId-\u003eIO(CanvasInfo a)",
@@ -10116,6 +10972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Window",
           "name": "newCanvasId",
           "package": "hoodle-core",
@@ -10125,6 +10982,7 @@
         },
         "index": {
           "hierarchy": "Hoodle ModelAction Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Window",
           "name": "newCanvasId",
           "normalized": "CanvasInfoMap-\u003eCanvasId",
@@ -10141,6 +10999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecreate windows from old canvas info but no event connect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Window",
           "name": "reinitCanvasInfoStage1",
           "package": "hoodle-core",
@@ -10151,6 +11010,7 @@
         "index": {
           "description": "recreate windows from old canvas info but no event connect",
           "hierarchy": "Hoodle ModelAction Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Window",
           "name": "reinitCanvasInfoStage1",
           "normalized": "HoodleState-\u003eCanvasInfo a-\u003eIO(CanvasInfo a)",
@@ -10167,6 +11027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevent connect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Window",
           "name": "reinitCanvasInfoStage2",
           "package": "hoodle-core",
@@ -10177,6 +11038,7 @@
         "index": {
           "description": "event connect",
           "hierarchy": "Hoodle ModelAction Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Window",
           "name": "reinitCanvasInfoStage2",
           "normalized": "HoodleState-\u003eCanvasInfo a-\u003eIO(CanvasInfo a)",
@@ -10193,6 +11055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset frame title according to file name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.ModelAction.Window",
           "name": "setTitleFromFileName",
           "package": "hoodle-core",
@@ -10203,6 +11066,7 @@
         "index": {
           "description": "set frame title according to file name",
           "hierarchy": "Hoodle ModelAction Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.ModelAction.Window",
           "name": "setTitleFromFileName",
           "normalized": "HoodleState-\u003eIO()",
@@ -10218,6 +11082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Coroutine",
           "name": "Coroutine",
           "package": "hoodle-core",
@@ -10226,6 +11091,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Coroutine",
           "name": "Coroutine",
           "package": "hoodle-core",
@@ -10239,6 +11105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Coroutine",
           "name": "afterSaveHook",
           "package": "hoodle-core",
@@ -10248,6 +11115,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Coroutine",
           "name": "afterSaveHook",
           "normalized": "FilePath-\u003eHoodle-\u003eMainCoroutine()",
@@ -10264,6 +11132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etemporary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Coroutine",
           "name": "embedPredefinedImage2Hook",
           "package": "hoodle-core",
@@ -10274,6 +11143,7 @@
         "index": {
           "description": "temporary",
           "hierarchy": "Hoodle Script Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Coroutine",
           "name": "embedPredefinedImage2Hook",
           "package": "hoodle-core",
@@ -10288,6 +11158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etemporary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Coroutine",
           "name": "embedPredefinedImage3Hook",
           "package": "hoodle-core",
@@ -10298,6 +11169,7 @@
         "index": {
           "description": "temporary",
           "hierarchy": "Hoodle Script Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Coroutine",
           "name": "embedPredefinedImage3Hook",
           "package": "hoodle-core",
@@ -10311,6 +11183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Coroutine",
           "name": "embedPredefinedImageHook",
           "package": "hoodle-core",
@@ -10320,6 +11193,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Coroutine",
           "name": "embedPredefinedImageHook",
           "package": "hoodle-core",
@@ -10333,6 +11207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Coroutine",
           "name": "hoist",
           "package": "hoodle-core",
@@ -10342,6 +11217,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Coroutine",
           "name": "hoist",
           "normalized": "Maybe a-\u003eMaybeT b a",
@@ -10356,6 +11232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Coroutine",
           "name": "recentFolderHook",
           "package": "hoodle-core",
@@ -10365,6 +11242,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Coroutine",
           "name": "recentFolderHook",
           "package": "hoodle-core",
@@ -10378,6 +11256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Coroutine",
           "name": "saveAsHook",
           "package": "hoodle-core",
@@ -10387,6 +11266,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Coroutine",
           "name": "saveAsHook",
           "normalized": "FilePath-\u003eHoodle-\u003eMainCoroutine()",
@@ -10402,6 +11282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "Hook",
           "package": "hoodle-core",
@@ -10410,6 +11291,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "Hook",
           "package": "hoodle-core",
@@ -10423,6 +11305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "Hook",
           "package": "hoodle-core",
@@ -10431,6 +11314,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "Hook",
           "package": "hoodle-core",
@@ -10444,6 +11328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "Hook",
           "package": "hoodle-core",
@@ -10453,6 +11338,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "Hook",
           "package": "hoodle-core",
@@ -10466,6 +11352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "afterOpenHook",
           "package": "hoodle-core",
@@ -10475,6 +11362,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "afterOpenHook",
           "normalized": "Maybe(FilePath-\u003eHoodle-\u003eIO())",
@@ -10490,6 +11378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "afterSaveHook",
           "package": "hoodle-core",
@@ -10499,6 +11388,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "afterSaveHook",
           "normalized": "Maybe(FilePath-\u003eHoodle-\u003eIO())",
@@ -10514,6 +11404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "afterUpdateClipboardHook",
           "package": "hoodle-core",
@@ -10523,6 +11414,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "afterUpdateClipboardHook",
           "normalized": "Maybe([Item]-\u003eIO())",
@@ -10538,6 +11430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "customAutosavePage",
           "package": "hoodle-core",
@@ -10547,6 +11440,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "customAutosavePage",
           "normalized": "Maybe(RPage-\u003eIO())",
@@ -10562,6 +11456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "customContextMenuHook",
           "package": "hoodle-core",
@@ -10571,6 +11466,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "customContextMenuHook",
           "normalized": "Maybe([Item]-\u003eIO())",
@@ -10586,6 +11482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "customContextMenuTitle",
           "package": "hoodle-core",
@@ -10595,6 +11492,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "customContextMenuTitle",
           "package": "hoodle-core",
@@ -10608,6 +11506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "defaultHook",
           "package": "hoodle-core",
@@ -10617,6 +11516,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "defaultHook",
           "package": "hoodle-core",
@@ -10630,6 +11530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "embedPredefinedImage2Hook",
           "package": "hoodle-core",
@@ -10639,6 +11540,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "embedPredefinedImage2Hook",
           "package": "hoodle-core",
@@ -10652,6 +11554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "embedPredefinedImage3Hook",
           "package": "hoodle-core",
@@ -10661,6 +11564,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "embedPredefinedImage3Hook",
           "package": "hoodle-core",
@@ -10674,6 +11578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "embedPredefinedImageHook",
           "package": "hoodle-core",
@@ -10683,6 +11588,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "embedPredefinedImageHook",
           "package": "hoodle-core",
@@ -10696,6 +11602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "fileNameSuggestionHook",
           "package": "hoodle-core",
@@ -10705,6 +11612,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "fileNameSuggestionHook",
           "package": "hoodle-core",
@@ -10718,6 +11626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "getIPaddress",
           "package": "hoodle-core",
@@ -10727,6 +11636,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "getIPaddress",
           "package": "hoodle-core",
@@ -10740,6 +11650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "lookupPathFromId",
           "package": "hoodle-core",
@@ -10749,6 +11660,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "lookupPathFromId",
           "normalized": "Maybe(String-\u003eIO(Maybe FilePath))",
@@ -10764,6 +11676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "recentFolderHook",
           "package": "hoodle-core",
@@ -10773,6 +11686,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "recentFolderHook",
           "package": "hoodle-core",
@@ -10786,6 +11700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "saveAsHook",
           "package": "hoodle-core",
@@ -10795,6 +11710,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "saveAsHook",
           "normalized": "Maybe(Hoodle-\u003eIO())",
@@ -10810,6 +11726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "shrinkCmd4EmbedImage",
           "package": "hoodle-core",
@@ -10819,6 +11736,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "shrinkCmd4EmbedImage",
           "normalized": "Maybe(Double-\u003eFilePath-\u003eFilePath-\u003eIO())",
@@ -10834,6 +11752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script.Hook",
           "name": "warningEmbedImageSize",
           "package": "hoodle-core",
@@ -10843,6 +11762,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script Hook",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script.Hook",
           "name": "warningEmbedImageSize",
           "package": "hoodle-core",
@@ -10856,6 +11776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script",
           "name": "Script",
           "package": "hoodle-core",
@@ -10864,6 +11785,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script",
           "name": "Script",
           "package": "hoodle-core",
@@ -10877,6 +11799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script",
           "name": "ScriptConfig",
           "package": "hoodle-core",
@@ -10885,6 +11808,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script",
           "name": "ScriptConfig",
           "package": "hoodle-core",
@@ -10898,6 +11822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script",
           "name": "ScriptConfig",
           "package": "hoodle-core",
@@ -10907,6 +11832,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script",
           "name": "ScriptConfig",
           "package": "hoodle-core",
@@ -10920,6 +11846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script",
           "name": "defaultScriptConfig",
           "package": "hoodle-core",
@@ -10929,6 +11856,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script",
           "name": "defaultScriptConfig",
           "package": "hoodle-core",
@@ -10942,6 +11870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script",
           "name": "errorMsg",
           "package": "hoodle-core",
@@ -10951,6 +11880,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script",
           "name": "errorMsg",
           "package": "hoodle-core",
@@ -10964,6 +11894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script",
           "name": "hook",
           "package": "hoodle-core",
@@ -10973,6 +11904,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script",
           "name": "hook",
           "package": "hoodle-core",
@@ -10985,6 +11917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script",
           "name": "message",
           "package": "hoodle-core",
@@ -10994,6 +11927,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script",
           "name": "message",
           "package": "hoodle-core",
@@ -11006,6 +11940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script",
           "name": "relaunchApplication",
           "package": "hoodle-core",
@@ -11015,6 +11950,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script",
           "name": "relaunchApplication",
           "normalized": "IO()",
@@ -11030,6 +11966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Script",
           "name": "showError",
           "package": "hoodle-core",
@@ -11039,6 +11976,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Script",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Script",
           "name": "showError",
           "normalized": "ScriptConfig-\u003eString-\u003eScriptConfig",
@@ -11054,6 +11992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Alias",
           "name": "Alias",
           "package": "hoodle-core",
@@ -11062,6 +12001,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Alias",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Alias",
           "name": "Alias",
           "package": "hoodle-core",
@@ -11075,6 +12015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Alias",
           "name": "EditMode",
           "package": "hoodle-core",
@@ -11083,6 +12024,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Alias",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Alias",
           "name": "EditMode",
           "package": "hoodle-core",
@@ -11096,6 +12038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Alias",
           "name": "Hoodle",
           "package": "hoodle-core",
@@ -11104,6 +12047,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Alias",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Alias",
           "name": "Hoodle",
           "package": "hoodle-core",
@@ -11117,6 +12061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Alias",
           "name": "Layer",
           "package": "hoodle-core",
@@ -11125,6 +12070,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Alias",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Alias",
           "name": "Layer",
           "package": "hoodle-core",
@@ -11138,6 +12084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Alias",
           "name": "Page",
           "package": "hoodle-core",
@@ -11146,6 +12093,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Alias",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Alias",
           "name": "Page",
           "package": "hoodle-core",
@@ -11159,6 +12107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Alias",
           "name": "SelectMode",
           "package": "hoodle-core",
@@ -11167,6 +12116,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Alias",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Alias",
           "name": "SelectMode",
           "package": "hoodle-core",
@@ -11180,6 +12130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Alias",
           "name": "EditMode",
           "package": "hoodle-core",
@@ -11189,6 +12140,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Alias",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Alias",
           "name": "EditMode",
           "package": "hoodle-core",
@@ -11202,6 +12154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Alias",
           "name": "SelectMode",
           "package": "hoodle-core",
@@ -11211,6 +12164,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Alias",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Alias",
           "name": "SelectMode",
           "package": "hoodle-core",
@@ -11224,6 +12178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "Canvas",
           "package": "hoodle-core",
@@ -11232,6 +12187,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "Canvas",
           "package": "hoodle-core",
@@ -11245,6 +12201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "CanvasId",
           "package": "hoodle-core",
@@ -11253,6 +12210,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "CanvasId",
           "package": "hoodle-core",
@@ -11266,6 +12224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "CanvasInfo",
           "package": "hoodle-core",
@@ -11274,6 +12233,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "CanvasInfo",
           "package": "hoodle-core",
@@ -11287,6 +12247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "CanvasInfoBox",
           "package": "hoodle-core",
@@ -11295,6 +12256,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "CanvasInfoBox",
           "package": "hoodle-core",
@@ -11308,6 +12270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "CanvasInfoMap",
           "package": "hoodle-core",
@@ -11316,6 +12279,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "CanvasInfoMap",
           "package": "hoodle-core",
@@ -11329,6 +12293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "PenDraw",
           "package": "hoodle-core",
@@ -11337,6 +12302,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "PenDraw",
           "package": "hoodle-core",
@@ -11350,6 +12316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "PenHighlighterEraserSet",
           "package": "hoodle-core",
@@ -11358,6 +12325,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "PenHighlighterEraserSet",
           "package": "hoodle-core",
@@ -11371,6 +12339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "PenInfo",
           "package": "hoodle-core",
@@ -11379,6 +12348,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "PenInfo",
           "package": "hoodle-core",
@@ -11392,6 +12362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "ViewInfo",
           "package": "hoodle-core",
@@ -11400,6 +12371,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "ViewInfo",
           "package": "hoodle-core",
@@ -11413,6 +12385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "WidthColorStyle",
           "package": "hoodle-core",
@@ -11421,6 +12394,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "WidthColorStyle",
           "package": "hoodle-core",
@@ -11434,6 +12408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "CanvasContPage",
           "package": "hoodle-core",
@@ -11443,6 +12418,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "CanvasContPage",
           "normalized": "CanvasInfo ContinuousPage-\u003eCanvasInfoBox",
@@ -11458,6 +12434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "CanvasInfo",
           "package": "hoodle-core",
@@ -11467,6 +12444,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "CanvasInfo",
           "package": "hoodle-core",
@@ -11480,6 +12458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "CanvasSinglePage",
           "package": "hoodle-core",
@@ -11489,6 +12468,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "CanvasSinglePage",
           "normalized": "CanvasInfo SinglePage-\u003eCanvasInfoBox",
@@ -11504,6 +12484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "PenDraw",
           "package": "hoodle-core",
@@ -11513,6 +12494,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "PenDraw",
           "package": "hoodle-core",
@@ -11526,6 +12508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "ViewInfo",
           "package": "hoodle-core",
@@ -11535,6 +12518,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "ViewInfo",
           "package": "hoodle-core",
@@ -11548,6 +12532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "_canvasId",
           "package": "hoodle-core",
@@ -11557,6 +12542,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "_canvasId",
           "package": "hoodle-core",
@@ -11570,6 +12556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "_canvasWidgets",
           "package": "hoodle-core",
@@ -11579,6 +12566,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "_canvasWidgets",
           "package": "hoodle-core",
@@ -11592,6 +12580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "_currentPageNum",
           "package": "hoodle-core",
@@ -11601,6 +12590,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "_currentPageNum",
           "package": "hoodle-core",
@@ -11614,6 +12604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "_drawArea",
           "package": "hoodle-core",
@@ -11623,6 +12614,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "_drawArea",
           "package": "hoodle-core",
@@ -11636,6 +12628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "_horizAdjConnId",
           "package": "hoodle-core",
@@ -11645,6 +12638,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "_horizAdjConnId",
           "package": "hoodle-core",
@@ -11658,6 +12652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "_horizAdjustment",
           "package": "hoodle-core",
@@ -11667,6 +12662,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "_horizAdjustment",
           "package": "hoodle-core",
@@ -11680,6 +12676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "_mDrawSurface",
           "package": "hoodle-core",
@@ -11689,6 +12686,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "_mDrawSurface",
           "package": "hoodle-core",
@@ -11702,6 +12700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "_notifiedItem",
           "package": "hoodle-core",
@@ -11711,6 +12710,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "_notifiedItem",
           "normalized": "Maybe(PageNum,BBox,RItem)",
@@ -11726,6 +12726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "_pageArrangement",
           "package": "hoodle-core",
@@ -11735,6 +12736,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "_pageArrangement",
           "package": "hoodle-core",
@@ -11748,6 +12750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "_points",
           "package": "hoodle-core",
@@ -11757,6 +12760,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "_points",
           "normalized": "Seq(Double,Double)",
@@ -11771,6 +12775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "_scrolledWindow",
           "package": "hoodle-core",
@@ -11780,6 +12785,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "_scrolledWindow",
           "package": "hoodle-core",
@@ -11793,6 +12799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "_vertAdjConnId",
           "package": "hoodle-core",
@@ -11802,6 +12809,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "_vertAdjConnId",
           "package": "hoodle-core",
@@ -11815,6 +12823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "_vertAdjustment",
           "package": "hoodle-core",
@@ -11824,6 +12833,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "_vertAdjustment",
           "package": "hoodle-core",
@@ -11837,6 +12847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "_viewInfo",
           "package": "hoodle-core",
@@ -11846,6 +12857,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "_viewInfo",
           "package": "hoodle-core",
@@ -11859,6 +12871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "_zoomMode",
           "package": "hoodle-core",
@@ -11868,6 +12881,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "_zoomMode",
           "package": "hoodle-core",
@@ -11882,6 +12896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecomposition lens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "adjustments",
           "package": "hoodle-core",
@@ -11892,6 +12907,7 @@
         "index": {
           "description": "composition lens",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "adjustments",
           "normalized": "Simple Lens(CanvasInfo a)(Adjustment,Adjustment)",
@@ -11906,6 +12922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "canvasId",
           "package": "hoodle-core",
@@ -11915,6 +12932,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "canvasId",
           "package": "hoodle-core",
@@ -11929,6 +12947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for canavs widgets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "canvasWidgets",
           "package": "hoodle-core",
@@ -11939,6 +12958,7 @@
         "index": {
           "description": "lens for canavs widgets",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "canvasWidgets",
           "package": "hoodle-core",
@@ -11953,6 +12973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for currEraser\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "currEraser",
           "package": "hoodle-core",
@@ -11963,6 +12984,7 @@
         "index": {
           "description": "lens for currEraser",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "currEraser",
           "package": "hoodle-core",
@@ -11977,6 +12999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for currHighlighter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "currHighlighter",
           "package": "hoodle-core",
@@ -11987,6 +13010,7 @@
         "index": {
           "description": "lens for currHighlighter",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "currHighlighter",
           "package": "hoodle-core",
@@ -12001,6 +13025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for currPen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "currPen",
           "package": "hoodle-core",
@@ -12011,6 +13036,7 @@
         "index": {
           "description": "lens for currPen",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "currPen",
           "package": "hoodle-core",
@@ -12025,6 +13051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for currText\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "currText",
           "package": "hoodle-core",
@@ -12035,6 +13062,7 @@
         "index": {
           "description": "lens for currText",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "currText",
           "package": "hoodle-core",
@@ -12049,6 +13077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for currText\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "currVerticalSpace",
           "package": "hoodle-core",
@@ -12059,6 +13088,7 @@
         "index": {
           "description": "lens for currText",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "currVerticalSpace",
           "package": "hoodle-core",
@@ -12072,6 +13102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "currentPageNum",
           "package": "hoodle-core",
@@ -12081,6 +13112,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "currentPageNum",
           "package": "hoodle-core",
@@ -12094,6 +13126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "currentTool",
           "package": "hoodle-core",
@@ -12103,6 +13136,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "currentTool",
           "package": "hoodle-core",
@@ -12141,6 +13175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "defaultCvsInfoSinglePage",
           "package": "hoodle-core",
@@ -12150,6 +13185,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "defaultCvsInfoSinglePage",
           "package": "hoodle-core",
@@ -12163,6 +13199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "defaultEraserWCS",
           "package": "hoodle-core",
@@ -12172,6 +13209,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "defaultEraserWCS",
           "package": "hoodle-core",
@@ -12185,6 +13223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "defaultHighligherWCS",
           "package": "hoodle-core",
@@ -12194,6 +13233,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "defaultHighligherWCS",
           "package": "hoodle-core",
@@ -12207,6 +13247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "defaultPenInfo",
           "package": "hoodle-core",
@@ -12216,6 +13257,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "defaultPenInfo",
           "package": "hoodle-core",
@@ -12229,6 +13271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "defaultPenWCS",
           "package": "hoodle-core",
@@ -12238,6 +13281,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "defaultPenWCS",
           "package": "hoodle-core",
@@ -12251,6 +13295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "defaultTextWCS",
           "package": "hoodle-core",
@@ -12260,6 +13305,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "defaultTextWCS",
           "package": "hoodle-core",
@@ -12274,6 +13320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault view info with single page mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "defaultViewInfoSinglePage",
           "package": "hoodle-core",
@@ -12284,6 +13331,7 @@
         "index": {
           "description": "default view info with single page mode",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "defaultViewInfoSinglePage",
           "package": "hoodle-core",
@@ -12297,6 +13345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "drawArea",
           "package": "hoodle-core",
@@ -12306,6 +13355,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "drawArea",
           "package": "hoodle-core",
@@ -12319,6 +13369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "emptyPenDraw",
           "package": "hoodle-core",
@@ -12328,6 +13379,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "emptyPenDraw",
           "package": "hoodle-core",
@@ -12341,6 +13393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "forBoth",
           "package": "hoodle-core",
@@ -12350,6 +13403,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "forBoth",
           "normalized": "((CanvasInfo SinglePage-\u003ea(CanvasInfo SinglePage))-\u003e(CanvasInfo ContinuousPage-\u003ea(CanvasInfo ContinuousPage))-\u003eCanvasInfoBox-\u003ea CanvasInfoBox)-\u003e(b c CanvasInfo d-\u003ea(CanvasInfo d))-\u003eCanvasInfoBox-\u003ea CanvasInfoBox",
@@ -12365,6 +13419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "forBoth'",
           "package": "hoodle-core",
@@ -12374,6 +13429,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "forBoth'",
           "normalized": "((CanvasInfo SinglePage-\u003ea)-\u003e(CanvasInfo ContinuousPage-\u003ea)-\u003eCanvasInfoBox-\u003ea)-\u003e(b c CanvasInfo d-\u003ea)-\u003eCanvasInfoBox-\u003ea",
@@ -12389,6 +13445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "getDrawAreaFromBox",
           "package": "hoodle-core",
@@ -12398,6 +13455,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "getDrawAreaFromBox",
           "normalized": "CanvasInfoBox-\u003eDrawingArea",
@@ -12414,6 +13472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnectId for horizontal scrollbar value change event \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "horizAdjConnId",
           "package": "hoodle-core",
@@ -12424,6 +13483,7 @@
         "index": {
           "description": "ConnectId for horizontal scrollbar value change event",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "horizAdjConnId",
           "package": "hoodle-core",
@@ -12437,6 +13497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "horizAdjustment",
           "package": "hoodle-core",
@@ -12446,6 +13507,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "horizAdjustment",
           "package": "hoodle-core",
@@ -12459,6 +13521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "mDrawSurface",
           "package": "hoodle-core",
@@ -12468,6 +13531,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "mDrawSurface",
           "package": "hoodle-core",
@@ -12482,6 +13546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for notified item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "notifiedItem",
           "package": "hoodle-core",
@@ -12492,6 +13557,7 @@
         "index": {
           "description": "lens for notified item",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "notifiedItem",
           "normalized": "Simple Lens(CanvasInfo a)(Maybe(PageNum,BBox,RItem))",
@@ -12507,6 +13573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "pageArrangement",
           "package": "hoodle-core",
@@ -12516,6 +13583,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "pageArrangement",
           "package": "hoodle-core",
@@ -12530,6 +13598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for penColor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "penColor",
           "package": "hoodle-core",
@@ -12540,6 +13609,7 @@
         "index": {
           "description": "lens for penColor",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "penColor",
           "package": "hoodle-core",
@@ -12554,6 +13624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for penSet\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "penSet",
           "package": "hoodle-core",
@@ -12564,6 +13635,7 @@
         "index": {
           "description": "lens for penSet",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "penSet",
           "package": "hoodle-core",
@@ -12578,6 +13650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for penType\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "penType",
           "package": "hoodle-core",
@@ -12588,6 +13661,7 @@
         "index": {
           "description": "lens for penType",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "penType",
           "package": "hoodle-core",
@@ -12602,6 +13676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for penWidth\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "penWidth",
           "package": "hoodle-core",
@@ -12612,6 +13687,7 @@
         "index": {
           "description": "lens for penWidth",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "penWidth",
           "package": "hoodle-core",
@@ -12626,6 +13702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for zoomMode \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "points",
           "package": "hoodle-core",
@@ -12636,6 +13713,7 @@
         "index": {
           "description": "lens for zoomMode",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "points",
           "normalized": "Simple Lens PenDraw(Seq(Double,Double))",
@@ -12650,6 +13728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "scrolledWindow",
           "package": "hoodle-core",
@@ -12659,6 +13738,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "scrolledWindow",
           "package": "hoodle-core",
@@ -12673,6 +13753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esingle page action and continuous page act\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "unboxBiAct",
           "package": "hoodle-core",
@@ -12683,6 +13764,7 @@
         "index": {
           "description": "single page action and continuous page act",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "unboxBiAct",
           "normalized": "(CanvasInfo SinglePage-\u003ea)-\u003e(CanvasInfo ContinuousPage-\u003ea)-\u003eCanvasInfoBox-\u003ea",
@@ -12699,6 +13781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esingle page action and continuous page act\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "unboxBiXform",
           "package": "hoodle-core",
@@ -12709,6 +13792,7 @@
         "index": {
           "description": "single page action and continuous page act",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "unboxBiXform",
           "normalized": "(CanvasInfo SinglePage-\u003ea(CanvasInfo SinglePage))-\u003e(CanvasInfo ContinuousPage-\u003ea(CanvasInfo ContinuousPage))-\u003eCanvasInfoBox-\u003ea CanvasInfoBox",
@@ -12724,6 +13808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "unboxLens",
           "package": "hoodle-core",
@@ -12733,6 +13818,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "unboxLens",
           "normalized": "(a b Simple Lens(CanvasInfo c)d)-\u003eSimple Lens CanvasInfoBox d",
@@ -12748,6 +13834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "updateCanvasDimForContSingle",
           "package": "hoodle-core",
@@ -12757,6 +13844,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "updateCanvasDimForContSingle",
           "normalized": "PageDimension-\u003eCanvasDimension-\u003eCanvasInfo ContinuousPage-\u003eIO(CanvasInfo ContinuousPage)",
@@ -12772,6 +13860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "updateCanvasDimForSingle",
           "package": "hoodle-core",
@@ -12781,6 +13870,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "updateCanvasDimForSingle",
           "normalized": "CanvasDimension-\u003eCanvasInfo SinglePage-\u003eIO(CanvasInfo SinglePage)",
@@ -12797,6 +13887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for variableWidthPen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "variableWidthPen",
           "package": "hoodle-core",
@@ -12807,6 +13898,7 @@
         "index": {
           "description": "lens for variableWidthPen",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "variableWidthPen",
           "package": "hoodle-core",
@@ -12821,6 +13913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnectId for vertical scrollbar value change event \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "vertAdjConnId",
           "package": "hoodle-core",
@@ -12831,6 +13924,7 @@
         "index": {
           "description": "ConnectId for vertical scrollbar value change event",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "vertAdjConnId",
           "package": "hoodle-core",
@@ -12844,6 +13938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "vertAdjustment",
           "package": "hoodle-core",
@@ -12853,6 +13948,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "vertAdjustment",
           "package": "hoodle-core",
@@ -12866,6 +13962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "viewInfo",
           "package": "hoodle-core",
@@ -12875,6 +13972,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "viewInfo",
           "package": "hoodle-core",
@@ -12888,6 +13986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "xfrmCvsInfo",
           "package": "hoodle-core",
@@ -12897,6 +13996,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "xfrmCvsInfo",
           "normalized": "(ViewInfo a-\u003eViewInfo b)-\u003eCanvasInfo a-\u003eCanvasInfo b",
@@ -12912,6 +14012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "xfrmViewInfo",
           "package": "hoodle-core",
@@ -12921,6 +14022,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "xfrmViewInfo",
           "normalized": "(PageArrangement a-\u003ePageArrangement b)-\u003eViewInfo a-\u003eViewInfo b",
@@ -12937,6 +14039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for zoomMode \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Canvas",
           "name": "zoomMode",
           "package": "hoodle-core",
@@ -12947,6 +14050,7 @@
         "index": {
           "description": "lens for zoomMode",
           "hierarchy": "Hoodle Type Canvas",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Canvas",
           "name": "zoomMode",
           "package": "hoodle-core",
@@ -12960,6 +14064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Clipboard",
           "name": "Clipboard",
           "package": "hoodle-core",
@@ -12968,6 +14073,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Clipboard",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Clipboard",
           "name": "Clipboard",
           "package": "hoodle-core",
@@ -12981,6 +14087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Clipboard",
           "name": "Clipboard",
           "package": "hoodle-core",
@@ -12989,6 +14096,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Clipboard",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Clipboard",
           "name": "Clipboard",
           "package": "hoodle-core",
@@ -13002,6 +14110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Clipboard",
           "name": "Clipboard",
           "package": "hoodle-core",
@@ -13011,6 +14120,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Clipboard",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Clipboard",
           "name": "Clipboard",
           "package": "hoodle-core",
@@ -13024,6 +14134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Clipboard",
           "name": "emptyClipboard",
           "package": "hoodle-core",
@@ -13033,6 +14144,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Clipboard",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Clipboard",
           "name": "emptyClipboard",
           "package": "hoodle-core",
@@ -13046,6 +14158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Clipboard",
           "name": "getClipContents",
           "package": "hoodle-core",
@@ -13055,6 +14168,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Clipboard",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Clipboard",
           "name": "getClipContents",
           "normalized": "Clipboard-\u003e[BBoxed Stroke]",
@@ -13070,6 +14184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Clipboard",
           "name": "isEmpty",
           "package": "hoodle-core",
@@ -13079,6 +14194,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Clipboard",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Clipboard",
           "name": "isEmpty",
           "normalized": "Clipboard-\u003eBool",
@@ -13094,6 +14210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Clipboard",
           "name": "replaceClipContents",
           "package": "hoodle-core",
@@ -13103,6 +14220,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Clipboard",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Clipboard",
           "name": "replaceClipContents",
           "normalized": "[BBoxed Stroke]-\u003eClipboard-\u003eClipboard",
@@ -13118,6 +14236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Clipboard",
           "name": "unClipboard",
           "package": "hoodle-core",
@@ -13127,6 +14246,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Clipboard",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Clipboard",
           "name": "unClipboard",
           "normalized": "[BBoxed Stroke]",
@@ -13142,6 +14262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Coroutine",
           "name": "Coroutine",
           "package": "hoodle-core",
@@ -13150,6 +14271,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Coroutine",
           "name": "Coroutine",
           "package": "hoodle-core",
@@ -13163,6 +14285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Coroutine",
           "name": "Driver",
           "package": "hoodle-core",
@@ -13171,6 +14294,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Coroutine",
           "name": "Driver",
           "package": "hoodle-core",
@@ -13184,6 +14308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Coroutine",
           "name": "DriverB",
           "package": "hoodle-core",
@@ -13192,6 +14317,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Coroutine",
           "name": "DriverB",
           "package": "hoodle-core",
@@ -13205,6 +14331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Coroutine",
           "name": "EventVar",
           "package": "hoodle-core",
@@ -13213,6 +14340,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Coroutine",
           "name": "EventVar",
           "package": "hoodle-core",
@@ -13226,6 +14354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Coroutine",
           "name": "MainCoroutine",
           "package": "hoodle-core",
@@ -13234,6 +14363,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Coroutine",
           "name": "MainCoroutine",
           "package": "hoodle-core",
@@ -13247,6 +14377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Coroutine",
           "name": "MainObj",
           "package": "hoodle-core",
@@ -13255,6 +14386,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Coroutine",
           "name": "MainObj",
           "package": "hoodle-core",
@@ -13268,6 +14400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Coroutine",
           "name": "MainObjB",
           "package": "hoodle-core",
@@ -13276,6 +14409,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Coroutine",
           "name": "MainObjB",
           "package": "hoodle-core",
@@ -13289,6 +14423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Coroutine",
           "name": "MainOp",
           "package": "hoodle-core",
@@ -13297,6 +14432,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Coroutine",
           "name": "MainOp",
           "package": "hoodle-core",
@@ -13310,6 +14446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Coroutine",
           "name": "WorldObj",
           "package": "hoodle-core",
@@ -13318,6 +14455,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Coroutine",
           "name": "WorldObj",
           "package": "hoodle-core",
@@ -13331,6 +14469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Coroutine",
           "name": "WorldObjB",
           "package": "hoodle-core",
@@ -13339,6 +14478,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Coroutine",
           "name": "WorldObjB",
           "package": "hoodle-core",
@@ -13352,6 +14492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Coroutine",
           "name": "DoEvent",
           "package": "hoodle-core",
@@ -13361,6 +14502,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Coroutine",
           "name": "DoEvent",
           "normalized": "MainOp AllEvent()",
@@ -13376,6 +14518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Coroutine",
           "name": "doEvent",
           "package": "hoodle-core",
@@ -13385,6 +14528,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Coroutine",
           "name": "doEvent",
           "normalized": "AllEvent-\u003eCObjT MainOp a()",
@@ -13400,6 +14544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Coroutine",
           "name": "doIOaction",
           "package": "hoodle-core",
@@ -13409,6 +14554,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Coroutine",
           "name": "doIOaction",
           "normalized": "((AllEvent-\u003eIO())-\u003eIO AllEvent)-\u003eMainCoroutine()",
@@ -13424,6 +14570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Coroutine",
           "name": "maybeError",
           "package": "hoodle-core",
@@ -13433,6 +14580,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Coroutine",
           "name": "maybeError",
           "normalized": "String-\u003eMaybe a-\u003eMainCoroutine a",
@@ -13448,6 +14596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Coroutine",
           "name": "nextevent",
           "package": "hoodle-core",
@@ -13457,6 +14606,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Coroutine",
           "name": "nextevent",
           "package": "hoodle-core",
@@ -13469,6 +14619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Coroutine",
           "name": "sysevent",
           "package": "hoodle-core",
@@ -13478,6 +14629,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Coroutine",
           "name": "sysevent",
           "normalized": "SystemEvent-\u003eMainCoroutine()",
@@ -13492,6 +14644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Coroutine",
           "name": "world",
           "package": "hoodle-core",
@@ -13501,6 +14654,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Coroutine",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Coroutine",
           "name": "world",
           "normalized": "HoodleState-\u003eMainObj()-\u003eWorldObj()",
@@ -13515,6 +14669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "Enum",
           "package": "hoodle-core",
@@ -13523,6 +14678,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "Enum",
           "package": "hoodle-core",
@@ -13537,6 +14693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epage add direction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "AddDirection",
           "package": "hoodle-core",
@@ -13546,6 +14703,7 @@
         "index": {
           "description": "page add direction",
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "AddDirection",
           "package": "hoodle-core",
@@ -13560,6 +14718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epredefined background styles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "BackgroundStyle",
           "package": "hoodle-core",
@@ -13569,6 +14728,7 @@
         "index": {
           "description": "predefined background styles",
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "BackgroundStyle",
           "package": "hoodle-core",
@@ -13583,6 +14743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edrawing efficiency\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "DrawFlag",
           "package": "hoodle-core",
@@ -13592,6 +14753,7 @@
         "index": {
           "description": "drawing efficiency",
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "DrawFlag",
           "package": "hoodle-core",
@@ -13606,6 +14768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epredefined pen colors \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "PenColor",
           "package": "hoodle-core",
@@ -13615,6 +14778,7 @@
         "index": {
           "description": "predefined pen colors",
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "PenColor",
           "package": "hoodle-core",
@@ -13629,6 +14793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epen tool type \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "PenType",
           "package": "hoodle-core",
@@ -13638,6 +14803,7 @@
         "index": {
           "description": "pen tool type",
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "PenType",
           "package": "hoodle-core",
@@ -13651,6 +14817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "RotateDir",
           "package": "hoodle-core",
@@ -13659,6 +14826,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "RotateDir",
           "package": "hoodle-core",
@@ -13672,6 +14840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "SelectInfo",
           "package": "hoodle-core",
@@ -13680,6 +14849,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "SelectInfo",
           "package": "hoodle-core",
@@ -13694,6 +14864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eselect tool type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "SelectType",
           "package": "hoodle-core",
@@ -13703,6 +14874,7 @@
         "index": {
           "description": "select tool type",
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "SelectType",
           "package": "hoodle-core",
@@ -13717,6 +14889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emode for vertical space adding \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "VerticalSpaceMode",
           "package": "hoodle-core",
@@ -13726,6 +14899,7 @@
         "index": {
           "description": "mode for vertical space adding",
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "VerticalSpaceMode",
           "package": "hoodle-core",
@@ -13740,6 +14914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erelative zoom mode \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "ZoomModeRel",
           "package": "hoodle-core",
@@ -13749,6 +14924,7 @@
         "index": {
           "description": "relative zoom mode",
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "ZoomModeRel",
           "package": "hoodle-core",
@@ -13762,6 +14938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "BkgEfficient",
           "package": "hoodle-core",
@@ -13771,6 +14948,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "BkgEfficient",
           "package": "hoodle-core",
@@ -13784,6 +14962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "BkgStyleGraph",
           "package": "hoodle-core",
@@ -13793,6 +14972,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "BkgStyleGraph",
           "package": "hoodle-core",
@@ -13806,6 +14986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "BkgStyleLined",
           "package": "hoodle-core",
@@ -13815,6 +14996,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "BkgStyleLined",
           "package": "hoodle-core",
@@ -13828,6 +15010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "BkgStylePlain",
           "package": "hoodle-core",
@@ -13837,6 +15020,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "BkgStylePlain",
           "package": "hoodle-core",
@@ -13850,6 +15034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "BkgStyleRuled",
           "package": "hoodle-core",
@@ -13859,6 +15044,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "BkgStyleRuled",
           "package": "hoodle-core",
@@ -13872,6 +15058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "CCW",
           "package": "hoodle-core",
@@ -13881,6 +15068,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "CCW",
           "package": "hoodle-core",
@@ -13894,6 +15082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "CW",
           "package": "hoodle-core",
@@ -13903,6 +15092,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "CW",
           "package": "hoodle-core",
@@ -13916,6 +15106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "Clear",
           "package": "hoodle-core",
@@ -13925,6 +15116,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "Clear",
           "package": "hoodle-core",
@@ -13938,6 +15130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "ColorBlack",
           "package": "hoodle-core",
@@ -13947,6 +15140,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "ColorBlack",
           "package": "hoodle-core",
@@ -13960,6 +15154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "ColorBlue",
           "package": "hoodle-core",
@@ -13969,6 +15164,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "ColorBlue",
           "package": "hoodle-core",
@@ -13982,6 +15178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "ColorGray",
           "package": "hoodle-core",
@@ -13991,6 +15188,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "ColorGray",
           "package": "hoodle-core",
@@ -14004,6 +15202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "ColorGreen",
           "package": "hoodle-core",
@@ -14013,6 +15212,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "ColorGreen",
           "package": "hoodle-core",
@@ -14026,6 +15226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "ColorLightBlue",
           "package": "hoodle-core",
@@ -14035,6 +15236,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "ColorLightBlue",
           "package": "hoodle-core",
@@ -14048,6 +15250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "ColorLightGreen",
           "package": "hoodle-core",
@@ -14057,6 +15260,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "ColorLightGreen",
           "package": "hoodle-core",
@@ -14070,6 +15274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "ColorMagenta",
           "package": "hoodle-core",
@@ -14079,6 +15284,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "ColorMagenta",
           "package": "hoodle-core",
@@ -14092,6 +15298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "ColorOrange",
           "package": "hoodle-core",
@@ -14101,6 +15308,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "ColorOrange",
           "package": "hoodle-core",
@@ -14114,6 +15322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "ColorRGBA",
           "package": "hoodle-core",
@@ -14123,6 +15332,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "ColorRGBA",
           "package": "hoodle-core",
@@ -14136,6 +15346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "ColorRed",
           "package": "hoodle-core",
@@ -14145,6 +15356,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "ColorRed",
           "package": "hoodle-core",
@@ -14158,6 +15370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "ColorWhite",
           "package": "hoodle-core",
@@ -14167,6 +15380,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "ColorWhite",
           "package": "hoodle-core",
@@ -14180,6 +15394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "ColorYellow",
           "package": "hoodle-core",
@@ -14189,6 +15404,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "ColorYellow",
           "package": "hoodle-core",
@@ -14202,6 +15418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "Efficient",
           "package": "hoodle-core",
@@ -14211,6 +15428,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "Efficient",
           "package": "hoodle-core",
@@ -14224,6 +15442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "EraserWork",
           "package": "hoodle-core",
@@ -14233,6 +15452,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "EraserWork",
           "package": "hoodle-core",
@@ -14246,6 +15466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "GoingDown",
           "package": "hoodle-core",
@@ -14255,6 +15476,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "GoingDown",
           "package": "hoodle-core",
@@ -14268,6 +15490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "GoingUp",
           "package": "hoodle-core",
@@ -14277,6 +15500,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "GoingUp",
           "package": "hoodle-core",
@@ -14290,6 +15514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "HighlighterWork",
           "package": "hoodle-core",
@@ -14299,6 +15524,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "HighlighterWork",
           "package": "hoodle-core",
@@ -14312,6 +15538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "OverPage",
           "package": "hoodle-core",
@@ -14321,6 +15548,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "OverPage",
           "package": "hoodle-core",
@@ -14334,6 +15562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "PageAfter",
           "package": "hoodle-core",
@@ -14343,6 +15572,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "PageAfter",
           "package": "hoodle-core",
@@ -14356,6 +15586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "PageBefore",
           "package": "hoodle-core",
@@ -14365,6 +15596,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "PageBefore",
           "package": "hoodle-core",
@@ -14378,6 +15610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "PenWork",
           "package": "hoodle-core",
@@ -14387,6 +15620,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "PenWork",
           "package": "hoodle-core",
@@ -14400,6 +15634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "SelectHandToolWork",
           "package": "hoodle-core",
@@ -14409,6 +15644,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "SelectHandToolWork",
           "package": "hoodle-core",
@@ -14422,6 +15658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "SelectInfo",
           "package": "hoodle-core",
@@ -14431,6 +15668,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "SelectInfo",
           "package": "hoodle-core",
@@ -14444,6 +15682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "SelectLassoWork",
           "package": "hoodle-core",
@@ -14453,6 +15692,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "SelectLassoWork",
           "package": "hoodle-core",
@@ -14466,6 +15706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "SelectRectangleWork",
           "package": "hoodle-core",
@@ -14475,6 +15716,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "SelectRectangleWork",
           "package": "hoodle-core",
@@ -14488,6 +15730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "VerticalSpaceWork",
           "package": "hoodle-core",
@@ -14497,6 +15740,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "VerticalSpaceWork",
           "package": "hoodle-core",
@@ -14510,6 +15754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "ZoomIn",
           "package": "hoodle-core",
@@ -14519,6 +15764,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "ZoomIn",
           "package": "hoodle-core",
@@ -14532,6 +15778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "ZoomOut",
           "package": "hoodle-core",
@@ -14541,6 +15788,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "ZoomOut",
           "package": "hoodle-core",
@@ -14554,6 +15802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "_selectType",
           "package": "hoodle-core",
@@ -14563,6 +15812,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "_selectType",
           "package": "hoodle-core",
@@ -14576,6 +15826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "convertBackgroundStyleToByteString",
           "package": "hoodle-core",
@@ -14585,6 +15836,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "convertBackgroundStyleToByteString",
           "normalized": "BackgroundStyle-\u003eByteString",
@@ -14600,6 +15852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "convertPenColorToByteString",
           "package": "hoodle-core",
@@ -14609,6 +15862,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "convertPenColorToByteString",
           "normalized": "PenColor-\u003eByteString",
@@ -14624,6 +15878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "convertPenColorToRGBA",
           "package": "hoodle-core",
@@ -14633,6 +15888,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "convertPenColorToRGBA",
           "normalized": "PenColor-\u003e(Double,Double,Double,Double)",
@@ -14648,6 +15904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "convertRGBAToHex",
           "package": "hoodle-core",
@@ -14657,6 +15914,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "convertRGBAToHex",
           "normalized": "(Double,Double,Double,Double)-\u003eByteString",
@@ -14672,6 +15930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "penColorNameMap",
           "package": "hoodle-core",
@@ -14681,6 +15940,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "penColorNameMap",
           "package": "hoodle-core",
@@ -14694,6 +15954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "penColorRGBAmap",
           "package": "hoodle-core",
@@ -14703,6 +15964,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "penColorRGBAmap",
           "normalized": "Map PenColor(Double,Double,Double,Double)",
@@ -14718,6 +15980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Enum",
           "name": "selectType",
           "package": "hoodle-core",
@@ -14727,6 +15990,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Enum",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Enum",
           "name": "selectType",
           "package": "hoodle-core",
@@ -14741,6 +16005,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGUI events in hoodle application\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "Event",
           "package": "hoodle-core",
@@ -14750,6 +16015,7 @@
         "index": {
           "description": "GUI events in hoodle application",
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "Event",
           "package": "hoodle-core",
@@ -14763,6 +16029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "AllEvent",
           "package": "hoodle-core",
@@ -14771,6 +16038,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "AllEvent",
           "package": "hoodle-core",
@@ -14784,6 +16052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "ContextMenuEvent",
           "package": "hoodle-core",
@@ -14792,6 +16061,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "ContextMenuEvent",
           "package": "hoodle-core",
@@ -14805,6 +16075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "ImgType",
           "package": "hoodle-core",
@@ -14813,6 +16084,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "ImgType",
           "package": "hoodle-core",
@@ -14826,6 +16098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuEvent",
           "package": "hoodle-core",
@@ -14834,6 +16107,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuEvent",
           "package": "hoodle-core",
@@ -14848,6 +16122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevent for minibuffer operation (currently pen only) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MiniBufferEvent",
           "package": "hoodle-core",
@@ -14857,6 +16132,7 @@
         "index": {
           "description": "event for minibuffer operation currently pen only",
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MiniBufferEvent",
           "package": "hoodle-core",
@@ -14871,6 +16147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevent for multiline text view/buffer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MultiLineEvent",
           "package": "hoodle-core",
@@ -14880,6 +16157,7 @@
         "index": {
           "description": "event for multiline text view buffer",
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MultiLineEvent",
           "package": "hoodle-core",
@@ -14894,6 +16172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevent for network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "NetworkEvent",
           "package": "hoodle-core",
@@ -14903,6 +16182,7 @@
         "index": {
           "description": "event for network",
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "NetworkEvent",
           "package": "hoodle-core",
@@ -14916,6 +16196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "SystemEvent",
           "package": "hoodle-core",
@@ -14924,6 +16205,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "SystemEvent",
           "package": "hoodle-core",
@@ -14937,6 +16219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "UserEvent",
           "package": "hoodle-core",
@@ -14945,6 +16228,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "UserEvent",
           "package": "hoodle-core",
@@ -14958,6 +16242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "ActionOrdered",
           "package": "hoodle-core",
@@ -14967,6 +16252,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "ActionOrdered",
           "package": "hoodle-core",
@@ -14980,6 +16266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "AddLink",
           "package": "hoodle-core",
@@ -14989,6 +16276,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "AddLink",
           "normalized": "AddLink(Maybe(String,FilePath))",
@@ -15004,6 +16292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "AssignPenMode",
           "package": "hoodle-core",
@@ -15013,6 +16302,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "AssignPenMode",
           "package": "hoodle-core",
@@ -15026,6 +16316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "BackgroundStyleChanged",
           "package": "hoodle-core",
@@ -15035,6 +16326,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "BackgroundStyleChanged",
           "package": "hoodle-core",
@@ -15048,6 +16340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "CMenuAssocWithNewFile",
           "package": "hoodle-core",
@@ -15057,6 +16350,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "CMenuAssocWithNewFile",
           "package": "hoodle-core",
@@ -15070,6 +16364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "CMenuAutosavePage",
           "package": "hoodle-core",
@@ -15079,6 +16374,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "CMenuAutosavePage",
           "package": "hoodle-core",
@@ -15092,6 +16388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "CMenuCanvasView",
           "package": "hoodle-core",
@@ -15101,6 +16398,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "CMenuCanvasView",
           "package": "hoodle-core",
@@ -15114,6 +16412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "CMenuCopy",
           "package": "hoodle-core",
@@ -15123,6 +16422,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "CMenuCopy",
           "package": "hoodle-core",
@@ -15136,6 +16436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "CMenuCreateALink",
           "package": "hoodle-core",
@@ -15145,6 +16446,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "CMenuCreateALink",
           "package": "hoodle-core",
@@ -15158,6 +16460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "CMenuCropImage",
           "package": "hoodle-core",
@@ -15167,6 +16470,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "CMenuCropImage",
           "package": "hoodle-core",
@@ -15180,6 +16484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "CMenuCustom",
           "package": "hoodle-core",
@@ -15189,6 +16494,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "CMenuCustom",
           "package": "hoodle-core",
@@ -15202,6 +16508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "CMenuCut",
           "package": "hoodle-core",
@@ -15211,6 +16518,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "CMenuCut",
           "package": "hoodle-core",
@@ -15224,6 +16532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "CMenuDelete",
           "package": "hoodle-core",
@@ -15233,6 +16542,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "CMenuDelete",
           "package": "hoodle-core",
@@ -15246,6 +16556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "CMenuLaTeXConvert",
           "package": "hoodle-core",
@@ -15255,6 +16566,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "CMenuLaTeXConvert",
           "normalized": "CMenuLaTeXConvert(Double,Double)Text",
@@ -15270,6 +16582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "CMenuLaTeXConvertNetwork",
           "package": "hoodle-core",
@@ -15279,6 +16592,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "CMenuLaTeXConvertNetwork",
           "normalized": "CMenuLaTeXConvertNetwork(Double,Double)Text",
@@ -15294,6 +16608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "CMenuLinkConvert",
           "package": "hoodle-core",
@@ -15303,6 +16618,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "CMenuLinkConvert",
           "package": "hoodle-core",
@@ -15316,6 +16632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "CMenuPangoConvert",
           "package": "hoodle-core",
@@ -15325,6 +16642,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "CMenuPangoConvert",
           "normalized": "CMenuPangoConvert(Double,Double)Text",
@@ -15340,6 +16658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "CMenuRotate",
           "package": "hoodle-core",
@@ -15349,6 +16668,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "CMenuRotate",
           "package": "hoodle-core",
@@ -15362,6 +16682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "CMenuSaveSelectionAs",
           "package": "hoodle-core",
@@ -15371,6 +16692,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "CMenuSaveSelectionAs",
           "package": "hoodle-core",
@@ -15384,6 +16706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "CanvasConfigure",
           "package": "hoodle-core",
@@ -15393,6 +16716,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "CanvasConfigure",
           "package": "hoodle-core",
@@ -15406,6 +16730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "ChangeDialog",
           "package": "hoodle-core",
@@ -15415,6 +16740,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "ChangeDialog",
           "package": "hoodle-core",
@@ -15428,6 +16754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "ClockUpdateEvent",
           "package": "hoodle-core",
@@ -15437,6 +16764,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "ClockUpdateEvent",
           "package": "hoodle-core",
@@ -15450,6 +16778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "ColorChosen",
           "package": "hoodle-core",
@@ -15459,6 +16788,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "ColorChosen",
           "package": "hoodle-core",
@@ -15472,6 +16802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "ContextMenuCreated",
           "package": "hoodle-core",
@@ -15481,6 +16812,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "ContextMenuCreated",
           "package": "hoodle-core",
@@ -15494,6 +16826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "CustomKeyEvent",
           "package": "hoodle-core",
@@ -15503,6 +16836,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "CustomKeyEvent",
           "package": "hoodle-core",
@@ -15516,6 +16850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "EventDisconnected",
           "package": "hoodle-core",
@@ -15525,6 +16860,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "EventDisconnected",
           "package": "hoodle-core",
@@ -15538,6 +16874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "FileChosen",
           "package": "hoodle-core",
@@ -15547,6 +16884,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "FileChosen",
           "package": "hoodle-core",
@@ -15560,6 +16898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "FileReloadOrdered",
           "package": "hoodle-core",
@@ -15569,6 +16908,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "FileReloadOrdered",
           "package": "hoodle-core",
@@ -15582,6 +16922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "GetHoodleFileInfo",
           "package": "hoodle-core",
@@ -15591,6 +16932,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "GetHoodleFileInfo",
           "package": "hoodle-core",
@@ -15604,6 +16946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "GotClipboardContent",
           "package": "hoodle-core",
@@ -15613,6 +16956,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "GotClipboardContent",
           "normalized": "GotClipboardContent(Maybe[Item])",
@@ -15628,6 +16972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "GotContextMenuSignal",
           "package": "hoodle-core",
@@ -15637,6 +16982,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "GotContextMenuSignal",
           "package": "hoodle-core",
@@ -15650,6 +16996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "GotLink",
           "package": "hoodle-core",
@@ -15659,6 +17006,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "GotLink",
           "normalized": "GotLink(Maybe String)(Int,Int)",
@@ -15674,6 +17022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "GotOk",
           "package": "hoodle-core",
@@ -15683,6 +17032,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "GotOk",
           "package": "hoodle-core",
@@ -15696,6 +17046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "GotRevision",
           "package": "hoodle-core",
@@ -15705,6 +17056,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "GotRevision",
           "package": "hoodle-core",
@@ -15718,6 +17070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "GotRevisionInk",
           "package": "hoodle-core",
@@ -15727,6 +17080,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "GotRevisionInk",
           "normalized": "GotRevisionInk String[Stroke]",
@@ -15742,6 +17096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "HScrollBarMoved",
           "package": "hoodle-core",
@@ -15751,6 +17106,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "HScrollBarMoved",
           "package": "hoodle-core",
@@ -15764,6 +17120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "ImageFileDropped",
           "package": "hoodle-core",
@@ -15773,6 +17130,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "ImageFileDropped",
           "package": "hoodle-core",
@@ -15786,6 +17144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "Initialized",
           "package": "hoodle-core",
@@ -15795,6 +17154,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "Initialized",
           "package": "hoodle-core",
@@ -15808,6 +17168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "LaTeXInput",
           "package": "hoodle-core",
@@ -15817,6 +17178,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "LaTeXInput",
           "normalized": "LaTeXInput(Maybe(ByteString,ByteString))",
@@ -15832,6 +17194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "Menu",
           "package": "hoodle-core",
@@ -15841,6 +17204,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "Menu",
           "package": "hoodle-core",
@@ -15854,6 +17218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuAbout",
           "package": "hoodle-core",
@@ -15863,6 +17228,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuAbout",
           "package": "hoodle-core",
@@ -15876,6 +17242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuAddLink",
           "package": "hoodle-core",
@@ -15885,6 +17252,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuAddLink",
           "package": "hoodle-core",
@@ -15898,6 +17266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuAnnotatePDF",
           "package": "hoodle-core",
@@ -15907,6 +17276,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuAnnotatePDF",
           "package": "hoodle-core",
@@ -15920,6 +17290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuAntialiasedBitmaps",
           "package": "hoodle-core",
@@ -15929,6 +17300,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuAntialiasedBitmaps",
           "package": "hoodle-core",
@@ -15942,6 +17314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuApplyToAllPages",
           "package": "hoodle-core",
@@ -15951,6 +17324,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuApplyToAllPages",
           "package": "hoodle-core",
@@ -15964,6 +17338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuAutoSavePreferences",
           "package": "hoodle-core",
@@ -15973,6 +17348,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuAutoSavePreferences",
           "package": "hoodle-core",
@@ -15986,6 +17362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuButton2Mapping",
           "package": "hoodle-core",
@@ -15995,6 +17372,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuButton2Mapping",
           "package": "hoodle-core",
@@ -16008,6 +17386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuButton3Mapping",
           "package": "hoodle-core",
@@ -16017,6 +17396,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuButton3Mapping",
           "package": "hoodle-core",
@@ -16030,6 +17410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuColorPicker",
           "package": "hoodle-core",
@@ -16039,6 +17420,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuColorPicker",
           "package": "hoodle-core",
@@ -16052,6 +17434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuCombineLaTeX",
           "package": "hoodle-core",
@@ -16061,6 +17444,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuCombineLaTeX",
           "package": "hoodle-core",
@@ -16074,6 +17458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuCopy",
           "package": "hoodle-core",
@@ -16083,6 +17468,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuCopy",
           "package": "hoodle-core",
@@ -16096,6 +17482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuCut",
           "package": "hoodle-core",
@@ -16105,6 +17492,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuCut",
           "package": "hoodle-core",
@@ -16118,6 +17506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuDefault",
           "package": "hoodle-core",
@@ -16127,6 +17516,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuDefault",
           "package": "hoodle-core",
@@ -16140,6 +17530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuDefaultEraser",
           "package": "hoodle-core",
@@ -16149,6 +17540,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuDefaultEraser",
           "package": "hoodle-core",
@@ -16162,6 +17554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuDefaultHighlighter",
           "package": "hoodle-core",
@@ -16171,6 +17564,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuDefaultHighlighter",
           "package": "hoodle-core",
@@ -16184,6 +17578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuDefaultPaper",
           "package": "hoodle-core",
@@ -16193,6 +17588,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuDefaultPaper",
           "package": "hoodle-core",
@@ -16206,6 +17602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuDefaultPen",
           "package": "hoodle-core",
@@ -16215,6 +17612,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuDefaultPen",
           "package": "hoodle-core",
@@ -16228,6 +17626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuDefaultText",
           "package": "hoodle-core",
@@ -16237,6 +17636,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuDefaultText",
           "package": "hoodle-core",
@@ -16250,6 +17650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuDelCanvas",
           "package": "hoodle-core",
@@ -16259,6 +17660,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuDelCanvas",
           "package": "hoodle-core",
@@ -16272,6 +17674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuDelete",
           "package": "hoodle-core",
@@ -16281,6 +17684,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuDelete",
           "package": "hoodle-core",
@@ -16294,6 +17698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuDeleteLayer",
           "package": "hoodle-core",
@@ -16303,6 +17708,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuDeleteLayer",
           "package": "hoodle-core",
@@ -16316,6 +17722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuDeletePage",
           "package": "hoodle-core",
@@ -16325,6 +17732,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuDeletePage",
           "package": "hoodle-core",
@@ -16338,6 +17746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuDiscardCoreEvents",
           "package": "hoodle-core",
@@ -16347,6 +17756,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuDiscardCoreEvents",
           "package": "hoodle-core",
@@ -16360,6 +17770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuEmbedAllPDFBkg",
           "package": "hoodle-core",
@@ -16369,6 +17780,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuEmbedAllPDFBkg",
           "package": "hoodle-core",
@@ -16382,6 +17794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuEmbedImage",
           "package": "hoodle-core",
@@ -16391,6 +17804,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuEmbedImage",
           "package": "hoodle-core",
@@ -16404,6 +17818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuEmbedPDF",
           "package": "hoodle-core",
@@ -16413,6 +17828,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuEmbedPDF",
           "package": "hoodle-core",
@@ -16426,6 +17842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuEmbedPredefinedImage",
           "package": "hoodle-core",
@@ -16435,6 +17852,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuEmbedPredefinedImage",
           "package": "hoodle-core",
@@ -16448,6 +17866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuEmbedPredefinedImage2",
           "package": "hoodle-core",
@@ -16457,6 +17876,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuEmbedPredefinedImage2",
           "package": "hoodle-core",
@@ -16470,6 +17890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuEmbedPredefinedImage3",
           "package": "hoodle-core",
@@ -16479,6 +17900,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuEmbedPredefinedImage3",
           "package": "hoodle-core",
@@ -16492,6 +17914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuEraserOptions",
           "package": "hoodle-core",
@@ -16501,6 +17924,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuEraserOptions",
           "package": "hoodle-core",
@@ -16514,6 +17938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuEraserTip",
           "package": "hoodle-core",
@@ -16523,6 +17948,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuEraserTip",
           "package": "hoodle-core",
@@ -16536,6 +17962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuExport",
           "package": "hoodle-core",
@@ -16545,6 +17972,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuExport",
           "package": "hoodle-core",
@@ -16558,6 +17986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuExportPageSVG",
           "package": "hoodle-core",
@@ -16567,6 +17996,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuExportPageSVG",
           "package": "hoodle-core",
@@ -16580,6 +18010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuFirstPage",
           "package": "hoodle-core",
@@ -16589,6 +18020,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuFirstPage",
           "package": "hoodle-core",
@@ -16602,6 +18034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuFollowLinks",
           "package": "hoodle-core",
@@ -16611,6 +18044,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuFollowLinks",
           "package": "hoodle-core",
@@ -16624,6 +18058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuFullScreen",
           "package": "hoodle-core",
@@ -16633,6 +18068,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuFullScreen",
           "package": "hoodle-core",
@@ -16646,6 +18082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuGotoLayer",
           "package": "hoodle-core",
@@ -16655,6 +18092,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuGotoLayer",
           "package": "hoodle-core",
@@ -16668,6 +18106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuHSplit",
           "package": "hoodle-core",
@@ -16677,6 +18116,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuHSplit",
           "package": "hoodle-core",
@@ -16690,6 +18130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuHideLayer",
           "package": "hoodle-core",
@@ -16699,6 +18140,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuHideLayer",
           "package": "hoodle-core",
@@ -16712,6 +18154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuHighlighterOptions",
           "package": "hoodle-core",
@@ -16721,6 +18164,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuHighlighterOptions",
           "package": "hoodle-core",
@@ -16734,6 +18178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuKeepAspectRatio",
           "package": "hoodle-core",
@@ -16743,6 +18188,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuKeepAspectRatio",
           "package": "hoodle-core",
@@ -16756,6 +18202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuLaTeX",
           "package": "hoodle-core",
@@ -16765,6 +18212,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuLaTeX",
           "package": "hoodle-core",
@@ -16778,6 +18226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuLastPage",
           "package": "hoodle-core",
@@ -16787,6 +18236,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuLastPage",
           "package": "hoodle-core",
@@ -16800,6 +18250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuLeftHandedScrollbar",
           "package": "hoodle-core",
@@ -16809,6 +18260,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuLeftHandedScrollbar",
           "package": "hoodle-core",
@@ -16822,6 +18274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuLoadPNGorJPG",
           "package": "hoodle-core",
@@ -16831,6 +18284,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuLoadPNGorJPG",
           "package": "hoodle-core",
@@ -16844,6 +18298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuLoadSVG",
           "package": "hoodle-core",
@@ -16853,6 +18308,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuLoadSVG",
           "package": "hoodle-core",
@@ -16866,6 +18322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuMultiplePageView",
           "package": "hoodle-core",
@@ -16875,6 +18332,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuMultiplePageView",
           "package": "hoodle-core",
@@ -16888,6 +18346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuMultiplePages",
           "package": "hoodle-core",
@@ -16897,6 +18356,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuMultiplePages",
           "package": "hoodle-core",
@@ -16910,6 +18370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuNew",
           "package": "hoodle-core",
@@ -16919,6 +18380,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuNew",
           "package": "hoodle-core",
@@ -16932,6 +18394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuNewLayer",
           "package": "hoodle-core",
@@ -16941,6 +18404,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuNewLayer",
           "package": "hoodle-core",
@@ -16954,6 +18418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuNewPageAfter",
           "package": "hoodle-core",
@@ -16963,6 +18428,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuNewPageAfter",
           "package": "hoodle-core",
@@ -16976,6 +18442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuNewPageAtEnd",
           "package": "hoodle-core",
@@ -16985,6 +18452,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuNewPageAtEnd",
           "package": "hoodle-core",
@@ -16998,6 +18466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuNewPageBefore",
           "package": "hoodle-core",
@@ -17007,6 +18476,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuNewPageBefore",
           "package": "hoodle-core",
@@ -17020,6 +18490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuNextLayer",
           "package": "hoodle-core",
@@ -17029,6 +18500,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuNextLayer",
           "package": "hoodle-core",
@@ -17042,6 +18514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuNextPage",
           "package": "hoodle-core",
@@ -17051,6 +18524,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuNextPage",
           "package": "hoodle-core",
@@ -17064,6 +18538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuNormalSize",
           "package": "hoodle-core",
@@ -17073,6 +18548,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuNormalSize",
           "package": "hoodle-core",
@@ -17086,6 +18562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuOpen",
           "package": "hoodle-core",
@@ -17095,6 +18572,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuOpen",
           "package": "hoodle-core",
@@ -17108,6 +18586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuPageHeight",
           "package": "hoodle-core",
@@ -17117,6 +18596,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuPageHeight",
           "package": "hoodle-core",
@@ -17130,6 +18610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuPageHighlight",
           "package": "hoodle-core",
@@ -17139,6 +18620,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuPageHighlight",
           "package": "hoodle-core",
@@ -17152,6 +18634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuPageWidth",
           "package": "hoodle-core",
@@ -17161,6 +18644,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuPageWidth",
           "package": "hoodle-core",
@@ -17174,6 +18658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuPaperColor",
           "package": "hoodle-core",
@@ -17183,6 +18668,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuPaperColor",
           "package": "hoodle-core",
@@ -17196,6 +18682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuPaperSize",
           "package": "hoodle-core",
@@ -17205,6 +18692,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuPaperSize",
           "package": "hoodle-core",
@@ -17218,6 +18706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuPaperStyle",
           "package": "hoodle-core",
@@ -17227,6 +18716,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuPaperStyle",
           "package": "hoodle-core",
@@ -17240,6 +18730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuPaste",
           "package": "hoodle-core",
@@ -17249,6 +18740,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuPaste",
           "package": "hoodle-core",
@@ -17262,6 +18754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuPenOptions",
           "package": "hoodle-core",
@@ -17271,6 +18764,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuPenOptions",
           "package": "hoodle-core",
@@ -17284,6 +18778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuPressureSensitivity",
           "package": "hoodle-core",
@@ -17293,6 +18788,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuPressureSensitivity",
           "package": "hoodle-core",
@@ -17306,6 +18802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuPrevLayer",
           "package": "hoodle-core",
@@ -17315,6 +18812,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuPrevLayer",
           "package": "hoodle-core",
@@ -17328,6 +18826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuPreviousPage",
           "package": "hoodle-core",
@@ -17337,6 +18836,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuPreviousPage",
           "package": "hoodle-core",
@@ -17350,6 +18850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuPrint",
           "package": "hoodle-core",
@@ -17359,6 +18860,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuPrint",
           "package": "hoodle-core",
@@ -17372,6 +18874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuPrintPaperRuling",
           "package": "hoodle-core",
@@ -17381,6 +18884,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuPrintPaperRuling",
           "package": "hoodle-core",
@@ -17394,6 +18898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuProgressiveBackgrounds",
           "package": "hoodle-core",
@@ -17403,6 +18908,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuProgressiveBackgrounds",
           "package": "hoodle-core",
@@ -17416,6 +18922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuQuit",
           "package": "hoodle-core",
@@ -17425,6 +18932,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuQuit",
           "package": "hoodle-core",
@@ -17438,6 +18946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuRecentDocument",
           "package": "hoodle-core",
@@ -17447,6 +18956,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuRecentDocument",
           "package": "hoodle-core",
@@ -17460,6 +18970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuRedo",
           "package": "hoodle-core",
@@ -17469,6 +18980,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuRedo",
           "package": "hoodle-core",
@@ -17482,6 +18994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuRelaunch",
           "package": "hoodle-core",
@@ -17491,6 +19004,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuRelaunch",
           "package": "hoodle-core",
@@ -17504,6 +19018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuReload",
           "package": "hoodle-core",
@@ -17513,6 +19028,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuReload",
           "package": "hoodle-core",
@@ -17526,6 +19042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuRuler",
           "package": "hoodle-core",
@@ -17535,6 +19052,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuRuler",
           "package": "hoodle-core",
@@ -17548,6 +19066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuSave",
           "package": "hoodle-core",
@@ -17557,6 +19076,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuSave",
           "package": "hoodle-core",
@@ -17570,6 +19090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuSaveAs",
           "package": "hoodle-core",
@@ -17579,6 +19100,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuSaveAs",
           "package": "hoodle-core",
@@ -17592,6 +19114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuSavePreferences",
           "package": "hoodle-core",
@@ -17601,6 +19124,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuSavePreferences",
           "package": "hoodle-core",
@@ -17614,6 +19138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuSelectRectangle",
           "package": "hoodle-core",
@@ -17623,6 +19148,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuSelectRectangle",
           "package": "hoodle-core",
@@ -17636,6 +19162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuSelectRegion",
           "package": "hoodle-core",
@@ -17645,6 +19172,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuSelectRegion",
           "package": "hoodle-core",
@@ -17658,6 +19186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuSetAsDefaultOption",
           "package": "hoodle-core",
@@ -17667,6 +19196,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuSetAsDefaultOption",
           "package": "hoodle-core",
@@ -17680,6 +19210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuSetAsDefaultPaper",
           "package": "hoodle-core",
@@ -17689,6 +19220,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuSetAsDefaultPaper",
           "package": "hoodle-core",
@@ -17702,6 +19234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuSetZoom",
           "package": "hoodle-core",
@@ -17711,6 +19244,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuSetZoom",
           "package": "hoodle-core",
@@ -17724,6 +19258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuShapeRecognizer",
           "package": "hoodle-core",
@@ -17733,6 +19268,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuShapeRecognizer",
           "package": "hoodle-core",
@@ -17746,6 +19282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuShortenMenus",
           "package": "hoodle-core",
@@ -17755,6 +19292,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuShortenMenus",
           "package": "hoodle-core",
@@ -17768,6 +19306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuShowLayer",
           "package": "hoodle-core",
@@ -17777,6 +19316,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuShowLayer",
           "package": "hoodle-core",
@@ -17790,6 +19330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuShowRevisions",
           "package": "hoodle-core",
@@ -17799,6 +19340,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuShowRevisions",
           "package": "hoodle-core",
@@ -17812,6 +19354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuShowUUID",
           "package": "hoodle-core",
@@ -17821,6 +19364,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuShowUUID",
           "package": "hoodle-core",
@@ -17834,6 +19378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuSmoothScroll",
           "package": "hoodle-core",
@@ -17843,6 +19388,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuSmoothScroll",
           "package": "hoodle-core",
@@ -17856,6 +19402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuStartSync",
           "package": "hoodle-core",
@@ -17865,6 +19412,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuStartSync",
           "package": "hoodle-core",
@@ -17878,6 +19426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuText",
           "package": "hoodle-core",
@@ -17887,6 +19436,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuText",
           "package": "hoodle-core",
@@ -17900,6 +19450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuTextFont",
           "package": "hoodle-core",
@@ -17909,6 +19460,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuTextFont",
           "package": "hoodle-core",
@@ -17922,6 +19474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuToggleClockWidget",
           "package": "hoodle-core",
@@ -17931,6 +19484,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuToggleClockWidget",
           "package": "hoodle-core",
@@ -17944,6 +19498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuToggleLayerWidget",
           "package": "hoodle-core",
@@ -17953,6 +19508,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuToggleLayerWidget",
           "package": "hoodle-core",
@@ -17966,6 +19522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuTogglePanZoomWidget",
           "package": "hoodle-core",
@@ -17975,6 +19532,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuTogglePanZoomWidget",
           "package": "hoodle-core",
@@ -17988,6 +19546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuUndo",
           "package": "hoodle-core",
@@ -17997,6 +19556,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuUndo",
           "package": "hoodle-core",
@@ -18010,6 +19570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuUsePopUpMenu",
           "package": "hoodle-core",
@@ -18019,6 +19580,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuUsePopUpMenu",
           "package": "hoodle-core",
@@ -18032,6 +19594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuUseTouch",
           "package": "hoodle-core",
@@ -18041,6 +19604,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuUseTouch",
           "package": "hoodle-core",
@@ -18054,6 +19618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuUseXInput",
           "package": "hoodle-core",
@@ -18063,6 +19628,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuUseXInput",
           "package": "hoodle-core",
@@ -18076,6 +19642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuVSplit",
           "package": "hoodle-core",
@@ -18085,6 +19652,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuVSplit",
           "package": "hoodle-core",
@@ -18098,6 +19666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuVersionSave",
           "package": "hoodle-core",
@@ -18107,6 +19676,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuVersionSave",
           "package": "hoodle-core",
@@ -18120,6 +19690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuVerticalSpace",
           "package": "hoodle-core",
@@ -18129,6 +19700,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuVerticalSpace",
           "package": "hoodle-core",
@@ -18142,6 +19714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuZoom",
           "package": "hoodle-core",
@@ -18151,6 +19724,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuZoom",
           "package": "hoodle-core",
@@ -18164,6 +19738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuZoomIn",
           "package": "hoodle-core",
@@ -18173,6 +19748,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuZoomIn",
           "package": "hoodle-core",
@@ -18186,6 +19762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MenuZoomOut",
           "package": "hoodle-core",
@@ -18195,6 +19772,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MenuZoomOut",
           "package": "hoodle-core",
@@ -18208,6 +19786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MiniBuffer",
           "package": "hoodle-core",
@@ -18217,6 +19796,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MiniBuffer",
           "package": "hoodle-core",
@@ -18230,6 +19810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MiniBufferInitialized",
           "package": "hoodle-core",
@@ -18239,6 +19820,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MiniBufferInitialized",
           "package": "hoodle-core",
@@ -18252,6 +19834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MiniBufferPenDown",
           "package": "hoodle-core",
@@ -18261,6 +19844,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MiniBufferPenDown",
           "package": "hoodle-core",
@@ -18274,6 +19858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MiniBufferPenMove",
           "package": "hoodle-core",
@@ -18283,6 +19868,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MiniBufferPenMove",
           "package": "hoodle-core",
@@ -18296,6 +19882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MiniBufferPenUp",
           "package": "hoodle-core",
@@ -18305,6 +19892,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MiniBufferPenUp",
           "package": "hoodle-core",
@@ -18318,6 +19906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MultiLine",
           "package": "hoodle-core",
@@ -18327,6 +19916,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MultiLine",
           "package": "hoodle-core",
@@ -18340,6 +19930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "MultiLineChanged",
           "package": "hoodle-core",
@@ -18349,6 +19940,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "MultiLineChanged",
           "package": "hoodle-core",
@@ -18362,6 +19954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "NetworkCloseDialog",
           "package": "hoodle-core",
@@ -18371,6 +19964,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "NetworkCloseDialog",
           "package": "hoodle-core",
@@ -18384,6 +19978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "NetworkClosed",
           "package": "hoodle-core",
@@ -18393,6 +19988,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "NetworkClosed",
           "package": "hoodle-core",
@@ -18406,6 +20002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "NetworkDialog",
           "package": "hoodle-core",
@@ -18415,6 +20012,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "NetworkDialog",
           "package": "hoodle-core",
@@ -18428,6 +20026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "NetworkInitialized",
           "package": "hoodle-core",
@@ -18437,6 +20036,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "NetworkInitialized",
           "normalized": "NetworkInitialized ThreadId(MVar())",
@@ -18452,6 +20052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "NetworkProcess",
           "package": "hoodle-core",
@@ -18461,6 +20062,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "NetworkProcess",
           "package": "hoodle-core",
@@ -18474,6 +20076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "NetworkReceived",
           "package": "hoodle-core",
@@ -18483,6 +20086,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "NetworkReceived",
           "package": "hoodle-core",
@@ -18496,6 +20100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "OkCancel",
           "package": "hoodle-core",
@@ -18505,6 +20110,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "OkCancel",
           "package": "hoodle-core",
@@ -18518,6 +20124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "PaneMoveEnd",
           "package": "hoodle-core",
@@ -18527,6 +20134,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "PaneMoveEnd",
           "package": "hoodle-core",
@@ -18540,6 +20148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "PaneMoveStart",
           "package": "hoodle-core",
@@ -18549,6 +20158,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "PaneMoveStart",
           "package": "hoodle-core",
@@ -18562,6 +20172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "PenColorChanged",
           "package": "hoodle-core",
@@ -18571,6 +20182,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "PenColorChanged",
           "package": "hoodle-core",
@@ -18584,6 +20196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "PenDown",
           "package": "hoodle-core",
@@ -18593,6 +20206,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "PenDown",
           "package": "hoodle-core",
@@ -18606,6 +20220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "PenMove",
           "package": "hoodle-core",
@@ -18615,6 +20230,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "PenMove",
           "package": "hoodle-core",
@@ -18628,6 +20244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "PenUp",
           "package": "hoodle-core",
@@ -18637,6 +20254,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "PenUp",
           "package": "hoodle-core",
@@ -18650,6 +20268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "PenWidthChanged",
           "package": "hoodle-core",
@@ -18659,6 +20278,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "PenWidthChanged",
           "package": "hoodle-core",
@@ -18672,6 +20292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "Sync",
           "package": "hoodle-core",
@@ -18681,6 +20302,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "Sync",
           "package": "hoodle-core",
@@ -18694,6 +20316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "SysEv",
           "package": "hoodle-core",
@@ -18703,6 +20326,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "SysEv",
           "package": "hoodle-core",
@@ -18716,6 +20340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "TestSystemEvent",
           "package": "hoodle-core",
@@ -18725,6 +20350,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "TestSystemEvent",
           "package": "hoodle-core",
@@ -18738,6 +20364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "TextInput",
           "package": "hoodle-core",
@@ -18747,6 +20374,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "TextInput",
           "package": "hoodle-core",
@@ -18760,6 +20388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "ToContSinglePage",
           "package": "hoodle-core",
@@ -18769,6 +20398,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "ToContSinglePage",
           "package": "hoodle-core",
@@ -18782,6 +20412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "ToSelectMode",
           "package": "hoodle-core",
@@ -18791,6 +20422,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "ToSelectMode",
           "package": "hoodle-core",
@@ -18804,6 +20436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "ToSinglePage",
           "package": "hoodle-core",
@@ -18813,6 +20446,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "ToSinglePage",
           "package": "hoodle-core",
@@ -18826,6 +20460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "ToViewAppendMode",
           "package": "hoodle-core",
@@ -18835,6 +20470,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "ToViewAppendMode",
           "package": "hoodle-core",
@@ -18848,6 +20484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "TouchDown",
           "package": "hoodle-core",
@@ -18857,6 +20494,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "TouchDown",
           "package": "hoodle-core",
@@ -18870,6 +20508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "TouchMove",
           "package": "hoodle-core",
@@ -18879,6 +20518,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "TouchMove",
           "package": "hoodle-core",
@@ -18892,6 +20532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "TouchUp",
           "package": "hoodle-core",
@@ -18901,6 +20542,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "TouchUp",
           "package": "hoodle-core",
@@ -18914,6 +20556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "TypPDF",
           "package": "hoodle-core",
@@ -18923,6 +20566,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "TypPDF",
           "package": "hoodle-core",
@@ -18936,6 +20580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "TypSVG",
           "package": "hoodle-core",
@@ -18945,6 +20590,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "TypSVG",
           "package": "hoodle-core",
@@ -18958,6 +20604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "UpdateCanvas",
           "package": "hoodle-core",
@@ -18967,6 +20614,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "UpdateCanvas",
           "package": "hoodle-core",
@@ -18980,6 +20628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "UpdateCanvasEfficient",
           "package": "hoodle-core",
@@ -18989,6 +20638,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "UpdateCanvasEfficient",
           "package": "hoodle-core",
@@ -19002,6 +20652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "UsrEv",
           "package": "hoodle-core",
@@ -19011,6 +20662,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "UsrEv",
           "package": "hoodle-core",
@@ -19024,6 +20676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "VScrollBarEnd",
           "package": "hoodle-core",
@@ -19033,6 +20686,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "VScrollBarEnd",
           "package": "hoodle-core",
@@ -19046,6 +20700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "VScrollBarMoved",
           "package": "hoodle-core",
@@ -19055,6 +20710,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "VScrollBarMoved",
           "package": "hoodle-core",
@@ -19068,6 +20724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "VScrollBarStart",
           "package": "hoodle-core",
@@ -19077,6 +20734,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "VScrollBarStart",
           "package": "hoodle-core",
@@ -19090,6 +20748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "mkIOaction",
           "package": "hoodle-core",
@@ -19099,6 +20758,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "mkIOaction",
           "normalized": "((AllEvent-\u003eIO())-\u003eIO AllEvent)-\u003eEither(ActionOrder AllEvent)AllEvent",
@@ -19114,6 +20774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Event",
           "name": "viewModeToUserEvent",
           "package": "hoodle-core",
@@ -19123,6 +20784,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Event",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Event",
           "name": "viewModeToUserEvent",
           "normalized": "RadioAction-\u003eIO UserEvent",
@@ -19138,6 +20800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "HoodleState",
           "package": "hoodle-core",
@@ -19146,6 +20809,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "HoodleState",
           "package": "hoodle-core",
@@ -19159,6 +20823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "HoodleModeState",
           "package": "hoodle-core",
@@ -19167,6 +20832,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "HoodleModeState",
           "package": "hoodle-core",
@@ -19180,6 +20846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "HoodleState",
           "package": "hoodle-core",
@@ -19188,6 +20855,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "HoodleState",
           "package": "hoodle-core",
@@ -19201,6 +20869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "IsOneTimeSelectMode",
           "package": "hoodle-core",
@@ -19209,6 +20878,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "IsOneTimeSelectMode",
           "package": "hoodle-core",
@@ -19223,6 +20893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of Hoodle settings \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "Settings",
           "package": "hoodle-core",
@@ -19232,6 +20903,7 @@
         "index": {
           "description": "set of Hoodle settings",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "Settings",
           "package": "hoodle-core",
@@ -19245,6 +20917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "UIComponentSignalHandler",
           "package": "hoodle-core",
@@ -19253,6 +20926,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "UIComponentSignalHandler",
           "package": "hoodle-core",
@@ -19266,6 +20940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "HoodleState",
           "package": "hoodle-core",
@@ -19275,6 +20950,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "HoodleState",
           "package": "hoodle-core",
@@ -19288,6 +20964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "NoOneTimeSelectMode",
           "package": "hoodle-core",
@@ -19297,6 +20974,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "NoOneTimeSelectMode",
           "package": "hoodle-core",
@@ -19310,6 +20988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "SelectState",
           "package": "hoodle-core",
@@ -19319,6 +20998,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "SelectState",
           "package": "hoodle-core",
@@ -19332,6 +21012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "Settings",
           "package": "hoodle-core",
@@ -19341,6 +21022,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "Settings",
           "package": "hoodle-core",
@@ -19354,6 +21036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "UIComponentSignalHandler",
           "package": "hoodle-core",
@@ -19363,6 +21046,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "UIComponentSignalHandler",
           "package": "hoodle-core",
@@ -19376,6 +21060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "ViewAppendState",
           "package": "hoodle-core",
@@ -19385,6 +21070,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "ViewAppendState",
           "package": "hoodle-core",
@@ -19398,6 +21084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "YesAfterSelect",
           "package": "hoodle-core",
@@ -19407,6 +21094,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "YesAfterSelect",
           "package": "hoodle-core",
@@ -19420,6 +21108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "YesBeforeSelect",
           "package": "hoodle-core",
@@ -19429,6 +21118,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "YesBeforeSelect",
           "package": "hoodle-core",
@@ -19442,6 +21132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_backgroundStyle",
           "package": "hoodle-core",
@@ -19451,6 +21142,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_backgroundStyle",
           "package": "hoodle-core",
@@ -19464,6 +21156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_callBack",
           "package": "hoodle-core",
@@ -19473,6 +21166,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_callBack",
           "normalized": "AllEvent-\u003eIO()",
@@ -19488,6 +21182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_currentCanvas",
           "package": "hoodle-core",
@@ -19497,6 +21192,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_currentCanvas",
           "normalized": "(CanvasId,CanvasInfoBox)",
@@ -19512,6 +21208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_currentPenDraw",
           "package": "hoodle-core",
@@ -19521,6 +21218,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_currentPenDraw",
           "package": "hoodle-core",
@@ -19534,6 +21232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_cvsInfoMap",
           "package": "hoodle-core",
@@ -19543,6 +21242,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_cvsInfoMap",
           "package": "hoodle-core",
@@ -19556,6 +21256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_deviceList",
           "package": "hoodle-core",
@@ -19565,6 +21266,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_deviceList",
           "package": "hoodle-core",
@@ -19578,6 +21280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_doesEmbedImage",
           "package": "hoodle-core",
@@ -19587,6 +21290,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_doesEmbedImage",
           "package": "hoodle-core",
@@ -19600,6 +21304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_doesEmbedPDF",
           "package": "hoodle-core",
@@ -19609,6 +21314,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_doesEmbedPDF",
           "package": "hoodle-core",
@@ -19622,6 +21328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_doesFollowLinks",
           "package": "hoodle-core",
@@ -19631,6 +21338,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_doesFollowLinks",
           "package": "hoodle-core",
@@ -19644,6 +21352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_doesKeepAspectRatio",
           "package": "hoodle-core",
@@ -19653,6 +21362,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_doesKeepAspectRatio",
           "package": "hoodle-core",
@@ -19666,6 +21376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_doesSmoothScroll",
           "package": "hoodle-core",
@@ -19675,6 +21386,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_doesSmoothScroll",
           "package": "hoodle-core",
@@ -19688,6 +21400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_doesUsePopUpMenu",
           "package": "hoodle-core",
@@ -19697,6 +21410,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_doesUsePopUpMenu",
           "package": "hoodle-core",
@@ -19710,6 +21424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_doesUseTouch",
           "package": "hoodle-core",
@@ -19719,6 +21434,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_doesUseTouch",
           "package": "hoodle-core",
@@ -19732,6 +21448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_doesUseXInput",
           "package": "hoodle-core",
@@ -19741,6 +21458,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_doesUseXInput",
           "package": "hoodle-core",
@@ -19754,6 +21472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_frameState",
           "package": "hoodle-core",
@@ -19763,6 +21482,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_frameState",
           "package": "hoodle-core",
@@ -19776,6 +21496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_gtkUIManager",
           "package": "hoodle-core",
@@ -19785,6 +21506,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_gtkUIManager",
           "package": "hoodle-core",
@@ -19798,6 +21520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_hoodleFileControl",
           "package": "hoodle-core",
@@ -19807,6 +21530,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_hoodleFileControl",
           "package": "hoodle-core",
@@ -19820,6 +21544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_hoodleModeState",
           "package": "hoodle-core",
@@ -19829,6 +21554,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_hoodleModeState",
           "package": "hoodle-core",
@@ -19842,6 +21568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_hookSet",
           "package": "hoodle-core",
@@ -19851,6 +21578,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_hookSet",
           "package": "hoodle-core",
@@ -19864,6 +21592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_isFullScreen",
           "package": "hoodle-core",
@@ -19873,6 +21602,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_isFullScreen",
           "package": "hoodle-core",
@@ -19886,6 +21616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_isOneTimeSelectMode",
           "package": "hoodle-core",
@@ -19895,6 +21626,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_isOneTimeSelectMode",
           "package": "hoodle-core",
@@ -19908,6 +21640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_isSaved",
           "package": "hoodle-core",
@@ -19917,6 +21650,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_isSaved",
           "package": "hoodle-core",
@@ -19930,6 +21664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_lastTimeCanvasConfigure",
           "package": "hoodle-core",
@@ -19939,6 +21674,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_lastTimeCanvasConfigure",
           "package": "hoodle-core",
@@ -19952,6 +21688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_pageModeSignal",
           "package": "hoodle-core",
@@ -19961,6 +21698,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_pageModeSignal",
           "package": "hoodle-core",
@@ -19974,6 +21712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_penColorSignal",
           "package": "hoodle-core",
@@ -19983,6 +21722,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_penColorSignal",
           "package": "hoodle-core",
@@ -19996,6 +21736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_penInfo",
           "package": "hoodle-core",
@@ -20005,6 +21746,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_penInfo",
           "package": "hoodle-core",
@@ -20018,6 +21760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_penModeSignal",
           "package": "hoodle-core",
@@ -20027,6 +21770,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_penModeSignal",
           "package": "hoodle-core",
@@ -20040,6 +21784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_penPointSignal",
           "package": "hoodle-core",
@@ -20049,6 +21794,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_penPointSignal",
           "package": "hoodle-core",
@@ -20062,6 +21808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_rootContainer",
           "package": "hoodle-core",
@@ -20071,6 +21818,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_rootContainer",
           "package": "hoodle-core",
@@ -20084,6 +21832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_rootOfRootWindow",
           "package": "hoodle-core",
@@ -20093,6 +21842,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_rootOfRootWindow",
           "package": "hoodle-core",
@@ -20106,6 +21856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_rootWindow",
           "package": "hoodle-core",
@@ -20115,6 +21866,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_rootWindow",
           "package": "hoodle-core",
@@ -20128,6 +21880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_selectInfo",
           "package": "hoodle-core",
@@ -20137,6 +21890,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_selectInfo",
           "package": "hoodle-core",
@@ -20150,6 +21904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_settings",
           "package": "hoodle-core",
@@ -20159,6 +21914,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_settings",
           "package": "hoodle-core",
@@ -20171,6 +21927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_statusBar",
           "package": "hoodle-core",
@@ -20180,6 +21937,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_statusBar",
           "package": "hoodle-core",
@@ -20193,6 +21951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_tempLog",
           "package": "hoodle-core",
@@ -20202,6 +21961,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_tempLog",
           "normalized": "String-\u003eString",
@@ -20217,6 +21977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_tempQueue",
           "package": "hoodle-core",
@@ -20226,6 +21987,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_tempQueue",
           "package": "hoodle-core",
@@ -20239,6 +22001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_uiComponentSignalHandler",
           "package": "hoodle-core",
@@ -20248,6 +22011,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_uiComponentSignalHandler",
           "package": "hoodle-core",
@@ -20261,6 +22025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "_undoTable",
           "package": "hoodle-core",
@@ -20270,6 +22035,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "_undoTable",
           "package": "hoodle-core",
@@ -20284,6 +22050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebackground style = plain, lined, ruled, graph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "backgroundStyle",
           "package": "hoodle-core",
@@ -20294,6 +22061,7 @@
         "index": {
           "description": "background style plain lined ruled graph",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "backgroundStyle",
           "package": "hoodle-core",
@@ -20308,6 +22076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for callBack\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "callBack",
           "package": "hoodle-core",
@@ -20318,6 +22087,7 @@
         "index": {
           "description": "lens for callBack",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "callBack",
           "normalized": "Simple Lens HoodleState(AllEvent-\u003eIO())",
@@ -20334,6 +22104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for currentCanvas\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "currentCanvas",
           "package": "hoodle-core",
@@ -20344,6 +22115,7 @@
         "index": {
           "description": "lens for currentCanvas",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "currentCanvas",
           "normalized": "Simple Lens HoodleState(CanvasId,CanvasInfoBox)",
@@ -20359,6 +22131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "currentCanvasInfo",
           "package": "hoodle-core",
@@ -20368,6 +22141,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "currentCanvasInfo",
           "package": "hoodle-core",
@@ -20382,6 +22156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for currentPenDraw\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "currentPenDraw",
           "package": "hoodle-core",
@@ -20392,6 +22167,7 @@
         "index": {
           "description": "lens for currentPenDraw",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "currentPenDraw",
           "package": "hoodle-core",
@@ -20406,6 +22182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for cvsInfoMap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "cvsInfoMap",
           "package": "hoodle-core",
@@ -20416,6 +22193,7 @@
         "index": {
           "description": "lens for cvsInfoMap",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "cvsInfoMap",
           "package": "hoodle-core",
@@ -20430,6 +22208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault settings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "defaultSettings",
           "package": "hoodle-core",
@@ -20440,6 +22219,7 @@
         "index": {
           "description": "default settings",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "defaultSettings",
           "package": "hoodle-core",
@@ -20453,6 +22233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "defaultUIComponentSignalHandler",
           "package": "hoodle-core",
@@ -20462,6 +22243,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "defaultUIComponentSignalHandler",
           "package": "hoodle-core",
@@ -20476,6 +22258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for deviceList\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "deviceList",
           "package": "hoodle-core",
@@ -20486,6 +22269,7 @@
         "index": {
           "description": "lens for deviceList",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "deviceList",
           "package": "hoodle-core",
@@ -20500,6 +22284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag for embedding image as base64 in hdl file \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "doesEmbedImage",
           "package": "hoodle-core",
@@ -20510,6 +22295,7 @@
         "index": {
           "description": "flag for embedding image as base64 in hdl file",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "doesEmbedImage",
           "package": "hoodle-core",
@@ -20524,6 +22310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag for embedding pdf background as base64 in hdl file \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "doesEmbedPDF",
           "package": "hoodle-core",
@@ -20534,6 +22321,7 @@
         "index": {
           "description": "flag for embedding pdf background as base64 in hdl file",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "doesEmbedPDF",
           "package": "hoodle-core",
@@ -20548,6 +22336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag for embedding pdf background as base64 in hdl file \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "doesFollowLinks",
           "package": "hoodle-core",
@@ -20558,6 +22347,7 @@
         "index": {
           "description": "flag for embedding pdf background as base64 in hdl file",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "doesFollowLinks",
           "package": "hoodle-core",
@@ -20572,6 +22362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag for keeping aspect ratio\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "doesKeepAspectRatio",
           "package": "hoodle-core",
@@ -20582,6 +22373,7 @@
         "index": {
           "description": "flag for keeping aspect ratio",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "doesKeepAspectRatio",
           "package": "hoodle-core",
@@ -20596,6 +22388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag for smooth scrolling \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "doesSmoothScroll",
           "package": "hoodle-core",
@@ -20606,6 +22399,7 @@
         "index": {
           "description": "flag for smooth scrolling",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "doesSmoothScroll",
           "package": "hoodle-core",
@@ -20620,6 +22414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag for using popup menu\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "doesUsePopUpMenu",
           "package": "hoodle-core",
@@ -20630,6 +22425,7 @@
         "index": {
           "description": "flag for using popup menu",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "doesUsePopUpMenu",
           "package": "hoodle-core",
@@ -20644,6 +22440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag for touch\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "doesUseTouch",
           "package": "hoodle-core",
@@ -20654,6 +22451,7 @@
         "index": {
           "description": "flag for touch",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "doesUseTouch",
           "package": "hoodle-core",
@@ -20668,6 +22466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag for XInput extension (needed for using full power of wacom)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "doesUseXInput",
           "package": "hoodle-core",
@@ -20678,6 +22477,7 @@
         "index": {
           "description": "flag for XInput extension needed for using full power of wacom",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "doesUseXInput",
           "package": "hoodle-core",
@@ -20692,6 +22492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault hoodle state \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "emptyHoodleState",
           "package": "hoodle-core",
@@ -20702,6 +22503,7 @@
         "index": {
           "description": "default hoodle state",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "emptyHoodleState",
           "package": "hoodle-core",
@@ -20716,6 +22518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for frameState\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "frameState",
           "package": "hoodle-core",
@@ -20726,6 +22529,7 @@
         "index": {
           "description": "lens for frameState",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "frameState",
           "package": "hoodle-core",
@@ -20739,6 +22543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "getCanvasInfo",
           "package": "hoodle-core",
@@ -20748,6 +22553,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "getCanvasInfo",
           "normalized": "CanvasId-\u003eHoodleState-\u003eCanvasInfoBox",
@@ -20763,6 +22569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "getCanvasInfoMap",
           "package": "hoodle-core",
@@ -20772,6 +22579,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "getCanvasInfoMap",
           "normalized": "HoodleState-\u003eCanvasInfoMap",
@@ -20787,6 +22595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "getCurrentCanvasId",
           "package": "hoodle-core",
@@ -20796,6 +22605,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "getCurrentCanvasId",
           "normalized": "HoodleState-\u003eCanvasId",
@@ -20811,6 +22621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "getCurrentPageDimFromHoodleModeState",
           "package": "hoodle-core",
@@ -20820,6 +22631,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "getCurrentPageDimFromHoodleModeState",
           "normalized": "CanvasInfo a-\u003eHoodleModeState-\u003ePageDimension",
@@ -20835,6 +22647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "getCurrentPageFromHoodleModeState",
           "package": "hoodle-core",
@@ -20844,6 +22657,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "getCurrentPageFromHoodleModeState",
           "normalized": "CanvasInfo a-\u003eHoodleModeState-\u003ePage EditMode",
@@ -20859,6 +22673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "getHoodle",
           "package": "hoodle-core",
@@ -20868,6 +22683,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "getHoodle",
           "normalized": "HoodleState-\u003eHoodle EditMode",
@@ -20884,6 +22700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for gtkUIManager\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "gtkUIManager",
           "package": "hoodle-core",
@@ -20894,6 +22711,7 @@
         "index": {
           "description": "lens for gtkUIManager",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "gtkUIManager",
           "package": "hoodle-core",
@@ -20907,6 +22725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "hoodleFileControl",
           "package": "hoodle-core",
@@ -20916,6 +22735,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "hoodleFileControl",
           "package": "hoodle-core",
@@ -20930,6 +22750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for currFileName\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "hoodleFileName",
           "package": "hoodle-core",
@@ -20940,6 +22761,7 @@
         "index": {
           "description": "lens for currFileName",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "hoodleFileName",
           "package": "hoodle-core",
@@ -20954,6 +22776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for hoodleModeState\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "hoodleModeState",
           "package": "hoodle-core",
@@ -20964,6 +22787,7 @@
         "index": {
           "description": "lens for hoodleModeState",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "hoodleModeState",
           "package": "hoodle-core",
@@ -20977,6 +22801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "hoodleModeStateEither",
           "package": "hoodle-core",
@@ -20986,6 +22811,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "hoodleModeStateEither",
           "normalized": "HoodleModeState-\u003eEither(Hoodle EditMode)(Hoodle SelectMode)",
@@ -21002,6 +22828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for hookSet\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "hookSet",
           "package": "hoodle-core",
@@ -21012,6 +22839,7 @@
         "index": {
           "description": "lens for hookSet",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "hookSet",
           "package": "hoodle-core",
@@ -21026,6 +22854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for isFullScreen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "isFullScreen",
           "package": "hoodle-core",
@@ -21036,6 +22865,7 @@
         "index": {
           "description": "lens for isFullScreen",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "isFullScreen",
           "package": "hoodle-core",
@@ -21050,6 +22880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for isOneTimeSelectMode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "isOneTimeSelectMode",
           "package": "hoodle-core",
@@ -21060,6 +22891,7 @@
         "index": {
           "description": "lens for isOneTimeSelectMode",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "isOneTimeSelectMode",
           "package": "hoodle-core",
@@ -21074,6 +22906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for isSaved\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "isSaved",
           "package": "hoodle-core",
@@ -21084,6 +22917,7 @@
         "index": {
           "description": "lens for isSaved",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "isSaved",
           "package": "hoodle-core",
@@ -21098,6 +22932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for last saved time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "lastSavedTime",
           "package": "hoodle-core",
@@ -21108,6 +22943,7 @@
         "index": {
           "description": "lens for last saved time",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "lastSavedTime",
           "package": "hoodle-core",
@@ -21122,6 +22958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for lastTimeCanvasConfigure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "lastTimeCanvasConfigure",
           "package": "hoodle-core",
@@ -21132,6 +22969,7 @@
         "index": {
           "description": "lens for lastTimeCanvasConfigure",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "lastTimeCanvasConfigure",
           "package": "hoodle-core",
@@ -21145,6 +22983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "modifyCanvasInfo",
           "package": "hoodle-core",
@@ -21154,6 +22993,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "modifyCanvasInfo",
           "normalized": "CanvasId-\u003e(CanvasInfoBox-\u003eCanvasInfoBox)-\u003eHoodleState-\u003eHoodleState",
@@ -21170,6 +23010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for pageModeSignal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "pageModeSignal",
           "package": "hoodle-core",
@@ -21180,6 +23021,7 @@
         "index": {
           "description": "lens for pageModeSignal",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "pageModeSignal",
           "package": "hoodle-core",
@@ -21194,6 +23036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for penColorSignal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "penColorSignal",
           "package": "hoodle-core",
@@ -21204,6 +23047,7 @@
         "index": {
           "description": "lens for penColorSignal",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "penColorSignal",
           "package": "hoodle-core",
@@ -21218,6 +23062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for penInfo\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "penInfo",
           "package": "hoodle-core",
@@ -21228,6 +23073,7 @@
         "index": {
           "description": "lens for penInfo",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "penInfo",
           "package": "hoodle-core",
@@ -21242,6 +23088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for penModeSignal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "penModeSignal",
           "package": "hoodle-core",
@@ -21252,6 +23099,7 @@
         "index": {
           "description": "lens for penModeSignal",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "penModeSignal",
           "package": "hoodle-core",
@@ -21266,6 +23114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for penPointSignal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "penPointSignal",
           "package": "hoodle-core",
@@ -21276,6 +23125,7 @@
         "index": {
           "description": "lens for penPointSignal",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "penPointSignal",
           "package": "hoodle-core",
@@ -21289,6 +23139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "resetHoodleModeStateBuffers",
           "package": "hoodle-core",
@@ -21298,6 +23149,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "resetHoodleModeStateBuffers",
           "normalized": "HoodleModeState-\u003eIO HoodleModeState",
@@ -21314,6 +23166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for rootContainer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "rootContainer",
           "package": "hoodle-core",
@@ -21324,6 +23177,7 @@
         "index": {
           "description": "lens for rootContainer",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "rootContainer",
           "package": "hoodle-core",
@@ -21338,6 +23192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for rootOfRootWindow\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "rootOfRootWindow",
           "package": "hoodle-core",
@@ -21348,6 +23203,7 @@
         "index": {
           "description": "lens for rootOfRootWindow",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "rootOfRootWindow",
           "package": "hoodle-core",
@@ -21362,6 +23218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for rootWindow\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "rootWindow",
           "package": "hoodle-core",
@@ -21372,6 +23229,7 @@
         "index": {
           "description": "lens for rootWindow",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "rootWindow",
           "package": "hoodle-core",
@@ -21386,6 +23244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for selectInfo\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "selectInfo",
           "package": "hoodle-core",
@@ -21396,6 +23255,7 @@
         "index": {
           "description": "lens for selectInfo",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "selectInfo",
           "package": "hoodle-core",
@@ -21409,6 +23269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "setCanvasId",
           "package": "hoodle-core",
@@ -21418,6 +23279,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "setCanvasId",
           "normalized": "CanvasId-\u003eCanvasInfoBox-\u003eCanvasInfoBox",
@@ -21433,6 +23295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "setCanvasInfo",
           "package": "hoodle-core",
@@ -21442,6 +23305,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "setCanvasInfo",
           "normalized": "(CanvasId,CanvasInfoBox)-\u003eHoodleState-\u003eHoodleState",
@@ -21457,6 +23321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "setCanvasInfoMap",
           "package": "hoodle-core",
@@ -21466,6 +23331,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "setCanvasInfoMap",
           "normalized": "CanvasInfoMap-\u003eHoodleState-\u003eMaybe HoodleState",
@@ -21481,6 +23347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "setCurrentCanvasId",
           "package": "hoodle-core",
@@ -21490,6 +23357,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "setCurrentCanvasId",
           "normalized": "CanvasId-\u003eHoodleState-\u003eMaybe HoodleState",
@@ -21505,6 +23373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "settings",
           "package": "hoodle-core",
@@ -21514,6 +23383,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "settings",
           "package": "hoodle-core",
@@ -21526,6 +23396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "showCanvasInfoMapViewPortBBox",
           "package": "hoodle-core",
@@ -21535,6 +23406,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "showCanvasInfoMapViewPortBBox",
           "normalized": "HoodleState-\u003eIO()",
@@ -21550,6 +23422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "statusBar",
           "package": "hoodle-core",
@@ -21559,6 +23432,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "statusBar",
           "package": "hoodle-core",
@@ -21573,6 +23447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for tempLog\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "tempLog",
           "package": "hoodle-core",
@@ -21583,6 +23458,7 @@
         "index": {
           "description": "lens for tempLog",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "tempLog",
           "normalized": "Simple Lens HoodleState(String-\u003eString)",
@@ -21599,6 +23475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for tempQueue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "tempQueue",
           "package": "hoodle-core",
@@ -21609,6 +23486,7 @@
         "index": {
           "description": "lens for tempQueue",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "tempQueue",
           "package": "hoodle-core",
@@ -21622,6 +23500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "tempSelect",
           "package": "hoodle-core",
@@ -21631,6 +23510,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "tempSelect",
           "package": "hoodle-core",
@@ -21644,6 +23524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "uiComponentSignalHandler",
           "package": "hoodle-core",
@@ -21653,6 +23534,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "uiComponentSignalHandler",
           "package": "hoodle-core",
@@ -21666,6 +23548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "unView",
           "package": "hoodle-core",
@@ -21675,6 +23558,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "unView",
           "package": "hoodle-core",
@@ -21689,6 +23573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elens for undoTable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "undoTable",
           "package": "hoodle-core",
@@ -21699,6 +23584,7 @@
         "index": {
           "description": "lens for undoTable",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "undoTable",
           "package": "hoodle-core",
@@ -21713,6 +23599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echange current canvas. this is the master function  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.HoodleState",
           "name": "updateFromCanvasInfoAsCurrentCanvas",
           "package": "hoodle-core",
@@ -21723,6 +23610,7 @@
         "index": {
           "description": "change current canvas this is the master function",
           "hierarchy": "Hoodle Type HoodleState",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.HoodleState",
           "name": "updateFromCanvasInfoAsCurrentCanvas",
           "normalized": "CanvasInfoBox-\u003eHoodleState-\u003eHoodleState",
@@ -21738,6 +23626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageArrangement",
           "package": "hoodle-core",
@@ -21746,6 +23635,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageArrangement",
           "package": "hoodle-core",
@@ -21759,6 +23649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "CanvasCoordinate",
           "package": "hoodle-core",
@@ -21767,6 +23658,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "CanvasCoordinate",
           "package": "hoodle-core",
@@ -21780,6 +23672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "CanvasDimension",
           "package": "hoodle-core",
@@ -21788,6 +23681,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "CanvasDimension",
           "package": "hoodle-core",
@@ -21801,6 +23695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "CanvasOrigin",
           "package": "hoodle-core",
@@ -21809,6 +23704,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "CanvasOrigin",
           "package": "hoodle-core",
@@ -21822,6 +23718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "DesktopConstraint",
           "package": "hoodle-core",
@@ -21830,6 +23727,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "DesktopConstraint",
           "package": "hoodle-core",
@@ -21843,6 +23741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "DesktopCoordinate",
           "package": "hoodle-core",
@@ -21851,6 +23750,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "DesktopCoordinate",
           "package": "hoodle-core",
@@ -21864,6 +23764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "DesktopDimension",
           "package": "hoodle-core",
@@ -21872,6 +23773,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "DesktopDimension",
           "package": "hoodle-core",
@@ -21886,6 +23788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata structure for coordinate arrangement of pages in desktop coordinate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageArrangement",
           "package": "hoodle-core",
@@ -21895,6 +23798,7 @@
         "index": {
           "description": "data structure for coordinate arrangement of pages in desktop coordinate",
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageArrangement",
           "package": "hoodle-core",
@@ -21908,6 +23812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageCoordinate",
           "package": "hoodle-core",
@@ -21916,6 +23821,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageCoordinate",
           "package": "hoodle-core",
@@ -21929,6 +23835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageDimension",
           "package": "hoodle-core",
@@ -21937,6 +23844,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageDimension",
           "package": "hoodle-core",
@@ -21950,6 +23858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageNum",
           "package": "hoodle-core",
@@ -21958,6 +23867,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageNum",
           "package": "hoodle-core",
@@ -21971,6 +23881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageOrigin",
           "package": "hoodle-core",
@@ -21979,6 +23890,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageOrigin",
           "package": "hoodle-core",
@@ -21992,6 +23904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ScreenCoordinate",
           "package": "hoodle-core",
@@ -22000,6 +23913,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ScreenCoordinate",
           "package": "hoodle-core",
@@ -22013,6 +23927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ScreenDimension",
           "package": "hoodle-core",
@@ -22021,6 +23936,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ScreenDimension",
           "package": "hoodle-core",
@@ -22035,6 +23951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esupported view modes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ViewMode",
           "package": "hoodle-core",
@@ -22044,6 +23961,7 @@
         "index": {
           "description": "supported view modes",
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ViewMode",
           "package": "hoodle-core",
@@ -22057,6 +23975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ViewPortBBox",
           "package": "hoodle-core",
@@ -22065,6 +23984,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ViewPortBBox",
           "package": "hoodle-core",
@@ -22079,6 +23999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esupported zoom modes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ZoomMode",
           "package": "hoodle-core",
@@ -22088,6 +24009,7 @@
         "index": {
           "description": "supported zoom modes",
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ZoomMode",
           "package": "hoodle-core",
@@ -22101,6 +24023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "CanvasDimension",
           "package": "hoodle-core",
@@ -22110,6 +24033,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "CanvasDimension",
           "package": "hoodle-core",
@@ -22123,6 +24047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "CanvasOrigin",
           "package": "hoodle-core",
@@ -22132,6 +24057,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "CanvasOrigin",
           "package": "hoodle-core",
@@ -22145,6 +24071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ContinuousArrangement",
           "package": "hoodle-core",
@@ -22154,6 +24081,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ContinuousArrangement",
           "normalized": "CanvasDimension-\u003eDesktopDimension-\u003e(PageNum-\u003eMaybe(PageOrigin,PageDimension))-\u003eViewPortBBox-\u003ePageArrangement ContinuousPage",
@@ -22169,6 +24097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ContinuousPage",
           "package": "hoodle-core",
@@ -22178,6 +24107,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ContinuousPage",
           "package": "hoodle-core",
@@ -22191,6 +24121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "CvsCoord",
           "package": "hoodle-core",
@@ -22200,6 +24131,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "CvsCoord",
           "package": "hoodle-core",
@@ -22213,6 +24145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "DeskCoord",
           "package": "hoodle-core",
@@ -22222,6 +24155,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "DeskCoord",
           "package": "hoodle-core",
@@ -22235,6 +24169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "DesktopDimension",
           "package": "hoodle-core",
@@ -22244,6 +24179,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "DesktopDimension",
           "package": "hoodle-core",
@@ -22257,6 +24193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "DesktopWidthConstrained",
           "package": "hoodle-core",
@@ -22266,6 +24203,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "DesktopWidthConstrained",
           "package": "hoodle-core",
@@ -22279,6 +24217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "FitHeight",
           "package": "hoodle-core",
@@ -22288,6 +24227,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "FitHeight",
           "package": "hoodle-core",
@@ -22301,6 +24241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "FitWidth",
           "package": "hoodle-core",
@@ -22310,6 +24251,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "FitWidth",
           "package": "hoodle-core",
@@ -22323,6 +24265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "Original",
           "package": "hoodle-core",
@@ -22332,6 +24275,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "Original",
           "package": "hoodle-core",
@@ -22345,6 +24289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageCoord",
           "package": "hoodle-core",
@@ -22354,6 +24299,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageCoord",
           "package": "hoodle-core",
@@ -22367,6 +24313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageDimension",
           "package": "hoodle-core",
@@ -22376,6 +24323,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageDimension",
           "package": "hoodle-core",
@@ -22389,6 +24337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageNum",
           "package": "hoodle-core",
@@ -22398,6 +24347,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageNum",
           "package": "hoodle-core",
@@ -22411,6 +24361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageOrigin",
           "package": "hoodle-core",
@@ -22420,6 +24371,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "PageOrigin",
           "package": "hoodle-core",
@@ -22433,6 +24385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ScrCoord",
           "package": "hoodle-core",
@@ -22442,6 +24395,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ScrCoord",
           "package": "hoodle-core",
@@ -22455,6 +24409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ScreenDimension",
           "package": "hoodle-core",
@@ -22464,6 +24419,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ScreenDimension",
           "package": "hoodle-core",
@@ -22477,6 +24433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "SingleArrangement",
           "package": "hoodle-core",
@@ -22486,6 +24443,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "SingleArrangement",
           "normalized": "CanvasDimension-\u003ePageDimension-\u003eViewPortBBox-\u003ePageArrangement SinglePage",
@@ -22501,6 +24459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "SinglePage",
           "package": "hoodle-core",
@@ -22510,6 +24469,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "SinglePage",
           "package": "hoodle-core",
@@ -22523,6 +24483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ViewPortBBox",
           "package": "hoodle-core",
@@ -22532,6 +24493,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "ViewPortBBox",
           "package": "hoodle-core",
@@ -22545,6 +24507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "Zoom",
           "package": "hoodle-core",
@@ -22554,6 +24517,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "Zoom",
           "package": "hoodle-core",
@@ -22567,6 +24531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "apply",
           "package": "hoodle-core",
@@ -22576,6 +24541,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "apply",
           "normalized": "(BBox-\u003eBBox)-\u003eViewPortBBox-\u003eViewPortBBox",
@@ -22590,6 +24556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "canvasDimension",
           "package": "hoodle-core",
@@ -22599,6 +24566,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "canvasDimension",
           "package": "hoodle-core",
@@ -22612,6 +24580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "deskDimCont",
           "package": "hoodle-core",
@@ -22621,6 +24590,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "deskDimCont",
           "normalized": "DesktopConstraint-\u003eHoodle EditMode-\u003eDesktopDimension",
@@ -22636,6 +24606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "desktopDimension",
           "package": "hoodle-core",
@@ -22645,6 +24616,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "desktopDimension",
           "package": "hoodle-core",
@@ -22658,6 +24630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "getRatioPageCanvas",
           "package": "hoodle-core",
@@ -22667,6 +24640,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "getRatioPageCanvas",
           "normalized": "ZoomMode-\u003ePageDimension-\u003eCanvasDimension-\u003e(Double,Double)",
@@ -22682,6 +24656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "makeContinuousArrangement",
           "package": "hoodle-core",
@@ -22691,6 +24666,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "makeContinuousArrangement",
           "normalized": "ZoomMode-\u003eCanvasDimension-\u003eHoodle EditMode-\u003e(PageNum,PageCoordinate)-\u003ePageArrangement ContinuousPage",
@@ -22706,6 +24682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "makeSingleArrangement",
           "package": "hoodle-core",
@@ -22715,6 +24692,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "makeSingleArrangement",
           "normalized": "ZoomMode-\u003ePageDimension-\u003eCanvasDimension-\u003e(Double,Double)-\u003ePageArrangement SinglePage",
@@ -22730,6 +24708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "pageArrFuncCont",
           "package": "hoodle-core",
@@ -22739,6 +24718,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "pageArrFuncCont",
           "normalized": "DesktopConstraint-\u003eHoodle EditMode-\u003ePageNum-\u003eMaybe(PageOrigin,PageDimension)",
@@ -22754,6 +24734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "pageDimension",
           "package": "hoodle-core",
@@ -22763,6 +24744,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "pageDimension",
           "package": "hoodle-core",
@@ -22776,6 +24758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unCanvasDimension",
           "package": "hoodle-core",
@@ -22785,6 +24768,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unCanvasDimension",
           "package": "hoodle-core",
@@ -22798,6 +24782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unCanvasOrigin",
           "package": "hoodle-core",
@@ -22807,6 +24792,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unCanvasOrigin",
           "normalized": "(Double,Double)",
@@ -22822,6 +24808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unCvsCoord",
           "package": "hoodle-core",
@@ -22831,6 +24818,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unCvsCoord",
           "normalized": "(Double,Double)",
@@ -22846,6 +24834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unDeskCoord",
           "package": "hoodle-core",
@@ -22855,6 +24844,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unDeskCoord",
           "normalized": "(Double,Double)",
@@ -22870,6 +24860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unDesktopDimension",
           "package": "hoodle-core",
@@ -22879,6 +24870,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unDesktopDimension",
           "package": "hoodle-core",
@@ -22892,6 +24884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unPageCoord",
           "package": "hoodle-core",
@@ -22901,6 +24894,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unPageCoord",
           "normalized": "(Double,Double)",
@@ -22916,6 +24910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unPageDimension",
           "package": "hoodle-core",
@@ -22925,6 +24920,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unPageDimension",
           "package": "hoodle-core",
@@ -22938,6 +24934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unPageNum",
           "package": "hoodle-core",
@@ -22947,6 +24944,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unPageNum",
           "package": "hoodle-core",
@@ -22960,6 +24958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unPageOrigin",
           "package": "hoodle-core",
@@ -22969,6 +24968,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unPageOrigin",
           "normalized": "(Double,Double)",
@@ -22984,6 +24984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unScrCoord",
           "package": "hoodle-core",
@@ -22993,6 +24994,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unScrCoord",
           "normalized": "(Double,Double)",
@@ -23008,6 +25010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unScreenDimension",
           "package": "hoodle-core",
@@ -23017,6 +25020,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unScreenDimension",
           "package": "hoodle-core",
@@ -23030,6 +25034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unViewPortBBox",
           "package": "hoodle-core",
@@ -23039,6 +25044,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "unViewPortBBox",
           "package": "hoodle-core",
@@ -23052,6 +25058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "viewPortBBox",
           "package": "hoodle-core",
@@ -23061,6 +25068,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "viewPortBBox",
           "package": "hoodle-core",
@@ -23074,6 +25082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.PageArrangement",
           "name": "xformViewPortFitInSize",
           "package": "hoodle-core",
@@ -23083,6 +25092,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type PageArrangement",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.PageArrangement",
           "name": "xformViewPortFitInSize",
           "normalized": "Dimension-\u003e(BBox-\u003eBBox)-\u003eViewPortBBox-\u003eViewPortBBox",
@@ -23098,6 +25108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Predefined",
           "name": "Predefined",
           "package": "hoodle-core",
@@ -23106,6 +25117,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Predefined",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Predefined",
           "name": "Predefined",
           "package": "hoodle-core",
@@ -23119,6 +25131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Predefined",
           "name": "dtime_bound",
           "package": "hoodle-core",
@@ -23128,6 +25141,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Predefined",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Predefined",
           "name": "dtime_bound",
           "package": "hoodle-core",
@@ -23140,6 +25154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Predefined",
           "name": "millisec",
           "package": "hoodle-core",
@@ -23149,6 +25164,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Predefined",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Predefined",
           "name": "millisec",
           "package": "hoodle-core",
@@ -23161,6 +25177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Predefined",
           "name": "predefinedLassoColor",
           "package": "hoodle-core",
@@ -23170,6 +25187,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Predefined",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Predefined",
           "name": "predefinedLassoColor",
           "normalized": "(Double,Double,Double,Double)",
@@ -23185,6 +25203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Predefined",
           "name": "predefinedLassoDash",
           "package": "hoodle-core",
@@ -23194,6 +25213,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Predefined",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Predefined",
           "name": "predefinedLassoDash",
           "normalized": "([Double],Double)",
@@ -23209,6 +25229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Predefined",
           "name": "predefinedLassoHandleSize",
           "package": "hoodle-core",
@@ -23218,6 +25239,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Predefined",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Predefined",
           "name": "predefinedLassoHandleSize",
           "package": "hoodle-core",
@@ -23231,6 +25253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Predefined",
           "name": "predefinedLassoWidth",
           "package": "hoodle-core",
@@ -23240,6 +25263,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Predefined",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Predefined",
           "name": "predefinedLassoWidth",
           "package": "hoodle-core",
@@ -23253,6 +25277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Predefined",
           "name": "predefinedPageSpacing",
           "package": "hoodle-core",
@@ -23262,6 +25287,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Predefined",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Predefined",
           "name": "predefinedPageSpacing",
           "package": "hoodle-core",
@@ -23275,6 +25301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Predefined",
           "name": "predefinedWinReconfTimeBound",
           "package": "hoodle-core",
@@ -23284,6 +25311,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Predefined",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Predefined",
           "name": "predefinedWinReconfTimeBound",
           "package": "hoodle-core",
@@ -23297,6 +25325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Predefined",
           "name": "predefinedZoomStepFactor",
           "package": "hoodle-core",
@@ -23306,6 +25335,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Predefined",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Predefined",
           "name": "predefinedZoomStepFactor",
           "package": "hoodle-core",
@@ -23319,6 +25349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Undo",
           "name": "Undo",
           "package": "hoodle-core",
@@ -23327,6 +25358,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Undo",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Undo",
           "name": "Undo",
           "package": "hoodle-core",
@@ -23340,6 +25372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Undo",
           "name": "UndoTable",
           "package": "hoodle-core",
@@ -23348,6 +25381,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Undo",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Undo",
           "name": "UndoTable",
           "package": "hoodle-core",
@@ -23361,6 +25395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Undo",
           "name": "UndoTable",
           "package": "hoodle-core",
@@ -23370,6 +25405,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Undo",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Undo",
           "name": "UndoTable",
           "package": "hoodle-core",
@@ -23383,6 +25419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Undo",
           "name": "addToUndo",
           "package": "hoodle-core",
@@ -23392,6 +25429,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Undo",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Undo",
           "name": "addToUndo",
           "normalized": "UndoTable a-\u003ea-\u003eUndoTable a",
@@ -23407,6 +25445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Undo",
           "name": "emptyUndo",
           "package": "hoodle-core",
@@ -23416,6 +25455,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Undo",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Undo",
           "name": "emptyUndo",
           "normalized": "Int-\u003eUndoTable a",
@@ -23431,6 +25471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Undo",
           "name": "getCurrentUndoItem",
           "package": "hoodle-core",
@@ -23440,6 +25481,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Undo",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Undo",
           "name": "getCurrentUndoItem",
           "normalized": "UndoTable a-\u003eMaybe a",
@@ -23455,6 +25497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Undo",
           "name": "getNextUndo",
           "package": "hoodle-core",
@@ -23464,6 +25507,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Undo",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Undo",
           "name": "getNextUndo",
           "normalized": "UndoTable a-\u003eMaybe(a,UndoTable a)",
@@ -23479,6 +25523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Undo",
           "name": "getPrevUndo",
           "package": "hoodle-core",
@@ -23488,6 +25533,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Undo",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Undo",
           "name": "getPrevUndo",
           "normalized": "UndoTable a-\u003eMaybe(a,UndoTable a)",
@@ -23503,6 +25549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Undo",
           "name": "numOfUndo",
           "package": "hoodle-core",
@@ -23512,6 +25559,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Undo",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Undo",
           "name": "numOfUndo",
           "normalized": "UndoTable a-\u003eInt",
@@ -23527,6 +25575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Undo",
           "name": "singletonUndo",
           "package": "hoodle-core",
@@ -23536,6 +25585,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Undo",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Undo",
           "name": "singletonUndo",
           "normalized": "Int-\u003ea-\u003eUndoTable a",
@@ -23551,6 +25601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Undo",
           "name": "undo_allowednum",
           "package": "hoodle-core",
@@ -23560,6 +25611,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Undo",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Undo",
           "name": "undo_allowednum",
           "package": "hoodle-core",
@@ -23572,6 +25624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Undo",
           "name": "undo_totalnum",
           "package": "hoodle-core",
@@ -23581,6 +25634,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Undo",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Undo",
           "name": "undo_totalnum",
           "package": "hoodle-core",
@@ -23593,6 +25647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Undo",
           "name": "undo_zipper",
           "package": "hoodle-core",
@@ -23602,6 +25657,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Undo",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Undo",
           "name": "undo_zipper",
           "package": "hoodle-core",
@@ -23615,6 +25671,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for Widgets \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "Widget",
           "package": "hoodle-core",
@@ -23624,6 +25681,7 @@
         "index": {
           "description": "Types for Widgets",
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "Widget",
           "package": "hoodle-core",
@@ -23637,6 +25695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "CanvasWidgets",
           "package": "hoodle-core",
@@ -23645,6 +25704,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "CanvasWidgets",
           "package": "hoodle-core",
@@ -23658,6 +25718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "ClockWidgetConfig",
           "package": "hoodle-core",
@@ -23666,6 +25727,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "ClockWidgetConfig",
           "package": "hoodle-core",
@@ -23679,6 +25741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "LayerWidgetConfig",
           "package": "hoodle-core",
@@ -23687,6 +25750,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "LayerWidgetConfig",
           "package": "hoodle-core",
@@ -23700,6 +25764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "WidgetConfig",
           "package": "hoodle-core",
@@ -23708,6 +25773,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "WidgetConfig",
           "package": "hoodle-core",
@@ -23721,6 +25787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "WidgetItem",
           "package": "hoodle-core",
@@ -23729,6 +25796,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "WidgetItem",
           "package": "hoodle-core",
@@ -23742,6 +25810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "ClockWidget",
           "package": "hoodle-core",
@@ -23751,6 +25820,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "ClockWidget",
           "package": "hoodle-core",
@@ -23764,6 +25834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "LayerWidget",
           "package": "hoodle-core",
@@ -23773,6 +25844,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "LayerWidget",
           "package": "hoodle-core",
@@ -23786,6 +25858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "PanZoomWidget",
           "package": "hoodle-core",
@@ -23795,6 +25868,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "PanZoomWidget",
           "package": "hoodle-core",
@@ -23808,6 +25882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "allWidgets",
           "package": "hoodle-core",
@@ -23817,6 +25892,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "allWidgets",
           "normalized": "[WidgetItem]",
@@ -23832,6 +25908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "clockWidgetConfig",
           "package": "hoodle-core",
@@ -23841,6 +25918,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "clockWidgetConfig",
           "package": "hoodle-core",
@@ -23854,6 +25932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "clockWidgetPosition",
           "package": "hoodle-core",
@@ -23863,6 +25942,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "clockWidgetPosition",
           "package": "hoodle-core",
@@ -23876,6 +25956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "clockWidgetTime",
           "package": "hoodle-core",
@@ -23885,6 +25966,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "clockWidgetTime",
           "normalized": "Simple Lens ClockWidgetConfig(Int,Int,Int)",
@@ -23900,6 +25982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "defaultLWConfig",
           "package": "hoodle-core",
@@ -23909,6 +25992,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "defaultLWConfig",
           "package": "hoodle-core",
@@ -23923,6 +26007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault widget configuration \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "defaultWidgetConfig",
           "package": "hoodle-core",
@@ -23933,6 +26018,7 @@
         "index": {
           "description": "default widget configuration",
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "defaultWidgetConfig",
           "package": "hoodle-core",
@@ -23947,6 +26033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag for clock widget \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "doesUseClockWidget",
           "package": "hoodle-core",
@@ -23957,6 +26044,7 @@
         "index": {
           "description": "flag for clock widget",
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "doesUseClockWidget",
           "package": "hoodle-core",
@@ -23971,6 +26059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag for layer widget \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "doesUseLayerWidget",
           "package": "hoodle-core",
@@ -23981,6 +26070,7 @@
         "index": {
           "description": "flag for layer widget",
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "doesUseLayerWidget",
           "package": "hoodle-core",
@@ -23995,6 +26085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag for pan zoom widget \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "doesUsePanZoomWidget",
           "package": "hoodle-core",
@@ -24005,6 +26096,7 @@
         "index": {
           "description": "flag for pan zoom widget",
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "doesUsePanZoomWidget",
           "package": "hoodle-core",
@@ -24018,6 +26110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "layerWidgetConfig",
           "package": "hoodle-core",
@@ -24027,6 +26120,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "layerWidgetConfig",
           "package": "hoodle-core",
@@ -24040,6 +26134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "layerWidgetPosition",
           "package": "hoodle-core",
@@ -24049,6 +26144,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "layerWidgetPosition",
           "package": "hoodle-core",
@@ -24062,6 +26158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "layerWidgetShowContent",
           "package": "hoodle-core",
@@ -24071,6 +26168,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "layerWidgetShowContent",
           "package": "hoodle-core",
@@ -24084,6 +26182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "panZoomWidgetConfig",
           "package": "hoodle-core",
@@ -24093,6 +26192,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "panZoomWidgetConfig",
           "package": "hoodle-core",
@@ -24106,6 +26206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "panZoomWidgetPosition",
           "package": "hoodle-core",
@@ -24115,6 +26216,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "panZoomWidgetPosition",
           "package": "hoodle-core",
@@ -24128,6 +26230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "panZoomWidgetTouchIsZoom",
           "package": "hoodle-core",
@@ -24137,6 +26240,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "panZoomWidgetTouchIsZoom",
           "package": "hoodle-core",
@@ -24151,6 +26255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewidget config lens \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Widget",
           "name": "widgetConfig",
           "package": "hoodle-core",
@@ -24161,6 +26266,7 @@
         "index": {
           "description": "widget config lens",
           "hierarchy": "Hoodle Type Widget",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Widget",
           "name": "widgetConfig",
           "package": "hoodle-core",
@@ -24174,6 +26280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Window",
           "name": "Window",
           "package": "hoodle-core",
@@ -24182,6 +26289,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Window",
           "name": "Window",
           "package": "hoodle-core",
@@ -24195,6 +26303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Window",
           "name": "SplitType",
           "package": "hoodle-core",
@@ -24203,6 +26312,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Window",
           "name": "SplitType",
           "package": "hoodle-core",
@@ -24216,6 +26326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Window",
           "name": "WindowConfig",
           "package": "hoodle-core",
@@ -24224,6 +26335,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Window",
           "name": "WindowConfig",
           "package": "hoodle-core",
@@ -24237,6 +26349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Window",
           "name": "HSplit",
           "package": "hoodle-core",
@@ -24246,6 +26359,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Window",
           "name": "HSplit",
           "package": "hoodle-core",
@@ -24259,6 +26373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Window",
           "name": "Node",
           "package": "hoodle-core",
@@ -24268,6 +26383,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Window",
           "name": "Node",
           "package": "hoodle-core",
@@ -24281,6 +26397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Window",
           "name": "SplitHorizontal",
           "package": "hoodle-core",
@@ -24290,6 +26407,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Window",
           "name": "SplitHorizontal",
           "package": "hoodle-core",
@@ -24303,6 +26421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Window",
           "name": "SplitVertical",
           "package": "hoodle-core",
@@ -24312,6 +26431,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Window",
           "name": "SplitVertical",
           "package": "hoodle-core",
@@ -24325,6 +26445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Window",
           "name": "VSplit",
           "package": "hoodle-core",
@@ -24334,6 +26455,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Window",
           "name": "VSplit",
           "package": "hoodle-core",
@@ -24347,6 +26469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Window",
           "name": "removeWindow",
           "package": "hoodle-core",
@@ -24355,6 +26478,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Window",
           "name": "removeWindow",
           "normalized": "CanvasId-\u003eWindowConfig-\u003eEither WindowConfig(Maybe WindowConfig)",
@@ -24371,6 +26495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esplit window in the place of cidold \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type.Window",
           "name": "splitWindow",
           "package": "hoodle-core",
@@ -24380,6 +26505,7 @@
         "index": {
           "description": "split window in the place of cidold",
           "hierarchy": "Hoodle Type Window",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type.Window",
           "name": "splitWindow",
           "normalized": "CanvasId-\u003e(CanvasId,SplitType)-\u003eWindowConfig-\u003eEither WindowConfig WindowConfig",
@@ -24395,6 +26521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Type",
           "name": "Type",
           "package": "hoodle-core",
@@ -24403,6 +26530,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Type",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Type",
           "name": "Type",
           "package": "hoodle-core",
@@ -24416,6 +26544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "Util",
           "package": "hoodle-core",
@@ -24424,6 +26553,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "Util",
           "package": "hoodle-core",
@@ -24437,6 +26567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "T",
           "package": "hoodle-core",
@@ -24445,6 +26576,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "T",
           "package": "hoodle-core",
@@ -24457,6 +26589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "UrlPath",
           "package": "hoodle-core",
@@ -24465,6 +26598,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "UrlPath",
           "package": "hoodle-core",
@@ -24478,6 +26612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "(#)",
           "package": "hoodle-core",
@@ -24487,6 +26622,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "(#) #",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -24501,6 +26637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "F",
           "package": "hoodle-core",
@@ -24510,6 +26647,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "F",
           "package": "hoodle-core",
@@ -24522,6 +26660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "FileUrl",
           "package": "hoodle-core",
@@ -24531,6 +26670,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "FileUrl",
           "package": "hoodle-core",
@@ -24544,6 +26684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "H",
           "package": "hoodle-core",
@@ -24553,6 +26694,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "H",
           "package": "hoodle-core",
@@ -24565,6 +26707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "HS",
           "package": "hoodle-core",
@@ -24574,6 +26717,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "HS",
           "package": "hoodle-core",
@@ -24587,6 +26731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "HttpUrl",
           "package": "hoodle-core",
@@ -24596,6 +26741,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "HttpUrl",
           "package": "hoodle-core",
@@ -24609,6 +26755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "N",
           "package": "hoodle-core",
@@ -24618,6 +26765,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "N",
           "package": "hoodle-core",
@@ -24631,6 +26779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor debugging\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "errorlog",
           "package": "hoodle-core",
@@ -24641,6 +26790,7 @@
         "index": {
           "description": "for debugging",
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "errorlog",
           "normalized": "String-\u003eIO()",
@@ -24655,6 +26805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "getLargestHeight",
           "package": "hoodle-core",
@@ -24664,6 +26815,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "getLargestHeight",
           "normalized": "Hoodle-\u003eDouble",
@@ -24679,6 +26831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "getLargestWidth",
           "package": "hoodle-core",
@@ -24688,6 +26841,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "getLargestWidth",
           "normalized": "Hoodle-\u003eDouble",
@@ -24703,6 +26857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "maybeError'",
           "package": "hoodle-core",
@@ -24712,6 +26867,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "maybeError'",
           "normalized": "String-\u003eMaybe a-\u003ea",
@@ -24727,6 +26883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "maybeFlip",
           "package": "hoodle-core",
@@ -24736,6 +26893,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "maybeFlip",
           "normalized": "Maybe a-\u003eb-\u003e(a-\u003eb)-\u003eb",
@@ -24751,6 +26909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "maybeRead",
           "package": "hoodle-core",
@@ -24760,6 +26919,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "maybeRead",
           "normalized": "String-\u003eMaybe a",
@@ -24775,6 +26935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "mkTmpFile",
           "package": "hoodle-core",
@@ -24784,6 +26945,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "mkTmpFile",
           "normalized": "String-\u003eIO FilePath",
@@ -24799,6 +26961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "uncurry4",
           "package": "hoodle-core",
@@ -24808,6 +26971,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "uncurry4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003e(a,b,c,d)-\u003ee",
@@ -24822,6 +26986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "urlParse",
           "package": "hoodle-core",
@@ -24831,6 +26996,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "urlParse",
           "normalized": "String-\u003eMaybe UrlPath",
@@ -24846,6 +27012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Util",
           "name": "waitUntil",
           "package": "hoodle-core",
@@ -24855,6 +27022,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Util",
           "name": "waitUntil",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eb()",
@@ -24870,6 +27038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "Coordinate",
           "package": "hoodle-core",
@@ -24878,6 +27047,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "Coordinate",
           "package": "hoodle-core",
@@ -24892,6 +27062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata structure for transformation among screen, canvas, desktop and page coordinates\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "CanvasGeometry",
           "package": "hoodle-core",
@@ -24901,6 +27072,7 @@
         "index": {
           "description": "data structure for transformation among screen canvas desktop and page coordinates",
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "CanvasGeometry",
           "package": "hoodle-core",
@@ -24914,6 +27086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "CanvasGeometry",
           "package": "hoodle-core",
@@ -24923,6 +27096,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "CanvasGeometry",
           "package": "hoodle-core",
@@ -24936,6 +27110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "canvas2Desktop",
           "package": "hoodle-core",
@@ -24945,6 +27120,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "canvas2Desktop",
           "normalized": "CanvasCoordinate-\u003eDesktopCoordinate",
@@ -24960,6 +27136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "canvas2Screen",
           "package": "hoodle-core",
@@ -24969,6 +27146,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "canvas2Screen",
           "normalized": "CanvasCoordinate-\u003eScreenCoordinate",
@@ -24984,6 +27162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "canvasDim",
           "package": "hoodle-core",
@@ -24993,6 +27172,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "canvasDim",
           "package": "hoodle-core",
@@ -25007,6 +27187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ein desktop coordinate \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "canvasViewPort",
           "package": "hoodle-core",
@@ -25017,6 +27198,7 @@
         "index": {
           "description": "in desktop coordinate",
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "canvasViewPort",
           "package": "hoodle-core",
@@ -25030,6 +27212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "core2Desktop",
           "package": "hoodle-core",
@@ -25039,6 +27222,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "core2Desktop",
           "normalized": "CanvasGeometry-\u003e(Double,Double)-\u003eDesktopCoordinate",
@@ -25054,6 +27238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "desktop2Canvas",
           "package": "hoodle-core",
@@ -25063,6 +27248,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "desktop2Canvas",
           "normalized": "DesktopCoordinate-\u003eCanvasCoordinate",
@@ -25078,6 +27264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "desktop2Page",
           "package": "hoodle-core",
@@ -25087,6 +27274,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "desktop2Page",
           "normalized": "DesktopCoordinate-\u003eMaybe(PageNum,PageCoordinate)",
@@ -25102,6 +27290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "desktop2Screen",
           "package": "hoodle-core",
@@ -25111,6 +27300,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "desktop2Screen",
           "normalized": "CanvasGeometry-\u003eDesktopCoordinate-\u003eScreenCoordinate",
@@ -25126,6 +27316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "desktopDim",
           "package": "hoodle-core",
@@ -25135,6 +27326,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "desktopDim",
           "package": "hoodle-core",
@@ -25148,6 +27340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "device2Desktop",
           "package": "hoodle-core",
@@ -25157,6 +27350,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "device2Desktop",
           "normalized": "CanvasGeometry-\u003ePointerCoord-\u003eDesktopCoordinate",
@@ -25172,6 +27366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "getCvsGeomFrmCvsInfo",
           "package": "hoodle-core",
@@ -25181,6 +27376,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "getCvsGeomFrmCvsInfo",
           "normalized": "CanvasInfo a-\u003eIO CanvasGeometry",
@@ -25197,6 +27393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet Canvas Origin in Page Coordinate : Right is successful case, \n   Left is unsuccessful case, then return in DesktopCoordinate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "getCvsOriginInPage",
           "package": "hoodle-core",
@@ -25207,6 +27404,7 @@
         "index": {
           "description": "Get Canvas Origin in Page Coordinate Right is successful case Left is unsuccessful case then return in DesktopCoordinate",
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "getCvsOriginInPage",
           "normalized": "CanvasGeometry-\u003eEither DesktopCoordinate(PageNum,PageCoordinate)",
@@ -25222,6 +27420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "getPagesInRange",
           "package": "hoodle-core",
@@ -25231,6 +27430,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "getPagesInRange",
           "normalized": "CanvasGeometry-\u003eViewPortBBox-\u003eHoodle EditMode-\u003e[PageNum]",
@@ -25246,6 +27446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "getPagesInViewPortRange",
           "package": "hoodle-core",
@@ -25255,6 +27456,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "getPagesInViewPortRange",
           "normalized": "CanvasGeometry-\u003eHoodle EditMode-\u003e[PageNum]",
@@ -25271,6 +27473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a canvas geometry data structure from current status \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "makeCanvasGeometry",
           "package": "hoodle-core",
@@ -25281,6 +27484,7 @@
         "index": {
           "description": "make canvas geometry data structure from current status",
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "makeCanvasGeometry",
           "normalized": "PageNum-\u003ePageArrangement a-\u003eDrawingArea-\u003eIO CanvasGeometry",
@@ -25296,6 +27500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "makeDesktop2Page",
           "package": "hoodle-core",
@@ -25305,6 +27510,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "makeDesktop2Page",
           "normalized": "(PageNum-\u003eMaybe(PageOrigin,PageDimension))-\u003eDesktopCoordinate-\u003eMaybe(PageNum,PageCoordinate)",
@@ -25320,6 +27526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "makePage2Desktop",
           "package": "hoodle-core",
@@ -25329,6 +27536,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "makePage2Desktop",
           "normalized": "(PageNum-\u003eMaybe(PageOrigin,PageDimension))-\u003e(PageNum,PageCoordinate)-\u003eDesktopCoordinate",
@@ -25344,6 +27552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "page2Desktop",
           "package": "hoodle-core",
@@ -25353,6 +27562,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "page2Desktop",
           "normalized": "(PageNum,PageCoordinate)-\u003eDesktopCoordinate",
@@ -25368,6 +27578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "screen2Canvas",
           "package": "hoodle-core",
@@ -25377,6 +27588,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "screen2Canvas",
           "normalized": "ScreenCoordinate-\u003eCanvasCoordinate",
@@ -25392,6 +27604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "screen2Desktop",
           "package": "hoodle-core",
@@ -25401,6 +27614,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "screen2Desktop",
           "normalized": "CanvasGeometry-\u003eScreenCoordinate-\u003eDesktopCoordinate",
@@ -25416,6 +27630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "screenDim",
           "package": "hoodle-core",
@@ -25425,6 +27640,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "screenDim",
           "package": "hoodle-core",
@@ -25438,6 +27654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "touch2Desktop",
           "package": "hoodle-core",
@@ -25447,6 +27664,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "touch2Desktop",
           "normalized": "CanvasGeometry-\u003e(Double,Double)-\u003eDesktopCoordinate",
@@ -25462,6 +27680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "wacom2Canvas",
           "package": "hoodle-core",
@@ -25471,6 +27690,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "wacom2Canvas",
           "normalized": "CanvasGeometry-\u003e(Double,Double)-\u003eCanvasCoordinate",
@@ -25486,6 +27706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "wacom2Desktop",
           "package": "hoodle-core",
@@ -25495,6 +27716,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "wacom2Desktop",
           "normalized": "CanvasGeometry-\u003e(Double,Double)-\u003eDesktopCoordinate",
@@ -25510,6 +27732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "xformCanvas2Desk",
           "package": "hoodle-core",
@@ -25519,6 +27742,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "xformCanvas2Desk",
           "normalized": "CanvasDimension-\u003eViewPortBBox-\u003eCanvasCoordinate-\u003eDesktopCoordinate",
@@ -25534,6 +27758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "xformCanvas2Screen",
           "package": "hoodle-core",
@@ -25543,6 +27768,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "xformCanvas2Screen",
           "normalized": "CanvasOrigin-\u003eCanvasCoordinate-\u003eScreenCoordinate",
@@ -25558,6 +27784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "xformDesk2Canvas",
           "package": "hoodle-core",
@@ -25567,6 +27794,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "xformDesk2Canvas",
           "normalized": "CanvasDimension-\u003eViewPortBBox-\u003eDesktopCoordinate-\u003eCanvasCoordinate",
@@ -25582,6 +27810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Coordinate",
           "name": "xformScreen2Canvas",
           "package": "hoodle-core",
@@ -25591,6 +27820,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Coordinate",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Coordinate",
           "name": "xformScreen2Canvas",
           "normalized": "CanvasOrigin-\u003eScreenCoordinate-\u003eCanvasCoordinate",
@@ -25606,6 +27836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "Draw",
           "package": "hoodle-core",
@@ -25614,6 +27845,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "Draw",
           "package": "hoodle-core",
@@ -25627,6 +27859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "ContPageDraw",
           "package": "hoodle-core",
@@ -25635,6 +27868,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "ContPageDraw",
           "package": "hoodle-core",
@@ -25648,6 +27882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "DrawingFunction",
           "package": "hoodle-core",
@@ -25656,6 +27891,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "DrawingFunction",
           "package": "hoodle-core",
@@ -25669,6 +27905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "PressureMode",
           "package": "hoodle-core",
@@ -25677,6 +27914,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "PressureMode",
           "package": "hoodle-core",
@@ -25690,6 +27928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "SinglePageDraw",
           "package": "hoodle-core",
@@ -25698,6 +27937,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "SinglePageDraw",
           "package": "hoodle-core",
@@ -25711,6 +27951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "ContPageDraw",
           "package": "hoodle-core",
@@ -25720,6 +27961,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "ContPageDraw",
           "package": "hoodle-core",
@@ -25733,6 +27975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "NoPressure",
           "package": "hoodle-core",
@@ -25742,6 +27985,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "NoPressure",
           "package": "hoodle-core",
@@ -25755,6 +27999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "Pressure",
           "package": "hoodle-core",
@@ -25764,6 +28009,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "Pressure",
           "package": "hoodle-core",
@@ -25777,6 +28023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "SinglePageDraw",
           "package": "hoodle-core",
@@ -25786,6 +28033,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "SinglePageDraw",
           "package": "hoodle-core",
@@ -25799,6 +28047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "cairoHittedBoxDraw",
           "package": "hoodle-core",
@@ -25808,6 +28057,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "cairoHittedBoxDraw",
           "normalized": "CanvasGeometry-\u003ePage SelectMode-\u003eMaybe BBox-\u003eRender()",
@@ -25823,6 +28073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "cairoXform4PageCoordinate",
           "package": "hoodle-core",
@@ -25832,6 +28083,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "cairoXform4PageCoordinate",
           "normalized": "CanvasGeometry-\u003ePageNum-\u003eRender()",
@@ -25847,6 +28099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "canvas2DesktopRatio",
           "package": "hoodle-core",
@@ -25856,6 +28109,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "canvas2DesktopRatio",
           "normalized": "CanvasGeometry-\u003eDouble",
@@ -25871,6 +28125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "canvasImageSurface",
           "package": "hoodle-core",
@@ -25879,6 +28134,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "canvasImageSurface",
           "normalized": "Maybe Double-\u003eCanvasGeometry-\u003eHoodle EditMode-\u003eIO(Surface,Dimension)",
@@ -25895,6 +28151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecommon routine for double buffering \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "doubleBufferDraw",
           "package": "hoodle-core",
@@ -25905,6 +28162,7 @@
         "index": {
           "description": "common routine for double buffering",
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "doubleBufferDraw",
           "normalized": "(DrawWindow,Maybe Surface)-\u003eCanvasGeometry-\u003eRender()-\u003eRender a-\u003eIntersectBBox-\u003eIO(Maybe a)",
@@ -25920,6 +28178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "doubleBufferFlush",
           "package": "hoodle-core",
@@ -25929,6 +28188,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "doubleBufferFlush",
           "normalized": "Surface-\u003eCanvasInfo a-\u003eIO()",
@@ -25944,6 +28204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "drawContHoodle",
           "package": "hoodle-core",
@@ -25953,6 +28214,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "drawContHoodle",
           "package": "hoodle-core",
@@ -25966,6 +28228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "drawContHoodleSel",
           "package": "hoodle-core",
@@ -25975,6 +28238,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "drawContHoodleSel",
           "normalized": "CanvasGeometry-\u003eDrawingFunction ContinuousPage SelectMode",
@@ -25990,6 +28254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "drawContPageGen",
           "package": "hoodle-core",
@@ -25999,6 +28264,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "drawContPageGen",
           "normalized": "((PageNum,Page EditMode)-\u003eMaybe BBox-\u003eDrawFlag-\u003eRender(Int,Page EditMode))-\u003eDrawingFunction ContinuousPage EditMode",
@@ -26014,6 +28280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "drawContPageSelGen",
           "package": "hoodle-core",
@@ -26023,6 +28290,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "drawContPageSelGen",
           "normalized": "((PageNum,Page EditMode)-\u003eMaybe BBox-\u003eDrawFlag-\u003eRender(Int,Page EditMode))-\u003e((PageNum,Page SelectMode)-\u003eMaybe BBox-\u003eDrawFlag-\u003eRender(Int,Page SelectMode))-\u003eDrawingFunction ContinuousPage SelectMode",
@@ -26038,6 +28306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "drawCurvebitGen",
           "package": "hoodle-core",
@@ -26047,6 +28316,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "drawCurvebitGen",
           "normalized": "PressureMode-\u003eDrawingArea-\u003eCanvasGeometry-\u003eDouble-\u003e(Double,Double,Double,Double)-\u003ePageNum-\u003eSeq(Double,Double,Double)-\u003e((Double,Double),Double)-\u003e((Double,Double),Double)-\u003eIO()",
@@ -26062,6 +28332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "drawFuncGen",
           "package": "hoodle-core",
@@ -26071,6 +28342,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "drawFuncGen",
           "normalized": "a-\u003e((PageNum,Page a)-\u003eMaybe BBox-\u003eDrawFlag-\u003eRender(Page a))-\u003eDrawingFunction SinglePage a",
@@ -26086,6 +28358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "drawFuncSelGen",
           "package": "hoodle-core",
@@ -26095,6 +28368,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "drawFuncSelGen",
           "normalized": "((PageNum,Page SelectMode)-\u003eMaybe BBox-\u003eDrawFlag-\u003eRender())-\u003e((PageNum,Page SelectMode)-\u003eMaybe BBox-\u003eDrawFlag-\u003eRender())-\u003eDrawingFunction SinglePage SelectMode",
@@ -26110,6 +28384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "drawLayerWidget",
           "package": "hoodle-core",
@@ -26119,6 +28394,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "drawLayerWidget",
           "normalized": "Hoodle EditMode-\u003eCanvasInfo a-\u003eMaybe BBox-\u003eCanvasCoordinate-\u003eRender()",
@@ -26134,6 +28410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "drawSinglePage",
           "package": "hoodle-core",
@@ -26143,6 +28420,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "drawSinglePage",
           "package": "hoodle-core",
@@ -26156,6 +28434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "drawSinglePageSel",
           "package": "hoodle-core",
@@ -26165,6 +28444,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "drawSinglePageSel",
           "normalized": "CanvasGeometry-\u003eDrawingFunction SinglePage SelectMode",
@@ -26180,6 +28460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "drawWidgets",
           "package": "hoodle-core",
@@ -26189,6 +28470,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "drawWidgets",
           "normalized": "[WidgetItem]-\u003eHoodle EditMode-\u003eCanvasInfo a-\u003eMaybe BBox-\u003eRender()",
@@ -26204,6 +28486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "emphasisCanvasRender",
           "package": "hoodle-core",
@@ -26213,6 +28496,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "emphasisCanvasRender",
           "normalized": "PenColor-\u003eCanvasGeometry-\u003eRender()",
@@ -26229,6 +28513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehighlight notified item (like link)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "emphasisNotifiedRender",
           "package": "hoodle-core",
@@ -26239,6 +28524,7 @@
         "index": {
           "description": "highlight notified item like link",
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "emphasisNotifiedRender",
           "normalized": "CanvasGeometry-\u003e(PageNum,BBox,RItem)-\u003eRender()",
@@ -26255,6 +28541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehighlight current page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "emphasisPageRender",
           "package": "hoodle-core",
@@ -26265,6 +28552,7 @@
         "index": {
           "description": "highlight current page",
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "emphasisPageRender",
           "normalized": "CanvasGeometry-\u003e(PageNum,Page EditMode)-\u003eRender()",
@@ -26280,6 +28568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "getBBoxInPageCoord",
           "package": "hoodle-core",
@@ -26289,6 +28578,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "getBBoxInPageCoord",
           "normalized": "CanvasGeometry-\u003ePageNum-\u003eBBox-\u003eBBox",
@@ -26304,6 +28594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "getCanvasViewPort",
           "package": "hoodle-core",
@@ -26313,6 +28604,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "getCanvasViewPort",
           "normalized": "CanvasGeometry-\u003eViewPortBBox",
@@ -26328,6 +28620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "getViewableBBox",
           "package": "hoodle-core",
@@ -26336,6 +28629,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "getViewableBBox",
           "normalized": "CanvasGeometry-\u003eMaybe BBox-\u003eIntersectBBox",
@@ -26351,6 +28645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "renderBoxSelection",
           "package": "hoodle-core",
@@ -26360,6 +28655,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "renderBoxSelection",
           "normalized": "BBox-\u003eRender()",
@@ -26375,6 +28671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "renderClockWidget",
           "package": "hoodle-core",
@@ -26384,6 +28681,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "renderClockWidget",
           "normalized": "Maybe BBox-\u003eClockWidgetConfig-\u003eRender()",
@@ -26399,6 +28697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "renderLasso",
           "package": "hoodle-core",
@@ -26408,6 +28707,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "renderLasso",
           "normalized": "CanvasGeometry-\u003eSeq(Double,Double)-\u003eRender()",
@@ -26423,6 +28723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "renderLayerContent",
           "package": "hoodle-core",
@@ -26432,6 +28733,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "renderLayerContent",
           "normalized": "Maybe BBox-\u003eDimension-\u003eSurface-\u003eCanvasCoordinate-\u003eRender()",
@@ -26447,6 +28749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "renderLayerWidget",
           "package": "hoodle-core",
@@ -26456,6 +28759,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "renderLayerWidget",
           "normalized": "String-\u003eMaybe BBox-\u003eCanvasCoordinate-\u003eRender()",
@@ -26471,6 +28775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "renderPanZoomWidget",
           "package": "hoodle-core",
@@ -26480,6 +28785,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "renderPanZoomWidget",
           "normalized": "Bool-\u003eMaybe BBox-\u003eCanvasCoordinate-\u003eRender()",
@@ -26495,6 +28801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "renderSelectHandle",
           "package": "hoodle-core",
@@ -26504,6 +28811,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "renderSelectHandle",
           "normalized": "CanvasGeometry-\u003eBBox-\u003eRender()",
@@ -26519,6 +28827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "renderSelectedItem",
           "package": "hoodle-core",
@@ -26528,6 +28837,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "renderSelectedItem",
           "normalized": "RItem-\u003eRender()",
@@ -26543,6 +28853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "renderSelectedStroke",
           "package": "hoodle-core",
@@ -26552,6 +28863,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "renderSelectedStroke",
           "normalized": "BBoxed Stroke-\u003eRender()",
@@ -26567,6 +28879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "unContPageDraw",
           "package": "hoodle-core",
@@ -26576,6 +28889,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "unContPageDraw",
           "normalized": "Bool-\u003eCanvasInfo ContinuousPage-\u003eMaybe BBox-\u003eHoodle a-\u003eDrawFlag-\u003eIO(Hoodle a)",
@@ -26591,6 +28905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "unSinglePageDraw",
           "package": "hoodle-core",
@@ -26600,6 +28915,7 @@
         },
         "index": {
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "unSinglePageDraw",
           "normalized": "Bool-\u003e(DrawingArea,Maybe Surface)-\u003e(PageNum,Page a)-\u003eViewInfo SinglePage-\u003eMaybe BBox-\u003eDrawFlag-\u003eIO(Page a)",
@@ -26616,6 +28932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edouble buffering within two image surfaces \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.View.Draw",
           "name": "virtualDoubleBufferDraw",
           "package": "hoodle-core",
@@ -26626,6 +28943,7 @@
         "index": {
           "description": "double buffering within two image surfaces",
           "hierarchy": "Hoodle View Draw",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.View.Draw",
           "name": "virtualDoubleBufferDraw",
           "normalized": "Surface-\u003eSurface-\u003eRender()-\u003eRender()-\u003ea()",
@@ -26642,6 +28960,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClock widget drawing and action\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Clock",
           "name": "Clock",
           "package": "hoodle-core",
@@ -26651,6 +28970,7 @@
         "index": {
           "description": "Clock widget drawing and action",
           "hierarchy": "Hoodle Widget Clock",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Clock",
           "name": "Clock",
           "package": "hoodle-core",
@@ -26664,6 +28984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Clock",
           "name": "CWAction",
           "package": "hoodle-core",
@@ -26672,6 +28993,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget Clock",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Clock",
           "name": "CWAction",
           "package": "hoodle-core",
@@ -26685,6 +29007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Clock",
           "name": "Move",
           "package": "hoodle-core",
@@ -26694,6 +29017,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget Clock",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Clock",
           "name": "Move",
           "normalized": "Move(CanvasCoordinate,CanvasCoordinate)",
@@ -26709,6 +29033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Clock",
           "name": "checkPointerInClock",
           "package": "hoodle-core",
@@ -26718,6 +29043,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget Clock",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Clock",
           "name": "checkPointerInClock",
           "normalized": "(CanvasId,CanvasInfo a,CanvasGeometry)-\u003ePointerCoord-\u003eMaybe CWAction",
@@ -26734,6 +29060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emain event loop for clock widget\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Clock",
           "name": "manipulateCW",
           "package": "hoodle-core",
@@ -26744,6 +29071,7 @@
         "index": {
           "description": "main event loop for clock widget",
           "hierarchy": "Hoodle Widget Clock",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Clock",
           "name": "manipulateCW",
           "normalized": "CanvasId-\u003eCanvasGeometry-\u003e(Surface,Surface)-\u003eCanvasCoordinate-\u003eCanvasCoordinate-\u003eUTCTime-\u003eMainCoroutine()",
@@ -26759,6 +29087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Clock",
           "name": "moveClockWidget",
           "package": "hoodle-core",
@@ -26768,6 +29097,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget Clock",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Clock",
           "name": "moveClockWidget",
           "normalized": "CanvasId-\u003eCanvasGeometry-\u003e(Surface,Surface)-\u003eCanvasCoordinate-\u003eCanvasCoordinate-\u003ePointerCoord-\u003eMainCoroutine()",
@@ -26783,6 +29113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Clock",
           "name": "startClockWidget",
           "package": "hoodle-core",
@@ -26792,6 +29123,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget Clock",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Clock",
           "name": "startClockWidget",
           "normalized": "(CanvasId,CanvasInfo a,CanvasGeometry)-\u003eCWAction-\u003eMainCoroutine()",
@@ -26807,6 +29139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Clock",
           "name": "toggleClock",
           "package": "hoodle-core",
@@ -26816,6 +29149,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget Clock",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Clock",
           "name": "toggleClock",
           "normalized": "CanvasId-\u003eMainCoroutine()",
@@ -26831,6 +29165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Dispatch",
           "name": "Dispatch",
           "package": "hoodle-core",
@@ -26839,6 +29174,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget Dispatch",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Dispatch",
           "name": "Dispatch",
           "package": "hoodle-core",
@@ -26852,6 +29188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Dispatch",
           "name": "widgetCheckPen",
           "package": "hoodle-core",
@@ -26860,6 +29197,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget Dispatch",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Dispatch",
           "name": "widgetCheckPen",
           "normalized": "CanvasId-\u003ePointerCoord-\u003eMainCoroutine()-\u003eMainCoroutine()",
@@ -26876,6 +29214,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLayer widget\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Layer",
           "name": "Layer",
           "package": "hoodle-core",
@@ -26885,6 +29224,7 @@
         "index": {
           "description": "Layer widget",
           "hierarchy": "Hoodle Widget Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Layer",
           "name": "Layer",
           "package": "hoodle-core",
@@ -26898,6 +29238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Layer",
           "name": "LWAction",
           "package": "hoodle-core",
@@ -26906,6 +29247,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Layer",
           "name": "LWAction",
           "package": "hoodle-core",
@@ -26919,6 +29261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Layer",
           "name": "Close",
           "package": "hoodle-core",
@@ -26928,6 +29271,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Layer",
           "name": "Close",
           "package": "hoodle-core",
@@ -26941,6 +29285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Layer",
           "name": "Move",
           "package": "hoodle-core",
@@ -26950,6 +29295,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Layer",
           "name": "Move",
           "normalized": "Move(CanvasCoordinate,CanvasCoordinate)",
@@ -26965,6 +29311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Layer",
           "name": "ToggleShowContent",
           "package": "hoodle-core",
@@ -26974,6 +29321,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Layer",
           "name": "ToggleShowContent",
           "package": "hoodle-core",
@@ -26987,6 +29335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Layer",
           "name": "checkPointerInLayer",
           "package": "hoodle-core",
@@ -26996,6 +29345,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Layer",
           "name": "checkPointerInLayer",
           "normalized": "(CanvasId,CanvasInfo a,CanvasGeometry)-\u003ePointerCoord-\u003eMaybe LWAction",
@@ -27012,6 +29362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emain event loop for layer widget\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Layer",
           "name": "manipulateLW",
           "package": "hoodle-core",
@@ -27022,6 +29373,7 @@
         "index": {
           "description": "main event loop for layer widget",
           "hierarchy": "Hoodle Widget Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Layer",
           "name": "manipulateLW",
           "normalized": "CanvasId-\u003eCanvasGeometry-\u003e(Surface,Surface)-\u003eCanvasCoordinate-\u003eCanvasCoordinate-\u003eUTCTime-\u003eMainCoroutine()",
@@ -27037,6 +29389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Layer",
           "name": "moveLayerWidget",
           "package": "hoodle-core",
@@ -27046,6 +29399,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Layer",
           "name": "moveLayerWidget",
           "normalized": "CanvasId-\u003eCanvasGeometry-\u003e(Surface,Surface)-\u003eCanvasCoordinate-\u003eCanvasCoordinate-\u003ePointerCoord-\u003eMainCoroutine()",
@@ -27061,6 +29415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Layer",
           "name": "startLayerWidget",
           "package": "hoodle-core",
@@ -27070,6 +29425,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Layer",
           "name": "startLayerWidget",
           "normalized": "(CanvasId,CanvasInfo a,CanvasGeometry)-\u003eLWAction-\u003eMainCoroutine()",
@@ -27085,6 +29441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.Layer",
           "name": "toggleLayer",
           "package": "hoodle-core",
@@ -27094,6 +29451,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget Layer",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.Layer",
           "name": "toggleLayer",
           "normalized": "CanvasId-\u003eMainCoroutine()",
@@ -27110,6 +29468,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePan-Zoom widget drawing and action\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.PanZoom",
           "name": "PanZoom",
           "package": "hoodle-core",
@@ -27119,6 +29478,7 @@
         "index": {
           "description": "Pan-Zoom widget drawing and action",
           "hierarchy": "Hoodle Widget PanZoom",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.PanZoom",
           "name": "PanZoom",
           "package": "hoodle-core",
@@ -27132,6 +29492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.PanZoom",
           "name": "PanZoomMode",
           "package": "hoodle-core",
@@ -27140,6 +29501,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget PanZoom",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.PanZoom",
           "name": "PanZoomMode",
           "package": "hoodle-core",
@@ -27153,6 +29515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.PanZoom",
           "name": "PanZoomTouch",
           "package": "hoodle-core",
@@ -27161,6 +29524,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget PanZoom",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.PanZoom",
           "name": "PanZoomTouch",
           "package": "hoodle-core",
@@ -27174,6 +29538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.PanZoom",
           "name": "Moving",
           "package": "hoodle-core",
@@ -27183,6 +29548,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget PanZoom",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.PanZoom",
           "name": "Moving",
           "package": "hoodle-core",
@@ -27196,6 +29562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.PanZoom",
           "name": "Panning",
           "package": "hoodle-core",
@@ -27205,6 +29572,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget PanZoom",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.PanZoom",
           "name": "Panning",
           "package": "hoodle-core",
@@ -27218,6 +29586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.PanZoom",
           "name": "PenMode",
           "package": "hoodle-core",
@@ -27227,6 +29596,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget PanZoom",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.PanZoom",
           "name": "PenMode",
           "package": "hoodle-core",
@@ -27240,6 +29610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.PanZoom",
           "name": "TouchMode",
           "package": "hoodle-core",
@@ -27249,6 +29620,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget PanZoom",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.PanZoom",
           "name": "TouchMode",
           "package": "hoodle-core",
@@ -27262,6 +29634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.PanZoom",
           "name": "Zooming",
           "package": "hoodle-core",
@@ -27271,6 +29644,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget PanZoom",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.PanZoom",
           "name": "Zooming",
           "package": "hoodle-core",
@@ -27284,6 +29658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.PanZoom",
           "name": "checkPointerInPanZoom",
           "package": "hoodle-core",
@@ -27293,6 +29668,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget PanZoom",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.PanZoom",
           "name": "checkPointerInPanZoom",
           "normalized": "(CanvasId,CanvasInfo a,CanvasGeometry)-\u003ePointerCoord-\u003eMaybe(Maybe(PanZoomMode,(CanvasCoordinate,CanvasCoordinate)))",
@@ -27308,6 +29684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.PanZoom",
           "name": "findPanXform",
           "package": "hoodle-core",
@@ -27317,6 +29694,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget PanZoom",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.PanZoom",
           "name": "findPanXform",
           "normalized": "Dimension-\u003e((Double,Double),(Double,Double))-\u003e(Double,Double)",
@@ -27332,6 +29710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.PanZoom",
           "name": "findZoomXform",
           "package": "hoodle-core",
@@ -27341,6 +29720,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget PanZoom",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.PanZoom",
           "name": "findZoomXform",
           "normalized": "Dimension-\u003e((Double,Double),(Double,Double),(Double,Double))-\u003e(Double,(Double,Double))",
@@ -27357,6 +29737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emanipulate Pan-Zoom widget until released when grabbing the widget\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.PanZoom",
           "name": "manipulatePZW",
           "package": "hoodle-core",
@@ -27366,6 +29747,7 @@
         "index": {
           "description": "manipulate Pan-Zoom widget until released when grabbing the widget",
           "hierarchy": "Hoodle Widget PanZoom",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.PanZoom",
           "name": "manipulatePZW",
           "normalized": "(PanZoomTouch,PanZoomMode)-\u003eCanvasId-\u003eCanvasGeometry-\u003e(Surface,Surface)-\u003eCanvasCoordinate-\u003eCanvasCoordinate-\u003eUTCTime-\u003eMainCoroutine()",
@@ -27381,6 +29763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.PanZoom",
           "name": "movingRender",
           "package": "hoodle-core",
@@ -27390,6 +29773,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget PanZoom",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.PanZoom",
           "name": "movingRender",
           "normalized": "PanZoomMode-\u003eCanvasId-\u003eCanvasGeometry-\u003e(Surface,Surface)-\u003eCanvasCoordinate-\u003eCanvasCoordinate-\u003ePointerCoord-\u003eMainCoroutine()",
@@ -27405,6 +29789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.PanZoom",
           "name": "startPanZoomWidget",
           "package": "hoodle-core",
@@ -27414,6 +29799,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget PanZoom",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.PanZoom",
           "name": "startPanZoomWidget",
           "normalized": "PanZoomTouch-\u003e(CanvasId,CanvasInfo a,CanvasGeometry)-\u003eMaybe(PanZoomMode,(CanvasCoordinate,CanvasCoordinate))-\u003eMainCoroutine()",
@@ -27429,6 +29815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.PanZoom",
           "name": "togglePanZoom",
           "package": "hoodle-core",
@@ -27438,6 +29825,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget PanZoom",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.PanZoom",
           "name": "togglePanZoom",
           "normalized": "CanvasId-\u003eMainCoroutine()",
@@ -27453,6 +29841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.PanZoom",
           "name": "toggleTouch",
           "package": "hoodle-core",
@@ -27462,6 +29851,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget PanZoom",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.PanZoom",
           "name": "toggleTouch",
           "normalized": "MainCoroutine()",
@@ -27477,6 +29867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:39 UTC 2014",
           "module": "Hoodle.Widget.PanZoom",
           "name": "touchStart",
           "package": "hoodle-core",
@@ -27486,6 +29877,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Widget PanZoom",
+          "indexed": "2014-03-11T18:43:39",
           "module": "Hoodle.Widget.PanZoom",
           "name": "touchStart",
           "normalized": "CanvasId-\u003ePointerCoord-\u003eMainCoroutine()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "labeled-tree"
+        "phrase": "labeled-tree",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:44 UTC 2014",
           "module": "Data.LabeledTree",
           "name": "LabeledTree",
           "package": "labeled-tree",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data LabeledTree",
+          "indexed": "2014-03-11T19:03:44",
           "module": "Data.LabeledTree",
           "name": "LabeledTree",
           "package": "labeled-tree",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elabel + value pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:44 UTC 2014",
           "module": "Data.LabeledTree",
           "name": "::\u003e",
           "package": "labeled-tree",
@@ -49,6 +52,7 @@
         "index": {
           "description": "label value pair",
           "hierarchy": "Data LabeledTree",
+          "indexed": "2014-03-11T19:03:44",
           "module": "Data.LabeledTree",
           "name": "::\u003e",
           "package": "labeled-tree",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:44 UTC 2014",
           "module": "Data.LabeledTree",
           "name": "Forest",
           "package": "labeled-tree",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data LabeledTree",
+          "indexed": "2014-03-11T19:03:44",
           "module": "Data.LabeledTree",
           "name": "Forest",
           "package": "labeled-tree",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:44 UTC 2014",
           "module": "Data.LabeledTree",
           "name": "Tree",
           "package": "labeled-tree",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data LabeledTree",
+          "indexed": "2014-03-11T19:03:44",
           "module": "Data.LabeledTree",
           "name": "Tree",
           "package": "labeled-tree",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:44 UTC 2014",
           "module": "Data.LabeledTree",
           "name": "::\u003e",
           "package": "labeled-tree",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data LabeledTree",
+          "indexed": "2014-03-11T19:03:44",
           "module": "Data.LabeledTree",
           "name": "::\u003e",
           "package": "labeled-tree",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:44 UTC 2014",
           "module": "Data.LabeledTree",
           "name": "Node",
           "package": "labeled-tree",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data LabeledTree",
+          "indexed": "2014-03-11T19:03:44",
           "module": "Data.LabeledTree",
           "name": "Node",
           "package": "labeled-tree",
@@ -147,6 +159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elabel value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:44 UTC 2014",
           "module": "Data.LabeledTree",
           "name": "rootLabel",
           "package": "labeled-tree",
@@ -157,6 +170,7 @@
         "index": {
           "description": "label value",
           "hierarchy": "Data LabeledTree",
+          "indexed": "2014-03-11T19:03:44",
           "module": "Data.LabeledTree",
           "name": "rootLabel",
           "package": "labeled-tree",
@@ -171,6 +185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ezero or more child trees\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:44 UTC 2014",
           "module": "Data.LabeledTree",
           "name": "subForest",
           "package": "labeled-tree",
@@ -181,6 +196,7 @@
         "index": {
           "description": "zero or more child trees",
           "hierarchy": "Data LabeledTree",
+          "indexed": "2014-03-11T19:03:44",
           "module": "Data.LabeledTree",
           "name": "subForest",
           "package": "labeled-tree",

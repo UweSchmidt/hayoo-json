@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskore-synthesizer"
+        "phrase": "haskore-synthesizer",
+        "type": "phrase"
       },
       "type": "context"
     }

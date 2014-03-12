@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scyther-proof"
+        "phrase": "scyther-proof",
+        "type": "phrase"
       },
       "type": "context"
     }

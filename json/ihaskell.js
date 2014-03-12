@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ihaskell"
+        "phrase": "ihaskell",
+        "type": "phrase"
       },
       "type": "context"
     }

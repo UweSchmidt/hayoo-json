@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "neither"
+        "phrase": "neither",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides three different datatypes: \u003ccode\u003e\u003ca\u003eAEither\u003c/a\u003e\u003c/code\u003e is the\n applicative version of Either. It does not provide a monad instance, and\n \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003es together error values. \u003ccode\u003e\u003ca\u003eMEither\u003c/a\u003e\u003c/code\u003e is the monadic version, which\n only holds onto the first error value. \u003ccode\u003e\u003ca\u003eMEitherT\u003c/a\u003e\u003c/code\u003e is a monad transformer.\n\u003c/p\u003e\u003cp\u003eAlso, *Either datatypes and utility functions from Data.Either\n are generalized with \u003ccode\u003e\u003ca\u003eNeither\u003c/a\u003e\u003c/code\u003e type class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "Neither",
           "package": "neither",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides three different datatypes AEither is the applicative version of Either It does not provide monad instance and mappend together error values MEither is the monadic version which only holds onto the first error value MEitherT is monad transformer Also Either datatypes and utility functions from Data.Either are generalized with Neither type class",
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "Neither",
           "package": "neither",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "AEither",
           "package": "neither",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "AEither",
           "package": "neither",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "MEither",
           "package": "neither",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "MEither",
           "package": "neither",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "MEitherT",
           "package": "neither",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "MEitherT",
           "package": "neither",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "Neither",
           "package": "neither",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "Neither",
           "package": "neither",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "ALeft",
           "package": "neither",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "ALeft",
           "package": "neither",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "ARight",
           "package": "neither",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "ARight",
           "package": "neither",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "MEitherT",
           "package": "neither",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "MEitherT",
           "package": "neither",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "MLeft",
           "package": "neither",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "MLeft",
           "package": "neither",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "MRight",
           "package": "neither",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "MRight",
           "package": "neither",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "aeither",
           "package": "neither",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "aeither",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003eAEither a c-\u003eb",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "either",
           "package": "neither",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "either",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003ed a c-\u003eb",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "left",
           "package": "neither",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "left",
           "normalized": "a-\u003eb a c",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "lefts",
           "package": "neither",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "lefts",
           "normalized": "a(b c d)-\u003ea c",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "mapEither",
           "package": "neither",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "mapEither",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003ee a c-\u003ee b d",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "mapLeft",
           "package": "neither",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "mapLeft",
           "normalized": "(a-\u003eb)-\u003ec a d-\u003ec b d",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "mapMEitherT",
           "package": "neither",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "mapMEitherT",
           "normalized": "(a(MEither b c)-\u003ed(MEither e f))-\u003eMEitherT b a c-\u003eMEitherT e d f",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "mapRight",
           "package": "neither",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "mapRight",
           "normalized": "(a-\u003eb)-\u003ec d a-\u003ec d b",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "meither",
           "package": "neither",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "meither",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003eMEither a c-\u003eb",
@@ -446,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "partitionEithers",
           "package": "neither",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "partitionEithers",
           "normalized": "a(b c d)-\u003e(a c,a d)",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "right",
           "package": "neither",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "right",
           "normalized": "a-\u003eb c a",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "rights",
           "package": "neither",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "rights",
           "normalized": "a(b c d)-\u003ea d",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "runMEitherT",
           "package": "neither",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "runMEitherT",
           "package": "neither",
@@ -538,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:32 UTC 2014",
           "module": "Data.Neither",
           "name": "throwMEither",
           "package": "neither",
@@ -547,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Data Neither",
+          "indexed": "2014-03-11T19:26:32",
           "module": "Data.Neither",
           "name": "throwMEither",
           "normalized": "a-\u003eMEitherT a b c",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsmagick"
+        "phrase": "hsmagick",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "Images",
           "package": "hsmagick",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "Images",
           "package": "hsmagick",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "affineTransform",
           "package": "hsmagick",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "affineTransform",
           "normalized": "AffineMatrix-\u003eHImage-\u003eHImage",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "allocateImage",
           "package": "hsmagick",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "allocateImage",
           "normalized": "ImageNotLoaded-\u003eHImage",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "animateImages",
           "package": "hsmagick",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "animateImages",
           "normalized": "[HImage]-\u003eIO()",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "appendImages",
           "package": "hsmagick",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "appendImages",
           "normalized": "ImageOrder-\u003e[HImage]-\u003eHImage",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "averageImages",
           "package": "hsmagick",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "averageImages",
           "normalized": "[HImage]-\u003eHImage",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "blobToImage",
           "package": "hsmagick",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "blobToImage",
           "normalized": "ByteString-\u003eHImage",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "chopImage",
           "package": "hsmagick",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "chopImage",
           "normalized": "Rectangle-\u003eHImage-\u003eHImage",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "compositeImage",
           "package": "hsmagick",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "compositeImage",
           "normalized": "CompositeOp-\u003eInt-\u003eInt-\u003eHImage-\u003eHImage-\u003eHImage",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "constituteImage",
           "package": "hsmagick",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "constituteImage",
           "normalized": "PixMap-\u003e[[a]]-\u003eHImage",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "contrastImage",
           "package": "hsmagick",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "contrastImage",
           "normalized": "Contrast-\u003eHImage-\u003eHImage",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "cropImage",
           "package": "hsmagick",
@@ -288,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "cropImage",
           "normalized": "Rectangle-\u003eHImage-\u003eHImage",
@@ -303,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "cycleColormapImage",
           "package": "hsmagick",
@@ -312,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "cycleColormapImage",
           "normalized": "Int-\u003eHImage-\u003eHImage",
@@ -327,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "destroyImage",
           "package": "hsmagick",
@@ -336,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "destroyImage",
           "normalized": "HImage-\u003eIO()",
@@ -351,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "dispatchImage",
           "package": "hsmagick",
@@ -360,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "dispatchImage",
           "normalized": "PixMap-\u003eStorageType-\u003eRectangle-\u003eHImage-\u003e[[a]]",
@@ -375,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "equalizeImage",
           "package": "hsmagick",
@@ -384,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "equalizeImage",
           "normalized": "HImage-\u003eHImage",
@@ -399,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "flattenImage",
           "package": "hsmagick",
@@ -408,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "flattenImage",
           "normalized": "[HImage]-\u003eHImage",
@@ -423,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "flipImage",
           "package": "hsmagick",
@@ -432,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "flipImage",
           "normalized": "HImage-\u003eHImage",
@@ -447,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "flopImage",
           "package": "hsmagick",
@@ -456,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "flopImage",
           "normalized": "HImage-\u003eHImage",
@@ -471,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "gammaImage",
           "package": "hsmagick",
@@ -480,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "gammaImage",
           "normalized": "PixelPacket Double-\u003eHImage-\u003eHImage",
@@ -495,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "getFilename",
           "package": "hsmagick",
@@ -504,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "getFilename",
           "normalized": "a-\u003eFilePath",
@@ -519,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "imageToBlob",
           "package": "hsmagick",
@@ -528,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "imageToBlob",
           "normalized": "HImage-\u003eByteString",
@@ -543,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "importPixelImageArea",
           "package": "hsmagick",
@@ -552,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "importPixelImageArea",
           "normalized": "QuantumType-\u003eWord-\u003e[[Word]]-\u003eMaybe ImportPixelAreaOptions-\u003eHImage-\u003eHImage",
@@ -568,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einitializeMagick must be invoked by the user program before making use\n of the library functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "initializeMagick",
           "package": "hsmagick",
@@ -578,6 +625,7 @@
         "index": {
           "description": "initializeMagick must be invoked by the user program before making use of the library functions",
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "initializeMagick",
           "normalized": "IO()",
@@ -593,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "levelImage",
           "package": "hsmagick",
@@ -602,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "levelImage",
           "normalized": "Level-\u003eHImage-\u003eHImage",
@@ -617,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "levelImageChannel",
           "package": "hsmagick",
@@ -626,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "levelImageChannel",
           "normalized": "ChannelType-\u003eLevel-\u003eHImage-\u003eHImage",
@@ -641,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "magnifyImage",
           "package": "hsmagick",
@@ -650,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "magnifyImage",
           "normalized": "HImage-\u003eHImage",
@@ -665,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "minifyImage",
           "package": "hsmagick",
@@ -674,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "minifyImage",
           "normalized": "HImage-\u003eHImage",
@@ -689,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "modulateImage",
           "package": "hsmagick",
@@ -698,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "modulateImage",
           "normalized": "Modulation-\u003eHImage-\u003eHImage",
@@ -713,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "mosaic",
           "package": "hsmagick",
@@ -722,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "mosaic",
           "normalized": "[(HImage,Rectangle)]-\u003eHImage",
@@ -736,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "negateImage",
           "package": "hsmagick",
@@ -745,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "negateImage",
           "normalized": "Negation-\u003eHImage-\u003eHImage",
@@ -760,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "newImageColormap",
           "package": "hsmagick",
@@ -769,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "newImageColormap",
           "normalized": "Word-\u003eHImage",
@@ -784,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "normalizeImage",
           "package": "hsmagick",
@@ -793,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "normalizeImage",
           "normalized": "HImage-\u003eHImage",
@@ -808,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "pingImage",
           "package": "hsmagick",
@@ -817,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "pingImage",
           "normalized": "FilePath-\u003eIO HImage",
@@ -832,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "readImage",
           "package": "hsmagick",
@@ -841,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "readImage",
           "normalized": "FilePath-\u003eIO HImage",
@@ -856,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "readInlineImage",
           "package": "hsmagick",
@@ -865,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "readInlineImage",
           "normalized": "String-\u003eHImage",
@@ -880,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "resizeImage",
           "package": "hsmagick",
@@ -889,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "resizeImage",
           "normalized": "Int-\u003eInt-\u003eFilterTypes-\u003eDouble-\u003eHImage-\u003eHImage",
@@ -904,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "rollImage",
           "package": "hsmagick",
@@ -913,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "rollImage",
           "normalized": "Int-\u003eInt-\u003eHImage-\u003eHImage",
@@ -928,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "rotateImage",
           "package": "hsmagick",
@@ -937,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "rotateImage",
           "normalized": "Double-\u003eHImage-\u003eHImage",
@@ -952,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "sampleImage",
           "package": "hsmagick",
@@ -961,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "sampleImage",
           "normalized": "Word-\u003eWord-\u003eHImage-\u003eHImage",
@@ -976,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "scaleImage",
           "package": "hsmagick",
@@ -985,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "scaleImage",
           "normalized": "Word-\u003eWord-\u003eHImage-\u003eHImage",
@@ -1000,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "setImageColormap",
           "package": "hsmagick",
@@ -1009,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "setImageColormap",
           "normalized": "Word-\u003eHImage-\u003eHImage",
@@ -1024,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "shaveImage",
           "package": "hsmagick",
@@ -1033,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "shaveImage",
           "normalized": "Rectangle-\u003eHImage-\u003eHImage",
@@ -1048,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "shearImage",
           "package": "hsmagick",
@@ -1057,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "shearImage",
           "normalized": "Double-\u003eDouble-\u003eHImage-\u003eHImage",
@@ -1072,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "thumbnailImage",
           "package": "hsmagick",
@@ -1081,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "thumbnailImage",
           "normalized": "Word-\u003eWord-\u003eHImage-\u003eHImage",
@@ -1096,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Images",
           "name": "writeImage",
           "package": "hsmagick",
@@ -1105,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Images",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Images",
           "name": "writeImage",
           "normalized": "FilePath-\u003eHImage-\u003eIO()",
@@ -1120,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Test",
           "name": "Test",
           "package": "hsmagick",
@@ -1128,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Test",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Test",
           "name": "Test",
           "package": "hsmagick",
@@ -1142,6 +1236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAd hoc unit tests. Should really use HUnit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Test",
           "name": "runAllTests",
           "package": "hsmagick",
@@ -1152,6 +1247,7 @@
         "index": {
           "description": "Ad hoc unit tests Should really use HUnit",
           "hierarchy": "Graphics Transform Magick Test",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Test",
           "name": "runAllTests",
           "normalized": "IO()",
@@ -1167,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Types",
           "package": "hsmagick",
@@ -1175,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Types",
           "package": "hsmagick",
@@ -1188,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "AffineMatrix",
           "package": "hsmagick",
@@ -1196,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "AffineMatrix",
           "package": "hsmagick",
@@ -1209,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Ascii85InfoPtr",
           "package": "hsmagick",
@@ -1217,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Ascii85InfoPtr",
           "package": "hsmagick",
@@ -1230,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "BlobInfoPtr",
           "package": "hsmagick",
@@ -1238,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "BlobInfoPtr",
           "package": "hsmagick",
@@ -1251,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CacheInfoPtr",
           "package": "hsmagick",
@@ -1259,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CacheInfoPtr",
           "package": "hsmagick",
@@ -1272,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ChannelType",
           "package": "hsmagick",
@@ -1280,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ChannelType",
           "package": "hsmagick",
@@ -1293,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CharArray",
           "package": "hsmagick",
@@ -1301,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CharArray",
           "package": "hsmagick",
@@ -1314,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ChromaticityInfo",
           "package": "hsmagick",
@@ -1322,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ChromaticityInfo",
           "package": "hsmagick",
@@ -1335,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ClassType",
           "package": "hsmagick",
@@ -1343,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ClassType",
           "package": "hsmagick",
@@ -1356,6 +1470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ColorspaceType",
           "package": "hsmagick",
@@ -1364,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ColorspaceType",
           "package": "hsmagick",
@@ -1377,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CompositeOp",
           "package": "hsmagick",
@@ -1385,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CompositeOp",
           "package": "hsmagick",
@@ -1398,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CompressionType",
           "package": "hsmagick",
@@ -1406,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CompressionType",
           "package": "hsmagick",
@@ -1419,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Contrast",
           "package": "hsmagick",
@@ -1427,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Contrast",
           "package": "hsmagick",
@@ -1440,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "DisposeType",
           "package": "hsmagick",
@@ -1448,6 +1571,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "DisposeType",
           "package": "hsmagick",
@@ -1461,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "EndianType",
           "package": "hsmagick",
@@ -1469,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "EndianType",
           "package": "hsmagick",
@@ -1482,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ErrorInfo",
           "package": "hsmagick",
@@ -1490,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ErrorInfo",
           "package": "hsmagick",
@@ -1503,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ExceptionInfo",
           "package": "hsmagick",
@@ -1511,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ExceptionInfo",
           "package": "hsmagick",
@@ -1524,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ExceptionType",
           "package": "hsmagick",
@@ -1532,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ExceptionType",
           "package": "hsmagick",
@@ -1545,6 +1677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ExportPixelAreaInfo",
           "package": "hsmagick",
@@ -1553,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ExportPixelAreaInfo",
           "package": "hsmagick",
@@ -1566,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ExportPixelAreaOptions",
           "package": "hsmagick",
@@ -1574,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ExportPixelAreaOptions",
           "package": "hsmagick",
@@ -1587,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "FilterTypes",
           "package": "hsmagick",
@@ -1595,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "FilterTypes",
           "package": "hsmagick",
@@ -1608,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "GravityType",
           "package": "hsmagick",
@@ -1616,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "GravityType",
           "package": "hsmagick",
@@ -1629,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "HImage",
           "package": "hsmagick",
@@ -1637,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "HImage",
           "package": "hsmagick",
@@ -1650,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "HImageInfo",
           "package": "hsmagick",
@@ -1658,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "HImageInfo",
           "package": "hsmagick",
@@ -1671,6 +1815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "HImage_",
           "package": "hsmagick",
@@ -1679,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "HImage_",
           "package": "hsmagick",
@@ -1692,6 +1838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Image",
           "package": "hsmagick",
@@ -1700,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Image",
           "package": "hsmagick",
@@ -1713,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageAttributePtr",
           "package": "hsmagick",
@@ -1721,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageAttributePtr",
           "package": "hsmagick",
@@ -1734,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageChannelStatistics",
           "package": "hsmagick",
@@ -1742,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageChannelStatistics",
           "package": "hsmagick",
@@ -1755,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageCharacteristics",
           "package": "hsmagick",
@@ -1763,6 +1916,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageCharacteristics",
           "package": "hsmagick",
@@ -1776,6 +1930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageNotLoaded",
           "package": "hsmagick",
@@ -1784,6 +1939,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageNotLoaded",
           "package": "hsmagick",
@@ -1797,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageOrder",
           "package": "hsmagick",
@@ -1805,6 +1962,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageOrder",
           "package": "hsmagick",
@@ -1818,6 +1976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImagePtr",
           "package": "hsmagick",
@@ -1826,6 +1985,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImagePtr",
           "package": "hsmagick",
@@ -1839,6 +1999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageStatistics",
           "package": "hsmagick",
@@ -1847,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageStatistics",
           "package": "hsmagick",
@@ -1860,6 +2022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageType",
           "package": "hsmagick",
@@ -1868,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageType",
           "package": "hsmagick",
@@ -1881,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImportPixelAreaInfo",
           "package": "hsmagick",
@@ -1889,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImportPixelAreaInfo",
           "package": "hsmagick",
@@ -1902,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImportPixelAreaOptions",
           "package": "hsmagick",
@@ -1910,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImportPixelAreaOptions",
           "package": "hsmagick",
@@ -1923,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "InterlaceType",
           "package": "hsmagick",
@@ -1931,6 +2100,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "InterlaceType",
           "package": "hsmagick",
@@ -1944,6 +2114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Level",
           "package": "hsmagick",
@@ -1952,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Level",
           "package": "hsmagick",
@@ -1965,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Modulation",
           "package": "hsmagick",
@@ -1973,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Modulation",
           "package": "hsmagick",
@@ -1986,6 +2160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Negation",
           "package": "hsmagick",
@@ -1994,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Negation",
           "package": "hsmagick",
@@ -2007,6 +2183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "OrientationType",
           "package": "hsmagick",
@@ -2015,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "OrientationType",
           "package": "hsmagick",
@@ -2028,6 +2206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "PixMap",
           "package": "hsmagick",
@@ -2036,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "PixMap",
           "package": "hsmagick",
@@ -2049,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "PixelPacket",
           "package": "hsmagick",
@@ -2057,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "PixelPacket",
           "package": "hsmagick",
@@ -2070,6 +2252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "PixelPacketByte",
           "package": "hsmagick",
@@ -2078,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "PixelPacketByte",
           "package": "hsmagick",
@@ -2091,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "PreviewType",
           "package": "hsmagick",
@@ -2099,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "PreviewType",
           "package": "hsmagick",
@@ -2112,6 +2298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "QuantumType",
           "package": "hsmagick",
@@ -2120,6 +2307,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "QuantumType",
           "package": "hsmagick",
@@ -2133,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "QuantumType2",
           "package": "hsmagick",
@@ -2141,6 +2330,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "QuantumType2",
           "package": "hsmagick",
@@ -2154,6 +2344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Rectangle",
           "package": "hsmagick",
@@ -2162,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Rectangle",
           "package": "hsmagick",
@@ -2175,6 +2367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "RenderingIntent",
           "package": "hsmagick",
@@ -2183,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "RenderingIntent",
           "package": "hsmagick",
@@ -2196,6 +2390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ResolutionType",
           "package": "hsmagick",
@@ -2204,6 +2399,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ResolutionType",
           "package": "hsmagick",
@@ -2217,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "SegmentInfo",
           "package": "hsmagick",
@@ -2225,6 +2422,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "SegmentInfo",
           "package": "hsmagick",
@@ -2238,6 +2436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "SemaphoreInfoPtr",
           "package": "hsmagick",
@@ -2246,6 +2445,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "SemaphoreInfoPtr",
           "package": "hsmagick",
@@ -2259,6 +2459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "StorablePixel",
           "package": "hsmagick",
@@ -2267,6 +2468,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "StorablePixel",
           "package": "hsmagick",
@@ -2280,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "StorageType",
           "package": "hsmagick",
@@ -2288,6 +2491,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "StorageType",
           "package": "hsmagick",
@@ -2301,6 +2505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "StreamHandler",
           "package": "hsmagick",
@@ -2309,6 +2514,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "StreamHandler",
           "package": "hsmagick",
@@ -2322,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "TimerInfo",
           "package": "hsmagick",
@@ -2330,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "TimerInfo",
           "package": "hsmagick",
@@ -2343,6 +2551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "A",
           "package": "hsmagick",
@@ -2352,6 +2561,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "A",
           "package": "hsmagick",
@@ -2364,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Add",
           "package": "hsmagick",
@@ -2373,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Add",
           "package": "hsmagick",
@@ -2386,6 +2598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "AffineMatrix",
           "package": "hsmagick",
@@ -2395,6 +2608,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "AffineMatrix",
           "package": "hsmagick",
@@ -2408,6 +2622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "AllPixels",
           "package": "hsmagick",
@@ -2417,6 +2632,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "AllPixels",
           "package": "hsmagick",
@@ -2430,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "AlphaQuantum",
           "package": "hsmagick",
@@ -2439,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "AlphaQuantum",
           "package": "hsmagick",
@@ -2452,6 +2670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Atop",
           "package": "hsmagick",
@@ -2461,6 +2680,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Atop",
           "package": "hsmagick",
@@ -2474,6 +2694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "B",
           "package": "hsmagick",
@@ -2483,6 +2704,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "B",
           "package": "hsmagick",
@@ -2495,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "BesselFilter",
           "package": "hsmagick",
@@ -2504,6 +2727,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "BesselFilter",
           "package": "hsmagick",
@@ -2517,6 +2741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "BlackChannel",
           "package": "hsmagick",
@@ -2526,6 +2751,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "BlackChannel",
           "package": "hsmagick",
@@ -2539,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "BlackQuantum",
           "package": "hsmagick",
@@ -2548,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "BlackQuantum",
           "package": "hsmagick",
@@ -2561,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "BlackmanFilter",
           "package": "hsmagick",
@@ -2570,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "BlackmanFilter",
           "package": "hsmagick",
@@ -2583,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "BlueChannel",
           "package": "hsmagick",
@@ -2592,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "BlueChannel",
           "package": "hsmagick",
@@ -2605,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "BlueQuantum",
           "package": "hsmagick",
@@ -2614,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "BlueQuantum",
           "package": "hsmagick",
@@ -2627,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "BoxFilter",
           "package": "hsmagick",
@@ -2636,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "BoxFilter",
           "package": "hsmagick",
@@ -2649,6 +2885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Bumpmap",
           "package": "hsmagick",
@@ -2658,6 +2895,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Bumpmap",
           "package": "hsmagick",
@@ -2671,6 +2909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "C",
           "package": "hsmagick",
@@ -2680,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "C",
           "package": "hsmagick",
@@ -2692,6 +2932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CIEXYZQuantum",
           "package": "hsmagick",
@@ -2701,6 +2942,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CIEXYZQuantum",
           "package": "hsmagick",
@@ -2714,6 +2956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CIEYQuantum",
           "package": "hsmagick",
@@ -2723,6 +2966,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CIEYQuantum",
           "package": "hsmagick",
@@ -2736,6 +2980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CMYKAQuantum",
           "package": "hsmagick",
@@ -2745,6 +2990,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CMYKAQuantum",
           "package": "hsmagick",
@@ -2758,6 +3004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CMYKQuantum",
           "package": "hsmagick",
@@ -2767,6 +3014,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CMYKQuantum",
           "package": "hsmagick",
@@ -2780,6 +3028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CatromFilter",
           "package": "hsmagick",
@@ -2789,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CatromFilter",
           "package": "hsmagick",
@@ -2802,6 +3052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CharArray",
           "package": "hsmagick",
@@ -2811,6 +3062,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CharArray",
           "package": "hsmagick",
@@ -2824,6 +3076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CharPixel",
           "package": "hsmagick",
@@ -2833,6 +3086,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CharPixel",
           "package": "hsmagick",
@@ -2846,6 +3100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Clear",
           "package": "hsmagick",
@@ -2855,6 +3110,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Clear",
           "package": "hsmagick",
@@ -2868,6 +3124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Colorize",
           "package": "hsmagick",
@@ -2877,6 +3134,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Colorize",
           "package": "hsmagick",
@@ -2890,6 +3148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Copy",
           "package": "hsmagick",
@@ -2899,6 +3158,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Copy",
           "package": "hsmagick",
@@ -2912,6 +3172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CopyBlack",
           "package": "hsmagick",
@@ -2921,6 +3182,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CopyBlack",
           "package": "hsmagick",
@@ -2934,6 +3196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CopyBlue",
           "package": "hsmagick",
@@ -2943,6 +3206,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CopyBlue",
           "package": "hsmagick",
@@ -2956,6 +3220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CopyCyan",
           "package": "hsmagick",
@@ -2965,6 +3230,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CopyCyan",
           "package": "hsmagick",
@@ -2978,6 +3244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CopyGreen",
           "package": "hsmagick",
@@ -2987,6 +3254,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CopyGreen",
           "package": "hsmagick",
@@ -3000,6 +3268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CopyMagenta",
           "package": "hsmagick",
@@ -3009,6 +3278,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CopyMagenta",
           "package": "hsmagick",
@@ -3022,6 +3292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CopyOpacity",
           "package": "hsmagick",
@@ -3031,6 +3302,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CopyOpacity",
           "package": "hsmagick",
@@ -3044,6 +3316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CopyRed",
           "package": "hsmagick",
@@ -3053,6 +3326,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CopyRed",
           "package": "hsmagick",
@@ -3066,6 +3340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CopyYellow",
           "package": "hsmagick",
@@ -3075,6 +3350,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CopyYellow",
           "package": "hsmagick",
@@ -3088,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CubicFilter",
           "package": "hsmagick",
@@ -3097,6 +3374,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CubicFilter",
           "package": "hsmagick",
@@ -3110,6 +3388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CyanChannel",
           "package": "hsmagick",
@@ -3119,6 +3398,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CyanChannel",
           "package": "hsmagick",
@@ -3132,6 +3412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CyanQuantum",
           "package": "hsmagick",
@@ -3141,6 +3422,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "CyanQuantum",
           "package": "hsmagick",
@@ -3154,6 +3436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Darken",
           "package": "hsmagick",
@@ -3163,6 +3446,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Darken",
           "package": "hsmagick",
@@ -3176,6 +3460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "DecreaseContrast",
           "package": "hsmagick",
@@ -3185,6 +3470,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "DecreaseContrast",
           "package": "hsmagick",
@@ -3198,6 +3484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Difference",
           "package": "hsmagick",
@@ -3207,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Difference",
           "package": "hsmagick",
@@ -3220,6 +3508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Displace",
           "package": "hsmagick",
@@ -3229,6 +3518,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Displace",
           "package": "hsmagick",
@@ -3242,6 +3532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Dissolve",
           "package": "hsmagick",
@@ -3251,6 +3542,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Dissolve",
           "package": "hsmagick",
@@ -3264,6 +3556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "DoublePixel",
           "package": "hsmagick",
@@ -3273,6 +3566,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "DoublePixel",
           "package": "hsmagick",
@@ -3286,6 +3580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ExceptionInfo",
           "package": "hsmagick",
@@ -3295,6 +3590,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ExceptionInfo",
           "package": "hsmagick",
@@ -3308,6 +3604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "FloatPixel",
           "package": "hsmagick",
@@ -3317,6 +3614,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "FloatPixel",
           "package": "hsmagick",
@@ -3330,6 +3628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "G",
           "package": "hsmagick",
@@ -3339,6 +3638,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "G",
           "package": "hsmagick",
@@ -3351,6 +3651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "GaussianFilter",
           "package": "hsmagick",
@@ -3360,6 +3661,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "GaussianFilter",
           "package": "hsmagick",
@@ -3373,6 +3675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "GrayAlphaQuantum",
           "package": "hsmagick",
@@ -3382,6 +3685,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "GrayAlphaQuantum",
           "package": "hsmagick",
@@ -3395,6 +3699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "GrayQuantum",
           "package": "hsmagick",
@@ -3404,6 +3709,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "GrayQuantum",
           "package": "hsmagick",
@@ -3417,6 +3723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "GrayscalePixels",
           "package": "hsmagick",
@@ -3426,6 +3733,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "GrayscalePixels",
           "package": "hsmagick",
@@ -3439,6 +3747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "GreenChannel",
           "package": "hsmagick",
@@ -3448,6 +3757,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "GreenChannel",
           "package": "hsmagick",
@@ -3461,6 +3771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "GreenQuantum",
           "package": "hsmagick",
@@ -3470,6 +3781,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "GreenQuantum",
           "package": "hsmagick",
@@ -3483,6 +3795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "HImage",
           "package": "hsmagick",
@@ -3492,6 +3805,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "HImage",
           "package": "hsmagick",
@@ -3505,6 +3819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "HImageInfo",
           "package": "hsmagick",
@@ -3514,6 +3829,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "HImageInfo",
           "package": "hsmagick",
@@ -3527,6 +3843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "HImage_",
           "package": "hsmagick",
@@ -3536,6 +3853,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "HImage_",
           "package": "hsmagick",
@@ -3549,6 +3867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "HammingFilter",
           "package": "hsmagick",
@@ -3558,6 +3877,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "HammingFilter",
           "package": "hsmagick",
@@ -3571,6 +3891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "HanningFilter",
           "package": "hsmagick",
@@ -3580,6 +3901,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "HanningFilter",
           "package": "hsmagick",
@@ -3593,6 +3915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "HermiteFilter",
           "package": "hsmagick",
@@ -3602,6 +3925,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "HermiteFilter",
           "package": "hsmagick",
@@ -3615,6 +3939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Hue",
           "package": "hsmagick",
@@ -3624,6 +3949,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Hue",
           "package": "hsmagick",
@@ -3637,6 +3963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "I",
           "package": "hsmagick",
@@ -3646,6 +3973,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "I",
           "package": "hsmagick",
@@ -3658,6 +3986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageC",
           "package": "hsmagick",
@@ -3667,6 +3996,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageC",
           "package": "hsmagick",
@@ -3680,6 +4010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageCS",
           "package": "hsmagick",
@@ -3689,6 +4020,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageCS",
           "package": "hsmagick",
@@ -3702,6 +4034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageNotLoaded",
           "package": "hsmagick",
@@ -3711,6 +4044,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageNotLoaded",
           "package": "hsmagick",
@@ -3724,6 +4058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageS",
           "package": "hsmagick",
@@ -3733,6 +4068,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ImageS",
           "package": "hsmagick",
@@ -3746,6 +4082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "In",
           "package": "hsmagick",
@@ -3755,6 +4092,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "In",
           "package": "hsmagick",
@@ -3768,6 +4106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "IncreaseContrast",
           "package": "hsmagick",
@@ -3777,6 +4116,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "IncreaseContrast",
           "package": "hsmagick",
@@ -3790,6 +4130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "IndexAlphaQuantum",
           "package": "hsmagick",
@@ -3799,6 +4140,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "IndexAlphaQuantum",
           "package": "hsmagick",
@@ -3812,6 +4154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "IndexQuantum",
           "package": "hsmagick",
@@ -3821,6 +4164,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "IndexQuantum",
           "package": "hsmagick",
@@ -3834,6 +4178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "IntegerPixel",
           "package": "hsmagick",
@@ -3843,6 +4188,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "IntegerPixel",
           "package": "hsmagick",
@@ -3856,6 +4202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "K",
           "package": "hsmagick",
@@ -3865,6 +4212,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "K",
           "package": "hsmagick",
@@ -3877,6 +4225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "LacrosFilter",
           "package": "hsmagick",
@@ -3886,6 +4235,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "LacrosFilter",
           "package": "hsmagick",
@@ -3899,6 +4249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "LeftToRight",
           "package": "hsmagick",
@@ -3908,6 +4259,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "LeftToRight",
           "package": "hsmagick",
@@ -3921,6 +4273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Level",
           "package": "hsmagick",
@@ -3930,6 +4283,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Level",
           "package": "hsmagick",
@@ -3943,6 +4297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Lighten",
           "package": "hsmagick",
@@ -3952,6 +4307,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Lighten",
           "package": "hsmagick",
@@ -3965,6 +4321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "LongPixel",
           "package": "hsmagick",
@@ -3974,6 +4331,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "LongPixel",
           "package": "hsmagick",
@@ -3987,6 +4345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Luminize",
           "package": "hsmagick",
@@ -3996,6 +4355,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Luminize",
           "package": "hsmagick",
@@ -4009,6 +4369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "M",
           "package": "hsmagick",
@@ -4018,6 +4379,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "M",
           "package": "hsmagick",
@@ -4030,6 +4392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "MagentaChannel",
           "package": "hsmagick",
@@ -4039,6 +4402,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "MagentaChannel",
           "package": "hsmagick",
@@ -4052,6 +4416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "MagentaQuantum",
           "package": "hsmagick",
@@ -4061,6 +4426,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "MagentaQuantum",
           "package": "hsmagick",
@@ -4074,6 +4440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "MatteChannel",
           "package": "hsmagick",
@@ -4083,6 +4450,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "MatteChannel",
           "package": "hsmagick",
@@ -4096,6 +4464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Minus",
           "package": "hsmagick",
@@ -4105,6 +4474,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Minus",
           "package": "hsmagick",
@@ -4118,6 +4488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "MitchellFilter",
           "package": "hsmagick",
@@ -4127,6 +4498,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "MitchellFilter",
           "package": "hsmagick",
@@ -4140,6 +4512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Modulate",
           "package": "hsmagick",
@@ -4149,6 +4522,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Modulate",
           "package": "hsmagick",
@@ -4162,6 +4536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Modulation",
           "package": "hsmagick",
@@ -4171,6 +4546,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Modulation",
           "package": "hsmagick",
@@ -4184,6 +4560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Multiply",
           "package": "hsmagick",
@@ -4193,6 +4570,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Multiply",
           "package": "hsmagick",
@@ -4206,6 +4584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "No",
           "package": "hsmagick",
@@ -4215,6 +4594,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "No",
           "package": "hsmagick",
@@ -4228,6 +4608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "O",
           "package": "hsmagick",
@@ -4237,6 +4618,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "O",
           "package": "hsmagick",
@@ -4249,6 +4631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "OpacityChannel",
           "package": "hsmagick",
@@ -4258,6 +4641,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "OpacityChannel",
           "package": "hsmagick",
@@ -4271,6 +4655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Out",
           "package": "hsmagick",
@@ -4280,6 +4665,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Out",
           "package": "hsmagick",
@@ -4293,6 +4679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Over",
           "package": "hsmagick",
@@ -4302,6 +4689,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Over",
           "package": "hsmagick",
@@ -4315,6 +4703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Overlay",
           "package": "hsmagick",
@@ -4324,6 +4713,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Overlay",
           "package": "hsmagick",
@@ -4337,6 +4727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "P",
           "package": "hsmagick",
@@ -4346,6 +4737,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "P",
           "package": "hsmagick",
@@ -4358,6 +4750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "PixMap",
           "package": "hsmagick",
@@ -4367,6 +4760,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "PixMap",
           "normalized": "PixMap[QuantumType]",
@@ -4382,6 +4776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "PixelPacket",
           "package": "hsmagick",
@@ -4391,6 +4786,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "PixelPacket",
           "package": "hsmagick",
@@ -4404,6 +4800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Plus",
           "package": "hsmagick",
@@ -4413,6 +4810,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Plus",
           "package": "hsmagick",
@@ -4426,6 +4824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "PointFilter",
           "package": "hsmagick",
@@ -4435,6 +4834,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "PointFilter",
           "package": "hsmagick",
@@ -4448,6 +4848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "QuadraticFilter",
           "package": "hsmagick",
@@ -4457,6 +4858,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "QuadraticFilter",
           "package": "hsmagick",
@@ -4470,6 +4872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "R",
           "package": "hsmagick",
@@ -4479,6 +4882,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "R",
           "package": "hsmagick",
@@ -4491,6 +4895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "RGBAQuantum",
           "package": "hsmagick",
@@ -4500,6 +4905,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "RGBAQuantum",
           "package": "hsmagick",
@@ -4513,6 +4919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "RGBQuantum",
           "package": "hsmagick",
@@ -4522,6 +4929,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "RGBQuantum",
           "package": "hsmagick",
@@ -4535,6 +4943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Rectangle",
           "package": "hsmagick",
@@ -4544,6 +4953,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Rectangle",
           "package": "hsmagick",
@@ -4557,6 +4967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "RedChannel",
           "package": "hsmagick",
@@ -4566,6 +4977,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "RedChannel",
           "package": "hsmagick",
@@ -4579,6 +4991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "RedQuantum",
           "package": "hsmagick",
@@ -4588,6 +5001,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "RedQuantum",
           "package": "hsmagick",
@@ -4601,6 +5015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Saturate",
           "package": "hsmagick",
@@ -4610,6 +5025,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Saturate",
           "package": "hsmagick",
@@ -4623,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Screen",
           "package": "hsmagick",
@@ -4632,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Screen",
           "package": "hsmagick",
@@ -4645,6 +5063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "SegmentInfo",
           "package": "hsmagick",
@@ -4654,6 +5073,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "SegmentInfo",
           "package": "hsmagick",
@@ -4667,6 +5087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ShortPixel",
           "package": "hsmagick",
@@ -4676,6 +5097,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ShortPixel",
           "package": "hsmagick",
@@ -4689,6 +5111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "SincFilter",
           "package": "hsmagick",
@@ -4698,6 +5121,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "SincFilter",
           "package": "hsmagick",
@@ -4711,6 +5135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Subtract",
           "package": "hsmagick",
@@ -4720,6 +5145,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Subtract",
           "package": "hsmagick",
@@ -4733,6 +5159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "T",
           "package": "hsmagick",
@@ -4742,6 +5169,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "T",
           "package": "hsmagick",
@@ -4754,6 +5182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Threshold",
           "package": "hsmagick",
@@ -4763,6 +5192,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Threshold",
           "package": "hsmagick",
@@ -4776,6 +5206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "TopToBottom",
           "package": "hsmagick",
@@ -4785,6 +5216,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "TopToBottom",
           "package": "hsmagick",
@@ -4798,6 +5230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "TriangleFilter",
           "package": "hsmagick",
@@ -4807,6 +5240,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "TriangleFilter",
           "package": "hsmagick",
@@ -4820,6 +5254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Undefined",
           "package": "hsmagick",
@@ -4829,6 +5264,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Undefined",
           "package": "hsmagick",
@@ -4842,6 +5278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "UndefinedChannel",
           "package": "hsmagick",
@@ -4851,6 +5288,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "UndefinedChannel",
           "package": "hsmagick",
@@ -4864,6 +5302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "UndefinedFilter",
           "package": "hsmagick",
@@ -4873,6 +5312,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "UndefinedFilter",
           "package": "hsmagick",
@@ -4886,6 +5326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "UndefinedQuantum",
           "package": "hsmagick",
@@ -4895,6 +5336,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "UndefinedQuantum",
           "package": "hsmagick",
@@ -4908,6 +5350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Xor",
           "package": "hsmagick",
@@ -4917,6 +5360,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Xor",
           "package": "hsmagick",
@@ -4930,6 +5374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Y",
           "package": "hsmagick",
@@ -4939,6 +5384,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "Y",
           "package": "hsmagick",
@@ -4951,6 +5397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "YellowChannel",
           "package": "hsmagick",
@@ -4960,6 +5407,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "YellowChannel",
           "package": "hsmagick",
@@ -4973,6 +5421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "YellowQuantum",
           "package": "hsmagick",
@@ -4982,6 +5431,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "YellowQuantum",
           "package": "hsmagick",
@@ -4995,6 +5445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "adjoin",
           "package": "hsmagick",
@@ -5004,6 +5455,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "adjoin",
           "package": "hsmagick",
@@ -5016,6 +5468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "affirm",
           "package": "hsmagick",
@@ -5025,6 +5478,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "affirm",
           "package": "hsmagick",
@@ -5037,6 +5491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "antialias",
           "package": "hsmagick",
@@ -5046,6 +5501,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "antialias",
           "package": "hsmagick",
@@ -5058,6 +5514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ascii85",
           "package": "hsmagick",
@@ -5067,6 +5524,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ascii85",
           "package": "hsmagick",
@@ -5079,6 +5537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "attributes",
           "package": "hsmagick",
@@ -5088,6 +5547,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "attributes",
           "package": "hsmagick",
@@ -5100,6 +5560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "attributes_",
           "package": "hsmagick",
@@ -5109,6 +5570,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "attributes_",
           "package": "hsmagick",
@@ -5121,6 +5583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "authenticate",
           "package": "hsmagick",
@@ -5130,6 +5593,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "authenticate",
           "package": "hsmagick",
@@ -5142,6 +5606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "background_color",
           "package": "hsmagick",
@@ -5151,6 +5616,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "background_color",
           "package": "hsmagick",
@@ -5163,6 +5629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "background_color_",
           "package": "hsmagick",
@@ -5172,6 +5639,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "background_color_",
           "package": "hsmagick",
@@ -5184,6 +5652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "black",
           "package": "hsmagick",
@@ -5193,6 +5662,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "black",
           "package": "hsmagick",
@@ -5205,6 +5675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "blob",
           "package": "hsmagick",
@@ -5214,6 +5685,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "blob",
           "package": "hsmagick",
@@ -5226,6 +5698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "blob_",
           "package": "hsmagick",
@@ -5235,6 +5708,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "blob_",
           "package": "hsmagick",
@@ -5247,6 +5721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "blue",
           "package": "hsmagick",
@@ -5256,6 +5731,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "blue",
           "package": "hsmagick",
@@ -5268,6 +5744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "blue_",
           "package": "hsmagick",
@@ -5277,6 +5754,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "blue_",
           "package": "hsmagick",
@@ -5289,6 +5767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "blur",
           "package": "hsmagick",
@@ -5298,6 +5777,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "blur",
           "package": "hsmagick",
@@ -5310,6 +5790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "border_color",
           "package": "hsmagick",
@@ -5319,6 +5800,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "border_color",
           "package": "hsmagick",
@@ -5331,6 +5813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "border_color_",
           "package": "hsmagick",
@@ -5340,6 +5823,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "border_color_",
           "package": "hsmagick",
@@ -5352,6 +5836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "brightness",
           "package": "hsmagick",
@@ -5361,6 +5846,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "brightness",
           "package": "hsmagick",
@@ -5373,6 +5859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "cache",
           "package": "hsmagick",
@@ -5382,6 +5869,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "cache",
           "package": "hsmagick",
@@ -5394,6 +5882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "cache_",
           "package": "hsmagick",
@@ -5403,6 +5892,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "cache_",
           "package": "hsmagick",
@@ -5415,6 +5905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "chromaticity",
           "package": "hsmagick",
@@ -5424,6 +5915,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "chromaticity",
           "package": "hsmagick",
@@ -5436,6 +5928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "client_data",
           "package": "hsmagick",
@@ -5445,6 +5938,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "client_data",
           "package": "hsmagick",
@@ -5457,6 +5951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "client_data_",
           "package": "hsmagick",
@@ -5466,6 +5961,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "client_data_",
           "package": "hsmagick",
@@ -5478,6 +5974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "clip_mask",
           "package": "hsmagick",
@@ -5487,6 +5984,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "clip_mask",
           "package": "hsmagick",
@@ -5499,6 +5997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "cmyk",
           "package": "hsmagick",
@@ -5508,6 +6007,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "cmyk",
           "package": "hsmagick",
@@ -5520,6 +6020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "colormap",
           "package": "hsmagick",
@@ -5529,6 +6030,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "colormap",
           "package": "hsmagick",
@@ -5541,6 +6043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "colors",
           "package": "hsmagick",
@@ -5550,6 +6053,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "colors",
           "package": "hsmagick",
@@ -5562,6 +6066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "colorspace",
           "package": "hsmagick",
@@ -5571,6 +6076,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "colorspace",
           "package": "hsmagick",
@@ -5583,6 +6089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "colorspace_",
           "package": "hsmagick",
@@ -5592,6 +6099,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "colorspace_",
           "package": "hsmagick",
@@ -5604,6 +6112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "columns",
           "package": "hsmagick",
@@ -5613,6 +6122,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "columns",
           "package": "hsmagick",
@@ -5625,6 +6135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "compose",
           "package": "hsmagick",
@@ -5634,6 +6145,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "compose",
           "package": "hsmagick",
@@ -5646,6 +6158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "compression",
           "package": "hsmagick",
@@ -5655,6 +6168,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "compression",
           "package": "hsmagick",
@@ -5667,6 +6181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "compression_",
           "package": "hsmagick",
@@ -5676,6 +6191,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "compression_",
           "package": "hsmagick",
@@ -5688,6 +6204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "definitions",
           "package": "hsmagick",
@@ -5697,6 +6214,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "definitions",
           "package": "hsmagick",
@@ -5709,6 +6227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "delay",
           "package": "hsmagick",
@@ -5718,6 +6237,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "delay",
           "package": "hsmagick",
@@ -5730,6 +6250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "density",
           "package": "hsmagick",
@@ -5739,6 +6260,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "density",
           "package": "hsmagick",
@@ -5751,6 +6273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "depth",
           "package": "hsmagick",
@@ -5760,6 +6283,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "depth",
           "package": "hsmagick",
@@ -5772,6 +6296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "depth_",
           "package": "hsmagick",
@@ -5781,6 +6306,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "depth_",
           "package": "hsmagick",
@@ -5793,6 +6319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "description",
           "package": "hsmagick",
@@ -5802,6 +6329,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "description",
           "package": "hsmagick",
@@ -5814,6 +6342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "directory",
           "package": "hsmagick",
@@ -5823,6 +6352,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "directory",
           "package": "hsmagick",
@@ -5835,6 +6365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "dispose",
           "package": "hsmagick",
@@ -5844,6 +6375,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "dispose",
           "package": "hsmagick",
@@ -5856,6 +6388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "dither",
           "package": "hsmagick",
@@ -5865,6 +6398,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "dither",
           "package": "hsmagick",
@@ -5877,6 +6411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "dither_",
           "package": "hsmagick",
@@ -5886,6 +6421,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "dither_",
           "package": "hsmagick",
@@ -5898,6 +6434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "eRROR",
           "package": "hsmagick",
@@ -5907,6 +6444,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "eRROR",
           "package": "hsmagick",
@@ -5920,6 +6458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "endian",
           "package": "hsmagick",
@@ -5929,6 +6468,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "endian",
           "package": "hsmagick",
@@ -5941,6 +6481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "endian_",
           "package": "hsmagick",
@@ -5950,6 +6491,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "endian_",
           "package": "hsmagick",
@@ -5962,6 +6504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "error_number",
           "package": "hsmagick",
@@ -5971,6 +6514,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "error_number",
           "package": "hsmagick",
@@ -5983,6 +6527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "exception",
           "package": "hsmagick",
@@ -5992,6 +6537,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "exception",
           "package": "hsmagick",
@@ -6004,6 +6550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "exceptionInfo",
           "package": "hsmagick",
@@ -6013,6 +6560,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "exceptionInfo",
           "package": "hsmagick",
@@ -6026,6 +6574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "fILTER",
           "package": "hsmagick",
@@ -6035,6 +6584,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "fILTER",
           "package": "hsmagick",
@@ -6048,6 +6598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "file",
           "package": "hsmagick",
@@ -6057,6 +6608,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "file",
           "package": "hsmagick",
@@ -6069,6 +6621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "filename",
           "package": "hsmagick",
@@ -6078,6 +6631,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "filename",
           "package": "hsmagick",
@@ -6090,6 +6644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "filename_",
           "package": "hsmagick",
@@ -6099,6 +6654,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "filename_",
           "package": "hsmagick",
@@ -6111,6 +6667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "font",
           "package": "hsmagick",
@@ -6120,6 +6677,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "font",
           "package": "hsmagick",
@@ -6132,6 +6690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "function",
           "package": "hsmagick",
@@ -6141,6 +6700,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "function",
           "package": "hsmagick",
@@ -6153,6 +6713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "fuzz",
           "package": "hsmagick",
@@ -6162,6 +6723,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "fuzz",
           "package": "hsmagick",
@@ -6174,6 +6736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "fuzz_",
           "package": "hsmagick",
@@ -6183,6 +6746,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "fuzz_",
           "package": "hsmagick",
@@ -6195,6 +6759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "gamma",
           "package": "hsmagick",
@@ -6204,6 +6769,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "gamma",
           "package": "hsmagick",
@@ -6216,6 +6782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "geometry",
           "package": "hsmagick",
@@ -6225,6 +6792,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "geometry",
           "package": "hsmagick",
@@ -6237,6 +6805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "getExceptionInfo",
           "package": "hsmagick",
@@ -6246,6 +6815,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "getExceptionInfo",
           "normalized": "HImage-\u003eForeignPtr ExceptionInfo",
@@ -6261,6 +6831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "getImage",
           "package": "hsmagick",
@@ -6270,6 +6841,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "getImage",
           "normalized": "HImage-\u003eForeignPtr HImage_",
@@ -6285,6 +6857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "getImageInfo",
           "package": "hsmagick",
@@ -6294,6 +6867,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "getImageInfo",
           "normalized": "HImage-\u003eForeignPtr HImageInfo",
@@ -6309,6 +6883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "gravity",
           "package": "hsmagick",
@@ -6318,6 +6893,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "gravity",
           "package": "hsmagick",
@@ -6330,6 +6906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "grayscale",
           "package": "hsmagick",
@@ -6339,6 +6916,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "grayscale",
           "package": "hsmagick",
@@ -6351,6 +6929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "green",
           "package": "hsmagick",
@@ -6360,6 +6939,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "green",
           "package": "hsmagick",
@@ -6372,6 +6952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "green_",
           "package": "hsmagick",
@@ -6381,6 +6962,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "green_",
           "package": "hsmagick",
@@ -6393,6 +6975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "group",
           "package": "hsmagick",
@@ -6402,6 +6985,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "group",
           "package": "hsmagick",
@@ -6414,6 +6998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "height",
           "package": "hsmagick",
@@ -6423,6 +7008,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "height",
           "package": "hsmagick",
@@ -6435,6 +7021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "hue",
           "package": "hsmagick",
@@ -6444,6 +7031,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "hue",
           "package": "hsmagick",
@@ -6456,6 +7044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "image",
           "package": "hsmagick",
@@ -6465,6 +7054,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "image",
           "package": "hsmagick",
@@ -6477,6 +7067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "imageInfo",
           "package": "hsmagick",
@@ -6486,6 +7077,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "imageInfo",
           "package": "hsmagick",
@@ -6499,6 +7091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "interlace",
           "package": "hsmagick",
@@ -6508,6 +7101,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "interlace",
           "package": "hsmagick",
@@ -6520,6 +7114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "interlace_",
           "package": "hsmagick",
@@ -6529,6 +7124,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "interlace_",
           "package": "hsmagick",
@@ -6541,6 +7137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "is_grayscale",
           "package": "hsmagick",
@@ -6550,6 +7147,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "is_grayscale",
           "package": "hsmagick",
@@ -6562,6 +7160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "is_monochrome",
           "package": "hsmagick",
@@ -6571,6 +7170,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "is_monochrome",
           "package": "hsmagick",
@@ -6583,6 +7183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "iterations",
           "package": "hsmagick",
@@ -6592,6 +7193,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "iterations",
           "package": "hsmagick",
@@ -6604,6 +7206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "lENGTH",
           "package": "hsmagick",
@@ -6613,6 +7216,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "lENGTH",
           "package": "hsmagick",
@@ -6626,6 +7230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "line",
           "package": "hsmagick",
@@ -6635,6 +7240,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "line",
           "package": "hsmagick",
@@ -6647,6 +7253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "list",
           "package": "hsmagick",
@@ -6656,6 +7263,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "list",
           "package": "hsmagick",
@@ -6668,6 +7276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "logging",
           "package": "hsmagick",
@@ -6677,6 +7286,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "logging",
           "package": "hsmagick",
@@ -6689,6 +7299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "mODULE",
           "package": "hsmagick",
@@ -6698,6 +7309,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "mODULE",
           "package": "hsmagick",
@@ -6711,6 +7323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "mONOCHROME",
           "package": "hsmagick",
@@ -6720,6 +7333,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "mONOCHROME",
           "package": "hsmagick",
@@ -6733,6 +7347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "magick",
           "package": "hsmagick",
@@ -6742,6 +7357,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "magick",
           "package": "hsmagick",
@@ -6754,6 +7370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "magick_",
           "package": "hsmagick",
@@ -6763,6 +7380,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "magick_",
           "package": "hsmagick",
@@ -6775,6 +7393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "magick_filename",
           "package": "hsmagick",
@@ -6784,6 +7403,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "magick_filename",
           "package": "hsmagick",
@@ -6796,6 +7416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "magick_rows",
           "package": "hsmagick",
@@ -6805,6 +7426,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "magick_rows",
           "package": "hsmagick",
@@ -6817,6 +7439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "marshalPixel",
           "package": "hsmagick",
@@ -6826,6 +7449,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "marshalPixel",
           "normalized": "a-\u003eb",
@@ -6841,6 +7465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "matte",
           "package": "hsmagick",
@@ -6850,6 +7475,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "matte",
           "package": "hsmagick",
@@ -6862,6 +7488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "matte_color",
           "package": "hsmagick",
@@ -6871,6 +7498,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "matte_color",
           "package": "hsmagick",
@@ -6883,6 +7511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "matte_color_",
           "package": "hsmagick",
@@ -6892,6 +7521,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "matte_color_",
           "package": "hsmagick",
@@ -6904,6 +7534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "maximum",
           "package": "hsmagick",
@@ -6913,6 +7544,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "maximum",
           "package": "hsmagick",
@@ -6925,6 +7557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "mean",
           "package": "hsmagick",
@@ -6934,6 +7567,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "mean",
           "package": "hsmagick",
@@ -6946,6 +7580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "mid",
           "package": "hsmagick",
@@ -6955,6 +7590,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "mid",
           "package": "hsmagick",
@@ -6967,6 +7603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "minimum",
           "package": "hsmagick",
@@ -6976,6 +7613,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "minimum",
           "package": "hsmagick",
@@ -6988,6 +7626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "mkUnloadedImage",
           "package": "hsmagick",
@@ -6997,6 +7636,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "mkUnloadedImage",
           "normalized": "ForeignPtr HImageInfo-\u003eForeignPtr ExceptionInfo-\u003eImageNotLoaded",
@@ -7012,6 +7652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "monochrome",
           "package": "hsmagick",
@@ -7021,6 +7662,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "monochrome",
           "package": "hsmagick",
@@ -7033,6 +7675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "montage",
           "package": "hsmagick",
@@ -7042,6 +7685,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "montage",
           "package": "hsmagick",
@@ -7054,6 +7698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "next",
           "package": "hsmagick",
@@ -7063,6 +7708,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "next",
           "package": "hsmagick",
@@ -7075,6 +7721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "offset",
           "package": "hsmagick",
@@ -7084,6 +7731,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "offset",
           "package": "hsmagick",
@@ -7096,6 +7744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "opacity",
           "package": "hsmagick",
@@ -7105,6 +7754,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "opacity",
           "package": "hsmagick",
@@ -7117,6 +7767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "opacity_",
           "package": "hsmagick",
@@ -7126,6 +7777,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "opacity_",
           "package": "hsmagick",
@@ -7138,6 +7790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "opaque",
           "package": "hsmagick",
@@ -7147,6 +7800,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "opaque",
           "package": "hsmagick",
@@ -7159,6 +7813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "orientation",
           "package": "hsmagick",
@@ -7168,6 +7823,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "orientation",
           "package": "hsmagick",
@@ -7180,6 +7836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "otherInfo",
           "package": "hsmagick",
@@ -7189,6 +7846,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "otherInfo",
           "package": "hsmagick",
@@ -7202,6 +7860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "page",
           "package": "hsmagick",
@@ -7211,6 +7870,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "page",
           "package": "hsmagick",
@@ -7223,6 +7883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "page_",
           "package": "hsmagick",
@@ -7232,6 +7893,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "page_",
           "package": "hsmagick",
@@ -7244,6 +7906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "palette",
           "package": "hsmagick",
@@ -7253,6 +7916,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "palette",
           "package": "hsmagick",
@@ -7265,6 +7929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "pen",
           "package": "hsmagick",
@@ -7274,6 +7939,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "pen",
           "package": "hsmagick",
@@ -7286,6 +7952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ping",
           "package": "hsmagick",
@@ -7295,6 +7962,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ping",
           "package": "hsmagick",
@@ -7307,6 +7975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "pixelSize",
           "package": "hsmagick",
@@ -7316,6 +7985,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "pixelSize",
           "normalized": "PixMap-\u003eInt",
@@ -7331,6 +8001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "pointsize",
           "package": "hsmagick",
@@ -7340,6 +8011,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "pointsize",
           "package": "hsmagick",
@@ -7352,6 +8024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "preview_type",
           "package": "hsmagick",
@@ -7361,6 +8034,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "preview_type",
           "package": "hsmagick",
@@ -7373,6 +8047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "previous",
           "package": "hsmagick",
@@ -7382,6 +8057,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "previous",
           "package": "hsmagick",
@@ -7394,6 +8070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "profiles",
           "package": "hsmagick",
@@ -7403,6 +8080,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "profiles",
           "package": "hsmagick",
@@ -7415,6 +8093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "progress",
           "package": "hsmagick",
@@ -7424,6 +8103,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "progress",
           "package": "hsmagick",
@@ -7436,6 +8116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "quality",
           "package": "hsmagick",
@@ -7445,6 +8126,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "quality",
           "package": "hsmagick",
@@ -7457,6 +8139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "reason",
           "package": "hsmagick",
@@ -7466,6 +8149,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "reason",
           "package": "hsmagick",
@@ -7478,6 +8162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "red",
           "package": "hsmagick",
@@ -7487,6 +8172,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "red",
           "package": "hsmagick",
@@ -7499,6 +8185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "red_",
           "package": "hsmagick",
@@ -7508,6 +8195,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "red_",
           "package": "hsmagick",
@@ -7520,6 +8208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "reference_count",
           "package": "hsmagick",
@@ -7529,6 +8218,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "reference_count",
           "package": "hsmagick",
@@ -7541,6 +8231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "rendering_intent",
           "package": "hsmagick",
@@ -7550,6 +8241,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "rendering_intent",
           "package": "hsmagick",
@@ -7562,6 +8254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "rows",
           "package": "hsmagick",
@@ -7571,6 +8264,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "rows",
           "package": "hsmagick",
@@ -7583,6 +8277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "rx",
           "package": "hsmagick",
@@ -7592,6 +8287,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "rx",
           "package": "hsmagick",
@@ -7604,6 +8300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ry",
           "package": "hsmagick",
@@ -7613,6 +8310,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ry",
           "package": "hsmagick",
@@ -7625,6 +8323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "sampling_factor",
           "package": "hsmagick",
@@ -7634,6 +8333,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "sampling_factor",
           "package": "hsmagick",
@@ -7646,6 +8346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "saturation",
           "package": "hsmagick",
@@ -7655,6 +8356,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "saturation",
           "package": "hsmagick",
@@ -7667,6 +8369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "scene",
           "package": "hsmagick",
@@ -7676,6 +8379,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "scene",
           "package": "hsmagick",
@@ -7688,6 +8392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "semaphore",
           "package": "hsmagick",
@@ -7697,6 +8402,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "semaphore",
           "package": "hsmagick",
@@ -7709,6 +8415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "server_name",
           "package": "hsmagick",
@@ -7718,6 +8425,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "server_name",
           "package": "hsmagick",
@@ -7730,6 +8438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "severity",
           "package": "hsmagick",
@@ -7739,6 +8448,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "severity",
           "package": "hsmagick",
@@ -7751,6 +8461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "signature",
           "package": "hsmagick",
@@ -7760,6 +8471,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "signature",
           "package": "hsmagick",
@@ -7772,6 +8484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "signature_",
           "package": "hsmagick",
@@ -7781,6 +8494,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "signature_",
           "package": "hsmagick",
@@ -7793,6 +8507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "signature__",
           "package": "hsmagick",
@@ -7802,6 +8517,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "signature__",
           "package": "hsmagick",
@@ -7814,6 +8530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "size",
           "package": "hsmagick",
@@ -7823,6 +8540,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "size",
           "package": "hsmagick",
@@ -7835,6 +8553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "standard_deviation",
           "package": "hsmagick",
@@ -7844,6 +8563,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "standard_deviation",
           "package": "hsmagick",
@@ -7856,6 +8576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "start_loop",
           "package": "hsmagick",
@@ -7865,6 +8586,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "start_loop",
           "package": "hsmagick",
@@ -7877,6 +8599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "storageType",
           "package": "hsmagick",
@@ -7886,6 +8609,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "storageType",
           "normalized": "a-\u003eStorageType",
@@ -7901,6 +8625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "storage_class",
           "package": "hsmagick",
@@ -7910,6 +8635,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "storage_class",
           "package": "hsmagick",
@@ -7922,6 +8648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "subimage",
           "package": "hsmagick",
@@ -7931,6 +8658,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "subimage",
           "package": "hsmagick",
@@ -7943,6 +8671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "subrange",
           "package": "hsmagick",
@@ -7952,6 +8681,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "subrange",
           "package": "hsmagick",
@@ -7964,6 +8694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "sx",
           "package": "hsmagick",
@@ -7973,6 +8704,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "sx",
           "package": "hsmagick",
@@ -7985,6 +8717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "sy",
           "package": "hsmagick",
@@ -7994,6 +8727,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "sy",
           "package": "hsmagick",
@@ -8006,6 +8740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "tYPE",
           "package": "hsmagick",
@@ -8015,6 +8750,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "tYPE",
           "package": "hsmagick",
@@ -8028,6 +8764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "taint",
           "package": "hsmagick",
@@ -8037,6 +8774,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "taint",
           "package": "hsmagick",
@@ -8049,6 +8787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "temporary",
           "package": "hsmagick",
@@ -8058,6 +8797,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "temporary",
           "package": "hsmagick",
@@ -8070,6 +8810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "texture",
           "package": "hsmagick",
@@ -8079,6 +8820,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "texture",
           "package": "hsmagick",
@@ -8091,6 +8833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "tile",
           "package": "hsmagick",
@@ -8100,6 +8843,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "tile",
           "package": "hsmagick",
@@ -8112,6 +8856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "tile_info",
           "package": "hsmagick",
@@ -8121,6 +8866,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "tile_info",
           "package": "hsmagick",
@@ -8133,6 +8879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "timer",
           "package": "hsmagick",
@@ -8142,6 +8889,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "timer",
           "package": "hsmagick",
@@ -8154,6 +8902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "total_colors",
           "package": "hsmagick",
@@ -8163,6 +8912,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "total_colors",
           "package": "hsmagick",
@@ -8175,6 +8925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "tx",
           "package": "hsmagick",
@@ -8184,6 +8935,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "tx",
           "package": "hsmagick",
@@ -8196,6 +8948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ty",
           "package": "hsmagick",
@@ -8205,6 +8958,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "ty",
           "package": "hsmagick",
@@ -8217,6 +8971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "unique",
           "package": "hsmagick",
@@ -8226,6 +8981,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "unique",
           "package": "hsmagick",
@@ -8238,6 +8994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "units",
           "package": "hsmagick",
@@ -8247,6 +9004,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "units",
           "package": "hsmagick",
@@ -8259,6 +9017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "units_",
           "package": "hsmagick",
@@ -8268,6 +9027,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "units_",
           "package": "hsmagick",
@@ -8280,6 +9040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "unmarshalPixel",
           "package": "hsmagick",
@@ -8289,6 +9050,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "unmarshalPixel",
           "normalized": "a-\u003eb",
@@ -8304,6 +9066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "variance",
           "package": "hsmagick",
@@ -8313,6 +9076,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "variance",
           "package": "hsmagick",
@@ -8325,6 +9089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "verbose",
           "package": "hsmagick",
@@ -8334,6 +9099,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "verbose",
           "package": "hsmagick",
@@ -8346,6 +9112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "view",
           "package": "hsmagick",
@@ -8355,6 +9122,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "view",
           "package": "hsmagick",
@@ -8367,6 +9135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "white",
           "package": "hsmagick",
@@ -8376,6 +9145,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "white",
           "package": "hsmagick",
@@ -8388,6 +9158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "width",
           "package": "hsmagick",
@@ -8397,6 +9168,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "width",
           "package": "hsmagick",
@@ -8409,6 +9181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "x",
           "package": "hsmagick",
@@ -8418,6 +9191,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "x",
           "package": "hsmagick",
@@ -8430,6 +9204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "x1",
           "package": "hsmagick",
@@ -8439,6 +9214,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "x1",
           "package": "hsmagick",
@@ -8451,6 +9227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "x2",
           "package": "hsmagick",
@@ -8460,6 +9237,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "x2",
           "package": "hsmagick",
@@ -8472,6 +9250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "x_resolution",
           "package": "hsmagick",
@@ -8481,6 +9260,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "x_resolution",
           "package": "hsmagick",
@@ -8493,6 +9273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "y",
           "package": "hsmagick",
@@ -8502,6 +9283,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "y",
           "package": "hsmagick",
@@ -8514,6 +9296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "y1",
           "package": "hsmagick",
@@ -8523,6 +9306,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "y1",
           "package": "hsmagick",
@@ -8535,6 +9319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "y2",
           "package": "hsmagick",
@@ -8544,6 +9329,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "y2",
           "package": "hsmagick",
@@ -8556,6 +9342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "y_resolution",
           "package": "hsmagick",
@@ -8565,6 +9352,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "y_resolution",
           "package": "hsmagick",
@@ -8577,6 +9365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:10 UTC 2014",
           "module": "Graphics.Transform.Magick.Types",
           "name": "zero",
           "package": "hsmagick",
@@ -8586,6 +9375,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform Magick Types",
+          "indexed": "2014-03-11T18:49:10",
           "module": "Graphics.Transform.Magick.Types",
           "name": "zero",
           "package": "hsmagick",

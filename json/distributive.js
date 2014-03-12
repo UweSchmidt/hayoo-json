@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "distributive"
+        "phrase": "distributive",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:57:18 UTC 2014",
           "module": "Data.Distributive",
           "name": "Distributive",
           "package": "distributive",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Distributive",
+          "indexed": "2014-03-11T17:57:18",
           "module": "Data.Distributive",
           "name": "Distributive",
           "package": "distributive",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the categorical dual of \u003ccode\u003eTraversable\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eDue to the lack of non-trivial comonoids in Haskell, we can restrict\n ourselves to requiring a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e rather than\n some Coapplicative class. Categorically every \u003ccode\u003e\u003ca\u003eDistributive\u003c/a\u003e\u003c/code\u003e\n functor is actually a right adjoint, and so it must be \u003ccode\u003eRepresentable\u003c/code\u003e\n endofunctor and preserve all limits. This is a fancy way of saying it\n isomorphic to `(-\u003e) x` for some x.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003edistribute\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ecollect\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eTo be distributable a container will need to have a way to consistently\n zip a potentially infinite number of copies of itself. This effectively\n means that the holes in all values of that type, must have the same\n cardinality, fixed sized vectors, infinite streams, functions, etc.\n and no extra information to try to merge together.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:18 UTC 2014",
           "module": "Data.Distributive",
           "name": "Distributive",
           "package": "distributive",
@@ -49,6 +52,7 @@
         "index": {
           "description": "This is the categorical dual of Traversable Due to the lack of non-trivial comonoids in Haskell we can restrict ourselves to requiring Functor rather than some Coapplicative class Categorically every Distributive functor is actually right adjoint and so it must be Representable endofunctor and preserve all limits This is fancy way of saying it isomorphic to for some Minimal complete definition distribute or collect To be distributable container will need to have way to consistently zip potentially infinite number of copies of itself This effectively means that the holes in all values of that type must have the same cardinality fixed sized vectors infinite streams functions etc and no extra information to try to merge together",
           "hierarchy": "Data Distributive",
+          "indexed": "2014-03-11T17:57:18",
           "module": "Data.Distributive",
           "name": "Distributive",
           "package": "distributive",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003ecollect\u003c/a\u003e\u003c/code\u003e f = \u003ccode\u003e\u003ca\u003edistribute\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e f\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:18 UTC 2014",
           "module": "Data.Distributive",
           "name": "collect",
           "package": "distributive",
@@ -73,6 +78,7 @@
         "index": {
           "description": "collect distribute fmap",
           "hierarchy": "Data Distributive",
+          "indexed": "2014-03-11T17:57:18",
           "module": "Data.Distributive",
           "name": "collect",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003ecollectM\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003edistributeM\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eliftM\u003c/a\u003e\u003c/code\u003e f\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:18 UTC 2014",
           "module": "Data.Distributive",
           "name": "collectM",
           "package": "distributive",
@@ -98,6 +105,7 @@
         "index": {
           "description": "collectM distributeM liftM",
           "hierarchy": "Data Distributive",
+          "indexed": "2014-03-11T17:57:18",
           "module": "Data.Distributive",
           "name": "collectM",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dual of \u003ccode\u003e\u003ca\u003emapM\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003ecomapM\u003c/a\u003e\u003c/code\u003e f = \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e f . \u003ccode\u003e\u003ca\u003edistributeM\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:18 UTC 2014",
           "module": "Data.Distributive",
           "name": "comapM",
           "package": "distributive",
@@ -123,6 +132,7 @@
         "index": {
           "description": "The dual of mapM comapM fmap distributeM",
           "hierarchy": "Data Distributive",
+          "indexed": "2014-03-11T17:57:18",
           "module": "Data.Distributive",
           "name": "comapM",
           "normalized": "(a b-\u003ec)-\u003ea(d b)-\u003ed c",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dual of \u003ccode\u003e\u003ca\u003etraverse\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003ecotraverse\u003c/a\u003e\u003c/code\u003e f = \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e f . \u003ccode\u003e\u003ca\u003edistribute\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:18 UTC 2014",
           "module": "Data.Distributive",
           "name": "cotraverse",
           "package": "distributive",
@@ -148,6 +159,7 @@
         "index": {
           "description": "The dual of traverse cotraverse fmap distribute",
           "hierarchy": "Data Distributive",
+          "indexed": "2014-03-11T17:57:18",
           "module": "Data.Distributive",
           "name": "cotraverse",
           "normalized": "(a b-\u003ec)-\u003ea(d b)-\u003ed c",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dual of \u003ccode\u003e\u003ca\u003esequenceA\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edistribute [(+1),(+2)] 1\n\u003c/code\u003e\u003c/strong\u003e[2,3]\n\u003c/pre\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003edistribute\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003ecollect\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:18 UTC 2014",
           "module": "Data.Distributive",
           "name": "distribute",
           "package": "distributive",
@@ -173,6 +186,7 @@
         "index": {
           "description": "The dual of sequenceA distribute distribute collect id",
           "hierarchy": "Data Distributive",
+          "indexed": "2014-03-11T17:57:18",
           "module": "Data.Distributive",
           "name": "distribute",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dual of \u003ccode\u003e\u003ca\u003esequence\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003edistributeM\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eunwrapMonad\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003edistribute\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eWrapMonad\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:18 UTC 2014",
           "module": "Data.Distributive",
           "name": "distributeM",
           "package": "distributive",
@@ -198,6 +213,7 @@
         "index": {
           "description": "The dual of sequence distributeM fmap unwrapMonad distribute WrapMonad",
           "hierarchy": "Data Distributive",
+          "indexed": "2014-03-11T17:57:18",
           "module": "Data.Distributive",
           "name": "distributeM",
           "normalized": "a(b c)-\u003eb(a c)",

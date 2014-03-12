@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HaskellNet-SSL"
+        "phrase": "HaskellNet-SSL",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.IMAP.SSL",
           "name": "SSL",
           "package": "HaskellNet-SSL",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.IMAP.SSL",
           "name": "SSL",
           "package": "HaskellNet-SSL",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.IMAP.SSL",
           "name": "connectIMAPSSL",
           "package": "HaskellNet-SSL",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.IMAP.SSL",
           "name": "connectIMAPSSL",
           "normalized": "String-\u003eIO IMAPConnection",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.IMAP.SSL",
           "name": "connectIMAPSSLWithSettings",
           "package": "HaskellNet-SSL",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.IMAP.SSL",
           "name": "connectIMAPSSLWithSettings",
           "normalized": "String-\u003eSettings-\u003eIO IMAPConnection",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.IMAP.SSL",
           "name": "defaultSettingsIMAPSSL",
           "package": "HaskellNet-SSL",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.IMAP.SSL",
           "name": "defaultSettingsIMAPSSL",
           "package": "HaskellNet-SSL",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.POP3.SSL",
           "name": "SSL",
           "package": "HaskellNet-SSL",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.POP3.SSL",
           "name": "SSL",
           "package": "HaskellNet-SSL",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.POP3.SSL",
           "name": "connectPop3SSL",
           "package": "HaskellNet-SSL",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.POP3.SSL",
           "name": "connectPop3SSL",
           "normalized": "String-\u003eIO POP Connection",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.POP3.SSL",
           "name": "connectPop3SSLWithSettings",
           "package": "HaskellNet-SSL",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.POP3.SSL",
           "name": "connectPop3SSLWithSettings",
           "normalized": "String-\u003eSettings-\u003eIO POP Connection",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.POP3.SSL",
           "name": "defaultSettingsPop3SSL",
           "package": "HaskellNet-SSL",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.POP3.SSL",
           "name": "defaultSettingsPop3SSL",
           "package": "HaskellNet-SSL",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "SSL",
           "package": "HaskellNet-SSL",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "SSL",
           "package": "HaskellNet-SSL",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "connectSMTPSSL",
           "package": "HaskellNet-SSL",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "connectSMTPSSL",
           "normalized": "String-\u003eIO SMTPConnection",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "connectSMTPSSLWithSettings",
           "package": "HaskellNet-SSL",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "connectSMTPSSLWithSettings",
           "normalized": "String-\u003eSettings-\u003eIO SMTPConnection",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "connectSMTPSTARTTLS",
           "package": "HaskellNet-SSL",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "connectSMTPSTARTTLS",
           "normalized": "String-\u003eIO SMTPConnection",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "connectSMTPSTARTTLSWithSettings",
           "package": "HaskellNet-SSL",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "connectSMTPSTARTTLSWithSettings",
           "normalized": "String-\u003eSettings-\u003eIO SMTPConnection",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "defaultSettingsSMTPSSL",
           "package": "HaskellNet-SSL",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "defaultSettingsSMTPSSL",
           "package": "HaskellNet-SSL",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "defaultSettingsSMTPSTARTTLS",
           "package": "HaskellNet-SSL",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "defaultSettingsSMTPSTARTTLS",
           "package": "HaskellNet-SSL",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "doSMTPSSL",
           "package": "HaskellNet-SSL",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "doSMTPSSL",
           "normalized": "String-\u003e(SMTPConnection-\u003eIO a)-\u003eIO a",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "doSMTPSSLWithSettings",
           "package": "HaskellNet-SSL",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "doSMTPSSLWithSettings",
           "normalized": "String-\u003eSettings-\u003e(SMTPConnection-\u003eIO a)-\u003eIO a",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "doSMTPSTARTTLS",
           "package": "HaskellNet-SSL",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "doSMTPSTARTTLS",
           "normalized": "String-\u003e(SMTPConnection-\u003eIO a)-\u003eIO a",
@@ -433,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "doSMTPSTARTTLSWithSettings",
           "package": "HaskellNet-SSL",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.SMTP.SSL",
           "name": "doSMTPSTARTTLSWithSettings",
           "normalized": "String-\u003eSettings-\u003e(SMTPConnection-\u003eIO a)-\u003eIO a",
@@ -457,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.SSL",
           "name": "SSL",
           "package": "HaskellNet-SSL",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.SSL",
           "name": "SSL",
           "package": "HaskellNet-SSL",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.SSL",
           "name": "Settings",
           "package": "HaskellNet-SSL",
@@ -486,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.SSL",
           "name": "Settings",
           "package": "HaskellNet-SSL",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.SSL",
           "name": "Settings",
           "package": "HaskellNet-SSL",
@@ -508,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.SSL",
           "name": "Settings",
           "package": "HaskellNet-SSL",
@@ -521,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.SSL",
           "name": "defaultSettingsWithPort",
           "package": "HaskellNet-SSL",
@@ -530,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.SSL",
           "name": "defaultSettingsWithPort",
           "normalized": "PortNumber-\u003eSettings",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.SSL",
           "name": "sslMaxLineLength",
           "package": "HaskellNet-SSL",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.SSL",
           "name": "sslMaxLineLength",
           "package": "HaskellNet-SSL",
@@ -567,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:02 UTC 2014",
           "module": "Network.HaskellNet.SSL",
           "name": "sslPort",
           "package": "HaskellNet-SSL",
@@ -576,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SSL",
+          "indexed": "2014-03-11T16:48:02",
           "module": "Network.HaskellNet.SSL",
           "name": "sslPort",
           "package": "HaskellNet-SSL",

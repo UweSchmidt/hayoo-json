@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "press"
+        "phrase": "press",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Parser",
           "name": "failWithParseError",
           "package": "press",
@@ -27,6 +28,7 @@
         },
         "index": {
           "hierarchy": "Text Press Parser",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Parser",
           "name": "failWithParseError",
           "normalized": "ParseError-\u003eParsecT a b c d",
@@ -42,6 +44,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Parser",
           "name": "parseFile",
           "package": "press",
@@ -51,6 +54,7 @@
         },
         "index": {
           "hierarchy": "Text Press Parser",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Parser",
           "name": "parseFile",
           "normalized": "Parser-\u003eString-\u003eIO(Either ParseError Template)",
@@ -66,6 +70,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Parser",
           "name": "parseString",
           "package": "press",
@@ -75,6 +80,7 @@
         },
         "index": {
           "hierarchy": "Text Press Parser",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Parser",
           "name": "parseString",
           "normalized": "Parser-\u003eString-\u003eEither ParseError Template",
@@ -90,6 +96,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Parser",
           "name": "tokensToTemplate",
           "package": "press",
@@ -99,6 +106,7 @@
         },
         "index": {
           "hierarchy": "Text Press Parser",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Parser",
           "name": "tokensToTemplate",
           "normalized": "Parsec[(Token,SourcePos)]ParserState Template",
@@ -114,6 +122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Render",
           "name": "coerceJSToBool",
           "package": "press",
@@ -123,6 +132,7 @@
         },
         "index": {
           "hierarchy": "Text Press Render",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Render",
           "name": "coerceJSToBool",
           "normalized": "JSValue-\u003eBool",
@@ -138,6 +148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Render",
           "name": "lookupFirst",
           "package": "press",
@@ -147,6 +158,7 @@
         },
         "index": {
           "hierarchy": "Text Press Render",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Render",
           "name": "lookupFirst",
           "normalized": "a-\u003e[Map a b]-\u003eMaybe b",
@@ -162,6 +174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Render",
           "name": "showBlock",
           "package": "press",
@@ -171,6 +184,7 @@
         },
         "index": {
           "hierarchy": "Text Press Render",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Render",
           "name": "showBlock",
           "normalized": "String-\u003eRenderT_",
@@ -186,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Render",
           "name": "split",
           "package": "press",
@@ -195,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Text Press Render",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Render",
           "name": "split",
           "normalized": "String-\u003eString-\u003e[String]",
@@ -209,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Run",
           "name": "Result",
           "package": "press",
@@ -217,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Text Press Run",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Run",
           "name": "Result",
           "package": "press",
@@ -230,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Run",
           "name": "runJSValuesWithBody",
           "package": "press",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Text Press Run",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Run",
           "name": "runJSValuesWithBody",
           "normalized": "[JSValue]-\u003eString-\u003eIO Result",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Run",
           "name": "runJSValuesWithPathStTErrT",
           "package": "press",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Text Press Run",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Run",
           "name": "runJSValuesWithPathStTErrT",
           "normalized": "[JSValue]-\u003eString-\u003eStateT Parser(ErrorT PressError IO)[String]",
@@ -278,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Run",
           "name": "runJSValuesWithTemplate",
           "package": "press",
@@ -287,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Text Press Run",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Run",
           "name": "runJSValuesWithTemplate",
           "normalized": "[JSValue]-\u003eTemplate-\u003eParser-\u003eIO Result",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Run",
           "name": "runJSValuesWithTemplateStTErrT",
           "package": "press",
@@ -311,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Text Press Run",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Run",
           "name": "runJSValuesWithTemplateStTErrT",
           "normalized": "[JSValue]-\u003eTemplate-\u003eStateT Parser(ErrorT PressError IO)[String]",
@@ -326,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Tags",
           "name": "exprToBool",
           "package": "press",
@@ -335,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Text Press Tags",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Tags",
           "name": "exprToBool",
           "normalized": "Expr-\u003eRenderT Bool",
@@ -350,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Tags",
           "name": "showFor",
           "package": "press",
@@ -359,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Text Press Tags",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Tags",
           "name": "showFor",
           "normalized": "String-\u003eExpr-\u003e[Node]-\u003e[Node]-\u003eRenderT_",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Tags",
           "name": "showIfElse",
           "package": "press",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Text Press Tags",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Tags",
           "name": "showIfElse",
           "normalized": "[(Expr,[Node])]-\u003e[Node]-\u003eRenderT_",
@@ -398,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "Expr",
           "package": "press",
@@ -406,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "Expr",
           "package": "press",
@@ -419,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "Node",
           "package": "press",
@@ -427,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "Node",
           "package": "press",
@@ -440,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "NodeParser",
           "package": "press",
@@ -448,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "NodeParser",
           "package": "press",
@@ -461,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "Parser",
           "package": "press",
@@ -469,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "Parser",
           "package": "press",
@@ -482,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "ParserState",
           "package": "press",
@@ -490,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "ParserState",
           "package": "press",
@@ -503,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "PressError",
           "package": "press",
@@ -511,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "PressError",
           "package": "press",
@@ -524,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "RenderState",
           "package": "press",
@@ -532,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "RenderState",
           "package": "press",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "RenderT",
           "package": "press",
@@ -553,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "RenderT",
           "package": "press",
@@ -566,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "RenderT_",
           "package": "press",
@@ -574,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "RenderT_",
           "package": "press",
@@ -587,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "TagFunc",
           "package": "press",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "TagFunc",
           "package": "press",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "TagName",
           "package": "press",
@@ -616,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "TagName",
           "package": "press",
@@ -629,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "TagType",
           "package": "press",
@@ -637,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "TagType",
           "package": "press",
@@ -650,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "Template",
           "package": "press",
@@ -658,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "Template",
           "package": "press",
@@ -671,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "TemplateParser",
           "package": "press",
@@ -679,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "TemplateParser",
           "package": "press",
@@ -692,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "TemplatePath",
           "package": "press",
@@ -700,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "TemplatePath",
           "package": "press",
@@ -713,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "Token",
           "package": "press",
@@ -721,6 +784,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "Token",
           "package": "press",
@@ -734,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "Render",
           "package": "press",
@@ -742,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "Render",
           "package": "press",
@@ -755,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "getRenderState",
           "package": "press",
@@ -764,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "getRenderState",
           "package": "press",
@@ -777,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "render",
           "package": "press",
@@ -786,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "render",
           "normalized": "a-\u003eRenderT_",
@@ -800,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:23 UTC 2014",
           "module": "Text.Press.Types",
           "name": "setRenderState",
           "package": "press",
@@ -809,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Text Press Types",
+          "indexed": "2014-03-11T19:43:23",
           "module": "Text.Press.Types",
           "name": "setRenderState",
           "normalized": "RenderState-\u003eRenderT()",

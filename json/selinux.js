@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "selinux"
+        "phrase": "selinux",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHaskell bindings for the SELinux API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "SELinux",
           "package": "selinux",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Haskell bindings for the SELinux API",
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "SELinux",
           "package": "selinux",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "EnforceMode",
           "package": "selinux",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "EnforceMode",
           "package": "selinux",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "SecurityContext",
           "package": "selinux",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "SecurityContext",
           "package": "selinux",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "Disabled",
           "package": "selinux",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "Disabled",
           "package": "selinux",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "Enforcing",
           "package": "selinux",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "Enforcing",
           "package": "selinux",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "Permissive",
           "package": "selinux",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "Permissive",
           "package": "selinux",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "fgetFileCon",
           "package": "selinux",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "fgetFileCon",
           "normalized": "CInt-\u003eIO SecurityContext",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "fgetFileConRaw",
           "package": "selinux",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "fgetFileConRaw",
           "normalized": "CInt-\u003eIO SecurityContext",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "fsetFileCon",
           "package": "selinux",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "fsetFileCon",
           "normalized": "CInt-\u003eSecurityContext-\u003eIO()",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "fsetFileConRaw",
           "package": "selinux",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "fsetFileConRaw",
           "normalized": "CInt-\u003eSecurityContext-\u003eIO()",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getCon",
           "package": "selinux",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getCon",
           "package": "selinux",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConRaw",
           "package": "selinux",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConRaw",
           "package": "selinux",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigBinaryPolicyPath",
           "package": "selinux",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigBinaryPolicyPath",
           "package": "selinux",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigBooleansPath",
           "package": "selinux",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigBooleansPath",
           "package": "selinux",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigColorsPath",
           "package": "selinux",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigColorsPath",
           "package": "selinux",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigContextsPath",
           "package": "selinux",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigContextsPath",
           "package": "selinux",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigCustomizableTypesPath",
           "package": "selinux",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigCustomizableTypesPath",
           "package": "selinux",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigDefaultContextPath",
           "package": "selinux",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigDefaultContextPath",
           "package": "selinux",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigFailsafeContextPath",
           "package": "selinux",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigFailsafeContextPath",
           "package": "selinux",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigFileContextHomedirPath",
           "package": "selinux",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigFileContextHomedirPath",
           "package": "selinux",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigFileContextLocalPath",
           "package": "selinux",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigFileContextLocalPath",
           "package": "selinux",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigFileContextPath",
           "package": "selinux",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigFileContextPath",
           "package": "selinux",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigFileContextSubsPath",
           "package": "selinux",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigFileContextSubsPath",
           "package": "selinux",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigHomedirContextPath",
           "package": "selinux",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigHomedirContextPath",
           "package": "selinux",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigMediaContextPath",
           "package": "selinux",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigMediaContextPath",
           "package": "selinux",
@@ -575,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigNetfilterContextPath",
           "package": "selinux",
@@ -584,6 +635,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigNetfilterContextPath",
           "package": "selinux",
@@ -597,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigPath",
           "package": "selinux",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigPath",
           "package": "selinux",
@@ -619,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigPolicyRoot",
           "package": "selinux",
@@ -628,6 +683,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigPolicyRoot",
           "package": "selinux",
@@ -641,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigRemovableContextPath",
           "package": "selinux",
@@ -650,6 +707,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigRemovableContextPath",
           "package": "selinux",
@@ -663,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigSecurettyTypesPath",
           "package": "selinux",
@@ -672,6 +731,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigSecurettyTypesPath",
           "package": "selinux",
@@ -685,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigSepgsqlContextPath",
           "package": "selinux",
@@ -694,6 +755,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigSepgsqlContextPath",
           "package": "selinux",
@@ -707,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigTranslationsPath",
           "package": "selinux",
@@ -716,6 +779,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigTranslationsPath",
           "package": "selinux",
@@ -729,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigUserContextsPath",
           "package": "selinux",
@@ -738,6 +803,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigUserContextsPath",
           "package": "selinux",
@@ -751,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigUsersPath",
           "package": "selinux",
@@ -760,6 +827,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigUsersPath",
           "package": "selinux",
@@ -773,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigUsersconfPath",
           "package": "selinux",
@@ -782,6 +851,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigUsersconfPath",
           "package": "selinux",
@@ -795,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigVirtualDomainContextPath",
           "package": "selinux",
@@ -804,6 +875,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigVirtualDomainContextPath",
           "package": "selinux",
@@ -817,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigVirtualImageContextPath",
           "package": "selinux",
@@ -826,6 +899,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigVirtualImageContextPath",
           "package": "selinux",
@@ -839,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getConfigXContextPath",
           "package": "selinux",
@@ -848,6 +923,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getConfigXContextPath",
           "package": "selinux",
@@ -861,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getEnforce",
           "package": "selinux",
@@ -870,6 +947,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getEnforce",
           "package": "selinux",
@@ -883,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getEnforceMode",
           "package": "selinux",
@@ -892,6 +971,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getEnforceMode",
           "package": "selinux",
@@ -905,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getExecCon",
           "package": "selinux",
@@ -914,6 +995,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getExecCon",
           "package": "selinux",
@@ -927,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getExecConRaw",
           "package": "selinux",
@@ -936,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getExecConRaw",
           "package": "selinux",
@@ -949,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getFileCon",
           "package": "selinux",
@@ -958,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getFileCon",
           "normalized": "FilePath-\u003eIO SecurityContext",
@@ -973,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getFileConRaw",
           "package": "selinux",
@@ -982,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getFileConRaw",
           "normalized": "FilePath-\u003eIO SecurityContext",
@@ -997,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getFsCreateCon",
           "package": "selinux",
@@ -1006,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getFsCreateCon",
           "package": "selinux",
@@ -1019,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getFsCreateConRaw",
           "package": "selinux",
@@ -1028,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getFsCreateConRaw",
           "package": "selinux",
@@ -1041,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getKeyCreateCon",
           "package": "selinux",
@@ -1050,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getKeyCreateCon",
           "package": "selinux",
@@ -1063,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getKeyCreateConRaw",
           "package": "selinux",
@@ -1072,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getKeyCreateConRaw",
           "package": "selinux",
@@ -1085,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getPeerCon",
           "package": "selinux",
@@ -1094,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getPeerCon",
           "normalized": "CInt-\u003eIO SecurityContext",
@@ -1109,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getPeerConRaw",
           "package": "selinux",
@@ -1118,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getPeerConRaw",
           "normalized": "CInt-\u003eIO SecurityContext",
@@ -1133,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getPidCon",
           "package": "selinux",
@@ -1142,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getPidCon",
           "normalized": "CPid-\u003eIO SecurityContext",
@@ -1157,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getPidConRaw",
           "package": "selinux",
@@ -1166,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getPidConRaw",
           "normalized": "CPid-\u003eIO SecurityContext",
@@ -1181,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getPrevCon",
           "package": "selinux",
@@ -1190,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getPrevCon",
           "package": "selinux",
@@ -1203,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getPrevConRaw",
           "package": "selinux",
@@ -1212,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getPrevConRaw",
           "package": "selinux",
@@ -1225,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getSockCreateCon",
           "package": "selinux",
@@ -1234,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getSockCreateCon",
           "package": "selinux",
@@ -1247,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "getSockCreateConRaw",
           "package": "selinux",
@@ -1256,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "getSockCreateConRaw",
           "package": "selinux",
@@ -1269,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "isSELinuxEnabled",
           "package": "selinux",
@@ -1278,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "isSELinuxEnabled",
           "package": "selinux",
@@ -1291,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "isSELinuxMLSEnabled",
           "package": "selinux",
@@ -1300,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "isSELinuxMLSEnabled",
           "package": "selinux",
@@ -1313,6 +1429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "lgetFileCon",
           "package": "selinux",
@@ -1322,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "lgetFileCon",
           "normalized": "FilePath-\u003eIO SecurityContext",
@@ -1337,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "lgetFileConRaw",
           "package": "selinux",
@@ -1346,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "lgetFileConRaw",
           "normalized": "FilePath-\u003eIO SecurityContext",
@@ -1361,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "lsetFileCon",
           "package": "selinux",
@@ -1370,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "lsetFileCon",
           "normalized": "FilePath-\u003eSecurityContext-\u003eIO()",
@@ -1385,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "lsetFileConRaw",
           "package": "selinux",
@@ -1394,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "lsetFileConRaw",
           "normalized": "FilePath-\u003eSecurityContext-\u003eIO()",
@@ -1409,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "setCon",
           "package": "selinux",
@@ -1418,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "setCon",
           "normalized": "SecurityContext-\u003eIO()",
@@ -1433,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "setConRaw",
           "package": "selinux",
@@ -1442,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "setConRaw",
           "normalized": "SecurityContext-\u003eIO()",
@@ -1457,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "setExecCon",
           "package": "selinux",
@@ -1466,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "setExecCon",
           "normalized": "Maybe SecurityContext-\u003eIO()",
@@ -1481,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "setExecConRaw",
           "package": "selinux",
@@ -1490,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "setExecConRaw",
           "normalized": "Maybe SecurityContext-\u003eIO()",
@@ -1505,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "setFileCon",
           "package": "selinux",
@@ -1514,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "setFileCon",
           "normalized": "FilePath-\u003eSecurityContext-\u003eIO()",
@@ -1529,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "setFileConRaw",
           "package": "selinux",
@@ -1538,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "setFileConRaw",
           "normalized": "FilePath-\u003eSecurityContext-\u003eIO()",
@@ -1553,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "setFsCreateCon",
           "package": "selinux",
@@ -1562,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "setFsCreateCon",
           "normalized": "Maybe SecurityContext-\u003eIO()",
@@ -1577,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "setFsCreateConRaw",
           "package": "selinux",
@@ -1586,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "setFsCreateConRaw",
           "normalized": "Maybe SecurityContext-\u003eIO()",
@@ -1601,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "setKeyCreateCon",
           "package": "selinux",
@@ -1610,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "setKeyCreateCon",
           "normalized": "Maybe SecurityContext-\u003eIO()",
@@ -1625,6 +1767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "setKeyCreateConRaw",
           "package": "selinux",
@@ -1634,6 +1777,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "setKeyCreateConRaw",
           "normalized": "Maybe SecurityContext-\u003eIO()",
@@ -1649,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "setSockCreateCon",
           "package": "selinux",
@@ -1658,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "setSockCreateCon",
           "normalized": "Maybe SecurityContext-\u003eIO()",
@@ -1673,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:24 UTC 2014",
           "module": "System.Linux.SELinux",
           "name": "setSockCreateConRaw",
           "package": "selinux",
@@ -1682,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "System Linux SELinux",
+          "indexed": "2014-03-11T19:59:24",
           "module": "System.Linux.SELinux",
           "name": "setSockCreateConRaw",
           "normalized": "Maybe SecurityContext-\u003eIO()",

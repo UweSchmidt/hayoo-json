@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "repa-sndfile"
+        "phrase": "repa-sndfile",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead and write audio file with repa arrays using libsndfile via hsndfile.\nNote that this module re-exports header related types from hsndfile.\n\u003c/p\u003e\u003cp\u003eFor more info about supported format, visit libsndfile web site:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e libsndfile: \u003ca\u003ehttp://www.mega-nerd.com/libsndfile/\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e hsndfile \u003ca\u003ehttp://haskell.org/haskellwiki/Hsndfile\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "Sndfile",
           "package": "repa-sndfile",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Read and write audio file with repa arrays using libsndfile via hsndfile Note that this module re-exports header related types from hsndfile For more info about supported format visit libsndfile web site libsndfile http www.mega-nerd.com libsndfile hsndfile http haskell.org haskellwiki Hsndfile",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "Sndfile",
           "package": "repa-sndfile",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for expressing sample counts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "Count",
           "package": "repa-sndfile",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Type for expressing sample counts",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "Count",
           "package": "repa-sndfile",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEndianness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "EndianFormat",
           "package": "repa-sndfile",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Endianness",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "EndianFormat",
           "package": "repa-sndfile",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream format specification, consisting of header, sample and endianness formats.\n\u003c/p\u003e\u003cp\u003eNot all combinations of header, sample and endianness formats are valid;\n valid combinations can be checked with the \u003ccode\u003e\u003ca\u003echeckFormat\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "Format",
           "package": "repa-sndfile",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Stream format specification consisting of header sample and endianness formats Not all combinations of header sample and endianness formats are valid valid combinations can be checked with the checkFormat function",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "Format",
           "package": "repa-sndfile",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormat",
           "package": "repa-sndfile",
@@ -116,6 +125,7 @@
         "index": {
           "description": "Header format",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormat",
           "package": "repa-sndfile",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eInfo\u003c/a\u003e\u003c/code\u003e structure is for passing data between the calling function and\n   the library when opening a stream for reading or writing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "Info",
           "package": "repa-sndfile",
@@ -138,6 +149,7 @@
         "index": {
           "description": "The Info structure is for passing data between the calling function and the library when opening stream for reading or writing",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "Info",
           "package": "repa-sndfile",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormat",
           "package": "repa-sndfile",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Sample format",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormat",
           "package": "repa-sndfile",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "EndianBig",
           "package": "repa-sndfile",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "EndianBig",
           "package": "repa-sndfile",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "EndianCpu",
           "package": "repa-sndfile",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "EndianCpu",
           "package": "repa-sndfile",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "EndianFile",
           "package": "repa-sndfile",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "EndianFile",
           "package": "repa-sndfile",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "EndianLittle",
           "package": "repa-sndfile",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "EndianLittle",
           "package": "repa-sndfile",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "Format",
           "package": "repa-sndfile",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "Format",
           "package": "repa-sndfile",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatAiff",
           "package": "repa-sndfile",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatAiff",
           "package": "repa-sndfile",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatAu",
           "package": "repa-sndfile",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatAu",
           "package": "repa-sndfile",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatAvr",
           "package": "repa-sndfile",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatAvr",
           "package": "repa-sndfile",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatCaf",
           "package": "repa-sndfile",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatCaf",
           "package": "repa-sndfile",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatFlac",
           "package": "repa-sndfile",
@@ -370,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatFlac",
           "package": "repa-sndfile",
@@ -383,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatHtk",
           "package": "repa-sndfile",
@@ -391,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatHtk",
           "package": "repa-sndfile",
@@ -404,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatIrcam",
           "package": "repa-sndfile",
@@ -412,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatIrcam",
           "package": "repa-sndfile",
@@ -425,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatMat4",
           "package": "repa-sndfile",
@@ -433,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatMat4",
           "package": "repa-sndfile",
@@ -446,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatMat5",
           "package": "repa-sndfile",
@@ -454,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatMat5",
           "package": "repa-sndfile",
@@ -467,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatMpc2k",
           "package": "repa-sndfile",
@@ -475,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatMpc2k",
           "package": "repa-sndfile",
@@ -488,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatNist",
           "package": "repa-sndfile",
@@ -496,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatNist",
           "package": "repa-sndfile",
@@ -509,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatNone",
           "package": "repa-sndfile",
@@ -517,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatNone",
           "package": "repa-sndfile",
@@ -530,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatOgg",
           "package": "repa-sndfile",
@@ -538,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatOgg",
           "package": "repa-sndfile",
@@ -551,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatPaf",
           "package": "repa-sndfile",
@@ -559,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatPaf",
           "package": "repa-sndfile",
@@ -572,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatPvf",
           "package": "repa-sndfile",
@@ -580,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatPvf",
           "package": "repa-sndfile",
@@ -593,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatRaw",
           "package": "repa-sndfile",
@@ -601,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatRaw",
           "package": "repa-sndfile",
@@ -614,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatRf64",
           "package": "repa-sndfile",
@@ -622,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatRf64",
           "package": "repa-sndfile",
@@ -635,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatSd2",
           "package": "repa-sndfile",
@@ -643,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatSd2",
           "package": "repa-sndfile",
@@ -656,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatSds",
           "package": "repa-sndfile",
@@ -664,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatSds",
           "package": "repa-sndfile",
@@ -677,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatSvx",
           "package": "repa-sndfile",
@@ -685,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatSvx",
           "package": "repa-sndfile",
@@ -698,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatVoc",
           "package": "repa-sndfile",
@@ -706,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatVoc",
           "package": "repa-sndfile",
@@ -719,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatW64",
           "package": "repa-sndfile",
@@ -727,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatW64",
           "package": "repa-sndfile",
@@ -740,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatWav",
           "package": "repa-sndfile",
@@ -748,6 +817,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatWav",
           "package": "repa-sndfile",
@@ -761,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatWavex",
           "package": "repa-sndfile",
@@ -769,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatWavex",
           "package": "repa-sndfile",
@@ -782,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatWve",
           "package": "repa-sndfile",
@@ -790,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatWve",
           "package": "repa-sndfile",
@@ -803,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatXi",
           "package": "repa-sndfile",
@@ -811,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "HeaderFormatXi",
           "package": "repa-sndfile",
@@ -824,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "Info",
           "package": "repa-sndfile",
@@ -832,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "Info",
           "package": "repa-sndfile",
@@ -845,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatAlaw",
           "package": "repa-sndfile",
@@ -853,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatAlaw",
           "package": "repa-sndfile",
@@ -866,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatDouble",
           "package": "repa-sndfile",
@@ -874,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatDouble",
           "package": "repa-sndfile",
@@ -887,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatDwvw12",
           "package": "repa-sndfile",
@@ -895,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatDwvw12",
           "package": "repa-sndfile",
@@ -908,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatDwvw16",
           "package": "repa-sndfile",
@@ -916,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatDwvw16",
           "package": "repa-sndfile",
@@ -929,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatDwvw24",
           "package": "repa-sndfile",
@@ -937,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatDwvw24",
           "package": "repa-sndfile",
@@ -950,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatDwvwN",
           "package": "repa-sndfile",
@@ -958,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatDwvwN",
           "package": "repa-sndfile",
@@ -971,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatFloat",
           "package": "repa-sndfile",
@@ -979,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatFloat",
           "package": "repa-sndfile",
@@ -992,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatFormatDpcm16",
           "package": "repa-sndfile",
@@ -1000,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatFormatDpcm16",
           "package": "repa-sndfile",
@@ -1013,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatFormatDpcm8",
           "package": "repa-sndfile",
@@ -1021,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatFormatDpcm8",
           "package": "repa-sndfile",
@@ -1034,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatG72132",
           "package": "repa-sndfile",
@@ -1042,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatG72132",
           "package": "repa-sndfile",
@@ -1055,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatG72324",
           "package": "repa-sndfile",
@@ -1063,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatG72324",
           "package": "repa-sndfile",
@@ -1076,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatG72340",
           "package": "repa-sndfile",
@@ -1084,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatG72340",
           "package": "repa-sndfile",
@@ -1097,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatGsm610",
           "package": "repa-sndfile",
@@ -1105,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatGsm610",
           "package": "repa-sndfile",
@@ -1118,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatImaAdpcm",
           "package": "repa-sndfile",
@@ -1126,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatImaAdpcm",
           "package": "repa-sndfile",
@@ -1139,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatMsAdpcm",
           "package": "repa-sndfile",
@@ -1147,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatMsAdpcm",
           "package": "repa-sndfile",
@@ -1160,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatNone",
           "package": "repa-sndfile",
@@ -1168,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatNone",
           "package": "repa-sndfile",
@@ -1181,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatPcm16",
           "package": "repa-sndfile",
@@ -1189,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatPcm16",
           "package": "repa-sndfile",
@@ -1202,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatPcm24",
           "package": "repa-sndfile",
@@ -1210,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatPcm24",
           "package": "repa-sndfile",
@@ -1223,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatPcm32",
           "package": "repa-sndfile",
@@ -1231,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatPcm32",
           "package": "repa-sndfile",
@@ -1244,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatPcmS8",
           "package": "repa-sndfile",
@@ -1252,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatPcmS8",
           "package": "repa-sndfile",
@@ -1265,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatPcmU8",
           "package": "repa-sndfile",
@@ -1273,6 +1392,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatPcmU8",
           "package": "repa-sndfile",
@@ -1286,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatUlaw",
           "package": "repa-sndfile",
@@ -1294,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatUlaw",
           "package": "repa-sndfile",
@@ -1307,6 +1429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatVorbis",
           "package": "repa-sndfile",
@@ -1315,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatVorbis",
           "package": "repa-sndfile",
@@ -1328,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatVoxAdpcm",
           "package": "repa-sndfile",
@@ -1336,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "SampleFormatVoxAdpcm",
           "package": "repa-sndfile",
@@ -1350,6 +1476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of channels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "channels",
           "package": "repa-sndfile",
@@ -1359,6 +1486,7 @@
         "index": {
           "description": "Number of channels",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "channels",
           "package": "repa-sndfile",
@@ -1371,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "endianFormat",
           "package": "repa-sndfile",
@@ -1379,6 +1508,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "endianFormat",
           "package": "repa-sndfile",
@@ -1393,6 +1523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader and sample format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "format",
           "package": "repa-sndfile",
@@ -1402,6 +1533,7 @@
         "index": {
           "description": "Header and sample format",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "format",
           "package": "repa-sndfile",
@@ -1415,6 +1547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of frames in file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "frames",
           "package": "repa-sndfile",
@@ -1424,6 +1557,7 @@
         "index": {
           "description": "Number of frames in file",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "frames",
           "package": "repa-sndfile",
@@ -1437,6 +1571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts multi channel signal to vector signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "fromMC",
           "package": "repa-sndfile",
@@ -1447,6 +1582,7 @@
         "index": {
           "description": "Converts multi channel signal to vector signal",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "fromMC",
           "normalized": "Array a DIM b-\u003ec(Array a DIM b)",
@@ -1462,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "headerFormat",
           "package": "repa-sndfile",
@@ -1470,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "headerFormat",
           "package": "repa-sndfile",
@@ -1484,6 +1622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead sound file from given path.\n\u003c/p\u003e\u003cp\u003eReturns a tuple of Info and array containing the samples of sound\n file.  Returned pair contains sound file information and array which\n is indexed with channel number and frame.  Info could used later for\n writing sound file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "readSF",
           "package": "repa-sndfile",
@@ -1494,6 +1633,7 @@
         "index": {
           "description": "Read sound file from given path Returns tuple of Info and array containing the samples of sound file Returned pair contains sound file information and array which is indexed with channel number and frame Info could used later for writing sound file",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "readSF",
           "normalized": "FilePath-\u003eIO(Info,Array a DIM b)",
@@ -1509,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "sampleFormat",
           "package": "repa-sndfile",
@@ -1517,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "sampleFormat",
           "package": "repa-sndfile",
@@ -1531,6 +1673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAudio sample rate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "samplerate",
           "package": "repa-sndfile",
@@ -1540,6 +1683,7 @@
         "index": {
           "description": "Audio sample rate",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "samplerate",
           "package": "repa-sndfile",
@@ -1553,6 +1697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of sections\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "sections",
           "package": "repa-sndfile",
@@ -1562,6 +1707,7 @@
         "index": {
           "description": "Number of sections",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "sections",
           "package": "repa-sndfile",
@@ -1575,6 +1721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e when stream is seekable (e.g. local files)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "seekable",
           "package": "repa-sndfile",
@@ -1584,6 +1731,7 @@
         "index": {
           "description": "True when stream is seekable e.g local files",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "seekable",
           "package": "repa-sndfile",
@@ -1597,6 +1745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts vector signal to multi channel signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "toMC",
           "package": "repa-sndfile",
@@ -1607,6 +1756,7 @@
         "index": {
           "description": "Converts vector signal to multi channel signal",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "toMC",
           "normalized": "Int-\u003eArray a DIM b-\u003ec(Array a DIM b)",
@@ -1623,6 +1773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e16 bit MS wave, single channel, sampling rate = 48000.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "wav16",
           "package": "repa-sndfile",
@@ -1633,6 +1784,7 @@
         "index": {
           "description": "bit MS wave single channel sampling rate",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "wav16",
           "package": "repa-sndfile",
@@ -1646,6 +1798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32 bit MS wave, single channel, sampling rate = 48000.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "wav32",
           "package": "repa-sndfile",
@@ -1656,6 +1809,7 @@
         "index": {
           "description": "bit MS wave single channel sampling rate",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "wav32",
           "package": "repa-sndfile",
@@ -1669,6 +1823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for invoking array with reading sound file.\n\u003c/p\u003e\u003cp\u003ePerforms given action using sound file info and samples as arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "withSF",
           "package": "repa-sndfile",
@@ -1679,6 +1834,7 @@
         "index": {
           "description": "Wrapper for invoking array with reading sound file Performs given action using sound file info and samples as arguments",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "withSF",
           "normalized": "FilePath-\u003e(Info-\u003eArray a DIM b-\u003eIO c)-\u003eIO c",
@@ -1695,6 +1851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite array contents to sound file with given header information.\n\u003c/p\u003e\u003cp\u003eExpecting an array indexed with channel and frame, as returned from readSF.\n i.e. 2-dimensional array with its contents indexed with channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:14 UTC 2014",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "writeSF",
           "package": "repa-sndfile",
@@ -1705,6 +1862,7 @@
         "index": {
           "description": "Write array contents to sound file with given header information Expecting an array indexed with channel and frame as returned from readSF i.e dimensional array with its contents indexed with channel",
           "hierarchy": "Data Array Repa IO Sndfile",
+          "indexed": "2014-03-11T19:53:14",
           "module": "Data.Array.Repa.IO.Sndfile",
           "name": "writeSF",
           "normalized": "FilePath-\u003eInfo-\u003eArray a DIM b-\u003eIO()",

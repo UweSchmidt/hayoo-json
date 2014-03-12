@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tidal"
+        "phrase": "tidal",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Context",
           "name": "Context",
           "package": "tidal",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Context",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Context",
           "name": "Context",
           "package": "tidal",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "Dirt",
           "package": "tidal",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "Dirt",
           "package": "tidal",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "accellerate",
           "package": "tidal",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "accellerate",
           "normalized": "Pattern a-\u003eOscPattern",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "begin",
           "package": "tidal",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "begin",
           "normalized": "Pattern a-\u003eOscPattern",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "cut",
           "package": "tidal",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "cut",
           "normalized": "Pattern Int-\u003eOscPattern",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "cutoff",
           "package": "tidal",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "cutoff",
           "normalized": "Pattern a-\u003eOscPattern",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "datumToColour",
           "package": "tidal",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "datumToColour",
           "normalized": "Datum-\u003eColourD",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "dirt",
           "package": "tidal",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "dirt",
           "package": "tidal",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "dirtStream",
           "package": "tidal",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "dirtStream",
           "normalized": "IO(OscPattern-\u003eIO())",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "dirtToColour",
           "package": "tidal",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "dirtToColour",
           "normalized": "OscPattern-\u003ePattern ColourD",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "dirtstart",
           "package": "tidal",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "dirtstart",
           "normalized": "a-\u003eIO(MVar OscPattern)",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "dirtstream",
           "package": "tidal",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "dirtstream",
           "normalized": "a-\u003eIO(OscPattern-\u003eIO())",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "doubledirt",
           "package": "tidal",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "doubledirt",
           "normalized": "IO(OscPattern-\u003eIO())",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "end",
           "package": "tidal",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "end",
           "normalized": "Pattern a-\u003eOscPattern",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "gain",
           "package": "tidal",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "gain",
           "normalized": "Pattern a-\u003eOscPattern",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "interlace",
           "package": "tidal",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "interlace",
           "normalized": "OscPattern-\u003eOscPattern-\u003eOscPattern",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "kpitch",
           "package": "tidal",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "kpitch",
           "normalized": "Pattern a-\u003eOscPattern",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "kriole",
           "package": "tidal",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "kriole",
           "package": "tidal",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "kstream",
           "package": "tidal",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "kstream",
           "normalized": "a-\u003eIO(OscPattern-\u003eIO())",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "ksymbol",
           "package": "tidal",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "ksymbol",
           "normalized": "Pattern a-\u003eOscPattern",
@@ -473,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "metronome",
           "package": "tidal",
@@ -482,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "metronome",
           "package": "tidal",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "offset",
           "package": "tidal",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "offset",
           "normalized": "Pattern a-\u003eOscPattern",
@@ -517,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "pan",
           "package": "tidal",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "pan",
           "normalized": "Pattern a-\u003eOscPattern",
@@ -540,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "pick",
           "package": "tidal",
@@ -549,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "pick",
           "normalized": "String-\u003eInt-\u003eString",
@@ -563,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "resonance",
           "package": "tidal",
@@ -572,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "resonance",
           "normalized": "Pattern a-\u003eOscPattern",
@@ -586,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "shape",
           "package": "tidal",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "shape",
           "normalized": "Pattern a-\u003eOscPattern",
@@ -609,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "sound",
           "package": "tidal",
@@ -618,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "sound",
           "normalized": "Pattern String-\u003eOscPattern",
@@ -632,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "speed",
           "package": "tidal",
@@ -641,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "speed",
           "normalized": "Pattern a-\u003eOscPattern",
@@ -655,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "striate",
           "package": "tidal",
@@ -664,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "striate",
           "normalized": "Int-\u003eOscPattern-\u003eOscPattern",
@@ -678,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "striate'",
           "package": "tidal",
@@ -687,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "striate'",
           "normalized": "Int-\u003eDouble-\u003eOscPattern-\u003eOscPattern",
@@ -701,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "striateO",
           "package": "tidal",
@@ -710,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "striateO",
           "normalized": "OscPattern-\u003eInt-\u003eDouble-\u003eOscPattern",
@@ -724,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "stringToColour",
           "package": "tidal",
@@ -733,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "stringToColour",
           "normalized": "String-\u003eColourD",
@@ -748,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "velocity",
           "package": "tidal",
@@ -757,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "velocity",
           "normalized": "Pattern a-\u003eOscPattern",
@@ -771,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Dirt",
           "name": "vowel",
           "package": "tidal",
@@ -780,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Dirt",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Dirt",
           "name": "vowel",
           "normalized": "Pattern String-\u003eOscPattern",
@@ -794,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "Parse",
           "package": "tidal",
@@ -802,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "Parse",
           "package": "tidal",
@@ -815,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "ColourD",
           "package": "tidal",
@@ -823,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "ColourD",
           "package": "tidal",
@@ -836,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "Parseable",
           "package": "tidal",
@@ -844,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "Parseable",
           "package": "tidal",
@@ -857,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "Sign",
           "package": "tidal",
@@ -865,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "Sign",
           "package": "tidal",
@@ -878,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "Negative",
           "package": "tidal",
@@ -887,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "Negative",
           "package": "tidal",
@@ -900,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "Positive",
           "package": "tidal",
@@ -909,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "Positive",
           "package": "tidal",
@@ -922,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "angles",
           "package": "tidal",
@@ -931,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "angles",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity b",
@@ -945,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "applySign",
           "package": "tidal",
@@ -954,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "applySign",
           "normalized": "Sign-\u003ea-\u003ea",
@@ -969,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "braces",
           "package": "tidal",
@@ -978,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "braces",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity b",
@@ -992,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "brackets",
           "package": "tidal",
@@ -1001,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "brackets",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity b",
@@ -1015,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "float",
           "package": "tidal",
@@ -1024,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "float",
           "package": "tidal",
@@ -1036,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "intOrFloat",
           "package": "tidal",
@@ -1045,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "intOrFloat",
           "package": "tidal",
@@ -1058,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "integer",
           "package": "tidal",
@@ -1067,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "integer",
           "package": "tidal",
@@ -1079,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "lexer",
           "package": "tidal",
@@ -1088,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "lexer",
           "package": "tidal",
@@ -1100,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "natural",
           "package": "tidal",
@@ -1109,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "natural",
           "package": "tidal",
@@ -1121,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "naturalOrFloat",
           "package": "tidal",
@@ -1130,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "naturalOrFloat",
           "package": "tidal",
@@ -1143,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "p",
           "package": "tidal",
@@ -1152,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "p",
           "normalized": "String-\u003ePattern a",
@@ -1166,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "pBool",
           "package": "tidal",
@@ -1175,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "pBool",
           "package": "tidal",
@@ -1188,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "pColour",
           "package": "tidal",
@@ -1197,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "pColour",
           "package": "tidal",
@@ -1210,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "pDensity",
           "package": "tidal",
@@ -1219,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "pDensity",
           "package": "tidal",
@@ -1232,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "pDouble",
           "package": "tidal",
@@ -1241,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "pDouble",
           "package": "tidal",
@@ -1254,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "pInt",
           "package": "tidal",
@@ -1263,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "pInt",
           "package": "tidal",
@@ -1276,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "pMult",
           "package": "tidal",
@@ -1285,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "pMult",
           "normalized": "Pattern a-\u003eParser(Pattern a)",
@@ -1300,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "pPart",
           "package": "tidal",
@@ -1309,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "pPart",
           "normalized": "Parser(Pattern a)-\u003eParser(Pattern a)",
@@ -1324,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "pPolyIn",
           "package": "tidal",
@@ -1333,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "pPolyIn",
           "normalized": "Parser(Pattern a)-\u003eParser(Pattern a)",
@@ -1348,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "pPolyOut",
           "package": "tidal",
@@ -1357,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "pPolyOut",
           "normalized": "Parser(Pattern a)-\u003eParser(Pattern a)",
@@ -1372,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "pRatio",
           "package": "tidal",
@@ -1381,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "pRatio",
           "package": "tidal",
@@ -1394,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "pRational",
           "package": "tidal",
@@ -1403,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "pRational",
           "package": "tidal",
@@ -1416,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "pSequence",
           "package": "tidal",
@@ -1425,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "pSequence",
           "normalized": "Parser(Pattern a)-\u003eGenParser Char()(Pattern a)",
@@ -1440,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "pSequenceN",
           "package": "tidal",
@@ -1449,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "pSequenceN",
           "normalized": "Parser(Pattern a)-\u003eGenParser Char()(Int,Pattern a)",
@@ -1464,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "pSingle",
           "package": "tidal",
@@ -1473,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "pSingle",
           "normalized": "Parser(Pattern a)-\u003eParser(Pattern a)",
@@ -1488,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "pString",
           "package": "tidal",
@@ -1497,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "pString",
           "package": "tidal",
@@ -1510,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "pVocable",
           "package": "tidal",
@@ -1519,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "pVocable",
           "package": "tidal",
@@ -1532,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "parens",
           "package": "tidal",
@@ -1541,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "parens",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity b",
@@ -1555,6 +1691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "parseRhythm",
           "package": "tidal",
@@ -1564,6 +1701,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "parseRhythm",
           "normalized": "Parser(Pattern a)-\u003eString-\u003ePattern a",
@@ -1579,6 +1717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "r",
           "package": "tidal",
@@ -1588,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "r",
           "normalized": "String-\u003ePattern a-\u003eIO(Pattern a)",
@@ -1602,6 +1742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "sign",
           "package": "tidal",
@@ -1611,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "sign",
           "package": "tidal",
@@ -1623,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Parse",
           "name": "symbol",
           "package": "tidal",
@@ -1632,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Parse",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Parse",
           "name": "symbol",
           "normalized": "String-\u003eParsecT String a Identity String",
@@ -1646,6 +1790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "Pattern",
           "package": "tidal",
@@ -1654,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "Pattern",
           "package": "tidal",
@@ -1668,6 +1814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe pattern datatype, a function from a time \u003ccode\u003eArc\u003c/code\u003e to \u003ccode\u003eEvent\u003c/code\u003e\n values. For discrete patterns, this returns the events which are\n active during that time. For continuous patterns, events with\n values for the midpoint of the given \u003ccode\u003eArc\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "Pattern",
           "package": "tidal",
@@ -1677,6 +1824,7 @@
         "index": {
           "description": "The pattern datatype function from time Arc to Event values For discrete patterns this returns the events which are active during that time For continuous patterns events with values for the midpoint of the given Arc is returned",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "Pattern",
           "package": "tidal",
@@ -1691,6 +1839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e~\u003e\u003c/code\u003e operator does the same as \u003ccode\u003e~\u003e\u003c/code\u003e but shifts events to the\n right (or clockwise) rather than to the left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "(~\u003e)",
           "package": "tidal",
@@ -1701,6 +1850,7 @@
         "index": {
           "description": "The operator does the same as but shifts events to the right or clockwise rather than to the left",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "(~\u003e) ~\u003e",
           "normalized": "Time-\u003ePattern a-\u003ePattern a",
@@ -1716,6 +1866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003c~\u003c/code\u003e operator shift (or rotate) a pattern to the left (or\n counter-clockwise) by the given \u003ccode\u003eTime\u003c/code\u003e value. For example \n \u003ccode\u003e(1%16) \u003c~ p\u003c/code\u003e will return a pattern with all the events moved \n one 16th of a cycle to the left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "(\u003c~)",
           "package": "tidal",
@@ -1726,6 +1877,7 @@
         "index": {
           "description": "The operator shift or rotate pattern to the left or counter-clockwise by the given Time value For example will return pattern with all the events moved one th of cycle to the left",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "(\u003c~) \u003c~",
           "normalized": "Time-\u003ePattern a-\u003ePattern a",
@@ -1740,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "(\u003e+\u003c)",
           "package": "tidal",
@@ -1749,6 +1902,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "(\u003e+\u003c) \u003e+\u003c",
           "normalized": "Pattern a-\u003ePattern a-\u003ePattern a",
@@ -1763,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "Pattern",
           "package": "tidal",
@@ -1772,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "Pattern",
           "package": "tidal",
@@ -1786,6 +1942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eappend\u003c/code\u003e combines two patterns \u003ccode\u003ePattern\u003c/code\u003es into a new pattern, so\n that the events of the second pattern are appended to those of the\n first pattern, within a single cycle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "append",
           "package": "tidal",
@@ -1796,6 +1953,7 @@
         "index": {
           "description": "append combines two patterns Pattern into new pattern so that the events of the second pattern are appended to those of the first pattern within single cycle",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "append",
           "normalized": "Pattern a-\u003ePattern a-\u003ePattern a",
@@ -1811,6 +1969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eappend'\u003c/code\u003e does the same as \u003ccode\u003eappend\u003c/code\u003e, but over two cycles, so that\n the cycles alternate between the two patterns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "append'",
           "package": "tidal",
@@ -1821,6 +1980,7 @@
         "index": {
           "description": "append does the same as append but over two cycles so that the cycles alternate between the two patterns",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "append'",
           "normalized": "Pattern a-\u003ePattern a-\u003ePattern a",
@@ -1835,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "arc",
           "package": "tidal",
@@ -1844,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "arc",
           "normalized": "Arc-\u003e[Event a]",
@@ -1859,6 +2021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eatom\u003c/code\u003e is a synonym for \u003ccode\u003epure\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "atom",
           "package": "tidal",
@@ -1869,6 +2032,7 @@
         "index": {
           "description": "atom is synonym for pure",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "atom",
           "normalized": "a-\u003ePattern a",
@@ -1884,6 +2048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecat\u003c/code\u003e returns a new pattern which interlaces the cycles of the\n given patterns, within a single cycle. It's the equivalent of\n \u003ccode\u003eappend\u003c/code\u003e, but with a list of patterns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "cat",
           "package": "tidal",
@@ -1894,6 +2059,7 @@
         "index": {
           "description": "cat returns new pattern which interlaces the cycles of the given patterns within single cycle It the equivalent of append but with list of patterns",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "cat",
           "normalized": "[Pattern a]-\u003ePattern a",
@@ -1909,6 +2075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edensity\u003c/code\u003e returns the given pattern with density increased by the\n given \u003ccode\u003eTime\u003c/code\u003e factor. Therefore \u003ccode\u003edensity 2 p\u003c/code\u003e will return a pattern\n that is twice as fast, and \u003ccode\u003edensity (1%3) p\u003c/code\u003e will return one three\n times as slow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "density",
           "package": "tidal",
@@ -1919,6 +2086,7 @@
         "index": {
           "description": "density returns the given pattern with density increased by the given Time factor Therefore density will return pattern that is twice as fast and density will return one three times as slow",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "density",
           "normalized": "Time-\u003ePattern a-\u003ePattern a",
@@ -1934,6 +2102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eevery n f p\u003c/code\u003e applies the function \u003ccode\u003ef\u003c/code\u003e to \u003ccode\u003ep\u003c/code\u003e, but only affects\n every \u003ccode\u003en\u003c/code\u003e cycles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "every",
           "package": "tidal",
@@ -1944,6 +2113,7 @@
         "index": {
           "description": "every applies the function to but only affects every cycles",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "every",
           "normalized": "Int-\u003e(Pattern a-\u003ePattern a)-\u003ePattern a-\u003ePattern a",
@@ -1958,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "filterOffsets",
           "package": "tidal",
@@ -1967,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "filterOffsets",
           "normalized": "Pattern a-\u003ePattern a",
@@ -1982,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "groupByTime",
           "package": "tidal",
@@ -1991,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "groupByTime",
           "normalized": "[Event a]-\u003e[Event[a]]",
@@ -2006,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "ifp",
           "package": "tidal",
@@ -2015,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "ifp",
           "normalized": "(Int-\u003eBool)-\u003e(Pattern a-\u003ePattern a)-\u003e(Pattern a-\u003ePattern a)-\u003ePattern a-\u003ePattern a",
@@ -2030,6 +2206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elistToPat\u003c/code\u003e turns the given list of values to a Pattern, which\n cycles through the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "listToPat",
           "package": "tidal",
@@ -2040,6 +2217,7 @@
         "index": {
           "description": "listToPat turns the given list of values to Pattern which cycles through the list",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "listToPat",
           "normalized": "[a]-\u003ePattern a",
@@ -2056,6 +2234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emapQueryArc f p\u003c/code\u003e returns a new \u003ccode\u003ePattern\u003c/code\u003e with function \u003ccode\u003ef\u003c/code\u003e\n applied to the \u003ccode\u003eArc\u003c/code\u003e values passed to the original \u003ccode\u003ePattern\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "mapQueryArc",
           "package": "tidal",
@@ -2066,6 +2245,7 @@
         "index": {
           "description": "mapQueryArc returns new Pattern with function applied to the Arc values passed to the original Pattern",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "mapQueryArc",
           "normalized": "(Arc-\u003eArc)-\u003ePattern a-\u003ePattern a",
@@ -2082,6 +2262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emapQueryTime f p\u003c/code\u003e returns a new \u003ccode\u003ePattern\u003c/code\u003e with function \u003ccode\u003ef\u003c/code\u003e\n applied to the both the start and end \u003ccode\u003eTime\u003c/code\u003e of the \u003ccode\u003eArc\u003c/code\u003e passed to\n \u003ccode\u003ePattern\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "mapQueryTime",
           "package": "tidal",
@@ -2092,6 +2273,7 @@
         "index": {
           "description": "mapQueryTime returns new Pattern with function applied to the both the start and end Time of the Arc passed to Pattern",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "mapQueryTime",
           "normalized": "(Time-\u003eTime)-\u003ePattern a-\u003ePattern a",
@@ -2108,6 +2290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emapResultArc f p\u003c/code\u003e returns a new \u003ccode\u003ePattern\u003c/code\u003e with function \u003ccode\u003ef\u003c/code\u003e\n applied to the \u003ccode\u003eArc\u003c/code\u003e values in the events returned from the\n original \u003ccode\u003ePattern\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "mapResultArc",
           "package": "tidal",
@@ -2118,6 +2301,7 @@
         "index": {
           "description": "mapResultArc returns new Pattern with function applied to the Arc values in the events returned from the original Pattern",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "mapResultArc",
           "normalized": "(Arc-\u003eArc)-\u003ePattern a-\u003ePattern a",
@@ -2134,6 +2318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emapResultTime f p\u003c/code\u003e returns a new \u003ccode\u003ePattern\u003c/code\u003e with function \u003ccode\u003ef\u003c/code\u003e\n applied to the both the start and end \u003ccode\u003eTime\u003c/code\u003e of the \u003ccode\u003eArc\u003c/code\u003e values in\n the events returned from the original \u003ccode\u003ePattern\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "mapResultTime",
           "package": "tidal",
@@ -2144,6 +2329,7 @@
         "index": {
           "description": "mapResultTime returns new Pattern with function applied to the both the start and end Time of the Arc values in the events returned from the original Pattern",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "mapResultTime",
           "normalized": "(Time-\u003eTime)-\u003ePattern a-\u003ePattern a",
@@ -2160,6 +2346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emaybeListToPat\u003c/code\u003e is similar to \u003ccode\u003elistToPat\u003c/code\u003e, but allows values to\n be optional using the \u003ccode\u003eMaybe\u003c/code\u003e type, so that \u003ccode\u003eNothing\u003c/code\u003e results in\n gaps in the pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "maybeListToPat",
           "package": "tidal",
@@ -2170,6 +2357,7 @@
         "index": {
           "description": "maybeListToPat is similar to listToPat but allows values to be optional using the Maybe type so that Nothing results in gaps in the pattern",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "maybeListToPat",
           "normalized": "[Maybe a]-\u003ePattern a",
@@ -2186,6 +2374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eoverlay\u003c/code\u003e combines two \u003ccode\u003ePattern\u003c/code\u003es into a new pattern, so that\n their events are combined over time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "overlay",
           "package": "tidal",
@@ -2196,6 +2385,7 @@
         "index": {
           "description": "overlay combines two Pattern into new pattern so that their events are combined over time",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "overlay",
           "normalized": "Pattern a-\u003ePattern a-\u003ePattern a",
@@ -2211,6 +2401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epalindrome p\u003c/code\u003e applies \u003ccode\u003erev\u003c/code\u003e to \u003ccode\u003ep\u003c/code\u003e every other cycle, so that\n the pattern alternates between forwards and backwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "palindrome",
           "package": "tidal",
@@ -2221,6 +2412,7 @@
         "index": {
           "description": "palindrome applies rev to every other cycle so that the pattern alternates between forwards and backwards",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "palindrome",
           "normalized": "Pattern a-\u003ePattern a",
@@ -2235,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "points",
           "package": "tidal",
@@ -2244,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "points",
           "normalized": "[Event a]-\u003e[Time]",
@@ -2258,6 +2452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "rand",
           "package": "tidal",
@@ -2267,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "rand",
           "package": "tidal",
@@ -2279,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "ratsine",
           "package": "tidal",
@@ -2288,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "ratsine",
           "package": "tidal",
@@ -2301,6 +2499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erev p\u003c/code\u003e returns \u003ccode\u003ep\u003c/code\u003e with the event positions in each cycle\n reversed (or mirrored).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "rev",
           "package": "tidal",
@@ -2311,6 +2510,7 @@
         "index": {
           "description": "rev returns with the event positions in each cycle reversed or mirrored",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "rev",
           "normalized": "Pattern a-\u003ePattern a",
@@ -2326,6 +2526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erun\u003c/code\u003e \u003ccode\u003en\u003c/code\u003e returns a pattern representing a cycle of numbers from \u003ccode\u003e0\u003c/code\u003e to \u003ccode\u003en-1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "run",
           "package": "tidal",
@@ -2336,6 +2537,7 @@
         "index": {
           "description": "run returns pattern representing cycle of numbers from to n-1",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "run",
           "normalized": "a-\u003ePattern a",
@@ -2351,6 +2553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esaw\u003c/code\u003e is a synonym for \u003ccode\u003esawwave\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "saw",
           "package": "tidal",
@@ -2361,6 +2564,7 @@
         "index": {
           "description": "saw is synonym for sawwave",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "saw",
           "package": "tidal",
@@ -2373,6 +2577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "saw1",
           "package": "tidal",
@@ -2382,6 +2587,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "saw1",
           "package": "tidal",
@@ -2395,6 +2601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esawrat\u003c/code\u003e is the same as \u003ccode\u003esawwave\u003c/code\u003e but returns \u003ccode\u003eRational\u003c/code\u003e values\n suitable for use as \u003ccode\u003eTime\u003c/code\u003e offsets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "sawrat",
           "package": "tidal",
@@ -2405,6 +2612,7 @@
         "index": {
           "description": "sawrat is the same as sawwave but returns Rational values suitable for use as Time offsets",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "sawrat",
           "package": "tidal",
@@ -2417,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "sawrat1",
           "package": "tidal",
@@ -2426,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "sawrat1",
           "package": "tidal",
@@ -2439,6 +2649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esawwave\u003c/code\u003e is the equivalent of \u003ccode\u003esinewave\u003c/code\u003e for sawtooth waves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "sawwave",
           "package": "tidal",
@@ -2449,6 +2660,7 @@
         "index": {
           "description": "sawwave is the equivalent of sinewave for sawtooth waves",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "sawwave",
           "package": "tidal",
@@ -2461,6 +2673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "sawwave1",
           "package": "tidal",
@@ -2470,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "sawwave1",
           "package": "tidal",
@@ -2482,6 +2696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "segment",
           "package": "tidal",
@@ -2491,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "segment",
           "normalized": "Pattern a-\u003ePattern[a]",
@@ -2505,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "segment'",
           "package": "tidal",
@@ -2514,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "segment'",
           "normalized": "[Event a]-\u003e[Event a]",
@@ -2528,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "seqToRelOnsets",
           "package": "tidal",
@@ -2537,6 +2756,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "seqToRelOnsets",
           "normalized": "Arc-\u003ePattern a-\u003e[(Double,a)]",
@@ -2553,6 +2773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esig f\u003c/code\u003e takes a function from time to values, and turns it into a\n \u003ccode\u003ePattern\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "sig",
           "package": "tidal",
@@ -2563,6 +2784,7 @@
         "index": {
           "description": "sig takes function from time to values and turns it into Pattern",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "sig",
           "normalized": "(Time-\u003ea)-\u003ePattern a",
@@ -2578,6 +2800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esilence\u003c/code\u003e returns a pattern with no events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "silence",
           "package": "tidal",
@@ -2588,6 +2811,7 @@
         "index": {
           "description": "silence returns pattern with no events",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "silence",
           "package": "tidal",
@@ -2600,6 +2824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "sine",
           "package": "tidal",
@@ -2609,6 +2834,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "sine",
           "package": "tidal",
@@ -2622,6 +2848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esine1\u003c/code\u003e is a synonym for \u003ccode\u003esinewave1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "sine1",
           "package": "tidal",
@@ -2632,6 +2859,7 @@
         "index": {
           "description": "sine1 is synonym for sinewave1",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "sine1",
           "package": "tidal",
@@ -2645,6 +2873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esineAmp1 d\u003c/code\u003e returns \u003ccode\u003esinewave1\u003c/code\u003e with its amplitude offset by \u003ccode\u003ed\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "sineAmp1",
           "package": "tidal",
@@ -2655,6 +2884,7 @@
         "index": {
           "description": "sineAmp1 returns sinewave1 with its amplitude offset by",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "sineAmp1",
           "normalized": "Double-\u003ePattern Double",
@@ -2671,6 +2901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esinerat\u003c/code\u003e is equivalent to \u003ccode\u003esinewave\u003c/code\u003e for \u003ccode\u003eRational\u003c/code\u003e values,\n suitable for use as \u003ccode\u003eTime\u003c/code\u003e offsets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "sinerat",
           "package": "tidal",
@@ -2681,6 +2912,7 @@
         "index": {
           "description": "sinerat is equivalent to sinewave for Rational values suitable for use as Time offsets",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "sinerat",
           "package": "tidal",
@@ -2694,6 +2926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esinerat1\u003c/code\u003e is equivalent to \u003ccode\u003esinerat\u003c/code\u003e, but with amplitude from 0 to 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "sinerat1",
           "package": "tidal",
@@ -2704,6 +2937,7 @@
         "index": {
           "description": "sinerat1 is equivalent to sinerat but with amplitude from to",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "sinerat1",
           "package": "tidal",
@@ -2717,6 +2951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esinewave\u003c/code\u003e returns a \u003ccode\u003ePattern\u003c/code\u003e of continuous \u003ccode\u003eDouble\u003c/code\u003e values following a\n sinewave with frequency of one cycle, and amplitude from -1 to 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "sinewave",
           "package": "tidal",
@@ -2727,6 +2962,7 @@
         "index": {
           "description": "sinewave returns Pattern of continuous Double values following sinewave with frequency of one cycle and amplitude from to",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "sinewave",
           "package": "tidal",
@@ -2740,6 +2976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esinewave1\u003c/code\u003e is equivalent to \u003ccode\u003esinewave\u003c/code\u003e, but with amplitude from 0 to 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "sinewave1",
           "package": "tidal",
@@ -2750,6 +2987,7 @@
         "index": {
           "description": "sinewave1 is equivalent to sinewave but with amplitude from to",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "sinewave1",
           "package": "tidal",
@@ -2763,6 +3001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eslow\u003c/code\u003e does the opposite of \u003ccode\u003edensity\u003c/code\u003e, i.e. \u003ccode\u003eslow 2 p\u003c/code\u003e will\n return a pattern that is half the speed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "slow",
           "package": "tidal",
@@ -2773,6 +3012,7 @@
         "index": {
           "description": "slow does the opposite of density i.e slow will return pattern that is half the speed",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "slow",
           "normalized": "Time-\u003ePattern a-\u003ePattern a",
@@ -2788,6 +3028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eslowcat\u003c/code\u003e does the same as \u003ccode\u003ecat\u003c/code\u003e, but maintaining the duration of\n the original patterns. It is the equivalent of \u003ccode\u003eappend'\u003c/code\u003e, but with\n a list of patterns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "slowcat",
           "package": "tidal",
@@ -2798,6 +3039,7 @@
         "index": {
           "description": "slowcat does the same as cat but maintaining the duration of the original patterns It is the equivalent of append but with list of patterns",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "slowcat",
           "normalized": "[Pattern a]-\u003ePattern a",
@@ -2812,6 +3054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "split",
           "package": "tidal",
@@ -2821,6 +3064,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "split",
           "normalized": "Time-\u003e[Event a]-\u003e[Event a]",
@@ -2835,6 +3079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "square",
           "package": "tidal",
@@ -2844,6 +3089,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "square",
           "package": "tidal",
@@ -2856,6 +3102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "square1",
           "package": "tidal",
@@ -2865,6 +3112,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "square1",
           "package": "tidal",
@@ -2877,6 +3125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "squarewave",
           "package": "tidal",
@@ -2886,6 +3135,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "squarewave",
           "package": "tidal",
@@ -2898,6 +3148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "squarewave1",
           "package": "tidal",
@@ -2907,6 +3158,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "squarewave1",
           "package": "tidal",
@@ -2920,6 +3172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003estack\u003c/code\u003e combines a list of \u003ccode\u003ePattern\u003c/code\u003es into a new pattern, so that\n their events are combined over time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "stack",
           "package": "tidal",
@@ -2930,6 +3183,7 @@
         "index": {
           "description": "stack combines list of Pattern into new pattern so that their events are combined over time",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "stack",
           "normalized": "[Pattern a]-\u003ePattern a",
@@ -2945,6 +3199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etri\u003c/code\u003e is a synonym for \u003ccode\u003etriwave\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "tri",
           "package": "tidal",
@@ -2955,6 +3210,7 @@
         "index": {
           "description": "tri is synonym for triwave",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "tri",
           "package": "tidal",
@@ -2967,6 +3223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "tri1",
           "package": "tidal",
@@ -2976,6 +3233,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "tri1",
           "package": "tidal",
@@ -2989,6 +3247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etrirat\u003c/code\u003e is the same as \u003ccode\u003etriwave\u003c/code\u003e but returns \u003ccode\u003eRational\u003c/code\u003e values\n suitable for use as \u003ccode\u003eTime\u003c/code\u003e offsets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "trirat",
           "package": "tidal",
@@ -2999,6 +3258,7 @@
         "index": {
           "description": "trirat is the same as triwave but returns Rational values suitable for use as Time offsets",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "trirat",
           "package": "tidal",
@@ -3011,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "trirat1",
           "package": "tidal",
@@ -3020,6 +3281,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "trirat1",
           "package": "tidal",
@@ -3033,6 +3295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etriwave\u003c/code\u003e is the equivalent of \u003ccode\u003esinewave\u003c/code\u003e for triangular waves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "triwave",
           "package": "tidal",
@@ -3043,6 +3306,7 @@
         "index": {
           "description": "triwave is the equivalent of sinewave for triangular waves",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "triwave",
           "package": "tidal",
@@ -3055,6 +3319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "triwave1",
           "package": "tidal",
@@ -3064,6 +3329,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "triwave1",
           "package": "tidal",
@@ -3077,6 +3343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ewhen test f p\u003c/code\u003e applies the function \u003ccode\u003ef\u003c/code\u003e to \u003ccode\u003ep\u003c/code\u003e, but in a way\n which only affects cycles where the \u003ccode\u003etest\u003c/code\u003e function applied to the\n cycle number returns \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Pattern",
           "name": "when",
           "package": "tidal",
@@ -3087,6 +3354,7 @@
         "index": {
           "description": "when test applies the function to but in way which only affects cycles where the test function applied to the cycle number returns True",
           "hierarchy": "Sound Tidal Pattern",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Pattern",
           "name": "when",
           "normalized": "(Int-\u003eBool)-\u003e(Pattern a-\u003ePattern a)-\u003ePattern a-\u003ePattern a",
@@ -3101,6 +3369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "Strategies",
           "package": "tidal",
@@ -3109,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "Strategies",
           "package": "tidal",
@@ -3122,6 +3392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "brak",
           "package": "tidal",
@@ -3131,6 +3402,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "brak",
           "normalized": "Pattern a-\u003ePattern a",
@@ -3145,6 +3417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "cross",
           "package": "tidal",
@@ -3154,6 +3427,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "cross",
           "normalized": "(Time-\u003eBool)-\u003ePattern a-\u003ePattern a-\u003ePattern a",
@@ -3168,6 +3442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "double",
           "package": "tidal",
@@ -3177,6 +3452,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "double",
           "normalized": "Time-\u003ePattern a-\u003ePattern a",
@@ -3191,6 +3467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "echo",
           "package": "tidal",
@@ -3200,6 +3477,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "echo",
           "normalized": "Time-\u003ePattern a-\u003ePattern a",
@@ -3214,6 +3492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "inside",
           "package": "tidal",
@@ -3223,6 +3502,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "inside",
           "normalized": "Time-\u003e(Pattern a-\u003ePattern a)-\u003ePattern a-\u003ePattern a",
@@ -3237,6 +3517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "iter",
           "package": "tidal",
@@ -3246,6 +3527,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "iter",
           "normalized": "a-\u003ePattern a-\u003ePattern a",
@@ -3260,6 +3542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "jux",
           "package": "tidal",
@@ -3269,6 +3552,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "jux",
           "normalized": "(OscPattern-\u003ePattern OscMap)-\u003eOscPattern-\u003ePattern OscMap",
@@ -3283,6 +3567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "jux4",
           "package": "tidal",
@@ -3292,6 +3577,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "jux4",
           "normalized": "(OscPattern-\u003ePattern OscMap)-\u003eOscPattern-\u003ePattern OscMap",
@@ -3306,6 +3592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "juxcut",
           "package": "tidal",
@@ -3315,6 +3602,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "juxcut",
           "normalized": "(OscPattern-\u003ePattern OscMap)-\u003eOscPattern-\u003ePattern OscMap",
@@ -3329,6 +3617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "quad",
           "package": "tidal",
@@ -3338,6 +3627,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "quad",
           "normalized": "Time-\u003ePattern a-\u003ePattern a",
@@ -3352,6 +3642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "rand4",
           "package": "tidal",
@@ -3361,6 +3652,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "rand4",
           "package": "tidal",
@@ -3373,6 +3665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "samples",
           "package": "tidal",
@@ -3382,6 +3675,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "samples",
           "normalized": "a String-\u003ea Int-\u003ea String",
@@ -3396,6 +3690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "sawwave4",
           "package": "tidal",
@@ -3405,6 +3700,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "sawwave4",
           "package": "tidal",
@@ -3417,6 +3713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "sinewave4",
           "package": "tidal",
@@ -3426,6 +3723,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "sinewave4",
           "package": "tidal",
@@ -3438,6 +3736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "slowspread",
           "package": "tidal",
@@ -3447,6 +3746,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "slowspread",
           "normalized": "(a-\u003eb-\u003ePattern c)-\u003e[a]-\u003eb-\u003ePattern c",
@@ -3461,6 +3761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "smash",
           "package": "tidal",
@@ -3470,6 +3771,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "smash",
           "normalized": "Int-\u003e[Time]-\u003ePattern OscMap-\u003ePattern OscMap",
@@ -3484,6 +3786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "spin",
           "package": "tidal",
@@ -3493,6 +3796,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "spin",
           "normalized": "Int-\u003eOscPattern-\u003eOscPattern",
@@ -3507,6 +3811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "spin16",
           "package": "tidal",
@@ -3516,6 +3821,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "spin16",
           "normalized": "a-\u003ePattern OscMap-\u003ePattern OscMap",
@@ -3530,6 +3836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "spin4",
           "package": "tidal",
@@ -3539,6 +3846,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "spin4",
           "normalized": "a-\u003ePattern OscMap-\u003ePattern OscMap",
@@ -3553,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "spread",
           "package": "tidal",
@@ -3562,6 +3871,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "spread",
           "normalized": "(a-\u003eb-\u003ePattern c)-\u003e[a]-\u003eb-\u003ePattern c",
@@ -3576,6 +3886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "spread'",
           "package": "tidal",
@@ -3585,6 +3896,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "spread'",
           "normalized": "(a-\u003ePattern b-\u003ePattern c)-\u003ePattern a-\u003ePattern b-\u003ePattern c",
@@ -3599,6 +3911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "stackwith",
           "package": "tidal",
@@ -3608,6 +3921,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "stackwith",
           "normalized": "Pattern OscMap-\u003e[OscPattern]-\u003ePattern OscMap",
@@ -3622,6 +3936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "stutter",
           "package": "tidal",
@@ -3631,6 +3946,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "stutter",
           "normalized": "a-\u003eTime-\u003ePattern a-\u003ePattern a",
@@ -3645,6 +3961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "superimpose",
           "package": "tidal",
@@ -3654,6 +3971,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "superimpose",
           "normalized": "(Pattern a-\u003ePattern a)-\u003ePattern a-\u003ePattern a",
@@ -3668,6 +3986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "triple",
           "package": "tidal",
@@ -3677,6 +3996,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "triple",
           "normalized": "Time-\u003ePattern a-\u003ePattern a",
@@ -3691,6 +4011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "trunc",
           "package": "tidal",
@@ -3700,6 +4021,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "trunc",
           "normalized": "Time-\u003ePattern a-\u003ePattern a",
@@ -3714,6 +4036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Strategies",
           "name": "whenmod",
           "package": "tidal",
@@ -3723,6 +4046,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Strategies",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Strategies",
           "name": "whenmod",
           "normalized": "Int-\u003eInt-\u003e(Pattern a-\u003ePattern a)-\u003ePattern a-\u003ePattern a",
@@ -3737,6 +4061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "Stream",
           "package": "tidal",
@@ -3745,6 +4070,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "Stream",
           "package": "tidal",
@@ -3758,6 +4084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "OscMap",
           "package": "tidal",
@@ -3766,6 +4093,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "OscMap",
           "package": "tidal",
@@ -3779,6 +4107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "OscPattern",
           "package": "tidal",
@@ -3787,6 +4116,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "OscPattern",
           "package": "tidal",
@@ -3800,6 +4130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "OscShape",
           "package": "tidal",
@@ -3808,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "OscShape",
           "package": "tidal",
@@ -3821,6 +4153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "Param",
           "package": "tidal",
@@ -3829,6 +4162,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "Param",
           "package": "tidal",
@@ -3842,6 +4176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "(|+|)",
           "package": "tidal",
@@ -3851,6 +4186,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "(|+|) |+|",
           "normalized": "OscPattern-\u003eOscPattern-\u003eOscPattern",
@@ -3865,6 +4201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "F",
           "package": "tidal",
@@ -3874,6 +4211,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "F",
           "package": "tidal",
@@ -3886,6 +4224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "I",
           "package": "tidal",
@@ -3895,6 +4234,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "I",
           "package": "tidal",
@@ -3907,6 +4247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "OscShape",
           "package": "tidal",
@@ -3916,6 +4257,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "OscShape",
           "package": "tidal",
@@ -3929,6 +4271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "S",
           "package": "tidal",
@@ -3938,6 +4281,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "S",
           "package": "tidal",
@@ -3950,6 +4294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "applyShape'",
           "package": "tidal",
@@ -3959,6 +4304,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "applyShape'",
           "normalized": "OscShape-\u003eOscMap-\u003eMaybe OscMap",
@@ -3974,6 +4320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "bpb",
           "package": "tidal",
@@ -3983,6 +4330,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "bpb",
           "package": "tidal",
@@ -3995,6 +4343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "defaultDatum",
           "package": "tidal",
@@ -4004,6 +4353,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "defaultDatum",
           "normalized": "Param-\u003eMaybe Datum",
@@ -4019,6 +4369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "defaultMap",
           "package": "tidal",
@@ -4028,6 +4379,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "defaultMap",
           "normalized": "OscShape-\u003eOscMap",
@@ -4043,6 +4395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "defaulted",
           "package": "tidal",
@@ -4052,6 +4405,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "defaulted",
           "normalized": "OscShape-\u003e[Param]",
@@ -4066,6 +4420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "doAt",
           "package": "tidal",
@@ -4075,6 +4430,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "doAt",
           "normalized": "a-\u003eIO()-\u003eIO()",
@@ -4090,6 +4446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "fDefault",
           "package": "tidal",
@@ -4099,6 +4456,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "fDefault",
           "package": "tidal",
@@ -4112,6 +4470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "hasDefault",
           "package": "tidal",
@@ -4121,6 +4480,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "hasDefault",
           "normalized": "Param-\u003eBool",
@@ -4136,6 +4496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "hasRequired",
           "package": "tidal",
@@ -4145,6 +4506,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "hasRequired",
           "normalized": "OscShape-\u003eOscMap-\u003eBool",
@@ -4160,6 +4522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "iDefault",
           "package": "tidal",
@@ -4169,6 +4532,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "iDefault",
           "package": "tidal",
@@ -4182,6 +4546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "isSubset",
           "package": "tidal",
@@ -4191,6 +4556,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "isSubset",
           "normalized": "[a]-\u003e[a]-\u003eBool",
@@ -4206,6 +4572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "make",
           "package": "tidal",
@@ -4215,6 +4582,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "make",
           "normalized": "(a-\u003eDatum)-\u003eOscShape-\u003eString-\u003ePattern a-\u003eOscPattern",
@@ -4229,6 +4597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "makeF",
           "package": "tidal",
@@ -4238,6 +4607,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "makeF",
           "normalized": "OscShape-\u003eString-\u003ePattern a-\u003eOscPattern",
@@ -4252,6 +4622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "makeI",
           "package": "tidal",
@@ -4261,6 +4632,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "makeI",
           "normalized": "OscShape-\u003eString-\u003ePattern a-\u003eOscPattern",
@@ -4275,6 +4647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "makeS",
           "package": "tidal",
@@ -4284,6 +4657,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "makeS",
           "normalized": "OscShape-\u003eString-\u003ePattern String-\u003eOscPattern",
@@ -4298,6 +4672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "merge",
           "package": "tidal",
@@ -4307,6 +4682,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "merge",
           "normalized": "OscPattern-\u003eOscPattern-\u003eOscPattern",
@@ -4321,6 +4697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "name",
           "package": "tidal",
@@ -4330,6 +4707,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "name",
           "package": "tidal",
@@ -4342,6 +4720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "onTick",
           "package": "tidal",
@@ -4351,6 +4730,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "onTick",
           "normalized": "UDP-\u003eOscShape-\u003eMVar OscPattern-\u003eTempo-\u003eInt-\u003eIO()",
@@ -4366,6 +4746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "param",
           "package": "tidal",
@@ -4375,6 +4756,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "param",
           "normalized": "OscShape-\u003eString-\u003eParam",
@@ -4389,6 +4771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "params",
           "package": "tidal",
@@ -4398,6 +4781,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "params",
           "normalized": "[Param]",
@@ -4412,6 +4796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "path",
           "package": "tidal",
@@ -4421,6 +4806,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "path",
           "package": "tidal",
@@ -4433,6 +4819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "required",
           "package": "tidal",
@@ -4442,6 +4829,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "required",
           "normalized": "OscShape-\u003e[Param]",
@@ -4456,6 +4844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "sDefault",
           "package": "tidal",
@@ -4465,6 +4854,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "sDefault",
           "package": "tidal",
@@ -4478,6 +4868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "start",
           "package": "tidal",
@@ -4487,6 +4878,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "start",
           "normalized": "String-\u003eInt-\u003eOscShape-\u003eIO(MVar OscPattern)",
@@ -4501,6 +4893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "stream",
           "package": "tidal",
@@ -4510,6 +4903,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "stream",
           "normalized": "String-\u003eInt-\u003eOscShape-\u003eIO(OscPattern-\u003eIO())",
@@ -4524,6 +4918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "streamcallback",
           "package": "tidal",
@@ -4533,6 +4928,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "streamcallback",
           "normalized": "(OscPattern-\u003eIO())-\u003eString-\u003eInt-\u003eOscShape-\u003eIO(OscPattern-\u003eIO())",
@@ -4547,6 +4943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "timestamp",
           "package": "tidal",
@@ -4556,6 +4953,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "timestamp",
           "package": "tidal",
@@ -4568,6 +4966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "toMessage",
           "package": "tidal",
@@ -4577,6 +4976,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "toMessage",
           "normalized": "UDP-\u003eOscShape-\u003eTempo-\u003eInt-\u003e(Double,OscMap)-\u003eMaybe(IO())",
@@ -4592,6 +4992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "tpb",
           "package": "tidal",
@@ -4601,6 +5002,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "tpb",
           "package": "tidal",
@@ -4613,6 +5015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Stream",
           "name": "weave",
           "package": "tidal",
@@ -4622,6 +5025,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Stream",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Stream",
           "name": "weave",
           "normalized": "Rational-\u003eOscPattern-\u003e[OscPattern]-\u003eOscPattern",
@@ -4636,6 +5040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "Tempo",
           "package": "tidal",
@@ -4644,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "Tempo",
           "package": "tidal",
@@ -4657,6 +5063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "ClientState",
           "package": "tidal",
@@ -4665,6 +5072,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "ClientState",
           "package": "tidal",
@@ -4678,6 +5086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "Tempo",
           "package": "tidal",
@@ -4686,6 +5095,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "Tempo",
           "package": "tidal",
@@ -4699,6 +5109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "Tempo",
           "package": "tidal",
@@ -4708,6 +5119,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "Tempo",
           "package": "tidal",
@@ -4721,6 +5133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "addClient",
           "package": "tidal",
@@ -4730,6 +5143,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "addClient",
           "normalized": "Connection-\u003eClientState-\u003eClientState",
@@ -4745,6 +5159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "at",
           "package": "tidal",
@@ -4754,6 +5169,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "at",
           "package": "tidal",
@@ -4766,6 +5182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "beat",
           "package": "tidal",
@@ -4775,6 +5192,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "beat",
           "package": "tidal",
@@ -4787,6 +5205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "beatNow",
           "package": "tidal",
@@ -4796,6 +5215,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "beatNow",
           "normalized": "Tempo-\u003eIO Double",
@@ -4811,6 +5231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "bps",
           "package": "tidal",
@@ -4820,6 +5241,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "bps",
           "package": "tidal",
@@ -4832,6 +5254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "bpsSetter",
           "package": "tidal",
@@ -4841,6 +5264,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "bpsSetter",
           "normalized": "IO(Double-\u003eIO())",
@@ -4856,6 +5280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "broadcast",
           "package": "tidal",
@@ -4865,6 +5290,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "broadcast",
           "normalized": "Text-\u003eClientState-\u003eIO()",
@@ -4879,6 +5305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "clientApp",
           "package": "tidal",
@@ -4888,6 +5315,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "clientApp",
           "normalized": "MVar Tempo-\u003eMVar Double-\u003eClientApp()",
@@ -4903,6 +5331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "clocked",
           "package": "tidal",
@@ -4912,6 +5341,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "clocked",
           "normalized": "(Tempo-\u003eInt-\u003eIO())-\u003eIO()",
@@ -4926,6 +5356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "clockedTick",
           "package": "tidal",
@@ -4935,6 +5366,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "clockedTick",
           "normalized": "Int-\u003e(Tempo-\u003eInt-\u003eIO())-\u003eIO()",
@@ -4950,6 +5382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "connectClient",
           "package": "tidal",
@@ -4959,6 +5392,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "connectClient",
           "normalized": "String-\u003eMVar Tempo-\u003eMVar Double-\u003eIO()",
@@ -4974,6 +5408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "getClockIp",
           "package": "tidal",
@@ -4983,6 +5418,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "getClockIp",
           "package": "tidal",
@@ -4996,6 +5432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "logicalTime",
           "package": "tidal",
@@ -5005,6 +5442,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "logicalTime",
           "normalized": "Tempo-\u003eDouble-\u003eDouble",
@@ -5020,6 +5458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "readTempo",
           "package": "tidal",
@@ -5029,6 +5468,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "readTempo",
           "normalized": "String-\u003eTempo",
@@ -5044,6 +5484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "removeClient",
           "package": "tidal",
@@ -5053,6 +5494,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "removeClient",
           "normalized": "Connection-\u003eClientState-\u003eClientState",
@@ -5068,6 +5510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "runClient",
           "package": "tidal",
@@ -5077,6 +5520,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "runClient",
           "normalized": "IO(MVar Tempo,MVar Double)",
@@ -5092,6 +5536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "sendBps",
           "package": "tidal",
@@ -5101,6 +5546,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "sendBps",
           "normalized": "Connection-\u003eMVar Double-\u003eIO()",
@@ -5116,6 +5562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "serverApp",
           "package": "tidal",
@@ -5125,6 +5572,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "serverApp",
           "normalized": "MVar Tempo-\u003eMVar ClientState-\u003eServerApp",
@@ -5140,6 +5588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "serverLoop",
           "package": "tidal",
@@ -5149,6 +5598,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "serverLoop",
           "normalized": "Connection-\u003eMVar Tempo-\u003eMVar ClientState-\u003eIO()",
@@ -5164,6 +5614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "startServer",
           "package": "tidal",
@@ -5173,6 +5624,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "startServer",
           "package": "tidal",
@@ -5186,6 +5638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "tempoMVar",
           "package": "tidal",
@@ -5195,6 +5648,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "tempoMVar",
           "package": "tidal",
@@ -5208,6 +5662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Tempo",
           "name": "updateTempo",
           "package": "tidal",
@@ -5217,6 +5672,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Tempo",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Tempo",
           "name": "updateTempo",
           "normalized": "MVar Tempo-\u003eMaybe Double-\u003eIO()",
@@ -5232,6 +5688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Time",
           "name": "Time",
           "package": "tidal",
@@ -5240,6 +5697,7 @@
         },
         "index": {
           "hierarchy": "Sound Tidal Time",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Time",
           "name": "Time",
           "package": "tidal",
@@ -5254,6 +5712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(s,e) :: Arc\u003c/code\u003e represents a time interval with a start and end value.\n \u003ccode\u003e { t : s \u003c= t && t \u003c e } \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Time",
           "name": "Arc",
           "package": "tidal",
@@ -5263,6 +5722,7 @@
         "index": {
           "description": "Arc represents time interval with start and end value",
           "hierarchy": "Sound Tidal Time",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Time",
           "name": "Arc",
           "package": "tidal",
@@ -5277,6 +5737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Event is a value that occurs during the given \u003ccode\u003eArc\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Time",
           "name": "Event",
           "package": "tidal",
@@ -5286,6 +5747,7 @@
         "index": {
           "description": "An Event is value that occurs during the given Arc",
           "hierarchy": "Sound Tidal Time",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Time",
           "name": "Event",
           "package": "tidal",
@@ -5300,6 +5762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime is represented by a rational number. Each natural number\n represents both the start of the next rhythmic cycle, and the end\n of the previous one. Rational numbers are used so that subdivisions\n of each cycle can be accurately represented.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Time",
           "name": "Time",
           "package": "tidal",
@@ -5309,6 +5772,7 @@
         "index": {
           "description": "Time is represented by rational number Each natural number represents both the start of the next rhythmic cycle and the end of the previous one Rational numbers are used so that subdivisions of each cycle can be accurately represented",
           "hierarchy": "Sound Tidal Time",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Time",
           "name": "Time",
           "package": "tidal",
@@ -5323,6 +5787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits the given \u003ccode\u003eArc\u003c/code\u003e into a list of \u003ccode\u003eArc\u003c/code\u003es, at cycle boundaries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Time",
           "name": "arcCycles",
           "package": "tidal",
@@ -5333,6 +5798,7 @@
         "index": {
           "description": "Splits the given Arc into list of Arc at cycle boundaries",
           "hierarchy": "Sound Tidal Time",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Time",
           "name": "arcCycles",
           "normalized": "Arc-\u003e[Arc]",
@@ -5349,6 +5815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe position of a time value relative to the start of its cycle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Time",
           "name": "cyclePos",
           "package": "tidal",
@@ -5359,6 +5826,7 @@
         "index": {
           "description": "The position of time value relative to the start of its cycle",
           "hierarchy": "Sound Tidal Time",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Time",
           "name": "cyclePos",
           "normalized": "Time-\u003eTime",
@@ -5375,6 +5843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe start time of the given \u003ccode\u003eEvent\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Time",
           "name": "eventStart",
           "package": "tidal",
@@ -5385,6 +5854,7 @@
         "index": {
           "description": "The start time of the given Event",
           "hierarchy": "Sound Tidal Time",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Time",
           "name": "eventStart",
           "normalized": "Event a-\u003eTime",
@@ -5401,6 +5871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eisIn a t\u003c/code\u003e is \u003ccode\u003eTrue\u003c/code\u003e iff \u003ccode\u003et\u003c/code\u003e is inside \n the arc represented by \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Time",
           "name": "isIn",
           "package": "tidal",
@@ -5411,6 +5882,7 @@
         "index": {
           "description": "isIn is True iff is inside the arc represented by",
           "hierarchy": "Sound Tidal Time",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Time",
           "name": "isIn",
           "normalized": "Arc-\u003eTime-\u003eBool",
@@ -5427,6 +5899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the given function over both the start and end \u003ccode\u003eTime\u003c/code\u003e values\n of the given \u003ccode\u003eArc\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Time",
           "name": "mapArc",
           "package": "tidal",
@@ -5437,6 +5910,7 @@
         "index": {
           "description": "Map the given function over both the start and end Time values of the given Arc",
           "hierarchy": "Sound Tidal Time",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Time",
           "name": "mapArc",
           "normalized": "(Time-\u003eTime)-\u003eArc-\u003eArc",
@@ -5453,6 +5927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe midpoint of an \u003ccode\u003eArc\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Time",
           "name": "midPoint",
           "package": "tidal",
@@ -5463,6 +5938,7 @@
         "index": {
           "description": "The midpoint of an Arc",
           "hierarchy": "Sound Tidal Time",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Time",
           "name": "midPoint",
           "normalized": "Arc-\u003eTime",
@@ -5479,6 +5955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the `mirror image' of an \u003ccode\u003eArc\u003c/code\u003e, used by \u003ccode\u003eSound.Tidal.Pattern.rev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Time",
           "name": "mirrorArc",
           "package": "tidal",
@@ -5489,6 +5966,7 @@
         "index": {
           "description": "Returns the mirror image of an Arc used by Sound.Tidal.Pattern.rev",
           "hierarchy": "Sound Tidal Time",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Time",
           "name": "mirrorArc",
           "normalized": "Arc-\u003eArc",
@@ -5505,6 +5983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe end point of the current cycle (and starting point of the next cycle)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Time",
           "name": "nextSam",
           "package": "tidal",
@@ -5515,6 +5994,7 @@
         "index": {
           "description": "The end point of the current cycle and starting point of the next cycle",
           "hierarchy": "Sound Tidal Time",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Time",
           "name": "nextSam",
           "normalized": "Time-\u003eTime",
@@ -5531,6 +6011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe starting point of the current cycle. A cycle occurs from each\n natural number to the next, so this is equivalent to \u003ccode\u003efloor\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Time",
           "name": "sam",
           "package": "tidal",
@@ -5541,6 +6022,7 @@
         "index": {
           "description": "The starting point of the current cycle cycle occurs from each natural number to the next so this is equivalent to floor",
           "hierarchy": "Sound Tidal Time",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Time",
           "name": "sam",
           "normalized": "Time-\u003eTime",
@@ -5556,6 +6038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esubArc i j\u003c/code\u003e is the arc that is the intersection of \u003ccode\u003ei\u003c/code\u003e and \u003ccode\u003ej\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:19 UTC 2014",
           "module": "Sound.Tidal.Time",
           "name": "subArc",
           "package": "tidal",
@@ -5566,6 +6049,7 @@
         "index": {
           "description": "subArc is the arc that is the intersection of and",
           "hierarchy": "Sound Tidal Time",
+          "indexed": "2014-03-11T20:22:19",
           "module": "Sound.Tidal.Time",
           "name": "subArc",
           "normalized": "Arc-\u003eArc-\u003eMaybe Arc",

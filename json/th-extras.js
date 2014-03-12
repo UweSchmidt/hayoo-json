@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "th-extras"
+        "phrase": "th-extras",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:05 UTC 2014",
           "module": "Language.Haskell.TH.Extras",
           "name": "Extras",
           "package": "th-extras",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Extras",
+          "indexed": "2014-03-11T20:21:05",
           "module": "Language.Haskell.TH.Extras",
           "name": "Extras",
           "package": "th-extras",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWARNING: discards binders in GADTs and existentially-quantified constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:05 UTC 2014",
           "module": "Language.Haskell.TH.Extras",
           "name": "argTypesOfCon",
           "package": "th-extras",
@@ -50,6 +53,7 @@
         "index": {
           "description": "WARNING discards binders in GADTs and existentially-quantified constructors",
           "hierarchy": "Language Haskell TH Extras",
+          "indexed": "2014-03-11T20:21:05",
           "module": "Language.Haskell.TH.Extras",
           "name": "argTypesOfCon",
           "normalized": "Con-\u003e[Type]",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:05 UTC 2014",
           "module": "Language.Haskell.TH.Extras",
           "name": "composeExprs",
           "package": "th-extras",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Extras",
+          "indexed": "2014-03-11T20:21:05",
           "module": "Language.Haskell.TH.Extras",
           "name": "composeExprs",
           "normalized": "[ExpQ]-\u003eExpQ",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:05 UTC 2014",
           "module": "Language.Haskell.TH.Extras",
           "name": "genericalizeDecs",
           "package": "th-extras",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Extras",
+          "indexed": "2014-03-11T20:21:05",
           "module": "Language.Haskell.TH.Extras",
           "name": "genericalizeDecs",
           "normalized": "[Dec]-\u003e[Dec]",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:05 UTC 2014",
           "module": "Language.Haskell.TH.Extras",
           "name": "genericalizeName",
           "package": "th-extras",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Extras",
+          "indexed": "2014-03-11T20:21:05",
           "module": "Language.Haskell.TH.Extras",
           "name": "genericalizeName",
           "normalized": "Name-\u003eName",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:05 UTC 2014",
           "module": "Language.Haskell.TH.Extras",
           "name": "headOfType",
           "package": "th-extras",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Extras",
+          "indexed": "2014-03-11T20:21:05",
           "module": "Language.Haskell.TH.Extras",
           "name": "headOfType",
           "normalized": "Type-\u003eName",
@@ -161,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:05 UTC 2014",
           "module": "Language.Haskell.TH.Extras",
           "name": "intIs64",
           "package": "th-extras",
@@ -170,6 +183,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Extras",
+          "indexed": "2014-03-11T20:21:05",
           "module": "Language.Haskell.TH.Extras",
           "name": "intIs64",
           "package": "th-extras",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:05 UTC 2014",
           "module": "Language.Haskell.TH.Extras",
           "name": "nameOfBinder",
           "package": "th-extras",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Extras",
+          "indexed": "2014-03-11T20:21:05",
           "module": "Language.Haskell.TH.Extras",
           "name": "nameOfBinder",
           "normalized": "TyVarBndr-\u003eName",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:05 UTC 2014",
           "module": "Language.Haskell.TH.Extras",
           "name": "nameOfCon",
           "package": "th-extras",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Extras",
+          "indexed": "2014-03-11T20:21:05",
           "module": "Language.Haskell.TH.Extras",
           "name": "nameOfCon",
           "normalized": "Con-\u003eName",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:05 UTC 2014",
           "module": "Language.Haskell.TH.Extras",
           "name": "namesBoundInDec",
           "package": "th-extras",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Extras",
+          "indexed": "2014-03-11T20:21:05",
           "module": "Language.Haskell.TH.Extras",
           "name": "namesBoundInDec",
           "normalized": "Dec-\u003e[Name]",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:05 UTC 2014",
           "module": "Language.Haskell.TH.Extras",
           "name": "namesBoundInPat",
           "package": "th-extras",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Extras",
+          "indexed": "2014-03-11T20:21:05",
           "module": "Language.Haskell.TH.Extras",
           "name": "namesBoundInPat",
           "normalized": "Pat-\u003e[Name]",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:05 UTC 2014",
           "module": "Language.Haskell.TH.Extras",
           "name": "occursInType",
           "package": "th-extras",
@@ -288,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Extras",
+          "indexed": "2014-03-11T20:21:05",
           "module": "Language.Haskell.TH.Extras",
           "name": "occursInType",
           "normalized": "Name-\u003eType-\u003eBool",
@@ -303,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:05 UTC 2014",
           "module": "Language.Haskell.TH.Extras",
           "name": "replace",
           "package": "th-extras",
@@ -312,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Extras",
+          "indexed": "2014-03-11T20:21:05",
           "module": "Language.Haskell.TH.Extras",
           "name": "replace",
           "normalized": "(a-\u003eMaybe a)-\u003ea-\u003ea",
@@ -326,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:05 UTC 2014",
           "module": "Language.Haskell.TH.Extras",
           "name": "varsBoundInCon",
           "package": "th-extras",
@@ -335,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Extras",
+          "indexed": "2014-03-11T20:21:05",
           "module": "Language.Haskell.TH.Extras",
           "name": "varsBoundInCon",
           "normalized": "Con-\u003e[TyVarBndr]",

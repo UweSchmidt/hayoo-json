@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "spacepart"
+        "phrase": "spacepart",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.AABB",
           "name": "AABB",
           "package": "spacepart",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart AABB",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.AABB",
           "name": "AABB",
           "package": "spacepart",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2D axis aligned square.\n The boundary_corner defines the lower bound.\n The boundary_size is the length of any edge of the square.\n\u003c/p\u003e\u003cp\u003eThe boundary is inclusive on the low extent and exclusive on the max extent.\n\u003c/p\u003e\u003cp\u003eUsed to represent both the \n 0. 2D axis aligned minimum bounding square of an element.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e The boundary of a quadtree element\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.AABB",
           "name": "Boundary",
           "package": "spacepart",
@@ -49,6 +52,7 @@
         "index": {
           "description": "axis aligned square The boundary corner defines the lower bound The boundary size is the length of any edge of the square The boundary is inclusive on the low extent and exclusive on the max extent Used to represent both the axis aligned minimum bounding square of an element The boundary of quadtree element",
           "hierarchy": "Data SpacePart AABB",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.AABB",
           "name": "Boundary",
           "package": "spacepart",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA instance of HasBoundary has an axis aligned boundign square defined that entirely encloses\n - the space represented by the type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.AABB",
           "name": "HasBoundary",
           "package": "spacepart",
@@ -72,6 +77,7 @@
         "index": {
           "description": "instance of HasBoundary has an axis aligned boundign square defined that entirely encloses the space represented by the type",
           "hierarchy": "Data SpacePart AABB",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.AABB",
           "name": "HasBoundary",
           "package": "spacepart",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.AABB",
           "name": "Boundary",
           "package": "spacepart",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart AABB",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.AABB",
           "name": "Boundary",
           "package": "spacepart",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.AABB",
           "name": "boundary_corner",
           "package": "spacepart",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart AABB",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.AABB",
           "name": "boundary_corner",
           "package": "spacepart",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.AABB",
           "name": "boundary_edges",
           "package": "spacepart",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart AABB",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.AABB",
           "name": "boundary_edges",
           "normalized": "a-\u003e[Edge Double]",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.AABB",
           "name": "boundary_extents",
           "package": "spacepart",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart AABB",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.AABB",
           "name": "boundary_extents",
           "normalized": "a-\u003e(Vertex Double,Vertex Double)",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.AABB",
           "name": "boundary_points",
           "package": "spacepart",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart AABB",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.AABB",
           "name": "boundary_points",
           "normalized": "a-\u003e[Vertex Double]",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.AABB",
           "name": "boundary_size",
           "package": "spacepart",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart AABB",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.AABB",
           "name": "boundary_size",
           "package": "spacepart",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.AABB",
           "name": "boundary_square",
           "package": "spacepart",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart AABB",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.AABB",
           "name": "boundary_square",
           "normalized": "a-\u003eBoundary",
@@ -242,6 +262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the first boundary entirely encloses the second boundary.\n - This is expected to be reflexive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.AABB",
           "name": "encloses",
           "package": "spacepart",
@@ -252,6 +273,7 @@
         "index": {
           "description": "Returns true if the first boundary entirely encloses the second boundary This is expected to be reflexive",
           "hierarchy": "Data SpacePart AABB",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.AABB",
           "name": "encloses",
           "normalized": "Boundary-\u003eBoundary-\u003eBool",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.AABB",
           "name": "intersects",
           "package": "spacepart",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart AABB",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.AABB",
           "name": "intersects",
           "normalized": "a-\u003ea-\u003eBool",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.QuadTree",
           "name": "QuadTree",
           "package": "spacepart",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart QuadTree",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.QuadTree",
           "name": "QuadTree",
           "package": "spacepart",
@@ -311,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2D binary hierarchical space subdivision of a region. \n All elements contained in the quadtree are required to have a Boundary. This is an axis aligned\n box with congruent sides.\n\u003c/p\u003e\u003cp\u003eEach node of the quadtree is composed of:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e A list of elements who's shape can be queried for intersection with the quad.  These are all\n the elements with a boundary that are fully enclosed by the boundary of this node but not fully\n enclosed by a quadrant of this node. \n\u003c/li\u003e\u003cli\u003e The Boundary of this node.\n\u003c/li\u003e\u003cli\u003e The child nodes of this node. Each is a quadrant of this nodes boundary.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.QuadTree",
           "name": "QuadTree",
           "package": "spacepart",
@@ -320,6 +347,7 @@
         "index": {
           "description": "binary hierarchical space subdivision of region All elements contained in the quadtree are required to have Boundary This is an axis aligned box with congruent sides Each node of the quadtree is composed of list of elements who shape can be queried for intersection with the quad These are all the elements with boundary that are fully enclosed by the boundary of this node but not fully enclosed by quadrant of this node The Boundary of this node The child nodes of this node Each is quadrant of this nodes boundary",
           "hierarchy": "Data SpacePart QuadTree",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.QuadTree",
           "name": "QuadTree",
           "package": "spacepart",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.QuadTree",
           "name": "Quadrant",
           "package": "spacepart",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart QuadTree",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.QuadTree",
           "name": "Quadrant",
           "package": "spacepart",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.QuadTree",
           "name": "NNQuad",
           "package": "spacepart",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart QuadTree",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.QuadTree",
           "name": "NNQuad",
           "package": "spacepart",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.QuadTree",
           "name": "NPQuad",
           "package": "spacepart",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart QuadTree",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.QuadTree",
           "name": "NPQuad",
           "package": "spacepart",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.QuadTree",
           "name": "PNQuad",
           "package": "spacepart",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart QuadTree",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.QuadTree",
           "name": "PNQuad",
           "package": "spacepart",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.QuadTree",
           "name": "PPQuad",
           "package": "spacepart",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart QuadTree",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.QuadTree",
           "name": "PPQuad",
           "package": "spacepart",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.QuadTree",
           "name": "QuadTree",
           "package": "spacepart",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart QuadTree",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.QuadTree",
           "name": "QuadTree",
           "normalized": "[a]-\u003eBoundary-\u003e(Maybe(QuadTree a),Maybe(QuadTree a),Maybe(QuadTree a),Maybe(QuadTree a))-\u003eQuadTree a",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.QuadTree",
           "name": "children",
           "package": "spacepart",
@@ -475,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart QuadTree",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.QuadTree",
           "name": "children",
           "normalized": "QuadTree a-\u003e(Maybe(QuadTree a),Maybe(QuadTree a),Maybe(QuadTree a),Maybe(QuadTree a))",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.QuadTree",
           "name": "elements",
           "package": "spacepart",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart QuadTree",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.QuadTree",
           "name": "elements",
           "normalized": "QuadTree a-\u003e[a]",
@@ -513,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an empty QuadTree without a specific boundary. The default bounds are centered around\n - (0,0) with a size of 2\n -\n - TODO: Alternatively an empty quadtree could have no defined bounds. The bounds would then be\n - defined on the first insertion. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.QuadTree",
           "name": "empty",
           "package": "spacepart",
@@ -523,6 +568,7 @@
         "index": {
           "description": "Returns an empty QuadTree without specific boundary The default bounds are centered around with size of TODO Alternatively an empty quadtree could have no defined bounds The bounds would then be defined on the first insertion",
           "hierarchy": "Data SpacePart QuadTree",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.QuadTree",
           "name": "empty",
           "package": "spacepart",
@@ -536,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an empty QuadTree with the given bounds.\n - The given bounds cannot have a size of 0. This will error out on that case.\n -\n - TODO: The user may find it easier for this to accept a 0 sized boundary which is transparently\n - changed to a non-0 sized boundary on insert.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.QuadTree",
           "name": "empty_with_bounds",
           "package": "spacepart",
@@ -546,6 +593,7 @@
         "index": {
           "description": "Returns an empty QuadTree with the given bounds The given bounds cannot have size of This will error out on that case TODO The user may find it easier for this to accept sized boundary which is transparently changed to non-0 sized boundary on insert",
           "hierarchy": "Data SpacePart QuadTree",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.QuadTree",
           "name": "empty_with_bounds",
           "normalized": "Boundary-\u003eQuadTree a",
@@ -561,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts the given element into the quadtree. \n - This inserts the element into a this node or a child quadrant node if the current node encloses\n - the element.  Otherwise this inserts the element into a new node that is a parent of the given\n - node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.QuadTree",
           "name": "insert",
           "package": "spacepart",
@@ -571,6 +620,7 @@
         "index": {
           "description": "Inserts the given element into the quadtree This inserts the element into this node or child quadrant node if the current node encloses the element Otherwise this inserts the element into new node that is parent of the given node",
           "hierarchy": "Data SpacePart QuadTree",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.QuadTree",
           "name": "insert",
           "normalized": "a-\u003eQuadTree a-\u003eQuadTree a",
@@ -586,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparent_trees generates all possible parent trees of the given tree (Without memoization) in the\n order suitable for a breadth first search.\n\u003c/p\u003e\u003cp\u003eInserts the element in the child identified by the given boundary and Quadrant.\n If there is no child at the given quadrant then a child is added and the element is inserted into\n the new child.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.QuadTree",
           "name": "insert_child",
           "package": "spacepart",
@@ -596,6 +647,7 @@
         "index": {
           "description": "parent trees generates all possible parent trees of the given tree Without memoization in the order suitable for breadth first search Inserts the element in the child identified by the given boundary and Quadrant If there is no child at the given quadrant then child is added and the element is inserted into the new child",
           "hierarchy": "Data SpacePart QuadTree",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.QuadTree",
           "name": "insert_child",
           "normalized": "(Boundary,Quadrant)-\u003ea-\u003eQuadTree a-\u003eQuadTree a",
@@ -611,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts the given element into either a child node of the current node if one of the quadrants\n - encloses the element.\n - Otherwise the element is added to the current node's list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.QuadTree",
           "name": "insert_self_or_child",
           "package": "spacepart",
@@ -621,6 +674,7 @@
         "index": {
           "description": "Inserts the given element into either child node of the current node if one of the quadrants encloses the element Otherwise the element is added to the current node list of elements",
           "hierarchy": "Data SpacePart QuadTree",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.QuadTree",
           "name": "insert_self_or_child",
           "normalized": "a-\u003eQuadTree a-\u003eQuadTree a",
@@ -636,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds the element to quadtree via a parent node to the given quadtree.\n The parent to add e to is then the first of the possible parents nodes that enclose e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.QuadTree",
           "name": "insert_via_parent",
           "package": "spacepart",
@@ -646,6 +701,7 @@
         "index": {
           "description": "Adds the element to quadtree via parent node to the given quadtree The parent to add to is then the first of the possible parents nodes that enclose",
           "hierarchy": "Data SpacePart QuadTree",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.QuadTree",
           "name": "insert_via_parent",
           "normalized": "a-\u003eQuadTree a-\u003eQuadTree a",
@@ -660,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.QuadTree",
           "name": "map_child",
           "package": "spacepart",
@@ -669,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart QuadTree",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.QuadTree",
           "name": "map_child",
           "normalized": "(Maybe(QuadTree a)-\u003eMaybe(QuadTree a))-\u003eQuadrant-\u003e(Maybe(QuadTree a),Maybe(QuadTree a),Maybe(QuadTree a),Maybe(QuadTree a))-\u003e(Maybe(QuadTree a),Maybe(QuadTree a),Maybe(QuadTree a),Maybe(QuadTree a))",
@@ -683,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.QuadTree",
           "name": "quadrant_bounds",
           "package": "spacepart",
@@ -692,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Data SpacePart QuadTree",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.QuadTree",
           "name": "quadrant_bounds",
           "normalized": "QuadTree a-\u003e[(Boundary,Quadrant)]",
@@ -707,6 +767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all elements with boundaries that intersect the given boundary\n - By case:\n -  Boundary does not intersect quadtree\n -  Boundary intersects the quadtree\n -      All elements at the level of the quadtree could intersect the boundary. Test each element\n -      for intersection. \n -      Descend into the quadrants\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:36 UTC 2014",
           "module": "Data.SpacePart.QuadTree",
           "name": "query",
           "package": "spacepart",
@@ -717,6 +778,7 @@
         "index": {
           "description": "Returns all elements with boundaries that intersect the given boundary By case Boundary does not intersect quadtree Boundary intersects the quadtree All elements at the level of the quadtree could intersect the boundary Test each element for intersection Descend into the quadrants",
           "hierarchy": "Data SpacePart QuadTree",
+          "indexed": "2014-03-11T20:07:36",
           "module": "Data.SpacePart.QuadTree",
           "name": "query",
           "normalized": "Boundary-\u003eQuadTree a-\u003e[a]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "MC-Fold-DP"
+        "phrase": "MC-Fold-DP",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTODO bonus system for matching \u003ca\u003e()\u003c/a\u003e bracking still broken?!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "MCFoldDP",
           "package": "MC-Fold-DP",
@@ -28,6 +29,7 @@
         "index": {
           "description": "TODO bonus system for matching bracking still broken",
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "MCFoldDP",
           "package": "MC-Fold-DP",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "Table2",
           "package": "MC-Fold-DP",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "Table2",
           "package": "MC-Fold-DP",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "Table4",
           "package": "MC-Fold-DP",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "Table4",
           "package": "MC-Fold-DP",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "Tables",
           "package": "MC-Fold-DP",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "Tables",
           "package": "MC-Fold-DP",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBacktracking suboptimal results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "backtrack",
           "package": "MC-Fold-DP",
@@ -115,6 +124,7 @@
         "index": {
           "description": "Backtracking suboptimal results",
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "backtrack",
           "normalized": "MotifDB-\u003eDouble-\u003ePrimary-\u003eConstraint-\u003eTables-\u003e[(Double,D Secondary)]",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "bonusScore",
           "package": "MC-Fold-DP",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "bonusScore",
           "package": "MC-Fold-DP",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterior loops of some size\n\u003c/p\u003e\u003cp\u003eTODO this could profit from a log-based scoring function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "fInterior",
           "package": "MC-Fold-DP",
@@ -162,6 +175,7 @@
         "index": {
           "description": "Interior loops of some size TODO this could profit from log-based scoring function",
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "fInterior",
           "normalized": "MotifDB-\u003ePrimary-\u003eConstraint-\u003eInt-\u003eInt-\u003eTable-\u003eVector((Int,Int),Double)",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect a partial multibranched structure with a hairpin. Note that the\n \u003ca\u003edncm\u003c/a\u003e hairpin part wants one table, not the list of all tables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "fMMbrStem",
           "package": "MC-Fold-DP",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Connect partial multibranched structure with hairpin Note that the dncm hairpin part wants one table not the list of all tables",
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "fMMbrStem",
           "normalized": "Int-\u003eInt-\u003eTable-\u003eTable-\u003eVector(Int,Double)",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the first stem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "fMStem",
           "package": "MC-Fold-DP",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Add the first stem",
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "fMStem",
           "normalized": "Int-\u003eInt-\u003eTable-\u003eVector(Int,Double)",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose a multibranched loop with a singleNCM\n\u003c/p\u003e\u003cp\u003eTODO close with singleNCM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "fMulti",
           "package": "MC-Fold-DP",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Close multibranched loop with singleNCM TODO close with singleNCM",
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "fMulti",
           "normalized": "MotifDB-\u003ePrimary-\u003eConstraint-\u003eInt-\u003eInt-\u003eTable-\u003eTable-\u003eVector(Int,Double)",
@@ -256,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd one stem for \u003ca\u003eexternal\u003c/a\u003e calculations\n\u003c/p\u003e\u003cp\u003eTODO make efficient\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "fStemExt",
           "package": "MC-Fold-DP",
@@ -266,6 +287,7 @@
         "index": {
           "description": "Add one stem for external calculations TODO make efficient",
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "fStemExt",
           "normalized": "[Table]-\u003eInt-\u003eInt-\u003eVector(Int,Int,Double)",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine stems for \u003ca\u003eexternal\u003c/a\u003e calculations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "fStemExtExt",
           "package": "MC-Fold-DP",
@@ -292,6 +315,7 @@
         "index": {
           "description": "Combine stems for external calculations",
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "fStemExtExt",
           "normalized": "[Table]-\u003eTable-\u003eInt-\u003eInt-\u003eVector(Int,Int,Double)",
@@ -308,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edouble NCM extending another double NCM.\n\u003c/p\u003e\u003cp\u003eTODO this one could profit from performance improvements. But check first vs. multibranch timings\n TODO remove otherwise case\n TODO improve performance, eats ~66% of total time\n TODO improve: return empty vector on error, write special minimum function that has eInf on empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "fncmDD",
           "package": "MC-Fold-DP",
@@ -318,6 +343,7 @@
         "index": {
           "description": "double NCM extending another double NCM TODO this one could profit from performance improvements But check first vs multibranch timings TODO remove otherwise case TODO improve performance eats of total time TODO improve return empty vector on error write special minimum function that has eInf on empty",
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "fncmDD",
           "normalized": "MotifDB-\u003ePrimary-\u003eConstraint-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003e[Table]-\u003eVector(Int,Double)",
@@ -334,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edouble NCM extend single NCM. We do not care that this is comparatively\n slow as it is called only a few times, anyway.\n\u003c/p\u003e\u003cp\u003eTODO make faster (better lookup system)\n TODO otherwise case\n TODO eats another ~10% performance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "fncmDS",
           "package": "MC-Fold-DP",
@@ -344,6 +371,7 @@
         "index": {
           "description": "double NCM extend single NCM We do not care that this is comparatively slow as it is called only few times anyway TODO make faster better lookup system TODO otherwise case TODO eats another performance",
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "fncmDS",
           "normalized": "MotifDB-\u003ePrimary-\u003eConstraint-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eTable-\u003eDouble",
@@ -360,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esingleNCM insertion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "fncmSingle",
           "package": "MC-Fold-DP",
@@ -370,6 +399,7 @@
         "index": {
           "description": "singleNCM insertion",
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "fncmSingle",
           "normalized": "MotifDB-\u003ePrimary-\u003eConstraint-\u003eInt-\u003eInt-\u003eDouble",
@@ -386,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFolding wrapper\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "fold",
           "package": "MC-Fold-DP",
@@ -396,6 +427,7 @@
         "index": {
           "description": "Folding wrapper",
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "fold",
           "normalized": "MotifDB-\u003ePrimary-\u003eConstraint-\u003eTables",
@@ -411,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFolding in the ST monad. the number of dncm tables is the same as the\n number of known double NCMs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "foldST",
           "package": "MC-Fold-DP",
@@ -421,6 +454,7 @@
         "index": {
           "description": "Folding in the ST monad the number of dncm tables is the same as the number of known double NCMs",
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "foldST",
           "normalized": "MotifDB-\u003ePrimary-\u003eConstraint-\u003eST a Tables",
@@ -437,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive a certain \u003ccode\u003e\u003ca\u003ebonusScore\u003c/a\u003e\u003c/code\u003e for the constraints that have been fulfilled.\n\u003c/p\u003e\u003cp\u003eTODO should we be more lenient with constraints that would increase the\n total energy?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "giveBonus",
           "package": "MC-Fold-DP",
@@ -447,6 +482,7 @@
         "index": {
           "description": "Give certain bonusScore for the constraints that have been fulfilled TODO should we be more lenient with constraints that would increase the total energy",
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "giveBonus",
           "normalized": "Constraint-\u003eInt-\u003eInt-\u003eDouble",
@@ -463,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default two-dim table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "mkTable2",
           "package": "MC-Fold-DP",
@@ -473,6 +510,7 @@
         "index": {
           "description": "The default two-dim table",
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "mkTable2",
           "normalized": "a-\u003eb(PrimArray(a,a)c,PrimArrayM(a,a)c b)",
@@ -489,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a 2-dim table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "mkTable2With",
           "package": "MC-Fold-DP",
@@ -499,6 +538,7 @@
         "index": {
           "description": "Create dim table",
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "mkTable2With",
           "normalized": "a-\u003eb-\u003ec(PrimArray(b,b)a,PrimArrayM(b,b)a c)",
@@ -514,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "vuminimum",
           "package": "MC-Fold-DP",
@@ -523,6 +564,7 @@
         },
         "index": {
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "vuminimum",
           "normalized": "Vector a-\u003ea",
@@ -538,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eminimum for unboxed vectors, capturing possible 0-length. Vectors in this\n algorithm always carry positional information.\n\u003c/p\u003e\u003cp\u003eTODO the next version of the vector library should handle \u003ca\u003eVU.map snd\u003c/a\u003e\n better\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:14 UTC 2014",
           "module": "BioInf.MCFoldDP",
           "name": "vuminimumP",
           "package": "MC-Fold-DP",
@@ -548,6 +591,7 @@
         "index": {
           "description": "minimum for unboxed vectors capturing possible length Vectors in this algorithm always carry positional information TODO the next version of the vector library should handle VU.map snd better",
           "hierarchy": "BioInf MCFoldDP",
+          "indexed": "2014-03-11T16:52:14",
           "module": "BioInf.MCFoldDP",
           "name": "vuminimumP",
           "normalized": "Vector(a,b)-\u003eb",

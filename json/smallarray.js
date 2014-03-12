@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "smallarray"
+        "phrase": "smallarray",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray.Unsafe",
           "name": "Unsafe",
           "package": "smallarray",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data SmallArray Unsafe",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray.Unsafe",
           "name": "Unsafe",
           "package": "smallarray",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray.Unsafe",
           "name": "Elt",
           "package": "smallarray",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data SmallArray Unsafe",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray.Unsafe",
           "name": "Elt",
           "package": "smallarray",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafely copy the elements of an array. Array bounds are not checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray.Unsafe",
           "name": "unsafeCopy",
           "package": "smallarray",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Unsafely copy the elements of an array Array bounds are not checked",
           "hierarchy": "Data SmallArray Unsafe",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray.Unsafe",
           "name": "unsafeCopy",
           "normalized": "MArray a b-\u003eInt-\u003eMArray a b-\u003eInt-\u003eInt-\u003eST a()",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray.Unsafe",
           "name": "unsafeFreeze",
           "package": "smallarray",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data SmallArray Unsafe",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray.Unsafe",
           "name": "unsafeFreeze",
           "normalized": "MArray a b-\u003eST a(Array b)",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray.Unsafe",
           "name": "unsafeIndex",
           "package": "smallarray",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Data SmallArray Unsafe",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray.Unsafe",
           "name": "unsafeIndex",
           "normalized": "Array a-\u003eInt-\u003ea",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new array. The contents are not initialized in any way, and\n may be invalid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray.Unsafe",
           "name": "unsafeNew",
           "package": "smallarray",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Create new array The contents are not initialized in any way and may be invalid",
           "hierarchy": "Data SmallArray Unsafe",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray.Unsafe",
           "name": "unsafeNew",
           "normalized": "Int-\u003eST a(MArray a b)",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray.Unsafe",
           "name": "unsafeRead",
           "package": "smallarray",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Data SmallArray Unsafe",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray.Unsafe",
           "name": "unsafeRead",
           "normalized": "MArray a b-\u003eInt-\u003eST a b",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray.Unsafe",
           "name": "unsafeWrite",
           "package": "smallarray",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Data SmallArray Unsafe",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray.Unsafe",
           "name": "unsafeWrite",
           "normalized": "MArray a b-\u003eInt-\u003eb-\u003eST a()",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePacked, unboxed, heap-resident arrays.  Suitable for performance\n critical use, both in terms of large data quantities and high\n speed.\n\u003c/p\u003e\u003cp\u003eThis module is intended to be imported \u003ccode\u003equalified\u003c/code\u003e, to avoid name\n clashes with \u003ca\u003ePrelude\u003c/a\u003e functions, e.g.\n\u003c/p\u003e\u003cpre\u003e import qualified Data.SmallArray as A\n\u003c/pre\u003e\u003cp\u003eThe names in this module resemble those in the \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e family\n of modules, but are shorter due to the assumption of qualifid\n naming.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray",
           "name": "SmallArray",
           "package": "smallarray",
@@ -218,6 +235,7 @@
         "index": {
           "description": "Packed unboxed heap-resident arrays Suitable for performance critical use both in terms of large data quantities and high speed This module is intended to be imported qualified to avoid name clashes with Prelude functions e.g import qualified Data.SmallArray as The names in this module resemble those in the Array family of modules but are shorter due to the assumption of qualifid naming",
           "hierarchy": "Data SmallArray",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray",
           "name": "SmallArray",
           "package": "smallarray",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple array. Indexing starts from zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray",
           "name": "Array",
           "package": "smallarray",
@@ -241,6 +260,7 @@
         "index": {
           "description": "simple array Indexing starts from zero",
           "hierarchy": "Data SmallArray",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray",
           "name": "Array",
           "package": "smallarray",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray",
           "name": "Elt",
           "package": "smallarray",
@@ -262,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Data SmallArray",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray",
           "name": "Elt",
           "package": "smallarray",
@@ -275,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray",
           "name": "IArray",
           "package": "smallarray",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Data SmallArray",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray",
           "name": "IArray",
           "package": "smallarray",
@@ -297,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple mutable array. Indexing starts from zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray",
           "name": "MArray",
           "package": "smallarray",
@@ -306,6 +331,7 @@
         "index": {
           "description": "simple mutable array Indexing starts from zero",
           "hierarchy": "Data SmallArray",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray",
           "name": "MArray",
           "package": "smallarray",
@@ -320,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy an array in its entirety. The destination array must be at\n least as big as the source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray",
           "name": "copy",
           "package": "smallarray",
@@ -329,6 +356,7 @@
         "index": {
           "description": "Copy an array in its entirety The destination array must be at least as big as the source",
           "hierarchy": "Data SmallArray",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray",
           "name": "copy",
           "normalized": "MArray a b-\u003eMArray a b-\u003eST a()",
@@ -344,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray",
           "name": "empty",
           "package": "smallarray",
@@ -354,6 +383,7 @@
         "index": {
           "description": "The empty array",
           "hierarchy": "Data SmallArray",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray",
           "name": "empty",
           "package": "smallarray",
@@ -367,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an array from a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray",
           "name": "fromList",
           "package": "smallarray",
@@ -377,6 +408,7 @@
         "index": {
           "description": "Create an array from list",
           "hierarchy": "Data SmallArray",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray",
           "name": "fromList",
           "normalized": "[a]-\u003eArray a",
@@ -393,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve an element in an array at the specified\n location. Array indices start at zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray",
           "name": "index",
           "package": "smallarray",
@@ -403,6 +436,7 @@
         "index": {
           "description": "Retrieve an element in an array at the specified location Array indices start at zero",
           "hierarchy": "Data SmallArray",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray",
           "name": "index",
           "normalized": "Array a-\u003eInt-\u003ea",
@@ -418,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the length of an array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray",
           "name": "length",
           "package": "smallarray",
@@ -428,6 +463,7 @@
         "index": {
           "description": "Return the length of an array",
           "hierarchy": "Data SmallArray",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray",
           "name": "length",
           "normalized": "a-\u003eInt",
@@ -443,6 +479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new array with the specified default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray",
           "name": "new",
           "package": "smallarray",
@@ -453,6 +490,7 @@
         "index": {
           "description": "Create new array with the specified default value",
           "hierarchy": "Data SmallArray",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray",
           "name": "new",
           "normalized": "Int-\u003ea-\u003eST b(MArray b a)",
@@ -468,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve an element from a mutable array at the\n specified location. Array indices start at zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray",
           "name": "read",
           "package": "smallarray",
@@ -478,6 +517,7 @@
         "index": {
           "description": "Retrieve an element from mutable array at the specified location Array indices start at zero",
           "hierarchy": "Data SmallArray",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray",
           "name": "read",
           "normalized": "MArray a b-\u003eInt-\u003eST a b",
@@ -493,6 +533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an action creating a mutable array, and return the resulting\n equivalent pure array. No copy is performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray",
           "name": "run",
           "package": "smallarray",
@@ -503,6 +544,7 @@
         "index": {
           "description": "Execute an action creating mutable array and return the resulting equivalent pure array No copy is performed",
           "hierarchy": "Data SmallArray",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray",
           "name": "run",
           "normalized": "(a b ST c(MArray c d))-\u003eArray d",
@@ -517,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray",
           "name": "run'",
           "package": "smallarray",
@@ -526,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Data SmallArray",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray",
           "name": "run'",
           "normalized": "(a b ST c(MArray c d,e))-\u003e(Array d,e)",
@@ -541,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the array to a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray",
           "name": "toList",
           "package": "smallarray",
@@ -551,6 +596,7 @@
         "index": {
           "description": "Output the array to list",
           "hierarchy": "Data SmallArray",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray",
           "name": "toList",
           "normalized": "Array a-\u003e[a]",
@@ -567,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an element to a mutable array at\n the specified location. Array indices start\n at zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:18 UTC 2014",
           "module": "Data.SmallArray",
           "name": "write",
           "package": "smallarray",
@@ -577,6 +624,7 @@
         "index": {
           "description": "Write an element to mutable array at the specified location Array indices start at zero",
           "hierarchy": "Data SmallArray",
+          "indexed": "2014-03-11T20:04:18",
           "module": "Data.SmallArray",
           "name": "write",
           "normalized": "MArray a b-\u003eInt-\u003eb-\u003eST a()",

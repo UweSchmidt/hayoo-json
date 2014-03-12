@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monadio-unwrappable"
+        "phrase": "monadio-unwrappable",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:31 UTC 2014",
           "module": "Control.Monad.IO.MonadIOException",
           "name": "MonadIOException",
           "package": "monadio-unwrappable",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad IO MonadIOException",
+          "indexed": "2014-03-11T19:21:31",
           "module": "Control.Monad.IO.MonadIOException",
           "name": "MonadIOException",
           "package": "monadio-unwrappable",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGuarantees that an IO operation will be performed before an after executing\n | a MonadIOUnwrappable monad. The operation will be performed even if the\n | MonadIO contains error monads that fails, or if an exception is raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:31 UTC 2014",
           "module": "Control.Monad.IO.MonadIOException",
           "name": "bracketIO",
           "package": "monadio-unwrappable",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Guarantees that an IO operation will be performed before an after executing MonadIOUnwrappable monad The operation will be performed even if the MonadIO contains error monads that fails or if an exception is raised",
           "hierarchy": "Control Monad IO MonadIOException",
+          "indexed": "2014-03-11T19:21:31",
           "module": "Control.Monad.IO.MonadIOException",
           "name": "bracketIO",
           "normalized": "IO a-\u003e(a-\u003eIO b)-\u003e(a-\u003ec d)-\u003ec d",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains a class and instance for MonadIO implementations that can be run directly in MonadIO and\n | then reconstructed to the original type, without changing the overall semantics.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:31 UTC 2014",
           "module": "Control.Monad.IO.Unwrappable",
           "name": "Unwrappable",
           "package": "monadio-unwrappable",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Contains class and instance for MonadIO implementations that can be run directly in MonadIO and then reconstructed to the original type without changing the overall semantics",
           "hierarchy": "Control Monad IO Unwrappable",
+          "indexed": "2014-03-11T19:21:31",
           "module": "Control.Monad.IO.Unwrappable",
           "name": "Unwrappable",
           "package": "monadio-unwrappable",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a MonadIO where any change further up the monad stack can be\n | represented lower down in the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:31 UTC 2014",
           "module": "Control.Monad.IO.Unwrappable",
           "name": "MonadIOUnwrappable",
           "package": "monadio-unwrappable",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Represents MonadIO where any change further up the monad stack can be represented lower down in the stack",
           "hierarchy": "Control Monad IO Unwrappable",
+          "indexed": "2014-03-11T19:21:31",
           "module": "Control.Monad.IO.Unwrappable",
           "name": "MonadIOUnwrappable",
           "package": "monadio-unwrappable",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverses a previous unwrapMonadIO operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:31 UTC 2014",
           "module": "Control.Monad.IO.Unwrappable",
           "name": "rewrapMonadIO",
           "package": "monadio-unwrappable",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Reverses previous unwrapMonadIO operation",
           "hierarchy": "Control Monad IO Unwrappable",
+          "indexed": "2014-03-11T19:21:31",
           "module": "Control.Monad.IO.Unwrappable",
           "name": "rewrapMonadIO",
           "normalized": "MonadIOStateType a-\u003eMonadIOWrapType a b-\u003ea b",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps the monad to only use IO level constructs and the state set up \n | using unwrapState.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:31 UTC 2014",
           "module": "Control.Monad.IO.Unwrappable",
           "name": "unwrapMonadIO",
           "package": "monadio-unwrappable",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Maps the monad to only use IO level constructs and the state set up using unwrapState",
           "hierarchy": "Control Monad IO Unwrappable",
+          "indexed": "2014-03-11T19:21:31",
           "module": "Control.Monad.IO.Unwrappable",
           "name": "unwrapMonadIO",
           "normalized": "MonadIOStateType a-\u003ea b-\u003eIO(MonadIOWrapType a b)",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets up state (e.g. an IORef) to be used to simulate the monad from the\n | IO monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:31 UTC 2014",
           "module": "Control.Monad.IO.Unwrappable",
           "name": "unwrapState",
           "package": "monadio-unwrappable",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Sets up state e.g an IORef to be used to simulate the monad from the IO monad",
           "hierarchy": "Control Monad IO Unwrappable",
+          "indexed": "2014-03-11T19:21:31",
           "module": "Control.Monad.IO.Unwrappable",
           "name": "unwrapState",
           "package": "monadio-unwrappable",

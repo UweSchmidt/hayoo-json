@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wxFruit"
+        "phrase": "wxFruit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXFruit",
           "package": "wxFruit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXFruit",
           "package": "wxFruit",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "Orientation",
           "package": "wxFruit",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "Orientation",
           "package": "wxFruit",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXBox",
           "package": "wxFruit",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXBox",
           "package": "wxFruit",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXButtonConf",
           "package": "wxFruit",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXButtonConf",
           "package": "wxFruit",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXButtonState",
           "package": "wxFruit",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXButtonState",
           "package": "wxFruit",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXContents",
           "package": "wxFruit",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXContents",
           "package": "wxFruit",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXGUI",
           "package": "wxFruit",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXGUI",
           "package": "wxFruit",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXGUIRef",
           "package": "wxFruit",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXGUIRef",
           "package": "wxFruit",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXGUIState",
           "package": "wxFruit",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXGUIState",
           "package": "wxFruit",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXPath",
           "package": "wxFruit",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXPath",
           "package": "wxFruit",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXPicture",
           "package": "wxFruit",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXPicture",
           "package": "wxFruit",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXPictureConf",
           "package": "wxFruit",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXPictureConf",
           "package": "wxFruit",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXPictureState",
           "package": "wxFruit",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXPictureState",
           "package": "wxFruit",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXRHandle",
           "package": "wxFruit",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXRHandle",
           "package": "wxFruit",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXRawInput",
           "package": "wxFruit",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXRawInput",
           "package": "wxFruit",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXSliderConf",
           "package": "wxFruit",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXSliderConf",
           "package": "wxFruit",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXSliderState",
           "package": "wxFruit",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXSliderState",
           "package": "wxFruit",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXTextConf",
           "package": "wxFruit",
@@ -383,6 +418,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXTextConf",
           "package": "wxFruit",
@@ -396,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXTextState",
           "package": "wxFruit",
@@ -404,6 +441,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXTextState",
           "package": "wxFruit",
@@ -417,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWidget",
           "package": "wxFruit",
@@ -425,6 +464,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWidget",
           "package": "wxFruit",
@@ -438,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWidgetReq",
           "package": "wxFruit",
@@ -446,6 +487,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWidgetReq",
           "package": "wxFruit",
@@ -459,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWidgetResp",
           "package": "wxFruit",
@@ -467,6 +510,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWidgetResp",
           "package": "wxFruit",
@@ -480,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "Widget",
           "package": "wxFruit",
@@ -488,6 +533,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "Widget",
           "package": "wxFruit",
@@ -501,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "Horiz",
           "package": "wxFruit",
@@ -510,6 +557,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "Horiz",
           "package": "wxFruit",
@@ -523,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "Vert",
           "package": "wxFruit",
@@ -532,6 +581,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "Vert",
           "package": "wxFruit",
@@ -545,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXBox",
           "package": "wxFruit",
@@ -554,6 +605,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXBox",
           "normalized": "WXBox(Orientation-\u003eWXGUI a b)",
@@ -569,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXButton",
           "package": "wxFruit",
@@ -578,6 +631,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXButton",
           "normalized": "WXButton(Button())",
@@ -593,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXButtonState",
           "package": "wxFruit",
@@ -602,6 +657,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXButtonState",
           "package": "wxFruit",
@@ -615,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXCComp",
           "package": "wxFruit",
@@ -624,6 +681,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXCComp",
           "package": "wxFruit",
@@ -637,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXCEmpty",
           "package": "wxFruit",
@@ -646,6 +705,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXCEmpty",
           "package": "wxFruit",
@@ -659,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXCLeaf",
           "package": "wxFruit",
@@ -668,6 +729,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXCLeaf",
           "package": "wxFruit",
@@ -681,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXGUI",
           "package": "wxFruit",
@@ -690,6 +753,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXGUI",
           "package": "wxFruit",
@@ -703,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXPicture",
           "package": "wxFruit",
@@ -712,6 +777,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXPicture",
           "normalized": "WXPicture(Panel())",
@@ -727,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXPictureState",
           "package": "wxFruit",
@@ -736,6 +803,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXPictureState",
           "package": "wxFruit",
@@ -749,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXRawInput",
           "package": "wxFruit",
@@ -758,6 +827,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXRawInput",
           "package": "wxFruit",
@@ -771,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXSlider",
           "package": "wxFruit",
@@ -780,6 +851,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXSlider",
           "normalized": "WXSlider(Slider())",
@@ -795,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXSliderState",
           "package": "wxFruit",
@@ -804,6 +877,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXSliderState",
           "package": "wxFruit",
@@ -817,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXText",
           "package": "wxFruit",
@@ -826,6 +901,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXText",
           "normalized": "WXText(StaticText())",
@@ -841,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXTextState",
           "package": "wxFruit",
@@ -850,6 +927,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXTextState",
           "package": "wxFruit",
@@ -863,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWButtonCommandEvent",
           "package": "wxFruit",
@@ -872,6 +951,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWButtonCommandEvent",
           "package": "wxFruit",
@@ -885,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWButtonCreateReq",
           "package": "wxFruit",
@@ -894,6 +975,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWButtonCreateReq",
           "package": "wxFruit",
@@ -907,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWButtonCreateResp",
           "package": "wxFruit",
@@ -916,6 +999,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWButtonCreateResp",
           "normalized": "WXWButtonCreateResp(Button())",
@@ -931,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWButtonSetReq",
           "package": "wxFruit",
@@ -940,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWButtonSetReq",
           "normalized": "WXWButtonSetReq(Button())WXButtonState",
@@ -955,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWComp",
           "package": "wxFruit",
@@ -964,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWComp",
           "normalized": "WXWComp Orientation(Event WXWidgetReq,Event WXWidgetReq)",
@@ -979,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWDeComp",
           "package": "wxFruit",
@@ -988,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWDeComp",
           "normalized": "WXWDeComp(Event WXWidgetResp,Event WXWidgetResp)",
@@ -1003,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWInit",
           "package": "wxFruit",
@@ -1012,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWInit",
           "package": "wxFruit",
@@ -1025,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWPictureCreateReq",
           "package": "wxFruit",
@@ -1034,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWPictureCreateReq",
           "package": "wxFruit",
@@ -1047,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWPictureCreateResp",
           "package": "wxFruit",
@@ -1056,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWPictureCreateResp",
           "normalized": "WXWPictureCreateResp(Panel())",
@@ -1071,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWPictureSetReq",
           "package": "wxFruit",
@@ -1080,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWPictureSetReq",
           "normalized": "WXWPictureSetReq(Panel())WXPictureState",
@@ -1095,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWSliderCommandEvent",
           "package": "wxFruit",
@@ -1104,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWSliderCommandEvent",
           "package": "wxFruit",
@@ -1117,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWSliderCreateReq",
           "package": "wxFruit",
@@ -1126,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWSliderCreateReq",
           "package": "wxFruit",
@@ -1139,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWSliderCreateResp",
           "package": "wxFruit",
@@ -1148,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWSliderCreateResp",
           "normalized": "WXWSliderCreateResp(Slider())",
@@ -1163,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWSliderSetReq",
           "package": "wxFruit",
@@ -1172,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWSliderSetReq",
           "normalized": "WXWSliderSetReq(Slider())WXSliderState",
@@ -1187,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWTextCreateReq",
           "package": "wxFruit",
@@ -1196,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWTextCreateReq",
           "package": "wxFruit",
@@ -1209,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWTextCreateResp",
           "package": "wxFruit",
@@ -1218,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWTextCreateResp",
           "normalized": "WXWTextCreateResp(StaticText())",
@@ -1233,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "WXWTextSetReq",
           "package": "wxFruit",
@@ -1242,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "WXWTextSetReq",
           "normalized": "WXWTextSetReq(StaticText())WXTextState",
@@ -1257,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "actuate",
           "package": "wxFruit",
@@ -1266,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "actuate",
           "normalized": "WXGUIRef-\u003eWXRHandle-\u003eBool-\u003e(Event WXWidgetReq,())-\u003eIO Bool",
@@ -1280,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "benabled",
           "package": "wxFruit",
@@ -1289,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "benabled",
           "normalized": "Bool-\u003eWXButtonConf",
@@ -1303,6 +1419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "bsEnabled",
           "package": "wxFruit",
@@ -1312,6 +1429,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "bsEnabled",
           "package": "wxFruit",
@@ -1325,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "bsLabel",
           "package": "wxFruit",
@@ -1334,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "bsLabel",
           "package": "wxFruit",
@@ -1347,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "btext",
           "package": "wxFruit",
@@ -1356,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "btext",
           "normalized": "String-\u003eWXButtonConf",
@@ -1370,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "c2lList",
           "package": "wxFruit",
@@ -1379,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "c2lList",
           "normalized": "Orientation-\u003eWXContents-\u003e[Layout]",
@@ -1394,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "compReq",
           "package": "wxFruit",
@@ -1403,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "compReq",
           "normalized": "Orientation-\u003eEvent WXWidgetReq-\u003eEvent WXWidgetReq-\u003eEvent WXWidgetReq",
@@ -1418,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "contents2layout",
           "package": "wxFruit",
@@ -1427,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "contents2layout",
           "normalized": "WXContents-\u003eLayout",
@@ -1441,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "decompResp",
           "package": "wxFruit",
@@ -1450,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "decompResp",
           "normalized": "Event WXWidgetResp-\u003e(Event WXWidgetResp,Event WXWidgetResp)",
@@ -1465,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "ensureTimeElapses",
           "package": "wxFruit",
@@ -1474,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "ensureTimeElapses",
           "normalized": "Int-\u003eInt-\u003eIO Int-\u003eIO(Double,Int)",
@@ -1489,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "getCurrentTime",
           "package": "wxFruit",
@@ -1498,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "getCurrentTime",
           "package": "wxFruit",
@@ -1511,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "getRawInput",
           "package": "wxFruit",
@@ -1520,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "getRawInput",
           "normalized": "Frame()-\u003eIO WXRawInput",
@@ -1535,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "handleWidgetReq",
           "package": "wxFruit",
@@ -1544,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "handleWidgetReq",
           "normalized": "WXGUIRef-\u003eWXRHandle-\u003eFrame()-\u003eWXPath-\u003eWXContents-\u003eEvent WXWidgetReq-\u003eIO(Event WXWidgetResp,WXContents,Bool)",
@@ -1559,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "initSense",
           "package": "wxFruit",
@@ -1568,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "initSense",
           "normalized": "Frame()-\u003eIO(WXRawInput,Event WXWidgetResp,())",
@@ -1583,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "maybeChanged",
           "package": "wxFruit",
@@ -1592,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "maybeChanged",
           "normalized": "a-\u003ea-\u003eMaybe()",
@@ -1607,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "mkButtonCommand",
           "package": "wxFruit",
@@ -1616,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "mkButtonCommand",
           "normalized": "WXGUIRef-\u003eWXRHandle-\u003eWXPath-\u003eIO()",
@@ -1631,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "mkButtonProps",
           "package": "wxFruit",
@@ -1640,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "mkButtonProps",
           "normalized": "WXGUIRef-\u003eWXRHandle-\u003eWXPath-\u003eWXButtonState-\u003e[Prop(Button())]",
@@ -1655,6 +1801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "mkPictureProps",
           "package": "wxFruit",
@@ -1664,6 +1811,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "mkPictureProps",
           "normalized": "WXPictureState-\u003e[Prop(Panel())]",
@@ -1679,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "mkSliderCommand",
           "package": "wxFruit",
@@ -1688,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "mkSliderCommand",
           "normalized": "WXGUIRef-\u003eWXRHandle-\u003eWXPath-\u003eSlider()-\u003eIO()",
@@ -1703,6 +1853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "mkSliderProps",
           "package": "wxFruit",
@@ -1712,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "mkSliderProps",
           "normalized": "WXGUIRef-\u003eWXRHandle-\u003eWXPath-\u003eSlider()-\u003eWXSliderState-\u003e[Prop(Slider())]",
@@ -1727,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "mkTextProps",
           "package": "wxFruit",
@@ -1736,6 +1889,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "mkTextProps",
           "normalized": "WXTextState-\u003e[Prop(StaticText())]",
@@ -1751,6 +1905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "pathify",
           "package": "wxFruit",
@@ -1760,6 +1915,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "pathify",
           "normalized": "Event WXWidgetResp-\u003eWXPath-\u003eEvent WXWidgetResp",
@@ -1774,6 +1930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "ppic",
           "package": "wxFruit",
@@ -1783,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "ppic",
           "normalized": "WXPicture-\u003eWXPictureConf",
@@ -1797,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "psPicture",
           "package": "wxFruit",
@@ -1806,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "psPicture",
           "package": "wxFruit",
@@ -1819,6 +1979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "psSize",
           "package": "wxFruit",
@@ -1828,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "psSize",
           "package": "wxFruit",
@@ -1841,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "psize",
           "package": "wxFruit",
@@ -1850,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "psize",
           "normalized": "Size-\u003eWXPictureConf",
@@ -1864,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "removeContents",
           "package": "wxFruit",
@@ -1873,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "removeContents",
           "normalized": "Frame()-\u003eWXContents-\u003eIO Bool",
@@ -1888,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "respond",
           "package": "wxFruit",
@@ -1897,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "respond",
           "normalized": "WXGUIRef-\u003eWXRHandle-\u003eEvent WXWidgetResp-\u003eIO()",
@@ -1911,6 +2079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "senabled",
           "package": "wxFruit",
@@ -1920,6 +2089,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "senabled",
           "normalized": "Bool-\u003eWXSliderConf",
@@ -1934,6 +2104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "ssEnabled",
           "package": "wxFruit",
@@ -1943,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "ssEnabled",
           "package": "wxFruit",
@@ -1956,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "ssMax",
           "package": "wxFruit",
@@ -1965,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "ssMax",
           "package": "wxFruit",
@@ -1978,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "ssMin",
           "package": "wxFruit",
@@ -1987,6 +2162,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "ssMin",
           "package": "wxFruit",
@@ -2000,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "ssOrientation",
           "package": "wxFruit",
@@ -2009,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "ssOrientation",
           "package": "wxFruit",
@@ -2022,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "ssSelection",
           "package": "wxFruit",
@@ -2031,6 +2210,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "ssSelection",
           "package": "wxFruit",
@@ -2044,6 +2224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "sselection",
           "package": "wxFruit",
@@ -2053,6 +2234,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "sselection",
           "normalized": "Int-\u003eWXSliderConf",
@@ -2067,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "startGUI",
           "package": "wxFruit",
@@ -2076,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "startGUI",
           "normalized": "String-\u003eWXGUI()()-\u003eIO()",
@@ -2091,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "tsLabel",
           "package": "wxFruit",
@@ -2100,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "tsLabel",
           "package": "wxFruit",
@@ -2113,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "ttext",
           "package": "wxFruit",
@@ -2122,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "ttext",
           "normalized": "String-\u003eWXTextConf",
@@ -2136,6 +2324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxArr",
           "package": "wxFruit",
@@ -2145,6 +2334,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxArr",
           "normalized": "(a-\u003eb)-\u003eWXGUI a b",
@@ -2160,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxBox",
           "package": "wxFruit",
@@ -2169,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxBox",
           "normalized": "WXGUI a b-\u003eWXBox a b",
@@ -2184,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxBoxGUI",
           "package": "wxFruit",
@@ -2193,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxBoxGUI",
           "normalized": "Widget a b-\u003eWXBox a b",
@@ -2208,6 +2402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxBoxSF",
           "package": "wxFruit",
@@ -2217,6 +2412,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxBoxSF",
           "normalized": "SF a b-\u003eWXBox a b",
@@ -2232,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxComp",
           "package": "wxFruit",
@@ -2241,6 +2438,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxComp",
           "normalized": "WXGUI a b-\u003eWXGUI b c-\u003eWXGUI a c",
@@ -2256,6 +2454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxCompBox",
           "package": "wxFruit",
@@ -2265,6 +2464,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxCompBox",
           "normalized": "WXBox a b-\u003eWXBox b c-\u003eWXBox a c",
@@ -2280,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxFirst",
           "package": "wxFruit",
@@ -2289,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxFirst",
           "normalized": "WXGUI a b-\u003eWXGUI(a,c)(b,c)",
@@ -2304,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxFirstBox",
           "package": "wxFruit",
@@ -2313,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxFirstBox",
           "normalized": "WXBox a b-\u003eWXBox(a,c)(b,c)",
@@ -2328,6 +2532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxGComp",
           "package": "wxFruit",
@@ -2337,6 +2542,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxGComp",
           "normalized": "Orientation-\u003eWXGUI a b-\u003eWXGUI b c-\u003eWXGUI a c",
@@ -2352,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxHBox",
           "package": "wxFruit",
@@ -2361,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxHBox",
           "normalized": "WXBox a b-\u003eWXGUI a b",
@@ -2376,6 +2584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxLoop",
           "package": "wxFruit",
@@ -2385,6 +2594,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxLoop",
           "normalized": "WXGUI(a,b)(c,b)-\u003eWXGUI a c",
@@ -2400,6 +2610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxLoopBox",
           "package": "wxFruit",
@@ -2409,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxLoopBox",
           "normalized": "WXBox(a,b)(c,b)-\u003eWXBox a c",
@@ -2424,6 +2636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxMousePos",
           "package": "wxFruit",
@@ -2433,6 +2646,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxMousePos",
           "package": "wxFruit",
@@ -2446,6 +2660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxPicFill",
           "package": "wxFruit",
@@ -2455,6 +2670,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxPicFill",
           "normalized": "WXPicture-\u003eWXPicture",
@@ -2470,6 +2686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxPicOver",
           "package": "wxFruit",
@@ -2479,6 +2696,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxPicOver",
           "normalized": "WXPicture-\u003eWXPicture-\u003eWXPicture",
@@ -2494,6 +2712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxSF",
           "package": "wxFruit",
@@ -2503,6 +2722,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxSF",
           "normalized": "SF a b-\u003eWXGUI a b",
@@ -2518,6 +2738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxUnGUI",
           "package": "wxFruit",
@@ -2527,6 +2748,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxUnGUI",
           "normalized": "WXGUI a b-\u003eWidget a b",
@@ -2542,6 +2764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxVBox",
           "package": "wxFruit",
@@ -2551,6 +2774,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxVBox",
           "normalized": "WXBox a b-\u003eWXGUI a b",
@@ -2566,6 +2790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxWithColor",
           "package": "wxFruit",
@@ -2575,6 +2800,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxWithColor",
           "normalized": "Color-\u003eWXPicture-\u003eWXPicture",
@@ -2590,6 +2816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxblank",
           "package": "wxFruit",
@@ -2599,6 +2826,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxblank",
           "package": "wxFruit",
@@ -2611,6 +2839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxbutton",
           "package": "wxFruit",
@@ -2620,6 +2849,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxbutton",
           "normalized": "WXButtonConf-\u003eWXBox WXButtonConf(Event())",
@@ -2634,6 +2864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxellipse",
           "package": "wxFruit",
@@ -2643,6 +2874,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxellipse",
           "normalized": "Rect-\u003eWXPicture",
@@ -2657,6 +2889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxfill",
           "package": "wxFruit",
@@ -2666,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxfill",
           "package": "wxFruit",
@@ -2678,6 +2912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxmouse",
           "package": "wxFruit",
@@ -2687,6 +2922,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxmouse",
           "normalized": "WXBox()Point",
@@ -2701,6 +2937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxpicture",
           "package": "wxFruit",
@@ -2710,6 +2947,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxpicture",
           "normalized": "WXPictureConf-\u003eWXBox WXPictureConf()",
@@ -2724,6 +2962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxrect",
           "package": "wxFruit",
@@ -2733,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxrect",
           "normalized": "Rect-\u003eWXPicture",
@@ -2747,6 +2987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxslider",
           "package": "wxFruit",
@@ -2756,6 +2997,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxslider",
           "normalized": "Orientation-\u003eInt-\u003eInt-\u003eWXSliderConf-\u003eWXBox WXSliderConf Int",
@@ -2770,6 +3012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxtext",
           "package": "wxFruit",
@@ -2779,6 +3022,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxtext",
           "normalized": "WXTextConf-\u003eWXBox WXTextConf()",
@@ -2793,6 +3037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:24 UTC 2014",
           "module": "WXFruit",
           "name": "wxwrite",
           "package": "wxFruit",
@@ -2802,6 +3047,7 @@
         },
         "index": {
           "hierarchy": "WXFruit",
+          "indexed": "2014-03-11T20:40:24",
           "module": "WXFruit",
           "name": "wxwrite",
           "normalized": "String-\u003ePoint-\u003eWXPicture",

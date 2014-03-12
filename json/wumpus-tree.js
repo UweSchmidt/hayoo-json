@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wumpus-tree"
+        "phrase": "wumpus-tree",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon types, ...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Base",
           "name": "Base",
           "package": "wumpus-tree",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Common types",
           "hierarchy": "Wumpus Tree Base",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Base",
           "name": "Base",
           "package": "wumpus-tree",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Base",
           "name": "OTMAnchorConn",
           "package": "wumpus-tree",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree Base",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Base",
           "name": "OTMAnchorConn",
           "package": "wumpus-tree",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Base",
           "name": "TreeDirection",
           "package": "wumpus-tree",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree Base",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Base",
           "name": "TreeDirection",
           "package": "wumpus-tree",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Base",
           "name": "TreeMonad",
           "package": "wumpus-tree",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree Base",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Base",
           "name": "TreeMonad",
           "package": "wumpus-tree",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Base",
           "name": "TreeProps",
           "package": "wumpus-tree",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree Base",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Base",
           "name": "TreeProps",
           "package": "wumpus-tree",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Base",
           "name": "TREE_DOWN",
           "package": "wumpus-tree",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree Base",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Base",
           "name": "TREE_DOWN",
           "package": "wumpus-tree",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Base",
           "name": "TREE_LEFT",
           "package": "wumpus-tree",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree Base",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Base",
           "name": "TREE_LEFT",
           "package": "wumpus-tree",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Base",
           "name": "TREE_RIGHT",
           "package": "wumpus-tree",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree Base",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Base",
           "name": "TREE_RIGHT",
           "package": "wumpus-tree",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Base",
           "name": "TREE_UP",
           "package": "wumpus-tree",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree Base",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Base",
           "name": "TREE_UP",
           "package": "wumpus-tree",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Base",
           "name": "TreeProps",
           "package": "wumpus-tree",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree Base",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Base",
           "name": "TreeProps",
           "package": "wumpus-tree",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Base",
           "name": "drawConn",
           "package": "wumpus-tree",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree Base",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Base",
           "name": "drawConn",
           "normalized": "a-\u003e[a]-\u003eTreeMonad a b()",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Base",
           "name": "runTreeMonad",
           "package": "wumpus-tree",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree Base",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Base",
           "name": "runTreeMonad",
           "normalized": "TreeMonad a b c-\u003eTreeProps a b-\u003eLocImage b c",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Base",
           "name": "tp_direction",
           "package": "wumpus-tree",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree Base",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Base",
           "name": "tp_direction",
           "package": "wumpus-tree",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Base",
           "name": "tp_level_distance",
           "package": "wumpus-tree",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree Base",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Base",
           "name": "tp_level_distance",
           "package": "wumpus-tree",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Base",
           "name": "tp_otm_connector",
           "package": "wumpus-tree",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree Base",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Base",
           "name": "tp_otm_connector",
           "package": "wumpus-tree",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Base",
           "name": "tp_sibling_distance",
           "package": "wumpus-tree",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree Base",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Base",
           "name": "tp_sibling_distance",
           "package": "wumpus-tree",
@@ -368,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA variant of the tree drawing algorithm from \n Andrew Kennedy - Functional Pearls Drawing Trees 1996.\n\u003c/p\u003e\u003cp\u003eAcknowledgment - although based on Andrew Kennedy's algorithm,\n this version uses absolute extents rather than relative ones \n and is a somewhat different in detail if not in spirit to the \n original.\n\u003c/p\u003e\u003cp\u003eAny mistakes are mine of course.\n\u003c/p\u003e\u003cp\u003eNote - although this module is exposed, it is not expected to \n be indenpendently useful for client code.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Design",
           "name": "Design",
           "package": "wumpus-tree",
@@ -377,6 +410,7 @@
         "index": {
           "description": "variant of the tree drawing algorithm from Andrew Kennedy Functional Pearls Drawing Trees Acknowledgment although based on Andrew Kennedy algorithm this version uses absolute extents rather than relative ones and is somewhat different in detail if not in spirit to the original Any mistakes are mine of course Note although this module is exposed it is not expected to be indenpendently useful for client code",
           "hierarchy": "Wumpus Tree Design",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Design",
           "name": "Design",
           "package": "wumpus-tree",
@@ -391,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTree annotated with positions.\n\u003c/p\u003e\u003cp\u003eThis is the result of \u003ccode\u003e\u003ca\u003edesign\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Design",
           "name": "CoordTree",
           "package": "wumpus-tree",
@@ -400,6 +435,7 @@
         "index": {
           "description": "Tree annotated with positions This is the result of design",
           "hierarchy": "Wumpus Tree Design",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Design",
           "name": "CoordTree",
           "package": "wumpus-tree",
@@ -414,6 +450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTree unit width.\n\u003c/p\u003e\u003cp\u003eTrees are designed with 1.0 as the ideal width between nodes.\n This is represented as a specific newtype so it can be \n contextually scaled after the design, before the tree is drawn.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Design",
           "name": "UW",
           "package": "wumpus-tree",
@@ -423,6 +460,7 @@
         "index": {
           "description": "Tree unit width Trees are designed with as the ideal width between nodes This is represented as specific newtype so it can be contextually scaled after the design before the tree is drawn",
           "hierarchy": "Wumpus Tree Design",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Design",
           "name": "UW",
           "package": "wumpus-tree",
@@ -437,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesign a tree, properly balancing the child nodes oriented \n at root. \n\u003c/p\u003e\u003cp\u003eAs the design has no y-positions (but by recursion they can be \n counted) and x-positions are respective to the unit distance \n 1.0 separating nodes it is rescaled as a post-processing step\n into drawable coordinates. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Design",
           "name": "design",
           "package": "wumpus-tree",
@@ -447,6 +486,7 @@
         "index": {
           "description": "Design tree properly balancing the child nodes oriented at root As the design has no y-positions but by recursion they can be counted and x-positions are respective to the unit distance separating nodes it is rescaled as post-processing step into drawable coordinates",
           "hierarchy": "Wumpus Tree Design",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Design",
           "name": "design",
           "normalized": "Tree a-\u003eCoordTree a",
@@ -462,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrientate the Tree according to it's drawing direction.\n\u003c/p\u003e\u003cp\u003eThis is a rotation about the root node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Design",
           "name": "orientateTree",
           "package": "wumpus-tree",
@@ -472,6 +513,7 @@
         "index": {
           "description": "Orientate the Tree according to it drawing direction This is rotation about the root node",
           "hierarchy": "Wumpus Tree Design",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Design",
           "name": "orientateTree",
           "normalized": "TreeDirection-\u003eTree(Point a,b)-\u003eTree(Point a,b)",
@@ -488,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003escaleTree\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e sibling_distance * level_distance * CoordTree -\u003e Tree \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eScale a CoordTree - this forms a tree where the node label\n is a pair of \u003ccode\u003ePoint2 u\u003c/code\u003e and an \u003ccode\u003ea\u003c/code\u003e (usually a LocImage).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.Design",
           "name": "scaleTree",
           "package": "wumpus-tree",
@@ -498,6 +541,7 @@
         "index": {
           "description": "scaleTree sibling distance level distance CoordTree Tree Scale CoordTree this forms tree where the node label is pair of Point2 and an usually LocImage",
           "hierarchy": "Wumpus Tree Design",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.Design",
           "name": "scaleTree",
           "normalized": "a-\u003ea-\u003eCoordTree b-\u003ec(Tree(Point a,b))",
@@ -514,6 +558,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDrawing a Tree as a LocGraphic.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.DrawLoc",
           "name": "DrawLoc",
           "package": "wumpus-tree",
@@ -523,6 +568,7 @@
         "index": {
           "description": "Drawing Tree as LocGraphic",
           "hierarchy": "Wumpus Tree DrawLoc",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.DrawLoc",
           "name": "DrawLoc",
           "package": "wumpus-tree",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.DrawLoc",
           "name": "AnnoNode",
           "package": "wumpus-tree",
@@ -544,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree DrawLoc",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.DrawLoc",
           "name": "AnnoNode",
           "package": "wumpus-tree",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.DrawLoc",
           "name": "TreeSpec",
           "package": "wumpus-tree",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree DrawLoc",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.DrawLoc",
           "name": "TreeSpec",
           "package": "wumpus-tree",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.DrawLoc",
           "name": "leaf",
           "package": "wumpus-tree",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree DrawLoc",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.DrawLoc",
           "name": "leaf",
           "normalized": "LocImage a b-\u003eTreeSpec c a b",
@@ -601,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.DrawLoc",
           "name": "plainTree",
           "package": "wumpus-tree",
@@ -610,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree DrawLoc",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.DrawLoc",
           "name": "plainTree",
           "normalized": "(a-\u003eLocImage b c)-\u003eTree a-\u003eTreeSpec d b c",
@@ -625,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.DrawLoc",
           "name": "tree",
           "package": "wumpus-tree",
@@ -634,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree DrawLoc",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.DrawLoc",
           "name": "tree",
           "normalized": "LocImage a b-\u003e[TreeSpec c a b]-\u003eTreeSpec c a b",
@@ -648,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.DrawLoc",
           "name": "treeDrawing",
           "package": "wumpus-tree",
@@ -657,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree DrawLoc",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.DrawLoc",
           "name": "treeDrawing",
           "normalized": "TreeProps a b-\u003eTreeSpec c b a-\u003eLocGraphic b",
@@ -672,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.DrawLoc",
           "name": "xleaf",
           "package": "wumpus-tree",
@@ -681,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree DrawLoc",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.DrawLoc",
           "name": "xleaf",
           "normalized": "a-\u003eLocImage b c-\u003eTreeSpec a b c",
@@ -695,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.DrawLoc",
           "name": "xtree",
           "package": "wumpus-tree",
@@ -704,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree DrawLoc",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.DrawLoc",
           "name": "xtree",
           "normalized": "a-\u003eLocImage b c-\u003e[TreeSpec a b c]-\u003eTreeSpec a b c",
@@ -719,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOne-to-many connectors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.OTMConnectors",
           "name": "OTMConnectors",
           "package": "wumpus-tree",
@@ -728,6 +791,7 @@
         "index": {
           "description": "One-to-many connectors",
           "hierarchy": "Wumpus Tree OTMConnectors",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.OTMConnectors",
           "name": "OTMConnectors",
           "package": "wumpus-tree",
@@ -741,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.OTMConnectors",
           "name": "blankOTM",
           "package": "wumpus-tree",
@@ -750,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree OTMConnectors",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.OTMConnectors",
           "name": "blankOTM",
           "package": "wumpus-tree",
@@ -763,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.OTMConnectors",
           "name": "familyOTM",
           "package": "wumpus-tree",
@@ -772,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree OTMConnectors",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.OTMConnectors",
           "name": "familyOTM",
           "package": "wumpus-tree",
@@ -785,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.OTMConnectors",
           "name": "radialOTM",
           "package": "wumpus-tree",
@@ -794,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree OTMConnectors",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.OTMConnectors",
           "name": "radialOTM",
           "package": "wumpus-tree",
@@ -807,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.OTMConnectors",
           "name": "splayOTM",
           "package": "wumpus-tree",
@@ -816,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Tree OTMConnectors",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.OTMConnectors",
           "name": "splayOTM",
           "package": "wumpus-tree",
@@ -830,6 +902,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion number\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.VersionNumber",
           "name": "VersionNumber",
           "package": "wumpus-tree",
@@ -839,6 +912,7 @@
         "index": {
           "description": "Version number",
           "hierarchy": "Wumpus Tree VersionNumber",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.VersionNumber",
           "name": "VersionNumber",
           "package": "wumpus-tree",
@@ -853,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion number\n\u003c/p\u003e\u003cpre\u003e (0,20,0)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree.VersionNumber",
           "name": "wumpus_tree_version",
           "package": "wumpus-tree",
@@ -863,6 +938,7 @@
         "index": {
           "description": "Version number",
           "hierarchy": "Wumpus Tree VersionNumber",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree.VersionNumber",
           "name": "wumpus_tree_version",
           "normalized": "(Int,Int,Int)",
@@ -878,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNote - this module is a kludge whilst I work out a usable API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:17 UTC 2014",
           "module": "Wumpus.Tree",
           "name": "Tree",
           "package": "wumpus-tree",
@@ -887,6 +964,7 @@
         "index": {
           "description": "Note this module is kludge whilst work out usable API",
           "hierarchy": "Wumpus Tree",
+          "indexed": "2014-03-11T20:40:17",
           "module": "Wumpus.Tree",
           "name": "Tree",
           "package": "wumpus-tree",

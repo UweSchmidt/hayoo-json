@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fckeditor"
+        "phrase": "fckeditor",
+        "type": "phrase"
       },
       "type": "context"
     }

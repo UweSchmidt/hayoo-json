@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "list-grouping"
+        "phrase": "list-grouping",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides functions for the awkward task of dividing a list into \n sub-lists, based on some predicate function, or based on some integer\n offset (e.g. dividing a list into lists of three elements each.\n\u003c/p\u003e\u003cp\u003eWe could abstract out some common patterns, but I want the code to \n be copy-and-pasteable. I'm hoping that this module can eventually\n contain the most efficient implementation possible of these functions,\n and would appreciate any suggestions or patches. Please also send\n any suggestions for other useful list-grouping functions.\n\u003c/p\u003e\u003cp\u003ePlease send me any requests, bugs, or improvements to this module!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:44 UTC 2014",
           "module": "Data.List.Grouping",
           "name": "Grouping",
           "package": "list-grouping",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides functions for the awkward task of dividing list into sub-lists based on some predicate function or based on some integer offset e.g dividing list into lists of three elements each We could abstract out some common patterns but want the code to be copy-and-pasteable hoping that this module can eventually contain the most efficient implementation possible of these functions and would appreciate any suggestions or patches Please also send any suggestions for other useful list-grouping functions Please send me any requests bugs or improvements to this module",
           "hierarchy": "Data List Grouping",
+          "indexed": "2014-03-11T19:10:44",
           "module": "Data.List.Grouping",
           "name": "Grouping",
           "package": "list-grouping",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epartitions list after every element matching predicate:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:44 UTC 2014",
           "module": "Data.List.Grouping",
           "name": "breakAfter",
           "package": "list-grouping",
@@ -52,6 +55,7 @@
         "index": {
           "description": "partitions list after every element matching predicate",
           "hierarchy": "Data List Grouping",
+          "indexed": "2014-03-11T19:10:44",
           "module": "Data.List.Grouping",
           "name": "breakAfter",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epartitions list before every element matching predicate:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:44 UTC 2014",
           "module": "Data.List.Grouping",
           "name": "breakBefore",
           "package": "list-grouping",
@@ -78,6 +83,7 @@
         "index": {
           "description": "partitions list before every element matching predicate",
           "hierarchy": "Data List Grouping",
+          "indexed": "2014-03-11T19:10:44",
           "module": "Data.List.Grouping",
           "name": "breakBefore",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epartitions the list at the points matching predicate, dropping those\n elements that match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:44 UTC 2014",
           "module": "Data.List.Grouping",
           "name": "breakDrop",
           "package": "list-grouping",
@@ -104,6 +111,7 @@
         "index": {
           "description": "partitions the list at the points matching predicate dropping those elements that match",
           "hierarchy": "Data List Grouping",
+          "indexed": "2014-03-11T19:10:44",
           "module": "Data.List.Grouping",
           "name": "breakDrop",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epartitions list into sub-lists of length given by the Int:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:44 UTC 2014",
           "module": "Data.List.Grouping",
           "name": "splitEvery",
           "package": "list-grouping",
@@ -130,6 +139,7 @@
         "index": {
           "description": "partitions list into sub-lists of length given by the Int",
           "hierarchy": "Data List Grouping",
+          "indexed": "2014-03-11T19:10:44",
           "module": "Data.List.Grouping",
           "name": "splitEvery",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epartitions list into lengths corresponding the list of Ints supplied.\n if we run out of lengths, the remaining tail is returned as last element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:44 UTC 2014",
           "module": "Data.List.Grouping",
           "name": "splitWith",
           "package": "list-grouping",
@@ -156,6 +167,7 @@
         "index": {
           "description": "partitions list into lengths corresponding the list of Ints supplied if we run out of lengths the remaining tail is returned as last element",
           "hierarchy": "Data List Grouping",
+          "indexed": "2014-03-11T19:10:44",
           "module": "Data.List.Grouping",
           "name": "splitWith",
           "normalized": "[Int]-\u003e[a]-\u003e[[a]]",
@@ -172,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esame as \u003ccode\u003e\u003ca\u003esplitWith\u003c/a\u003e\u003c/code\u003e but we drop the end of our list should we run out of\n integer lengths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:44 UTC 2014",
           "module": "Data.List.Grouping",
           "name": "splitWithDrop",
           "package": "list-grouping",
@@ -182,6 +195,7 @@
         "index": {
           "description": "same as splitWith but we drop the end of our list should we run out of integer lengths",
           "hierarchy": "Data List Grouping",
+          "indexed": "2014-03-11T19:10:44",
           "module": "Data.List.Grouping",
           "name": "splitWithDrop",
           "normalized": "[Int]-\u003e[a]-\u003e[[a]]",

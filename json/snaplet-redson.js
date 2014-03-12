@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snaplet-redson"
+        "phrase": "snaplet-redson",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSnap-agnostic low-level CRUD operations. No model definitions are used\non this level. Instead, objects must be \n\u003c/p\u003e\u003cp\u003eThis module may be used for batch uploading of database data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "CRUD",
           "package": "snaplet-redson",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Snap-agnostic low-level CRUD operations No model definitions are used on this level Instead objects must be This module may be used for batch uploading of database data",
           "hierarchy": "Snap Snaplet Redson Snapless CRUD",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "CRUD",
           "package": "snaplet-redson",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "InstanceId",
           "package": "snaplet-redson",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless CRUD",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "InstanceId",
           "package": "snaplet-redson",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip value of punctuation, spaces, convert all to lowercase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "collate",
           "package": "snaplet-redson",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Strip value of punctuation spaces convert all to lowercase",
           "hierarchy": "Snap Snaplet Redson Snapless CRUD",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "collate",
           "normalized": "FieldValue-\u003eFieldValue",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate new instance in Redis and indices for it.\n\u003c/p\u003e\u003cp\u003eBump model id counter and update timeline, return new instance id.\n\u003c/p\u003e\u003cp\u003eTODO: Support pubsub from here\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "create",
           "package": "snaplet-redson",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Create new instance in Redis and indices for it Bump model id counter and update timeline return new instance id TODO Support pubsub from here",
           "hierarchy": "Snap Snaplet Redson Snapless CRUD",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "create",
           "normalized": "ModelName-\u003eCommit-\u003e[FieldIndex]-\u003eRedis(Either Reply InstanceId)",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove existing instance in Redis, cleaning up old indices.\n\u003c/p\u003e\u003cp\u003eDoes not check if instance exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "delete",
           "package": "snaplet-redson",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Remove existing instance in Redis cleaning up old indices Does not check if instance exists",
           "hierarchy": "Snap Snaplet Redson Snapless CRUD",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "delete",
           "normalized": "ModelName-\u003eInstanceId-\u003e[FieldIndex]-\u003eRedis(Either Reply())",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild Redis key given model name and instance id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "instanceKey",
           "package": "snaplet-redson",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Build Redis key given model name and instance id",
           "hierarchy": "Snap Snaplet Redson Snapless CRUD",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "instanceKey",
           "normalized": "ModelName-\u003eInstanceId-\u003eByteString",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild Redis key for field index of model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "modelIndex",
           "package": "snaplet-redson",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Build Redis key for field index of model",
           "hierarchy": "Snap Snaplet Redson Snapless CRUD",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "modelIndex",
           "normalized": "ModelName-\u003eByteString-\u003eByteString-\u003eByteString",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet Redis key which stores timeline for model\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "modelTimeline",
           "package": "snaplet-redson",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Get Redis key which stores timeline for model",
           "hierarchy": "Snap Snaplet Redson Snapless CRUD",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "modelTimeline",
           "normalized": "ModelName-\u003eByteString",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract values of named fields from commit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "onlyFields",
           "package": "snaplet-redson",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Extract values of named fields from commit",
           "hierarchy": "Snap Snaplet Redson Snapless CRUD",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "onlyFields",
           "normalized": "Commit-\u003e[FieldName]-\u003e[Maybe FieldValue]",
@@ -240,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify existing instance in Redis, updating indices\n\u003c/p\u003e\u003cp\u003eTODO: Handle non-existing instance as error here?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "update",
           "package": "snaplet-redson",
@@ -250,6 +269,7 @@
         "index": {
           "description": "Modify existing instance in Redis updating indices TODO Handle non-existing instance as error here",
           "hierarchy": "Snap Snaplet Redson Snapless CRUD",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.CRUD",
           "name": "update",
           "normalized": "ModelName-\u003eInstanceId-\u003eCommit-\u003e[FieldIndex]-\u003eRedis(Either Reply())",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModel definitions loader.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel.Loader",
           "name": "Loader",
           "package": "snaplet-redson",
@@ -274,6 +295,7 @@
         "index": {
           "description": "Model definitions loader",
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel Loader",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel.Loader",
           "name": "Loader",
           "package": "snaplet-redson",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad groups from definitions file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel.Loader",
           "name": "loadGroups",
           "package": "snaplet-redson",
@@ -298,6 +321,7 @@
         "index": {
           "description": "Load groups from definitions file",
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel Loader",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel.Loader",
           "name": "loadGroups",
           "normalized": "FilePath-\u003eIO(Maybe Groups)",
@@ -314,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad model from specified location, performing group splicing,\n applications and filling index cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel.Loader",
           "name": "loadModel",
           "package": "snaplet-redson",
@@ -323,6 +348,7 @@
         "index": {
           "description": "Load model from specified location performing group splicing applications and filling index cache",
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel Loader",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel.Loader",
           "name": "loadModel",
           "normalized": "FilePath-\u003eGroups-\u003eIO(Maybe Model)",
@@ -339,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead all models from directory to a map.\n\u003c/p\u003e\u003cp\u003eTODO: Perhaps rely on special directory file which explicitly lists\n all models.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel.Loader",
           "name": "loadModels",
           "package": "snaplet-redson",
@@ -348,6 +375,7 @@
         "index": {
           "description": "Read all models from directory to map TODO Perhaps rely on special directory file which explicitly lists all models",
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel Loader",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel.Loader",
           "name": "loadModels",
           "normalized": "FilePath-\u003eFilePath-\u003eIO(Map ModelName Model)",
@@ -364,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModel definition parser, served model routines.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Metamodel",
           "package": "snaplet-redson",
@@ -373,6 +402,7 @@
         "index": {
           "description": "Model definition parser served model routines",
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Metamodel",
           "package": "snaplet-redson",
@@ -387,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of properties to be applied to named fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Application",
           "package": "snaplet-redson",
@@ -396,6 +427,7 @@
         "index": {
           "description": "list of properties to be applied to named fields",
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Application",
           "package": "snaplet-redson",
@@ -410,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of field key-value pairs.\n\u003c/p\u003e\u003cp\u003eSuitable for using with \u003ccode\u003e\u003ca\u003ehmset\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Commit",
           "package": "snaplet-redson",
@@ -419,6 +452,7 @@
         "index": {
           "description": "List of field key-value pairs Suitable for using with hmset",
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Commit",
           "package": "snaplet-redson",
@@ -433,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm field object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Field",
           "package": "snaplet-redson",
@@ -442,6 +477,7 @@
         "index": {
           "description": "Form field object",
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Field",
           "package": "snaplet-redson",
@@ -456,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of indexed field and collation flag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "FieldIndex",
           "package": "snaplet-redson",
@@ -465,6 +502,7 @@
         "index": {
           "description": "Name of indexed field and collation flag",
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "FieldIndex",
           "package": "snaplet-redson",
@@ -479,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap of field annotations which are transparently handled by\n server without any logic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "FieldMeta",
           "package": "snaplet-redson",
@@ -488,6 +527,7 @@
         "index": {
           "description": "Map of field annotations which are transparently handled by server without any logic",
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "FieldMeta",
           "package": "snaplet-redson",
@@ -501,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "FieldName",
           "package": "snaplet-redson",
@@ -509,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "FieldName",
           "package": "snaplet-redson",
@@ -522,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "FieldTargets",
           "package": "snaplet-redson",
@@ -530,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "FieldTargets",
           "package": "snaplet-redson",
@@ -543,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "FieldValue",
           "package": "snaplet-redson",
@@ -551,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "FieldValue",
           "package": "snaplet-redson",
@@ -565,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA named group of fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Groups",
           "package": "snaplet-redson",
@@ -574,6 +621,7 @@
         "index": {
           "description": "named group of fields",
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Groups",
           "package": "snaplet-redson",
@@ -588,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModel describes fields and permissions.\n\u003c/p\u003e\u003cp\u003eModels are built from JSON definitions (using FromJSON instance for\n Model) with further group splicing (\u003ccode\u003e\u003ca\u003espliceGroups\u003c/a\u003e\u003c/code\u003e), applications\n (\u003ccode\u003e\u003ca\u003edoApplications\u003c/a\u003e\u003c/code\u003e) and index caching (\u003ccode\u003e\u003ca\u003ecacheIndices\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Model",
           "package": "snaplet-redson",
@@ -597,6 +646,7 @@
         "index": {
           "description": "Model describes fields and permissions Models are built from JSON definitions using FromJSON instance for Model with further group splicing spliceGroups applications doApplications and index caching cacheIndices",
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Model",
           "package": "snaplet-redson",
@@ -610,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "ModelName",
           "package": "snaplet-redson",
@@ -618,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "ModelName",
           "package": "snaplet-redson",
@@ -632,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField permissions property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Permissions",
           "package": "snaplet-redson",
@@ -641,6 +694,7 @@
         "index": {
           "description": "Field permissions property",
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Permissions",
           "package": "snaplet-redson",
@@ -654,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "AllFields",
           "package": "snaplet-redson",
@@ -663,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "AllFields",
           "package": "snaplet-redson",
@@ -676,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Application",
           "package": "snaplet-redson",
@@ -685,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Application",
           "package": "snaplet-redson",
@@ -698,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Everyone",
           "package": "snaplet-redson",
@@ -707,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Everyone",
           "package": "snaplet-redson",
@@ -720,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Field",
           "package": "snaplet-redson",
@@ -729,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Field",
           "package": "snaplet-redson",
@@ -742,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Fields",
           "package": "snaplet-redson",
@@ -751,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Fields",
           "normalized": "Fields[FieldName]",
@@ -766,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Model",
           "package": "snaplet-redson",
@@ -775,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Model",
           "package": "snaplet-redson",
@@ -788,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Nobody",
           "package": "snaplet-redson",
@@ -797,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Nobody",
           "package": "snaplet-redson",
@@ -810,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "NoneFields",
           "package": "snaplet-redson",
@@ -819,6 +888,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "NoneFields",
           "package": "snaplet-redson",
@@ -832,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Roles",
           "package": "snaplet-redson",
@@ -841,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "Roles",
           "normalized": "Roles[ByteString]",
@@ -856,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "_apRead",
           "package": "snaplet-redson",
@@ -865,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "_apRead",
           "package": "snaplet-redson",
@@ -878,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "_apWrite",
           "package": "snaplet-redson",
@@ -887,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "_apWrite",
           "package": "snaplet-redson",
@@ -900,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "_canCreateM",
           "package": "snaplet-redson",
@@ -909,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "_canCreateM",
           "package": "snaplet-redson",
@@ -922,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "_canDeleteM",
           "package": "snaplet-redson",
@@ -931,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "_canDeleteM",
           "package": "snaplet-redson",
@@ -944,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "_canRead",
           "package": "snaplet-redson",
@@ -953,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "_canRead",
           "package": "snaplet-redson",
@@ -966,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "_canReadM",
           "package": "snaplet-redson",
@@ -975,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "_canReadM",
           "package": "snaplet-redson",
@@ -988,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "_canUpdateM",
           "package": "snaplet-redson",
@@ -997,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "_canUpdateM",
           "package": "snaplet-redson",
@@ -1010,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "_canWrite",
           "package": "snaplet-redson",
@@ -1019,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "_canWrite",
           "package": "snaplet-redson",
@@ -1032,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "apMeta",
           "package": "snaplet-redson",
@@ -1041,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "apMeta",
           "package": "snaplet-redson",
@@ -1054,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "apRead",
           "package": "snaplet-redson",
@@ -1063,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "apRead",
           "package": "snaplet-redson",
@@ -1076,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "apWrite",
           "package": "snaplet-redson",
@@ -1085,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "apWrite",
           "package": "snaplet-redson",
@@ -1098,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "applications",
           "package": "snaplet-redson",
@@ -1107,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "applications",
           "normalized": "[Application]",
@@ -1122,6 +1218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet indices field of model to list of \u003ccode\u003e\u003ca\u003eFieldIndex\u003c/a\u003e\u003c/code\u003ees\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "cacheIndices",
           "package": "snaplet-redson",
@@ -1132,6 +1229,7 @@
         "index": {
           "description": "Set indices field of model to list of FieldIndex es",
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "cacheIndices",
           "normalized": "Model-\u003eModel",
@@ -1147,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "canCreateM",
           "package": "snaplet-redson",
@@ -1156,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "canCreateM",
           "package": "snaplet-redson",
@@ -1169,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "canDeleteM",
           "package": "snaplet-redson",
@@ -1178,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "canDeleteM",
           "package": "snaplet-redson",
@@ -1191,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "canRead",
           "package": "snaplet-redson",
@@ -1200,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "canRead",
           "package": "snaplet-redson",
@@ -1213,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "canReadM",
           "package": "snaplet-redson",
@@ -1222,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "canReadM",
           "package": "snaplet-redson",
@@ -1235,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "canUpdateM",
           "package": "snaplet-redson",
@@ -1244,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "canUpdateM",
           "package": "snaplet-redson",
@@ -1257,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "canWrite",
           "package": "snaplet-redson",
@@ -1266,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "canWrite",
           "package": "snaplet-redson",
@@ -1280,6 +1390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed when field type is not specified in model description.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "defaultFieldType",
           "package": "snaplet-redson",
@@ -1290,6 +1401,7 @@
         "index": {
           "description": "Used when field type is not specified in model description",
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "defaultFieldType",
           "package": "snaplet-redson",
@@ -1304,6 +1416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform all applications in model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "doApplications",
           "package": "snaplet-redson",
@@ -1314,6 +1427,7 @@
         "index": {
           "description": "Perform all applications in model",
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "doApplications",
           "normalized": "Model-\u003eModel",
@@ -1329,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "fieldType",
           "package": "snaplet-redson",
@@ -1338,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "fieldType",
           "package": "snaplet-redson",
@@ -1351,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "fields",
           "package": "snaplet-redson",
@@ -1360,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "fields",
           "normalized": "[Field]",
@@ -1375,6 +1493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild new name \u003ccode\u003ef_gK\u003c/code\u003e for every field of group \u003ccode\u003eg\u003c/code\u003e to which field\n \u003ccode\u003ef\u003c/code\u003e is spliced into.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "groupFieldName",
           "package": "snaplet-redson",
@@ -1384,6 +1503,7 @@
         "index": {
           "description": "Build new name gK for every field of group to which field is spliced into",
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "groupFieldName",
           "normalized": "FieldName-\u003eFieldName-\u003eFieldName",
@@ -1399,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "groupName",
           "package": "snaplet-redson",
@@ -1408,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "groupName",
           "package": "snaplet-redson",
@@ -1421,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "index",
           "package": "snaplet-redson",
@@ -1430,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "index",
           "package": "snaplet-redson",
@@ -1442,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "indexCollate",
           "package": "snaplet-redson",
@@ -1451,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "indexCollate",
           "package": "snaplet-redson",
@@ -1465,6 +1591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCached list of index fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "indices",
           "package": "snaplet-redson",
@@ -1475,6 +1602,7 @@
         "index": {
           "description": "Cached list of index fields",
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "indices",
           "normalized": "[FieldIndex]",
@@ -1489,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "meta",
           "package": "snaplet-redson",
@@ -1498,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "meta",
           "package": "snaplet-redson",
@@ -1510,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "modelName",
           "package": "snaplet-redson",
@@ -1519,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "modelName",
           "package": "snaplet-redson",
@@ -1532,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "name",
           "package": "snaplet-redson",
@@ -1541,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "name",
           "package": "snaplet-redson",
@@ -1554,6 +1688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace all model fields having \u003ccode\u003e\u003ca\u003egroupName\u003c/a\u003e\u003c/code\u003e annotation with\n actual group fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "spliceGroups",
           "package": "snaplet-redson",
@@ -1564,6 +1699,7 @@
         "index": {
           "description": "Replace all model fields having groupName annotation with actual group fields",
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "spliceGroups",
           "normalized": "Groups-\u003eModel-\u003eModel",
@@ -1579,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "targets",
           "package": "snaplet-redson",
@@ -1588,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "targets",
           "package": "snaplet-redson",
@@ -1600,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "title",
           "package": "snaplet-redson",
@@ -1609,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Snapless Metamodel",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Snapless.Metamodel",
           "name": "title",
           "package": "snaplet-redson",
@@ -1622,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMiscellaneous functions for Snap.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "Util",
           "package": "snaplet-redson",
@@ -1631,6 +1772,7 @@
         "index": {
           "description": "Miscellaneous functions for Snap",
           "hierarchy": "Snap Snaplet Redson Util",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "Util",
           "package": "snaplet-redson",
@@ -1644,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "Error",
           "package": "snaplet-redson",
@@ -1652,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Util",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "Error",
           "package": "snaplet-redson",
@@ -1665,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "Error",
           "package": "snaplet-redson",
@@ -1674,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Util",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "Error",
           "package": "snaplet-redson",
@@ -1688,6 +1834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError response code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "code",
           "package": "snaplet-redson",
@@ -1698,6 +1845,7 @@
         "index": {
           "description": "Error response code",
           "hierarchy": "Snap Snaplet Redson Util",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "code",
           "package": "snaplet-redson",
@@ -1710,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "forbidden",
           "package": "snaplet-redson",
@@ -1719,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Util",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "forbidden",
           "package": "snaplet-redson",
@@ -1732,6 +1882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet integer parameter value from Request or return default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "fromIntParam",
           "package": "snaplet-redson",
@@ -1742,6 +1893,7 @@
         "index": {
           "description": "Get integer parameter value from Request or return default value",
           "hierarchy": "Snap Snaplet Redson Util",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "fromIntParam",
           "normalized": "ByteString-\u003eInt-\u003ea Int",
@@ -1758,6 +1910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet parameter value from Request or return empty string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "fromParam",
           "package": "snaplet-redson",
@@ -1768,6 +1921,7 @@
         "index": {
           "description": "Get parameter value from Request or return empty string",
           "hierarchy": "Snap Snaplet Redson Util",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "fromParam",
           "normalized": "ByteString-\u003ea ByteString",
@@ -1784,6 +1938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-circuit MonadSnap flow with error response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "handleError",
           "package": "snaplet-redson",
@@ -1794,6 +1949,7 @@
         "index": {
           "description": "Short-circuit MonadSnap flow with error response",
           "hierarchy": "Snap Snaplet Redson Util",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "handleError",
           "normalized": "Error-\u003ea()",
@@ -1809,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "notFound",
           "package": "snaplet-redson",
@@ -1818,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Util",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "notFound",
           "package": "snaplet-redson",
@@ -1831,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "serverError",
           "package": "snaplet-redson",
@@ -1840,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Util",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "serverError",
           "package": "snaplet-redson",
@@ -1853,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "unauthorized",
           "package": "snaplet-redson",
@@ -1862,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet Redson Util",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson.Util",
           "name": "unauthorized",
           "package": "snaplet-redson",
@@ -1875,6 +2037,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCRUD for JSON data with Redis storage.\n\u003c/p\u003e\u003cp\u003eCan be used as Backbone.sync backend.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson",
           "name": "Redson",
           "package": "snaplet-redson",
@@ -1884,6 +2047,7 @@
         "index": {
           "description": "CRUD for JSON data with Redis storage Can be used as Backbone.sync backend",
           "hierarchy": "Snap Snaplet Redson",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson",
           "name": "Redson",
           "package": "snaplet-redson",
@@ -1898,6 +2062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedson snaplet state type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson",
           "name": "Redson",
           "package": "snaplet-redson",
@@ -1907,6 +2072,7 @@
         "index": {
           "description": "Redson snaplet state type",
           "hierarchy": "Snap Snaplet Redson",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson",
           "name": "Redson",
           "package": "snaplet-redson",
@@ -1921,6 +2087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize Redson. AuthManager from parent snaplet is required.\n\u003c/p\u003e\u003cp\u003eConnect to Redis, read configuration and set routes.\n\u003c/p\u003e\u003cpre\u003e appInit :: SnapletInit MyApp MyApp\n appInit = makeSnaplet \"app\" \"App with Redson\" Nothing $\n           do\n             r \u003c- nestSnaplet \"_\" redson $ redsonInit auth\n             s \u003c- nestSnaplet \"session\" session $ initCookieSessionManager\n                                                  sesKey \"_session\" sessionTimeout\n             a \u003c- nestSnaplet \"auth\" auth $ initJsonFileAuthManager defAuthSettings\n             return $ MyApp r s a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:06:10 UTC 2014",
           "module": "Snap.Snaplet.Redson",
           "name": "redsonInit",
           "package": "snaplet-redson",
@@ -1931,6 +2098,7 @@
         "index": {
           "description": "Initialize Redson AuthManager from parent snaplet is required Connect to Redis read configuration and set routes appInit SnapletInit MyApp MyApp appInit makeSnaplet app App with Redson Nothing do nestSnaplet redson redsonInit auth nestSnaplet session session initCookieSessionManager sesKey session sessionTimeout nestSnaplet auth auth initJsonFileAuthManager defAuthSettings return MyApp",
           "hierarchy": "Snap Snaplet Redson",
+          "indexed": "2014-03-11T20:06:10",
           "module": "Snap.Snaplet.Redson",
           "name": "redsonInit",
           "normalized": "Lens a(Snaplet(AuthManager a))-\u003eSnapletInit a(Redson a)",

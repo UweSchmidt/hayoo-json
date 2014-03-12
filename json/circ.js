@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "circ"
+        "phrase": "circ",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe runtime library for CIRC generated code.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC.Runtime",
           "name": "Runtime",
           "package": "circ",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The runtime library for CIRC generated code",
           "hierarchy": "Language CIRC Runtime",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC.Runtime",
           "name": "Runtime",
           "package": "circ",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe CIRC transform monad.  Used to create fresh ids.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC.Runtime",
           "name": "CIRC",
           "package": "circ",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The CIRC transform monad Used to create fresh ids",
           "hierarchy": "Language CIRC Runtime",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC.Runtime",
           "name": "CIRC",
           "package": "circ",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC.Runtime",
           "name": "Id",
           "package": "circ",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Identifiers",
           "hierarchy": "Language CIRC Runtime",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC.Runtime",
           "name": "Id",
           "package": "circ",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates a CIRC transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC.Runtime",
           "name": "evalCIRC",
           "package": "circ",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Evaluates CIRC transform",
           "hierarchy": "Language CIRC Runtime",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC.Runtime",
           "name": "evalCIRC",
           "normalized": "CIRC a-\u003eInt-\u003ea",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a unqiue int for a given id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC.Runtime",
           "name": "idId",
           "package": "circ",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Returns unqiue int for given id",
           "hierarchy": "Language CIRC Runtime",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC.Runtime",
           "name": "idId",
           "normalized": "Id-\u003eCIRC Int",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduces a fresh id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC.Runtime",
           "name": "newId",
           "package": "circ",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Produces fresh id",
           "hierarchy": "Language CIRC Runtime",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC.Runtime",
           "name": "newId",
           "package": "circ",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates a CIRC transform, also returning the fresh next id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC.Runtime",
           "name": "runCIRC",
           "package": "circ",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Evaluates CIRC transform also returning the fresh next id",
           "hierarchy": "Language CIRC Runtime",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC.Runtime",
           "name": "runCIRC",
           "normalized": "CIRC a-\u003eInt-\u003e(a,Int)",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompiler IR Compiler (CIRC): A language for specifying compiler intermediate representations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "CIRC",
           "package": "circ",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Compiler IR Compiler CIRC language for specifying compiler intermediate representations",
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "CIRC",
           "package": "circ",
@@ -212,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "Code",
           "package": "circ",
@@ -220,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "Code",
           "package": "circ",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constructor definition is a name and a list of type arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "CtorDef",
           "package": "circ",
@@ -243,6 +262,7 @@
         "index": {
           "description": "constructor definition is name and list of type arguments",
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "CtorDef",
           "package": "circ",
@@ -256,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "CtorName",
           "package": "circ",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "CtorName",
           "package": "circ",
@@ -277,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "Import",
           "package": "circ",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "Import",
           "package": "circ",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "ModuleName",
           "package": "circ",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "ModuleName",
           "package": "circ",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "Name",
           "package": "circ",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "Name",
           "package": "circ",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specification is the initial type module name, the initial transform module name, the root type, the initial type definitions, and a list of transforms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "Spec",
           "package": "circ",
@@ -350,6 +379,7 @@
         "index": {
           "description": "specification is the initial type module name the initial transform module name the root type the initial type definitions and list of transforms",
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "Spec",
           "package": "circ",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA transform is a module name, the constructor to be transformed, a list of new type definitions,\n   and the implementation (imports and code).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "Transform",
           "package": "circ",
@@ -373,6 +404,7 @@
         "index": {
           "description": "transform is module name the constructor to be transformed list of new type definitions and the implementation imports and code",
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "Transform",
           "package": "circ",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "Type",
           "package": "circ",
@@ -396,6 +429,7 @@
         "index": {
           "description": "type expression",
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "Type",
           "package": "circ",
@@ -410,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type definition is a name, a list of type parameters, and a list of constructor definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "TypeDef",
           "package": "circ",
@@ -419,6 +454,7 @@
         "index": {
           "description": "type definition is name list of type parameters and list of constructor definitions",
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "TypeDef",
           "package": "circ",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "TypeName",
           "package": "circ",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "TypeName",
           "package": "circ",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "TypeParam",
           "package": "circ",
@@ -461,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "TypeParam",
           "package": "circ",
@@ -475,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type refinement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "TypeRefinement",
           "package": "circ",
@@ -484,6 +525,7 @@
         "index": {
           "description": "type refinement",
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "TypeRefinement",
           "package": "circ",
@@ -497,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "CtorDef",
           "package": "circ",
@@ -506,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "CtorDef",
           "normalized": "CtorDef CtorName[Type]",
@@ -521,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "NewCtor",
           "package": "circ",
@@ -530,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "NewCtor",
           "normalized": "NewCtor TypeName CtorDef(ModuleName-\u003eCode)",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "NewType",
           "package": "circ",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "NewType",
           "package": "circ",
@@ -567,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "Spec",
           "package": "circ",
@@ -576,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "Spec",
           "normalized": "Spec ModuleName ModuleName TypeName[TypeDef][Transform]",
@@ -591,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "T",
           "package": "circ",
@@ -600,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "T",
           "normalized": "T TypeName[Type]",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "TList",
           "package": "circ",
@@ -623,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "TList",
           "package": "circ",
@@ -636,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "TMaybe",
           "package": "circ",
@@ -645,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "TMaybe",
           "package": "circ",
@@ -658,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "TTuple",
           "package": "circ",
@@ -667,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "TTuple",
           "normalized": "TTuple[Type]",
@@ -682,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "Transform",
           "package": "circ",
@@ -691,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "Transform",
           "normalized": "Transform ModuleName[Import][Import][(CtorName,ModuleName-\u003eCode)][TypeRefinement]",
@@ -706,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "TypeDef",
           "package": "circ",
@@ -715,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "TypeDef",
           "normalized": "TypeDef TypeName[TypeParam][CtorDef]",
@@ -731,6 +793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompiles a CIRC spec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "circ",
           "package": "circ",
@@ -741,6 +804,7 @@
         "index": {
           "description": "Compiles CIRC spec",
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "circ",
           "normalized": "Spec-\u003eIO()",
@@ -756,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndents code with 2 spaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "indent",
           "package": "circ",
@@ -766,6 +831,7 @@
         "index": {
           "description": "Indents code with spaces",
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "indent",
           "normalized": "String-\u003eString",
@@ -781,6 +847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unparameterized type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:57 UTC 2014",
           "module": "Language.CIRC",
           "name": "t",
           "package": "circ",
@@ -791,6 +858,7 @@
         "index": {
           "description": "An unparameterized type",
           "hierarchy": "Language CIRC",
+          "indexed": "2014-03-11T17:32:57",
           "module": "Language.CIRC",
           "name": "t",
           "normalized": "String-\u003eType",

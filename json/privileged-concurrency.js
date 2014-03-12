@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "privileged-concurrency"
+        "phrase": "privileged-concurrency",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.Chan.ReadOnly",
           "name": "ReadOnly",
           "package": "privileged-concurrency",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Chan ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.Chan.ReadOnly",
           "name": "ReadOnly",
           "package": "privileged-concurrency",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.Chan.ReadOnly",
           "name": "ReadOnlyChan",
           "package": "privileged-concurrency",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Chan ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.Chan.ReadOnly",
           "name": "ReadOnlyChan",
           "package": "privileged-concurrency",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.Chan.ReadOnly",
           "name": "dupReadOnlyChan",
           "package": "privileged-concurrency",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Chan ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.Chan.ReadOnly",
           "name": "dupReadOnlyChan",
           "normalized": "ReadOnlyChan a-\u003eIO(ReadOnlyChan a)",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.Chan.ReadOnly",
           "name": "getChanContents",
           "package": "privileged-concurrency",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Chan ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.Chan.ReadOnly",
           "name": "getChanContents",
           "normalized": "ReadOnlyChan a-\u003eIO[a]",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.Chan.ReadOnly",
           "name": "readChan",
           "package": "privileged-concurrency",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Chan ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.Chan.ReadOnly",
           "name": "readChan",
           "normalized": "ReadOnlyChan a-\u003eIO a",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.Chan.ReadOnly",
           "name": "toReadOnlyChan",
           "package": "privileged-concurrency",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Chan ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.Chan.ReadOnly",
           "name": "toReadOnlyChan",
           "normalized": "Chan a-\u003eReadOnlyChan a",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.Chan.WriteOnly",
           "name": "WriteOnly",
           "package": "privileged-concurrency",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Chan WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.Chan.WriteOnly",
           "name": "WriteOnly",
           "package": "privileged-concurrency",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.Chan.WriteOnly",
           "name": "WriteOnlyChan",
           "package": "privileged-concurrency",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Chan WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.Chan.WriteOnly",
           "name": "WriteOnlyChan",
           "package": "privileged-concurrency",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.Chan.WriteOnly",
           "name": "dupWriteOnlyChan",
           "package": "privileged-concurrency",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Chan WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.Chan.WriteOnly",
           "name": "dupWriteOnlyChan",
           "normalized": "WriteOnlyChan a-\u003eIO(WriteOnlyChan a)",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.Chan.WriteOnly",
           "name": "toWriteOnlyChan",
           "package": "privileged-concurrency",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Chan WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.Chan.WriteOnly",
           "name": "toWriteOnlyChan",
           "normalized": "Chan a-\u003eWriteOnlyChan a",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.Chan.WriteOnly",
           "name": "writeChan",
           "package": "privileged-concurrency",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Chan WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.Chan.WriteOnly",
           "name": "writeChan",
           "normalized": "WriteOnlyChan a-\u003ea-\u003eIO()",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.Chan.WriteOnly",
           "name": "writeList2Chan",
           "package": "privileged-concurrency",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Chan WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.Chan.WriteOnly",
           "name": "writeList2Chan",
           "normalized": "WriteOnlyChan a-\u003e[a]-\u003eIO()",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.MVar.ReadOnly",
           "name": "ReadOnly",
           "package": "privileged-concurrency",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent MVar ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.MVar.ReadOnly",
           "name": "ReadOnly",
           "package": "privileged-concurrency",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.MVar.ReadOnly",
           "name": "ReadOnlyMVar",
           "package": "privileged-concurrency",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent MVar ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.MVar.ReadOnly",
           "name": "ReadOnlyMVar",
           "package": "privileged-concurrency",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.MVar.ReadOnly",
           "name": "readMVar",
           "package": "privileged-concurrency",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent MVar ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.MVar.ReadOnly",
           "name": "readMVar",
           "normalized": "ReadOnlyMVar a-\u003eIO a",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.MVar.ReadOnly",
           "name": "takeMVar",
           "package": "privileged-concurrency",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent MVar ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.MVar.ReadOnly",
           "name": "takeMVar",
           "normalized": "ReadOnlyMVar a-\u003eIO a",
@@ -384,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.MVar.ReadOnly",
           "name": "toReadOnlyMVar",
           "package": "privileged-concurrency",
@@ -393,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent MVar ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.MVar.ReadOnly",
           "name": "toReadOnlyMVar",
           "normalized": "MVar a-\u003eReadOnlyMVar a",
@@ -408,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.MVar.ReadOnly",
           "name": "tryTakeMVar",
           "package": "privileged-concurrency",
@@ -417,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent MVar ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.MVar.ReadOnly",
           "name": "tryTakeMVar",
           "normalized": "ReadOnlyMVar a-\u003eIO(Maybe a)",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.MVar.ReadOnly",
           "name": "withMVar",
           "package": "privileged-concurrency",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent MVar ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.MVar.ReadOnly",
           "name": "withMVar",
           "normalized": "ReadOnlyMVar a-\u003e(a-\u003eIO b)-\u003eIO b",
@@ -456,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.MVar.WriteOnly",
           "name": "WriteOnly",
           "package": "privileged-concurrency",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent MVar WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.MVar.WriteOnly",
           "name": "WriteOnly",
           "package": "privileged-concurrency",
@@ -477,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.MVar.WriteOnly",
           "name": "WriteOnlyMVar",
           "package": "privileged-concurrency",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent MVar WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.MVar.WriteOnly",
           "name": "WriteOnlyMVar",
           "package": "privileged-concurrency",
@@ -498,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.MVar.WriteOnly",
           "name": "putMVar",
           "package": "privileged-concurrency",
@@ -507,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent MVar WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.MVar.WriteOnly",
           "name": "putMVar",
           "normalized": "WriteOnlyMVar a-\u003ea-\u003eIO()",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.MVar.WriteOnly",
           "name": "toWriteOnlyMVar",
           "package": "privileged-concurrency",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent MVar WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.MVar.WriteOnly",
           "name": "toWriteOnlyMVar",
           "normalized": "MVar a-\u003eWriteOnlyMVar a",
@@ -546,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.MVar.WriteOnly",
           "name": "tryPutMVar",
           "package": "privileged-concurrency",
@@ -555,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent MVar WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.MVar.WriteOnly",
           "name": "tryPutMVar",
           "normalized": "WriteOnlyMVar a-\u003ea-\u003eIO Bool",
@@ -571,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrivilege separated concurrency abstractions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.Privileged",
           "name": "Privileged",
           "package": "privileged-concurrency",
@@ -580,6 +629,7 @@
         "index": {
           "description": "Privilege separated concurrency abstractions",
           "hierarchy": "Control Concurrent Privileged",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.Privileged",
           "name": "Privileged",
           "package": "privileged-concurrency",
@@ -593,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.ReadOnly",
           "name": "ReadOnly",
           "package": "privileged-concurrency",
@@ -601,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TChan.ReadOnly",
           "name": "ReadOnly",
           "package": "privileged-concurrency",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.ReadOnly",
           "name": "ReadOnlyTChan",
           "package": "privileged-concurrency",
@@ -622,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TChan.ReadOnly",
           "name": "ReadOnlyTChan",
           "package": "privileged-concurrency",
@@ -635,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.ReadOnly",
           "name": "dupReadOnlyTChan",
           "package": "privileged-concurrency",
@@ -644,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TChan.ReadOnly",
           "name": "dupReadOnlyTChan",
           "normalized": "ReadOnlyTChan a-\u003eSTM(ReadOnlyTChan a)",
@@ -659,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.ReadOnly",
           "name": "readTChan",
           "package": "privileged-concurrency",
@@ -668,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TChan.ReadOnly",
           "name": "readTChan",
           "normalized": "ReadOnlyTChan a-\u003eSTM a",
@@ -683,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.ReadOnly",
           "name": "toReadOnlyTChan",
           "package": "privileged-concurrency",
@@ -692,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TChan.ReadOnly",
           "name": "toReadOnlyTChan",
           "normalized": "TChan a-\u003eReadOnlyTChan a",
@@ -707,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.WriteOnly",
           "name": "WriteOnly",
           "package": "privileged-concurrency",
@@ -715,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TChan.WriteOnly",
           "name": "WriteOnly",
           "package": "privileged-concurrency",
@@ -728,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.WriteOnly",
           "name": "WriteOnlyTChan",
           "package": "privileged-concurrency",
@@ -736,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TChan.WriteOnly",
           "name": "WriteOnlyTChan",
           "package": "privileged-concurrency",
@@ -749,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.WriteOnly",
           "name": "dupWriteOnlyTChan",
           "package": "privileged-concurrency",
@@ -758,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TChan.WriteOnly",
           "name": "dupWriteOnlyTChan",
           "normalized": "WriteOnlyTChan a-\u003eSTM(WriteOnlyTChan a)",
@@ -773,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.WriteOnly",
           "name": "isEmptyTChan",
           "package": "privileged-concurrency",
@@ -782,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TChan.WriteOnly",
           "name": "isEmptyTChan",
           "normalized": "WriteOnlyTChan a-\u003eSTM Bool",
@@ -797,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.WriteOnly",
           "name": "toWriteOnlyTChan",
           "package": "privileged-concurrency",
@@ -806,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TChan.WriteOnly",
           "name": "toWriteOnlyTChan",
           "normalized": "TChan a-\u003eWriteOnlyTChan a",
@@ -821,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.WriteOnly",
           "name": "unGetTChan",
           "package": "privileged-concurrency",
@@ -830,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TChan.WriteOnly",
           "name": "unGetTChan",
           "normalized": "WriteOnlyTChan a-\u003ea-\u003eSTM()",
@@ -845,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TChan.WriteOnly",
           "name": "writeTChan",
           "package": "privileged-concurrency",
@@ -854,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TChan WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TChan.WriteOnly",
           "name": "writeTChan",
           "normalized": "WriteOnlyTChan a-\u003ea-\u003eSTM()",
@@ -869,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.ReadOnly",
           "name": "ReadOnly",
           "package": "privileged-concurrency",
@@ -877,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TMVar.ReadOnly",
           "name": "ReadOnly",
           "package": "privileged-concurrency",
@@ -890,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.ReadOnly",
           "name": "ReadOnlyTMVar",
           "package": "privileged-concurrency",
@@ -898,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TMVar.ReadOnly",
           "name": "ReadOnlyTMVar",
           "package": "privileged-concurrency",
@@ -911,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.ReadOnly",
           "name": "isEmptyTMVar",
           "package": "privileged-concurrency",
@@ -920,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TMVar.ReadOnly",
           "name": "isEmptyTMVar",
           "normalized": "ReadOnlyTMVar a-\u003eSTM Bool",
@@ -935,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.ReadOnly",
           "name": "readTMVar",
           "package": "privileged-concurrency",
@@ -944,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TMVar.ReadOnly",
           "name": "readTMVar",
           "normalized": "ReadOnlyTMVar a-\u003eSTM a",
@@ -959,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.ReadOnly",
           "name": "takeTMVar",
           "package": "privileged-concurrency",
@@ -968,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TMVar.ReadOnly",
           "name": "takeTMVar",
           "normalized": "ReadOnlyTMVar a-\u003eSTM a",
@@ -983,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.ReadOnly",
           "name": "toReadOnlyTMVar",
           "package": "privileged-concurrency",
@@ -992,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TMVar.ReadOnly",
           "name": "toReadOnlyTMVar",
           "normalized": "TMVar a-\u003eReadOnlyTMVar a",
@@ -1007,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.ReadOnly",
           "name": "tryTakeTMVar",
           "package": "privileged-concurrency",
@@ -1016,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TMVar.ReadOnly",
           "name": "tryTakeTMVar",
           "normalized": "ReadOnlyTMVar a-\u003eSTM(Maybe a)",
@@ -1031,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.WriteOnly",
           "name": "WriteOnly",
           "package": "privileged-concurrency",
@@ -1039,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TMVar.WriteOnly",
           "name": "WriteOnly",
           "package": "privileged-concurrency",
@@ -1052,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.WriteOnly",
           "name": "WriteOnlyTMVar",
           "package": "privileged-concurrency",
@@ -1060,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TMVar.WriteOnly",
           "name": "WriteOnlyTMVar",
           "package": "privileged-concurrency",
@@ -1073,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.WriteOnly",
           "name": "isEmptyWriteOnlyTMVar",
           "package": "privileged-concurrency",
@@ -1082,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TMVar.WriteOnly",
           "name": "isEmptyWriteOnlyTMVar",
           "normalized": "WriteOnlyTMVar a-\u003eSTM Bool",
@@ -1097,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.WriteOnly",
           "name": "putTMVar",
           "package": "privileged-concurrency",
@@ -1106,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TMVar.WriteOnly",
           "name": "putTMVar",
           "normalized": "WriteOnlyTMVar a-\u003ea-\u003eSTM()",
@@ -1121,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.WriteOnly",
           "name": "toWriteOnlyTMVar",
           "package": "privileged-concurrency",
@@ -1130,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TMVar.WriteOnly",
           "name": "toWriteOnlyTMVar",
           "normalized": "TMVar a-\u003eWriteOnlyTMVar a",
@@ -1145,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TMVar.WriteOnly",
           "name": "tryPutTMVar",
           "package": "privileged-concurrency",
@@ -1154,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TMVar WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TMVar.WriteOnly",
           "name": "tryPutTMVar",
           "normalized": "WriteOnlyTMVar a-\u003ea-\u003eSTM Bool",
@@ -1169,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TVar.ReadOnly",
           "name": "ReadOnly",
           "package": "privileged-concurrency",
@@ -1177,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TVar ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TVar.ReadOnly",
           "name": "ReadOnly",
           "package": "privileged-concurrency",
@@ -1190,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TVar.ReadOnly",
           "name": "ReadOnlyTVar",
           "package": "privileged-concurrency",
@@ -1198,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TVar ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TVar.ReadOnly",
           "name": "ReadOnlyTVar",
           "package": "privileged-concurrency",
@@ -1211,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TVar.ReadOnly",
           "name": "readTVar",
           "package": "privileged-concurrency",
@@ -1220,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TVar ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TVar.ReadOnly",
           "name": "readTVar",
           "normalized": "ReadOnlyTVar a-\u003eSTM a",
@@ -1235,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TVar.ReadOnly",
           "name": "readTVarIO",
           "package": "privileged-concurrency",
@@ -1244,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TVar ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TVar.ReadOnly",
           "name": "readTVarIO",
           "normalized": "ReadOnlyTVar a-\u003eIO a",
@@ -1259,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TVar.ReadOnly",
           "name": "toReadOnlyTVar",
           "package": "privileged-concurrency",
@@ -1268,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TVar ReadOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TVar.ReadOnly",
           "name": "toReadOnlyTVar",
           "normalized": "TVar a-\u003eReadOnlyTVar a",
@@ -1283,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TVar.WriteOnly",
           "name": "WriteOnly",
           "package": "privileged-concurrency",
@@ -1291,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TVar WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TVar.WriteOnly",
           "name": "WriteOnly",
           "package": "privileged-concurrency",
@@ -1304,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TVar.WriteOnly",
           "name": "WriteOnlyTVar",
           "package": "privileged-concurrency",
@@ -1312,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TVar WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TVar.WriteOnly",
           "name": "WriteOnlyTVar",
           "package": "privileged-concurrency",
@@ -1325,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TVar.WriteOnly",
           "name": "toWriteOnlyTVar",
           "package": "privileged-concurrency",
@@ -1334,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TVar WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TVar.WriteOnly",
           "name": "toWriteOnlyTVar",
           "normalized": "TVar a-\u003eWriteOnlyTVar a",
@@ -1349,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:06 UTC 2014",
           "module": "Control.Concurrent.STM.TVar.WriteOnly",
           "name": "writeTVar",
           "package": "privileged-concurrency",
@@ -1358,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent STM TVar WriteOnly",
+          "indexed": "2014-03-11T19:44:06",
           "module": "Control.Concurrent.STM.TVar.WriteOnly",
           "name": "writeTVar",
           "normalized": "WriteOnlyTVar a-\u003ea-\u003eSTM()",

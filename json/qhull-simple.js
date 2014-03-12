@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "qhull-simple"
+        "phrase": "qhull-simple",
+        "type": "phrase"
       },
       "type": "context"
     }

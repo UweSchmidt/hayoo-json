@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-puppet"
+        "phrase": "language-puppet",
+        "type": "phrase"
       },
       "type": "context"
     }

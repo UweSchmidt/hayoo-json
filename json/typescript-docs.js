@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "typescript-docs"
+        "phrase": "typescript-docs",
+        "type": "phrase"
       },
       "type": "context"
     }

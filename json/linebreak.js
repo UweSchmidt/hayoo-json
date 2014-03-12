@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "linebreak"
+        "phrase": "linebreak",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple functions to break a String to fit a maximum text width, using\n Knuth-Liang hyphenation algorithm.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e import Text.Hyphenation\n import Text.LineBreak\n\n hyp = Just english_US\n bf = BreakFormat 25 '-' hyp\n cs = \"Using hyphenation with gruesomely non parsimonious wording.\"\n\n main = putStr $ breakString bf cs\n\u003c/pre\u003e\u003cp\u003ewill output:\n\u003c/p\u003e\u003cpre\u003e Using hyphenation with\n gruesomely non parsimo-\n nious wording.\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:01 UTC 2014",
           "module": "Text.LineBreak",
           "name": "LineBreak",
           "package": "linebreak",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Simple functions to break String to fit maximum text width using Knuth-Liang hyphenation algorithm Example import Text.Hyphenation import Text.LineBreak hyp Just english US bf BreakFormat hyp cs Using hyphenation with gruesomely non parsimonious wording main putStr breakString bf cs will output Using hyphenation with gruesomely non parsimo nious wording",
           "hierarchy": "Text LineBreak",
+          "indexed": "2014-03-11T19:10:01",
           "module": "Text.LineBreak",
           "name": "LineBreak",
           "package": "linebreak",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to break the Strings: maximum width of the lines, symbol to use\n to hyphenate a word, Hypenator to use (language, exceptions, etc. Refer to\n \u003ca\u003eText.Hyphenation\u003c/a\u003e for more info). To break lines without hyphenating, put\n \u003ccode\u003eNothing\u003c/code\u003e in \u003ccode\u003ebfHyphenator\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:01 UTC 2014",
           "module": "Text.LineBreak",
           "name": "BreakFormat",
           "package": "linebreak",
@@ -51,6 +54,7 @@
         "index": {
           "description": "How to break the Strings maximum width of the lines symbol to use to hyphenate word Hypenator to use language exceptions etc Refer to Text.Hyphenation for more info To break lines without hyphenating put Nothing in bfHyphenator",
           "hierarchy": "Text LineBreak",
+          "indexed": "2014-03-11T19:10:01",
           "module": "Text.LineBreak",
           "name": "BreakFormat",
           "package": "linebreak",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:01 UTC 2014",
           "module": "Text.LineBreak",
           "name": "BreakFormat",
           "package": "linebreak",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Text LineBreak",
+          "indexed": "2014-03-11T19:10:01",
           "module": "Text.LineBreak",
           "name": "BreakFormat",
           "package": "linebreak",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:01 UTC 2014",
           "module": "Text.LineBreak",
           "name": "bfHyphenSymbol",
           "package": "linebreak",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Text LineBreak",
+          "indexed": "2014-03-11T19:10:01",
           "module": "Text.LineBreak",
           "name": "bfHyphenSymbol",
           "package": "linebreak",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:01 UTC 2014",
           "module": "Text.LineBreak",
           "name": "bfHyphenator",
           "package": "linebreak",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Text LineBreak",
+          "indexed": "2014-03-11T19:10:01",
           "module": "Text.LineBreak",
           "name": "bfHyphenator",
           "package": "linebreak",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:01 UTC 2014",
           "module": "Text.LineBreak",
           "name": "bfMaxCol",
           "package": "linebreak",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Text LineBreak",
+          "indexed": "2014-03-11T19:10:01",
           "module": "Text.LineBreak",
           "name": "bfMaxCol",
           "package": "linebreak",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreaks a String to make it fit in a certain width. The output is a String,\n suitable for writing to screen or file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:01 UTC 2014",
           "module": "Text.LineBreak",
           "name": "breakString",
           "package": "linebreak",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Breaks String to make it fit in certain width The output is String suitable for writing to screen or file",
           "hierarchy": "Text LineBreak",
+          "indexed": "2014-03-11T19:10:01",
           "module": "Text.LineBreak",
           "name": "breakString",
           "normalized": "BreakFormat-\u003eString-\u003eString",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience for \u003ccode\u003elines $ breakString bf cs\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:01 UTC 2014",
           "module": "Text.LineBreak",
           "name": "breakStringLn",
           "package": "linebreak",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Convenience for lines breakString bf cs",
           "hierarchy": "Text LineBreak",
+          "indexed": "2014-03-11T19:10:01",
           "module": "Text.LineBreak",
           "name": "breakStringLn",
           "normalized": "BreakFormat-\u003eString-\u003e[String]",

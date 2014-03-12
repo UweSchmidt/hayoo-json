@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "esotericbot"
+        "phrase": "esotericbot",
+        "type": "phrase"
       },
       "type": "context"
     }

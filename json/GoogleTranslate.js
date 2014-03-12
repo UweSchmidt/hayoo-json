@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GoogleTranslate"
+        "phrase": "GoogleTranslate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Google",
           "package": "GoogleTranslate",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Google",
           "package": "GoogleTranslate",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Language",
           "package": "GoogleTranslate",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Language",
           "package": "GoogleTranslate",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Afrikaans",
           "package": "GoogleTranslate",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Afrikaans",
           "package": "GoogleTranslate",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Albanian",
           "package": "GoogleTranslate",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Albanian",
           "package": "GoogleTranslate",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Amharic",
           "package": "GoogleTranslate",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Amharic",
           "package": "GoogleTranslate",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Arabic",
           "package": "GoogleTranslate",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Arabic",
           "package": "GoogleTranslate",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Armenian",
           "package": "GoogleTranslate",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Armenian",
           "package": "GoogleTranslate",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Azerbaijani",
           "package": "GoogleTranslate",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Azerbaijani",
           "package": "GoogleTranslate",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Basque",
           "package": "GoogleTranslate",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Basque",
           "package": "GoogleTranslate",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Belarusian",
           "package": "GoogleTranslate",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Belarusian",
           "package": "GoogleTranslate",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Bengali",
           "package": "GoogleTranslate",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Bengali",
           "package": "GoogleTranslate",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Bihari",
           "package": "GoogleTranslate",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Bihari",
           "package": "GoogleTranslate",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Bulgarian",
           "package": "GoogleTranslate",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Bulgarian",
           "package": "GoogleTranslate",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Burmese",
           "package": "GoogleTranslate",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Burmese",
           "package": "GoogleTranslate",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Catalan",
           "package": "GoogleTranslate",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Catalan",
           "package": "GoogleTranslate",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Cherokee",
           "package": "GoogleTranslate",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Cherokee",
           "package": "GoogleTranslate",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Chinese",
           "package": "GoogleTranslate",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Chinese",
           "package": "GoogleTranslate",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "ChineseSimplified",
           "package": "GoogleTranslate",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "ChineseSimplified",
           "package": "GoogleTranslate",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "ChineseTraditional",
           "package": "GoogleTranslate",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "ChineseTraditional",
           "package": "GoogleTranslate",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Croatian",
           "package": "GoogleTranslate",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Croatian",
           "package": "GoogleTranslate",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Czech",
           "package": "GoogleTranslate",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Czech",
           "package": "GoogleTranslate",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Danish",
           "package": "GoogleTranslate",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Danish",
           "package": "GoogleTranslate",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Dhivehi",
           "package": "GoogleTranslate",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Dhivehi",
           "package": "GoogleTranslate",
@@ -522,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Dutch",
           "package": "GoogleTranslate",
@@ -531,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Dutch",
           "package": "GoogleTranslate",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "English",
           "package": "GoogleTranslate",
@@ -553,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "English",
           "package": "GoogleTranslate",
@@ -566,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Esperanto",
           "package": "GoogleTranslate",
@@ -575,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Esperanto",
           "package": "GoogleTranslate",
@@ -588,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Estonian",
           "package": "GoogleTranslate",
@@ -597,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Estonian",
           "package": "GoogleTranslate",
@@ -610,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Filipino",
           "package": "GoogleTranslate",
@@ -619,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Filipino",
           "package": "GoogleTranslate",
@@ -632,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Finnish",
           "package": "GoogleTranslate",
@@ -641,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Finnish",
           "package": "GoogleTranslate",
@@ -654,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "French",
           "package": "GoogleTranslate",
@@ -663,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "French",
           "package": "GoogleTranslate",
@@ -676,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Galician",
           "package": "GoogleTranslate",
@@ -685,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Galician",
           "package": "GoogleTranslate",
@@ -698,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Georgian",
           "package": "GoogleTranslate",
@@ -707,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Georgian",
           "package": "GoogleTranslate",
@@ -720,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "German",
           "package": "GoogleTranslate",
@@ -729,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "German",
           "package": "GoogleTranslate",
@@ -742,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Greek",
           "package": "GoogleTranslate",
@@ -751,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Greek",
           "package": "GoogleTranslate",
@@ -764,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Guarani",
           "package": "GoogleTranslate",
@@ -773,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Guarani",
           "package": "GoogleTranslate",
@@ -786,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Gujarati",
           "package": "GoogleTranslate",
@@ -795,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Gujarati",
           "package": "GoogleTranslate",
@@ -808,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Hebrew",
           "package": "GoogleTranslate",
@@ -817,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Hebrew",
           "package": "GoogleTranslate",
@@ -830,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Hindi",
           "package": "GoogleTranslate",
@@ -839,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Hindi",
           "package": "GoogleTranslate",
@@ -852,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Hungarian",
           "package": "GoogleTranslate",
@@ -861,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Hungarian",
           "package": "GoogleTranslate",
@@ -874,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Icelandic",
           "package": "GoogleTranslate",
@@ -883,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Icelandic",
           "package": "GoogleTranslate",
@@ -896,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Indonesian",
           "package": "GoogleTranslate",
@@ -905,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Indonesian",
           "package": "GoogleTranslate",
@@ -918,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Inuktitut",
           "package": "GoogleTranslate",
@@ -927,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Inuktitut",
           "package": "GoogleTranslate",
@@ -940,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Italian",
           "package": "GoogleTranslate",
@@ -949,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Italian",
           "package": "GoogleTranslate",
@@ -962,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Japanese",
           "package": "GoogleTranslate",
@@ -971,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Japanese",
           "package": "GoogleTranslate",
@@ -984,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Kannada",
           "package": "GoogleTranslate",
@@ -993,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Kannada",
           "package": "GoogleTranslate",
@@ -1006,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Kazakh",
           "package": "GoogleTranslate",
@@ -1015,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Kazakh",
           "package": "GoogleTranslate",
@@ -1028,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Khmer",
           "package": "GoogleTranslate",
@@ -1037,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Khmer",
           "package": "GoogleTranslate",
@@ -1050,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Korean",
           "package": "GoogleTranslate",
@@ -1059,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Korean",
           "package": "GoogleTranslate",
@@ -1072,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Kurdish",
           "package": "GoogleTranslate",
@@ -1081,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Kurdish",
           "package": "GoogleTranslate",
@@ -1094,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Kyrgyz",
           "package": "GoogleTranslate",
@@ -1103,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Kyrgyz",
           "package": "GoogleTranslate",
@@ -1116,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Laothian",
           "package": "GoogleTranslate",
@@ -1125,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Laothian",
           "package": "GoogleTranslate",
@@ -1138,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Latvian",
           "package": "GoogleTranslate",
@@ -1147,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Latvian",
           "package": "GoogleTranslate",
@@ -1160,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Lithuanian",
           "package": "GoogleTranslate",
@@ -1169,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Lithuanian",
           "package": "GoogleTranslate",
@@ -1182,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Macedonian",
           "package": "GoogleTranslate",
@@ -1191,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Macedonian",
           "package": "GoogleTranslate",
@@ -1204,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Malay",
           "package": "GoogleTranslate",
@@ -1213,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Malay",
           "package": "GoogleTranslate",
@@ -1226,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Malayalam",
           "package": "GoogleTranslate",
@@ -1235,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Malayalam",
           "package": "GoogleTranslate",
@@ -1248,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Maltese",
           "package": "GoogleTranslate",
@@ -1257,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Maltese",
           "package": "GoogleTranslate",
@@ -1270,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Marathi",
           "package": "GoogleTranslate",
@@ -1279,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Marathi",
           "package": "GoogleTranslate",
@@ -1292,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Mongolian",
           "package": "GoogleTranslate",
@@ -1301,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Mongolian",
           "package": "GoogleTranslate",
@@ -1314,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Nepali",
           "package": "GoogleTranslate",
@@ -1323,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Nepali",
           "package": "GoogleTranslate",
@@ -1336,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Norwegian",
           "package": "GoogleTranslate",
@@ -1345,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Norwegian",
           "package": "GoogleTranslate",
@@ -1358,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Oriya",
           "package": "GoogleTranslate",
@@ -1367,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Oriya",
           "package": "GoogleTranslate",
@@ -1380,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Pashto",
           "package": "GoogleTranslate",
@@ -1389,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Pashto",
           "package": "GoogleTranslate",
@@ -1402,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Persian",
           "package": "GoogleTranslate",
@@ -1411,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Persian",
           "package": "GoogleTranslate",
@@ -1424,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Polish",
           "package": "GoogleTranslate",
@@ -1433,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Polish",
           "package": "GoogleTranslate",
@@ -1446,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Portuguese",
           "package": "GoogleTranslate",
@@ -1455,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Portuguese",
           "package": "GoogleTranslate",
@@ -1468,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Punjabi",
           "package": "GoogleTranslate",
@@ -1477,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Punjabi",
           "package": "GoogleTranslate",
@@ -1490,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Romanian",
           "package": "GoogleTranslate",
@@ -1499,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Romanian",
           "package": "GoogleTranslate",
@@ -1512,6 +1648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Russian",
           "package": "GoogleTranslate",
@@ -1521,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Russian",
           "package": "GoogleTranslate",
@@ -1534,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Sanskrit",
           "package": "GoogleTranslate",
@@ -1543,6 +1682,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Sanskrit",
           "package": "GoogleTranslate",
@@ -1556,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Serbian",
           "package": "GoogleTranslate",
@@ -1565,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Serbian",
           "package": "GoogleTranslate",
@@ -1578,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Sindhi",
           "package": "GoogleTranslate",
@@ -1587,6 +1730,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Sindhi",
           "package": "GoogleTranslate",
@@ -1600,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Sinhalese",
           "package": "GoogleTranslate",
@@ -1609,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Sinhalese",
           "package": "GoogleTranslate",
@@ -1622,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Slovak",
           "package": "GoogleTranslate",
@@ -1631,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Slovak",
           "package": "GoogleTranslate",
@@ -1644,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Slovenian",
           "package": "GoogleTranslate",
@@ -1653,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Slovenian",
           "package": "GoogleTranslate",
@@ -1666,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Spanish",
           "package": "GoogleTranslate",
@@ -1675,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Spanish",
           "package": "GoogleTranslate",
@@ -1688,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Swahili",
           "package": "GoogleTranslate",
@@ -1697,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Swahili",
           "package": "GoogleTranslate",
@@ -1710,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Swedish",
           "package": "GoogleTranslate",
@@ -1719,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Swedish",
           "package": "GoogleTranslate",
@@ -1732,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Tagalog",
           "package": "GoogleTranslate",
@@ -1741,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Tagalog",
           "package": "GoogleTranslate",
@@ -1754,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Tajik",
           "package": "GoogleTranslate",
@@ -1763,6 +1922,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Tajik",
           "package": "GoogleTranslate",
@@ -1776,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Tamil",
           "package": "GoogleTranslate",
@@ -1785,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Tamil",
           "package": "GoogleTranslate",
@@ -1798,6 +1960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Telugu",
           "package": "GoogleTranslate",
@@ -1807,6 +1970,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Telugu",
           "package": "GoogleTranslate",
@@ -1820,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Thai",
           "package": "GoogleTranslate",
@@ -1829,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Thai",
           "package": "GoogleTranslate",
@@ -1842,6 +2008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Tibetan",
           "package": "GoogleTranslate",
@@ -1851,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Tibetan",
           "package": "GoogleTranslate",
@@ -1864,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Turkish",
           "package": "GoogleTranslate",
@@ -1873,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Turkish",
           "package": "GoogleTranslate",
@@ -1886,6 +2056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Uighur",
           "package": "GoogleTranslate",
@@ -1895,6 +2066,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Uighur",
           "package": "GoogleTranslate",
@@ -1908,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Ukrainian",
           "package": "GoogleTranslate",
@@ -1917,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Ukrainian",
           "package": "GoogleTranslate",
@@ -1930,6 +2104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Unknown",
           "package": "GoogleTranslate",
@@ -1939,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Unknown",
           "package": "GoogleTranslate",
@@ -1952,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Urdu",
           "package": "GoogleTranslate",
@@ -1961,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Urdu",
           "package": "GoogleTranslate",
@@ -1974,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Uzbek",
           "package": "GoogleTranslate",
@@ -1983,6 +2162,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Uzbek",
           "package": "GoogleTranslate",
@@ -1996,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "Vietnamese",
           "package": "GoogleTranslate",
@@ -2005,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "Vietnamese",
           "package": "GoogleTranslate",
@@ -2019,6 +2201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet translation from Google Translate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:33 UTC 2014",
           "module": "Language.Translate.Google",
           "name": "translate",
           "package": "GoogleTranslate",
@@ -2028,6 +2211,7 @@
         "index": {
           "description": "Get translation from Google Translate",
           "hierarchy": "Language Translate Google",
+          "indexed": "2014-03-11T16:43:33",
           "module": "Language.Translate.Google",
           "name": "translate",
           "normalized": "ByteString-\u003eMaybe Language-\u003eLanguage-\u003eIO(Either String ByteString)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "embeddock-example"
+        "phrase": "embeddock-example",
+        "type": "phrase"
       },
       "type": "context"
     }

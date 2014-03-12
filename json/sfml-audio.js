@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sfml-audio"
+        "phrase": "sfml-audio",
+        "type": "phrase"
       },
       "type": "context"
     }

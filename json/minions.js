@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "minions"
+        "phrase": "minions",
+        "type": "phrase"
       },
       "type": "context"
     }

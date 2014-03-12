@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ioctl"
+        "phrase": "ioctl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module wrapps the ioctl system call for sockets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:59:14 UTC 2014",
           "module": "Network.Socket.IOCtl",
           "name": "IOCtl",
           "package": "ioctl",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The module wrapps the ioctl system call for sockets",
           "hierarchy": "Network Socket IOCtl",
+          "indexed": "2014-03-11T18:59:14",
           "module": "Network.Socket.IOCtl",
           "name": "IOCtl",
           "package": "ioctl",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines the request with data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:14 UTC 2014",
           "module": "Network.Socket.IOCtl",
           "name": "IOControl",
           "package": "ioctl",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Combines the request with data",
           "hierarchy": "Network Socket IOCtl",
+          "indexed": "2014-03-11T18:59:14",
           "module": "Network.Socket.IOCtl",
           "name": "IOControl",
           "package": "ioctl",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts request to integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:14 UTC 2014",
           "module": "Network.Socket.IOCtl",
           "name": "ioctlReq",
           "package": "ioctl",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Converts request to integer",
           "hierarchy": "Network Socket IOCtl",
+          "indexed": "2014-03-11T18:59:14",
           "module": "Network.Socket.IOCtl",
           "name": "ioctlReq",
           "package": "ioctl",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalls a ioctl reading the structure after the call\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:14 UTC 2014",
           "module": "Network.Socket.IOCtl",
           "name": "ioctlsocket",
           "package": "ioctl",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Calls ioctl reading the structure after the call",
           "hierarchy": "Network Socket IOCtl",
+          "indexed": "2014-03-11T18:59:14",
           "module": "Network.Socket.IOCtl",
           "name": "ioctlsocket",
           "normalized": "Socket-\u003ea-\u003eb-\u003eIO b",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a ioctl with uninitialized data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:14 UTC 2014",
           "module": "Network.Socket.IOCtl",
           "name": "ioctlsocket'",
           "package": "ioctl",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Call ioctl with uninitialized data",
           "hierarchy": "Network Socket IOCtl",
+          "indexed": "2014-03-11T18:59:14",
           "module": "Network.Socket.IOCtl",
           "name": "ioctlsocket'",
           "normalized": "Socket-\u003ea-\u003eIO b",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a ioctl ignoring the result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:14 UTC 2014",
           "module": "Network.Socket.IOCtl",
           "name": "ioctlsocket_",
           "package": "ioctl",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Call ioctl ignoring the result",
           "hierarchy": "Network Socket IOCtl",
+          "indexed": "2014-03-11T18:59:14",
           "module": "Network.Socket.IOCtl",
           "name": "ioctlsocket_",
           "normalized": "Socket-\u003ea-\u003eb-\u003eIO()",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module wrapps the ioctl system call.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:59:14 UTC 2014",
           "module": "System.Posix.IOCtl",
           "name": "IOCtl",
           "package": "ioctl",
@@ -170,6 +183,7 @@
         "index": {
           "description": "The module wrapps the ioctl system call",
           "hierarchy": "System Posix IOCtl",
+          "indexed": "2014-03-11T18:59:14",
           "module": "System.Posix.IOCtl",
           "name": "IOCtl",
           "package": "ioctl",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines the request with data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:14 UTC 2014",
           "module": "System.Posix.IOCtl",
           "name": "IOControl",
           "package": "ioctl",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Combines the request with data",
           "hierarchy": "System Posix IOCtl",
+          "indexed": "2014-03-11T18:59:14",
           "module": "System.Posix.IOCtl",
           "name": "IOControl",
           "package": "ioctl",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalls a ioctl reading the structure after the call\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:14 UTC 2014",
           "module": "System.Posix.IOCtl",
           "name": "ioctl",
           "package": "ioctl",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Calls ioctl reading the structure after the call",
           "hierarchy": "System Posix IOCtl",
+          "indexed": "2014-03-11T18:59:14",
           "module": "System.Posix.IOCtl",
           "name": "ioctl",
           "normalized": "Fd-\u003ea-\u003eb-\u003eIO b",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a ioctl with uninitialized data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:14 UTC 2014",
           "module": "System.Posix.IOCtl",
           "name": "ioctl'",
           "package": "ioctl",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Call ioctl with uninitialized data",
           "hierarchy": "System Posix IOCtl",
+          "indexed": "2014-03-11T18:59:14",
           "module": "System.Posix.IOCtl",
           "name": "ioctl'",
           "normalized": "Fd-\u003ea-\u003eIO b",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts request to integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:14 UTC 2014",
           "module": "System.Posix.IOCtl",
           "name": "ioctlReq",
           "package": "ioctl",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Converts request to integer",
           "hierarchy": "System Posix IOCtl",
+          "indexed": "2014-03-11T18:59:14",
           "module": "System.Posix.IOCtl",
           "name": "ioctlReq",
           "package": "ioctl",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a ioctl ignoring the result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:14 UTC 2014",
           "module": "System.Posix.IOCtl",
           "name": "ioctl_",
           "package": "ioctl",
@@ -288,6 +311,7 @@
         "index": {
           "description": "Call ioctl ignoring the result",
           "hierarchy": "System Posix IOCtl",
+          "indexed": "2014-03-11T18:59:14",
           "module": "System.Posix.IOCtl",
           "name": "ioctl_",
           "normalized": "Fd-\u003ea-\u003eb-\u003eIO()",

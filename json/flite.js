@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "flite"
+        "phrase": "flite",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.CallGraph",
           "name": "CallGraph",
           "package": "flite",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Flite CallGraph",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.CallGraph",
           "name": "CallGraph",
           "package": "flite",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.CallGraph",
           "name": "CallGraph",
           "package": "flite",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Flite CallGraph",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.CallGraph",
           "name": "CallGraph",
           "package": "flite",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.CallGraph",
           "name": "callReachableGraph",
           "package": "flite",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Flite CallGraph",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.CallGraph",
           "name": "callReachableGraph",
           "normalized": "Prog-\u003eCallGraph",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.CallGraph",
           "name": "reachable",
           "package": "flite",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Flite CallGraph",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.CallGraph",
           "name": "reachable",
           "normalized": "CallGraph-\u003eId-\u003e[Id]",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Case",
           "name": "Case",
           "package": "flite",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Flite Case",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Case",
           "name": "Case",
           "package": "flite",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Case",
           "name": "caseElim",
           "package": "flite",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Flite Case",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Case",
           "name": "caseElim",
           "normalized": "Prog-\u003eProg",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Case",
           "name": "caseElimWithCaseStack",
           "package": "flite",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Flite Case",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Case",
           "name": "caseElimWithCaseStack",
           "normalized": "Prog-\u003eProg",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.ConcatApp",
           "name": "ConcatApp",
           "package": "flite",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Flite ConcatApp",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.ConcatApp",
           "name": "ConcatApp",
           "package": "flite",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.ConcatApp",
           "name": "concatApps",
           "package": "flite",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Flite ConcatApp",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.ConcatApp",
           "name": "concatApps",
           "normalized": "Prog-\u003eProg",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.ConcatApp",
           "name": "concatNonPrims",
           "package": "flite",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Flite ConcatApp",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.ConcatApp",
           "name": "concatNonPrims",
           "normalized": "Prog-\u003eProg",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Descend",
           "name": "Descend",
           "package": "flite",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Flite Descend",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Descend",
           "name": "Descend",
           "package": "flite",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Descend",
           "name": "Descend",
           "package": "flite",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Flite Descend",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Descend",
           "name": "Descend",
           "package": "flite",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Descend",
           "name": "descend",
           "package": "flite",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Flite Descend",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Descend",
           "name": "descend",
           "normalized": "(a-\u003ea)-\u003ea-\u003ea",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Descend",
           "name": "descendM",
           "package": "flite",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Flite Descend",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Descend",
           "name": "descendM",
           "normalized": "(a-\u003eb a)-\u003ea-\u003eb a",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Descend",
           "name": "extract",
           "package": "flite",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Flite Descend",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Descend",
           "name": "extract",
           "normalized": "(a-\u003e[b])-\u003ea-\u003e[b]",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Descend",
           "name": "universe",
           "package": "flite",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Flite Descend",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Descend",
           "name": "universe",
           "normalized": "a-\u003e[a]",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Fresh",
           "name": "Fresh",
           "package": "flite",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Flite Fresh",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Fresh",
           "name": "Fresh",
           "package": "flite",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Fresh",
           "name": "Fresh",
           "package": "flite",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Flite Fresh",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Fresh",
           "name": "Fresh",
           "package": "flite",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Fresh",
           "name": "Fresh",
           "package": "flite",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Flite Fresh",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Fresh",
           "name": "Fresh",
           "package": "flite",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Fresh",
           "name": "fresh",
           "package": "flite",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Flite Fresh",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Fresh",
           "name": "fresh",
           "package": "flite",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Fresh",
           "name": "runFresh",
           "package": "flite",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Flite Fresh",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Fresh",
           "name": "runFresh",
           "normalized": "String-\u003eInt-\u003e(Int,a)",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Identify",
           "name": "Identify",
           "package": "flite",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Flite Identify",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Identify",
           "name": "Identify",
           "package": "flite",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Identify",
           "name": "identifyFuncs",
           "package": "flite",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Flite Identify",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Identify",
           "name": "identifyFuncs",
           "normalized": "Prog-\u003eProg",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Identity",
           "name": "Identity",
           "package": "flite",
@@ -541,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Flite Identity",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Identity",
           "name": "Identity",
           "package": "flite",
@@ -554,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Identity",
           "name": "Identity",
           "package": "flite",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Flite Identity",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Identity",
           "name": "Identity",
           "package": "flite",
@@ -575,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Identity",
           "name": "I",
           "package": "flite",
@@ -584,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Flite Identity",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Identity",
           "name": "I",
           "package": "flite",
@@ -596,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Identity",
           "name": "runIdentity",
           "package": "flite",
@@ -605,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Flite Identity",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Identity",
           "name": "runIdentity",
           "package": "flite",
@@ -618,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Inline",
           "name": "Inline",
           "package": "flite",
@@ -626,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Flite Inline",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Inline",
           "name": "Inline",
           "package": "flite",
@@ -639,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Inline",
           "name": "InlineFlag",
           "package": "flite",
@@ -647,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Flite Inline",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Inline",
           "name": "InlineFlag",
           "package": "flite",
@@ -660,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Inline",
           "name": "InlineAll",
           "package": "flite",
@@ -669,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Flite Inline",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Inline",
           "name": "InlineAll",
           "package": "flite",
@@ -682,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Inline",
           "name": "InlineSmall",
           "package": "flite",
@@ -691,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Flite Inline",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Inline",
           "name": "InlineSmall",
           "package": "flite",
@@ -704,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Inline",
           "name": "NoInline",
           "package": "flite",
@@ -713,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Flite Inline",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Inline",
           "name": "NoInline",
           "package": "flite",
@@ -726,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Inline",
           "name": "inline",
           "package": "flite",
@@ -735,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Flite Inline",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Inline",
           "name": "inline",
           "normalized": "InlineFlag-\u003eProg-\u003eFresh Prog",
@@ -749,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Inline",
           "name": "inlineTop",
           "package": "flite",
@@ -758,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Flite Inline",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Inline",
           "name": "inlineTop",
           "normalized": "InlineFlag-\u003eProg-\u003eFresh Prog",
@@ -773,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Let",
           "name": "Let",
           "package": "flite",
@@ -781,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Flite Let",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Let",
           "name": "Let",
           "package": "flite",
@@ -794,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Let",
           "name": "inlineLinearLet",
           "package": "flite",
@@ -803,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Flite Let",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Let",
           "name": "inlineLinearLet",
           "normalized": "Prog-\u003eFresh Prog",
@@ -818,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Let",
           "name": "inlineSimpleLet",
           "package": "flite",
@@ -827,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Flite Let",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Let",
           "name": "inlineSimpleLet",
           "normalized": "Prog-\u003eFresh Prog",
@@ -842,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Let",
           "name": "liftLet",
           "package": "flite",
@@ -851,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Flite Let",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Let",
           "name": "liftLet",
           "normalized": "Prog-\u003eFresh Prog",
@@ -866,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Matching",
           "name": "Matching",
           "package": "flite",
@@ -874,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Flite Matching",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Matching",
           "name": "Matching",
           "package": "flite",
@@ -887,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Matching",
           "name": "desugarCase",
           "package": "flite",
@@ -896,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Flite Matching",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Matching",
           "name": "desugarCase",
           "normalized": "Prog-\u003eFresh Prog",
@@ -911,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Matching",
           "name": "desugarEqn",
           "package": "flite",
@@ -920,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Flite Matching",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Matching",
           "name": "desugarEqn",
           "normalized": "Prog-\u003eFresh Prog",
@@ -935,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Parsec.Parse",
           "name": "Parse",
           "package": "flite",
@@ -943,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Flite Parsec Parse",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Parsec.Parse",
           "name": "Parse",
           "package": "flite",
@@ -956,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Parsec.Parse",
           "name": "alt",
           "package": "flite",
@@ -965,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Flite Parsec Parse",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Parsec.Parse",
           "name": "alt",
           "package": "flite",
@@ -977,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Parsec.Parse",
           "name": "bind",
           "package": "flite",
@@ -986,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Flite Parsec Parse",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Parsec.Parse",
           "name": "bind",
           "package": "flite",
@@ -998,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Parsec.Parse",
           "name": "block",
           "package": "flite",
@@ -1007,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Flite Parsec Parse",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Parsec.Parse",
           "name": "block",
           "normalized": "Parser a-\u003eParser[a]",
@@ -1021,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Parsec.Parse",
           "name": "con",
           "package": "flite",
@@ -1030,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Flite Parsec Parse",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Parsec.Parse",
           "name": "con",
           "package": "flite",
@@ -1042,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Parsec.Parse",
           "name": "defn",
           "package": "flite",
@@ -1051,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Flite Parsec Parse",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Parsec.Parse",
           "name": "defn",
           "package": "flite",
@@ -1063,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Parsec.Parse",
           "name": "expr",
           "package": "flite",
@@ -1072,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Flite Parsec Parse",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Parsec.Parse",
           "name": "expr",
           "package": "flite",
@@ -1084,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Parsec.Parse",
           "name": "expr'",
           "package": "flite",
@@ -1093,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Flite Parsec Parse",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Parsec.Parse",
           "name": "expr'",
           "package": "flite",
@@ -1105,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Parsec.Parse",
           "name": "ifthenelse",
           "package": "flite",
@@ -1114,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Flite Parsec Parse",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Parsec.Parse",
           "name": "ifthenelse",
           "normalized": "Exp-\u003eExp-\u003eExp-\u003eExp",
@@ -1128,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Parsec.Parse",
           "name": "parseProgFile",
           "package": "flite",
@@ -1137,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Flite Parsec Parse",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Parsec.Parse",
           "name": "parseProgFile",
           "normalized": "SourceName-\u003eIO Prog",
@@ -1152,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Parsec.Parse",
           "name": "pat",
           "package": "flite",
@@ -1161,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Flite Parsec Parse",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Parsec.Parse",
           "name": "pat",
           "package": "flite",
@@ -1173,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Parsec.Parse",
           "name": "pat'",
           "package": "flite",
@@ -1182,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Flite Parsec Parse",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Parsec.Parse",
           "name": "pat'",
           "package": "flite",
@@ -1194,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Parsec.Parse",
           "name": "prim",
           "package": "flite",
@@ -1203,6 +1310,7 @@
         },
         "index": {
           "hierarchy": "Flite Parsec Parse",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Parsec.Parse",
           "name": "prim",
           "package": "flite",
@@ -1215,6 +1323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Parsec.Parse",
           "name": "prog",
           "package": "flite",
@@ -1224,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "Flite Parsec Parse",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Parsec.Parse",
           "name": "prog",
           "package": "flite",
@@ -1236,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Parsec.Parse",
           "name": "stringExp",
           "package": "flite",
@@ -1245,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Flite Parsec Parse",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Parsec.Parse",
           "name": "stringExp",
           "normalized": "String-\u003eExp",
@@ -1260,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Parsec.Parse",
           "name": "var",
           "package": "flite",
@@ -1269,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "Flite Parsec Parse",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Parsec.Parse",
           "name": "var",
           "package": "flite",
@@ -1281,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Pretty",
           "name": "Pretty",
           "package": "flite",
@@ -1289,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Flite Pretty",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Pretty",
           "name": "Pretty",
           "package": "flite",
@@ -1302,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Pretty",
           "name": "consperse",
           "package": "flite",
@@ -1311,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Flite Pretty",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Pretty",
           "name": "consperse",
           "normalized": "[a]-\u003e[[a]]-\u003e[a]",
@@ -1325,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Pretty",
           "name": "pretty",
           "package": "flite",
@@ -1334,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Flite Pretty",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Pretty",
           "name": "pretty",
           "normalized": "Prog-\u003eString",
@@ -1348,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Pretty",
           "name": "showAlt",
           "package": "flite",
@@ -1357,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Flite Pretty",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Pretty",
           "name": "showAlt",
           "normalized": "Alt-\u003eString",
@@ -1372,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Pretty",
           "name": "showArg",
           "package": "flite",
@@ -1381,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Flite Pretty",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Pretty",
           "name": "showArg",
           "normalized": "Exp-\u003eString",
@@ -1396,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Pretty",
           "name": "showBind",
           "package": "flite",
@@ -1405,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "Flite Pretty",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Pretty",
           "name": "showBind",
           "normalized": "Binding-\u003eString",
@@ -1420,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Pretty",
           "name": "showBlock",
           "package": "flite",
@@ -1429,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Flite Pretty",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Pretty",
           "name": "showBlock",
           "normalized": "(a-\u003eString)-\u003e[a]-\u003eString",
@@ -1444,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Syntax",
           "package": "flite",
@@ -1452,6 +1581,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Syntax",
           "package": "flite",
@@ -1465,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Alt",
           "package": "flite",
@@ -1473,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Alt",
           "package": "flite",
@@ -1486,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "App",
           "package": "flite",
@@ -1494,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "App",
           "package": "flite",
@@ -1507,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Binding",
           "package": "flite",
@@ -1515,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Binding",
           "package": "flite",
@@ -1528,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Decl",
           "package": "flite",
@@ -1536,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Decl",
           "package": "flite",
@@ -1549,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Exp",
           "package": "flite",
@@ -1557,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Exp",
           "package": "flite",
@@ -1570,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Id",
           "package": "flite",
@@ -1578,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Id",
           "package": "flite",
@@ -1591,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Pat",
           "package": "flite",
@@ -1599,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Pat",
           "package": "flite",
@@ -1612,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Prog",
           "package": "flite",
@@ -1620,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Prog",
           "package": "flite",
@@ -1633,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Alts",
           "package": "flite",
@@ -1642,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Alts",
           "normalized": "Alts[Id]Int",
@@ -1657,6 +1805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "App",
           "package": "flite",
@@ -1666,6 +1815,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "App",
           "normalized": "App Exp[Exp]",
@@ -1681,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Bottom",
           "package": "flite",
@@ -1690,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Bottom",
           "package": "flite",
@@ -1703,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Case",
           "package": "flite",
@@ -1712,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Case",
           "normalized": "Case Exp[Alt]",
@@ -1727,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Con",
           "package": "flite",
@@ -1736,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Con",
           "package": "flite",
@@ -1749,6 +1905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Ctr",
           "package": "flite",
@@ -1758,6 +1915,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Ctr",
           "package": "flite",
@@ -1771,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Fun",
           "package": "flite",
@@ -1780,6 +1939,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Fun",
           "package": "flite",
@@ -1793,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Func",
           "package": "flite",
@@ -1802,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Func",
           "package": "flite",
@@ -1815,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Int",
           "package": "flite",
@@ -1824,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Int",
           "package": "flite",
@@ -1837,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Lam",
           "package": "flite",
@@ -1846,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Lam",
           "normalized": "Lam[Id]Exp",
@@ -1861,6 +2027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Let",
           "package": "flite",
@@ -1870,6 +2037,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Let",
           "normalized": "Let[Binding]Exp",
@@ -1885,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Prim",
           "package": "flite",
@@ -1894,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Prim",
           "package": "flite",
@@ -1907,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "PrimApp",
           "package": "flite",
@@ -1916,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "PrimApp",
           "normalized": "PrimApp Id[Exp]",
@@ -1931,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "Var",
           "package": "flite",
@@ -1940,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "Var",
           "package": "flite",
@@ -1953,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "funcArgs",
           "package": "flite",
@@ -1962,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "funcArgs",
           "normalized": "[Pat]",
@@ -1977,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "funcName",
           "package": "flite",
@@ -1986,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "funcName",
           "package": "flite",
@@ -1999,6 +2177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "funcRhs",
           "package": "flite",
@@ -2008,6 +2187,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "funcRhs",
           "package": "flite",
@@ -2021,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "isBinaryPrim",
           "package": "flite",
@@ -2030,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "isBinaryPrim",
           "normalized": "Id-\u003eBool",
@@ -2045,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "isPredexId",
           "package": "flite",
@@ -2054,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "isPredexId",
           "normalized": "Id-\u003eBool",
@@ -2069,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "isPrimId",
           "package": "flite",
@@ -2078,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "isPrimId",
           "normalized": "Id-\u003eBool",
@@ -2093,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Syntax",
           "name": "isUnaryPrim",
           "package": "flite",
@@ -2102,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Flite Syntax",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Syntax",
           "name": "isUnaryPrim",
           "normalized": "Id-\u003eBool",
@@ -2117,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Traversals",
           "name": "Traversals",
           "package": "flite",
@@ -2125,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Flite Traversals",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Traversals",
           "name": "Traversals",
           "package": "flite",
@@ -2138,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Traversals",
           "name": "calls",
           "package": "flite",
@@ -2147,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "Flite Traversals",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Traversals",
           "name": "calls",
           "normalized": "Exp-\u003e[Id]",
@@ -2161,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Traversals",
           "name": "caseAlts",
           "package": "flite",
@@ -2170,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "Flite Traversals",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Traversals",
           "name": "caseAlts",
           "normalized": "Exp-\u003e[[Alt]]",
@@ -2185,6 +2379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Traversals",
           "name": "freeVars",
           "package": "flite",
@@ -2194,6 +2389,7 @@
         },
         "index": {
           "hierarchy": "Flite Traversals",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Traversals",
           "name": "freeVars",
           "normalized": "Exp-\u003e[Id]",
@@ -2209,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Traversals",
           "name": "freeVarsExcept",
           "package": "flite",
@@ -2218,6 +2415,7 @@
         },
         "index": {
           "hierarchy": "Flite Traversals",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Traversals",
           "name": "freeVarsExcept",
           "normalized": "[Id]-\u003eExp-\u003e[Id]",
@@ -2233,6 +2431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Traversals",
           "name": "freeVarsExcept'",
           "package": "flite",
@@ -2242,6 +2441,7 @@
         },
         "index": {
           "hierarchy": "Flite Traversals",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Traversals",
           "name": "freeVarsExcept'",
           "normalized": "[Id]-\u003eExp-\u003e[Id]",
@@ -2257,6 +2457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Traversals",
           "name": "freshBody",
           "package": "flite",
@@ -2266,6 +2467,7 @@
         },
         "index": {
           "hierarchy": "Flite Traversals",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Traversals",
           "name": "freshBody",
           "normalized": "([Id],Exp)-\u003eFresh([Id],Exp)",
@@ -2281,6 +2483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Traversals",
           "name": "freshen",
           "package": "flite",
@@ -2290,6 +2493,7 @@
         },
         "index": {
           "hierarchy": "Flite Traversals",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Traversals",
           "name": "freshen",
           "normalized": "Exp-\u003eFresh Exp",
@@ -2304,6 +2508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Traversals",
           "name": "freshenAlt",
           "package": "flite",
@@ -2313,6 +2518,7 @@
         },
         "index": {
           "hierarchy": "Flite Traversals",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Traversals",
           "name": "freshenAlt",
           "normalized": "(Pat,Exp)-\u003eFresh(Pat,Exp)",
@@ -2328,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Traversals",
           "name": "freshenPat",
           "package": "flite",
@@ -2337,6 +2544,7 @@
         },
         "index": {
           "hierarchy": "Flite Traversals",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Traversals",
           "name": "freshenPat",
           "normalized": "Pat-\u003eFresh Pat",
@@ -2352,6 +2560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Traversals",
           "name": "fromExp",
           "package": "flite",
@@ -2361,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "Flite Traversals",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Traversals",
           "name": "fromExp",
           "normalized": "(Exp-\u003e[a])-\u003eProg-\u003e[a]",
@@ -2376,6 +2586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Traversals",
           "name": "funcs",
           "package": "flite",
@@ -2385,6 +2596,7 @@
         },
         "index": {
           "hierarchy": "Flite Traversals",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Traversals",
           "name": "funcs",
           "normalized": "Prog-\u003e[String]",
@@ -2399,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Traversals",
           "name": "lookupFuncs",
           "package": "flite",
@@ -2408,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "Flite Traversals",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Traversals",
           "name": "lookupFuncs",
           "normalized": "Id-\u003eProg-\u003e[Decl]",
@@ -2423,6 +2637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Traversals",
           "name": "onExp",
           "package": "flite",
@@ -2432,6 +2647,7 @@
         },
         "index": {
           "hierarchy": "Flite Traversals",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Traversals",
           "name": "onExp",
           "normalized": "(Exp-\u003eExp)-\u003eProg-\u003eProg",
@@ -2447,6 +2663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Traversals",
           "name": "onExpM",
           "package": "flite",
@@ -2456,6 +2673,7 @@
         },
         "index": {
           "hierarchy": "Flite Traversals",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Traversals",
           "name": "onExpM",
           "normalized": "(Exp-\u003ea Exp)-\u003eProg-\u003ea Prog",
@@ -2471,6 +2689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Traversals",
           "name": "patVars",
           "package": "flite",
@@ -2480,6 +2699,7 @@
         },
         "index": {
           "hierarchy": "Flite Traversals",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Traversals",
           "name": "patVars",
           "normalized": "Pat-\u003e[Id]",
@@ -2495,6 +2715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Traversals",
           "name": "subst",
           "package": "flite",
@@ -2504,6 +2725,7 @@
         },
         "index": {
           "hierarchy": "Flite Traversals",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Traversals",
           "name": "subst",
           "normalized": "Exp-\u003eId-\u003eExp-\u003eExp",
@@ -2518,6 +2740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Traversals",
           "name": "substMany",
           "package": "flite",
@@ -2527,6 +2750,7 @@
         },
         "index": {
           "hierarchy": "Flite Traversals",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Traversals",
           "name": "substMany",
           "normalized": "Exp-\u003e[(Exp,Id)]-\u003eExp",
@@ -2542,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Traversals",
           "name": "varRefs",
           "package": "flite",
@@ -2551,6 +2776,7 @@
         },
         "index": {
           "hierarchy": "Flite Traversals",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Traversals",
           "name": "varRefs",
           "normalized": "Id-\u003eExp-\u003eInt",
@@ -2566,6 +2792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Writer",
           "name": "Writer",
           "package": "flite",
@@ -2574,6 +2801,7 @@
         },
         "index": {
           "hierarchy": "Flite Writer",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Writer",
           "name": "Writer",
           "package": "flite",
@@ -2587,6 +2815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Writer",
           "name": "Writer",
           "package": "flite",
@@ -2595,6 +2824,7 @@
         },
         "index": {
           "hierarchy": "Flite Writer",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Writer",
           "name": "Writer",
           "package": "flite",
@@ -2608,6 +2838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Writer",
           "name": "W",
           "package": "flite",
@@ -2617,6 +2848,7 @@
         },
         "index": {
           "hierarchy": "Flite Writer",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Writer",
           "name": "W",
           "normalized": "W[a]b",
@@ -2631,6 +2863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Writer",
           "name": "runWriter",
           "package": "flite",
@@ -2640,6 +2873,7 @@
         },
         "index": {
           "hierarchy": "Flite Writer",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Writer",
           "name": "runWriter",
           "normalized": "Writer a b-\u003e([a],b)",
@@ -2655,6 +2889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Writer",
           "name": "write",
           "package": "flite",
@@ -2664,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "Flite Writer",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Writer",
           "name": "write",
           "normalized": "a-\u003eWriter a()",
@@ -2678,6 +2914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:35 UTC 2014",
           "module": "Flite.Writer",
           "name": "writeMany",
           "package": "flite",
@@ -2687,6 +2924,7 @@
         },
         "index": {
           "hierarchy": "Flite Writer",
+          "indexed": "2014-03-11T18:10:35",
           "module": "Flite.Writer",
           "name": "writeMany",
           "normalized": "[a]-\u003eWriter a()",

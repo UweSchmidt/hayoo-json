@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "complex-generic"
+        "phrase": "complex-generic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClasses for complex number operations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "Class",
           "package": "complex-generic",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Classes for complex number operations",
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "Class",
           "package": "complex-generic",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolar form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "ComplexPolar",
           "package": "complex-generic",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Polar form",
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "ComplexPolar",
           "package": "complex-generic",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRectangular form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "ComplexRect",
           "package": "complex-generic",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Rectangular form",
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "ComplexRect",
           "package": "complex-generic",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplex-real multiplication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "(*.)",
           "package": "complex-generic",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Complex-real multiplication",
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "(*.) *.",
           "normalized": "a-\u003eb-\u003ea",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplex-real division.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "(/.)",
           "package": "complex-generic",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Complex-real division",
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "(/.) /.",
           "normalized": "a-\u003eb-\u003ea",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReal-complex multiplication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "(.*)",
           "package": "complex-generic",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Real-complex multiplication",
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "(.*) .*",
           "normalized": "a-\u003eb-\u003eb",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA synonym for \u003ccode\u003e\u003ca\u003emkRect\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "(.+)",
           "package": "complex-generic",
@@ -173,6 +186,7 @@
         "index": {
           "description": "synonym for mkRect",
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "(.+) .+",
           "normalized": "a-\u003ea-\u003eb",
@@ -187,6 +201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "cis",
           "package": "complex-generic",
@@ -196,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "cis",
           "normalized": "a-\u003eb",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConjugation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "conjugate",
           "package": "complex-generic",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Conjugation",
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "conjugate",
           "normalized": "a-\u003ea",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruction with realPart 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "imag",
           "package": "complex-generic",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Construction with realPart",
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "imag",
           "package": "complex-generic",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the imaginary part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "imagPart",
           "package": "complex-generic",
@@ -269,6 +290,7 @@
         "index": {
           "description": "Get the imaginary part",
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "imagPart",
           "normalized": "a-\u003eb",
@@ -285,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMagnitude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "magnitude",
           "package": "complex-generic",
@@ -295,6 +318,7 @@
         "index": {
           "description": "Magnitude",
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "magnitude",
           "normalized": "a-\u003eb",
@@ -310,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSquared magnitude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "magnitudeSquared",
           "package": "complex-generic",
@@ -320,6 +345,7 @@
         "index": {
           "description": "Squared magnitude",
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "magnitudeSquared",
           "normalized": "a-\u003eb",
@@ -335,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "mkPolar",
           "package": "complex-generic",
@@ -344,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "mkPolar",
           "normalized": "a-\u003ea-\u003eb",
@@ -360,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "mkRect",
           "package": "complex-generic",
@@ -370,6 +399,7 @@
         "index": {
           "description": "Construction",
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "mkRect",
           "package": "complex-generic",
@@ -384,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhase in (-pi, pi].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "phase",
           "package": "complex-generic",
@@ -394,6 +425,7 @@
         "index": {
           "description": "Phase in pi pi",
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "phase",
           "normalized": "a-\u003eb",
@@ -408,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "polar",
           "package": "complex-generic",
@@ -417,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "polar",
           "normalized": "a-\u003e(b,b)",
@@ -432,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruction with imagPart 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "real",
           "package": "complex-generic",
@@ -442,6 +477,7 @@
         "index": {
           "description": "Construction with imagPart",
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "real",
           "package": "complex-generic",
@@ -455,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the real part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "realPart",
           "package": "complex-generic",
@@ -465,6 +502,7 @@
         "index": {
           "description": "Get the real part",
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "realPart",
           "normalized": "a-\u003eb",
@@ -481,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeconstruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "rect",
           "package": "complex-generic",
@@ -491,6 +530,7 @@
         "index": {
           "description": "Deconstruction",
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "rect",
           "normalized": "a-\u003e(b,b)",
@@ -506,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplex square.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Class",
           "name": "sqr",
           "package": "complex-generic",
@@ -516,6 +557,7 @@
         "index": {
           "description": "Complex square",
           "hierarchy": "Data Complex Generic Class",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Class",
           "name": "sqr",
           "normalized": "a-\u003ea",
@@ -531,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefault implementations of complex number operations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "Default",
           "package": "complex-generic",
@@ -540,6 +583,7 @@
         "index": {
           "description": "Default implementations of complex number operations",
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "Default",
           "package": "complex-generic",
@@ -553,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "absDefault",
           "package": "complex-generic",
@@ -562,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "absDefault",
           "normalized": "a-\u003ea",
@@ -577,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "acosDefault",
           "package": "complex-generic",
@@ -586,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "acosDefault",
           "normalized": "a-\u003ea",
@@ -601,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "acoshDefault",
           "package": "complex-generic",
@@ -610,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "acoshDefault",
           "normalized": "a-\u003ea",
@@ -625,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "addDefault",
           "package": "complex-generic",
@@ -634,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "addDefault",
           "normalized": "a-\u003ea-\u003ea",
@@ -649,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "asinDefault",
           "package": "complex-generic",
@@ -658,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "asinDefault",
           "normalized": "a-\u003ea",
@@ -673,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "asinhDefault",
           "package": "complex-generic",
@@ -682,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "asinhDefault",
           "normalized": "a-\u003ea",
@@ -697,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "atanDefault",
           "package": "complex-generic",
@@ -706,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "atanDefault",
           "normalized": "a-\u003ea",
@@ -721,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "atanhDefault",
           "package": "complex-generic",
@@ -730,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "atanhDefault",
           "normalized": "a-\u003ea",
@@ -745,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "cisDefault",
           "package": "complex-generic",
@@ -754,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "cisDefault",
           "normalized": "a-\u003eb",
@@ -769,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "conjugateDefault",
           "package": "complex-generic",
@@ -778,6 +841,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "conjugateDefault",
           "normalized": "a-\u003ea",
@@ -793,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "cosDefault",
           "package": "complex-generic",
@@ -802,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "cosDefault",
           "normalized": "a-\u003ea",
@@ -817,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "coshDefault",
           "package": "complex-generic",
@@ -826,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "coshDefault",
           "normalized": "a-\u003ea",
@@ -841,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "divDefault",
           "package": "complex-generic",
@@ -850,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "divDefault",
           "normalized": "a-\u003ea-\u003ea",
@@ -865,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "divDefaultRF",
           "package": "complex-generic",
@@ -874,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "divDefaultRF",
           "normalized": "a-\u003ea-\u003ea",
@@ -889,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "expDefault",
           "package": "complex-generic",
@@ -898,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "expDefault",
           "normalized": "a-\u003ea",
@@ -913,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "fromIntegerDefault",
           "package": "complex-generic",
@@ -922,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "fromIntegerDefault",
           "normalized": "Integer-\u003ea",
@@ -937,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "fromRationalDefault",
           "package": "complex-generic",
@@ -946,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "fromRationalDefault",
           "normalized": "Rational-\u003ea",
@@ -961,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "imagDefault",
           "package": "complex-generic",
@@ -970,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "imagDefault",
           "normalized": "a-\u003eb",
@@ -985,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "imagPartDefault",
           "package": "complex-generic",
@@ -994,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "imagPartDefault",
           "normalized": "a-\u003eb",
@@ -1009,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "logDefault",
           "package": "complex-generic",
@@ -1018,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "logDefault",
           "normalized": "a-\u003ea",
@@ -1033,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "magnitudeDefault",
           "package": "complex-generic",
@@ -1042,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "magnitudeDefault",
           "normalized": "a-\u003eb",
@@ -1057,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "magnitudeDefaultRF",
           "package": "complex-generic",
@@ -1066,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "magnitudeDefaultRF",
           "normalized": "a-\u003eb",
@@ -1081,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "magnitudeSquaredDefault",
           "package": "complex-generic",
@@ -1090,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "magnitudeSquaredDefault",
           "normalized": "a-\u003eb",
@@ -1105,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "mkPolarDefault",
           "package": "complex-generic",
@@ -1114,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "mkPolarDefault",
           "normalized": "a-\u003ea-\u003eb",
@@ -1129,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "mulDefault",
           "package": "complex-generic",
@@ -1138,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "mulDefault",
           "normalized": "a-\u003ea-\u003ea",
@@ -1153,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "mulrDefault",
           "package": "complex-generic",
@@ -1162,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "mulrDefault",
           "normalized": "a-\u003eb-\u003ea",
@@ -1177,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "negateDefault",
           "package": "complex-generic",
@@ -1186,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "negateDefault",
           "normalized": "a-\u003ea",
@@ -1201,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "phaseDefault",
           "package": "complex-generic",
@@ -1210,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "phaseDefault",
           "normalized": "a-\u003eb",
@@ -1225,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "phaseDefaultRF",
           "package": "complex-generic",
@@ -1234,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "phaseDefaultRF",
           "normalized": "a-\u003eb",
@@ -1249,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "piDefault",
           "package": "complex-generic",
@@ -1258,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "piDefault",
           "package": "complex-generic",
@@ -1271,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "polarDefault",
           "package": "complex-generic",
@@ -1280,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "polarDefault",
           "normalized": "a-\u003e(b,b)",
@@ -1295,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "realDefault",
           "package": "complex-generic",
@@ -1304,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "realDefault",
           "normalized": "a-\u003eb",
@@ -1319,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "realPartDefault",
           "package": "complex-generic",
@@ -1328,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "realPartDefault",
           "normalized": "a-\u003eb",
@@ -1343,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "rectDefault",
           "package": "complex-generic",
@@ -1352,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "rectDefault",
           "normalized": "a-\u003e(b,b)",
@@ -1367,6 +1479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "rmulDefault",
           "package": "complex-generic",
@@ -1376,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "rmulDefault",
           "normalized": "a-\u003eb-\u003eb",
@@ -1391,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "signumDefault",
           "package": "complex-generic",
@@ -1400,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "signumDefault",
           "normalized": "a-\u003ea",
@@ -1415,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "sinDefault",
           "package": "complex-generic",
@@ -1424,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "sinDefault",
           "normalized": "a-\u003ea",
@@ -1439,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "sinhDefault",
           "package": "complex-generic",
@@ -1448,6 +1567,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "sinhDefault",
           "normalized": "a-\u003ea",
@@ -1463,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "sqrDefault",
           "package": "complex-generic",
@@ -1472,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "sqrDefault",
           "normalized": "a-\u003ea",
@@ -1487,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "sqrDefaultRF",
           "package": "complex-generic",
@@ -1496,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "sqrDefaultRF",
           "normalized": "a-\u003ea",
@@ -1511,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "sqrtDefault",
           "package": "complex-generic",
@@ -1520,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "sqrtDefault",
           "normalized": "a-\u003ea",
@@ -1535,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "subDefault",
           "package": "complex-generic",
@@ -1544,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "subDefault",
           "normalized": "a-\u003ea-\u003ea",
@@ -1559,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "tanDefault",
           "package": "complex-generic",
@@ -1568,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "tanDefault",
           "normalized": "a-\u003ea",
@@ -1583,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.Default",
           "name": "tanhDefault",
           "package": "complex-generic",
@@ -1592,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic Default",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.Default",
           "name": "tanhDefault",
           "normalized": "a-\u003ea",
@@ -1608,6 +1740,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDerive instances for complex numbers using template haskell.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.TH",
           "name": "TH",
           "package": "complex-generic",
@@ -1617,6 +1750,7 @@
         "index": {
           "description": "Derive instances for complex numbers using template haskell",
           "hierarchy": "Data Complex Generic TH",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.TH",
           "name": "TH",
           "package": "complex-generic",
@@ -1631,6 +1765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive instances for \u003ccode\u003e\u003ca\u003eFloating\u003c/a\u003e\u003c/code\u003e types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.TH",
           "name": "deriveComplexF",
           "package": "complex-generic",
@@ -1640,6 +1775,7 @@
         "index": {
           "description": "Derive instances for Floating types",
           "hierarchy": "Data Complex Generic TH",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.TH",
           "name": "deriveComplexF",
           "normalized": "Name-\u003eName-\u003eName-\u003eName-\u003eQ[Dec]",
@@ -1656,6 +1792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive instances for \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.TH",
           "name": "deriveComplexN",
           "package": "complex-generic",
@@ -1665,6 +1802,7 @@
         "index": {
           "description": "Derive instances for Num types",
           "hierarchy": "Data Complex Generic TH",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.TH",
           "name": "deriveComplexN",
           "normalized": "Name-\u003eName-\u003eName-\u003eName-\u003eQ[Dec]",
@@ -1681,6 +1819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive instances for \u003ccode\u003e\u003ca\u003eRealFloat\u003c/a\u003e\u003c/code\u003e types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic.TH",
           "name": "deriveComplexRF",
           "package": "complex-generic",
@@ -1690,6 +1829,7 @@
         "index": {
           "description": "Derive instances for RealFloat types",
           "hierarchy": "Data Complex Generic TH",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic.TH",
           "name": "deriveComplexRF",
           "normalized": "Name-\u003eName-\u003eName-\u003eName-\u003eQ[Dec]",
@@ -1706,6 +1846,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComplex numbers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic",
           "name": "Generic",
           "package": "complex-generic",
@@ -1715,6 +1856,7 @@
         "index": {
           "description": "Complex numbers",
           "hierarchy": "Data Complex Generic",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic",
           "name": "Generic",
           "package": "complex-generic",
@@ -1729,6 +1871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplex numbers in rectangular form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic",
           "name": "Complex",
           "package": "complex-generic",
@@ -1738,6 +1881,7 @@
         "index": {
           "description": "Complex numbers in rectangular form",
           "hierarchy": "Data Complex Generic",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic",
           "name": "Complex",
           "package": "complex-generic",
@@ -1751,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic",
           "name": ":+",
           "package": "complex-generic",
@@ -1760,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Data Complex Generic",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic",
           "name": ":+",
           "package": "complex-generic",
@@ -1773,6 +1919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from \u003ccode\u003e\u003ca\u003eComplex\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic",
           "name": "fromDataComplex",
           "package": "complex-generic",
@@ -1783,6 +1930,7 @@
         "index": {
           "description": "Convert from Complex",
           "hierarchy": "Data Complex Generic",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic",
           "name": "fromDataComplex",
           "normalized": "Complex a-\u003eComplex a",
@@ -1799,6 +1947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to \u003ccode\u003e\u003ca\u003eComplex\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:19 UTC 2014",
           "module": "Data.Complex.Generic",
           "name": "toDataComplex",
           "package": "complex-generic",
@@ -1809,6 +1958,7 @@
         "index": {
           "description": "Convert to Complex",
           "hierarchy": "Data Complex Generic",
+          "indexed": "2014-03-11T17:37:19",
           "module": "Data.Complex.Generic",
           "name": "toDataComplex",
           "normalized": "Complex a-\u003eComplex a",

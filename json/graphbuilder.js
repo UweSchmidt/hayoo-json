@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "graphbuilder"
+        "phrase": "graphbuilder",
+        "type": "phrase"
       },
       "type": "context"
     }

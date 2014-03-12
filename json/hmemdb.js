@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hmemdb"
+        "phrase": "hmemdb",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTables of values and keys for that tables.\n\u003c/p\u003e\u003cp\u003eEach value in the table may be accompanied with references to other tables.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "HMemDb",
           "package": "hmemdb",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Tables of values and keys for that tables Each value in the table may be accompanied with references to other tables",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "HMemDb",
           "package": "hmemdb",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombining operator for reference specifications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": ":&:",
           "package": "hmemdb",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Combining operator for reference specifications",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": ":&:",
           "package": "hmemdb",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombining operator for key specifications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": ":+:",
           "package": "hmemdb",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Combining operator for key specifications",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": ":+:",
           "package": "hmemdb",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput of the \u003ccode\u003e\u003ca\u003ecreateTable\u003c/a\u003e\u003c/code\u003e function. Contains the created table and the keys to it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "Created",
           "package": "hmemdb",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Output of the createTable function Contains the created table and the keys to it",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "Created",
           "package": "hmemdb",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type, which allows us to \u003ccode\u003e\u003ca\u003eselect\u003c/a\u003e\u003c/code\u003e one or many values from the \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e.\n Type \u003ccode\u003et\u003c/code\u003e is an abstract type, same as in the \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e.\n Type \u003ccode\u003ea\u003c/code\u003e is a type of values, also same as in the \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e.\n Type \u003ccode\u003ei\u003c/code\u003e is a type of index values, used by this key.\n Type \u003ccode\u003eu\u003c/code\u003e is either \u003ccode\u003e\u003ca\u003eMultiple\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eSingle\u003c/a\u003e\u003c/code\u003e, depending on whether this key\n allows different values to have the same index, or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "Key",
           "package": "hmemdb",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Abstract type which allows us to select one or many values from the Table Type is an abstract type same as in the Table Type is type of values also same as in the Table Type is type of index values used by this key Type is either Multiple or Single depending on whether this key allows different values to have the same index or not",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "Key",
           "package": "hmemdb",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne key specification.\n Note that it can't be used in the \u003ccode\u003e\u003ca\u003esKeys\u003c/a\u003e\u003c/code\u003e field by itself,\n but rather should be combined with \u003ccode\u003e\u003ca\u003eKeys\u003c/a\u003e\u003c/code\u003e with the \u003ccode\u003e\u003ca\u003e:+:\u003c/a\u003e\u003c/code\u003e operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "KeyRef",
           "package": "hmemdb",
@@ -141,6 +152,7 @@
         "index": {
           "description": "One key specification Note that it can be used in the sKeys field by itself but rather should be combined with Keys with the operator",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "KeyRef",
           "package": "hmemdb",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType that is a template for the key. Used only in \u003ccode\u003e\u003ca\u003eSpec\u003c/a\u003e\u003c/code\u003es.\n Type \u003ccode\u003et\u003c/code\u003e is an abstract type, same as in the \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e.\n Type \u003ccode\u003ea\u003c/code\u003e is a type of values in that \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e.\n Type \u003ccode\u003ei\u003c/code\u003e is a type of index values, used by this key.\n Type \u003ccode\u003eu\u003c/code\u003e is either \u003ccode\u003e\u003ca\u003eMultiple\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eSingle\u003c/a\u003e\u003c/code\u003e, depending on whether this key\n allows different values to have the same index, or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "KeySpec",
           "package": "hmemdb",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Type that is template for the key Used only in Spec Type is an abstract type same as in the Table Type is type of values in that Table Type is type of index values used by this key Type is either Multiple or Single depending on whether this key allows different values to have the same index or not",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "KeySpec",
           "package": "hmemdb",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty key specification.\n It doesn't specify any key whatsoever.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "Keys",
           "package": "hmemdb",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Empty key specification It doesn specify any key whatsoever",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "Keys",
           "package": "hmemdb",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of key specifications, used in the \u003ccode\u003e\u003ca\u003esKeys\u003c/a\u003e\u003c/code\u003e field of the \u003ccode\u003e\u003ca\u003eSpec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "KeysC",
           "package": "hmemdb",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Class of key specifications used in the sKeys field of the Spec",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "KeysC",
           "package": "hmemdb",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of the part of key specification, corresponding to one key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "KeysComponent",
           "package": "hmemdb",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Class of the part of key specification corresponding to one key",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "KeysComponent",
           "package": "hmemdb",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSTM\u003c/a\u003e\u003c/code\u003e that can fail.\n Note that it doesn't revert the transaction on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "MS",
           "package": "hmemdb",
@@ -256,6 +277,7 @@
         "index": {
           "description": "STM that can fail Note that it doesn revert the transaction on failure",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "MS",
           "package": "hmemdb",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type specifies that we want multiple values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "Multiple",
           "package": "hmemdb",
@@ -279,6 +302,7 @@
         "index": {
           "description": "This type specifies that we want multiple values",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "Multiple",
           "package": "hmemdb",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClosed class.\n It's instances allow us to choose whether we want to get a single value\n or multiple ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "Multitude",
           "package": "hmemdb",
@@ -302,6 +327,7 @@
         "index": {
           "description": "Closed class It instances allow us to choose whether we want to get single value or multiple ones",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "Multitude",
           "package": "hmemdb",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne table reference specification.\n Note that it can't be used in the \u003ccode\u003e\u003ca\u003esRefs\u003c/a\u003e\u003c/code\u003e field by itself,\n but rather should be combined with \u003ccode\u003e\u003ca\u003eRefs\u003c/a\u003e\u003c/code\u003e with the \u003ccode\u003e\u003ca\u003e:&:\u003c/a\u003e\u003c/code\u003e operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "Ref",
           "package": "hmemdb",
@@ -325,6 +352,7 @@
         "index": {
           "description": "One table reference specification Note that it can be used in the sRefs field by itself but rather should be combined with Refs with the operator",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "Ref",
           "package": "hmemdb",
@@ -339,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty reference specification.\n It doesn't specify any reference whatsoever.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "Refs",
           "package": "hmemdb",
@@ -348,6 +377,7 @@
         "index": {
           "description": "Empty reference specification It doesn specify any reference whatsoever",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "Refs",
           "package": "hmemdb",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of table reference specifications, used in the \u003ccode\u003e\u003ca\u003esRefs\u003c/a\u003e\u003c/code\u003e field of the \u003ccode\u003e\u003ca\u003eSpec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "RefsC",
           "package": "hmemdb",
@@ -371,6 +402,7 @@
         "index": {
           "description": "Class of table reference specifications used in the sRefs field of the Spec",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "RefsC",
           "package": "hmemdb",
@@ -385,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of the part of reference specification, corresponding to one reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "RefsComponent",
           "package": "hmemdb",
@@ -394,6 +427,7 @@
         "index": {
           "description": "Class of the part of reference specification corresponding to one reference",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "RefsComponent",
           "package": "hmemdb",
@@ -408,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type specifies that we want a single value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "Single",
           "package": "hmemdb",
@@ -417,6 +452,7 @@
         "index": {
           "description": "This type specifies that we want single value",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "Single",
           "package": "hmemdb",
@@ -431,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of table specifications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "Spec",
           "package": "hmemdb",
@@ -440,6 +477,7 @@
         "index": {
           "description": "Type of table specifications",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "Spec",
           "package": "hmemdb",
@@ -454,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type, which represents a collection of values of type \u003ccode\u003ea\u003c/code\u003e,\n possibly accompanied with some references to other \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003es.\n The type \u003ccode\u003et\u003c/code\u003e is an abstract type, used to ensure that we don't confuse\n different tables with values of the same type.\n \u003ccode\u003er\u003c/code\u003e is a type of references accompanying each value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "Table",
           "package": "hmemdb",
@@ -463,6 +502,7 @@
         "index": {
           "description": "Abstract type which represents collection of values of type possibly accompanied with some references to other Table The type is an abstract type used to ensure that we don confuse different tables with values of the same type is type of references accompanying each value",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "Table",
           "package": "hmemdb",
@@ -477,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType that is a template for references to another table. Used only in \u003ccode\u003e\u003ca\u003eSpec\u003c/a\u003e\u003c/code\u003es.\n Type \u003ccode\u003et\u003c/code\u003e is an abstract type, same as in the \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e.\n Type \u003ccode\u003ea\u003c/code\u003e is a type of values in that \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e.\n Type \u003ccode\u003eu\u003c/code\u003e is either \u003ccode\u003e\u003ca\u003eSingle\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eMultiple\u003c/a\u003e\u003c/code\u003e,\n depending on whether the reference, accompanying the value,\n should be single-value or multiple-value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "TableRef",
           "package": "hmemdb",
@@ -486,6 +527,7 @@
         "index": {
           "description": "Type that is template for references to another table Used only in Spec Type is an abstract type same as in the Table Type is type of values in that Table Type is either Single or Multiple depending on whether the reference accompanying the value should be single-value or multiple-value",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "TableRef",
           "package": "hmemdb",
@@ -500,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference to a single value in some table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "TableVar",
           "package": "hmemdb",
@@ -509,6 +552,7 @@
         "index": {
           "description": "Reference to single value in some table",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "TableVar",
           "package": "hmemdb",
@@ -523,6 +567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase type for \u003ccode\u003e\u003ca\u003eTableVar\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eTableVars\u003c/a\u003e\u003c/code\u003e\n Type \u003ccode\u003et\u003c/code\u003e is an abstract type, same as in the \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e.\n Type \u003ccode\u003ea\u003c/code\u003e is a type of value, which can be obtained with \u003ccode\u003eunVar\u003c/code\u003e,\n also same as in the \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "TableVarU",
           "package": "hmemdb",
@@ -532,6 +577,7 @@
         "index": {
           "description": "Base type for TableVar and TableVars Type is an abstract type same as in the Table Type is type of value which can be obtained with unVar also same as in the Table",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "TableVarU",
           "package": "hmemdb",
@@ -546,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference to multiple values in a single table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "TableVars",
           "package": "hmemdb",
@@ -555,6 +602,7 @@
         "index": {
           "description": "Reference to multiple values in single table",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "TableVars",
           "package": "hmemdb",
@@ -568,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": ":&:",
           "package": "hmemdb",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": ":&:",
           "normalized": "a b-\u003eb c d e-\u003e(a Ref c d e)b",
@@ -591,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": ":+:",
           "package": "hmemdb",
@@ -600,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": ":+:",
           "normalized": "a b-\u003eb c d-\u003e(a KeyRef c d)b",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "Created",
           "package": "hmemdb",
@@ -623,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "Created",
           "normalized": "Table a b c-\u003ed(Key a c)-\u003eCreated b d c",
@@ -638,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "Keys",
           "package": "hmemdb",
@@ -647,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "Keys",
           "package": "hmemdb",
@@ -660,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "Refs",
           "package": "hmemdb",
@@ -669,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "Refs",
           "package": "hmemdb",
@@ -682,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "Spec",
           "package": "hmemdb",
@@ -691,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "Spec",
           "package": "hmemdb",
@@ -705,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction that creates the table (along with keys and everything) based on a \u003ccode\u003e\u003ca\u003eSpec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "createTable",
           "package": "hmemdb",
@@ -715,6 +776,7 @@
         "index": {
           "description": "Function that creates the table along with keys and everything based on Spec",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "createTable",
           "normalized": "Spec a b c-\u003eSTM(Created a b c)",
@@ -731,6 +793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction that removes the value (along with accompanying references)\n from the \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e. It only fails if the value was already removed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "delete",
           "package": "hmemdb",
@@ -741,6 +804,7 @@
         "index": {
           "description": "Function that removes the value along with accompanying references from the Table It only fails if the value was already removed",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "delete",
           "normalized": "Table a b c-\u003eTableVar a c-\u003eMS()",
@@ -756,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction that converts a list of single-value references\n to a single multiple-value reference.\n Normally it should only be used in \u003ccode\u003ecInsert\u003c/code\u003e statments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "fromList",
           "package": "hmemdb",
@@ -766,6 +831,7 @@
         "index": {
           "description": "Function that converts list of single-value references to single multiple-value reference Normally it should only be used in cInsert statments",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "fromList",
           "normalized": "[TableVar a b]-\u003eTableVars a b",
@@ -782,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction that makes it possible to read the table from the file or other source.\n Table should be created beforehand, as specifications are not serializable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "getTable",
           "package": "hmemdb",
@@ -792,6 +859,7 @@
         "index": {
           "description": "Function that makes it possible to read the table from the file or other source Table should be created beforehand as specifications are not serializable",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "getTable",
           "normalized": "Table a b c-\u003eGet(STM())",
@@ -808,6 +876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMore generic version of \u003ccode\u003e\u003ca\u003egetTable\u003c/a\u003e\u003c/code\u003e\n that allows to change the way values are serialized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "getTable_",
           "package": "hmemdb",
@@ -818,6 +887,7 @@
         "index": {
           "description": "More generic version of getTable that allows to change the way values are serialized",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "getTable_",
           "normalized": "Get a-\u003eTable b c a-\u003eGet(STM())",
@@ -834,6 +904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most generic version of \u003ccode\u003e\u003ca\u003egetTable\u003c/a\u003e\u003c/code\u003e.\n Not only it allows to change the way values are serialized,\n it also permits side-effects during the deserialization.\n The table is still filled in one \u003ccode\u003e\u003ca\u003eSTM\u003c/a\u003e\u003c/code\u003e transaction,\n thus avoiding any difficulties with multithreading.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "getTable__",
           "package": "hmemdb",
@@ -844,6 +915,7 @@
         "index": {
           "description": "The most generic version of getTable Not only it allows to change the way values are serialized it also permits side-effects during the deserialization The table is still filled in one STM transaction thus avoiding any difficulties with multithreading",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "getTable__",
           "normalized": "Get(a b)-\u003eTable c d b-\u003eGet(a())",
@@ -860,6 +932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction that lets one to insert a new value to the \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e.\n Of course, we have to provide accompanying references as well.\n This function can fail if some key clashes with an already existing one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "insert",
           "package": "hmemdb",
@@ -870,6 +943,7 @@
         "index": {
           "description": "Function that lets one to insert new value to the Table Of course we have to provide accompanying references as well This function can fail if some key clashes with an already existing one",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "insert",
           "normalized": "Table a b c-\u003ec-\u003eb TableVarU-\u003eMS(TableVar a c)",
@@ -885,6 +959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis key will provide access to multiple values in the same \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e.\n Their indices will be calculated based on the value alone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "multiple",
           "package": "hmemdb",
@@ -895,6 +970,7 @@
         "index": {
           "description": "This key will provide access to multiple values in the same Table Their indices will be calculated based on the value alone",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "multiple",
           "normalized": "(a-\u003eb)-\u003eKeySpec c a b Multiple",
@@ -910,6 +986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a more generic version of \u003ccode\u003e\u003ca\u003emultiple\u003c/a\u003e\u003c/code\u003e.\n The difference is that value index will be calculated based on both the value\n and it's accompanying references.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "multiple_",
           "package": "hmemdb",
@@ -920,6 +997,7 @@
         "index": {
           "description": "This is more generic version of multiple The difference is that value index will be calculated based on both the value and it accompanying references",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "multiple_",
           "normalized": "(a-\u003eb TableVarU-\u003ec)-\u003eKeySpec b a c Multiple",
@@ -935,6 +1013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach value in the table-to-be should be accompanied with a single-value reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "only",
           "package": "hmemdb",
@@ -945,6 +1024,7 @@
         "index": {
           "description": "Each value in the table-to-be should be accompanied with single-value reference",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "only",
           "normalized": "Table a b c-\u003eTableRef a c Single",
@@ -960,6 +1040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction that makes it possible to write the table to the file or other storage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "putTable",
           "package": "hmemdb",
@@ -970,6 +1051,7 @@
         "index": {
           "description": "Function that makes it possible to write the table to the file or other storage",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "putTable",
           "normalized": "Table a b c-\u003eSTM Put",
@@ -986,6 +1068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMore generic version of \u003ccode\u003e\u003ca\u003eputTable\u003c/a\u003e\u003c/code\u003e\n that allows to change the way values are serialized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "putTable_",
           "package": "hmemdb",
@@ -996,6 +1079,7 @@
         "index": {
           "description": "More generic version of putTable that allows to change the way values are serialized",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "putTable_",
           "normalized": "(a-\u003ePut)-\u003eTable b c a-\u003eSTM Put",
@@ -1012,6 +1096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most generic version of \u003ccode\u003e\u003ca\u003eputTable\u003c/a\u003e\u003c/code\u003e.\n Not only it allows to change the way values are serialized,\n it also permits side-effects during the serialization.\n The table is still read in one \u003ccode\u003e\u003ca\u003eSTM\u003c/a\u003e\u003c/code\u003e transaction,\n thus avoiding any difficulties with multithreading.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "putTable__",
           "package": "hmemdb",
@@ -1022,6 +1107,7 @@
         "index": {
           "description": "The most generic version of putTable Not only it allows to change the way values are serialized it also permits side-effects during the serialization The table is still read in one STM transaction thus avoiding any difficulties with multithreading",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "putTable__",
           "normalized": "(a-\u003eb Put)-\u003eTable c d a-\u003eb Put",
@@ -1038,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction that reads all references accompanying the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "readRefs",
           "package": "hmemdb",
@@ -1048,6 +1135,7 @@
         "index": {
           "description": "Function that reads all references accompanying the value",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "readRefs",
           "normalized": "Table a b c-\u003eTableVar a c-\u003eMS(b TableVarU)",
@@ -1064,6 +1152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction that dereferences a value from table.\n Note that we have to provide the \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e along with \u003ccode\u003e\u003ca\u003eTableVar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "readVar",
           "package": "hmemdb",
@@ -1074,6 +1163,7 @@
         "index": {
           "description": "Function that dereferences value from table Note that we have to provide the Table along with TableVar",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "readVar",
           "normalized": "Table a b c-\u003eTableVar a c-\u003eMS c",
@@ -1090,6 +1180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeys for the table-to-be\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "sKeys",
           "package": "hmemdb",
@@ -1100,6 +1191,7 @@
         "index": {
           "description": "Keys for the table-to-be",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "sKeys",
           "package": "hmemdb",
@@ -1114,6 +1206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther tables that should be referenced\n by values of this one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "sRefs",
           "package": "hmemdb",
@@ -1124,6 +1217,7 @@
         "index": {
           "description": "Other tables that should be referenced by values of this one",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "sRefs",
           "package": "hmemdb",
@@ -1138,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction that selects one value from a \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e.\n Note that the value is not returned directly.\n Instead, a reference to it is returned, which allows to get other references,\n accompanying that value in the \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "select",
           "package": "hmemdb",
@@ -1148,6 +1243,7 @@
         "index": {
           "description": "Function that selects one value from Key Note that the value is not returned directly Instead reference to it is returned which allows to get other references accompanying that value in the Table",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "select",
           "normalized": "Key a b c Single-\u003ec-\u003eMS(TableVar a b)",
@@ -1163,6 +1259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003eselect_\u003c/a\u003e\u003c/code\u003e, which allows to choose two bounds for the index.\n Additional boolean arguments show whether to include bounds themselves or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "selectBetween",
           "package": "hmemdb",
@@ -1172,6 +1269,7 @@
         "index": {
           "description": "variant of select which allows to choose two bounds for the index Additional boolean arguments show whether to include bounds themselves or not",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "selectBetween",
           "normalized": "Key a b c d-\u003ec-\u003eBool-\u003ec-\u003eBool-\u003eSTM[TableVar a b]",
@@ -1188,6 +1286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA more generic version of \u003ccode\u003e\u003ca\u003eselect\u003c/a\u003e\u003c/code\u003e. Instead of one value, it returns multiple ones.\n It can also select values with indices that are smaller or greater to the provided one,\n depending on the third argument, which could be anything like \u003ccode\u003e(\u003e)\u003c/code\u003e, \u003ccode\u003e(\u003c=)\u003c/code\u003e, \u003ccode\u003e(/=)\u003c/code\u003e,\n or even \u003ccode\u003ereturn True\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n select_ k i (==) ~~ [select k i]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "select_",
           "package": "hmemdb",
@@ -1198,6 +1297,7 @@
         "index": {
           "description": "more generic version of select Instead of one value it returns multiple ones It can also select values with indices that are smaller or greater to the provided one depending on the third argument which could be anything like or even return True select select",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "select_",
           "normalized": "a-\u003ea-\u003eBool)-\u003eSTM[TableVar b c]",
@@ -1213,6 +1313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis key will provide access to a single value within a \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e.\n It's index will be calculated, based on this value alone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "single",
           "package": "hmemdb",
@@ -1223,6 +1324,7 @@
         "index": {
           "description": "This key will provide access to single value within Table It index will be calculated based on this value alone",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "single",
           "normalized": "(a-\u003eb)-\u003eKeySpec c a b Single",
@@ -1238,6 +1340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a more generic version of \u003ccode\u003e\u003ca\u003esingle\u003c/a\u003e\u003c/code\u003e.\n The difference is that value index will be calculated based on both the value\n and it's accompanying references.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "single_",
           "package": "hmemdb",
@@ -1248,6 +1351,7 @@
         "index": {
           "description": "This is more generic version of single The difference is that value index will be calculated based on both the value and it accompanying references",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "single_",
           "normalized": "(a-\u003eb TableVarU-\u003ec)-\u003eKeySpec b a c Single",
@@ -1263,6 +1367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach value in the table-to-be should be accompanied with a multiple-value reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "some",
           "package": "hmemdb",
@@ -1273,6 +1378,7 @@
         "index": {
           "description": "Each value in the table-to-be should be accompanied with multiple-value reference",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "some",
           "normalized": "Table a b c-\u003eTableRef a c Multiple",
@@ -1288,6 +1394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplitting keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "splitKey",
           "package": "hmemdb",
@@ -1298,6 +1405,7 @@
         "index": {
           "description": "Splitting keys",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "splitKey",
           "normalized": "(a KeyRef b c)d-\u003e(a d,d b c)",
@@ -1314,6 +1422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplitting references.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "splitRef",
           "package": "hmemdb",
@@ -1324,6 +1433,7 @@
         "index": {
           "description": "Splitting references",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "splitRef",
           "normalized": "(a Ref b c d)e-\u003e(a e,e b c d)",
@@ -1340,6 +1450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction that converts a multiple-value reference\n to a list of single-value references.\n Should be used with multiple-value references accompanying values in the \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "toList",
           "package": "hmemdb",
@@ -1350,6 +1461,7 @@
         "index": {
           "description": "Function that converts multiple-value reference to list of single-value references Should be used with multiple-value references accompanying values in the Table",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "toList",
           "normalized": "TableVars a b-\u003e[TableVar a b]",
@@ -1366,6 +1478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction that writes another value to the referenced place in the \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e.\n It doesn't change the accompanying references.\n In case that it fails due to some single-value key prohibiting the new value,\n nothing is changed, and the \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e remains the same.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "update",
           "package": "hmemdb",
@@ -1376,6 +1489,7 @@
         "index": {
           "description": "Function that writes another value to the referenced place in the Table It doesn change the accompanying references In case that it fails due to some single-value key prohibiting the new value nothing is changed and the Table remains the same",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "update",
           "normalized": "Table a b c-\u003eTableVar a c-\u003ec-\u003eMS()",
@@ -1391,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMore generic version of \u003ccode\u003e\u003ca\u003eupdate\u003c/a\u003e\u003c/code\u003e.\n It allows changing accompanying references as well as the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:16 UTC 2014",
           "module": "Data.HMemDb",
           "name": "update_",
           "package": "hmemdb",
@@ -1401,6 +1516,7 @@
         "index": {
           "description": "More generic version of update It allows changing accompanying references as well as the value",
           "hierarchy": "Data HMemDb",
+          "indexed": "2014-03-11T18:42:16",
           "module": "Data.HMemDb",
           "name": "update_",
           "normalized": "Table a b c-\u003eTableVar a c-\u003ec-\u003eb TableVarU-\u003eMS()",

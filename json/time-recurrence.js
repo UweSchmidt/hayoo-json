@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "time-recurrence"
+        "phrase": "time-recurrence",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.Month",
           "name": "Month",
           "package": "time-recurrence",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Month",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.Month",
           "name": "Month",
           "package": "time-recurrence",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.Month",
           "name": "Month",
           "package": "time-recurrence",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Month",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.Month",
           "name": "Month",
           "package": "time-recurrence",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.Month",
           "name": "April",
           "package": "time-recurrence",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Month",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.Month",
           "name": "April",
           "package": "time-recurrence",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.Month",
           "name": "August",
           "package": "time-recurrence",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Month",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.Month",
           "name": "August",
           "package": "time-recurrence",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.Month",
           "name": "December",
           "package": "time-recurrence",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Month",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.Month",
           "name": "December",
           "package": "time-recurrence",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.Month",
           "name": "February",
           "package": "time-recurrence",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Month",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.Month",
           "name": "February",
           "package": "time-recurrence",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.Month",
           "name": "January",
           "package": "time-recurrence",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Month",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.Month",
           "name": "January",
           "package": "time-recurrence",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.Month",
           "name": "July",
           "package": "time-recurrence",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Month",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.Month",
           "name": "July",
           "package": "time-recurrence",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.Month",
           "name": "June",
           "package": "time-recurrence",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Month",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.Month",
           "name": "June",
           "package": "time-recurrence",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.Month",
           "name": "March",
           "package": "time-recurrence",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Month",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.Month",
           "name": "March",
           "package": "time-recurrence",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.Month",
           "name": "May",
           "package": "time-recurrence",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Month",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.Month",
           "name": "May",
           "package": "time-recurrence",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.Month",
           "name": "November",
           "package": "time-recurrence",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Month",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.Month",
           "name": "November",
           "package": "time-recurrence",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.Month",
           "name": "October",
           "package": "time-recurrence",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Month",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.Month",
           "name": "October",
           "package": "time-recurrence",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.Month",
           "name": "September",
           "package": "time-recurrence",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar Month",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.Month",
           "name": "September",
           "package": "time-recurrence",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.WeekDay",
           "name": "WeekDay",
           "package": "time-recurrence",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar WeekDay",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.WeekDay",
           "name": "WeekDay",
           "package": "time-recurrence",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.WeekDay",
           "name": "WeekDay",
           "package": "time-recurrence",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar WeekDay",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.WeekDay",
           "name": "WeekDay",
           "package": "time-recurrence",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.WeekDay",
           "name": "Friday",
           "package": "time-recurrence",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar WeekDay",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.WeekDay",
           "name": "Friday",
           "package": "time-recurrence",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.WeekDay",
           "name": "Monday",
           "package": "time-recurrence",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar WeekDay",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.WeekDay",
           "name": "Monday",
           "package": "time-recurrence",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.WeekDay",
           "name": "Saturday",
           "package": "time-recurrence",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar WeekDay",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.WeekDay",
           "name": "Saturday",
           "package": "time-recurrence",
@@ -432,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.WeekDay",
           "name": "Sunday",
           "package": "time-recurrence",
@@ -441,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar WeekDay",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.WeekDay",
           "name": "Sunday",
           "package": "time-recurrence",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.WeekDay",
           "name": "Thursday",
           "package": "time-recurrence",
@@ -463,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar WeekDay",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.WeekDay",
           "name": "Thursday",
           "package": "time-recurrence",
@@ -476,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.WeekDay",
           "name": "Tuesday",
           "package": "time-recurrence",
@@ -485,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar WeekDay",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.WeekDay",
           "name": "Tuesday",
           "package": "time-recurrence",
@@ -498,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Calendar.WeekDay",
           "name": "Wednesday",
           "package": "time-recurrence",
@@ -507,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Data Time Calendar WeekDay",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Calendar.WeekDay",
           "name": "Wednesday",
           "package": "time-recurrence",
@@ -520,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.CalendarTime",
           "name": "CalendarTime",
           "package": "time-recurrence",
@@ -528,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Data Time CalendarTime",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.CalendarTime",
           "name": "CalendarTime",
           "package": "time-recurrence",
@@ -542,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA representation of calendar time separated into year, month, day, and so on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.CalendarTime",
           "name": "CalendarTime",
           "package": "time-recurrence",
@@ -551,6 +600,7 @@
         "index": {
           "description": "representation of calendar time separated into year month day and so on",
           "hierarchy": "Data Time CalendarTime",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.CalendarTime",
           "name": "CalendarTime",
           "package": "time-recurrence",
@@ -565,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of types which can be converted to a \u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.CalendarTime",
           "name": "CalendarTimeConvertible",
           "package": "time-recurrence",
@@ -574,6 +625,7 @@
         "index": {
           "description": "The class of types which can be converted to CalendarTime",
           "hierarchy": "Data Time CalendarTime",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.CalendarTime",
           "name": "CalendarTimeConvertible",
           "package": "time-recurrence",
@@ -817,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.CalendarTime",
           "name": "daysInYear",
           "package": "time-recurrence",
@@ -826,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Data Time CalendarTime",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.CalendarTime",
           "name": "daysInYear",
           "normalized": "a-\u003eInt",
@@ -842,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from a \u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.CalendarTime",
           "name": "fromCalendarTime",
           "package": "time-recurrence",
@@ -852,6 +907,7 @@
         "index": {
           "description": "Convert from CalendarTime",
           "hierarchy": "Data Time CalendarTime",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.CalendarTime",
           "name": "fromCalendarTime",
           "normalized": "CalendarTime-\u003eMaybe a",
@@ -867,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.CalendarTime",
           "name": "lastDayOfMonth",
           "package": "time-recurrence",
@@ -876,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Data Time CalendarTime",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.CalendarTime",
           "name": "lastDayOfMonth",
           "normalized": "a-\u003eInt",
@@ -892,6 +950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to a \u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.CalendarTime",
           "name": "toCalendarTime",
           "package": "time-recurrence",
@@ -902,6 +961,7 @@
         "index": {
           "description": "Convert to CalendarTime",
           "hierarchy": "Data Time CalendarTime",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.CalendarTime",
           "name": "toCalendarTime",
           "normalized": "a-\u003eCalendarTime",
@@ -918,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to a \u003ccode\u003e\u003ca\u003eDay\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.CalendarTime",
           "name": "toDay",
           "package": "time-recurrence",
@@ -928,6 +989,7 @@
         "index": {
           "description": "Convert to Day",
           "hierarchy": "Data Time CalendarTime",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.CalendarTime",
           "name": "toDay",
           "normalized": "CalendarTime-\u003eMaybe Day",
@@ -944,6 +1006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to a \u003ccode\u003e\u003ca\u003eTimeOfDay\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.CalendarTime",
           "name": "toTimeOfDay",
           "package": "time-recurrence",
@@ -954,6 +1017,7 @@
         "index": {
           "description": "Convert to TimeOfDay",
           "hierarchy": "Data Time CalendarTime",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.CalendarTime",
           "name": "toTimeOfDay",
           "normalized": "CalendarTime-\u003eMaybe TimeOfDay",
@@ -969,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.CalendarTime",
           "name": "weekNumber",
           "package": "time-recurrence",
@@ -978,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Data Time CalendarTime",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.CalendarTime",
           "name": "weekNumber",
           "normalized": "StartOfWeek-\u003ea-\u003eMaybe Int",
@@ -994,6 +1060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange y-m-d in \u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.CalendarTime",
           "name": "withDay",
           "package": "time-recurrence",
@@ -1004,6 +1071,7 @@
         "index": {
           "description": "Change y-m-d in CalendarTime",
           "hierarchy": "Data Time CalendarTime",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.CalendarTime",
           "name": "withDay",
           "normalized": "CalendarTime-\u003eDay-\u003eCalendarTime",
@@ -1019,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Moment",
           "name": "Moment",
           "package": "time-recurrence",
@@ -1027,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Data Time Moment",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Moment",
           "name": "Moment",
           "package": "time-recurrence",
@@ -1040,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.AndThen",
           "name": "AndThen",
           "package": "time-recurrence",
@@ -1048,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence AndThen",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.AndThen",
           "name": "AndThen",
           "package": "time-recurrence",
@@ -1061,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.AndThen",
           "name": "AndThen",
           "package": "time-recurrence",
@@ -1069,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence AndThen",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.AndThen",
           "name": "AndThen",
           "package": "time-recurrence",
@@ -1082,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.AndThen",
           "name": "(\u003e==\u003e)",
           "package": "time-recurrence",
@@ -1091,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence AndThen",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.AndThen",
           "name": "(\u003e==\u003e) \u003e==\u003e",
           "normalized": "a-\u003eb-\u003ec",
@@ -1105,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "Schedule",
           "package": "time-recurrence",
@@ -1113,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence Schedule",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "Schedule",
           "package": "time-recurrence",
@@ -1126,6 +1204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "Freq",
           "package": "time-recurrence",
@@ -1134,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence Schedule",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "Freq",
           "package": "time-recurrence",
@@ -1147,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "Schedule",
           "package": "time-recurrence",
@@ -1155,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence Schedule",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "Schedule",
           "package": "time-recurrence",
@@ -1168,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "And",
           "package": "time-recurrence",
@@ -1177,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence Schedule",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "And",
           "normalized": "Schedule Freq-\u003eScheduleDetails a-\u003eSchedule(ScheduleDetails a)",
@@ -1192,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "Recur",
           "package": "time-recurrence",
@@ -1201,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence Schedule",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "Recur",
           "normalized": "Freq-\u003eSchedule Freq",
@@ -1217,6 +1303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypically called infix on an existing \u003ccode\u003e\u003ca\u003eFreq\u003c/a\u003e\u003c/code\u003e, like:\n\u003c/p\u003e\u003cpre\u003e monthly `by` 2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "by",
           "package": "time-recurrence",
@@ -1227,6 +1314,7 @@
         "index": {
           "description": "Typically called infix on an existing Freq like monthly by",
           "hierarchy": "Data Time Recurrence Schedule",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "by",
           "normalized": "Freq-\u003eInteger-\u003eFreq",
@@ -1241,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "daily",
           "package": "time-recurrence",
@@ -1250,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence Schedule",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "daily",
           "package": "time-recurrence",
@@ -1262,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "eval",
           "package": "time-recurrence",
@@ -1271,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence Schedule",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "eval",
           "normalized": "Schedule a-\u003eb-\u003e[b]",
@@ -1285,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "hourly",
           "package": "time-recurrence",
@@ -1294,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence Schedule",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "hourly",
           "package": "time-recurrence",
@@ -1306,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "minutely",
           "package": "time-recurrence",
@@ -1315,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence Schedule",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "minutely",
           "package": "time-recurrence",
@@ -1327,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "monthly",
           "package": "time-recurrence",
@@ -1336,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence Schedule",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "monthly",
           "package": "time-recurrence",
@@ -1348,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "recur",
           "package": "time-recurrence",
@@ -1357,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence Schedule",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "recur",
           "normalized": "Freq-\u003eSchedule Freq",
@@ -1371,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "secondly",
           "package": "time-recurrence",
@@ -1380,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence Schedule",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "secondly",
           "package": "time-recurrence",
@@ -1392,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "starting",
           "package": "time-recurrence",
@@ -1401,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence Schedule",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "starting",
           "normalized": "a-\u003eSchedule b-\u003e[a]",
@@ -1415,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "weekly",
           "package": "time-recurrence",
@@ -1424,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence Schedule",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "weekly",
           "package": "time-recurrence",
@@ -1437,6 +1543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypically called infix on an existing \u003ccode\u003e\u003ca\u003eFreq\u003c/a\u003e\u003c/code\u003e, like:\n\u003c/p\u003e\u003cpre\u003e weekly `withStartOfWeek` Tuesday\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "withStartOfWeek",
           "package": "time-recurrence",
@@ -1447,6 +1554,7 @@
         "index": {
           "description": "Typically called infix on an existing Freq like weekly withStartOfWeek Tuesday",
           "hierarchy": "Data Time Recurrence Schedule",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "withStartOfWeek",
           "normalized": "Freq-\u003eWeekDay-\u003eFreq",
@@ -1462,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "yearly",
           "package": "time-recurrence",
@@ -1471,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence Schedule",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.Schedule",
           "name": "yearly",
           "package": "time-recurrence",
@@ -1483,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "ScheduleDetails",
           "package": "time-recurrence",
@@ -1491,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "ScheduleDetails",
           "package": "time-recurrence",
@@ -1504,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "EnumerablePeriodFilter",
           "package": "time-recurrence",
@@ -1512,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "EnumerablePeriodFilter",
           "package": "time-recurrence",
@@ -1525,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "FilterablePeriodFilter",
           "package": "time-recurrence",
@@ -1533,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "FilterablePeriodFilter",
           "package": "time-recurrence",
@@ -1546,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "PeriodFilter",
           "package": "time-recurrence",
@@ -1554,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "PeriodFilter",
           "package": "time-recurrence",
@@ -1567,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "ScheduleDetails",
           "package": "time-recurrence",
@@ -1575,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "ScheduleDetails",
           "package": "time-recurrence",
@@ -1588,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "SelectablePeriodFilter",
           "package": "time-recurrence",
@@ -1596,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "SelectablePeriodFilter",
           "package": "time-recurrence",
@@ -1609,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "Days",
           "package": "time-recurrence",
@@ -1618,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "Days",
           "normalized": "Days[Int]",
@@ -1633,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "EPF",
           "package": "time-recurrence",
@@ -1642,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "EPF",
           "package": "time-recurrence",
@@ -1655,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "FPF",
           "package": "time-recurrence",
@@ -1664,6 +1791,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "FPF",
           "package": "time-recurrence",
@@ -1677,6 +1805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "Hours",
           "package": "time-recurrence",
@@ -1686,6 +1815,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "Hours",
           "normalized": "Hours[Int]",
@@ -1701,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "Minutes",
           "package": "time-recurrence",
@@ -1710,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "Minutes",
           "normalized": "Minutes[Int]",
@@ -1725,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "Months",
           "package": "time-recurrence",
@@ -1734,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "Months",
           "normalized": "Months[a]",
@@ -1749,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "SPF",
           "package": "time-recurrence",
@@ -1758,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "SPF",
           "package": "time-recurrence",
@@ -1771,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "Seconds",
           "package": "time-recurrence",
@@ -1780,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "Seconds",
           "normalized": "Seconds[Int]",
@@ -1795,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "WeekDays",
           "package": "time-recurrence",
@@ -1804,6 +1943,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "WeekDays",
           "normalized": "WeekDays[a]",
@@ -1819,6 +1959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "WeekDaysInMonth",
           "package": "time-recurrence",
@@ -1828,6 +1969,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "WeekDaysInMonth",
           "normalized": "WeekDaysInMonth[a]",
@@ -1843,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "WeekDaysInWeek",
           "package": "time-recurrence",
@@ -1852,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "WeekDaysInWeek",
           "normalized": "WeekDaysInWeek[a]",
@@ -1867,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "Weeks",
           "package": "time-recurrence",
@@ -1876,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "Weeks",
           "normalized": "Weeks[Int]",
@@ -1891,6 +2037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "YearDays",
           "package": "time-recurrence",
@@ -1900,6 +2047,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "YearDays",
           "normalized": "YearDays[Int]",
@@ -1915,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "enum",
           "package": "time-recurrence",
@@ -1924,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "enum",
           "normalized": "PeriodFilter Month WeekDay NotEnumerable-\u003eScheduleDetails EnumerablePeriodFilter",
@@ -1938,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "eval",
           "package": "time-recurrence",
@@ -1947,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "eval",
           "normalized": "ScheduleDetails a-\u003e[b]-\u003eFutureMoments b",
@@ -1961,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "filter",
           "package": "time-recurrence",
@@ -1970,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "filter",
           "normalized": "PeriodFilter Month NotFilterable WeekDay-\u003eScheduleDetails FilterablePeriodFilter",
@@ -1984,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "fromEPF",
           "package": "time-recurrence",
@@ -1993,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "fromEPF",
           "package": "time-recurrence",
@@ -2006,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "fromFPF",
           "package": "time-recurrence",
@@ -2015,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "fromFPF",
           "package": "time-recurrence",
@@ -2028,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "fromSPF",
           "package": "time-recurrence",
@@ -2037,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "fromSPF",
           "package": "time-recurrence",
@@ -2050,6 +2210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "select",
           "package": "time-recurrence",
@@ -2059,6 +2220,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence ScheduleDetails",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence.ScheduleDetails",
           "name": "select",
           "normalized": "PeriodFilter Int Int Int-\u003eScheduleDetails SelectablePeriodFilter",
@@ -2073,6 +2235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence",
           "name": "Recurrence",
           "package": "time-recurrence",
@@ -2081,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Data Time Recurrence",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence",
           "name": "Recurrence",
           "package": "time-recurrence",
@@ -2095,6 +2259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA representation of calendar time separated into year, month, day, and so on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence",
           "name": "CalendarTime",
           "package": "time-recurrence",
@@ -2104,6 +2269,7 @@
         "index": {
           "description": "representation of calendar time separated into year month day and so on",
           "hierarchy": "Data Time Recurrence",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence",
           "name": "CalendarTime",
           "package": "time-recurrence",
@@ -2118,6 +2284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eMoment\u003c/code\u003e class is for representing a instance in time.\n\u003c/p\u003e\u003cp\u003eInstances of \u003ccode\u003eMoment\u003c/code\u003e can be derived for any user-defined\n datatype for which can satisfy the minimal complete definition.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003eepoch\u003c/code\u003e, \u003ccode\u003eaddSeconds\u003c/code\u003e, \u003ccode\u003eaddMonths\u003c/code\u003e, \u003ccode\u003eaddYears\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:50 UTC 2014",
           "module": "Data.Time.Recurrence",
           "name": "Moment",
           "package": "time-recurrence",
@@ -2127,6 +2294,7 @@
         "index": {
           "description": "The Moment class is for representing instance in time Instances of Moment can be derived for any user-defined datatype for which can satisfy the minimal complete definition Minimal complete definition epoch addSeconds addMonths addYears",
           "hierarchy": "Data Time Recurrence",
+          "indexed": "2014-03-11T20:22:50",
           "module": "Data.Time.Recurrence",
           "name": "Moment",
           "package": "time-recurrence",

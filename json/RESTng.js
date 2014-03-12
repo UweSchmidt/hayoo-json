@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "RESTng"
+        "phrase": "RESTng",
+        "type": "phrase"
       },
       "type": "context"
     }

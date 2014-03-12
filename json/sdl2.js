@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sdl2"
+        "phrase": "sdl2",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "Audio",
           "package": "sdl2",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "Audio",
           "package": "sdl2",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "audioInit",
           "package": "sdl2",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "audioInit",
           "normalized": "CString-\u003eIO CInt",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "audioQuit",
           "package": "sdl2",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "audioQuit",
           "normalized": "IO()",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "buildAudioCVT",
           "package": "sdl2",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "buildAudioCVT",
           "normalized": "Ptr AudioCVT-\u003eAudioFormat-\u003eWord-\u003eCInt-\u003eAudioFormat-\u003eWord-\u003eCInt-\u003eIO CInt",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "closeAudio",
           "package": "sdl2",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "closeAudio",
           "normalized": "IO()",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "closeAudioDevice",
           "package": "sdl2",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "closeAudioDevice",
           "normalized": "AudioDeviceID-\u003eIO()",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "convertAudio",
           "package": "sdl2",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "convertAudio",
           "normalized": "Ptr AudioCVT-\u003eIO CInt",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "freeWAV",
           "package": "sdl2",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "freeWAV",
           "normalized": "Ptr Word-\u003eIO()",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "getAudioDeviceName",
           "package": "sdl2",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "getAudioDeviceName",
           "normalized": "CInt-\u003eCInt-\u003eIO CString",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "getAudioDeviceStatus",
           "package": "sdl2",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "getAudioDeviceStatus",
           "normalized": "AudioDeviceID-\u003eIO AudioStatus",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "getAudioDriver",
           "package": "sdl2",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "getAudioDriver",
           "normalized": "CInt-\u003eIO CString",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "getAudioStatus",
           "package": "sdl2",
@@ -288,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "getAudioStatus",
           "package": "sdl2",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "getCurrentAudioDriver",
           "package": "sdl2",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "getCurrentAudioDriver",
           "package": "sdl2",
@@ -323,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "getNumAudioDevices",
           "package": "sdl2",
@@ -332,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "getNumAudioDevices",
           "normalized": "CInt-\u003eIO CInt",
@@ -347,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "getNumAudioDrivers",
           "package": "sdl2",
@@ -356,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "getNumAudioDrivers",
           "package": "sdl2",
@@ -369,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "loadWAV",
           "package": "sdl2",
@@ -378,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "loadWAV",
           "normalized": "CString-\u003ePtr AudioSpec-\u003ePtr(Ptr Word)-\u003ePtr Word-\u003eIO(Ptr AudioSpec)",
@@ -393,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "loadWAV_RW",
           "package": "sdl2",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "loadWAV_RW",
           "normalized": "Ptr RWops-\u003eCInt-\u003ePtr AudioSpec-\u003ePtr(Ptr Word)-\u003ePtr Word-\u003eIO(Ptr AudioSpec)",
@@ -417,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "lockAudio",
           "package": "sdl2",
@@ -426,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "lockAudio",
           "normalized": "IO()",
@@ -441,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "lockAudioDevice",
           "package": "sdl2",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "lockAudioDevice",
           "normalized": "AudioDeviceID-\u003eIO()",
@@ -465,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "mixAudio",
           "package": "sdl2",
@@ -474,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "mixAudio",
           "normalized": "Ptr Word-\u003ePtr Word-\u003eWord-\u003eCInt-\u003eIO()",
@@ -489,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "mixAudioFormat",
           "package": "sdl2",
@@ -498,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "mixAudioFormat",
           "normalized": "Ptr Word-\u003ePtr Word-\u003eAudioFormat-\u003eWord-\u003eCInt-\u003eIO()",
@@ -513,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "openAudio",
           "package": "sdl2",
@@ -522,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "openAudio",
           "normalized": "Ptr AudioSpec-\u003ePtr AudioSpec-\u003eIO CInt",
@@ -537,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "openAudioDevice",
           "package": "sdl2",
@@ -546,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "openAudioDevice",
           "normalized": "CString-\u003eCInt-\u003ePtr AudioSpec-\u003ePtr AudioSpec-\u003eCInt-\u003eIO AudioDeviceID",
@@ -561,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "pauseAudio",
           "package": "sdl2",
@@ -570,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "pauseAudio",
           "normalized": "CInt-\u003eIO()",
@@ -585,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "pauseAudioDevice",
           "package": "sdl2",
@@ -594,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "pauseAudioDevice",
           "normalized": "AudioDeviceID-\u003eCInt-\u003eIO()",
@@ -609,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "unlockAudio",
           "package": "sdl2",
@@ -618,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "unlockAudio",
           "normalized": "IO()",
@@ -633,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Audio",
           "name": "unlockAudioDevice",
           "package": "sdl2",
@@ -642,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Audio",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Audio",
           "name": "unlockAudioDevice",
           "normalized": "AudioDeviceID-\u003eIO()",
@@ -657,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "Basic",
           "package": "sdl2",
@@ -665,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "Basic",
           "package": "sdl2",
@@ -678,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "addHintCallback",
           "package": "sdl2",
@@ -687,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "addHintCallback",
           "normalized": "CString-\u003eHintCallback-\u003ePtr()-\u003eIO()",
@@ -702,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "clearError",
           "package": "sdl2",
@@ -711,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "clearError",
           "normalized": "IO()",
@@ -726,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "clearHints",
           "package": "sdl2",
@@ -735,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "clearHints",
           "normalized": "IO()",
@@ -750,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "delHintCallback",
           "package": "sdl2",
@@ -759,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "delHintCallback",
           "normalized": "CString-\u003eHintCallback-\u003ePtr()-\u003eIO()",
@@ -774,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "getError",
           "package": "sdl2",
@@ -783,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "getError",
           "package": "sdl2",
@@ -796,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "getHint",
           "package": "sdl2",
@@ -805,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "getHint",
           "normalized": "CString-\u003eIO CString",
@@ -820,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "getRevision",
           "package": "sdl2",
@@ -829,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "getRevision",
           "package": "sdl2",
@@ -842,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "getRevisionNumber",
           "package": "sdl2",
@@ -851,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "getRevisionNumber",
           "package": "sdl2",
@@ -864,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "getVersion",
           "package": "sdl2",
@@ -873,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "getVersion",
           "normalized": "Ptr Version-\u003eIO()",
@@ -888,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "init",
           "package": "sdl2",
@@ -897,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "init",
           "normalized": "Word-\u003eIO CInt",
@@ -911,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "initSubSystem",
           "package": "sdl2",
@@ -920,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "initSubSystem",
           "normalized": "Word-\u003eIO CInt",
@@ -935,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "logGetOutputFunction",
           "package": "sdl2",
@@ -944,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "logGetOutputFunction",
           "normalized": "Ptr LogOutputFunction-\u003ePtr(Ptr())-\u003eIO()",
@@ -959,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "logGetPriority",
           "package": "sdl2",
@@ -968,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "logGetPriority",
           "normalized": "CInt-\u003eIO LogPriority",
@@ -983,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "logResetPriorities",
           "package": "sdl2",
@@ -992,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "logResetPriorities",
           "normalized": "IO()",
@@ -1007,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "logSetAllPriority",
           "package": "sdl2",
@@ -1016,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "logSetAllPriority",
           "normalized": "LogPriority-\u003eIO()",
@@ -1031,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "logSetOutputFunction",
           "package": "sdl2",
@@ -1040,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "logSetOutputFunction",
           "normalized": "LogOutputFunction-\u003ePtr()-\u003eIO()",
@@ -1055,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "logSetPriority",
           "package": "sdl2",
@@ -1064,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "logSetPriority",
           "normalized": "CInt-\u003eLogPriority-\u003eIO()",
@@ -1079,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "quit",
           "package": "sdl2",
@@ -1088,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "quit",
           "normalized": "IO()",
@@ -1102,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "quitSubSystem",
           "package": "sdl2",
@@ -1111,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "quitSubSystem",
           "normalized": "Word-\u003eIO()",
@@ -1126,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "setHint",
           "package": "sdl2",
@@ -1135,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "setHint",
           "normalized": "CString-\u003eCString-\u003eIO Bool",
@@ -1150,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "setHintWithPriority",
           "package": "sdl2",
@@ -1159,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "setHintWithPriority",
           "normalized": "CString-\u003eCString-\u003eHintPriority-\u003eIO Bool",
@@ -1174,6 +1272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "setMainReady",
           "package": "sdl2",
@@ -1183,6 +1282,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "setMainReady",
           "normalized": "IO()",
@@ -1198,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Basic",
           "name": "wasInit",
           "package": "sdl2",
@@ -1207,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Basic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Basic",
           "name": "wasInit",
           "normalized": "Word-\u003eIO Word",
@@ -1222,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "Enum",
           "package": "sdl2",
@@ -1230,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "Enum",
           "package": "sdl2",
@@ -1243,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "AudioStatus",
           "package": "sdl2",
@@ -1251,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "AudioStatus",
           "package": "sdl2",
@@ -1264,6 +1370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "BlendMode",
           "package": "sdl2",
@@ -1272,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "BlendMode",
           "package": "sdl2",
@@ -1285,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "EventAction",
           "package": "sdl2",
@@ -1293,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "EventAction",
           "package": "sdl2",
@@ -1306,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "GLattr",
           "package": "sdl2",
@@ -1314,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "GLattr",
           "package": "sdl2",
@@ -1327,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "GameControllerAxis",
           "package": "sdl2",
@@ -1335,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "GameControllerAxis",
           "package": "sdl2",
@@ -1348,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "GameControllerButton",
           "package": "sdl2",
@@ -1356,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "GameControllerButton",
           "package": "sdl2",
@@ -1369,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "HintPriority",
           "package": "sdl2",
@@ -1377,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "HintPriority",
           "package": "sdl2",
@@ -1390,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "Keymod",
           "package": "sdl2",
@@ -1398,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "Keymod",
           "package": "sdl2",
@@ -1411,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "LogPriority",
           "package": "sdl2",
@@ -1419,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "LogPriority",
           "package": "sdl2",
@@ -1432,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "PowerState",
           "package": "sdl2",
@@ -1440,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "PowerState",
           "package": "sdl2",
@@ -1453,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "RendererFlip",
           "package": "sdl2",
@@ -1461,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "RendererFlip",
           "package": "sdl2",
@@ -1474,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "Scancode",
           "package": "sdl2",
@@ -1482,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "Scancode",
           "package": "sdl2",
@@ -1495,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "SystemCursor",
           "package": "sdl2",
@@ -1503,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "SystemCursor",
           "package": "sdl2",
@@ -1516,6 +1646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "audioStatusPaused",
           "package": "sdl2",
@@ -1525,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "audioStatusPaused",
           "package": "sdl2",
@@ -1538,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "audioStatusPlaying",
           "package": "sdl2",
@@ -1547,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "audioStatusPlaying",
           "package": "sdl2",
@@ -1560,6 +1694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "audioStatusStopped",
           "package": "sdl2",
@@ -1569,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "audioStatusStopped",
           "package": "sdl2",
@@ -1582,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "blendModeAdd",
           "package": "sdl2",
@@ -1591,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "blendModeAdd",
           "package": "sdl2",
@@ -1604,6 +1742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "blendModeBlend",
           "package": "sdl2",
@@ -1613,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "blendModeBlend",
           "package": "sdl2",
@@ -1626,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "blendModeMod",
           "package": "sdl2",
@@ -1635,6 +1776,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "blendModeMod",
           "package": "sdl2",
@@ -1648,6 +1790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "blendModeNone",
           "package": "sdl2",
@@ -1657,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "blendModeNone",
           "package": "sdl2",
@@ -1670,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventActionAddEvent",
           "package": "sdl2",
@@ -1679,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventActionAddEvent",
           "package": "sdl2",
@@ -1692,6 +1838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventActionGetEvent",
           "package": "sdl2",
@@ -1701,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventActionGetEvent",
           "package": "sdl2",
@@ -1714,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventActionPeekEvent",
           "package": "sdl2",
@@ -1723,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventActionPeekEvent",
           "package": "sdl2",
@@ -1736,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeAppDidEnterBackground",
           "package": "sdl2",
@@ -1745,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeAppDidEnterBackground",
           "package": "sdl2",
@@ -1758,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeAppDidEnterForeground",
           "package": "sdl2",
@@ -1767,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeAppDidEnterForeground",
           "package": "sdl2",
@@ -1780,6 +1934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeAppLowMemory",
           "package": "sdl2",
@@ -1789,6 +1944,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeAppLowMemory",
           "package": "sdl2",
@@ -1802,6 +1958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeAppTerminating",
           "package": "sdl2",
@@ -1811,6 +1968,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeAppTerminating",
           "package": "sdl2",
@@ -1824,6 +1982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeAppWillEnterBackground",
           "package": "sdl2",
@@ -1833,6 +1992,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeAppWillEnterBackground",
           "package": "sdl2",
@@ -1846,6 +2006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeAppWillEnterForeground",
           "package": "sdl2",
@@ -1855,6 +2016,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeAppWillEnterForeground",
           "package": "sdl2",
@@ -1868,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeClipboardUpdate",
           "package": "sdl2",
@@ -1877,6 +2040,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeClipboardUpdate",
           "package": "sdl2",
@@ -1890,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeControllerAxisMotion",
           "package": "sdl2",
@@ -1899,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeControllerAxisMotion",
           "package": "sdl2",
@@ -1912,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeControllerButtonDown",
           "package": "sdl2",
@@ -1921,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeControllerButtonDown",
           "package": "sdl2",
@@ -1934,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeControllerButtonUp",
           "package": "sdl2",
@@ -1943,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeControllerButtonUp",
           "package": "sdl2",
@@ -1956,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeControllerDeviceAdded",
           "package": "sdl2",
@@ -1965,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeControllerDeviceAdded",
           "package": "sdl2",
@@ -1978,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeControllerDeviceRemapped",
           "package": "sdl2",
@@ -1987,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeControllerDeviceRemapped",
           "package": "sdl2",
@@ -2000,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeControllerDeviceRemoved",
           "package": "sdl2",
@@ -2009,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeControllerDeviceRemoved",
           "package": "sdl2",
@@ -2022,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeDollarGesture",
           "package": "sdl2",
@@ -2031,6 +2208,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeDollarGesture",
           "package": "sdl2",
@@ -2044,6 +2222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeDollarRecord",
           "package": "sdl2",
@@ -2053,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeDollarRecord",
           "package": "sdl2",
@@ -2066,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeDropFile",
           "package": "sdl2",
@@ -2075,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeDropFile",
           "package": "sdl2",
@@ -2088,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeFingerDown",
           "package": "sdl2",
@@ -2097,6 +2280,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeFingerDown",
           "package": "sdl2",
@@ -2110,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeFingerMotion",
           "package": "sdl2",
@@ -2119,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeFingerMotion",
           "package": "sdl2",
@@ -2132,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeFingerUp",
           "package": "sdl2",
@@ -2141,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeFingerUp",
           "package": "sdl2",
@@ -2154,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeFirstEvent",
           "package": "sdl2",
@@ -2163,6 +2352,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeFirstEvent",
           "package": "sdl2",
@@ -2176,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeJoyAxisMotion",
           "package": "sdl2",
@@ -2185,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeJoyAxisMotion",
           "package": "sdl2",
@@ -2198,6 +2390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeJoyBallMotion",
           "package": "sdl2",
@@ -2207,6 +2400,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeJoyBallMotion",
           "package": "sdl2",
@@ -2220,6 +2414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeJoyButtonDown",
           "package": "sdl2",
@@ -2229,6 +2424,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeJoyButtonDown",
           "package": "sdl2",
@@ -2242,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeJoyButtonUp",
           "package": "sdl2",
@@ -2251,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeJoyButtonUp",
           "package": "sdl2",
@@ -2264,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeJoyDeviceAdded",
           "package": "sdl2",
@@ -2273,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeJoyDeviceAdded",
           "package": "sdl2",
@@ -2286,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeJoyDeviceRemoved",
           "package": "sdl2",
@@ -2295,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeJoyDeviceRemoved",
           "package": "sdl2",
@@ -2308,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeJoyHatMotion",
           "package": "sdl2",
@@ -2317,6 +2520,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeJoyHatMotion",
           "package": "sdl2",
@@ -2330,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeKeyDown",
           "package": "sdl2",
@@ -2339,6 +2544,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeKeyDown",
           "package": "sdl2",
@@ -2352,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeKeyUp",
           "package": "sdl2",
@@ -2361,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeKeyUp",
           "package": "sdl2",
@@ -2374,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeLastEvent",
           "package": "sdl2",
@@ -2383,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeLastEvent",
           "package": "sdl2",
@@ -2396,6 +2606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeMouseButtonDown",
           "package": "sdl2",
@@ -2405,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeMouseButtonDown",
           "package": "sdl2",
@@ -2418,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeMouseButtonUp",
           "package": "sdl2",
@@ -2427,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeMouseButtonUp",
           "package": "sdl2",
@@ -2440,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeMouseMotion",
           "package": "sdl2",
@@ -2449,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeMouseMotion",
           "package": "sdl2",
@@ -2462,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeMouseWheel",
           "package": "sdl2",
@@ -2471,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeMouseWheel",
           "package": "sdl2",
@@ -2484,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeMultiGesture",
           "package": "sdl2",
@@ -2493,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeMultiGesture",
           "package": "sdl2",
@@ -2506,6 +2726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeQuit",
           "package": "sdl2",
@@ -2515,6 +2736,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeQuit",
           "package": "sdl2",
@@ -2528,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeSysWMEvent",
           "package": "sdl2",
@@ -2537,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeSysWMEvent",
           "package": "sdl2",
@@ -2550,6 +2774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeTextEditing",
           "package": "sdl2",
@@ -2559,6 +2784,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeTextEditing",
           "package": "sdl2",
@@ -2572,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeTextInput",
           "package": "sdl2",
@@ -2581,6 +2808,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeTextInput",
           "package": "sdl2",
@@ -2594,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeUserEvent",
           "package": "sdl2",
@@ -2603,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeUserEvent",
           "package": "sdl2",
@@ -2616,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeWindowEvent",
           "package": "sdl2",
@@ -2625,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "eventTypeWindowEvent",
           "package": "sdl2",
@@ -2638,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerAxisInvalid",
           "package": "sdl2",
@@ -2647,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerAxisInvalid",
           "package": "sdl2",
@@ -2660,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerAxisLeftX",
           "package": "sdl2",
@@ -2669,6 +2904,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerAxisLeftX",
           "package": "sdl2",
@@ -2682,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerAxisLeftY",
           "package": "sdl2",
@@ -2691,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerAxisLeftY",
           "package": "sdl2",
@@ -2704,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerAxisMax",
           "package": "sdl2",
@@ -2713,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerAxisMax",
           "package": "sdl2",
@@ -2726,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerAxisRightX",
           "package": "sdl2",
@@ -2735,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerAxisRightX",
           "package": "sdl2",
@@ -2748,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerAxisRightY",
           "package": "sdl2",
@@ -2757,6 +3000,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerAxisRightY",
           "package": "sdl2",
@@ -2770,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerAxisTriggerLeft",
           "package": "sdl2",
@@ -2779,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerAxisTriggerLeft",
           "package": "sdl2",
@@ -2792,6 +3038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerAxisTriggerRight",
           "package": "sdl2",
@@ -2801,6 +3048,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerAxisTriggerRight",
           "package": "sdl2",
@@ -2814,6 +3062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonA",
           "package": "sdl2",
@@ -2823,6 +3072,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonA",
           "package": "sdl2",
@@ -2836,6 +3086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonB",
           "package": "sdl2",
@@ -2845,6 +3096,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonB",
           "package": "sdl2",
@@ -2858,6 +3110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonBack",
           "package": "sdl2",
@@ -2867,6 +3120,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonBack",
           "package": "sdl2",
@@ -2880,6 +3134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonDPadDown",
           "package": "sdl2",
@@ -2889,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonDPadDown",
           "package": "sdl2",
@@ -2902,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonDPadLeft",
           "package": "sdl2",
@@ -2911,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonDPadLeft",
           "package": "sdl2",
@@ -2924,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonDPadRight",
           "package": "sdl2",
@@ -2933,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonDPadRight",
           "package": "sdl2",
@@ -2946,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonDPadUp",
           "package": "sdl2",
@@ -2955,6 +3216,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonDPadUp",
           "package": "sdl2",
@@ -2968,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonGuide",
           "package": "sdl2",
@@ -2977,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonGuide",
           "package": "sdl2",
@@ -2990,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonInvalid",
           "package": "sdl2",
@@ -2999,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonInvalid",
           "package": "sdl2",
@@ -3012,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonLeftShoulder",
           "package": "sdl2",
@@ -3021,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonLeftShoulder",
           "package": "sdl2",
@@ -3034,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonLeftStick",
           "package": "sdl2",
@@ -3043,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonLeftStick",
           "package": "sdl2",
@@ -3056,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonMax",
           "package": "sdl2",
@@ -3065,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonMax",
           "package": "sdl2",
@@ -3078,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonRightShoulder",
           "package": "sdl2",
@@ -3087,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonRightShoulder",
           "package": "sdl2",
@@ -3100,6 +3374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonRightStick",
           "package": "sdl2",
@@ -3109,6 +3384,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonRightStick",
           "package": "sdl2",
@@ -3122,6 +3398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonStart",
           "package": "sdl2",
@@ -3131,6 +3408,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonStart",
           "package": "sdl2",
@@ -3144,6 +3422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonX",
           "package": "sdl2",
@@ -3153,6 +3432,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonX",
           "package": "sdl2",
@@ -3166,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonY",
           "package": "sdl2",
@@ -3175,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "gameControllerButtonY",
           "package": "sdl2",
@@ -3188,6 +3470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrAcceleratedVisual",
           "package": "sdl2",
@@ -3197,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrAcceleratedVisual",
           "package": "sdl2",
@@ -3210,6 +3494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrAccumAlphaSize",
           "package": "sdl2",
@@ -3219,6 +3504,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrAccumAlphaSize",
           "package": "sdl2",
@@ -3232,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrAccumBlueSize",
           "package": "sdl2",
@@ -3241,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrAccumBlueSize",
           "package": "sdl2",
@@ -3254,6 +3542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrAccumGreenSize",
           "package": "sdl2",
@@ -3263,6 +3552,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrAccumGreenSize",
           "package": "sdl2",
@@ -3276,6 +3566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrAccumRedSize",
           "package": "sdl2",
@@ -3285,6 +3576,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrAccumRedSize",
           "package": "sdl2",
@@ -3298,6 +3590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrAlphaSize",
           "package": "sdl2",
@@ -3307,6 +3600,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrAlphaSize",
           "package": "sdl2",
@@ -3320,6 +3614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrBlueSize",
           "package": "sdl2",
@@ -3329,6 +3624,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrBlueSize",
           "package": "sdl2",
@@ -3342,6 +3638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrBufferSize",
           "package": "sdl2",
@@ -3351,6 +3648,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrBufferSize",
           "package": "sdl2",
@@ -3364,6 +3662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrContextEGL",
           "package": "sdl2",
@@ -3373,6 +3672,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrContextEGL",
           "package": "sdl2",
@@ -3386,6 +3686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrContextFlags",
           "package": "sdl2",
@@ -3395,6 +3696,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrContextFlags",
           "package": "sdl2",
@@ -3408,6 +3710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrContextMajorVersion",
           "package": "sdl2",
@@ -3417,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrContextMajorVersion",
           "package": "sdl2",
@@ -3430,6 +3734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrContextMinorVersion",
           "package": "sdl2",
@@ -3439,6 +3744,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrContextMinorVersion",
           "package": "sdl2",
@@ -3452,6 +3758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrContextProfileMask",
           "package": "sdl2",
@@ -3461,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrContextProfileMask",
           "package": "sdl2",
@@ -3474,6 +3782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrDepthSize",
           "package": "sdl2",
@@ -3483,6 +3792,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrDepthSize",
           "package": "sdl2",
@@ -3496,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrDoubleBuffer",
           "package": "sdl2",
@@ -3505,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrDoubleBuffer",
           "package": "sdl2",
@@ -3518,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrFramebufferSRGBCapable",
           "package": "sdl2",
@@ -3527,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrFramebufferSRGBCapable",
           "package": "sdl2",
@@ -3540,6 +3854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrGreenSize",
           "package": "sdl2",
@@ -3549,6 +3864,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrGreenSize",
           "package": "sdl2",
@@ -3562,6 +3878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrMultiSampleBuffers",
           "package": "sdl2",
@@ -3571,6 +3888,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrMultiSampleBuffers",
           "package": "sdl2",
@@ -3584,6 +3902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrMultiSampleSamples",
           "package": "sdl2",
@@ -3593,6 +3912,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrMultiSampleSamples",
           "package": "sdl2",
@@ -3606,6 +3926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrRedSize",
           "package": "sdl2",
@@ -3615,6 +3936,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrRedSize",
           "package": "sdl2",
@@ -3628,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrRetainedBacking",
           "package": "sdl2",
@@ -3637,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrRetainedBacking",
           "package": "sdl2",
@@ -3650,6 +3974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrShareWithCurrentContext",
           "package": "sdl2",
@@ -3659,6 +3984,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrShareWithCurrentContext",
           "package": "sdl2",
@@ -3672,6 +3998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrStencilSize",
           "package": "sdl2",
@@ -3681,6 +4008,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrStencilSize",
           "package": "sdl2",
@@ -3694,6 +4022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrStereo",
           "package": "sdl2",
@@ -3703,6 +4032,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glAttrStereo",
           "package": "sdl2",
@@ -3716,6 +4046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glContextFlagDebug",
           "package": "sdl2",
@@ -3725,6 +4056,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glContextFlagDebug",
           "package": "sdl2",
@@ -3738,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glContextFlagForwardCompatible",
           "package": "sdl2",
@@ -3747,6 +4080,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glContextFlagForwardCompatible",
           "package": "sdl2",
@@ -3760,6 +4094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glContextFlagResetIsolation",
           "package": "sdl2",
@@ -3769,6 +4104,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glContextFlagResetIsolation",
           "package": "sdl2",
@@ -3782,6 +4118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glContextFlagRobustAccess",
           "package": "sdl2",
@@ -3791,6 +4128,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glContextFlagRobustAccess",
           "package": "sdl2",
@@ -3804,6 +4142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glProfileCompatibility",
           "package": "sdl2",
@@ -3813,6 +4152,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glProfileCompatibility",
           "package": "sdl2",
@@ -3826,6 +4166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glProfileCore",
           "package": "sdl2",
@@ -3835,6 +4176,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glProfileCore",
           "package": "sdl2",
@@ -3848,6 +4190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glProfileES",
           "package": "sdl2",
@@ -3857,6 +4200,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "glProfileES",
           "package": "sdl2",
@@ -3870,6 +4214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "hintPriorityDefault",
           "package": "sdl2",
@@ -3879,6 +4224,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "hintPriorityDefault",
           "package": "sdl2",
@@ -3892,6 +4238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "hintPriorityNormal",
           "package": "sdl2",
@@ -3901,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "hintPriorityNormal",
           "package": "sdl2",
@@ -3914,6 +4262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "hintPriorityOverride",
           "package": "sdl2",
@@ -3923,6 +4272,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "hintPriorityOverride",
           "package": "sdl2",
@@ -3936,6 +4286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "initFlagAudio",
           "package": "sdl2",
@@ -3945,6 +4296,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "initFlagAudio",
           "package": "sdl2",
@@ -3958,6 +4310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "initFlagEvents",
           "package": "sdl2",
@@ -3967,6 +4320,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "initFlagEvents",
           "package": "sdl2",
@@ -3980,6 +4334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "initFlagEverything",
           "package": "sdl2",
@@ -3989,6 +4344,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "initFlagEverything",
           "package": "sdl2",
@@ -4002,6 +4358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "initFlagGameController",
           "package": "sdl2",
@@ -4011,6 +4368,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "initFlagGameController",
           "package": "sdl2",
@@ -4024,6 +4382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "initFlagHaptic",
           "package": "sdl2",
@@ -4033,6 +4392,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "initFlagHaptic",
           "package": "sdl2",
@@ -4046,6 +4406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "initFlagJoystick",
           "package": "sdl2",
@@ -4055,6 +4416,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "initFlagJoystick",
           "package": "sdl2",
@@ -4068,6 +4430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "initFlagNoParachute",
           "package": "sdl2",
@@ -4077,6 +4440,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "initFlagNoParachute",
           "package": "sdl2",
@@ -4090,6 +4454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "initFlagTimer",
           "package": "sdl2",
@@ -4099,6 +4464,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "initFlagTimer",
           "package": "sdl2",
@@ -4112,6 +4478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "initFlagVideo",
           "package": "sdl2",
@@ -4121,6 +4488,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "initFlagVideo",
           "package": "sdl2",
@@ -4134,6 +4502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "joystickHatCentered",
           "package": "sdl2",
@@ -4143,6 +4512,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "joystickHatCentered",
           "package": "sdl2",
@@ -4156,6 +4526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "joystickHatDown",
           "package": "sdl2",
@@ -4165,6 +4536,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "joystickHatDown",
           "package": "sdl2",
@@ -4178,6 +4550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "joystickHatLeft",
           "package": "sdl2",
@@ -4187,6 +4560,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "joystickHatLeft",
           "package": "sdl2",
@@ -4200,6 +4574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "joystickHatLeftDown",
           "package": "sdl2",
@@ -4209,6 +4584,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "joystickHatLeftDown",
           "package": "sdl2",
@@ -4222,6 +4598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "joystickHatLeftUp",
           "package": "sdl2",
@@ -4231,6 +4608,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "joystickHatLeftUp",
           "package": "sdl2",
@@ -4244,6 +4622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "joystickHatRight",
           "package": "sdl2",
@@ -4253,6 +4632,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "joystickHatRight",
           "package": "sdl2",
@@ -4266,6 +4646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "joystickHatRightDown",
           "package": "sdl2",
@@ -4275,6 +4656,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "joystickHatRightDown",
           "package": "sdl2",
@@ -4288,6 +4670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "joystickHatRightUp",
           "package": "sdl2",
@@ -4297,6 +4680,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "joystickHatRightUp",
           "package": "sdl2",
@@ -4310,6 +4694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "joystickHatUp",
           "package": "sdl2",
@@ -4319,6 +4704,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "joystickHatUp",
           "package": "sdl2",
@@ -4332,6 +4718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodCaps",
           "package": "sdl2",
@@ -4341,6 +4728,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodCaps",
           "package": "sdl2",
@@ -4354,6 +4742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodLAlt",
           "package": "sdl2",
@@ -4363,6 +4752,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodLAlt",
           "package": "sdl2",
@@ -4376,6 +4766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodLCtrl",
           "package": "sdl2",
@@ -4385,6 +4776,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodLCtrl",
           "package": "sdl2",
@@ -4398,6 +4790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodLGUI",
           "package": "sdl2",
@@ -4407,6 +4800,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodLGUI",
           "package": "sdl2",
@@ -4420,6 +4814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodLShift",
           "package": "sdl2",
@@ -4429,6 +4824,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodLShift",
           "package": "sdl2",
@@ -4442,6 +4838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodMode",
           "package": "sdl2",
@@ -4451,6 +4848,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodMode",
           "package": "sdl2",
@@ -4464,6 +4862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodNone",
           "package": "sdl2",
@@ -4473,6 +4872,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodNone",
           "package": "sdl2",
@@ -4486,6 +4886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodNum",
           "package": "sdl2",
@@ -4495,6 +4896,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodNum",
           "package": "sdl2",
@@ -4508,6 +4910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodRAlt",
           "package": "sdl2",
@@ -4517,6 +4920,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodRAlt",
           "package": "sdl2",
@@ -4530,6 +4934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodRCtrl",
           "package": "sdl2",
@@ -4539,6 +4944,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodRCtrl",
           "package": "sdl2",
@@ -4552,6 +4958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodRGUI",
           "package": "sdl2",
@@ -4561,6 +4968,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodRGUI",
           "package": "sdl2",
@@ -4574,6 +4982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodRShift",
           "package": "sdl2",
@@ -4583,6 +4992,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodRShift",
           "package": "sdl2",
@@ -4596,6 +5006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodReserved",
           "package": "sdl2",
@@ -4605,6 +5016,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "keymodReserved",
           "package": "sdl2",
@@ -4618,6 +5030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "logPriorityCritical",
           "package": "sdl2",
@@ -4627,6 +5040,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "logPriorityCritical",
           "package": "sdl2",
@@ -4640,6 +5054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "logPriorityDebug",
           "package": "sdl2",
@@ -4649,6 +5064,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "logPriorityDebug",
           "package": "sdl2",
@@ -4662,6 +5078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "logPriorityError",
           "package": "sdl2",
@@ -4671,6 +5088,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "logPriorityError",
           "package": "sdl2",
@@ -4684,6 +5102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "logPriorityInfo",
           "package": "sdl2",
@@ -4693,6 +5112,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "logPriorityInfo",
           "package": "sdl2",
@@ -4706,6 +5126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "logPriorityPriorities",
           "package": "sdl2",
@@ -4715,6 +5136,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "logPriorityPriorities",
           "package": "sdl2",
@@ -4728,6 +5150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "logPriorityVerbose",
           "package": "sdl2",
@@ -4737,6 +5160,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "logPriorityVerbose",
           "package": "sdl2",
@@ -4750,6 +5174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "logPriorityWarn",
           "package": "sdl2",
@@ -4759,6 +5184,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "logPriorityWarn",
           "package": "sdl2",
@@ -4772,6 +5198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "messageBoxButtonFlagEscapeKeyDefault",
           "package": "sdl2",
@@ -4781,6 +5208,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "messageBoxButtonFlagEscapeKeyDefault",
           "package": "sdl2",
@@ -4794,6 +5222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "messageBoxButtonFlagReturnKeyDefault",
           "package": "sdl2",
@@ -4803,6 +5232,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "messageBoxButtonFlagReturnKeyDefault",
           "package": "sdl2",
@@ -4816,6 +5246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "messageBoxFlagError",
           "package": "sdl2",
@@ -4825,6 +5256,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "messageBoxFlagError",
           "package": "sdl2",
@@ -4838,6 +5270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "messageBoxFlagInformation",
           "package": "sdl2",
@@ -4847,6 +5280,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "messageBoxFlagInformation",
           "package": "sdl2",
@@ -4860,6 +5294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "messageBoxFlagWarning",
           "package": "sdl2",
@@ -4869,6 +5304,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "messageBoxFlagWarning",
           "package": "sdl2",
@@ -4882,6 +5318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "powerStateCharged",
           "package": "sdl2",
@@ -4891,6 +5328,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "powerStateCharged",
           "package": "sdl2",
@@ -4904,6 +5342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "powerStateCharging",
           "package": "sdl2",
@@ -4913,6 +5352,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "powerStateCharging",
           "package": "sdl2",
@@ -4926,6 +5366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "powerStateNoBattery",
           "package": "sdl2",
@@ -4935,6 +5376,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "powerStateNoBattery",
           "package": "sdl2",
@@ -4948,6 +5390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "powerStateOnBattery",
           "package": "sdl2",
@@ -4957,6 +5400,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "powerStateOnBattery",
           "package": "sdl2",
@@ -4970,6 +5414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "powerStateUnknown",
           "package": "sdl2",
@@ -4979,6 +5424,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "powerStateUnknown",
           "package": "sdl2",
@@ -4992,6 +5438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "rendererFlagAccelerated",
           "package": "sdl2",
@@ -5001,6 +5448,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "rendererFlagAccelerated",
           "package": "sdl2",
@@ -5014,6 +5462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "rendererFlagPresentVSync",
           "package": "sdl2",
@@ -5023,6 +5472,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "rendererFlagPresentVSync",
           "package": "sdl2",
@@ -5036,6 +5486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "rendererFlagSoftware",
           "package": "sdl2",
@@ -5045,6 +5496,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "rendererFlagSoftware",
           "package": "sdl2",
@@ -5058,6 +5510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "rendererFlagTargetTexture",
           "package": "sdl2",
@@ -5067,6 +5520,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "rendererFlagTargetTexture",
           "package": "sdl2",
@@ -5080,6 +5534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "rendererFlipHorizontal",
           "package": "sdl2",
@@ -5089,6 +5544,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "rendererFlipHorizontal",
           "package": "sdl2",
@@ -5102,6 +5558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "rendererFlipNone",
           "package": "sdl2",
@@ -5111,6 +5568,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "rendererFlipNone",
           "package": "sdl2",
@@ -5124,6 +5582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "rendererFlipVertical",
           "package": "sdl2",
@@ -5133,6 +5592,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "rendererFlipVertical",
           "package": "sdl2",
@@ -5146,6 +5606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode0",
           "package": "sdl2",
@@ -5155,6 +5616,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode0",
           "package": "sdl2",
@@ -5167,6 +5629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode1",
           "package": "sdl2",
@@ -5176,6 +5639,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode1",
           "package": "sdl2",
@@ -5188,6 +5652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode2",
           "package": "sdl2",
@@ -5197,6 +5662,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode2",
           "package": "sdl2",
@@ -5209,6 +5675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode3",
           "package": "sdl2",
@@ -5218,6 +5685,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode3",
           "package": "sdl2",
@@ -5230,6 +5698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode4",
           "package": "sdl2",
@@ -5239,6 +5708,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode4",
           "package": "sdl2",
@@ -5251,6 +5721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode5",
           "package": "sdl2",
@@ -5260,6 +5731,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode5",
           "package": "sdl2",
@@ -5272,6 +5744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode6",
           "package": "sdl2",
@@ -5281,6 +5754,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode6",
           "package": "sdl2",
@@ -5293,6 +5767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode7",
           "package": "sdl2",
@@ -5302,6 +5777,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode7",
           "package": "sdl2",
@@ -5314,6 +5790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode8",
           "package": "sdl2",
@@ -5323,6 +5800,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode8",
           "package": "sdl2",
@@ -5335,6 +5813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode9",
           "package": "sdl2",
@@ -5344,6 +5823,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancode9",
           "package": "sdl2",
@@ -5356,6 +5836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeA",
           "package": "sdl2",
@@ -5365,6 +5846,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeA",
           "package": "sdl2",
@@ -5377,6 +5859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeACBack",
           "package": "sdl2",
@@ -5386,6 +5869,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeACBack",
           "package": "sdl2",
@@ -5399,6 +5883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeACBookmarks",
           "package": "sdl2",
@@ -5408,6 +5893,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeACBookmarks",
           "package": "sdl2",
@@ -5421,6 +5907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeACForward",
           "package": "sdl2",
@@ -5430,6 +5917,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeACForward",
           "package": "sdl2",
@@ -5443,6 +5931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeACHome",
           "package": "sdl2",
@@ -5452,6 +5941,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeACHome",
           "package": "sdl2",
@@ -5465,6 +5955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeACRefresh",
           "package": "sdl2",
@@ -5474,6 +5965,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeACRefresh",
           "package": "sdl2",
@@ -5487,6 +5979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeACSearch",
           "package": "sdl2",
@@ -5496,6 +5989,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeACSearch",
           "package": "sdl2",
@@ -5509,6 +6003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeACStop",
           "package": "sdl2",
@@ -5518,6 +6013,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeACStop",
           "package": "sdl2",
@@ -5531,6 +6027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeAgain",
           "package": "sdl2",
@@ -5540,6 +6037,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeAgain",
           "package": "sdl2",
@@ -5553,6 +6051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeAltErase",
           "package": "sdl2",
@@ -5562,6 +6061,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeAltErase",
           "package": "sdl2",
@@ -5575,6 +6075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeApostrophe",
           "package": "sdl2",
@@ -5584,6 +6085,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeApostrophe",
           "package": "sdl2",
@@ -5597,6 +6099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeApp1",
           "package": "sdl2",
@@ -5606,6 +6109,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeApp1",
           "package": "sdl2",
@@ -5619,6 +6123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeApp2",
           "package": "sdl2",
@@ -5628,6 +6133,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeApp2",
           "package": "sdl2",
@@ -5641,6 +6147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeApplication",
           "package": "sdl2",
@@ -5650,6 +6157,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeApplication",
           "package": "sdl2",
@@ -5663,6 +6171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeAudioMute",
           "package": "sdl2",
@@ -5672,6 +6181,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeAudioMute",
           "package": "sdl2",
@@ -5685,6 +6195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeAudioNext",
           "package": "sdl2",
@@ -5694,6 +6205,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeAudioNext",
           "package": "sdl2",
@@ -5707,6 +6219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeAudioPlay",
           "package": "sdl2",
@@ -5716,6 +6229,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeAudioPlay",
           "package": "sdl2",
@@ -5729,6 +6243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeAudioPrev",
           "package": "sdl2",
@@ -5738,6 +6253,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeAudioPrev",
           "package": "sdl2",
@@ -5751,6 +6267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeAudioStop",
           "package": "sdl2",
@@ -5760,6 +6277,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeAudioStop",
           "package": "sdl2",
@@ -5773,6 +6291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeB",
           "package": "sdl2",
@@ -5782,6 +6301,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeB",
           "package": "sdl2",
@@ -5794,6 +6314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeBackslash",
           "package": "sdl2",
@@ -5803,6 +6324,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeBackslash",
           "package": "sdl2",
@@ -5816,6 +6338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeBackspace",
           "package": "sdl2",
@@ -5825,6 +6348,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeBackspace",
           "package": "sdl2",
@@ -5838,6 +6362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeBrightnessDown",
           "package": "sdl2",
@@ -5847,6 +6372,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeBrightnessDown",
           "package": "sdl2",
@@ -5860,6 +6386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeBrightnessUp",
           "package": "sdl2",
@@ -5869,6 +6396,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeBrightnessUp",
           "package": "sdl2",
@@ -5882,6 +6410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeC",
           "package": "sdl2",
@@ -5891,6 +6420,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeC",
           "package": "sdl2",
@@ -5903,6 +6433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeCalculator",
           "package": "sdl2",
@@ -5912,6 +6443,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeCalculator",
           "package": "sdl2",
@@ -5925,6 +6457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeCancel",
           "package": "sdl2",
@@ -5934,6 +6467,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeCancel",
           "package": "sdl2",
@@ -5947,6 +6481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeCapsLock",
           "package": "sdl2",
@@ -5956,6 +6491,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeCapsLock",
           "package": "sdl2",
@@ -5969,6 +6505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeClear",
           "package": "sdl2",
@@ -5978,6 +6515,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeClear",
           "package": "sdl2",
@@ -5991,6 +6529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeClearAgain",
           "package": "sdl2",
@@ -6000,6 +6539,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeClearAgain",
           "package": "sdl2",
@@ -6013,6 +6553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeComma",
           "package": "sdl2",
@@ -6022,6 +6563,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeComma",
           "package": "sdl2",
@@ -6035,6 +6577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeComputer",
           "package": "sdl2",
@@ -6044,6 +6587,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeComputer",
           "package": "sdl2",
@@ -6057,6 +6601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeCopy",
           "package": "sdl2",
@@ -6066,6 +6611,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeCopy",
           "package": "sdl2",
@@ -6079,6 +6625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeCrSel",
           "package": "sdl2",
@@ -6088,6 +6635,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeCrSel",
           "package": "sdl2",
@@ -6101,6 +6649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeCurrencySubunit",
           "package": "sdl2",
@@ -6110,6 +6659,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeCurrencySubunit",
           "package": "sdl2",
@@ -6123,6 +6673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeCurrencyUnit",
           "package": "sdl2",
@@ -6132,6 +6683,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeCurrencyUnit",
           "package": "sdl2",
@@ -6145,6 +6697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeCut",
           "package": "sdl2",
@@ -6154,6 +6707,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeCut",
           "package": "sdl2",
@@ -6167,6 +6721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeD",
           "package": "sdl2",
@@ -6176,6 +6731,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeD",
           "package": "sdl2",
@@ -6188,6 +6744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeDecimalSeparator",
           "package": "sdl2",
@@ -6197,6 +6754,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeDecimalSeparator",
           "package": "sdl2",
@@ -6210,6 +6768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeDelete",
           "package": "sdl2",
@@ -6219,6 +6778,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeDelete",
           "package": "sdl2",
@@ -6232,6 +6792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeDisplaySwitch",
           "package": "sdl2",
@@ -6241,6 +6802,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeDisplaySwitch",
           "package": "sdl2",
@@ -6254,6 +6816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeDown",
           "package": "sdl2",
@@ -6263,6 +6826,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeDown",
           "package": "sdl2",
@@ -6276,6 +6840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeE",
           "package": "sdl2",
@@ -6285,6 +6850,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeE",
           "package": "sdl2",
@@ -6297,6 +6863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeEject",
           "package": "sdl2",
@@ -6306,6 +6873,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeEject",
           "package": "sdl2",
@@ -6319,6 +6887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeEnd",
           "package": "sdl2",
@@ -6328,6 +6897,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeEnd",
           "package": "sdl2",
@@ -6341,6 +6911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeEquals",
           "package": "sdl2",
@@ -6350,6 +6921,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeEquals",
           "package": "sdl2",
@@ -6363,6 +6935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeEqualsAs400",
           "package": "sdl2",
@@ -6372,6 +6945,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeEqualsAs400",
           "package": "sdl2",
@@ -6385,6 +6959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeEscape",
           "package": "sdl2",
@@ -6394,6 +6969,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeEscape",
           "package": "sdl2",
@@ -6407,6 +6983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeExSel",
           "package": "sdl2",
@@ -6416,6 +6993,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeExSel",
           "package": "sdl2",
@@ -6429,6 +7007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeExecute",
           "package": "sdl2",
@@ -6438,6 +7017,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeExecute",
           "package": "sdl2",
@@ -6451,6 +7031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF",
           "package": "sdl2",
@@ -6460,6 +7041,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF",
           "package": "sdl2",
@@ -6472,6 +7054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF1",
           "package": "sdl2",
@@ -6481,6 +7064,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF1",
           "package": "sdl2",
@@ -6493,6 +7077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF10",
           "package": "sdl2",
@@ -6502,6 +7087,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF10",
           "package": "sdl2",
@@ -6514,6 +7100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF11",
           "package": "sdl2",
@@ -6523,6 +7110,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF11",
           "package": "sdl2",
@@ -6535,6 +7123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF12",
           "package": "sdl2",
@@ -6544,6 +7133,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF12",
           "package": "sdl2",
@@ -6556,6 +7146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF13",
           "package": "sdl2",
@@ -6565,6 +7156,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF13",
           "package": "sdl2",
@@ -6577,6 +7169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF14",
           "package": "sdl2",
@@ -6586,6 +7179,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF14",
           "package": "sdl2",
@@ -6598,6 +7192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF15",
           "package": "sdl2",
@@ -6607,6 +7202,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF15",
           "package": "sdl2",
@@ -6619,6 +7215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF16",
           "package": "sdl2",
@@ -6628,6 +7225,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF16",
           "package": "sdl2",
@@ -6640,6 +7238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF17",
           "package": "sdl2",
@@ -6649,6 +7248,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF17",
           "package": "sdl2",
@@ -6661,6 +7261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF18",
           "package": "sdl2",
@@ -6670,6 +7271,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF18",
           "package": "sdl2",
@@ -6682,6 +7284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF19",
           "package": "sdl2",
@@ -6691,6 +7294,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF19",
           "package": "sdl2",
@@ -6703,6 +7307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF2",
           "package": "sdl2",
@@ -6712,6 +7317,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF2",
           "package": "sdl2",
@@ -6724,6 +7330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF20",
           "package": "sdl2",
@@ -6733,6 +7340,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF20",
           "package": "sdl2",
@@ -6745,6 +7353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF21",
           "package": "sdl2",
@@ -6754,6 +7363,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF21",
           "package": "sdl2",
@@ -6766,6 +7376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF22",
           "package": "sdl2",
@@ -6775,6 +7386,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF22",
           "package": "sdl2",
@@ -6787,6 +7399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF23",
           "package": "sdl2",
@@ -6796,6 +7409,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF23",
           "package": "sdl2",
@@ -6808,6 +7422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF24",
           "package": "sdl2",
@@ -6817,6 +7432,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF24",
           "package": "sdl2",
@@ -6829,6 +7445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF3",
           "package": "sdl2",
@@ -6838,6 +7455,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF3",
           "package": "sdl2",
@@ -6850,6 +7468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF4",
           "package": "sdl2",
@@ -6859,6 +7478,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF4",
           "package": "sdl2",
@@ -6871,6 +7491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF5",
           "package": "sdl2",
@@ -6880,6 +7501,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF5",
           "package": "sdl2",
@@ -6892,6 +7514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF6",
           "package": "sdl2",
@@ -6901,6 +7524,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF6",
           "package": "sdl2",
@@ -6913,6 +7537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF7",
           "package": "sdl2",
@@ -6922,6 +7547,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF7",
           "package": "sdl2",
@@ -6934,6 +7560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF8",
           "package": "sdl2",
@@ -6943,6 +7570,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF8",
           "package": "sdl2",
@@ -6955,6 +7583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF9",
           "package": "sdl2",
@@ -6964,6 +7593,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeF9",
           "package": "sdl2",
@@ -6976,6 +7606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeFind",
           "package": "sdl2",
@@ -6985,6 +7616,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeFind",
           "package": "sdl2",
@@ -6998,6 +7630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeG",
           "package": "sdl2",
@@ -7007,6 +7640,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeG",
           "package": "sdl2",
@@ -7019,6 +7653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeGrave",
           "package": "sdl2",
@@ -7028,6 +7663,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeGrave",
           "package": "sdl2",
@@ -7041,6 +7677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeH",
           "package": "sdl2",
@@ -7050,6 +7687,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeH",
           "package": "sdl2",
@@ -7062,6 +7700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeHelp",
           "package": "sdl2",
@@ -7071,6 +7710,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeHelp",
           "package": "sdl2",
@@ -7084,6 +7724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeHome",
           "package": "sdl2",
@@ -7093,6 +7734,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeHome",
           "package": "sdl2",
@@ -7106,6 +7748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeI",
           "package": "sdl2",
@@ -7115,6 +7758,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeI",
           "package": "sdl2",
@@ -7127,6 +7771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInsert",
           "package": "sdl2",
@@ -7136,6 +7781,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInsert",
           "package": "sdl2",
@@ -7149,6 +7795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInternational1",
           "package": "sdl2",
@@ -7158,6 +7805,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInternational1",
           "package": "sdl2",
@@ -7171,6 +7819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInternational2",
           "package": "sdl2",
@@ -7180,6 +7829,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInternational2",
           "package": "sdl2",
@@ -7193,6 +7843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInternational3",
           "package": "sdl2",
@@ -7202,6 +7853,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInternational3",
           "package": "sdl2",
@@ -7215,6 +7867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInternational4",
           "package": "sdl2",
@@ -7224,6 +7877,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInternational4",
           "package": "sdl2",
@@ -7237,6 +7891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInternational5",
           "package": "sdl2",
@@ -7246,6 +7901,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInternational5",
           "package": "sdl2",
@@ -7259,6 +7915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInternational6",
           "package": "sdl2",
@@ -7268,6 +7925,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInternational6",
           "package": "sdl2",
@@ -7281,6 +7939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInternational7",
           "package": "sdl2",
@@ -7290,6 +7949,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInternational7",
           "package": "sdl2",
@@ -7303,6 +7963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInternational8",
           "package": "sdl2",
@@ -7312,6 +7973,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInternational8",
           "package": "sdl2",
@@ -7325,6 +7987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInternational9",
           "package": "sdl2",
@@ -7334,6 +7997,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeInternational9",
           "package": "sdl2",
@@ -7347,6 +8011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeJ",
           "package": "sdl2",
@@ -7356,6 +8021,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeJ",
           "package": "sdl2",
@@ -7368,6 +8034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeK",
           "package": "sdl2",
@@ -7377,6 +8044,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeK",
           "package": "sdl2",
@@ -7389,6 +8057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKBDIllumDown",
           "package": "sdl2",
@@ -7398,6 +8067,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKBDIllumDown",
           "package": "sdl2",
@@ -7411,6 +8081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKBDIllumToggle",
           "package": "sdl2",
@@ -7420,6 +8091,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKBDIllumToggle",
           "package": "sdl2",
@@ -7433,6 +8105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKBDIllumUp",
           "package": "sdl2",
@@ -7442,6 +8115,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKBDIllumUp",
           "package": "sdl2",
@@ -7455,6 +8129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP0",
           "package": "sdl2",
@@ -7464,6 +8139,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP0",
           "package": "sdl2",
@@ -7477,6 +8153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP00",
           "package": "sdl2",
@@ -7486,6 +8163,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP00",
           "package": "sdl2",
@@ -7499,6 +8177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP000",
           "package": "sdl2",
@@ -7508,6 +8187,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP000",
           "package": "sdl2",
@@ -7521,6 +8201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP1",
           "package": "sdl2",
@@ -7530,6 +8211,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP1",
           "package": "sdl2",
@@ -7543,6 +8225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP2",
           "package": "sdl2",
@@ -7552,6 +8235,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP2",
           "package": "sdl2",
@@ -7565,6 +8249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP3",
           "package": "sdl2",
@@ -7574,6 +8259,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP3",
           "package": "sdl2",
@@ -7587,6 +8273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP4",
           "package": "sdl2",
@@ -7596,6 +8283,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP4",
           "package": "sdl2",
@@ -7609,6 +8297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP5",
           "package": "sdl2",
@@ -7618,6 +8307,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP5",
           "package": "sdl2",
@@ -7631,6 +8321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP6",
           "package": "sdl2",
@@ -7640,6 +8331,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP6",
           "package": "sdl2",
@@ -7653,6 +8345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP7",
           "package": "sdl2",
@@ -7662,6 +8355,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP7",
           "package": "sdl2",
@@ -7675,6 +8369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP8",
           "package": "sdl2",
@@ -7684,6 +8379,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP8",
           "package": "sdl2",
@@ -7697,6 +8393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP9",
           "package": "sdl2",
@@ -7706,6 +8403,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKP9",
           "package": "sdl2",
@@ -7719,6 +8417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPA",
           "package": "sdl2",
@@ -7728,6 +8427,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPA",
           "package": "sdl2",
@@ -7741,6 +8441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPAmpersand",
           "package": "sdl2",
@@ -7750,6 +8451,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPAmpersand",
           "package": "sdl2",
@@ -7763,6 +8465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPAt",
           "package": "sdl2",
@@ -7772,6 +8475,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPAt",
           "package": "sdl2",
@@ -7785,6 +8489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPB",
           "package": "sdl2",
@@ -7794,6 +8499,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPB",
           "package": "sdl2",
@@ -7807,6 +8513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPBackspace",
           "package": "sdl2",
@@ -7816,6 +8523,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPBackspace",
           "package": "sdl2",
@@ -7829,6 +8537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPBinary",
           "package": "sdl2",
@@ -7838,6 +8547,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPBinary",
           "package": "sdl2",
@@ -7851,6 +8561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPC",
           "package": "sdl2",
@@ -7860,6 +8571,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPC",
           "package": "sdl2",
@@ -7873,6 +8585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPClear",
           "package": "sdl2",
@@ -7882,6 +8595,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPClear",
           "package": "sdl2",
@@ -7895,6 +8609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPClearEntry",
           "package": "sdl2",
@@ -7904,6 +8619,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPClearEntry",
           "package": "sdl2",
@@ -7917,6 +8633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPColon",
           "package": "sdl2",
@@ -7926,6 +8643,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPColon",
           "package": "sdl2",
@@ -7939,6 +8657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPComma",
           "package": "sdl2",
@@ -7948,6 +8667,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPComma",
           "package": "sdl2",
@@ -7961,6 +8681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPD",
           "package": "sdl2",
@@ -7970,6 +8691,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPD",
           "package": "sdl2",
@@ -7983,6 +8705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPDBLAmpersand",
           "package": "sdl2",
@@ -7992,6 +8715,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPDBLAmpersand",
           "package": "sdl2",
@@ -8005,6 +8729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPDBLVerticalBar",
           "package": "sdl2",
@@ -8014,6 +8739,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPDBLVerticalBar",
           "package": "sdl2",
@@ -8027,6 +8753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPDecimal",
           "package": "sdl2",
@@ -8036,6 +8763,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPDecimal",
           "package": "sdl2",
@@ -8049,6 +8777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPDivide",
           "package": "sdl2",
@@ -8058,6 +8787,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPDivide",
           "package": "sdl2",
@@ -8071,6 +8801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPE",
           "package": "sdl2",
@@ -8080,6 +8811,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPE",
           "package": "sdl2",
@@ -8093,6 +8825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPEnter",
           "package": "sdl2",
@@ -8102,6 +8835,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPEnter",
           "package": "sdl2",
@@ -8115,6 +8849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPEquals",
           "package": "sdl2",
@@ -8124,6 +8859,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPEquals",
           "package": "sdl2",
@@ -8137,6 +8873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPExclam",
           "package": "sdl2",
@@ -8146,6 +8883,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPExclam",
           "package": "sdl2",
@@ -8159,6 +8897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPF",
           "package": "sdl2",
@@ -8168,6 +8907,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPF",
           "package": "sdl2",
@@ -8181,6 +8921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPGreater",
           "package": "sdl2",
@@ -8190,6 +8931,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPGreater",
           "package": "sdl2",
@@ -8203,6 +8945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPHash",
           "package": "sdl2",
@@ -8212,6 +8955,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPHash",
           "package": "sdl2",
@@ -8225,6 +8969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPHexadecimal",
           "package": "sdl2",
@@ -8234,6 +8979,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPHexadecimal",
           "package": "sdl2",
@@ -8247,6 +8993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPLess",
           "package": "sdl2",
@@ -8256,6 +9003,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPLess",
           "package": "sdl2",
@@ -8269,6 +9017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPMemAdd",
           "package": "sdl2",
@@ -8278,6 +9027,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPMemAdd",
           "package": "sdl2",
@@ -8291,6 +9041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPMemClear",
           "package": "sdl2",
@@ -8300,6 +9051,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPMemClear",
           "package": "sdl2",
@@ -8313,6 +9065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPMemDivide",
           "package": "sdl2",
@@ -8322,6 +9075,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPMemDivide",
           "package": "sdl2",
@@ -8335,6 +9089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPMemMultiply",
           "package": "sdl2",
@@ -8344,6 +9099,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPMemMultiply",
           "package": "sdl2",
@@ -8357,6 +9113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPMemRecall",
           "package": "sdl2",
@@ -8366,6 +9123,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPMemRecall",
           "package": "sdl2",
@@ -8379,6 +9137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPMemStore",
           "package": "sdl2",
@@ -8388,6 +9147,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPMemStore",
           "package": "sdl2",
@@ -8401,6 +9161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPMemSubtract",
           "package": "sdl2",
@@ -8410,6 +9171,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPMemSubtract",
           "package": "sdl2",
@@ -8423,6 +9185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPMinus",
           "package": "sdl2",
@@ -8432,6 +9195,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPMinus",
           "package": "sdl2",
@@ -8445,6 +9209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPMultiply",
           "package": "sdl2",
@@ -8454,6 +9219,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPMultiply",
           "package": "sdl2",
@@ -8467,6 +9233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPOctal",
           "package": "sdl2",
@@ -8476,6 +9243,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPOctal",
           "package": "sdl2",
@@ -8489,6 +9257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPPercent",
           "package": "sdl2",
@@ -8498,6 +9267,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPPercent",
           "package": "sdl2",
@@ -8511,6 +9281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPPeriod",
           "package": "sdl2",
@@ -8520,6 +9291,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPPeriod",
           "package": "sdl2",
@@ -8533,6 +9305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPPlus",
           "package": "sdl2",
@@ -8542,6 +9315,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPPlus",
           "package": "sdl2",
@@ -8555,6 +9329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPPlusMinus",
           "package": "sdl2",
@@ -8564,6 +9339,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPPlusMinus",
           "package": "sdl2",
@@ -8577,6 +9353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPPower",
           "package": "sdl2",
@@ -8586,6 +9363,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPPower",
           "package": "sdl2",
@@ -8599,6 +9377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPSpace",
           "package": "sdl2",
@@ -8608,6 +9387,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPSpace",
           "package": "sdl2",
@@ -8621,6 +9401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPTab",
           "package": "sdl2",
@@ -8630,6 +9411,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPTab",
           "package": "sdl2",
@@ -8643,6 +9425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPVerticalBar",
           "package": "sdl2",
@@ -8652,6 +9435,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPVerticalBar",
           "package": "sdl2",
@@ -8665,6 +9449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPXOR",
           "package": "sdl2",
@@ -8674,6 +9459,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeKPXOR",
           "package": "sdl2",
@@ -8687,6 +9473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeL",
           "package": "sdl2",
@@ -8696,6 +9483,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeL",
           "package": "sdl2",
@@ -8708,6 +9496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLAlt",
           "package": "sdl2",
@@ -8717,6 +9506,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLAlt",
           "package": "sdl2",
@@ -8730,6 +9520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLCtrl",
           "package": "sdl2",
@@ -8739,6 +9530,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLCtrl",
           "package": "sdl2",
@@ -8752,6 +9544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLGUI",
           "package": "sdl2",
@@ -8761,6 +9554,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLGUI",
           "package": "sdl2",
@@ -8774,6 +9568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLShift",
           "package": "sdl2",
@@ -8783,6 +9578,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLShift",
           "package": "sdl2",
@@ -8796,6 +9592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLang1",
           "package": "sdl2",
@@ -8805,6 +9602,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLang1",
           "package": "sdl2",
@@ -8818,6 +9616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLang2",
           "package": "sdl2",
@@ -8827,6 +9626,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLang2",
           "package": "sdl2",
@@ -8840,6 +9640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLang3",
           "package": "sdl2",
@@ -8849,6 +9650,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLang3",
           "package": "sdl2",
@@ -8862,6 +9664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLang4",
           "package": "sdl2",
@@ -8871,6 +9674,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLang4",
           "package": "sdl2",
@@ -8884,6 +9688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLang5",
           "package": "sdl2",
@@ -8893,6 +9698,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLang5",
           "package": "sdl2",
@@ -8906,6 +9712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLang6",
           "package": "sdl2",
@@ -8915,6 +9722,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLang6",
           "package": "sdl2",
@@ -8928,6 +9736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLang7",
           "package": "sdl2",
@@ -8937,6 +9746,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLang7",
           "package": "sdl2",
@@ -8950,6 +9760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLang8",
           "package": "sdl2",
@@ -8959,6 +9770,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLang8",
           "package": "sdl2",
@@ -8972,6 +9784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLang9",
           "package": "sdl2",
@@ -8981,6 +9794,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLang9",
           "package": "sdl2",
@@ -8994,6 +9808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLeft",
           "package": "sdl2",
@@ -9003,6 +9818,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLeft",
           "package": "sdl2",
@@ -9016,6 +9832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLeftBrace",
           "package": "sdl2",
@@ -9025,6 +9842,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLeftBrace",
           "package": "sdl2",
@@ -9038,6 +9856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLeftBracket",
           "package": "sdl2",
@@ -9047,6 +9866,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLeftBracket",
           "package": "sdl2",
@@ -9060,6 +9880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLeftParen",
           "package": "sdl2",
@@ -9069,6 +9890,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeLeftParen",
           "package": "sdl2",
@@ -9082,6 +9904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeM",
           "package": "sdl2",
@@ -9091,6 +9914,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeM",
           "package": "sdl2",
@@ -9103,6 +9927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeMail",
           "package": "sdl2",
@@ -9112,6 +9937,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeMail",
           "package": "sdl2",
@@ -9125,6 +9951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeMediaSelect",
           "package": "sdl2",
@@ -9134,6 +9961,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeMediaSelect",
           "package": "sdl2",
@@ -9147,6 +9975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeMenu",
           "package": "sdl2",
@@ -9156,6 +9985,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeMenu",
           "package": "sdl2",
@@ -9169,6 +9999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeMinus",
           "package": "sdl2",
@@ -9178,6 +10009,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeMinus",
           "package": "sdl2",
@@ -9191,6 +10023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeMode",
           "package": "sdl2",
@@ -9200,6 +10033,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeMode",
           "package": "sdl2",
@@ -9213,6 +10047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeMute",
           "package": "sdl2",
@@ -9222,6 +10057,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeMute",
           "package": "sdl2",
@@ -9235,6 +10071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeN",
           "package": "sdl2",
@@ -9244,6 +10081,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeN",
           "package": "sdl2",
@@ -9256,6 +10094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeNonUSBackslash",
           "package": "sdl2",
@@ -9265,6 +10104,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeNonUSBackslash",
           "package": "sdl2",
@@ -9278,6 +10118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeNonUSHash",
           "package": "sdl2",
@@ -9287,6 +10128,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeNonUSHash",
           "package": "sdl2",
@@ -9300,6 +10142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeNum",
           "package": "sdl2",
@@ -9309,6 +10152,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeNum",
           "package": "sdl2",
@@ -9322,6 +10166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeNumLockClear",
           "package": "sdl2",
@@ -9331,6 +10176,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeNumLockClear",
           "package": "sdl2",
@@ -9344,6 +10190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeO",
           "package": "sdl2",
@@ -9353,6 +10200,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeO",
           "package": "sdl2",
@@ -9365,6 +10213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeOper",
           "package": "sdl2",
@@ -9374,6 +10223,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeOper",
           "package": "sdl2",
@@ -9387,6 +10237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeOut",
           "package": "sdl2",
@@ -9396,6 +10247,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeOut",
           "package": "sdl2",
@@ -9409,6 +10261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeP",
           "package": "sdl2",
@@ -9418,6 +10271,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeP",
           "package": "sdl2",
@@ -9430,6 +10284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodePageDown",
           "package": "sdl2",
@@ -9439,6 +10294,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodePageDown",
           "package": "sdl2",
@@ -9452,6 +10308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodePageUp",
           "package": "sdl2",
@@ -9461,6 +10318,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodePageUp",
           "package": "sdl2",
@@ -9474,6 +10332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodePaste",
           "package": "sdl2",
@@ -9483,6 +10342,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodePaste",
           "package": "sdl2",
@@ -9496,6 +10356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodePause",
           "package": "sdl2",
@@ -9505,6 +10366,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodePause",
           "package": "sdl2",
@@ -9518,6 +10380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodePeriod",
           "package": "sdl2",
@@ -9527,6 +10390,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodePeriod",
           "package": "sdl2",
@@ -9540,6 +10404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodePower",
           "package": "sdl2",
@@ -9549,6 +10414,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodePower",
           "package": "sdl2",
@@ -9562,6 +10428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodePrintScreen",
           "package": "sdl2",
@@ -9571,6 +10438,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodePrintScreen",
           "package": "sdl2",
@@ -9584,6 +10452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodePrior",
           "package": "sdl2",
@@ -9593,6 +10462,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodePrior",
           "package": "sdl2",
@@ -9606,6 +10476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeQ",
           "package": "sdl2",
@@ -9615,6 +10486,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeQ",
           "package": "sdl2",
@@ -9627,6 +10499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeR",
           "package": "sdl2",
@@ -9636,6 +10509,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeR",
           "package": "sdl2",
@@ -9648,6 +10522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeRAlt",
           "package": "sdl2",
@@ -9657,6 +10532,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeRAlt",
           "package": "sdl2",
@@ -9670,6 +10546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeRCtrl",
           "package": "sdl2",
@@ -9679,6 +10556,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeRCtrl",
           "package": "sdl2",
@@ -9692,6 +10570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeRGUI",
           "package": "sdl2",
@@ -9701,6 +10580,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeRGUI",
           "package": "sdl2",
@@ -9714,6 +10594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeRShift",
           "package": "sdl2",
@@ -9723,6 +10604,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeRShift",
           "package": "sdl2",
@@ -9736,6 +10618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeReturn",
           "package": "sdl2",
@@ -9745,6 +10628,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeReturn",
           "package": "sdl2",
@@ -9758,6 +10642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeReturn2",
           "package": "sdl2",
@@ -9767,6 +10652,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeReturn2",
           "package": "sdl2",
@@ -9780,6 +10666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeRight",
           "package": "sdl2",
@@ -9789,6 +10676,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeRight",
           "package": "sdl2",
@@ -9802,6 +10690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeRightBrace",
           "package": "sdl2",
@@ -9811,6 +10700,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeRightBrace",
           "package": "sdl2",
@@ -9824,6 +10714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeRightBracket",
           "package": "sdl2",
@@ -9833,6 +10724,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeRightBracket",
           "package": "sdl2",
@@ -9846,6 +10738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeRightParen",
           "package": "sdl2",
@@ -9855,6 +10748,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeRightParen",
           "package": "sdl2",
@@ -9868,6 +10762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeS",
           "package": "sdl2",
@@ -9877,6 +10772,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeS",
           "package": "sdl2",
@@ -9889,6 +10785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeScrollLock",
           "package": "sdl2",
@@ -9898,6 +10795,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeScrollLock",
           "package": "sdl2",
@@ -9911,6 +10809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeSelect",
           "package": "sdl2",
@@ -9920,6 +10819,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeSelect",
           "package": "sdl2",
@@ -9933,6 +10833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeSemicolon",
           "package": "sdl2",
@@ -9942,6 +10843,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeSemicolon",
           "package": "sdl2",
@@ -9955,6 +10857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeSeparator",
           "package": "sdl2",
@@ -9964,6 +10867,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeSeparator",
           "package": "sdl2",
@@ -9977,6 +10881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeSlash",
           "package": "sdl2",
@@ -9986,6 +10891,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeSlash",
           "package": "sdl2",
@@ -9999,6 +10905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeSleep",
           "package": "sdl2",
@@ -10008,6 +10915,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeSleep",
           "package": "sdl2",
@@ -10021,6 +10929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeSpace",
           "package": "sdl2",
@@ -10030,6 +10939,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeSpace",
           "package": "sdl2",
@@ -10043,6 +10953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeStop",
           "package": "sdl2",
@@ -10052,6 +10963,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeStop",
           "package": "sdl2",
@@ -10065,6 +10977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeSysReq",
           "package": "sdl2",
@@ -10074,6 +10987,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeSysReq",
           "package": "sdl2",
@@ -10087,6 +11001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeT",
           "package": "sdl2",
@@ -10096,6 +11011,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeT",
           "package": "sdl2",
@@ -10108,6 +11024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeTab",
           "package": "sdl2",
@@ -10117,6 +11034,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeTab",
           "package": "sdl2",
@@ -10130,6 +11048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeThousandsSeparator",
           "package": "sdl2",
@@ -10139,6 +11058,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeThousandsSeparator",
           "package": "sdl2",
@@ -10152,6 +11072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeU",
           "package": "sdl2",
@@ -10161,6 +11082,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeU",
           "package": "sdl2",
@@ -10173,6 +11095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeUndo",
           "package": "sdl2",
@@ -10182,6 +11105,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeUndo",
           "package": "sdl2",
@@ -10195,6 +11119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeUnknown",
           "package": "sdl2",
@@ -10204,6 +11129,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeUnknown",
           "package": "sdl2",
@@ -10217,6 +11143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeUp",
           "package": "sdl2",
@@ -10226,6 +11153,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeUp",
           "package": "sdl2",
@@ -10239,6 +11167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeV",
           "package": "sdl2",
@@ -10248,6 +11177,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeV",
           "package": "sdl2",
@@ -10260,6 +11190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeVolumeDown",
           "package": "sdl2",
@@ -10269,6 +11200,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeVolumeDown",
           "package": "sdl2",
@@ -10282,6 +11214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeVolumeUp",
           "package": "sdl2",
@@ -10291,6 +11224,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeVolumeUp",
           "package": "sdl2",
@@ -10304,6 +11238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeW",
           "package": "sdl2",
@@ -10313,6 +11248,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeW",
           "package": "sdl2",
@@ -10325,6 +11261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeWWW",
           "package": "sdl2",
@@ -10334,6 +11271,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeWWW",
           "package": "sdl2",
@@ -10347,6 +11285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeX",
           "package": "sdl2",
@@ -10356,6 +11295,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeX",
           "package": "sdl2",
@@ -10368,6 +11308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeY",
           "package": "sdl2",
@@ -10377,6 +11318,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeY",
           "package": "sdl2",
@@ -10389,6 +11331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeZ",
           "package": "sdl2",
@@ -10398,6 +11341,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "scancodeZ",
           "package": "sdl2",
@@ -10410,6 +11354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorArrow",
           "package": "sdl2",
@@ -10419,6 +11364,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorArrow",
           "package": "sdl2",
@@ -10432,6 +11378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorCrosshair",
           "package": "sdl2",
@@ -10441,6 +11388,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorCrosshair",
           "package": "sdl2",
@@ -10454,6 +11402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorHand",
           "package": "sdl2",
@@ -10463,6 +11412,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorHand",
           "package": "sdl2",
@@ -10476,6 +11426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorIBeam",
           "package": "sdl2",
@@ -10485,6 +11436,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorIBeam",
           "package": "sdl2",
@@ -10498,6 +11450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorNo",
           "package": "sdl2",
@@ -10507,6 +11460,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorNo",
           "package": "sdl2",
@@ -10520,6 +11474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorNum",
           "package": "sdl2",
@@ -10529,6 +11484,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorNum",
           "package": "sdl2",
@@ -10542,6 +11498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorSizeAll",
           "package": "sdl2",
@@ -10551,6 +11508,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorSizeAll",
           "package": "sdl2",
@@ -10564,6 +11522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorSizeNESW",
           "package": "sdl2",
@@ -10573,6 +11532,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorSizeNESW",
           "package": "sdl2",
@@ -10586,6 +11546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorSizeNS",
           "package": "sdl2",
@@ -10595,6 +11556,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorSizeNS",
           "package": "sdl2",
@@ -10608,6 +11570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorSizeNWSE",
           "package": "sdl2",
@@ -10617,6 +11580,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorSizeNWSE",
           "package": "sdl2",
@@ -10630,6 +11594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorSizeWE",
           "package": "sdl2",
@@ -10639,6 +11604,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorSizeWE",
           "package": "sdl2",
@@ -10652,6 +11618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorWait",
           "package": "sdl2",
@@ -10661,6 +11628,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorWait",
           "package": "sdl2",
@@ -10674,6 +11642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorWaitArrow",
           "package": "sdl2",
@@ -10683,6 +11652,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "systemCursorWaitArrow",
           "package": "sdl2",
@@ -10696,6 +11666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "textureAccessStatic",
           "package": "sdl2",
@@ -10705,6 +11676,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "textureAccessStatic",
           "package": "sdl2",
@@ -10718,6 +11690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "textureAccessStreaming",
           "package": "sdl2",
@@ -10727,6 +11700,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "textureAccessStreaming",
           "package": "sdl2",
@@ -10740,6 +11714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "textureAccessTarget",
           "package": "sdl2",
@@ -10749,6 +11724,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "textureAccessTarget",
           "package": "sdl2",
@@ -10762,6 +11738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "textureModulateAlpha",
           "package": "sdl2",
@@ -10771,6 +11748,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "textureModulateAlpha",
           "package": "sdl2",
@@ -10784,6 +11762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "textureModulateColor",
           "package": "sdl2",
@@ -10793,6 +11772,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "textureModulateColor",
           "package": "sdl2",
@@ -10806,6 +11786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "textureModulateNone",
           "package": "sdl2",
@@ -10815,6 +11796,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "textureModulateNone",
           "package": "sdl2",
@@ -10828,6 +11810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventClose",
           "package": "sdl2",
@@ -10837,6 +11820,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventClose",
           "package": "sdl2",
@@ -10850,6 +11834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventEnter",
           "package": "sdl2",
@@ -10859,6 +11844,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventEnter",
           "package": "sdl2",
@@ -10872,6 +11858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventExposed",
           "package": "sdl2",
@@ -10881,6 +11868,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventExposed",
           "package": "sdl2",
@@ -10894,6 +11882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventFocusGained",
           "package": "sdl2",
@@ -10903,6 +11892,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventFocusGained",
           "package": "sdl2",
@@ -10916,6 +11906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventFocusLost",
           "package": "sdl2",
@@ -10925,6 +11916,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventFocusLost",
           "package": "sdl2",
@@ -10938,6 +11930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventHidden",
           "package": "sdl2",
@@ -10947,6 +11940,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventHidden",
           "package": "sdl2",
@@ -10960,6 +11954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventLeave",
           "package": "sdl2",
@@ -10969,6 +11964,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventLeave",
           "package": "sdl2",
@@ -10982,6 +11978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventMaximized",
           "package": "sdl2",
@@ -10991,6 +11988,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventMaximized",
           "package": "sdl2",
@@ -11004,6 +12002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventMinimized",
           "package": "sdl2",
@@ -11013,6 +12012,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventMinimized",
           "package": "sdl2",
@@ -11026,6 +12026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventMoved",
           "package": "sdl2",
@@ -11035,6 +12036,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventMoved",
           "package": "sdl2",
@@ -11048,6 +12050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventNone",
           "package": "sdl2",
@@ -11057,6 +12060,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventNone",
           "package": "sdl2",
@@ -11070,6 +12074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventResized",
           "package": "sdl2",
@@ -11079,6 +12084,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventResized",
           "package": "sdl2",
@@ -11092,6 +12098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventRestored",
           "package": "sdl2",
@@ -11101,6 +12108,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventRestored",
           "package": "sdl2",
@@ -11114,6 +12122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventShown",
           "package": "sdl2",
@@ -11123,6 +12132,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventShown",
           "package": "sdl2",
@@ -11136,6 +12146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventSizeChanged",
           "package": "sdl2",
@@ -11145,6 +12156,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowEventSizeChanged",
           "package": "sdl2",
@@ -11158,6 +12170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagAllowHighDPI",
           "package": "sdl2",
@@ -11167,6 +12180,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagAllowHighDPI",
           "package": "sdl2",
@@ -11180,6 +12194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagBorderless",
           "package": "sdl2",
@@ -11189,6 +12204,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagBorderless",
           "package": "sdl2",
@@ -11202,6 +12218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagForeign",
           "package": "sdl2",
@@ -11211,6 +12228,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagForeign",
           "package": "sdl2",
@@ -11224,6 +12242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagFullscreen",
           "package": "sdl2",
@@ -11233,6 +12252,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagFullscreen",
           "package": "sdl2",
@@ -11246,6 +12266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagFullscreenDesktop",
           "package": "sdl2",
@@ -11255,6 +12276,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagFullscreenDesktop",
           "package": "sdl2",
@@ -11268,6 +12290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagHidden",
           "package": "sdl2",
@@ -11277,6 +12300,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagHidden",
           "package": "sdl2",
@@ -11290,6 +12314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagInputFocus",
           "package": "sdl2",
@@ -11299,6 +12324,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagInputFocus",
           "package": "sdl2",
@@ -11312,6 +12338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagInputGrabbed",
           "package": "sdl2",
@@ -11321,6 +12348,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagInputGrabbed",
           "package": "sdl2",
@@ -11334,6 +12362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagMaximized",
           "package": "sdl2",
@@ -11343,6 +12372,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagMaximized",
           "package": "sdl2",
@@ -11356,6 +12386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagMinimized",
           "package": "sdl2",
@@ -11365,6 +12396,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagMinimized",
           "package": "sdl2",
@@ -11378,6 +12410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagMouseFocus",
           "package": "sdl2",
@@ -11387,6 +12420,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagMouseFocus",
           "package": "sdl2",
@@ -11400,6 +12434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagOpenGL",
           "package": "sdl2",
@@ -11409,6 +12444,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagOpenGL",
           "package": "sdl2",
@@ -11422,6 +12458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagResizable",
           "package": "sdl2",
@@ -11431,6 +12468,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagResizable",
           "package": "sdl2",
@@ -11444,6 +12482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagShown",
           "package": "sdl2",
@@ -11453,6 +12492,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowFlagShown",
           "package": "sdl2",
@@ -11466,6 +12506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowPosCentered",
           "package": "sdl2",
@@ -11475,6 +12516,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowPosCentered",
           "package": "sdl2",
@@ -11488,6 +12530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowPosUndefined",
           "package": "sdl2",
@@ -11497,6 +12540,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Enum",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Enum",
           "name": "windowPosUndefined",
           "package": "sdl2",
@@ -11510,6 +12554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "Event",
           "package": "sdl2",
@@ -11518,6 +12563,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "Event",
           "package": "sdl2",
@@ -11531,6 +12577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "addEventWatch",
           "package": "sdl2",
@@ -11540,6 +12587,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "addEventWatch",
           "normalized": "EventFilter-\u003ePtr()-\u003eIO()",
@@ -11555,6 +12603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "createColorCursor",
           "package": "sdl2",
@@ -11564,6 +12613,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "createColorCursor",
           "normalized": "Ptr Surface-\u003eCInt-\u003eCInt-\u003eIO Cursor",
@@ -11579,6 +12629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "createCursor",
           "package": "sdl2",
@@ -11588,6 +12639,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "createCursor",
           "normalized": "Ptr Word-\u003ePtr Word-\u003eCInt-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO Cursor",
@@ -11603,6 +12655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "createSystemCursor",
           "package": "sdl2",
@@ -11612,6 +12665,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "createSystemCursor",
           "normalized": "SystemCursor-\u003eIO Cursor",
@@ -11627,6 +12681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "delEventWatch",
           "package": "sdl2",
@@ -11636,6 +12691,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "delEventWatch",
           "normalized": "EventFilter-\u003ePtr()-\u003eIO()",
@@ -11651,6 +12707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "eventState",
           "package": "sdl2",
@@ -11660,6 +12717,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "eventState",
           "normalized": "Word-\u003eCInt-\u003eIO Word",
@@ -11675,6 +12733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "filterEvents",
           "package": "sdl2",
@@ -11684,6 +12743,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "filterEvents",
           "normalized": "EventFilter-\u003ePtr()-\u003eIO()",
@@ -11699,6 +12759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "flushEvent",
           "package": "sdl2",
@@ -11708,6 +12769,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "flushEvent",
           "normalized": "Word-\u003eIO()",
@@ -11723,6 +12785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "flushEvents",
           "package": "sdl2",
@@ -11732,6 +12795,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "flushEvents",
           "normalized": "Word-\u003eWord-\u003eIO()",
@@ -11747,6 +12811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "freeCursor",
           "package": "sdl2",
@@ -11756,6 +12821,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "freeCursor",
           "normalized": "Cursor-\u003eIO()",
@@ -11771,6 +12837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerAddMapping",
           "package": "sdl2",
@@ -11780,6 +12847,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerAddMapping",
           "normalized": "CString-\u003eIO CInt",
@@ -11795,6 +12863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerClose",
           "package": "sdl2",
@@ -11804,6 +12873,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerClose",
           "normalized": "GameController-\u003eIO()",
@@ -11819,6 +12889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerEventState",
           "package": "sdl2",
@@ -11828,6 +12899,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerEventState",
           "normalized": "CInt-\u003eIO CInt",
@@ -11843,6 +12915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetAttached",
           "package": "sdl2",
@@ -11852,6 +12925,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetAttached",
           "normalized": "GameController-\u003eIO Bool",
@@ -11867,6 +12941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetAxis",
           "package": "sdl2",
@@ -11876,6 +12951,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetAxis",
           "normalized": "GameController-\u003eGameControllerAxis-\u003eIO Int",
@@ -11891,6 +12967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetAxisFromString",
           "package": "sdl2",
@@ -11900,6 +12977,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetAxisFromString",
           "normalized": "CString-\u003eIO GameControllerAxis",
@@ -11915,6 +12993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetBindForAxis",
           "package": "sdl2",
@@ -11924,6 +13003,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetBindForAxis",
           "normalized": "GameController-\u003eGameControllerAxis-\u003eIO GameControllerButtonBind",
@@ -11939,6 +13019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetBindForButton",
           "package": "sdl2",
@@ -11948,6 +13029,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetBindForButton",
           "normalized": "GameController-\u003eGameControllerButton-\u003eIO GameControllerButtonBind",
@@ -11963,6 +13045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetButton",
           "package": "sdl2",
@@ -11972,6 +13055,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetButton",
           "normalized": "GameController-\u003eGameControllerButton-\u003eIO Word",
@@ -11987,6 +13071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetButtonFromString",
           "package": "sdl2",
@@ -11996,6 +13081,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetButtonFromString",
           "normalized": "CString-\u003eIO GameControllerButton",
@@ -12011,6 +13097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetJoystick",
           "package": "sdl2",
@@ -12020,6 +13107,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetJoystick",
           "normalized": "GameController-\u003eIO Joystick",
@@ -12035,6 +13123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetStringForAxis",
           "package": "sdl2",
@@ -12044,6 +13133,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetStringForAxis",
           "normalized": "GameControllerAxis-\u003eIO CString",
@@ -12059,6 +13149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetStringForButton",
           "package": "sdl2",
@@ -12068,6 +13159,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerGetStringForButton",
           "normalized": "GameControllerButton-\u003eIO CString",
@@ -12083,6 +13175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerMapping",
           "package": "sdl2",
@@ -12092,6 +13185,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerMapping",
           "normalized": "GameController-\u003eIO CString",
@@ -12107,6 +13201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerMappingForGUID",
           "package": "sdl2",
@@ -12116,6 +13211,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerMappingForGUID",
           "normalized": "JoystickGUID-\u003eIO CString",
@@ -12131,6 +13227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerName",
           "package": "sdl2",
@@ -12140,6 +13237,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerName",
           "normalized": "GameController-\u003eIO CString",
@@ -12155,6 +13253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerNameForIndex",
           "package": "sdl2",
@@ -12164,6 +13263,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerNameForIndex",
           "normalized": "CInt-\u003eIO CString",
@@ -12179,6 +13279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerOpen",
           "package": "sdl2",
@@ -12188,6 +13289,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerOpen",
           "normalized": "CInt-\u003eIO GameController",
@@ -12203,6 +13305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerUpdate",
           "package": "sdl2",
@@ -12212,6 +13315,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "gameControllerUpdate",
           "normalized": "IO()",
@@ -12227,6 +13331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getCursor",
           "package": "sdl2",
@@ -12236,6 +13341,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getCursor",
           "package": "sdl2",
@@ -12249,6 +13355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getDefaultCursor",
           "package": "sdl2",
@@ -12258,6 +13365,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getDefaultCursor",
           "package": "sdl2",
@@ -12271,6 +13379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getEventFilter",
           "package": "sdl2",
@@ -12280,6 +13389,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getEventFilter",
           "normalized": "Ptr EventFilter-\u003ePtr(Ptr())-\u003eIO Bool",
@@ -12295,6 +13405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getKeyFromName",
           "package": "sdl2",
@@ -12304,6 +13415,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getKeyFromName",
           "normalized": "CString-\u003eIO Keycode",
@@ -12319,6 +13431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getKeyFromScancode",
           "package": "sdl2",
@@ -12328,6 +13441,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getKeyFromScancode",
           "normalized": "Scancode-\u003eIO Keycode",
@@ -12343,6 +13457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getKeyName",
           "package": "sdl2",
@@ -12352,6 +13467,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getKeyName",
           "normalized": "Keycode-\u003eIO CString",
@@ -12367,6 +13483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getKeyboardFocus",
           "package": "sdl2",
@@ -12376,6 +13493,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getKeyboardFocus",
           "package": "sdl2",
@@ -12389,6 +13507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getKeyboardState",
           "package": "sdl2",
@@ -12398,6 +13517,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getKeyboardState",
           "normalized": "Ptr CInt-\u003eIO(Ptr Word)",
@@ -12413,6 +13533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getModState",
           "package": "sdl2",
@@ -12422,6 +13543,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getModState",
           "package": "sdl2",
@@ -12435,6 +13557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getMouseFocus",
           "package": "sdl2",
@@ -12444,6 +13567,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getMouseFocus",
           "package": "sdl2",
@@ -12457,6 +13581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getMouseState",
           "package": "sdl2",
@@ -12466,6 +13591,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getMouseState",
           "normalized": "Ptr CInt-\u003ePtr CInt-\u003eIO Word",
@@ -12481,6 +13607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getNumTouchDevices",
           "package": "sdl2",
@@ -12490,6 +13617,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getNumTouchDevices",
           "package": "sdl2",
@@ -12503,6 +13631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getNumTouchFingers",
           "package": "sdl2",
@@ -12512,6 +13641,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getNumTouchFingers",
           "normalized": "TouchID-\u003eIO CInt",
@@ -12527,6 +13657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getRelativeMouseMode",
           "package": "sdl2",
@@ -12536,6 +13667,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getRelativeMouseMode",
           "package": "sdl2",
@@ -12549,6 +13681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getRelativeMouseState",
           "package": "sdl2",
@@ -12558,6 +13691,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getRelativeMouseState",
           "normalized": "Ptr CInt-\u003ePtr CInt-\u003eIO Word",
@@ -12573,6 +13707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getScancodeFromKey",
           "package": "sdl2",
@@ -12582,6 +13717,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getScancodeFromKey",
           "normalized": "Keycode-\u003eIO Scancode",
@@ -12597,6 +13733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getScancodeFromName",
           "package": "sdl2",
@@ -12606,6 +13743,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getScancodeFromName",
           "normalized": "CString-\u003eIO Scancode",
@@ -12621,6 +13759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getScancodeName",
           "package": "sdl2",
@@ -12630,6 +13769,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getScancodeName",
           "normalized": "Scancode-\u003eIO CString",
@@ -12645,6 +13785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getTouchDevice",
           "package": "sdl2",
@@ -12654,6 +13795,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getTouchDevice",
           "normalized": "CInt-\u003eIO TouchID",
@@ -12669,6 +13811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "getTouchFinger",
           "package": "sdl2",
@@ -12678,6 +13821,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "getTouchFinger",
           "normalized": "TouchID-\u003eCInt-\u003eIO(Ptr Finger)",
@@ -12693,6 +13837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "hasEvent",
           "package": "sdl2",
@@ -12702,6 +13847,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "hasEvent",
           "normalized": "Word-\u003eIO Bool",
@@ -12717,6 +13863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "hasEvents",
           "package": "sdl2",
@@ -12726,6 +13873,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "hasEvents",
           "normalized": "Word-\u003eWord-\u003eIO Bool",
@@ -12741,6 +13889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "hasScreenKeyboardSupport",
           "package": "sdl2",
@@ -12750,6 +13899,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "hasScreenKeyboardSupport",
           "package": "sdl2",
@@ -12763,6 +13913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "isGameController",
           "package": "sdl2",
@@ -12772,6 +13923,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "isGameController",
           "normalized": "CInt-\u003eIO Bool",
@@ -12787,6 +13939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "isScreenKeyboardShown",
           "package": "sdl2",
@@ -12796,6 +13949,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "isScreenKeyboardShown",
           "normalized": "Window-\u003eIO Bool",
@@ -12811,6 +13965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "isTextInputActive",
           "package": "sdl2",
@@ -12820,6 +13975,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "isTextInputActive",
           "package": "sdl2",
@@ -12833,6 +13989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickClose",
           "package": "sdl2",
@@ -12842,6 +13999,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickClose",
           "normalized": "Joystick-\u003eIO()",
@@ -12857,6 +14015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickEventState",
           "package": "sdl2",
@@ -12866,6 +14025,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickEventState",
           "normalized": "CInt-\u003eIO CInt",
@@ -12881,6 +14041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickGetAttached",
           "package": "sdl2",
@@ -12890,6 +14051,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickGetAttached",
           "normalized": "Joystick-\u003eIO Bool",
@@ -12905,6 +14067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickGetAxis",
           "package": "sdl2",
@@ -12914,6 +14077,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickGetAxis",
           "normalized": "Joystick-\u003eCInt-\u003eIO Int",
@@ -12929,6 +14093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickGetBall",
           "package": "sdl2",
@@ -12938,6 +14103,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickGetBall",
           "normalized": "Joystick-\u003eCInt-\u003ePtr CInt-\u003ePtr CInt-\u003eIO CInt",
@@ -12953,6 +14119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickGetButton",
           "package": "sdl2",
@@ -12962,6 +14129,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickGetButton",
           "normalized": "Joystick-\u003eCInt-\u003eIO Word",
@@ -12977,6 +14145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickGetDeviceGUID",
           "package": "sdl2",
@@ -12986,6 +14155,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickGetDeviceGUID",
           "normalized": "CInt-\u003eIO JoystickGUID",
@@ -13001,6 +14171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickGetGUID",
           "package": "sdl2",
@@ -13010,6 +14181,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickGetGUID",
           "normalized": "Joystick-\u003eIO JoystickGUID",
@@ -13025,6 +14197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickGetGUIDFromString",
           "package": "sdl2",
@@ -13034,6 +14207,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickGetGUIDFromString",
           "normalized": "CString-\u003eIO JoystickGUID",
@@ -13049,6 +14223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickGetGUIDString",
           "package": "sdl2",
@@ -13058,6 +14233,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickGetGUIDString",
           "normalized": "JoystickGUID-\u003eCString-\u003eCInt-\u003eIO()",
@@ -13073,6 +14249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickGetHat",
           "package": "sdl2",
@@ -13082,6 +14259,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickGetHat",
           "normalized": "Joystick-\u003eCInt-\u003eIO Word",
@@ -13097,6 +14275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickInstanceID",
           "package": "sdl2",
@@ -13106,6 +14285,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickInstanceID",
           "normalized": "Joystick-\u003eIO JoystickID",
@@ -13121,6 +14301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickName",
           "package": "sdl2",
@@ -13130,6 +14311,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickName",
           "normalized": "Joystick-\u003eIO CString",
@@ -13145,6 +14327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickNameForIndex",
           "package": "sdl2",
@@ -13154,6 +14337,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickNameForIndex",
           "normalized": "CInt-\u003eIO CString",
@@ -13169,6 +14353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickNumAxes",
           "package": "sdl2",
@@ -13178,6 +14363,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickNumAxes",
           "normalized": "Joystick-\u003eIO CInt",
@@ -13193,6 +14379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickNumBalls",
           "package": "sdl2",
@@ -13202,6 +14389,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickNumBalls",
           "normalized": "Joystick-\u003eIO CInt",
@@ -13217,6 +14405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickNumButtons",
           "package": "sdl2",
@@ -13226,6 +14415,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickNumButtons",
           "normalized": "Joystick-\u003eIO CInt",
@@ -13241,6 +14431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickNumHats",
           "package": "sdl2",
@@ -13250,6 +14441,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickNumHats",
           "normalized": "Joystick-\u003eIO CInt",
@@ -13265,6 +14457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickOpen",
           "package": "sdl2",
@@ -13274,6 +14467,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickOpen",
           "normalized": "CInt-\u003eIO Joystick",
@@ -13289,6 +14483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickUpdate",
           "package": "sdl2",
@@ -13298,6 +14493,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "joystickUpdate",
           "normalized": "IO()",
@@ -13313,6 +14509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "loadDollarTemplates",
           "package": "sdl2",
@@ -13322,6 +14519,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "loadDollarTemplates",
           "normalized": "TouchID-\u003ePtr RWops-\u003eIO CInt",
@@ -13337,6 +14535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "numJoysticks",
           "package": "sdl2",
@@ -13346,6 +14545,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "numJoysticks",
           "package": "sdl2",
@@ -13359,6 +14559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "peepEvents",
           "package": "sdl2",
@@ -13368,6 +14569,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "peepEvents",
           "normalized": "Ptr Event-\u003eCInt-\u003eEventAction-\u003eWord-\u003eWord-\u003eIO CInt",
@@ -13383,6 +14585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "pollEvent",
           "package": "sdl2",
@@ -13392,6 +14595,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "pollEvent",
           "normalized": "Ptr Event-\u003eIO CInt",
@@ -13407,6 +14611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "pumpEvents",
           "package": "sdl2",
@@ -13416,6 +14621,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "pumpEvents",
           "normalized": "IO()",
@@ -13431,6 +14637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "pushEvent",
           "package": "sdl2",
@@ -13440,6 +14647,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "pushEvent",
           "normalized": "Ptr Event-\u003eIO CInt",
@@ -13455,6 +14663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "quitRequested",
           "package": "sdl2",
@@ -13464,6 +14673,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "quitRequested",
           "package": "sdl2",
@@ -13477,6 +14687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "recordGesture",
           "package": "sdl2",
@@ -13486,6 +14697,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "recordGesture",
           "normalized": "TouchID-\u003eIO CInt",
@@ -13501,6 +14713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "registerEvents",
           "package": "sdl2",
@@ -13510,6 +14723,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "registerEvents",
           "normalized": "CInt-\u003eIO Word",
@@ -13525,6 +14739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "saveAllDollarTemplates",
           "package": "sdl2",
@@ -13534,6 +14749,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "saveAllDollarTemplates",
           "normalized": "Ptr RWops-\u003eIO CInt",
@@ -13549,6 +14765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "saveDollarTemplate",
           "package": "sdl2",
@@ -13558,6 +14775,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "saveDollarTemplate",
           "normalized": "GestureID-\u003ePtr RWops-\u003eIO CInt",
@@ -13573,6 +14791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "setCursor",
           "package": "sdl2",
@@ -13582,6 +14801,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "setCursor",
           "normalized": "Cursor-\u003eIO()",
@@ -13597,6 +14817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "setEventFilter",
           "package": "sdl2",
@@ -13606,6 +14827,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "setEventFilter",
           "normalized": "EventFilter-\u003ePtr()-\u003eIO()",
@@ -13621,6 +14843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "setModState",
           "package": "sdl2",
@@ -13630,6 +14853,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "setModState",
           "normalized": "Keymod-\u003eIO()",
@@ -13645,6 +14869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "setRelativeMouseMode",
           "package": "sdl2",
@@ -13654,6 +14879,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "setRelativeMouseMode",
           "normalized": "Bool-\u003eIO CInt",
@@ -13669,6 +14895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "setTextInputRect",
           "package": "sdl2",
@@ -13678,6 +14905,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "setTextInputRect",
           "normalized": "Ptr Rect-\u003eIO()",
@@ -13693,6 +14921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "showCursor",
           "package": "sdl2",
@@ -13702,6 +14931,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "showCursor",
           "normalized": "CInt-\u003eIO CInt",
@@ -13717,6 +14947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "startTextInput",
           "package": "sdl2",
@@ -13726,6 +14957,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "startTextInput",
           "normalized": "IO()",
@@ -13741,6 +14973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "stopTextInput",
           "package": "sdl2",
@@ -13750,6 +14983,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "stopTextInput",
           "normalized": "IO()",
@@ -13765,6 +14999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "waitEvent",
           "package": "sdl2",
@@ -13774,6 +15009,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "waitEvent",
           "normalized": "Ptr Event-\u003eIO CInt",
@@ -13789,6 +15025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "waitEventTimeout",
           "package": "sdl2",
@@ -13798,6 +15035,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "waitEventTimeout",
           "normalized": "Ptr Event-\u003eCInt-\u003eIO CInt",
@@ -13813,6 +15051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Event",
           "name": "warpMouseInWindow",
           "package": "sdl2",
@@ -13822,6 +15061,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Event",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Event",
           "name": "warpMouseInWindow",
           "normalized": "Window-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -13837,6 +15077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "Filesystem",
           "package": "sdl2",
@@ -13845,6 +15086,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "Filesystem",
           "package": "sdl2",
@@ -13858,6 +15100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "allocRW",
           "package": "sdl2",
@@ -13867,6 +15110,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "allocRW",
           "package": "sdl2",
@@ -13880,6 +15124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "freeRW",
           "package": "sdl2",
@@ -13889,6 +15134,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "freeRW",
           "normalized": "Ptr RWops-\u003eIO()",
@@ -13904,6 +15150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "getBasePath",
           "package": "sdl2",
@@ -13913,6 +15160,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "getBasePath",
           "package": "sdl2",
@@ -13926,6 +15174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "getPrefPath",
           "package": "sdl2",
@@ -13935,6 +15184,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "getPrefPath",
           "normalized": "CString-\u003eCString-\u003eIO CString",
@@ -13950,6 +15200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "readBE16",
           "package": "sdl2",
@@ -13959,6 +15210,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "readBE16",
           "normalized": "Ptr RWops-\u003eIO Word",
@@ -13974,6 +15226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "readBE32",
           "package": "sdl2",
@@ -13983,6 +15236,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "readBE32",
           "normalized": "Ptr RWops-\u003eIO Word",
@@ -13998,6 +15252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "readBE64",
           "package": "sdl2",
@@ -14007,6 +15262,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "readBE64",
           "normalized": "Ptr RWops-\u003eIO Word",
@@ -14022,6 +15278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "readLE16",
           "package": "sdl2",
@@ -14031,6 +15288,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "readLE16",
           "normalized": "Ptr RWops-\u003eIO Word",
@@ -14046,6 +15304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "readLE32",
           "package": "sdl2",
@@ -14055,6 +15314,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "readLE32",
           "normalized": "Ptr RWops-\u003eIO Word",
@@ -14070,6 +15330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "readLE64",
           "package": "sdl2",
@@ -14079,6 +15340,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "readLE64",
           "normalized": "Ptr RWops-\u003eIO Word",
@@ -14094,6 +15356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "rwClose",
           "package": "sdl2",
@@ -14103,6 +15366,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "rwClose",
           "normalized": "Ptr RWops-\u003eIO CInt",
@@ -14118,6 +15382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "rwFromConstMem",
           "package": "sdl2",
@@ -14127,6 +15392,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "rwFromConstMem",
           "normalized": "Ptr()-\u003eCInt-\u003eIO(Ptr RWops)",
@@ -14142,6 +15408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "rwFromFP",
           "package": "sdl2",
@@ -14151,6 +15418,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "rwFromFP",
           "normalized": "Ptr()-\u003eBool-\u003eIO(Ptr RWops)",
@@ -14166,6 +15434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "rwFromFile",
           "package": "sdl2",
@@ -14175,6 +15444,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "rwFromFile",
           "normalized": "CString-\u003eCString-\u003eIO(Ptr RWops)",
@@ -14190,6 +15460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "rwFromMem",
           "package": "sdl2",
@@ -14199,6 +15470,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "rwFromMem",
           "normalized": "Ptr()-\u003eCInt-\u003eIO(Ptr RWops)",
@@ -14214,6 +15486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "rwRead",
           "package": "sdl2",
@@ -14223,6 +15496,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "rwRead",
           "normalized": "Ptr RWops-\u003ePtr()-\u003eCSize-\u003eCSize-\u003eIO CSize",
@@ -14238,6 +15512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "rwSeek",
           "package": "sdl2",
@@ -14247,6 +15522,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "rwSeek",
           "normalized": "Ptr RWops-\u003eInt-\u003eCInt-\u003eIO Int",
@@ -14262,6 +15538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "rwTell",
           "package": "sdl2",
@@ -14271,6 +15548,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "rwTell",
           "normalized": "Ptr RWops-\u003eIO Int",
@@ -14286,6 +15564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "rwWrite",
           "package": "sdl2",
@@ -14295,6 +15574,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "rwWrite",
           "normalized": "Ptr RWops-\u003ePtr()-\u003eCSize-\u003eCSize-\u003eIO CSize",
@@ -14310,6 +15590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "writeBE16",
           "package": "sdl2",
@@ -14319,6 +15600,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "writeBE16",
           "normalized": "Ptr RWops-\u003eWord-\u003eIO CSize",
@@ -14334,6 +15616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "writeBE32",
           "package": "sdl2",
@@ -14343,6 +15626,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "writeBE32",
           "normalized": "Ptr RWops-\u003eWord-\u003eIO CSize",
@@ -14358,6 +15642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "writeBE64",
           "package": "sdl2",
@@ -14367,6 +15652,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "writeBE64",
           "normalized": "Ptr RWops-\u003eWord-\u003eIO CSize",
@@ -14382,6 +15668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "writeLE16",
           "package": "sdl2",
@@ -14391,6 +15678,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "writeLE16",
           "normalized": "Ptr RWops-\u003eWord-\u003eIO CSize",
@@ -14406,6 +15694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "writeLE32",
           "package": "sdl2",
@@ -14415,6 +15704,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "writeLE32",
           "normalized": "Ptr RWops-\u003eWord-\u003eIO CSize",
@@ -14430,6 +15720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "writeLE64",
           "package": "sdl2",
@@ -14439,6 +15730,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Filesystem",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Filesystem",
           "name": "writeLE64",
           "normalized": "Ptr RWops-\u003eWord-\u003eIO CSize",
@@ -14454,6 +15746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "Haptic",
           "package": "sdl2",
@@ -14462,6 +15755,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "Haptic",
           "package": "sdl2",
@@ -14475,6 +15769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticClose",
           "package": "sdl2",
@@ -14484,6 +15779,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticClose",
           "normalized": "Haptic-\u003eIO()",
@@ -14499,6 +15795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticDestroyEffect",
           "package": "sdl2",
@@ -14508,6 +15805,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticDestroyEffect",
           "normalized": "Haptic-\u003eCInt-\u003eIO()",
@@ -14523,6 +15821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticEffectSupported",
           "package": "sdl2",
@@ -14532,6 +15831,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticEffectSupported",
           "normalized": "Haptic-\u003ePtr HapticEffect-\u003eIO CInt",
@@ -14547,6 +15847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticGetEffectStatus",
           "package": "sdl2",
@@ -14556,6 +15857,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticGetEffectStatus",
           "normalized": "Haptic-\u003eCInt-\u003eIO CInt",
@@ -14571,6 +15873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticIndex",
           "package": "sdl2",
@@ -14580,6 +15883,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticIndex",
           "normalized": "Haptic-\u003eIO CInt",
@@ -14595,6 +15899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticName",
           "package": "sdl2",
@@ -14604,6 +15909,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticName",
           "normalized": "CInt-\u003eIO CString",
@@ -14619,6 +15925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticNewEffect",
           "package": "sdl2",
@@ -14628,6 +15935,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticNewEffect",
           "normalized": "Haptic-\u003ePtr HapticEffect-\u003eIO CInt",
@@ -14643,6 +15951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticNumAxes",
           "package": "sdl2",
@@ -14652,6 +15961,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticNumAxes",
           "normalized": "Haptic-\u003eIO CInt",
@@ -14667,6 +15977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticNumEffects",
           "package": "sdl2",
@@ -14676,6 +15987,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticNumEffects",
           "normalized": "Haptic-\u003eIO CInt",
@@ -14691,6 +16003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticNumEffectsPlaying",
           "package": "sdl2",
@@ -14700,6 +16013,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticNumEffectsPlaying",
           "normalized": "Haptic-\u003eIO CInt",
@@ -14715,6 +16029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticOpen",
           "package": "sdl2",
@@ -14724,6 +16039,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticOpen",
           "normalized": "CInt-\u003eIO Haptic",
@@ -14739,6 +16055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticOpenFromJoystick",
           "package": "sdl2",
@@ -14748,6 +16065,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticOpenFromJoystick",
           "normalized": "Joystick-\u003eIO Haptic",
@@ -14763,6 +16081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticOpenFromMouse",
           "package": "sdl2",
@@ -14772,6 +16091,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticOpenFromMouse",
           "package": "sdl2",
@@ -14785,6 +16105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticOpened",
           "package": "sdl2",
@@ -14794,6 +16115,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticOpened",
           "normalized": "CInt-\u003eIO CInt",
@@ -14809,6 +16131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticPause",
           "package": "sdl2",
@@ -14818,6 +16141,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticPause",
           "normalized": "Haptic-\u003eIO CInt",
@@ -14833,6 +16157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticQuery",
           "package": "sdl2",
@@ -14842,6 +16167,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticQuery",
           "normalized": "Haptic-\u003eIO CUInt",
@@ -14857,6 +16183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticRumbleInit",
           "package": "sdl2",
@@ -14866,6 +16193,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticRumbleInit",
           "normalized": "Haptic-\u003eIO CInt",
@@ -14881,6 +16209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticRumblePlay",
           "package": "sdl2",
@@ -14890,6 +16219,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticRumblePlay",
           "normalized": "Haptic-\u003eCFloat-\u003eWord-\u003eIO CInt",
@@ -14905,6 +16235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticRumbleStop",
           "package": "sdl2",
@@ -14914,6 +16245,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticRumbleStop",
           "normalized": "Haptic-\u003eIO CInt",
@@ -14929,6 +16261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticRumbleSupported",
           "package": "sdl2",
@@ -14938,6 +16271,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticRumbleSupported",
           "normalized": "Haptic-\u003eIO CInt",
@@ -14953,6 +16287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticRunEffect",
           "package": "sdl2",
@@ -14962,6 +16297,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticRunEffect",
           "normalized": "Haptic-\u003eCInt-\u003eWord-\u003eIO CInt",
@@ -14977,6 +16313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticSetAutocenter",
           "package": "sdl2",
@@ -14986,6 +16323,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticSetAutocenter",
           "normalized": "Haptic-\u003eCInt-\u003eIO CInt",
@@ -15001,6 +16339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticSetGain",
           "package": "sdl2",
@@ -15010,6 +16349,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticSetGain",
           "normalized": "Haptic-\u003eCInt-\u003eIO CInt",
@@ -15025,6 +16365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticStopAll",
           "package": "sdl2",
@@ -15034,6 +16375,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticStopAll",
           "normalized": "Haptic-\u003eIO CInt",
@@ -15049,6 +16391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticStopEffect",
           "package": "sdl2",
@@ -15058,6 +16401,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticStopEffect",
           "normalized": "Haptic-\u003eCInt-\u003eIO CInt",
@@ -15073,6 +16417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticUnpause",
           "package": "sdl2",
@@ -15082,6 +16427,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticUnpause",
           "normalized": "Haptic-\u003eIO CInt",
@@ -15097,6 +16443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticUpdateEffect",
           "package": "sdl2",
@@ -15106,6 +16453,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "hapticUpdateEffect",
           "normalized": "Haptic-\u003eCInt-\u003ePtr HapticEffect-\u003eIO CInt",
@@ -15121,6 +16469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "joystickIsHaptic",
           "package": "sdl2",
@@ -15130,6 +16479,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "joystickIsHaptic",
           "normalized": "Joystick-\u003eIO CInt",
@@ -15145,6 +16495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "mouseIsHaptic",
           "package": "sdl2",
@@ -15154,6 +16505,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "mouseIsHaptic",
           "package": "sdl2",
@@ -15167,6 +16519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "numHaptics",
           "package": "sdl2",
@@ -15176,6 +16529,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Haptic",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Haptic",
           "name": "numHaptics",
           "package": "sdl2",
@@ -15189,6 +16543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Power",
           "name": "Power",
           "package": "sdl2",
@@ -15197,6 +16552,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Power",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Power",
           "name": "Power",
           "package": "sdl2",
@@ -15210,6 +16566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Power",
           "name": "getPowerInfo",
           "package": "sdl2",
@@ -15219,6 +16576,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Power",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Power",
           "name": "getPowerInfo",
           "normalized": "Ptr CInt-\u003ePtr CInt-\u003eIO PowerState",
@@ -15234,6 +16592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Timer",
           "name": "Timer",
           "package": "sdl2",
@@ -15242,6 +16601,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Timer",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Timer",
           "name": "Timer",
           "package": "sdl2",
@@ -15255,6 +16615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Timer",
           "name": "addTimer",
           "package": "sdl2",
@@ -15264,6 +16625,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Timer",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Timer",
           "name": "addTimer",
           "normalized": "Word-\u003eTimerCallback-\u003ePtr()-\u003eIO TimerID",
@@ -15279,6 +16641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Timer",
           "name": "delay",
           "package": "sdl2",
@@ -15288,6 +16651,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Timer",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Timer",
           "name": "delay",
           "normalized": "Word-\u003eIO()",
@@ -15302,6 +16666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Timer",
           "name": "getPerformanceCounter",
           "package": "sdl2",
@@ -15311,6 +16676,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Timer",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Timer",
           "name": "getPerformanceCounter",
           "package": "sdl2",
@@ -15324,6 +16690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Timer",
           "name": "getPerformanceFrequency",
           "package": "sdl2",
@@ -15333,6 +16700,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Timer",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Timer",
           "name": "getPerformanceFrequency",
           "package": "sdl2",
@@ -15346,6 +16714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Timer",
           "name": "getTicks",
           "package": "sdl2",
@@ -15355,6 +16724,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Timer",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Timer",
           "name": "getTicks",
           "package": "sdl2",
@@ -15368,6 +16738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Timer",
           "name": "removeTimer",
           "package": "sdl2",
@@ -15377,6 +16748,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Timer",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Timer",
           "name": "removeTimer",
           "normalized": "TimerID-\u003eIO Bool",
@@ -15392,6 +16764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Types",
           "package": "sdl2",
@@ -15400,6 +16773,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Types",
           "package": "sdl2",
@@ -15413,6 +16787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "AudioCVT",
           "package": "sdl2",
@@ -15421,6 +16796,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "AudioCVT",
           "package": "sdl2",
@@ -15434,6 +16810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "AudioCallback",
           "package": "sdl2",
@@ -15442,6 +16819,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "AudioCallback",
           "package": "sdl2",
@@ -15455,6 +16833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "AudioDeviceID",
           "package": "sdl2",
@@ -15463,6 +16842,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "AudioDeviceID",
           "package": "sdl2",
@@ -15476,6 +16856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "AudioFormat",
           "package": "sdl2",
@@ -15484,6 +16865,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "AudioFormat",
           "package": "sdl2",
@@ -15497,6 +16879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "AudioSpec",
           "package": "sdl2",
@@ -15505,6 +16888,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "AudioSpec",
           "package": "sdl2",
@@ -15518,6 +16902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Color",
           "package": "sdl2",
@@ -15526,6 +16911,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Color",
           "package": "sdl2",
@@ -15539,6 +16925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Cursor",
           "package": "sdl2",
@@ -15547,6 +16934,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Cursor",
           "package": "sdl2",
@@ -15560,6 +16948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "DisplayMode",
           "package": "sdl2",
@@ -15568,6 +16957,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "DisplayMode",
           "package": "sdl2",
@@ -15581,6 +16971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Event",
           "package": "sdl2",
@@ -15589,6 +16980,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Event",
           "package": "sdl2",
@@ -15602,6 +16994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "EventFilter",
           "package": "sdl2",
@@ -15610,6 +17003,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "EventFilter",
           "package": "sdl2",
@@ -15623,6 +17017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Finger",
           "package": "sdl2",
@@ -15631,6 +17026,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Finger",
           "package": "sdl2",
@@ -15644,6 +17040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "FingerID",
           "package": "sdl2",
@@ -15652,6 +17049,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "FingerID",
           "package": "sdl2",
@@ -15665,6 +17063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "GLContext",
           "package": "sdl2",
@@ -15673,6 +17072,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "GLContext",
           "package": "sdl2",
@@ -15686,6 +17086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "GameController",
           "package": "sdl2",
@@ -15694,6 +17095,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "GameController",
           "package": "sdl2",
@@ -15707,6 +17109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "GameControllerButtonBind",
           "package": "sdl2",
@@ -15715,6 +17118,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "GameControllerButtonBind",
           "package": "sdl2",
@@ -15728,6 +17132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "GestureID",
           "package": "sdl2",
@@ -15736,6 +17141,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "GestureID",
           "package": "sdl2",
@@ -15749,6 +17155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Haptic",
           "package": "sdl2",
@@ -15757,6 +17164,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Haptic",
           "package": "sdl2",
@@ -15770,6 +17178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "HapticDirection",
           "package": "sdl2",
@@ -15778,6 +17187,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "HapticDirection",
           "package": "sdl2",
@@ -15791,6 +17201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "HapticEffect",
           "package": "sdl2",
@@ -15799,6 +17210,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "HapticEffect",
           "package": "sdl2",
@@ -15812,6 +17224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "HintCallback",
           "package": "sdl2",
@@ -15820,6 +17233,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "HintCallback",
           "package": "sdl2",
@@ -15833,6 +17247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Joystick",
           "package": "sdl2",
@@ -15841,6 +17256,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Joystick",
           "package": "sdl2",
@@ -15854,6 +17270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "JoystickGUID",
           "package": "sdl2",
@@ -15862,6 +17279,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "JoystickGUID",
           "package": "sdl2",
@@ -15875,6 +17293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "JoystickID",
           "package": "sdl2",
@@ -15883,6 +17302,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "JoystickID",
           "package": "sdl2",
@@ -15896,6 +17316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Keycode",
           "package": "sdl2",
@@ -15904,6 +17325,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Keycode",
           "package": "sdl2",
@@ -15917,6 +17339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Keysym",
           "package": "sdl2",
@@ -15925,6 +17348,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Keysym",
           "package": "sdl2",
@@ -15938,6 +17362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "LogOutputFunction",
           "package": "sdl2",
@@ -15946,6 +17371,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "LogOutputFunction",
           "package": "sdl2",
@@ -15959,6 +17385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "MessageBoxButtonData",
           "package": "sdl2",
@@ -15967,6 +17394,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "MessageBoxButtonData",
           "package": "sdl2",
@@ -15980,6 +17408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "MessageBoxColor",
           "package": "sdl2",
@@ -15988,6 +17417,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "MessageBoxColor",
           "package": "sdl2",
@@ -16001,6 +17431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "MessageBoxColorScheme",
           "package": "sdl2",
@@ -16009,6 +17440,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "MessageBoxColorScheme",
           "package": "sdl2",
@@ -16022,6 +17454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "MessageBoxData",
           "package": "sdl2",
@@ -16030,6 +17463,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "MessageBoxData",
           "package": "sdl2",
@@ -16043,6 +17477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Palette",
           "package": "sdl2",
@@ -16051,6 +17486,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Palette",
           "package": "sdl2",
@@ -16064,6 +17500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "PixelFormat",
           "package": "sdl2",
@@ -16072,6 +17509,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "PixelFormat",
           "package": "sdl2",
@@ -16085,6 +17523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Point",
           "package": "sdl2",
@@ -16093,6 +17532,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Point",
           "package": "sdl2",
@@ -16106,6 +17546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "RWops",
           "package": "sdl2",
@@ -16114,6 +17555,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "RWops",
           "package": "sdl2",
@@ -16127,6 +17569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Rect",
           "package": "sdl2",
@@ -16135,6 +17578,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Rect",
           "package": "sdl2",
@@ -16148,6 +17592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Renderer",
           "package": "sdl2",
@@ -16156,6 +17601,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Renderer",
           "package": "sdl2",
@@ -16169,6 +17615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "RendererInfo",
           "package": "sdl2",
@@ -16177,6 +17624,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "RendererInfo",
           "package": "sdl2",
@@ -16190,6 +17638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Surface",
           "package": "sdl2",
@@ -16198,6 +17647,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Surface",
           "package": "sdl2",
@@ -16211,6 +17661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "SysWMmsg",
           "package": "sdl2",
@@ -16219,6 +17670,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "SysWMmsg",
           "package": "sdl2",
@@ -16232,6 +17684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Texture",
           "package": "sdl2",
@@ -16240,6 +17693,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Texture",
           "package": "sdl2",
@@ -16253,6 +17707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "TimerCallback",
           "package": "sdl2",
@@ -16261,6 +17716,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "TimerCallback",
           "package": "sdl2",
@@ -16274,6 +17730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "TimerID",
           "package": "sdl2",
@@ -16282,6 +17739,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "TimerID",
           "package": "sdl2",
@@ -16295,6 +17753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "TouchID",
           "package": "sdl2",
@@ -16303,6 +17762,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "TouchID",
           "package": "sdl2",
@@ -16316,6 +17776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Version",
           "package": "sdl2",
@@ -16324,6 +17785,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Version",
           "package": "sdl2",
@@ -16337,6 +17799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Window",
           "package": "sdl2",
@@ -16345,6 +17808,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Window",
           "package": "sdl2",
@@ -16358,6 +17822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "AudioCVT",
           "package": "sdl2",
@@ -16367,6 +17832,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "AudioCVT",
           "package": "sdl2",
@@ -16380,6 +17846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "AudioSpec",
           "package": "sdl2",
@@ -16389,6 +17856,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "AudioSpec",
           "package": "sdl2",
@@ -16402,6 +17870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Color",
           "package": "sdl2",
@@ -16411,6 +17880,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Color",
           "package": "sdl2",
@@ -16424,6 +17894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "ControllerAxisEvent",
           "package": "sdl2",
@@ -16433,6 +17904,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "ControllerAxisEvent",
           "package": "sdl2",
@@ -16446,6 +17918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "ControllerButtonEvent",
           "package": "sdl2",
@@ -16455,6 +17928,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "ControllerButtonEvent",
           "package": "sdl2",
@@ -16468,6 +17942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "ControllerDeviceEvent",
           "package": "sdl2",
@@ -16477,6 +17952,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "ControllerDeviceEvent",
           "package": "sdl2",
@@ -16490,6 +17966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "DisplayMode",
           "package": "sdl2",
@@ -16499,6 +17976,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "DisplayMode",
           "package": "sdl2",
@@ -16512,6 +17990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "DollarGestureEvent",
           "package": "sdl2",
@@ -16521,6 +18000,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "DollarGestureEvent",
           "package": "sdl2",
@@ -16534,6 +18014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "DropEvent",
           "package": "sdl2",
@@ -16543,6 +18024,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "DropEvent",
           "package": "sdl2",
@@ -16556,6 +18038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Finger",
           "package": "sdl2",
@@ -16565,6 +18048,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Finger",
           "package": "sdl2",
@@ -16578,6 +18062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "GameControllerButtonBindAxis",
           "package": "sdl2",
@@ -16587,6 +18072,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "GameControllerButtonBindAxis",
           "package": "sdl2",
@@ -16600,6 +18086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "GameControllerButtonBindButton",
           "package": "sdl2",
@@ -16609,6 +18096,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "GameControllerButtonBindButton",
           "package": "sdl2",
@@ -16622,6 +18110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "GameControllerButtonBindHat",
           "package": "sdl2",
@@ -16631,6 +18120,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "GameControllerButtonBindHat",
           "package": "sdl2",
@@ -16644,6 +18134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "GameControllerButtonBindNone",
           "package": "sdl2",
@@ -16653,6 +18144,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "GameControllerButtonBindNone",
           "package": "sdl2",
@@ -16666,6 +18158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "HapticCondition",
           "package": "sdl2",
@@ -16675,6 +18168,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "HapticCondition",
           "package": "sdl2",
@@ -16688,6 +18182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "HapticConstant",
           "package": "sdl2",
@@ -16697,6 +18192,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "HapticConstant",
           "package": "sdl2",
@@ -16710,6 +18206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "HapticCustom",
           "package": "sdl2",
@@ -16719,6 +18216,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "HapticCustom",
           "package": "sdl2",
@@ -16732,6 +18230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "HapticDirection",
           "package": "sdl2",
@@ -16741,6 +18240,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "HapticDirection",
           "package": "sdl2",
@@ -16754,6 +18254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "HapticLeftRight",
           "package": "sdl2",
@@ -16763,6 +18264,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "HapticLeftRight",
           "package": "sdl2",
@@ -16776,6 +18278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "HapticPeriodic",
           "package": "sdl2",
@@ -16785,6 +18288,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "HapticPeriodic",
           "package": "sdl2",
@@ -16798,6 +18302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "HapticRamp",
           "package": "sdl2",
@@ -16807,6 +18312,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "HapticRamp",
           "package": "sdl2",
@@ -16820,6 +18326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "JoyAxisEvent",
           "package": "sdl2",
@@ -16829,6 +18336,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "JoyAxisEvent",
           "package": "sdl2",
@@ -16842,6 +18350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "JoyBallEvent",
           "package": "sdl2",
@@ -16851,6 +18360,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "JoyBallEvent",
           "package": "sdl2",
@@ -16864,6 +18374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "JoyButtonEvent",
           "package": "sdl2",
@@ -16873,6 +18384,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "JoyButtonEvent",
           "package": "sdl2",
@@ -16886,6 +18398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "JoyDeviceEvent",
           "package": "sdl2",
@@ -16895,6 +18408,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "JoyDeviceEvent",
           "package": "sdl2",
@@ -16908,6 +18422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "JoyHatEvent",
           "package": "sdl2",
@@ -16917,6 +18432,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "JoyHatEvent",
           "package": "sdl2",
@@ -16930,6 +18446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "JoystickGUID",
           "package": "sdl2",
@@ -16939,6 +18456,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "JoystickGUID",
           "package": "sdl2",
@@ -16952,6 +18470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "KeyboardEvent",
           "package": "sdl2",
@@ -16961,6 +18480,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "KeyboardEvent",
           "package": "sdl2",
@@ -16974,6 +18494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Keysym",
           "package": "sdl2",
@@ -16983,6 +18504,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Keysym",
           "package": "sdl2",
@@ -16996,6 +18518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "MessageBoxButtonData",
           "package": "sdl2",
@@ -17005,6 +18528,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "MessageBoxButtonData",
           "package": "sdl2",
@@ -17018,6 +18542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "MessageBoxColor",
           "package": "sdl2",
@@ -17027,6 +18552,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "MessageBoxColor",
           "package": "sdl2",
@@ -17040,6 +18566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "MessageBoxColorScheme",
           "package": "sdl2",
@@ -17049,6 +18576,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "MessageBoxColorScheme",
           "package": "sdl2",
@@ -17062,6 +18590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "MessageBoxData",
           "package": "sdl2",
@@ -17071,6 +18600,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "MessageBoxData",
           "package": "sdl2",
@@ -17084,6 +18614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "MouseButtonEvent",
           "package": "sdl2",
@@ -17093,6 +18624,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "MouseButtonEvent",
           "package": "sdl2",
@@ -17106,6 +18638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "MouseMotionEvent",
           "package": "sdl2",
@@ -17115,6 +18648,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "MouseMotionEvent",
           "package": "sdl2",
@@ -17128,6 +18662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "MouseWheelEvent",
           "package": "sdl2",
@@ -17137,6 +18672,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "MouseWheelEvent",
           "package": "sdl2",
@@ -17150,6 +18686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "MultiGestureEvent",
           "package": "sdl2",
@@ -17159,6 +18696,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "MultiGestureEvent",
           "package": "sdl2",
@@ -17172,6 +18710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Palette",
           "package": "sdl2",
@@ -17181,6 +18720,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Palette",
           "package": "sdl2",
@@ -17194,6 +18734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "PixelFormat",
           "package": "sdl2",
@@ -17203,6 +18744,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "PixelFormat",
           "package": "sdl2",
@@ -17216,6 +18758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Point",
           "package": "sdl2",
@@ -17225,6 +18768,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Point",
           "package": "sdl2",
@@ -17238,6 +18782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "QuitEvent",
           "package": "sdl2",
@@ -17247,6 +18792,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "QuitEvent",
           "package": "sdl2",
@@ -17260,6 +18806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "RWops",
           "package": "sdl2",
@@ -17269,6 +18816,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "RWops",
           "package": "sdl2",
@@ -17282,6 +18830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Rect",
           "package": "sdl2",
@@ -17291,6 +18840,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Rect",
           "package": "sdl2",
@@ -17304,6 +18854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "RendererInfo",
           "package": "sdl2",
@@ -17313,6 +18864,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "RendererInfo",
           "package": "sdl2",
@@ -17326,6 +18878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Surface",
           "package": "sdl2",
@@ -17335,6 +18888,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Surface",
           "package": "sdl2",
@@ -17348,6 +18902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "SysWMEvent",
           "package": "sdl2",
@@ -17357,6 +18912,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "SysWMEvent",
           "package": "sdl2",
@@ -17370,6 +18926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "TextEditingEvent",
           "package": "sdl2",
@@ -17379,6 +18936,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "TextEditingEvent",
           "package": "sdl2",
@@ -17392,6 +18950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "TextInputEvent",
           "package": "sdl2",
@@ -17401,6 +18960,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "TextInputEvent",
           "package": "sdl2",
@@ -17414,6 +18974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "TouchFingerEvent",
           "package": "sdl2",
@@ -17423,6 +18984,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "TouchFingerEvent",
           "package": "sdl2",
@@ -17436,6 +18998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "UserEvent",
           "package": "sdl2",
@@ -17445,6 +19008,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "UserEvent",
           "package": "sdl2",
@@ -17458,6 +19022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "Version",
           "package": "sdl2",
@@ -17467,6 +19032,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "Version",
           "package": "sdl2",
@@ -17480,6 +19046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "WindowEvent",
           "package": "sdl2",
@@ -17489,6 +19056,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "WindowEvent",
           "package": "sdl2",
@@ -17502,6 +19070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioCVTBuf",
           "package": "sdl2",
@@ -17511,6 +19080,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioCVTBuf",
           "package": "sdl2",
@@ -17524,6 +19094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioCVTDstFormat",
           "package": "sdl2",
@@ -17533,6 +19104,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioCVTDstFormat",
           "package": "sdl2",
@@ -17546,6 +19118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioCVTLen",
           "package": "sdl2",
@@ -17555,6 +19128,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioCVTLen",
           "package": "sdl2",
@@ -17568,6 +19142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioCVTLenCvt",
           "package": "sdl2",
@@ -17577,6 +19152,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioCVTLenCvt",
           "package": "sdl2",
@@ -17590,6 +19166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioCVTLenMult",
           "package": "sdl2",
@@ -17599,6 +19176,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioCVTLenMult",
           "package": "sdl2",
@@ -17612,6 +19190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioCVTLenRatio",
           "package": "sdl2",
@@ -17621,6 +19200,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioCVTLenRatio",
           "package": "sdl2",
@@ -17634,6 +19214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioCVTNeeded",
           "package": "sdl2",
@@ -17643,6 +19224,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioCVTNeeded",
           "package": "sdl2",
@@ -17656,6 +19238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioCVTRateIncr",
           "package": "sdl2",
@@ -17665,6 +19248,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioCVTRateIncr",
           "package": "sdl2",
@@ -17678,6 +19262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioCVTSrcFormat",
           "package": "sdl2",
@@ -17687,6 +19272,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioCVTSrcFormat",
           "package": "sdl2",
@@ -17700,6 +19286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioSpecCallback",
           "package": "sdl2",
@@ -17709,6 +19296,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioSpecCallback",
           "package": "sdl2",
@@ -17722,6 +19310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioSpecChannels",
           "package": "sdl2",
@@ -17731,6 +19320,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioSpecChannels",
           "package": "sdl2",
@@ -17744,6 +19334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioSpecFormat",
           "package": "sdl2",
@@ -17753,6 +19344,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioSpecFormat",
           "package": "sdl2",
@@ -17766,6 +19358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioSpecFreq",
           "package": "sdl2",
@@ -17775,6 +19368,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioSpecFreq",
           "package": "sdl2",
@@ -17788,6 +19382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioSpecSamples",
           "package": "sdl2",
@@ -17797,6 +19392,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioSpecSamples",
           "package": "sdl2",
@@ -17810,6 +19406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioSpecSilence",
           "package": "sdl2",
@@ -17819,6 +19416,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioSpecSilence",
           "package": "sdl2",
@@ -17832,6 +19430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioSpecSize",
           "package": "sdl2",
@@ -17841,6 +19440,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioSpecSize",
           "package": "sdl2",
@@ -17854,6 +19454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioSpecUserdata",
           "package": "sdl2",
@@ -17863,6 +19464,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "audioSpecUserdata",
           "normalized": "Ptr()",
@@ -17878,6 +19480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "colorA",
           "package": "sdl2",
@@ -17887,6 +19490,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "colorA",
           "package": "sdl2",
@@ -17899,6 +19503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "colorB",
           "package": "sdl2",
@@ -17908,6 +19513,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "colorB",
           "package": "sdl2",
@@ -17920,6 +19526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "colorG",
           "package": "sdl2",
@@ -17929,6 +19536,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "colorG",
           "package": "sdl2",
@@ -17941,6 +19549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "colorR",
           "package": "sdl2",
@@ -17950,6 +19559,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "colorR",
           "package": "sdl2",
@@ -17962,6 +19572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "controllerAxisEventAxis",
           "package": "sdl2",
@@ -17971,6 +19582,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "controllerAxisEventAxis",
           "package": "sdl2",
@@ -17984,6 +19596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "controllerAxisEventValue",
           "package": "sdl2",
@@ -17993,6 +19606,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "controllerAxisEventValue",
           "package": "sdl2",
@@ -18006,6 +19620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "controllerAxisEventWhich",
           "package": "sdl2",
@@ -18015,6 +19630,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "controllerAxisEventWhich",
           "package": "sdl2",
@@ -18028,6 +19644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "controllerButtonEventButton",
           "package": "sdl2",
@@ -18037,6 +19654,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "controllerButtonEventButton",
           "package": "sdl2",
@@ -18050,6 +19668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "controllerButtonEventState",
           "package": "sdl2",
@@ -18059,6 +19678,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "controllerButtonEventState",
           "package": "sdl2",
@@ -18072,6 +19692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "controllerButtonEventWhich",
           "package": "sdl2",
@@ -18081,6 +19702,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "controllerButtonEventWhich",
           "package": "sdl2",
@@ -18094,6 +19716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "controllerDeviceEventWhich",
           "package": "sdl2",
@@ -18103,6 +19726,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "controllerDeviceEventWhich",
           "package": "sdl2",
@@ -18116,6 +19740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "displayModeDriverData",
           "package": "sdl2",
@@ -18125,6 +19750,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "displayModeDriverData",
           "normalized": "Ptr()",
@@ -18140,6 +19766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "displayModeFormat",
           "package": "sdl2",
@@ -18149,6 +19776,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "displayModeFormat",
           "package": "sdl2",
@@ -18162,6 +19790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "displayModeH",
           "package": "sdl2",
@@ -18171,6 +19800,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "displayModeH",
           "package": "sdl2",
@@ -18184,6 +19814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "displayModeRefreshRate",
           "package": "sdl2",
@@ -18193,6 +19824,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "displayModeRefreshRate",
           "package": "sdl2",
@@ -18206,6 +19838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "displayModeW",
           "package": "sdl2",
@@ -18215,6 +19848,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "displayModeW",
           "package": "sdl2",
@@ -18228,6 +19862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "dollarGestureEventError",
           "package": "sdl2",
@@ -18237,6 +19872,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "dollarGestureEventError",
           "package": "sdl2",
@@ -18250,6 +19886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "dollarGestureEventGestureID",
           "package": "sdl2",
@@ -18259,6 +19896,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "dollarGestureEventGestureID",
           "package": "sdl2",
@@ -18272,6 +19910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "dollarGestureEventNumFingers",
           "package": "sdl2",
@@ -18281,6 +19920,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "dollarGestureEventNumFingers",
           "package": "sdl2",
@@ -18294,6 +19934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "dollarGestureEventTouchID",
           "package": "sdl2",
@@ -18303,6 +19944,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "dollarGestureEventTouchID",
           "package": "sdl2",
@@ -18316,6 +19958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "dollarGestureEventX",
           "package": "sdl2",
@@ -18325,6 +19968,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "dollarGestureEventX",
           "package": "sdl2",
@@ -18338,6 +19982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "dollarGestureEventY",
           "package": "sdl2",
@@ -18347,6 +19992,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "dollarGestureEventY",
           "package": "sdl2",
@@ -18360,6 +20006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "dropEventFile",
           "package": "sdl2",
@@ -18369,6 +20016,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "dropEventFile",
           "package": "sdl2",
@@ -18382,6 +20030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "eventTimestamp",
           "package": "sdl2",
@@ -18391,6 +20040,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "eventTimestamp",
           "package": "sdl2",
@@ -18404,6 +20054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "eventType",
           "package": "sdl2",
@@ -18413,6 +20064,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "eventType",
           "package": "sdl2",
@@ -18426,6 +20078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "fingerID",
           "package": "sdl2",
@@ -18435,6 +20088,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "fingerID",
           "package": "sdl2",
@@ -18448,6 +20102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "fingerPressure",
           "package": "sdl2",
@@ -18457,6 +20112,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "fingerPressure",
           "package": "sdl2",
@@ -18470,6 +20126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "fingerX",
           "package": "sdl2",
@@ -18479,6 +20136,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "fingerX",
           "package": "sdl2",
@@ -18491,6 +20149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "fingerY",
           "package": "sdl2",
@@ -18500,6 +20159,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "fingerY",
           "package": "sdl2",
@@ -18512,6 +20172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "gameControllerButtonBindAxis",
           "package": "sdl2",
@@ -18521,6 +20182,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "gameControllerButtonBindAxis",
           "package": "sdl2",
@@ -18534,6 +20196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "gameControllerButtonBindButton",
           "package": "sdl2",
@@ -18543,6 +20206,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "gameControllerButtonBindButton",
           "package": "sdl2",
@@ -18556,6 +20220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "gameControllerButtonBindHat",
           "package": "sdl2",
@@ -18565,6 +20230,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "gameControllerButtonBindHat",
           "package": "sdl2",
@@ -18578,6 +20244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "gameControllerButtonBindHatMask",
           "package": "sdl2",
@@ -18587,6 +20254,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "gameControllerButtonBindHatMask",
           "package": "sdl2",
@@ -18600,6 +20268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionButton",
           "package": "sdl2",
@@ -18609,6 +20278,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionButton",
           "package": "sdl2",
@@ -18622,6 +20292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionCenter",
           "package": "sdl2",
@@ -18631,6 +20302,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionCenter",
           "normalized": "[Int]",
@@ -18646,6 +20318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionDeadband",
           "package": "sdl2",
@@ -18655,6 +20328,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionDeadband",
           "normalized": "[Word]",
@@ -18670,6 +20344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionDelay",
           "package": "sdl2",
@@ -18679,6 +20354,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionDelay",
           "package": "sdl2",
@@ -18692,6 +20368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionInterval",
           "package": "sdl2",
@@ -18701,6 +20378,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionInterval",
           "package": "sdl2",
@@ -18714,6 +20392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionLeftCoeff",
           "package": "sdl2",
@@ -18723,6 +20402,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionLeftCoeff",
           "normalized": "[Int]",
@@ -18738,6 +20418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionLeftSat",
           "package": "sdl2",
@@ -18747,6 +20428,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionLeftSat",
           "normalized": "[Word]",
@@ -18762,6 +20444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionLength",
           "package": "sdl2",
@@ -18771,6 +20454,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionLength",
           "package": "sdl2",
@@ -18784,6 +20468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionRightCoeff",
           "package": "sdl2",
@@ -18793,6 +20478,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionRightCoeff",
           "normalized": "[Int]",
@@ -18808,6 +20494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionRightSat",
           "package": "sdl2",
@@ -18817,6 +20504,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConditionRightSat",
           "normalized": "[Word]",
@@ -18832,6 +20520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantAttackLength",
           "package": "sdl2",
@@ -18841,6 +20530,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantAttackLength",
           "package": "sdl2",
@@ -18854,6 +20544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantAttackLevel",
           "package": "sdl2",
@@ -18863,6 +20554,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantAttackLevel",
           "package": "sdl2",
@@ -18876,6 +20568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantButton",
           "package": "sdl2",
@@ -18885,6 +20578,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantButton",
           "package": "sdl2",
@@ -18898,6 +20592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantDelay",
           "package": "sdl2",
@@ -18907,6 +20602,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantDelay",
           "package": "sdl2",
@@ -18920,6 +20616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantDirection",
           "package": "sdl2",
@@ -18929,6 +20626,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantDirection",
           "package": "sdl2",
@@ -18942,6 +20640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantFadeLength",
           "package": "sdl2",
@@ -18951,6 +20650,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantFadeLength",
           "package": "sdl2",
@@ -18964,6 +20664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantFadeLevel",
           "package": "sdl2",
@@ -18973,6 +20674,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantFadeLevel",
           "package": "sdl2",
@@ -18986,6 +20688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantInterval",
           "package": "sdl2",
@@ -18995,6 +20698,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantInterval",
           "package": "sdl2",
@@ -19008,6 +20712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantLength",
           "package": "sdl2",
@@ -19017,6 +20722,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantLength",
           "package": "sdl2",
@@ -19030,6 +20736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantLevel",
           "package": "sdl2",
@@ -19039,6 +20746,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticConstantLevel",
           "package": "sdl2",
@@ -19052,6 +20760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomAttackLength",
           "package": "sdl2",
@@ -19061,6 +20770,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomAttackLength",
           "package": "sdl2",
@@ -19074,6 +20784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomAttackLevel",
           "package": "sdl2",
@@ -19083,6 +20794,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomAttackLevel",
           "package": "sdl2",
@@ -19096,6 +20808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomButton",
           "package": "sdl2",
@@ -19105,6 +20818,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomButton",
           "package": "sdl2",
@@ -19118,6 +20832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomChannels",
           "package": "sdl2",
@@ -19127,6 +20842,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomChannels",
           "package": "sdl2",
@@ -19140,6 +20856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomData",
           "package": "sdl2",
@@ -19149,6 +20866,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomData",
           "package": "sdl2",
@@ -19162,6 +20880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomDelay",
           "package": "sdl2",
@@ -19171,6 +20890,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomDelay",
           "package": "sdl2",
@@ -19184,6 +20904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomDirection",
           "package": "sdl2",
@@ -19193,6 +20914,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomDirection",
           "package": "sdl2",
@@ -19206,6 +20928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomFadeLength",
           "package": "sdl2",
@@ -19215,6 +20938,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomFadeLength",
           "package": "sdl2",
@@ -19228,6 +20952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomFadeLevel",
           "package": "sdl2",
@@ -19237,6 +20962,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomFadeLevel",
           "package": "sdl2",
@@ -19250,6 +20976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomInterval",
           "package": "sdl2",
@@ -19259,6 +20986,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomInterval",
           "package": "sdl2",
@@ -19272,6 +21000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomLength",
           "package": "sdl2",
@@ -19281,6 +21010,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomLength",
           "package": "sdl2",
@@ -19294,6 +21024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomPeriod",
           "package": "sdl2",
@@ -19303,6 +21034,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomPeriod",
           "package": "sdl2",
@@ -19316,6 +21048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomSamples",
           "package": "sdl2",
@@ -19325,6 +21058,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticCustomSamples",
           "package": "sdl2",
@@ -19338,6 +21072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticDirectionType",
           "package": "sdl2",
@@ -19347,6 +21082,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticDirectionType",
           "package": "sdl2",
@@ -19360,6 +21096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticDirectionX",
           "package": "sdl2",
@@ -19369,6 +21106,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticDirectionX",
           "package": "sdl2",
@@ -19382,6 +21120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticDirectionY",
           "package": "sdl2",
@@ -19391,6 +21130,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticDirectionY",
           "package": "sdl2",
@@ -19404,6 +21144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticDirectionZ",
           "package": "sdl2",
@@ -19413,6 +21154,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticDirectionZ",
           "package": "sdl2",
@@ -19426,6 +21168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticEffectType",
           "package": "sdl2",
@@ -19435,6 +21178,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticEffectType",
           "package": "sdl2",
@@ -19448,6 +21192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticLeftRightLargeMagnitude",
           "package": "sdl2",
@@ -19457,6 +21202,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticLeftRightLargeMagnitude",
           "package": "sdl2",
@@ -19470,6 +21216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticLeftRightLength",
           "package": "sdl2",
@@ -19479,6 +21226,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticLeftRightLength",
           "package": "sdl2",
@@ -19492,6 +21240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticLeftRightSmallMagnitude",
           "package": "sdl2",
@@ -19501,6 +21250,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticLeftRightSmallMagnitude",
           "package": "sdl2",
@@ -19514,6 +21264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicAttackLength",
           "package": "sdl2",
@@ -19523,6 +21274,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicAttackLength",
           "package": "sdl2",
@@ -19536,6 +21288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicAttackLevel",
           "package": "sdl2",
@@ -19545,6 +21298,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicAttackLevel",
           "package": "sdl2",
@@ -19558,6 +21312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicButton",
           "package": "sdl2",
@@ -19567,6 +21322,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicButton",
           "package": "sdl2",
@@ -19580,6 +21336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicDelay",
           "package": "sdl2",
@@ -19589,6 +21346,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicDelay",
           "package": "sdl2",
@@ -19602,6 +21360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicDirection",
           "package": "sdl2",
@@ -19611,6 +21370,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicDirection",
           "package": "sdl2",
@@ -19624,6 +21384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicFadeLength",
           "package": "sdl2",
@@ -19633,6 +21394,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicFadeLength",
           "package": "sdl2",
@@ -19646,6 +21408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicFadeLevel",
           "package": "sdl2",
@@ -19655,6 +21418,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicFadeLevel",
           "package": "sdl2",
@@ -19668,6 +21432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicInterval",
           "package": "sdl2",
@@ -19677,6 +21442,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicInterval",
           "package": "sdl2",
@@ -19690,6 +21456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicLength",
           "package": "sdl2",
@@ -19699,6 +21466,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicLength",
           "package": "sdl2",
@@ -19712,6 +21480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicMagnitude",
           "package": "sdl2",
@@ -19721,6 +21490,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicMagnitude",
           "package": "sdl2",
@@ -19734,6 +21504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicOffset",
           "package": "sdl2",
@@ -19743,6 +21514,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicOffset",
           "package": "sdl2",
@@ -19756,6 +21528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicPeriod",
           "package": "sdl2",
@@ -19765,6 +21538,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicPeriod",
           "package": "sdl2",
@@ -19778,6 +21552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicPhase",
           "package": "sdl2",
@@ -19787,6 +21562,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticPeriodicPhase",
           "package": "sdl2",
@@ -19800,6 +21576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampAttackLength",
           "package": "sdl2",
@@ -19809,6 +21586,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampAttackLength",
           "package": "sdl2",
@@ -19822,6 +21600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampAttackLevel",
           "package": "sdl2",
@@ -19831,6 +21610,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampAttackLevel",
           "package": "sdl2",
@@ -19844,6 +21624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampButton",
           "package": "sdl2",
@@ -19853,6 +21634,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampButton",
           "package": "sdl2",
@@ -19866,6 +21648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampDelay",
           "package": "sdl2",
@@ -19875,6 +21658,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampDelay",
           "package": "sdl2",
@@ -19888,6 +21672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampDirection",
           "package": "sdl2",
@@ -19897,6 +21682,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampDirection",
           "package": "sdl2",
@@ -19910,6 +21696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampEnd",
           "package": "sdl2",
@@ -19919,6 +21706,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampEnd",
           "package": "sdl2",
@@ -19932,6 +21720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampFadeLength",
           "package": "sdl2",
@@ -19941,6 +21730,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampFadeLength",
           "package": "sdl2",
@@ -19954,6 +21744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampFadeLevel",
           "package": "sdl2",
@@ -19963,6 +21754,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampFadeLevel",
           "package": "sdl2",
@@ -19976,6 +21768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampInterval",
           "package": "sdl2",
@@ -19985,6 +21778,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampInterval",
           "package": "sdl2",
@@ -19998,6 +21792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampLength",
           "package": "sdl2",
@@ -20007,6 +21802,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampLength",
           "package": "sdl2",
@@ -20020,6 +21816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampStart",
           "package": "sdl2",
@@ -20029,6 +21826,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "hapticRampStart",
           "package": "sdl2",
@@ -20042,6 +21840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyAxisEventAxis",
           "package": "sdl2",
@@ -20051,6 +21850,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyAxisEventAxis",
           "package": "sdl2",
@@ -20064,6 +21864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyAxisEventValue",
           "package": "sdl2",
@@ -20073,6 +21874,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyAxisEventValue",
           "package": "sdl2",
@@ -20086,6 +21888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyAxisEventWhich",
           "package": "sdl2",
@@ -20095,6 +21898,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyAxisEventWhich",
           "package": "sdl2",
@@ -20108,6 +21912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyBallEventBall",
           "package": "sdl2",
@@ -20117,6 +21922,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyBallEventBall",
           "package": "sdl2",
@@ -20130,6 +21936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyBallEventWhich",
           "package": "sdl2",
@@ -20139,6 +21946,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyBallEventWhich",
           "package": "sdl2",
@@ -20152,6 +21960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyBallEventXRel",
           "package": "sdl2",
@@ -20161,6 +21970,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyBallEventXRel",
           "package": "sdl2",
@@ -20174,6 +21984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyBallEventYRel",
           "package": "sdl2",
@@ -20183,6 +21994,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyBallEventYRel",
           "package": "sdl2",
@@ -20196,6 +22008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyButtonEventButton",
           "package": "sdl2",
@@ -20205,6 +22018,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyButtonEventButton",
           "package": "sdl2",
@@ -20218,6 +22032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyButtonEventState",
           "package": "sdl2",
@@ -20227,6 +22042,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyButtonEventState",
           "package": "sdl2",
@@ -20240,6 +22056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyButtonEventWhich",
           "package": "sdl2",
@@ -20249,6 +22066,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyButtonEventWhich",
           "package": "sdl2",
@@ -20262,6 +22080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyDeviceEventWhich",
           "package": "sdl2",
@@ -20271,6 +22090,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyDeviceEventWhich",
           "package": "sdl2",
@@ -20284,6 +22104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyHatEventHat",
           "package": "sdl2",
@@ -20293,6 +22114,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyHatEventHat",
           "package": "sdl2",
@@ -20306,6 +22128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyHatEventValue",
           "package": "sdl2",
@@ -20315,6 +22138,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyHatEventValue",
           "package": "sdl2",
@@ -20328,6 +22152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyHatEventWhich",
           "package": "sdl2",
@@ -20337,6 +22162,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "joyHatEventWhich",
           "package": "sdl2",
@@ -20350,6 +22176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "joystickGUID",
           "package": "sdl2",
@@ -20359,6 +22186,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "joystickGUID",
           "normalized": "[Word]",
@@ -20374,6 +22202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "keyboardEventKeysym",
           "package": "sdl2",
@@ -20383,6 +22212,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "keyboardEventKeysym",
           "package": "sdl2",
@@ -20396,6 +22226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "keyboardEventRepeat",
           "package": "sdl2",
@@ -20405,6 +22236,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "keyboardEventRepeat",
           "package": "sdl2",
@@ -20418,6 +22250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "keyboardEventState",
           "package": "sdl2",
@@ -20427,6 +22260,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "keyboardEventState",
           "package": "sdl2",
@@ -20440,6 +22274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "keyboardEventWindowID",
           "package": "sdl2",
@@ -20449,6 +22284,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "keyboardEventWindowID",
           "package": "sdl2",
@@ -20462,6 +22298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "keysymKeycode",
           "package": "sdl2",
@@ -20471,6 +22308,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "keysymKeycode",
           "package": "sdl2",
@@ -20484,6 +22322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "keysymMod",
           "package": "sdl2",
@@ -20493,6 +22332,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "keysymMod",
           "package": "sdl2",
@@ -20506,6 +22346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "keysymScancode",
           "package": "sdl2",
@@ -20515,6 +22356,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "keysymScancode",
           "package": "sdl2",
@@ -20528,6 +22370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxButtonButtonID",
           "package": "sdl2",
@@ -20537,6 +22380,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxButtonButtonID",
           "package": "sdl2",
@@ -20550,6 +22394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxButtonDataFlags",
           "package": "sdl2",
@@ -20559,6 +22404,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxButtonDataFlags",
           "package": "sdl2",
@@ -20572,6 +22418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxButtonText",
           "package": "sdl2",
@@ -20581,6 +22428,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxButtonText",
           "package": "sdl2",
@@ -20594,6 +22442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxColorB",
           "package": "sdl2",
@@ -20603,6 +22452,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxColorB",
           "package": "sdl2",
@@ -20616,6 +22466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxColorG",
           "package": "sdl2",
@@ -20625,6 +22476,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxColorG",
           "package": "sdl2",
@@ -20638,6 +22490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxColorR",
           "package": "sdl2",
@@ -20647,6 +22500,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxColorR",
           "package": "sdl2",
@@ -20660,6 +22514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxColorSchemeColorBackground",
           "package": "sdl2",
@@ -20669,6 +22524,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxColorSchemeColorBackground",
           "package": "sdl2",
@@ -20682,6 +22538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxColorSchemeColorButtonBackground",
           "package": "sdl2",
@@ -20691,6 +22548,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxColorSchemeColorButtonBackground",
           "package": "sdl2",
@@ -20704,6 +22562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxColorSchemeColorButtonBorder",
           "package": "sdl2",
@@ -20713,6 +22572,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxColorSchemeColorButtonBorder",
           "package": "sdl2",
@@ -20726,6 +22586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxColorSchemeColorButtonSelected",
           "package": "sdl2",
@@ -20735,6 +22596,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxColorSchemeColorButtonSelected",
           "package": "sdl2",
@@ -20748,6 +22610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxColorSchemeColorText",
           "package": "sdl2",
@@ -20757,6 +22620,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxColorSchemeColorText",
           "package": "sdl2",
@@ -20770,6 +22634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxDataButtons",
           "package": "sdl2",
@@ -20779,6 +22644,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxDataButtons",
           "package": "sdl2",
@@ -20792,6 +22658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxDataColorScheme",
           "package": "sdl2",
@@ -20801,6 +22668,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxDataColorScheme",
           "package": "sdl2",
@@ -20814,6 +22682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxDataFlags",
           "package": "sdl2",
@@ -20823,6 +22692,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxDataFlags",
           "package": "sdl2",
@@ -20836,6 +22706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxDataMessage",
           "package": "sdl2",
@@ -20845,6 +22716,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxDataMessage",
           "package": "sdl2",
@@ -20858,6 +22730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxDataNumButtons",
           "package": "sdl2",
@@ -20867,6 +22740,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxDataNumButtons",
           "package": "sdl2",
@@ -20880,6 +22754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxDataTitle",
           "package": "sdl2",
@@ -20889,6 +22764,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxDataTitle",
           "package": "sdl2",
@@ -20902,6 +22778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxDataWindow",
           "package": "sdl2",
@@ -20911,6 +22788,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "messageBoxDataWindow",
           "package": "sdl2",
@@ -20924,6 +22802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseButtonEventButton",
           "package": "sdl2",
@@ -20933,6 +22812,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseButtonEventButton",
           "package": "sdl2",
@@ -20946,6 +22826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseButtonEventState",
           "package": "sdl2",
@@ -20955,6 +22836,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseButtonEventState",
           "package": "sdl2",
@@ -20968,6 +22850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseButtonEventWhich",
           "package": "sdl2",
@@ -20977,6 +22860,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseButtonEventWhich",
           "package": "sdl2",
@@ -20990,6 +22874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseButtonEventWindowID",
           "package": "sdl2",
@@ -20999,6 +22884,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseButtonEventWindowID",
           "package": "sdl2",
@@ -21012,6 +22898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseButtonEventX",
           "package": "sdl2",
@@ -21021,6 +22908,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseButtonEventX",
           "package": "sdl2",
@@ -21034,6 +22922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseButtonEventY",
           "package": "sdl2",
@@ -21043,6 +22932,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseButtonEventY",
           "package": "sdl2",
@@ -21056,6 +22946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseMotionEventState",
           "package": "sdl2",
@@ -21065,6 +22956,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseMotionEventState",
           "package": "sdl2",
@@ -21078,6 +22970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseMotionEventWhich",
           "package": "sdl2",
@@ -21087,6 +22980,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseMotionEventWhich",
           "package": "sdl2",
@@ -21100,6 +22994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseMotionEventWindowID",
           "package": "sdl2",
@@ -21109,6 +23004,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseMotionEventWindowID",
           "package": "sdl2",
@@ -21122,6 +23018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseMotionEventX",
           "package": "sdl2",
@@ -21131,6 +23028,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseMotionEventX",
           "package": "sdl2",
@@ -21144,6 +23042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseMotionEventXRel",
           "package": "sdl2",
@@ -21153,6 +23052,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseMotionEventXRel",
           "package": "sdl2",
@@ -21166,6 +23066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseMotionEventY",
           "package": "sdl2",
@@ -21175,6 +23076,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseMotionEventY",
           "package": "sdl2",
@@ -21188,6 +23090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseMotionEventYRel",
           "package": "sdl2",
@@ -21197,6 +23100,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseMotionEventYRel",
           "package": "sdl2",
@@ -21210,6 +23114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseWheelEventWhich",
           "package": "sdl2",
@@ -21219,6 +23124,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseWheelEventWhich",
           "package": "sdl2",
@@ -21232,6 +23138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseWheelEventWindowID",
           "package": "sdl2",
@@ -21241,6 +23148,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseWheelEventWindowID",
           "package": "sdl2",
@@ -21254,6 +23162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseWheelEventX",
           "package": "sdl2",
@@ -21263,6 +23172,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseWheelEventX",
           "package": "sdl2",
@@ -21276,6 +23186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseWheelEventY",
           "package": "sdl2",
@@ -21285,6 +23196,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "mouseWheelEventY",
           "package": "sdl2",
@@ -21298,6 +23210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "multiGestureEventDDist",
           "package": "sdl2",
@@ -21307,6 +23220,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "multiGestureEventDDist",
           "package": "sdl2",
@@ -21320,6 +23234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "multiGestureEventDTheta",
           "package": "sdl2",
@@ -21329,6 +23244,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "multiGestureEventDTheta",
           "package": "sdl2",
@@ -21342,6 +23258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "multiGestureEventNumFingers",
           "package": "sdl2",
@@ -21351,6 +23268,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "multiGestureEventNumFingers",
           "package": "sdl2",
@@ -21364,6 +23282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "multiGestureEventTouchID",
           "package": "sdl2",
@@ -21373,6 +23292,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "multiGestureEventTouchID",
           "package": "sdl2",
@@ -21386,6 +23306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "multiGestureEventX",
           "package": "sdl2",
@@ -21395,6 +23316,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "multiGestureEventX",
           "package": "sdl2",
@@ -21408,6 +23330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "multiGestureEventY",
           "package": "sdl2",
@@ -21417,6 +23340,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "multiGestureEventY",
           "package": "sdl2",
@@ -21430,6 +23354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "paletteColors",
           "package": "sdl2",
@@ -21439,6 +23364,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "paletteColors",
           "package": "sdl2",
@@ -21452,6 +23378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "paletteNColors",
           "package": "sdl2",
@@ -21461,6 +23388,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "paletteNColors",
           "package": "sdl2",
@@ -21474,6 +23402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "pixelFormatAMask",
           "package": "sdl2",
@@ -21483,6 +23412,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "pixelFormatAMask",
           "package": "sdl2",
@@ -21496,6 +23426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "pixelFormatBMask",
           "package": "sdl2",
@@ -21505,6 +23436,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "pixelFormatBMask",
           "package": "sdl2",
@@ -21518,6 +23450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "pixelFormatBitsPerPixel",
           "package": "sdl2",
@@ -21527,6 +23460,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "pixelFormatBitsPerPixel",
           "package": "sdl2",
@@ -21540,6 +23474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "pixelFormatBytesPerPixel",
           "package": "sdl2",
@@ -21549,6 +23484,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "pixelFormatBytesPerPixel",
           "package": "sdl2",
@@ -21562,6 +23498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "pixelFormatFormat",
           "package": "sdl2",
@@ -21571,6 +23508,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "pixelFormatFormat",
           "package": "sdl2",
@@ -21584,6 +23522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "pixelFormatGMask",
           "package": "sdl2",
@@ -21593,6 +23532,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "pixelFormatGMask",
           "package": "sdl2",
@@ -21606,6 +23546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "pixelFormatPalette",
           "package": "sdl2",
@@ -21615,6 +23556,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "pixelFormatPalette",
           "package": "sdl2",
@@ -21628,6 +23570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "pixelFormatRMask",
           "package": "sdl2",
@@ -21637,6 +23580,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "pixelFormatRMask",
           "package": "sdl2",
@@ -21650,6 +23594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "pointX",
           "package": "sdl2",
@@ -21659,6 +23604,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "pointX",
           "package": "sdl2",
@@ -21671,6 +23617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "pointY",
           "package": "sdl2",
@@ -21680,6 +23627,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "pointY",
           "package": "sdl2",
@@ -21692,6 +23640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "rectH",
           "package": "sdl2",
@@ -21701,6 +23650,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "rectH",
           "package": "sdl2",
@@ -21713,6 +23663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "rectW",
           "package": "sdl2",
@@ -21722,6 +23673,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "rectW",
           "package": "sdl2",
@@ -21734,6 +23686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "rectX",
           "package": "sdl2",
@@ -21743,6 +23696,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "rectX",
           "package": "sdl2",
@@ -21755,6 +23709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "rectY",
           "package": "sdl2",
@@ -21764,6 +23719,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "rectY",
           "package": "sdl2",
@@ -21776,6 +23732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "rendererInfoFlags",
           "package": "sdl2",
@@ -21785,6 +23742,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "rendererInfoFlags",
           "package": "sdl2",
@@ -21798,6 +23756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "rendererInfoMaxTextureHeight",
           "package": "sdl2",
@@ -21807,6 +23766,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "rendererInfoMaxTextureHeight",
           "package": "sdl2",
@@ -21820,6 +23780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "rendererInfoMaxTextureWidth",
           "package": "sdl2",
@@ -21829,6 +23790,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "rendererInfoMaxTextureWidth",
           "package": "sdl2",
@@ -21842,6 +23804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "rendererInfoName",
           "package": "sdl2",
@@ -21851,6 +23814,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "rendererInfoName",
           "package": "sdl2",
@@ -21864,6 +23828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "rendererInfoNumTextureFormats",
           "package": "sdl2",
@@ -21873,6 +23838,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "rendererInfoNumTextureFormats",
           "package": "sdl2",
@@ -21886,6 +23852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "rendererInfoTextureFormats",
           "package": "sdl2",
@@ -21895,6 +23862,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "rendererInfoTextureFormats",
           "normalized": "[Word]",
@@ -21910,6 +23878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "rwopsClose",
           "package": "sdl2",
@@ -21919,6 +23888,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "rwopsClose",
           "normalized": "FunPtr(Ptr RWops-\u003eIO CInt)",
@@ -21934,6 +23904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "rwopsRead",
           "package": "sdl2",
@@ -21943,6 +23914,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "rwopsRead",
           "normalized": "FunPtr(Ptr RWops-\u003ePtr()-\u003eCSize-\u003eCSize-\u003eIO CSize)",
@@ -21958,6 +23930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "rwopsSeek",
           "package": "sdl2",
@@ -21967,6 +23940,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "rwopsSeek",
           "normalized": "FunPtr(Ptr RWops-\u003eInt-\u003eCInt-\u003eIO Int)",
@@ -21982,6 +23956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "rwopsSize",
           "package": "sdl2",
@@ -21991,6 +23966,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "rwopsSize",
           "normalized": "FunPtr(Ptr RWops-\u003eIO Int)",
@@ -22006,6 +23982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "rwopsType",
           "package": "sdl2",
@@ -22015,6 +23992,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "rwopsType",
           "package": "sdl2",
@@ -22028,6 +24006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "rwopsWrite",
           "package": "sdl2",
@@ -22037,6 +24016,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "rwopsWrite",
           "normalized": "FunPtr(Ptr RWops-\u003ePtr()-\u003eCSize-\u003eCSize-\u003eIO CSize)",
@@ -22052,6 +24032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "surfaceClipRect",
           "package": "sdl2",
@@ -22061,6 +24042,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "surfaceClipRect",
           "package": "sdl2",
@@ -22074,6 +24056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "surfaceFormat",
           "package": "sdl2",
@@ -22083,6 +24066,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "surfaceFormat",
           "package": "sdl2",
@@ -22096,6 +24080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "surfaceH",
           "package": "sdl2",
@@ -22105,6 +24090,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "surfaceH",
           "package": "sdl2",
@@ -22117,6 +24103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "surfacePixels",
           "package": "sdl2",
@@ -22126,6 +24113,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "surfacePixels",
           "normalized": "Ptr()",
@@ -22141,6 +24129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "surfaceRefcount",
           "package": "sdl2",
@@ -22150,6 +24139,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "surfaceRefcount",
           "package": "sdl2",
@@ -22163,6 +24153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "surfaceUserdata",
           "package": "sdl2",
@@ -22172,6 +24163,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "surfaceUserdata",
           "normalized": "Ptr()",
@@ -22187,6 +24179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "surfaceW",
           "package": "sdl2",
@@ -22196,6 +24189,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "surfaceW",
           "package": "sdl2",
@@ -22208,6 +24202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "sysWMEventMsg",
           "package": "sdl2",
@@ -22217,6 +24212,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "sysWMEventMsg",
           "package": "sdl2",
@@ -22230,6 +24226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "textEditingEventLength",
           "package": "sdl2",
@@ -22239,6 +24236,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "textEditingEventLength",
           "package": "sdl2",
@@ -22252,6 +24250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "textEditingEventStart",
           "package": "sdl2",
@@ -22261,6 +24260,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "textEditingEventStart",
           "package": "sdl2",
@@ -22274,6 +24274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "textEditingEventText",
           "package": "sdl2",
@@ -22283,6 +24284,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "textEditingEventText",
           "normalized": "[CChar]",
@@ -22298,6 +24300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "textEditingEventWindowID",
           "package": "sdl2",
@@ -22307,6 +24310,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "textEditingEventWindowID",
           "package": "sdl2",
@@ -22320,6 +24324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "textInputEventText",
           "package": "sdl2",
@@ -22329,6 +24334,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "textInputEventText",
           "normalized": "[CChar]",
@@ -22344,6 +24350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "textInputEventWindowID",
           "package": "sdl2",
@@ -22353,6 +24360,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "textInputEventWindowID",
           "package": "sdl2",
@@ -22366,6 +24374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "touchFingerEventDX",
           "package": "sdl2",
@@ -22375,6 +24384,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "touchFingerEventDX",
           "package": "sdl2",
@@ -22388,6 +24398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "touchFingerEventDY",
           "package": "sdl2",
@@ -22397,6 +24408,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "touchFingerEventDY",
           "package": "sdl2",
@@ -22410,6 +24422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "touchFingerEventFingerID",
           "package": "sdl2",
@@ -22419,6 +24432,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "touchFingerEventFingerID",
           "package": "sdl2",
@@ -22432,6 +24446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "touchFingerEventPressure",
           "package": "sdl2",
@@ -22441,6 +24456,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "touchFingerEventPressure",
           "package": "sdl2",
@@ -22454,6 +24470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "touchFingerEventTouchID",
           "package": "sdl2",
@@ -22463,6 +24480,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "touchFingerEventTouchID",
           "package": "sdl2",
@@ -22476,6 +24494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "touchFingerEventX",
           "package": "sdl2",
@@ -22485,6 +24504,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "touchFingerEventX",
           "package": "sdl2",
@@ -22498,6 +24518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "touchFingerEventY",
           "package": "sdl2",
@@ -22507,6 +24528,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "touchFingerEventY",
           "package": "sdl2",
@@ -22520,6 +24542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "userEventCode",
           "package": "sdl2",
@@ -22529,6 +24552,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "userEventCode",
           "package": "sdl2",
@@ -22542,6 +24566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "userEventData1",
           "package": "sdl2",
@@ -22551,6 +24576,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "userEventData1",
           "normalized": "Ptr()",
@@ -22566,6 +24592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "userEventData2",
           "package": "sdl2",
@@ -22575,6 +24602,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "userEventData2",
           "normalized": "Ptr()",
@@ -22590,6 +24618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "userEventWindowID",
           "package": "sdl2",
@@ -22599,6 +24628,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "userEventWindowID",
           "package": "sdl2",
@@ -22612,6 +24642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "versionMajor",
           "package": "sdl2",
@@ -22621,6 +24652,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "versionMajor",
           "package": "sdl2",
@@ -22634,6 +24666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "versionMinor",
           "package": "sdl2",
@@ -22643,6 +24676,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "versionMinor",
           "package": "sdl2",
@@ -22656,6 +24690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "versionPatch",
           "package": "sdl2",
@@ -22665,6 +24700,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "versionPatch",
           "package": "sdl2",
@@ -22678,6 +24714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "windowEventData1",
           "package": "sdl2",
@@ -22687,6 +24724,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "windowEventData1",
           "package": "sdl2",
@@ -22700,6 +24738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "windowEventData2",
           "package": "sdl2",
@@ -22709,6 +24748,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "windowEventData2",
           "package": "sdl2",
@@ -22722,6 +24762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "windowEventEvent",
           "package": "sdl2",
@@ -22731,6 +24772,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "windowEventEvent",
           "package": "sdl2",
@@ -22744,6 +24786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Types",
           "name": "windowEventWindowID",
           "package": "sdl2",
@@ -22753,6 +24796,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Types",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Types",
           "name": "windowEventWindowID",
           "package": "sdl2",
@@ -22766,6 +24810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "Video",
           "package": "sdl2",
@@ -22774,6 +24819,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "Video",
           "package": "sdl2",
@@ -22787,6 +24833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "allocFormat",
           "package": "sdl2",
@@ -22796,6 +24843,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "allocFormat",
           "normalized": "Word-\u003eIO(Ptr PixelFormat)",
@@ -22811,6 +24859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "allocPalette",
           "package": "sdl2",
@@ -22820,6 +24869,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "allocPalette",
           "normalized": "CInt-\u003eIO(Ptr Palette)",
@@ -22835,6 +24885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "blitScaled",
           "package": "sdl2",
@@ -22844,6 +24895,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "blitScaled",
           "normalized": "Ptr Surface-\u003ePtr Rect-\u003ePtr Surface-\u003ePtr Rect-\u003eIO CInt",
@@ -22859,6 +24911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "blitSurface",
           "package": "sdl2",
@@ -22868,6 +24921,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "blitSurface",
           "normalized": "Ptr Surface-\u003ePtr Rect-\u003ePtr Surface-\u003ePtr Rect-\u003eIO CInt",
@@ -22883,6 +24937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "calculateGammaRamp",
           "package": "sdl2",
@@ -22892,6 +24947,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "calculateGammaRamp",
           "normalized": "CFloat-\u003ePtr Word-\u003eIO()",
@@ -22907,6 +24963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "convertPixels",
           "package": "sdl2",
@@ -22916,6 +24973,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "convertPixels",
           "normalized": "CInt-\u003eCInt-\u003eWord-\u003ePtr()-\u003eCInt-\u003eWord-\u003ePtr()-\u003eCInt-\u003eIO CInt",
@@ -22931,6 +24989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "convertSurface",
           "package": "sdl2",
@@ -22940,6 +24999,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "convertSurface",
           "normalized": "Ptr Surface-\u003ePtr PixelFormat-\u003eWord-\u003eIO(Ptr Surface)",
@@ -22955,6 +25015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "convertSurfaceFormat",
           "package": "sdl2",
@@ -22964,6 +25025,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "convertSurfaceFormat",
           "normalized": "Ptr Surface-\u003eWord-\u003eWord-\u003eIO(Ptr Surface)",
@@ -22979,6 +25041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "createRGBSurface",
           "package": "sdl2",
@@ -22988,6 +25051,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "createRGBSurface",
           "normalized": "Word-\u003eCInt-\u003eCInt-\u003eCInt-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eIO(Ptr Surface)",
@@ -23003,6 +25067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "createRGBSurfaceFrom",
           "package": "sdl2",
@@ -23012,6 +25077,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "createRGBSurfaceFrom",
           "normalized": "Ptr()-\u003eCInt-\u003eCInt-\u003eCInt-\u003eCInt-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eIO(Ptr Surface)",
@@ -23027,6 +25093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "createRenderer",
           "package": "sdl2",
@@ -23036,6 +25103,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "createRenderer",
           "normalized": "Window-\u003eCInt-\u003eWord-\u003eIO Renderer",
@@ -23051,6 +25119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "createSoftwareRenderer",
           "package": "sdl2",
@@ -23060,6 +25129,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "createSoftwareRenderer",
           "normalized": "Ptr Surface-\u003eIO Renderer",
@@ -23075,6 +25145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "createTexture",
           "package": "sdl2",
@@ -23084,6 +25155,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "createTexture",
           "normalized": "Renderer-\u003eWord-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO Texture",
@@ -23099,6 +25171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "createTextureFromSurface",
           "package": "sdl2",
@@ -23108,6 +25181,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "createTextureFromSurface",
           "normalized": "Renderer-\u003ePtr Surface-\u003eIO Texture",
@@ -23123,6 +25197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "createWindow",
           "package": "sdl2",
@@ -23132,6 +25207,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "createWindow",
           "normalized": "CString-\u003eCInt-\u003eCInt-\u003eCInt-\u003eCInt-\u003eWord-\u003eIO Window",
@@ -23147,6 +25223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "createWindowAndRenderer",
           "package": "sdl2",
@@ -23156,6 +25233,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "createWindowAndRenderer",
           "normalized": "CInt-\u003eCInt-\u003eWord-\u003ePtr Window-\u003ePtr Renderer-\u003eIO CInt",
@@ -23171,6 +25249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "createWindowFrom",
           "package": "sdl2",
@@ -23180,6 +25259,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "createWindowFrom",
           "normalized": "Ptr()-\u003eIO Window",
@@ -23195,6 +25275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "destroyRenderer",
           "package": "sdl2",
@@ -23204,6 +25285,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "destroyRenderer",
           "normalized": "Renderer-\u003eIO()",
@@ -23219,6 +25301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "destroyTexture",
           "package": "sdl2",
@@ -23228,6 +25311,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "destroyTexture",
           "normalized": "Texture-\u003eIO()",
@@ -23243,6 +25327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "destroyWindow",
           "package": "sdl2",
@@ -23252,6 +25337,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "destroyWindow",
           "normalized": "Window-\u003eIO()",
@@ -23267,6 +25353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "disableScreenSaver",
           "package": "sdl2",
@@ -23276,6 +25363,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "disableScreenSaver",
           "normalized": "IO()",
@@ -23291,6 +25379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "enableScreenSaver",
           "package": "sdl2",
@@ -23300,6 +25389,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "enableScreenSaver",
           "normalized": "IO()",
@@ -23315,6 +25405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "enclosePoints",
           "package": "sdl2",
@@ -23324,6 +25415,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "enclosePoints",
           "normalized": "Ptr Point-\u003eCInt-\u003ePtr Rect-\u003ePtr Rect-\u003eIO Bool",
@@ -23339,6 +25431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "fillRect",
           "package": "sdl2",
@@ -23348,6 +25441,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "fillRect",
           "normalized": "Ptr Surface-\u003ePtr Rect-\u003eWord-\u003eIO CInt",
@@ -23363,6 +25457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "fillRects",
           "package": "sdl2",
@@ -23372,6 +25467,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "fillRects",
           "normalized": "Ptr Surface-\u003ePtr Rect-\u003eCInt-\u003eWord-\u003eIO CInt",
@@ -23387,6 +25483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "freeFormat",
           "package": "sdl2",
@@ -23396,6 +25493,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "freeFormat",
           "normalized": "Ptr PixelFormat-\u003eIO()",
@@ -23411,6 +25509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "freePalette",
           "package": "sdl2",
@@ -23420,6 +25519,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "freePalette",
           "normalized": "Ptr Palette-\u003eIO()",
@@ -23435,6 +25535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "freeSurface",
           "package": "sdl2",
@@ -23444,6 +25545,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "freeSurface",
           "normalized": "Ptr Surface-\u003eIO()",
@@ -23459,6 +25561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getClipRect",
           "package": "sdl2",
@@ -23468,6 +25571,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getClipRect",
           "normalized": "Ptr Surface-\u003ePtr Rect-\u003eIO()",
@@ -23483,6 +25587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getClipboardText",
           "package": "sdl2",
@@ -23492,6 +25597,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getClipboardText",
           "package": "sdl2",
@@ -23505,6 +25611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getClosestDisplayMode",
           "package": "sdl2",
@@ -23514,6 +25621,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getClosestDisplayMode",
           "normalized": "CInt-\u003ePtr DisplayMode-\u003ePtr DisplayMode-\u003eIO(Ptr DisplayMode)",
@@ -23529,6 +25637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getColorKey",
           "package": "sdl2",
@@ -23538,6 +25647,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getColorKey",
           "normalized": "Ptr Surface-\u003ePtr Word-\u003eIO CInt",
@@ -23553,6 +25663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getCurrentDisplayMode",
           "package": "sdl2",
@@ -23562,6 +25673,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getCurrentDisplayMode",
           "normalized": "CInt-\u003ePtr DisplayMode-\u003eIO CInt",
@@ -23577,6 +25689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getCurrentVideoDriver",
           "package": "sdl2",
@@ -23586,6 +25699,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getCurrentVideoDriver",
           "package": "sdl2",
@@ -23599,6 +25713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getDesktopDisplayMode",
           "package": "sdl2",
@@ -23608,6 +25723,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getDesktopDisplayMode",
           "normalized": "CInt-\u003ePtr DisplayMode-\u003eIO CInt",
@@ -23623,6 +25739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getDisplayBounds",
           "package": "sdl2",
@@ -23632,6 +25749,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getDisplayBounds",
           "normalized": "CInt-\u003ePtr Rect-\u003eIO CInt",
@@ -23647,6 +25765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getDisplayMode",
           "package": "sdl2",
@@ -23656,6 +25775,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getDisplayMode",
           "normalized": "CInt-\u003eCInt-\u003ePtr DisplayMode-\u003eIO CInt",
@@ -23671,6 +25791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getDisplayName",
           "package": "sdl2",
@@ -23680,6 +25801,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getDisplayName",
           "normalized": "CInt-\u003eIO CString",
@@ -23695,6 +25817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getNumDisplayModes",
           "package": "sdl2",
@@ -23704,6 +25827,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getNumDisplayModes",
           "normalized": "CInt-\u003eIO CInt",
@@ -23719,6 +25843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getNumRenderDrivers",
           "package": "sdl2",
@@ -23728,6 +25853,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getNumRenderDrivers",
           "package": "sdl2",
@@ -23741,6 +25867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getNumVideoDisplays",
           "package": "sdl2",
@@ -23750,6 +25877,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getNumVideoDisplays",
           "package": "sdl2",
@@ -23763,6 +25891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getNumVideoDrivers",
           "package": "sdl2",
@@ -23772,6 +25901,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getNumVideoDrivers",
           "package": "sdl2",
@@ -23785,6 +25915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getPixelFormatName",
           "package": "sdl2",
@@ -23794,6 +25925,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getPixelFormatName",
           "normalized": "Word-\u003eIO CString",
@@ -23809,6 +25941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getRGB",
           "package": "sdl2",
@@ -23818,6 +25951,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getRGB",
           "normalized": "Word-\u003ePtr PixelFormat-\u003ePtr Word-\u003ePtr Word-\u003ePtr Word-\u003eIO()",
@@ -23833,6 +25967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getRGBA",
           "package": "sdl2",
@@ -23842,6 +25977,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getRGBA",
           "normalized": "Word-\u003ePtr PixelFormat-\u003ePtr Word-\u003ePtr Word-\u003ePtr Word-\u003ePtr Word-\u003eIO()",
@@ -23857,6 +25993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getRenderDrawBlendMode",
           "package": "sdl2",
@@ -23866,6 +26003,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getRenderDrawBlendMode",
           "normalized": "Renderer-\u003eIO Int",
@@ -23881,6 +26019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getRenderDrawColor",
           "package": "sdl2",
@@ -23890,6 +26029,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getRenderDrawColor",
           "normalized": "Renderer-\u003ePtr Word-\u003ePtr Word-\u003ePtr Word-\u003ePtr Word-\u003eIO CInt",
@@ -23905,6 +26045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getRenderDriverInfo",
           "package": "sdl2",
@@ -23914,6 +26055,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getRenderDriverInfo",
           "normalized": "CInt-\u003ePtr RendererInfo-\u003eIO CInt",
@@ -23929,6 +26071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getRenderTarget",
           "package": "sdl2",
@@ -23938,6 +26081,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getRenderTarget",
           "normalized": "Renderer-\u003eIO Texture",
@@ -23953,6 +26097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getRenderer",
           "package": "sdl2",
@@ -23962,6 +26107,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getRenderer",
           "normalized": "Window-\u003eIO Renderer",
@@ -23977,6 +26123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getRendererInfo",
           "package": "sdl2",
@@ -23986,6 +26133,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getRendererInfo",
           "normalized": "Renderer-\u003ePtr RendererInfo-\u003eIO CInt",
@@ -24001,6 +26149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getRendererOutputSize",
           "package": "sdl2",
@@ -24010,6 +26159,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getRendererOutputSize",
           "normalized": "Renderer-\u003ePtr CInt-\u003ePtr CInt-\u003eIO CInt",
@@ -24025,6 +26175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getSurfaceAlphaMod",
           "package": "sdl2",
@@ -24034,6 +26185,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getSurfaceAlphaMod",
           "normalized": "Ptr Surface-\u003ePtr Word-\u003eIO CInt",
@@ -24049,6 +26201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getSurfaceBlendMode",
           "package": "sdl2",
@@ -24058,6 +26211,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getSurfaceBlendMode",
           "normalized": "Ptr Surface-\u003eBlendMode-\u003eIO CInt",
@@ -24073,6 +26227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getSurfaceColorMod",
           "package": "sdl2",
@@ -24082,6 +26237,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getSurfaceColorMod",
           "normalized": "Ptr Surface-\u003ePtr Word-\u003ePtr Word-\u003ePtr Word-\u003eIO CInt",
@@ -24097,6 +26253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getTextureAlphaMod",
           "package": "sdl2",
@@ -24106,6 +26263,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getTextureAlphaMod",
           "normalized": "Texture-\u003ePtr Word-\u003eIO CInt",
@@ -24121,6 +26279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getTextureBlendMode",
           "package": "sdl2",
@@ -24130,6 +26289,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getTextureBlendMode",
           "normalized": "Texture-\u003ePtr BlendMode-\u003eIO CInt",
@@ -24145,6 +26305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getTextureColorMod",
           "package": "sdl2",
@@ -24154,6 +26315,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getTextureColorMod",
           "normalized": "Texture-\u003ePtr Word-\u003ePtr Word-\u003ePtr Word-\u003eIO CInt",
@@ -24169,6 +26331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getVideoDriver",
           "package": "sdl2",
@@ -24178,6 +26341,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getVideoDriver",
           "normalized": "CInt-\u003eIO CString",
@@ -24193,6 +26357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowBrightness",
           "package": "sdl2",
@@ -24202,6 +26367,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowBrightness",
           "normalized": "Window-\u003eIO CFloat",
@@ -24217,6 +26383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowData",
           "package": "sdl2",
@@ -24226,6 +26393,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowData",
           "normalized": "Window-\u003eCString-\u003eIO(Ptr())",
@@ -24241,6 +26409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowDisplayIndex",
           "package": "sdl2",
@@ -24250,6 +26419,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowDisplayIndex",
           "normalized": "Window-\u003eIO CInt",
@@ -24265,6 +26435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowDisplayMode",
           "package": "sdl2",
@@ -24274,6 +26445,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowDisplayMode",
           "normalized": "Window-\u003ePtr DisplayMode-\u003eIO CInt",
@@ -24289,6 +26461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowFlags",
           "package": "sdl2",
@@ -24298,6 +26471,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowFlags",
           "normalized": "Window-\u003eIO Word",
@@ -24313,6 +26487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowFromID",
           "package": "sdl2",
@@ -24322,6 +26497,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowFromID",
           "normalized": "Word-\u003eIO Window",
@@ -24337,6 +26513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowGammaRamp",
           "package": "sdl2",
@@ -24346,6 +26523,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowGammaRamp",
           "normalized": "Window-\u003ePtr Word-\u003ePtr Word-\u003ePtr Word-\u003eIO CInt",
@@ -24361,6 +26539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowGrab",
           "package": "sdl2",
@@ -24370,6 +26549,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowGrab",
           "normalized": "Window-\u003eIO Bool",
@@ -24385,6 +26565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowID",
           "package": "sdl2",
@@ -24394,6 +26575,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowID",
           "normalized": "Window-\u003eIO Word",
@@ -24409,6 +26591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowMaximumSize",
           "package": "sdl2",
@@ -24418,6 +26601,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowMaximumSize",
           "normalized": "Window-\u003ePtr CInt-\u003ePtr CInt-\u003eIO()",
@@ -24433,6 +26617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowMinimumSize",
           "package": "sdl2",
@@ -24442,6 +26627,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowMinimumSize",
           "normalized": "Window-\u003ePtr CInt-\u003ePtr CInt-\u003eIO()",
@@ -24457,6 +26643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowPixelFormat",
           "package": "sdl2",
@@ -24466,6 +26653,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowPixelFormat",
           "normalized": "Window-\u003eIO Word",
@@ -24481,6 +26669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowPosition",
           "package": "sdl2",
@@ -24490,6 +26679,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowPosition",
           "normalized": "Window-\u003ePtr CInt-\u003ePtr CInt-\u003eIO()",
@@ -24505,6 +26695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowSize",
           "package": "sdl2",
@@ -24514,6 +26705,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowSize",
           "normalized": "Window-\u003ePtr CInt-\u003ePtr CInt-\u003eIO()",
@@ -24529,6 +26721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowSurface",
           "package": "sdl2",
@@ -24538,6 +26731,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowSurface",
           "normalized": "Window-\u003eIO(Ptr Surface)",
@@ -24553,6 +26747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowTitle",
           "package": "sdl2",
@@ -24562,6 +26757,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "getWindowTitle",
           "normalized": "Window-\u003eIO CString",
@@ -24577,6 +26773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "glBindTexture",
           "package": "sdl2",
@@ -24586,6 +26783,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "glBindTexture",
           "normalized": "Texture-\u003ePtr CFloat-\u003ePtr CFloat-\u003eIO CInt",
@@ -24601,6 +26799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "glCreateContext",
           "package": "sdl2",
@@ -24610,6 +26809,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "glCreateContext",
           "normalized": "Window-\u003eIO GLContext",
@@ -24625,6 +26825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "glDeleteContext",
           "package": "sdl2",
@@ -24634,6 +26835,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "glDeleteContext",
           "normalized": "GLContext-\u003eIO()",
@@ -24649,6 +26851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "glExtensionSupported",
           "package": "sdl2",
@@ -24658,6 +26861,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "glExtensionSupported",
           "normalized": "CString-\u003eIO Bool",
@@ -24673,6 +26877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "glGetAttribute",
           "package": "sdl2",
@@ -24682,6 +26887,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "glGetAttribute",
           "normalized": "GLattr-\u003ePtr CInt-\u003eIO CInt",
@@ -24697,6 +26903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "glGetCurrentContext",
           "package": "sdl2",
@@ -24706,6 +26913,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "glGetCurrentContext",
           "package": "sdl2",
@@ -24719,6 +26927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "glGetCurrentWindow",
           "package": "sdl2",
@@ -24728,6 +26937,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "glGetCurrentWindow",
           "package": "sdl2",
@@ -24741,6 +26951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "glGetDrawableSize",
           "package": "sdl2",
@@ -24750,6 +26961,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "glGetDrawableSize",
           "normalized": "Window-\u003ePtr CInt-\u003ePtr CInt-\u003eIO()",
@@ -24765,6 +26977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "glGetProcAddress",
           "package": "sdl2",
@@ -24774,6 +26987,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "glGetProcAddress",
           "normalized": "CString-\u003eIO(Ptr())",
@@ -24789,6 +27003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "glGetSwapInterval",
           "package": "sdl2",
@@ -24798,6 +27013,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "glGetSwapInterval",
           "package": "sdl2",
@@ -24811,6 +27027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "glLoadLibrary",
           "package": "sdl2",
@@ -24820,6 +27037,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "glLoadLibrary",
           "normalized": "CString-\u003eIO CInt",
@@ -24835,6 +27053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "glMakeCurrent",
           "package": "sdl2",
@@ -24844,6 +27063,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "glMakeCurrent",
           "normalized": "Window-\u003eGLContext-\u003eIO CInt",
@@ -24859,6 +27079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "glSetAttribute",
           "package": "sdl2",
@@ -24868,6 +27089,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "glSetAttribute",
           "normalized": "GLattr-\u003eCInt-\u003eIO CInt",
@@ -24883,6 +27105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "glSetSwapInterval",
           "package": "sdl2",
@@ -24892,6 +27115,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "glSetSwapInterval",
           "normalized": "CInt-\u003eIO CInt",
@@ -24907,6 +27131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "glSwapWindow",
           "package": "sdl2",
@@ -24916,6 +27141,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "glSwapWindow",
           "normalized": "Window-\u003eIO()",
@@ -24931,6 +27157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "glUnbindTexture",
           "package": "sdl2",
@@ -24940,6 +27167,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "glUnbindTexture",
           "normalized": "Texture-\u003eIO CInt",
@@ -24955,6 +27183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "glUnloadLibrary",
           "package": "sdl2",
@@ -24964,6 +27193,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "glUnloadLibrary",
           "normalized": "IO()",
@@ -24979,6 +27209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "hasClipboardText",
           "package": "sdl2",
@@ -24988,6 +27219,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "hasClipboardText",
           "package": "sdl2",
@@ -25001,6 +27233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "hasIntersection",
           "package": "sdl2",
@@ -25010,6 +27243,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "hasIntersection",
           "normalized": "Ptr Rect-\u003ePtr Rect-\u003eIO Bool",
@@ -25025,6 +27259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "hideWindow",
           "package": "sdl2",
@@ -25034,6 +27269,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "hideWindow",
           "normalized": "Window-\u003eIO()",
@@ -25049,6 +27285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "intersectRect",
           "package": "sdl2",
@@ -25058,6 +27295,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "intersectRect",
           "normalized": "Ptr Rect-\u003ePtr Rect-\u003ePtr Rect-\u003eIO Bool",
@@ -25073,6 +27311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "intersectRectAndLine",
           "package": "sdl2",
@@ -25082,6 +27321,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "intersectRectAndLine",
           "normalized": "Ptr Rect-\u003ePtr CInt-\u003ePtr CInt-\u003ePtr CInt-\u003ePtr CInt-\u003eIO Bool",
@@ -25097,6 +27337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "isScreenSaverEnabled",
           "package": "sdl2",
@@ -25106,6 +27347,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "isScreenSaverEnabled",
           "package": "sdl2",
@@ -25119,6 +27361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "loadBMP",
           "package": "sdl2",
@@ -25128,6 +27371,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "loadBMP",
           "normalized": "CString-\u003eIO(Ptr Surface)",
@@ -25143,6 +27387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "loadBMP_RW",
           "package": "sdl2",
@@ -25152,6 +27397,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "loadBMP_RW",
           "normalized": "Ptr RWops-\u003eCInt-\u003eIO(Ptr Surface)",
@@ -25167,6 +27413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "lockSurface",
           "package": "sdl2",
@@ -25176,6 +27423,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "lockSurface",
           "normalized": "Ptr Surface-\u003eIO CInt",
@@ -25191,6 +27439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "lockTexture",
           "package": "sdl2",
@@ -25200,6 +27449,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "lockTexture",
           "normalized": "Texture-\u003ePtr Rect-\u003ePtr(Ptr())-\u003ePtr CInt-\u003eIO CInt",
@@ -25215,6 +27465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "lowerBlit",
           "package": "sdl2",
@@ -25224,6 +27475,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "lowerBlit",
           "normalized": "Ptr Surface-\u003ePtr Rect-\u003ePtr Surface-\u003ePtr Rect-\u003eIO CInt",
@@ -25239,6 +27491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "lowerBlitScaled",
           "package": "sdl2",
@@ -25248,6 +27501,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "lowerBlitScaled",
           "normalized": "Ptr Surface-\u003ePtr Rect-\u003ePtr Surface-\u003ePtr Rect-\u003eIO CInt",
@@ -25263,6 +27517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "mapRGB",
           "package": "sdl2",
@@ -25272,6 +27527,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "mapRGB",
           "normalized": "Ptr PixelFormat-\u003eWord-\u003eWord-\u003eWord-\u003eIO Word",
@@ -25287,6 +27543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "mapRGBA",
           "package": "sdl2",
@@ -25296,6 +27553,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "mapRGBA",
           "normalized": "Ptr PixelFormat-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eIO Word",
@@ -25311,6 +27569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "masksToPixelFormatEnum",
           "package": "sdl2",
@@ -25320,6 +27579,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "masksToPixelFormatEnum",
           "normalized": "CInt-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eIO Word",
@@ -25335,6 +27595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "maximizeWindow",
           "package": "sdl2",
@@ -25344,6 +27605,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "maximizeWindow",
           "normalized": "Window-\u003eIO()",
@@ -25359,6 +27621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "minimizeWindow",
           "package": "sdl2",
@@ -25368,6 +27631,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "minimizeWindow",
           "normalized": "Window-\u003eIO()",
@@ -25383,6 +27647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "pixelFormatEnumToMasks",
           "package": "sdl2",
@@ -25392,6 +27657,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "pixelFormatEnumToMasks",
           "normalized": "Word-\u003ePtr CInt-\u003ePtr Word-\u003ePtr Word-\u003ePtr Word-\u003ePtr Word-\u003eIO Bool",
@@ -25407,6 +27673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "queryTexture",
           "package": "sdl2",
@@ -25416,6 +27683,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "queryTexture",
           "normalized": "Texture-\u003eWord-\u003ePtr CInt-\u003ePtr CInt-\u003ePtr CInt-\u003eIO CInt",
@@ -25431,6 +27699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "raiseWindow",
           "package": "sdl2",
@@ -25440,6 +27709,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "raiseWindow",
           "normalized": "Window-\u003eIO()",
@@ -25455,6 +27725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderClear",
           "package": "sdl2",
@@ -25464,6 +27735,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderClear",
           "normalized": "Renderer-\u003eIO CInt",
@@ -25479,6 +27751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderCopy",
           "package": "sdl2",
@@ -25488,6 +27761,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderCopy",
           "normalized": "Renderer-\u003eTexture-\u003ePtr Rect-\u003ePtr Rect-\u003eIO CInt",
@@ -25503,6 +27777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderCopyEx",
           "package": "sdl2",
@@ -25512,6 +27787,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderCopyEx",
           "normalized": "Renderer-\u003eTexture-\u003ePtr Rect-\u003ePtr Rect-\u003eCDouble-\u003ePtr Point-\u003eRendererFlip-\u003eIO CInt",
@@ -25527,6 +27803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderDrawLine",
           "package": "sdl2",
@@ -25536,6 +27813,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderDrawLine",
           "normalized": "Renderer-\u003eCInt-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -25551,6 +27829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderDrawLines",
           "package": "sdl2",
@@ -25560,6 +27839,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderDrawLines",
           "normalized": "Renderer-\u003ePtr Point-\u003eCInt-\u003eIO CInt",
@@ -25575,6 +27855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderDrawPoint",
           "package": "sdl2",
@@ -25584,6 +27865,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderDrawPoint",
           "normalized": "Renderer-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -25599,6 +27881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderDrawPoints",
           "package": "sdl2",
@@ -25608,6 +27891,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderDrawPoints",
           "normalized": "Renderer-\u003ePtr Point-\u003eCInt-\u003eIO CInt",
@@ -25623,6 +27907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderDrawRect",
           "package": "sdl2",
@@ -25632,6 +27917,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderDrawRect",
           "normalized": "Renderer-\u003ePtr Rect-\u003eIO CInt",
@@ -25647,6 +27933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderDrawRects",
           "package": "sdl2",
@@ -25656,6 +27943,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderDrawRects",
           "normalized": "Renderer-\u003ePtr Rect-\u003eCInt-\u003eIO CInt",
@@ -25671,6 +27959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderFillRect",
           "package": "sdl2",
@@ -25680,6 +27969,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderFillRect",
           "normalized": "Renderer-\u003ePtr Rect-\u003eIO CInt",
@@ -25695,6 +27985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderFillRects",
           "package": "sdl2",
@@ -25704,6 +27995,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderFillRects",
           "normalized": "Renderer-\u003ePtr Rect-\u003eCInt-\u003eIO CInt",
@@ -25719,6 +28011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderGetClipRect",
           "package": "sdl2",
@@ -25728,6 +28021,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderGetClipRect",
           "normalized": "Renderer-\u003ePtr Rect-\u003eIO()",
@@ -25743,6 +28037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderGetLogicalSize",
           "package": "sdl2",
@@ -25752,6 +28047,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderGetLogicalSize",
           "normalized": "Renderer-\u003ePtr CInt-\u003ePtr CInt-\u003eIO()",
@@ -25767,6 +28063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderGetScale",
           "package": "sdl2",
@@ -25776,6 +28073,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderGetScale",
           "normalized": "Renderer-\u003ePtr CFloat-\u003ePtr CFloat-\u003eIO()",
@@ -25791,6 +28089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderGetViewport",
           "package": "sdl2",
@@ -25800,6 +28099,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderGetViewport",
           "normalized": "Renderer-\u003ePtr Rect-\u003eIO()",
@@ -25815,6 +28115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderPresent",
           "package": "sdl2",
@@ -25824,6 +28125,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderPresent",
           "normalized": "Renderer-\u003eIO()",
@@ -25839,6 +28141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderReadPixels",
           "package": "sdl2",
@@ -25848,6 +28151,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderReadPixels",
           "normalized": "Renderer-\u003ePtr Rect-\u003eWord-\u003ePtr()-\u003eCInt-\u003eIO CInt",
@@ -25863,6 +28167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderSetClipRect",
           "package": "sdl2",
@@ -25872,6 +28177,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderSetClipRect",
           "normalized": "Renderer-\u003ePtr Rect-\u003eIO CInt",
@@ -25887,6 +28193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderSetLogicalSize",
           "package": "sdl2",
@@ -25896,6 +28203,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderSetLogicalSize",
           "normalized": "Renderer-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -25911,6 +28219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderSetScale",
           "package": "sdl2",
@@ -25920,6 +28229,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderSetScale",
           "normalized": "Renderer-\u003eCFloat-\u003eCFloat-\u003eIO CInt",
@@ -25935,6 +28245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderSetViewport",
           "package": "sdl2",
@@ -25944,6 +28255,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderSetViewport",
           "normalized": "Renderer-\u003ePtr Rect-\u003eIO CInt",
@@ -25959,6 +28271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderTargetSupported",
           "package": "sdl2",
@@ -25968,6 +28281,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "renderTargetSupported",
           "normalized": "Renderer-\u003eIO Bool",
@@ -25983,6 +28297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "restoreWindow",
           "package": "sdl2",
@@ -25992,6 +28307,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "restoreWindow",
           "normalized": "Window-\u003eIO()",
@@ -26007,6 +28323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "saveBMP",
           "package": "sdl2",
@@ -26016,6 +28333,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "saveBMP",
           "normalized": "Ptr Surface-\u003eCString-\u003eIO CInt",
@@ -26031,6 +28349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "saveBMP_RW",
           "package": "sdl2",
@@ -26040,6 +28359,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "saveBMP_RW",
           "normalized": "Ptr Surface-\u003ePtr RWops-\u003eCInt-\u003eIO CInt",
@@ -26055,6 +28375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setClipRect",
           "package": "sdl2",
@@ -26064,6 +28385,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setClipRect",
           "normalized": "Ptr Surface-\u003ePtr Rect-\u003eIO Bool",
@@ -26079,6 +28401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setClipboardText",
           "package": "sdl2",
@@ -26088,6 +28411,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setClipboardText",
           "normalized": "CString-\u003eIO CInt",
@@ -26103,6 +28427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setColorKey",
           "package": "sdl2",
@@ -26112,6 +28437,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setColorKey",
           "normalized": "Ptr Surface-\u003eCInt-\u003eWord-\u003eIO CInt",
@@ -26127,6 +28453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setPaletteColors",
           "package": "sdl2",
@@ -26136,6 +28463,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setPaletteColors",
           "normalized": "Ptr Palette-\u003ePtr Color-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -26151,6 +28479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setPixelFormatPalette",
           "package": "sdl2",
@@ -26160,6 +28489,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setPixelFormatPalette",
           "normalized": "Ptr PixelFormat-\u003ePtr Palette-\u003eIO CInt",
@@ -26175,6 +28505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setRenderDrawBlendMode",
           "package": "sdl2",
@@ -26184,6 +28515,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setRenderDrawBlendMode",
           "normalized": "Renderer-\u003eBlendMode-\u003eIO CInt",
@@ -26199,6 +28531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setRenderDrawColor",
           "package": "sdl2",
@@ -26208,6 +28541,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setRenderDrawColor",
           "normalized": "Renderer-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eIO CInt",
@@ -26223,6 +28557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setRenderTarget",
           "package": "sdl2",
@@ -26232,6 +28567,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setRenderTarget",
           "normalized": "Renderer-\u003eTexture-\u003eIO CInt",
@@ -26247,6 +28583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setSurfaceAlphaMod",
           "package": "sdl2",
@@ -26256,6 +28593,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setSurfaceAlphaMod",
           "normalized": "Ptr Surface-\u003eWord-\u003eIO CInt",
@@ -26271,6 +28609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setSurfaceBlendMode",
           "package": "sdl2",
@@ -26280,6 +28619,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setSurfaceBlendMode",
           "normalized": "Ptr Surface-\u003eBlendMode-\u003eIO CInt",
@@ -26295,6 +28635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setSurfaceColorMod",
           "package": "sdl2",
@@ -26304,6 +28645,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setSurfaceColorMod",
           "normalized": "Ptr Surface-\u003eWord-\u003eWord-\u003eWord-\u003eIO CInt",
@@ -26319,6 +28661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setSurfacePalette",
           "package": "sdl2",
@@ -26328,6 +28671,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setSurfacePalette",
           "normalized": "Ptr Surface-\u003ePtr Palette-\u003eIO CInt",
@@ -26343,6 +28687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setSurfaceRLE",
           "package": "sdl2",
@@ -26352,6 +28697,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setSurfaceRLE",
           "normalized": "Ptr Surface-\u003eCInt-\u003eIO CInt",
@@ -26367,6 +28713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setTextureAlphaMod",
           "package": "sdl2",
@@ -26376,6 +28723,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setTextureAlphaMod",
           "normalized": "Texture-\u003eWord-\u003eIO CInt",
@@ -26391,6 +28739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setTextureBlendMode",
           "package": "sdl2",
@@ -26400,6 +28749,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setTextureBlendMode",
           "normalized": "Texture-\u003eBlendMode-\u003eIO CInt",
@@ -26415,6 +28765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setTextureColorMod",
           "package": "sdl2",
@@ -26424,6 +28775,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setTextureColorMod",
           "normalized": "Texture-\u003eWord-\u003eWord-\u003eWord-\u003eIO CInt",
@@ -26439,6 +28791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowBordered",
           "package": "sdl2",
@@ -26448,6 +28801,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowBordered",
           "normalized": "Window-\u003eBool-\u003eIO()",
@@ -26463,6 +28817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowBrightness",
           "package": "sdl2",
@@ -26472,6 +28827,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowBrightness",
           "normalized": "Window-\u003eCFloat-\u003eIO CInt",
@@ -26487,6 +28843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowData",
           "package": "sdl2",
@@ -26496,6 +28853,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowData",
           "normalized": "Window-\u003eCString-\u003ePtr()-\u003eIO(Ptr())",
@@ -26511,6 +28869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowDisplayMode",
           "package": "sdl2",
@@ -26520,6 +28879,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowDisplayMode",
           "normalized": "Window-\u003ePtr DisplayMode-\u003eIO CInt",
@@ -26535,6 +28895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowFullscreen",
           "package": "sdl2",
@@ -26544,6 +28905,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowFullscreen",
           "normalized": "Window-\u003eWord-\u003eIO CInt",
@@ -26559,6 +28921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowGammaRamp",
           "package": "sdl2",
@@ -26568,6 +28931,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowGammaRamp",
           "normalized": "Window-\u003ePtr Word-\u003ePtr Word-\u003ePtr Word-\u003eIO CInt",
@@ -26583,6 +28947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowGrab",
           "package": "sdl2",
@@ -26592,6 +28957,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowGrab",
           "normalized": "Window-\u003eBool-\u003eIO()",
@@ -26607,6 +28973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowIcon",
           "package": "sdl2",
@@ -26616,6 +28983,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowIcon",
           "normalized": "Window-\u003ePtr Surface-\u003eIO()",
@@ -26631,6 +28999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowMaximumSize",
           "package": "sdl2",
@@ -26640,6 +29009,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowMaximumSize",
           "normalized": "Window-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -26655,6 +29025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowMinimumSize",
           "package": "sdl2",
@@ -26664,6 +29035,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowMinimumSize",
           "normalized": "Window-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -26679,6 +29051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowPosition",
           "package": "sdl2",
@@ -26688,6 +29061,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowPosition",
           "normalized": "Window-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -26703,6 +29077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowSize",
           "package": "sdl2",
@@ -26712,6 +29087,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowSize",
           "normalized": "Window-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -26727,6 +29103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowTitle",
           "package": "sdl2",
@@ -26736,6 +29113,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "setWindowTitle",
           "normalized": "Window-\u003eCString-\u003eIO()",
@@ -26751,6 +29129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "showMessageBox",
           "package": "sdl2",
@@ -26760,6 +29139,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "showMessageBox",
           "normalized": "Ptr MessageBoxData-\u003ePtr CInt-\u003eIO CInt",
@@ -26775,6 +29155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "showSimpleMessageBox",
           "package": "sdl2",
@@ -26784,6 +29165,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "showSimpleMessageBox",
           "normalized": "Word-\u003eCString-\u003eCString-\u003eWindow-\u003eIO CInt",
@@ -26799,6 +29181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "showWindow",
           "package": "sdl2",
@@ -26808,6 +29191,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "showWindow",
           "normalized": "Window-\u003eIO()",
@@ -26823,6 +29207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "unionRect",
           "package": "sdl2",
@@ -26832,6 +29217,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "unionRect",
           "normalized": "Ptr Rect-\u003ePtr Rect-\u003ePtr Rect-\u003eIO()",
@@ -26847,6 +29233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "unlockSurface",
           "package": "sdl2",
@@ -26856,6 +29243,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "unlockSurface",
           "normalized": "Ptr Surface-\u003eIO()",
@@ -26871,6 +29259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "unlockTexture",
           "package": "sdl2",
@@ -26880,6 +29269,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "unlockTexture",
           "normalized": "Texture-\u003eIO()",
@@ -26895,6 +29285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "updateTexture",
           "package": "sdl2",
@@ -26904,6 +29295,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "updateTexture",
           "normalized": "Texture-\u003ePtr Rect-\u003ePtr()-\u003eCInt-\u003eIO CInt",
@@ -26919,6 +29311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "updateWindowSurface",
           "package": "sdl2",
@@ -26928,6 +29321,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "updateWindowSurface",
           "normalized": "Window-\u003eIO CInt",
@@ -26943,6 +29337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "updateWindowSurfaceRects",
           "package": "sdl2",
@@ -26952,6 +29347,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "updateWindowSurfaceRects",
           "normalized": "Window-\u003ePtr Rect-\u003eCInt-\u003eIO CInt",
@@ -26967,6 +29363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "updateYUVTexture",
           "package": "sdl2",
@@ -26976,6 +29373,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "updateYUVTexture",
           "normalized": "Texture-\u003ePtr Rect-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003ePtr Word-\u003eCInt-\u003eIO CInt",
@@ -26991,6 +29389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "videoInit",
           "package": "sdl2",
@@ -27000,6 +29399,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "videoInit",
           "normalized": "CString-\u003eIO CInt",
@@ -27015,6 +29415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL.Video",
           "name": "videoQuit",
           "package": "sdl2",
@@ -27024,6 +29425,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL Video",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL.Video",
           "name": "videoQuit",
           "normalized": "IO()",
@@ -27039,6 +29441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:54 UTC 2014",
           "module": "Graphics.UI.SDL",
           "name": "SDL",
           "package": "sdl2",
@@ -27047,6 +29450,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI SDL",
+          "indexed": "2014-03-11T19:58:54",
           "module": "Graphics.UI.SDL",
           "name": "SDL",
           "package": "sdl2",

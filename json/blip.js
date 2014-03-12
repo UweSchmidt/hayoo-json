@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "blip"
+        "phrase": "blip",
+        "type": "phrase"
       },
       "type": "context"
     }

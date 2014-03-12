@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "derp-lib"
+        "phrase": "derp-lib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Char",
           "name": "Char",
           "package": "derp-lib",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Char",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Char",
           "name": "Char",
           "package": "derp-lib",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Char",
           "name": "alphaNum",
           "package": "derp-lib",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Char",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Char",
           "name": "alphaNum",
           "package": "derp-lib",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Char",
           "name": "char",
           "package": "derp-lib",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Char",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Char",
           "name": "char",
           "normalized": "Char-\u003eParser Char",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Char",
           "name": "digit",
           "package": "derp-lib",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Char",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Char",
           "name": "digit",
           "package": "derp-lib",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Char",
           "name": "hexDigit",
           "package": "derp-lib",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Char",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Char",
           "name": "hexDigit",
           "package": "derp-lib",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Char",
           "name": "lower",
           "package": "derp-lib",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Char",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Char",
           "name": "lower",
           "package": "derp-lib",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Char",
           "name": "newline",
           "package": "derp-lib",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Char",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Char",
           "name": "newline",
           "package": "derp-lib",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Char",
           "name": "octDigit",
           "package": "derp-lib",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Char",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Char",
           "name": "octDigit",
           "package": "derp-lib",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Char",
           "name": "oneOf",
           "package": "derp-lib",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Char",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Char",
           "name": "oneOf",
           "normalized": "[Char]-\u003eParser Char",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Char",
           "name": "satisfy",
           "package": "derp-lib",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Char",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Char",
           "name": "satisfy",
           "normalized": "(Char-\u003eBool)-\u003eParser Char",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Char",
           "name": "space",
           "package": "derp-lib",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Char",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Char",
           "name": "space",
           "package": "derp-lib",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Char",
           "name": "spaces",
           "package": "derp-lib",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Char",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Char",
           "name": "spaces",
           "normalized": "Parser()",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Char",
           "name": "string",
           "package": "derp-lib",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Char",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Char",
           "name": "string",
           "normalized": "String-\u003eParser String",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Char",
           "name": "tab",
           "package": "derp-lib",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Char",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Char",
           "name": "tab",
           "package": "derp-lib",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Char",
           "name": "upper",
           "package": "derp-lib",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Char",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Char",
           "name": "upper",
           "package": "derp-lib",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Combinator",
           "name": "Combinator",
           "package": "derp-lib",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Combinator",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Combinator",
           "name": "Combinator",
           "package": "derp-lib",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Combinator",
           "name": "(~\u003e)",
           "package": "derp-lib",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Combinator",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Combinator",
           "name": "(~\u003e) ~\u003e",
           "normalized": "Parser a-\u003eParser b-\u003eParser b",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Combinator",
           "name": "(\u003c~)",
           "package": "derp-lib",
@@ -400,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Combinator",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Combinator",
           "name": "(\u003c~) \u003c~",
           "normalized": "Parser a-\u003eParser a-\u003eParser a",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Combinator",
           "name": "between",
           "package": "derp-lib",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Combinator",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Combinator",
           "name": "between",
           "normalized": "Parser a-\u003eParser b-\u003eParser c-\u003eParser c",
@@ -437,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Combinator",
           "name": "count",
           "package": "derp-lib",
@@ -446,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Combinator",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Combinator",
           "name": "count",
           "normalized": "Int-\u003eParser a-\u003eParser[a]",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Combinator",
           "name": "endBy",
           "package": "derp-lib",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Combinator",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Combinator",
           "name": "endBy",
           "normalized": "Parser a-\u003eParser b-\u003eParser[a]",
@@ -484,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Combinator",
           "name": "endBy1",
           "package": "derp-lib",
@@ -493,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Combinator",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Combinator",
           "name": "endBy1",
           "normalized": "Parser a-\u003eParser b-\u003eParser[a]",
@@ -508,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Combinator",
           "name": "endSepBy",
           "package": "derp-lib",
@@ -517,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Combinator",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Combinator",
           "name": "endSepBy",
           "normalized": "Parser a-\u003eParser b-\u003eParser[a]",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Combinator",
           "name": "endSepBy1",
           "package": "derp-lib",
@@ -541,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Combinator",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Combinator",
           "name": "endSepBy1",
           "normalized": "Parser a-\u003eParser b-\u003eParser[a]",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Combinator",
           "name": "many",
           "package": "derp-lib",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Combinator",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Combinator",
           "name": "many",
           "normalized": "Parser a-\u003eParser[a]",
@@ -579,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Combinator",
           "name": "many1",
           "package": "derp-lib",
@@ -588,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Combinator",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Combinator",
           "name": "many1",
           "normalized": "Parser a-\u003eParser[a]",
@@ -602,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Combinator",
           "name": "manyTill",
           "package": "derp-lib",
@@ -611,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Combinator",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Combinator",
           "name": "manyTill",
           "normalized": "Parser a-\u003eParser b-\u003eParser[a]",
@@ -626,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Combinator",
           "name": "option",
           "package": "derp-lib",
@@ -635,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Combinator",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Combinator",
           "name": "option",
           "normalized": "a-\u003eParser a-\u003eParser a",
@@ -649,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Combinator",
           "name": "optionMaybe",
           "package": "derp-lib",
@@ -658,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Combinator",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Combinator",
           "name": "optionMaybe",
           "normalized": "Parser a-\u003eParser(Maybe a)",
@@ -673,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Combinator",
           "name": "sepBy",
           "package": "derp-lib",
@@ -682,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Combinator",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Combinator",
           "name": "sepBy",
           "normalized": "Parser a-\u003eParser b-\u003eParser[a]",
@@ -697,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Combinator",
           "name": "sepBy1",
           "package": "derp-lib",
@@ -706,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Combinator",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Combinator",
           "name": "sepBy1",
           "normalized": "Parser a-\u003eParser b-\u003eParser[a]",
@@ -721,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Combinator",
           "name": "skipMany",
           "package": "derp-lib",
@@ -730,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Combinator",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Combinator",
           "name": "skipMany",
           "normalized": "Parser a-\u003eParser()",
@@ -745,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:33 UTC 2014",
           "module": "Text.Derp.Combinator",
           "name": "skipMany1",
           "package": "derp-lib",
@@ -754,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Text Derp Combinator",
+          "indexed": "2014-03-11T17:53:33",
           "module": "Text.Derp.Combinator",
           "name": "skipMany1",
           "normalized": "Parser a-\u003eParser()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "json-qq"
+        "phrase": "json-qq",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package expose the parser \u003ccode\u003ejsonParser\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eOnly developers that develop new json quasiquoters should use this library!\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003etext-json-qq\u003c/code\u003e and \u003ccode\u003eaeson-qq\u003c/code\u003e for usage.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:02:05 UTC 2014",
           "module": "Data.JSON.QQ",
           "name": "QQ",
           "package": "json-qq",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This package expose the parser jsonParser Only developers that develop new json quasiquoters should use this library See text-json-qq and aeson-qq for usage",
           "hierarchy": "Data JSON QQ",
+          "indexed": "2014-03-11T19:02:05",
           "module": "Data.JSON.QQ",
           "name": "QQ",
           "package": "json-qq",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:05 UTC 2014",
           "module": "Data.JSON.QQ",
           "name": "HashKey",
           "package": "json-qq",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data JSON QQ",
+          "indexed": "2014-03-11T19:02:05",
           "module": "Data.JSON.QQ",
           "name": "HashKey",
           "package": "json-qq",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:05 UTC 2014",
           "module": "Data.JSON.QQ",
           "name": "JsonValue",
           "package": "json-qq",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data JSON QQ",
+          "indexed": "2014-03-11T19:02:05",
           "module": "Data.JSON.QQ",
           "name": "JsonValue",
           "package": "json-qq",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:05 UTC 2014",
           "module": "Data.JSON.QQ",
           "name": "HashStringKey",
           "package": "json-qq",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data JSON QQ",
+          "indexed": "2014-03-11T19:02:05",
           "module": "Data.JSON.QQ",
           "name": "HashStringKey",
           "package": "json-qq",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:05 UTC 2014",
           "module": "Data.JSON.QQ",
           "name": "HashVarKey",
           "package": "json-qq",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data JSON QQ",
+          "indexed": "2014-03-11T19:02:05",
           "module": "Data.JSON.QQ",
           "name": "HashVarKey",
           "package": "json-qq",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:05 UTC 2014",
           "module": "Data.JSON.QQ",
           "name": "JsonArray",
           "package": "json-qq",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data JSON QQ",
+          "indexed": "2014-03-11T19:02:05",
           "module": "Data.JSON.QQ",
           "name": "JsonArray",
           "normalized": "JsonArray[JsonValue]",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:05 UTC 2014",
           "module": "Data.JSON.QQ",
           "name": "JsonBool",
           "package": "json-qq",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data JSON QQ",
+          "indexed": "2014-03-11T19:02:05",
           "module": "Data.JSON.QQ",
           "name": "JsonBool",
           "package": "json-qq",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:05 UTC 2014",
           "module": "Data.JSON.QQ",
           "name": "JsonCode",
           "package": "json-qq",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Data JSON QQ",
+          "indexed": "2014-03-11T19:02:05",
           "module": "Data.JSON.QQ",
           "name": "JsonCode",
           "package": "json-qq",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:05 UTC 2014",
           "module": "Data.JSON.QQ",
           "name": "JsonIdVar",
           "package": "json-qq",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Data JSON QQ",
+          "indexed": "2014-03-11T19:02:05",
           "module": "Data.JSON.QQ",
           "name": "JsonIdVar",
           "package": "json-qq",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:05 UTC 2014",
           "module": "Data.JSON.QQ",
           "name": "JsonNull",
           "package": "json-qq",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Data JSON QQ",
+          "indexed": "2014-03-11T19:02:05",
           "module": "Data.JSON.QQ",
           "name": "JsonNull",
           "package": "json-qq",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:05 UTC 2014",
           "module": "Data.JSON.QQ",
           "name": "JsonNumber",
           "package": "json-qq",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Data JSON QQ",
+          "indexed": "2014-03-11T19:02:05",
           "module": "Data.JSON.QQ",
           "name": "JsonNumber",
           "package": "json-qq",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:05 UTC 2014",
           "module": "Data.JSON.QQ",
           "name": "JsonObject",
           "package": "json-qq",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Data JSON QQ",
+          "indexed": "2014-03-11T19:02:05",
           "module": "Data.JSON.QQ",
           "name": "JsonObject",
           "normalized": "JsonObject[(HashKey,JsonValue)]",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:05 UTC 2014",
           "module": "Data.JSON.QQ",
           "name": "JsonString",
           "package": "json-qq",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Data JSON QQ",
+          "indexed": "2014-03-11T19:02:05",
           "module": "Data.JSON.QQ",
           "name": "JsonString",
           "package": "json-qq",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:05 UTC 2014",
           "module": "Data.JSON.QQ",
           "name": "parsedJson",
           "package": "json-qq",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Data JSON QQ",
+          "indexed": "2014-03-11T19:02:05",
           "module": "Data.JSON.QQ",
           "name": "parsedJson",
           "normalized": "String-\u003eEither ParseError JsonValue",

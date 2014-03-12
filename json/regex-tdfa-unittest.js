@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "regex-tdfa-unittest"
+        "phrase": "regex-tdfa-unittest",
+        "type": "phrase"
       },
       "type": "context"
     }

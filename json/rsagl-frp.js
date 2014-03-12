@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rsagl-frp"
+        "phrase": "rsagl-frp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Accumulation",
           "name": "Accumulation",
           "package": "rsagl-frp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Accumulation",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Accumulation",
           "name": "Accumulation",
           "package": "rsagl-frp",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe edge detection mode.  If \u003ccode\u003e\u003ca\u003eDiscrete\u003c/a\u003e\u003c/code\u003e, detect edge between subsequent frames only.\n If \u003ccode\u003e\u003ca\u003eFuzzy\u003c/a\u003e\u003c/code\u003e detect edge since the most recent previous detected edge.\n If \u003ccode\u003eHashedDiscrete\u003c/code\u003e, the comparison function is itself expensive, and the FRP runtime will compare by \u003ccode\u003eStableName\u003c/code\u003es as a short-circuit optimization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Accumulation",
           "name": "EdgeDetectionMode",
           "package": "rsagl-frp",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The edge detection mode If Discrete detect edge between subsequent frames only If Fuzzy detect edge since the most recent previous detected edge If HashedDiscrete the comparison function is itself expensive and the FRP runtime will compare by StableName as short-circuit optimization",
           "hierarchy": "RSAGL FRP Accumulation",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Accumulation",
           "name": "EdgeDetectionMode",
           "package": "rsagl-frp",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Accumulation",
           "name": "Discrete",
           "package": "rsagl-frp",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Accumulation",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Accumulation",
           "name": "Discrete",
           "package": "rsagl-frp",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Accumulation",
           "name": "Fuzzy",
           "package": "rsagl-frp",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Accumulation",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Accumulation",
           "name": "Fuzzy",
           "package": "rsagl-frp",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eaccumulate\u003c/a\u003e\u003c/code\u003e harness for some numerical methods.\n Parameters are: current input, previous output, delta time, absolute time, and number of frames at the specified frequency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Accumulation",
           "name": "accumulateNumerical",
           "package": "rsagl-frp",
@@ -117,6 +126,7 @@
         "index": {
           "description": "accumulate harness for some numerical methods Parameters are current input previous output delta time absolute time and number of frames at the specified frequency",
           "hierarchy": "RSAGL FRP Accumulation",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Accumulation",
           "name": "accumulateNumerical",
           "normalized": "Frequency-\u003e(a-\u003eb-\u003eTime-\u003eTime-\u003eInteger-\u003eb)-\u003eb-\u003eFRP c d a b",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as 'edge Discrete'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Accumulation",
           "name": "changed",
           "package": "rsagl-frp",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Same as edge Discrete",
           "hierarchy": "RSAGL FRP Accumulation",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Accumulation",
           "name": "changed",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eFRP b c a Bool",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecalculate a function only at the edges of it's input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Accumulation",
           "name": "clingy",
           "package": "rsagl-frp",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Recalculate function only at the edges of it input",
           "hierarchy": "RSAGL FRP Accumulation",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Accumulation",
           "name": "clingy",
           "normalized": "EdgeDetectionMode-\u003e(a-\u003ea-\u003eBool)-\u003e(a-\u003eb)-\u003eFRP c d a b",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelay a piece of data for one frame.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Accumulation",
           "name": "delay",
           "package": "rsagl-frp",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Delay piece of data for one frame",
           "hierarchy": "RSAGL FRP Accumulation",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Accumulation",
           "name": "delay",
           "normalized": "a-\u003eFRP b c a a",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the derivative of a value over time, by simple subtraction between frames.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Accumulation",
           "name": "derivative",
           "package": "rsagl-frp",
@@ -218,6 +235,7 @@
         "index": {
           "description": "Take the derivative of value over time by simple subtraction between frames",
           "hierarchy": "RSAGL FRP Accumulation",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Accumulation",
           "name": "derivative",
           "package": "rsagl-frp",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e only during frames on which the input has changed, based on a user-specified equality predicate.\n The predicate function takes the most recent input as its first parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Accumulation",
           "name": "edge",
           "package": "rsagl-frp",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Returns True only during frames on which the input has changed based on user-specified equality predicate The predicate function takes the most recent input as its first parameter",
           "hierarchy": "RSAGL FRP Accumulation",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Accumulation",
           "name": "edge",
           "normalized": "EdgeDetectionMode-\u003e(a-\u003ea-\u003eBool)-\u003eFRP b c a Bool",
@@ -256,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswer the first input that ever passes through a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Accumulation",
           "name": "initial",
           "package": "rsagl-frp",
@@ -266,6 +287,7 @@
         "index": {
           "description": "Answer the first input that ever passes through function",
           "hierarchy": "RSAGL FRP Accumulation",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Accumulation",
           "name": "initial",
           "package": "rsagl-frp",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the integral of a rate over time, using the trapezoidal rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Accumulation",
           "name": "integral",
           "package": "rsagl-frp",
@@ -289,6 +312,7 @@
         "index": {
           "description": "Take the integral of rate over time using the trapezoidal rule",
           "hierarchy": "RSAGL FRP Accumulation",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Accumulation",
           "name": "integral",
           "normalized": "a-\u003eFRP b c(Rate d)a",
@@ -303,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Accumulation",
           "name": "integralRK4",
           "package": "rsagl-frp",
@@ -312,6 +337,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Accumulation",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Accumulation",
           "name": "integralRK4",
           "normalized": "Frequency-\u003e(a-\u003eb-\u003ea)-\u003ea-\u003eFRP c d(Time-\u003ea-\u003eRate b)a",
@@ -327,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Accumulation",
           "name": "integralRK4'",
           "package": "rsagl-frp",
@@ -336,6 +363,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Accumulation",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Accumulation",
           "name": "integralRK4'",
           "normalized": "Frequency-\u003e(a-\u003eb-\u003ea)-\u003e(a,Rate b)-\u003eFRP c d(Time-\u003ea-\u003eRate b-\u003eAcceleration b)(a,Rate b)",
@@ -352,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswer the most recent input that satisfies the predicate.\n Accepts an initial value, which need not itself satisfy the predicate.\n\u003c/p\u003e\u003cp\u003eThis can be a performance optimization, if it prevents unecessary evaluation of an input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Accumulation",
           "name": "sticky",
           "package": "rsagl-frp",
@@ -362,6 +391,7 @@
         "index": {
           "description": "Answer the most recent input that satisfies the predicate Accepts an initial value which need not itself satisfy the predicate This can be performance optimization if it prevents unecessary evaluation of an input",
           "hierarchy": "RSAGL FRP Accumulation",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Accumulation",
           "name": "sticky",
           "normalized": "(a-\u003eBool)-\u003ea-\u003eFRP b c a a",
@@ -377,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum some data frame-by-frame.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Accumulation",
           "name": "summation",
           "package": "rsagl-frp",
@@ -387,6 +418,7 @@
         "index": {
           "description": "Sum some data frame-by-frame",
           "hierarchy": "RSAGL FRP Accumulation",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Accumulation",
           "name": "summation",
           "normalized": "a-\u003eFRP b c d a",
@@ -402,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElapsed time since the instantiation of this switch or thread.  Reset when a thread switches.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Accumulation",
           "name": "threadTime",
           "package": "rsagl-frp",
@@ -412,6 +445,7 @@
         "index": {
           "description": "Elapsed time since the instantiation of this switch or thread Reset when thread switches",
           "hierarchy": "RSAGL FRP Accumulation",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Accumulation",
           "name": "threadTime",
           "normalized": "FRP a b()Time",
@@ -427,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "FRP",
           "package": "rsagl-frp",
@@ -435,6 +470,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "FRP",
           "package": "rsagl-frp",
@@ -449,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA switchable automata with timewise numerical methods.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "FRP",
           "package": "rsagl-frp",
@@ -458,6 +495,7 @@
         "index": {
           "description": "switchable automata with timewise numerical methods",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "FRP",
           "package": "rsagl-frp",
@@ -471,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "FRPProgram",
           "package": "rsagl-frp",
@@ -479,6 +518,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "FRPProgram",
           "package": "rsagl-frp",
@@ -493,6 +533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn FRP-embedded functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "StreamFunctor",
           "package": "rsagl-frp",
@@ -502,6 +543,7 @@
         "index": {
           "description": "An FRP-embedded functor",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "StreamFunctor",
           "package": "rsagl-frp",
@@ -516,6 +558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould a thread be allowed to spawn?  Typical values are \u003ccode\u003e\u003ca\u003enullaryThreadIdentity\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eforbidDuplicates\u003c/a\u003e\u003c/code\u003e.\n The predicate tests whether or not a particular thread is already running.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "ThreadIdentityRule",
           "package": "rsagl-frp",
@@ -525,6 +568,7 @@
         "index": {
           "description": "Should thread be allowed to spawn Typical values are nullaryThreadIdentity forbidDuplicates The predicate tests whether or not particular thread is already running",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "ThreadIdentityRule",
           "package": "rsagl-frp",
@@ -539,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current absolute time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "absoluteTime",
           "package": "rsagl-frp",
@@ -549,6 +594,7 @@
         "index": {
           "description": "Get the current absolute time",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "absoluteTime",
           "normalized": "FRP a b()Time",
@@ -565,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFramewise accumulation of signals.\n The embedded function recieves the current input and the previous output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "accumulate",
           "package": "rsagl-frp",
@@ -575,6 +622,7 @@
         "index": {
           "description": "Framewise accumulation of signals The embedded function recieves the current input and the previous output",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "accumulate",
           "normalized": "a-\u003e(b-\u003ea-\u003ea)-\u003eFRP c d b a",
@@ -590,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow unlimited duplicate \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e threads, while restricting all other threads according to the specified rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "allowAnonymous",
           "package": "rsagl-frp",
@@ -600,6 +649,7 @@
         "index": {
           "description": "Allow unlimited duplicate Nothing threads while restricting all other threads according to the specified rule",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "allowAnonymous",
           "normalized": "ThreadIdentityRule a-\u003eThreadIdentityRule(Maybe a)",
@@ -616,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the change in time since the last update.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "deltaTime",
           "package": "rsagl-frp",
@@ -626,6 +677,7 @@
         "index": {
           "description": "Get the change in time since the last update",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "deltaTime",
           "normalized": "FRP a b()Time",
@@ -642,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForbig duplicate threads by equality on the thread identity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "forbidDuplicates",
           "package": "rsagl-frp",
@@ -652,6 +705,7 @@
         "index": {
           "description": "Forbig duplicate threads by equality on the thread identity",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "forbidDuplicates",
           "package": "rsagl-frp",
@@ -666,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbed a single-threaded, bracketed switch inside another running thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "frp1Context",
           "package": "rsagl-frp",
@@ -676,6 +731,7 @@
         "index": {
           "description": "Embed single-threaded bracketed switch inside another running thread",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "frp1Context",
           "normalized": "FRP a(FRP Context b c d)b c-\u003eFRP a d b c",
@@ -692,6 +748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbed some threads inside another running thread, as \u003ccode\u003ethreadGroup\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "frpContext",
           "package": "rsagl-frp",
@@ -702,6 +759,7 @@
         "index": {
           "description": "Embed some threads inside another running thread as threadGroup",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "frpContext",
           "normalized": "ThreadIdentityRule a-\u003e[(a,FRP b(FRPContext a c d e)c d)]-\u003eFRP b e c[(a,d)]",
@@ -718,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue recusion (see fix).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "frpFix",
           "package": "rsagl-frp",
@@ -728,6 +787,7 @@
         "index": {
           "description": "Value recusion see fix",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "frpFix",
           "normalized": "FRP a(FRP Context(b,c)(d,c)e)(b,c)(d,c)-\u003eFRP a e b d",
@@ -743,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "frpTest",
           "package": "rsagl-frp",
@@ -752,6 +813,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "frpTest",
           "normalized": "(a b[FRP c(FRPX()()d e)d e])-\u003e[d]-\u003eIO[[e]]",
@@ -768,6 +830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive tagged information, with memoization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "incoming",
           "package": "rsagl-frp",
@@ -778,6 +841,7 @@
         "index": {
           "description": "Receive tagged information with memoization",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "incoming",
           "package": "rsagl-frp",
@@ -791,6 +855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an arbitrary IO action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "ioAction",
           "package": "rsagl-frp",
@@ -801,6 +866,7 @@
         "index": {
           "description": "Perform an arbitrary IO action",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "ioAction",
           "normalized": "(a-\u003eIO b)-\u003eFRP c d a b",
@@ -817,6 +883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an IO action when a stream is first initialized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "ioInit",
           "package": "rsagl-frp",
@@ -827,6 +894,7 @@
         "index": {
           "description": "Perform an IO action when stream is first initialized",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "ioInit",
           "normalized": "IO a-\u003eFRP b c()a",
@@ -843,6 +911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKill the current thread, only when the given parameter is true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "killThreadIf",
           "package": "rsagl-frp",
@@ -853,6 +922,7 @@
         "index": {
           "description": "Kill the current thread only when the given parameter is true",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "killThreadIf",
           "normalized": "FRP a b Bool()",
@@ -869,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a single-threaded FRPProgram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "newFRP1Program",
           "package": "rsagl-frp",
@@ -879,6 +950,7 @@
         "index": {
           "description": "Construct single-threaded FRPProgram",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "newFRP1Program",
           "normalized": "(a b FRP c(FRP d e f)e f)-\u003eIO(FRPProgram d e f)",
@@ -895,6 +967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a multi-threaded FRPProgram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "newFRPProgram",
           "package": "rsagl-frp",
@@ -905,6 +978,7 @@
         "index": {
           "description": "Construct multi-threaded FRPProgram",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "newFRPProgram",
           "normalized": "ThreadIdentityRule a-\u003e(b c[(a,FRP d(FRPX a e f g)f g)])-\u003eIO(FRPProgram e f[(a,g)])",
@@ -921,6 +995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow unlimited duplicate threads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "nullaryThreadIdentity",
           "package": "rsagl-frp",
@@ -931,6 +1006,7 @@
         "index": {
           "description": "Allow unlimited duplicate threads",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "nullaryThreadIdentity",
           "package": "rsagl-frp",
@@ -945,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend tagged information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "outgoing",
           "package": "rsagl-frp",
@@ -955,6 +1032,7 @@
         "index": {
           "description": "Send tagged information",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "outgoing",
           "package": "rsagl-frp",
@@ -968,6 +1046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend tagged information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "outgoingBy",
           "package": "rsagl-frp",
@@ -977,6 +1056,7 @@
         "index": {
           "description": "Send tagged information",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "outgoingBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eFRP b c a(Message a)",
@@ -993,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a bounded random value, as \u003ccode\u003e\u003ca\u003erandomRIO\u003c/a\u003e\u003c/code\u003e.  A new value is pulled for each\n frame of animation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "randomA",
           "package": "rsagl-frp",
@@ -1003,6 +1084,7 @@
         "index": {
           "description": "Get bounded random value as randomRIO new value is pulled for each frame of animation",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "randomA",
           "normalized": "FRP a b(c,c)c",
@@ -1018,6 +1100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpawn new threads once per frame.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "spawnThreads",
           "package": "rsagl-frp",
@@ -1028,6 +1111,7 @@
         "index": {
           "description": "Spawn new threads once per frame",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "spawnThreads",
           "normalized": "FRP a b[(ThreadIDOf b,FRP a b(SwitchInputOf b)(SwitchOutputOf b))]()",
@@ -1043,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "streammap",
           "package": "rsagl-frp",
@@ -1052,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "streammap",
           "normalized": "(a-\u003eb)-\u003eFRP c d(e a)(e b)",
@@ -1066,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "streampure",
           "package": "rsagl-frp",
@@ -1075,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "streampure",
           "normalized": "a-\u003eFRP b c()(d a)",
@@ -1090,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhenever a value is provided, change the presently running switch (or thread) to the specified new value,\n and execute that switch before continuing.  This destroys all state local to the currently running\n switch (or thread).\n This function acts as if the switch were performed at frame begin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "switchContinue",
           "package": "rsagl-frp",
@@ -1100,6 +1189,7 @@
         "index": {
           "description": "Whenever value is provided change the presently running switch or thread to the specified new value and execute that switch before continuing This destroys all state local to the currently running switch or thread This function acts as if the switch were performed at frame begin",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "switchContinue",
           "normalized": "FRP a b(Maybe(FRP a b(SwitchInputOf b)(SwitchOutputOf b)),SwitchInputOf b)(SwitchInputOf b)",
@@ -1116,6 +1206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhenever a value is provided, change the presently running switch (or thread) to the specified new value,\n and execute that switch before continuing.  This destroys all state local to the currently running\n switch (or thread).\n This function acts as if the switch were performed at frame end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "switchTerminate",
           "package": "rsagl-frp",
@@ -1126,6 +1217,7 @@
         "index": {
           "description": "Whenever value is provided change the presently running switch or thread to the specified new value and execute that switch before continuing This destroys all state local to the currently running switch or thread This function acts as if the switch were performed at frame end",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "switchTerminate",
           "normalized": "FRP a b(Maybe(FRP a b(SwitchInputOf b)(SwitchOutputOf b)),SwitchOutputOf b)(SwitchOutputOf b)",
@@ -1142,6 +1234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current thread's identity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "threadIdentity",
           "package": "rsagl-frp",
@@ -1152,6 +1245,7 @@
         "index": {
           "description": "Get the current thread identity",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "threadIdentity",
           "normalized": "FRP a b()(ThreadIDOf b)",
@@ -1168,6 +1262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBring an FRPProgram up-to-date with the current time or a specific time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "updateFRPProgram",
           "package": "rsagl-frp",
@@ -1178,6 +1273,7 @@
         "index": {
           "description": "Bring an FRPProgram up-to-date with the current time or specific time",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "updateFRPProgram",
           "normalized": "Maybe Time-\u003e(a,b)-\u003eFRPProgram b a c-\u003eIO(c,b)",
@@ -1194,6 +1290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a computation only when the input is defined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "whenJust",
           "package": "rsagl-frp",
@@ -1204,6 +1301,7 @@
         "index": {
           "description": "Run computation only when the input is defined",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "whenJust",
           "normalized": "(a b c FRP d(FRP Context b e f)g h)-\u003eFRP d f(Maybe g)(Maybe h)",
@@ -1220,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an arrow from its thread identity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRP",
           "name": "withThreadIdentity",
           "package": "rsagl-frp",
@@ -1230,6 +1329,7 @@
         "index": {
           "description": "Construct an arrow from its thread identity",
           "hierarchy": "RSAGL FRP FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRP",
           "name": "withThreadIdentity",
           "normalized": "(ThreadIDOf a-\u003eFRP b a c d)-\u003eFRP b a c d",
@@ -1246,6 +1346,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA model of the types used by an FRP program.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRPModel",
           "name": "FRPModel",
           "package": "rsagl-frp",
@@ -1255,6 +1356,7 @@
         "index": {
           "description": "model of the types used by an FRP program",
           "hierarchy": "RSAGL FRP FRPModel",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRPModel",
           "name": "FRPModel",
           "package": "rsagl-frp",
@@ -1268,6 +1370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRPModel",
           "name": "Capability",
           "package": "rsagl-frp",
@@ -1276,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP FRPModel",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRPModel",
           "name": "Capability",
           "package": "rsagl-frp",
@@ -1289,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRPModel",
           "name": "Disabled",
           "package": "rsagl-frp",
@@ -1297,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP FRPModel",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRPModel",
           "name": "Disabled",
           "package": "rsagl-frp",
@@ -1310,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRPModel",
           "name": "Enabled",
           "package": "rsagl-frp",
@@ -1318,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP FRPModel",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRPModel",
           "name": "Enabled",
           "package": "rsagl-frp",
@@ -1332,6 +1440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA root-level single-threaded program.\n IO is enabled by default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRPModel",
           "name": "FRP1",
           "package": "rsagl-frp",
@@ -1341,6 +1450,7 @@
         "index": {
           "description": "root-level single-threaded program IO is enabled by default",
           "hierarchy": "RSAGL FRP FRPModel",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRPModel",
           "name": "FRP1",
           "package": "rsagl-frp",
@@ -1355,6 +1465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single-threaded embedded subprogram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRPModel",
           "name": "FRP1Context",
           "package": "rsagl-frp",
@@ -1364,6 +1475,7 @@
         "index": {
           "description": "single-threaded embedded subprogram",
           "hierarchy": "RSAGL FRP FRPModel",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRPModel",
           "name": "FRP1Context",
           "package": "rsagl-frp",
@@ -1378,6 +1490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA multi-threaded embedded subprogram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRPModel",
           "name": "FRPContext",
           "package": "rsagl-frp",
@@ -1387,6 +1500,7 @@
         "index": {
           "description": "multi-threaded embedded subprogram",
           "hierarchy": "RSAGL FRP FRPModel",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRPModel",
           "name": "FRPContext",
           "package": "rsagl-frp",
@@ -1400,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRPModel",
           "name": "FRPModel",
           "package": "rsagl-frp",
@@ -1408,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP FRPModel",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRPModel",
           "name": "FRPModel",
           "package": "rsagl-frp",
@@ -1422,6 +1538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA root-level multi-threaded program.\n IO is enabled by default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRPModel",
           "name": "FRPX",
           "package": "rsagl-frp",
@@ -1431,6 +1548,7 @@
         "index": {
           "description": "root-level multi-threaded program IO is enabled by default",
           "hierarchy": "RSAGL FRP FRPModel",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRPModel",
           "name": "FRPX",
           "package": "rsagl-frp",
@@ -1445,6 +1563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA subprogram with IO capabilities disabled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRPModel",
           "name": "IODisabled",
           "package": "rsagl-frp",
@@ -1454,6 +1573,7 @@
         "index": {
           "description": "subprogram with IO capabilities disabled",
           "hierarchy": "RSAGL FRP FRPModel",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRPModel",
           "name": "IODisabled",
           "package": "rsagl-frp",
@@ -1468,6 +1588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA legacy configuration, IO capabilities enabled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRPModel",
           "name": "SimpleSwitch",
           "package": "rsagl-frp",
@@ -1477,6 +1598,7 @@
         "index": {
           "description": "legacy configuration IO capabilities enabled",
           "hierarchy": "RSAGL FRP FRPModel",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRPModel",
           "name": "SimpleSwitch",
           "package": "rsagl-frp",
@@ -1491,6 +1613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe FRPModel type that represents a switch.\n Consists of the following type variables.\n\u003c/p\u003e\u003cp\u003eNote: Don't pattern-match against this type directly, as it is a volatile\n interface.  Either use a type synonym, such as \u003ccode\u003e\u003ca\u003eSimpleSwitch\u003c/a\u003e\u003c/code\u003e, or match\n against the type functions in FRPModel.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e k - See, ThreadingOf.\n * t - See, ThreadIDOf.\n * s - See, StateOf.\n * i - See, SwitchInputOf.\n * o - See, SwitchOutputOf.\n * m - A variable that represents switch nesting.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FRPModel",
           "name": "Switch",
           "package": "rsagl-frp",
@@ -1500,6 +1623,7 @@
         "index": {
           "description": "The FRPModel type that represents switch Consists of the following type variables Note Don pattern-match against this type directly as it is volatile interface Either use type synonym such as SimpleSwitch or match against the type functions in FRPModel See ThreadingOf See ThreadIDOf See StateOf See SwitchInputOf See SwitchOutputOf variable that represents switch nesting",
           "hierarchy": "RSAGL FRP FRPModel",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FRPModel",
           "name": "Switch",
           "package": "rsagl-frp",
@@ -1513,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FactoryArrow",
           "name": "FactoryArrow",
           "package": "rsagl-frp",
@@ -1521,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP FactoryArrow",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FactoryArrow",
           "name": "FactoryArrow",
           "package": "rsagl-frp",
@@ -1535,6 +1661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eArrow\u003c/a\u003e\u003c/code\u003e that constructs an associated monadic computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FactoryArrow",
           "name": "FactoryArrow",
           "package": "rsagl-frp",
@@ -1544,6 +1671,7 @@
         "index": {
           "description": "An Arrow that constructs an associated monadic computation",
           "hierarchy": "RSAGL FRP FactoryArrow",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FactoryArrow",
           "name": "FactoryArrow",
           "package": "rsagl-frp",
@@ -1557,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FactoryArrow",
           "name": "FactoryArrow",
           "package": "rsagl-frp",
@@ -1566,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP FactoryArrow",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FactoryArrow",
           "name": "FactoryArrow",
           "package": "rsagl-frp",
@@ -1579,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.FactoryArrow",
           "name": "runFactory",
           "package": "rsagl-frp",
@@ -1588,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP FactoryArrow",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.FactoryArrow",
           "name": "runFactory",
           "package": "rsagl-frp",
@@ -1602,6 +1734,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA memoization scheme in which a piece of information is tagged with\n a unique identifier for its source.  Messages can be combined,\n and the tagging information indicates the specific combination.\n On the receiving end, we memoize the single most recent incoming\n message, and reuse it if the source information matches.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Message",
           "name": "Message",
           "package": "rsagl-frp",
@@ -1611,6 +1744,7 @@
         "index": {
           "description": "memoization scheme in which piece of information is tagged with unique identifier for its source Messages can be combined and the tagging information indicates the specific combination On the receiving end we memoize the single most recent incoming message and reuse it if the source information matches",
           "hierarchy": "RSAGL FRP Message",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Message",
           "name": "Message",
           "package": "rsagl-frp",
@@ -1625,6 +1759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sourced packet of information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Message",
           "name": "Message",
           "package": "rsagl-frp",
@@ -1634,6 +1769,7 @@
         "index": {
           "description": "sourced packet of information",
           "hierarchy": "RSAGL FRP Message",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Message",
           "name": "Message",
           "package": "rsagl-frp",
@@ -1648,6 +1784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn object that can memoize sequentially matching incoming messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Message",
           "name": "Receiver",
           "package": "rsagl-frp",
@@ -1657,6 +1794,7 @@
         "index": {
           "description": "An object that can memoize sequentially matching incoming messages",
           "hierarchy": "RSAGL FRP Message",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Message",
           "name": "Receiver",
           "package": "rsagl-frp",
@@ -1671,6 +1809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn object that can memoize matching sequential outgoing messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Message",
           "name": "Transmitter",
           "package": "rsagl-frp",
@@ -1680,6 +1819,7 @@
         "index": {
           "description": "An object that can memoize matching sequential outgoing messages",
           "hierarchy": "RSAGL FRP Message",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Message",
           "name": "Transmitter",
           "package": "rsagl-frp",
@@ -1694,6 +1834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind two messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Message",
           "name": "(\u003c\u003c*\u003e\u003e)",
           "package": "rsagl-frp",
@@ -1704,6 +1845,7 @@
         "index": {
           "description": "Bind two messages",
           "hierarchy": "RSAGL FRP Message",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Message",
           "name": "(\u003c\u003c*\u003e\u003e) \u003c\u003c*\u003e\u003e",
           "normalized": "Message(a-\u003eb)-\u003eMessage a-\u003eMessage b",
@@ -1719,6 +1861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arbitrary ordering scheme on messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Message",
           "name": "consistency",
           "package": "rsagl-frp",
@@ -1729,6 +1872,7 @@
         "index": {
           "description": "An arbitrary ordering scheme on messages",
           "hierarchy": "RSAGL FRP Message",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Message",
           "name": "consistency",
           "normalized": "Message a-\u003eMessage b-\u003eOrdering",
@@ -1744,6 +1888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo messages are consistent if they arrive from identical sources.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Message",
           "name": "consistent",
           "package": "rsagl-frp",
@@ -1754,6 +1899,7 @@
         "index": {
           "description": "Two messages are consistent if they arrive from identical sources",
           "hierarchy": "RSAGL FRP Message",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Message",
           "name": "consistent",
           "normalized": "Message a-\u003eMessage b-\u003eBool",
@@ -1768,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Message",
           "name": "newReceiver",
           "package": "rsagl-frp",
@@ -1777,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Message",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Message",
           "name": "newReceiver",
           "package": "rsagl-frp",
@@ -1791,6 +1939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003enewTransmitterBy (==)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Message",
           "name": "newTransmitter",
           "package": "rsagl-frp",
@@ -1801,6 +1950,7 @@
         "index": {
           "description": "Equivalent to newTransmitterBy",
           "hierarchy": "RSAGL FRP Message",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Message",
           "name": "newTransmitter",
           "package": "rsagl-frp",
@@ -1814,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Message",
           "name": "newTransmitterBy",
           "package": "rsagl-frp",
@@ -1823,6 +1974,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Message",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Message",
           "name": "newTransmitterBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eIO(Transmitter a)",
@@ -1839,6 +1991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExamine a message without memoization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Message",
           "name": "peek",
           "package": "rsagl-frp",
@@ -1849,6 +2002,7 @@
         "index": {
           "description": "Examine message without memoization",
           "hierarchy": "RSAGL FRP Message",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Message",
           "name": "peek",
           "normalized": "Message a-\u003ea",
@@ -1864,6 +2018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoizes an incomming message stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Message",
           "name": "receive",
           "package": "rsagl-frp",
@@ -1874,6 +2029,7 @@
         "index": {
           "description": "Memoizes an incomming message stream",
           "hierarchy": "RSAGL FRP Message",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Message",
           "name": "receive",
           "normalized": "Receiver a-\u003eMessage a-\u003eIO a",
@@ -1889,6 +2045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new message from a one-time source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Message",
           "name": "send",
           "package": "rsagl-frp",
@@ -1899,6 +2056,7 @@
         "index": {
           "description": "Construct new message from one-time source",
           "hierarchy": "RSAGL FRP Message",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Message",
           "name": "send",
           "normalized": "a-\u003eIO(Message a)",
@@ -1914,6 +2072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTags an outgoing stream for memoization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Message",
           "name": "transmit",
           "package": "rsagl-frp",
@@ -1924,6 +2083,7 @@
         "index": {
           "description": "Tags an outgoing stream for memoization",
           "hierarchy": "RSAGL FRP Message",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Message",
           "name": "transmit",
           "normalized": "Transmitter a-\u003ea-\u003eIO(Message a)",
@@ -1938,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.RK4",
           "name": "RK4",
           "package": "rsagl-frp",
@@ -1946,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP RK4",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.RK4",
           "name": "RK4",
           "package": "rsagl-frp",
@@ -1960,6 +2122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation of RK4 that repeatedly time steps a system in which velocity\n is a function of absolute time and position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.RK4",
           "name": "integrateRK4",
           "package": "rsagl-frp",
@@ -1969,6 +2132,7 @@
         "index": {
           "description": "Implementation of RK4 that repeatedly time steps system in which velocity is function of absolute time and position",
           "hierarchy": "RSAGL FRP RK4",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.RK4",
           "name": "integrateRK4",
           "normalized": "(a-\u003eb-\u003ea)-\u003e(Time-\u003ea-\u003eRate b)-\u003ea-\u003eTime-\u003eTime-\u003eInteger-\u003ea",
@@ -1985,6 +2149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation of RK4 that repeatedly time steps a system in which\n acceleration is a function of absolute time, position and velocity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.RK4",
           "name": "integrateRK4'",
           "package": "rsagl-frp",
@@ -1994,6 +2159,7 @@
         "index": {
           "description": "Implementation of RK4 that repeatedly time steps system in which acceleration is function of absolute time position and velocity",
           "hierarchy": "RSAGL FRP RK4",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.RK4",
           "name": "integrateRK4'",
           "normalized": "(a-\u003eb-\u003ea)-\u003e(Time-\u003ea-\u003eRate b-\u003eAcceleration b)-\u003e(a,Rate b)-\u003eTime-\u003eTime-\u003eInteger-\u003e(a,Rate b)",
@@ -2010,6 +2176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation of RK4 that time steps a system in which velocity is\n a function of absolute time and position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.RK4",
           "name": "rk4",
           "package": "rsagl-frp",
@@ -2019,6 +2186,7 @@
         "index": {
           "description": "Implementation of RK4 that time steps system in which velocity is function of absolute time and position",
           "hierarchy": "RSAGL FRP RK4",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.RK4",
           "name": "rk4",
           "normalized": "(a-\u003eb-\u003ea)-\u003e(Time-\u003ea-\u003eRate b)-\u003ea-\u003eTime-\u003eTime-\u003ea",
@@ -2034,6 +2202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation of RK4 that time steps a system in which acceleration\n is a function of absolute time, position and velocity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.RK4",
           "name": "rk4'",
           "package": "rsagl-frp",
@@ -2043,6 +2212,7 @@
         "index": {
           "description": "Implementation of RK4 that time steps system in which acceleration is function of absolute time position and velocity",
           "hierarchy": "RSAGL FRP RK4",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.RK4",
           "name": "rk4'",
           "normalized": "(a-\u003eb-\u003ea)-\u003e(Time-\u003ea-\u003eRate b-\u003eAcceleration b)-\u003e(a,Rate b)-\u003eTime-\u003eTime-\u003e(a,Rate b)",
@@ -2057,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.RecombinantState",
           "name": "RecombinantState",
           "package": "rsagl-frp",
@@ -2065,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP RecombinantState",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.RecombinantState",
           "name": "RecombinantState",
           "package": "rsagl-frp",
@@ -2079,6 +2251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes concurrency-aware state.  The goal is to take some stateful\n information, clone it into a variety of concurrent threads, and then\n recombine using the (possibly modified) state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.RecombinantState",
           "name": "RecombinantState",
           "package": "rsagl-frp",
@@ -2088,6 +2261,7 @@
         "index": {
           "description": "Describes concurrency-aware state The goal is to take some stateful information clone it into variety of concurrent threads and then recombine using the possibly modified state",
           "hierarchy": "RSAGL FRP RecombinantState",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.RecombinantState",
           "name": "RecombinantState",
           "package": "rsagl-frp",
@@ -2102,6 +2276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA new version of the state, which should carry the context,\n but not the content, of the original.  I.e., the original\n content will be re-merged during the recombination phase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.RecombinantState",
           "name": "clone",
           "package": "rsagl-frp",
@@ -2112,6 +2287,7 @@
         "index": {
           "description": "new version of the state which should carry the context but not the content of the original I.e the original content will be re-merged during the recombination phase",
           "hierarchy": "RSAGL FRP RecombinantState",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.RecombinantState",
           "name": "clone",
           "normalized": "a-\u003eSubState a",
@@ -2127,6 +2303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecombine the modified, cloned information with the\n original state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.RecombinantState",
           "name": "recombine",
           "package": "rsagl-frp",
@@ -2137,6 +2314,7 @@
         "index": {
           "description": "Recombine the modified cloned information with the original state",
           "hierarchy": "RSAGL FRP RecombinantState",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.RecombinantState",
           "name": "recombine",
           "normalized": "a-\u003eSubState a-\u003ea",
@@ -2151,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "Time",
           "package": "rsagl-frp",
@@ -2159,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "Time",
           "package": "rsagl-frp",
@@ -2172,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "Acceleration",
           "package": "rsagl-frp",
@@ -2180,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "Acceleration",
           "package": "rsagl-frp",
@@ -2193,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "Frequency",
           "package": "rsagl-frp",
@@ -2201,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "Frequency",
           "package": "rsagl-frp",
@@ -2214,6 +2398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "Rate",
           "package": "rsagl-frp",
@@ -2222,6 +2407,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "Rate",
           "package": "rsagl-frp",
@@ -2235,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "Time",
           "package": "rsagl-frp",
@@ -2243,6 +2430,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "Time",
           "package": "rsagl-frp",
@@ -2256,6 +2444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "cyclical",
           "package": "rsagl-frp",
@@ -2265,6 +2454,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "cyclical",
           "normalized": "Time-\u003eTime-\u003eTime",
@@ -2279,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "cyclical'",
           "package": "rsagl-frp",
@@ -2288,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "cyclical'",
           "normalized": "Time-\u003eTime-\u003eRSdouble",
@@ -2302,6 +2494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "day",
           "package": "rsagl-frp",
@@ -2311,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "day",
           "package": "rsagl-frp",
@@ -2323,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "fps120",
           "package": "rsagl-frp",
@@ -2332,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "fps120",
           "package": "rsagl-frp",
@@ -2344,6 +2540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "fps30",
           "package": "rsagl-frp",
@@ -2353,6 +2550,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "fps30",
           "package": "rsagl-frp",
@@ -2365,6 +2563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "fps60",
           "package": "rsagl-frp",
@@ -2374,6 +2573,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "fps60",
           "package": "rsagl-frp",
@@ -2386,6 +2586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "fromSeconds",
           "package": "rsagl-frp",
@@ -2395,6 +2596,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "fromSeconds",
           "normalized": "RSdouble-\u003eTime",
@@ -2410,6 +2612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "getTime",
           "package": "rsagl-frp",
@@ -2419,6 +2622,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "getTime",
           "package": "rsagl-frp",
@@ -2432,6 +2636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "interval",
           "package": "rsagl-frp",
@@ -2441,6 +2646,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "interval",
           "normalized": "Frequency-\u003eTime",
@@ -2455,6 +2661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "minute",
           "package": "rsagl-frp",
@@ -2464,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "minute",
           "package": "rsagl-frp",
@@ -2476,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "month",
           "package": "rsagl-frp",
@@ -2485,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "month",
           "package": "rsagl-frp",
@@ -2497,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "over",
           "package": "rsagl-frp",
@@ -2506,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "over",
           "normalized": "Rate a-\u003eTime-\u003ea",
@@ -2520,6 +2732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "pack",
           "package": "rsagl-frp",
@@ -2529,6 +2742,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "pack",
           "normalized": "[Rate a]-\u003eRate[a]",
@@ -2543,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "packa",
           "package": "rsagl-frp",
@@ -2552,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "packa",
           "normalized": "[Acceleration a]-\u003eAcceleration[a]",
@@ -2566,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "per",
           "package": "rsagl-frp",
@@ -2575,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "per",
           "normalized": "a-\u003eTime-\u003eRate a",
@@ -2589,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "perSecond",
           "package": "rsagl-frp",
@@ -2598,6 +2817,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "perSecond",
           "normalized": "a-\u003eRate a",
@@ -2613,6 +2833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "rate",
           "package": "rsagl-frp",
@@ -2622,6 +2843,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "rate",
           "normalized": "(a,Time)-\u003e(a,Time)-\u003eRate a",
@@ -2636,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "time",
           "package": "rsagl-frp",
@@ -2645,6 +2868,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "time",
           "normalized": "RSdouble-\u003eRate RSdouble-\u003eTime",
@@ -2659,6 +2883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "toSeconds",
           "package": "rsagl-frp",
@@ -2668,6 +2893,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "toSeconds",
           "normalized": "Time-\u003eRSdouble",
@@ -2683,6 +2909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "unpack",
           "package": "rsagl-frp",
@@ -2692,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "unpack",
           "normalized": "Rate[a]-\u003e[Rate a]",
@@ -2706,6 +2934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "unpacka",
           "package": "rsagl-frp",
@@ -2715,6 +2944,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "unpacka",
           "normalized": "Acceleration[a]-\u003e[Acceleration a]",
@@ -2729,6 +2959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "withTime",
           "package": "rsagl-frp",
@@ -2738,6 +2969,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "withTime",
           "normalized": "Time-\u003e(a-\u003eb)-\u003eRate a-\u003eRate b",
@@ -2753,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP.Time",
           "name": "year",
           "package": "rsagl-frp",
@@ -2762,6 +2995,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP Time",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP.Time",
           "name": "year",
           "package": "rsagl-frp",
@@ -2774,6 +3008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:41 UTC 2014",
           "module": "RSAGL.FRP",
           "name": "FRP",
           "package": "rsagl-frp",
@@ -2782,6 +3017,7 @@
         },
         "index": {
           "hierarchy": "RSAGL FRP",
+          "indexed": "2014-03-11T19:55:41",
           "module": "RSAGL.FRP",
           "name": "FRP",
           "package": "rsagl-frp",

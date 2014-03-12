@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "oculus"
+        "phrase": "oculus",
+        "type": "phrase"
       },
       "type": "context"
     }

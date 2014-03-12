@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cipher-aes128"
+        "phrase": "cipher-aes128",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "Internal",
           "package": "cipher-aes128",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "Internal",
           "package": "cipher-aes128",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "AESKey128",
           "package": "cipher-aes128",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "AESKey128",
           "package": "cipher-aes128",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "AESKey192",
           "package": "cipher-aes128",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "AESKey192",
           "package": "cipher-aes128",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "AESKey256",
           "package": "cipher-aes128",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "AESKey256",
           "package": "cipher-aes128",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "GCM",
           "package": "cipher-aes128",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "GCM",
           "package": "cipher-aes128",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "GCMpc",
           "package": "cipher-aes128",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "GCMpc",
           "package": "cipher-aes128",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "RawKey128",
           "package": "cipher-aes128",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "RawKey128",
           "package": "cipher-aes128",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "RawKey192",
           "package": "cipher-aes128",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "RawKey192",
           "package": "cipher-aes128",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "RawKey256",
           "package": "cipher-aes128",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "RawKey256",
           "package": "cipher-aes128",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "AESKey128",
           "package": "cipher-aes128",
@@ -216,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "AESKey128",
           "package": "cipher-aes128",
@@ -229,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "AESKey192",
           "package": "cipher-aes128",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "AESKey192",
           "package": "cipher-aes128",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "AESKey256",
           "package": "cipher-aes128",
@@ -260,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "AESKey256",
           "package": "cipher-aes128",
@@ -273,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "GCM",
           "package": "cipher-aes128",
@@ -282,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "GCM",
           "package": "cipher-aes128",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "RKey128",
           "package": "cipher-aes128",
@@ -304,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "RKey128",
           "package": "cipher-aes128",
@@ -317,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "RKey192",
           "package": "cipher-aes128",
@@ -326,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "RKey192",
           "package": "cipher-aes128",
@@ -339,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "RKey256",
           "package": "cipher-aes128",
@@ -348,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "RKey256",
           "package": "cipher-aes128",
@@ -361,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "_ctxFP2",
           "package": "cipher-aes128",
@@ -370,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "_ctxFP2",
           "package": "cipher-aes128",
@@ -383,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "_gcmFP",
           "package": "cipher-aes128",
@@ -392,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "_gcmFP",
           "package": "cipher-aes128",
@@ -405,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "_keyFP",
           "package": "cipher-aes128",
@@ -414,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "_keyFP",
           "package": "cipher-aes128",
@@ -427,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "aK256",
           "package": "cipher-aes128",
@@ -436,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "aK256",
           "package": "cipher-aes128",
@@ -448,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "aadGCM",
           "package": "cipher-aes128",
@@ -457,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "aadGCM",
           "normalized": "GCM a-\u003ePtr Word-\u003eInt-\u003eIO()",
@@ -472,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "bK256",
           "package": "cipher-aes128",
@@ -481,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "bK256",
           "package": "cipher-aes128",
@@ -493,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "cK256",
           "package": "cipher-aes128",
@@ -502,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "cK256",
           "package": "cipher-aes128",
@@ -514,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "cipherOnlyGCM",
           "package": "cipher-aes128",
@@ -523,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "cipherOnlyGCM",
           "normalized": "GCM a-\u003ePtr Word-\u003ePtr Word-\u003eInt-\u003eIO()",
@@ -538,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "dK256",
           "package": "cipher-aes128",
@@ -547,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "dK256",
           "package": "cipher-aes128",
@@ -559,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "decipherOnlyGCM",
           "package": "cipher-aes128",
@@ -568,6 +619,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "decipherOnlyGCM",
           "normalized": "GCM a-\u003ePtr Word-\u003ePtr Word-\u003eInt-\u003eIO()",
@@ -583,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "decryptCTR",
           "package": "cipher-aes128",
@@ -591,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "decryptCTR",
           "normalized": "a-\u003ePtr Word-\u003ePtr Word-\u003ePtr Word-\u003ePtr Word-\u003eInt-\u003eIO()",
@@ -606,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "decryptECB",
           "package": "cipher-aes128",
@@ -614,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "decryptECB",
           "normalized": "a-\u003ePtr Word-\u003ePtr Word-\u003eInt-\u003eIO()",
@@ -629,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "decryptGCM",
           "package": "cipher-aes128",
@@ -638,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "decryptGCM",
           "normalized": "a-\u003eGCMpc-\u003ePtr Word-\u003eWord-\u003ePtr Word-\u003eWord-\u003ePtr Word-\u003eWord-\u003ePtr Word-\u003ePtr Word-\u003eIO()",
@@ -653,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "encryptCTR",
           "package": "cipher-aes128",
@@ -661,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "encryptCTR",
           "normalized": "a-\u003ePtr Word-\u003ePtr Word-\u003ePtr Word-\u003ePtr Word-\u003eInt-\u003eIO()",
@@ -676,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "encryptECB",
           "package": "cipher-aes128",
@@ -684,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "encryptECB",
           "normalized": "a-\u003ePtr Word-\u003ePtr Word-\u003eInt-\u003eIO()",
@@ -699,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "encryptGCM",
           "package": "cipher-aes128",
@@ -708,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "encryptGCM",
           "normalized": "a-\u003eGCMpc-\u003ePtr Word-\u003eWord-\u003ePtr Word-\u003eWord-\u003ePtr Word-\u003eWord-\u003ePtr Word-\u003ePtr Word-\u003eIO()",
@@ -723,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "expandedKey128",
           "package": "cipher-aes128",
@@ -732,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "expandedKey128",
           "package": "cipher-aes128",
@@ -745,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "expandedKey192",
           "package": "cipher-aes128",
@@ -754,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "expandedKey192",
           "package": "cipher-aes128",
@@ -767,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "expandedKey256",
           "package": "cipher-aes128",
@@ -776,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "expandedKey256",
           "package": "cipher-aes128",
@@ -789,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "finishGCM",
           "package": "cipher-aes128",
@@ -798,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "finishGCM",
           "normalized": "GCM a-\u003ePtr Word-\u003eIO()",
@@ -813,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "generateGCM",
           "package": "cipher-aes128",
@@ -822,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "generateGCM",
           "normalized": "a-\u003eIO(GCM a)",
@@ -837,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "generateKey128",
           "package": "cipher-aes128",
@@ -845,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "generateKey128",
           "normalized": "Ptr Word-\u003eIO(Maybe AESKey)",
@@ -860,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "generateKey192",
           "package": "cipher-aes128",
@@ -868,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "generateKey192",
           "normalized": "Ptr Word-\u003eIO(Maybe AESKey)",
@@ -883,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "generateKey256",
           "package": "cipher-aes128",
@@ -891,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "generateKey256",
           "normalized": "Ptr Word-\u003eIO(Maybe AESKey)",
@@ -906,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "highK128",
           "package": "cipher-aes128",
@@ -915,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "highK128",
           "package": "cipher-aes128",
@@ -927,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "highK192",
           "package": "cipher-aes128",
@@ -936,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "highK192",
           "package": "cipher-aes128",
@@ -948,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "lowK128",
           "package": "cipher-aes128",
@@ -957,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "lowK128",
           "package": "cipher-aes128",
@@ -969,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "lowK192",
           "package": "cipher-aes128",
@@ -978,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "lowK192",
           "package": "cipher-aes128",
@@ -990,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "midK192",
           "package": "cipher-aes128",
@@ -999,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "midK192",
           "package": "cipher-aes128",
@@ -1011,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "precomputeGCMdata",
           "package": "cipher-aes128",
@@ -1020,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "precomputeGCMdata",
           "normalized": "a-\u003eIO GCMpc",
@@ -1035,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "rawKey128",
           "package": "cipher-aes128",
@@ -1044,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "rawKey128",
           "package": "cipher-aes128",
@@ -1057,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "rawKey192",
           "package": "cipher-aes128",
@@ -1066,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "rawKey192",
           "package": "cipher-aes128",
@@ -1079,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "rawKey256",
           "package": "cipher-aes128",
@@ -1088,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128 Internal",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128.Internal",
           "name": "rawKey256",
           "package": "cipher-aes128",
@@ -1101,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "AES128",
           "package": "cipher-aes128",
@@ -1109,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "AES128",
           "package": "cipher-aes128",
@@ -1122,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "AESKey128",
           "package": "cipher-aes128",
@@ -1130,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "AESKey128",
           "package": "cipher-aes128",
@@ -1143,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "AESKey192",
           "package": "cipher-aes128",
@@ -1151,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "AESKey192",
           "package": "cipher-aes128",
@@ -1164,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "AESKey256",
           "package": "cipher-aes128",
@@ -1172,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "AESKey256",
           "package": "cipher-aes128",
@@ -1186,6 +1292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe BlockCipher class is intended as the generic interface\n targeted by maintainers of Haskell cipher implementations.\n\u003c/p\u003e\u003cp\u003eMinimum complete definition: blockSize, encryptBlock, decryptBlock,\n buildKey, and keyLength.\n\u003c/p\u003e\u003cp\u003eInstances must handle unaligned data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "BlockCipher",
           "package": "cipher-aes128",
@@ -1194,6 +1301,7 @@
         "index": {
           "description": "The BlockCipher class is intended as the generic interface targeted by maintainers of Haskell cipher implementations Minimum complete definition blockSize encryptBlock decryptBlock buildKey and keyLength Instances must handle unaligned data",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "BlockCipher",
           "package": "cipher-aes128",
@@ -1207,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "blockSize",
           "package": "cipher-aes128",
@@ -1215,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "blockSize",
           "package": "cipher-aes128",
@@ -1228,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "buildKey",
           "package": "cipher-aes128",
@@ -1236,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "buildKey",
           "package": "cipher-aes128",
@@ -1250,6 +1362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a symmetric key using the system entropy (see \u003ccode\u003e\u003ca\u003eRandom\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "buildKeyIO",
           "package": "cipher-aes128",
@@ -1259,6 +1372,7 @@
         "index": {
           "description": "Build symmetric key using the system entropy see Random",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "buildKeyIO",
           "package": "cipher-aes128",
@@ -1273,6 +1387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCipherblock Chaining (encryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "cbc",
           "package": "cipher-aes128",
@@ -1282,6 +1397,7 @@
         "index": {
           "description": "Cipherblock Chaining encryption",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "cbc",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1297,6 +1413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCipher block chaining encryption for lazy bytestrings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "cbcLazy",
           "package": "cipher-aes128",
@@ -1306,6 +1423,7 @@
         "index": {
           "description": "Cipher block chaining encryption for lazy bytestrings",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "cbcLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1322,6 +1440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCiphertext feedback (encryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "cfb",
           "package": "cipher-aes128",
@@ -1331,6 +1450,7 @@
         "index": {
           "description": "Ciphertext feedback encryption",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "cfb",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1346,6 +1466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCiphertext feed-back encryption mode for lazy bytestrings (with s\n == blockSize)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "cfbLazy",
           "package": "cipher-aes128",
@@ -1355,6 +1476,7 @@
         "index": {
           "description": "Ciphertext feed-back encryption mode for lazy bytestrings with blockSize",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "cfbLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1371,6 +1493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounter (encryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "ctr",
           "package": "cipher-aes128",
@@ -1380,6 +1503,7 @@
         "index": {
           "description": "Counter encryption",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "ctr",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1395,6 +1519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounter (encryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "ctrLazy",
           "package": "cipher-aes128",
@@ -1404,6 +1529,7 @@
         "index": {
           "description": "Counter encryption",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "ctrLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1419,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "decryptBlock",
           "package": "cipher-aes128",
@@ -1427,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "decryptBlock",
           "package": "cipher-aes128",
@@ -1441,6 +1569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElectronic Cookbook (encryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "ecb",
           "package": "cipher-aes128",
@@ -1450,6 +1579,7 @@
         "index": {
           "description": "Electronic Cookbook encryption",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "ecb",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -1465,6 +1595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCook book mode - not really a mode at all.  If you don't know what you're doing, don't use this mode^H^H^H^H library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "ecbLazy",
           "package": "cipher-aes128",
@@ -1474,6 +1605,7 @@
         "index": {
           "description": "Cook book mode not really mode at all If you don know what you re doing don use this mode library",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "ecbLazy",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -1489,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "encryptBlock",
           "package": "cipher-aes128",
@@ -1497,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "encryptBlock",
           "package": "cipher-aes128",
@@ -1510,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "keyLength",
           "package": "cipher-aes128",
@@ -1518,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "keyLength",
           "package": "cipher-aes128",
@@ -1532,6 +1668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput feedback (encryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "ofb",
           "package": "cipher-aes128",
@@ -1541,6 +1678,7 @@
         "index": {
           "description": "Output feedback encryption",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "ofb",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1556,6 +1694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput feedback mode for lazy bytestrings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "ofbLazy",
           "package": "cipher-aes128",
@@ -1565,6 +1704,7 @@
         "index": {
           "description": "Output feedback mode for lazy bytestrings",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "ofbLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1581,6 +1721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSIV (Synthetic IV) mode for strict bytestrings.  First argument is\n the optional list of bytestrings to be authenticated but not\n encrypted.  As required by the specification this algorithm may\n return nothing when certain constraints aren't met.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "siv",
           "package": "cipher-aes128",
@@ -1590,6 +1731,7 @@
         "index": {
           "description": "SIV Synthetic IV mode for strict bytestrings First argument is the optional list of bytestrings to be authenticated but not encrypted As required by the specification this algorithm may return nothing when certain constraints aren met",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "siv",
           "normalized": "a-\u003ea-\u003e[ByteString]-\u003eByteString-\u003eMaybe ByteString",
@@ -1605,6 +1747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSIV (Synthetic IV) mode for lazy bytestrings. The third argument is\n the optional list of bytestrings to be authenticated but not\n encrypted As required by the specification this algorithm may\n return nothing when certain constraints aren't met.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "sivLazy",
           "package": "cipher-aes128",
@@ -1614,6 +1757,7 @@
         "index": {
           "description": "SIV Synthetic IV mode for lazy bytestrings The third argument is the optional list of bytestrings to be authenticated but not encrypted As required by the specification this algorithm may return nothing when certain constraints aren met",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "sivLazy",
           "normalized": "a-\u003ea-\u003e[ByteString]-\u003eByteString-\u003eMaybe ByteString",
@@ -1630,6 +1774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCipherblock Chaining (decryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "unCbc",
           "package": "cipher-aes128",
@@ -1639,6 +1784,7 @@
         "index": {
           "description": "Cipherblock Chaining decryption",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "unCbc",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1655,6 +1801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCipher block chaining decryption for lazy bytestrings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "unCbcLazy",
           "package": "cipher-aes128",
@@ -1664,6 +1811,7 @@
         "index": {
           "description": "Cipher block chaining decryption for lazy bytestrings",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "unCbcLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1680,6 +1828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCiphertext feedback (decryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "unCfb",
           "package": "cipher-aes128",
@@ -1689,6 +1838,7 @@
         "index": {
           "description": "Ciphertext feedback decryption",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "unCfb",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1705,6 +1855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCiphertext feed-back decryption mode for lazy bytestrings (with s\n == blockSize)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "unCfbLazy",
           "package": "cipher-aes128",
@@ -1714,6 +1865,7 @@
         "index": {
           "description": "Ciphertext feed-back decryption mode for lazy bytestrings with blockSize",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "unCfbLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1730,6 +1882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounter (decryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "unCtr",
           "package": "cipher-aes128",
@@ -1739,6 +1892,7 @@
         "index": {
           "description": "Counter decryption",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "unCtr",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1755,6 +1909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounter (decryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "unCtrLazy",
           "package": "cipher-aes128",
@@ -1764,6 +1919,7 @@
         "index": {
           "description": "Counter decryption",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "unCtrLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1780,6 +1936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElectronic Cookbook (decryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "unEcb",
           "package": "cipher-aes128",
@@ -1789,6 +1946,7 @@
         "index": {
           "description": "Electronic Cookbook decryption",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "unEcb",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -1805,6 +1963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eECB decrypt, complementary to \u003ccode\u003e\u003ca\u003eecb\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "unEcbLazy",
           "package": "cipher-aes128",
@@ -1814,6 +1973,7 @@
         "index": {
           "description": "ECB decrypt complementary to ecb",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "unEcbLazy",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -1830,6 +1990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput feedback (decryption)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "unOfb",
           "package": "cipher-aes128",
@@ -1839,6 +2000,7 @@
         "index": {
           "description": "Output feedback decryption",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "unOfb",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1855,6 +2017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput feedback mode for lazy bytestrings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "unOfbLazy",
           "package": "cipher-aes128",
@@ -1864,6 +2027,7 @@
         "index": {
           "description": "Output feedback mode for lazy bytestrings",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "unOfbLazy",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003e(ByteString,IV a)",
@@ -1880,6 +2044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSIV (Synthetic IV) for strict bytestrings First argument is the\n optional list of bytestrings to be authenticated but not encrypted\n As required by the specification this algorithm may return nothing\n when authentication fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "unSiv",
           "package": "cipher-aes128",
@@ -1889,6 +2054,7 @@
         "index": {
           "description": "SIV Synthetic IV for strict bytestrings First argument is the optional list of bytestrings to be authenticated but not encrypted As required by the specification this algorithm may return nothing when authentication fails",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "unSiv",
           "normalized": "a-\u003ea-\u003e[ByteString]-\u003eByteString-\u003eMaybe ByteString",
@@ -1905,6 +2071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSIV (Synthetic IV) for lazy bytestrings.  The third argument is the\n optional list of bytestrings to be authenticated but not encrypted.\n As required by the specification this algorithm may return nothing\n when authentication fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "unSivLazy",
           "package": "cipher-aes128",
@@ -1914,6 +2081,7 @@
         "index": {
           "description": "SIV Synthetic IV for lazy bytestrings The third argument is the optional list of bytestrings to be authenticated but not encrypted As required by the specification this algorithm may return nothing when authentication fails",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "unSivLazy",
           "normalized": "a-\u003ea-\u003e[ByteString]-\u003eByteString-\u003eMaybe ByteString",
@@ -1930,6 +2098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain an \u003ccode\u003e\u003ca\u003eIV\u003c/a\u003e\u003c/code\u003e made only of zeroes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:32:41 UTC 2014",
           "module": "Crypto.Cipher.AES128",
           "name": "zeroIV",
           "package": "cipher-aes128",
@@ -1939,6 +2108,7 @@
         "index": {
           "description": "Obtain an IV made only of zeroes",
           "hierarchy": "Crypto Cipher AES128",
+          "indexed": "2014-03-11T17:32:41",
           "module": "Crypto.Cipher.AES128",
           "name": "zeroIV",
           "package": "cipher-aes128",

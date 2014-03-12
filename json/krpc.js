@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "krpc"
+        "phrase": "krpc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNormally, you don't need to import this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Manager",
           "name": "Manager",
           "package": "krpc",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Normally you don need to import this module",
           "hierarchy": "Network KRPC Manager",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Manager",
           "name": "Manager",
           "package": "krpc",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandler is a function which will be invoked then some \u003cem\u003eremote\u003c/em\u003e\n node querying \u003cem\u003ethis\u003c/em\u003e node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Manager",
           "name": "Handler",
           "package": "krpc",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Handler is function which will be invoked then some remote node querying this node",
           "hierarchy": "Network KRPC Manager",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Manager",
           "name": "Handler",
           "package": "krpc",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to signal protocol errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Manager",
           "name": "HandlerFailure",
           "package": "krpc",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Used to signal protocol errors",
           "hierarchy": "Network KRPC Manager",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Manager",
           "name": "HandlerFailure",
           "package": "krpc",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeep track pending queries made by \u003cem\u003ethis\u003c/em\u003e node and handle queries\n made by \u003cem\u003eremote\u003c/em\u003e nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Manager",
           "name": "Manager",
           "package": "krpc",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Keep track pending queries made by this node and handle queries made by remote nodes",
           "hierarchy": "Network KRPC Manager",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Manager",
           "name": "Manager",
           "package": "krpc",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad which can perform or handle queries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Manager",
           "name": "MonadKRPC",
           "package": "krpc",
@@ -120,6 +129,7 @@
         "index": {
           "description": "monad which can perform or handle queries",
           "hierarchy": "Network KRPC Manager",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Manager",
           "name": "MonadKRPC",
           "package": "krpc",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRPC manager options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Manager",
           "name": "Options",
           "package": "krpc",
@@ -143,6 +154,7 @@
         "index": {
           "description": "RPC manager options",
           "hierarchy": "Network KRPC Manager",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Manager",
           "name": "Options",
           "package": "krpc",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to signal \u003ccode\u003e\u003ca\u003equery\u003c/a\u003e\u003c/code\u003e errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Manager",
           "name": "QueryFailure",
           "package": "krpc",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Used to signal query errors",
           "hierarchy": "Network KRPC Manager",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Manager",
           "name": "QueryFailure",
           "package": "krpc",
@@ -355,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsk for manager.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Manager",
           "name": "getManager",
           "package": "krpc",
@@ -365,6 +380,7 @@
         "index": {
           "description": "Ask for manager",
           "hierarchy": "Network KRPC Manager",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Manager",
           "name": "getManager",
           "package": "krpc",
@@ -457,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan be used to add logging for instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Manager",
           "name": "liftHandler",
           "package": "krpc",
@@ -467,6 +484,7 @@
         "index": {
           "description": "Can be used to add logging for instance",
           "hierarchy": "Network KRPC Manager",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Manager",
           "name": "liftHandler",
           "normalized": "a b-\u003ec b",
@@ -663,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eKRPC messages types used in communication. All messages are\n   encoded as bencode dictionary.\n\u003c/p\u003e\u003cp\u003eNormally, you don't need to import this module.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://www.bittorrent.org/beps/bep_0005.html#krpc-protocol\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "Message",
           "package": "krpc",
@@ -672,6 +691,7 @@
         "index": {
           "description": "KRPC messages types used in communication All messages are encoded as bencode dictionary Normally you don need to import this module See http www.bittorrent.org beps bep html krpc-protocol",
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "Message",
           "package": "krpc",
@@ -686,6 +706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of RPC errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "ErrorCode",
           "package": "krpc",
@@ -695,6 +716,7 @@
         "index": {
           "description": "Types of RPC errors",
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "ErrorCode",
           "package": "krpc",
@@ -709,6 +731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErrors are sent when a query cannot be fulfilled. Error message\n   can be send only from server to client but not in the opposite\n   direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "KError",
           "package": "krpc",
@@ -718,6 +741,7 @@
         "index": {
           "description": "Errors are sent when query cannot be fulfilled Error message can be send only from server to client but not in the opposite direction",
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "KError",
           "package": "krpc",
@@ -732,6 +756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric KRPC message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "KMessage",
           "package": "krpc",
@@ -741,6 +766,7 @@
         "index": {
           "description": "Generic KRPC message",
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "KMessage",
           "package": "krpc",
@@ -755,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery used to signal that caller want to make procedure call to\n callee and pass arguments in. Therefore query may be only sent from\n client to server but not in the opposite direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "KQuery",
           "package": "krpc",
@@ -764,6 +791,7 @@
         "index": {
           "description": "Query used to signal that caller want to make procedure call to callee and pass arguments in Therefore query may be only sent from client to server but not in the opposite direction",
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "KQuery",
           "package": "krpc",
@@ -778,6 +806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponse messages are sent upon successful completion of a\n query:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e KResponse used to signal that callee successufully process a\n   procedure call and to return values from procedure.\n\u003c/li\u003e\u003cli\u003e KResponse should not be sent if error occurred during RPC,\n   \u003ccode\u003e\u003ca\u003eKError\u003c/a\u003e\u003c/code\u003e should be sent instead.\n\u003c/li\u003e\u003cli\u003e KResponse can be only sent from server to client.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "KResponse",
           "package": "krpc",
@@ -787,6 +816,7 @@
         "index": {
           "description": "Response messages are sent upon successful completion of query KResponse used to signal that callee successufully process procedure call and to return values from procedure KResponse should not be sent if error occurred during RPC KError should be sent instead KResponse can be only sent from server to client",
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "KResponse",
           "package": "krpc",
@@ -800,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "MethodName",
           "package": "krpc",
@@ -808,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "MethodName",
           "package": "krpc",
@@ -822,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis transaction ID is generated by the querying node and is\n echoed in the response, so responses may be correlated with\n multiple queries to the same node. The transaction ID should be\n encoded as a short string of binary numbers, typically 2 characters\n are enough as they cover 2^16 outstanding queries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "TransactionId",
           "package": "krpc",
@@ -831,6 +864,7 @@
         "index": {
           "description": "This transaction ID is generated by the querying node and is echoed in the response so responses may be correlated with multiple queries to the same node The transaction ID should be encoded as short string of binary numbers typically characters are enough as they cover outstanding queries",
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "TransactionId",
           "package": "krpc",
@@ -844,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "E",
           "package": "krpc",
@@ -853,6 +888,7 @@
         },
         "index": {
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "E",
           "package": "krpc",
@@ -890,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "KError",
           "package": "krpc",
@@ -899,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "KError",
           "package": "krpc",
@@ -912,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "KQuery",
           "package": "krpc",
@@ -921,6 +960,7 @@
         },
         "index": {
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "KQuery",
           "package": "krpc",
@@ -934,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "KResponse",
           "package": "krpc",
@@ -943,6 +984,7 @@
         },
         "index": {
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "KResponse",
           "package": "krpc",
@@ -1006,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "Q",
           "package": "krpc",
@@ -1015,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "Q",
           "package": "krpc",
@@ -1027,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "R",
           "package": "krpc",
@@ -1036,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "R",
           "package": "krpc",
@@ -1074,6 +1120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceived \u003ccode\u003e\u003ca\u003equeryArgs\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003erespVals\u003c/a\u003e\u003c/code\u003e can not be decoded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "decodeError",
           "package": "krpc",
@@ -1084,6 +1131,7 @@
         "index": {
           "description": "Received queryArgs or respVals can not be decoded",
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "decodeError",
           "normalized": "String-\u003eTransactionId-\u003eKError",
@@ -1100,6 +1148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe type of error;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "errorCode",
           "package": "krpc",
@@ -1110,6 +1159,7 @@
         "index": {
           "description": "the type of error",
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "errorCode",
           "package": "krpc",
@@ -1124,6 +1174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematch to the corresponding \u003ccode\u003e\u003ca\u003equeryId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "errorId",
           "package": "krpc",
@@ -1134,6 +1185,7 @@
         "index": {
           "description": "match to the corresponding queryId",
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "errorId",
           "package": "krpc",
@@ -1148,6 +1200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehuman-readable text message;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "errorMessage",
           "package": "krpc",
@@ -1158,6 +1211,7 @@
         "index": {
           "description": "human-readable text message",
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "errorMessage",
           "package": "krpc",
@@ -1172,6 +1226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalues to be passed to method;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "queryArgs",
           "package": "krpc",
@@ -1182,6 +1237,7 @@
         "index": {
           "description": "values to be passed to method",
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "queryArgs",
           "package": "krpc",
@@ -1196,6 +1252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eone-time query token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "queryId",
           "package": "krpc",
@@ -1206,6 +1263,7 @@
         "index": {
           "description": "one-time query token",
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "queryId",
           "package": "krpc",
@@ -1220,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emethod to call;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "queryMethod",
           "package": "krpc",
@@ -1230,6 +1289,7 @@
         "index": {
           "description": "method to call",
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "queryMethod",
           "package": "krpc",
@@ -1244,6 +1304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematch to the corresponding \u003ccode\u003e\u003ca\u003equeryId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "respId",
           "package": "krpc",
@@ -1254,6 +1315,7 @@
         "index": {
           "description": "match to the corresponding queryId",
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "respId",
           "package": "krpc",
@@ -1268,6 +1330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eBDict\u003c/a\u003e\u003c/code\u003e containing return values;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "respVals",
           "package": "krpc",
@@ -1278,6 +1341,7 @@
         "index": {
           "description": "BDict containing return values",
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "respVals",
           "package": "krpc",
@@ -1292,6 +1356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA remote node has send some \u003ccode\u003e\u003ca\u003eKMessage\u003c/a\u003e\u003c/code\u003e this node is unable to\n decode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Message",
           "name": "unknownMessage",
           "package": "krpc",
@@ -1302,6 +1367,7 @@
         "index": {
           "description": "remote node has send some KMessage this node is unable to decode",
           "hierarchy": "Network KRPC Message",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Message",
           "name": "unknownMessage",
           "normalized": "String-\u003eKError",
@@ -1318,6 +1384,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNormally, you don't need to import this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Method",
           "name": "Method",
           "package": "krpc",
@@ -1327,6 +1394,7 @@
         "index": {
           "description": "Normally you don need to import this module",
           "hierarchy": "Network KRPC Method",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Method",
           "name": "Method",
           "package": "krpc",
@@ -1341,6 +1409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn order to perform or handle KRPC query you need to provide\n   corresponding \u003ccode\u003e\u003ca\u003eKRPC\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e\n   data Ping = Ping Text deriving BEncode\n   data Pong = Pong Text deriving BEncode\n\ninstance \u003ccode\u003e\u003ca\u003eKRPC\u003c/a\u003e\u003c/code\u003e Ping Pong where\n     method = \"ping\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Method",
           "name": "KRPC",
           "package": "krpc",
@@ -1350,6 +1419,7 @@
         "index": {
           "description": "In order to perform or handle KRPC query you need to provide corresponding KRPC class Example data Ping Ping Text deriving BEncode data Pong Pong Text deriving BEncode instance KRPC Ping Pong where method ping",
           "hierarchy": "Network KRPC Method",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Method",
           "name": "KRPC",
           "package": "krpc",
@@ -1364,6 +1434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMethod datatype used to describe method name, parameters and\n return values of procedure. Client use a method to \u003cem\u003einvoke\u003c/em\u003e, server\n \u003cem\u003eimplements\u003c/em\u003e the method to make the actual work.\n\u003c/p\u003e\u003cp\u003eWe use the following fantom types to ensure type-safiety:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e param: Type of method parameters.\n\u003c/li\u003e\u003cli\u003e result: Type of return value of the method.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Method",
           "name": "Method",
           "package": "krpc",
@@ -1373,6 +1444,7 @@
         "index": {
           "description": "Method datatype used to describe method name parameters and return values of procedure Client use method to invoke server implements the method to make the actual work We use the following fantom types to ensure type-safiety param Type of method parameters result Type of return value of the method",
           "hierarchy": "Network KRPC Method",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Method",
           "name": "Method",
           "package": "krpc",
@@ -1386,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Method",
           "name": "Method",
           "package": "krpc",
@@ -1395,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Network KRPC Method",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Method",
           "name": "Method",
           "package": "krpc",
@@ -1409,6 +1483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMethod name. Default implementation uses lowercased \u003ccode\u003ereq\u003c/code\u003e\n datatype name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Method",
           "name": "method",
           "package": "krpc",
@@ -1419,6 +1494,7 @@
         "index": {
           "description": "Method name Default implementation uses lowercased req datatype name",
           "hierarchy": "Network KRPC Method",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Method",
           "name": "method",
           "package": "krpc",
@@ -1431,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC.Method",
           "name": "methodName",
           "package": "krpc",
@@ -1440,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Network KRPC Method",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC.Method",
           "name": "methodName",
           "package": "krpc",
@@ -1454,6 +1532,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides safe remote procedure call. One important\n   point is exceptions and errors, so to be able handle them\n   properly we need to investigate a bit about how this all works.\n   Internally, in order to make method invokation KRPC makes the\n   following steps:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Caller serialize arguments to bencoded bytestrings;\n\u003c/li\u003e\u003cli\u003e Caller send bytestring data over UDP to the callee;\n\u003c/li\u003e\u003cli\u003e Callee receive and decode arguments to the method and method\n     name. If it can't decode then it send \u003ccode\u003e\u003ca\u003eProtocolError\u003c/a\u003e\u003c/code\u003e back to the\n     caller;\n\u003c/li\u003e\u003cli\u003e Callee search for the \u003ccode\u003emethod name\u003c/code\u003e in the method table.\n     If it not present in the table then callee send \u003ccode\u003e\u003ca\u003eMethodUnknown\u003c/a\u003e\u003c/code\u003e\n     back to the caller;\n\u003c/li\u003e\u003cli\u003e Callee check if argument names match. If not it send\n     \u003ccode\u003e\u003ca\u003eProtocolError\u003c/a\u003e\u003c/code\u003e back;\n\u003c/li\u003e\u003cli\u003e Callee make the actuall call to the plain old haskell\n       function.  If the function throw exception then callee send\n       \u003ccode\u003e\u003ca\u003eServerError\u003c/a\u003e\u003c/code\u003e back.\n\u003c/li\u003e\u003cli\u003e Callee serialize result of the function to bencoded bytestring.\n\u003c/li\u003e\u003cli\u003e Callee encode result to bencoded bytestring and send it back\n     to the caller.\n\u003c/li\u003e\u003cli\u003e Caller check if return values names match with the signature\n     it called in the first step.\n\u003c/li\u003e\u003cli\u003e Caller extracts results and finally return results of the\n     procedure call as ordinary haskell values.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIf every other error occurred then caller get the\n   \u003ccode\u003e\u003ca\u003eGenericError\u003c/a\u003e\u003c/code\u003e. All errors returned by callee are throwed as\n   ordinary haskell exceptions at caller side. Also note that both\n   caller and callee use plain UDP, so KRPC is unreliable.\n\u003c/p\u003e\u003cp\u003eFor async \u003ccode\u003e\u003ca\u003equery\u003c/a\u003e\u003c/code\u003e use \u003ccode\u003easync\u003c/code\u003e package.\n\u003c/p\u003e\u003cp\u003eFor protocol details see \u003ca\u003eNetwork.KRPC.Message\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC",
           "name": "KRPC",
           "package": "krpc",
@@ -1463,6 +1542,7 @@
         "index": {
           "description": "This module provides safe remote procedure call One important point is exceptions and errors so to be able handle them properly we need to investigate bit about how this all works Internally in order to make method invokation KRPC makes the following steps Caller serialize arguments to bencoded bytestrings Caller send bytestring data over UDP to the callee Callee receive and decode arguments to the method and method name If it can decode then it send ProtocolError back to the caller Callee search for the method name in the method table If it not present in the table then callee send MethodUnknown back to the caller Callee check if argument names match If not it send ProtocolError back Callee make the actuall call to the plain old haskell function If the function throw exception then callee send ServerError back Callee serialize result of the function to bencoded bytestring Callee encode result to bencoded bytestring and send it back to the caller Caller check if return values names match with the signature it called in the first step Caller extracts results and finally return results of the procedure call as ordinary haskell values If every other error occurred then caller get the GenericError All errors returned by callee are throwed as ordinary haskell exceptions at caller side Also note that both caller and callee use plain UDP so KRPC is unreliable For async query use async package For protocol details see Network.KRPC.Message module",
           "hierarchy": "Network KRPC",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC",
           "name": "KRPC",
           "package": "krpc",
@@ -1477,6 +1557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of RPC errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC",
           "name": "ErrorCode",
           "package": "krpc",
@@ -1486,6 +1567,7 @@
         "index": {
           "description": "Types of RPC errors",
           "hierarchy": "Network KRPC",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC",
           "name": "ErrorCode",
           "package": "krpc",
@@ -1500,6 +1582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandler is a function which will be invoked then some \u003cem\u003eremote\u003c/em\u003e\n node querying \u003cem\u003ethis\u003c/em\u003e node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC",
           "name": "Handler",
           "package": "krpc",
@@ -1509,6 +1592,7 @@
         "index": {
           "description": "Handler is function which will be invoked then some remote node querying this node",
           "hierarchy": "Network KRPC",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC",
           "name": "Handler",
           "package": "krpc",
@@ -1523,6 +1607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to signal protocol errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC",
           "name": "HandlerFailure",
           "package": "krpc",
@@ -1532,6 +1617,7 @@
         "index": {
           "description": "Used to signal protocol errors",
           "hierarchy": "Network KRPC",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC",
           "name": "HandlerFailure",
           "package": "krpc",
@@ -1546,6 +1632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn order to perform or handle KRPC query you need to provide\n   corresponding \u003ccode\u003e\u003ca\u003eKRPC\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e\n   data Ping = Ping Text deriving BEncode\n   data Pong = Pong Text deriving BEncode\n\ninstance \u003ccode\u003e\u003ca\u003eKRPC\u003c/a\u003e\u003c/code\u003e Ping Pong where\n     method = \"ping\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC",
           "name": "KRPC",
           "package": "krpc",
@@ -1555,6 +1642,7 @@
         "index": {
           "description": "In order to perform or handle KRPC query you need to provide corresponding KRPC class Example data Ping Ping Text deriving BEncode data Pong Pong Text deriving BEncode instance KRPC Ping Pong where method ping",
           "hierarchy": "Network KRPC",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC",
           "name": "KRPC",
           "package": "krpc",
@@ -1569,6 +1657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeep track pending queries made by \u003cem\u003ethis\u003c/em\u003e node and handle queries\n made by \u003cem\u003eremote\u003c/em\u003e nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC",
           "name": "Manager",
           "package": "krpc",
@@ -1578,6 +1667,7 @@
         "index": {
           "description": "Keep track pending queries made by this node and handle queries made by remote nodes",
           "hierarchy": "Network KRPC",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC",
           "name": "Manager",
           "package": "krpc",
@@ -1592,6 +1682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMethod datatype used to describe method name, parameters and\n return values of procedure. Client use a method to \u003cem\u003einvoke\u003c/em\u003e, server\n \u003cem\u003eimplements\u003c/em\u003e the method to make the actual work.\n\u003c/p\u003e\u003cp\u003eWe use the following fantom types to ensure type-safiety:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e param: Type of method parameters.\n\u003c/li\u003e\u003cli\u003e result: Type of return value of the method.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC",
           "name": "Method",
           "package": "krpc",
@@ -1601,6 +1692,7 @@
         "index": {
           "description": "Method datatype used to describe method name parameters and return values of procedure Client use method to invoke server implements the method to make the actual work We use the following fantom types to ensure type-safiety param Type of method parameters result Type of return value of the method",
           "hierarchy": "Network KRPC",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC",
           "name": "Method",
           "package": "krpc",
@@ -1615,6 +1707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad which can perform or handle queries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC",
           "name": "MonadKRPC",
           "package": "krpc",
@@ -1624,6 +1717,7 @@
         "index": {
           "description": "monad which can perform or handle queries",
           "hierarchy": "Network KRPC",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC",
           "name": "MonadKRPC",
           "package": "krpc",
@@ -1638,6 +1732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRPC manager options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC",
           "name": "Options",
           "package": "krpc",
@@ -1647,6 +1742,7 @@
         "index": {
           "description": "RPC manager options",
           "hierarchy": "Network KRPC",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC",
           "name": "Options",
           "package": "krpc",
@@ -1661,6 +1757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to signal \u003ccode\u003e\u003ca\u003equery\u003c/a\u003e\u003c/code\u003e errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC",
           "name": "QueryFailure",
           "package": "krpc",
@@ -1670,6 +1767,7 @@
         "index": {
           "description": "Used to signal query errors",
           "hierarchy": "Network KRPC",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC",
           "name": "QueryFailure",
           "package": "krpc",
@@ -1683,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC",
           "name": "SockAddr",
           "package": "krpc",
@@ -1690,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Network KRPC",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC",
           "name": "SockAddr",
           "package": "krpc",
@@ -1703,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC",
           "name": "SockAddrInet",
           "package": "krpc",
@@ -1711,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Network KRPC",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC",
           "name": "SockAddrInet",
           "package": "krpc",
@@ -1724,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC",
           "name": "SockAddrInet6",
           "package": "krpc",
@@ -1732,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "Network KRPC",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC",
           "name": "SockAddrInet6",
           "package": "krpc",
@@ -1745,6 +1849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC",
           "name": "SockAddrUnix",
           "package": "krpc",
@@ -1753,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Network KRPC",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC",
           "name": "SockAddrUnix",
           "package": "krpc",
@@ -1767,6 +1873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value for this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC",
           "name": "def",
           "package": "krpc",
@@ -1776,6 +1883,7 @@
         "index": {
           "description": "The default value for this type",
           "hierarchy": "Network KRPC",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC",
           "name": "def",
           "package": "krpc",
@@ -1789,6 +1897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsk for manager.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC",
           "name": "getManager",
           "package": "krpc",
@@ -1799,6 +1908,7 @@
         "index": {
           "description": "Ask for manager",
           "hierarchy": "Network KRPC",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC",
           "name": "getManager",
           "package": "krpc",
@@ -1813,6 +1923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan be used to add logging for instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC",
           "name": "liftHandler",
           "package": "krpc",
@@ -1823,6 +1934,7 @@
         "index": {
           "description": "Can be used to add logging for instance",
           "hierarchy": "Network KRPC",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC",
           "name": "liftHandler",
           "normalized": "a b-\u003ec b",
@@ -1839,6 +1951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMethod name. Default implementation uses lowercased \u003ccode\u003ereq\u003c/code\u003e\n datatype name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:27 UTC 2014",
           "module": "Network.KRPC",
           "name": "method",
           "package": "krpc",
@@ -1849,6 +1962,7 @@
         "index": {
           "description": "Method name Default implementation uses lowercased req datatype name",
           "hierarchy": "Network KRPC",
+          "indexed": "2014-03-11T19:03:27",
           "module": "Network.KRPC",
           "name": "method",
           "package": "krpc",

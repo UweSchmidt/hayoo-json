@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "regular-xmlpickler"
+        "phrase": "regular-xmlpickler",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric XmlPickler. Use this module if you don't want the instances\n from Generics.Regular.XmlPickler.Instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:21 UTC 2014",
           "module": "Generics.Regular.XmlPickler.Function",
           "name": "Function",
           "package": "regular-xmlpickler",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Generic XmlPickler Use this module if you don want the instances from Generics.Regular.XmlPickler.Instances",
           "hierarchy": "Generics Regular XmlPickler Function",
+          "indexed": "2014-03-11T19:52:21",
           "module": "Generics.Regular.XmlPickler.Function",
           "name": "Function",
           "package": "regular-xmlpickler",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe generic XmlPickler class. This gives generic xml picklers for\n the functors from \u003ccode\u003eGenerics.Regular\u003c/code\u003e. These are usually not used\n directly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:21 UTC 2014",
           "module": "Generics.Regular.XmlPickler.Function",
           "name": "GXmlPickler",
           "package": "regular-xmlpickler",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The generic XmlPickler class This gives generic xml picklers for the functors from Generics.Regular These are usually not used directly",
           "hierarchy": "Generics Regular XmlPickler Function",
+          "indexed": "2014-03-11T19:52:21",
           "module": "Generics.Regular.XmlPickler.Function",
           "name": "GXmlPickler",
           "package": "regular-xmlpickler",
@@ -88,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:21 UTC 2014",
           "module": "Generics.Regular.XmlPickler.Function",
           "name": "gxpicklef",
           "package": "regular-xmlpickler",
@@ -97,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular XmlPickler Function",
+          "indexed": "2014-03-11T19:52:21",
           "module": "Generics.Regular.XmlPickler.Function",
           "name": "gxpicklef",
           "normalized": "PU a-\u003ePU(b a)",
@@ -112,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eXmlPickler\u003c/a\u003e\u003c/code\u003e instance for \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e which converts to and from the Strings\n \"true\" and \"false\", and \u003ccode\u003e\u003ca\u003eGXmlPickler\u003c/a\u003e\u003c/code\u003e instance for \u003ccode\u003e\u003ca\u003eK\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, which\n allows whitespace. These instances are automatically used if you\n import \u003ccode\u003eGenerics.Regular.XmlPickler\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:21 UTC 2014",
           "module": "Generics.Regular.XmlPickler.Instances",
           "name": "Instances",
           "package": "regular-xmlpickler",
@@ -121,6 +128,7 @@
         "index": {
           "description": "XmlPickler instance for Bool which converts to and from the Strings true and false and GXmlPickler instance for String which allows whitespace These instances are automatically used if you import Generics.Regular.XmlPickler",
           "hierarchy": "Generics Regular XmlPickler Instances",
+          "indexed": "2014-03-11T19:52:21",
           "module": "Generics.Regular.XmlPickler.Instances",
           "name": "Instances",
           "package": "regular-xmlpickler",
@@ -135,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric \u003ccode\u003eXmlPickler\u003c/code\u003e. This module allows you to generically convert\n your datatype to and from XML. If you don't want the (G)XmlPickler\n instances for \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, use\n \u003ccode\u003eGeneric.Regular.XmlPickler.Function\u003c/code\u003e instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:21 UTC 2014",
           "module": "Generics.Regular.XmlPickler",
           "name": "XmlPickler",
           "package": "regular-xmlpickler",
@@ -144,6 +153,7 @@
         "index": {
           "description": "Generic XmlPickler This module allows you to generically convert your datatype to and from XML If you don want the XmlPickler instances for Bool and String use Generic.Regular.XmlPickler.Function instead",
           "hierarchy": "Generics Regular XmlPickler",
+          "indexed": "2014-03-11T19:52:21",
           "module": "Generics.Regular.XmlPickler",
           "name": "XmlPickler",
           "package": "regular-xmlpickler",
@@ -158,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe generic XmlPickler class. This gives generic xml picklers for\n the functors from \u003ccode\u003eGenerics.Regular\u003c/code\u003e. These are usually not used\n directly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:21 UTC 2014",
           "module": "Generics.Regular.XmlPickler",
           "name": "GXmlPickler",
           "package": "regular-xmlpickler",
@@ -167,6 +178,7 @@
         "index": {
           "description": "The generic XmlPickler class This gives generic xml picklers for the functors from Generics.Regular These are usually not used directly",
           "hierarchy": "Generics Regular XmlPickler",
+          "indexed": "2014-03-11T19:52:21",
           "module": "Generics.Regular.XmlPickler",
           "name": "GXmlPickler",
           "package": "regular-xmlpickler",
@@ -180,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:21 UTC 2014",
           "module": "Generics.Regular.XmlPickler",
           "name": "gxpicklef",
           "package": "regular-xmlpickler",
@@ -189,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular XmlPickler",
+          "indexed": "2014-03-11T19:52:21",
           "module": "Generics.Regular.XmlPickler",
           "name": "gxpicklef",
           "normalized": "PU a-\u003ePU(b a)",

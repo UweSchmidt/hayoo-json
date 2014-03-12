@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "github"
+        "phrase": "github",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Definitions",
           "package": "github",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Definitions",
           "package": "github",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Blob",
           "package": "github",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Blob",
           "package": "github",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Branch",
           "package": "github",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Branch",
           "package": "github",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "BranchCommit",
           "package": "github",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "BranchCommit",
           "package": "github",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Comment",
           "package": "github",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Comment",
           "package": "github",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Commit",
           "package": "github",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Commit",
           "package": "github",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Contributor",
           "package": "github",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Contributor",
           "package": "github",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "DetailedOwner",
           "package": "github",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "DetailedOwner",
           "package": "github",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "DetailedPullRequest",
           "package": "github",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "DetailedPullRequest",
           "package": "github",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Diff",
           "package": "github",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Diff",
           "package": "github",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "EditComment",
           "package": "github",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "EditComment",
           "package": "github",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "EditIssue",
           "package": "github",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "EditIssue",
           "package": "github",
@@ -271,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErrors have been tagged according to their source, so you can more easily\n dispatch and handle them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Error",
           "package": "github",
@@ -280,6 +305,7 @@
         "index": {
           "description": "Errors have been tagged according to their source so you can more easily dispatch and handle them",
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Error",
           "package": "github",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Event",
           "package": "github",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Event",
           "package": "github",
@@ -315,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData describing an \u003ccode\u003eEvent\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "EventType",
           "package": "github",
@@ -324,6 +353,7 @@
         "index": {
           "description": "Data describing an Event",
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "EventType",
           "package": "github",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "File",
           "package": "github",
@@ -345,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "File",
           "package": "github",
@@ -358,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Gist",
           "package": "github",
@@ -366,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Gist",
           "package": "github",
@@ -379,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "GistComment",
           "package": "github",
@@ -387,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "GistComment",
           "package": "github",
@@ -400,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "GistFile",
           "package": "github",
@@ -408,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "GistFile",
           "package": "github",
@@ -421,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "GitCommit",
           "package": "github",
@@ -429,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "GitCommit",
           "package": "github",
@@ -442,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "GitObject",
           "package": "github",
@@ -450,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "GitObject",
           "package": "github",
@@ -463,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "GitReference",
           "package": "github",
@@ -471,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "GitReference",
           "package": "github",
@@ -484,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "GitTree",
           "package": "github",
@@ -492,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "GitTree",
           "package": "github",
@@ -505,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "GitUser",
           "package": "github",
@@ -513,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "GitUser",
           "package": "github",
@@ -527,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA date in the Github format, which is a special case of ISO-8601.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "GithubDate",
           "package": "github",
@@ -536,6 +585,7 @@
         "index": {
           "description": "date in the Github format which is special case of ISO-8601",
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "GithubDate",
           "package": "github",
@@ -549,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "GithubOwner",
           "package": "github",
@@ -557,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "GithubOwner",
           "package": "github",
@@ -570,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Issue",
           "package": "github",
@@ -578,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Issue",
           "package": "github",
@@ -591,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "IssueComment",
           "package": "github",
@@ -599,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "IssueComment",
           "package": "github",
@@ -612,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "IssueLabel",
           "package": "github",
@@ -620,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "IssueLabel",
           "package": "github",
@@ -634,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA programming language with the name and number of characters written in\n it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Language",
           "package": "github",
@@ -643,6 +702,7 @@
         "index": {
           "description": "programming language with the name and number of characters written in it",
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Language",
           "package": "github",
@@ -657,6 +717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is only used for the FromJSON instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Languages",
           "package": "github",
@@ -666,6 +727,7 @@
         "index": {
           "description": "This is only used for the FromJSON instance",
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Languages",
           "package": "github",
@@ -679,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Milestone",
           "package": "github",
@@ -687,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Milestone",
           "package": "github",
@@ -700,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "NewComment",
           "package": "github",
@@ -708,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "NewComment",
           "package": "github",
@@ -721,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "NewIssue",
           "package": "github",
@@ -729,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "NewIssue",
           "package": "github",
@@ -742,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Organization",
           "package": "github",
@@ -750,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Organization",
           "package": "github",
@@ -763,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "PullRequest",
           "package": "github",
@@ -771,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "PullRequest",
           "package": "github",
@@ -784,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "PullRequestCommit",
           "package": "github",
@@ -792,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "PullRequestCommit",
           "package": "github",
@@ -805,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "PullRequestLinks",
           "package": "github",
@@ -813,6 +888,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "PullRequestLinks",
           "package": "github",
@@ -826,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "PullRequestReference",
           "package": "github",
@@ -834,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "PullRequestReference",
           "package": "github",
@@ -847,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Repo",
           "package": "github",
@@ -855,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Repo",
           "package": "github",
@@ -868,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "RepoRef",
           "package": "github",
@@ -876,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "RepoRef",
           "package": "github",
@@ -889,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "SearchReposResult",
           "package": "github",
@@ -897,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "SearchReposResult",
           "package": "github",
@@ -910,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "SimpleOrganization",
           "package": "github",
@@ -918,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "SimpleOrganization",
           "package": "github",
@@ -931,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Stats",
           "package": "github",
@@ -939,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Stats",
           "package": "github",
@@ -952,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Tag",
           "package": "github",
@@ -960,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Tag",
           "package": "github",
@@ -973,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Tree",
           "package": "github",
@@ -981,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Tree",
           "package": "github",
@@ -995,6 +1087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unknown Github user with their number of contributions and recorded name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "AnonymousContributor",
           "package": "github",
@@ -1005,6 +1098,7 @@
         "index": {
           "description": "An unknown Github user with their number of contributions and recorded name",
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "AnonymousContributor",
           "package": "github",
@@ -1019,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe issue was assigned to the actor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Assigned",
           "package": "github",
@@ -1029,6 +1124,7 @@
         "index": {
           "description": "The issue was assigned to the actor",
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Assigned",
           "package": "github",
@@ -1042,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Blob",
           "package": "github",
@@ -1051,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Blob",
           "package": "github",
@@ -1064,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Branch",
           "package": "github",
@@ -1073,6 +1172,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Branch",
           "package": "github",
@@ -1086,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "BranchCommit",
           "package": "github",
@@ -1095,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "BranchCommit",
           "package": "github",
@@ -1109,6 +1211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe issue was closed by the actor. When the commit_id is present, it identifies the commit that closed the issue using &#8220;closes / fixes #NN&#8221; syntax. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Closed",
           "package": "github",
@@ -1119,6 +1222,7 @@
         "index": {
           "description": "The issue was closed by the actor When the commit id is present it identifies the commit that closed the issue using closes fixes NN syntax",
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Closed",
           "package": "github",
@@ -1132,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Comment",
           "package": "github",
@@ -1141,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Comment",
           "package": "github",
@@ -1154,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Commit",
           "package": "github",
@@ -1163,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Commit",
           "package": "github",
@@ -1176,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "DetailedOrganization",
           "package": "github",
@@ -1185,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "DetailedOrganization",
           "package": "github",
@@ -1198,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "DetailedPullRequest",
           "package": "github",
@@ -1207,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "DetailedPullRequest",
           "package": "github",
@@ -1220,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "DetailedUser",
           "package": "github",
@@ -1229,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "DetailedUser",
           "package": "github",
@@ -1242,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Diff",
           "package": "github",
@@ -1251,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Diff",
           "package": "github",
@@ -1264,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "EditComment",
           "package": "github",
@@ -1273,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "EditComment",
           "package": "github",
@@ -1286,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "EditIssue",
           "package": "github",
@@ -1295,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "EditIssue",
           "package": "github",
@@ -1308,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Event",
           "package": "github",
@@ -1317,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Event",
           "package": "github",
@@ -1330,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "File",
           "package": "github",
@@ -1339,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "File",
           "package": "github",
@@ -1352,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Gist",
           "package": "github",
@@ -1361,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Gist",
           "package": "github",
@@ -1374,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "GistComment",
           "package": "github",
@@ -1383,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "GistComment",
           "package": "github",
@@ -1396,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "GistFile",
           "package": "github",
@@ -1405,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "GistFile",
           "package": "github",
@@ -1418,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "GitCommit",
           "package": "github",
@@ -1427,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "GitCommit",
           "package": "github",
@@ -1440,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "GitObject",
           "package": "github",
@@ -1449,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "GitObject",
           "package": "github",
@@ -1462,6 +1596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "GitReference",
           "package": "github",
@@ -1471,6 +1606,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "GitReference",
           "package": "github",
@@ -1484,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "GitTree",
           "package": "github",
@@ -1493,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "GitTree",
           "package": "github",
@@ -1506,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "GitUser",
           "package": "github",
@@ -1515,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "GitUser",
           "package": "github",
@@ -1528,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "GithubDate",
           "package": "github",
@@ -1537,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "GithubDate",
           "package": "github",
@@ -1550,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "GithubOrganization",
           "package": "github",
@@ -1559,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "GithubOrganization",
           "package": "github",
@@ -1572,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "GithubUser",
           "package": "github",
@@ -1581,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "GithubUser",
           "package": "github",
@@ -1595,6 +1741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA HTTP error occurred. The actual caught error is included.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "HTTPConnectionError",
           "package": "github",
@@ -1605,6 +1752,7 @@
         "index": {
           "description": "HTTP error occurred The actual caught error is included",
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "HTTPConnectionError",
           "package": "github",
@@ -1618,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Issue",
           "package": "github",
@@ -1627,6 +1776,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Issue",
           "package": "github",
@@ -1640,6 +1790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "IssueComment",
           "package": "github",
@@ -1649,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "IssueComment",
           "package": "github",
@@ -1662,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "IssueLabel",
           "package": "github",
@@ -1671,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "IssueLabel",
           "package": "github",
@@ -1685,6 +1839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe JSON is malformed or unexpected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "JsonError",
           "package": "github",
@@ -1695,6 +1850,7 @@
         "index": {
           "description": "The JSON is malformed or unexpected",
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "JsonError",
           "package": "github",
@@ -1709,6 +1865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn existing Github user, with their number of contributions, avatar\n URL, login, URL, ID, and Gravatar ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "KnownContributor",
           "package": "github",
@@ -1719,6 +1876,7 @@
         "index": {
           "description": "An existing Github user with their number of contributions avatar URL login URL ID and Gravatar ID",
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "KnownContributor",
           "package": "github",
@@ -1732,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Language",
           "package": "github",
@@ -1741,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Language",
           "package": "github",
@@ -1754,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Languages",
           "package": "github",
@@ -1763,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Languages",
           "package": "github",
@@ -1776,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Mentioned",
           "package": "github",
@@ -1785,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Mentioned",
           "package": "github",
@@ -1799,6 +1963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe issue was merged by the actor. The commit_id attribute is the SHA1 of the HEAD commit that was merged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Merged",
           "package": "github",
@@ -1809,6 +1974,7 @@
         "index": {
           "description": "The issue was merged by the actor The commit id attribute is the SHA1 of the HEAD commit that was merged",
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Merged",
           "package": "github",
@@ -1822,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Milestone",
           "package": "github",
@@ -1831,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Milestone",
           "package": "github",
@@ -1844,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "NewComment",
           "package": "github",
@@ -1853,6 +2022,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "NewComment",
           "package": "github",
@@ -1866,6 +2036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "NewIssue",
           "package": "github",
@@ -1875,6 +2046,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "NewIssue",
           "package": "github",
@@ -1888,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Organization",
           "package": "github",
@@ -1897,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Organization",
           "package": "github",
@@ -1911,6 +2085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error in the parser itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "ParseError",
           "package": "github",
@@ -1921,6 +2096,7 @@
         "index": {
           "description": "An error in the parser itself",
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "ParseError",
           "package": "github",
@@ -1934,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "PullRequest",
           "package": "github",
@@ -1943,6 +2120,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "PullRequest",
           "package": "github",
@@ -1956,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "PullRequestCommit",
           "package": "github",
@@ -1965,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "PullRequestCommit",
           "package": "github",
@@ -1978,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "PullRequestLinks",
           "package": "github",
@@ -1987,6 +2168,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "PullRequestLinks",
           "package": "github",
@@ -2000,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "PullRequestReference",
           "package": "github",
@@ -2009,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "PullRequestReference",
           "package": "github",
@@ -2023,6 +2207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe issue was referenced from a commit message. The commit_id attribute is the commit SHA1 of where that happened.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Referenced",
           "package": "github",
@@ -2033,6 +2218,7 @@
         "index": {
           "description": "The issue was referenced from commit message The commit id attribute is the commit SHA1 of where that happened",
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Referenced",
           "package": "github",
@@ -2047,6 +2233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe issue was reopened by the actor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Reopened",
           "package": "github",
@@ -2057,6 +2244,7 @@
         "index": {
           "description": "The issue was reopened by the actor",
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Reopened",
           "package": "github",
@@ -2070,6 +2258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Repo",
           "package": "github",
@@ -2079,6 +2268,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Repo",
           "package": "github",
@@ -2092,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "RepoRef",
           "package": "github",
@@ -2101,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "RepoRef",
           "package": "github",
@@ -2114,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "SearchReposResult",
           "package": "github",
@@ -2123,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "SearchReposResult",
           "package": "github",
@@ -2136,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "SimpleOrganization",
           "package": "github",
@@ -2145,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "SimpleOrganization",
           "package": "github",
@@ -2158,6 +2354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Stats",
           "package": "github",
@@ -2167,6 +2364,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Stats",
           "package": "github",
@@ -2181,6 +2379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actor subscribed to receive notifications for an issue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Subscribed",
           "package": "github",
@@ -2191,6 +2390,7 @@
         "index": {
           "description": "The actor subscribed to receive notifications for an issue",
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Subscribed",
           "package": "github",
@@ -2204,6 +2404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Tag",
           "package": "github",
@@ -2213,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Tag",
           "package": "github",
@@ -2226,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Tree",
           "package": "github",
@@ -2235,6 +2438,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Tree",
           "package": "github",
@@ -2249,6 +2453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe issue was unsubscribed from by the actor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "Unsubscribed",
           "package": "github",
@@ -2259,6 +2464,7 @@
         "index": {
           "description": "The issue was unsubscribed from by the actor",
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "Unsubscribed",
           "package": "github",
@@ -2273,6 +2479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncorrect input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "UserError",
           "package": "github",
@@ -2283,6 +2490,7 @@
         "index": {
           "description": "Incorrect input",
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "UserError",
           "package": "github",
@@ -2296,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "blobContent",
           "package": "github",
@@ -2305,6 +2514,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "blobContent",
           "package": "github",
@@ -2318,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "blobEncoding",
           "package": "github",
@@ -2327,6 +2538,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "blobEncoding",
           "package": "github",
@@ -2340,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "blobSha",
           "package": "github",
@@ -2349,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "blobSha",
           "package": "github",
@@ -2362,6 +2576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "blobSize",
           "package": "github",
@@ -2371,6 +2586,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "blobSize",
           "package": "github",
@@ -2384,6 +2600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "blobUrl",
           "package": "github",
@@ -2393,6 +2610,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "blobUrl",
           "package": "github",
@@ -2406,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "branchCommit",
           "package": "github",
@@ -2415,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "branchCommit",
           "package": "github",
@@ -2428,6 +2648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "branchCommitSha",
           "package": "github",
@@ -2437,6 +2658,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "branchCommitSha",
           "package": "github",
@@ -2450,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "branchCommitUrl",
           "package": "github",
@@ -2459,6 +2682,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "branchCommitUrl",
           "package": "github",
@@ -2472,6 +2696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "branchName",
           "package": "github",
@@ -2481,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "branchName",
           "package": "github",
@@ -2494,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "commentBody",
           "package": "github",
@@ -2503,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "commentBody",
           "package": "github",
@@ -2516,6 +2744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "commentCommitId",
           "package": "github",
@@ -2525,6 +2754,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "commentCommitId",
           "package": "github",
@@ -2538,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "commentCreatedAt",
           "package": "github",
@@ -2547,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "commentCreatedAt",
           "package": "github",
@@ -2560,6 +2792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "commentHtmlUrl",
           "package": "github",
@@ -2569,6 +2802,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "commentHtmlUrl",
           "package": "github",
@@ -2582,6 +2816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "commentId",
           "package": "github",
@@ -2591,6 +2826,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "commentId",
           "package": "github",
@@ -2604,6 +2840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "commentLine",
           "package": "github",
@@ -2613,6 +2850,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "commentLine",
           "package": "github",
@@ -2626,6 +2864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "commentPath",
           "package": "github",
@@ -2635,6 +2874,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "commentPath",
           "package": "github",
@@ -2648,6 +2888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "commentPosition",
           "package": "github",
@@ -2657,6 +2898,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "commentPosition",
           "package": "github",
@@ -2670,6 +2912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "commentUpdatedAt",
           "package": "github",
@@ -2679,6 +2922,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "commentUpdatedAt",
           "package": "github",
@@ -2692,6 +2936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "commentUrl",
           "package": "github",
@@ -2701,6 +2946,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "commentUrl",
           "package": "github",
@@ -2714,6 +2960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "commentUser",
           "package": "github",
@@ -2723,6 +2970,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "commentUser",
           "package": "github",
@@ -2736,6 +2984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "commitAuthor",
           "package": "github",
@@ -2745,6 +2994,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "commitAuthor",
           "package": "github",
@@ -2758,6 +3008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "commitCommitter",
           "package": "github",
@@ -2767,6 +3018,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "commitCommitter",
           "package": "github",
@@ -2780,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "commitFiles",
           "package": "github",
@@ -2789,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "commitFiles",
           "normalized": "[File]",
@@ -2804,6 +3058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "commitGitCommit",
           "package": "github",
@@ -2813,6 +3068,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "commitGitCommit",
           "package": "github",
@@ -2826,6 +3082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "commitParents",
           "package": "github",
@@ -2835,6 +3092,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "commitParents",
           "normalized": "[Tree]",
@@ -2850,6 +3108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "commitSha",
           "package": "github",
@@ -2859,6 +3118,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "commitSha",
           "package": "github",
@@ -2872,6 +3132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "commitStats",
           "package": "github",
@@ -2881,6 +3142,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "commitStats",
           "package": "github",
@@ -2894,6 +3156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "commitUrl",
           "package": "github",
@@ -2903,6 +3166,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "commitUrl",
           "package": "github",
@@ -2916,6 +3180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerAvatarUrl",
           "package": "github",
@@ -2925,6 +3190,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerAvatarUrl",
           "package": "github",
@@ -2938,6 +3204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerBio",
           "package": "github",
@@ -2947,6 +3214,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerBio",
           "package": "github",
@@ -2960,6 +3228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerBlog",
           "package": "github",
@@ -2969,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerBlog",
           "package": "github",
@@ -2982,6 +3252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerCompany",
           "package": "github",
@@ -2991,6 +3262,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerCompany",
           "package": "github",
@@ -3004,6 +3276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerCreatedAt",
           "package": "github",
@@ -3013,6 +3286,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerCreatedAt",
           "package": "github",
@@ -3026,6 +3300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerEmail",
           "package": "github",
@@ -3035,6 +3310,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerEmail",
           "package": "github",
@@ -3048,6 +3324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerFollowers",
           "package": "github",
@@ -3057,6 +3334,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerFollowers",
           "package": "github",
@@ -3070,6 +3348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerFollowing",
           "package": "github",
@@ -3079,6 +3358,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerFollowing",
           "package": "github",
@@ -3092,6 +3372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerGravatarId",
           "package": "github",
@@ -3101,6 +3382,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerGravatarId",
           "package": "github",
@@ -3114,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerHireable",
           "package": "github",
@@ -3123,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerHireable",
           "package": "github",
@@ -3136,6 +3420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerHtmlUrl",
           "package": "github",
@@ -3145,6 +3430,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerHtmlUrl",
           "package": "github",
@@ -3158,6 +3444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerId",
           "package": "github",
@@ -3167,6 +3454,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerId",
           "package": "github",
@@ -3180,6 +3468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerLocation",
           "package": "github",
@@ -3189,6 +3478,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerLocation",
           "package": "github",
@@ -3202,6 +3492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerLogin",
           "package": "github",
@@ -3211,6 +3502,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerLogin",
           "package": "github",
@@ -3224,6 +3516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerName",
           "package": "github",
@@ -3233,6 +3526,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerName",
           "package": "github",
@@ -3246,6 +3540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerPublicGists",
           "package": "github",
@@ -3255,6 +3550,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerPublicGists",
           "package": "github",
@@ -3268,6 +3564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerPublicRepos",
           "package": "github",
@@ -3277,6 +3574,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerPublicRepos",
           "package": "github",
@@ -3290,6 +3588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerType",
           "package": "github",
@@ -3299,6 +3598,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerType",
           "package": "github",
@@ -3312,6 +3612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerUrl",
           "package": "github",
@@ -3321,6 +3622,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedOwnerUrl",
           "package": "github",
@@ -3334,6 +3636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestAdditions",
           "package": "github",
@@ -3343,6 +3646,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestAdditions",
           "package": "github",
@@ -3356,6 +3660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestBase",
           "package": "github",
@@ -3365,6 +3670,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestBase",
           "package": "github",
@@ -3378,6 +3684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestBody",
           "package": "github",
@@ -3387,6 +3694,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestBody",
           "package": "github",
@@ -3400,6 +3708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestChangedFiles",
           "package": "github",
@@ -3409,6 +3718,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestChangedFiles",
           "package": "github",
@@ -3422,6 +3732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestClosedAt",
           "package": "github",
@@ -3431,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestClosedAt",
           "package": "github",
@@ -3444,6 +3756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestComments",
           "package": "github",
@@ -3453,6 +3766,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestComments",
           "package": "github",
@@ -3466,6 +3780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestCommits",
           "package": "github",
@@ -3475,6 +3790,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestCommits",
           "package": "github",
@@ -3488,6 +3804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestCreatedAt",
           "package": "github",
@@ -3497,6 +3814,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestCreatedAt",
           "package": "github",
@@ -3510,6 +3828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestDeletions",
           "package": "github",
@@ -3519,6 +3838,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestDeletions",
           "package": "github",
@@ -3532,6 +3852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestDiffUrl",
           "package": "github",
@@ -3541,6 +3862,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestDiffUrl",
           "package": "github",
@@ -3554,6 +3876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestHead",
           "package": "github",
@@ -3563,6 +3886,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestHead",
           "package": "github",
@@ -3576,6 +3900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestHtmlUrl",
           "package": "github",
@@ -3585,6 +3910,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestHtmlUrl",
           "package": "github",
@@ -3598,6 +3924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestId",
           "package": "github",
@@ -3607,6 +3934,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestId",
           "package": "github",
@@ -3620,6 +3948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestIssueUrl",
           "package": "github",
@@ -3629,6 +3958,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestIssueUrl",
           "package": "github",
@@ -3642,6 +3972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestLinks",
           "package": "github",
@@ -3651,6 +3982,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestLinks",
           "package": "github",
@@ -3664,6 +3996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestMergeable",
           "package": "github",
@@ -3673,6 +4006,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestMergeable",
           "package": "github",
@@ -3686,6 +4020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestMerged",
           "package": "github",
@@ -3695,6 +4030,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestMerged",
           "package": "github",
@@ -3708,6 +4044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestMergedAt",
           "package": "github",
@@ -3717,6 +4054,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestMergedAt",
           "package": "github",
@@ -3730,6 +4068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestMergedBy",
           "package": "github",
@@ -3739,6 +4078,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestMergedBy",
           "package": "github",
@@ -3752,6 +4092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestNumber",
           "package": "github",
@@ -3761,6 +4102,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestNumber",
           "package": "github",
@@ -3774,6 +4116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestPatchUrl",
           "package": "github",
@@ -3783,6 +4126,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestPatchUrl",
           "package": "github",
@@ -3796,6 +4140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestReviewComments",
           "package": "github",
@@ -3805,6 +4150,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestReviewComments",
           "package": "github",
@@ -3818,6 +4164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestState",
           "package": "github",
@@ -3827,6 +4174,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestState",
           "package": "github",
@@ -3840,6 +4188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestTitle",
           "package": "github",
@@ -3849,6 +4198,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestTitle",
           "package": "github",
@@ -3862,6 +4212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestUpdatedAt",
           "package": "github",
@@ -3871,6 +4222,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestUpdatedAt",
           "package": "github",
@@ -3884,6 +4236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestUrl",
           "package": "github",
@@ -3893,6 +4246,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestUrl",
           "package": "github",
@@ -3906,6 +4260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestUser",
           "package": "github",
@@ -3915,6 +4270,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "detailedPullRequestUser",
           "package": "github",
@@ -3928,6 +4284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "diffAheadBy",
           "package": "github",
@@ -3937,6 +4294,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "diffAheadBy",
           "package": "github",
@@ -3950,6 +4308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "diffBaseCommit",
           "package": "github",
@@ -3959,6 +4318,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "diffBaseCommit",
           "package": "github",
@@ -3972,6 +4332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "diffBehindBy",
           "package": "github",
@@ -3981,6 +4342,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "diffBehindBy",
           "package": "github",
@@ -3994,6 +4356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "diffCommits",
           "package": "github",
@@ -4003,6 +4366,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "diffCommits",
           "normalized": "[Commit]",
@@ -4018,6 +4382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "diffDiffUrl",
           "package": "github",
@@ -4027,6 +4392,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "diffDiffUrl",
           "package": "github",
@@ -4040,6 +4406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "diffFiles",
           "package": "github",
@@ -4049,6 +4416,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "diffFiles",
           "normalized": "[File]",
@@ -4064,6 +4432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "diffHtmlUrl",
           "package": "github",
@@ -4073,6 +4442,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "diffHtmlUrl",
           "package": "github",
@@ -4086,6 +4456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "diffPatchUrl",
           "package": "github",
@@ -4095,6 +4466,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "diffPatchUrl",
           "package": "github",
@@ -4108,6 +4480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "diffPermalinkUrl",
           "package": "github",
@@ -4117,6 +4490,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "diffPermalinkUrl",
           "package": "github",
@@ -4130,6 +4504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "diffStatus",
           "package": "github",
@@ -4139,6 +4514,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "diffStatus",
           "package": "github",
@@ -4152,6 +4528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "diffTotalCommits",
           "package": "github",
@@ -4161,6 +4538,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "diffTotalCommits",
           "package": "github",
@@ -4174,6 +4552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "diffUrl",
           "package": "github",
@@ -4183,6 +4562,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "diffUrl",
           "package": "github",
@@ -4196,6 +4576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "editCommentBody",
           "package": "github",
@@ -4205,6 +4586,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "editCommentBody",
           "package": "github",
@@ -4218,6 +4600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "editIssueAssignee",
           "package": "github",
@@ -4227,6 +4610,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "editIssueAssignee",
           "package": "github",
@@ -4240,6 +4624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "editIssueBody",
           "package": "github",
@@ -4249,6 +4634,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "editIssueBody",
           "package": "github",
@@ -4262,6 +4648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "editIssueLabels",
           "package": "github",
@@ -4271,6 +4658,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "editIssueLabels",
           "normalized": "Maybe[String]",
@@ -4286,6 +4674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "editIssueMilestone",
           "package": "github",
@@ -4295,6 +4684,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "editIssueMilestone",
           "package": "github",
@@ -4308,6 +4698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "editIssueState",
           "package": "github",
@@ -4317,6 +4708,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "editIssueState",
           "package": "github",
@@ -4330,6 +4722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "editIssueTitle",
           "package": "github",
@@ -4339,6 +4732,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "editIssueTitle",
           "package": "github",
@@ -4352,6 +4746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "eventActor",
           "package": "github",
@@ -4361,6 +4756,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "eventActor",
           "package": "github",
@@ -4374,6 +4770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "eventCommitId",
           "package": "github",
@@ -4383,6 +4780,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "eventCommitId",
           "package": "github",
@@ -4396,6 +4794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "eventCreatedAt",
           "package": "github",
@@ -4405,6 +4804,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "eventCreatedAt",
           "package": "github",
@@ -4418,6 +4818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "eventId",
           "package": "github",
@@ -4427,6 +4828,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "eventId",
           "package": "github",
@@ -4440,6 +4842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "eventIssue",
           "package": "github",
@@ -4449,6 +4852,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "eventIssue",
           "package": "github",
@@ -4462,6 +4866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "eventType",
           "package": "github",
@@ -4471,6 +4876,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "eventType",
           "package": "github",
@@ -4484,6 +4890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "eventUrl",
           "package": "github",
@@ -4493,6 +4900,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "eventUrl",
           "package": "github",
@@ -4506,6 +4914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "fileAdditions",
           "package": "github",
@@ -4515,6 +4924,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "fileAdditions",
           "package": "github",
@@ -4528,6 +4938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "fileBlobUrl",
           "package": "github",
@@ -4537,6 +4948,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "fileBlobUrl",
           "package": "github",
@@ -4550,6 +4962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "fileChanges",
           "package": "github",
@@ -4559,6 +4972,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "fileChanges",
           "package": "github",
@@ -4572,6 +4986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "fileDeletions",
           "package": "github",
@@ -4581,6 +4996,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "fileDeletions",
           "package": "github",
@@ -4594,6 +5010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "fileFilename",
           "package": "github",
@@ -4603,6 +5020,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "fileFilename",
           "package": "github",
@@ -4616,6 +5034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "filePatch",
           "package": "github",
@@ -4625,6 +5044,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "filePatch",
           "package": "github",
@@ -4638,6 +5058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "fileRawUrl",
           "package": "github",
@@ -4647,6 +5068,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "fileRawUrl",
           "package": "github",
@@ -4660,6 +5082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "fileSha",
           "package": "github",
@@ -4669,6 +5092,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "fileSha",
           "package": "github",
@@ -4682,6 +5106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "fileStatus",
           "package": "github",
@@ -4691,6 +5116,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "fileStatus",
           "package": "github",
@@ -4704,6 +5130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "fromGithubDate",
           "package": "github",
@@ -4713,6 +5140,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "fromGithubDate",
           "package": "github",
@@ -4726,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "getLanguages",
           "package": "github",
@@ -4735,6 +5164,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "getLanguages",
           "normalized": "[Language]",
@@ -4750,6 +5180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistCommentBody",
           "package": "github",
@@ -4759,6 +5190,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistCommentBody",
           "package": "github",
@@ -4772,6 +5204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistCommentCreatedAt",
           "package": "github",
@@ -4781,6 +5214,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistCommentCreatedAt",
           "package": "github",
@@ -4794,6 +5228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistCommentId",
           "package": "github",
@@ -4803,6 +5238,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistCommentId",
           "package": "github",
@@ -4816,6 +5252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistCommentUpdatedAt",
           "package": "github",
@@ -4825,6 +5262,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistCommentUpdatedAt",
           "package": "github",
@@ -4838,6 +5276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistCommentUrl",
           "package": "github",
@@ -4847,6 +5286,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistCommentUrl",
           "package": "github",
@@ -4860,6 +5300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistCommentUser",
           "package": "github",
@@ -4869,6 +5310,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistCommentUser",
           "package": "github",
@@ -4882,6 +5324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistComments",
           "package": "github",
@@ -4891,6 +5334,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistComments",
           "package": "github",
@@ -4904,6 +5348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistCreatedAt",
           "package": "github",
@@ -4913,6 +5358,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistCreatedAt",
           "package": "github",
@@ -4926,6 +5372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistDescription",
           "package": "github",
@@ -4935,6 +5382,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistDescription",
           "package": "github",
@@ -4948,6 +5396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistFileContent",
           "package": "github",
@@ -4957,6 +5406,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistFileContent",
           "package": "github",
@@ -4970,6 +5420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistFileFilename",
           "package": "github",
@@ -4979,6 +5430,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistFileFilename",
           "package": "github",
@@ -4992,6 +5444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistFileLanguage",
           "package": "github",
@@ -5001,6 +5454,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistFileLanguage",
           "package": "github",
@@ -5014,6 +5468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistFileRawUrl",
           "package": "github",
@@ -5023,6 +5478,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistFileRawUrl",
           "package": "github",
@@ -5036,6 +5492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistFileSize",
           "package": "github",
@@ -5045,6 +5502,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistFileSize",
           "package": "github",
@@ -5058,6 +5516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistFileType",
           "package": "github",
@@ -5067,6 +5526,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistFileType",
           "package": "github",
@@ -5080,6 +5540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistFiles",
           "package": "github",
@@ -5089,6 +5550,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistFiles",
           "normalized": "[GistFile]",
@@ -5104,6 +5566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistGitPullUrl",
           "package": "github",
@@ -5113,6 +5576,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistGitPullUrl",
           "package": "github",
@@ -5126,6 +5590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistGitPushUrl",
           "package": "github",
@@ -5135,6 +5600,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistGitPushUrl",
           "package": "github",
@@ -5148,6 +5614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistHtmlUrl",
           "package": "github",
@@ -5157,6 +5624,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistHtmlUrl",
           "package": "github",
@@ -5170,6 +5638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistId",
           "package": "github",
@@ -5179,6 +5648,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistId",
           "package": "github",
@@ -5192,6 +5662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistPublic",
           "package": "github",
@@ -5201,6 +5672,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistPublic",
           "package": "github",
@@ -5214,6 +5686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistUpdatedAt",
           "package": "github",
@@ -5223,6 +5696,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistUpdatedAt",
           "package": "github",
@@ -5236,6 +5710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistUrl",
           "package": "github",
@@ -5245,6 +5720,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistUrl",
           "package": "github",
@@ -5258,6 +5734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gistUser",
           "package": "github",
@@ -5267,6 +5744,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gistUser",
           "package": "github",
@@ -5280,6 +5758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitCommitAuthor",
           "package": "github",
@@ -5289,6 +5768,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitCommitAuthor",
           "package": "github",
@@ -5302,6 +5782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitCommitCommitter",
           "package": "github",
@@ -5311,6 +5792,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitCommitCommitter",
           "package": "github",
@@ -5324,6 +5806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitCommitMessage",
           "package": "github",
@@ -5333,6 +5816,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitCommitMessage",
           "package": "github",
@@ -5346,6 +5830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitCommitParents",
           "package": "github",
@@ -5355,6 +5840,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitCommitParents",
           "normalized": "[Tree]",
@@ -5370,6 +5856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitCommitSha",
           "package": "github",
@@ -5379,6 +5866,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitCommitSha",
           "package": "github",
@@ -5392,6 +5880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitCommitTree",
           "package": "github",
@@ -5401,6 +5890,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitCommitTree",
           "package": "github",
@@ -5414,6 +5904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitCommitUrl",
           "package": "github",
@@ -5423,6 +5914,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitCommitUrl",
           "package": "github",
@@ -5436,6 +5928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitObjectSha",
           "package": "github",
@@ -5445,6 +5938,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitObjectSha",
           "package": "github",
@@ -5458,6 +5952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitObjectType",
           "package": "github",
@@ -5467,6 +5962,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitObjectType",
           "package": "github",
@@ -5480,6 +5976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitObjectUrl",
           "package": "github",
@@ -5489,6 +5986,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitObjectUrl",
           "package": "github",
@@ -5502,6 +6000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitReferenceObject",
           "package": "github",
@@ -5511,6 +6010,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitReferenceObject",
           "package": "github",
@@ -5524,6 +6024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitReferenceRef",
           "package": "github",
@@ -5533,6 +6034,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitReferenceRef",
           "package": "github",
@@ -5546,6 +6048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitReferenceUrl",
           "package": "github",
@@ -5555,6 +6058,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitReferenceUrl",
           "package": "github",
@@ -5568,6 +6072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitTreeMode",
           "package": "github",
@@ -5577,6 +6082,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitTreeMode",
           "package": "github",
@@ -5590,6 +6096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitTreePath",
           "package": "github",
@@ -5599,6 +6106,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitTreePath",
           "package": "github",
@@ -5612,6 +6120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitTreeSha",
           "package": "github",
@@ -5621,6 +6130,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitTreeSha",
           "package": "github",
@@ -5634,6 +6144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitTreeSize",
           "package": "github",
@@ -5643,6 +6154,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitTreeSize",
           "package": "github",
@@ -5656,6 +6168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitTreeType",
           "package": "github",
@@ -5665,6 +6178,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitTreeType",
           "package": "github",
@@ -5678,6 +6192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitTreeUrl",
           "package": "github",
@@ -5687,6 +6202,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitTreeUrl",
           "package": "github",
@@ -5700,6 +6216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitUserDate",
           "package": "github",
@@ -5709,6 +6226,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitUserDate",
           "package": "github",
@@ -5722,6 +6240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitUserEmail",
           "package": "github",
@@ -5731,6 +6250,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitUserEmail",
           "package": "github",
@@ -5744,6 +6264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "gitUserName",
           "package": "github",
@@ -5753,6 +6274,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "gitUserName",
           "package": "github",
@@ -5766,6 +6288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "githubOwnerAvatarUrl",
           "package": "github",
@@ -5775,6 +6298,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "githubOwnerAvatarUrl",
           "package": "github",
@@ -5788,6 +6312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "githubOwnerGravatarId",
           "package": "github",
@@ -5797,6 +6322,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "githubOwnerGravatarId",
           "package": "github",
@@ -5810,6 +6336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "githubOwnerId",
           "package": "github",
@@ -5819,6 +6346,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "githubOwnerId",
           "package": "github",
@@ -5832,6 +6360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "githubOwnerLogin",
           "package": "github",
@@ -5841,6 +6370,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "githubOwnerLogin",
           "package": "github",
@@ -5854,6 +6384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "githubOwnerUrl",
           "package": "github",
@@ -5863,6 +6394,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "githubOwnerUrl",
           "package": "github",
@@ -5876,6 +6408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueAssignee",
           "package": "github",
@@ -5885,6 +6418,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueAssignee",
           "package": "github",
@@ -5898,6 +6432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueBody",
           "package": "github",
@@ -5907,6 +6442,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueBody",
           "package": "github",
@@ -5920,6 +6456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueClosedAt",
           "package": "github",
@@ -5929,6 +6466,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueClosedAt",
           "package": "github",
@@ -5942,6 +6480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueClosedBy",
           "package": "github",
@@ -5951,6 +6490,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueClosedBy",
           "package": "github",
@@ -5964,6 +6504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueCommentBody",
           "package": "github",
@@ -5973,6 +6514,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueCommentBody",
           "package": "github",
@@ -5986,6 +6528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueCommentCreatedAt",
           "package": "github",
@@ -5995,6 +6538,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueCommentCreatedAt",
           "package": "github",
@@ -6008,6 +6552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueCommentId",
           "package": "github",
@@ -6017,6 +6562,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueCommentId",
           "package": "github",
@@ -6030,6 +6576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueCommentUpdatedAt",
           "package": "github",
@@ -6039,6 +6586,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueCommentUpdatedAt",
           "package": "github",
@@ -6052,6 +6600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueCommentUrl",
           "package": "github",
@@ -6061,6 +6610,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueCommentUrl",
           "package": "github",
@@ -6074,6 +6624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueCommentUser",
           "package": "github",
@@ -6083,6 +6634,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueCommentUser",
           "package": "github",
@@ -6096,6 +6648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueComments",
           "package": "github",
@@ -6105,6 +6658,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueComments",
           "package": "github",
@@ -6118,6 +6672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueCreatedAt",
           "package": "github",
@@ -6127,6 +6682,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueCreatedAt",
           "package": "github",
@@ -6140,6 +6696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueHtmlUrl",
           "package": "github",
@@ -6149,6 +6706,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueHtmlUrl",
           "package": "github",
@@ -6162,6 +6720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueId",
           "package": "github",
@@ -6171,6 +6730,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueId",
           "package": "github",
@@ -6184,6 +6744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueLabels",
           "package": "github",
@@ -6193,6 +6754,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueLabels",
           "normalized": "[IssueLabel]",
@@ -6208,6 +6770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueMilestone",
           "package": "github",
@@ -6217,6 +6780,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueMilestone",
           "package": "github",
@@ -6230,6 +6794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueNumber",
           "package": "github",
@@ -6239,6 +6804,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueNumber",
           "package": "github",
@@ -6252,6 +6818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issuePullRequest",
           "package": "github",
@@ -6261,6 +6828,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issuePullRequest",
           "package": "github",
@@ -6274,6 +6842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueState",
           "package": "github",
@@ -6283,6 +6852,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueState",
           "package": "github",
@@ -6296,6 +6866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueTitle",
           "package": "github",
@@ -6305,6 +6876,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueTitle",
           "package": "github",
@@ -6318,6 +6890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueUpdatedAt",
           "package": "github",
@@ -6327,6 +6900,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueUpdatedAt",
           "package": "github",
@@ -6340,6 +6914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueUrl",
           "package": "github",
@@ -6349,6 +6924,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueUrl",
           "package": "github",
@@ -6362,6 +6938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "issueUser",
           "package": "github",
@@ -6371,6 +6948,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "issueUser",
           "package": "github",
@@ -6384,6 +6962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "labelColor",
           "package": "github",
@@ -6393,6 +6972,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "labelColor",
           "package": "github",
@@ -6406,6 +6986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "labelName",
           "package": "github",
@@ -6415,6 +6996,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "labelName",
           "package": "github",
@@ -6428,6 +7010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "labelUrl",
           "package": "github",
@@ -6437,6 +7020,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "labelUrl",
           "package": "github",
@@ -6450,6 +7034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "milestoneClosedIssues",
           "package": "github",
@@ -6459,6 +7044,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "milestoneClosedIssues",
           "package": "github",
@@ -6472,6 +7058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "milestoneCreatedAt",
           "package": "github",
@@ -6481,6 +7068,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "milestoneCreatedAt",
           "package": "github",
@@ -6494,6 +7082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "milestoneCreator",
           "package": "github",
@@ -6503,6 +7092,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "milestoneCreator",
           "package": "github",
@@ -6516,6 +7106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "milestoneDescription",
           "package": "github",
@@ -6525,6 +7116,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "milestoneDescription",
           "package": "github",
@@ -6538,6 +7130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "milestoneDueOn",
           "package": "github",
@@ -6547,6 +7140,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "milestoneDueOn",
           "package": "github",
@@ -6560,6 +7154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "milestoneNumber",
           "package": "github",
@@ -6569,6 +7164,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "milestoneNumber",
           "package": "github",
@@ -6582,6 +7178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "milestoneOpenIssues",
           "package": "github",
@@ -6591,6 +7188,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "milestoneOpenIssues",
           "package": "github",
@@ -6604,6 +7202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "milestoneState",
           "package": "github",
@@ -6613,6 +7212,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "milestoneState",
           "package": "github",
@@ -6626,6 +7226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "milestoneTitle",
           "package": "github",
@@ -6635,6 +7236,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "milestoneTitle",
           "package": "github",
@@ -6648,6 +7250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "milestoneUrl",
           "package": "github",
@@ -6657,6 +7260,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "milestoneUrl",
           "package": "github",
@@ -6670,6 +7274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "newCommentBody",
           "package": "github",
@@ -6679,6 +7284,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "newCommentBody",
           "package": "github",
@@ -6692,6 +7298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "newIssueAssignee",
           "package": "github",
@@ -6701,6 +7308,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "newIssueAssignee",
           "package": "github",
@@ -6714,6 +7322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "newIssueBody",
           "package": "github",
@@ -6723,6 +7332,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "newIssueBody",
           "package": "github",
@@ -6736,6 +7346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "newIssueLabels",
           "package": "github",
@@ -6745,6 +7356,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "newIssueLabels",
           "normalized": "Maybe[String]",
@@ -6760,6 +7372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "newIssueMilestone",
           "package": "github",
@@ -6769,6 +7382,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "newIssueMilestone",
           "package": "github",
@@ -6782,6 +7396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "newIssueTitle",
           "package": "github",
@@ -6791,6 +7406,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "newIssueTitle",
           "package": "github",
@@ -6804,6 +7420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "organizationAvatarUrl",
           "package": "github",
@@ -6813,6 +7430,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "organizationAvatarUrl",
           "package": "github",
@@ -6826,6 +7444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "organizationBlog",
           "package": "github",
@@ -6835,6 +7454,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "organizationBlog",
           "package": "github",
@@ -6848,6 +7468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "organizationCompany",
           "package": "github",
@@ -6857,6 +7478,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "organizationCompany",
           "package": "github",
@@ -6870,6 +7492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "organizationCreatedAt",
           "package": "github",
@@ -6879,6 +7502,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "organizationCreatedAt",
           "package": "github",
@@ -6892,6 +7516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "organizationEmail",
           "package": "github",
@@ -6901,6 +7526,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "organizationEmail",
           "package": "github",
@@ -6914,6 +7540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "organizationFollowers",
           "package": "github",
@@ -6923,6 +7550,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "organizationFollowers",
           "package": "github",
@@ -6936,6 +7564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "organizationFollowing",
           "package": "github",
@@ -6945,6 +7574,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "organizationFollowing",
           "package": "github",
@@ -6958,6 +7588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "organizationHtmlUrl",
           "package": "github",
@@ -6967,6 +7598,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "organizationHtmlUrl",
           "package": "github",
@@ -6980,6 +7612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "organizationId",
           "package": "github",
@@ -6989,6 +7622,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "organizationId",
           "package": "github",
@@ -7002,6 +7636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "organizationLocation",
           "package": "github",
@@ -7011,6 +7646,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "organizationLocation",
           "package": "github",
@@ -7024,6 +7660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "organizationLogin",
           "package": "github",
@@ -7033,6 +7670,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "organizationLogin",
           "package": "github",
@@ -7046,6 +7684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "organizationName",
           "package": "github",
@@ -7055,6 +7694,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "organizationName",
           "package": "github",
@@ -7068,6 +7708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "organizationPublicGists",
           "package": "github",
@@ -7077,6 +7718,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "organizationPublicGists",
           "package": "github",
@@ -7090,6 +7732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "organizationPublicRepos",
           "package": "github",
@@ -7099,6 +7742,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "organizationPublicRepos",
           "package": "github",
@@ -7112,6 +7756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "organizationType",
           "package": "github",
@@ -7121,6 +7766,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "organizationType",
           "package": "github",
@@ -7134,6 +7780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "organizationUrl",
           "package": "github",
@@ -7143,6 +7790,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "organizationUrl",
           "package": "github",
@@ -7156,6 +7804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestBody",
           "package": "github",
@@ -7165,6 +7814,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestBody",
           "package": "github",
@@ -7178,6 +7828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestClosedAt",
           "package": "github",
@@ -7187,6 +7838,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestClosedAt",
           "package": "github",
@@ -7200,6 +7852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestCreatedAt",
           "package": "github",
@@ -7209,6 +7862,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestCreatedAt",
           "package": "github",
@@ -7222,6 +7876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestDiffUrl",
           "package": "github",
@@ -7231,6 +7886,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestDiffUrl",
           "package": "github",
@@ -7244,6 +7900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestHtmlUrl",
           "package": "github",
@@ -7253,6 +7910,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestHtmlUrl",
           "package": "github",
@@ -7266,6 +7924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestId",
           "package": "github",
@@ -7275,6 +7934,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestId",
           "package": "github",
@@ -7288,6 +7948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestIssueUrl",
           "package": "github",
@@ -7297,6 +7958,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestIssueUrl",
           "package": "github",
@@ -7310,6 +7972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestLinks",
           "package": "github",
@@ -7319,6 +7982,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestLinks",
           "package": "github",
@@ -7332,6 +7996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestLinksComments",
           "package": "github",
@@ -7341,6 +8006,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestLinksComments",
           "package": "github",
@@ -7354,6 +8020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestLinksHtml",
           "package": "github",
@@ -7363,6 +8030,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestLinksHtml",
           "package": "github",
@@ -7376,6 +8044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestLinksReviewComments",
           "package": "github",
@@ -7385,6 +8054,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestLinksReviewComments",
           "package": "github",
@@ -7398,6 +8068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestLinksSelf",
           "package": "github",
@@ -7407,6 +8078,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestLinksSelf",
           "package": "github",
@@ -7420,6 +8092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestMergedAt",
           "package": "github",
@@ -7429,6 +8102,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestMergedAt",
           "package": "github",
@@ -7442,6 +8116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestNumber",
           "package": "github",
@@ -7451,6 +8126,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestNumber",
           "package": "github",
@@ -7464,6 +8140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestPatchUrl",
           "package": "github",
@@ -7473,6 +8150,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestPatchUrl",
           "package": "github",
@@ -7486,6 +8164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestReferenceDiffUrl",
           "package": "github",
@@ -7495,6 +8174,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestReferenceDiffUrl",
           "package": "github",
@@ -7508,6 +8188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestReferenceHtmlUrl",
           "package": "github",
@@ -7517,6 +8198,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestReferenceHtmlUrl",
           "package": "github",
@@ -7530,6 +8212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestReferencePatchUrl",
           "package": "github",
@@ -7539,6 +8222,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestReferencePatchUrl",
           "package": "github",
@@ -7552,6 +8236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestState",
           "package": "github",
@@ -7561,6 +8246,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestState",
           "package": "github",
@@ -7574,6 +8260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestTitle",
           "package": "github",
@@ -7583,6 +8270,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestTitle",
           "package": "github",
@@ -7596,6 +8284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestUpdatedAt",
           "package": "github",
@@ -7605,6 +8294,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestUpdatedAt",
           "package": "github",
@@ -7618,6 +8308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestUrl",
           "package": "github",
@@ -7627,6 +8318,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestUrl",
           "package": "github",
@@ -7640,6 +8332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "pullRequestUser",
           "package": "github",
@@ -7649,6 +8342,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "pullRequestUser",
           "package": "github",
@@ -7662,6 +8356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoCloneUrl",
           "package": "github",
@@ -7671,6 +8366,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoCloneUrl",
           "package": "github",
@@ -7684,6 +8380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoCreatedAt",
           "package": "github",
@@ -7693,6 +8390,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoCreatedAt",
           "package": "github",
@@ -7706,6 +8404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoDescription",
           "package": "github",
@@ -7715,6 +8414,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoDescription",
           "package": "github",
@@ -7728,6 +8428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoFork",
           "package": "github",
@@ -7737,6 +8438,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoFork",
           "package": "github",
@@ -7750,6 +8452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoForks",
           "package": "github",
@@ -7759,6 +8462,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoForks",
           "package": "github",
@@ -7772,6 +8476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoGitUrl",
           "package": "github",
@@ -7781,6 +8486,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoGitUrl",
           "package": "github",
@@ -7794,6 +8500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoHasDownloads",
           "package": "github",
@@ -7803,6 +8510,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoHasDownloads",
           "package": "github",
@@ -7816,6 +8524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoHasIssues",
           "package": "github",
@@ -7825,6 +8534,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoHasIssues",
           "package": "github",
@@ -7838,6 +8548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoHasWiki",
           "package": "github",
@@ -7847,6 +8558,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoHasWiki",
           "package": "github",
@@ -7860,6 +8572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoHomepage",
           "package": "github",
@@ -7869,6 +8582,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoHomepage",
           "package": "github",
@@ -7882,6 +8596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoHtmlUrl",
           "package": "github",
@@ -7891,6 +8606,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoHtmlUrl",
           "package": "github",
@@ -7904,6 +8620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoId",
           "package": "github",
@@ -7913,6 +8630,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoId",
           "package": "github",
@@ -7926,6 +8644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoLanguage",
           "package": "github",
@@ -7935,6 +8654,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoLanguage",
           "package": "github",
@@ -7948,6 +8668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoMasterBranch",
           "package": "github",
@@ -7957,6 +8678,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoMasterBranch",
           "package": "github",
@@ -7970,6 +8692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoName",
           "package": "github",
@@ -7979,6 +8702,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoName",
           "package": "github",
@@ -7992,6 +8716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoOpenIssues",
           "package": "github",
@@ -8001,6 +8726,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoOpenIssues",
           "package": "github",
@@ -8014,6 +8740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoOwner",
           "package": "github",
@@ -8023,6 +8750,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoOwner",
           "package": "github",
@@ -8036,6 +8764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoParent",
           "package": "github",
@@ -8045,6 +8774,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoParent",
           "package": "github",
@@ -8058,6 +8788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoPrivate",
           "package": "github",
@@ -8067,6 +8798,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoPrivate",
           "package": "github",
@@ -8081,6 +8813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis is Nothing for new repositories\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoPushedAt",
           "package": "github",
@@ -8091,6 +8824,7 @@
         "index": {
           "description": "this is Nothing for new repositories",
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoPushedAt",
           "package": "github",
@@ -8104,6 +8838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoSize",
           "package": "github",
@@ -8113,6 +8848,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoSize",
           "package": "github",
@@ -8126,6 +8862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoSource",
           "package": "github",
@@ -8135,6 +8872,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoSource",
           "package": "github",
@@ -8148,6 +8886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoSshUrl",
           "package": "github",
@@ -8157,6 +8896,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoSshUrl",
           "package": "github",
@@ -8170,6 +8910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoSvnUrl",
           "package": "github",
@@ -8179,6 +8920,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoSvnUrl",
           "package": "github",
@@ -8192,6 +8934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoUpdatedAt",
           "package": "github",
@@ -8201,6 +8944,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoUpdatedAt",
           "package": "github",
@@ -8214,6 +8958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoUrl",
           "package": "github",
@@ -8223,6 +8968,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoUrl",
           "package": "github",
@@ -8236,6 +8982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "repoWatchers",
           "package": "github",
@@ -8245,6 +8992,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "repoWatchers",
           "package": "github",
@@ -8258,6 +9006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "searchReposRepos",
           "package": "github",
@@ -8267,6 +9016,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "searchReposRepos",
           "normalized": "[Repo]",
@@ -8282,6 +9032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "searchReposTotalCount",
           "package": "github",
@@ -8291,6 +9042,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "searchReposTotalCount",
           "package": "github",
@@ -8304,6 +9056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "simpleOrganizationAvatarUrl",
           "package": "github",
@@ -8313,6 +9066,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "simpleOrganizationAvatarUrl",
           "package": "github",
@@ -8326,6 +9080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "simpleOrganizationId",
           "package": "github",
@@ -8335,6 +9090,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "simpleOrganizationId",
           "package": "github",
@@ -8348,6 +9104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "simpleOrganizationLogin",
           "package": "github",
@@ -8357,6 +9114,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "simpleOrganizationLogin",
           "package": "github",
@@ -8370,6 +9128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "simpleOrganizationUrl",
           "package": "github",
@@ -8379,6 +9138,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "simpleOrganizationUrl",
           "package": "github",
@@ -8392,6 +9152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "statsAdditions",
           "package": "github",
@@ -8401,6 +9162,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "statsAdditions",
           "package": "github",
@@ -8414,6 +9176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "statsDeletions",
           "package": "github",
@@ -8423,6 +9186,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "statsDeletions",
           "package": "github",
@@ -8436,6 +9200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "statsTotal",
           "package": "github",
@@ -8445,6 +9210,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "statsTotal",
           "package": "github",
@@ -8458,6 +9224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "tagCommit",
           "package": "github",
@@ -8467,6 +9234,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "tagCommit",
           "package": "github",
@@ -8480,6 +9248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "tagName",
           "package": "github",
@@ -8489,6 +9258,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "tagName",
           "package": "github",
@@ -8502,6 +9272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "tagTarballUrl",
           "package": "github",
@@ -8511,6 +9282,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "tagTarballUrl",
           "package": "github",
@@ -8524,6 +9296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "tagZipballUrl",
           "package": "github",
@@ -8533,6 +9306,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "tagZipballUrl",
           "package": "github",
@@ -8546,6 +9320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "treeGitTrees",
           "package": "github",
@@ -8555,6 +9330,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "treeGitTrees",
           "normalized": "[GitTree]",
@@ -8570,6 +9346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "treeSha",
           "package": "github",
@@ -8579,6 +9356,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "treeSha",
           "package": "github",
@@ -8592,6 +9370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data.Definitions",
           "name": "treeUrl",
           "package": "github",
@@ -8601,6 +9380,7 @@
         },
         "index": {
           "hierarchy": "Github Data Definitions",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data.Definitions",
           "name": "treeUrl",
           "package": "github",
@@ -8615,6 +9395,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module re-exports the \u003ccode\u003eGithub.Data.Definitions\u003c/code\u003e module, adding\n instances of \u003ccode\u003eFromJSON\u003c/code\u003e to it. If you wish to use the data without the\n instances, use the \u003ccode\u003eGithub.Data.Definitions\u003c/code\u003e module instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Data",
           "name": "Data",
           "package": "github",
@@ -8624,6 +9405,7 @@
         "index": {
           "description": "This module re-exports the Github.Data.Definitions module adding instances of FromJSON to it If you wish to use the data without the instances use the Github.Data.Definitions module instead",
           "hierarchy": "Github Data",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Data",
           "name": "Data",
           "package": "github",
@@ -8638,6 +9420,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe loving comments people have left on Gists, described on\n \u003ca\u003ehttp://developer.github.com/v3/gists/comments/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Gists.Comments",
           "name": "Comments",
           "package": "github",
@@ -8647,6 +9430,7 @@
         "index": {
           "description": "The loving comments people have left on Gists described on http developer.github.com v3 gists comments",
           "hierarchy": "Github Gists Comments",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Gists.Comments",
           "name": "Comments",
           "package": "github",
@@ -8661,6 +9445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specific comment, by the comment ID.\n\u003c/p\u003e\u003cpre\u003e comment \"62449\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Gists.Comments",
           "name": "comment",
           "package": "github",
@@ -8671,6 +9456,7 @@
         "index": {
           "description": "specific comment by the comment ID comment",
           "hierarchy": "Github Gists Comments",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Gists.Comments",
           "name": "comment",
           "normalized": "String-\u003eIO(Either Error GistComment)",
@@ -8686,6 +9472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the comments on a Gist, given the Gist ID.\n\u003c/p\u003e\u003cpre\u003e commentsOn \"1174060\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Gists.Comments",
           "name": "commentsOn",
           "package": "github",
@@ -8696,6 +9483,7 @@
         "index": {
           "description": "All the comments on Gist given the Gist ID commentsOn",
           "hierarchy": "Github Gists Comments",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Gists.Comments",
           "name": "commentsOn",
           "normalized": "String-\u003eIO(Either Error[GistComment])",
@@ -8712,6 +9500,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe gists API as described at \u003ca\u003ehttp://developer.github.com/v3/gists/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Gists",
           "name": "Gists",
           "package": "github",
@@ -8721,6 +9510,7 @@
         "index": {
           "description": "The gists API as described at http developer.github.com v3 gists",
           "hierarchy": "Github Gists",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Gists",
           "name": "Gists",
           "package": "github",
@@ -8735,6 +9525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specific gist, given its id.\n\u003c/p\u003e\u003cpre\u003e gist \"225074\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Gists",
           "name": "gist",
           "package": "github",
@@ -8745,6 +9536,7 @@
         "index": {
           "description": "specific gist given its id gist",
           "hierarchy": "Github Gists",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Gists",
           "name": "gist",
           "normalized": "String-\u003eIO(Either Error Gist)",
@@ -8760,6 +9552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specific gist, given its id, with authentication credentials\n\u003c/p\u003e\u003cpre\u003e gist' (Just (\"github-username\", \"github-password\")) \"225074\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Gists",
           "name": "gist'",
           "package": "github",
@@ -8770,6 +9563,7 @@
         "index": {
           "description": "specific gist given its id with authentication credentials gist Just github-username github-password",
           "hierarchy": "Github Gists",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Gists",
           "name": "gist'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eIO(Either Error Gist)",
@@ -8785,6 +9579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of all public gists created by the user.\n\u003c/p\u003e\u003cpre\u003e gists \"mike-burns\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Gists",
           "name": "gists",
           "package": "github",
@@ -8795,6 +9590,7 @@
         "index": {
           "description": "The list of all public gists created by the user gists mike-burns",
           "hierarchy": "Github Gists",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Gists",
           "name": "gists",
           "normalized": "String-\u003eIO(Either Error[Gist])",
@@ -8810,6 +9606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of all gists created by the user \n\u003c/p\u003e\u003cpre\u003e gists' (Just (\"github-username\", \"github-password\")) \"mike-burns\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Gists",
           "name": "gists'",
           "package": "github",
@@ -8820,6 +9617,7 @@
         "index": {
           "description": "The list of all gists created by the user gists Just github-username github-password mike-burns",
           "hierarchy": "Github Gists",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Gists",
           "name": "gists'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eIO(Either Error[Gist])",
@@ -8835,6 +9633,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe API for dealing with git blobs from Github repos, as described in\n \u003ca\u003ehttp://developer.github.com/v3/git/blobs/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.GitData.Blobs",
           "name": "Blobs",
           "package": "github",
@@ -8844,6 +9643,7 @@
         "index": {
           "description": "The API for dealing with git blobs from Github repos as described in http developer.github.com v3 git blobs",
           "hierarchy": "Github GitData Blobs",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.GitData.Blobs",
           "name": "Blobs",
           "package": "github",
@@ -8858,6 +9658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a blob by SHA1.\n\u003c/p\u003e\u003cpre\u003e blob \"thoughtbot\" \"paperclip\" \"bc5c51d1ece1ee45f94b056a0f5a1674d7e8cba9\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.GitData.Blobs",
           "name": "blob",
           "package": "github",
@@ -8868,6 +9669,7 @@
         "index": {
           "description": "Get blob by SHA1 blob thoughtbot paperclip bc5c51d1ece1ee45f94b056a0f5a1674d7e8cba9",
           "hierarchy": "Github GitData Blobs",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.GitData.Blobs",
           "name": "blob",
           "normalized": "String-\u003eString-\u003eString-\u003eIO(Either Error Blob)",
@@ -8883,6 +9685,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe API for underlying git commits of a Github repo, as described on\n \u003ca\u003ehttp://developer.github.com/v3/git/commits/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.GitData.Commits",
           "name": "Commits",
           "package": "github",
@@ -8892,6 +9695,7 @@
         "index": {
           "description": "The API for underlying git commits of Github repo as described on http developer.github.com v3 git commits",
           "hierarchy": "Github GitData Commits",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.GitData.Commits",
           "name": "Commits",
           "package": "github",
@@ -8906,6 +9710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single commit, by SHA1.\n\u003c/p\u003e\u003cpre\u003e commit \"thoughtbot\" \"paperclip\" \"bc5c51d1ece1ee45f94b056a0f5a1674d7e8cba9\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.GitData.Commits",
           "name": "commit",
           "package": "github",
@@ -8916,6 +9721,7 @@
         "index": {
           "description": "single commit by SHA1 commit thoughtbot paperclip bc5c51d1ece1ee45f94b056a0f5a1674d7e8cba9",
           "hierarchy": "Github GitData Commits",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.GitData.Commits",
           "name": "commit",
           "normalized": "String-\u003eString-\u003eString-\u003eIO(Either Error GitCommit)",
@@ -8931,6 +9737,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe underlying git references on a Github repo, exposed for the world to\n see. The git internals documentation will also prove handy for understanding\n these. API documentation at \u003ca\u003ehttp://developer.github.com/v3/git/refs/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.GitData.References",
           "name": "References",
           "package": "github",
@@ -8940,6 +9747,7 @@
         "index": {
           "description": "The underlying git references on Github repo exposed for the world to see The git internals documentation will also prove handy for understanding these API documentation at http developer.github.com v3 git refs",
           "hierarchy": "Github GitData References",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.GitData.References",
           "name": "References",
           "package": "github",
@@ -8954,6 +9762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimited references by a namespace.\n\u003c/p\u003e\u003cpre\u003e namespacedReferences \"thoughtbot\" \"paperclip\" \"tags\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.GitData.References",
           "name": "namespacedReferences",
           "package": "github",
@@ -8964,6 +9773,7 @@
         "index": {
           "description": "Limited references by namespace namespacedReferences thoughtbot paperclip tags",
           "hierarchy": "Github GitData References",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.GitData.References",
           "name": "namespacedReferences",
           "normalized": "String-\u003eString-\u003eString-\u003eIO(Either Error[GitReference])",
@@ -8980,6 +9790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single reference by the ref name.\n\u003c/p\u003e\u003cpre\u003e reference \"mike-burns\" \"github\" \"heads/master\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.GitData.References",
           "name": "reference",
           "package": "github",
@@ -8990,6 +9801,7 @@
         "index": {
           "description": "single reference by the ref name reference mike-burns github heads master",
           "hierarchy": "Github GitData References",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.GitData.References",
           "name": "reference",
           "normalized": "String-\u003eString-\u003eString-\u003eIO(Either Error GitReference)",
@@ -9005,6 +9817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe history of references for a repo.\n\u003c/p\u003e\u003cpre\u003e references \"mike-burns\" \"github\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.GitData.References",
           "name": "references",
           "package": "github",
@@ -9015,6 +9828,7 @@
         "index": {
           "description": "The history of references for repo references mike-burns github",
           "hierarchy": "Github GitData References",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.GitData.References",
           "name": "references",
           "normalized": "String-\u003eString-\u003eIO(Either Error[GitReference])",
@@ -9030,6 +9844,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe underlying tree of SHA1s and files that make up a git repo. The API is\n described on \u003ca\u003ehttp://developer.github.com/v3/git/trees/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.GitData.Trees",
           "name": "Trees",
           "package": "github",
@@ -9039,6 +9854,7 @@
         "index": {
           "description": "The underlying tree of SHA1s and files that make up git repo The API is described on http developer.github.com v3 git trees",
           "hierarchy": "Github GitData Trees",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.GitData.Trees",
           "name": "Trees",
           "package": "github",
@@ -9053,6 +9869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA recursively-nested tree for a SHA1.\n\u003c/p\u003e\u003cpre\u003e nestedTree \"thoughtbot\" \"paperclip\" \"fe114451f7d066d367a1646ca7ac10e689b46844\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.GitData.Trees",
           "name": "nestedTree",
           "package": "github",
@@ -9063,6 +9880,7 @@
         "index": {
           "description": "recursively-nested tree for SHA1 nestedTree thoughtbot paperclip fe114451f7d066d367a1646ca7ac10e689b46844",
           "hierarchy": "Github GitData Trees",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.GitData.Trees",
           "name": "nestedTree",
           "normalized": "String-\u003eString-\u003eString-\u003eIO(Either Error Tree)",
@@ -9079,6 +9897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tree for a SHA1.\n\u003c/p\u003e\u003cpre\u003e tree \"thoughtbot\" \"paperclip\" \"fe114451f7d066d367a1646ca7ac10e689b46844\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.GitData.Trees",
           "name": "tree",
           "package": "github",
@@ -9089,6 +9908,7 @@
         "index": {
           "description": "tree for SHA1 tree thoughtbot paperclip fe114451f7d066d367a1646ca7ac10e689b46844",
           "hierarchy": "Github GitData Trees",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.GitData.Trees",
           "name": "tree",
           "normalized": "String-\u003eString-\u003eString-\u003eIO(Either Error Tree)",
@@ -9104,6 +9924,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Github issue comments API from\n \u003ca\u003ehttp://developer.github.com/v3/issues/comments/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Comments",
           "name": "Comments",
           "package": "github",
@@ -9113,6 +9934,7 @@
         "index": {
           "description": "The Github issue comments API from http developer.github.com v3 issues comments",
           "hierarchy": "Github Issues Comments",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Comments",
           "name": "Comments",
           "package": "github",
@@ -9127,6 +9949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euser/password for HTTP basic access authentication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Comments",
           "name": "GithubAuth",
           "package": "github",
@@ -9136,6 +9959,7 @@
         "index": {
           "description": "user password for HTTP basic access authentication",
           "hierarchy": "Github Issues Comments",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Comments",
           "name": "GithubAuth",
           "package": "github",
@@ -9196,6 +10020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specific comment, by ID.\n\u003c/p\u003e\u003cpre\u003e comment \"thoughtbot\" \"paperclip\" 1468184\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Comments",
           "name": "comment",
           "package": "github",
@@ -9206,6 +10031,7 @@
         "index": {
           "description": "specific comment by ID comment thoughtbot paperclip",
           "hierarchy": "Github Issues Comments",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Comments",
           "name": "comment",
           "normalized": "String-\u003eString-\u003eInt-\u003eIO(Either Error IssueComment)",
@@ -9221,6 +10047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll comments on an issue, by the issue's number.\n\u003c/p\u003e\u003cpre\u003e comments \"thoughtbot\" \"paperclip\" 635\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Comments",
           "name": "comments",
           "package": "github",
@@ -9231,6 +10058,7 @@
         "index": {
           "description": "All comments on an issue by the issue number comments thoughtbot paperclip",
           "hierarchy": "Github Issues Comments",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Comments",
           "name": "comments",
           "normalized": "String-\u003eString-\u003eInt-\u003eIO(Either Error[IssueComment])",
@@ -9246,6 +10074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll comments on an issue, by the issue's number, using authentication.\n\u003c/p\u003e\u003cpre\u003e comments' (GithubUser (user, password)) \"thoughtbot\" \"paperclip\" 635\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Comments",
           "name": "comments'",
           "package": "github",
@@ -9256,6 +10085,7 @@
         "index": {
           "description": "All comments on an issue by the issue number using authentication comments GithubUser user password thoughtbot paperclip",
           "hierarchy": "Github Issues Comments",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Comments",
           "name": "comments'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eString-\u003eInt-\u003eIO(Either Error[IssueComment])",
@@ -9271,6 +10101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new comment.\n\u003c/p\u003e\u003cpre\u003e createComment (GithubUser (user, password)) user repo issue\n  \"some words\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Comments",
           "name": "createComment",
           "package": "github",
@@ -9281,6 +10112,7 @@
         "index": {
           "description": "Create new comment createComment GithubUser user password user repo issue some words",
           "hierarchy": "Github Issues Comments",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Comments",
           "name": "createComment",
           "normalized": "GithubAuth-\u003eString-\u003eString-\u003eInt-\u003eString-\u003eIO(Either Error Comment)",
@@ -9297,6 +10129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEdit a comment.\n\u003c/p\u003e\u003cpre\u003e editComment (GithubUser (user, password)) user repo commentid\n  \"new words\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Comments",
           "name": "editComment",
           "package": "github",
@@ -9307,6 +10140,7 @@
         "index": {
           "description": "Edit comment editComment GithubUser user password user repo commentid new words",
           "hierarchy": "Github Issues Comments",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Comments",
           "name": "editComment",
           "normalized": "GithubAuth-\u003eString-\u003eString-\u003eInt-\u003eString-\u003eIO(Either Error Comment)",
@@ -9323,6 +10157,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Github issue events API, which is described on\n \u003ca\u003ehttp://developer.github.com/v3/issues/events/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Events",
           "name": "Events",
           "package": "github",
@@ -9332,6 +10167,7 @@
         "index": {
           "description": "The Github issue events API which is described on http developer.github.com v3 issues events",
           "hierarchy": "Github Issues Events",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Events",
           "name": "Events",
           "package": "github",
@@ -9346,6 +10182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetails on a specific event, by the event's ID.\n\u003c/p\u003e\u003cpre\u003e event \"thoughtbot\" \"paperclip\" 5335772\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Events",
           "name": "event",
           "package": "github",
@@ -9356,6 +10193,7 @@
         "index": {
           "description": "Details on specific event by the event ID event thoughtbot paperclip",
           "hierarchy": "Github Issues Events",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Events",
           "name": "event",
           "normalized": "String-\u003eString-\u003eInt-\u003eIO(Either Error Event)",
@@ -9371,6 +10209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll events that have happened on an issue.\n\u003c/p\u003e\u003cpre\u003e eventsForIssue \"thoughtbot\" \"paperclip\" 49\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Events",
           "name": "eventsForIssue",
           "package": "github",
@@ -9381,6 +10220,7 @@
         "index": {
           "description": "All events that have happened on an issue eventsForIssue thoughtbot paperclip",
           "hierarchy": "Github Issues Events",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Events",
           "name": "eventsForIssue",
           "normalized": "String-\u003eString-\u003eInt-\u003eIO(Either Error[Event])",
@@ -9397,6 +10237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the events for all issues in a repo.\n\u003c/p\u003e\u003cpre\u003e eventsForRepo \"thoughtbot\" \"paperclip\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Events",
           "name": "eventsForRepo",
           "package": "github",
@@ -9407,6 +10248,7 @@
         "index": {
           "description": "All the events for all issues in repo eventsForRepo thoughtbot paperclip",
           "hierarchy": "Github Issues Events",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Events",
           "name": "eventsForRepo",
           "normalized": "String-\u003eString-\u003eIO(Either Error[Event])",
@@ -9423,6 +10265,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe API for dealing with labels on Github issues, as described on\n \u003ca\u003ehttp://developer.github.com/v3/issues/labels/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Labels",
           "name": "Labels",
           "package": "github",
@@ -9432,6 +10275,7 @@
         "index": {
           "description": "The API for dealing with labels on Github issues as described on http developer.github.com v3 issues labels",
           "hierarchy": "Github Issues Labels",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Labels",
           "name": "Labels",
           "package": "github",
@@ -9446,6 +10290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA label, by name.\n\u003c/p\u003e\u003cpre\u003e Github.label \"thoughtbot\" \"paperclip\" \"bug\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Labels",
           "name": "label",
           "package": "github",
@@ -9456,6 +10301,7 @@
         "index": {
           "description": "label by name Github.label thoughtbot paperclip bug",
           "hierarchy": "Github Issues Labels",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Labels",
           "name": "label",
           "normalized": "String-\u003eString-\u003eString-\u003eIO(Either Error IssueLabel)",
@@ -9471,6 +10317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe labels on an issue in a repo.\n\u003c/p\u003e\u003cpre\u003e labelsOnIssue \"thoughtbot\" \"paperclip\" 585\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Labels",
           "name": "labelsOnIssue",
           "package": "github",
@@ -9481,6 +10328,7 @@
         "index": {
           "description": "The labels on an issue in repo labelsOnIssue thoughtbot paperclip",
           "hierarchy": "Github Issues Labels",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Labels",
           "name": "labelsOnIssue",
           "normalized": "String-\u003eString-\u003eInt-\u003eIO(Either Error[IssueLabel])",
@@ -9497,6 +10345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the labels on a repo's milestone, given the milestone ID.\n\u003c/p\u003e\u003cpre\u003e labelsOnMilestone \"thoughtbot\" \"paperclip\" 2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Labels",
           "name": "labelsOnMilestone",
           "package": "github",
@@ -9507,6 +10356,7 @@
         "index": {
           "description": "All the labels on repo milestone given the milestone ID labelsOnMilestone thoughtbot paperclip",
           "hierarchy": "Github Issues Labels",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Labels",
           "name": "labelsOnMilestone",
           "normalized": "String-\u003eString-\u003eInt-\u003eIO(Either Error[IssueLabel])",
@@ -9523,6 +10373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the labels available to use on any issue in the repo.\n\u003c/p\u003e\u003cpre\u003e labelsOnRepo \"thoughtbot\" \"paperclip\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Labels",
           "name": "labelsOnRepo",
           "package": "github",
@@ -9533,6 +10384,7 @@
         "index": {
           "description": "All the labels available to use on any issue in the repo labelsOnRepo thoughtbot paperclip",
           "hierarchy": "Github Issues Labels",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Labels",
           "name": "labelsOnRepo",
           "normalized": "String-\u003eString-\u003eIO(Either Error[IssueLabel])",
@@ -9549,6 +10401,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe milestones API as described on\n \u003ca\u003ehttp://developer.github.com/v3/issues/milestones/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Milestones",
           "name": "Milestones",
           "package": "github",
@@ -9558,6 +10411,7 @@
         "index": {
           "description": "The milestones API as described on http developer.github.com v3 issues milestones",
           "hierarchy": "Github Issues Milestones",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Milestones",
           "name": "Milestones",
           "package": "github",
@@ -9572,6 +10426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetails on a specific milestone, given it's milestone number.\n\u003c/p\u003e\u003cpre\u003e milestone \"thoughtbot\" \"paperclip\" 2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Milestones",
           "name": "milestone",
           "package": "github",
@@ -9582,6 +10437,7 @@
         "index": {
           "description": "Details on specific milestone given it milestone number milestone thoughtbot paperclip",
           "hierarchy": "Github Issues Milestones",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Milestones",
           "name": "milestone",
           "normalized": "String-\u003eString-\u003eInt-\u003eIO(Either Error Milestone)",
@@ -9597,6 +10453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll milestones in the repo.\n\u003c/p\u003e\u003cpre\u003e milestones \"thoughtbot\" \"paperclip\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Milestones",
           "name": "milestones",
           "package": "github",
@@ -9607,6 +10464,7 @@
         "index": {
           "description": "All milestones in the repo milestones thoughtbot paperclip",
           "hierarchy": "Github Issues Milestones",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Milestones",
           "name": "milestones",
           "normalized": "String-\u003eString-\u003eIO(Either Error[Milestone])",
@@ -9622,6 +10480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll milestones in the repo, using authentication.\n\u003c/p\u003e\u003cpre\u003e milestones' (GithubUser (user, password)) \"thoughtbot\" \"paperclip\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues.Milestones",
           "name": "milestones'",
           "package": "github",
@@ -9632,6 +10491,7 @@
         "index": {
           "description": "All milestones in the repo using authentication milestones GithubUser user password thoughtbot paperclip",
           "hierarchy": "Github Issues Milestones",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues.Milestones",
           "name": "milestones'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eString-\u003eIO(Either Error[Milestone])",
@@ -9647,6 +10507,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe issues API as described on \u003ca\u003ehttp://developer.github.com/v3/issues/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "Issues",
           "package": "github",
@@ -9656,6 +10517,7 @@
         "index": {
           "description": "The issues API as described on http developer.github.com v3 issues",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "Issues",
           "package": "github",
@@ -9670,6 +10532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euser/password for HTTP basic access authentication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "GithubAuth",
           "package": "github",
@@ -9679,6 +10542,7 @@
         "index": {
           "description": "user password for HTTP basic access authentication",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "GithubAuth",
           "package": "github",
@@ -9693,6 +10557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure for describing how to filter issues. This is used by\n \u003ccode\u003eissuesForRepo\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "IssueLimitation",
           "package": "github",
@@ -9702,6 +10567,7 @@
         "index": {
           "description": "data structure for describing how to filter issues This is used by issuesForRepo",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "IssueLimitation",
           "package": "github",
@@ -9716,6 +10582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll issues regardless of assignment. [default]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "AnyAssignment",
           "package": "github",
@@ -9726,6 +10593,7 @@
         "index": {
           "description": "All issues regardless of assignment default",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "AnyAssignment",
           "package": "github",
@@ -9740,6 +10608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIssues appearing in any milestone. [default]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "AnyMilestone",
           "package": "github",
@@ -9750,6 +10619,7 @@
         "index": {
           "description": "Issues appearing in any milestone default",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "AnyMilestone",
           "package": "github",
@@ -9764,6 +10634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort ascending.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "Ascending",
           "package": "github",
@@ -9774,6 +10645,7 @@
         "index": {
           "description": "Sort ascending",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "Ascending",
           "package": "github",
@@ -9788,6 +10660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly issues assigned to the user with the given login.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "AssignedTo",
           "package": "github",
@@ -9798,6 +10671,7 @@
         "index": {
           "description": "Only issues assigned to the user with the given login",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "AssignedTo",
           "package": "github",
@@ -9812,6 +10686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort descending. [default]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "Descending",
           "package": "github",
@@ -9822,6 +10697,7 @@
         "index": {
           "description": "Sort descending default",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "Descending",
           "package": "github",
@@ -9836,6 +10712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of labels to filter by.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "Labels",
           "package": "github",
@@ -9846,6 +10723,7 @@
         "index": {
           "description": "list of labels to filter by",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "Labels",
           "normalized": "Labels[String]",
@@ -9862,6 +10740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIssues which mention the given string, taken to be a user's login.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "Mentions",
           "package": "github",
@@ -9872,6 +10751,7 @@
         "index": {
           "description": "Issues which mention the given string taken to be user login",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "Mentions",
           "package": "github",
@@ -9886,6 +10766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly issues that are in the milestone with the given id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "MilestoneId",
           "package": "github",
@@ -9896,6 +10777,7 @@
         "index": {
           "description": "Only issues that are in the milestone with the given id",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "MilestoneId",
           "package": "github",
@@ -9910,6 +10792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIssues without a milestone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "NoMilestone",
           "package": "github",
@@ -9920,6 +10803,7 @@
         "index": {
           "description": "Issues without milestone",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "NoMilestone",
           "package": "github",
@@ -9934,6 +10818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly closed issues.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "OnlyClosed",
           "package": "github",
@@ -9944,6 +10829,7 @@
         "index": {
           "description": "Only closed issues",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "OnlyClosed",
           "package": "github",
@@ -9958,6 +10844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly open issues. [default]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "Open",
           "package": "github",
@@ -9968,6 +10855,7 @@
         "index": {
           "description": "Only open issues default",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "Open",
           "package": "github",
@@ -9982,6 +10870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDownload this many issues per query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "PerPage",
           "package": "github",
@@ -9992,6 +10881,7 @@
         "index": {
           "description": "Download this many issues per query",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "PerPage",
           "package": "github",
@@ -10006,6 +10896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly issues created since the specified date and time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "Since",
           "package": "github",
@@ -10016,6 +10907,7 @@
         "index": {
           "description": "Only issues created since the specified date and time",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "Since",
           "package": "github",
@@ -10030,6 +10922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIssues to which no one has been assigned ownership.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "Unassigned",
           "package": "github",
@@ -10040,6 +10933,7 @@
         "index": {
           "description": "Issues to which no one has been assigned ownership",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "Unassigned",
           "package": "github",
@@ -10054,6 +10948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new issue.\n\u003c/p\u003e\u003cpre\u003e createIssue (GithubUser (user, password)) user repo\n  (newIssue \"some_repo\") {...}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "createIssue",
           "package": "github",
@@ -10064,6 +10959,7 @@
         "index": {
           "description": "Create new issue createIssue GithubUser user password user repo newIssue some repo",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "createIssue",
           "normalized": "GithubAuth-\u003eString-\u003eString-\u003eNewIssue-\u003eIO(Either Error Issue)",
@@ -10080,6 +10976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEdit an issue.\n\u003c/p\u003e\u003cpre\u003e editIssue (GithubUser (user, password)) user repo issue\n  editOfIssue {...}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "editIssue",
           "package": "github",
@@ -10090,6 +10987,7 @@
         "index": {
           "description": "Edit an issue editIssue GithubUser user password user repo issue editOfIssue",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "editIssue",
           "normalized": "GithubAuth-\u003eString-\u003eString-\u003eInt-\u003eEditIssue-\u003eIO(Either Error Issue)",
@@ -10105,6 +11003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "editOfIssue",
           "package": "github",
@@ -10114,6 +11013,7 @@
         },
         "index": {
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "editOfIssue",
           "package": "github",
@@ -10128,6 +11028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetails on a specific issue, given the repo owner and name, and the issue\n number.\n\u003c/p\u003e\u003cpre\u003e issue \"thoughtbot\" \"paperclip\" \"462\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "issue",
           "package": "github",
@@ -10138,6 +11039,7 @@
         "index": {
           "description": "Details on specific issue given the repo owner and name and the issue number issue thoughtbot paperclip",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "issue",
           "normalized": "String-\u003eString-\u003eInt-\u003eIO(Either Error Issue)",
@@ -10153,6 +11055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetails on a specific issue, given the repo owner and name, and the issue\n number.'\n\u003c/p\u003e\u003cpre\u003e issue' (Just (\"github-username\", \"github-password\")) \"thoughtbot\" \"paperclip\" \"462\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "issue'",
           "package": "github",
@@ -10163,6 +11066,7 @@
         "index": {
           "description": "Details on specific issue given the repo owner and name and the issue number issue Just github-username github-password thoughtbot paperclip",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "issue'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eString-\u003eInt-\u003eIO(Either Error Issue)",
@@ -10178,6 +11082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll issues for a repo (given the repo owner and name), with optional\n restrictions as described in the \u003ccode\u003eIssueLimitation\u003c/code\u003e data type.\n\u003c/p\u003e\u003cpre\u003e issuesForRepo \"thoughtbot\" \"paperclip\" [NoMilestone, OnlyClosed, Mentions \"jyurek\", Ascending]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "issuesForRepo",
           "package": "github",
@@ -10188,6 +11093,7 @@
         "index": {
           "description": "All issues for repo given the repo owner and name with optional restrictions as described in the IssueLimitation data type issuesForRepo thoughtbot paperclip NoMilestone OnlyClosed Mentions jyurek Ascending",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "issuesForRepo",
           "normalized": "String-\u003eString-\u003e[IssueLimitation]-\u003eIO(Either Error[Issue])",
@@ -10204,6 +11110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll issues for a repo (given the repo owner and name), with optional\n restrictions as described in the \u003ccode\u003eIssueLimitation\u003c/code\u003e data type.\n\u003c/p\u003e\u003cpre\u003e issuesForRepo' (Just (\"github-username\", \"github-password\")) \"thoughtbot\" \"paperclip\" [NoMilestone, OnlyClosed, Mentions \"jyurek\", Ascending]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "issuesForRepo'",
           "package": "github",
@@ -10214,6 +11121,7 @@
         "index": {
           "description": "All issues for repo given the repo owner and name with optional restrictions as described in the IssueLimitation data type issuesForRepo Just github-username github-password thoughtbot paperclip NoMilestone OnlyClosed Mentions jyurek Ascending",
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "issuesForRepo'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eString-\u003e[IssueLimitation]-\u003eIO(Either Error[Issue])",
@@ -10229,6 +11137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Issues",
           "name": "newIssue",
           "package": "github",
@@ -10238,6 +11147,7 @@
         },
         "index": {
           "hierarchy": "Github Issues",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Issues",
           "name": "newIssue",
           "normalized": "String-\u003eNewIssue",
@@ -10254,6 +11164,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe organization members API as described on\n \u003ca\u003ehttp://developer.github.com/v3/orgs/members/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Organizations.Members",
           "name": "Members",
           "package": "github",
@@ -10263,6 +11174,7 @@
         "index": {
           "description": "The organization members API as described on http developer.github.com v3 orgs members",
           "hierarchy": "Github Organizations Members",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Organizations.Members",
           "name": "Members",
           "package": "github",
@@ -10277,6 +11189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the users who are members of the specified organization.\n\u003c/p\u003e\u003cpre\u003e membersOf \"thoughtbot\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Organizations.Members",
           "name": "membersOf",
           "package": "github",
@@ -10287,6 +11200,7 @@
         "index": {
           "description": "All the users who are members of the specified organization membersOf thoughtbot",
           "hierarchy": "Github Organizations Members",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Organizations.Members",
           "name": "membersOf",
           "normalized": "String-\u003eIO(Either Error[GithubOwner])",
@@ -10303,6 +11217,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe orgs API as described on \u003ca\u003ehttp://developer.github.com/v3/orgs/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Organizations",
           "name": "Organizations",
           "package": "github",
@@ -10312,6 +11227,7 @@
         "index": {
           "description": "The orgs API as described on http developer.github.com v3 orgs",
           "hierarchy": "Github Organizations",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Organizations",
           "name": "Organizations",
           "package": "github",
@@ -10326,6 +11242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetails on a public organization. Takes the organization's login.\n\u003c/p\u003e\u003cpre\u003e publicOrganization \"thoughtbot\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Organizations",
           "name": "publicOrganization",
           "package": "github",
@@ -10336,6 +11253,7 @@
         "index": {
           "description": "Details on public organization Takes the organization login publicOrganization thoughtbot",
           "hierarchy": "Github Organizations",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Organizations",
           "name": "publicOrganization",
           "normalized": "String-\u003eIO(Either Error Organization)",
@@ -10352,6 +11270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetails on a public organization. Takes the organization's login.\n\u003c/p\u003e\u003cpre\u003e publicOrganization' (Just (\"github-username\", \"github-password\")) \"thoughtbot\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Organizations",
           "name": "publicOrganization'",
           "package": "github",
@@ -10362,6 +11281,7 @@
         "index": {
           "description": "Details on public organization Takes the organization login publicOrganization Just github-username github-password thoughtbot",
           "hierarchy": "Github Organizations",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Organizations",
           "name": "publicOrganization'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eIO(Either Error Organization)",
@@ -10378,6 +11298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe public organizations for a user, given the user's login.\n\u003c/p\u003e\u003cpre\u003e publicOrganizationsFor \"mike-burns\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Organizations",
           "name": "publicOrganizationsFor",
           "package": "github",
@@ -10388,6 +11309,7 @@
         "index": {
           "description": "The public organizations for user given the user login publicOrganizationsFor mike-burns",
           "hierarchy": "Github Organizations",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Organizations",
           "name": "publicOrganizationsFor",
           "normalized": "String-\u003eIO(Either Error[SimpleOrganization])",
@@ -10404,6 +11326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe public organizations for a user, given the user's login, with authorization\n\u003c/p\u003e\u003cpre\u003e publicOrganizationsFor' (Just (\"github-username\", \"github-password\")) \"mike-burns\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Organizations",
           "name": "publicOrganizationsFor'",
           "package": "github",
@@ -10414,6 +11337,7 @@
         "index": {
           "description": "The public organizations for user given the user login with authorization publicOrganizationsFor Just github-username github-password mike-burns",
           "hierarchy": "Github Organizations",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Organizations",
           "name": "publicOrganizationsFor'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eIO(Either Error[SimpleOrganization])",
@@ -10430,6 +11354,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe pull requests API as documented at\n \u003ca\u003ehttp://developer.github.com/v3/pulls/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.PullRequests",
           "name": "PullRequests",
           "package": "github",
@@ -10439,6 +11364,7 @@
         "index": {
           "description": "The pull requests API as documented at http developer.github.com v3 pulls",
           "hierarchy": "Github PullRequests",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.PullRequests",
           "name": "PullRequests",
           "package": "github",
@@ -10453,6 +11379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA detailed pull request, which has much more information. This takes the\n repo owner and name along with the number assigned to the pull request.\n\u003c/p\u003e\u003cpre\u003e pullRequest \"thoughtbot\" \"paperclip\" 562\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.PullRequests",
           "name": "pullRequest",
           "package": "github",
@@ -10463,6 +11390,7 @@
         "index": {
           "description": "detailed pull request which has much more information This takes the repo owner and name along with the number assigned to the pull request pullRequest thoughtbot paperclip",
           "hierarchy": "Github PullRequests",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.PullRequests",
           "name": "pullRequest",
           "normalized": "String-\u003eString-\u003eInt-\u003eIO(Either Error DetailedPullRequest)",
@@ -10479,6 +11407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA detailed pull request, which has much more information. This takes the\n repo owner and name along with the number assigned to the pull request.\n | With authentification\n\u003c/p\u003e\u003cpre\u003e pullRequest' (Just (\"github-username\", \"github-password\")) \"thoughtbot\" \"paperclip\" 562\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.PullRequests",
           "name": "pullRequest'",
           "package": "github",
@@ -10489,6 +11418,7 @@
         "index": {
           "description": "detailed pull request which has much more information This takes the repo owner and name along with the number assigned to the pull request With authentification pullRequest Just github-username github-password thoughtbot paperclip",
           "hierarchy": "Github PullRequests",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.PullRequests",
           "name": "pullRequest'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eString-\u003eInt-\u003eIO(Either Error DetailedPullRequest)",
@@ -10505,6 +11435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the commits on a pull request, given the repo owner, repo name, and\n the number of the pull request.\n\u003c/p\u003e\u003cpre\u003e pullRequestCommits \"thoughtbot\" \"paperclip\" 688\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.PullRequests",
           "name": "pullRequestCommits",
           "package": "github",
@@ -10515,6 +11446,7 @@
         "index": {
           "description": "All the commits on pull request given the repo owner repo name and the number of the pull request pullRequestCommits thoughtbot paperclip",
           "hierarchy": "Github PullRequests",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.PullRequests",
           "name": "pullRequestCommits",
           "normalized": "String-\u003eString-\u003eInt-\u003eIO(Either Error[Commit])",
@@ -10531,6 +11463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the commits on a pull request, given the repo owner, repo name, and\n the number of the pull request.\n | With authentification\n\u003c/p\u003e\u003cpre\u003e pullRequestCommits' (Just (\"github-username\", \"github-password\")) \"thoughtbot\" \"paperclip\" 688\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.PullRequests",
           "name": "pullRequestCommits'",
           "package": "github",
@@ -10541,6 +11474,7 @@
         "index": {
           "description": "All the commits on pull request given the repo owner repo name and the number of the pull request With authentification pullRequestCommits Just github-username github-password thoughtbot paperclip",
           "hierarchy": "Github PullRequests",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.PullRequests",
           "name": "pullRequestCommits'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eString-\u003eInt-\u003eIO(Either Error[Commit])",
@@ -10557,6 +11491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe individual files that a pull request patches. Takes the repo owner and\n name, plus the number assigned to the pull request.\n\u003c/p\u003e\u003cpre\u003e pullRequestFiles \"thoughtbot\" \"paperclip\" 688\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.PullRequests",
           "name": "pullRequestFiles",
           "package": "github",
@@ -10567,6 +11502,7 @@
         "index": {
           "description": "The individual files that pull request patches Takes the repo owner and name plus the number assigned to the pull request pullRequestFiles thoughtbot paperclip",
           "hierarchy": "Github PullRequests",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.PullRequests",
           "name": "pullRequestFiles",
           "normalized": "String-\u003eString-\u003eInt-\u003eIO(Either Error[File])",
@@ -10583,6 +11519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe individual files that a pull request patches. Takes the repo owner and\n name, plus the number assigned to the pull request.\n | With authentification\n\u003c/p\u003e\u003cpre\u003e pullRequestFiles' (Just (\"github-username\", \"github-password\")) \"thoughtbot\" \"paperclip\" 688\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.PullRequests",
           "name": "pullRequestFiles'",
           "package": "github",
@@ -10593,6 +11530,7 @@
         "index": {
           "description": "The individual files that pull request patches Takes the repo owner and name plus the number assigned to the pull request With authentification pullRequestFiles Just github-username github-password thoughtbot paperclip",
           "hierarchy": "Github PullRequests",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.PullRequests",
           "name": "pullRequestFiles'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eString-\u003eInt-\u003eIO(Either Error[File])",
@@ -10609,6 +11547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll pull requests for the repo, by owner and repo name.\n\u003c/p\u003e\u003cpre\u003e pullRequestsFor \"rails\" \"rails\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.PullRequests",
           "name": "pullRequestsFor",
           "package": "github",
@@ -10619,6 +11558,7 @@
         "index": {
           "description": "All pull requests for the repo by owner and repo name pullRequestsFor rails rails",
           "hierarchy": "Github PullRequests",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.PullRequests",
           "name": "pullRequestsFor",
           "normalized": "String-\u003eString-\u003eIO(Either Error[PullRequest])",
@@ -10635,6 +11575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll pull requests for the repo, by owner and repo name.\n | With authentification\n\u003c/p\u003e\u003cpre\u003e pullRequestsFor' (Just (\"github-username\", \"github-password\")) \"rails\" \"rails\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.PullRequests",
           "name": "pullRequestsFor'",
           "package": "github",
@@ -10645,6 +11586,7 @@
         "index": {
           "description": "All pull requests for the repo by owner and repo name With authentification pullRequestsFor Just github-username github-password rails rails",
           "hierarchy": "Github PullRequests",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.PullRequests",
           "name": "pullRequestsFor'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eString-\u003eIO(Either Error[PullRequest])",
@@ -10661,6 +11603,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe repo collaborators API as described on\n \u003ca\u003ehttp://developer.github.com/v3/repos/collaborators/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Collaborators",
           "name": "Collaborators",
           "package": "github",
@@ -10670,6 +11613,7 @@
         "index": {
           "description": "The repo collaborators API as described on http developer.github.com v3 repos collaborators",
           "hierarchy": "Github Repos Collaborators",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Collaborators",
           "name": "Collaborators",
           "package": "github",
@@ -10684,6 +11628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the users who have collaborated on a repo.\n\u003c/p\u003e\u003cpre\u003e collaboratorsOn \"thoughtbot\" \"paperclip\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Collaborators",
           "name": "collaboratorsOn",
           "package": "github",
@@ -10694,6 +11639,7 @@
         "index": {
           "description": "All the users who have collaborated on repo collaboratorsOn thoughtbot paperclip",
           "hierarchy": "Github Repos Collaborators",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Collaborators",
           "name": "collaboratorsOn",
           "normalized": "String-\u003eString-\u003eIO(Either Error[GithubOwner])",
@@ -10710,6 +11656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the user is collaborating on a repo. Takes the user in question,\n the user who owns the repo, and the repo name.\n\u003c/p\u003e\u003cpre\u003e isCollaboratorOn \"mike-burns\" \"thoughtbot\" \"paperclip\"\n isCollaboratorOn \"johnson\" \"thoughtbot\" \"paperclip\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Collaborators",
           "name": "isCollaboratorOn",
           "package": "github",
@@ -10720,6 +11667,7 @@
         "index": {
           "description": "Whether the user is collaborating on repo Takes the user in question the user who owns the repo and the repo name isCollaboratorOn mike-burns thoughtbot paperclip isCollaboratorOn johnson thoughtbot paperclip",
           "hierarchy": "Github Repos Collaborators",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Collaborators",
           "name": "isCollaboratorOn",
           "normalized": "String-\u003eString-\u003eString-\u003eIO(Either Error Bool)",
@@ -10736,6 +11684,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe repo commits API as described on\n \u003ca\u003ehttp://developer.github.com/v3/repos/commits/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Commits",
           "name": "Commits",
           "package": "github",
@@ -10745,6 +11694,7 @@
         "index": {
           "description": "The repo commits API as described on http developer.github.com v3 repos commits",
           "hierarchy": "Github Repos Commits",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Commits",
           "name": "Commits",
           "package": "github",
@@ -10759,6 +11709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the comments on a Github repo.\n\u003c/p\u003e\u003cpre\u003e commentsFor \"thoughtbot\" \"paperclip\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Commits",
           "name": "commentsFor",
           "package": "github",
@@ -10769,6 +11720,7 @@
         "index": {
           "description": "All the comments on Github repo commentsFor thoughtbot paperclip",
           "hierarchy": "Github Repos Commits",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Commits",
           "name": "commentsFor",
           "normalized": "String-\u003eString-\u003eIO(Either Error[Comment])",
@@ -10785,6 +11737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetails on a specific SHA1 for a repo.\n\u003c/p\u003e\u003cpre\u003e commit \"mike-burns\" \"github\" \"9d1a9a361266c3c890b1108ad2fdf52f824b1b81\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Commits",
           "name": "commit",
           "package": "github",
@@ -10795,6 +11748,7 @@
         "index": {
           "description": "Details on specific SHA1 for repo commit mike-burns github d1a9a361266c3c890b1108ad2fdf52f824b1b81",
           "hierarchy": "Github Repos Commits",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Commits",
           "name": "commit",
           "normalized": "String-\u003eString-\u003eString-\u003eIO(Either Error Commit)",
@@ -10810,6 +11764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA comment, by its ID, relative to the Github repo.\n\u003c/p\u003e\u003cpre\u003e commitCommentFor \"thoughtbot\" \"paperclip\" \"669575\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Commits",
           "name": "commitCommentFor",
           "package": "github",
@@ -10820,6 +11775,7 @@
         "index": {
           "description": "comment by its ID relative to the Github repo commitCommentFor thoughtbot paperclip",
           "hierarchy": "Github Repos Commits",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Commits",
           "name": "commitCommentFor",
           "normalized": "String-\u003eString-\u003eString-\u003eIO(Either Error Comment)",
@@ -10836,6 +11792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust the comments on a specific SHA for a given Github repo.\n\u003c/p\u003e\u003cpre\u003e commitCommentsFor \"thoughtbot\" \"paperclip\" \"41f685f6e01396936bb8cd98e7cca517e2c7d96b\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Commits",
           "name": "commitCommentsFor",
           "package": "github",
@@ -10846,6 +11803,7 @@
         "index": {
           "description": "Just the comments on specific SHA for given Github repo commitCommentsFor thoughtbot paperclip f685f6e01396936bb8cd98e7cca517e2c7d96b",
           "hierarchy": "Github Repos Commits",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Commits",
           "name": "commitCommentsFor",
           "normalized": "String-\u003eString-\u003eString-\u003eIO(Either Error[Comment])",
@@ -10862,6 +11820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe commit history for a repo.\n\u003c/p\u003e\u003cpre\u003e commitsFor \"mike-burns\" \"github\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Commits",
           "name": "commitsFor",
           "package": "github",
@@ -10872,6 +11831,7 @@
         "index": {
           "description": "The commit history for repo commitsFor mike-burns github",
           "hierarchy": "Github Repos Commits",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Commits",
           "name": "commitsFor",
           "normalized": "String-\u003eString-\u003eIO(Either Error[Commit])",
@@ -10888,6 +11848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe diff between two treeishes on a repo.\n\u003c/p\u003e\u003cpre\u003e diff \"thoughtbot\" \"paperclip\" \"41f685f6e01396936bb8cd98e7cca517e2c7d96b\" \"HEAD\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Commits",
           "name": "diff",
           "package": "github",
@@ -10898,6 +11859,7 @@
         "index": {
           "description": "The diff between two treeishes on repo diff thoughtbot paperclip f685f6e01396936bb8cd98e7cca517e2c7d96b HEAD",
           "hierarchy": "Github Repos Commits",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Commits",
           "name": "diff",
           "normalized": "String-\u003eString-\u003eString-\u003eString-\u003eIO(Either Error Diff)",
@@ -10913,6 +11875,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHot forking action, as described at\n \u003ca\u003ehttp://developer.github.com/v3/repos/forks/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Forks",
           "name": "Forks",
           "package": "github",
@@ -10922,6 +11885,7 @@
         "index": {
           "description": "Hot forking action as described at http developer.github.com v3 repos forks",
           "hierarchy": "Github Repos Forks",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Forks",
           "name": "Forks",
           "package": "github",
@@ -10936,6 +11900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the repos that are forked off the given repo.\n\u003c/p\u003e\u003cpre\u003e forksFor \"thoughtbot\" \"paperclip\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Forks",
           "name": "forksFor",
           "package": "github",
@@ -10946,6 +11911,7 @@
         "index": {
           "description": "All the repos that are forked off the given repo forksFor thoughtbot paperclip",
           "hierarchy": "Github Repos Forks",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Forks",
           "name": "forksFor",
           "normalized": "String-\u003eString-\u003eIO(Either Error[Repo])",
@@ -10962,6 +11928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the repos that are forked off the given repo.\n | With authentication\n\u003c/p\u003e\u003cpre\u003e forksFor' (Just (GithubUser (user, password))) \"thoughtbot\" \"paperclip\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Forks",
           "name": "forksFor'",
           "package": "github",
@@ -10972,6 +11939,7 @@
         "index": {
           "description": "All the repos that are forked off the given repo With authentication forksFor Just GithubUser user password thoughtbot paperclip",
           "hierarchy": "Github Repos Forks",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Forks",
           "name": "forksFor'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eString-\u003eIO(Either Error[Repo])",
@@ -10988,6 +11956,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe repo starring API as described on\n \u003ca\u003ehttp://developer.github.com/v3/repos/starring/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Starring",
           "name": "Starring",
           "package": "github",
@@ -10997,6 +11966,7 @@
         "index": {
           "description": "The repo starring API as described on http developer.github.com v3 repos starring",
           "hierarchy": "Github Repos Starring",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Starring",
           "name": "Starring",
           "package": "github",
@@ -11011,6 +11981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the repos starred by the authenticated user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Starring",
           "name": "myStarred",
           "package": "github",
@@ -11021,6 +11992,7 @@
         "index": {
           "description": "All the repos starred by the authenticated user",
           "hierarchy": "Github Repos Starring",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Starring",
           "name": "myStarred",
           "normalized": "GithubAuth-\u003eIO(Either Error[Repo])",
@@ -11037,6 +12009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the public repos starred by the specified user.\n\u003c/p\u003e\u003cpre\u003e reposStarredBy Nothing \"croaky\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Starring",
           "name": "reposStarredBy",
           "package": "github",
@@ -11047,6 +12020,7 @@
         "index": {
           "description": "All the public repos starred by the specified user reposStarredBy Nothing croaky",
           "hierarchy": "Github Repos Starring",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Starring",
           "name": "reposStarredBy",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eIO(Either Error[Repo])",
@@ -11063,6 +12037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of users that have starred the specified Github repo.\n\u003c/p\u003e\u003cpre\u003e userInfoFor' Nothing \"mike-burns\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Starring",
           "name": "stargazersFor",
           "package": "github",
@@ -11073,6 +12048,7 @@
         "index": {
           "description": "The list of users that have starred the specified Github repo userInfoFor Nothing mike-burns",
           "hierarchy": "Github Repos Starring",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Starring",
           "name": "stargazersFor",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eString-\u003eIO(Either Error[GithubOwner])",
@@ -11089,6 +12065,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe repo watching API as described on\n \u003ca\u003ehttp://developer.github.com/v3/repos/watching/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Watching",
           "name": "Watching",
           "package": "github",
@@ -11098,6 +12075,7 @@
         "index": {
           "description": "The repo watching API as described on http developer.github.com v3 repos watching",
           "hierarchy": "Github Repos Watching",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Watching",
           "name": "Watching",
           "package": "github",
@@ -11112,6 +12090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the public repos watched by the specified user.\n\u003c/p\u003e\u003cpre\u003e reposWatchedBy \"croaky\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Watching",
           "name": "reposWatchedBy",
           "package": "github",
@@ -11122,6 +12101,7 @@
         "index": {
           "description": "All the public repos watched by the specified user reposWatchedBy croaky",
           "hierarchy": "Github Repos Watching",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Watching",
           "name": "reposWatchedBy",
           "normalized": "String-\u003eIO(Either Error[Repo])",
@@ -11138,6 +12118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the public repos watched by the specified user.\n | With authentication\n\u003c/p\u003e\u003cpre\u003e reposWatchedBy' (Just (GithubUser (user, password))) \"croaky\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Watching",
           "name": "reposWatchedBy'",
           "package": "github",
@@ -11148,6 +12129,7 @@
         "index": {
           "description": "All the public repos watched by the specified user With authentication reposWatchedBy Just GithubUser user password croaky",
           "hierarchy": "Github Repos Watching",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Watching",
           "name": "reposWatchedBy'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eIO(Either Error[Repo])",
@@ -11164,6 +12146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of users that are watching the specified Github repo.\n\u003c/p\u003e\u003cpre\u003e watchersFor \"thoughtbot\" \"paperclip\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Watching",
           "name": "watchersFor",
           "package": "github",
@@ -11174,6 +12157,7 @@
         "index": {
           "description": "The list of users that are watching the specified Github repo watchersFor thoughtbot paperclip",
           "hierarchy": "Github Repos Watching",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Watching",
           "name": "watchersFor",
           "normalized": "String-\u003eString-\u003eIO(Either Error[GithubOwner])",
@@ -11190,6 +12174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of users that are watching the specified Github repo.\n | With authentication\n\u003c/p\u003e\u003cpre\u003e watchersFor' (Just (GithubUser (user, password))) \"thoughtbot\" \"paperclip\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos.Watching",
           "name": "watchersFor'",
           "package": "github",
@@ -11200,6 +12185,7 @@
         "index": {
           "description": "The list of users that are watching the specified Github repo With authentication watchersFor Just GithubUser user password thoughtbot paperclip",
           "hierarchy": "Github Repos Watching",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos.Watching",
           "name": "watchersFor'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eString-\u003eIO(Either Error[GithubOwner])",
@@ -11216,6 +12202,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Github Repos API, as documented at\n \u003ca\u003ehttp://developer.github.com/v3/repos/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "Repos",
           "package": "github",
@@ -11225,6 +12212,7 @@
         "index": {
           "description": "The Github Repos API as documented at http developer.github.com v3 repos",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "Repos",
           "package": "github",
@@ -11238,6 +12226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "Edit",
           "package": "github",
@@ -11246,6 +12235,7 @@
         },
         "index": {
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "Edit",
           "package": "github",
@@ -11260,6 +12250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euser/password for HTTP basic access authentication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "GithubAuth",
           "package": "github",
@@ -11269,6 +12260,7 @@
         "index": {
           "description": "user password for HTTP basic access authentication",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "GithubAuth",
           "package": "github",
@@ -11282,6 +12274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "NewRepo",
           "package": "github",
@@ -11290,6 +12283,7 @@
         },
         "index": {
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "NewRepo",
           "package": "github",
@@ -11304,6 +12298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter the list of the user's repos using any of these constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "RepoPublicity",
           "package": "github",
@@ -11313,6 +12308,7 @@
         "index": {
           "description": "Filter the list of the user repos using any of these constructors",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "RepoPublicity",
           "package": "github",
@@ -11327,6 +12323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll repos accessible to the user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "All",
           "package": "github",
@@ -11337,6 +12334,7 @@
         "index": {
           "description": "All repos accessible to the user",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "All",
           "package": "github",
@@ -11350,6 +12348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "Edit",
           "package": "github",
@@ -11359,6 +12358,7 @@
         },
         "index": {
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "Edit",
           "package": "github",
@@ -11373,6 +12373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly repos to which the user is a member but not an owner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "Member",
           "package": "github",
@@ -11383,6 +12384,7 @@
         "index": {
           "description": "Only repos to which the user is member but not an owner",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "Member",
           "package": "github",
@@ -11396,6 +12398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "NewRepo",
           "package": "github",
@@ -11405,6 +12408,7 @@
         },
         "index": {
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "NewRepo",
           "package": "github",
@@ -11419,6 +12423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly repos owned by the user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "Owner",
           "package": "github",
@@ -11429,6 +12434,7 @@
         "index": {
           "description": "Only repos owned by the user",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "Owner",
           "package": "github",
@@ -11443,6 +12449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly private repos.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "Private",
           "package": "github",
@@ -11453,6 +12460,7 @@
         "index": {
           "description": "Only private repos",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "Private",
           "package": "github",
@@ -11467,6 +12475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly public repos.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "Public",
           "package": "github",
@@ -11477,6 +12486,7 @@
         "index": {
           "description": "Only public repos",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "Public",
           "package": "github",
@@ -11491,6 +12501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe git branches on a repo, given the repo owner and name.\n\u003c/p\u003e\u003cpre\u003e branchesFor \"thoughtbot\" \"paperclip\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "branchesFor",
           "package": "github",
@@ -11501,6 +12512,7 @@
         "index": {
           "description": "The git branches on repo given the repo owner and name branchesFor thoughtbot paperclip",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "branchesFor",
           "normalized": "String-\u003eString-\u003eIO(Either Error[Branch])",
@@ -11517,6 +12529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe contributors to a repo, given the owner and repo name.\n\u003c/p\u003e\u003cpre\u003e contributors \"thoughtbot\" \"paperclip\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "contributors",
           "package": "github",
@@ -11527,6 +12540,7 @@
         "index": {
           "description": "The contributors to repo given the owner and repo name contributors thoughtbot paperclip",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "contributors",
           "normalized": "String-\u003eString-\u003eIO(Either Error[Contributor])",
@@ -11542,6 +12556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe contributors to a repo, including anonymous contributors (such as\n deleted users or git commits with unknown email addresses), given the owner\n and repo name.\n\u003c/p\u003e\u003cpre\u003e contributorsWithAnonymous \"thoughtbot\" \"paperclip\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "contributorsWithAnonymous",
           "package": "github",
@@ -11552,6 +12567,7 @@
         "index": {
           "description": "The contributors to repo including anonymous contributors such as deleted users or git commits with unknown email addresses given the owner and repo name contributorsWithAnonymous thoughtbot paperclip",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "contributorsWithAnonymous",
           "normalized": "String-\u003eString-\u003eIO(Either Error[Contributor])",
@@ -11568,6 +12584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new repository for an organization.\n\u003c/p\u003e\u003cpre\u003e createOrganizationRepo (GithubUser (user, password)) \"thoughtbot\" (newRepo \"some_repo\") {newRepoHasIssues = Just False}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "createOrganizationRepo",
           "package": "github",
@@ -11578,6 +12595,7 @@
         "index": {
           "description": "Create new repository for an organization createOrganizationRepo GithubUser user password thoughtbot newRepo some repo newRepoHasIssues Just False",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "createOrganizationRepo",
           "normalized": "GithubAuth-\u003eString-\u003eNewRepo-\u003eIO(Either Error Repo)",
@@ -11594,6 +12612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new repository.\n\u003c/p\u003e\u003cpre\u003e createRepo (GithubUser (user, password)) (newRepo \"some_repo\") {newRepoHasIssues = Just False}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "createRepo",
           "package": "github",
@@ -11604,6 +12623,7 @@
         "index": {
           "description": "Create new repository createRepo GithubUser user password newRepo some repo newRepoHasIssues Just False",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "createRepo",
           "normalized": "GithubAuth-\u003eNewRepo-\u003eIO(Either Error Repo)",
@@ -11620,6 +12640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value for this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "def",
           "package": "github",
@@ -11629,6 +12650,7 @@
         "index": {
           "description": "The default value for this type",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "def",
           "package": "github",
@@ -11642,6 +12664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete an existing repository.\n\u003c/p\u003e\u003cpre\u003e deleteRepo (GithubUser (user, password)) \"thoughtbot\" \"some_repo\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "deleteRepo",
           "package": "github",
@@ -11651,6 +12674,7 @@
         "index": {
           "description": "Delete an existing repository deleteRepo GithubUser user password thoughtbot some repo",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "deleteRepo",
           "normalized": "GithubAuth-\u003eString-\u003eString-\u003eIO(Either Error())",
@@ -11666,6 +12690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "editDescription",
           "package": "github",
@@ -11675,6 +12700,7 @@
         },
         "index": {
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "editDescription",
           "package": "github",
@@ -11688,6 +12714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "editHasDownloads",
           "package": "github",
@@ -11697,6 +12724,7 @@
         },
         "index": {
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "editHasDownloads",
           "package": "github",
@@ -11710,6 +12738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "editHasIssues",
           "package": "github",
@@ -11719,6 +12748,7 @@
         },
         "index": {
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "editHasIssues",
           "package": "github",
@@ -11732,6 +12762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "editHasWiki",
           "package": "github",
@@ -11741,6 +12772,7 @@
         },
         "index": {
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "editHasWiki",
           "package": "github",
@@ -11754,6 +12786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "editHomepage",
           "package": "github",
@@ -11763,6 +12796,7 @@
         },
         "index": {
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "editHomepage",
           "package": "github",
@@ -11776,6 +12810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "editName",
           "package": "github",
@@ -11785,6 +12820,7 @@
         },
         "index": {
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "editName",
           "package": "github",
@@ -11798,6 +12834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "editPublic",
           "package": "github",
@@ -11807,6 +12844,7 @@
         },
         "index": {
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "editPublic",
           "package": "github",
@@ -11821,6 +12859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEdit an existing repository.\n\u003c/p\u003e\u003cpre\u003e editRepo (GithubUser (user, password)) \"some_user\" \"some_repo\" def {editDescription = Just \"some description\"}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "editRepo",
           "package": "github",
@@ -11830,6 +12869,7 @@
         "index": {
           "description": "Edit an existing repository editRepo GithubUser user password some user some repo def editDescription Just some description",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "editRepo",
           "normalized": "GithubAuth-\u003eString-\u003eString-\u003eEdit-\u003eIO(Either Error Repo)",
@@ -11846,6 +12886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe programming languages used in a repo along with the number of\n characters written in that language. Takes the repo owner and name.\n\u003c/p\u003e\u003cpre\u003e languagesFor \"mike-burns\" \"ohlaunch\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "languagesFor",
           "package": "github",
@@ -11856,6 +12897,7 @@
         "index": {
           "description": "The programming languages used in repo along with the number of characters written in that language Takes the repo owner and name languagesFor mike-burns ohlaunch",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "languagesFor",
           "normalized": "String-\u003eString-\u003eIO(Either Error[Language])",
@@ -11871,6 +12913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "newRepo",
           "package": "github",
@@ -11880,6 +12923,7 @@
         },
         "index": {
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "newRepo",
           "normalized": "String-\u003eNewRepo",
@@ -11895,6 +12939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "newRepoAutoInit",
           "package": "github",
@@ -11904,6 +12949,7 @@
         },
         "index": {
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "newRepoAutoInit",
           "package": "github",
@@ -11917,6 +12963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "newRepoDescription",
           "package": "github",
@@ -11926,6 +12973,7 @@
         },
         "index": {
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "newRepoDescription",
           "package": "github",
@@ -11939,6 +12987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "newRepoHasIssues",
           "package": "github",
@@ -11948,6 +12997,7 @@
         },
         "index": {
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "newRepoHasIssues",
           "package": "github",
@@ -11961,6 +13011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "newRepoHasWiki",
           "package": "github",
@@ -11970,6 +13021,7 @@
         },
         "index": {
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "newRepoHasWiki",
           "package": "github",
@@ -11983,6 +13035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "newRepoHomepage",
           "package": "github",
@@ -11992,6 +13045,7 @@
         },
         "index": {
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "newRepoHomepage",
           "package": "github",
@@ -12005,6 +13059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "newRepoName",
           "package": "github",
@@ -12014,6 +13069,7 @@
         },
         "index": {
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "newRepoName",
           "package": "github",
@@ -12027,6 +13083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "newRepoPrivate",
           "package": "github",
@@ -12036,6 +13093,7 @@
         },
         "index": {
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "newRepoPrivate",
           "package": "github",
@@ -12050,6 +13108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specific organization repo, by the organization name.\n\u003c/p\u003e\u003cpre\u003e organizationRepo \"thoughtbot\" \"github\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "organizationRepo",
           "package": "github",
@@ -12060,6 +13119,7 @@
         "index": {
           "description": "specific organization repo by the organization name organizationRepo thoughtbot github",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "organizationRepo",
           "normalized": "String-\u003eString-\u003eIO(Either Error Repo)",
@@ -12076,6 +13136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specific organization repo, by the organization name.\n | With authentication\n\u003c/p\u003e\u003cpre\u003e organizationRepo (Just (GithubUser (user, password))) \"thoughtbot\" \"github\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "organizationRepo'",
           "package": "github",
@@ -12086,6 +13147,7 @@
         "index": {
           "description": "specific organization repo by the organization name With authentication organizationRepo Just GithubUser user password thoughtbot github",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "organizationRepo'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eString-\u003eIO(Either Error Repo)",
@@ -12102,6 +13164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe repos for an organization, by the organization name.\n\u003c/p\u003e\u003cpre\u003e organizationRepos \"thoughtbot\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "organizationRepos",
           "package": "github",
@@ -12112,6 +13175,7 @@
         "index": {
           "description": "The repos for an organization by the organization name organizationRepos thoughtbot",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "organizationRepos",
           "normalized": "String-\u003eIO(Either Error[Repo])",
@@ -12128,6 +13192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe repos for an organization, by the organization name.\n | With authentication\n\u003c/p\u003e\u003cpre\u003e organizationRepos (Just (GithubUser (user, password))) \"thoughtbot\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "organizationRepos'",
           "package": "github",
@@ -12138,6 +13203,7 @@
         "index": {
           "description": "The repos for an organization by the organization name With authentication organizationRepos Just GithubUser user password thoughtbot",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "organizationRepos'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eIO(Either Error[Repo])",
@@ -12154,6 +13220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe git tags on a repo, given the repo owner and name.\n\u003c/p\u003e\u003cpre\u003e tagsFor \"thoughtbot\" \"paperclip\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "tagsFor",
           "package": "github",
@@ -12164,6 +13231,7 @@
         "index": {
           "description": "The git tags on repo given the repo owner and name tagsFor thoughtbot paperclip",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "tagsFor",
           "normalized": "String-\u003eString-\u003eIO(Either Error[Tag])",
@@ -12180,6 +13248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetails on a specific repo, given the owner and repo name.\n\u003c/p\u003e\u003cpre\u003e userRepo \"mike-burns\" \"github\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "userRepo",
           "package": "github",
@@ -12190,6 +13259,7 @@
         "index": {
           "description": "Details on specific repo given the owner and repo name userRepo mike-burns github",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "userRepo",
           "normalized": "String-\u003eString-\u003eIO(Either Error Repo)",
@@ -12206,6 +13276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetails on a specific repo, given the owner and repo name.\n | With authentication\n\u003c/p\u003e\u003cpre\u003e userRepo' (Just (GithubUser (user, password))) \"mike-burns\" \"github\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "userRepo'",
           "package": "github",
@@ -12216,6 +13287,7 @@
         "index": {
           "description": "Details on specific repo given the owner and repo name With authentication userRepo Just GithubUser user password mike-burns github",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "userRepo'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eString-\u003eIO(Either Error Repo)",
@@ -12232,6 +13304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe repos for a user, by their login. Can be restricted to just repos they\n own, are a member of, or publicize. Private repos are currently not\n supported.\n\u003c/p\u003e\u003cpre\u003e userRepos \"mike-burns\" All\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "userRepos",
           "package": "github",
@@ -12242,6 +13315,7 @@
         "index": {
           "description": "The repos for user by their login Can be restricted to just repos they own are member of or publicize Private repos are currently not supported userRepos mike-burns All",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "userRepos",
           "normalized": "String-\u003eRepoPublicity-\u003eIO(Either Error[Repo])",
@@ -12258,6 +13332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe repos for a user, by their login.\n | With authentication, but note that private repos are currently not supported.\n\u003c/p\u003e\u003cpre\u003e userRepos' (Just (GithubUser (user, password))) \"mike-burns\" All\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Repos",
           "name": "userRepos'",
           "package": "github",
@@ -12268,6 +13343,7 @@
         "index": {
           "description": "The repos for user by their login With authentication but note that private repos are currently not supported userRepos Just GithubUser user password mike-burns All",
           "hierarchy": "Github Repos",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Repos",
           "name": "userRepos'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eRepoPublicity-\u003eIO(Either Error[Repo])",
@@ -12284,6 +13360,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Github Search API, as described at\n \u003ca\u003ehttp://developer.github.com/v3/search/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Search",
           "name": "Search",
           "package": "github",
@@ -12293,6 +13370,7 @@
         "index": {
           "description": "The Github Search API as described at http developer.github.com v3 search",
           "hierarchy": "Github Search",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Search",
           "name": "Search",
           "package": "github",
@@ -12307,6 +13385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euser/password for HTTP basic access authentication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Search",
           "name": "GithubAuth",
           "package": "github",
@@ -12316,6 +13395,7 @@
         "index": {
           "description": "user password for HTTP basic access authentication",
           "hierarchy": "Github Search",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Search",
           "name": "GithubAuth",
           "package": "github",
@@ -12330,6 +13410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a repository search.\n | Without authentication.\n\u003c/p\u003e\u003cpre\u003e searchRepos \"q=a in%3Aname language%3Ahaskell created%3A\u003e2013-10-01&per_page=100\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Search",
           "name": "searchRepos",
           "package": "github",
@@ -12340,6 +13421,7 @@
         "index": {
           "description": "Perform repository search Without authentication searchRepos in Aname language Ahaskell created per page",
           "hierarchy": "Github Search",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Search",
           "name": "searchRepos",
           "normalized": "String-\u003eIO(Either Error SearchReposResult)",
@@ -12356,6 +13438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a repository search.\n | With authentication.\n\u003c/p\u003e\u003cpre\u003e searchRepos' (Just $ GithubBasicAuth \"github-username\" \"github-password') \"q=a in%3Aname language%3Ahaskell created%3A\u003e2013-10-01&per_page=100\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Search",
           "name": "searchRepos'",
           "package": "github",
@@ -12366,6 +13449,7 @@
         "index": {
           "description": "Perform repository search With authentication searchRepos Just GithubBasicAuth github-username github-password in Aname language Ahaskell created per page",
           "hierarchy": "Github Search",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Search",
           "name": "searchRepos'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eIO(Either Error SearchReposResult)",
@@ -12382,6 +13466,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe user followers API as described on\n \u003ca\u003ehttp://developer.github.com/v3/users/followers/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Users.Followers",
           "name": "Followers",
           "package": "github",
@@ -12391,6 +13476,7 @@
         "index": {
           "description": "The user followers API as described on http developer.github.com v3 users followers",
           "hierarchy": "Github Users Followers",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Users.Followers",
           "name": "Followers",
           "package": "github",
@@ -12405,6 +13491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the users that the given user follows.\n\u003c/p\u003e\u003cpre\u003e usersFollowedBy \"mike-burns\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Users.Followers",
           "name": "usersFollowedBy",
           "package": "github",
@@ -12415,6 +13502,7 @@
         "index": {
           "description": "All the users that the given user follows usersFollowedBy mike-burns",
           "hierarchy": "Github Users Followers",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Users.Followers",
           "name": "usersFollowedBy",
           "normalized": "String-\u003eIO(Either Error[GithubOwner])",
@@ -12431,6 +13519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the users following the given user.\n\u003c/p\u003e\u003cpre\u003e usersFollowing \"mike-burns\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Users.Followers",
           "name": "usersFollowing",
           "package": "github",
@@ -12441,6 +13530,7 @@
         "index": {
           "description": "All the users following the given user usersFollowing mike-burns",
           "hierarchy": "Github Users Followers",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Users.Followers",
           "name": "usersFollowing",
           "normalized": "String-\u003eIO(Either Error[GithubOwner])",
@@ -12457,6 +13547,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Github Users API, as described at\n \u003ca\u003ehttp://developer.github.com/v3/users/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Users",
           "name": "Users",
           "package": "github",
@@ -12466,6 +13557,7 @@
         "index": {
           "description": "The Github Users API as described at http developer.github.com v3 users",
           "hierarchy": "Github Users",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Users",
           "name": "Users",
           "package": "github",
@@ -12480,6 +13572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe information for a single user, by login name.\n\u003c/p\u003e\u003cpre\u003e userInfoFor \"mike-burns\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Users",
           "name": "userInfoFor",
           "package": "github",
@@ -12490,6 +13583,7 @@
         "index": {
           "description": "The information for single user by login name userInfoFor mike-burns",
           "hierarchy": "Github Users",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Users",
           "name": "userInfoFor",
           "normalized": "String-\u003eIO(Either Error DetailedOwner)",
@@ -12506,6 +13600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe information for a single user, by login name.\n | With authentification\n\u003c/p\u003e\u003cpre\u003e userInfoFor' (Just (\"github-username\", \"github-password\")) \"mike-burns\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:17 UTC 2014",
           "module": "Github.Users",
           "name": "userInfoFor'",
           "package": "github",
@@ -12516,6 +13611,7 @@
         "index": {
           "description": "The information for single user by login name With authentification userInfoFor Just github-username github-password mike-burns",
           "hierarchy": "Github Users",
+          "indexed": "2014-03-11T18:17:17",
           "module": "Github.Users",
           "name": "userInfoFor'",
           "normalized": "Maybe GithubAuth-\u003eString-\u003eIO(Either Error DetailedOwner)",

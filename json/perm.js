@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "perm"
+        "phrase": "perm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:25 UTC 2014",
           "module": "Control.Applicative.Perm",
           "name": "Perm",
           "package": "perm",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Applicative Perm",
+          "indexed": "2014-03-11T19:37:25",
           "module": "Control.Applicative.Perm",
           "name": "Perm",
           "package": "perm",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe permutation applicative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:25 UTC 2014",
           "module": "Control.Applicative.Perm",
           "name": "Perm",
           "package": "perm",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The permutation applicative",
           "hierarchy": "Control Applicative Perm",
+          "indexed": "2014-03-11T19:37:25",
           "module": "Control.Applicative.Perm",
           "name": "Perm",
           "package": "perm",
@@ -142,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap a \u003ccode\u003e\u003ca\u003ePerm\u003c/a\u003e\u003c/code\u003e, combining actions using the \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:25 UTC 2014",
           "module": "Control.Applicative.Perm",
           "name": "runPerm",
           "package": "perm",
@@ -152,6 +157,7 @@
         "index": {
           "description": "Unwrap Perm combining actions using the Alternative for",
           "hierarchy": "Control Applicative Perm",
+          "indexed": "2014-03-11T19:37:25",
           "module": "Control.Applicative.Perm",
           "name": "runPerm",
           "normalized": "Perm a b-\u003ea b",
@@ -167,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:25 UTC 2014",
           "module": "Control.Monad.Perm",
           "name": "Perm",
           "package": "perm",
@@ -175,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Perm",
+          "indexed": "2014-03-11T19:37:25",
           "module": "Control.Monad.Perm",
           "name": "Perm",
           "package": "perm",
@@ -189,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe permutation applicative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:25 UTC 2014",
           "module": "Control.Monad.Perm",
           "name": "Perm",
           "package": "perm",
@@ -198,6 +207,7 @@
         "index": {
           "description": "The permutation applicative",
           "hierarchy": "Control Monad Perm",
+          "indexed": "2014-03-11T19:37:25",
           "module": "Control.Monad.Perm",
           "name": "Perm",
           "package": "perm",
@@ -212,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap a \u003ccode\u003e\u003ca\u003ePerm\u003c/a\u003e\u003c/code\u003e, combining actions using the \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:25 UTC 2014",
           "module": "Control.Monad.Perm",
           "name": "runPerm",
           "package": "perm",
@@ -222,6 +233,7 @@
         "index": {
           "description": "Unwrap Perm combining actions using the MonadPlus for",
           "hierarchy": "Control Monad Perm",
+          "indexed": "2014-03-11T19:37:25",
           "module": "Control.Monad.Perm",
           "name": "runPerm",
           "normalized": "Perm a b-\u003ea b",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "partly"
+        "phrase": "partly",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for dealing with the old-fasioned and modern Master Boot Records.\n This does not cover things like the GUID partition table or any of the\n weird variations like AAP or NEWLDR.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "MBR",
           "package": "partly",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Types for dealing with the old-fasioned and modern Master Boot Records This does not cover things like the GUID partition table or any of the weird variations like AAP or NEWLDR",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "MBR",
           "package": "partly",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe structure of a Master Boot Record is as follows...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "BootRecord",
           "package": "partly",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The structure of Master Boot Record is as follows",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "BootRecord",
           "package": "partly",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA representation of the cylinder\u003cem\u003ehead\u003c/em\u003esector address in MBRs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "CHS",
           "package": "partly",
@@ -74,6 +79,7 @@
         "index": {
           "description": "representation of the cylinder head sector address in MBRs",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "CHS",
           "package": "partly",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartition entries themselves are somewhat intricate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "PartitionEntry",
           "package": "partly",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Partition entries themselves are somewhat intricate",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "PartitionEntry",
           "package": "partly",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn MBR partition table consists of (up to?) four partition entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "PartitionTable",
           "package": "partly",
@@ -120,6 +129,7 @@
         "index": {
           "description": "An MBR partition table consists of up to four partition entries",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "PartitionTable",
           "package": "partly",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe so-called mystery bytes on Windows 95B, 98, 98SE, and Me --\n in fact, they're a timestamp and a drive number. \n See http:\u003cem/\u003ethestarman.pcministry.com\u003cem\u003easm\u003c/em\u003embr/mystery.htm .\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "Timestamp",
           "package": "partly",
@@ -143,6 +154,7 @@
         "index": {
           "description": "The so-called mystery bytes on Windows SE and Me in fact they re timestamp and drive number See http thestarman.pcministry.com asm mbr mystery.htm",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "Timestamp",
           "package": "partly",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "BootRecord",
           "package": "partly",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "BootRecord",
           "package": "partly",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "CHS",
           "package": "partly",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "CHS",
           "package": "partly",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "PartitionEntry",
           "package": "partly",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "PartitionEntry",
           "package": "partly",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "PartitionTable",
           "package": "partly",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "PartitionTable",
           "package": "partly",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "Timestamp",
           "package": "partly",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "Timestamp",
           "package": "partly",
@@ -267,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinally, the boot signature. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "bootSig",
           "package": "partly",
@@ -277,6 +300,7 @@
         "index": {
           "description": "Finally the boot signature",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "bootSig",
           "package": "partly",
@@ -291,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether this partition entry is marked bootable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "bootable",
           "package": "partly",
@@ -301,6 +326,7 @@
         "index": {
           "description": "Whether this partition entry is marked bootable",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "bootable",
           "normalized": "PartitionEntry-\u003eBool",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first piece of data on a disk with a Master Boot Record is some\n bootloader code that gets loaded to address 0x7c00 in memory. N.B:\n this may include the data for the Windows timestamp, if it exists. It\n will also include the optional disk signature, if it exists -- thus this\n field is always 446 bytes long.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "bootloader",
           "package": "partly",
@@ -326,6 +353,7 @@
         "index": {
           "description": "The first piece of data on disk with Master Boot Record is some bootloader code that gets loaded to address x7c00 in memory N.B this may include the data for the Windows timestamp if it exists It will also include the optional disk signature if it exists thus this field is always bytes long",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "bootloader",
           "package": "partly",
@@ -339,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe CHS address of the first absolute sector of the partition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "chsFirst",
           "package": "partly",
@@ -349,6 +378,7 @@
         "index": {
           "description": "The CHS address of the first absolute sector of the partition",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "chsFirst",
           "package": "partly",
@@ -363,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe CHS address of the last absolute sector of the partition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "chsLast",
           "package": "partly",
@@ -373,6 +404,7 @@
         "index": {
           "description": "The CHS address of the last absolute sector of the partition",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "chsLast",
           "package": "partly",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cylinder number; likewise, this is actually a 10-bit number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "cylinder",
           "package": "partly",
@@ -397,6 +430,7 @@
         "index": {
           "description": "The cylinder number likewise this is actually bit number",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "cylinder",
           "package": "partly",
@@ -410,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty bootloader -- 446 empty bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "emptyBootloader",
           "package": "partly",
@@ -420,6 +455,7 @@
         "index": {
           "description": "The empty bootloader empty bytes",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "emptyBootloader",
           "package": "partly",
@@ -433,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "first",
           "package": "partly",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "first",
           "package": "partly",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "fourth",
           "package": "partly",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "fourth",
           "package": "partly",
@@ -476,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the optional disk signature from a Bootrecord's bootloader.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "getDiskSignature",
           "package": "partly",
@@ -486,6 +527,7 @@
         "index": {
           "description": "Get the optional disk signature from Bootrecord bootloader",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "getDiskSignature",
           "normalized": "BootRecord-\u003eMaybe Word",
@@ -502,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the completely-optional, obsolete disk timestamp used by some old\n versions of Windows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "getTimestamp",
           "package": "partly",
@@ -512,6 +555,7 @@
         "index": {
           "description": "Get the completely-optional obsolete disk timestamp used by some old versions of Windows",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "getTimestamp",
           "normalized": "BootRecord-\u003eMaybe Timestamp",
@@ -528,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe head number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "head",
           "package": "partly",
@@ -538,6 +583,7 @@
         "index": {
           "description": "The head number",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "head",
           "package": "partly",
@@ -550,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "hours",
           "package": "partly",
@@ -559,6 +606,7 @@
         },
         "index": {
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "hours",
           "package": "partly",
@@ -572,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe logical block address of the first absolute sector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "lbaFirst",
           "package": "partly",
@@ -582,6 +631,7 @@
         "index": {
           "description": "The logical block address of the first absolute sector",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "lbaFirst",
           "package": "partly",
@@ -595,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "minutes",
           "package": "partly",
@@ -604,6 +655,7 @@
         },
         "index": {
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "minutes",
           "package": "partly",
@@ -617,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty boot record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "nullBootRecord",
           "package": "partly",
@@ -627,6 +680,7 @@
         "index": {
           "description": "The empty boot record",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "nullBootRecord",
           "package": "partly",
@@ -641,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty partition table entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "nullPartition",
           "package": "partly",
@@ -651,6 +706,7 @@
         "index": {
           "description": "The empty partition table entry",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "nullPartition",
           "package": "partly",
@@ -665,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty partition table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "nullPartitionTable",
           "package": "partly",
@@ -675,6 +732,7 @@
         "index": {
           "description": "The empty partition table",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "nullPartitionTable",
           "package": "partly",
@@ -689,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA partition type; for specifics, see the following document:\n http:\u003cem/\u003ewww.win.tue.nl\u003cem\u003e~aeb\u003c/em\u003epartitions/partition_types-1.html\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "partitionType",
           "package": "partly",
@@ -699,6 +758,7 @@
         "index": {
           "description": "partition type for specifics see the following document http www.win.tue.nl aeb partitions partition types-1.html",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "partitionType",
           "package": "partly",
@@ -713,6 +773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFour partition table entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "partitions",
           "package": "partly",
@@ -723,6 +784,7 @@
         "index": {
           "description": "Four partition table entries",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "partitions",
           "package": "partly",
@@ -735,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "physicalDrive",
           "package": "partly",
@@ -744,6 +807,7 @@
         },
         "index": {
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "physicalDrive",
           "package": "partly",
@@ -757,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "second",
           "package": "partly",
@@ -766,6 +831,7 @@
         },
         "index": {
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "second",
           "package": "partly",
@@ -778,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "seconds",
           "package": "partly",
@@ -787,6 +854,7 @@
         },
         "index": {
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "seconds",
           "package": "partly",
@@ -800,6 +868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sector number; this is actually a six-bit number, but\n Haskell doesn't have a convenient way to deal with those.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "sector",
           "package": "partly",
@@ -810,6 +879,7 @@
         "index": {
           "description": "The sector number this is actually six-bit number but Haskell doesn have convenient way to deal with those",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "sector",
           "package": "partly",
@@ -823,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of sectors in the partition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "sectors",
           "package": "partly",
@@ -833,6 +904,7 @@
         "index": {
           "description": "The number of sectors in the partition",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "sectors",
           "package": "partly",
@@ -846,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bitfield describing this partition. An 0x00 here means it's inactive;\n having bit 7 set (i.e. \u003e 0x80) means bootable; anything less is invalid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "status",
           "package": "partly",
@@ -856,6 +929,7 @@
         "index": {
           "description": "bitfield describing this partition An x00 here means it inactive having bit set i.e x80 means bootable anything less is invalid",
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "status",
           "package": "partly",
@@ -868,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:40 UTC 2014",
           "module": "System.Disk.Partitions.MBR",
           "name": "third",
           "package": "partly",
@@ -877,6 +952,7 @@
         },
         "index": {
           "hierarchy": "System Disk Partitions MBR",
+          "indexed": "2014-03-11T19:35:40",
           "module": "System.Disk.Partitions.MBR",
           "name": "third",
           "package": "partly",

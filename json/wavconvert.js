@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wavconvert"
+        "phrase": "wavconvert",
+        "type": "phrase"
       },
       "type": "context"
     }

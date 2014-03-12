@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fay-dom"
+        "phrase": "fay-dom",
+        "type": "phrase"
       },
       "type": "context"
     }

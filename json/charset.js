@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "charset"
+        "phrase": "charset",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast set membership tests for byte values, The set representation is\n unboxed for efficiency and uses a lookup table. This is a fairly minimal\n API. You probably want to use CharSet.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.ByteSet",
           "name": "ByteSet",
           "package": "charset",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Fast set membership tests for byte values The set representation is unboxed for efficiency and uses lookup table This is fairly minimal API You probably want to use CharSet",
           "hierarchy": "Data CharSet ByteSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.ByteSet",
           "name": "ByteSet",
           "package": "charset",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.ByteSet",
           "name": "ByteSet",
           "package": "charset",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet ByteSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.ByteSet",
           "name": "ByteSet",
           "package": "charset",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.ByteSet",
           "name": "ByteSet",
           "package": "charset",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet ByteSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.ByteSet",
           "name": "ByteSet",
           "package": "charset",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.ByteSet",
           "name": "fromList",
           "package": "charset",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet ByteSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.ByteSet",
           "name": "fromList",
           "normalized": "[Word]-\u003eByteSet",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck the set for membership.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.ByteSet",
           "name": "member",
           "package": "charset",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Check the set for membership",
           "hierarchy": "Data CharSet ByteSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.ByteSet",
           "name": "member",
           "normalized": "Word-\u003eByteSet-\u003eBool",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe various character classifications from \u003ca\u003eData.Char\u003c/a\u003e as \u003ccode\u003e\u003ca\u003eCharSet\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "Common",
           "package": "charset",
@@ -143,6 +154,7 @@
         "index": {
           "description": "The various character classifications from Data.Char as CharSet",
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "Common",
           "package": "charset",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "alpha",
           "package": "charset",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "alpha",
           "package": "charset",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "alphaNum",
           "package": "charset",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "alphaNum",
           "package": "charset",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "ascii",
           "package": "charset",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "ascii",
           "package": "charset",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "asciiLower",
           "package": "charset",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "asciiLower",
           "package": "charset",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "asciiUpper",
           "package": "charset",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "asciiUpper",
           "package": "charset",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "control",
           "package": "charset",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "control",
           "package": "charset",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "digit",
           "package": "charset",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "digit",
           "package": "charset",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "latin1",
           "package": "charset",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "latin1",
           "package": "charset",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "letter",
           "package": "charset",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "letter",
           "package": "charset",
@@ -348,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "lower",
           "package": "charset",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "lower",
           "package": "charset",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "mark",
           "package": "charset",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "mark",
           "package": "charset",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "number",
           "package": "charset",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "number",
           "package": "charset",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "octDigit",
           "package": "charset",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "octDigit",
           "package": "charset",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "print",
           "package": "charset",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "print",
           "package": "charset",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "punctuation",
           "package": "charset",
@@ -463,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "punctuation",
           "package": "charset",
@@ -475,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "separator",
           "package": "charset",
@@ -484,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "separator",
           "package": "charset",
@@ -496,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "space",
           "package": "charset",
@@ -505,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "space",
           "package": "charset",
@@ -517,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "symbol",
           "package": "charset",
@@ -526,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "symbol",
           "package": "charset",
@@ -538,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Common",
           "name": "upper",
           "package": "charset",
@@ -547,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Common",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Common",
           "name": "upper",
           "package": "charset",
@@ -559,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "Ascii",
           "package": "charset",
@@ -567,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Ascii",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "Ascii",
           "package": "charset",
@@ -580,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "alnum",
           "package": "charset",
@@ -589,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Ascii",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "alnum",
           "package": "charset",
@@ -601,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "alpha",
           "package": "charset",
@@ -610,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Ascii",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "alpha",
           "package": "charset",
@@ -622,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "ascii",
           "package": "charset",
@@ -631,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Ascii",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "ascii",
           "package": "charset",
@@ -643,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "blank",
           "package": "charset",
@@ -652,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Ascii",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "blank",
           "package": "charset",
@@ -664,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "cntrl",
           "package": "charset",
@@ -673,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Ascii",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "cntrl",
           "package": "charset",
@@ -685,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "digit",
           "package": "charset",
@@ -694,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Ascii",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "digit",
           "package": "charset",
@@ -706,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "graph",
           "package": "charset",
@@ -715,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Ascii",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "graph",
           "package": "charset",
@@ -752,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "lower",
           "package": "charset",
@@ -761,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Ascii",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "lower",
           "package": "charset",
@@ -796,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "print",
           "package": "charset",
@@ -805,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Ascii",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "print",
           "package": "charset",
@@ -817,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "punct",
           "package": "charset",
@@ -826,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Ascii",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "punct",
           "package": "charset",
@@ -838,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "space",
           "package": "charset",
@@ -847,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Ascii",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "space",
           "package": "charset",
@@ -859,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "upper",
           "package": "charset",
@@ -868,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Ascii",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "upper",
           "package": "charset",
@@ -880,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "word",
           "package": "charset",
@@ -889,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Ascii",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "word",
           "package": "charset",
@@ -901,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "xdigit",
           "package": "charset",
@@ -910,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Ascii",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Ascii",
           "name": "xdigit",
           "package": "charset",
@@ -922,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "Unicode",
           "package": "charset",
@@ -930,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "Unicode",
           "package": "charset",
@@ -943,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "alnum",
           "package": "charset",
@@ -952,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "alnum",
           "package": "charset",
@@ -964,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "alpha",
           "package": "charset",
@@ -973,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "alpha",
           "package": "charset",
@@ -985,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "ascii",
           "package": "charset",
@@ -994,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "ascii",
           "package": "charset",
@@ -1006,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "blank",
           "package": "charset",
@@ -1015,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "blank",
           "package": "charset",
@@ -1027,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "cntrl",
           "package": "charset",
@@ -1036,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "cntrl",
           "package": "charset",
@@ -1048,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "digit",
           "package": "charset",
@@ -1057,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "digit",
           "package": "charset",
@@ -1069,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "graph",
           "package": "charset",
@@ -1078,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "graph",
           "package": "charset",
@@ -1115,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "lower",
           "package": "charset",
@@ -1124,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "lower",
           "package": "charset",
@@ -1159,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "print",
           "package": "charset",
@@ -1168,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "print",
           "package": "charset",
@@ -1180,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "punct",
           "package": "charset",
@@ -1189,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "punct",
           "package": "charset",
@@ -1201,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "space",
           "package": "charset",
@@ -1210,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "space",
           "package": "charset",
@@ -1222,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "upper",
           "package": "charset",
@@ -1231,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "upper",
           "package": "charset",
@@ -1243,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "word",
           "package": "charset",
@@ -1252,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "word",
           "package": "charset",
@@ -1264,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "xdigit",
           "package": "charset",
@@ -1273,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix.Unicode",
           "name": "xdigit",
           "package": "charset",
@@ -1285,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Posix",
           "name": "Posix",
           "package": "charset",
@@ -1293,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Posix",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Posix",
           "name": "Posix",
           "package": "charset",
@@ -1307,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides unicode general categories, which are typically connoted by\n \u003ccode\u003ep{InBasicLatin}\u003c/code\u003e or \u003ccode\u003ep{InIPA_Extensions}\u003c/code\u003e. Lookups can be constructed using \u003ccode\u003ecategories\u003c/code\u003e\n or individual character sets can be used directly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "Block",
           "package": "charset",
@@ -1316,6 +1429,7 @@
         "index": {
           "description": "Provides unicode general categories which are typically connoted by InBasicLatin or InIPA Extensions Lookups can be constructed using categories or individual character sets can be used directly",
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "Block",
           "package": "charset",
@@ -1329,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "Block",
           "package": "charset",
@@ -1337,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "Block",
           "package": "charset",
@@ -1350,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "Block",
           "package": "charset",
@@ -1359,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "Block",
           "package": "charset",
@@ -1372,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "alphabeticPresentationForms",
           "package": "charset",
@@ -1381,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "alphabeticPresentationForms",
           "package": "charset",
@@ -1394,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "arabic",
           "package": "charset",
@@ -1403,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "arabic",
           "package": "charset",
@@ -1415,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "arabicPresentationFormsA",
           "package": "charset",
@@ -1424,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "arabicPresentationFormsA",
           "package": "charset",
@@ -1437,6 +1561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "arabicPresentationFormsB",
           "package": "charset",
@@ -1446,6 +1571,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "arabicPresentationFormsB",
           "package": "charset",
@@ -1459,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "armenian",
           "package": "charset",
@@ -1468,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "armenian",
           "package": "charset",
@@ -1480,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "arrows",
           "package": "charset",
@@ -1489,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "arrows",
           "package": "charset",
@@ -1501,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "basicLatin",
           "package": "charset",
@@ -1510,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "basicLatin",
           "package": "charset",
@@ -1523,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "bengali",
           "package": "charset",
@@ -1532,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "bengali",
           "package": "charset",
@@ -1544,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "blockCharSet",
           "package": "charset",
@@ -1553,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "blockCharSet",
           "package": "charset",
@@ -1566,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "blockElements",
           "package": "charset",
@@ -1575,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "blockElements",
           "package": "charset",
@@ -1588,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "blockName",
           "package": "charset",
@@ -1597,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "blockName",
           "package": "charset",
@@ -1610,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "blocks",
           "package": "charset",
@@ -1619,6 +1760,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "blocks",
           "normalized": "[Block]",
@@ -1633,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "bopomofo",
           "package": "charset",
@@ -1642,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "bopomofo",
           "package": "charset",
@@ -1654,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "bopomofoExtended",
           "package": "charset",
@@ -1663,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "bopomofoExtended",
           "package": "charset",
@@ -1676,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "boxDrawing",
           "package": "charset",
@@ -1685,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "boxDrawing",
           "package": "charset",
@@ -1698,6 +1846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "braillePatterns",
           "package": "charset",
@@ -1707,6 +1856,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "braillePatterns",
           "package": "charset",
@@ -1720,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "buhid",
           "package": "charset",
@@ -1729,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "buhid",
           "package": "charset",
@@ -1741,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cherokee",
           "package": "charset",
@@ -1750,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cherokee",
           "package": "charset",
@@ -1762,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cjkCompatibility",
           "package": "charset",
@@ -1771,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cjkCompatibility",
           "package": "charset",
@@ -1784,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cjkCompatibilityForms",
           "package": "charset",
@@ -1793,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cjkCompatibilityForms",
           "package": "charset",
@@ -1806,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cjkCompatibilityIdeographs",
           "package": "charset",
@@ -1815,6 +1974,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cjkCompatibilityIdeographs",
           "package": "charset",
@@ -1828,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cjkRadicalsSupplement",
           "package": "charset",
@@ -1837,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cjkRadicalsSupplement",
           "package": "charset",
@@ -1850,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cjkSymbolsAndPunctuation",
           "package": "charset",
@@ -1859,6 +2022,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cjkSymbolsAndPunctuation",
           "package": "charset",
@@ -1872,6 +2036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cjkUnifiedIdeographs",
           "package": "charset",
@@ -1881,6 +2046,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cjkUnifiedIdeographs",
           "package": "charset",
@@ -1894,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cjkUnifiedIdeographsExtensionA",
           "package": "charset",
@@ -1903,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cjkUnifiedIdeographsExtensionA",
           "package": "charset",
@@ -1916,6 +2084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "combiningDiacriticalMarks",
           "package": "charset",
@@ -1925,6 +2094,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "combiningDiacriticalMarks",
           "package": "charset",
@@ -1938,6 +2108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "combiningDiacriticalMarksForSymbols",
           "package": "charset",
@@ -1947,6 +2118,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "combiningDiacriticalMarksForSymbols",
           "package": "charset",
@@ -1960,6 +2132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "combiningHalfMarks",
           "package": "charset",
@@ -1969,6 +2142,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "combiningHalfMarks",
           "package": "charset",
@@ -1982,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "controlPictures",
           "package": "charset",
@@ -1991,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "controlPictures",
           "package": "charset",
@@ -2004,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "currencySymbols",
           "package": "charset",
@@ -2013,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "currencySymbols",
           "package": "charset",
@@ -2026,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cyrillic",
           "package": "charset",
@@ -2035,6 +2214,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cyrillic",
           "package": "charset",
@@ -2047,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cyrillicSupplementary",
           "package": "charset",
@@ -2056,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "cyrillicSupplementary",
           "package": "charset",
@@ -2069,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "devanagari",
           "package": "charset",
@@ -2078,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "devanagari",
           "package": "charset",
@@ -2090,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "dingbats",
           "package": "charset",
@@ -2099,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "dingbats",
           "package": "charset",
@@ -2111,6 +2297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "enclosedAlphanumerics",
           "package": "charset",
@@ -2120,6 +2307,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "enclosedAlphanumerics",
           "package": "charset",
@@ -2133,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "enclosedCjkLettersAndMonths",
           "package": "charset",
@@ -2142,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "enclosedCjkLettersAndMonths",
           "package": "charset",
@@ -2155,6 +2345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "ethiopic",
           "package": "charset",
@@ -2164,6 +2355,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "ethiopic",
           "package": "charset",
@@ -2176,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "generalPunctuation",
           "package": "charset",
@@ -2185,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "generalPunctuation",
           "package": "charset",
@@ -2198,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "geometricShapes",
           "package": "charset",
@@ -2207,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "geometricShapes",
           "package": "charset",
@@ -2220,6 +2416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "georgian",
           "package": "charset",
@@ -2229,6 +2426,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "georgian",
           "package": "charset",
@@ -2241,6 +2439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "greekAndCoptic",
           "package": "charset",
@@ -2250,6 +2449,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "greekAndCoptic",
           "package": "charset",
@@ -2263,6 +2463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "greekExtended",
           "package": "charset",
@@ -2272,6 +2473,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "greekExtended",
           "package": "charset",
@@ -2285,6 +2487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "gujarati",
           "package": "charset",
@@ -2294,6 +2497,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "gujarati",
           "package": "charset",
@@ -2306,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "gurmukhi",
           "package": "charset",
@@ -2315,6 +2520,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "gurmukhi",
           "package": "charset",
@@ -2327,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "halfwidthAndFullwidthForms",
           "package": "charset",
@@ -2336,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "halfwidthAndFullwidthForms",
           "package": "charset",
@@ -2349,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "hangulCompatibilityJamo",
           "package": "charset",
@@ -2358,6 +2567,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "hangulCompatibilityJamo",
           "package": "charset",
@@ -2371,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "hangulJamo",
           "package": "charset",
@@ -2380,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "hangulJamo",
           "package": "charset",
@@ -2393,6 +2605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "hangulSyllables",
           "package": "charset",
@@ -2402,6 +2615,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "hangulSyllables",
           "package": "charset",
@@ -2415,6 +2629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "hanunoo",
           "package": "charset",
@@ -2424,6 +2639,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "hanunoo",
           "package": "charset",
@@ -2436,6 +2652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "hebrew",
           "package": "charset",
@@ -2445,6 +2662,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "hebrew",
           "package": "charset",
@@ -2457,6 +2675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "highPrivateUseSurrogates",
           "package": "charset",
@@ -2466,6 +2685,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "highPrivateUseSurrogates",
           "package": "charset",
@@ -2479,6 +2699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "highSurrogates",
           "package": "charset",
@@ -2488,6 +2709,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "highSurrogates",
           "package": "charset",
@@ -2501,6 +2723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "hiragana",
           "package": "charset",
@@ -2510,6 +2733,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "hiragana",
           "package": "charset",
@@ -2522,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "ideographicDescriptionCharacters",
           "package": "charset",
@@ -2531,6 +2756,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "ideographicDescriptionCharacters",
           "package": "charset",
@@ -2544,6 +2770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "ipaExtensions",
           "package": "charset",
@@ -2553,6 +2780,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "ipaExtensions",
           "package": "charset",
@@ -2566,6 +2794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "kanbun",
           "package": "charset",
@@ -2575,6 +2804,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "kanbun",
           "package": "charset",
@@ -2587,6 +2817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "kangxiRadicals",
           "package": "charset",
@@ -2596,6 +2827,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "kangxiRadicals",
           "package": "charset",
@@ -2609,6 +2841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "kannada",
           "package": "charset",
@@ -2618,6 +2851,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "kannada",
           "package": "charset",
@@ -2630,6 +2864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "katakana",
           "package": "charset",
@@ -2639,6 +2874,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "katakana",
           "package": "charset",
@@ -2651,6 +2887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "katakanaPhoneticExtensions",
           "package": "charset",
@@ -2660,6 +2897,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "katakanaPhoneticExtensions",
           "package": "charset",
@@ -2673,6 +2911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "khmer",
           "package": "charset",
@@ -2682,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "khmer",
           "package": "charset",
@@ -2694,6 +2934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "khmerSymbols",
           "package": "charset",
@@ -2703,6 +2944,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "khmerSymbols",
           "package": "charset",
@@ -2716,6 +2958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "lao",
           "package": "charset",
@@ -2725,6 +2968,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "lao",
           "package": "charset",
@@ -2737,6 +2981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "latin1Supplement",
           "package": "charset",
@@ -2746,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "latin1Supplement",
           "package": "charset",
@@ -2759,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "latinExtendedA",
           "package": "charset",
@@ -2768,6 +3015,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "latinExtendedA",
           "package": "charset",
@@ -2781,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "latinExtendedAdditional",
           "package": "charset",
@@ -2790,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "latinExtendedAdditional",
           "package": "charset",
@@ -2803,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "latinExtendedB",
           "package": "charset",
@@ -2812,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "latinExtendedB",
           "package": "charset",
@@ -2825,6 +3077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "letterlikeSymbols",
           "package": "charset",
@@ -2834,6 +3087,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "letterlikeSymbols",
           "package": "charset",
@@ -2847,6 +3101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "limbu",
           "package": "charset",
@@ -2856,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "limbu",
           "package": "charset",
@@ -2868,6 +3124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "lookupBlock",
           "package": "charset",
@@ -2877,6 +3134,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "lookupBlock",
           "normalized": "String-\u003eMaybe Block",
@@ -2892,6 +3150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "lookupBlockCharSet",
           "package": "charset",
@@ -2901,6 +3160,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "lookupBlockCharSet",
           "normalized": "String-\u003eMaybe CharSet",
@@ -2916,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "lowSurrogates",
           "package": "charset",
@@ -2925,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "lowSurrogates",
           "package": "charset",
@@ -2938,6 +3200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "malayalam",
           "package": "charset",
@@ -2947,6 +3210,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "malayalam",
           "package": "charset",
@@ -2959,6 +3223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "mathematicalOperators",
           "package": "charset",
@@ -2968,6 +3233,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "mathematicalOperators",
           "package": "charset",
@@ -2981,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "miscellaneousMathematicalSymbolsA",
           "package": "charset",
@@ -2990,6 +3257,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "miscellaneousMathematicalSymbolsA",
           "package": "charset",
@@ -3003,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "miscellaneousMathematicalSymbolsB",
           "package": "charset",
@@ -3012,6 +3281,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "miscellaneousMathematicalSymbolsB",
           "package": "charset",
@@ -3025,6 +3295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "miscellaneousSymbols",
           "package": "charset",
@@ -3034,6 +3305,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "miscellaneousSymbols",
           "package": "charset",
@@ -3047,6 +3319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "miscellaneousSymbolsAndArrows",
           "package": "charset",
@@ -3056,6 +3329,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "miscellaneousSymbolsAndArrows",
           "package": "charset",
@@ -3069,6 +3343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "miscellaneousTechnical",
           "package": "charset",
@@ -3078,6 +3353,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "miscellaneousTechnical",
           "package": "charset",
@@ -3091,6 +3367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "mongolian",
           "package": "charset",
@@ -3100,6 +3377,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "mongolian",
           "package": "charset",
@@ -3112,6 +3390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "myanmar",
           "package": "charset",
@@ -3121,6 +3400,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "myanmar",
           "package": "charset",
@@ -3133,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "numberForms",
           "package": "charset",
@@ -3142,6 +3423,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "numberForms",
           "package": "charset",
@@ -3155,6 +3437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "ogham",
           "package": "charset",
@@ -3164,6 +3447,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "ogham",
           "package": "charset",
@@ -3176,6 +3460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "opticalCharacterRecognition",
           "package": "charset",
@@ -3185,6 +3470,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "opticalCharacterRecognition",
           "package": "charset",
@@ -3198,6 +3484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "oriya",
           "package": "charset",
@@ -3207,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "oriya",
           "package": "charset",
@@ -3219,6 +3507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "phoneticExtensions",
           "package": "charset",
@@ -3228,6 +3517,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "phoneticExtensions",
           "package": "charset",
@@ -3241,6 +3531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "privateUseArea",
           "package": "charset",
@@ -3250,6 +3541,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "privateUseArea",
           "package": "charset",
@@ -3263,6 +3555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "runic",
           "package": "charset",
@@ -3272,6 +3565,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "runic",
           "package": "charset",
@@ -3284,6 +3578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "sinhala",
           "package": "charset",
@@ -3293,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "sinhala",
           "package": "charset",
@@ -3305,6 +3601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "smallFormVariants",
           "package": "charset",
@@ -3314,6 +3611,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "smallFormVariants",
           "package": "charset",
@@ -3327,6 +3625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "spacingModifierLetters",
           "package": "charset",
@@ -3336,6 +3635,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "spacingModifierLetters",
           "package": "charset",
@@ -3349,6 +3649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "specials",
           "package": "charset",
@@ -3358,6 +3659,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "specials",
           "package": "charset",
@@ -3370,6 +3672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "superscriptsAndSubscripts",
           "package": "charset",
@@ -3379,6 +3682,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "superscriptsAndSubscripts",
           "package": "charset",
@@ -3392,6 +3696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "supplementalArrowsA",
           "package": "charset",
@@ -3401,6 +3706,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "supplementalArrowsA",
           "package": "charset",
@@ -3414,6 +3720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "supplementalArrowsB",
           "package": "charset",
@@ -3423,6 +3730,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "supplementalArrowsB",
           "package": "charset",
@@ -3436,6 +3744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "supplementalMathematicalOperators",
           "package": "charset",
@@ -3445,6 +3754,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "supplementalMathematicalOperators",
           "package": "charset",
@@ -3458,6 +3768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "syriac",
           "package": "charset",
@@ -3467,6 +3778,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "syriac",
           "package": "charset",
@@ -3479,6 +3791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "tagalog",
           "package": "charset",
@@ -3488,6 +3801,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "tagalog",
           "package": "charset",
@@ -3500,6 +3814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "tagbanwa",
           "package": "charset",
@@ -3509,6 +3824,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "tagbanwa",
           "package": "charset",
@@ -3521,6 +3837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "taiLe",
           "package": "charset",
@@ -3530,6 +3847,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "taiLe",
           "package": "charset",
@@ -3543,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "tamil",
           "package": "charset",
@@ -3552,6 +3871,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "tamil",
           "package": "charset",
@@ -3564,6 +3884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "telugu",
           "package": "charset",
@@ -3573,6 +3894,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "telugu",
           "package": "charset",
@@ -3585,6 +3907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "thaana",
           "package": "charset",
@@ -3594,6 +3917,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "thaana",
           "package": "charset",
@@ -3606,6 +3930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "thai",
           "package": "charset",
@@ -3615,6 +3940,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "thai",
           "package": "charset",
@@ -3627,6 +3953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "tibetan",
           "package": "charset",
@@ -3636,6 +3963,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "tibetan",
           "package": "charset",
@@ -3648,6 +3976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "unifiedCanadianAboriginalSyllabics",
           "package": "charset",
@@ -3657,6 +3986,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "unifiedCanadianAboriginalSyllabics",
           "package": "charset",
@@ -3670,6 +4000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "variationSelectors",
           "package": "charset",
@@ -3679,6 +4010,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "variationSelectors",
           "package": "charset",
@@ -3692,6 +4024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "yiRadicals",
           "package": "charset",
@@ -3701,6 +4034,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "yiRadicals",
           "package": "charset",
@@ -3714,6 +4048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "yiSyllables",
           "package": "charset",
@@ -3723,6 +4058,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "yiSyllables",
           "package": "charset",
@@ -3736,6 +4072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Block",
           "name": "yijingHexagramSymbols",
           "package": "charset",
@@ -3745,6 +4082,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Block",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Block",
           "name": "yijingHexagramSymbols",
           "package": "charset",
@@ -3759,6 +4097,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides unicode general categories, which are typically connoted by\n \u003ccode\u003ep{Ll}\u003c/code\u003e or \u003ccode\u003ep{Modifier_Letter}\u003c/code\u003e. Lookups can be constructed using \u003ccode\u003e\u003ca\u003ecategories\u003c/a\u003e\u003c/code\u003e\n or individual character sets can be used directly.\n\u003c/p\u003e\u003cp\u003eA case, \u003ccode\u003e_\u003c/code\u003e and \u003ccode\u003e-\u003c/code\u003e insensitive lookup is provided by \u003ccode\u003e\u003ca\u003elookupCategory\u003c/a\u003e\u003c/code\u003e\n and can be used to provide behavior similar to that of Perl or PCRE.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "Category",
           "package": "charset",
@@ -3768,6 +4107,7 @@
         "index": {
           "description": "Provides unicode general categories which are typically connoted by Ll or Modifier Letter Lookups can be constructed using categories or individual character sets can be used directly case and insensitive lookup is provided by lookupCategory and can be used to provide behavior similar to that of Perl or PCRE",
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "Category",
           "package": "charset",
@@ -3781,6 +4121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "Category",
           "package": "charset",
@@ -3789,6 +4130,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "Category",
           "package": "charset",
@@ -3802,6 +4144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "Category",
           "package": "charset",
@@ -3811,6 +4154,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "Category",
           "package": "charset",
@@ -3824,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "categories",
           "package": "charset",
@@ -3833,6 +4178,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "categories",
           "normalized": "[Category]",
@@ -3847,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "categoryAbbreviation",
           "package": "charset",
@@ -3856,6 +4203,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "categoryAbbreviation",
           "package": "charset",
@@ -3869,6 +4217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "categoryCharSet",
           "package": "charset",
@@ -3878,6 +4227,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "categoryCharSet",
           "package": "charset",
@@ -3891,6 +4241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "categoryDescription",
           "package": "charset",
@@ -3900,6 +4251,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "categoryDescription",
           "package": "charset",
@@ -3913,6 +4265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "categoryName",
           "package": "charset",
@@ -3922,6 +4275,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "categoryName",
           "package": "charset",
@@ -3935,6 +4289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "closePunctuation",
           "package": "charset",
@@ -3944,6 +4299,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "closePunctuation",
           "package": "charset",
@@ -3957,6 +4313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "connectorPunctuation",
           "package": "charset",
@@ -3966,6 +4323,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "connectorPunctuation",
           "package": "charset",
@@ -3979,6 +4337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "control",
           "package": "charset",
@@ -3988,6 +4347,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "control",
           "package": "charset",
@@ -4000,6 +4360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "currencySymbol",
           "package": "charset",
@@ -4009,6 +4370,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "currencySymbol",
           "package": "charset",
@@ -4022,6 +4384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "dashPunctuation",
           "package": "charset",
@@ -4031,6 +4394,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "dashPunctuation",
           "package": "charset",
@@ -4044,6 +4408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "decimalNumber",
           "package": "charset",
@@ -4053,6 +4418,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "decimalNumber",
           "package": "charset",
@@ -4066,6 +4432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "enclosingMark",
           "package": "charset",
@@ -4075,6 +4442,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "enclosingMark",
           "package": "charset",
@@ -4088,6 +4456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "finalQuote",
           "package": "charset",
@@ -4097,6 +4466,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "finalQuote",
           "package": "charset",
@@ -4110,6 +4480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "format",
           "package": "charset",
@@ -4119,6 +4490,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "format",
           "package": "charset",
@@ -4131,6 +4503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "initialQuote",
           "package": "charset",
@@ -4140,6 +4513,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "initialQuote",
           "package": "charset",
@@ -4153,6 +4527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "letter",
           "package": "charset",
@@ -4162,6 +4537,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "letter",
           "package": "charset",
@@ -4174,6 +4550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "letterAnd",
           "package": "charset",
@@ -4183,6 +4560,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "letterAnd",
           "package": "charset",
@@ -4196,6 +4574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "letterNumber",
           "package": "charset",
@@ -4205,6 +4584,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "letterNumber",
           "package": "charset",
@@ -4218,6 +4598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "lineSeparator",
           "package": "charset",
@@ -4227,6 +4608,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "lineSeparator",
           "package": "charset",
@@ -4240,6 +4622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "lookupCategory",
           "package": "charset",
@@ -4249,6 +4632,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "lookupCategory",
           "normalized": "String-\u003eMaybe Category",
@@ -4264,6 +4648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "lookupCategoryCharSet",
           "package": "charset",
@@ -4273,6 +4658,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "lookupCategoryCharSet",
           "normalized": "String-\u003eMaybe CharSet",
@@ -4288,6 +4674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "lowercaseLetter",
           "package": "charset",
@@ -4297,6 +4684,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "lowercaseLetter",
           "package": "charset",
@@ -4310,6 +4698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "mark",
           "package": "charset",
@@ -4319,6 +4708,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "mark",
           "package": "charset",
@@ -4331,6 +4721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "mathSymbol",
           "package": "charset",
@@ -4340,6 +4731,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "mathSymbol",
           "package": "charset",
@@ -4353,6 +4745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "modifierLetter",
           "package": "charset",
@@ -4362,6 +4755,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "modifierLetter",
           "package": "charset",
@@ -4375,6 +4769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "modifierSymbol",
           "package": "charset",
@@ -4384,6 +4779,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "modifierSymbol",
           "package": "charset",
@@ -4397,6 +4793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "nonSpacingMark",
           "package": "charset",
@@ -4406,6 +4803,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "nonSpacingMark",
           "package": "charset",
@@ -4419,6 +4817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "notAssigned",
           "package": "charset",
@@ -4428,6 +4827,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "notAssigned",
           "package": "charset",
@@ -4441,6 +4841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "number",
           "package": "charset",
@@ -4450,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "number",
           "package": "charset",
@@ -4462,6 +4864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "openPunctuation",
           "package": "charset",
@@ -4471,6 +4874,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "openPunctuation",
           "package": "charset",
@@ -4484,6 +4888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "other",
           "package": "charset",
@@ -4493,6 +4898,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "other",
           "package": "charset",
@@ -4505,6 +4911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "otherLetter",
           "package": "charset",
@@ -4514,6 +4921,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "otherLetter",
           "package": "charset",
@@ -4527,6 +4935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "otherNumber",
           "package": "charset",
@@ -4536,6 +4945,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "otherNumber",
           "package": "charset",
@@ -4549,6 +4959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "otherPunctuation",
           "package": "charset",
@@ -4558,6 +4969,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "otherPunctuation",
           "package": "charset",
@@ -4571,6 +4983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "otherSymbol",
           "package": "charset",
@@ -4580,6 +4993,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "otherSymbol",
           "package": "charset",
@@ -4593,6 +5007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "paragraphSeparator",
           "package": "charset",
@@ -4602,6 +5017,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "paragraphSeparator",
           "package": "charset",
@@ -4615,6 +5031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "privateUse",
           "package": "charset",
@@ -4624,6 +5041,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "privateUse",
           "package": "charset",
@@ -4637,6 +5055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "punctuation",
           "package": "charset",
@@ -4646,6 +5065,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "punctuation",
           "package": "charset",
@@ -4658,6 +5078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "separator",
           "package": "charset",
@@ -4667,6 +5088,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "separator",
           "package": "charset",
@@ -4679,6 +5101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "space",
           "package": "charset",
@@ -4688,6 +5111,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "space",
           "package": "charset",
@@ -4700,6 +5124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "spacingCombiningMark",
           "package": "charset",
@@ -4709,6 +5134,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "spacingCombiningMark",
           "package": "charset",
@@ -4722,6 +5148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "surrogate",
           "package": "charset",
@@ -4731,6 +5158,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "surrogate",
           "package": "charset",
@@ -4743,6 +5171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "symbol",
           "package": "charset",
@@ -4752,6 +5181,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "symbol",
           "package": "charset",
@@ -4764,6 +5194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "titlecaseLetter",
           "package": "charset",
@@ -4773,6 +5204,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "titlecaseLetter",
           "package": "charset",
@@ -4786,6 +5218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode.Category",
           "name": "uppercaseLetter",
           "package": "charset",
@@ -4795,6 +5228,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode Category",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode.Category",
           "name": "uppercaseLetter",
           "package": "charset",
@@ -4809,6 +5243,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides unicode general categories, which are typically connoted by\n \u003ccode\u003ep{Ll}\u003c/code\u003e or \u003ccode\u003ep{Modifier_Letter}\u003c/code\u003e. Lookups can be constructed using \u003ccode\u003ecategories\u003c/code\u003e\n or individual character sets can be used directly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "Unicode",
           "package": "charset",
@@ -4818,6 +5253,7 @@
         "index": {
           "description": "Provides unicode general categories which are typically connoted by Ll or Modifier Letter Lookups can be constructed using categories or individual character sets can be used directly",
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "Unicode",
           "package": "charset",
@@ -4831,6 +5267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "UnicodeCategory",
           "package": "charset",
@@ -4839,6 +5276,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "UnicodeCategory",
           "package": "charset",
@@ -4852,6 +5290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "UnicodeCategory",
           "package": "charset",
@@ -4861,6 +5300,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "UnicodeCategory",
           "package": "charset",
@@ -4874,6 +5314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "closePunctuation",
           "package": "charset",
@@ -4883,6 +5324,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "closePunctuation",
           "package": "charset",
@@ -4896,6 +5338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "connectorPunctuation",
           "package": "charset",
@@ -4905,6 +5348,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "connectorPunctuation",
           "package": "charset",
@@ -4918,6 +5362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "control",
           "package": "charset",
@@ -4927,6 +5372,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "control",
           "package": "charset",
@@ -4939,6 +5385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "currencySymbol",
           "package": "charset",
@@ -4948,6 +5395,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "currencySymbol",
           "package": "charset",
@@ -4961,6 +5409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "dashPunctuation",
           "package": "charset",
@@ -4970,6 +5419,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "dashPunctuation",
           "package": "charset",
@@ -4983,6 +5433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "decimalNumber",
           "package": "charset",
@@ -4992,6 +5443,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "decimalNumber",
           "package": "charset",
@@ -5005,6 +5457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "enclosingMark",
           "package": "charset",
@@ -5014,6 +5467,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "enclosingMark",
           "package": "charset",
@@ -5027,6 +5481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "finalQuote",
           "package": "charset",
@@ -5036,6 +5491,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "finalQuote",
           "package": "charset",
@@ -5049,6 +5505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "format",
           "package": "charset",
@@ -5058,6 +5515,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "format",
           "package": "charset",
@@ -5070,6 +5528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "initialQuote",
           "package": "charset",
@@ -5079,6 +5538,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "initialQuote",
           "package": "charset",
@@ -5092,6 +5552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "letter",
           "package": "charset",
@@ -5101,6 +5562,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "letter",
           "package": "charset",
@@ -5113,6 +5575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "letterAnd",
           "package": "charset",
@@ -5122,6 +5585,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "letterAnd",
           "package": "charset",
@@ -5135,6 +5599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "letterNumber",
           "package": "charset",
@@ -5144,6 +5609,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "letterNumber",
           "package": "charset",
@@ -5157,6 +5623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "lineSeparator",
           "package": "charset",
@@ -5166,6 +5633,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "lineSeparator",
           "package": "charset",
@@ -5179,6 +5647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "lowercaseLetter",
           "package": "charset",
@@ -5188,6 +5657,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "lowercaseLetter",
           "package": "charset",
@@ -5201,6 +5671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "mark",
           "package": "charset",
@@ -5210,6 +5681,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "mark",
           "package": "charset",
@@ -5222,6 +5694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "mathSymbol",
           "package": "charset",
@@ -5231,6 +5704,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "mathSymbol",
           "package": "charset",
@@ -5244,6 +5718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "modifierLetter",
           "package": "charset",
@@ -5253,6 +5728,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "modifierLetter",
           "package": "charset",
@@ -5266,6 +5742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "modifierSymbol",
           "package": "charset",
@@ -5275,6 +5752,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "modifierSymbol",
           "package": "charset",
@@ -5288,6 +5766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "nonSpacingMark",
           "package": "charset",
@@ -5297,6 +5776,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "nonSpacingMark",
           "package": "charset",
@@ -5310,6 +5790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "notAssigned",
           "package": "charset",
@@ -5319,6 +5800,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "notAssigned",
           "package": "charset",
@@ -5332,6 +5814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "number",
           "package": "charset",
@@ -5341,6 +5824,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "number",
           "package": "charset",
@@ -5353,6 +5837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "openPunctuation",
           "package": "charset",
@@ -5362,6 +5847,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "openPunctuation",
           "package": "charset",
@@ -5375,6 +5861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "other",
           "package": "charset",
@@ -5384,6 +5871,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "other",
           "package": "charset",
@@ -5396,6 +5884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "otherLetter",
           "package": "charset",
@@ -5405,6 +5894,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "otherLetter",
           "package": "charset",
@@ -5418,6 +5908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "otherNumber",
           "package": "charset",
@@ -5427,6 +5918,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "otherNumber",
           "package": "charset",
@@ -5440,6 +5932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "otherPunctuation",
           "package": "charset",
@@ -5449,6 +5942,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "otherPunctuation",
           "package": "charset",
@@ -5462,6 +5956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "otherSymbol",
           "package": "charset",
@@ -5471,6 +5966,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "otherSymbol",
           "package": "charset",
@@ -5484,6 +5980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "paragraphSeparator",
           "package": "charset",
@@ -5493,6 +5990,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "paragraphSeparator",
           "package": "charset",
@@ -5506,6 +6004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "privateUse",
           "package": "charset",
@@ -5515,6 +6014,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "privateUse",
           "package": "charset",
@@ -5528,6 +6028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "punctuation",
           "package": "charset",
@@ -5537,6 +6038,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "punctuation",
           "package": "charset",
@@ -5549,6 +6051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "separator",
           "package": "charset",
@@ -5558,6 +6061,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "separator",
           "package": "charset",
@@ -5570,6 +6074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "space",
           "package": "charset",
@@ -5579,6 +6084,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "space",
           "package": "charset",
@@ -5591,6 +6097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "spacingCombiningMark",
           "package": "charset",
@@ -5600,6 +6107,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "spacingCombiningMark",
           "package": "charset",
@@ -5613,6 +6121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "surrogate",
           "package": "charset",
@@ -5622,6 +6131,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "surrogate",
           "package": "charset",
@@ -5634,6 +6144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "symbol",
           "package": "charset",
@@ -5643,6 +6154,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "symbol",
           "package": "charset",
@@ -5655,6 +6167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "titlecaseLetter",
           "package": "charset",
@@ -5664,6 +6177,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "titlecaseLetter",
           "package": "charset",
@@ -5677,6 +6191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "unicodeCategories",
           "package": "charset",
@@ -5686,6 +6201,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "unicodeCategories",
           "normalized": "[UnicodeCategory]",
@@ -5701,6 +6217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet.Unicode",
           "name": "uppercaseLetter",
           "package": "charset",
@@ -5710,6 +6227,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet Unicode",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet.Unicode",
           "name": "uppercaseLetter",
           "package": "charset",
@@ -5724,6 +6242,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast set membership tests for \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e values\n\u003c/p\u003e\u003cp\u003eStored as a (possibly negated) IntMap and a fast set used for the head byte.\n\u003c/p\u003e\u003cp\u003eThe set of valid (possibly negated) head bytes is stored unboxed as a 32-byte\n bytestring-based lookup table.\n\u003c/p\u003e\u003cp\u003eDesigned to be imported qualified:\n\u003c/p\u003e\u003cpre\u003e import Data.CharSet (CharSet)\n import qualified Data.CharSet as CharSet\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "CharSet",
           "package": "charset",
@@ -5733,6 +6252,7 @@
         "index": {
           "description": "Fast set membership tests for Char values Stored as possibly negated IntMap and fast set used for the head byte The set of valid possibly negated head bytes is stored unboxed as byte bytestring-based lookup table Designed to be imported qualified import Data.CharSet CharSet import qualified Data.CharSet as CharSet",
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "CharSet",
           "package": "charset",
@@ -5746,6 +6266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "CharSet",
           "package": "charset",
@@ -5754,6 +6275,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "CharSet",
           "package": "charset",
@@ -5767,6 +6289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "(\\\\)",
           "package": "charset",
@@ -5776,6 +6299,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "(\\\\) \\\\",
           "normalized": "CharSet-\u003eCharSet-\u003eCharSet",
@@ -5790,6 +6314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "CharSet",
           "package": "charset",
@@ -5799,6 +6324,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "CharSet",
           "package": "charset",
@@ -5812,6 +6338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "build",
           "package": "charset",
@@ -5821,6 +6348,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "build",
           "normalized": "(Char-\u003eBool)-\u003eCharSet",
@@ -5835,6 +6363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "complement",
           "package": "charset",
@@ -5844,6 +6373,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "complement",
           "normalized": "CharSet-\u003eCharSet",
@@ -5858,6 +6388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "delete",
           "package": "charset",
@@ -5867,6 +6398,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "delete",
           "normalized": "Char-\u003eCharSet-\u003eCharSet",
@@ -5881,6 +6413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "difference",
           "package": "charset",
@@ -5890,6 +6423,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "difference",
           "normalized": "CharSet-\u003eCharSet-\u003eCharSet",
@@ -5904,6 +6438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "empty",
           "package": "charset",
@@ -5913,6 +6448,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "empty",
           "package": "charset",
@@ -5925,6 +6461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "filter",
           "package": "charset",
@@ -5934,6 +6471,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "filter",
           "normalized": "(Char-\u003eBool)-\u003eCharSet-\u003eCharSet",
@@ -5948,6 +6486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "fold",
           "package": "charset",
@@ -5957,6 +6496,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "fold",
           "normalized": "(Char-\u003ea-\u003ea)-\u003ea-\u003eCharSet-\u003ea",
@@ -5971,6 +6511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "fromAscList",
           "package": "charset",
@@ -5980,6 +6521,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "fromAscList",
           "normalized": "String-\u003eCharSet",
@@ -5995,6 +6537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "fromCharSet",
           "package": "charset",
@@ -6004,6 +6547,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "fromCharSet",
           "normalized": "CharSet-\u003e(Bool,IntSet)",
@@ -6019,6 +6563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "fromDistinctAscList",
           "package": "charset",
@@ -6028,6 +6573,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "fromDistinctAscList",
           "normalized": "String-\u003eCharSet",
@@ -6043,6 +6589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "fromList",
           "package": "charset",
@@ -6052,6 +6599,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "fromList",
           "normalized": "String-\u003eCharSet",
@@ -6067,6 +6615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "full",
           "package": "charset",
@@ -6076,6 +6625,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "full",
           "package": "charset",
@@ -6088,6 +6638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "insert",
           "package": "charset",
@@ -6097,6 +6648,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "insert",
           "normalized": "Char-\u003eCharSet-\u003eCharSet",
@@ -6111,6 +6663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "intersection",
           "package": "charset",
@@ -6120,6 +6673,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "intersection",
           "normalized": "CharSet-\u003eCharSet-\u003eCharSet",
@@ -6134,6 +6688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "isComplemented",
           "package": "charset",
@@ -6143,6 +6698,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "isComplemented",
           "normalized": "CharSet-\u003eBool",
@@ -6158,6 +6714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "isSubsetOf",
           "package": "charset",
@@ -6167,6 +6724,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "isSubsetOf",
           "normalized": "CharSet-\u003eCharSet-\u003eBool",
@@ -6182,6 +6740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "map",
           "package": "charset",
@@ -6191,6 +6750,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "map",
           "normalized": "(Char-\u003eChar)-\u003eCharSet-\u003eCharSet",
@@ -6205,6 +6765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "member",
           "package": "charset",
@@ -6214,6 +6775,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "member",
           "normalized": "Char-\u003eCharSet-\u003eBool",
@@ -6228,6 +6790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "notMember",
           "package": "charset",
@@ -6237,6 +6800,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "notMember",
           "normalized": "Char-\u003eCharSet-\u003eBool",
@@ -6253,6 +6817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e worst case\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "null",
           "package": "charset",
@@ -6263,6 +6828,7 @@
         "index": {
           "description": "worst case",
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "null",
           "normalized": "CharSet-\u003eBool",
@@ -6277,6 +6843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "overlaps",
           "package": "charset",
@@ -6286,6 +6853,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "overlaps",
           "normalized": "CharSet-\u003eCharSet-\u003eBool",
@@ -6300,6 +6868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "partition",
           "package": "charset",
@@ -6309,6 +6878,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "partition",
           "normalized": "(Char-\u003eBool)-\u003eCharSet-\u003e(CharSet,CharSet)",
@@ -6323,6 +6893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "range",
           "package": "charset",
@@ -6332,6 +6903,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "range",
           "normalized": "Char-\u003eChar-\u003eCharSet",
@@ -6346,6 +6918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "singleton",
           "package": "charset",
@@ -6355,6 +6928,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "singleton",
           "normalized": "Char-\u003eCharSet",
@@ -6370,6 +6944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "size",
           "package": "charset",
@@ -6379,6 +6954,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "size",
           "normalized": "CharSet-\u003eInt",
@@ -6393,6 +6969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "toArray",
           "package": "charset",
@@ -6402,6 +6979,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "toArray",
           "normalized": "CharSet-\u003eUArray Char Bool",
@@ -6417,6 +6995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "toAscList",
           "package": "charset",
@@ -6426,6 +7005,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "toAscList",
           "normalized": "CharSet-\u003eString",
@@ -6441,6 +7021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "toCharSet",
           "package": "charset",
@@ -6450,6 +7031,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "toCharSet",
           "normalized": "IntSet-\u003eCharSet",
@@ -6465,6 +7047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "toList",
           "package": "charset",
@@ -6474,6 +7057,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "toList",
           "normalized": "CharSet-\u003eString",
@@ -6489,6 +7073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:42 UTC 2014",
           "module": "Data.CharSet",
           "name": "union",
           "package": "charset",
@@ -6498,6 +7083,7 @@
         },
         "index": {
           "hierarchy": "Data CharSet",
+          "indexed": "2014-03-11T17:31:42",
           "module": "Data.CharSet",
           "name": "union",
           "normalized": "CharSet-\u003eCharSet-\u003eCharSet",

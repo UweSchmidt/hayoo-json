@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Commando"
+        "phrase": "Commando",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library providing an interface to generate a lazy stream of command\n results from events occurring in a directory.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:02 UTC 2014",
           "module": "System.Commando",
           "name": "Commando",
           "package": "Commando",
@@ -28,6 +29,7 @@
         "index": {
           "description": "library providing an interface to generate lazy stream of command results from events occurring in directory",
           "hierarchy": "System Commando",
+          "indexed": "2014-03-11T16:37:02",
           "module": "System.Commando",
           "name": "Commando",
           "package": "Commando",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions used to configure the behavior of Commando\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:02 UTC 2014",
           "module": "System.Commando",
           "name": "Options",
           "package": "Commando",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Options used to configure the behavior of Commando",
           "hierarchy": "System Commando",
+          "indexed": "2014-03-11T16:37:02",
           "module": "System.Commando",
           "name": "Options",
           "package": "Commando",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:02 UTC 2014",
           "module": "System.Commando",
           "name": "Options",
           "package": "Commando",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "System Commando",
+          "indexed": "2014-03-11T16:37:02",
           "module": "System.Commando",
           "name": "Options",
           "package": "Commando",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe commando to run\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:02 UTC 2014",
           "module": "System.Commando",
           "name": "command",
           "package": "Commando",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The commando to run",
           "hierarchy": "System Commando",
+          "indexed": "2014-03-11T16:37:02",
           "module": "System.Commando",
           "name": "command",
           "package": "Commando",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main listening loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:02 UTC 2014",
           "module": "System.Commando",
           "name": "commando",
           "package": "Commando",
@@ -120,6 +129,7 @@
         "index": {
           "description": "The main listening loop",
           "hierarchy": "System Commando",
+          "indexed": "2014-03-11T16:37:02",
           "module": "System.Commando",
           "name": "commando",
           "normalized": "Options-\u003eIO[String]",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand accepts input as an argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:02 UTC 2014",
           "module": "System.Commando",
           "name": "consumer",
           "package": "Commando",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Command accepts input as an argument",
           "hierarchy": "System Commando",
+          "indexed": "2014-03-11T16:37:02",
           "module": "System.Commando",
           "name": "consumer",
           "package": "Commando",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe directory listened to - Default is the current directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:02 UTC 2014",
           "module": "System.Commando",
           "name": "directory",
           "package": "Commando",
@@ -168,6 +181,7 @@
         "index": {
           "description": "The directory listened to Default is the current directory",
           "hierarchy": "System Commando",
+          "indexed": "2014-03-11T16:37:02",
           "module": "System.Commando",
           "name": "directory",
           "package": "Commando",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay show function used to translate events to strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:02 UTC 2014",
           "module": "System.Commando",
           "name": "display",
           "package": "Commando",
@@ -191,6 +206,7 @@
         "index": {
           "description": "Display show function used to translate events to strings",
           "hierarchy": "System Commando",
+          "indexed": "2014-03-11T16:37:02",
           "module": "System.Commando",
           "name": "display",
           "normalized": "Event-\u003eString",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn optparse-applicative parser for command-line options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:02 UTC 2014",
           "module": "System.Commando",
           "name": "options",
           "package": "Commando",
@@ -216,6 +233,7 @@
         "index": {
           "description": "An optparse-applicative parser for command-line options",
           "hierarchy": "System Commando",
+          "indexed": "2014-03-11T16:37:02",
           "module": "System.Commando",
           "name": "options",
           "package": "Commando",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand remains running and new events are sent to its STDIN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:02 UTC 2014",
           "module": "System.Commando",
           "name": "persist",
           "package": "Commando",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Command remains running and new events are sent to its STDIN",
           "hierarchy": "System Commando",
+          "indexed": "2014-03-11T16:37:02",
           "module": "System.Commando",
           "name": "persist",
           "package": "Commando",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSilence any help\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:02 UTC 2014",
           "module": "System.Commando",
           "name": "quiet",
           "package": "Commando",
@@ -262,6 +283,7 @@
         "index": {
           "description": "Silence any help",
           "hierarchy": "System Commando",
+          "indexed": "2014-03-11T16:37:02",
           "module": "System.Commando",
           "name": "quiet",
           "package": "Commando",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand accepts input on STDIN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:02 UTC 2014",
           "module": "System.Commando",
           "name": "stdin",
           "package": "Commando",
@@ -285,6 +308,7 @@
         "index": {
           "description": "Command accepts input on STDIN",
           "hierarchy": "System Commando",
+          "indexed": "2014-03-11T16:37:02",
           "module": "System.Commando",
           "name": "stdin",
           "package": "Commando",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "custom-prelude"
+        "phrase": "custom-prelude",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:56 UTC 2014",
           "module": "CustomPrelude",
           "name": "CustomPrelude",
           "package": "custom-prelude",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "CustomPrelude",
+          "indexed": "2014-03-11T17:45:56",
           "module": "CustomPrelude",
           "name": "CustomPrelude",
           "package": "custom-prelude",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ca\u003e*\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:56 UTC 2014",
           "module": "CustomPrelude",
           "name": "(\u003c&\u003e)",
           "package": "custom-prelude",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Equivalent to",
           "hierarchy": "CustomPrelude",
+          "indexed": "2014-03-11T17:45:56",
           "module": "CustomPrelude",
           "name": "(\u003c&\u003e) \u003c&\u003e",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ca\u003e$\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:56 UTC 2014",
           "module": "CustomPrelude",
           "name": "(\u003c@\u003e)",
           "package": "custom-prelude",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Equivalent to",
           "hierarchy": "CustomPrelude",
+          "indexed": "2014-03-11T17:45:56",
           "module": "CustomPrelude",
           "name": "(\u003c@\u003e) \u003c@\u003e",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeamless composition of a one and a two arg function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:56 UTC 2014",
           "module": "CustomPrelude",
           "name": "(.:)",
           "package": "custom-prelude",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Seamless composition of one and two arg function",
           "hierarchy": "CustomPrelude",
+          "indexed": "2014-03-11T17:45:56",
           "module": "CustomPrelude",
           "name": "(.:) .:",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed-\u003ea)-\u003ec-\u003ed-\u003eb",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBool deconstructor in the spirit of \u003ccode\u003e\u003ca\u003eeither\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emaybe\u003c/a\u003e\u003c/code\u003e\n   Similar to the lambda-if proposal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:56 UTC 2014",
           "module": "CustomPrelude",
           "name": "bool",
           "package": "custom-prelude",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Bool deconstructor in the spirit of either and maybe Similar to the lambda-if proposal",
           "hierarchy": "CustomPrelude",
+          "indexed": "2014-03-11T17:45:56",
           "module": "CustomPrelude",
           "name": "bool",
           "normalized": "a-\u003ea-\u003eBool-\u003ea",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialised foldl' with short circuit evaluation\n   A Nothing stops processing for the rest of the list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:56 UTC 2014",
           "module": "CustomPrelude",
           "name": "foldlMaybe",
           "package": "custom-prelude",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Specialised foldl with short circuit evaluation Nothing stops processing for the rest of the list",
           "hierarchy": "CustomPrelude",
+          "indexed": "2014-03-11T17:45:56",
           "module": "CustomPrelude",
           "name": "foldlMaybe",
           "normalized": "(a-\u003eb-\u003eMaybe a)-\u003ea-\u003e[b]-\u003ea",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Standard strict version of foldl\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:56 UTC 2014",
           "module": "CustomPrelude",
           "name": "foldlStrict",
           "package": "custom-prelude",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Standard strict version of foldl",
           "hierarchy": "CustomPrelude",
+          "indexed": "2014-03-11T17:45:56",
           "module": "CustomPrelude",
           "name": "foldlStrict",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003e[b]-\u003ea",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict version of specialised foldl' with short circuit evaluation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:56 UTC 2014",
           "module": "CustomPrelude",
           "name": "foldlStrictMaybe",
           "package": "custom-prelude",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Strict version of specialised foldl with short circuit evaluation",
           "hierarchy": "CustomPrelude",
+          "indexed": "2014-03-11T17:45:56",
           "module": "CustomPrelude",
           "name": "foldlStrictMaybe",
           "normalized": "(a-\u003eb-\u003eMaybe a)-\u003ea-\u003e[b]-\u003ea",
@@ -218,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic version of the if condition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:56 UTC 2014",
           "module": "CustomPrelude",
           "name": "ifM",
           "package": "custom-prelude",
@@ -228,6 +245,7 @@
         "index": {
           "description": "Monadic version of the if condition",
           "hierarchy": "CustomPrelude",
+          "indexed": "2014-03-11T17:45:56",
           "module": "CustomPrelude",
           "name": "ifM",
           "normalized": "a Bool-\u003ea b-\u003ea b-\u003ea b",
@@ -243,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the next power of two for integers\n   Works only on a 32/64 bit machine (is there any other kind?)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:56 UTC 2014",
           "module": "CustomPrelude",
           "name": "nextPowerOf2",
           "package": "custom-prelude",
@@ -253,6 +272,7 @@
         "index": {
           "description": "Computes the next power of two for integers Works only on bit machine is there any other kind",
           "hierarchy": "CustomPrelude",
+          "indexed": "2014-03-11T17:45:56",
           "module": "CustomPrelude",
           "name": "nextPowerOf2",
           "normalized": "Int-\u003eInt",
@@ -269,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for (.:)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:56 UTC 2014",
           "module": "CustomPrelude",
           "name": "oo",
           "package": "custom-prelude",
@@ -279,6 +300,7 @@
         "index": {
           "description": "An alias for",
           "hierarchy": "CustomPrelude",
+          "indexed": "2014-03-11T17:45:56",
           "module": "CustomPrelude",
           "name": "oo",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed-\u003ea)-\u003ec-\u003ed-\u003eb",
@@ -294,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeamless composition of a one and a three arg function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:56 UTC 2014",
           "module": "CustomPrelude",
           "name": "ooo",
           "package": "custom-prelude",
@@ -304,6 +327,7 @@
         "index": {
           "description": "Seamless composition of one and three arg function",
           "hierarchy": "CustomPrelude",
+          "indexed": "2014-03-11T17:45:56",
           "module": "CustomPrelude",
           "name": "ooo",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed-\u003ee-\u003ea)-\u003ec-\u003ed-\u003ee-\u003eb",
@@ -319,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeamless composition of a one and a four arg function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:56 UTC 2014",
           "module": "CustomPrelude",
           "name": "oooo",
           "package": "custom-prelude",
@@ -329,6 +354,7 @@
         "index": {
           "description": "Seamless composition of one and four arg function",
           "hierarchy": "CustomPrelude",
+          "indexed": "2014-03-11T17:45:56",
           "module": "CustomPrelude",
           "name": "oooo",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed-\u003ee-\u003ef-\u003ea)-\u003ec-\u003ed-\u003ee-\u003ef-\u003eb",
@@ -344,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit lists at the specified delimiter\n   Drops empty groups (similar to \u003ccode\u003e\u003ca\u003ewords\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:56 UTC 2014",
           "module": "CustomPrelude",
           "name": "splitOn",
           "package": "custom-prelude",
@@ -354,6 +381,7 @@
         "index": {
           "description": "Split lists at the specified delimiter Drops empty groups similar to words",
           "hierarchy": "CustomPrelude",
+          "indexed": "2014-03-11T17:45:56",
           "module": "CustomPrelude",
           "name": "splitOn",
           "normalized": "a-\u003e[a]-\u003e[[a]]",
@@ -370,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit lists at delimiter specified by a condition\n   Drops empty groups (similar to \u003ccode\u003e\u003ca\u003ewords\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:56 UTC 2014",
           "module": "CustomPrelude",
           "name": "splitWhen",
           "package": "custom-prelude",
@@ -380,6 +409,7 @@
         "index": {
           "description": "Split lists at delimiter specified by condition Drops empty groups similar to words",
           "hierarchy": "CustomPrelude",
+          "indexed": "2014-03-11T17:45:56",
           "module": "CustomPrelude",
           "name": "splitWhen",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -396,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ewhileIterateM b f a\u003c/a\u003e will execute action (f a) while (b a) is true\n   and also feed the results back to the next iteration.\n   NOTE: Suggestions for a better name are welcome!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:56 UTC 2014",
           "module": "CustomPrelude",
           "name": "whileIterateM",
           "package": "custom-prelude",
@@ -406,6 +437,7 @@
         "index": {
           "description": "whileIterateM will execute action while is true and also feed the results back to the next iteration NOTE Suggestions for better name are welcome",
           "hierarchy": "CustomPrelude",
+          "indexed": "2014-03-11T17:45:56",
           "module": "CustomPrelude",
           "name": "whileIterateM",
           "normalized": "(a-\u003eb Bool)-\u003e(a-\u003eb a)-\u003ea-\u003eb a",

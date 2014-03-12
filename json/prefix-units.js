@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "prefix-units"
+        "phrase": "prefix-units",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefinitions and functions for parsing and formatting prefix units.\n\u003c/p\u003e\u003cp\u003eThis module defines the type \u003ccode\u003e\u003ca\u003eUnit\u003c/a\u003e\u003c/code\u003e and associated functions for\nparsing numbers containing a prefix unit (e.g. \u003ccode\u003e100M\u003c/code\u003e) into\ncorespondingly scaled values (for the above example, \u003ccode\u003e100000000\u003c/code\u003e), and\nfor formatting numbers.\n\u003c/p\u003e\u003cp\u003eThe units definition is taken from the man page \u003ccode\u003eunits(7)\u003c/code\u003e and the web\nsites \u003ca\u003ehttp://physics.nist.gov/cuu/Units/prefixes.html\u003c/a\u003e and\n\u003ca\u003ehttp://physics.nist.gov/cuu/Units/binary.html\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eSince a give prefix unit (e.g. \u003ccode\u003em\u003c/code\u003e) can be interpreted in different\nways, the module offers various ways to interpret this:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e in a binary context (e.g. when talking about memory), this will be\n  interpreted as 2^20 (see \u003ccode\u003e\u003ca\u003eParseBinary\u003c/a\u003e\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e in a SI context dealing with multiples, this will be intepreted as\n  10^3 (see \u003ccode\u003e\u003ca\u003eParseKMGT\u003c/a\u003e\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e in an exact parsing mode, this will be interpreded as the \"milli\"\n  prefix, i.e. 10^-3 (see \u003ccode\u003e\u003ca\u003eParseExact\u003c/a\u003e\u003c/code\u003e)\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe different parsing mode are offered as different contexts will have\ndifferent \"natural\" units, and always forcing precise parsing (which\nalso implies case-sensitivity) will lead to confusing user interfaces.\n\u003c/p\u003e\u003cp\u003eThe internal calculations when converting values are done via the\n\u003ccode\u003e\u003ca\u003eRational\u003c/a\u003e\u003c/code\u003e type (with arbitrary precision), and precision loss happens\nonly at the last step of converting to the target type; for\nfloat/doubles this is \u003ccode\u003e\u003ca\u003efromRational\u003c/a\u003e\u003c/code\u003e, for integral types this is\n\u003ccode\u003e\u003ca\u003eround\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eA few examples are given below:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eshowValue (Left FormatBinary) 2048\n\u003c/code\u003e\u003c/strong\u003e\"2.0Ki\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eshowValue (Left FormatSiAll) 0.0001\n\u003c/code\u003e\u003c/strong\u003e\"100.0u\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eshowValue (Right Mebi) 1048576\n\u003c/code\u003e\u003c/strong\u003e\"1Mi\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseValue ParseExact \"2.5Ki\"::Either String Double\n\u003c/code\u003e\u003c/strong\u003eRight 2560.0\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseValue ParseBinary \"2M\"::Either String Int\n\u003c/code\u003e\u003c/strong\u003eRight 2097152\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseValue ParseExact \"2ki\"\n\u003c/code\u003e\u003c/strong\u003eLeft \"Unrecognised unit 'ki'\"\n\u003c/pre\u003e\u003cp\u003eThe failure in the last example is due to the fact that \u003ccode\u003e\u003ca\u003eParseExact\u003c/a\u003e\u003c/code\u003e\nis case-sensitive.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Units",
           "package": "prefix-units",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Definitions and functions for parsing and formatting prefix units This module defines the type Unit and associated functions for parsing numbers containing prefix unit e.g into corespondingly scaled values for the above example and for formatting numbers The units definition is taken from the man page units and the web sites http physics.nist.gov cuu Units prefixes.html and http physics.nist.gov cuu Units binary.html Since give prefix unit e.g can be interpreted in different ways the module offers various ways to interpret this in binary context e.g when talking about memory this will be interpreted as see ParseBinary in SI context dealing with multiples this will be intepreted as see ParseKMGT in an exact parsing mode this will be interpreded as the milli prefix i.e see ParseExact The different parsing mode are offered as different contexts will have different natural units and always forcing precise parsing which also implies case-sensitivity will lead to confusing user interfaces The internal calculations when converting values are done via the Rational type with arbitrary precision and precision loss happens only at the last step of converting to the target type for float doubles this is fromRational for integral types this is round few examples are given below showValue Left FormatBinary Ki showValue Left FormatSiAll showValue Right Mebi Mi parseValue ParseExact Ki Either String Double Right parseValue ParseBinary Either String Int Right parseValue ParseExact ki Left Unrecognised unit ki The failure in the last example is due to the fact that ParseExact is case-sensitive",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Units",
           "package": "prefix-units",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines the formatting modes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "FormatMode",
           "package": "prefix-units",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Defines the formatting modes",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "FormatMode",
           "package": "prefix-units",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines available parse modes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "ParseMode",
           "package": "prefix-units",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Defines available parse modes",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "ParseMode",
           "package": "prefix-units",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines unit handling mode on parse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "ParseOptions",
           "package": "prefix-units",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Defines unit handling mode on parse",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "ParseOptions",
           "package": "prefix-units",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypeclass for handling values that can be converted to/from\n \u003ccode\u003e\u003ca\u003eRational\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "RationalConvertible",
           "package": "prefix-units",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Typeclass for handling values that can be converted to from Rational",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "RationalConvertible",
           "package": "prefix-units",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unit type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Unit",
           "package": "prefix-units",
@@ -143,6 +154,7 @@
         "index": {
           "description": "The unit type",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Unit",
           "package": "prefix-units",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Atto",
           "package": "prefix-units",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Atto",
           "package": "prefix-units",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Centi",
           "package": "prefix-units",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Centi",
           "package": "prefix-units",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Deci",
           "package": "prefix-units",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Deci",
           "package": "prefix-units",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Deka",
           "package": "prefix-units",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Deka",
           "package": "prefix-units",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Exa",
           "package": "prefix-units",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Exa",
           "package": "prefix-units",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Exbi",
           "package": "prefix-units",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Exbi",
           "package": "prefix-units",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Femto",
           "package": "prefix-units",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Femto",
           "package": "prefix-units",
@@ -311,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormats the value using binary units.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "FormatBinary",
           "package": "prefix-units",
@@ -321,6 +348,7 @@
         "index": {
           "description": "Formats the value using binary units",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "FormatBinary",
           "package": "prefix-units",
@@ -335,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormats the value using any SI unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "FormatSiAll",
           "package": "prefix-units",
@@ -345,6 +374,7 @@
         "index": {
           "description": "Formats the value using any SI unit",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "FormatSiAll",
           "package": "prefix-units",
@@ -359,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormats the value using units greater or\n equal to \u003ccode\u003e\u003ca\u003eKilo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "FormatSiKMGT",
           "package": "prefix-units",
@@ -369,6 +400,7 @@
         "index": {
           "description": "Formats the value using units greater or equal to Kilo",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "FormatSiKMGT",
           "package": "prefix-units",
@@ -383,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormats the value using supraunitary SI\n units only (which means that e.g. \u003ccode\u003e0.001\u003c/code\u003e\n will remain as such instead of being\n formatted as \u003ccode\u003e1m\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "FormatSiSupraunitary",
           "package": "prefix-units",
@@ -393,6 +426,7 @@
         "index": {
           "description": "Formats the value using supraunitary SI units only which means that e.g will remain as such instead of being formatted as",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "FormatSiSupraunitary",
           "package": "prefix-units",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Gibi",
           "package": "prefix-units",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Gibi",
           "package": "prefix-units",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Giga",
           "package": "prefix-units",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Giga",
           "package": "prefix-units",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Hecto",
           "package": "prefix-units",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Hecto",
           "package": "prefix-units",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Kibi",
           "package": "prefix-units",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Kibi",
           "package": "prefix-units",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Kilo",
           "package": "prefix-units",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Kilo",
           "package": "prefix-units",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Mebi",
           "package": "prefix-units",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Mebi",
           "package": "prefix-units",
@@ -538,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Mega",
           "package": "prefix-units",
@@ -547,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Mega",
           "package": "prefix-units",
@@ -560,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Micro",
           "package": "prefix-units",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Micro",
           "package": "prefix-units",
@@ -582,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Milli",
           "package": "prefix-units",
@@ -591,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Milli",
           "package": "prefix-units",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Nano",
           "package": "prefix-units",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Nano",
           "package": "prefix-units",
@@ -627,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses binary units only. In this mode, both the\n exact and shortened forms are accepted (e.g. both\n \"k\" and \"ki\" will be converted into\n \u003ccode\u003e\u003ca\u003eKibi\u003c/a\u003e\u003c/code\u003e). Furthermore, the parsing is\n case-insensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "ParseBinary",
           "package": "prefix-units",
@@ -637,6 +692,7 @@
         "index": {
           "description": "Parses binary units only In this mode both the exact and shortened forms are accepted e.g both and ki will be converted into Kibi Furthermore the parsing is case-insensitive",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "ParseBinary",
           "package": "prefix-units",
@@ -651,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExact parser mode. This mode is fully\n case-sensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "ParseExact",
           "package": "prefix-units",
@@ -661,6 +718,7 @@
         "index": {
           "description": "Exact parser mode This mode is fully case-sensitive",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "ParseExact",
           "package": "prefix-units",
@@ -675,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses only units with bigger than \u003ccode\u003e\u003ca\u003eKilo\u003c/a\u003e\u003c/code\u003e,\n respectively \u003ccode\u003e\u003ca\u003eKibi\u003c/a\u003e\u003c/code\u003e (for binary units). This allows\n the parser to be case-insensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "ParseKMGT",
           "package": "prefix-units",
@@ -685,6 +744,7 @@
         "index": {
           "description": "Parses only units with bigger than Kilo respectively Kibi for binary units This allows the parser to be case-insensitive",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "ParseKMGT",
           "package": "prefix-units",
@@ -698,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Pebi",
           "package": "prefix-units",
@@ -707,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Pebi",
           "package": "prefix-units",
@@ -720,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Peta",
           "package": "prefix-units",
@@ -729,6 +792,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Peta",
           "package": "prefix-units",
@@ -742,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Pico",
           "package": "prefix-units",
@@ -751,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Pico",
           "package": "prefix-units",
@@ -764,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Tebi",
           "package": "prefix-units",
@@ -773,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Tebi",
           "package": "prefix-units",
@@ -786,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Tera",
           "package": "prefix-units",
@@ -795,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Tera",
           "package": "prefix-units",
@@ -809,6 +879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf unit is missing, use a\n default one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "UnitDefault",
           "package": "prefix-units",
@@ -819,6 +890,7 @@
         "index": {
           "description": "If unit is missing use default one",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "UnitDefault",
           "package": "prefix-units",
@@ -833,6 +905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unit is optional, a missing\n one means the value is not\n scaled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "UnitOptional",
           "package": "prefix-units",
@@ -843,6 +916,7 @@
         "index": {
           "description": "The unit is optional missing one means the value is not scaled",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "UnitOptional",
           "package": "prefix-units",
@@ -857,6 +931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequires that the input string\n has a unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "UnitRequired",
           "package": "prefix-units",
@@ -867,6 +942,7 @@
         "index": {
           "description": "Requires that the input string has unit",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "UnitRequired",
           "package": "prefix-units",
@@ -880,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Yocto",
           "package": "prefix-units",
@@ -889,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Yocto",
           "package": "prefix-units",
@@ -902,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Yotta",
           "package": "prefix-units",
@@ -911,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Yotta",
           "package": "prefix-units",
@@ -924,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Zepto",
           "package": "prefix-units",
@@ -933,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Zepto",
           "package": "prefix-units",
@@ -946,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "Zetta",
           "package": "prefix-units",
@@ -955,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "Zetta",
           "package": "prefix-units",
@@ -969,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of binary units.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "binaryUnits",
           "package": "prefix-units",
@@ -979,6 +1064,7 @@
         "index": {
           "description": "List of binary units",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "binaryUnits",
           "normalized": "[Unit]",
@@ -995,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts the value from Ratioal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "convFromRational",
           "package": "prefix-units",
@@ -1005,6 +1092,7 @@
         "index": {
           "description": "Converts the value from Ratioal",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "convFromRational",
           "normalized": "Rational-\u003ea",
@@ -1021,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the unit symbol, which for the \u003ccode\u003e\u003ca\u003eMicro\u003c/a\u003e\u003c/code\u003e unit is not ASCII.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "fancySymbol",
           "package": "prefix-units",
@@ -1031,6 +1120,7 @@
         "index": {
           "description": "Returns the unit symbol which for the Micro unit is not ASCII",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "fancySymbol",
           "normalized": "Unit-\u003eString",
@@ -1047,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the scaled value and unit for a given value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "formatValue",
           "package": "prefix-units",
@@ -1056,6 +1147,7 @@
         "index": {
           "description": "Computes the scaled value and unit for given value",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "formatValue",
           "normalized": "FormatOption-\u003ea-\u003e(a,Maybe Unit)",
@@ -1072,6 +1164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a binary symbol. See \u003ccode\u003e\u003ca\u003eParseBinary\u003c/a\u003e\u003c/code\u003e for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "parseBinarySymbol",
           "package": "prefix-units",
@@ -1082,6 +1175,7 @@
         "index": {
           "description": "Parses binary symbol See ParseBinary for details",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "parseBinarySymbol",
           "normalized": "String-\u003eEither String Unit",
@@ -1098,6 +1192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a symbol in the exact mode. See \u003ccode\u003e\u003ca\u003eParseExact\u003c/a\u003e\u003c/code\u003e for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "parseExactSymbol",
           "package": "prefix-units",
@@ -1108,6 +1203,7 @@
         "index": {
           "description": "Parses symbol in the exact mode See ParseExact for details",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "parseExactSymbol",
           "normalized": "String-\u003eEither String Unit",
@@ -1124,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric parse routine. Takes two function arguments which fix the\n initial and final conversion, a parse mode and the string to be\n parsed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "parseGeneric",
           "package": "prefix-units",
@@ -1133,6 +1230,7 @@
         "index": {
           "description": "Generic parse routine Takes two function arguments which fix the initial and final conversion parse mode and the string to be parsed",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "parseGeneric",
           "normalized": "ParseOptions-\u003e[Unit]-\u003eParseMode-\u003eString-\u003eEither String a",
@@ -1149,6 +1247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses the given symbol as one of the \"big\" units (kilo/kibi\n and above). This allows the parsing to be case-insensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "parseKMGTSymbol",
           "package": "prefix-units",
@@ -1159,6 +1258,7 @@
         "index": {
           "description": "Parses the given symbol as one of the big units kilo kibi and above This allows the parsing to be case-insensitive",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "parseKMGTSymbol",
           "normalized": "String-\u003eEither String Unit",
@@ -1175,6 +1275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a unit from a string. The exact parsing mode determines\n the rules for parsing and the range of possible units.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "parseSymbol",
           "package": "prefix-units",
@@ -1185,6 +1286,7 @@
         "index": {
           "description": "Parses unit from string The exact parsing mode determines the rules for parsing and the range of possible units",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "parseSymbol",
           "normalized": "ParseMode-\u003eString-\u003eEither String Unit",
@@ -1201,6 +1303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric parse routine. Takes two function arguments which fix the\n initial and final conversion, a parse mode and the string to be\n parsed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "parseValue",
           "package": "prefix-units",
@@ -1210,6 +1313,7 @@
         "index": {
           "description": "Generic parse routine Takes two function arguments which fix the initial and final conversion parse mode and the string to be parsed",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "parseValue",
           "normalized": "ParseMode-\u003eString-\u003eEither String a",
@@ -1226,6 +1330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the recommended unit for displaying a given value. The\n simple algorithm uses the first unit for which we have a\n supraunitary representation. In case we don't find any such value\n (e.g. for a zero value), then \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "recommendedUnit",
           "package": "prefix-units",
@@ -1236,6 +1341,7 @@
         "index": {
           "description": "Computes the recommended unit for displaying given value The simple algorithm uses the first unit for which we have supraunitary representation In case we don find any such value e.g for zero value then Nothing is returned",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "recommendedUnit",
           "normalized": "FormatMode-\u003ea-\u003eMaybe Unit",
@@ -1252,6 +1358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a final string representation of a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "showValue",
           "package": "prefix-units",
@@ -1261,6 +1368,7 @@
         "index": {
           "description": "Generates final string representation of value",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "showValue",
           "normalized": "FormatOption-\u003ea-\u003eString",
@@ -1277,6 +1385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple helper to generate the full string representation of an\n integral value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "showValueWith",
           "package": "prefix-units",
@@ -1286,6 +1395,7 @@
         "index": {
           "description": "Simple helper to generate the full string representation of an integral value",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "showValueWith",
           "normalized": "(Unit-\u003eString)-\u003eFormatOption-\u003ea-\u003eString",
@@ -1302,6 +1412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of SI units which are greater or equal to \u003ccode\u003e\u003ca\u003eKilo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "siKMGT",
           "package": "prefix-units",
@@ -1312,6 +1423,7 @@
         "index": {
           "description": "List of SI units which are greater or equal to Kilo",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "siKMGT",
           "normalized": "[Unit]",
@@ -1328,6 +1440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of units which are supraunitary (their multiplier is greater\n than one).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "siSupraunitary",
           "package": "prefix-units",
@@ -1338,6 +1451,7 @@
         "index": {
           "description": "List of units which are supraunitary their multiplier is greater than one",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "siSupraunitary",
           "normalized": "[Unit]",
@@ -1354,6 +1468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of all SI units.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "siUnits",
           "package": "prefix-units",
@@ -1364,6 +1479,7 @@
         "index": {
           "description": "List of all SI units",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "siUnits",
           "normalized": "[Unit]",
@@ -1380,6 +1496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the unit scaling \"multiplier\" (which can be either\n supra- or sub-unitary):\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eunitMultiplier Micro\n\u003c/code\u003e\u003c/strong\u003e1 % 1000000\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eunitMultiplier Mebi\n\u003c/code\u003e\u003c/strong\u003e1048576 % 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "unitMultiplier",
           "package": "prefix-units",
@@ -1390,6 +1507,7 @@
         "index": {
           "description": "Returns the unit scaling multiplier which can be either supra or sub-unitary unitMultiplier Micro unitMultiplier Mebi",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "unitMultiplier",
           "normalized": "Unit-\u003eRational",
@@ -1406,6 +1524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the unit full name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "unitName",
           "package": "prefix-units",
@@ -1416,6 +1535,7 @@
         "index": {
           "description": "Returns the unit full name",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "unitName",
           "normalized": "Unit-\u003eString",
@@ -1432,6 +1552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe available units range for various format modes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "unitRange",
           "package": "prefix-units",
@@ -1442,6 +1563,7 @@
         "index": {
           "description": "The available units range for various format modes",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "unitRange",
           "normalized": "FormatMode-\u003e[Unit]",
@@ -1458,6 +1580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the unit ASCII symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:04 UTC 2014",
           "module": "Data.Prefix.Units",
           "name": "unitSymbol",
           "package": "prefix-units",
@@ -1468,6 +1591,7 @@
         "index": {
           "description": "Returns the unit ASCII symbol",
           "hierarchy": "Data Prefix Units",
+          "indexed": "2014-03-11T19:43:04",
           "module": "Data.Prefix.Units",
           "name": "unitSymbol",
           "normalized": "Unit-\u003eString",

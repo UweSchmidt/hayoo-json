@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "CC-delcont-ref"
+        "phrase": "CC-delcont-ref",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonad transformer for multi-prompt delimited control\n\u003c/p\u003e\u003cp\u003eThis library implements the superset of the interface described in\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \"\u003cem\u003eA Monadic Framework for Delimited Continuations\u003c/em\u003e\",\n     R. Kent Dybvig, Simon Peyton Jones, and Amr Sabry\n     JFP, v17, N6, pp. 687--730, 2007.\n     \u003ca\u003ehttp://www.cs.indiana.edu/cgi-bin/techreports/TRNNN.cgi?trnum=TR615\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThis code is the straightforward implementation of the\n definitional machine described in the above paper. To be precise,\n we implement an equivalent machine, where captured continuations are\n always sandwiched between two prompts. This equivalence as\n well as the trick to make it all well-typed are described in\n the FLOPS 2010 paper. Therefore, to the great extent\n this code is the straightforward translation of delimcc from OCaml.\n The parallel stack of delimcc is the \u003ccode\u003ereal\u003c/code\u003e stack now (containing\n parts of the real continuation, that is).\n\u003c/p\u003e\u003cp\u003eThis code implements, in CPS, what amounts to a segmented stack\n (the technique of implementing call/cc efficiently, first described in\n Hieb, Dybvig and Bruggeman's PLDI 1990 paper).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:23 UTC 2014",
           "module": "Control.Monad.CC.CCRef",
           "name": "CCRef",
           "package": "CC-delcont-ref",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Monad transformer for multi-prompt delimited control This library implements the superset of the interface described in Monadic Framework for Delimited Continuations Kent Dybvig Simon Peyton Jones and Amr Sabry JFP v17 N6 pp http www.cs.indiana.edu cgi-bin techreports TRNNN.cgi trnum TR615 This code is the straightforward implementation of the definitional machine described in the above paper To be precise we implement an equivalent machine where captured continuations are always sandwiched between two prompts This equivalence as well as the trick to make it all well-typed are described in the FLOPS paper Therefore to the great extent this code is the straightforward translation of delimcc from OCaml The parallel stack of delimcc is the real stack now containing parts of the real continuation that is This code implements in CPS what amounts to segmented stack the technique of implementing call cc efficiently first described in Hieb Dybvig and Bruggeman PLDI paper",
           "hierarchy": "Control Monad CC CCRef",
+          "indexed": "2014-03-11T16:35:23",
           "module": "Control.Monad.CC.CCRef",
           "name": "CCRef",
           "package": "CC-delcont-ref",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimited-continuation monad transformer\n The (CC m) monad is the Cont monad with the answer-type (),\n combined with the persistent-state monad. The state PTop is the\n `parallel stack' of delimcc, which is the real stack now. \n The base monad m must support reference cells, that is,\n be a member of the type class Mutation.\n Since we need reference cells anyway, we represent the persistent\n state as a reference cell PTop, which is passed as the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:23 UTC 2014",
           "module": "Control.Monad.CC.CCRef",
           "name": "CC",
           "package": "CC-delcont-ref",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Delimited-continuation monad transformer The CC monad is the Cont monad with the answer-type combined with the persistent-state monad The state PTop is the parallel stack of delimcc which is the real stack now The base monad must support reference cells that is be member of the type class Mutation Since we need reference cells anyway we represent the persistent state as reference cell PTop which is passed as the environment",
           "hierarchy": "Control Monad CC CCRef",
+          "indexed": "2014-03-11T16:35:23",
           "module": "Control.Monad.CC.CCRef",
           "name": "CC",
           "package": "CC-delcont-ref",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:23 UTC 2014",
           "module": "Control.Monad.CC.CCRef",
           "name": "Mutation",
           "package": "CC-delcont-ref",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CC CCRef",
+          "indexed": "2014-03-11T16:35:23",
           "module": "Control.Monad.CC.CCRef",
           "name": "Mutation",
           "package": "CC-delcont-ref",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of prompts is just like that in OCaml's delimcc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:23 UTC 2014",
           "module": "Control.Monad.CC.CCRef",
           "name": "Prompt",
           "package": "CC-delcont-ref",
@@ -95,6 +102,7 @@
         "index": {
           "description": "The type of prompts is just like that in OCaml delimcc",
           "hierarchy": "Control Monad CC CCRef",
+          "indexed": "2014-03-11T16:35:23",
           "module": "Control.Monad.CC.CCRef",
           "name": "Prompt",
           "package": "CC-delcont-ref",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe context between two exception frames: The captured sub-continuation\n It is a fragment of the parallel stack: a list of PFrames in inverse order.\n Since we are in the Cont monad, there is no \u003ccode\u003ereal\u003c/code\u003e stack:\n the type Ekfragment  is ()\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:23 UTC 2014",
           "module": "Control.Monad.CC.CCRef",
           "name": "SubCont",
           "package": "CC-delcont-ref",
@@ -118,6 +127,7 @@
         "index": {
           "description": "The context between two exception frames The captured sub-continuation It is fragment of the parallel stack list of PFrames in inverse order Since we are in the Cont monad there is no real stack the type Ekfragment is",
           "hierarchy": "Control Monad CC CCRef",
+          "indexed": "2014-03-11T16:35:23",
           "module": "Control.Monad.CC.CCRef",
           "name": "SubCont",
           "package": "CC-delcont-ref",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn efficient variation of take_subcont, which does not capture\n any continuation.\n This code makes it clear that abort is essentially raise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:23 UTC 2014",
           "module": "Control.Monad.CC.CCRef",
           "name": "abortP",
           "package": "CC-delcont-ref",
@@ -142,6 +153,7 @@
         "index": {
           "description": "An efficient variation of take subcont which does not capture any continuation This code makes it clear that abort is essentially raise",
           "hierarchy": "Control Monad CC CCRef",
+          "indexed": "2014-03-11T16:35:23",
           "module": "Control.Monad.CC.CCRef",
           "name": "abortP",
           "normalized": "Prompt a b-\u003eCC a b-\u003eCC a c",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:23 UTC 2014",
           "module": "Control.Monad.CC.CCRef",
           "name": "controlP",
           "package": "CC-delcont-ref",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CC CCRef",
+          "indexed": "2014-03-11T16:35:23",
           "module": "Control.Monad.CC.CCRef",
           "name": "controlP",
           "normalized": "Prompt a b-\u003e((c-\u003eCC a b)-\u003eCC a b)-\u003eCC a c",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck to see if a prompt is set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:23 UTC 2014",
           "module": "Control.Monad.CC.CCRef",
           "name": "isPromptSet",
           "package": "CC-delcont-ref",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Check to see if prompt is set",
           "hierarchy": "Control Monad CC CCRef",
+          "indexed": "2014-03-11T16:35:23",
           "module": "Control.Monad.CC.CCRef",
           "name": "isPromptSet",
           "normalized": "Prompt a b-\u003eCC a Bool",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:23 UTC 2014",
           "module": "Control.Monad.CC.CCRef",
           "name": "newPrompt",
           "package": "CC-delcont-ref",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CC CCRef",
+          "indexed": "2014-03-11T16:35:23",
           "module": "Control.Monad.CC.CCRef",
           "name": "newPrompt",
           "package": "CC-delcont-ref",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:23 UTC 2014",
           "module": "Control.Monad.CC.CCRef",
           "name": "newRef",
           "package": "CC-delcont-ref",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CC CCRef",
+          "indexed": "2014-03-11T16:35:23",
           "module": "Control.Monad.CC.CCRef",
           "name": "newRef",
           "normalized": "a-\u003eb(Ref b a)",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn optimization: pushing the _delimited_ continuation.\n This is the optimization of the pattern\n\u003c/p\u003e\u003cpre\u003e     pushPrompt (subcont_pb sk) (pushSubcont sk m)\n\u003c/pre\u003e\u003cp\u003ecorresponding to pushing the continuation captured by shift/shift0. \n The latter continuation always has the delimiter at the end.\n Indeed shift can be implemented more efficiently as a primitive\n rather than via push_prompt/control combination...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:23 UTC 2014",
           "module": "Control.Monad.CC.CCRef",
           "name": "pushDelimSubCont",
           "package": "CC-delcont-ref",
@@ -262,6 +283,7 @@
         "index": {
           "description": "An optimization pushing the delimited continuation This is the optimization of the pattern pushPrompt subcont pb sk pushSubcont sk corresponding to pushing the continuation captured by shift shift0 The latter continuation always has the delimiter at the end Indeed shift can be implemented more efficiently as primitive rather than via push prompt control combination",
           "hierarchy": "Control Monad CC CCRef",
+          "indexed": "2014-03-11T16:35:23",
           "module": "Control.Monad.CC.CCRef",
           "name": "pushDelimSubCont",
           "normalized": "SubCont a b c-\u003eCC a b-\u003eCC a c",
@@ -277,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:23 UTC 2014",
           "module": "Control.Monad.CC.CCRef",
           "name": "pushPrompt",
           "package": "CC-delcont-ref",
@@ -286,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CC CCRef",
+          "indexed": "2014-03-11T16:35:23",
           "module": "Control.Monad.CC.CCRef",
           "name": "pushPrompt",
           "normalized": "Prompt a b-\u003eCC a b-\u003eCC a b",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:23 UTC 2014",
           "module": "Control.Monad.CC.CCRef",
           "name": "pushSubCont",
           "package": "CC-delcont-ref",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CC CCRef",
+          "indexed": "2014-03-11T16:35:23",
           "module": "Control.Monad.CC.CCRef",
           "name": "pushSubCont",
           "normalized": "SubCont a b c-\u003eCC a b-\u003eCC a c",
@@ -325,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:23 UTC 2014",
           "module": "Control.Monad.CC.CCRef",
           "name": "readRef",
           "package": "CC-delcont-ref",
@@ -334,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CC CCRef",
+          "indexed": "2014-03-11T16:35:23",
           "module": "Control.Monad.CC.CCRef",
           "name": "readRef",
           "normalized": "Ref a b-\u003ea b",
@@ -349,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:23 UTC 2014",
           "module": "Control.Monad.CC.CCRef",
           "name": "runCC",
           "package": "CC-delcont-ref",
@@ -358,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CC CCRef",
+          "indexed": "2014-03-11T16:35:23",
           "module": "Control.Monad.CC.CCRef",
           "name": "runCC",
           "normalized": "CC a b-\u003ea b",
@@ -373,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:23 UTC 2014",
           "module": "Control.Monad.CC.CCRef",
           "name": "shift0P",
           "package": "CC-delcont-ref",
@@ -382,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CC CCRef",
+          "indexed": "2014-03-11T16:35:23",
           "module": "Control.Monad.CC.CCRef",
           "name": "shift0P",
           "normalized": "Prompt a b-\u003e((c-\u003eCC a b)-\u003eCC a b)-\u003eCC a c",
@@ -396,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:23 UTC 2014",
           "module": "Control.Monad.CC.CCRef",
           "name": "shiftP",
           "package": "CC-delcont-ref",
@@ -405,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CC CCRef",
+          "indexed": "2014-03-11T16:35:23",
           "module": "Control.Monad.CC.CCRef",
           "name": "shiftP",
           "normalized": "Prompt a b-\u003e((c-\u003eCC a b)-\u003eCC a b)-\u003eCC a c",
@@ -419,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:23 UTC 2014",
           "module": "Control.Monad.CC.CCRef",
           "name": "takeSubCont",
           "package": "CC-delcont-ref",
@@ -428,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CC CCRef",
+          "indexed": "2014-03-11T16:35:23",
           "module": "Control.Monad.CC.CCRef",
           "name": "takeSubCont",
           "normalized": "Prompt a b-\u003e(SubCont a c b-\u003eCC a b)-\u003eCC a c",
@@ -443,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:23 UTC 2014",
           "module": "Control.Monad.CC.CCRef",
           "name": "writeRef",
           "package": "CC-delcont-ref",
@@ -452,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Control Monad CC CCRef",
+          "indexed": "2014-03-11T16:35:23",
           "module": "Control.Monad.CC.CCRef",
           "name": "writeRef",
           "normalized": "Ref a b-\u003eb-\u003ea()",

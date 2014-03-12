@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Tablify"
+        "phrase": "Tablify",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fastirc"
+        "phrase": "fastirc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module helps you with doing input and output on IRC connections\n or even log files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.IO",
           "name": "IO",
           "package": "fastirc",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module helps you with doing input and output on IRC connections or even log files",
           "hierarchy": "Network FastIRC IO",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.IO",
           "name": "IO",
           "package": "fastirc",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an IRC message string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.IO",
           "name": "hGetIRCLine",
           "package": "fastirc",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Read an IRC message string",
           "hierarchy": "Network FastIRC IO",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.IO",
           "name": "hGetIRCLine",
           "normalized": "Handle-\u003eIO MsgString",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the next valid IRC message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.IO",
           "name": "hGetMessage",
           "package": "fastirc",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Read the next valid IRC message",
           "hierarchy": "Network FastIRC IO",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.IO",
           "name": "hGetMessage",
           "normalized": "Handle-\u003eIO Message",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an IRC command with no origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.IO",
           "name": "hPutCommand",
           "package": "fastirc",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Write an IRC command with no origin",
           "hierarchy": "Network FastIRC IO",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.IO",
           "name": "hPutCommand",
           "normalized": "Handle-\u003eCommand-\u003eIO()",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an IRC message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.IO",
           "name": "hPutMessage",
           "package": "fastirc",
@@ -130,6 +139,7 @@
         "index": {
           "description": "Write an IRC message",
           "hierarchy": "Network FastIRC IO",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.IO",
           "name": "hPutMessage",
           "normalized": "Handle-\u003eMessage-\u003eIO()",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParser and printer for IRC messages.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "Messages",
           "package": "fastirc",
@@ -155,6 +166,7 @@
         "index": {
           "description": "Parser and printer for IRC messages",
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "Messages",
           "package": "fastirc",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for IRC commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "Command",
           "package": "fastirc",
@@ -178,6 +191,7 @@
         "index": {
           "description": "Data type for IRC commands",
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "Command",
           "package": "fastirc",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for IRC messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "Message",
           "package": "fastirc",
@@ -201,6 +216,7 @@
         "index": {
           "description": "Data type for IRC messages",
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "Message",
           "package": "fastirc",
@@ -214,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "JoinCmd",
           "package": "fastirc",
@@ -223,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "JoinCmd",
           "package": "fastirc",
@@ -236,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "KickCmd",
           "package": "fastirc",
@@ -245,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "KickCmd",
           "package": "fastirc",
@@ -258,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "Message",
           "package": "fastirc",
@@ -267,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "Message",
           "package": "fastirc",
@@ -280,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "ModeCmd",
           "package": "fastirc",
@@ -289,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "ModeCmd",
           "normalized": "ModeCmd(Maybe(TargetName,CommandArg,[CommandArg]))",
@@ -304,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "NickCmd",
           "package": "fastirc",
@@ -313,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "NickCmd",
           "package": "fastirc",
@@ -326,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "NoticeCmd",
           "package": "fastirc",
@@ -335,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "NoticeCmd",
           "package": "fastirc",
@@ -349,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArbitrary numeric command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "NumericCmd",
           "package": "fastirc",
@@ -359,6 +388,7 @@
         "index": {
           "description": "Arbitrary numeric command",
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "NumericCmd",
           "normalized": "NumericCmd Integer[CommandArg]",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "PartCmd",
           "package": "fastirc",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "PartCmd",
           "package": "fastirc",
@@ -396,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "PassCmd",
           "package": "fastirc",
@@ -405,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "PassCmd",
           "package": "fastirc",
@@ -418,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "PingCmd",
           "package": "fastirc",
@@ -427,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "PingCmd",
           "package": "fastirc",
@@ -440,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "PongCmd",
           "package": "fastirc",
@@ -449,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "PongCmd",
           "package": "fastirc",
@@ -462,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "PrivMsgCmd",
           "package": "fastirc",
@@ -471,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "PrivMsgCmd",
           "package": "fastirc",
@@ -484,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "QuitCmd",
           "package": "fastirc",
@@ -493,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "QuitCmd",
           "package": "fastirc",
@@ -507,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArbitrary string command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "StringCmd",
           "package": "fastirc",
@@ -517,6 +560,7 @@
         "index": {
           "description": "Arbitrary string command",
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "StringCmd",
           "normalized": "StringCmd CommandName[CommandArg]",
@@ -532,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "TopicCmd",
           "package": "fastirc",
@@ -541,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "TopicCmd",
           "package": "fastirc",
@@ -554,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "UserCmd",
           "package": "fastirc",
@@ -563,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "UserCmd",
           "package": "fastirc",
@@ -577,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for IRC commands and their arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "commandParser",
           "package": "fastirc",
@@ -587,6 +636,7 @@
         "index": {
           "description": "Parser for IRC commands and their arguments",
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "commandParser",
           "package": "fastirc",
@@ -601,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for IRC messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "messageParser",
           "package": "fastirc",
@@ -611,6 +662,7 @@
         "index": {
           "description": "Parser for IRC messages",
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "messageParser",
           "package": "fastirc",
@@ -625,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage command or numeric.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "msgCommand",
           "package": "fastirc",
@@ -635,6 +688,7 @@
         "index": {
           "description": "Message command or numeric",
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "msgCommand",
           "package": "fastirc",
@@ -649,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage origin (user/server).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "msgOrigin",
           "package": "fastirc",
@@ -659,6 +714,7 @@
         "index": {
           "description": "Message origin user server",
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "msgOrigin",
           "package": "fastirc",
@@ -673,6 +729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the \u003ccode\u003e\u003ca\u003emessageParser\u003c/a\u003e\u003c/code\u003e parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "readMessage",
           "package": "fastirc",
@@ -683,6 +740,7 @@
         "index": {
           "description": "Run the messageParser parser",
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "readMessage",
           "normalized": "MsgString-\u003eMaybe Message",
@@ -699,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a \u003ccode\u003e\u003ca\u003eCommand\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.  If you need to specify an\n origin for the command, you should use \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e together with\n \u003ccode\u003e\u003ca\u003eshowMessage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "showCommand",
           "package": "fastirc",
@@ -709,6 +768,7 @@
         "index": {
           "description": "Turn Command into ByteString If you need to specify an origin for the command you should use Message together with showMessage",
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "showCommand",
           "normalized": "Command-\u003eMsgString",
@@ -725,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Messages",
           "name": "showMessage",
           "package": "fastirc",
@@ -735,6 +796,7 @@
         "index": {
           "description": "Turn Message into ByteString",
           "hierarchy": "Network FastIRC Messages",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Messages",
           "name": "showMessage",
           "normalized": "Message-\u003eMsgString",
@@ -751,6 +813,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for dealing with sets of IRC servers.  Note that servers\n are compared case-insensitively.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.ServerSet",
           "name": "ServerSet",
           "package": "fastirc",
@@ -760,6 +823,7 @@
         "index": {
           "description": "Functions for dealing with sets of IRC servers Note that servers are compared case-insensitively",
           "hierarchy": "Network FastIRC ServerSet",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.ServerSet",
           "name": "ServerSet",
           "package": "fastirc",
@@ -774,6 +838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of servers.  This data type uses \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e internally, but\n the strings are handled case-insensitively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.ServerSet",
           "name": "ServerSet",
           "package": "fastirc",
@@ -783,6 +848,7 @@
         "index": {
           "description": "set of servers This data type uses Set internally but the strings are handled case-insensitively",
           "hierarchy": "Network FastIRC ServerSet",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.ServerSet",
           "name": "ServerSet",
           "package": "fastirc",
@@ -797,6 +863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a server to a \u003ccode\u003e\u003ca\u003eServerSet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.ServerSet",
           "name": "addServer",
           "package": "fastirc",
@@ -807,6 +874,7 @@
         "index": {
           "description": "Add server to ServerSet",
           "hierarchy": "Network FastIRC ServerSet",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.ServerSet",
           "name": "addServer",
           "normalized": "ServerName-\u003eServerSet-\u003eServerSet",
@@ -823,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a server from a \u003ccode\u003e\u003ca\u003eServerSet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.ServerSet",
           "name": "delServer",
           "package": "fastirc",
@@ -833,6 +902,7 @@
         "index": {
           "description": "Remove server from ServerSet",
           "hierarchy": "Network FastIRC ServerSet",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.ServerSet",
           "name": "delServer",
           "normalized": "ServerName-\u003eServerSet-\u003eServerSet",
@@ -849,6 +919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty set of servers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.ServerSet",
           "name": "emptyServers",
           "package": "fastirc",
@@ -859,6 +930,7 @@
         "index": {
           "description": "Empty set of servers",
           "hierarchy": "Network FastIRC ServerSet",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.ServerSet",
           "name": "emptyServers",
           "package": "fastirc",
@@ -873,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether specified server is in the set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.ServerSet",
           "name": "isServer",
           "package": "fastirc",
@@ -883,6 +956,7 @@
         "index": {
           "description": "Check whether specified server is in the set",
           "hierarchy": "Network FastIRC ServerSet",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.ServerSet",
           "name": "isServer",
           "normalized": "ServerName-\u003eServerSet-\u003eBool",
@@ -899,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild from list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.ServerSet",
           "name": "serversFromList",
           "package": "fastirc",
@@ -909,6 +984,7 @@
         "index": {
           "description": "Build from list",
           "hierarchy": "Network FastIRC ServerSet",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.ServerSet",
           "name": "serversFromList",
           "normalized": "[ServerName]-\u003eServerSet",
@@ -925,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.ServerSet",
           "name": "serversToList",
           "package": "fastirc",
@@ -935,6 +1012,7 @@
         "index": {
           "description": "Convert to list",
           "hierarchy": "Network FastIRC ServerSet",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.ServerSet",
           "name": "serversToList",
           "normalized": "ServerSet-\u003e[ServerName]",
@@ -951,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements a framework for IRC client software.\n Essentially it consists of a dumb bot, which connects to and stays on\n an IRC server waiting for commands.\n\u003c/p\u003e\u003cp\u003eUsing the \u003ccode\u003e\u003ca\u003eonEvent\u003c/a\u003e\u003c/code\u003e function (or the convenience functions\n \u003ccode\u003e\u003ca\u003eonConnect\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eonDisconnect\u003c/a\u003e\u003c/code\u003e, etc.) you can attach event handlers to\n certain events.  These event handlers are run in the \u003ccode\u003e\u003ca\u003eBot\u003c/a\u003e\u003c/code\u003e monad,\n which encapsulates the current state of the bot.\n\u003c/p\u003e\u003cp\u003ePlease note that even though unlikely you should expect that parts of\n this interface will be changed in future revisions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "Session",
           "package": "fastirc",
@@ -960,6 +1039,7 @@
         "index": {
           "description": "This module implements framework for IRC client software Essentially it consists of dumb bot which connects to and stays on an IRC server waiting for commands Using the onEvent function or the convenience functions onConnect onDisconnect etc you can attach event handlers to certain events These event handlers are run in the Bot monad which encapsulates the current state of the bot Please note that even though unlikely you should expect that parts of this interface will be changed in future revisions",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "Session",
           "package": "fastirc",
@@ -974,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBot monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "Bot",
           "package": "fastirc",
@@ -983,6 +1064,7 @@
         "index": {
           "description": "Bot monad",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "Bot",
           "package": "fastirc",
@@ -997,6 +1079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommands to be sent to the bot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "BotCommand",
           "package": "fastirc",
@@ -1006,6 +1089,7 @@
         "index": {
           "description": "Commands to be sent to the bot",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "BotCommand",
           "package": "fastirc",
@@ -1020,6 +1104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuntime bot information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "BotInfo",
           "package": "fastirc",
@@ -1029,6 +1114,7 @@
         "index": {
           "description": "Runtime bot information",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "BotInfo",
           "package": "fastirc",
@@ -1043,6 +1129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBot session descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "BotSession",
           "package": "fastirc",
@@ -1052,6 +1139,7 @@
         "index": {
           "description": "Bot session descriptor",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "BotSession",
           "package": "fastirc",
@@ -1066,6 +1154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bot event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "Event",
           "package": "fastirc",
@@ -1075,6 +1164,7 @@
         "index": {
           "description": "bot event",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "Event",
           "package": "fastirc",
@@ -1089,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent handler identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "EventHandler",
           "package": "fastirc",
@@ -1098,6 +1189,7 @@
         "index": {
           "description": "Event handler identifier",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "EventHandler",
           "package": "fastirc",
@@ -1112,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameters for an IRC client connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "Params",
           "package": "fastirc",
@@ -1121,6 +1214,7 @@
         "index": {
           "description": "Parameters for an IRC client connection",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "Params",
           "package": "fastirc",
@@ -1135,6 +1229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an event handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "BotAddHandler",
           "package": "fastirc",
@@ -1145,6 +1240,7 @@
         "index": {
           "description": "Add an event handler",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "BotAddHandler",
           "normalized": "BotAddHandler(EventHandler-\u003eIO())(Event-\u003eBot())",
@@ -1161,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDispatch simulated event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "BotDispatch",
           "package": "fastirc",
@@ -1171,6 +1268,7 @@
         "index": {
           "description": "Dispatch simulated event",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "BotDispatch",
           "package": "fastirc",
@@ -1185,6 +1283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimulate an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "BotError",
           "package": "fastirc",
@@ -1195,6 +1294,7 @@
         "index": {
           "description": "Simulate an error",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "BotError",
           "package": "fastirc",
@@ -1208,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "BotInfo",
           "package": "fastirc",
@@ -1217,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "BotInfo",
           "package": "fastirc",
@@ -1231,6 +1333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a quit message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "BotQuit",
           "package": "fastirc",
@@ -1241,6 +1344,7 @@
         "index": {
           "description": "Send quit message",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "BotQuit",
           "package": "fastirc",
@@ -1255,6 +1359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimulate receiving of a message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "BotRecv",
           "package": "fastirc",
@@ -1265,6 +1370,7 @@
         "index": {
           "description": "Simulate receiving of message",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "BotRecv",
           "package": "fastirc",
@@ -1279,6 +1385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a command to the IRC server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "BotSendCmd",
           "package": "fastirc",
@@ -1289,6 +1396,7 @@
         "index": {
           "description": "Send command to the IRC server",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "BotSendCmd",
           "package": "fastirc",
@@ -1303,6 +1411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a message to the IRC server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "BotSendMsg",
           "package": "fastirc",
@@ -1313,6 +1422,7 @@
         "index": {
           "description": "Send message to the IRC server",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "BotSendMsg",
           "package": "fastirc",
@@ -1327,6 +1437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a raw string to the IRC server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "BotSendString",
           "package": "fastirc",
@@ -1337,6 +1448,7 @@
         "index": {
           "description": "Send raw string to the IRC server",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "BotSendString",
           "package": "fastirc",
@@ -1351,6 +1463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImmediately kill the bot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "BotTerminate",
           "package": "fastirc",
@@ -1361,6 +1474,7 @@
         "index": {
           "description": "Immediately kill the bot",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "BotTerminate",
           "package": "fastirc",
@@ -1375,6 +1489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBot connected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "ConnectedEvent",
           "package": "fastirc",
@@ -1385,6 +1500,7 @@
         "index": {
           "description": "Bot connected",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "ConnectedEvent",
           "package": "fastirc",
@@ -1399,6 +1515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBot disconnected (either error or on demand).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "DisconnectedEvent",
           "package": "fastirc",
@@ -1409,6 +1526,7 @@
         "index": {
           "description": "Bot disconnected either error or on demand",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "DisconnectedEvent",
           "package": "fastirc",
@@ -1423,6 +1541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection failed or disconnected on error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "ErrorEvent",
           "package": "fastirc",
@@ -1433,6 +1552,7 @@
         "index": {
           "description": "Connection failed or disconnected on error",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "ErrorEvent",
           "package": "fastirc",
@@ -1447,6 +1567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBot logged in (received numeric 001).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "LoggedInEvent",
           "package": "fastirc",
@@ -1457,6 +1578,7 @@
         "index": {
           "description": "Bot logged in received numeric",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "LoggedInEvent",
           "package": "fastirc",
@@ -1471,6 +1593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceived message from server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "MessageEvent",
           "package": "fastirc",
@@ -1481,6 +1604,7 @@
         "index": {
           "description": "Received message from server",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "MessageEvent",
           "package": "fastirc",
@@ -1494,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "Params",
           "package": "fastirc",
@@ -1503,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "Params",
           "package": "fastirc",
@@ -1517,6 +1643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBot disconnected on demand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "QuitEvent",
           "package": "fastirc",
@@ -1527,6 +1654,7 @@
         "index": {
           "description": "Bot disconnected on demand",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "QuitEvent",
           "package": "fastirc",
@@ -1540,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "botCurrentNick",
           "package": "fastirc",
@@ -1549,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "botCurrentNick",
           "package": "fastirc",
@@ -1563,6 +1693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIRC nick name generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "botGetNick",
           "package": "fastirc",
@@ -1573,6 +1704,7 @@
         "index": {
           "description": "IRC nick name generator",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "botGetNick",
           "package": "fastirc",
@@ -1587,6 +1719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIRC real name generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "botGetRealName",
           "package": "fastirc",
@@ -1597,6 +1730,7 @@
         "index": {
           "description": "IRC real name generator",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "botGetRealName",
           "package": "fastirc",
@@ -1611,6 +1745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIRC user name generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "botGetUser",
           "package": "fastirc",
@@ -1621,6 +1756,7 @@
         "index": {
           "description": "IRC user name generator",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "botGetUser",
           "package": "fastirc",
@@ -1635,6 +1771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIRC server password.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "botPassword",
           "package": "fastirc",
@@ -1645,6 +1782,7 @@
         "index": {
           "description": "IRC server password",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "botPassword",
           "package": "fastirc",
@@ -1659,6 +1797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIRC server address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "botServerAddr",
           "package": "fastirc",
@@ -1669,6 +1808,7 @@
         "index": {
           "description": "IRC server address",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "botServerAddr",
           "package": "fastirc",
@@ -1683,6 +1823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet current bot information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "getBotInfo",
           "package": "fastirc",
@@ -1693,6 +1834,7 @@
         "index": {
           "description": "Get current bot information",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "getBotInfo",
           "package": "fastirc",
@@ -1707,6 +1849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a command to the IRC server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "ircSendCmd",
           "package": "fastirc",
@@ -1717,6 +1860,7 @@
         "index": {
           "description": "Send command to the IRC server",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "ircSendCmd",
           "normalized": "BotSession-\u003eCommand-\u003eIO()",
@@ -1733,6 +1877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a message (with origin) to the IRC server.  Note that IRC\n servers ignore the origin prefix, so in general you would want to use\n \u003ccode\u003e\u003ca\u003eircSendCmd\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "ircSendMsg",
           "package": "fastirc",
@@ -1743,6 +1888,7 @@
         "index": {
           "description": "Send message with origin to the IRC server Note that IRC servers ignore the origin prefix so in general you would want to use ircSendCmd instead",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "ircSendMsg",
           "normalized": "BotSession-\u003eMessage-\u003eIO()",
@@ -1759,6 +1905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a raw message string to the IRC server.  This is what most IRC\n clients call /quote.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "ircSendString",
           "package": "fastirc",
@@ -1769,6 +1916,7 @@
         "index": {
           "description": "Send raw message string to the IRC server This is what most IRC clients call quote",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "ircSendString",
           "normalized": "BotSession-\u003eMsgString-\u003eIO()",
@@ -1785,6 +1933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction to run on connect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "onConnect",
           "package": "fastirc",
@@ -1795,6 +1944,7 @@
         "index": {
           "description": "Action to run on connect",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "onConnect",
           "normalized": "BotSession-\u003eBot()-\u003eIO EventHandler",
@@ -1811,6 +1961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction to run on disconnect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "onDisconnect",
           "package": "fastirc",
@@ -1821,6 +1972,7 @@
         "index": {
           "description": "Action to run on disconnect",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "onDisconnect",
           "normalized": "BotSession-\u003eBot()-\u003eIO EventHandler",
@@ -1837,6 +1989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction to run on error (connection failed/aborted).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "onError",
           "package": "fastirc",
@@ -1847,6 +2000,7 @@
         "index": {
           "description": "Action to run on error connection failed aborted",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "onError",
           "normalized": "BotSession-\u003e(String-\u003eBot())-\u003eIO EventHandler",
@@ -1863,6 +2017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an event handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "onEvent",
           "package": "fastirc",
@@ -1873,6 +2028,7 @@
         "index": {
           "description": "Add an event handler",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "onEvent",
           "normalized": "BotSession-\u003e(Event-\u003eBot())-\u003eIO EventHandler",
@@ -1889,6 +2045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction to run after login (numeric 001 received).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "onLoggedIn",
           "package": "fastirc",
@@ -1899,6 +2056,7 @@
         "index": {
           "description": "Action to run after login numeric received",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "onLoggedIn",
           "normalized": "BotSession-\u003eBot()-\u003eIO EventHandler",
@@ -1915,6 +2073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction to run when a message arrives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "onMessage",
           "package": "fastirc",
@@ -1925,6 +2084,7 @@
         "index": {
           "description": "Action to run when message arrives",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "onMessage",
           "normalized": "BotSession-\u003e(Message-\u003eBot())-\u003eIO EventHandler",
@@ -1941,6 +2101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction to run on quit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "onQuit",
           "package": "fastirc",
@@ -1951,6 +2112,7 @@
         "index": {
           "description": "Action to run on quit",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "onQuit",
           "normalized": "BotSession-\u003eBot()-\u003eIO EventHandler",
@@ -1967,6 +2129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend bot command to a bot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "sendBotCmd",
           "package": "fastirc",
@@ -1977,6 +2140,7 @@
         "index": {
           "description": "Send bot command to bot",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "sendBotCmd",
           "normalized": "BotSession-\u003eBotCommand-\u003eIO()",
@@ -1993,6 +2157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLaunch an IRC bot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Session",
           "name": "startBot",
           "package": "fastirc",
@@ -2003,6 +2168,7 @@
         "index": {
           "description": "Launch an IRC bot",
           "hierarchy": "Network FastIRC Session",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Session",
           "name": "startBot",
           "normalized": "Params-\u003eIO(Either IOError BotSession)",
@@ -2019,6 +2185,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA number of convenient type aliases.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Types",
           "name": "Types",
           "package": "fastirc",
@@ -2028,6 +2195,7 @@
         "index": {
           "description": "number of convenient type aliases",
           "hierarchy": "Network FastIRC Types",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Types",
           "name": "Types",
           "package": "fastirc",
@@ -2041,6 +2209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Types",
           "name": "ChannelKey",
           "package": "fastirc",
@@ -2049,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Types",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Types",
           "name": "ChannelKey",
           "package": "fastirc",
@@ -2062,6 +2232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Types",
           "name": "ChannelName",
           "package": "fastirc",
@@ -2070,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Types",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Types",
           "name": "ChannelName",
           "package": "fastirc",
@@ -2083,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Types",
           "name": "CommandArg",
           "package": "fastirc",
@@ -2091,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Types",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Types",
           "name": "CommandArg",
           "package": "fastirc",
@@ -2104,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Types",
           "name": "CommandName",
           "package": "fastirc",
@@ -2112,6 +2287,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Types",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Types",
           "name": "CommandName",
           "package": "fastirc",
@@ -2125,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Types",
           "name": "HostName",
           "package": "fastirc",
@@ -2133,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Types",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Types",
           "name": "HostName",
           "package": "fastirc",
@@ -2146,6 +2324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Types",
           "name": "MsgString",
           "package": "fastirc",
@@ -2154,6 +2333,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Types",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Types",
           "name": "MsgString",
           "package": "fastirc",
@@ -2167,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Types",
           "name": "NickName",
           "package": "fastirc",
@@ -2175,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Types",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Types",
           "name": "NickName",
           "package": "fastirc",
@@ -2188,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Types",
           "name": "RealName",
           "package": "fastirc",
@@ -2196,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Types",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Types",
           "name": "RealName",
           "package": "fastirc",
@@ -2209,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Types",
           "name": "ServerName",
           "package": "fastirc",
@@ -2217,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Types",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Types",
           "name": "ServerName",
           "package": "fastirc",
@@ -2230,6 +2416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Types",
           "name": "TargetName",
           "package": "fastirc",
@@ -2238,6 +2425,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Types",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Types",
           "name": "TargetName",
           "package": "fastirc",
@@ -2251,6 +2439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Types",
           "name": "UserName",
           "package": "fastirc",
@@ -2259,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "Network FastIRC Types",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Types",
           "name": "UserName",
           "package": "fastirc",
@@ -2273,6 +2463,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module includes parsers for IRC users.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Users",
           "name": "Users",
           "package": "fastirc",
@@ -2282,6 +2473,7 @@
         "index": {
           "description": "This module includes parsers for IRC users",
           "hierarchy": "Network FastIRC Users",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Users",
           "name": "Users",
           "package": "fastirc",
@@ -2296,6 +2488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIRC user or server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Users",
           "name": "UserSpec",
           "package": "fastirc",
@@ -2305,6 +2498,7 @@
         "index": {
           "description": "IRC user or server",
           "hierarchy": "Network FastIRC Users",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Users",
           "name": "UserSpec",
           "package": "fastirc",
@@ -2319,6 +2513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNickname.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Users",
           "name": "Nick",
           "package": "fastirc",
@@ -2329,6 +2524,7 @@
         "index": {
           "description": "Nickname",
           "hierarchy": "Network FastIRC Users",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Users",
           "name": "Nick",
           "package": "fastirc",
@@ -2343,6 +2539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNickname, username and hostname.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Users",
           "name": "User",
           "package": "fastirc",
@@ -2353,6 +2550,7 @@
         "index": {
           "description": "Nickname username and hostname",
           "hierarchy": "Network FastIRC Users",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Users",
           "name": "User",
           "package": "fastirc",
@@ -2367,6 +2565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a \u003ccode\u003e\u003ca\u003eUserSpec\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e in a format suitable to be\n sent to the IRC server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Users",
           "name": "showUserSpec",
           "package": "fastirc",
@@ -2377,6 +2576,7 @@
         "index": {
           "description": "Turn UserSpec into ByteString in format suitable to be sent to the IRC server",
           "hierarchy": "Network FastIRC Users",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Users",
           "name": "showUserSpec",
           "normalized": "UserSpec-\u003eMsgString",
@@ -2393,6 +2593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a given nickname is a server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Users",
           "name": "userIsServer",
           "package": "fastirc",
@@ -2403,6 +2604,7 @@
         "index": {
           "description": "Check whether given nickname is server",
           "hierarchy": "Network FastIRC Users",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Users",
           "name": "userIsServer",
           "normalized": "UserSpec-\u003eServerSet-\u003eBool",
@@ -2419,6 +2621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e for IRC users and servers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Users",
           "name": "userParser",
           "package": "fastirc",
@@ -2429,6 +2632,7 @@
         "index": {
           "description": "Parser for IRC users and servers",
           "hierarchy": "Network FastIRC Users",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Users",
           "name": "userParser",
           "package": "fastirc",
@@ -2443,6 +2647,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility functions for parsing IRC messages.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Utils",
           "name": "Utils",
           "package": "fastirc",
@@ -2452,6 +2657,7 @@
         "index": {
           "description": "Utility functions for parsing IRC messages",
           "hierarchy": "Network FastIRC Utils",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Utils",
           "name": "Utils",
           "package": "fastirc",
@@ -2466,6 +2672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter predicate for channel passwords.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Utils",
           "name": "isChanPwdChar",
           "package": "fastirc",
@@ -2476,6 +2683,7 @@
         "index": {
           "description": "Character predicate for channel passwords",
           "hierarchy": "Network FastIRC Utils",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Utils",
           "name": "isChanPwdChar",
           "normalized": "Char-\u003eBool",
@@ -2492,6 +2700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter predicate for channel names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Utils",
           "name": "isChannelChar",
           "package": "fastirc",
@@ -2502,6 +2711,7 @@
         "index": {
           "description": "Character predicate for channel names",
           "hierarchy": "Network FastIRC Utils",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Utils",
           "name": "isChannelChar",
           "normalized": "Char-\u003eBool",
@@ -2518,6 +2728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter predicate for IRC commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Utils",
           "name": "isCommandChar",
           "package": "fastirc",
@@ -2528,6 +2739,7 @@
         "index": {
           "description": "Character predicate for IRC commands",
           "hierarchy": "Network FastIRC Utils",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Utils",
           "name": "isCommandChar",
           "normalized": "Char-\u003eBool",
@@ -2544,6 +2756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter predicate for IRC user hostnames.  In the string \u003ccode\u003ex!y@z\u003c/code\u003e\n the substring \u003ccode\u003ez\u003c/code\u003e is the user's hostname.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Utils",
           "name": "isHostChar",
           "package": "fastirc",
@@ -2554,6 +2767,7 @@
         "index": {
           "description": "Character predicate for IRC user hostnames In the string y@z the substring is the user hostname",
           "hierarchy": "Network FastIRC Utils",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Utils",
           "name": "isHostChar",
           "normalized": "Char-\u003eBool",
@@ -2570,6 +2784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter predicate for IRC end of line characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Utils",
           "name": "isIRCEOLChar",
           "package": "fastirc",
@@ -2580,6 +2795,7 @@
         "index": {
           "description": "Character predicate for IRC end of line characters",
           "hierarchy": "Network FastIRC Utils",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Utils",
           "name": "isIRCEOLChar",
           "normalized": "Char-\u003eBool",
@@ -2596,6 +2812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter predicate for IRC tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Utils",
           "name": "isIRCTokChar",
           "package": "fastirc",
@@ -2606,6 +2823,7 @@
         "index": {
           "description": "Character predicate for IRC tokens",
           "hierarchy": "Network FastIRC Utils",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Utils",
           "name": "isIRCTokChar",
           "normalized": "Char-\u003eBool",
@@ -2622,6 +2840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter predicate for IRC messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Utils",
           "name": "isMessageChar",
           "package": "fastirc",
@@ -2632,6 +2851,7 @@
         "index": {
           "description": "Character predicate for IRC messages",
           "hierarchy": "Network FastIRC Utils",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Utils",
           "name": "isMessageChar",
           "normalized": "Char-\u003eBool",
@@ -2648,6 +2868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter predicate for IRC nicknames.  This function considers\n high bytes (0x80 to 0xFF) and most nonstandard ASCII bytes as valid,\n because most modern IRC daemons allow nonstandard nicknames.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Utils",
           "name": "isNickChar",
           "package": "fastirc",
@@ -2658,6 +2879,7 @@
         "index": {
           "description": "Character predicate for IRC nicknames This function considers high bytes x80 to xFF and most nonstandard ASCII bytes as valid because most modern IRC daemons allow nonstandard nicknames",
           "hierarchy": "Network FastIRC Utils",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Utils",
           "name": "isNickChar",
           "normalized": "Char-\u003eBool",
@@ -2674,6 +2896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter predicate for IRC servers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Utils",
           "name": "isServerChar",
           "package": "fastirc",
@@ -2684,6 +2907,7 @@
         "index": {
           "description": "Character predicate for IRC servers",
           "hierarchy": "Network FastIRC Utils",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Utils",
           "name": "isServerChar",
           "normalized": "Char-\u003eBool",
@@ -2700,6 +2924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter predicate for IRC usernames.  In the string \u003ccode\u003ex!y@z\u003c/code\u003e the\n substring \u003ccode\u003ey\u003c/code\u003e is the user's username.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Utils",
           "name": "isUserChar",
           "package": "fastirc",
@@ -2710,6 +2935,7 @@
         "index": {
           "description": "Character predicate for IRC usernames In the string y@z the substring is the user username",
           "hierarchy": "Network FastIRC Utils",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Utils",
           "name": "isUserChar",
           "normalized": "Char-\u003eBool",
@@ -2726,6 +2952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter predicate for nicknames, usernames and hostnames.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Utils",
           "name": "isUserSpecChar",
           "package": "fastirc",
@@ -2736,6 +2963,7 @@
         "index": {
           "description": "Character predicate for nicknames usernames and hostnames",
           "hierarchy": "Network FastIRC Utils",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Utils",
           "name": "isUserSpecChar",
           "normalized": "Char-\u003eBool",
@@ -2752,6 +2980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a parser completely.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC.Utils",
           "name": "parseComplete",
           "package": "fastirc",
@@ -2762,6 +2991,7 @@
         "index": {
           "description": "Run parser completely",
           "hierarchy": "Network FastIRC Utils",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC.Utils",
           "name": "parseComplete",
           "normalized": "Parser a-\u003eByteString-\u003eMaybe a",
@@ -2778,6 +3008,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast IRC parsing and connection library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:39 UTC 2014",
           "module": "Network.FastIRC",
           "name": "FastIRC",
           "package": "fastirc",
@@ -2787,6 +3018,7 @@
         "index": {
           "description": "Fast IRC parsing and connection library",
           "hierarchy": "Network FastIRC",
+          "indexed": "2014-03-11T18:06:39",
           "module": "Network.FastIRC",
           "name": "FastIRC",
           "package": "fastirc",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "manatee-curl"
+        "phrase": "manatee-curl",
+        "type": "phrase"
       },
       "type": "context"
     }

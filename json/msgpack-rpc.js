@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "msgpack-rpc"
+        "phrase": "msgpack-rpc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is client library of MessagePack-RPC.\n The specification of MessagePack-RPC is at\n \u003ca\u003ehttp://redmine.msgpack.org/projects/msgpack/wiki/RPCProtocolSpec\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eA simple example:\n\u003c/p\u003e\u003cpre\u003e import Network.MessagePackRpc.Client\n\n add :: Int -\u003e Int -\u003e Client Int\n add = call \"add\"\n\n main = runClient \"localhost\" 5000 $ do\n   ret \u003c- add 123 456\n   liftIO $ print ret\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:23:09 UTC 2014",
           "module": "Network.MessagePackRpc.Client",
           "name": "Client",
           "package": "msgpack-rpc",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module is client library of MessagePack-RPC The specification of MessagePack-RPC is at http redmine.msgpack.org projects msgpack wiki RPCProtocolSpec simple example import Network.MessagePackRpc.Client add Int Int Client Int add call add main runClient localhost do ret add liftIO print ret",
           "hierarchy": "Network MessagePackRpc Client",
+          "indexed": "2014-03-11T19:23:09",
           "module": "Network.MessagePackRpc.Client",
           "name": "Client",
           "package": "msgpack-rpc",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:09 UTC 2014",
           "module": "Network.MessagePackRpc.Client",
           "name": "Client",
           "package": "msgpack-rpc",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network MessagePackRpc Client",
+          "indexed": "2014-03-11T19:23:09",
           "module": "Network.MessagePackRpc.Client",
           "name": "Client",
           "package": "msgpack-rpc",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:09 UTC 2014",
           "module": "Network.MessagePackRpc.Client",
           "name": "ClientT",
           "package": "msgpack-rpc",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Network MessagePackRpc Client",
+          "indexed": "2014-03-11T19:23:09",
           "module": "Network.MessagePackRpc.Client",
           "name": "ClientT",
           "package": "msgpack-rpc",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRPC error type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:09 UTC 2014",
           "module": "Network.MessagePackRpc.Client",
           "name": "RpcError",
           "package": "msgpack-rpc",
@@ -93,6 +100,7 @@
         "index": {
           "description": "RPC error type",
           "hierarchy": "Network MessagePackRpc Client",
+          "indexed": "2014-03-11T19:23:09",
           "module": "Network.MessagePackRpc.Client",
           "name": "RpcError",
           "package": "msgpack-rpc",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProtocol error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:09 UTC 2014",
           "module": "Network.MessagePackRpc.Client",
           "name": "ProtocolError",
           "package": "msgpack-rpc",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Protocol error",
           "hierarchy": "Network MessagePackRpc Client",
+          "indexed": "2014-03-11T19:23:09",
           "module": "Network.MessagePackRpc.Client",
           "name": "ProtocolError",
           "package": "msgpack-rpc",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult type mismatch\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:09 UTC 2014",
           "module": "Network.MessagePackRpc.Client",
           "name": "ResultTypeError",
           "package": "msgpack-rpc",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Result type mismatch",
           "hierarchy": "Network MessagePackRpc Client",
+          "indexed": "2014-03-11T19:23:09",
           "module": "Network.MessagePackRpc.Client",
           "name": "ResultTypeError",
           "package": "msgpack-rpc",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:09 UTC 2014",
           "module": "Network.MessagePackRpc.Client",
           "name": "ServerError",
           "package": "msgpack-rpc",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Server error",
           "hierarchy": "Network MessagePackRpc Client",
+          "indexed": "2014-03-11T19:23:09",
           "module": "Network.MessagePackRpc.Client",
           "name": "ServerError",
           "package": "msgpack-rpc",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall an RPC Method\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:09 UTC 2014",
           "module": "Network.MessagePackRpc.Client",
           "name": "call",
           "package": "msgpack-rpc",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Call an RPC Method",
           "hierarchy": "Network MessagePackRpc Client",
+          "indexed": "2014-03-11T19:23:09",
           "module": "Network.MessagePackRpc.Client",
           "name": "call",
           "normalized": "String-\u003ea",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:09 UTC 2014",
           "module": "Network.MessagePackRpc.Client",
           "name": "runClient",
           "package": "msgpack-rpc",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Network MessagePackRpc Client",
+          "indexed": "2014-03-11T19:23:09",
           "module": "Network.MessagePackRpc.Client",
           "name": "runClient",
           "normalized": "ByteString-\u003eInt-\u003eClientT a b-\u003ea()",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is server library of MessagePack-RPC.\n The specification of MessagePack-RPC is at\n \u003ca\u003ehttp://redmine.msgpack.org/projects/msgpack/wiki/RPCProtocolSpec\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eA simple example:\n\u003c/p\u003e\u003cpre\u003e import Network.MessagePackRpc.Server\n\n add :: Int -\u003e Int -\u003e Method Int\n add x y = return $ x + y\n\n main = serve 1234 [(\"add\", toMethod add)]\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:23:09 UTC 2014",
           "module": "Network.MessagePackRpc.Server",
           "name": "Server",
           "package": "msgpack-rpc",
@@ -236,6 +255,7 @@
         "index": {
           "description": "This module is server library of MessagePack-RPC The specification of MessagePack-RPC is at http redmine.msgpack.org projects msgpack wiki RPCProtocolSpec simple example import Network.MessagePackRpc.Server add Int Int Method Int add return main serve add toMethod add",
           "hierarchy": "Network MessagePackRpc Server",
+          "indexed": "2014-03-11T19:23:09",
           "module": "Network.MessagePackRpc.Server",
           "name": "Server",
           "package": "msgpack-rpc",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:09 UTC 2014",
           "module": "Network.MessagePackRpc.Server",
           "name": "Method",
           "package": "msgpack-rpc",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Network MessagePackRpc Server",
+          "indexed": "2014-03-11T19:23:09",
           "module": "Network.MessagePackRpc.Server",
           "name": "Method",
           "package": "msgpack-rpc",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:09 UTC 2014",
           "module": "Network.MessagePackRpc.Server",
           "name": "MethodT",
           "package": "msgpack-rpc",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Network MessagePackRpc Server",
+          "indexed": "2014-03-11T19:23:09",
           "module": "Network.MessagePackRpc.Server",
           "name": "MethodT",
           "package": "msgpack-rpc",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:09 UTC 2014",
           "module": "Network.MessagePackRpc.Server",
           "name": "MethodType",
           "package": "msgpack-rpc",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Network MessagePackRpc Server",
+          "indexed": "2014-03-11T19:23:09",
           "module": "Network.MessagePackRpc.Server",
           "name": "MethodType",
           "package": "msgpack-rpc",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:09 UTC 2014",
           "module": "Network.MessagePackRpc.Server",
           "name": "RpcMethod",
           "package": "msgpack-rpc",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Network MessagePackRpc Server",
+          "indexed": "2014-03-11T19:23:09",
           "module": "Network.MessagePackRpc.Server",
           "name": "RpcMethod",
           "package": "msgpack-rpc",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:09 UTC 2014",
           "module": "Network.MessagePackRpc.Server",
           "name": "MethodT",
           "package": "msgpack-rpc",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Network MessagePackRpc Server",
+          "indexed": "2014-03-11T19:23:09",
           "module": "Network.MessagePackRpc.Server",
           "name": "MethodT",
           "package": "msgpack-rpc",
@@ -356,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart RPC server with a set of RPC methods.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:09 UTC 2014",
           "module": "Network.MessagePackRpc.Server",
           "name": "serve",
           "package": "msgpack-rpc",
@@ -365,6 +396,7 @@
         "index": {
           "description": "Start RPC server with set of RPC methods",
           "hierarchy": "Network MessagePackRpc Server",
+          "indexed": "2014-03-11T19:23:09",
           "module": "Network.MessagePackRpc.Server",
           "name": "serve",
           "normalized": "Int-\u003e[(String,RpcMethod a)]-\u003ea()",
@@ -380,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a RPC method from a Hakell function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:09 UTC 2014",
           "module": "Network.MessagePackRpc.Server",
           "name": "toMethod",
           "package": "msgpack-rpc",
@@ -390,6 +423,7 @@
         "index": {
           "description": "Create RPC method from Hakell function",
           "hierarchy": "Network MessagePackRpc Server",
+          "indexed": "2014-03-11T19:23:09",
           "module": "Network.MessagePackRpc.Server",
           "name": "toMethod",
           "normalized": "a-\u003eRpcMethod b",
@@ -405,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:09 UTC 2014",
           "module": "Network.MessagePackRpc.Server",
           "name": "unMethodT",
           "package": "msgpack-rpc",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Network MessagePackRpc Server",
+          "indexed": "2014-03-11T19:23:09",
           "module": "Network.MessagePackRpc.Server",
           "name": "unMethodT",
           "package": "msgpack-rpc",

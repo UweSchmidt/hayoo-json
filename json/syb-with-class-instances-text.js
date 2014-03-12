@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "syb-with-class-instances-text"
+        "phrase": "syb-with-class-instances-text",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:40 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Instances.Text",
           "name": "Text",
           "package": "syb-with-class-instances-text",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Instances Text",
+          "indexed": "2014-03-11T20:14:40",
           "module": "Data.Generics.SYB.WithClass.Instances.Text",
           "name": "Text",
           "package": "syb-with-class-instances-text",

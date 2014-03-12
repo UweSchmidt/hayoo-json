@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HXMPP"
+        "phrase": "HXMPP",
+        "type": "phrase"
       },
       "type": "context"
     }

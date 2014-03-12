@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "aligned-foreignptr"
+        "phrase": "aligned-foreignptr",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA properly aligned ForeignPtr type.\n This can be currently achieved only by wasting some bytes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:09:49 UTC 2014",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "Aligned",
           "package": "aligned-foreignptr",
@@ -28,6 +29,7 @@
         "index": {
           "description": "properly aligned ForeignPtr type This can be currently achieved only by wasting some bytes",
           "hierarchy": "Foreign ForeignPtr Aligned",
+          "indexed": "2014-03-11T17:09:49",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "Aligned",
           "package": "aligned-foreignptr",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe aligned ForeignPtr type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:49 UTC 2014",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "AlignedForeignPtr",
           "package": "aligned-foreignptr",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The aligned ForeignPtr type",
           "hierarchy": "Foreign ForeignPtr Aligned",
+          "indexed": "2014-03-11T17:09:49",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "AlignedForeignPtr",
           "package": "aligned-foreignptr",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould be a power of two.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:49 UTC 2014",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "Alignment",
           "package": "aligned-foreignptr",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Should be power of two",
           "hierarchy": "Foreign ForeignPtr Aligned",
+          "indexed": "2014-03-11T17:09:49",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "Alignment",
           "package": "aligned-foreignptr",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \"smart\" constructor which checks whether the input \n is a power of two.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:09:49 UTC 2014",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "align",
           "package": "aligned-foreignptr",
@@ -98,6 +105,7 @@
         "index": {
           "description": "smart constructor which checks whether the input is power of two",
           "hierarchy": "Foreign ForeignPtr Aligned",
+          "indexed": "2014-03-11T17:09:49",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "align",
           "normalized": "Int-\u003eAlignment",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:49 UTC 2014",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "castAlignedForeignPtr",
           "package": "aligned-foreignptr",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Foreign ForeignPtr Aligned",
+          "indexed": "2014-03-11T17:09:49",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "castAlignedForeignPtr",
           "normalized": "AlignedForeignPtr a-\u003eAlignedForeignPtr b",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:49 UTC 2014",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "finalizeAlignedForeignPtr",
           "package": "aligned-foreignptr",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Foreign ForeignPtr Aligned",
+          "indexed": "2014-03-11T17:09:49",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "finalizeAlignedForeignPtr",
           "normalized": "AlignedForeignPtr a-\u003eIO()",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:49 UTC 2014",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "fromAlignment",
           "package": "aligned-foreignptr",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Foreign ForeignPtr Aligned",
+          "indexed": "2014-03-11T17:09:49",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "fromAlignment",
           "normalized": "Alignment-\u003eInt",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:49 UTC 2014",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "mallocAlignedForeignPtr",
           "package": "aligned-foreignptr",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Foreign ForeignPtr Aligned",
+          "indexed": "2014-03-11T17:09:49",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "mallocAlignedForeignPtr",
           "normalized": "Alignment-\u003eIO(AlignedForeignPtr a)",
@@ -208,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:49 UTC 2014",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "mallocAlignedForeignPtrArray",
           "package": "aligned-foreignptr",
@@ -217,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Foreign ForeignPtr Aligned",
+          "indexed": "2014-03-11T17:09:49",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "mallocAlignedForeignPtrArray",
           "normalized": "Alignment-\u003eInt-\u003eIO(AlignedForeignPtr a)",
@@ -232,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:49 UTC 2014",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "mallocAlignedForeignPtrBytes",
           "package": "aligned-foreignptr",
@@ -241,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Foreign ForeignPtr Aligned",
+          "indexed": "2014-03-11T17:09:49",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "mallocAlignedForeignPtrBytes",
           "normalized": "Alignment-\u003eInt-\u003eIO(AlignedForeignPtr a)",
@@ -256,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:49 UTC 2014",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "touchAlignedForeignPtr",
           "package": "aligned-foreignptr",
@@ -265,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Foreign ForeignPtr Aligned",
+          "indexed": "2014-03-11T17:09:49",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "touchAlignedForeignPtr",
           "normalized": "AlignedForeignPtr a-\u003eIO()",
@@ -280,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:49 UTC 2014",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "withAlignedForeignPtr",
           "package": "aligned-foreignptr",
@@ -289,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Foreign ForeignPtr Aligned",
+          "indexed": "2014-03-11T17:09:49",
           "module": "Foreign.ForeignPtr.Aligned",
           "name": "withAlignedForeignPtr",
           "normalized": "AlignedForeignPtr a-\u003e(Ptr a-\u003eIO b)-\u003eIO b",

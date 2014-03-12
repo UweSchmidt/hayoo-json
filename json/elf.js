@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "elf"
+        "phrase": "elf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData.Elf  is a module for parsing a ByteString of an ELF file into an Elf record.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "Elf",
           "package": "elf",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Data.Elf is module for parsing ByteString of an ELF file into an Elf record",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "Elf",
           "package": "elf",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "Elf",
           "package": "elf",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "Elf",
           "package": "elf",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ElfClass",
           "package": "elf",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ElfClass",
           "package": "elf",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ElfData",
           "package": "elf",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ElfData",
           "package": "elf",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ElfMachine",
           "package": "elf",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ElfMachine",
           "package": "elf",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ElfOSABI",
           "package": "elf",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ElfOSABI",
           "package": "elf",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ElfSection",
           "package": "elf",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ElfSection",
           "package": "elf",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ElfSectionFlags",
           "package": "elf",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ElfSectionFlags",
           "package": "elf",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ElfSectionIndex",
           "package": "elf",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ElfSectionIndex",
           "package": "elf",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ElfSectionType",
           "package": "elf",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ElfSectionType",
           "package": "elf",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ElfSegment",
           "package": "elf",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ElfSegment",
           "package": "elf",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ElfSegmentFlag",
           "package": "elf",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ElfSegmentFlag",
           "package": "elf",
@@ -273,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegment Types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ElfSegmentType",
           "package": "elf",
@@ -282,6 +307,7 @@
         "index": {
           "description": "Segment Types",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ElfSegmentType",
           "package": "elf",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ElfSymbolBinding",
           "package": "elf",
@@ -303,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ElfSymbolBinding",
           "package": "elf",
@@ -317,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe symbol table entries consist of index information to be read from other\n parts of the ELF file. Some of this information is automatically retrieved\n for your convenience (including symbol name, description of the enclosing\n section, and definition).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ElfSymbolTableEntry",
           "package": "elf",
@@ -326,6 +355,7 @@
         "index": {
           "description": "The symbol table entries consist of index information to be read from other parts of the ELF file Some of this information is automatically retrieved for your convenience including symbol name description of the enclosing section and definition",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ElfSymbolTableEntry",
           "package": "elf",
@@ -339,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ElfSymbolType",
           "package": "elf",
@@ -347,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ElfSymbolType",
           "package": "elf",
@@ -360,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ElfType",
           "package": "elf",
@@ -368,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ElfType",
           "package": "elf",
@@ -382,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit ELF format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFCLASS32",
           "package": "elf",
@@ -392,6 +427,7 @@
         "index": {
           "description": "bit ELF format",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFCLASS32",
           "package": "elf",
@@ -406,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e64-bit ELF format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFCLASS64",
           "package": "elf",
@@ -416,6 +453,7 @@
         "index": {
           "description": "bit ELF format",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFCLASS64",
           "package": "elf",
@@ -430,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLittle-endian ELF format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFDATA2LSB",
           "package": "elf",
@@ -440,6 +479,7 @@
         "index": {
           "description": "Little-endian ELF format",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFDATA2LSB",
           "package": "elf",
@@ -454,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBig-endian ELF format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFDATA2MSB",
           "package": "elf",
@@ -464,6 +505,7 @@
         "index": {
           "description": "Big-endian ELF format",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFDATA2MSB",
           "package": "elf",
@@ -478,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAIX\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFOSABI_AIX",
           "package": "elf",
@@ -488,6 +531,7 @@
         "index": {
           "description": "AIX",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFOSABI_AIX",
           "package": "elf",
@@ -502,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eARM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFOSABI_ARM",
           "package": "elf",
@@ -512,6 +557,7 @@
         "index": {
           "description": "ARM",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFOSABI_ARM",
           "package": "elf",
@@ -526,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAmiga Research OS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFOSABI_AROS",
           "package": "elf",
@@ -536,6 +583,7 @@
         "index": {
           "description": "Amiga Research OS",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFOSABI_AROS",
           "package": "elf",
@@ -550,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFOSABI_EXT",
           "package": "elf",
@@ -560,6 +609,7 @@
         "index": {
           "description": "Other",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFOSABI_EXT",
           "package": "elf",
@@ -574,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFreeBSD\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFOSABI_FREEBSD",
           "package": "elf",
@@ -584,6 +635,7 @@
         "index": {
           "description": "FreeBSD",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFOSABI_FREEBSD",
           "package": "elf",
@@ -598,6 +650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHewlett-Packard HP-UX\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFOSABI_HPUX",
           "package": "elf",
@@ -608,6 +661,7 @@
         "index": {
           "description": "Hewlett-Packard HP-UX",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFOSABI_HPUX",
           "package": "elf",
@@ -622,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIRIX\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFOSABI_IRIX",
           "package": "elf",
@@ -632,6 +687,7 @@
         "index": {
           "description": "IRIX",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFOSABI_IRIX",
           "package": "elf",
@@ -646,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinux\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFOSABI_LINUX",
           "package": "elf",
@@ -656,6 +713,7 @@
         "index": {
           "description": "Linux",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFOSABI_LINUX",
           "package": "elf",
@@ -670,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNovell Modesto\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFOSABI_MODESTO",
           "package": "elf",
@@ -680,6 +739,7 @@
         "index": {
           "description": "Novell Modesto",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFOSABI_MODESTO",
           "package": "elf",
@@ -694,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNetBSD\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFOSABI_NETBSD",
           "package": "elf",
@@ -704,6 +765,7 @@
         "index": {
           "description": "NetBSD",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFOSABI_NETBSD",
           "package": "elf",
@@ -718,6 +780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHewlett-Packard Non-Stop Kernel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFOSABI_NSK",
           "package": "elf",
@@ -728,6 +791,7 @@
         "index": {
           "description": "Hewlett-Packard Non-Stop Kernel",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFOSABI_NSK",
           "package": "elf",
@@ -742,6 +806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen BSD\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFOSABI_OPENBSD",
           "package": "elf",
@@ -752,6 +817,7 @@
         "index": {
           "description": "Open BSD",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFOSABI_OPENBSD",
           "package": "elf",
@@ -766,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen VMS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFOSABI_OPENVMS",
           "package": "elf",
@@ -776,6 +843,7 @@
         "index": {
           "description": "Open VMS",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFOSABI_OPENVMS",
           "package": "elf",
@@ -790,6 +858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSun Solaris\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFOSABI_SOLARIS",
           "package": "elf",
@@ -800,6 +869,7 @@
         "index": {
           "description": "Sun Solaris",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFOSABI_SOLARIS",
           "package": "elf",
@@ -814,6 +884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandalone (embedded) application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFOSABI_STANDALONE",
           "package": "elf",
@@ -824,6 +895,7 @@
         "index": {
           "description": "Standalone embedded application",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFOSABI_STANDALONE",
           "package": "elf",
@@ -838,6 +910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo extensions or unspecified\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFOSABI_SYSV",
           "package": "elf",
@@ -848,6 +921,7 @@
         "index": {
           "description": "No extensions or unspecified",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFOSABI_SYSV",
           "package": "elf",
@@ -862,6 +936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompaq TRU64 UNIX\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ELFOSABI_TRU64",
           "package": "elf",
@@ -872,6 +947,7 @@
         "index": {
           "description": "Compaq TRU64 UNIX",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ELFOSABI_TRU64",
           "package": "elf",
@@ -886,6 +962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntel 80386\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_386",
           "package": "elf",
@@ -896,6 +973,7 @@
         "index": {
           "description": "Intel",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_386",
           "package": "elf",
@@ -910,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntel i486 (DO NOT USE THIS ONE)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_486",
           "package": "elf",
@@ -920,6 +999,7 @@
         "index": {
           "description": "Intel i486 DO NOT USE THIS ONE",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_486",
           "package": "elf",
@@ -934,6 +1014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMotorola MC68HC05 Microcontroller\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_68HC05",
           "package": "elf",
@@ -944,6 +1025,7 @@
         "index": {
           "description": "Motorola MC68HC05 Microcontroller",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_68HC05",
           "package": "elf",
@@ -958,6 +1040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMotorola MC68HC08 Microcontroller\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_68HC08",
           "package": "elf",
@@ -968,6 +1051,7 @@
         "index": {
           "description": "Motorola MC68HC08 Microcontroller",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_68HC08",
           "package": "elf",
@@ -982,6 +1066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMotorola MC68HC11 Microcontroller\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_68HC11",
           "package": "elf",
@@ -992,6 +1077,7 @@
         "index": {
           "description": "Motorola MC68HC11 Microcontroller",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_68HC11",
           "package": "elf",
@@ -1006,6 +1092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMotorola M68HC12\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_68HC12",
           "package": "elf",
@@ -1016,6 +1103,7 @@
         "index": {
           "description": "Motorola M68HC12",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_68HC12",
           "package": "elf",
@@ -1030,6 +1118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMotorola MC68HC16 Microcontroller\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_68HC16",
           "package": "elf",
@@ -1040,6 +1129,7 @@
         "index": {
           "description": "Motorola MC68HC16 Microcontroller",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_68HC16",
           "package": "elf",
@@ -1054,6 +1144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMotorola 68000\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_68K",
           "package": "elf",
@@ -1064,6 +1155,7 @@
         "index": {
           "description": "Motorola",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_68K",
           "package": "elf",
@@ -1078,6 +1170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntel 80860\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_860",
           "package": "elf",
@@ -1088,6 +1181,7 @@
         "index": {
           "description": "Intel",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_860",
           "package": "elf",
@@ -1102,6 +1196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMotorola 88000\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_88K",
           "package": "elf",
@@ -1112,6 +1207,7 @@
         "index": {
           "description": "Motorola",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_88K",
           "package": "elf",
@@ -1126,6 +1222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntel 80960\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_960",
           "package": "elf",
@@ -1136,6 +1233,7 @@
         "index": {
           "description": "Intel",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_960",
           "package": "elf",
@@ -1150,6 +1248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDigital Alpha\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_ALPHA",
           "package": "elf",
@@ -1160,6 +1259,7 @@
         "index": {
           "description": "Digital Alpha",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_ALPHA",
           "package": "elf",
@@ -1174,6 +1274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgonaut RISC Core, Argonaut Technologies Inc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_ARC",
           "package": "elf",
@@ -1184,6 +1285,7 @@
         "index": {
           "description": "Argonaut RISC Core Argonaut Technologies Inc",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_ARC",
           "package": "elf",
@@ -1198,6 +1300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArca RISC Microprocessor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_ARCA",
           "package": "elf",
@@ -1208,6 +1311,7 @@
         "index": {
           "description": "Arca RISC Microprocessor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_ARCA",
           "package": "elf",
@@ -1222,6 +1326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eARC Cores Tangent-A5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_ARC_A5",
           "package": "elf",
@@ -1232,6 +1337,7 @@
         "index": {
           "description": "ARC Cores Tangent-A5",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_ARC_A5",
           "package": "elf",
@@ -1246,6 +1352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdvanced RISC Machines ARM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_ARM",
           "package": "elf",
@@ -1256,6 +1363,7 @@
         "index": {
           "description": "Advanced RISC Machines ARM",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_ARM",
           "package": "elf",
@@ -1270,6 +1378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtmel AVR 8-bit microcontroller\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_AVR",
           "package": "elf",
@@ -1280,6 +1389,7 @@
         "index": {
           "description": "Atmel AVR bit microcontroller",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_AVR",
           "package": "elf",
@@ -1294,6 +1404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalog Devices Blackfin (DSP) processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_BLACKFIN",
           "package": "elf",
@@ -1304,6 +1415,7 @@
         "index": {
           "description": "Analog Devices Blackfin DSP processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_BLACKFIN",
           "package": "elf",
@@ -1318,6 +1430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMotorola ColdFire\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_COLDFIRE",
           "package": "elf",
@@ -1328,6 +1441,7 @@
         "index": {
           "description": "Motorola ColdFire",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_COLDFIRE",
           "package": "elf",
@@ -1342,6 +1456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNational Semiconductor CompactRISC microprocessor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_CR",
           "package": "elf",
@@ -1352,6 +1467,7 @@
         "index": {
           "description": "National Semiconductor CompactRISC microprocessor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_CR",
           "package": "elf",
@@ -1366,6 +1482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAxis Communications 32-bit embedded processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_CRIS",
           "package": "elf",
@@ -1376,6 +1493,7 @@
         "index": {
           "description": "Axis Communications bit embedded processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_CRIS",
           "package": "elf",
@@ -1390,6 +1508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMitsubishi D10V\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_D10V",
           "package": "elf",
@@ -1400,6 +1519,7 @@
         "index": {
           "description": "Mitsubishi D10V",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_D10V",
           "package": "elf",
@@ -1414,6 +1534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMitsubishi D30V\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_D30V",
           "package": "elf",
@@ -1424,6 +1545,7 @@
         "index": {
           "description": "Mitsubishi D30V",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_D30V",
           "package": "elf",
@@ -1438,6 +1560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_EXT",
           "package": "elf",
@@ -1448,6 +1571,7 @@
         "index": {
           "description": "Other",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_EXT",
           "package": "elf",
@@ -1462,6 +1586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFujitsu F2MC16\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_F2MC16",
           "package": "elf",
@@ -1472,6 +1597,7 @@
         "index": {
           "description": "Fujitsu F2MC16",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_F2MC16",
           "package": "elf",
@@ -1486,6 +1612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement 14 64-bit DSP Processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_FIREPATH",
           "package": "elf",
@@ -1496,6 +1623,7 @@
         "index": {
           "description": "Element bit DSP Processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_FIREPATH",
           "package": "elf",
@@ -1510,6 +1638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFujitsu FR20\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_FR20",
           "package": "elf",
@@ -1520,6 +1649,7 @@
         "index": {
           "description": "Fujitsu FR20",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_FR20",
           "package": "elf",
@@ -1534,6 +1664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFujitsu FR30\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_FR30",
           "package": "elf",
@@ -1544,6 +1675,7 @@
         "index": {
           "description": "Fujitsu FR30",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_FR30",
           "package": "elf",
@@ -1558,6 +1690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSiemens FX66 microcontroller\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_FX66",
           "package": "elf",
@@ -1568,6 +1701,7 @@
         "index": {
           "description": "Siemens FX66 microcontroller",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_FX66",
           "package": "elf",
@@ -1582,6 +1716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHitachi H8S\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_H8S",
           "package": "elf",
@@ -1592,6 +1727,7 @@
         "index": {
           "description": "Hitachi H8S",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_H8S",
           "package": "elf",
@@ -1606,6 +1742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHitachi H8/300\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_H8_300",
           "package": "elf",
@@ -1616,6 +1753,7 @@
         "index": {
           "description": "Hitachi H8",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_H8_300",
           "package": "elf",
@@ -1630,6 +1768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHitachi H8/300H\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_H8_300H",
           "package": "elf",
@@ -1640,6 +1779,7 @@
         "index": {
           "description": "Hitachi H8",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_H8_300H",
           "package": "elf",
@@ -1654,6 +1794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHitachi H8/500\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_H8_500",
           "package": "elf",
@@ -1664,6 +1805,7 @@
         "index": {
           "description": "Hitachi H8",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_H8_500",
           "package": "elf",
@@ -1678,6 +1820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHarvard University machine-independent object files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_HUANY",
           "package": "elf",
@@ -1688,6 +1831,7 @@
         "index": {
           "description": "Harvard University machine-independent object files",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_HUANY",
           "package": "elf",
@@ -1702,6 +1846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntel IA-64 processor architecture\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_IA_64",
           "package": "elf",
@@ -1712,6 +1857,7 @@
         "index": {
           "description": "Intel IA-64 processor architecture",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_IA_64",
           "package": "elf",
@@ -1726,6 +1872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUbicom IP2xxx microcontroller family\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_IP2K",
           "package": "elf",
@@ -1736,6 +1883,7 @@
         "index": {
           "description": "Ubicom IP2xxx microcontroller family",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_IP2K",
           "package": "elf",
@@ -1750,6 +1898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfineon Technologies 32-bit embedded processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_JAVELIN",
           "package": "elf",
@@ -1760,6 +1909,7 @@
         "index": {
           "description": "Infineon Technologies bit embedded processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_JAVELIN",
           "package": "elf",
@@ -1774,6 +1924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAT&T WE 32100\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_M32",
           "package": "elf",
@@ -1784,6 +1935,7 @@
         "index": {
           "description": "AT WE",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_M32",
           "package": "elf",
@@ -1798,6 +1950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMitsubishi M32R\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_M32R",
           "package": "elf",
@@ -1808,6 +1961,7 @@
         "index": {
           "description": "Mitsubishi M32R",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_M32R",
           "package": "elf",
@@ -1822,6 +1976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMAX Processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_MAX",
           "package": "elf",
@@ -1832,6 +1987,7 @@
         "index": {
           "description": "MAX Processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_MAX",
           "package": "elf",
@@ -1846,6 +2002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToyota ME16 processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_ME16",
           "package": "elf",
@@ -1856,6 +2013,7 @@
         "index": {
           "description": "Toyota ME16 processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_ME16",
           "package": "elf",
@@ -1870,6 +2028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMIPS I Architecture\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_MIPS",
           "package": "elf",
@@ -1880,6 +2039,7 @@
         "index": {
           "description": "MIPS Architecture",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_MIPS",
           "package": "elf",
@@ -1894,6 +2054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMIPS RS3000 Little-endian\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_MIPS_RS3_LE",
           "package": "elf",
@@ -1904,6 +2065,7 @@
         "index": {
           "description": "MIPS RS3000 Little-endian",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_MIPS_RS3_LE",
           "package": "elf",
@@ -1918,6 +2080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStanford MIPS-X\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_MIPS_X",
           "package": "elf",
@@ -1928,6 +2091,7 @@
         "index": {
           "description": "Stanford MIPS-X",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_MIPS_X",
           "package": "elf",
@@ -1942,6 +2106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFujitsu MMA Multimedia Accelerator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_MMA",
           "package": "elf",
@@ -1952,6 +2117,7 @@
         "index": {
           "description": "Fujitsu MMA Multimedia Accelerator",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_MMA",
           "package": "elf",
@@ -1966,6 +2132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDonald Knuth's educational 64-bit processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_MMIX",
           "package": "elf",
@@ -1976,6 +2143,7 @@
         "index": {
           "description": "Donald Knuth educational bit processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_MMIX",
           "package": "elf",
@@ -1990,6 +2158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatsushita MN10200\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_MN10200",
           "package": "elf",
@@ -2000,6 +2169,7 @@
         "index": {
           "description": "Matsushita MN10200",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_MN10200",
           "package": "elf",
@@ -2014,6 +2184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatsushita MN10300\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_MN10300",
           "package": "elf",
@@ -2024,6 +2195,7 @@
         "index": {
           "description": "Matsushita MN10300",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_MN10300",
           "package": "elf",
@@ -2038,6 +2210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTexas Instruments embedded microcontroller msp430\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_MSP430",
           "package": "elf",
@@ -2048,6 +2221,7 @@
         "index": {
           "description": "Texas Instruments embedded microcontroller msp430",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_MSP430",
           "package": "elf",
@@ -2062,6 +2236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSony nCPU embedded RISC processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_NCPU",
           "package": "elf",
@@ -2072,6 +2247,7 @@
         "index": {
           "description": "Sony nCPU embedded RISC processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_NCPU",
           "package": "elf",
@@ -2086,6 +2262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDenso NDR1 microprocessor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_NDR1",
           "package": "elf",
@@ -2096,6 +2273,7 @@
         "index": {
           "description": "Denso NDR1 microprocessor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_NDR1",
           "package": "elf",
@@ -2110,6 +2288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo machine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_NONE",
           "package": "elf",
@@ -2120,6 +2299,7 @@
         "index": {
           "description": "No machine",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_NONE",
           "package": "elf",
@@ -2134,6 +2314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNational Semiconductor 32000 series\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_NS32K",
           "package": "elf",
@@ -2144,6 +2325,7 @@
         "index": {
           "description": "National Semiconductor series",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_NS32K",
           "package": "elf",
@@ -2158,6 +2340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpenRISC 32-bit embedded processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_OPENRISC",
           "package": "elf",
@@ -2168,6 +2351,7 @@
         "index": {
           "description": "OpenRISC bit embedded processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_OPENRISC",
           "package": "elf",
@@ -2182,6 +2366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHewlett-Packard PA-RISC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_PARISC",
           "package": "elf",
@@ -2192,6 +2377,7 @@
         "index": {
           "description": "Hewlett-Packard PA-RISC",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_PARISC",
           "package": "elf",
@@ -2206,6 +2392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSiemens PCP\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_PCP",
           "package": "elf",
@@ -2216,6 +2403,7 @@
         "index": {
           "description": "Siemens PCP",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_PCP",
           "package": "elf",
@@ -2230,6 +2418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSony DSP Processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_PDSP",
           "package": "elf",
@@ -2240,6 +2429,7 @@
         "index": {
           "description": "Sony DSP Processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_PDSP",
           "package": "elf",
@@ -2254,6 +2444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epicoJava\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_PJ",
           "package": "elf",
@@ -2264,6 +2455,7 @@
         "index": {
           "description": "picoJava",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_PJ",
           "package": "elf",
@@ -2278,6 +2470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePowerPC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_PPC",
           "package": "elf",
@@ -2288,6 +2481,7 @@
         "index": {
           "description": "PowerPC",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_PPC",
           "package": "elf",
@@ -2302,6 +2496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e64-bit PowerPC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_PPC64",
           "package": "elf",
@@ -2312,6 +2507,7 @@
         "index": {
           "description": "bit PowerPC",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_PPC64",
           "package": "elf",
@@ -2326,6 +2522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSiTera Prism\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_PRISM",
           "package": "elf",
@@ -2336,6 +2533,7 @@
         "index": {
           "description": "SiTera Prism",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_PRISM",
           "package": "elf",
@@ -2350,6 +2548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMotorola RCE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_RCE",
           "package": "elf",
@@ -2360,6 +2559,7 @@
         "index": {
           "description": "Motorola RCE",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_RCE",
           "package": "elf",
@@ -2374,6 +2574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTRW RH-32\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_RH32",
           "package": "elf",
@@ -2384,6 +2585,7 @@
         "index": {
           "description": "TRW RH-32",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_RH32",
           "package": "elf",
@@ -2398,6 +2600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIBM System/370 Processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_S370",
           "package": "elf",
@@ -2408,6 +2611,7 @@
         "index": {
           "description": "IBM System Processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_S370",
           "package": "elf",
@@ -2422,6 +2626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIBM System/390 Processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_S390",
           "package": "elf",
@@ -2432,6 +2637,7 @@
         "index": {
           "description": "IBM System Processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_S390",
           "package": "elf",
@@ -2446,6 +2652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSharp embedded microprocessor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_SEP",
           "package": "elf",
@@ -2456,6 +2663,7 @@
         "index": {
           "description": "Sharp embedded microprocessor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_SEP",
           "package": "elf",
@@ -2470,6 +2678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eS1C33 Family of Seiko Epson processors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_SE_C33",
           "package": "elf",
@@ -2480,6 +2689,7 @@
         "index": {
           "description": "S1C33 Family of Seiko Epson processors",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_SE_C33",
           "package": "elf",
@@ -2494,6 +2704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHitachi SH\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_SH",
           "package": "elf",
@@ -2504,6 +2715,7 @@
         "index": {
           "description": "Hitachi SH",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_SH",
           "package": "elf",
@@ -2518,6 +2730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrebia SNP 1000 processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_SNP1K",
           "package": "elf",
@@ -2528,6 +2741,7 @@
         "index": {
           "description": "Trebia SNP processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_SNP1K",
           "package": "elf",
@@ -2542,6 +2756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSPARC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_SPARC",
           "package": "elf",
@@ -2552,6 +2767,7 @@
         "index": {
           "description": "SPARC",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_SPARC",
           "package": "elf",
@@ -2566,6 +2782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnhanced instruction set SPARC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_SPARC32PLUS",
           "package": "elf",
@@ -2576,6 +2793,7 @@
         "index": {
           "description": "Enhanced instruction set SPARC",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_SPARC32PLUS",
           "package": "elf",
@@ -2590,6 +2808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSPARC 64-bit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_SPARC64",
           "package": "elf",
@@ -2600,6 +2819,7 @@
         "index": {
           "description": "SPARC bit",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_SPARC64",
           "package": "elf",
@@ -2614,6 +2834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSPARC Version 9\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_SPARCV9",
           "package": "elf",
@@ -2624,6 +2845,7 @@
         "index": {
           "description": "SPARC Version",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_SPARCV9",
           "package": "elf",
@@ -2638,6 +2860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCell SPU\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_SPU",
           "package": "elf",
@@ -2648,6 +2871,7 @@
         "index": {
           "description": "Cell SPU",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_SPU",
           "package": "elf",
@@ -2662,6 +2886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSTMicroelectronics ST100 processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_ST100",
           "package": "elf",
@@ -2672,6 +2897,7 @@
         "index": {
           "description": "STMicroelectronics ST100 processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_ST100",
           "package": "elf",
@@ -2686,6 +2912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSTMicroelectronics ST19 8-bit microcontroller\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_ST19",
           "package": "elf",
@@ -2696,6 +2923,7 @@
         "index": {
           "description": "STMicroelectronics ST19 bit microcontroller",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_ST19",
           "package": "elf",
@@ -2710,6 +2938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSTMicroelectronics (www.st.com) ST200 microcontroller\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_ST200",
           "package": "elf",
@@ -2720,6 +2949,7 @@
         "index": {
           "description": "STMicroelectronics www.st.com ST200 microcontroller",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_ST200",
           "package": "elf",
@@ -2734,6 +2964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSTMicroelectronics ST7 8-bit microcontroller\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_ST7",
           "package": "elf",
@@ -2744,6 +2975,7 @@
         "index": {
           "description": "STMicroelectronics ST7 bit microcontroller",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_ST7",
           "package": "elf",
@@ -2758,6 +2990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSTMicroelectronics ST9+ 8/16 bit microcontroller\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_ST9PLUS",
           "package": "elf",
@@ -2768,6 +3001,7 @@
         "index": {
           "description": "STMicroelectronics ST9 bit microcontroller",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_ST9PLUS",
           "package": "elf",
@@ -2782,6 +3016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMotorola Star*Core processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_STARCORE",
           "package": "elf",
@@ -2792,6 +3027,7 @@
         "index": {
           "description": "Motorola Star Core processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_STARCORE",
           "package": "elf",
@@ -2806,6 +3042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSilicon Graphics SVx\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_SVX",
           "package": "elf",
@@ -2816,6 +3053,7 @@
         "index": {
           "description": "Silicon Graphics SVx",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_SVX",
           "package": "elf",
@@ -2830,6 +3068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdvanced Logic Corp. TinyJ embedded processor family\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_TINYJ",
           "package": "elf",
@@ -2840,6 +3079,7 @@
         "index": {
           "description": "Advanced Logic Corp TinyJ embedded processor family",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_TINYJ",
           "package": "elf",
@@ -2854,6 +3094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThompson Multimedia General Purpose Processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_TMM_GPP",
           "package": "elf",
@@ -2864,6 +3105,7 @@
         "index": {
           "description": "Thompson Multimedia General Purpose Processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_TMM_GPP",
           "package": "elf",
@@ -2878,6 +3120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTenor Network TPC processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_TPC",
           "package": "elf",
@@ -2888,6 +3131,7 @@
         "index": {
           "description": "Tenor Network TPC processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_TPC",
           "package": "elf",
@@ -2902,6 +3146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSiemens TriCore embedded processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_TRICORE",
           "package": "elf",
@@ -2912,6 +3157,7 @@
         "index": {
           "description": "Siemens TriCore embedded processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_TRICORE",
           "package": "elf",
@@ -2926,6 +3172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMicroprocessor series from PKU-Unity Ltd. and MPRC of Peking University\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_UNICORE",
           "package": "elf",
@@ -2936,6 +3183,7 @@
         "index": {
           "description": "Microprocessor series from PKU-Unity Ltd and MPRC of Peking University",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_UNICORE",
           "package": "elf",
@@ -2950,6 +3198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNEC V800\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_V800",
           "package": "elf",
@@ -2960,6 +3209,7 @@
         "index": {
           "description": "NEC V800",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_V800",
           "package": "elf",
@@ -2974,6 +3224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNEC v850\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_V850",
           "package": "elf",
@@ -2984,6 +3235,7 @@
         "index": {
           "description": "NEC v850",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_V850",
           "package": "elf",
@@ -2998,6 +3250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDigital VAX\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_VAX",
           "package": "elf",
@@ -3008,6 +3261,7 @@
         "index": {
           "description": "Digital VAX",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_VAX",
           "package": "elf",
@@ -3022,6 +3276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlphamosaic VideoCore processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_VIDEOCORE",
           "package": "elf",
@@ -3032,6 +3287,7 @@
         "index": {
           "description": "Alphamosaic VideoCore processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_VIDEOCORE",
           "package": "elf",
@@ -3046,6 +3302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFujitsu VPP500\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_VPP500",
           "package": "elf",
@@ -3056,6 +3313,7 @@
         "index": {
           "description": "Fujitsu VPP500",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_VPP500",
           "package": "elf",
@@ -3070,6 +3328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAMD x86-64 architecture\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_X86_64",
           "package": "elf",
@@ -3080,6 +3339,7 @@
         "index": {
           "description": "AMD x86-64 architecture",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_X86_64",
           "package": "elf",
@@ -3094,6 +3354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTensilica Xtensa Architecture\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_XTENSA",
           "package": "elf",
@@ -3104,6 +3365,7 @@
         "index": {
           "description": "Tensilica Xtensa Architecture",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_XTENSA",
           "package": "elf",
@@ -3118,6 +3380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLSI Logic 16-bit DSP Processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EM_ZSP",
           "package": "elf",
@@ -3128,6 +3391,7 @@
         "index": {
           "description": "LSI Logic bit DSP Processor",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EM_ZSP",
           "package": "elf",
@@ -3141,6 +3405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "EST",
           "package": "elf",
@@ -3150,6 +3415,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "EST",
           "package": "elf",
@@ -3164,6 +3430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCore dump object file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ET_CORE",
           "package": "elf",
@@ -3174,6 +3441,7 @@
         "index": {
           "description": "Core dump object file",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ET_CORE",
           "package": "elf",
@@ -3188,6 +3456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShared object file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ET_DYN",
           "package": "elf",
@@ -3198,6 +3467,7 @@
         "index": {
           "description": "Shared object file",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ET_DYN",
           "package": "elf",
@@ -3212,6 +3482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutable object file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ET_EXEC",
           "package": "elf",
@@ -3222,6 +3493,7 @@
         "index": {
           "description": "Executable object file",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ET_EXEC",
           "package": "elf",
@@ -3236,6 +3508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ET_EXT",
           "package": "elf",
@@ -3246,6 +3519,7 @@
         "index": {
           "description": "Other",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ET_EXT",
           "package": "elf",
@@ -3260,6 +3534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnspecified type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ET_NONE",
           "package": "elf",
@@ -3270,6 +3545,7 @@
         "index": {
           "description": "Unspecified type",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ET_NONE",
           "package": "elf",
@@ -3284,6 +3560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelocatable object file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ET_REL",
           "package": "elf",
@@ -3294,6 +3571,7 @@
         "index": {
           "description": "Relocatable object file",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ET_REL",
           "package": "elf",
@@ -3307,6 +3585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "Elf",
           "package": "elf",
@@ -3316,6 +3595,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "Elf",
           "package": "elf",
@@ -3329,6 +3609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ElfSection",
           "package": "elf",
@@ -3338,6 +3619,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ElfSection",
           "package": "elf",
@@ -3351,6 +3633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "ElfSegment",
           "package": "elf",
@@ -3360,6 +3643,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "ElfSegment",
           "package": "elf",
@@ -3374,6 +3658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome other flag, the Int is the bit number for the flag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "PF_Ext",
           "package": "elf",
@@ -3384,6 +3669,7 @@
         "index": {
           "description": "Some other flag the Int is the bit number for the flag",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "PF_Ext",
           "package": "elf",
@@ -3398,6 +3684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead permission\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "PF_R",
           "package": "elf",
@@ -3408,6 +3695,7 @@
         "index": {
           "description": "Read permission",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "PF_R",
           "package": "elf",
@@ -3422,6 +3710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite permission\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "PF_W",
           "package": "elf",
@@ -3432,6 +3721,7 @@
         "index": {
           "description": "Write permission",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "PF_W",
           "package": "elf",
@@ -3446,6 +3736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute permission\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "PF_X",
           "package": "elf",
@@ -3456,6 +3747,7 @@
         "index": {
           "description": "Execute permission",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "PF_X",
           "package": "elf",
@@ -3470,6 +3762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic linking tables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "PT_DYNAMIC",
           "package": "elf",
@@ -3480,6 +3773,7 @@
         "index": {
           "description": "Dynamic linking tables",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "PT_DYNAMIC",
           "package": "elf",
@@ -3494,6 +3788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProgram interpreter path name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "PT_INTERP",
           "package": "elf",
@@ -3504,6 +3799,7 @@
         "index": {
           "description": "Program interpreter path name",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "PT_INTERP",
           "package": "elf",
@@ -3518,6 +3814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoadable segment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "PT_LOAD",
           "package": "elf",
@@ -3528,6 +3825,7 @@
         "index": {
           "description": "Loadable segment",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "PT_LOAD",
           "package": "elf",
@@ -3542,6 +3840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote sectionks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "PT_NOTE",
           "package": "elf",
@@ -3552,6 +3851,7 @@
         "index": {
           "description": "Note sectionks",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "PT_NOTE",
           "package": "elf",
@@ -3566,6 +3866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnused entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "PT_NULL",
           "package": "elf",
@@ -3576,6 +3877,7 @@
         "index": {
           "description": "Unused entry",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "PT_NULL",
           "package": "elf",
@@ -3590,6 +3892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome other type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "PT_Other",
           "package": "elf",
@@ -3600,6 +3903,7 @@
         "index": {
           "description": "Some other type",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "PT_Other",
           "package": "elf",
@@ -3614,6 +3918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProgram header table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "PT_PHDR",
           "package": "elf",
@@ -3624,6 +3929,7 @@
         "index": {
           "description": "Program header table",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "PT_PHDR",
           "package": "elf",
@@ -3638,6 +3944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReserved\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "PT_SHLIB",
           "package": "elf",
@@ -3648,6 +3955,7 @@
         "index": {
           "description": "Reserved",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "PT_SHLIB",
           "package": "elf",
@@ -3662,6 +3970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSection is allocated in memory image of program\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHF_ALLOC",
           "package": "elf",
@@ -3672,6 +3981,7 @@
         "index": {
           "description": "Section is allocated in memory image of program",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHF_ALLOC",
           "package": "elf",
@@ -3686,6 +3996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSection contains executable instructions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHF_EXECINSTR",
           "package": "elf",
@@ -3696,6 +4007,7 @@
         "index": {
           "description": "Section contains executable instructions",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHF_EXECINSTR",
           "package": "elf",
@@ -3710,6 +4022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcessor- or environment-specific flag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHF_EXT",
           "package": "elf",
@@ -3720,6 +4033,7 @@
         "index": {
           "description": "Processor or environment-specific flag",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHF_EXT",
           "package": "elf",
@@ -3734,6 +4048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSection contains writable data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHF_WRITE",
           "package": "elf",
@@ -3744,6 +4059,7 @@
         "index": {
           "description": "Section contains writable data",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHF_WRITE",
           "package": "elf",
@@ -3757,6 +4073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHNAbs",
           "package": "elf",
@@ -3766,6 +4083,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHNAbs",
           "package": "elf",
@@ -3779,6 +4097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHNCommon",
           "package": "elf",
@@ -3788,6 +4107,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHNCommon",
           "package": "elf",
@@ -3801,6 +4121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHNCustomOS",
           "package": "elf",
@@ -3810,6 +4131,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHNCustomOS",
           "package": "elf",
@@ -3823,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHNCustomProc",
           "package": "elf",
@@ -3832,6 +4155,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHNCustomProc",
           "package": "elf",
@@ -3845,6 +4169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHNHiOS",
           "package": "elf",
@@ -3854,6 +4179,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHNHiOS",
           "package": "elf",
@@ -3867,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHNHiProc",
           "package": "elf",
@@ -3876,6 +4203,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHNHiProc",
           "package": "elf",
@@ -3889,6 +4217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHNIndex",
           "package": "elf",
@@ -3898,6 +4227,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHNIndex",
           "package": "elf",
@@ -3911,6 +4241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHNLoOS",
           "package": "elf",
@@ -3920,6 +4251,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHNLoOS",
           "package": "elf",
@@ -3933,6 +4265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHNLoProc",
           "package": "elf",
@@ -3942,6 +4275,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHNLoProc",
           "package": "elf",
@@ -3955,6 +4289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHNUndef",
           "package": "elf",
@@ -3964,6 +4299,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHNUndef",
           "package": "elf",
@@ -3978,6 +4314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains dynamic linking tables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHT_DYNAMIC",
           "package": "elf",
@@ -3988,6 +4325,7 @@
         "index": {
           "description": "Contains dynamic linking tables",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHT_DYNAMIC",
           "package": "elf",
@@ -4002,6 +4340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains a dynamic loader symbol table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHT_DYNSYM",
           "package": "elf",
@@ -4012,6 +4351,7 @@
         "index": {
           "description": "Contains dynamic loader symbol table",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHT_DYNSYM",
           "package": "elf",
@@ -4026,6 +4366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcessor- or environment-specific type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHT_EXT",
           "package": "elf",
@@ -4036,6 +4377,7 @@
         "index": {
           "description": "Processor or environment-specific type",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHT_EXT",
           "package": "elf",
@@ -4050,6 +4392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains a symbol hash table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHT_HASH",
           "package": "elf",
@@ -4060,6 +4403,7 @@
         "index": {
           "description": "Contains symbol hash table",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHT_HASH",
           "package": "elf",
@@ -4074,6 +4418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains uninitialized space; does not occupy any space in the file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHT_NOBITS",
           "package": "elf",
@@ -4084,6 +4429,7 @@
         "index": {
           "description": "Contains uninitialized space does not occupy any space in the file",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHT_NOBITS",
           "package": "elf",
@@ -4098,6 +4444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains note information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHT_NOTE",
           "package": "elf",
@@ -4108,6 +4455,7 @@
         "index": {
           "description": "Contains note information",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHT_NOTE",
           "package": "elf",
@@ -4122,6 +4470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies an empty section header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHT_NULL",
           "package": "elf",
@@ -4132,6 +4481,7 @@
         "index": {
           "description": "Identifies an empty section header",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHT_NULL",
           "package": "elf",
@@ -4146,6 +4496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains information defined by the program\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHT_PROGBITS",
           "package": "elf",
@@ -4156,6 +4507,7 @@
         "index": {
           "description": "Contains information defined by the program",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHT_PROGBITS",
           "package": "elf",
@@ -4170,6 +4522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains \u003ca\u003eRel\u003c/a\u003e type relocation entries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHT_REL",
           "package": "elf",
@@ -4180,6 +4533,7 @@
         "index": {
           "description": "Contains Rel type relocation entries",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHT_REL",
           "package": "elf",
@@ -4194,6 +4548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains \u003ca\u003eRela\u003c/a\u003e type relocation entries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHT_RELA",
           "package": "elf",
@@ -4204,6 +4559,7 @@
         "index": {
           "description": "Contains Rela type relocation entries",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHT_RELA",
           "package": "elf",
@@ -4218,6 +4574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReserved\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHT_SHLIB",
           "package": "elf",
@@ -4228,6 +4585,7 @@
         "index": {
           "description": "Reserved",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHT_SHLIB",
           "package": "elf",
@@ -4242,6 +4600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains a string table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHT_STRTAB",
           "package": "elf",
@@ -4252,6 +4611,7 @@
         "index": {
           "description": "Contains string table",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHT_STRTAB",
           "package": "elf",
@@ -4266,6 +4626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains a linker symbol table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "SHT_SYMTAB",
           "package": "elf",
@@ -4276,6 +4637,7 @@
         "index": {
           "description": "Contains linker symbol table",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "SHT_SYMTAB",
           "package": "elf",
@@ -4289,6 +4651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "STBGlobal",
           "package": "elf",
@@ -4298,6 +4661,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "STBGlobal",
           "package": "elf",
@@ -4311,6 +4675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "STBHiOS",
           "package": "elf",
@@ -4320,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "STBHiOS",
           "package": "elf",
@@ -4333,6 +4699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "STBHiProc",
           "package": "elf",
@@ -4342,6 +4709,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "STBHiProc",
           "package": "elf",
@@ -4355,6 +4723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "STBLoOS",
           "package": "elf",
@@ -4364,6 +4733,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "STBLoOS",
           "package": "elf",
@@ -4377,6 +4747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "STBLoProc",
           "package": "elf",
@@ -4386,6 +4757,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "STBLoProc",
           "package": "elf",
@@ -4399,6 +4771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "STBLocal",
           "package": "elf",
@@ -4408,6 +4781,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "STBLocal",
           "package": "elf",
@@ -4421,6 +4795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "STBWeak",
           "package": "elf",
@@ -4430,6 +4805,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "STBWeak",
           "package": "elf",
@@ -4443,6 +4819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "STTCommon",
           "package": "elf",
@@ -4452,6 +4829,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "STTCommon",
           "package": "elf",
@@ -4465,6 +4843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "STTFile",
           "package": "elf",
@@ -4474,6 +4853,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "STTFile",
           "package": "elf",
@@ -4487,6 +4867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "STTFunc",
           "package": "elf",
@@ -4496,6 +4877,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "STTFunc",
           "package": "elf",
@@ -4509,6 +4891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "STTHiOS",
           "package": "elf",
@@ -4518,6 +4901,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "STTHiOS",
           "package": "elf",
@@ -4531,6 +4915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "STTHiProc",
           "package": "elf",
@@ -4540,6 +4925,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "STTHiProc",
           "package": "elf",
@@ -4553,6 +4939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "STTLoOS",
           "package": "elf",
@@ -4562,6 +4949,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "STTLoOS",
           "package": "elf",
@@ -4575,6 +4963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "STTLoProc",
           "package": "elf",
@@ -4584,6 +4973,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "STTLoProc",
           "package": "elf",
@@ -4597,6 +4987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "STTNoType",
           "package": "elf",
@@ -4606,6 +4997,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "STTNoType",
           "package": "elf",
@@ -4619,6 +5011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "STTObject",
           "package": "elf",
@@ -4628,6 +5021,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "STTObject",
           "package": "elf",
@@ -4641,6 +5035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "STTSection",
           "package": "elf",
@@ -4650,6 +5045,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "STTSection",
           "package": "elf",
@@ -4663,6 +5059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "STTTLS",
           "package": "elf",
@@ -4672,6 +5069,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "STTTLS",
           "package": "elf",
@@ -4686,6 +5084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies the ABI version for which the object is prepared.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfABIVersion",
           "package": "elf",
@@ -4696,6 +5095,7 @@
         "index": {
           "description": "Identifies the ABI version for which the object is prepared",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfABIVersion",
           "package": "elf",
@@ -4710,6 +5110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies the class of the object file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfClass",
           "package": "elf",
@@ -4720,6 +5121,7 @@
         "index": {
           "description": "Identifies the class of the object file",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfClass",
           "package": "elf",
@@ -4734,6 +5136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies the data encoding of the object file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfData",
           "package": "elf",
@@ -4744,6 +5147,7 @@
         "index": {
           "description": "Identifies the data encoding of the object file",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfData",
           "package": "elf",
@@ -4758,6 +5162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVirtual address of the program entry point. 0 for non-executable Elfs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfEntry",
           "package": "elf",
@@ -4768,6 +5173,7 @@
         "index": {
           "description": "Virtual address of the program entry point for non-executable Elfs",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfEntry",
           "package": "elf",
@@ -4782,6 +5188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies the target architecture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfMachine",
           "package": "elf",
@@ -4792,6 +5199,7 @@
         "index": {
           "description": "Identifies the target architecture",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfMachine",
           "package": "elf",
@@ -4806,6 +5214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies the operating system and ABI for which the object is prepared.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfOSABI",
           "package": "elf",
@@ -4816,6 +5225,7 @@
         "index": {
           "description": "Identifies the operating system and ABI for which the object is prepared",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfOSABI",
           "package": "elf",
@@ -4830,6 +5240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe virtual address of the beginning of the section in memory. 0 for sections that are not loaded into target memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfSectionAddr",
           "package": "elf",
@@ -4840,6 +5251,7 @@
         "index": {
           "description": "The virtual address of the beginning of the section in memory for sections that are not loaded into target memory",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfSectionAddr",
           "package": "elf",
@@ -4854,6 +5266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains the required alignment of the section. Must be a power of two.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfSectionAddrAlign",
           "package": "elf",
@@ -4864,6 +5277,7 @@
         "index": {
           "description": "Contains the required alignment of the section Must be power of two",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfSectionAddrAlign",
           "package": "elf",
@@ -4878,6 +5292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe raw data for the section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfSectionData",
           "package": "elf",
@@ -4888,6 +5303,7 @@
         "index": {
           "description": "The raw data for the section",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfSectionData",
           "package": "elf",
@@ -4902,6 +5318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of entries if section has a table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfSectionEntSize",
           "package": "elf",
@@ -4912,6 +5329,7 @@
         "index": {
           "description": "Size of entries if section has table",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfSectionEntSize",
           "package": "elf",
@@ -4926,6 +5344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies the attributes of the section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfSectionFlags",
           "package": "elf",
@@ -4936,6 +5355,7 @@
         "index": {
           "description": "Identifies the attributes of the section",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfSectionFlags",
           "normalized": "[ElfSectionFlags]",
@@ -4952,6 +5372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains extra information for the index, depending on type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfSectionInfo",
           "package": "elf",
@@ -4962,6 +5383,7 @@
         "index": {
           "description": "Contains extra information for the index depending on type",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfSectionInfo",
           "package": "elf",
@@ -4976,6 +5398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains a section index of an associated section, depending on section type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfSectionLink",
           "package": "elf",
@@ -4986,6 +5409,7 @@
         "index": {
           "description": "Contains section index of an associated section depending on section type",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfSectionLink",
           "package": "elf",
@@ -5000,6 +5424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies the name of the section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfSectionName",
           "package": "elf",
@@ -5010,6 +5435,7 @@
         "index": {
           "description": "Identifies the name of the section",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfSectionName",
           "package": "elf",
@@ -5024,6 +5450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe size of the section. Except for SHT_NOBITS sections, this is the size of elfSectionData.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfSectionSize",
           "package": "elf",
@@ -5034,6 +5461,7 @@
         "index": {
           "description": "The size of the section Except for SHT NOBITS sections this is the size of elfSectionData",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfSectionSize",
           "package": "elf",
@@ -5048,6 +5476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies the type of the section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfSectionType",
           "package": "elf",
@@ -5058,6 +5487,7 @@
         "index": {
           "description": "Identifies the type of the section",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfSectionType",
           "package": "elf",
@@ -5072,6 +5502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of sections in the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfSections",
           "package": "elf",
@@ -5082,6 +5513,7 @@
         "index": {
           "description": "List of sections in the file",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfSections",
           "normalized": "[ElfSection]",
@@ -5098,6 +5530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegment alignment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfSegmentAlign",
           "package": "elf",
@@ -5108,6 +5541,7 @@
         "index": {
           "description": "Segment alignment",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfSegmentAlign",
           "package": "elf",
@@ -5122,6 +5556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData for the segment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfSegmentData",
           "package": "elf",
@@ -5132,6 +5567,7 @@
         "index": {
           "description": "Data for the segment",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfSegmentData",
           "package": "elf",
@@ -5146,6 +5582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegment flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfSegmentFlags",
           "package": "elf",
@@ -5156,6 +5593,7 @@
         "index": {
           "description": "Segment flags",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfSegmentFlags",
           "normalized": "[ElfSegmentFlag]",
@@ -5172,6 +5610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize in memory  (may be larger then the segment's data)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfSegmentMemSize",
           "package": "elf",
@@ -5182,6 +5621,7 @@
         "index": {
           "description": "Size in memory may be larger then the segment data",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfSegmentMemSize",
           "package": "elf",
@@ -5196,6 +5636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhysical address for the segment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfSegmentPhysAddr",
           "package": "elf",
@@ -5206,6 +5647,7 @@
         "index": {
           "description": "Physical address for the segment",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfSegmentPhysAddr",
           "package": "elf",
@@ -5220,6 +5662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegment type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfSegmentType",
           "package": "elf",
@@ -5230,6 +5673,7 @@
         "index": {
           "description": "Segment type",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfSegmentType",
           "package": "elf",
@@ -5244,6 +5688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVirtual address for the segment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfSegmentVirtAddr",
           "package": "elf",
@@ -5254,6 +5699,7 @@
         "index": {
           "description": "Virtual address for the segment",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfSegmentVirtAddr",
           "package": "elf",
@@ -5268,6 +5714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of segments in the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfSegments",
           "package": "elf",
@@ -5278,6 +5725,7 @@
         "index": {
           "description": "List of segments in the file",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfSegments",
           "normalized": "[ElfSegment]",
@@ -5294,6 +5742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies the object file type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfType",
           "package": "elf",
@@ -5304,6 +5753,7 @@
         "index": {
           "description": "Identifies the object file type",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfType",
           "package": "elf",
@@ -5318,6 +5768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies the version of the object file format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "elfVersion",
           "package": "elf",
@@ -5328,6 +5779,7 @@
         "index": {
           "description": "Identifies the version of the object file format",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "elfVersion",
           "package": "elf",
@@ -5342,6 +5794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the symbol offset and size to extract its definition\n (in the form of a ByteString).\n If the size is zero, or the offset larger than the \u003ccode\u003e\u003ca\u003eelfSectionData\u003c/a\u003e\u003c/code\u003e,\n then \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "findSymbolDefinition",
           "package": "elf",
@@ -5352,6 +5805,7 @@
         "index": {
           "description": "Use the symbol offset and size to extract its definition in the form of ByteString If the size is zero or the offset larger than the elfSectionData then Nothing is returned",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "findSymbolDefinition",
           "normalized": "ElfSymbolTableEntry-\u003eMaybe ByteString",
@@ -5368,6 +5822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a ByteString into an Elf record. Parse failures call error. 32-bit ELF objects have their\n fields promoted to 64-bit so that the 32- and 64-bit ELF records can be the same.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "parseElf",
           "package": "elf",
@@ -5378,6 +5833,7 @@
         "index": {
           "description": "Parses ByteString into an Elf record Parse failures call error bit ELF objects have their fields promoted to bit so that the and bit ELF records can be the same",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "parseElf",
           "normalized": "ByteString-\u003eElf",
@@ -5394,6 +5850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the symbol table section into a list of symbol table entries. If\n no symbol table is found then an empty list is returned.\n This function does not consult flags to look for SHT_STRTAB (when naming symbols),\n it just looks for particular sections of \u003ca\u003e.strtab\u003c/a\u003e and \u003ca\u003e.shstrtab\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "parseSymbolTables",
           "package": "elf",
@@ -5404,6 +5861,7 @@
         "index": {
           "description": "Parse the symbol table section into list of symbol table entries If no symbol table is found then an empty list is returned This function does not consult flags to look for SHT STRTAB when naming symbols it just looks for particular sections of strtab and shstrtab",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "parseSymbolTables",
           "normalized": "Elf-\u003e[[ElfSymbolTableEntry]]",
@@ -5419,6 +5877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "steBind",
           "package": "elf",
@@ -5428,6 +5887,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "steBind",
           "package": "elf",
@@ -5442,6 +5902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSection from steIndex\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "steEnclosingSection",
           "package": "elf",
@@ -5452,6 +5913,7 @@
         "index": {
           "description": "Section from steIndex",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "steEnclosingSection",
           "package": "elf",
@@ -5466,6 +5928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSection in which the def is held\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "steIndex",
           "package": "elf",
@@ -5476,6 +5939,7 @@
         "index": {
           "description": "Section in which the def is held",
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "steIndex",
           "package": "elf",
@@ -5489,6 +5953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "steName",
           "package": "elf",
@@ -5498,6 +5963,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "steName",
           "normalized": "(Word,Maybe ByteString)",
@@ -5513,6 +5979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "steOther",
           "package": "elf",
@@ -5522,6 +5989,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "steOther",
           "package": "elf",
@@ -5535,6 +6003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "steSize",
           "package": "elf",
@@ -5544,6 +6013,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "steSize",
           "package": "elf",
@@ -5557,6 +6027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "steType",
           "package": "elf",
@@ -5566,6 +6037,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "steType",
           "package": "elf",
@@ -5579,6 +6051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:57 UTC 2014",
           "module": "Data.Elf",
           "name": "steValue",
           "package": "elf",
@@ -5588,6 +6061,7 @@
         },
         "index": {
           "hierarchy": "Data Elf",
+          "indexed": "2014-03-11T18:01:57",
           "module": "Data.Elf",
           "name": "steValue",
           "package": "elf",

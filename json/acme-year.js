@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "acme-year"
+        "phrase": "acme-year",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:41 UTC 2014",
           "module": "Acme.Year",
           "name": "Year",
           "package": "acme-year",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Acme Year",
+          "indexed": "2014-03-11T17:07:41",
           "module": "Acme.Year",
           "name": "Year",
           "package": "acme-year",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current year (e.g. \u003ccode\u003e2014\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:41 UTC 2014",
           "module": "Acme.Year",
           "name": "currentYear",
           "package": "acme-year",
@@ -50,6 +53,7 @@
         "index": {
           "description": "The current year e.g",
           "hierarchy": "Acme Year",
+          "indexed": "2014-03-11T17:07:41",
           "module": "Acme.Year",
           "name": "currentYear",
           "package": "acme-year",

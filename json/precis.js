@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "precis"
+        "phrase": "precis",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.CabalPackage",
           "name": "CabalPackage",
           "package": "precis",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal CabalPackage",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.CabalPackage",
           "name": "CabalPackage",
           "package": "precis",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.CabalPackage",
           "name": "extractPrecis",
           "package": "precis",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal CabalPackage",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.CabalPackage",
           "name": "extractPrecis",
           "normalized": "FilePath-\u003eIO(Either CabalFileError CabalPrecis)",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile extensions that Precis can handle:\n\u003c/p\u003e\u003cpre\u003e [\"hs\", \"lhs\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.CabalPackage",
           "name": "known_extensions",
           "package": "precis",
@@ -74,6 +79,7 @@
         "index": {
           "description": "File extensions that Precis can handle hs lhs",
           "hierarchy": "Precis Cabal CabalPackage",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.CabalPackage",
           "name": "known_extensions",
           "normalized": "[FileExtension]",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatatype for working with \u003cem\u003ePackages\u003c/em\u003e ...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "Datatypes",
           "package": "precis",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Datatype for working with Packages",
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "Datatypes",
           "package": "precis",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "CabalFileError",
           "package": "precis",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "CabalFileError",
           "package": "precis",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "HsSourceFile",
           "package": "precis",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "HsSourceFile",
           "package": "precis",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "Package",
           "package": "precis",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "Package",
           "package": "precis",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unresolved module couldn't be found in the listed source\n directories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "UnresolvedModule",
           "package": "precis",
@@ -184,6 +199,7 @@
         "index": {
           "description": "An unresolved module couldn be found in the listed source directories",
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "UnresolvedModule",
           "package": "precis",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "ERR_CABAL_FILE_MISSING",
           "package": "precis",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "ERR_CABAL_FILE_MISSING",
           "package": "precis",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "ERR_CABAL_FILE_PARSE",
           "package": "precis",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "ERR_CABAL_FILE_PARSE",
           "package": "precis",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "HsSourceFile",
           "package": "precis",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "HsSourceFile",
           "package": "precis",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "Package",
           "package": "precis",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "Package",
           "package": "precis",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "UnresolvedModule",
           "package": "precis",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "UnresolvedModule",
           "package": "precis",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "cabalFileErrorMsg",
           "package": "precis",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "cabalFileErrorMsg",
           "normalized": "CabalFileError-\u003eString",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "exposed_modules",
           "package": "precis",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "exposed_modules",
           "normalized": "[HsSourceFile]",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "full_path_to",
           "package": "precis",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "full_path_to",
           "package": "precis",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "hsSourceFile",
           "package": "precis",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "hsSourceFile",
           "normalized": "ModName-\u003eFilePath-\u003eHsSourceFile",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "internal_modules",
           "package": "precis",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "internal_modules",
           "normalized": "[HsSourceFile]",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "module_name",
           "package": "precis",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "module_name",
           "package": "precis",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "package_name",
           "package": "precis",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "package_name",
           "package": "precis",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "package_version",
           "package": "precis",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "package_version",
           "package": "precis",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "unresolved_modules",
           "package": "precis",
@@ -494,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "unresolved_modules",
           "normalized": "[UnresolvedModule]",
@@ -508,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.Datatypes",
           "name": "unresolved_name",
           "package": "precis",
@@ -517,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.Datatypes",
           "name": "unresolved_name",
           "package": "precis",
@@ -530,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatatype for working with Cabal files...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "InterimDatatypes",
           "package": "precis",
@@ -539,6 +586,7 @@
         "index": {
           "description": "Datatype for working with Cabal files",
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "InterimDatatypes",
           "package": "precis",
@@ -552,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "CabalExe",
           "package": "precis",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "CabalExe",
           "package": "precis",
@@ -574,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCabalFilePath\u003c/a\u003e\u003c/code\u003e is both the full, normalized path to the \n cabal file and the directory parts to the file.\n\u003c/p\u003e\u003cp\u003eThis is an opaque type - construct with \u003ccode\u003e\u003ca\u003ecabalFilePath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "CabalFilePath",
           "package": "precis",
@@ -583,6 +634,7 @@
         "index": {
           "description": "CabalFilePath is both the full normalized path to the cabal file and the directory parts to the file This is an opaque type construct with cabalFilePath",
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "CabalFilePath",
           "package": "precis",
@@ -596,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "CabalLibrary",
           "package": "precis",
@@ -604,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "CabalLibrary",
           "package": "precis",
@@ -617,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "CabalPrecis",
           "package": "precis",
@@ -625,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "CabalPrecis",
           "package": "precis",
@@ -638,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "CabalSourceDir",
           "package": "precis",
@@ -646,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "CabalSourceDir",
           "package": "precis",
@@ -659,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "ExeMainPath",
           "package": "precis",
@@ -667,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "ExeMainPath",
           "package": "precis",
@@ -680,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "FileExtension",
           "package": "precis",
@@ -688,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "FileExtension",
           "package": "precis",
@@ -701,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "ModName",
           "package": "precis",
@@ -709,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "ModName",
           "package": "precis",
@@ -722,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "ModuleDesc",
           "package": "precis",
@@ -730,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "ModuleDesc",
           "package": "precis",
@@ -743,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "CabalExe",
           "package": "precis",
@@ -752,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "CabalExe",
           "package": "precis",
@@ -765,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "CabalLibrary",
           "package": "precis",
@@ -774,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "CabalLibrary",
           "package": "precis",
@@ -787,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "CabalPrecis",
           "package": "precis",
@@ -796,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "CabalPrecis",
           "package": "precis",
@@ -809,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "ExeMainPath",
           "package": "precis",
@@ -818,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "ExeMainPath",
           "package": "precis",
@@ -832,6 +906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor for \u003ccode\u003e\u003ca\u003eCabalFilePath\u003c/a\u003e\u003c/code\u003e - the input FilePath is \n normalized before constructing the data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "cabalFilePath",
           "package": "precis",
@@ -842,6 +917,7 @@
         "index": {
           "description": "Constructor for CabalFilePath the input FilePath is normalized before constructing the data type",
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "cabalFilePath",
           "normalized": "FilePath-\u003eCabalFilePath",
@@ -857,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "cabalSourceDir",
           "package": "precis",
@@ -866,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "cabalSourceDir",
           "normalized": "FilePath-\u003eCabalSourceDir",
@@ -881,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "cond_exes",
           "package": "precis",
@@ -890,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "cond_exes",
           "normalized": "[CabalExe]",
@@ -904,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "cond_libraries",
           "package": "precis",
@@ -913,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "cond_libraries",
           "normalized": "[CabalLibrary]",
@@ -927,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "directoriesToCabalFile",
           "package": "precis",
@@ -936,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "directoriesToCabalFile",
           "normalized": "CabalFilePath-\u003e[FilePath]",
@@ -951,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "directoriesToSource",
           "package": "precis",
@@ -960,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "directoriesToSource",
           "normalized": "CabalSourceDir-\u003e[FilePath]",
@@ -975,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "exe_main_module",
           "package": "precis",
@@ -984,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "exe_main_module",
           "package": "precis",
@@ -996,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "exe_other_modules",
           "package": "precis",
@@ -1005,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "exe_other_modules",
           "normalized": "[ModuleDesc]",
@@ -1019,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "exe_src_dirs",
           "package": "precis",
@@ -1028,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "exe_src_dirs",
           "normalized": "[CabalSourceDir]",
@@ -1067,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "library_src_dirs",
           "package": "precis",
@@ -1076,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "library_src_dirs",
           "normalized": "[CabalSourceDir]",
@@ -1090,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "modName",
           "package": "precis",
@@ -1099,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "modName",
           "normalized": "ModuleName-\u003eModName",
@@ -1114,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "moduleDesc",
           "package": "precis",
@@ -1123,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "moduleDesc",
           "normalized": "ModuleName-\u003eModuleDesc",
@@ -1138,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "moduleDescName",
           "package": "precis",
@@ -1147,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "moduleDescName",
           "normalized": "ModuleDesc-\u003eModName",
@@ -1162,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "moduleDirectories",
           "package": "precis",
@@ -1171,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "moduleDirectories",
           "normalized": "ModuleDesc-\u003e[FilePath]",
@@ -1186,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "pathToCabalFile",
           "package": "precis",
@@ -1195,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "pathToCabalFile",
           "normalized": "CabalFilePath-\u003eFilePath",
@@ -1210,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "path_to_cabal_file",
           "package": "precis",
@@ -1219,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "path_to_cabal_file",
           "package": "precis",
@@ -1231,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "pkg_name",
           "package": "precis",
@@ -1240,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "pkg_name",
           "package": "precis",
@@ -1252,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "pkg_version",
           "package": "precis",
@@ -1261,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "pkg_version",
           "package": "precis",
@@ -1273,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "private_modules",
           "package": "precis",
@@ -1282,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "private_modules",
           "normalized": "[ModuleDesc]",
@@ -1296,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "public_modules",
           "package": "precis",
@@ -1305,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "public_modules",
           "normalized": "[ModuleDesc]",
@@ -1319,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "relPathToExeMain",
           "package": "precis",
@@ -1328,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal InterimDatatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.InterimDatatypes",
           "name": "relPathToExeMain",
           "package": "precis",
@@ -1342,6 +1458,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Monad transofrmer (over IO) for revolving module names \n to FilePaths.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.ResolveM",
           "name": "ResolveM",
           "package": "precis",
@@ -1351,6 +1468,7 @@
         "index": {
           "description": "Monad transofrmer over IO for revolving module names to FilePaths",
           "hierarchy": "Precis Cabal ResolveM",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.ResolveM",
           "name": "ResolveM",
           "package": "precis",
@@ -1364,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.ResolveM",
           "name": "ResolveM",
           "package": "precis",
@@ -1372,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal ResolveM",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.ResolveM",
           "name": "ResolveM",
           "package": "precis",
@@ -1385,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.ResolveM",
           "name": "getEIU",
           "package": "precis",
@@ -1394,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal ResolveM",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.ResolveM",
           "name": "getEIU",
           "normalized": "RSt-\u003e([HsSourceFile],[HsSourceFile],[UnresolvedModule])",
@@ -1409,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.ResolveM",
           "name": "getFilePathLoc",
           "package": "precis",
@@ -1418,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal ResolveM",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.ResolveM",
           "name": "getFilePathLoc",
           "normalized": "[CabalSourceDir]-\u003eModuleDesc-\u003eResolveM(Maybe FilePath)",
@@ -1433,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.ResolveM",
           "name": "resolvePrecis",
           "package": "precis",
@@ -1442,6 +1567,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal ResolveM",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.ResolveM",
           "name": "resolvePrecis",
           "normalized": "CabalPrecis-\u003e[FileExtension]-\u003eIO([HsSourceFile],[HsSourceFile],[UnresolvedModule])",
@@ -1457,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal.ResolveM",
           "name": "runResolve",
           "package": "precis",
@@ -1466,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal ResolveM",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal.ResolveM",
           "name": "runResolve",
           "normalized": "CabalFilePath-\u003e[FileExtension]-\u003eResolveM a-\u003eIO(a,RSt)",
@@ -1482,6 +1610,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImport module for Cabal libs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal",
           "name": "Cabal",
           "package": "precis",
@@ -1491,6 +1620,7 @@
         "index": {
           "description": "Import module for Cabal libs",
           "hierarchy": "Precis Cabal",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal",
           "name": "Cabal",
           "package": "precis",
@@ -1504,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal",
           "name": "ModName",
           "package": "precis",
@@ -1512,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal",
           "name": "ModName",
           "package": "precis",
@@ -1525,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Cabal",
           "name": "extractPackageInfo",
           "package": "precis",
@@ -1534,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Precis Cabal",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Cabal",
           "name": "extractPackageInfo",
           "normalized": "FilePath-\u003eIO(Either CabalFileError Package)",
@@ -1550,6 +1684,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTwo Diff types (3 state and 4 state)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Diff",
           "name": "Diff",
           "package": "precis",
@@ -1559,6 +1694,7 @@
         "index": {
           "description": "Two Diff types state and state",
           "hierarchy": "Precis Diff",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Diff",
           "name": "Diff",
           "package": "precis",
@@ -1572,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Diff",
           "name": "Edit3",
           "package": "precis",
@@ -1580,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Precis Diff",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Diff",
           "name": "Edit3",
           "package": "precis",
@@ -1593,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Diff",
           "name": "Edit4",
           "package": "precis",
@@ -1601,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Precis Diff",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Diff",
           "name": "Edit4",
           "package": "precis",
@@ -1614,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Diff",
           "name": "ADD",
           "package": "precis",
@@ -1623,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "Precis Diff",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Diff",
           "name": "ADD",
           "package": "precis",
@@ -1636,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Diff",
           "name": "Add",
           "package": "precis",
@@ -1645,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Precis Diff",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Diff",
           "name": "Add",
           "package": "precis",
@@ -1658,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Diff",
           "name": "DEL",
           "package": "precis",
@@ -1667,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Precis Diff",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Diff",
           "name": "DEL",
           "package": "precis",
@@ -1680,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Diff",
           "name": "DIF",
           "package": "precis",
@@ -1689,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Precis Diff",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Diff",
           "name": "DIF",
           "package": "precis",
@@ -1702,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Diff",
           "name": "Del",
           "package": "precis",
@@ -1711,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Precis Diff",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Diff",
           "name": "Del",
           "package": "precis",
@@ -1724,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Diff",
           "name": "EQU",
           "package": "precis",
@@ -1733,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Precis Diff",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Diff",
           "name": "EQU",
           "package": "precis",
@@ -1746,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Diff",
           "name": "Equ",
           "package": "precis",
@@ -1755,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "Precis Diff",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Diff",
           "name": "Equ",
           "package": "precis",
@@ -1768,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Diff",
           "name": "addedConflictRemoved",
           "package": "precis",
@@ -1777,6 +1932,7 @@
         },
         "index": {
           "hierarchy": "Precis Diff",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Diff",
           "name": "addedConflictRemoved",
           "normalized": "[Edit a]-\u003e([a],[(a,a)],[a])",
@@ -1792,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Diff",
           "name": "addedRemoved",
           "package": "precis",
@@ -1801,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "Precis Diff",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Diff",
           "name": "addedRemoved",
           "normalized": "[Edit a]-\u003e([a],[a])",
@@ -1816,6 +1974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Diff",
           "name": "conflictRemoved",
           "package": "precis",
@@ -1825,6 +1984,7 @@
         },
         "index": {
           "hierarchy": "Precis Diff",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Diff",
           "name": "conflictRemoved",
           "normalized": "[Edit a]-\u003e([(a,a)],[a])",
@@ -1840,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Diff",
           "name": "diff3",
           "package": "precis",
@@ -1849,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "Precis Diff",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Diff",
           "name": "diff3",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[a]-\u003e[Edit a]",
@@ -1863,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Diff",
           "name": "diff4",
           "package": "precis",
@@ -1872,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "Precis Diff",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Diff",
           "name": "diff4",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[a]-\u003e[Edit a]",
@@ -1886,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "Datatypes",
           "package": "precis",
@@ -1894,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "Datatypes",
           "package": "precis",
@@ -1907,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "DatatypeDecl",
           "package": "precis",
@@ -1915,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "DatatypeDecl",
           "package": "precis",
@@ -1928,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "ExportItem",
           "package": "precis",
@@ -1936,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "ExportItem",
           "package": "precis",
@@ -1949,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "InstanceDecl",
           "package": "precis",
@@ -1957,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "InstanceDecl",
           "package": "precis",
@@ -1970,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "MacroExpandedSrcFile",
           "package": "precis",
@@ -1978,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "MacroExpandedSrcFile",
           "package": "precis",
@@ -1992,6 +2166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModule file names are derived from the cabal file.\n So the name is tracked if it is missing...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "ModuleParseError",
           "package": "precis",
@@ -2001,6 +2176,7 @@
         "index": {
           "description": "Module file names are derived from the cabal file So the name is tracked if it is missing",
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "ModuleParseError",
           "package": "precis",
@@ -2014,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "StrName",
           "package": "precis",
@@ -2022,6 +2199,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "StrName",
           "package": "precis",
@@ -2035,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "TextRep",
           "package": "precis",
@@ -2043,6 +2222,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "TextRep",
           "package": "precis",
@@ -2056,6 +2236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "TypeSigDecl",
           "package": "precis",
@@ -2064,6 +2245,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "TypeSigDecl",
           "package": "precis",
@@ -2077,6 +2259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "DataOrClass",
           "package": "precis",
@@ -2086,6 +2269,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "DataOrClass",
           "package": "precis",
@@ -2099,6 +2283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "DatatypeDecl",
           "package": "precis",
@@ -2108,6 +2293,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "DatatypeDecl",
           "package": "precis",
@@ -2121,6 +2307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "ERR_MODULE_FILE_MISSING",
           "package": "precis",
@@ -2130,6 +2317,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "ERR_MODULE_FILE_MISSING",
           "package": "precis",
@@ -2143,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "ERR_MODULE_FILE_PARSE",
           "package": "precis",
@@ -2152,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "ERR_MODULE_FILE_PARSE",
           "package": "precis",
@@ -2165,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "InstanceDecl",
           "package": "precis",
@@ -2174,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "InstanceDecl",
           "package": "precis",
@@ -2187,6 +2379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "MacroExpandedSrcFile",
           "package": "precis",
@@ -2196,6 +2389,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "MacroExpandedSrcFile",
           "package": "precis",
@@ -2209,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "ModuleExport",
           "package": "precis",
@@ -2218,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "ModuleExport",
           "package": "precis",
@@ -2231,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "TypeSigDecl",
           "package": "precis",
@@ -2240,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "TypeSigDecl",
           "package": "precis",
@@ -2253,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "Variable",
           "package": "precis",
@@ -2262,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "Variable",
           "package": "precis",
@@ -2275,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "class_name",
           "package": "precis",
@@ -2284,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "class_name",
           "package": "precis",
@@ -2296,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "datatypeDeclName",
           "package": "precis",
@@ -2305,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "datatypeDeclName",
           "normalized": "DatatypeDecl-\u003eStrName",
@@ -2320,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "datatype_name",
           "package": "precis",
@@ -2329,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "datatype_name",
           "package": "precis",
@@ -2341,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "datatype_rep",
           "package": "precis",
@@ -2350,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "datatype_rep",
           "package": "precis",
@@ -2362,6 +2570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "expanded_source",
           "package": "precis",
@@ -2371,6 +2580,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "expanded_source",
           "package": "precis",
@@ -2383,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "exportItemName",
           "package": "precis",
@@ -2392,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "exportItemName",
           "normalized": "ExportItem-\u003eStrName",
@@ -2407,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "full_rep",
           "package": "precis",
@@ -2416,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "full_rep",
           "package": "precis",
@@ -2428,6 +2642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "instanceDeclName",
           "package": "precis",
@@ -2437,6 +2652,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "instanceDeclName",
           "normalized": "InstanceDecl-\u003eStrName",
@@ -2452,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "moduleParseErrorMsg",
           "package": "precis",
@@ -2461,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "moduleParseErrorMsg",
           "normalized": "ModuleParseError-\u003eString",
@@ -2476,6 +2694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "source_file_name",
           "package": "precis",
@@ -2485,6 +2704,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "source_file_name",
           "package": "precis",
@@ -2497,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "typeSigDeclName",
           "package": "precis",
@@ -2506,6 +2727,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "typeSigDeclName",
           "normalized": "TypeSigDecl-\u003eStrName",
@@ -2521,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "type_decl_name",
           "package": "precis",
@@ -2530,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "type_decl_name",
           "package": "precis",
@@ -2542,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "type_rep",
           "package": "precis",
@@ -2551,6 +2776,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "type_rep",
           "package": "precis",
@@ -2563,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Datatypes",
           "name": "type_signature",
           "package": "precis",
@@ -2572,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Datatypes",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Datatypes",
           "name": "type_signature",
           "package": "precis",
@@ -2584,6 +2812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Utils",
           "name": "Utils",
           "package": "precis",
@@ -2592,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Utils",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Utils",
           "name": "Utils",
           "package": "precis",
@@ -2605,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Utils",
           "name": "extractCName",
           "package": "precis",
@@ -2614,6 +2845,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Utils",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Utils",
           "name": "extractCName",
           "normalized": "CName-\u003eString",
@@ -2629,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Utils",
           "name": "extractModuleName",
           "package": "precis",
@@ -2638,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Utils",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Utils",
           "name": "extractModuleName",
           "normalized": "ModuleName-\u003eString",
@@ -2653,6 +2887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Utils",
           "name": "extractName",
           "package": "precis",
@@ -2662,6 +2897,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Utils",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Utils",
           "name": "extractName",
           "normalized": "Name-\u003eString",
@@ -2677,6 +2913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Utils",
           "name": "extractQName",
           "package": "precis",
@@ -2686,6 +2923,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Utils",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Utils",
           "name": "extractQName",
           "normalized": "QName-\u003eString",
@@ -2701,6 +2939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Utils",
           "name": "extractSpecialCon",
           "package": "precis",
@@ -2710,6 +2949,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Utils",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Utils",
           "name": "extractSpecialCon",
           "normalized": "SpecialCon-\u003eString",
@@ -2725,6 +2965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Utils",
           "name": "getModuleName",
           "package": "precis",
@@ -2734,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Utils",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Utils",
           "name": "getModuleName",
           "normalized": "Module-\u003eModuleName",
@@ -2749,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Utils",
           "name": "hsppList",
           "package": "precis",
@@ -2758,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Utils",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Utils",
           "name": "hsppList",
           "normalized": "[a]-\u003eString",
@@ -2773,6 +3017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Utils",
           "name": "namedDecls",
           "package": "precis",
@@ -2782,6 +3027,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Utils",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Utils",
           "name": "namedDecls",
           "normalized": "Decl-\u003e[(StrName,TextRep)]",
@@ -2797,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Utils",
           "name": "parseModuleWithExts",
           "package": "precis",
@@ -2806,6 +3053,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Utils",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Utils",
           "name": "parseModuleWithExts",
           "normalized": "[Extension]-\u003eFilePath-\u003eString-\u003eParseResult Module",
@@ -2821,6 +3069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HsSrc.Utils",
           "name": "readModule",
           "package": "precis",
@@ -2830,6 +3079,7 @@
         },
         "index": {
           "hierarchy": "Precis HsSrc Utils",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HsSrc.Utils",
           "name": "readModule",
           "normalized": "MacroExpandedSrcFile-\u003eEither ModuleParseError Module",
@@ -2846,6 +3096,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCreating a report in HTML...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HtmlReport",
           "name": "HtmlReport",
           "package": "precis",
@@ -2855,6 +3106,7 @@
         "index": {
           "description": "Creating report in HTML",
           "hierarchy": "Precis HtmlReport",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HtmlReport",
           "name": "HtmlReport",
           "package": "precis",
@@ -2868,6 +3120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HtmlReport",
           "name": "makeFullReport",
           "package": "precis",
@@ -2877,6 +3130,7 @@
         },
         "index": {
           "hierarchy": "Precis HtmlReport",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HtmlReport",
           "name": "makeFullReport",
           "normalized": "ModuleParseFunction-\u003ePackage-\u003ePackage-\u003eIO(Html,TextSummary)",
@@ -2892,6 +3146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.HtmlReport",
           "name": "makeShortReport",
           "package": "precis",
@@ -2901,6 +3156,7 @@
         },
         "index": {
           "hierarchy": "Precis HtmlReport",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.HtmlReport",
           "name": "makeShortReport",
           "normalized": "ModuleParseFunction-\u003ePackage-\u003ePackage-\u003eIO TextSummary",
@@ -2916,6 +3172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ModuleProperties",
           "name": "ModuleProperties",
           "package": "precis",
@@ -2924,6 +3181,7 @@
         },
         "index": {
           "hierarchy": "Precis ModuleProperties",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ModuleProperties",
           "name": "ModuleProperties",
           "package": "precis",
@@ -2937,6 +3195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ModuleProperties",
           "name": "diffDataDecls",
           "package": "precis",
@@ -2946,6 +3205,7 @@
         },
         "index": {
           "hierarchy": "Precis ModuleProperties",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ModuleProperties",
           "name": "diffDataDecls",
           "normalized": "Module-\u003eModule-\u003e[Edit DatatypeDecl]",
@@ -2961,6 +3221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ModuleProperties",
           "name": "diffExports",
           "package": "precis",
@@ -2970,6 +3231,7 @@
         },
         "index": {
           "hierarchy": "Precis ModuleProperties",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ModuleProperties",
           "name": "diffExports",
           "normalized": "Module-\u003eModule-\u003e[Edit ExportItem]",
@@ -2985,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ModuleProperties",
           "name": "diffExposedModules",
           "package": "precis",
@@ -2994,6 +3257,7 @@
         },
         "index": {
           "hierarchy": "Precis ModuleProperties",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ModuleProperties",
           "name": "diffExposedModules",
           "normalized": "Package-\u003ePackage-\u003e[Edit ModName]",
@@ -3009,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ModuleProperties",
           "name": "diffExposedSrcFiles",
           "package": "precis",
@@ -3018,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "Precis ModuleProperties",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ModuleProperties",
           "name": "diffExposedSrcFiles",
           "normalized": "[HsSourceFile]-\u003e[HsSourceFile]-\u003e[Edit HsSourceFile]",
@@ -3033,6 +3299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ModuleProperties",
           "name": "diffInstances",
           "package": "precis",
@@ -3042,6 +3309,7 @@
         },
         "index": {
           "hierarchy": "Precis ModuleProperties",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ModuleProperties",
           "name": "diffInstances",
           "normalized": "Module-\u003eModule-\u003e[Edit InstanceDecl]",
@@ -3057,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ModuleProperties",
           "name": "diffInternalModules",
           "package": "precis",
@@ -3066,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "Precis ModuleProperties",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ModuleProperties",
           "name": "diffInternalModules",
           "normalized": "Package-\u003ePackage-\u003e[Edit ModName]",
@@ -3081,6 +3351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ModuleProperties",
           "name": "diffTypeSigs",
           "package": "precis",
@@ -3090,6 +3361,7 @@
         },
         "index": {
           "hierarchy": "Precis ModuleProperties",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ModuleProperties",
           "name": "diffTypeSigs",
           "normalized": "Module-\u003eModule-\u003e[Edit TypeSigDecl]",
@@ -3106,6 +3378,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLogging monad for collecting report fragments\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "ReportMonad",
           "package": "precis",
@@ -3115,6 +3388,7 @@
         "index": {
           "description": "Logging monad for collecting report fragments",
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "ReportMonad",
           "package": "precis",
@@ -3128,6 +3402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "CMP",
           "package": "precis",
@@ -3136,6 +3411,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "CMP",
           "package": "precis",
@@ -3149,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "ChangeStats",
           "package": "precis",
@@ -3157,6 +3434,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "ChangeStats",
           "package": "precis",
@@ -3170,6 +3448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "Log",
           "package": "precis",
@@ -3178,6 +3457,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "Log",
           "package": "precis",
@@ -3191,6 +3471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "ModuleParseFunction",
           "package": "precis",
@@ -3199,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "ModuleParseFunction",
           "package": "precis",
@@ -3212,6 +3494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "ReportLevel",
           "package": "precis",
@@ -3220,6 +3503,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "ReportLevel",
           "package": "precis",
@@ -3233,6 +3517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "ReportM",
           "package": "precis",
@@ -3241,6 +3526,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "ReportM",
           "package": "precis",
@@ -3254,6 +3540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "ChangeStats",
           "package": "precis",
@@ -3263,6 +3550,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "ChangeStats",
           "package": "precis",
@@ -3276,6 +3564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "JUST_MSG",
           "package": "precis",
@@ -3285,6 +3574,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "JUST_MSG",
           "package": "precis",
@@ -3298,6 +3588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "MSG_AND_HTML",
           "package": "precis",
@@ -3307,6 +3598,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "MSG_AND_HTML",
           "package": "precis",
@@ -3320,6 +3612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "NEW",
           "package": "precis",
@@ -3329,6 +3622,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "NEW",
           "package": "precis",
@@ -3342,6 +3636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "OLD",
           "package": "precis",
@@ -3351,6 +3646,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "OLD",
           "package": "precis",
@@ -3364,6 +3660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "askParseFun",
           "package": "precis",
@@ -3373,6 +3670,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "askParseFun",
           "package": "precis",
@@ -3386,6 +3684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "changed_datatypes",
           "package": "precis",
@@ -3395,6 +3694,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "changed_datatypes",
           "package": "precis",
@@ -3407,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "changed_exports",
           "package": "precis",
@@ -3416,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "changed_exports",
           "package": "precis",
@@ -3428,6 +3730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "changed_instances",
           "package": "precis",
@@ -3437,6 +3740,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "changed_instances",
           "package": "precis",
@@ -3449,6 +3753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "changed_typesigs",
           "package": "precis",
@@ -3458,6 +3763,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "changed_typesigs",
           "package": "precis",
@@ -3470,6 +3776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "execReportM",
           "package": "precis",
@@ -3479,6 +3786,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "execReportM",
           "normalized": "ModuleParseFunction-\u003eReportLevel-\u003eReportM a-\u003eIO Log",
@@ -3494,6 +3802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "incrChangedDatatypes",
           "package": "precis",
@@ -3503,6 +3812,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "incrChangedDatatypes",
           "normalized": "ReportM()",
@@ -3518,6 +3828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "incrChangedExports",
           "package": "precis",
@@ -3527,6 +3838,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "incrChangedExports",
           "normalized": "ReportM()",
@@ -3542,6 +3854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "incrChangedInstances",
           "package": "precis",
@@ -3551,6 +3864,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "incrChangedInstances",
           "normalized": "ReportM()",
@@ -3566,6 +3880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "incrChangedTypeSigs",
           "package": "precis",
@@ -3575,6 +3890,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "incrChangedTypeSigs",
           "normalized": "ReportM()",
@@ -3590,6 +3906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "incrRemovedDatatypes",
           "package": "precis",
@@ -3599,6 +3916,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "incrRemovedDatatypes",
           "normalized": "ReportM()",
@@ -3614,6 +3932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "incrRemovedExports",
           "package": "precis",
@@ -3623,6 +3942,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "incrRemovedExports",
           "normalized": "ReportM()",
@@ -3638,6 +3958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "incrRemovedInstances",
           "package": "precis",
@@ -3647,6 +3968,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "incrRemovedInstances",
           "normalized": "ReportM()",
@@ -3662,6 +3984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "incrRemovedModules",
           "package": "precis",
@@ -3671,6 +3994,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "incrRemovedModules",
           "normalized": "ReportM()",
@@ -3686,6 +4010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "incrRemovedTypeSigs",
           "package": "precis",
@@ -3695,6 +4020,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "incrRemovedTypeSigs",
           "normalized": "ReportM()",
@@ -3710,6 +4036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "liftIO",
           "package": "precis",
@@ -3719,6 +4046,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "liftIO",
           "normalized": "IO a-\u003eReportM a",
@@ -3734,6 +4062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "removed_datatypes",
           "package": "precis",
@@ -3743,6 +4072,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "removed_datatypes",
           "package": "precis",
@@ -3755,6 +4085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "removed_exports",
           "package": "precis",
@@ -3764,6 +4095,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "removed_exports",
           "package": "precis",
@@ -3776,6 +4108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "removed_instances",
           "package": "precis",
@@ -3785,6 +4118,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "removed_instances",
           "package": "precis",
@@ -3797,6 +4131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "removed_mods",
           "package": "precis",
@@ -3806,6 +4141,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "removed_mods",
           "package": "precis",
@@ -3818,6 +4154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "removed_typesigs",
           "package": "precis",
@@ -3827,6 +4164,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "removed_typesigs",
           "package": "precis",
@@ -3839,6 +4177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "runReportM",
           "package": "precis",
@@ -3848,6 +4187,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "runReportM",
           "normalized": "ModuleParseFunction-\u003eReportLevel-\u003eReportM a-\u003eIO(a,Log)",
@@ -3863,6 +4203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "tellHtml",
           "package": "precis",
@@ -3872,6 +4213,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "tellHtml",
           "normalized": "Html-\u003eReportM()",
@@ -3887,6 +4229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "tellParseFail",
           "package": "precis",
@@ -3896,6 +4239,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "tellParseFail",
           "normalized": "CMP StrName-\u003eReportM()",
@@ -3911,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "tellUnresolved",
           "package": "precis",
@@ -3920,6 +4265,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "tellUnresolved",
           "normalized": "CMP StrName-\u003eReportM()",
@@ -3935,6 +4281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "unparseable_mods",
           "package": "precis",
@@ -3944,6 +4291,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "unparseable_mods",
           "normalized": "[CMP StrName]",
@@ -3958,6 +4306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.ReportMonad",
           "name": "unresolved_mods",
           "package": "precis",
@@ -3967,6 +4316,7 @@
         },
         "index": {
           "hierarchy": "Precis ReportMonad",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.ReportMonad",
           "name": "unresolved_mods",
           "normalized": "[CMP StrName]",
@@ -3982,6 +4332,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCreating a report in HTML...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.StyleSheet",
           "name": "StyleSheet",
           "package": "precis",
@@ -3991,6 +4342,7 @@
         "index": {
           "description": "Creating report in HTML",
           "hierarchy": "Precis StyleSheet",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.StyleSheet",
           "name": "StyleSheet",
           "package": "precis",
@@ -4004,6 +4356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.StyleSheet",
           "name": "inline_stylesheet",
           "package": "precis",
@@ -4013,6 +4366,7 @@
         },
         "index": {
           "hierarchy": "Precis StyleSheet",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.StyleSheet",
           "name": "inline_stylesheet",
           "package": "precis",
@@ -4026,6 +4380,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrint ChangeStats to the console.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.TextOutput",
           "name": "TextOutput",
           "package": "precis",
@@ -4035,6 +4390,7 @@
         "index": {
           "description": "Print ChangeStats to the console",
           "hierarchy": "Precis TextOutput",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.TextOutput",
           "name": "TextOutput",
           "package": "precis",
@@ -4048,6 +4404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.TextOutput",
           "name": "comparingMsg",
           "package": "precis",
@@ -4057,6 +4414,7 @@
         },
         "index": {
           "hierarchy": "Precis TextOutput",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.TextOutput",
           "name": "comparingMsg",
           "normalized": "Package-\u003ePackage-\u003eShowS",
@@ -4072,6 +4430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.TextOutput",
           "name": "showChangeStats",
           "package": "precis",
@@ -4081,6 +4440,7 @@
         },
         "index": {
           "hierarchy": "Precis TextOutput",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.TextOutput",
           "name": "showChangeStats",
           "normalized": "ChangeStats-\u003eShowS",
@@ -4097,6 +4457,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtils\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.Common",
           "name": "Common",
           "package": "precis",
@@ -4106,6 +4467,7 @@
         "index": {
           "description": "Utils",
           "hierarchy": "Precis Utils Common",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.Common",
           "name": "Common",
           "package": "precis",
@@ -4119,6 +4481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.Common",
           "name": "H",
           "package": "precis",
@@ -4127,6 +4490,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils Common",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.Common",
           "name": "H",
           "package": "precis",
@@ -4139,6 +4503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.Common",
           "name": "appendH",
           "package": "precis",
@@ -4148,6 +4513,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils Common",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.Common",
           "name": "appendH",
           "normalized": "H a-\u003eH a-\u003eH a",
@@ -4162,6 +4528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.Common",
           "name": "concatH",
           "package": "precis",
@@ -4171,6 +4538,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils Common",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.Common",
           "name": "concatH",
           "normalized": "[H a]-\u003eH a",
@@ -4185,6 +4553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.Common",
           "name": "consH",
           "package": "precis",
@@ -4194,6 +4563,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils Common",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.Common",
           "name": "consH",
           "normalized": "a-\u003eH a-\u003eH a",
@@ -4208,6 +4578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.Common",
           "name": "emptyH",
           "package": "precis",
@@ -4217,6 +4588,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils Common",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.Common",
           "name": "emptyH",
           "package": "precis",
@@ -4229,6 +4601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.Common",
           "name": "fromListH",
           "package": "precis",
@@ -4238,6 +4611,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils Common",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.Common",
           "name": "fromListH",
           "normalized": "[a]-\u003eH a",
@@ -4253,6 +4627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.Common",
           "name": "mapLeft",
           "package": "precis",
@@ -4262,6 +4637,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils Common",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.Common",
           "name": "mapLeft",
           "normalized": "(a-\u003eb)-\u003eEither a c-\u003eEither b c",
@@ -4277,6 +4653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.Common",
           "name": "mapRight",
           "package": "precis",
@@ -4286,6 +4663,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils Common",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.Common",
           "name": "mapRight",
           "normalized": "(a-\u003eb)-\u003eEither c a-\u003eEither c b",
@@ -4301,6 +4679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.Common",
           "name": "onSuccessM",
           "package": "precis",
@@ -4310,6 +4689,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils Common",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.Common",
           "name": "onSuccessM",
           "normalized": "a(Either b c)-\u003e(c-\u003ea d)-\u003ea(Either b d)",
@@ -4325,6 +4705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.Common",
           "name": "pstar",
           "package": "precis",
@@ -4334,6 +4715,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils Common",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.Common",
           "name": "pstar",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(b-\u003ea)-\u003eb-\u003ec",
@@ -4348,6 +4730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.Common",
           "name": "pstar2",
           "package": "precis",
@@ -4357,6 +4740,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils Common",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.Common",
           "name": "pstar2",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003e(c-\u003ea)-\u003e(c-\u003eb)-\u003ec-\u003ed",
@@ -4371,6 +4755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.Common",
           "name": "snocH",
           "package": "precis",
@@ -4380,6 +4765,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils Common",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.Common",
           "name": "snocH",
           "normalized": "H a-\u003ea-\u003eH a",
@@ -4394,6 +4780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.Common",
           "name": "star",
           "package": "precis",
@@ -4403,6 +4790,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils Common",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.Common",
           "name": "star",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea-\u003ec)-\u003ea-\u003ec",
@@ -4417,6 +4805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.Common",
           "name": "star2",
           "package": "precis",
@@ -4426,6 +4815,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils Common",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.Common",
           "name": "star2",
           "normalized": "(a-\u003eb)-\u003e(a-\u003ec)-\u003e(b-\u003ec-\u003ea-\u003ed)-\u003ea-\u003ed",
@@ -4440,6 +4830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.Common",
           "name": "toListH",
           "package": "precis",
@@ -4449,6 +4840,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils Common",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.Common",
           "name": "toListH",
           "normalized": "H a-\u003e[a]",
@@ -4464,6 +4856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.Common",
           "name": "unlist",
           "package": "precis",
@@ -4473,6 +4866,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils Common",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.Common",
           "name": "unlist",
           "normalized": "[String]-\u003eString",
@@ -4488,6 +4882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverse a list as per \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e applying the supplied function \n to each element, *but* pruduce a Hughes list as output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.Common",
           "name": "veloH",
           "package": "precis",
@@ -4498,6 +4893,7 @@
         "index": {
           "description": "Traverse list as per map applying the supplied function to each element but pruduce Hughes list as output",
           "hierarchy": "Precis Utils Common",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.Common",
           "name": "veloH",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003eH b",
@@ -4512,6 +4908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.Common",
           "name": "wrapH",
           "package": "precis",
@@ -4521,6 +4918,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils Common",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.Common",
           "name": "wrapH",
           "normalized": "a-\u003eH a",
@@ -4536,6 +4934,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eALL NAMES PROVISIONAL...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.ControlOperators",
           "name": "ControlOperators",
           "package": "precis",
@@ -4545,6 +4944,7 @@
         "index": {
           "description": "ALL NAMES PROVISIONAL",
           "hierarchy": "Precis Utils ControlOperators",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.ControlOperators",
           "name": "ControlOperators",
           "package": "precis",
@@ -4558,6 +4958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.ControlOperators",
           "name": "elaborate",
           "package": "precis",
@@ -4567,6 +4968,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils ControlOperators",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.ControlOperators",
           "name": "elaborate",
           "normalized": "a-\u003eMaybe b-\u003eEither a b",
@@ -4582,6 +4984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the function to the list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.ControlOperators",
           "name": "firstSuccess",
           "package": "precis",
@@ -4592,6 +4995,7 @@
         "index": {
           "description": "Apply the function to the list",
           "hierarchy": "Precis Utils ControlOperators",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.ControlOperators",
           "name": "firstSuccess",
           "normalized": "(a-\u003eb(Maybe c))-\u003e[a]-\u003eb(Maybe c)",
@@ -4607,6 +5011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.ControlOperators",
           "name": "suppress",
           "package": "precis",
@@ -4616,6 +5021,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils ControlOperators",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.ControlOperators",
           "name": "suppress",
           "normalized": "Either a b-\u003eMaybe b",
@@ -4630,6 +5036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.ControlOperators",
           "name": "valid",
           "package": "precis",
@@ -4639,6 +5046,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils ControlOperators",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.ControlOperators",
           "name": "valid",
           "normalized": "(a-\u003eb Bool)-\u003ea-\u003eb(Maybe a)",
@@ -4653,6 +5061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.ControlOperators",
           "name": "validE",
           "package": "precis",
@@ -4662,6 +5071,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils ControlOperators",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.ControlOperators",
           "name": "validE",
           "normalized": "a-\u003e(b-\u003ec Bool)-\u003eb-\u003ec(Either a b)",
@@ -4677,6 +5087,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty print combinators for ShowS\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "PPShowS",
           "package": "precis",
@@ -4686,6 +5097,7 @@
         "index": {
           "description": "Pretty print combinators for ShowS",
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "PPShowS",
           "package": "precis",
@@ -4699,6 +5111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "(\u003c+\u003e)",
           "package": "precis",
@@ -4708,6 +5121,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "ShowS-\u003eShowS-\u003eShowS",
@@ -4722,6 +5136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "(\u003c\u003e)",
           "package": "precis",
@@ -4731,6 +5146,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "ShowS-\u003eShowS-\u003eShowS",
@@ -4745,6 +5161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "angles",
           "package": "precis",
@@ -4754,6 +5171,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "angles",
           "normalized": "ShowS-\u003eShowS",
@@ -4768,6 +5186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "backslash",
           "package": "precis",
@@ -4777,6 +5196,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "backslash",
           "package": "precis",
@@ -4789,6 +5209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "bar",
           "package": "precis",
@@ -4798,6 +5219,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "bar",
           "package": "precis",
@@ -4810,6 +5232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "braces",
           "package": "precis",
@@ -4819,6 +5242,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "braces",
           "normalized": "ShowS-\u003eShowS",
@@ -4833,6 +5257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "brackets",
           "package": "precis",
@@ -4842,6 +5267,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "brackets",
           "normalized": "ShowS-\u003eShowS",
@@ -4856,6 +5282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "char",
           "package": "precis",
@@ -4865,6 +5292,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "char",
           "normalized": "Char-\u003eShowS",
@@ -4879,6 +5307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "colon",
           "package": "precis",
@@ -4888,6 +5317,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "colon",
           "package": "precis",
@@ -4900,6 +5330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "comma",
           "package": "precis",
@@ -4909,6 +5340,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "comma",
           "package": "precis",
@@ -4921,6 +5353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "dblquote",
           "package": "precis",
@@ -4930,6 +5363,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "dblquote",
           "package": "precis",
@@ -4942,6 +5376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "dot",
           "package": "precis",
@@ -4951,6 +5386,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "dot",
           "package": "precis",
@@ -4963,6 +5399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "dquotes",
           "package": "precis",
@@ -4972,6 +5409,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "dquotes",
           "normalized": "ShowS-\u003eShowS",
@@ -4986,6 +5424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "empty",
           "package": "precis",
@@ -4995,6 +5434,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "empty",
           "package": "precis",
@@ -5007,6 +5447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "encloseSep",
           "package": "precis",
@@ -5016,6 +5457,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "encloseSep",
           "normalized": "ShowS-\u003eShowS-\u003eShowS-\u003e[ShowS]-\u003eShowS",
@@ -5031,6 +5473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "equal",
           "package": "precis",
@@ -5040,6 +5483,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "equal",
           "package": "precis",
@@ -5052,6 +5496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "hcat",
           "package": "precis",
@@ -5061,6 +5506,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "hcat",
           "normalized": "[ShowS]-\u003eShowS",
@@ -5075,6 +5521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "hsep",
           "package": "precis",
@@ -5084,6 +5531,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "hsep",
           "normalized": "[ShowS]-\u003eShowS",
@@ -5098,6 +5546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "int",
           "package": "precis",
@@ -5107,6 +5556,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "int",
           "normalized": "Int-\u003eShowS",
@@ -5121,6 +5571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "langle",
           "package": "precis",
@@ -5130,6 +5581,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "langle",
           "package": "precis",
@@ -5142,6 +5594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "lbrace",
           "package": "precis",
@@ -5151,6 +5604,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "lbrace",
           "package": "precis",
@@ -5163,6 +5617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "lbracket",
           "package": "precis",
@@ -5172,6 +5627,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "lbracket",
           "package": "precis",
@@ -5184,6 +5640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "line",
           "package": "precis",
@@ -5193,6 +5650,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "line",
           "normalized": "ShowS-\u003eShowS-\u003eShowS",
@@ -5207,6 +5665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "list",
           "package": "precis",
@@ -5216,6 +5675,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "list",
           "normalized": "[ShowS]-\u003eShowS",
@@ -5230,6 +5690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "lparen",
           "package": "precis",
@@ -5239,6 +5700,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "lparen",
           "package": "precis",
@@ -5251,6 +5713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "newline",
           "package": "precis",
@@ -5260,6 +5723,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "newline",
           "package": "precis",
@@ -5273,6 +5737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - this function evaluates the second arg and uses (++) \n via \u003ccode\u003e\u003ca\u003eshowString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "nextLine",
           "package": "precis",
@@ -5283,6 +5748,7 @@
         "index": {
           "description": "Note this function evaluates the second arg and uses via showString",
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "nextLine",
           "normalized": "ShowS-\u003eShowS-\u003eShowS",
@@ -5298,6 +5764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "parens",
           "package": "precis",
@@ -5307,6 +5774,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "parens",
           "normalized": "ShowS-\u003eShowS",
@@ -5321,6 +5789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "prefixLines",
           "package": "precis",
@@ -5330,6 +5799,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "prefixLines",
           "normalized": "ShowS-\u003eString-\u003eShowS",
@@ -5345,6 +5815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "punctuate",
           "package": "precis",
@@ -5354,6 +5825,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "punctuate",
           "normalized": "ShowS-\u003e[ShowS]-\u003e[ShowS]",
@@ -5368,6 +5840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "putShowS",
           "package": "precis",
@@ -5377,6 +5850,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "putShowS",
           "normalized": "ShowS-\u003eIO()",
@@ -5392,6 +5866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "putShowSLine",
           "package": "precis",
@@ -5401,6 +5876,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "putShowSLine",
           "normalized": "ShowS-\u003eIO()",
@@ -5416,6 +5892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "rangle",
           "package": "precis",
@@ -5425,6 +5902,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "rangle",
           "package": "precis",
@@ -5437,6 +5915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "rbrace",
           "package": "precis",
@@ -5446,6 +5925,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "rbrace",
           "package": "precis",
@@ -5458,6 +5938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "rbracket",
           "package": "precis",
@@ -5467,6 +5948,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "rbracket",
           "package": "precis",
@@ -5479,6 +5961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "repeatChar",
           "package": "precis",
@@ -5488,6 +5971,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "repeatChar",
           "normalized": "Int-\u003eChar-\u003eShowS",
@@ -5503,6 +5987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "rparen",
           "package": "precis",
@@ -5512,6 +5997,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "rparen",
           "package": "precis",
@@ -5524,6 +6010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "semi",
           "package": "precis",
@@ -5533,6 +6020,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "semi",
           "package": "precis",
@@ -5545,6 +6033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "semiBrace",
           "package": "precis",
@@ -5554,6 +6043,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "semiBrace",
           "normalized": "[ShowS]-\u003eShowS",
@@ -5569,6 +6059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "sep",
           "package": "precis",
@@ -5578,6 +6069,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "sep",
           "normalized": "ShowS-\u003eShowS-\u003eShowS",
@@ -5592,6 +6084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "sglquote",
           "package": "precis",
@@ -5601,6 +6094,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "sglquote",
           "package": "precis",
@@ -5613,6 +6107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "space",
           "package": "precis",
@@ -5622,6 +6117,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "space",
           "package": "precis",
@@ -5634,6 +6130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "squotes",
           "package": "precis",
@@ -5643,6 +6140,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "squotes",
           "normalized": "ShowS-\u003eShowS",
@@ -5657,6 +6155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "text",
           "package": "precis",
@@ -5666,6 +6165,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "text",
           "normalized": "String-\u003eShowS",
@@ -5680,6 +6180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "toString",
           "package": "precis",
@@ -5689,6 +6190,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "toString",
           "normalized": "ShowS-\u003eString",
@@ -5704,6 +6206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "tupled",
           "package": "precis",
@@ -5713,6 +6216,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "tupled",
           "normalized": "[ShowS]-\u003eShowS",
@@ -5727,6 +6231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.Utils.PPShowS",
           "name": "vsep",
           "package": "precis",
@@ -5736,6 +6241,7 @@
         },
         "index": {
           "hierarchy": "Precis Utils PPShowS",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.Utils.PPShowS",
           "name": "vsep",
           "normalized": "[ShowS]-\u003eShowS",
@@ -5750,6 +6256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.VersionNumber",
           "name": "VersionNumber",
           "package": "precis",
@@ -5758,6 +6265,7 @@
         },
         "index": {
           "hierarchy": "Precis VersionNumber",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.VersionNumber",
           "name": "VersionNumber",
           "package": "precis",
@@ -5772,6 +6280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:56 UTC 2014",
           "module": "Precis.VersionNumber",
           "name": "precis_version_number",
           "package": "precis",
@@ -5782,6 +6291,7 @@
         "index": {
           "description": "Version number",
           "hierarchy": "Precis VersionNumber",
+          "indexed": "2014-03-11T19:42:56",
           "module": "Precis.VersionNumber",
           "name": "precis_version_number",
           "package": "precis",

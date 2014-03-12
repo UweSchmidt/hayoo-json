@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hstats"
+        "phrase": "hstats",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "Statistics",
           "package": "hstats",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "Statistics",
           "package": "hstats",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003emean\u003c/a\u003e\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "average",
           "package": "hstats",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Same as mean",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "average",
           "normalized": "[a]-\u003ea",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAverage deviation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "avgdev",
           "package": "hstats",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Average deviation",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "avgdev",
           "normalized": "[a]-\u003ea",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCentral moments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "centralMoment",
           "package": "hstats",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Central moments",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "centralMoment",
           "normalized": "[a]-\u003eb-\u003ea",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003epearson\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "correl",
           "package": "hstats",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Same as pearson",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "correl",
           "normalized": "[a]-\u003e[a]-\u003ea",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCovariance matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "covMatrix",
           "package": "hstats",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Covariance matrix",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "covMatrix",
           "normalized": "[[a]]-\u003e[[a]]",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample Covariance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "covar",
           "package": "hstats",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Sample Covariance",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "covar",
           "normalized": "[a]-\u003e[a]-\u003ea",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the sum of square deviations from their sample mean.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "devsq",
           "package": "hstats",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Returns the sum of square deviations from their sample mean",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "devsq",
           "normalized": "[a]-\u003ea",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeometric mean\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "geomean",
           "package": "hstats",
@@ -227,6 +244,7 @@
         "index": {
           "description": "Geometric mean",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "geomean",
           "normalized": "[a]-\u003ea",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHarmonic mean\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "harmean",
           "package": "hstats",
@@ -252,6 +271,7 @@
         "index": {
           "description": "Harmonic mean",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "harmean",
           "normalized": "[a]-\u003ea",
@@ -267,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeast-squares linear regression of \u003cem\u003ey\u003c/em\u003e against \u003cem\u003ex\u003c/em\u003e for a\n |collection of (\u003cem\u003ex\u003c/em\u003e, \u003cem\u003ey\u003c/em\u003e) data, in the form of (\u003cem\u003eb0\u003c/em\u003e, \u003cem\u003eb1\u003c/em\u003e, \u003cem\u003er\u003c/em\u003e)\n |where the regression is \u003cem\u003ey\u003c/em\u003e = \u003cem\u003eb0\u003c/em\u003e + \u003cem\u003eb1\u003c/em\u003e * \u003cem\u003ex\u003c/em\u003e with Pearson\n |coefficient \u003cem\u003er\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "linreg",
           "package": "hstats",
@@ -277,6 +298,7 @@
         "index": {
           "description": "Least-squares linear regression of against for collection of data in the form of b0 b1 where the regression is b0 b1 with Pearson coefficient",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "linreg",
           "normalized": "[(a,a)]-\u003e(a,a,a)",
@@ -292,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumerically stable mean\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "mean",
           "package": "hstats",
@@ -302,6 +325,7 @@
         "index": {
           "description": "Numerically stable mean",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "mean",
           "normalized": "[a]-\u003ea",
@@ -317,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMedian\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "median",
           "package": "hstats",
@@ -327,6 +352,7 @@
         "index": {
           "description": "Median",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "median",
           "normalized": "[a]-\u003ea",
@@ -342,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMode returns the mode of the list, otherwise Nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "mode",
           "package": "hstats",
@@ -352,6 +379,7 @@
         "index": {
           "description": "Mode returns the mode of the list otherwise Nothing",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "mode",
           "normalized": "[a]-\u003eMaybe a",
@@ -367,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModes returns a sorted list of modes in descending order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "modes",
           "package": "hstats",
@@ -377,6 +406,7 @@
         "index": {
           "description": "Modes returns sorted list of modes in descending order",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "modes",
           "normalized": "[a]-\u003e[(Int,a)]",
@@ -392,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePearson's product-moment correlation coefficient\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "pearson",
           "package": "hstats",
@@ -402,6 +433,7 @@
         "index": {
           "description": "Pearson product-moment correlation coefficient",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "pearson",
           "normalized": "[a]-\u003e[a]-\u003ea",
@@ -417,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates pearson skew\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "pearsonSkew1",
           "package": "hstats",
@@ -427,6 +460,7 @@
         "index": {
           "description": "Calculates pearson skew",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "pearsonSkew1",
           "normalized": "[a]-\u003ea",
@@ -442,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "pearsonSkew2",
           "package": "hstats",
@@ -451,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "pearsonSkew2",
           "normalized": "[a]-\u003ea",
@@ -467,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePopulation variance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "pvar",
           "package": "hstats",
@@ -477,6 +514,7 @@
         "index": {
           "description": "Population variance",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "pvar",
           "normalized": "[a]-\u003ea",
@@ -492,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample variance\n\u003c/p\u003e\u003cp\u003eInterquartile range\n\u003c/p\u003e\u003cp\u003eArbitrary quantile q of an unsorted list.  The quantile \u003cem\u003eq\u003c/em\u003e of \u003cem\u003eN\u003c/em\u003e\n |data points is the point whose (zero-based) index in the sorted\n |data set is closest to \u003cem\u003eq(N-1)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "quantile",
           "package": "hstats",
@@ -502,6 +541,7 @@
         "index": {
           "description": "Sample variance Interquartile range Arbitrary quantile of an unsorted list The quantile of data points is the point whose zero-based index in the sorted data set is closest to N-1",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "quantile",
           "normalized": "Double-\u003e[a]-\u003ea",
@@ -517,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003equantile\u003c/a\u003e\u003c/code\u003e specialized for sorted data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "quantileAsc",
           "package": "hstats",
@@ -527,6 +568,7 @@
         "index": {
           "description": "As quantile specialized for sorted data",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "quantileAsc",
           "normalized": "Double-\u003e[a]-\u003ea",
@@ -543,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRange\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "range",
           "package": "hstats",
@@ -553,6 +596,7 @@
         "index": {
           "description": "Range",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "range",
           "normalized": "[a]-\u003ea",
@@ -568,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate skew\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "skew",
           "package": "hstats",
@@ -578,6 +623,7 @@
         "index": {
           "description": "Calculate skew",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "skew",
           "normalized": "[a]-\u003ea",
@@ -593,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard deviation of sample\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "stddev",
           "package": "hstats",
@@ -603,6 +650,7 @@
         "index": {
           "description": "Standard deviation of sample",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "stddev",
           "normalized": "[a]-\u003ea",
@@ -618,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard deviation of population\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:56 UTC 2014",
           "module": "Math.Statistics",
           "name": "stddevp",
           "package": "hstats",
@@ -628,6 +677,7 @@
         "index": {
           "description": "Standard deviation of population",
           "hierarchy": "Math Statistics",
+          "indexed": "2014-03-11T18:50:56",
           "module": "Math.Statistics",
           "name": "stddevp",
           "normalized": "[a]-\u003ea",

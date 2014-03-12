@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Plural"
+        "phrase": "Plural",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:07 UTC 2014",
           "module": "Language.English.Plural",
           "name": "Plural",
           "package": "Plural",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language English Plural",
+          "indexed": "2014-03-11T16:57:07",
           "module": "Language.English.Plural",
           "name": "Plural",
           "package": "Plural",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet plural format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:07 UTC 2014",
           "module": "Language.English.Plural",
           "name": "plural",
           "package": "Plural",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Get plural format",
           "hierarchy": "Language English Plural",
+          "indexed": "2014-03-11T16:57:07",
           "module": "Language.English.Plural",
           "name": "plural",
           "normalized": "String-\u003eString",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe knowledge for plural process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:07 UTC 2014",
           "module": "Language.English.Plural",
           "name": "pluralKnowledge",
           "package": "Plural",
@@ -75,6 +80,7 @@
         "index": {
           "description": "The knowledge for plural process",
           "hierarchy": "Language English Plural",
+          "indexed": "2014-03-11T16:57:07",
           "module": "Language.English.Plural",
           "name": "pluralKnowledge",
           "package": "Plural",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry get plural format of word with number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:07 UTC 2014",
           "module": "Language.English.Plural",
           "name": "tryPlural",
           "package": "Plural",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Try get plural format of word with number",
           "hierarchy": "Language English Plural",
+          "indexed": "2014-03-11T16:57:07",
           "module": "Language.English.Plural",
           "name": "tryPlural",
           "normalized": "Int-\u003eString-\u003eString",

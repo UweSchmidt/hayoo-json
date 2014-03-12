@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "blank-canvas"
+        "phrase": "blank-canvas",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "Blank",
           "package": "blank-canvas",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "Blank",
           "package": "blank-canvas",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "Canvas",
           "package": "blank-canvas",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "Canvas",
           "package": "blank-canvas",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e is our abstact handle into a specific 2d-context inside a browser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "Context",
           "package": "blank-canvas",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Context is our abstact handle into specific d-context inside browser",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "Context",
           "package": "blank-canvas",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic Event from Browser, the code is event-type specific.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "Event",
           "package": "blank-canvas",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Basic Event from Browser the code is event-type specific",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "Event",
           "package": "blank-canvas",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eEventName\u003c/a\u003e\u003c/code\u003e mirrors event names from jquery, where 'map toLower (show name)' gives\n the jquery event name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "EventName",
           "package": "blank-canvas",
@@ -116,6 +125,7 @@
         "index": {
           "description": "EventName mirrors event names from jquery where map toLower show name gives the jquery event name",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "EventName",
           "package": "blank-canvas",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEventQueue is a STM channel (\u003ccode\u003e\u003ca\u003eTChan\u003c/a\u003e\u003c/code\u003e) of \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003es.\n Intentionally, \u003ccode\u003e\u003ca\u003eEventQueue\u003c/a\u003e\u003c/code\u003e is not abstract.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "EventQueue",
           "package": "blank-canvas",
@@ -139,6 +150,7 @@
         "index": {
           "description": "EventQueue is STM channel TChan of Event Intentionally EventQueue is not abstract",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "EventQueue",
           "package": "blank-canvas",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen an event is sent to the application, it always has a name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "NamedEvent",
           "package": "blank-canvas",
@@ -162,6 +175,7 @@
         "index": {
           "description": "When an event is sent to the application it always has name",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "NamedEvent",
           "package": "blank-canvas",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "Event",
           "package": "blank-canvas",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "Event",
           "package": "blank-canvas",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "KeyDown",
           "package": "blank-canvas",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "KeyDown",
           "package": "blank-canvas",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "KeyPress",
           "package": "blank-canvas",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "KeyPress",
           "package": "blank-canvas",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "KeyUp",
           "package": "blank-canvas",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "KeyUp",
           "package": "blank-canvas",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "MouseDown",
           "package": "blank-canvas",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "MouseDown",
           "package": "blank-canvas",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "MouseEnter",
           "package": "blank-canvas",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "MouseEnter",
           "package": "blank-canvas",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "MouseMove",
           "package": "blank-canvas",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "MouseMove",
           "package": "blank-canvas",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "MouseOut",
           "package": "blank-canvas",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "MouseOut",
           "package": "blank-canvas",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "MouseOver",
           "package": "blank-canvas",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "MouseOver",
           "package": "blank-canvas",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "MouseUp",
           "package": "blank-canvas",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "MouseUp",
           "package": "blank-canvas",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "NamedEvent",
           "package": "blank-canvas",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "NamedEvent",
           "package": "blank-canvas",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "arc",
           "package": "blank-canvas",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "arc",
           "normalized": "(Float,Float,Float,Float,Float,Bool)-\u003eCanvas()",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "beginPath",
           "package": "blank-canvas",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "beginPath",
           "normalized": "()-\u003eCanvas()",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "bezierCurveTo",
           "package": "blank-canvas",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "bezierCurveTo",
           "normalized": "(Float,Float,Float,Float,Float,Float)-\u003eCanvas()",
@@ -489,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblankCanvas is the main entry point into blank-canvas.\n A typical invocation would be\n\u003c/p\u003e\u003cpre\u003emodule Main where\n\nimport Graphics.Blank\n\nmain = blankCanvas 3000 $ \\ context -\u003e do\n        send context $ do\n                moveTo(50,50)\n                lineTo(200,100)\n                lineWidth 10\n                strokeStyle \"red\"\n                stroke()\n\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "blankCanvas",
           "package": "blank-canvas",
@@ -499,6 +542,7 @@
         "index": {
           "description": "blankCanvas is the main entry point into blank-canvas typical invocation would be module Main where import Graphics.Blank main blankCanvas context do send context do moveTo lineTo lineWidth strokeStyle red stroke",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "blankCanvas",
           "normalized": "Int-\u003e(Context-\u003eIO())-\u003eIO()",
@@ -514,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "clearRect",
           "package": "blank-canvas",
@@ -523,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "clearRect",
           "normalized": "(Float,Float,Float,Float)-\u003eCanvas()",
@@ -538,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "closePath",
           "package": "blank-canvas",
@@ -547,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "closePath",
           "normalized": "()-\u003eCanvas()",
@@ -562,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "events",
           "package": "blank-canvas",
@@ -571,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "events",
           "normalized": "Context-\u003eIO EventQueue",
@@ -585,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "fill",
           "package": "blank-canvas",
@@ -594,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "fill",
           "normalized": "()-\u003eCanvas()",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "fillRect",
           "package": "blank-canvas",
@@ -617,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "fillRect",
           "normalized": "(Float,Float,Float,Float)-\u003eCanvas()",
@@ -632,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "fillStyle",
           "package": "blank-canvas",
@@ -641,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "fillStyle",
           "normalized": "String-\u003eCanvas()",
@@ -656,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "fillText",
           "package": "blank-canvas",
@@ -665,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "fillText",
           "normalized": "(String,Float,Float)-\u003eCanvas()",
@@ -680,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "font",
           "package": "blank-canvas",
@@ -689,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "font",
           "normalized": "String-\u003eCanvas()",
@@ -703,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "globalAlpha",
           "package": "blank-canvas",
@@ -712,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "globalAlpha",
           "normalized": "Float-\u003eCanvas()",
@@ -727,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "jsCode",
           "package": "blank-canvas",
@@ -736,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "jsCode",
           "package": "blank-canvas",
@@ -749,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "jsMouse",
           "package": "blank-canvas",
@@ -758,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "jsMouse",
           "normalized": "Maybe(Int,Int)",
@@ -773,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "lineCap",
           "package": "blank-canvas",
@@ -782,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "lineCap",
           "normalized": "String-\u003eCanvas()",
@@ -797,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "lineJoin",
           "package": "blank-canvas",
@@ -806,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "lineJoin",
           "normalized": "String-\u003eCanvas()",
@@ -821,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "lineTo",
           "package": "blank-canvas",
@@ -830,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "lineTo",
           "normalized": "(Float,Float)-\u003eCanvas()",
@@ -845,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "lineWidth",
           "package": "blank-canvas",
@@ -854,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "lineWidth",
           "normalized": "Float-\u003eCanvas()",
@@ -869,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "miterLimit",
           "package": "blank-canvas",
@@ -878,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "miterLimit",
           "normalized": "Float-\u003eCanvas()",
@@ -893,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "moveTo",
           "package": "blank-canvas",
@@ -902,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "moveTo",
           "normalized": "(Float,Float)-\u003eCanvas()",
@@ -918,6 +996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread a specific event; wait for it if the event is not in queue.\n **Thows away all other events while waiting.**\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "readEvent",
           "package": "blank-canvas",
@@ -928,6 +1007,7 @@
         "index": {
           "description": "read specific event wait for it if the event is not in queue Thows away all other events while waiting",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "readEvent",
           "normalized": "EventName-\u003eCanvas Event",
@@ -943,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "readEventQueue",
           "package": "blank-canvas",
@@ -952,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "readEventQueue",
           "normalized": "EventQueue-\u003eIO NamedEvent",
@@ -968,6 +1050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread a specific set of events; wait for it if the event/events is not in queue.\n **Throws away all other non-named events while waiting.**\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "readEvents",
           "package": "blank-canvas",
@@ -978,6 +1061,7 @@
         "index": {
           "description": "read specific set of events wait for it if the event events is not in queue Throws away all other non-named events while waiting",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "readEvents",
           "normalized": "[EventName]-\u003eCanvas NamedEvent",
@@ -993,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "restore",
           "package": "blank-canvas",
@@ -1002,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "restore",
           "normalized": "()-\u003eCanvas()",
@@ -1016,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "rotate",
           "package": "blank-canvas",
@@ -1025,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "rotate",
           "normalized": "Float-\u003eCanvas()",
@@ -1039,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "save",
           "package": "blank-canvas",
@@ -1048,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "save",
           "normalized": "()-\u003eCanvas()",
@@ -1062,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "scale",
           "package": "blank-canvas",
@@ -1071,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "scale",
           "normalized": "(Float,Float)-\u003eCanvas()",
@@ -1086,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a set of Canvas commands to the canvas. Attempts\n to common up as many commands as possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "send",
           "package": "blank-canvas",
@@ -1096,6 +1189,7 @@
         "index": {
           "description": "Sends set of Canvas commands to the canvas Attempts to common up as many commands as possible",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "send",
           "normalized": "Context-\u003eCanvas a-\u003eIO a",
@@ -1111,6 +1205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esize of the canvas\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "size",
           "package": "blank-canvas",
@@ -1121,6 +1216,7 @@
         "index": {
           "description": "size of the canvas",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "size",
           "normalized": "Canvas(Float,Float)",
@@ -1135,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "stroke",
           "package": "blank-canvas",
@@ -1144,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "stroke",
           "normalized": "()-\u003eCanvas()",
@@ -1158,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "strokeRect",
           "package": "blank-canvas",
@@ -1167,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "strokeRect",
           "normalized": "(Float,Float,Float,Float)-\u003eCanvas()",
@@ -1182,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "strokeStyle",
           "package": "blank-canvas",
@@ -1191,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "strokeStyle",
           "normalized": "String-\u003eCanvas()",
@@ -1206,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "strokeText",
           "package": "blank-canvas",
@@ -1215,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "strokeText",
           "normalized": "(String,Float,Float)-\u003eCanvas()",
@@ -1230,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "textAlign",
           "package": "blank-canvas",
@@ -1239,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "textAlign",
           "normalized": "String-\u003eCanvas()",
@@ -1254,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "textBaseline",
           "package": "blank-canvas",
@@ -1263,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "textBaseline",
           "normalized": "String-\u003eCanvas()",
@@ -1278,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "transform",
           "package": "blank-canvas",
@@ -1287,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "transform",
           "normalized": "(Float,Float,Float,Float,Float,Float)-\u003eCanvas()",
@@ -1301,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "translate",
           "package": "blank-canvas",
@@ -1310,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "translate",
           "normalized": "(Float,Float)-\u003eCanvas()",
@@ -1325,6 +1437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread a specific event. **Throws away all events not named**\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "tryReadEvent",
           "package": "blank-canvas",
@@ -1335,6 +1448,7 @@
         "index": {
           "description": "read specific event Throws away all events not named",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "tryReadEvent",
           "normalized": "EventName-\u003eCanvas(Maybe Event)",
@@ -1350,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "tryReadEventQueue",
           "package": "blank-canvas",
@@ -1359,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "tryReadEventQueue",
           "normalized": "EventQueue-\u003eIO(Maybe NamedEvent)",
@@ -1375,6 +1491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread a specific set of events. **Throws away all non-named events while waiting.**\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:33 UTC 2014",
           "module": "Graphics.Blank",
           "name": "tryReadEvents",
           "package": "blank-canvas",
@@ -1385,6 +1502,7 @@
         "index": {
           "description": "read specific set of events Throws away all non-named events while waiting",
           "hierarchy": "Graphics Blank",
+          "indexed": "2014-03-11T17:23:33",
           "module": "Graphics.Blank",
           "name": "tryReadEvents",
           "normalized": "[EventName]-\u003eCanvas(Maybe NamedEvent)",

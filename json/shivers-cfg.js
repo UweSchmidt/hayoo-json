@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shivers-cfg"
+        "phrase": "shivers-cfg",
+        "type": "phrase"
       },
       "type": "context"
     }

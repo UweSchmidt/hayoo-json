@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uniqueid"
+        "phrase": "uniqueid",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides splittable supplies for unique identifiers.\n   The main idea gows back to L. Augustsson, M. Rittri, and D. Synek\n   and is described in their paper 'On generating unique names'\n   (Journal of Functional Programming 4(1), 1994. pp. 117-123). The\n   implementation at hand is taken from the GHC sources and includes\n   bit fiddling to allow multiple supplies that generate unique\n   identifiers by prepending a character given at initialization.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:15 UTC 2014",
           "module": "Data.Unique.Id",
           "name": "Id",
           "package": "uniqueid",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides splittable supplies for unique identifiers The main idea gows back to Augustsson Rittri and Synek and is described in their paper On generating unique names Journal of Functional Programming pp The implementation at hand is taken from the GHC sources and includes bit fiddling to allow multiple supplies that generate unique identifiers by prepending character given at initialization",
           "hierarchy": "Data Unique Id",
+          "indexed": "2014-03-11T20:30:15",
           "module": "Data.Unique.Id",
           "name": "Id",
           "package": "uniqueid",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique identifiers are of type \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e and can be hashed to an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e\n   usning the function \u003ccode\u003e\u003ca\u003ehashedId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:15 UTC 2014",
           "module": "Data.Unique.Id",
           "name": "Id",
           "package": "uniqueid",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Unique identifiers are of type Id and can be hashed to an Int usning the function hashedId",
           "hierarchy": "Data Unique Id",
+          "indexed": "2014-03-11T20:30:15",
           "module": "Data.Unique.Id",
           "name": "Id",
           "package": "uniqueid",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupplies for unique identifiers are of type \u003ccode\u003e\u003ca\u003eIdSupply\u003c/a\u003e\u003c/code\u003e and can be\n   split into two new supplies or yield a unique identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:15 UTC 2014",
           "module": "Data.Unique.Id",
           "name": "IdSupply",
           "package": "uniqueid",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Supplies for unique identifiers are of type IdSupply and can be split into two new supplies or yield unique identifier",
           "hierarchy": "Data Unique Id",
+          "indexed": "2014-03-11T20:30:15",
           "module": "Data.Unique.Id",
           "name": "IdSupply",
           "package": "uniqueid",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:15 UTC 2014",
           "module": "Data.Unique.Id",
           "name": "hashedId",
           "package": "uniqueid",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data Unique Id",
+          "indexed": "2014-03-11T20:30:15",
           "module": "Data.Unique.Id",
           "name": "hashedId",
           "normalized": "Id-\u003eInt",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields the unique identifier from a supply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:15 UTC 2014",
           "module": "Data.Unique.Id",
           "name": "idFromSupply",
           "package": "uniqueid",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Yields the unique identifier from supply",
           "hierarchy": "Data Unique Id",
+          "indexed": "2014-03-11T20:30:15",
           "module": "Data.Unique.Id",
           "name": "idFromSupply",
           "normalized": "IdSupply-\u003eId",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a new supply of unique identifiers. The given character\n   is prepended to generated numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:15 UTC 2014",
           "module": "Data.Unique.Id",
           "name": "initIdSupply",
           "package": "uniqueid",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Generates new supply of unique identifiers The given character is prepended to generated numbers",
           "hierarchy": "Data Unique Id",
+          "indexed": "2014-03-11T20:30:15",
           "module": "Data.Unique.Id",
           "name": "initIdSupply",
           "normalized": "Char-\u003eIO IdSupply",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits a supply of unique identifiers to yield two of them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:15 UTC 2014",
           "module": "Data.Unique.Id",
           "name": "splitIdSupply",
           "package": "uniqueid",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Splits supply of unique identifiers to yield two of them",
           "hierarchy": "Data Unique Id",
+          "indexed": "2014-03-11T20:30:15",
           "module": "Data.Unique.Id",
           "name": "splitIdSupply",
           "normalized": "IdSupply-\u003e(IdSupply,IdSupply)",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits a supply of unique identifiers to yield an infinite list of them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:15 UTC 2014",
           "module": "Data.Unique.Id",
           "name": "splitIdSupplyL",
           "package": "uniqueid",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Splits supply of unique identifiers to yield an infinite list of them",
           "hierarchy": "Data Unique Id",
+          "indexed": "2014-03-11T20:30:15",
           "module": "Data.Unique.Id",
           "name": "splitIdSupplyL",
           "normalized": "IdSupply-\u003e[IdSupply]",

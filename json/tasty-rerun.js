@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tasty-rerun"
+        "phrase": "tasty-rerun",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:40 UTC 2014",
           "module": "Test.Tasty.Ingredients.Rerun",
           "name": "Rerun",
           "package": "tasty-rerun",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test Tasty Ingredients Rerun",
+          "indexed": "2014-03-11T20:17:40",
           "module": "Test.Tasty.Ingredients.Rerun",
           "name": "Rerun",
           "package": "tasty-rerun",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis \u003ccode\u003e\u003ca\u003eIngredient\u003c/a\u003e\u003c/code\u003e transformer adds various \u003ccode\u003e--rerun\u003c/code\u003e options to your\n test program. These flags add stateful execution of your test suite, allowing\n you to rerun only tests that are failing from the previous run, or tests that\n that have been added since the last test ran, once the \u003ccode\u003e\u003ca\u003eTestTree\u003c/a\u003e\u003c/code\u003e has\n been filtered.\n\u003c/p\u003e\u003cp\u003eThe input list of \u003ccode\u003e\u003ca\u003eIngredient\u003c/a\u003e\u003c/code\u003es specifies the \u003ccode\u003e\u003ca\u003eIngredients\u003c/a\u003e\u003c/code\u003es that\n will actually work with the filtered \u003ccode\u003e\u003ca\u003eTestTree\u003c/a\u003e\u003c/code\u003e. Normally, you'll want\n at least \u003ccode\u003e\u003ca\u003econsoleTestReporter\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:40 UTC 2014",
           "module": "Test.Tasty.Ingredients.Rerun",
           "name": "rerunningTests",
           "package": "tasty-rerun",
@@ -50,6 +53,7 @@
         "index": {
           "description": "This Ingredient transformer adds various rerun options to your test program These flags add stateful execution of your test suite allowing you to rerun only tests that are failing from the previous run or tests that that have been added since the last test ran once the TestTree has been filtered The input list of Ingredient specifies the Ingredients that will actually work with the filtered TestTree Normally you ll want at least consoleTestReporter",
           "hierarchy": "Test Tasty Ingredients Rerun",
+          "indexed": "2014-03-11T20:17:40",
           "module": "Test.Tasty.Ingredients.Rerun",
           "name": "rerunningTests",
           "normalized": "[Ingredient]-\u003eIngredient",

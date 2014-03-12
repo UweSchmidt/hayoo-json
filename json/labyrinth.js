@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "labyrinth"
+        "phrase": "labyrinth",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "Action",
           "package": "labyrinth",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "Action",
           "package": "labyrinth",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "ActionState",
           "package": "labyrinth",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "ActionState",
           "package": "labyrinth",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "AmmoLocation",
           "package": "labyrinth",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "AmmoLocation",
           "package": "labyrinth",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "advancePlayer",
           "package": "labyrinth",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "advancePlayer",
           "package": "labyrinth",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "alivePlayers",
           "package": "labyrinth",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "alivePlayers",
           "normalized": "LabState a[PlayerId]",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "allPlayers",
           "package": "labyrinth",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "allPlayers",
           "normalized": "LabState a[PlayerId]",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "alwaysContinue",
           "package": "labyrinth",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "alwaysContinue",
           "normalized": "[Action]-\u003eActionState ActionResult-\u003eActionState()",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "cellActions",
           "package": "labyrinth",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "cellActions",
           "normalized": "Bool-\u003eActionState(CellTypeResult,CellEvents)",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "dropBullets",
           "package": "labyrinth",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "dropBullets",
           "normalized": "PlayerId-\u003eActionState()",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "dropGrenades",
           "package": "labyrinth",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "dropGrenades",
           "normalized": "PlayerId-\u003eActionState()",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "dropTreasure",
           "package": "labyrinth",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "dropTreasure",
           "normalized": "PlayerId-\u003eActionState()",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "isFallen",
           "package": "labyrinth",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "isFallen",
           "normalized": "PlayerId-\u003eLabState a Bool",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "isMovement",
           "package": "labyrinth",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "isMovement",
           "normalized": "Action-\u003eBool",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "matchResult",
           "package": "labyrinth",
@@ -328,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "matchResult",
           "normalized": "String-\u003eActionState Bool",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "nextPit",
           "package": "labyrinth",
@@ -352,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "nextPit",
           "normalized": "Int-\u003eLabState a Int",
@@ -367,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "notFallen",
           "package": "labyrinth",
@@ -376,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "notFallen",
           "normalized": "PlayerId-\u003eLabState a Bool",
@@ -391,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "onlyWhenChosen",
           "package": "labyrinth",
@@ -400,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "onlyWhenChosen",
           "normalized": "ActionState()-\u003eActionState()",
@@ -415,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "onlyWhenCurrent",
           "package": "labyrinth",
@@ -424,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "onlyWhenCurrent",
           "normalized": "PlayerId-\u003eActionState()-\u003eActionState()",
@@ -439,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "performActions",
           "package": "labyrinth",
@@ -448,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "performActions",
           "normalized": "[Action]-\u003eActionState()",
@@ -463,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "performConditional",
           "package": "labyrinth",
@@ -472,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "performConditional",
           "normalized": "Action-\u003e[Action]-\u003eActionState()",
@@ -487,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "performGrenade",
           "package": "labyrinth",
@@ -496,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "performGrenade",
           "normalized": "Direction-\u003eActionState ActionResult",
@@ -536,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "performMove'",
           "package": "labyrinth",
@@ -545,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "performMove'",
           "normalized": "PlayerId-\u003eMove-\u003eActionState()",
@@ -560,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "performMovement",
           "package": "labyrinth",
@@ -569,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "performMovement",
           "normalized": "MoveDirection-\u003e[Action]-\u003eActionState()",
@@ -584,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "performQueries",
           "package": "labyrinth",
@@ -593,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "performQueries",
           "normalized": "PlayerId-\u003e[QueryType]-\u003eActionState()",
@@ -608,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "performQuery",
           "package": "labyrinth",
@@ -617,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "performQuery",
           "normalized": "PlayerId-\u003eQueryType-\u003eActionState()",
@@ -632,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "performShoot",
           "package": "labyrinth",
@@ -641,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "performShoot",
           "normalized": "Direction-\u003eActionState ActionResult",
@@ -656,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "performShootFrom",
           "package": "labyrinth",
@@ -665,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "performShootFrom",
           "normalized": "Position-\u003eDirection-\u003eActionState ShootResult",
@@ -680,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "performSurrender",
           "package": "labyrinth",
@@ -689,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "performSurrender",
           "normalized": "ActionState()",
@@ -704,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "pickBullets",
           "package": "labyrinth",
@@ -713,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "pickBullets",
           "package": "labyrinth",
@@ -726,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "pickGrenades",
           "package": "labyrinth",
@@ -735,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "pickGrenades",
           "package": "labyrinth",
@@ -748,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "pickInside",
           "package": "labyrinth",
@@ -757,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "pickInside",
           "normalized": "ActionState Int-\u003eActionState Int",
@@ -772,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "pickTreasures",
           "package": "labyrinth",
@@ -781,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "pickTreasures",
           "package": "labyrinth",
@@ -794,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "playerAlive",
           "package": "labyrinth",
@@ -803,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "playerAlive",
           "normalized": "PlayerId-\u003eLabState a Bool",
@@ -818,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "playerAt",
           "package": "labyrinth",
@@ -827,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "playerAt",
           "normalized": "Position-\u003ePlayerId-\u003eLabState a Bool",
@@ -842,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "playersAliveAt",
           "package": "labyrinth",
@@ -851,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "playersAliveAt",
           "normalized": "Position-\u003eLabState a[PlayerId]",
@@ -866,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "putResult",
           "package": "labyrinth",
@@ -875,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "putResult",
           "normalized": "ActionResult-\u003eActionState()",
@@ -890,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "returnContinue",
           "package": "labyrinth",
@@ -899,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "returnContinue",
           "normalized": "[Action]-\u003eActionResult-\u003eActionState()",
@@ -914,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "transferAmmo",
           "package": "labyrinth",
@@ -923,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "transferAmmo",
           "normalized": "Maybe Int-\u003eAmmoLocation-\u003eAmmoLocation-\u003eActionState Int",
@@ -938,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Action",
           "name": "transferAmmo_",
           "package": "labyrinth",
@@ -947,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Action",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Action",
           "name": "transferAmmo_",
           "normalized": "Maybe Int-\u003eAmmoLocation-\u003eAmmoLocation-\u003eActionState()",
@@ -962,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Common",
           "name": "Common",
           "package": "labyrinth",
@@ -970,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Common",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Common",
           "name": "Common",
           "package": "labyrinth",
@@ -983,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Common",
           "name": "LabState",
           "package": "labyrinth",
@@ -991,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Common",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Common",
           "name": "LabState",
           "package": "labyrinth",
@@ -1004,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "Generate",
           "package": "labyrinth",
@@ -1012,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "Generate",
           "package": "labyrinth",
@@ -1025,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "CellPredicate",
           "package": "labyrinth",
@@ -1033,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "CellPredicate",
           "package": "labyrinth",
@@ -1046,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "CellPredicateR",
           "package": "labyrinth",
@@ -1054,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "CellPredicateR",
           "package": "labyrinth",
@@ -1067,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "LabGen",
           "package": "labyrinth",
@@ -1075,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "LabGen",
           "package": "labyrinth",
@@ -1088,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "allNeighbors",
           "package": "labyrinth",
@@ -1097,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "allNeighbors",
           "normalized": "CellPredicate a-\u003eCellPredicate a",
@@ -1112,6 +1204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "allOf",
           "package": "labyrinth",
@@ -1121,6 +1214,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "allOf",
           "normalized": "[a-\u003eb Bool]-\u003ea-\u003eb Bool",
@@ -1136,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "area",
           "package": "labyrinth",
@@ -1145,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "area",
           "normalized": "Labyrinth-\u003eInt",
@@ -1159,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "cellIf",
           "package": "labyrinth",
@@ -1168,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "cellIf",
           "normalized": "CellPredicateR a-\u003eLabGen a Position",
@@ -1183,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "chooseRandomR",
           "package": "labyrinth",
@@ -1192,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "chooseRandomR",
           "normalized": "[a]-\u003eLabGen b a",
@@ -1207,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "foldTimes",
           "package": "labyrinth",
@@ -1216,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "foldTimes",
           "normalized": "a-\u003eInt-\u003e(a-\u003eb a)-\u003eb a",
@@ -1231,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "foldTimes_",
           "package": "labyrinth",
@@ -1240,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "foldTimes_",
           "normalized": "a-\u003eInt-\u003e(a-\u003eb a)-\u003eb()",
@@ -1255,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "generate",
           "package": "labyrinth",
@@ -1264,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "generate",
           "normalized": "LabyrinthFeatures-\u003eLabGen a()",
@@ -1303,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "goodDistribution",
           "package": "labyrinth",
@@ -1312,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "goodDistribution",
           "package": "labyrinth",
@@ -1325,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "goodReachability",
           "package": "labyrinth",
@@ -1334,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "goodReachability",
           "package": "labyrinth",
@@ -1347,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "hasLandAround",
           "package": "labyrinth",
@@ -1356,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "hasLandAround",
           "package": "labyrinth",
@@ -1369,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "hasWall",
           "package": "labyrinth",
@@ -1378,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "hasWall",
           "normalized": "Direction-\u003eCellPredicate a",
@@ -1393,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "isArmoryHospital",
           "package": "labyrinth",
@@ -1402,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "isArmoryHospital",
           "package": "labyrinth",
@@ -1415,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "isLand",
           "package": "labyrinth",
@@ -1424,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "isLand",
           "package": "labyrinth",
@@ -1437,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "isType",
           "package": "labyrinth",
@@ -1446,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "isType",
           "normalized": "CellType-\u003eCellPredicate a",
@@ -1461,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "isTypeF",
           "package": "labyrinth",
@@ -1470,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "isTypeF",
           "normalized": "(CellType-\u003eBool)-\u003eCellPredicate a",
@@ -1485,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "landCellThere",
           "package": "labyrinth",
@@ -1494,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "landCellThere",
           "normalized": "Position-\u003eDirection-\u003eLabState a Bool",
@@ -1509,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "neighbors",
           "package": "labyrinth",
@@ -1518,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "neighbors",
           "normalized": "Position-\u003eLabState a[Position]",
@@ -1532,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "noTreasures",
           "package": "labyrinth",
@@ -1541,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "noTreasures",
           "package": "labyrinth",
@@ -1554,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "perimeter",
           "package": "labyrinth",
@@ -1563,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "perimeter",
           "normalized": "Labyrinth-\u003eInt",
@@ -1577,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "putAH",
           "package": "labyrinth",
@@ -1586,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "putAH",
           "normalized": "CellType-\u003eLabGen a Position",
@@ -1601,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "putArmories",
           "package": "labyrinth",
@@ -1610,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "putArmories",
           "normalized": "LabGen a()",
@@ -1625,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "putCell",
           "package": "labyrinth",
@@ -1634,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "putCell",
           "normalized": "CellType-\u003eLabGen a Position",
@@ -1649,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "putCellIf",
           "package": "labyrinth",
@@ -1658,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "putCellIf",
           "normalized": "CellPredicateR a-\u003eCellType-\u003eLabGen a Position",
@@ -1673,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "putExit",
           "package": "labyrinth",
@@ -1682,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "putExit",
           "normalized": "Wall-\u003eLabGen a()",
@@ -1697,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "putExits",
           "package": "labyrinth",
@@ -1706,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "putExits",
           "normalized": "LabGen a()",
@@ -1721,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "putHospitals",
           "package": "labyrinth",
@@ -1730,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "putHospitals",
           "normalized": "LabGen a()",
@@ -1745,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "putPits",
           "package": "labyrinth",
@@ -1754,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "putPits",
           "normalized": "LabGen a()",
@@ -1769,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "putRivers",
           "package": "labyrinth",
@@ -1778,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "putRivers",
           "normalized": "LabGen a()",
@@ -1793,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "putTreasure",
           "package": "labyrinth",
@@ -1802,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "putTreasure",
           "normalized": "Treasure-\u003eLabGen a()",
@@ -1817,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "putTreasures",
           "package": "labyrinth",
@@ -1826,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "putTreasures",
           "normalized": "LabGen a()",
@@ -1841,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "putWalls",
           "package": "labyrinth",
@@ -1850,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "putWalls",
           "normalized": "LabGen a()",
@@ -1865,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "randomDirection",
           "package": "labyrinth",
@@ -1874,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "randomDirection",
           "package": "labyrinth",
@@ -1887,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "untilR",
           "package": "labyrinth",
@@ -1896,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "untilR",
           "normalized": "a Bool-\u003ea b-\u003ea()",
@@ -1910,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Generate",
           "name": "untilRN",
           "package": "labyrinth",
@@ -1919,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Generate",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Generate",
           "name": "untilRN",
           "normalized": "Int-\u003ea Bool-\u003ea b-\u003ea Bool",
@@ -1934,6 +2094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Map",
           "package": "labyrinth",
@@ -1942,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Map",
           "package": "labyrinth",
@@ -1955,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Cell",
           "package": "labyrinth",
@@ -1963,6 +2126,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Cell",
           "package": "labyrinth",
@@ -1976,6 +2140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "CellType",
           "package": "labyrinth",
@@ -1984,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "CellType",
           "package": "labyrinth",
@@ -1997,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Direction",
           "package": "labyrinth",
@@ -2005,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Direction",
           "package": "labyrinth",
@@ -2018,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Health",
           "package": "labyrinth",
@@ -2026,6 +2195,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Health",
           "package": "labyrinth",
@@ -2039,6 +2209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Labyrinth",
           "package": "labyrinth",
@@ -2047,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Labyrinth",
           "package": "labyrinth",
@@ -2060,6 +2232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "LabyrinthFeatures",
           "package": "labyrinth",
@@ -2068,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "LabyrinthFeatures",
           "package": "labyrinth",
@@ -2081,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "LabyrinthParams",
           "package": "labyrinth",
@@ -2089,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "LabyrinthParams",
           "package": "labyrinth",
@@ -2102,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Player",
           "package": "labyrinth",
@@ -2110,6 +2287,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Player",
           "package": "labyrinth",
@@ -2123,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "PlayerId",
           "package": "labyrinth",
@@ -2131,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "PlayerId",
           "package": "labyrinth",
@@ -2144,6 +2324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Position",
           "package": "labyrinth",
@@ -2152,6 +2333,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Position",
           "package": "labyrinth",
@@ -2165,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Treasure",
           "package": "labyrinth",
@@ -2173,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Treasure",
           "package": "labyrinth",
@@ -2186,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Wall",
           "package": "labyrinth",
@@ -2194,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Wall",
           "package": "labyrinth",
@@ -2207,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Armory",
           "package": "labyrinth",
@@ -2216,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Armory",
           "package": "labyrinth",
@@ -2229,6 +2417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Cell",
           "package": "labyrinth",
@@ -2238,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Cell",
           "package": "labyrinth",
@@ -2251,6 +2441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "D",
           "package": "labyrinth",
@@ -2260,6 +2451,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "D",
           "package": "labyrinth",
@@ -2272,6 +2464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Dead",
           "package": "labyrinth",
@@ -2281,6 +2474,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Dead",
           "package": "labyrinth",
@@ -2294,6 +2488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "FakeTreasure",
           "package": "labyrinth",
@@ -2303,6 +2498,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "FakeTreasure",
           "package": "labyrinth",
@@ -2316,6 +2512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "HardWall",
           "package": "labyrinth",
@@ -2325,6 +2522,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "HardWall",
           "package": "labyrinth",
@@ -2338,6 +2536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Healthy",
           "package": "labyrinth",
@@ -2347,6 +2546,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Healthy",
           "package": "labyrinth",
@@ -2360,6 +2560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Hospital",
           "package": "labyrinth",
@@ -2369,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Hospital",
           "package": "labyrinth",
@@ -2382,6 +2584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "L",
           "package": "labyrinth",
@@ -2391,6 +2594,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "L",
           "package": "labyrinth",
@@ -2403,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Labyrinth",
           "package": "labyrinth",
@@ -2412,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Labyrinth",
           "package": "labyrinth",
@@ -2425,6 +2631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "LabyrinthFeatures",
           "package": "labyrinth",
@@ -2434,6 +2641,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "LabyrinthFeatures",
           "package": "labyrinth",
@@ -2447,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "LabyrinthParams",
           "package": "labyrinth",
@@ -2456,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "LabyrinthParams",
           "package": "labyrinth",
@@ -2469,6 +2679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Land",
           "package": "labyrinth",
@@ -2478,6 +2689,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Land",
           "package": "labyrinth",
@@ -2491,6 +2703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "NoWall",
           "package": "labyrinth",
@@ -2500,6 +2713,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "NoWall",
           "package": "labyrinth",
@@ -2513,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Pit",
           "package": "labyrinth",
@@ -2522,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Pit",
           "package": "labyrinth",
@@ -2535,6 +2751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Player",
           "package": "labyrinth",
@@ -2544,6 +2761,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Player",
           "package": "labyrinth",
@@ -2557,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Pos",
           "package": "labyrinth",
@@ -2566,6 +2785,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Pos",
           "package": "labyrinth",
@@ -2579,6 +2799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "R",
           "package": "labyrinth",
@@ -2588,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "R",
           "package": "labyrinth",
@@ -2600,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "River",
           "package": "labyrinth",
@@ -2609,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "River",
           "package": "labyrinth",
@@ -2622,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "RiverDelta",
           "package": "labyrinth",
@@ -2631,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "RiverDelta",
           "package": "labyrinth",
@@ -2644,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "TrueTreasure",
           "package": "labyrinth",
@@ -2653,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "TrueTreasure",
           "package": "labyrinth",
@@ -2666,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "U",
           "package": "labyrinth",
@@ -2675,6 +2904,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "U",
           "package": "labyrinth",
@@ -2687,6 +2917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Wall",
           "package": "labyrinth",
@@ -2696,6 +2927,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Wall",
           "package": "labyrinth",
@@ -2709,6 +2941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "Wounded",
           "package": "labyrinth",
@@ -2718,6 +2951,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "Wounded",
           "package": "labyrinth",
@@ -2731,6 +2965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_cbullets",
           "package": "labyrinth",
@@ -2740,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_cbullets",
           "package": "labyrinth",
@@ -2752,6 +2988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_cells",
           "package": "labyrinth",
@@ -2761,6 +2998,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_cells",
           "package": "labyrinth",
@@ -2773,6 +3011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_cgrenades",
           "package": "labyrinth",
@@ -2782,6 +3021,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_cgrenades",
           "package": "labyrinth",
@@ -2794,6 +3034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_ctreasures",
           "package": "labyrinth",
@@ -2803,6 +3044,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_ctreasures",
           "normalized": "[Treasure]",
@@ -2817,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_ctype",
           "package": "labyrinth",
@@ -2826,6 +3069,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_ctype",
           "package": "labyrinth",
@@ -2838,6 +3082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_currentTurn",
           "package": "labyrinth",
@@ -2847,6 +3092,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_currentTurn",
           "package": "labyrinth",
@@ -2860,6 +3106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_gameEnded",
           "package": "labyrinth",
@@ -2869,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_gameEnded",
           "package": "labyrinth",
@@ -2882,6 +3130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_labHeight",
           "package": "labyrinth",
@@ -2891,6 +3140,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_labHeight",
           "package": "labyrinth",
@@ -2904,6 +3154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_labWidth",
           "package": "labyrinth",
@@ -2913,6 +3164,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_labWidth",
           "package": "labyrinth",
@@ -2926,6 +3178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_lfpits",
           "package": "labyrinth",
@@ -2935,6 +3188,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_lfpits",
           "package": "labyrinth",
@@ -2947,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_lfrivers",
           "package": "labyrinth",
@@ -2956,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_lfrivers",
           "package": "labyrinth",
@@ -2968,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_lpfeatures",
           "package": "labyrinth",
@@ -2977,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_lpfeatures",
           "package": "labyrinth",
@@ -2989,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_lpheight",
           "package": "labyrinth",
@@ -2998,6 +3257,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_lpheight",
           "package": "labyrinth",
@@ -3010,6 +3270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_lpplayers",
           "package": "labyrinth",
@@ -3019,6 +3280,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_lpplayers",
           "package": "labyrinth",
@@ -3031,6 +3293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_lpwidth",
           "package": "labyrinth",
@@ -3040,6 +3303,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_lpwidth",
           "package": "labyrinth",
@@ -3052,6 +3316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_pbullets",
           "package": "labyrinth",
@@ -3061,6 +3326,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_pbullets",
           "package": "labyrinth",
@@ -3073,6 +3339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_pgrenades",
           "package": "labyrinth",
@@ -3082,6 +3349,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_pgrenades",
           "package": "labyrinth",
@@ -3094,6 +3362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_phealth",
           "package": "labyrinth",
@@ -3103,6 +3372,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_phealth",
           "package": "labyrinth",
@@ -3115,6 +3385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_pitNumber",
           "package": "labyrinth",
@@ -3124,6 +3395,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_pitNumber",
           "package": "labyrinth",
@@ -3137,6 +3409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_pjustShot",
           "package": "labyrinth",
@@ -3146,6 +3419,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_pjustShot",
           "package": "labyrinth",
@@ -3159,6 +3433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_players",
           "package": "labyrinth",
@@ -3168,6 +3443,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_players",
           "normalized": "[Player]",
@@ -3182,6 +3458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_position",
           "package": "labyrinth",
@@ -3191,6 +3468,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_position",
           "package": "labyrinth",
@@ -3203,6 +3481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_positionsChosen",
           "package": "labyrinth",
@@ -3212,6 +3491,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_positionsChosen",
           "package": "labyrinth",
@@ -3225,6 +3505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_ptreasure",
           "package": "labyrinth",
@@ -3234,6 +3515,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_ptreasure",
           "package": "labyrinth",
@@ -3246,6 +3528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_riverDirection",
           "package": "labyrinth",
@@ -3255,6 +3538,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_riverDirection",
           "package": "labyrinth",
@@ -3268,6 +3552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_wallsH",
           "package": "labyrinth",
@@ -3277,6 +3562,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_wallsH",
           "package": "labyrinth",
@@ -3289,6 +3575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "_wallsV",
           "package": "labyrinth",
@@ -3298,6 +3585,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "_wallsV",
           "package": "labyrinth",
@@ -3310,6 +3598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "advance",
           "package": "labyrinth",
@@ -3319,6 +3608,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "advance",
           "normalized": "Position-\u003eDirection-\u003ePosition",
@@ -3333,6 +3623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "allCells",
           "package": "labyrinth",
@@ -3342,6 +3633,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "allCells",
           "normalized": "Labyrinth-\u003e[Cell]",
@@ -3357,6 +3649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "allDirections",
           "package": "labyrinth",
@@ -3366,6 +3659,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "allDirections",
           "normalized": "[Direction]",
@@ -3381,6 +3675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "allPosCells",
           "package": "labyrinth",
@@ -3390,6 +3685,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "allPosCells",
           "normalized": "Labyrinth-\u003e[(Position,Cell)]",
@@ -3405,6 +3701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "allPositions",
           "package": "labyrinth",
@@ -3414,6 +3711,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "allPositions",
           "normalized": "Labyrinth-\u003e[Position]",
@@ -3429,6 +3727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "armories",
           "package": "labyrinth",
@@ -3438,6 +3737,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "armories",
           "normalized": "Labyrinth-\u003e[Position]",
@@ -3452,6 +3752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "cbullets",
           "package": "labyrinth",
@@ -3461,6 +3762,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "cbullets",
           "package": "labyrinth",
@@ -3473,6 +3775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "cell",
           "package": "labyrinth",
@@ -3482,6 +3785,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "cell",
           "normalized": "Position-\u003eSimple Lens Labyrinth Cell",
@@ -3496,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "cells",
           "package": "labyrinth",
@@ -3505,6 +3810,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "cells",
           "package": "labyrinth",
@@ -3517,6 +3823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "cgrenades",
           "package": "labyrinth",
@@ -3526,6 +3833,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "cgrenades",
           "package": "labyrinth",
@@ -3538,6 +3846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "ctreasures",
           "package": "labyrinth",
@@ -3547,6 +3856,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "ctreasures",
           "normalized": "Lens' Cell[Treasure]",
@@ -3561,6 +3871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "ctype",
           "package": "labyrinth",
@@ -3570,6 +3881,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "ctype",
           "package": "labyrinth",
@@ -3582,6 +3894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "currentPlayer",
           "package": "labyrinth",
@@ -3591,6 +3904,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "currentPlayer",
           "package": "labyrinth",
@@ -3604,6 +3918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "currentTurn",
           "package": "labyrinth",
@@ -3613,6 +3928,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "currentTurn",
           "package": "labyrinth",
@@ -3626,6 +3942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "defaultFeatures",
           "package": "labyrinth",
@@ -3635,6 +3952,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "defaultFeatures",
           "package": "labyrinth",
@@ -3648,6 +3966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "emptyCell",
           "package": "labyrinth",
@@ -3657,6 +3976,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "emptyCell",
           "normalized": "CellType-\u003eCell",
@@ -3672,6 +3992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "emptyLabyrinth",
           "package": "labyrinth",
@@ -3681,6 +4002,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "emptyLabyrinth",
           "normalized": "LabyrinthParams-\u003eLabyrinth",
@@ -3696,6 +4018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "gameEnded",
           "package": "labyrinth",
@@ -3705,6 +4028,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "gameEnded",
           "package": "labyrinth",
@@ -3718,6 +4042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "initialPlayer",
           "package": "labyrinth",
@@ -3727,6 +4052,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "initialPlayer",
           "normalized": "Position-\u003ePlayer",
@@ -3742,6 +4068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "isInside",
           "package": "labyrinth",
@@ -3751,6 +4078,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "isInside",
           "normalized": "Position-\u003eLabyrinth-\u003eBool",
@@ -3766,6 +4094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "isOutside",
           "package": "labyrinth",
@@ -3775,6 +4104,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "isOutside",
           "normalized": "Position-\u003eLabyrinth-\u003eBool",
@@ -3790,6 +4120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "isPit",
           "package": "labyrinth",
@@ -3799,6 +4130,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "isPit",
           "normalized": "CellType-\u003eBool",
@@ -3814,6 +4146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "ix'",
           "package": "labyrinth",
@@ -3823,6 +4156,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "ix'",
           "normalized": "Index a-\u003eOver b c a a(IxValue a)(IxValue a)",
@@ -3837,6 +4171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "labHeight",
           "package": "labyrinth",
@@ -3846,6 +4181,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "labHeight",
           "package": "labyrinth",
@@ -3859,6 +4195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "labWidth",
           "package": "labyrinth",
@@ -3868,6 +4205,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "labWidth",
           "package": "labyrinth",
@@ -3881,6 +4219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "lfpits",
           "package": "labyrinth",
@@ -3890,6 +4229,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "lfpits",
           "package": "labyrinth",
@@ -3902,6 +4242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "lfrivers",
           "package": "labyrinth",
@@ -3911,6 +4252,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "lfrivers",
           "package": "labyrinth",
@@ -3923,6 +4265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "lpfeatures",
           "package": "labyrinth",
@@ -3932,6 +4275,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "lpfeatures",
           "package": "labyrinth",
@@ -3944,6 +4288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "lpheight",
           "package": "labyrinth",
@@ -3953,6 +4298,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "lpheight",
           "package": "labyrinth",
@@ -3965,6 +4311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "lpplayers",
           "package": "labyrinth",
@@ -3974,6 +4321,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "lpplayers",
           "package": "labyrinth",
@@ -3986,6 +4334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "lpwidth",
           "package": "labyrinth",
@@ -3995,6 +4344,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "lpwidth",
           "package": "labyrinth",
@@ -4007,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "mapRectangle",
           "package": "labyrinth",
@@ -4016,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "mapRectangle",
           "normalized": "a-\u003eInt-\u003eInt-\u003eMap Position a",
@@ -4031,6 +4383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "maxBullets",
           "package": "labyrinth",
@@ -4040,6 +4393,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "maxBullets",
           "package": "labyrinth",
@@ -4053,6 +4407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "maxGrenades",
           "package": "labyrinth",
@@ -4062,6 +4417,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "maxGrenades",
           "package": "labyrinth",
@@ -4075,6 +4431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "opposite",
           "package": "labyrinth",
@@ -4084,6 +4441,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "opposite",
           "normalized": "Direction-\u003eDirection",
@@ -4098,6 +4456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "outerPos",
           "package": "labyrinth",
@@ -4107,6 +4466,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "outerPos",
           "normalized": "Labyrinth-\u003e[(Position,Direction)]",
@@ -4122,6 +4482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "pX",
           "package": "labyrinth",
@@ -4131,6 +4492,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "pX",
           "package": "labyrinth",
@@ -4143,6 +4505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "pY",
           "package": "labyrinth",
@@ -4152,6 +4515,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "pY",
           "package": "labyrinth",
@@ -4164,6 +4528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "pbullets",
           "package": "labyrinth",
@@ -4173,6 +4538,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "pbullets",
           "package": "labyrinth",
@@ -4185,6 +4551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "pgrenades",
           "package": "labyrinth",
@@ -4194,6 +4561,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "pgrenades",
           "package": "labyrinth",
@@ -4206,6 +4574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "phealth",
           "package": "labyrinth",
@@ -4215,6 +4584,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "phealth",
           "package": "labyrinth",
@@ -4227,6 +4597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "pit",
           "package": "labyrinth",
@@ -4236,6 +4607,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "pit",
           "normalized": "Int-\u003eLabyrinth-\u003ePosition",
@@ -4250,6 +4622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "pitCount",
           "package": "labyrinth",
@@ -4259,6 +4632,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "pitCount",
           "normalized": "Labyrinth-\u003eInt",
@@ -4274,6 +4648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "pitNumber",
           "package": "labyrinth",
@@ -4283,6 +4658,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "pitNumber",
           "package": "labyrinth",
@@ -4296,6 +4672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "pits",
           "package": "labyrinth",
@@ -4305,6 +4682,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "pits",
           "normalized": "Labyrinth-\u003e[Position]",
@@ -4319,6 +4697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "pjustShot",
           "package": "labyrinth",
@@ -4328,6 +4707,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "pjustShot",
           "package": "labyrinth",
@@ -4341,6 +4721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "player",
           "package": "labyrinth",
@@ -4350,6 +4731,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "player",
           "normalized": "PlayerId-\u003eSimple Lens Labyrinth Player",
@@ -4364,6 +4746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "playerCount",
           "package": "labyrinth",
@@ -4373,6 +4756,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "playerCount",
           "normalized": "Labyrinth-\u003eInt",
@@ -4388,6 +4772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "players",
           "package": "labyrinth",
@@ -4397,6 +4782,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "players",
           "normalized": "Lens' Labyrinth[Player]",
@@ -4411,6 +4797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "posRectangle",
           "package": "labyrinth",
@@ -4420,6 +4807,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "posRectangle",
           "normalized": "Int-\u003eInt-\u003e[Position]",
@@ -4435,6 +4823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "position",
           "package": "labyrinth",
@@ -4444,6 +4833,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "position",
           "package": "labyrinth",
@@ -4456,6 +4846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "positionsChosen",
           "package": "labyrinth",
@@ -4465,6 +4856,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "positionsChosen",
           "package": "labyrinth",
@@ -4478,6 +4870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "ptreasure",
           "package": "labyrinth",
@@ -4487,6 +4880,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "ptreasure",
           "package": "labyrinth",
@@ -4499,6 +4893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "riverDirection",
           "package": "labyrinth",
@@ -4508,6 +4903,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "riverDirection",
           "package": "labyrinth",
@@ -4521,6 +4917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "simpleFeatures",
           "package": "labyrinth",
@@ -4530,6 +4927,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "simpleFeatures",
           "package": "labyrinth",
@@ -4543,6 +4941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "wall",
           "package": "labyrinth",
@@ -4552,6 +4951,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "wall",
           "normalized": "Position-\u003eDirection-\u003eSimple Lens Labyrinth Wall",
@@ -4566,6 +4966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "wallH",
           "package": "labyrinth",
@@ -4575,6 +4976,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "wallH",
           "normalized": "Position-\u003eSimple Lens Labyrinth Wall",
@@ -4589,6 +4991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "wallV",
           "package": "labyrinth",
@@ -4598,6 +5001,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "wallV",
           "normalized": "Position-\u003eSimple Lens Labyrinth Wall",
@@ -4612,6 +5016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "wallsH",
           "package": "labyrinth",
@@ -4621,6 +5026,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "wallsH",
           "package": "labyrinth",
@@ -4633,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "wallsV",
           "package": "labyrinth",
@@ -4642,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "wallsV",
           "package": "labyrinth",
@@ -4654,6 +5062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Map",
           "name": "wayOutside",
           "package": "labyrinth",
@@ -4663,6 +5072,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Map",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Map",
           "name": "wayOutside",
           "normalized": "Position-\u003eLabyrinth-\u003eBool",
@@ -4678,6 +5088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "Move",
           "package": "labyrinth",
@@ -4686,6 +5097,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "Move",
           "package": "labyrinth",
@@ -4699,6 +5111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "Action",
           "package": "labyrinth",
@@ -4707,6 +5120,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "Action",
           "package": "labyrinth",
@@ -4720,6 +5134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "ActionCondition",
           "package": "labyrinth",
@@ -4728,6 +5143,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "ActionCondition",
           "package": "labyrinth",
@@ -4741,6 +5157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "ActionResult",
           "package": "labyrinth",
@@ -4749,6 +5166,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "ActionResult",
           "package": "labyrinth",
@@ -4762,6 +5180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "CellEvents",
           "package": "labyrinth",
@@ -4770,6 +5189,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "CellEvents",
           "package": "labyrinth",
@@ -4783,6 +5203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "CellTypeResult",
           "package": "labyrinth",
@@ -4791,6 +5212,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "CellTypeResult",
           "package": "labyrinth",
@@ -4804,6 +5226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "ChoosePositionResult",
           "package": "labyrinth",
@@ -4812,6 +5235,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "ChoosePositionResult",
           "package": "labyrinth",
@@ -4825,6 +5249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "GoResult",
           "package": "labyrinth",
@@ -4833,6 +5258,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "GoResult",
           "package": "labyrinth",
@@ -4846,6 +5272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "GrenadeResult",
           "package": "labyrinth",
@@ -4854,6 +5281,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "GrenadeResult",
           "package": "labyrinth",
@@ -4867,6 +5295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "Move",
           "package": "labyrinth",
@@ -4875,6 +5304,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "Move",
           "package": "labyrinth",
@@ -4888,6 +5318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "MoveDirection",
           "package": "labyrinth",
@@ -4896,6 +5327,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "MoveDirection",
           "package": "labyrinth",
@@ -4909,6 +5341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "MoveResult",
           "package": "labyrinth",
@@ -4917,6 +5350,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "MoveResult",
           "package": "labyrinth",
@@ -4930,6 +5364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "QueryResult",
           "package": "labyrinth",
@@ -4938,6 +5373,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "QueryResult",
           "package": "labyrinth",
@@ -4951,6 +5387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "QueryType",
           "package": "labyrinth",
@@ -4959,6 +5396,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "QueryType",
           "package": "labyrinth",
@@ -4972,6 +5410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "ReorderCellResult",
           "package": "labyrinth",
@@ -4980,6 +5419,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "ReorderCellResult",
           "package": "labyrinth",
@@ -4993,6 +5433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "ShootResult",
           "package": "labyrinth",
@@ -5001,6 +5442,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "ShootResult",
           "package": "labyrinth",
@@ -5014,6 +5456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "StartResult",
           "package": "labyrinth",
@@ -5022,6 +5465,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "StartResult",
           "package": "labyrinth",
@@ -5035,6 +5479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "TreasureResult",
           "package": "labyrinth",
@@ -5043,6 +5488,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "TreasureResult",
           "package": "labyrinth",
@@ -5056,6 +5502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "ArmoryR",
           "package": "labyrinth",
@@ -5065,6 +5512,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "ArmoryR",
           "package": "labyrinth",
@@ -5078,6 +5526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "BulletCount",
           "package": "labyrinth",
@@ -5087,6 +5536,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "BulletCount",
           "package": "labyrinth",
@@ -5100,6 +5550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "BulletCountR",
           "package": "labyrinth",
@@ -5109,6 +5560,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "BulletCountR",
           "package": "labyrinth",
@@ -5122,6 +5574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "CellEvents",
           "package": "labyrinth",
@@ -5131,6 +5584,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "CellEvents",
           "package": "labyrinth",
@@ -5144,6 +5598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "ChooseAgain",
           "package": "labyrinth",
@@ -5153,6 +5608,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "ChooseAgain",
           "package": "labyrinth",
@@ -5166,6 +5622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "ChoosePosition",
           "package": "labyrinth",
@@ -5175,6 +5632,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "ChoosePosition",
           "package": "labyrinth",
@@ -5188,6 +5646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "ChoosePositionR",
           "package": "labyrinth",
@@ -5197,6 +5656,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "ChoosePositionR",
           "package": "labyrinth",
@@ -5210,6 +5670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "ChosenOK",
           "package": "labyrinth",
@@ -5219,6 +5680,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "ChosenOK",
           "package": "labyrinth",
@@ -5232,6 +5694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "Conditional",
           "package": "labyrinth",
@@ -5241,6 +5704,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "Conditional",
           "package": "labyrinth",
@@ -5254,6 +5718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "Draw",
           "package": "labyrinth",
@@ -5263,6 +5728,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "Draw",
           "package": "labyrinth",
@@ -5276,6 +5742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "Forbidden",
           "package": "labyrinth",
@@ -5285,6 +5752,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "Forbidden",
           "package": "labyrinth",
@@ -5298,6 +5766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "GameStarted",
           "package": "labyrinth",
@@ -5307,6 +5776,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "GameStarted",
           "normalized": "GameStarted[StartResult]",
@@ -5322,6 +5792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "Go",
           "package": "labyrinth",
@@ -5331,6 +5802,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "Go",
           "package": "labyrinth",
@@ -5344,6 +5816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "GoR",
           "package": "labyrinth",
@@ -5353,6 +5826,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "GoR",
           "package": "labyrinth",
@@ -5366,6 +5840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "Grenade",
           "package": "labyrinth",
@@ -5375,6 +5850,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "Grenade",
           "package": "labyrinth",
@@ -5388,6 +5864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "GrenadeCount",
           "package": "labyrinth",
@@ -5397,6 +5874,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "GrenadeCount",
           "package": "labyrinth",
@@ -5410,6 +5888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "GrenadeCountR",
           "package": "labyrinth",
@@ -5419,6 +5898,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "GrenadeCountR",
           "package": "labyrinth",
@@ -5432,6 +5912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "GrenadeOK",
           "package": "labyrinth",
@@ -5441,6 +5922,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "GrenadeOK",
           "package": "labyrinth",
@@ -5454,6 +5936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "GrenadeR",
           "package": "labyrinth",
@@ -5463,6 +5946,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "GrenadeR",
           "package": "labyrinth",
@@ -5476,6 +5960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "HealthR",
           "package": "labyrinth",
@@ -5485,6 +5970,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "HealthR",
           "package": "labyrinth",
@@ -5498,6 +5984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "HitWall",
           "package": "labyrinth",
@@ -5507,6 +5994,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "HitWall",
           "package": "labyrinth",
@@ -5520,6 +6008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "HospitalR",
           "package": "labyrinth",
@@ -5529,6 +6018,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "HospitalR",
           "package": "labyrinth",
@@ -5542,6 +6032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "InvalidMove",
           "package": "labyrinth",
@@ -5551,6 +6042,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "InvalidMove",
           "package": "labyrinth",
@@ -5564,6 +6056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "InvalidMovement",
           "package": "labyrinth",
@@ -5573,6 +6066,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "InvalidMovement",
           "package": "labyrinth",
@@ -5586,6 +6080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "LandR",
           "package": "labyrinth",
@@ -5595,6 +6090,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "LandR",
           "package": "labyrinth",
@@ -5608,6 +6104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "LostOutside",
           "package": "labyrinth",
@@ -5617,6 +6114,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "LostOutside",
           "package": "labyrinth",
@@ -5630,6 +6128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "Move",
           "package": "labyrinth",
@@ -5639,6 +6138,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "Move",
           "package": "labyrinth",
@@ -5652,6 +6152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "MoveRes",
           "package": "labyrinth",
@@ -5661,6 +6162,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "MoveRes",
           "normalized": "MoveRes[ActionResult]",
@@ -5676,6 +6178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "Next",
           "package": "labyrinth",
@@ -5685,6 +6188,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "Next",
           "package": "labyrinth",
@@ -5698,6 +6202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "NoBullets",
           "package": "labyrinth",
@@ -5707,6 +6212,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "NoBullets",
           "package": "labyrinth",
@@ -5720,6 +6226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "NoGrenades",
           "package": "labyrinth",
@@ -5729,6 +6236,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "NoGrenades",
           "package": "labyrinth",
@@ -5742,6 +6250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "PitR",
           "package": "labyrinth",
@@ -5751,6 +6260,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "PitR",
           "package": "labyrinth",
@@ -5764,6 +6274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "PlayerHealth",
           "package": "labyrinth",
@@ -5773,6 +6284,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "PlayerHealth",
           "package": "labyrinth",
@@ -5786,6 +6298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "Query",
           "package": "labyrinth",
@@ -5795,6 +6308,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "Query",
           "package": "labyrinth",
@@ -5808,6 +6322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "QueryR",
           "package": "labyrinth",
@@ -5817,6 +6332,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "QueryR",
           "package": "labyrinth",
@@ -5830,6 +6346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "ReorderCell",
           "package": "labyrinth",
@@ -5839,6 +6356,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "ReorderCell",
           "package": "labyrinth",
@@ -5852,6 +6370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "ReorderCellR",
           "package": "labyrinth",
@@ -5861,6 +6380,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "ReorderCellR",
           "package": "labyrinth",
@@ -5874,6 +6394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "ReorderForbidden",
           "package": "labyrinth",
@@ -5883,6 +6404,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "ReorderForbidden",
           "package": "labyrinth",
@@ -5896,6 +6418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "ReorderOK",
           "package": "labyrinth",
@@ -5905,6 +6428,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "ReorderOK",
           "package": "labyrinth",
@@ -5918,6 +6442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "RiverDeltaR",
           "package": "labyrinth",
@@ -5927,6 +6452,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "RiverDeltaR",
           "package": "labyrinth",
@@ -5940,6 +6466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "RiverR",
           "package": "labyrinth",
@@ -5949,6 +6476,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "RiverR",
           "package": "labyrinth",
@@ -5962,6 +6490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "Say",
           "package": "labyrinth",
@@ -5971,6 +6500,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "Say",
           "package": "labyrinth",
@@ -5984,6 +6514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "Scream",
           "package": "labyrinth",
@@ -5993,6 +6524,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "Scream",
           "package": "labyrinth",
@@ -6006,6 +6538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "Shoot",
           "package": "labyrinth",
@@ -6015,6 +6548,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "Shoot",
           "package": "labyrinth",
@@ -6028,6 +6562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "ShootOK",
           "package": "labyrinth",
@@ -6037,6 +6572,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "ShootOK",
           "package": "labyrinth",
@@ -6050,6 +6586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "ShootR",
           "package": "labyrinth",
@@ -6059,6 +6596,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "ShootR",
           "package": "labyrinth",
@@ -6072,6 +6610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "StartR",
           "package": "labyrinth",
@@ -6081,6 +6620,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "StartR",
           "package": "labyrinth",
@@ -6094,6 +6634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "Surrender",
           "package": "labyrinth",
@@ -6103,6 +6644,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "Surrender",
           "package": "labyrinth",
@@ -6116,6 +6658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "Surrendered",
           "package": "labyrinth",
@@ -6125,6 +6668,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "Surrendered",
           "package": "labyrinth",
@@ -6138,6 +6682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "Towards",
           "package": "labyrinth",
@@ -6147,6 +6692,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "Towards",
           "package": "labyrinth",
@@ -6160,6 +6706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "TreasureCarried",
           "package": "labyrinth",
@@ -6169,6 +6716,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "TreasureCarried",
           "package": "labyrinth",
@@ -6182,6 +6730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "TreasureCarriedR",
           "package": "labyrinth",
@@ -6191,6 +6740,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "TreasureCarriedR",
           "package": "labyrinth",
@@ -6204,6 +6754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "TrueTreasureR",
           "package": "labyrinth",
@@ -6213,6 +6764,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "TrueTreasureR",
           "package": "labyrinth",
@@ -6226,6 +6778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "TurnedToAshesR",
           "package": "labyrinth",
@@ -6235,6 +6788,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "TurnedToAshesR",
           "package": "labyrinth",
@@ -6248,6 +6802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "Went",
           "package": "labyrinth",
@@ -6257,6 +6812,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "Went",
           "package": "labyrinth",
@@ -6270,6 +6826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "WentOutside",
           "package": "labyrinth",
@@ -6279,6 +6836,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "WentOutside",
           "package": "labyrinth",
@@ -6292,6 +6850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "WoundedAlert",
           "package": "labyrinth",
@@ -6301,6 +6860,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "WoundedAlert",
           "package": "labyrinth",
@@ -6314,6 +6874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "WrongTurn",
           "package": "labyrinth",
@@ -6323,6 +6884,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "WrongTurn",
           "package": "labyrinth",
@@ -6336,6 +6898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_acelse",
           "package": "labyrinth",
@@ -6345,6 +6908,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_acelse",
           "normalized": "[Action]",
@@ -6359,6 +6923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_acif",
           "package": "labyrinth",
@@ -6368,6 +6933,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_acif",
           "package": "labyrinth",
@@ -6380,6 +6946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_acthen",
           "package": "labyrinth",
@@ -6389,6 +6956,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_acthen",
           "normalized": "[Action]",
@@ -6403,6 +6971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_agdirection",
           "package": "labyrinth",
@@ -6412,6 +6981,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_agdirection",
           "package": "labyrinth",
@@ -6424,6 +6994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_amdirection",
           "package": "labyrinth",
@@ -6433,6 +7004,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_amdirection",
           "package": "labyrinth",
@@ -6445,6 +7017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_asdirection",
           "package": "labyrinth",
@@ -6454,6 +7027,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_asdirection",
           "package": "labyrinth",
@@ -6466,6 +7040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_foundBullets",
           "package": "labyrinth",
@@ -6475,6 +7050,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_foundBullets",
           "package": "labyrinth",
@@ -6488,6 +7064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_foundGrenades",
           "package": "labyrinth",
@@ -6497,6 +7074,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_foundGrenades",
           "package": "labyrinth",
@@ -6510,6 +7088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_foundTreasures",
           "package": "labyrinth",
@@ -6519,6 +7098,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_foundTreasures",
           "package": "labyrinth",
@@ -6532,6 +7112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_hitr",
           "package": "labyrinth",
@@ -6541,6 +7122,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_hitr",
           "package": "labyrinth",
@@ -6553,6 +7135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_mactions",
           "package": "labyrinth",
@@ -6562,6 +7145,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_mactions",
           "normalized": "[Action]",
@@ -6576,6 +7160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_mcposition",
           "package": "labyrinth",
@@ -6585,6 +7170,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_mcposition",
           "package": "labyrinth",
@@ -6597,6 +7183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_mqueries",
           "package": "labyrinth",
@@ -6606,6 +7193,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_mqueries",
           "normalized": "[QueryType]",
@@ -6620,6 +7208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_mrposition",
           "package": "labyrinth",
@@ -6629,6 +7218,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_mrposition",
           "package": "labyrinth",
@@ -6641,6 +7231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_msstext",
           "package": "labyrinth",
@@ -6650,6 +7241,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_msstext",
           "package": "labyrinth",
@@ -6662,6 +7254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_onto",
           "package": "labyrinth",
@@ -6671,6 +7264,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_onto",
           "package": "labyrinth",
@@ -6683,6 +7277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_qrbullets",
           "package": "labyrinth",
@@ -6692,6 +7287,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_qrbullets",
           "package": "labyrinth",
@@ -6704,6 +7300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_qrgrenades",
           "package": "labyrinth",
@@ -6713,6 +7310,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_qrgrenades",
           "package": "labyrinth",
@@ -6725,6 +7323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_qrhealth",
           "package": "labyrinth",
@@ -6734,6 +7333,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_qrhealth",
           "package": "labyrinth",
@@ -6746,6 +7346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_qrtreasure",
           "package": "labyrinth",
@@ -6755,6 +7356,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_qrtreasure",
           "package": "labyrinth",
@@ -6767,6 +7369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_revents",
           "package": "labyrinth",
@@ -6776,6 +7379,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_revents",
           "package": "labyrinth",
@@ -6788,6 +7392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_ronto",
           "package": "labyrinth",
@@ -6797,6 +7402,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_ronto",
           "package": "labyrinth",
@@ -6809,6 +7415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_scell",
           "package": "labyrinth",
@@ -6818,6 +7425,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_scell",
           "package": "labyrinth",
@@ -6830,6 +7438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_sevents",
           "package": "labyrinth",
@@ -6839,6 +7448,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_sevents",
           "package": "labyrinth",
@@ -6851,6 +7461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_splayer",
           "package": "labyrinth",
@@ -6860,6 +7471,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_splayer",
           "package": "labyrinth",
@@ -6872,6 +7484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_transportedTo",
           "package": "labyrinth",
@@ -6881,6 +7494,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_transportedTo",
           "package": "labyrinth",
@@ -6894,6 +7508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_treasureResult",
           "package": "labyrinth",
@@ -6903,6 +7518,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_treasureResult",
           "package": "labyrinth",
@@ -6916,6 +7532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "_wevents",
           "package": "labyrinth",
@@ -6925,6 +7542,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "_wevents",
           "package": "labyrinth",
@@ -6937,6 +7555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "acelse",
           "package": "labyrinth",
@@ -6946,6 +7565,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "acelse",
           "normalized": "Traversal' Action[Action]",
@@ -6960,6 +7580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "acif",
           "package": "labyrinth",
@@ -6969,6 +7590,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "acif",
           "package": "labyrinth",
@@ -6981,6 +7603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "acthen",
           "package": "labyrinth",
@@ -6990,6 +7613,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "acthen",
           "normalized": "Traversal' Action[Action]",
@@ -7004,6 +7628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "agdirection",
           "package": "labyrinth",
@@ -7013,6 +7638,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "agdirection",
           "package": "labyrinth",
@@ -7025,6 +7651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "amdirection",
           "package": "labyrinth",
@@ -7034,6 +7661,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "amdirection",
           "package": "labyrinth",
@@ -7046,6 +7674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "asdirection",
           "package": "labyrinth",
@@ -7055,6 +7684,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "asdirection",
           "package": "labyrinth",
@@ -7067,6 +7697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "ctResult",
           "package": "labyrinth",
@@ -7076,6 +7707,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "ctResult",
           "normalized": "CellType-\u003eCellTypeResult",
@@ -7091,6 +7723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "foundBullets",
           "package": "labyrinth",
@@ -7100,6 +7733,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "foundBullets",
           "package": "labyrinth",
@@ -7113,6 +7747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "foundGrenades",
           "package": "labyrinth",
@@ -7122,6 +7757,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "foundGrenades",
           "package": "labyrinth",
@@ -7135,6 +7771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "foundTreasures",
           "package": "labyrinth",
@@ -7144,6 +7781,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "foundTreasures",
           "package": "labyrinth",
@@ -7157,6 +7795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "goTowards",
           "package": "labyrinth",
@@ -7166,6 +7805,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "goTowards",
           "normalized": "Direction-\u003eAction",
@@ -7181,6 +7821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "hitr",
           "package": "labyrinth",
@@ -7190,6 +7831,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "hitr",
           "package": "labyrinth",
@@ -7202,6 +7844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "mactions",
           "package": "labyrinth",
@@ -7211,6 +7854,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "mactions",
           "normalized": "Traversal' Move[Action]",
@@ -7225,6 +7869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "mcposition",
           "package": "labyrinth",
@@ -7234,6 +7879,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "mcposition",
           "package": "labyrinth",
@@ -7246,6 +7892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "mqueries",
           "package": "labyrinth",
@@ -7255,6 +7902,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "mqueries",
           "normalized": "Traversal' Move[QueryType]",
@@ -7269,6 +7917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "mrposition",
           "package": "labyrinth",
@@ -7278,6 +7927,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "mrposition",
           "package": "labyrinth",
@@ -7290,6 +7940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "msstext",
           "package": "labyrinth",
@@ -7299,6 +7950,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "msstext",
           "package": "labyrinth",
@@ -7311,6 +7963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "noEvents",
           "package": "labyrinth",
@@ -7320,6 +7973,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "noEvents",
           "package": "labyrinth",
@@ -7333,6 +7987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "onto",
           "package": "labyrinth",
@@ -7342,6 +7997,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "onto",
           "package": "labyrinth",
@@ -7354,6 +8010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "qrbullets",
           "package": "labyrinth",
@@ -7363,6 +8020,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "qrbullets",
           "package": "labyrinth",
@@ -7375,6 +8033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "qrgrenades",
           "package": "labyrinth",
@@ -7384,6 +8043,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "qrgrenades",
           "package": "labyrinth",
@@ -7396,6 +8056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "qrhealth",
           "package": "labyrinth",
@@ -7405,6 +8066,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "qrhealth",
           "package": "labyrinth",
@@ -7417,6 +8079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "qrtreasure",
           "package": "labyrinth",
@@ -7426,6 +8089,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "qrtreasure",
           "package": "labyrinth",
@@ -7438,6 +8102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "revents",
           "package": "labyrinth",
@@ -7447,6 +8112,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "revents",
           "package": "labyrinth",
@@ -7459,6 +8125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "ronto",
           "package": "labyrinth",
@@ -7468,6 +8135,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "ronto",
           "package": "labyrinth",
@@ -7480,6 +8148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "scell",
           "package": "labyrinth",
@@ -7489,6 +8158,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "scell",
           "package": "labyrinth",
@@ -7501,6 +8171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "sevents",
           "package": "labyrinth",
@@ -7510,6 +8181,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "sevents",
           "package": "labyrinth",
@@ -7522,6 +8194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "splayer",
           "package": "labyrinth",
@@ -7531,6 +8204,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "splayer",
           "package": "labyrinth",
@@ -7543,6 +8217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "transportedTo",
           "package": "labyrinth",
@@ -7552,6 +8227,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "transportedTo",
           "package": "labyrinth",
@@ -7565,6 +8241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "treasureResult",
           "package": "labyrinth",
@@ -7574,6 +8251,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "treasureResult",
           "package": "labyrinth",
@@ -7587,6 +8265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Move",
           "name": "wevents",
           "package": "labyrinth",
@@ -7596,6 +8275,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Move",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Move",
           "name": "wevents",
           "package": "labyrinth",
@@ -7608,6 +8288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "Reachability",
           "package": "labyrinth",
@@ -7616,6 +8297,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "Reachability",
           "package": "labyrinth",
@@ -7629,6 +8311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "Connectivity",
           "package": "labyrinth",
@@ -7637,6 +8320,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "Connectivity",
           "package": "labyrinth",
@@ -7650,6 +8334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "Distribution",
           "package": "labyrinth",
@@ -7658,6 +8343,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "Distribution",
           "package": "labyrinth",
@@ -7671,6 +8357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "PositionMap",
           "package": "labyrinth",
@@ -7679,6 +8366,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "PositionMap",
           "package": "labyrinth",
@@ -7692,6 +8380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "Reachability",
           "package": "labyrinth",
@@ -7700,6 +8389,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "Reachability",
           "package": "labyrinth",
@@ -7713,6 +8403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "armoriesDist",
           "package": "labyrinth",
@@ -7722,6 +8413,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "armoriesDist",
           "normalized": "Labyrinth-\u003ePositionMap Any",
@@ -7737,6 +8429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "connectivity",
           "package": "labyrinth",
@@ -7746,6 +8439,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "connectivity",
           "normalized": "Labyrinth-\u003eConnectivity",
@@ -7760,6 +8454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "converge",
           "package": "labyrinth",
@@ -7769,6 +8464,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "converge",
           "normalized": "Int-\u003eLabyrinth-\u003eDistribution",
@@ -7783,6 +8479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "distribute",
           "package": "labyrinth",
@@ -7792,6 +8489,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "distribute",
           "normalized": "Map a[a]-\u003eMap a b-\u003eMap a b",
@@ -7806,6 +8504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "distributeN",
           "package": "labyrinth",
@@ -7815,6 +8514,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "distributeN",
           "normalized": "Int-\u003eMap a[a]-\u003eMap a b-\u003eMap a b",
@@ -7829,6 +8529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "distributeU",
           "package": "labyrinth",
@@ -7838,6 +8539,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "distributeU",
           "normalized": "Map a[a]-\u003eMap a b-\u003eMap a b",
@@ -7852,6 +8554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "foldConcat",
           "package": "labyrinth",
@@ -7861,6 +8564,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "foldConcat",
           "normalized": "Map a[b]-\u003eMap a b",
@@ -7876,6 +8580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "insertAppend",
           "package": "labyrinth",
@@ -7885,6 +8590,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "insertAppend",
           "normalized": "a-\u003eb-\u003eMap a[b]-\u003eMap a[b]",
@@ -7900,6 +8606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "inverse",
           "package": "labyrinth",
@@ -7909,6 +8616,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "inverse",
           "normalized": "Map a[b]-\u003eMap b[a]",
@@ -7923,6 +8631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "maxKeyBy",
           "package": "labyrinth",
@@ -7932,6 +8641,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "maxKeyBy",
           "normalized": "(a-\u003eb)-\u003eMap a c-\u003eb",
@@ -7947,6 +8657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "nextCell",
           "package": "labyrinth",
@@ -7956,6 +8667,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "nextCell",
           "normalized": "Position-\u003eReader Labyrinth Position",
@@ -7971,6 +8683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "normalize",
           "package": "labyrinth",
@@ -7980,6 +8693,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "normalize",
           "normalized": "Map a b-\u003eMap a b",
@@ -7994,6 +8708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "pad",
           "package": "labyrinth",
@@ -8003,6 +8718,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "pad",
           "normalized": "Int-\u003ea-\u003e[a]-\u003e[a]",
@@ -8017,6 +8733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "reachConverge",
           "package": "labyrinth",
@@ -8026,6 +8743,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "reachConverge",
           "normalized": "Int-\u003eLabyrinth-\u003eReachability",
@@ -8041,6 +8759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "reachConvergeU",
           "package": "labyrinth",
@@ -8050,6 +8769,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "reachConvergeU",
           "normalized": "Labyrinth-\u003eReachability",
@@ -8065,6 +8785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "reachable",
           "package": "labyrinth",
@@ -8074,6 +8795,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "reachable",
           "normalized": "Position-\u003eReader Labyrinth[Position]",
@@ -8088,6 +8810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "showDist",
           "package": "labyrinth",
@@ -8097,6 +8820,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "showDist",
           "normalized": "Distribution-\u003eString",
@@ -8112,6 +8836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "showGrid",
           "package": "labyrinth",
@@ -8121,6 +8846,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "showGrid",
           "normalized": "(Maybe a-\u003eString)-\u003ePositionMap a-\u003eString",
@@ -8136,6 +8862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "showGridLine",
           "package": "labyrinth",
@@ -8145,6 +8872,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "showGridLine",
           "normalized": "(Maybe a-\u003eString)-\u003ePositionMap a-\u003eInt-\u003eString",
@@ -8160,6 +8888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "showGridPos",
           "package": "labyrinth",
@@ -8169,6 +8898,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "showGridPos",
           "normalized": "(Maybe a-\u003eString)-\u003ePositionMap a-\u003eInt-\u003eInt-\u003eString",
@@ -8184,6 +8914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "showReach",
           "package": "labyrinth",
@@ -8193,6 +8924,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "showReach",
           "normalized": "Reachability-\u003eString",
@@ -8208,6 +8940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Reachability",
           "name": "uniformBetween",
           "package": "labyrinth",
@@ -8217,6 +8950,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Reachability",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Reachability",
           "name": "uniformBetween",
           "normalized": "a-\u003e[Position]-\u003ePositionMap a",
@@ -8232,6 +8966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "Read",
           "package": "labyrinth",
@@ -8240,6 +8975,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "Read",
           "package": "labyrinth",
@@ -8253,6 +8989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "action",
           "package": "labyrinth",
@@ -8262,6 +8999,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "action",
           "package": "labyrinth",
@@ -8274,6 +9012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "actions",
           "package": "labyrinth",
@@ -8283,6 +9022,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "actions",
           "normalized": "Parser[Action]",
@@ -8297,6 +9037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "choosePosition",
           "package": "labyrinth",
@@ -8306,6 +9047,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "choosePosition",
           "package": "labyrinth",
@@ -8319,6 +9061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "commaSpaces",
           "package": "labyrinth",
@@ -8328,6 +9071,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "commaSpaces",
           "normalized": "Parser()",
@@ -8343,6 +9087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "conditionalAction",
           "package": "labyrinth",
@@ -8352,6 +9097,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "conditionalAction",
           "package": "labyrinth",
@@ -8365,6 +9111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "conditionalPart",
           "package": "labyrinth",
@@ -8374,6 +9121,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "conditionalPart",
           "normalized": "Parser[Action]",
@@ -8389,6 +9137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "direction",
           "package": "labyrinth",
@@ -8398,6 +9147,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "direction",
           "package": "labyrinth",
@@ -8410,6 +9160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "emptyMove",
           "package": "labyrinth",
@@ -8419,6 +9170,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "emptyMove",
           "package": "labyrinth",
@@ -8432,6 +9184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "goAction",
           "package": "labyrinth",
@@ -8441,6 +9194,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "goAction",
           "package": "labyrinth",
@@ -8454,6 +9208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "grenadeAction",
           "package": "labyrinth",
@@ -8463,6 +9218,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "grenadeAction",
           "package": "labyrinth",
@@ -8476,6 +9232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "integer",
           "package": "labyrinth",
@@ -8485,6 +9242,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "integer",
           "package": "labyrinth",
@@ -8497,6 +9255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "moveParser",
           "package": "labyrinth",
@@ -8506,6 +9265,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "moveParser",
           "package": "labyrinth",
@@ -8544,6 +9304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "positionParser",
           "package": "labyrinth",
@@ -8553,6 +9314,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "positionParser",
           "package": "labyrinth",
@@ -8566,6 +9328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "queriesParser",
           "package": "labyrinth",
@@ -8575,6 +9338,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "queriesParser",
           "package": "labyrinth",
@@ -8588,6 +9352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "queryParser",
           "package": "labyrinth",
@@ -8597,6 +9362,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "queryParser",
           "package": "labyrinth",
@@ -8610,6 +9376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "reorderCell",
           "package": "labyrinth",
@@ -8619,6 +9386,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "reorderCell",
           "package": "labyrinth",
@@ -8632,6 +9400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "sayParser",
           "package": "labyrinth",
@@ -8641,6 +9410,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "sayParser",
           "package": "labyrinth",
@@ -8654,6 +9424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "shootAction",
           "package": "labyrinth",
@@ -8663,6 +9434,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "shootAction",
           "package": "labyrinth",
@@ -8676,6 +9448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "spaces1",
           "package": "labyrinth",
@@ -8685,6 +9458,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "spaces1",
           "normalized": "Parser()",
@@ -8699,6 +9473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "stringResult",
           "package": "labyrinth",
@@ -8708,6 +9483,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "stringResult",
           "normalized": "String-\u003ea-\u003eParser a",
@@ -8723,6 +9499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Read",
           "name": "surrenderAction",
           "package": "labyrinth",
@@ -8732,6 +9509,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Read",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Read",
           "name": "surrenderAction",
           "package": "labyrinth",
@@ -8745,6 +9523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Show",
           "name": "Show",
           "package": "labyrinth",
@@ -8753,6 +9532,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Show",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Show",
           "name": "Show",
           "package": "labyrinth",
@@ -8766,6 +9546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Show",
           "name": "Definite",
           "package": "labyrinth",
@@ -8774,6 +9555,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Show",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Show",
           "name": "Definite",
           "package": "labyrinth",
@@ -8787,6 +9569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Show",
           "name": "Definite",
           "package": "labyrinth",
@@ -8796,6 +9579,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Show",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Show",
           "name": "Definite",
           "package": "labyrinth",
@@ -8809,6 +9593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Show",
           "name": "Indefinite",
           "package": "labyrinth",
@@ -8818,6 +9603,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Show",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Show",
           "name": "Indefinite",
           "package": "labyrinth",
@@ -8831,6 +9617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Show",
           "name": "commaSepShow",
           "package": "labyrinth",
@@ -8840,6 +9627,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Show",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Show",
           "name": "commaSepShow",
           "normalized": "[a]-\u003eString",
@@ -8855,6 +9643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Show",
           "name": "pluralize",
           "package": "labyrinth",
@@ -8864,6 +9653,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Show",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Show",
           "name": "pluralize",
           "normalized": "Definite-\u003ea-\u003eString-\u003eString",
@@ -8878,6 +9668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Show",
           "name": "sepShow",
           "package": "labyrinth",
@@ -8887,6 +9678,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Show",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Show",
           "name": "sepShow",
           "normalized": "Char-\u003e[a]-\u003eString",
@@ -8902,6 +9694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Show",
           "name": "showActResults",
           "package": "labyrinth",
@@ -8911,6 +9704,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Show",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Show",
           "name": "showActResults",
           "normalized": "[ActionResult]-\u003eString",
@@ -8926,6 +9720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Show",
           "name": "showCellItems",
           "package": "labyrinth",
@@ -8935,6 +9730,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Show",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Show",
           "name": "showCellItems",
           "normalized": "Cell-\u003eString",
@@ -8950,6 +9746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Show",
           "name": "showCellLine",
           "package": "labyrinth",
@@ -8959,6 +9756,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Show",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Show",
           "name": "showCellLine",
           "normalized": "Labyrinth-\u003eInt-\u003eString",
@@ -8974,6 +9772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Show",
           "name": "showCurrentPlayer",
           "package": "labyrinth",
@@ -8983,6 +9782,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Show",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Show",
           "name": "showCurrentPlayer",
           "normalized": "Labyrinth-\u003e[String]",
@@ -8998,6 +9798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Show",
           "name": "showH",
           "package": "labyrinth",
@@ -9007,6 +9808,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Show",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Show",
           "name": "showH",
           "normalized": "Wall-\u003eString",
@@ -9021,6 +9823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Show",
           "name": "showItems",
           "package": "labyrinth",
@@ -9030,6 +9833,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Show",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Show",
           "name": "showItems",
           "normalized": "Labyrinth-\u003e[String]",
@@ -9045,6 +9849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Show",
           "name": "showMap",
           "package": "labyrinth",
@@ -9054,6 +9859,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Show",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Show",
           "name": "showMap",
           "normalized": "Labyrinth-\u003e[String]",
@@ -9069,6 +9875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Show",
           "name": "showPlayers",
           "package": "labyrinth",
@@ -9078,6 +9885,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Show",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Show",
           "name": "showPlayers",
           "normalized": "Labyrinth-\u003e[String]",
@@ -9093,6 +9901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Show",
           "name": "showStatus",
           "package": "labyrinth",
@@ -9102,6 +9911,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Show",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Show",
           "name": "showStatus",
           "normalized": "Labyrinth-\u003e[String]",
@@ -9117,6 +9927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Show",
           "name": "showV",
           "package": "labyrinth",
@@ -9126,6 +9937,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Show",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Show",
           "name": "showV",
           "normalized": "Wall-\u003eString",
@@ -9140,6 +9952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth.Show",
           "name": "showWallLine",
           "package": "labyrinth",
@@ -9149,6 +9962,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth Show",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth.Show",
           "name": "showWallLine",
           "normalized": "Labyrinth-\u003eInt-\u003eString",
@@ -9164,6 +9978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:49 UTC 2014",
           "module": "Labyrinth",
           "name": "Labyrinth",
           "package": "labyrinth",
@@ -9172,6 +9987,7 @@
         },
         "index": {
           "hierarchy": "Labyrinth",
+          "indexed": "2014-03-11T19:03:49",
           "module": "Labyrinth",
           "name": "Labyrinth",
           "package": "labyrinth",

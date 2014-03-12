@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "constrained-normal"
+        "phrase": "constrained-normal",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides constrained normalised type classes.  The ideas behind this module are documented in the following paper:\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eThe Constrained-Monad Problem\u003c/em\u003e.  Neil Sculthorpe and Jan Bracker and George Giorgidze and Andy Gill.  2013. \u003ca\u003ehttp://www.ittc.ku.edu/~neil/papers_and_talks/constrained-monad-problem.pdf\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "ConstrainedNormal",
           "package": "constrained-normal",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides constrained normalised type classes The ideas behind this module are documented in the following paper The Constrained-Monad Problem Neil Sculthorpe and Jan Bracker and George Giorgidze and Andy Gill http www.ittc.ku.edu neil papers and talks constrained-monad-problem.pdf",
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "ConstrainedNormal",
           "package": "constrained-normal",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "NAF",
           "package": "constrained-normal",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "NAF",
           "package": "constrained-normal",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "NF",
           "package": "constrained-normal",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "NF",
           "package": "constrained-normal",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "NM",
           "package": "constrained-normal",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "NM",
           "package": "constrained-normal",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "NMP",
           "package": "constrained-normal",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "NMP",
           "package": "constrained-normal",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "NMP'",
           "package": "constrained-normal",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "NMP'",
           "package": "constrained-normal",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "NPF",
           "package": "constrained-normal",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "NPF",
           "package": "constrained-normal",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "PointedFunctor",
           "package": "constrained-normal",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "PointedFunctor",
           "package": "constrained-normal",
@@ -189,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty type class.  This can be used when a parameter of kind \u003ccode\u003e*\u003c/code\u003e \u003ccode\u003e-\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eConstraint\u003c/a\u003e\u003c/code\u003e is needed, but no constraints need to be imposed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "Unconstrained",
           "package": "constrained-normal",
@@ -198,6 +215,7 @@
         "index": {
           "description": "An empty type class This can be used when parameter of kind Constraint is needed but no constraints need to be imposed",
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "Unconstrained",
           "package": "constrained-normal",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "Ap",
           "package": "constrained-normal",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "Ap",
           "normalized": "NAF a b(c-\u003ed)-\u003eb c-\u003eNAF a b d",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "Bind",
           "package": "constrained-normal",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "Bind",
           "normalized": "a b-\u003e(b-\u003eNM c a d)-\u003eNM c a d",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "FMap",
           "package": "constrained-normal",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "FMap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eNF d c b",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "Functor",
           "package": "constrained-normal",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "Functor",
           "normalized": "NF a b c-\u003eNPF a b c",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "MPBind",
           "package": "constrained-normal",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "MPBind",
           "normalized": "a b-\u003e(b-\u003eNMP c a d)-\u003eNMP' c a d",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "MPReturn",
           "package": "constrained-normal",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "MPReturn",
           "normalized": "a-\u003eNMP' b c a",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "MPlus",
           "package": "constrained-normal",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "MPlus",
           "package": "constrained-normal",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "MZero",
           "package": "constrained-normal",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "MZero",
           "package": "constrained-normal",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "Point",
           "package": "constrained-normal",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "Point",
           "normalized": "a-\u003eNPF b c a",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "Pure",
           "package": "constrained-normal",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "Pure",
           "normalized": "a-\u003eNAF b c a",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "Return",
           "package": "constrained-normal",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "Return",
           "normalized": "a-\u003eNM b c a",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "foldNAF",
           "package": "constrained-normal",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "foldNAF",
           "normalized": "a(b-\u003ec)-\u003ed b-\u003ea c)-\u003eNAF e d f-\u003ea f",
@@ -495,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "foldNF",
           "package": "constrained-normal",
@@ -504,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "foldNF",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ed)-\u003eNF e c b-\u003ed",
@@ -519,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "foldNM",
           "package": "constrained-normal",
@@ -528,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "foldNM",
           "normalized": "a b-\u003e(b-\u003ec)-\u003ec)-\u003eNM d a e-\u003ec",
@@ -543,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "foldNMP",
           "package": "constrained-normal",
@@ -552,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "foldNMP",
           "normalized": "a b-\u003e(b-\u003ec)-\u003ec)-\u003eNMP d a e-\u003ec",
@@ -567,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "foldNPF",
           "package": "constrained-normal",
@@ -576,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "foldNPF",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ed)-\u003eNPF e c b-\u003ed",
@@ -591,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "liftNAF",
           "package": "constrained-normal",
@@ -600,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "liftNAF",
           "normalized": "a b-\u003eNAF c a b",
@@ -615,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "liftNF",
           "package": "constrained-normal",
@@ -624,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "liftNF",
           "normalized": "a b-\u003eNF c a b",
@@ -639,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "liftNM",
           "package": "constrained-normal",
@@ -648,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "liftNM",
           "normalized": "a b-\u003eNM c a b",
@@ -663,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "liftNMP",
           "package": "constrained-normal",
@@ -672,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "liftNMP",
           "normalized": "a b-\u003eNMP c a b",
@@ -687,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "liftNPF",
           "package": "constrained-normal",
@@ -696,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "liftNPF",
           "normalized": "a b-\u003eNPF c a b",
@@ -711,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "lowerNAF",
           "package": "constrained-normal",
@@ -720,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "lowerNAF",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c)-\u003eNAF d a e-\u003ea e",
@@ -735,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "lowerNF",
           "package": "constrained-normal",
@@ -744,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "lowerNF",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b)-\u003eNF d c b-\u003ec b",
@@ -759,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "lowerNM",
           "package": "constrained-normal",
@@ -768,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "lowerNM",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ea c)-\u003eNM d a c-\u003ea c",
@@ -783,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "lowerNMP",
           "package": "constrained-normal",
@@ -792,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "lowerNMP",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ea c)-\u003eNMP d a c-\u003ea c",
@@ -807,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "lowerNPF",
           "package": "constrained-normal",
@@ -816,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "lowerNPF",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b)-\u003eNPF d c b-\u003ec b",
@@ -831,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:16 UTC 2014",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "point",
           "package": "constrained-normal",
@@ -840,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ConstrainedNormal",
+          "indexed": "2014-03-11T17:39:16",
           "module": "Control.Monad.ConstrainedNormal",
           "name": "point",
           "normalized": "a-\u003eb a",

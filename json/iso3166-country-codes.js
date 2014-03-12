@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "iso3166-country-codes"
+        "phrase": "iso3166-country-codes",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTwo letter Country Codes\n\u003c/p\u003e\u003cp\u003eDefines the type CountryCode with constructors for each\n     of the two-letter codes defined in\n     \u003ca\u003ehttp://www.iso.org/iso/list-en1-semic-3.txt\u003c/a\u003e and\n     instances for \u003ccode\u003eEq\u003c/code\u003e, \u003ccode\u003eRead\u003c/code\u003e, \u003ccode\u003eShow\u003c/code\u003e, \u003ccode\u003eEnum\u003c/code\u003e, \u003ccode\u003eBounded\u003c/code\u003e\n     and \u003ccode\u003eOrd\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAlso defines \u003ccode\u003e\u003ccode\u003e\u003ca\u003ecountryNameFromCode\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, which gives the\n     official short country name all in uppercase and\n     \u003ccode\u003e\u003ccode\u003e\u003ca\u003ereadableCountryName\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, which produces somewhat more user-friendly output\n\u003c/p\u003e\u003cp\u003eIntended to be imported qualified as some country codes\n     are the same as some standard Haskell constructors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ISO3166_CountryCodes",
           "package": "iso3166-country-codes",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Two letter Country Codes Defines the type CountryCode with constructors for each of the two-letter codes defined in http www.iso.org iso list-en1-semic-3.txt and instances for Eq Read Show Enum Bounded and Ord Also defines countryNameFromCode which gives the official short country name all in uppercase and readableCountryName which produces somewhat more user-friendly output Intended to be imported qualified as some country codes are the same as some standard Haskell constructors",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ISO3166_CountryCodes",
           "package": "iso3166-country-codes",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CountryCode",
           "package": "iso3166-country-codes",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CountryCode",
           "package": "iso3166-country-codes",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eANDORRA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AD",
           "package": "iso3166-country-codes",
@@ -73,6 +78,7 @@
         "index": {
           "description": "ANDORRA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AD",
           "package": "iso3166-country-codes",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUNITED ARAB EMIRATES\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AE",
           "package": "iso3166-country-codes",
@@ -97,6 +104,7 @@
         "index": {
           "description": "UNITED ARAB EMIRATES",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AE",
           "package": "iso3166-country-codes",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAFGHANISTAN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AF",
           "package": "iso3166-country-codes",
@@ -121,6 +130,7 @@
         "index": {
           "description": "AFGHANISTAN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AF",
           "package": "iso3166-country-codes",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eANTIGUA AND BARBUDA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AG",
           "package": "iso3166-country-codes",
@@ -145,6 +156,7 @@
         "index": {
           "description": "ANTIGUA AND BARBUDA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AG",
           "package": "iso3166-country-codes",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eANGUILLA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AI",
           "package": "iso3166-country-codes",
@@ -169,6 +182,7 @@
         "index": {
           "description": "ANGUILLA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AI",
           "package": "iso3166-country-codes",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eALBANIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AL",
           "package": "iso3166-country-codes",
@@ -193,6 +208,7 @@
         "index": {
           "description": "ALBANIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AL",
           "package": "iso3166-country-codes",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eARMENIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AM",
           "package": "iso3166-country-codes",
@@ -217,6 +234,7 @@
         "index": {
           "description": "ARMENIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AM",
           "package": "iso3166-country-codes",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eANGOLA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AO",
           "package": "iso3166-country-codes",
@@ -241,6 +260,7 @@
         "index": {
           "description": "ANGOLA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AO",
           "package": "iso3166-country-codes",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eANTARCTICA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AQ",
           "package": "iso3166-country-codes",
@@ -265,6 +286,7 @@
         "index": {
           "description": "ANTARCTICA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AQ",
           "package": "iso3166-country-codes",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eARGENTINA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AR",
           "package": "iso3166-country-codes",
@@ -289,6 +312,7 @@
         "index": {
           "description": "ARGENTINA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AR",
           "package": "iso3166-country-codes",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAMERICAN SAMOA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AS",
           "package": "iso3166-country-codes",
@@ -313,6 +338,7 @@
         "index": {
           "description": "AMERICAN SAMOA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AS",
           "package": "iso3166-country-codes",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAUSTRIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AT",
           "package": "iso3166-country-codes",
@@ -337,6 +364,7 @@
         "index": {
           "description": "AUSTRIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AT",
           "package": "iso3166-country-codes",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAUSTRALIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AU",
           "package": "iso3166-country-codes",
@@ -361,6 +390,7 @@
         "index": {
           "description": "AUSTRALIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AU",
           "package": "iso3166-country-codes",
@@ -375,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eARUBA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AW",
           "package": "iso3166-country-codes",
@@ -385,6 +416,7 @@
         "index": {
           "description": "ARUBA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AW",
           "package": "iso3166-country-codes",
@@ -399,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#197;LAND ISLANDS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AX",
           "package": "iso3166-country-codes",
@@ -409,6 +442,7 @@
         "index": {
           "description": "LAND ISLANDS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AX",
           "package": "iso3166-country-codes",
@@ -423,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAZERBAIJAN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AZ",
           "package": "iso3166-country-codes",
@@ -433,6 +468,7 @@
         "index": {
           "description": "AZERBAIJAN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "AZ",
           "package": "iso3166-country-codes",
@@ -447,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBOSNIA AND HERZEGOVINA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BA",
           "package": "iso3166-country-codes",
@@ -457,6 +494,7 @@
         "index": {
           "description": "BOSNIA AND HERZEGOVINA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BA",
           "package": "iso3166-country-codes",
@@ -471,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBARBADOS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BB",
           "package": "iso3166-country-codes",
@@ -481,6 +520,7 @@
         "index": {
           "description": "BARBADOS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BB",
           "package": "iso3166-country-codes",
@@ -495,6 +535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBANGLADESH\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BD",
           "package": "iso3166-country-codes",
@@ -505,6 +546,7 @@
         "index": {
           "description": "BANGLADESH",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BD",
           "package": "iso3166-country-codes",
@@ -519,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBELGIUM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BE",
           "package": "iso3166-country-codes",
@@ -529,6 +572,7 @@
         "index": {
           "description": "BELGIUM",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BE",
           "package": "iso3166-country-codes",
@@ -543,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBURKINA FASO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BF",
           "package": "iso3166-country-codes",
@@ -553,6 +598,7 @@
         "index": {
           "description": "BURKINA FASO",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BF",
           "package": "iso3166-country-codes",
@@ -567,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBULGARIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BG",
           "package": "iso3166-country-codes",
@@ -577,6 +624,7 @@
         "index": {
           "description": "BULGARIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BG",
           "package": "iso3166-country-codes",
@@ -591,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBAHRAIN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BH",
           "package": "iso3166-country-codes",
@@ -601,6 +650,7 @@
         "index": {
           "description": "BAHRAIN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BH",
           "package": "iso3166-country-codes",
@@ -615,6 +665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBURUNDI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BI",
           "package": "iso3166-country-codes",
@@ -625,6 +676,7 @@
         "index": {
           "description": "BURUNDI",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BI",
           "package": "iso3166-country-codes",
@@ -639,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBENIN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BJ",
           "package": "iso3166-country-codes",
@@ -649,6 +702,7 @@
         "index": {
           "description": "BENIN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BJ",
           "package": "iso3166-country-codes",
@@ -663,6 +717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSAINT BARTH&#201;LEMY\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BL",
           "package": "iso3166-country-codes",
@@ -673,6 +728,7 @@
         "index": {
           "description": "SAINT BARTH LEMY",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BL",
           "package": "iso3166-country-codes",
@@ -687,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBERMUDA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BM",
           "package": "iso3166-country-codes",
@@ -697,6 +754,7 @@
         "index": {
           "description": "BERMUDA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BM",
           "package": "iso3166-country-codes",
@@ -711,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBRUNEI DARUSSALAM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BN",
           "package": "iso3166-country-codes",
@@ -721,6 +780,7 @@
         "index": {
           "description": "BRUNEI DARUSSALAM",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BN",
           "package": "iso3166-country-codes",
@@ -735,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBOLIVIA, PLURINATIONAL STATE OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BO",
           "package": "iso3166-country-codes",
@@ -745,6 +806,7 @@
         "index": {
           "description": "BOLIVIA PLURINATIONAL STATE OF",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BO",
           "package": "iso3166-country-codes",
@@ -759,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBONAIRE, SINT EUSTATIUS AND SABA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BQ",
           "package": "iso3166-country-codes",
@@ -769,6 +832,7 @@
         "index": {
           "description": "BONAIRE SINT EUSTATIUS AND SABA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BQ",
           "package": "iso3166-country-codes",
@@ -783,6 +847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBRAZIL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BR",
           "package": "iso3166-country-codes",
@@ -793,6 +858,7 @@
         "index": {
           "description": "BRAZIL",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BR",
           "package": "iso3166-country-codes",
@@ -807,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBAHAMAS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BS",
           "package": "iso3166-country-codes",
@@ -817,6 +884,7 @@
         "index": {
           "description": "BAHAMAS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BS",
           "package": "iso3166-country-codes",
@@ -831,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBHUTAN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BT",
           "package": "iso3166-country-codes",
@@ -841,6 +910,7 @@
         "index": {
           "description": "BHUTAN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BT",
           "package": "iso3166-country-codes",
@@ -855,6 +925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBOUVET ISLAND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BV",
           "package": "iso3166-country-codes",
@@ -865,6 +936,7 @@
         "index": {
           "description": "BOUVET ISLAND",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BV",
           "package": "iso3166-country-codes",
@@ -879,6 +951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBOTSWANA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BW",
           "package": "iso3166-country-codes",
@@ -889,6 +962,7 @@
         "index": {
           "description": "BOTSWANA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BW",
           "package": "iso3166-country-codes",
@@ -903,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBELARUS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BY",
           "package": "iso3166-country-codes",
@@ -913,6 +988,7 @@
         "index": {
           "description": "BELARUS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BY",
           "package": "iso3166-country-codes",
@@ -927,6 +1003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBELIZE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BZ",
           "package": "iso3166-country-codes",
@@ -937,6 +1014,7 @@
         "index": {
           "description": "BELIZE",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "BZ",
           "package": "iso3166-country-codes",
@@ -951,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCANADA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CA",
           "package": "iso3166-country-codes",
@@ -961,6 +1040,7 @@
         "index": {
           "description": "CANADA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CA",
           "package": "iso3166-country-codes",
@@ -975,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCOCOS (KEELING) ISLANDS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CC",
           "package": "iso3166-country-codes",
@@ -985,6 +1066,7 @@
         "index": {
           "description": "COCOS KEELING ISLANDS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CC",
           "package": "iso3166-country-codes",
@@ -999,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCONGO, THE DEMOCRATIC REPUBLIC OF THE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CD",
           "package": "iso3166-country-codes",
@@ -1009,6 +1092,7 @@
         "index": {
           "description": "CONGO THE DEMOCRATIC REPUBLIC OF THE",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CD",
           "package": "iso3166-country-codes",
@@ -1023,6 +1107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCENTRAL AFRICAN REPUBLIC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CF",
           "package": "iso3166-country-codes",
@@ -1033,6 +1118,7 @@
         "index": {
           "description": "CENTRAL AFRICAN REPUBLIC",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CF",
           "package": "iso3166-country-codes",
@@ -1047,6 +1133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCONGO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CG",
           "package": "iso3166-country-codes",
@@ -1057,6 +1144,7 @@
         "index": {
           "description": "CONGO",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CG",
           "package": "iso3166-country-codes",
@@ -1071,6 +1159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSWITZERLAND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CH",
           "package": "iso3166-country-codes",
@@ -1081,6 +1170,7 @@
         "index": {
           "description": "SWITZERLAND",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CH",
           "package": "iso3166-country-codes",
@@ -1095,6 +1185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eC&#212;TE D'IVOIRE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CI",
           "package": "iso3166-country-codes",
@@ -1105,6 +1196,7 @@
         "index": {
           "description": "TE IVOIRE",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CI",
           "package": "iso3166-country-codes",
@@ -1119,6 +1211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCOOK ISLANDS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CK",
           "package": "iso3166-country-codes",
@@ -1129,6 +1222,7 @@
         "index": {
           "description": "COOK ISLANDS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CK",
           "package": "iso3166-country-codes",
@@ -1143,6 +1237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCHILE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CL",
           "package": "iso3166-country-codes",
@@ -1153,6 +1248,7 @@
         "index": {
           "description": "CHILE",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CL",
           "package": "iso3166-country-codes",
@@ -1167,6 +1263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCAMEROON\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CM",
           "package": "iso3166-country-codes",
@@ -1177,6 +1274,7 @@
         "index": {
           "description": "CAMEROON",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CM",
           "package": "iso3166-country-codes",
@@ -1191,6 +1289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCHINA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CN",
           "package": "iso3166-country-codes",
@@ -1201,6 +1300,7 @@
         "index": {
           "description": "CHINA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CN",
           "package": "iso3166-country-codes",
@@ -1215,6 +1315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCOLOMBIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CO",
           "package": "iso3166-country-codes",
@@ -1225,6 +1326,7 @@
         "index": {
           "description": "COLOMBIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CO",
           "package": "iso3166-country-codes",
@@ -1239,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCOSTA RICA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CR",
           "package": "iso3166-country-codes",
@@ -1249,6 +1352,7 @@
         "index": {
           "description": "COSTA RICA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CR",
           "package": "iso3166-country-codes",
@@ -1263,6 +1367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCUBA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CU",
           "package": "iso3166-country-codes",
@@ -1273,6 +1378,7 @@
         "index": {
           "description": "CUBA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CU",
           "package": "iso3166-country-codes",
@@ -1287,6 +1393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCAPE VERDE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CV",
           "package": "iso3166-country-codes",
@@ -1297,6 +1404,7 @@
         "index": {
           "description": "CAPE VERDE",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CV",
           "package": "iso3166-country-codes",
@@ -1311,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCURA&#199;AO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CW",
           "package": "iso3166-country-codes",
@@ -1321,6 +1430,7 @@
         "index": {
           "description": "CURA AO",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CW",
           "package": "iso3166-country-codes",
@@ -1335,6 +1445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCHRISTMAS ISLAND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CX",
           "package": "iso3166-country-codes",
@@ -1345,6 +1456,7 @@
         "index": {
           "description": "CHRISTMAS ISLAND",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CX",
           "package": "iso3166-country-codes",
@@ -1359,6 +1471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCYPRUS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CY",
           "package": "iso3166-country-codes",
@@ -1369,6 +1482,7 @@
         "index": {
           "description": "CYPRUS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CY",
           "package": "iso3166-country-codes",
@@ -1383,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCZECH REPUBLIC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CZ",
           "package": "iso3166-country-codes",
@@ -1393,6 +1508,7 @@
         "index": {
           "description": "CZECH REPUBLIC",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "CZ",
           "package": "iso3166-country-codes",
@@ -1407,6 +1523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGERMANY\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "DE",
           "package": "iso3166-country-codes",
@@ -1417,6 +1534,7 @@
         "index": {
           "description": "GERMANY",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "DE",
           "package": "iso3166-country-codes",
@@ -1431,6 +1549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDJIBOUTI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "DJ",
           "package": "iso3166-country-codes",
@@ -1441,6 +1560,7 @@
         "index": {
           "description": "DJIBOUTI",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "DJ",
           "package": "iso3166-country-codes",
@@ -1455,6 +1575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDENMARK\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "DK",
           "package": "iso3166-country-codes",
@@ -1465,6 +1586,7 @@
         "index": {
           "description": "DENMARK",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "DK",
           "package": "iso3166-country-codes",
@@ -1479,6 +1601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDOMINICA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "DM",
           "package": "iso3166-country-codes",
@@ -1489,6 +1612,7 @@
         "index": {
           "description": "DOMINICA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "DM",
           "package": "iso3166-country-codes",
@@ -1503,6 +1627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDOMINICAN REPUBLIC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "DO",
           "package": "iso3166-country-codes",
@@ -1513,6 +1638,7 @@
         "index": {
           "description": "DOMINICAN REPUBLIC",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "DO",
           "package": "iso3166-country-codes",
@@ -1527,6 +1653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eALGERIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "DZ",
           "package": "iso3166-country-codes",
@@ -1537,6 +1664,7 @@
         "index": {
           "description": "ALGERIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "DZ",
           "package": "iso3166-country-codes",
@@ -1551,6 +1679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eECUADOR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "EC",
           "package": "iso3166-country-codes",
@@ -1561,6 +1690,7 @@
         "index": {
           "description": "ECUADOR",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "EC",
           "package": "iso3166-country-codes",
@@ -1575,6 +1705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eESTONIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "EE",
           "package": "iso3166-country-codes",
@@ -1585,6 +1716,7 @@
         "index": {
           "description": "ESTONIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "EE",
           "package": "iso3166-country-codes",
@@ -1599,6 +1731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEGYPT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "EG",
           "package": "iso3166-country-codes",
@@ -1609,6 +1742,7 @@
         "index": {
           "description": "EGYPT",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "EG",
           "package": "iso3166-country-codes",
@@ -1623,6 +1757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWESTERN SAHARA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "EH",
           "package": "iso3166-country-codes",
@@ -1633,6 +1768,7 @@
         "index": {
           "description": "WESTERN SAHARA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "EH",
           "package": "iso3166-country-codes",
@@ -1647,6 +1783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eERITREA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ER",
           "package": "iso3166-country-codes",
@@ -1657,6 +1794,7 @@
         "index": {
           "description": "ERITREA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ER",
           "package": "iso3166-country-codes",
@@ -1671,6 +1809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSPAIN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ES",
           "package": "iso3166-country-codes",
@@ -1681,6 +1820,7 @@
         "index": {
           "description": "SPAIN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ES",
           "package": "iso3166-country-codes",
@@ -1695,6 +1835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eETHIOPIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ET",
           "package": "iso3166-country-codes",
@@ -1705,6 +1846,7 @@
         "index": {
           "description": "ETHIOPIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ET",
           "package": "iso3166-country-codes",
@@ -1719,6 +1861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFINLAND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "FI",
           "package": "iso3166-country-codes",
@@ -1729,6 +1872,7 @@
         "index": {
           "description": "FINLAND",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "FI",
           "package": "iso3166-country-codes",
@@ -1743,6 +1887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFIJI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "FJ",
           "package": "iso3166-country-codes",
@@ -1753,6 +1898,7 @@
         "index": {
           "description": "FIJI",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "FJ",
           "package": "iso3166-country-codes",
@@ -1767,6 +1913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFALKLAND ISLANDS (MALVINAS)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "FK",
           "package": "iso3166-country-codes",
@@ -1777,6 +1924,7 @@
         "index": {
           "description": "FALKLAND ISLANDS MALVINAS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "FK",
           "package": "iso3166-country-codes",
@@ -1791,6 +1939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMICRONESIA, FEDERATED STATES OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "FM",
           "package": "iso3166-country-codes",
@@ -1801,6 +1950,7 @@
         "index": {
           "description": "MICRONESIA FEDERATED STATES OF",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "FM",
           "package": "iso3166-country-codes",
@@ -1815,6 +1965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFAROE ISLANDS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "FO",
           "package": "iso3166-country-codes",
@@ -1825,6 +1976,7 @@
         "index": {
           "description": "FAROE ISLANDS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "FO",
           "package": "iso3166-country-codes",
@@ -1839,6 +1991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFRANCE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "FR",
           "package": "iso3166-country-codes",
@@ -1849,6 +2002,7 @@
         "index": {
           "description": "FRANCE",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "FR",
           "package": "iso3166-country-codes",
@@ -1863,6 +2017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGABON\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GA",
           "package": "iso3166-country-codes",
@@ -1873,6 +2028,7 @@
         "index": {
           "description": "GABON",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GA",
           "package": "iso3166-country-codes",
@@ -1887,6 +2043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUNITED KINGDOM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GB",
           "package": "iso3166-country-codes",
@@ -1897,6 +2054,7 @@
         "index": {
           "description": "UNITED KINGDOM",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GB",
           "package": "iso3166-country-codes",
@@ -1911,6 +2069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGRENADA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GD",
           "package": "iso3166-country-codes",
@@ -1921,6 +2080,7 @@
         "index": {
           "description": "GRENADA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GD",
           "package": "iso3166-country-codes",
@@ -1935,6 +2095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGEORGIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GE",
           "package": "iso3166-country-codes",
@@ -1945,6 +2106,7 @@
         "index": {
           "description": "GEORGIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GE",
           "package": "iso3166-country-codes",
@@ -1959,6 +2121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFRENCH GUIANA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GF",
           "package": "iso3166-country-codes",
@@ -1969,6 +2132,7 @@
         "index": {
           "description": "FRENCH GUIANA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GF",
           "package": "iso3166-country-codes",
@@ -1983,6 +2147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGUERNSEY\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GG",
           "package": "iso3166-country-codes",
@@ -1993,6 +2158,7 @@
         "index": {
           "description": "GUERNSEY",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GG",
           "package": "iso3166-country-codes",
@@ -2007,6 +2173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGHANA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GH",
           "package": "iso3166-country-codes",
@@ -2017,6 +2184,7 @@
         "index": {
           "description": "GHANA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GH",
           "package": "iso3166-country-codes",
@@ -2031,6 +2199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGIBRALTAR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GI",
           "package": "iso3166-country-codes",
@@ -2041,6 +2210,7 @@
         "index": {
           "description": "GIBRALTAR",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GI",
           "package": "iso3166-country-codes",
@@ -2055,6 +2225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGREENLAND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GL",
           "package": "iso3166-country-codes",
@@ -2065,6 +2236,7 @@
         "index": {
           "description": "GREENLAND",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GL",
           "package": "iso3166-country-codes",
@@ -2079,6 +2251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGAMBIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GM",
           "package": "iso3166-country-codes",
@@ -2089,6 +2262,7 @@
         "index": {
           "description": "GAMBIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GM",
           "package": "iso3166-country-codes",
@@ -2103,6 +2277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGUINEA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GN",
           "package": "iso3166-country-codes",
@@ -2113,6 +2288,7 @@
         "index": {
           "description": "GUINEA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GN",
           "package": "iso3166-country-codes",
@@ -2127,6 +2303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGUADELOUPE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GP",
           "package": "iso3166-country-codes",
@@ -2137,6 +2314,7 @@
         "index": {
           "description": "GUADELOUPE",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GP",
           "package": "iso3166-country-codes",
@@ -2151,6 +2329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEQUATORIAL GUINEA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GQ",
           "package": "iso3166-country-codes",
@@ -2161,6 +2340,7 @@
         "index": {
           "description": "EQUATORIAL GUINEA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GQ",
           "package": "iso3166-country-codes",
@@ -2175,6 +2355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGREECE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GR",
           "package": "iso3166-country-codes",
@@ -2185,6 +2366,7 @@
         "index": {
           "description": "GREECE",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GR",
           "package": "iso3166-country-codes",
@@ -2199,6 +2381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GS",
           "package": "iso3166-country-codes",
@@ -2209,6 +2392,7 @@
         "index": {
           "description": "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GS",
           "package": "iso3166-country-codes",
@@ -2223,6 +2407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGUATEMALA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GT",
           "package": "iso3166-country-codes",
@@ -2233,6 +2418,7 @@
         "index": {
           "description": "GUATEMALA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GT",
           "package": "iso3166-country-codes",
@@ -2247,6 +2433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGUAM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GU",
           "package": "iso3166-country-codes",
@@ -2257,6 +2444,7 @@
         "index": {
           "description": "GUAM",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GU",
           "package": "iso3166-country-codes",
@@ -2271,6 +2459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGUINEA-BISSAU\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GW",
           "package": "iso3166-country-codes",
@@ -2281,6 +2470,7 @@
         "index": {
           "description": "GUINEA-BISSAU",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GW",
           "package": "iso3166-country-codes",
@@ -2295,6 +2485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGUYANA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GY",
           "package": "iso3166-country-codes",
@@ -2305,6 +2496,7 @@
         "index": {
           "description": "GUYANA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "GY",
           "package": "iso3166-country-codes",
@@ -2319,6 +2511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHONG KONG\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "HK",
           "package": "iso3166-country-codes",
@@ -2329,6 +2522,7 @@
         "index": {
           "description": "HONG KONG",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "HK",
           "package": "iso3166-country-codes",
@@ -2343,6 +2537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHEARD ISLAND AND MCDONALD ISLANDS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "HM",
           "package": "iso3166-country-codes",
@@ -2353,6 +2548,7 @@
         "index": {
           "description": "HEARD ISLAND AND MCDONALD ISLANDS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "HM",
           "package": "iso3166-country-codes",
@@ -2367,6 +2563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHONDURAS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "HN",
           "package": "iso3166-country-codes",
@@ -2377,6 +2574,7 @@
         "index": {
           "description": "HONDURAS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "HN",
           "package": "iso3166-country-codes",
@@ -2391,6 +2589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCROATIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "HR",
           "package": "iso3166-country-codes",
@@ -2401,6 +2600,7 @@
         "index": {
           "description": "CROATIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "HR",
           "package": "iso3166-country-codes",
@@ -2415,6 +2615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHAITI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "HT",
           "package": "iso3166-country-codes",
@@ -2425,6 +2626,7 @@
         "index": {
           "description": "HAITI",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "HT",
           "package": "iso3166-country-codes",
@@ -2439,6 +2641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHUNGARY\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "HU",
           "package": "iso3166-country-codes",
@@ -2449,6 +2652,7 @@
         "index": {
           "description": "HUNGARY",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "HU",
           "package": "iso3166-country-codes",
@@ -2463,6 +2667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eINDONESIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ID",
           "package": "iso3166-country-codes",
@@ -2473,6 +2678,7 @@
         "index": {
           "description": "INDONESIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ID",
           "package": "iso3166-country-codes",
@@ -2487,6 +2693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIRELAND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "IE",
           "package": "iso3166-country-codes",
@@ -2497,6 +2704,7 @@
         "index": {
           "description": "IRELAND",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "IE",
           "package": "iso3166-country-codes",
@@ -2511,6 +2719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISRAEL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "IL",
           "package": "iso3166-country-codes",
@@ -2521,6 +2730,7 @@
         "index": {
           "description": "ISRAEL",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "IL",
           "package": "iso3166-country-codes",
@@ -2535,6 +2745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISLE OF MAN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "IM",
           "package": "iso3166-country-codes",
@@ -2545,6 +2756,7 @@
         "index": {
           "description": "ISLE OF MAN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "IM",
           "package": "iso3166-country-codes",
@@ -2559,6 +2771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eINDIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "IN",
           "package": "iso3166-country-codes",
@@ -2569,6 +2782,7 @@
         "index": {
           "description": "INDIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "IN",
           "package": "iso3166-country-codes",
@@ -2583,6 +2797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBRITISH INDIAN OCEAN TERRITORY\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "IO",
           "package": "iso3166-country-codes",
@@ -2593,6 +2808,7 @@
         "index": {
           "description": "BRITISH INDIAN OCEAN TERRITORY",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "IO",
           "package": "iso3166-country-codes",
@@ -2607,6 +2823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIRAQ\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "IQ",
           "package": "iso3166-country-codes",
@@ -2617,6 +2834,7 @@
         "index": {
           "description": "IRAQ",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "IQ",
           "package": "iso3166-country-codes",
@@ -2631,6 +2849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIRAN, ISLAMIC REPUBLIC OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "IR",
           "package": "iso3166-country-codes",
@@ -2641,6 +2860,7 @@
         "index": {
           "description": "IRAN ISLAMIC REPUBLIC OF",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "IR",
           "package": "iso3166-country-codes",
@@ -2655,6 +2875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eICELAND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "IS",
           "package": "iso3166-country-codes",
@@ -2665,6 +2886,7 @@
         "index": {
           "description": "ICELAND",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "IS",
           "package": "iso3166-country-codes",
@@ -2679,6 +2901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eITALY\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "IT",
           "package": "iso3166-country-codes",
@@ -2689,6 +2912,7 @@
         "index": {
           "description": "ITALY",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "IT",
           "package": "iso3166-country-codes",
@@ -2703,6 +2927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJERSEY\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "JE",
           "package": "iso3166-country-codes",
@@ -2713,6 +2938,7 @@
         "index": {
           "description": "JERSEY",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "JE",
           "package": "iso3166-country-codes",
@@ -2727,6 +2953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJAMAICA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "JM",
           "package": "iso3166-country-codes",
@@ -2737,6 +2964,7 @@
         "index": {
           "description": "JAMAICA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "JM",
           "package": "iso3166-country-codes",
@@ -2751,6 +2979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJORDAN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "JO",
           "package": "iso3166-country-codes",
@@ -2761,6 +2990,7 @@
         "index": {
           "description": "JORDAN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "JO",
           "package": "iso3166-country-codes",
@@ -2775,6 +3005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJAPAN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "JP",
           "package": "iso3166-country-codes",
@@ -2785,6 +3016,7 @@
         "index": {
           "description": "JAPAN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "JP",
           "package": "iso3166-country-codes",
@@ -2799,6 +3031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKENYA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KE",
           "package": "iso3166-country-codes",
@@ -2809,6 +3042,7 @@
         "index": {
           "description": "KENYA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KE",
           "package": "iso3166-country-codes",
@@ -2823,6 +3057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKYRGYZSTAN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KG",
           "package": "iso3166-country-codes",
@@ -2833,6 +3068,7 @@
         "index": {
           "description": "KYRGYZSTAN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KG",
           "package": "iso3166-country-codes",
@@ -2847,6 +3083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCAMBODIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KH",
           "package": "iso3166-country-codes",
@@ -2857,6 +3094,7 @@
         "index": {
           "description": "CAMBODIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KH",
           "package": "iso3166-country-codes",
@@ -2871,6 +3109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKIRIBATI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KI",
           "package": "iso3166-country-codes",
@@ -2881,6 +3120,7 @@
         "index": {
           "description": "KIRIBATI",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KI",
           "package": "iso3166-country-codes",
@@ -2895,6 +3135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCOMOROS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KM",
           "package": "iso3166-country-codes",
@@ -2905,6 +3146,7 @@
         "index": {
           "description": "COMOROS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KM",
           "package": "iso3166-country-codes",
@@ -2919,6 +3161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSAINT KITTS AND NEVIS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KN",
           "package": "iso3166-country-codes",
@@ -2929,6 +3172,7 @@
         "index": {
           "description": "SAINT KITTS AND NEVIS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KN",
           "package": "iso3166-country-codes",
@@ -2943,6 +3187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KP",
           "package": "iso3166-country-codes",
@@ -2953,6 +3198,7 @@
         "index": {
           "description": "KOREA DEMOCRATIC PEOPLE REPUBLIC OF",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KP",
           "package": "iso3166-country-codes",
@@ -2967,6 +3213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKOREA, REPUBLIC OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KR",
           "package": "iso3166-country-codes",
@@ -2977,6 +3224,7 @@
         "index": {
           "description": "KOREA REPUBLIC OF",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KR",
           "package": "iso3166-country-codes",
@@ -2991,6 +3239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKUWAIT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KW",
           "package": "iso3166-country-codes",
@@ -3001,6 +3250,7 @@
         "index": {
           "description": "KUWAIT",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KW",
           "package": "iso3166-country-codes",
@@ -3015,6 +3265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCAYMAN ISLANDS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KY",
           "package": "iso3166-country-codes",
@@ -3025,6 +3276,7 @@
         "index": {
           "description": "CAYMAN ISLANDS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KY",
           "package": "iso3166-country-codes",
@@ -3039,6 +3291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKAZAKHSTAN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KZ",
           "package": "iso3166-country-codes",
@@ -3049,6 +3302,7 @@
         "index": {
           "description": "KAZAKHSTAN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "KZ",
           "package": "iso3166-country-codes",
@@ -3063,6 +3317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLAO PEOPLE'S DEMOCRATIC REPUBLIC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LA",
           "package": "iso3166-country-codes",
@@ -3073,6 +3328,7 @@
         "index": {
           "description": "LAO PEOPLE DEMOCRATIC REPUBLIC",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LA",
           "package": "iso3166-country-codes",
@@ -3087,6 +3343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLEBANON\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LB",
           "package": "iso3166-country-codes",
@@ -3097,6 +3354,7 @@
         "index": {
           "description": "LEBANON",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LB",
           "package": "iso3166-country-codes",
@@ -3111,6 +3369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSAINT LUCIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LC",
           "package": "iso3166-country-codes",
@@ -3121,6 +3380,7 @@
         "index": {
           "description": "SAINT LUCIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LC",
           "package": "iso3166-country-codes",
@@ -3135,6 +3395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLIECHTENSTEIN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LI",
           "package": "iso3166-country-codes",
@@ -3145,6 +3406,7 @@
         "index": {
           "description": "LIECHTENSTEIN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LI",
           "package": "iso3166-country-codes",
@@ -3159,6 +3421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSRI LANKA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LK",
           "package": "iso3166-country-codes",
@@ -3169,6 +3432,7 @@
         "index": {
           "description": "SRI LANKA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LK",
           "package": "iso3166-country-codes",
@@ -3183,6 +3447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLIBERIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LR",
           "package": "iso3166-country-codes",
@@ -3193,6 +3458,7 @@
         "index": {
           "description": "LIBERIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LR",
           "package": "iso3166-country-codes",
@@ -3207,6 +3473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLESOTHO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LS",
           "package": "iso3166-country-codes",
@@ -3217,6 +3484,7 @@
         "index": {
           "description": "LESOTHO",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LS",
           "package": "iso3166-country-codes",
@@ -3231,6 +3499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLITHUANIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LT",
           "package": "iso3166-country-codes",
@@ -3241,6 +3510,7 @@
         "index": {
           "description": "LITHUANIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LT",
           "package": "iso3166-country-codes",
@@ -3255,6 +3525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLUXEMBOURG\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LU",
           "package": "iso3166-country-codes",
@@ -3265,6 +3536,7 @@
         "index": {
           "description": "LUXEMBOURG",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LU",
           "package": "iso3166-country-codes",
@@ -3279,6 +3551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLATVIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LV",
           "package": "iso3166-country-codes",
@@ -3289,6 +3562,7 @@
         "index": {
           "description": "LATVIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LV",
           "package": "iso3166-country-codes",
@@ -3303,6 +3577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLIBYA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LY",
           "package": "iso3166-country-codes",
@@ -3313,6 +3588,7 @@
         "index": {
           "description": "LIBYA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "LY",
           "package": "iso3166-country-codes",
@@ -3327,6 +3603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMOROCCO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MA",
           "package": "iso3166-country-codes",
@@ -3337,6 +3614,7 @@
         "index": {
           "description": "MOROCCO",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MA",
           "package": "iso3166-country-codes",
@@ -3351,6 +3629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMONACO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MC",
           "package": "iso3166-country-codes",
@@ -3361,6 +3640,7 @@
         "index": {
           "description": "MONACO",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MC",
           "package": "iso3166-country-codes",
@@ -3375,6 +3655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMOLDOVA, REPUBLIC OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MD",
           "package": "iso3166-country-codes",
@@ -3385,6 +3666,7 @@
         "index": {
           "description": "MOLDOVA REPUBLIC OF",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MD",
           "package": "iso3166-country-codes",
@@ -3399,6 +3681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMONTENEGRO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ME",
           "package": "iso3166-country-codes",
@@ -3409,6 +3692,7 @@
         "index": {
           "description": "MONTENEGRO",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ME",
           "package": "iso3166-country-codes",
@@ -3423,6 +3707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSAINT MARTIN (FRENCH PART)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MF",
           "package": "iso3166-country-codes",
@@ -3433,6 +3718,7 @@
         "index": {
           "description": "SAINT MARTIN FRENCH PART",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MF",
           "package": "iso3166-country-codes",
@@ -3447,6 +3733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMADAGASCAR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MG",
           "package": "iso3166-country-codes",
@@ -3457,6 +3744,7 @@
         "index": {
           "description": "MADAGASCAR",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MG",
           "package": "iso3166-country-codes",
@@ -3471,6 +3759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMARSHALL ISLANDS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MH",
           "package": "iso3166-country-codes",
@@ -3481,6 +3770,7 @@
         "index": {
           "description": "MARSHALL ISLANDS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MH",
           "package": "iso3166-country-codes",
@@ -3495,6 +3785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MK",
           "package": "iso3166-country-codes",
@@ -3505,6 +3796,7 @@
         "index": {
           "description": "MACEDONIA THE FORMER YUGOSLAV REPUBLIC OF",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MK",
           "package": "iso3166-country-codes",
@@ -3519,6 +3811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMALI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ML",
           "package": "iso3166-country-codes",
@@ -3529,6 +3822,7 @@
         "index": {
           "description": "MALI",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ML",
           "package": "iso3166-country-codes",
@@ -3543,6 +3837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMYANMAR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MM",
           "package": "iso3166-country-codes",
@@ -3553,6 +3848,7 @@
         "index": {
           "description": "MYANMAR",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MM",
           "package": "iso3166-country-codes",
@@ -3567,6 +3863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMONGOLIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MN",
           "package": "iso3166-country-codes",
@@ -3577,6 +3874,7 @@
         "index": {
           "description": "MONGOLIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MN",
           "package": "iso3166-country-codes",
@@ -3591,6 +3889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMACAO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MO",
           "package": "iso3166-country-codes",
@@ -3601,6 +3900,7 @@
         "index": {
           "description": "MACAO",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MO",
           "package": "iso3166-country-codes",
@@ -3615,6 +3915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNORTHERN MARIANA ISLANDS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MP",
           "package": "iso3166-country-codes",
@@ -3625,6 +3926,7 @@
         "index": {
           "description": "NORTHERN MARIANA ISLANDS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MP",
           "package": "iso3166-country-codes",
@@ -3639,6 +3941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMARTINIQUE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MQ",
           "package": "iso3166-country-codes",
@@ -3649,6 +3952,7 @@
         "index": {
           "description": "MARTINIQUE",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MQ",
           "package": "iso3166-country-codes",
@@ -3663,6 +3967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMAURITANIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MR",
           "package": "iso3166-country-codes",
@@ -3673,6 +3978,7 @@
         "index": {
           "description": "MAURITANIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MR",
           "package": "iso3166-country-codes",
@@ -3687,6 +3993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMONTSERRAT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MS",
           "package": "iso3166-country-codes",
@@ -3697,6 +4004,7 @@
         "index": {
           "description": "MONTSERRAT",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MS",
           "package": "iso3166-country-codes",
@@ -3711,6 +4019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMALTA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MT",
           "package": "iso3166-country-codes",
@@ -3721,6 +4030,7 @@
         "index": {
           "description": "MALTA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MT",
           "package": "iso3166-country-codes",
@@ -3735,6 +4045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMAURITIUS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MU",
           "package": "iso3166-country-codes",
@@ -3745,6 +4056,7 @@
         "index": {
           "description": "MAURITIUS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MU",
           "package": "iso3166-country-codes",
@@ -3759,6 +4071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMALDIVES\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MV",
           "package": "iso3166-country-codes",
@@ -3769,6 +4082,7 @@
         "index": {
           "description": "MALDIVES",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MV",
           "package": "iso3166-country-codes",
@@ -3783,6 +4097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMALAWI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MW",
           "package": "iso3166-country-codes",
@@ -3793,6 +4108,7 @@
         "index": {
           "description": "MALAWI",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MW",
           "package": "iso3166-country-codes",
@@ -3807,6 +4123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMEXICO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MX",
           "package": "iso3166-country-codes",
@@ -3817,6 +4134,7 @@
         "index": {
           "description": "MEXICO",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MX",
           "package": "iso3166-country-codes",
@@ -3831,6 +4149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMALAYSIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MY",
           "package": "iso3166-country-codes",
@@ -3841,6 +4160,7 @@
         "index": {
           "description": "MALAYSIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MY",
           "package": "iso3166-country-codes",
@@ -3855,6 +4175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMOZAMBIQUE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MZ",
           "package": "iso3166-country-codes",
@@ -3865,6 +4186,7 @@
         "index": {
           "description": "MOZAMBIQUE",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "MZ",
           "package": "iso3166-country-codes",
@@ -3879,6 +4201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNAMIBIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NA",
           "package": "iso3166-country-codes",
@@ -3889,6 +4212,7 @@
         "index": {
           "description": "NAMIBIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NA",
           "package": "iso3166-country-codes",
@@ -3903,6 +4227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNEW CALEDONIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NC",
           "package": "iso3166-country-codes",
@@ -3913,6 +4238,7 @@
         "index": {
           "description": "NEW CALEDONIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NC",
           "package": "iso3166-country-codes",
@@ -3927,6 +4253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNIGER\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NE",
           "package": "iso3166-country-codes",
@@ -3937,6 +4264,7 @@
         "index": {
           "description": "NIGER",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NE",
           "package": "iso3166-country-codes",
@@ -3951,6 +4279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNORFOLK ISLAND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NF",
           "package": "iso3166-country-codes",
@@ -3961,6 +4290,7 @@
         "index": {
           "description": "NORFOLK ISLAND",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NF",
           "package": "iso3166-country-codes",
@@ -3975,6 +4305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNIGERIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NG",
           "package": "iso3166-country-codes",
@@ -3985,6 +4316,7 @@
         "index": {
           "description": "NIGERIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NG",
           "package": "iso3166-country-codes",
@@ -3999,6 +4331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNICARAGUA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NI",
           "package": "iso3166-country-codes",
@@ -4009,6 +4342,7 @@
         "index": {
           "description": "NICARAGUA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NI",
           "package": "iso3166-country-codes",
@@ -4023,6 +4357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNETHERLANDS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NL",
           "package": "iso3166-country-codes",
@@ -4033,6 +4368,7 @@
         "index": {
           "description": "NETHERLANDS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NL",
           "package": "iso3166-country-codes",
@@ -4047,6 +4383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNORWAY\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NO",
           "package": "iso3166-country-codes",
@@ -4057,6 +4394,7 @@
         "index": {
           "description": "NORWAY",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NO",
           "package": "iso3166-country-codes",
@@ -4071,6 +4409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNEPAL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NP",
           "package": "iso3166-country-codes",
@@ -4081,6 +4420,7 @@
         "index": {
           "description": "NEPAL",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NP",
           "package": "iso3166-country-codes",
@@ -4095,6 +4435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNAURU\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NR",
           "package": "iso3166-country-codes",
@@ -4105,6 +4446,7 @@
         "index": {
           "description": "NAURU",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NR",
           "package": "iso3166-country-codes",
@@ -4119,6 +4461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNIUE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NU",
           "package": "iso3166-country-codes",
@@ -4129,6 +4472,7 @@
         "index": {
           "description": "NIUE",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NU",
           "package": "iso3166-country-codes",
@@ -4143,6 +4487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNEW ZEALAND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NZ",
           "package": "iso3166-country-codes",
@@ -4153,6 +4498,7 @@
         "index": {
           "description": "NEW ZEALAND",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "NZ",
           "package": "iso3166-country-codes",
@@ -4167,6 +4513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOMAN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "OM",
           "package": "iso3166-country-codes",
@@ -4177,6 +4524,7 @@
         "index": {
           "description": "OMAN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "OM",
           "package": "iso3166-country-codes",
@@ -4191,6 +4539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePANAMA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PA",
           "package": "iso3166-country-codes",
@@ -4201,6 +4550,7 @@
         "index": {
           "description": "PANAMA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PA",
           "package": "iso3166-country-codes",
@@ -4215,6 +4565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePERU\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PE",
           "package": "iso3166-country-codes",
@@ -4225,6 +4576,7 @@
         "index": {
           "description": "PERU",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PE",
           "package": "iso3166-country-codes",
@@ -4239,6 +4591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFRENCH POLYNESIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PF",
           "package": "iso3166-country-codes",
@@ -4249,6 +4602,7 @@
         "index": {
           "description": "FRENCH POLYNESIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PF",
           "package": "iso3166-country-codes",
@@ -4263,6 +4617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePAPUA NEW GUINEA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PG",
           "package": "iso3166-country-codes",
@@ -4273,6 +4628,7 @@
         "index": {
           "description": "PAPUA NEW GUINEA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PG",
           "package": "iso3166-country-codes",
@@ -4287,6 +4643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePHILIPPINES\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PH",
           "package": "iso3166-country-codes",
@@ -4297,6 +4654,7 @@
         "index": {
           "description": "PHILIPPINES",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PH",
           "package": "iso3166-country-codes",
@@ -4311,6 +4669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePAKISTAN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PK",
           "package": "iso3166-country-codes",
@@ -4321,6 +4680,7 @@
         "index": {
           "description": "PAKISTAN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PK",
           "package": "iso3166-country-codes",
@@ -4335,6 +4695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePOLAND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PL",
           "package": "iso3166-country-codes",
@@ -4345,6 +4706,7 @@
         "index": {
           "description": "POLAND",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PL",
           "package": "iso3166-country-codes",
@@ -4359,6 +4721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSAINT PIERRE AND MIQUELON\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PM",
           "package": "iso3166-country-codes",
@@ -4369,6 +4732,7 @@
         "index": {
           "description": "SAINT PIERRE AND MIQUELON",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PM",
           "package": "iso3166-country-codes",
@@ -4383,6 +4747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePITCAIRN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PN",
           "package": "iso3166-country-codes",
@@ -4393,6 +4758,7 @@
         "index": {
           "description": "PITCAIRN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PN",
           "package": "iso3166-country-codes",
@@ -4407,6 +4773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePUERTO RICO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PR",
           "package": "iso3166-country-codes",
@@ -4417,6 +4784,7 @@
         "index": {
           "description": "PUERTO RICO",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PR",
           "package": "iso3166-country-codes",
@@ -4431,6 +4799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePALESTINE, STATE OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PS",
           "package": "iso3166-country-codes",
@@ -4441,6 +4810,7 @@
         "index": {
           "description": "PALESTINE STATE OF",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PS",
           "package": "iso3166-country-codes",
@@ -4455,6 +4825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePORTUGAL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PT",
           "package": "iso3166-country-codes",
@@ -4465,6 +4836,7 @@
         "index": {
           "description": "PORTUGAL",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PT",
           "package": "iso3166-country-codes",
@@ -4479,6 +4851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePALAU\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PW",
           "package": "iso3166-country-codes",
@@ -4489,6 +4862,7 @@
         "index": {
           "description": "PALAU",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PW",
           "package": "iso3166-country-codes",
@@ -4503,6 +4877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePARAGUAY\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PY",
           "package": "iso3166-country-codes",
@@ -4513,6 +4888,7 @@
         "index": {
           "description": "PARAGUAY",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "PY",
           "package": "iso3166-country-codes",
@@ -4527,6 +4903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQATAR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "QA",
           "package": "iso3166-country-codes",
@@ -4537,6 +4914,7 @@
         "index": {
           "description": "QATAR",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "QA",
           "package": "iso3166-country-codes",
@@ -4551,6 +4929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eR&#201;UNION\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "RE",
           "package": "iso3166-country-codes",
@@ -4561,6 +4940,7 @@
         "index": {
           "description": "UNION",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "RE",
           "package": "iso3166-country-codes",
@@ -4575,6 +4955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eROMANIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "RO",
           "package": "iso3166-country-codes",
@@ -4585,6 +4966,7 @@
         "index": {
           "description": "ROMANIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "RO",
           "package": "iso3166-country-codes",
@@ -4599,6 +4981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSERBIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "RS",
           "package": "iso3166-country-codes",
@@ -4609,6 +4992,7 @@
         "index": {
           "description": "SERBIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "RS",
           "package": "iso3166-country-codes",
@@ -4623,6 +5007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRUSSIAN FEDERATION\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "RU",
           "package": "iso3166-country-codes",
@@ -4633,6 +5018,7 @@
         "index": {
           "description": "RUSSIAN FEDERATION",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "RU",
           "package": "iso3166-country-codes",
@@ -4647,6 +5033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRWANDA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "RW",
           "package": "iso3166-country-codes",
@@ -4657,6 +5044,7 @@
         "index": {
           "description": "RWANDA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "RW",
           "package": "iso3166-country-codes",
@@ -4671,6 +5059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSAUDI ARABIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SA",
           "package": "iso3166-country-codes",
@@ -4681,6 +5070,7 @@
         "index": {
           "description": "SAUDI ARABIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SA",
           "package": "iso3166-country-codes",
@@ -4695,6 +5085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSOLOMON ISLANDS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SB",
           "package": "iso3166-country-codes",
@@ -4705,6 +5096,7 @@
         "index": {
           "description": "SOLOMON ISLANDS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SB",
           "package": "iso3166-country-codes",
@@ -4719,6 +5111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSEYCHELLES\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SC",
           "package": "iso3166-country-codes",
@@ -4729,6 +5122,7 @@
         "index": {
           "description": "SEYCHELLES",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SC",
           "package": "iso3166-country-codes",
@@ -4743,6 +5137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSUDAN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SD",
           "package": "iso3166-country-codes",
@@ -4753,6 +5148,7 @@
         "index": {
           "description": "SUDAN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SD",
           "package": "iso3166-country-codes",
@@ -4767,6 +5163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSWEDEN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SE",
           "package": "iso3166-country-codes",
@@ -4777,6 +5174,7 @@
         "index": {
           "description": "SWEDEN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SE",
           "package": "iso3166-country-codes",
@@ -4791,6 +5189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSINGAPORE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SG",
           "package": "iso3166-country-codes",
@@ -4801,6 +5200,7 @@
         "index": {
           "description": "SINGAPORE",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SG",
           "package": "iso3166-country-codes",
@@ -4815,6 +5215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSAINT HELENA, ASCENSION AND TRISTAN DA CUNHA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SH",
           "package": "iso3166-country-codes",
@@ -4825,6 +5226,7 @@
         "index": {
           "description": "SAINT HELENA ASCENSION AND TRISTAN DA CUNHA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SH",
           "package": "iso3166-country-codes",
@@ -4839,6 +5241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSLOVENIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SI",
           "package": "iso3166-country-codes",
@@ -4849,6 +5252,7 @@
         "index": {
           "description": "SLOVENIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SI",
           "package": "iso3166-country-codes",
@@ -4863,6 +5267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSVALBARD AND JAN MAYEN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SJ",
           "package": "iso3166-country-codes",
@@ -4873,6 +5278,7 @@
         "index": {
           "description": "SVALBARD AND JAN MAYEN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SJ",
           "package": "iso3166-country-codes",
@@ -4887,6 +5293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSLOVAKIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SK",
           "package": "iso3166-country-codes",
@@ -4897,6 +5304,7 @@
         "index": {
           "description": "SLOVAKIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SK",
           "package": "iso3166-country-codes",
@@ -4911,6 +5319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSIERRA LEONE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SL",
           "package": "iso3166-country-codes",
@@ -4921,6 +5330,7 @@
         "index": {
           "description": "SIERRA LEONE",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SL",
           "package": "iso3166-country-codes",
@@ -4935,6 +5345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSAN MARINO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SM",
           "package": "iso3166-country-codes",
@@ -4945,6 +5356,7 @@
         "index": {
           "description": "SAN MARINO",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SM",
           "package": "iso3166-country-codes",
@@ -4959,6 +5371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSENEGAL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SN",
           "package": "iso3166-country-codes",
@@ -4969,6 +5382,7 @@
         "index": {
           "description": "SENEGAL",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SN",
           "package": "iso3166-country-codes",
@@ -4983,6 +5397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSOMALIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SO",
           "package": "iso3166-country-codes",
@@ -4993,6 +5408,7 @@
         "index": {
           "description": "SOMALIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SO",
           "package": "iso3166-country-codes",
@@ -5007,6 +5423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSURINAME\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SR",
           "package": "iso3166-country-codes",
@@ -5017,6 +5434,7 @@
         "index": {
           "description": "SURINAME",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SR",
           "package": "iso3166-country-codes",
@@ -5031,6 +5449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSOUTH SUDAN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SS",
           "package": "iso3166-country-codes",
@@ -5041,6 +5460,7 @@
         "index": {
           "description": "SOUTH SUDAN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SS",
           "package": "iso3166-country-codes",
@@ -5055,6 +5475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSAO TOME AND PRINCIPE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ST",
           "package": "iso3166-country-codes",
@@ -5065,6 +5486,7 @@
         "index": {
           "description": "SAO TOME AND PRINCIPE",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ST",
           "package": "iso3166-country-codes",
@@ -5079,6 +5501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEL SALVADOR\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SV",
           "package": "iso3166-country-codes",
@@ -5089,6 +5512,7 @@
         "index": {
           "description": "EL SALVADOR",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SV",
           "package": "iso3166-country-codes",
@@ -5103,6 +5527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSINT MAARTEN (DUTCH PART)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SX",
           "package": "iso3166-country-codes",
@@ -5113,6 +5538,7 @@
         "index": {
           "description": "SINT MAARTEN DUTCH PART",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SX",
           "package": "iso3166-country-codes",
@@ -5127,6 +5553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSYRIAN ARAB REPUBLIC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SY",
           "package": "iso3166-country-codes",
@@ -5137,6 +5564,7 @@
         "index": {
           "description": "SYRIAN ARAB REPUBLIC",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SY",
           "package": "iso3166-country-codes",
@@ -5151,6 +5579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSWAZILAND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SZ",
           "package": "iso3166-country-codes",
@@ -5161,6 +5590,7 @@
         "index": {
           "description": "SWAZILAND",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "SZ",
           "package": "iso3166-country-codes",
@@ -5175,6 +5605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTURKS AND CAICOS ISLANDS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TC",
           "package": "iso3166-country-codes",
@@ -5185,6 +5616,7 @@
         "index": {
           "description": "TURKS AND CAICOS ISLANDS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TC",
           "package": "iso3166-country-codes",
@@ -5199,6 +5631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCHAD\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TD",
           "package": "iso3166-country-codes",
@@ -5209,6 +5642,7 @@
         "index": {
           "description": "CHAD",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TD",
           "package": "iso3166-country-codes",
@@ -5223,6 +5657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFRENCH SOUTHERN TERRITORIES\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TF",
           "package": "iso3166-country-codes",
@@ -5233,6 +5668,7 @@
         "index": {
           "description": "FRENCH SOUTHERN TERRITORIES",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TF",
           "package": "iso3166-country-codes",
@@ -5247,6 +5683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTOGO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TG",
           "package": "iso3166-country-codes",
@@ -5257,6 +5694,7 @@
         "index": {
           "description": "TOGO",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TG",
           "package": "iso3166-country-codes",
@@ -5271,6 +5709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTHAILAND\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TH",
           "package": "iso3166-country-codes",
@@ -5281,6 +5720,7 @@
         "index": {
           "description": "THAILAND",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TH",
           "package": "iso3166-country-codes",
@@ -5295,6 +5735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTAJIKISTAN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TJ",
           "package": "iso3166-country-codes",
@@ -5305,6 +5746,7 @@
         "index": {
           "description": "TAJIKISTAN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TJ",
           "package": "iso3166-country-codes",
@@ -5319,6 +5761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTOKELAU\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TK",
           "package": "iso3166-country-codes",
@@ -5329,6 +5772,7 @@
         "index": {
           "description": "TOKELAU",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TK",
           "package": "iso3166-country-codes",
@@ -5343,6 +5787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTIMOR-LESTE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TL",
           "package": "iso3166-country-codes",
@@ -5353,6 +5798,7 @@
         "index": {
           "description": "TIMOR-LESTE",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TL",
           "package": "iso3166-country-codes",
@@ -5367,6 +5813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTURKMENISTAN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TM",
           "package": "iso3166-country-codes",
@@ -5377,6 +5824,7 @@
         "index": {
           "description": "TURKMENISTAN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TM",
           "package": "iso3166-country-codes",
@@ -5391,6 +5839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTUNISIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TN",
           "package": "iso3166-country-codes",
@@ -5401,6 +5850,7 @@
         "index": {
           "description": "TUNISIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TN",
           "package": "iso3166-country-codes",
@@ -5415,6 +5865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTONGA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TO",
           "package": "iso3166-country-codes",
@@ -5425,6 +5876,7 @@
         "index": {
           "description": "TONGA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TO",
           "package": "iso3166-country-codes",
@@ -5439,6 +5891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTURKEY\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TR",
           "package": "iso3166-country-codes",
@@ -5449,6 +5902,7 @@
         "index": {
           "description": "TURKEY",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TR",
           "package": "iso3166-country-codes",
@@ -5463,6 +5917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTRINIDAD AND TOBAGO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TT",
           "package": "iso3166-country-codes",
@@ -5473,6 +5928,7 @@
         "index": {
           "description": "TRINIDAD AND TOBAGO",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TT",
           "package": "iso3166-country-codes",
@@ -5487,6 +5943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTUVALU\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TV",
           "package": "iso3166-country-codes",
@@ -5497,6 +5954,7 @@
         "index": {
           "description": "TUVALU",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TV",
           "package": "iso3166-country-codes",
@@ -5511,6 +5969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTAIWAN, PROVINCE OF CHINA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TW",
           "package": "iso3166-country-codes",
@@ -5521,6 +5980,7 @@
         "index": {
           "description": "TAIWAN PROVINCE OF CHINA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TW",
           "package": "iso3166-country-codes",
@@ -5535,6 +5995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTANZANIA, UNITED REPUBLIC OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TZ",
           "package": "iso3166-country-codes",
@@ -5545,6 +6006,7 @@
         "index": {
           "description": "TANZANIA UNITED REPUBLIC OF",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "TZ",
           "package": "iso3166-country-codes",
@@ -5559,6 +6021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUKRAINE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "UA",
           "package": "iso3166-country-codes",
@@ -5569,6 +6032,7 @@
         "index": {
           "description": "UKRAINE",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "UA",
           "package": "iso3166-country-codes",
@@ -5583,6 +6047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUGANDA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "UG",
           "package": "iso3166-country-codes",
@@ -5593,6 +6058,7 @@
         "index": {
           "description": "UGANDA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "UG",
           "package": "iso3166-country-codes",
@@ -5607,6 +6073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUNITED STATES MINOR OUTLYING ISLANDS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "UM",
           "package": "iso3166-country-codes",
@@ -5617,6 +6084,7 @@
         "index": {
           "description": "UNITED STATES MINOR OUTLYING ISLANDS",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "UM",
           "package": "iso3166-country-codes",
@@ -5631,6 +6099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUNITED STATES\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "US",
           "package": "iso3166-country-codes",
@@ -5641,6 +6110,7 @@
         "index": {
           "description": "UNITED STATES",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "US",
           "package": "iso3166-country-codes",
@@ -5655,6 +6125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURUGUAY\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "UY",
           "package": "iso3166-country-codes",
@@ -5665,6 +6136,7 @@
         "index": {
           "description": "URUGUAY",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "UY",
           "package": "iso3166-country-codes",
@@ -5679,6 +6151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUZBEKISTAN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "UZ",
           "package": "iso3166-country-codes",
@@ -5689,6 +6162,7 @@
         "index": {
           "description": "UZBEKISTAN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "UZ",
           "package": "iso3166-country-codes",
@@ -5703,6 +6177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHOLY SEE (VATICAN CITY STATE)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "VA",
           "package": "iso3166-country-codes",
@@ -5713,6 +6188,7 @@
         "index": {
           "description": "HOLY SEE VATICAN CITY STATE",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "VA",
           "package": "iso3166-country-codes",
@@ -5727,6 +6203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSAINT VINCENT AND THE GRENADINES\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "VC",
           "package": "iso3166-country-codes",
@@ -5737,6 +6214,7 @@
         "index": {
           "description": "SAINT VINCENT AND THE GRENADINES",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "VC",
           "package": "iso3166-country-codes",
@@ -5751,6 +6229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVENEZUELA, BOLIVARIAN REPUBLIC OF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "VE",
           "package": "iso3166-country-codes",
@@ -5761,6 +6240,7 @@
         "index": {
           "description": "VENEZUELA BOLIVARIAN REPUBLIC OF",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "VE",
           "package": "iso3166-country-codes",
@@ -5775,6 +6255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVIRGIN ISLANDS, BRITISH\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "VG",
           "package": "iso3166-country-codes",
@@ -5785,6 +6266,7 @@
         "index": {
           "description": "VIRGIN ISLANDS BRITISH",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "VG",
           "package": "iso3166-country-codes",
@@ -5799,6 +6281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVIRGIN ISLANDS, U.S.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "VI",
           "package": "iso3166-country-codes",
@@ -5809,6 +6292,7 @@
         "index": {
           "description": "VIRGIN ISLANDS U.S",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "VI",
           "package": "iso3166-country-codes",
@@ -5823,6 +6307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVIET NAM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "VN",
           "package": "iso3166-country-codes",
@@ -5833,6 +6318,7 @@
         "index": {
           "description": "VIET NAM",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "VN",
           "package": "iso3166-country-codes",
@@ -5847,6 +6333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVANUATU\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "VU",
           "package": "iso3166-country-codes",
@@ -5857,6 +6344,7 @@
         "index": {
           "description": "VANUATU",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "VU",
           "package": "iso3166-country-codes",
@@ -5871,6 +6359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWALLIS AND FUTUNA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "WF",
           "package": "iso3166-country-codes",
@@ -5881,6 +6370,7 @@
         "index": {
           "description": "WALLIS AND FUTUNA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "WF",
           "package": "iso3166-country-codes",
@@ -5895,6 +6385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSAMOA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "WS",
           "package": "iso3166-country-codes",
@@ -5905,6 +6396,7 @@
         "index": {
           "description": "SAMOA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "WS",
           "package": "iso3166-country-codes",
@@ -5919,6 +6411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYEMEN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "YE",
           "package": "iso3166-country-codes",
@@ -5929,6 +6422,7 @@
         "index": {
           "description": "YEMEN",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "YE",
           "package": "iso3166-country-codes",
@@ -5943,6 +6437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMAYOTTE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "YT",
           "package": "iso3166-country-codes",
@@ -5953,6 +6448,7 @@
         "index": {
           "description": "MAYOTTE",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "YT",
           "package": "iso3166-country-codes",
@@ -5967,6 +6463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSOUTH AFRICA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ZA",
           "package": "iso3166-country-codes",
@@ -5977,6 +6474,7 @@
         "index": {
           "description": "SOUTH AFRICA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ZA",
           "package": "iso3166-country-codes",
@@ -5991,6 +6489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZAMBIA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ZM",
           "package": "iso3166-country-codes",
@@ -6001,6 +6500,7 @@
         "index": {
           "description": "ZAMBIA",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ZM",
           "package": "iso3166-country-codes",
@@ -6015,6 +6515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZIMBABWE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ZW",
           "package": "iso3166-country-codes",
@@ -6025,6 +6526,7 @@
         "index": {
           "description": "ZIMBABWE",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "ZW",
           "package": "iso3166-country-codes",
@@ -6039,6 +6541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a country code to the official (English) name of the country\n\u003c/p\u003e\u003cp\u003esee \u003ccode\u003e\u003ccode\u003e\u003ca\u003ereadableCountryName\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e for something with a more pleasing word order and capitalisation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "countryNameFromCode",
           "package": "iso3166-country-codes",
@@ -6049,6 +6552,7 @@
         "index": {
           "description": "convert country code to the official English name of the country see readableCountryName for something with more pleasing word order and capitalisation",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "countryNameFromCode",
           "normalized": "CountryCode-\u003eString",
@@ -6065,6 +6569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA human readable version of the official name of a country\n     from its country code\n\u003c/p\u003e\u003cp\u003eUses some ad-hockery to rearrange the order of the words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:54 UTC 2014",
           "module": "Data.ISO3166_CountryCodes",
           "name": "readableCountryName",
           "package": "iso3166-country-codes",
@@ -6075,6 +6580,7 @@
         "index": {
           "description": "human readable version of the official name of country from its country code Uses some ad-hockery to rearrange the order of the words",
           "hierarchy": "Data ISO3166_CountryCodes",
+          "indexed": "2014-03-11T18:59:54",
           "module": "Data.ISO3166_CountryCodes",
           "name": "readableCountryName",
           "normalized": "CountryCode-\u003eString",

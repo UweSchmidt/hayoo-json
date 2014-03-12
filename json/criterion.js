@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "criterion"
+        "phrase": "criterion",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAnalysis types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Analysis.Types",
           "name": "Types",
           "package": "criterion",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Analysis types",
           "hierarchy": "Criterion Analysis Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Analysis.Types",
           "name": "Types",
           "package": "criterion",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA description of the extent to which outliers in the sample data\n affect the sample mean and standard deviation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Analysis.Types",
           "name": "OutlierEffect",
           "package": "criterion",
@@ -51,6 +54,7 @@
         "index": {
           "description": "description of the extent to which outliers in the sample data affect the sample mean and standard deviation",
           "hierarchy": "Criterion Analysis Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Analysis.Types",
           "name": "OutlierEffect",
           "package": "criterion",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalysis of the extent to which outliers in a sample affect its\n standard deviation (and to some extent, its mean).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Analysis.Types",
           "name": "OutlierVariance",
           "package": "criterion",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Analysis of the extent to which outliers in sample affect its standard deviation and to some extent its mean",
           "hierarchy": "Criterion Analysis Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Analysis.Types",
           "name": "OutlierVariance",
           "package": "criterion",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutliers from sample data, calculated using the boxplot\n technique.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Analysis.Types",
           "name": "Outliers",
           "package": "criterion",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Outliers from sample data calculated using the boxplot technique",
           "hierarchy": "Criterion Analysis Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Analysis.Types",
           "name": "Outliers",
           "package": "criterion",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of a bootstrap analysis of a non-parametric sample.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Analysis.Types",
           "name": "SampleAnalysis",
           "package": "criterion",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Result of bootstrap analysis of non-parametric sample",
           "hierarchy": "Criterion Analysis Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Analysis.Types",
           "name": "SampleAnalysis",
           "package": "criterion",
@@ -570,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAnalysis code for benchmarks.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Analysis",
           "name": "Analysis",
           "package": "criterion",
@@ -579,6 +590,7 @@
         "index": {
           "description": "Analysis code for benchmarks",
           "hierarchy": "Criterion Analysis",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Analysis",
           "name": "Analysis",
           "package": "criterion",
@@ -593,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA description of the extent to which outliers in the sample data\n affect the sample mean and standard deviation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Analysis",
           "name": "OutlierEffect",
           "package": "criterion",
@@ -602,6 +615,7 @@
         "index": {
           "description": "description of the extent to which outliers in the sample data affect the sample mean and standard deviation",
           "hierarchy": "Criterion Analysis",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Analysis",
           "name": "OutlierEffect",
           "package": "criterion",
@@ -616,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalysis of the extent to which outliers in a sample affect its\n standard deviation (and to some extent, its mean).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Analysis",
           "name": "OutlierVariance",
           "package": "criterion",
@@ -625,6 +640,7 @@
         "index": {
           "description": "Analysis of the extent to which outliers in sample affect its standard deviation and to some extent its mean",
           "hierarchy": "Criterion Analysis",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Analysis",
           "name": "OutlierVariance",
           "package": "criterion",
@@ -639,6 +655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutliers from sample data, calculated using the boxplot\n technique.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Analysis",
           "name": "Outliers",
           "package": "criterion",
@@ -648,6 +665,7 @@
         "index": {
           "description": "Outliers from sample data calculated using the boxplot technique",
           "hierarchy": "Criterion Analysis",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Analysis",
           "name": "Outliers",
           "package": "criterion",
@@ -662,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of a bootstrap analysis of a non-parametric sample.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Analysis",
           "name": "SampleAnalysis",
           "package": "criterion",
@@ -671,6 +690,7 @@
         "index": {
           "description": "Result of bootstrap analysis of non-parametric sample",
           "hierarchy": "Criterion Analysis",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Analysis",
           "name": "SampleAnalysis",
           "package": "criterion",
@@ -685,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay the mean of a \u003ccode\u003e\u003ca\u003eSample\u003c/a\u003e\u003c/code\u003e, and characterise the outliers\n present in the sample.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Analysis",
           "name": "analyseMean",
           "package": "criterion",
@@ -694,6 +715,7 @@
         "index": {
           "description": "Display the mean of Sample and characterise the outliers present in the sample",
           "hierarchy": "Criterion Analysis",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Analysis",
           "name": "analyseMean",
           "normalized": "Sample-\u003eInt-\u003eCriterion Double",
@@ -710,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a bootstrap analysis of a non-parametric sample.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Analysis",
           "name": "analyseSample",
           "package": "criterion",
@@ -719,6 +742,7 @@
         "index": {
           "description": "Perform bootstrap analysis of non-parametric sample",
           "hierarchy": "Criterion Analysis",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Analysis",
           "name": "analyseSample",
           "normalized": "Double-\u003eSample-\u003eInt-\u003eIO SampleAnalysis",
@@ -735,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClassify outliers in a data set, using the boxplot technique.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Analysis",
           "name": "classifyOutliers",
           "package": "criterion",
@@ -745,6 +770,7 @@
         "index": {
           "description": "Classify outliers in data set using the boxplot technique",
           "hierarchy": "Criterion Analysis",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Analysis",
           "name": "classifyOutliers",
           "normalized": "Sample-\u003eOutliers",
@@ -761,6 +787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount the total number of outliers in a sample.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Analysis",
           "name": "countOutliers",
           "package": "criterion",
@@ -771,6 +798,7 @@
         "index": {
           "description": "Count the total number of outliers in sample",
           "hierarchy": "Criterion Analysis",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Analysis",
           "name": "countOutliers",
           "normalized": "Outliers-\u003eInt",
@@ -787,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a report of the \u003ccode\u003e\u003ca\u003eOutliers\u003c/a\u003e\u003c/code\u003e present in a \u003ccode\u003e\u003ca\u003eSample\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Analysis",
           "name": "noteOutliers",
           "package": "criterion",
@@ -797,6 +826,7 @@
         "index": {
           "description": "Display report of the Outliers present in Sample",
           "hierarchy": "Criterion Analysis",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Analysis",
           "name": "noteOutliers",
           "normalized": "Outliers-\u003eCriterion()",
@@ -813,6 +843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the extent to which outliers in the sample data affect\n the sample mean and standard deviation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Analysis",
           "name": "outlierVariance",
           "package": "criterion",
@@ -822,6 +853,7 @@
         "index": {
           "description": "Compute the extent to which outliers in the sample data affect the sample mean and standard deviation",
           "hierarchy": "Criterion Analysis",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Analysis",
           "name": "outlierVariance",
           "normalized": "Estimate-\u003eEstimate-\u003eDouble-\u003eOutlierVariance",
@@ -838,6 +870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply the \u003ccode\u003eEstimate\u003c/code\u003es in an analysis by the given value, using\n \u003ccode\u003e\u003ca\u003escale\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Analysis",
           "name": "scale",
           "package": "criterion",
@@ -847,6 +880,7 @@
         "index": {
           "description": "Multiply the Estimate in an analysis by the given value using scale",
           "hierarchy": "Criterion Analysis",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Analysis",
           "name": "scale",
           "normalized": "Double-\u003eSampleAnalysis-\u003eSampleAnalysis",
@@ -862,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBenchmarking configuration.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "Config",
           "package": "criterion",
@@ -871,6 +906,7 @@
         "index": {
           "description": "Benchmarking configuration",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "Config",
           "package": "criterion",
@@ -885,6 +921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop-level program configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "Config",
           "package": "criterion",
@@ -894,6 +931,7 @@
         "index": {
           "description": "Top-level program configuration",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "Config",
           "package": "criterion",
@@ -907,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "MatchType",
           "package": "criterion",
@@ -915,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "MatchType",
           "package": "criterion",
@@ -929,6 +969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint some information and exit, without running any benchmarks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "PrintExit",
           "package": "criterion",
@@ -938,6 +979,7 @@
         "index": {
           "description": "Print some information and exit without running any benchmarks",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "PrintExit",
           "package": "criterion",
@@ -952,6 +994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl the amount of information displayed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "Verbosity",
           "package": "criterion",
@@ -961,6 +1004,7 @@
         "index": {
           "description": "Control the amount of information displayed",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "Verbosity",
           "package": "criterion",
@@ -974,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "Config",
           "package": "criterion",
@@ -983,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "Config",
           "package": "criterion",
@@ -996,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "Glob",
           "package": "criterion",
@@ -1005,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "Glob",
           "package": "criterion",
@@ -1019,6 +1067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a help/usaage message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "Help",
           "package": "criterion",
@@ -1029,6 +1078,7 @@
         "index": {
           "description": "Print help usaage message",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "Help",
           "package": "criterion",
@@ -1043,6 +1093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a list of known benchmarks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "List",
           "package": "criterion",
@@ -1053,6 +1104,7 @@
         "index": {
           "description": "Print list of known benchmarks",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "List",
           "package": "criterion",
@@ -1067,6 +1119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo not actually print-and-exit. (Default.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "Nada",
           "package": "criterion",
@@ -1077,6 +1130,7 @@
         "index": {
           "description": "Do not actually print-and-exit Default",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "Nada",
           "package": "criterion",
@@ -1090,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "Normal",
           "package": "criterion",
@@ -1099,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "Normal",
           "package": "criterion",
@@ -1112,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "Prefix",
           "package": "criterion",
@@ -1121,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "Prefix",
           "package": "criterion",
@@ -1134,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "Quiet",
           "package": "criterion",
@@ -1143,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "Quiet",
           "package": "criterion",
@@ -1156,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "Verbose",
           "package": "criterion",
@@ -1165,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "Verbose",
           "package": "criterion",
@@ -1179,6 +1241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint version information (if known).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "Version",
           "package": "criterion",
@@ -1189,6 +1252,7 @@
         "index": {
           "description": "Print version information if known",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "Version",
           "package": "criterion",
@@ -1203,6 +1267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \"version\" banner to print.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "cfgBanner",
           "package": "criterion",
@@ -1213,6 +1278,7 @@
         "index": {
           "description": "The version banner to print",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "cfgBanner",
           "package": "criterion",
@@ -1227,6 +1293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilename of the comparison CSV.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "cfgCompareFile",
           "package": "criterion",
@@ -1237,6 +1304,7 @@
         "index": {
           "description": "Filename of the comparison CSV",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "cfgCompareFile",
           "package": "criterion",
@@ -1251,6 +1319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfidence interval to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "cfgConfInterval",
           "package": "criterion",
@@ -1261,6 +1330,7 @@
         "index": {
           "description": "Confidence interval to use",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "cfgConfInterval",
           "package": "criterion",
@@ -1275,6 +1345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilename of JUnit report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "cfgJUnitFile",
           "package": "criterion",
@@ -1285,6 +1356,7 @@
         "index": {
           "description": "Filename of JUnit report",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "cfgJUnitFile",
           "package": "criterion",
@@ -1299,6 +1371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKind of matching to use for benchmark names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "cfgMatchType",
           "package": "criterion",
@@ -1309,6 +1382,7 @@
         "index": {
           "description": "Kind of matching to use for benchmark names",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "cfgMatchType",
           "package": "criterion",
@@ -1323,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to do any measurement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "cfgMeasure",
           "package": "criterion",
@@ -1333,6 +1408,7 @@
         "index": {
           "description": "Whether to do any measurement",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "cfgMeasure",
           "package": "criterion",
@@ -1347,6 +1423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to run the GC between passes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "cfgPerformGC",
           "package": "criterion",
@@ -1357,6 +1434,7 @@
         "index": {
           "description": "Whether to run the GC between passes",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "cfgPerformGC",
           "package": "criterion",
@@ -1371,6 +1449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to print information and exit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "cfgPrintExit",
           "package": "criterion",
@@ -1381,6 +1460,7 @@
         "index": {
           "description": "Whether to print information and exit",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "cfgPrintExit",
           "package": "criterion",
@@ -1395,6 +1475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilename of report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "cfgReport",
           "package": "criterion",
@@ -1405,6 +1486,7 @@
         "index": {
           "description": "Filename of report",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "cfgReport",
           "package": "criterion",
@@ -1419,6 +1501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of resamples to perform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "cfgResamples",
           "package": "criterion",
@@ -1429,6 +1512,7 @@
         "index": {
           "description": "Number of resamples to perform",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "cfgResamples",
           "package": "criterion",
@@ -1443,6 +1527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile to write raw results to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "cfgResults",
           "package": "criterion",
@@ -1453,6 +1538,7 @@
         "index": {
           "description": "File to write raw results to",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "cfgResults",
           "package": "criterion",
@@ -1467,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of samples to collect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "cfgSamples",
           "package": "criterion",
@@ -1477,6 +1564,7 @@
         "index": {
           "description": "Number of samples to collect",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "cfgSamples",
           "package": "criterion",
@@ -1491,6 +1579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilename of summary CSV.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "cfgSummaryFile",
           "package": "criterion",
@@ -1501,6 +1590,7 @@
         "index": {
           "description": "Filename of summary CSV",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "cfgSummaryFile",
           "package": "criterion",
@@ -1515,6 +1605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilename of report template.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "cfgTemplate",
           "package": "criterion",
@@ -1525,6 +1616,7 @@
         "index": {
           "description": "Filename of report template",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "cfgTemplate",
           "package": "criterion",
@@ -1539,6 +1631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to run verbosely.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "cfgVerbosity",
           "package": "criterion",
@@ -1549,6 +1642,7 @@
         "index": {
           "description": "Whether to run verbosely",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "cfgVerbosity",
           "package": "criterion",
@@ -1563,6 +1657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA configuration with sensible defaults.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "defaultConfig",
           "package": "criterion",
@@ -1573,6 +1668,7 @@
         "index": {
           "description": "configuration with sensible defaults",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "defaultConfig",
           "package": "criterion",
@@ -1587,6 +1683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeconstructor for \u003ccode\u003e\u003ca\u003eLast\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "fromLJ",
           "package": "criterion",
@@ -1596,6 +1693,7 @@
         "index": {
           "description": "Deconstructor for Last values",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "fromLJ",
           "normalized": "(Config-\u003eLast a)-\u003eConfig-\u003ea",
@@ -1612,6 +1710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor for \u003ccode\u003e\u003ca\u003eLast\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Config",
           "name": "ljust",
           "package": "criterion",
@@ -1622,6 +1721,7 @@
         "index": {
           "description": "Constructor for Last values",
           "hierarchy": "Criterion Config",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Config",
           "name": "ljust",
           "normalized": "a-\u003eLast a",
@@ -1637,6 +1737,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCode for measuring and characterising the execution environment.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Environment",
           "name": "Environment",
           "package": "criterion",
@@ -1646,6 +1747,7 @@
         "index": {
           "description": "Code for measuring and characterising the execution environment",
           "hierarchy": "Criterion Environment",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Environment",
           "name": "Environment",
           "package": "criterion",
@@ -1660,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeasured aspects of the execution environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Environment",
           "name": "Environment",
           "package": "criterion",
@@ -1669,6 +1772,7 @@
         "index": {
           "description": "Measured aspects of the execution environment",
           "hierarchy": "Criterion Environment",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Environment",
           "name": "Environment",
           "package": "criterion",
@@ -1682,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Environment",
           "name": "Environment",
           "package": "criterion",
@@ -1691,6 +1796,7 @@
         },
         "index": {
           "hierarchy": "Criterion Environment",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Environment",
           "name": "Environment",
           "package": "criterion",
@@ -1705,6 +1811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cost of a single clock call (in seconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Environment",
           "name": "envClockCost",
           "package": "criterion",
@@ -1715,6 +1822,7 @@
         "index": {
           "description": "The cost of single clock call in seconds",
           "hierarchy": "Criterion Environment",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Environment",
           "name": "envClockCost",
           "package": "criterion",
@@ -1729,6 +1837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClock resolution (in seconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Environment",
           "name": "envClockResolution",
           "package": "criterion",
@@ -1739,6 +1848,7 @@
         "index": {
           "description": "Clock resolution in seconds",
           "hierarchy": "Criterion Environment",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Environment",
           "name": "envClockResolution",
           "package": "criterion",
@@ -1753,6 +1863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeasure the execution environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Environment",
           "name": "measureEnvironment",
           "package": "criterion",
@@ -1763,6 +1874,7 @@
         "index": {
           "description": "Measure the execution environment",
           "hierarchy": "Criterion Environment",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Environment",
           "name": "measureEnvironment",
           "package": "criterion",
@@ -1777,6 +1889,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInput and output actions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.IO.Printf",
           "name": "Printf",
           "package": "criterion",
@@ -1786,6 +1899,7 @@
         "index": {
           "description": "Input and output actions",
           "hierarchy": "Criterion IO Printf",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.IO.Printf",
           "name": "Printf",
           "package": "criterion",
@@ -1800,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn internal class that acts like Printf/HPrintf.\n\u003c/p\u003e\u003cp\u003eThe implementation is visible to the rest of the program, but the\n details of the class are not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.IO.Printf",
           "name": "CritHPrintfType",
           "package": "criterion",
@@ -1809,6 +1924,7 @@
         "index": {
           "description": "An internal class that acts like Printf HPrintf The implementation is visible to the rest of the program but the details of the class are not",
           "hierarchy": "Criterion IO Printf",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.IO.Printf",
           "name": "CritHPrintfType",
           "package": "criterion",
@@ -1823,6 +1939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a \"normal\" note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.IO.Printf",
           "name": "note",
           "package": "criterion",
@@ -1833,6 +1950,7 @@
         "index": {
           "description": "Print normal note",
           "hierarchy": "Criterion IO Printf",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.IO.Printf",
           "name": "note",
           "normalized": "String-\u003ea",
@@ -1848,6 +1966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint an error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.IO.Printf",
           "name": "printError",
           "package": "criterion",
@@ -1858,6 +1977,7 @@
         "index": {
           "description": "Print an error message",
           "hierarchy": "Criterion IO Printf",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.IO.Printf",
           "name": "printError",
           "normalized": "String-\u003ea",
@@ -1874,6 +1994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint verbose output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.IO.Printf",
           "name": "prolix",
           "package": "criterion",
@@ -1884,6 +2005,7 @@
         "index": {
           "description": "Print verbose output",
           "hierarchy": "Criterion IO Printf",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.IO.Printf",
           "name": "prolix",
           "normalized": "String-\u003ea",
@@ -1899,6 +2021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd to summary CSV (if applicable)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.IO.Printf",
           "name": "summary",
           "package": "criterion",
@@ -1909,6 +2032,7 @@
         "index": {
           "description": "Add to summary CSV if applicable",
           "hierarchy": "Criterion IO Printf",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.IO.Printf",
           "name": "summary",
           "normalized": "String-\u003eCriterion()",
@@ -1924,6 +2048,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInput and output actions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.IO",
           "name": "IO",
           "package": "criterion",
@@ -1933,6 +2058,7 @@
         "index": {
           "description": "Input and output actions",
           "hierarchy": "Criterion IO",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.IO",
           "name": "IO",
           "package": "criterion",
@@ -1946,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.IO",
           "name": "hGetResults",
           "package": "criterion",
@@ -1955,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Criterion IO",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.IO",
           "name": "hGetResults",
           "normalized": "Handle-\u003eIO(Either String ResultForest)",
@@ -1970,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.IO",
           "name": "hPutResults",
           "package": "criterion",
@@ -1979,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "Criterion IO",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.IO",
           "name": "hPutResults",
           "normalized": "Handle-\u003eResultForest-\u003eIO()",
@@ -1994,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.IO",
           "name": "header",
           "package": "criterion",
@@ -2003,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "Criterion IO",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.IO",
           "name": "header",
           "package": "criterion",
@@ -2015,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.IO",
           "name": "readResults",
           "package": "criterion",
@@ -2024,6 +2157,7 @@
         },
         "index": {
           "hierarchy": "Criterion IO",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.IO",
           "name": "readResults",
           "normalized": "FilePath-\u003eIO(Either String ResultForest)",
@@ -2039,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.IO",
           "name": "writeResults",
           "package": "criterion",
@@ -2048,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "Criterion IO",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.IO",
           "name": "writeResults",
           "normalized": "FilePath-\u003eResultForest-\u003eIO()",
@@ -2064,6 +2200,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWrappers for compiling and running benchmarks quickly and easily.\n See \u003ccode\u003e\u003ca\u003edefaultMain\u003c/a\u003e\u003c/code\u003e below for an example.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Main",
           "name": "Main",
           "package": "criterion",
@@ -2073,6 +2210,7 @@
         "index": {
           "description": "Wrappers for compiling and running benchmarks quickly and easily See defaultMain below for an example",
           "hierarchy": "Criterion Main",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Main",
           "name": "Main",
           "package": "criterion",
@@ -2087,6 +2225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA benchmark may consist of either a single \u003ccode\u003e\u003ca\u003eBenchmarkable\u003c/a\u003e\u003c/code\u003e item\n with a name, created with \u003ccode\u003e\u003ca\u003ebench\u003c/a\u003e\u003c/code\u003e, or a (possibly nested) group of\n \u003ccode\u003e\u003ca\u003eBenchmark\u003c/a\u003e\u003c/code\u003es, created with \u003ccode\u003e\u003ca\u003ebgroup\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Main",
           "name": "Benchmark",
           "package": "criterion",
@@ -2096,6 +2235,7 @@
         "index": {
           "description": "benchmark may consist of either single Benchmarkable item with name created with bench or possibly nested group of Benchmark created with bgroup",
           "hierarchy": "Criterion Main",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Main",
           "name": "Benchmark",
           "package": "criterion",
@@ -2110,6 +2250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA benchmarkable function or action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Main",
           "name": "Benchmarkable",
           "package": "criterion",
@@ -2119,6 +2260,7 @@
         "index": {
           "description": "benchmarkable function or action",
           "hierarchy": "Criterion Main",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Main",
           "name": "Benchmarkable",
           "package": "criterion",
@@ -2133,6 +2275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA container for a pure function to benchmark, and an argument to\n supply to it each time it is evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Main",
           "name": "Pure",
           "package": "criterion",
@@ -2142,6 +2285,7 @@
         "index": {
           "description": "container for pure function to benchmark and an argument to supply to it each time it is evaluated",
           "hierarchy": "Criterion Main",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Main",
           "name": "Pure",
           "package": "criterion",
@@ -2232,6 +2376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn entry point that can be used as a \u003ccode\u003emain\u003c/code\u003e function.\n\u003c/p\u003e\u003cpre\u003e import Criterion.Main\n\n fib :: Int -\u003e Int\n fib 0 = 0\n fib 1 = 1\n fib n = fib (n-1) + fib (n-2)\n\n main = defaultMain [\n        bgroup \"fib\" [ bench \"10\" $ whnf fib 10\n                     , bench \"35\" $ whnf fib 35\n                     , bench \"37\" $ whnf fib 37\n                     ]\n                    ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Main",
           "name": "defaultMain",
           "package": "criterion",
@@ -2242,6 +2387,7 @@
         "index": {
           "description": "An entry point that can be used as main function import Criterion.Main fib Int Int fib fib fib fib n-1 fib n-2 main defaultMain bgroup fib bench whnf fib bench whnf fib bench whnf fib",
           "hierarchy": "Criterion Main",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Main",
           "name": "defaultMain",
           "normalized": "[Benchmark]-\u003eIO()",
@@ -2258,6 +2404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn entry point that can be used as a \u003ccode\u003emain\u003c/code\u003e function, with\n configurable defaults.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e import Criterion.Config\n import Criterion.Main\n\n myConfig = defaultConfig {\n              -- Always GC between runs.\n              cfgPerformGC = ljust True\n            }\n\n main = defaultMainWith myConfig (return ()) [\n          bench \"fib 30\" $ whnf fib 30\n        ]\n\u003c/pre\u003e\u003cp\u003eIf you save the above example as \u003ccode\u003e\"Fib.hs\"\u003c/code\u003e, you should be able\n to compile it as follows:\n\u003c/p\u003e\u003cpre\u003e ghc -O --make Fib\n\u003c/pre\u003e\u003cp\u003eRun \u003ccode\u003e\"Fib --help\"\u003c/code\u003e on the command line to get a list of command\n line options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Main",
           "name": "defaultMainWith",
           "package": "criterion",
@@ -2267,6 +2414,7 @@
         "index": {
           "description": "An entry point that can be used as main function with configurable defaults Example import Criterion.Config import Criterion.Main myConfig defaultConfig Always GC between runs cfgPerformGC ljust True main defaultMainWith myConfig return bench fib whnf fib If you save the above example as Fib.hs you should be able to compile it as follows ghc make Fib Run Fib help on the command line to get list of command line options",
           "hierarchy": "Criterion Main",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Main",
           "name": "defaultMainWith",
           "normalized": "Config-\u003eCriterion()-\u003e[Benchmark]-\u003eIO()",
@@ -2283,6 +2431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe standard options accepted on the command line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Main",
           "name": "defaultOptions",
           "package": "criterion",
@@ -2293,6 +2442,7 @@
         "index": {
           "description": "The standard options accepted on the command line",
           "hierarchy": "Criterion Main",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Main",
           "name": "defaultOptions",
           "normalized": "[OptDescr(IO Config)]",
@@ -2308,6 +2458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Main",
           "name": "makeMatcher",
           "package": "criterion",
@@ -2317,6 +2468,7 @@
         },
         "index": {
           "hierarchy": "Criterion Main",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Main",
           "name": "makeMatcher",
           "normalized": "MatchType-\u003e[String]-\u003eEither String(String-\u003eBool)",
@@ -2386,6 +2538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse command line options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Main",
           "name": "parseArgs",
           "package": "criterion",
@@ -2396,6 +2549,7 @@
         "index": {
           "description": "Parse command line options",
           "hierarchy": "Criterion Main",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Main",
           "name": "parseArgs",
           "normalized": "Config-\u003e[OptDescr(IO Config)]-\u003e[String]-\u003eIO(Config,[String])",
@@ -2412,6 +2566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a function or action the specified number of times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Main",
           "name": "run",
           "package": "criterion",
@@ -2422,6 +2577,7 @@
         "index": {
           "description": "Run function or action the specified number of times",
           "hierarchy": "Criterion Main",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Main",
           "name": "run",
           "package": "criterion",
@@ -2488,6 +2644,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBenchmark measurement code.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Measurement",
           "name": "Measurement",
           "package": "criterion",
@@ -2497,6 +2654,7 @@
         "index": {
           "description": "Benchmark measurement code",
           "hierarchy": "Criterion Measurement",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Measurement",
           "name": "Measurement",
           "package": "criterion",
@@ -2510,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Measurement",
           "name": "getTime",
           "package": "criterion",
@@ -2519,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Criterion Measurement",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Measurement",
           "name": "getTime",
           "package": "criterion",
@@ -2532,6 +2692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Measurement",
           "name": "runForAtLeast",
           "package": "criterion",
@@ -2541,6 +2702,7 @@
         },
         "index": {
           "hierarchy": "Criterion Measurement",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Measurement",
           "name": "runForAtLeast",
           "normalized": "Double-\u003eInt-\u003e(Int-\u003eIO a)-\u003eIO(Double,Int,a)",
@@ -2556,6 +2718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Measurement",
           "name": "secs",
           "package": "criterion",
@@ -2565,6 +2728,7 @@
         },
         "index": {
           "hierarchy": "Criterion Measurement",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Measurement",
           "name": "secs",
           "normalized": "Double-\u003eString",
@@ -2579,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Measurement",
           "name": "time",
           "package": "criterion",
@@ -2588,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Criterion Measurement",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Measurement",
           "name": "time",
           "normalized": "IO a-\u003eIO(Double,a)",
@@ -2602,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Measurement",
           "name": "time_",
           "package": "criterion",
@@ -2611,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Criterion Measurement",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Measurement",
           "name": "time_",
           "normalized": "IO a-\u003eIO Double",
@@ -2626,6 +2794,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe environment in which most criterion code executes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Monad",
           "name": "Monad",
           "package": "criterion",
@@ -2635,6 +2804,7 @@
         "index": {
           "description": "The environment in which most criterion code executes",
           "hierarchy": "Criterion Monad",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Monad",
           "name": "Monad",
           "package": "criterion",
@@ -2649,6 +2819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monad in which most criterion code executes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Monad",
           "name": "Criterion",
           "package": "criterion",
@@ -2658,6 +2829,7 @@
         "index": {
           "description": "The monad in which most criterion code executes",
           "hierarchy": "Criterion Monad",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Monad",
           "name": "Criterion",
           "package": "criterion",
@@ -2671,6 +2843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Monad",
           "name": "getConfig",
           "package": "criterion",
@@ -2680,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "Criterion Monad",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Monad",
           "name": "getConfig",
           "package": "criterion",
@@ -2693,6 +2867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Monad",
           "name": "getConfigItem",
           "package": "criterion",
@@ -2702,6 +2877,7 @@
         },
         "index": {
           "hierarchy": "Criterion Monad",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Monad",
           "name": "getConfigItem",
           "normalized": "(Config-\u003ea)-\u003eCriterion a",
@@ -2717,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Monad",
           "name": "withConfig",
           "package": "criterion",
@@ -2726,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Criterion Monad",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Monad",
           "name": "withConfig",
           "normalized": "Config-\u003eCriterion a-\u003eIO a",
@@ -2742,6 +2920,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReporting functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Report",
           "name": "Report",
           "package": "criterion",
@@ -2751,6 +2930,7 @@
         "index": {
           "description": "Reporting functions",
           "hierarchy": "Criterion Report",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Report",
           "name": "Report",
           "package": "criterion",
@@ -2764,6 +2944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Report",
           "name": "Report",
           "package": "criterion",
@@ -2772,6 +2953,7 @@
         },
         "index": {
           "hierarchy": "Criterion Report",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Report",
           "name": "Report",
           "package": "criterion",
@@ -2786,6 +2968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA problem arose with a template.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Report",
           "name": "TemplateException",
           "package": "criterion",
@@ -2795,6 +2978,7 @@
         "index": {
           "description": "problem arose with template",
           "hierarchy": "Criterion Report",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Report",
           "name": "TemplateException",
           "package": "criterion",
@@ -2808,6 +2992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Report",
           "name": "Report",
           "package": "criterion",
@@ -2817,6 +3002,7 @@
         },
         "index": {
           "hierarchy": "Criterion Report",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Report",
           "name": "Report",
           "package": "criterion",
@@ -2831,6 +3017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe template could not be found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Report",
           "name": "TemplateNotFound",
           "package": "criterion",
@@ -2841,6 +3028,7 @@
         "index": {
           "description": "The template could not be found",
           "hierarchy": "Criterion Report",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Report",
           "name": "TemplateNotFound",
           "package": "criterion",
@@ -2855,6 +3043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat a series of \u003ccode\u003e\u003ca\u003eReport\u003c/a\u003e\u003c/code\u003e values using the given Hastache\n template.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Report",
           "name": "formatReport",
           "package": "criterion",
@@ -2864,6 +3053,7 @@
         "index": {
           "description": "Format series of Report values using the given Hastache template",
           "hierarchy": "Criterion Report",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Report",
           "name": "formatReport",
           "normalized": "[Report]-\u003eByteString-\u003eIO ByteString",
@@ -2880,6 +3070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to include the contents of a file based on a search path.\n Returns \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e if the search fails or the file could not be read.\n\u003c/p\u003e\u003cp\u003eIntended for use with Hastache's \u003ccode\u003e\u003ca\u003eMuLambdaM\u003c/a\u003e\u003c/code\u003e, for example:\n\u003c/p\u003e\u003cpre\u003econtext \"include\" = \u003ccode\u003e\u003ca\u003eMuLambdaM\u003c/a\u003e\u003c/code\u003e $ \u003ccode\u003e\u003ca\u003eincludeFile\u003c/a\u003e\u003c/code\u003e [\u003ccode\u003e\u003ca\u003etemplateDir\u003c/a\u003e\u003c/code\u003e]\u003c/pre\u003e\u003cp\u003eHastache template expansion is \u003cem\u003enot\u003c/em\u003e performed within the included\n file.  No attempt is made to ensure that the included file path is\n safe, i.e. that it does not refer to an unexpected file such as\n \"\u003ccode\u003e\u003cem\u003eetc\u003c/em\u003epasswd\u003c/code\u003e\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Report",
           "name": "includeFile",
           "package": "criterion",
@@ -2889,6 +3080,7 @@
         "index": {
           "description": "Attempt to include the contents of file based on search path Returns empty if the search fails or the file could not be read Intended for use with Hastache MuLambdaM for example context include MuLambdaM includeFile templateDir Hastache template expansion is not performed within the included file No attempt is made to ensure that the included file path is safe i.e that it does not refer to an unexpected file such as etc passwd",
           "hierarchy": "Criterion Report",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Report",
           "name": "includeFile",
           "normalized": "[FilePath]-\u003eByteString-\u003ea ByteString",
@@ -2905,6 +3097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a Hastache template file.\n\u003c/p\u003e\u003cp\u003eIf the name is an absolute or relative path, the search path is\n \u003cem\u003enot\u003c/em\u003e used, and the name is treated as a literal path.\n\u003c/p\u003e\u003cp\u003eThis function throws a \u003ccode\u003e\u003ca\u003eTemplateException\u003c/a\u003e\u003c/code\u003e if the template could\n not be found, or an \u003ccode\u003e\u003ca\u003eIOException\u003c/a\u003e\u003c/code\u003e if no template could be loaded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Report",
           "name": "loadTemplate",
           "package": "criterion",
@@ -2914,6 +3107,7 @@
         "index": {
           "description": "Load Hastache template file If the name is an absolute or relative path the search path is not used and the name is treated as literal path This function throws TemplateException if the template could not be found or an IOException if no template could be loaded",
           "hierarchy": "Criterion Report",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Report",
           "name": "loadTemplate",
           "normalized": "[FilePath]-\u003eFilePath-\u003eIO ByteString",
@@ -2930,6 +3124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite out a series of \u003ccode\u003e\u003ca\u003eReport\u003c/a\u003e\u003c/code\u003e values to a single file, if\n configured to do so.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Report",
           "name": "report",
           "package": "criterion",
@@ -2940,6 +3135,7 @@
         "index": {
           "description": "Write out series of Report values to single file if configured to do so",
           "hierarchy": "Criterion Report",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Report",
           "name": "report",
           "normalized": "[Report]-\u003eCriterion()",
@@ -2954,6 +3150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Report",
           "name": "reportAnalysis",
           "package": "criterion",
@@ -2963,6 +3160,7 @@
         },
         "index": {
           "hierarchy": "Criterion Report",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Report",
           "name": "reportAnalysis",
           "package": "criterion",
@@ -2976,6 +3174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Report",
           "name": "reportName",
           "package": "criterion",
@@ -2985,6 +3184,7 @@
         },
         "index": {
           "hierarchy": "Criterion Report",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Report",
           "name": "reportName",
           "package": "criterion",
@@ -2998,6 +3198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Report",
           "name": "reportNumber",
           "package": "criterion",
@@ -3007,6 +3208,7 @@
         },
         "index": {
           "hierarchy": "Criterion Report",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Report",
           "name": "reportNumber",
           "package": "criterion",
@@ -3020,6 +3222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Report",
           "name": "reportOutliers",
           "package": "criterion",
@@ -3029,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "Criterion Report",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Report",
           "name": "reportOutliers",
           "package": "criterion",
@@ -3042,6 +3246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Report",
           "name": "reportTimes",
           "package": "criterion",
@@ -3051,6 +3256,7 @@
         },
         "index": {
           "hierarchy": "Criterion Report",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Report",
           "name": "reportTimes",
           "package": "criterion",
@@ -3065,6 +3271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe path to the template and other files used for generating\n reports.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Report",
           "name": "templateDir",
           "package": "criterion",
@@ -3075,6 +3282,7 @@
         "index": {
           "description": "The path to the template and other files used for generating reports",
           "hierarchy": "Criterion Report",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Report",
           "name": "templateDir",
           "package": "criterion",
@@ -3089,6 +3297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the elements of a vector.\n\u003c/p\u003e\u003cp\u003eFor example, given this piece of Haskell:\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003emkStrContext\u003c/a\u003e\u003c/code\u003e $ \\name -\u003e\n case name of\n   \"foo\" -\u003e \u003ccode\u003e\u003ca\u003evector\u003c/a\u003e\u003c/code\u003e \"x\" foo\u003c/pre\u003e\u003cp\u003eIt will substitute each value in the vector for \u003ccode\u003ex\u003c/code\u003e in the\n following Hastache template:\n\u003c/p\u003e\u003cpre\u003e {{#foo}}\n  {{x}}\n {{/foo}}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Report",
           "name": "vector",
           "package": "criterion",
@@ -3098,6 +3307,7 @@
         "index": {
           "description": "Render the elements of vector For example given this piece of Haskell mkStrContext name case name of foo vector foo It will substitute each value in the vector for in the following Hastache template foo foo",
           "hierarchy": "Criterion Report",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Report",
           "name": "vector",
           "normalized": "String-\u003ea b-\u003eMuType c",
@@ -3113,6 +3323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the elements of two vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Report",
           "name": "vector2",
           "package": "criterion",
@@ -3122,6 +3333,7 @@
         "index": {
           "description": "Render the elements of two vectors",
           "hierarchy": "Criterion Report",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Report",
           "name": "vector2",
           "normalized": "String-\u003eString-\u003ea b-\u003ea c-\u003eMuType d",
@@ -3137,6 +3349,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for benchmarking.\n\u003c/p\u003e\u003cp\u003eThe core class is \u003ccode\u003e\u003ca\u003eBenchmarkable\u003c/a\u003e\u003c/code\u003e, which admits both pure functions\n and \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e actions.\n\u003c/p\u003e\u003cp\u003eFor a pure function of type \u003ccode\u003ea -\u003e b\u003c/code\u003e, the benchmarking harness\n calls this function repeatedly, each time with a different \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e\n argument, and reduces the result the function returns to weak head\n normal form.  If you need the result reduced to normal form, that\n is your responsibility.\n\u003c/p\u003e\u003cp\u003eFor an action of type \u003ccode\u003eIO a\u003c/code\u003e, the benchmarking harness calls the\n action repeatedly, but does not reduce the result.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Types",
           "name": "Types",
           "package": "criterion",
@@ -3146,6 +3359,7 @@
         "index": {
           "description": "Types for benchmarking The core class is Benchmarkable which admits both pure functions and IO actions For pure function of type the benchmarking harness calls this function repeatedly each time with different Int argument and reduces the result the function returns to weak head normal form If you need the result reduced to normal form that is your responsibility For an action of type IO the benchmarking harness calls the action repeatedly but does not reduce the result",
           "hierarchy": "Criterion Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Types",
           "name": "Types",
           "package": "criterion",
@@ -3160,6 +3374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA benchmark may consist of either a single \u003ccode\u003e\u003ca\u003eBenchmarkable\u003c/a\u003e\u003c/code\u003e item\n with a name, created with \u003ccode\u003e\u003ca\u003ebench\u003c/a\u003e\u003c/code\u003e, or a (possibly nested) group of\n \u003ccode\u003e\u003ca\u003eBenchmark\u003c/a\u003e\u003c/code\u003es, created with \u003ccode\u003e\u003ca\u003ebgroup\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Types",
           "name": "Benchmark",
           "package": "criterion",
@@ -3169,6 +3384,7 @@
         "index": {
           "description": "benchmark may consist of either single Benchmarkable item with name created with bench or possibly nested group of Benchmark created with bgroup",
           "hierarchy": "Criterion Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Types",
           "name": "Benchmark",
           "package": "criterion",
@@ -3183,6 +3399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA benchmarkable function or action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Types",
           "name": "Benchmarkable",
           "package": "criterion",
@@ -3192,6 +3409,7 @@
         "index": {
           "description": "benchmarkable function or action",
           "hierarchy": "Criterion Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Types",
           "name": "Benchmarkable",
           "package": "criterion",
@@ -3206,6 +3424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA container for a pure function to benchmark, and an argument to\n supply to it each time it is evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Types",
           "name": "Pure",
           "package": "criterion",
@@ -3215,6 +3434,7 @@
         "index": {
           "description": "container for pure function to benchmark and an argument to supply to it each time it is evaluated",
           "hierarchy": "Criterion Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Types",
           "name": "Pure",
           "package": "criterion",
@@ -3228,6 +3448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Types",
           "name": "Result",
           "package": "criterion",
@@ -3236,6 +3457,7 @@
         },
         "index": {
           "hierarchy": "Criterion Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Types",
           "name": "Result",
           "package": "criterion",
@@ -3249,6 +3471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Types",
           "name": "ResultForest",
           "package": "criterion",
@@ -3257,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "Criterion Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Types",
           "name": "ResultForest",
           "package": "criterion",
@@ -3270,6 +3494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Types",
           "name": "ResultTree",
           "package": "criterion",
@@ -3278,6 +3503,7 @@
         },
         "index": {
           "hierarchy": "Criterion Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Types",
           "name": "ResultTree",
           "package": "criterion",
@@ -3291,6 +3517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Types",
           "name": "BenchCompare",
           "package": "criterion",
@@ -3300,6 +3527,7 @@
         },
         "index": {
           "hierarchy": "Criterion Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Types",
           "name": "BenchCompare",
           "normalized": "[Benchmark]-\u003eBenchmark",
@@ -3315,6 +3543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Types",
           "name": "BenchGroup",
           "package": "criterion",
@@ -3324,6 +3553,7 @@
         },
         "index": {
           "hierarchy": "Criterion Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Types",
           "name": "BenchGroup",
           "normalized": "String-\u003e[Benchmark]-\u003eBenchmark",
@@ -3339,6 +3569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Types",
           "name": "Benchmark",
           "package": "criterion",
@@ -3348,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Criterion Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Types",
           "name": "Benchmark",
           "normalized": "String-\u003ea-\u003eBenchmark",
@@ -3363,6 +3595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Types",
           "name": "Compare",
           "package": "criterion",
@@ -3372,6 +3605,7 @@
         },
         "index": {
           "hierarchy": "Criterion Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Types",
           "name": "Compare",
           "package": "criterion",
@@ -3385,6 +3619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Types",
           "name": "Result",
           "package": "criterion",
@@ -3394,6 +3629,7 @@
         },
         "index": {
           "hierarchy": "Criterion Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Types",
           "name": "Result",
           "package": "criterion",
@@ -3407,6 +3643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Types",
           "name": "Single",
           "package": "criterion",
@@ -3416,6 +3653,7 @@
         },
         "index": {
           "hierarchy": "Criterion Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Types",
           "name": "Single",
           "package": "criterion",
@@ -3430,6 +3668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the names of all benchmarks.  Grouped benchmarks are\n prefixed with the name of the group they're in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Types",
           "name": "benchNames",
           "package": "criterion",
@@ -3440,6 +3679,7 @@
         "index": {
           "description": "Retrieve the names of all benchmarks Grouped benchmarks are prefixed with the name of the group they re in",
           "hierarchy": "Criterion Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Types",
           "name": "benchNames",
           "normalized": "Benchmark-\u003e[String]",
@@ -3455,6 +3695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Types",
           "name": "description",
           "package": "criterion",
@@ -3464,6 +3705,7 @@
         },
         "index": {
           "hierarchy": "Criterion Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Types",
           "name": "description",
           "package": "criterion",
@@ -3476,6 +3718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Types",
           "name": "outliers",
           "package": "criterion",
@@ -3485,6 +3728,7 @@
         },
         "index": {
           "hierarchy": "Criterion Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Types",
           "name": "outliers",
           "package": "criterion",
@@ -3498,6 +3742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a function or action the specified number of times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Types",
           "name": "run",
           "package": "criterion",
@@ -3508,6 +3753,7 @@
         "index": {
           "description": "Run function or action the specified number of times",
           "hierarchy": "Criterion Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Types",
           "name": "run",
           "package": "criterion",
@@ -3520,6 +3766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Types",
           "name": "sample",
           "package": "criterion",
@@ -3529,6 +3776,7 @@
         },
         "index": {
           "hierarchy": "Criterion Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Types",
           "name": "sample",
           "package": "criterion",
@@ -3541,6 +3789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion.Types",
           "name": "sampleAnalysis",
           "package": "criterion",
@@ -3550,6 +3799,7 @@
         },
         "index": {
           "hierarchy": "Criterion Types",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion.Types",
           "name": "sampleAnalysis",
           "package": "criterion",
@@ -3564,6 +3814,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCore benchmarking code.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion",
           "name": "Criterion",
           "package": "criterion",
@@ -3573,6 +3824,7 @@
         "index": {
           "description": "Core benchmarking code",
           "hierarchy": "Criterion",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion",
           "name": "Criterion",
           "package": "criterion",
@@ -3587,6 +3839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA benchmark may consist of either a single \u003ccode\u003e\u003ca\u003eBenchmarkable\u003c/a\u003e\u003c/code\u003e item\n with a name, created with \u003ccode\u003e\u003ca\u003ebench\u003c/a\u003e\u003c/code\u003e, or a (possibly nested) group of\n \u003ccode\u003e\u003ca\u003eBenchmark\u003c/a\u003e\u003c/code\u003es, created with \u003ccode\u003e\u003ca\u003ebgroup\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion",
           "name": "Benchmark",
           "package": "criterion",
@@ -3596,6 +3849,7 @@
         "index": {
           "description": "benchmark may consist of either single Benchmarkable item with name created with bench or possibly nested group of Benchmark created with bgroup",
           "hierarchy": "Criterion",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion",
           "name": "Benchmark",
           "package": "criterion",
@@ -3610,6 +3864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA benchmarkable function or action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion",
           "name": "Benchmarkable",
           "package": "criterion",
@@ -3619,6 +3874,7 @@
         "index": {
           "description": "benchmarkable function or action",
           "hierarchy": "Criterion",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion",
           "name": "Benchmarkable",
           "package": "criterion",
@@ -3633,6 +3889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA container for a pure function to benchmark, and an argument to\n supply to it each time it is evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion",
           "name": "Pure",
           "package": "criterion",
@@ -3642,6 +3899,7 @@
         "index": {
           "description": "container for pure function to benchmark and an argument to supply to it each time it is evaluated",
           "hierarchy": "Criterion",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion",
           "name": "Pure",
           "package": "criterion",
@@ -3656,6 +3914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a function or action the specified number of times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion",
           "name": "run",
           "package": "criterion",
@@ -3666,6 +3925,7 @@
         "index": {
           "description": "Run function or action the specified number of times",
           "hierarchy": "Criterion",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion",
           "name": "run",
           "package": "criterion",
@@ -3679,6 +3939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun, and analyse, one or more benchmarks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion",
           "name": "runAndAnalyse",
           "package": "criterion",
@@ -3688,6 +3949,7 @@
         "index": {
           "description": "Run and analyse one or more benchmarks",
           "hierarchy": "Criterion",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion",
           "name": "runAndAnalyse",
           "normalized": "(String-\u003eBool)-\u003eEnvironment-\u003eBenchmark-\u003eCriterion()",
@@ -3704,6 +3966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a single benchmark, and return timings measured when\n executing it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion",
           "name": "runBenchmark",
           "package": "criterion",
@@ -3714,6 +3977,7 @@
         "index": {
           "description": "Run single benchmark and return timings measured when executing it",
           "hierarchy": "Criterion",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion",
           "name": "runBenchmark",
           "normalized": "Environment-\u003ea-\u003eCriterion Sample",
@@ -3729,6 +3993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:10 UTC 2014",
           "module": "Criterion",
           "name": "runNotAnalyse",
           "package": "criterion",
@@ -3737,6 +4002,7 @@
         },
         "index": {
           "hierarchy": "Criterion",
+          "indexed": "2014-03-11T17:43:10",
           "module": "Criterion",
           "name": "runNotAnalyse",
           "normalized": "(String-\u003eBool)-\u003eBenchmark-\u003eCriterion()",

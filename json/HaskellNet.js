@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HaskellNet"
+        "phrase": "HaskellNet",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.Auth",
           "name": "Auth",
           "package": "HaskellNet",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet Auth",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.Auth",
           "name": "Auth",
           "package": "HaskellNet",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.Auth",
           "name": "AuthType",
           "package": "HaskellNet",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet Auth",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.Auth",
           "name": "AuthType",
           "package": "HaskellNet",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.Auth",
           "name": "Password",
           "package": "HaskellNet",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet Auth",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.Auth",
           "name": "Password",
           "package": "HaskellNet",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.Auth",
           "name": "UserName",
           "package": "HaskellNet",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet Auth",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.Auth",
           "name": "UserName",
           "package": "HaskellNet",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.Auth",
           "name": "CRAM_MD5",
           "package": "HaskellNet",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet Auth",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.Auth",
           "name": "CRAM_MD5",
           "package": "HaskellNet",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.Auth",
           "name": "LOGIN",
           "package": "HaskellNet",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet Auth",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.Auth",
           "name": "LOGIN",
           "package": "HaskellNet",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.Auth",
           "name": "PLAIN",
           "package": "HaskellNet",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet Auth",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.Auth",
           "name": "PLAIN",
           "package": "HaskellNet",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.Auth",
           "name": "auth",
           "package": "HaskellNet",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet Auth",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.Auth",
           "name": "auth",
           "normalized": "AuthType-\u003eString-\u003eUserName-\u003ePassword-\u003eString",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.Auth",
           "name": "b64Decode",
           "package": "HaskellNet",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet Auth",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.Auth",
           "name": "b64Decode",
           "normalized": "String-\u003eString",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.Auth",
           "name": "b64Encode",
           "package": "HaskellNet",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet Auth",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.Auth",
           "name": "b64Encode",
           "normalized": "String-\u003eString",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.Auth",
           "name": "cramMD5",
           "package": "HaskellNet",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet Auth",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.Auth",
           "name": "cramMD5",
           "normalized": "String-\u003eUserName-\u003ePassword-\u003eString",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.Auth",
           "name": "hmacMD5",
           "package": "HaskellNet",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet Auth",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.Auth",
           "name": "hmacMD5",
           "normalized": "String-\u003eString-\u003e[Octet]",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.Auth",
           "name": "login",
           "package": "HaskellNet",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet Auth",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.Auth",
           "name": "login",
           "normalized": "UserName-\u003ePassword-\u003e(String,String)",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.Auth",
           "name": "plain",
           "package": "HaskellNet",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet Auth",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.Auth",
           "name": "plain",
           "normalized": "UserName-\u003ePassword-\u003eString",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.Auth",
           "name": "showOctet",
           "package": "HaskellNet",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet Auth",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.Auth",
           "name": "showOctet",
           "normalized": "[Octet]-\u003eString",
@@ -358,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a byte string \"stream\" interface.  This\n interface provides some common operations on a value which\n supports reading and writing byte strings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.BSStream",
           "name": "BSStream",
           "package": "HaskellNet",
@@ -367,6 +398,7 @@
         "index": {
           "description": "This module provides byte string stream interface This interface provides some common operations on value which supports reading and writing byte strings",
           "hierarchy": "Network HaskellNet BSStream",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.BSStream",
           "name": "BSStream",
           "package": "HaskellNet",
@@ -381,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA byte string stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.BSStream",
           "name": "BSStream",
           "package": "HaskellNet",
@@ -390,6 +423,7 @@
         "index": {
           "description": "byte string stream",
           "hierarchy": "Network HaskellNet BSStream",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.BSStream",
           "name": "BSStream",
           "package": "HaskellNet",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.BSStream",
           "name": "BSStream",
           "package": "HaskellNet",
@@ -412,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet BSStream",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.BSStream",
           "name": "BSStream",
           "package": "HaskellNet",
@@ -426,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.BSStream",
           "name": "bsClose",
           "package": "HaskellNet",
@@ -436,6 +473,7 @@
         "index": {
           "description": "Close the stream",
           "hierarchy": "Network HaskellNet BSStream",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.BSStream",
           "name": "bsClose",
           "normalized": "IO()",
@@ -452,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlush the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.BSStream",
           "name": "bsFlush",
           "package": "HaskellNet",
@@ -462,6 +501,7 @@
         "index": {
           "description": "Flush the stream",
           "hierarchy": "Network HaskellNet BSStream",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.BSStream",
           "name": "bsFlush",
           "normalized": "IO()",
@@ -478,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the specified number of bytes from the stream.\n Should block until the requested bytes can be read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.BSStream",
           "name": "bsGet",
           "package": "HaskellNet",
@@ -488,6 +529,7 @@
         "index": {
           "description": "Read the specified number of bytes from the stream Should block until the requested bytes can be read",
           "hierarchy": "Network HaskellNet BSStream",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.BSStream",
           "name": "bsGet",
           "normalized": "Int-\u003eIO ByteString",
@@ -504,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a line from the stream.  Should return the line\n which was read, including the newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.BSStream",
           "name": "bsGetLine",
           "package": "HaskellNet",
@@ -514,6 +557,7 @@
         "index": {
           "description": "Read line from the stream Should return the line which was read including the newline",
           "hierarchy": "Network HaskellNet BSStream",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.BSStream",
           "name": "bsGetLine",
           "package": "HaskellNet",
@@ -528,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the stream open?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.BSStream",
           "name": "bsIsOpen",
           "package": "HaskellNet",
@@ -538,6 +583,7 @@
         "index": {
           "description": "Is the stream open",
           "hierarchy": "Network HaskellNet BSStream",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.BSStream",
           "name": "bsIsOpen",
           "package": "HaskellNet",
@@ -552,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite the specified byte string to the stream.\n Should flush the stream after writing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.BSStream",
           "name": "bsPut",
           "package": "HaskellNet",
@@ -562,6 +609,7 @@
         "index": {
           "description": "Write the specified byte string to the stream Should flush the stream after writing",
           "hierarchy": "Network HaskellNet BSStream",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.BSStream",
           "name": "bsPut",
           "normalized": "ByteString-\u003eIO()",
@@ -578,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a byte string stream which operates on a \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.BSStream",
           "name": "handleToStream",
           "package": "HaskellNet",
@@ -588,6 +637,7 @@
         "index": {
           "description": "Build byte string stream which operates on Handle",
           "hierarchy": "Network HaskellNet BSStream",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.BSStream",
           "name": "handleToStream",
           "normalized": "Handle-\u003eBSStream",
@@ -603,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.Debug",
           "name": "Debug",
           "package": "HaskellNet",
@@ -611,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet Debug",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.Debug",
           "name": "Debug",
           "package": "HaskellNet",
@@ -624,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.Debug",
           "name": "debugStream",
           "package": "HaskellNet",
@@ -633,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet Debug",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.Debug",
           "name": "debugStream",
           "normalized": "BSStream-\u003eBSStream",
@@ -648,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "Connection",
           "package": "HaskellNet",
@@ -656,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "Connection",
           "package": "HaskellNet",
@@ -669,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "IMAPConnection",
           "package": "HaskellNet",
@@ -677,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "IMAPConnection",
           "package": "HaskellNet",
@@ -690,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "exists",
           "package": "HaskellNet",
@@ -699,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "exists",
           "normalized": "IMAPConnection-\u003eIO Integer",
@@ -713,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "flags",
           "package": "HaskellNet",
@@ -722,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "flags",
           "normalized": "IMAPConnection-\u003eIO[Flag]",
@@ -736,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "isFlagWritable",
           "package": "HaskellNet",
@@ -745,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "isFlagWritable",
           "normalized": "IMAPConnection-\u003eIO Bool",
@@ -760,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "isWritable",
           "package": "HaskellNet",
@@ -769,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "isWritable",
           "normalized": "IMAPConnection-\u003eIO Bool",
@@ -784,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "mailbox",
           "package": "HaskellNet",
@@ -793,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "mailbox",
           "normalized": "IMAPConnection-\u003eIO MailboxName",
@@ -807,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "modifyMailboxInfo",
           "package": "HaskellNet",
@@ -816,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "modifyMailboxInfo",
           "normalized": "IMAPConnection-\u003e(MailboxInfo-\u003eMailboxInfo)-\u003eIO()",
@@ -831,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "newConnection",
           "package": "HaskellNet",
@@ -840,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "newConnection",
           "normalized": "BSStream-\u003eIO IMAPConnection",
@@ -855,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "permanentFlags",
           "package": "HaskellNet",
@@ -864,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "permanentFlags",
           "normalized": "IMAPConnection-\u003eIO[Flag]",
@@ -879,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "recent",
           "package": "HaskellNet",
@@ -888,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "recent",
           "normalized": "IMAPConnection-\u003eIO Integer",
@@ -902,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "setMailboxInfo",
           "package": "HaskellNet",
@@ -911,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "setMailboxInfo",
           "normalized": "IMAPConnection-\u003eMailboxInfo-\u003eIO()",
@@ -926,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "stream",
           "package": "HaskellNet",
@@ -935,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "stream",
           "normalized": "IMAPConnection-\u003eBSStream",
@@ -949,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "uidNext",
           "package": "HaskellNet",
@@ -958,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "uidNext",
           "normalized": "IMAPConnection-\u003eIO UID",
@@ -973,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "uidValidity",
           "package": "HaskellNet",
@@ -982,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "uidValidity",
           "normalized": "IMAPConnection-\u003eIO UID",
@@ -997,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "withNextCommandNum",
           "package": "HaskellNet",
@@ -1006,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Connection",
           "name": "withNextCommandNum",
           "normalized": "IMAPConnection-\u003e(Int-\u003eIO a)-\u003eIO(a,Int)",
@@ -1022,6 +1108,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsers for IMAP server responses\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "Parsers",
           "package": "HaskellNet",
@@ -1031,6 +1118,7 @@
         "index": {
           "description": "Parsers for IMAP server responses",
           "hierarchy": "Network HaskellNet IMAP Parsers",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "Parsers",
           "package": "HaskellNet",
@@ -1044,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "eval",
           "package": "HaskellNet",
@@ -1053,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Parsers",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "eval",
           "normalized": "(RespDerivs-\u003eResult RespDerivs a)-\u003eString-\u003eByteString-\u003ea",
@@ -1067,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "eval'",
           "package": "HaskellNet",
@@ -1076,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Parsers",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "eval'",
           "normalized": "(RespDerivs-\u003eResult RespDerivs a)-\u003eString-\u003eString-\u003ea",
@@ -1090,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "pCapability",
           "package": "HaskellNet",
@@ -1099,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Parsers",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "pCapability",
           "normalized": "RespDerivs-\u003eResult RespDerivs(ServerResponse,MboxUpdate,[String])",
@@ -1114,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "pExpunge",
           "package": "HaskellNet",
@@ -1123,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Parsers",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "pExpunge",
           "normalized": "RespDerivs-\u003eResult RespDerivs(ServerResponse,MboxUpdate,[Integer])",
@@ -1138,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "pFetch",
           "package": "HaskellNet",
@@ -1147,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Parsers",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "pFetch",
           "normalized": "RespDerivs-\u003eResult RespDerivs(ServerResponse,MboxUpdate,[(Integer,[(String,String)])])",
@@ -1162,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "pList",
           "package": "HaskellNet",
@@ -1171,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Parsers",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "pList",
           "normalized": "RespDerivs-\u003eResult RespDerivs(ServerResponse,MboxUpdate,[([Attribute],String,MailboxName)])",
@@ -1186,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "pLsub",
           "package": "HaskellNet",
@@ -1195,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Parsers",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "pLsub",
           "normalized": "RespDerivs-\u003eResult RespDerivs(ServerResponse,MboxUpdate,[([Attribute],String,MailboxName)])",
@@ -1210,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "pNone",
           "package": "HaskellNet",
@@ -1219,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Parsers",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "pNone",
           "normalized": "RespDerivs-\u003eResult RespDerivs(ServerResponse,MboxUpdate,())",
@@ -1234,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "pSearch",
           "package": "HaskellNet",
@@ -1243,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Parsers",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "pSearch",
           "normalized": "RespDerivs-\u003eResult RespDerivs(ServerResponse,MboxUpdate,[UID])",
@@ -1258,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "pSelect",
           "package": "HaskellNet",
@@ -1267,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Parsers",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "pSelect",
           "normalized": "RespDerivs-\u003eResult RespDerivs(ServerResponse,MboxUpdate,MailboxInfo)",
@@ -1282,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "pStatus",
           "package": "HaskellNet",
@@ -1291,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Parsers",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Parsers",
           "name": "pStatus",
           "normalized": "RespDerivs-\u003eResult RespDerivs(ServerResponse,MboxUpdate,[(MailboxStatus,Integer)])",
@@ -1306,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "Types",
           "package": "HaskellNet",
@@ -1314,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "Types",
           "package": "HaskellNet",
@@ -1327,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "Attribute",
           "package": "HaskellNet",
@@ -1335,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "Attribute",
           "package": "HaskellNet",
@@ -1348,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "Charset",
           "package": "HaskellNet",
@@ -1356,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "Charset",
           "package": "HaskellNet",
@@ -1369,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "Flag",
           "package": "HaskellNet",
@@ -1377,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "Flag",
           "package": "HaskellNet",
@@ -1390,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "MailboxInfo",
           "package": "HaskellNet",
@@ -1398,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "MailboxInfo",
           "package": "HaskellNet",
@@ -1411,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "MailboxName",
           "package": "HaskellNet",
@@ -1419,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "MailboxName",
           "package": "HaskellNet",
@@ -1433,6 +1555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe query data type for the status command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "MailboxStatus",
           "package": "HaskellNet",
@@ -1442,6 +1565,7 @@
         "index": {
           "description": "the query data type for the status command",
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "MailboxStatus",
           "package": "HaskellNet",
@@ -1455,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "MboxUpdate",
           "package": "HaskellNet",
@@ -1463,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "MboxUpdate",
           "package": "HaskellNet",
@@ -1476,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "RespDerivs",
           "package": "HaskellNet",
@@ -1484,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "RespDerivs",
           "package": "HaskellNet",
@@ -1497,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "ServerResponse",
           "package": "HaskellNet",
@@ -1505,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "ServerResponse",
           "package": "HaskellNet",
@@ -1518,6 +1648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "StatusCode",
           "package": "HaskellNet",
@@ -1526,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "StatusCode",
           "package": "HaskellNet",
@@ -1539,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "UID",
           "package": "HaskellNet",
@@ -1547,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "UID",
           "package": "HaskellNet",
@@ -1560,6 +1694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "ALERT",
           "package": "HaskellNet",
@@ -1569,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "ALERT",
           "package": "HaskellNet",
@@ -1605,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "BAD",
           "package": "HaskellNet",
@@ -1614,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "BAD",
           "package": "HaskellNet",
@@ -1627,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "BADCHARSET",
           "package": "HaskellNet",
@@ -1636,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "BADCHARSET",
           "normalized": "BADCHARSET[Charset]",
@@ -1651,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "CAPABILITY_sc",
           "package": "HaskellNet",
@@ -1660,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "CAPABILITY_sc",
           "normalized": "CAPABILITY_sc[String]",
@@ -1815,6 +1957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "MboxInfo",
           "package": "HaskellNet",
@@ -1824,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "MboxInfo",
           "package": "HaskellNet",
@@ -1837,6 +1981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "MboxUpdate",
           "package": "HaskellNet",
@@ -1846,6 +1991,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "MboxUpdate",
           "package": "HaskellNet",
@@ -1859,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "NO",
           "package": "HaskellNet",
@@ -1868,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "NO",
           "package": "HaskellNet",
@@ -1927,6 +2075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "OK",
           "package": "HaskellNet",
@@ -1936,6 +2085,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "OK",
           "package": "HaskellNet",
@@ -1972,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "PARSE",
           "package": "HaskellNet",
@@ -1981,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "PARSE",
           "package": "HaskellNet",
@@ -1994,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "PERMANENTFLAGS",
           "package": "HaskellNet",
@@ -2003,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "PERMANENTFLAGS",
           "normalized": "PERMANENTFLAGS[Flag]",
@@ -2018,6 +2172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "PREAUTH",
           "package": "HaskellNet",
@@ -2027,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "PREAUTH",
           "package": "HaskellNet",
@@ -2040,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "READ_ONLY",
           "package": "HaskellNet",
@@ -2049,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "READ_ONLY",
           "package": "HaskellNet",
@@ -2062,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "READ_WRITE",
           "package": "HaskellNet",
@@ -2071,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "READ_WRITE",
           "package": "HaskellNet",
@@ -2132,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "RespDerivs",
           "package": "HaskellNet",
@@ -2141,6 +2302,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "RespDerivs",
           "package": "HaskellNet",
@@ -2177,6 +2339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "TRYCREATE",
           "package": "HaskellNet",
@@ -2186,6 +2349,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "TRYCREATE",
           "package": "HaskellNet",
@@ -2224,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "UIDNEXT_sc",
           "package": "HaskellNet",
@@ -2233,6 +2398,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "UIDNEXT_sc",
           "package": "HaskellNet",
@@ -2271,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "UIDVALIDITY_sc",
           "package": "HaskellNet",
@@ -2280,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "UIDVALIDITY_sc",
           "package": "HaskellNet",
@@ -2293,6 +2461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "UNSEEN_sc",
           "package": "HaskellNet",
@@ -2302,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "UNSEEN_sc",
           "package": "HaskellNet",
@@ -2338,6 +2508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "_exists",
           "package": "HaskellNet",
@@ -2347,6 +2518,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "_exists",
           "package": "HaskellNet",
@@ -2359,6 +2531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "_flags",
           "package": "HaskellNet",
@@ -2368,6 +2541,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "_flags",
           "normalized": "[Flag]",
@@ -2382,6 +2556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "_isFlagWritable",
           "package": "HaskellNet",
@@ -2391,6 +2566,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "_isFlagWritable",
           "package": "HaskellNet",
@@ -2404,6 +2580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "_isWritable",
           "package": "HaskellNet",
@@ -2413,6 +2590,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "_isWritable",
           "package": "HaskellNet",
@@ -2426,6 +2604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "_mailbox",
           "package": "HaskellNet",
@@ -2435,6 +2614,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "_mailbox",
           "package": "HaskellNet",
@@ -2447,6 +2627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "_permanentFlags",
           "package": "HaskellNet",
@@ -2456,6 +2637,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "_permanentFlags",
           "normalized": "[Flag]",
@@ -2471,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "_recent",
           "package": "HaskellNet",
@@ -2480,6 +2663,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "_recent",
           "package": "HaskellNet",
@@ -2492,6 +2676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "_uidNext",
           "package": "HaskellNet",
@@ -2501,6 +2686,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "_uidNext",
           "package": "HaskellNet",
@@ -2514,6 +2700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "_uidValidity",
           "package": "HaskellNet",
@@ -2523,6 +2710,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "_uidValidity",
           "package": "HaskellNet",
@@ -2536,6 +2724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "advChar",
           "package": "HaskellNet",
@@ -2545,6 +2734,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "advChar",
           "package": "HaskellNet",
@@ -2558,6 +2748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "advPos",
           "package": "HaskellNet",
@@ -2567,6 +2758,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "advPos",
           "package": "HaskellNet",
@@ -2580,6 +2772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "advTag",
           "package": "HaskellNet",
@@ -2589,6 +2782,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "advTag",
           "package": "HaskellNet",
@@ -2602,6 +2796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "dvFlags",
           "package": "HaskellNet",
@@ -2611,6 +2806,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "dvFlags",
           "normalized": "Result RespDerivs[Flag]",
@@ -2626,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "emptyMboxInfo",
           "package": "HaskellNet",
@@ -2635,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "emptyMboxInfo",
           "package": "HaskellNet",
@@ -2648,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "exists",
           "package": "HaskellNet",
@@ -2657,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "exists",
           "package": "HaskellNet",
@@ -2669,6 +2869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "recent",
           "package": "HaskellNet",
@@ -2678,6 +2879,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP.Types",
           "name": "recent",
           "package": "HaskellNet",
@@ -2690,6 +2892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "IMAP",
           "package": "HaskellNet",
@@ -2698,6 +2901,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "IMAP",
           "package": "HaskellNet",
@@ -2711,6 +2915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "Attribute",
           "package": "HaskellNet",
@@ -2719,6 +2924,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "Attribute",
           "package": "HaskellNet",
@@ -2732,6 +2938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "Flag",
           "package": "HaskellNet",
@@ -2740,6 +2947,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "Flag",
           "package": "HaskellNet",
@@ -2753,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "FlagsQuery",
           "package": "HaskellNet",
@@ -2761,6 +2970,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "FlagsQuery",
           "package": "HaskellNet",
@@ -2775,6 +2985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe query data type for the status command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "MailboxStatus",
           "package": "HaskellNet",
@@ -2784,6 +2995,7 @@
         "index": {
           "description": "the query data type for the status command",
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "MailboxStatus",
           "package": "HaskellNet",
@@ -2797,6 +3009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "SearchQuery",
           "package": "HaskellNet",
@@ -2805,6 +3018,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "SearchQuery",
           "package": "HaskellNet",
@@ -2818,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "ALLs",
           "package": "HaskellNet",
@@ -2827,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "ALLs",
           "package": "HaskellNet",
@@ -2840,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "BCCs",
           "package": "HaskellNet",
@@ -2849,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "BCCs",
           "package": "HaskellNet",
@@ -2862,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "BEFOREs",
           "package": "HaskellNet",
@@ -2871,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "BEFOREs",
           "package": "HaskellNet",
@@ -2884,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "BODYs",
           "package": "HaskellNet",
@@ -2893,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "BODYs",
           "package": "HaskellNet",
@@ -2906,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "CCs",
           "package": "HaskellNet",
@@ -2915,6 +3138,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "CCs",
           "package": "HaskellNet",
@@ -2928,6 +3152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "FLAG",
           "package": "HaskellNet",
@@ -2937,6 +3162,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "FLAG",
           "package": "HaskellNet",
@@ -2950,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "FROMs",
           "package": "HaskellNet",
@@ -2959,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "FROMs",
           "package": "HaskellNet",
@@ -2972,6 +3200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "HEADERs",
           "package": "HaskellNet",
@@ -2981,6 +3210,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "HEADERs",
           "package": "HaskellNet",
@@ -2994,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "LARGERs",
           "package": "HaskellNet",
@@ -3003,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "LARGERs",
           "package": "HaskellNet",
@@ -3016,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "MinusFlags",
           "package": "HaskellNet",
@@ -3025,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "MinusFlags",
           "normalized": "MinusFlags[Flag]",
@@ -3040,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "NEWs",
           "package": "HaskellNet",
@@ -3049,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "NEWs",
           "package": "HaskellNet",
@@ -3062,6 +3298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "NOTs",
           "package": "HaskellNet",
@@ -3071,6 +3308,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "NOTs",
           "package": "HaskellNet",
@@ -3084,6 +3322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "OLDs",
           "package": "HaskellNet",
@@ -3093,6 +3332,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "OLDs",
           "package": "HaskellNet",
@@ -3106,6 +3346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "ONs",
           "package": "HaskellNet",
@@ -3115,6 +3356,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "ONs",
           "package": "HaskellNet",
@@ -3128,6 +3370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "ORs",
           "package": "HaskellNet",
@@ -3137,6 +3380,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "ORs",
           "package": "HaskellNet",
@@ -3150,6 +3394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "PlusFlags",
           "package": "HaskellNet",
@@ -3159,6 +3404,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "PlusFlags",
           "normalized": "PlusFlags[Flag]",
@@ -3174,6 +3420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "ReplaceFlags",
           "package": "HaskellNet",
@@ -3183,6 +3430,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "ReplaceFlags",
           "normalized": "ReplaceFlags[Flag]",
@@ -3198,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "SENTBEFOREs",
           "package": "HaskellNet",
@@ -3207,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "SENTBEFOREs",
           "package": "HaskellNet",
@@ -3220,6 +3470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "SENTONs",
           "package": "HaskellNet",
@@ -3229,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "SENTONs",
           "package": "HaskellNet",
@@ -3242,6 +3494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "SENTSINCEs",
           "package": "HaskellNet",
@@ -3251,6 +3504,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "SENTSINCEs",
           "package": "HaskellNet",
@@ -3264,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "SINCEs",
           "package": "HaskellNet",
@@ -3273,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "SINCEs",
           "package": "HaskellNet",
@@ -3286,6 +3542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "SMALLERs",
           "package": "HaskellNet",
@@ -3295,6 +3552,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "SMALLERs",
           "package": "HaskellNet",
@@ -3308,6 +3566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "SUBJECTs",
           "package": "HaskellNet",
@@ -3317,6 +3576,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "SUBJECTs",
           "package": "HaskellNet",
@@ -3330,6 +3590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "TEXTs",
           "package": "HaskellNet",
@@ -3339,6 +3600,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "TEXTs",
           "package": "HaskellNet",
@@ -3352,6 +3614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "TOs",
           "package": "HaskellNet",
@@ -3361,6 +3624,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "TOs",
           "package": "HaskellNet",
@@ -3374,6 +3638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "UIDs",
           "package": "HaskellNet",
@@ -3383,6 +3648,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "UIDs",
           "normalized": "UIDs[UID]",
@@ -3398,6 +3664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "UNFLAG",
           "package": "HaskellNet",
@@ -3407,6 +3674,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "UNFLAG",
           "package": "HaskellNet",
@@ -3420,6 +3688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "append",
           "package": "HaskellNet",
@@ -3429,6 +3698,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "append",
           "normalized": "IMAPConnection-\u003eMailboxName-\u003eByteString-\u003eIO()",
@@ -3443,6 +3713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "authenticate",
           "package": "HaskellNet",
@@ -3452,6 +3723,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "authenticate",
           "normalized": "IMAPConnection-\u003eAuthType-\u003eUserName-\u003ePassword-\u003eIO()",
@@ -3466,6 +3738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "capability",
           "package": "HaskellNet",
@@ -3475,6 +3748,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "capability",
           "normalized": "IMAPConnection-\u003eIO[String]",
@@ -3489,6 +3763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "check",
           "package": "HaskellNet",
@@ -3498,6 +3773,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "check",
           "normalized": "IMAPConnection-\u003eIO()",
@@ -3512,6 +3788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "close",
           "package": "HaskellNet",
@@ -3521,6 +3798,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "close",
           "normalized": "IMAPConnection-\u003eIO()",
@@ -3535,6 +3813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "connectIMAP",
           "package": "HaskellNet",
@@ -3544,6 +3823,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "connectIMAP",
           "normalized": "String-\u003eIO IMAPConnection",
@@ -3559,6 +3839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "connectIMAPPort",
           "package": "HaskellNet",
@@ -3568,6 +3849,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "connectIMAPPort",
           "normalized": "String-\u003ePortNumber-\u003eIO IMAPConnection",
@@ -3583,6 +3865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "connectStream",
           "package": "HaskellNet",
@@ -3592,6 +3875,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "connectStream",
           "normalized": "BSStream-\u003eIO IMAPConnection",
@@ -3607,6 +3891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "copy",
           "package": "HaskellNet",
@@ -3616,6 +3901,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "copy",
           "normalized": "IMAPConnection-\u003eUID-\u003eMailboxName-\u003eIO()",
@@ -3630,6 +3916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "create",
           "package": "HaskellNet",
@@ -3639,6 +3926,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "create",
           "normalized": "IMAPConnection-\u003eMailboxName-\u003eIO()",
@@ -3653,6 +3941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "delete",
           "package": "HaskellNet",
@@ -3662,6 +3951,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "delete",
           "normalized": "IMAPConnection-\u003eMailboxName-\u003eIO()",
@@ -3676,6 +3966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "examine",
           "package": "HaskellNet",
@@ -3685,6 +3976,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "examine",
           "normalized": "IMAPConnection-\u003eMailboxName-\u003eIO()",
@@ -3699,6 +3991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "expunge",
           "package": "HaskellNet",
@@ -3708,6 +4001,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "expunge",
           "normalized": "IMAPConnection-\u003eIO[Integer]",
@@ -3722,6 +4016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "fetch",
           "package": "HaskellNet",
@@ -3731,6 +4026,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "fetch",
           "normalized": "IMAPConnection-\u003eUID-\u003eIO ByteString",
@@ -3745,6 +4041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "fetchByString",
           "package": "HaskellNet",
@@ -3754,6 +4051,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "fetchByString",
           "normalized": "IMAPConnection-\u003eUID-\u003eString-\u003eIO[(String,String)]",
@@ -3769,6 +4067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "fetchByStringR",
           "package": "HaskellNet",
@@ -3778,6 +4077,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "fetchByStringR",
           "normalized": "IMAPConnection-\u003e(UID,UID)-\u003eString-\u003eIO[(UID,[(String,String)])]",
@@ -3793,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "fetchFlags",
           "package": "HaskellNet",
@@ -3802,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "fetchFlags",
           "normalized": "IMAPConnection-\u003eUID-\u003eIO[Flag]",
@@ -3817,6 +4119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "fetchHeader",
           "package": "HaskellNet",
@@ -3826,6 +4129,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "fetchHeader",
           "normalized": "IMAPConnection-\u003eUID-\u003eIO ByteString",
@@ -3841,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "fetchHeaderFields",
           "package": "HaskellNet",
@@ -3850,6 +4155,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "fetchHeaderFields",
           "normalized": "IMAPConnection-\u003eUID-\u003e[String]-\u003eIO ByteString",
@@ -3865,6 +4171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "fetchHeaderFieldsNot",
           "package": "HaskellNet",
@@ -3874,6 +4181,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "fetchHeaderFieldsNot",
           "normalized": "IMAPConnection-\u003eUID-\u003e[String]-\u003eIO ByteString",
@@ -3889,6 +4197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "fetchR",
           "package": "HaskellNet",
@@ -3898,6 +4207,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "fetchR",
           "normalized": "IMAPConnection-\u003e(UID,UID)-\u003eIO[(UID,ByteString)]",
@@ -3912,6 +4222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "fetchSize",
           "package": "HaskellNet",
@@ -3921,6 +4232,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "fetchSize",
           "normalized": "IMAPConnection-\u003eUID-\u003eIO Int",
@@ -3936,6 +4248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "list",
           "package": "HaskellNet",
@@ -3945,6 +4258,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "list",
           "normalized": "IMAPConnection-\u003eIO[([Attribute],MailboxName)]",
@@ -3959,6 +4273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "login",
           "package": "HaskellNet",
@@ -3968,6 +4283,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "login",
           "normalized": "IMAPConnection-\u003eUserName-\u003ePassword-\u003eIO()",
@@ -3982,6 +4298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "logout",
           "package": "HaskellNet",
@@ -3991,6 +4308,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "logout",
           "normalized": "IMAPConnection-\u003eIO()",
@@ -4005,6 +4323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "lsub",
           "package": "HaskellNet",
@@ -4014,6 +4333,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "lsub",
           "normalized": "IMAPConnection-\u003eIO[([Attribute],MailboxName)]",
@@ -4028,6 +4348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "noop",
           "package": "HaskellNet",
@@ -4037,6 +4358,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "noop",
           "normalized": "IMAPConnection-\u003eIO()",
@@ -4051,6 +4373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "rename",
           "package": "HaskellNet",
@@ -4060,6 +4383,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "rename",
           "normalized": "IMAPConnection-\u003eMailboxName-\u003eMailboxName-\u003eIO()",
@@ -4074,6 +4398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "search",
           "package": "HaskellNet",
@@ -4083,6 +4408,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "search",
           "normalized": "IMAPConnection-\u003e[SearchQuery]-\u003eIO[UID]",
@@ -4097,6 +4423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "select",
           "package": "HaskellNet",
@@ -4106,6 +4433,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "select",
           "normalized": "IMAPConnection-\u003eMailboxName-\u003eIO()",
@@ -4120,6 +4448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "status",
           "package": "HaskellNet",
@@ -4129,6 +4458,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "status",
           "normalized": "IMAPConnection-\u003eMailboxName-\u003e[MailboxStatus]-\u003eIO[(MailboxStatus,Integer)]",
@@ -4143,6 +4473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "store",
           "package": "HaskellNet",
@@ -4152,6 +4483,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "store",
           "normalized": "IMAPConnection-\u003eUID-\u003eFlagsQuery-\u003eIO()",
@@ -4166,6 +4498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "subscribe",
           "package": "HaskellNet",
@@ -4175,6 +4508,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "subscribe",
           "normalized": "IMAPConnection-\u003eMailboxName-\u003eIO()",
@@ -4189,6 +4523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.IMAP",
           "name": "unsubscribe",
           "package": "HaskellNet",
@@ -4198,6 +4533,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet IMAP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.IMAP",
           "name": "unsubscribe",
           "normalized": "IMAPConnection-\u003eMailboxName-\u003eIO()",
@@ -4212,6 +4548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Connection",
           "name": "Connection",
           "package": "HaskellNet",
@@ -4220,6 +4557,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Connection",
           "name": "Connection",
           "package": "HaskellNet",
@@ -4233,6 +4571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Connection",
           "name": "POP3Connection",
           "package": "HaskellNet",
@@ -4241,6 +4580,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Connection",
           "name": "POP3Connection",
           "package": "HaskellNet",
@@ -4255,6 +4595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAPOP key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Connection",
           "name": "apopKey",
           "package": "HaskellNet",
@@ -4265,6 +4606,7 @@
         "index": {
           "description": "APOP key",
           "hierarchy": "Network HaskellNet POP3 Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Connection",
           "name": "apopKey",
           "normalized": "POP Connection-\u003eString",
@@ -4280,6 +4622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Connection",
           "name": "newConnection",
           "package": "HaskellNet",
@@ -4289,6 +4632,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Connection",
           "name": "newConnection",
           "normalized": "BSStream-\u003eString-\u003ePOP Connection",
@@ -4304,6 +4648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Connection",
           "name": "stream",
           "package": "HaskellNet",
@@ -4313,6 +4658,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Connection",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Connection",
           "name": "stream",
           "normalized": "POP Connection-\u003eBSStream",
@@ -4327,6 +4673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "Types",
           "package": "HaskellNet",
@@ -4335,6 +4682,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "Types",
           "package": "HaskellNet",
@@ -4348,6 +4696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "Command",
           "package": "HaskellNet",
@@ -4356,6 +4705,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "Command",
           "package": "HaskellNet",
@@ -4369,6 +4719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "Response",
           "package": "HaskellNet",
@@ -4377,6 +4728,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "Response",
           "package": "HaskellNet",
@@ -4390,6 +4742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "APOP",
           "package": "HaskellNet",
@@ -4399,6 +4752,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "APOP",
           "package": "HaskellNet",
@@ -4412,6 +4766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "AUTH",
           "package": "HaskellNet",
@@ -4421,6 +4776,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "AUTH",
           "package": "HaskellNet",
@@ -4434,6 +4790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "DELE",
           "package": "HaskellNet",
@@ -4443,6 +4800,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "DELE",
           "package": "HaskellNet",
@@ -4456,6 +4814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "Err",
           "package": "HaskellNet",
@@ -4465,6 +4824,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "Err",
           "package": "HaskellNet",
@@ -4478,6 +4838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "LIST",
           "package": "HaskellNet",
@@ -4487,6 +4848,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "LIST",
           "package": "HaskellNet",
@@ -4500,6 +4862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "NOOP",
           "package": "HaskellNet",
@@ -4509,6 +4872,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "NOOP",
           "package": "HaskellNet",
@@ -4522,6 +4886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "Ok",
           "package": "HaskellNet",
@@ -4531,6 +4896,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "Ok",
           "package": "HaskellNet",
@@ -4544,6 +4910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "PASS",
           "package": "HaskellNet",
@@ -4553,6 +4920,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "PASS",
           "package": "HaskellNet",
@@ -4566,6 +4934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "QUIT",
           "package": "HaskellNet",
@@ -4575,6 +4944,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "QUIT",
           "package": "HaskellNet",
@@ -4588,6 +4958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "RETR",
           "package": "HaskellNet",
@@ -4597,6 +4968,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "RETR",
           "package": "HaskellNet",
@@ -4610,6 +4982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "RSET",
           "package": "HaskellNet",
@@ -4619,6 +4992,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "RSET",
           "package": "HaskellNet",
@@ -4632,6 +5006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "STAT",
           "package": "HaskellNet",
@@ -4641,6 +5016,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "STAT",
           "package": "HaskellNet",
@@ -4654,6 +5030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "TOP",
           "package": "HaskellNet",
@@ -4663,6 +5040,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "TOP",
           "package": "HaskellNet",
@@ -4676,6 +5054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "UIDL",
           "package": "HaskellNet",
@@ -4685,6 +5064,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "UIDL",
           "package": "HaskellNet",
@@ -4698,6 +5078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "USER",
           "package": "HaskellNet",
@@ -4707,6 +5088,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3 Types",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3.Types",
           "name": "USER",
           "package": "HaskellNet",
@@ -4720,6 +5102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "POP3",
           "package": "HaskellNet",
@@ -4728,6 +5111,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "POP3",
           "package": "HaskellNet",
@@ -4741,6 +5125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "allList",
           "package": "HaskellNet",
@@ -4750,6 +5135,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "allList",
           "normalized": "POP Connection-\u003eIO[(Int,Int)]",
@@ -4765,6 +5151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "allUIDLs",
           "package": "HaskellNet",
@@ -4774,6 +5161,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "allUIDLs",
           "normalized": "POP Connection-\u003eIO[(Int,ByteString)]",
@@ -4789,6 +5177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "apop",
           "package": "HaskellNet",
@@ -4798,6 +5187,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "apop",
           "normalized": "POP Connection-\u003eString-\u003eString-\u003eIO()",
@@ -4812,6 +5202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "auth",
           "package": "HaskellNet",
@@ -4821,6 +5212,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "auth",
           "normalized": "POP Connection-\u003eAuthType-\u003eUserName-\u003ePassword-\u003eIO()",
@@ -4835,6 +5227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "closePop3",
           "package": "HaskellNet",
@@ -4844,6 +5237,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "closePop3",
           "normalized": "POP Connection-\u003eIO()",
@@ -4860,6 +5254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econnecting to the pop3 server specified by the hostname. 110 is\n used for the port number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "connectPop3",
           "package": "HaskellNet",
@@ -4870,6 +5265,7 @@
         "index": {
           "description": "connecting to the pop3 server specified by the hostname is used for the port number",
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "connectPop3",
           "normalized": "String-\u003eIO POP Connection",
@@ -4886,6 +5282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econnecting to the pop3 server specified by the hostname and port\n number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "connectPop3Port",
           "package": "HaskellNet",
@@ -4896,6 +5293,7 @@
         "index": {
           "description": "connecting to the pop3 server specified by the hostname and port number",
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "connectPop3Port",
           "normalized": "String-\u003ePortNumber-\u003eIO POP Connection",
@@ -4912,6 +5310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econnecting to the pop3 server via a stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "connectStream",
           "package": "HaskellNet",
@@ -4922,6 +5321,7 @@
         "index": {
           "description": "connecting to the pop3 server via stream",
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "connectStream",
           "normalized": "BSStream-\u003eIO POP Connection",
@@ -4937,6 +5337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "dele",
           "package": "HaskellNet",
@@ -4946,6 +5347,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "dele",
           "normalized": "POP Connection-\u003eInt-\u003eIO()",
@@ -4960,6 +5362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "doPop3",
           "package": "HaskellNet",
@@ -4969,6 +5372,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "doPop3",
           "normalized": "String-\u003e(POP Connection-\u003eIO a)-\u003eIO a",
@@ -4984,6 +5388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "doPop3Port",
           "package": "HaskellNet",
@@ -4993,6 +5398,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "doPop3Port",
           "normalized": "String-\u003ePortNumber-\u003e(POP Connection-\u003eIO a)-\u003eIO a",
@@ -5008,6 +5414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "doPop3Stream",
           "package": "HaskellNet",
@@ -5017,6 +5424,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "doPop3Stream",
           "normalized": "BSStream-\u003e(POP Connection-\u003eIO a)-\u003eIO a",
@@ -5032,6 +5440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "list",
           "package": "HaskellNet",
@@ -5041,6 +5450,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "list",
           "normalized": "POP Connection-\u003eInt-\u003eIO Int",
@@ -5055,6 +5465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "pass",
           "package": "HaskellNet",
@@ -5064,6 +5475,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "pass",
           "normalized": "POP Connection-\u003eString-\u003eIO()",
@@ -5078,6 +5490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "retr",
           "package": "HaskellNet",
@@ -5087,6 +5500,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "retr",
           "normalized": "POP Connection-\u003eInt-\u003eIO ByteString",
@@ -5101,6 +5515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "rset",
           "package": "HaskellNet",
@@ -5110,6 +5525,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "rset",
           "normalized": "POP Connection-\u003eIO()",
@@ -5125,6 +5541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esendCommand sends a pop3 command via a pop3 connection.  This\n action is too generic. Use more specific actions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "sendCommand",
           "package": "HaskellNet",
@@ -5135,6 +5552,7 @@
         "index": {
           "description": "sendCommand sends pop3 command via pop3 connection This action is too generic Use more specific actions",
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "sendCommand",
           "normalized": "POP Connection-\u003eCommand-\u003eIO(Response,ByteString)",
@@ -5150,6 +5568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "stat",
           "package": "HaskellNet",
@@ -5159,6 +5578,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "stat",
           "normalized": "POP Connection-\u003eIO(Int,Int)",
@@ -5173,6 +5593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "top",
           "package": "HaskellNet",
@@ -5182,6 +5603,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "top",
           "normalized": "POP Connection-\u003eInt-\u003eInt-\u003eIO ByteString",
@@ -5196,6 +5618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "uidl",
           "package": "HaskellNet",
@@ -5205,6 +5628,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "uidl",
           "normalized": "POP Connection-\u003eInt-\u003eIO ByteString",
@@ -5219,6 +5643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "user",
           "package": "HaskellNet",
@@ -5228,6 +5653,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "user",
           "normalized": "POP Connection-\u003eString-\u003eIO()",
@@ -5242,6 +5668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.POP3",
           "name": "userPass",
           "package": "HaskellNet",
@@ -5251,6 +5678,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet POP3",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.POP3",
           "name": "userPass",
           "normalized": "POP Connection-\u003eUserName-\u003ePassword-\u003eIO()",
@@ -5266,6 +5694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "SMTP",
           "package": "HaskellNet",
@@ -5274,6 +5703,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "SMTP",
           "package": "HaskellNet",
@@ -5287,6 +5717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "Command",
           "package": "HaskellNet",
@@ -5295,6 +5726,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "Command",
           "package": "HaskellNet",
@@ -5308,6 +5740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "Response",
           "package": "HaskellNet",
@@ -5316,6 +5749,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "Response",
           "package": "HaskellNet",
@@ -5329,6 +5763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "SMTPConnection",
           "package": "HaskellNet",
@@ -5337,6 +5772,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "SMTPConnection",
           "package": "HaskellNet",
@@ -5350,6 +5786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "AUTH",
           "package": "HaskellNet",
@@ -5359,6 +5796,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "AUTH",
           "package": "HaskellNet",
@@ -5372,6 +5810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "BadSequence",
           "package": "HaskellNet",
@@ -5381,6 +5820,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "BadSequence",
           "package": "HaskellNet",
@@ -5394,6 +5834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "CannotVerify",
           "package": "HaskellNet",
@@ -5403,6 +5844,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "CannotVerify",
           "package": "HaskellNet",
@@ -5416,6 +5858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "CommandNotImplemented",
           "package": "HaskellNet",
@@ -5425,6 +5868,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "CommandNotImplemented",
           "package": "HaskellNet",
@@ -5438,6 +5882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "DATA",
           "package": "HaskellNet",
@@ -5447,6 +5892,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "DATA",
           "package": "HaskellNet",
@@ -5460,6 +5906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "EHLO",
           "package": "HaskellNet",
@@ -5469,6 +5916,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "EHLO",
           "package": "HaskellNet",
@@ -5482,6 +5930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "EXPN",
           "package": "HaskellNet",
@@ -5491,6 +5940,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "EXPN",
           "package": "HaskellNet",
@@ -5504,6 +5954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "ErrorInProcessing",
           "package": "HaskellNet",
@@ -5513,6 +5964,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "ErrorInProcessing",
           "package": "HaskellNet",
@@ -5526,6 +5978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "ExceededStorage",
           "package": "HaskellNet",
@@ -5535,6 +5988,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "ExceededStorage",
           "package": "HaskellNet",
@@ -5548,6 +6002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "HELO",
           "package": "HaskellNet",
@@ -5557,6 +6012,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "HELO",
           "package": "HaskellNet",
@@ -5570,6 +6026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "HELP",
           "package": "HaskellNet",
@@ -5579,6 +6036,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "HELP",
           "package": "HaskellNet",
@@ -5592,6 +6050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "HelpMessage",
           "package": "HaskellNet",
@@ -5601,6 +6060,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "HelpMessage",
           "package": "HaskellNet",
@@ -5614,6 +6074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "InsufficientSystemStorage",
           "package": "HaskellNet",
@@ -5623,6 +6084,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "InsufficientSystemStorage",
           "package": "HaskellNet",
@@ -5636,6 +6098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "MAIL",
           "package": "HaskellNet",
@@ -5645,6 +6108,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "MAIL",
           "package": "HaskellNet",
@@ -5658,6 +6122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "MailboxNotAllowed",
           "package": "HaskellNet",
@@ -5667,6 +6132,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "MailboxNotAllowed",
           "package": "HaskellNet",
@@ -5680,6 +6146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "MailboxUnavailable",
           "package": "HaskellNet",
@@ -5689,6 +6156,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "MailboxUnavailable",
           "package": "HaskellNet",
@@ -5702,6 +6170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "MailboxUnavailableError",
           "package": "HaskellNet",
@@ -5711,6 +6180,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "MailboxUnavailableError",
           "package": "HaskellNet",
@@ -5724,6 +6194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "NOOP",
           "package": "HaskellNet",
@@ -5733,6 +6204,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "NOOP",
           "package": "HaskellNet",
@@ -5746,6 +6218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "Ok",
           "package": "HaskellNet",
@@ -5755,6 +6228,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "Ok",
           "package": "HaskellNet",
@@ -5768,6 +6242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "ParameterError",
           "package": "HaskellNet",
@@ -5777,6 +6252,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "ParameterError",
           "package": "HaskellNet",
@@ -5790,6 +6266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "ParameterNotImplemented",
           "package": "HaskellNet",
@@ -5799,6 +6276,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "ParameterNotImplemented",
           "package": "HaskellNet",
@@ -5812,6 +6290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "QUIT",
           "package": "HaskellNet",
@@ -5821,6 +6300,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "QUIT",
           "package": "HaskellNet",
@@ -5834,6 +6314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "RCPT",
           "package": "HaskellNet",
@@ -5843,6 +6324,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "RCPT",
           "package": "HaskellNet",
@@ -5856,6 +6338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "RSET",
           "package": "HaskellNet",
@@ -5865,6 +6348,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "RSET",
           "package": "HaskellNet",
@@ -5878,6 +6362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "ServiceClosing",
           "package": "HaskellNet",
@@ -5887,6 +6372,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "ServiceClosing",
           "package": "HaskellNet",
@@ -5900,6 +6386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "ServiceNotAvailable",
           "package": "HaskellNet",
@@ -5909,6 +6396,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "ServiceNotAvailable",
           "package": "HaskellNet",
@@ -5922,6 +6410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "ServiceReady",
           "package": "HaskellNet",
@@ -5931,6 +6420,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "ServiceReady",
           "package": "HaskellNet",
@@ -5944,6 +6434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "StartMailInput",
           "package": "HaskellNet",
@@ -5953,6 +6444,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "StartMailInput",
           "package": "HaskellNet",
@@ -5966,6 +6458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "SyntaxError",
           "package": "HaskellNet",
@@ -5975,6 +6468,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "SyntaxError",
           "package": "HaskellNet",
@@ -5988,6 +6482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "SystemStatus",
           "package": "HaskellNet",
@@ -5997,6 +6492,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "SystemStatus",
           "package": "HaskellNet",
@@ -6010,6 +6506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "TransactionFailed",
           "package": "HaskellNet",
@@ -6019,6 +6516,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "TransactionFailed",
           "package": "HaskellNet",
@@ -6032,6 +6530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "UserNotLocal",
           "package": "HaskellNet",
@@ -6041,6 +6540,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "UserNotLocal",
           "package": "HaskellNet",
@@ -6054,6 +6554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "UserNotLocalError",
           "package": "HaskellNet",
@@ -6063,6 +6564,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "UserNotLocalError",
           "package": "HaskellNet",
@@ -6076,6 +6578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "VRFY",
           "package": "HaskellNet",
@@ -6085,6 +6588,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "VRFY",
           "package": "HaskellNet",
@@ -6099,6 +6603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclose the connection.  This function send the QUIT method, so you\n do not have to QUIT method explicitly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "closeSMTP",
           "package": "HaskellNet",
@@ -6109,6 +6614,7 @@
         "index": {
           "description": "close the connection This function send the QUIT method so you do not have to QUIT method explicitly",
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "closeSMTP",
           "normalized": "SMTPConnection-\u003eIO()",
@@ -6125,6 +6631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econnecting SMTP server with the specified name and port 25.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "connectSMTP",
           "package": "HaskellNet",
@@ -6134,6 +6641,7 @@
         "index": {
           "description": "connecting SMTP server with the specified name and port",
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "connectSMTP",
           "normalized": "String-\u003eIO SMTPConnection",
@@ -6150,6 +6658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econnecting SMTP server with the specified name and port number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "connectSMTPPort",
           "package": "HaskellNet",
@@ -6159,6 +6668,7 @@
         "index": {
           "description": "connecting SMTP server with the specified name and port number",
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "connectSMTPPort",
           "normalized": "String-\u003ePortNumber-\u003eIO SMTPConnection",
@@ -6175,6 +6685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate SMTPConnection from already connected Stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "connectStream",
           "package": "HaskellNet",
@@ -6185,6 +6696,7 @@
         "index": {
           "description": "create SMTPConnection from already connected Stream",
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "connectStream",
           "normalized": "BSStream-\u003eIO SMTPConnection",
@@ -6201,6 +6713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edoSMTP is similar to doSMTPPort, except that it does not require\n port number but connects to the server with port 25.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "doSMTP",
           "package": "HaskellNet",
@@ -6211,6 +6724,7 @@
         "index": {
           "description": "doSMTP is similar to doSMTPPort except that it does not require port number but connects to the server with port",
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "doSMTP",
           "normalized": "String-\u003e(SMTPConnection-\u003eIO a)-\u003eIO a",
@@ -6227,6 +6741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edoSMTPPort open a connection, and do an IO action with the\n connection, and then close it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "doSMTPPort",
           "package": "HaskellNet",
@@ -6237,6 +6752,7 @@
         "index": {
           "description": "doSMTPPort open connection and do an IO action with the connection and then close it",
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "doSMTPPort",
           "normalized": "String-\u003ePortNumber-\u003e(SMTPConnection-\u003eIO a)-\u003eIO a",
@@ -6253,6 +6769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edoSMTPStream is similar to doSMTPPort, except that its argument\n is a Stream data instead of hostname and port number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "doSMTPStream",
           "package": "HaskellNet",
@@ -6263,6 +6780,7 @@
         "index": {
           "description": "doSMTPStream is similar to doSMTPPort except that its argument is Stream data instead of hostname and port number",
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "doSMTPStream",
           "normalized": "BSStream-\u003e(SMTPConnection-\u003eIO a)-\u003eIO a",
@@ -6279,6 +6797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esend a method to a server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "sendCommand",
           "package": "HaskellNet",
@@ -6289,6 +6808,7 @@
         "index": {
           "description": "send method to server",
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "sendCommand",
           "normalized": "SMTPConnection-\u003eCommand-\u003eIO(ReplyCode,ByteString)",
@@ -6305,6 +6825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esending a mail to a server. This is achieved by sendMessage.  If\n something is wrong, it raises an IOexception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "sendMail",
           "package": "HaskellNet",
@@ -6314,6 +6835,7 @@
         "index": {
           "description": "sending mail to server This is achieved by sendMessage If something is wrong it raises an IOexception",
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "sendMail",
           "normalized": "String-\u003e[String]-\u003eByteString-\u003eSMTPConnection-\u003eIO()",
@@ -6329,6 +6851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:59 UTC 2014",
           "module": "Network.HaskellNet.SMTP",
           "name": "sendMimeMail",
           "package": "HaskellNet",
@@ -6338,6 +6861,7 @@
         },
         "index": {
           "hierarchy": "Network HaskellNet SMTP",
+          "indexed": "2014-03-11T16:47:59",
           "module": "Network.HaskellNet.SMTP",
           "name": "sendMimeMail",
           "normalized": "String-\u003eString-\u003eString-\u003eText-\u003eText-\u003e[(Text,FilePath)]-\u003eSMTPConnection-\u003eIO()",

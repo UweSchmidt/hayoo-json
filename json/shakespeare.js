@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shakespeare"
+        "phrase": "shakespeare",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneral parsers, functions and datatypes for all Shakespeare languages.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "Base",
           "package": "shakespeare",
@@ -28,6 +29,7 @@
         "index": {
           "description": "General parsers functions and datatypes for all Shakespeare languages",
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "Base",
           "package": "shakespeare",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "Deref",
           "package": "shakespeare",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "Deref",
           "package": "shakespeare",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "Ident",
           "package": "shakespeare",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "Ident",
           "package": "shakespeare",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "Scope",
           "package": "shakespeare",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "Scope",
           "package": "shakespeare",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "DerefBranch",
           "package": "shakespeare",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "DerefBranch",
           "package": "shakespeare",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "DerefIdent",
           "package": "shakespeare",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "DerefIdent",
           "package": "shakespeare",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "DerefIntegral",
           "package": "shakespeare",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "DerefIntegral",
           "package": "shakespeare",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "DerefList",
           "package": "shakespeare",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "DerefList",
           "normalized": "DerefList[Deref]",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "DerefModulesIdent",
           "package": "shakespeare",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "DerefModulesIdent",
           "normalized": "DerefModulesIdent[String]Ident",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "DerefRational",
           "package": "shakespeare",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "DerefRational",
           "package": "shakespeare",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "DerefString",
           "package": "shakespeare",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "DerefString",
           "package": "shakespeare",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "DerefTuple",
           "package": "shakespeare",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "DerefTuple",
           "normalized": "DerefTuple[Deref]",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "Ident",
           "package": "shakespeare",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "Ident",
           "package": "shakespeare",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "derefToExp",
           "package": "shakespeare",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "derefToExp",
           "normalized": "Scope-\u003eDeref-\u003eExp",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "flattenDeref",
           "package": "shakespeare",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "flattenDeref",
           "normalized": "Deref-\u003eMaybe[String]",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "parseAt",
           "package": "shakespeare",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "parseAt",
           "normalized": "UserParser a(Either String(Deref,Bool))",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "parseCaret",
           "package": "shakespeare",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "parseCaret",
           "package": "shakespeare",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "parseDeref",
           "package": "shakespeare",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "parseDeref",
           "package": "shakespeare",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "parseHash",
           "package": "shakespeare",
@@ -433,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "parseHash",
           "package": "shakespeare",
@@ -446,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "parseInt",
           "package": "shakespeare",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "parseInt",
           "normalized": "Char-\u003eUserParser a(Either String Deref)",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "parseIntString",
           "package": "shakespeare",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "parseIntString",
           "normalized": "Char-\u003eUserParser a(Either String String)",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "parseUnder",
           "package": "shakespeare",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "parseUnder",
           "package": "shakespeare",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "parseUrl",
           "package": "shakespeare",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "parseUrl",
           "normalized": "Char-\u003eChar-\u003eUserParser a(Either String(Deref,Bool))",
@@ -540,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "parseUrlString",
           "package": "shakespeare",
@@ -549,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "parseUrlString",
           "normalized": "Char-\u003eChar-\u003eUserParser a(Either String String)",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "parseVar",
           "package": "shakespeare",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "parseVar",
           "normalized": "Char-\u003eUserParser a(Either String Deref)",
@@ -588,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "parseVarString",
           "package": "shakespeare",
@@ -597,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "parseVarString",
           "normalized": "Char-\u003eUserParser a(Either String String)",
@@ -612,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare.Base",
           "name": "readUtf8File",
           "package": "shakespeare",
@@ -621,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare Base",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare.Base",
           "name": "readUtf8File",
           "normalized": "FilePath-\u003eIO Text",
@@ -637,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFor lack of a better name... a parameterized version of Julius.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "Shakespeare",
           "package": "shakespeare",
@@ -646,6 +701,7 @@
         "index": {
           "description": "For lack of better name parameterized version of Julius",
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "Shakespeare",
           "package": "shakespeare",
@@ -659,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "Deref",
           "package": "shakespeare",
@@ -667,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "Deref",
           "package": "shakespeare",
@@ -681,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser with a user state of [String]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "Parser",
           "package": "shakespeare",
@@ -690,6 +749,7 @@
         "index": {
           "description": "parser with user state of String",
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "Parser",
           "package": "shakespeare",
@@ -703,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "PreConversion",
           "package": "shakespeare",
@@ -711,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "PreConversion",
           "package": "shakespeare",
@@ -725,6 +787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoffeescript, TypeScript, and other languages compiles down to Javascript.\n Previously we waited until the very end, at the rendering stage to perform this compilation.\n Lets call is a post-conversion\n This had the advantage that all Haskell values were inserted first:\n for example a value could be inserted that Coffeescript would compile into Javascript.\n While that is perhaps a safer approach, the advantage is not used in practice:\n it was that way mainly for ease of implementation.\n The down-side is the template must be compiled down to Javascript during every request.\n If instead we do a pre-conversion to compile down to Javascript,\n we only need to perform the compilation once.\n\u003c/p\u003e\u003cp\u003eThe problem then is the insertion of Haskell values: we need a hole for\n them. This can be done with variables known to the language.\n During the pre-conversion we first modify all Haskell insertions\n So #{a} is change to shakespeare_var_a\n Then we can place the Haskell values in a function wrapper that exposes\n those variables: (function(shakespeare_var_a){ ... shakespeare_var_a ...})\n TypeScript can compile that, and then we tack an application of the\n Haskell values onto the result: (#{a})\n\u003c/p\u003e\u003cp\u003epreEscapeIgnoreBalanced is used to not insert backtacks for variable already inside strings or backticks.\n coffeescript will happily ignore the interpolations, and backticks would not be treated as escaping in that context.\n preEscapeIgnoreLine was added to ignore comments (which in Coffeescript begin with a '#')\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "PreConvert",
           "package": "shakespeare",
@@ -734,6 +797,7 @@
         "index": {
           "description": "Coffeescript TypeScript and other languages compiles down to Javascript Previously we waited until the very end at the rendering stage to perform this compilation Lets call is post-conversion This had the advantage that all Haskell values were inserted first for example value could be inserted that Coffeescript would compile into Javascript While that is perhaps safer approach the advantage is not used in practice it was that way mainly for ease of implementation The down-side is the template must be compiled down to Javascript during every request If instead we do pre-conversion to compile down to Javascript we only need to perform the compilation once The problem then is the insertion of Haskell values we need hole for them This can be done with variables known to the language During the pre-conversion we first modify all Haskell insertions So is change to shakespeare var Then we can place the Haskell values in function wrapper that exposes those variables function shakespeare var shakespeare var TypeScript can compile that and then we tack an application of the Haskell values onto the result preEscapeIgnoreBalanced is used to not insert backtacks for variable already inside strings or backticks coffeescript will happily ignore the interpolations and backticks would not be treated as escaping in that context preEscapeIgnoreLine was added to ignore comments which in Coffeescript begin with",
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "PreConvert",
           "package": "shakespeare",
@@ -747,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "RenderUrl",
           "package": "shakespeare",
@@ -755,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "RenderUrl",
           "package": "shakespeare",
@@ -768,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "ShakespeareSettings",
           "package": "shakespeare",
@@ -776,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "ShakespeareSettings",
           "package": "shakespeare",
@@ -789,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "VarType",
           "package": "shakespeare",
@@ -797,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "VarType",
           "package": "shakespeare",
@@ -810,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "WrapInsertion",
           "package": "shakespeare",
@@ -818,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "WrapInsertion",
           "package": "shakespeare",
@@ -831,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "Id",
           "package": "shakespeare",
@@ -840,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "Id",
           "package": "shakespeare",
@@ -853,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "PreConvert",
           "package": "shakespeare",
@@ -862,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "PreConvert",
           "package": "shakespeare",
@@ -875,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "ReadProcess",
           "package": "shakespeare",
@@ -884,6 +961,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "ReadProcess",
           "normalized": "ReadProcess String[String]",
@@ -899,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "ShakespeareSettings",
           "package": "shakespeare",
@@ -908,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "ShakespeareSettings",
           "package": "shakespeare",
@@ -921,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "VTMixin",
           "package": "shakespeare",
@@ -930,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "VTMixin",
           "package": "shakespeare",
@@ -943,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "VTPlain",
           "package": "shakespeare",
@@ -952,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "VTPlain",
           "package": "shakespeare",
@@ -965,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "VTUrl",
           "package": "shakespeare",
@@ -974,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "VTUrl",
           "package": "shakespeare",
@@ -987,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "VTUrlParam",
           "package": "shakespeare",
@@ -996,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "VTUrlParam",
           "package": "shakespeare",
@@ -1009,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "WrapInsertion",
           "package": "shakespeare",
@@ -1018,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "WrapInsertion",
           "package": "shakespeare",
@@ -1031,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "defaultShakespeareSettings",
           "package": "shakespeare",
@@ -1040,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "defaultShakespeareSettings",
           "package": "shakespeare",
@@ -1053,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "intChar",
           "package": "shakespeare",
@@ -1062,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "intChar",
           "package": "shakespeare",
@@ -1075,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "justVarInterpolation",
           "package": "shakespeare",
@@ -1084,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "justVarInterpolation",
           "package": "shakespeare",
@@ -1098,6 +1194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA transformation applied to the final expression. Most often, this\n would be used to force the type of the expression to help make more\n meaningful error messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "modifyFinalValue",
           "package": "shakespeare",
@@ -1108,6 +1205,7 @@
         "index": {
           "description": "transformation applied to the final expression Most often this would be used to force the type of the expression to help make more meaningful error messages",
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "modifyFinalValue",
           "package": "shakespeare",
@@ -1121,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "pack'",
           "package": "shakespeare",
@@ -1130,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "pack'",
           "normalized": "String-\u003eText",
@@ -1144,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "preConversion",
           "package": "shakespeare",
@@ -1153,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "preConversion",
           "package": "shakespeare",
@@ -1166,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "preConvert",
           "package": "shakespeare",
@@ -1175,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "preConvert",
           "package": "shakespeare",
@@ -1188,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "preEscapeIgnoreBalanced",
           "package": "shakespeare",
@@ -1197,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "preEscapeIgnoreBalanced",
           "normalized": "[Char]",
@@ -1212,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "preEscapeIgnoreLine",
           "package": "shakespeare",
@@ -1221,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "preEscapeIgnoreLine",
           "normalized": "[Char]",
@@ -1236,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "shakespeare",
           "package": "shakespeare",
@@ -1245,6 +1354,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "shakespeare",
           "normalized": "ShakespeareSettings-\u003eQuasiQuoter",
@@ -1259,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "shakespeareFile",
           "package": "shakespeare",
@@ -1268,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "shakespeareFile",
           "normalized": "ShakespeareSettings-\u003eFilePath-\u003eQ Exp",
@@ -1283,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "shakespeareFileReload",
           "package": "shakespeare",
@@ -1292,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "shakespeareFileReload",
           "normalized": "ShakespeareSettings-\u003eFilePath-\u003eQ Exp",
@@ -1307,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "shakespeareFromString",
           "package": "shakespeare",
@@ -1316,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "shakespeareFromString",
           "normalized": "ShakespeareSettings-\u003eString-\u003eQ Exp",
@@ -1331,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "shakespeareRuntime",
           "package": "shakespeare",
@@ -1340,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "shakespeareRuntime",
           "normalized": "ShakespeareSettings-\u003eFilePath-\u003e[(Deref,VarExp a)]-\u003eShakespeare a",
@@ -1356,6 +1474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine which identifiers are used by the given template, useful for\n creating systems like yesod devel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "shakespeareUsedIdentifiers",
           "package": "shakespeare",
@@ -1366,6 +1485,7 @@
         "index": {
           "description": "Determine which identifiers are used by the given template useful for creating systems like yesod devel",
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "shakespeareUsedIdentifiers",
           "normalized": "ShakespeareSettings-\u003eString-\u003e[(Deref,VarType)]",
@@ -1381,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "toBuilder",
           "package": "shakespeare",
@@ -1390,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "toBuilder",
           "package": "shakespeare",
@@ -1403,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "unwrap",
           "package": "shakespeare",
@@ -1412,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "unwrap",
           "package": "shakespeare",
@@ -1424,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "urlChar",
           "package": "shakespeare",
@@ -1433,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "urlChar",
           "package": "shakespeare",
@@ -1446,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "varChar",
           "package": "shakespeare",
@@ -1455,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "varChar",
           "package": "shakespeare",
@@ -1468,6 +1596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "wrap",
           "package": "shakespeare",
@@ -1477,6 +1606,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "wrap",
           "package": "shakespeare",
@@ -1489,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "wrapInsertion",
           "package": "shakespeare",
@@ -1498,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "wrapInsertion",
           "package": "shakespeare",
@@ -1511,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "wrapInsertionAddParens",
           "package": "shakespeare",
@@ -1520,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "wrapInsertionAddParens",
           "package": "shakespeare",
@@ -1533,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "wrapInsertionEnd",
           "package": "shakespeare",
@@ -1542,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "wrapInsertionEnd",
           "package": "shakespeare",
@@ -1555,6 +1691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "wrapInsertionIndent",
           "package": "shakespeare",
@@ -1564,6 +1701,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "wrapInsertionIndent",
           "package": "shakespeare",
@@ -1577,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "wrapInsertionSeparator",
           "package": "shakespeare",
@@ -1586,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "wrapInsertionSeparator",
           "package": "shakespeare",
@@ -1599,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "wrapInsertionStartBegin",
           "package": "shakespeare",
@@ -1608,6 +1749,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "wrapInsertionStartBegin",
           "package": "shakespeare",
@@ -1621,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:03 UTC 2014",
           "module": "Text.Shakespeare",
           "name": "wrapInsertionStartClose",
           "package": "shakespeare",
@@ -1630,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Text Shakespeare",
+          "indexed": "2014-03-11T20:01:03",
           "module": "Text.Shakespeare",
           "name": "wrapInsertionStartClose",
           "package": "shakespeare",

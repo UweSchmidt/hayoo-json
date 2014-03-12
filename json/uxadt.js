@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uxadt"
+        "phrase": "uxadt",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:55 UTC 2014",
           "module": "Text.UxADT",
           "name": "UxADT",
           "package": "uxadt",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text UxADT",
+          "indexed": "2014-03-11T20:32:55",
           "module": "Text.UxADT",
           "name": "UxADT",
           "package": "uxadt",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:55 UTC 2014",
           "module": "Text.UxADT",
           "name": "Constructor",
           "package": "uxadt",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text UxADT",
+          "indexed": "2014-03-11T20:32:55",
           "module": "Text.UxADT",
           "name": "Constructor",
           "package": "uxadt",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:55 UTC 2014",
           "module": "Text.UxADT",
           "name": "ToUxADT",
           "package": "uxadt",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text UxADT",
+          "indexed": "2014-03-11T20:32:55",
           "module": "Text.UxADT",
           "name": "ToUxADT",
           "package": "uxadt",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:55 UTC 2014",
           "module": "Text.UxADT",
           "name": "UxADT",
           "package": "uxadt",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Text UxADT",
+          "indexed": "2014-03-11T20:32:55",
           "module": "Text.UxADT",
           "name": "UxADT",
           "package": "uxadt",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:55 UTC 2014",
           "module": "Text.UxADT",
           "name": "Variable",
           "package": "uxadt",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Text UxADT",
+          "indexed": "2014-03-11T20:32:55",
           "module": "Text.UxADT",
           "name": "Variable",
           "package": "uxadt",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:55 UTC 2014",
           "module": "Text.UxADT",
           "name": "B",
           "package": "uxadt",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Text UxADT",
+          "indexed": "2014-03-11T20:32:55",
           "module": "Text.UxADT",
           "name": "B",
           "package": "uxadt",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:55 UTC 2014",
           "module": "Text.UxADT",
           "name": "C",
           "package": "uxadt",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Text UxADT",
+          "indexed": "2014-03-11T20:32:55",
           "module": "Text.UxADT",
           "name": "C",
           "normalized": "C Constructor[UxADT]",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:55 UTC 2014",
           "module": "Text.UxADT",
           "name": "D",
           "package": "uxadt",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Text UxADT",
+          "indexed": "2014-03-11T20:32:55",
           "module": "Text.UxADT",
           "name": "D",
           "package": "uxadt",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:55 UTC 2014",
           "module": "Text.UxADT",
           "name": "F",
           "package": "uxadt",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Text UxADT",
+          "indexed": "2014-03-11T20:32:55",
           "module": "Text.UxADT",
           "name": "F",
           "package": "uxadt",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:55 UTC 2014",
           "module": "Text.UxADT",
           "name": "I",
           "package": "uxadt",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Text UxADT",
+          "indexed": "2014-03-11T20:32:55",
           "module": "Text.UxADT",
           "name": "I",
           "package": "uxadt",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:55 UTC 2014",
           "module": "Text.UxADT",
           "name": "L",
           "package": "uxadt",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Text UxADT",
+          "indexed": "2014-03-11T20:32:55",
           "module": "Text.UxADT",
           "name": "L",
           "normalized": "L[UxADT]",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:55 UTC 2014",
           "module": "Text.UxADT",
           "name": "None",
           "package": "uxadt",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Text UxADT",
+          "indexed": "2014-03-11T20:32:55",
           "module": "Text.UxADT",
           "name": "None",
           "package": "uxadt",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:55 UTC 2014",
           "module": "Text.UxADT",
           "name": "S",
           "package": "uxadt",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Text UxADT",
+          "indexed": "2014-03-11T20:32:55",
           "module": "Text.UxADT",
           "name": "S",
           "package": "uxadt",
@@ -296,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:55 UTC 2014",
           "module": "Text.UxADT",
           "name": "V",
           "package": "uxadt",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Text UxADT",
+          "indexed": "2014-03-11T20:32:55",
           "module": "Text.UxADT",
           "name": "V",
           "package": "uxadt",
@@ -317,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:55 UTC 2014",
           "module": "Text.UxADT",
           "name": "javaScriptModule",
           "package": "uxadt",
@@ -326,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Text UxADT",
+          "indexed": "2014-03-11T20:32:55",
           "module": "Text.UxADT",
           "name": "javaScriptModule",
           "normalized": "String-\u003eUxADT-\u003eString",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:55 UTC 2014",
           "module": "Text.UxADT",
           "name": "uxadt",
           "package": "uxadt",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Text UxADT",
+          "indexed": "2014-03-11T20:32:55",
           "module": "Text.UxADT",
           "name": "uxadt",
           "normalized": "a-\u003eUxADT",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "classy-prelude-yesod"
+        "phrase": "classy-prelude-yesod",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:36 UTC 2014",
           "module": "ClassyPrelude.Yesod",
           "name": "Yesod",
           "package": "classy-prelude-yesod",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "ClassyPrelude Yesod",
+          "indexed": "2014-03-11T17:33:36",
           "module": "ClassyPrelude.Yesod",
           "name": "Yesod",
           "package": "classy-prelude-yesod",

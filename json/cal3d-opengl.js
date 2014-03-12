@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cal3d-opengl"
+        "phrase": "cal3d-opengl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:26 UTC 2014",
           "module": "Graphics.Animation.Cal3D.OpenGL",
           "name": "getAmbientColor",
           "package": "cal3d-opengl",
@@ -27,6 +28,7 @@
         },
         "index": {
           "hierarchy": "Graphics Animation Cal3D OpenGL",
+          "indexed": "2014-03-11T17:29:26",
           "module": "Graphics.Animation.Cal3D.OpenGL",
           "name": "getAmbientColor",
           "normalized": "Renderer-\u003eIO(Color GLfloat)",
@@ -42,6 +44,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:26 UTC 2014",
           "module": "Graphics.Animation.Cal3D.OpenGL",
           "name": "getDiffuseColor",
           "package": "cal3d-opengl",
@@ -51,6 +54,7 @@
         },
         "index": {
           "hierarchy": "Graphics Animation Cal3D OpenGL",
+          "indexed": "2014-03-11T17:29:26",
           "module": "Graphics.Animation.Cal3D.OpenGL",
           "name": "getDiffuseColor",
           "normalized": "Renderer-\u003eIO(Color GLfloat)",
@@ -66,6 +70,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:26 UTC 2014",
           "module": "Graphics.Animation.Cal3D.OpenGL",
           "name": "getSpecularColor",
           "package": "cal3d-opengl",
@@ -75,6 +80,7 @@
         },
         "index": {
           "hierarchy": "Graphics Animation Cal3D OpenGL",
+          "indexed": "2014-03-11T17:29:26",
           "module": "Graphics.Animation.Cal3D.OpenGL",
           "name": "getSpecularColor",
           "normalized": "Renderer-\u003eIO(Color GLfloat)",

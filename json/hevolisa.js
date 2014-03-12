@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hevolisa"
+        "phrase": "hevolisa",
+        "type": "phrase"
       },
       "type": "context"
     }

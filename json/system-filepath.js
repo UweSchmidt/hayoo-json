@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "system-filepath"
+        "phrase": "system-filepath",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRe&#8208;exports contents of \u003ca\u003eFilesystem.Path.Rules\u003c/a\u003e, defaulting to the\n current OS&#8217;s rules when needed.\n\u003c/p\u003e\u003cp\u003eAlso enables \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eIsString\u003c/a\u003e\u003c/code\u003e instances for \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.CurrentOS",
           "name": "CurrentOS",
           "package": "system-filepath",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Re exports contents of Filesystem.Path.Rules defaulting to the current OS rules when needed Also enables Show and IsString instances for FilePath",
           "hierarchy": "Filesystem Path CurrentOS",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.CurrentOS",
           "name": "CurrentOS",
           "package": "system-filepath",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.CurrentOS",
           "name": "currentOS",
           "package": "system-filepath",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Filesystem Path CurrentOS",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.CurrentOS",
           "name": "currentOS",
           "package": "system-filepath",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e from a platform&#8208;specific format, suitable\n for use with external OS functions.\n\u003c/p\u003e\u003cp\u003eSince: 0.3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.CurrentOS",
           "name": "decode",
           "package": "system-filepath",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Convert FilePath from platform specific format suitable for use with external OS functions Since",
           "hierarchy": "Filesystem Path CurrentOS",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.CurrentOS",
           "name": "decode",
           "normalized": "a-\u003eFilePath",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to parse a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e from a string suitable for use with\n functions in \u003ccode\u003eSystem.IO\u003c/code\u003e. Do not use this function for parsing\n human&#8208;readable paths, as the character set decoding is\n platform&#8208;dependent. For converting human&#8208;readable text to a\n \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e, use \u003ccode\u003e\u003ca\u003efromText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.3.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.CurrentOS",
           "name": "decodeString",
           "package": "system-filepath",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Attempt to parse FilePath from string suitable for use with functions in System.IO Do not use this function for parsing human readable paths as the character set decoding is platform dependent For converting human readable text to FilePath use fromText Since",
           "hierarchy": "Filesystem Path CurrentOS",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.CurrentOS",
           "name": "decodeString",
           "normalized": "String-\u003eFilePath",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e to a platform&#8208;specific format, suitable\n for use with external OS functions.\n\u003c/p\u003e\u003cp\u003eSince: 0.3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.CurrentOS",
           "name": "encode",
           "package": "system-filepath",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Convert FilePath to platform specific format suitable for use with external OS functions Since",
           "hierarchy": "Filesystem Path CurrentOS",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.CurrentOS",
           "name": "encode",
           "normalized": "FilePath-\u003ea",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to convert a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e to a string suitable for use with\n functions in \u003ccode\u003eSystem.IO\u003c/code\u003e. The contents of this string are\n platform&#8208;dependent, and are not guaranteed to be\n human&#8208;readable. For converting \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003es to a\n human&#8208;readable format, use \u003ccode\u003e\u003ca\u003etoText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.3.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.CurrentOS",
           "name": "encodeString",
           "package": "system-filepath",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Attempt to convert FilePath to string suitable for use with functions in System.IO The contents of this string are platform dependent and are not guaranteed to be human readable For converting FilePath to human readable format use toText Since",
           "hierarchy": "Filesystem Path CurrentOS",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.CurrentOS",
           "name": "encodeString",
           "normalized": "FilePath-\u003eString",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert human&#8208;readable text into a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function ignores the user&#8217;s locale, and assumes all file paths\n are encoded in UTF8. If you need to create file paths with an unusual or\n obscure encoding, encode them manually and then use \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.CurrentOS",
           "name": "fromText",
           "package": "system-filepath",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Convert human readable text into FilePath This function ignores the user locale and assumes all file paths are encoded in UTF8 If you need to create file paths with an unusual or obscure encoding encode them manually and then use decode Since",
           "hierarchy": "Filesystem Path CurrentOS",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.CurrentOS",
           "name": "fromText",
           "normalized": "Text-\u003eFilePath",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a search path, such as \u003ccode\u003e$PATH\u003c/code\u003e or \u003ccode\u003e$PYTHONPATH\u003c/code\u003e, into a list\n of \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.CurrentOS",
           "name": "splitSearchPath",
           "package": "system-filepath",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Split search path such as PATH or PYTHONPATH into list of FilePath",
           "hierarchy": "Filesystem Path CurrentOS",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.CurrentOS",
           "name": "splitSearchPath",
           "normalized": "a-\u003e[FilePath]",
@@ -218,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to convert a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e to human&#8208;readable text.\n\u003c/p\u003e\u003cp\u003eIf the path is decoded successfully, the result is a \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e containing\n the decoded text. Successfully decoded text can be converted back to the\n original path using \u003ccode\u003e\u003ca\u003efromText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf the path cannot be decoded, the result is a \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e containing an\n approximation of the original path. If displayed to the user, this value\n should be accompanied by some warning that the path has an invalid\n encoding. Approximated text cannot be converted back to the original path.\n\u003c/p\u003e\u003cp\u003eThis function ignores the user&#8217;s locale, and assumes all file paths\n are encoded in UTF8. If you need to display file paths with an unusual or\n obscure encoding, use \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e and then decode them manually.\n\u003c/p\u003e\u003cp\u003eSince: 0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.CurrentOS",
           "name": "toText",
           "package": "system-filepath",
@@ -228,6 +245,7 @@
         "index": {
           "description": "Attempt to convert FilePath to human readable text If the path is decoded successfully the result is Right containing the decoded text Successfully decoded text can be converted back to the original path using fromText If the path cannot be decoded the result is Left containing an approximation of the original path If displayed to the user this value should be accompanied by some warning that the path has an invalid encoding Approximated text cannot be converted back to the original path This function ignores the user locale and assumes all file paths are encoded in UTF8 If you need to display file paths with an unusual or obscure encoding use encode and then decode them manually Since",
           "hierarchy": "Filesystem Path CurrentOS",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.CurrentOS",
           "name": "toText",
           "normalized": "FilePath-\u003eEither Text Text",
@@ -244,6 +262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e is valid; it must not contain any illegal\n characters, and must have a root appropriate to the current \u003ccode\u003e\u003ca\u003eRules\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.CurrentOS",
           "name": "valid",
           "package": "system-filepath",
@@ -254,6 +273,7 @@
         "index": {
           "description": "Check if FilePath is valid it must not contain any illegal characters and must have root appropriate to the current Rules",
           "hierarchy": "Filesystem Path CurrentOS",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.CurrentOS",
           "name": "valid",
           "normalized": "FilePath-\u003eBool",
@@ -268,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.Rules",
           "name": "Rules",
           "package": "system-filepath",
@@ -276,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Filesystem Path Rules",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.Rules",
           "name": "Rules",
           "package": "system-filepath",
@@ -289,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.Rules",
           "name": "Rules",
           "package": "system-filepath",
@@ -297,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Filesystem Path Rules",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.Rules",
           "name": "Rules",
           "package": "system-filepath",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDarwin and Mac OS X.\n\u003c/p\u003e\u003cp\u003eThis is almost identical to \u003ccode\u003e\u003ca\u003eposix\u003c/a\u003e\u003c/code\u003e, but with a native path type of \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e\n rather than \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.3.4 / 0.4.3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.Rules",
           "name": "darwin",
           "package": "system-filepath",
@@ -321,6 +346,7 @@
         "index": {
           "description": "Darwin and Mac OS This is almost identical to posix but with native path type of Text rather than ByteString Since",
           "hierarchy": "Filesystem Path Rules",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.Rules",
           "name": "darwin",
           "package": "system-filepath",
@@ -334,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDarwin and Mac OS X.\n\u003c/p\u003e\u003cp\u003eThis is a variant of \u003ccode\u003e\u003ca\u003edarwin\u003c/a\u003e\u003c/code\u003e for use with GHC 7.2 or later, which tries to\n decode file paths in its IO computations.\n\u003c/p\u003e\u003cp\u003eSince: 0.3.4 / 0.4.3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.Rules",
           "name": "darwin_ghc702",
           "package": "system-filepath",
@@ -344,6 +371,7 @@
         "index": {
           "description": "Darwin and Mac OS This is variant of darwin for use with GHC or later which tries to decode file paths in its IO computations Since",
           "hierarchy": "Filesystem Path Rules",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.Rules",
           "name": "darwin_ghc702",
           "package": "system-filepath",
@@ -357,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e from a platform&#8208;specific format,\n suitable for use with external OS functions.\n\u003c/p\u003e\u003cp\u003eSince: 0.3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.Rules",
           "name": "decode",
           "package": "system-filepath",
@@ -367,6 +396,7 @@
         "index": {
           "description": "Convert FilePath from platform specific format suitable for use with external OS functions Since",
           "hierarchy": "Filesystem Path Rules",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.Rules",
           "name": "decode",
           "normalized": "Rules a-\u003ea-\u003eFilePath",
@@ -382,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to parse a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e from a string suitable for use\n with functions in \u003ccode\u003eSystem.IO\u003c/code\u003e. Do not use this function for parsing\n human&#8208;readable paths, as the character set decoding is\n platform&#8208;dependent. For converting human&#8208;readable\n text to a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e, use \u003ccode\u003e\u003ca\u003efromText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.3.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.Rules",
           "name": "decodeString",
           "package": "system-filepath",
@@ -392,6 +423,7 @@
         "index": {
           "description": "Attempt to parse FilePath from string suitable for use with functions in System.IO Do not use this function for parsing human readable paths as the character set decoding is platform dependent For converting human readable text to FilePath use fromText Since",
           "hierarchy": "Filesystem Path Rules",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.Rules",
           "name": "decodeString",
           "normalized": "Rules a-\u003eString-\u003eFilePath",
@@ -408,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e to a platform&#8208;specific format,\n suitable for use with external OS functions.\n\u003c/p\u003e\u003cp\u003eSince: 0.3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.Rules",
           "name": "encode",
           "package": "system-filepath",
@@ -418,6 +451,7 @@
         "index": {
           "description": "Convert FilePath to platform specific format suitable for use with external OS functions Since",
           "hierarchy": "Filesystem Path Rules",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.Rules",
           "name": "encode",
           "normalized": "Rules a-\u003eFilePath-\u003ea",
@@ -433,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to convert a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e to a string suitable for use with\n functions in \u003ccode\u003eSystem.IO\u003c/code\u003e. The contents of this string are\n platform&#8208;dependent, and are not guaranteed to be\n human&#8208;readable. For converting \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003es to a\n human&#8208;readable format, use \u003ccode\u003e\u003ca\u003etoText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.3.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.Rules",
           "name": "encodeString",
           "package": "system-filepath",
@@ -443,6 +478,7 @@
         "index": {
           "description": "Attempt to convert FilePath to string suitable for use with functions in System.IO The contents of this string are platform dependent and are not guaranteed to be human readable For converting FilePath to human readable format use toText Since",
           "hierarchy": "Filesystem Path Rules",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.Rules",
           "name": "encodeString",
           "normalized": "Rules a-\u003eFilePath-\u003eString",
@@ -459,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert human&#8208;readable text into a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function ignores the user&#8217;s locale, and assumes all\n file paths are encoded in UTF8. If you need to create file paths\n with an unusual or obscure encoding, encode them manually and then\n use \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince: 0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.Rules",
           "name": "fromText",
           "package": "system-filepath",
@@ -469,6 +506,7 @@
         "index": {
           "description": "Convert human readable text into FilePath This function ignores the user locale and assumes all file paths are encoded in UTF8 If you need to create file paths with an unusual or obscure encoding encode them manually and then use decode Since",
           "hierarchy": "Filesystem Path Rules",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.Rules",
           "name": "fromText",
           "normalized": "Rules a-\u003eText-\u003eFilePath",
@@ -485,6 +523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinux, BSD, and other UNIX or UNIX-like operating systems.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.Rules",
           "name": "posix",
           "package": "system-filepath",
@@ -495,6 +534,7 @@
         "index": {
           "description": "Linux BSD and other UNIX or UNIX-like operating systems",
           "hierarchy": "Filesystem Path Rules",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.Rules",
           "name": "posix",
           "package": "system-filepath",
@@ -508,6 +548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinux, BSD, and other UNIX or UNIX-like operating systems.\n\u003c/p\u003e\u003cp\u003eThis is a variant of \u003ccode\u003e\u003ca\u003eposix\u003c/a\u003e\u003c/code\u003e for use with GHC 7.2, which tries to decode\n file paths in its IO computations.\n\u003c/p\u003e\u003cp\u003eSince: 0.3.3 / 0.4.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.Rules",
           "name": "posix_ghc702",
           "package": "system-filepath",
@@ -518,6 +559,7 @@
         "index": {
           "description": "Linux BSD and other UNIX or UNIX-like operating systems This is variant of posix for use with GHC which tries to decode file paths in its IO computations Since",
           "hierarchy": "Filesystem Path Rules",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.Rules",
           "name": "posix_ghc702",
           "package": "system-filepath",
@@ -531,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinux, BSD, and other UNIX or UNIX-like operating systems.\n\u003c/p\u003e\u003cp\u003eThis is a variant of \u003ccode\u003e\u003ca\u003eposix\u003c/a\u003e\u003c/code\u003e for use with GHC 7.4 or later, which tries to\n decode file paths in its IO computations.\n\u003c/p\u003e\u003cp\u003eSince: 0.3.7 / 0.4.6\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.Rules",
           "name": "posix_ghc704",
           "package": "system-filepath",
@@ -541,6 +584,7 @@
         "index": {
           "description": "Linux BSD and other UNIX or UNIX-like operating systems This is variant of posix for use with GHC or later which tries to decode file paths in its IO computations Since",
           "hierarchy": "Filesystem Path Rules",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.Rules",
           "name": "posix_ghc704",
           "package": "system-filepath",
@@ -554,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a search path, such as \u003ccode\u003e$PATH\u003c/code\u003e or \u003ccode\u003e$PYTHONPATH\u003c/code\u003e, into\n a list of \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.Rules",
           "name": "splitSearchPath",
           "package": "system-filepath",
@@ -564,6 +609,7 @@
         "index": {
           "description": "Split search path such as PATH or PYTHONPATH into list of FilePath",
           "hierarchy": "Filesystem Path Rules",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.Rules",
           "name": "splitSearchPath",
           "normalized": "Rules a-\u003ea-\u003e[FilePath]",
@@ -580,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to convert a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e to human&#8208;readable text.\n\u003c/p\u003e\u003cp\u003eIf the path is decoded successfully, the result is a \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e\n containing the decoded text. Successfully decoded text can be\n converted back to the original path using \u003ccode\u003e\u003ca\u003efromText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf the path cannot be decoded, the result is a \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e containing an\n approximation of the original path. If displayed to the user, this\n value should be accompanied by some warning that the path has an\n invalid encoding. Approximated text cannot be converted back to the\n original path.\n\u003c/p\u003e\u003cp\u003eThis function ignores the user&#8217;s locale, and assumes all\n file paths are encoded in UTF8. If you need to display file paths\n with an unusual or obscure encoding, use \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e and then decode\n them manually.\n\u003c/p\u003e\u003cp\u003eSince: 0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.Rules",
           "name": "toText",
           "package": "system-filepath",
@@ -590,6 +637,7 @@
         "index": {
           "description": "Attempt to convert FilePath to human readable text If the path is decoded successfully the result is Right containing the decoded text Successfully decoded text can be converted back to the original path using fromText If the path cannot be decoded the result is Left containing an approximation of the original path If displayed to the user this value should be accompanied by some warning that the path has an invalid encoding Approximated text cannot be converted back to the original path This function ignores the user locale and assumes all file paths are encoded in UTF8 If you need to display file paths with an unusual or obscure encoding use encode and then decode them manually Since",
           "hierarchy": "Filesystem Path Rules",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.Rules",
           "name": "toText",
           "normalized": "Rules a-\u003eFilePath-\u003eEither Text Text",
@@ -606,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e is valid; it must not contain any illegal\n characters, and must have a root appropriate to the current\n \u003ccode\u003e\u003ca\u003eRules\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.Rules",
           "name": "valid",
           "package": "system-filepath",
@@ -616,6 +665,7 @@
         "index": {
           "description": "Check if FilePath is valid it must not contain any illegal characters and must have root appropriate to the current Rules",
           "hierarchy": "Filesystem Path Rules",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.Rules",
           "name": "valid",
           "normalized": "Rules a-\u003eFilePath-\u003eBool",
@@ -631,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWindows and DOS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path.Rules",
           "name": "windows",
           "package": "system-filepath",
@@ -641,6 +692,7 @@
         "index": {
           "description": "Windows and DOS",
           "hierarchy": "Filesystem Path Rules",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path.Rules",
           "name": "windows",
           "package": "system-filepath",
@@ -654,6 +706,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHigh&#8208;level, byte&#8208;based file and directory path\n manipulations. You probably want to import \u003ca\u003eFilesystem.Path.CurrentOS\u003c/a\u003e\n instead, since it handles detecting which rules to use in the current\n compilation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "Path",
           "package": "system-filepath",
@@ -663,6 +716,7 @@
         "index": {
           "description": "High level byte based file and directory path manipulations You probably want to import Filesystem.Path.CurrentOS instead since it handles detecting which rules to use in the current compilation",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "Path",
           "package": "system-filepath",
@@ -676,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "FilePath",
           "package": "system-filepath",
@@ -684,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "FilePath",
           "package": "system-filepath",
@@ -698,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for \u003ccode\u003e\u003ca\u003eappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "(\u003c/\u003e)",
           "package": "system-filepath",
@@ -708,6 +765,7 @@
         "index": {
           "description": "An alias for append",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "(\u003c/\u003e) \u003c/\u003e",
           "normalized": "FilePath-\u003eFilePath-\u003eFilePath",
@@ -723,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for \u003ccode\u003e\u003ca\u003eaddExtension\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "(\u003c.\u003e)",
           "package": "system-filepath",
@@ -733,6 +792,7 @@
         "index": {
           "description": "An alias for addExtension",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "(\u003c.\u003e) \u003c.\u003e",
           "normalized": "FilePath-\u003eText-\u003eFilePath",
@@ -748,6 +808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether a path is absolute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "absolute",
           "package": "system-filepath",
@@ -758,6 +819,7 @@
         "index": {
           "description": "Test whether path is absolute",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "absolute",
           "normalized": "FilePath-\u003eBool",
@@ -773,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend an extension to the end of a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "addExtension",
           "package": "system-filepath",
@@ -783,6 +846,7 @@
         "index": {
           "description": "Append an extension to the end of FilePath",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "addExtension",
           "normalized": "FilePath-\u003eText-\u003eFilePath",
@@ -799,6 +863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend many extensions to the end of a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "addExtensions",
           "package": "system-filepath",
@@ -809,6 +874,7 @@
         "index": {
           "description": "Append many extensions to the end of FilePath",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "addExtensions",
           "normalized": "FilePath-\u003e[Text]-\u003eFilePath",
@@ -825,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppends two \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003es. If the second path is absolute, it is returned\n unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "append",
           "package": "system-filepath",
@@ -835,6 +902,7 @@
         "index": {
           "description": "Appends two FilePath If the second path is absolute it is returned unchanged",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "append",
           "normalized": "FilePath-\u003eFilePath-\u003eFilePath",
@@ -850,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e&#8217;s basename component.\n\u003c/p\u003e\u003cpre\u003e\n basename \"foo/bar.txt\" == \"bar\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "basename",
           "package": "system-filepath",
@@ -860,6 +929,7 @@
         "index": {
           "description": "Retrieve FilePath basename component basename foo bar.txt bar",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "basename",
           "normalized": "FilePath-\u003eFilePath",
@@ -875,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove \u003ccode\u003e\".\"\u003c/code\u003e and \u003ccode\u003e\"..\"\u003c/code\u003e directories from a path.\n\u003c/p\u003e\u003cp\u003eNote that if any of the elements are symbolic links, \u003ccode\u003e\u003ca\u003ecollapse\u003c/a\u003e\u003c/code\u003e may change\n which file the path resolves to.\n\u003c/p\u003e\u003cp\u003eSince: 0.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "collapse",
           "package": "system-filepath",
@@ -885,6 +956,7 @@
         "index": {
           "description": "Remove and directories from path Note that if any of the elements are symbolic links collapse may change which file the path resolves to Since",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "collapse",
           "normalized": "FilePath-\u003eFilePath",
@@ -900,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the greatest common prefix between a list of \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "commonPrefix",
           "package": "system-filepath",
@@ -910,6 +983,7 @@
         "index": {
           "description": "Find the greatest common prefix between list of FilePath",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "commonPrefix",
           "normalized": "[FilePath]-\u003eFilePath",
@@ -926,6 +1000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fold over \u003ccode\u003e\u003ca\u003eappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "concat",
           "package": "system-filepath",
@@ -936,6 +1011,7 @@
         "index": {
           "description": "fold over append",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "concat",
           "normalized": "[FilePath]-\u003eFilePath",
@@ -951,6 +1027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e&#8217;s directory. If the path is already a\n directory, it is returned unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "directory",
           "package": "system-filepath",
@@ -961,6 +1038,7 @@
         "index": {
           "description": "Retrieves the FilePath directory If the path is already directory it is returned unchanged",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "directory",
           "normalized": "FilePath-\u003eFilePath",
@@ -976,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e&#8217;s directory name. This is only the\n \u003cem\u003efile name\u003c/em\u003e of the directory, not its full path.\n\u003c/p\u003e\u003cpre\u003e\n dirname \"foo/bar/baz.txt\" == \"bar\"\n dirname \"/\" == \"\"\n\u003c/pre\u003e\u003cp\u003eSince: 0.4.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "dirname",
           "package": "system-filepath",
@@ -986,6 +1065,7 @@
         "index": {
           "description": "Retrieve FilePath directory name This is only the file name of the directory not its full path dirname foo bar baz.txt bar dirname Since",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "dirname",
           "normalized": "FilePath-\u003eFilePath",
@@ -1001,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e&#8217;s last extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "dropExtension",
           "package": "system-filepath",
@@ -1011,6 +1092,7 @@
         "index": {
           "description": "Remove FilePath last extension",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "dropExtension",
           "normalized": "FilePath-\u003eFilePath",
@@ -1027,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all extensions from a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "dropExtensions",
           "package": "system-filepath",
@@ -1037,6 +1120,7 @@
         "index": {
           "description": "Remove all extensions from FilePath",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "dropExtensions",
           "normalized": "FilePath-\u003eFilePath",
@@ -1053,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file path with no root, directory, or filename\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "empty",
           "package": "system-filepath",
@@ -1063,6 +1148,7 @@
         "index": {
           "description": "file path with no root directory or filename",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "empty",
           "package": "system-filepath",
@@ -1076,6 +1162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e&#8217;s last extension, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if it has no\n extensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "extension",
           "package": "system-filepath",
@@ -1086,6 +1173,7 @@
         "index": {
           "description": "Get FilePath last extension or Nothing if it has no extensions",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "extension",
           "normalized": "FilePath-\u003eMaybe Text",
@@ -1101,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e&#8217;s full extension list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "extensions",
           "package": "system-filepath",
@@ -1111,6 +1200,7 @@
         "index": {
           "description": "Get FilePath full extension list",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "extensions",
           "normalized": "FilePath-\u003e[Text]",
@@ -1126,6 +1216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e&#8217;s filename component.\n\u003c/p\u003e\u003cpre\u003e\n filename \"foo/bar.txt\" == \"bar.txt\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "filename",
           "package": "system-filepath",
@@ -1136,6 +1227,7 @@
         "index": {
           "description": "Retrieve FilePath filename component filename foo bar.txt bar.txt",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "filename",
           "normalized": "FilePath-\u003eFilePath",
@@ -1151,6 +1243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet whether a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e&#8217;s last extension is the predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "hasExtension",
           "package": "system-filepath",
@@ -1161,6 +1254,7 @@
         "index": {
           "description": "Get whether FilePath last extension is the predicate",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "hasExtension",
           "normalized": "FilePath-\u003eText-\u003eBool",
@@ -1177,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003enull p = (p == \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "null",
           "package": "system-filepath",
@@ -1187,6 +1282,7 @@
         "index": {
           "description": "null empty",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "null",
           "normalized": "FilePath-\u003eBool",
@@ -1202,6 +1298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e&#8217;s parent directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "parent",
           "package": "system-filepath",
@@ -1212,6 +1309,7 @@
         "index": {
           "description": "Retrieves the FilePath parent directory",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "parent",
           "normalized": "FilePath-\u003eFilePath",
@@ -1227,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether a path is relative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "relative",
           "package": "system-filepath",
@@ -1237,6 +1336,7 @@
         "index": {
           "description": "Test whether path is relative",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "relative",
           "normalized": "FilePath-\u003eBool",
@@ -1252,6 +1352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e&#8217;s last extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "replaceExtension",
           "package": "system-filepath",
@@ -1262,6 +1363,7 @@
         "index": {
           "description": "Replace FilePath last extension",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "replaceExtension",
           "normalized": "FilePath-\u003eText-\u003eFilePath",
@@ -1278,6 +1380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all extensions from a \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e, and replace them with a new\n list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "replaceExtensions",
           "package": "system-filepath",
@@ -1288,6 +1391,7 @@
         "index": {
           "description": "Remove all extensions from FilePath and replace them with new list",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "replaceExtensions",
           "normalized": "FilePath-\u003e[Text]-\u003eFilePath",
@@ -1304,6 +1408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e&#8217;s root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "root",
           "package": "system-filepath",
@@ -1314,6 +1419,7 @@
         "index": {
           "description": "Retrieves the FilePath root",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "root",
           "normalized": "FilePath-\u003eFilePath",
@@ -1329,6 +1435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexpand a FilePath into a list of the root name, directories, and file name\n\u003c/p\u003e\u003cp\u003eSince: 0.4.7\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "splitDirectories",
           "package": "system-filepath",
@@ -1339,6 +1446,7 @@
         "index": {
           "description": "expand FilePath into list of the root name directories and file name Since",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "splitDirectories",
           "normalized": "FilePath-\u003e[FilePath]",
@@ -1355,6 +1463,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003esplitExtension p = (\u003ccode\u003e\u003ca\u003edropExtension\u003c/a\u003e\u003c/code\u003e p, \u003ccode\u003e\u003ca\u003eextension\u003c/a\u003e\u003c/code\u003e p)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "splitExtension",
           "package": "system-filepath",
@@ -1365,6 +1474,7 @@
         "index": {
           "description": "splitExtension dropExtension extension",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "splitExtension",
           "normalized": "FilePath-\u003e(FilePath,Maybe Text)",
@@ -1381,6 +1491,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003esplitExtensions p = (\u003ccode\u003e\u003ca\u003edropExtensions\u003c/a\u003e\u003c/code\u003e p, \u003ccode\u003e\u003ca\u003eextensions\u003c/a\u003e\u003c/code\u003e p)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "splitExtensions",
           "package": "system-filepath",
@@ -1391,6 +1502,7 @@
         "index": {
           "description": "splitExtensions dropExtensions extensions",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "splitExtensions",
           "normalized": "FilePath-\u003e(FilePath,[Text])",
@@ -1407,6 +1519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a prefix from a path.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003estripPrefix\u003c/a\u003e\u003c/code\u003e \"/foo/\" \"/foo/bar/baz.txt\" == Just \"bar/baz.txt\"\n \u003ccode\u003e\u003ca\u003estripPrefix\u003c/a\u003e\u003c/code\u003e \"/foo/\" \"/bar/baz.txt\" == Nothing\n\u003c/pre\u003e\u003cp\u003eSince: 0.4.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:44 UTC 2014",
           "module": "Filesystem.Path",
           "name": "stripPrefix",
           "package": "system-filepath",
@@ -1417,6 +1530,7 @@
         "index": {
           "description": "Remove prefix from path stripPrefix foo foo bar baz.txt Just bar baz.txt stripPrefix foo bar baz.txt Nothing Since",
           "hierarchy": "Filesystem Path",
+          "indexed": "2014-03-11T20:15:44",
           "module": "Filesystem.Path",
           "name": "stripPrefix",
           "normalized": "FilePath-\u003eFilePath-\u003eMaybe FilePath",

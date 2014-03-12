@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "acme-php"
+        "phrase": "acme-php",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "PHP",
           "package": "acme-php",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "PHP",
           "package": "acme-php",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "Bool",
           "package": "acme-php",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "Bool",
           "package": "acme-php",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "(||)",
           "package": "acme-php",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "(||) ||",
           "normalized": "Bool-\u003eBool-\u003eBool",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "(&&)",
           "package": "acme-php",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "(&&) &&",
           "normalized": "Bool-\u003eBool-\u003eBool",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "(\u003c\u003e)",
           "package": "acme-php",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "(\u003c\u003e) \u003c\u003e",
           "package": "acme-php",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "FALSE",
           "package": "acme-php",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "FALSE",
           "package": "acme-php",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "FILE_NOT_FOUND",
           "package": "acme-php",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "FILE_NOT_FOUND",
           "package": "acme-php",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "TRUE",
           "package": "acme-php",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "TRUE",
           "package": "acme-php",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "elem",
           "package": "acme-php",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "elem",
           "normalized": "a-\u003e[a]-\u003eBool",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "false",
           "package": "acme-php",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "false",
           "package": "acme-php",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "file_not_found",
           "package": "acme-php",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "file_not_found",
           "package": "acme-php",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "foldl",
           "package": "acme-php",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003e[b]-\u003ea",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "foldl'",
           "package": "acme-php",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003e[b]-\u003ea",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "foldr",
           "package": "acme-php",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003e[a]-\u003eb",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "intval",
           "package": "acme-php",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "intval",
           "normalized": "String-\u003ea",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "isn't",
           "package": "acme-php",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "isn't",
           "normalized": "(a-\u003eBool)-\u003ea-\u003eBool",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "not",
           "package": "acme-php",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "not",
           "normalized": "Bool-\u003eBool",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "notElem",
           "package": "acme-php",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "notElem",
           "normalized": "Bool-\u003e[Bool]-\u003eBool",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "otherwise",
           "package": "acme-php",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "otherwise",
           "package": "acme-php",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "sort",
           "package": "acme-php",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "sort",
           "normalized": "[()]-\u003e[()]",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "sortBy",
           "package": "acme-php",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "sortBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003e[a]-\u003e[a]",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "subtract",
           "package": "acme-php",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "subtract",
           "normalized": "a-\u003ea-\u003ea",
@@ -511,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:29 UTC 2014",
           "module": "Prelude.PHP",
           "name": "true",
           "package": "acme-php",
@@ -520,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Prelude PHP",
+          "indexed": "2014-03-11T17:07:29",
           "module": "Prelude.PHP",
           "name": "true",
           "package": "acme-php",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "black-jewel"
+        "phrase": "black-jewel",
+        "type": "phrase"
       },
       "type": "context"
     }

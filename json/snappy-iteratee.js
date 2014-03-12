@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snappy-iteratee"
+        "phrase": "snappy-iteratee",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:34 UTC 2014",
           "module": "Codec.Compression.Snappy.Iteratee.Lazy",
           "name": "Lazy",
           "package": "snappy-iteratee",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Snappy Iteratee Lazy",
+          "indexed": "2014-03-11T20:06:34",
           "module": "Codec.Compression.Snappy.Iteratee.Lazy",
           "name": "Lazy",
           "package": "snappy-iteratee",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:34 UTC 2014",
           "module": "Codec.Compression.Snappy.Iteratee.Lazy",
           "name": "compress",
           "package": "snappy-iteratee",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Snappy Iteratee Lazy",
+          "indexed": "2014-03-11T20:06:34",
           "module": "Codec.Compression.Snappy.Iteratee.Lazy",
           "name": "compress",
           "package": "snappy-iteratee",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:34 UTC 2014",
           "module": "Codec.Compression.Snappy.Iteratee.Lazy",
           "name": "decompress",
           "package": "snappy-iteratee",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Snappy Iteratee Lazy",
+          "indexed": "2014-03-11T20:06:34",
           "module": "Codec.Compression.Snappy.Iteratee.Lazy",
           "name": "decompress",
           "package": "snappy-iteratee",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:34 UTC 2014",
           "module": "Codec.Compression.Snappy.Iteratee",
           "name": "Iteratee",
           "package": "snappy-iteratee",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Snappy Iteratee",
+          "indexed": "2014-03-11T20:06:34",
           "module": "Codec.Compression.Snappy.Iteratee",
           "name": "Iteratee",
           "package": "snappy-iteratee",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:34 UTC 2014",
           "module": "Codec.Compression.Snappy.Iteratee",
           "name": "compress",
           "package": "snappy-iteratee",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Snappy Iteratee",
+          "indexed": "2014-03-11T20:06:34",
           "module": "Codec.Compression.Snappy.Iteratee",
           "name": "compress",
           "package": "snappy-iteratee",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:34 UTC 2014",
           "module": "Codec.Compression.Snappy.Iteratee",
           "name": "decompress",
           "package": "snappy-iteratee",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Codec Compression Snappy Iteratee",
+          "indexed": "2014-03-11T20:06:34",
           "module": "Codec.Compression.Snappy.Iteratee",
           "name": "decompress",
           "package": "snappy-iteratee",

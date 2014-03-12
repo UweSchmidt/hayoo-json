@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "static-hash"
+        "phrase": "static-hash",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePure immutable hash whose lookup is O(1) on the average,\n  but O(N) in the worst case.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:09 UTC 2014",
           "module": "Data.StaticHash",
           "name": "StaticHash",
           "package": "static-hash",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Pure immutable hash whose lookup is on the average but in the worst case",
           "hierarchy": "Data StaticHash",
+          "indexed": "2014-03-11T20:10:09",
           "module": "Data.StaticHash",
           "name": "StaticHash",
           "package": "static-hash",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for immutable hashes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:09 UTC 2014",
           "module": "Data.StaticHash",
           "name": "StaticHash",
           "package": "static-hash",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Data type for immutable hashes",
           "hierarchy": "Data StaticHash",
+          "indexed": "2014-03-11T20:10:09",
           "module": "Data.StaticHash",
           "name": "StaticHash",
           "package": "static-hash",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreating \u003ccode\u003e\u003ca\u003eStaticHash\u003c/a\u003e\u003c/code\u003e from a list. A prime around the length of\n  the list x 2 is chosen for the size of array. This may prevent\n  collisions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:09 UTC 2014",
           "module": "Data.StaticHash",
           "name": "fromList",
           "package": "static-hash",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Creating StaticHash from list prime around the length of the list is chosen for the size of array This may prevent collisions",
           "hierarchy": "Data StaticHash",
+          "indexed": "2014-03-11T20:10:09",
           "module": "Data.StaticHash",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eStaticHash a b",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreating \u003ccode\u003e\u003ca\u003eStaticHash\u003c/a\u003e\u003c/code\u003e from a list and its size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:09 UTC 2014",
           "module": "Data.StaticHash",
           "name": "fromList'",
           "package": "static-hash",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Creating StaticHash from list and its size",
           "hierarchy": "Data StaticHash",
+          "indexed": "2014-03-11T20:10:09",
           "module": "Data.StaticHash",
           "name": "fromList'",
           "normalized": "Int-\u003e[(a,b)]-\u003eStaticHash a b",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLooking up \u003ccode\u003e\u003ca\u003eStaticHash\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:09 UTC 2014",
           "module": "Data.StaticHash",
           "name": "lookup",
           "package": "static-hash",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Looking up StaticHash",
           "hierarchy": "Data StaticHash",
+          "indexed": "2014-03-11T20:10:09",
           "module": "Data.StaticHash",
           "name": "lookup",
           "normalized": "a-\u003eStaticHash a b-\u003eMaybe b",

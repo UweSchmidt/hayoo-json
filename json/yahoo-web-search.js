@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yahoo-web-search"
+        "phrase": "yahoo-web-search",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "Application ID\nQuery string\nContext string\nNumber of results to return\n",
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.ContextSearch",
           "name": "3AcontextQuery",
           "package": "yahoo-web-search",
@@ -29,6 +30,7 @@
         "index": {
           "description": "Application ID Query string Context string Number of results to return",
           "hierarchy": "Text Yahoo ContextSearch",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.ContextSearch",
           "name": "3AcontextQuery",
           "normalized": "UserString-\u003eUserString-\u003eUserString-\u003eInt-\u003eQuery",
@@ -45,6 +47,7 @@
       "document": {
         "description": {
           "description": "\u003ctt\u003e\u003ca\u003econtextSearch\u003c/a\u003e\u003c/tt\u003e is like webSearch but performs a contextual search.\n",
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.ContextSearch",
           "name": "3AcontextSearch",
           "package": "yahoo-web-search",
@@ -55,6 +58,7 @@
         "index": {
           "description": "contextSearch is like webSearch but performs contextual search",
           "hierarchy": "Text Yahoo ContextSearch",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.ContextSearch",
           "name": "3AcontextSearch",
           "normalized": "Query-\u003eIO(Either Error ResultSet)",
@@ -71,6 +75,7 @@
       "document": {
         "description": {
           "description": "Perform a Related Suggestion query\n",
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.RelatedSuggestion",
           "name": "3ArelatedSuggest",
           "package": "yahoo-web-search",
@@ -81,6 +86,7 @@
         "index": {
           "description": "Perform Related Suggestion query",
           "hierarchy": "Text Yahoo RelatedSuggestion",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.RelatedSuggestion",
           "name": "3ArelatedSuggest",
           "normalized": "RSQuery-\u003eIO(Either Error RSResultSet)",
@@ -97,6 +103,7 @@
       "document": {
         "description": {
           "description": "Perform a Spelling Suggestion query\n",
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.SpellingSuggestion",
           "name": "3AspellingSuggest",
           "package": "yahoo-web-search",
@@ -107,6 +114,7 @@
         "index": {
           "description": "Perform Spelling Suggestion query",
           "hierarchy": "Text Yahoo SpellingSuggestion",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.SpellingSuggestion",
           "name": "3AspellingSuggest",
           "normalized": "RSQuery-\u003eIO(Either Error RSResultSet)",
@@ -122,6 +130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.Types",
           "name": "3ACountry",
           "package": "yahoo-web-search",
@@ -130,6 +139,7 @@
         },
         "index": {
           "hierarchy": "Text Yahoo Types",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.Types",
           "name": "3ACountry",
           "package": "yahoo-web-search",
@@ -143,6 +153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.Types",
           "name": "3ADate",
           "package": "yahoo-web-search",
@@ -151,6 +162,7 @@
         },
         "index": {
           "hierarchy": "Text Yahoo Types",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.Types",
           "name": "3ADate",
           "package": "yahoo-web-search",
@@ -164,6 +176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.Types",
           "name": "3AError",
           "package": "yahoo-web-search",
@@ -172,6 +185,7 @@
         },
         "index": {
           "hierarchy": "Text Yahoo Types",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.Types",
           "name": "3AError",
           "package": "yahoo-web-search",
@@ -185,6 +199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.Types",
           "name": "3AFormat",
           "package": "yahoo-web-search",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Text Yahoo Types",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.Types",
           "name": "3AFormat",
           "package": "yahoo-web-search",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.Types",
           "name": "3ALanguage",
           "package": "yahoo-web-search",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Text Yahoo Types",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.Types",
           "name": "3ALanguage",
           "package": "yahoo-web-search",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.Types",
           "name": "3ALicense",
           "package": "yahoo-web-search",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Text Yahoo Types",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.Types",
           "name": "3ALicense",
           "package": "yahoo-web-search",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.Types",
           "name": "3AMIME",
           "package": "yahoo-web-search",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Text Yahoo Types",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.Types",
           "name": "3AMIME",
           "package": "yahoo-web-search",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.Types",
           "name": "3AQuery",
           "package": "yahoo-web-search",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Text Yahoo Types",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.Types",
           "name": "3AQuery",
           "package": "yahoo-web-search",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.Types",
           "name": "3ARSQuery",
           "package": "yahoo-web-search",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Text Yahoo Types",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.Types",
           "name": "3ARSQuery",
           "package": "yahoo-web-search",
@@ -312,6 +338,7 @@
       "document": {
         "description": {
           "description": "Related Suggestion and Spelling Suggestion results\n",
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.Types",
           "name": "3ARSResultSet",
           "package": "yahoo-web-search",
@@ -321,6 +348,7 @@
         "index": {
           "description": "Related Suggestion and Spelling Suggestion results",
           "hierarchy": "Text Yahoo Types",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.Types",
           "name": "3ARSResultSet",
           "package": "yahoo-web-search",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.Types",
           "name": "3ARegion",
           "package": "yahoo-web-search",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Text Yahoo Types",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.Types",
           "name": "3ARegion",
           "package": "yahoo-web-search",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.Types",
           "name": "3AResult",
           "package": "yahoo-web-search",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Text Yahoo Types",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.Types",
           "name": "3AResult",
           "package": "yahoo-web-search",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.Types",
           "name": "3AResultSet",
           "package": "yahoo-web-search",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Text Yahoo Types",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.Types",
           "name": "3AResultSet",
           "package": "yahoo-web-search",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.Types",
           "name": "3ASize",
           "package": "yahoo-web-search",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Text Yahoo Types",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.Types",
           "name": "3ASize",
           "package": "yahoo-web-search",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.Types",
           "name": "3ASubscription",
           "package": "yahoo-web-search",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Text Yahoo Types",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.Types",
           "name": "3ASubscription",
           "package": "yahoo-web-search",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.Types",
           "name": "3AType",
           "package": "yahoo-web-search",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Text Yahoo Types",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.Types",
           "name": "3AType",
           "package": "yahoo-web-search",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.Types",
           "name": "3AURL",
           "package": "yahoo-web-search",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Text Yahoo Types",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.Types",
           "name": "3AURL",
           "package": "yahoo-web-search",
@@ -481,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.Types",
           "name": "3AUserString",
           "package": "yahoo-web-search",
@@ -489,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Text Yahoo Types",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.Types",
           "name": "3AUserString",
           "package": "yahoo-web-search",
@@ -503,6 +547,7 @@
       "document": {
         "description": {
           "description": "Coerce a \u003ctt\u003e\u003ca\u003eUserString\u003c/a\u003e\u003c/tt\u003e to a \u003ctt\u003e\u003ca\u003eString\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.Types",
           "name": "3Asanitize",
           "package": "yahoo-web-search",
@@ -513,6 +558,7 @@
         "index": {
           "description": "Coerce UserString to String",
           "hierarchy": "Text Yahoo Types",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.Types",
           "name": "3Asanitize",
           "normalized": "UserString-\u003eString",
@@ -529,6 +575,7 @@
       "document": {
         "description": {
           "description": "Application ID\nQuery string\nNumber of results to return\n",
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.WebSearch",
           "name": "3AsimpleQuery",
           "package": "yahoo-web-search",
@@ -539,6 +586,7 @@
         "index": {
           "description": "Application ID Query string Number of results to return",
           "hierarchy": "Text Yahoo WebSearch",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.WebSearch",
           "name": "3AsimpleQuery",
           "normalized": "UserString-\u003eUserString-\u003eInt-\u003eQuery",
@@ -555,6 +603,7 @@
       "document": {
         "description": {
           "description": "\u003ctt\u003e\u003ca\u003ewebSearch\u003c/a\u003e\u003c/tt\u003e returns as a \u003ctt\u003e\u003ca\u003eResultSet\u003c/a\u003e\u003c/tt\u003e the Yahoo results matching \u003ctt\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 20:44:13 UTC 2014",
           "module": "Text.Yahoo.WebSearch",
           "name": "3AwebSearch",
           "package": "yahoo-web-search",
@@ -565,6 +614,7 @@
         "index": {
           "description": "webSearch returns as ResultSet the Yahoo results matching Query",
           "hierarchy": "Text Yahoo WebSearch",
+          "indexed": "2014-03-11T20:44:13",
           "module": "Text.Yahoo.WebSearch",
           "name": "3AwebSearch",
           "normalized": "Query-\u003eIO(Either Error ResultSet)",

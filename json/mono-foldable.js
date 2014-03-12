@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mono-foldable"
+        "phrase": "mono-foldable",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:03 UTC 2014",
           "module": "Data.Foldable.Mono",
           "name": "Mono",
           "package": "mono-foldable",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Foldable Mono",
+          "indexed": "2014-03-11T19:22:03",
           "module": "Data.Foldable.Mono",
           "name": "Mono",
           "package": "mono-foldable",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonomorphic data structures that can be folded\n     Minimal complete definition: \u003ccode\u003e\u003ca\u003efoldMap\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:03 UTC 2014",
           "module": "Data.Foldable.Mono",
           "name": "MFoldable",
           "package": "mono-foldable",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Monomorphic data structures that can be folded Minimal complete definition foldMap or foldr",
           "hierarchy": "Data Foldable Mono",
+          "indexed": "2014-03-11T19:22:03",
           "module": "Data.Foldable.Mono",
           "name": "MFoldable",
           "package": "mono-foldable",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic left fold\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:03 UTC 2014",
           "module": "Data.Foldable.Mono",
           "name": "foldM",
           "package": "mono-foldable",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Monadic left fold",
           "hierarchy": "Data Foldable Mono",
+          "indexed": "2014-03-11T19:22:03",
           "module": "Data.Foldable.Mono",
           "name": "foldM",
           "normalized": "(a-\u003eElem b-\u003ec a)-\u003ea-\u003eb-\u003ec a",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap each element to a monoid and combine the results \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:03 UTC 2014",
           "module": "Data.Foldable.Mono",
           "name": "foldMap",
           "package": "mono-foldable",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Map each element to monoid and combine the results",
           "hierarchy": "Data Foldable Mono",
+          "indexed": "2014-03-11T19:22:03",
           "module": "Data.Foldable.Mono",
           "name": "foldMap",
           "normalized": "(Elem a-\u003eb)-\u003ea-\u003eb",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-associative fold \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:03 UTC 2014",
           "module": "Data.Foldable.Mono",
           "name": "foldl",
           "package": "mono-foldable",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Left-associative fold",
           "hierarchy": "Data Foldable Mono",
+          "indexed": "2014-03-11T19:22:03",
           "module": "Data.Foldable.Mono",
           "name": "foldl",
           "normalized": "(a-\u003eElem b-\u003ea)-\u003ea-\u003eb-\u003ea",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict version of \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:03 UTC 2014",
           "module": "Data.Foldable.Mono",
           "name": "foldl'",
           "package": "mono-foldable",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Strict version of foldl",
           "hierarchy": "Data Foldable Mono",
+          "indexed": "2014-03-11T19:22:03",
           "module": "Data.Foldable.Mono",
           "name": "foldl'",
           "normalized": "(a-\u003eElem b-\u003ea)-\u003ea-\u003eb-\u003ea",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e with no base case.  Requires at least 1\n list element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:03 UTC 2014",
           "module": "Data.Foldable.Mono",
           "name": "foldl1",
           "package": "mono-foldable",
@@ -174,6 +187,7 @@
         "index": {
           "description": "variant of foldl with no base case Requires at least list element",
           "hierarchy": "Data Foldable Mono",
+          "indexed": "2014-03-11T19:22:03",
           "module": "Data.Foldable.Mono",
           "name": "foldl1",
           "normalized": "(Elem a-\u003eElem a-\u003eElem a)-\u003ea-\u003eElem a",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight-associative fold \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:03 UTC 2014",
           "module": "Data.Foldable.Mono",
           "name": "foldr",
           "package": "mono-foldable",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Right-associative fold",
           "hierarchy": "Data Foldable Mono",
+          "indexed": "2014-03-11T19:22:03",
           "module": "Data.Foldable.Mono",
           "name": "foldr",
           "normalized": "(Elem a-\u003eb-\u003eb)-\u003eb-\u003ea-\u003eb",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict version of \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:03 UTC 2014",
           "module": "Data.Foldable.Mono",
           "name": "foldr'",
           "package": "mono-foldable",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Strict version of foldr",
           "hierarchy": "Data Foldable Mono",
+          "indexed": "2014-03-11T19:22:03",
           "module": "Data.Foldable.Mono",
           "name": "foldr'",
           "normalized": "(Elem a-\u003eb-\u003eb)-\u003eb-\u003ea-\u003eb",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e, but with no starting value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:03 UTC 2014",
           "module": "Data.Foldable.Mono",
           "name": "foldr1",
           "package": "mono-foldable",
@@ -249,6 +268,7 @@
         "index": {
           "description": "Like foldr but with no starting value",
           "hierarchy": "Data Foldable Mono",
+          "indexed": "2014-03-11T19:22:03",
           "module": "Data.Foldable.Mono",
           "name": "foldr1",
           "normalized": "(Elem a-\u003eElem a-\u003eElem a)-\u003ea-\u003eElem a",
@@ -264,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic map, discarding results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:03 UTC 2014",
           "module": "Data.Foldable.Mono",
           "name": "mapM_",
           "package": "mono-foldable",
@@ -274,6 +295,7 @@
         "index": {
           "description": "Monadic map discarding results",
           "hierarchy": "Data Foldable Mono",
+          "indexed": "2014-03-11T19:22:03",
           "module": "Data.Foldable.Mono",
           "name": "mapM_",
           "normalized": "(Elem a-\u003eb c)-\u003ea-\u003eb()",

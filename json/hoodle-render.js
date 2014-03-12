@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hoodle-render"
+        "phrase": "hoodle-render",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Background",
           "name": "Background",
           "package": "hoodle-render",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Background",
           "name": "Background",
           "package": "hoodle-render",
@@ -67,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edraw ruling all \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Background",
           "name": "drawRuling",
           "package": "hoodle-render",
@@ -77,6 +80,7 @@
         "index": {
           "description": "draw ruling all",
           "hierarchy": "Graphics Hoodle Render Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Background",
           "name": "drawRuling",
           "normalized": "Double-\u003eDouble-\u003eByteString-\u003eRender()",
@@ -93,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edraw ruling  in bbox \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Background",
           "name": "drawRuling_InBBox",
           "package": "hoodle-render",
@@ -103,6 +108,7 @@
         "index": {
           "description": "draw ruling in bbox",
           "hierarchy": "Graphics Hoodle Render Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Background",
           "name": "drawRuling_InBBox",
           "normalized": "BBox-\u003eDouble-\u003eDouble-\u003eByteString-\u003eRender()",
@@ -118,6 +124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Background",
           "name": "getByteStringIfEmbeddedPDF",
           "package": "hoodle-render",
@@ -127,6 +134,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Background",
           "name": "getByteStringIfEmbeddedPDF",
           "normalized": "ByteString-\u003eMaybe ByteString",
@@ -142,6 +150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Background",
           "name": "popplerGetDocFromDataURI",
           "package": "hoodle-render",
@@ -151,6 +160,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Background",
           "name": "popplerGetDocFromDataURI",
           "normalized": "ByteString-\u003eIO(Maybe Document)",
@@ -166,6 +176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Background",
           "name": "popplerGetDocFromFile",
           "package": "hoodle-render",
@@ -175,6 +186,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Background",
           "name": "popplerGetDocFromFile",
           "normalized": "ByteString-\u003eIO(Maybe Document)",
@@ -190,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Background",
           "name": "popplerGetPageFromDoc",
           "package": "hoodle-render",
@@ -198,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Background",
           "name": "popplerGetPageFromDoc",
           "normalized": "Document-\u003eInt-\u003eIO(Maybe Page,Maybe Surface)",
@@ -241,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ecollection of rendering routine \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Debug",
           "name": "Debug",
           "package": "hoodle-render",
@@ -250,6 +265,7 @@
         "index": {
           "description": "collection of rendering routine",
           "hierarchy": "Graphics Hoodle Render Debug",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Debug",
           "name": "Debug",
           "package": "hoodle-render",
@@ -263,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Debug",
           "name": "renderImgBBx_BBoxOnly",
           "package": "hoodle-render",
@@ -272,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Debug",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Debug",
           "name": "renderImgBBx_BBoxOnly",
           "normalized": "BBoxed Image-\u003eRender()",
@@ -314,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Debug",
           "name": "renderRBkg_Dummy",
           "package": "hoodle-render",
@@ -323,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Debug",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Debug",
           "name": "renderRBkg_Dummy",
           "normalized": "(RBackground,Dimension)-\u003eRender()",
@@ -339,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender background without pdf \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Debug",
           "name": "renderRBkg_NoPDF",
           "package": "hoodle-render",
@@ -349,6 +370,7 @@
         "index": {
           "description": "render background without pdf",
           "hierarchy": "Graphics Hoodle Render Debug",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Debug",
           "name": "renderRBkg_NoPDF",
           "normalized": "(RBackground,Dimension)-\u003eRender()",
@@ -364,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Debug",
           "name": "renderRItem_BBoxOnly",
           "package": "hoodle-render",
@@ -373,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Debug",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Debug",
           "name": "renderRItem_BBoxOnly",
           "normalized": "RItem-\u003eRender()",
@@ -388,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Debug",
           "name": "renderRLayer_BBoxOnly",
           "package": "hoodle-render",
@@ -397,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Debug",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Debug",
           "name": "renderRLayer_BBoxOnly",
           "normalized": "RLayer-\u003eRender()",
@@ -438,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender only bounding box of a StrokeBBox      \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Debug",
           "name": "renderRPage_BBoxOnly",
           "package": "hoodle-render",
@@ -448,6 +475,7 @@
         "index": {
           "description": "render only bounding box of StrokeBBox",
           "hierarchy": "Graphics Hoodle Render Debug",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Debug",
           "name": "renderRPage_BBoxOnly",
           "normalized": "RPage-\u003eRender()",
@@ -464,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender only bounding box of a StrokeBBox      \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Debug",
           "name": "renderStrkBBx_BBoxOnly",
           "package": "hoodle-render",
@@ -474,6 +503,7 @@
         "index": {
           "description": "render only bounding box of StrokeBBox",
           "hierarchy": "Graphics Hoodle Render Debug",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Debug",
           "name": "renderStrkBBx_BBoxOnly",
           "normalized": "BBoxed Stroke-\u003eRender()",
@@ -489,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "Generic",
           "package": "hoodle-render",
@@ -497,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Generic",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "Generic",
           "package": "hoodle-render",
@@ -510,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "RenderOptionable",
           "package": "hoodle-render",
@@ -518,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Generic",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "RenderOptionable",
           "package": "hoodle-render",
@@ -531,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "Renderable",
           "package": "hoodle-render",
@@ -539,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Generic",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "Renderable",
           "package": "hoodle-render",
@@ -552,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "StrokeBBoxOption",
           "package": "hoodle-render",
@@ -560,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Generic",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "StrokeBBoxOption",
           "package": "hoodle-render",
@@ -573,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "DrawBoxOnly",
           "package": "hoodle-render",
@@ -582,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Generic",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "DrawBoxOnly",
           "package": "hoodle-render",
@@ -595,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "DrawFull",
           "package": "hoodle-render",
@@ -604,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Generic",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "DrawFull",
           "package": "hoodle-render",
@@ -617,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "cairoOptionPage",
           "package": "hoodle-render",
@@ -626,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Generic",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "cairoOptionPage",
           "normalized": "(RenderOption(a,Dimension),RenderOption b)-\u003eGPage a c b-\u003eRender(GPage a c b)",
@@ -641,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "cairoRender",
           "package": "hoodle-render",
@@ -650,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Generic",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "cairoRender",
           "normalized": "a-\u003eRender a",
@@ -665,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "cairoRenderOption",
           "package": "hoodle-render",
@@ -674,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Generic",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "cairoRenderOption",
           "normalized": "RenderOption a-\u003ea-\u003eRender a",
@@ -690,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etemporary util\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "passarg",
           "package": "hoodle-render",
@@ -700,6 +749,7 @@
         "index": {
           "description": "temporary util",
           "hierarchy": "Graphics Hoodle Render Generic",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Generic",
           "name": "passarg",
           "normalized": "(a-\u003eb())-\u003ea-\u003eb a",
@@ -715,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ecollection of rendering routine that draws bounding box only\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Highlight",
           "name": "Highlight",
           "package": "hoodle-render",
@@ -724,6 +775,7 @@
         "index": {
           "description": "collection of rendering routine that draws bounding box only",
           "hierarchy": "Graphics Hoodle Render Highlight",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Highlight",
           "name": "Highlight",
           "package": "hoodle-render",
@@ -737,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Highlight",
           "name": "renderBBoxHltd",
           "package": "hoodle-render",
@@ -746,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Highlight",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Highlight",
           "name": "renderBBoxHltd",
           "normalized": "a-\u003eRender()",
@@ -762,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender items highlighted \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Highlight",
           "name": "renderRItemHltd",
           "package": "hoodle-render",
@@ -772,6 +827,7 @@
         "index": {
           "description": "render items highlighted",
           "hierarchy": "Graphics Hoodle Render Highlight",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Highlight",
           "name": "renderRItemHltd",
           "normalized": "RItem-\u003eRender()",
@@ -787,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Highlight",
           "name": "renderStrkHltd",
           "package": "hoodle-render",
@@ -796,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Highlight",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Highlight",
           "name": "renderStrkHltd",
           "normalized": "BBoxed Stroke-\u003eRender()",
@@ -812,6 +870,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRendering RItem \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Item",
           "name": "Item",
           "package": "hoodle-render",
@@ -821,6 +880,7 @@
         "index": {
           "description": "Rendering RItem",
           "hierarchy": "Graphics Hoodle Render Item",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Item",
           "name": "Item",
           "package": "hoodle-render",
@@ -835,6 +895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct renderable item \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Item",
           "name": "cnstrctRItem",
           "package": "hoodle-render",
@@ -845,6 +906,7 @@
         "index": {
           "description": "construct renderable item",
           "hierarchy": "Graphics Hoodle Render Item",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Item",
           "name": "cnstrctRItem",
           "normalized": "Item-\u003eIO RItem",
@@ -861,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget embedded png image. If not, just give me nothing. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Item",
           "name": "getByteStringIfEmbeddedPNG",
           "package": "hoodle-render",
@@ -871,6 +934,7 @@
         "index": {
           "description": "get embedded png image If not just give me nothing",
           "hierarchy": "Graphics Hoodle Render Item",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Item",
           "name": "getByteStringIfEmbeddedPNG",
           "normalized": "ByteString-\u003eMaybe ByteString",
@@ -887,6 +951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread JPG file using GD library and create cairo image surface\n   currently, this uses temporary png file (which is potentially dangerous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Item",
           "name": "getJPGandCreateSurface",
           "package": "hoodle-render",
@@ -897,6 +962,7 @@
         "index": {
           "description": "read JPG file using GD library and create cairo image surface currently this uses temporary png file which is potentially dangerous",
           "hierarchy": "Graphics Hoodle Render Item",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Item",
           "name": "getJPGandCreateSurface",
           "normalized": "FilePath-\u003eIO Surface",
@@ -912,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Item",
           "name": "saveTempPNGToCreateSurface",
           "package": "hoodle-render",
@@ -921,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Item",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Item",
           "name": "saveTempPNGToCreateSurface",
           "normalized": "ByteString-\u003eIO Surface",
@@ -937,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003edraw utility \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Primitive",
           "name": "Primitive",
           "package": "hoodle-render",
@@ -946,6 +1015,7 @@
         "index": {
           "description": "draw utility",
           "hierarchy": "Graphics Hoodle Render Primitive",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Primitive",
           "name": "Primitive",
           "package": "hoodle-render",
@@ -959,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Primitive",
           "name": "drawStrokeCurve",
           "package": "hoodle-render",
@@ -968,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Primitive",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Primitive",
           "name": "drawStrokeCurve",
           "normalized": "[Pair Double Double]-\u003eRender()",
@@ -983,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Primitive",
           "name": "drawVWStrokeCurve",
           "package": "hoodle-render",
@@ -992,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Primitive",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Primitive",
           "name": "drawVWStrokeCurve",
           "normalized": "[(Double,Double,Double)]-\u003eRender()",
@@ -1007,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "Background",
           "package": "hoodle-render",
@@ -1015,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "Background",
           "package": "hoodle-render",
@@ -1028,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "Context",
           "package": "hoodle-render",
@@ -1036,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "Context",
           "package": "hoodle-render",
@@ -1049,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "RBackground",
           "package": "hoodle-render",
@@ -1057,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "RBackground",
           "package": "hoodle-render",
@@ -1070,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "RBkgOpt",
           "package": "hoodle-render",
@@ -1078,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "RBkgOpt",
           "package": "hoodle-render",
@@ -1091,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "Context",
           "package": "hoodle-render",
@@ -1100,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "Context",
           "package": "hoodle-render",
@@ -1113,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "RBkgDrawBuffer",
           "package": "hoodle-render",
@@ -1122,6 +1207,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "RBkgDrawBuffer",
           "package": "hoodle-render",
@@ -1135,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "RBkgDrawPDF",
           "package": "hoodle-render",
@@ -1144,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "RBkgDrawPDF",
           "package": "hoodle-render",
@@ -1157,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "RBkgDrawPDFInBBox",
           "package": "hoodle-render",
@@ -1166,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "RBkgDrawPDFInBBox",
           "package": "hoodle-render",
@@ -1179,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "RBkgDrawWhite",
           "package": "hoodle-render",
@@ -1188,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "RBkgDrawWhite",
           "package": "hoodle-render",
@@ -1201,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "RBkgEmbedPDF",
           "package": "hoodle-render",
@@ -1210,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "RBkgEmbedPDF",
           "package": "hoodle-render",
@@ -1223,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "RBkgPDF",
           "package": "hoodle-render",
@@ -1232,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "RBkgPDF",
           "package": "hoodle-render",
@@ -1245,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "RBkgSmpl",
           "package": "hoodle-render",
@@ -1254,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "RBkgSmpl",
           "package": "hoodle-render",
@@ -1267,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "ctxt_doc",
           "package": "hoodle-render",
@@ -1276,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "ctxt_doc",
           "package": "hoodle-render",
@@ -1288,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "ctxt_domain",
           "package": "hoodle-render",
@@ -1297,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "ctxt_domain",
           "package": "hoodle-render",
@@ -1309,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "ctxt_embeddeddoc",
           "package": "hoodle-render",
@@ -1318,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "ctxt_embeddeddoc",
           "package": "hoodle-render",
@@ -1330,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "ctxt_filename",
           "package": "hoodle-render",
@@ -1339,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "ctxt_filename",
           "package": "hoodle-render",
@@ -1351,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "isRBkgSmpl",
           "package": "hoodle-render",
@@ -1360,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "isRBkgSmpl",
           "normalized": "RBackground-\u003eBool",
@@ -1375,6 +1483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "rbkg2Bkg",
           "package": "hoodle-render",
@@ -1384,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "rbkg2Bkg",
           "normalized": "RBackground-\u003eBackground",
@@ -1399,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "rbkg_cairosurface",
           "package": "hoodle-render",
@@ -1408,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "rbkg_cairosurface",
           "package": "hoodle-render",
@@ -1420,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "rbkg_color",
           "package": "hoodle-render",
@@ -1429,6 +1542,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "rbkg_color",
           "package": "hoodle-render",
@@ -1441,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "rbkg_domain",
           "package": "hoodle-render",
@@ -1450,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "rbkg_domain",
           "package": "hoodle-render",
@@ -1462,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "rbkg_filename",
           "package": "hoodle-render",
@@ -1471,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "rbkg_filename",
           "package": "hoodle-render",
@@ -1483,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "rbkg_pageno",
           "package": "hoodle-render",
@@ -1492,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "rbkg_pageno",
           "package": "hoodle-render",
@@ -1504,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "rbkg_popplerpage",
           "package": "hoodle-render",
@@ -1513,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "rbkg_popplerpage",
           "package": "hoodle-render",
@@ -1525,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "rbkg_style",
           "package": "hoodle-render",
@@ -1534,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Background",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Background",
           "name": "rbkg_style",
           "package": "hoodle-render",
@@ -1547,6 +1671,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSelection type\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "HitTest",
           "package": "hoodle-render",
@@ -1556,6 +1681,7 @@
         "index": {
           "description": "Selection type",
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "HitTest",
           "package": "hoodle-render",
@@ -1569,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "AlterList",
           "package": "hoodle-render",
@@ -1577,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "AlterList",
           "package": "hoodle-render",
@@ -1590,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "Hitted",
           "package": "hoodle-render",
@@ -1598,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "Hitted",
           "package": "hoodle-render",
@@ -1611,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "NotHitted",
           "package": "hoodle-render",
@@ -1619,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "NotHitted",
           "package": "hoodle-render",
@@ -1632,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "RItemHitted",
           "package": "hoodle-render",
@@ -1640,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "RItemHitted",
           "package": "hoodle-render",
@@ -1653,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "StrokeHitted",
           "package": "hoodle-render",
@@ -1661,6 +1796,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "StrokeHitted",
           "package": "hoodle-render",
@@ -1674,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "TAlterHitted",
           "package": "hoodle-render",
@@ -1682,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "TAlterHitted",
           "package": "hoodle-render",
@@ -1695,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "TEitherAlterHitted",
           "package": "hoodle-render",
@@ -1703,6 +1842,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "TEitherAlterHitted",
           "package": "hoodle-render",
@@ -1716,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": ":-",
           "package": "hoodle-render",
@@ -1725,6 +1866,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": ":-",
           "package": "hoodle-render",
@@ -1737,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "Empty",
           "package": "hoodle-render",
@@ -1746,6 +1889,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "Empty",
           "package": "hoodle-render",
@@ -1759,6 +1903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "Hitted",
           "package": "hoodle-render",
@@ -1768,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "Hitted",
           "package": "hoodle-render",
@@ -1781,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "NotHitted",
           "package": "hoodle-render",
@@ -1790,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "NotHitted",
           "package": "hoodle-render",
@@ -1803,6 +1951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "TEitherAlterHitted",
           "package": "hoodle-render",
@@ -1812,6 +1961,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "TEitherAlterHitted",
           "package": "hoodle-render",
@@ -1825,6 +1975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "fmapAL",
           "package": "hoodle-render",
@@ -1834,6 +1985,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "fmapAL",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003eAlterList a c-\u003eAlterList b d",
@@ -1849,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "getA",
           "package": "hoodle-render",
@@ -1858,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "getA",
           "normalized": "AlterList a b-\u003e[a]",
@@ -1872,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "getB",
           "package": "hoodle-render",
@@ -1881,6 +2036,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "getB",
           "normalized": "AlterList a b-\u003e[b]",
@@ -1895,6 +2051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "interleave",
           "package": "hoodle-render",
@@ -1904,6 +2061,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "interleave",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003eAlterList a c-\u003e[b]",
@@ -1918,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "isAnyHitted",
           "package": "hoodle-render",
@@ -1927,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "isAnyHitted",
           "normalized": "AlterList a(Hitted b)-\u003eBool",
@@ -1942,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "takeFirstFromHitted",
           "package": "hoodle-render",
@@ -1951,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "takeFirstFromHitted",
           "normalized": "RItemHitted-\u003eRItemHitted",
@@ -1966,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "takeHitted",
           "package": "hoodle-render",
@@ -1975,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "takeHitted",
           "normalized": "AlterList a(Hitted b)-\u003e[b]",
@@ -1990,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "takeLastFromHitted",
           "package": "hoodle-render",
@@ -1999,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "takeLastFromHitted",
           "normalized": "RItemHitted-\u003eRItemHitted",
@@ -2014,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "unHitted",
           "package": "hoodle-render",
@@ -2023,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "unHitted",
           "normalized": "[a]",
@@ -2038,6 +2206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "unNotHitted",
           "package": "hoodle-render",
@@ -2047,6 +2216,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "unNotHitted",
           "normalized": "[a]",
@@ -2062,6 +2232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "unTEitherAlterHitted",
           "package": "hoodle-render",
@@ -2071,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.HitTest",
           "name": "unTEitherAlterHitted",
           "normalized": "Either[a](TAlterHitted a)",
@@ -2087,6 +2259,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRenderable Hoodle Type  \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "Hoodle",
           "package": "hoodle-render",
@@ -2096,6 +2269,7 @@
         "index": {
           "description": "Renderable Hoodle Type",
           "hierarchy": "Graphics Hoodle Render Type Hoodle",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "Hoodle",
           "package": "hoodle-render",
@@ -2109,6 +2283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "InBBox",
           "package": "hoodle-render",
@@ -2117,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Hoodle",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "InBBox",
           "package": "hoodle-render",
@@ -2130,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "InBBoxBkgBuf",
           "package": "hoodle-render",
@@ -2138,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Hoodle",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "InBBoxBkgBuf",
           "package": "hoodle-render",
@@ -2151,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "InBBoxOption",
           "package": "hoodle-render",
@@ -2159,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Hoodle",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "InBBoxOption",
           "package": "hoodle-render",
@@ -2172,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "LyBuf",
           "package": "hoodle-render",
@@ -2180,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Hoodle",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "LyBuf",
           "package": "hoodle-render",
@@ -2194,6 +2376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enormal rendering data struture for hoodle \n   container for page is IntMap \n   page is RPage\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "RHoodle",
           "package": "hoodle-render",
@@ -2203,6 +2386,7 @@
         "index": {
           "description": "normal rendering data struture for hoodle container for page is IntMap page is RPage",
           "hierarchy": "Graphics Hoodle Render Type Hoodle",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "RHoodle",
           "package": "hoodle-render",
@@ -2217,6 +2401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enormal rendering data structure for layer, R for rendering\n   buffer is Surface, container for item = list \n   and StrokeBBox as contained items\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "RLayer",
           "package": "hoodle-render",
@@ -2226,6 +2411,7 @@
         "index": {
           "description": "normal rendering data structure for layer for rendering buffer is Surface container for item list and StrokeBBox as contained items",
           "hierarchy": "Graphics Hoodle Render Type Hoodle",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "RLayer",
           "package": "hoodle-render",
@@ -2240,6 +2426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enormal rendering data structure for page \n   background is RBackground and container for layer is IntMap \n   and layer is RLayer  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "RPage",
           "package": "hoodle-render",
@@ -2249,6 +2436,7 @@
         "index": {
           "description": "normal rendering data structure for page background is RBackground and container for layer is IntMap and layer is RLayer",
           "hierarchy": "Graphics Hoodle Render Type Hoodle",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "RPage",
           "package": "hoodle-render",
@@ -2262,6 +2450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "InBBox",
           "package": "hoodle-render",
@@ -2271,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Hoodle",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "InBBox",
           "package": "hoodle-render",
@@ -2284,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "InBBoxBkgBuf",
           "package": "hoodle-render",
@@ -2293,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Hoodle",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "InBBoxBkgBuf",
           "package": "hoodle-render",
@@ -2306,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "InBBoxOption",
           "package": "hoodle-render",
@@ -2315,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Hoodle",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "InBBoxOption",
           "package": "hoodle-render",
@@ -2328,6 +2522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "LyBuf",
           "package": "hoodle-render",
@@ -2337,6 +2532,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Hoodle",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "LyBuf",
           "package": "hoodle-render",
@@ -2350,6 +2546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "emptyRLayer",
           "package": "hoodle-render",
@@ -2359,6 +2556,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Hoodle",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "emptyRLayer",
           "package": "hoodle-render",
@@ -2373,6 +2571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eproject to simple Hoodle out of RHoodle \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "rHoodle2Hoodle",
           "package": "hoodle-render",
@@ -2383,6 +2582,7 @@
         "index": {
           "description": "project to simple Hoodle out of RHoodle",
           "hierarchy": "Graphics Hoodle Render Type Hoodle",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "rHoodle2Hoodle",
           "normalized": "RHoodle-\u003eHoodle",
@@ -2399,6 +2599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eproject to simple Layer out of RLayer \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "rLayer2Layer",
           "package": "hoodle-render",
@@ -2409,6 +2610,7 @@
         "index": {
           "description": "project to simple Layer out of RLayer",
           "hierarchy": "Graphics Hoodle Render Type Hoodle",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "rLayer2Layer",
           "normalized": "RLayer-\u003eLayer",
@@ -2425,6 +2627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eproject to simple Page out of RPage\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "rPage2Page",
           "package": "hoodle-render",
@@ -2435,6 +2638,7 @@
         "index": {
           "description": "project to simple Page out of RPage",
           "hierarchy": "Graphics Hoodle Render Type Hoodle",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "rPage2Page",
           "normalized": "RPage-\u003ePage",
@@ -2450,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "unInBBox",
           "package": "hoodle-render",
@@ -2459,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Hoodle",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "unInBBox",
           "package": "hoodle-render",
@@ -2472,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "unInBBoxBkgBuf",
           "package": "hoodle-render",
@@ -2481,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Hoodle",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Hoodle",
           "name": "unInBBoxBkgBuf",
           "package": "hoodle-render",
@@ -2495,6 +2703,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRenderable Item Type  \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "Item",
           "package": "hoodle-render",
@@ -2504,6 +2713,7 @@
         "index": {
           "description": "Renderable Item Type",
           "hierarchy": "Graphics Hoodle Render Type Item",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "Item",
           "package": "hoodle-render",
@@ -2517,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "RItem",
           "package": "hoodle-render",
@@ -2525,6 +2736,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Item",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "RItem",
           "package": "hoodle-render",
@@ -2538,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "RItemImage",
           "package": "hoodle-render",
@@ -2547,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Item",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "RItemImage",
           "package": "hoodle-render",
@@ -2560,6 +2774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "RItemLink",
           "package": "hoodle-render",
@@ -2569,6 +2784,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Item",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "RItemLink",
           "package": "hoodle-render",
@@ -2582,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "RItemSVG",
           "package": "hoodle-render",
@@ -2591,6 +2808,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Item",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "RItemSVG",
           "package": "hoodle-render",
@@ -2604,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "RItemStroke",
           "package": "hoodle-render",
@@ -2613,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Item",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "RItemStroke",
           "package": "hoodle-render",
@@ -2626,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "findImgInRItem",
           "package": "hoodle-render",
@@ -2635,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Item",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "findImgInRItem",
           "normalized": "RItem-\u003eMaybe(BBoxed Image)",
@@ -2650,6 +2872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "findSVGInRItem",
           "package": "hoodle-render",
@@ -2659,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Item",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "findSVGInRItem",
           "normalized": "RItem-\u003eMaybe(BBoxed SVG)",
@@ -2674,6 +2898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "findStrkInRItem",
           "package": "hoodle-render",
@@ -2683,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Item",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "findStrkInRItem",
           "normalized": "RItem-\u003eMaybe(BBoxed Stroke)",
@@ -2698,6 +2924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "isImgInRItem",
           "package": "hoodle-render",
@@ -2707,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Item",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "isImgInRItem",
           "normalized": "RItem-\u003eBool",
@@ -2722,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "isLinkInRItem",
           "package": "hoodle-render",
@@ -2731,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Item",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "isLinkInRItem",
           "normalized": "RItem-\u003eBool",
@@ -2746,6 +2976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "isSVGInRItem",
           "package": "hoodle-render",
@@ -2755,6 +2986,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Item",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "isSVGInRItem",
           "normalized": "RItem-\u003eBool",
@@ -2770,6 +3002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "isStrkInRItem",
           "package": "hoodle-render",
@@ -2779,6 +3012,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Item",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "isStrkInRItem",
           "normalized": "RItem-\u003eBool",
@@ -2794,6 +3028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "rItem2Item",
           "package": "hoodle-render",
@@ -2803,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Item",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Item",
           "name": "rItem2Item",
           "normalized": "RItem-\u003eItem",
@@ -2818,6 +3054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "Select",
           "package": "hoodle-render",
@@ -2826,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Select",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "Select",
           "package": "hoodle-render",
@@ -2839,6 +3077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "BufOf",
           "package": "hoodle-render",
@@ -2847,6 +3086,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Select",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "BufOf",
           "package": "hoodle-render",
@@ -2860,6 +3100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "HHoodle",
           "package": "hoodle-render",
@@ -2868,6 +3109,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Select",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "HHoodle",
           "package": "hoodle-render",
@@ -2881,6 +3123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "HLayer",
           "package": "hoodle-render",
@@ -2889,6 +3132,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Select",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "HLayer",
           "package": "hoodle-render",
@@ -2902,6 +3146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "HLayers",
           "package": "hoodle-render",
@@ -2910,6 +3155,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Select",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "HLayers",
           "package": "hoodle-render",
@@ -2923,6 +3169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "HLayersF",
           "package": "hoodle-render",
@@ -2931,6 +3178,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Select",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "HLayersF",
           "package": "hoodle-render",
@@ -2944,6 +3192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "HPage",
           "package": "hoodle-render",
@@ -2952,6 +3201,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Select",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "HPage",
           "package": "hoodle-render",
@@ -2965,6 +3215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "ItmOf",
           "package": "hoodle-render",
@@ -2973,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Select",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "ItmOf",
           "package": "hoodle-render",
@@ -2986,6 +3238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "SLayerF",
           "package": "hoodle-render",
@@ -2994,6 +3247,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Select",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "SLayerF",
           "package": "hoodle-render",
@@ -3007,6 +3261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "HLayersF",
           "package": "hoodle-render",
@@ -3016,6 +3271,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Select",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "HLayersF",
           "package": "hoodle-render",
@@ -3029,6 +3285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "hLayer2RLayer",
           "package": "hoodle-render",
@@ -3038,6 +3295,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Select",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "hLayer2RLayer",
           "normalized": "HLayer-\u003eRLayer",
@@ -3053,6 +3311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "hPage2RPage",
           "package": "hoodle-render",
@@ -3062,6 +3321,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Select",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "hPage2RPage",
           "normalized": "HPage-\u003eRPage",
@@ -3077,6 +3337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "hlyrt_otherLayers",
           "package": "hoodle-render",
@@ -3086,6 +3347,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Select",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "hlyrt_otherLayers",
           "package": "hoodle-render",
@@ -3099,6 +3361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "hlyrt_selectedLayer",
           "package": "hoodle-render",
@@ -3108,6 +3371,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Select",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "hlyrt_selectedLayer",
           "package": "hoodle-render",
@@ -3121,6 +3385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "mkHPage",
           "package": "hoodle-render",
@@ -3130,6 +3395,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Select",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "mkHPage",
           "normalized": "RPage-\u003eHPage",
@@ -3145,6 +3411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "otherLayers",
           "package": "hoodle-render",
@@ -3154,6 +3421,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Select",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "otherLayers",
           "package": "hoodle-render",
@@ -3167,6 +3435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "selectedLayer",
           "package": "hoodle-render",
@@ -3176,6 +3445,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Type Select",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type.Select",
           "name": "selectedLayer",
           "package": "hoodle-render",
@@ -3190,6 +3460,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRenderable Hoodle Type  \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Type",
           "name": "Type",
           "package": "hoodle-render",
@@ -3199,6 +3470,7 @@
         "index": {
           "description": "Renderable Hoodle Type",
           "hierarchy": "Graphics Hoodle Render Type",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Type",
           "name": "Type",
           "package": "hoodle-render",
@@ -3213,6 +3485,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHit-testing routines\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "HitTest",
           "package": "hoodle-render",
@@ -3222,6 +3495,7 @@
         "index": {
           "description": "Hit-testing routines",
           "hierarchy": "Graphics Hoodle Render Util HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "HitTest",
           "package": "hoodle-render",
@@ -3236,6 +3510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo two bounding boxes intersect with each other?\n   previously, hitTestBBoxBBox\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "do2BBoxIntersect",
           "package": "hoodle-render",
@@ -3246,6 +3521,7 @@
         "index": {
           "description": "Do two bounding boxes intersect with each other previously hitTestBBoxBBox",
           "hierarchy": "Graphics Hoodle Render Util HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "do2BBoxIntersect",
           "normalized": "BBox-\u003eBBox-\u003eBool",
@@ -3262,6 +3538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehit test of whether two lines intersect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "do2LinesIntersect",
           "package": "hoodle-render",
@@ -3271,6 +3548,7 @@
         "index": {
           "description": "hit test of whether two lines intersect",
           "hierarchy": "Graphics Hoodle Render Util HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "do2LinesIntersect",
           "normalized": "((Double,Double),(Double,Double))-\u003e((Double,Double),(Double,Double))-\u003eBool",
@@ -3287,6 +3565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epreviously, hitTestLineStroke\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "doesLineHitStrk",
           "package": "hoodle-render",
@@ -3297,6 +3576,7 @@
         "index": {
           "description": "previously hitTestLineStroke",
           "hierarchy": "Graphics Hoodle Render Util HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "doesLineHitStrk",
           "normalized": "((Double,Double),(Double,Double))-\u003eStroke-\u003eBool",
@@ -3312,6 +3592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "elimHitted",
           "package": "hoodle-render",
@@ -3321,6 +3602,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Util HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "elimHitted",
           "normalized": "AlterList(NotHitted a)(Hitted a)-\u003eState(Maybe BBox)[a]",
@@ -3336,6 +3618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "getTotalBBox",
           "package": "hoodle-render",
@@ -3345,6 +3628,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Util HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "getTotalBBox",
           "normalized": "[a]-\u003eMaybe BBox",
@@ -3360,6 +3644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "hltEmbeddedByBBox",
           "package": "hoodle-render",
@@ -3369,6 +3654,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Util HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "hltEmbeddedByBBox",
           "normalized": "BBox-\u003e[a]-\u003eAlterList(NotHitted a)(Hitted a)",
@@ -3385,6 +3671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehighlight strokes filtered by a condition. \n   previously mkHitTestAL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "hltFilteredBy",
           "package": "hoodle-render",
@@ -3394,6 +3681,7 @@
         "index": {
           "description": "highlight strokes filtered by condition previously mkHitTestAL",
           "hierarchy": "Graphics Hoodle Render Util HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "hltFilteredBy",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003eAlterList(NotHitted a)(Hitted a)",
@@ -3409,6 +3697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "hltFilteredBy_StateT",
           "package": "hoodle-render",
@@ -3417,6 +3706,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Util HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "hltFilteredBy_StateT",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003eState Bool(AlterList(NotHitted a)(Hitted a))",
@@ -3432,6 +3722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "hltHittedByBBox",
           "package": "hoodle-render",
@@ -3440,6 +3731,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Util HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "hltHittedByBBox",
           "normalized": "BBox-\u003e[a]-\u003eAlterList(NotHitted a)(Hitted a)",
@@ -3456,6 +3748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eonly check if a line and bbox of item overlapped \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "hltHittedByLineRough",
           "package": "hoodle-render",
@@ -3465,6 +3758,7 @@
         "index": {
           "description": "only check if line and bbox of item overlapped",
           "hierarchy": "Graphics Hoodle Render Util HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "hltHittedByLineRough",
           "normalized": "((Double,Double),(Double,Double))-\u003e[a]-\u003eAlterList(NotHitted a)(Hitted a)",
@@ -3480,6 +3774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "hltItmsHittedByLineFrmSelected_StateT",
           "package": "hoodle-render",
@@ -3489,6 +3784,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Util HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "hltItmsHittedByLineFrmSelected_StateT",
           "normalized": "((Double,Double),(Double,Double))-\u003eRItemHitted-\u003eState Bool(AlterList(NotHitted RItem)RItemHitted)",
@@ -3504,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "hltItmsHittedByLine_StateT",
           "package": "hoodle-render",
@@ -3513,6 +3810,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Util HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "hltItmsHittedByLine_StateT",
           "normalized": "((Double,Double),(Double,Double))-\u003e[RItem]-\u003eState Bool RItemHitted",
@@ -3529,6 +3827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis the second bbox inside the first bbox?\n   previously, hitTestInsideBBox\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "isBBox2InBBox1",
           "package": "hoodle-render",
@@ -3538,6 +3837,7 @@
         "index": {
           "description": "is the second bbox inside the first bbox previously hitTestInsideBBox",
           "hierarchy": "Graphics Hoodle Render Util HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "isBBox2InBBox1",
           "normalized": "BBox-\u003eBBox-\u003eBool",
@@ -3554,6 +3854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehit test of whether a point in a bbox\n   previously, hitTestBBoxPoint \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "isPointInBBox",
           "package": "hoodle-render",
@@ -3563,6 +3864,7 @@
         "index": {
           "description": "hit test of whether point in bbox previously hitTestBBoxPoint",
           "hierarchy": "Graphics Hoodle Render Util HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "isPointInBBox",
           "normalized": "BBox-\u003e(Double,Double)-\u003eBool",
@@ -3578,6 +3880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "merge",
           "package": "hoodle-render",
@@ -3587,6 +3890,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Util HitTest",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Util.HitTest",
           "name": "merge",
           "normalized": "Maybe BBox-\u003eMaybe BBox-\u003eMaybe BBox",
@@ -3602,6 +3906,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eutility \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Util",
           "name": "Util",
           "package": "hoodle-render",
@@ -3611,6 +3916,7 @@
         "index": {
           "description": "utility",
           "hierarchy": "Graphics Hoodle Render Util",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Util",
           "name": "Util",
           "package": "hoodle-render",
@@ -3624,6 +3930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Util",
           "name": "clearBBox",
           "package": "hoodle-render",
@@ -3633,6 +3940,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Util",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Util",
           "name": "clearBBox",
           "normalized": "Maybe BBox-\u003eRender()",
@@ -3648,6 +3956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render.Util",
           "name": "clipBBox",
           "package": "hoodle-render",
@@ -3657,6 +3966,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render Util",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render.Util",
           "name": "clipBBox",
           "normalized": "Maybe BBox-\u003eRender()",
@@ -3673,6 +3983,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ecollection of rendering routine \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render",
           "name": "Render",
           "package": "hoodle-render",
@@ -3682,6 +3993,7 @@
         "index": {
           "description": "collection of rendering routine",
           "hierarchy": "Graphics Hoodle Render",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render",
           "name": "Render",
           "package": "hoodle-render",
@@ -3695,6 +4007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render",
           "name": "cnstrctRHoodle",
           "package": "hoodle-render",
@@ -3704,6 +4017,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render",
           "name": "cnstrctRHoodle",
           "normalized": "Hoodle-\u003eIO RHoodle",
@@ -3719,6 +4033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render",
           "name": "cnstrctRLayer",
           "package": "hoodle-render",
@@ -3728,6 +4043,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render",
           "name": "cnstrctRLayer",
           "normalized": "Layer-\u003eIO RLayer",
@@ -3743,6 +4059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render",
           "name": "cnstrctRPage_StateT",
           "package": "hoodle-render",
@@ -3752,6 +4069,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render",
           "name": "cnstrctRPage_StateT",
           "normalized": "Page-\u003eStateT(Maybe Context)IO RPage",
@@ -3768,6 +4086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender image : not fully implemented \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render",
           "name": "renderImg",
           "package": "hoodle-render",
@@ -3778,6 +4097,7 @@
         "index": {
           "description": "render image not fully implemented",
           "hierarchy": "Graphics Hoodle Render",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render",
           "name": "renderImg",
           "normalized": "Image-\u003eRender()",
@@ -3794,6 +4114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender item \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render",
           "name": "renderItem",
           "package": "hoodle-render",
@@ -3804,6 +4125,7 @@
         "index": {
           "description": "render item",
           "hierarchy": "Graphics Hoodle Render",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render",
           "name": "renderItem",
           "normalized": "Item-\u003eRender()",
@@ -3819,6 +4141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render",
           "name": "renderPage",
           "package": "hoodle-render",
@@ -3828,6 +4151,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render",
           "name": "renderPage",
           "normalized": "Page-\u003eRender()",
@@ -3843,6 +4167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render",
           "name": "renderRBkg",
           "package": "hoodle-render",
@@ -3852,6 +4177,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render",
           "name": "renderRBkg",
           "normalized": "(RBackground,Dimension)-\u003eRender(RBackground,Dimension)",
@@ -3868,6 +4194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebackground drawing in bbox \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render",
           "name": "renderRBkg_InBBox",
           "package": "hoodle-render",
@@ -3878,6 +4205,7 @@
         "index": {
           "description": "background drawing in bbox",
           "hierarchy": "Graphics Hoodle Render",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render",
           "name": "renderRBkg_InBBox",
           "normalized": "Maybe BBox-\u003e(RBackground,Dimension)-\u003eRender(RBackground,Dimension)",
@@ -3893,6 +4221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render",
           "name": "renderRItem",
           "package": "hoodle-render",
@@ -3902,6 +4231,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render",
           "name": "renderRItem",
           "normalized": "RItem-\u003eRender RItem",
@@ -3918,6 +4248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender RLayer within BBox after hittest items\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render",
           "name": "renderRLayer_InBBox",
           "package": "hoodle-render",
@@ -3928,6 +4259,7 @@
         "index": {
           "description": "render RLayer within BBox after hittest items",
           "hierarchy": "Graphics Hoodle Render",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render",
           "name": "renderRLayer_InBBox",
           "normalized": "Maybe BBox-\u003eRLayer-\u003eRender RLayer",
@@ -3944,6 +4276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender stroke \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render",
           "name": "renderStrk",
           "package": "hoodle-render",
@@ -3954,6 +4287,7 @@
         "index": {
           "description": "render stroke",
           "hierarchy": "Graphics Hoodle Render",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render",
           "name": "renderStrk",
           "normalized": "Stroke-\u003eRender()",
@@ -3969,6 +4303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render",
           "name": "updateHoodleBuf",
           "package": "hoodle-render",
@@ -3978,6 +4313,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render",
           "name": "updateHoodleBuf",
           "normalized": "RHoodle-\u003eIO RHoodle",
@@ -3993,6 +4329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render",
           "name": "updateLayerBuf",
           "package": "hoodle-render",
@@ -4002,6 +4339,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render",
           "name": "updateLayerBuf",
           "normalized": "Dimension-\u003eMaybe BBox-\u003eRLayer-\u003eIO RLayer",
@@ -4017,6 +4355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Graphics.Hoodle.Render",
           "name": "updatePageBuf",
           "package": "hoodle-render",
@@ -4026,6 +4365,7 @@
         },
         "index": {
           "hierarchy": "Graphics Hoodle Render",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Graphics.Hoodle.Render",
           "name": "updatePageBuf",
           "normalized": "RPage-\u003eIO RPage",
@@ -4041,6 +4381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Hoodle.Util.Process",
           "name": "Process",
           "package": "hoodle-render",
@@ -4049,6 +4390,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util Process",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Hoodle.Util.Process",
           "name": "Process",
           "package": "hoodle-render",
@@ -4062,6 +4404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Hoodle.Util.Process",
           "name": "checkPipe",
           "package": "hoodle-render",
@@ -4071,6 +4414,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util Process",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Hoodle.Util.Process",
           "name": "checkPipe",
           "normalized": "FilePath-\u003eIO()",
@@ -4086,6 +4430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Hoodle.Util.Process",
           "name": "existThenRemove",
           "package": "hoodle-render",
@@ -4095,6 +4440,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util Process",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Hoodle.Util.Process",
           "name": "existThenRemove",
           "normalized": "FilePath-\u003eIO()",
@@ -4110,6 +4456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Hoodle.Util.Process",
           "name": "mkTmpFileName",
           "package": "hoodle-render",
@@ -4119,6 +4466,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util Process",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Hoodle.Util.Process",
           "name": "mkTmpFileName",
           "package": "hoodle-render",
@@ -4132,6 +4480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Hoodle.Util.Process",
           "name": "pipeAction",
           "package": "hoodle-render",
@@ -4141,6 +4490,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util Process",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Hoodle.Util.Process",
           "name": "pipeAction",
           "normalized": "IO()-\u003e(ByteString-\u003eIO a)-\u003eIO a",
@@ -4156,6 +4506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:47 UTC 2014",
           "module": "Hoodle.Util.Process",
           "name": "pipeActionWith",
           "package": "hoodle-render",
@@ -4165,6 +4516,7 @@
         },
         "index": {
           "hierarchy": "Hoodle Util Process",
+          "indexed": "2014-03-11T18:43:47",
           "module": "Hoodle.Util.Process",
           "name": "pipeActionWith",
           "normalized": "IO()-\u003e(FilePath-\u003eIO a)-\u003eIO a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "4Blocks"
+        "phrase": "4Blocks",
+        "type": "phrase"
       },
       "type": "context"
     }

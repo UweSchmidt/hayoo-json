@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack-contrib"
+        "phrase": "hack-contrib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "Constants",
           "package": "hack-contrib",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "Constants",
           "package": "hack-contrib",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Accept",
           "package": "hack-contrib",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Accept",
           "package": "hack-contrib",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_AcceptCharset",
           "package": "hack-contrib",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_AcceptCharset",
           "package": "hack-contrib",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_AcceptEncoding",
           "package": "hack-contrib",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_AcceptEncoding",
           "package": "hack-contrib",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_AcceptLanguage",
           "package": "hack-contrib",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_AcceptLanguage",
           "package": "hack-contrib",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Age",
           "package": "hack-contrib",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Age",
           "package": "hack-contrib",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Allow",
           "package": "hack-contrib",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Allow",
           "package": "hack-contrib",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Authorization",
           "package": "hack-contrib",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Authorization",
           "package": "hack-contrib",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_CacheControl",
           "package": "hack-contrib",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_CacheControl",
           "package": "hack-contrib",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Connection",
           "package": "hack-contrib",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Connection",
           "package": "hack-contrib",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_ContentBase",
           "package": "hack-contrib",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_ContentBase",
           "package": "hack-contrib",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_ContentEncoding",
           "package": "hack-contrib",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_ContentEncoding",
           "package": "hack-contrib",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_ContentLanguage",
           "package": "hack-contrib",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_ContentLanguage",
           "package": "hack-contrib",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_ContentLength",
           "package": "hack-contrib",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_ContentLength",
           "package": "hack-contrib",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_ContentLocation",
           "package": "hack-contrib",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_ContentLocation",
           "package": "hack-contrib",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_ContentMD5",
           "package": "hack-contrib",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_ContentMD5",
           "package": "hack-contrib",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_ContentRange",
           "package": "hack-contrib",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_ContentRange",
           "package": "hack-contrib",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_ContentTransferEncoding",
           "package": "hack-contrib",
@@ -400,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_ContentTransferEncoding",
           "package": "hack-contrib",
@@ -413,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_ContentType",
           "package": "hack-contrib",
@@ -422,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_ContentType",
           "package": "hack-contrib",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Cookie",
           "package": "hack-contrib",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Cookie",
           "package": "hack-contrib",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Date",
           "package": "hack-contrib",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Date",
           "package": "hack-contrib",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_ETag",
           "package": "hack-contrib",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_ETag",
           "package": "hack-contrib",
@@ -501,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Expect",
           "package": "hack-contrib",
@@ -510,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Expect",
           "package": "hack-contrib",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Expires",
           "package": "hack-contrib",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Expires",
           "package": "hack-contrib",
@@ -545,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_From",
           "package": "hack-contrib",
@@ -554,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_From",
           "package": "hack-contrib",
@@ -567,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Host",
           "package": "hack-contrib",
@@ -576,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Host",
           "package": "hack-contrib",
@@ -589,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_IfMatch",
           "package": "hack-contrib",
@@ -598,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_IfMatch",
           "package": "hack-contrib",
@@ -611,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_IfModifiedSince",
           "package": "hack-contrib",
@@ -620,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_IfModifiedSince",
           "package": "hack-contrib",
@@ -633,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_IfNoneMatch",
           "package": "hack-contrib",
@@ -642,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_IfNoneMatch",
           "package": "hack-contrib",
@@ -655,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_IfRange",
           "package": "hack-contrib",
@@ -664,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_IfRange",
           "package": "hack-contrib",
@@ -677,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_IfUnmodifiedSince",
           "package": "hack-contrib",
@@ -686,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_IfUnmodifiedSince",
           "package": "hack-contrib",
@@ -699,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_LastModified",
           "package": "hack-contrib",
@@ -708,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_LastModified",
           "package": "hack-contrib",
@@ -721,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Location",
           "package": "hack-contrib",
@@ -730,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Location",
           "package": "hack-contrib",
@@ -743,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_MaxForwards",
           "package": "hack-contrib",
@@ -752,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_MaxForwards",
           "package": "hack-contrib",
@@ -765,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Pragma",
           "package": "hack-contrib",
@@ -774,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Pragma",
           "package": "hack-contrib",
@@ -787,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_ProxyAuthenticate",
           "package": "hack-contrib",
@@ -796,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_ProxyAuthenticate",
           "package": "hack-contrib",
@@ -809,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_ProxyAuthorization",
           "package": "hack-contrib",
@@ -818,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_ProxyAuthorization",
           "package": "hack-contrib",
@@ -831,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Public",
           "package": "hack-contrib",
@@ -840,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Public",
           "package": "hack-contrib",
@@ -853,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Range",
           "package": "hack-contrib",
@@ -862,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Range",
           "package": "hack-contrib",
@@ -875,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Referer",
           "package": "hack-contrib",
@@ -884,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Referer",
           "package": "hack-contrib",
@@ -897,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_RetryAfter",
           "package": "hack-contrib",
@@ -906,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_RetryAfter",
           "package": "hack-contrib",
@@ -919,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Server",
           "package": "hack-contrib",
@@ -928,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Server",
           "package": "hack-contrib",
@@ -941,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_SetCookie",
           "package": "hack-contrib",
@@ -950,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_SetCookie",
           "package": "hack-contrib",
@@ -963,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_TE",
           "package": "hack-contrib",
@@ -972,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_TE",
           "package": "hack-contrib",
@@ -985,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_TextHtml",
           "package": "hack-contrib",
@@ -994,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_TextHtml",
           "package": "hack-contrib",
@@ -1007,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_TextHtmlUTF8",
           "package": "hack-contrib",
@@ -1016,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_TextHtmlUTF8",
           "package": "hack-contrib",
@@ -1029,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_TextPlain",
           "package": "hack-contrib",
@@ -1038,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_TextPlain",
           "package": "hack-contrib",
@@ -1051,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_TextPlainUTF8",
           "package": "hack-contrib",
@@ -1060,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_TextPlainUTF8",
           "package": "hack-contrib",
@@ -1073,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Trailer",
           "package": "hack-contrib",
@@ -1082,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Trailer",
           "package": "hack-contrib",
@@ -1095,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_TransferEncoding",
           "package": "hack-contrib",
@@ -1104,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_TransferEncoding",
           "package": "hack-contrib",
@@ -1117,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Upgrade",
           "package": "hack-contrib",
@@ -1126,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Upgrade",
           "package": "hack-contrib",
@@ -1139,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_UserAgent",
           "package": "hack-contrib",
@@ -1148,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_UserAgent",
           "package": "hack-contrib",
@@ -1161,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Vary",
           "package": "hack-contrib",
@@ -1170,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Vary",
           "package": "hack-contrib",
@@ -1183,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Via",
           "package": "hack-contrib",
@@ -1192,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Via",
           "package": "hack-contrib",
@@ -1205,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_WWWAuthenticate",
           "package": "hack-contrib",
@@ -1214,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_WWWAuthenticate",
           "package": "hack-contrib",
@@ -1227,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "_Warning",
           "package": "hack-contrib",
@@ -1236,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "_Warning",
           "package": "hack-contrib",
@@ -1249,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "status_code",
           "package": "hack-contrib",
@@ -1258,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "status_code",
           "package": "hack-contrib",
@@ -1270,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Constants",
           "name": "status_with_no_entity_body",
           "package": "hack-contrib",
@@ -1279,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Constants",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Constants",
           "name": "status_with_no_entity_body",
           "normalized": "[Int]",
@@ -1294,6 +1410,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStolen from rack-contrib: Bounce those annoying favicon.ico requests\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.BounceFavicon",
           "name": "BounceFavicon",
           "package": "hack-contrib",
@@ -1303,6 +1420,7 @@
         "index": {
           "description": "Stolen from rack-contrib Bounce those annoying favicon.ico requests",
           "hierarchy": "Hack Contrib Middleware BounceFavicon",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.BounceFavicon",
           "name": "BounceFavicon",
           "package": "hack-contrib",
@@ -1316,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.BounceFavicon",
           "name": "bounce_favicon",
           "package": "hack-contrib",
@@ -1325,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware BounceFavicon",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.BounceFavicon",
           "name": "bounce_favicon",
           "package": "hack-contrib",
@@ -1337,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Cascade",
           "name": "Cascade",
           "package": "hack-contrib",
@@ -1345,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Cascade",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Cascade",
           "name": "Cascade",
           "package": "hack-contrib",
@@ -1358,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Cascade",
           "name": "cascade",
           "package": "hack-contrib",
@@ -1367,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Cascade",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Cascade",
           "name": "cascade",
           "normalized": "[Application]-\u003eApplication",
@@ -1381,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Censor",
           "name": "Censor",
           "package": "hack-contrib",
@@ -1389,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Censor",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Censor",
           "name": "Censor",
           "package": "hack-contrib",
@@ -1402,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Censor",
           "name": "censor",
           "package": "hack-contrib",
@@ -1411,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Censor",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Censor",
           "name": "censor",
           "normalized": "(Response-\u003eIO Response)-\u003eMiddleware",
@@ -1426,6 +1554,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStolen from rack-contrib: modifies the environment using the block given \n   during initialization.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Config",
           "name": "Config",
           "package": "hack-contrib",
@@ -1435,6 +1564,7 @@
         "index": {
           "description": "Stolen from rack-contrib modifies the environment using the block given during initialization",
           "hierarchy": "Hack Contrib Middleware Config",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Config",
           "name": "Config",
           "package": "hack-contrib",
@@ -1448,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Config",
           "name": "config",
           "package": "hack-contrib",
@@ -1457,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Config",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Config",
           "name": "config",
           "normalized": "(Env-\u003eEnv)-\u003eMiddleware",
@@ -1472,6 +1604,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStolen from rack: Sets the Content-Length header on responses with \n   fixed-length bodies.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.ContentLength",
           "name": "ContentLength",
           "package": "hack-contrib",
@@ -1481,6 +1614,7 @@
         "index": {
           "description": "Stolen from rack Sets the Content-Length header on responses with fixed-length bodies",
           "hierarchy": "Hack Contrib Middleware ContentLength",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.ContentLength",
           "name": "ContentLength",
           "package": "hack-contrib",
@@ -1494,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.ContentLength",
           "name": "content_length",
           "package": "hack-contrib",
@@ -1503,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware ContentLength",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.ContentLength",
           "name": "content_length",
           "package": "hack-contrib",
@@ -1516,6 +1652,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStolen from rack: Sets the Content-Type header on responses which don't \n   have one.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.ContentType",
           "name": "ContentType",
           "package": "hack-contrib",
@@ -1525,6 +1662,7 @@
         "index": {
           "description": "Stolen from rack Sets the Content-Type header on responses which don have one",
           "hierarchy": "Hack Contrib Middleware ContentType",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.ContentType",
           "name": "ContentType",
           "package": "hack-contrib",
@@ -1538,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.ContentType",
           "name": "content_type",
           "package": "hack-contrib",
@@ -1547,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware ContentType",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.ContentType",
           "name": "content_type",
           "normalized": "String-\u003eMiddleware",
@@ -1562,6 +1702,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eprint the env and response in the console\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Debug",
           "name": "Debug",
           "package": "hack-contrib",
@@ -1571,6 +1712,7 @@
         "index": {
           "description": "print the env and response in the console",
           "hierarchy": "Hack Contrib Middleware Debug",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Debug",
           "name": "Debug",
           "package": "hack-contrib",
@@ -1584,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Debug",
           "name": "debug",
           "package": "hack-contrib",
@@ -1593,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Debug",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Debug",
           "name": "debug",
           "normalized": "(Env-\u003eResponse-\u003eIO())-\u003eMiddleware",
@@ -1608,6 +1752,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStolen from rack: serves files below the +root+ given, according to the \n   path info of the Rack request.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.File",
           "name": "File",
           "package": "hack-contrib",
@@ -1617,6 +1762,7 @@
         "index": {
           "description": "Stolen from rack serves files below the root given according to the path info of the Rack request",
           "hierarchy": "Hack Contrib Middleware File",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.File",
           "name": "File",
           "package": "hack-contrib",
@@ -1630,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.File",
           "name": "file",
           "package": "hack-contrib",
@@ -1639,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware File",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.File",
           "name": "file",
           "normalized": "Maybe String-\u003eMiddleware",
@@ -1653,6 +1801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Head",
           "name": "Head",
           "package": "hack-contrib",
@@ -1661,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Head",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Head",
           "name": "Head",
           "package": "hack-contrib",
@@ -1674,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Head",
           "name": "head",
           "package": "hack-contrib",
@@ -1683,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Head",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Head",
           "name": "head",
           "package": "hack-contrib",
@@ -1695,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Hub",
           "package": "hack-contrib",
@@ -1703,6 +1856,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Hub",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Hub",
           "package": "hack-contrib",
@@ -1716,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Formatter",
           "package": "hack-contrib",
@@ -1724,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Hub",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Formatter",
           "package": "hack-contrib",
@@ -1737,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Logger",
           "package": "hack-contrib",
@@ -1745,6 +1902,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Hub",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Logger",
           "package": "hack-contrib",
@@ -1758,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Severity",
           "package": "hack-contrib",
@@ -1766,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Hub",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Severity",
           "package": "hack-contrib",
@@ -1779,6 +1939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Debug",
           "package": "hack-contrib",
@@ -1788,6 +1949,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Hub",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Debug",
           "package": "hack-contrib",
@@ -1801,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Error",
           "package": "hack-contrib",
@@ -1810,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Hub",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Error",
           "package": "hack-contrib",
@@ -1823,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Fatal",
           "package": "hack-contrib",
@@ -1832,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Hub",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Fatal",
           "package": "hack-contrib",
@@ -1845,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Info",
           "package": "hack-contrib",
@@ -1854,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Hub",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Info",
           "package": "hack-contrib",
@@ -1867,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Unknown",
           "package": "hack-contrib",
@@ -1876,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Hub",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Unknown",
           "package": "hack-contrib",
@@ -1889,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Warn",
           "package": "hack-contrib",
@@ -1898,6 +2069,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Hub",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "Warn",
           "package": "hack-contrib",
@@ -1911,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "colorize",
           "package": "hack-contrib",
@@ -1920,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Hub",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "colorize",
           "normalized": "Severity-\u003eString-\u003eString",
@@ -1934,6 +2108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "get_pid",
           "package": "hack-contrib",
@@ -1943,6 +2118,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Hub",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "get_pid",
           "package": "hack-contrib",
@@ -1955,6 +2131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "hint",
           "package": "hack-contrib",
@@ -1964,6 +2141,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Hub",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "hint",
           "normalized": "Severity-\u003eString",
@@ -1978,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "hub",
           "package": "hack-contrib",
@@ -1987,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Hub",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "hub",
           "normalized": "(String-\u003eIO())-\u003eFormatter-\u003eString-\u003eLogger",
@@ -2001,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "simple_formatter",
           "package": "hack-contrib",
@@ -2010,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Hub",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "simple_formatter",
           "package": "hack-contrib",
@@ -2022,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "simple_logger",
           "package": "hack-contrib",
@@ -2031,6 +2214,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Hub",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Hub",
           "name": "simple_logger",
           "normalized": "(String-\u003eIO())-\u003eString-\u003eLogger",
@@ -2045,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.IOConfig",
           "name": "IOConfig",
           "package": "hack-contrib",
@@ -2053,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware IOConfig",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.IOConfig",
           "name": "IOConfig",
           "package": "hack-contrib",
@@ -2066,6 +2252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.IOConfig",
           "name": "ioconfig",
           "package": "hack-contrib",
@@ -2075,6 +2262,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware IOConfig",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.IOConfig",
           "name": "ioconfig",
           "normalized": "(Env-\u003eIO Env)-\u003eMiddleware",
@@ -2090,6 +2278,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eprint the env and response in the console\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Inspect",
           "name": "Inspect",
           "package": "hack-contrib",
@@ -2099,6 +2288,7 @@
         "index": {
           "description": "print the env and response in the console",
           "hierarchy": "Hack Contrib Middleware Inspect",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Inspect",
           "name": "Inspect",
           "package": "hack-contrib",
@@ -2112,6 +2302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Inspect",
           "name": "inspect",
           "package": "hack-contrib",
@@ -2121,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Inspect",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Inspect",
           "name": "inspect",
           "package": "hack-contrib",
@@ -2133,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.NotFound",
           "name": "NotFound",
           "package": "hack-contrib",
@@ -2141,6 +2334,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware NotFound",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.NotFound",
           "name": "NotFound",
           "package": "hack-contrib",
@@ -2154,6 +2348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.NotFound",
           "name": "not_found",
           "package": "hack-contrib",
@@ -2163,6 +2358,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware NotFound",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.NotFound",
           "name": "not_found",
           "package": "hack-contrib",
@@ -2176,6 +2372,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ematching a list of regexp agains a path_info, if matched, consponding app\n   is used, otherwise, pass the env down to lower middleware\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.RegexpRouter",
           "name": "RegexpRouter",
           "package": "hack-contrib",
@@ -2185,6 +2382,7 @@
         "index": {
           "description": "matching list of regexp agains path info if matched consponding app is used otherwise pass the env down to lower middleware",
           "hierarchy": "Hack Contrib Middleware RegexpRouter",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.RegexpRouter",
           "name": "RegexpRouter",
           "package": "hack-contrib",
@@ -2198,6 +2396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.RegexpRouter",
           "name": "regexp_router",
           "package": "hack-contrib",
@@ -2207,6 +2406,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware RegexpRouter",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.RegexpRouter",
           "name": "regexp_router",
           "normalized": "[RoutePath]-\u003eMiddleware",
@@ -2222,6 +2422,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStolen from rack: catches all exceptions raised from the app it wraps.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.ShowExceptions",
           "name": "ShowExceptions",
           "package": "hack-contrib",
@@ -2231,6 +2432,7 @@
         "index": {
           "description": "Stolen from rack catches all exceptions raised from the app it wraps",
           "hierarchy": "Hack Contrib Middleware ShowExceptions",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.ShowExceptions",
           "name": "ShowExceptions",
           "package": "hack-contrib",
@@ -2244,6 +2446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.ShowExceptions",
           "name": "show_exceptions",
           "package": "hack-contrib",
@@ -2253,6 +2456,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware ShowExceptions",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.ShowExceptions",
           "name": "show_exceptions",
           "normalized": "Maybe(String-\u003eIO())-\u003eMiddleware",
@@ -2267,6 +2471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.SimpleAccessLogger",
           "name": "SimpleAccessLogger",
           "package": "hack-contrib",
@@ -2275,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware SimpleAccessLogger",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.SimpleAccessLogger",
           "name": "SimpleAccessLogger",
           "package": "hack-contrib",
@@ -2288,6 +2494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.SimpleAccessLogger",
           "name": "simple_access_logger",
           "package": "hack-contrib",
@@ -2297,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware SimpleAccessLogger",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.SimpleAccessLogger",
           "name": "simple_access_logger",
           "normalized": "Maybe(String-\u003eIO())-\u003eMiddleware",
@@ -2312,6 +2520,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStolen from rack:\n   The Rack::Static middleware intercepts requests for static files\n   (javascript files, images, stylesheets, etc) based on the url prefixes\n   passed in the options, and serves them using a Rack::File object. This\n   allows a Rack stack to serve both static and dynamic content.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Static",
           "name": "Static",
           "package": "hack-contrib",
@@ -2321,6 +2530,7 @@
         "index": {
           "description": "Stolen from rack The Rack Static middleware intercepts requests for static files javascript files images stylesheets etc based on the url prefixes passed in the options and serves them using Rack File object This allows Rack stack to serve both static and dynamic content",
           "hierarchy": "Hack Contrib Middleware Static",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Static",
           "name": "Static",
           "package": "hack-contrib",
@@ -2334,6 +2544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.Static",
           "name": "static",
           "package": "hack-contrib",
@@ -2343,6 +2554,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware Static",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.Static",
           "name": "static",
           "normalized": "Maybe String-\u003e[String]-\u003eMiddleware",
@@ -2358,6 +2570,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStolen from rack:\n   Rack::URLMap takes a hash mapping urls or paths to apps, and\n   dispatches accordingly. \n\u003c/p\u003e\u003cp\u003eURLMap modifies the SCRIPT_NAME and PATH_INFO such that the part\n   relevant for dispatch is in the SCRIPT_NAME, and the rest in the\n   PATH_INFO.  This should be taken care of when you need to\n   reconstruct the URL in order to create links.\n\u003c/p\u003e\u003cp\u003eURLMap dispatches in such a way that the longest paths are tried\n   first, since they are most specific.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.URLMap",
           "name": "URLMap",
           "package": "hack-contrib",
@@ -2367,6 +2580,7 @@
         "index": {
           "description": "Stolen from rack Rack URLMap takes hash mapping urls or paths to apps and dispatches accordingly URLMap modifies the SCRIPT NAME and PATH INFO such that the part relevant for dispatch is in the SCRIPT NAME and the rest in the PATH INFO This should be taken care of when you need to reconstruct the URL in order to create links URLMap dispatches in such way that the longest paths are tried first since they are most specific",
           "hierarchy": "Hack Contrib Middleware URLMap",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.URLMap",
           "name": "URLMap",
           "package": "hack-contrib",
@@ -2380,6 +2594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.URLMap",
           "name": "url_map",
           "package": "hack-contrib",
@@ -2389,6 +2604,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware URLMap",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.URLMap",
           "name": "url_map",
           "normalized": "[RoutePath]-\u003eMiddleware",
@@ -2403,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.UTF8Body",
           "name": "UTF8Body",
           "package": "hack-contrib",
@@ -2411,6 +2628,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware UTF8Body",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.UTF8Body",
           "name": "UTF8Body",
           "package": "hack-contrib",
@@ -2424,6 +2642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.UTF8Body",
           "name": "utf8_body",
           "package": "hack-contrib",
@@ -2433,6 +2652,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware UTF8Body",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.UTF8Body",
           "name": "utf8_body",
           "package": "hack-contrib",
@@ -2445,6 +2665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.UserMime",
           "name": "UserMime",
           "package": "hack-contrib",
@@ -2453,6 +2674,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware UserMime",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.UserMime",
           "name": "UserMime",
           "package": "hack-contrib",
@@ -2466,6 +2688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Middleware.UserMime",
           "name": "user_mime",
           "package": "hack-contrib",
@@ -2475,6 +2698,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Middleware UserMime",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Middleware.UserMime",
           "name": "user_mime",
           "normalized": "[(String,String)]-\u003eMiddleware",
@@ -2489,6 +2713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Mime",
           "name": "Mime",
           "package": "hack-contrib",
@@ -2497,6 +2722,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Mime",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Mime",
           "name": "Mime",
           "package": "hack-contrib",
@@ -2510,6 +2736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Mime",
           "name": "lookup_mime_type",
           "package": "hack-contrib",
@@ -2519,6 +2746,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Mime",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Mime",
           "name": "lookup_mime_type",
           "normalized": "String-\u003eMaybe String",
@@ -2533,6 +2761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Mime",
           "name": "mime_types",
           "package": "hack-contrib",
@@ -2542,6 +2771,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Mime",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Mime",
           "name": "mime_types",
           "package": "hack-contrib",
@@ -2554,6 +2784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Request",
           "name": "Request",
           "package": "hack-contrib",
@@ -2562,6 +2793,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Request",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Request",
           "name": "Request",
           "package": "hack-contrib",
@@ -2575,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Request",
           "name": "body",
           "package": "hack-contrib",
@@ -2584,6 +2817,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Request",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Request",
           "name": "body",
           "normalized": "Env-\u003eByteString",
@@ -2598,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Request",
           "name": "content_charset",
           "package": "hack-contrib",
@@ -2607,6 +2842,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Request",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Request",
           "name": "content_charset",
           "normalized": "Env-\u003eString",
@@ -2621,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Request",
           "name": "content_type",
           "package": "hack-contrib",
@@ -2630,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Request",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Request",
           "name": "content_type",
           "normalized": "Env-\u003eString",
@@ -2644,6 +2882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Request",
           "name": "cookies",
           "package": "hack-contrib",
@@ -2653,6 +2892,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Request",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Request",
           "name": "cookies",
           "normalized": "Env-\u003e[(String,String)]",
@@ -2667,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Request",
           "name": "fullpath",
           "package": "hack-contrib",
@@ -2676,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Request",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Request",
           "name": "fullpath",
           "normalized": "Env-\u003eString",
@@ -2690,6 +2932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Request",
           "name": "host",
           "package": "hack-contrib",
@@ -2699,6 +2942,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Request",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Request",
           "name": "host",
           "normalized": "Env-\u003eString",
@@ -2713,6 +2957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Request",
           "name": "inputs",
           "package": "hack-contrib",
@@ -2722,6 +2967,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Request",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Request",
           "name": "inputs",
           "normalized": "Env-\u003e[(String,String)]",
@@ -2736,6 +2982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Request",
           "name": "media_type",
           "package": "hack-contrib",
@@ -2745,6 +2992,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Request",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Request",
           "name": "media_type",
           "normalized": "Env-\u003eString",
@@ -2759,6 +3007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Request",
           "name": "media_type_params",
           "package": "hack-contrib",
@@ -2768,6 +3017,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Request",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Request",
           "name": "media_type_params",
           "normalized": "Env-\u003e[(String,String)]",
@@ -2782,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Request",
           "name": "params",
           "package": "hack-contrib",
@@ -2791,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Request",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Request",
           "name": "params",
           "normalized": "Env-\u003e[(String,String)]",
@@ -2805,6 +3057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Request",
           "name": "path",
           "package": "hack-contrib",
@@ -2814,6 +3067,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Request",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Request",
           "name": "path",
           "normalized": "Env-\u003eString",
@@ -2828,6 +3082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Request",
           "name": "port",
           "package": "hack-contrib",
@@ -2837,6 +3092,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Request",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Request",
           "name": "port",
           "normalized": "Env-\u003eInt",
@@ -2851,6 +3107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Request",
           "name": "referer",
           "package": "hack-contrib",
@@ -2860,6 +3117,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Request",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Request",
           "name": "referer",
           "normalized": "Env-\u003eString",
@@ -2874,6 +3132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Request",
           "name": "scheme",
           "package": "hack-contrib",
@@ -2883,6 +3142,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Request",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Request",
           "name": "scheme",
           "normalized": "Env-\u003eString",
@@ -2897,6 +3157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Request",
           "name": "set_custom",
           "package": "hack-contrib",
@@ -2906,6 +3167,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Request",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Request",
           "name": "set_custom",
           "normalized": "String-\u003eString-\u003eEnv-\u003eEnv",
@@ -2920,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Request",
           "name": "set_http",
           "package": "hack-contrib",
@@ -2929,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Request",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Request",
           "name": "set_http",
           "normalized": "String-\u003eString-\u003eEnv-\u003eEnv",
@@ -2943,6 +3207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Request",
           "name": "url",
           "package": "hack-contrib",
@@ -2952,6 +3217,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Request",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Request",
           "name": "url",
           "normalized": "Env-\u003eString",
@@ -2966,6 +3232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Response",
           "name": "Response",
           "package": "hack-contrib",
@@ -2974,6 +3241,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Response",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Response",
           "name": "Response",
           "package": "hack-contrib",
@@ -2987,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Response",
           "name": "delete_header",
           "package": "hack-contrib",
@@ -2996,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Response",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Response",
           "name": "delete_header",
           "normalized": "String-\u003eResponse-\u003eResponse",
@@ -3010,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Response",
           "name": "finish",
           "package": "hack-contrib",
@@ -3019,6 +3290,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Response",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Response",
           "name": "finish",
           "normalized": "Response-\u003eResponse",
@@ -3033,6 +3305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Response",
           "name": "has_header",
           "package": "hack-contrib",
@@ -3042,6 +3315,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Response",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Response",
           "name": "has_header",
           "normalized": "String-\u003eResponse-\u003eBool",
@@ -3056,6 +3330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Response",
           "name": "header",
           "package": "hack-contrib",
@@ -3065,6 +3340,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Response",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Response",
           "name": "header",
           "normalized": "String-\u003eResponse-\u003eMaybe String",
@@ -3079,6 +3355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Response",
           "name": "redirect",
           "package": "hack-contrib",
@@ -3088,6 +3365,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Response",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Response",
           "name": "redirect",
           "normalized": "String-\u003eMaybe Int-\u003eResponse-\u003eResponse",
@@ -3102,6 +3380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Response",
           "name": "set_body",
           "package": "hack-contrib",
@@ -3111,6 +3390,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Response",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Response",
           "name": "set_body",
           "normalized": "ByteString-\u003eResponse-\u003eResponse",
@@ -3125,6 +3405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Response",
           "name": "set_content_length",
           "package": "hack-contrib",
@@ -3134,6 +3415,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Response",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Response",
           "name": "set_content_length",
           "normalized": "Int-\u003eResponse-\u003eResponse",
@@ -3148,6 +3430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Response",
           "name": "set_content_type",
           "package": "hack-contrib",
@@ -3157,6 +3440,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Response",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Response",
           "name": "set_content_type",
           "normalized": "String-\u003eResponse-\u003eResponse",
@@ -3171,6 +3455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Response",
           "name": "set_header",
           "package": "hack-contrib",
@@ -3180,6 +3465,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Response",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Response",
           "name": "set_header",
           "normalized": "String-\u003eString-\u003eResponse-\u003eResponse",
@@ -3194,6 +3480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Response",
           "name": "set_last_modified",
           "package": "hack-contrib",
@@ -3203,6 +3490,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Response",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Response",
           "name": "set_last_modified",
           "normalized": "String-\u003eResponse-\u003eResponse",
@@ -3217,6 +3505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Response",
           "name": "set_status",
           "package": "hack-contrib",
@@ -3226,6 +3515,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Response",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Response",
           "name": "set_status",
           "normalized": "Int-\u003eResponse-\u003eResponse",
@@ -3240,6 +3530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "Utils",
           "package": "hack-contrib",
@@ -3248,6 +3539,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "Utils",
           "package": "hack-contrib",
@@ -3261,6 +3553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "bytesize",
           "package": "hack-contrib",
@@ -3270,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "bytesize",
           "normalized": "ByteString-\u003eInt",
@@ -3284,6 +3578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "custom",
           "package": "hack-contrib",
@@ -3293,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "custom",
           "normalized": "Env-\u003e[(String,String)]",
@@ -3307,6 +3603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "dummy_app",
           "package": "hack-contrib",
@@ -3316,6 +3613,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "dummy_app",
           "package": "hack-contrib",
@@ -3328,6 +3626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "dummy_middleware",
           "package": "hack-contrib",
@@ -3337,6 +3636,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "dummy_middleware",
           "package": "hack-contrib",
@@ -3349,6 +3649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "empty_app",
           "package": "hack-contrib",
@@ -3358,6 +3659,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "empty_app",
           "package": "hack-contrib",
@@ -3370,6 +3672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "escape_html",
           "package": "hack-contrib",
@@ -3379,6 +3682,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "escape_html",
           "normalized": "String-\u003eString",
@@ -3393,6 +3697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "escape_uri",
           "package": "hack-contrib",
@@ -3402,6 +3707,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "escape_uri",
           "normalized": "String-\u003eString",
@@ -3416,6 +3722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "format_time",
           "package": "hack-contrib",
@@ -3425,6 +3732,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "format_time",
           "normalized": "String-\u003eUTCTime-\u003eString",
@@ -3439,6 +3747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "get",
           "package": "hack-contrib",
@@ -3448,6 +3757,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "get",
           "normalized": "String-\u003e[(String,String)]-\u003eMaybe String",
@@ -3462,6 +3772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "hack_errors",
           "package": "hack-contrib",
@@ -3471,6 +3782,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "hack_errors",
           "normalized": "Env-\u003eHackErrors",
@@ -3485,6 +3797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "hack_input",
           "package": "hack-contrib",
@@ -3494,6 +3807,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "hack_input",
           "normalized": "Env-\u003eByteString",
@@ -3508,6 +3822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "hack_url_scheme",
           "package": "hack-contrib",
@@ -3517,6 +3832,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "hack_url_scheme",
           "normalized": "Env-\u003eHack_UrlScheme",
@@ -3531,6 +3847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "hack_version",
           "package": "hack-contrib",
@@ -3540,6 +3857,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "hack_version",
           "normalized": "Env-\u003e[Int]",
@@ -3554,6 +3872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "httpdate",
           "package": "hack-contrib",
@@ -3563,6 +3882,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "httpdate",
           "normalized": "UTCTime-\u003eString",
@@ -3577,6 +3897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "now",
           "package": "hack-contrib",
@@ -3586,6 +3907,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "now",
           "package": "hack-contrib",
@@ -3598,6 +3920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "path_info",
           "package": "hack-contrib",
@@ -3607,6 +3930,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "path_info",
           "normalized": "Env-\u003eString",
@@ -3621,6 +3945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "put",
           "package": "hack-contrib",
@@ -3630,6 +3955,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "put",
           "normalized": "String-\u003eString-\u003e[(String,String)]-\u003e[(String,String)]",
@@ -3644,6 +3970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "query_string",
           "package": "hack-contrib",
@@ -3653,6 +3980,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "query_string",
           "normalized": "Env-\u003eString",
@@ -3667,6 +3995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "remote_host",
           "package": "hack-contrib",
@@ -3676,6 +4005,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "remote_host",
           "normalized": "Env-\u003eString",
@@ -3690,6 +4020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "request_method",
           "package": "hack-contrib",
@@ -3699,6 +4030,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "request_method",
           "normalized": "Env-\u003eRequestMethod",
@@ -3713,6 +4045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "script_name",
           "package": "hack-contrib",
@@ -3722,6 +4055,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "script_name",
           "normalized": "Env-\u003eString",
@@ -3736,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "server_name",
           "package": "hack-contrib",
@@ -3745,6 +4080,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "server_name",
           "normalized": "Env-\u003eString",
@@ -3759,6 +4095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "server_port",
           "package": "hack-contrib",
@@ -3768,6 +4105,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "server_port",
           "normalized": "Env-\u003eInt",
@@ -3782,6 +4120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "show_status_message",
           "package": "hack-contrib",
@@ -3791,6 +4130,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "show_status_message",
           "normalized": "Int-\u003eMaybe String",
@@ -3805,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "unescape_uri",
           "package": "hack-contrib",
@@ -3814,6 +4155,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "unescape_uri",
           "normalized": "String-\u003eString",
@@ -3829,6 +4171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eusage: app.use [content_type, cache]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:25:01 UTC 2014",
           "module": "Hack.Contrib.Utils",
           "name": "use",
           "package": "hack-contrib",
@@ -3839,6 +4182,7 @@
         "index": {
           "description": "usage app.use content type cache",
           "hierarchy": "Hack Contrib Utils",
+          "indexed": "2014-03-11T18:25:01",
           "module": "Hack.Contrib.Utils",
           "name": "use",
           "normalized": "[Middleware]-\u003eMiddleware",

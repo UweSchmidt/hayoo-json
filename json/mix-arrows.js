@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mix-arrows"
+        "phrase": "mix-arrows",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Category",
           "name": "Category",
           "package": "mix-arrows",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Mix Category",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Category",
           "name": "Category",
           "package": "mix-arrows",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRefined arrow morphism\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Category",
           "name": ":~~\u003e",
           "package": "mix-arrows",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Refined arrow morphism",
           "hierarchy": "Control Arrow Mix Category",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Category",
           "name": ":~~\u003e",
           "package": "mix-arrows",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArrow morphism\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Category",
           "name": ":~\u003e",
           "package": "mix-arrows",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Arrow morphism",
           "hierarchy": "Control Arrow Mix Category",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Category",
           "name": ":~\u003e",
           "package": "mix-arrows",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclarations like \u003ccode\u003einstance Monad m =\u003e Functor m\u003c/code\u003e don't work well in Haskell. That's why we need a newtype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Category",
           "name": ":$~",
           "package": "mix-arrows",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Declarations like instance Monad Functor don work well in Haskell That why we need newtype",
           "hierarchy": "Control Arrow Mix Category",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Category",
           "name": ":$~",
           "package": "mix-arrows",
@@ -106,6 +114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSomething like a functor - again, for arrows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Category",
           "name": "AlFunctor",
           "package": "mix-arrows",
@@ -115,6 +124,7 @@
         "index": {
           "description": "Something like functor again for arrows",
           "hierarchy": "Control Arrow Mix Category",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Category",
           "name": "AlFunctor",
           "package": "mix-arrows",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSomething like a monad - but for arrows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Category",
           "name": "AlMonad",
           "package": "mix-arrows",
@@ -138,6 +149,7 @@
         "index": {
           "description": "Something like monad but for arrows",
           "hierarchy": "Control Arrow Mix Category",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Category",
           "name": "AlMonad",
           "package": "mix-arrows",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSometimes we need to refine our morphism a bit; therefore, we use \u003ccode\u003eAlong f i o\u003c/code\u003e instead of just \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Category",
           "name": "Along",
           "package": "mix-arrows",
@@ -161,6 +174,7 @@
         "index": {
           "description": "Sometimes we need to refine our morphism bit therefore we use Along instead of just",
           "hierarchy": "Control Arrow Mix Category",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Category",
           "name": "Along",
           "package": "mix-arrows",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust a trick to avoid specifying rank explicitly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Category",
           "name": "OhNo",
           "package": "mix-arrows",
@@ -184,6 +199,7 @@
         "index": {
           "description": "Just trick to avoid specifying rank explicitly",
           "hierarchy": "Control Arrow Mix Category",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Category",
           "name": "OhNo",
           "package": "mix-arrows",
@@ -198,6 +214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMost of time we don't need refined morphisms. That's why we would want a simpler combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Category",
           "name": "(~\u003e\u003e=)",
           "package": "mix-arrows",
@@ -208,6 +225,7 @@
         "index": {
           "description": "Most of time we don need refined morphisms That why we would want simpler combinator",
           "hierarchy": "Control Arrow Mix Category",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Category",
           "name": "(~\u003e\u003e=) ~\u003e\u003e=",
           "normalized": "a b c d-\u003e(Along b c d Along(a e)c d)-\u003ea e c d",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Category",
           "name": "Apply",
           "package": "mix-arrows",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Mix Category",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Category",
           "name": "Apply",
           "package": "mix-arrows",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Category",
           "name": "alLift",
           "package": "mix-arrows",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Mix Category",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Category",
           "name": "alLift",
           "normalized": "(Along a b c Along(d e)b c)-\u003ed a b c-\u003ed e b c",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Category",
           "name": "alMap",
           "package": "mix-arrows",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Mix Category",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Category",
           "name": "alMap",
           "normalized": "(Along a b c Along d b c)-\u003ee a b c-\u003ee d b c",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Category",
           "name": "alRet",
           "package": "mix-arrows",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Mix Category",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Category",
           "name": "alRet",
           "package": "mix-arrows",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Category",
           "name": "runApply",
           "package": "mix-arrows",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Mix Category",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Category",
           "name": "runApply",
           "package": "mix-arrows",
@@ -337,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious ways of shuffling input and output components. Function types are mostly autogenerated.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "Utilities",
           "package": "mix-arrows",
@@ -346,6 +375,7 @@
         "index": {
           "description": "Various ways of shuffling input and output components Function types are mostly autogenerated",
           "hierarchy": "Control Arrow Mix Utilities",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "Utilities",
           "package": "mix-arrows",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "(-\u003e\u003e)",
           "package": "mix-arrows",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Mix Utilities",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "(-\u003e\u003e) -\u003e\u003e",
           "normalized": "a(b,c)(d,e)-\u003ea(b,e)(d,f)-\u003ea(b,(b,c))(d,(d,f))",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "arrAssocLtoR",
           "package": "mix-arrows",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Mix Utilities",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "arrAssocLtoR",
           "normalized": "a((b,b),b)((b,b),b)-\u003ea(b,(b,b))(b,(b,b))",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "arrAssocRtoL",
           "package": "mix-arrows",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Mix Utilities",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "arrAssocRtoL",
           "normalized": "a(b,(b,b))(b,(b,b))-\u003ea((b,b),b)((b,b),b)",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "arrCancelUnit",
           "package": "mix-arrows",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Mix Utilities",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "arrCancelUnit",
           "normalized": "a(b,())(c,())-\u003ea b c",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "arrSwap",
           "package": "mix-arrows",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Mix Utilities",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "arrSwap",
           "normalized": "a(b,b)(b,b)-\u003ea(b,b)(b,b)",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "arrTwist",
           "package": "mix-arrows",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Mix Utilities",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "arrTwist",
           "normalized": "a(b,(b,b))(b,(b,b))-\u003ea(b,(b,b))(b,(b,b))",
@@ -502,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "arrUnpack",
           "package": "mix-arrows",
@@ -511,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Mix Utilities",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "arrUnpack",
           "normalized": "a(Either(b,c)(b,d))(Either(e,f)(e,d))-\u003ea(b,Either c d)(e,Either f d)",
@@ -526,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "assocLtoR",
           "package": "mix-arrows",
@@ -535,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Mix Utilities",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "assocLtoR",
           "normalized": "((a,a),a)-\u003e(a,(a,a))",
@@ -550,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "assocRtoL",
           "package": "mix-arrows",
@@ -559,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Mix Utilities",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "assocRtoL",
           "normalized": "(a,(a,a))-\u003e((a,a),a)",
@@ -574,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "pack",
           "package": "mix-arrows",
@@ -583,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Mix Utilities",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "pack",
           "normalized": "Either(a,b)(a,c)-\u003e(a,Either b c)",
@@ -597,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "swap",
           "package": "mix-arrows",
@@ -606,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Mix Utilities",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "swap",
           "normalized": "(a,a)-\u003e(a,a)",
@@ -620,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "twist",
           "package": "mix-arrows",
@@ -629,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Mix Utilities",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "twist",
           "normalized": "(a,(a,a))-\u003e(a,(a,a))",
@@ -643,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "unpack",
           "package": "mix-arrows",
@@ -652,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Mix Utilities",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix.Utilities",
           "name": "unpack",
           "normalized": "(a,Either b c)-\u003eEither(a,b)(a,c)",
@@ -667,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWe try to mix effects of two completely unrelated arrows \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e, where \u003ccode\u003eb\u003c/code\u003e is considered pure, and \u003ccode\u003ea\u003c/code\u003e &#8212; impure. Probably the most common use case would be \u003ccode\u003ea = Kleisli IO\u003c/code\u003e. We perform all the pure calculations first, and do the impure ones later.\n\u003c/p\u003e\u003cp\u003eUsage example:\n\u003c/p\u003e\u003cpre\u003enewtype Test input output = Test {runTest :: (Kleisli IO :+ Kleisli (State String)) input output}\n    deriving (Category, Arrow, ArrowChoice, ArrowLoop)\n\nrunStateMorphism :: s -\u003e Kleisli (State s) :~\u003e (-\u003e)\nrunStateMorphism s al input = evalState (runKleisli al input) s\nexecTest :: Test input output -\u003e input -\u003e IO output\nexecTest t = runKleisli $ unPlus $ alMap (runStateMorphism \"\") $ runTest t\n\nrd = Test {runTest = liftImpure $ Kleisli $ const getLine}\nwr = Test {runTest = liftImpure $ Kleisli putStrLn}\ngt = Test {runTest = liftPure $ Kleisli $ const get}\npt = Test {runTest = liftPure $ Kleisli put}\n\ntest =\n    proc () -\u003e\n        do line \u003c- rd -\u003c ()  -- effect from IO\n           pt -\u003c line        -- effect from State\n           line' \u003c- gt -\u003c () -- effect from State\n           wr -\u003c line'       -- effect from IO\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix",
           "name": "Mix",
           "package": "mix-arrows",
@@ -676,6 +733,7 @@
         "index": {
           "description": "We try to mix effects of two completely unrelated arrows and where is considered pure and impure Probably the most common use case would be Kleisli IO We perform all the pure calculations first and do the impure ones later Usage example newtype Test input output Test runTest Kleisli IO Kleisli State String input output deriving Category Arrow ArrowChoice ArrowLoop runStateMorphism Kleisli State runStateMorphism al input evalState runKleisli al input execTest Test input output input IO output execTest runKleisli unPlus alMap runStateMorphism runTest rd Test runTest liftImpure Kleisli const getLine wr Test runTest liftImpure Kleisli putStrLn gt Test runTest liftPure Kleisli const get pt Test runTest liftPure Kleisli put test proc do line rd effect from IO pt line effect from State line gt effect from State wr line effect from IO",
           "hierarchy": "Control Arrow Mix",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix",
           "name": "Mix",
           "package": "mix-arrows",
@@ -690,6 +748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ea :+ b\u003c/code\u003e is an arrow incapsulating both \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e effects. It's functorial (and even monadic) in \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix",
           "name": ":+",
           "package": "mix-arrows",
@@ -699,6 +758,7 @@
         "index": {
           "description": "is an arrow incapsulating both and effects It functorial and even monadic in",
           "hierarchy": "Control Arrow Mix",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix",
           "name": ":+",
           "package": "mix-arrows",
@@ -712,6 +772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe can lift impure arrows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix",
           "name": "liftImpure",
           "package": "mix-arrows",
@@ -722,6 +783,7 @@
         "index": {
           "description": "We can lift impure arrows",
           "hierarchy": "Control Arrow Mix",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix",
           "name": "liftImpure",
           "package": "mix-arrows",
@@ -736,6 +798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePure arrows can be lifted too\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix",
           "name": "liftPure",
           "package": "mix-arrows",
@@ -746,6 +809,7 @@
         "index": {
           "description": "Pure arrows can be lifted too",
           "hierarchy": "Control Arrow Mix",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix",
           "name": "liftPure",
           "package": "mix-arrows",
@@ -760,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(:+) is also associative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix",
           "name": "plusAssoc",
           "package": "mix-arrows",
@@ -770,6 +835,7 @@
         "index": {
           "description": "is also associative",
           "hierarchy": "Control Arrow Mix",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix",
           "name": "plusAssoc",
           "package": "mix-arrows",
@@ -784,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis function is experimental - no idea about how this would interact with other arrow combinators and functions defined in this module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix",
           "name": "plusCommute",
           "package": "mix-arrows",
@@ -794,6 +861,7 @@
         "index": {
           "description": "this function is experimental no idea about how this would interact with other arrow combinators and functions defined in this module",
           "hierarchy": "Control Arrow Mix",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix",
           "name": "plusCommute",
           "package": "mix-arrows",
@@ -808,6 +876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(:+) is right commutative-associative: a :+ (b :+ c) and b :+ (a :+ c) can be reduced to one another with \u003ccode\u003eplusTwist\u003c/code\u003e function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix",
           "name": "plusTwist",
           "package": "mix-arrows",
@@ -818,6 +887,7 @@
         "index": {
           "description": "is right commutative-associative and can be reduced to one another with plusTwist function",
           "hierarchy": "Control Arrow Mix",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix",
           "name": "plusTwist",
           "package": "mix-arrows",
@@ -832,6 +902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe need some way to extract the real computation from this \u003ccode\u003e:+\u003c/code\u003e; fortunately, if we manage to reduce the pure arrow to a function (using \u003ccode\u003ealMap\u003c/code\u003e), we can reduce the type \u003ccode\u003ea :+ (-\u003e)\u003c/code\u003e to \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix",
           "name": "unPlus",
           "package": "mix-arrows",
@@ -842,6 +913,7 @@
         "index": {
           "description": "We need some way to extract the real computation from this fortunately if we manage to reduce the pure arrow to function using alMap we can reduce the type to",
           "hierarchy": "Control Arrow Mix",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix",
           "name": "unPlus",
           "normalized": "(a(-\u003e))a",
@@ -858,6 +930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf, for some reason, the \"pure\" arrow is, in fact, as impure as the \"impure\" one, we still can extract the real computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:38 UTC 2014",
           "module": "Control.Arrow.Mix",
           "name": "unPlus'",
           "package": "mix-arrows",
@@ -868,6 +941,7 @@
         "index": {
           "description": "If for some reason the pure arrow is in fact as impure as the impure one we still can extract the real computation",
           "hierarchy": "Control Arrow Mix",
+          "indexed": "2014-03-11T19:18:38",
           "module": "Control.Arrow.Mix",
           "name": "unPlus'",
           "package": "mix-arrows",

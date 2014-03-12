@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Paraiso"
+        "phrase": "Paraiso",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn \u003ccode\u003eAnnotation\u003c/code\u003e that selects whether the data should be \n stored globally on memory or to be calculated.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Allocation",
           "name": "Allocation",
           "package": "Paraiso",
@@ -28,6 +29,7 @@
         "index": {
           "description": "An Annotation that selects whether the data should be stored globally on memory or to be calculated",
           "hierarchy": "Language Paraiso Annotation Allocation",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Allocation",
           "name": "Allocation",
           "package": "Paraiso",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Allocation",
           "name": "Allocation",
           "package": "Paraiso",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Allocation",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Allocation",
           "name": "Allocation",
           "package": "Paraiso",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Allocation",
           "name": "AllocationChoice",
           "package": "Paraiso",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Allocation",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Allocation",
           "name": "AllocationChoice",
           "package": "Paraiso",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Allocation",
           "name": "AllocationChoice",
           "package": "Paraiso",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Allocation",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Allocation",
           "name": "AllocationChoice",
           "normalized": "AllocationChoice[Allocation]",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo not allocate, re-compute it whenever if needed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Allocation",
           "name": "Delayed",
           "package": "Paraiso",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Do not allocate re-compute it whenever if needed",
           "hierarchy": "Language Paraiso Annotation Allocation",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Allocation",
           "name": "Delayed",
           "package": "Paraiso",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis entity is already allocated as a static variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Allocation",
           "name": "Existing",
           "package": "Paraiso",
@@ -142,6 +153,7 @@
         "index": {
           "description": "This entity is already allocated as static variable",
           "hierarchy": "Language Paraiso Annotation Allocation",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Allocation",
           "name": "Existing",
           "package": "Paraiso",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate additional memory for this entity. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Allocation",
           "name": "Manifest",
           "package": "Paraiso",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Allocate additional memory for this entity",
           "hierarchy": "Language Paraiso Annotation Allocation",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Allocation",
           "name": "Manifest",
           "package": "Paraiso",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn \u003ccode\u003eAnnotation\u003c/code\u003e that sets the execution priority of the \n statements. Statements with \u003ccode\u003eBallon\u003c/code\u003es will be allocated\n as fast as possible, and statements with negative ballons, \n or \u003ccode\u003eStone\u003c/code\u003es, will be allocated as later as possible.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Balloon",
           "name": "Balloon",
           "package": "Paraiso",
@@ -189,6 +204,7 @@
         "index": {
           "description": "An Annotation that sets the execution priority of the statements Statements with Ballon will be allocated as fast as possible and statements with negative ballons or Stone will be allocated as later as possible",
           "hierarchy": "Language Paraiso Annotation Balloon",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Balloon",
           "name": "Balloon",
           "package": "Paraiso",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Balloon",
           "name": "Balloon",
           "package": "Paraiso",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Balloon",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Balloon",
           "name": "Balloon",
           "package": "Paraiso",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Balloon",
           "name": "Balloon",
           "package": "Paraiso",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Balloon",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Balloon",
           "name": "Balloon",
           "package": "Paraiso",
@@ -246,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ecalculate the \u003ccode\u003e\u003ca\u003eValid\u003c/a\u003e\u003c/code\u003e regions for each \u003ccode\u003eOrthotope\u003c/code\u003e value \n   where all information needed to update \n   the region is available.\n   also annotates the global boundary condition.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "Boundary",
           "package": "Paraiso",
@@ -255,6 +276,7 @@
         "index": {
           "description": "calculate the Valid regions for each Orthotope value where all information needed to update the region is available also annotates the global boundary condition",
           "hierarchy": "Language Paraiso Annotation Boundary",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "Boundary",
           "package": "Paraiso",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype for global boundary conditions                       \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "Condition",
           "package": "Paraiso",
@@ -278,6 +301,7 @@
         "index": {
           "description": "type for global boundary conditions",
           "hierarchy": "Language Paraiso Annotation Boundary",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "Condition",
           "package": "Paraiso",
@@ -292,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe displacement around either side of the boundary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "NearBoundary",
           "package": "Paraiso",
@@ -301,6 +326,7 @@
         "index": {
           "description": "the displacement around either side of the boundary",
           "hierarchy": "Language Paraiso Annotation Boundary",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "NearBoundary",
           "package": "Paraiso",
@@ -315,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea type that represents valid region of computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "Valid",
           "package": "Paraiso",
@@ -324,6 +351,7 @@
         "index": {
           "description": "type that represents valid region of computation",
           "hierarchy": "Language Paraiso Annotation Boundary",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "Valid",
           "package": "Paraiso",
@@ -338,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecyclic boundary; data out of the bounds are copied from the other side\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "Cyclic",
           "package": "Paraiso",
@@ -348,6 +377,7 @@
         "index": {
           "description": "cyclic boundary data out of the bounds are copied from the other side",
           "hierarchy": "Language Paraiso Annotation Boundary",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "Cyclic",
           "package": "Paraiso",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "LowerBoundary",
           "package": "Paraiso",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Boundary",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "LowerBoundary",
           "package": "Paraiso",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "NegaInfinity",
           "package": "Paraiso",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Boundary",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "NegaInfinity",
           "package": "Paraiso",
@@ -406,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eopen boundary; do not touch anything\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "Open",
           "package": "Paraiso",
@@ -416,6 +451,7 @@
         "index": {
           "description": "open boundary do not touch anything",
           "hierarchy": "Language Paraiso Annotation Boundary",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "Open",
           "package": "Paraiso",
@@ -429,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "PosiInfinity",
           "package": "Paraiso",
@@ -438,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Boundary",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "PosiInfinity",
           "package": "Paraiso",
@@ -451,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "UpperBoundary",
           "package": "Paraiso",
@@ -460,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Boundary",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "UpperBoundary",
           "package": "Paraiso",
@@ -473,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "Valid",
           "package": "Paraiso",
@@ -482,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Boundary",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Boundary",
           "name": "Valid",
           "normalized": "Valid[Interval(NearBoundary a)]",
@@ -498,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn effectless \u003ccode\u003eAnnotation\u003c/code\u003e with a comment \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Comment",
           "name": "Comment",
           "package": "Paraiso",
@@ -507,6 +550,7 @@
         "index": {
           "description": "An effectless Annotation with comment",
           "hierarchy": "Language Paraiso Annotation Comment",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Comment",
           "name": "Comment",
           "package": "Paraiso",
@@ -520,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Comment",
           "name": "Comment",
           "package": "Paraiso",
@@ -528,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Comment",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Comment",
           "name": "Comment",
           "package": "Paraiso",
@@ -541,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Comment",
           "name": "Comment",
           "package": "Paraiso",
@@ -550,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Comment",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Comment",
           "name": "Comment",
           "package": "Paraiso",
@@ -564,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn \u003ccode\u003eAnnotation\u003c/code\u003e that describes the dependency of the nodes\n and labels certain group of Manifest nodes\n that can safely be accessed simultaneously\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "Dependency",
           "package": "Paraiso",
@@ -573,6 +622,7 @@
         "index": {
           "description": "An Annotation that describes the dependency of the nodes and labels certain group of Manifest nodes that can safely be accessed simultaneously",
           "hierarchy": "Language Paraiso Annotation Dependency",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "Dependency",
           "package": "Paraiso",
@@ -587,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of All nodes that this node directly depends on.\n Y directly depends on X if you need to calculate X in subroutine you calculate Y\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "Calc",
           "package": "Paraiso",
@@ -596,6 +647,7 @@
         "index": {
           "description": "The list of All nodes that this node directly depends on directly depends on if you need to calculate in subroutine you calculate",
           "hierarchy": "Language Paraiso Annotation Dependency",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "Calc",
           "package": "Paraiso",
@@ -610,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of Manifest or Existing nodes that this node directly depends on.\n Y directly depends on X if you need to read X in subroutine you calculate Y\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "Direct",
           "package": "Paraiso",
@@ -619,6 +672,7 @@
         "index": {
           "description": "The list of Manifest or Existing nodes that this node directly depends on directly depends on if you need to read in subroutine you calculate",
           "hierarchy": "Language Paraiso Annotation Dependency",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "Direct",
           "package": "Paraiso",
@@ -633,6 +687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of Manifest or Existing nodes that this node indirectly depends on.\n Y indirectly depends on X if you need to calculate X before you calculace Y\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "Indirect",
           "package": "Paraiso",
@@ -642,6 +697,7 @@
         "index": {
           "description": "The list of Manifest or Existing nodes that this node indirectly depends on indirectly depends on if you need to calculate before you calculace",
           "hierarchy": "Language Paraiso Annotation Dependency",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "Indirect",
           "package": "Paraiso",
@@ -656,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite grouping, continuously numbered from [0 ..] .\n The numbering starts from 0 for each kerenel in a Orthotope Machine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "KernelWriteGroup",
           "package": "Paraiso",
@@ -665,6 +722,7 @@
         "index": {
           "description": "Write grouping continuously numbered from The numbering starts from for each kerenel in Orthotope Machine",
           "hierarchy": "Language Paraiso Annotation Dependency",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "KernelWriteGroup",
           "package": "Paraiso",
@@ -679,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite grouping, continuously numbered from [0 ..] .\n The numbering is unique in one Orthotope Machine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "OMWriteGroup",
           "package": "Paraiso",
@@ -688,6 +747,7 @@
         "index": {
           "description": "Write grouping continuously numbered from The numbering is unique in one Orthotope Machine",
           "hierarchy": "Language Paraiso Annotation Dependency",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "OMWriteGroup",
           "package": "Paraiso",
@@ -701,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "Calc",
           "package": "Paraiso",
@@ -710,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Dependency",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "Calc",
           "package": "Paraiso",
@@ -723,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "Direct",
           "package": "Paraiso",
@@ -732,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Dependency",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "Direct",
           "normalized": "Direct[Node]",
@@ -747,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "Indirect",
           "package": "Paraiso",
@@ -756,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Dependency",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "Indirect",
           "normalized": "Indirect[Node]",
@@ -771,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "KernelWriteGroup",
           "package": "Paraiso",
@@ -780,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Dependency",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "KernelWriteGroup",
           "package": "Paraiso",
@@ -793,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "OMWriteGroup",
           "package": "Paraiso",
@@ -802,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Dependency",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "OMWriteGroup",
           "package": "Paraiso",
@@ -815,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "getKernelGroupID",
           "package": "Paraiso",
@@ -824,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Dependency",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "getKernelGroupID",
           "package": "Paraiso",
@@ -837,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "getOMGroupID",
           "package": "Paraiso",
@@ -846,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Dependency",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Dependency",
           "name": "getOMGroupID",
           "package": "Paraiso",
@@ -860,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn effectless \u003ccode\u003eAnnotation\u003c/code\u003e with a comment \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Execution",
           "name": "Execution",
           "package": "Paraiso",
@@ -869,6 +944,7 @@
         "index": {
           "description": "An effectless Annotation with comment",
           "hierarchy": "Language Paraiso Annotation Execution",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Execution",
           "name": "Execution",
           "package": "Paraiso",
@@ -883,6 +959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused in dead code elimination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Execution",
           "name": "Alive",
           "package": "Paraiso",
@@ -892,6 +969,7 @@
         "index": {
           "description": "used in dead code elimination",
           "hierarchy": "Language Paraiso Annotation Execution",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Execution",
           "name": "Alive",
           "package": "Paraiso",
@@ -905,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.Execution",
           "name": "Alive",
           "package": "Paraiso",
@@ -914,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation Execution",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.Execution",
           "name": "Alive",
           "package": "Paraiso",
@@ -928,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn \u003ccode\u003eAnnotation\u003c/code\u003e that lets you call __syncthreads() before\n or after a statement.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.SyncThreads",
           "name": "SyncThreads",
           "package": "Paraiso",
@@ -937,6 +1018,7 @@
         "index": {
           "description": "An Annotation that lets you call syncthreads before or after statement",
           "hierarchy": "Language Paraiso Annotation SyncThreads",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.SyncThreads",
           "name": "SyncThreads",
           "package": "Paraiso",
@@ -950,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.SyncThreads",
           "name": "Timing",
           "package": "Paraiso",
@@ -958,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation SyncThreads",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.SyncThreads",
           "name": "Timing",
           "package": "Paraiso",
@@ -971,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.SyncThreads",
           "name": "Post",
           "package": "Paraiso",
@@ -980,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation SyncThreads",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.SyncThreads",
           "name": "Post",
           "package": "Paraiso",
@@ -993,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation.SyncThreads",
           "name": "Pre",
           "package": "Paraiso",
@@ -1002,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation SyncThreads",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation.SyncThreads",
           "name": "Pre",
           "package": "Paraiso",
@@ -1016,6 +1104,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e is a collection of \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003es \n with which you can annotate each OM node.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation",
           "name": "Annotation",
           "package": "Paraiso",
@@ -1025,6 +1114,7 @@
         "index": {
           "description": "Annotation is collection of Typeable with which you can annotate each OM node",
           "hierarchy": "Language Paraiso Annotation",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation",
           "name": "Annotation",
           "package": "Paraiso",
@@ -1038,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation",
           "name": "Annotation",
           "package": "Paraiso",
@@ -1046,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Annotation",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation",
           "name": "Annotation",
           "package": "Paraiso",
@@ -1060,6 +1152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an annotation to a collection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation",
           "name": "add",
           "package": "Paraiso",
@@ -1070,6 +1163,7 @@
         "index": {
           "description": "Add an annotation to collection",
           "hierarchy": "Language Paraiso Annotation",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation",
           "name": "add",
           "normalized": "a-\u003eAnnotation-\u003eAnnotation",
@@ -1085,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty collection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation",
           "name": "empty",
           "package": "Paraiso",
@@ -1095,6 +1190,7 @@
         "index": {
           "description": "An empty collection",
           "hierarchy": "Language Paraiso Annotation",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation",
           "name": "empty",
           "package": "Paraiso",
@@ -1108,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap all annotations of type \u003ccode\u003ea\u003c/code\u003e to type \u003ccode\u003eb\u003c/code\u003e,\n while leaving the others untouched.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation",
           "name": "map",
           "package": "Paraiso",
@@ -1118,6 +1215,7 @@
         "index": {
           "description": "Map all annotations of type to type while leaving the others untouched",
           "hierarchy": "Language Paraiso Annotation",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eAnnotation-\u003eAnnotation",
@@ -1133,6 +1231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all elements of type \u003ccode\u003ea\u003c/code\u003e from the collection, and\n   set \u003ccode\u003ex\u003c/code\u003e as the only member of the type in the collection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation",
           "name": "set",
           "package": "Paraiso",
@@ -1143,6 +1242,7 @@
         "index": {
           "description": "Remove all elements of type from the collection and set as the only member of the type in the collection",
           "hierarchy": "Language Paraiso Annotation",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation",
           "name": "set",
           "normalized": "a-\u003eAnnotation-\u003eAnnotation",
@@ -1158,6 +1258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract all annotations of type \u003ccode\u003ea\u003c/code\u003e from \n the collection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation",
           "name": "toList",
           "package": "Paraiso",
@@ -1168,6 +1269,7 @@
         "index": {
           "description": "Extract all annotations of type from the collection",
           "hierarchy": "Language Paraiso Annotation",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation",
           "name": "toList",
           "normalized": "Annotation-\u003e[a]",
@@ -1184,6 +1286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the first annotation of the given type,\n if it exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation",
           "name": "toMaybe",
           "package": "Paraiso",
@@ -1194,6 +1297,7 @@
         "index": {
           "description": "Extract the first annotation of the given type if it exists",
           "hierarchy": "Language Paraiso Annotation",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation",
           "name": "toMaybe",
           "normalized": "Annotation-\u003eMaybe a",
@@ -1210,6 +1314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset \u003ccode\u003ex\u003c/code\u003e as the only member of the type in the collection,\n only if no annotation of the same type pre-exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Annotation",
           "name": "weakSet",
           "package": "Paraiso",
@@ -1220,6 +1325,7 @@
         "index": {
           "description": "set as the only member of the type in the collection only if no annotation of the same type pre-exists",
           "hierarchy": "Language Paraiso Annotation",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Annotation",
           "name": "weakSet",
           "normalized": "a-\u003eAnnotation-\u003eAnnotation",
@@ -1236,6 +1342,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ea module for handling failure\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Failure",
           "name": "Failure",
           "package": "Paraiso",
@@ -1245,6 +1352,7 @@
         "index": {
           "description": "module for handling failure",
           "hierarchy": "Language Paraiso Failure",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Failure",
           "name": "Failure",
           "package": "Paraiso",
@@ -1258,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Failure",
           "name": "unsafePerformFailure",
           "package": "Paraiso",
@@ -1267,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Failure",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Failure",
           "name": "unsafePerformFailure",
           "normalized": "IO a-\u003ea",
@@ -1283,6 +1393,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003eCLARIS\u003c/dt\u003e\u003cdd\u003e C++-Like Abstract Representation of Intermediate Syntax.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eClaris connects the higher-level concepts to native languages with\n  capability to describe C++ syntax such as classes and\n  containers. Claris also have support for extension made by\n  C++-like languages such as CUDA qualifier and kernel call.\n\u003c/p\u003e\u003cp\u003eThe design goal of Claris is to cover the necessity of the code\n generation and to make it simple. Claris is not designed for\n syntatic correctness, and it's possible to describe a Claris code\n that will cause a compile error in C++.\n\u003c/p\u003e\u003cp\u003eIn Claris, variables, functions and classes are described in a\n unified manner that supports both the declaration and definition.\n From that information, the declarations and definitions are\n generated at appropriate places.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Claris",
           "package": "Paraiso",
@@ -1292,6 +1403,7 @@
         "index": {
           "description": "CLARIS Like Abstract Representation of Intermediate Syntax Claris connects the higher-level concepts to native languages with capability to describe syntax such as classes and containers Claris also have support for extension made by like languages such as CUDA qualifier and kernel call The design goal of Claris is to cover the necessity of the code generation and to make it simple Claris is not designed for syntatic correctness and it possible to describe Claris code that will cause compile error in In Claris variables functions and classes are described in unified manner that supports both the declaration and definition From that information the declarations and definitions are generated at appropriate places",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Claris",
           "package": "Paraiso",
@@ -1306,6 +1418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eC++ class member access modifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "AccessModifier",
           "package": "Paraiso",
@@ -1315,6 +1428,7 @@
         "index": {
           "description": "class member access modifier",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "AccessModifier",
           "package": "Paraiso",
@@ -1329,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eC++ class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Class",
           "package": "Paraiso",
@@ -1338,6 +1453,7 @@
         "index": {
           "description": "class",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Class",
           "package": "Paraiso",
@@ -1352,6 +1468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eC++ Expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Expr",
           "package": "Paraiso",
@@ -1361,6 +1478,7 @@
         "index": {
           "description": "Expression",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Expr",
           "package": "Paraiso",
@@ -1375,6 +1493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eC++ class descriptions are separated to two files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "FileType",
           "package": "Paraiso",
@@ -1384,6 +1503,7 @@
         "index": {
           "description": "class descriptions are separated to two files",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "FileType",
           "package": "Paraiso",
@@ -1398,6 +1518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eC++ syntax for variable definition\n\u003c/p\u003e\u003cp\u003eC++ function definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Function",
           "package": "Paraiso",
@@ -1407,6 +1528,7 @@
         "index": {
           "description": "syntax for variable definition function definition",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Function",
           "package": "Paraiso",
@@ -1421,6 +1543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eC++ class member definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "MemberDef",
           "package": "Paraiso",
@@ -1430,6 +1553,7 @@
         "index": {
           "description": "class member definition",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "MemberDef",
           "package": "Paraiso",
@@ -1444,6 +1568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparentheses used in C++\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Parenthesis",
           "package": "Paraiso",
@@ -1453,6 +1578,7 @@
         "index": {
           "description": "parentheses used in",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Parenthesis",
           "package": "Paraiso",
@@ -1467,6 +1593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePreprocessor directive \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Preprocessing",
           "package": "Paraiso",
@@ -1476,6 +1603,7 @@
         "index": {
           "description": "Preprocessor directive",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Preprocessing",
           "package": "Paraiso",
@@ -1490,6 +1618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Claris program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Program",
           "package": "Paraiso",
@@ -1499,6 +1628,7 @@
         "index": {
           "description": "Claris program",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Program",
           "package": "Paraiso",
@@ -1513,6 +1643,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eCUDA extension\u003c/dt\u003e\u003cdd\u003e qualifiers to use accelerator\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Qualifier",
           "package": "Paraiso",
@@ -1522,6 +1653,7 @@
         "index": {
           "description": "CUDA extension qualifiers to use accelerator",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Qualifier",
           "package": "Paraiso",
@@ -1536,6 +1668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eC++ top-level statements \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Statement",
           "package": "Paraiso",
@@ -1545,6 +1678,7 @@
         "index": {
           "description": "top-level statements",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Statement",
           "package": "Paraiso",
@@ -1559,6 +1693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edescription C++ type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "TypeRep",
           "package": "Paraiso",
@@ -1568,6 +1703,7 @@
         "index": {
           "description": "description type",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "TypeRep",
           "package": "Paraiso",
@@ -1582,6 +1718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eC++ Variable definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Var",
           "package": "Paraiso",
@@ -1591,6 +1728,7 @@
         "index": {
           "description": "Variable definition",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Var",
           "package": "Paraiso",
@@ -1605,6 +1743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaccess a component of an array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "ArrayAccess",
           "package": "Paraiso",
@@ -1615,6 +1754,7 @@
         "index": {
           "description": "access component of an array",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "ArrayAccess",
           "package": "Paraiso",
@@ -1629,6 +1769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a code block\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Brace",
           "package": "Paraiso",
@@ -1639,6 +1780,7 @@
         "index": {
           "description": "create code block",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Brace",
           "package": "Paraiso",
@@ -1653,6 +1795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003earray access \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Bracket",
           "package": "Paraiso",
@@ -1663,6 +1806,7 @@
         "index": {
           "description": "array access",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Bracket",
           "package": "Paraiso",
@@ -1677,6 +1821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etepmplate type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Chevron",
           "package": "Paraiso",
@@ -1687,6 +1832,7 @@
         "index": {
           "description": "tepmplate type",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Chevron",
           "package": "Paraiso",
@@ -1701,6 +1847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enot used\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Chevron2",
           "package": "Paraiso",
@@ -1711,6 +1858,7 @@
         "index": {
           "description": "not used",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Chevron2",
           "package": "Paraiso",
@@ -1725,6 +1873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCUDA kernel call\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Chevron3",
           "package": "Paraiso",
@@ -1735,6 +1884,7 @@
         "index": {
           "description": "CUDA kernel call",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Chevron3",
           "package": "Paraiso",
@@ -1748,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Class",
           "package": "Paraiso",
@@ -1757,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Class",
           "package": "Paraiso",
@@ -1771,6 +1923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "ClassDef",
           "package": "Paraiso",
@@ -1781,6 +1934,7 @@
         "index": {
           "description": "Class definition",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "ClassDef",
           "package": "Paraiso",
@@ -1795,6 +1949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea comment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Comment",
           "package": "Paraiso",
@@ -1805,6 +1960,7 @@
         "index": {
           "description": "comment",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Comment",
           "package": "Paraiso",
@@ -1819,6 +1975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecommented expr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "CommentExpr",
           "package": "Paraiso",
@@ -1829,6 +1986,7 @@
         "index": {
           "description": "commented expr",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "CommentExpr",
           "package": "Paraiso",
@@ -1843,6 +2001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Const",
           "package": "Paraiso",
@@ -1853,6 +2012,7 @@
         "index": {
           "description": "Constant type",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Const",
           "package": "Paraiso",
@@ -1867,6 +2027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe type of mu which is returned from constructor / destructor  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "ConstructorType",
           "package": "Paraiso",
@@ -1877,6 +2038,7 @@
         "index": {
           "description": "the type of mu which is returned from constructor destructor",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "ConstructorType",
           "package": "Paraiso",
@@ -1890,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "CudaConst",
           "package": "Paraiso",
@@ -1899,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "CudaConst",
           "package": "Paraiso",
@@ -1912,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "CudaDevice",
           "package": "Paraiso",
@@ -1921,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "CudaDevice",
           "package": "Paraiso",
@@ -1935,6 +2101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecuda function call with Grid topology\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "CudaFuncCallUsr",
           "package": "Paraiso",
@@ -1945,6 +2112,7 @@
         "index": {
           "description": "cuda function call with Grid topology",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "CudaFuncCallUsr",
           "normalized": "CudaFuncCallUsr Name Expr Expr[Expr]",
@@ -1960,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "CudaGlobal",
           "package": "Paraiso",
@@ -1969,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "CudaGlobal",
           "package": "Paraiso",
@@ -1982,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "CudaHost",
           "package": "Paraiso",
@@ -1991,6 +2162,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "CudaHost",
           "package": "Paraiso",
@@ -2004,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "CudaShared",
           "package": "Paraiso",
@@ -2013,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "CudaShared",
           "package": "Paraiso",
@@ -2027,6 +2201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA statement that is included exclusively \n   in either of the file type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Exclusive",
           "package": "Paraiso",
@@ -2037,6 +2212,7 @@
         "index": {
           "description": "statement that is included exclusively in either of the file type",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Exclusive",
           "package": "Paraiso",
@@ -2051,6 +2227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebuiltin function call \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "FuncCallStd",
           "package": "Paraiso",
@@ -2061,6 +2238,7 @@
         "index": {
           "description": "builtin function call",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "FuncCallStd",
           "normalized": "FuncCallStd Text[Expr]",
@@ -2077,6 +2255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euser function call\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "FuncCallUsr",
           "package": "Paraiso",
@@ -2087,6 +2266,7 @@
         "index": {
           "description": "user function call",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "FuncCallUsr",
           "normalized": "FuncCallUsr Name[Expr]",
@@ -2103,6 +2283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "FuncDef",
           "package": "Paraiso",
@@ -2113,6 +2294,7 @@
         "index": {
           "description": "Function definition",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "FuncDef",
           "package": "Paraiso",
@@ -2126,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Function",
           "package": "Paraiso",
@@ -2135,6 +2318,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Function",
           "package": "Paraiso",
@@ -2148,6 +2332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "HeaderFile",
           "package": "Paraiso",
@@ -2157,6 +2342,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "HeaderFile",
           "package": "Paraiso",
@@ -2171,6 +2357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean immediate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Imm",
           "package": "Paraiso",
@@ -2181,6 +2368,7 @@
         "index": {
           "description": "an immediate",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Imm",
           "package": "Paraiso",
@@ -2195,6 +2383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaccess a member of an object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "MemberAccess",
           "package": "Paraiso",
@@ -2205,6 +2394,7 @@
         "index": {
           "description": "access member of an object",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "MemberAccess",
           "package": "Paraiso",
@@ -2219,6 +2409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA member function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "MemberFunc",
           "package": "Paraiso",
@@ -2229,6 +2420,7 @@
         "index": {
           "description": "member function",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "MemberFunc",
           "package": "Paraiso",
@@ -2243,6 +2435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA member variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "MemberVar",
           "package": "Paraiso",
@@ -2253,6 +2446,7 @@
         "index": {
           "description": "member variable",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "MemberVar",
           "package": "Paraiso",
@@ -2267,6 +2461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epostfix unary operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Op1Postfix",
           "package": "Paraiso",
@@ -2277,6 +2472,7 @@
         "index": {
           "description": "postfix unary operator",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Op1Postfix",
           "package": "Paraiso",
@@ -2291,6 +2487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprefix unary operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Op1Prefix",
           "package": "Paraiso",
@@ -2301,6 +2498,7 @@
         "index": {
           "description": "prefix unary operator",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Op1Prefix",
           "package": "Paraiso",
@@ -2315,6 +2513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einfix binary operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Op2Infix",
           "package": "Paraiso",
@@ -2325,6 +2524,7 @@
         "index": {
           "description": "infix binary operator",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Op2Infix",
           "package": "Paraiso",
@@ -2339,6 +2539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esandwiched trinity operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Op3Infix",
           "package": "Paraiso",
@@ -2349,6 +2550,7 @@
         "index": {
           "description": "sandwiched trinity operator",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Op3Infix",
           "package": "Paraiso",
@@ -2363,6 +2565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexpression coupling, function call\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Paren",
           "package": "Paraiso",
@@ -2373,6 +2576,7 @@
         "index": {
           "description": "expression coupling function call",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Paren",
           "package": "Paraiso",
@@ -2386,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Private",
           "package": "Paraiso",
@@ -2395,6 +2600,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Private",
           "package": "Paraiso",
@@ -2408,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Program",
           "package": "Paraiso",
@@ -2417,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Program",
           "package": "Paraiso",
@@ -2430,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Protected",
           "package": "Paraiso",
@@ -2439,6 +2648,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Protected",
           "package": "Paraiso",
@@ -2452,6 +2662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "PrprInclude",
           "package": "Paraiso",
@@ -2461,6 +2672,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "PrprInclude",
           "package": "Paraiso",
@@ -2474,6 +2686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "PrprPragma",
           "package": "Paraiso",
@@ -2483,6 +2696,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "PrprPragma",
           "package": "Paraiso",
@@ -2497,6 +2711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePointer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "PtrOf",
           "package": "Paraiso",
@@ -2507,6 +2722,7 @@
         "index": {
           "description": "Pointer type",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "PtrOf",
           "package": "Paraiso",
@@ -2520,6 +2736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Public",
           "package": "Paraiso",
@@ -2529,6 +2746,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Public",
           "package": "Paraiso",
@@ -2543,6 +2761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQualified type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "QualifiedType",
           "package": "Paraiso",
@@ -2553,6 +2772,7 @@
         "index": {
           "description": "Qualified type",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "QualifiedType",
           "normalized": "QualifiedType[Qualifier]TypeRep",
@@ -2569,6 +2789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echaracter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Quotation",
           "package": "Paraiso",
@@ -2579,6 +2800,7 @@
         "index": {
           "description": "character",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Quotation",
           "package": "Paraiso",
@@ -2593,6 +2815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Quotation2",
           "package": "Paraiso",
@@ -2603,6 +2826,7 @@
         "index": {
           "description": "string",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Quotation2",
           "package": "Paraiso",
@@ -2617,6 +2841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etext directly embedded into source code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "RawStatement",
           "package": "Paraiso",
@@ -2627,6 +2852,7 @@
         "index": {
           "description": "text directly embedded into source code",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "RawStatement",
           "package": "Paraiso",
@@ -2641,6 +2867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "RefOf",
           "package": "Paraiso",
@@ -2651,6 +2878,7 @@
         "index": {
           "description": "Reference type",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "RefOf",
           "package": "Paraiso",
@@ -2665,6 +2893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecomment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "SlashStar",
           "package": "Paraiso",
@@ -2675,6 +2904,7 @@
         "index": {
           "description": "comment",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "SlashStar",
           "package": "Paraiso",
@@ -2688,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "SourceFile",
           "package": "Paraiso",
@@ -2697,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "SourceFile",
           "package": "Paraiso",
@@ -2711,6 +2943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "StmtExpr",
           "package": "Paraiso",
@@ -2721,6 +2954,7 @@
         "index": {
           "description": "Expression",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "StmtExpr",
           "package": "Paraiso",
@@ -2735,6 +2969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor loop\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "StmtFor",
           "package": "Paraiso",
@@ -2745,6 +2980,7 @@
         "index": {
           "description": "For loop",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "StmtFor",
           "normalized": "StmtFor Statement Expr Expr[Statement]",
@@ -2761,6 +2997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePreprosessor directive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "StmtPrpr",
           "package": "Paraiso",
@@ -2771,6 +3008,7 @@
         "index": {
           "description": "Preprosessor directive",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "StmtPrpr",
           "package": "Paraiso",
@@ -2785,6 +3023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "StmtReturn",
           "package": "Paraiso",
@@ -2795,6 +3034,7 @@
         "index": {
           "description": "return",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "StmtReturn",
           "package": "Paraiso",
@@ -2809,6 +3049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhile loop\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "StmtWhile",
           "package": "Paraiso",
@@ -2819,6 +3060,7 @@
         "index": {
           "description": "While loop",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "StmtWhile",
           "normalized": "StmtWhile Expr[Statement]",
@@ -2835,6 +3077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA template type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "TemplateType",
           "package": "Paraiso",
@@ -2845,6 +3088,7 @@
         "index": {
           "description": "template type",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "TemplateType",
           "normalized": "TemplateType Text[TypeRep]",
@@ -2861,6 +3105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes for simple objects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "UnitType",
           "package": "Paraiso",
@@ -2871,6 +3116,7 @@
         "index": {
           "description": "Types for simple objects",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "UnitType",
           "package": "Paraiso",
@@ -2885,6 +3131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe type of kuu that is detached from reincarnation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "UnknownType",
           "package": "Paraiso",
@@ -2895,6 +3142,7 @@
         "index": {
           "description": "the type of kuu that is detached from reincarnation",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "UnknownType",
           "package": "Paraiso",
@@ -2909,6 +3157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName space declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "UsingNamespace",
           "package": "Paraiso",
@@ -2919,6 +3168,7 @@
         "index": {
           "description": "Name space declaration",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "UsingNamespace",
           "package": "Paraiso",
@@ -2932,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Var",
           "package": "Paraiso",
@@ -2941,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "Var",
           "package": "Paraiso",
@@ -2955,6 +3207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable definition as an expression \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "VarDef",
           "package": "Paraiso",
@@ -2965,6 +3218,7 @@
         "index": {
           "description": "variable definition as an expression",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "VarDef",
           "package": "Paraiso",
@@ -2979,6 +3233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefine a variable and call a constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "VarDefCon",
           "package": "Paraiso",
@@ -2989,6 +3244,7 @@
         "index": {
           "description": "define variable and call constructor",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "VarDefCon",
           "normalized": "VarDefCon Var[Expr]",
@@ -3005,6 +3261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefine a variable and substitute a value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "VarDefSub",
           "package": "Paraiso",
@@ -3015,6 +3272,7 @@
         "index": {
           "description": "define variable and substitute value",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "VarDefSub",
           "package": "Paraiso",
@@ -3029,6 +3287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean expression made of a variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "VarExpr",
           "package": "Paraiso",
@@ -3039,6 +3298,7 @@
         "index": {
           "description": "an expression made of variable",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "VarExpr",
           "package": "Paraiso",
@@ -3052,6 +3312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "classMember",
           "package": "Paraiso",
@@ -3061,6 +3322,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "classMember",
           "normalized": "[MemberDef]",
@@ -3076,6 +3338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "className",
           "package": "Paraiso",
@@ -3085,6 +3348,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "className",
           "package": "Paraiso",
@@ -3098,6 +3362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "funcArgs",
           "package": "Paraiso",
@@ -3107,6 +3372,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "funcArgs",
           "normalized": "[Var]",
@@ -3122,6 +3388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "funcBody",
           "package": "Paraiso",
@@ -3131,6 +3398,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "funcBody",
           "normalized": "[Statement]",
@@ -3146,6 +3414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "funcMemberInitializer",
           "package": "Paraiso",
@@ -3155,6 +3424,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "funcMemberInitializer",
           "normalized": "[Expr]",
@@ -3170,6 +3440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "funcName",
           "package": "Paraiso",
@@ -3179,6 +3450,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "funcName",
           "package": "Paraiso",
@@ -3192,6 +3464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "funcType",
           "package": "Paraiso",
@@ -3201,6 +3474,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "funcType",
           "package": "Paraiso",
@@ -3215,6 +3489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default function maker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "function",
           "package": "Paraiso",
@@ -3225,6 +3500,7 @@
         "index": {
           "description": "default function maker",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "function",
           "normalized": "TypeRep-\u003eName-\u003eFunction",
@@ -3239,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "inlined",
           "package": "Paraiso",
@@ -3248,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "inlined",
           "package": "Paraiso",
@@ -3260,6 +3538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "memberAccess",
           "package": "Paraiso",
@@ -3269,6 +3548,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "memberAccess",
           "package": "Paraiso",
@@ -3282,6 +3562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "memberFunc",
           "package": "Paraiso",
@@ -3291,6 +3572,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "memberFunc",
           "package": "Paraiso",
@@ -3304,6 +3586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "memberVar",
           "package": "Paraiso",
@@ -3313,6 +3596,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "memberVar",
           "package": "Paraiso",
@@ -3327,6 +3611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe name of the program\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "progName",
           "package": "Paraiso",
@@ -3337,6 +3622,7 @@
         "index": {
           "description": "the name of the program",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "progName",
           "package": "Paraiso",
@@ -3351,6 +3637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a C++ expression from Haskell objects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "toDyn",
           "package": "Paraiso",
@@ -3361,6 +3648,7 @@
         "index": {
           "description": "make expression from Haskell objects",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "toDyn",
           "normalized": "a-\u003eExpr",
@@ -3377,6 +3665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe top-level elements of the program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "topLevel",
           "package": "Paraiso",
@@ -3387,6 +3676,7 @@
         "index": {
           "description": "the top-level elements of the program",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "topLevel",
           "normalized": "[Statement]",
@@ -3403,6 +3693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake C++ type from Haskell objects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "typeOf",
           "package": "Paraiso",
@@ -3413,6 +3704,7 @@
         "index": {
           "description": "make type from Haskell objects",
           "hierarchy": "Language Paraiso Generator Claris",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Claris",
           "name": "typeOf",
           "normalized": "a-\u003eTypeRep",
@@ -3428,6 +3720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "ClarisTrans",
           "package": "Paraiso",
@@ -3436,6 +3729,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator ClarisTrans",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "ClarisTrans",
           "package": "Paraiso",
@@ -3449,6 +3743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "Context",
           "package": "Paraiso",
@@ -3457,6 +3752,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator ClarisTrans",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "Context",
           "package": "Paraiso",
@@ -3470,6 +3766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "Translatable",
           "package": "Paraiso",
@@ -3478,6 +3775,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator ClarisTrans",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "Translatable",
           "package": "Paraiso",
@@ -3492,6 +3790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe databeses for Haskell -\u003e Cpp immediate values translations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "dynamicDB",
           "package": "Paraiso",
@@ -3502,6 +3801,7 @@
         "index": {
           "description": "The databeses for Haskell Cpp immediate values translations",
           "hierarchy": "Language Paraiso Generator ClarisTrans",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "dynamicDB",
           "normalized": "Dynamic-\u003eMaybe Text",
@@ -3517,6 +3817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "headerFile",
           "package": "Paraiso",
@@ -3526,6 +3827,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator ClarisTrans",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "headerFile",
           "package": "Paraiso",
@@ -3539,6 +3841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "joinBeginBy",
           "package": "Paraiso",
@@ -3548,6 +3851,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator ClarisTrans",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "joinBeginBy",
           "normalized": "Text-\u003e[Text]-\u003eText",
@@ -3563,6 +3867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "joinBeginEndBy",
           "package": "Paraiso",
@@ -3572,6 +3877,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator ClarisTrans",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "joinBeginEndBy",
           "normalized": "Text-\u003e[Text]-\u003eText",
@@ -3587,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "joinBy",
           "package": "Paraiso",
@@ -3596,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator ClarisTrans",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "joinBy",
           "normalized": "Text-\u003e[Text]-\u003eText",
@@ -3611,6 +3919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "joinEndBy",
           "package": "Paraiso",
@@ -3620,6 +3929,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator ClarisTrans",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "joinEndBy",
           "normalized": "Text-\u003e[Text]-\u003eText",
@@ -3636,6 +3946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean parenthesizer for lazy person.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "paren",
           "package": "Paraiso",
@@ -3646,6 +3957,7 @@
         "index": {
           "description": "an parenthesizer for lazy person",
           "hierarchy": "Language Paraiso Generator ClarisTrans",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "paren",
           "normalized": "Parenthesis-\u003eText-\u003eText",
@@ -3660,6 +3972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "sourceFile",
           "package": "Paraiso",
@@ -3669,6 +3982,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator ClarisTrans",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "sourceFile",
           "package": "Paraiso",
@@ -3682,6 +3996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "translate",
           "package": "Paraiso",
@@ -3691,6 +4006,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator ClarisTrans",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "translate",
           "normalized": "Context-\u003ea-\u003eText",
@@ -3706,6 +4022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe databeses for Haskell -\u003e Cpp type name translations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "typeRepDB",
           "package": "Paraiso",
@@ -3716,6 +4033,7 @@
         "index": {
           "description": "The databeses for Haskell Cpp type name translations",
           "hierarchy": "Language Paraiso Generator ClarisTrans",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.ClarisTrans",
           "name": "typeRepDB",
           "normalized": "TypeRep-\u003eMaybe Text",
@@ -3732,6 +4050,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003einformations for generating native codes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Native",
           "name": "Native",
           "package": "Paraiso",
@@ -3741,6 +4060,7 @@
         "index": {
           "description": "informations for generating native codes",
           "hierarchy": "Language Paraiso Generator Native",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Native",
           "name": "Native",
           "package": "Paraiso",
@@ -3754,6 +4074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Native",
           "name": "Language",
           "package": "Paraiso",
@@ -3762,6 +4083,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Native",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Native",
           "name": "Language",
           "package": "Paraiso",
@@ -3776,6 +4098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe setups that needed to generate the native codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Native",
           "name": "Setup",
           "package": "Paraiso",
@@ -3785,6 +4108,7 @@
         "index": {
           "description": "the setups that needed to generate the native codes",
           "hierarchy": "Language Paraiso Generator Native",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Native",
           "name": "Setup",
           "package": "Paraiso",
@@ -3798,6 +4122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Native",
           "name": "CPlusPlus",
           "package": "Paraiso",
@@ -3807,6 +4132,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Native",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Native",
           "name": "CPlusPlus",
           "package": "Paraiso",
@@ -3820,6 +4146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Native",
           "name": "CUDA",
           "package": "Paraiso",
@@ -3829,6 +4156,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Native",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Native",
           "name": "CUDA",
           "package": "Paraiso",
@@ -3842,6 +4170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Native",
           "name": "Setup",
           "package": "Paraiso",
@@ -3851,6 +4180,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Native",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Native",
           "name": "Setup",
           "package": "Paraiso",
@@ -3865,6 +4195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe boundary condition imposed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Native",
           "name": "boundary",
           "package": "Paraiso",
@@ -3875,6 +4206,7 @@
         "index": {
           "description": "the boundary condition imposed",
           "hierarchy": "Language Paraiso Generator Native",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Native",
           "name": "boundary",
           "package": "Paraiso",
@@ -3888,6 +4220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCUDA grid x block size (will be variable of subkernel in the future)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Native",
           "name": "cudaGridSize",
           "package": "Paraiso",
@@ -3898,6 +4231,7 @@
         "index": {
           "description": "CUDA grid block size will be variable of subkernel in the future",
           "hierarchy": "Language Paraiso Generator Native",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Native",
           "name": "cudaGridSize",
           "normalized": "(Int,Int)",
@@ -3913,6 +4247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Native",
           "name": "defaultSetup",
           "package": "Paraiso",
@@ -3922,6 +4257,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Native",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Native",
           "name": "defaultSetup",
           "normalized": "a b-\u003eSetup a b",
@@ -3938,6 +4274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe directory on which programs are to be generated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Native",
           "name": "directory",
           "package": "Paraiso",
@@ -3948,6 +4285,7 @@
         "index": {
           "description": "the directory on which programs are to be generated",
           "hierarchy": "Language Paraiso Generator Native",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Native",
           "name": "directory",
           "package": "Paraiso",
@@ -3961,6 +4299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe preferred native language\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Native",
           "name": "language",
           "package": "Paraiso",
@@ -3971,6 +4310,7 @@
         "index": {
           "description": "the preferred native language",
           "hierarchy": "Language Paraiso Generator Native",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Native",
           "name": "language",
           "package": "Paraiso",
@@ -3984,6 +4324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe dimension of the physically meaningful region\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Native",
           "name": "localSize",
           "package": "Paraiso",
@@ -3994,6 +4335,7 @@
         "index": {
           "description": "the dimension of the physically meaningful region",
           "hierarchy": "Language Paraiso Generator Native",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Native",
           "name": "localSize",
           "package": "Paraiso",
@@ -4008,6 +4350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe intensity of optimization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Native",
           "name": "optLevel",
           "package": "Paraiso",
@@ -4018,6 +4361,7 @@
         "index": {
           "description": "the intensity of optimization",
           "hierarchy": "Language Paraiso Generator Native",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Native",
           "name": "optLevel",
           "package": "Paraiso",
@@ -4031,6 +4375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.OMTrans",
           "name": "OMTrans",
           "package": "Paraiso",
@@ -4039,6 +4384,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator OMTrans",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.OMTrans",
           "name": "OMTrans",
           "package": "Paraiso",
@@ -4052,6 +4398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.OMTrans",
           "name": "translate",
           "package": "Paraiso",
@@ -4061,6 +4408,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator OMTrans",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.OMTrans",
           "name": "translate",
           "normalized": "Setup a b-\u003eOM a b Annotation-\u003ePlan a b Annotation",
@@ -4076,6 +4424,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTaking the optimized OM as the input,\n The \u003ccode\u003e\u003ca\u003ePlan\u003c/a\u003e\u003c/code\u003e summarizes and fixes the detail of the code generation,\n such as amount of memory to be allocated,\n the extra subroutines which does internal calculations,\n and decisions on which part of calculation each subroutines make\n etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "Plan",
           "package": "Paraiso",
@@ -4085,6 +4434,7 @@
         "index": {
           "description": "Taking the optimized OM as the input The Plan summarizes and fixes the detail of the code generation such as amount of memory to be allocated the extra subroutines which does internal calculations and decisions on which part of calculation each subroutines make etc",
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "Plan",
           "package": "Paraiso",
@@ -4099,6 +4449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure that contains all informations\n for code generation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "Plan",
           "package": "Paraiso",
@@ -4108,6 +4459,7 @@
         "index": {
           "description": "data structure that contains all informations for code generation",
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "Plan",
           "package": "Paraiso",
@@ -4122,6 +4474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea data that holds referrence to the Plan it belongs to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "Referrer",
           "package": "Paraiso",
@@ -4131,6 +4484,7 @@
         "index": {
           "description": "data that holds referrence to the Plan it belongs to",
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "Referrer",
           "package": "Paraiso",
@@ -4144,6 +4498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "StorageIdx",
           "package": "Paraiso",
@@ -4152,6 +4507,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "StorageIdx",
           "package": "Paraiso",
@@ -4166,6 +4522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erefers to a storage required in the plan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "StorageRef",
           "package": "Paraiso",
@@ -4175,6 +4532,7 @@
         "index": {
           "description": "refers to storage required in the plan",
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "StorageRef",
           "package": "Paraiso",
@@ -4189,6 +4547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esubroutines that executes portion of a calculations for certain kernel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "SubKernelRef",
           "package": "Paraiso",
@@ -4198,6 +4557,7 @@
         "index": {
           "description": "subroutines that executes portion of calculations for certain kernel",
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "SubKernelRef",
           "package": "Paraiso",
@@ -4212,6 +4572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(ManifestRef plan i j) = j'th node of the i'th kernel in the plan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "ManifestRef",
           "package": "Paraiso",
@@ -4222,6 +4583,7 @@
         "index": {
           "description": "ManifestRef plan th node of the th kernel in the plan",
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "ManifestRef",
           "package": "Paraiso",
@@ -4235,6 +4597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "Plan",
           "package": "Paraiso",
@@ -4244,6 +4607,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "Plan",
           "package": "Paraiso",
@@ -4258,6 +4622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(StatigRef plan i) = i'th static variable in the plan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "StaticRef",
           "package": "Paraiso",
@@ -4268,6 +4633,7 @@
         "index": {
           "description": "StatigRef plan th static variable in the plan",
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "StaticRef",
           "package": "Paraiso",
@@ -4281,6 +4647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "StorageRef",
           "package": "Paraiso",
@@ -4290,6 +4657,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "StorageRef",
           "package": "Paraiso",
@@ -4303,6 +4671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "SubKernelRef",
           "package": "Paraiso",
@@ -4312,6 +4681,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "SubKernelRef",
           "package": "Paraiso",
@@ -4325,6 +4695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "calcIdxs",
           "package": "Paraiso",
@@ -4334,6 +4705,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "calcIdxs",
           "package": "Paraiso",
@@ -4347,6 +4719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "dataflow",
           "package": "Paraiso",
@@ -4356,6 +4729,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "dataflow",
           "normalized": "SubKernelRef a b c-\u003eGraph a b c",
@@ -4370,6 +4744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "inputIdxs",
           "package": "Paraiso",
@@ -4379,6 +4754,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "inputIdxs",
           "package": "Paraiso",
@@ -4392,6 +4768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "kernelIdx",
           "package": "Paraiso",
@@ -4401,6 +4778,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "kernelIdx",
           "package": "Paraiso",
@@ -4415,6 +4793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ekernels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "kernels",
           "package": "Paraiso",
@@ -4425,6 +4804,7 @@
         "index": {
           "description": "kernels",
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "kernels",
           "package": "Paraiso",
@@ -4438,6 +4818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall the caclulations performed in the subroutine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "labNodesCalc",
           "package": "Paraiso",
@@ -4448,6 +4829,7 @@
         "index": {
           "description": "all the caclulations performed in the subroutine",
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "labNodesCalc",
           "normalized": "SubKernelRef a b c-\u003eVector(LNode(Node a b c))",
@@ -4464,6 +4846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea list of inputs the subroutine needs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "labNodesIn",
           "package": "Paraiso",
@@ -4474,6 +4857,7 @@
         "index": {
           "description": "list of inputs the subroutine needs",
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "labNodesIn",
           "normalized": "SubKernelRef a b c-\u003eVector(LNode(Node a b c))",
@@ -4490,6 +4874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea list of outputs the subroutine makes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "labNodesOut",
           "package": "Paraiso",
@@ -4500,6 +4885,7 @@
         "index": {
           "description": "list of outputs the subroutine makes",
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "labNodesOut",
           "normalized": "SubKernelRef a b c-\u003eVector(LNode(Node a b c))",
@@ -4515,6 +4901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "lowerBoundary",
           "package": "Paraiso",
@@ -4524,6 +4911,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "lowerBoundary",
           "package": "Paraiso",
@@ -4538,6 +4926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe total lower margin of the OM, large enough to fit all the kernels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "lowerMargin",
           "package": "Paraiso",
@@ -4548,6 +4937,7 @@
         "index": {
           "description": "the total lower margin of the OM large enough to fit all the kernels",
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "lowerMargin",
           "package": "Paraiso",
@@ -4561,6 +4951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "omWriteGroupIdx",
           "package": "Paraiso",
@@ -4570,6 +4961,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "omWriteGroupIdx",
           "package": "Paraiso",
@@ -4583,6 +4975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "outputIdxs",
           "package": "Paraiso",
@@ -4592,6 +4985,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "outputIdxs",
           "package": "Paraiso",
@@ -4605,6 +4999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "parent",
           "package": "Paraiso",
@@ -4614,6 +5009,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "parent",
           "normalized": "a-\u003eb",
@@ -4629,6 +5025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename of the plan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "planName",
           "package": "Paraiso",
@@ -4639,6 +5036,7 @@
         "index": {
           "description": "name of the plan",
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "planName",
           "package": "Paraiso",
@@ -4653,6 +5051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOM setup, includes all static variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "setup",
           "package": "Paraiso",
@@ -4663,6 +5062,7 @@
         "index": {
           "description": "OM setup includes all static variables",
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "setup",
           "package": "Paraiso",
@@ -4675,6 +5075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "storageDynValue",
           "package": "Paraiso",
@@ -4684,6 +5085,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "storageDynValue",
           "package": "Paraiso",
@@ -4697,6 +5099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "storageIdx",
           "package": "Paraiso",
@@ -4706,6 +5109,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "storageIdx",
           "package": "Paraiso",
@@ -4719,6 +5123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "storageRefParent",
           "package": "Paraiso",
@@ -4728,6 +5133,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "storageRefParent",
           "package": "Paraiso",
@@ -4742,6 +5148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the DynValue description for a storage referrence.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "storageType",
           "package": "Paraiso",
@@ -4752,6 +5159,7 @@
         "index": {
           "description": "get the DynValue description for storage referrence",
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "storageType",
           "normalized": "StorageRef a b c-\u003eDynValue",
@@ -4768,6 +5176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewly allocated Manifest variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "storages",
           "package": "Paraiso",
@@ -4778,6 +5187,7 @@
         "index": {
           "description": "Newly allocated Manifest variables",
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "storages",
           "package": "Paraiso",
@@ -4790,6 +5200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "subKernelParent",
           "package": "Paraiso",
@@ -4799,6 +5210,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "subKernelParent",
           "package": "Paraiso",
@@ -4812,6 +5224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "subKernelRealm",
           "package": "Paraiso",
@@ -4821,6 +5234,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "subKernelRealm",
           "package": "Paraiso",
@@ -4835,6 +5249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esubkernels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "subKernels",
           "package": "Paraiso",
@@ -4845,6 +5260,7 @@
         "index": {
           "description": "subkernels",
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "subKernels",
           "package": "Paraiso",
@@ -4858,6 +5274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "upperBoundary",
           "package": "Paraiso",
@@ -4867,6 +5284,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "upperBoundary",
           "package": "Paraiso",
@@ -4881,6 +5299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe total upper margin of the OM, large enough to fit all the kernels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "upperMargin",
           "package": "Paraiso",
@@ -4891,6 +5310,7 @@
         "index": {
           "description": "the total upper margin of the OM large enough to fit all the kernels",
           "hierarchy": "Language Paraiso Generator Plan",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.Plan",
           "name": "upperMargin",
           "package": "Paraiso",
@@ -4904,6 +5324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.PlanTrans",
           "name": "PlanTrans",
           "package": "Paraiso",
@@ -4912,6 +5333,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator PlanTrans",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.PlanTrans",
           "name": "PlanTrans",
           "package": "Paraiso",
@@ -4925,6 +5347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.PlanTrans",
           "name": "commonLibraries",
           "package": "Paraiso",
@@ -4934,6 +5357,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator PlanTrans",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.PlanTrans",
           "name": "commonLibraries",
           "normalized": "[(FilePath,Text)]",
@@ -4949,6 +5373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator.PlanTrans",
           "name": "translate",
           "package": "Paraiso",
@@ -4958,6 +5383,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Generator PlanTrans",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator.PlanTrans",
           "name": "translate",
           "normalized": "Setup a b-\u003ePlan a b AnAn-\u003eProgram",
@@ -4973,6 +5399,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ea general code generator definition.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator",
           "name": "Generator",
           "package": "Paraiso",
@@ -4982,6 +5409,7 @@
         "index": {
           "description": "general code generator definition",
           "hierarchy": "Language Paraiso Generator",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator",
           "name": "Generator",
           "package": "Paraiso",
@@ -4996,6 +5424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the (filename, content) list from a code generation\n setup and a orthotope machine definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator",
           "name": "generate",
           "package": "Paraiso",
@@ -5006,6 +5435,7 @@
         "index": {
           "description": "Generate the filename content list from code generation setup and orthotope machine definition",
           "hierarchy": "Language Paraiso Generator",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator",
           "name": "generate",
           "normalized": "Setup a b-\u003eOM a b Annotation-\u003e[(FilePath,Text)]",
@@ -5021,6 +5451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform the code generation and returns the list of written\n filepaths and their contents, for your interest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Generator",
           "name": "generateIO",
           "package": "Paraiso",
@@ -5031,6 +5462,7 @@
         "index": {
           "description": "Perform the code generation and returns the list of written filepaths and their contents for your interest",
           "hierarchy": "Language Paraiso Generator",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Generator",
           "name": "generateIO",
           "normalized": "Setup a b-\u003eOM a b Annotation-\u003eIO[(FilePath,Text)]",
@@ -5047,6 +5479,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ean \u003ccode\u003e\u003ca\u003eInterval\u003c/a\u003e\u003c/code\u003e is a pair of \u003ccode\u003e\u003ca\u003elower\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eupper\u003c/a\u003e\u003c/code\u003e, \n   representing some interval in ordered system.\n   The lower bound is inclusive and the upper bound is exclusive:\n   (\u003ccode\u003e\u003ca\u003elower\u003c/a\u003e\u003c/code\u003e \u003c= x \u003c  \u003ccode\u003e\u003ca\u003eupper\u003c/a\u003e\u003c/code\u003e) .\n   The intersection of two intervals are also interval \n   but the union of two intervals are not, \n   so \u003ccode\u003e\u003ca\u003eInterval\u003c/a\u003e\u003c/code\u003e constitute a \u003ccode\u003e\u003ca\u003ePiSystem\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Interval",
           "name": "Interval",
           "package": "Paraiso",
@@ -5056,6 +5489,7 @@
         "index": {
           "description": "an Interval is pair of lower and upper representing some interval in ordered system The lower bound is inclusive and the upper bound is exclusive lower upper The intersection of two intervals are also interval but the union of two intervals are not so Interval constitute PiSystem",
           "hierarchy": "Language Paraiso Interval",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Interval",
           "name": "Interval",
           "package": "Paraiso",
@@ -5069,6 +5503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Interval",
           "name": "Interval",
           "package": "Paraiso",
@@ -5077,6 +5512,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Interval",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Interval",
           "name": "Interval",
           "package": "Paraiso",
@@ -5091,6 +5527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean empty interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Interval",
           "name": "Empty",
           "package": "Paraiso",
@@ -5101,6 +5538,7 @@
         "index": {
           "description": "an empty interval",
           "hierarchy": "Language Paraiso Interval",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Interval",
           "name": "Empty",
           "package": "Paraiso",
@@ -5115,6 +5553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea non-empty interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Interval",
           "name": "Interval",
           "package": "Paraiso",
@@ -5125,6 +5564,7 @@
         "index": {
           "description": "non-empty interval",
           "hierarchy": "Language Paraiso Interval",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Interval",
           "name": "Interval",
           "package": "Paraiso",
@@ -5138,6 +5578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Interval",
           "name": "lower",
           "package": "Paraiso",
@@ -5147,6 +5588,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Interval",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Interval",
           "name": "lower",
           "package": "Paraiso",
@@ -5159,6 +5601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Interval",
           "name": "upper",
           "package": "Paraiso",
@@ -5168,6 +5611,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Interval",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Interval",
           "name": "upper",
           "package": "Paraiso",
@@ -5181,6 +5625,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ename identifier.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Name",
           "name": "Name",
           "package": "Paraiso",
@@ -5190,6 +5635,7 @@
         "index": {
           "description": "name identifier",
           "hierarchy": "Language Paraiso Name",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Name",
           "name": "Name",
           "package": "Paraiso",
@@ -5204,6 +5650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Name",
           "name": "Name",
           "package": "Paraiso",
@@ -5213,6 +5660,7 @@
         "index": {
           "description": "name",
           "hierarchy": "Language Paraiso Name",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Name",
           "name": "Name",
           "package": "Paraiso",
@@ -5227,6 +5675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esomething that has name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Name",
           "name": "Nameable",
           "package": "Paraiso",
@@ -5236,6 +5685,7 @@
         "index": {
           "description": "something that has name",
           "hierarchy": "Language Paraiso Name",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Name",
           "name": "Nameable",
           "package": "Paraiso",
@@ -5250,6 +5700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert some type to a named type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Name",
           "name": "Named",
           "package": "Paraiso",
@@ -5259,6 +5710,7 @@
         "index": {
           "description": "Convert some type to named type",
           "hierarchy": "Language Paraiso Name",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Name",
           "name": "Named",
           "package": "Paraiso",
@@ -5272,6 +5724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Name",
           "name": "Named",
           "package": "Paraiso",
@@ -5281,6 +5734,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Name",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Name",
           "name": "Named",
           "package": "Paraiso",
@@ -5295,6 +5749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate Named object in an instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Name",
           "name": "isNameOf",
           "package": "Paraiso",
@@ -5305,6 +5760,7 @@
         "index": {
           "description": "create Named object in an instance",
           "hierarchy": "Language Paraiso Name",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Name",
           "name": "isNameOf",
           "normalized": "Text-\u003ea-\u003eNamed a",
@@ -5321,6 +5777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a name from a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e. \n We do not export the constructor \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e for future extensibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Name",
           "name": "mkName",
           "package": "Paraiso",
@@ -5331,6 +5788,7 @@
         "index": {
           "description": "create name from Text We do not export the constructor Name for future extensibility",
           "hierarchy": "Language Paraiso Name",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Name",
           "name": "mkName",
           "normalized": "Text-\u003eName",
@@ -5347,6 +5805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget its name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Name",
           "name": "name",
           "package": "Paraiso",
@@ -5357,6 +5816,7 @@
         "index": {
           "description": "get its name",
           "hierarchy": "Language Paraiso Name",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Name",
           "name": "name",
           "normalized": "a-\u003eName",
@@ -5372,6 +5832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget its name as a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Name",
           "name": "nameStr",
           "package": "Paraiso",
@@ -5382,6 +5843,7 @@
         "index": {
           "description": "get its name as String",
           "hierarchy": "Language Paraiso Name",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Name",
           "name": "nameStr",
           "normalized": "a-\u003eString",
@@ -5398,6 +5860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget its name as a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Name",
           "name": "nameText",
           "package": "Paraiso",
@@ -5408,6 +5871,7 @@
         "index": {
           "description": "get its name as Text",
           "hierarchy": "Language Paraiso Name",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Name",
           "name": "nameText",
           "normalized": "a-\u003eText",
@@ -5424,6 +5888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe thing the name points to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Name",
           "name": "namee",
           "package": "Paraiso",
@@ -5434,6 +5899,7 @@
         "index": {
           "description": "The thing the name points to",
           "hierarchy": "Language Paraiso Name",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Name",
           "name": "namee",
           "normalized": "Named a-\u003ea",
@@ -5448,6 +5914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Arithmetic",
           "package": "Paraiso",
@@ -5456,6 +5923,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Arithmetic",
           "package": "Paraiso",
@@ -5469,6 +5937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Arity",
           "package": "Paraiso",
@@ -5477,6 +5946,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Arity",
           "package": "Paraiso",
@@ -5490,6 +5960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Operator",
           "package": "Paraiso",
@@ -5498,6 +5969,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Operator",
           "package": "Paraiso",
@@ -5511,6 +5983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Abs",
           "package": "Paraiso",
@@ -5520,6 +5993,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Abs",
           "package": "Paraiso",
@@ -5533,6 +6007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Acos",
           "package": "Paraiso",
@@ -5542,6 +6017,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Acos",
           "package": "Paraiso",
@@ -5555,6 +6031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Add",
           "package": "Paraiso",
@@ -5564,6 +6041,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Add",
           "package": "Paraiso",
@@ -5577,6 +6055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "And",
           "package": "Paraiso",
@@ -5586,6 +6065,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "And",
           "package": "Paraiso",
@@ -5599,6 +6079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Asin",
           "package": "Paraiso",
@@ -5608,6 +6089,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Asin",
           "package": "Paraiso",
@@ -5621,6 +6103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Atan",
           "package": "Paraiso",
@@ -5630,6 +6113,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Atan",
           "package": "Paraiso",
@@ -5643,6 +6127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Atan2",
           "package": "Paraiso",
@@ -5652,6 +6137,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Atan2",
           "package": "Paraiso",
@@ -5665,6 +6151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Cast",
           "package": "Paraiso",
@@ -5674,6 +6161,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Cast",
           "package": "Paraiso",
@@ -5687,6 +6175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Cos",
           "package": "Paraiso",
@@ -5696,6 +6185,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Cos",
           "package": "Paraiso",
@@ -5709,6 +6199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Div",
           "package": "Paraiso",
@@ -5718,6 +6209,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Div",
           "package": "Paraiso",
@@ -5731,6 +6223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "DivMod",
           "package": "Paraiso",
@@ -5740,6 +6233,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "DivMod",
           "package": "Paraiso",
@@ -5753,6 +6247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "EQ",
           "package": "Paraiso",
@@ -5762,6 +6257,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "EQ",
           "package": "Paraiso",
@@ -5775,6 +6271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Exp",
           "package": "Paraiso",
@@ -5784,6 +6281,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Exp",
           "package": "Paraiso",
@@ -5797,6 +6295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "GE",
           "package": "Paraiso",
@@ -5806,6 +6305,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "GE",
           "package": "Paraiso",
@@ -5819,6 +6319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "GT",
           "package": "Paraiso",
@@ -5828,6 +6329,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "GT",
           "package": "Paraiso",
@@ -5841,6 +6343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Identity",
           "package": "Paraiso",
@@ -5850,6 +6353,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Identity",
           "package": "Paraiso",
@@ -5863,6 +6367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Inv",
           "package": "Paraiso",
@@ -5872,6 +6377,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Inv",
           "package": "Paraiso",
@@ -5886,6 +6392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ex^y where y is an integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Ipow",
           "package": "Paraiso",
@@ -5896,6 +6403,7 @@
         "index": {
           "description": "where is an integer",
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Ipow",
           "package": "Paraiso",
@@ -5909,6 +6417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "LE",
           "package": "Paraiso",
@@ -5918,6 +6427,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "LE",
           "package": "Paraiso",
@@ -5931,6 +6441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "LT",
           "package": "Paraiso",
@@ -5940,6 +6451,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "LT",
           "package": "Paraiso",
@@ -5953,6 +6465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Log",
           "package": "Paraiso",
@@ -5962,6 +6475,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Log",
           "package": "Paraiso",
@@ -5975,6 +6489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Madd",
           "package": "Paraiso",
@@ -5984,6 +6499,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Madd",
           "package": "Paraiso",
@@ -5997,6 +6513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Max",
           "package": "Paraiso",
@@ -6006,6 +6523,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Max",
           "package": "Paraiso",
@@ -6019,6 +6537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Min",
           "package": "Paraiso",
@@ -6028,6 +6547,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Min",
           "package": "Paraiso",
@@ -6041,6 +6561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Mod",
           "package": "Paraiso",
@@ -6050,6 +6571,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Mod",
           "package": "Paraiso",
@@ -6063,6 +6585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Msub",
           "package": "Paraiso",
@@ -6072,6 +6595,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Msub",
           "package": "Paraiso",
@@ -6085,6 +6609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Mul",
           "package": "Paraiso",
@@ -6094,6 +6619,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Mul",
           "package": "Paraiso",
@@ -6107,6 +6633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "NE",
           "package": "Paraiso",
@@ -6116,6 +6643,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "NE",
           "package": "Paraiso",
@@ -6129,6 +6657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Neg",
           "package": "Paraiso",
@@ -6138,6 +6667,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Neg",
           "package": "Paraiso",
@@ -6151,6 +6681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Nmadd",
           "package": "Paraiso",
@@ -6160,6 +6691,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Nmadd",
           "package": "Paraiso",
@@ -6173,6 +6705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Nmsub",
           "package": "Paraiso",
@@ -6182,6 +6715,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Nmsub",
           "package": "Paraiso",
@@ -6195,6 +6729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Not",
           "package": "Paraiso",
@@ -6204,6 +6739,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Not",
           "package": "Paraiso",
@@ -6217,6 +6753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Or",
           "package": "Paraiso",
@@ -6226,6 +6763,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Or",
           "package": "Paraiso",
@@ -6240,6 +6778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ex^y where y is real number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Pow",
           "package": "Paraiso",
@@ -6250,6 +6789,7 @@
         "index": {
           "description": "where is real number",
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Pow",
           "package": "Paraiso",
@@ -6263,6 +6803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Select",
           "package": "Paraiso",
@@ -6272,6 +6813,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Select",
           "package": "Paraiso",
@@ -6285,6 +6827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Signum",
           "package": "Paraiso",
@@ -6294,6 +6837,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Signum",
           "package": "Paraiso",
@@ -6307,6 +6851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Sin",
           "package": "Paraiso",
@@ -6316,6 +6861,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Sin",
           "package": "Paraiso",
@@ -6329,6 +6875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Sincos",
           "package": "Paraiso",
@@ -6338,6 +6885,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Sincos",
           "package": "Paraiso",
@@ -6351,6 +6899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Sqrt",
           "package": "Paraiso",
@@ -6360,6 +6909,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Sqrt",
           "package": "Paraiso",
@@ -6373,6 +6923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Sub",
           "package": "Paraiso",
@@ -6382,6 +6933,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Sub",
           "package": "Paraiso",
@@ -6395,6 +6947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Tan",
           "package": "Paraiso",
@@ -6404,6 +6957,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "Tan",
           "package": "Paraiso",
@@ -6417,6 +6971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "arity",
           "package": "Paraiso",
@@ -6426,6 +6981,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "arity",
           "normalized": "a-\u003e(Int,Int)",
@@ -6440,6 +6996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "arityI",
           "package": "Paraiso",
@@ -6449,6 +7006,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "arityI",
           "normalized": "a-\u003eInt",
@@ -6463,6 +7021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "arityO",
           "package": "Paraiso",
@@ -6472,6 +7031,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Arithmetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Arithmetic",
           "name": "arityO",
           "normalized": "a-\u003eInt",
@@ -6487,6 +7047,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn extension module of building blocks. Contains booleans, comparison operations, branchings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Boolean",
           "name": "Boolean",
           "package": "Paraiso",
@@ -6496,6 +7057,7 @@
         "index": {
           "description": "An extension module of building blocks Contains booleans comparison operations branchings",
           "hierarchy": "Language Paraiso OM Builder Boolean",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Boolean",
           "name": "Boolean",
           "package": "Paraiso",
@@ -6510,6 +7072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEqual\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Boolean",
           "name": "eq",
           "package": "Paraiso",
@@ -6520,6 +7083,7 @@
         "index": {
           "description": "Equal",
           "hierarchy": "Language Paraiso OM Builder Boolean",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Boolean",
           "name": "eq",
           "package": "Paraiso",
@@ -6533,6 +7097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreater than or equal to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Boolean",
           "name": "ge",
           "package": "Paraiso",
@@ -6543,6 +7108,7 @@
         "index": {
           "description": "Greater than or equal to",
           "hierarchy": "Language Paraiso OM Builder Boolean",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Boolean",
           "name": "ge",
           "package": "Paraiso",
@@ -6556,6 +7122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreater than\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Boolean",
           "name": "gt",
           "package": "Paraiso",
@@ -6566,6 +7133,7 @@
         "index": {
           "description": "Greater than",
           "hierarchy": "Language Paraiso OM Builder Boolean",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Boolean",
           "name": "gt",
           "package": "Paraiso",
@@ -6579,6 +7147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLess than or equal to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Boolean",
           "name": "le",
           "package": "Paraiso",
@@ -6589,6 +7158,7 @@
         "index": {
           "description": "Less than or equal to",
           "hierarchy": "Language Paraiso OM Builder Boolean",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Boolean",
           "name": "le",
           "package": "Paraiso",
@@ -6602,6 +7172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLess than\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Boolean",
           "name": "lt",
           "package": "Paraiso",
@@ -6612,6 +7183,7 @@
         "index": {
           "description": "Less than",
           "hierarchy": "Language Paraiso OM Builder Boolean",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Boolean",
           "name": "lt",
           "package": "Paraiso",
@@ -6625,6 +7197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot equal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Boolean",
           "name": "ne",
           "package": "Paraiso",
@@ -6635,6 +7208,7 @@
         "index": {
           "description": "Not equal",
           "hierarchy": "Language Paraiso OM Builder Boolean",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Boolean",
           "name": "ne",
           "package": "Paraiso",
@@ -6648,6 +7222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eselects either the second or the third argument based \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Boolean",
           "name": "select",
           "package": "Paraiso",
@@ -6657,6 +7232,7 @@
         "index": {
           "description": "selects either the second or the third argument based",
           "hierarchy": "Language Paraiso OM Builder Boolean",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Boolean",
           "name": "select",
           "normalized": "Builder a b c(Value d Bool)-\u003eBuilder a b c(Value d e)-\u003eBuilder a b c(Value d e)-\u003eBuilder a b c(Value d e)",
@@ -6672,6 +7248,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA monadic library to build dataflow graphs for OM. \n Builder is only for Graph vector gauge () . \n Graphs with other annotation types can be created by fmap.\n This module exports everything, for writing other Builder modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "Internal",
           "package": "Paraiso",
@@ -6681,6 +7258,7 @@
         "index": {
           "description": "monadic library to build dataflow graphs for OM Builder is only for Graph vector gauge Graphs with other annotation types can be created by fmap This module exports everything for writing other Builder modules",
           "hierarchy": "Language Paraiso OM Builder Internal",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "Internal",
           "package": "Paraiso",
@@ -6694,6 +7272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "B",
           "package": "Paraiso",
@@ -6702,6 +7281,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Builder Internal",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "B",
           "package": "Paraiso",
@@ -6715,6 +7295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e monad is used to build \u003ccode\u003e\u003ca\u003eKernel\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "Builder",
           "package": "Paraiso",
@@ -6724,6 +7305,7 @@
         "index": {
           "description": "The Builder monad is used to build Kernel",
           "hierarchy": "Language Paraiso OM Builder Internal",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "Builder",
           "package": "Paraiso",
@@ -6737,6 +7319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "BuilderOf",
           "package": "Paraiso",
@@ -6745,6 +7328,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Builder Internal",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "BuilderOf",
           "package": "Paraiso",
@@ -6758,6 +7342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "BuilderState",
           "package": "Paraiso",
@@ -6766,6 +7351,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Builder Internal",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "BuilderState",
           "package": "Paraiso",
@@ -6829,6 +7415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a node to the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "addNode",
           "package": "Paraiso",
@@ -6838,6 +7425,7 @@
         "index": {
           "description": "add node to the graph",
           "hierarchy": "Language Paraiso OM Builder Internal",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "addNode",
           "normalized": "[Node]-\u003eNode a b c-\u003eBuilder a b c Node",
@@ -6854,6 +7442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a node to the graph with an empty Annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "addNodeE",
           "package": "Paraiso",
@@ -6863,6 +7452,7 @@
         "index": {
           "description": "add node to the graph with an empty Annotation",
           "hierarchy": "Language Paraiso OM Builder Internal",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "addNodeE",
           "normalized": "[Node]-\u003e(a-\u003eNode b c a)-\u003eBuilder b c a Node",
@@ -7030,6 +7620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the number of the next unoccupied \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e in the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "freeNode",
           "package": "Paraiso",
@@ -7040,6 +7631,7 @@
         "index": {
           "description": "get the number of the next unoccupied Node in the graph",
           "hierarchy": "Language Paraiso OM Builder Internal",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "freeNode",
           "package": "Paraiso",
@@ -7054,6 +7646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the graph stored in the \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "getG",
           "package": "Paraiso",
@@ -7064,6 +7657,7 @@
         "index": {
           "description": "Get the graph stored in the Builder",
           "hierarchy": "Language Paraiso OM Builder Internal",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "getG",
           "package": "Paraiso",
@@ -7102,6 +7696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an initial state for \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e monad from a OM \u003ccode\u003e\u003ca\u003eSetup\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "initState",
           "package": "Paraiso",
@@ -7112,6 +7707,7 @@
         "index": {
           "description": "Create an initial state for Builder monad from OM Setup",
           "hierarchy": "Language Paraiso OM Builder Internal",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "initState",
           "normalized": "Setup a b c-\u003eBuilderState a b c",
@@ -7205,6 +7801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elook up the \u003ccode\u003e\u003ca\u003eNamed\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eDynValue\u003c/a\u003e\u003c/code\u003e with the correct name and type \n is included in the \u003ccode\u003e\u003ca\u003estaticValues\u003c/a\u003e\u003c/code\u003e of the \u003ccode\u003e\u003ca\u003eBuilderState\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "lookUpStatic",
           "package": "Paraiso",
@@ -7215,6 +7812,7 @@
         "index": {
           "description": "look up the Named DynValue with the correct name and type is included in the staticValues of the BuilderState",
           "hierarchy": "Language Paraiso OM Builder Internal",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "lookUpStatic",
           "normalized": "Named DynValue-\u003eB StaticIdx",
@@ -7231,6 +7829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a unary operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "mkOp1",
           "package": "Paraiso",
@@ -7240,6 +7839,7 @@
         "index": {
           "description": "Make unary operator",
           "hierarchy": "Language Paraiso OM Builder Internal",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "mkOp1",
           "normalized": "Operator-\u003eBuilder a b c(Value d e)-\u003eBuilder a b c(Value d e)",
@@ -7256,6 +7856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a binary operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "mkOp2",
           "package": "Paraiso",
@@ -7265,6 +7866,7 @@
         "index": {
           "description": "Make binary operator",
           "hierarchy": "Language Paraiso OM Builder Internal",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "mkOp2",
           "normalized": "Operator-\u003eBuilder a b c(Value d e)-\u003eBuilder a b c(Value d e)-\u003eBuilder a b c(Value d e)",
@@ -7281,6 +7883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the dataflow graph stored in the \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "modifyG",
           "package": "Paraiso",
@@ -7290,6 +7893,7 @@
         "index": {
           "description": "Modify the dataflow graph stored in the Builder",
           "hierarchy": "Language Paraiso OM Builder Internal",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "modifyG",
           "normalized": "(Graph a b c-\u003eGraph a b c)-\u003eBuilder a b c()",
@@ -7424,6 +8028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e to a \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "valueToNode",
           "package": "Paraiso",
@@ -7434,6 +8039,7 @@
         "index": {
           "description": "convert Value to",
           "hierarchy": "Language Paraiso OM Builder Internal",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder.Internal",
           "name": "valueToNode",
           "normalized": "Value a b-\u003eB Node",
@@ -7477,6 +8083,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA monadic library to build dataflow graphs for OM. \n This module just exports a set of chosen symbols\n from \u003ccode\u003e\u003ca\u003eInternal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder",
           "name": "Builder",
           "package": "Paraiso",
@@ -7486,6 +8093,7 @@
         "index": {
           "description": "monadic library to build dataflow graphs for OM This module just exports set of chosen symbols from Internal",
           "hierarchy": "Language Paraiso OM Builder",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder",
           "name": "Builder",
           "package": "Paraiso",
@@ -7500,6 +8108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e monad is used to build \u003ccode\u003e\u003ca\u003eKernel\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder",
           "name": "Builder",
           "package": "Paraiso",
@@ -7509,6 +8118,7 @@
         "index": {
           "description": "The Builder monad is used to build Kernel",
           "hierarchy": "Language Paraiso OM Builder",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder",
           "name": "Builder",
           "package": "Paraiso",
@@ -7522,6 +8132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder",
           "name": "BuilderOf",
           "package": "Paraiso",
@@ -7530,6 +8141,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Builder",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder",
           "name": "BuilderOf",
           "package": "Paraiso",
@@ -7543,6 +8155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Builder",
           "name": "BuilderState",
           "package": "Paraiso",
@@ -7551,6 +8164,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Builder",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Builder",
           "name": "BuilderState",
           "package": "Paraiso",
@@ -7565,6 +8179,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eDynValue\u003c/a\u003e\u003c/code\u003e is stored in the OM dataflow graph type.\n \u003ccode\u003e\u003ca\u003eDynValue\u003c/a\u003e\u003c/code\u003e carries the type and homogeneity information in value.\n Therefore, \u003ccode\u003e\u003ca\u003eDynValue\u003c/a\u003e\u003c/code\u003e with various types can be stored in single container type such as graph.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.DynValue",
           "name": "DynValue",
           "package": "Paraiso",
@@ -7574,6 +8189,7 @@
         "index": {
           "description": "The DynValue is stored in the OM dataflow graph type DynValue carries the type and homogeneity information in value Therefore DynValue with various types can be stored in single container type such as graph",
           "hierarchy": "Language Paraiso OM DynValue",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.DynValue",
           "name": "DynValue",
           "package": "Paraiso",
@@ -7588,6 +8204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edynamic value type, with its realm and content type informed as values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.DynValue",
           "name": "DynValue",
           "package": "Paraiso",
@@ -7597,6 +8214,7 @@
         "index": {
           "description": "dynamic value type with its realm and content type informed as values",
           "hierarchy": "Language Paraiso OM DynValue",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.DynValue",
           "name": "DynValue",
           "package": "Paraiso",
@@ -7611,6 +8229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSomething that can be converted to \u003ccode\u003e\u003ca\u003eDynValue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.DynValue",
           "name": "ToDynable",
           "package": "Paraiso",
@@ -7620,6 +8239,7 @@
         "index": {
           "description": "Something that can be converted to DynValue",
           "hierarchy": "Language Paraiso OM DynValue",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.DynValue",
           "name": "ToDynable",
           "package": "Paraiso",
@@ -7633,6 +8253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.DynValue",
           "name": "DynValue",
           "package": "Paraiso",
@@ -7642,6 +8263,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM DynValue",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.DynValue",
           "name": "DynValue",
           "package": "Paraiso",
@@ -7656,6 +8278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emap \u003ccode\u003e\u003ca\u003etoDyn\u003c/a\u003e\u003c/code\u003e over functors.\n   an idiom used in collecting OM static variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.DynValue",
           "name": "f2d",
           "package": "Paraiso",
@@ -7666,6 +8289,7 @@
         "index": {
           "description": "map toDyn over functors an idiom used in collecting OM static variables",
           "hierarchy": "Language Paraiso OM DynValue",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.DynValue",
           "name": "f2d",
           "normalized": "a b-\u003ea DynValue",
@@ -7681,6 +8305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake \u003ccode\u003e\u003ca\u003eDynValue\u003c/a\u003e\u003c/code\u003e value-level type, from the pair of Type-level type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.DynValue",
           "name": "mkDyn",
           "package": "Paraiso",
@@ -7691,6 +8316,7 @@
         "index": {
           "description": "Make DynValue value-level type from the pair of Type-level type",
           "hierarchy": "Language Paraiso OM DynValue",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.DynValue",
           "name": "mkDyn",
           "normalized": "a-\u003eb-\u003eDynValue",
@@ -7706,6 +8332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.DynValue",
           "name": "realm",
           "package": "Paraiso",
@@ -7715,6 +8342,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM DynValue",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.DynValue",
           "name": "realm",
           "package": "Paraiso",
@@ -7727,6 +8355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.DynValue",
           "name": "toDyn",
           "package": "Paraiso",
@@ -7736,6 +8365,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM DynValue",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.DynValue",
           "name": "toDyn",
           "normalized": "a-\u003eDynValue",
@@ -7751,6 +8381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.DynValue",
           "name": "typeRep",
           "package": "Paraiso",
@@ -7760,6 +8391,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM DynValue",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.DynValue",
           "name": "typeRep",
           "package": "Paraiso",
@@ -7774,6 +8406,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ethe components for constructing Orthotope Machine data flow draph.\n  Most components take three arguments: \n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003evector :: * -\u003e *\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e The array dimension. It is a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e that\n defines the dimension of the Orthotope on which the OM operates.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003egauge :: *\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e The array index. The combination \u003ccode\u003evector gauge\u003c/code\u003e\n needs to be an instance of \u003ccode\u003e\u003ca\u003eC\u003c/a\u003e\u003c/code\u003e if you want to\n perform \u003ccode\u003eShift\u003c/code\u003e operation.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eanot :: *\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e The annotations put on each node. If you want to use\n Annotation, \u003ccode\u003eanot\u003c/code\u003e needs to be an instance of \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Graph",
           "package": "Paraiso",
@@ -7783,6 +8416,7 @@
         "index": {
           "description": "the components for constructing Orthotope Machine data flow draph Most components take three arguments vector The array dimension It is Vector that defines the dimension of the Orthotope on which the OM operates gauge The array index The combination vector gauge needs to be an instance of if you want to perform Shift operation anot The annotations put on each node If you want to use Annotation anot needs to be an instance of Monoid",
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Graph",
           "package": "Paraiso",
@@ -7797,6 +8431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eEdge\u003c/a\u003e\u003c/code\u003e label for the dataflow \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e. \n | It keeps track of the order of the arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Edge",
           "package": "Paraiso",
@@ -7806,6 +8441,7 @@
         "index": {
           "description": "The Edge label for the dataflow Graph It keeps track of the order of the arguments",
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Edge",
           "package": "Paraiso",
@@ -7820,6 +8456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dataflow graph for Orthotope Machine. anot is an additional annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Graph",
           "package": "Paraiso",
@@ -7829,6 +8466,7 @@
         "index": {
           "description": "The dataflow graph for Orthotope Machine anot is an additional annotation",
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Graph",
           "package": "Paraiso",
@@ -7842,6 +8480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Inst",
           "package": "Paraiso",
@@ -7850,6 +8489,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Inst",
           "package": "Paraiso",
@@ -7864,6 +8504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eKernel\u003c/a\u003e\u003c/code\u003e for OM perfor a block of calculations on OM.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Kernel",
           "package": "Paraiso",
@@ -7873,6 +8514,7 @@
         "index": {
           "description": "Kernel for OM perfor block of calculations on OM",
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Kernel",
           "package": "Paraiso",
@@ -7887,6 +8529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e for the dataflow \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e of the Orthotope machine.\n The dataflow graph is a 2-part graph consisting of \u003ccode\u003e\u003ca\u003eNValue\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNInst\u003c/a\u003e\u003c/code\u003e nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Node",
           "package": "Paraiso",
@@ -7896,6 +8539,7 @@
         "index": {
           "description": "The Node for the dataflow Graph of the Orthotope machine The dataflow graph is part graph consisting of NValue and NInst nodes",
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Node",
           "package": "Paraiso",
@@ -7910,6 +8554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn OM Setup, a set of information needed before you start building a \u003ccode\u003e\u003ca\u003eKernel\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Setup",
           "package": "Paraiso",
@@ -7919,6 +8564,7 @@
         "index": {
           "description": "An OM Setup set of information needed before you start building Kernel",
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Setup",
           "package": "Paraiso",
@@ -7932,6 +8578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "StaticIdx",
           "package": "Paraiso",
@@ -7940,6 +8587,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "StaticIdx",
           "package": "Paraiso",
@@ -7953,6 +8601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Arith",
           "package": "Paraiso",
@@ -7962,6 +8611,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Arith",
           "package": "Paraiso",
@@ -7975,6 +8625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Broadcast",
           "package": "Paraiso",
@@ -7984,6 +8635,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Broadcast",
           "package": "Paraiso",
@@ -7998,6 +8650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eedges where the order matters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "EOrd",
           "package": "Paraiso",
@@ -8008,6 +8661,7 @@
         "index": {
           "description": "edges where the order matters",
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "EOrd",
           "package": "Paraiso",
@@ -8022,6 +8676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean unordered edge.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "EUnord",
           "package": "Paraiso",
@@ -8032,6 +8687,7 @@
         "index": {
           "description": "an unordered edge",
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "EUnord",
           "package": "Paraiso",
@@ -8045,6 +8701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Imm",
           "package": "Paraiso",
@@ -8054,6 +8711,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Imm",
           "package": "Paraiso",
@@ -8067,6 +8725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Kernel",
           "package": "Paraiso",
@@ -8076,6 +8735,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Kernel",
           "package": "Paraiso",
@@ -8089,6 +8749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Load",
           "package": "Paraiso",
@@ -8098,6 +8759,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Load",
           "package": "Paraiso",
@@ -8111,6 +8773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "LoadIndex",
           "package": "Paraiso",
@@ -8120,6 +8783,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "LoadIndex",
           "package": "Paraiso",
@@ -8133,6 +8797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "LoadSize",
           "package": "Paraiso",
@@ -8142,6 +8807,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "LoadSize",
           "package": "Paraiso",
@@ -8156,6 +8822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn instruction node. An \u003ccode\u003e\u003ca\u003eNInst\u003c/a\u003e\u003c/code\u003e node only connects to \u003ccode\u003e\u003ca\u003eNValue\u003c/a\u003e\u003c/code\u003e nodes.\n The number of input and output edges an \u003ccode\u003e\u003ca\u003eNValue\u003c/a\u003e\u003c/code\u003e node has is specified by its \u003ccode\u003e\u003ca\u003eArity\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "NInst",
           "package": "Paraiso",
@@ -8166,6 +8833,7 @@
         "index": {
           "description": "An instruction node An NInst node only connects to NValue nodes The number of input and output edges an NValue node has is specified by its Arity",
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "NInst",
           "package": "Paraiso",
@@ -8180,6 +8848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value node. An \u003ccode\u003e\u003ca\u003eNValue\u003c/a\u003e\u003c/code\u003e node only connects to \u003ccode\u003e\u003ca\u003eNInst\u003c/a\u003e\u003c/code\u003e nodes.\n An \u003ccode\u003e\u003ca\u003eNValue\u003c/a\u003e\u003c/code\u003e node has one and only one input edge, and has arbitrary number of output edges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "NValue",
           "package": "Paraiso",
@@ -8190,6 +8859,7 @@
         "index": {
           "description": "value node An NValue node only connects to NInst nodes An NValue node has one and only one input edge and has arbitrary number of output edges",
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "NValue",
           "package": "Paraiso",
@@ -8203,6 +8873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Reduce",
           "package": "Paraiso",
@@ -8212,6 +8883,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Reduce",
           "package": "Paraiso",
@@ -8225,6 +8897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Setup",
           "package": "Paraiso",
@@ -8234,6 +8907,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Setup",
           "package": "Paraiso",
@@ -8247,6 +8921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Shift",
           "package": "Paraiso",
@@ -8256,6 +8931,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Shift",
           "package": "Paraiso",
@@ -8269,6 +8945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "StaticIdx",
           "package": "Paraiso",
@@ -8278,6 +8955,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "StaticIdx",
           "package": "Paraiso",
@@ -8291,6 +8969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Store",
           "package": "Paraiso",
@@ -8300,6 +8979,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "Store",
           "package": "Paraiso",
@@ -8313,6 +8993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "dataflow",
           "package": "Paraiso",
@@ -8322,6 +9003,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "dataflow",
           "package": "Paraiso",
@@ -8334,6 +9016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "fromStaticIdx",
           "package": "Paraiso",
@@ -8343,6 +9026,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "fromStaticIdx",
           "package": "Paraiso",
@@ -8357,6 +9041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget annotation of the node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "getA",
           "package": "Paraiso",
@@ -8367,6 +9052,7 @@
         "index": {
           "description": "get annotation of the node",
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "getA",
           "normalized": "Node a b c-\u003ec",
@@ -8382,6 +9068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe machine-global annotations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "globalAnnotation",
           "package": "Paraiso",
@@ -8392,6 +9079,7 @@
         "index": {
           "description": "The machine-global annotations",
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "globalAnnotation",
           "package": "Paraiso",
@@ -8406,6 +9094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e annotation from one type to another, while referring to the node indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "imap",
           "package": "Paraiso",
@@ -8416,6 +9105,7 @@
         "index": {
           "description": "Map the Graph annotation from one type to another while referring to the node indices",
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "imap",
           "normalized": "(Node-\u003ea-\u003eb)-\u003eGraph c d a-\u003eGraph c d b",
@@ -8430,6 +9120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "kernelName",
           "package": "Paraiso",
@@ -8439,6 +9130,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "kernelName",
           "package": "Paraiso",
@@ -8453,6 +9145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e annotation from one type to another. Unfortunately we cannot make one data\n both the instances of \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e, so \u003ccode\u003e\u003ca\u003enmap\u003c/a\u003e\u003c/code\u003e is a standalone function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "nmap",
           "package": "Paraiso",
@@ -8463,6 +9156,7 @@
         "index": {
           "description": "Map the Graph annotation from one type to another Unfortunately we cannot make one data both the instances of Graph and Functor so nmap is standalone function",
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "nmap",
           "normalized": "(a-\u003eb)-\u003eGraph c d a-\u003eGraph c d b",
@@ -8478,6 +9172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of static orthotopes \n  (its identifier, Realm and Type carried in the form of \u003ccode\u003eNamedValue\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Graph",
           "name": "staticValues",
           "package": "Paraiso",
@@ -8488,6 +9183,7 @@
         "index": {
           "description": "The list of static orthotopes its identifier Realm and Type carried in the form of NamedValue",
           "hierarchy": "Language Paraiso OM Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Graph",
           "name": "staticValues",
           "package": "Paraiso",
@@ -8501,6 +9197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.PrettyPrint",
           "name": "PrettyPrint",
           "package": "Paraiso",
@@ -8509,6 +9206,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM PrettyPrint",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.PrettyPrint",
           "name": "PrettyPrint",
           "package": "Paraiso",
@@ -8523,6 +9221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epretty print the OM, neglecting any annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.PrettyPrint",
           "name": "prettyPrint",
           "package": "Paraiso",
@@ -8533,6 +9232,7 @@
         "index": {
           "description": "pretty print the OM neglecting any annotations",
           "hierarchy": "Language Paraiso OM PrettyPrint",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.PrettyPrint",
           "name": "prettyPrint",
           "normalized": "OM a b c-\u003eText",
@@ -8549,6 +9249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epretty print the OM with your choice of prettyprinter for annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.PrettyPrint",
           "name": "prettyPrintA",
           "package": "Paraiso",
@@ -8559,6 +9260,7 @@
         "index": {
           "description": "pretty print the OM with your choice of prettyprinter for annotation",
           "hierarchy": "Language Paraiso OM PrettyPrint",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.PrettyPrint",
           "name": "prettyPrintA",
           "normalized": "(a-\u003e[Text])-\u003eOM b c a-\u003eText",
@@ -8575,6 +9277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epretty print the OM, using a default printing for annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.PrettyPrint",
           "name": "prettyPrintA1",
           "package": "Paraiso",
@@ -8585,6 +9288,7 @@
         "index": {
           "description": "pretty print the OM using default printing for annotation",
           "hierarchy": "Language Paraiso OM PrettyPrint",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.PrettyPrint",
           "name": "prettyPrintA1",
           "normalized": "OM a b Annotation-\u003eText",
@@ -8601,6 +9305,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eRealm\u003c/a\u003e\u003c/code\u003e represents how the data reside in Orthotope Machines. \n \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e data are n-dimensional array that is distributed among nodes.\n \u003ccode\u003e\u003ca\u003eScalar\u003c/a\u003e\u003c/code\u003e data are single-point value, possibly reside in the master node.\n .\n Be noted that \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eScalar\u003c/a\u003e\u003c/code\u003e were initially called \u003ccode\u003eLocal\u003c/code\u003e and \u003ccode\u003eGlobal\u003c/code\u003e.\n but I opted for more conventional notation. If you find any historical notation\n remaining, please let me know!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Realm",
           "name": "Realm",
           "package": "Paraiso",
@@ -8610,6 +9315,7 @@
         "index": {
           "description": "The Realm represents how the data reside in Orthotope Machines Array data are n-dimensional array that is distributed among nodes Scalar data are single-point value possibly reside in the master node Be noted that Array and Scalar were initially called Local and Global but opted for more conventional notation If you find any historical notation remaining please let me know",
           "hierarchy": "Language Paraiso OM Realm",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Realm",
           "name": "Realm",
           "package": "Paraiso",
@@ -8624,6 +9330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue-level representations of realm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Realm",
           "name": "Realm",
           "package": "Paraiso",
@@ -8633,6 +9340,7 @@
         "index": {
           "description": "Value-level representations of realm",
           "hierarchy": "Language Paraiso OM Realm",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Realm",
           "name": "Realm",
           "package": "Paraiso",
@@ -8647,6 +9355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeans of obtaining value-level realm from things\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Realm",
           "name": "Realmable",
           "package": "Paraiso",
@@ -8656,6 +9365,7 @@
         "index": {
           "description": "Means of obtaining value-level realm from things",
           "hierarchy": "Language Paraiso OM Realm",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Realm",
           "name": "Realmable",
           "package": "Paraiso",
@@ -8670,6 +9380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-level representation of \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e realm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Realm",
           "name": "TArray",
           "package": "Paraiso",
@@ -8679,6 +9390,7 @@
         "index": {
           "description": "Type-level representation of Array realm",
           "hierarchy": "Language Paraiso OM Realm",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Realm",
           "name": "TArray",
           "package": "Paraiso",
@@ -8693,6 +9405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-level representations of realm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Realm",
           "name": "TRealm",
           "package": "Paraiso",
@@ -8702,6 +9415,7 @@
         "index": {
           "description": "Type-level representations of realm",
           "hierarchy": "Language Paraiso OM Realm",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Realm",
           "name": "TRealm",
           "package": "Paraiso",
@@ -8716,6 +9430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-level representation of \u003ccode\u003e\u003ca\u003eScalar\u003c/a\u003e\u003c/code\u003e realm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Realm",
           "name": "TScalar",
           "package": "Paraiso",
@@ -8725,6 +9440,7 @@
         "index": {
           "description": "Type-level representation of Scalar realm",
           "hierarchy": "Language Paraiso OM Realm",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Realm",
           "name": "TScalar",
           "package": "Paraiso",
@@ -8739,6 +9455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue-level representation of \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e realm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Realm",
           "name": "Array",
           "package": "Paraiso",
@@ -8749,6 +9466,7 @@
         "index": {
           "description": "Value-level representation of Array realm",
           "hierarchy": "Language Paraiso OM Realm",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Realm",
           "name": "Array",
           "package": "Paraiso",
@@ -8763,6 +9481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue-level representation of \u003ccode\u003e\u003ca\u003eScalar\u003c/a\u003e\u003c/code\u003e realm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Realm",
           "name": "Scalar",
           "package": "Paraiso",
@@ -8773,6 +9492,7 @@
         "index": {
           "description": "Value-level representation of Scalar realm",
           "hierarchy": "Language Paraiso OM Realm",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Realm",
           "name": "Scalar",
           "package": "Paraiso",
@@ -8786,6 +9506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Realm",
           "name": "TArray",
           "package": "Paraiso",
@@ -8795,6 +9516,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Realm",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Realm",
           "name": "TArray",
           "package": "Paraiso",
@@ -8808,6 +9530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Realm",
           "name": "TScalar",
           "package": "Paraiso",
@@ -8817,6 +9540,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Realm",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Realm",
           "name": "TScalar",
           "package": "Paraiso",
@@ -8830,6 +9554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Realm",
           "name": "realm",
           "package": "Paraiso",
@@ -8839,6 +9564,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Realm",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Realm",
           "name": "realm",
           "normalized": "a-\u003eRealm",
@@ -8853,6 +9579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Realm",
           "name": "tRealm",
           "package": "Paraiso",
@@ -8862,6 +9589,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Realm",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Realm",
           "name": "tRealm",
           "normalized": "a-\u003eRealm",
@@ -8877,6 +9605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Realm",
           "name": "unitTRealm",
           "package": "Paraiso",
@@ -8886,6 +9615,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Realm",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Realm",
           "name": "unitTRealm",
           "package": "Paraiso",
@@ -8899,6 +9629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Reduce",
           "name": "Reduce",
           "package": "Paraiso",
@@ -8907,6 +9638,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Reduce",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Reduce",
           "name": "Reduce",
           "package": "Paraiso",
@@ -8920,6 +9652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Reduce",
           "name": "Operator",
           "package": "Paraiso",
@@ -8928,6 +9661,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Reduce",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Reduce",
           "name": "Operator",
           "package": "Paraiso",
@@ -8941,6 +9675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Reduce",
           "name": "Max",
           "package": "Paraiso",
@@ -8950,6 +9685,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Reduce",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Reduce",
           "name": "Max",
           "package": "Paraiso",
@@ -8963,6 +9699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Reduce",
           "name": "Min",
           "package": "Paraiso",
@@ -8972,6 +9709,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Reduce",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Reduce",
           "name": "Min",
           "package": "Paraiso",
@@ -8985,6 +9723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Reduce",
           "name": "Sum",
           "package": "Paraiso",
@@ -8994,6 +9733,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Reduce",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Reduce",
           "name": "Sum",
           "package": "Paraiso",
@@ -9007,6 +9747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Reduce",
           "name": "toArith",
           "package": "Paraiso",
@@ -9016,6 +9757,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Reduce",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Reduce",
           "name": "toArith",
           "normalized": "Operator-\u003eOperator",
@@ -9032,6 +9774,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e is flowing through the OM dataflow graph.\n \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e carries the type and homogeneity information about the dataflow as Type.\n Therefore, operation between \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e with wrong type will raise type errors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Value",
           "name": "Value",
           "package": "Paraiso",
@@ -9041,6 +9784,7 @@
         "index": {
           "description": "The Value is flowing through the OM dataflow graph Value carries the type and homogeneity information about the dataflow as Type Therefore operation between Value with wrong type will raise type errors",
           "hierarchy": "Language Paraiso OM Value",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Value",
           "name": "Value",
           "package": "Paraiso",
@@ -9055,6 +9799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estatic value type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Value",
           "name": "StaticValue",
           "package": "Paraiso",
@@ -9064,6 +9809,7 @@
         "index": {
           "description": "static value type",
           "hierarchy": "Language Paraiso OM Value",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Value",
           "name": "StaticValue",
           "package": "Paraiso",
@@ -9078,6 +9824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue type, with its realm and content type discriminated in type level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Value",
           "name": "Value",
           "package": "Paraiso",
@@ -9087,6 +9834,7 @@
         "index": {
           "description": "value type with its realm and content type discriminated in type level",
           "hierarchy": "Language Paraiso OM Value",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Value",
           "name": "Value",
           "package": "Paraiso",
@@ -9101,6 +9849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata obtained as an immediate value.\n \u003ccode\u003e\u003ca\u003erealm\u003c/a\u003e\u003c/code\u003e carries a type-level realm information, \n \u003ccode\u003e\u003ca\u003econtent\u003c/a\u003e\u003c/code\u003e is the immediate value to be stored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Value",
           "name": "FromImm",
           "package": "Paraiso",
@@ -9111,6 +9860,7 @@
         "index": {
           "description": "data obtained as an immediate value realm carries type-level realm information content is the immediate value to be stored",
           "hierarchy": "Language Paraiso OM Value",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Value",
           "name": "FromImm",
           "package": "Paraiso",
@@ -9125,6 +9875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata obtained from the dataflow graph.\n \u003ccode\u003e\u003ca\u003erealm\u003c/a\u003e\u003c/code\u003e carries a type-level realm information, \n \u003ccode\u003e\u003ca\u003econtent\u003c/a\u003e\u003c/code\u003e carries only type information and its ingredient is nonsignificant\n and can be \u003ccode\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Value",
           "name": "FromNode",
           "package": "Paraiso",
@@ -9135,6 +9886,7 @@
         "index": {
           "description": "data obtained from the dataflow graph realm carries type-level realm information content carries only type information and its ingredient is nonsignificant and can be undefined",
           "hierarchy": "Language Paraiso OM Value",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Value",
           "name": "FromNode",
           "package": "Paraiso",
@@ -9148,6 +9900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Value",
           "name": "StaticValue",
           "package": "Paraiso",
@@ -9157,6 +9910,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Value",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Value",
           "name": "StaticValue",
           "package": "Paraiso",
@@ -9170,6 +9924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Value",
           "name": "content",
           "package": "Paraiso",
@@ -9179,6 +9934,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Value",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Value",
           "name": "content",
           "package": "Paraiso",
@@ -9191,6 +9947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Value",
           "name": "node",
           "package": "Paraiso",
@@ -9200,6 +9957,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Value",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Value",
           "name": "node",
           "package": "Paraiso",
@@ -9212,6 +9970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM.Value",
           "name": "realm",
           "package": "Paraiso",
@@ -9221,6 +9980,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM Value",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM.Value",
           "name": "realm",
           "package": "Paraiso",
@@ -9233,6 +9993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM",
           "name": "OM",
           "package": "Paraiso",
@@ -9241,6 +10002,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM",
           "name": "OM",
           "package": "Paraiso",
@@ -9255,6 +10017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePOM is Primordial Orthotope Machine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM",
           "name": "OM",
           "package": "Paraiso",
@@ -9264,6 +10027,7 @@
         "index": {
           "description": "POM is Primordial Orthotope Machine",
           "hierarchy": "Language Paraiso OM",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM",
           "name": "OM",
           "package": "Paraiso",
@@ -9277,6 +10041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM",
           "name": "OM",
           "package": "Paraiso",
@@ -9286,6 +10051,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM",
           "name": "OM",
           "package": "Paraiso",
@@ -9299,6 +10065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM",
           "name": "kernels",
           "package": "Paraiso",
@@ -9308,6 +10075,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM",
           "name": "kernels",
           "package": "Paraiso",
@@ -9321,6 +10089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a POM easily and consistently.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM",
           "name": "makeOM",
           "package": "Paraiso",
@@ -9330,6 +10099,7 @@
         "index": {
           "description": "create POM easily and consistently",
           "hierarchy": "Language Paraiso OM",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM",
           "name": "makeOM",
           "normalized": "Name-\u003ea-\u003e[Named DynValue]-\u003e[Named(Builder b c a())]-\u003eOM b c a",
@@ -9345,6 +10115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM",
           "name": "omName",
           "package": "Paraiso",
@@ -9354,6 +10125,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM",
           "name": "omName",
           "package": "Paraiso",
@@ -9367,6 +10139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.OM",
           "name": "setup",
           "package": "Paraiso",
@@ -9376,6 +10149,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso OM",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.OM",
           "name": "setup",
           "package": "Paraiso",
@@ -9389,6 +10163,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe volume of mesh that contains the correct results shrinks as\n the stencil calculation proceeds. This is because in stencil\n calculation each mesh access to its neighbour meshes and for\n boundary meshes it cannot be obtained.\n\u003c/p\u003e\u003cp\u003eboundaryAnalysis marks each node of the Orthotope Machine with the\n region for which the computation result is Valid.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization.BoundaryAnalysis",
           "name": "BoundaryAnalysis",
           "package": "Paraiso",
@@ -9398,6 +10173,7 @@
         "index": {
           "description": "The volume of mesh that contains the correct results shrinks as the stencil calculation proceeds This is because in stencil calculation each mesh access to its neighbour meshes and for boundary meshes it cannot be obtained boundaryAnalysis marks each node of the Orthotope Machine with the region for which the computation result is Valid",
           "hierarchy": "Language Paraiso Optimization BoundaryAnalysis",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization.BoundaryAnalysis",
           "name": "BoundaryAnalysis",
           "package": "Paraiso",
@@ -9411,6 +10187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization.BoundaryAnalysis",
           "name": "boundaryAnalysis",
           "package": "Paraiso",
@@ -9420,6 +10197,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Optimization BoundaryAnalysis",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization.BoundaryAnalysis",
           "name": "boundaryAnalysis",
           "normalized": "Graph a b Annotation-\u003eGraph a b Annotation",
@@ -9435,6 +10213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization.DeadCodeElimination",
           "name": "DeadCodeElimination",
           "package": "Paraiso",
@@ -9443,6 +10222,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Optimization DeadCodeElimination",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization.DeadCodeElimination",
           "name": "DeadCodeElimination",
           "package": "Paraiso",
@@ -9457,6 +10237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean optimization that changes nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization.DeadCodeElimination",
           "name": "deadCodeElimination",
           "package": "Paraiso",
@@ -9467,6 +10248,7 @@
         "index": {
           "description": "an optimization that changes nothing",
           "hierarchy": "Language Paraiso Optimization DeadCodeElimination",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization.DeadCodeElimination",
           "name": "deadCodeElimination",
           "package": "Paraiso",
@@ -9481,6 +10263,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe choice of making each Orthotope Machine node Manifest or not\n largely depends on the user or the automated tuning.  However, code\n generators requires that nodes are Manifest at certain contexts.\n\u003c/p\u003e\u003cp\u003edecideAllocation makes sure that such nodes are marked as Manifest,\n and also makes sure that every node is marked with at least some \n Allocation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization.DecideAllocation",
           "name": "DecideAllocation",
           "package": "Paraiso",
@@ -9490,6 +10273,7 @@
         "index": {
           "description": "The choice of making each Orthotope Machine node Manifest or not largely depends on the user or the automated tuning However code generators requires that nodes are Manifest at certain contexts decideAllocation makes sure that such nodes are marked as Manifest and also makes sure that every node is marked with at least some Allocation",
           "hierarchy": "Language Paraiso Optimization DecideAllocation",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization.DecideAllocation",
           "name": "DecideAllocation",
           "package": "Paraiso",
@@ -9503,6 +10287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization.DecideAllocation",
           "name": "decideAllocation",
           "package": "Paraiso",
@@ -9512,6 +10297,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Optimization DecideAllocation",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization.DecideAllocation",
           "name": "decideAllocation",
           "package": "Paraiso",
@@ -9526,6 +10312,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module performs dependency analysis for generating subroutines. \n\u003c/p\u003e\u003col\u003e\u003cli\u003e Direct dependency between Manifest/Existing nodes X and Y: the\n subroutine that outputs Y needs to read X as input\n\u003c/li\u003e\u003cli\u003e Indirect dependency between Manifest nodes X and Y: the\n computation of Y requires that the computation of X is finished,\n and therefore X and Y cannot be output by the same subroutine\n\u003c/li\u003e\u003cli\u003e Calculation dependency between any node X and Manifest node Y:\n in the subroutine you output Y you need to calculate X.\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003ec.f. \u003ccode\u003e\u003ca\u003eDependency\u003c/a\u003e\u003c/code\u003e \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization.DependencyAnalysis",
           "name": "DependencyAnalysis",
           "package": "Paraiso",
@@ -9535,6 +10322,7 @@
         "index": {
           "description": "This module performs dependency analysis for generating subroutines Direct dependency between Manifest Existing nodes and the subroutine that outputs needs to read as input Indirect dependency between Manifest nodes and the computation of requires that the computation of is finished and therefore and cannot be output by the same subroutine Calculation dependency between any node and Manifest node in the subroutine you output you need to calculate c.f Dependency",
           "hierarchy": "Language Paraiso Optimization DependencyAnalysis",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization.DependencyAnalysis",
           "name": "DependencyAnalysis",
           "package": "Paraiso",
@@ -9549,6 +10337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive unique numbering to each groups in the entire OM \n   in preparation for code generation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization.DependencyAnalysis",
           "name": "writeGrouping",
           "package": "Paraiso",
@@ -9559,6 +10348,7 @@
         "index": {
           "description": "Give unique numbering to each groups in the entire OM in preparation for code generation",
           "hierarchy": "Language Paraiso Optimization DependencyAnalysis",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization.DependencyAnalysis",
           "name": "writeGrouping",
           "normalized": "OM a b Annotation-\u003eOM a b Annotation",
@@ -9575,6 +10365,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic definitions for optimization \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization.Graph",
           "name": "Graph",
           "package": "Paraiso",
@@ -9584,6 +10375,7 @@
         "index": {
           "description": "Basic definitions for optimization",
           "hierarchy": "Language Paraiso Optimization Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization.Graph",
           "name": "Graph",
           "package": "Paraiso",
@@ -9598,6 +10390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe most frequent type of optimization is which \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization.Graph",
           "name": "Optimization",
           "package": "Paraiso",
@@ -9607,6 +10400,7 @@
         "index": {
           "description": "the most frequent type of optimization is which",
           "hierarchy": "Language Paraiso Optimization Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization.Graph",
           "name": "Optimization",
           "package": "Paraiso",
@@ -9620,6 +10414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization.Graph",
           "name": "OptimizationEx",
           "package": "Paraiso",
@@ -9628,6 +10423,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Optimization Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization.Graph",
           "name": "OptimizationEx",
           "package": "Paraiso",
@@ -9641,6 +10437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization.Graph",
           "name": "OptimizationOf",
           "package": "Paraiso",
@@ -9649,6 +10446,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Optimization Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization.Graph",
           "name": "OptimizationOf",
           "package": "Paraiso",
@@ -9663,6 +10461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Ready v g) indicates that the pair (v, g) has all the instances \n   for the full optimizations to be serviced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization.Graph",
           "name": "Ready",
           "package": "Paraiso",
@@ -9672,6 +10471,7 @@
         "index": {
           "description": "Ready indicates that the pair has all the instances for the full optimizations to be serviced",
           "hierarchy": "Language Paraiso Optimization Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization.Graph",
           "name": "Ready",
           "package": "Paraiso",
@@ -9686,6 +10486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emap the graph optimization to each dataflow graph of the kernel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization.Graph",
           "name": "gmap",
           "package": "Paraiso",
@@ -9696,6 +10497,7 @@
         "index": {
           "description": "map the graph optimization to each dataflow graph of the kernel",
           "hierarchy": "Language Paraiso Optimization Graph",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization.Graph",
           "name": "gmap",
           "normalized": "(Graph a b c-\u003eGraph a b c)-\u003eOM a b c-\u003eOM a b c",
@@ -9710,6 +10512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization.Identity",
           "name": "Identity",
           "package": "Paraiso",
@@ -9718,6 +10521,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Optimization Identity",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization.Identity",
           "name": "Identity",
           "package": "Paraiso",
@@ -9732,6 +10536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean optimization that changes nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization.Identity",
           "name": "identity",
           "package": "Paraiso",
@@ -9742,6 +10547,7 @@
         "index": {
           "description": "an optimization that changes nothing",
           "hierarchy": "Language Paraiso Optimization Identity",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization.Identity",
           "name": "identity",
           "package": "Paraiso",
@@ -9755,6 +10561,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003etipycal optimization menu\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization",
           "name": "Optimization",
           "package": "Paraiso",
@@ -9764,6 +10571,7 @@
         "index": {
           "description": "tipycal optimization menu",
           "hierarchy": "Language Paraiso Optimization",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization",
           "name": "Optimization",
           "package": "Paraiso",
@@ -9777,6 +10585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization",
           "name": "Level",
           "package": "Paraiso",
@@ -9785,6 +10594,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Optimization",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization",
           "name": "Level",
           "package": "Paraiso",
@@ -9799,6 +10609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Ready v g) indicates that the pair (v, g) has all the instances \n   for the full optimizations to be serviced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization",
           "name": "Ready",
           "package": "Paraiso",
@@ -9808,6 +10619,7 @@
         "index": {
           "description": "Ready indicates that the pair has all the instances for the full optimizations to be serviced",
           "hierarchy": "Language Paraiso Optimization",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization",
           "name": "Ready",
           "package": "Paraiso",
@@ -9821,6 +10633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization",
           "name": "O0",
           "package": "Paraiso",
@@ -9830,6 +10643,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Optimization",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization",
           "name": "O0",
           "package": "Paraiso",
@@ -9842,6 +10656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization",
           "name": "O1",
           "package": "Paraiso",
@@ -9851,6 +10666,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Optimization",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization",
           "name": "O1",
           "package": "Paraiso",
@@ -9863,6 +10679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization",
           "name": "O2",
           "package": "Paraiso",
@@ -9872,6 +10689,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Optimization",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization",
           "name": "O2",
           "package": "Paraiso",
@@ -9884,6 +10702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization",
           "name": "O3",
           "package": "Paraiso",
@@ -9893,6 +10712,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Optimization",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization",
           "name": "O3",
           "package": "Paraiso",
@@ -9905,6 +10725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization",
           "name": "Unoptimized",
           "package": "Paraiso",
@@ -9914,6 +10735,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Optimization",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization",
           "name": "Unoptimized",
           "package": "Paraiso",
@@ -9927,6 +10749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Optimization",
           "name": "optimize",
           "package": "Paraiso",
@@ -9936,6 +10759,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Optimization",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Optimization",
           "name": "optimize",
           "normalized": "Level-\u003eOM a b Annotation-\u003eOM a b Annotation",
@@ -9951,6 +10775,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIn geometry, an \u003ccode\u003eOrthotope\u003c/code\u003e (also called a hyperrectangle or a box) is\n  the generalization of a rectangle for higher dimensions, formally\n  defined as the Cartesian product of \u003ccode\u003e\u003ca\u003eInterval\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Orthotope",
           "name": "Orthotope",
           "package": "Paraiso",
@@ -9960,6 +10785,7 @@
         "index": {
           "description": "In geometry an Orthotope also called hyperrectangle or box is the generalization of rectangle for higher dimensions formally defined as the Cartesian product of Interval",
           "hierarchy": "Language Paraiso Orthotope",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Orthotope",
           "name": "Orthotope",
           "package": "Paraiso",
@@ -9973,6 +10799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Orthotope",
           "name": "Orthotope0",
           "package": "Paraiso",
@@ -9981,6 +10808,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Orthotope",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Orthotope",
           "name": "Orthotope0",
           "package": "Paraiso",
@@ -9994,6 +10822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Orthotope",
           "name": "Orthotope1",
           "package": "Paraiso",
@@ -10002,6 +10831,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Orthotope",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Orthotope",
           "name": "Orthotope1",
           "package": "Paraiso",
@@ -10015,6 +10845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Orthotope",
           "name": "Orthotope2",
           "package": "Paraiso",
@@ -10023,6 +10854,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Orthotope",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Orthotope",
           "name": "Orthotope2",
           "package": "Paraiso",
@@ -10036,6 +10868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Orthotope",
           "name": "Orthotope3",
           "package": "Paraiso",
@@ -10044,6 +10877,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Orthotope",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Orthotope",
           "name": "Orthotope3",
           "package": "Paraiso",
@@ -10058,6 +10892,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIn mathematics, a pi-system is a non-empty family of sets that is closed\nunder finite intersections.  \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.PiSystem",
           "name": "PiSystem",
           "package": "Paraiso",
@@ -10067,6 +10902,7 @@
         "index": {
           "description": "In mathematics pi-system is non-empty family of sets that is closed under finite intersections",
           "hierarchy": "Language Paraiso PiSystem",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.PiSystem",
           "name": "PiSystem",
           "package": "Paraiso",
@@ -10080,6 +10916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.PiSystem",
           "name": "PiSystem",
           "package": "Paraiso",
@@ -10088,6 +10925,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso PiSystem",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.PiSystem",
           "name": "PiSystem",
           "package": "Paraiso",
@@ -10102,6 +10940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean empty set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.PiSystem",
           "name": "empty",
           "package": "Paraiso",
@@ -10112,6 +10951,7 @@
         "index": {
           "description": "an empty set",
           "hierarchy": "Language Paraiso PiSystem",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.PiSystem",
           "name": "empty",
           "package": "Paraiso",
@@ -10125,6 +10965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eintersection of two sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.PiSystem",
           "name": "intersection",
           "package": "Paraiso",
@@ -10135,6 +10976,7 @@
         "index": {
           "description": "intersection of two sets",
           "hierarchy": "Language Paraiso PiSystem",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.PiSystem",
           "name": "intersection",
           "normalized": "a-\u003ea-\u003ea",
@@ -10150,6 +10992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis this an empty set?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.PiSystem",
           "name": "null",
           "package": "Paraiso",
@@ -10160,6 +11003,7 @@
         "index": {
           "description": "is this an empty set",
           "hierarchy": "Language Paraiso PiSystem",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.PiSystem",
           "name": "null",
           "normalized": "a-\u003eBool",
@@ -10175,6 +11019,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ean extension of the standard Prelude for paraiso.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Prelude",
           "name": "Prelude",
           "package": "Paraiso",
@@ -10184,6 +11029,7 @@
         "index": {
           "description": "an extension of the standard Prelude for paraiso",
           "hierarchy": "Language Paraiso Prelude",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Prelude",
           "name": "Prelude",
           "package": "Paraiso",
@@ -10197,6 +11043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Prelude",
           "name": "Boolean",
           "package": "Paraiso",
@@ -10205,6 +11052,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Prelude",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Prelude",
           "name": "Boolean",
           "package": "Paraiso",
@@ -10219,6 +11067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn efficient String that is used thoroughout Paraiso modules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Prelude",
           "name": "Text",
           "package": "Paraiso",
@@ -10228,6 +11077,7 @@
         "index": {
           "description": "An efficient String that is used thoroughout Paraiso modules",
           "hierarchy": "Language Paraiso Prelude",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Prelude",
           "name": "Text",
           "package": "Paraiso",
@@ -10241,6 +11091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Prelude",
           "name": "(&&)",
           "package": "Paraiso",
@@ -10250,6 +11101,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Prelude",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Prelude",
           "name": "(&&) &&",
           "normalized": "a-\u003ea-\u003ea",
@@ -10264,6 +11116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Prelude",
           "name": "(++)",
           "package": "Paraiso",
@@ -10273,6 +11126,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Prelude",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Prelude",
           "name": "(++) ++",
           "normalized": "a-\u003ea-\u003ea",
@@ -10287,6 +11141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Prelude",
           "name": "not",
           "package": "Paraiso",
@@ -10296,6 +11151,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Prelude",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Prelude",
           "name": "not",
           "normalized": "a-\u003ea",
@@ -10310,6 +11166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Prelude",
           "name": "showT",
           "package": "Paraiso",
@@ -10319,6 +11176,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Prelude",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Prelude",
           "name": "showT",
           "normalized": "a-\u003eText",
@@ -10333,6 +11191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Prelude",
           "name": "true",
           "package": "Paraiso",
@@ -10342,6 +11201,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Prelude",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Prelude",
           "name": "true",
           "package": "Paraiso",
@@ -10354,6 +11214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "Genetic",
           "package": "Paraiso",
@@ -10362,6 +11223,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Tuning Genetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "Genetic",
           "package": "Paraiso",
@@ -10375,6 +11237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "Genome",
           "package": "Paraiso",
@@ -10383,6 +11246,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Tuning Genetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "Genome",
           "package": "Paraiso",
@@ -10396,6 +11260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "Species",
           "package": "Paraiso",
@@ -10404,6 +11269,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Tuning Genetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "Species",
           "package": "Paraiso",
@@ -10417,6 +11283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "Species",
           "package": "Paraiso",
@@ -10426,6 +11293,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Tuning Genetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "Species",
           "package": "Paraiso",
@@ -10439,6 +11307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "cross",
           "package": "Paraiso",
@@ -10448,6 +11317,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Tuning Genetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "cross",
           "normalized": "Genome-\u003eGenome-\u003eIO Genome",
@@ -10462,6 +11332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "generateIO",
           "package": "Paraiso",
@@ -10471,6 +11342,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Tuning Genetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "generateIO",
           "normalized": "Species a b-\u003eIO[(FilePath,Text)]",
@@ -10486,6 +11358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "machine",
           "package": "Paraiso",
@@ -10495,6 +11368,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Tuning Genetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "machine",
           "package": "Paraiso",
@@ -10507,6 +11381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "makeSpecies",
           "package": "Paraiso",
@@ -10516,6 +11391,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Tuning Genetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "makeSpecies",
           "normalized": "Setup a b-\u003eOM a b Annotation-\u003eSpecies a b",
@@ -10531,6 +11407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "mutate",
           "package": "Paraiso",
@@ -10540,6 +11417,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Tuning Genetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "mutate",
           "normalized": "Genome-\u003eIO Genome",
@@ -10554,6 +11432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "overwriteGenome",
           "package": "Paraiso",
@@ -10563,6 +11442,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Tuning Genetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "overwriteGenome",
           "normalized": "Genome-\u003eSpecies a b-\u003eSpecies a b",
@@ -10578,6 +11458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "readGenome",
           "package": "Paraiso",
@@ -10587,6 +11468,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Tuning Genetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "readGenome",
           "normalized": "Species a b-\u003eGenome",
@@ -10602,6 +11484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "setup",
           "package": "Paraiso",
@@ -10611,6 +11494,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Tuning Genetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "setup",
           "package": "Paraiso",
@@ -10623,6 +11507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "triangulate",
           "package": "Paraiso",
@@ -10632,6 +11517,7 @@
         },
         "index": {
           "hierarchy": "Language Paraiso Tuning Genetic",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso.Tuning.Genetic",
           "name": "triangulate",
           "normalized": "Genome-\u003eGenome-\u003eGenome-\u003eIO Genome",
@@ -10647,6 +11533,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParaiso main module.\n This module will export a starter-kit modules and functions in the future,\n but is useless right now.\n The building-blocks of Paraiso programs are in \n the module \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eA series of intoduction is being written in Japanese\n \u003ca\u003ehttp://d.hatena.ne.jp/nushio/searchdiary?word=*%5BICFDP%5D\u003c/a\u003e\n and English\n \u003ca\u003ehttp://nushisblogger.blogspot.jp/search/label/ICFDP\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eAlso refer to the wiki\n \u003ca\u003ehttp://www.paraiso-lang.org/wiki/\u003c/a\u003e and the paper\n \u003ca\u003ehttp://arxiv.org/abs/1204.4779\u003c/a\u003e for more detail.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso",
           "name": "Paraiso",
           "package": "Paraiso",
@@ -10656,6 +11543,7 @@
         "index": {
           "description": "Paraiso main module This module will export starter-kit modules and functions in the future but is useless right now The building-blocks of Paraiso programs are in the module Builder series of intoduction is being written in Japanese http d.hatena.ne.jp nushio searchdiary word BICFDP and English http nushisblogger.blogspot.jp search label ICFDP Also refer to the wiki http www.paraiso-lang.org wiki and the paper http arxiv.org abs for more detail",
           "hierarchy": "Language Paraiso",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso",
           "name": "Paraiso",
           "package": "Paraiso",
@@ -10670,6 +11558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate Wonderful Program\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:38 UTC 2014",
           "module": "Language.Paraiso",
           "name": "run",
           "package": "Paraiso",
@@ -10680,6 +11569,7 @@
         "index": {
           "description": "Generate Wonderful Program",
           "hierarchy": "Language Paraiso",
+          "indexed": "2014-03-11T16:56:38",
           "module": "Language.Paraiso",
           "name": "run",
           "normalized": "()-\u003eString",

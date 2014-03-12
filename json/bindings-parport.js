@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-parport"
+        "phrase": "bindings-parport",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "Parport",
           "package": "bindings-parport",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "Parport",
           "package": "bindings-parport",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_ADDR",
           "package": "bindings-parport",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_ADDR",
           "package": "bindings-parport",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_DATA",
           "package": "bindings-parport",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_DATA",
           "package": "bindings-parport",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_DEVICEID",
           "package": "bindings-parport",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_DEVICEID",
           "package": "bindings-parport",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_EXT_LINK",
           "package": "bindings-parport",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_EXT_LINK",
           "package": "bindings-parport",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_BECP",
           "package": "bindings-parport",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_BECP",
           "package": "bindings-parport",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_BYTE",
           "package": "bindings-parport",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_BYTE",
           "package": "bindings-parport",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_COMPAT",
           "package": "bindings-parport",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_COMPAT",
           "package": "bindings-parport",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_ECP",
           "package": "bindings-parport",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_ECP",
           "package": "bindings-parport",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_ECPRLE",
           "package": "bindings-parport",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_ECPRLE",
           "package": "bindings-parport",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_ECPSWE",
           "package": "bindings-parport",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_ECPSWE",
           "package": "bindings-parport",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_EPP",
           "package": "bindings-parport",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_EPP",
           "package": "bindings-parport",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_EPPSL",
           "package": "bindings-parport",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_EPPSL",
           "package": "bindings-parport",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_EPPSWE",
           "package": "bindings-parport",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_EPPSWE",
           "package": "bindings-parport",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_NIBBLE",
           "package": "bindings-parport",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'IEEE1284_MODE_NIBBLE",
           "package": "bindings-parport",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_DIGCAM",
           "package": "bindings-parport",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_DIGCAM",
           "package": "bindings-parport",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_FDC",
           "package": "bindings-parport",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_FDC",
           "package": "bindings-parport",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_HDC",
           "package": "bindings-parport",
@@ -400,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_HDC",
           "package": "bindings-parport",
@@ -413,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_LEGACY",
           "package": "bindings-parport",
@@ -422,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_LEGACY",
           "package": "bindings-parport",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_MEDIA",
           "package": "bindings-parport",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_MEDIA",
           "package": "bindings-parport",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_MODEM",
           "package": "bindings-parport",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_MODEM",
           "package": "bindings-parport",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_NET",
           "package": "bindings-parport",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_NET",
           "package": "bindings-parport",
@@ -501,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_OTHER",
           "package": "bindings-parport",
@@ -510,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_OTHER",
           "package": "bindings-parport",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_PCMCIA",
           "package": "bindings-parport",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_PCMCIA",
           "package": "bindings-parport",
@@ -545,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_PORTS",
           "package": "bindings-parport",
@@ -554,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_PORTS",
           "package": "bindings-parport",
@@ -567,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_PRINTER",
           "package": "bindings-parport",
@@ -576,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_PRINTER",
           "package": "bindings-parport",
@@ -589,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_SCANNER",
           "package": "bindings-parport",
@@ -598,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_SCANNER",
           "package": "bindings-parport",
@@ -611,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_SCSIADAPTER",
           "package": "bindings-parport",
@@ -620,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_SCSIADAPTER",
           "package": "bindings-parport",
@@ -633,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_UNSPEC",
           "package": "bindings-parport",
@@ -642,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CLASS_UNSPEC",
           "package": "bindings-parport",
@@ -655,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CONTROL_AUTOFD",
           "package": "bindings-parport",
@@ -664,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CONTROL_AUTOFD",
           "package": "bindings-parport",
@@ -677,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CONTROL_INIT",
           "package": "bindings-parport",
@@ -686,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CONTROL_INIT",
           "package": "bindings-parport",
@@ -699,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CONTROL_SELECT",
           "package": "bindings-parport",
@@ -708,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CONTROL_SELECT",
           "package": "bindings-parport",
@@ -721,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CONTROL_STROBE",
           "package": "bindings-parport",
@@ -730,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_CONTROL_STROBE",
           "package": "bindings-parport",
@@ -743,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_DISABLE",
           "package": "bindings-parport",
@@ -752,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_DISABLE",
           "package": "bindings-parport",
@@ -765,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_DMA_AUTO",
           "package": "bindings-parport",
@@ -774,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_DMA_AUTO",
           "package": "bindings-parport",
@@ -787,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_DMA_NOFIFO",
           "package": "bindings-parport",
@@ -796,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_DMA_NOFIFO",
           "package": "bindings-parport",
@@ -809,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_DMA_NONE",
           "package": "bindings-parport",
@@ -818,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_DMA_NONE",
           "package": "bindings-parport",
@@ -831,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_EPP_FAST",
           "package": "bindings-parport",
@@ -840,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_EPP_FAST",
           "package": "bindings-parport",
@@ -853,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_IOHI_AUTO",
           "package": "bindings-parport",
@@ -862,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_IOHI_AUTO",
           "package": "bindings-parport",
@@ -875,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_IRQ_AUTO",
           "package": "bindings-parport",
@@ -884,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_IRQ_AUTO",
           "package": "bindings-parport",
@@ -897,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_IRQ_NONE",
           "package": "bindings-parport",
@@ -906,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_IRQ_NONE",
           "package": "bindings-parport",
@@ -919,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_IRQ_PROBEONLY",
           "package": "bindings-parport",
@@ -928,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_IRQ_PROBEONLY",
           "package": "bindings-parport",
@@ -941,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_MAX",
           "package": "bindings-parport",
@@ -950,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_MAX",
           "package": "bindings-parport",
@@ -963,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_MODE_COMPAT",
           "package": "bindings-parport",
@@ -972,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_MODE_COMPAT",
           "package": "bindings-parport",
@@ -985,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_MODE_DMA",
           "package": "bindings-parport",
@@ -994,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_MODE_DMA",
           "package": "bindings-parport",
@@ -1007,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_MODE_ECP",
           "package": "bindings-parport",
@@ -1016,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_MODE_ECP",
           "package": "bindings-parport",
@@ -1029,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_MODE_EPP",
           "package": "bindings-parport",
@@ -1038,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_MODE_EPP",
           "package": "bindings-parport",
@@ -1051,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_MODE_PCSPP",
           "package": "bindings-parport",
@@ -1060,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_MODE_PCSPP",
           "package": "bindings-parport",
@@ -1073,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_MODE_SAFEININT",
           "package": "bindings-parport",
@@ -1082,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_MODE_SAFEININT",
           "package": "bindings-parport",
@@ -1095,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_MODE_TRISTATE",
           "package": "bindings-parport",
@@ -1104,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_MODE_TRISTATE",
           "package": "bindings-parport",
@@ -1117,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_STATUS_ACK",
           "package": "bindings-parport",
@@ -1126,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_STATUS_ACK",
           "package": "bindings-parport",
@@ -1139,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_STATUS_BUSY",
           "package": "bindings-parport",
@@ -1148,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_STATUS_BUSY",
           "package": "bindings-parport",
@@ -1161,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_STATUS_ERROR",
           "package": "bindings-parport",
@@ -1170,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_STATUS_ERROR",
           "package": "bindings-parport",
@@ -1183,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_STATUS_PAPEROUT",
           "package": "bindings-parport",
@@ -1192,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_STATUS_PAPEROUT",
           "package": "bindings-parport",
@@ -1205,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_STATUS_SELECT",
           "package": "bindings-parport",
@@ -1214,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_STATUS_SELECT",
           "package": "bindings-parport",
@@ -1227,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:29 UTC 2014",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_W91284PIC",
           "package": "bindings-parport",
@@ -1236,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Bindings Parport",
+          "indexed": "2014-03-11T17:21:29",
           "module": "Bindings.Parport",
           "name": "c'PARPORT_W91284PIC",
           "package": "bindings-parport",

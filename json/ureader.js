@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ureader"
+        "phrase": "ureader",
+        "type": "phrase"
       },
       "type": "context"
     }

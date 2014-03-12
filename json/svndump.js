@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "svndump"
+        "phrase": "svndump",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump.Raw",
           "name": "Raw",
           "package": "svndump",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump Raw",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump.Raw",
           "name": "Raw",
           "package": "svndump",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump.Raw",
           "name": "Entry",
           "package": "svndump",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump Raw",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump.Raw",
           "name": "Entry",
           "package": "svndump",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump.Raw",
           "name": "FieldMap",
           "package": "svndump",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump Raw",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump.Raw",
           "name": "FieldMap",
           "package": "svndump",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump.Raw",
           "name": "Entry",
           "package": "svndump",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump Raw",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump.Raw",
           "name": "Entry",
           "package": "svndump",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump.Raw",
           "name": "entryBody",
           "package": "svndump",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump Raw",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump.Raw",
           "name": "entryBody",
           "package": "svndump",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump.Raw",
           "name": "entryProps",
           "package": "svndump",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump Raw",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump.Raw",
           "name": "entryProps",
           "package": "svndump",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump.Raw",
           "name": "entryTags",
           "package": "svndump",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump Raw",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump.Raw",
           "name": "entryTags",
           "package": "svndump",
@@ -170,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently convert a ByteString of integers into an Int.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ereadInt (Data.ByteString.Char8.pack \"12345\")\n\u003c/code\u003e\u003c/strong\u003e12345\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump.Raw",
           "name": "readInt",
           "package": "svndump",
@@ -180,6 +195,7 @@
         "index": {
           "description": "Efficiently convert ByteString of integers into an Int readInt Data.ByteString.Char8.pack",
           "hierarchy": "Subversion Dump Raw",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump.Raw",
           "name": "readInt",
           "normalized": "ByteString-\u003eInt",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump.Raw",
           "name": "readSvnDumpRaw",
           "package": "svndump",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump Raw",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump.Raw",
           "name": "readSvnDumpRaw",
           "normalized": "ByteString-\u003e[Entry]",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "Dump",
           "package": "svndump",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "Dump",
           "package": "svndump",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "OpAction",
           "package": "svndump",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "OpAction",
           "package": "svndump",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "OpKind",
           "package": "svndump",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "OpKind",
           "package": "svndump",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "Operation",
           "package": "svndump",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "Operation",
           "package": "svndump",
@@ -304,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser for Subversion dump files.  The objective is to convert a dump\n   file into a series of data structures representing that same information.\n   It uses \u003ccode\u003e\u003ca\u003eLazy\u003c/a\u003e\u003c/code\u003e to reading the file, and \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e to\n   represent text fields which may contain Unicode characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "RevDate",
           "package": "svndump",
@@ -313,6 +340,7 @@
         "index": {
           "description": "parser for Subversion dump files The objective is to convert dump file into series of data structures representing that same information It uses Lazy to reading the file and Text to represent text fields which may contain Unicode characters",
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "RevDate",
           "package": "svndump",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "Revision",
           "package": "svndump",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "Revision",
           "package": "svndump",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "Add",
           "package": "svndump",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "Add",
           "package": "svndump",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "Change",
           "package": "svndump",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "Change",
           "package": "svndump",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "Delete",
           "package": "svndump",
@@ -400,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "Delete",
           "package": "svndump",
@@ -413,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "Directory",
           "package": "svndump",
@@ -422,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "Directory",
           "package": "svndump",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "File",
           "package": "svndump",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "File",
           "package": "svndump",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "NoAction",
           "package": "svndump",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "NoAction",
           "package": "svndump",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "NoKind",
           "package": "svndump",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "NoKind",
           "package": "svndump",
@@ -501,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "Operation",
           "package": "svndump",
@@ -510,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "Operation",
           "package": "svndump",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "Replace",
           "package": "svndump",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "Replace",
           "package": "svndump",
@@ -545,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "Revision",
           "package": "svndump",
@@ -554,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "Revision",
           "package": "svndump",
@@ -567,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "opAction",
           "package": "svndump",
@@ -576,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "opAction",
           "package": "svndump",
@@ -589,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "opChecksumMD5",
           "package": "svndump",
@@ -598,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "opChecksumMD5",
           "package": "svndump",
@@ -611,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "opChecksumSHA1",
           "package": "svndump",
@@ -620,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "opChecksumSHA1",
           "package": "svndump",
@@ -633,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "opContentLength",
           "package": "svndump",
@@ -642,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "opContentLength",
           "package": "svndump",
@@ -655,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "opContents",
           "package": "svndump",
@@ -664,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "opContents",
           "package": "svndump",
@@ -677,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "opCopyFromPath",
           "package": "svndump",
@@ -686,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "opCopyFromPath",
           "package": "svndump",
@@ -699,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "opCopyFromRev",
           "package": "svndump",
@@ -708,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "opCopyFromRev",
           "package": "svndump",
@@ -721,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "opKind",
           "package": "svndump",
@@ -730,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "opKind",
           "package": "svndump",
@@ -743,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "opPathname",
           "package": "svndump",
@@ -752,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "opPathname",
           "package": "svndump",
@@ -766,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a dump file from a ByteString in the IO monad into a list of\n   Revision values.  This is the \u003ca\u003ecooked\u003c/a\u003e parallel of \u003ccode\u003e\u003ca\u003ereadSvnDumpRaw\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "readSvnDump",
           "package": "svndump",
@@ -776,6 +845,7 @@
         "index": {
           "description": "Reads dump file from ByteString in the IO monad into list of Revision values This is the cooked parallel of readSvnDumpRaw",
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "readSvnDump",
           "normalized": "ByteString-\u003e[Revision]",
@@ -791,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "revAuthor",
           "package": "svndump",
@@ -800,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "revAuthor",
           "package": "svndump",
@@ -813,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "revComment",
           "package": "svndump",
@@ -822,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "revComment",
           "package": "svndump",
@@ -835,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "revDate",
           "package": "svndump",
@@ -844,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "revDate",
           "package": "svndump",
@@ -857,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "revNumber",
           "package": "svndump",
@@ -866,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "revNumber",
           "package": "svndump",
@@ -879,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion.Dump",
           "name": "revOperations",
           "package": "svndump",
@@ -888,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Subversion Dump",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion.Dump",
           "name": "revOperations",
           "normalized": "[Operation]",
@@ -903,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:18 UTC 2014",
           "module": "Subversion",
           "name": "Subversion",
           "package": "svndump",
@@ -911,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Subversion",
+          "indexed": "2014-03-11T20:14:18",
           "module": "Subversion",
           "name": "Subversion",
           "package": "svndump",

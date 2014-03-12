@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rollbar"
+        "phrase": "rollbar",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:56 UTC 2014",
           "module": "Rollbar.MonadLogger",
           "name": "MonadLogger",
           "package": "rollbar",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Rollbar MonadLogger",
+          "indexed": "2014-03-11T19:54:56",
           "module": "Rollbar.MonadLogger",
           "name": "MonadLogger",
           "package": "rollbar",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereport errors to rollbar.com and log them with monad-logger\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:56 UTC 2014",
           "module": "Rollbar.MonadLogger",
           "name": "reportErrorS",
           "package": "rollbar",
@@ -49,6 +52,7 @@
         "index": {
           "description": "report errors to rollbar.com and log them with monad-logger",
           "hierarchy": "Rollbar MonadLogger",
+          "indexed": "2014-03-11T19:54:56",
           "module": "Rollbar.MonadLogger",
           "name": "reportErrorS",
           "normalized": "Text-\u003eText-\u003eHostName-\u003eText-\u003e(Text-\u003eText-\u003ea())-\u003eText-\u003ea()",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMain entry point to the application.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:56 UTC 2014",
           "module": "Rollbar",
           "name": "Rollbar",
           "package": "rollbar",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Main entry point to the application",
           "hierarchy": "Rollbar",
+          "indexed": "2014-03-11T19:54:56",
           "module": "Rollbar",
           "name": "Rollbar",
           "package": "rollbar",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereport errors to rollbar.com and log them to stdout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:56 UTC 2014",
           "module": "Rollbar",
           "name": "reportErrorS",
           "package": "rollbar",
@@ -97,6 +104,7 @@
         "index": {
           "description": "report errors to rollbar.com and log them to stdout",
           "hierarchy": "Rollbar",
+          "indexed": "2014-03-11T19:54:56",
           "module": "Rollbar",
           "name": "reportErrorS",
           "normalized": "Text-\u003eText-\u003eHostName-\u003eText-\u003eText-\u003ea()",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused by Rollbar.MonadLogger to pass a custom logger\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:56 UTC 2014",
           "module": "Rollbar",
           "name": "reportLoggerErrorS",
           "package": "rollbar",
@@ -122,6 +131,7 @@
         "index": {
           "description": "used by Rollbar.MonadLogger to pass custom logger",
           "hierarchy": "Rollbar",
+          "indexed": "2014-03-11T19:54:56",
           "module": "Rollbar",
           "name": "reportLoggerErrorS",
           "normalized": "Text-\u003eText-\u003eHostName-\u003eText-\u003e(Text-\u003eText-\u003ea())-\u003eText-\u003ea()",

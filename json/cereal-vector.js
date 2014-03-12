@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cereal-vector"
+        "phrase": "cereal-vector",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003eData.Serialize\u003c/a\u003e functions for \u003ca\u003eData.Vector.Generic\u003c/a\u003e\n vectors. Orphan instances are provided for \u003ca\u003eData.Vector\u003c/a\u003e,\n \u003ca\u003eData.Vector.Unboxed\u003c/a\u003e, \u003ca\u003eData.Vector.Storable\u003c/a\u003e, and\n \u003ca\u003eData.Vector.Primitive\u003c/a\u003e vectors.\n\u003c/p\u003e\u003cp\u003eThe serialized format is an \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e representing the length of the\n vector, followed by the \u003ca\u003eData.Serialize\u003c/a\u003ed contents of each element.\n\u003c/p\u003e\u003cp\u003eNote that the functions in \u003ca\u003eData.Vector.Storable.UnsafeSerialize\u003c/a\u003e\n perform much better when serialization does not need to account for\n host endianness and word size.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:07 UTC 2014",
           "module": "Data.Vector.Serialize",
           "name": "Serialize",
           "package": "cereal-vector",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Data.Serialize functions for Data.Vector.Generic vectors Orphan instances are provided for Data.Vector Data.Vector.Unboxed Data.Vector.Storable and Data.Vector.Primitive vectors The serialized format is an Int64 representing the length of the vector followed by the Data.Serialize contents of each element Note that the functions in Data.Vector.Storable.UnsafeSerialize perform much better when serialization does not need to account for host endianness and word size",
           "hierarchy": "Data Vector Serialize",
+          "indexed": "2014-03-11T17:31:07",
           "module": "Data.Vector.Serialize",
           "name": "Serialize",
           "package": "cereal-vector",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:07 UTC 2014",
           "module": "Data.Vector.Serialize",
           "name": "genericGetVector",
           "package": "cereal-vector",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Read Vector",
           "hierarchy": "Data Vector Serialize",
+          "indexed": "2014-03-11T17:31:07",
           "module": "Data.Vector.Serialize",
           "name": "genericGetVector",
           "package": "cereal-vector",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e using custom \u003ccode\u003e\u003ca\u003eGet\u003c/a\u003e\u003c/code\u003e for the\n vector's elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:07 UTC 2014",
           "module": "Data.Vector.Serialize",
           "name": "genericGetVectorWith",
           "package": "cereal-vector",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Read Vector using custom Get for the vector elements",
           "hierarchy": "Data Vector Serialize",
+          "indexed": "2014-03-11T17:31:07",
           "module": "Data.Vector.Serialize",
           "name": "genericGetVectorWith",
           "normalized": "Get a-\u003eGet(b a)",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:07 UTC 2014",
           "module": "Data.Vector.Serialize",
           "name": "genericPutVector",
           "package": "cereal-vector",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Write Vector",
           "hierarchy": "Data Vector Serialize",
+          "indexed": "2014-03-11T17:31:07",
           "module": "Data.Vector.Serialize",
           "name": "genericPutVector",
           "package": "cereal-vector",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e using custom \u003ccode\u003e\u003ca\u003ePutter\u003c/a\u003e\u003c/code\u003e for\n the vector's elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:07 UTC 2014",
           "module": "Data.Vector.Serialize",
           "name": "genericPutVectorWith",
           "package": "cereal-vector",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Write Vector using custom Putter for the vector elements",
           "hierarchy": "Data Vector Serialize",
+          "indexed": "2014-03-11T17:31:07",
           "module": "Data.Vector.Serialize",
           "name": "genericPutVectorWith",
           "normalized": "Putter a-\u003ePutter(b a)",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEfficient, but unsafe \u003ccode\u003e\u003ca\u003eGet\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePutter\u003c/a\u003e\u003c/code\u003e for\n \u003ca\u003eData.Vector.Storable\u003c/a\u003e vectors. The serialized format is an \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e\n representing the length of the \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e, followed by the raw\n bytes. Therefore behavior may be unpredictable if serialized data\n is transferred between machines with different word size or\n endianness.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:07 UTC 2014",
           "module": "Data.Vector.Storable.UnsafeSerialize",
           "name": "UnsafeSerialize",
           "package": "cereal-vector",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Efficient but unsafe Get and Putter for Data.Vector.Storable vectors The serialized format is an Int64 representing the length of the Vector followed by the raw bytes Therefore behavior may be unpredictable if serialized data is transferred between machines with different word size or endianness",
           "hierarchy": "Data Vector Storable UnsafeSerialize",
+          "indexed": "2014-03-11T17:31:07",
           "module": "Data.Vector.Storable.UnsafeSerialize",
           "name": "UnsafeSerialize",
           "package": "cereal-vector",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e in host order, endian form, and word width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:07 UTC 2014",
           "module": "Data.Vector.Storable.UnsafeSerialize",
           "name": "unsafeGetVector",
           "package": "cereal-vector",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Get Vector in host order endian form and word width",
           "hierarchy": "Data Vector Storable UnsafeSerialize",
+          "indexed": "2014-03-11T17:31:07",
           "module": "Data.Vector.Storable.UnsafeSerialize",
           "name": "unsafeGetVector",
           "package": "cereal-vector",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e in host order, endian form, and word width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:07 UTC 2014",
           "module": "Data.Vector.Storable.UnsafeSerialize",
           "name": "unsafePutVector",
           "package": "cereal-vector",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Put Vector in host order endian form and word width",
           "hierarchy": "Data Vector Storable UnsafeSerialize",
+          "indexed": "2014-03-11T17:31:07",
           "module": "Data.Vector.Storable.UnsafeSerialize",
           "name": "unsafePutVector",
           "package": "cereal-vector",

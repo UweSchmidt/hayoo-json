@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Win32-notify"
+        "phrase": "Win32-notify",
+        "type": "phrase"
       },
       "type": "context"
     }

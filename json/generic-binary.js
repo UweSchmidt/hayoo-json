@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "generic-binary"
+        "phrase": "generic-binary",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:51 UTC 2014",
           "module": "Data.Binary.Generic",
           "name": "Generic",
           "package": "generic-binary",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Generic",
+          "indexed": "2014-03-11T18:14:51",
           "module": "Data.Binary.Generic",
           "name": "Generic",
           "package": "generic-binary",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:51 UTC 2014",
           "module": "Data.Binary.Generic",
           "name": "decode",
           "package": "generic-binary",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Generic",
+          "indexed": "2014-03-11T18:14:51",
           "module": "Data.Binary.Generic",
           "name": "decode",
           "normalized": "ByteString-\u003ea",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:51 UTC 2014",
           "module": "Data.Binary.Generic",
           "name": "encode",
           "package": "generic-binary",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Generic",
+          "indexed": "2014-03-11T18:14:51",
           "module": "Data.Binary.Generic",
           "name": "encode",
           "normalized": "a-\u003eByteString",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:51 UTC 2014",
           "module": "Data.Binary.Generic",
           "name": "get",
           "package": "generic-binary",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Generic",
+          "indexed": "2014-03-11T18:14:51",
           "module": "Data.Binary.Generic",
           "name": "get",
           "package": "generic-binary",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:51 UTC 2014",
           "module": "Data.Binary.Generic",
           "name": "put",
           "package": "generic-binary",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Generic",
+          "indexed": "2014-03-11T18:14:51",
           "module": "Data.Binary.Generic",
           "name": "put",
           "normalized": "a-\u003ePut",

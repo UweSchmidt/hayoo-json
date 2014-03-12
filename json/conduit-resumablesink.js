@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "conduit-resumablesink"
+        "phrase": "conduit-resumablesink",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:51 UTC 2014",
           "module": "Data.Conduit.ResumableSink",
           "name": "ResumableSink",
           "package": "conduit-resumablesink",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit ResumableSink",
+          "indexed": "2014-03-11T17:38:51",
           "module": "Data.Conduit.ResumableSink",
           "name": "ResumableSink",
           "package": "conduit-resumablesink",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:51 UTC 2014",
           "module": "Data.Conduit.ResumableSink",
           "name": "ResumableSink",
           "package": "conduit-resumablesink",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit ResumableSink",
+          "indexed": "2014-03-11T17:38:51",
           "module": "Data.Conduit.ResumableSink",
           "name": "ResumableSink",
           "package": "conduit-resumablesink",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnects a source and a sink. The result will be Right a\n   ResumableSink or Left result if the Sink completes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:51 UTC 2014",
           "module": "Data.Conduit.ResumableSink",
           "name": "(+$$)",
           "package": "conduit-resumablesink",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Connects source and sink The result will be Right ResumableSink or Left result if the Sink completes",
           "hierarchy": "Data Conduit ResumableSink",
+          "indexed": "2014-03-11T17:38:51",
           "module": "Data.Conduit.ResumableSink",
           "name": "(+$$) +$$",
           "normalized": "Source a b-\u003eSink b a c-\u003ea(Either c(ResumableSink a b c))",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnects a new source to a resumable sink. The result will be Right an updated\n   ResumableSink or Left result if the Sink completes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:51 UTC 2014",
           "module": "Data.Conduit.ResumableSink",
           "name": "(++$$)",
           "package": "conduit-resumablesink",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Connects new source to resumable sink The result will be Right an updated ResumableSink or Left result if the Sink completes",
           "hierarchy": "Data Conduit ResumableSink",
+          "indexed": "2014-03-11T17:38:51",
           "module": "Data.Conduit.ResumableSink",
           "name": "(++$$) ++$$",
           "normalized": "Source a b-\u003eResumableSink a b c-\u003ea(Either c(ResumableSink a b c))",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttaches a source to a resumable sink, finishing the sink and returning a result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:51 UTC 2014",
           "module": "Data.Conduit.ResumableSink",
           "name": "(-++$$)",
           "package": "conduit-resumablesink",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Attaches source to resumable sink finishing the sink and returning result",
           "hierarchy": "Data Conduit ResumableSink",
+          "indexed": "2014-03-11T17:38:51",
           "module": "Data.Conduit.ResumableSink",
           "name": "(-++$$) -++$$",
           "normalized": "Source a b-\u003eResumableSink a b c-\u003ea c",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:51 UTC 2014",
           "module": "Data.Conduit.ResumableSink",
           "name": "ResumableSink",
           "package": "conduit-resumablesink",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit ResumableSink",
+          "indexed": "2014-03-11T17:38:51",
           "module": "Data.Conduit.ResumableSink",
           "name": "ResumableSink",
           "package": "conduit-resumablesink",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCloses a ResumableSink and gets the final result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:51 UTC 2014",
           "module": "Data.Conduit.ResumableSink",
           "name": "closeResumableSink",
           "package": "conduit-resumablesink",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Closes ResumableSink and gets the final result",
           "hierarchy": "Data Conduit ResumableSink",
+          "indexed": "2014-03-11T17:38:51",
           "module": "Data.Conduit.ResumableSink",
           "name": "closeResumableSink",
           "normalized": "ResumableSink a b c-\u003ea c",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnects a new source to a resumable sink. The result will be Right an updated\n   ResumableSink or Left result if the Sink completes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:51 UTC 2014",
           "module": "Data.Conduit.ResumableSink",
           "name": "connectResumeSink",
           "package": "conduit-resumablesink",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Connects new source to resumable sink The result will be Right an updated ResumableSink or Left result if the Sink completes",
           "hierarchy": "Data Conduit ResumableSink",
+          "indexed": "2014-03-11T17:38:51",
           "module": "Data.Conduit.ResumableSink",
           "name": "connectResumeSink",
           "normalized": "Source a b-\u003eResumableSink a b c-\u003ea(Either c(ResumableSink a b c))",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a sink into a ResumableSink that can be used with ++$$\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:51 UTC 2014",
           "module": "Data.Conduit.ResumableSink",
           "name": "newResumableSink",
           "package": "conduit-resumablesink",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Converts sink into ResumableSink that can be used with",
           "hierarchy": "Data Conduit ResumableSink",
+          "indexed": "2014-03-11T17:38:51",
           "module": "Data.Conduit.ResumableSink",
           "name": "newResumableSink",
           "normalized": "Sink a b c-\u003eResumableSink b a c",

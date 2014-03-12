@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "air-extra"
+        "phrase": "air-extra",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "Extra",
           "package": "air-extra",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "Extra",
           "package": "air-extra",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "MatchList",
           "package": "air-extra",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "MatchList",
           "package": "air-extra",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "RegexResult",
           "package": "air-extra",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "RegexResult",
           "package": "air-extra",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "b2u",
           "package": "air-extra",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "b2u",
           "normalized": "String-\u003eString",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "base",
           "package": "air-extra",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "base",
           "normalized": "a-\u003ea-\u003eString",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "camel_case",
           "package": "air-extra",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "camel_case",
           "normalized": "String-\u003eString",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "collapse",
           "package": "air-extra",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "collapse",
           "normalized": "[a]-\u003eb",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "date",
           "package": "air-extra",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "date",
           "normalized": "Integer-\u003eInt-\u003eInt-\u003eDay",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "empty",
           "package": "air-extra",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "empty",
           "normalized": "String-\u003eBool",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "f2t",
           "package": "air-extra",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "f2t",
           "normalized": "a-\u003eUTCTime",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "file_mtime",
           "package": "air-extra",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "file_mtime",
           "normalized": "String-\u003eIO UTCTime",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "file_size",
           "package": "air-extra",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "file_size",
           "normalized": "String-\u003eIO Integer",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "filter_comment",
           "package": "air-extra",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "filter_comment",
           "normalized": "String-\u003eString",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "format_time",
           "package": "air-extra",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "format_time",
           "normalized": "String-\u003eUTCTime-\u003eString",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "get_current_directory",
           "package": "air-extra",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "get_current_directory",
           "package": "air-extra",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "get_permissions",
           "package": "air-extra",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "get_permissions",
           "normalized": "String-\u003eIO Permissions",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "gsub",
           "package": "air-extra",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "gsub",
           "normalized": "String-\u003eString-\u003eString-\u003eString",
@@ -401,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "i2t",
           "package": "air-extra",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "i2t",
           "normalized": "Integer-\u003eUTCTime",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "line_buffer",
           "package": "air-extra",
@@ -433,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "line_buffer",
           "normalized": "IO()",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "ls",
           "package": "air-extra",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "ls",
           "normalized": "String-\u003eIO[String]",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "match",
           "package": "air-extra",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "match",
           "normalized": "String-\u003eString-\u003eMaybe(RegexResult,MatchList)",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "now",
           "package": "air-extra",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "now",
           "package": "air-extra",
@@ -514,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "now_in_zoned_time",
           "package": "air-extra",
@@ -523,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "now_in_zoned_time",
           "package": "air-extra",
@@ -535,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "p_eval",
           "package": "air-extra",
@@ -544,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "p_eval",
           "normalized": "[a]-\u003e[a]",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "p_eval'",
           "package": "air-extra",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "p_eval'",
           "normalized": "[a]-\u003e[a]",
@@ -581,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "p_map",
           "package": "air-extra",
@@ -590,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "p_map",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[b]",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "p_map'",
           "package": "air-extra",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "p_map'",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[b]",
@@ -627,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "p_map_reduce",
           "package": "air-extra",
@@ -636,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "p_map_reduce",
           "normalized": "([a]-\u003eb)-\u003e(b-\u003eb-\u003eb)-\u003e[a]-\u003eb",
@@ -650,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "p_map_reduce_to",
           "package": "air-extra",
@@ -659,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "p_map_reduce_to",
           "normalized": "Int-\u003e([a]-\u003eb)-\u003e(b-\u003eb-\u003eb)-\u003e[a]-\u003eb",
@@ -673,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "p_reduce",
           "package": "air-extra",
@@ -682,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "p_reduce",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -696,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "p_reduce'",
           "package": "air-extra",
@@ -705,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "p_reduce'",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -719,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "p_split_to",
           "package": "air-extra",
@@ -728,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "p_split_to",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -742,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "parse_time",
           "package": "air-extra",
@@ -751,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "parse_time",
           "normalized": "String-\u003eString-\u003eUTCTime",
@@ -765,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "purify",
           "package": "air-extra",
@@ -774,6 +841,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "purify",
           "normalized": "IO a-\u003ea",
@@ -788,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "read_binary_file",
           "package": "air-extra",
@@ -797,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "read_binary_file",
           "normalized": "String-\u003eIO String",
@@ -811,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "reduce",
           "package": "air-extra",
@@ -820,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "reduce",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -834,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "reduce'",
           "package": "air-extra",
@@ -843,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "reduce'",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -857,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "simple_time_format",
           "package": "air-extra",
@@ -866,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "simple_time_format",
           "package": "air-extra",
@@ -878,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "snake_case",
           "package": "air-extra",
@@ -887,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "snake_case",
           "normalized": "String-\u003eString",
@@ -901,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "splash_date",
           "package": "air-extra",
@@ -910,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "splash_date",
           "normalized": "Day-\u003e(Integer,Int,Int)",
@@ -924,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "split",
           "package": "air-extra",
@@ -933,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "split",
           "normalized": "String-\u003eString-\u003e[String]",
@@ -947,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "split'",
           "package": "air-extra",
@@ -956,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "split'",
           "normalized": "String-\u003e[String]",
@@ -970,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "split_raw",
           "package": "air-extra",
@@ -979,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "split_raw",
           "normalized": "String-\u003eString-\u003e[String]",
@@ -993,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "strip",
           "package": "air-extra",
@@ -1002,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "strip",
           "normalized": "String-\u003eString",
@@ -1016,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "sub",
           "package": "air-extra",
@@ -1025,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "sub",
           "normalized": "String-\u003eString-\u003eString-\u003eString",
@@ -1039,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "t2f",
           "package": "air-extra",
@@ -1048,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "t2f",
           "normalized": "UTCTime-\u003ea",
@@ -1062,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "t2i",
           "package": "air-extra",
@@ -1071,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "t2i",
           "normalized": "UTCTime-\u003eInteger",
@@ -1085,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Extra",
           "name": "u2b",
           "package": "air-extra",
@@ -1094,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Air Extra",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Extra",
           "name": "u2b",
           "normalized": "String-\u003eString",
@@ -1108,6 +1204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Heavy",
           "name": "Heavy",
           "package": "air-extra",
@@ -1116,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Air Heavy",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Heavy",
           "name": "Heavy",
           "package": "air-extra",
@@ -1129,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Heavy",
           "name": "escape_unicode_xml",
           "package": "air-extra",
@@ -1138,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "Air Heavy",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Heavy",
           "name": "escape_unicode_xml",
           "normalized": "String-\u003eString",
@@ -1152,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Heavy",
           "name": "escape_xml",
           "package": "air-extra",
@@ -1161,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "Air Heavy",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Heavy",
           "name": "escape_xml",
           "normalized": "String-\u003eString",
@@ -1175,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Heavy",
           "name": "parse",
           "package": "air-extra",
@@ -1184,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Air Heavy",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Heavy",
           "name": "parse",
           "normalized": "GenParser a()b-\u003e[a]-\u003eEither ParseError b",
@@ -1198,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Heavy",
           "name": "unescape_unicode_xml",
           "package": "air-extra",
@@ -1207,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Air Heavy",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Heavy",
           "name": "unescape_unicode_xml",
           "normalized": "String-\u003eMaybe String",
@@ -1221,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.Heavy",
           "name": "unescape_xml",
           "package": "air-extra",
@@ -1230,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "Air Heavy",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.Heavy",
           "name": "unescape_xml",
           "normalized": "String-\u003eMaybe String",
@@ -1244,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.UTF8",
           "name": "UTF8",
           "package": "air-extra",
@@ -1252,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Air UTF8",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.UTF8",
           "name": "UTF8",
           "package": "air-extra",
@@ -1265,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.UTF8",
           "name": "gsub",
           "package": "air-extra",
@@ -1274,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Air UTF8",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.UTF8",
           "name": "gsub",
           "normalized": "String-\u003eString-\u003eString-\u003eString",
@@ -1288,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.UTF8",
           "name": "match",
           "package": "air-extra",
@@ -1297,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Air UTF8",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.UTF8",
           "name": "match",
           "normalized": "String-\u003eString-\u003eMaybe(RegexResult,MatchList)",
@@ -1311,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.UTF8",
           "name": "split",
           "package": "air-extra",
@@ -1320,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Air UTF8",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.UTF8",
           "name": "split",
           "normalized": "String-\u003eString-\u003e[String]",
@@ -1334,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.UTF8",
           "name": "strip",
           "package": "air-extra",
@@ -1343,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Air UTF8",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.UTF8",
           "name": "strip",
           "normalized": "String-\u003eString",
@@ -1357,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:09:13 UTC 2014",
           "module": "Air.UTF8",
           "name": "sub",
           "package": "air-extra",
@@ -1366,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "Air UTF8",
+          "indexed": "2014-03-11T17:09:13",
           "module": "Air.UTF8",
           "name": "sub",
           "normalized": "String-\u003eString-\u003eString-\u003eString",

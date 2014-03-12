@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "selectors"
+        "phrase": "selectors",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.TH",
           "name": "TH",
           "package": "selectors",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS TH",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.TH",
           "name": "TH",
           "package": "selectors",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e [css| #interface div.doc:first-child |] \u003c/code\u003e would select this paragraph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.TH",
           "name": "css",
           "package": "selectors",
@@ -50,6 +53,7 @@
         "index": {
           "description": "css interface div.doc first-child would select this paragraph",
           "hierarchy": "XML Selectors CSS TH",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.TH",
           "name": "css",
           "package": "selectors",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefinitions of \u003ccode\u003e\u003ca\u003eToken\u003c/a\u003e\u003c/code\u003es in the CSS selector grammar as well as the data types\n representing the parse result.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "Types",
           "package": "selectors",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Definitions of Token in the CSS selector grammar as well as the data types representing the parse result",
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "Types",
           "package": "selectors",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType representing the relationship between two \u003ccode\u003e\u003ca\u003eSelector\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "Comb",
           "package": "selectors",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Type representing the relationship between two Selector",
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "Comb",
           "package": "selectors",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType representing boolean operations on attribute values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "Pred",
           "package": "selectors",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Type representing boolean operations on attribute values",
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "Pred",
           "package": "selectors",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "PredOp",
           "package": "selectors",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "PredOp",
           "package": "selectors",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly supporting two pseudoelement selectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "Pseudo",
           "package": "selectors",
@@ -162,6 +175,7 @@
         "index": {
           "description": "Only supporting two pseudoelement selectors",
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "Pseudo",
           "package": "selectors",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop level entity representing the parse tree of a CSS path expression.\n Composed of one or more \u003ccode\u003e\u003ca\u003eSimpleSelector\u003c/a\u003e\u003c/code\u003es combined with a \u003ccode\u003e\u003ca\u003eComb\u003c/a\u003e\u003c/code\u003e relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "Selector",
           "package": "selectors",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Top level entity representing the parse tree of CSS path expression Composed of one or more SimpleSelector combined with Comb relation",
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "Selector",
           "package": "selectors",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType representing a single set of filters for selecting nodes.\n Contain an optional single element name, a sequence of id, class, and attribute\n \u003ccode\u003e\u003ca\u003eSpecifier\u003c/a\u003e\u003c/code\u003es, and an optional pseudo-element selector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "SimpleSelector",
           "package": "selectors",
@@ -208,6 +225,7 @@
         "index": {
           "description": "Type representing single set of filters for selecting nodes Contain an optional single element name sequence of id class and attribute Specifier and an optional pseudo-element selector",
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "SimpleSelector",
           "package": "selectors",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType representing id, class, and attribute filters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "Specifier",
           "package": "selectors",
@@ -231,6 +250,7 @@
         "index": {
           "description": "Type representing id class and attribute filters",
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "Specifier",
           "package": "selectors",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "Token",
           "package": "selectors",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "Token",
           "package": "selectors",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny following sibling node; represented by \u003ccode\u003e ~ \u003c/code\u003e in CSS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "AnySibling",
           "package": "selectors",
@@ -276,6 +299,7 @@
         "index": {
           "description": "Any following sibling node represented by in CSS",
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "AnySibling",
           "package": "selectors",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "Attrib",
           "package": "selectors",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "Attrib",
           "package": "selectors",
@@ -312,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString begins with; \u003ccode\u003e ^= \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "BeginsWith",
           "package": "selectors",
@@ -322,6 +349,7 @@
         "index": {
           "description": "String begins with",
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "BeginsWith",
           "package": "selectors",
@@ -336,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny direct child; represented by \u003ccode\u003e \u003e \u003c/code\u003e in CSS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "Child",
           "package": "selectors",
@@ -346,6 +375,7 @@
         "index": {
           "description": "Any direct child represented by in CSS",
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "Child",
           "package": "selectors",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "Class",
           "package": "selectors",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "Class",
           "package": "selectors",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "Combinator",
           "package": "selectors",
@@ -390,6 +423,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "Combinator",
           "package": "selectors",
@@ -404,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString equality, optional dash following; \u003ccode\u003e |= \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "DashMatch",
           "package": "selectors",
@@ -414,6 +449,7 @@
         "index": {
           "description": "String equality optional dash following",
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "DashMatch",
           "package": "selectors",
@@ -428,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny descendant; represented by plain whitespace in CSS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "Descendant",
           "package": "selectors",
@@ -438,6 +475,7 @@
         "index": {
           "description": "Any descendant represented by plain whitespace in CSS",
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "Descendant",
           "package": "selectors",
@@ -452,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString ends with; \u003ccode\u003e $= \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "EndsWith",
           "package": "selectors",
@@ -462,6 +501,7 @@
         "index": {
           "description": "String ends with",
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "EndsWith",
           "package": "selectors",
@@ -476,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString equality\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "Equals",
           "package": "selectors",
@@ -486,6 +527,7 @@
         "index": {
           "description": "String equality",
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "Equals",
           "package": "selectors",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "FirstChild",
           "package": "selectors",
@@ -508,6 +551,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "FirstChild",
           "package": "selectors",
@@ -522,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirectly following sibling node; represented by \u003ccode\u003e + \u003c/code\u003e in CSS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "FollowingSibling",
           "package": "selectors",
@@ -532,6 +577,7 @@
         "index": {
           "description": "Directly following sibling node represented by in CSS",
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "FollowingSibling",
           "package": "selectors",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "ID",
           "package": "selectors",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "ID",
           "package": "selectors",
@@ -568,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains word; \u003ccode\u003e ~= \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "Includes",
           "package": "selectors",
@@ -578,6 +627,7 @@
         "index": {
           "description": "Contains word",
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "Includes",
           "package": "selectors",
@@ -591,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "LastChild",
           "package": "selectors",
@@ -600,6 +651,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "LastChild",
           "package": "selectors",
@@ -614,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple existence test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "None",
           "package": "selectors",
@@ -624,6 +677,7 @@
         "index": {
           "description": "Simple existence test",
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "None",
           "package": "selectors",
@@ -638,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString comparison test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "Pred",
           "package": "selectors",
@@ -648,6 +703,7 @@
         "index": {
           "description": "String comparison test",
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "Pred",
           "package": "selectors",
@@ -661,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "Selector",
           "package": "selectors",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "Selector",
           "package": "selectors",
@@ -683,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "SimpleSelector",
           "package": "selectors",
@@ -692,6 +751,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "SimpleSelector",
           "normalized": "SimpleSelector(Maybe String)[Specifier](Maybe Pseudo)",
@@ -707,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenAnySibling",
           "package": "selectors",
@@ -716,6 +777,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenAnySibling",
           "package": "selectors",
@@ -729,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenAster",
           "package": "selectors",
@@ -738,6 +801,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenAster",
           "package": "selectors",
@@ -751,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenBeginsWith",
           "package": "selectors",
@@ -760,6 +825,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenBeginsWith",
           "package": "selectors",
@@ -773,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenCB",
           "package": "selectors",
@@ -782,6 +849,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenCB",
           "package": "selectors",
@@ -795,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenCP",
           "package": "selectors",
@@ -804,6 +873,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenCP",
           "package": "selectors",
@@ -817,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenChild",
           "package": "selectors",
@@ -826,6 +897,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenChild",
           "package": "selectors",
@@ -839,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenDashMatch",
           "package": "selectors",
@@ -848,6 +921,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenDashMatch",
           "package": "selectors",
@@ -861,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenDigits",
           "package": "selectors",
@@ -870,6 +945,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenDigits",
           "package": "selectors",
@@ -883,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenDot",
           "package": "selectors",
@@ -892,6 +969,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenDot",
           "package": "selectors",
@@ -905,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenEOF",
           "package": "selectors",
@@ -914,6 +993,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenEOF",
           "package": "selectors",
@@ -927,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenEndsWith",
           "package": "selectors",
@@ -936,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenEndsWith",
           "package": "selectors",
@@ -949,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenEquals",
           "package": "selectors",
@@ -958,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenEquals",
           "package": "selectors",
@@ -971,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenFirstChild",
           "package": "selectors",
@@ -980,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenFirstChild",
           "package": "selectors",
@@ -993,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenHash",
           "package": "selectors",
@@ -1002,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenHash",
           "package": "selectors",
@@ -1015,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenIncludes",
           "package": "selectors",
@@ -1024,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenIncludes",
           "package": "selectors",
@@ -1037,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenLastChild",
           "package": "selectors",
@@ -1046,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenLastChild",
           "package": "selectors",
@@ -1059,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenMinus",
           "package": "selectors",
@@ -1068,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenMinus",
           "package": "selectors",
@@ -1081,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenName",
           "package": "selectors",
@@ -1090,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenName",
           "package": "selectors",
@@ -1103,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenNthChild",
           "package": "selectors",
@@ -1112,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenNthChild",
           "package": "selectors",
@@ -1125,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenNthLastChild",
           "package": "selectors",
@@ -1134,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenNthLastChild",
           "package": "selectors",
@@ -1147,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenOB",
           "package": "selectors",
@@ -1156,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenOB",
           "package": "selectors",
@@ -1169,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenOP",
           "package": "selectors",
@@ -1178,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenOP",
           "package": "selectors",
@@ -1191,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenPlus",
           "package": "selectors",
@@ -1200,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenPlus",
           "package": "selectors",
@@ -1213,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenPseudo",
           "package": "selectors",
@@ -1222,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenPseudo",
           "package": "selectors",
@@ -1235,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenQuote",
           "package": "selectors",
@@ -1244,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenQuote",
           "package": "selectors",
@@ -1257,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenSlash",
           "package": "selectors",
@@ -1266,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenSlash",
           "package": "selectors",
@@ -1279,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenSpace",
           "package": "selectors",
@@ -1288,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenSpace",
           "package": "selectors",
@@ -1301,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenString",
           "package": "selectors",
@@ -1310,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS Types",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS.Types",
           "name": "TokenString",
           "package": "selectors",
@@ -1324,6 +1440,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports functions for parsing and executing CSS selector\n expressions in pure Haskell. TH QuasiQuoters are provided in\n \u003ca\u003eXML.Selectors.CSS.TH\u003c/a\u003e for validation and static-checking of CSS selectors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS",
           "name": "CSS",
           "package": "selectors",
@@ -1333,6 +1450,7 @@
         "index": {
           "description": "This module exports functions for parsing and executing CSS selector expressions in pure Haskell TH QuasiQuoters are provided in XML.Selectors.CSS.TH for validation and static-checking of CSS selectors",
           "hierarchy": "XML Selectors CSS",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS",
           "name": "CSS",
           "package": "selectors",
@@ -1346,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS",
           "name": "parsePath",
           "package": "selectors",
@@ -1355,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "XML Selectors CSS",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS",
           "name": "parsePath",
           "normalized": "String-\u003eEither String Selector",
@@ -1371,6 +1491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert CSS \u003ccode\u003e\u003ca\u003eSelector\u003c/a\u003e\u003c/code\u003e to an \u003ccode\u003e\u003ca\u003eAxis\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:19 UTC 2014",
           "module": "XML.Selectors.CSS",
           "name": "toAxis",
           "package": "selectors",
@@ -1381,6 +1502,7 @@
         "index": {
           "description": "Convert CSS Selector to an Axis",
           "hierarchy": "XML Selectors CSS",
+          "indexed": "2014-03-11T19:59:19",
           "module": "XML.Selectors.CSS",
           "name": "toAxis",
           "normalized": "Selector-\u003eAxis",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "doc-review"
+        "phrase": "doc-review",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "timeit"
+        "phrase": "timeit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:01 UTC 2014",
           "module": "System.TimeIt",
           "name": "TimeIt",
           "package": "timeit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System TimeIt",
+          "indexed": "2014-03-11T20:23:01",
           "module": "System.TimeIt",
           "name": "TimeIt",
           "package": "timeit",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computation so that it prints out the execution time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:01 UTC 2014",
           "module": "System.TimeIt",
           "name": "timeIt",
           "package": "timeit",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Wrap an IO computation so that it prints out the execution time",
           "hierarchy": "System TimeIt",
+          "indexed": "2014-03-11T20:23:01",
           "module": "System.TimeIt",
           "name": "timeIt",
           "normalized": "IO a-\u003eIO a",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computation so that it returns execution time is seconds as well as the real value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:01 UTC 2014",
           "module": "System.TimeIt",
           "name": "timeItT",
           "package": "timeit",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Wrap an IO computation so that it returns execution time is seconds as well as the real value",
           "hierarchy": "System TimeIt",
+          "indexed": "2014-03-11T20:23:01",
           "module": "System.TimeIt",
           "name": "timeItT",
           "normalized": "IO a-\u003eIO(Double,a)",

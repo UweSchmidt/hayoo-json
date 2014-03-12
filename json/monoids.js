@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monoids"
+        "phrase": "monoids",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for working with Monoids that conflict with names from the \u003ca\u003ePrelude\u003c/a\u003e,\n \u003ca\u003eData.Foldable\u003c/a\u003e, \u003ca\u003eControl.Monad\u003c/a\u003e or elsewhere. Intended to be imported qualified.\n\u003c/p\u003e\u003cpre\u003e import Data.Generator.Combinators as Generator\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "Combinators",
           "package": "monoids",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Utilities for working with Monoids that conflict with names from the Prelude Data.Foldable Control.Monad or elsewhere Intended to be imported qualified import Data.Generator.Combinators as Generator",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "Combinators",
           "package": "monoids",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently \u003ccode\u003e\u003ca\u003emapReduce\u003c/a\u003e\u003c/code\u003e any \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e checking to see if all of its values match the supplied predicate\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003emapReduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetAll\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "all",
           "package": "monoids",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Efficiently mapReduce any Generator checking to see if all of its values match the supplied predicate mapReduceWith getAll",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "all",
           "normalized": "(Elem a-\u003eBool)-\u003ea-\u003eBool",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently \u003ccode\u003e\u003ca\u003ereduce\u003c/a\u003e\u003c/code\u003e a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e that contains values of type \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003ereduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetAll\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "and",
           "package": "monoids",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Efficiently reduce Generator that contains values of type Bool reduceWith getAll",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "and",
           "normalized": "a-\u003eBool",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently \u003ccode\u003e\u003ca\u003emapReduce\u003c/a\u003e\u003c/code\u003e any \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e checking to see if any of its values match the supplied predicate\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003emapReduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetAny\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "any",
           "package": "monoids",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Efficiently mapReduce any Generator checking to see if any of its values match the supplied predicate mapReduceWith getAny",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "any",
           "normalized": "(Elem a-\u003eBool)-\u003ea-\u003eBool",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sum of a collection of actions, generalizing \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\n    \u003ccode\u003e\u003ca\u003ereduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetAlt\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "asum",
           "package": "monoids",
@@ -127,6 +136,7 @@
         "index": {
           "description": "The sum of collection of actions generalizing concat reduceWith getAlt",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "asum",
           "normalized": "a-\u003eb c",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialization of \u003ca\u003efoldMap\u003c/a\u003e above\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "concatMap",
           "package": "monoids",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Type specialization of foldMap above",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "concatMap",
           "normalized": "(Elem a-\u003e[b])-\u003ea-\u003e[b]",
@@ -168,6 +180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck to see if \u003ccode\u003e\u003ca\u003eany\u003c/a\u003e\u003c/code\u003e member of the \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e matches the supplied value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "elem",
           "package": "monoids",
@@ -178,6 +191,7 @@
         "index": {
           "description": "Check to see if any member of the Generator matches the supplied value",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "elem",
           "normalized": "Elem a-\u003ea-\u003eBool",
@@ -193,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently \u003ccode\u003e\u003ca\u003emapReduce\u003c/a\u003e\u003c/code\u003e a subset of the elements in a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "filter",
           "package": "monoids",
@@ -203,6 +218,7 @@
         "index": {
           "description": "Efficiently mapReduce subset of the elements in Generator",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "filter",
           "normalized": "(Elem a-\u003eBool)-\u003ea-\u003eb",
@@ -218,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows idiomatic specialization of filter by proving a function that will be used to transform the output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "filterWith",
           "package": "monoids",
@@ -228,6 +245,7 @@
         "index": {
           "description": "Allows idiomatic specialization of filter by proving function that will be used to transform the output",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "filterWith",
           "normalized": "(a-\u003eb)-\u003e(Elem c-\u003eBool)-\u003ec-\u003eb",
@@ -244,6 +262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specialization of \u003ccode\u003e\u003ca\u003efilter\u003c/a\u003e\u003c/code\u003e using the \u003ccode\u003e\u003ca\u003eFirst\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e, analogous to \u003ccode\u003e\u003ca\u003efind\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003efilterWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetFirst\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "find",
           "package": "monoids",
@@ -254,6 +273,7 @@
         "index": {
           "description": "specialization of filter using the First Monoid analogous to find filterWith getFirst",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "find",
           "normalized": "(Elem a-\u003eBool)-\u003ea-\u003eMaybe(Elem a)",
@@ -269,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently \u003ccode\u003e\u003ca\u003ereduce\u003c/a\u003e\u003c/code\u003e a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e using the \u003ccode\u003e\u003ca\u003eSelf\u003c/a\u003e\u003c/code\u003e monoid. A specialized version of its namesake from \u003ca\u003eData.Foldable\u003c/a\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003ereduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetSelf\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "fold",
           "package": "monoids",
@@ -279,6 +300,7 @@
         "index": {
           "description": "Efficiently reduce Generator using the Self monoid specialized version of its namesake from Data.Foldable reduceWith getSelf",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "fold",
           "normalized": "a-\u003eb",
@@ -294,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently \u003ccode\u003e\u003ca\u003emapReduce\u003c/a\u003e\u003c/code\u003e a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e using the \u003ccode\u003e\u003ca\u003eSelf\u003c/a\u003e\u003c/code\u003e monoid. A specialized version of its namesake from \u003ca\u003eData.Foldable\u003c/a\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003emapReduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetSelf\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "foldMap",
           "package": "monoids",
@@ -304,6 +327,7 @@
         "index": {
           "description": "Efficiently mapReduce Generator using the Self monoid specialized version of its namesake from Data.Foldable mapReduceWith getSelf",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "foldMap",
           "normalized": "(Elem a-\u003eb)-\u003ea-\u003eb",
@@ -320,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function as found in \u003ca\u003eData.Foldable\u003c/a\u003e and \u003ca\u003eControl.Monad\u003c/a\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003emapM_\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "forM_",
           "package": "monoids",
@@ -330,6 +355,7 @@
         "index": {
           "description": "Convenience function as found in Data.Foldable and Control.Monad flip mapM",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "forM_",
           "normalized": "a-\u003e(Elem a-\u003eb c)-\u003eb()",
@@ -345,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function as found in \u003ca\u003eData.Foldable\u003c/a\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003etraverse_\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "for_",
           "package": "monoids",
@@ -355,6 +382,7 @@
         "index": {
           "description": "Convenience function as found in Data.Foldable flip traverse",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "for_",
           "normalized": "a-\u003e(Elem a-\u003eb c)-\u003eb()",
@@ -370,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently \u003ccode\u003e\u003ca\u003emapReduce\u003c/a\u003e\u003c/code\u003e a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e using the \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e monoid. A specialized version of its namesake from \u003ca\u003eData.Foldable\u003c/a\u003e and \u003ca\u003eControl.Monad\u003c/a\u003e\n\u003c/p\u003e\u003cpre\u003e\n    \u003ccode\u003e\u003ca\u003emapReduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetAction\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "mapM_",
           "package": "monoids",
@@ -380,6 +409,7 @@
         "index": {
           "description": "Efficiently mapReduce Generator using the Action monoid specialized version of its namesake from Data.Foldable and Control.Monad mapReduceWith getAction",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "mapM_",
           "normalized": "(Elem a-\u003eb c)-\u003ea-\u003eb()",
@@ -395,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sum of a collection of actions, generalizing \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003ereduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetMonadSum\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "msum",
           "package": "monoids",
@@ -405,6 +436,7 @@
         "index": {
           "description": "The sum of collection of actions generalizing concat reduceWith getMonadSum",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "msum",
           "normalized": "a-\u003eb c",
@@ -420,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck to make sure that the supplied value is not a member of the \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "notElem",
           "package": "monoids",
@@ -430,6 +463,7 @@
         "index": {
           "description": "Check to make sure that the supplied value is not member of the Generator",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "notElem",
           "normalized": "Elem a-\u003ea-\u003eBool",
@@ -446,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently \u003ccode\u003e\u003ca\u003ereduce\u003c/a\u003e\u003c/code\u003e a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e that contains values of type \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003ereduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetAny\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "or",
           "package": "monoids",
@@ -456,6 +491,7 @@
         "index": {
           "description": "Efficiently reduce Generator that contains values of type Bool reduceWith getAny",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "or",
           "normalized": "a-\u003eBool",
@@ -471,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently take the product of every member of a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003ereduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetProduct\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "product",
           "package": "monoids",
@@ -481,6 +518,7 @@
         "index": {
           "description": "Efficiently take the product of every member of Generator reduceWith getProduct",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "product",
           "normalized": "a-\u003eElem a",
@@ -496,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently sum over the members of any \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003ereduceWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetSum\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "sum",
           "package": "monoids",
@@ -506,6 +545,7 @@
         "index": {
           "description": "Efficiently sum over the members of any Generator reduceWith getSum",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "sum",
           "normalized": "a-\u003eElem a",
@@ -521,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert any \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e to a list of its contents. Specialization of \u003ccode\u003e\u003ca\u003ereduce\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "toList",
           "package": "monoids",
@@ -531,6 +572,7 @@
         "index": {
           "description": "Convert any Generator to list of its contents Specialization of reduce",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "toList",
           "normalized": "a-\u003e[Elem a]",
@@ -547,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently \u003ccode\u003e\u003ca\u003emapReduce\u003c/a\u003e\u003c/code\u003e a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e using the \u003ccode\u003e\u003ca\u003eTraversal\u003c/a\u003e\u003c/code\u003e monoid. A specialized version of its namesake from \u003ca\u003eData.Foldable\u003c/a\u003e\n\u003c/p\u003e\u003cpre\u003e\n     \u003ccode\u003e\u003ca\u003emapReduce\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003egetTraversal\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator.Combinators",
           "name": "traverse_",
           "package": "monoids",
@@ -557,6 +600,7 @@
         "index": {
           "description": "Efficiently mapReduce Generator using the Traversal monoid specialized version of its namesake from Data.Foldable mapReduce getTraversal",
           "hierarchy": "Data Generator Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator.Combinators",
           "name": "traverse_",
           "normalized": "(Elem a-\u003eb c)-\u003ea-\u003eb()",
@@ -572,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ec\u003c/code\u003e is a possibly-specialized container, which contains values of \n type \u003ccode\u003e\u003ca\u003eElem\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ec\u003c/code\u003e, and which knows how to efficiently apply a \u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e to extract\n an answer.\n\u003c/p\u003e\u003cp\u003eSince a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e is not polymorphic in its contents, it is more specialized\n than \u003ca\u003eData.Foldable.Foldable\u003c/a\u003e, and a \u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e may supply efficient left-to-right\n and right-to-left reduction strategies that a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e may avail itself of.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator",
           "name": "Generator",
           "package": "monoids",
@@ -581,6 +626,7 @@
         "index": {
           "description": "Generator is possibly-specialized container which contains values of type Elem and which knows how to efficiently apply Reducer to extract an answer Since Generator is not polymorphic in its contents it is more specialized than Data.Foldable.Foldable and Reducer may supply efficient left-to-right and right-to-left reduction strategies that Generator may avail itself of",
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator",
           "name": "Generator",
           "package": "monoids",
@@ -595,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e transformer that treats \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e as \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e\n This lets you use a \u003ccode\u003eByteString\u003c/code\u003e as a \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e source without going through a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e transformer like \u003ccode\u003eUTF8\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator",
           "name": "Char8",
           "package": "monoids",
@@ -604,6 +651,7 @@
         "index": {
           "description": "Generator transformer that treats Word8 as Char This lets you use ByteString as Char source without going through Monoid transformer like UTF8",
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator",
           "name": "Char8",
           "package": "monoids",
@@ -618,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eminimal definition \u003ccode\u003e\u003ca\u003emapReduce\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003emapTo\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator",
           "name": "Generator",
           "package": "monoids",
@@ -627,6 +676,7 @@
         "index": {
           "description": "minimal definition mapReduce or mapTo",
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator",
           "name": "Generator",
           "package": "monoids",
@@ -641,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e transformer that asks only for the keys of an indexed container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator",
           "name": "Keys",
           "package": "monoids",
@@ -650,6 +701,7 @@
         "index": {
           "description": "Generator transformer that asks only for the keys of an indexed container",
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator",
           "name": "Keys",
           "package": "monoids",
@@ -664,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e transformer that asks only for the values contained in an indexed container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator",
           "name": "Values",
           "package": "monoids",
@@ -673,6 +726,7 @@
         "index": {
           "description": "Generator transformer that asks only for the values contained in an indexed container",
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator",
           "name": "Values",
           "package": "monoids",
@@ -686,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator",
           "name": "Char8",
           "package": "monoids",
@@ -695,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator",
           "name": "Char8",
           "package": "monoids",
@@ -708,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator",
           "name": "Keys",
           "package": "monoids",
@@ -717,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator",
           "name": "Keys",
           "package": "monoids",
@@ -730,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator",
           "name": "Values",
           "package": "monoids",
@@ -739,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator",
           "name": "Values",
           "package": "monoids",
@@ -752,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator",
           "name": "getChar8",
           "package": "monoids",
@@ -761,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator",
           "name": "getChar8",
           "package": "monoids",
@@ -774,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator",
           "name": "getKeys",
           "package": "monoids",
@@ -783,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator",
           "name": "getKeys",
           "package": "monoids",
@@ -796,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator",
           "name": "getValues",
           "package": "monoids",
@@ -805,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator",
           "name": "getValues",
           "package": "monoids",
@@ -818,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator",
           "name": "mapFrom",
           "package": "monoids",
@@ -827,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator",
           "name": "mapFrom",
           "normalized": "(Elem a-\u003eb)-\u003ea-\u003ec-\u003ec",
@@ -842,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator",
           "name": "mapReduce",
           "package": "monoids",
@@ -851,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator",
           "name": "mapReduce",
           "normalized": "(Elem a-\u003eb)-\u003ea-\u003ec",
@@ -866,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator",
           "name": "mapReduceWith",
           "package": "monoids",
@@ -875,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator",
           "name": "mapReduceWith",
           "normalized": "(a-\u003eb)-\u003e(Elem c-\u003ed)-\u003ec-\u003eb",
@@ -890,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator",
           "name": "mapTo",
           "package": "monoids",
@@ -899,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator",
           "name": "mapTo",
           "normalized": "(Elem a-\u003eb)-\u003ec-\u003ea-\u003ec",
@@ -915,6 +989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e directly to the elements of a \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator",
           "name": "reduce",
           "package": "monoids",
@@ -925,6 +1000,7 @@
         "index": {
           "description": "Apply Reducer directly to the elements of Generator",
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator",
           "name": "reduce",
           "normalized": "a-\u003eb",
@@ -939,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Generator",
           "name": "reduceWith",
           "package": "monoids",
@@ -948,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Data Generator",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Generator",
           "name": "reduceWith",
           "normalized": "(a-\u003eb)-\u003ec-\u003eb",
@@ -964,6 +1042,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for working with Groups that conflict with names from the \u003ca\u003ePrelude\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eIntended to be imported qualified.\n\u003c/p\u003e\u003cpre\u003e import Data.Group.Combinators as Group (replicate)\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Group.Combinators",
           "name": "Combinators",
           "package": "monoids",
@@ -973,6 +1052,7 @@
         "index": {
           "description": "Utilities for working with Groups that conflict with names from the Prelude Intended to be imported qualified import Data.Group.Combinators as Group replicate",
           "hierarchy": "Data Group Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Group.Combinators",
           "name": "Combinators",
           "package": "monoids",
@@ -986,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Group.Combinators",
           "name": "replicate",
           "package": "monoids",
@@ -995,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Data Group Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Group.Combinators",
           "name": "replicate",
           "normalized": "a-\u003eb-\u003ea",
@@ -1010,6 +1092,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSyntactic sugar for working with groups that conflicts with names from the \u003ca\u003ePrelude\u003c/a\u003e.\n\u003c/p\u003e\u003cpre\u003e import Prelude hiding ((-), (+), (*), (/), (^), (^^), negate, subtract, recip)\n import Data.Group.Sugar\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Group.Sugar",
           "name": "Sugar",
           "package": "monoids",
@@ -1019,6 +1102,7 @@
         "index": {
           "description": "Syntactic sugar for working with groups that conflicts with names from the Prelude import Prelude hiding negate subtract recip import Data.Group.Sugar",
           "hierarchy": "Data Group Sugar",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Group.Sugar",
           "name": "Sugar",
           "package": "monoids",
@@ -1032,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Group.Sugar",
           "name": "(-)",
           "package": "monoids",
@@ -1041,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Data Group Sugar",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Group.Sugar",
           "name": "(-) -",
           "normalized": "a-\u003ea-\u003ea",
@@ -1055,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Group.Sugar",
           "name": "(/)",
           "package": "monoids",
@@ -1064,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Data Group Sugar",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Group.Sugar",
           "name": "(/) /",
           "normalized": "a-\u003ea-\u003ea",
@@ -1078,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Group.Sugar",
           "name": "(^^)",
           "package": "monoids",
@@ -1087,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Data Group Sugar",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Group.Sugar",
           "name": "(^^) ^^",
           "normalized": "a-\u003eInteger-\u003ea",
@@ -1101,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Group.Sugar",
           "name": "(.\\.)",
           "package": "monoids",
@@ -1110,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Data Group Sugar",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Group.Sugar",
           "name": "(.\\.) .\\.",
           "normalized": "a-\u003ea-\u003ea",
@@ -1124,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Group.Sugar",
           "name": "negate",
           "package": "monoids",
@@ -1133,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Data Group Sugar",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Group.Sugar",
           "name": "negate",
           "normalized": "a-\u003ea",
@@ -1147,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Group.Sugar",
           "name": "recip",
           "package": "monoids",
@@ -1156,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Data Group Sugar",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Group.Sugar",
           "name": "recip",
           "normalized": "a-\u003ea",
@@ -1170,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Group.Sugar",
           "name": "subtract",
           "package": "monoids",
@@ -1179,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Data Group Sugar",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Group.Sugar",
           "name": "subtract",
           "normalized": "a-\u003ea-\u003ea",
@@ -1194,6 +1292,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtends \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e to support \u003ccode\u003e\u003ca\u003eGroup\u003c/a\u003e\u003c/code\u003e operations\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Group",
           "name": "Group",
           "package": "monoids",
@@ -1203,6 +1302,7 @@
         "index": {
           "description": "Extends Monoid to support Group operations",
           "hierarchy": "Data Group",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Group",
           "name": "Group",
           "package": "monoids",
@@ -1217,6 +1317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003egnegate\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eminus\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Group",
           "name": "Group",
           "package": "monoids",
@@ -1226,6 +1327,7 @@
         "index": {
           "description": "Minimal complete definition gnegate or minus",
           "hierarchy": "Data Group",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Group",
           "name": "Group",
           "package": "monoids",
@@ -1240,6 +1342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal definition over or grecip\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Group",
           "name": "MultiplicativeGroup",
           "package": "monoids",
@@ -1249,6 +1352,7 @@
         "index": {
           "description": "Minimal definition over or grecip",
           "hierarchy": "Data Group",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Group",
           "name": "MultiplicativeGroup",
           "package": "monoids",
@@ -1262,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Group",
           "name": "gnegate",
           "package": "monoids",
@@ -1271,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Data Group",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Group",
           "name": "gnegate",
           "normalized": "a-\u003ea",
@@ -1285,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Group",
           "name": "grecip",
           "package": "monoids",
@@ -1294,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Data Group",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Group",
           "name": "grecip",
           "normalized": "a-\u003ea",
@@ -1308,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Group",
           "name": "gsubtract",
           "package": "monoids",
@@ -1317,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Data Group",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Group",
           "name": "gsubtract",
           "normalized": "a-\u003ea-\u003ea",
@@ -1331,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Group",
           "name": "minus",
           "package": "monoids",
@@ -1340,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "Data Group",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Group",
           "name": "minus",
           "normalized": "a-\u003ea-\u003ea",
@@ -1355,6 +1467,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ex / y\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Group",
           "name": "over",
           "package": "monoids",
@@ -1364,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "Data Group",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Group",
           "name": "over",
           "normalized": "a-\u003ea-\u003ea",
@@ -1379,6 +1493,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ex  y\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Group",
           "name": "under",
           "package": "monoids",
@@ -1388,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Data Group",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Group",
           "name": "under",
           "normalized": "a-\u003ea-\u003ea",
@@ -1403,6 +1519,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMore easily understood aliases for \u003ca\u003emappend\u003c/a\u003e and \u003ca\u003emempty\u003c/a\u003e, chosen for\n symmetry with Data.Monoid.Multiplicative\n\u003c/p\u003e\u003cpre\u003e import Data.Monoid.Additive\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Additive",
           "name": "Additive",
           "package": "monoids",
@@ -1412,6 +1529,7 @@
         "index": {
           "description": "More easily understood aliases for mappend and mempty chosen for symmetry with Data.Monoid.Multiplicative import Data.Monoid.Additive",
           "hierarchy": "Data Monoid Additive",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Additive",
           "name": "Additive",
           "package": "monoids",
@@ -1425,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Additive",
           "name": "plus",
           "package": "monoids",
@@ -1434,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Additive",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Additive",
           "name": "plus",
           "normalized": "a-\u003ea-\u003ea",
@@ -1448,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Additive",
           "name": "zero",
           "package": "monoids",
@@ -1457,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Additive",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Additive",
           "name": "zero",
           "package": "monoids",
@@ -1470,6 +1592,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonoids for working with an \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Applicative",
           "name": "Applicative",
           "package": "monoids",
@@ -1479,6 +1602,7 @@
         "index": {
           "description": "Monoids for working with an Applicative Functor",
           "hierarchy": "Data Monoid Applicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Applicative",
           "name": "Applicative",
           "package": "monoids",
@@ -1493,6 +1617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eAlt\u003c/a\u003e\u003c/code\u003e turns any \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e instance into a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e.\n   It also provides a \u003ccode\u003e\u003ca\u003eMultiplicative\u003c/a\u003e\u003c/code\u003e instance for an \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e functor wrapped around a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e\n   and asserts that any \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e applied to a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e forms a \u003ccode\u003eRightSemiNearRing\u003c/code\u003e \n   under these operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Applicative",
           "name": "Alt",
           "package": "monoids",
@@ -1502,6 +1627,7 @@
         "index": {
           "description": "Alt turns any Alternative instance into Monoid It also provides Multiplicative instance for an Applicative functor wrapped around Monoid and asserts that any Alternative applied to Monoid forms RightSemiNearRing under these operations",
           "hierarchy": "Data Monoid Applicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Applicative",
           "name": "Alt",
           "package": "monoids",
@@ -1516,6 +1642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif \u003ccode\u003em\u003c/code\u003e is a \u003ccode\u003eModule\u003c/code\u003e over \u003ccode\u003er\u003c/code\u003e and \u003ccode\u003ef\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e then \u003ccode\u003ef \u003ccode\u003e\u003ca\u003eApp\u003c/a\u003e\u003c/code\u003e m\u003c/code\u003e is a \u003ccode\u003eModule\u003c/code\u003e over \u003ccode\u003er\u003c/code\u003e as well\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Applicative",
           "name": "App",
           "package": "monoids",
@@ -1525,6 +1652,7 @@
         "index": {
           "description": "if is Module over and is Applicative then App is Module over as well",
           "hierarchy": "Data Monoid Applicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Applicative",
           "name": "App",
           "package": "monoids",
@@ -1539,6 +1667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTraversal\u003c/a\u003e\u003c/code\u003e uses an glues together \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e actions with (*\u003e)\n   in the manner of \u003ccode\u003etraverse_\u003c/code\u003e from \u003ca\u003eData.Foldable\u003c/a\u003e. Any values returned by \n   reduced actions are discarded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Applicative",
           "name": "Traversal",
           "package": "monoids",
@@ -1548,6 +1677,7 @@
         "index": {
           "description": "Traversal uses an glues together Applicative actions with in the manner of traverse from Data.Foldable Any values returned by reduced actions are discarded",
           "hierarchy": "Data Monoid Applicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Applicative",
           "name": "Traversal",
           "package": "monoids",
@@ -1561,6 +1691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Applicative",
           "name": "Alt",
           "package": "monoids",
@@ -1570,6 +1701,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Applicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Applicative",
           "name": "Alt",
           "package": "monoids",
@@ -1583,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Applicative",
           "name": "App",
           "package": "monoids",
@@ -1592,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Applicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Applicative",
           "name": "App",
           "package": "monoids",
@@ -1605,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Applicative",
           "name": "Traversal",
           "package": "monoids",
@@ -1614,6 +1749,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Applicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Applicative",
           "name": "Traversal",
           "package": "monoids",
@@ -1627,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Applicative",
           "name": "getAlt",
           "package": "monoids",
@@ -1636,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Applicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Applicative",
           "name": "getAlt",
           "package": "monoids",
@@ -1649,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Applicative",
           "name": "getApp",
           "package": "monoids",
@@ -1658,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Applicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Applicative",
           "name": "getApp",
           "package": "monoids",
@@ -1671,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Applicative",
           "name": "getTraversal",
           "package": "monoids",
@@ -1680,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Applicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Applicative",
           "name": "getTraversal",
           "normalized": "a()",
@@ -1696,6 +1838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently avoid needlessly rebinding when using \u003ccode\u003e\u003ca\u003esnoc\u003c/a\u003e\u003c/code\u003e on an action that already returns ()\n   A rewrite rule automatically applies this when possible\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Applicative",
           "name": "snocTraversal",
           "package": "monoids",
@@ -1706,6 +1849,7 @@
         "index": {
           "description": "Efficiently avoid needlessly rebinding when using snoc on an action that already returns rewrite rule automatically applies this when possible",
           "hierarchy": "Data Monoid Applicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Applicative",
           "name": "snocTraversal",
           "normalized": "Traversal a-\u003ea()-\u003eTraversal a",
@@ -1722,6 +1866,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for working with Monoids that conflict with names from the \u003ca\u003ePrelude\u003c/a\u003e,\n \u003ca\u003eData.Foldable\u003c/a\u003e, \u003ca\u003eControl.Monad\u003c/a\u003e or elsewhere. Intended to be imported qualified.\n\u003c/p\u003e\u003cpre\u003e import Data.Monoid.Combinators as Monoid \n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Combinators",
           "name": "Combinators",
           "package": "monoids",
@@ -1731,6 +1876,7 @@
         "index": {
           "description": "Utilities for working with Monoids that conflict with names from the Prelude Data.Foldable Control.Monad or elsewhere Intended to be imported qualified import Data.Monoid.Combinators as Monoid",
           "hierarchy": "Data Monoid Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Combinators",
           "name": "Combinators",
           "package": "monoids",
@@ -1745,6 +1891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalization of \u003ccode\u003e\u003ca\u003ecycle\u003c/a\u003e\u003c/code\u003e to an arbitrary \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e. May fail to terminate for some values in some monoids.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Combinators",
           "name": "cycle",
           "package": "monoids",
@@ -1755,6 +1902,7 @@
         "index": {
           "description": "generalization of cycle to an arbitrary Monoid May fail to terminate for some values in some monoids",
           "hierarchy": "Data Monoid Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Combinators",
           "name": "cycle",
           "normalized": "a-\u003ea",
@@ -1770,6 +1918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalization of \u003ccode\u003e\u003ca\u003erepeat\u003c/a\u003e\u003c/code\u003e to an arbitrary \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e. May fail to terminate for some values in some monoids.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Combinators",
           "name": "repeat",
           "package": "monoids",
@@ -1780,6 +1929,7 @@
         "index": {
           "description": "generalization of repeat to an arbitrary Monoid May fail to terminate for some values in some monoids",
           "hierarchy": "Data Monoid Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Combinators",
           "name": "repeat",
           "normalized": "a-\u003eb",
@@ -1795,6 +1945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalization of \u003ccode\u003e\u003ca\u003ereplicate\u003c/a\u003e\u003c/code\u003e to an arbitrary \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e. Adapted from \n \u003ca\u003ehttp://augustss.blogspot.com/2008/07/lost-and-found-if-i-write-108-in.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Combinators",
           "name": "replicate",
           "package": "monoids",
@@ -1805,6 +1956,7 @@
         "index": {
           "description": "generalization of replicate to an arbitrary Monoid Adapted from http augustss.blogspot.com lost-and-found-if-i-write-108-in.html",
           "hierarchy": "Data Monoid Combinators",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Combinators",
           "name": "replicate",
           "normalized": "a-\u003eb-\u003ea",
@@ -1820,6 +1972,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instances for working with a \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Monad",
           "name": "Monad",
           "package": "monoids",
@@ -1829,6 +1982,7 @@
         "index": {
           "description": "Monoid instances for working with Monad",
           "hierarchy": "Data Monoid Monad",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Monad",
           "name": "Monad",
           "package": "monoids",
@@ -1843,6 +1997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e uses glues together \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e actions with (\u003e\u003e)\n   in the manner of \u003ccode\u003e\u003ca\u003emapM_\u003c/a\u003e\u003c/code\u003e from \u003ca\u003eData.Foldable\u003c/a\u003e. Any values returned by \n   reduced actions are discarded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Monad",
           "name": "Action",
           "package": "monoids",
@@ -1852,6 +2007,7 @@
         "index": {
           "description": "An Action uses glues together Monad actions with in the manner of mapM from Data.Foldable Any values returned by reduced actions are discarded",
           "hierarchy": "Data Monoid Monad",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Monad",
           "name": "Action",
           "package": "monoids",
@@ -1866,6 +2022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif \u003ccode\u003em\u003c/code\u003e is a \u003ccode\u003eModule\u003c/code\u003e over \u003ccode\u003er\u003c/code\u003e and \u003ccode\u003ef\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e then \u003ccode\u003ef \u003ccode\u003e\u003ca\u003eMon\u003c/a\u003e\u003c/code\u003e m\u003c/code\u003e is a \u003ccode\u003eModule\u003c/code\u003e as well\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Monad",
           "name": "Mon",
           "package": "monoids",
@@ -1875,6 +2032,7 @@
         "index": {
           "description": "if is Module over and is Monad then Mon is Module as well",
           "hierarchy": "Data Monoid Monad",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Monad",
           "name": "Mon",
           "package": "monoids",
@@ -1889,6 +2047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMonadSum\u003c/a\u003e\u003c/code\u003e turns any \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e instance into a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e.\n   It also provides a \u003ccode\u003e\u003ca\u003eMultiplicative\u003c/a\u003e\u003c/code\u003e instance for a \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e wrapped around a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e\n   and asserts that any \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e applied to a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e forms a \u003ccode\u003eRightSemiNearRing\u003c/code\u003e \n   under these operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Monad",
           "name": "MonadSum",
           "package": "monoids",
@@ -1898,6 +2057,7 @@
         "index": {
           "description": "MonadSum turns any MonadPlus instance into Monoid It also provides Multiplicative instance for Monad wrapped around Monoid and asserts that any MonadPlus applied to Monoid forms RightSemiNearRing under these operations",
           "hierarchy": "Data Monoid Monad",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Monad",
           "name": "MonadSum",
           "package": "monoids",
@@ -1911,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Monad",
           "name": "Action",
           "package": "monoids",
@@ -1920,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Monad",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Monad",
           "name": "Action",
           "package": "monoids",
@@ -1933,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Monad",
           "name": "Mon",
           "package": "monoids",
@@ -1942,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Monad",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Monad",
           "name": "Mon",
           "package": "monoids",
@@ -1955,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Monad",
           "name": "MonadSum",
           "package": "monoids",
@@ -1964,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Monad",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Monad",
           "name": "MonadSum",
           "package": "monoids",
@@ -1977,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Monad",
           "name": "getAction",
           "package": "monoids",
@@ -1986,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Monad",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Monad",
           "name": "getAction",
           "normalized": "a()",
@@ -2001,6 +2169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Monad",
           "name": "getMon",
           "package": "monoids",
@@ -2010,6 +2179,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Monad",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Monad",
           "name": "getMon",
           "package": "monoids",
@@ -2023,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Monad",
           "name": "getMonadSum",
           "package": "monoids",
@@ -2032,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Monad",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Monad",
           "name": "getMonadSum",
           "package": "monoids",
@@ -2046,6 +2218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently avoid needlessly rebinding when using \u003ccode\u003e\u003ca\u003esnoc\u003c/a\u003e\u003c/code\u003e on an action that already returns ()\n   A rewrite rule automatically applies this when possible\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Monad",
           "name": "snocAction",
           "package": "monoids",
@@ -2056,6 +2229,7 @@
         "index": {
           "description": "Efficiently avoid needlessly rebinding when using snoc on an action that already returns rewrite rule automatically applies this when possible",
           "hierarchy": "Data Monoid Monad",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Monad",
           "name": "snocAction",
           "normalized": "Action a-\u003ea()-\u003eAction a",
@@ -2072,6 +2246,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWhen dealing with a \u003ccode\u003eRing\u003c/code\u003e or other structure, you often need a pair of \n \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instances that are closely related. Making a \u003ccode\u003enewtype\u003c/code\u003e for one\n is unsatisfying and yields an unnatural programming style. \n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMultiplicative\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e that is intended for use in a scenario\n that can be extended to have another \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e slot in for addition. This\n enables one to use common notation.\n\u003c/p\u003e\u003cp\u003eAny \u003ccode\u003e\u003ca\u003eMultiplicative\u003c/a\u003e\u003c/code\u003e can be turned into a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e using the \u003ccode\u003e\u003ca\u003eLog\u003c/a\u003e\u003c/code\u003e wrapper.\n\u003c/p\u003e\u003cp\u003eAny \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e can be turned into a \u003ccode\u003e\u003ca\u003eMultiplicative\u003c/a\u003e\u003c/code\u003e using the \u003ccode\u003e\u003ca\u003eExp\u003c/a\u003e\u003c/code\u003e wrapper.\n\u003c/p\u003e\u003cp\u003eInstances are supplied for common Monads of Monoids, in a fashion \n which can be extended if the \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003eMonadPlus\u003c/code\u003e to yield a \u003ccode\u003eRightSemiNearRing\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eInstances are also supplied for common Applicatives of Monoids, in a\n fashion which can be extended if the \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e to\n yield a \u003ccode\u003eRightSemiNearRing\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Multiplicative",
           "name": "Multiplicative",
           "package": "monoids",
@@ -2081,6 +2256,7 @@
         "index": {
           "description": "When dealing with Ring or other structure you often need pair of Monoid instances that are closely related Making newtype for one is unsatisfying and yields an unnatural programming style Multiplicative is Monoid that is intended for use in scenario that can be extended to have another Monoid slot in for addition This enables one to use common notation Any Multiplicative can be turned into Monoid using the Log wrapper Any Monoid can be turned into Multiplicative using the Exp wrapper Instances are supplied for common Monads of Monoids in fashion which can be extended if the Monad is MonadPlus to yield RightSemiNearRing Instances are also supplied for common Applicatives of Monoids in fashion which can be extended if the Applicative is Alternative to yield RightSemiNearRing",
           "hierarchy": "Data Monoid Multiplicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Multiplicative",
           "name": "Multiplicative",
           "package": "monoids",
@@ -2095,6 +2271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eMultiplicative\u003c/a\u003e\u003c/code\u003e. Mnemonic: \u003ccode\u003eExp a * Exp b = Exp (a + b)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Multiplicative",
           "name": "Exp",
           "package": "monoids",
@@ -2104,6 +2281,7 @@
         "index": {
           "description": "Convert Monoid into Multiplicative Mnemonic Exp Exp Exp",
           "hierarchy": "Data Monoid Multiplicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Multiplicative",
           "name": "Exp",
           "package": "monoids",
@@ -2118,6 +2296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eMultiplicative\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e. Mnemonic: \u003ccode\u003eLog a + Log b = Log (a * b)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Multiplicative",
           "name": "Log",
           "package": "monoids",
@@ -2127,6 +2306,7 @@
         "index": {
           "description": "Convert Multiplicative into Monoid Mnemonic Log Log Log",
           "hierarchy": "Data Monoid Multiplicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Multiplicative",
           "name": "Log",
           "package": "monoids",
@@ -2140,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Multiplicative",
           "name": "Multiplicative",
           "package": "monoids",
@@ -2148,6 +2329,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Multiplicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Multiplicative",
           "name": "Multiplicative",
           "package": "monoids",
@@ -2161,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Multiplicative",
           "name": "Exp",
           "package": "monoids",
@@ -2170,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Multiplicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Multiplicative",
           "name": "Exp",
           "package": "monoids",
@@ -2183,6 +2367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Multiplicative",
           "name": "Log",
           "package": "monoids",
@@ -2192,6 +2377,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Multiplicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Multiplicative",
           "name": "Log",
           "package": "monoids",
@@ -2205,6 +2391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Multiplicative",
           "name": "getExp",
           "package": "monoids",
@@ -2214,6 +2401,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Multiplicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Multiplicative",
           "name": "getExp",
           "package": "monoids",
@@ -2227,6 +2415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Multiplicative",
           "name": "getLog",
           "package": "monoids",
@@ -2236,6 +2425,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Multiplicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Multiplicative",
           "name": "getLog",
           "package": "monoids",
@@ -2249,6 +2439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Multiplicative",
           "name": "one",
           "package": "monoids",
@@ -2258,6 +2449,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Multiplicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Multiplicative",
           "name": "one",
           "package": "monoids",
@@ -2270,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Multiplicative",
           "name": "times",
           "package": "monoids",
@@ -2279,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Multiplicative",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Multiplicative",
           "name": "times",
           "normalized": "a-\u003ea-\u003ea",
@@ -2293,6 +2487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Ord",
           "name": "Ord",
           "package": "monoids",
@@ -2301,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Ord",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Ord",
           "name": "Ord",
           "package": "monoids",
@@ -2315,6 +2511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e(\u003ccode\u003e\u003ca\u003emax\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eminBound\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Ord",
           "name": "Max",
           "package": "monoids",
@@ -2324,6 +2521,7 @@
         "index": {
           "description": "The Monoid max minBound",
           "hierarchy": "Data Monoid Ord",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Ord",
           "name": "Max",
           "package": "monoids",
@@ -2338,6 +2536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e(\u003ccode\u003e\u003ca\u003emax\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e over \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e where \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is the bottom element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Ord",
           "name": "MaxPriority",
           "package": "monoids",
@@ -2347,6 +2546,7 @@
         "index": {
           "description": "The Monoid max Nothing over Maybe where Nothing is the bottom element",
           "hierarchy": "Data Monoid Ord",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Ord",
           "name": "MaxPriority",
           "package": "monoids",
@@ -2361,6 +2561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e given by \u003ccode\u003e(\u003ccode\u003e\u003ca\u003emin\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003emaxBound\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Ord",
           "name": "Min",
           "package": "monoids",
@@ -2370,6 +2571,7 @@
         "index": {
           "description": "The Monoid given by min maxBound",
           "hierarchy": "Data Monoid Ord",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Ord",
           "name": "Min",
           "package": "monoids",
@@ -2384,6 +2586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e(\u003ccode\u003e\u003ca\u003emin\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e over \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e where \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is the top element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Ord",
           "name": "MinPriority",
           "package": "monoids",
@@ -2393,6 +2596,7 @@
         "index": {
           "description": "The Monoid min Nothing over Maybe where Nothing is the top element",
           "hierarchy": "Data Monoid Ord",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Ord",
           "name": "MinPriority",
           "package": "monoids",
@@ -2406,6 +2610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Ord",
           "name": "Max",
           "package": "monoids",
@@ -2415,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Ord",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Ord",
           "name": "Max",
           "package": "monoids",
@@ -2428,6 +2634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Ord",
           "name": "MaxPriority",
           "package": "monoids",
@@ -2437,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Ord",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Ord",
           "name": "MaxPriority",
           "package": "monoids",
@@ -2450,6 +2658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Ord",
           "name": "Min",
           "package": "monoids",
@@ -2459,6 +2668,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Ord",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Ord",
           "name": "Min",
           "package": "monoids",
@@ -2472,6 +2682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Ord",
           "name": "MinPriority",
           "package": "monoids",
@@ -2481,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Ord",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Ord",
           "name": "MinPriority",
           "package": "monoids",
@@ -2494,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Ord",
           "name": "getMax",
           "package": "monoids",
@@ -2503,6 +2716,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Ord",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Ord",
           "name": "getMax",
           "package": "monoids",
@@ -2516,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Ord",
           "name": "getMaxPriority",
           "package": "monoids",
@@ -2525,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Ord",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Ord",
           "name": "getMaxPriority",
           "package": "monoids",
@@ -2538,6 +2754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Ord",
           "name": "getMin",
           "package": "monoids",
@@ -2547,6 +2764,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Ord",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Ord",
           "name": "getMin",
           "package": "monoids",
@@ -2560,6 +2778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Ord",
           "name": "getMinPriority",
           "package": "monoids",
@@ -2569,6 +2788,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Ord",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Ord",
           "name": "getMinPriority",
           "package": "monoids",
@@ -2582,6 +2802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Ord",
           "name": "infinity",
           "package": "monoids",
@@ -2591,6 +2812,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Ord",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Ord",
           "name": "infinity",
           "package": "monoids",
@@ -2603,6 +2825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Ord",
           "name": "minfinity",
           "package": "monoids",
@@ -2612,6 +2835,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Ord",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Ord",
           "name": "minfinity",
           "package": "monoids",
@@ -2625,6 +2849,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003ccode\u003ec\u003c/code\u003e-\u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e with a canonical mapping from \u003ccode\u003ec\u003c/code\u003e to the Monoid.\n This \u003ccode\u003e\u003ca\u003eunit\u003c/a\u003e\u003c/code\u003e acts in many ways like \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e but is limited\n to a single type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Reducer",
           "name": "Reducer",
           "package": "monoids",
@@ -2634,6 +2859,7 @@
         "index": {
           "description": "Reducer is Monoid with canonical mapping from to the Monoid This unit acts in many ways like return for Monad but is limited to single type",
           "hierarchy": "Data Monoid Reducer",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Reducer",
           "name": "Reducer",
           "package": "monoids",
@@ -2648,6 +2874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type may be best read infix. A \u003ccode\u003ec \u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e m\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003em\u003c/code\u003e that maps\n values of type \u003ccode\u003ec\u003c/code\u003e through \u003ccode\u003eunit\u003c/code\u003e to values of type \u003ccode\u003em\u003c/code\u003e. A \u003ccode\u003ec\u003c/code\u003e-\u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e may also\n supply operations which tack-on another \u003ccode\u003ec\u003c/code\u003e to an existing \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003em\u003c/code\u003e on the left\n or right. These specialized reductions may be more efficient in some scenarios\n and are used when appropriate by a \u003ccode\u003eGenerator\u003c/code\u003e. The names \u003ccode\u003e\u003ca\u003econs\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003esnoc\u003c/a\u003e\u003c/code\u003e work\n by analogy to the synonymous operations in the list monoid.\n\u003c/p\u003e\u003cp\u003eThis class deliberately avoids functional-dependencies, so that () can be a \u003ccode\u003ec\u003c/code\u003e-Reducer\n for all \u003ccode\u003ec\u003c/code\u003e, and so many common reducers can work over multiple types, for instance,\n First and Last may reduce both \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e. Since a \u003ccode\u003eGenerator\u003c/code\u003e has a fixed element\n type, the input to the reducer is generally known and extracting from the monoid usually\n is sufficient to fix the result type. Combinators are available for most scenarios where\n this is not the case, and the few remaining cases can be handled by using an explicit \n type annotation.\n\u003c/p\u003e\u003cp\u003eMinimal definition: \u003ccode\u003e\u003ca\u003eunit\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003esnoc\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Reducer",
           "name": "Reducer",
           "package": "monoids",
@@ -2657,6 +2884,7 @@
         "index": {
           "description": "This type may be best read infix Reducer is Monoid that maps values of type through unit to values of type Reducer may also supply operations which tack-on another to an existing Monoid on the left or right These specialized reductions may be more efficient in some scenarios and are used when appropriate by Generator The names cons and snoc work by analogy to the synonymous operations in the list monoid This class deliberately avoids functional-dependencies so that can be Reducer for all and so many common reducers can work over multiple types for instance First and Last may reduce both and Maybe Since Generator has fixed element type the input to the reducer is generally known and extracting from the monoid usually is sufficient to fix the result type Combinators are available for most scenarios where this is not the case and the few remaining cases can be handled by using an explicit type annotation Minimal definition unit or snoc",
           "hierarchy": "Data Monoid Reducer",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Reducer",
           "name": "Reducer",
           "package": "monoids",
@@ -2671,6 +2899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepend a value onto a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e for use during right-to-left reduction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Reducer",
           "name": "cons",
           "package": "monoids",
@@ -2681,6 +2910,7 @@
         "index": {
           "description": "Prepend value onto Monoid for use during right-to-left reduction",
           "hierarchy": "Data Monoid Reducer",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Reducer",
           "name": "cons",
           "normalized": "a-\u003eb-\u003eb",
@@ -2696,6 +2926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e container, after mapping the contents into a suitable form for reduction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Reducer",
           "name": "foldMapReduce",
           "package": "monoids",
@@ -2706,6 +2937,7 @@
         "index": {
           "description": "Apply Reducer to Foldable container after mapping the contents into suitable form for reduction",
           "hierarchy": "Data Monoid Reducer",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Reducer",
           "name": "foldMapReduce",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ed",
@@ -2722,6 +2954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e mapping each element through \u003ccode\u003e\u003ca\u003eunit\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Reducer",
           "name": "foldReduce",
           "package": "monoids",
@@ -2732,6 +2965,7 @@
         "index": {
           "description": "Apply Reducer to Foldable mapping each element through unit",
           "hierarchy": "Data Monoid Reducer",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Reducer",
           "name": "foldReduce",
           "normalized": "a b-\u003ec",
@@ -2747,6 +2981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Reducer",
           "name": "pureUnit",
           "package": "monoids",
@@ -2756,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Reducer",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Reducer",
           "name": "pureUnit",
           "normalized": "a-\u003eb c",
@@ -2771,6 +3007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Reducer",
           "name": "returnUnit",
           "package": "monoids",
@@ -2780,6 +3017,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Reducer",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Reducer",
           "name": "returnUnit",
           "normalized": "a-\u003eb c",
@@ -2796,6 +3034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend a value to a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e for use in left-to-right reduction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Reducer",
           "name": "snoc",
           "package": "monoids",
@@ -2806,6 +3045,7 @@
         "index": {
           "description": "Append value to Monoid for use in left-to-right reduction",
           "hierarchy": "Data Monoid Reducer",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Reducer",
           "name": "snoc",
           "normalized": "a-\u003eb-\u003ea",
@@ -2821,6 +3061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value into a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Reducer",
           "name": "unit",
           "package": "monoids",
@@ -2831,6 +3072,7 @@
         "index": {
           "description": "Convert value into Monoid",
           "hierarchy": "Data Monoid Reducer",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Reducer",
           "name": "unit",
           "normalized": "a-\u003eb",
@@ -2846,6 +3088,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e transformer that takes a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e m and produces a new \u003ccode\u003em\u003c/code\u003e-Reducer named \u003ccode\u003e\u003ca\u003eSelf\u003c/a\u003e\u003c/code\u003e \u003ccode\u003em\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThis is useful when you have a generator that already contains monoidal values or someone supplies\n the map to the monoid in the form of a function rather than as a \u003ca\u003eReducer\u003c/a\u003e instance. You can just\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003egetSelf\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003ereduce\u003c/code\u003e\u003c/code\u003e or \u003ccode\u003e\u003ccode\u003e\u003ca\u003egetSelf\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003emapReduce\u003c/code\u003e f\u003c/code\u003e in those scenarios. These behaviors are encapsulated \n into the \u003ccode\u003efold\u003c/code\u003e and \u003ccode\u003efoldMap\u003c/code\u003e combinators in \u003ca\u003eData.Monoid.Combinators\u003c/a\u003e respectively.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Self",
           "name": "Self",
           "package": "monoids",
@@ -2855,6 +3098,7 @@
         "index": {
           "description": "simple Monoid transformer that takes Monoid and produces new Reducer named Self This is useful when you have generator that already contains monoidal values or someone supplies the map to the monoid in the form of function rather than as Reducer instance You can just getSelf reduce or getSelf mapReduce in those scenarios These behaviors are encapsulated into the fold and foldMap combinators in Data.Monoid.Combinators respectively",
           "hierarchy": "Data Monoid Self",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Self",
           "name": "Self",
           "package": "monoids",
@@ -2868,6 +3112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Self",
           "name": "Self",
           "package": "monoids",
@@ -2876,6 +3121,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Self",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Self",
           "name": "Self",
           "package": "monoids",
@@ -2889,6 +3135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Self",
           "name": "Self",
           "package": "monoids",
@@ -2898,6 +3145,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Self",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Self",
           "name": "Self",
           "package": "monoids",
@@ -2911,6 +3159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Self",
           "name": "getSelf",
           "package": "monoids",
@@ -2920,6 +3169,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Self",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Self",
           "name": "getSelf",
           "package": "monoids",
@@ -2934,6 +3184,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSyntactic sugar for working with a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMultiplicative\u003c/a\u003e\u003c/code\u003e instances \n that conflicts with names from the \u003ca\u003ePrelude\u003c/a\u003e.\n\u003c/p\u003e\u003cpre\u003e import Prelude hiding ((+),(*),(^))\n import Data.Monoid.Sugar\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Sugar",
           "name": "Sugar",
           "package": "monoids",
@@ -2943,6 +3194,7 @@
         "index": {
           "description": "Syntactic sugar for working with Monoid and Multiplicative instances that conflicts with names from the Prelude import Prelude hiding import Data.Monoid.Sugar",
           "hierarchy": "Data Monoid Sugar",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Sugar",
           "name": "Sugar",
           "package": "monoids",
@@ -2956,6 +3208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Sugar",
           "name": "(*)",
           "package": "monoids",
@@ -2965,6 +3218,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Sugar",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Sugar",
           "name": "(*) *",
           "normalized": "a-\u003ea-\u003ea",
@@ -2979,6 +3233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Sugar",
           "name": "(+)",
           "package": "monoids",
@@ -2988,6 +3243,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Sugar",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Sugar",
           "name": "(+) +",
           "normalized": "a-\u003ea-\u003ea",
@@ -3002,6 +3258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Sugar",
           "name": "(^)",
           "package": "monoids",
@@ -3011,6 +3268,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Sugar",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Sugar",
           "name": "(^) ^",
           "normalized": "a-\u003eb-\u003ea",
@@ -3025,6 +3283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Union",
           "name": "Union",
           "package": "monoids",
@@ -3033,6 +3292,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Union",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Union",
           "name": "Union",
           "package": "monoids",
@@ -3047,6 +3307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Container suitable for the \u003ccode\u003e\u003ca\u003eUnion\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Union",
           "name": "HasUnion",
           "package": "monoids",
@@ -3056,6 +3317,7 @@
         "index": {
           "description": "Container suitable for the Union Monoid",
           "hierarchy": "Data Monoid Union",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Union",
           "name": "HasUnion",
           "package": "monoids",
@@ -3070,6 +3332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolymorphic containers that we can supply an operation to handle unions with\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Union",
           "name": "HasUnionWith",
           "package": "monoids",
@@ -3079,6 +3342,7 @@
         "index": {
           "description": "Polymorphic containers that we can supply an operation to handle unions with",
           "hierarchy": "Data Monoid Union",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Union",
           "name": "HasUnionWith",
           "package": "monoids",
@@ -3093,6 +3357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Union",
           "name": "Union",
           "package": "monoids",
@@ -3102,6 +3367,7 @@
         "index": {
           "description": "The Monoid union empty",
           "hierarchy": "Data Monoid Union",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Union",
           "name": "Union",
           "package": "monoids",
@@ -3116,6 +3382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e('unionWith mappend',\u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e for containers full of monoids.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Union",
           "name": "UnionWith",
           "package": "monoids",
@@ -3125,6 +3392,7 @@
         "index": {
           "description": "The Monoid unionWith mappend empty for containers full of monoids",
           "hierarchy": "Data Monoid Union",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Union",
           "name": "UnionWith",
           "package": "monoids",
@@ -3138,6 +3406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Union",
           "name": "Union",
           "package": "monoids",
@@ -3147,6 +3416,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Union",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Union",
           "name": "Union",
           "package": "monoids",
@@ -3160,6 +3430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Union",
           "name": "UnionWith",
           "package": "monoids",
@@ -3169,6 +3440,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Union",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Union",
           "name": "UnionWith",
           "package": "monoids",
@@ -3182,6 +3454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Union",
           "name": "empty",
           "package": "monoids",
@@ -3191,6 +3464,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Union",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Union",
           "name": "empty",
           "package": "monoids",
@@ -3203,6 +3477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Union",
           "name": "emptyWith",
           "package": "monoids",
@@ -3212,6 +3487,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Union",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Union",
           "name": "emptyWith",
           "package": "monoids",
@@ -3225,6 +3501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Union",
           "name": "getUnion",
           "package": "monoids",
@@ -3234,6 +3511,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Union",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Union",
           "name": "getUnion",
           "package": "monoids",
@@ -3247,6 +3525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Union",
           "name": "getUnionWith",
           "package": "monoids",
@@ -3256,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Union",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Union",
           "name": "getUnionWith",
           "package": "monoids",
@@ -3269,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Union",
           "name": "union",
           "package": "monoids",
@@ -3278,6 +3559,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Union",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Union",
           "name": "union",
           "normalized": "a-\u003ea-\u003ea",
@@ -3292,6 +3574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:27 UTC 2014",
           "module": "Data.Monoid.Union",
           "name": "unionWith",
           "package": "monoids",
@@ -3301,6 +3584,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Union",
+          "indexed": "2014-03-11T19:22:27",
           "module": "Data.Monoid.Union",
           "name": "unionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003eb a-\u003eb a",

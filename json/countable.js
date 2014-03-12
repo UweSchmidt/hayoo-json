@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "countable"
+        "phrase": "countable",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Countable",
           "name": "Countable",
           "package": "countable",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Countable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Countable",
           "name": "Countable",
           "package": "countable",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Countable",
           "name": "AtLeastOneCountable",
           "package": "countable",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Countable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Countable",
           "name": "AtLeastOneCountable",
           "package": "countable",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Countable",
           "name": "Countable",
           "package": "countable",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Countable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Countable",
           "name": "Countable",
           "package": "countable",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Countable",
           "name": "InfiniteCountable",
           "package": "countable",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data Countable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Countable",
           "name": "InfiniteCountable",
           "package": "countable",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Countable",
           "name": "boundedCountMaybeNext",
           "package": "countable",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Data Countable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Countable",
           "name": "boundedCountMaybeNext",
           "normalized": "Maybe a-\u003eMaybe a",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Countable",
           "name": "boundedCountPrevious",
           "package": "countable",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Countable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Countable",
           "name": "boundedCountPrevious",
           "normalized": "a-\u003eMaybe a",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Countable",
           "name": "countDown",
           "package": "countable",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data Countable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Countable",
           "name": "countDown",
           "normalized": "a-\u003e[a]",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Countable",
           "name": "countDownUp",
           "package": "countable",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Data Countable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Countable",
           "name": "countDownUp",
           "normalized": "(a,b)-\u003eMaybe(a,b)",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Countable",
           "name": "countFirst",
           "package": "countable",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Data Countable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Countable",
           "name": "countFirst",
           "package": "countable",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Countable",
           "name": "countMaybeNext",
           "package": "countable",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Data Countable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Countable",
           "name": "countMaybeNext",
           "normalized": "Maybe a-\u003eMaybe a",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Countable",
           "name": "countNext",
           "package": "countable",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Data Countable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Countable",
           "name": "countNext",
           "normalized": "Maybe a-\u003ea",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Countable",
           "name": "countPrevious",
           "package": "countable",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Data Countable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Countable",
           "name": "countPrevious",
           "normalized": "a-\u003eMaybe a",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Countable",
           "name": "countUpDown",
           "package": "countable",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Data Countable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Countable",
           "name": "countUpDown",
           "normalized": "(a,b)-\u003eMaybe(a,b)",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Countable",
           "name": "finalIteration",
           "package": "countable",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Data Countable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Countable",
           "name": "finalIteration",
           "normalized": "(a-\u003eMaybe a)-\u003ea-\u003ea",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Countable",
           "name": "maybeRecount",
           "package": "countable",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Data Countable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Countable",
           "name": "maybeRecount",
           "normalized": "a-\u003eMaybe b",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Countable",
           "name": "recount",
           "package": "countable",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Data Countable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Countable",
           "name": "recount",
           "normalized": "a-\u003eb",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Empty",
           "name": "Empty",
           "package": "countable",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Data Empty",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Empty",
           "name": "Empty",
           "package": "countable",
@@ -408,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Empty",
           "name": "Empty",
           "package": "countable",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Data Empty",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Empty",
           "name": "Empty",
           "package": "countable",
@@ -429,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Empty",
           "name": "Nothing",
           "package": "countable",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Data Empty",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Empty",
           "name": "Nothing",
           "package": "countable",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Empty",
           "name": "never",
           "package": "countable",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Data Empty",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Empty",
           "name": "never",
           "normalized": "a-\u003eb",
@@ -474,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module also includes these orphan instances:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eSearchable\u003c/a\u003e\u003c/code\u003e a,\u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e b) =\u003e \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e (a -\u003e b)\u003c/code\u003e \u003cem\u003e \u003c/em\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eFinite\u003c/a\u003e\u003c/code\u003e t) =\u003e \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e ((-\u003e) t)\u003c/code\u003e \u003cem\u003e \u003c/em\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eFinite\u003c/a\u003e\u003c/code\u003e a) =\u003e \u003ccode\u003e\u003ca\u003eTraversable\u003c/a\u003e\u003c/code\u003e ((-\u003e) a)\u003c/code\u003e \u003cem\u003e \u003c/em\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e a,\u003ccode\u003e\u003ca\u003eFinite\u003c/a\u003e\u003c/code\u003e a,\u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e b) =\u003e \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e (a -\u003e b)\u003c/code\u003e \u003cem\u003e \u003c/em\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Searchable",
           "name": "Searchable",
           "package": "countable",
@@ -483,6 +524,7 @@
         "index": {
           "description": "This module also includes these orphan instances Searchable Eq Eq Finite Foldable Finite Traversable Show Finite Show Show",
           "hierarchy": "Data Searchable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Searchable",
           "name": "Searchable",
           "package": "countable",
@@ -496,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Searchable",
           "name": "Finite",
           "package": "countable",
@@ -504,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Data Searchable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Searchable",
           "name": "Finite",
           "package": "countable",
@@ -518,6 +562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt turns out there are \u003ccode\u003e\u003ca\u003eSearchable\u003c/a\u003e\u003c/code\u003e instances that are not \u003ccode\u003e\u003ca\u003eFinite\u003c/a\u003e\u003c/code\u003e.\n The \u003ccode\u003e(c -\u003e s)\u003c/code\u003e instance is based on the algorithm at\n \u003ca\u003ehttp://math.andrej.com/2007/09/28/seemingly-impossible-functional-programs/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Searchable",
           "name": "Searchable",
           "package": "countable",
@@ -527,6 +572,7 @@
         "index": {
           "description": "It turns out there are Searchable instances that are not Finite The instance is based on the algorithm at http math.andrej.com seemingly-impossible-functional-programs",
           "hierarchy": "Data Searchable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Searchable",
           "name": "Searchable",
           "package": "countable",
@@ -541,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot necessarily in counting order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Searchable",
           "name": "allValues",
           "package": "countable",
@@ -551,6 +598,7 @@
         "index": {
           "description": "Not necessarily in counting order",
           "hierarchy": "Data Searchable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Searchable",
           "name": "allValues",
           "normalized": "[a]",
@@ -566,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Searchable",
           "name": "assemble",
           "package": "countable",
@@ -575,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Data Searchable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Searchable",
           "name": "assemble",
           "normalized": "(a-\u003eb c)-\u003eb(a-\u003ec)",
@@ -589,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Searchable",
           "name": "finiteCountMaybeNext",
           "package": "countable",
@@ -598,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Data Searchable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Searchable",
           "name": "finiteCountMaybeNext",
           "normalized": "Maybe a-\u003eMaybe a",
@@ -613,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Searchable",
           "name": "finiteCountPrevious",
           "package": "countable",
@@ -622,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Data Searchable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Searchable",
           "name": "finiteCountPrevious",
           "normalized": "a-\u003eMaybe a",
@@ -637,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Searchable",
           "name": "finiteSearch",
           "package": "countable",
@@ -646,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Data Searchable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Searchable",
           "name": "finiteSearch",
           "normalized": "(a-\u003eMaybe b)-\u003eMaybe b",
@@ -661,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Searchable",
           "name": "forevery",
           "package": "countable",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Data Searchable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Searchable",
           "name": "forevery",
           "normalized": "(a-\u003eBool)-\u003eBool",
@@ -684,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Searchable",
           "name": "forsome",
           "package": "countable",
@@ -693,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Data Searchable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Searchable",
           "name": "forsome",
           "normalized": "(a-\u003eBool)-\u003eBool",
@@ -707,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:48 UTC 2014",
           "module": "Data.Searchable",
           "name": "search",
           "package": "countable",
@@ -716,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Data Searchable",
+          "indexed": "2014-03-11T17:41:48",
           "module": "Data.Searchable",
           "name": "search",
           "normalized": "(a-\u003eMaybe b)-\u003eMaybe b",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vector-static"
+        "phrase": "vector-static",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Fin",
           "name": "Fin",
           "package": "vector-static",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Fin",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Fin",
           "name": "Fin",
           "package": "vector-static",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Fin",
           "name": "Fin",
           "package": "vector-static",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Fin",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Fin",
           "name": "Fin",
           "package": "vector-static",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Fin",
           "name": "Fin",
           "package": "vector-static",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Fin",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Fin",
           "name": "Fin",
           "package": "vector-static",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Fin",
           "name": "addFin",
           "package": "vector-static",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Fin",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Fin",
           "name": "addFin",
           "normalized": "Fin a-\u003eFin b-\u003eFin(a b)",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Fin",
           "name": "finToInt",
           "package": "vector-static",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Data Fin",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Fin",
           "name": "finToInt",
           "normalized": "Fin a-\u003eInt",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Fin",
           "name": "intToFin",
           "package": "vector-static",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Data Fin",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Fin",
           "name": "intToFin",
           "normalized": "Int-\u003eMaybe(Fin a)",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Fin",
           "name": "mulFin",
           "package": "vector-static",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Data Fin",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Fin",
           "name": "mulFin",
           "normalized": "Fin a-\u003eFin b-\u003eFin(a*b)",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Fin",
           "name": "mulNatFin",
           "package": "vector-static",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Data Fin",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Fin",
           "name": "mulNatFin",
           "normalized": "Fin(S a)-\u003eFin(S(b*a))",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Fin",
           "name": "natToFin",
           "package": "vector-static",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Data Fin",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Fin",
           "name": "natToFin",
           "package": "vector-static",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Fin",
           "name": "pred",
           "package": "vector-static",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Data Fin",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Fin",
           "name": "pred",
           "normalized": "Fin a-\u003eFin a",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Fin",
           "name": "raise",
           "package": "vector-static",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Data Fin",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Fin",
           "name": "raise",
           "normalized": "Fin a-\u003eFin(a b)",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Fin",
           "name": "succ",
           "package": "vector-static",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Data Fin",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Fin",
           "name": "succ",
           "normalized": "Fin a-\u003eFin(S a)",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Fin",
           "name": "zero",
           "package": "vector-static",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Data Fin",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Fin",
           "name": "zero",
           "package": "vector-static",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "Nat",
           "package": "vector-static",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "Nat",
           "package": "vector-static",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": ":*:",
           "package": "vector-static",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": ":*:",
           "package": "vector-static",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": ":+:",
           "package": "vector-static",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": ":+:",
           "package": "vector-static",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "Exists",
           "package": "vector-static",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "Exists",
           "package": "vector-static",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "I",
           "package": "vector-static",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "I",
           "package": "vector-static",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "K",
           "package": "vector-static",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "K",
           "package": "vector-static",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "Nat",
           "package": "vector-static",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "Nat",
           "package": "vector-static",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "NatView",
           "package": "vector-static",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "NatView",
           "package": "vector-static",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "Reifiable",
           "package": "vector-static",
@@ -486,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "Reifiable",
           "package": "vector-static",
@@ -499,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "Reify",
           "package": "vector-static",
@@ -507,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "Reify",
           "package": "vector-static",
@@ -520,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "S",
           "package": "vector-static",
@@ -528,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "S",
           "package": "vector-static",
@@ -540,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "Z",
           "package": "vector-static",
@@ -548,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "Z",
           "package": "vector-static",
@@ -560,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "Ex",
           "package": "vector-static",
@@ -569,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "Ex",
           "package": "vector-static",
@@ -582,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "I",
           "package": "vector-static",
@@ -591,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "I",
           "package": "vector-static",
@@ -603,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "K",
           "package": "vector-static",
@@ -612,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "K",
           "package": "vector-static",
@@ -624,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "Nat",
           "package": "vector-static",
@@ -633,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "Nat",
           "package": "vector-static",
@@ -646,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "Proof",
           "package": "vector-static",
@@ -655,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "Proof",
           "package": "vector-static",
@@ -668,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "Succ",
           "package": "vector-static",
@@ -677,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "Succ",
           "normalized": "Nat a-\u003eNatView(S a)",
@@ -692,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "Zero",
           "package": "vector-static",
@@ -701,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "Zero",
           "package": "vector-static",
@@ -714,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "addNat",
           "package": "vector-static",
@@ -723,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "addNat",
           "normalized": "Nat a-\u003eNat b-\u003eNat(a b)",
@@ -738,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "mulNat",
           "package": "vector-static",
@@ -747,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "mulNat",
           "normalized": "Nat a-\u003eNat b-\u003eNat(a*b)",
@@ -762,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "natToInt",
           "package": "vector-static",
@@ -771,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "natToInt",
           "normalized": "Nat a-\u003eInt",
@@ -786,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "reifiable",
           "package": "vector-static",
@@ -795,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "reifiable",
           "normalized": "Nat a-\u003eReifiable a",
@@ -809,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "s",
           "package": "vector-static",
@@ -818,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "s",
           "normalized": "Nat a-\u003eNat(S a)",
@@ -832,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "unI",
           "package": "vector-static",
@@ -841,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "unI",
           "package": "vector-static",
@@ -853,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "unK",
           "package": "vector-static",
@@ -862,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "unK",
           "package": "vector-static",
@@ -874,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "view",
           "package": "vector-static",
@@ -883,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "view",
           "normalized": "Nat a-\u003eNatView a",
@@ -897,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "witnessNat",
           "package": "vector-static",
@@ -906,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "witnessNat",
           "package": "vector-static",
@@ -919,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Nat",
           "name": "z",
           "package": "vector-static",
@@ -928,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Data Nat",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Nat",
           "name": "z",
           "package": "vector-static",
@@ -940,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "Static",
           "package": "vector-static",
@@ -948,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "Static",
           "package": "vector-static",
@@ -961,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "MVec",
           "package": "vector-static",
@@ -969,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "MVec",
           "package": "vector-static",
@@ -982,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "MVec",
           "package": "vector-static",
@@ -991,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "MVec",
           "package": "vector-static",
@@ -1004,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "clear",
           "package": "vector-static",
@@ -1013,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "clear",
           "normalized": "MVec a b(PrimState c)d-\u003ec()",
@@ -1027,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "copy",
           "package": "vector-static",
@@ -1036,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "copy",
           "normalized": "MVec a b(PrimState c)d-\u003eMVec a b(PrimState c)d-\u003ec()",
@@ -1050,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "drop",
           "package": "vector-static",
@@ -1059,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "drop",
           "normalized": "MVec(a b)c d e-\u003eMVec a c d e",
@@ -1073,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "grow",
           "package": "vector-static",
@@ -1082,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "grow",
           "normalized": "MVec a b(PrimState c)d-\u003ec(MVec(a e)b(PrimState c)d)",
@@ -1096,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "init",
           "package": "vector-static",
@@ -1105,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "init",
           "normalized": "MVec(S a)b c d-\u003eMVec a b c d",
@@ -1119,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "new",
           "package": "vector-static",
@@ -1128,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "new",
           "package": "vector-static",
@@ -1140,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "newWith",
           "package": "vector-static",
@@ -1149,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "newWith",
           "normalized": "a-\u003eb(MVec c d(PrimState b)a)",
@@ -1164,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "overlaps",
           "package": "vector-static",
@@ -1173,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "overlaps",
           "normalized": "MVec a b c d-\u003eMVec a b c d-\u003eBool",
@@ -1187,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "read",
           "package": "vector-static",
@@ -1196,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "read",
           "normalized": "MVec a b(PrimState c)d-\u003eFin a-\u003ec d",
@@ -1210,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "set",
           "package": "vector-static",
@@ -1219,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "set",
           "normalized": "MVec a b(PrimState c)d-\u003ed-\u003ec()",
@@ -1233,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "slice",
           "package": "vector-static",
@@ -1242,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "slice",
           "normalized": "Fin a-\u003eMVec(a b)c d e-\u003eMVec b c d e",
@@ -1256,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "swap",
           "package": "vector-static",
@@ -1265,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "swap",
           "normalized": "MVec a b(PrimState c)d-\u003eFin a-\u003eFin a-\u003ec()",
@@ -1279,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "tail",
           "package": "vector-static",
@@ -1288,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "tail",
           "normalized": "MVec(S a)b c d-\u003eMVec a b c d",
@@ -1302,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "take",
           "package": "vector-static",
@@ -1311,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "take",
           "normalized": "MVec(a b)c d e-\u003eMVec b c d e",
@@ -1325,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "unVec",
           "package": "vector-static",
@@ -1334,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "unVec",
           "package": "vector-static",
@@ -1347,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "write",
           "package": "vector-static",
@@ -1356,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Mutable.Static",
           "name": "write",
           "normalized": "MVec a b(PrimState c)d-\u003eFin a-\u003ed-\u003ec()",
@@ -1370,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "Static",
           "package": "vector-static",
@@ -1378,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "Static",
           "package": "vector-static",
@@ -1391,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "Vec",
           "package": "vector-static",
@@ -1399,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "Vec",
           "package": "vector-static",
@@ -1412,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "(!)",
           "package": "vector-static",
@@ -1421,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "(!) !",
           "normalized": "Vec a b c-\u003eFin a-\u003ec",
@@ -1435,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "(++)",
           "package": "vector-static",
@@ -1444,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "(++) ++",
           "normalized": "Vec a b c-\u003eVec d b c-\u003eVec(a d)b c",
@@ -1458,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "Vec",
           "package": "vector-static",
@@ -1467,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "Vec",
           "package": "vector-static",
@@ -1480,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "all",
           "package": "vector-static",
@@ -1489,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "all",
           "normalized": "(a-\u003eBool)-\u003eVec b c a-\u003eBool",
@@ -1503,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "allFin",
           "package": "vector-static",
@@ -1512,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "allFin",
           "package": "vector-static",
@@ -1525,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "and",
           "package": "vector-static",
@@ -1534,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "and",
           "normalized": "Vec a b Bool-\u003eBool",
@@ -1548,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "any",
           "package": "vector-static",
@@ -1557,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "any",
           "normalized": "(a-\u003eBool)-\u003eVec b c a-\u003eBool",
@@ -1571,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "backpermute",
           "package": "vector-static",
@@ -1580,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "backpermute",
           "normalized": "Vec a b c-\u003eVec d b(Fin a)-\u003eVec d b c",
@@ -1594,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "concatMap",
           "package": "vector-static",
@@ -1603,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "concatMap",
           "normalized": "(a-\u003eVec b c d)-\u003eVec e c a-\u003eVec(e*b)c d",
@@ -1618,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "cons",
           "package": "vector-static",
@@ -1627,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "cons",
           "normalized": "a-\u003eVec b c a-\u003eVec(S b)c a",
@@ -1641,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "copy",
           "package": "vector-static",
@@ -1650,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "copy",
           "normalized": "Vec a b c-\u003eVec a b c",
@@ -1664,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "drop",
           "package": "vector-static",
@@ -1673,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "drop",
           "normalized": "Vec(a b)c d-\u003eVec a c d",
@@ -1687,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "elem",
           "package": "vector-static",
@@ -1696,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "elem",
           "normalized": "a-\u003eVec b c a-\u003eBool",
@@ -1710,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "elemIndex",
           "package": "vector-static",
@@ -1719,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "elemIndex",
           "normalized": "a-\u003eVec b c a-\u003eMaybe(Fin b)",
@@ -1734,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "empty",
           "package": "vector-static",
@@ -1743,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "empty",
           "package": "vector-static",
@@ -1755,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "enumFromN",
           "package": "vector-static",
@@ -1764,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "enumFromN",
           "normalized": "a-\u003eVec b c a",
@@ -1779,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "enumFromStepN",
           "package": "vector-static",
@@ -1788,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "enumFromStepN",
           "normalized": "a-\u003ea-\u003eVec b c a",
@@ -1803,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "find",
           "package": "vector-static",
@@ -1812,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "find",
           "normalized": "(a-\u003eBool)-\u003eVec b c a-\u003eMaybe a",
@@ -1826,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "findIndex",
           "package": "vector-static",
@@ -1835,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "findIndex",
           "normalized": "(a-\u003eBool)-\u003eVec b c a-\u003eMaybe(Fin b)",
@@ -1850,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "foldl",
           "package": "vector-static",
@@ -1859,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eVec c d b-\u003ea",
@@ -1873,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "foldl'",
           "package": "vector-static",
@@ -1882,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eVec c d b-\u003ea",
@@ -1896,6 +2064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "foldl1",
           "package": "vector-static",
@@ -1905,6 +2074,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "foldl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVec(S b)c a-\u003ea",
@@ -1919,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "foldl1'",
           "package": "vector-static",
@@ -1928,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "foldl1'",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVec(S b)c a-\u003ea",
@@ -1942,6 +2114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "foldr",
           "package": "vector-static",
@@ -1951,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eVec c d a-\u003eb",
@@ -1965,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "foldr'",
           "package": "vector-static",
@@ -1974,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "foldr'",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eVec c d a-\u003eb",
@@ -1988,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "foldr1",
           "package": "vector-static",
@@ -1997,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "foldr1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVec(S b)c a-\u003ea",
@@ -2011,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "foldr1'",
           "package": "vector-static",
@@ -2020,6 +2199,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "foldr1'",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVec(S b)c a-\u003ea",
@@ -2034,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "fromList",
           "package": "vector-static",
@@ -2043,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "fromList",
           "normalized": "[a]-\u003e(b c Vec d e a-\u003ef)-\u003ef",
@@ -2058,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "generate",
           "package": "vector-static",
@@ -2067,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "generate",
           "normalized": "(Fin a-\u003eb)-\u003eVec a c b",
@@ -2081,6 +2265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "head",
           "package": "vector-static",
@@ -2090,6 +2275,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "head",
           "normalized": "Vec(S a)b c-\u003ec",
@@ -2104,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "headM",
           "package": "vector-static",
@@ -2113,6 +2300,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "headM",
           "normalized": "Vec(S a)b c-\u003ed c",
@@ -2127,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "ifoldl",
           "package": "vector-static",
@@ -2136,6 +2325,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "ifoldl",
           "normalized": "(a-\u003eFin b-\u003ec-\u003ea)-\u003ea-\u003eVec b d c-\u003ea",
@@ -2150,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "ifoldl'",
           "package": "vector-static",
@@ -2159,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "ifoldl'",
           "normalized": "(a-\u003eFin b-\u003ec-\u003ea)-\u003ea-\u003eVec b d c-\u003ea",
@@ -2173,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "ifoldr",
           "package": "vector-static",
@@ -2182,6 +2375,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "ifoldr",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eVec a d b-\u003ec",
@@ -2196,6 +2390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "ifoldr'",
           "package": "vector-static",
@@ -2205,6 +2400,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "ifoldr'",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eVec a d b-\u003ec",
@@ -2219,6 +2415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "imap",
           "package": "vector-static",
@@ -2228,6 +2425,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "imap",
           "normalized": "(Fin a-\u003eb-\u003ec)-\u003eVec a d b-\u003eVec a d c",
@@ -2242,6 +2440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "indexM",
           "package": "vector-static",
@@ -2251,6 +2450,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "indexM",
           "normalized": "Vec a b c-\u003eFin a-\u003ed c",
@@ -2265,6 +2465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "indexed",
           "package": "vector-static",
@@ -2274,6 +2475,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "indexed",
           "normalized": "Vec a b c-\u003eVec a b(Fin a,c)",
@@ -2288,6 +2490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "init",
           "package": "vector-static",
@@ -2297,6 +2500,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "init",
           "normalized": "Vec(S a)b c-\u003eVec a b c",
@@ -2311,6 +2515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "izipWith",
           "package": "vector-static",
@@ -2320,6 +2525,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "izipWith",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed)-\u003eVec a e b-\u003eVec a e c-\u003eVec a e d",
@@ -2335,6 +2541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "izipWith3",
           "package": "vector-static",
@@ -2344,6 +2551,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "izipWith3",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eVec a f b-\u003eVec a f c-\u003eVec a f d-\u003eVec a f e",
@@ -2359,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "izipWith4",
           "package": "vector-static",
@@ -2368,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "izipWith4",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003eVec a g b-\u003eVec a g c-\u003eVec a g d-\u003eVec a g e-\u003eVec a g f",
@@ -2383,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "izipWith5",
           "package": "vector-static",
@@ -2392,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "izipWith5",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg)-\u003eVec a h b-\u003eVec a h c-\u003eVec a h d-\u003eVec a h e-\u003eVec a h f-\u003eVec a h g",
@@ -2407,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "izipWith6",
           "package": "vector-static",
@@ -2416,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "izipWith6",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg-\u003eh)-\u003eVec a i b-\u003eVec a i c-\u003eVec a i d-\u003eVec a i e-\u003eVec a i f-\u003eVec a i g-\u003eVec a i h",
@@ -2431,6 +2645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "last",
           "package": "vector-static",
@@ -2440,6 +2655,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "last",
           "normalized": "Vec(S a)b c-\u003ec",
@@ -2454,6 +2670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "lastM",
           "package": "vector-static",
@@ -2463,6 +2680,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "lastM",
           "normalized": "Vec(S a)b c-\u003ed c",
@@ -2477,6 +2695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "length",
           "package": "vector-static",
@@ -2486,6 +2705,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "length",
           "normalized": "Vec a b c-\u003eNat a",
@@ -2500,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "map",
           "package": "vector-static",
@@ -2509,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eVec c d a-\u003eVec c d b",
@@ -2523,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "maxIndex",
           "package": "vector-static",
@@ -2532,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "maxIndex",
           "normalized": "Vec(S a)b c-\u003eFin(S a)",
@@ -2547,6 +2771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "maxIndexBy",
           "package": "vector-static",
@@ -2556,6 +2781,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "maxIndexBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eVec(S b)c a-\u003eFin(S b)",
@@ -2571,6 +2797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "maximum",
           "package": "vector-static",
@@ -2580,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "maximum",
           "normalized": "Vec(S a)b c-\u003ec",
@@ -2594,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "maximumBy",
           "package": "vector-static",
@@ -2603,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "maximumBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eVec(S b)c a-\u003ea",
@@ -2618,6 +2848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "minIndex",
           "package": "vector-static",
@@ -2627,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "minIndex",
           "normalized": "Vec(S a)b c-\u003eFin(S a)",
@@ -2642,6 +2874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "minIndexBy",
           "package": "vector-static",
@@ -2651,6 +2884,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "minIndexBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eVec(S b)c a-\u003eFin(S b)",
@@ -2666,6 +2900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "minimum",
           "package": "vector-static",
@@ -2675,6 +2910,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "minimum",
           "normalized": "Vec(S a)b c-\u003ec",
@@ -2689,6 +2925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "minimumBy",
           "package": "vector-static",
@@ -2698,6 +2935,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "minimumBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eVec(S b)c a-\u003ea",
@@ -2713,6 +2951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "new",
           "package": "vector-static",
@@ -2722,6 +2961,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "new",
           "normalized": "New a-\u003e(b c Vec d e a-\u003ef)-\u003ef",
@@ -2736,6 +2976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "notElem",
           "package": "vector-static",
@@ -2745,6 +2986,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "notElem",
           "normalized": "a-\u003eVec b c a-\u003eBool",
@@ -2760,6 +3002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "null",
           "package": "vector-static",
@@ -2769,6 +3012,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "null",
           "normalized": "Vec a b c-\u003eBool",
@@ -2783,6 +3027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "or",
           "package": "vector-static",
@@ -2792,6 +3037,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "or",
           "normalized": "Vec a b Bool-\u003eBool",
@@ -2806,6 +3052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "product",
           "package": "vector-static",
@@ -2815,6 +3062,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "product",
           "normalized": "Vec a b c-\u003ec",
@@ -2829,6 +3077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "replicate",
           "package": "vector-static",
@@ -2838,6 +3087,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "replicate",
           "normalized": "a-\u003eVec b c a",
@@ -2852,6 +3102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "reverse",
           "package": "vector-static",
@@ -2861,6 +3112,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "reverse",
           "normalized": "Vec a b c-\u003eVec a b c",
@@ -2875,6 +3127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "singleton",
           "package": "vector-static",
@@ -2884,6 +3137,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "singleton",
           "normalized": "a-\u003eVec(S Z)b a",
@@ -2898,6 +3152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "slice",
           "package": "vector-static",
@@ -2907,6 +3162,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "slice",
           "normalized": "Fin a-\u003eVec(a b)c d-\u003eVec b c d",
@@ -2921,6 +3177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "snoc",
           "package": "vector-static",
@@ -2930,6 +3187,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "snoc",
           "normalized": "Vec a b c-\u003ec-\u003eVec(S a)b c",
@@ -2944,6 +3202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "stream",
           "package": "vector-static",
@@ -2953,6 +3212,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "stream",
           "normalized": "Vec a b c-\u003eStream c",
@@ -2967,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "streamR",
           "package": "vector-static",
@@ -2976,6 +3237,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "streamR",
           "normalized": "Vec a b c-\u003eStream c",
@@ -2990,6 +3252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "sum",
           "package": "vector-static",
@@ -2999,6 +3262,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "sum",
           "normalized": "Vec a b c-\u003ec",
@@ -3013,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "tail",
           "package": "vector-static",
@@ -3022,6 +3287,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "tail",
           "normalized": "Vec(S a)b c-\u003eVec a b c",
@@ -3036,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "take",
           "package": "vector-static",
@@ -3045,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "take",
           "normalized": "Vec(a b)c d-\u003eVec b c d",
@@ -3059,6 +3327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "toList",
           "package": "vector-static",
@@ -3068,6 +3337,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "toList",
           "normalized": "Vec a b c-\u003e[c]",
@@ -3083,6 +3353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "unVec",
           "package": "vector-static",
@@ -3092,6 +3363,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "unVec",
           "package": "vector-static",
@@ -3105,6 +3377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "unfoldr",
           "package": "vector-static",
@@ -3114,6 +3387,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "unfoldr",
           "normalized": "(a-\u003eMaybe(b,a))-\u003ea-\u003e(c d Vec e f b-\u003eg)-\u003eg",
@@ -3128,6 +3402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "unstream",
           "package": "vector-static",
@@ -3137,6 +3412,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "unstream",
           "normalized": "Stream a-\u003e(b c Vec d e a-\u003ef)-\u003ef",
@@ -3151,6 +3427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "unstreamR",
           "package": "vector-static",
@@ -3160,6 +3437,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "unstreamR",
           "normalized": "Stream a-\u003e(b c Vec d e a-\u003ef)-\u003ef",
@@ -3174,6 +3452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "unzip",
           "package": "vector-static",
@@ -3183,6 +3462,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "unzip",
           "normalized": "Vec a b(c,d)-\u003e(Vec a b c,Vec a b d)",
@@ -3197,6 +3477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "unzip3",
           "package": "vector-static",
@@ -3206,6 +3487,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "unzip3",
           "normalized": "Vec a b(c,d,e)-\u003e(Vec a b c,Vec a b d,Vec a b e)",
@@ -3220,6 +3502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "unzip4",
           "package": "vector-static",
@@ -3229,6 +3512,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "unzip4",
           "normalized": "Vec a b(c,d,e,f)-\u003e(Vec a b c,Vec a b d,Vec a b e,Vec a b f)",
@@ -3243,6 +3527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "unzip5",
           "package": "vector-static",
@@ -3252,6 +3537,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "unzip5",
           "normalized": "Vec a b(c,d,e,f,g)-\u003e(Vec a b c,Vec a b d,Vec a b e,Vec a b f,Vec a b g)",
@@ -3266,6 +3552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "unzip6",
           "package": "vector-static",
@@ -3275,6 +3562,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "unzip6",
           "normalized": "Vec a b(c,d,e,f,g,h)-\u003e(Vec a b c,Vec a b d,Vec a b e,Vec a b f,Vec a b g,Vec a b h)",
@@ -3289,6 +3577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "zip",
           "package": "vector-static",
@@ -3298,6 +3587,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "zip",
           "normalized": "Vec a b c-\u003eVec a b d-\u003eVec a b(c,d)",
@@ -3312,6 +3602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "zip3",
           "package": "vector-static",
@@ -3321,6 +3612,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "zip3",
           "normalized": "Vec a b c-\u003eVec a b d-\u003eVec a b e-\u003eVec a b(c,d,e)",
@@ -3335,6 +3627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "zip4",
           "package": "vector-static",
@@ -3344,6 +3637,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "zip4",
           "normalized": "Vec a b c-\u003eVec a b d-\u003eVec a b e-\u003eVec a b f-\u003eVec a b(c,d,e,f)",
@@ -3358,6 +3652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "zip5",
           "package": "vector-static",
@@ -3367,6 +3662,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "zip5",
           "normalized": "Vec a b c-\u003eVec a b d-\u003eVec a b e-\u003eVec a b f-\u003eVec a b g-\u003eVec a b(c,d,e,f,g)",
@@ -3381,6 +3677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "zip6",
           "package": "vector-static",
@@ -3390,6 +3687,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "zip6",
           "normalized": "Vec a b c-\u003eVec a b d-\u003eVec a b e-\u003eVec a b f-\u003eVec a b g-\u003eVec a b h-\u003eVec a b(c,d,e,f,g,h)",
@@ -3404,6 +3702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "zipWith",
           "package": "vector-static",
@@ -3413,6 +3712,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eVec d e a-\u003eVec d e b-\u003eVec d e c",
@@ -3428,6 +3728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "zipWith3",
           "package": "vector-static",
@@ -3437,6 +3738,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "zipWith3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003eVec e f a-\u003eVec e f b-\u003eVec e f c-\u003eVec e f d",
@@ -3452,6 +3754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "zipWith4",
           "package": "vector-static",
@@ -3461,6 +3764,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "zipWith4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eVec f g a-\u003eVec f g b-\u003eVec f g c-\u003eVec f g d-\u003eVec f g e",
@@ -3476,6 +3780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "zipWith5",
           "package": "vector-static",
@@ -3485,6 +3790,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "zipWith5",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003eVec g h a-\u003eVec g h b-\u003eVec g h c-\u003eVec g h d-\u003eVec g h e-\u003eVec g h f",
@@ -3500,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Generic.Static",
           "name": "zipWith6",
           "package": "vector-static",
@@ -3509,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Generic Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Generic.Static",
           "name": "zipWith6",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg)-\u003eVec h i a-\u003eVec h i b-\u003eVec h i c-\u003eVec h i d-\u003eVec h i e-\u003eVec h i f-\u003eVec h i g",
@@ -3524,6 +3832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Mutable.Static",
           "name": "Static",
           "package": "vector-static",
@@ -3532,6 +3841,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Mutable.Static",
           "name": "Static",
           "package": "vector-static",
@@ -3545,6 +3855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "Static",
           "package": "vector-static",
@@ -3553,6 +3864,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "Static",
           "package": "vector-static",
@@ -3566,6 +3878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "Vec",
           "package": "vector-static",
@@ -3574,6 +3887,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "Vec",
           "package": "vector-static",
@@ -3587,6 +3901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "(!)",
           "package": "vector-static",
@@ -3596,6 +3911,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "(!) !",
           "normalized": "Vec a b-\u003eFin a-\u003eb",
@@ -3610,6 +3926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "(++)",
           "package": "vector-static",
@@ -3619,6 +3936,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "(++) ++",
           "normalized": "Vec a b-\u003eVec c b-\u003eVec(a c)b",
@@ -3633,6 +3951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "Vec",
           "package": "vector-static",
@@ -3642,6 +3961,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "Vec",
           "package": "vector-static",
@@ -3655,6 +3975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "all",
           "package": "vector-static",
@@ -3664,6 +3985,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "all",
           "normalized": "(a-\u003eBool)-\u003eVec b a-\u003eBool",
@@ -3678,6 +4000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "allFin",
           "package": "vector-static",
@@ -3687,6 +4010,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "allFin",
           "package": "vector-static",
@@ -3700,6 +4024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "and",
           "package": "vector-static",
@@ -3709,6 +4034,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "and",
           "normalized": "Vec a Bool-\u003eBool",
@@ -3723,6 +4049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "any",
           "package": "vector-static",
@@ -3732,6 +4059,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "any",
           "normalized": "(a-\u003eBool)-\u003eVec b a-\u003eBool",
@@ -3746,6 +4074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "backpermute",
           "package": "vector-static",
@@ -3755,6 +4084,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "backpermute",
           "normalized": "Vec a b-\u003eVec c(Fin a)-\u003eVec c b",
@@ -3769,6 +4099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "concatMap",
           "package": "vector-static",
@@ -3778,6 +4109,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "concatMap",
           "normalized": "(a-\u003eVec b c)-\u003eVec d a-\u003eVec(d*b)c",
@@ -3793,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "cons",
           "package": "vector-static",
@@ -3802,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "cons",
           "normalized": "a-\u003eVec b a-\u003eVec(S b)a",
@@ -3816,6 +4150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "copy",
           "package": "vector-static",
@@ -3825,6 +4160,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "copy",
           "normalized": "Vec a b-\u003eVec a b",
@@ -3839,6 +4175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "diagonal",
           "package": "vector-static",
@@ -3848,6 +4185,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "diagonal",
           "normalized": "Vec a(Vec a b)-\u003eVec a b",
@@ -3862,6 +4200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "elem",
           "package": "vector-static",
@@ -3871,6 +4210,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "elem",
           "normalized": "a-\u003eVec b a-\u003eBool",
@@ -3885,6 +4225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "elemIndex",
           "package": "vector-static",
@@ -3894,6 +4235,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "elemIndex",
           "normalized": "a-\u003eVec b a-\u003eMaybe(Fin b)",
@@ -3909,6 +4251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "empty",
           "package": "vector-static",
@@ -3918,6 +4261,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "empty",
           "package": "vector-static",
@@ -3930,6 +4274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "enumFromN",
           "package": "vector-static",
@@ -3939,6 +4284,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "enumFromN",
           "normalized": "a-\u003eVec b a",
@@ -3954,6 +4300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "enumFromStepN",
           "package": "vector-static",
@@ -3963,6 +4310,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "enumFromStepN",
           "normalized": "a-\u003ea-\u003eVec b a",
@@ -3978,6 +4326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "find",
           "package": "vector-static",
@@ -3987,6 +4336,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "find",
           "normalized": "(a-\u003eBool)-\u003eVec b a-\u003eMaybe a",
@@ -4001,6 +4351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "findIndex",
           "package": "vector-static",
@@ -4010,6 +4361,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "findIndex",
           "normalized": "(a-\u003eBool)-\u003eVec b a-\u003eMaybe(Fin b)",
@@ -4025,6 +4377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "foldl",
           "package": "vector-static",
@@ -4034,6 +4387,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eVec c b-\u003ea",
@@ -4048,6 +4402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "foldl'",
           "package": "vector-static",
@@ -4057,6 +4412,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eVec c b-\u003ea",
@@ -4071,6 +4427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "foldl1",
           "package": "vector-static",
@@ -4080,6 +4437,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "foldl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVec(S b)a-\u003ea",
@@ -4094,6 +4452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "foldl1'",
           "package": "vector-static",
@@ -4103,6 +4462,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "foldl1'",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVec(S b)a-\u003ea",
@@ -4117,6 +4477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "foldr",
           "package": "vector-static",
@@ -4126,6 +4487,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eVec c a-\u003eb",
@@ -4140,6 +4502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "foldr'",
           "package": "vector-static",
@@ -4149,6 +4512,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "foldr'",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eVec c a-\u003eb",
@@ -4163,6 +4527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "foldr1",
           "package": "vector-static",
@@ -4172,6 +4537,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "foldr1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVec(S b)a-\u003ea",
@@ -4186,6 +4552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "foldr1'",
           "package": "vector-static",
@@ -4195,6 +4562,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "foldr1'",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVec(S b)a-\u003ea",
@@ -4209,6 +4577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "fromList",
           "package": "vector-static",
@@ -4218,6 +4587,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "fromList",
           "normalized": "[a]-\u003e(b c Vec d a-\u003ee)-\u003ee",
@@ -4233,6 +4603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "generate",
           "package": "vector-static",
@@ -4242,6 +4613,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "generate",
           "normalized": "(Fin a-\u003eb)-\u003eVec a b",
@@ -4256,6 +4628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "head",
           "package": "vector-static",
@@ -4265,6 +4638,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "head",
           "normalized": "Vec(S a)b-\u003eb",
@@ -4279,6 +4653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "headM",
           "package": "vector-static",
@@ -4288,6 +4663,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "headM",
           "normalized": "Vec(S a)b-\u003ec b",
@@ -4302,6 +4678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "ifoldl",
           "package": "vector-static",
@@ -4311,6 +4688,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "ifoldl",
           "normalized": "(a-\u003eFin b-\u003ec-\u003ea)-\u003ea-\u003eVec b c-\u003ea",
@@ -4325,6 +4703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "ifoldl'",
           "package": "vector-static",
@@ -4334,6 +4713,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "ifoldl'",
           "normalized": "(a-\u003eFin b-\u003ec-\u003ea)-\u003ea-\u003eVec b c-\u003ea",
@@ -4348,6 +4728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "ifoldr",
           "package": "vector-static",
@@ -4357,6 +4738,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "ifoldr",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eVec a b-\u003ec",
@@ -4371,6 +4753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "ifoldr'",
           "package": "vector-static",
@@ -4380,6 +4763,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "ifoldr'",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eVec a b-\u003ec",
@@ -4394,6 +4778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "imap",
           "package": "vector-static",
@@ -4403,6 +4788,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "imap",
           "normalized": "(Fin a-\u003eb-\u003ec)-\u003eVec a b-\u003eVec a c",
@@ -4417,6 +4803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "indexM",
           "package": "vector-static",
@@ -4426,6 +4813,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "indexM",
           "normalized": "Vec a b-\u003eFin a-\u003ec b",
@@ -4440,6 +4828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "init",
           "package": "vector-static",
@@ -4449,6 +4838,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "init",
           "normalized": "Vec(S a)b-\u003eVec a b",
@@ -4463,6 +4853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "izipWith",
           "package": "vector-static",
@@ -4472,6 +4863,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "izipWith",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed)-\u003eVec a b-\u003eVec a c-\u003eVec a d",
@@ -4487,6 +4879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "izipWith3",
           "package": "vector-static",
@@ -4496,6 +4889,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "izipWith3",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eVec a b-\u003eVec a c-\u003eVec a d-\u003eVec a e",
@@ -4511,6 +4905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "izipWith4",
           "package": "vector-static",
@@ -4520,6 +4915,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "izipWith4",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003eVec a b-\u003eVec a c-\u003eVec a d-\u003eVec a e-\u003eVec a f",
@@ -4535,6 +4931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "izipWith5",
           "package": "vector-static",
@@ -4544,6 +4941,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "izipWith5",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg)-\u003eVec a b-\u003eVec a c-\u003eVec a d-\u003eVec a e-\u003eVec a f-\u003eVec a g",
@@ -4559,6 +4957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "izipWith6",
           "package": "vector-static",
@@ -4568,6 +4967,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "izipWith6",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg-\u003eh)-\u003eVec a b-\u003eVec a c-\u003eVec a d-\u003eVec a e-\u003eVec a f-\u003eVec a g-\u003eVec a h",
@@ -4583,6 +4983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "last",
           "package": "vector-static",
@@ -4592,6 +4993,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "last",
           "normalized": "Vec(S a)b-\u003eb",
@@ -4606,6 +5008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "lastM",
           "package": "vector-static",
@@ -4615,6 +5018,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "lastM",
           "normalized": "Vec(S a)b-\u003ec b",
@@ -4629,6 +5033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "length",
           "package": "vector-static",
@@ -4638,6 +5043,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "length",
           "normalized": "Vec a b-\u003eNat a",
@@ -4652,6 +5058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "map",
           "package": "vector-static",
@@ -4661,6 +5068,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eVec c a-\u003eVec c b",
@@ -4675,6 +5083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "maxIndex",
           "package": "vector-static",
@@ -4684,6 +5093,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "maxIndex",
           "normalized": "Vec(S a)b-\u003eFin(S a)",
@@ -4699,6 +5109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "maxIndexBy",
           "package": "vector-static",
@@ -4708,6 +5119,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "maxIndexBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eVec(S b)a-\u003eFin(S b)",
@@ -4723,6 +5135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "maximum",
           "package": "vector-static",
@@ -4732,6 +5145,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "maximum",
           "normalized": "Vec(S a)b-\u003eb",
@@ -4746,6 +5160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "maximumBy",
           "package": "vector-static",
@@ -4755,6 +5170,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "maximumBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eVec(S b)a-\u003ea",
@@ -4770,6 +5186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "minIndex",
           "package": "vector-static",
@@ -4779,6 +5196,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "minIndex",
           "normalized": "Vec(S a)b-\u003eFin(S a)",
@@ -4794,6 +5212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "minIndexBy",
           "package": "vector-static",
@@ -4803,6 +5222,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "minIndexBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eVec(S b)a-\u003eFin(S b)",
@@ -4818,6 +5238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "minimum",
           "package": "vector-static",
@@ -4827,6 +5248,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "minimum",
           "normalized": "Vec(S a)b-\u003eb",
@@ -4841,6 +5263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "minimumBy",
           "package": "vector-static",
@@ -4850,6 +5273,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "minimumBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eVec(S b)a-\u003ea",
@@ -4865,6 +5289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "new",
           "package": "vector-static",
@@ -4874,6 +5299,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "new",
           "normalized": "New a-\u003e(b c Vec d a-\u003ee)-\u003ee",
@@ -4888,6 +5314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "notElem",
           "package": "vector-static",
@@ -4897,6 +5324,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "notElem",
           "normalized": "a-\u003eVec b a-\u003eBool",
@@ -4912,6 +5340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "null",
           "package": "vector-static",
@@ -4921,6 +5350,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "null",
           "normalized": "Vec a b-\u003eBool",
@@ -4935,6 +5365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "or",
           "package": "vector-static",
@@ -4944,6 +5375,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "or",
           "normalized": "Vec a Bool-\u003eBool",
@@ -4958,6 +5390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "product",
           "package": "vector-static",
@@ -4967,6 +5400,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "product",
           "normalized": "Vec a b-\u003eb",
@@ -4981,6 +5415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "replicate",
           "package": "vector-static",
@@ -4990,6 +5425,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "replicate",
           "normalized": "a-\u003eVec b a",
@@ -5004,6 +5440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "reverse",
           "package": "vector-static",
@@ -5013,6 +5450,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "reverse",
           "normalized": "Vec a b-\u003eVec a b",
@@ -5027,6 +5465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "singleton",
           "package": "vector-static",
@@ -5036,6 +5475,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "singleton",
           "normalized": "a-\u003eVec(S Z)a",
@@ -5050,6 +5490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "slice",
           "package": "vector-static",
@@ -5059,6 +5500,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "slice",
           "normalized": "Fin a-\u003eVec(a b)c-\u003eVec b c",
@@ -5073,6 +5515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "snoc",
           "package": "vector-static",
@@ -5082,6 +5525,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "snoc",
           "normalized": "Vec a b-\u003eb-\u003eVec(S a)b",
@@ -5096,6 +5540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "stream",
           "package": "vector-static",
@@ -5105,6 +5550,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "stream",
           "normalized": "Vec a b-\u003eStream b",
@@ -5119,6 +5565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "streamR",
           "package": "vector-static",
@@ -5128,6 +5575,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "streamR",
           "normalized": "Vec a b-\u003eStream b",
@@ -5142,6 +5590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "sum",
           "package": "vector-static",
@@ -5151,6 +5600,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "sum",
           "normalized": "Vec a b-\u003eb",
@@ -5165,6 +5615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "tail",
           "package": "vector-static",
@@ -5174,6 +5625,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "tail",
           "normalized": "Vec(S a)b-\u003eVec a b",
@@ -5188,6 +5640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "toList",
           "package": "vector-static",
@@ -5197,6 +5650,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "toList",
           "normalized": "Vec a b-\u003e[b]",
@@ -5212,6 +5666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "unVec",
           "package": "vector-static",
@@ -5221,6 +5676,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "unVec",
           "package": "vector-static",
@@ -5234,6 +5690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "unfoldr",
           "package": "vector-static",
@@ -5243,6 +5700,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "unfoldr",
           "normalized": "(a-\u003eMaybe(b,a))-\u003ea-\u003e(c d Vec e b-\u003ef)-\u003ef",
@@ -5257,6 +5715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "unstream",
           "package": "vector-static",
@@ -5266,6 +5725,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "unstream",
           "normalized": "Stream a-\u003e(b c Vec d a-\u003ee)-\u003ee",
@@ -5280,6 +5740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "unstreamR",
           "package": "vector-static",
@@ -5289,6 +5750,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "unstreamR",
           "normalized": "Stream a-\u003e(b c Vec d a-\u003ee)-\u003ee",
@@ -5303,6 +5765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "unzip",
           "package": "vector-static",
@@ -5312,6 +5775,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "unzip",
           "normalized": "Vec a(b,c)-\u003e(Vec a b,Vec a c)",
@@ -5326,6 +5790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "unzip3",
           "package": "vector-static",
@@ -5335,6 +5800,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "unzip3",
           "normalized": "Vec a(b,c,d)-\u003e(Vec a b,Vec a c,Vec a d)",
@@ -5349,6 +5815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "unzip4",
           "package": "vector-static",
@@ -5358,6 +5825,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "unzip4",
           "normalized": "Vec a(b,c,d,e)-\u003e(Vec a b,Vec a c,Vec a d,Vec a e)",
@@ -5372,6 +5840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "unzip5",
           "package": "vector-static",
@@ -5381,6 +5850,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "unzip5",
           "normalized": "Vec a(b,c,d,e,f)-\u003e(Vec a b,Vec a c,Vec a d,Vec a e,Vec a f)",
@@ -5395,6 +5865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "unzip6",
           "package": "vector-static",
@@ -5404,6 +5875,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "unzip6",
           "normalized": "Vec a(b,c,d,e,f,g)-\u003e(Vec a b,Vec a c,Vec a d,Vec a e,Vec a f,Vec a g)",
@@ -5418,6 +5890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "zip",
           "package": "vector-static",
@@ -5427,6 +5900,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "zip",
           "normalized": "Vec a b-\u003eVec a c-\u003eVec a(b,c)",
@@ -5441,6 +5915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "zip3",
           "package": "vector-static",
@@ -5450,6 +5925,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "zip3",
           "normalized": "Vec a b-\u003eVec a c-\u003eVec a d-\u003eVec a(b,c,d)",
@@ -5464,6 +5940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "zip4",
           "package": "vector-static",
@@ -5473,6 +5950,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "zip4",
           "normalized": "Vec a b-\u003eVec a c-\u003eVec a d-\u003eVec a e-\u003eVec a(b,c,d,e)",
@@ -5487,6 +5965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "zip5",
           "package": "vector-static",
@@ -5496,6 +5975,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "zip5",
           "normalized": "Vec a b-\u003eVec a c-\u003eVec a d-\u003eVec a e-\u003eVec a f-\u003eVec a(b,c,d,e,f)",
@@ -5510,6 +5990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "zip6",
           "package": "vector-static",
@@ -5519,6 +6000,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "zip6",
           "normalized": "Vec a b-\u003eVec a c-\u003eVec a d-\u003eVec a e-\u003eVec a f-\u003eVec a g-\u003eVec a(b,c,d,e,f,g)",
@@ -5533,6 +6015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "zipWith",
           "package": "vector-static",
@@ -5542,6 +6025,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eVec d a-\u003eVec d b-\u003eVec d c",
@@ -5557,6 +6041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "zipWith3",
           "package": "vector-static",
@@ -5566,6 +6051,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "zipWith3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003eVec e a-\u003eVec e b-\u003eVec e c-\u003eVec e d",
@@ -5581,6 +6067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "zipWith4",
           "package": "vector-static",
@@ -5590,6 +6077,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "zipWith4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eVec f a-\u003eVec f b-\u003eVec f c-\u003eVec f d-\u003eVec f e",
@@ -5605,6 +6093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "zipWith5",
           "package": "vector-static",
@@ -5614,6 +6103,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "zipWith5",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003eVec g a-\u003eVec g b-\u003eVec g c-\u003eVec g d-\u003eVec g e-\u003eVec g f",
@@ -5629,6 +6119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Static",
           "name": "zipWith6",
           "package": "vector-static",
@@ -5638,6 +6129,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Static",
           "name": "zipWith6",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg)-\u003eVec h a-\u003eVec h b-\u003eVec h c-\u003eVec h d-\u003eVec h e-\u003eVec h f-\u003eVec h g",
@@ -5653,6 +6145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Mutable.Static",
           "name": "Static",
           "package": "vector-static",
@@ -5661,6 +6154,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Mutable.Static",
           "name": "Static",
           "package": "vector-static",
@@ -5674,6 +6168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "Static",
           "package": "vector-static",
@@ -5682,6 +6177,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "Static",
           "package": "vector-static",
@@ -5695,6 +6191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "Vec",
           "package": "vector-static",
@@ -5703,6 +6200,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "Vec",
           "package": "vector-static",
@@ -5716,6 +6214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "(!)",
           "package": "vector-static",
@@ -5725,6 +6224,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "(!) !",
           "normalized": "Vec a b-\u003eFin a-\u003eb",
@@ -5739,6 +6239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "(++)",
           "package": "vector-static",
@@ -5748,6 +6249,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "(++) ++",
           "normalized": "Vec a b-\u003eVec c b-\u003eVec(a c)b",
@@ -5762,6 +6264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "Vec",
           "package": "vector-static",
@@ -5771,6 +6274,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "Vec",
           "package": "vector-static",
@@ -5784,6 +6288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "all",
           "package": "vector-static",
@@ -5793,6 +6298,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "all",
           "normalized": "(a-\u003eBool)-\u003eVec b a-\u003eBool",
@@ -5807,6 +6313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "and",
           "package": "vector-static",
@@ -5816,6 +6323,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "and",
           "normalized": "Vec a Bool-\u003eBool",
@@ -5830,6 +6338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "any",
           "package": "vector-static",
@@ -5839,6 +6348,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "any",
           "normalized": "(a-\u003eBool)-\u003eVec b a-\u003eBool",
@@ -5853,6 +6363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "backpermute",
           "package": "vector-static",
@@ -5862,6 +6373,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "backpermute",
           "normalized": "Vec a b-\u003eVec c(Fin a)-\u003eVec c b",
@@ -5876,6 +6388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "concatMap",
           "package": "vector-static",
@@ -5885,6 +6398,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "concatMap",
           "normalized": "(a-\u003eVec b c)-\u003eVec d a-\u003eVec(d*b)c",
@@ -5900,6 +6414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "cons",
           "package": "vector-static",
@@ -5909,6 +6424,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "cons",
           "normalized": "a-\u003eVec b a-\u003eVec(S b)a",
@@ -5923,6 +6439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "copy",
           "package": "vector-static",
@@ -5932,6 +6449,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "copy",
           "normalized": "Vec a b-\u003eVec a b",
@@ -5946,6 +6464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "elem",
           "package": "vector-static",
@@ -5955,6 +6474,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "elem",
           "normalized": "a-\u003eVec b a-\u003eBool",
@@ -5969,6 +6489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "elemIndex",
           "package": "vector-static",
@@ -5978,6 +6499,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "elemIndex",
           "normalized": "a-\u003eVec b a-\u003eMaybe(Fin b)",
@@ -5993,6 +6515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "empty",
           "package": "vector-static",
@@ -6002,6 +6525,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "empty",
           "package": "vector-static",
@@ -6014,6 +6538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "enumFromN",
           "package": "vector-static",
@@ -6023,6 +6548,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "enumFromN",
           "normalized": "a-\u003eVec b a",
@@ -6038,6 +6564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "enumFromStepN",
           "package": "vector-static",
@@ -6047,6 +6574,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "enumFromStepN",
           "normalized": "a-\u003ea-\u003eVec b a",
@@ -6062,6 +6590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "find",
           "package": "vector-static",
@@ -6071,6 +6600,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "find",
           "normalized": "(a-\u003eBool)-\u003eVec b a-\u003eMaybe a",
@@ -6085,6 +6615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "findIndex",
           "package": "vector-static",
@@ -6094,6 +6625,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "findIndex",
           "normalized": "(a-\u003eBool)-\u003eVec b a-\u003eMaybe(Fin b)",
@@ -6109,6 +6641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "foldl",
           "package": "vector-static",
@@ -6118,6 +6651,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eVec c b-\u003ea",
@@ -6132,6 +6666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "foldl'",
           "package": "vector-static",
@@ -6141,6 +6676,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eVec c b-\u003ea",
@@ -6155,6 +6691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "foldl1",
           "package": "vector-static",
@@ -6164,6 +6701,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "foldl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVec(S b)a-\u003ea",
@@ -6178,6 +6716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "foldl1'",
           "package": "vector-static",
@@ -6187,6 +6726,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "foldl1'",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVec(S b)a-\u003ea",
@@ -6201,6 +6741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "foldr",
           "package": "vector-static",
@@ -6210,6 +6751,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eVec c a-\u003eb",
@@ -6224,6 +6766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "foldr'",
           "package": "vector-static",
@@ -6233,6 +6776,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "foldr'",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eVec c a-\u003eb",
@@ -6247,6 +6791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "foldr1",
           "package": "vector-static",
@@ -6256,6 +6801,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "foldr1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVec(S b)a-\u003ea",
@@ -6270,6 +6816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "foldr1'",
           "package": "vector-static",
@@ -6279,6 +6826,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "foldr1'",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVec(S b)a-\u003ea",
@@ -6293,6 +6841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "fromList",
           "package": "vector-static",
@@ -6302,6 +6851,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "fromList",
           "normalized": "[a]-\u003e(b c Vec d a-\u003ee)-\u003ee",
@@ -6317,6 +6867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "generate",
           "package": "vector-static",
@@ -6326,6 +6877,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "generate",
           "normalized": "(Fin a-\u003eb)-\u003eVec a b",
@@ -6340,6 +6892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "head",
           "package": "vector-static",
@@ -6349,6 +6902,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "head",
           "normalized": "Vec(S a)b-\u003eb",
@@ -6363,6 +6917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "headM",
           "package": "vector-static",
@@ -6372,6 +6927,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "headM",
           "normalized": "Vec(S a)b-\u003ec b",
@@ -6386,6 +6942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "ifoldl",
           "package": "vector-static",
@@ -6395,6 +6952,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "ifoldl",
           "normalized": "(a-\u003eFin b-\u003ec-\u003ea)-\u003ea-\u003eVec b c-\u003ea",
@@ -6409,6 +6967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "ifoldl'",
           "package": "vector-static",
@@ -6418,6 +6977,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "ifoldl'",
           "normalized": "(a-\u003eFin b-\u003ec-\u003ea)-\u003ea-\u003eVec b c-\u003ea",
@@ -6432,6 +6992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "ifoldr",
           "package": "vector-static",
@@ -6441,6 +7002,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "ifoldr",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eVec a b-\u003ec",
@@ -6455,6 +7017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "ifoldr'",
           "package": "vector-static",
@@ -6464,6 +7027,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "ifoldr'",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eVec a b-\u003ec",
@@ -6478,6 +7042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "imap",
           "package": "vector-static",
@@ -6487,6 +7052,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "imap",
           "normalized": "(Fin a-\u003eb-\u003ec)-\u003eVec a b-\u003eVec a c",
@@ -6501,6 +7067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "indexM",
           "package": "vector-static",
@@ -6510,6 +7077,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "indexM",
           "normalized": "Vec a b-\u003eFin a-\u003ec b",
@@ -6524,6 +7092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "init",
           "package": "vector-static",
@@ -6533,6 +7102,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "init",
           "normalized": "Vec(S a)b-\u003eVec a b",
@@ -6547,6 +7117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "izipWith",
           "package": "vector-static",
@@ -6556,6 +7127,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "izipWith",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed)-\u003eVec a b-\u003eVec a c-\u003eVec a d",
@@ -6571,6 +7143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "izipWith3",
           "package": "vector-static",
@@ -6580,6 +7153,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "izipWith3",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eVec a b-\u003eVec a c-\u003eVec a d-\u003eVec a e",
@@ -6595,6 +7169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "izipWith4",
           "package": "vector-static",
@@ -6604,6 +7179,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "izipWith4",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003eVec a b-\u003eVec a c-\u003eVec a d-\u003eVec a e-\u003eVec a f",
@@ -6619,6 +7195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "izipWith5",
           "package": "vector-static",
@@ -6628,6 +7205,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "izipWith5",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg)-\u003eVec a b-\u003eVec a c-\u003eVec a d-\u003eVec a e-\u003eVec a f-\u003eVec a g",
@@ -6643,6 +7221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "izipWith6",
           "package": "vector-static",
@@ -6652,6 +7231,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "izipWith6",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg-\u003eh)-\u003eVec a b-\u003eVec a c-\u003eVec a d-\u003eVec a e-\u003eVec a f-\u003eVec a g-\u003eVec a h",
@@ -6667,6 +7247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "last",
           "package": "vector-static",
@@ -6676,6 +7257,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "last",
           "normalized": "Vec(S a)b-\u003eb",
@@ -6690,6 +7272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "lastM",
           "package": "vector-static",
@@ -6699,6 +7282,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "lastM",
           "normalized": "Vec(S a)b-\u003ec b",
@@ -6713,6 +7297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "length",
           "package": "vector-static",
@@ -6722,6 +7307,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "length",
           "normalized": "Vec a b-\u003eNat a",
@@ -6736,6 +7322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "map",
           "package": "vector-static",
@@ -6745,6 +7332,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eVec c a-\u003eVec c b",
@@ -6759,6 +7347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "maxIndex",
           "package": "vector-static",
@@ -6768,6 +7357,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "maxIndex",
           "normalized": "Vec(S a)b-\u003eFin(S a)",
@@ -6783,6 +7373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "maxIndexBy",
           "package": "vector-static",
@@ -6792,6 +7383,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "maxIndexBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eVec(S b)a-\u003eFin(S b)",
@@ -6807,6 +7399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "maximum",
           "package": "vector-static",
@@ -6816,6 +7409,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "maximum",
           "normalized": "Vec(S a)b-\u003eb",
@@ -6830,6 +7424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "maximumBy",
           "package": "vector-static",
@@ -6839,6 +7434,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "maximumBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eVec(S b)a-\u003ea",
@@ -6854,6 +7450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "minIndex",
           "package": "vector-static",
@@ -6863,6 +7460,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "minIndex",
           "normalized": "Vec(S a)b-\u003eFin(S a)",
@@ -6878,6 +7476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "minIndexBy",
           "package": "vector-static",
@@ -6887,6 +7486,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "minIndexBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eVec(S b)a-\u003eFin(S b)",
@@ -6902,6 +7502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "minimum",
           "package": "vector-static",
@@ -6911,6 +7512,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "minimum",
           "normalized": "Vec(S a)b-\u003eb",
@@ -6925,6 +7527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "minimumBy",
           "package": "vector-static",
@@ -6934,6 +7537,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "minimumBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eVec(S b)a-\u003ea",
@@ -6949,6 +7553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "new",
           "package": "vector-static",
@@ -6958,6 +7563,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "new",
           "normalized": "New a-\u003e(b c Vec d a-\u003ee)-\u003ee",
@@ -6972,6 +7578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "notElem",
           "package": "vector-static",
@@ -6981,6 +7588,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "notElem",
           "normalized": "a-\u003eVec b a-\u003eBool",
@@ -6996,6 +7604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "null",
           "package": "vector-static",
@@ -7005,6 +7614,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "null",
           "normalized": "Vec a b-\u003eBool",
@@ -7019,6 +7629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "or",
           "package": "vector-static",
@@ -7028,6 +7639,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "or",
           "normalized": "Vec a Bool-\u003eBool",
@@ -7042,6 +7654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "product",
           "package": "vector-static",
@@ -7051,6 +7664,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "product",
           "normalized": "Vec a b-\u003eb",
@@ -7065,6 +7679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "replicate",
           "package": "vector-static",
@@ -7074,6 +7689,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "replicate",
           "normalized": "a-\u003eVec b a",
@@ -7088,6 +7704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "reverse",
           "package": "vector-static",
@@ -7097,6 +7714,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "reverse",
           "normalized": "Vec a b-\u003eVec a b",
@@ -7111,6 +7729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "singleton",
           "package": "vector-static",
@@ -7120,6 +7739,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "singleton",
           "normalized": "a-\u003eVec(S Z)a",
@@ -7134,6 +7754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "slice",
           "package": "vector-static",
@@ -7143,6 +7764,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "slice",
           "normalized": "Fin a-\u003eVec(a b)c-\u003eVec b c",
@@ -7157,6 +7779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "snoc",
           "package": "vector-static",
@@ -7166,6 +7789,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "snoc",
           "normalized": "Vec a b-\u003eb-\u003eVec(S a)b",
@@ -7180,6 +7804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "stream",
           "package": "vector-static",
@@ -7189,6 +7814,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "stream",
           "normalized": "Vec a b-\u003eStream b",
@@ -7203,6 +7829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "streamR",
           "package": "vector-static",
@@ -7212,6 +7839,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "streamR",
           "normalized": "Vec a b-\u003eStream b",
@@ -7226,6 +7854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "sum",
           "package": "vector-static",
@@ -7235,6 +7864,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "sum",
           "normalized": "Vec a b-\u003eb",
@@ -7249,6 +7879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "tail",
           "package": "vector-static",
@@ -7258,6 +7889,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "tail",
           "normalized": "Vec(S a)b-\u003eVec a b",
@@ -7272,6 +7904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "toList",
           "package": "vector-static",
@@ -7281,6 +7914,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "toList",
           "normalized": "Vec a b-\u003e[b]",
@@ -7296,6 +7930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "unVec",
           "package": "vector-static",
@@ -7305,6 +7940,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "unVec",
           "package": "vector-static",
@@ -7318,6 +7954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "unfoldr",
           "package": "vector-static",
@@ -7327,6 +7964,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "unfoldr",
           "normalized": "(a-\u003eMaybe(b,a))-\u003ea-\u003e(c d Vec e b-\u003ef)-\u003ef",
@@ -7341,6 +7979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "unstream",
           "package": "vector-static",
@@ -7350,6 +7989,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "unstream",
           "normalized": "Stream a-\u003e(b c Vec d a-\u003ee)-\u003ee",
@@ -7364,6 +8004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "unstreamR",
           "package": "vector-static",
@@ -7373,6 +8014,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "unstreamR",
           "normalized": "Stream a-\u003e(b c Vec d a-\u003ee)-\u003ee",
@@ -7387,6 +8029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "zipWith",
           "package": "vector-static",
@@ -7396,6 +8039,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eVec d a-\u003eVec d b-\u003eVec d c",
@@ -7411,6 +8055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "zipWith3",
           "package": "vector-static",
@@ -7420,6 +8065,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "zipWith3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003eVec e a-\u003eVec e b-\u003eVec e c-\u003eVec e d",
@@ -7435,6 +8081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "zipWith4",
           "package": "vector-static",
@@ -7444,6 +8091,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "zipWith4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eVec f a-\u003eVec f b-\u003eVec f c-\u003eVec f d-\u003eVec f e",
@@ -7459,6 +8107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "zipWith5",
           "package": "vector-static",
@@ -7468,6 +8117,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "zipWith5",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003eVec g a-\u003eVec g b-\u003eVec g c-\u003eVec g d-\u003eVec g e-\u003eVec g f",
@@ -7483,6 +8133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Storable.Static",
           "name": "zipWith6",
           "package": "vector-static",
@@ -7492,6 +8143,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Storable.Static",
           "name": "zipWith6",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg)-\u003eVec h a-\u003eVec h b-\u003eVec h c-\u003eVec h d-\u003eVec h e-\u003eVec h f-\u003eVec h g",
@@ -7507,6 +8159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Fin",
           "name": "Fin",
           "package": "vector-static",
@@ -7515,6 +8168,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Fin",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Fin",
           "name": "Fin",
           "package": "vector-static",
@@ -7528,6 +8182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Static",
           "name": "Static",
           "package": "vector-static",
@@ -7536,6 +8191,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Mutable Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Mutable.Static",
           "name": "Static",
           "package": "vector-static",
@@ -7549,6 +8205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "Static",
           "package": "vector-static",
@@ -7557,6 +8214,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "Static",
           "package": "vector-static",
@@ -7570,6 +8228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "Vec",
           "package": "vector-static",
@@ -7578,6 +8237,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "Vec",
           "package": "vector-static",
@@ -7591,6 +8251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "(!)",
           "package": "vector-static",
@@ -7600,6 +8261,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "(!) !",
           "normalized": "Vec a b-\u003eFin a-\u003eb",
@@ -7614,6 +8276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "(++)",
           "package": "vector-static",
@@ -7623,6 +8286,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "(++) ++",
           "normalized": "Vec a b-\u003eVec c b-\u003eVec(a c)b",
@@ -7637,6 +8301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "Vec",
           "package": "vector-static",
@@ -7646,6 +8311,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "Vec",
           "package": "vector-static",
@@ -7659,6 +8325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "all",
           "package": "vector-static",
@@ -7668,6 +8335,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "all",
           "normalized": "(a-\u003eBool)-\u003eVec b a-\u003eBool",
@@ -7682,6 +8350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "allFin",
           "package": "vector-static",
@@ -7691,6 +8360,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "allFin",
           "package": "vector-static",
@@ -7704,6 +8374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "and",
           "package": "vector-static",
@@ -7713,6 +8384,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "and",
           "normalized": "Vec a Bool-\u003eBool",
@@ -7727,6 +8399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "any",
           "package": "vector-static",
@@ -7736,6 +8409,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "any",
           "normalized": "(a-\u003eBool)-\u003eVec b a-\u003eBool",
@@ -7750,6 +8424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "backpermute",
           "package": "vector-static",
@@ -7759,6 +8434,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "backpermute",
           "normalized": "Vec a b-\u003eVec c(Fin a)-\u003eVec c b",
@@ -7773,6 +8449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "concatMap",
           "package": "vector-static",
@@ -7782,6 +8459,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "concatMap",
           "normalized": "(a-\u003eVec b c)-\u003eVec d a-\u003eVec(d*b)c",
@@ -7797,6 +8475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "cons",
           "package": "vector-static",
@@ -7806,6 +8485,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "cons",
           "normalized": "a-\u003eVec b a-\u003eVec(S b)a",
@@ -7820,6 +8500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "copy",
           "package": "vector-static",
@@ -7829,6 +8510,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "copy",
           "normalized": "Vec a b-\u003eVec a b",
@@ -7843,6 +8525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "elem",
           "package": "vector-static",
@@ -7852,6 +8535,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "elem",
           "normalized": "a-\u003eVec b a-\u003eBool",
@@ -7866,6 +8550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "elemIndex",
           "package": "vector-static",
@@ -7875,6 +8560,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "elemIndex",
           "normalized": "a-\u003eVec b a-\u003eMaybe(Fin b)",
@@ -7890,6 +8576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "empty",
           "package": "vector-static",
@@ -7899,6 +8586,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "empty",
           "package": "vector-static",
@@ -7911,6 +8599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "enumFromN",
           "package": "vector-static",
@@ -7920,6 +8609,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "enumFromN",
           "normalized": "a-\u003eVec b a",
@@ -7935,6 +8625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "enumFromStepN",
           "package": "vector-static",
@@ -7944,6 +8635,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "enumFromStepN",
           "normalized": "a-\u003ea-\u003eVec b a",
@@ -7959,6 +8651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "find",
           "package": "vector-static",
@@ -7968,6 +8661,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "find",
           "normalized": "(a-\u003eBool)-\u003eVec b a-\u003eMaybe a",
@@ -7982,6 +8676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "findIndex",
           "package": "vector-static",
@@ -7991,6 +8686,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "findIndex",
           "normalized": "(a-\u003eBool)-\u003eVec b a-\u003eMaybe(Fin b)",
@@ -8006,6 +8702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "foldl",
           "package": "vector-static",
@@ -8015,6 +8712,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eVec c b-\u003ea",
@@ -8029,6 +8727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "foldl'",
           "package": "vector-static",
@@ -8038,6 +8737,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eVec c b-\u003ea",
@@ -8052,6 +8752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "foldl1",
           "package": "vector-static",
@@ -8061,6 +8762,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "foldl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVec(S b)a-\u003ea",
@@ -8075,6 +8777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "foldl1'",
           "package": "vector-static",
@@ -8084,6 +8787,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "foldl1'",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVec(S b)a-\u003ea",
@@ -8098,6 +8802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "foldr",
           "package": "vector-static",
@@ -8107,6 +8812,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eVec c a-\u003eb",
@@ -8121,6 +8827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "foldr'",
           "package": "vector-static",
@@ -8130,6 +8837,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "foldr'",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eVec c a-\u003eb",
@@ -8144,6 +8852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "foldr1",
           "package": "vector-static",
@@ -8153,6 +8862,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "foldr1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVec(S b)a-\u003ea",
@@ -8167,6 +8877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "foldr1'",
           "package": "vector-static",
@@ -8176,6 +8887,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "foldr1'",
           "normalized": "(a-\u003ea-\u003ea)-\u003eVec(S b)a-\u003ea",
@@ -8190,6 +8902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "fromList",
           "package": "vector-static",
@@ -8199,6 +8912,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "fromList",
           "normalized": "[a]-\u003e(b c Vec d a-\u003ee)-\u003ee",
@@ -8214,6 +8928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "generate",
           "package": "vector-static",
@@ -8223,6 +8938,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "generate",
           "normalized": "(Fin a-\u003eb)-\u003eVec a b",
@@ -8237,6 +8953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "head",
           "package": "vector-static",
@@ -8246,6 +8963,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "head",
           "normalized": "Vec(S a)b-\u003eb",
@@ -8260,6 +8978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "headM",
           "package": "vector-static",
@@ -8269,6 +8988,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "headM",
           "normalized": "Vec(S a)b-\u003ec b",
@@ -8283,6 +9003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "ifoldl",
           "package": "vector-static",
@@ -8292,6 +9013,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "ifoldl",
           "normalized": "(a-\u003eFin b-\u003ec-\u003ea)-\u003ea-\u003eVec b c-\u003ea",
@@ -8306,6 +9028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "ifoldl'",
           "package": "vector-static",
@@ -8315,6 +9038,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "ifoldl'",
           "normalized": "(a-\u003eFin b-\u003ec-\u003ea)-\u003ea-\u003eVec b c-\u003ea",
@@ -8329,6 +9053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "ifoldr",
           "package": "vector-static",
@@ -8338,6 +9063,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "ifoldr",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eVec a b-\u003ec",
@@ -8352,6 +9078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "ifoldr'",
           "package": "vector-static",
@@ -8361,6 +9088,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "ifoldr'",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eVec a b-\u003ec",
@@ -8375,6 +9103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "imap",
           "package": "vector-static",
@@ -8384,6 +9113,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "imap",
           "normalized": "(Fin a-\u003eb-\u003ec)-\u003eVec a b-\u003eVec a c",
@@ -8398,6 +9128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "indexM",
           "package": "vector-static",
@@ -8407,6 +9138,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "indexM",
           "normalized": "Vec a b-\u003eFin a-\u003ec b",
@@ -8421,6 +9153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "init",
           "package": "vector-static",
@@ -8430,6 +9163,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "init",
           "normalized": "Vec(S a)b-\u003eVec a b",
@@ -8444,6 +9178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "izipWith",
           "package": "vector-static",
@@ -8453,6 +9188,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "izipWith",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed)-\u003eVec a b-\u003eVec a c-\u003eVec a d",
@@ -8468,6 +9204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "izipWith3",
           "package": "vector-static",
@@ -8477,6 +9214,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "izipWith3",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eVec a b-\u003eVec a c-\u003eVec a d-\u003eVec a e",
@@ -8492,6 +9230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "izipWith4",
           "package": "vector-static",
@@ -8501,6 +9240,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "izipWith4",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003eVec a b-\u003eVec a c-\u003eVec a d-\u003eVec a e-\u003eVec a f",
@@ -8516,6 +9256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "izipWith5",
           "package": "vector-static",
@@ -8525,6 +9266,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "izipWith5",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg)-\u003eVec a b-\u003eVec a c-\u003eVec a d-\u003eVec a e-\u003eVec a f-\u003eVec a g",
@@ -8540,6 +9282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "izipWith6",
           "package": "vector-static",
@@ -8549,6 +9292,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "izipWith6",
           "normalized": "(Fin a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg-\u003eh)-\u003eVec a b-\u003eVec a c-\u003eVec a d-\u003eVec a e-\u003eVec a f-\u003eVec a g-\u003eVec a h",
@@ -8564,6 +9308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "last",
           "package": "vector-static",
@@ -8573,6 +9318,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "last",
           "normalized": "Vec(S a)b-\u003eb",
@@ -8587,6 +9333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "lastM",
           "package": "vector-static",
@@ -8596,6 +9343,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "lastM",
           "normalized": "Vec(S a)b-\u003ec b",
@@ -8610,6 +9358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "length",
           "package": "vector-static",
@@ -8619,6 +9368,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "length",
           "normalized": "Vec a b-\u003eNat a",
@@ -8633,6 +9383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "map",
           "package": "vector-static",
@@ -8642,6 +9393,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eVec c a-\u003eVec c b",
@@ -8656,6 +9408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "maxIndex",
           "package": "vector-static",
@@ -8665,6 +9418,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "maxIndex",
           "normalized": "Vec(S a)b-\u003eFin(S a)",
@@ -8680,6 +9434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "maxIndexBy",
           "package": "vector-static",
@@ -8689,6 +9444,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "maxIndexBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eVec(S b)a-\u003eFin(S b)",
@@ -8704,6 +9460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "maximum",
           "package": "vector-static",
@@ -8713,6 +9470,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "maximum",
           "normalized": "Vec(S a)b-\u003eb",
@@ -8727,6 +9485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "maximumBy",
           "package": "vector-static",
@@ -8736,6 +9495,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "maximumBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eVec(S b)a-\u003ea",
@@ -8751,6 +9511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "minIndex",
           "package": "vector-static",
@@ -8760,6 +9521,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "minIndex",
           "normalized": "Vec(S a)b-\u003eFin(S a)",
@@ -8775,6 +9537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "minIndexBy",
           "package": "vector-static",
@@ -8784,6 +9547,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "minIndexBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eVec(S b)a-\u003eFin(S b)",
@@ -8799,6 +9563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "minimum",
           "package": "vector-static",
@@ -8808,6 +9573,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "minimum",
           "normalized": "Vec(S a)b-\u003eb",
@@ -8822,6 +9588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "minimumBy",
           "package": "vector-static",
@@ -8831,6 +9598,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "minimumBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eVec(S b)a-\u003ea",
@@ -8846,6 +9614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "new",
           "package": "vector-static",
@@ -8855,6 +9624,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "new",
           "normalized": "New a-\u003e(b c Vec d a-\u003ee)-\u003ee",
@@ -8869,6 +9639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "notElem",
           "package": "vector-static",
@@ -8878,6 +9649,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "notElem",
           "normalized": "a-\u003eVec b a-\u003eBool",
@@ -8893,6 +9665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "null",
           "package": "vector-static",
@@ -8902,6 +9675,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "null",
           "normalized": "Vec a b-\u003eBool",
@@ -8916,6 +9690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "or",
           "package": "vector-static",
@@ -8925,6 +9700,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "or",
           "normalized": "Vec a Bool-\u003eBool",
@@ -8939,6 +9715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "product",
           "package": "vector-static",
@@ -8948,6 +9725,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "product",
           "normalized": "Vec a b-\u003eb",
@@ -8962,6 +9740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "replicate",
           "package": "vector-static",
@@ -8971,6 +9750,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "replicate",
           "normalized": "a-\u003eVec b a",
@@ -8985,6 +9765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "reverse",
           "package": "vector-static",
@@ -8994,6 +9775,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "reverse",
           "normalized": "Vec a b-\u003eVec a b",
@@ -9008,6 +9790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "singleton",
           "package": "vector-static",
@@ -9017,6 +9800,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "singleton",
           "normalized": "a-\u003eVec(S Z)a",
@@ -9031,6 +9815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "slice",
           "package": "vector-static",
@@ -9040,6 +9825,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "slice",
           "normalized": "Fin a-\u003eVec(a b)c-\u003eVec b c",
@@ -9054,6 +9840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "snoc",
           "package": "vector-static",
@@ -9063,6 +9850,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "snoc",
           "normalized": "Vec a b-\u003eb-\u003eVec(S a)b",
@@ -9077,6 +9865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "stream",
           "package": "vector-static",
@@ -9086,6 +9875,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "stream",
           "normalized": "Vec a b-\u003eStream b",
@@ -9100,6 +9890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "streamR",
           "package": "vector-static",
@@ -9109,6 +9900,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "streamR",
           "normalized": "Vec a b-\u003eStream b",
@@ -9123,6 +9915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "sum",
           "package": "vector-static",
@@ -9132,6 +9925,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "sum",
           "normalized": "Vec a b-\u003eb",
@@ -9146,6 +9940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "tail",
           "package": "vector-static",
@@ -9155,6 +9950,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "tail",
           "normalized": "Vec(S a)b-\u003eVec a b",
@@ -9169,6 +9965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "toList",
           "package": "vector-static",
@@ -9178,6 +9975,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "toList",
           "normalized": "Vec a b-\u003e[b]",
@@ -9193,6 +9991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "unVec",
           "package": "vector-static",
@@ -9202,6 +10001,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "unVec",
           "package": "vector-static",
@@ -9215,6 +10015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "unfoldr",
           "package": "vector-static",
@@ -9224,6 +10025,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "unfoldr",
           "normalized": "(a-\u003eMaybe(b,a))-\u003ea-\u003e(c d Vec e b-\u003ef)-\u003ef",
@@ -9238,6 +10040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "unstream",
           "package": "vector-static",
@@ -9247,6 +10050,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "unstream",
           "normalized": "Stream a-\u003e(b c Vec d a-\u003ee)-\u003ee",
@@ -9261,6 +10065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "unstreamR",
           "package": "vector-static",
@@ -9270,6 +10075,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "unstreamR",
           "normalized": "Stream a-\u003e(b c Vec d a-\u003ee)-\u003ee",
@@ -9284,6 +10090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "unzip",
           "package": "vector-static",
@@ -9293,6 +10100,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "unzip",
           "normalized": "Vec a(b,c)-\u003e(Vec a b,Vec a c)",
@@ -9307,6 +10115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "unzip3",
           "package": "vector-static",
@@ -9316,6 +10125,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "unzip3",
           "normalized": "Vec a(b,c,d)-\u003e(Vec a b,Vec a c,Vec a d)",
@@ -9330,6 +10140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "unzip4",
           "package": "vector-static",
@@ -9339,6 +10150,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "unzip4",
           "normalized": "Vec a(b,c,d,e)-\u003e(Vec a b,Vec a c,Vec a d,Vec a e)",
@@ -9353,6 +10165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "unzip5",
           "package": "vector-static",
@@ -9362,6 +10175,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "unzip5",
           "normalized": "Vec a(b,c,d,e,f)-\u003e(Vec a b,Vec a c,Vec a d,Vec a e,Vec a f)",
@@ -9376,6 +10190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "unzip6",
           "package": "vector-static",
@@ -9385,6 +10200,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "unzip6",
           "normalized": "Vec a(b,c,d,e,f,g)-\u003e(Vec a b,Vec a c,Vec a d,Vec a e,Vec a f,Vec a g)",
@@ -9399,6 +10215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zip",
           "package": "vector-static",
@@ -9408,6 +10225,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zip",
           "normalized": "Vec a b-\u003eVec a c-\u003eVec a(b,c)",
@@ -9422,6 +10240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zip3",
           "package": "vector-static",
@@ -9431,6 +10250,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zip3",
           "normalized": "Vec a b-\u003eVec a c-\u003eVec a d-\u003eVec a(b,c,d)",
@@ -9445,6 +10265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zip4",
           "package": "vector-static",
@@ -9454,6 +10275,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zip4",
           "normalized": "Vec a b-\u003eVec a c-\u003eVec a d-\u003eVec a e-\u003eVec a(b,c,d,e)",
@@ -9468,6 +10290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zip5",
           "package": "vector-static",
@@ -9477,6 +10300,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zip5",
           "normalized": "Vec a b-\u003eVec a c-\u003eVec a d-\u003eVec a e-\u003eVec a f-\u003eVec a(b,c,d,e,f)",
@@ -9491,6 +10315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zip6",
           "package": "vector-static",
@@ -9500,6 +10325,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zip6",
           "normalized": "Vec a b-\u003eVec a c-\u003eVec a d-\u003eVec a e-\u003eVec a f-\u003eVec a g-\u003eVec a(b,c,d,e,f,g)",
@@ -9514,6 +10340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zipWith",
           "package": "vector-static",
@@ -9523,6 +10350,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eVec d a-\u003eVec d b-\u003eVec d c",
@@ -9538,6 +10366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zipWith3",
           "package": "vector-static",
@@ -9547,6 +10376,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zipWith3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003eVec e a-\u003eVec e b-\u003eVec e c-\u003eVec e d",
@@ -9562,6 +10392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zipWith4",
           "package": "vector-static",
@@ -9571,6 +10402,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zipWith4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eVec f a-\u003eVec f b-\u003eVec f c-\u003eVec f d-\u003eVec f e",
@@ -9586,6 +10418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zipWith5",
           "package": "vector-static",
@@ -9595,6 +10428,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zipWith5",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003eVec g a-\u003eVec g b-\u003eVec g c-\u003eVec g d-\u003eVec g e-\u003eVec g f",
@@ -9610,6 +10444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:48 UTC 2014",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zipWith6",
           "package": "vector-static",
@@ -9619,6 +10454,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Static",
+          "indexed": "2014-03-11T20:34:48",
           "module": "Data.Vector.Unboxed.Static",
           "name": "zipWith6",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef-\u003eg)-\u003eVec h a-\u003eVec h b-\u003eVec h c-\u003eVec h d-\u003eVec h e-\u003eVec h f-\u003eVec h g",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "join"
+        "phrase": "join",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Base",
           "name": "Base",
           "package": "join",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Join Base",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Base",
           "name": "Base",
           "package": "join",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "Join",
           "package": "join",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "Join",
           "package": "join",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "ActiveMethod",
           "package": "join",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "ActiveMethod",
           "package": "join",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "Argument",
           "package": "join",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "Argument",
           "package": "join",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "Assign",
           "package": "join",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "Assign",
           "package": "join",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "CollectArgs",
           "package": "join",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "CollectArgs",
           "package": "join",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "Cons",
           "package": "join",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "Cons",
           "package": "join",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "Join",
           "package": "join",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "Join",
           "package": "join",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "Method",
           "package": "join",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "Method",
           "package": "join",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "Sync",
           "package": "join",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "Sync",
           "package": "join",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "(.=.)",
           "package": "join",
@@ -237,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "(.=.) .=.",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "ArgBool",
           "package": "join",
@@ -260,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "ArgBool",
           "package": "join",
@@ -273,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "ArgInt",
           "package": "join",
@@ -282,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "ArgInt",
           "package": "join",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "ArgListInt",
           "package": "join",
@@ -304,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "ArgListInt",
           "normalized": "ArgListInt(L[Int])",
@@ -319,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "ArgString",
           "package": "join",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "ArgString",
           "package": "join",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "ArgSyncBool",
           "package": "join",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "ArgSyncBool",
           "package": "join",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "ArgSyncInt",
           "package": "join",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "ArgSyncInt",
           "package": "join",
@@ -385,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "ArgSyncIntList",
           "package": "join",
@@ -394,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "ArgSyncIntList",
           "normalized": "ArgSyncIntList(L(MVar[Int]))",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "ArgSyncString",
           "package": "join",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "ArgSyncString",
           "package": "join",
@@ -431,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "ArgTVarInt",
           "package": "join",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "ArgTVarInt",
           "package": "join",
@@ -453,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "C",
           "package": "join",
@@ -462,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "C",
           "normalized": "C String[Argument]",
@@ -476,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "Join",
           "package": "join",
@@ -485,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "Join",
           "package": "join",
@@ -498,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "call",
           "package": "join",
@@ -507,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "call",
           "normalized": "Join-\u003eString-\u003ea-\u003eIO()",
@@ -521,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "callPassive",
           "package": "join",
@@ -530,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "callPassive",
           "normalized": "Join-\u003eString-\u003ea-\u003eIO()",
@@ -545,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "collectArgs",
           "package": "join",
@@ -554,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "collectArgs",
           "normalized": "a-\u003e[Argument]",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "cons",
           "package": "join",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "cons",
           "normalized": "String-\u003ea-\u003eMethod",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "newJoinStore",
           "package": "join",
@@ -601,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "newJoinStore",
           "package": "join",
@@ -614,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "rules",
           "package": "join",
@@ -623,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "rules",
           "normalized": "Join-\u003eActiveMethod-\u003eIO()",
@@ -637,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "runJoinOnGoal",
           "package": "join",
@@ -646,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "runJoinOnGoal",
           "normalized": "Store a-\u003eLocation a-\u003e[CompClause(Store a)(Location a)()]-\u003eIO(Maybe(Code_RHS()))",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "store",
           "package": "join",
@@ -670,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "store",
           "package": "join",
@@ -682,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.Join",
           "name": "translateJoinDefinitions",
           "package": "join",
@@ -691,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Join Join",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.Join",
           "name": "translateJoinDefinitions",
           "normalized": "[([MatchTask a],Code_RHS())]-\u003e[CompClause(Store a)(Location a)()]",
@@ -706,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:33 UTC 2014",
           "module": "Join.JoinPrettyPrinter",
           "name": "JoinPrettyPrinter",
           "package": "join",
@@ -714,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Join JoinPrettyPrinter",
+          "indexed": "2014-03-11T19:01:33",
           "module": "Join.JoinPrettyPrinter",
           "name": "JoinPrettyPrinter",
           "package": "join",

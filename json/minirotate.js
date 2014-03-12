@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "minirotate"
+        "phrase": "minirotate",
+        "type": "phrase"
       },
       "type": "context"
     }

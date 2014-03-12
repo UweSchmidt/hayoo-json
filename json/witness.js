@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "witness"
+        "phrase": "witness",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Any",
           "name": "Any",
           "package": "witness",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Any",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Any",
           "name": "Any",
           "package": "witness",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny value with a witness to it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Any",
           "name": "Any",
           "package": "witness",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Any value with witness to it",
           "hierarchy": "Data Witness Any",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Any",
           "name": "Any",
           "package": "witness",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny value with a witness to a parameter of its type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Any",
           "name": "AnyF",
           "package": "witness",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Any value with witness to parameter of its type",
           "hierarchy": "Data Witness Any",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Any",
           "name": "AnyF",
           "package": "witness",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny value with a witness to a parameter of its type of kind \u003ccode\u003e* -\u003e *\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Any",
           "name": "AnyF1",
           "package": "witness",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Any value with witness to parameter of its type of kind",
           "hierarchy": "Data Witness Any",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Any",
           "name": "AnyF1",
           "package": "witness",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny value with a witness to a parameter of its type of kind \u003ccode\u003e* -\u003e * -\u003e *\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Any",
           "name": "AnyF2",
           "package": "witness",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Any value with witness to parameter of its type of kind",
           "hierarchy": "Data Witness Any",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Any",
           "name": "AnyF2",
           "package": "witness",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny witness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Any",
           "name": "AnyWitness",
           "package": "witness",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Any witness",
           "hierarchy": "Data Witness Any",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Any",
           "name": "AnyWitness",
           "package": "witness",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny witness of a type of kind \u003ccode\u003e* -\u003e *\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Any",
           "name": "AnyWitness1",
           "package": "witness",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Any witness of type of kind",
           "hierarchy": "Data Witness Any",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Any",
           "name": "AnyWitness1",
           "package": "witness",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny witness of a type of kind \u003ccode\u003e* -\u003e * -\u003e *\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Any",
           "name": "AnyWitness2",
           "package": "witness",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Any witness of type of kind",
           "hierarchy": "Data Witness Any",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Any",
           "name": "AnyWitness2",
           "package": "witness",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Any",
           "name": "MkAny",
           "package": "witness",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Any",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Any",
           "name": "MkAny",
           "package": "witness",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Any",
           "name": "MkAnyF",
           "package": "witness",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Any",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Any",
           "name": "MkAnyF",
           "package": "witness",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Any",
           "name": "MkAnyF1",
           "package": "witness",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Any",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Any",
           "name": "MkAnyF1",
           "package": "witness",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Any",
           "name": "MkAnyF2",
           "package": "witness",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Any",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Any",
           "name": "MkAnyF2",
           "package": "witness",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Any",
           "name": "MkAnyWitness",
           "package": "witness",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Any",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Any",
           "name": "MkAnyWitness",
           "package": "witness",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Any",
           "name": "MkAnyWitness1",
           "package": "witness",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Any",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Any",
           "name": "MkAnyWitness1",
           "package": "witness",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Any",
           "name": "MkAnyWitness2",
           "package": "witness",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Any",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Any",
           "name": "MkAnyWitness2",
           "package": "witness",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Any",
           "name": "matchAny",
           "package": "witness",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Any",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Any",
           "name": "matchAny",
           "normalized": "a b-\u003eAny a-\u003eMaybe b",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Any",
           "name": "matchAnyF",
           "package": "witness",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Any",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Any",
           "name": "matchAnyF",
           "normalized": "a b-\u003eAnyF a c-\u003eMaybe(c b)",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Any",
           "name": "matchAnyWitness",
           "package": "witness",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Any",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Any",
           "name": "matchAnyWitness",
           "normalized": "a b-\u003eAnyWitness a-\u003eBool",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.EqualType",
           "name": "EqualType",
           "package": "witness",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Data Witness EqualType",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.EqualType",
           "name": "EqualType",
           "package": "witness",
@@ -448,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewitness that type parameters \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e are the same type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.EqualType",
           "name": "EqualType",
           "package": "witness",
@@ -457,6 +496,7 @@
         "index": {
           "description": "witness that type parameters and are the same type",
           "hierarchy": "Data Witness EqualType",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.EqualType",
           "name": "EqualType",
           "package": "witness",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.EqualType",
           "name": "MkEqualType",
           "package": "witness",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Data Witness EqualType",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.EqualType",
           "name": "MkEqualType",
           "package": "witness",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.List",
           "name": "List",
           "package": "witness",
@@ -500,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Data Witness List",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.List",
           "name": "List",
           "package": "witness",
@@ -513,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.List",
           "name": "HasListElement",
           "package": "witness",
@@ -521,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Data Witness List",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.List",
           "name": "HasListElement",
           "package": "witness",
@@ -535,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea witness type for HList-style lists. Here we use \u003ccode\u003e()\u003c/code\u003e and \u003ccode\u003e(,)\u003c/code\u003e for \u003ccode\u003eHNil\u003c/code\u003e and \u003ccode\u003eHCons\u003c/code\u003e. \n The \u003ccode\u003ew\u003c/code\u003e parameter is the witness type of the elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.List",
           "name": "ListType",
           "package": "witness",
@@ -544,6 +591,7 @@
         "index": {
           "description": "witness type for HList-style lists Here we use and for HNil and HCons The parameter is the witness type of the elements",
           "hierarchy": "Data Witness List",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.List",
           "name": "ListType",
           "package": "witness",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.List",
           "name": "ConsListType",
           "package": "witness",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Data Witness List",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.List",
           "name": "ConsListType",
           "normalized": "a b-\u003eListType a c-\u003eListType a(b,c)",
@@ -581,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.List",
           "name": "NilListType",
           "package": "witness",
@@ -590,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Data Witness List",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.List",
           "name": "NilListType",
           "normalized": "ListType a()",
@@ -605,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.List",
           "name": "getListElement",
           "package": "witness",
@@ -614,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Data Witness List",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.List",
           "name": "getListElement",
           "normalized": "Nat a-\u003eb-\u003eListElement a b",
@@ -629,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.List",
           "name": "modifyListElement",
           "package": "witness",
@@ -638,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Data Witness List",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.List",
           "name": "modifyListElement",
           "normalized": "Nat a-\u003e(ListElement a b-\u003eListElement a b)-\u003eb-\u003eb",
@@ -653,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.List",
           "name": "putListElement",
           "package": "witness",
@@ -662,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Data Witness List",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.List",
           "name": "putListElement",
           "normalized": "Nat a-\u003eListElement a b-\u003eb-\u003eb",
@@ -677,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Nat",
           "name": "Nat",
           "package": "witness",
@@ -685,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Nat",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Nat",
           "name": "Nat",
           "package": "witness",
@@ -698,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Nat",
           "name": "Nat",
           "package": "witness",
@@ -706,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Nat",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Nat",
           "name": "Nat",
           "package": "witness",
@@ -719,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Nat",
           "name": "Succ",
           "package": "witness",
@@ -727,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Nat",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Nat",
           "name": "Succ",
           "package": "witness",
@@ -740,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Nat",
           "name": "Zero",
           "package": "witness",
@@ -748,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Nat",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Nat",
           "name": "Zero",
           "package": "witness",
@@ -761,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Nat",
           "name": "SuccNat",
           "package": "witness",
@@ -770,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Nat",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Nat",
           "name": "SuccNat",
           "normalized": "Nat a-\u003eNat(Succ a)",
@@ -785,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Nat",
           "name": "ZeroNat",
           "package": "witness",
@@ -794,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Nat",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Nat",
           "name": "ZeroNat",
           "package": "witness",
@@ -807,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Representative",
           "name": "Representative",
           "package": "witness",
@@ -815,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Representative",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Representative",
           "name": "Representative",
           "package": "witness",
@@ -828,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Representative",
           "name": "Eq1",
           "package": "witness",
@@ -836,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Representative",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Representative",
           "name": "Eq1",
           "package": "witness",
@@ -850,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf two representatives have the same type, then they have the same value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Representative",
           "name": "Is",
           "package": "witness",
@@ -859,6 +934,7 @@
         "index": {
           "description": "If two representatives have the same type then they have the same value",
           "hierarchy": "Data Witness Representative",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Representative",
           "name": "Is",
           "package": "witness",
@@ -872,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Representative",
           "name": "RepWitness",
           "package": "witness",
@@ -880,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Representative",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Representative",
           "name": "RepWitness",
           "package": "witness",
@@ -893,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Representative",
           "name": "Representative",
           "package": "witness",
@@ -901,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Representative",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Representative",
           "name": "Representative",
           "package": "witness",
@@ -914,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Representative",
           "name": "MkRepWitness",
           "package": "witness",
@@ -923,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Representative",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Representative",
           "name": "MkRepWitness",
           "package": "witness",
@@ -936,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Representative",
           "name": "equals1",
           "package": "witness",
@@ -945,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Representative",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Representative",
           "name": "equals1",
           "normalized": "a b c d-\u003ec d-\u003eBool",
@@ -960,6 +1044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery value is an instance of \u003ccode\u003e\u003ca\u003eIs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Representative",
           "name": "getRepWitness",
           "package": "witness",
@@ -970,6 +1055,7 @@
         "index": {
           "description": "Every value is an instance of Is",
           "hierarchy": "Data Witness Representative",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Representative",
           "name": "getRepWitness",
           "normalized": "a b-\u003eRepWitness a b",
@@ -985,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Representative",
           "name": "getRepresentative",
           "package": "witness",
@@ -994,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Representative",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Representative",
           "name": "getRepresentative",
           "normalized": "a-\u003eb a",
@@ -1009,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Representative",
           "name": "isWitnessRepresentative",
           "package": "witness",
@@ -1018,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Representative",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Representative",
           "name": "isWitnessRepresentative",
           "normalized": "RepWitness a b-\u003ea b",
@@ -1033,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Representative",
           "name": "mkAny",
           "package": "witness",
@@ -1042,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Representative",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Representative",
           "name": "mkAny",
           "normalized": "a-\u003eAny b",
@@ -1057,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Representative",
           "name": "mkAnyF",
           "package": "witness",
@@ -1066,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Representative",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Representative",
           "name": "mkAnyF",
           "normalized": "a b-\u003eAnyF c a",
@@ -1082,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe representative value for type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Representative",
           "name": "representative",
           "package": "witness",
@@ -1092,6 +1187,7 @@
         "index": {
           "description": "The representative value for type",
           "hierarchy": "Data Witness Representative",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Representative",
           "name": "representative",
           "package": "witness",
@@ -1104,6 +1200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Representative",
           "name": "rerepresentative",
           "package": "witness",
@@ -1113,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Representative",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Representative",
           "name": "rerepresentative",
           "normalized": "a b-\u003ec b",
@@ -1127,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Representative",
           "name": "withRepresentative",
           "package": "witness",
@@ -1136,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Representative",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Representative",
           "name": "withRepresentative",
           "normalized": "a b-\u003ec)-\u003ed e a f-\u003ec",
@@ -1151,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.SimpleWitness",
           "name": "SimpleWitness",
           "package": "witness",
@@ -1159,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Data Witness SimpleWitness",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.SimpleWitness",
           "name": "SimpleWitness",
           "package": "witness",
@@ -1173,6 +1275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ew\u003c/code\u003e is a simple witness type if each value witnesses to a single type. Thus if two values are the same, then they have the same type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.SimpleWitness",
           "name": "SimpleWitness",
           "package": "witness",
@@ -1182,6 +1285,7 @@
         "index": {
           "description": "is simple witness type if each value witnesses to single type Thus if two values are the same then they have the same type",
           "hierarchy": "Data Witness SimpleWitness",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.SimpleWitness",
           "name": "SimpleWitness",
           "package": "witness",
@@ -1196,6 +1300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the two values are the same, then \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e are the same type.\n\u003c/p\u003e\u003cp\u003eAs an equivalence relation, \u003ccode\u003e\u003ca\u003ematchWitness\u003c/a\u003e\u003c/code\u003e must be reflexive, commutative, and transitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.SimpleWitness",
           "name": "matchWitness",
           "package": "witness",
@@ -1206,6 +1311,7 @@
         "index": {
           "description": "If the two values are the same then and are the same type As an equivalence relation matchWitness must be reflexive commutative and transitive",
           "hierarchy": "Data Witness SimpleWitness",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.SimpleWitness",
           "name": "matchWitness",
           "normalized": "a b-\u003ea c-\u003eMaybe(EqualType b c)",
@@ -1221,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Type",
           "name": "Type",
           "package": "witness",
@@ -1229,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Type",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Type",
           "name": "Type",
           "package": "witness",
@@ -1243,6 +1351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe simplest \u003ccode\u003e\u003ca\u003eRepresentative\u003c/a\u003e\u003c/code\u003e, with one value that represents all types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Type",
           "name": "Type",
           "package": "witness",
@@ -1252,6 +1361,7 @@
         "index": {
           "description": "The simplest Representative with one value that represents all types",
           "hierarchy": "Data Witness Type",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Type",
           "name": "Type",
           "package": "witness",
@@ -1265,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.Type",
           "name": "Type",
           "package": "witness",
@@ -1274,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Data Witness Type",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.Type",
           "name": "Type",
           "package": "witness",
@@ -1287,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessDict",
           "name": "WitnessDict",
           "package": "witness",
@@ -1295,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Data Witness WitnessDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessDict",
           "name": "WitnessDict",
           "package": "witness",
@@ -1309,6 +1423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA dictionary that is heterogenous up to its simple witness type \u003ccode\u003ew\u003c/code\u003e. \n Witnesses are the keys of the dictionary, and the values they witness are the values of the dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessDict",
           "name": "WitnessDict",
           "package": "witness",
@@ -1318,6 +1433,7 @@
         "index": {
           "description": "dictionary that is heterogenous up to its simple witness type Witnesses are the keys of the dictionary and the values they witness are the values of the dictionary",
           "hierarchy": "Data Witness WitnessDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessDict",
           "name": "WitnessDict",
           "package": "witness",
@@ -1331,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessDict",
           "name": "MkWitnessDict",
           "package": "witness",
@@ -1340,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Data Witness WitnessDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessDict",
           "name": "MkWitnessDict",
           "normalized": "MkWitnessDict[Any a]",
@@ -1356,6 +1474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessDict",
           "name": "emptyWitnessDict",
           "package": "witness",
@@ -1366,6 +1485,7 @@
         "index": {
           "description": "An empty dictionary",
           "hierarchy": "Data Witness WitnessDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessDict",
           "name": "emptyWitnessDict",
           "package": "witness",
@@ -1380,6 +1500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a witness and value as the first entry in the dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessDict",
           "name": "witnessDictAdd",
           "package": "witness",
@@ -1390,6 +1511,7 @@
         "index": {
           "description": "Add witness and value as the first entry in the dictionary",
           "hierarchy": "Data Witness WitnessDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessDict",
           "name": "witnessDictAdd",
           "normalized": "a b-\u003eb-\u003eWitnessDict a-\u003eWitnessDict a",
@@ -1406,6 +1528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a dictionary from a list of witness/value pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessDict",
           "name": "witnessDictFromList",
           "package": "witness",
@@ -1416,6 +1539,7 @@
         "index": {
           "description": "Create dictionary from list of witness value pairs",
           "hierarchy": "Data Witness WitnessDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessDict",
           "name": "witnessDictFromList",
           "normalized": "[Any a]-\u003eWitnessDict a",
@@ -1432,6 +1556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up the first value in the dictionary that matches the given witness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessDict",
           "name": "witnessDictLookup",
           "package": "witness",
@@ -1442,6 +1567,7 @@
         "index": {
           "description": "Look up the first value in the dictionary that matches the given witness",
           "hierarchy": "Data Witness WitnessDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessDict",
           "name": "witnessDictLookup",
           "normalized": "a b-\u003eWitnessDict a-\u003eMaybe b",
@@ -1458,6 +1584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the first value in the dictionary that matches a particular witness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessDict",
           "name": "witnessDictModify",
           "package": "witness",
@@ -1468,6 +1595,7 @@
         "index": {
           "description": "Modify the first value in the dictionary that matches particular witness",
           "hierarchy": "Data Witness WitnessDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessDict",
           "name": "witnessDictModify",
           "normalized": "a b-\u003e(b-\u003eb)-\u003eWitnessDict a-\u003eWitnessDict a",
@@ -1484,6 +1612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the first entry in the dictionary that matches the given witness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessDict",
           "name": "witnessDictRemove",
           "package": "witness",
@@ -1494,6 +1623,7 @@
         "index": {
           "description": "Remove the first entry in the dictionary that matches the given witness",
           "hierarchy": "Data Witness WitnessDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessDict",
           "name": "witnessDictRemove",
           "normalized": "a b-\u003eWitnessDict a-\u003eWitnessDict a",
@@ -1510,6 +1640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the first value in the dictionary that matches the witness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessDict",
           "name": "witnessDictReplace",
           "package": "witness",
@@ -1520,6 +1651,7 @@
         "index": {
           "description": "Replace the first value in the dictionary that matches the witness",
           "hierarchy": "Data Witness WitnessDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessDict",
           "name": "witnessDictReplace",
           "normalized": "a b-\u003eb-\u003eWitnessDict a-\u003eWitnessDict a",
@@ -1535,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessFDict",
           "name": "WitnessFDict",
           "package": "witness",
@@ -1543,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Data Witness WitnessFDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessFDict",
           "name": "WitnessFDict",
           "package": "witness",
@@ -1557,6 +1691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA dictionary that is heterogenous up to its simple witness type \u003ccode\u003ew\u003c/code\u003e. \n Witnesses are the keys of the dictionary, and the values they witness are the values of the dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessFDict",
           "name": "WitnessFDict",
           "package": "witness",
@@ -1566,6 +1701,7 @@
         "index": {
           "description": "dictionary that is heterogenous up to its simple witness type Witnesses are the keys of the dictionary and the values they witness are the values of the dictionary",
           "hierarchy": "Data Witness WitnessFDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessFDict",
           "name": "WitnessFDict",
           "package": "witness",
@@ -1579,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessFDict",
           "name": "MkWitnessFDict",
           "package": "witness",
@@ -1588,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "Data Witness WitnessFDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessFDict",
           "name": "MkWitnessFDict",
           "normalized": "MkWitnessFDict[AnyF a b]",
@@ -1604,6 +1742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessFDict",
           "name": "emptyWitnessFDict",
           "package": "witness",
@@ -1614,6 +1753,7 @@
         "index": {
           "description": "An empty dictionary",
           "hierarchy": "Data Witness WitnessFDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessFDict",
           "name": "emptyWitnessFDict",
           "package": "witness",
@@ -1628,6 +1768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a witness and value as the first entry in the dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessFDict",
           "name": "witnessFDictAdd",
           "package": "witness",
@@ -1638,6 +1779,7 @@
         "index": {
           "description": "Add witness and value as the first entry in the dictionary",
           "hierarchy": "Data Witness WitnessFDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessFDict",
           "name": "witnessFDictAdd",
           "normalized": "a b-\u003ec b-\u003eWitnessFDict a c-\u003eWitnessFDict a c",
@@ -1654,6 +1796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a dictionary from a list of witness/value pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessFDict",
           "name": "witnessFDictFromList",
           "package": "witness",
@@ -1664,6 +1807,7 @@
         "index": {
           "description": "Create dictionary from list of witness value pairs",
           "hierarchy": "Data Witness WitnessFDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessFDict",
           "name": "witnessFDictFromList",
           "normalized": "[AnyF a b]-\u003eWitnessFDict a b",
@@ -1680,6 +1824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up the first value in the dictionary that matches the given witness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessFDict",
           "name": "witnessFDictLookup",
           "package": "witness",
@@ -1690,6 +1835,7 @@
         "index": {
           "description": "Look up the first value in the dictionary that matches the given witness",
           "hierarchy": "Data Witness WitnessFDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessFDict",
           "name": "witnessFDictLookup",
           "normalized": "a b-\u003eWitnessFDict a c-\u003eMaybe(c b)",
@@ -1706,6 +1852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the first value in the dictionary that matches a particular witness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessFDict",
           "name": "witnessFDictModify",
           "package": "witness",
@@ -1716,6 +1863,7 @@
         "index": {
           "description": "Modify the first value in the dictionary that matches particular witness",
           "hierarchy": "Data Witness WitnessFDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessFDict",
           "name": "witnessFDictModify",
           "normalized": "a b-\u003e(c b-\u003ec b)-\u003eWitnessFDict a c-\u003eWitnessFDict a c",
@@ -1732,6 +1880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the first entry in the dictionary that matches the given witness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessFDict",
           "name": "witnessFDictRemove",
           "package": "witness",
@@ -1742,6 +1891,7 @@
         "index": {
           "description": "Remove the first entry in the dictionary that matches the given witness",
           "hierarchy": "Data Witness WitnessFDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessFDict",
           "name": "witnessFDictRemove",
           "normalized": "a b-\u003eWitnessFDict a c-\u003eWitnessFDict a c",
@@ -1758,6 +1908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the first value in the dictionary that matches the witness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness.WitnessFDict",
           "name": "witnessFDictReplace",
           "package": "witness",
@@ -1768,6 +1919,7 @@
         "index": {
           "description": "Replace the first value in the dictionary that matches the witness",
           "hierarchy": "Data Witness WitnessFDict",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness.WitnessFDict",
           "name": "witnessFDictReplace",
           "normalized": "a b-\u003ec b-\u003eWitnessFDict a c-\u003eWitnessFDict a c",
@@ -1783,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness",
           "name": "Witness",
           "package": "witness",
@@ -1791,6 +1944,7 @@
         },
         "index": {
           "hierarchy": "Data Witness",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness",
           "name": "Witness",
           "package": "witness",
@@ -1805,6 +1959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee whether two represented and witnessed types are the same.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:39:13 UTC 2014",
           "module": "Data.Witness",
           "name": "matchIs",
           "package": "witness",
@@ -1815,6 +1970,7 @@
         "index": {
           "description": "See whether two represented and witnessed types are the same",
           "hierarchy": "Data Witness",
+          "indexed": "2014-03-11T20:39:13",
           "module": "Data.Witness",
           "name": "matchIs",
           "normalized": "Type(a())-\u003eMaybe(EqualType b c)",

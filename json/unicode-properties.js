@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unicode-properties"
+        "phrase": "unicode-properties",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiCategory",
           "package": "unicode-properties",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiCategory",
           "package": "unicode-properties",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiCategory",
           "package": "unicode-properties",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiCategory",
           "package": "unicode-properties",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiAL",
           "package": "unicode-properties",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiAL",
           "package": "unicode-properties",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiAN",
           "package": "unicode-properties",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiAN",
           "package": "unicode-properties",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiB",
           "package": "unicode-properties",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiB",
           "package": "unicode-properties",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiBN",
           "package": "unicode-properties",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiBN",
           "package": "unicode-properties",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiCS",
           "package": "unicode-properties",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiCS",
           "package": "unicode-properties",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiEN",
           "package": "unicode-properties",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiEN",
           "package": "unicode-properties",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiES",
           "package": "unicode-properties",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiES",
           "package": "unicode-properties",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiET",
           "package": "unicode-properties",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiET",
           "package": "unicode-properties",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiL",
           "package": "unicode-properties",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiL",
           "package": "unicode-properties",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiLRE",
           "package": "unicode-properties",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiLRE",
           "package": "unicode-properties",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiLRO",
           "package": "unicode-properties",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiLRO",
           "package": "unicode-properties",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiNSM",
           "package": "unicode-properties",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiNSM",
           "package": "unicode-properties",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiON",
           "package": "unicode-properties",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiON",
           "package": "unicode-properties",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiPDF",
           "package": "unicode-properties",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiPDF",
           "package": "unicode-properties",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiR",
           "package": "unicode-properties",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiR",
           "package": "unicode-properties",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiRLE",
           "package": "unicode-properties",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiRLE",
           "package": "unicode-properties",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiRLO",
           "package": "unicode-properties",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiRLO",
           "package": "unicode-properties",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiS",
           "package": "unicode-properties",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiS",
           "package": "unicode-properties",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiWS",
           "package": "unicode-properties",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "BidiWS",
           "package": "unicode-properties",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "getBidiCategory",
           "package": "unicode-properties",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties BidiCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.BidiCategory",
           "name": "getBidiCategory",
           "normalized": "Char-\u003eBidiCategory",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Case",
           "name": "Case",
           "package": "unicode-properties",
@@ -510,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Case",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Case",
           "name": "Case",
           "package": "unicode-properties",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Case",
           "name": "toLowerCase",
           "package": "unicode-properties",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Case",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Case",
           "name": "toLowerCase",
           "normalized": "Char-\u003eChar",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Case",
           "name": "toTitleCase",
           "package": "unicode-properties",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Case",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Case",
           "name": "toTitleCase",
           "normalized": "Char-\u003eChar",
@@ -571,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Case",
           "name": "toUpperCase",
           "package": "unicode-properties",
@@ -580,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Case",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Case",
           "name": "toUpperCase",
           "normalized": "Char-\u003eChar",
@@ -595,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "Decomposition",
           "package": "unicode-properties",
@@ -603,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "Decomposition",
           "package": "unicode-properties",
@@ -616,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "Decomposition",
           "package": "unicode-properties",
@@ -624,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "Decomposition",
           "package": "unicode-properties",
@@ -637,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DecompositionType",
           "package": "unicode-properties",
@@ -645,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DecompositionType",
           "package": "unicode-properties",
@@ -658,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCCanonical",
           "package": "unicode-properties",
@@ -667,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCCanonical",
           "package": "unicode-properties",
@@ -680,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCCircle",
           "package": "unicode-properties",
@@ -689,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCCircle",
           "package": "unicode-properties",
@@ -702,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCCompat",
           "package": "unicode-properties",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCCompat",
           "package": "unicode-properties",
@@ -724,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCFinal",
           "package": "unicode-properties",
@@ -733,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCFinal",
           "package": "unicode-properties",
@@ -746,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCFont",
           "package": "unicode-properties",
@@ -755,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCFont",
           "package": "unicode-properties",
@@ -768,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCFraction",
           "package": "unicode-properties",
@@ -777,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCFraction",
           "package": "unicode-properties",
@@ -790,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCInitial",
           "package": "unicode-properties",
@@ -799,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCInitial",
           "package": "unicode-properties",
@@ -812,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCIsolated",
           "package": "unicode-properties",
@@ -821,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCIsolated",
           "package": "unicode-properties",
@@ -834,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCMedial",
           "package": "unicode-properties",
@@ -843,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCMedial",
           "package": "unicode-properties",
@@ -856,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCNarrow",
           "package": "unicode-properties",
@@ -865,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCNarrow",
           "package": "unicode-properties",
@@ -878,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCNoBreak",
           "package": "unicode-properties",
@@ -887,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCNoBreak",
           "package": "unicode-properties",
@@ -900,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCSmall",
           "package": "unicode-properties",
@@ -909,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCSmall",
           "package": "unicode-properties",
@@ -922,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCSquare",
           "package": "unicode-properties",
@@ -931,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCSquare",
           "package": "unicode-properties",
@@ -944,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCSub",
           "package": "unicode-properties",
@@ -953,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCSub",
           "package": "unicode-properties",
@@ -966,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCSuper",
           "package": "unicode-properties",
@@ -975,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCSuper",
           "package": "unicode-properties",
@@ -988,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCVertical",
           "package": "unicode-properties",
@@ -997,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCVertical",
           "package": "unicode-properties",
@@ -1010,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCWide",
           "package": "unicode-properties",
@@ -1019,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "DCWide",
           "package": "unicode-properties",
@@ -1032,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "MkDecomposition",
           "package": "unicode-properties",
@@ -1041,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "MkDecomposition",
           "normalized": "MkDecomposition DecompositionType[Char]",
@@ -1056,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "NoDecomposition",
           "package": "unicode-properties",
@@ -1065,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "NoDecomposition",
           "package": "unicode-properties",
@@ -1078,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "decomposeCanonical",
           "package": "unicode-properties",
@@ -1087,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "decomposeCanonical",
           "normalized": "String-\u003eString",
@@ -1102,6 +1200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "decomposeCompatibility",
           "package": "unicode-properties",
@@ -1111,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "decomposeCompatibility",
           "normalized": "String-\u003eString",
@@ -1126,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "extractDecompositionCanonical",
           "package": "unicode-properties",
@@ -1135,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "extractDecompositionCanonical",
           "normalized": "Decomposition-\u003eMaybe[Char]",
@@ -1150,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "extractDecompositionCompatibility",
           "package": "unicode-properties",
@@ -1159,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "extractDecompositionCompatibility",
           "normalized": "Decomposition-\u003eMaybe[Char]",
@@ -1174,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Decomposition",
           "name": "getDecomposition",
           "package": "unicode-properties",
@@ -1183,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Decomposition",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Decomposition",
           "name": "getDecomposition",
           "normalized": "Char-\u003eDecomposition",
@@ -1198,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GeneralCategory",
           "package": "unicode-properties",
@@ -1206,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GeneralCategory",
           "package": "unicode-properties",
@@ -1219,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GCMajorClass",
           "package": "unicode-properties",
@@ -1227,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GCMajorClass",
           "package": "unicode-properties",
@@ -1240,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GeneralCategory",
           "package": "unicode-properties",
@@ -1248,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GeneralCategory",
           "package": "unicode-properties",
@@ -1261,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "ClLetter",
           "package": "unicode-properties",
@@ -1270,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "ClLetter",
           "package": "unicode-properties",
@@ -1283,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "ClMark",
           "package": "unicode-properties",
@@ -1292,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "ClMark",
           "package": "unicode-properties",
@@ -1305,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "ClNumber",
           "package": "unicode-properties",
@@ -1314,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "ClNumber",
           "package": "unicode-properties",
@@ -1327,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "ClOther",
           "package": "unicode-properties",
@@ -1336,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "ClOther",
           "package": "unicode-properties",
@@ -1349,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "ClPunctuation",
           "package": "unicode-properties",
@@ -1358,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "ClPunctuation",
           "package": "unicode-properties",
@@ -1371,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "ClSeparator",
           "package": "unicode-properties",
@@ -1380,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "ClSeparator",
           "package": "unicode-properties",
@@ -1393,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "ClSymbol",
           "package": "unicode-properties",
@@ -1402,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "ClSymbol",
           "package": "unicode-properties",
@@ -1415,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcCc",
           "package": "unicode-properties",
@@ -1424,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcCc",
           "package": "unicode-properties",
@@ -1437,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcCf",
           "package": "unicode-properties",
@@ -1446,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcCf",
           "package": "unicode-properties",
@@ -1459,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcCn",
           "package": "unicode-properties",
@@ -1468,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcCn",
           "package": "unicode-properties",
@@ -1481,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcCo",
           "package": "unicode-properties",
@@ -1490,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcCo",
           "package": "unicode-properties",
@@ -1503,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcCs",
           "package": "unicode-properties",
@@ -1512,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcCs",
           "package": "unicode-properties",
@@ -1525,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcLl",
           "package": "unicode-properties",
@@ -1534,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcLl",
           "package": "unicode-properties",
@@ -1547,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcLm",
           "package": "unicode-properties",
@@ -1556,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcLm",
           "package": "unicode-properties",
@@ -1569,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcLo",
           "package": "unicode-properties",
@@ -1578,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcLo",
           "package": "unicode-properties",
@@ -1591,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcLt",
           "package": "unicode-properties",
@@ -1600,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcLt",
           "package": "unicode-properties",
@@ -1613,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcLu",
           "package": "unicode-properties",
@@ -1622,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcLu",
           "package": "unicode-properties",
@@ -1635,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcMc",
           "package": "unicode-properties",
@@ -1644,6 +1791,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcMc",
           "package": "unicode-properties",
@@ -1657,6 +1805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcMe",
           "package": "unicode-properties",
@@ -1666,6 +1815,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcMe",
           "package": "unicode-properties",
@@ -1679,6 +1829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcMn",
           "package": "unicode-properties",
@@ -1688,6 +1839,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcMn",
           "package": "unicode-properties",
@@ -1701,6 +1853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcNd",
           "package": "unicode-properties",
@@ -1710,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcNd",
           "package": "unicode-properties",
@@ -1723,6 +1877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcNl",
           "package": "unicode-properties",
@@ -1732,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcNl",
           "package": "unicode-properties",
@@ -1745,6 +1901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcNo",
           "package": "unicode-properties",
@@ -1754,6 +1911,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcNo",
           "package": "unicode-properties",
@@ -1767,6 +1925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcPc",
           "package": "unicode-properties",
@@ -1776,6 +1935,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcPc",
           "package": "unicode-properties",
@@ -1789,6 +1949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcPd",
           "package": "unicode-properties",
@@ -1798,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcPd",
           "package": "unicode-properties",
@@ -1811,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcPe",
           "package": "unicode-properties",
@@ -1820,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcPe",
           "package": "unicode-properties",
@@ -1833,6 +1997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcPf",
           "package": "unicode-properties",
@@ -1842,6 +2007,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcPf",
           "package": "unicode-properties",
@@ -1855,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcPi",
           "package": "unicode-properties",
@@ -1864,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcPi",
           "package": "unicode-properties",
@@ -1877,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcPo",
           "package": "unicode-properties",
@@ -1886,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcPo",
           "package": "unicode-properties",
@@ -1899,6 +2069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcPs",
           "package": "unicode-properties",
@@ -1908,6 +2079,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcPs",
           "package": "unicode-properties",
@@ -1921,6 +2093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcSc",
           "package": "unicode-properties",
@@ -1930,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcSc",
           "package": "unicode-properties",
@@ -1943,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcSk",
           "package": "unicode-properties",
@@ -1952,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcSk",
           "package": "unicode-properties",
@@ -1965,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcSm",
           "package": "unicode-properties",
@@ -1974,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcSm",
           "package": "unicode-properties",
@@ -1987,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcSo",
           "package": "unicode-properties",
@@ -1996,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcSo",
           "package": "unicode-properties",
@@ -2009,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcZl",
           "package": "unicode-properties",
@@ -2018,6 +2199,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcZl",
           "package": "unicode-properties",
@@ -2031,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcZp",
           "package": "unicode-properties",
@@ -2040,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcZp",
           "package": "unicode-properties",
@@ -2053,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcZs",
           "package": "unicode-properties",
@@ -2062,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "GcZs",
           "package": "unicode-properties",
@@ -2075,6 +2261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "gcMajorClass",
           "package": "unicode-properties",
@@ -2084,6 +2271,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "gcMajorClass",
           "normalized": "GeneralCategory-\u003eGCMajorClass",
@@ -2099,6 +2287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "getGeneralCategory",
           "package": "unicode-properties",
@@ -2108,6 +2297,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties GeneralCategory",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.GeneralCategory",
           "name": "getGeneralCategory",
           "normalized": "Char-\u003eGeneralCategory",
@@ -2123,6 +2313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "Misc",
           "package": "unicode-properties",
@@ -2131,6 +2322,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "Misc",
           "package": "unicode-properties",
@@ -2144,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "getCombiningClass",
           "package": "unicode-properties",
@@ -2153,6 +2346,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "getCombiningClass",
           "normalized": "Char-\u003eWord",
@@ -2168,6 +2362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "getDecimalDigit",
           "package": "unicode-properties",
@@ -2177,6 +2372,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "getDecimalDigit",
           "normalized": "Char-\u003eMaybe Word",
@@ -2192,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "getDigit",
           "package": "unicode-properties",
@@ -2201,6 +2398,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "getDigit",
           "normalized": "Char-\u003eMaybe Word",
@@ -2216,6 +2414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "getNumber",
           "package": "unicode-properties",
@@ -2225,6 +2424,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "getNumber",
           "normalized": "Char-\u003eMaybe Rational",
@@ -2241,6 +2441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eASCII characters commonly used for the representation of hexadecimal numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isASCIIHexDigit",
           "package": "unicode-properties",
@@ -2251,6 +2452,7 @@
         "index": {
           "description": "ASCII characters commonly used for the representation of hexadecimal numbers",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isASCIIHexDigit",
           "normalized": "Char-\u003eBool",
@@ -2267,6 +2469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters with the Alphabetic property. For more information, see Chapter 4, Character Properties.\n\u003c/p\u003e\u003cp\u003eAlphabetic = Lu+Ll+Lt+Lm+Lo+ Other_Alphabetic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isAlphabetic",
           "package": "unicode-properties",
@@ -2277,6 +2480,7 @@
         "index": {
           "description": "Characters with the Alphabetic property For more information see Chapter Character Properties Alphabetic Lu Ll Lt Lm Lo Other Alphabetic",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isAlphabetic",
           "normalized": "Char-\u003eBool",
@@ -2293,6 +2497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThose format control characters which have specific functions in the Bidirectional Algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isBidiControl",
           "package": "unicode-properties",
@@ -2303,6 +2508,7 @@
         "index": {
           "description": "Those format control characters which have specific functions in the Bidirectional Algorithm",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isBidiControl",
           "normalized": "Char-\u003eBool",
@@ -2319,6 +2525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombining Grapheme Joiner character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isCGJ",
           "package": "unicode-properties",
@@ -2329,6 +2536,7 @@
         "index": {
           "description": "Combining Grapheme Joiner character",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isCGJ",
           "normalized": "Char-\u003eBool",
@@ -2345,6 +2553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThose punctuation characters explicitly called out as dashes in the Unicode Standard, plus compatibility equivalents to those. Most of these have the Pd General Category, but some have the Sm General Category because of their use in mathematics.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isDash",
           "package": "unicode-properties",
@@ -2355,6 +2564,7 @@
         "index": {
           "description": "Those punctuation characters explicitly called out as dashes in the Unicode Standard plus compatibility equivalents to those Most of these have the Pd General Category but some have the Sm General Category because of their use in mathematics",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isDash",
           "normalized": "Char-\u003eBool",
@@ -2371,6 +2581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor programmatic determination of default-ignorable code points. New characters that should be ignored in processing (unless explicitly supported) will be assigned in these ranges, permitting programs to correctly handle the default behavior of such characters when not otherwise supported. For more information, see UTR #29: Text Boundaries (in proposed draft status at release time for Unicode 3.2).\n\u003c/p\u003e\u003cp\u003eDefault_Ignorable_Code_Point = Other_Default_Ignorable_Code_Point + Cf + Cc + Cs - White_Space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isDefaultIgnorableCodePoint",
           "package": "unicode-properties",
@@ -2381,6 +2592,7 @@
         "index": {
           "description": "For programmatic determination of default-ignorable code points New characters that should be ignored in processing unless explicitly supported will be assigned in these ranges permitting programs to correctly handle the default behavior of such characters when not otherwise supported For more information see UTR Text Boundaries in proposed draft status at release time for Unicode Default Ignorable Code Point Other Default Ignorable Code Point Cf Cc Cs White Space",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isDefaultIgnorableCodePoint",
           "normalized": "Char-\u003eBool",
@@ -2397,6 +2609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a machine-readable list of deprecated characters. No characters will ever be removed from the standard, but the usage of deprecated characters is strongly discouraged.  For more information, see Unicode 3.2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isDeprecated",
           "package": "unicode-properties",
@@ -2407,6 +2620,7 @@
         "index": {
           "description": "For machine-readable list of deprecated characters No characters will ever be removed from the standard but the usage of deprecated characters is strongly discouraged For more information see Unicode",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isDeprecated",
           "normalized": "Char-\u003eBool",
@@ -2423,6 +2637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters that linguistically modify the meaning of another character to which they apply. Some diacritics are not combining characters, and some combining characters are not diacritics.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isDiacritic",
           "package": "unicode-properties",
@@ -2433,6 +2648,7 @@
         "index": {
           "description": "Characters that linguistically modify the meaning of another character to which they apply Some diacritics are not combining characters and some combining characters are not diacritics",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isDiacritic",
           "normalized": "Char-\u003eBool",
@@ -2449,6 +2665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters whose principal function is to extend the value or shape of a preceding alphabetic character. Typical of these are length and iteration marks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isExtender",
           "package": "unicode-properties",
@@ -2459,6 +2676,7 @@
         "index": {
           "description": "Characters whose principal function is to extend the value or shape of preceding alphabetic character Typical of these are length and iteration marks",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isExtender",
           "normalized": "Char-\u003eBool",
@@ -2475,6 +2693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor programmatic determination of grapheme cluster boundaries. For more information, see UTR #29: Text Boundaries (in proposed draft status at publication of Unicode 3.2).\n\u003c/p\u003e\u003cp\u003eGrapheme_Base = [0..10FFFF] - Cc - Cf - Cs - Co - Cn - Zl - Zp - Grapheme_Extend - Grapheme_Link - CGJ.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isGraphemeBase",
           "package": "unicode-properties",
@@ -2485,6 +2704,7 @@
         "index": {
           "description": "For programmatic determination of grapheme cluster boundaries For more information see UTR Text Boundaries in proposed draft status at publication of Unicode Grapheme Base FFFF Cc Cf Cs Co Cn Zl Zp Grapheme Extend Grapheme Link CGJ",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isGraphemeBase",
           "normalized": "Char-\u003eBool",
@@ -2501,6 +2721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor programmatic determination of grapheme cluster boundaries. For more information, see UTR #29: Text Boundaries (in proposed draft status at publication of Unicode 3.2).\n\u003c/p\u003e\u003cp\u003eGrapheme_Extend = Me + Mn + Mc + Other_Grapheme_Extend - Grapheme_Link - CGJ.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isGraphemeExtend",
           "package": "unicode-properties",
@@ -2511,6 +2732,7 @@
         "index": {
           "description": "For programmatic determination of grapheme cluster boundaries For more information see UTR Text Boundaries in proposed draft status at publication of Unicode Grapheme Extend Me Mn Mc Other Grapheme Extend Grapheme Link CGJ",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isGraphemeExtend",
           "normalized": "Char-\u003eBool",
@@ -2527,6 +2749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in determining default grapheme cluster boundaries.  For more information, see UTR #29: Text Boundaries (in proposed draft status at publication of Unicode 3.2).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isGraphemeLink",
           "package": "unicode-properties",
@@ -2537,6 +2760,7 @@
         "index": {
           "description": "Used in determining default grapheme cluster boundaries For more information see UTR Text Boundaries in proposed draft status at publication of Unicode",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isGraphemeLink",
           "normalized": "Char-\u003eBool",
@@ -2553,6 +2777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters commonly used for the representation of hexadecimal numbers, plus their compatibility equivalents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isHexDigit",
           "package": "unicode-properties",
@@ -2563,6 +2788,7 @@
         "index": {
           "description": "Characters commonly used for the representation of hexadecimal numbers plus their compatibility equivalents",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isHexDigit",
           "normalized": "Char-\u003eBool",
@@ -2579,6 +2805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThose dashes used to mark connections between pieces of words, plus the Katakana middle dot. The Katakana middle dot functions like a hyphen, but is shaped like a dot rather than a dash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isHyphen",
           "package": "unicode-properties",
@@ -2589,6 +2816,7 @@
         "index": {
           "description": "Those dashes used to mark connections between pieces of words plus the Katakana middle dot The Katakana middle dot functions like hyphen but is shaped like dot rather than dash",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isHyphen",
           "normalized": "Char-\u003eBool",
@@ -2605,6 +2833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters that can continue an identifier. See Cf Note.\n\u003c/p\u003e\u003cp\u003eID_Continue = ID_Start + Mn+Mc+Nd+Pc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isIDContinue",
           "package": "unicode-properties",
@@ -2615,6 +2844,7 @@
         "index": {
           "description": "Characters that can continue an identifier See Cf Note ID Continue ID Start Mn Mc Nd Pc",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isIDContinue",
           "normalized": "Char-\u003eBool",
@@ -2631,6 +2861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a machine-readable list of Ideographic Description Sequences.  For more information, see Unicode 3.2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isIDSBinaryOperator",
           "package": "unicode-properties",
@@ -2641,6 +2872,7 @@
         "index": {
           "description": "For machine-readable list of Ideographic Description Sequences For more information see Unicode",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isIDSBinaryOperator",
           "normalized": "Char-\u003eBool",
@@ -2657,6 +2889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a machine-readable list of Ideographic Description Sequences.  For more information, see Unicode 3.2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isIDSTrinaryOperator",
           "package": "unicode-properties",
@@ -2667,6 +2900,7 @@
         "index": {
           "description": "For machine-readable list of Ideographic Description Sequences For more information see Unicode",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isIDSTrinaryOperator",
           "normalized": "Char-\u003eBool",
@@ -2683,6 +2917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters that can start an identifier.\n\u003c/p\u003e\u003cp\u003eID_Start = Lu+Ll+Lt+Lm+Lo+Nl.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isIDStart",
           "package": "unicode-properties",
@@ -2693,6 +2928,7 @@
         "index": {
           "description": "Characters that can start an identifier ID Start Lu Ll Lt Lm Lo Nl",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isIDStart",
           "normalized": "Char-\u003eBool",
@@ -2709,6 +2945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters considered to be CJKV (Chinese, Japanese, Korean, and Vietnamese) ideographs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isIdeographic",
           "package": "unicode-properties",
@@ -2719,6 +2956,7 @@
         "index": {
           "description": "Characters considered to be CJKV Chinese Japanese Korean and Vietnamese ideographs",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isIdeographic",
           "normalized": "Char-\u003eBool",
@@ -2735,6 +2973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThose format control characters which have specific functions for control of cursive joining and ligation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isJoinControl",
           "package": "unicode-properties",
@@ -2745,6 +2984,7 @@
         "index": {
           "description": "Those format control characters which have specific functions for control of cursive joining and ligation",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isJoinControl",
           "normalized": "Char-\u003eBool",
@@ -2760,6 +3000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isLineBreak",
           "package": "unicode-properties",
@@ -2769,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isLineBreak",
           "normalized": "Char-\u003eBool",
@@ -2785,6 +3027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere are a small number of characters that do not use logical order. These characters require special handling in most processing.  For more information, see Unicode 3.2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isLogicalOrderException",
           "package": "unicode-properties",
@@ -2795,6 +3038,7 @@
         "index": {
           "description": "There are small number of characters that do not use logical order These characters require special handling in most processing For more information see Unicode",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isLogicalOrderException",
           "normalized": "Char-\u003eBool",
@@ -2811,6 +3055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters with the Lowercase property. For more information, see Chapter 4, Character Properties and UAX #21: Case Mappings.\n\u003c/p\u003e\u003cp\u003eLowercase = Ll + Other_Lowercase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isLowercase",
           "package": "unicode-properties",
@@ -2821,6 +3066,7 @@
         "index": {
           "description": "Characters with the Lowercase property For more information see Chapter Character Properties and UAX Case Mappings Lowercase Ll Other Lowercase",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isLowercase",
           "normalized": "Char-\u003eBool",
@@ -2837,6 +3083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters with the Math property. For more information, see Chapter 4, Character Properties.\n\u003c/p\u003e\u003cp\u003eMath = Sm + Other_Math.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isMath",
           "package": "unicode-properties",
@@ -2847,6 +3094,7 @@
         "index": {
           "description": "Characters with the Math property For more information see Chapter Character Properties Math Sm Other Math",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isMath",
           "normalized": "Char-\u003eBool",
@@ -2862,6 +3110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isMirrored",
           "package": "unicode-properties",
@@ -2871,6 +3120,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isMirrored",
           "normalized": "Char-\u003eBool",
@@ -2887,6 +3137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCode points that are explicitly defined as illegal for the encoding of characters. See Unicode 3.1 for more information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isNoncharacterCodePoint",
           "package": "unicode-properties",
@@ -2897,6 +3148,7 @@
         "index": {
           "description": "Code points that are explicitly defined as illegal for the encoding of characters See Unicode for more information",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isNoncharacterCodePoint",
           "normalized": "Char-\u003eBool",
@@ -2913,6 +3165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in deriving the Alphabetic property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isOtherAlphabetic",
           "package": "unicode-properties",
@@ -2923,6 +3176,7 @@
         "index": {
           "description": "Used in deriving the Alphabetic property",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isOtherAlphabetic",
           "normalized": "Char-\u003eBool",
@@ -2939,6 +3193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in deriving the Default_Ignorable_Code_Point property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isOtherDefaultIgnorableCodePoint",
           "package": "unicode-properties",
@@ -2949,6 +3204,7 @@
         "index": {
           "description": "Used in deriving the Default Ignorable Code Point property",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isOtherDefaultIgnorableCodePoint",
           "normalized": "Char-\u003eBool",
@@ -2965,6 +3221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in deriving  the Grapheme_Extend property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isOtherGraphemeExtend",
           "package": "unicode-properties",
@@ -2975,6 +3232,7 @@
         "index": {
           "description": "Used in deriving the Grapheme Extend property",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isOtherGraphemeExtend",
           "normalized": "Char-\u003eBool",
@@ -2991,6 +3249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in deriving the Lowercase property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isOtherLowercase",
           "package": "unicode-properties",
@@ -3001,6 +3260,7 @@
         "index": {
           "description": "Used in deriving the Lowercase property",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isOtherLowercase",
           "normalized": "Char-\u003eBool",
@@ -3017,6 +3277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in deriving the Math property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isOtherMath",
           "package": "unicode-properties",
@@ -3027,6 +3288,7 @@
         "index": {
           "description": "Used in deriving the Math property",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isOtherMath",
           "normalized": "Char-\u003eBool",
@@ -3043,6 +3305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in deriving the Uppercase property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isOtherUppercase",
           "package": "unicode-properties",
@@ -3053,6 +3316,7 @@
         "index": {
           "description": "Used in deriving the Uppercase property",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isOtherUppercase",
           "normalized": "Char-\u003eBool",
@@ -3069,6 +3333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThose punctuation characters that function as quotation marks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isQuotationMark",
           "package": "unicode-properties",
@@ -3079,6 +3344,7 @@
         "index": {
           "description": "Those punctuation characters that function as quotation marks",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isQuotationMark",
           "normalized": "Char-\u003eBool",
@@ -3095,6 +3361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a machine-readable list of Ideographic Description Sequences.  For more information, see Unicode 3.2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isRadical",
           "package": "unicode-properties",
@@ -3105,6 +3372,7 @@
         "index": {
           "description": "For machine-readable list of Ideographic Description Sequences For more information see Unicode",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isRadical",
           "normalized": "Char-\u003eBool",
@@ -3121,6 +3389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters with a \"soft dot\", like i or j. An accent placed on these characters causes the dot to disappear. An explicit dot above can be added where required, such as in Lithuanian.  For more information, see Unicode 3.0, Chapter 7, Diacritics on i and j\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isSoftDotted",
           "package": "unicode-properties",
@@ -3131,6 +3400,7 @@
         "index": {
           "description": "Characters with soft dot like or An accent placed on these characters causes the dot to disappear An explicit dot above can be added where required such as in Lithuanian For more information see Unicode Chapter Diacritics on and",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isSoftDotted",
           "normalized": "Char-\u003eBool",
@@ -3147,6 +3417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThose punctuation characters that generally mark the end of textual units.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isTerminalPunctuation",
           "package": "unicode-properties",
@@ -3157,6 +3428,7 @@
         "index": {
           "description": "Those punctuation characters that generally mark the end of textual units",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isTerminalPunctuation",
           "normalized": "Char-\u003eBool",
@@ -3173,6 +3445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the general category is Lt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isTitlecase",
           "package": "unicode-properties",
@@ -3183,6 +3456,7 @@
         "index": {
           "description": "Returns true if the general category is Lt",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isTitlecase",
           "normalized": "Char-\u003eBool",
@@ -3199,6 +3473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a machine-readable list of Ideographic Description Sequences.  For more information, see Unicode 3.2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isUnifiedIdeograph",
           "package": "unicode-properties",
@@ -3209,6 +3484,7 @@
         "index": {
           "description": "For machine-readable list of Ideographic Description Sequences For more information see Unicode",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isUnifiedIdeograph",
           "normalized": "Char-\u003eBool",
@@ -3225,6 +3501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacters with the Uppercase property. For more information, see Chapter 4, Character Properties and UAX #21: Case Mappings.\n\u003c/p\u003e\u003cp\u003eUppercase = Lu + Other_Uppercase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isUppercase",
           "package": "unicode-properties",
@@ -3235,6 +3512,7 @@
         "index": {
           "description": "Characters with the Uppercase property For more information see Chapter Character Properties and UAX Case Mappings Uppercase Lu Other Uppercase",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isUppercase",
           "normalized": "Char-\u003eBool",
@@ -3251,6 +3529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpace characters and those format control characters (such as TAB, CR and LF) which should be treated by programming languages as \"white space\" for the purpose of parsing elements.  Note: ZERO WIDTH SPACE and ZERO WIDTH NO-BREAK SPACE are not included, since their functions are restricted to line-break control. Their names are unfortunately misleading in this respect.  Note: There are other senses of \"whitespace\" that encompass a different set of characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties.Misc",
           "name": "isWhiteSpace",
           "package": "unicode-properties",
@@ -3261,6 +3540,7 @@
         "index": {
           "description": "Space characters and those format control characters such as TAB CR and LF which should be treated by programming languages as white space for the purpose of parsing elements Note ZERO WIDTH SPACE and ZERO WIDTH NO-BREAK SPACE are not included since their functions are restricted to line-break control Their names are unfortunately misleading in this respect Note There are other senses of whitespace that encompass different set of characters",
           "hierarchy": "Data Char Properties Misc",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties.Misc",
           "name": "isWhiteSpace",
           "normalized": "Char-\u003eBool",
@@ -3276,6 +3556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties",
           "name": "Properties",
           "package": "unicode-properties",
@@ -3284,6 +3565,7 @@
         },
         "index": {
           "hierarchy": "Data Char Properties",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties",
           "name": "Properties",
           "package": "unicode-properties",
@@ -3298,6 +3580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is Unicode version 3.2.0 or later.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties",
           "name": "Version_Unicode_AtLeast_3_2_0",
           "package": "unicode-properties",
@@ -3307,6 +3590,7 @@
         "index": {
           "description": "This is Unicode version or later",
           "hierarchy": "Data Char Properties",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties",
           "name": "Version_Unicode_AtLeast_3_2_0",
           "package": "unicode-properties",
@@ -3321,6 +3605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is Unicode version 3.2.0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties",
           "name": "Version_Unicode_Exactly_3_2_0",
           "package": "unicode-properties",
@@ -3330,6 +3615,7 @@
         "index": {
           "description": "This is Unicode version",
           "hierarchy": "Data Char Properties",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties",
           "name": "Version_Unicode_Exactly_3_2_0",
           "package": "unicode-properties",
@@ -3344,6 +3630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the Unicode version. ([3,2,0])\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:51 UTC 2014",
           "module": "Data.Char.Properties",
           "name": "version_Unicode",
           "package": "unicode-properties",
@@ -3354,6 +3641,7 @@
         "index": {
           "description": "This is the Unicode version",
           "hierarchy": "Data Char Properties",
+          "indexed": "2014-03-11T20:29:51",
           "module": "Data.Char.Properties",
           "name": "version_Unicode",
           "normalized": "[Int]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Pollutocracy"
+        "phrase": "Pollutocracy",
+        "type": "phrase"
       },
       "type": "context"
     }

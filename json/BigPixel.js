@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BigPixel"
+        "phrase": "BigPixel",
+        "type": "phrase"
       },
       "type": "context"
     }

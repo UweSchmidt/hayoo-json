@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "binembed"
+        "phrase": "binembed",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport code used by the output of \u003ccode\u003ebinembed --output-hs=\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example, given \u003ccode\u003eMyData.binembed\u003c/code\u003e listing some files, you might\n get at the contents embedded into your executable using:\n\u003c/p\u003e\u003cpre\u003e import MyData   -- which re-exports this module\n main = do\n   myData' \u003c- unBinEmbed myData\n   ...\n\u003c/pre\u003e\u003cp\u003eSee the 'binembed-example' package for a more detailed example.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:21:59 UTC 2014",
           "module": "Data.BinEmbed",
           "name": "BinEmbed",
           "package": "binembed",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Support code used by the output of binembed output-hs For example given MyData.binembed listing some files you might get at the contents embedded into your executable using import MyData which re-exports this module main do myData unBinEmbed myData See the binembed-example package for more detailed example",
           "hierarchy": "Data BinEmbed",
+          "indexed": "2014-03-11T17:21:59",
           "module": "Data.BinEmbed",
           "name": "BinEmbed",
           "package": "binembed",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA directory tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:59 UTC 2014",
           "module": "Data.BinEmbed",
           "name": "Node",
           "package": "binembed",
@@ -51,6 +54,7 @@
         "index": {
           "description": "directory tree",
           "hierarchy": "Data BinEmbed",
+          "indexed": "2014-03-11T17:21:59",
           "module": "Data.BinEmbed",
           "name": "Node",
           "package": "binembed",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA directory has named \u003ccode\u003eNode\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:59 UTC 2014",
           "module": "Data.BinEmbed",
           "name": "Dir",
           "package": "binembed",
@@ -75,6 +80,7 @@
         "index": {
           "description": "directory has named Node",
           "hierarchy": "Data BinEmbed",
+          "indexed": "2014-03-11T17:21:59",
           "module": "Data.BinEmbed",
           "name": "Dir",
           "package": "binembed",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file has contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:59 UTC 2014",
           "module": "Data.BinEmbed",
           "name": "File",
           "package": "binembed",
@@ -99,6 +106,7 @@
         "index": {
           "description": "file has contents",
           "hierarchy": "Data BinEmbed",
+          "indexed": "2014-03-11T17:21:59",
           "module": "Data.BinEmbed",
           "name": "File",
           "package": "binembed",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack embedded data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:59 UTC 2014",
           "module": "Data.BinEmbed",
           "name": "unBinEmbed",
           "package": "binembed",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Unpack embedded data",
           "hierarchy": "Data BinEmbed",
+          "indexed": "2014-03-11T17:21:59",
           "module": "Data.BinEmbed",
           "name": "unBinEmbed",
           "normalized": "Node(IO ByteString)-\u003eIO(Node ByteString)",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepack the contents between two pointers.  Your code probably\n   doesn't need to call this, but it's needed in generated code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:59 UTC 2014",
           "module": "Data.BinEmbed",
           "name": "unBinEmbedFile",
           "package": "binembed",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Repack the contents between two pointers Your code probably doesn need to call this but it needed in generated code",
           "hierarchy": "Data BinEmbed",
+          "indexed": "2014-03-11T17:21:59",
           "module": "Data.BinEmbed",
           "name": "unBinEmbedFile",
           "normalized": "Ptr()-\u003ePtr()-\u003eIO ByteString",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport code to use \u003ccode\u003ebinembed\u003c/code\u003e as a pre-processor in Cabal.  For\n example, your \u003ccode\u003eSetup.hs\u003c/code\u003e might look like:\n\u003c/p\u003e\u003cpre\u003e import Distribution.Simple\n import Distribution.Simple.BinEmbed\n main = defaultMainWithHooks (withBinEmbed simpleUserHooks)\n\u003c/pre\u003e\u003cp\u003eSee the 'binembed-example' package for a more detailed example.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:21:59 UTC 2014",
           "module": "Distribution.Simple.BinEmbed",
           "name": "BinEmbed",
           "package": "binembed",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Support code to use binembed as pre-processor in Cabal For example your Setup.hs might look like import Distribution.Simple import Distribution.Simple.BinEmbed main defaultMainWithHooks withBinEmbed simpleUserHooks See the binembed-example package for more detailed example",
           "hierarchy": "Distribution Simple BinEmbed",
+          "indexed": "2014-03-11T17:21:59",
           "module": "Distribution.Simple.BinEmbed",
           "name": "BinEmbed",
           "package": "binembed",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd hooks to use \u003ccode\u003ebinembed\u003c/code\u003e as a pre-processor, with input files\n   having the file name extension \u003ccode\u003e.binembed\u003c/code\u003e.  These hooks also\n   handle building the assembly output of \u003ccode\u003ebinembed\u003c/code\u003e, as well as\n   cleaning it up afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:59 UTC 2014",
           "module": "Distribution.Simple.BinEmbed",
           "name": "withBinEmbed",
           "package": "binembed",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Add hooks to use binembed as pre-processor with input files having the file name extension binembed These hooks also handle building the assembly output of binembed as well as cleaning it up afterwards",
           "hierarchy": "Distribution Simple BinEmbed",
+          "indexed": "2014-03-11T17:21:59",
           "module": "Distribution.Simple.BinEmbed",
           "name": "withBinEmbed",
           "normalized": "UserHooks-\u003eUserHooks",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gtksourceview3"
+        "phrase": "gtksourceview3",
+        "type": "phrase"
       },
       "type": "context"
     }

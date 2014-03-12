@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Hs2lib"
+        "phrase": "Hs2lib",
+        "type": "phrase"
       },
       "type": "context"
     }

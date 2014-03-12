@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "coroutine-object"
+        "phrase": "coroutine-object",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIO event driverzo\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "Driver",
           "package": "coroutine-object",
@@ -28,6 +29,7 @@
         "index": {
           "description": "IO event driverzo",
           "hierarchy": "Control Monad Trans Crtn Driver",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "Driver",
           "package": "coroutine-object",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edriver \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "Driver",
           "package": "coroutine-object",
@@ -51,6 +54,7 @@
         "index": {
           "description": "driver",
           "hierarchy": "Control Monad Trans Crtn Driver",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "Driver",
           "package": "coroutine-object",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edriver client \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "DrvClient",
           "package": "coroutine-object",
@@ -74,6 +79,7 @@
         "index": {
           "description": "driver client",
           "hierarchy": "Control Monad Trans Crtn Driver",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "DrvClient",
           "package": "coroutine-object",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esignature of IO event driver\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "DrvOp",
           "package": "coroutine-object",
@@ -97,6 +104,7 @@
         "index": {
           "description": "signature of IO event driver",
           "hierarchy": "Control Monad Trans Crtn Driver",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "DrvOp",
           "package": "coroutine-object",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "Dispatch",
           "package": "coroutine-object",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Driver",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "Dispatch",
           "package": "coroutine-object",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "dispatch",
           "package": "coroutine-object",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Driver",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "dispatch",
           "normalized": "a-\u003eDrvClient a b(Maybe(ActionOrder a))",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebasic driver \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "driver",
           "package": "coroutine-object",
@@ -166,6 +179,7 @@
         "index": {
           "description": "basic driver",
           "hierarchy": "Control Monad Trans Crtn Driver",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "driver",
           "normalized": "LogServer(SObjBT(DrvOp a)b)()-\u003eSObjT(WorldOp a(SObjBT(DrvOp a)b))(SObjBT(DrvOp a)b)()-\u003eDriver a b()",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvenience routine for driver \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "fire",
           "package": "coroutine-object",
@@ -191,6 +206,7 @@
         "index": {
           "description": "convenience routine for driver",
           "hierarchy": "Control Monad Trans Crtn Driver",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "fire",
           "normalized": "a-\u003eEStT(Driver a b())b(Maybe(ActionOrder a))",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea single feedback step of multiple event dispatch\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "multiDispatch",
           "package": "coroutine-object",
@@ -216,6 +233,7 @@
         "index": {
           "description": "single feedback step of multiple event dispatch",
           "hierarchy": "Control Monad Trans Crtn Driver",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "multiDispatch",
           "normalized": "(LogServer(SObjBT(DrvOp a)b)(),World a(SObjBT(DrvOp a)b)())-\u003e[EvOrAct a]-\u003eSObjBT(DrvOp a)b(LogServer(SObjBT(DrvOp a)b)(),World a(SObjBT(DrvOp a)b)(),[EvOrAct a])",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efull multiple event dispatch with feedback\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "multiDispatchTillEnd",
           "package": "coroutine-object",
@@ -242,6 +261,7 @@
         "index": {
           "description": "full multiple event dispatch with feedback",
           "hierarchy": "Control Monad Trans Crtn Driver",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "multiDispatchTillEnd",
           "normalized": "(LogServer(SObjBT(DrvOp a)b)(),World a(SObjBT(DrvOp a)b)())-\u003e[EvOrAct a]-\u003eSObjBT(DrvOp a)b(LogServer(SObjBT(DrvOp a)b)(),World a(SObjBT(DrvOp a)b)())",
@@ -258,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esingle event dispatch \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "singleDispatch",
           "package": "coroutine-object",
@@ -268,6 +289,7 @@
         "index": {
           "description": "single event dispatch",
           "hierarchy": "Control Monad Trans Crtn Driver",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Driver",
           "name": "singleDispatch",
           "normalized": "Either(ActionOrder a)a-\u003e(LogServer(SObjBT(DrvOp a)b)(),World a(SObjBT(DrvOp a)b)(),[EvOrAct a])-\u003eSObjBT(DrvOp a)b(LogServer(SObjBT(DrvOp a)b)(),World a(SObjBT(DrvOp a)b)(),[EvOrAct a])",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ecoroutine that can be interpreted as an object\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Event",
           "name": "Event",
           "package": "coroutine-object",
@@ -293,6 +316,7 @@
         "index": {
           "description": "coroutine that can be interpreted as an object",
           "hierarchy": "Control Monad Trans Crtn Event",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Event",
           "name": "Event",
           "package": "coroutine-object",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaction order \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Event",
           "name": "ActionOrder",
           "package": "coroutine-object",
@@ -316,6 +341,7 @@
         "index": {
           "description": "action order",
           "hierarchy": "Control Monad Trans Crtn Event",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Event",
           "name": "ActionOrder",
           "package": "coroutine-object",
@@ -330,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevent or action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Event",
           "name": "EvOrAct",
           "package": "coroutine-object",
@@ -339,6 +366,7 @@
         "index": {
           "description": "event or action",
           "hierarchy": "Control Monad Trans Crtn Event",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Event",
           "name": "EvOrAct",
           "package": "coroutine-object",
@@ -352,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Event",
           "name": "ActionOrder",
           "package": "coroutine-object",
@@ -361,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Event",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Event",
           "name": "ActionOrder",
           "normalized": "ActionOrder((a-\u003eIO())-\u003eIO a)",
@@ -377,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon event handling \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.EventHandler",
           "name": "EventHandler",
           "package": "coroutine-object",
@@ -386,6 +417,7 @@
         "index": {
           "description": "Common event handling",
           "hierarchy": "Control Monad Trans Crtn EventHandler",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.EventHandler",
           "name": "EventHandler",
           "package": "coroutine-object",
@@ -399,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.EventHandler",
           "name": "eventHandler",
           "package": "coroutine-object",
@@ -408,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn EventHandler",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.EventHandler",
           "name": "eventHandler",
           "normalized": "MVar(Maybe(Driver a IO()))-\u003ea-\u003eIO()",
@@ -424,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003especial actor for IO action \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.IOActor",
           "name": "IOActor",
           "package": "coroutine-object",
@@ -433,6 +468,7 @@
         "index": {
           "description": "special actor for IO action",
           "hierarchy": "Control Monad Trans Crtn IOActor",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.IOActor",
           "name": "IOActor",
           "package": "coroutine-object",
@@ -446,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.IOActor",
           "name": "IOActor",
           "package": "coroutine-object",
@@ -454,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn IOActor",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.IOActor",
           "name": "IOActor",
           "package": "coroutine-object",
@@ -468,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efirst is \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.IOActor",
           "name": "IOOp",
           "package": "coroutine-object",
@@ -477,6 +516,7 @@
         "index": {
           "description": "first is",
           "hierarchy": "Control Monad Trans Crtn IOActor",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.IOActor",
           "name": "IOOp",
           "package": "coroutine-object",
@@ -490,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.IOActor",
           "name": "DoIOAction",
           "package": "coroutine-object",
@@ -499,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn IOActor",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.IOActor",
           "name": "DoIOAction",
           "normalized": "IOOp a((a-\u003eIO())-\u003eIO())(Either String())",
@@ -514,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.IOActor",
           "name": "doIOAction",
           "package": "coroutine-object",
@@ -523,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn IOActor",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.IOActor",
           "name": "doIOAction",
           "normalized": "((a-\u003eIO())-\u003eIO())-\u003eCObjT(IOOp a)b(Either String())",
@@ -538,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.IOActor",
           "name": "ioactorgen",
           "package": "coroutine-object",
@@ -547,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn IOActor",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.IOActor",
           "name": "ioactorgen",
           "normalized": "(a-\u003eIO())-\u003eSObjT(IOOp a)b()",
@@ -561,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Logger.Simple",
           "name": "Simple",
           "package": "coroutine-object",
@@ -569,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Logger Simple",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Logger.Simple",
           "name": "Simple",
           "package": "coroutine-object",
@@ -582,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Logger.Simple",
           "name": "loggerW",
           "package": "coroutine-object",
@@ -591,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Logger Simple",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Logger.Simple",
           "name": "loggerW",
           "normalized": "Int-\u003eLogServer a()",
@@ -605,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Logger.Simple",
           "name": "simplelogger",
           "package": "coroutine-object",
@@ -614,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Logger Simple",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Logger.Simple",
           "name": "simplelogger",
           "normalized": "LogServer a()",
@@ -629,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003edescribe logger\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Logger",
           "name": "Logger",
           "package": "coroutine-object",
@@ -638,6 +691,7 @@
         "index": {
           "description": "describe logger",
           "hierarchy": "Control Monad Trans Crtn Logger",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Logger",
           "name": "Logger",
           "package": "coroutine-object",
@@ -651,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Logger",
           "name": "LogClient",
           "package": "coroutine-object",
@@ -659,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Logger",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Logger",
           "name": "LogClient",
           "package": "coroutine-object",
@@ -672,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Logger",
           "name": "LogInput",
           "package": "coroutine-object",
@@ -680,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Logger",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Logger",
           "name": "LogInput",
           "package": "coroutine-object",
@@ -693,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Logger",
           "name": "LogOp",
           "package": "coroutine-object",
@@ -701,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Logger",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Logger",
           "name": "LogOp",
           "package": "coroutine-object",
@@ -714,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Logger",
           "name": "LogServer",
           "package": "coroutine-object",
@@ -722,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Logger",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Logger",
           "name": "LogServer",
           "package": "coroutine-object",
@@ -735,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Logger",
           "name": "MonadLog",
           "package": "coroutine-object",
@@ -743,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Logger",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Logger",
           "name": "MonadLog",
           "package": "coroutine-object",
@@ -756,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Logger",
           "name": "WriteLog",
           "package": "coroutine-object",
@@ -765,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Logger",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Logger",
           "name": "WriteLog",
           "normalized": "LogOp String()",
@@ -780,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Logger",
           "name": "scribe",
           "package": "coroutine-object",
@@ -789,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Logger",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Logger",
           "name": "scribe",
           "normalized": "String-\u003ea()",
@@ -803,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Logger",
           "name": "writeLog",
           "package": "coroutine-object",
@@ -812,6 +881,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Logger",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Logger",
           "name": "writeLog",
           "normalized": "String-\u003eLogClient a()",
@@ -828,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ecoroutine that can be interpreted as an object\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "Object",
           "package": "coroutine-object",
@@ -837,6 +908,7 @@
         "index": {
           "description": "coroutine that can be interpreted as an object",
           "hierarchy": "Control Monad Trans Crtn Object",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "Object",
           "package": "coroutine-object",
@@ -851,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einput of method of an object with signature s \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "Arg",
           "package": "coroutine-object",
@@ -860,6 +933,7 @@
         "index": {
           "description": "input of method of an object with signature",
           "hierarchy": "Control Monad Trans Crtn Object",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "Arg",
           "package": "coroutine-object",
@@ -874,6 +948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClient object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "CObjT",
           "package": "coroutine-object",
@@ -883,6 +958,7 @@
         "index": {
           "description": "Client object",
           "hierarchy": "Control Monad Trans Crtn Object",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "CObjT",
           "package": "coroutine-object",
@@ -897,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvenient error state monad for object  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "EStT",
           "package": "coroutine-object",
@@ -906,6 +983,7 @@
         "index": {
           "description": "convenient error state monad for object",
           "hierarchy": "Control Monad Trans Crtn Object",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "EStT",
           "package": "coroutine-object",
@@ -920,6 +998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoutput of methdo of an object with signature s \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "Res",
           "package": "coroutine-object",
@@ -929,6 +1008,7 @@
         "index": {
           "description": "output of methdo of an object with signature",
           "hierarchy": "Control Monad Trans Crtn Object",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "Res",
           "package": "coroutine-object",
@@ -943,6 +1023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer object base coroutine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "SObjBT",
           "package": "coroutine-object",
@@ -952,6 +1033,7 @@
         "index": {
           "description": "Server object base coroutine",
           "hierarchy": "Control Monad Trans Crtn Object",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "SObjBT",
           "package": "coroutine-object",
@@ -966,6 +1048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "SObjT",
           "package": "coroutine-object",
@@ -975,6 +1058,7 @@
         "index": {
           "description": "Server object",
           "hierarchy": "Control Monad Trans Crtn Object",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "SObjT",
           "package": "coroutine-object",
@@ -988,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "Arg",
           "package": "coroutine-object",
@@ -997,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Object",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "Arg",
           "package": "coroutine-object",
@@ -1010,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "Ign",
           "package": "coroutine-object",
@@ -1019,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Object",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "Ign",
           "package": "coroutine-object",
@@ -1032,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "Res",
           "package": "coroutine-object",
@@ -1041,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Object",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "Res",
           "package": "coroutine-object",
@@ -1054,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "query",
           "package": "coroutine-object",
@@ -1063,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Object",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Object",
           "name": "query",
           "normalized": "CObjT a b c-\u003eEStT(SObjT a b())b c",
@@ -1077,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Queue",
           "name": "Queue",
           "package": "coroutine-object",
@@ -1085,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Queue",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Queue",
           "name": "Queue",
           "package": "coroutine-object",
@@ -1098,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Queue",
           "name": "Queue",
           "package": "coroutine-object",
@@ -1106,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Queue",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Queue",
           "name": "Queue",
           "package": "coroutine-object",
@@ -1119,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Queue",
           "name": "Queue",
           "package": "coroutine-object",
@@ -1128,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Queue",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Queue",
           "name": "Queue",
           "package": "coroutine-object",
@@ -1141,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Queue",
           "name": "bqueue",
           "package": "coroutine-object",
@@ -1150,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Queue",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Queue",
           "name": "bqueue",
           "normalized": "[a]",
@@ -1164,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Queue",
           "name": "dequeue",
           "package": "coroutine-object",
@@ -1173,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Queue",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Queue",
           "name": "dequeue",
           "normalized": "Queue a-\u003e(Queue a,Maybe a)",
@@ -1187,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Queue",
           "name": "emptyQueue",
           "package": "coroutine-object",
@@ -1196,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Queue",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Queue",
           "name": "emptyQueue",
           "package": "coroutine-object",
@@ -1209,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Queue",
           "name": "enqueue",
           "package": "coroutine-object",
@@ -1218,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Queue",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Queue",
           "name": "enqueue",
           "normalized": "a-\u003eQueue a-\u003eQueue a",
@@ -1232,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.Queue",
           "name": "fqueue",
           "package": "coroutine-object",
@@ -1241,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn Queue",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.Queue",
           "name": "fqueue",
           "normalized": "[a]",
@@ -1256,6 +1364,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003edescribe world object\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.World",
           "name": "World",
           "package": "coroutine-object",
@@ -1265,6 +1374,7 @@
         "index": {
           "description": "describe world object",
           "hierarchy": "Control Monad Trans Crtn World",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.World",
           "name": "World",
           "package": "coroutine-object",
@@ -1278,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.World",
           "name": "World",
           "package": "coroutine-object",
@@ -1286,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn World",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.World",
           "name": "World",
           "package": "coroutine-object",
@@ -1299,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.World",
           "name": "WorldOp",
           "package": "coroutine-object",
@@ -1307,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn World",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.World",
           "name": "WorldOp",
           "package": "coroutine-object",
@@ -1320,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.World",
           "name": "FlushLog",
           "package": "coroutine-object",
@@ -1329,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn World",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.World",
           "name": "FlushLog",
           "normalized": "WorldOp a b(LogServer b())(LogServer b())",
@@ -1344,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.World",
           "name": "FlushQueue",
           "package": "coroutine-object",
@@ -1353,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn World",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.World",
           "name": "FlushQueue",
           "normalized": "WorldOp a b()[Either(ActionOrder a)a]",
@@ -1368,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.World",
           "name": "GiveEvent",
           "package": "coroutine-object",
@@ -1377,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn World",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.World",
           "name": "GiveEvent",
           "normalized": "WorldOp a b a()",
@@ -1392,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.World",
           "name": "flushLog",
           "package": "coroutine-object",
@@ -1401,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn World",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.World",
           "name": "flushLog",
           "normalized": "LogServer a()-\u003eCObjT(WorldOp b a)a(LogServer a())",
@@ -1416,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.World",
           "name": "flushQueue",
           "package": "coroutine-object",
@@ -1425,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn World",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.World",
           "name": "flushQueue",
           "normalized": "CObjT(WorldOp a b)b[Either(ActionOrder a)a]",
@@ -1440,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn.World",
           "name": "giveEvent",
           "package": "coroutine-object",
@@ -1449,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn World",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn.World",
           "name": "giveEvent",
           "normalized": "a-\u003eCObjT(WorldOp a b)b()",
@@ -1465,6 +1591,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003edefinition of coroutine\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "Crtn",
           "package": "coroutine-object",
@@ -1474,6 +1601,7 @@
         "index": {
           "description": "definition of coroutine",
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "Crtn",
           "package": "coroutine-object",
@@ -1488,6 +1616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eawait command functor for consumer coroutine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "Awt",
           "package": "coroutine-object",
@@ -1497,6 +1626,7 @@
         "index": {
           "description": "await command functor for consumer coroutine",
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "Awt",
           "package": "coroutine-object",
@@ -1511,6 +1641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoroutine type is regarded as a Client type \n   which can be paired with Server type with opposite request \n   and answer type.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "CliT",
           "package": "coroutine-object",
@@ -1520,6 +1651,7 @@
         "index": {
           "description": "Coroutine type is regarded as Client type which can be paired with Server type with opposite request and answer type",
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "CliT",
           "package": "coroutine-object",
@@ -1534,6 +1666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsumer type is a single-sided coroutine which only gets an input \n   without producing output. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "CnsmT",
           "package": "coroutine-object",
@@ -1543,6 +1676,7 @@
         "index": {
           "description": "Consumer type is single-sided coroutine which only gets an input without producing output",
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "CnsmT",
           "package": "coroutine-object",
@@ -1557,6 +1691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype for coroutine status after execution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "CrtnErr",
           "package": "coroutine-object",
@@ -1566,6 +1701,7 @@
         "index": {
           "description": "type for coroutine status after execution",
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "CrtnErr",
           "package": "coroutine-object",
@@ -1580,6 +1716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneral symmetric bidirectional coroutine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "CrtnT",
           "package": "coroutine-object",
@@ -1589,6 +1726,7 @@
         "index": {
           "description": "general symmetric bidirectional coroutine",
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "CrtnT",
           "package": "coroutine-object",
@@ -1603,6 +1741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerator type is single-sided coroutine which only gives an output \n   without getting any request. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "GenT",
           "package": "coroutine-object",
@@ -1612,6 +1751,7 @@
         "index": {
           "description": "Generator type is single-sided coroutine which only gives an output without getting any request",
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "GenT",
           "package": "coroutine-object",
@@ -1626,6 +1766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecommand functor of general bidirectional coroutine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "Rqst",
           "package": "coroutine-object",
@@ -1635,6 +1776,7 @@
         "index": {
           "description": "command functor of general bidirectional coroutine",
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "Rqst",
           "package": "coroutine-object",
@@ -1649,6 +1791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer type \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "SrvT",
           "package": "coroutine-object",
@@ -1658,6 +1801,7 @@
         "index": {
           "description": "Server type",
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "SrvT",
           "package": "coroutine-object",
@@ -1672,6 +1816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eyield command functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "Yld",
           "package": "coroutine-object",
@@ -1681,6 +1826,7 @@
         "index": {
           "description": "yield command functor",
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "Yld",
           "package": "coroutine-object",
@@ -1695,6 +1841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econnecting server and client in error monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "(\u003c==|)",
           "package": "coroutine-object",
@@ -1704,6 +1851,7 @@
         "index": {
           "description": "connecting server and client in error monad",
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "(\u003c==|) \u003c==|",
           "normalized": "SrvT a b c d-\u003eCliT a b c e-\u003ec(Either CrtnErr(SrvT a b c d,e))",
@@ -1718,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "Awt",
           "package": "coroutine-object",
@@ -1727,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "Awt",
           "normalized": "Awt(a-\u003eb)",
@@ -1742,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "Other",
           "package": "coroutine-object",
@@ -1751,6 +1902,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "Other",
           "package": "coroutine-object",
@@ -1764,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "Rqst",
           "package": "coroutine-object",
@@ -1773,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "Rqst",
           "normalized": "Rqst a(b-\u003ec)",
@@ -1788,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "ServerFinished",
           "package": "coroutine-object",
@@ -1797,6 +1952,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "ServerFinished",
           "package": "coroutine-object",
@@ -1810,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "Yld",
           "package": "coroutine-object",
@@ -1819,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "Yld",
           "package": "coroutine-object",
@@ -1833,6 +1991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprimitive coroutine action awaiting an input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "await",
           "package": "coroutine-object",
@@ -1843,6 +2002,7 @@
         "index": {
           "description": "primitive coroutine action awaiting an input",
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "await",
           "package": "coroutine-object",
@@ -1856,6 +2016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecombine state and free monad with base state monad transformer \n   with a base monad m to free monad with the base monad m\n   Think this as fusing down the state monad  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "mapStateDown",
           "package": "coroutine-object",
@@ -1866,6 +2027,7 @@
         "index": {
           "description": "combine state and free monad with base state monad transformer with base monad to free monad with the base monad Think this as fusing down the state monad",
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "mapStateDown",
           "normalized": "a-\u003eFreeT b(StateT a c)d-\u003eFreeT b c d",
@@ -1882,6 +2044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprimitive request coroutine  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "request",
           "package": "coroutine-object",
@@ -1892,6 +2055,7 @@
         "index": {
           "description": "primitive request coroutine",
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "request",
           "normalized": "a-\u003eCrtnT a b c b",
@@ -1907,6 +2071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprimitive coroutine action yielding an output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:35 UTC 2014",
           "module": "Control.Monad.Trans.Crtn",
           "name": "yield",
           "package": "coroutine-object",
@@ -1917,6 +2082,7 @@
         "index": {
           "description": "primitive coroutine action yielding an output",
           "hierarchy": "Control Monad Trans Crtn",
+          "indexed": "2014-03-11T17:41:35",
           "module": "Control.Monad.Trans.Crtn",
           "name": "yield",
           "normalized": "a-\u003eGenT a b()",

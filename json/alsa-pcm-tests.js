@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "alsa-pcm-tests"
+        "phrase": "alsa-pcm-tests",
+        "type": "phrase"
       },
       "type": "context"
     }

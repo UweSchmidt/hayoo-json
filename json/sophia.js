@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sophia"
+        "phrase": "sophia",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "Sophia",
           "package": "sophia",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "Sophia",
           "package": "sophia",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "AllowCreation",
           "package": "sophia",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "AllowCreation",
           "package": "sophia",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "AtCursorFailed",
           "package": "sophia",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "AtCursorFailed",
           "package": "sophia",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "CreateCursorFailed",
           "package": "sophia",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "CreateCursorFailed",
           "package": "sophia",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "CreateEnvFailed",
           "package": "sophia",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "CreateEnvFailed",
           "package": "sophia",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "Cursor",
           "package": "sophia",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "Cursor",
           "package": "sophia",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "Db",
           "package": "sophia",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "Db",
           "package": "sophia",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "DelValueFailed",
           "package": "sophia",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "DelValueFailed",
           "package": "sophia",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "Env",
           "package": "sophia",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "Env",
           "package": "sophia",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "FetchCursorFailed",
           "package": "sophia",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "FetchCursorFailed",
           "package": "sophia",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "GetValueFailed",
           "package": "sophia",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "GetValueFailed",
           "package": "sophia",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "HasValueFailed",
           "package": "sophia",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "HasValueFailed",
           "package": "sophia",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "IOMode",
           "package": "sophia",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "IOMode",
           "package": "sophia",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "OpenDbFailed",
           "package": "sophia",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "OpenDbFailed",
           "package": "sophia",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "OpenDirFailed",
           "package": "sophia",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "OpenDirFailed",
           "package": "sophia",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "Order",
           "package": "sophia",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "Order",
           "package": "sophia",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "SetKeyComparisonFailed",
           "package": "sophia",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "SetKeyComparisonFailed",
           "package": "sophia",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "SetValueFailed",
           "package": "sophia",
@@ -383,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "SetValueFailed",
           "package": "sophia",
@@ -396,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "AllowCreation",
           "package": "sophia",
@@ -405,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "AllowCreation",
           "package": "sophia",
@@ -418,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "AtCursorFailed",
           "package": "sophia",
@@ -427,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "AtCursorFailed",
           "package": "sophia",
@@ -440,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "CreateCursorFailed",
           "package": "sophia",
@@ -449,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "CreateCursorFailed",
           "package": "sophia",
@@ -462,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "CreateEnvFailed",
           "package": "sophia",
@@ -471,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "CreateEnvFailed",
           "package": "sophia",
@@ -484,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "DelValueFailed",
           "package": "sophia",
@@ -493,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "DelValueFailed",
           "package": "sophia",
@@ -506,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "DisallowCreation",
           "package": "sophia",
@@ -515,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "DisallowCreation",
           "package": "sophia",
@@ -528,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "FetchCursorFailed",
           "package": "sophia",
@@ -537,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "FetchCursorFailed",
           "package": "sophia",
@@ -550,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "GT",
           "package": "sophia",
@@ -559,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "GT",
           "package": "sophia",
@@ -572,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "GTE",
           "package": "sophia",
@@ -581,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "GTE",
           "package": "sophia",
@@ -594,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "GetValueFailed",
           "package": "sophia",
@@ -603,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "GetValueFailed",
           "package": "sophia",
@@ -616,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "HasValueFailed",
           "package": "sophia",
@@ -625,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "HasValueFailed",
           "package": "sophia",
@@ -638,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "LT",
           "package": "sophia",
@@ -647,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "LT",
           "package": "sophia",
@@ -660,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "LTE",
           "package": "sophia",
@@ -669,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "LTE",
           "package": "sophia",
@@ -682,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "OpenDbFailed",
           "package": "sophia",
@@ -691,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "OpenDbFailed",
           "package": "sophia",
@@ -704,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "OpenDirFailed",
           "package": "sophia",
@@ -713,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "OpenDirFailed",
           "package": "sophia",
@@ -726,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "ReadOnly",
           "package": "sophia",
@@ -735,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "ReadOnly",
           "package": "sophia",
@@ -748,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "ReadWrite",
           "package": "sophia",
@@ -757,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "ReadWrite",
           "package": "sophia",
@@ -770,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "SetKeyComparisonFailed",
           "package": "sophia",
@@ -779,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "SetKeyComparisonFailed",
           "package": "sophia",
@@ -792,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "SetValueFailed",
           "package": "sophia",
@@ -801,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "SetValueFailed",
           "package": "sophia",
@@ -814,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "delValue",
           "package": "sophia",
@@ -823,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "delValue",
           "normalized": "Db-\u003eByteString-\u003eIO()",
@@ -838,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "fetchCursor",
           "package": "sophia",
@@ -847,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "fetchCursor",
           "normalized": "Cursor-\u003eIO Bool",
@@ -862,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "fetchCursorAll",
           "package": "sophia",
@@ -871,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "fetchCursorAll",
           "normalized": "Cursor-\u003eIO[(ByteString,ByteString)]",
@@ -886,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "getValue",
           "package": "sophia",
@@ -895,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "getValue",
           "normalized": "Db-\u003eByteString-\u003eIO(Maybe ByteString)",
@@ -910,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "hasValue",
           "package": "sophia",
@@ -919,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "hasValue",
           "normalized": "Db-\u003eByteString-\u003eIO Bool",
@@ -934,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "keyAtCursor",
           "package": "sophia",
@@ -943,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "keyAtCursor",
           "normalized": "Cursor-\u003eIO ByteString",
@@ -958,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "openDir",
           "package": "sophia",
@@ -967,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "openDir",
           "normalized": "Env-\u003eIOMode-\u003eAllowCreation-\u003eFilePath-\u003eIO()",
@@ -982,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "setValue",
           "package": "sophia",
@@ -991,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "setValue",
           "normalized": "Db-\u003eByteString-\u003eByteString-\u003eIO()",
@@ -1006,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "valAtCursor",
           "package": "sophia",
@@ -1015,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "valAtCursor",
           "normalized": "Cursor-\u003eIO ByteString",
@@ -1030,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "withCursor",
           "package": "sophia",
@@ -1039,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "withCursor",
           "normalized": "Db-\u003eOrder-\u003eByteString-\u003e(Cursor-\u003eIO a)-\u003eIO a",
@@ -1054,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "withDb",
           "package": "sophia",
@@ -1063,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "withDb",
           "normalized": "Env-\u003e(Db-\u003eIO a)-\u003eIO a",
@@ -1078,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:14 UTC 2014",
           "module": "Database.Sophia",
           "name": "withEnv",
           "package": "sophia",
@@ -1087,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Database Sophia",
+          "indexed": "2014-03-11T20:07:14",
           "module": "Database.Sophia",
           "name": "withEnv",
           "normalized": "(Env-\u003eIO a)-\u003eIO a",

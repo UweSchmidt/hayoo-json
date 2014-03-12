@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hpage"
+        "phrase": "hpage",
+        "type": "phrase"
       },
       "type": "context"
     }

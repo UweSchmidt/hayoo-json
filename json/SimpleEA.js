@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SimpleEA"
+        "phrase": "SimpleEA",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilitify functions that makes it easier to write the genetic operators and\nfunctions for doing calculations on the EA data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA.Utils",
           "name": "Utils",
           "package": "SimpleEA",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Utilitify functions that makes it easier to write the genetic operators and functions for doing calculations on the EA data",
           "hierarchy": "AI SimpleEA Utils",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA.Utils",
           "name": "Utils",
           "package": "SimpleEA",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the average fitnesses for a list of generations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA.Utils",
           "name": "avgFitnesses",
           "package": "SimpleEA",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Returns the average fitnesses for list of generations",
           "hierarchy": "AI SimpleEA Utils",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA.Utils",
           "name": "avgFitnesses",
           "normalized": "[[(Genome a,Fitness)]]-\u003e[Fitness]",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etakes a list of (genome,fitness) pairs and returns a list of genomes sorted\n by fitness (descending)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA.Utils",
           "name": "elite",
           "package": "SimpleEA",
@@ -78,6 +83,7 @@
         "index": {
           "description": "takes list of genome fitness pairs and returns list of genomes sorted by fitness descending",
           "hierarchy": "AI SimpleEA Utils",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA.Utils",
           "name": "elite",
           "normalized": "[(a,Fitness)]-\u003e[a]",
@@ -93,6 +99,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFitness-proportionate selection: select a random item from a list of (item,\n score) where each item's chance of being selected is proportional to its\n score\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA.Utils",
           "name": "fitPropSelect",
           "package": "SimpleEA",
@@ -103,6 +110,7 @@
         "index": {
           "description": "Fitness-proportionate selection select random item from list of item score where each item chance of being selected is proportional to its score",
           "hierarchy": "AI SimpleEA Utils",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA.Utils",
           "name": "fitPropSelect",
           "normalized": "[(a,Fitness)]-\u003eRand b a",
@@ -119,6 +127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etakes a list of generations and returns a string intended for plotting with\n gnuplot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA.Utils",
           "name": "getPlottingData",
           "package": "SimpleEA",
@@ -129,6 +138,7 @@
         "index": {
           "description": "takes list of generations and returns string intended for plotting with gnuplot",
           "hierarchy": "AI SimpleEA Utils",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA.Utils",
           "name": "getPlottingData",
           "normalized": "[[(Genome a,Fitness)]]-\u003eString",
@@ -145,6 +155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the maximum fitness per generation for a list of generations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA.Utils",
           "name": "maxFitnesses",
           "package": "SimpleEA",
@@ -155,6 +166,7 @@
         "index": {
           "description": "Returns the maximum fitness per generation for list of generations",
           "hierarchy": "AI SimpleEA Utils",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA.Utils",
           "name": "maxFitnesses",
           "normalized": "[[(Genome a,Fitness)]]-\u003e[Fitness]",
@@ -171,6 +183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the minimum fitness per generation for a list of generations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA.Utils",
           "name": "minFitnesses",
           "package": "SimpleEA",
@@ -181,6 +194,7 @@
         "index": {
           "description": "Returns the minimum fitness per generation for list of generations",
           "hierarchy": "AI SimpleEA Utils",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA.Utils",
           "name": "minFitnesses",
           "normalized": "[[(Genome a,Fitness)]]-\u003e[Fitness]",
@@ -197,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of \u003ccode\u003elen\u003c/code\u003e random genomes who has length \u003ccode\u003egenomeLen\u003c/code\u003e made of\n elements in the range \u003ccode\u003e[from,to]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA.Utils",
           "name": "randomGenomes",
           "package": "SimpleEA",
@@ -207,6 +222,7 @@
         "index": {
           "description": "Returns list of len random genomes who has length genomeLen made of elements in the range from to",
           "hierarchy": "AI SimpleEA Utils",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA.Utils",
           "name": "randomGenomes",
           "normalized": "Int-\u003eInt-\u003ea-\u003ea-\u003eRand b[Genome a]",
@@ -223,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of fitness values and returns rank scaled values. For a list of \u003cem\u003en\u003c/em\u003e values, this\n means that the best fitness is scaled to \u003cem\u003en\u003c/em\u003e, the second best to \u003cem\u003en-1\u003c/em\u003e, and so on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA.Utils",
           "name": "rankScale",
           "package": "SimpleEA",
@@ -233,6 +250,7 @@
         "index": {
           "description": "Takes list of fitness values and returns rank scaled values For list of values this means that the best fitness is scaled to the second best to n-1 and so on",
           "hierarchy": "AI SimpleEA Utils",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA.Utils",
           "name": "rankScale",
           "normalized": "[Fitness]-\u003e[Fitness]",
@@ -249,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies sigma scaling to a list of fitness values. In sigma scaling, the\n standard deviation of the population fitness is used to scale the fitness\n scores.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA.Utils",
           "name": "sigmaScale",
           "package": "SimpleEA",
@@ -259,6 +278,7 @@
         "index": {
           "description": "Applies sigma scaling to list of fitness values In sigma scaling the standard deviation of the population fitness is used to scale the fitness scores",
           "hierarchy": "AI SimpleEA Utils",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA.Utils",
           "name": "sigmaScale",
           "normalized": "[Fitness]-\u003e[Fitness]",
@@ -275,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the standard deviation of the fitness values per generation fot a\n list of generations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA.Utils",
           "name": "stdDeviations",
           "package": "SimpleEA",
@@ -285,6 +306,7 @@
         "index": {
           "description": "Returns the standard deviation of the fitness values per generation fot list of generations",
           "hierarchy": "AI SimpleEA Utils",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA.Utils",
           "name": "stdDeviations",
           "normalized": "[[(Genome a,Fitness)]]-\u003e[Double]",
@@ -301,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms tournament selection amoing \u003ccode\u003esize\u003c/code\u003e individuals and returns the winner\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA.Utils",
           "name": "tournamentSelect",
           "package": "SimpleEA",
@@ -311,6 +334,7 @@
         "index": {
           "description": "Performs tournament selection amoing size individuals and returns the winner",
           "hierarchy": "AI SimpleEA Utils",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA.Utils",
           "name": "tournamentSelect",
           "normalized": "[(a,Fitness)]-\u003eInt-\u003eRand PureMT a",
@@ -327,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA framework for simple evolutionary algorithms. Provided with a function for\nevaluating a genome's fitness, a function for probabilistic selection among a\npool of genomes, and recombination and mutation operators, \u003ccode\u003e\u003ca\u003erunEA\u003c/a\u003e\u003c/code\u003e will run an\nEA that lazily produces an infinite list of generations.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eUtils\u003c/a\u003e\u003c/code\u003e contains utilitify functions that makes it easier to write\nthe genetic operators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA",
           "name": "SimpleEA",
           "package": "SimpleEA",
@@ -336,6 +361,7 @@
         "index": {
           "description": "framework for simple evolutionary algorithms Provided with function for evaluating genome fitness function for probabilistic selection among pool of genomes and recombination and mutation operators runEA will run an EA that lazily produces an infinite list of generations Utils contains utilitify functions that makes it easier to write the genetic operators",
           "hierarchy": "AI SimpleEA",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA",
           "name": "SimpleEA",
           "package": "SimpleEA",
@@ -350,6 +376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn individual's fitness is simply a number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA",
           "name": "Fitness",
           "package": "SimpleEA",
@@ -359,6 +386,7 @@
         "index": {
           "description": "An individual fitness is simply number",
           "hierarchy": "AI SimpleEA",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA",
           "name": "Fitness",
           "package": "SimpleEA",
@@ -373,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fitness functions assigns a fitness score to a genome. The rest of the\n individuals of that generation is also provided in case the fitness is\n in proportion to its neighbours.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA",
           "name": "FitnessFunc",
           "package": "SimpleEA",
@@ -382,6 +411,7 @@
         "index": {
           "description": "fitness functions assigns fitness score to genome The rest of the individuals of that generation is also provided in case the fitness is in proportion to its neighbours",
           "hierarchy": "AI SimpleEA",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA",
           "name": "FitnessFunc",
           "package": "SimpleEA",
@@ -396,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA genome is a list (e.g. a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA",
           "name": "Genome",
           "package": "SimpleEA",
@@ -405,6 +436,7 @@
         "index": {
           "description": "genome is list e.g String",
           "hierarchy": "AI SimpleEA",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA",
           "name": "Genome",
           "package": "SimpleEA",
@@ -419,6 +451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutation operator takes a genome and returns (a possibly altered) copy\n of it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA",
           "name": "MutationOp",
           "package": "SimpleEA",
@@ -428,6 +461,7 @@
         "index": {
           "description": "mutation operator takes genome and returns possibly altered copy of it",
           "hierarchy": "AI SimpleEA",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA",
           "name": "MutationOp",
           "package": "SimpleEA",
@@ -442,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA recombination operator takes two \u003cem\u003eparent\u003c/em\u003e genomes and returns two\n \u003cem\u003echildren\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA",
           "name": "RecombinationOp",
           "package": "SimpleEA",
@@ -451,6 +486,7 @@
         "index": {
           "description": "recombination operator takes two parent genomes and returns two children",
           "hierarchy": "AI SimpleEA",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA",
           "name": "RecombinationOp",
           "package": "SimpleEA",
@@ -465,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA selection function is responsible for selection. It takes pairs of\n genomes and their fitness and is responsible for returning one or more\n individuals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA",
           "name": "SelectionFunction",
           "package": "SimpleEA",
@@ -474,6 +511,7 @@
         "index": {
           "description": "selection function is responsible for selection It takes pairs of genomes and their fitness and is responsible for returning one or more individuals",
           "hierarchy": "AI SimpleEA",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA",
           "name": "SelectionFunction",
           "package": "SimpleEA",
@@ -488,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the evolutionary algorithm with the given start population. This will\n produce an infinite list of generations and \u003ccode\u003e\u003ca\u003etake\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e should be\n used to decide how many generations should be computed. To run a specific\n number of generations, use \u003ccode\u003e\u003ca\u003etake\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e let generations = take 50 $ runEA myFF mySF myROp myMOp myStdGen\n\u003c/pre\u003e\u003cp\u003eTo run until a criterion is met, e.g. that an individual with a fitness of at\n least 19 is found, \u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e can be used:\n\u003c/p\u003e\u003cpre\u003e let criterion   = any id . map (\\i -\u003e snd i \u003e= 19.0)\n let generations = takeWhile (not . criterion) $ runEA myFF mySF myROp myMOp myStdGen\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:00:42 UTC 2014",
           "module": "AI.SimpleEA",
           "name": "runEA",
           "package": "SimpleEA",
@@ -498,6 +537,7 @@
         "index": {
           "description": "Runs the evolutionary algorithm with the given start population This will produce an infinite list of generations and take or takeWhile should be used to decide how many generations should be computed To run specific number of generations use take let generations take runEA myFF mySF myROp myMOp myStdGen To run until criterion is met e.g that an individual with fitness of at least is found takeWhile can be used let criterion any id map snd let generations takeWhile not criterion runEA myFF mySF myROp myMOp myStdGen",
           "hierarchy": "AI SimpleEA",
+          "indexed": "2014-03-11T17:00:42",
           "module": "AI.SimpleEA",
           "name": "runEA",
           "normalized": "[Genome a]-\u003eFitnessFunc a-\u003eSelectionFunction a-\u003eRecombinationOp a-\u003eMutationOp a-\u003ePureMT-\u003e[[(Genome a,Fitness)]]",

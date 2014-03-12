@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "x509"
+        "phrase": "x509",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead/Write X509 Certificate, CRL and their signed equivalents.\n\u003c/p\u003e\u003cp\u003eFollows RFC5280 / RFC6818\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "X509",
           "package": "x509",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Read Write X509 Certificate CRL and their signed equivalents Follows RFC5280 RFC6818",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "X509",
           "package": "x509",
@@ -41,6 +43,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eASN1 Character String with encoding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ASN1CharacterString",
           "package": "x509",
@@ -49,6 +52,7 @@
         "index": {
           "description": "ASN1 Character String with encoding",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ASN1CharacterString",
           "package": "x509",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifferent naming scheme use by the extension.\n\u003c/p\u003e\u003cp\u003eNot all name types are available, missing:\n otherName\n x400Address\n directoryName\n ediPartyName\n registeredID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "AltName",
           "package": "x509",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Different naming scheme use by the extension Not all name types are available missing otherName x400Address directoryName ediPartyName registeredID",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "AltName",
           "package": "x509",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribe a Certificate revocation list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "CRL",
           "package": "x509",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Describe Certificate revocation list",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "CRL",
           "package": "x509",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eX.509 Certificate type.\n\u003c/p\u003e\u003cp\u003eThis type doesn't include the signature, it's describe in the RFC\n as tbsCertificate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "Certificate",
           "package": "x509",
@@ -118,6 +127,7 @@
         "index": {
           "description": "X.509 Certificate type This type doesn include the signature it describe in the RFC as tbsCertificate",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "Certificate",
           "package": "x509",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA chain of X.509 certificates in exact form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "CertificateChain",
           "package": "x509",
@@ -141,6 +152,7 @@
         "index": {
           "description": "chain of X.509 certificates in exact form",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "CertificateChain",
           "package": "x509",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a chain of X.509 certificates in bytestring form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "CertificateChainRaw",
           "package": "x509",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Represent chain of X.509 certificates in bytestring form",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "CertificateChainRaw",
           "package": "x509",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of OID and strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "DistinguishedName",
           "package": "x509",
@@ -187,6 +202,7 @@
         "index": {
           "description": "list of OID and strings",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "DistinguishedName",
           "package": "x509",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistribution point as either some GeneralNames or a DN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "DistributionPoint",
           "package": "x509",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Distribution point as either some GeneralNames or DN",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "DistributionPoint",
           "package": "x509",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElements commonly available in a \u003ccode\u003e\u003ca\u003eDistinguishedName\u003c/a\u003e\u003c/code\u003e structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "DnElement",
           "package": "x509",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Elements commonly available in DistinguishedName structure",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "DnElement",
           "package": "x509",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a mean to identify the public key corresponding to the private key\n used to signed a certificate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ExtAuthorityKeyId",
           "package": "x509",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Provide mean to identify the public key corresponding to the private key used to signed certificate",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ExtAuthorityKeyId",
           "package": "x509",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic Constraints\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ExtBasicConstraints",
           "package": "x509",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Basic Constraints",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ExtBasicConstraints",
           "package": "x509",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentify how CRL information is obtained\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ExtCrlDistributionPoints",
           "package": "x509",
@@ -302,6 +327,7 @@
         "index": {
           "description": "Identify how CRL information is obtained",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ExtCrlDistributionPoints",
           "package": "x509",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtended key usage extension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ExtExtendedKeyUsage",
           "package": "x509",
@@ -325,6 +352,7 @@
         "index": {
           "description": "Extended key usage extension",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ExtExtendedKeyUsage",
           "package": "x509",
@@ -339,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribe key usage\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ExtKeyUsage",
           "package": "x509",
@@ -348,6 +377,7 @@
         "index": {
           "description": "Describe key usage",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ExtKeyUsage",
           "package": "x509",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ekey usage flag that is found in the key usage extension field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ExtKeyUsageFlag",
           "package": "x509",
@@ -371,6 +402,7 @@
         "index": {
           "description": "key usage flag that is found in the key usage extension field",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ExtKeyUsageFlag",
           "package": "x509",
@@ -385,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey usage purposes for the ExtendedKeyUsage extension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ExtKeyUsagePurpose",
           "package": "x509",
@@ -394,6 +427,7 @@
         "index": {
           "description": "Key usage purposes for the ExtendedKeyUsage extension",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ExtKeyUsagePurpose",
           "package": "x509",
@@ -408,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a way to supply alternate name that can be\n used for matching host name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ExtSubjectAltName",
           "package": "x509",
@@ -417,6 +452,7 @@
         "index": {
           "description": "Provide way to supply alternate name that can be used for matching host name",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ExtSubjectAltName",
           "package": "x509",
@@ -431,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a way to identify a public key by a short hash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ExtSubjectKeyId",
           "package": "x509",
@@ -440,6 +477,7 @@
         "index": {
           "description": "Provide way to identify public key by short hash",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ExtSubjectKeyId",
           "package": "x509",
@@ -454,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtension class.\n\u003c/p\u003e\u003cp\u003eeach extension have a unique OID associated, and a way\n to encode and decode an ASN1 stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "Extension",
           "package": "x509",
@@ -463,6 +502,7 @@
         "index": {
           "description": "Extension class each extension have unique OID associated and way to encode and decode an ASN1 stream",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "Extension",
           "package": "x509",
@@ -477,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn undecoded extension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ExtensionRaw",
           "package": "x509",
@@ -486,6 +527,7 @@
         "index": {
           "description": "An undecoded extension",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ExtensionRaw",
           "package": "x509",
@@ -500,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea Set of \u003ccode\u003e\u003ca\u003eExtensionRaw\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "Extensions",
           "package": "x509",
@@ -509,6 +552,7 @@
         "index": {
           "description": "Set of ExtensionRaw",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "Extensions",
           "package": "x509",
@@ -523,6 +567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash Algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "HashALG",
           "package": "x509",
@@ -532,6 +577,7 @@
         "index": {
           "description": "Hash Algorithm",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "HashALG",
           "package": "x509",
@@ -546,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrivate key types known and used in X.509\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "PrivKey",
           "package": "x509",
@@ -555,6 +602,7 @@
         "index": {
           "description": "Private key types known and used in X.509",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "PrivKey",
           "package": "x509",
@@ -569,6 +617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePublic key types known and used in X.509\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "PubKey",
           "package": "x509",
@@ -578,6 +627,7 @@
         "index": {
           "description": "Public key types known and used in X.509",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "PubKey",
           "package": "x509",
@@ -592,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePublic Key Algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "PubKeyALG",
           "package": "x509",
@@ -601,6 +652,7 @@
         "index": {
           "description": "Public Key Algorithm",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "PubKeyALG",
           "package": "x509",
@@ -615,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReason flag for the CRL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ReasonFlag",
           "package": "x509",
@@ -624,6 +677,7 @@
         "index": {
           "description": "Reason flag for the CRL",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ReasonFlag",
           "package": "x509",
@@ -638,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribe a revoked certificate identifiable by serial number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "RevokedCertificate",
           "package": "x509",
@@ -647,6 +702,7 @@
         "index": {
           "description": "Describe revoked certificate identifiable by serial number",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "RevokedCertificate",
           "package": "x509",
@@ -661,6 +717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature Algorithm often composed of\n a public key algorithm and a hash algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "SignatureALG",
           "package": "x509",
@@ -670,6 +727,7 @@
         "index": {
           "description": "Signature Algorithm often composed of public key algorithm and hash algorithm",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "SignatureALG",
           "package": "x509",
@@ -684,6 +742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a signed object using a traditional X509 structure.\n\u003c/p\u003e\u003cp\u003eWhen dealing with external certificate, use the SignedExact structure\n not this one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "Signed",
           "package": "x509",
@@ -693,6 +752,7 @@
         "index": {
           "description": "Represent signed object using traditional X509 structure When dealing with external certificate use the SignedExact structure not this one",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "Signed",
           "package": "x509",
@@ -707,6 +767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Signed CRL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "SignedCRL",
           "package": "x509",
@@ -716,6 +777,7 @@
         "index": {
           "description": "Signed CRL",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "SignedCRL",
           "package": "x509",
@@ -730,6 +792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Signed Certificate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "SignedCertificate",
           "package": "x509",
@@ -739,6 +802,7 @@
         "index": {
           "description": "Signed Certificate",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "SignedCertificate",
           "package": "x509",
@@ -753,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent the signed object plus the raw data that we need to\n keep around for non compliant case to be able to verify signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "SignedExact",
           "package": "x509",
@@ -762,6 +827,7 @@
         "index": {
           "description": "Represent the signed object plus the raw data that we need to keep around for non compliant case to be able to verify signature",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "SignedExact",
           "package": "x509",
@@ -775,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ASN1CharacterString",
           "package": "x509",
@@ -783,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ASN1CharacterString",
           "package": "x509",
@@ -796,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "AltNameDNS",
           "package": "x509",
@@ -805,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "AltNameDNS",
           "package": "x509",
@@ -818,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "AltNameIP",
           "package": "x509",
@@ -827,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "AltNameIP",
           "package": "x509",
@@ -840,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "AltNameRFC822",
           "package": "x509",
@@ -849,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "AltNameRFC822",
           "package": "x509",
@@ -862,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "AltNameURI",
           "package": "x509",
@@ -871,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "AltNameURI",
           "package": "x509",
@@ -884,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "CRL",
           "package": "x509",
@@ -893,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "CRL",
           "package": "x509",
@@ -906,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "Certificate",
           "package": "x509",
@@ -915,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "Certificate",
           "package": "x509",
@@ -928,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "CertificateChain",
           "package": "x509",
@@ -937,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "CertificateChain",
           "normalized": "CertificateChain[SignedExact Certificate]",
@@ -952,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "CertificateChainRaw",
           "package": "x509",
@@ -961,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "CertificateChainRaw",
           "normalized": "CertificateChainRaw[ByteString]",
@@ -976,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "DistinguishedName",
           "package": "x509",
@@ -985,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "DistinguishedName",
           "package": "x509",
@@ -998,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "DistributionNameRelative",
           "package": "x509",
@@ -1007,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "DistributionNameRelative",
           "package": "x509",
@@ -1020,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "DistributionPointFullName",
           "package": "x509",
@@ -1029,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "DistributionPointFullName",
           "normalized": "DistributionPointFullName[AltName]",
@@ -1045,6 +1135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "DnCommonName",
           "package": "x509",
@@ -1055,6 +1146,7 @@
         "index": {
           "description": "CN",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "DnCommonName",
           "package": "x509",
@@ -1069,6 +1161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCountry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "DnCountry",
           "package": "x509",
@@ -1079,6 +1172,7 @@
         "index": {
           "description": "Country",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "DnCountry",
           "package": "x509",
@@ -1093,6 +1187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "DnOrganization",
           "package": "x509",
@@ -1102,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "DnOrganization",
           "package": "x509",
@@ -1116,6 +1212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOU\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "DnOrganizationUnit",
           "package": "x509",
@@ -1126,6 +1223,7 @@
         "index": {
           "description": "OU",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "DnOrganizationUnit",
           "package": "x509",
@@ -1139,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ExtAuthorityKeyId",
           "package": "x509",
@@ -1148,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ExtAuthorityKeyId",
           "package": "x509",
@@ -1161,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ExtBasicConstraints",
           "package": "x509",
@@ -1170,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ExtBasicConstraints",
           "package": "x509",
@@ -1183,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ExtCrlDistributionPoints",
           "package": "x509",
@@ -1192,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ExtCrlDistributionPoints",
           "normalized": "ExtCrlDistributionPoints[DistributionPoint]",
@@ -1207,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ExtExtendedKeyUsage",
           "package": "x509",
@@ -1216,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ExtExtendedKeyUsage",
           "normalized": "ExtExtendedKeyUsage[ExtKeyUsagePurpose]",
@@ -1231,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ExtKeyUsage",
           "package": "x509",
@@ -1240,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ExtKeyUsage",
           "normalized": "ExtKeyUsage[ExtKeyUsageFlag]",
@@ -1255,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ExtSubjectAltName",
           "package": "x509",
@@ -1264,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ExtSubjectAltName",
           "normalized": "ExtSubjectAltName[AltName]",
@@ -1279,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ExtSubjectKeyId",
           "package": "x509",
@@ -1288,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ExtSubjectKeyId",
           "package": "x509",
@@ -1301,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "ExtensionRaw",
           "package": "x509",
@@ -1310,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "ExtensionRaw",
           "package": "x509",
@@ -1323,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "Extensions",
           "package": "x509",
@@ -1332,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "Extensions",
           "normalized": "Extensions(Maybe[ExtensionRaw])",
@@ -1347,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "HashMD2",
           "package": "x509",
@@ -1356,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "HashMD2",
           "package": "x509",
@@ -1369,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "HashMD5",
           "package": "x509",
@@ -1378,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "HashMD5",
           "package": "x509",
@@ -1391,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "HashSHA1",
           "package": "x509",
@@ -1400,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "HashSHA1",
           "package": "x509",
@@ -1413,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "HashSHA224",
           "package": "x509",
@@ -1422,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "HashSHA224",
           "package": "x509",
@@ -1435,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "HashSHA256",
           "package": "x509",
@@ -1444,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "HashSHA256",
           "package": "x509",
@@ -1457,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "HashSHA384",
           "package": "x509",
@@ -1466,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "HashSHA384",
           "package": "x509",
@@ -1479,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "HashSHA512",
           "package": "x509",
@@ -1488,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "HashSHA512",
           "package": "x509",
@@ -1501,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "KeyUsagePurpose_ClientAuth",
           "package": "x509",
@@ -1510,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "KeyUsagePurpose_ClientAuth",
           "package": "x509",
@@ -1523,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "KeyUsagePurpose_CodeSigning",
           "package": "x509",
@@ -1532,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "KeyUsagePurpose_CodeSigning",
           "package": "x509",
@@ -1545,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "KeyUsagePurpose_EmailProtection",
           "package": "x509",
@@ -1554,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "KeyUsagePurpose_EmailProtection",
           "package": "x509",
@@ -1567,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "KeyUsagePurpose_OCSPSigning",
           "package": "x509",
@@ -1576,6 +1713,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "KeyUsagePurpose_OCSPSigning",
           "package": "x509",
@@ -1589,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "KeyUsagePurpose_ServerAuth",
           "package": "x509",
@@ -1598,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "KeyUsagePurpose_ServerAuth",
           "package": "x509",
@@ -1611,6 +1751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "KeyUsagePurpose_TimeStamping",
           "package": "x509",
@@ -1620,6 +1761,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "KeyUsagePurpose_TimeStamping",
           "package": "x509",
@@ -1633,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "KeyUsagePurpose_Unknown",
           "package": "x509",
@@ -1642,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "KeyUsagePurpose_Unknown",
           "package": "x509",
@@ -1655,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "KeyUsage_cRLSign",
           "package": "x509",
@@ -1664,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "KeyUsage_cRLSign",
           "package": "x509",
@@ -1677,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "KeyUsage_dataEncipherment",
           "package": "x509",
@@ -1686,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "KeyUsage_dataEncipherment",
           "package": "x509",
@@ -1699,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "KeyUsage_decipherOnly",
           "package": "x509",
@@ -1708,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "KeyUsage_decipherOnly",
           "package": "x509",
@@ -1721,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "KeyUsage_digitalSignature",
           "package": "x509",
@@ -1730,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "KeyUsage_digitalSignature",
           "package": "x509",
@@ -1743,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "KeyUsage_encipherOnly",
           "package": "x509",
@@ -1752,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "KeyUsage_encipherOnly",
           "package": "x509",
@@ -1765,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "KeyUsage_keyAgreement",
           "package": "x509",
@@ -1774,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "KeyUsage_keyAgreement",
           "package": "x509",
@@ -1787,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "KeyUsage_keyCertSign",
           "package": "x509",
@@ -1796,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "KeyUsage_keyCertSign",
           "package": "x509",
@@ -1809,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "KeyUsage_keyEncipherment",
           "package": "x509",
@@ -1818,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "KeyUsage_keyEncipherment",
           "package": "x509",
@@ -1831,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "KeyUsage_nonRepudiation",
           "package": "x509",
@@ -1840,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "KeyUsage_nonRepudiation",
           "package": "x509",
@@ -1854,6 +2016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDSA private key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "PrivKeyDSA",
           "package": "x509",
@@ -1864,6 +2027,7 @@
         "index": {
           "description": "DSA private key",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "PrivKeyDSA",
           "package": "x509",
@@ -1878,6 +2042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRSA private key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "PrivKeyRSA",
           "package": "x509",
@@ -1888,6 +2053,7 @@
         "index": {
           "description": "RSA private key",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "PrivKeyRSA",
           "package": "x509",
@@ -1902,6 +2068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiffie Hellman Public Key algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "PubKeyALG_DH",
           "package": "x509",
@@ -1912,6 +2079,7 @@
         "index": {
           "description": "Diffie Hellman Public Key algorithm",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "PubKeyALG_DH",
           "package": "x509",
@@ -1926,6 +2094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDSA Public Key algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "PubKeyALG_DSA",
           "package": "x509",
@@ -1936,6 +2105,7 @@
         "index": {
           "description": "DSA Public Key algorithm",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "PubKeyALG_DSA",
           "package": "x509",
@@ -1950,6 +2120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eECDSA Public Key algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "PubKeyALG_ECDSA",
           "package": "x509",
@@ -1960,6 +2131,7 @@
         "index": {
           "description": "ECDSA Public Key algorithm",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "PubKeyALG_ECDSA",
           "package": "x509",
@@ -1974,6 +2146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRSA Public Key algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "PubKeyALG_RSA",
           "package": "x509",
@@ -1984,6 +2157,7 @@
         "index": {
           "description": "RSA Public Key algorithm",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "PubKeyALG_RSA",
           "package": "x509",
@@ -1998,6 +2172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnknown Public Key algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "PubKeyALG_Unknown",
           "package": "x509",
@@ -2008,6 +2183,7 @@
         "index": {
           "description": "Unknown Public Key algorithm",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "PubKeyALG_Unknown",
           "package": "x509",
@@ -2022,6 +2198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDH format with (p,g,q,j,(seed,pgenCounter))\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "PubKeyDH",
           "package": "x509",
@@ -2032,6 +2209,7 @@
         "index": {
           "description": "DH format with seed pgenCounter",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "PubKeyDH",
           "normalized": "PubKeyDH(Integer,Integer,Integer,Maybe Integer,([Word],Integer))",
@@ -2048,6 +2226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDSA public key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "PubKeyDSA",
           "package": "x509",
@@ -2058,6 +2237,7 @@
         "index": {
           "description": "DSA public key",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "PubKeyDSA",
           "package": "x509",
@@ -2071,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "PubKeyECDSA",
           "package": "x509",
@@ -2080,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "PubKeyECDSA",
           "package": "x509",
@@ -2094,6 +2276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRSA public key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "PubKeyRSA",
           "package": "x509",
@@ -2104,6 +2287,7 @@
         "index": {
           "description": "RSA public key",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "PubKeyRSA",
           "package": "x509",
@@ -2118,6 +2302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunrecognized format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "PubKeyUnknown",
           "package": "x509",
@@ -2128,6 +2313,7 @@
         "index": {
           "description": "unrecognized format",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "PubKeyUnknown",
           "package": "x509",
@@ -2141,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "Reason_AACompromise",
           "package": "x509",
@@ -2150,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "Reason_AACompromise",
           "package": "x509",
@@ -2163,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "Reason_AffiliationChanged",
           "package": "x509",
@@ -2172,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "Reason_AffiliationChanged",
           "package": "x509",
@@ -2185,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "Reason_CACompromise",
           "package": "x509",
@@ -2194,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "Reason_CACompromise",
           "package": "x509",
@@ -2207,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "Reason_CertificateHold",
           "package": "x509",
@@ -2216,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "Reason_CertificateHold",
           "package": "x509",
@@ -2229,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "Reason_CessationOfOperation",
           "package": "x509",
@@ -2238,6 +2433,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "Reason_CessationOfOperation",
           "package": "x509",
@@ -2251,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "Reason_KeyCompromise",
           "package": "x509",
@@ -2260,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "Reason_KeyCompromise",
           "package": "x509",
@@ -2273,6 +2471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "Reason_PrivilegeWithdrawn",
           "package": "x509",
@@ -2282,6 +2481,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "Reason_PrivilegeWithdrawn",
           "package": "x509",
@@ -2295,6 +2495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "Reason_Superseded",
           "package": "x509",
@@ -2304,6 +2505,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "Reason_Superseded",
           "package": "x509",
@@ -2317,6 +2519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "Reason_Unused",
           "package": "x509",
@@ -2326,6 +2529,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "Reason_Unused",
           "package": "x509",
@@ -2339,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "RevokedCertificate",
           "package": "x509",
@@ -2348,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "RevokedCertificate",
           "package": "x509",
@@ -2361,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "SignatureALG",
           "package": "x509",
@@ -2370,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "SignatureALG",
           "package": "x509",
@@ -2383,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "SignatureALG_Unknown",
           "package": "x509",
@@ -2392,6 +2601,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "SignatureALG_Unknown",
           "package": "x509",
@@ -2405,6 +2615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "Signed",
           "package": "x509",
@@ -2414,6 +2625,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "Signed",
           "package": "x509",
@@ -2428,6 +2640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtensions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "certExtensions",
           "package": "x509",
@@ -2438,6 +2651,7 @@
         "index": {
           "description": "Extensions",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "certExtensions",
           "package": "x509",
@@ -2452,6 +2666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIssuer DN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "certIssuerDN",
           "package": "x509",
@@ -2462,6 +2677,7 @@
         "index": {
           "description": "Issuer DN",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "certIssuerDN",
           "package": "x509",
@@ -2476,6 +2692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePublic key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "certPubKey",
           "package": "x509",
@@ -2486,6 +2703,7 @@
         "index": {
           "description": "Public key",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "certPubKey",
           "package": "x509",
@@ -2500,6 +2718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerial number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "certSerial",
           "package": "x509",
@@ -2510,6 +2729,7 @@
         "index": {
           "description": "Serial number",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "certSerial",
           "package": "x509",
@@ -2524,6 +2744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature algorithm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "certSignatureAlg",
           "package": "x509",
@@ -2534,6 +2755,7 @@
         "index": {
           "description": "Signature algorithm",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "certSignatureAlg",
           "package": "x509",
@@ -2548,6 +2770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubject DN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "certSubjectDN",
           "package": "x509",
@@ -2558,6 +2781,7 @@
         "index": {
           "description": "Subject DN",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "certSubjectDN",
           "package": "x509",
@@ -2572,6 +2796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidity period\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "certValidity",
           "package": "x509",
@@ -2582,6 +2807,7 @@
         "index": {
           "description": "Validity period",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "certValidity",
           "normalized": "(UTCTime,UTCTime)",
@@ -2598,6 +2824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "certVersion",
           "package": "x509",
@@ -2608,6 +2835,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "certVersion",
           "package": "x509",
@@ -2621,6 +2849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "characterEncoding",
           "package": "x509",
@@ -2629,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "characterEncoding",
           "package": "x509",
@@ -2642,6 +2872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "crlExtensions",
           "package": "x509",
@@ -2651,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "crlExtensions",
           "package": "x509",
@@ -2664,6 +2896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "crlIssuer",
           "package": "x509",
@@ -2673,6 +2906,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "crlIssuer",
           "package": "x509",
@@ -2686,6 +2920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "crlNextUpdate",
           "package": "x509",
@@ -2695,6 +2930,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "crlNextUpdate",
           "package": "x509",
@@ -2708,6 +2944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "crlRevokedCertificates",
           "package": "x509",
@@ -2717,6 +2954,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "crlRevokedCertificates",
           "normalized": "[RevokedCertificate]",
@@ -2732,6 +2970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "crlSignatureAlg",
           "package": "x509",
@@ -2741,6 +2980,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "crlSignatureAlg",
           "package": "x509",
@@ -2754,6 +2994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "crlThisUpdate",
           "package": "x509",
@@ -2763,6 +3004,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "crlThisUpdate",
           "package": "x509",
@@ -2776,6 +3018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "crlVersion",
           "package": "x509",
@@ -2785,6 +3028,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "crlVersion",
           "package": "x509",
@@ -2799,6 +3043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a CertificateChainRaw into a CertificateChain if every\n raw certificate are decoded correctly, otherwise return the index of the\n failed certificate and the error associated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "decodeCertificateChain",
           "package": "x509",
@@ -2809,6 +3054,7 @@
         "index": {
           "description": "Decode CertificateChainRaw into CertificateChain if every raw certificate are decoded correctly otherwise return the index of the failed certificate and the error associated",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "decodeCertificateChain",
           "normalized": "CertificateChainRaw-\u003eEither(Int,String)CertificateChain",
@@ -2825,6 +3071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to decode a bytestring to a SignedCRL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "decodeSignedCRL",
           "package": "x509",
@@ -2835,6 +3082,7 @@
         "index": {
           "description": "Try to decode bytestring to SignedCRL",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "decodeSignedCRL",
           "normalized": "ByteString-\u003eEither String SignedCRL",
@@ -2851,6 +3099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to decode a bytestring to a SignedCertificate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "decodeSignedCertificate",
           "package": "x509",
@@ -2861,6 +3110,7 @@
         "index": {
           "description": "Try to decode bytestring to SignedCertificate",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "decodeSignedCertificate",
           "normalized": "ByteString-\u003eEither String SignedCertificate",
@@ -2877,6 +3127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to parse a bytestring that use the typical X509 signed structure format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "decodeSignedObject",
           "package": "x509",
@@ -2887,6 +3138,7 @@
         "index": {
           "description": "Try to parse bytestring that use the typical X509 signed structure format",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "decodeSignedObject",
           "normalized": "ByteString-\u003eEither String(SignedExact a)",
@@ -2903,6 +3155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a CertificateChain into a CertificateChainRaw\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "encodeCertificateChain",
           "package": "x509",
@@ -2913,6 +3166,7 @@
         "index": {
           "description": "Convert CertificateChain into CertificateChainRaw",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "encodeCertificateChain",
           "normalized": "CertificateChain-\u003eCertificateChainRaw",
@@ -2929,6 +3183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe raw representation of the whole signed structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "encodeSignedObject",
           "package": "x509",
@@ -2939,6 +3194,7 @@
         "index": {
           "description": "The raw representation of the whole signed structure",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "encodeSignedObject",
           "normalized": "SignedExact a-\u003eByteString",
@@ -2954,6 +3210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "extDecode",
           "package": "x509",
@@ -2963,6 +3220,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "extDecode",
           "normalized": "[ASN]-\u003eEither String a",
@@ -2978,6 +3236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "extEncode",
           "package": "x509",
@@ -2987,6 +3246,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "extEncode",
           "normalized": "a-\u003e[ASN]",
@@ -3002,6 +3262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "extOID",
           "package": "x509",
@@ -3011,6 +3272,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "extOID",
           "normalized": "a-\u003eOID",
@@ -3027,6 +3289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe associated ASN1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "extRawASN1",
           "package": "x509",
@@ -3037,6 +3300,7 @@
         "index": {
           "description": "the associated ASN1",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "extRawASN1",
           "normalized": "[ASN]",
@@ -3053,6 +3317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif this extension is critical\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "extRawCritical",
           "package": "x509",
@@ -3063,6 +3328,7 @@
         "index": {
           "description": "if this extension is critical",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "extRawCritical",
           "package": "x509",
@@ -3077,6 +3343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOID of this extension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "extRawOID",
           "package": "x509",
@@ -3087,6 +3354,7 @@
         "index": {
           "description": "OID of this extension",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "extRawOID",
           "package": "x509",
@@ -3101,6 +3369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to decode an ExtensionRaw.\n\u003c/p\u003e\u003cp\u003eIf this function return:\n * Nothing, the OID doesn't match\n * Just Left, the OID matched, but the extension couldn't be decoded\n * Just Right, the OID matched, and the extension has been succesfully decoded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "extensionDecode",
           "package": "x509",
@@ -3111,6 +3380,7 @@
         "index": {
           "description": "Try to decode an ExtensionRaw If this function return Nothing the OID doesn match Just Left the OID matched but the extension couldn be decoded Just Right the OID matched and the extension has been succesfully decoded",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "extensionDecode",
           "normalized": "ExtensionRaw-\u003eMaybe(Either String a)",
@@ -3127,6 +3397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an Extension to extensionRaw\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "extensionEncode",
           "package": "x509",
@@ -3137,6 +3408,7 @@
         "index": {
           "description": "Encode an Extension to extensionRaw",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "extensionEncode",
           "normalized": "Bool-\u003ea-\u003eExtensionRaw",
@@ -3153,6 +3425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a specific extension from a lists of raw extensions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "extensionGet",
           "package": "x509",
@@ -3163,6 +3436,7 @@
         "index": {
           "description": "Get specific extension from lists of raw extensions",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "extensionGet",
           "normalized": "Extensions-\u003eMaybe a",
@@ -3179,6 +3453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the CRL associated to a SignedCRL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "getCRL",
           "package": "x509",
@@ -3189,6 +3464,7 @@
         "index": {
           "description": "Get the CRL associated to SignedCRL",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "getCRL",
           "normalized": "SignedCRL-\u003eCRL",
@@ -3205,6 +3481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the Certificate associated to a SignedCertificate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "getCertificate",
           "package": "x509",
@@ -3215,6 +3492,7 @@
         "index": {
           "description": "Get the Certificate associated to SignedCertificate",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "getCertificate",
           "normalized": "SignedCertificate-\u003eCertificate",
@@ -3230,6 +3508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "getCharacterStringRawData",
           "package": "x509",
@@ -3238,6 +3517,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "getCharacterStringRawData",
           "package": "x509",
@@ -3251,6 +3531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "getDistinguishedElements",
           "package": "x509",
@@ -3260,6 +3541,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "getDistinguishedElements",
           "normalized": "[(OID,ASN CharacterString)]",
@@ -3276,6 +3558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to get a specific element in a \u003ccode\u003e\u003ca\u003eDistinguishedName\u003c/a\u003e\u003c/code\u003e structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "getDnElement",
           "package": "x509",
@@ -3286,6 +3569,7 @@
         "index": {
           "description": "Try to get specific element in DistinguishedName structure",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "getDnElement",
           "normalized": "DnElement-\u003eDistinguishedName-\u003eMaybe ASN CharacterString",
@@ -3302,6 +3586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the decoded Signed data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "getSigned",
           "package": "x509",
@@ -3312,6 +3597,7 @@
         "index": {
           "description": "get the decoded Signed data",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "getSigned",
           "normalized": "SignedExact a-\u003eSigned a",
@@ -3328,6 +3614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the signed data for the signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "getSignedData",
           "package": "x509",
@@ -3338,6 +3625,7 @@
         "index": {
           "description": "Get the signed data for the signature",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "getSignedData",
           "normalized": "SignedExact a-\u003eByteString",
@@ -3354,6 +3642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an OpenSSL style hash of distinguished name\n\u003c/p\u003e\u003cp\u003eOpenSSL algorithm is odd, and has been replicated here somewhat.\n only lower the case of ascii character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "hashDN",
           "package": "x509",
@@ -3364,6 +3653,7 @@
         "index": {
           "description": "Make an OpenSSL style hash of distinguished name OpenSSL algorithm is odd and has been replicated here somewhat only lower the case of ascii character",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "hashDN",
           "normalized": "DistinguishedName-\u003eByteString",
@@ -3380,6 +3670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an openssl style old hash of distinguished name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "hashDN_old",
           "package": "x509",
@@ -3390,6 +3681,7 @@
         "index": {
           "description": "Create an openssl style old hash of distinguished name",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "hashDN_old",
           "normalized": "DistinguishedName-\u003eByteString",
@@ -3406,6 +3698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform an object into a \u003ccode\u003e\u003ca\u003eSignedExact\u003c/a\u003e\u003c/code\u003e object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "objectToSignedExact",
           "package": "x509",
@@ -3415,6 +3708,7 @@
         "index": {
           "description": "Transform an object into SignedExact object",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "objectToSignedExact",
           "normalized": "(ByteString-\u003e(ByteString,SignatureALG,a))-\u003eb-\u003e(SignedExact b,a)",
@@ -3431,6 +3725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Public key to the Public Key Algorithm type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "privkeyToAlg",
           "package": "x509",
@@ -3441,6 +3736,7 @@
         "index": {
           "description": "Convert Public key to the Public Key Algorithm type",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "privkeyToAlg",
           "normalized": "PrivKey-\u003ePubKeyALG",
@@ -3457,6 +3753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Public key to the Public Key Algorithm type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "pubkeyToAlg",
           "package": "x509",
@@ -3467,6 +3764,7 @@
         "index": {
           "description": "Convert Public key to the Public Key Algorithm type",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "pubkeyToAlg",
           "normalized": "PubKey-\u003ePubKeyALG",
@@ -3482,6 +3780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "revokedDate",
           "package": "x509",
@@ -3491,6 +3790,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "revokedDate",
           "package": "x509",
@@ -3504,6 +3804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "revokedExtensions",
           "package": "x509",
@@ -3513,6 +3814,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "revokedExtensions",
           "package": "x509",
@@ -3526,6 +3828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "revokedSerialNumber",
           "package": "x509",
@@ -3535,6 +3838,7 @@
         },
         "index": {
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "revokedSerialNumber",
           "package": "x509",
@@ -3549,6 +3853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature Algorithm used\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "signedAlg",
           "package": "x509",
@@ -3559,6 +3864,7 @@
         "index": {
           "description": "Signature Algorithm used",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "signedAlg",
           "package": "x509",
@@ -3573,6 +3879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObject to sign\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "signedObject",
           "package": "x509",
@@ -3583,6 +3890,7 @@
         "index": {
           "description": "Object to sign",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "signedObject",
           "package": "x509",
@@ -3597,6 +3905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignature as bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:48 UTC 2014",
           "module": "Data.X509",
           "name": "signedSignature",
           "package": "x509",
@@ -3607,6 +3916,7 @@
         "index": {
           "description": "Signature as bytes",
           "hierarchy": "Data X509",
+          "indexed": "2014-03-11T20:40:48",
           "module": "Data.X509",
           "name": "signedSignature",
           "package": "x509",

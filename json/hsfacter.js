@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsfacter"
+        "phrase": "hsfacter",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:27 UTC 2014",
           "module": "Facter",
           "name": "Facter",
           "package": "hsfacter",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Facter",
+          "indexed": "2014-03-11T18:48:27",
           "module": "Facter",
           "name": "Facter",
           "package": "hsfacter",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:27 UTC 2014",
           "module": "Facter",
           "name": "allFacts",
           "package": "hsfacter",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Facter",
+          "indexed": "2014-03-11T18:48:27",
           "module": "Facter",
           "name": "allFacts",
           "normalized": "Text-\u003eIO(Map Text ResolvedValue)",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:27 UTC 2014",
           "module": "Facter",
           "name": "factMountPoints",
           "package": "hsfacter",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Facter",
+          "indexed": "2014-03-11T18:48:27",
           "module": "Facter",
           "name": "factMountPoints",
           "normalized": "IO[(String,String)]",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:27 UTC 2014",
           "module": "Facter",
           "name": "factNET",
           "package": "hsfacter",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Facter",
+          "indexed": "2014-03-11T18:48:27",
           "module": "Facter",
           "name": "factNET",
           "normalized": "IO[(String,String)]",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:27 UTC 2014",
           "module": "Facter",
           "name": "factOS",
           "package": "hsfacter",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Facter",
+          "indexed": "2014-03-11T18:48:27",
           "module": "Facter",
           "name": "factOS",
           "normalized": "IO[(String,String)]",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:27 UTC 2014",
           "module": "Facter",
           "name": "factRAM",
           "package": "hsfacter",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Facter",
+          "indexed": "2014-03-11T18:48:27",
           "module": "Facter",
           "name": "factRAM",
           "normalized": "IO[(String,String)]",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:27 UTC 2014",
           "module": "Facter",
           "name": "getOrder",
           "package": "hsfacter",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Facter",
+          "indexed": "2014-03-11T18:48:27",
           "module": "Facter",
           "name": "getOrder",
           "normalized": "String-\u003eInt",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:27 UTC 2014",
           "module": "Facter",
           "name": "getPrefix",
           "package": "hsfacter",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Facter",
+          "indexed": "2014-03-11T18:48:27",
           "module": "Facter",
           "name": "getPrefix",
           "normalized": "Int-\u003eString",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:27 UTC 2014",
           "module": "Facter",
           "name": "normalizeUnit",
           "package": "hsfacter",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Facter",
+          "indexed": "2014-03-11T18:48:27",
           "module": "Facter",
           "name": "normalizeUnit",
           "normalized": "(Double,Int)-\u003eDouble-\u003e(Double,Int)",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:27 UTC 2014",
           "module": "Facter",
           "name": "puppetDBFacts",
           "package": "hsfacter",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Facter",
+          "indexed": "2014-03-11T18:48:27",
           "module": "Facter",
           "name": "puppetDBFacts",
           "normalized": "String-\u003eString-\u003eIO(Map Text ResolvedValue)",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:27 UTC 2014",
           "module": "Facter",
           "name": "storagedesc",
           "package": "hsfacter",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Facter",
+          "indexed": "2014-03-11T18:48:27",
           "module": "Facter",
           "name": "storagedesc",
           "normalized": "(String,String)-\u003eString",
@@ -278,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:27 UTC 2014",
           "module": "Facter",
           "name": "storageunits",
           "package": "hsfacter",
@@ -287,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Facter",
+          "indexed": "2014-03-11T18:48:27",
           "module": "Facter",
           "name": "storageunits",
           "normalized": "[(String,Int)]",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:27 UTC 2014",
           "module": "Facter",
           "name": "version",
           "package": "hsfacter",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Facter",
+          "indexed": "2014-03-11T18:48:27",
           "module": "Facter",
           "name": "version",
           "normalized": "IO[(String,String)]",

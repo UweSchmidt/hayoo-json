@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "httpd-shed"
+        "phrase": "httpd-shed",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA trivial web server.\n\u003c/p\u003e\u003cp\u003eThis web server promotes a Request to IO Response function\n into a local web server. The user can decide how to interpret\n the requests, and the library is intended for implementing Ajax APIs.\n\u003c/p\u003e\u003cp\u003einitServerLazy (and assocated refactorings), and Chunking support\n was written by Henning Thielemann.\n Handling of POST-based payloads was been written by Brandon Moore.\n initServerBind support was written by John Van Enk.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "Httpd",
           "package": "httpd-shed",
@@ -28,6 +29,7 @@
         "index": {
           "description": "trivial web server This web server promotes Request to IO Response function into local web server The user can decide how to interpret the requests and the library is intended for implementing Ajax APIs initServerLazy and assocated refactorings and Chunking support was written by Henning Thielemann Handling of POST-based payloads was been written by Brandon Moore initServerBind support was written by John Van Enk",
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "Httpd",
           "package": "httpd-shed",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "Request",
           "package": "httpd-shed",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "Request",
           "package": "httpd-shed",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "Response",
           "package": "httpd-shed",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "Response",
           "package": "httpd-shed",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "Server",
           "package": "httpd-shed",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "Server",
           "package": "httpd-shed",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "Request",
           "package": "httpd-shed",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "Request",
           "package": "httpd-shed",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "Response",
           "package": "httpd-shed",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "Response",
           "package": "httpd-shed",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "addCache",
           "package": "httpd-shed",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "addCache",
           "normalized": "Int-\u003e(String,String)",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "contentType",
           "package": "httpd-shed",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "contentType",
           "normalized": "String-\u003e(String,String)",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis server transfers documents as one parcel, using the content-length header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "initServer",
           "package": "httpd-shed",
@@ -206,6 +223,7 @@
         "index": {
           "description": "This server transfers documents as one parcel using the content-length header",
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "initServer",
           "normalized": "Int-\u003e(Request-\u003eIO Response)-\u003eIO Server",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis server transfers documents as one parcel, using the content-length header,\nand takes an additional \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "initServerBind",
           "package": "httpd-shed",
@@ -231,6 +250,7 @@
         "index": {
           "description": "This server transfers documents as one parcel using the content-length header and takes an additional",
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "initServerBind",
           "normalized": "Int-\u003eHostAddress-\u003e(Request-\u003eIO Response)-\u003eIO Server",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis server transfers documents in chunked mode\nand without content-length header.\nThis way you can ship infinitely big documents.\nIt inserts the transfer encoding header for you.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "initServerLazy",
           "package": "httpd-shed",
@@ -256,6 +277,7 @@
         "index": {
           "description": "This server transfers documents in chunked mode and without content-length header This way you can ship infinitely big documents It inserts the transfer encoding header for you",
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "initServerLazy",
           "normalized": "Int-\u003eInt-\u003e(Request-\u003eIO Response)-\u003eIO Server",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "noCache",
           "package": "httpd-shed",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "noCache",
           "normalized": "(String,String)",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes an escaped query, optionally starting with \u003ccode\u003e?\u003c/code\u003e, and returns an unescaped index-value list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "queryToArguments",
           "package": "httpd-shed",
@@ -306,6 +331,7 @@
         "index": {
           "description": "Takes an escaped query optionally starting with and returns an unescaped index-value list",
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "queryToArguments",
           "normalized": "String-\u003e[(String,String)]",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "reqBody",
           "package": "httpd-shed",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "reqBody",
           "package": "httpd-shed",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "reqHeaders",
           "package": "httpd-shed",
@@ -352,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "reqHeaders",
           "normalized": "[(String,String)]",
@@ -367,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "reqMethod",
           "package": "httpd-shed",
@@ -376,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "reqMethod",
           "package": "httpd-shed",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "reqURI",
           "package": "httpd-shed",
@@ -398,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "reqURI",
           "package": "httpd-shed",
@@ -411,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "resBody",
           "package": "httpd-shed",
@@ -420,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "resBody",
           "package": "httpd-shed",
@@ -433,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "resCode",
           "package": "httpd-shed",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "resCode",
           "package": "httpd-shed",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:11 UTC 2014",
           "module": "Network.Shed.Httpd",
           "name": "resHeaders",
           "package": "httpd-shed",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Network Shed Httpd",
+          "indexed": "2014-03-11T18:53:11",
           "module": "Network.Shed.Httpd",
           "name": "resHeaders",
           "normalized": "[(String,String)]",

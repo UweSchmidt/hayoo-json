@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "template-default"
+        "phrase": "template-default",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:10 UTC 2014",
           "module": "Data.Default.TH",
           "name": "TH",
           "package": "template-default",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Default TH",
+          "indexed": "2014-03-11T20:18:10",
           "module": "Data.Default.TH",
           "name": "TH",
           "package": "template-default",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:10 UTC 2014",
           "module": "Data.Default.TH",
           "name": "deriveDefault",
           "package": "template-default",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Default TH",
+          "indexed": "2014-03-11T20:18:10",
           "module": "Data.Default.TH",
           "name": "deriveDefault",
           "normalized": "Name-\u003eQ[Dec]",

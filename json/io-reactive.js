@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "io-reactive"
+        "phrase": "io-reactive",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn API for generating reactive objects, as used in the TIMBER programming language.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:59:07 UTC 2014",
           "module": "Control.Concurrent.Reactive",
           "name": "Reactive",
           "package": "io-reactive",
@@ -28,6 +29,7 @@
         "index": {
           "description": "An API for generating reactive objects as used in the TIMBER programming language",
           "hierarchy": "Control Concurrent Reactive",
+          "indexed": "2014-03-11T18:59:07",
           "module": "Control.Concurrent.Reactive",
           "name": "Reactive",
           "package": "io-reactive",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:07 UTC 2014",
           "module": "Control.Concurrent.Reactive",
           "name": "Action",
           "package": "io-reactive",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Reactive",
+          "indexed": "2014-03-11T18:59:07",
           "module": "Control.Concurrent.Reactive",
           "name": "Action",
           "package": "io-reactive",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:07 UTC 2014",
           "module": "Control.Concurrent.Reactive",
           "name": "Request",
           "package": "io-reactive",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Reactive",
+          "indexed": "2014-03-11T18:59:07",
           "module": "Control.Concurrent.Reactive",
           "name": "Request",
           "package": "io-reactive",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:07 UTC 2014",
           "module": "Control.Concurrent.Reactive",
           "name": "reactiveObjectIO",
           "package": "io-reactive",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Reactive",
+          "indexed": "2014-03-11T18:59:07",
           "module": "Control.Concurrent.Reactive",
           "name": "reactiveObjectIO",
           "normalized": "a-\u003e(ThreadId-\u003e(b c Request a d-\u003eIO d)-\u003e(Action a-\u003eIO())-\u003eIO()-\u003ee)-\u003eIO e",

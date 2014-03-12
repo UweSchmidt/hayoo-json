@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Pup-Events-Demo"
+        "phrase": "Pup-Events-Demo",
+        "type": "phrase"
       },
       "type": "context"
     }

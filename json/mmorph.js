@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mmorph"
+        "phrase": "mmorph",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA monad morphism is a natural transformation:\n\u003c/p\u003e\u003cpre\u003e morph :: forall a . m a -\u003e n a\n\u003c/pre\u003e\u003cp\u003e... that obeys the following two laws:\n\u003c/p\u003e\u003cpre\u003e morph $ do x \u003c- m  =  do x \u003c- morph m\n            f x           morph (f x)\n \n morph (return x) = return x\n\u003c/pre\u003e\u003cp\u003e... which are equivalent to the following two functor laws:\n\u003c/p\u003e\u003cpre\u003e morph . (f \u003e=\u003e g) = morph . f \u003e=\u003e morph . g\n \n morph . return = return\n\u003c/pre\u003e\u003cp\u003eExamples of monad morphisms include:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e (from \u003ccode\u003e\u003ca\u003eMonadTrans\u003c/a\u003e\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003esquash\u003c/a\u003e\u003c/code\u003e (See below)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003ehoist\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e (See below), if \u003ccode\u003ef\u003c/code\u003e is a monad morphism\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e(f . g)\u003c/code\u003e, if \u003ccode\u003ef\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e are both monad morphisms\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eMonad morphisms commonly arise when manipulating existing monad transformer\n    code for compatibility purposes.  The \u003ccode\u003e\u003ca\u003eMFunctor\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eMonadTrans\u003c/a\u003e\u003c/code\u003e, and\n    \u003ccode\u003e\u003ca\u003eMMonad\u003c/a\u003e\u003c/code\u003e classes define standard ways to change monad transformer stacks:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e introduces a new monad transformer layer of any type.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003esquash\u003c/a\u003e\u003c/code\u003e flattens two identical monad transformer layers into a single\n      layer of the same type.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ehoist\u003c/a\u003e\u003c/code\u003e maps monad morphisms to modify deeper layers of the monad\n       transformer stack.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:18:54 UTC 2014",
           "module": "Control.Monad.Morph",
           "name": "Morph",
           "package": "mmorph",
@@ -28,6 +29,7 @@
         "index": {
           "description": "monad morphism is natural transformation morph forall that obeys the following two laws morph do do morph morph morph return return which are equivalent to the following two functor laws morph morph morph morph return return Examples of monad morphisms include lift from MonadTrans squash See below hoist See below if is monad morphism if and are both monad morphisms id Monad morphisms commonly arise when manipulating existing monad transformer code for compatibility purposes The MFunctor MonadTrans and MMonad classes define standard ways to change monad transformer stacks lift introduces new monad transformer layer of any type squash flattens two identical monad transformer layers into single layer of the same type hoist maps monad morphisms to modify deeper layers of the monad transformer stack",
           "hierarchy": "Control Monad Morph",
+          "indexed": "2014-03-11T19:18:54",
           "module": "Control.Monad.Morph",
           "name": "Morph",
           "package": "mmorph",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA functor in the category of monads, using \u003ccode\u003e\u003ca\u003ehoist\u003c/a\u003e\u003c/code\u003e as the analog of \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e hoist (f . g) = hoist f . hoist g\n \n hoist id = id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:18:54 UTC 2014",
           "module": "Control.Monad.Morph",
           "name": "MFunctor",
           "package": "mmorph",
@@ -51,6 +54,7 @@
         "index": {
           "description": "functor in the category of monads using hoist as the analog of fmap hoist hoist hoist hoist id id",
           "hierarchy": "Control Monad Morph",
+          "indexed": "2014-03-11T19:18:54",
           "module": "Control.Monad.Morph",
           "name": "MFunctor",
           "package": "mmorph",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad in the category of monads, using \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eMonadTrans\u003c/a\u003e\u003c/code\u003e as the\n    analog of \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eembed\u003c/a\u003e\u003c/code\u003e as the analog of (\u003ccode\u003e\u003ca\u003e=\u003c\u003c\u003c/a\u003e\u003c/code\u003e):\n\u003c/p\u003e\u003cpre\u003e embed lift = id\n \n embed f (lift m) = f m\n \n embed g (embed f t) = embed (\\m -\u003e embed g (f m)) t\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:18:54 UTC 2014",
           "module": "Control.Monad.Morph",
           "name": "MMonad",
           "package": "mmorph",
@@ -74,6 +79,7 @@
         "index": {
           "description": "monad in the category of monads using lift from MonadTrans as the analog of return and embed as the analog of embed lift id embed lift embed embed embed embed",
           "hierarchy": "Control Monad Morph",
+          "indexed": "2014-03-11T19:18:54",
           "module": "Control.Monad.Morph",
           "name": "MMonad",
           "package": "mmorph",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of monad transformers.  Instances should satisfy the\n following laws, which state that \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e is a transformer of monads:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e (m \u003e\u003e= f) = \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e m \u003e\u003e= (\u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e . f)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:18:54 UTC 2014",
           "module": "Control.Monad.Morph",
           "name": "MonadTrans",
           "package": "mmorph",
@@ -96,6 +103,7 @@
         "index": {
           "description": "The class of monad transformers Instances should satisfy the following laws which state that lift is transformer of monads lift return return lift lift lift",
           "hierarchy": "Control Monad Morph",
+          "indexed": "2014-03-11T19:18:54",
           "module": "Control.Monad.Morph",
           "name": "MonadTrans",
           "package": "mmorph",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to (\u003ccode\u003e\u003ca\u003e=\u003c|\u003c/a\u003e\u003c/code\u003e) with the arguments flipped\n\u003c/p\u003e\u003cp\u003e(\u003ccode\u003e\u003ca\u003e|\u003e=\u003c/a\u003e\u003c/code\u003e) is analogous to (\u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:54 UTC 2014",
           "module": "Control.Monad.Morph",
           "name": "(|\u003e=)",
           "package": "mmorph",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Equivalent to with the arguments flipped is analogous to",
           "hierarchy": "Control Monad Morph",
+          "indexed": "2014-03-11T19:18:54",
           "module": "Control.Monad.Morph",
           "name": "(|\u003e=) |\u003e=",
           "normalized": "a b c-\u003e(d e b f-\u003ea g f)-\u003ea g c",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to (\u003ccode\u003e\u003ca\u003e\u003e|\u003e\u003c/a\u003e\u003c/code\u003e) with the arguments flipped\n\u003c/p\u003e\u003cp\u003e(\u003ccode\u003e\u003ca\u003e\u003c|\u003c\u003c/a\u003e\u003c/code\u003e) is analogous to (\u003ccode\u003e\u003ca\u003e\u003c=\u003c\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:54 UTC 2014",
           "module": "Control.Monad.Morph",
           "name": "(\u003c|\u003c)",
           "package": "mmorph",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Equivalent to with the arguments flipped is analogous to",
           "hierarchy": "Control Monad Morph",
+          "indexed": "2014-03-11T19:18:54",
           "module": "Control.Monad.Morph",
           "name": "(\u003c|\u003c) \u003c|\u003c",
           "normalized": "(a b c d-\u003ee c d)-\u003e(a f c g-\u003ee c g)-\u003ec h-\u003ee c h",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix operator equivalent to \u003ccode\u003e\u003ca\u003eembed\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003e(\u003ccode\u003e\u003ca\u003e=\u003c|\u003c/a\u003e\u003c/code\u003e) is analogous to (\u003ccode\u003e\u003ca\u003e=\u003c\u003c\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:54 UTC 2014",
           "module": "Control.Monad.Morph",
           "name": "(=\u003c|)",
           "package": "mmorph",
@@ -170,6 +183,7 @@
         "index": {
           "description": "An infix operator equivalent to embed is analogous to",
           "hierarchy": "Control Monad Morph",
+          "indexed": "2014-03-11T19:18:54",
           "module": "Control.Monad.Morph",
           "name": "(=\u003c|) =\u003c|",
           "normalized": "(a b c d-\u003ee f d)-\u003ee c g-\u003ee f g",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose two \u003ccode\u003e\u003ca\u003eMMonad\u003c/a\u003e\u003c/code\u003e layer-building functions\n\u003c/p\u003e\u003cp\u003e(\u003ccode\u003e\u003ca\u003e\u003e|\u003e\u003c/a\u003e\u003c/code\u003e) is analogous to (\u003ccode\u003e\u003ca\u003e\u003e=\u003e\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:54 UTC 2014",
           "module": "Control.Monad.Morph",
           "name": "(\u003e|\u003e)",
           "package": "mmorph",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Compose two MMonad layer-building functions is analogous to",
           "hierarchy": "Control Monad Morph",
+          "indexed": "2014-03-11T19:18:54",
           "module": "Control.Monad.Morph",
           "name": "(\u003e|\u003e) \u003e|\u003e",
           "normalized": "(a b c d-\u003ee c d)-\u003e(a f c g-\u003ee c g)-\u003ec h-\u003ee c h",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbed a newly created \u003ccode\u003e\u003ca\u003eMMonad\u003c/a\u003e\u003c/code\u003e layer within an existing layer\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eembed\u003c/a\u003e\u003c/code\u003e is analogous to (\u003ccode\u003e\u003ca\u003e=\u003c\u003c\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:54 UTC 2014",
           "module": "Control.Monad.Morph",
           "name": "embed",
           "package": "mmorph",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Embed newly created MMonad layer within an existing layer embed is analogous to",
           "hierarchy": "Control Monad Morph",
+          "indexed": "2014-03-11T19:18:54",
           "module": "Control.Monad.Morph",
           "name": "embed",
           "normalized": "(a b c d-\u003ee f d)-\u003ee c g-\u003ee f g",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function that \u003ccode\u003egeneralize\u003c/code\u003es the \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e base monad to be any monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:54 UTC 2014",
           "module": "Control.Monad.Morph",
           "name": "generalize",
           "package": "mmorph",
@@ -245,6 +264,7 @@
         "index": {
           "description": "function that generalize the Identity base monad to be any monad",
           "hierarchy": "Control Monad Morph",
+          "indexed": "2014-03-11T19:18:54",
           "module": "Control.Monad.Morph",
           "name": "generalize",
           "normalized": "Identity a-\u003eb a",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a monad morphism from \u003ccode\u003em\u003c/code\u003e to \u003ccode\u003en\u003c/code\u003e into a monad morphism from\n        \u003ccode\u003e(t m)\u003c/code\u003e to \u003ccode\u003e(t n)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:54 UTC 2014",
           "module": "Control.Monad.Morph",
           "name": "hoist",
           "package": "mmorph",
@@ -270,6 +291,7 @@
         "index": {
           "description": "Lift monad morphism from to into monad morphism from to",
           "hierarchy": "Control Monad Morph",
+          "indexed": "2014-03-11T19:18:54",
           "module": "Control.Monad.Morph",
           "name": "hoist",
           "normalized": "(a b c d-\u003ee d)-\u003ef c g-\u003ef e g",
@@ -285,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the argument monad to the constructed monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:54 UTC 2014",
           "module": "Control.Monad.Morph",
           "name": "lift",
           "package": "mmorph",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Lift computation from the argument monad to the constructed monad",
           "hierarchy": "Control Monad Morph",
+          "indexed": "2014-03-11T19:18:54",
           "module": "Control.Monad.Morph",
           "name": "lift",
           "normalized": "a b-\u003ec a b",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSquash two \u003ccode\u003e\u003ca\u003eMMonad\u003c/a\u003e\u003c/code\u003e layers into a single layer\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003esquash\u003c/a\u003e\u003c/code\u003e is analogous to \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:54 UTC 2014",
           "module": "Control.Monad.Morph",
           "name": "squash",
           "package": "mmorph",
@@ -319,6 +344,7 @@
         "index": {
           "description": "Squash two MMonad layers into single layer squash is analogous to join",
           "hierarchy": "Control Monad Morph",
+          "indexed": "2014-03-11T19:18:54",
           "module": "Control.Monad.Morph",
           "name": "squash",
           "normalized": "a(a b)c-\u003ea b c",
@@ -334,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComposition of monad transformers. A higher-order version of\n    \u003ca\u003eData.Functor.Compose\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:18:54 UTC 2014",
           "module": "Control.Monad.Trans.Compose",
           "name": "Compose",
           "package": "mmorph",
@@ -343,6 +370,7 @@
         "index": {
           "description": "Composition of monad transformers higher-order version of Data.Functor.Compose",
           "hierarchy": "Control Monad Trans Compose",
+          "indexed": "2014-03-11T19:18:54",
           "module": "Control.Monad.Trans.Compose",
           "name": "Compose",
           "package": "mmorph",
@@ -357,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposition of monad transformers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:18:54 UTC 2014",
           "module": "Control.Monad.Trans.Compose",
           "name": "ComposeT",
           "package": "mmorph",
@@ -366,6 +395,7 @@
         "index": {
           "description": "Composition of monad transformers",
           "hierarchy": "Control Monad Trans Compose",
+          "indexed": "2014-03-11T19:18:54",
           "module": "Control.Monad.Trans.Compose",
           "name": "ComposeT",
           "package": "mmorph",
@@ -379,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:54 UTC 2014",
           "module": "Control.Monad.Trans.Compose",
           "name": "ComposeT",
           "package": "mmorph",
@@ -388,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Compose",
+          "indexed": "2014-03-11T19:18:54",
           "module": "Control.Monad.Trans.Compose",
           "name": "ComposeT",
           "package": "mmorph",
@@ -401,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:18:54 UTC 2014",
           "module": "Control.Monad.Trans.Compose",
           "name": "getComposeT",
           "package": "mmorph",
@@ -410,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Compose",
+          "indexed": "2014-03-11T19:18:54",
           "module": "Control.Monad.Trans.Compose",
           "name": "getComposeT",
           "package": "mmorph",

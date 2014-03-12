@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Eq"
+        "phrase": "Eq",
+        "type": "phrase"
       },
       "type": "context"
     }

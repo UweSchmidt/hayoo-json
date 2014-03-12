@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dirfiles"
+        "phrase": "dirfiles",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.IRI",
           "name": "IRI",
           "package": "dirfiles",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Library IRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.IRI",
           "name": "IRI",
           "package": "dirfiles",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.IRI",
           "name": "IRI",
           "package": "dirfiles",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Library IRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.IRI",
           "name": "IRI",
           "package": "dirfiles",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.IRI",
           "name": "Absolute",
           "package": "dirfiles",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Library IRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.IRI",
           "name": "Absolute",
           "package": "dirfiles",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.IRI",
           "name": "Relative",
           "package": "dirfiles",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Library IRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.IRI",
           "name": "Relative",
           "package": "dirfiles",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.IRI",
           "name": "dirs",
           "package": "dirfiles",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Library IRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.IRI",
           "name": "dirs",
           "normalized": "IRI-\u003e[Text]",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.IRI",
           "name": "domain",
           "package": "dirfiles",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data Library IRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.IRI",
           "name": "domain",
           "normalized": "IRI-\u003eMaybe Text",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.IRI",
           "name": "extension",
           "package": "dirfiles",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data Library IRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.IRI",
           "name": "extension",
           "normalized": "IRI-\u003eMaybe Text",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.IRI",
           "name": "fromIRI",
           "package": "dirfiles",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Data Library IRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.IRI",
           "name": "fromIRI",
           "normalized": "IRI-\u003eText",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.IRI",
           "name": "isAbsolute",
           "package": "dirfiles",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Data Library IRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.IRI",
           "name": "isAbsolute",
           "normalized": "IRI-\u003eBool",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.IRI",
           "name": "isRelative",
           "package": "dirfiles",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Data Library IRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.IRI",
           "name": "isRelative",
           "normalized": "IRI-\u003eBool",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.IRI",
           "name": "protocol",
           "package": "dirfiles",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Data Library IRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.IRI",
           "name": "protocol",
           "normalized": "IRI-\u003eMaybe Text",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.IRI",
           "name": "toIRI",
           "package": "dirfiles",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Data Library IRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.IRI",
           "name": "toIRI",
           "normalized": "Text-\u003eIRI",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.UUIRI",
           "name": "UUIRI",
           "package": "dirfiles",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Data Library UUIRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.UUIRI",
           "name": "UUIRI",
           "package": "dirfiles",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.UUIRI",
           "name": "UUIRI",
           "package": "dirfiles",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Data Library UUIRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.UUIRI",
           "name": "UUIRI",
           "package": "dirfiles",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.UUIRI",
           "name": "UUIRI",
           "package": "dirfiles",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Data Library UUIRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.UUIRI",
           "name": "UUIRI",
           "normalized": "UUIRI(UUID,IRI)",
@@ -359,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the IRI directories of a given UUIRI \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.UUIRI",
           "name": "dirs",
           "package": "dirfiles",
@@ -369,6 +400,7 @@
         "index": {
           "description": "returns the IRI directories of given UUIRI",
           "hierarchy": "Data Library UUIRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.UUIRI",
           "name": "dirs",
           "normalized": "UUIRI-\u003e[Text]",
@@ -384,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the IRI domain of a given UUIRI \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.UUIRI",
           "name": "domain",
           "package": "dirfiles",
@@ -394,6 +427,7 @@
         "index": {
           "description": "returns the IRI domain of given UUIRI",
           "hierarchy": "Data Library UUIRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.UUIRI",
           "name": "domain",
           "normalized": "UUIRI-\u003eMaybe Text",
@@ -409,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the IRI extension of a given UUIRI \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.UUIRI",
           "name": "extension",
           "package": "dirfiles",
@@ -419,6 +454,7 @@
         "index": {
           "description": "returns the IRI extension of given UUIRI",
           "hierarchy": "Data Library UUIRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.UUIRI",
           "name": "extension",
           "normalized": "UUIRI-\u003eMaybe Text",
@@ -434,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the UUIRI tuple with the IRI translated to Text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.UUIRI",
           "name": "fromUUIRI",
           "package": "dirfiles",
@@ -444,6 +481,7 @@
         "index": {
           "description": "returns the UUIRI tuple with the IRI translated to Text",
           "hierarchy": "Data Library UUIRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.UUIRI",
           "name": "fromUUIRI",
           "normalized": "UUIRI-\u003e(UUID,Text)",
@@ -460,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the IRI part of the UUIRI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.UUIRI",
           "name": "iri",
           "package": "dirfiles",
@@ -470,6 +509,7 @@
         "index": {
           "description": "returns the IRI part of the UUIRI",
           "hierarchy": "Data Library UUIRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.UUIRI",
           "name": "iri",
           "normalized": "UUIRI-\u003eIRI",
@@ -485,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis the IRI part of the UUIRI an absolute IRI ?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.UUIRI",
           "name": "isAbsolute",
           "package": "dirfiles",
@@ -495,6 +536,7 @@
         "index": {
           "description": "is the IRI part of the UUIRI an absolute IRI",
           "hierarchy": "Data Library UUIRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.UUIRI",
           "name": "isAbsolute",
           "normalized": "UUIRI-\u003eBool",
@@ -511,6 +553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eis the IRI part of the UUIRI a relative IRI ?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.UUIRI",
           "name": "isRelative",
           "package": "dirfiles",
@@ -521,6 +564,7 @@
         "index": {
           "description": "is the IRI part of the UUIRI relative IRI",
           "hierarchy": "Data Library UUIRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.UUIRI",
           "name": "isRelative",
           "normalized": "UUIRI-\u003eBool",
@@ -537,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the IRI protocol of a given UUIRI \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.UUIRI",
           "name": "protocol",
           "package": "dirfiles",
@@ -547,6 +592,7 @@
         "index": {
           "description": "returns the IRI protocol of given UUIRI",
           "hierarchy": "Data Library UUIRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.UUIRI",
           "name": "protocol",
           "normalized": "UUIRI-\u003eMaybe Text",
@@ -562,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea constructor for UUIRIs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.UUIRI",
           "name": "toUUIRI",
           "package": "dirfiles",
@@ -572,6 +619,7 @@
         "index": {
           "description": "constructor for UUIRIs",
           "hierarchy": "Data Library UUIRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.UUIRI",
           "name": "toUUIRI",
           "normalized": "UUID-\u003eText-\u003eUUIRI",
@@ -588,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the UUID part of the UUIRI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library.UUIRI",
           "name": "uuid",
           "package": "dirfiles",
@@ -598,6 +647,7 @@
         "index": {
           "description": "returns the UUID part of the UUIRI",
           "hierarchy": "Data Library UUIRI",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library.UUIRI",
           "name": "uuid",
           "normalized": "UUIRI-\u003eUUID",
@@ -612,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "Library",
           "package": "dirfiles",
@@ -620,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "Library",
           "package": "dirfiles",
@@ -634,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome errors that might occur\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "Error",
           "package": "dirfiles",
@@ -643,6 +696,7 @@
         "index": {
           "description": "Some errors that might occur",
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "Error",
           "package": "dirfiles",
@@ -656,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "ItemId",
           "package": "dirfiles",
@@ -664,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "ItemId",
           "package": "dirfiles",
@@ -678,6 +734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Library is just a rebranded Seq\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "Library",
           "package": "dirfiles",
@@ -687,6 +744,7 @@
         "index": {
           "description": "Library is just rebranded Seq",
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "Library",
           "package": "dirfiles",
@@ -701,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn item in the library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "LibraryItem",
           "package": "dirfiles",
@@ -710,6 +769,7 @@
         "index": {
           "description": "An item in the library",
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "LibraryItem",
           "package": "dirfiles",
@@ -723,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "Deleted",
           "package": "dirfiles",
@@ -732,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "Deleted",
           "package": "dirfiles",
@@ -745,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "InvalidDestination",
           "package": "dirfiles",
@@ -754,6 +817,7 @@
         },
         "index": {
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "InvalidDestination",
           "package": "dirfiles",
@@ -767,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "Item",
           "package": "dirfiles",
@@ -776,6 +841,7 @@
         },
         "index": {
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "Item",
           "package": "dirfiles",
@@ -789,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "ItemNotFound",
           "package": "dirfiles",
@@ -798,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "ItemNotFound",
           "package": "dirfiles",
@@ -811,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "MovingRoot",
           "package": "dirfiles",
@@ -820,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "MovingRoot",
           "package": "dirfiles",
@@ -833,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "copy",
           "package": "dirfiles",
@@ -842,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "copy",
           "normalized": "Library-\u003eItemId-\u003eItemId-\u003eUTCTime-\u003eEither Error Library",
@@ -856,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "delete",
           "package": "dirfiles",
@@ -865,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "delete",
           "normalized": "Library-\u003eItemId-\u003eLibrary",
@@ -880,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the description of an item \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "describe",
           "package": "dirfiles",
@@ -890,6 +965,7 @@
         "index": {
           "description": "Sets the description of an item",
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "describe",
           "normalized": "Library-\u003eItemId-\u003eText-\u003eUTCTime-\u003eLibrary",
@@ -905,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes bounds checking and also checks if the item was not deleted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "getItem",
           "package": "dirfiles",
@@ -915,6 +992,7 @@
         "index": {
           "description": "Does bounds checking and also checks if the item was not deleted",
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "getItem",
           "normalized": "ItemId-\u003eLibrary-\u003eEither Error LibraryItem",
@@ -930,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "itemDateCreated",
           "package": "dirfiles",
@@ -939,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "itemDateCreated",
           "package": "dirfiles",
@@ -952,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "itemDateModified",
           "package": "dirfiles",
@@ -961,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "itemDateModified",
           "package": "dirfiles",
@@ -974,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "itemDescription",
           "package": "dirfiles",
@@ -983,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "itemDescription",
           "package": "dirfiles",
@@ -996,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "itemId",
           "package": "dirfiles",
@@ -1005,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "itemId",
           "package": "dirfiles",
@@ -1018,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "itemName",
           "package": "dirfiles",
@@ -1027,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "itemName",
           "package": "dirfiles",
@@ -1040,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "itemParent",
           "package": "dirfiles",
@@ -1049,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "itemParent",
           "package": "dirfiles",
@@ -1062,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "itemType",
           "package": "dirfiles",
@@ -1071,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "itemType",
           "package": "dirfiles",
@@ -1084,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "move",
           "package": "dirfiles",
@@ -1093,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "move",
           "normalized": "Library-\u003eItemId-\u003eItemId-\u003eUTCTime-\u003eEither Error Library",
@@ -1108,6 +1202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new item in the library \n If createing a directory then uuiri must be Nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "new",
           "package": "dirfiles",
@@ -1118,6 +1213,7 @@
         "index": {
           "description": "Create new item in the library If createing directory then uuiri must be Nothing",
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "new",
           "normalized": "Text-\u003eMaybe Text-\u003eUTCTime-\u003eItemId-\u003eMaybe UUIRI-\u003eLibrary-\u003eEither Error Library",
@@ -1133,6 +1229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges the name of an item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "rename",
           "package": "dirfiles",
@@ -1143,6 +1240,7 @@
         "index": {
           "description": "Changes the name of an item",
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "rename",
           "normalized": "Library-\u003eItemId-\u003eText-\u003eUTCTime-\u003eLibrary",
@@ -1158,6 +1256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the modified date of an item to the one supplied in arg t\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "touch",
           "package": "dirfiles",
@@ -1168,6 +1267,7 @@
         "index": {
           "description": "Sets the modified date of an item to the one supplied in arg",
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "touch",
           "normalized": "Library-\u003eItemId-\u003eUTCTime-\u003eLibrary",
@@ -1183,6 +1283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo bounds checking and doesn't filter deleted items\n returns an exception error when the item is not found\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:36 UTC 2014",
           "module": "Data.Library",
           "name": "unsafeGetItem",
           "package": "dirfiles",
@@ -1193,6 +1294,7 @@
         "index": {
           "description": "No bounds checking and doesn filter deleted items returns an exception error when the item is not found",
           "hierarchy": "Data Library",
+          "indexed": "2014-03-11T17:56:36",
           "module": "Data.Library",
           "name": "unsafeGetItem",
           "normalized": "ItemId-\u003eLibrary-\u003eLibraryItem",

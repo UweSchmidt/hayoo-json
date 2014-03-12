@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mbox"
+        "phrase": "mbox",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReads and writes mboxrd files as per \u003ca\u003ehttp://www.qmail.org/man/man5/mbox.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox.String",
           "name": "String",
           "package": "mbox",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Reads and writes mboxrd files as per http www.qmail.org man man5 mbox.html",
           "hierarchy": "Data MBox String",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox.String",
           "name": "String",
           "package": "mbox",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox.String",
           "name": "Header",
           "package": "mbox",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data MBox String",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox.String",
           "name": "Header",
           "package": "mbox",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox.String",
           "name": "MBox",
           "package": "mbox",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data MBox String",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox.String",
           "name": "MBox",
           "package": "mbox",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox.String",
           "name": "Message",
           "package": "mbox",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data MBox String",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox.String",
           "name": "Message",
           "package": "mbox",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox.String",
           "name": "Message",
           "package": "mbox",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data MBox String",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox.String",
           "name": "Message",
           "package": "mbox",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox.String",
           "name": "body",
           "package": "mbox",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data MBox String",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox.String",
           "name": "body",
           "package": "mbox",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox.String",
           "name": "fromLine",
           "package": "mbox",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data MBox String",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox.String",
           "name": "fromLine",
           "package": "mbox",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox.String",
           "name": "getHeader",
           "package": "mbox",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Data MBox String",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox.String",
           "name": "getHeader",
           "normalized": "(Header-\u003eBool)-\u003eMessage-\u003eString",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox.String",
           "name": "headers",
           "package": "mbox",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Data MBox String",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox.String",
           "name": "headers",
           "normalized": "[Header]",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox.String",
           "name": "isDate",
           "package": "mbox",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Data MBox String",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox.String",
           "name": "isDate",
           "normalized": "Header-\u003eBool",
@@ -241,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader accessors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox.String",
           "name": "isID",
           "package": "mbox",
@@ -251,6 +272,7 @@
         "index": {
           "description": "Header accessors",
           "hierarchy": "Data MBox String",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox.String",
           "name": "isID",
           "normalized": "Header-\u003eBool",
@@ -267,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a date header as a UTCTime\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox.String",
           "name": "parseDateHeader",
           "package": "mbox",
@@ -277,6 +300,7 @@
         "index": {
           "description": "Reads date header as UTCTime",
           "hierarchy": "Data MBox String",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox.String",
           "name": "parseDateHeader",
           "normalized": "String-\u003eMaybe UTCTime",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to retrieve the contents of a forwarded message from an enclosing message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox.String",
           "name": "parseForward",
           "package": "mbox",
@@ -303,6 +328,7 @@
         "index": {
           "description": "Attempts to retrieve the contents of forwarded message from an enclosing message",
           "hierarchy": "Data MBox String",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox.String",
           "name": "parseForward",
           "normalized": "Message-\u003eMessage",
@@ -319,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a string as an mbox file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox.String",
           "name": "parseMBox",
           "package": "mbox",
@@ -329,6 +356,7 @@
         "index": {
           "description": "Reads string as an mbox file",
           "hierarchy": "Data MBox String",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox.String",
           "name": "parseMBox",
           "normalized": "String-\u003eMBox",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders an MBox into a String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox.String",
           "name": "showMBox",
           "package": "mbox",
@@ -355,6 +384,7 @@
         "index": {
           "description": "Renders an MBox into String",
           "hierarchy": "Data MBox String",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox.String",
           "name": "showMBox",
           "normalized": "MBox-\u003eString",
@@ -371,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders an individual message into a String.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox.String",
           "name": "showMessage",
           "package": "mbox",
@@ -381,6 +412,7 @@
         "index": {
           "description": "Renders an individual message into String",
           "hierarchy": "Data MBox String",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox.String",
           "name": "showMessage",
           "normalized": "Message-\u003eString",
@@ -397,6 +429,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReads and writes mboxrd files as per \u003ca\u003ehttp://www.qmail.org/man/man5/mbox.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox",
           "name": "MBox",
           "package": "mbox",
@@ -406,6 +439,7 @@
         "index": {
           "description": "Reads and writes mboxrd files as per http www.qmail.org man man5 mbox.html",
           "hierarchy": "Data MBox",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox",
           "name": "MBox",
           "package": "mbox",
@@ -419,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox",
           "name": "Header",
           "package": "mbox",
@@ -427,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Data MBox",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox",
           "name": "Header",
           "package": "mbox",
@@ -440,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox",
           "name": "MBox",
           "package": "mbox",
@@ -448,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Data MBox",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox",
           "name": "MBox",
           "package": "mbox",
@@ -461,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox",
           "name": "Message",
           "package": "mbox",
@@ -469,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Data MBox",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox",
           "name": "Message",
           "package": "mbox",
@@ -482,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox",
           "name": "Message",
           "package": "mbox",
@@ -491,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Data MBox",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox",
           "name": "Message",
           "package": "mbox",
@@ -504,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox",
           "name": "body",
           "package": "mbox",
@@ -513,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Data MBox",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox",
           "name": "body",
           "package": "mbox",
@@ -525,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox",
           "name": "fromLine",
           "package": "mbox",
@@ -534,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Data MBox",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox",
           "name": "fromLine",
           "package": "mbox",
@@ -548,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the values of headers for which predicate is True\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox",
           "name": "getHeader",
           "package": "mbox",
@@ -558,6 +605,7 @@
         "index": {
           "description": "Return the values of headers for which predicate is True",
           "hierarchy": "Data MBox",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox",
           "name": "getHeader",
           "normalized": "(Header-\u003eBool)-\u003eMessage-\u003eText",
@@ -573,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox",
           "name": "headers",
           "package": "mbox",
@@ -582,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Data MBox",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox",
           "name": "headers",
           "normalized": "[Header]",
@@ -597,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if header is a Date header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox",
           "name": "isDate",
           "package": "mbox",
@@ -607,6 +658,7 @@
         "index": {
           "description": "Return True if header is Date header",
           "hierarchy": "Data MBox",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox",
           "name": "isDate",
           "normalized": "Header-\u003eBool",
@@ -623,6 +675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if header is a Message-ID header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox",
           "name": "isID",
           "package": "mbox",
@@ -633,6 +686,7 @@
         "index": {
           "description": "Return True if header is Message-ID header",
           "hierarchy": "Data MBox",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox",
           "name": "isID",
           "normalized": "Header-\u003eBool",
@@ -649,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a date header as a UTCTime\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox",
           "name": "parseDateHeader",
           "package": "mbox",
@@ -659,6 +714,7 @@
         "index": {
           "description": "Reads date header as UTCTime",
           "hierarchy": "Data MBox",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox",
           "name": "parseDateHeader",
           "normalized": "Text-\u003eMaybe UTCTime",
@@ -675,6 +731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to retrieve the contents of a forwarded message from an enclosing message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox",
           "name": "parseForward",
           "package": "mbox",
@@ -685,6 +742,7 @@
         "index": {
           "description": "Attempts to retrieve the contents of forwarded message from an enclosing message",
           "hierarchy": "Data MBox",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox",
           "name": "parseForward",
           "normalized": "Message-\u003eMessage",
@@ -701,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses Text as an mbox file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox",
           "name": "parseMBox",
           "package": "mbox",
@@ -711,6 +770,7 @@
         "index": {
           "description": "Parses Text as an mbox file",
           "hierarchy": "Data MBox",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox",
           "name": "parseMBox",
           "normalized": "Text-\u003eMBox",
@@ -727,6 +787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders an MBox into Text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox",
           "name": "showMBox",
           "package": "mbox",
@@ -737,6 +798,7 @@
         "index": {
           "description": "Renders an MBox into Text",
           "hierarchy": "Data MBox",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox",
           "name": "showMBox",
           "normalized": "MBox-\u003eText",
@@ -753,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders an individual message into Text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:38 UTC 2014",
           "module": "Data.MBox",
           "name": "showMessage",
           "package": "mbox",
@@ -763,6 +826,7 @@
         "index": {
           "description": "Renders an individual message into Text",
           "hierarchy": "Data MBox",
+          "indexed": "2014-03-11T19:15:38",
           "module": "Data.MBox",
           "name": "showMessage",
           "normalized": "Message-\u003eText",

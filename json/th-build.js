@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "th-build"
+        "phrase": "th-build",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "Build",
           "package": "th-build",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "Build",
           "package": "th-build",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "Arrows",
           "package": "th-build",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "Arrows",
           "package": "th-build",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "Convertible",
           "package": "th-build",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "Convertible",
           "package": "th-build",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "Sigs",
           "package": "th-build",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "Sigs",
           "package": "th-build",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "(--\u003e)",
           "package": "th-build",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "(--\u003e) --\u003e",
           "normalized": "a-\u003eb-\u003eQ c",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e= \u003ccode\u003e\u003ca\u003elamE'\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "(\\-\u003e)",
           "package": "th-build",
@@ -136,6 +147,7 @@
         "index": {
           "description": "lamE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "(\\-\u003e) \\-\u003e",
           "normalized": "a-\u003ea-\u003eExpQ",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "(.::)",
           "package": "th-build",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "(.::) .::",
           "normalized": "a-\u003eb-\u003eQ c",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eappE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "appE'",
           "package": "th-build",
@@ -184,6 +199,7 @@
         "index": {
           "description": "Argument-converting wrapper for appE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "appE'",
           "normalized": "a-\u003eb-\u003eExpQ",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eappK\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "appK'",
           "package": "th-build",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Argument-converting wrapper for appK",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "appK'",
           "normalized": "a-\u003eb-\u003eKind",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eappT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "appT'",
           "package": "th-build",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Argument-converting wrapper for appT",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "appT'",
           "normalized": "a-\u003eb-\u003eTypeQ",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eappsE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "appsE'",
           "package": "th-build",
@@ -262,6 +283,7 @@
         "index": {
           "description": "Argument-converting wrapper for appsE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "appsE'",
           "normalized": "a-\u003eExpQ",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003earithSeqE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "arithSeqE'",
           "package": "th-build",
@@ -288,6 +311,7 @@
         "index": {
           "description": "Argument-converting wrapper for arithSeqE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "arithSeqE'",
           "normalized": "a-\u003eExpQ",
@@ -303,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "arrow",
           "package": "th-build",
@@ -312,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "arrow",
           "normalized": "a-\u003eb-\u003eb",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003easP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "asP'",
           "package": "th-build",
@@ -337,6 +364,7 @@
         "index": {
           "description": "Argument-converting wrapper for asP",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "asP'",
           "normalized": "a-\u003eb-\u003ePatQ",
@@ -353,6 +381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003ebangP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "bangP'",
           "package": "th-build",
@@ -363,6 +392,7 @@
         "index": {
           "description": "Argument-converting wrapper for bangP",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "bangP'",
           "normalized": "a-\u003ePatQ",
@@ -379,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003ebindS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "bindS'",
           "package": "th-build",
@@ -389,6 +420,7 @@
         "index": {
           "description": "Argument-converting wrapper for bindS",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "bindS'",
           "normalized": "a-\u003eb-\u003eStmtQ",
@@ -405,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003ecaseE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "caseE'",
           "package": "th-build",
@@ -415,6 +448,7 @@
         "index": {
           "description": "Argument-converting wrapper for caseE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "caseE'",
           "normalized": "a-\u003eb-\u003eExpQ",
@@ -431,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eclassD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "classD'",
           "package": "th-build",
@@ -441,6 +476,7 @@
         "index": {
           "description": "Argument-converting wrapper for classD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "classD'",
           "normalized": "a-\u003eb-\u003ec-\u003ed-\u003ee-\u003eDecQ",
@@ -457,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eclassP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "classP'",
           "package": "th-build",
@@ -467,6 +504,7 @@
         "index": {
           "description": "Argument-converting wrapper for classP",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "classP'",
           "normalized": "a-\u003eb-\u003ePredQ",
@@ -483,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eclause\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "clause'",
           "package": "th-build",
@@ -493,6 +532,7 @@
         "index": {
           "description": "Argument-converting wrapper for clause",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "clause'",
           "normalized": "a-\u003eb-\u003ec-\u003eClauseQ",
@@ -508,6 +548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003ecompE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "compE'",
           "package": "th-build",
@@ -518,6 +559,7 @@
         "index": {
           "description": "Argument-converting wrapper for compE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "compE'",
           "normalized": "a-\u003eExpQ",
@@ -534,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003econE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "conE'",
           "package": "th-build",
@@ -544,6 +587,7 @@
         "index": {
           "description": "Argument-converting wrapper for conE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "conE'",
           "normalized": "a-\u003eExpQ",
@@ -560,6 +604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003econK\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "conK'",
           "package": "th-build",
@@ -570,6 +615,7 @@
         "index": {
           "description": "Argument-converting wrapper for conK",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "conK'",
           "normalized": "a-\u003eKind",
@@ -586,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003econP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "conP'",
           "package": "th-build",
@@ -596,6 +643,7 @@
         "index": {
           "description": "Argument-converting wrapper for conP",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "conP'",
           "normalized": "a-\u003eb-\u003ePatQ",
@@ -611,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "conQ",
           "package": "th-build",
@@ -620,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "conQ",
           "normalized": "a-\u003eConQ",
@@ -635,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003econT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "conT'",
           "package": "th-build",
@@ -645,6 +696,7 @@
         "index": {
           "description": "Argument-converting wrapper for conT",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "conT'",
           "normalized": "a-\u003eTypeQ",
@@ -661,6 +713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003econdE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "condE'",
           "package": "th-build",
@@ -671,6 +724,7 @@
         "index": {
           "description": "Argument-converting wrapper for condE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "condE'",
           "normalized": "a-\u003eb-\u003ec-\u003eExpQ",
@@ -686,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "convert",
           "package": "th-build",
@@ -695,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "convert",
           "normalized": "a-\u003eb",
@@ -710,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003ecxt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "cxt'",
           "package": "th-build",
@@ -720,6 +777,7 @@
         "index": {
           "description": "Argument-converting wrapper for cxt",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "cxt'",
           "normalized": "a-\u003eCxtQ",
@@ -734,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "cxtQ",
           "package": "th-build",
@@ -743,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "cxtQ",
           "normalized": "a-\u003eCxtQ",
@@ -758,6 +818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003edataD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "dataD'",
           "package": "th-build",
@@ -768,6 +829,7 @@
         "index": {
           "description": "Argument-converting wrapper for dataD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "dataD'",
           "normalized": "a-\u003eb-\u003ec-\u003ed-\u003ee-\u003eDecQ",
@@ -784,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003edataInstD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "dataInstD'",
           "package": "th-build",
@@ -794,6 +857,7 @@
         "index": {
           "description": "Argument-converting wrapper for dataInstD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "dataInstD'",
           "normalized": "a-\u003eb-\u003ec-\u003ed-\u003ee-\u003eDecQ",
@@ -809,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "decsQ",
           "package": "th-build",
@@ -818,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "decsQ",
           "normalized": "a-\u003eDecsQ",
@@ -833,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003edoE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "doE'",
           "package": "th-build",
@@ -843,6 +910,7 @@
         "index": {
           "description": "Argument-converting wrapper for doE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "doE'",
           "normalized": "a-\u003eExpQ",
@@ -859,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003edyn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "dyn'",
           "package": "th-build",
@@ -869,6 +938,7 @@
         "index": {
           "description": "Argument-converting wrapper for dyn",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "dyn'",
           "normalized": "a-\u003eQ Exp",
@@ -884,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eequalP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "equalP'",
           "package": "th-build",
@@ -894,6 +965,7 @@
         "index": {
           "description": "Argument-converting wrapper for equalP",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "equalP'",
           "normalized": "a-\u003eb-\u003ePredQ",
@@ -909,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "expQ",
           "package": "th-build",
@@ -918,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "expQ",
           "normalized": "a-\u003eExpQ",
@@ -932,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "expQs",
           "package": "th-build",
@@ -941,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "expQs",
           "normalized": "a-\u003e[ExpQ]",
@@ -957,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003efamilyKindD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "familyKindD'",
           "package": "th-build",
@@ -967,6 +1044,7 @@
         "index": {
           "description": "Argument-converting wrapper for familyKindD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "familyKindD'",
           "normalized": "a-\u003eb-\u003ec-\u003ed-\u003eDecQ",
@@ -983,6 +1061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003efamilyNoKindD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "familyNoKindD'",
           "package": "th-build",
@@ -993,6 +1072,7 @@
         "index": {
           "description": "Argument-converting wrapper for familyNoKindD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "familyNoKindD'",
           "normalized": "a-\u003eb-\u003ec-\u003eDecQ",
@@ -1009,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003efieldExp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "fieldExp'",
           "package": "th-build",
@@ -1019,6 +1100,7 @@
         "index": {
           "description": "Argument-converting wrapper for fieldExp",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "fieldExp'",
           "normalized": "a-\u003eb-\u003eQ(Name,Exp)",
@@ -1035,6 +1117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003efieldPat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "fieldPat'",
           "package": "th-build",
@@ -1045,6 +1128,7 @@
         "index": {
           "description": "Argument-converting wrapper for fieldPat",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "fieldPat'",
           "normalized": "a-\u003eb-\u003eFieldPatQ",
@@ -1061,6 +1145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eforImpD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "forImpD'",
           "package": "th-build",
@@ -1071,6 +1156,7 @@
         "index": {
           "description": "Argument-converting wrapper for forImpD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "forImpD'",
           "normalized": "a-\u003eb-\u003ec-\u003ed-\u003ee-\u003eDecQ",
@@ -1087,6 +1173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eforallC\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "forallC'",
           "package": "th-build",
@@ -1097,6 +1184,7 @@
         "index": {
           "description": "Argument-converting wrapper for forallC",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "forallC'",
           "normalized": "a-\u003eb-\u003ec-\u003eConQ",
@@ -1113,6 +1201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eforallT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "forallT'",
           "package": "th-build",
@@ -1123,6 +1212,7 @@
         "index": {
           "description": "Argument-converting wrapper for forallT",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "forallT'",
           "normalized": "a-\u003eb-\u003ec-\u003eTypeQ",
@@ -1139,6 +1229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003efromE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "fromE'",
           "package": "th-build",
@@ -1149,6 +1240,7 @@
         "index": {
           "description": "Argument-converting wrapper for fromE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "fromE'",
           "normalized": "a-\u003eExpQ",
@@ -1165,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003efromR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "fromR'",
           "package": "th-build",
@@ -1175,6 +1268,7 @@
         "index": {
           "description": "Argument-converting wrapper for fromR",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "fromR'",
           "normalized": "a-\u003eRangeQ",
@@ -1191,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003efromThenE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "fromThenE'",
           "package": "th-build",
@@ -1201,6 +1296,7 @@
         "index": {
           "description": "Argument-converting wrapper for fromThenE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "fromThenE'",
           "normalized": "a-\u003eb-\u003eExpQ",
@@ -1217,6 +1313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003efromThenR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "fromThenR'",
           "package": "th-build",
@@ -1227,6 +1324,7 @@
         "index": {
           "description": "Argument-converting wrapper for fromThenR",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "fromThenR'",
           "normalized": "a-\u003eb-\u003eRangeQ",
@@ -1243,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003efromThenToE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "fromThenToE'",
           "package": "th-build",
@@ -1253,6 +1352,7 @@
         "index": {
           "description": "Argument-converting wrapper for fromThenToE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "fromThenToE'",
           "normalized": "a-\u003eb-\u003ec-\u003eExpQ",
@@ -1269,6 +1369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003efromThenToR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "fromThenToR'",
           "package": "th-build",
@@ -1279,6 +1380,7 @@
         "index": {
           "description": "Argument-converting wrapper for fromThenToR",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "fromThenToR'",
           "normalized": "a-\u003eb-\u003ec-\u003eRangeQ",
@@ -1295,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003efromToE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "fromToE'",
           "package": "th-build",
@@ -1305,6 +1408,7 @@
         "index": {
           "description": "Argument-converting wrapper for fromToE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "fromToE'",
           "normalized": "a-\u003eb-\u003eExpQ",
@@ -1321,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003efromToR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "fromToR'",
           "package": "th-build",
@@ -1331,6 +1436,7 @@
         "index": {
           "description": "Argument-converting wrapper for fromToR",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "fromToR'",
           "normalized": "a-\u003eb-\u003eRangeQ",
@@ -1347,6 +1453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003efunD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "funD'",
           "package": "th-build",
@@ -1357,6 +1464,7 @@
         "index": {
           "description": "Argument-converting wrapper for funD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "funD'",
           "normalized": "a-\u003eb-\u003eDecQ",
@@ -1373,6 +1481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003efunDep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "funDep'",
           "package": "th-build",
@@ -1383,6 +1492,7 @@
         "index": {
           "description": "Argument-converting wrapper for funDep",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "funDep'",
           "normalized": "a-\u003eb-\u003eFunDep",
@@ -1398,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "getFieldE",
           "package": "th-build",
@@ -1406,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "getFieldE",
           "normalized": "a-\u003eInt-\u003eInt-\u003eQ Exp",
@@ -1422,6 +1534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eglobal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "global'",
           "package": "th-build",
@@ -1432,6 +1545,7 @@
         "index": {
           "description": "Argument-converting wrapper for global",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "global'",
           "normalized": "a-\u003eExpQ",
@@ -1447,6 +1561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eguardedB\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "guardedB'",
           "package": "th-build",
@@ -1457,6 +1572,7 @@
         "index": {
           "description": "Argument-converting wrapper for guardedB",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "guardedB'",
           "normalized": "a-\u003eBodyQ",
@@ -1472,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "htuple'",
           "package": "th-build",
@@ -1481,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "htuple'",
           "normalized": "Int-\u003ea-\u003eTypeQ",
@@ -1496,6 +1614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003einfixApp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "infixApp'",
           "package": "th-build",
@@ -1506,6 +1625,7 @@
         "index": {
           "description": "Argument-converting wrapper for infixApp",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "infixApp'",
           "normalized": "a-\u003eb-\u003ec-\u003eExpQ",
@@ -1522,6 +1642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003einfixC\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "infixC'",
           "package": "th-build",
@@ -1532,6 +1653,7 @@
         "index": {
           "description": "Argument-converting wrapper for infixC",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "infixC'",
           "normalized": "a-\u003eb-\u003ec-\u003eConQ",
@@ -1548,6 +1670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003einfixE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "infixE'",
           "package": "th-build",
@@ -1558,6 +1681,7 @@
         "index": {
           "description": "Argument-converting wrapper for infixE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "infixE'",
           "normalized": "a-\u003eb-\u003ec-\u003eExpQ",
@@ -1574,6 +1698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003einfixLD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "infixLD'",
           "package": "th-build",
@@ -1584,6 +1709,7 @@
         "index": {
           "description": "Argument-converting wrapper for infixLD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "infixLD'",
           "normalized": "a-\u003eb-\u003eDecQ",
@@ -1600,6 +1726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003einfixND\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "infixND'",
           "package": "th-build",
@@ -1610,6 +1737,7 @@
         "index": {
           "description": "Argument-converting wrapper for infixND",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "infixND'",
           "normalized": "a-\u003eb-\u003eDecQ",
@@ -1626,6 +1754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003einfixP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "infixP'",
           "package": "th-build",
@@ -1636,6 +1765,7 @@
         "index": {
           "description": "Argument-converting wrapper for infixP",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "infixP'",
           "normalized": "a-\u003eb-\u003ec-\u003ePatQ",
@@ -1652,6 +1782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003einfixRD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "infixRD'",
           "package": "th-build",
@@ -1662,6 +1793,7 @@
         "index": {
           "description": "Argument-converting wrapper for infixRD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "infixRD'",
           "normalized": "a-\u003eb-\u003eDecQ",
@@ -1678,6 +1810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003einstanceD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "instanceD'",
           "package": "th-build",
@@ -1688,6 +1821,7 @@
         "index": {
           "description": "Argument-converting wrapper for instanceD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "instanceD'",
           "normalized": "a-\u003eb-\u003ec-\u003eDecQ",
@@ -1704,6 +1838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003ekindedTV\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "kindedTV'",
           "package": "th-build",
@@ -1714,6 +1849,7 @@
         "index": {
           "description": "Argument-converting wrapper for kindedTV",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "kindedTV'",
           "normalized": "a-\u003eb-\u003eTyVarBndr",
@@ -1730,6 +1866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003elam1E\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "lam1E'",
           "package": "th-build",
@@ -1740,6 +1877,7 @@
         "index": {
           "description": "Argument-converting wrapper for lam1E",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "lam1E'",
           "normalized": "a-\u003eb-\u003eExpQ",
@@ -1756,6 +1894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003elamCaseE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "lamCaseE'",
           "package": "th-build",
@@ -1766,6 +1905,7 @@
         "index": {
           "description": "Argument-converting wrapper for lamCaseE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "lamCaseE'",
           "normalized": "a-\u003eExpQ",
@@ -1782,6 +1922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003elamE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "lamE'",
           "package": "th-build",
@@ -1792,6 +1933,7 @@
         "index": {
           "description": "Argument-converting wrapper for lamE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "lamE'",
           "normalized": "a-\u003eb-\u003eExpQ",
@@ -1808,6 +1950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eletE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "letE'",
           "package": "th-build",
@@ -1818,6 +1961,7 @@
         "index": {
           "description": "Argument-converting wrapper for letE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "letE'",
           "normalized": "a-\u003eb-\u003eExpQ",
@@ -1834,6 +1978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eletS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "letS'",
           "package": "th-build",
@@ -1844,6 +1989,7 @@
         "index": {
           "description": "Argument-converting wrapper for letS",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "letS'",
           "normalized": "a-\u003eStmtQ",
@@ -1860,6 +2006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003elistE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "listE'",
           "package": "th-build",
@@ -1870,6 +2017,7 @@
         "index": {
           "description": "Argument-converting wrapper for listE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "listE'",
           "normalized": "a-\u003eExpQ",
@@ -1886,6 +2034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003elistP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "listP'",
           "package": "th-build",
@@ -1896,6 +2045,7 @@
         "index": {
           "description": "Argument-converting wrapper for listP",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "listP'",
           "normalized": "a-\u003ePatQ",
@@ -1912,6 +2062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003elitE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "litE'",
           "package": "th-build",
@@ -1922,6 +2073,7 @@
         "index": {
           "description": "Argument-converting wrapper for litE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "litE'",
           "normalized": "a-\u003eExpQ",
@@ -1938,6 +2090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003elitP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "litP'",
           "package": "th-build",
@@ -1948,6 +2101,7 @@
         "index": {
           "description": "Argument-converting wrapper for litP",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "litP'",
           "normalized": "a-\u003ePatQ",
@@ -1964,6 +2118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003elitT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "litT'",
           "package": "th-build",
@@ -1974,6 +2129,7 @@
         "index": {
           "description": "Argument-converting wrapper for litT",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "litT'",
           "normalized": "a-\u003eTypeQ",
@@ -1990,6 +2146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003ematch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "match'",
           "package": "th-build",
@@ -2000,6 +2157,7 @@
         "index": {
           "description": "Argument-converting wrapper for match",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "match'",
           "normalized": "a-\u003eb-\u003ec-\u003eMatchQ",
@@ -2015,6 +2173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003emultiIfE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "multiIfE'",
           "package": "th-build",
@@ -2025,6 +2184,7 @@
         "index": {
           "description": "Argument-converting wrapper for multiIfE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "multiIfE'",
           "normalized": "a-\u003eExpQ",
@@ -2040,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "name",
           "package": "th-build",
@@ -2049,6 +2210,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "name",
           "normalized": "a-\u003eName",
@@ -2064,6 +2226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003enewtypeD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "newtypeD'",
           "package": "th-build",
@@ -2074,6 +2237,7 @@
         "index": {
           "description": "Argument-converting wrapper for newtypeD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "newtypeD'",
           "normalized": "a-\u003eb-\u003ec-\u003ed-\u003ee-\u003eDecQ",
@@ -2090,6 +2254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003enewtypeInstD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "newtypeInstD'",
           "package": "th-build",
@@ -2100,6 +2265,7 @@
         "index": {
           "description": "Argument-converting wrapper for newtypeInstD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "newtypeInstD'",
           "normalized": "a-\u003eb-\u003ec-\u003ed-\u003ee-\u003eDecQ",
@@ -2116,6 +2282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003enoBindS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "noBindS'",
           "package": "th-build",
@@ -2126,6 +2293,7 @@
         "index": {
           "description": "Argument-converting wrapper for noBindS",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "noBindS'",
           "normalized": "a-\u003eStmtQ",
@@ -2142,6 +2310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003enormalB\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "normalB'",
           "package": "th-build",
@@ -2152,6 +2321,7 @@
         "index": {
           "description": "Argument-converting wrapper for normalB",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "normalB'",
           "normalized": "a-\u003eBodyQ",
@@ -2168,6 +2338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003enormalC\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "normalC'",
           "package": "th-build",
@@ -2178,6 +2349,7 @@
         "index": {
           "description": "Argument-converting wrapper for normalC",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "normalC'",
           "normalized": "a-\u003eb-\u003eConQ",
@@ -2194,6 +2366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003enormalG\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "normalG'",
           "package": "th-build",
@@ -2204,6 +2377,7 @@
         "index": {
           "description": "Argument-converting wrapper for normalG",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "normalG'",
           "normalized": "a-\u003eGuardQ",
@@ -2220,6 +2394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003enormalGE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "normalGE'",
           "package": "th-build",
@@ -2230,6 +2405,7 @@
         "index": {
           "description": "Argument-converting wrapper for normalGE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "normalGE'",
           "normalized": "a-\u003eb-\u003eQ(Guard,Exp)",
@@ -2246,6 +2422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003enumTyLit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "numTyLit'",
           "package": "th-build",
@@ -2256,6 +2433,7 @@
         "index": {
           "description": "Argument-converting wrapper for numTyLit",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "numTyLit'",
           "normalized": "a-\u003eTyLitQ",
@@ -2272,6 +2450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eparS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "parS'",
           "package": "th-build",
@@ -2282,6 +2461,7 @@
         "index": {
           "description": "Argument-converting wrapper for parS",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "parS'",
           "normalized": "a-\u003eStmtQ",
@@ -2298,6 +2478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eparensE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "parensE'",
           "package": "th-build",
@@ -2308,6 +2489,7 @@
         "index": {
           "description": "Argument-converting wrapper for parensE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "parensE'",
           "normalized": "a-\u003eExpQ",
@@ -2324,6 +2506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eparensP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "parensP'",
           "package": "th-build",
@@ -2334,6 +2517,7 @@
         "index": {
           "description": "Argument-converting wrapper for parensP",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "parensP'",
           "normalized": "a-\u003ePatQ",
@@ -2350,6 +2534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003epatG\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "patG'",
           "package": "th-build",
@@ -2360,6 +2545,7 @@
         "index": {
           "description": "Argument-converting wrapper for patG",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "patG'",
           "normalized": "a-\u003eGuardQ",
@@ -2376,6 +2562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003epatGE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "patGE'",
           "package": "th-build",
@@ -2386,6 +2573,7 @@
         "index": {
           "description": "Argument-converting wrapper for patGE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "patGE'",
           "normalized": "a-\u003eb-\u003eQ(Guard,Exp)",
@@ -2401,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "patQ",
           "package": "th-build",
@@ -2410,6 +2599,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "patQ",
           "normalized": "a-\u003ePatQ",
@@ -2424,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "patQs",
           "package": "th-build",
@@ -2433,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "patQs",
           "normalized": "a-\u003e[PatQ]",
@@ -2449,6 +2641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eplainTV\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "plainTV'",
           "package": "th-build",
@@ -2459,6 +2652,7 @@
         "index": {
           "description": "Argument-converting wrapper for plainTV",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "plainTV'",
           "normalized": "a-\u003eTyVarBndr",
@@ -2475,6 +2669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003epragInlD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "pragInlD'",
           "package": "th-build",
@@ -2485,6 +2680,7 @@
         "index": {
           "description": "Argument-converting wrapper for pragInlD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "pragInlD'",
           "normalized": "a-\u003eb-\u003ec-\u003ed-\u003eDecQ",
@@ -2501,6 +2697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003epragRuleD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "pragRuleD'",
           "package": "th-build",
@@ -2511,6 +2708,7 @@
         "index": {
           "description": "Argument-converting wrapper for pragRuleD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "pragRuleD'",
           "normalized": "a-\u003eb-\u003ec-\u003ed-\u003ee-\u003eDecQ",
@@ -2527,6 +2725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003epragSpecD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "pragSpecD'",
           "package": "th-build",
@@ -2537,6 +2736,7 @@
         "index": {
           "description": "Argument-converting wrapper for pragSpecD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "pragSpecD'",
           "normalized": "a-\u003eb-\u003ec-\u003eDecQ",
@@ -2553,6 +2753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003epragSpecInlD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "pragSpecInlD'",
           "package": "th-build",
@@ -2563,6 +2764,7 @@
         "index": {
           "description": "Argument-converting wrapper for pragSpecInlD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "pragSpecInlD'",
           "normalized": "a-\u003eb-\u003ec-\u003ed-\u003eDecQ",
@@ -2579,6 +2781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003epragSpecInstD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "pragSpecInstD'",
           "package": "th-build",
@@ -2589,6 +2792,7 @@
         "index": {
           "description": "Argument-converting wrapper for pragSpecInstD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "pragSpecInstD'",
           "normalized": "a-\u003eDecQ",
@@ -2605,6 +2809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003epromotedT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "promotedT'",
           "package": "th-build",
@@ -2615,6 +2820,7 @@
         "index": {
           "description": "Argument-converting wrapper for promotedT",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "promotedT'",
           "normalized": "a-\u003eTypeQ",
@@ -2631,6 +2837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003epromotedTupleT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "promotedTupleT'",
           "package": "th-build",
@@ -2641,6 +2848,7 @@
         "index": {
           "description": "Argument-converting wrapper for promotedTupleT",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "promotedTupleT'",
           "normalized": "a-\u003eTypeQ",
@@ -2657,6 +2865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003erecC\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "recC'",
           "package": "th-build",
@@ -2667,6 +2876,7 @@
         "index": {
           "description": "Argument-converting wrapper for recC",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "recC'",
           "normalized": "a-\u003eb-\u003eConQ",
@@ -2683,6 +2893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003erecConE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "recConE'",
           "package": "th-build",
@@ -2693,6 +2904,7 @@
         "index": {
           "description": "Argument-converting wrapper for recConE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "recConE'",
           "normalized": "a-\u003eb-\u003eExpQ",
@@ -2709,6 +2921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003erecP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "recP'",
           "package": "th-build",
@@ -2719,6 +2932,7 @@
         "index": {
           "description": "Argument-converting wrapper for recP",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "recP'",
           "normalized": "a-\u003eb-\u003ePatQ",
@@ -2735,6 +2949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003erecUpdE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "recUpdE'",
           "package": "th-build",
@@ -2745,6 +2960,7 @@
         "index": {
           "description": "Argument-converting wrapper for recUpdE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "recUpdE'",
           "normalized": "a-\u003eb-\u003eExpQ",
@@ -2761,6 +2977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eruleVar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "ruleVar'",
           "package": "th-build",
@@ -2771,6 +2988,7 @@
         "index": {
           "description": "Argument-converting wrapper for ruleVar",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "ruleVar'",
           "normalized": "a-\u003eRuleBndrQ",
@@ -2787,6 +3005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eClause\u003c/a\u003e\u003c/code\u003e without a \u003ccode\u003ewhere\u003c/code\u003e-clause\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "sclause",
           "package": "th-build",
@@ -2797,6 +3016,7 @@
         "index": {
           "description": "Clause without where clause",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "sclause",
           "normalized": "a-\u003eb-\u003eClauseQ",
@@ -2812,6 +3032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edata\u003c/code\u003e decl with no context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "sdataD",
           "package": "th-build",
@@ -2822,6 +3043,7 @@
         "index": {
           "description": "data decl with no context",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "sdataD",
           "normalized": "a-\u003eb-\u003ec-\u003ed-\u003eDecQ",
@@ -2837,6 +3059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003esectionL\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "sectionL'",
           "package": "th-build",
@@ -2847,6 +3070,7 @@
         "index": {
           "description": "Argument-converting wrapper for sectionL",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "sectionL'",
           "normalized": "a-\u003eb-\u003eExpQ",
@@ -2863,6 +3087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003esectionR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "sectionR'",
           "package": "th-build",
@@ -2873,6 +3098,7 @@
         "index": {
           "description": "Argument-converting wrapper for sectionR",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "sectionR'",
           "normalized": "a-\u003eb-\u003eExpQ",
@@ -2889,6 +3115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003esigD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "sigD'",
           "package": "th-build",
@@ -2899,6 +3126,7 @@
         "index": {
           "description": "Argument-converting wrapper for sigD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "sigD'",
           "normalized": "a-\u003eb-\u003eDecQ",
@@ -2915,6 +3143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003esigE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "sigE'",
           "package": "th-build",
@@ -2925,6 +3154,7 @@
         "index": {
           "description": "Argument-converting wrapper for sigE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "sigE'",
           "normalized": "a-\u003eb-\u003eExpQ",
@@ -2941,6 +3171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003esigP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "sigP'",
           "package": "th-build",
@@ -2951,6 +3182,7 @@
         "index": {
           "description": "Argument-converting wrapper for sigP",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "sigP'",
           "normalized": "a-\u003eb-\u003ePatQ",
@@ -2967,6 +3199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003esigT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "sigT'",
           "package": "th-build",
@@ -2977,6 +3210,7 @@
         "index": {
           "description": "Argument-converting wrapper for sigT",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "sigT'",
           "normalized": "a-\u003eb-\u003eTypeQ",
@@ -2992,6 +3226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "signature",
           "package": "th-build",
@@ -3001,6 +3236,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "signature",
           "normalized": "a-\u003eb-\u003ec",
@@ -3016,6 +3252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecase\u003c/code\u003e match without a \u003ccode\u003ewhere\u003c/code\u003e-clause\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "smatch",
           "package": "th-build",
@@ -3026,6 +3263,7 @@
         "index": {
           "description": "case match without where clause",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "smatch",
           "normalized": "a-\u003eb-\u003eMatchQ",
@@ -3041,6 +3279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enewtype\u003c/code\u003e decl with no context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "snewtypeD",
           "package": "th-build",
@@ -3051,6 +3290,7 @@
         "index": {
           "description": "newtype decl with no context",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "snewtypeD",
           "normalized": "a-\u003eb-\u003ec-\u003ed-\u003eDecQ",
@@ -3066,6 +3306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003estrTyLit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "strTyLit'",
           "package": "th-build",
@@ -3076,6 +3317,7 @@
         "index": {
           "description": "Argument-converting wrapper for strTyLit",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "strTyLit'",
           "normalized": "a-\u003eTyLitQ",
@@ -3092,6 +3334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003estrictType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "strictType'",
           "package": "th-build",
@@ -3102,6 +3345,7 @@
         "index": {
           "description": "Argument-converting wrapper for strictType",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "strictType'",
           "normalized": "a-\u003eb-\u003eStrictTypeQ",
@@ -3117,6 +3361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "strictTypeQ",
           "package": "th-build",
@@ -3126,6 +3371,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "strictTypeQ",
           "normalized": "a-\u003eStrictTypeQ",
@@ -3141,6 +3387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "strictTypeQs",
           "package": "th-build",
@@ -3150,6 +3397,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "strictTypeQs",
           "normalized": "a-\u003e[StrictTypeQ]",
@@ -3166,6 +3414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue decl without a \u003ccode\u003ewhere\u003c/code\u003e-clause\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "svalD",
           "package": "th-build",
@@ -3176,6 +3425,7 @@
         "index": {
           "description": "Value decl without where clause",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "svalD",
           "normalized": "a-\u003eb-\u003eDecQ",
@@ -3191,6 +3441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003etildeP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "tildeP'",
           "package": "th-build",
@@ -3201,6 +3452,7 @@
         "index": {
           "description": "Argument-converting wrapper for tildeP",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "tildeP'",
           "normalized": "a-\u003ePatQ",
@@ -3217,6 +3469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003etupE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "tupE'",
           "package": "th-build",
@@ -3227,6 +3480,7 @@
         "index": {
           "description": "Argument-converting wrapper for tupE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "tupE'",
           "normalized": "a-\u003eExpQ",
@@ -3243,6 +3497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003etupP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "tupP'",
           "package": "th-build",
@@ -3253,6 +3508,7 @@
         "index": {
           "description": "Argument-converting wrapper for tupP",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "tupP'",
           "normalized": "a-\u003ePatQ",
@@ -3269,6 +3525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003etupleK\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "tupleK'",
           "package": "th-build",
@@ -3279,6 +3536,7 @@
         "index": {
           "description": "Argument-converting wrapper for tupleK",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "tupleK'",
           "normalized": "a-\u003eKind",
@@ -3295,6 +3553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003etySynD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "tySynD'",
           "package": "th-build",
@@ -3305,6 +3564,7 @@
         "index": {
           "description": "Argument-converting wrapper for tySynD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "tySynD'",
           "normalized": "a-\u003eb-\u003ec-\u003eDecQ",
@@ -3321,6 +3581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003etySynInstD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "tySynInstD'",
           "package": "th-build",
@@ -3331,6 +3592,7 @@
         "index": {
           "description": "Argument-converting wrapper for tySynInstD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "tySynInstD'",
           "normalized": "a-\u003eb-\u003ec-\u003eDecQ",
@@ -3346,6 +3608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "tyVarBndr",
           "package": "th-build",
@@ -3355,6 +3618,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "tyVarBndr",
           "normalized": "a-\u003eTyVarBndr",
@@ -3370,6 +3634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "typeQ",
           "package": "th-build",
@@ -3379,6 +3644,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "typeQ",
           "normalized": "a-\u003eTypeQ",
@@ -3393,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "typeQs",
           "package": "th-build",
@@ -3402,6 +3669,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "typeQs",
           "normalized": "a-\u003e[TypeQ]",
@@ -3418,6 +3686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003etypedRuleVar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "typedRuleVar'",
           "package": "th-build",
@@ -3428,6 +3697,7 @@
         "index": {
           "description": "Argument-converting wrapper for typedRuleVar",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "typedRuleVar'",
           "normalized": "a-\u003eb-\u003eRuleBndrQ",
@@ -3444,6 +3714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003euInfixE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "uInfixE'",
           "package": "th-build",
@@ -3454,6 +3725,7 @@
         "index": {
           "description": "Argument-converting wrapper for uInfixE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "uInfixE'",
           "normalized": "a-\u003eb-\u003ec-\u003eExpQ",
@@ -3470,6 +3742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003euInfixP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "uInfixP'",
           "package": "th-build",
@@ -3480,6 +3753,7 @@
         "index": {
           "description": "Argument-converting wrapper for uInfixP",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "uInfixP'",
           "normalized": "a-\u003eb-\u003ec-\u003ePatQ",
@@ -3496,6 +3770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eunboxedTupE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "unboxedTupE'",
           "package": "th-build",
@@ -3506,6 +3781,7 @@
         "index": {
           "description": "Argument-converting wrapper for unboxedTupE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "unboxedTupE'",
           "normalized": "a-\u003eExpQ",
@@ -3522,6 +3798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eunboxedTupP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "unboxedTupP'",
           "package": "th-build",
@@ -3532,6 +3809,7 @@
         "index": {
           "description": "Argument-converting wrapper for unboxedTupP",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "unboxedTupP'",
           "normalized": "a-\u003ePatQ",
@@ -3548,6 +3826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003evalD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "valD'",
           "package": "th-build",
@@ -3558,6 +3837,7 @@
         "index": {
           "description": "Argument-converting wrapper for valD",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "valD'",
           "normalized": "a-\u003eb-\u003ec-\u003eDecQ",
@@ -3574,6 +3854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003evarE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "varE'",
           "package": "th-build",
@@ -3584,6 +3865,7 @@
         "index": {
           "description": "Argument-converting wrapper for varE",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "varE'",
           "normalized": "a-\u003eExpQ",
@@ -3600,6 +3882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003evarK\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "varK'",
           "package": "th-build",
@@ -3610,6 +3893,7 @@
         "index": {
           "description": "Argument-converting wrapper for varK",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "varK'",
           "normalized": "a-\u003eKind",
@@ -3626,6 +3910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003evarP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "varP'",
           "package": "th-build",
@@ -3636,6 +3921,7 @@
         "index": {
           "description": "Argument-converting wrapper for varP",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "varP'",
           "normalized": "a-\u003ePatQ",
@@ -3652,6 +3938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003evarStrictType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "varStrictType'",
           "package": "th-build",
@@ -3662,6 +3949,7 @@
         "index": {
           "description": "Argument-converting wrapper for varStrictType",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "varStrictType'",
           "normalized": "a-\u003eb-\u003eVarStrictTypeQ",
@@ -3678,6 +3966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003evarT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "varT'",
           "package": "th-build",
@@ -3688,6 +3977,7 @@
         "index": {
           "description": "Argument-converting wrapper for varT",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "varT'",
           "normalized": "a-\u003eTypeQ",
@@ -3704,6 +3994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument-converting wrapper for \u003ccode\u003e\u003ca\u003eviewP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:57 UTC 2014",
           "module": "Language.Haskell.TH.Build",
           "name": "viewP'",
           "package": "th-build",
@@ -3714,6 +4005,7 @@
         "index": {
           "description": "Argument-converting wrapper for viewP",
           "hierarchy": "Language Haskell TH Build",
+          "indexed": "2014-03-11T20:20:57",
           "module": "Language.Haskell.TH.Build",
           "name": "viewP'",
           "normalized": "a-\u003eb-\u003ePatQ",

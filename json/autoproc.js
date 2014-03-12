@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "autoproc"
+        "phrase": "autoproc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Classifier",
           "package": "autoproc",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Classifier",
           "package": "autoproc",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Act",
           "package": "autoproc",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Act",
           "package": "autoproc",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "CExp",
           "package": "autoproc",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "CExp",
           "package": "autoproc",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Class",
           "package": "autoproc",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Class",
           "package": "autoproc",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Classifier",
           "package": "autoproc",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Classifier",
           "package": "autoproc",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Cond",
           "package": "autoproc",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Cond",
           "package": "autoproc",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "EmailAddress",
           "package": "autoproc",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "EmailAddress",
           "package": "autoproc",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Flag",
           "package": "autoproc",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Flag",
           "package": "autoproc",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Mailbox",
           "package": "autoproc",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Mailbox",
           "package": "autoproc",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Match",
           "package": "autoproc",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Match",
           "package": "autoproc",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Trigger",
           "package": "autoproc",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Trigger",
           "package": "autoproc",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "(%)",
           "package": "autoproc",
@@ -258,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "(%) %",
           "normalized": "Cond-\u003eString-\u003eMatch Cond",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "(.||.)",
           "package": "autoproc",
@@ -281,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "(.||.) .||.",
           "normalized": "Cond-\u003eCond-\u003eCond",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "(.&&.)",
           "package": "autoproc",
@@ -304,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "(.&&.) .&&.",
           "normalized": "Cond-\u003eCond-\u003eCond",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Addr",
           "package": "autoproc",
@@ -327,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Addr",
           "package": "autoproc",
@@ -340,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Always",
           "package": "autoproc",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Always",
           "package": "autoproc",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "And",
           "package": "autoproc",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "And",
           "package": "autoproc",
@@ -384,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "CExp",
           "package": "autoproc",
@@ -393,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "CExp",
           "normalized": "CExp[Flag]Cond Act",
@@ -408,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "CaseSensitive",
           "package": "autoproc",
@@ -417,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "CaseSensitive",
           "package": "autoproc",
@@ -430,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Chain",
           "package": "autoproc",
@@ -439,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Chain",
           "package": "autoproc",
@@ -452,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "CheckBody",
           "package": "autoproc",
@@ -461,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "CheckBody",
           "package": "autoproc",
@@ -474,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "CheckHeader",
           "package": "autoproc",
@@ -483,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "CheckHeader",
           "package": "autoproc",
@@ -496,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "CheckMatch",
           "package": "autoproc",
@@ -505,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "CheckMatch",
           "package": "autoproc",
@@ -518,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Copy",
           "package": "autoproc",
@@ -527,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Copy",
           "package": "autoproc",
@@ -540,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "File",
           "package": "autoproc",
@@ -549,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "File",
           "package": "autoproc",
@@ -562,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Filter",
           "package": "autoproc",
@@ -571,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Filter",
           "package": "autoproc",
@@ -584,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Fwd",
           "package": "autoproc",
@@ -593,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Fwd",
           "normalized": "Fwd[EmailAddress]",
@@ -608,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "IgnoreErrors",
           "package": "autoproc",
@@ -617,6 +672,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "IgnoreErrors",
           "package": "autoproc",
@@ -630,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Mailbox",
           "package": "autoproc",
@@ -639,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Mailbox",
           "package": "autoproc",
@@ -652,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Match",
           "package": "autoproc",
@@ -661,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Match",
           "package": "autoproc",
@@ -674,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "NeedLock",
           "package": "autoproc",
@@ -683,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "NeedLock",
           "package": "autoproc",
@@ -696,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Nest",
           "package": "autoproc",
@@ -705,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Nest",
           "normalized": "Nest[CExp]",
@@ -720,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Never",
           "package": "autoproc",
@@ -729,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Never",
           "package": "autoproc",
@@ -742,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Not",
           "package": "autoproc",
@@ -751,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Not",
           "package": "autoproc",
@@ -764,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Or",
           "package": "autoproc",
@@ -773,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Or",
           "package": "autoproc",
@@ -786,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "RawWrite",
           "package": "autoproc",
@@ -795,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "RawWrite",
           "package": "autoproc",
@@ -808,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "Wait",
           "package": "autoproc",
@@ -817,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "Wait",
           "package": "autoproc",
@@ -830,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "addFlag",
           "package": "autoproc",
@@ -839,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "addFlag",
           "normalized": "Flag-\u003eCExp-\u003eCExp",
@@ -855,6 +931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs with \u003ccode\u003e\u003ca\u003esubjectToMbox\u003c/a\u003e\u003c/code\u003e, except by email address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "addressToMbox",
           "package": "autoproc",
@@ -865,6 +942,7 @@
         "index": {
           "description": "As with subjectToMbox except by email address",
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "addressToMbox",
           "normalized": "String-\u003eString-\u003eWriter[CExp]()",
@@ -880,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "also",
           "package": "autoproc",
@@ -889,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "also",
           "normalized": "Act-\u003eAct-\u003eAct",
@@ -903,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "alsoUsingMatch",
           "package": "autoproc",
@@ -912,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "alsoUsingMatch",
           "normalized": "Match Act-\u003eMatch Act-\u003eMatch Act",
@@ -928,6 +1010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf any of the strings appear in the subject line, send it to the mbox\n This is currently a bit of a null-op, and I'm not sure it works.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "anySubjectsToMbox",
           "package": "autoproc",
@@ -938,6 +1021,7 @@
         "index": {
           "description": "If any of the strings appear in the subject line send it to the mbox This is currently bit of null-op and not sure it works",
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "anySubjectsToMbox",
           "normalized": "[String]-\u003eString-\u003eWriter[CExp]()",
@@ -953,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "body",
           "package": "autoproc",
@@ -962,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "body",
           "normalized": "String-\u003eCond",
@@ -976,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "classify",
           "package": "autoproc",
@@ -985,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "classify",
           "normalized": "[Class]-\u003e[Trigger]-\u003eWriter[CExp]()",
@@ -999,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "classifyBy",
           "package": "autoproc",
@@ -1008,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "classifyBy",
           "normalized": "(String,Cond)-\u003eAct-\u003eWriter[CExp]()",
@@ -1023,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "classifyByAddress",
           "package": "autoproc",
@@ -1032,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "classifyByAddress",
           "normalized": "(EmailAddress-\u003eCond)-\u003eEmailAddress-\u003eMailbox-\u003eWriter[CExp]()",
@@ -1047,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "classifyByFrom",
           "package": "autoproc",
@@ -1056,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "classifyByFrom",
           "normalized": "EmailAddress-\u003eMailbox-\u003eWriter[CExp]()",
@@ -1071,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "classifyByFromAddr",
           "package": "autoproc",
@@ -1080,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "classifyByFromAddr",
           "normalized": "String-\u003eString-\u003eWriter[CExp]()",
@@ -1095,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "classifyBySubject",
           "package": "autoproc",
@@ -1104,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "classifyBySubject",
           "normalized": "String-\u003eMailbox-\u003eWriter[CExp]()",
@@ -1119,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "classifyByTo",
           "package": "autoproc",
@@ -1128,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "classifyByTo",
           "normalized": "EmailAddress-\u003eMailbox-\u003eWriter[CExp]()",
@@ -1143,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "classifyByTo_",
           "package": "autoproc",
@@ -1152,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "classifyByTo_",
           "normalized": "EmailAddress-\u003eMailbox-\u003eWriter[CExp]()",
@@ -1167,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "defaultRule",
           "package": "autoproc",
@@ -1176,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "defaultRule",
           "normalized": "String-\u003eWriter[CExp]()",
@@ -1191,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "flagAllButLast",
           "package": "autoproc",
@@ -1200,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "flagAllButLast",
           "normalized": "Flag-\u003e[CExp]-\u003e[CExp]",
@@ -1215,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "forwardTo",
           "package": "autoproc",
@@ -1224,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "forwardTo",
           "normalized": "[EmailAddress]-\u003eAct",
@@ -1239,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "from",
           "package": "autoproc",
@@ -1248,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "from",
           "normalized": "EmailAddress-\u003eCond",
@@ -1262,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "incrementHeader",
           "package": "autoproc",
@@ -1271,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "incrementHeader",
           "normalized": "String-\u003eInt-\u003e[CExp]",
@@ -1286,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "insertMbox",
           "package": "autoproc",
@@ -1295,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "insertMbox",
           "normalized": "String-\u003eAct",
@@ -1310,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "isSpam",
           "package": "autoproc",
@@ -1319,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "isSpam",
           "package": "autoproc",
@@ -1332,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "lock",
           "package": "autoproc",
@@ -1341,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "lock",
           "package": "autoproc",
@@ -1353,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "mailBoxFromMatch",
           "package": "autoproc",
@@ -1362,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "mailBoxFromMatch",
           "normalized": "Match String-\u003eMatch Mailbox",
@@ -1377,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "mailbox",
           "package": "autoproc",
@@ -1386,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "mailbox",
           "normalized": "String-\u003eMailbox",
@@ -1400,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "match",
           "package": "autoproc",
@@ -1409,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "match",
           "package": "autoproc",
@@ -1421,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "mkClassifiers",
           "package": "autoproc",
@@ -1430,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "mkClassifiers",
           "normalized": "Class-\u003eWriter[CExp]()",
@@ -1445,6 +1571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "mkHeader",
           "package": "autoproc",
@@ -1454,6 +1581,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "mkHeader",
           "normalized": "String-\u003eString",
@@ -1469,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "mkTrigger",
           "package": "autoproc",
@@ -1478,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "mkTrigger",
           "normalized": "Trigger-\u003eClassifier",
@@ -1493,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "placeIn",
           "package": "autoproc",
@@ -1502,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "placeIn",
           "normalized": "Mailbox-\u003eAct",
@@ -1517,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "placeInUsingMatch",
           "package": "autoproc",
@@ -1526,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "placeInUsingMatch",
           "normalized": "Match Mailbox-\u003eMatch Act",
@@ -1541,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "refineBy",
           "package": "autoproc",
@@ -1550,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "refineBy",
           "normalized": "Match Cond-\u003eMatch Cond-\u003eMatch Cond",
@@ -1565,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "removeFlag",
           "package": "autoproc",
@@ -1574,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "removeFlag",
           "normalized": "Flag-\u003eCExp-\u003eCExp",
@@ -1589,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "said",
           "package": "autoproc",
@@ -1598,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "said",
           "normalized": "String-\u003eCond",
@@ -1612,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "simpleClassifyByFrom",
           "package": "autoproc",
@@ -1621,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "simpleClassifyByFrom",
           "normalized": "String-\u003eWriter[CExp]()",
@@ -1636,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "simpleClassifyBySubject",
           "package": "autoproc",
@@ -1645,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "simpleClassifyBySubject",
           "normalized": "String-\u003eWriter[CExp]()",
@@ -1660,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "simpleClassifyByTo",
           "package": "autoproc",
@@ -1669,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "simpleClassifyByTo",
           "normalized": "String-\u003eWriter[CExp]()",
@@ -1684,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "simpleClassifyByTo_",
           "package": "autoproc",
@@ -1693,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "simpleClassifyByTo_",
           "normalized": "String-\u003eWriter[CExp]()",
@@ -1709,6 +1857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the email address (the String argument) contains \u003ca\u003efoo\u003c/a\u003e, then place the email into a folder\n by the name \u003ca\u003efoo\u003c/a\u003e.  Actually, the name of the mailbox is created by\n appending boxPrefix which is defined in the Configuration module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "simpleSortByFrom",
           "package": "autoproc",
@@ -1719,6 +1868,7 @@
         "index": {
           "description": "If the email address the String argument contains foo then place the email into folder by the name foo Actually the name of the mailbox is created by appending boxPrefix which is defined in the Configuration module",
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "simpleSortByFrom",
           "normalized": "String-\u003eWriter[CExp]()",
@@ -1734,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "simpleSortByTo",
           "package": "autoproc",
@@ -1743,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "simpleSortByTo",
           "normalized": "String-\u003eWriter[CExp]()",
@@ -1758,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "simpleSortByTo_",
           "package": "autoproc",
@@ -1767,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "simpleSortByTo_",
           "normalized": "String-\u003eWriter[CExp]()",
@@ -1782,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "sortBy",
           "package": "autoproc",
@@ -1791,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "sortBy",
           "normalized": "(a-\u003eCond)-\u003ea-\u003eMailbox-\u003eWriter[CExp]()",
@@ -1806,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "sortByFrom",
           "package": "autoproc",
@@ -1815,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "sortByFrom",
           "normalized": "EmailAddress-\u003eMailbox-\u003eWriter[CExp]()",
@@ -1830,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "sortBySubject",
           "package": "autoproc",
@@ -1839,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "sortBySubject",
           "normalized": "String-\u003eMailbox-\u003eWriter[CExp]()",
@@ -1854,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "sortByTo",
           "package": "autoproc",
@@ -1863,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "sortByTo",
           "normalized": "EmailAddress-\u003eMailbox-\u003eWriter[CExp]()",
@@ -1878,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "sortByTo_",
           "package": "autoproc",
@@ -1887,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "sortByTo_",
           "normalized": "EmailAddress-\u003eMailbox-\u003eWriter[CExp]()",
@@ -1902,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "spamLevel",
           "package": "autoproc",
@@ -1911,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "spamLevel",
           "normalized": "Int-\u003eCond",
@@ -1927,6 +2093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003estuffToMbox\u003c/a\u003e\u003c/code\u003e is a very general filtering statement, which is intended for specialization\n   by other functions.\n\u003c/p\u003e\u003cp\u003eThe idea is to take a logical operator and fold it over a list of strings.\n   If the result is \u003ccode\u003eTrue\u003c/code\u003e, then the email gets dropped into a specified mailbox.\n   So if you wanted to insist that only an email which has strings \u003ccode\u003ex\u003c/code\u003e, \u003ccode\u003ey\u003c/code\u003e, and \u003ccode\u003ez\u003c/code\u003e in\n   the subject-line could appear in the xyz mailbox, you'd use .&&. as the logical operator,\n   \u003ca\u003exyz\u003c/a\u003e as the \u003ccode\u003embox\u003c/code\u003e argument, [x, y, z] as the list, and a seed value of True. You also need the\n   \u003ccode\u003e\u003ca\u003esubject\u003c/a\u003e\u003c/code\u003e operator, which will map over the list and turn it into properly typed\n   stuff. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "stuffToMbox",
           "package": "autoproc",
@@ -1937,6 +2104,7 @@
         "index": {
           "description": "stuffToMbox is very general filtering statement which is intended for specialization by other functions The idea is to take logical operator and fold it over list of strings If the result is True then the email gets dropped into specified mailbox So if you wanted to insist that only an email which has strings and in the subject-line could appear in the xyz mailbox you use as the logical operator xyz as the mbox argument as the list and seed value of True You also need the subject operator which will map over the list and turn it into properly typed stuff",
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "stuffToMbox",
           "normalized": "Cond-\u003e(a-\u003ea)-\u003e(a-\u003eCond-\u003eCond)-\u003eString-\u003e[a]-\u003eWriter[CExp]()",
@@ -1952,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "subject",
           "package": "autoproc",
@@ -1961,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "subject",
           "normalized": "String-\u003eCond",
@@ -1976,6 +2146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the subject line contains a certain string, send it to a certain mailbox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "subjectToMbox",
           "package": "autoproc",
@@ -1986,6 +2157,7 @@
         "index": {
           "description": "If the subject line contains certain string send it to certain mailbox",
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "subjectToMbox",
           "normalized": "String-\u003eString-\u003eWriter[CExp]()",
@@ -2002,6 +2174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf all the strings appear in the subject line, deposit the email in the specified mailbox\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "subjectsToMbox",
           "package": "autoproc",
@@ -2012,6 +2185,7 @@
         "index": {
           "description": "If all the strings appear in the subject line deposit the email in the specified mailbox",
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "subjectsToMbox",
           "normalized": "[String]-\u003eString-\u003eWriter[CExp]()",
@@ -2027,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "to",
           "package": "autoproc",
@@ -2036,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "to",
           "normalized": "EmailAddress-\u003eCond",
@@ -2051,6 +2227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eaddressToMbox\u003c/a\u003e\u003c/code\u003e is fine, but may not work well for mailing lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "toAddressToMbox",
           "package": "autoproc",
@@ -2061,6 +2238,7 @@
         "index": {
           "description": "addressToMbox is fine but may not work well for mailing lists",
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "toAddressToMbox",
           "normalized": "String-\u003eString-\u003eWriter[CExp]()",
@@ -2076,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "to_",
           "package": "autoproc",
@@ -2085,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "to_",
           "normalized": "EmailAddress-\u003eCond",
@@ -2099,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "when",
           "package": "autoproc",
@@ -2108,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "when",
           "normalized": "Cond-\u003eAct-\u003eWriter[CExp]()",
@@ -2122,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "whenMatch",
           "package": "autoproc",
@@ -2131,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "whenMatch",
           "normalized": "Match Cond-\u003eMatch Act-\u003eWriter[CExp]()",
@@ -2146,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "whenMatchWithOptions",
           "package": "autoproc",
@@ -2155,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "whenMatchWithOptions",
           "normalized": "[Flag]-\u003eMatch Cond-\u003eMatch Act-\u003eWriter[CExp]()",
@@ -2170,6 +2356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Classifier",
           "name": "whenWithOptions",
           "package": "autoproc",
@@ -2179,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Classifier",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Classifier",
           "name": "whenWithOptions",
           "normalized": "[Flag]-\u003eCond-\u003eAct-\u003eWriter[CExp]()",
@@ -2194,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Configuration",
           "name": "Configuration",
           "package": "autoproc",
@@ -2202,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Configuration",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Configuration",
           "name": "Configuration",
           "package": "autoproc",
@@ -2215,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Configuration",
           "name": "boxPrefix",
           "package": "autoproc",
@@ -2224,6 +2415,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Configuration",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Configuration",
           "name": "boxPrefix",
           "package": "autoproc",
@@ -2237,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Configuration",
           "name": "defaultVariables",
           "package": "autoproc",
@@ -2246,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Configuration",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Configuration",
           "name": "defaultVariables",
           "normalized": "[(String,String)]",
@@ -2261,6 +2455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Configuration",
           "name": "lockDefault",
           "package": "autoproc",
@@ -2270,6 +2465,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Configuration",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Configuration",
           "name": "lockDefault",
           "package": "autoproc",
@@ -2283,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Configuration",
           "name": "showVars",
           "package": "autoproc",
@@ -2292,6 +2489,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Configuration",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Configuration",
           "name": "showVars",
           "normalized": "[(String,String)]-\u003eString",
@@ -2307,6 +2505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "Procmail",
           "package": "autoproc",
@@ -2315,6 +2514,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "Procmail",
           "package": "autoproc",
@@ -2328,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "Action",
           "package": "autoproc",
@@ -2336,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "Action",
           "package": "autoproc",
@@ -2349,6 +2551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "Condition",
           "package": "autoproc",
@@ -2357,6 +2560,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "Condition",
           "package": "autoproc",
@@ -2370,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "ConditionFlag",
           "package": "autoproc",
@@ -2378,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "ConditionFlag",
           "package": "autoproc",
@@ -2391,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "PExp",
           "package": "autoproc",
@@ -2399,6 +2606,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "PExp",
           "package": "autoproc",
@@ -2412,6 +2620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "RecipeFlag",
           "package": "autoproc",
@@ -2420,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "RecipeFlag",
           "package": "autoproc",
@@ -2433,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "CaseSensitive",
           "package": "autoproc",
@@ -2442,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "CaseSensitive",
           "package": "autoproc",
@@ -2455,6 +2667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "Chain",
           "package": "autoproc",
@@ -2464,6 +2677,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "Chain",
           "package": "autoproc",
@@ -2477,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "CheckBody",
           "package": "autoproc",
@@ -2486,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "CheckBody",
           "package": "autoproc",
@@ -2499,6 +2715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "CheckHeader",
           "package": "autoproc",
@@ -2508,6 +2725,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "CheckHeader",
           "package": "autoproc",
@@ -2521,6 +2739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "Condition",
           "package": "autoproc",
@@ -2530,6 +2749,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "Condition",
           "package": "autoproc",
@@ -2543,6 +2763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "Copy",
           "package": "autoproc",
@@ -2552,6 +2773,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "Copy",
           "package": "autoproc",
@@ -2565,6 +2787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "ElseIf",
           "package": "autoproc",
@@ -2574,6 +2797,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "ElseIf",
           "package": "autoproc",
@@ -2587,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "Eval",
           "package": "autoproc",
@@ -2596,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "Eval",
           "package": "autoproc",
@@ -2609,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "File",
           "package": "autoproc",
@@ -2618,6 +2845,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "File",
           "package": "autoproc",
@@ -2631,6 +2859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "Forward",
           "package": "autoproc",
@@ -2640,6 +2869,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "Forward",
           "normalized": "Forward[String]",
@@ -2655,6 +2885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "GreaterThan",
           "package": "autoproc",
@@ -2664,6 +2895,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "GreaterThan",
           "package": "autoproc",
@@ -2677,6 +2909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "IgnoreErrors",
           "package": "autoproc",
@@ -2686,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "IgnoreErrors",
           "package": "autoproc",
@@ -2699,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "Invert",
           "package": "autoproc",
@@ -2708,6 +2943,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "Invert",
           "package": "autoproc",
@@ -2721,6 +2957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "LessThan",
           "package": "autoproc",
@@ -2730,6 +2967,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "LessThan",
           "package": "autoproc",
@@ -2743,6 +2981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "NeedLock",
           "package": "autoproc",
@@ -2752,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "NeedLock",
           "package": "autoproc",
@@ -2765,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "Nest",
           "package": "autoproc",
@@ -2774,6 +3015,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "Nest",
           "normalized": "Nest[PExp]",
@@ -2789,6 +3031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "Normal",
           "package": "autoproc",
@@ -2798,6 +3041,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "Normal",
           "package": "autoproc",
@@ -2811,6 +3055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "PExp",
           "package": "autoproc",
@@ -2820,6 +3065,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "PExp",
           "normalized": "PExp[RecipeFlag][Condition]Action",
@@ -2835,6 +3081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "Pipe",
           "package": "autoproc",
@@ -2844,6 +3091,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "Pipe",
           "package": "autoproc",
@@ -2857,6 +3105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "PipeAsFilter",
           "package": "autoproc",
@@ -2866,6 +3115,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "PipeAsFilter",
           "package": "autoproc",
@@ -2879,6 +3129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "RawWrite",
           "package": "autoproc",
@@ -2888,6 +3139,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "RawWrite",
           "package": "autoproc",
@@ -2901,6 +3153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "UseExitCode",
           "package": "autoproc",
@@ -2910,6 +3163,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "UseExitCode",
           "package": "autoproc",
@@ -2923,6 +3177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "Var",
           "package": "autoproc",
@@ -2932,6 +3187,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "Var",
           "package": "autoproc",
@@ -2945,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "Wait",
           "package": "autoproc",
@@ -2954,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "Wait",
           "package": "autoproc",
@@ -2967,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Procmail",
           "name": "showLn",
           "package": "autoproc",
@@ -2976,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Procmail",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Procmail",
           "name": "showLn",
           "normalized": "a-\u003eString",
@@ -2991,6 +3251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "Dagit",
           "package": "autoproc",
@@ -2999,6 +3260,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "Dagit",
           "package": "autoproc",
@@ -3013,6 +3275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSometimes we want just one condition, but we have multiple actions.\n In this case, use the also syntax.  It allows multiple action for\n one rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "alsoTest",
           "package": "autoproc",
@@ -3023,6 +3286,7 @@
         "index": {
           "description": "Sometimes we want just one condition but we have multiple actions In this case use the also syntax It allows multiple action for one rule",
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "alsoTest",
           "normalized": "Writer[CExp]()",
@@ -3038,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "bugs",
           "package": "autoproc",
@@ -3047,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "bugs",
           "normalized": "Writer[CExp]()",
@@ -3061,6 +3327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "bugs'",
           "package": "autoproc",
@@ -3070,6 +3337,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "bugs'",
           "normalized": "Writer[CExp]()",
@@ -3084,6 +3352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "cdspaper",
           "package": "autoproc",
@@ -3093,6 +3362,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "cdspaper",
           "normalized": "Writer[CExp]()",
@@ -3107,6 +3377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "classes",
           "package": "autoproc",
@@ -3116,6 +3387,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "classes",
           "normalized": "Writer[CExp]()",
@@ -3130,6 +3402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "clispDevel",
           "package": "autoproc",
@@ -3139,6 +3412,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "clispDevel",
           "normalized": "Writer[CExp]()",
@@ -3154,6 +3428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "clispDevel'",
           "package": "autoproc",
@@ -3163,6 +3438,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "clispDevel'",
           "normalized": "Writer[CExp]()",
@@ -3178,6 +3454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "csGradTalk",
           "package": "autoproc",
@@ -3187,6 +3464,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "csGradTalk",
           "normalized": "Writer[CExp]()",
@@ -3202,6 +3480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "csGradTalk'",
           "package": "autoproc",
@@ -3211,6 +3490,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "csGradTalk'",
           "normalized": "Writer[CExp]()",
@@ -3226,6 +3506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "csmaillist",
           "package": "autoproc",
@@ -3235,6 +3516,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "csmaillist",
           "normalized": "Writer[CExp]()",
@@ -3249,6 +3531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "csmaillist'",
           "package": "autoproc",
@@ -3258,6 +3541,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "csmaillist'",
           "normalized": "Writer[CExp]()",
@@ -3272,6 +3556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "cvsupdates",
           "package": "autoproc",
@@ -3281,6 +3566,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "cvsupdates",
           "normalized": "Writer[CExp]()",
@@ -3295,6 +3581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "cvsupdates'",
           "package": "autoproc",
@@ -3304,6 +3591,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "cvsupdates'",
           "normalized": "Writer[CExp]()",
@@ -3318,6 +3606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "dad",
           "package": "autoproc",
@@ -3327,6 +3616,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "dad",
           "normalized": "Writer[CExp]()",
@@ -3341,6 +3631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "dad'",
           "package": "autoproc",
@@ -3350,6 +3641,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "dad'",
           "normalized": "Writer[CExp]()",
@@ -3365,6 +3657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eI use this rule to make sure any mail that is not sorted goes into\n my mail spool. It uses \u003ca\u003eAutoproc.Classifier\u003c/a\u003e's \u003ccode\u003e\u003ca\u003edefaultRule\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "dagitDefaultRule",
           "package": "autoproc",
@@ -3375,6 +3668,7 @@
         "index": {
           "description": "use this rule to make sure any mail that is not sorted goes into my mail spool It uses Autoproc.Classifier defaultRule",
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "dagitDefaultRule",
           "normalized": "Writer[CExp]()",
@@ -3391,6 +3685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny rules that you create need to end up in the rules list.  Other\n than that, feel free to define your own rules using these rules an\n examples.\n\u003c/p\u003e\u003cp\u003eA rule is something of the form:\n\u003c/p\u003e\u003cpre\u003e when condition action\n\u003c/pre\u003e\u003cp\u003eExamples of condition might include:\n\u003c/p\u003e\u003cpre\u003e (from (Addr \"foo@bar\"))\n (subject \"Hi again\")\n\u003c/pre\u003e\u003cp\u003eAnd example actions are things like:\n\u003c/p\u003e\u003cpre\u003e (insertMbox \"steve\")@, @(forward [Addr \"friend@yahoo.com\"])\n\u003c/pre\u003e\u003cp\u003eI have created some aliases for commonly used constructions\n For example, \u003ccode\u003esimpleSortByFrom \u003ca\u003ejoe\u003c/a\u003e\u003c/code\u003e, is equivalent to:\n\u003c/p\u003e\u003cpre\u003e when (from (Addr \"joe\")) (insertMbox \"joe\")\n\u003c/pre\u003e\u003cp\u003eFor a full list of what is possible, check the \u003ca\u003eAutoproc.Classifier\u003c/a\u003e module. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "dagitRules",
           "package": "autoproc",
@@ -3401,6 +3696,7 @@
         "index": {
           "description": "Any rules that you create need to end up in the rules list Other than that feel free to define your own rules using these rules an examples rule is something of the form when condition action Examples of condition might include from Addr foo@bar subject Hi again And example actions are things like insertMbox steve forward Addr friend@yahoo.com have created some aliases for commonly used constructions For example simpleSortByFrom joe is equivalent to when from Addr joe insertMbox joe For full list of what is possible check the Autoproc.Classifier module",
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "dagitRules",
           "normalized": "Writer[CExp]()",
@@ -3416,6 +3712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "darcsDevel",
           "package": "autoproc",
@@ -3425,6 +3722,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "darcsDevel",
           "normalized": "Writer[CExp]()",
@@ -3440,6 +3738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "darcsDevel'",
           "package": "autoproc",
@@ -3449,6 +3748,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "darcsDevel'",
           "normalized": "Writer[CExp]()",
@@ -3464,6 +3764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "darcsUsers",
           "package": "autoproc",
@@ -3473,6 +3774,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "darcsUsers",
           "normalized": "Writer[CExp]()",
@@ -3488,6 +3790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "darcsUsers'",
           "package": "autoproc",
@@ -3497,6 +3800,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "darcsUsers'",
           "normalized": "Writer[CExp]()",
@@ -3512,6 +3816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "debian",
           "package": "autoproc",
@@ -3521,6 +3826,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "debian",
           "normalized": "Writer[CExp]()",
@@ -3535,6 +3841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "debian'",
           "package": "autoproc",
@@ -3544,6 +3851,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "debian'",
           "normalized": "Writer[CExp]()",
@@ -3558,6 +3866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "euses",
           "package": "autoproc",
@@ -3567,6 +3876,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "euses",
           "normalized": "Writer[CExp]()",
@@ -3581,6 +3891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "euses'",
           "package": "autoproc",
@@ -3590,6 +3901,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "euses'",
           "normalized": "Writer[CExp]()",
@@ -3605,6 +3917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis rules \u003ca\u003efixes\u003c/a\u003e the reply-to header of a mailing list.  I don't\n recommend doing this unless you know what you are doing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "fixReplyTo",
           "package": "autoproc",
@@ -3615,6 +3928,7 @@
         "index": {
           "description": "This rules fixes the reply-to header of mailing list don recommend doing this unless you know what you are doing",
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "fixReplyTo",
           "normalized": "Writer[CExp]()",
@@ -3630,6 +3944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "forms3",
           "package": "autoproc",
@@ -3639,6 +3954,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "forms3",
           "normalized": "Writer[CExp]()",
@@ -3653,6 +3969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "forms3'",
           "package": "autoproc",
@@ -3662,6 +3979,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "forms3'",
           "normalized": "Writer[CExp]()",
@@ -3676,6 +3994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "forms3Tech",
           "package": "autoproc",
@@ -3685,6 +4004,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "forms3Tech",
           "normalized": "Writer[CExp]()",
@@ -3700,6 +4020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "forms3Tech'",
           "package": "autoproc",
@@ -3709,6 +4030,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "forms3Tech'",
           "normalized": "Writer[CExp]()",
@@ -3724,6 +4046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "lkm",
           "package": "autoproc",
@@ -3733,6 +4056,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "lkm",
           "normalized": "Writer[CExp]()",
@@ -3747,6 +4071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "lkm'",
           "package": "autoproc",
@@ -3756,6 +4081,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "lkm'",
           "normalized": "Writer[CExp]()",
@@ -3770,6 +4096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "mom",
           "package": "autoproc",
@@ -3779,6 +4106,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "mom",
           "normalized": "Writer[CExp]()",
@@ -3793,6 +4121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "mom'",
           "package": "autoproc",
@@ -3802,6 +4131,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "mom'",
           "normalized": "Writer[CExp]()",
@@ -3816,6 +4146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "momentum",
           "package": "autoproc",
@@ -3825,6 +4156,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "momentum",
           "normalized": "Writer[CExp]()",
@@ -3839,6 +4171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "momentum'",
           "package": "autoproc",
@@ -3848,6 +4181,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "momentum'",
           "normalized": "Writer[CExp]()",
@@ -3862,6 +4196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "notOrTest",
           "package": "autoproc",
@@ -3871,6 +4206,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "notOrTest",
           "normalized": "Writer[CExp]()",
@@ -3886,6 +4222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "notTest",
           "package": "autoproc",
@@ -3895,6 +4232,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "notTest",
           "normalized": "Writer[CExp]()",
@@ -3911,6 +4249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003esarah\u003c/a\u003e\u003c/code\u003e, except we are sorting based on the subject line,\n and giving the mailbox.  As above, boxPrefix will be added to \u003ca\u003enwn\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "nwn",
           "package": "autoproc",
@@ -3921,6 +4260,7 @@
         "index": {
           "description": "Similar to sarah except we are sorting based on the subject line and giving the mailbox As above boxPrefix will be added to nwn",
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "nwn",
           "normalized": "Writer[CExp]()",
@@ -3935,6 +4275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "nwn'",
           "package": "autoproc",
@@ -3944,6 +4285,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "nwn'",
           "normalized": "Writer[CExp]()",
@@ -3958,6 +4300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "ogi",
           "package": "autoproc",
@@ -3967,6 +4310,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "ogi",
           "normalized": "Writer[CExp]()",
@@ -3981,6 +4325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "ogi'",
           "package": "autoproc",
@@ -3990,6 +4335,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "ogi'",
           "normalized": "Writer[CExp]()",
@@ -4004,6 +4350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "orTest",
           "package": "autoproc",
@@ -4013,6 +4360,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "orTest",
           "normalized": "Writer[CExp]()",
@@ -4028,6 +4376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "rogan",
           "package": "autoproc",
@@ -4037,6 +4386,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "rogan",
           "normalized": "Writer[CExp]()",
@@ -4051,6 +4401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "rogan'",
           "package": "autoproc",
@@ -4060,6 +4411,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "rogan'",
           "normalized": "Writer[CExp]()",
@@ -4075,6 +4427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the email address contains \u003ca\u003esparish\u003c/a\u003e, then place the email into a folder\n by the name \u003ca\u003esparish\u003c/a\u003e.  Actually, the name of the mailbox is created by\n appending boxPrefix which is defined in the Configuration module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "sarah",
           "package": "autoproc",
@@ -4085,6 +4438,7 @@
         "index": {
           "description": "If the email address contains sparish then place the email into folder by the name sparish Actually the name of the mailbox is created by appending boxPrefix which is defined in the Configuration module",
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "sarah",
           "normalized": "Writer[CExp]()",
@@ -4099,6 +4453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "sarah'",
           "package": "autoproc",
@@ -4108,6 +4463,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "sarah'",
           "normalized": "Writer[CExp]()",
@@ -4122,6 +4478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "sbclDevel",
           "package": "autoproc",
@@ -4131,6 +4488,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "sbclDevel",
           "normalized": "Writer[CExp]()",
@@ -4146,6 +4504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "sbclDevel'",
           "package": "autoproc",
@@ -4155,6 +4514,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "sbclDevel'",
           "normalized": "Writer[CExp]()",
@@ -4171,6 +4531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn example that demonstrates forwarding an email.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "sharing",
           "package": "autoproc",
@@ -4181,6 +4542,7 @@
         "index": {
           "description": "An example that demonstrates forwarding an email",
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "sharing",
           "normalized": "Writer[CExp]()",
@@ -4196,6 +4558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA filter is a special action that transforms the email for\n the benefit of future rules.  This particular rule,\n hands the email off to spam assassin so that it can be checked for\n signs of spam.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "spamc",
           "package": "autoproc",
@@ -4206,6 +4569,7 @@
         "index": {
           "description": "filter is special action that transforms the email for the benefit of future rules This particular rule hands the email off to spam assassin so that it can be checked for signs of spam",
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "spamc",
           "normalized": "Writer[CExp]()",
@@ -4220,6 +4584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Rules.Dagit",
           "name": "spamcheck",
           "package": "autoproc",
@@ -4229,6 +4594,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Rules Dagit",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Rules.Dagit",
           "name": "spamcheck",
           "normalized": "Writer[CExp]()",
@@ -4243,6 +4609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Run",
           "name": "Run",
           "package": "autoproc",
@@ -4251,6 +4618,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Run",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Run",
           "name": "Run",
           "package": "autoproc",
@@ -4264,6 +4632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Run",
           "name": "autoprocMain",
           "package": "autoproc",
@@ -4273,6 +4642,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Run",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Run",
           "name": "autoprocMain",
           "normalized": "[(String,String)]-\u003eWriter[CExp]a-\u003eIO()",
@@ -4288,6 +4658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Run",
           "name": "autoprocMessage",
           "package": "autoproc",
@@ -4297,6 +4668,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Run",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Run",
           "name": "autoprocMessage",
           "normalized": "IO()",
@@ -4312,6 +4684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Run",
           "name": "showProcmailrc",
           "package": "autoproc",
@@ -4321,6 +4694,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Run",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Run",
           "name": "showProcmailrc",
           "normalized": "[(String,String)]-\u003e[PExp]-\u003eString",
@@ -4336,6 +4710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Transform",
           "name": "Transform",
           "package": "autoproc",
@@ -4344,6 +4719,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Transform",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Transform",
           "name": "Transform",
           "package": "autoproc",
@@ -4357,6 +4733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:15 UTC 2014",
           "module": "Autoproc.Transform",
           "name": "generate",
           "package": "autoproc",
@@ -4366,6 +4743,7 @@
         },
         "index": {
           "hierarchy": "Autoproc Transform",
+          "indexed": "2014-03-11T17:15:15",
           "module": "Autoproc.Transform",
           "name": "generate",
           "normalized": "CExp-\u003e[PExp]",

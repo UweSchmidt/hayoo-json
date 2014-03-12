@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gitlib-utils"
+        "phrase": "gitlib-utils",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "Utils",
           "package": "gitlib-utils",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "Utils",
           "package": "gitlib-utils",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "OidBytestring",
           "package": "gitlib-utils",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "OidBytestring",
           "package": "gitlib-utils",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "OidText",
           "package": "gitlib-utils",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "OidText",
           "package": "gitlib-utils",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "OidTextL",
           "package": "gitlib-utils",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "OidTextL",
           "package": "gitlib-utils",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "PinnedEntry",
           "package": "gitlib-utils",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "PinnedEntry",
           "package": "gitlib-utils",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "OidBytestring",
           "package": "gitlib-utils",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "OidBytestring",
           "package": "gitlib-utils",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "OidText",
           "package": "gitlib-utils",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "OidText",
           "package": "gitlib-utils",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "OidTextL",
           "package": "gitlib-utils",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "OidTextL",
           "package": "gitlib-utils",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "PinnedEntry",
           "package": "gitlib-utils",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "PinnedEntry",
           "package": "gitlib-utils",
@@ -212,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of objects (commit and top-level trees) return by\n   \u003ccode\u003e\u003ca\u003emissingObjects\u003c/a\u003e\u003c/code\u003e, expand it to include all subtrees and blobs as well.\n   Ordering is preserved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "allMissingObjects",
           "package": "gitlib-utils",
@@ -222,6 +241,7 @@
         "index": {
           "description": "Given list of objects commit and top-level trees return by missingObjects expand it to include all subtrees and blobs as well Ordering is preserved",
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "allMissingObjects",
           "normalized": "[Object a]-\u003ea[Object a]",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "blobContentsToByteString",
           "package": "gitlib-utils",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "blobContentsToByteString",
           "normalized": "BlobContents a-\u003ea ByteString",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "blobToByteString",
           "package": "gitlib-utils",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "blobToByteString",
           "normalized": "Blob a-\u003ea ByteString",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "catBlob",
           "package": "gitlib-utils",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "catBlob",
           "normalized": "Text-\u003ea ByteString",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "catBlobUtf8",
           "package": "gitlib-utils",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "catBlobUtf8",
           "normalized": "Text-\u003ea Text",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "commitEntryHistory",
           "package": "gitlib-utils",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "commitEntryHistory",
           "normalized": "Commit a-\u003eFilePath-\u003ea[PinnedEntry a]",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "commitHistoryFirstParent",
           "package": "gitlib-utils",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "commitHistoryFirstParent",
           "normalized": "Commit a-\u003ea[Commit a]",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "commitTreeEntry",
           "package": "gitlib-utils",
@@ -390,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "commitTreeEntry",
           "normalized": "Commit a-\u003eFilePath-\u003ea(Maybe(TreeEntry a))",
@@ -405,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "copyBlob",
           "package": "gitlib-utils",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "copyBlob",
           "normalized": "BlobRef a-\u003eHashSet Text-\u003eb a(BlobOid(b a),HashSet Text)",
@@ -429,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "copyCommit",
           "package": "gitlib-utils",
@@ -438,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "copyCommit",
           "normalized": "CommitRef a-\u003eMaybe Text-\u003eHashSet Text-\u003eb a(CommitRef(b a),HashSet Text)",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "copyOid",
           "package": "gitlib-utils",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "copyOid",
           "normalized": "Oid a-\u003eb a(Oid(b a))",
@@ -477,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "copyTree",
           "package": "gitlib-utils",
@@ -486,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "copyTree",
           "normalized": "TreeRef a-\u003eHashSet Text-\u003eb a(TreeRef(b a),HashSet Text)",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "copyTreeEntry",
           "package": "gitlib-utils",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "copyTreeEntry",
           "normalized": "TreeEntry a-\u003eHashSet Text-\u003eb a(TreeEntry(b a),HashSet Text)",
@@ -525,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "createBlobUtf8",
           "package": "gitlib-utils",
@@ -534,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "createBlobUtf8",
           "normalized": "Text-\u003ea(BlobOid a)",
@@ -550,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFast-forward push a reference between repositories using a recursive\n   copy.  This can be extremely slow, but always works.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "genericPushCommit",
           "package": "gitlib-utils",
@@ -560,6 +607,7 @@
         "index": {
           "description": "Fast-forward push reference between repositories using recursive copy This can be extremely slow but always works",
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "genericPushCommit",
           "normalized": "CommitName a-\u003eText-\u003eb a(CommitRef(b a))",
@@ -575,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "getCommitParents",
           "package": "gitlib-utils",
@@ -584,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "getCommitParents",
           "normalized": "Commit a-\u003ea[Commit a]",
@@ -599,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "getOidBS",
           "package": "gitlib-utils",
@@ -608,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "getOidBS",
           "package": "gitlib-utils",
@@ -621,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "getOidT",
           "package": "gitlib-utils",
@@ -630,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "getOidT",
           "package": "gitlib-utils",
@@ -643,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "getOidTL",
           "package": "gitlib-utils",
@@ -652,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "getOidTL",
           "package": "gitlib-utils",
@@ -665,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "identifyEntry",
           "package": "gitlib-utils",
@@ -674,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "identifyEntry",
           "normalized": "Commit a-\u003eTreeEntry a-\u003ea(PinnedEntry a)",
@@ -689,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "parseOidBytestring",
           "package": "gitlib-utils",
@@ -698,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "parseOidBytestring",
           "normalized": "Text-\u003ea OidBytestring",
@@ -713,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "parseOidText",
           "package": "gitlib-utils",
@@ -722,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "parseOidText",
           "normalized": "Text-\u003ea OidText",
@@ -737,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "parseOidTextL",
           "package": "gitlib-utils",
@@ -746,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "parseOidTextL",
           "normalized": "Text-\u003ea OidTextL",
@@ -761,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "pinnedCommit",
           "package": "gitlib-utils",
@@ -770,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "pinnedCommit",
           "package": "gitlib-utils",
@@ -783,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "pinnedEntry",
           "package": "gitlib-utils",
@@ -792,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "pinnedEntry",
           "package": "gitlib-utils",
@@ -805,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "pinnedOid",
           "package": "gitlib-utils",
@@ -814,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "pinnedOid",
           "package": "gitlib-utils",
@@ -827,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "resolveRefTree",
           "package": "gitlib-utils",
@@ -836,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "resolveRefTree",
           "normalized": "Text-\u003ea(Tree a(TreeKind a))",
@@ -851,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "splitPath",
           "package": "gitlib-utils",
@@ -860,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "splitPath",
           "normalized": "FilePath-\u003e[Text]",
@@ -875,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "treeBlobEntries",
           "package": "gitlib-utils",
@@ -884,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "treeBlobEntries",
           "normalized": "Tree a(TreeKind a)-\u003ea[(FilePath,TreeEntry a)]",
@@ -899,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "treeOid",
           "package": "gitlib-utils",
@@ -908,6 +985,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "treeOid",
           "normalized": "Tree a(TreeKind a)-\u003ea Text",
@@ -923,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "withNewRepository",
           "package": "gitlib-utils",
@@ -932,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "withNewRepository",
           "normalized": "RepositoryFactory a b c-\u003eFilePath-\u003ea b d-\u003eb d",
@@ -947,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:46 UTC 2014",
           "module": "Git.Utils",
           "name": "withNewRepository'",
           "package": "gitlib-utils",
@@ -956,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:46",
           "module": "Git.Utils",
           "name": "withNewRepository'",
           "normalized": "RepositoryFactory a b c-\u003eFilePath-\u003ea b d-\u003eb d",

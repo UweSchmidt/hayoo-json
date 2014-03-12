@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-info"
+        "phrase": "network-info",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:58 UTC 2014",
           "module": "Network.Info",
           "name": "Info",
           "package": "network-info",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Info",
+          "indexed": "2014-03-11T19:27:58",
           "module": "Network.Info",
           "name": "Info",
           "package": "network-info",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an IPv4 address (e.g. \u003ccode\u003e172.23.21.1\u003c/code\u003e, \u003ccode\u003e127.0.0.1\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:58 UTC 2014",
           "module": "Network.Info",
           "name": "IPv4",
           "package": "network-info",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Represents an IPv4 address e.g",
           "hierarchy": "Network Info",
+          "indexed": "2014-03-11T19:27:58",
           "module": "Network.Info",
           "name": "IPv4",
           "package": "network-info",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an IPv6 address (e.g. \u003ccode\u003e2001:db8:85a3::8a2e:370:7334\u003c/code\u003e, \u003ccode\u003e::1\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:58 UTC 2014",
           "module": "Network.Info",
           "name": "IPv6",
           "package": "network-info",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Represents an IPv6 address e.g db8 a3 a2e",
           "hierarchy": "Network Info",
+          "indexed": "2014-03-11T19:27:58",
           "module": "Network.Info",
           "name": "IPv6",
           "package": "network-info",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a MAC address (e.g. \u003ccode\u003e01:23:45:67:89:ab\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:58 UTC 2014",
           "module": "Network.Info",
           "name": "MAC",
           "package": "network-info",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Represents MAC address e.g ab",
           "hierarchy": "Network Info",
+          "indexed": "2014-03-11T19:27:58",
           "module": "Network.Info",
           "name": "MAC",
           "package": "network-info",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes the basic configuration of a network interface. \u003cem\u003eThis\u003c/em\u003e\n   \u003cem\u003edefinition is currently limited to just one address per family.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:58 UTC 2014",
           "module": "Network.Info",
           "name": "NetworkInterface",
           "package": "network-info",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Describes the basic configuration of network interface This definition is currently limited to just one address per family",
           "hierarchy": "Network Info",
+          "indexed": "2014-03-11T19:27:58",
           "module": "Network.Info",
           "name": "NetworkInterface",
           "package": "network-info",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:58 UTC 2014",
           "module": "Network.Info",
           "name": "IPv4",
           "package": "network-info",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Network Info",
+          "indexed": "2014-03-11T19:27:58",
           "module": "Network.Info",
           "name": "IPv4",
           "package": "network-info",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:58 UTC 2014",
           "module": "Network.Info",
           "name": "IPv6",
           "package": "network-info",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Network Info",
+          "indexed": "2014-03-11T19:27:58",
           "module": "Network.Info",
           "name": "IPv6",
           "package": "network-info",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:58 UTC 2014",
           "module": "Network.Info",
           "name": "MAC",
           "package": "network-info",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Network Info",
+          "indexed": "2014-03-11T19:27:58",
           "module": "Network.Info",
           "name": "MAC",
           "package": "network-info",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:58 UTC 2014",
           "module": "Network.Info",
           "name": "NetworkInterface",
           "package": "network-info",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Network Info",
+          "indexed": "2014-03-11T19:27:58",
           "module": "Network.Info",
           "name": "NetworkInterface",
           "package": "network-info",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the address information for each of the network interfaces on\n   the local computer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:58 UTC 2014",
           "module": "Network.Info",
           "name": "getNetworkInterfaces",
           "package": "network-info",
@@ -230,6 +249,7 @@
         "index": {
           "description": "Gets the address information for each of the network interfaces on the local computer",
           "hierarchy": "Network Info",
+          "indexed": "2014-03-11T19:27:58",
           "module": "Network.Info",
           "name": "getNetworkInterfaces",
           "normalized": "IO[NetworkInterface]",
@@ -246,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIPv4 address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:58 UTC 2014",
           "module": "Network.Info",
           "name": "ipv4",
           "package": "network-info",
@@ -256,6 +277,7 @@
         "index": {
           "description": "IPv4 address",
           "hierarchy": "Network Info",
+          "indexed": "2014-03-11T19:27:58",
           "module": "Network.Info",
           "name": "ipv4",
           "package": "network-info",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIPv6 address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:58 UTC 2014",
           "module": "Network.Info",
           "name": "ipv6",
           "package": "network-info",
@@ -279,6 +302,7 @@
         "index": {
           "description": "IPv6 address",
           "hierarchy": "Network Info",
+          "indexed": "2014-03-11T19:27:58",
           "module": "Network.Info",
           "name": "ipv6",
           "package": "network-info",
@@ -292,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMAC address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:58 UTC 2014",
           "module": "Network.Info",
           "name": "mac",
           "package": "network-info",
@@ -302,6 +327,7 @@
         "index": {
           "description": "MAC address",
           "hierarchy": "Network Info",
+          "indexed": "2014-03-11T19:27:58",
           "module": "Network.Info",
           "name": "mac",
           "package": "network-info",
@@ -315,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface name (e.g. \"eth0\", \"lo\", \"Local Area Connection\")\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:58 UTC 2014",
           "module": "Network.Info",
           "name": "name",
           "package": "network-info",
@@ -325,6 +352,7 @@
         "index": {
           "description": "Interface name e.g eth0 lo Local Area Connection",
           "hierarchy": "Network Info",
+          "indexed": "2014-03-11T19:27:58",
           "module": "Network.Info",
           "name": "name",
           "package": "network-info",

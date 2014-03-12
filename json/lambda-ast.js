@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lambda-ast"
+        "phrase": "lambda-ast",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "Syntax",
           "package": "lambda-ast",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda SimplyTyped Let Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "Syntax",
           "package": "lambda-ast",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "Expr",
           "package": "lambda-ast",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda SimplyTyped Let Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "Expr",
           "package": "lambda-ast",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "Type",
           "package": "lambda-ast",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda SimplyTyped Let Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "Type",
           "package": "lambda-ast",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "App",
           "package": "lambda-ast",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda SimplyTyped Let Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "App",
           "package": "lambda-ast",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "Arrow",
           "package": "lambda-ast",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda SimplyTyped Let Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "Arrow",
           "package": "lambda-ast",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "Base",
           "package": "lambda-ast",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda SimplyTyped Let Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "Base",
           "package": "lambda-ast",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "Constant",
           "package": "lambda-ast",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda SimplyTyped Let Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "Constant",
           "package": "lambda-ast",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "Lam",
           "package": "lambda-ast",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda SimplyTyped Let Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "Lam",
           "package": "lambda-ast",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "Let",
           "package": "lambda-ast",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda SimplyTyped Let Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "Let",
           "package": "lambda-ast",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "Var",
           "package": "lambda-ast",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda SimplyTyped Let Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.SimplyTyped.Let.Syntax",
           "name": "Var",
           "package": "lambda-ast",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.SimplyTyped.Syntax",
           "name": "Syntax",
           "package": "lambda-ast",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda SimplyTyped Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.SimplyTyped.Syntax",
           "name": "Syntax",
           "package": "lambda-ast",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.SimplyTyped.Syntax",
           "name": "Expr",
           "package": "lambda-ast",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda SimplyTyped Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.SimplyTyped.Syntax",
           "name": "Expr",
           "package": "lambda-ast",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.SimplyTyped.Syntax",
           "name": "Type",
           "package": "lambda-ast",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda SimplyTyped Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.SimplyTyped.Syntax",
           "name": "Type",
           "package": "lambda-ast",
@@ -298,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.SimplyTyped.Syntax",
           "name": "App",
           "package": "lambda-ast",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda SimplyTyped Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.SimplyTyped.Syntax",
           "name": "App",
           "package": "lambda-ast",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.SimplyTyped.Syntax",
           "name": "Arrow",
           "package": "lambda-ast",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda SimplyTyped Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.SimplyTyped.Syntax",
           "name": "Arrow",
           "package": "lambda-ast",
@@ -342,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.SimplyTyped.Syntax",
           "name": "Base",
           "package": "lambda-ast",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda SimplyTyped Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.SimplyTyped.Syntax",
           "name": "Base",
           "package": "lambda-ast",
@@ -364,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.SimplyTyped.Syntax",
           "name": "Constant",
           "package": "lambda-ast",
@@ -373,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda SimplyTyped Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.SimplyTyped.Syntax",
           "name": "Constant",
           "package": "lambda-ast",
@@ -386,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.SimplyTyped.Syntax",
           "name": "Lam",
           "package": "lambda-ast",
@@ -395,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda SimplyTyped Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.SimplyTyped.Syntax",
           "name": "Lam",
           "package": "lambda-ast",
@@ -408,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.SimplyTyped.Syntax",
           "name": "Var",
           "package": "lambda-ast",
@@ -417,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda SimplyTyped Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.SimplyTyped.Syntax",
           "name": "Var",
           "package": "lambda-ast",
@@ -431,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn Untyped Lambda Calculus AST \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.Untyped.Syntax",
           "name": "Syntax",
           "package": "lambda-ast",
@@ -440,6 +479,7 @@
         "index": {
           "description": "An Untyped Lambda Calculus AST",
           "hierarchy": "Language Lambda Untyped Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.Untyped.Syntax",
           "name": "Syntax",
           "package": "lambda-ast",
@@ -454,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA common AST\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.Untyped.Syntax",
           "name": "Expr",
           "package": "lambda-ast",
@@ -463,6 +504,7 @@
         "index": {
           "description": "common AST",
           "hierarchy": "Language Lambda Untyped Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.Untyped.Syntax",
           "name": "Expr",
           "package": "lambda-ast",
@@ -477,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA polymorphic version of the AST to allow different symbol types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.Untyped.Syntax",
           "name": "GExpr",
           "package": "lambda-ast",
@@ -486,6 +529,7 @@
         "index": {
           "description": "polymorphic version of the AST to allow different symbol types",
           "hierarchy": "Language Lambda Untyped Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.Untyped.Syntax",
           "name": "GExpr",
           "package": "lambda-ast",
@@ -500,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA common symbol type choice\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.Untyped.Syntax",
           "name": "Sym",
           "package": "lambda-ast",
@@ -509,6 +554,7 @@
         "index": {
           "description": "common symbol type choice",
           "hierarchy": "Language Lambda Untyped Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.Untyped.Syntax",
           "name": "Sym",
           "package": "lambda-ast",
@@ -522,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.Untyped.Syntax",
           "name": "App",
           "package": "lambda-ast",
@@ -531,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda Untyped Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.Untyped.Syntax",
           "name": "App",
           "package": "lambda-ast",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.Untyped.Syntax",
           "name": "Lam",
           "package": "lambda-ast",
@@ -553,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda Untyped Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.Untyped.Syntax",
           "name": "Lam",
           "package": "lambda-ast",
@@ -566,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:03:56 UTC 2014",
           "module": "Language.Lambda.Untyped.Syntax",
           "name": "Var",
           "package": "lambda-ast",
@@ -575,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Language Lambda Untyped Syntax",
+          "indexed": "2014-03-11T19:03:56",
           "module": "Language.Lambda.Untyped.Syntax",
           "name": "Var",
           "package": "lambda-ast",

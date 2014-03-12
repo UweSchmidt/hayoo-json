@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lcs"
+        "phrase": "lcs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is an implementation of the Hunt-Szymanski LCS algorithm.\n Derived from the description in \"String searching algorithms\" by\n Graham A Stephen, ISBN 981021829X.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:07:00 UTC 2014",
           "module": "Data.List.LCS.HuntSzymanski",
           "name": "HuntSzymanski",
           "package": "lcs",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This is an implementation of the Hunt-Szymanski LCS algorithm Derived from the description in String searching algorithms by Graham Stephen ISBN",
           "hierarchy": "Data List LCS HuntSzymanski",
+          "indexed": "2014-03-11T19:07:00",
           "module": "Data.List.LCS.HuntSzymanski",
           "name": "HuntSzymanski",
           "package": "lcs",
@@ -68,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a simple, stupid and (most of all) slow implementation of the\n Data.List.LCS interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:07:00 UTC 2014",
           "module": "Data.List.LCS.Simple",
           "name": "Simple",
           "package": "lcs",
@@ -77,6 +80,7 @@
         "index": {
           "description": "This is simple stupid and most of all slow implementation of the Data.List.LCS interface",
           "hierarchy": "Data List LCS Simple",
+          "indexed": "2014-03-11T19:07:00",
           "module": "Data.List.LCS.Simple",
           "name": "Simple",
           "package": "lcs",
@@ -90,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:00 UTC 2014",
           "module": "Data.List.LCS.Simple",
           "name": "lcs",
           "package": "lcs",
@@ -99,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Data List LCS Simple",
+          "indexed": "2014-03-11T19:07:00",
           "module": "Data.List.LCS.Simple",
           "name": "lcs",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -114,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a function lcs that takes two lists and returns a longest common\n sublist. For example, lcs \u003ca\u003eabcd\u003c/a\u003e \u003ca\u003eacbd\u003c/a\u003e is either \u003ca\u003eabd\u003c/a\u003e or \u003ca\u003eacd\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:07:00 UTC 2014",
           "module": "Data.List.LCS",
           "name": "LCS",
           "package": "lcs",
@@ -123,6 +130,7 @@
         "index": {
           "description": "Provides function lcs that takes two lists and returns longest common sublist For example lcs abcd acbd is either abd or acd",
           "hierarchy": "Data List LCS",
+          "indexed": "2014-03-11T19:07:00",
           "module": "Data.List.LCS",
           "name": "LCS",
           "package": "lcs",

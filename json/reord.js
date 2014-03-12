@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reord"
+        "phrase": "reord",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:46 UTC 2014",
           "module": "Data.Ord.ReOrd",
           "name": "ReOrd",
           "package": "reord",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Ord ReOrd",
+          "indexed": "2014-03-11T19:52:46",
           "module": "Data.Ord.ReOrd",
           "name": "ReOrd",
           "package": "reord",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type which provides an ad-hoc \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e instance for the type it wraps.\n It is the user's responsibility to make sure that it obeys all\n relevant laws, also taking into account the fact that when 2 items\n are compared, only one of their \u003ccode\u003e\u003ca\u003ecmp\u003c/a\u003e\u003c/code\u003e functions is invoked (the left one)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:46 UTC 2014",
           "module": "Data.Ord.ReOrd",
           "name": "ReOrd",
           "package": "reord",
@@ -49,6 +52,7 @@
         "index": {
           "description": "type which provides an ad-hoc Ord instance for the type it wraps It is the user responsibility to make sure that it obeys all relevant laws also taking into account the fact that when items are compared only one of their cmp functions is invoked the left one",
           "hierarchy": "Data Ord ReOrd",
+          "indexed": "2014-03-11T19:52:46",
           "module": "Data.Ord.ReOrd",
           "name": "ReOrd",
           "package": "reord",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handy constructor which just reverses the sense of an existing \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e\n  instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:46 UTC 2014",
           "module": "Data.Ord.ReOrd",
           "name": "ReverseOrd",
           "package": "reord",
@@ -72,6 +77,7 @@
         "index": {
           "description": "handy constructor which just reverses the sense of an existing Ord instance",
           "hierarchy": "Data Ord ReOrd",
+          "indexed": "2014-03-11T19:52:46",
           "module": "Data.Ord.ReOrd",
           "name": "ReverseOrd",
           "package": "reord",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:46 UTC 2014",
           "module": "Data.Ord.ReOrd",
           "name": "ReOrd",
           "package": "reord",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Ord ReOrd",
+          "indexed": "2014-03-11T19:52:46",
           "module": "Data.Ord.ReOrd",
           "name": "ReOrd",
           "package": "reord",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:46 UTC 2014",
           "module": "Data.Ord.ReOrd",
           "name": "ReverseOrd",
           "package": "reord",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data Ord ReOrd",
+          "indexed": "2014-03-11T19:52:46",
           "module": "Data.Ord.ReOrd",
           "name": "ReverseOrd",
           "package": "reord",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:46 UTC 2014",
           "module": "Data.Ord.ReOrd",
           "name": "cmp",
           "package": "reord",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data Ord ReOrd",
+          "indexed": "2014-03-11T19:52:46",
           "module": "Data.Ord.ReOrd",
           "name": "cmp",
           "normalized": "a-\u003ea-\u003eOrdering",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:46 UTC 2014",
           "module": "Data.Ord.ReOrd",
           "name": "item",
           "package": "reord",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Data Ord ReOrd",
+          "indexed": "2014-03-11T19:52:46",
           "module": "Data.Ord.ReOrd",
           "name": "item",
           "package": "reord",

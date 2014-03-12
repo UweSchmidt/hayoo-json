@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "event-monad"
+        "phrase": "event-monad",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "BasicEvents",
           "package": "event-monad",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event BasicEvents",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "BasicEvents",
           "package": "event-monad",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn event with description and effect supplied at run time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "AdHocEvent",
           "package": "event-monad",
@@ -49,6 +52,7 @@
         "index": {
           "description": "An event with description and effect supplied at run time",
           "hierarchy": "Control Monad Event BasicEvents",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "AdHocEvent",
           "package": "event-monad",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "SimControl",
           "package": "event-monad",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event BasicEvents",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "SimControl",
           "package": "event-monad",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix operator for sequential composition of events\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "(&)",
           "package": "event-monad",
@@ -94,6 +101,7 @@
         "index": {
           "description": "An infix operator for sequential composition of events",
           "hierarchy": "Control Monad Event BasicEvents",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "(&) &",
           "normalized": "a-\u003ea-\u003eAdHocEvent b",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003e&\u003c/a\u003e\u003c/code\u003e that preserves distinctness of events\n at the expense of being able to guarantee \"proper\" interleaving\n with other events scheduled at the same time.  For example, suppose a\n composite event e1 &- e2 of this type is scheduled, then a third\n event e3 is scheduled for the same time.  The \"expected\" order of\n execution is e1; e2; e3.  What actually happens is e1; e3; e2 - \n because (e1 &- e2) runs, having the effect of running e1 and \n scheduling e2, then e3 runs (because it's next in the queue),\n then e2 finally runs.  This situation could be solved by changing\n the semantics for \u003ccode\u003e\u003ca\u003edoNext\u003c/a\u003e\u003c/code\u003e as proposed there.\n\u003c/p\u003e\u003cp\u003eThis is primarily useful for separating an initial \u003ccode\u003eSetDebugHandlers\u003c/code\u003e\n event from the other event(s) being fired at the start\n of the simulation, so that they will be \"seen\" by the \n newly installed handlers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "(&-)",
           "package": "event-monad",
@@ -119,6 +128,7 @@
         "index": {
           "description": "version of that preserves distinctness of events at the expense of being able to guarantee proper interleaving with other events scheduled at the same time For example suppose composite event e1 e2 of this type is scheduled then third event e3 is scheduled for the same time The expected order of execution is e1 e2 e3 What actually happens is e1 e3 e2 because e1 e2 runs having the effect of running e1 and scheduling e2 then e3 runs because it next in the queue then e2 finally runs This situation could be solved by changing the semantics for doNext as proposed there This is primarily useful for separating an initial SetDebugHandlers event from the other event being fired at the start of the simulation so that they will be seen by the newly installed handlers",
           "hierarchy": "Control Monad Event BasicEvents",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "(&-) &-",
           "normalized": "a-\u003ea-\u003eAdHocEvent b",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix operator to construct an event from a description and an action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "(?:)",
           "package": "event-monad",
@@ -144,6 +155,7 @@
         "index": {
           "description": "An infix operator to construct an event from description and an action",
           "hierarchy": "Control Monad Event BasicEvents",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "(?:) ?:",
           "normalized": "a-\u003eb c-\u003eAdHocEvent b",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame thing, but use an action to generate the description\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "(?::)",
           "package": "event-monad",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Same thing but use an action to generate the description",
           "hierarchy": "Control Monad Event BasicEvents",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "(?::) ?::",
           "normalized": "a Doc-\u003ea b-\u003eAdHocEvent a",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix operator for defining a \"delayed\" event - or rather a \n new event that schedules its payload at a later time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "(@:)",
           "package": "event-monad",
@@ -194,6 +209,7 @@
         "index": {
           "description": "An infix operator for defining delayed event or rather new event that schedules its payload at later time",
           "hierarchy": "Control Monad Event BasicEvents",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "(@:) @:",
           "normalized": "a-\u003eb-\u003eAdHocEvent c",
@@ -208,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "AdHocEvent",
           "package": "event-monad",
@@ -217,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event BasicEvents",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "AdHocEvent",
           "normalized": "AdHocEvent(a Doc)(a())",
@@ -232,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "StartSim",
           "package": "event-monad",
@@ -241,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event BasicEvents",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "StartSim",
           "package": "event-monad",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "StopSim",
           "package": "event-monad",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event BasicEvents",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.BasicEvents",
           "name": "StopSim",
           "package": "event-monad",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "Classes",
           "package": "event-monad",
@@ -284,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "Classes",
           "package": "event-monad",
@@ -298,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad in which an event (presumably one previously scheduled)\n can be canceled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "CancelEvent",
           "package": "event-monad",
@@ -307,6 +332,7 @@
         "index": {
           "description": "monad in which an event presumably one previously scheduled can be canceled",
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "CancelEvent",
           "package": "event-monad",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad in which an \u003ccode\u003e\u003ca\u003eEventDescriptor\u003c/a\u003e\u003c/code\u003e for the currently-executing\n event, if any, can be obtained.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "GetCurrentEvent",
           "package": "event-monad",
@@ -330,6 +357,7 @@
         "index": {
           "description": "monad in which an EventDescriptor for the currently-executing event if any can be obtained",
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "GetCurrentEvent",
           "package": "event-monad",
@@ -344,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad in which there is a concept of an \"event\" - an action with a\n sort of a special status, which can be described for humans and can be\n otherwise manipulated in monads implementing the classes to follow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "MonadEvent",
           "package": "event-monad",
@@ -353,6 +382,7 @@
         "index": {
           "description": "monad in which there is concept of an event an action with sort of special status which can be described for humans and can be otherwise manipulated in monads implementing the classes to follow",
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "MonadEvent",
           "package": "event-monad",
@@ -367,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad in which information about the event queue can be retrieved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "MonadEventQueueInfo",
           "package": "event-monad",
@@ -376,6 +407,7 @@
         "index": {
           "description": "monad in which information about the event queue can be retrieved",
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "MonadEventQueueInfo",
           "package": "event-monad",
@@ -390,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad in which there is a concept of running and not-running and\n unrestricted operations for switching between them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "MonadSimControl",
           "package": "event-monad",
@@ -399,6 +432,7 @@
         "index": {
           "description": "monad in which there is concept of running and not-running and unrestricted operations for switching between them",
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "MonadSimControl",
           "package": "event-monad",
@@ -413,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type-class for monads with a concept of time.  That concept need not\n necessarily meet any prior conditions - not even an Eq instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "MonadTime",
           "package": "event-monad",
@@ -422,6 +457,7 @@
         "index": {
           "description": "type-class for monads with concept of time That concept need not necessarily meet any prior conditions not even an Eq instance",
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "MonadTime",
           "package": "event-monad",
@@ -436,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad in which the currently executing event can be rescheduled.\n Note that calling \u003ccode\u003e\u003ca\u003eretryEventAt\u003c/a\u003e\u003c/code\u003e does not terminate the currently\n executing event - although perhaps it should.  Until a more permanent\n decision is made, it's probably best to make \u003ccode\u003e\u003ca\u003eretryEventAt\u003c/a\u003e\u003c/code\u003e the last\n action of an event when it is used, to minimize impact of future changes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "RetryEvent",
           "package": "event-monad",
@@ -445,6 +482,7 @@
         "index": {
           "description": "monad in which the currently executing event can be rescheduled Note that calling retryEventAt does not terminate the currently executing event although perhaps it should Until more permanent decision is made it probably best to make retryEventAt the last action of an event when it is used to minimize impact of future changes",
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "RetryEvent",
           "package": "event-monad",
@@ -459,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad which can schedule events for later execution.  For obvious\n reasons, such a monad must also have a concept of events (covering the\n event that the user is trying to schedule) and a concept of time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "ScheduleEvent",
           "package": "event-monad",
@@ -468,6 +507,7 @@
         "index": {
           "description": "monad which can schedule events for later execution For obvious reasons such monad must also have concept of events covering the event that the user is trying to schedule and concept of time",
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "ScheduleEvent",
           "package": "event-monad",
@@ -482,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCancel an event given its \u003ccode\u003e\u003ca\u003eEventID\u003c/a\u003e\u003c/code\u003e.  If successful (and\n if the monad's implementation allows it), an \u003ccode\u003e\u003ca\u003eEventDescriptor\u003c/a\u003e\u003c/code\u003e\n (an existential wrapper describing an event, its ID, and\n the time at which it would have run) containing the \n canceled event is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "cancelEvent",
           "package": "event-monad",
@@ -492,6 +533,7 @@
         "index": {
           "description": "Cancel an event given its EventID If successful and if the monad implementation allows it an EventDescriptor an existential wrapper describing an event its ID and the time at which it would have run containing the canceled event is returned",
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "cancelEvent",
           "normalized": "EventID-\u003ea(Maybe(EventDescriptor a b))",
@@ -507,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "describeEvent",
           "package": "event-monad",
@@ -516,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "describeEvent",
           "normalized": "a-\u003eb Doc",
@@ -532,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eschedule an event to run at the current time.  This does not \n constitute a promise to execute immediately or in any particular\n order relative to other events that have been or will be\n scheduled for the current time.\n\u003c/p\u003e\u003cp\u003eIf an implementor has a time type which is an instance of \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e, then\n \u003ccode\u003e\u003ca\u003edoNext\u003c/a\u003e\u003c/code\u003e should be equivalent to \u003ccode\u003e\u003ca\u003escheduleEventIn\u003c/a\u003e\u003c/code\u003e 0 - unless the\n monad's documentation clearly warns to the contrary in a really big\n typeface.  ; )  Note that this clause may change to also strongly\n suggest that \u003ccode\u003e\u003ca\u003edoNext\u003c/a\u003e\u003c/code\u003e put its event at the very front of the queue\n (ie, before any other events already scheduled for the current time).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "doNext",
           "package": "event-monad",
@@ -542,6 +587,7 @@
         "index": {
           "description": "schedule an event to run at the current time This does not constitute promise to execute immediately or in any particular order relative to other events that have been or will be scheduled for the current time If an implementor has time type which is an instance of Num then doNext should be equivalent to scheduleEventIn unless the monad documentation clearly warns to the contrary in really big typeface Note that this clause may change to also strongly suggest that doNext put its event at the very front of the queue ie before any other events already scheduled for the current time",
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "doNext",
           "normalized": "a-\u003eb()",
@@ -558,6 +604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of (some or all of) the events coming up.\n There is no obligation on the part of the monad to provide\n anything at all.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "eventQueueContents",
           "package": "event-monad",
@@ -568,6 +615,7 @@
         "index": {
           "description": "Return list of some or all of the events coming up There is no obligation on the part of the monad to provide anything at all",
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "eventQueueContents",
           "normalized": "a[EventDescriptor a b]",
@@ -584,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of events currently scheduled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "eventQueueSize",
           "package": "event-monad",
@@ -594,6 +643,7 @@
         "index": {
           "description": "Return the number of events currently scheduled",
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "eventQueueSize",
           "package": "event-monad",
@@ -607,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "getCurrentEvent",
           "package": "event-monad",
@@ -616,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "getCurrentEvent",
           "package": "event-monad",
@@ -629,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "getCurrentTime",
           "package": "event-monad",
@@ -638,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "getCurrentTime",
           "package": "event-monad",
@@ -651,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "isSimulationRunning",
           "package": "event-monad",
@@ -660,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "isSimulationRunning",
           "package": "event-monad",
@@ -673,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "pauseSimulation",
           "package": "event-monad",
@@ -682,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "pauseSimulation",
           "normalized": "a()",
@@ -697,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "resumeSimulation",
           "package": "event-monad",
@@ -706,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "resumeSimulation",
           "normalized": "a()",
@@ -721,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "retryEventAt",
           "package": "event-monad",
@@ -730,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "retryEventAt",
           "normalized": "a-\u003eb EventID",
@@ -746,6 +808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eretry the currently-executing event at an absolute time (see \u003ccode\u003e\u003ca\u003eretryEventIn\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "retryEventIn",
           "package": "event-monad",
@@ -756,6 +819,7 @@
         "index": {
           "description": "retry the currently-executing event at an absolute time see retryEventIn",
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "retryEventIn",
           "normalized": "a-\u003eb EventID",
@@ -771,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "runEvent",
           "package": "event-monad",
@@ -780,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "runEvent",
           "normalized": "a-\u003eb()",
@@ -796,6 +862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSchedule an event for execution at a time.\n The meaning of \"time\" is left entirely up to the\n implementor, however it will generally be the case that time is\n an instance of \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e and/or is totally ordered in the usual way.\n\u003c/p\u003e\u003cp\u003eReturns an \u003ccode\u003e\u003ca\u003eEventID\u003c/a\u003e\u003c/code\u003e that can be used to identify the event\n if needed later (for example, to cancel it).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "scheduleEventAt",
           "package": "event-monad",
@@ -806,6 +873,7 @@
         "index": {
           "description": "Schedule an event for execution at time The meaning of time is left entirely up to the implementor however it will generally be the case that time is an instance of Num and or is totally ordered in the usual way Returns an EventID that can be used to identify the event if needed later for example to cancel it",
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "scheduleEventAt",
           "normalized": "a-\u003eb-\u003ec EventID",
@@ -822,6 +890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eschedule an event at an absolute time (see \u003ccode\u003e\u003ca\u003escheduleEventIn\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event.Classes",
           "name": "scheduleEventIn",
           "package": "event-monad",
@@ -832,6 +901,7 @@
         "index": {
           "description": "schedule an event at an absolute time see scheduleEventIn",
           "hierarchy": "Control Monad Event Classes",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event.Classes",
           "name": "scheduleEventIn",
           "normalized": "a-\u003eb-\u003ec EventID",
@@ -847,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event",
           "name": "Event",
           "package": "event-monad",
@@ -855,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event",
           "name": "Event",
           "package": "event-monad",
@@ -869,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn existential wrapper containing an event which can be executed in the\n monad \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eI would like to existentially quantify the time parameter too, since it's\n uniquely determined according to the functional dependencies of \u003ccode\u003e\u003ca\u003eMonadTime\u003c/a\u003e\u003c/code\u003e,\n but GHC doesn't unify it with its actual type in pattern matches - I was\n not able to use it as a \u003ccode\u003e\u003ca\u003ePrintfArg\u003c/a\u003e\u003c/code\u003e in:\n\u003c/p\u003e\u003cpre\u003e instance MonadEvent (EventT Double IO) (EventDescriptor (EventT Double IO))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event",
           "name": "EventDescriptor",
           "package": "event-monad",
@@ -878,6 +951,7 @@
         "index": {
           "description": "An existential wrapper containing an event which can be executed in the monad would like to existentially quantify the time parameter too since it uniquely determined according to the functional dependencies of MonadTime but GHC doesn unify it with its actual type in pattern matches was not able to use it as PrintfArg in instance MonadEvent EventT Double IO EventDescriptor EventT Double IO",
           "hierarchy": "Control Monad Event",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event",
           "name": "EventDescriptor",
           "package": "event-monad",
@@ -892,6 +966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque identifier for events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event",
           "name": "EventID",
           "package": "event-monad",
@@ -901,6 +976,7 @@
         "index": {
           "description": "An opaque identifier for events",
           "hierarchy": "Control Monad Event",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event",
           "name": "EventID",
           "package": "event-monad",
@@ -914,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event",
           "name": "EventM",
           "package": "event-monad",
@@ -922,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event",
           "name": "EventM",
           "package": "event-monad",
@@ -936,6 +1014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad transformer which adds an event queue and related operations to\n an underlying monad.  The \"t\" parameter specifies the type of the\n simulation time.\n\u003c/p\u003e\u003cp\u003eSeveral hooks are provided to allow special handling of various events,\n such as the progression of time, the scheduling or canceling or dispatch\n of an event, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event",
           "name": "EventT",
           "package": "event-monad",
@@ -945,6 +1024,7 @@
         "index": {
           "description": "monad transformer which adds an event queue and related operations to an underlying monad The parameter specifies the type of the simulation time Several hooks are provided to allow special handling of various events such as the progression of time the scheduling or canceling or dispatch of an event etc",
           "hierarchy": "Control Monad Event",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event",
           "name": "EventT",
           "package": "event-monad",
@@ -958,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event",
           "name": "EventDescriptor",
           "package": "event-monad",
@@ -967,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event",
           "name": "EventDescriptor",
           "package": "event-monad",
@@ -980,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event",
           "name": "EventID",
           "package": "event-monad",
@@ -989,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event",
           "name": "EventID",
           "package": "event-monad",
@@ -1002,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event",
           "name": "event",
           "package": "event-monad",
@@ -1011,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event",
           "name": "event",
           "package": "event-monad",
@@ -1023,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event",
           "name": "eventId",
           "package": "event-monad",
@@ -1032,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event",
           "name": "eventId",
           "package": "event-monad",
@@ -1045,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.Event",
           "name": "eventTime",
           "package": "event-monad",
@@ -1054,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Event",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.Event",
           "name": "eventTime",
           "package": "event-monad",
@@ -1067,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventM",
           "name": "EventM",
           "package": "event-monad",
@@ -1075,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Control Monad EventM",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventM",
           "name": "EventM",
           "package": "event-monad",
@@ -1088,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventM",
           "name": "EventIO",
           "package": "event-monad",
@@ -1096,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Control Monad EventM",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventM",
           "name": "EventIO",
           "package": "event-monad",
@@ -1109,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventM",
           "name": "EventIOState",
           "package": "event-monad",
@@ -1117,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Control Monad EventM",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventM",
           "name": "EventIOState",
           "package": "event-monad",
@@ -1130,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventM",
           "name": "EventM",
           "package": "event-monad",
@@ -1138,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Control Monad EventM",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventM",
           "name": "EventM",
           "package": "event-monad",
@@ -1151,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventM",
           "name": "HandlerAccessor",
           "package": "event-monad",
@@ -1159,6 +1258,7 @@
         },
         "index": {
           "hierarchy": "Control Monad EventM",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventM",
           "name": "HandlerAccessor",
           "package": "event-monad",
@@ -1173,6 +1273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an event handler to be called when the specified event happens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventM",
           "name": "addHandler",
           "package": "event-monad",
@@ -1183,6 +1284,7 @@
         "index": {
           "description": "Add an event handler to be called when the specified event happens",
           "hierarchy": "Control Monad EventM",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventM",
           "name": "addHandler",
           "normalized": "HandlerAccessor a b c-\u003e(b-\u003eEventIO a c)-\u003eEventIO a HandlerID",
@@ -1198,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventM",
           "name": "newEventIOState",
           "package": "event-monad",
@@ -1207,6 +1310,7 @@
         },
         "index": {
           "hierarchy": "Control Monad EventM",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventM",
           "name": "newEventIOState",
           "normalized": "a-\u003eIO(EventIOState a)",
@@ -1222,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventM",
           "name": "onClockChanged",
           "package": "event-monad",
@@ -1231,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Control Monad EventM",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventM",
           "name": "onClockChanged",
           "normalized": "EventIOHandlers a-\u003eRef IO(HandlerSet(EventIO a)(a,a)())",
@@ -1246,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventM",
           "name": "onEventCancel",
           "package": "event-monad",
@@ -1255,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Control Monad EventM",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventM",
           "name": "onEventCancel",
           "normalized": "EventIOHandlers a-\u003eRef IO(HandlerSet(EventIO a)(Either EventID(EventDescriptor(EventIO a)a))())",
@@ -1270,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventM",
           "name": "onEventComplete",
           "package": "event-monad",
@@ -1279,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Control Monad EventM",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventM",
           "name": "onEventComplete",
           "normalized": "EventIOHandlers a-\u003eRef IO(HandlerSet(EventIO a)(EventDescriptor(EventIO a)a)())",
@@ -1294,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventM",
           "name": "onEventDispatch",
           "package": "event-monad",
@@ -1303,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Control Monad EventM",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventM",
           "name": "onEventDispatch",
           "normalized": "EventIOHandlers a-\u003eRef IO(HandlerSet(EventIO a)(EventDescriptor(EventIO a)a)())",
@@ -1318,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventM",
           "name": "onEventSchedule",
           "package": "event-monad",
@@ -1327,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Control Monad EventM",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventM",
           "name": "onEventSchedule",
           "normalized": "EventIOHandlers a-\u003eRef IO(HandlerSet(EventIO a)(EventDescriptor(EventIO a)a)())",
@@ -1343,6 +1457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove an event handler given its ID, and return it if it was in the set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventM",
           "name": "removeHandler",
           "package": "event-monad",
@@ -1353,6 +1468,7 @@
         "index": {
           "description": "Remove an event handler given its ID and return it if it was in the set",
           "hierarchy": "Control Monad EventM",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventM",
           "name": "removeHandler",
           "normalized": "HandlerAccessor a b c-\u003eHandlerID-\u003eEventIO a(Maybe(b-\u003eEventIO a c))",
@@ -1369,6 +1485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the event queue and other stuff, run the provided \"start \n event\", and run the queue until it's empty or until the simulation is\n paused.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventM",
           "name": "runEventGraph",
           "package": "event-monad",
@@ -1379,6 +1496,7 @@
         "index": {
           "description": "Initialize the event queue and other stuff run the provided start event and run the queue until it empty or until the simulation is paused",
           "hierarchy": "Control Monad EventM",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventM",
           "name": "runEventGraph",
           "normalized": "a-\u003eIO(EventIOState b)",
@@ -1395,6 +1513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeatedly pull and run the next event in the queue until it's \n empty or until the simulation is paused using \u003ccode\u003e\u003ca\u003epauseSimulation\u003c/a\u003e\u003c/code\u003e\n or something equivalent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventM",
           "name": "runEventGraphWithState",
           "package": "event-monad",
@@ -1405,6 +1524,7 @@
         "index": {
           "description": "Repeatedly pull and run the next event in the queue until it empty or until the simulation is paused using pauseSimulation or something equivalent",
           "hierarchy": "Control Monad EventM",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventM",
           "name": "runEventGraphWithState",
           "normalized": "EventIOState a-\u003eIO()",
@@ -1421,6 +1541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an \u003ccode\u003eEventT\u003c/code\u003e wrapped action.  This is a \"raw\" action - there is no \n interaction with the state (including event graph) except whatever the\n action itself does.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventM",
           "name": "runEventIO",
           "package": "event-monad",
@@ -1431,6 +1552,7 @@
         "index": {
           "description": "Run an EventT wrapped action This is raw action there is no interaction with the state including event graph except whatever the action itself does",
           "hierarchy": "Control Monad EventM",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventM",
           "name": "runEventIO",
           "normalized": "EventIO a b-\u003eEventIOState a-\u003eIO b",
@@ -1446,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventT",
           "name": "EventT",
           "package": "event-monad",
@@ -1454,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "Control Monad EventT",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventT",
           "name": "EventT",
           "package": "event-monad",
@@ -1468,6 +1592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad transformer which adds an event queue and related operations to\n an underlying monad.  The \"t\" parameter specifies the type of the\n simulation time.\n\u003c/p\u003e\u003cp\u003eSeveral hooks are provided to allow special handling of various events,\n such as the progression of time, the scheduling or canceling or dispatch\n of an event, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventT",
           "name": "EventT",
           "package": "event-monad",
@@ -1477,6 +1602,7 @@
         "index": {
           "description": "monad transformer which adds an event queue and related operations to an underlying monad The parameter specifies the type of the simulation time Several hooks are provided to allow special handling of various events such as the progression of time the scheduling or canceling or dispatch of an event etc",
           "hierarchy": "Control Monad EventT",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventT",
           "name": "EventT",
           "package": "event-monad",
@@ -1490,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventT",
           "name": "EventT_RState",
           "package": "event-monad",
@@ -1498,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "Control Monad EventT",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventT",
           "name": "EventT_RState",
           "package": "event-monad",
@@ -1511,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventT",
           "name": "EventT_RWState",
           "package": "event-monad",
@@ -1519,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "Control Monad EventT",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventT",
           "name": "EventT_RWState",
           "package": "event-monad",
@@ -1532,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventT",
           "name": "HandlerAccessor",
           "package": "event-monad",
@@ -1540,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Control Monad EventT",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventT",
           "name": "HandlerAccessor",
           "package": "event-monad",
@@ -1554,6 +1686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an event handler to be called when the specified event happens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventT",
           "name": "addHandler",
           "package": "event-monad",
@@ -1564,6 +1697,7 @@
         "index": {
           "description": "Add an event handler to be called when the specified event happens",
           "hierarchy": "Control Monad EventT",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventT",
           "name": "addHandler",
           "normalized": "HandlerAccessor a b c d-\u003e(c-\u003eEventT a b d)-\u003eEventT a b HandlerID",
@@ -1580,6 +1714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA new instance of the read-only portion of the \u003ccode\u003e\u003ca\u003eEventT\u003c/a\u003e\u003c/code\u003e internal\n state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventT",
           "name": "newEventT_RState",
           "package": "event-monad",
@@ -1590,6 +1725,7 @@
         "index": {
           "description": "new instance of the read-only portion of the EventT internal state",
           "hierarchy": "Control Monad EventT",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventT",
           "name": "newEventT_RState",
           "package": "event-monad",
@@ -1604,6 +1740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA new instance of the read/write portion of the \u003ccode\u003e\u003ca\u003eEventT\u003c/a\u003e\u003c/code\u003e internal\n state.  The parameter is the initial time value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventT",
           "name": "newEventT_RWState",
           "package": "event-monad",
@@ -1614,6 +1751,7 @@
         "index": {
           "description": "new instance of the read write portion of the EventT internal state The parameter is the initial time value",
           "hierarchy": "Control Monad EventT",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventT",
           "name": "newEventT_RWState",
           "normalized": "a-\u003eEventT_RWState a b",
@@ -1630,6 +1768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFires whenever the clock changes, and is passed a tuple containing\n (old time, new time)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventT",
           "name": "onClockChanged",
           "package": "event-monad",
@@ -1640,6 +1779,7 @@
         "index": {
           "description": "Fires whenever the clock changes and is passed tuple containing old time new time",
           "hierarchy": "Control Monad EventT",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventT",
           "name": "onClockChanged",
           "normalized": "HandlerAccessor a b(a,a)()",
@@ -1656,6 +1796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFires after an event is canceled.  Is passed either an \u003ccode\u003e\u003ca\u003eEventID\u003c/a\u003e\u003c/code\u003e (if the\n cancellation failed) or an \u003ccode\u003e\u003ca\u003eEventDescriptor\u003c/a\u003e\u003c/code\u003e for the event that was canceled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventT",
           "name": "onEventCancel",
           "package": "event-monad",
@@ -1666,6 +1807,7 @@
         "index": {
           "description": "Fires after an event is canceled Is passed either an EventID if the cancellation failed or an EventDescriptor for the event that was canceled",
           "hierarchy": "Control Monad EventT",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventT",
           "name": "onEventCancel",
           "normalized": "HandlerAccessor a b(Either EventID(EventDescriptor(EventT a b)a))()",
@@ -1682,6 +1824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFires after an event returns.  Is passed an \u003ccode\u003e\u003ca\u003eEventDescriptor\u003c/a\u003e\u003c/code\u003e for the\n event that just finished.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventT",
           "name": "onEventComplete",
           "package": "event-monad",
@@ -1692,6 +1835,7 @@
         "index": {
           "description": "Fires after an event returns Is passed an EventDescriptor for the event that just finished",
           "hierarchy": "Control Monad EventT",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventT",
           "name": "onEventComplete",
           "normalized": "HandlerAccessor a b(EventDescriptor(EventT a b)a)()",
@@ -1708,6 +1852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFires just before an event is dispatched.  Is passed an \u003ccode\u003e\u003ca\u003eEventDescriptor\u003c/a\u003e\u003c/code\u003e\n describing the event about to be run.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventT",
           "name": "onEventDispatch",
           "package": "event-monad",
@@ -1718,6 +1863,7 @@
         "index": {
           "description": "Fires just before an event is dispatched Is passed an EventDescriptor describing the event about to be run",
           "hierarchy": "Control Monad EventT",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventT",
           "name": "onEventDispatch",
           "normalized": "HandlerAccessor a b(EventDescriptor(EventT a b)a)()",
@@ -1734,6 +1880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFires after an event is scheduled.  Is passed an \u003ccode\u003e\u003ca\u003eEventDescriptor\u003c/a\u003e\u003c/code\u003e for\n the event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventT",
           "name": "onEventSchedule",
           "package": "event-monad",
@@ -1744,6 +1891,7 @@
         "index": {
           "description": "Fires after an event is scheduled Is passed an EventDescriptor for the event",
           "hierarchy": "Control Monad EventT",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventT",
           "name": "onEventSchedule",
           "normalized": "HandlerAccessor a b(EventDescriptor(EventT a b)a)()",
@@ -1760,6 +1908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove an event handler given its ID, and return it if it was in the set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventT",
           "name": "removeHandler",
           "package": "event-monad",
@@ -1770,6 +1919,7 @@
         "index": {
           "description": "Remove an event handler given its ID and return it if it was in the set",
           "hierarchy": "Control Monad EventT",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventT",
           "name": "removeHandler",
           "normalized": "HandlerAccessor a b c d-\u003eHandlerID-\u003eEventT a b(Maybe(c-\u003eEventT a b d))",
@@ -1786,6 +1936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the event queue and other stuff, enqueue the provided \"start \n event\", and run the queue until it's empty or until the simulation is\n paused.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventT",
           "name": "runEventGraph",
           "package": "event-monad",
@@ -1796,6 +1947,7 @@
         "index": {
           "description": "Initialize the event queue and other stuff enqueue the provided start event and run the queue until it empty or until the simulation is paused",
           "hierarchy": "Control Monad EventT",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventT",
           "name": "runEventGraph",
           "normalized": "a-\u003eb(EventT_RState c b,EventT_RWState c b)",
@@ -1812,6 +1964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeatedly pull and run the next event in the queue until it's \n empty or until the simulation is paused using \u003ccode\u003e\u003ca\u003epauseSimulation\u003c/a\u003e\u003c/code\u003e\n or something equivalent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventT",
           "name": "runEventGraphWithState",
           "package": "event-monad",
@@ -1822,6 +1975,7 @@
         "index": {
           "description": "Repeatedly pull and run the next event in the queue until it empty or until the simulation is paused using pauseSimulation or something equivalent",
           "hierarchy": "Control Monad EventT",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventT",
           "name": "runEventGraphWithState",
           "normalized": "EventT_RState a b-\u003eEventT_RWState a b-\u003eb(EventT_RWState a b)",
@@ -1838,6 +1992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an \u003ccode\u003e\u003ca\u003eEventT\u003c/a\u003e\u003c/code\u003e wrapped action.  This is a \"raw\" action - there is no \n interaction with the state (including event graph) except whatever the\n action itself does.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:24 UTC 2014",
           "module": "Control.Monad.EventT",
           "name": "runEventT",
           "package": "event-monad",
@@ -1848,6 +2003,7 @@
         "index": {
           "description": "Run an EventT wrapped action This is raw action there is no interaction with the state including event graph except whatever the action itself does",
           "hierarchy": "Control Monad EventT",
+          "indexed": "2014-03-11T18:04:24",
           "module": "Control.Monad.EventT",
           "name": "runEventT",
           "normalized": "EventT a b c-\u003eEventT_RState a b-\u003eEventT_RWState a b-\u003eb(c,EventT_RWState a b)",

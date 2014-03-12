@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "llvm-ht"
+        "phrase": "llvm-ht",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe LLVM (Low Level Virtual Machine) is virtual machine at a machine code level.\n It supports both stand alone code generation and JITing.\n The Haskell llvm package is a (relatively) high level interface to the LLVM.\n The high level interface makes it easy to construct LLVM code.\n There is also an interface to the raw low level LLVM API as exposed by the LLVM C interface.\n\u003c/p\u003e\u003cp\u003eLLVM code is organized into modules (type \u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e).\n Each module contains a number of global variables and functions (type \u003ccode\u003e\u003ca\u003eFunction\u003c/a\u003e\u003c/code\u003e).\n Each functions has a number of basic blocks (type \u003ccode\u003e\u003ca\u003eBasicBlock\u003c/a\u003e\u003c/code\u003e).\n Each basic block has a number instructions, where each instruction produces\n a value (type \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eUnlike assembly code for a real processor the assembly code for LLVM is\n in SSA (Static Single Assignment) form.  This means that each instruction generates\n a new bound variable which may not be assigned again.\n A consequence of this is that where control flow joins from several execution\n paths there has to be a phi pseudo instruction if you want different variables\n to be joined into one.\n\u003c/p\u003e\u003cp\u003eThe definition of several of the LLVM entities (\u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFunction\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eBasicBlock\u003c/a\u003e\u003c/code\u003e)\n follow the same pattern.  First the entity has to be created using \u003ccode\u003enewX\u003c/code\u003e (where \u003ccode\u003eX\u003c/code\u003e\n is one of \u003ccode\u003eModule\u003c/code\u003e, \u003ccode\u003eFunction\u003c/code\u003e, or \u003ccode\u003eBasicBlock\u003c/code\u003e), then at some later point it has to\n given its definition using \u003ccode\u003edefineX\u003c/code\u003e.  The reason for splitting the creation and\n definition is that you often need to be able to refer to an entity before giving\n it's body, e.g., in two mutually recursive functions.\n The the \u003ccode\u003enewX\u003c/code\u003e and \u003ccode\u003edefineX\u003c/code\u003e function can also be done at the same time by using\n \u003ccode\u003ecreateX\u003c/code\u003e.  Furthermore, an explicit name can be given to an entity by the\n \u003ccode\u003enewNamedX\u003c/code\u003e function; the \u003ccode\u003enewX\u003c/code\u003e function just generates a fresh name.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "Core",
           "package": "llvm-ht",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The LLVM Low Level Virtual Machine is virtual machine at machine code level It supports both stand alone code generation and JITing The Haskell llvm package is relatively high level interface to the LLVM The high level interface makes it easy to construct LLVM code There is also an interface to the raw low level LLVM API as exposed by the LLVM interface LLVM code is organized into modules type Module Each module contains number of global variables and functions type Function Each functions has number of basic blocks type BasicBlock Each basic block has number instructions where each instruction produces value type Value Unlike assembly code for real processor the assembly code for LLVM is in SSA Static Single Assignment form This means that each instruction generates new bound variable which may not be assigned again consequence of this is that where control flow joins from several execution paths there has to be phi pseudo instruction if you want different variables to be joined into one The definition of several of the LLVM entities Module Function and BasicBlock follow the same pattern First the entity has to be created using newX where is one of Module Function or BasicBlock then at some later point it has to given its definition using defineX The reason for splitting the creation and definition is that you often need to be able to refer to an entity before giving it body e.g in two mutually recursive functions The the newX and defineX function can also be done at the same time by using createX Furthermore an explicit name can be given to an entity by the newNamedX function the newX function just generates fresh name",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "Core",
           "package": "llvm-ht",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": ":&",
           "package": "llvm-ht",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": ":&",
           "package": "llvm-ht",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTupleFunction is used for distinction of tuple and atomic arguments.\nThe a function of type \u003ccode\u003ea -\u003e b :+-\u003e c -\u003e d\u003c/code\u003e\nhas atomic arguments of type \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003ec\u003c/code\u003e\nand an argument of a type \u003ccode\u003eb\u003c/code\u003e that can be a tuple.\nIf \u003ccode\u003ea = (Word8,Int16)\u003c/code\u003e then the corresponding LLVM value is of type \u003ccode\u003eValue (Word8,Int16)\u003c/code\u003e.\nHowever, I do not know of a LLVM function that accepts values of this type.\nIf \u003ccode\u003eb = (Word8,Int16)\u003c/code\u003e then the corresponding LLVM value is of type \u003ccode\u003e(Value Word8, Value Int16)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": ":+-\u003e",
           "package": "llvm-ht",
@@ -71,6 +76,7 @@
         "index": {
           "description": "TupleFunction is used for distinction of tuple and atomic arguments The function of type has atomic arguments of type and and an argument of type that can be tuple If Word8 Int16 then the corresponding LLVM value is of type Value Word8 Int16 However do not know of LLVM function that accepts values of this type If Word8 Int16 then the corresponding LLVM value is of type Value Word8 Value Int16",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": ":+-\u003e",
           "package": "llvm-ht",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcceptable arguments to arithmetic binary instructions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "ABinOp",
           "package": "llvm-ht",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Acceptable arguments to arithmetic binary instructions",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "ABinOp",
           "package": "llvm-ht",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcceptable argument to array memory allocation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "AllocArg",
           "package": "llvm-ht",
@@ -116,6 +125,7 @@
         "index": {
           "description": "Acceptable argument to array memory allocation",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "AllocArg",
           "package": "llvm-ht",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFixed sized arrays, the array size is encoded in the \u003cem\u003en\u003c/em\u003e parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "Array",
           "package": "llvm-ht",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Fixed sized arrays the array size is encoded in the parameter",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "Array",
           "package": "llvm-ht",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "Attribute",
           "package": "llvm-ht",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "Attribute",
           "package": "llvm-ht",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic block is a sequence of non-branching instructions, terminated by a control flow instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "BasicBlock",
           "package": "llvm-ht",
@@ -183,6 +198,7 @@
         "index": {
           "description": "basic block is sequence of non-branching instructions terminated by control flow instruction",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "BasicBlock",
           "package": "llvm-ht",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcceptable arguments to \u003ccode\u003e\u003ca\u003ecall\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "CallArgs",
           "package": "llvm-ht",
@@ -206,6 +223,7 @@
         "index": {
           "description": "Acceptable arguments to call",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "CallArgs",
           "package": "llvm-ht",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine what vararg types are permissible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "CastVarArgs",
           "package": "llvm-ht",
@@ -229,6 +248,7 @@
         "index": {
           "description": "Define what vararg types are permissible",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "CastVarArgs",
           "package": "llvm-ht",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcceptable operands to comparison instructions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "CmpOp",
           "package": "llvm-ht",
@@ -252,6 +273,7 @@
         "index": {
           "description": "Acceptable operands to comparison instructions",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "CmpOp",
           "package": "llvm-ht",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "CmpRet",
           "package": "llvm-ht",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "CmpRet",
           "package": "llvm-ht",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "CodeGenFunction",
           "package": "llvm-ht",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "CodeGenFunction",
           "package": "llvm-ht",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "CodeGenModule",
           "package": "llvm-ht",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "CodeGenModule",
           "package": "llvm-ht",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "ConstValue",
           "package": "llvm-ht",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "ConstValue",
           "package": "llvm-ht",
@@ -350,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e128 bit floating point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FP128",
           "package": "llvm-ht",
@@ -359,6 +390,7 @@
         "index": {
           "description": "bit floating point",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FP128",
           "package": "llvm-ht",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FPPredicate",
           "package": "llvm-ht",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FPPredicate",
           "package": "llvm-ht",
@@ -394,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function is simply a pointer to the function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "Function",
           "package": "llvm-ht",
@@ -403,6 +438,7 @@
         "index": {
           "description": "function is simply pointer to the function",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "Function",
           "package": "llvm-ht",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FunctionArgs",
           "package": "llvm-ht",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FunctionArgs",
           "package": "llvm-ht",
@@ -438,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class is just to simplify contexts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FunctionRet",
           "package": "llvm-ht",
@@ -447,6 +486,7 @@
         "index": {
           "description": "This class is just to simplify contexts",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FunctionRet",
           "package": "llvm-ht",
@@ -461,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcceptable arguments to \u003ccode\u003egetElementPointer\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "GetElementPtr",
           "package": "llvm-ht",
@@ -470,6 +511,7 @@
         "index": {
           "description": "Acceptable arguments to getElementPointer",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "GetElementPtr",
           "package": "llvm-ht",
@@ -484,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcceptable arguments to \u003ccode\u003e\u003ca\u003eextractvalue\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003einsertvalue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "GetValue",
           "package": "llvm-ht",
@@ -493,6 +536,7 @@
         "index": {
           "description": "Acceptable arguments to extractvalue and insertvalue",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "GetValue",
           "package": "llvm-ht",
@@ -506,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "Global",
           "package": "llvm-ht",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "Global",
           "package": "llvm-ht",
@@ -527,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "GlobalMappings",
           "package": "llvm-ht",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "GlobalMappings",
           "package": "llvm-ht",
@@ -549,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable sized signed integer.\n The \u003cem\u003en\u003c/em\u003e parameter should belong to \u003ccode\u003ePosI\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IntN",
           "package": "llvm-ht",
@@ -558,6 +607,7 @@
         "index": {
           "description": "Variable sized signed integer The parameter should belong to PosI",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IntN",
           "package": "llvm-ht",
@@ -571,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IntPredicate",
           "package": "llvm-ht",
@@ -579,6 +630,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IntPredicate",
           "package": "llvm-ht",
@@ -593,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArithmetic types, i.e., integral and floating types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IsArithmetic",
           "package": "llvm-ht",
@@ -602,6 +655,7 @@
         "index": {
           "description": "Arithmetic types i.e integral and floating types",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IsArithmetic",
           "package": "llvm-ht",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IsConst",
           "package": "llvm-ht",
@@ -623,6 +678,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IsConst",
           "package": "llvm-ht",
@@ -637,6 +693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst class types, i.e., the types that can be passed as arguments, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IsFirstClass",
           "package": "llvm-ht",
@@ -646,6 +703,7 @@
         "index": {
           "description": "First class types i.e the types that can be passed as arguments etc",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IsFirstClass",
           "package": "llvm-ht",
@@ -660,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloating types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IsFloating",
           "package": "llvm-ht",
@@ -669,6 +728,7 @@
         "index": {
           "description": "Floating types",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IsFloating",
           "package": "llvm-ht",
@@ -683,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IsFunction",
           "package": "llvm-ht",
@@ -692,6 +753,7 @@
         "index": {
           "description": "Function type",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IsFunction",
           "package": "llvm-ht",
@@ -706,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcceptable single index to \u003ccode\u003egetElementPointer\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IsIndexArg",
           "package": "llvm-ht",
@@ -715,6 +778,7 @@
         "index": {
           "description": "Acceptable single index to getElementPointer",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IsIndexArg",
           "package": "llvm-ht",
@@ -729,6 +793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegral types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IsInteger",
           "package": "llvm-ht",
@@ -738,6 +803,7 @@
         "index": {
           "description": "Integral types",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IsInteger",
           "package": "llvm-ht",
@@ -752,6 +818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegral or pointer type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IsIntegerOrPointer",
           "package": "llvm-ht",
@@ -761,6 +828,7 @@
         "index": {
           "description": "Integral or pointer type",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IsIntegerOrPointer",
           "package": "llvm-ht",
@@ -774,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IsPowerOf2",
           "package": "llvm-ht",
@@ -782,6 +851,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IsPowerOf2",
           "package": "llvm-ht",
@@ -796,6 +866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IsPrimitive",
           "package": "llvm-ht",
@@ -805,6 +876,7 @@
         "index": {
           "description": "Primitive types",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IsPrimitive",
           "package": "llvm-ht",
@@ -819,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes with a fixed size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IsSized",
           "package": "llvm-ht",
@@ -828,6 +901,7 @@
         "index": {
           "description": "Types with fixed size",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IsSized",
           "package": "llvm-ht",
@@ -841,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IsTuple",
           "package": "llvm-ht",
@@ -849,6 +924,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IsTuple",
           "package": "llvm-ht",
@@ -863,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eIsType\u003c/a\u003e\u003c/code\u003e class classifies all types that have an LLVM representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IsType",
           "package": "llvm-ht",
@@ -872,6 +949,7 @@
         "index": {
           "description": "The IsType class classifies all types that have an LLVM representation",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IsType",
           "package": "llvm-ht",
@@ -886,6 +964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel type, produced by a basic block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "Label",
           "package": "llvm-ht",
@@ -895,6 +974,7 @@
         "index": {
           "description": "Label type produced by basic block",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "Label",
           "package": "llvm-ht",
@@ -909,6 +989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn enumeration for the kinds of linkage for global values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "Linkage",
           "package": "llvm-ht",
@@ -918,6 +999,7 @@
         "index": {
           "description": "An enumeration for the kinds of linkage for global values",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "Linkage",
           "package": "llvm-ht",
@@ -931,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "MakeValueTuple",
           "package": "llvm-ht",
@@ -939,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "MakeValueTuple",
           "package": "llvm-ht",
@@ -953,6 +1037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of top level modules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "Module",
           "package": "llvm-ht",
@@ -962,6 +1047,7 @@
         "index": {
           "description": "Type of top level modules",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "Module",
           "package": "llvm-ht",
@@ -976,6 +1062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA module provider is used by the code generator to get access to a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "ModuleProvider",
           "package": "llvm-ht",
@@ -985,6 +1072,7 @@
         "index": {
           "description": "module provider is used by the code generator to get access to module",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "ModuleProvider",
           "package": "llvm-ht",
@@ -998,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "ModuleValue",
           "package": "llvm-ht",
@@ -1006,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "ModuleValue",
           "package": "llvm-ht",
@@ -1020,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of elements for instructions that handle both primitive and vector types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "NumberOfElements",
           "package": "llvm-ht",
@@ -1029,6 +1120,7 @@
         "index": {
           "description": "Number of elements for instructions that handle both primitive and vector types",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "NumberOfElements",
           "package": "llvm-ht",
@@ -1042,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "PackedStruct",
           "package": "llvm-ht",
@@ -1050,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "PackedStruct",
           "package": "llvm-ht",
@@ -1064,6 +1158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eManage compile passes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "PassManager",
           "package": "llvm-ht",
@@ -1073,6 +1168,7 @@
         "index": {
           "description": "Manage compile passes",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "PassManager",
           "package": "llvm-ht",
@@ -1087,6 +1183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePtr\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e represents a pointer to an object, or an\n array of objects, which may be marshalled to or from Haskell values\n of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe type \u003ccode\u003ea\u003c/code\u003e will often be an instance of class\n Foreign.Storable.Storable which provides the marshalling operations.\n However this is not essential, and you can provide your own operations\n to access the pointer.  For example you might write small foreign\n functions to get or set the fields of a C \u003ccode\u003estruct\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "Ptr",
           "package": "llvm-ht",
@@ -1095,6 +1192,7 @@
         "index": {
           "description": "value of type Ptr represents pointer to an object or an array of objects which may be marshalled to or from Haskell values of type The type will often be an instance of class Foreign.Storable.Storable which provides the marshalling operations However this is not essential and you can provide your own operations to access the pointer For example you might write small foreign functions to get or set the fields of struct",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "Ptr",
           "package": "llvm-ht",
@@ -1109,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcceptable arguments to the \u003ccode\u003e\u003ca\u003eret\u003c/a\u003e\u003c/code\u003e instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "Ret",
           "package": "llvm-ht",
@@ -1118,6 +1217,7 @@
         "index": {
           "description": "Acceptable arguments to the ret instruction",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "Ret",
           "package": "llvm-ht",
@@ -1132,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStruct types; a list (nested tuple) of component types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "Struct",
           "package": "llvm-ht",
@@ -1141,6 +1242,7 @@
         "index": {
           "description": "Struct types list nested tuple of component types",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "Struct",
           "package": "llvm-ht",
@@ -1154,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "TFunction",
           "package": "llvm-ht",
@@ -1162,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "TFunction",
           "package": "llvm-ht",
@@ -1175,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "TGlobal",
           "package": "llvm-ht",
@@ -1183,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "TGlobal",
           "package": "llvm-ht",
@@ -1196,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "Terminate",
           "package": "llvm-ht",
@@ -1204,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "Terminate",
           "package": "llvm-ht",
@@ -1218,6 +1326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType descriptor, used to convey type information through the LLVM API.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "TypeDesc",
           "package": "llvm-ht",
@@ -1227,6 +1336,7 @@
         "index": {
           "description": "Type descriptor used to convey type information through the LLVM API",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "TypeDesc",
           "package": "llvm-ht",
@@ -1240,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "Undefined",
           "package": "llvm-ht",
@@ -1248,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "Undefined",
           "package": "llvm-ht",
@@ -1261,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "UnknownSize",
           "package": "llvm-ht",
@@ -1269,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "UnknownSize",
           "package": "llvm-ht",
@@ -1282,6 +1396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "Value",
           "package": "llvm-ht",
@@ -1290,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "Value",
           "package": "llvm-ht",
@@ -1303,6 +1419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "ValueTuple",
           "package": "llvm-ht",
@@ -1311,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "ValueTuple",
           "package": "llvm-ht",
@@ -1325,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eVarArgs\u003c/a\u003e\u003c/code\u003e type is a placeholder for the real \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e type that\n can be obtained with \u003ccode\u003ecastVarArgs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "VarArgs",
           "package": "llvm-ht",
@@ -1334,6 +1453,7 @@
         "index": {
           "description": "The VarArgs type is placeholder for the real IO type that can be obtained with castVarArgs",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "VarArgs",
           "package": "llvm-ht",
@@ -1348,6 +1468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFixed sized vector, the array size is encoded in the \u003cem\u003en\u003c/em\u003e parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "Vector",
           "package": "llvm-ht",
@@ -1357,6 +1478,7 @@
         "index": {
           "description": "Fixed sized vector the array size is encoded in the parameter",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "Vector",
           "package": "llvm-ht",
@@ -1371,6 +1493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable sized unsigned integer.\n The \u003cem\u003en\u003c/em\u003e parameter should belong to \u003ccode\u003ePosI\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "WordN",
           "package": "llvm-ht",
@@ -1380,6 +1503,7 @@
         "index": {
           "description": "Variable sized unsigned integer The parameter should belong to PosI",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "WordN",
           "package": "llvm-ht",
@@ -1393,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "($+)",
           "package": "llvm-ht",
@@ -1402,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "($+) $+",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -1416,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "(&)",
           "package": "llvm-ht",
@@ -1425,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "(&) &",
           "normalized": "a-\u003eb-\u003ea b",
@@ -1464,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "Array",
           "package": "llvm-ht",
@@ -1473,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "Array",
           "normalized": "Array[a]",
@@ -1659,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FP128",
           "package": "llvm-ht",
@@ -1668,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FP128",
           "package": "llvm-ht",
@@ -1682,6 +1814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlways false (always folded)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FPFalse",
           "package": "llvm-ht",
@@ -1692,6 +1825,7 @@
         "index": {
           "description": "Always false always folded",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FPFalse",
           "package": "llvm-ht",
@@ -1706,6 +1840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if ordered and equal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FPOEQ",
           "package": "llvm-ht",
@@ -1716,6 +1851,7 @@
         "index": {
           "description": "True if ordered and equal",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FPOEQ",
           "package": "llvm-ht",
@@ -1730,6 +1866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if ordered and greater than or equal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FPOGE",
           "package": "llvm-ht",
@@ -1740,6 +1877,7 @@
         "index": {
           "description": "True if ordered and greater than or equal",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FPOGE",
           "package": "llvm-ht",
@@ -1754,6 +1892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if ordered and greater than\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FPOGT",
           "package": "llvm-ht",
@@ -1764,6 +1903,7 @@
         "index": {
           "description": "True if ordered and greater than",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FPOGT",
           "package": "llvm-ht",
@@ -1778,6 +1918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if ordered and less than or equal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FPOLE",
           "package": "llvm-ht",
@@ -1788,6 +1929,7 @@
         "index": {
           "description": "True if ordered and less than or equal",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FPOLE",
           "package": "llvm-ht",
@@ -1802,6 +1944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if ordered and less than\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FPOLT",
           "package": "llvm-ht",
@@ -1812,6 +1955,7 @@
         "index": {
           "description": "True if ordered and less than",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FPOLT",
           "package": "llvm-ht",
@@ -1826,6 +1970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if ordered and operands are unequal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FPONE",
           "package": "llvm-ht",
@@ -1836,6 +1981,7 @@
         "index": {
           "description": "True if ordered and operands are unequal",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FPONE",
           "package": "llvm-ht",
@@ -1850,6 +1996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if ordered (no nans)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FPORD",
           "package": "llvm-ht",
@@ -1860,6 +2007,7 @@
         "index": {
           "description": "True if ordered no nans",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FPORD",
           "package": "llvm-ht",
@@ -1874,6 +2022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlways true (always folded)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FPT",
           "package": "llvm-ht",
@@ -1884,6 +2033,7 @@
         "index": {
           "description": "Always true always folded",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FPT",
           "package": "llvm-ht",
@@ -1898,6 +2048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if unordered or equal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FPUEQ",
           "package": "llvm-ht",
@@ -1908,6 +2059,7 @@
         "index": {
           "description": "True if unordered or equal",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FPUEQ",
           "package": "llvm-ht",
@@ -1922,6 +2074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if unordered, greater than, or equal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FPUGE",
           "package": "llvm-ht",
@@ -1932,6 +2085,7 @@
         "index": {
           "description": "True if unordered greater than or equal",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FPUGE",
           "package": "llvm-ht",
@@ -1946,6 +2100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if unordered or greater than\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FPUGT",
           "package": "llvm-ht",
@@ -1956,6 +2111,7 @@
         "index": {
           "description": "True if unordered or greater than",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FPUGT",
           "package": "llvm-ht",
@@ -1970,6 +2126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if unordered, less than, or equal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FPULE",
           "package": "llvm-ht",
@@ -1980,6 +2137,7 @@
         "index": {
           "description": "True if unordered less than or equal",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FPULE",
           "package": "llvm-ht",
@@ -1994,6 +2152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if unordered or less than\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FPULT",
           "package": "llvm-ht",
@@ -2004,6 +2163,7 @@
         "index": {
           "description": "True if unordered or less than",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FPULT",
           "package": "llvm-ht",
@@ -2018,6 +2178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if unordered or not equal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FPUNE",
           "package": "llvm-ht",
@@ -2028,6 +2189,7 @@
         "index": {
           "description": "True if unordered or not equal",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FPUNE",
           "package": "llvm-ht",
@@ -2042,6 +2204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if unordered: isnan(X) | isnan(Y)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "FPUNO",
           "package": "llvm-ht",
@@ -2052,6 +2215,7 @@
         "index": {
           "description": "True if unordered isnan isnan",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "FPUNO",
           "package": "llvm-ht",
@@ -2114,6 +2278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eequal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IntEQ",
           "package": "llvm-ht",
@@ -2124,6 +2289,7 @@
         "index": {
           "description": "equal",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IntEQ",
           "package": "llvm-ht",
@@ -2137,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IntN",
           "package": "llvm-ht",
@@ -2146,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IntN",
           "package": "llvm-ht",
@@ -2160,6 +2328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enot equal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IntNE",
           "package": "llvm-ht",
@@ -2170,6 +2339,7 @@
         "index": {
           "description": "not equal",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IntNE",
           "package": "llvm-ht",
@@ -2184,6 +2354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esigned greater or equal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IntSGE",
           "package": "llvm-ht",
@@ -2194,6 +2365,7 @@
         "index": {
           "description": "signed greater or equal",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IntSGE",
           "package": "llvm-ht",
@@ -2208,6 +2380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esigned greater than\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IntSGT",
           "package": "llvm-ht",
@@ -2218,6 +2391,7 @@
         "index": {
           "description": "signed greater than",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IntSGT",
           "package": "llvm-ht",
@@ -2232,6 +2406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esigned less or equal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IntSLE",
           "package": "llvm-ht",
@@ -2242,6 +2417,7 @@
         "index": {
           "description": "signed less or equal",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IntSLE",
           "package": "llvm-ht",
@@ -2256,6 +2432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esigned less than\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IntSLT",
           "package": "llvm-ht",
@@ -2266,6 +2443,7 @@
         "index": {
           "description": "signed less than",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IntSLT",
           "package": "llvm-ht",
@@ -2280,6 +2458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunsigned greater or equal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IntUGE",
           "package": "llvm-ht",
@@ -2290,6 +2469,7 @@
         "index": {
           "description": "unsigned greater or equal",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IntUGE",
           "package": "llvm-ht",
@@ -2304,6 +2484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunsigned greater than\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IntUGT",
           "package": "llvm-ht",
@@ -2314,6 +2495,7 @@
         "index": {
           "description": "unsigned greater than",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IntUGT",
           "package": "llvm-ht",
@@ -2328,6 +2510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunsigned less or equal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IntULE",
           "package": "llvm-ht",
@@ -2338,6 +2521,7 @@
         "index": {
           "description": "unsigned less or equal",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IntULE",
           "package": "llvm-ht",
@@ -2352,6 +2536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunsigned less than\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "IntULT",
           "package": "llvm-ht",
@@ -2362,6 +2547,7 @@
         "index": {
           "description": "unsigned less than",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "IntULT",
           "package": "llvm-ht",
@@ -2567,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "PackedStruct",
           "package": "llvm-ht",
@@ -2576,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "PackedStruct",
           "package": "llvm-ht",
@@ -2683,6 +2871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "Struct",
           "package": "llvm-ht",
@@ -2692,6 +2881,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "Struct",
           "package": "llvm-ht",
@@ -2728,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "TDArray",
           "package": "llvm-ht",
@@ -2737,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "TDArray",
           "package": "llvm-ht",
@@ -2750,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "TDDouble",
           "package": "llvm-ht",
@@ -2759,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "TDDouble",
           "package": "llvm-ht",
@@ -2772,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "TDFP128",
           "package": "llvm-ht",
@@ -2781,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "TDFP128",
           "package": "llvm-ht",
@@ -2794,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "TDFloat",
           "package": "llvm-ht",
@@ -2803,6 +3000,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "TDFloat",
           "package": "llvm-ht",
@@ -2816,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "TDFunction",
           "package": "llvm-ht",
@@ -2825,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "TDFunction",
           "normalized": "TDFunction Bool[TypeDesc]TypeDesc",
@@ -2840,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "TDInt",
           "package": "llvm-ht",
@@ -2849,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "TDInt",
           "package": "llvm-ht",
@@ -2862,6 +3064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "TDLabel",
           "package": "llvm-ht",
@@ -2871,6 +3074,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "TDLabel",
           "package": "llvm-ht",
@@ -2884,6 +3088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "TDPtr",
           "package": "llvm-ht",
@@ -2893,6 +3098,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "TDPtr",
           "package": "llvm-ht",
@@ -2906,6 +3112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "TDStruct",
           "package": "llvm-ht",
@@ -2915,6 +3122,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "TDStruct",
           "normalized": "TDStruct[TypeDesc]Bool",
@@ -2930,6 +3138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "TDVector",
           "package": "llvm-ht",
@@ -2939,6 +3148,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "TDVector",
           "package": "llvm-ht",
@@ -2952,6 +3162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "TDVoid",
           "package": "llvm-ht",
@@ -2961,6 +3172,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "TDVoid",
           "package": "llvm-ht",
@@ -2974,6 +3186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "Vector",
           "package": "llvm-ht",
@@ -2983,6 +3196,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "Vector",
           "normalized": "Vector[a]",
@@ -3048,6 +3262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "WordN",
           "package": "llvm-ht",
@@ -3057,6 +3272,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "WordN",
           "package": "llvm-ht",
@@ -3093,6 +3309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "add",
           "package": "llvm-ht",
@@ -3102,6 +3319,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "add",
           "normalized": "a-\u003eb-\u003eCodeGenFunction c(d e)",
@@ -3117,6 +3335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd attributes to a value.  Beware, what attributes are allowed depends on\n what kind of value it is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "addAttributes",
           "package": "llvm-ht",
@@ -3127,6 +3346,7 @@
         "index": {
           "description": "Add attributes to value Beware what attributes are allowed depends on what kind of value it is",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "addAttributes",
           "normalized": "Value a-\u003eInt-\u003e[Attribute]-\u003eCodeGenFunction b()",
@@ -3143,6 +3363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd additional inputs to an existing phi node.\n The reason for this instruction is that sometimes the structure of the code\n makes it impossible to have all variables in scope at the point where you need the phi node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "addPhiInputs",
           "package": "llvm-ht",
@@ -3152,6 +3373,7 @@
         "index": {
           "description": "Add additional inputs to an existing phi node The reason for this instruction is that sometimes the structure of the code makes it impossible to have all variables in scope at the point where you need the phi node",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "addPhiInputs",
           "normalized": "Value a-\u003e[(Value a,BasicBlock)]-\u003eCodeGenFunction b()",
@@ -3167,6 +3389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "allOnes",
           "package": "llvm-ht",
@@ -3176,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "allOnes",
           "package": "llvm-ht",
@@ -3190,6 +3414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate stack memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "alloca",
           "package": "llvm-ht",
@@ -3200,6 +3425,7 @@
         "index": {
           "description": "Allocate stack memory",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "alloca",
           "package": "llvm-ht",
@@ -3212,6 +3438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "and",
           "package": "llvm-ht",
@@ -3221,6 +3448,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "and",
           "normalized": "a-\u003eb-\u003eCodeGenFunction c(d e)",
@@ -3236,6 +3464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate stack (array) memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "arrayAlloca",
           "package": "llvm-ht",
@@ -3246,6 +3475,7 @@
         "index": {
           "description": "Allocate stack array memory",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "arrayAlloca",
           "normalized": "a-\u003eCodeGenFunction b(Value(Ptr c))",
@@ -3262,6 +3492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate heap (array) memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "arrayMalloc",
           "package": "llvm-ht",
@@ -3272,6 +3503,7 @@
         "index": {
           "description": "Allocate heap array memory",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "arrayMalloc",
           "normalized": "a-\u003eCodeGenFunction b(Value(Ptr c))",
@@ -3287,6 +3519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "ashr",
           "package": "llvm-ht",
@@ -3296,6 +3529,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "ashr",
           "normalized": "a-\u003eb-\u003eCodeGenFunction c(d e)",
@@ -3311,6 +3545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert between to values of the same size by just copying the bit pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "bitcast",
           "package": "llvm-ht",
@@ -3321,6 +3556,7 @@
         "index": {
           "description": "Convert between to values of the same size by just copying the bit pattern",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "bitcast",
           "normalized": "Value a-\u003eCodeGenFunction b(Value c)",
@@ -3336,6 +3572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as bitcast but instead of the '(:==:)' type class it uses type unification.\n This way, properties like reflexivity, symmetry and transitivity\n are obvious to the Haskell compiler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "bitcastUnify",
           "package": "llvm-ht",
@@ -3346,6 +3583,7 @@
         "index": {
           "description": "Same as bitcast but instead of the type class it uses type unification This way properties like reflexivity symmetry and transitivity are obvious to the Haskell compiler",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "bitcastUnify",
           "normalized": "Value a-\u003eCodeGenFunction b(Value c)",
@@ -3362,6 +3600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnconditionally branch to the given basic block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "br",
           "package": "llvm-ht",
@@ -3371,6 +3610,7 @@
         "index": {
           "description": "Unconditionally branch to the given basic block",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "br",
           "normalized": "BasicBlock-\u003eCodeGenFunction a Terminate",
@@ -3385,6 +3625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "buildTuple",
           "package": "llvm-ht",
@@ -3394,6 +3635,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "buildTuple",
           "normalized": "FunctionRef-\u003eState Int a",
@@ -3410,6 +3652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a function with the given arguments.  The \u003ccode\u003e\u003ca\u003ecall\u003c/a\u003e\u003c/code\u003e instruction is variadic, i.e., the number of arguments\n it takes depends on the type of \u003cem\u003ef\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "call",
           "package": "llvm-ht",
@@ -3420,6 +3663,7 @@
         "index": {
           "description": "Call function with the given arguments The call instruction is variadic i.e the number of arguments it takes depends on the type of",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "call",
           "normalized": "Function a-\u003eb",
@@ -3434,6 +3678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "castModuleValue",
           "package": "llvm-ht",
@@ -3443,6 +3688,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "castModuleValue",
           "normalized": "ModuleValue-\u003eMaybe(Value a)",
@@ -3459,6 +3705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a varargs function to a regular function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "castVarArgs",
           "package": "llvm-ht",
@@ -3469,6 +3716,7 @@
         "index": {
           "description": "Convert varargs function to regular function",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "castVarArgs",
           "normalized": "Function a-\u003eFunction b",
@@ -3485,6 +3733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBranch to the first basic block if the boolean is true, otherwise to the second basic block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "condBr",
           "package": "llvm-ht",
@@ -3494,6 +3743,7 @@
         "index": {
           "description": "Branch to the first basic block if the boolean is true otherwise to the second basic block",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "condBr",
           "normalized": "Value Bool-\u003eBasicBlock-\u003eBasicBlock-\u003eCodeGenFunction a Terminate",
@@ -3510,6 +3760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a constant array.  Replicates or truncates the list to get length \u003cem\u003en\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "constArray",
           "package": "llvm-ht",
@@ -3520,6 +3771,7 @@
         "index": {
           "description": "Make constant array Replicates or truncates the list to get length",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "constArray",
           "normalized": "[ConstValue a]-\u003eConstValue(Array b a)",
@@ -3536,6 +3788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a constant packed struct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "constPackedStruct",
           "package": "llvm-ht",
@@ -3546,6 +3799,7 @@
         "index": {
           "description": "Make constant packed struct",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "constPackedStruct",
           "normalized": "a-\u003eConstValue(PackedStruct b)",
@@ -3562,6 +3816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a constant struct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "constStruct",
           "package": "llvm-ht",
@@ -3572,6 +3827,7 @@
         "index": {
           "description": "Make constant struct",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "constStruct",
           "normalized": "a-\u003eConstValue(Struct b)",
@@ -3588,6 +3844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a constant vector.  Replicates or truncates the list to get length \u003cem\u003en\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "constVector",
           "package": "llvm-ht",
@@ -3598,6 +3855,7 @@
         "index": {
           "description": "Make constant vector Replicates or truncates the list to get length",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "constVector",
           "normalized": "[ConstValue a]-\u003eConstValue(Vector b a)",
@@ -3613,6 +3871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "createBasicBlock",
           "package": "llvm-ht",
@@ -3622,6 +3881,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "createBasicBlock",
           "package": "llvm-ht",
@@ -3636,6 +3896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new function with the given body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "createFunction",
           "package": "llvm-ht",
@@ -3645,6 +3906,7 @@
         "index": {
           "description": "Create new function with the given body",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "createFunction",
           "normalized": "Linkage-\u003ea-\u003eCodeGenModule(Function b)",
@@ -3661,6 +3923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a pass manager for a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "createFunctionPassManager",
           "package": "llvm-ht",
@@ -3671,6 +3934,7 @@
         "index": {
           "description": "Create pass manager for module",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "createFunctionPassManager",
           "normalized": "ModuleProvider-\u003eIO PassManager",
@@ -3687,6 +3951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate and define a global variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "createGlobal",
           "package": "llvm-ht",
@@ -3697,6 +3962,7 @@
         "index": {
           "description": "Create and define global variable",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "createGlobal",
           "normalized": "Bool-\u003eLinkage-\u003eConstValue a-\u003eTGlobal a",
@@ -3713,6 +3979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new module with the given body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "createModule",
           "package": "llvm-ht",
@@ -3722,6 +3989,7 @@
         "index": {
           "description": "Create new module with the given body",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "createModule",
           "normalized": "CodeGenModule a-\u003eIO a",
@@ -3738,6 +4006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a module into a module provider.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "createModuleProviderForExistingModule",
           "package": "llvm-ht",
@@ -3748,6 +4017,7 @@
         "index": {
           "description": "Turn module into module provider",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "createModuleProviderForExistingModule",
           "normalized": "Module-\u003eIO ModuleProvider",
@@ -3764,6 +4034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new function with the given body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "createNamedFunction",
           "package": "llvm-ht",
@@ -3773,6 +4044,7 @@
         "index": {
           "description": "Create new function with the given body",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "createNamedFunction",
           "normalized": "Linkage-\u003eString-\u003ea-\u003eCodeGenModule(Function b)",
@@ -3789,6 +4061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate and define a named global variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "createNamedGlobal",
           "package": "llvm-ht",
@@ -3799,6 +4072,7 @@
         "index": {
           "description": "Create and define named global variable",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "createNamedGlobal",
           "normalized": "Bool-\u003eLinkage-\u003eString-\u003eConstValue a-\u003eTGlobal a",
@@ -3815,6 +4089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a pass manager.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "createPassManager",
           "package": "llvm-ht",
@@ -3825,6 +4100,7 @@
         "index": {
           "description": "Create pass manager",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "createPassManager",
           "package": "llvm-ht",
@@ -3838,6 +4114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "createString",
           "package": "llvm-ht",
@@ -3847,6 +4124,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "createString",
           "normalized": "String-\u003eTGlobal(Array a Word)",
@@ -3862,6 +4140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "createStringNul",
           "package": "llvm-ht",
@@ -3871,6 +4150,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "createStringNul",
           "normalized": "String-\u003eTGlobal(Array a Word)",
@@ -3886,6 +4166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "defineBasicBlock",
           "package": "llvm-ht",
@@ -3895,6 +4176,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "defineBasicBlock",
           "normalized": "BasicBlock-\u003eCodeGenFunction a()",
@@ -3911,6 +4193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a function body.  The basic block returned by the function is the function entry point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "defineFunction",
           "package": "llvm-ht",
@@ -3920,6 +4203,7 @@
         "index": {
           "description": "Define function body The basic block returned by the function is the function entry point",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "defineFunction",
           "normalized": "Function a-\u003eb-\u003eCodeGenModule()",
@@ -3936,6 +4220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive a global variable a (constant) value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "defineGlobal",
           "package": "llvm-ht",
@@ -3946,6 +4231,7 @@
         "index": {
           "description": "Give global variable constant value",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "defineGlobal",
           "normalized": "Global a-\u003eConstValue a-\u003eCodeGenModule()",
@@ -3962,6 +4248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive the body for a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "defineModule",
           "package": "llvm-ht",
@@ -3971,6 +4258,7 @@
         "index": {
           "description": "Give the body for module",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "defineModule",
           "normalized": "Module-\u003eCodeGenModule a-\u003eIO a",
@@ -3987,6 +4275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree all storage related to a module.  *Note*, this is a dangerous call, since referring\n to the module after this call is an error.  The reason for the explicit call to free\n the module instead of an automatic lifetime management is that modules have a\n somewhat complicated ownership.  Handing a module to a module provider changes\n the ownership of the module, and the module provider will free the module when necessary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "destroyModule",
           "package": "llvm-ht",
@@ -3997,6 +4286,7 @@
         "index": {
           "description": "Free all storage related to module Note this is dangerous call since referring to the module after this call is an error The reason for the explicit call to free the module instead of an automatic lifetime management is that modules have somewhat complicated ownership Handing module to module provider changes the ownership of the module and the module provider will free the module when necessary",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "destroyModule",
           "normalized": "Module-\u003eIO()",
@@ -4013,6 +4303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "dumpType",
           "package": "llvm-ht",
@@ -4023,6 +4314,7 @@
         "index": {
           "description": "Print type",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "dumpType",
           "normalized": "Value a-\u003eIO()",
@@ -4039,6 +4331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "dumpValue",
           "package": "llvm-ht",
@@ -4049,6 +4342,7 @@
         "index": {
           "description": "Print value",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "dumpValue",
           "normalized": "Value a-\u003eIO()",
@@ -4065,6 +4359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a reference to an external function while code generating for a function.\n If LLVM cannot resolve its name, then you may try \u003ccode\u003e\u003ca\u003estaticFunction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "externFunction",
           "package": "llvm-ht",
@@ -4075,6 +4370,7 @@
         "index": {
           "description": "Create reference to an external function while code generating for function If LLVM cannot resolve its name then you may try staticFunction",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "externFunction",
           "normalized": "String-\u003eCodeGenFunction a(Function b)",
@@ -4091,6 +4387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a value from a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "extractelement",
           "package": "llvm-ht",
@@ -4100,6 +4397,7 @@
         "index": {
           "description": "Get value from vector",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "extractelement",
           "normalized": "Value(Vector a b)-\u003eValue Word-\u003eCodeGenFunction c(Value b)",
@@ -4115,6 +4413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a value from an aggregate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "extractvalue",
           "package": "llvm-ht",
@@ -4124,6 +4423,7 @@
         "index": {
           "description": "Get value from an aggregate",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "extractvalue",
           "normalized": "Value a-\u003eb-\u003eCodeGenFunction c(Value d)",
@@ -4138,6 +4438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "fadd",
           "package": "llvm-ht",
@@ -4147,6 +4448,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "fadd",
           "normalized": "a-\u003eb-\u003eCodeGenFunction c(d e)",
@@ -4162,6 +4464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare floating point values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "fcmp",
           "package": "llvm-ht",
@@ -4172,6 +4475,7 @@
         "index": {
           "description": "Compare floating point values",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "fcmp",
           "normalized": "FPPredicate-\u003ea-\u003eb-\u003eCodeGenFunction c(Value d)",
@@ -4187,6 +4491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloating point division.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "fdiv",
           "package": "llvm-ht",
@@ -4197,6 +4502,7 @@
         "index": {
           "description": "Floating point division",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "fdiv",
           "normalized": "a-\u003eb-\u003eCodeGenFunction c(d e)",
@@ -4211,6 +4517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "fmul",
           "package": "llvm-ht",
@@ -4220,6 +4527,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "fmul",
           "normalized": "a-\u003eb-\u003eCodeGenFunction c(d e)",
@@ -4235,6 +4543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend a floating point value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "fpext",
           "package": "llvm-ht",
@@ -4245,6 +4554,7 @@
         "index": {
           "description": "Extend floating point value",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "fpext",
           "normalized": "Value a-\u003eCodeGenFunction b(Value c)",
@@ -4260,6 +4570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a floating point value to a signed integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "fptosi",
           "package": "llvm-ht",
@@ -4270,6 +4581,7 @@
         "index": {
           "description": "Convert floating point value to signed integer",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "fptosi",
           "normalized": "Value a-\u003eCodeGenFunction b(Value c)",
@@ -4285,6 +4597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a floating point value to an unsigned integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "fptoui",
           "package": "llvm-ht",
@@ -4295,6 +4608,7 @@
         "index": {
           "description": "Convert floating point value to an unsigned integer",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "fptoui",
           "normalized": "Value a-\u003eCodeGenFunction b(Value c)",
@@ -4310,6 +4624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTruncate a floating point value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "fptrunc",
           "package": "llvm-ht",
@@ -4320,6 +4635,7 @@
         "index": {
           "description": "Truncate floating point value",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "fptrunc",
           "normalized": "Value a-\u003eCodeGenFunction b(Value c)",
@@ -4335,6 +4651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree heap memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "free",
           "package": "llvm-ht",
@@ -4345,6 +4662,7 @@
         "index": {
           "description": "Free heap memory",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "free",
           "normalized": "Value(Ptr a)-\u003eCodeGenFunction b(Value())",
@@ -4360,6 +4678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloating point remainder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "frem",
           "package": "llvm-ht",
@@ -4370,6 +4689,7 @@
         "index": {
           "description": "Floating point remainder",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "frem",
           "normalized": "a-\u003eb-\u003eCodeGenFunction c(d e)",
@@ -4384,6 +4704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "fromLabel",
           "package": "llvm-ht",
@@ -4393,6 +4714,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "fromLabel",
           "normalized": "Value Label-\u003eBasicBlock",
@@ -4408,6 +4730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "fromVector",
           "package": "llvm-ht",
@@ -4417,6 +4740,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "fromVector",
           "normalized": "Vector a b-\u003ec",
@@ -4432,6 +4756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "fsub",
           "package": "llvm-ht",
@@ -4441,6 +4766,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "fsub",
           "normalized": "a-\u003eb-\u003eCodeGenFunction c(d e)",
@@ -4455,6 +4781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "getCurrentBasicBlock",
           "package": "llvm-ht",
@@ -4464,6 +4791,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "getCurrentBasicBlock",
           "package": "llvm-ht",
@@ -4478,6 +4806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddress arithmetic.  See LLVM description.\n The index is a nested tuple of the form \u003ccode\u003e(i1,(i2,( ... ())))\u003c/code\u003e.\n (This is without a doubt the most confusing LLVM instruction, but the types help.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "getElementPtr",
           "package": "llvm-ht",
@@ -4488,6 +4817,7 @@
         "index": {
           "description": "Address arithmetic See LLVM description The index is nested tuple of the form i1 i2 This is without doubt the most confusing LLVM instruction but the types help",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "getElementPtr",
           "normalized": "Value(Ptr a)-\u003e(b,c)-\u003eCodeGenFunction d(Value(Ptr e))",
@@ -4504,6 +4834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike getElementPtr, but with an initial index that is 0.\n This is useful since any pointer first need to be indexed off the pointer, and then into\n its actual value.  This first indexing is often with 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "getElementPtr0",
           "package": "llvm-ht",
@@ -4514,6 +4845,7 @@
         "index": {
           "description": "Like getElementPtr but with an initial index that is This is useful since any pointer first need to be indexed off the pointer and then into its actual value This first indexing is often with",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "getElementPtr0",
           "normalized": "Value(Ptr a)-\u003eb-\u003eCodeGenFunction c(Value(Ptr d))",
@@ -4530,6 +4862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list created by calls to \u003ccode\u003estaticFunction\u003c/code\u003e\nthat must be passed to the execution engine\nvia \u003ccode\u003eLLVM.ExecutionEngine.addGlobalMappings\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "getGlobalMappings",
           "package": "llvm-ht",
@@ -4540,6 +4873,7 @@
         "index": {
           "description": "Get list created by calls to staticFunction that must be passed to the execution engine via LLVM.ExecutionEngine.addGlobalMappings",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "getGlobalMappings",
           "package": "llvm-ht",
@@ -4553,6 +4887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "getModuleValues",
           "package": "llvm-ht",
@@ -4562,6 +4897,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "getModuleValues",
           "normalized": "Module-\u003eIO[(String,ModuleValue)]",
@@ -4578,6 +4914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the name of a \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "getValueName",
           "package": "llvm-ht",
@@ -4588,6 +4925,7 @@
         "index": {
           "description": "Get the name of Value",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "getValueName",
           "normalized": "Value a-\u003eIO String",
@@ -4604,6 +4942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "icmp",
           "package": "llvm-ht",
@@ -4614,6 +4953,7 @@
         "index": {
           "description": "Compare integers",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "icmp",
           "normalized": "IntPredicate-\u003ea-\u003eb-\u003eCodeGenFunction c(Value d)",
@@ -4629,6 +4969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize jitter to the native target.\n The operation is idempotent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "initializeNativeTarget",
           "package": "llvm-ht",
@@ -4639,6 +4980,7 @@
         "index": {
           "description": "Initialize jitter to the native target The operation is idempotent",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "initializeNativeTarget",
           "normalized": "IO()",
@@ -4655,6 +4997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a value into a vector, nondestructive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "insertelement",
           "package": "llvm-ht",
@@ -4664,6 +5007,7 @@
         "index": {
           "description": "Insert value into vector nondestructive",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "insertelement",
           "normalized": "Value(Vector a b)-\u003eValue b-\u003eValue Word-\u003eCodeGenFunction c(Value(Vector a b))",
@@ -4679,6 +5023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a value into an aggregate, nondestructive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "insertvalue",
           "package": "llvm-ht",
@@ -4688,6 +5033,7 @@
         "index": {
           "description": "Insert value into an aggregate nondestructive",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "insertvalue",
           "normalized": "Value a-\u003eValue b-\u003ec-\u003eCodeGenFunction d(Value a)",
@@ -4703,6 +5049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an integer to a pointer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "inttoptr",
           "package": "llvm-ht",
@@ -4713,6 +5060,7 @@
         "index": {
           "description": "Convert an integer to pointer",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "inttoptr",
           "normalized": "Value a-\u003eCodeGenFunction b(Value(Ptr c))",
@@ -4727,6 +5075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "inv",
           "package": "llvm-ht",
@@ -4736,6 +5085,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "inv",
           "normalized": "Value a-\u003eCodeGenFunction b(Value a)",
@@ -4751,6 +5101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a function with exception handling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "invoke",
           "package": "llvm-ht",
@@ -4760,6 +5111,7 @@
         "index": {
           "description": "Call function with exception handling",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "invoke",
           "normalized": "BasicBlock-\u003eBasicBlock-\u003eFunction a-\u003eb",
@@ -4774,6 +5126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "isFloating",
           "package": "llvm-ht",
@@ -4783,6 +5136,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "isFloating",
           "normalized": "a-\u003eBool",
@@ -4798,6 +5152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "isSigned",
           "package": "llvm-ht",
@@ -4807,6 +5162,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "isSigned",
           "normalized": "a-\u003eBool",
@@ -4823,6 +5179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a value from memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "load",
           "package": "llvm-ht",
@@ -4832,6 +5189,7 @@
         "index": {
           "description": "Load value from memory",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "load",
           "normalized": "Value(Ptr a)-\u003eCodeGenFunction b(Value a)",
@@ -4846,6 +5204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "lshr",
           "package": "llvm-ht",
@@ -4855,6 +5214,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "lshr",
           "normalized": "a-\u003eb-\u003eCodeGenFunction c(d e)",
@@ -4870,6 +5230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate heap memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "malloc",
           "package": "llvm-ht",
@@ -4880,6 +5241,7 @@
         "index": {
           "description": "Allocate heap memory",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "malloc",
           "package": "llvm-ht",
@@ -4892,6 +5254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "mul",
           "package": "llvm-ht",
@@ -4901,6 +5264,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "mul",
           "normalized": "a-\u003eb-\u003eCodeGenFunction c(d e)",
@@ -4915,6 +5279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "neg",
           "package": "llvm-ht",
@@ -4924,6 +5289,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "neg",
           "normalized": "Value a-\u003eCodeGenFunction b(Value a)",
@@ -4938,6 +5304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "newBasicBlock",
           "package": "llvm-ht",
@@ -4947,6 +5314,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "newBasicBlock",
           "package": "llvm-ht",
@@ -4961,6 +5329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new function.  Use \u003ccode\u003e\u003ca\u003enewNamedFunction\u003c/a\u003e\u003c/code\u003e to create a function with external linkage, since\n it needs a known name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "newFunction",
           "package": "llvm-ht",
@@ -4971,6 +5340,7 @@
         "index": {
           "description": "Create new function Use newNamedFunction to create function with external linkage since it needs known name",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "newFunction",
           "normalized": "Linkage-\u003eCodeGenModule(Function a)",
@@ -4987,6 +5357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new global variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "newGlobal",
           "package": "llvm-ht",
@@ -4997,6 +5368,7 @@
         "index": {
           "description": "Create new global variable",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "newGlobal",
           "normalized": "Bool-\u003eLinkage-\u003eTGlobal a",
@@ -5013,6 +5385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "newModule",
           "package": "llvm-ht",
@@ -5023,6 +5396,7 @@
         "index": {
           "description": "Create new module",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "newModule",
           "package": "llvm-ht",
@@ -5036,6 +5410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "newNamedBasicBlock",
           "package": "llvm-ht",
@@ -5045,6 +5420,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "newNamedBasicBlock",
           "normalized": "String-\u003eCodeGenFunction a BasicBlock",
@@ -5061,6 +5437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new named function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "newNamedFunction",
           "package": "llvm-ht",
@@ -5070,6 +5447,7 @@
         "index": {
           "description": "Create new named function",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "newNamedFunction",
           "normalized": "Linkage-\u003eString-\u003eCodeGenModule(Function a)",
@@ -5086,6 +5464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new named global variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "newNamedGlobal",
           "package": "llvm-ht",
@@ -5095,6 +5474,7 @@
         "index": {
           "description": "Create new named global variable",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "newNamedGlobal",
           "normalized": "Bool-\u003eLinkage-\u003eString-\u003eTGlobal a",
@@ -5111,6 +5491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new explicitely named module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "newNamedModule",
           "package": "llvm-ht",
@@ -5120,6 +5501,7 @@
         "index": {
           "description": "Create new explicitely named module",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "newNamedModule",
           "normalized": "String-\u003eIO Module",
@@ -5135,6 +5517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "or",
           "package": "llvm-ht",
@@ -5144,6 +5527,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "or",
           "normalized": "a-\u003eb-\u003eCodeGenFunction c(d e)",
@@ -5159,6 +5543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin several variables (virtual registers) from different basic blocks into one.\n All of the variables in the list are joined.  See also \u003ccode\u003e\u003ca\u003eaddPhiInputs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "phi",
           "package": "llvm-ht",
@@ -5169,6 +5554,7 @@
         "index": {
           "description": "Join several variables virtual registers from different basic blocks into one All of the variables in the list are joined See also addPhiInputs",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "phi",
           "normalized": "[(Value a,BasicBlock)]-\u003eCodeGenFunction b(Value a)",
@@ -5184,6 +5570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a pointer to an integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "ptrtoint",
           "package": "llvm-ht",
@@ -5194,6 +5581,7 @@
         "index": {
           "description": "Convert pointer to an integer",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "ptrtoint",
           "normalized": "Value(Ptr a)-\u003eCodeGenFunction b(Value c)",
@@ -5209,6 +5597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a module from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "readBitcodeFromFile",
           "package": "llvm-ht",
@@ -5219,6 +5608,7 @@
         "index": {
           "description": "Read module from file",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "readBitcodeFromFile",
           "normalized": "String-\u003eIO Module",
@@ -5235,6 +5625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn from the current function with the given value.  Use () as the return value for what would be a void function is C.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "ret",
           "package": "llvm-ht",
@@ -5245,6 +5636,7 @@
         "index": {
           "description": "Return from the current function with the given value Use as the return value for what would be void function is",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "ret",
           "normalized": "a-\u003eCodeGenFunction b Terminate",
@@ -5259,6 +5651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "sdiv",
           "package": "llvm-ht",
@@ -5268,6 +5661,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "sdiv",
           "normalized": "a-\u003eb-\u003eCodeGenFunction c(d e)",
@@ -5283,6 +5677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect between two values depending on a boolean.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "select",
           "package": "llvm-ht",
@@ -5293,6 +5688,7 @@
         "index": {
           "description": "Select between two values depending on boolean",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "select",
           "normalized": "Value a-\u003eValue b-\u003eValue b-\u003eCodeGenFunction c(Value b)",
@@ -5308,6 +5704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSign extend a value to wider width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "sext",
           "package": "llvm-ht",
@@ -5318,6 +5715,7 @@
         "index": {
           "description": "Sign extend value to wider width",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "sext",
           "normalized": "Value a-\u003eCodeGenFunction b(Value c)",
@@ -5332,6 +5730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "shl",
           "package": "llvm-ht",
@@ -5341,6 +5740,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "shl",
           "normalized": "a-\u003eb-\u003eCodeGenFunction c(d e)",
@@ -5356,6 +5756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePermute vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "shufflevector",
           "package": "llvm-ht",
@@ -5366,6 +5767,7 @@
         "index": {
           "description": "Permute vector",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "shufflevector",
           "normalized": "Value(Vector a b)-\u003eValue(Vector a b)-\u003eConstValue(Vector a Word)-\u003eCodeGenFunction c(Value(Vector a b))",
@@ -5381,6 +5783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a signed integer to a floating point value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "sitofp",
           "package": "llvm-ht",
@@ -5391,6 +5794,7 @@
         "index": {
           "description": "Convert signed integer to floating point value",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "sitofp",
           "normalized": "Value a-\u003eCodeGenFunction b(Value c)",
@@ -5405,6 +5809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "srem",
           "package": "llvm-ht",
@@ -5414,6 +5819,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "srem",
           "normalized": "a-\u003eb-\u003eCodeGenFunction c(d e)",
@@ -5429,6 +5835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an external C function with a fixed address callable from LLVM code.\nThis callback function can also be a Haskell function,\nthat was imported like\n\u003c/p\u003e\u003cpre\u003e foreign import ccall \"&nextElement\"\n    nextElementFunPtr :: FunPtr (StablePtr (IORef [Word32]) -\u003e IO Word32)\n\u003c/pre\u003e\u003cp\u003eSee \u003ccode\u003eexamples/List.hs\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWhen you only use \u003ccode\u003e\u003ca\u003eexternFunction\u003c/a\u003e\u003c/code\u003e, then LLVM cannot resolve the name.\n(However, I do not know why.)\nThus \u003ccode\u003e\u003ca\u003estaticFunction\u003c/a\u003e\u003c/code\u003e manages a list of static functions.\nThis list is automatically installed by \u003ccode\u003eExecutionEngine.simpleFunction\u003c/code\u003e\nand can be manually obtained by \u003ccode\u003e\u003ca\u003egetGlobalMappings\u003c/a\u003e\u003c/code\u003e\nand installed by \u003ccode\u003eExecutionEngine.addGlobalMappings\u003c/code\u003e.\n\"Installing\" means calling LLVM's \u003ccode\u003eaddGlobalMapping\u003c/code\u003e according to\n\u003ca\u003ehttp://old.nabble.com/jit-with-external-functions-td7769793.html\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "staticFunction",
           "package": "llvm-ht",
@@ -5439,6 +5846,7 @@
         "index": {
           "description": "Make an external function with fixed address callable from LLVM code This callback function can also be Haskell function that was imported like foreign import ccall nextElement nextElementFunPtr FunPtr StablePtr IORef Word32 IO Word32 See examples List.hs When you only use externFunction then LLVM cannot resolve the name However do not know why Thus staticFunction manages list of static functions This list is automatically installed by ExecutionEngine.simpleFunction and can be manually obtained by getGlobalMappings and installed by ExecutionEngine.addGlobalMappings Installing means calling LLVM addGlobalMapping according to http old.nabble.com jit-with-external-functions-td7769793.html",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "staticFunction",
           "normalized": "FunPtr a-\u003eCodeGenFunction b(Function a)",
@@ -5455,6 +5863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a value in memory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "store",
           "package": "llvm-ht",
@@ -5464,6 +5873,7 @@
         "index": {
           "description": "Store value in memory",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "store",
           "normalized": "Value a-\u003eValue(Ptr a)-\u003eCodeGenFunction b(Value())",
@@ -5478,6 +5888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "sub",
           "package": "llvm-ht",
@@ -5487,6 +5898,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "sub",
           "normalized": "a-\u003eb-\u003eCodeGenFunction c(d e)",
@@ -5502,6 +5914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBranch table instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "switch",
           "package": "llvm-ht",
@@ -5511,6 +5924,7 @@
         "index": {
           "description": "Branch table instruction",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "switch",
           "normalized": "Value a-\u003eBasicBlock-\u003e[(ConstValue a,BasicBlock)]-\u003eCodeGenFunction b Terminate",
@@ -5525,6 +5939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "toLabel",
           "package": "llvm-ht",
@@ -5534,6 +5949,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "toLabel",
           "normalized": "BasicBlock-\u003eValue Label",
@@ -5549,6 +5965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "toVector",
           "package": "llvm-ht",
@@ -5558,6 +5975,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "toVector",
           "normalized": "a-\u003eVector b c",
@@ -5574,6 +5992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTruncate a value to a shorter bit width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "trunc",
           "package": "llvm-ht",
@@ -5584,6 +6003,7 @@
         "index": {
           "description": "Truncate value to shorter bit width",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "trunc",
           "normalized": "Value a-\u003eCodeGenFunction b(Value c)",
@@ -5598,6 +6018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "tupleDesc",
           "package": "llvm-ht",
@@ -5607,6 +6028,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "tupleDesc",
           "normalized": "a-\u003e[TypeDesc]",
@@ -5622,6 +6044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "typeDesc",
           "package": "llvm-ht",
@@ -5631,6 +6054,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "typeDesc",
           "normalized": "a-\u003eTypeDesc",
@@ -5646,6 +6070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "typeName",
           "package": "llvm-ht",
@@ -5655,6 +6080,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "typeName",
           "normalized": "a-\u003eString",
@@ -5670,6 +6096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "typeRef",
           "package": "llvm-ht",
@@ -5678,6 +6105,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "typeRef",
           "normalized": "a-\u003eTypeRef",
@@ -5693,6 +6121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "udiv",
           "package": "llvm-ht",
@@ -5702,6 +6131,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "udiv",
           "normalized": "a-\u003eb-\u003eCodeGenFunction c(d e)",
@@ -5717,6 +6147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an unsigned integer to a floating point value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "uitofp",
           "package": "llvm-ht",
@@ -5727,6 +6158,7 @@
         "index": {
           "description": "Convert an unsigned integer to floating point value",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "uitofp",
           "normalized": "Value a-\u003eCodeGenFunction b(Value c)",
@@ -5741,6 +6173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "undef",
           "package": "llvm-ht",
@@ -5750,6 +6183,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "undef",
           "package": "llvm-ht",
@@ -5762,6 +6196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "undefTuple",
           "package": "llvm-ht",
@@ -5771,6 +6206,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "undefTuple",
           "package": "llvm-ht",
@@ -5785,6 +6221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInform the code generator that this code can never be reached.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "unreachable",
           "package": "llvm-ht",
@@ -5795,6 +6232,7 @@
         "index": {
           "description": "Inform the code generator that this code can never be reached",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "unreachable",
           "package": "llvm-ht",
@@ -5808,6 +6246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwind the call stack until a function call performed with \u003ccode\u003e\u003ca\u003einvoke\u003c/a\u003e\u003c/code\u003e is reached.\n I.e., throw a non-local exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "unwind",
           "package": "llvm-ht",
@@ -5818,6 +6257,7 @@
         "index": {
           "description": "Unwind the call stack until function call performed with invoke is reached I.e throw non-local exception",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "unwind",
           "package": "llvm-ht",
@@ -5830,6 +6270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "urem",
           "package": "llvm-ht",
@@ -5839,6 +6280,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "urem",
           "normalized": "a-\u003eb-\u003eCodeGenFunction c(d e)",
@@ -5853,6 +6295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "value",
           "package": "llvm-ht",
@@ -5862,6 +6305,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "value",
           "normalized": "ConstValue a-\u003eValue a",
@@ -5876,6 +6320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "valueOf",
           "package": "llvm-ht",
@@ -5885,6 +6330,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "valueOf",
           "normalized": "a-\u003eValue a",
@@ -5900,6 +6346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "valueTupleOf",
           "package": "llvm-ht",
@@ -5909,6 +6356,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "valueTupleOf",
           "normalized": "a-\u003eb",
@@ -5925,6 +6373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a constant vector.  Replicates or truncates the list to get length \u003cem\u003en\u003c/em\u003e.\n This behaviour is consistent with that of \u003ccode\u003eLLVM.Core.CodeGen.constVector\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "vector",
           "package": "llvm-ht",
@@ -5935,6 +6384,7 @@
         "index": {
           "description": "Make constant vector Replicates or truncates the list to get length This behaviour is consistent with that of LLVM.Core.CodeGen.constVector",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "vector",
           "normalized": "[a]-\u003eVector b a",
@@ -5949,6 +6399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "withTuple",
           "package": "llvm-ht",
@@ -5958,6 +6409,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "withTuple",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -5974,6 +6426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a module to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "writeBitcodeToFile",
           "package": "llvm-ht",
@@ -5984,6 +6437,7 @@
         "index": {
           "description": "Write module to file",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "writeBitcodeToFile",
           "normalized": "String-\u003eModule-\u003eIO()",
@@ -5999,6 +6453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "xor",
           "package": "llvm-ht",
@@ -6008,6 +6463,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "xor",
           "normalized": "a-\u003eb-\u003eCodeGenFunction c(d e)",
@@ -6022,6 +6478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "zero",
           "package": "llvm-ht",
@@ -6031,6 +6488,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "zero",
           "package": "llvm-ht",
@@ -6044,6 +6502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero extend a value to a wider width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Core",
           "name": "zext",
           "package": "llvm-ht",
@@ -6054,6 +6513,7 @@
         "index": {
           "description": "Zero extend value to wider width",
           "hierarchy": "LLVM Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Core",
           "name": "zext",
           "normalized": "Value a-\u003eCodeGenFunction b(Value c)",
@@ -6069,6 +6529,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn \u003ccode\u003eExecutionEngine\u003c/code\u003e is JIT compiler that is used to generate code for an LLVM module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "ExecutionEngine",
           "package": "llvm-ht",
@@ -6078,6 +6539,7 @@
         "index": {
           "description": "An ExecutionEngine is JIT compiler that is used to generate code for an LLVM module",
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "ExecutionEngine",
           "package": "llvm-ht",
@@ -6091,6 +6553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "EngineAccess",
           "package": "llvm-ht",
@@ -6099,6 +6562,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "EngineAccess",
           "package": "llvm-ht",
@@ -6113,6 +6577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all the information needed to free a function.\n Freeing code might have to be done from a (C) finalizer, so it has to done from C.\n The function c_freeFunctionObject take these pointers as arguments and frees the function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "FreePointers",
           "package": "llvm-ht",
@@ -6122,6 +6587,7 @@
         "index": {
           "description": "Get all the information needed to free function Freeing code might have to be done from finalizer so it has to done from The function freeFunctionObject take these pointers as arguments and frees the function",
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "FreePointers",
           "package": "llvm-ht",
@@ -6135,6 +6601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "Generic",
           "package": "llvm-ht",
@@ -6143,6 +6610,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "Generic",
           "package": "llvm-ht",
@@ -6156,6 +6624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "GenericTuple",
           "package": "llvm-ht",
@@ -6164,6 +6633,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "GenericTuple",
           "package": "llvm-ht",
@@ -6177,6 +6647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "TargetData",
           "package": "llvm-ht",
@@ -6185,6 +6656,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "TargetData",
           "package": "llvm-ht",
@@ -6199,6 +6671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of LLVM function types that can be translated to the corresponding\n Haskell type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "Translatable",
           "package": "llvm-ht",
@@ -6208,6 +6681,7 @@
         "index": {
           "description": "Class of LLVM function types that can be translated to the corresponding Haskell type",
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "Translatable",
           "package": "llvm-ht",
@@ -6221,6 +6695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "Unsafe",
           "package": "llvm-ht",
@@ -6229,6 +6704,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "Unsafe",
           "package": "llvm-ht",
@@ -6242,6 +6718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "TargetData",
           "package": "llvm-ht",
@@ -6251,6 +6728,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "TargetData",
           "package": "llvm-ht",
@@ -6264,6 +6742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "aBIAlignmentOfType",
           "package": "llvm-ht",
@@ -6273,6 +6752,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "aBIAlignmentOfType",
           "normalized": "Type-\u003eInt",
@@ -6288,6 +6768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "aBISizeOfType",
           "package": "llvm-ht",
@@ -6297,6 +6778,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "aBISizeOfType",
           "normalized": "Type-\u003eInt",
@@ -6313,6 +6795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTell LLVM the address of an external function\nif it cannot resolve a name automatically.\nAlternatively you may declare the function\nwith \u003ccode\u003estaticFunction\u003c/code\u003e instead of \u003ccode\u003eexternFunction\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "addFunctionValue",
           "package": "llvm-ht",
@@ -6323,6 +6806,7 @@
         "index": {
           "description": "Tell LLVM the address of an external function if it cannot resolve name automatically Alternatively you may declare the function with staticFunction instead of externFunction",
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "addFunctionValue",
           "normalized": "Function a-\u003eFunPtr a-\u003eEngineAccess()",
@@ -6339,6 +6823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass a list of global mappings to LLVM\nthat can be obtained from \u003ccode\u003eLLVM.Core.getGlobalMappings\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "addGlobalMappings",
           "package": "llvm-ht",
@@ -6349,6 +6834,7 @@
         "index": {
           "description": "Pass list of global mappings to LLVM that can be obtained from LLVM.Core.getGlobalMappings",
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "addGlobalMappings",
           "normalized": "GlobalMappings-\u003eEngineAccess()",
@@ -6364,6 +6850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "addModule",
           "package": "llvm-ht",
@@ -6373,6 +6860,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "addModule",
           "normalized": "Module-\u003eEngineAccess()",
@@ -6388,6 +6876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "addModuleProvider",
           "package": "llvm-ht",
@@ -6397,6 +6886,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "addModuleProvider",
           "normalized": "ModuleProvider-\u003eEngineAccess()",
@@ -6412,6 +6902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "callFrameAlignmentOfType",
           "package": "llvm-ht",
@@ -6421,6 +6912,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "callFrameAlignmentOfType",
           "normalized": "Type-\u003eInt",
@@ -6437,6 +6929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a Haskell function from an LLVM function.\n\u003c/p\u003e\u003cp\u003eNote that the function is compiled for every call (Just-In-Time compilation).\n If you want to compile the function once and call it a lot of times\n then you should better use \u003ccode\u003e\u003ca\u003egetPointerToFunction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "generateFunction",
           "package": "llvm-ht",
@@ -6447,6 +6940,7 @@
         "index": {
           "description": "Generate Haskell function from an LLVM function Note that the function is compiled for every call Just-In-Time compilation If you want to compile the function once and call it lot of times then you should better use getPointerToFunction",
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "generateFunction",
           "normalized": "Value(Ptr a)-\u003eEngineAccess a",
@@ -6462,6 +6956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "getFreePointers",
           "package": "llvm-ht",
@@ -6471,6 +6966,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "getFreePointers",
           "normalized": "Function a-\u003eEngineAccess FreePointers",
@@ -6487,6 +6983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn contrast to \u003ccode\u003egenerateFunction\u003c/code\u003e this compiles a function once.\nThus it is faster for many calls to the same function.\nSee \u003ccode\u003eexamples/Vector.hs\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf the function calls back into Haskell code,\nyou also have to set the function addresses\nusing \u003ccode\u003e\u003ca\u003eaddFunctionValue\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eaddGlobalMappings\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "getPointerToFunction",
           "package": "llvm-ht",
@@ -6497,6 +6994,7 @@
         "index": {
           "description": "In contrast to generateFunction this compiles function once Thus it is faster for many calls to the same function See examples Vector.hs If the function calls back into Haskell code you also have to set the function addresses using addFunctionValue or addGlobalMappings",
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "getPointerToFunction",
           "normalized": "Function a-\u003eEngineAccess(FunPtr a)",
@@ -6512,6 +7010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "getTargetData",
           "package": "llvm-ht",
@@ -6521,6 +7020,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "getTargetData",
           "package": "llvm-ht",
@@ -6534,6 +7034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "intPtrType",
           "package": "llvm-ht",
@@ -6543,6 +7044,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "intPtrType",
           "package": "llvm-ht",
@@ -6556,6 +7058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "littleEndian",
           "package": "llvm-ht",
@@ -6565,6 +7068,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "littleEndian",
           "package": "llvm-ht",
@@ -6578,6 +7082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "pointerSize",
           "package": "llvm-ht",
@@ -6587,6 +7092,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "pointerSize",
           "package": "llvm-ht",
@@ -6600,6 +7106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "preferredAlignmentOfType",
           "package": "llvm-ht",
@@ -6609,6 +7116,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "preferredAlignmentOfType",
           "normalized": "Type-\u003eInt",
@@ -6625,6 +7133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe LLVM execution engine is encapsulated so it cannot be accessed directly.\n The reason is that (currently) there must only ever be one engine,\n so access to it is wrapped in a monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "runEngineAccess",
           "package": "llvm-ht",
@@ -6635,6 +7144,7 @@
         "index": {
           "description": "The LLVM execution engine is encapsulated so it cannot be accessed directly The reason is that currently there must only ever be one engine so access to it is wrapped in monad",
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "runEngineAccess",
           "normalized": "EngineAccess a-\u003eIO a",
@@ -6651,6 +7161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a function to Haskell code.  This is a simplified interface to\n the execution engine and module mechanism.\n It is based on \u003ccode\u003e\u003ca\u003egenerateFunction\u003c/a\u003e\u003c/code\u003e, so see there for limitations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "simpleFunction",
           "package": "llvm-ht",
@@ -6661,6 +7172,7 @@
         "index": {
           "description": "Translate function to Haskell code This is simplified interface to the execution engine and module mechanism It is based on generateFunction so see there for limitations",
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "simpleFunction",
           "normalized": "CodeGenModule(Function a)-\u003eIO a",
@@ -6676,6 +7188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "sizeOfTypeInBits",
           "package": "llvm-ht",
@@ -6685,6 +7198,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "sizeOfTypeInBits",
           "normalized": "Type-\u003eInt",
@@ -6700,6 +7214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "storeSizeOfType",
           "package": "llvm-ht",
@@ -6709,6 +7224,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "storeSizeOfType",
           "normalized": "Type-\u003eInt",
@@ -6724,6 +7240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "targetDataFromString",
           "package": "llvm-ht",
@@ -6733,6 +7250,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "targetDataFromString",
           "normalized": "String-\u003eTargetData",
@@ -6749,6 +7267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine \u003ccode\u003e\u003ca\u003esimpleFunction\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eunsafePurify\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "unsafeGenerateFunction",
           "package": "llvm-ht",
@@ -6759,6 +7278,7 @@
         "index": {
           "description": "Combine simpleFunction and unsafePurify",
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "unsafeGenerateFunction",
           "normalized": "CodeGenModule(Function a)-\u003eb",
@@ -6774,6 +7294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "unsafePurify",
           "package": "llvm-ht",
@@ -6783,6 +7304,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "unsafePurify",
           "package": "llvm-ht",
@@ -6796,6 +7318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.ExecutionEngine",
           "name": "withIntPtrType",
           "package": "llvm-ht",
@@ -6805,6 +7328,7 @@
         },
         "index": {
           "hierarchy": "LLVM ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.ExecutionEngine",
           "name": "withIntPtrType",
           "normalized": "WordN a-\u003eb)-\u003eb",
@@ -6820,6 +7344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Analysis",
           "name": "Analysis",
           "package": "llvm-ht",
@@ -6828,6 +7353,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Analysis",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Analysis",
           "name": "Analysis",
           "package": "llvm-ht",
@@ -6841,6 +7367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Analysis",
           "name": "VerifierFailureAction",
           "package": "llvm-ht",
@@ -6849,6 +7376,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Analysis",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Analysis",
           "name": "VerifierFailureAction",
           "package": "llvm-ht",
@@ -6862,6 +7390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Analysis",
           "name": "verifyFunction",
           "package": "llvm-ht",
@@ -6871,6 +7400,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Analysis",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Analysis",
           "name": "verifyFunction",
           "normalized": "ValueRef-\u003eVerifierFailureAction-\u003eIO CInt",
@@ -6886,6 +7416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Analysis",
           "name": "verifyModule",
           "package": "llvm-ht",
@@ -6895,6 +7426,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Analysis",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Analysis",
           "name": "verifyModule",
           "normalized": "ModuleRef-\u003eVerifierFailureAction-\u003ePtr CString-\u003eIO CInt",
@@ -6910,6 +7442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Analysis",
           "name": "viewFunctionCFG",
           "package": "llvm-ht",
@@ -6919,6 +7452,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Analysis",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Analysis",
           "name": "viewFunctionCFG",
           "normalized": "ValueRef-\u003eIO()",
@@ -6934,6 +7468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Analysis",
           "name": "viewFunctionCFGOnly",
           "package": "llvm-ht",
@@ -6943,6 +7478,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Analysis",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Analysis",
           "name": "viewFunctionCFGOnly",
           "normalized": "ValueRef-\u003eIO()",
@@ -6958,6 +7494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.BitReader",
           "name": "BitReader",
           "package": "llvm-ht",
@@ -6966,6 +7503,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI BitReader",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.BitReader",
           "name": "BitReader",
           "package": "llvm-ht",
@@ -6979,6 +7517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.BitReader",
           "name": "getBitcodeModuleProvider",
           "package": "llvm-ht",
@@ -6988,6 +7527,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI BitReader",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.BitReader",
           "name": "getBitcodeModuleProvider",
           "normalized": "MemoryBufferRef-\u003ePtr ModuleProviderRef-\u003ePtr CString-\u003eIO CInt",
@@ -7003,6 +7543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.BitReader",
           "name": "getBitcodeModuleProviderInContext",
           "package": "llvm-ht",
@@ -7012,6 +7553,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI BitReader",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.BitReader",
           "name": "getBitcodeModuleProviderInContext",
           "normalized": "ContextRef-\u003eMemoryBufferRef-\u003ePtr ModuleProviderRef-\u003ePtr CString-\u003eIO CInt",
@@ -7027,6 +7569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.BitReader",
           "name": "parseBitcode",
           "package": "llvm-ht",
@@ -7036,6 +7579,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI BitReader",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.BitReader",
           "name": "parseBitcode",
           "normalized": "MemoryBufferRef-\u003ePtr ModuleRef-\u003ePtr CString-\u003eIO CInt",
@@ -7051,6 +7595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.BitReader",
           "name": "parseBitcodeInContext",
           "package": "llvm-ht",
@@ -7060,6 +7605,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI BitReader",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.BitReader",
           "name": "parseBitcodeInContext",
           "normalized": "ContextRef-\u003eMemoryBufferRef-\u003ePtr ModuleRef-\u003ePtr CString-\u003eIO CInt",
@@ -7075,6 +7621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.BitWriter",
           "name": "BitWriter",
           "package": "llvm-ht",
@@ -7083,6 +7630,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI BitWriter",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.BitWriter",
           "name": "BitWriter",
           "package": "llvm-ht",
@@ -7096,6 +7644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.BitWriter",
           "name": "writeBitcodeToFile",
           "package": "llvm-ht",
@@ -7105,6 +7654,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI BitWriter",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.BitWriter",
           "name": "writeBitcodeToFile",
           "normalized": "ModuleRef-\u003eCString-\u003eIO CInt",
@@ -7120,6 +7670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.BitWriter",
           "name": "writeBitcodeToFileHandle",
           "package": "llvm-ht",
@@ -7129,6 +7680,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI BitWriter",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.BitWriter",
           "name": "writeBitcodeToFileHandle",
           "normalized": "ModuleRef-\u003eCInt-\u003eIO CInt",
@@ -7145,6 +7697,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides direct access to the LLVM C bindings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "Core",
           "package": "llvm-ht",
@@ -7154,6 +7707,7 @@
         "index": {
           "description": "This module provides direct access to the LLVM bindings",
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "Core",
           "package": "llvm-ht",
@@ -7167,6 +7721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "Attribute",
           "package": "llvm-ht",
@@ -7175,6 +7730,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "Attribute",
           "package": "llvm-ht",
@@ -7188,6 +7744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "BasicBlock",
           "package": "llvm-ht",
@@ -7196,6 +7753,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "BasicBlock",
           "package": "llvm-ht",
@@ -7209,6 +7767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "BasicBlockRef",
           "package": "llvm-ht",
@@ -7217,6 +7776,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "BasicBlockRef",
           "package": "llvm-ht",
@@ -7230,6 +7790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "Builder",
           "package": "llvm-ht",
@@ -7238,6 +7799,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "Builder",
           "package": "llvm-ht",
@@ -7251,6 +7813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "BuilderRef",
           "package": "llvm-ht",
@@ -7259,6 +7822,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "BuilderRef",
           "package": "llvm-ht",
@@ -7272,6 +7836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "CallingConvention",
           "package": "llvm-ht",
@@ -7280,6 +7845,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "CallingConvention",
           "package": "llvm-ht",
@@ -7293,6 +7859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "Context",
           "package": "llvm-ht",
@@ -7301,6 +7868,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "Context",
           "package": "llvm-ht",
@@ -7314,6 +7882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "ContextRef",
           "package": "llvm-ht",
@@ -7322,6 +7891,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "ContextRef",
           "package": "llvm-ht",
@@ -7336,6 +7906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn enumeration for the kinds of linkage for global values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "Linkage",
           "package": "llvm-ht",
@@ -7345,6 +7916,7 @@
         "index": {
           "description": "An enumeration for the kinds of linkage for global values",
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "Linkage",
           "package": "llvm-ht",
@@ -7358,6 +7930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "MemoryBuffer",
           "package": "llvm-ht",
@@ -7366,6 +7939,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "MemoryBuffer",
           "package": "llvm-ht",
@@ -7379,6 +7953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "MemoryBufferRef",
           "package": "llvm-ht",
@@ -7387,6 +7962,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "MemoryBufferRef",
           "package": "llvm-ht",
@@ -7400,6 +7976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "Module",
           "package": "llvm-ht",
@@ -7408,6 +7985,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "Module",
           "package": "llvm-ht",
@@ -7421,6 +7999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "ModuleProvider",
           "package": "llvm-ht",
@@ -7429,6 +8008,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "ModuleProvider",
           "package": "llvm-ht",
@@ -7442,6 +8022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "ModuleProviderRef",
           "package": "llvm-ht",
@@ -7450,6 +8031,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "ModuleProviderRef",
           "package": "llvm-ht",
@@ -7463,6 +8045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "ModuleRef",
           "package": "llvm-ht",
@@ -7471,6 +8054,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "ModuleRef",
           "package": "llvm-ht",
@@ -7484,6 +8068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "PassManager",
           "package": "llvm-ht",
@@ -7492,6 +8077,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "PassManager",
           "package": "llvm-ht",
@@ -7505,6 +8091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "PassManagerRef",
           "package": "llvm-ht",
@@ -7513,6 +8100,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "PassManagerRef",
           "package": "llvm-ht",
@@ -7526,6 +8114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "Type",
           "package": "llvm-ht",
@@ -7534,6 +8123,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "Type",
           "package": "llvm-ht",
@@ -7547,6 +8137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "TypeKind",
           "package": "llvm-ht",
@@ -7555,6 +8146,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "TypeKind",
           "package": "llvm-ht",
@@ -7568,6 +8160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "TypeRef",
           "package": "llvm-ht",
@@ -7576,6 +8169,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "TypeRef",
           "package": "llvm-ht",
@@ -7589,6 +8183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "Value",
           "package": "llvm-ht",
@@ -7597,6 +8192,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "Value",
           "package": "llvm-ht",
@@ -7610,6 +8206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "ValueRef",
           "package": "llvm-ht",
@@ -7618,6 +8215,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "ValueRef",
           "package": "llvm-ht",
@@ -7632,6 +8230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn enumeration for the kinds of visibility of global values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "Visibility",
           "package": "llvm-ht",
@@ -7641,6 +8240,7 @@
         "index": {
           "description": "An enumeration for the kinds of visibility of global values",
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "Visibility",
           "package": "llvm-ht",
@@ -7654,6 +8254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "ArrayTypeKind",
           "package": "llvm-ht",
@@ -7663,6 +8264,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "ArrayTypeKind",
           "package": "llvm-ht",
@@ -7676,6 +8278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "C",
           "package": "llvm-ht",
@@ -7685,6 +8288,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "C",
           "package": "llvm-ht",
@@ -7697,6 +8301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "Cold",
           "package": "llvm-ht",
@@ -7706,6 +8311,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "Cold",
           "package": "llvm-ht",
@@ -7720,6 +8326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe GV is visible\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "DefaultVisibility",
           "package": "llvm-ht",
@@ -7730,6 +8337,7 @@
         "index": {
           "description": "The GV is visible",
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "DefaultVisibility",
           "package": "llvm-ht",
@@ -7743,6 +8351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "DoubleTypeKind",
           "package": "llvm-ht",
@@ -7752,6 +8361,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "DoubleTypeKind",
           "package": "llvm-ht",
@@ -7765,6 +8375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "FP128TypeKind",
           "package": "llvm-ht",
@@ -7774,6 +8385,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "FP128TypeKind",
           "package": "llvm-ht",
@@ -7787,6 +8399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "Fast",
           "package": "llvm-ht",
@@ -7796,6 +8409,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "Fast",
           "package": "llvm-ht",
@@ -7809,6 +8423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "FloatTypeKind",
           "package": "llvm-ht",
@@ -7818,6 +8433,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "FloatTypeKind",
           "package": "llvm-ht",
@@ -7831,6 +8447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "FunctionTypeKind",
           "package": "llvm-ht",
@@ -7840,6 +8457,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "FunctionTypeKind",
           "package": "llvm-ht",
@@ -7854,6 +8472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe GV is hidden\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "HiddenVisibility",
           "package": "llvm-ht",
@@ -7864,6 +8483,7 @@
         "index": {
           "description": "The GV is hidden",
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "HiddenVisibility",
           "package": "llvm-ht",
@@ -7877,6 +8497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "IntegerTypeKind",
           "package": "llvm-ht",
@@ -7886,6 +8507,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "IntegerTypeKind",
           "package": "llvm-ht",
@@ -7899,6 +8521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "LabelTypeKind",
           "package": "llvm-ht",
@@ -7908,6 +8531,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "LabelTypeKind",
           "package": "llvm-ht",
@@ -7921,6 +8545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "OpaqueTypeKind",
           "package": "llvm-ht",
@@ -7930,6 +8555,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "OpaqueTypeKind",
           "package": "llvm-ht",
@@ -7943,6 +8569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "PPC_FP128TypeKind",
           "package": "llvm-ht",
@@ -7952,6 +8579,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "PPC_FP128TypeKind",
           "package": "llvm-ht",
@@ -7965,6 +8593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "PointerTypeKind",
           "package": "llvm-ht",
@@ -7974,6 +8603,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "PointerTypeKind",
           "package": "llvm-ht",
@@ -7988,6 +8618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe GV is protected\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "ProtectedVisibility",
           "package": "llvm-ht",
@@ -7998,6 +8629,7 @@
         "index": {
           "description": "The GV is protected",
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "ProtectedVisibility",
           "package": "llvm-ht",
@@ -8011,6 +8643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "StructTypeKind",
           "package": "llvm-ht",
@@ -8020,6 +8653,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "StructTypeKind",
           "package": "llvm-ht",
@@ -8033,6 +8667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "VectorTypeKind",
           "package": "llvm-ht",
@@ -8042,6 +8677,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "VectorTypeKind",
           "package": "llvm-ht",
@@ -8055,6 +8691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "VoidTypeKind",
           "package": "llvm-ht",
@@ -8064,6 +8701,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "VoidTypeKind",
           "package": "llvm-ht",
@@ -8077,6 +8715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "X86FastCall",
           "package": "llvm-ht",
@@ -8086,6 +8725,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "X86FastCall",
           "package": "llvm-ht",
@@ -8099,6 +8739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "X86StdCall",
           "package": "llvm-ht",
@@ -8108,6 +8749,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "X86StdCall",
           "package": "llvm-ht",
@@ -8121,6 +8763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "X86_FP80TypeKind",
           "package": "llvm-ht",
@@ -8130,6 +8773,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "X86_FP80TypeKind",
           "package": "llvm-ht",
@@ -8143,6 +8787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "addAttribute",
           "package": "llvm-ht",
@@ -8152,6 +8797,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "addAttribute",
           "normalized": "ValueRef-\u003eCAttribute-\u003eIO()",
@@ -8167,6 +8813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "addCase",
           "package": "llvm-ht",
@@ -8176,6 +8823,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "addCase",
           "normalized": "ValueRef-\u003eValueRef-\u003eBasicBlockRef-\u003eIO()",
@@ -8191,6 +8839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "addFunction",
           "package": "llvm-ht",
@@ -8199,6 +8848,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "addFunction",
           "normalized": "ModuleRef-\u003eCString-\u003eTypeRef-\u003eIO ValueRef",
@@ -8214,6 +8864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "addFunctionAttr",
           "package": "llvm-ht",
@@ -8223,6 +8874,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "addFunctionAttr",
           "normalized": "ValueRef-\u003eCAttribute-\u003eIO()",
@@ -8238,6 +8890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "addGlobal",
           "package": "llvm-ht",
@@ -8247,6 +8900,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "addGlobal",
           "normalized": "ModuleRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -8262,6 +8916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "addIncoming",
           "package": "llvm-ht",
@@ -8271,6 +8926,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "addIncoming",
           "normalized": "ValueRef-\u003ePtr ValueRef-\u003ePtr ValueRef-\u003eCUInt-\u003eIO()",
@@ -8286,6 +8942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "addInstrAttribute",
           "package": "llvm-ht",
@@ -8295,6 +8952,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "addInstrAttribute",
           "normalized": "ValueRef-\u003eCUInt-\u003eCAttribute-\u003eIO()",
@@ -8310,6 +8968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "addTypeName",
           "package": "llvm-ht",
@@ -8319,6 +8978,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "addTypeName",
           "normalized": "ModuleRef-\u003eCString-\u003eTypeRef-\u003eIO CInt",
@@ -8334,6 +8994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "alignOf",
           "package": "llvm-ht",
@@ -8343,6 +9004,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "alignOf",
           "normalized": "TypeRef-\u003eIO ValueRef",
@@ -8358,6 +9020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "appendBasicBlock",
           "package": "llvm-ht",
@@ -8366,6 +9029,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "appendBasicBlock",
           "normalized": "ValueRef-\u003eCString-\u003eIO BasicBlockRef",
@@ -8381,6 +9045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "appendBasicBlockInContext",
           "package": "llvm-ht",
@@ -8390,6 +9055,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "appendBasicBlockInContext",
           "normalized": "ContextRef-\u003eValueRef-\u003eCString-\u003eIO BasicBlockRef",
@@ -8405,6 +9071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "arrayType",
           "package": "llvm-ht",
@@ -8413,6 +9080,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "arrayType",
           "normalized": "TypeRef-\u003eCUInt-\u003eTypeRef",
@@ -8428,6 +9096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "basicBlockAsValue",
           "package": "llvm-ht",
@@ -8437,6 +9106,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "basicBlockAsValue",
           "normalized": "BasicBlockRef-\u003eValueRef",
@@ -8452,6 +9122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildAShr",
           "package": "llvm-ht",
@@ -8461,6 +9132,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildAShr",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -8476,6 +9148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildAdd",
           "package": "llvm-ht",
@@ -8485,6 +9158,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildAdd",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -8500,6 +9174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildAggregateRet",
           "package": "llvm-ht",
@@ -8509,6 +9184,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildAggregateRet",
           "normalized": "BuilderRef-\u003ePtr ValueRef-\u003eCUInt-\u003eIO ValueRef",
@@ -8524,6 +9200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildAlloca",
           "package": "llvm-ht",
@@ -8533,6 +9210,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildAlloca",
           "normalized": "BuilderRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -8548,6 +9226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildAnd",
           "package": "llvm-ht",
@@ -8557,6 +9236,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildAnd",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -8572,6 +9252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildArrayAlloca",
           "package": "llvm-ht",
@@ -8581,6 +9262,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildArrayAlloca",
           "normalized": "BuilderRef-\u003eTypeRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -8596,6 +9278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildArrayMalloc",
           "package": "llvm-ht",
@@ -8605,6 +9288,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildArrayMalloc",
           "normalized": "BuilderRef-\u003eTypeRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -8620,6 +9304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildBitCast",
           "package": "llvm-ht",
@@ -8629,6 +9314,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildBitCast",
           "normalized": "BuilderRef-\u003eValueRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -8644,6 +9330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildBr",
           "package": "llvm-ht",
@@ -8653,6 +9340,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildBr",
           "normalized": "BuilderRef-\u003eBasicBlockRef-\u003eIO ValueRef",
@@ -8668,6 +9356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildCall",
           "package": "llvm-ht",
@@ -8677,6 +9366,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildCall",
           "normalized": "BuilderRef-\u003eValueRef-\u003ePtr ValueRef-\u003eCUInt-\u003eCString-\u003eIO ValueRef",
@@ -8692,6 +9382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildCondBr",
           "package": "llvm-ht",
@@ -8701,6 +9392,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildCondBr",
           "normalized": "BuilderRef-\u003eValueRef-\u003eBasicBlockRef-\u003eBasicBlockRef-\u003eIO ValueRef",
@@ -8716,6 +9408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildExactSDiv",
           "package": "llvm-ht",
@@ -8725,6 +9418,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildExactSDiv",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -8740,6 +9434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildExtractElement",
           "package": "llvm-ht",
@@ -8749,6 +9444,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildExtractElement",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -8764,6 +9460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildExtractValue",
           "package": "llvm-ht",
@@ -8773,6 +9470,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildExtractValue",
           "normalized": "BuilderRef-\u003eValueRef-\u003eCUInt-\u003eCString-\u003eIO ValueRef",
@@ -8788,6 +9486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildFAdd",
           "package": "llvm-ht",
@@ -8797,6 +9496,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildFAdd",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -8812,6 +9512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildFCmp",
           "package": "llvm-ht",
@@ -8821,6 +9522,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildFCmp",
           "normalized": "BuilderRef-\u003eCInt-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -8836,6 +9538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildFDiv",
           "package": "llvm-ht",
@@ -8845,6 +9548,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildFDiv",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -8860,6 +9564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildFMul",
           "package": "llvm-ht",
@@ -8869,6 +9574,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildFMul",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -8884,6 +9590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildFPCast",
           "package": "llvm-ht",
@@ -8893,6 +9600,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildFPCast",
           "normalized": "BuilderRef-\u003eValueRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -8908,6 +9616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildFPExt",
           "package": "llvm-ht",
@@ -8917,6 +9626,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildFPExt",
           "normalized": "BuilderRef-\u003eValueRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -8932,6 +9642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildFPToSI",
           "package": "llvm-ht",
@@ -8941,6 +9652,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildFPToSI",
           "normalized": "BuilderRef-\u003eValueRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -8956,6 +9668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildFPToUI",
           "package": "llvm-ht",
@@ -8965,6 +9678,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildFPToUI",
           "normalized": "BuilderRef-\u003eValueRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -8980,6 +9694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildFPTrunc",
           "package": "llvm-ht",
@@ -8989,6 +9704,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildFPTrunc",
           "normalized": "BuilderRef-\u003eValueRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -9004,6 +9720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildFRem",
           "package": "llvm-ht",
@@ -9013,6 +9730,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildFRem",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9028,6 +9746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildFSub",
           "package": "llvm-ht",
@@ -9037,6 +9756,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildFSub",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9052,6 +9772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildFree",
           "package": "llvm-ht",
@@ -9061,6 +9782,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildFree",
           "normalized": "BuilderRef-\u003eValueRef-\u003eIO ValueRef",
@@ -9076,6 +9798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildGEP",
           "package": "llvm-ht",
@@ -9085,6 +9808,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildGEP",
           "normalized": "BuilderRef-\u003eValueRef-\u003ePtr ValueRef-\u003eCUInt-\u003eCString-\u003eIO ValueRef",
@@ -9100,6 +9824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildGlobalString",
           "package": "llvm-ht",
@@ -9109,6 +9834,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildGlobalString",
           "normalized": "BuilderRef-\u003eCString-\u003eCString-\u003eIO ValueRef",
@@ -9124,6 +9850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildGlobalStringPtr",
           "package": "llvm-ht",
@@ -9133,6 +9860,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildGlobalStringPtr",
           "normalized": "BuilderRef-\u003eCString-\u003eCString-\u003eIO ValueRef",
@@ -9148,6 +9876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildICmp",
           "package": "llvm-ht",
@@ -9157,6 +9886,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildICmp",
           "normalized": "BuilderRef-\u003eCInt-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9172,6 +9902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildInBoundsGEP",
           "package": "llvm-ht",
@@ -9181,6 +9912,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildInBoundsGEP",
           "normalized": "BuilderRef-\u003eValueRef-\u003ePtr ValueRef-\u003eCUInt-\u003eCString-\u003eIO ValueRef",
@@ -9196,6 +9928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildInsertElement",
           "package": "llvm-ht",
@@ -9205,6 +9938,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildInsertElement",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9220,6 +9954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildInsertValue",
           "package": "llvm-ht",
@@ -9229,6 +9964,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildInsertValue",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCUInt-\u003eCString-\u003eIO ValueRef",
@@ -9244,6 +9980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildIntCast",
           "package": "llvm-ht",
@@ -9253,6 +9990,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildIntCast",
           "normalized": "BuilderRef-\u003eValueRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -9268,6 +10006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildIntToPtr",
           "package": "llvm-ht",
@@ -9277,6 +10016,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildIntToPtr",
           "normalized": "BuilderRef-\u003eValueRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -9292,6 +10032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildInvoke",
           "package": "llvm-ht",
@@ -9301,6 +10042,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildInvoke",
           "normalized": "BuilderRef-\u003eValueRef-\u003ePtr ValueRef-\u003eCUInt-\u003eBasicBlockRef-\u003eBasicBlockRef-\u003eCString-\u003eIO ValueRef",
@@ -9316,6 +10058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildIsNotNull",
           "package": "llvm-ht",
@@ -9325,6 +10068,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildIsNotNull",
           "normalized": "BuilderRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9340,6 +10084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildIsNull",
           "package": "llvm-ht",
@@ -9349,6 +10094,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildIsNull",
           "normalized": "BuilderRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9364,6 +10110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildLShr",
           "package": "llvm-ht",
@@ -9373,6 +10120,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildLShr",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9388,6 +10136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildLoad",
           "package": "llvm-ht",
@@ -9397,6 +10146,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildLoad",
           "normalized": "BuilderRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9412,6 +10162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildMalloc",
           "package": "llvm-ht",
@@ -9421,6 +10172,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildMalloc",
           "normalized": "BuilderRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -9436,6 +10188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildMul",
           "package": "llvm-ht",
@@ -9445,6 +10198,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildMul",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9460,6 +10214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildNSWAdd",
           "package": "llvm-ht",
@@ -9469,6 +10224,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildNSWAdd",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9484,6 +10240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildNeg",
           "package": "llvm-ht",
@@ -9493,6 +10250,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildNeg",
           "normalized": "BuilderRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9508,6 +10266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildNot",
           "package": "llvm-ht",
@@ -9517,6 +10276,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildNot",
           "normalized": "BuilderRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9532,6 +10292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildOr",
           "package": "llvm-ht",
@@ -9541,6 +10302,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildOr",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9556,6 +10318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildPhi",
           "package": "llvm-ht",
@@ -9565,6 +10328,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildPhi",
           "normalized": "BuilderRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -9580,6 +10344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildPointerCast",
           "package": "llvm-ht",
@@ -9589,6 +10354,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildPointerCast",
           "normalized": "BuilderRef-\u003eValueRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -9604,6 +10370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildPtrDiff",
           "package": "llvm-ht",
@@ -9613,6 +10380,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildPtrDiff",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9628,6 +10396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildPtrToInt",
           "package": "llvm-ht",
@@ -9637,6 +10406,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildPtrToInt",
           "normalized": "BuilderRef-\u003eValueRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -9652,6 +10422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildRet",
           "package": "llvm-ht",
@@ -9661,6 +10432,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildRet",
           "normalized": "BuilderRef-\u003eValueRef-\u003eIO ValueRef",
@@ -9676,6 +10448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildRetVoid",
           "package": "llvm-ht",
@@ -9685,6 +10458,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildRetVoid",
           "normalized": "BuilderRef-\u003eIO ValueRef",
@@ -9700,6 +10474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildSDiv",
           "package": "llvm-ht",
@@ -9709,6 +10484,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildSDiv",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9724,6 +10500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildSExt",
           "package": "llvm-ht",
@@ -9733,6 +10510,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildSExt",
           "normalized": "BuilderRef-\u003eValueRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -9748,6 +10526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildSExtOrBitCast",
           "package": "llvm-ht",
@@ -9757,6 +10536,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildSExtOrBitCast",
           "normalized": "BuilderRef-\u003eValueRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -9772,6 +10552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildSIToFP",
           "package": "llvm-ht",
@@ -9781,6 +10562,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildSIToFP",
           "normalized": "BuilderRef-\u003eValueRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -9796,6 +10578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildSRem",
           "package": "llvm-ht",
@@ -9805,6 +10588,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildSRem",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9820,6 +10604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildSelect",
           "package": "llvm-ht",
@@ -9829,6 +10614,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildSelect",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9844,6 +10630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildShl",
           "package": "llvm-ht",
@@ -9853,6 +10640,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildShl",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9868,6 +10656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildShuffleVector",
           "package": "llvm-ht",
@@ -9877,6 +10666,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildShuffleVector",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9892,6 +10682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildStore",
           "package": "llvm-ht",
@@ -9901,6 +10692,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildStore",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eIO ValueRef",
@@ -9916,6 +10708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildStructGEP",
           "package": "llvm-ht",
@@ -9925,6 +10718,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildStructGEP",
           "normalized": "BuilderRef-\u003eValueRef-\u003eCUInt-\u003eCString-\u003eIO ValueRef",
@@ -9940,6 +10734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildSub",
           "package": "llvm-ht",
@@ -9949,6 +10744,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildSub",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -9964,6 +10760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildSwitch",
           "package": "llvm-ht",
@@ -9973,6 +10770,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildSwitch",
           "normalized": "BuilderRef-\u003eValueRef-\u003eBasicBlockRef-\u003eCUInt-\u003eIO ValueRef",
@@ -9988,6 +10786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildTrunc",
           "package": "llvm-ht",
@@ -9997,6 +10796,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildTrunc",
           "normalized": "BuilderRef-\u003eValueRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -10012,6 +10812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildTruncOrBitCast",
           "package": "llvm-ht",
@@ -10021,6 +10822,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildTruncOrBitCast",
           "normalized": "BuilderRef-\u003eValueRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -10036,6 +10838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildUDiv",
           "package": "llvm-ht",
@@ -10045,6 +10848,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildUDiv",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -10060,6 +10864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildUIToFP",
           "package": "llvm-ht",
@@ -10069,6 +10874,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildUIToFP",
           "normalized": "BuilderRef-\u003eValueRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -10084,6 +10890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildURem",
           "package": "llvm-ht",
@@ -10093,6 +10900,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildURem",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -10108,6 +10916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildUnreachable",
           "package": "llvm-ht",
@@ -10117,6 +10926,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildUnreachable",
           "normalized": "BuilderRef-\u003eIO ValueRef",
@@ -10132,6 +10942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildUnwind",
           "package": "llvm-ht",
@@ -10141,6 +10952,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildUnwind",
           "normalized": "BuilderRef-\u003eIO ValueRef",
@@ -10156,6 +10968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildVAArg",
           "package": "llvm-ht",
@@ -10165,6 +10978,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildVAArg",
           "normalized": "BuilderRef-\u003eValueRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -10180,6 +10994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildXor",
           "package": "llvm-ht",
@@ -10189,6 +11004,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildXor",
           "normalized": "BuilderRef-\u003eValueRef-\u003eValueRef-\u003eCString-\u003eIO ValueRef",
@@ -10204,6 +11020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildZExt",
           "package": "llvm-ht",
@@ -10213,6 +11030,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildZExt",
           "normalized": "BuilderRef-\u003eValueRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -10228,6 +11046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "buildZExtOrBitCast",
           "package": "llvm-ht",
@@ -10237,6 +11056,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "buildZExtOrBitCast",
           "normalized": "BuilderRef-\u003eValueRef-\u003eTypeRef-\u003eCString-\u003eIO ValueRef",
@@ -10252,6 +11072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constAShr",
           "package": "llvm-ht",
@@ -10261,6 +11082,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constAShr",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef",
@@ -10276,6 +11098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constAdd",
           "package": "llvm-ht",
@@ -10285,6 +11108,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constAdd",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef",
@@ -10300,6 +11124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constAllOnes",
           "package": "llvm-ht",
@@ -10309,6 +11134,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constAllOnes",
           "normalized": "TypeRef-\u003eValueRef",
@@ -10324,6 +11150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constAnd",
           "package": "llvm-ht",
@@ -10333,6 +11160,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constAnd",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef",
@@ -10348,6 +11176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constArray",
           "package": "llvm-ht",
@@ -10357,6 +11186,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constArray",
           "normalized": "TypeRef-\u003ePtr ValueRef-\u003eCUInt-\u003eValueRef",
@@ -10372,6 +11202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constBitCast",
           "package": "llvm-ht",
@@ -10381,6 +11212,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constBitCast",
           "normalized": "ValueRef-\u003eTypeRef-\u003eValueRef",
@@ -10396,6 +11228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constExactSDiv",
           "package": "llvm-ht",
@@ -10405,6 +11238,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constExactSDiv",
           "normalized": "ValueRef-\u003eValueRef-\u003eIO ValueRef",
@@ -10420,6 +11254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constExtractElement",
           "package": "llvm-ht",
@@ -10429,6 +11264,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constExtractElement",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef",
@@ -10444,6 +11280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constExtractValue",
           "package": "llvm-ht",
@@ -10453,6 +11290,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constExtractValue",
           "normalized": "ValueRef-\u003ePtr ValueRef-\u003eCUInt-\u003eValueRef",
@@ -10468,6 +11306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constFAdd",
           "package": "llvm-ht",
@@ -10477,6 +11316,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constFAdd",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef",
@@ -10492,6 +11332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constFCmp",
           "package": "llvm-ht",
@@ -10501,6 +11342,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constFCmp",
           "normalized": "CInt-\u003eValueRef-\u003eValueRef-\u003eValueRef",
@@ -10516,6 +11358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constFDiv",
           "package": "llvm-ht",
@@ -10525,6 +11368,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constFDiv",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef",
@@ -10540,6 +11384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constFMul",
           "package": "llvm-ht",
@@ -10549,6 +11394,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constFMul",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef",
@@ -10564,6 +11410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constFNeg",
           "package": "llvm-ht",
@@ -10573,6 +11420,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constFNeg",
           "normalized": "ValueRef-\u003eValueRef",
@@ -10588,6 +11436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constFPCast",
           "package": "llvm-ht",
@@ -10597,6 +11446,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constFPCast",
           "normalized": "ValueRef-\u003eTypeRef-\u003eValueRef",
@@ -10612,6 +11462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constFPExt",
           "package": "llvm-ht",
@@ -10621,6 +11472,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constFPExt",
           "normalized": "ValueRef-\u003eTypeRef-\u003eValueRef",
@@ -10636,6 +11488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constFPToSI",
           "package": "llvm-ht",
@@ -10645,6 +11498,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constFPToSI",
           "normalized": "ValueRef-\u003eTypeRef-\u003eValueRef",
@@ -10660,6 +11514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constFPToUI",
           "package": "llvm-ht",
@@ -10669,6 +11524,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constFPToUI",
           "normalized": "ValueRef-\u003eTypeRef-\u003eValueRef",
@@ -10684,6 +11540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constFPTrunc",
           "package": "llvm-ht",
@@ -10693,6 +11550,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constFPTrunc",
           "normalized": "ValueRef-\u003eTypeRef-\u003eValueRef",
@@ -10708,6 +11566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constFRem",
           "package": "llvm-ht",
@@ -10717,6 +11576,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constFRem",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef",
@@ -10732,6 +11592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constFSub",
           "package": "llvm-ht",
@@ -10741,6 +11602,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constFSub",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef",
@@ -10756,6 +11618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constGEP",
           "package": "llvm-ht",
@@ -10765,6 +11628,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constGEP",
           "normalized": "ValueRef-\u003ePtr ValueRef-\u003eCUInt-\u003eValueRef",
@@ -10780,6 +11644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constICmp",
           "package": "llvm-ht",
@@ -10789,6 +11654,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constICmp",
           "normalized": "CInt-\u003eValueRef-\u003eValueRef-\u003eValueRef",
@@ -10804,6 +11670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constInBoundsGEP",
           "package": "llvm-ht",
@@ -10813,6 +11680,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constInBoundsGEP",
           "normalized": "ValueRef-\u003ePtr ValueRef-\u003eCUInt-\u003eIO ValueRef",
@@ -10828,6 +11696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constInsertElement",
           "package": "llvm-ht",
@@ -10837,6 +11706,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constInsertElement",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef-\u003eValueRef",
@@ -10852,6 +11722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constInsertValue",
           "package": "llvm-ht",
@@ -10861,6 +11732,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constInsertValue",
           "normalized": "ValueRef-\u003eValueRef-\u003ePtr ValueRef-\u003eCUInt-\u003eValueRef",
@@ -10876,6 +11748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constInt",
           "package": "llvm-ht",
@@ -10885,6 +11758,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constInt",
           "normalized": "TypeRef-\u003eCULLong-\u003eCInt-\u003eValueRef",
@@ -10900,6 +11774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constIntCast",
           "package": "llvm-ht",
@@ -10909,6 +11784,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constIntCast",
           "normalized": "ValueRef-\u003eTypeRef-\u003eCUInt-\u003eIO ValueRef",
@@ -10924,6 +11800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constIntOfString",
           "package": "llvm-ht",
@@ -10933,6 +11810,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constIntOfString",
           "normalized": "TypeRef-\u003eCString-\u003eCUInt-\u003eIO ValueRef",
@@ -10948,6 +11826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constIntOfStringAndSize",
           "package": "llvm-ht",
@@ -10957,6 +11836,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constIntOfStringAndSize",
           "normalized": "TypeRef-\u003eCString-\u003eCUInt-\u003eCUInt-\u003eIO ValueRef",
@@ -10972,6 +11852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constIntToPtr",
           "package": "llvm-ht",
@@ -10981,6 +11862,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constIntToPtr",
           "normalized": "ValueRef-\u003eTypeRef-\u003eValueRef",
@@ -10996,6 +11878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constLShr",
           "package": "llvm-ht",
@@ -11005,6 +11888,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constLShr",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef",
@@ -11020,6 +11904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constMul",
           "package": "llvm-ht",
@@ -11029,6 +11914,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constMul",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef",
@@ -11044,6 +11930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constNSWAdd",
           "package": "llvm-ht",
@@ -11053,6 +11940,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constNSWAdd",
           "normalized": "ValueRef-\u003eValueRef-\u003eIO ValueRef",
@@ -11068,6 +11956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constNeg",
           "package": "llvm-ht",
@@ -11077,6 +11966,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constNeg",
           "normalized": "ValueRef-\u003eValueRef",
@@ -11092,6 +11982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constNot",
           "package": "llvm-ht",
@@ -11101,6 +11992,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constNot",
           "normalized": "ValueRef-\u003eValueRef",
@@ -11116,6 +12008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constNull",
           "package": "llvm-ht",
@@ -11125,6 +12018,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constNull",
           "normalized": "TypeRef-\u003eValueRef",
@@ -11140,6 +12034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constOr",
           "package": "llvm-ht",
@@ -11149,6 +12044,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constOr",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef",
@@ -11164,6 +12060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constPointerCast",
           "package": "llvm-ht",
@@ -11173,6 +12070,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constPointerCast",
           "normalized": "ValueRef-\u003eTypeRef-\u003eIO ValueRef",
@@ -11188,6 +12086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constPointerNull",
           "package": "llvm-ht",
@@ -11197,6 +12096,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constPointerNull",
           "normalized": "TypeRef-\u003eIO ValueRef",
@@ -11212,6 +12112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constPtrToInt",
           "package": "llvm-ht",
@@ -11221,6 +12122,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constPtrToInt",
           "normalized": "ValueRef-\u003eTypeRef-\u003eValueRef",
@@ -11236,6 +12138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constReal",
           "package": "llvm-ht",
@@ -11245,6 +12148,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constReal",
           "normalized": "TypeRef-\u003eCDouble-\u003eValueRef",
@@ -11260,6 +12164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constRealOfString",
           "package": "llvm-ht",
@@ -11269,6 +12174,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constRealOfString",
           "normalized": "TypeRef-\u003eCString-\u003eIO ValueRef",
@@ -11284,6 +12190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constRealOfStringAndSize",
           "package": "llvm-ht",
@@ -11293,6 +12200,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constRealOfStringAndSize",
           "normalized": "TypeRef-\u003eCString-\u003eCUInt-\u003eIO ValueRef",
@@ -11308,6 +12216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constSDiv",
           "package": "llvm-ht",
@@ -11317,6 +12226,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constSDiv",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef",
@@ -11332,6 +12242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constSExt",
           "package": "llvm-ht",
@@ -11341,6 +12252,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constSExt",
           "normalized": "ValueRef-\u003eTypeRef-\u003eValueRef",
@@ -11356,6 +12268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constSExtOrBitCast",
           "package": "llvm-ht",
@@ -11365,6 +12278,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constSExtOrBitCast",
           "normalized": "ValueRef-\u003eTypeRef-\u003eIO ValueRef",
@@ -11380,6 +12294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constSIToFP",
           "package": "llvm-ht",
@@ -11389,6 +12304,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constSIToFP",
           "normalized": "ValueRef-\u003eTypeRef-\u003eValueRef",
@@ -11404,6 +12320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constSRem",
           "package": "llvm-ht",
@@ -11413,6 +12330,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constSRem",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef",
@@ -11428,6 +12346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constSelect",
           "package": "llvm-ht",
@@ -11437,6 +12356,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constSelect",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef-\u003eValueRef",
@@ -11452,6 +12372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constShl",
           "package": "llvm-ht",
@@ -11461,6 +12382,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constShl",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef",
@@ -11476,6 +12398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constShuffleVector",
           "package": "llvm-ht",
@@ -11485,6 +12408,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constShuffleVector",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef-\u003eValueRef",
@@ -11500,6 +12424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constString",
           "package": "llvm-ht",
@@ -11509,6 +12434,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constString",
           "normalized": "CString-\u003eCUInt-\u003eCInt-\u003eValueRef",
@@ -11524,6 +12450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constStringInContext",
           "package": "llvm-ht",
@@ -11533,6 +12460,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constStringInContext",
           "normalized": "ContextRef-\u003eCString-\u003eCUInt-\u003eCInt-\u003eIO ValueRef",
@@ -11548,6 +12476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constStruct",
           "package": "llvm-ht",
@@ -11557,6 +12486,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constStruct",
           "normalized": "Ptr ValueRef-\u003eCUInt-\u003eCInt-\u003eValueRef",
@@ -11572,6 +12502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constStructInContext",
           "package": "llvm-ht",
@@ -11581,6 +12512,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constStructInContext",
           "normalized": "ContextRef-\u003ePtr ValueRef-\u003eCUInt-\u003eCInt-\u003eIO ValueRef",
@@ -11596,6 +12528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constSub",
           "package": "llvm-ht",
@@ -11605,6 +12538,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constSub",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef",
@@ -11620,6 +12554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constTrunc",
           "package": "llvm-ht",
@@ -11629,6 +12564,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constTrunc",
           "normalized": "ValueRef-\u003eTypeRef-\u003eValueRef",
@@ -11644,6 +12580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constTruncOrBitCast",
           "package": "llvm-ht",
@@ -11653,6 +12590,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constTruncOrBitCast",
           "normalized": "ValueRef-\u003eTypeRef-\u003eIO ValueRef",
@@ -11668,6 +12606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constUDiv",
           "package": "llvm-ht",
@@ -11677,6 +12616,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constUDiv",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef",
@@ -11692,6 +12632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constUIToFP",
           "package": "llvm-ht",
@@ -11701,6 +12642,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constUIToFP",
           "normalized": "ValueRef-\u003eTypeRef-\u003eValueRef",
@@ -11716,6 +12658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constURem",
           "package": "llvm-ht",
@@ -11725,6 +12668,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constURem",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef",
@@ -11740,6 +12684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constVector",
           "package": "llvm-ht",
@@ -11749,6 +12694,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constVector",
           "normalized": "Ptr ValueRef-\u003eCUInt-\u003eValueRef",
@@ -11764,6 +12710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constXor",
           "package": "llvm-ht",
@@ -11773,6 +12720,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constXor",
           "normalized": "ValueRef-\u003eValueRef-\u003eValueRef",
@@ -11788,6 +12736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constZExt",
           "package": "llvm-ht",
@@ -11797,6 +12746,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constZExt",
           "normalized": "ValueRef-\u003eTypeRef-\u003eValueRef",
@@ -11812,6 +12762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "constZExtOrBitCast",
           "package": "llvm-ht",
@@ -11821,6 +12772,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "constZExtOrBitCast",
           "normalized": "ValueRef-\u003eTypeRef-\u003eIO ValueRef",
@@ -11836,6 +12788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "contextDispose",
           "package": "llvm-ht",
@@ -11845,6 +12798,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "contextDispose",
           "normalized": "ContextRef-\u003eIO()",
@@ -11860,6 +12814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "countBasicBlocks",
           "package": "llvm-ht",
@@ -11868,6 +12823,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "countBasicBlocks",
           "normalized": "ValueRef-\u003eIO CUInt",
@@ -11883,6 +12839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "countIncoming",
           "package": "llvm-ht",
@@ -11892,6 +12849,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "countIncoming",
           "normalized": "ValueRef-\u003eIO CUInt",
@@ -11908,6 +12866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive the number of fixed parameters that a function takes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "countParamTypes",
           "package": "llvm-ht",
@@ -11918,6 +12877,7 @@
         "index": {
           "description": "Give the number of fixed parameters that function takes",
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "countParamTypes",
           "normalized": "TypeRef-\u003eIO CUInt",
@@ -11933,6 +12893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "countParams",
           "package": "llvm-ht",
@@ -11941,6 +12902,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "countParams",
           "normalized": "ValueRef-\u003eCUInt",
@@ -11956,6 +12918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "countStructElementTypes",
           "package": "llvm-ht",
@@ -11965,6 +12928,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "countStructElementTypes",
           "normalized": "TypeRef-\u003eCUInt",
@@ -11980,6 +12944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "createBuilder",
           "package": "llvm-ht",
@@ -11989,6 +12954,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "createBuilder",
           "package": "llvm-ht",
@@ -12002,6 +12968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "createBuilderInContext",
           "package": "llvm-ht",
@@ -12011,6 +12978,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "createBuilderInContext",
           "normalized": "ContextRef-\u003eIO BuilderRef",
@@ -12026,6 +12994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "createFunctionPassManager",
           "package": "llvm-ht",
@@ -12035,6 +13004,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "createFunctionPassManager",
           "normalized": "ModuleProviderRef-\u003eIO PassManagerRef",
@@ -12050,6 +13020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "createMemoryBufferWithContentsOfFile",
           "package": "llvm-ht",
@@ -12059,6 +13030,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "createMemoryBufferWithContentsOfFile",
           "normalized": "CString-\u003ePtr MemoryBufferRef-\u003ePtr CString-\u003eIO CInt",
@@ -12074,6 +13046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "createMemoryBufferWithSTDIN",
           "package": "llvm-ht",
@@ -12083,6 +13056,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "createMemoryBufferWithSTDIN",
           "normalized": "Ptr MemoryBufferRef-\u003ePtr CString-\u003eIO CInt",
@@ -12098,6 +13072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "createModuleProviderForExistingModule",
           "package": "llvm-ht",
@@ -12107,6 +13082,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "createModuleProviderForExistingModule",
           "normalized": "ModuleRef-\u003eIO ModuleProviderRef",
@@ -12122,6 +13098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "createPassManager",
           "package": "llvm-ht",
@@ -12131,6 +13108,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "createPassManager",
           "package": "llvm-ht",
@@ -12144,6 +13122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "createTypeHandle",
           "package": "llvm-ht",
@@ -12153,6 +13132,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "createTypeHandle",
           "normalized": "TypeRef-\u003eIO TypeHandleRef",
@@ -12168,6 +13148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "deleteBasicBlock",
           "package": "llvm-ht",
@@ -12177,6 +13158,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "deleteBasicBlock",
           "normalized": "BasicBlockRef-\u003eIO()",
@@ -12192,6 +13174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "deleteFunction",
           "package": "llvm-ht",
@@ -12200,6 +13183,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "deleteFunction",
           "normalized": "ValueRef-\u003eIO()",
@@ -12215,6 +13199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "deleteGlobal",
           "package": "llvm-ht",
@@ -12224,6 +13209,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "deleteGlobal",
           "normalized": "ValueRef-\u003eIO()",
@@ -12239,6 +13225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "deleteTypeName",
           "package": "llvm-ht",
@@ -12248,6 +13235,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "deleteTypeName",
           "normalized": "ModuleRef-\u003eCString-\u003eIO()",
@@ -12263,6 +13251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "disposeMemoryBuffer",
           "package": "llvm-ht",
@@ -12272,6 +13261,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "disposeMemoryBuffer",
           "normalized": "MemoryBufferRef-\u003eIO()",
@@ -12287,6 +13277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "disposeMessage",
           "package": "llvm-ht",
@@ -12296,6 +13287,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "disposeMessage",
           "normalized": "CString-\u003eIO()",
@@ -12311,6 +13303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "disposeModule",
           "package": "llvm-ht",
@@ -12320,6 +13313,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "disposeModule",
           "normalized": "ModuleRef-\u003eIO()",
@@ -12335,6 +13329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "disposeTypeHandle",
           "package": "llvm-ht",
@@ -12344,6 +13339,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "disposeTypeHandle",
           "normalized": "TypeHandleRef-\u003eIO()",
@@ -12359,6 +13355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "doubleType",
           "package": "llvm-ht",
@@ -12368,6 +13365,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "doubleType",
           "package": "llvm-ht",
@@ -12381,6 +13379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "doubleTypeInContext",
           "package": "llvm-ht",
@@ -12390,6 +13389,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "doubleTypeInContext",
           "normalized": "ContextRef-\u003eIO TypeRef",
@@ -12405,6 +13405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "dumpModule",
           "package": "llvm-ht",
@@ -12414,6 +13415,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "dumpModule",
           "normalized": "ModuleRef-\u003eIO()",
@@ -12429,6 +13431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "dumpValue",
           "package": "llvm-ht",
@@ -12438,6 +13441,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "dumpValue",
           "normalized": "ValueRef-\u003eIO()",
@@ -12453,6 +13457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "fP128TypeInContext",
           "package": "llvm-ht",
@@ -12462,6 +13467,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "fP128TypeInContext",
           "normalized": "ContextRef-\u003eIO TypeRef",
@@ -12477,6 +13483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "finalizeFunctionPassManager",
           "package": "llvm-ht",
@@ -12486,6 +13493,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "finalizeFunctionPassManager",
           "normalized": "PassManagerRef-\u003eIO CInt",
@@ -12501,6 +13509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "floatType",
           "package": "llvm-ht",
@@ -12510,6 +13519,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "floatType",
           "package": "llvm-ht",
@@ -12523,6 +13533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "floatTypeInContext",
           "package": "llvm-ht",
@@ -12532,6 +13543,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "floatTypeInContext",
           "normalized": "ContextRef-\u003eIO TypeRef",
@@ -12547,6 +13559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "fp128Type",
           "package": "llvm-ht",
@@ -12556,6 +13569,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "fp128Type",
           "package": "llvm-ht",
@@ -12569,6 +13583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "fromAttribute",
           "package": "llvm-ht",
@@ -12578,6 +13593,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "fromAttribute",
           "normalized": "Attribute-\u003eCAttribute",
@@ -12593,6 +13609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "fromCallingConvention",
           "package": "llvm-ht",
@@ -12602,6 +13619,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "fromCallingConvention",
           "normalized": "CallingConvention-\u003eCUInt",
@@ -12617,6 +13635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "fromLinkage",
           "package": "llvm-ht",
@@ -12626,6 +13645,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "fromLinkage",
           "normalized": "Linkage-\u003eCUInt",
@@ -12641,6 +13661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "fromVisibility",
           "package": "llvm-ht",
@@ -12650,6 +13671,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "fromVisibility",
           "normalized": "Visibility-\u003eCUInt",
@@ -12666,6 +13688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a function type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "functionType",
           "package": "llvm-ht",
@@ -12675,6 +13698,7 @@
         "index": {
           "description": "Create function type",
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "functionType",
           "normalized": "TypeRef-\u003ePtr TypeRef-\u003eCUInt-\u003eCInt-\u003eTypeRef",
@@ -12690,6 +13714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getAlignment",
           "package": "llvm-ht",
@@ -12699,6 +13724,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getAlignment",
           "normalized": "ValueRef-\u003eIO CUInt",
@@ -12714,6 +13740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getArrayLength",
           "package": "llvm-ht",
@@ -12723,6 +13750,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getArrayLength",
           "normalized": "TypeRef-\u003eIO CUInt",
@@ -12738,6 +13766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getBasicBlockParent",
           "package": "llvm-ht",
@@ -12747,6 +13776,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getBasicBlockParent",
           "normalized": "BasicBlockRef-\u003eIO ValueRef",
@@ -12762,6 +13792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getBasicBlocks",
           "package": "llvm-ht",
@@ -12770,6 +13801,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getBasicBlocks",
           "normalized": "ValueRef-\u003ePtr BasicBlockRef-\u003eIO()",
@@ -12785,6 +13817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getDataLayout",
           "package": "llvm-ht",
@@ -12794,6 +13827,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getDataLayout",
           "normalized": "ModuleRef-\u003eIO CString",
@@ -12810,6 +13844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the type of a sequential type's elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getElementType",
           "package": "llvm-ht",
@@ -12820,6 +13855,7 @@
         "index": {
           "description": "Get the type of sequential type elements",
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getElementType",
           "normalized": "TypeRef-\u003eIO TypeRef",
@@ -12835,6 +13871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getEntryBasicBlock",
           "package": "llvm-ht",
@@ -12843,6 +13880,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getEntryBasicBlock",
           "normalized": "ValueRef-\u003eIO BasicBlockRef",
@@ -12858,6 +13896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getFirstBasicBlock",
           "package": "llvm-ht",
@@ -12867,6 +13906,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getFirstBasicBlock",
           "normalized": "ValueRef-\u003eIO BasicBlockRef",
@@ -12882,6 +13922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getFirstFunction",
           "package": "llvm-ht",
@@ -12891,6 +13932,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getFirstFunction",
           "normalized": "ModuleRef-\u003eIO ValueRef",
@@ -12906,6 +13948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getFirstGlobal",
           "package": "llvm-ht",
@@ -12915,6 +13958,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getFirstGlobal",
           "normalized": "ModuleRef-\u003eIO ValueRef",
@@ -12930,6 +13974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getFirstInstruction",
           "package": "llvm-ht",
@@ -12939,6 +13984,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getFirstInstruction",
           "normalized": "BasicBlockRef-\u003eIO ValueRef",
@@ -12954,6 +14000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getFirstParam",
           "package": "llvm-ht",
@@ -12963,6 +14010,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getFirstParam",
           "normalized": "ValueRef-\u003eIO ValueRef",
@@ -12978,6 +14026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getFunctionCallConv",
           "package": "llvm-ht",
@@ -12986,6 +14035,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getFunctionCallConv",
           "normalized": "ValueRef-\u003eIO CUInt",
@@ -13001,6 +14051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getGC",
           "package": "llvm-ht",
@@ -13010,6 +14061,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getGC",
           "normalized": "ValueRef-\u003eIO CString",
@@ -13025,6 +14077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getGlobalParent",
           "package": "llvm-ht",
@@ -13034,6 +14087,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getGlobalParent",
           "normalized": "ValueRef-\u003eIO ModuleRef",
@@ -13049,6 +14103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getIncomingBlock",
           "package": "llvm-ht",
@@ -13058,6 +14113,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getIncomingBlock",
           "normalized": "ValueRef-\u003eCUInt-\u003eIO BasicBlockRef",
@@ -13073,6 +14129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getIncomingValue",
           "package": "llvm-ht",
@@ -13082,6 +14139,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getIncomingValue",
           "normalized": "ValueRef-\u003eCUInt-\u003eIO ValueRef",
@@ -13097,6 +14155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getInitializer",
           "package": "llvm-ht",
@@ -13106,6 +14165,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getInitializer",
           "normalized": "ValueRef-\u003eIO ValueRef",
@@ -13121,6 +14181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getInsertBlock",
           "package": "llvm-ht",
@@ -13130,6 +14191,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getInsertBlock",
           "normalized": "BuilderRef-\u003eIO BasicBlockRef",
@@ -13145,6 +14207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getInstructionCallConv",
           "package": "llvm-ht",
@@ -13154,6 +14217,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getInstructionCallConv",
           "normalized": "ValueRef-\u003eIO CUInt",
@@ -13169,6 +14233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getInstructionParent",
           "package": "llvm-ht",
@@ -13178,6 +14243,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getInstructionParent",
           "normalized": "ValueRef-\u003eIO BasicBlockRef",
@@ -13193,6 +14259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getIntTypeWidth",
           "package": "llvm-ht",
@@ -13202,6 +14269,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getIntTypeWidth",
           "normalized": "TypeRef-\u003eIO CUInt",
@@ -13217,6 +14285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getIntrinsicID",
           "package": "llvm-ht",
@@ -13225,6 +14294,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getIntrinsicID",
           "normalized": "ValueRef-\u003eCUInt",
@@ -13240,6 +14310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getLastBasicBlock",
           "package": "llvm-ht",
@@ -13249,6 +14320,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getLastBasicBlock",
           "normalized": "ValueRef-\u003eIO BasicBlockRef",
@@ -13264,6 +14336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getLastFunction",
           "package": "llvm-ht",
@@ -13273,6 +14346,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getLastFunction",
           "normalized": "ModuleRef-\u003eIO ValueRef",
@@ -13288,6 +14362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getLastGlobal",
           "package": "llvm-ht",
@@ -13297,6 +14372,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getLastGlobal",
           "normalized": "ModuleRef-\u003eIO ValueRef",
@@ -13312,6 +14388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getLastInstruction",
           "package": "llvm-ht",
@@ -13321,6 +14398,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getLastInstruction",
           "normalized": "BasicBlockRef-\u003eIO ValueRef",
@@ -13336,6 +14414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getLastParam",
           "package": "llvm-ht",
@@ -13345,6 +14424,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getLastParam",
           "normalized": "ValueRef-\u003eIO ValueRef",
@@ -13360,6 +14440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getLinkage",
           "package": "llvm-ht",
@@ -13369,6 +14450,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getLinkage",
           "normalized": "ValueRef-\u003eIO CUInt",
@@ -13384,6 +14466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getNamedFunction",
           "package": "llvm-ht",
@@ -13392,6 +14475,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getNamedFunction",
           "normalized": "ModuleRef-\u003eCString-\u003eIO ValueRef",
@@ -13407,6 +14491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getNamedGlobal",
           "package": "llvm-ht",
@@ -13416,6 +14501,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getNamedGlobal",
           "normalized": "ModuleRef-\u003eCString-\u003eIO ValueRef",
@@ -13431,6 +14517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getNextBasicBlock",
           "package": "llvm-ht",
@@ -13440,6 +14527,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getNextBasicBlock",
           "normalized": "BasicBlockRef-\u003eIO BasicBlockRef",
@@ -13455,6 +14543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getNextFunction",
           "package": "llvm-ht",
@@ -13464,6 +14553,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getNextFunction",
           "normalized": "ValueRef-\u003eIO ValueRef",
@@ -13479,6 +14569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getNextGlobal",
           "package": "llvm-ht",
@@ -13488,6 +14579,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getNextGlobal",
           "normalized": "ValueRef-\u003eIO ValueRef",
@@ -13503,6 +14595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getNextInstruction",
           "package": "llvm-ht",
@@ -13512,6 +14605,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getNextInstruction",
           "normalized": "ValueRef-\u003eIO ValueRef",
@@ -13527,6 +14621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getNextParam",
           "package": "llvm-ht",
@@ -13536,6 +14631,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getNextParam",
           "normalized": "ValueRef-\u003eIO ValueRef",
@@ -13551,6 +14647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getParam",
           "package": "llvm-ht",
@@ -13559,6 +14656,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getParam",
           "normalized": "ValueRef-\u003eCUInt-\u003eValueRef",
@@ -13574,6 +14672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getParamParent",
           "package": "llvm-ht",
@@ -13583,6 +14682,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getParamParent",
           "normalized": "ValueRef-\u003eIO ValueRef",
@@ -13599,6 +14699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill out an array with the types of a function's fixed\n parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getParamTypes",
           "package": "llvm-ht",
@@ -13609,6 +14710,7 @@
         "index": {
           "description": "Fill out an array with the types of function fixed parameters",
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getParamTypes",
           "normalized": "TypeRef-\u003ePtr TypeRef-\u003eIO()",
@@ -13624,6 +14726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getParams",
           "package": "llvm-ht",
@@ -13632,6 +14735,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getParams",
           "normalized": "ValueRef-\u003ePtr ValueRef-\u003eIO()",
@@ -13647,6 +14751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getPointerAddressSpace",
           "package": "llvm-ht",
@@ -13656,6 +14761,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getPointerAddressSpace",
           "normalized": "TypeRef-\u003eIO CUInt",
@@ -13671,6 +14777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getPreviousBasicBlock",
           "package": "llvm-ht",
@@ -13680,6 +14787,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getPreviousBasicBlock",
           "normalized": "BasicBlockRef-\u003eIO BasicBlockRef",
@@ -13695,6 +14803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getPreviousFunction",
           "package": "llvm-ht",
@@ -13704,6 +14813,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getPreviousFunction",
           "normalized": "ValueRef-\u003eIO ValueRef",
@@ -13719,6 +14829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getPreviousGlobal",
           "package": "llvm-ht",
@@ -13728,6 +14839,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getPreviousGlobal",
           "normalized": "ValueRef-\u003eIO ValueRef",
@@ -13743,6 +14855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getPreviousInstruction",
           "package": "llvm-ht",
@@ -13752,6 +14865,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getPreviousInstruction",
           "normalized": "ValueRef-\u003eIO ValueRef",
@@ -13767,6 +14881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getPreviousParam",
           "package": "llvm-ht",
@@ -13776,6 +14891,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getPreviousParam",
           "normalized": "ValueRef-\u003eIO ValueRef",
@@ -13792,6 +14908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive a function's return type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getReturnType",
           "package": "llvm-ht",
@@ -13802,6 +14919,7 @@
         "index": {
           "description": "Give function return type",
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getReturnType",
           "normalized": "TypeRef-\u003eIO TypeRef",
@@ -13817,6 +14935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getSection",
           "package": "llvm-ht",
@@ -13826,6 +14945,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getSection",
           "normalized": "ValueRef-\u003eIO CString",
@@ -13841,6 +14961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getStructElementTypes",
           "package": "llvm-ht",
@@ -13850,6 +14971,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getStructElementTypes",
           "normalized": "TypeRef-\u003ePtr TypeRef-\u003eIO()",
@@ -13865,6 +14987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getTarget",
           "package": "llvm-ht",
@@ -13874,6 +14997,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getTarget",
           "normalized": "ModuleRef-\u003eIO CString",
@@ -13889,6 +15013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getTypeByName",
           "package": "llvm-ht",
@@ -13898,6 +15023,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getTypeByName",
           "normalized": "ModuleRef-\u003eCString-\u003eIO TypeRef",
@@ -13913,6 +15039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getTypeContext",
           "package": "llvm-ht",
@@ -13922,6 +15049,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getTypeContext",
           "normalized": "TypeRef-\u003eIO ContextRef",
@@ -13937,6 +15065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getTypeKind",
           "package": "llvm-ht",
@@ -13946,6 +15075,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getTypeKind",
           "normalized": "TypeRef-\u003eIO TypeKind",
@@ -13961,6 +15091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getUndef",
           "package": "llvm-ht",
@@ -13970,6 +15101,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getUndef",
           "normalized": "TypeRef-\u003eValueRef",
@@ -13985,6 +15117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getValueName",
           "package": "llvm-ht",
@@ -13994,6 +15127,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getValueName",
           "normalized": "ValueRef-\u003eIO CString",
@@ -14009,6 +15143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getVectorSize",
           "package": "llvm-ht",
@@ -14018,6 +15153,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getVectorSize",
           "normalized": "TypeRef-\u003eIO CUInt",
@@ -14033,6 +15169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "getVisibility",
           "package": "llvm-ht",
@@ -14042,6 +15179,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "getVisibility",
           "normalized": "ValueRef-\u003eIO CUInt",
@@ -14057,6 +15195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "initializeFunctionPassManager",
           "package": "llvm-ht",
@@ -14066,6 +15205,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "initializeFunctionPassManager",
           "normalized": "PassManagerRef-\u003eIO CInt",
@@ -14081,6 +15221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "insertBasicBlock",
           "package": "llvm-ht",
@@ -14089,6 +15230,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "insertBasicBlock",
           "normalized": "BasicBlockRef-\u003eCString-\u003eIO BasicBlockRef",
@@ -14104,6 +15246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "insertBasicBlockInContext",
           "package": "llvm-ht",
@@ -14113,6 +15256,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "insertBasicBlockInContext",
           "normalized": "ContextRef-\u003eBasicBlockRef-\u003eCString-\u003eIO BasicBlockRef",
@@ -14128,6 +15272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "insertIntoBuilderWithName",
           "package": "llvm-ht",
@@ -14137,6 +15282,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "insertIntoBuilderWithName",
           "normalized": "BuilderRef-\u003eValueRef-\u003eCString-\u003eIO()",
@@ -14152,6 +15298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "int16Type",
           "package": "llvm-ht",
@@ -14161,6 +15308,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "int16Type",
           "package": "llvm-ht",
@@ -14174,6 +15322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "int16TypeInContext",
           "package": "llvm-ht",
@@ -14183,6 +15332,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "int16TypeInContext",
           "normalized": "ContextRef-\u003eIO TypeRef",
@@ -14198,6 +15348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "int1Type",
           "package": "llvm-ht",
@@ -14207,6 +15358,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "int1Type",
           "package": "llvm-ht",
@@ -14220,6 +15372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "int1TypeInContext",
           "package": "llvm-ht",
@@ -14229,6 +15382,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "int1TypeInContext",
           "normalized": "ContextRef-\u003eIO TypeRef",
@@ -14244,6 +15398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "int32Type",
           "package": "llvm-ht",
@@ -14253,6 +15408,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "int32Type",
           "package": "llvm-ht",
@@ -14266,6 +15422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "int32TypeInContext",
           "package": "llvm-ht",
@@ -14275,6 +15432,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "int32TypeInContext",
           "normalized": "ContextRef-\u003eIO TypeRef",
@@ -14290,6 +15448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "int64Type",
           "package": "llvm-ht",
@@ -14299,6 +15458,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "int64Type",
           "package": "llvm-ht",
@@ -14312,6 +15472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "int64TypeInContext",
           "package": "llvm-ht",
@@ -14321,6 +15482,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "int64TypeInContext",
           "normalized": "ContextRef-\u003eIO TypeRef",
@@ -14336,6 +15498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "int8Type",
           "package": "llvm-ht",
@@ -14345,6 +15508,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "int8Type",
           "package": "llvm-ht",
@@ -14358,6 +15522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "int8TypeInContext",
           "package": "llvm-ht",
@@ -14367,6 +15532,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "int8TypeInContext",
           "normalized": "ContextRef-\u003eIO TypeRef",
@@ -14382,6 +15548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "intTypeInContext",
           "package": "llvm-ht",
@@ -14391,6 +15558,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "intTypeInContext",
           "normalized": "ContextRef-\u003eCUInt-\u003eIO TypeRef",
@@ -14407,6 +15575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn integer type of the given width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "integerType",
           "package": "llvm-ht",
@@ -14416,6 +15585,7 @@
         "index": {
           "description": "An integer type of the given width",
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "integerType",
           "normalized": "CUInt-\u003eTypeRef",
@@ -14431,6 +15601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "isConstant",
           "package": "llvm-ht",
@@ -14440,6 +15611,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "isConstant",
           "normalized": "ValueRef-\u003eIO CInt",
@@ -14455,6 +15627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "isDeclaration",
           "package": "llvm-ht",
@@ -14464,6 +15637,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "isDeclaration",
           "normalized": "ValueRef-\u003eIO CInt",
@@ -14480,6 +15654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicate whether a function takes varargs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "isFunctionVarArg",
           "package": "llvm-ht",
@@ -14490,6 +15665,7 @@
         "index": {
           "description": "Indicate whether function takes varargs",
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "isFunctionVarArg",
           "normalized": "TypeRef-\u003eIO CInt",
@@ -14505,6 +15681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "isGlobalConstant",
           "package": "llvm-ht",
@@ -14514,6 +15691,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "isGlobalConstant",
           "normalized": "ValueRef-\u003eIO CInt",
@@ -14529,6 +15707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "isNull",
           "package": "llvm-ht",
@@ -14538,6 +15717,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "isNull",
           "normalized": "ValueRef-\u003eIO CInt",
@@ -14553,6 +15733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "isPackedStruct",
           "package": "llvm-ht",
@@ -14562,6 +15743,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "isPackedStruct",
           "normalized": "TypeRef-\u003eCInt",
@@ -14577,6 +15759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "isTailCall",
           "package": "llvm-ht",
@@ -14586,6 +15769,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "isTailCall",
           "normalized": "ValueRef-\u003eIO CInt",
@@ -14601,6 +15785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "isThreadLocal",
           "package": "llvm-ht",
@@ -14610,6 +15795,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "isThreadLocal",
           "normalized": "ValueRef-\u003eIO CInt",
@@ -14625,6 +15811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "isUndef",
           "package": "llvm-ht",
@@ -14634,6 +15821,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "isUndef",
           "normalized": "ValueRef-\u003eIO CInt",
@@ -14649,6 +15837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "labelType",
           "package": "llvm-ht",
@@ -14658,6 +15847,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "labelType",
           "package": "llvm-ht",
@@ -14671,6 +15861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "labelTypeInContext",
           "package": "llvm-ht",
@@ -14680,6 +15871,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "labelTypeInContext",
           "normalized": "ContextRef-\u003eIO TypeRef",
@@ -14695,6 +15887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "moduleCreateWithName",
           "package": "llvm-ht",
@@ -14704,6 +15897,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "moduleCreateWithName",
           "normalized": "CString-\u003eIO ModuleRef",
@@ -14719,6 +15913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "moduleCreateWithNameInContext",
           "package": "llvm-ht",
@@ -14728,6 +15923,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "moduleCreateWithNameInContext",
           "normalized": "CString-\u003eContextRef-\u003eIO ModuleRef",
@@ -14743,6 +15939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "opaqueType",
           "package": "llvm-ht",
@@ -14752,6 +15949,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "opaqueType",
           "package": "llvm-ht",
@@ -14765,6 +15963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "opaqueTypeInContext",
           "package": "llvm-ht",
@@ -14774,6 +15973,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "opaqueTypeInContext",
           "normalized": "ContextRef-\u003eIO TypeRef",
@@ -14789,6 +15989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "pPCFP128TypeInContext",
           "package": "llvm-ht",
@@ -14798,6 +15999,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "pPCFP128TypeInContext",
           "normalized": "ContextRef-\u003eIO TypeRef",
@@ -14813,6 +16015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "pointerType",
           "package": "llvm-ht",
@@ -14821,6 +16024,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "pointerType",
           "normalized": "TypeRef-\u003eCUInt-\u003eTypeRef",
@@ -14836,6 +16040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "positionAtEnd",
           "package": "llvm-ht",
@@ -14845,6 +16050,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "positionAtEnd",
           "normalized": "BuilderRef-\u003eBasicBlockRef-\u003eIO()",
@@ -14860,6 +16066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "positionBefore",
           "package": "llvm-ht",
@@ -14869,6 +16076,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "positionBefore",
           "normalized": "BuilderRef-\u003eValueRef-\u003eIO()",
@@ -14884,6 +16092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "positionBuilder",
           "package": "llvm-ht",
@@ -14893,6 +16102,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "positionBuilder",
           "normalized": "BuilderRef-\u003eBasicBlockRef-\u003eValueRef-\u003eIO()",
@@ -14908,6 +16118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "ppcFP128Type",
           "package": "llvm-ht",
@@ -14917,6 +16128,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "ppcFP128Type",
           "package": "llvm-ht",
@@ -14930,6 +16142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "ptrDisposeBuilder",
           "package": "llvm-ht",
@@ -14939,6 +16152,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "ptrDisposeBuilder",
           "normalized": "FunPtr(BuilderRef-\u003eIO())",
@@ -14954,6 +16168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "ptrDisposeModule",
           "package": "llvm-ht",
@@ -14963,6 +16178,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "ptrDisposeModule",
           "normalized": "FunPtr(ModuleRef-\u003eIO())",
@@ -14978,6 +16194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "ptrDisposeModuleProvider",
           "package": "llvm-ht",
@@ -14987,6 +16204,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "ptrDisposeModuleProvider",
           "normalized": "FunPtr(ModuleProviderRef-\u003eIO())",
@@ -15002,6 +16220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "ptrDisposePassManager",
           "package": "llvm-ht",
@@ -15011,6 +16230,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "ptrDisposePassManager",
           "normalized": "FunPtr(PassManagerRef-\u003eIO())",
@@ -15026,6 +16246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "refineType",
           "package": "llvm-ht",
@@ -15035,6 +16256,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "refineType",
           "normalized": "TypeRef-\u003eTypeRef-\u003eIO()",
@@ -15050,6 +16272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "removeAttribute",
           "package": "llvm-ht",
@@ -15059,6 +16282,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "removeAttribute",
           "normalized": "ValueRef-\u003eCAttribute-\u003eIO()",
@@ -15074,6 +16298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "removeFunctionAttr",
           "package": "llvm-ht",
@@ -15083,6 +16308,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "removeFunctionAttr",
           "normalized": "ValueRef-\u003eCAttribute-\u003eIO()",
@@ -15098,6 +16324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "removeInstrAttribute",
           "package": "llvm-ht",
@@ -15107,6 +16334,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "removeInstrAttribute",
           "normalized": "ValueRef-\u003eCUInt-\u003eCAttribute-\u003eIO()",
@@ -15122,6 +16350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "resolveTypeHandle",
           "package": "llvm-ht",
@@ -15131,6 +16360,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "resolveTypeHandle",
           "normalized": "TypeHandleRef-\u003eIO TypeRef",
@@ -15146,6 +16376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "runFunctionPassManager",
           "package": "llvm-ht",
@@ -15155,6 +16386,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "runFunctionPassManager",
           "normalized": "PassManagerRef-\u003eValueRef-\u003eIO CInt",
@@ -15170,6 +16402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "runPassManager",
           "package": "llvm-ht",
@@ -15179,6 +16412,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "runPassManager",
           "normalized": "PassManagerRef-\u003eModuleRef-\u003eIO CInt",
@@ -15194,6 +16428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "setAlignment",
           "package": "llvm-ht",
@@ -15203,6 +16438,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "setAlignment",
           "normalized": "ValueRef-\u003eCUInt-\u003eIO()",
@@ -15218,6 +16454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "setDataLayout",
           "package": "llvm-ht",
@@ -15227,6 +16464,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "setDataLayout",
           "normalized": "ModuleRef-\u003eCString-\u003eIO()",
@@ -15242,6 +16480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "setFunctionCallConv",
           "package": "llvm-ht",
@@ -15250,6 +16489,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "setFunctionCallConv",
           "normalized": "ValueRef-\u003eCUInt-\u003eIO()",
@@ -15265,6 +16505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "setGC",
           "package": "llvm-ht",
@@ -15274,6 +16515,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "setGC",
           "normalized": "ValueRef-\u003eCString-\u003eIO()",
@@ -15289,6 +16531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "setGlobalConstant",
           "package": "llvm-ht",
@@ -15298,6 +16541,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "setGlobalConstant",
           "normalized": "ValueRef-\u003eCInt-\u003eIO()",
@@ -15313,6 +16557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "setInitializer",
           "package": "llvm-ht",
@@ -15322,6 +16567,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "setInitializer",
           "normalized": "ValueRef-\u003eValueRef-\u003eIO()",
@@ -15337,6 +16583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "setInstrParamAlignment",
           "package": "llvm-ht",
@@ -15346,6 +16593,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "setInstrParamAlignment",
           "normalized": "ValueRef-\u003eCUInt-\u003eCUInt-\u003eIO()",
@@ -15361,6 +16609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "setInstructionCallConv",
           "package": "llvm-ht",
@@ -15370,6 +16619,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "setInstructionCallConv",
           "normalized": "ValueRef-\u003eCUInt-\u003eIO()",
@@ -15385,6 +16635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "setLinkage",
           "package": "llvm-ht",
@@ -15394,6 +16645,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "setLinkage",
           "normalized": "ValueRef-\u003eCUInt-\u003eIO()",
@@ -15409,6 +16661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "setParamAlignment",
           "package": "llvm-ht",
@@ -15418,6 +16671,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "setParamAlignment",
           "normalized": "ValueRef-\u003eCUInt-\u003eIO()",
@@ -15433,6 +16687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "setSection",
           "package": "llvm-ht",
@@ -15442,6 +16697,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "setSection",
           "normalized": "ValueRef-\u003eCString-\u003eIO()",
@@ -15457,6 +16713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "setTailCall",
           "package": "llvm-ht",
@@ -15466,6 +16723,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "setTailCall",
           "normalized": "ValueRef-\u003eCInt-\u003eIO()",
@@ -15481,6 +16739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "setTarget",
           "package": "llvm-ht",
@@ -15490,6 +16749,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "setTarget",
           "normalized": "ModuleRef-\u003eCString-\u003eIO()",
@@ -15505,6 +16765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "setThreadLocal",
           "package": "llvm-ht",
@@ -15514,6 +16775,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "setThreadLocal",
           "normalized": "ValueRef-\u003eCInt-\u003eIO()",
@@ -15529,6 +16791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "setValueName",
           "package": "llvm-ht",
@@ -15538,6 +16801,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "setValueName",
           "normalized": "ValueRef-\u003eCString-\u003eIO()",
@@ -15553,6 +16817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "setVisibility",
           "package": "llvm-ht",
@@ -15562,6 +16827,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "setVisibility",
           "normalized": "ValueRef-\u003eCUInt-\u003eIO()",
@@ -15577,6 +16843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "sizeOf",
           "package": "llvm-ht",
@@ -15586,6 +16853,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "sizeOf",
           "normalized": "TypeRef-\u003eIO ValueRef",
@@ -15601,6 +16869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "structType",
           "package": "llvm-ht",
@@ -15610,6 +16879,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "structType",
           "normalized": "Ptr TypeRef-\u003eCUInt-\u003eCInt-\u003eTypeRef",
@@ -15625,6 +16895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "structTypeInContext",
           "package": "llvm-ht",
@@ -15634,6 +16905,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "structTypeInContext",
           "normalized": "ContextRef-\u003ePtr TypeRef-\u003eCUInt-\u003eCInt-\u003eIO TypeRef",
@@ -15649,6 +16921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "toAttribute",
           "package": "llvm-ht",
@@ -15658,6 +16931,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "toAttribute",
           "normalized": "CAttribute-\u003eAttribute",
@@ -15673,6 +16947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "toCallingConvention",
           "package": "llvm-ht",
@@ -15682,6 +16957,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "toCallingConvention",
           "normalized": "CUInt-\u003eCallingConvention",
@@ -15697,6 +16973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "toLinkage",
           "package": "llvm-ht",
@@ -15706,6 +16983,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "toLinkage",
           "normalized": "CUInt-\u003eLinkage",
@@ -15721,6 +16999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "toVisibility",
           "package": "llvm-ht",
@@ -15730,6 +17009,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "toVisibility",
           "normalized": "CUInt-\u003eVisibility",
@@ -15745,6 +17025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "typeOf",
           "package": "llvm-ht",
@@ -15754,6 +17035,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "typeOf",
           "normalized": "ValueRef-\u003eIO TypeRef",
@@ -15769,6 +17051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "valueAsBasicBlock",
           "package": "llvm-ht",
@@ -15777,6 +17060,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "valueAsBasicBlock",
           "normalized": "ValueRef-\u003eBasicBlockRef",
@@ -15792,6 +17076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "valueIsBasicBlock",
           "package": "llvm-ht",
@@ -15801,6 +17086,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "valueIsBasicBlock",
           "normalized": "ValueRef-\u003eBool",
@@ -15816,6 +17102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "vectorType",
           "package": "llvm-ht",
@@ -15824,6 +17111,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "vectorType",
           "normalized": "TypeRef-\u003eCUInt-\u003eTypeRef",
@@ -15839,6 +17127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "voidType",
           "package": "llvm-ht",
@@ -15848,6 +17137,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "voidType",
           "package": "llvm-ht",
@@ -15861,6 +17151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "voidTypeInContext",
           "package": "llvm-ht",
@@ -15870,6 +17161,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "voidTypeInContext",
           "normalized": "ContextRef-\u003eIO TypeRef",
@@ -15885,6 +17177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "x86FP80Type",
           "package": "llvm-ht",
@@ -15894,6 +17187,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "x86FP80Type",
           "package": "llvm-ht",
@@ -15907,6 +17201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Core",
           "name": "x86FP80TypeInContext",
           "package": "llvm-ht",
@@ -15916,6 +17211,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Core",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Core",
           "name": "x86FP80TypeInContext",
           "normalized": "ContextRef-\u003eIO TypeRef",
@@ -15931,6 +17227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "ExecutionEngine",
           "package": "llvm-ht",
@@ -15939,6 +17236,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "ExecutionEngine",
           "package": "llvm-ht",
@@ -15952,6 +17250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "ExecutionEngine",
           "package": "llvm-ht",
@@ -15960,6 +17259,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "ExecutionEngine",
           "package": "llvm-ht",
@@ -15973,6 +17273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "GenericValue",
           "package": "llvm-ht",
@@ -15981,6 +17282,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "GenericValue",
           "package": "llvm-ht",
@@ -15994,6 +17296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "GenericValueRef",
           "package": "llvm-ht",
@@ -16002,6 +17305,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "GenericValueRef",
           "package": "llvm-ht",
@@ -16015,6 +17319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "addGlobalMapping",
           "package": "llvm-ht",
@@ -16024,6 +17329,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "addGlobalMapping",
           "normalized": "ExecutionEngineRef-\u003eValueRef-\u003ePtr()-\u003eIO()",
@@ -16039,6 +17345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "addModuleProvider",
           "package": "llvm-ht",
@@ -16048,6 +17355,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "addModuleProvider",
           "normalized": "ExecutionEngineRef-\u003eModuleProviderRef-\u003eIO()",
@@ -16063,6 +17371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "createExecutionEngine",
           "package": "llvm-ht",
@@ -16072,6 +17381,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "createExecutionEngine",
           "normalized": "Ptr ExecutionEngineRef-\u003eModuleProviderRef-\u003ePtr CString-\u003eIO CInt",
@@ -16087,6 +17397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "createGenericValueOfFloat",
           "package": "llvm-ht",
@@ -16096,6 +17407,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "createGenericValueOfFloat",
           "normalized": "TypeRef-\u003eCDouble-\u003eIO GenericValueRef",
@@ -16111,6 +17423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "createGenericValueOfInt",
           "package": "llvm-ht",
@@ -16120,6 +17433,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "createGenericValueOfInt",
           "normalized": "TypeRef-\u003eCULLong-\u003eCInt-\u003eIO GenericValueRef",
@@ -16135,6 +17449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "createGenericValueOfPointer",
           "package": "llvm-ht",
@@ -16144,6 +17459,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "createGenericValueOfPointer",
           "normalized": "Ptr a-\u003eIO GenericValueRef",
@@ -16159,6 +17475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "createInterpreter",
           "package": "llvm-ht",
@@ -16168,6 +17485,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "createInterpreter",
           "normalized": "Ptr ExecutionEngineRef-\u003eModuleProviderRef-\u003ePtr CString-\u003eIO CInt",
@@ -16183,6 +17501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "createJITCompiler",
           "package": "llvm-ht",
@@ -16192,6 +17511,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "createJITCompiler",
           "normalized": "Ptr ExecutionEngineRef-\u003eModuleProviderRef-\u003ePtr CString-\u003eIO CInt",
@@ -16207,6 +17527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "findFunction",
           "package": "llvm-ht",
@@ -16216,6 +17537,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "findFunction",
           "normalized": "ExecutionEngineRef-\u003eCString-\u003ePtr ValueRef-\u003eIO CInt",
@@ -16231,6 +17553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "freeMachineCodeForFunction",
           "package": "llvm-ht",
@@ -16240,6 +17563,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "freeMachineCodeForFunction",
           "normalized": "ExecutionEngineRef-\u003eValueRef-\u003eIO()",
@@ -16255,6 +17579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "genericValueIntWidth",
           "package": "llvm-ht",
@@ -16264,6 +17589,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "genericValueIntWidth",
           "normalized": "GenericValueRef-\u003eIO CUInt",
@@ -16279,6 +17605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "genericValueToFloat",
           "package": "llvm-ht",
@@ -16288,6 +17615,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "genericValueToFloat",
           "normalized": "TypeRef-\u003eGenericValueRef-\u003eCDouble",
@@ -16303,6 +17631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "genericValueToInt",
           "package": "llvm-ht",
@@ -16312,6 +17641,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "genericValueToInt",
           "normalized": "GenericValueRef-\u003eCInt-\u003eCULLong",
@@ -16327,6 +17657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "genericValueToPointer",
           "package": "llvm-ht",
@@ -16336,6 +17667,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "genericValueToPointer",
           "normalized": "GenericValueRef-\u003eIO(Ptr a)",
@@ -16351,6 +17683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "getExecutionEngineTargetData",
           "package": "llvm-ht",
@@ -16360,6 +17693,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "getExecutionEngineTargetData",
           "normalized": "ExecutionEngineRef-\u003eIO TargetDataRef",
@@ -16375,6 +17709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "getPointerToGlobal",
           "package": "llvm-ht",
@@ -16384,6 +17719,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "getPointerToGlobal",
           "normalized": "ExecutionEngineRef-\u003eValueRef-\u003eIO(FunPtr a)",
@@ -16399,6 +17735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "linkInJIT",
           "package": "llvm-ht",
@@ -16408,6 +17745,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "linkInJIT",
           "normalized": "IO()",
@@ -16423,6 +17761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "ptrDisposeExecutionEngine",
           "package": "llvm-ht",
@@ -16432,6 +17771,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "ptrDisposeExecutionEngine",
           "normalized": "FunPtr(ExecutionEngineRef-\u003eIO())",
@@ -16447,6 +17787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "ptrDisposeGenericValue",
           "package": "llvm-ht",
@@ -16456,6 +17797,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "ptrDisposeGenericValue",
           "normalized": "FunPtr(GenericValueRef-\u003eIO())",
@@ -16471,6 +17813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "removeModuleProvider",
           "package": "llvm-ht",
@@ -16480,6 +17823,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "removeModuleProvider",
           "normalized": "ExecutionEngineRef-\u003eModuleProviderRef-\u003ePtr ModuleRef-\u003ePtr CString-\u003eIO CInt",
@@ -16495,6 +17839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "runFunction",
           "package": "llvm-ht",
@@ -16504,6 +17849,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "runFunction",
           "normalized": "ExecutionEngineRef-\u003eValueRef-\u003eCUInt-\u003ePtr GenericValueRef-\u003eIO GenericValueRef",
@@ -16519,6 +17865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "runFunctionAsMain",
           "package": "llvm-ht",
@@ -16527,6 +17874,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "runFunctionAsMain",
           "normalized": "ExecutionEngineRef-\u003eValueRef-\u003eCUInt-\u003ePtr CString-\u003ePtr CString-\u003eIO CInt",
@@ -16542,6 +17890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "runStaticConstructors",
           "package": "llvm-ht",
@@ -16551,6 +17900,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "runStaticConstructors",
           "normalized": "ExecutionEngineRef-\u003eIO()",
@@ -16566,6 +17916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "runStaticDestructors",
           "package": "llvm-ht",
@@ -16575,6 +17926,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI ExecutionEngine",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.ExecutionEngine",
           "name": "runStaticDestructors",
           "normalized": "ExecutionEngineRef-\u003eIO()",
@@ -16590,6 +17942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "Target",
           "package": "llvm-ht",
@@ -16598,6 +17951,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "Target",
           "package": "llvm-ht",
@@ -16611,6 +17965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "ByteOrdering",
           "package": "llvm-ht",
@@ -16619,6 +17974,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "ByteOrdering",
           "package": "llvm-ht",
@@ -16632,6 +17988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "TargetData",
           "package": "llvm-ht",
@@ -16640,6 +17997,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "TargetData",
           "package": "llvm-ht",
@@ -16653,6 +18011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "TargetDataRef",
           "package": "llvm-ht",
@@ -16661,6 +18020,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "TargetDataRef",
           "package": "llvm-ht",
@@ -16674,6 +18034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "aBIAlignmentOfType",
           "package": "llvm-ht",
@@ -16683,6 +18044,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "aBIAlignmentOfType",
           "normalized": "TargetDataRef-\u003eTypeRef-\u003eCUInt",
@@ -16698,6 +18060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "aBISizeOfType",
           "package": "llvm-ht",
@@ -16707,6 +18070,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "aBISizeOfType",
           "normalized": "TargetDataRef-\u003eTypeRef-\u003eCULLong",
@@ -16722,6 +18086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "addTargetData",
           "package": "llvm-ht",
@@ -16731,6 +18096,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "addTargetData",
           "normalized": "TargetDataRef-\u003ePassManagerRef-\u003eIO()",
@@ -16746,6 +18112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "byteOrder",
           "package": "llvm-ht",
@@ -16755,6 +18122,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "byteOrder",
           "normalized": "TargetDataRef-\u003eByteOrdering",
@@ -16770,6 +18138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "callFrameAlignmentOfType",
           "package": "llvm-ht",
@@ -16779,6 +18148,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "callFrameAlignmentOfType",
           "normalized": "TargetDataRef-\u003eTypeRef-\u003eCUInt",
@@ -16794,6 +18164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "copyStringRepOfTargetData",
           "package": "llvm-ht",
@@ -16803,6 +18174,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "copyStringRepOfTargetData",
           "normalized": "TargetDataRef-\u003eIO CString",
@@ -16818,6 +18190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "createTargetData",
           "package": "llvm-ht",
@@ -16827,6 +18200,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "createTargetData",
           "normalized": "CString-\u003eIO TargetDataRef",
@@ -16842,6 +18216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "disposeTargetData",
           "package": "llvm-ht",
@@ -16851,6 +18226,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "disposeTargetData",
           "normalized": "TargetDataRef-\u003eIO()",
@@ -16866,6 +18242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "elementAtOffset",
           "package": "llvm-ht",
@@ -16875,6 +18252,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "elementAtOffset",
           "normalized": "TargetDataRef-\u003eTypeRef-\u003eCULLong-\u003eCUInt",
@@ -16890,6 +18268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "intPtrType",
           "package": "llvm-ht",
@@ -16899,6 +18278,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "intPtrType",
           "normalized": "TargetDataRef-\u003eTypeRef",
@@ -16914,6 +18294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "invalidateStructLayout",
           "package": "llvm-ht",
@@ -16923,6 +18304,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "invalidateStructLayout",
           "normalized": "TargetDataRef-\u003eTypeRef-\u003eIO()",
@@ -16938,6 +18320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "offsetOfElement",
           "package": "llvm-ht",
@@ -16947,6 +18330,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "offsetOfElement",
           "normalized": "TargetDataRef-\u003eTypeRef-\u003eCUInt-\u003eCULLong",
@@ -16962,6 +18346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "pointerSize",
           "package": "llvm-ht",
@@ -16971,6 +18356,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "pointerSize",
           "normalized": "TargetDataRef-\u003eCUInt",
@@ -16986,6 +18372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "preferredAlignmentOfGlobal",
           "package": "llvm-ht",
@@ -16995,6 +18382,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "preferredAlignmentOfGlobal",
           "normalized": "TargetDataRef-\u003eValueRef-\u003eCUInt",
@@ -17010,6 +18398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "preferredAlignmentOfType",
           "package": "llvm-ht",
@@ -17019,6 +18408,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "preferredAlignmentOfType",
           "normalized": "TargetDataRef-\u003eTypeRef-\u003eCUInt",
@@ -17034,6 +18424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "sizeOfTypeInBits",
           "package": "llvm-ht",
@@ -17043,6 +18434,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "sizeOfTypeInBits",
           "normalized": "TargetDataRef-\u003eTypeRef-\u003eCULLong",
@@ -17058,6 +18450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Target",
           "name": "storeSizeOfType",
           "package": "llvm-ht",
@@ -17067,6 +18460,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Target",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Target",
           "name": "storeSizeOfType",
           "normalized": "TargetDataRef-\u003eTypeRef-\u003eCULLong",
@@ -17082,6 +18476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "IPO",
           "package": "llvm-ht",
@@ -17090,6 +18485,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms IPO",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "IPO",
           "package": "llvm-ht",
@@ -17103,6 +18499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addArgumentPromotionPass",
           "package": "llvm-ht",
@@ -17112,6 +18509,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms IPO",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addArgumentPromotionPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17127,6 +18525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addConstantMergePass",
           "package": "llvm-ht",
@@ -17136,6 +18535,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms IPO",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addConstantMergePass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17151,6 +18551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addDeadArgEliminationPass",
           "package": "llvm-ht",
@@ -17160,6 +18561,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms IPO",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addDeadArgEliminationPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17175,6 +18577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addDeadTypeEliminationPass",
           "package": "llvm-ht",
@@ -17184,6 +18587,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms IPO",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addDeadTypeEliminationPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17199,6 +18603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addFunctionAttrsPass",
           "package": "llvm-ht",
@@ -17208,6 +18613,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms IPO",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addFunctionAttrsPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17223,6 +18629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addFunctionInliningPass",
           "package": "llvm-ht",
@@ -17232,6 +18639,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms IPO",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addFunctionInliningPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17247,6 +18655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addGlobalDCEPass",
           "package": "llvm-ht",
@@ -17256,6 +18665,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms IPO",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addGlobalDCEPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17271,6 +18681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addGlobalOptimizerPass",
           "package": "llvm-ht",
@@ -17280,6 +18691,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms IPO",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addGlobalOptimizerPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17295,6 +18707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addIPConstantPropagationPass",
           "package": "llvm-ht",
@@ -17304,6 +18717,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms IPO",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addIPConstantPropagationPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17319,6 +18733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addLowerSetJmpPass",
           "package": "llvm-ht",
@@ -17328,6 +18743,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms IPO",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addLowerSetJmpPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17343,6 +18759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addPruneEHPass",
           "package": "llvm-ht",
@@ -17352,6 +18769,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms IPO",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addPruneEHPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17367,6 +18785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addRaiseAllocationsPass",
           "package": "llvm-ht",
@@ -17376,6 +18795,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms IPO",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addRaiseAllocationsPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17391,6 +18811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addStripDeadPrototypesPass",
           "package": "llvm-ht",
@@ -17400,6 +18821,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms IPO",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addStripDeadPrototypesPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17415,6 +18837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addStripSymbolsPass",
           "package": "llvm-ht",
@@ -17424,6 +18847,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms IPO",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.IPO",
           "name": "addStripSymbolsPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17439,6 +18863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "Scalar",
           "package": "llvm-ht",
@@ -17447,6 +18872,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "Scalar",
           "package": "llvm-ht",
@@ -17460,6 +18886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addAggressiveDCEPass",
           "package": "llvm-ht",
@@ -17469,6 +18896,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addAggressiveDCEPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17484,6 +18912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addCFGSimplificationPass",
           "package": "llvm-ht",
@@ -17493,6 +18922,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addCFGSimplificationPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17508,6 +18938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addCondPropagationPass",
           "package": "llvm-ht",
@@ -17517,6 +18948,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addCondPropagationPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17532,6 +18964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addConstantPropagationPass",
           "package": "llvm-ht",
@@ -17541,6 +18974,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addConstantPropagationPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17556,6 +18990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addDeadStoreEliminationPass",
           "package": "llvm-ht",
@@ -17565,6 +19000,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addDeadStoreEliminationPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17580,6 +19016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addDemoteMemoryToRegisterPass",
           "package": "llvm-ht",
@@ -17589,6 +19026,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addDemoteMemoryToRegisterPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17604,6 +19042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addGVNPass",
           "package": "llvm-ht",
@@ -17613,6 +19052,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addGVNPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17628,6 +19068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addIndVarSimplifyPass",
           "package": "llvm-ht",
@@ -17637,6 +19078,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addIndVarSimplifyPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17652,6 +19094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addInstructionCombiningPass",
           "package": "llvm-ht",
@@ -17661,6 +19104,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addInstructionCombiningPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17676,6 +19120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addJumpThreadingPass",
           "package": "llvm-ht",
@@ -17685,6 +19130,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addJumpThreadingPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17700,6 +19146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addLICMPass",
           "package": "llvm-ht",
@@ -17709,6 +19156,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addLICMPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17724,6 +19172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addLoopDeletionPass",
           "package": "llvm-ht",
@@ -17733,6 +19182,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addLoopDeletionPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17748,6 +19198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addLoopIndexSplitPass",
           "package": "llvm-ht",
@@ -17757,6 +19208,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addLoopIndexSplitPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17772,6 +19224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addLoopRotatePass",
           "package": "llvm-ht",
@@ -17781,6 +19234,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addLoopRotatePass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17796,6 +19250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addLoopUnrollPass",
           "package": "llvm-ht",
@@ -17805,6 +19260,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addLoopUnrollPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17820,6 +19276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addLoopUnswitchPass",
           "package": "llvm-ht",
@@ -17829,6 +19286,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addLoopUnswitchPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17844,6 +19302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addMemCpyOptPass",
           "package": "llvm-ht",
@@ -17853,6 +19312,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addMemCpyOptPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17868,6 +19328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addPromoteMemoryToRegisterPass",
           "package": "llvm-ht",
@@ -17877,6 +19338,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addPromoteMemoryToRegisterPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17892,6 +19354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addReassociatePass",
           "package": "llvm-ht",
@@ -17901,6 +19364,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addReassociatePass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17916,6 +19380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addSCCPPass",
           "package": "llvm-ht",
@@ -17925,6 +19390,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addSCCPPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17940,6 +19406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addScalarReplAggregatesPass",
           "package": "llvm-ht",
@@ -17949,6 +19416,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addScalarReplAggregatesPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17964,6 +19432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addSimplifyLibCallsPass",
           "package": "llvm-ht",
@@ -17973,6 +19442,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addSimplifyLibCallsPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -17988,6 +19458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addTailCallEliminationPass",
           "package": "llvm-ht",
@@ -17997,6 +19468,7 @@
         },
         "index": {
           "hierarchy": "LLVM FFI Transforms Scalar",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.FFI.Transforms.Scalar",
           "name": "addTailCallEliminationPass",
           "normalized": "PassManagerRef-\u003eIO()",
@@ -18012,6 +19484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "Arithmetic",
           "package": "llvm-ht",
@@ -18020,6 +19493,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "Arithmetic",
           "package": "llvm-ht",
@@ -18033,6 +19507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "ArithFunction",
           "package": "llvm-ht",
@@ -18041,6 +19516,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "ArithFunction",
           "package": "llvm-ht",
@@ -18054,6 +19530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "CallIntrinsic",
           "package": "llvm-ht",
@@ -18062,6 +19539,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "CallIntrinsic",
           "package": "llvm-ht",
@@ -18075,6 +19553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "Cmp",
           "package": "llvm-ht",
@@ -18083,6 +19562,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "Cmp",
           "package": "llvm-ht",
@@ -18097,6 +19577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for \u003ccode\u003eCodeGenFunction r (Value a)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "TValue",
           "package": "llvm-ht",
@@ -18106,6 +19587,7 @@
         "index": {
           "description": "Synonym for CodeGenFunction Value",
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "TValue",
           "package": "llvm-ht",
@@ -18119,6 +19601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "UnwrapArgs",
           "package": "llvm-ht",
@@ -18127,6 +19610,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "UnwrapArgs",
           "package": "llvm-ht",
@@ -18141,6 +19625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazy or.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "(%||)",
           "package": "llvm-ht",
@@ -18151,6 +19636,7 @@
         "index": {
           "description": "Lazy or",
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "(%||) %||",
           "normalized": "TValue a Bool-\u003eTValue a Bool-\u003eTValue a Bool",
@@ -18166,6 +19652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazy and.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "(%&&)",
           "package": "llvm-ht",
@@ -18176,6 +19663,7 @@
         "index": {
           "description": "Lazy and",
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "(%&&) %&&",
           "normalized": "TValue a Bool-\u003eTValue a Bool-\u003eTValue a Bool",
@@ -18191,6 +19679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComparison functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "(%/=)",
           "package": "llvm-ht",
@@ -18201,6 +19690,7 @@
         "index": {
           "description": "Comparison functions",
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "(%/=) %/=",
           "normalized": "TValue a b-\u003eTValue a b-\u003eTValue a c",
@@ -18215,6 +19705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "(%\u003c)",
           "package": "llvm-ht",
@@ -18224,6 +19715,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "(%\u003c) %\u003c",
           "normalized": "TValue a b-\u003eTValue a b-\u003eTValue a c",
@@ -18238,6 +19730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "(%\u003c=)",
           "package": "llvm-ht",
@@ -18247,6 +19740,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "(%\u003c=) %\u003c=",
           "normalized": "TValue a b-\u003eTValue a b-\u003eTValue a c",
@@ -18261,6 +19755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "(%==)",
           "package": "llvm-ht",
@@ -18270,6 +19765,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "(%==) %==",
           "normalized": "TValue a b-\u003eTValue a b-\u003eTValue a c",
@@ -18284,6 +19780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "(%\u003e)",
           "package": "llvm-ht",
@@ -18293,6 +19790,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "(%\u003e) %\u003e",
           "normalized": "TValue a b-\u003eTValue a b-\u003eTValue a c",
@@ -18307,6 +19805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "(%\u003e=)",
           "package": "llvm-ht",
@@ -18316,6 +19815,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "(%\u003e=) %\u003e=",
           "normalized": "TValue a b-\u003eTValue a b-\u003eTValue a c",
@@ -18331,6 +19831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditional, returns first element of the pair when condition is true, otherwise second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "(?)",
           "package": "llvm-ht",
@@ -18341,6 +19842,7 @@
         "index": {
           "description": "Conditional returns first element of the pair when condition is true otherwise second",
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "(?) ?",
           "normalized": "TValue a Bool-\u003e(TValue a b,TValue a b)-\u003eTValue a b",
@@ -18355,6 +19857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "(??)",
           "package": "llvm-ht",
@@ -18364,6 +19867,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "(??) ??",
           "normalized": "TValue a b-\u003e(TValue a c,TValue a c)-\u003eTValue a c",
@@ -18379,6 +19883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnlift a function with \u003ccode\u003eTValue\u003c/code\u003e to have \u003ccode\u003eValue\u003c/code\u003e arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "arithFunction",
           "package": "llvm-ht",
@@ -18389,6 +19894,7 @@
         "index": {
           "description": "Unlift function with TValue to have Value arguments",
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "arithFunction",
           "normalized": "a-\u003eb",
@@ -18404,6 +19910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "cmp",
           "package": "llvm-ht",
@@ -18413,6 +19920,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "cmp",
           "normalized": "IntPredicate-\u003eValue a-\u003eValue a-\u003eTValue b c",
@@ -18428,6 +19936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a recursive \u003ccode\u003e\u003ca\u003earithFunction\u003c/a\u003e\u003c/code\u003e, gets pased itself as the first argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "recursiveFunction",
           "package": "llvm-ht",
@@ -18438,6 +19947,7 @@
         "index": {
           "description": "Define recursive arithFunction gets pased itself as the first argument",
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "recursiveFunction",
           "normalized": "(a-\u003ea)-\u003eCodeGenModule(Function a)",
@@ -18454,6 +19964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a value from an \u003ccode\u003e\u003ca\u003earithFunction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "retrn",
           "package": "llvm-ht",
@@ -18464,6 +19975,7 @@
         "index": {
           "description": "Return value from an arithFunction",
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "retrn",
           "normalized": "TValue a b-\u003eCodeGenFunction a()",
@@ -18479,6 +19991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse \u003ccode\u003ex \u003c- set $ ...\u003c/code\u003e to make a binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "set",
           "package": "llvm-ht",
@@ -18489,6 +20002,7 @@
         "index": {
           "description": "Use set to make binding",
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "set",
           "normalized": "TValue a b-\u003eCodeGenFunction a(TValue a b)",
@@ -18504,6 +20018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a function from having \u003ccode\u003eValue\u003c/code\u003e arguments to having \u003ccode\u003eTValue\u003c/code\u003e arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Arithmetic",
           "name": "toArithFunction",
           "package": "llvm-ht",
@@ -18514,6 +20029,7 @@
         "index": {
           "description": "Lift function from having Value arguments to having TValue arguments",
           "hierarchy": "LLVM Util Arithmetic",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Arithmetic",
           "name": "toArithFunction",
           "normalized": "Function a-\u003eb",
@@ -18529,6 +20045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.File",
           "name": "File",
           "package": "llvm-ht",
@@ -18537,6 +20054,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util File",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.File",
           "name": "File",
           "package": "llvm-ht",
@@ -18550,6 +20068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.File",
           "name": "optimizeFunction",
           "package": "llvm-ht",
@@ -18559,6 +20078,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util File",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.File",
           "name": "optimizeFunction",
           "normalized": "CodeGenModule(Function a)-\u003eIO(Function a)",
@@ -18574,6 +20094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.File",
           "name": "optimizeFunctionCG",
           "package": "llvm-ht",
@@ -18583,6 +20104,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util File",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.File",
           "name": "optimizeFunctionCG",
           "normalized": "CodeGenModule(Function a)-\u003eIO a",
@@ -18598,6 +20120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.File",
           "name": "writeCodeGenModule",
           "package": "llvm-ht",
@@ -18607,6 +20130,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util File",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.File",
           "name": "writeCodeGenModule",
           "normalized": "String-\u003eCodeGenModule a-\u003eIO()",
@@ -18622,6 +20146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Foreign",
           "name": "Foreign",
           "package": "llvm-ht",
@@ -18630,6 +20155,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Foreign",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Foreign",
           "name": "Foreign",
           "package": "llvm-ht",
@@ -18643,6 +20169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Foreign",
           "name": "alloca",
           "package": "llvm-ht",
@@ -18652,6 +20179,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Foreign",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Foreign",
           "name": "alloca",
           "normalized": "(Ptr a-\u003eIO b)-\u003eIO b",
@@ -18666,6 +20194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Foreign",
           "name": "with",
           "package": "llvm-ht",
@@ -18675,6 +20204,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Foreign",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Foreign",
           "name": "with",
           "normalized": "a-\u003e(Ptr a-\u003eIO b)-\u003eIO b",
@@ -18689,6 +20219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Foreign",
           "name": "withArrayLen",
           "package": "llvm-ht",
@@ -18698,6 +20229,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Foreign",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Foreign",
           "name": "withArrayLen",
           "normalized": "[a]-\u003e(Int-\u003ePtr a-\u003eIO b)-\u003eIO b",
@@ -18713,6 +20245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Loop",
           "name": "Loop",
           "package": "llvm-ht",
@@ -18721,6 +20254,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Loop",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Loop",
           "name": "Loop",
           "package": "llvm-ht",
@@ -18734,6 +20268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Loop",
           "name": "Phi",
           "package": "llvm-ht",
@@ -18742,6 +20277,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Loop",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Loop",
           "name": "Phi",
           "package": "llvm-ht",
@@ -18755,6 +20291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Loop",
           "name": "addPhis",
           "package": "llvm-ht",
@@ -18764,6 +20301,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Loop",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Loop",
           "name": "addPhis",
           "normalized": "BasicBlock-\u003ea-\u003ea-\u003eCodeGenFunction b()",
@@ -18779,6 +20317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Loop",
           "name": "forLoop",
           "package": "llvm-ht",
@@ -18788,6 +20327,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Loop",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Loop",
           "name": "forLoop",
           "normalized": "Value a-\u003eValue a-\u003eb-\u003e(Value a-\u003eb-\u003eCodeGenFunction c b)-\u003eCodeGenFunction c b",
@@ -18803,6 +20343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Loop",
           "name": "mapVector",
           "package": "llvm-ht",
@@ -18812,6 +20353,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Loop",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Loop",
           "name": "mapVector",
           "normalized": "(Value a-\u003eCodeGenFunction b(Value c))-\u003eValue(Vector d a)-\u003eCodeGenFunction b(Value(Vector d c))",
@@ -18827,6 +20369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Loop",
           "name": "mapVector2",
           "package": "llvm-ht",
@@ -18836,6 +20379,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Loop",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Loop",
           "name": "mapVector2",
           "normalized": "(Value a-\u003eValue b-\u003eCodeGenFunction c(Value d))-\u003eValue(Vector e a)-\u003eValue(Vector e b)-\u003eCodeGenFunction c(Value(Vector e d))",
@@ -18851,6 +20395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Loop",
           "name": "phis",
           "package": "llvm-ht",
@@ -18860,6 +20405,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Loop",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Loop",
           "name": "phis",
           "normalized": "BasicBlock-\u003ea-\u003eCodeGenFunction b a",
@@ -18874,6 +20420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Optimize",
           "name": "Optimize",
           "package": "llvm-ht",
@@ -18882,6 +20429,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Optimize",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Optimize",
           "name": "Optimize",
           "package": "llvm-ht",
@@ -18895,6 +20443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:29 UTC 2014",
           "module": "LLVM.Util.Optimize",
           "name": "optimizeModule",
           "package": "llvm-ht",
@@ -18904,6 +20453,7 @@
         },
         "index": {
           "hierarchy": "LLVM Util Optimize",
+          "indexed": "2014-03-11T19:11:29",
           "module": "LLVM.Util.Optimize",
           "name": "optimizeModule",
           "normalized": "Int-\u003eModule-\u003eIO Int",

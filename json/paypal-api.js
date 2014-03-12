@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "paypal-api"
+        "phrase": "paypal-api",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "ButtonManager",
           "package": "paypal-api",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "ButtonManager",
           "package": "paypal-api",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eButton type value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "BUYNOW",
           "package": "paypal-api",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Button type value",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "BUYNOW",
           "package": "paypal-api",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "ButtonImageType",
           "package": "paypal-api",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "ButtonImageType",
           "package": "paypal-api",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "ButtonInfo",
           "package": "paypal-api",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "ButtonInfo",
           "package": "paypal-api",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "ButtonSearch",
           "package": "paypal-api",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "ButtonSearch",
           "package": "paypal-api",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "ButtonSubtype",
           "package": "paypal-api",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "ButtonSubtype",
           "package": "paypal-api",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "ButtonType",
           "package": "paypal-api",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "ButtonType",
           "package": "paypal-api",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "BuyNowText",
           "package": "paypal-api",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "BuyNowText",
           "package": "paypal-api",
@@ -189,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eButton type value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "CART",
           "package": "paypal-api",
@@ -198,6 +215,7 @@
         "index": {
           "description": "Button type value",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "CART",
           "package": "paypal-api",
@@ -212,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eButton code value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "CLEARTEXT",
           "package": "paypal-api",
@@ -221,6 +240,7 @@
         "index": {
           "description": "Button code value",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "CLEARTEXT",
           "package": "paypal-api",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "CartAction",
           "package": "paypal-api",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "CartAction",
           "package": "paypal-api",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "CreateButton",
           "package": "paypal-api",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "CreateButton",
           "package": "paypal-api",
@@ -277,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eButton type value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "DONATE",
           "package": "paypal-api",
@@ -286,6 +311,7 @@
         "index": {
           "description": "Button type value",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "DONATE",
           "package": "paypal-api",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Duration",
           "package": "paypal-api",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Duration",
           "package": "paypal-api",
@@ -321,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eButton code value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "ENCRYPTED",
           "package": "paypal-api",
@@ -330,6 +359,7 @@
         "index": {
           "description": "Button code value",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "ENCRYPTED",
           "package": "paypal-api",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "FIRST",
           "package": "paypal-api",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "FIRST",
           "package": "paypal-api",
@@ -365,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eButton type value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "GIFTCERTIFICATE",
           "package": "paypal-api",
@@ -374,6 +407,7 @@
         "index": {
           "description": "Button type value",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "GIFTCERTIFICATE",
           "package": "paypal-api",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "GetButtonDetails",
           "package": "paypal-api",
@@ -395,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "GetButtonDetails",
           "package": "paypal-api",
@@ -409,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eButton code value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "HOSTED",
           "package": "paypal-api",
@@ -418,6 +455,7 @@
         "index": {
           "description": "Button code value",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "HOSTED",
           "package": "paypal-api",
@@ -431,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "HostedButton",
           "package": "paypal-api",
@@ -439,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "HostedButton",
           "package": "paypal-api",
@@ -452,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "HostedButtonID",
           "package": "paypal-api",
@@ -460,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "HostedButtonID",
           "package": "paypal-api",
@@ -473,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Item",
           "package": "paypal-api",
@@ -481,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Item",
           "package": "paypal-api",
@@ -494,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "NONFIRST",
           "package": "paypal-api",
@@ -502,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "NONFIRST",
           "package": "paypal-api",
@@ -515,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "NONHOSTED",
           "package": "paypal-api",
@@ -523,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "NONHOSTED",
           "package": "paypal-api",
@@ -537,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote: In PayPal naming, 'option' and 'select' are swapped around from the\n HTML naming.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Option",
           "package": "paypal-api",
@@ -546,6 +595,7 @@
         "index": {
           "description": "Note In PayPal naming option and select are swapped around from the HTML naming",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Option",
           "package": "paypal-api",
@@ -559,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Options",
           "package": "paypal-api",
@@ -567,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Options",
           "package": "paypal-api",
@@ -580,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Payment",
           "package": "paypal-api",
@@ -588,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Payment",
           "package": "paypal-api",
@@ -601,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "PaymentAction",
           "package": "paypal-api",
@@ -609,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "PaymentAction",
           "package": "paypal-api",
@@ -622,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "PeriodicPrice",
           "package": "paypal-api",
@@ -630,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "PeriodicPrice",
           "package": "paypal-api",
@@ -643,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Rank",
           "package": "paypal-api",
@@ -651,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Rank",
           "package": "paypal-api",
@@ -665,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eButton type value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "SUBSCRIBE",
           "package": "paypal-api",
@@ -674,6 +735,7 @@
         "index": {
           "description": "Button type value",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "SUBSCRIBE",
           "package": "paypal-api",
@@ -687,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Select",
           "package": "paypal-api",
@@ -695,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Select",
           "package": "paypal-api",
@@ -708,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "ShoppingCart",
           "package": "paypal-api",
@@ -716,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "ShoppingCart",
           "package": "paypal-api",
@@ -729,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "SubscribeText",
           "package": "paypal-api",
@@ -737,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "SubscribeText",
           "package": "paypal-api",
@@ -750,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Subscription",
           "package": "paypal-api",
@@ -758,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Subscription",
           "package": "paypal-api",
@@ -772,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eButton code value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "TOKEN",
           "package": "paypal-api",
@@ -781,6 +852,7 @@
         "index": {
           "description": "Button code value",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "TOKEN",
           "package": "paypal-api",
@@ -794,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "TypeOfButton",
           "package": "paypal-api",
@@ -802,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "TypeOfButton",
           "package": "paypal-api",
@@ -816,6 +890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eButton type value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "UNSUBSCRIBE",
           "package": "paypal-api",
@@ -825,6 +900,7 @@
         "index": {
           "description": "Button type value",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "UNSUBSCRIBE",
           "package": "paypal-api",
@@ -838,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "UpdateButton",
           "package": "paypal-api",
@@ -846,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "UpdateButton",
           "package": "paypal-api",
@@ -860,6 +938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eButton type value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "VIEWCART",
           "package": "paypal-api",
@@ -869,6 +948,7 @@
         "index": {
           "description": "Button type value",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "VIEWCART",
           "package": "paypal-api",
@@ -882,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "WeightUnit",
           "package": "paypal-api",
@@ -890,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "WeightUnit",
           "package": "paypal-api",
@@ -903,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "AUTOBILLING",
           "package": "paypal-api",
@@ -912,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "AUTOBILLING",
           "package": "paypal-api",
@@ -925,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Add",
           "package": "paypal-api",
@@ -934,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Add",
           "package": "paypal-api",
@@ -947,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Authorization",
           "package": "paypal-api",
@@ -956,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Authorization",
           "package": "paypal-api",
@@ -970,6 +1058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eButton text is \u003ca\u003eBuy Now\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "BUYNOW_SUBSCRIPTION",
           "package": "paypal-api",
@@ -980,6 +1069,7 @@
         "index": {
           "description": "Button text is Buy Now",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "BUYNOW_SUBSCRIPTION",
           "package": "paypal-api",
@@ -994,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eButton text is \u003ca\u003eBuy Now\u003c/a\u003e (default)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "BUYNOW_TEXT",
           "package": "paypal-api",
@@ -1004,6 +1095,7 @@
         "index": {
           "description": "Button text is Buy Now default",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "BUYNOW_TEXT",
           "package": "paypal-api",
@@ -1017,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "ButtonInfo",
           "package": "paypal-api",
@@ -1026,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "ButtonInfo",
           "package": "paypal-api",
@@ -1039,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "ButtonSearch",
           "package": "paypal-api",
@@ -1048,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "ButtonSearch",
           "package": "paypal-api",
@@ -1061,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "CART",
           "package": "paypal-api",
@@ -1070,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "CART",
           "package": "paypal-api",
@@ -1084,6 +1182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esmall button image with credit card logos; not applicable for\n Unsubscribe or View Cart buttons\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "CC",
           "package": "paypal-api",
@@ -1094,6 +1193,7 @@
         "index": {
           "description": "small button image with credit card logos not applicable for Unsubscribe or View Cart buttons",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "CC",
           "package": "paypal-api",
@@ -1107,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "CreateButton",
           "package": "paypal-api",
@@ -1116,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "CreateButton",
           "package": "paypal-api",
@@ -1129,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "D",
           "package": "paypal-api",
@@ -1138,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "D",
           "package": "paypal-api",
@@ -1150,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "DONATE",
           "package": "paypal-api",
@@ -1159,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "DONATE",
           "package": "paypal-api",
@@ -1172,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Display",
           "package": "paypal-api",
@@ -1181,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Display",
           "package": "paypal-api",
@@ -1194,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "GIFTCERTIFICATE",
           "package": "paypal-api",
@@ -1203,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "GIFTCERTIFICATE",
           "package": "paypal-api",
@@ -1216,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "GetButtonDetails",
           "package": "paypal-api",
@@ -1225,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "GetButtonDetails",
           "package": "paypal-api",
@@ -1238,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "HostedButtonID",
           "package": "paypal-api",
@@ -1247,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "HostedButtonID",
           "package": "paypal-api",
@@ -1260,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "HostedButton_CART",
           "package": "paypal-api",
@@ -1269,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "HostedButton_CART",
           "package": "paypal-api",
@@ -1282,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "HostedButton_DONATE",
           "package": "paypal-api",
@@ -1291,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "HostedButton_DONATE",
           "package": "paypal-api",
@@ -1304,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "HostedButton_GIFTCERTIFICATE",
           "package": "paypal-api",
@@ -1313,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "HostedButton_GIFTCERTIFICATE",
           "package": "paypal-api",
@@ -1326,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "HostedButton_SUBSCRIBE",
           "package": "paypal-api",
@@ -1335,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "HostedButton_SUBSCRIBE",
           "package": "paypal-api",
@@ -1348,6 +1470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "HostedButton_UNSUBSCRIBE",
           "package": "paypal-api",
@@ -1357,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "HostedButton_UNSUBSCRIBE",
           "package": "paypal-api",
@@ -1370,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "HostedButton_VIEWCART",
           "package": "paypal-api",
@@ -1379,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "HostedButton_VIEWCART",
           "package": "paypal-api",
@@ -1392,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Item",
           "package": "paypal-api",
@@ -1401,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Item",
           "package": "paypal-api",
@@ -1414,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Kg",
           "package": "paypal-api",
@@ -1423,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Kg",
           "package": "paypal-api",
@@ -1436,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Lb",
           "package": "paypal-api",
@@ -1445,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Lb",
           "package": "paypal-api",
@@ -1458,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "M",
           "package": "paypal-api",
@@ -1467,6 +1600,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "M",
           "package": "paypal-api",
@@ -1479,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Option",
           "package": "paypal-api",
@@ -1488,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Option",
           "package": "paypal-api",
@@ -1501,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Options",
           "package": "paypal-api",
@@ -1510,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Options",
           "normalized": "Options(Maybe(Option FIRST,[Option NONFIRST]))",
@@ -1525,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Order",
           "package": "paypal-api",
@@ -1534,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Order",
           "package": "paypal-api",
@@ -1547,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "PAYMENT",
           "package": "paypal-api",
@@ -1556,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "PAYMENT",
           "package": "paypal-api",
@@ -1569,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "PAYMENTPLAN",
           "package": "paypal-api",
@@ -1578,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "PAYMENTPLAN",
           "package": "paypal-api",
@@ -1592,6 +1736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eButton text is \u003ca\u003ePay Now\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "PAYNOW_TEXT",
           "package": "paypal-api",
@@ -1602,6 +1747,7 @@
         "index": {
           "description": "Button text is Pay Now",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "PAYNOW_TEXT",
           "package": "paypal-api",
@@ -1615,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "PRODUCTS",
           "package": "paypal-api",
@@ -1624,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "PRODUCTS",
           "package": "paypal-api",
@@ -1637,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Payment",
           "package": "paypal-api",
@@ -1646,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Payment",
           "package": "paypal-api",
@@ -1659,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "PeriodicPrice",
           "package": "paypal-api",
@@ -1668,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "PeriodicPrice",
           "package": "paypal-api",
@@ -1682,6 +1834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegular (default)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "REG",
           "package": "paypal-api",
@@ -1692,6 +1845,7 @@
         "index": {
           "description": "Regular default",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "REG",
           "package": "paypal-api",
@@ -1705,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "SERVICES",
           "package": "paypal-api",
@@ -1714,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "SERVICES",
           "package": "paypal-api",
@@ -1728,6 +1884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmall\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "SML",
           "package": "paypal-api",
@@ -1738,6 +1895,7 @@
         "index": {
           "description": "Small",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "SML",
           "package": "paypal-api",
@@ -1751,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "SUBSCRIBE",
           "package": "paypal-api",
@@ -1760,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "SUBSCRIBE",
           "package": "paypal-api",
@@ -1774,6 +1934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eButton text is \u003ca\u003eSubscribe\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "SUBSCRIBE_SUBSCRIPTION",
           "package": "paypal-api",
@@ -1784,6 +1945,7 @@
         "index": {
           "description": "Button text is Subscribe",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "SUBSCRIBE_SUBSCRIPTION",
           "package": "paypal-api",
@@ -1797,6 +1959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Sale",
           "package": "paypal-api",
@@ -1806,6 +1969,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Sale",
           "package": "paypal-api",
@@ -1819,6 +1983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Select",
           "package": "paypal-api",
@@ -1828,6 +1993,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Select",
           "package": "paypal-api",
@@ -1841,6 +2007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "ShoppingCart",
           "package": "paypal-api",
@@ -1850,6 +2017,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "ShoppingCart",
           "package": "paypal-api",
@@ -1863,6 +2031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Subscription",
           "package": "paypal-api",
@@ -1872,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Subscription",
           "package": "paypal-api",
@@ -1885,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "UNSUBSCRIBE",
           "package": "paypal-api",
@@ -1894,6 +2065,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "UNSUBSCRIBE",
           "package": "paypal-api",
@@ -1907,6 +2079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "UpdateButton",
           "package": "paypal-api",
@@ -1916,6 +2089,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "UpdateButton",
           "package": "paypal-api",
@@ -1929,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Upload",
           "package": "paypal-api",
@@ -1938,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Upload",
           "package": "paypal-api",
@@ -1951,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "VIEWCART",
           "package": "paypal-api",
@@ -1960,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "VIEWCART",
           "package": "paypal-api",
@@ -1973,6 +2151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "W",
           "package": "paypal-api",
@@ -1982,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "W",
           "package": "paypal-api",
@@ -1994,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "Y",
           "package": "paypal-api",
@@ -2003,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "Y",
           "package": "paypal-api",
@@ -2015,6 +2197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "biButtonID",
           "package": "paypal-api",
@@ -2024,6 +2207,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "biButtonID",
           "package": "paypal-api",
@@ -2037,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "biButtonType",
           "package": "paypal-api",
@@ -2046,6 +2231,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "biButtonType",
           "package": "paypal-api",
@@ -2059,6 +2245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "biItemName",
           "package": "paypal-api",
@@ -2068,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "biItemName",
           "package": "paypal-api",
@@ -2081,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "biModifyDate",
           "package": "paypal-api",
@@ -2090,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "biModifyDate",
           "package": "paypal-api",
@@ -2103,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "bsEndDate",
           "package": "paypal-api",
@@ -2112,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "bsEndDate",
           "package": "paypal-api",
@@ -2125,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "bsStartDate",
           "package": "paypal-api",
@@ -2134,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "bsStartDate",
           "package": "paypal-api",
@@ -2148,6 +2342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an item to the PayPal Shopping Cart, OR, Display the contents of\n the PayPal Shopping Cart to the buyer, OR, Upload the contents of a\n third party shopping cart or a custom shopping cart.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "caAction",
           "package": "paypal-api",
@@ -2158,6 +2353,7 @@
         "index": {
           "description": "Add an item to the PayPal Shopping Cart OR Display the contents of the PayPal Shopping Cart to the buyer OR Upload the contents of third party shopping cart or custom shopping cart",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "caAction",
           "package": "paypal-api",
@@ -2172,6 +2368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle handling fee to be charged cart-wide. If handling_cart is used\n in multiple Add to Cart buttons, the handling_cart value of the first item\n is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "caHandlingCart",
           "package": "paypal-api",
@@ -2182,6 +2379,7 @@
         "index": {
           "description": "Single handling fee to be charged cart-wide If handling cart is used in multiple Add to Cart buttons the handling cart value of the first item is used",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "caHandlingCart",
           "package": "paypal-api",
@@ -2196,6 +2394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates whether the transaction is payment on a final sale or an\n authorization for a final sale, to be captured later.\n The default value is sale.\n\u003c/p\u003e\u003cp\u003eSet the value to authorization to place a hold on the PayPal account for the\n authorized amount. Set the value to order to authorize the transaction without\n placing a hold on the PayPal account.\n\u003c/p\u003e\u003cp\u003eImportant:\n If you set paymentaction to order, you must use the Authorization & Capture\n API to authorize and capture the transaction payments. The merchant tools on\n the PayPal websitel let you capture payments only for authorizations, not for\n orders.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "caPaymentAction",
           "package": "paypal-api",
@@ -2206,6 +2405,7 @@
         "index": {
           "description": "Indicates whether the transaction is payment on final sale or an authorization for final sale to be captured later The default value is sale Set the value to authorization to place hold on the PayPal account for the authorized amount Set the value to order to authorize the transaction without placing hold on the PayPal account Important If you set paymentaction to order you must use the Authorization Capture API to authorize and capture the transaction payments The merchant tools on the PayPal websitel let you capture payments only for authorizations not for orders",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "caPaymentAction",
           "package": "paypal-api",
@@ -2220,6 +2420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe URL of the page on the merchant website that buyers return to when they\n click the Continue Shopping button on the PayPal Shopping Cart page.\n\u003c/p\u003e\u003cp\u003eNOTE:\n If you use this, and the URL contains characters like \u003ccode\u003e\u003ca\u003e%\u003c/a\u003e\u003c/code\u003e then PayPal will\n mangle them. Also, shopping_url doesn't work for the \u003ca\u003eView Cart\u003c/a\u003e button.\n However, if you don't use this, PayPal seems to use the referrer URL, so it\n shouldn't be necessary to use this broken feature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "caShoppingURL",
           "package": "paypal-api",
@@ -2230,6 +2431,7 @@
         "index": {
           "description": "The URL of the page on the merchant website that buyers return to when they click the Continue Shopping button on the PayPal Shopping Cart page NOTE If you use this and the URL contains characters like then PayPal will mangle them Also shopping url doesn work for the View Cart button However if you don use this PayPal seems to use the referrer URL so it shouldn be necessary to use this broken feature",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "caShoppingURL",
           "package": "paypal-api",
@@ -2244,6 +2446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither the button image type, or the button image URL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "cbButtonImage",
           "package": "paypal-api",
@@ -2254,6 +2457,7 @@
         "index": {
           "description": "Either the button image type or the button image URL",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "cbButtonImage",
           "package": "paypal-api",
@@ -2267,6 +2471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "cbButtonSubtype",
           "package": "paypal-api",
@@ -2276,6 +2481,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "cbButtonSubtype",
           "package": "paypal-api",
@@ -2289,6 +2495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "cbButtonText",
           "package": "paypal-api",
@@ -2298,6 +2505,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "cbButtonText",
           "package": "paypal-api",
@@ -2311,6 +2519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "cbCountry",
           "package": "paypal-api",
@@ -2320,6 +2529,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "cbCountry",
           "package": "paypal-api",
@@ -2333,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "cbExtras",
           "package": "paypal-api",
@@ -2342,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "cbExtras",
           "normalized": "[(ByteString,ByteString)]",
@@ -2357,6 +2569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "cbLanguage",
           "package": "paypal-api",
@@ -2366,6 +2579,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "cbLanguage",
           "package": "paypal-api",
@@ -2379,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "cbOptions",
           "package": "paypal-api",
@@ -2388,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "cbOptions",
           "package": "paypal-api",
@@ -2401,6 +2617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "cbVariables",
           "package": "paypal-api",
@@ -2410,6 +2627,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "cbVariables",
           "package": "paypal-api",
@@ -2423,6 +2641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "gbdButtonID",
           "package": "paypal-api",
@@ -2432,6 +2651,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "gbdButtonID",
           "package": "paypal-api",
@@ -2445,6 +2665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "getRankPrice",
           "package": "paypal-api",
@@ -2454,6 +2675,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "getRankPrice",
           "normalized": "a-\u003eRankPrice a-\u003eMaybe Rational",
@@ -2470,6 +2692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe price or amount of the item. Required for Add to Cart buttons. May not\n be used when a dropdown with price (L_OPTION0PRICEn) is defined.\n Limitations: Value must be a positive number. No currency symbol. Must have\n two decimal places, decimal separator must be a period (.), and the optional\n thousands separator must be a comma (,).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "itAmount",
           "package": "paypal-api",
@@ -2480,6 +2703,7 @@
         "index": {
           "description": "The price or amount of the item Required for Add to Cart buttons May not be used when dropdown with price OPTION0PRICEn is defined Limitations Value must be positive number No currency symbol Must have two decimal places decimal separator must be period and the optional thousands separator must be comma",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "itAmount",
           "package": "paypal-api",
@@ -2494,6 +2718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecure Merchant ID or Email Address. When omitted, defaults to the secure\n merchant ID of the merchant. If an email address is specified then it the\n following requirements apply:\n A merchant or 3rd Party calling the API directly may specify an\n unregistered email and create an unencrypted button only.\n A 3rd Party calling the API on behalf of a registered merchant must specify\n an email address associated with the merchant account.\n Character length and limitations: 127 single-byte characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "itBusiness",
           "package": "paypal-api",
@@ -2504,6 +2729,7 @@
         "index": {
           "description": "Secure Merchant ID or Email Address When omitted defaults to the secure merchant ID of the merchant If an email address is specified then it the following requirements apply merchant or rd Party calling the API directly may specify an unregistered email and create an unencrypted button only rd Party calling the API on behalf of registered merchant must specify an email address associated with the merchant account Character length and limitations single-byte characters",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "itBusiness",
           "package": "paypal-api",
@@ -2518,6 +2744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescription of item. If omitted, payers enter their own name at the time of payment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "itItemName",
           "package": "paypal-api",
@@ -2528,6 +2755,7 @@
         "index": {
           "description": "Description of item If omitted payers enter their own name at the time of payment",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "itItemName",
           "package": "paypal-api",
@@ -2542,6 +2770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eItem number or ID. Character length and limitations: 127 single-byte\n alphanumeric characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "itItemNumber",
           "package": "paypal-api",
@@ -2552,6 +2781,7 @@
         "index": {
           "description": "Item number or ID Character length and limitations single-byte alphanumeric characters",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "itItemNumber",
           "package": "paypal-api",
@@ -2566,6 +2796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of items. If profile-based shipping rates are configured with a basis\n of quantity, the sum of quantity values is used to calculate the shipping charges\n for the transaction. PayPal appends a sequence number to uniquely identify the\n item in the PayPal Shopping Cart (e.g., quantity1, quantity2).\n Note: The value for quantity must be a positive integer. Null, zero, or negative\n numbers are not allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "itQuantity",
           "package": "paypal-api",
@@ -2576,6 +2807,7 @@
         "index": {
           "description": "Number of items If profile-based shipping rates are configured with basis of quantity the sum of quantity values is used to calculate the shipping charges for the transaction PayPal appends sequence number to uniquely identify the item in the PayPal Shopping Cart e.g quantity1 quantity2 Note The value for quantity must be positive integer Null zero or negative numbers are not allowed",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "itQuantity",
           "package": "paypal-api",
@@ -2590,6 +2822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cost of shipping this item. If you specify shipping and shipping2 is not\n defined, this flat amount is charged regardless of the quantity of items purchased.\n This use of the shipping variable is valid only for Buy Now and Add to Cart buttons.\n Default - If profile-based shipping rates are configured, buyers are charged an\n amount according to the shipping methods they choose.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "itShipping",
           "package": "paypal-api",
@@ -2600,6 +2833,7 @@
         "index": {
           "description": "The cost of shipping this item If you specify shipping and shipping2 is not defined this flat amount is charged regardless of the quantity of items purchased This use of the shipping variable is valid only for Buy Now and Add to Cart buttons Default If profile-based shipping rates are configured buyers are charged an amount according to the shipping methods they choose",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "itShipping",
           "package": "paypal-api",
@@ -2614,6 +2848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cost of shipping each additional unit of this item. If omitted and\n profile-based shipping rates are configured, buyers are charged an amount according\n to the shipping methods they choose.\n Valid only for Buy Now and Add to Cart buttons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "itShipping2",
           "package": "paypal-api",
@@ -2624,6 +2859,7 @@
         "index": {
           "description": "The cost of shipping each additional unit of this item If omitted and profile-based shipping rates are configured buyers are charged an amount according to the shipping methods they choose Valid only for Buy Now and Add to Cart buttons",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "itShipping2",
           "package": "paypal-api",
@@ -2638,6 +2874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransaction-based tax override variable. Set this to a flat tax amount to apply\n to the transaction regardless of the buyer's location. This value overrides any tax\n settings set in your account profile. Valid only for Buy Now and Add to Cart buttons.\n Default - Profile tax settings, if any, apply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "itTax",
           "package": "paypal-api",
@@ -2648,6 +2885,7 @@
         "index": {
           "description": "Transaction-based tax override variable Set this to flat tax amount to apply to the transaction regardless of the buyer location This value overrides any tax settings set in your account profile Valid only for Buy Now and Add to Cart buttons Default Profile tax settings if any apply",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "itTax",
           "package": "paypal-api",
@@ -2662,6 +2900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransaction-based tax override variable. Set this to a percentage that will be\n applied to amount multiplied the quantity selected during checkout. This value\n overrides any tax settings set in your account profile. Allowable values are numbers\n 0.001 through 100. Valid only for Buy Now and Add to Cart buttons. Default - Profile\n tax settings, if any, apply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "itTaxRate",
           "package": "paypal-api",
@@ -2672,6 +2911,7 @@
         "index": {
           "description": "Transaction-based tax override variable Set this to percentage that will be applied to amount multiplied the quantity selected during checkout This value overrides any tax settings set in your account profile Allowable values are numbers through Valid only for Buy Now and Add to Cart buttons Default Profile tax settings if any apply",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "itTaxRate",
           "package": "paypal-api",
@@ -2686,6 +2926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue = allows buyers to specify the quantity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "itUndefinedQuantity",
           "package": "paypal-api",
@@ -2696,6 +2937,7 @@
         "index": {
           "description": "True allows buyers to specify the quantity",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "itUndefinedQuantity",
           "package": "paypal-api",
@@ -2710,6 +2952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeight of items. If profile-based shipping rates are configured with a basis of\n weight, the sum of weight values is used to calculate the shipping charges for the\n transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "itWeight",
           "package": "paypal-api",
@@ -2720,6 +2963,7 @@
         "index": {
           "description": "Weight of items If profile-based shipping rates are configured with basis of weight the sum of weight values is used to calculate the shipping charges for the transaction",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "itWeight",
           "normalized": "Maybe(Double,WeightUnit)",
@@ -2735,6 +2979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "opName",
           "package": "paypal-api",
@@ -2744,6 +2989,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "opName",
           "package": "paypal-api",
@@ -2757,6 +3003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "opSelects",
           "package": "paypal-api",
@@ -2766,6 +3013,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "opSelects",
           "normalized": "[Select a]",
@@ -2782,6 +3030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue: The address specified in prepopulation variables overrides the\n PayPal member's stored address. The payer is shown the passed-in\n address but cannot edit it. No address is shown if the address is not\n valid, such as missing required fields like country, or is not\n included at all.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "payAddressOverride",
           "package": "paypal-api",
@@ -2792,6 +3041,7 @@
         "index": {
           "description": "True The address specified in prepopulation variables overrides the PayPal member stored address The payer is shown the passed-in address but cannot edit it No address is shown if the address is not valid such as missing required fields like country or is not included at all",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "payAddressOverride",
           "package": "paypal-api",
@@ -2806,6 +3056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe currency of the payment. The default is USD. (3 chars)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "payCurrencyCode",
           "package": "paypal-api",
@@ -2816,6 +3067,7 @@
         "index": {
           "description": "The currency of the payment The default is USD chars",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "payCurrencyCode",
           "package": "paypal-api",
@@ -2830,6 +3082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePassthrough variable never presented to the payer.\n Default - No variable is passed back to you.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "payCustom",
           "package": "paypal-api",
@@ -2840,6 +3093,7 @@
         "index": {
           "description": "Passthrough variable never presented to the payer Default No variable is passed back to you",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "payCustom",
           "package": "paypal-api",
@@ -2854,6 +3108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandling charges. This is not quantity-specific. The same handling\n cost applies, regardless of the number of items on the order.\n Default - No handling charges are included. (256 chars)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "payHandling",
           "package": "paypal-api",
@@ -2864,6 +3119,7 @@
         "index": {
           "description": "Handling charges This is not quantity-specific The same handling cost applies regardless of the number of items on the order Default No handling charges are included chars",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "payHandling",
           "package": "paypal-api",
@@ -2878,6 +3134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePassthrough variable you can use to identify your invoice number\n for this purchase. (127 chars)\n Default - No variable is passed back to you.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "payInvoice",
           "package": "paypal-api",
@@ -2888,6 +3145,7 @@
         "index": {
           "description": "Passthrough variable you can use to identify your invoice number for this purchase chars Default No variable is passed back to you",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "payInvoice",
           "package": "paypal-api",
@@ -2902,6 +3160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCart-wide tax, overriding any individual item tax_x value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "payTaxCart",
           "package": "paypal-api",
@@ -2912,6 +3171,7 @@
         "index": {
           "description": "Cart-wide tax overriding any individual item tax value",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "payTaxCart",
           "package": "paypal-api",
@@ -2926,6 +3186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf profile-based shipping rates are configured with a basis of\n weight, PayPal uses this value to calculate the shipping charges for\n the transaction. This value overrides the weight values of\n individual items.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "payWeight",
           "package": "paypal-api",
@@ -2936,6 +3197,7 @@
         "index": {
           "description": "If profile-based shipping rates are configured with basis of weight PayPal uses this value to calculate the shipping charges for the transaction This value overrides the weight values of individual items",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "payWeight",
           "normalized": "Maybe(Double,WeightUnit)",
@@ -2952,6 +3214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ep3 Regular billing cycle. Must be specified for Subscribe buttons. Limitations:\n   Must be a positive integer greater than 0 and less than or equal to 30\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "ppCycle",
           "package": "paypal-api",
@@ -2962,6 +3225,7 @@
         "index": {
           "description": "p3 Regular billing cycle Must be specified for Subscribe buttons Limitations Must be positive integer greater than and less than or equal to",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "ppCycle",
           "package": "paypal-api",
@@ -2976,6 +3240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003et3 Regular billing cycle units. Must be specified for Subscribe buttons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "ppCycleUnits",
           "package": "paypal-api",
@@ -2986,6 +3251,7 @@
         "index": {
           "description": "t3 Regular billing cycle units Must be specified for Subscribe buttons",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "ppCycleUnits",
           "package": "paypal-api",
@@ -3000,6 +3266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea3 Price of subscription. Must be specified for Subscribe buttons. Value must be\n a positive number. No currency symbol. Must have two decimal places,\n decimal separator must be a period (.), and the optional thousands separator\n must be a comma (,).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "ppPrice",
           "package": "paypal-api",
@@ -3010,6 +3277,7 @@
         "index": {
           "description": "a3 Price of subscription Must be specified for Subscribe buttons Value must be positive number No currency symbol Must have two decimal places decimal separator must be period and the optional thousands separator must be comma",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "ppPrice",
           "package": "paypal-api",
@@ -3023,6 +3291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "seName",
           "package": "paypal-api",
@@ -3032,6 +3301,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "seName",
           "package": "paypal-api",
@@ -3045,6 +3315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "sePrice",
           "package": "paypal-api",
@@ -3054,6 +3325,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "sePrice",
           "package": "paypal-api",
@@ -3067,6 +3339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "setRankPrice",
           "package": "paypal-api",
@@ -3076,6 +3349,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "setRankPrice",
           "normalized": "a-\u003eMaybe Rational-\u003eRankPrice a",
@@ -3092,6 +3366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYour PayPal ID or an email address associated with your PayPal account. Email\n addresses must be confirmed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "suBusiness",
           "package": "paypal-api",
@@ -3102,6 +3377,7 @@
         "index": {
           "description": "Your PayPal ID or an email address associated with your PayPal account Email addresses must be confirmed",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "suBusiness",
           "package": "paypal-api",
@@ -3116,6 +3392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe currency of prices for trial periods and the subscription. The default is USD.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "suCurrencyCode",
           "package": "paypal-api",
@@ -3126,6 +3403,7 @@
         "index": {
           "description": "The currency of prices for trial periods and the subscription The default is USD",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "suCurrencyCode",
           "package": "paypal-api",
@@ -3140,6 +3418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser-defined field which will be passed through the system and returned\n in your merchant payment notification email. This field will not be shown to your subscribers.\n Default - No variable is passed back to you.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "suCustom",
           "package": "paypal-api",
@@ -3150,6 +3429,7 @@
         "index": {
           "description": "User-defined field which will be passed through the system and returned in your merchant payment notification email This field will not be shown to your subscribers Default No variable is passed back to you",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "suCustom",
           "package": "paypal-api",
@@ -3164,6 +3444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser-defined field which must be unique with each subscription. The invoice\n number will be shown to subscribers with the other details of their transactions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "suInvoice",
           "package": "paypal-api",
@@ -3174,6 +3455,7 @@
         "index": {
           "description": "User-defined field which must be unique with each subscription The invoice number will be shown to subscribers with the other details of their transactions",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "suInvoice",
           "package": "paypal-api",
@@ -3188,6 +3470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescription of item being sold (maximum 127 characters). If you are collecting\n aggregate payments, this can include a summary of all items purchased, tracking\n numbers, or generic terms such as \u003ca\u003esubscription.\u003c/a\u003e If omitted, customer will see\n a field in which they have the option of entering an Item Name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "suItemName",
           "package": "paypal-api",
@@ -3198,6 +3481,7 @@
         "index": {
           "description": "Description of item being sold maximum characters If you are collecting aggregate payments this can include summary of all items purchased tracking numbers or generic terms such as subscription If omitted customer will see field in which they have the option of entering an Item Name",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "suItemName",
           "package": "paypal-api",
@@ -3212,6 +3496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModification behavior. Allowable values:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 0 - allows subscribers to only create new subscriptions\n\u003c/li\u003e\u003cli\u003e 1 - allows subscribers to modify their current subscriptions or sign up for new ones\n\u003c/li\u003e\u003cli\u003e 2 - allows subscribers to only modify their current subscriptions\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe default value is 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "suModification",
           "package": "paypal-api",
@@ -3222,6 +3507,7 @@
         "index": {
           "description": "Modification behavior Allowable values allows subscribers to only create new subscriptions allows subscribers to modify their current subscriptions or sign up for new ones allows subscribers to only modify their current subscriptions The default value is",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "suModification",
           "package": "paypal-api",
@@ -3236,6 +3522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNothing = Subscription payments do not recur.\n Just (times, reattempt) = Subscription payments recur. times = Number of times that subscription\n payments recur. Specify an integer above 1.\n reattempt: false = do not reattempt failed recurring payments\n            true = reattempt failed recurring payments before canceling\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "suRecurring",
           "package": "paypal-api",
@@ -3246,6 +3533,7 @@
         "index": {
           "description": "Nothing Subscription payments do not recur Just times reattempt Subscription payments recur times Number of times that subscription payments recur Specify an integer above reattempt false do not reattempt failed recurring payments true reattempt failed recurring payments before canceling",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "suRecurring",
           "normalized": "Maybe(Int,Bool)",
@@ -3261,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "suRegularPrice",
           "package": "paypal-api",
@@ -3270,6 +3559,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "suRegularPrice",
           "package": "paypal-api",
@@ -3284,6 +3574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrial period 1 price. For a free trial period, specify 0.\n Trial period 2 price. Can be specified only if you also specify a1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "suTrialPeriod",
           "package": "paypal-api",
@@ -3294,6 +3585,7 @@
         "index": {
           "description": "Trial period price For free trial period specify Trial period price Can be specified only if you also specify a1",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "suTrialPeriod",
           "normalized": "Maybe(PeriodicPrice,Maybe PeriodicPrice)",
@@ -3310,6 +3602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet to 1 to have PayPal generate usernames and initial passwords for subscribers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "suUserManage",
           "package": "paypal-api",
@@ -3320,6 +3613,7 @@
         "index": {
           "description": "Set to to have PayPal generate usernames and initial passwords for subscribers",
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "suUserManage",
           "package": "paypal-api",
@@ -3333,6 +3627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "ubButtonID",
           "package": "paypal-api",
@@ -3342,6 +3637,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "ubButtonID",
           "package": "paypal-api",
@@ -3355,6 +3651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.ButtonManager",
           "name": "ubDetails",
           "package": "paypal-api",
@@ -3364,6 +3661,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal ButtonManager",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.ButtonManager",
           "name": "ubDetails",
           "package": "paypal-api",
@@ -3377,6 +3675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.NVP",
           "name": "NVP",
           "package": "paypal-api",
@@ -3385,6 +3684,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal NVP",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.NVP",
           "name": "NVP",
           "package": "paypal-api",
@@ -3399,6 +3699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA PayPal service.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.NVP",
           "name": "Service",
           "package": "paypal-api",
@@ -3408,6 +3709,7 @@
         "index": {
           "description": "PayPal service",
           "hierarchy": "Network PayPal NVP",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.NVP",
           "name": "Service",
           "package": "paypal-api",
@@ -3422,6 +3724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePayPal live system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.NVP",
           "name": "live",
           "package": "paypal-api",
@@ -3432,6 +3735,7 @@
         "index": {
           "description": "PayPal live system",
           "hierarchy": "Network PayPal NVP",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.NVP",
           "name": "live",
           "package": "paypal-api",
@@ -3445,6 +3749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an HTTP request for the specified PayPal request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.NVP",
           "name": "prepareRequest",
           "package": "paypal-api",
@@ -3455,6 +3760,7 @@
         "index": {
           "description": "Construct an HTTP request for the specified PayPal request",
           "hierarchy": "Network PayPal NVP",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.NVP",
           "name": "prepareRequest",
           "normalized": "Service-\u003eCredentials-\u003ea-\u003eRequest b",
@@ -3470,6 +3776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.NVP",
           "name": "processResponse",
           "package": "paypal-api",
@@ -3479,6 +3786,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal NVP",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.NVP",
           "name": "processResponse",
           "normalized": "a-\u003eResponse ByteString-\u003eb(Either(Response ByteString)(Status(PayPalResponse a)))",
@@ -3495,6 +3803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePayPal sandbox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.NVP",
           "name": "sandbox",
           "package": "paypal-api",
@@ -3505,6 +3814,7 @@
         "index": {
           "description": "PayPal sandbox",
           "hierarchy": "Network PayPal NVP",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.NVP",
           "name": "sandbox",
           "package": "paypal-api",
@@ -3518,6 +3828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubmit a request to PayPal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.NVP",
           "name": "submit",
           "package": "paypal-api",
@@ -3528,6 +3839,7 @@
         "index": {
           "description": "Submit request to PayPal",
           "hierarchy": "Network PayPal NVP",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.NVP",
           "name": "submit",
           "normalized": "Service-\u003eCredentials-\u003ea-\u003eb(Either(Response ByteString)(Status(PayPalResponse a)))",
@@ -3542,6 +3854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "Types",
           "package": "paypal-api",
@@ -3550,6 +3863,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "Types",
           "package": "paypal-api",
@@ -3563,6 +3877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "Credentials",
           "package": "paypal-api",
@@ -3571,6 +3886,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "Credentials",
           "package": "paypal-api",
@@ -3584,6 +3900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "FromText",
           "package": "paypal-api",
@@ -3592,6 +3909,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "FromText",
           "package": "paypal-api",
@@ -3605,6 +3923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "FromVariables",
           "package": "paypal-api",
@@ -3613,6 +3932,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "FromVariables",
           "package": "paypal-api",
@@ -3626,6 +3946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "PayPalRequest",
           "package": "paypal-api",
@@ -3634,6 +3955,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "PayPalRequest",
           "package": "paypal-api",
@@ -3648,6 +3970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecurity.  Signature only at present:  Certificate security is not yet supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "Security",
           "package": "paypal-api",
@@ -3657,6 +3980,7 @@
         "index": {
           "description": "Security Signature only at present Certificate security is not yet supported",
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "Security",
           "package": "paypal-api",
@@ -3670,6 +3994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "Status",
           "package": "paypal-api",
@@ -3678,6 +4003,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "Status",
           "package": "paypal-api",
@@ -3691,6 +4017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "ToText",
           "package": "paypal-api",
@@ -3699,6 +4026,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "ToText",
           "package": "paypal-api",
@@ -3712,6 +4040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "ToVariables",
           "package": "paypal-api",
@@ -3720,6 +4049,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "ToVariables",
           "package": "paypal-api",
@@ -3733,6 +4063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "Credentials",
           "package": "paypal-api",
@@ -3742,6 +4073,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "Credentials",
           "package": "paypal-api",
@@ -3755,6 +4087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "Failure",
           "package": "paypal-api",
@@ -3764,6 +4097,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "Failure",
           "normalized": "Failure[Message]",
@@ -3779,6 +4113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "ParseFailure",
           "package": "paypal-api",
@@ -3788,6 +4123,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "ParseFailure",
           "normalized": "ParseFailure[(ByteString,ByteString)]String",
@@ -3803,6 +4139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "Signature",
           "package": "paypal-api",
@@ -3812,6 +4149,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "Signature",
           "package": "paypal-api",
@@ -3825,6 +4163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "Success",
           "package": "paypal-api",
@@ -3834,6 +4173,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "Success",
           "package": "paypal-api",
@@ -3847,6 +4187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "crPassword",
           "package": "paypal-api",
@@ -3856,6 +4197,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "crPassword",
           "package": "paypal-api",
@@ -3869,6 +4211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "crSecurity",
           "package": "paypal-api",
@@ -3878,6 +4221,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "crSecurity",
           "package": "paypal-api",
@@ -3891,6 +4235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "crUsername",
           "package": "paypal-api",
@@ -3900,6 +4245,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "crUsername",
           "package": "paypal-api",
@@ -3914,6 +4260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ee.g. \u003ca\u003e56.0\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "crVersion",
           "package": "paypal-api",
@@ -3924,6 +4271,7 @@
         "index": {
           "description": "e.g",
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "crVersion",
           "package": "paypal-api",
@@ -3937,6 +4285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "decodeResponse",
           "package": "paypal-api",
@@ -3946,6 +4295,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "decodeResponse",
           "normalized": "Map ByteString ByteString-\u003eStatus(PayPalResponse a)",
@@ -3962,6 +4312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck for errors, then delegate to decodeResponse if there aren't any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "decodeResponseChecking",
           "package": "paypal-api",
@@ -3972,6 +4323,7 @@
         "index": {
           "description": "Check for errors then delegate to decodeResponse if there aren any",
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "decodeResponseChecking",
           "normalized": "[(ByteString,ByteString)]-\u003eStatus(PayPalResponse a)",
@@ -3987,6 +4339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "fromText",
           "package": "paypal-api",
@@ -3996,6 +4349,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "fromText",
           "normalized": "ByteString-\u003eMaybe a",
@@ -4011,6 +4365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "fromTextTime",
           "package": "paypal-api",
@@ -4020,6 +4375,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "fromTextTime",
           "normalized": "ByteString-\u003eMaybe a",
@@ -4035,6 +4391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "fromVariables",
           "package": "paypal-api",
@@ -4044,6 +4401,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "fromVariables",
           "normalized": "Map ByteString ByteString-\u003eEither String a",
@@ -4059,6 +4417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "toText",
           "package": "paypal-api",
@@ -4068,6 +4427,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "toText",
           "normalized": "a-\u003eByteString",
@@ -4083,6 +4443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "toTextTime",
           "package": "paypal-api",
@@ -4092,6 +4453,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "toTextTime",
           "normalized": "a-\u003eByteString",
@@ -4107,6 +4469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:04 UTC 2014",
           "module": "Network.PayPal.Types",
           "name": "toVariables",
           "package": "paypal-api",
@@ -4116,6 +4479,7 @@
         },
         "index": {
           "hierarchy": "Network PayPal Types",
+          "indexed": "2014-03-11T19:36:04",
           "module": "Network.PayPal.Types",
           "name": "toVariables",
           "normalized": "a-\u003e[(ByteString,ByteString)]",

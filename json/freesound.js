@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "freesound"
+        "phrase": "freesound",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "Properties",
           "package": "freesound",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "Properties",
           "package": "freesound",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescription of a \u003ccode\u003eSample\u003c/code\u003e, containing user and text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "Description",
           "package": "freesound",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Description of Sample containing user and text",
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "Description",
           "package": "freesound",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperties of a \u003ccode\u003eSample\u003c/code\u003e in the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "Properties",
           "package": "freesound",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Properties of Sample in the database",
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "Properties",
           "package": "freesound",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatistics of a \u003ccode\u003eSample\u003c/code\u003e in the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "Statistics",
           "package": "freesound",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Statistics of Sample in the database",
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "Statistics",
           "package": "freesound",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTag (a single word) for describing a \u003ccode\u003eSound\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "Tag",
           "package": "freesound",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Tag single word for describing Sound",
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "Tag",
           "package": "freesound",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser of the Freesound database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "User",
           "package": "freesound",
@@ -141,6 +152,7 @@
         "index": {
           "description": "User of the Freesound database",
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "User",
           "package": "freesound",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "Description",
           "package": "freesound",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "Description",
           "package": "freesound",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "Properties",
           "package": "freesound",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "Properties",
           "package": "freesound",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "Statistics",
           "package": "freesound",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "Statistics",
           "package": "freesound",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "User",
           "package": "freesound",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "User",
           "package": "freesound",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "bitDepth",
           "package": "freesound",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "bitDepth",
           "package": "freesound",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "bitRate",
           "package": "freesound",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "bitRate",
           "package": "freesound",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "channels",
           "package": "freesound",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "channels",
           "package": "freesound",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "colors",
           "package": "freesound",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "colors",
           "package": "freesound",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "date",
           "package": "freesound",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "date",
           "package": "freesound",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "descriptions",
           "package": "freesound",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "descriptions",
           "normalized": "[Description]",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "downloads",
           "package": "freesound",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "downloads",
           "package": "freesound",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "duration",
           "package": "freesound",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "duration",
           "package": "freesound",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "extension",
           "package": "freesound",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "extension",
           "package": "freesound",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "fileSize",
           "package": "freesound",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "fileSize",
           "package": "freesound",
@@ -458,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a \u003ccode\u003e\u003ca\u003eProperties\u003c/a\u003e\u003c/code\u003e value from an \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003e in the \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "fromXML",
           "package": "freesound",
@@ -468,6 +509,7 @@
         "index": {
           "description": "Read Properties value from an Element in the Maybe monad",
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "fromXML",
           "normalized": "Element-\u003eMaybe Properties",
@@ -483,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "image",
           "package": "freesound",
@@ -492,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "image",
           "package": "freesound",
@@ -505,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a list of \u003ccode\u003e\u003ca\u003eProperties\u003c/a\u003e\u003c/code\u003e from an \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "listFromXML",
           "package": "freesound",
@@ -515,6 +560,7 @@
         "index": {
           "description": "Read list of Properties from an Element",
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "listFromXML",
           "normalized": "Element-\u003e[Properties]",
@@ -530,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "originalFileName",
           "package": "freesound",
@@ -539,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "originalFileName",
           "package": "freesound",
@@ -552,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "preview",
           "package": "freesound",
@@ -561,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "preview",
           "package": "freesound",
@@ -573,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "rating",
           "package": "freesound",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "rating",
           "normalized": "(Int,Int)",
@@ -596,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "sampleId",
           "package": "freesound",
@@ -605,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "sampleId",
           "package": "freesound",
@@ -618,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "sampleRate",
           "package": "freesound",
@@ -627,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "sampleRate",
           "package": "freesound",
@@ -640,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "statistics",
           "package": "freesound",
@@ -649,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "statistics",
           "package": "freesound",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "tags",
           "package": "freesound",
@@ -670,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "tags",
           "normalized": "[Tag]",
@@ -684,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "user",
           "package": "freesound",
@@ -693,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "user",
           "package": "freesound",
@@ -705,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "userId",
           "package": "freesound",
@@ -714,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "userId",
           "package": "freesound",
@@ -727,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Properties",
           "name": "userName",
           "package": "freesound",
@@ -736,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Properties",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Properties",
           "name": "userName",
           "package": "freesound",
@@ -749,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Query",
           "name": "Query",
           "package": "freesound",
@@ -757,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Query",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Query",
           "name": "Query",
           "package": "freesound",
@@ -771,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e type for searching the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Query",
           "name": "Query",
           "package": "freesound",
@@ -780,6 +849,7 @@
         "index": {
           "description": "Query type for searching the database",
           "hierarchy": "Sound Freesound Query",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Query",
           "name": "Query",
           "package": "freesound",
@@ -793,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Query",
           "name": "Query",
           "package": "freesound",
@@ -802,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Query",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Query",
           "name": "Query",
           "package": "freesound",
@@ -816,6 +888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBit depth of the soundfile\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Query",
           "name": "bitDepth",
           "package": "freesound",
@@ -826,6 +899,7 @@
         "index": {
           "description": "Bit depth of the soundfile",
           "hierarchy": "Sound Freesound Query",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Query",
           "name": "bitDepth",
           "package": "freesound",
@@ -840,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBit rate of the soundfile\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Query",
           "name": "bitRate",
           "package": "freesound",
@@ -850,6 +925,7 @@
         "index": {
           "description": "Bit rate of the soundfile",
           "hierarchy": "Sound Freesound Query",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Query",
           "name": "bitRate",
           "package": "freesound",
@@ -864,6 +940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum duration in seconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Query",
           "name": "maxDur",
           "package": "freesound",
@@ -874,6 +951,7 @@
         "index": {
           "description": "Maximum duration in seconds",
           "hierarchy": "Sound Freesound Query",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Query",
           "name": "maxDur",
           "package": "freesound",
@@ -888,6 +966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimum duration in seconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Query",
           "name": "minDur",
           "package": "freesound",
@@ -898,6 +977,7 @@
         "index": {
           "description": "Minimum duration in seconds",
           "hierarchy": "Sound Freesound Query",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Query",
           "name": "minDur",
           "package": "freesound",
@@ -912,6 +992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample rate of the soundfile\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Query",
           "name": "sampleRate",
           "package": "freesound",
@@ -922,6 +1003,7 @@
         "index": {
           "description": "Sample rate of the soundfile",
           "hierarchy": "Sound Freesound Query",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Query",
           "name": "sampleRate",
           "package": "freesound",
@@ -936,6 +1018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe query string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Query",
           "name": "string",
           "package": "freesound",
@@ -946,6 +1029,7 @@
         "index": {
           "description": "The query string",
           "hierarchy": "Sound Freesound Query",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Query",
           "name": "string",
           "package": "freesound",
@@ -959,6 +1043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e to search the database for a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Query",
           "name": "stringQuery",
           "package": "freesound",
@@ -969,6 +1054,7 @@
         "index": {
           "description": "Construct Query to search the database for String",
           "hierarchy": "Sound Freesound Query",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Query",
           "name": "stringQuery",
           "normalized": "String-\u003eQuery",
@@ -985,6 +1071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a query to POST request fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Query",
           "name": "toPostFields",
           "package": "freesound",
@@ -995,6 +1082,7 @@
         "index": {
           "description": "Convert query to POST request fields",
           "hierarchy": "Sound Freesound Query",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Query",
           "name": "toPostFields",
           "normalized": "Query-\u003e[String]",
@@ -1010,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Sample",
           "name": "Sample",
           "package": "freesound",
@@ -1018,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound Sample",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Sample",
           "name": "Sample",
           "package": "freesound",
@@ -1032,6 +1122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle to a sample in the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Sample",
           "name": "Sample",
           "package": "freesound",
@@ -1041,6 +1132,7 @@
         "index": {
           "description": "handle to sample in the database",
           "hierarchy": "Sound Freesound Sample",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Sample",
           "name": "Sample",
           "package": "freesound",
@@ -1078,6 +1170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a \u003ccode\u003e\u003ca\u003eSample\u003c/a\u003e\u003c/code\u003e from an \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Sample",
           "name": "fromXML",
           "package": "freesound",
@@ -1088,6 +1181,7 @@
         "index": {
           "description": "Read Sample from an Element",
           "hierarchy": "Sound Freesound Sample",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Sample",
           "name": "fromXML",
           "normalized": "Element-\u003eMaybe Sample",
@@ -1104,6 +1198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a list of \u003ccode\u003e\u003ca\u003eSample\u003c/a\u003e\u003c/code\u003es from an \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound.Sample",
           "name": "listFromXML",
           "package": "freesound",
@@ -1114,6 +1209,7 @@
         "index": {
           "description": "Read list of Sample from an Element",
           "hierarchy": "Sound Freesound Sample",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound.Sample",
           "name": "listFromXML",
           "normalized": "Element-\u003e[Sample]",
@@ -1153,6 +1249,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides access to the Freesound Project, a database of\n Creative Commons licensed sounds.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.freesound.org/\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://www.creativecommons.org/\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound",
           "name": "Freesound",
           "package": "freesound",
@@ -1162,6 +1259,7 @@
         "index": {
           "description": "This module provides access to the Freesound Project database of Creative Commons licensed sounds http www.freesound.org http www.creativecommons.org",
           "hierarchy": "Sound Freesound",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound",
           "name": "Freesound",
           "package": "freesound",
@@ -1176,6 +1274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound",
           "name": "Error",
           "package": "freesound",
@@ -1185,6 +1284,7 @@
         "index": {
           "description": "Error type",
           "hierarchy": "Sound Freesound",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound",
           "name": "Error",
           "package": "freesound",
@@ -1199,6 +1299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eFreesound\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound",
           "name": "Freesound",
           "package": "freesound",
@@ -1208,6 +1309,7 @@
         "index": {
           "description": "The Freesound monad",
           "hierarchy": "Sound Freesound",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound",
           "name": "Freesound",
           "package": "freesound",
@@ -1222,6 +1324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle to a sample in the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound",
           "name": "Sample",
           "package": "freesound",
@@ -1231,6 +1334,7 @@
         "index": {
           "description": "handle to sample in the database",
           "hierarchy": "Sound Freesound",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound",
           "name": "Sample",
           "package": "freesound",
@@ -1245,6 +1349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilarity type used by \u003ccode\u003e\u003ca\u003esearchSimilar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound",
           "name": "Similarity",
           "package": "freesound",
@@ -1254,6 +1359,7 @@
         "index": {
           "description": "Similarity type used by searchSimilar",
           "hierarchy": "Sound Freesound",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound",
           "name": "Similarity",
           "package": "freesound",
@@ -1267,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound",
           "name": "CurlError",
           "package": "freesound",
@@ -1276,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound",
           "name": "CurlError",
           "package": "freesound",
@@ -1289,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound",
           "name": "Dissimilar",
           "package": "freesound",
@@ -1298,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound",
           "name": "Dissimilar",
           "package": "freesound",
@@ -1311,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound",
           "name": "Error",
           "package": "freesound",
@@ -1320,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound",
           "name": "Error",
           "package": "freesound",
@@ -1333,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound",
           "name": "LoginError",
           "package": "freesound",
@@ -1342,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound",
           "name": "LoginError",
           "package": "freesound",
@@ -1355,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound",
           "name": "Similar",
           "package": "freesound",
@@ -1364,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound",
           "name": "Similar",
           "package": "freesound",
@@ -1377,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound",
           "name": "UnknownError",
           "package": "freesound",
@@ -1386,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound",
           "name": "UnknownError",
           "package": "freesound",
@@ -1399,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound",
           "name": "XMLError",
           "package": "freesound",
@@ -1408,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "Sound Freesound",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound",
           "name": "XMLError",
           "package": "freesound",
@@ -1422,6 +1542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDownload a \u003ccode\u003e\u003ca\u003eSample\u003c/a\u003e\u003c/code\u003e as an instance of \u003ccode\u003e\u003ca\u003eCurlBuffer\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound",
           "name": "download",
           "package": "freesound",
@@ -1432,6 +1553,7 @@
         "index": {
           "description": "Download Sample as an instance of CurlBuffer",
           "hierarchy": "Sound Freesound",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound",
           "name": "download",
           "normalized": "Sample-\u003eFreesound a",
@@ -1447,6 +1569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound",
           "name": "errorString",
           "package": "freesound",
@@ -1457,6 +1580,7 @@
         "index": {
           "description": "Convert an Error into String",
           "hierarchy": "Sound Freesound",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound",
           "name": "errorString",
           "normalized": "Error-\u003eString",
@@ -1473,6 +1597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the properties of a \u003ccode\u003e\u003ca\u003eSample\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound",
           "name": "properties",
           "package": "freesound",
@@ -1483,6 +1608,7 @@
         "index": {
           "description": "Get the properties of Sample",
           "hierarchy": "Sound Freesound",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound",
           "name": "properties",
           "normalized": "Sample-\u003eFreesound Properties",
@@ -1498,6 +1624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the properties of a \u003ccode\u003e\u003ca\u003eSample\u003c/a\u003e\u003c/code\u003e as an XML document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound",
           "name": "propertiesXML",
           "package": "freesound",
@@ -1508,6 +1635,7 @@
         "index": {
           "description": "Get the properties of Sample as an XML document",
           "hierarchy": "Sound Freesound",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound",
           "name": "propertiesXML",
           "normalized": "Sample-\u003eFreesound Element",
@@ -1524,6 +1652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch the Freesound database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound",
           "name": "search",
           "package": "freesound",
@@ -1534,6 +1663,7 @@
         "index": {
           "description": "Search the Freesound database",
           "hierarchy": "Sound Freesound",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound",
           "name": "search",
           "normalized": "Query-\u003eFreesound[Sample]",
@@ -1549,6 +1679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch samples similar (or dissimilar) to a \u003ccode\u003e\u003ca\u003eSample\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound",
           "name": "searchSimilar",
           "package": "freesound",
@@ -1559,6 +1690,7 @@
         "index": {
           "description": "Search samples similar or dissimilar to Sample",
           "hierarchy": "Sound Freesound",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound",
           "name": "searchSimilar",
           "normalized": "Similarity-\u003eSample-\u003eFreesound[Sample]",
@@ -1575,6 +1707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog into Freesound with and perform an action in the \u003ccode\u003e\u003ca\u003eFreesound\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:33 UTC 2014",
           "module": "Sound.Freesound",
           "name": "withFreesound",
           "package": "freesound",
@@ -1585,6 +1718,7 @@
         "index": {
           "description": "Log into Freesound with and perform an action in the Freesound monad",
           "hierarchy": "Sound Freesound",
+          "indexed": "2014-03-11T18:12:33",
           "module": "Sound.Freesound",
           "name": "withFreesound",
           "normalized": "String-\u003eString-\u003eFreesound a-\u003eIO(Either Error a)",

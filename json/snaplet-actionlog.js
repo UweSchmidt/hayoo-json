@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snaplet-actionlog"
+        "phrase": "snaplet-actionlog",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "ActionLog",
           "package": "snaplet-actionlog",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "ActionLog",
           "package": "snaplet-actionlog",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpaque data type holding any state needed by the action log snaplet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "ActionLog",
           "package": "snaplet-actionlog",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Opaque data type holding any state needed by the action log snaplet",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "ActionLog",
           "package": "snaplet-actionlog",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of possible actions in the action log.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "ActionType",
           "package": "snaplet-actionlog",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Enumeration of possible actions in the action log",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "ActionType",
           "package": "snaplet-actionlog",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "CanDelta",
           "package": "snaplet-actionlog",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "CanDelta",
           "package": "snaplet-actionlog",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo store deltas, you need to be able to get Text representations of each\n field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "DeltaField",
           "package": "snaplet-actionlog",
@@ -116,6 +125,7 @@
         "index": {
           "description": "To store deltas you need to be able to get Text representations of each field",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "DeltaField",
           "package": "snaplet-actionlog",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class that must be implemented to have an action log.  You do not\n have to have any custom splices.  If you don't need to add splices to what\n the snaplet provides by default, just have the custom splice functions\n return an empty list.\n\u003c/p\u003e\u003cp\u003eOne potential use for the custom splices might be if you want to display\n your own custom information in action log lists.  Maybe you want to display\n a user email address in addition to their name, or maybe instead of\n displaying raw entity IDs you want to do some DB query to get a different\n field for display.  The custom splices allow you to make any runtime\n function of a LoggedAction into a splice that can be displayed in action\n log templates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "HasActionLog",
           "package": "snaplet-actionlog",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Type class that must be implemented to have an action log You do not have to have any custom splices If you don need to add splices to what the snaplet provides by default just have the custom splice functions return an empty list One potential use for the custom splices might be if you want to display your own custom information in action log lists Maybe you want to display user email address in addition to their name or maybe instead of displaying raw entity IDs you want to do some DB query to get different field for display The custom splices allow you to make any runtime function of LoggedAction into splice that can be displayed in action log templates",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "HasActionLog",
           "package": "snaplet-actionlog",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "LoggedAction",
           "package": "snaplet-actionlog",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "LoggedAction",
           "package": "snaplet-actionlog",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "LoggedActionDetails",
           "package": "snaplet-actionlog",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "LoggedActionDetails",
           "package": "snaplet-actionlog",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "LoggedActionDetailsGeneric",
           "package": "snaplet-actionlog",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "LoggedActionDetailsGeneric",
           "package": "snaplet-actionlog",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "LoggedActionDetailsId",
           "package": "snaplet-actionlog",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "LoggedActionDetailsId",
           "package": "snaplet-actionlog",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "LoggedActionGeneric",
           "package": "snaplet-actionlog",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "LoggedActionGeneric",
           "package": "snaplet-actionlog",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "LoggedActionId",
           "package": "snaplet-actionlog",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "LoggedActionId",
           "package": "snaplet-actionlog",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "CreateAction",
           "package": "snaplet-actionlog",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "CreateAction",
           "package": "snaplet-actionlog",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "DeleteAction",
           "package": "snaplet-actionlog",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "DeleteAction",
           "package": "snaplet-actionlog",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "LoggedAction",
           "package": "snaplet-actionlog",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "LoggedAction",
           "package": "snaplet-actionlog",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "LoggedActionDetails",
           "package": "snaplet-actionlog",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "LoggedActionDetails",
           "package": "snaplet-actionlog",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "UpdateAction",
           "package": "snaplet-actionlog",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "UpdateAction",
           "package": "snaplet-actionlog",
@@ -389,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of entity definitions this snaplet exposes. You need them so\n that you can append to your application's list of entity definitions and\n perform the migration in one block.\n\u003c/p\u003e\u003cp\u003eHere's an example of how to combine your app's own entity definitions and\n the action log's in one migration block:\n\u003c/p\u003e\u003cpre\u003e share [mkMigrate \"migrateAll\"] $\n    actionLogEntityDefs ++\n    $(persistFileWith lowerCaseSettings \"schema.txt\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "actionLogEntityDefs",
           "package": "snaplet-actionlog",
@@ -399,6 +434,7 @@
         "index": {
           "description": "The list of entity definitions this snaplet exposes You need them so that you can append to your application list of entity definitions and perform the migration in one block Here an example of how to combine your app own entity definitions and the action log in one migration block share mkMigrate migrateAll actionLogEntityDefs persistFileWith lowerCaseSettings schema.txt",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "actionLogEntityDefs",
           "normalized": "[EntityDef SqlType]",
@@ -415,6 +451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an ActionType into an Int to be stored in the database.  We\n don't want to use fromEnum here because that will make the numbers\n sensitive to the ordering of the data type and easier to screw up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "actionToInt",
           "package": "snaplet-actionlog",
@@ -425,6 +462,7 @@
         "index": {
           "description": "Converts an ActionType into an Int to be stored in the database We don want to use fromEnum here because that will make the numbers sensitive to the ordering of the data type and easier to screw up",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "actionToInt",
           "normalized": "ActionType-\u003eInt",
@@ -441,6 +479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplied version of any custom splices that you want to be available\n inside the \u003ccode\u003eactionLogListing\u003c/code\u003e splice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "alCustomCSplices",
           "package": "snaplet-actionlog",
@@ -451,6 +490,7 @@
         "index": {
           "description": "Complied version of any custom splices that you want to be available inside the actionLogListing splice",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "alCustomCSplices",
           "normalized": "[(Text,Promise(Entity LoggedAction)-\u003eSplice a)]",
@@ -467,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpreted version of any custom splices that you want to be\n available inside the \u003ccode\u003eactionLogListing\u003c/code\u003e splice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "alCustomISplices",
           "package": "snaplet-actionlog",
@@ -477,6 +518,7 @@
         "index": {
           "description": "Interpreted version of any custom splices that you want to be available inside the actionLogListing splice",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "alCustomISplices",
           "normalized": "Entity LoggedAction-\u003e[(Text,Splice a)]",
@@ -493,6 +535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the current user's user ID.  Again, if your application does not\n have the concept of a user, you can return a constant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "alGetAuthUserId",
           "package": "snaplet-actionlog",
@@ -503,6 +546,7 @@
         "index": {
           "description": "Gets the current user user ID Again if your application does not have the concept of user you can return constant",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "alGetAuthUserId",
           "package": "snaplet-actionlog",
@@ -517,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction that takes a user ID and returns the user's name, email, or\n whatever you want the snaplet to call that user.  This function is used\n to generate the user dropdown box in action log filter controls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "alGetName",
           "package": "snaplet-actionlog",
@@ -527,6 +572,7 @@
         "index": {
           "description": "Function that takes user ID and returns the user name email or whatever you want the snaplet to call that user This function is used to generate the user dropdown box in action log filter controls",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "alGetName",
           "normalized": "Int-\u003ea Text",
@@ -543,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a tenant ID for the current user of your application.  If your\n application is not multi-tenanted, then you can just return a constant\n here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "alGetTenantId",
           "package": "snaplet-actionlog",
@@ -553,6 +600,7 @@
         "index": {
           "description": "Gets tenant ID for the current user of your application If your application is not multi-tenanted then you can just return constant here",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "alGetTenantId",
           "package": "snaplet-actionlog",
@@ -567,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn latency sensitive applications where time stamps are used\n frequently, you may want to do the system call once and then cache the\n results.  This function allows you to provide your own cache-aware\n version of getTime if you choose.  Otherwise you can just lift the\n getCurrentTime function from Data.Time.Clock into your monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "alGetTime",
           "package": "snaplet-actionlog",
@@ -577,6 +626,7 @@
         "index": {
           "description": "In latency sensitive applications where time stamps are used frequently you may want to do the system call once and then cache the results This function allows you to provide your own cache-aware version of getTime if you choose Otherwise you can just lift the getCurrentTime function from Data.Time.Clock into your monad",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "alGetTime",
           "package": "snaplet-actionlog",
@@ -590,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "deltaFields",
           "package": "snaplet-actionlog",
@@ -599,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "deltaFields",
           "normalized": "[(Text,a-\u003eByteString)]",
@@ -615,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets all the actions in the action log.  In multi-tenant applications\n you probably want this to only be accessible by the administrator of the\n whole site.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "getAllActions",
           "package": "snaplet-actionlog",
@@ -625,6 +678,7 @@
         "index": {
           "description": "Gets all the actions in the action log In multi-tenant applications you probably want this to only be accessible by the administrator of the whole site",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "getAllActions",
           "normalized": "a[Entity LoggedAction]",
@@ -641,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates a list of fields that changed along with ByteString\n representations of their old and new values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "getDeltas",
           "package": "snaplet-actionlog",
@@ -651,6 +706,7 @@
         "index": {
           "description": "Calculates list of fields that changed along with ByteString representations of their old and new values",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "getDeltas",
           "normalized": "a-\u003ea-\u003e[(Text,ByteString,ByteString)]",
@@ -667,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the LoggedAction entry for the specified entity and id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "getEntityActions",
           "package": "snaplet-actionlog",
@@ -677,6 +734,7 @@
         "index": {
           "description": "Gets the LoggedAction entry for the specified entity and id",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "getEntityActions",
           "normalized": "Text-\u003eInt-\u003ea[Entity LoggedAction]",
@@ -693,6 +751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the LoggedAction entry for the specified entity and id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "getLoggedAction",
           "package": "snaplet-actionlog",
@@ -703,6 +762,7 @@
         "index": {
           "description": "Gets the LoggedAction entry for the specified entity and id",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "getLoggedAction",
           "normalized": "LoggedActionId-\u003ea(Maybe LoggedAction)",
@@ -719,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets all the logged actions for the current tenant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "getTenantActions",
           "package": "snaplet-actionlog",
@@ -729,6 +790,7 @@
         "index": {
           "description": "Gets all the logged actions for the current tenant",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "getTenantActions",
           "normalized": "[Filter LoggedAction]-\u003e[SelectOpt LoggedAction]-\u003ea[Entity LoggedAction]",
@@ -745,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a list of all entities for a specific tenant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "getTenantEntities",
           "package": "snaplet-actionlog",
@@ -755,6 +818,7 @@
         "index": {
           "description": "Gets list of all entities for specific tenant",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "getTenantEntities",
           "normalized": "a[Text]",
@@ -771,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a list of all uids for a specific tenant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "getTenantUids",
           "package": "snaplet-actionlog",
@@ -781,6 +846,7 @@
         "index": {
           "description": "Gets list of all uids for specific tenant",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "getTenantUids",
           "normalized": "a[Int]",
@@ -797,6 +863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializer for the action log snaplet.  It sets up templates, routes,\n and compiled and interpreted splices.\n\u003c/p\u003e\u003cp\u003eIncludes two built-in top level splices: actionLogListing and\n actionLogFilterForm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "initActionLog",
           "package": "snaplet-actionlog",
@@ -807,6 +874,7 @@
         "index": {
           "description": "Initializer for the action log snaplet It sets up templates routes and compiled and interpreted splices Includes two built-in top level splices actionLogListing and actionLogFilterForm",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "initActionLog",
           "normalized": "Snaplet(Heist a)-\u003eSnapletInit a ActionLog",
@@ -823,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an Int into an ActionType.  Again, we want this to be explicit\n rather than implied by toEnum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "intToAction",
           "package": "snaplet-actionlog",
@@ -833,6 +902,7 @@
         "index": {
           "description": "Converts an Int into an ActionType Again we want this to be explicit rather than implied by toEnum",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "intToAction",
           "normalized": "Int-\u003eEither Text ActionType",
@@ -849,6 +919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow level function for logging an action.  Usually you will want to use\n one of the other functions like \u003ccode\u003e\u003ca\u003eloggedInsert\u003c/a\u003e\u003c/code\u003e.  But when those aren't\n sufficient, this function provides you maximum control to log actions as\n you see fit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "logAction",
           "package": "snaplet-actionlog",
@@ -858,6 +929,7 @@
         "index": {
           "description": "Low level function for logging an action Usually you will want to use one of the other functions like loggedInsert But when those aren sufficient this function provides you maximum control to log actions as you see fit",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "logAction",
           "normalized": "Text-\u003eInt-\u003eActionType-\u003ea(Key LoggedAction)",
@@ -873,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionAction",
           "package": "snaplet-actionlog",
@@ -882,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionAction",
           "package": "snaplet-actionlog",
@@ -895,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionAt",
           "package": "snaplet-actionlog",
@@ -904,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionAt",
           "package": "snaplet-actionlog",
@@ -917,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionDetailsActionId",
           "package": "snaplet-actionlog",
@@ -926,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionDetailsActionId",
           "package": "snaplet-actionlog",
@@ -939,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionDetailsFieldName",
           "package": "snaplet-actionlog",
@@ -948,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionDetailsFieldName",
           "package": "snaplet-actionlog",
@@ -961,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionDetailsNewValue",
           "package": "snaplet-actionlog",
@@ -970,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionDetailsNewValue",
           "package": "snaplet-actionlog",
@@ -983,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionDetailsOldValue",
           "package": "snaplet-actionlog",
@@ -992,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionDetailsOldValue",
           "package": "snaplet-actionlog",
@@ -1005,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionEntityId",
           "package": "snaplet-actionlog",
@@ -1014,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionEntityId",
           "package": "snaplet-actionlog",
@@ -1027,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionEntityName",
           "package": "snaplet-actionlog",
@@ -1036,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionEntityName",
           "package": "snaplet-actionlog",
@@ -1049,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionTenantId",
           "package": "snaplet-actionlog",
@@ -1058,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionTenantId",
           "package": "snaplet-actionlog",
@@ -1071,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionUserId",
           "package": "snaplet-actionlog",
@@ -1080,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedActionUserId",
           "package": "snaplet-actionlog",
@@ -1094,6 +1186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms a logged delete of an entity in the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedDelete",
           "package": "snaplet-actionlog",
@@ -1104,6 +1197,7 @@
         "index": {
           "description": "Performs logged delete of an entity in the database",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedDelete",
           "normalized": "Entity a-\u003eb()",
@@ -1120,6 +1214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms a logged delete of a key in the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedDeleteKey",
           "package": "snaplet-actionlog",
@@ -1130,6 +1225,7 @@
         "index": {
           "description": "Performs logged delete of key in the database",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedDeleteKey",
           "normalized": "Key a-\u003eb()",
@@ -1146,6 +1242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms a logged insert into the database.  Just about everything should\n be inserted using this function instead of \u003ccode\u003erunPersist' . insert\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedInsert",
           "package": "snaplet-actionlog",
@@ -1156,6 +1253,7 @@
         "index": {
           "description": "Performs logged insert into the database Just about everything should be inserted using this function instead of runPersist insert",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedInsert",
           "normalized": "a-\u003eb(Key a)",
@@ -1172,6 +1270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms a logged replace of a database record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedReplace",
           "package": "snaplet-actionlog",
@@ -1182,6 +1281,7 @@
         "index": {
           "description": "Performs logged replace of database record",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedReplace",
           "normalized": "Key a-\u003ea-\u003eb()",
@@ -1198,6 +1298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms a logged update of a database record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedUpdate",
           "package": "snaplet-actionlog",
@@ -1208,6 +1309,7 @@
         "index": {
           "description": "Performs logged update of database record",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "loggedUpdate",
           "normalized": "Key a-\u003e[Update a]-\u003eb()",
@@ -1223,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "migrateActionLog",
           "package": "snaplet-actionlog",
@@ -1232,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "migrateActionLog",
           "package": "snaplet-actionlog",
@@ -1246,6 +1350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates a list of fields that changed along with ByteString\n representations of their old and new values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "storeDeltas",
           "package": "snaplet-actionlog",
@@ -1256,6 +1361,7 @@
         "index": {
           "description": "Calculates list of fields that changed along with ByteString representations of their old and new values",
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "storeDeltas",
           "normalized": "LoggedActionId-\u003ea-\u003ea-\u003eb()",
@@ -1271,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:29 UTC 2014",
           "module": "Snap.Snaplet.ActionLog",
           "name": "toBS",
           "package": "snaplet-actionlog",
@@ -1280,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet ActionLog",
+          "indexed": "2014-03-11T20:05:29",
           "module": "Snap.Snaplet.ActionLog",
           "name": "toBS",
           "normalized": "a-\u003eByteString",

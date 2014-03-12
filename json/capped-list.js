@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "capped-list"
+        "phrase": "capped-list",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA list-like type for lazy sequences, with a user-defined termination value.\n\u003c/p\u003e\u003cp\u003eThis module uses common names and so is designed to be imported qualified:\n\u003c/p\u003e\u003cpre\u003e import qualified Data.CappedList as CL\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "CappedList",
           "package": "capped-list",
@@ -28,6 +29,7 @@
         "index": {
           "description": "list-like type for lazy sequences with user-defined termination value This module uses common names and so is designed to be imported qualified import qualified Data.CappedList as CL",
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "CappedList",
           "package": "capped-list",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list-like type for lazy sequences, with a user-defined termination value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "CappedList",
           "package": "capped-list",
@@ -51,6 +54,7 @@
         "index": {
           "description": "list-like type for lazy sequences with user-defined termination value",
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "CappedList",
           "package": "capped-list",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "Cap",
           "package": "capped-list",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "Cap",
           "package": "capped-list",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "Next",
           "package": "capped-list",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "Next",
           "package": "capped-list",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike the standard \u003ccode\u003e\u003ca\u003e++\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "appendL",
           "package": "capped-list",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Like the standard function",
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "appendL",
           "normalized": "CappedList a b-\u003eCappedList a b-\u003e(a,CappedList a b)",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike the standard \u003ccode\u003e\u003ca\u003e++\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e\u003cp\u003eThe second list's \"cap\" will be discarded; to preserve the cap, use\n \u003ccode\u003e\u003ca\u003eappendL\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "appendL_",
           "package": "capped-list",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Like the standard function The second list cap will be discarded to preserve the cap use appendL",
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "appendL_",
           "normalized": "CappedList a b-\u003eCappedList a b-\u003eCappedList a b",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike the standard \u003ccode\u003e\u003ca\u003e++\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "appendR",
           "package": "capped-list",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Like the standard function",
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "appendR",
           "normalized": "CappedList a b-\u003eCappedList a b-\u003e(a,CappedList a b)",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike the standard \u003ccode\u003e\u003ca\u003e++\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e\u003cp\u003eThe first list's \"cap\" will be discarded; to preserve the cap, use\n \u003ccode\u003e\u003ca\u003eappendR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "appendR_",
           "package": "capped-list",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Like the standard function The first list cap will be discarded to preserve the cap use appendR",
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "appendR_",
           "normalized": "CappedList a b-\u003eCappedList a b-\u003eCappedList a b",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend two capped lists, merging the caps together using a user-provided\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "appendWith",
           "package": "capped-list",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Append two capped lists merging the caps together using user-provided function",
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "appendWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eCappedList a d-\u003eCappedList b d-\u003eCappedList c d",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike the standard \u003ccode\u003e\u003ca\u003econcatMap\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "concatMapM",
           "package": "capped-list",
@@ -245,6 +264,7 @@
         "index": {
           "description": "Like the standard concatMap function",
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "concatMapM",
           "normalized": "(a-\u003eCappedList b c)-\u003eCappedList b a-\u003eCappedList b c",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike the standard \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e function, but accepting an extra\n parameter to handle \u003ccode\u003e\u003ca\u003eCap\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "foldl",
           "package": "capped-list",
@@ -271,6 +292,7 @@
         "index": {
           "description": "Like the standard foldl function but accepting an extra parameter to handle Cap values",
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003e(c-\u003ea)-\u003eCappedList c b-\u003ea",
@@ -286,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike the standard \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e function, but accepting an extra\n parameter to handle \u003ccode\u003e\u003ca\u003eCap\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "foldr",
           "package": "capped-list",
@@ -296,6 +319,7 @@
         "index": {
           "description": "Like the standard foldr function but accepting an extra parameter to handle Cap values",
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003e(c-\u003eb)-\u003eCappedList c a-\u003eb",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a standard list and cap to a capped list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "fromList",
           "package": "capped-list",
@@ -321,6 +346,7 @@
         "index": {
           "description": "Convert standard list and cap to capped list",
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "fromList",
           "normalized": "[a]-\u003eb-\u003eCappedList b a",
@@ -337,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike the standard \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e function; \u003ccode\u003e\u003ca\u003eCap\u003c/a\u003e\u003c/code\u003e is considered\n 0-length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "length",
           "package": "capped-list",
@@ -347,6 +374,7 @@
         "index": {
           "description": "Like the standard length function Cap is considered length",
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "length",
           "normalized": "CappedList a b-\u003eInt",
@@ -362,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike the standard \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "map",
           "package": "capped-list",
@@ -372,6 +401,7 @@
         "index": {
           "description": "Like the standard map function",
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eCappedList c a-\u003eCappedList c b",
@@ -387,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike the standard \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e function, but the mapping function may\n return a capping value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "mapEither",
           "package": "capped-list",
@@ -397,6 +428,7 @@
         "index": {
           "description": "Like the standard map function but the mapping function may return capping value",
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "mapEither",
           "normalized": "(a-\u003eEither b c)-\u003eCappedList b a-\u003eCappedList b c",
@@ -413,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike the standard \u003ccode\u003e\u003ca\u003enull\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "null",
           "package": "capped-list",
@@ -423,6 +456,7 @@
         "index": {
           "description": "Like the standard null function",
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "null",
           "normalized": "CappedList a b-\u003eBool",
@@ -438,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a capped list to a standard list.\n\u003c/p\u003e\u003cp\u003eThe cap is returned in the first value of the result tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "toList",
           "package": "capped-list",
@@ -448,6 +483,7 @@
         "index": {
           "description": "Convert capped list to standard list The cap is returned in the first value of the result tuple",
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "toList",
           "normalized": "CappedList a b-\u003e(a,[b])",
@@ -464,6 +500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a capped list to a standard list, discarding the cap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "toList_",
           "package": "capped-list",
@@ -474,6 +511,7 @@
         "index": {
           "description": "Convert capped list to standard list discarding the cap",
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "toList_",
           "normalized": "CappedList a b-\u003e[b]",
@@ -490,6 +528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike the standard \u003ccode\u003eData.List.unfoldr\u003c/code\u003e function, but the step function\n must return a cap to terminate the unfold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:45 UTC 2014",
           "module": "Data.CappedList",
           "name": "unfoldr",
           "package": "capped-list",
@@ -500,6 +539,7 @@
         "index": {
           "description": "Like the standard Data.List.unfoldr function but the step function must return cap to terminate the unfold",
           "hierarchy": "Data CappedList",
+          "indexed": "2014-03-11T17:29:45",
           "module": "Data.CappedList",
           "name": "unfoldr",
           "normalized": "(a-\u003eEither b(c,a))-\u003ea-\u003eCappedList b c",

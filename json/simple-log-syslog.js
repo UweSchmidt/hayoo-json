@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simple-log-syslog"
+        "phrase": "simple-log-syslog",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule provides syslog logger for simple-log\n\u003c/p\u003e\u003cpre\u003eyourFunction :: MonadLog m =\u003e m ()\nyourFunction = scope \"your\" $ log Trace \"Hello\"\n\nrun :: IO ()\nrun = do\n    l \u003c- newLog (fileCfg \"log.cfg\" 60) [syslog \"name\"]\n    withLog l yourFunction\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "Syslog",
           "package": "simple-log-syslog",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Module provides syslog logger for simple-log yourFunction MonadLog yourFunction scope your log Trace Hello run IO run do newLog fileCfg log.cfg syslog name withLog yourFunction",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "Syslog",
           "package": "simple-log-syslog",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyslog distinguishes various system facilities. Most\n applications should log in \u003ccode\u003e\u003ca\u003eUSER\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "Facility",
           "package": "simple-log-syslog",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Syslog distinguishes various system facilities Most applications should log in USER",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "Facility",
           "package": "simple-log-syslog",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for the syslog service. Set with \u003ccode\u003e\u003ca\u003ewithSyslog\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "Option",
           "package": "simple-log-syslog",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Options for the syslog service Set with withSyslog",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "Option",
           "package": "simple-log-syslog",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "SyslogMessage",
           "package": "simple-log-syslog",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "SyslogMessage",
           "package": "simple-log-syslog",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esecurity/authorization messages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "AUTH",
           "package": "simple-log-syslog",
@@ -116,6 +125,7 @@
         "index": {
           "description": "security authorization messages",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "AUTH",
           "package": "simple-log-syslog",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esecurity/authorization messages (effectively equals \u003ccode\u003e\u003ca\u003eAUTH\u003c/a\u003e\u003c/code\u003e on some systems)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "AUTHPRIV",
           "package": "simple-log-syslog",
@@ -139,6 +150,7 @@
         "index": {
           "description": "security authorization messages effectively equals AUTH on some systems",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "AUTHPRIV",
           "package": "simple-log-syslog",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elog on the console if errors in sending\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "CONS",
           "package": "simple-log-syslog",
@@ -162,6 +175,7 @@
         "index": {
           "description": "log on the console if errors in sending",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "CONS",
           "package": "simple-log-syslog",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclock daemon\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "CRON",
           "package": "simple-log-syslog",
@@ -185,6 +200,7 @@
         "index": {
           "description": "clock daemon",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "CRON",
           "package": "simple-log-syslog",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esystem daemons\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "DAEMON",
           "package": "simple-log-syslog",
@@ -208,6 +225,7 @@
         "index": {
           "description": "system daemons",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "DAEMON",
           "package": "simple-log-syslog",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eftp daemon (effectively equals \u003ccode\u003e\u003ca\u003eDAEMON\u003c/a\u003e\u003c/code\u003e on some systems)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "FTP",
           "package": "simple-log-syslog",
@@ -231,6 +250,7 @@
         "index": {
           "description": "ftp daemon effectively equals DAEMON on some systems",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "FTP",
           "package": "simple-log-syslog",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ekernel messages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "KERN",
           "package": "simple-log-syslog",
@@ -254,6 +275,7 @@
         "index": {
           "description": "kernel messages",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "KERN",
           "package": "simple-log-syslog",
@@ -268,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereserved for local use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "LOCAL0",
           "package": "simple-log-syslog",
@@ -277,6 +300,7 @@
         "index": {
           "description": "reserved for local use",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "LOCAL0",
           "package": "simple-log-syslog",
@@ -291,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereserved for local use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "LOCAL1",
           "package": "simple-log-syslog",
@@ -300,6 +325,7 @@
         "index": {
           "description": "reserved for local use",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "LOCAL1",
           "package": "simple-log-syslog",
@@ -314,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereserved for local use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "LOCAL2",
           "package": "simple-log-syslog",
@@ -323,6 +350,7 @@
         "index": {
           "description": "reserved for local use",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "LOCAL2",
           "package": "simple-log-syslog",
@@ -337,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereserved for local use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "LOCAL3",
           "package": "simple-log-syslog",
@@ -346,6 +375,7 @@
         "index": {
           "description": "reserved for local use",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "LOCAL3",
           "package": "simple-log-syslog",
@@ -360,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereserved for local use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "LOCAL4",
           "package": "simple-log-syslog",
@@ -369,6 +400,7 @@
         "index": {
           "description": "reserved for local use",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "LOCAL4",
           "package": "simple-log-syslog",
@@ -383,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereserved for local use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "LOCAL5",
           "package": "simple-log-syslog",
@@ -392,6 +425,7 @@
         "index": {
           "description": "reserved for local use",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "LOCAL5",
           "package": "simple-log-syslog",
@@ -406,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereserved for local use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "LOCAL6",
           "package": "simple-log-syslog",
@@ -415,6 +450,7 @@
         "index": {
           "description": "reserved for local use",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "LOCAL6",
           "package": "simple-log-syslog",
@@ -429,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereserved for local use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "LOCAL7",
           "package": "simple-log-syslog",
@@ -438,6 +475,7 @@
         "index": {
           "description": "reserved for local use",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "LOCAL7",
           "package": "simple-log-syslog",
@@ -452,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eline printer subsystem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "LPR",
           "package": "simple-log-syslog",
@@ -461,6 +500,7 @@
         "index": {
           "description": "line printer subsystem",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "LPR",
           "package": "simple-log-syslog",
@@ -475,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003email system\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "MAIL",
           "package": "simple-log-syslog",
@@ -484,6 +525,7 @@
         "index": {
           "description": "mail system",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "MAIL",
           "package": "simple-log-syslog",
@@ -498,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edon't delay open\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "NDELAY",
           "package": "simple-log-syslog",
@@ -507,6 +550,7 @@
         "index": {
           "description": "don delay open",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "NDELAY",
           "package": "simple-log-syslog",
@@ -521,6 +565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enetwork news subsystem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "NEWS",
           "package": "simple-log-syslog",
@@ -530,6 +575,7 @@
         "index": {
           "description": "network news subsystem",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "NEWS",
           "package": "simple-log-syslog",
@@ -544,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edon't wait for console forks: DEPRECATED\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "NOWAIT",
           "package": "simple-log-syslog",
@@ -553,6 +600,7 @@
         "index": {
           "description": "don wait for console forks DEPRECATED",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "NOWAIT",
           "package": "simple-log-syslog",
@@ -567,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelay open until first \u003ccode\u003esyslog()\u003c/code\u003e (default)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "ODELAY",
           "package": "simple-log-syslog",
@@ -576,6 +625,7 @@
         "index": {
           "description": "delay open until first syslog default",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "ODELAY",
           "package": "simple-log-syslog",
@@ -590,6 +640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elog to \u003ccode\u003e\u003ca\u003estderr\u003c/a\u003e\u003c/code\u003e as well (might be a no-op on some systems)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "PERROR",
           "package": "simple-log-syslog",
@@ -599,6 +650,7 @@
         "index": {
           "description": "log to stderr as well might be no-op on some systems",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "PERROR",
           "package": "simple-log-syslog",
@@ -613,6 +665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elog the pid with each message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "PID",
           "package": "simple-log-syslog",
@@ -622,6 +675,7 @@
         "index": {
           "description": "log the pid with each message",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "PID",
           "package": "simple-log-syslog",
@@ -636,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emessages generated internally by syslogd\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "SYSLOG",
           "package": "simple-log-syslog",
@@ -645,6 +700,7 @@
         "index": {
           "description": "messages generated internally by syslogd",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "SYSLOG",
           "package": "simple-log-syslog",
@@ -658,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "SyslogMessage",
           "package": "simple-log-syslog",
@@ -667,6 +724,7 @@
         },
         "index": {
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "SyslogMessage",
           "package": "simple-log-syslog",
@@ -681,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euser-level messages (default unless set otherwise)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "USER",
           "package": "simple-log-syslog",
@@ -690,6 +749,7 @@
         "index": {
           "description": "user-level messages default unless set otherwise",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "USER",
           "package": "simple-log-syslog",
@@ -704,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUUCP subsystem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "UUCP",
           "package": "simple-log-syslog",
@@ -713,6 +774,7 @@
         "index": {
           "description": "UUCP subsystem",
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "UUCP",
           "package": "simple-log-syslog",
@@ -726,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "syslog",
           "package": "simple-log-syslog",
@@ -735,6 +798,7 @@
         },
         "index": {
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "syslog",
           "normalized": "String-\u003e[Option]-\u003eFacility-\u003eLogger",
@@ -749,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "syslogMessage",
           "package": "simple-log-syslog",
@@ -758,6 +823,7 @@
         },
         "index": {
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "syslogMessage",
           "package": "simple-log-syslog",
@@ -771,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "syslogMsg",
           "package": "simple-log-syslog",
@@ -780,6 +847,7 @@
         },
         "index": {
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "syslogMsg",
           "package": "simple-log-syslog",
@@ -793,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "syslogPriority",
           "package": "simple-log-syslog",
@@ -802,6 +871,7 @@
         },
         "index": {
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "syslogPriority",
           "package": "simple-log-syslog",
@@ -815,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "syslog_",
           "package": "simple-log-syslog",
@@ -824,6 +895,7 @@
         },
         "index": {
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "syslog_",
           "normalized": "String-\u003eLogger",
@@ -838,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "toSyslog",
           "package": "simple-log-syslog",
@@ -847,6 +920,7 @@
         },
         "index": {
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "toSyslog",
           "normalized": "String-\u003e[Option]-\u003eFacility-\u003eConsumer SyslogMessage",
@@ -862,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:48 UTC 2014",
           "module": "System.Log.Simple.Syslog",
           "name": "toSyslog_",
           "package": "simple-log-syslog",
@@ -871,6 +946,7 @@
         },
         "index": {
           "hierarchy": "System Log Simple Syslog",
+          "indexed": "2014-03-11T20:02:48",
           "module": "System.Log.Simple.Syslog",
           "name": "toSyslog_",
           "normalized": "String-\u003eConsumer SyslogMessage",

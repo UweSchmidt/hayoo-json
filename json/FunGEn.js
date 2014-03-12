@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "FunGEn"
+        "phrase": "FunGEn",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the main module of FunGEN (Functional Game Engine), which re-exports the rest.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Fungen",
           "package": "FunGEn",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This is the main module of FunGEN Functional Game Engine which re-exports the rest",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Fungen",
           "package": "FunGEn",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewidth, height and data of bitmap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "AwbfBitmap",
           "package": "FunGEn",
@@ -51,6 +54,7 @@
         "index": {
           "description": "width height and data of bitmap",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "AwbfBitmap",
           "package": "FunGEn",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe bitmap fonts available in GLUT. The exact bitmap to be used is\n defined by the standard X glyph bitmaps for the X font with the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "BitmapFont",
           "package": "FunGEn",
@@ -73,6 +78,7 @@
         "index": {
           "description": "The bitmap fonts available in GLUT The exact bitmap to be used is defined by the standard glyph bitmaps for the font with the given name",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "BitmapFont",
           "package": "FunGEn",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecolor in RGB format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "ColorList3",
           "package": "FunGEn",
@@ -96,6 +103,7 @@
         "index": {
           "description": "color in RGB format",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "ColorList3",
           "package": "FunGEn",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "FilePictureList",
           "package": "FunGEn",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "FilePictureList",
           "package": "FunGEn",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "FillMode",
           "package": "FunGEn",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "FillMode",
           "package": "FunGEn",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA game has the type \u003ccode\u003eGame t s u v\u003c/code\u003e, where \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e t is the type of the game special attributes\n\u003c/li\u003e\u003cli\u003e s is the type of the object special attributes\n\u003c/li\u003e\u003cli\u003e u is the type of the game levels (state)\n\u003c/li\u003e\u003cli\u003e v is the type of the map tile special attribute, in case we use a Tile Map as the background of our game\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eFor a mnemonic, uh...\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e t - \u003cem\u003eT\u003c/em\u003eop-level game attribute type,\n\u003c/li\u003e\u003cli\u003e s - \u003cem\u003eS\u003c/em\u003eprite object attribute type,\n\u003c/li\u003e\u003cli\u003e u - \u003cem\u003eU\u003c/em\u003epdating game state type,\n\u003c/li\u003e\u003cli\u003e v - \u003cem\u003eV\u003c/em\u003eicinity (map tile) attribute type.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eInternally, a Game consists of:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003egameMap       :: IORef (GameMap v)         -- a map (background)\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003egameState     :: IORef u                   -- initial game state\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003egameFlags     :: IORef GameFlags           -- initial game flags\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003eobjManagers   :: IORef [(ObjectManager s)] -- some object managers\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003etextList      :: IORef [Text]              -- some texts\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003equadricObj    :: QuadricPrimitive          -- a quadric thing\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003ewindowConfig  :: IORef WindowConfig        -- a config for the main window\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003egameAttribute :: IORef t                   -- a game attribute\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003epictureList   :: IORef [TextureObject]     -- some pictures\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003efpsInfo       :: IORef (Int,Int,Float)     -- only for debugging\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Game",
           "package": "FunGEn",
@@ -161,6 +174,7 @@
         "index": {
           "description": "game has the type Game where is the type of the game special attributes is the type of the object special attributes is the type of the game levels state is the type of the map tile special attribute in case we use Tile Map as the background of our game For mnemonic uh op-level game attribute type prite object attribute type pdating game state type icinity map tile attribute type Internally Game consists of gameMap IORef GameMap map background gameState IORef initial game state gameFlags IORef GameFlags initial game flags objManagers IORef ObjectManager some object managers textList IORef Text some texts quadricObj QuadricPrimitive quadric thing windowConfig IORef WindowConfig config for the main window gameAttribute IORef game attribute pictureList IORef TextureObject some pictures fpsInfo IORef Int Int Float only for debugging",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Game",
           "package": "FunGEn",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "GameMap",
           "package": "FunGEn",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "GameMap",
           "package": "FunGEn",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "GameObject",
           "package": "FunGEn",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "GameObject",
           "package": "FunGEn",
@@ -217,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIOGame is the monad in which game actions run. An IOGame action\n takes a Game (with type parameters \u003ccode\u003et s u v\u003c/code\u003e), performs some IO,\n and returns an updated Game along with a result value (\u003ccode\u003ea\u003c/code\u003e):\n\u003c/p\u003e\u003cpre\u003enewtype IOGame t s u v a = IOG (Game  t s u v -\u003e IO (Game t s u v,a))\u003c/pre\u003e\u003cp\u003eThe name IOGame was chosen to remind that each action deals with a\n Game, but an IO operation can also be performed between game\n actions (such as the reading of a file or printing something in the\n prompt).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "IOGame",
           "package": "FunGEn",
@@ -226,6 +245,7 @@
         "index": {
           "description": "IOGame is the monad in which game actions run An IOGame action takes Game with type parameters performs some IO and returns an updated Game along with result value newtype IOGame IOG Game IO Game The name IOGame was chosen to remind that each action deals with Game but an IO operation can also be performed between game actions such as the reading of file or printing something in the prompt",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "IOGame",
           "package": "FunGEn",
@@ -240,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping from an input event to an input handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "InputBinding",
           "package": "FunGEn",
@@ -249,6 +270,7 @@
         "index": {
           "description": "mapping from an input event to an input handler",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "InputBinding",
           "package": "FunGEn",
@@ -263,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA FunGEn input handler is like an IOGame (game action) that takes\n two extra arguments: the current keyboard modifiers state, and the\n current mouse position. (For a StillDown event, these will be the\n original state and position from the Press event.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "InputHandler",
           "package": "FunGEn",
@@ -272,6 +295,7 @@
         "index": {
           "description": "FunGEn input handler is like an IOGame game action that takes two extra arguments the current keyboard modifiers state and the current mouse position For StillDown event these will be the original state and position from the Press event",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "InputHandler",
           "package": "FunGEn",
@@ -286,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einvisible colors (in RGB) of bitmap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "InvList",
           "package": "FunGEn",
@@ -295,6 +320,7 @@
         "index": {
           "description": "invisible colors in RGB of bitmap",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "InvList",
           "package": "FunGEn",
@@ -309,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalized view of keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Key",
           "package": "FunGEn",
@@ -317,6 +344,7 @@
         "index": {
           "description": "generalized view of keys",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Key",
           "package": "FunGEn",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyEvent",
           "package": "FunGEn",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyEvent",
           "package": "FunGEn",
@@ -352,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe state of the keyboard modifiers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Modifiers",
           "package": "FunGEn",
@@ -360,6 +391,7 @@
         "index": {
           "description": "The state of the keyboard modifiers",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Modifiers",
           "package": "FunGEn",
@@ -374,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMouse buttons, including a wheel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "MouseButton",
           "package": "FunGEn",
@@ -382,6 +415,7 @@
         "index": {
           "description": "Mouse buttons including wheel",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "MouseButton",
           "package": "FunGEn",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "ObjectManager",
           "package": "FunGEn",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "ObjectManager",
           "package": "FunGEn",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "ObjectPicture",
           "package": "FunGEn",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "ObjectPicture",
           "package": "FunGEn",
@@ -438,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea bidimensional point in space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Point2D",
           "package": "FunGEn",
@@ -447,6 +486,7 @@
         "index": {
           "description": "bidimensional point in space",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Point2D",
           "package": "FunGEn",
@@ -461,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2-dimensional position, measured in pixels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Position",
           "package": "FunGEn",
@@ -469,6 +510,7 @@
         "index": {
           "description": "dimensional position measured in pixels",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Position",
           "package": "FunGEn",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Primitive",
           "package": "FunGEn",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Primitive",
           "package": "FunGEn",
@@ -504,6 +548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by \u003ccode\u003e\u003ca\u003efunInit\u003c/a\u003e\u003c/code\u003e to configure the main loop's timing strategy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "RefreshType",
           "package": "FunGEn",
@@ -513,6 +558,7 @@
         "index": {
           "description": "Used by funInit to configure the main loop timing strategy",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "RefreshType",
           "package": "FunGEn",
@@ -527,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "SpecialKey",
           "package": "FunGEn",
@@ -535,6 +582,7 @@
         "index": {
           "description": "Special keys",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "SpecialKey",
           "package": "FunGEn",
@@ -549,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString to be printed, font, screen position, color RGB.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Text",
           "package": "FunGEn",
@@ -558,6 +607,7 @@
         "index": {
           "description": "String to be printed font screen position color RGB",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Text",
           "package": "FunGEn",
@@ -571,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Tile",
           "package": "FunGEn",
@@ -579,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Tile",
           "package": "FunGEn",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "TileMatrix",
           "package": "FunGEn",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "TileMatrix",
           "package": "FunGEn",
@@ -614,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eposition, size and name of the window\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "WindowConfig",
           "package": "FunGEn",
@@ -623,6 +678,7 @@
         "index": {
           "description": "position size and name of the window",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "WindowConfig",
           "package": "FunGEn",
@@ -636,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "AdditionalButton",
           "package": "FunGEn",
@@ -644,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "AdditionalButton",
           "package": "FunGEn",
@@ -657,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Basic",
           "package": "FunGEn",
@@ -666,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Basic",
           "package": "FunGEn",
@@ -701,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Circle",
           "package": "FunGEn",
@@ -710,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Circle",
           "package": "FunGEn",
@@ -723,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Filled",
           "package": "FunGEn",
@@ -732,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Filled",
           "package": "FunGEn",
@@ -746,6 +810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fixed width font with every character fitting in an 8\n   by 13 pixel rectangle.\n   (\u003ccode\u003e-misc-fixed-medium-r-normal--13-120-75-75-C-80-iso8859-1\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Fixed8By13",
           "package": "FunGEn",
@@ -755,6 +820,7 @@
         "index": {
           "description": "fixed width font with every character fitting in an by pixel rectangle misc-fixed-medium-r-normal--13-120-75-75-C-80-iso8859-1",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Fixed8By13",
           "package": "FunGEn",
@@ -769,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fixed width font with every character fitting in an 9\n   by 15 pixel rectangle.\n   (\u003ccode\u003e-misc-fixed-medium-r-normal--15-140-75-75-C-90-iso8859-1\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Fixed9By15",
           "package": "FunGEn",
@@ -778,6 +845,7 @@
         "index": {
           "description": "fixed width font with every character fitting in an by pixel rectangle misc-fixed-medium-r-normal--15-140-75-75-C-90-iso8859-1",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Fixed9By15",
           "package": "FunGEn",
@@ -792,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 10-point proportional spaced Helvetica font.\n   (\u003ccode\u003e-adobe-helvetica-medium-r-normal--10-100-75-75-p-56-iso8859-1\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Helvetica10",
           "package": "FunGEn",
@@ -801,6 +870,7 @@
         "index": {
           "description": "point proportional spaced Helvetica font adobe-helvetica-medium-r-normal--10-100-75-75-p-56-iso8859-1",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Helvetica10",
           "package": "FunGEn",
@@ -815,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 12-point proportional spaced Helvetica font.\n   (\u003ccode\u003e-adobe-helvetica-medium-r-normal--12-120-75-75-p-67-iso8859-1\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Helvetica12",
           "package": "FunGEn",
@@ -824,6 +895,7 @@
         "index": {
           "description": "point proportional spaced Helvetica font adobe-helvetica-medium-r-normal--12-120-75-75-p-67-iso8859-1",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Helvetica12",
           "package": "FunGEn",
@@ -838,6 +910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 18-point proportional spaced Helvetica font.\n   (\u003ccode\u003e-adobe-helvetica-medium-r-normal--18-180-75-75-p-98-iso8859-1\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Helvetica18",
           "package": "FunGEn",
@@ -847,6 +920,7 @@
         "index": {
           "description": "point proportional spaced Helvetica font adobe-helvetica-medium-r-normal--18-180-75-75-p-98-iso8859-1",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Helvetica18",
           "package": "FunGEn",
@@ -860,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Idle",
           "package": "FunGEn",
@@ -869,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Idle",
           "package": "FunGEn",
@@ -882,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyBegin",
           "package": "FunGEn",
@@ -890,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyBegin",
           "package": "FunGEn",
@@ -903,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyDelete",
           "package": "FunGEn",
@@ -911,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyDelete",
           "package": "FunGEn",
@@ -924,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyDown",
           "package": "FunGEn",
@@ -932,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyDown",
           "package": "FunGEn",
@@ -945,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyEnd",
           "package": "FunGEn",
@@ -953,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyEnd",
           "package": "FunGEn",
@@ -966,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF1",
           "package": "FunGEn",
@@ -974,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF1",
           "package": "FunGEn",
@@ -987,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF10",
           "package": "FunGEn",
@@ -995,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF10",
           "package": "FunGEn",
@@ -1008,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF11",
           "package": "FunGEn",
@@ -1016,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF11",
           "package": "FunGEn",
@@ -1029,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF12",
           "package": "FunGEn",
@@ -1037,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF12",
           "package": "FunGEn",
@@ -1050,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF2",
           "package": "FunGEn",
@@ -1058,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF2",
           "package": "FunGEn",
@@ -1071,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF3",
           "package": "FunGEn",
@@ -1079,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF3",
           "package": "FunGEn",
@@ -1092,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF4",
           "package": "FunGEn",
@@ -1100,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF4",
           "package": "FunGEn",
@@ -1113,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF5",
           "package": "FunGEn",
@@ -1121,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF5",
           "package": "FunGEn",
@@ -1134,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF6",
           "package": "FunGEn",
@@ -1142,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF6",
           "package": "FunGEn",
@@ -1155,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF7",
           "package": "FunGEn",
@@ -1163,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF7",
           "package": "FunGEn",
@@ -1176,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF8",
           "package": "FunGEn",
@@ -1184,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF8",
           "package": "FunGEn",
@@ -1197,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF9",
           "package": "FunGEn",
@@ -1205,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyF9",
           "package": "FunGEn",
@@ -1218,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyHome",
           "package": "FunGEn",
@@ -1226,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyHome",
           "package": "FunGEn",
@@ -1239,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyInsert",
           "package": "FunGEn",
@@ -1247,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyInsert",
           "package": "FunGEn",
@@ -1260,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyLeft",
           "package": "FunGEn",
@@ -1268,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyLeft",
           "package": "FunGEn",
@@ -1281,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyNumLock",
           "package": "FunGEn",
@@ -1289,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyNumLock",
           "package": "FunGEn",
@@ -1302,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyPageDown",
           "package": "FunGEn",
@@ -1310,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyPageDown",
           "package": "FunGEn",
@@ -1323,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyPageUp",
           "package": "FunGEn",
@@ -1331,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyPageUp",
           "package": "FunGEn",
@@ -1344,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyRight",
           "package": "FunGEn",
@@ -1352,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyRight",
           "package": "FunGEn",
@@ -1365,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyUnknown",
           "package": "FunGEn",
@@ -1373,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyUnknown",
           "package": "FunGEn",
@@ -1386,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "KeyUp",
           "package": "FunGEn",
@@ -1394,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "KeyUp",
           "package": "FunGEn",
@@ -1407,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "LeftButton",
           "package": "FunGEn",
@@ -1415,6 +1542,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "LeftButton",
           "package": "FunGEn",
@@ -1428,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "MiddleButton",
           "package": "FunGEn",
@@ -1436,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "MiddleButton",
           "package": "FunGEn",
@@ -1449,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Modifiers",
           "package": "FunGEn",
@@ -1457,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Modifiers",
           "package": "FunGEn",
@@ -1492,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Polyg",
           "package": "FunGEn",
@@ -1501,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Polyg",
           "normalized": "Polyg[Point D]GLfloat GLfloat GLfloat FillMode",
@@ -1516,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Position",
           "package": "FunGEn",
@@ -1524,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Position",
           "package": "FunGEn",
@@ -1583,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "RightButton",
           "package": "FunGEn",
@@ -1591,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "RightButton",
           "package": "FunGEn",
@@ -1649,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Tex",
           "package": "FunGEn",
@@ -1658,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Tex",
           "normalized": "Tex(GLdouble,GLdouble)Int",
@@ -1673,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Timer",
           "package": "FunGEn",
@@ -1682,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Timer",
           "package": "FunGEn",
@@ -1696,6 +1838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 10-point proportional spaced Times Roman font.\n   (\u003ccode\u003e-adobe-times-medium-r-normal--10-100-75-75-p-54-iso8859-1\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "TimesRoman10",
           "package": "FunGEn",
@@ -1705,6 +1848,7 @@
         "index": {
           "description": "point proportional spaced Times Roman font adobe-times-medium-r-normal--10-100-75-75-p-54-iso8859-1",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "TimesRoman10",
           "package": "FunGEn",
@@ -1719,6 +1863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 24-point proportional spaced Times Roman font.\n   (\u003ccode\u003e-adobe-times-medium-r-normal--24-240-75-75-p-124-iso8859-1\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "TimesRoman24",
           "package": "FunGEn",
@@ -1728,6 +1873,7 @@
         "index": {
           "description": "point proportional spaced Times Roman font adobe-times-medium-r-normal--24-240-75-75-p-124-iso8859-1",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "TimesRoman24",
           "package": "FunGEn",
@@ -1741,6 +1887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "Unfilled",
           "package": "FunGEn",
@@ -1750,6 +1897,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "Unfilled",
           "package": "FunGEn",
@@ -1763,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "WheelDown",
           "package": "FunGEn",
@@ -1771,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "WheelDown",
           "package": "FunGEn",
@@ -1784,6 +1934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "WheelUp",
           "package": "FunGEn",
@@ -1792,6 +1943,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "WheelUp",
           "package": "FunGEn",
@@ -1806,6 +1958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eto be used when no invisibility must be added when loading a file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "addNoInvisibility",
           "package": "FunGEn",
@@ -1816,6 +1969,7 @@
         "index": {
           "description": "to be used when no invisibility must be added when loading file",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "addNoInvisibility",
           "normalized": "[FilePath]-\u003e[(FilePath,Maybe ColorList)]",
@@ -1832,6 +1986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadds an object to a previously created group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "addObjectsToGroup",
           "package": "FunGEn",
@@ -1842,6 +1997,7 @@
         "index": {
           "description": "adds an object to previously created group",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "addObjectsToGroup",
           "normalized": "[GameObject a]-\u003eString-\u003eIOGame b a c d()",
@@ -1857,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "addObjectsToManager",
           "package": "FunGEn",
@@ -1866,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "addObjectsToManager",
           "normalized": "[GameObject a]-\u003eString-\u003e[ObjectManager a]-\u003e[ObjectManager a]",
@@ -1882,6 +2040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadds an object to a new group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "addObjectsToNewGroup",
           "package": "FunGEn",
@@ -1892,6 +2051,7 @@
         "index": {
           "description": "adds an object to new group",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "addObjectsToNewGroup",
           "normalized": "[GameObject a]-\u003eString-\u003eIOGame b a c d()",
@@ -1907,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "alt",
           "package": "FunGEn",
@@ -1915,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "alt",
           "package": "FunGEn",
@@ -1927,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "bindTexture",
           "package": "FunGEn",
@@ -1936,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "bindTexture",
           "normalized": "TextureTarget-\u003eTextureObject-\u003eIO()",
@@ -1952,6 +2116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclear the screen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "clearGameScreen",
           "package": "FunGEn",
@@ -1962,6 +2127,7 @@
         "index": {
           "description": "clear the screen",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "clearGameScreen",
           "normalized": "GLclampf-\u003eGLclampf-\u003eGLclampf-\u003eIO()",
@@ -1978,6 +2144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epaint the whole screen with a specified RGB color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "clearScreen",
           "package": "FunGEn",
@@ -1988,6 +2155,7 @@
         "index": {
           "description": "paint the whole screen with specified RGB color",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "clearScreen",
           "normalized": "GLclampf-\u003eGLclampf-\u003eGLclampf-\u003eIOGame a b c d()",
@@ -2004,6 +2172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates a PreColorMap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "colorMap",
           "package": "FunGEn",
@@ -2014,6 +2183,7 @@
         "index": {
           "description": "creates PreColorMap",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "colorMap",
           "normalized": "GLclampf-\u003eGLclampf-\u003eGLclampf-\u003eGLdouble-\u003eGLdouble-\u003eGameMap a",
@@ -2029,6 +2199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "createGame",
           "package": "FunGEn",
@@ -2038,6 +2209,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "createGame",
           "normalized": "GameMap a-\u003e[ObjectManager b]-\u003eWindowConfig-\u003ec-\u003ed-\u003eFilePictureList-\u003eIO(Game d b c a)",
@@ -2053,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "ctrl",
           "package": "FunGEn",
@@ -2061,6 +2234,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "ctrl",
           "package": "FunGEn",
@@ -2073,6 +2247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "destroyGameObject",
           "package": "FunGEn",
@@ -2082,6 +2257,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "destroyGameObject",
           "normalized": "String-\u003eString-\u003e[ObjectManager a]-\u003e[ObjectManager a]",
@@ -2098,6 +2274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edestroys an object from the game\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "destroyObject",
           "package": "FunGEn",
@@ -2108,6 +2285,7 @@
         "index": {
           "description": "destroys an object from the game",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "destroyObject",
           "normalized": "GameObject a-\u003eIOGame b a c d()",
@@ -2124,6 +2302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edestroys objects from the game\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "destroyObjects",
           "package": "FunGEn",
@@ -2134,6 +2313,7 @@
         "index": {
           "description": "destroys objects from the game",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "destroyObjects",
           "normalized": "[GameObject a]-\u003eIOGame b a c d()",
@@ -2149,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "disableGameFlags",
           "package": "FunGEn",
@@ -2158,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "disableGameFlags",
           "normalized": "IOGame a b c d()",
@@ -2173,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "disableMapDrawing",
           "package": "FunGEn",
@@ -2182,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "disableMapDrawing",
           "normalized": "IOGame a b c d()",
@@ -2197,6 +2381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "disableObjectsDrawing",
           "package": "FunGEn",
@@ -2206,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "disableObjectsDrawing",
           "normalized": "IOGame a b c d()",
@@ -2221,6 +2407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "disableObjectsMoving",
           "package": "FunGEn",
@@ -2230,6 +2417,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "disableObjectsMoving",
           "normalized": "IOGame a b c d()",
@@ -2246,6 +2434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a fungen Game and IOGame step action, generate a GLUT\n display callback that steps the game and renders its resulting\n state. \u003ccode\u003e\u003ca\u003efunInit\u003c/a\u003e\u003c/code\u003e runs this automatically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "display",
           "package": "FunGEn",
@@ -2256,6 +2445,7 @@
         "index": {
           "description": "Given fungen Game and IOGame step action generate GLUT display callback that steps the game and renders its resulting state funInit runs this automatically",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "display",
           "normalized": "Game a b c d-\u003eIOGame a b c d()-\u003eDisplayCallback",
@@ -2271,6 +2461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edraws all visible objects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "drawAllObjects",
           "package": "FunGEn",
@@ -2281,6 +2472,7 @@
         "index": {
           "description": "draws all visible objects",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "drawAllObjects",
           "normalized": "IOGame a b c d()",
@@ -2297,6 +2489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edraw the background map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "drawGameMap",
           "package": "FunGEn",
@@ -2307,6 +2500,7 @@
         "index": {
           "description": "draw the background map",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "drawGameMap",
           "normalized": "GameMap a-\u003ePoint D-\u003e[TextureObject]-\u003eIO()",
@@ -2322,6 +2516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "drawGameObject",
           "package": "FunGEn",
@@ -2331,6 +2526,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "drawGameObject",
           "normalized": "GameObject a-\u003eQuadricPrimitive-\u003e[TextureObject]-\u003eIO()",
@@ -2346,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "drawGameObjects",
           "package": "FunGEn",
@@ -2355,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "drawGameObjects",
           "normalized": "[ObjectManager a]-\u003eQuadricPrimitive-\u003e[TextureObject]-\u003eIO()",
@@ -2371,6 +2569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edraws the background map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "drawMap",
           "package": "FunGEn",
@@ -2381,6 +2580,7 @@
         "index": {
           "description": "draws the background map",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "drawMap",
           "normalized": "IOGame a b c d()",
@@ -2397,6 +2597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edraw one object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "drawObject",
           "package": "FunGEn",
@@ -2407,6 +2608,7 @@
         "index": {
           "description": "draw one object",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "drawObject",
           "normalized": "GameObject a-\u003eIOGame b a c d()",
@@ -2422,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "dropGLsizei",
           "package": "FunGEn",
@@ -2431,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "dropGLsizei",
           "normalized": "GLsizei-\u003e[a]-\u003e[a]",
@@ -2446,6 +2650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "enableGameFlags",
           "package": "FunGEn",
@@ -2455,6 +2660,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "enableGameFlags",
           "normalized": "IOGame a b c d()",
@@ -2470,6 +2676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "enableMapDrawing",
           "package": "FunGEn",
@@ -2479,6 +2686,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "enableMapDrawing",
           "normalized": "IOGame a b c d()",
@@ -2494,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "enableObjectsDrawing",
           "package": "FunGEn",
@@ -2503,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "enableObjectsDrawing",
           "normalized": "IOGame a b c d()",
@@ -2518,6 +2728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "enableObjectsMoving",
           "package": "FunGEn",
@@ -2527,6 +2738,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "enableObjectsMoving",
           "normalized": "IOGame a b c d()",
@@ -2543,6 +2755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns an object of the game, given its name and is object manager name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "findObject",
           "package": "FunGEn",
@@ -2553,6 +2766,7 @@
         "index": {
           "description": "returns an object of the game given its name and is object manager name",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "findObject",
           "normalized": "String-\u003eString-\u003eIOGame a b c d(GameObject b)",
@@ -2568,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "findObjectFromId",
           "package": "FunGEn",
@@ -2577,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "findObjectFromId",
           "normalized": "GameObject a-\u003e[ObjectManager a]-\u003eGameObject a",
@@ -2593,6 +2809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns an object manager of the game, given its name (internal use)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "findObjectManager",
           "package": "FunGEn",
@@ -2603,6 +2820,7 @@
         "index": {
           "description": "returns an object manager of the game given its name internal use",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "findObjectManager",
           "normalized": "String-\u003eIOGame a b c d(ObjectManager b)",
@@ -2619,6 +2837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExit the program successfully (from within a game action).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "funExit",
           "package": "FunGEn",
@@ -2629,6 +2848,7 @@
         "index": {
           "description": "Exit the program successfully from within game action",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "funExit",
           "normalized": "IOGame a b c d()",
@@ -2645,6 +2865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a FunGEn game and start it running.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "funInit",
           "package": "FunGEn",
@@ -2654,6 +2875,7 @@
         "index": {
           "description": "Build FunGEn game and start it running",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "funInit",
           "normalized": "WindowConfig-\u003eGameMap a-\u003e[ObjectManager b]-\u003ec-\u003ed-\u003e[InputBinding d b c a]-\u003eIOGame d b c a()-\u003eRefreshType-\u003eFilePictureList-\u003eIO()",
@@ -2670,6 +2892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialise the input system, which keeps a list of input event to\n action bindings and executes the the proper actions automatically.\n Returns a function for adding bindings (GLUT's - should return the\n FunGEn-aware one instead ?), and another which should be called\n periodically (eg from refresh) to trigger still-down actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "funInitInput",
           "package": "FunGEn",
@@ -2680,6 +2903,7 @@
         "index": {
           "description": "Initialise the input system which keeps list of input event to action bindings and executes the the proper actions automatically Returns function for adding bindings GLUT should return the FunGEn-aware one instead and another which should be called periodically eg from refresh to trigger still-down actions",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "funInitInput",
           "normalized": "[InputBinding a b c d]-\u003eGame a b c d-\u003eIO(KeyBinder,StillDownHandler)",
@@ -2695,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getCurrentMap",
           "package": "FunGEn",
@@ -2704,6 +2929,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getCurrentMap",
           "normalized": "GameMap a-\u003eGameMap a",
@@ -2719,6 +2945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getGameAttribute",
           "package": "FunGEn",
@@ -2728,6 +2955,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getGameAttribute",
           "package": "FunGEn",
@@ -2741,6 +2969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getGameFlags",
           "package": "FunGEn",
@@ -2750,6 +2979,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getGameFlags",
           "package": "FunGEn",
@@ -2763,6 +2993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getGameObjectAsleep",
           "package": "FunGEn",
@@ -2772,6 +3003,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getGameObjectAsleep",
           "normalized": "GameObject a-\u003eBool",
@@ -2787,6 +3019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getGameObjectAttribute",
           "package": "FunGEn",
@@ -2796,6 +3029,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getGameObjectAttribute",
           "normalized": "GameObject a-\u003ea",
@@ -2811,6 +3045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getGameObjectId",
           "package": "FunGEn",
@@ -2820,6 +3055,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getGameObjectId",
           "normalized": "GameObject a-\u003eInteger",
@@ -2835,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getGameObjectManagerName",
           "package": "FunGEn",
@@ -2844,6 +3081,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getGameObjectManagerName",
           "normalized": "GameObject a-\u003eString",
@@ -2859,6 +3097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getGameObjectName",
           "package": "FunGEn",
@@ -2868,6 +3107,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getGameObjectName",
           "normalized": "GameObject a-\u003eString",
@@ -2883,6 +3123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getGameObjectPosition",
           "package": "FunGEn",
@@ -2892,6 +3133,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getGameObjectPosition",
           "normalized": "GameObject a-\u003e(GLdouble,GLdouble)",
@@ -2907,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getGameObjectSize",
           "package": "FunGEn",
@@ -2916,6 +3159,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getGameObjectSize",
           "normalized": "GameObject a-\u003e(GLdouble,GLdouble)",
@@ -2931,6 +3175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getGameObjectSpeed",
           "package": "FunGEn",
@@ -2940,6 +3185,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getGameObjectSpeed",
           "normalized": "GameObject a-\u003e(GLdouble,GLdouble)",
@@ -2955,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getGameState",
           "package": "FunGEn",
@@ -2964,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getGameState",
           "package": "FunGEn",
@@ -2977,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getMapSize",
           "package": "FunGEn",
@@ -2986,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getMapSize",
           "normalized": "GameMap a-\u003ePoint D",
@@ -3002,6 +3252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebecause an object can have its sleeping status modified, it is necessary\n to search through the managers to find it, otherwise this functions won't be safe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectAsleep",
           "package": "FunGEn",
@@ -3012,6 +3263,7 @@
         "index": {
           "description": "because an object can have its sleeping status modified it is necessary to search through the managers to find it otherwise this functions won be safe",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectAsleep",
           "normalized": "GameObject a-\u003eIOGame b a c d Bool",
@@ -3028,6 +3280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebecause an object can have its attribute modified, it is necessary\n to search through the managers to find it, otherwise this functions won't be safe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectAttribute",
           "package": "FunGEn",
@@ -3038,6 +3291,7 @@
         "index": {
           "description": "because an object can have its attribute modified it is necessary to search through the managers to find it otherwise this functions won be safe",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectAttribute",
           "normalized": "GameObject a-\u003eIOGame b a c d a",
@@ -3054,6 +3308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebecause an object can have its group (manager) name modified, it is necessary\n to search through the managers to find it, otherwise this functions won't be safe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectGroupName",
           "package": "FunGEn",
@@ -3064,6 +3319,7 @@
         "index": {
           "description": "because an object can have its group manager name modified it is necessary to search through the managers to find it otherwise this functions won be safe",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectGroupName",
           "normalized": "GameObject a-\u003eIOGame b a c d String",
@@ -3079,6 +3335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectManagerCounter",
           "package": "FunGEn",
@@ -3088,6 +3345,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectManagerCounter",
           "normalized": "ObjectManager a-\u003eInteger",
@@ -3103,6 +3361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectManagerName",
           "package": "FunGEn",
@@ -3112,6 +3371,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectManagerName",
           "normalized": "ObjectManager a-\u003eString",
@@ -3127,6 +3387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectManagerObjects",
           "package": "FunGEn",
@@ -3136,6 +3397,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectManagerObjects",
           "normalized": "ObjectManager a-\u003e[GameObject a]",
@@ -3151,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectManagers",
           "package": "FunGEn",
@@ -3160,6 +3423,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectManagers",
           "normalized": "IOGame a b c d[ObjectManager b]",
@@ -3176,6 +3440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethere is no need to search through the managers, because the name of an object is\n never modified so the result of this function will always be safe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectName",
           "package": "FunGEn",
@@ -3186,6 +3451,7 @@
         "index": {
           "description": "there is no need to search through the managers because the name of an object is never modified so the result of this function will always be safe",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectName",
           "normalized": "GameObject a-\u003eIOGame b a c d String",
@@ -3202,6 +3468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebecause an object can have its position modified, it is necessary\n to search through the managers to find it, otherwise this functions won't be safe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectPosition",
           "package": "FunGEn",
@@ -3212,6 +3479,7 @@
         "index": {
           "description": "because an object can have its position modified it is necessary to search through the managers to find it otherwise this functions won be safe",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectPosition",
           "normalized": "GameObject a-\u003eIOGame b a c d(GLdouble,GLdouble)",
@@ -3228,6 +3496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebecause an object can have its size modified, it is necessary\n to search through the managers to find it, otherwise this functions won't be safe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectSize",
           "package": "FunGEn",
@@ -3238,6 +3507,7 @@
         "index": {
           "description": "because an object can have its size modified it is necessary to search through the managers to find it otherwise this functions won be safe",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectSize",
           "normalized": "GameObject a-\u003eIOGame b a c d(GLdouble,GLdouble)",
@@ -3254,6 +3524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebecause an object can have its speed modified, it is necessary\n to search through the managers to find it, otherwise this functions won't be safe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectSpeed",
           "package": "FunGEn",
@@ -3264,6 +3535,7 @@
         "index": {
           "description": "because an object can have its speed modified it is necessary to search through the managers to find it otherwise this functions won be safe",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectSpeed",
           "normalized": "GameObject a-\u003eIOGame b a c d(GLdouble,GLdouble)",
@@ -3280,6 +3552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the list of all objects from the group whose name is given\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectsFromGroup",
           "package": "FunGEn",
@@ -3290,6 +3563,7 @@
         "index": {
           "description": "returns the list of all objects from the group whose name is given",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getObjectsFromGroup",
           "normalized": "String-\u003eIOGame a b c d[GameObject b]",
@@ -3305,6 +3579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getTileBlocked",
           "package": "FunGEn",
@@ -3314,6 +3589,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getTileBlocked",
           "normalized": "Tile a-\u003eBool",
@@ -3330,6 +3606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns a mapTile, given its index (x,y) in the tile map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getTileFromIndex",
           "package": "FunGEn",
@@ -3340,6 +3617,7 @@
         "index": {
           "description": "returns mapTile given its index in the tile map",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getTileFromIndex",
           "normalized": "(Int,Int)-\u003eIOGame a b c d(Tile d)",
@@ -3356,6 +3634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns a mapTile, given its pixel position (x,y) in the screen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getTileFromWindowPosition",
           "package": "FunGEn",
@@ -3366,6 +3645,7 @@
         "index": {
           "description": "returns mapTile given its pixel position in the screen",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getTileFromWindowPosition",
           "normalized": "(GLdouble,GLdouble)-\u003eIOGame a b c d(Tile d)",
@@ -3381,6 +3661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getTileMapScroll",
           "package": "FunGEn",
@@ -3390,6 +3671,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getTileMapScroll",
           "normalized": "GameMap a-\u003ePoint D",
@@ -3405,6 +3687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getTileMapSize",
           "package": "FunGEn",
@@ -3414,6 +3697,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getTileMapSize",
           "normalized": "GameMap a-\u003ePoint D",
@@ -3429,6 +3713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getTileMapTileMatrix",
           "package": "FunGEn",
@@ -3438,6 +3723,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getTileMapTileMatrix",
           "normalized": "GameMap a-\u003eTileMatrix a",
@@ -3453,6 +3739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getTileMapTileSize",
           "package": "FunGEn",
@@ -3462,6 +3749,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getTileMapTileSize",
           "normalized": "GameMap a-\u003ePoint D",
@@ -3477,6 +3765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getTileMoveCost",
           "package": "FunGEn",
@@ -3486,6 +3775,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getTileMoveCost",
           "normalized": "Tile a-\u003eFloat",
@@ -3501,6 +3791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getTilePictureIndex",
           "package": "FunGEn",
@@ -3510,6 +3801,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getTilePictureIndex",
           "normalized": "Tile a-\u003eInt",
@@ -3525,6 +3817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "getTileSpecialAttribute",
           "package": "FunGEn",
@@ -3534,6 +3827,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "getTileSpecialAttribute",
           "normalized": "Tile a-\u003ea",
@@ -3549,6 +3843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "inv2color3",
           "package": "FunGEn",
@@ -3558,6 +3853,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "inv2color3",
           "normalized": "InvList-\u003eMaybe ColorList",
@@ -3572,6 +3868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "isEmpty",
           "package": "FunGEn",
@@ -3581,6 +3878,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "isEmpty",
           "normalized": "[a]-\u003eBool",
@@ -3596,6 +3894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "isMultiMap",
           "package": "FunGEn",
@@ -3605,6 +3904,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "isMultiMap",
           "normalized": "GameMap a-\u003eBool",
@@ -3620,6 +3920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "isTileMap",
           "package": "FunGEn",
@@ -3629,6 +3930,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "isTileMap",
           "normalized": "GameMap a-\u003eBool",
@@ -3644,6 +3946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "liftIOtoIOGame",
           "package": "FunGEn",
@@ -3653,6 +3956,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "liftIOtoIOGame",
           "normalized": "IO a-\u003eIOGame b c d e a",
@@ -3668,6 +3972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "liftIOtoIOGame'",
           "package": "FunGEn",
@@ -3677,6 +3982,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "liftIOtoIOGame'",
           "normalized": "(a-\u003eIO())-\u003ea-\u003eIOGame b c d e()",
@@ -3693,6 +3999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads a bitmap from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "loadBitmap",
           "package": "FunGEn",
@@ -3703,6 +4010,7 @@
         "index": {
           "description": "Loads bitmap from file",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "loadBitmap",
           "normalized": "FilePath-\u003eMaybe ColorList-\u003eIO AwbfBitmap",
@@ -3719,6 +4027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads n bitmaps from n files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "loadBitmapList",
           "package": "FunGEn",
@@ -3729,6 +4038,7 @@
         "index": {
           "description": "Loads bitmaps from files",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "loadBitmapList",
           "normalized": "[(FilePath,Maybe ColorList)]-\u003eIO[AwbfBitmap]",
@@ -3744,6 +4054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "make0",
           "package": "FunGEn",
@@ -3753,6 +4064,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "make0",
           "normalized": "Int-\u003eString",
@@ -3768,6 +4080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the max indexes of a matrix (assumed that its lines have the same length)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "matrixSize",
           "package": "FunGEn",
@@ -3778,6 +4091,7 @@
         "index": {
           "description": "return the max indexes of matrix assumed that its lines have the same length",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "matrixSize",
           "normalized": "[[a]]-\u003e(Int,Int)",
@@ -3793,6 +4107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "matrixToList",
           "package": "FunGEn",
@@ -3802,6 +4117,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "matrixToList",
           "normalized": "[[a]]-\u003e[a]",
@@ -3818,6 +4134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echanges objects position according to its speed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "moveAllObjects",
           "package": "FunGEn",
@@ -3828,6 +4145,7 @@
         "index": {
           "description": "changes objects position according to its speed",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "moveAllObjects",
           "normalized": "IOGame a b c d()",
@@ -3843,6 +4161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "moveGameObjects",
           "package": "FunGEn",
@@ -3852,6 +4171,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "moveGameObjects",
           "normalized": "[ObjectManager a]-\u003e[ObjectManager a]",
@@ -3868,6 +4188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates a multimap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "multiMap",
           "package": "FunGEn",
@@ -3878,6 +4199,7 @@
         "index": {
           "description": "creates multimap",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "multiMap",
           "normalized": "[GameMap a]-\u003eInt-\u003eGameMap a",
@@ -3893,6 +4215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "object",
           "package": "FunGEn",
@@ -3902,6 +4225,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "object",
           "normalized": "String-\u003eObjectPicture-\u003eBool-\u003e(GLdouble,GLdouble)-\u003e(GLdouble,GLdouble)-\u003ea-\u003eGameObject a",
@@ -3917,6 +4241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecks the collision between an object and the bottom of the map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "objectBottomMapCollision",
           "package": "FunGEn",
@@ -3927,6 +4252,7 @@
         "index": {
           "description": "checks the collision between an object and the bottom of the map",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "objectBottomMapCollision",
           "normalized": "GameObject a-\u003eIOGame b a c d Bool",
@@ -3943,6 +4269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecks the collision between an object and the bottom of the map in the next game cicle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "objectBottomMapFutureCollision",
           "package": "FunGEn",
@@ -3953,6 +4280,7 @@
         "index": {
           "description": "checks the collision between an object and the bottom of the map in the next game cicle",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "objectBottomMapFutureCollision",
           "normalized": "GameObject a-\u003eIOGame b a c d Bool",
@@ -3968,6 +4296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "objectGroup",
           "package": "FunGEn",
@@ -3977,6 +4306,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "objectGroup",
           "normalized": "String-\u003e[GameObject a]-\u003eObjectManager a",
@@ -3993,6 +4323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecks the collision between an object and the left side of the map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "objectLeftMapCollision",
           "package": "FunGEn",
@@ -4003,6 +4334,7 @@
         "index": {
           "description": "checks the collision between an object and the left side of the map",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "objectLeftMapCollision",
           "normalized": "GameObject a-\u003eIOGame b a c d Bool",
@@ -4019,6 +4351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecks the collision between an object and the left side of the map in the next game cicle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "objectLeftMapFutureCollision",
           "package": "FunGEn",
@@ -4029,6 +4362,7 @@
         "index": {
           "description": "checks the collision between an object and the left side of the map in the next game cicle",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "objectLeftMapFutureCollision",
           "normalized": "GameObject a-\u003eIOGame b a c d Bool",
@@ -4044,6 +4378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "objectListObjectCollision",
           "package": "FunGEn",
@@ -4053,6 +4388,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "objectListObjectCollision",
           "normalized": "[GameObject a]-\u003eGameObject a-\u003eIOGame b a c d Bool",
@@ -4068,6 +4404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "objectListObjectFutureCollision",
           "package": "FunGEn",
@@ -4077,6 +4414,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "objectListObjectFutureCollision",
           "normalized": "[GameObject a]-\u003eGameObject a-\u003eIOGame b a c d Bool",
@@ -4093,6 +4431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecks the collision between an object and the right side of the map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "objectRightMapCollision",
           "package": "FunGEn",
@@ -4103,6 +4442,7 @@
         "index": {
           "description": "checks the collision between an object and the right side of the map",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "objectRightMapCollision",
           "normalized": "GameObject a-\u003eIOGame b a c d Bool",
@@ -4119,6 +4459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecks the collision between an object and the right side of the map in the next game cicle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "objectRightMapFutureCollision",
           "package": "FunGEn",
@@ -4129,6 +4470,7 @@
         "index": {
           "description": "checks the collision between an object and the right side of the map in the next game cicle",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "objectRightMapFutureCollision",
           "normalized": "GameObject a-\u003eIOGame b a c d Bool",
@@ -4145,6 +4487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecks the collision between an object and the top of the map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "objectTopMapCollision",
           "package": "FunGEn",
@@ -4155,6 +4498,7 @@
         "index": {
           "description": "checks the collision between an object and the top of the map",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "objectTopMapCollision",
           "normalized": "GameObject a-\u003eIOGame b a c d Bool",
@@ -4171,6 +4515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecks the collision between an object and the top of the map in the next game cicle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "objectTopMapFutureCollision",
           "package": "FunGEn",
@@ -4181,6 +4526,7 @@
         "index": {
           "description": "checks the collision between an object and the top of the map in the next game cicle",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "objectTopMapFutureCollision",
           "normalized": "GameObject a-\u003eIOGame b a c d Bool",
@@ -4197,6 +4543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecks the collision between two objects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "objectsCollision",
           "package": "FunGEn",
@@ -4207,6 +4554,7 @@
         "index": {
           "description": "checks the collision between two objects",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "objectsCollision",
           "normalized": "GameObject a-\u003eGameObject a-\u003eIOGame b a c d Bool",
@@ -4223,6 +4571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echecks the collision between two objects in the next game cicle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "objectsFutureCollision",
           "package": "FunGEn",
@@ -4233,6 +4582,7 @@
         "index": {
           "description": "checks the collision between two objects in the next game cicle",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "objectsFutureCollision",
           "normalized": "GameObject a-\u003eGameObject a-\u003eIOGame b a c d Bool",
@@ -4248,6 +4598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "ord2",
           "package": "FunGEn",
@@ -4257,6 +4608,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "ord2",
           "normalized": "Char-\u003eGLubyte",
@@ -4271,6 +4623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "pathAndInv2color3List",
           "package": "FunGEn",
@@ -4280,6 +4633,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "pathAndInv2color3List",
           "normalized": "(FilePath,InvList)-\u003e(FilePath,Maybe ColorList)",
@@ -4295,6 +4649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "point2DtoVertex3",
           "package": "FunGEn",
@@ -4304,6 +4659,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "point2DtoVertex3",
           "normalized": "[Point D]-\u003e[Vertex GLdouble]",
@@ -4319,6 +4675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "pointsObjectCollision",
           "package": "FunGEn",
@@ -4328,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "pointsObjectCollision",
           "normalized": "GLdouble-\u003eGLdouble-\u003eGLdouble-\u003eGLdouble-\u003eGameObject a-\u003eIOGame b a c d Bool",
@@ -4343,6 +4701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "pointsObjectListCollision",
           "package": "FunGEn",
@@ -4352,6 +4711,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "pointsObjectListCollision",
           "normalized": "GLdouble-\u003eGLdouble-\u003eGLdouble-\u003eGLdouble-\u003e[GameObject a]-\u003eIOGame b a c d Bool",
@@ -4367,6 +4727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "pow2",
           "package": "FunGEn",
@@ -4376,6 +4737,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "pow2",
           "normalized": "GLsizei-\u003eGLsizei",
@@ -4391,6 +4753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprints a string in the prompt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "printOnPrompt",
           "package": "FunGEn",
@@ -4401,6 +4764,7 @@
         "index": {
           "description": "prints string in the prompt",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "printOnPrompt",
           "normalized": "a-\u003eIOGame b c d e()",
@@ -4417,6 +4781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprints a string in the current window\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "printOnScreen",
           "package": "FunGEn",
@@ -4427,6 +4792,7 @@
         "index": {
           "description": "prints string in the current window",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "printOnScreen",
           "normalized": "String-\u003eBitmapFont-\u003e(GLdouble,GLdouble)-\u003eGLclampf-\u003eGLclampf-\u003eGLclampf-\u003eIOGame a b c d()",
@@ -4443,6 +4809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einternal use of the engine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "printText",
           "package": "FunGEn",
@@ -4453,6 +4820,7 @@
         "index": {
           "description": "internal use of the engine",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "printText",
           "normalized": "IOGame a b c d()",
@@ -4469,6 +4837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay these texts on screen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "putGameText",
           "package": "FunGEn",
@@ -4479,6 +4848,7 @@
         "index": {
           "description": "Display these texts on screen",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "putGameText",
           "normalized": "[Text]-\u003eIO()",
@@ -4494,6 +4864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "racMod",
           "package": "FunGEn",
@@ -4503,6 +4874,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "racMod",
           "normalized": "GLdouble-\u003eGLdouble-\u003eGLdouble",
@@ -4518,6 +4890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "randDouble",
           "package": "FunGEn",
@@ -4527,6 +4900,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "randDouble",
           "normalized": "(Double,Double)-\u003eIO Double",
@@ -4542,6 +4916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "randFloat",
           "package": "FunGEn",
@@ -4551,6 +4926,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "randFloat",
           "normalized": "(Float,Float)-\u003eIO Float",
@@ -4566,6 +4942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "randInt",
           "package": "FunGEn",
@@ -4575,6 +4952,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "randInt",
           "normalized": "(Int,Int)-\u003eIO Int",
@@ -4590,6 +4968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "randomDouble",
           "package": "FunGEn",
@@ -4599,6 +4978,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "randomDouble",
           "normalized": "(Double,Double)-\u003eIOGame a b c d Double",
@@ -4614,6 +4994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "randomFloat",
           "package": "FunGEn",
@@ -4623,6 +5004,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "randomFloat",
           "normalized": "(Float,Float)-\u003eIOGame a b c d Float",
@@ -4638,6 +5020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "randomInt",
           "package": "FunGEn",
@@ -4647,6 +5030,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "randomInt",
           "normalized": "(Int,Int)-\u003eIOGame a b c d Int",
@@ -4663,6 +5047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereplaces an object by a new one, given the old object and the function that must be applied to it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "replaceObject",
           "package": "FunGEn",
@@ -4673,6 +5058,7 @@
         "index": {
           "description": "replaces an object by new one given the old object and the function that must be applied to it",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "replaceObject",
           "normalized": "GameObject a-\u003e(GameObject a-\u003eGameObject a)-\u003eIOGame b a c d()",
@@ -4688,6 +5074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "reverseXSpeed",
           "package": "FunGEn",
@@ -4697,6 +5084,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "reverseXSpeed",
           "normalized": "GameObject a-\u003eIOGame b a c d()",
@@ -4712,6 +5100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "reverseYSpeed",
           "package": "FunGEn",
@@ -4721,6 +5110,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "reverseYSpeed",
           "normalized": "GameObject a-\u003eIOGame b a c d()",
@@ -4736,6 +5126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "runIOGame",
           "package": "FunGEn",
@@ -4745,6 +5136,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "runIOGame",
           "normalized": "IOGame a b c d e-\u003eGame a b c d-\u003eIO(Game a b c d,e)",
@@ -4760,6 +5152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "runIOGameM",
           "package": "FunGEn",
@@ -4769,6 +5162,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "runIOGameM",
           "normalized": "IOGame a b c d e-\u003eGame a b c d-\u003eIO()",
@@ -4784,6 +5178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "searchGameObject",
           "package": "FunGEn",
@@ -4793,6 +5188,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "searchGameObject",
           "normalized": "String-\u003eObjectManager a-\u003eGameObject a",
@@ -4808,6 +5204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "searchObjectManager",
           "package": "FunGEn",
@@ -4817,6 +5214,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "searchObjectManager",
           "normalized": "String-\u003e[ObjectManager a]-\u003eObjectManager a",
@@ -4833,6 +5231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the current map for a MultiMap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "setCurrentMapIndex",
           "package": "FunGEn",
@@ -4843,6 +5242,7 @@
         "index": {
           "description": "set the current map for MultiMap",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "setCurrentMapIndex",
           "normalized": "Int-\u003eIOGame a b c d()",
@@ -4858,6 +5258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "setGameAttribute",
           "package": "FunGEn",
@@ -4867,6 +5268,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "setGameAttribute",
           "normalized": "a-\u003eIOGame a b c d()",
@@ -4882,6 +5284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "setGameFlags",
           "package": "FunGEn",
@@ -4891,6 +5294,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "setGameFlags",
           "normalized": "GameFlags-\u003eIOGame a b c d()",
@@ -4906,6 +5310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "setGameState",
           "package": "FunGEn",
@@ -4915,6 +5320,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "setGameState",
           "normalized": "a-\u003eIOGame b c a d()",
@@ -4931,6 +5337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echanges the sleeping status of an object, given its new status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "setObjectAsleep",
           "package": "FunGEn",
@@ -4941,6 +5348,7 @@
         "index": {
           "description": "changes the sleeping status of an object given its new status",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "setObjectAsleep",
           "normalized": "Bool-\u003eGameObject a-\u003eIOGame b a c d()",
@@ -4957,6 +5365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echanges the attribute of an object, given its new attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "setObjectAttribute",
           "package": "FunGEn",
@@ -4967,6 +5376,7 @@
         "index": {
           "description": "changes the attribute of an object given its new attribute",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "setObjectAttribute",
           "normalized": "a-\u003eGameObject a-\u003eIOGame b a c d()",
@@ -4983,6 +5393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echanges the current picture of a multitextured object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "setObjectCurrentPicture",
           "package": "FunGEn",
@@ -4993,6 +5404,7 @@
         "index": {
           "description": "changes the current picture of multitextured object",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "setObjectCurrentPicture",
           "normalized": "Int-\u003eGameObject a-\u003eIOGame b a c d()",
@@ -5008,6 +5420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "setObjectManagers",
           "package": "FunGEn",
@@ -5017,6 +5430,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "setObjectManagers",
           "normalized": "[ObjectManager a]-\u003eIOGame b a c d()",
@@ -5033,6 +5447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echanges the position of an object, given its new position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "setObjectPosition",
           "package": "FunGEn",
@@ -5043,6 +5458,7 @@
         "index": {
           "description": "changes the position of an object given its new position",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "setObjectPosition",
           "normalized": "(GLdouble,GLdouble)-\u003eGameObject a-\u003eIOGame b a c d()",
@@ -5059,6 +5475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echanges the speed of an object, given its new speed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "setObjectSpeed",
           "package": "FunGEn",
@@ -5069,6 +5486,7 @@
         "index": {
           "description": "changes the speed of an object given its new speed",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "setObjectSpeed",
           "normalized": "(GLdouble,GLdouble)-\u003eGameObject a-\u003eIOGame b a c d()",
@@ -5085,6 +5503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the current timing strategy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "setRefresh",
           "package": "FunGEn",
@@ -5095,6 +5514,7 @@
         "index": {
           "description": "Change the current timing strategy",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "setRefresh",
           "normalized": "RefreshType-\u003eStillDownHandler-\u003eIO()",
@@ -5110,6 +5530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "shift",
           "package": "FunGEn",
@@ -5118,6 +5539,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "shift",
           "package": "FunGEn",
@@ -5130,6 +5552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "shiftLeft",
           "package": "FunGEn",
@@ -5139,6 +5562,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "shiftLeft",
           "normalized": "String-\u003eInt-\u003eString",
@@ -5155,6 +5579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshows the frame rate (or frame per seconds) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "showFPS",
           "package": "FunGEn",
@@ -5165,6 +5590,7 @@
         "index": {
           "description": "shows the frame rate or frame per seconds",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "showFPS",
           "normalized": "BitmapFont-\u003e(GLdouble,GLdouble)-\u003eGLclampf-\u003eGLclampf-\u003eGLclampf-\u003eIOGame a b c d()",
@@ -5180,6 +5606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "texCoord2",
           "package": "FunGEn",
@@ -5189,6 +5616,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "texCoord2",
           "normalized": "GLdouble-\u003eGLdouble-\u003eIO()",
@@ -5204,6 +5632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "texStuff",
           "package": "FunGEn",
@@ -5213,6 +5642,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "texStuff",
           "normalized": "[TextureObject]-\u003e[AwbfBitmap]-\u003eIO()",
@@ -5229,6 +5659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates a PreTextureMap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "textureMap",
           "package": "FunGEn",
@@ -5239,6 +5670,7 @@
         "index": {
           "description": "creates PreTextureMap",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "textureMap",
           "normalized": "Int-\u003eGLdouble-\u003eGLdouble-\u003eGLdouble-\u003eGLdouble-\u003eGameMap a",
@@ -5255,6 +5687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates a PreTileMap, cheking if the tileMatrix given is valid and automatically defining the map size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "tileMap",
           "package": "FunGEn",
@@ -5265,6 +5698,7 @@
         "index": {
           "description": "creates PreTileMap cheking if the tileMatrix given is valid and automatically defining the map size",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "tileMap",
           "normalized": "TileMatrix a-\u003eGLdouble-\u003eGLdouble-\u003eGameMap a",
@@ -5280,6 +5714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "toBinary",
           "package": "FunGEn",
@@ -5289,6 +5724,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "toBinary",
           "normalized": "Int-\u003eString",
@@ -5304,6 +5740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "toDecimal",
           "package": "FunGEn",
@@ -5313,6 +5750,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "toDecimal",
           "normalized": "String-\u003eGLsizei",
@@ -5328,6 +5766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "toRad",
           "package": "FunGEn",
@@ -5337,6 +5776,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "toRad",
           "normalized": "Float-\u003eFloat",
@@ -5352,6 +5792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "unless",
           "package": "FunGEn",
@@ -5361,6 +5802,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "unless",
           "normalized": "Bool-\u003ea()-\u003ea()",
@@ -5375,6 +5817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "updateCurrentIndex",
           "package": "FunGEn",
@@ -5384,6 +5827,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "updateCurrentIndex",
           "normalized": "GameMap a-\u003eInt-\u003eGameMap a",
@@ -5399,6 +5843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "updateCurrentMap",
           "package": "FunGEn",
@@ -5408,6 +5853,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "updateCurrentMap",
           "normalized": "GameMap a-\u003eGameMap a-\u003eGameMap a",
@@ -5423,6 +5869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "updateObject",
           "package": "FunGEn",
@@ -5432,6 +5879,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "updateObject",
           "normalized": "(GameObject a-\u003eGameObject a)-\u003eInteger-\u003eString-\u003e[ObjectManager a]-\u003e[ObjectManager a]",
@@ -5447,6 +5895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "updateObjectAsleep",
           "package": "FunGEn",
@@ -5456,6 +5905,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "updateObjectAsleep",
           "normalized": "Bool-\u003eGameObject a-\u003eGameObject a",
@@ -5471,6 +5921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "updateObjectAttribute",
           "package": "FunGEn",
@@ -5480,6 +5931,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "updateObjectAttribute",
           "normalized": "a-\u003eGameObject a-\u003eGameObject a",
@@ -5495,6 +5947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "updateObjectPicture",
           "package": "FunGEn",
@@ -5504,6 +5957,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "updateObjectPicture",
           "normalized": "Int-\u003eInt-\u003eGameObject a-\u003eGameObject a",
@@ -5519,6 +5973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "updateObjectPosition",
           "package": "FunGEn",
@@ -5528,6 +5983,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "updateObjectPosition",
           "normalized": "(GLdouble,GLdouble)-\u003eGameObject a-\u003eGameObject a",
@@ -5543,6 +5999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "updateObjectSize",
           "package": "FunGEn",
@@ -5552,6 +6009,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "updateObjectSize",
           "normalized": "(GLdouble,GLdouble)-\u003eGameObject a-\u003eGameObject a",
@@ -5567,6 +6025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "updateObjectSpeed",
           "package": "FunGEn",
@@ -5576,6 +6035,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "updateObjectSpeed",
           "normalized": "(GLdouble,GLdouble)-\u003eGameObject a-\u003eGameObject a",
@@ -5591,6 +6051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "vertex3",
           "package": "FunGEn",
@@ -5600,6 +6061,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "vertex3",
           "normalized": "GLdouble-\u003eGLdouble-\u003eGLdouble-\u003eIO()",
@@ -5615,6 +6077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelay for N  seconds while continuing essential game functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "wait",
           "package": "FunGEn",
@@ -5625,6 +6088,7 @@
         "index": {
           "description": "delay for seconds while continuing essential game functions",
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "wait",
           "normalized": "Int-\u003eIOGame a b c d()",
@@ -5639,6 +6103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.Fungen",
           "name": "when",
           "package": "FunGEn",
@@ -5648,6 +6113,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Fungen",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.Fungen",
           "name": "when",
           "normalized": "Bool-\u003ea()-\u003ea()",
@@ -5663,6 +6129,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGLUT-based keyboard/mouse handling.\n\u003c/p\u003e\u003cp\u003eSven Panne 2000 \u003ca\u003eSven.Panne@informatik.uni-muenchen.de\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThis provides a \u003ca\u003estill down\u003c/a\u003e event in addition to GLUT's key/mouse\nbutton up/down events, and manages bindings from input events to actions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.GLUT.Input",
           "name": "Input",
           "package": "FunGEn",
@@ -5672,6 +6139,7 @@
         "index": {
           "description": "GLUT-based keyboard mouse handling Sven Panne Sven.Panne@informatik.uni-muenchen.de This provides still down event in addition to GLUT key mouse button up down events and manages bindings from input events to actions",
           "hierarchy": "Graphics UI GLUT Input",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.GLUT.Input",
           "name": "Input",
           "package": "FunGEn",
@@ -5685,6 +6153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.GLUT.Input",
           "name": "InputHandler",
           "package": "FunGEn",
@@ -5693,6 +6162,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Input",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.GLUT.Input",
           "name": "InputHandler",
           "package": "FunGEn",
@@ -5707,6 +6177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalized view of keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.GLUT.Input",
           "name": "Key",
           "package": "FunGEn",
@@ -5715,6 +6186,7 @@
         "index": {
           "description": "generalized view of keys",
           "hierarchy": "Graphics UI GLUT Input",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.GLUT.Input",
           "name": "Key",
           "package": "FunGEn",
@@ -5728,6 +6200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.GLUT.Input",
           "name": "KeyBinder",
           "package": "FunGEn",
@@ -5736,6 +6209,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Input",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.GLUT.Input",
           "name": "KeyBinder",
           "package": "FunGEn",
@@ -5749,6 +6223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.GLUT.Input",
           "name": "KeyEvent",
           "package": "FunGEn",
@@ -5757,6 +6232,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Input",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.GLUT.Input",
           "name": "KeyEvent",
           "package": "FunGEn",
@@ -5770,6 +6246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.GLUT.Input",
           "name": "StillDownHandler",
           "package": "FunGEn",
@@ -5778,6 +6255,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLUT Input",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.GLUT.Input",
           "name": "StillDownHandler",
           "package": "FunGEn",
@@ -5792,6 +6270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialise the input system, which keeps a list of input event to\n action bindings and executes the the proper actions automatically.\n Returns a function for adding bindings, and another which should be\n called periodically (eg from refresh) to trigger still-down actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:03 UTC 2014",
           "module": "Graphics.UI.GLUT.Input",
           "name": "glutInitInput",
           "package": "FunGEn",
@@ -5802,6 +6281,7 @@
         "index": {
           "description": "Initialise the input system which keeps list of input event to action bindings and executes the the proper actions automatically Returns function for adding bindings and another which should be called periodically eg from refresh to trigger still-down actions",
           "hierarchy": "Graphics UI GLUT Input",
+          "indexed": "2014-03-11T16:42:03",
           "module": "Graphics.UI.GLUT.Input",
           "name": "glutInitInput",
           "normalized": "IO(KeyBinder,StillDownHandler)",

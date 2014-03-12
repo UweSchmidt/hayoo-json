@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "smt-lib"
+        "phrase": "smt-lib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB.Lexer",
           "name": "Lexer",
           "package": "smt-lib",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB Lexer",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB.Lexer",
           "name": "Lexer",
           "package": "smt-lib",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB.Lexer",
           "name": "Token",
           "package": "smt-lib",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB Lexer",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB.Lexer",
           "name": "Token",
           "package": "smt-lib",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB.Lexer",
           "name": "Bin",
           "package": "smt-lib",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB Lexer",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB.Lexer",
           "name": "Bin",
           "package": "smt-lib",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB.Lexer",
           "name": "Decimal",
           "package": "smt-lib",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB Lexer",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB.Lexer",
           "name": "Decimal",
           "package": "smt-lib",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB.Lexer",
           "name": "Hex",
           "package": "smt-lib",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB Lexer",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB.Lexer",
           "name": "Hex",
           "package": "smt-lib",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB.Lexer",
           "name": "Keyword",
           "package": "smt-lib",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB Lexer",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB.Lexer",
           "name": "Keyword",
           "package": "smt-lib",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB.Lexer",
           "name": "LeftParen",
           "package": "smt-lib",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB Lexer",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB.Lexer",
           "name": "LeftParen",
           "package": "smt-lib",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB.Lexer",
           "name": "Numeral",
           "package": "smt-lib",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB Lexer",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB.Lexer",
           "name": "Numeral",
           "package": "smt-lib",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB.Lexer",
           "name": "RightParen",
           "package": "smt-lib",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB Lexer",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB.Lexer",
           "name": "RightParen",
           "package": "smt-lib",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB.Lexer",
           "name": "String",
           "package": "smt-lib",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB Lexer",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB.Lexer",
           "name": "String",
           "package": "smt-lib",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB.Lexer",
           "name": "Symbol",
           "package": "smt-lib",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB Lexer",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB.Lexer",
           "name": "Symbol",
           "package": "smt-lib",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB.Lexer",
           "name": "alexAndPred",
           "package": "smt-lib",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB Lexer",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB.Lexer",
           "name": "alexAndPred",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003eBool)-\u003e(a-\u003ea-\u003ea-\u003ea-\u003eBool)-\u003ea-\u003ea-\u003ea-\u003ea-\u003eBool",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB.Lexer",
           "name": "alexInputPrevChar",
           "package": "smt-lib",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB Lexer",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB.Lexer",
           "name": "alexInputPrevChar",
           "normalized": "(a,a)-\u003ea",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB.Lexer",
           "name": "alexPrevCharIs",
           "package": "smt-lib",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB Lexer",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB.Lexer",
           "name": "alexPrevCharIs",
           "normalized": "a-\u003eb-\u003e(a,b)-\u003eb-\u003eb-\u003eBool",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB.Lexer",
           "name": "alexPrevCharIsOneOf",
           "package": "smt-lib",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB Lexer",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB.Lexer",
           "name": "alexPrevCharIsOneOf",
           "normalized": "Array a b-\u003ec-\u003e(a,c)-\u003ec-\u003ec-\u003eb",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB.Lexer",
           "name": "alexRightContext",
           "package": "smt-lib",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB Lexer",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB.Lexer",
           "name": "alexRightContext",
           "normalized": "Int-\u003eAny-\u003ea-\u003ea-\u003eAlexInput-\u003eBool",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB.Lexer",
           "name": "alexScanTokens",
           "package": "smt-lib",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB Lexer",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB.Lexer",
           "name": "alexScanTokens",
           "normalized": "String-\u003e[Token]",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB.Lexer",
           "name": "iUnbox",
           "package": "smt-lib",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB Lexer",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB.Lexer",
           "name": "iUnbox",
           "normalized": "Int-\u003eInt #",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB.Lexer",
           "name": "lexSMTLIB",
           "package": "smt-lib",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB Lexer",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB.Lexer",
           "name": "lexSMTLIB",
           "normalized": "String-\u003e[Token]",
@@ -451,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing and printing SMT-LIB.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "SMTLIB",
           "package": "smt-lib",
@@ -460,6 +499,7 @@
         "index": {
           "description": "Parsing and printing SMT-LIB",
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "SMTLIB",
           "package": "smt-lib",
@@ -473,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Attribute",
           "package": "smt-lib",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Attribute",
           "package": "smt-lib",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Attribute_value",
           "package": "smt-lib",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Attribute_value",
           "package": "smt-lib",
@@ -515,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Command",
           "package": "smt-lib",
@@ -523,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Command",
           "package": "smt-lib",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Command_response",
           "package": "smt-lib",
@@ -544,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Command_response",
           "package": "smt-lib",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Error_behavior",
           "package": "smt-lib",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Error_behavior",
           "package": "smt-lib",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Fun_symbol_decl",
           "package": "smt-lib",
@@ -586,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Fun_symbol_decl",
           "package": "smt-lib",
@@ -599,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Gen_response",
           "package": "smt-lib",
@@ -607,6 +660,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Gen_response",
           "package": "smt-lib",
@@ -620,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Identifier",
           "package": "smt-lib",
@@ -628,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Identifier",
           "package": "smt-lib",
@@ -641,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Info_flag",
           "package": "smt-lib",
@@ -649,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Info_flag",
           "package": "smt-lib",
@@ -662,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Info_response",
           "package": "smt-lib",
@@ -670,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Info_response",
           "package": "smt-lib",
@@ -683,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Keyword",
           "package": "smt-lib",
@@ -691,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Keyword",
           "package": "smt-lib",
@@ -704,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Logic",
           "package": "smt-lib",
@@ -712,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Logic",
           "package": "smt-lib",
@@ -725,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Logic_attribute",
           "package": "smt-lib",
@@ -733,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Logic_attribute",
           "package": "smt-lib",
@@ -746,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Meta_spec_constant",
           "package": "smt-lib",
@@ -754,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Meta_spec_constant",
           "package": "smt-lib",
@@ -767,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Numeral",
           "package": "smt-lib",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Numeral",
           "package": "smt-lib",
@@ -788,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Option",
           "package": "smt-lib",
@@ -796,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Option",
           "package": "smt-lib",
@@ -809,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Par_fun_symbol_decl",
           "package": "smt-lib",
@@ -817,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Par_fun_symbol_decl",
           "package": "smt-lib",
@@ -830,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Proof",
           "package": "smt-lib",
@@ -838,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Proof",
           "package": "smt-lib",
@@ -851,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Qual_identifier",
           "package": "smt-lib",
@@ -859,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Qual_identifier",
           "package": "smt-lib",
@@ -872,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Reason_unknown",
           "package": "smt-lib",
@@ -880,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Reason_unknown",
           "package": "smt-lib",
@@ -893,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "S_expr",
           "package": "smt-lib",
@@ -901,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "S_expr",
           "package": "smt-lib",
@@ -913,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Script",
           "package": "smt-lib",
@@ -921,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Script",
           "package": "smt-lib",
@@ -934,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Sort",
           "package": "smt-lib",
@@ -942,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Sort",
           "package": "smt-lib",
@@ -955,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Sort_symbol_decl",
           "package": "smt-lib",
@@ -963,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Sort_symbol_decl",
           "package": "smt-lib",
@@ -976,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Sorted_var",
           "package": "smt-lib",
@@ -984,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Sorted_var",
           "package": "smt-lib",
@@ -997,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Spec_constant",
           "package": "smt-lib",
@@ -1005,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Spec_constant",
           "package": "smt-lib",
@@ -1018,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Status",
           "package": "smt-lib",
@@ -1026,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Status",
           "package": "smt-lib",
@@ -1039,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Symbol",
           "package": "smt-lib",
@@ -1047,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Symbol",
           "package": "smt-lib",
@@ -1060,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "T_valuation_pair",
           "package": "smt-lib",
@@ -1068,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "T_valuation_pair",
           "package": "smt-lib",
@@ -1080,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Term",
           "package": "smt-lib",
@@ -1088,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Term",
           "package": "smt-lib",
@@ -1101,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Theory_attribute",
           "package": "smt-lib",
@@ -1109,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Theory_attribute",
           "package": "smt-lib",
@@ -1122,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Theory_decl",
           "package": "smt-lib",
@@ -1130,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Theory_decl",
           "package": "smt-lib",
@@ -1143,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Valuation_pair",
           "package": "smt-lib",
@@ -1151,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Valuation_pair",
           "package": "smt-lib",
@@ -1164,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Var_binding",
           "package": "smt-lib",
@@ -1172,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Var_binding",
           "package": "smt-lib",
@@ -1185,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "All_statistics",
           "package": "smt-lib",
@@ -1194,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "All_statistics",
           "package": "smt-lib",
@@ -1207,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Assert",
           "package": "smt-lib",
@@ -1216,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Assert",
           "package": "smt-lib",
@@ -1229,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Attribute",
           "package": "smt-lib",
@@ -1238,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Attribute",
           "package": "smt-lib",
@@ -1251,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Attribute_s_expr",
           "package": "smt-lib",
@@ -1260,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Attribute_s_expr",
           "package": "smt-lib",
@@ -1273,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Attribute_value_s_expr",
           "package": "smt-lib",
@@ -1282,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Attribute_value_s_expr",
           "normalized": "Attribute_value_s_expr[S_expr]",
@@ -1297,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Attribute_value_spec_constant",
           "package": "smt-lib",
@@ -1306,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Attribute_value_spec_constant",
           "package": "smt-lib",
@@ -1319,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Attribute_value_symbol",
           "package": "smt-lib",
@@ -1328,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Attribute_value_symbol",
           "package": "smt-lib",
@@ -1341,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Authors",
           "package": "smt-lib",
@@ -1350,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Authors",
           "package": "smt-lib",
@@ -1363,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Check_sat",
           "package": "smt-lib",
@@ -1372,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Check_sat",
           "package": "smt-lib",
@@ -1385,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Continued_execution",
           "package": "smt-lib",
@@ -1394,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Continued_execution",
           "package": "smt-lib",
@@ -1407,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Cs_response",
           "package": "smt-lib",
@@ -1416,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Cs_response",
           "package": "smt-lib",
@@ -1429,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Declare_fun",
           "package": "smt-lib",
@@ -1438,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Declare_fun",
           "normalized": "Declare_fun Symbol[Sort]Sort",
@@ -1453,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Declare_sort",
           "package": "smt-lib",
@@ -1462,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Declare_sort",
           "package": "smt-lib",
@@ -1475,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Define_fun",
           "package": "smt-lib",
@@ -1484,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Define_fun",
           "normalized": "Define_fun Symbol[Sorted_var]Sort Term",
@@ -1499,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Define_sort",
           "package": "smt-lib",
@@ -1508,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Define_sort",
           "normalized": "Define_sort Symbol[Symbol]Sort",
@@ -1523,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Diagnostic_output_channel",
           "package": "smt-lib",
@@ -1532,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Diagnostic_output_channel",
           "package": "smt-lib",
@@ -1545,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Error",
           "package": "smt-lib",
@@ -1554,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Error",
           "package": "smt-lib",
@@ -1567,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Error_behavior",
           "package": "smt-lib",
@@ -1576,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Error_behavior",
           "package": "smt-lib",
@@ -1589,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Exit",
           "package": "smt-lib",
@@ -1598,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Exit",
           "package": "smt-lib",
@@ -1611,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Expand_definitions",
           "package": "smt-lib",
@@ -1620,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Expand_definitions",
           "package": "smt-lib",
@@ -1633,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Fun_symbol_decl",
           "package": "smt-lib",
@@ -1642,6 +1791,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Fun_symbol_decl",
           "normalized": "Fun_symbol_decl Identifier[Sort][Attribute]",
@@ -1657,6 +1807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Fun_symbol_decl_meta_spec_constant",
           "package": "smt-lib",
@@ -1666,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Fun_symbol_decl_meta_spec_constant",
           "normalized": "Fun_symbol_decl_meta_spec_constant Meta_spec_constant Sort[Attribute]",
@@ -1681,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Fun_symbol_decl_spec_constant",
           "package": "smt-lib",
@@ -1690,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Fun_symbol_decl_spec_constant",
           "normalized": "Fun_symbol_decl_spec_constant Spec_constant Sort[Attribute]",
@@ -1705,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Ga_response",
           "package": "smt-lib",
@@ -1714,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Ga_response",
           "normalized": "Ga_response[Term]",
@@ -1729,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Gen_response",
           "package": "smt-lib",
@@ -1738,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Gen_response",
           "package": "smt-lib",
@@ -1751,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Get_assertions",
           "package": "smt-lib",
@@ -1760,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Get_assertions",
           "package": "smt-lib",
@@ -1773,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Get_assignment",
           "package": "smt-lib",
@@ -1782,6 +1943,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Get_assignment",
           "package": "smt-lib",
@@ -1795,6 +1957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Get_info",
           "package": "smt-lib",
@@ -1804,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Get_info",
           "package": "smt-lib",
@@ -1817,6 +1981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Get_option",
           "package": "smt-lib",
@@ -1826,6 +1991,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Get_option",
           "package": "smt-lib",
@@ -1839,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Get_proof",
           "package": "smt-lib",
@@ -1848,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Get_proof",
           "package": "smt-lib",
@@ -1861,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Get_unsat_core",
           "package": "smt-lib",
@@ -1870,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Get_unsat_core",
           "package": "smt-lib",
@@ -1883,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Get_value",
           "package": "smt-lib",
@@ -1892,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Get_value",
           "normalized": "Get_value[Term]",
@@ -1907,6 +2079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Gi_response",
           "package": "smt-lib",
@@ -1916,6 +2089,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Gi_response",
           "normalized": "Gi_response[Info_response]",
@@ -1931,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Gp_response",
           "package": "smt-lib",
@@ -1940,6 +2115,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Gp_response",
           "package": "smt-lib",
@@ -1953,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Gta_response",
           "package": "smt-lib",
@@ -1962,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Gta_response",
           "normalized": "Gta_response[T_valuation_pair]",
@@ -1977,6 +2155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Guc_response",
           "package": "smt-lib",
@@ -1986,6 +2165,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Guc_response",
           "normalized": "Guc_response[Symbol]",
@@ -2001,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Gv_response",
           "package": "smt-lib",
@@ -2010,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Gv_response",
           "normalized": "Gv_response[Valuation_pair]",
@@ -2025,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Identifier",
           "package": "smt-lib",
@@ -2034,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Identifier",
           "package": "smt-lib",
@@ -2047,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Identifier_",
           "package": "smt-lib",
@@ -2056,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Identifier_",
           "normalized": "Identifier_ Symbol[Numeral]",
@@ -2071,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Immediate_exit",
           "package": "smt-lib",
@@ -2080,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Immediate_exit",
           "package": "smt-lib",
@@ -2093,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Incomplete",
           "package": "smt-lib",
@@ -2102,6 +2291,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Incomplete",
           "package": "smt-lib",
@@ -2115,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Info_flag",
           "package": "smt-lib",
@@ -2124,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Info_flag",
           "package": "smt-lib",
@@ -2137,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Info_response",
           "package": "smt-lib",
@@ -2146,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Info_response",
           "package": "smt-lib",
@@ -2159,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Info_response_attribute",
           "package": "smt-lib",
@@ -2168,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Info_response_attribute",
           "package": "smt-lib",
@@ -2181,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Info_response_authors",
           "package": "smt-lib",
@@ -2190,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Info_response_authors",
           "package": "smt-lib",
@@ -2203,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Info_response_error_behavior",
           "package": "smt-lib",
@@ -2212,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Info_response_error_behavior",
           "package": "smt-lib",
@@ -2225,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Info_response_name",
           "package": "smt-lib",
@@ -2234,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Info_response_name",
           "package": "smt-lib",
@@ -2247,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Info_response_reason_unknown",
           "package": "smt-lib",
@@ -2256,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Info_response_reason_unknown",
           "package": "smt-lib",
@@ -2269,6 +2473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Info_response_status",
           "package": "smt-lib",
@@ -2278,6 +2483,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Info_response_status",
           "package": "smt-lib",
@@ -2291,6 +2497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Info_response_version",
           "package": "smt-lib",
@@ -2300,6 +2507,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Info_response_version",
           "package": "smt-lib",
@@ -2313,6 +2521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Interactive_mode",
           "package": "smt-lib",
@@ -2322,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Interactive_mode",
           "package": "smt-lib",
@@ -2335,6 +2545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Logic",
           "package": "smt-lib",
@@ -2344,6 +2555,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Logic",
           "normalized": "Logic Symbol[Logic_attribute]",
@@ -2359,6 +2571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Logic_attribute",
           "package": "smt-lib",
@@ -2368,6 +2581,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Logic_attribute",
           "package": "smt-lib",
@@ -2381,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Logic_attribute_extensions",
           "package": "smt-lib",
@@ -2390,6 +2605,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Logic_attribute_extensions",
           "package": "smt-lib",
@@ -2403,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Logic_attribute_language",
           "package": "smt-lib",
@@ -2412,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Logic_attribute_language",
           "package": "smt-lib",
@@ -2425,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Logic_attribute_notes",
           "package": "smt-lib",
@@ -2434,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Logic_attribute_notes",
           "package": "smt-lib",
@@ -2447,6 +2667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Logic_attribute_theories",
           "package": "smt-lib",
@@ -2456,6 +2677,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Logic_attribute_theories",
           "normalized": "Logic_attribute_theories[Symbol]",
@@ -2471,6 +2693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Logic_attribute_values",
           "package": "smt-lib",
@@ -2480,6 +2703,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Logic_attribute_values",
           "package": "smt-lib",
@@ -2493,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Memout",
           "package": "smt-lib",
@@ -2502,6 +2727,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Memout",
           "package": "smt-lib",
@@ -2515,6 +2741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Meta_spec_constant_decimal",
           "package": "smt-lib",
@@ -2524,6 +2751,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Meta_spec_constant_decimal",
           "package": "smt-lib",
@@ -2537,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Meta_spec_constant_numeral",
           "package": "smt-lib",
@@ -2546,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Meta_spec_constant_numeral",
           "package": "smt-lib",
@@ -2559,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Meta_spec_constant_string",
           "package": "smt-lib",
@@ -2568,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Meta_spec_constant_string",
           "package": "smt-lib",
@@ -2581,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Name",
           "package": "smt-lib",
@@ -2590,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Name",
           "package": "smt-lib",
@@ -2603,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Option_attribute",
           "package": "smt-lib",
@@ -2612,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Option_attribute",
           "package": "smt-lib",
@@ -2625,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Par_fun_symbol_decl",
           "package": "smt-lib",
@@ -2634,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Par_fun_symbol_decl",
           "package": "smt-lib",
@@ -2647,6 +2885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Par_fun_symbol_decl_symbols",
           "package": "smt-lib",
@@ -2656,6 +2895,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Par_fun_symbol_decl_symbols",
           "normalized": "Par_fun_symbol_decl_symbols[Symbol]Identifier[Sort][Attribute]",
@@ -2671,6 +2911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Pop",
           "package": "smt-lib",
@@ -2680,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Pop",
           "package": "smt-lib",
@@ -2693,6 +2935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Print_success",
           "package": "smt-lib",
@@ -2702,6 +2945,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Print_success",
           "package": "smt-lib",
@@ -2715,6 +2959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Produce_assignments",
           "package": "smt-lib",
@@ -2724,6 +2969,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Produce_assignments",
           "package": "smt-lib",
@@ -2737,6 +2983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Produce_models",
           "package": "smt-lib",
@@ -2746,6 +2993,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Produce_models",
           "package": "smt-lib",
@@ -2759,6 +3007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Produce_proofs",
           "package": "smt-lib",
@@ -2768,6 +3017,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Produce_proofs",
           "package": "smt-lib",
@@ -2781,6 +3031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Produce_unsat_cores",
           "package": "smt-lib",
@@ -2790,6 +3041,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Produce_unsat_cores",
           "package": "smt-lib",
@@ -2803,6 +3055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Push",
           "package": "smt-lib",
@@ -2812,6 +3065,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Push",
           "package": "smt-lib",
@@ -2825,6 +3079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Qual_identifier",
           "package": "smt-lib",
@@ -2834,6 +3089,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Qual_identifier",
           "package": "smt-lib",
@@ -2847,6 +3103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Qual_identifier_sort",
           "package": "smt-lib",
@@ -2856,6 +3113,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Qual_identifier_sort",
           "package": "smt-lib",
@@ -2869,6 +3127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Random_seed",
           "package": "smt-lib",
@@ -2878,6 +3137,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Random_seed",
           "package": "smt-lib",
@@ -2891,6 +3151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Reason_unknown",
           "package": "smt-lib",
@@ -2900,6 +3161,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Reason_unknown",
           "package": "smt-lib",
@@ -2913,6 +3175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Regular_output_channel",
           "package": "smt-lib",
@@ -2922,6 +3185,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Regular_output_channel",
           "package": "smt-lib",
@@ -2935,6 +3199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "S_expr_constant",
           "package": "smt-lib",
@@ -2944,6 +3209,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "S_expr_constant",
           "package": "smt-lib",
@@ -2956,6 +3222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "S_expr_keyword",
           "package": "smt-lib",
@@ -2965,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "S_expr_keyword",
           "package": "smt-lib",
@@ -2977,6 +3245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "S_expr_symbol",
           "package": "smt-lib",
@@ -2986,6 +3255,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "S_expr_symbol",
           "package": "smt-lib",
@@ -2998,6 +3268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "S_exprs",
           "package": "smt-lib",
@@ -3007,6 +3278,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "S_exprs",
           "normalized": "S_exprs[S_expr]",
@@ -3021,6 +3293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Sat",
           "package": "smt-lib",
@@ -3030,6 +3303,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Sat",
           "package": "smt-lib",
@@ -3043,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Script",
           "package": "smt-lib",
@@ -3052,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Script",
           "normalized": "Script[Command]",
@@ -3067,6 +3343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Set_info",
           "package": "smt-lib",
@@ -3076,6 +3353,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Set_info",
           "package": "smt-lib",
@@ -3089,6 +3367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Set_logic",
           "package": "smt-lib",
@@ -3098,6 +3377,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Set_logic",
           "package": "smt-lib",
@@ -3111,6 +3391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Set_option",
           "package": "smt-lib",
@@ -3120,6 +3401,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Set_option",
           "package": "smt-lib",
@@ -3133,6 +3415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Sort_bool",
           "package": "smt-lib",
@@ -3142,6 +3425,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Sort_bool",
           "package": "smt-lib",
@@ -3155,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Sort_identifier",
           "package": "smt-lib",
@@ -3164,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Sort_identifier",
           "package": "smt-lib",
@@ -3177,6 +3463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Sort_identifiers",
           "package": "smt-lib",
@@ -3186,6 +3473,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Sort_identifiers",
           "normalized": "Sort_identifiers Identifier[Sort]",
@@ -3201,6 +3489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Sort_symbol_decl",
           "package": "smt-lib",
@@ -3210,6 +3499,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Sort_symbol_decl",
           "normalized": "Sort_symbol_decl Identifier Numeral[Attribute]",
@@ -3225,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Sorted_var",
           "package": "smt-lib",
@@ -3234,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Sorted_var",
           "package": "smt-lib",
@@ -3247,6 +3539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Spec_constant_binary",
           "package": "smt-lib",
@@ -3256,6 +3549,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Spec_constant_binary",
           "normalized": "Spec_constant_binary[Bool]",
@@ -3271,6 +3565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Spec_constant_decimal",
           "package": "smt-lib",
@@ -3280,6 +3575,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Spec_constant_decimal",
           "package": "smt-lib",
@@ -3293,6 +3589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Spec_constant_hexadecimal",
           "package": "smt-lib",
@@ -3302,6 +3599,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Spec_constant_hexadecimal",
           "package": "smt-lib",
@@ -3315,6 +3613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Spec_constant_numeral",
           "package": "smt-lib",
@@ -3324,6 +3623,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Spec_constant_numeral",
           "package": "smt-lib",
@@ -3337,6 +3637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Spec_constant_string",
           "package": "smt-lib",
@@ -3346,6 +3647,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Spec_constant_string",
           "package": "smt-lib",
@@ -3359,6 +3661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Status",
           "package": "smt-lib",
@@ -3368,6 +3671,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Status",
           "package": "smt-lib",
@@ -3381,6 +3685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Success",
           "package": "smt-lib",
@@ -3390,6 +3695,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Success",
           "package": "smt-lib",
@@ -3403,6 +3709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Term_attributes",
           "package": "smt-lib",
@@ -3412,6 +3719,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Term_attributes",
           "normalized": "Term_attributes Term[Attribute]",
@@ -3427,6 +3735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Term_distinct",
           "package": "smt-lib",
@@ -3436,6 +3745,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Term_distinct",
           "normalized": "Term_distinct Term[Term]",
@@ -3451,6 +3761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Term_exists",
           "package": "smt-lib",
@@ -3460,6 +3771,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Term_exists",
           "normalized": "Term_exists[Sorted_var]Term",
@@ -3475,6 +3787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Term_forall",
           "package": "smt-lib",
@@ -3484,6 +3797,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Term_forall",
           "normalized": "Term_forall[Sorted_var]Term",
@@ -3499,6 +3813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Term_let",
           "package": "smt-lib",
@@ -3508,6 +3823,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Term_let",
           "normalized": "Term_let[Var_binding]Term",
@@ -3523,6 +3839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Term_qual_identifier",
           "package": "smt-lib",
@@ -3532,6 +3849,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Term_qual_identifier",
           "package": "smt-lib",
@@ -3545,6 +3863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Term_qual_identifier_",
           "package": "smt-lib",
@@ -3554,6 +3873,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Term_qual_identifier_",
           "normalized": "Term_qual_identifier_ Qual_identifier[Term]",
@@ -3569,6 +3889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Term_spec_constant",
           "package": "smt-lib",
@@ -3578,6 +3899,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Term_spec_constant",
           "package": "smt-lib",
@@ -3591,6 +3913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Theory_attribute",
           "package": "smt-lib",
@@ -3600,6 +3923,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Theory_attribute",
           "package": "smt-lib",
@@ -3613,6 +3937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Theory_attribute_definition",
           "package": "smt-lib",
@@ -3622,6 +3947,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Theory_attribute_definition",
           "package": "smt-lib",
@@ -3635,6 +3961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Theory_attribute_funs",
           "package": "smt-lib",
@@ -3644,6 +3971,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Theory_attribute_funs",
           "normalized": "Theory_attribute_funs[Par_fun_symbol_decl]",
@@ -3659,6 +3987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Theory_attribute_funs_desc",
           "package": "smt-lib",
@@ -3668,6 +3997,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Theory_attribute_funs_desc",
           "package": "smt-lib",
@@ -3681,6 +4011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Theory_attribute_notes",
           "package": "smt-lib",
@@ -3690,6 +4021,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Theory_attribute_notes",
           "package": "smt-lib",
@@ -3703,6 +4035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Theory_attribute_sorts",
           "package": "smt-lib",
@@ -3712,6 +4045,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Theory_attribute_sorts",
           "normalized": "Theory_attribute_sorts[Sort_symbol_decl]",
@@ -3727,6 +4061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Theory_attribute_sorts_desc",
           "package": "smt-lib",
@@ -3736,6 +4071,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Theory_attribute_sorts_desc",
           "package": "smt-lib",
@@ -3749,6 +4085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Theory_attribute_values",
           "package": "smt-lib",
@@ -3758,6 +4095,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Theory_attribute_values",
           "package": "smt-lib",
@@ -3771,6 +4109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Theory_decl",
           "package": "smt-lib",
@@ -3780,6 +4119,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Theory_decl",
           "normalized": "Theory_decl Symbol[Theory_attribute]",
@@ -3795,6 +4135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Timeout",
           "package": "smt-lib",
@@ -3804,6 +4145,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Timeout",
           "package": "smt-lib",
@@ -3817,6 +4159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Unknown",
           "package": "smt-lib",
@@ -3826,6 +4169,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Unknown",
           "package": "smt-lib",
@@ -3839,6 +4183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Unsat",
           "package": "smt-lib",
@@ -3848,6 +4193,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Unsat",
           "package": "smt-lib",
@@ -3861,6 +4207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Unsupported",
           "package": "smt-lib",
@@ -3870,6 +4217,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Unsupported",
           "package": "smt-lib",
@@ -3883,6 +4231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Var_binding",
           "package": "smt-lib",
@@ -3892,6 +4241,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Var_binding",
           "package": "smt-lib",
@@ -3905,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Verbosity",
           "package": "smt-lib",
@@ -3914,6 +4265,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Verbosity",
           "package": "smt-lib",
@@ -3927,6 +4279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "Version",
           "package": "smt-lib",
@@ -3936,6 +4289,7 @@
         },
         "index": {
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "Version",
           "package": "smt-lib",
@@ -3950,6 +4304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursively searches current directory for *.smt2 files to test the parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "checkParser",
           "package": "smt-lib",
@@ -3960,6 +4315,7 @@
         "index": {
           "description": "Recursively searches current directory for smt2 files to test the parser",
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "checkParser",
           "normalized": "IO()",
@@ -3976,6 +4332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks the parsing of command responses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "checkResponses",
           "package": "smt-lib",
@@ -3986,6 +4343,7 @@
         "index": {
           "description": "Checks the parsing of command responses",
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "checkResponses",
           "normalized": "FilePath-\u003eIO Bool",
@@ -4002,6 +4360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks the parsing of a command script.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "checkScript",
           "package": "smt-lib",
@@ -4012,6 +4371,7 @@
         "index": {
           "description": "Checks the parsing of command script",
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "checkScript",
           "normalized": "FilePath-\u003eIO Bool",
@@ -4028,6 +4388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazily parses an SMT-LIB logic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "parseLogic",
           "package": "smt-lib",
@@ -4038,6 +4399,7 @@
         "index": {
           "description": "Lazily parses an SMT-LIB logic",
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "parseLogic",
           "normalized": "String-\u003eLogic",
@@ -4054,6 +4416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazily parses an SMT-LIB command responses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "parseResponses",
           "package": "smt-lib",
@@ -4064,6 +4427,7 @@
         "index": {
           "description": "Lazily parses an SMT-LIB command responses",
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "parseResponses",
           "normalized": "String-\u003e[Command_response]",
@@ -4080,6 +4444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazily parses an SMT-LIB command script.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "parseScript",
           "package": "smt-lib",
@@ -4090,6 +4455,7 @@
         "index": {
           "description": "Lazily parses an SMT-LIB command script",
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "parseScript",
           "normalized": "String-\u003eScript",
@@ -4106,6 +4472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazily parses an SMT-LIB theory declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:36 UTC 2014",
           "module": "Language.SMTLIB",
           "name": "parseTheory",
           "package": "smt-lib",
@@ -4116,6 +4483,7 @@
         "index": {
           "description": "Lazily parses an SMT-LIB theory declaration",
           "hierarchy": "Language SMTLIB",
+          "indexed": "2014-03-11T20:04:36",
           "module": "Language.SMTLIB",
           "name": "parseTheory",
           "normalized": "String-\u003eTheory_decl",

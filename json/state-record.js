@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "state-record"
+        "phrase": "state-record",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:50 UTC 2014",
           "module": "Data.Record.StateFields",
           "name": "StateFields",
           "package": "state-record",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Record StateFields",
+          "indexed": "2014-03-11T20:09:50",
           "module": "Data.Record.StateFields",
           "name": "StateFields",
           "package": "state-record",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA primitive field descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:50 UTC 2014",
           "module": "Data.Record.StateFields",
           "name": "Field",
           "package": "state-record",
@@ -49,6 +52,7 @@
         "index": {
           "description": "primitive field descriptor",
           "hierarchy": "Data Record StateFields",
+          "indexed": "2014-03-11T20:09:50",
           "module": "Data.Record.StateFields",
           "name": "Field",
           "package": "state-record",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compound field descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:50 UTC 2014",
           "module": "Data.Record.StateFields",
           "name": "FieldPath",
           "package": "state-record",
@@ -72,6 +77,7 @@
         "index": {
           "description": "compound field descriptor",
           "hierarchy": "Data Record StateFields",
+          "indexed": "2014-03-11T20:09:50",
           "module": "Data.Record.StateFields",
           "name": "FieldPath",
           "package": "state-record",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of field descriptors. A descriptor of type 'f a b' refers to a\n   field of type \u003ccode\u003eb\u003c/code\u003e nested somewhere within a record of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:50 UTC 2014",
           "module": "Data.Record.StateFields",
           "name": "SomeField",
           "package": "state-record",
@@ -95,6 +102,7 @@
         "index": {
           "description": "The class of field descriptors descriptor of type refers to field of type nested somewhere within record of type",
           "hierarchy": "Data Record StateFields",
+          "indexed": "2014-03-11T20:09:50",
           "module": "Data.Record.StateFields",
           "name": "SomeField",
           "package": "state-record",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin two field descriptors into a compound.\n   \u003ccode\u003e\u003ca\u003e//\u003c/a\u003e\u003c/code\u003e is left-associative with precedence level 9.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:50 UTC 2014",
           "module": "Data.Record.StateFields",
           "name": "(//)",
           "package": "state-record",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Join two field descriptors into compound is left-associative with precedence level",
           "hierarchy": "Data Record StateFields",
+          "indexed": "2014-03-11T20:09:50",
           "module": "Data.Record.StateFields",
           "name": "(//) //",
           "normalized": "a b c-\u003ed c e-\u003eFieldPath a d c b e",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnter the context of a field and run a stateful computation there.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:50 UTC 2014",
           "module": "Data.Record.StateFields",
           "name": "enter",
           "package": "state-record",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Enter the context of field and run stateful computation there",
           "hierarchy": "Data Record StateFields",
+          "indexed": "2014-03-11T20:09:50",
           "module": "Data.Record.StateFields",
           "name": "enter",
           "normalized": "a b c-\u003eState c d-\u003ee d",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eenter\u003c/a\u003e\u003c/code\u003e, but allows the stateful computation on the field to\n   share the same underlying monad as the enclosing record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:50 UTC 2014",
           "module": "Data.Record.StateFields",
           "name": "enterT",
           "package": "state-record",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Like enter but allows the stateful computation on the field to share the same underlying monad as the enclosing record",
           "hierarchy": "Data Record StateFields",
+          "indexed": "2014-03-11T20:09:50",
           "module": "Data.Record.StateFields",
           "name": "enterT",
           "normalized": "a b c-\u003eStateT c d e-\u003eStateT b d e",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value of a field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:50 UTC 2014",
           "module": "Data.Record.StateFields",
           "name": "getField",
           "package": "state-record",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Get the value of field",
           "hierarchy": "Data Record StateFields",
+          "indexed": "2014-03-11T20:09:50",
           "module": "Data.Record.StateFields",
           "name": "getField",
           "normalized": "a b c-\u003eb-\u003ec",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value of a field from the state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:50 UTC 2014",
           "module": "Data.Record.StateFields",
           "name": "getf",
           "package": "state-record",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Get the value of field from the state",
           "hierarchy": "Data Record StateFields",
+          "indexed": "2014-03-11T20:09:50",
           "module": "Data.Record.StateFields",
           "name": "getf",
           "normalized": "a b c-\u003ed c",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the value of a field by applying a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:50 UTC 2014",
           "module": "Data.Record.StateFields",
           "name": "modField",
           "package": "state-record",
@@ -245,6 +264,7 @@
         "index": {
           "description": "Modify the value of field by applying function",
           "hierarchy": "Data Record StateFields",
+          "indexed": "2014-03-11T20:09:50",
           "module": "Data.Record.StateFields",
           "name": "modField",
           "normalized": "a b c-\u003e(c-\u003ec)-\u003eb-\u003eb",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the value of a field in the state by applying a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:50 UTC 2014",
           "module": "Data.Record.StateFields",
           "name": "modf",
           "package": "state-record",
@@ -271,6 +292,7 @@
         "index": {
           "description": "Modify the value of field in the state by applying function",
           "hierarchy": "Data Record StateFields",
+          "indexed": "2014-03-11T20:09:50",
           "module": "Data.Record.StateFields",
           "name": "modf",
           "normalized": "a b c-\u003e(c-\u003ec)-\u003ed()",
@@ -286,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a value into a field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:50 UTC 2014",
           "module": "Data.Record.StateFields",
           "name": "putField",
           "package": "state-record",
@@ -296,6 +319,7 @@
         "index": {
           "description": "Put value into field",
           "hierarchy": "Data Record StateFields",
+          "indexed": "2014-03-11T20:09:50",
           "module": "Data.Record.StateFields",
           "name": "putField",
           "normalized": "a b c-\u003ec-\u003eb-\u003eb",
@@ -312,6 +336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a value into a field in the state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:50 UTC 2014",
           "module": "Data.Record.StateFields",
           "name": "putf",
           "package": "state-record",
@@ -322,6 +347,7 @@
         "index": {
           "description": "Put value into field in the state",
           "hierarchy": "Data Record StateFields",
+          "indexed": "2014-03-11T20:09:50",
           "module": "Data.Record.StateFields",
           "name": "putf",
           "normalized": "a b c-\u003ec-\u003ed()",
@@ -337,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the given 'data' or 'newtype' declaration so that all field names\n   are prefixed with an underscore followed by the given string, and\n   generate declarations of field descriptors for all fields, each bound to\n   the corresponding field name prefixed with the given string (but no\n   underscore).\n\u003c/p\u003e\u003cp\u003eExample usage (this goes at the top level of a module):\n\u003c/p\u003e\u003cpre\u003e record \"foo\" [d| data Foo = Foo { bar :: Int, baz :: Int } |]\n\u003c/pre\u003e\u003cp\u003eNote: the second parameter is Q [Dec] because this is what the [d| |]\n   form returns, which is the most convenient way to use this function.\n   However, the list must contain exactly one declaration, and it must be\n   a 'data' or 'newtype' declaration.\n\u003c/p\u003e\u003cp\u003eNote: in addition to adding the given prefix to each name, the first\n   character of the original name is capitalized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:50 UTC 2014",
           "module": "Data.Record.StateFields",
           "name": "record",
           "package": "state-record",
@@ -347,6 +374,7 @@
         "index": {
           "description": "Modify the given data or newtype declaration so that all field names are prefixed with an underscore followed by the given string and generate declarations of field descriptors for all fields each bound to the corresponding field name prefixed with the given string but no underscore Example usage this goes at the top level of module record foo data Foo Foo bar Int baz Int Note the second parameter is Dec because this is what the form returns which is the most convenient way to use this function However the list must contain exactly one declaration and it must be data or newtype declaration Note in addition to adding the given prefix to each name the first character of the original name is capitalized",
           "hierarchy": "Data Record StateFields",
+          "indexed": "2014-03-11T20:09:50",
           "module": "Data.Record.StateFields",
           "name": "record",
           "normalized": "String-\u003eQ[Dec]-\u003eQ[Dec]",

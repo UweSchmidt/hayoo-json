@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "opml"
+        "phrase": "opml",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Export",
           "name": "Export",
           "package": "opml",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Export",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Export",
           "name": "Export",
           "package": "opml",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Export",
           "name": "mb",
           "package": "opml",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Export",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Export",
           "name": "mb",
           "normalized": "(a-\u003eb)-\u003eMaybe a-\u003e[b]",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Export",
           "name": "opmlName",
           "package": "opml",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Export",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Export",
           "name": "opmlName",
           "normalized": "String-\u003eQName",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Export",
           "name": "opmlNode",
           "package": "opml",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Export",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Export",
           "name": "opmlNode",
           "normalized": "String-\u003e[Content]-\u003eElement",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Export",
           "name": "showBool",
           "package": "opml",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Export",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Export",
           "name": "showBool",
           "normalized": "Bool-\u003eString",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Export",
           "name": "showCats",
           "package": "opml",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Export",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Export",
           "name": "showCats",
           "normalized": "[String]-\u003eString",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Export",
           "name": "showInts",
           "package": "opml",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Export",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Export",
           "name": "showInts",
           "normalized": "[Int]-\u003eString",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Export",
           "name": "xmlAttr",
           "package": "opml",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Export",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Export",
           "name": "xmlAttr",
           "normalized": "String-\u003eString-\u003eAttr",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Export",
           "name": "xmlBody",
           "package": "opml",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Export",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Export",
           "name": "xmlBody",
           "normalized": "[Outline]-\u003eElement",
@@ -230,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Export",
           "name": "xmlHead",
           "package": "opml",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Export",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Export",
           "name": "xmlHead",
           "normalized": "OPMLHead-\u003eElement",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Export",
           "name": "xmlLeaf",
           "package": "opml",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Export",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Export",
           "name": "xmlLeaf",
           "normalized": "String-\u003eString-\u003eElement",
@@ -278,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Export",
           "name": "xmlOPML",
           "package": "opml",
@@ -287,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Export",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Export",
           "name": "xmlOPML",
           "normalized": "OPML-\u003eElement",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Export",
           "name": "xmlOutline",
           "package": "opml",
@@ -311,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Export",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Export",
           "name": "xmlOutline",
           "normalized": "Outline-\u003eElement",
@@ -326,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Import",
           "name": "Import",
           "package": "opml",
@@ -334,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Import",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Import",
           "name": "Import",
           "package": "opml",
@@ -347,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Import",
           "name": "children",
           "package": "opml",
@@ -356,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Import",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Import",
           "name": "children",
           "normalized": "Element-\u003e[Element]",
@@ -370,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Import",
           "name": "elementToBody",
           "package": "opml",
@@ -379,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Import",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Import",
           "name": "elementToBody",
           "normalized": "Element-\u003eMaybe[Outline]",
@@ -394,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Import",
           "name": "elementToHead",
           "package": "opml",
@@ -403,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Import",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Import",
           "name": "elementToHead",
           "normalized": "Element-\u003eMaybe OPMLHead",
@@ -419,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse XML elements into OPML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Import",
           "name": "elementToOPML",
           "package": "opml",
@@ -429,6 +464,7 @@
         "index": {
           "description": "Parse XML elements into OPML",
           "hierarchy": "Text OPML Import",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Import",
           "name": "elementToOPML",
           "normalized": "Element-\u003eMaybe OPML",
@@ -444,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Import",
           "name": "elementToOutline",
           "package": "opml",
@@ -453,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Import",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Import",
           "name": "elementToOutline",
           "normalized": "Element-\u003eMaybe Outline",
@@ -468,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Import",
           "name": "opmlName",
           "package": "opml",
@@ -477,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Import",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Import",
           "name": "opmlName",
           "normalized": "String-\u003eQName",
@@ -492,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Import",
           "name": "pAttr",
           "package": "opml",
@@ -501,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Import",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Import",
           "name": "pAttr",
           "normalized": "String-\u003eElement-\u003eMaybe String",
@@ -516,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Import",
           "name": "pLeaf",
           "package": "opml",
@@ -525,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Import",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Import",
           "name": "pLeaf",
           "normalized": "String-\u003e[Element]-\u003eMaybe String",
@@ -540,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Import",
           "name": "pMany",
           "package": "opml",
@@ -549,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Import",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Import",
           "name": "pMany",
           "normalized": "String-\u003e(Element-\u003eMaybe a)-\u003e[Element]-\u003e[a]",
@@ -564,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Import",
           "name": "pNode",
           "package": "opml",
@@ -573,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Import",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Import",
           "name": "pNode",
           "normalized": "String-\u003e[Element]-\u003eMaybe Element",
@@ -588,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Import",
           "name": "pNodes",
           "package": "opml",
@@ -597,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Import",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Import",
           "name": "pNodes",
           "normalized": "String-\u003e[Element]-\u003e[Element]",
@@ -612,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Reader",
           "name": "Reader",
           "package": "opml",
@@ -620,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Reader",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Reader",
           "name": "Reader",
           "package": "opml",
@@ -634,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a string into OPML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Reader",
           "name": "parseOPMLString",
           "package": "opml",
@@ -644,6 +697,7 @@
         "index": {
           "description": "Parse string into OPML",
           "hierarchy": "Text OPML Reader",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Reader",
           "name": "parseOPMLString",
           "normalized": "String-\u003eMaybe OPML",
@@ -659,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "Syntax",
           "package": "opml",
@@ -667,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "Syntax",
           "package": "opml",
@@ -680,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "DateString",
           "package": "opml",
@@ -688,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "DateString",
           "package": "opml",
@@ -702,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn OPML structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "OPML",
           "package": "opml",
@@ -711,6 +770,7 @@
         "index": {
           "description": "An OPML structure",
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "OPML",
           "package": "opml",
@@ -724,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "OPMLHead",
           "package": "opml",
@@ -732,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "OPMLHead",
           "package": "opml",
@@ -745,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "OPMLOwner",
           "package": "opml",
@@ -753,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "OPMLOwner",
           "package": "opml",
@@ -766,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "Outline",
           "package": "opml",
@@ -774,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "Outline",
           "package": "opml",
@@ -787,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "URIString",
           "package": "opml",
@@ -795,6 +862,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "URIString",
           "package": "opml",
@@ -808,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "OPML",
           "package": "opml",
@@ -817,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "OPML",
           "package": "opml",
@@ -830,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "OPMLHead",
           "package": "opml",
@@ -839,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "OPMLHead",
           "package": "opml",
@@ -852,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "OPMLOwner",
           "package": "opml",
@@ -861,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "OPMLOwner",
           "package": "opml",
@@ -874,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "Outline",
           "package": "opml",
@@ -883,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "Outline",
           "package": "opml",
@@ -896,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "nullHead",
           "package": "opml",
@@ -905,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "nullHead",
           "package": "opml",
@@ -918,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "nullOPML",
           "package": "opml",
@@ -927,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "nullOPML",
           "package": "opml",
@@ -940,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "nullOutline",
           "package": "opml",
@@ -949,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "nullOutline",
           "normalized": "String-\u003eOutline",
@@ -964,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "nullOwner",
           "package": "opml",
@@ -973,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "nullOwner",
           "package": "opml",
@@ -986,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlAttrs",
           "package": "opml",
@@ -995,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlAttrs",
           "normalized": "[Attr]",
@@ -1010,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlBody",
           "package": "opml",
@@ -1019,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlBody",
           "normalized": "[Outline]",
@@ -1034,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlCategories",
           "package": "opml",
@@ -1043,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlCategories",
           "normalized": "Maybe[String]",
@@ -1058,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlCreated",
           "package": "opml",
@@ -1067,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlCreated",
           "package": "opml",
@@ -1080,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlDocs",
           "package": "opml",
@@ -1089,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlDocs",
           "package": "opml",
@@ -1102,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlExpansionState",
           "package": "opml",
@@ -1111,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlExpansionState",
           "normalized": "Maybe[Int]",
@@ -1126,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlHead",
           "package": "opml",
@@ -1135,6 +1232,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlHead",
           "package": "opml",
@@ -1148,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlHeadAttrs",
           "package": "opml",
@@ -1157,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlHeadAttrs",
           "normalized": "[Attr]",
@@ -1172,6 +1272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlHeadOther",
           "package": "opml",
@@ -1181,6 +1282,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlHeadOther",
           "normalized": "[Element]",
@@ -1196,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlIsBreakpoint",
           "package": "opml",
@@ -1205,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlIsBreakpoint",
           "package": "opml",
@@ -1218,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlIsComment",
           "package": "opml",
@@ -1227,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlIsComment",
           "package": "opml",
@@ -1240,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlModified",
           "package": "opml",
@@ -1249,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlModified",
           "package": "opml",
@@ -1262,6 +1370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlOther",
           "package": "opml",
@@ -1271,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlOther",
           "normalized": "[Element]",
@@ -1286,6 +1396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlOutlineAttrs",
           "package": "opml",
@@ -1295,6 +1406,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlOutlineAttrs",
           "normalized": "[Attr]",
@@ -1310,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlOutlineChildren",
           "package": "opml",
@@ -1319,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlOutlineChildren",
           "normalized": "[Outline]",
@@ -1334,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlOutlineOther",
           "package": "opml",
@@ -1343,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlOutlineOther",
           "normalized": "[Element]",
@@ -1358,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlOwner",
           "package": "opml",
@@ -1367,6 +1484,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlOwner",
           "package": "opml",
@@ -1380,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlOwnerEmail",
           "package": "opml",
@@ -1389,6 +1508,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlOwnerEmail",
           "package": "opml",
@@ -1402,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlOwnerId",
           "package": "opml",
@@ -1411,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlOwnerId",
           "package": "opml",
@@ -1424,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlOwnerName",
           "package": "opml",
@@ -1433,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlOwnerName",
           "package": "opml",
@@ -1446,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlText",
           "package": "opml",
@@ -1455,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlText",
           "package": "opml",
@@ -1468,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlTitle",
           "package": "opml",
@@ -1477,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlTitle",
           "package": "opml",
@@ -1490,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlType",
           "package": "opml",
@@ -1499,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlType",
           "package": "opml",
@@ -1512,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlVersion",
           "package": "opml",
@@ -1521,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlVersion",
           "package": "opml",
@@ -1534,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlVertScrollState",
           "package": "opml",
@@ -1543,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlVertScrollState",
           "package": "opml",
@@ -1556,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlWindowBottom",
           "package": "opml",
@@ -1565,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlWindowBottom",
           "package": "opml",
@@ -1578,6 +1714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlWindowLeft",
           "package": "opml",
@@ -1587,6 +1724,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlWindowLeft",
           "package": "opml",
@@ -1600,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlWindowRight",
           "package": "opml",
@@ -1609,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlWindowRight",
           "package": "opml",
@@ -1622,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Syntax",
           "name": "opmlWindowTop",
           "package": "opml",
@@ -1631,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Syntax",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Syntax",
           "name": "opmlWindowTop",
           "package": "opml",
@@ -1644,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Writer",
           "name": "Writer",
           "package": "opml",
@@ -1652,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Text OPML Writer",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Writer",
           "name": "Writer",
           "package": "opml",
@@ -1666,6 +1810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialise OPML data back to Strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:37 UTC 2014",
           "module": "Text.OPML.Writer",
           "name": "serializeOPML",
           "package": "opml",
@@ -1676,6 +1821,7 @@
         "index": {
           "description": "Serialise OPML data back to Strings",
           "hierarchy": "Text OPML Writer",
+          "indexed": "2014-03-11T19:32:37",
           "module": "Text.OPML.Writer",
           "name": "serializeOPML",
           "normalized": "OPML-\u003eString",

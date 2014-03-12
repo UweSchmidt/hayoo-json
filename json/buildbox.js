@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "buildbox"
+        "phrase": "buildbox",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Benchmark",
           "name": "Benchmark",
           "package": "buildbox",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Build Benchmark",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Benchmark",
           "name": "Benchmark",
           "package": "buildbox",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBenchmark result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Benchmark",
           "name": "BenchResult",
           "package": "buildbox",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Benchmark result",
           "hierarchy": "BuildBox Build Benchmark",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Benchmark",
           "name": "BenchResult",
           "package": "buildbox",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBenchmark definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Benchmark",
           "name": "Benchmark",
           "package": "buildbox",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Benchmark definition",
           "hierarchy": "BuildBox Build Benchmark",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Benchmark",
           "name": "Benchmark",
           "package": "buildbox",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Benchmark",
           "name": "BenchResult",
           "package": "buildbox",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Build Benchmark",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Benchmark",
           "name": "BenchResult",
           "package": "buildbox",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Benchmark",
           "name": "Benchmark",
           "package": "buildbox",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Build Benchmark",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Benchmark",
           "name": "Benchmark",
           "package": "buildbox",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Benchmark",
           "name": "benchResultIteration",
           "package": "buildbox",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Build Benchmark",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Benchmark",
           "name": "benchResultIteration",
           "package": "buildbox",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Benchmark",
           "name": "benchResultName",
           "package": "buildbox",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Build Benchmark",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Benchmark",
           "name": "benchResultName",
           "package": "buildbox",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Benchmark",
           "name": "benchResultTime",
           "package": "buildbox",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Build Benchmark",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Benchmark",
           "name": "benchResultTime",
           "package": "buildbox",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Benchmark",
           "name": "benchResultValue",
           "package": "buildbox",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Build Benchmark",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Benchmark",
           "name": "benchResultValue",
           "package": "buildbox",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck and post-process the result of the main command.\n   This does not contribute to the reported time of the overall result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Benchmark",
           "name": "benchmarkCheck",
           "package": "buildbox",
@@ -228,6 +247,7 @@
         "index": {
           "description": "Check and post-process the result of the main command This does not contribute to the reported time of the overall result",
           "hierarchy": "BuildBox Build Benchmark",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Benchmark",
           "name": "benchmarkCheck",
           "normalized": "a-\u003eBuild b",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main command to benchmark.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Benchmark",
           "name": "benchmarkCommand",
           "package": "buildbox",
@@ -254,6 +275,7 @@
         "index": {
           "description": "The main command to benchmark",
           "hierarchy": "BuildBox Build Benchmark",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Benchmark",
           "name": "benchmarkCommand",
           "package": "buildbox",
@@ -268,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA unique name for the benchmark\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Benchmark",
           "name": "benchmarkName",
           "package": "buildbox",
@@ -278,6 +301,7 @@
         "index": {
           "description": "unique name for the benchmark",
           "hierarchy": "BuildBox Build Benchmark",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Benchmark",
           "name": "benchmarkName",
           "package": "buildbox",
@@ -292,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetup command to run before the main benchmark.\n   This does not contribute to the reported time of the overall result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Benchmark",
           "name": "benchmarkSetup",
           "package": "buildbox",
@@ -302,6 +327,7 @@
         "index": {
           "description": "Setup command to run before the main benchmark This does not contribute to the reported time of the overall result",
           "hierarchy": "BuildBox Build Benchmark",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Benchmark",
           "name": "benchmarkSetup",
           "normalized": "Build()",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a benchmark the given number of times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Benchmark",
           "name": "iterateBenchmark",
           "package": "buildbox",
@@ -328,6 +355,7 @@
         "index": {
           "description": "Run benchmark the given number of times",
           "hierarchy": "BuildBox Build Benchmark",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Benchmark",
           "name": "iterateBenchmark",
           "normalized": "Int-\u003eBenchmark a-\u003eBuild[BenchResult a]",
@@ -344,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a benchmark a single time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Benchmark",
           "name": "runBenchmark",
           "package": "buildbox",
@@ -354,6 +383,7 @@
         "index": {
           "description": "Run benchmark single time",
           "hierarchy": "BuildBox Build Benchmark",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Benchmark",
           "name": "runBenchmark",
           "normalized": "Benchmark a-\u003eInt-\u003eBuild(BenchResult a)",
@@ -370,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a command, returning its elapsed time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Benchmark",
           "name": "timeBuild",
           "package": "buildbox",
@@ -380,6 +411,7 @@
         "index": {
           "description": "Run command returning its elapsed time",
           "hierarchy": "BuildBox Build Benchmark",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Benchmark",
           "name": "timeBuild",
           "normalized": "Build a-\u003eBuild(Seconds,a)",
@@ -396,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome property of the system we can test for.\n\u003c/p\u003e\u003cp\u003eThey have \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instances so we can make nice error messages if a \u003ccode\u003e\u003ca\u003echeck\u003c/a\u003e\u003c/code\u003e fails.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Testable",
           "name": "Testable",
           "package": "buildbox",
@@ -405,6 +438,7 @@
         "index": {
           "description": "Some property of the system we can test for They have Show instances so we can make nice error messages if check fails",
           "hierarchy": "BuildBox Build Testable",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Testable",
           "name": "Testable",
           "package": "buildbox",
@@ -419,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome testable property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Testable",
           "name": "Testable",
           "package": "buildbox",
@@ -428,6 +463,7 @@
         "index": {
           "description": "Some testable property",
           "hierarchy": "BuildBox Build Testable",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Testable",
           "name": "Testable",
           "package": "buildbox",
@@ -442,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTestable properties are checkable.\n   If the check returns false then throw an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Testable",
           "name": "check",
           "package": "buildbox",
@@ -452,6 +489,7 @@
         "index": {
           "description": "Testable properties are checkable If the check returns false then throw an error",
           "hierarchy": "BuildBox Build Testable",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Testable",
           "name": "check",
           "normalized": "a-\u003eBuild()",
@@ -467,6 +505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTestable properties are checkable.\n   If the check returns true then throw an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Testable",
           "name": "checkFalse",
           "package": "buildbox",
@@ -477,6 +516,7 @@
         "index": {
           "description": "Testable properties are checkable If the check returns true then throw an error",
           "hierarchy": "BuildBox Build Testable",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Testable",
           "name": "checkFalse",
           "normalized": "a-\u003eBuild()",
@@ -493,6 +533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck some property while printing what we're doing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Testable",
           "name": "outCheckFalseOk",
           "package": "buildbox",
@@ -503,6 +544,7 @@
         "index": {
           "description": "Check some property while printing what we re doing",
           "hierarchy": "BuildBox Build Testable",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Testable",
           "name": "outCheckFalseOk",
           "normalized": "String-\u003ea-\u003eBuild()",
@@ -519,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck some property while printing what we're doing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Testable",
           "name": "outCheckOk",
           "package": "buildbox",
@@ -529,6 +572,7 @@
         "index": {
           "description": "Check some property while printing what we re doing",
           "hierarchy": "BuildBox Build Testable",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Testable",
           "name": "outCheckOk",
           "normalized": "String-\u003ea-\u003eBuild()",
@@ -544,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build.Testable",
           "name": "test",
           "package": "buildbox",
@@ -553,6 +598,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Build Testable",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build.Testable",
           "name": "test",
           "normalized": "a-\u003eBuild Bool",
@@ -568,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines the main \u003ccode\u003e\u003ca\u003eBuild\u003c/a\u003e\u003c/code\u003e monad and common utils.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build",
           "name": "Build",
           "package": "buildbox",
@@ -577,6 +624,7 @@
         "index": {
           "description": "Defines the main Build monad and common utils",
           "hierarchy": "BuildBox Build",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build",
           "name": "Build",
           "package": "buildbox",
@@ -591,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe builder monad encapsulates and IO action that can fail with an error, \n   and also read some global configuration info.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build",
           "name": "Build",
           "package": "buildbox",
@@ -600,6 +649,7 @@
         "index": {
           "description": "The builder monad encapsulates and IO action that can fail with an error and also read some global configuration info",
           "hierarchy": "BuildBox Build",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build",
           "name": "Build",
           "package": "buildbox",
@@ -614,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe errors we recognise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build",
           "name": "BuildError",
           "package": "buildbox",
@@ -623,6 +674,7 @@
         "index": {
           "description": "The errors we recognise",
           "hierarchy": "BuildBox Build",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build",
           "name": "BuildError",
           "package": "buildbox",
@@ -637,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobal builder configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build",
           "name": "BuildState",
           "package": "buildbox",
@@ -646,6 +699,7 @@
         "index": {
           "description": "Global builder configuration",
           "hierarchy": "BuildBox Build",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build",
           "name": "BuildState",
           "package": "buildbox",
@@ -659,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build",
           "name": "BuildState",
           "package": "buildbox",
@@ -668,6 +723,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Build",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build",
           "name": "BuildState",
           "package": "buildbox",
@@ -899,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default build config.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build",
           "name": "buildStateDefault",
           "package": "buildbox",
@@ -909,6 +966,7 @@
         "index": {
           "description": "The default build config",
           "hierarchy": "BuildBox Build",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build",
           "name": "buildStateDefault",
           "normalized": "Integer-\u003eFilePath-\u003eBuildState",
@@ -925,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniqueish id for this build process.\n   On POSIX we'd use the PID, but that doesn't work on Windows.\n   The id is initialised by the Haskell random number generator on startup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build",
           "name": "buildStateId",
           "package": "buildbox",
@@ -935,6 +994,7 @@
         "index": {
           "description": "Uniqueish id for this build process On POSIX we use the PID but that doesn work on Windows The id is initialised by the Haskell random number generator on startup",
           "hierarchy": "BuildBox Build",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build",
           "name": "buildStateId",
           "package": "buildbox",
@@ -949,6 +1009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog all system commands executed to this file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build",
           "name": "buildStateLogSystem",
           "package": "buildbox",
@@ -959,6 +1020,7 @@
         "index": {
           "description": "Log all system commands executed to this file handle",
           "hierarchy": "BuildBox Build",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build",
           "name": "buildStateLogSystem",
           "package": "buildbox",
@@ -973,6 +1035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScratch directory for making temp files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build",
           "name": "buildStateScratchDir",
           "package": "buildbox",
@@ -983,6 +1046,7 @@
         "index": {
           "description": "Scratch directory for making temp files",
           "hierarchy": "BuildBox Build",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build",
           "name": "buildStateScratchDir",
           "package": "buildbox",
@@ -997,6 +1061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence number for generating fresh file names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build",
           "name": "buildStateSeq",
           "package": "buildbox",
@@ -1007,6 +1072,7 @@
         "index": {
           "description": "Sequence number for generating fresh file names",
           "hierarchy": "BuildBox Build",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build",
           "name": "buildStateSeq",
           "package": "buildbox",
@@ -1073,6 +1139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog a system command to the handle in our \u003ccode\u003eBuildConfig\u003c/code\u003e, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build",
           "name": "logSystem",
           "package": "buildbox",
@@ -1083,6 +1150,7 @@
         "index": {
           "description": "Log system command to the handle in our BuildConfig if any",
           "hierarchy": "BuildBox Build",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build",
           "name": "logSystem",
           "normalized": "String-\u003eBuild()",
@@ -1151,6 +1219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a blank line to stdout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build",
           "name": "outBlank",
           "package": "buildbox",
@@ -1161,6 +1230,7 @@
         "index": {
           "description": "Print blank line to stdout",
           "hierarchy": "BuildBox Build",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build",
           "name": "outBlank",
           "normalized": "Build()",
@@ -1177,6 +1247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a \u003ccode\u003e=====\u003c/code\u003e line to stdout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build",
           "name": "outLINE",
           "package": "buildbox",
@@ -1187,6 +1258,7 @@
         "index": {
           "description": "Print line to stdout",
           "hierarchy": "BuildBox Build",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build",
           "name": "outLINE",
           "normalized": "Build()",
@@ -1203,6 +1275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a \u003ccode\u003e-----\u003c/code\u003e line to stdout \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build",
           "name": "outLine",
           "package": "buildbox",
@@ -1213,6 +1286,7 @@
         "index": {
           "description": "Print line to stdout",
           "hierarchy": "BuildBox Build",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build",
           "name": "outLine",
           "normalized": "Build()",
@@ -1283,6 +1357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003erunBuild\u003c/a\u003e\u003c/code\u003e, but report whether it succeeded to the console.\n   If it succeeded then return Just the result, else Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build",
           "name": "runBuildPrint",
           "package": "buildbox",
@@ -1293,6 +1368,7 @@
         "index": {
           "description": "Like runBuild but report whether it succeeded to the console If it succeeded then return Just the result else Nothing",
           "hierarchy": "BuildBox Build",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build",
           "name": "runBuildPrint",
           "normalized": "FilePath-\u003eBuild a-\u003eIO(Maybe a)",
@@ -1309,6 +1385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003erunBuildPrint\u003c/a\u003e\u003c/code\u003e but also takes a \u003ccode\u003e\u003ca\u003eBuildState\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build",
           "name": "runBuildPrintWithState",
           "package": "buildbox",
@@ -1319,6 +1396,7 @@
         "index": {
           "description": "Like runBuildPrint but also takes BuildState",
           "hierarchy": "BuildBox Build",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build",
           "name": "runBuildPrintWithState",
           "normalized": "BuildState-\u003eBuild a-\u003eIO(Maybe a)",
@@ -1362,6 +1440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscard the resulting value of a compuation.\n   Used like \u003ccode\u003esuccessfully . runBuild ...\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build",
           "name": "successfully",
           "package": "buildbox",
@@ -1372,6 +1451,7 @@
         "index": {
           "description": "Discard the resulting value of compuation Used like successfully runBuild",
           "hierarchy": "BuildBox Build",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build",
           "name": "successfully",
           "normalized": "IO a-\u003eIO()",
@@ -1413,6 +1493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ewhen\u003c/a\u003e\u003c/code\u003e, but with teh monadz.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Build",
           "name": "whenM",
           "package": "buildbox",
@@ -1423,6 +1504,7 @@
         "index": {
           "description": "Like when but with teh monadz",
           "hierarchy": "BuildBox Build",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Build",
           "name": "whenM",
           "normalized": "a Bool-\u003ea()-\u003ea()",
@@ -1438,6 +1520,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eQuerying a darcs repository\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Darcs",
           "name": "Darcs",
           "package": "buildbox",
@@ -1447,6 +1530,7 @@
         "index": {
           "description": "Querying darcs repository",
           "hierarchy": "BuildBox Command Darcs",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Darcs",
           "name": "Darcs",
           "package": "buildbox",
@@ -1460,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Darcs",
           "name": "DarcsPatch",
           "package": "buildbox",
@@ -1468,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Darcs",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Darcs",
           "name": "DarcsPatch",
           "package": "buildbox",
@@ -1481,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Darcs",
           "name": "DarcsPath",
           "package": "buildbox",
@@ -1489,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Darcs",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Darcs",
           "name": "DarcsPath",
           "package": "buildbox",
@@ -1502,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Darcs",
           "name": "EmailAddress",
           "package": "buildbox",
@@ -1510,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Darcs",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Darcs",
           "name": "EmailAddress",
           "package": "buildbox",
@@ -1523,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Darcs",
           "name": "DarcsPatch",
           "package": "buildbox",
@@ -1532,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Darcs",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Darcs",
           "name": "DarcsPatch",
           "package": "buildbox",
@@ -1546,6 +1638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all patches in the given repository. If no repository is given, the\n   current working directory is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Darcs",
           "name": "changes",
           "package": "buildbox",
@@ -1556,6 +1649,7 @@
         "index": {
           "description": "List all patches in the given repository If no repository is given the current working directory is used",
           "hierarchy": "BuildBox Command Darcs",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Darcs",
           "name": "changes",
           "normalized": "Maybe DarcsPath-\u003eBuild[DarcsPatch]",
@@ -1571,6 +1665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve all patches submitted to the repository after the given time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Darcs",
           "name": "changesAfter",
           "package": "buildbox",
@@ -1581,6 +1676,7 @@
         "index": {
           "description": "Retrieve all patches submitted to the repository after the given time",
           "hierarchy": "BuildBox Command Darcs",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Darcs",
           "name": "changesAfter",
           "normalized": "Maybe DarcsPath-\u003eLocalTime-\u003eBuild[DarcsPatch]",
@@ -1597,6 +1693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the last N changes from the repository\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Darcs",
           "name": "changesN",
           "package": "buildbox",
@@ -1607,6 +1704,7 @@
         "index": {
           "description": "Retrieve the last changes from the repository",
           "hierarchy": "BuildBox Command Darcs",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Darcs",
           "name": "changesN",
           "normalized": "Maybe DarcsPath-\u003eInt-\u003eBuild[DarcsPatch]",
@@ -1621,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Darcs",
           "name": "darcsAuthor",
           "package": "buildbox",
@@ -1630,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Darcs",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Darcs",
           "name": "darcsAuthor",
           "package": "buildbox",
@@ -1643,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Darcs",
           "name": "darcsComment",
           "package": "buildbox",
@@ -1652,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Darcs",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Darcs",
           "name": "darcsComment",
           "package": "buildbox",
@@ -1665,6 +1767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Darcs",
           "name": "darcsTimestamp",
           "package": "buildbox",
@@ -1674,6 +1777,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Darcs",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Darcs",
           "name": "darcsTimestamp",
           "package": "buildbox",
@@ -1688,6 +1792,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGathering information about the build environment.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "Environment",
           "package": "buildbox",
@@ -1697,6 +1802,7 @@
         "index": {
           "description": "Gathering information about the build environment",
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "Environment",
           "package": "buildbox",
@@ -1711,6 +1817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe environment consists of the \u003ccode\u003e\u003ca\u003ePlatform\u003c/a\u003e\u003c/code\u003e, and some tool versions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "Environment",
           "package": "buildbox",
@@ -1720,6 +1827,7 @@
         "index": {
           "description": "The environment consists of the Platform and some tool versions",
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "Environment",
           "package": "buildbox",
@@ -1734,6 +1842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric information about the platform we're running on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "Platform",
           "package": "buildbox",
@@ -1743,6 +1852,7 @@
         "index": {
           "description": "Generic information about the platform we re running on",
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "Platform",
           "package": "buildbox",
@@ -1756,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "Environment",
           "package": "buildbox",
@@ -1765,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "Environment",
           "package": "buildbox",
@@ -1778,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "Platform",
           "package": "buildbox",
@@ -1787,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "Platform",
           "package": "buildbox",
@@ -1800,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "environmentPlatform",
           "package": "buildbox",
@@ -1809,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "environmentPlatform",
           "package": "buildbox",
@@ -1822,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "environmentVersions",
           "package": "buildbox",
@@ -1831,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "environmentVersions",
           "normalized": "[(String,String)]",
@@ -1847,6 +1965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current environment, including versions of these tools.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "getEnvironmentWith",
           "package": "buildbox",
@@ -1856,6 +1975,7 @@
         "index": {
           "description": "Get the current environment including versions of these tools",
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "getEnvironmentWith",
           "normalized": "[(String,Build String)]-\u003eBuild Environment",
@@ -1872,6 +1992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the host architecture, using \u003ccode\u003euname\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "getHostArch",
           "package": "buildbox",
@@ -1882,6 +2003,7 @@
         "index": {
           "description": "Get the host architecture using uname",
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "getHostArch",
           "package": "buildbox",
@@ -1896,6 +2018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the name of this host, using \u003ccode\u003euname\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "getHostName",
           "package": "buildbox",
@@ -1906,6 +2029,7 @@
         "index": {
           "description": "Get the name of this host using uname",
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "getHostName",
           "package": "buildbox",
@@ -1920,6 +2044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the host operating system, using \u003ccode\u003euname\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "getHostOS",
           "package": "buildbox",
@@ -1930,6 +2055,7 @@
         "index": {
           "description": "Get the host operating system using uname",
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "getHostOS",
           "package": "buildbox",
@@ -1944,6 +2070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information about the host platform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "getHostPlatform",
           "package": "buildbox",
@@ -1954,6 +2081,7 @@
         "index": {
           "description": "Get information about the host platform",
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "getHostPlatform",
           "package": "buildbox",
@@ -1968,6 +2096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the host processor name, using \u003ccode\u003euname\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "getHostProcessor",
           "package": "buildbox",
@@ -1978,6 +2107,7 @@
         "index": {
           "description": "Get the host processor name using uname",
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "getHostProcessor",
           "package": "buildbox",
@@ -1992,6 +2122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the host operating system release, using \u003ccode\u003euname\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "getHostRelease",
           "package": "buildbox",
@@ -2002,6 +2133,7 @@
         "index": {
           "description": "Get the host operating system release using uname",
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "getHostRelease",
           "package": "buildbox",
@@ -2016,6 +2148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the version of this GCC, or throw an error if it can't be found. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "getVersionGCC",
           "package": "buildbox",
@@ -2026,6 +2159,7 @@
         "index": {
           "description": "Get the version of this GCC or throw an error if it can be found",
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "getVersionGCC",
           "normalized": "FilePath-\u003eBuild String",
@@ -2042,6 +2176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the version of this GHC, or throw an error if it can't be found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "getVersionGHC",
           "package": "buildbox",
@@ -2052,6 +2187,7 @@
         "index": {
           "description": "Get the version of this GHC or throw an error if it can be found",
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "getVersionGHC",
           "normalized": "FilePath-\u003eBuild String",
@@ -2067,6 +2203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "platformHostArch",
           "package": "buildbox",
@@ -2076,6 +2213,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "platformHostArch",
           "package": "buildbox",
@@ -2089,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "platformHostName",
           "package": "buildbox",
@@ -2098,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "platformHostName",
           "package": "buildbox",
@@ -2111,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "platformHostOS",
           "package": "buildbox",
@@ -2120,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "platformHostOS",
           "package": "buildbox",
@@ -2133,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "platformHostProcessor",
           "package": "buildbox",
@@ -2142,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "platformHostProcessor",
           "package": "buildbox",
@@ -2155,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Environment",
           "name": "platformHostRelease",
           "package": "buildbox",
@@ -2164,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Environment",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Environment",
           "name": "platformHostRelease",
           "package": "buildbox",
@@ -2178,6 +2324,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWorking with the file system.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.File",
           "name": "File",
           "package": "buildbox",
@@ -2187,6 +2334,7 @@
         "index": {
           "description": "Working with the file system",
           "hierarchy": "BuildBox Command File",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.File",
           "name": "File",
           "package": "buildbox",
@@ -2201,6 +2349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperties of the file system we can test for.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.File",
           "name": "PropFile",
           "package": "buildbox",
@@ -2210,6 +2359,7 @@
         "index": {
           "description": "Properties of the file system we can test for",
           "hierarchy": "BuildBox Command File",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.File",
           "name": "PropFile",
           "package": "buildbox",
@@ -2224,6 +2374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome file is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.File",
           "name": "FileEmpty",
           "package": "buildbox",
@@ -2234,6 +2385,7 @@
         "index": {
           "description": "Some file is empty",
           "hierarchy": "BuildBox Command File",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.File",
           "name": "FileEmpty",
           "package": "buildbox",
@@ -2248,6 +2400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome directory exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.File",
           "name": "HasDir",
           "package": "buildbox",
@@ -2258,6 +2411,7 @@
         "index": {
           "description": "Some directory exists",
           "hierarchy": "BuildBox Command File",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.File",
           "name": "HasDir",
           "package": "buildbox",
@@ -2272,6 +2426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome executable is in the current path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.File",
           "name": "HasExecutable",
           "package": "buildbox",
@@ -2282,6 +2437,7 @@
         "index": {
           "description": "Some executable is in the current path",
           "hierarchy": "BuildBox Command File",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.File",
           "name": "HasExecutable",
           "package": "buildbox",
@@ -2296,6 +2452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome file exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.File",
           "name": "HasFile",
           "package": "buildbox",
@@ -2306,6 +2463,7 @@
         "index": {
           "description": "Some file exists",
           "hierarchy": "BuildBox Command File",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.File",
           "name": "HasFile",
           "package": "buildbox",
@@ -2320,6 +2478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomically write a file by first writing it to a tmp file then renaming it.\n   This prevents concurrent processes from reading half-written files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.File",
           "name": "atomicWriteFile",
           "package": "buildbox",
@@ -2330,6 +2489,7 @@
         "index": {
           "description": "Atomically write file by first writing it to tmp file then renaming it This prevents concurrent processes from reading half-written files",
           "hierarchy": "BuildBox Command File",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.File",
           "name": "atomicWriteFile",
           "normalized": "FilePath-\u003eString-\u003eBuild()",
@@ -2346,6 +2506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a dir recursively if it's there, otherwise do nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.File",
           "name": "clobberDir",
           "package": "buildbox",
@@ -2356,6 +2517,7 @@
         "index": {
           "description": "Delete dir recursively if it there otherwise do nothing",
           "hierarchy": "BuildBox Command File",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.File",
           "name": "clobberDir",
           "normalized": "FilePath-\u003eBuild()",
@@ -2372,6 +2534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new directory if it isn't already there, or return successfully if it is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.File",
           "name": "ensureDir",
           "package": "buildbox",
@@ -2382,6 +2545,7 @@
         "index": {
           "description": "Create new directory if it isn already there or return successfully if it is",
           "hierarchy": "BuildBox Command File",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.File",
           "name": "ensureDir",
           "normalized": "FilePath-\u003eBuild()",
@@ -2398,6 +2562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe file extension for an executable on the current system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.File",
           "name": "exe",
           "package": "buildbox",
@@ -2408,6 +2573,7 @@
         "index": {
           "description": "The file extension for an executable on the current system",
           "hierarchy": "BuildBox Command File",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.File",
           "name": "exe",
           "package": "buildbox",
@@ -2421,6 +2587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a command in a different working directory. Throws an error if the directory doesn't exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.File",
           "name": "inDir",
           "package": "buildbox",
@@ -2431,6 +2598,7 @@
         "index": {
           "description": "Run command in different working directory Throws an error if the directory doesn exist",
           "hierarchy": "BuildBox Command File",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.File",
           "name": "inDir",
           "normalized": "FilePath-\u003eBuild a-\u003eBuild a",
@@ -2447,6 +2615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new directory with the given name, run a command within it,\n   then change out and recursively delete the directory. Throws an error if a directory\n   with the given name already exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.File",
           "name": "inScratchDir",
           "package": "buildbox",
@@ -2457,6 +2626,7 @@
         "index": {
           "description": "Create new directory with the given name run command within it then change out and recursively delete the directory Throws an error if directory with the given name already exists",
           "hierarchy": "BuildBox Command File",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.File",
           "name": "inScratchDir",
           "normalized": "FilePath-\u003eBuild a-\u003eBuild a",
@@ -2473,6 +2643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a temp file, pass it to some command, then delete the file after the command finishes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.File",
           "name": "withTempFile",
           "package": "buildbox",
@@ -2483,6 +2654,7 @@
         "index": {
           "description": "Create temp file pass it to some command then delete the file after the command finishes",
           "hierarchy": "BuildBox Command File",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.File",
           "name": "withTempFile",
           "normalized": "(FilePath-\u003eBuild a)-\u003eBuild a",
@@ -2499,6 +2671,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSending email. \n   If you're on a system with a working \u003ccode\u003esendmail\u003c/code\u003e then use that.\n   Otherwise, the stand-alone \u003ccode\u003emsmtp\u003c/code\u003e server is easy to set up.\n   Get \u003ccode\u003emsmtp\u003c/code\u003e here: \u003ca\u003ehttp://msmtp.sourceforge.net\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Mail",
           "name": "Mail",
           "package": "buildbox",
@@ -2508,6 +2681,7 @@
         "index": {
           "description": "Sending email If you re on system with working sendmail then use that Otherwise the stand-alone msmtp server is easy to set up Get msmtp here http msmtp.sourceforge.net",
           "hierarchy": "BuildBox Command Mail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Mail",
           "name": "Mail",
           "package": "buildbox",
@@ -2522,6 +2696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn email message that we can send.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Mail",
           "name": "Mail",
           "package": "buildbox",
@@ -2531,6 +2706,7 @@
         "index": {
           "description": "An email message that we can send",
           "hierarchy": "BuildBox Command Mail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Mail",
           "name": "Mail",
           "package": "buildbox",
@@ -2545,6 +2721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn external mailer that can send messages.\n   \tAlso contains mail server info if needed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Mail",
           "name": "Mailer",
           "package": "buildbox",
@@ -2554,6 +2731,7 @@
         "index": {
           "description": "An external mailer that can send messages Also contains mail server info if needed",
           "hierarchy": "BuildBox Command Mail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Mail",
           "name": "Mailer",
           "package": "buildbox",
@@ -2567,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Mail",
           "name": "Mail",
           "package": "buildbox",
@@ -2576,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Mail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Mail",
           "name": "Mail",
           "package": "buildbox",
@@ -2590,6 +2770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend mail via MSMTP, which is a stand-alone SMTP sender.\n   This might be be easier to set up if you don't have a real MTA installed.\n   Get it from http:\u003cem/\u003emsmtp.sourceforge.net/\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Mail",
           "name": "MailerMSMTP",
           "package": "buildbox",
@@ -2600,6 +2781,7 @@
         "index": {
           "description": "Send mail via MSMTP which is stand-alone SMTP sender This might be be easier to set up if you don have real MTA installed Get it from http msmtp.sourceforge.net",
           "hierarchy": "BuildBox Command Mail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Mail",
           "name": "MailerMSMTP",
           "package": "buildbox",
@@ -2614,6 +2796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend the mail by writing to the stdin of this command.\n   On many systems the command \u003ccode\u003esendmail\u003c/code\u003e will be aliased to an appropriate\n   wrapper for whatever Mail Transfer Agent (MTA) you have installed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Mail",
           "name": "MailerSendmail",
           "package": "buildbox",
@@ -2624,6 +2807,7 @@
         "index": {
           "description": "Send the mail by writing to the stdin of this command On many systems the command sendmail will be aliased to an appropriate wrapper for whatever Mail Transfer Agent MTA you have installed",
           "hierarchy": "BuildBox Command Mail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Mail",
           "name": "MailerSendmail",
           "package": "buildbox",
@@ -2638,6 +2822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a mail with a given from, to, subject and body.\n   Fill in the date and message id based on the current time.\n   Valid dates and message ids are needed to prevent the mail\n   being bounced by anti-spam systems.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Mail",
           "name": "createMailWithCurrentTime",
           "package": "buildbox",
@@ -2647,6 +2832,7 @@
         "index": {
           "description": "Create mail with given from to subject and body Fill in the date and message id based on the current time Valid dates and message ids are needed to prevent the mail being bounced by anti-spam systems",
           "hierarchy": "BuildBox Command Mail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Mail",
           "name": "createMailWithCurrentTime",
           "normalized": "String-\u003eString-\u003eString-\u003eString-\u003eBuild Mail",
@@ -2662,6 +2848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Mail",
           "name": "mailBody",
           "package": "buildbox",
@@ -2671,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Mail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Mail",
           "name": "mailBody",
           "package": "buildbox",
@@ -2684,6 +2872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Mail",
           "name": "mailFrom",
           "package": "buildbox",
@@ -2693,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Mail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Mail",
           "name": "mailFrom",
           "package": "buildbox",
@@ -2706,6 +2896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Mail",
           "name": "mailMessageId",
           "package": "buildbox",
@@ -2715,6 +2906,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Mail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Mail",
           "name": "mailMessageId",
           "package": "buildbox",
@@ -2728,6 +2920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Mail",
           "name": "mailSubject",
           "package": "buildbox",
@@ -2737,6 +2930,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Mail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Mail",
           "name": "mailSubject",
           "package": "buildbox",
@@ -2750,6 +2944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Mail",
           "name": "mailTime",
           "package": "buildbox",
@@ -2759,6 +2954,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Mail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Mail",
           "name": "mailTime",
           "package": "buildbox",
@@ -2772,6 +2968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Mail",
           "name": "mailTimeZone",
           "package": "buildbox",
@@ -2781,6 +2978,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Mail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Mail",
           "name": "mailTimeZone",
           "package": "buildbox",
@@ -2794,6 +2992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Mail",
           "name": "mailTo",
           "package": "buildbox",
@@ -2803,6 +3002,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Mail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Mail",
           "name": "mailTo",
           "package": "buildbox",
@@ -2816,6 +3016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Mail",
           "name": "mailerExtraFlags",
           "package": "buildbox",
@@ -2825,6 +3026,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Mail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Mail",
           "name": "mailerExtraFlags",
           "normalized": "[String]",
@@ -2840,6 +3042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Mail",
           "name": "mailerPath",
           "package": "buildbox",
@@ -2849,6 +3052,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Mail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Mail",
           "name": "mailerPath",
           "package": "buildbox",
@@ -2862,6 +3066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Mail",
           "name": "mailerPort",
           "package": "buildbox",
@@ -2871,6 +3076,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Mail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Mail",
           "name": "mailerPort",
           "package": "buildbox",
@@ -2885,6 +3091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an email message as a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Mail",
           "name": "renderMail",
           "package": "buildbox",
@@ -2895,6 +3102,7 @@
         "index": {
           "description": "Render an email message as string",
           "hierarchy": "BuildBox Command Mail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Mail",
           "name": "renderMail",
           "normalized": "Mail-\u003eDoc",
@@ -2911,6 +3119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a mail message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Mail",
           "name": "sendMailWithMailer",
           "package": "buildbox",
@@ -2921,6 +3130,7 @@
         "index": {
           "description": "Send mail message",
           "hierarchy": "BuildBox Command Mail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Mail",
           "name": "sendMailWithMailer",
           "normalized": "Mail-\u003eMailer-\u003eBuild()",
@@ -2937,6 +3147,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWorking with the network.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Network",
           "name": "Network",
           "package": "buildbox",
@@ -2946,6 +3157,7 @@
         "index": {
           "description": "Working with the network",
           "hierarchy": "BuildBox Command Network",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Network",
           "name": "Network",
           "package": "buildbox",
@@ -2959,6 +3171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Network",
           "name": "PropNetwork",
           "package": "buildbox",
@@ -2967,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Command Network",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Network",
           "name": "PropNetwork",
           "package": "buildbox",
@@ -2981,6 +3195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe given host is reachable with \u003ccode\u003eping\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Network",
           "name": "HostReachable",
           "package": "buildbox",
@@ -2991,6 +3206,7 @@
         "index": {
           "description": "The given host is reachable with ping",
           "hierarchy": "BuildBox Command Network",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Network",
           "name": "HostReachable",
           "package": "buildbox",
@@ -3005,6 +3221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse \u003ccode\u003ewget\u003c/code\u003e to check if a web-page is gettable.\n   The page is deleted after downloading.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Network",
           "name": "UrlGettable",
           "package": "buildbox",
@@ -3015,6 +3232,7 @@
         "index": {
           "description": "Use wget to check if web-page is gettable The page is deleted after downloading",
           "hierarchy": "BuildBox Command Network",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Network",
           "name": "UrlGettable",
           "package": "buildbox",
@@ -3029,6 +3247,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWhat do build 'bots dream about?\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Sleep",
           "name": "Sleep",
           "package": "buildbox",
@@ -3038,6 +3257,7 @@
         "index": {
           "description": "What do build bots dream about",
           "hierarchy": "BuildBox Command Sleep",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Sleep",
           "name": "Sleep",
           "package": "buildbox",
@@ -3052,6 +3272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSleep for a given number of milliseconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Sleep",
           "name": "msleep",
           "package": "buildbox",
@@ -3062,6 +3283,7 @@
         "index": {
           "description": "Sleep for given number of milliseconds",
           "hierarchy": "BuildBox Command Sleep",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Sleep",
           "name": "msleep",
           "normalized": "Int-\u003eBuild()",
@@ -3077,6 +3299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSleep for a given number of seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.Sleep",
           "name": "sleep",
           "package": "buildbox",
@@ -3087,6 +3310,7 @@
         "index": {
           "description": "Sleep for given number of seconds",
           "hierarchy": "BuildBox Command Sleep",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.Sleep",
           "name": "sleep",
           "normalized": "Int-\u003eBuild()",
@@ -3102,6 +3326,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRunning system commands. On some platforms this may cause the command to be executed directly, so \n   shell tricks won't work. The \u003ccode\u003e\u003ca\u003eBuild\u003c/a\u003e\u003c/code\u003e monad can be made to log commands executed with all versions\n   of \u003ccode\u003e\u003ca\u003esystem\u003c/a\u003e\u003c/code\u003e by setting \u003ccode\u003ebuildConfigLogSystem\u003c/code\u003e in the \u003ccode\u003eBuildConfig\u003c/code\u003e passed to \u003ccode\u003erunBuildPrintWithConfig\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWe define a lot of wrappers because executing system commands is the bread-and-butter of \n   buildbots, and we usually need all the versions...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.System",
           "name": "System",
           "package": "buildbox",
@@ -3111,6 +3336,7 @@
         "index": {
           "description": "Running system commands On some platforms this may cause the command to be executed directly so shell tricks won work The Build monad can be made to log commands executed with all versions of system by setting buildConfigLogSystem in the BuildConfig passed to runBuildPrintWithConfig We define lot of wrappers because executing system commands is the bread-and-butter of buildbots and we usually need all the versions",
           "hierarchy": "BuildBox Command System",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.System",
           "name": "System",
           "package": "buildbox",
@@ -3125,6 +3351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a successful system command, returning what it wrote to its \u003ccode\u003estdout\u003c/code\u003e.\n   If anything was written to \u003ccode\u003estderr\u003c/code\u003e then treat that as failure. \n   If it fails due to writing to \u003ccode\u003estderr\u003c/code\u003e or returning \u003ccode\u003e\u003ca\u003eExitFailure\u003c/a\u003e\u003c/code\u003e\n   then throw an error in the \u003ccode\u003e\u003ca\u003eBuild\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.System",
           "name": "sesystem",
           "package": "buildbox",
@@ -3135,6 +3362,7 @@
         "index": {
           "description": "Run successful system command returning what it wrote to its stdout If anything was written to stderr then treat that as failure If it fails due to writing to stderr or returning ExitFailure then throw an error in the Build monad",
           "hierarchy": "BuildBox Command System",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.System",
           "name": "sesystem",
           "normalized": "String-\u003eBuild String",
@@ -3150,6 +3378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuietly run a successful system command, returning what it wrote to its \u003ccode\u003estdout\u003c/code\u003e.\n   If anything was written to \u003ccode\u003estderr\u003c/code\u003e then treat that as failure. \n   If it fails due to writing to \u003ccode\u003estderr\u003c/code\u003e or returning \u003ccode\u003e\u003ca\u003eExitFailure\u003c/a\u003e\u003c/code\u003e\n   then throw an error in the \u003ccode\u003e\u003ca\u003eBuild\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.System",
           "name": "sesystemq",
           "package": "buildbox",
@@ -3160,6 +3389,7 @@
         "index": {
           "description": "Quietly run successful system command returning what it wrote to its stdout If anything was written to stderr then treat that as failure If it fails due to writing to stderr or returning ExitFailure then throw an error in the Build monad",
           "hierarchy": "BuildBox Command System",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.System",
           "name": "sesystemq",
           "normalized": "String-\u003eBuild String",
@@ -3175,6 +3405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a successful system command, \n   returning what it wrote to \u003ccode\u003estdout\u003c/code\u003e and \u003ccode\u003estderr\u003c/code\u003e.\n   If the exit code is \u003ccode\u003e\u003ca\u003eExitFailure\u003c/a\u003e\u003c/code\u003e then throw an error in the \u003ccode\u003e\u003ca\u003eBuild\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.System",
           "name": "ssystem",
           "package": "buildbox",
@@ -3185,6 +3416,7 @@
         "index": {
           "description": "Run successful system command returning what it wrote to stdout and stderr If the exit code is ExitFailure then throw an error in the Build monad",
           "hierarchy": "BuildBox Command System",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.System",
           "name": "ssystem",
           "normalized": "String-\u003eBuild(String,String)",
@@ -3200,6 +3432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003esystemTeeIO\u003c/a\u003e\u003c/code\u003e, but in the \u003ccode\u003e\u003ca\u003eBuild\u003c/a\u003e\u003c/code\u003e monad and throw an error if it returns \u003ccode\u003e\u003ca\u003eExitFailure\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.System",
           "name": "ssystemTee",
           "package": "buildbox",
@@ -3210,6 +3443,7 @@
         "index": {
           "description": "Like systemTeeIO but in the Build monad and throw an error if it returns ExitFailure",
           "hierarchy": "BuildBox Command System",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.System",
           "name": "ssystemTee",
           "normalized": "Bool-\u003eString-\u003eString-\u003eBuild()",
@@ -3226,6 +3460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuietly run a successful system command,\n   returning what it wrote to \u003ccode\u003estdout\u003c/code\u003e and \u003ccode\u003estderr\u003c/code\u003e.\n   If the exit code is \u003ccode\u003e\u003ca\u003eExitFailure\u003c/a\u003e\u003c/code\u003e then throw an error in the \u003ccode\u003e\u003ca\u003eBuild\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.System",
           "name": "ssystemq",
           "package": "buildbox",
@@ -3236,6 +3471,7 @@
         "index": {
           "description": "Quietly run successful system command returning what it wrote to stdout and stderr If the exit code is ExitFailure then throw an error in the Build monad",
           "hierarchy": "BuildBox Command System",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.System",
           "name": "ssystemq",
           "normalized": "String-\u003eBuild(String,String)",
@@ -3251,6 +3487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a system command, \n   returning its exit code and what it wrote to \u003ccode\u003estdout\u003c/code\u003e and \u003ccode\u003estderr\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.System",
           "name": "system",
           "package": "buildbox",
@@ -3261,6 +3498,7 @@
         "index": {
           "description": "Run system command returning its exit code and what it wrote to stdout and stderr",
           "hierarchy": "BuildBox Command System",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.System",
           "name": "system",
           "normalized": "String-\u003eBuild(ExitCode,String,String)",
@@ -3276,6 +3514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003esystemTeeIO\u003c/a\u003e\u003c/code\u003e, but in the \u003ccode\u003e\u003ca\u003eBuild\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.System",
           "name": "systemTee",
           "package": "buildbox",
@@ -3286,6 +3525,7 @@
         "index": {
           "description": "Like systemTeeIO but in the Build monad",
           "hierarchy": "BuildBox Command System",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.System",
           "name": "systemTee",
           "normalized": "Bool-\u003eString-\u003eString-\u003eBuild(ExitCode,String,String)",
@@ -3302,6 +3542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003esystemTeeLogIO\u003c/a\u003e\u003c/code\u003e, but with strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.System",
           "name": "systemTeeIO",
           "package": "buildbox",
@@ -3312,6 +3553,7 @@
         "index": {
           "description": "Like systemTeeLogIO but with strings",
           "hierarchy": "BuildBox Command System",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.System",
           "name": "systemTeeIO",
           "normalized": "Bool-\u003eString-\u003eString-\u003eIO(ExitCode,String,String)",
@@ -3328,6 +3570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003esystemTeeLogIO\u003c/a\u003e\u003c/code\u003e, but in the \u003ccode\u003e\u003ca\u003eBuild\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.System",
           "name": "systemTeeLog",
           "package": "buildbox",
@@ -3338,6 +3581,7 @@
         "index": {
           "description": "Like systemTeeLogIO but in the Build monad",
           "hierarchy": "BuildBox Command System",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.System",
           "name": "systemTeeLog",
           "normalized": "Bool-\u003eString-\u003eLog-\u003eBuild(ExitCode,Log,Log)",
@@ -3354,6 +3598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a system command, returning its \u003ccode\u003e\u003ca\u003eExitCode\u003c/a\u003e\u003c/code\u003e and what was written to \u003ccode\u003estdout\u003c/code\u003e and \u003ccode\u003estderr\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.System",
           "name": "systemTeeLogIO",
           "package": "buildbox",
@@ -3363,6 +3608,7 @@
         "index": {
           "description": "Run system command returning its ExitCode and what was written to stdout and stderr",
           "hierarchy": "BuildBox Command System",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.System",
           "name": "systemTeeLogIO",
           "normalized": "Bool-\u003eString-\u003eLog-\u003eIO(ExitCode,Log,Log)",
@@ -3379,6 +3625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuietly run a system command,\n   returning its exit code and what it wrote to \u003ccode\u003estdout\u003c/code\u003e and \u003ccode\u003estderr\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Command.System",
           "name": "systemq",
           "package": "buildbox",
@@ -3389,6 +3636,7 @@
         "index": {
           "description": "Quietly run system command returning its exit code and what it wrote to stdout and stderr",
           "hierarchy": "BuildBox Command System",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Command.System",
           "name": "systemq",
           "normalized": "String-\u003eBuild(ExitCode,String,String)",
@@ -3404,6 +3652,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple ''cron'' loop. Used for running commands according to a given schedule.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Control.Cron",
           "name": "Cron",
           "package": "buildbox",
@@ -3413,6 +3662,7 @@
         "index": {
           "description": "simple cron loop Used for running commands according to given schedule",
           "hierarchy": "BuildBox Control Cron",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Control.Cron",
           "name": "Cron",
           "package": "buildbox",
@@ -3427,6 +3677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a schedule of commands, run them when their time is due.\n   Only one command is run at a time. If several commands could be started at a specific\n   moment, then we take the one with the earliest potential start time. If any command throws\n   an error in the \u003ccode\u003e\u003ca\u003eBuild\u003c/a\u003e\u003c/code\u003e monad then the whole loop does.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Control.Cron",
           "name": "cronLoop",
           "package": "buildbox",
@@ -3437,6 +3688,7 @@
         "index": {
           "description": "Given schedule of commands run them when their time is due Only one command is run at time If several commands could be started at specific moment then we take the one with the earliest potential start time If any command throws an error in the Build monad then the whole loop does",
           "hierarchy": "BuildBox Control Cron",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Control.Cron",
           "name": "cronLoop",
           "normalized": "Schedule(Build())-\u003eBuild()",
@@ -3453,6 +3705,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA gang consisting of a fixed number of threads that can run actions in parallel.\n   Good for constructing parallel test frameworks.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Control.Gang",
           "name": "Gang",
           "package": "buildbox",
@@ -3462,6 +3715,7 @@
         "index": {
           "description": "gang consisting of fixed number of threads that can run actions in parallel Good for constructing parallel test frameworks",
           "hierarchy": "BuildBox Control Gang",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Control.Gang",
           "name": "Gang",
           "package": "buildbox",
@@ -3476,6 +3730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract gang of threads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Control.Gang",
           "name": "Gang",
           "package": "buildbox",
@@ -3485,6 +3740,7 @@
         "index": {
           "description": "Abstract gang of threads",
           "hierarchy": "BuildBox Control Gang",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Control.Gang",
           "name": "Gang",
           "package": "buildbox",
@@ -3498,6 +3754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Control.Gang",
           "name": "GangState",
           "package": "buildbox",
@@ -3506,6 +3763,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Control Gang",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Control.Gang",
           "name": "GangState",
           "package": "buildbox",
@@ -3520,6 +3778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGang is finished, all the actions have completed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Control.Gang",
           "name": "GangFinished",
           "package": "buildbox",
@@ -3530,6 +3789,7 @@
         "index": {
           "description": "Gang is finished all the actions have completed",
           "hierarchy": "BuildBox Control Gang",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Control.Gang",
           "name": "GangFinished",
           "package": "buildbox",
@@ -3544,6 +3804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGang is waiting for currently running actions to finish, \n   but not starting new ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Control.Gang",
           "name": "GangFlushing",
           "package": "buildbox",
@@ -3554,6 +3815,7 @@
         "index": {
           "description": "Gang is waiting for currently running actions to finish but not starting new ones",
           "hierarchy": "BuildBox Control Gang",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Control.Gang",
           "name": "GangFlushing",
           "package": "buildbox",
@@ -3568,6 +3830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGang was killed, all the threads are dead (or dying).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Control.Gang",
           "name": "GangKilled",
           "package": "buildbox",
@@ -3578,6 +3841,7 @@
         "index": {
           "description": "Gang was killed all the threads are dead or dying",
           "hierarchy": "BuildBox Control Gang",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Control.Gang",
           "name": "GangKilled",
           "package": "buildbox",
@@ -3592,6 +3856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGang may be running already started actions, \n   but no new ones are being started.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Control.Gang",
           "name": "GangPaused",
           "package": "buildbox",
@@ -3602,6 +3867,7 @@
         "index": {
           "description": "Gang may be running already started actions but no new ones are being started",
           "hierarchy": "BuildBox Control Gang",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Control.Gang",
           "name": "GangPaused",
           "package": "buildbox",
@@ -3616,6 +3882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGang is running and starting new actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Control.Gang",
           "name": "GangRunning",
           "package": "buildbox",
@@ -3626,6 +3893,7 @@
         "index": {
           "description": "Gang is running and starting new actions",
           "hierarchy": "BuildBox Control Gang",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Control.Gang",
           "name": "GangRunning",
           "package": "buildbox",
@@ -3640,6 +3908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlock until already started actions have completed, but don't start any more.\n   Gang state changes to \u003ccode\u003e\u003ca\u003eGangFlushing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Control.Gang",
           "name": "flushGang",
           "package": "buildbox",
@@ -3650,6 +3919,7 @@
         "index": {
           "description": "Block until already started actions have completed but don start any more Gang state changes to GangFlushing",
           "hierarchy": "BuildBox Control Gang",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Control.Gang",
           "name": "flushGang",
           "normalized": "Gang-\u003eIO()",
@@ -3666,6 +3936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFork a new gang to run the given actions.\n   This function returns immediately, with the gang executing in the background.\n   Gang state starts as \u003ccode\u003e\u003ca\u003eGangRunning\u003c/a\u003e\u003c/code\u003e then transitions to \u003ccode\u003e\u003ca\u003eGangFinished\u003c/a\u003e\u003c/code\u003e.\n   To block until all the actions are finished use \u003ccode\u003e\u003ca\u003ejoinGang\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Control.Gang",
           "name": "forkGangActions",
           "package": "buildbox",
@@ -3675,6 +3946,7 @@
         "index": {
           "description": "Fork new gang to run the given actions This function returns immediately with the gang executing in the background Gang state starts as GangRunning then transitions to GangFinished To block until all the actions are finished use joinGang",
           "hierarchy": "BuildBox Control Gang",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Control.Gang",
           "name": "forkGangActions",
           "normalized": "Int-\u003e[IO()]-\u003eIO Gang",
@@ -3691,6 +3963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the state of a gang.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Control.Gang",
           "name": "getGangState",
           "package": "buildbox",
@@ -3701,6 +3974,7 @@
         "index": {
           "description": "Get the state of gang",
           "hierarchy": "BuildBox Control Gang",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Control.Gang",
           "name": "getGangState",
           "normalized": "Gang-\u003eIO GangState",
@@ -3717,6 +3991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlock until all actions have finished executing,\n   or the gang is killed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Control.Gang",
           "name": "joinGang",
           "package": "buildbox",
@@ -3727,6 +4002,7 @@
         "index": {
           "description": "Block until all actions have finished executing or the gang is killed",
           "hierarchy": "BuildBox Control Gang",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Control.Gang",
           "name": "joinGang",
           "normalized": "Gang-\u003eIO()",
@@ -3743,6 +4019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKill all the threads in a gang.\n   Gang stage changes to \u003ccode\u003e\u003ca\u003eGangKilled\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Control.Gang",
           "name": "killGang",
           "package": "buildbox",
@@ -3753,6 +4030,7 @@
         "index": {
           "description": "Kill all the threads in gang Gang stage changes to GangKilled",
           "hierarchy": "BuildBox Control Gang",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Control.Gang",
           "name": "killGang",
           "normalized": "Gang-\u003eIO()",
@@ -3769,6 +4047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePause a gang. Actions that have already been started continue to run, \n   but no more will be started until a \u003ccode\u003e\u003ca\u003eresumeGang\u003c/a\u003e\u003c/code\u003e command is issued.\n   Gang state changes to \u003ccode\u003e\u003ca\u003eGangPaused\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Control.Gang",
           "name": "pauseGang",
           "package": "buildbox",
@@ -3779,6 +4058,7 @@
         "index": {
           "description": "Pause gang Actions that have already been started continue to run but no more will be started until resumeGang command is issued Gang state changes to GangPaused",
           "hierarchy": "BuildBox Control Gang",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Control.Gang",
           "name": "pauseGang",
           "normalized": "Gang-\u003eIO()",
@@ -3795,6 +4075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResume a paused gang, which allows it to continue starting new actions.\n   Gang state changes to \u003ccode\u003e\u003ca\u003eGangRunning\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Control.Gang",
           "name": "resumeGang",
           "package": "buildbox",
@@ -3805,6 +4086,7 @@
         "index": {
           "description": "Resume paused gang which allows it to continue starting new actions Gang state changes to GangRunning",
           "hierarchy": "BuildBox Control Gang",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Control.Gang",
           "name": "resumeGang",
           "normalized": "Gang-\u003eIO()",
@@ -3821,6 +4103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlock until the gang is in the given state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Control.Gang",
           "name": "waitForGangState",
           "package": "buildbox",
@@ -3831,6 +4114,7 @@
         "index": {
           "description": "Block until the gang is in the given state",
           "hierarchy": "BuildBox Control Gang",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Control.Gang",
           "name": "waitForGangState",
           "normalized": "Gang-\u003eGangState-\u003eIO()",
@@ -3846,6 +4130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Comparison",
           "name": "Comparison",
           "package": "buildbox",
@@ -3854,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Comparison",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Comparison",
           "name": "Comparison",
           "package": "buildbox",
@@ -3868,6 +4154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe comparison of two values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Comparison",
           "name": "Comparison",
           "package": "buildbox",
@@ -3877,6 +4164,7 @@
         "index": {
           "description": "The comparison of two values",
           "hierarchy": "BuildBox Data Comparison",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Comparison",
           "name": "Comparison",
           "package": "buildbox",
@@ -3891,6 +4179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComparison of a recent value with a baseline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Comparison",
           "name": "Comparison",
           "package": "buildbox",
@@ -3901,6 +4190,7 @@
         "index": {
           "description": "Comparison of recent value with baseline",
           "hierarchy": "BuildBox Data Comparison",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Comparison",
           "name": "Comparison",
           "package": "buildbox",
@@ -3915,6 +4205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA new value that doesn't have a baseline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Comparison",
           "name": "ComparisonNew",
           "package": "buildbox",
@@ -3925,6 +4216,7 @@
         "index": {
           "description": "new value that doesn have baseline",
           "hierarchy": "BuildBox Data Comparison",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Comparison",
           "name": "ComparisonNew",
           "package": "buildbox",
@@ -3938,6 +4230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Comparison",
           "name": "comparisonBaseline",
           "package": "buildbox",
@@ -3947,6 +4240,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Comparison",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Comparison",
           "name": "comparisonBaseline",
           "package": "buildbox",
@@ -3960,6 +4254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Comparison",
           "name": "comparisonNew",
           "package": "buildbox",
@@ -3969,6 +4264,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Comparison",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Comparison",
           "name": "comparisonNew",
           "package": "buildbox",
@@ -3982,6 +4278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Comparison",
           "name": "comparisonRecent",
           "package": "buildbox",
@@ -3991,6 +4288,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Comparison",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Comparison",
           "name": "comparisonRecent",
           "package": "buildbox",
@@ -4004,6 +4302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Comparison",
           "name": "comparisonSwing",
           "package": "buildbox",
@@ -4013,6 +4312,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Comparison",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Comparison",
           "name": "comparisonSwing",
           "package": "buildbox",
@@ -4027,6 +4327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a comparison from two values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Comparison",
           "name": "makeComparison",
           "package": "buildbox",
@@ -4037,6 +4338,7 @@
         "index": {
           "description": "Make comparison from two values",
           "hierarchy": "BuildBox Data Comparison",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Comparison",
           "name": "makeComparison",
           "normalized": "a-\u003ea-\u003eComparison a",
@@ -4053,6 +4355,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe detail is the name of an \u003ccode\u003eAspect\u003c/code\u003e seprate from its data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Detail",
           "name": "Detail",
           "package": "buildbox",
@@ -4062,6 +4365,7 @@
         "index": {
           "description": "The detail is the name of an Aspect seprate from its data",
           "hierarchy": "BuildBox Data Detail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Detail",
           "name": "Detail",
           "package": "buildbox",
@@ -4075,6 +4379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Detail",
           "name": "Detail",
           "package": "buildbox",
@@ -4083,6 +4388,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Detail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Detail",
           "name": "Detail",
           "package": "buildbox",
@@ -4097,6 +4403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome static size of the benchmark that isn't affected during the run.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Detail",
           "name": "Sized",
           "package": "buildbox",
@@ -4106,6 +4413,7 @@
         "index": {
           "description": "Some static size of the benchmark that isn affected during the run",
           "hierarchy": "BuildBox Data Detail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Detail",
           "name": "Sized",
           "package": "buildbox",
@@ -4120,6 +4428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSomething that takes time to evaluate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Detail",
           "name": "Timed",
           "package": "buildbox",
@@ -4129,6 +4438,7 @@
         "index": {
           "description": "Something that takes time to evaluate",
           "hierarchy": "BuildBox Data Detail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Detail",
           "name": "Timed",
           "package": "buildbox",
@@ -4143,6 +4453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome resource used during execution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Detail",
           "name": "Used",
           "package": "buildbox",
@@ -4152,6 +4463,7 @@
         "index": {
           "description": "Some resource used during execution",
           "hierarchy": "BuildBox Data Detail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Detail",
           "name": "Used",
           "package": "buildbox",
@@ -4165,6 +4477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Detail",
           "name": "DetailSized",
           "package": "buildbox",
@@ -4174,6 +4487,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Detail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Detail",
           "name": "DetailSized",
           "package": "buildbox",
@@ -4187,6 +4501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Detail",
           "name": "DetailTimed",
           "package": "buildbox",
@@ -4196,6 +4511,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Detail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Detail",
           "name": "DetailTimed",
           "package": "buildbox",
@@ -4209,6 +4525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Detail",
           "name": "DetailUsed",
           "package": "buildbox",
@@ -4218,6 +4535,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Detail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Detail",
           "name": "DetailUsed",
           "package": "buildbox",
@@ -4231,6 +4549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Detail",
           "name": "ExeSize",
           "package": "buildbox",
@@ -4240,6 +4559,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Detail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Detail",
           "name": "ExeSize",
           "package": "buildbox",
@@ -4253,6 +4573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Detail",
           "name": "HeapAlloc",
           "package": "buildbox",
@@ -4262,6 +4583,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Detail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Detail",
           "name": "HeapAlloc",
           "package": "buildbox",
@@ -4275,6 +4597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Detail",
           "name": "HeapMax",
           "package": "buildbox",
@@ -4284,6 +4607,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Detail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Detail",
           "name": "HeapMax",
           "package": "buildbox",
@@ -4297,6 +4621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Detail",
           "name": "KernelCpu",
           "package": "buildbox",
@@ -4306,6 +4631,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Detail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Detail",
           "name": "KernelCpu",
           "package": "buildbox",
@@ -4319,6 +4645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Detail",
           "name": "KernelSys",
           "package": "buildbox",
@@ -4328,6 +4655,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Detail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Detail",
           "name": "KernelSys",
           "package": "buildbox",
@@ -4341,6 +4669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Detail",
           "name": "KernelWall",
           "package": "buildbox",
@@ -4350,6 +4679,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Detail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Detail",
           "name": "KernelWall",
           "package": "buildbox",
@@ -4363,6 +4693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Detail",
           "name": "TotalCpu",
           "package": "buildbox",
@@ -4372,6 +4703,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Detail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Detail",
           "name": "TotalCpu",
           "package": "buildbox",
@@ -4385,6 +4717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Detail",
           "name": "TotalSys",
           "package": "buildbox",
@@ -4394,6 +4727,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Detail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Detail",
           "name": "TotalSys",
           "package": "buildbox",
@@ -4407,6 +4741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Detail",
           "name": "TotalWall",
           "package": "buildbox",
@@ -4416,6 +4751,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Detail",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Detail",
           "name": "TotalWall",
           "package": "buildbox",
@@ -4429,6 +4765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Dividable",
           "name": "Dividable",
           "package": "buildbox",
@@ -4437,6 +4774,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Dividable",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Dividable",
           "name": "Dividable",
           "package": "buildbox",
@@ -4450,6 +4788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Dividable",
           "name": "Dividable",
           "package": "buildbox",
@@ -4458,6 +4797,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Dividable",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Dividable",
           "name": "Dividable",
           "package": "buildbox",
@@ -4471,6 +4811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Dividable",
           "name": "divide",
           "package": "buildbox",
@@ -4480,6 +4821,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Dividable",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Dividable",
           "name": "divide",
           "normalized": "a-\u003ea-\u003ea",
@@ -4495,6 +4837,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWhen the output of a command is long, keeping it as a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e is a bad idea.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Log",
           "name": "Log",
           "package": "buildbox",
@@ -4504,6 +4847,7 @@
         "index": {
           "description": "When the output of command is long keeping it as String is bad idea",
           "hierarchy": "BuildBox Data Log",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Log",
           "name": "Log",
           "package": "buildbox",
@@ -4517,6 +4861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Log",
           "name": "Line",
           "package": "buildbox",
@@ -4525,6 +4870,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Log",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Log",
           "name": "Line",
           "package": "buildbox",
@@ -4539,6 +4885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sequence of lines, without newline charaters on the end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Log",
           "name": "Log",
           "package": "buildbox",
@@ -4548,6 +4895,7 @@
         "index": {
           "description": "sequence of lines without newline charaters on the end",
           "hierarchy": "BuildBox Data Log",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Log",
           "name": "Log",
           "package": "buildbox",
@@ -4562,6 +4910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) Add a \u003ccode\u003e\u003ca\u003eLine\u003c/a\u003e\u003c/code\u003e to the end of a \u003ccode\u003e\u003ca\u003eLog\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Log",
           "name": "(|\u003e)",
           "package": "buildbox",
@@ -4572,6 +4921,7 @@
         "index": {
           "description": "Add Line to the end of Log",
           "hierarchy": "BuildBox Data Log",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Log",
           "name": "(|\u003e) |\u003e",
           "normalized": "Log-\u003eLine-\u003eLog",
@@ -4587,6 +4937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) Add a \u003ccode\u003e\u003ca\u003eLine\u003c/a\u003e\u003c/code\u003e to the start of a \u003ccode\u003e\u003ca\u003eLog\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Log",
           "name": "(\u003c|)",
           "package": "buildbox",
@@ -4597,6 +4948,7 @@
         "index": {
           "description": "Add Line to the start of Log",
           "hierarchy": "BuildBox Data Log",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Log",
           "name": "(\u003c|) \u003c|",
           "normalized": "Line-\u003eLog-\u003eLog",
@@ -4612,6 +4964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(log(min(n1,n2))) Concatenate two \u003ccode\u003e\u003ca\u003eLog\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Log",
           "name": "(\u003e\u003c)",
           "package": "buildbox",
@@ -4622,6 +4975,7 @@
         "index": {
           "description": "log min n1 n2 Concatenate two Log",
           "hierarchy": "BuildBox Data Log",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Log",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "Log-\u003eLog-\u003eLog",
@@ -4637,6 +4991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) No logs here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Log",
           "name": "empty",
           "package": "buildbox",
@@ -4647,6 +5002,7 @@
         "index": {
           "description": "No logs here",
           "hierarchy": "BuildBox Data Log",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Log",
           "name": "empty",
           "package": "buildbox",
@@ -4660,6 +5016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n) Take the first m lines from a log\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Log",
           "name": "firstLines",
           "package": "buildbox",
@@ -4670,6 +5027,7 @@
         "index": {
           "description": "Take the first lines from log",
           "hierarchy": "BuildBox Data Log",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Log",
           "name": "firstLines",
           "normalized": "Int-\u003eLog-\u003eLog",
@@ -4686,6 +5044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n) Convert a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eLog\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Log",
           "name": "fromString",
           "package": "buildbox",
@@ -4696,6 +5055,7 @@
         "index": {
           "description": "Convert String to Log",
           "hierarchy": "BuildBox Data Log",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Log",
           "name": "fromString",
           "normalized": "String-\u003eLog",
@@ -4712,6 +5072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n) Take the last m lines from a log\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Log",
           "name": "lastLines",
           "package": "buildbox",
@@ -4722,6 +5083,7 @@
         "index": {
           "description": "Take the last lines from log",
           "hierarchy": "BuildBox Data Log",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Log",
           "name": "lastLines",
           "normalized": "Int-\u003eLog-\u003eLog",
@@ -4738,6 +5100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) Check if the log is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Log",
           "name": "null",
           "package": "buildbox",
@@ -4748,6 +5111,7 @@
         "index": {
           "description": "Check if the log is empty",
           "hierarchy": "BuildBox Data Log",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Log",
           "name": "null",
           "normalized": "Log-\u003eBool",
@@ -4763,6 +5127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n) Convert a \u003ccode\u003e\u003ca\u003eLog\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Log",
           "name": "toString",
           "package": "buildbox",
@@ -4773,6 +5138,7 @@
         "index": {
           "description": "Convert Log to String",
           "hierarchy": "BuildBox Data Log",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Log",
           "name": "toString",
           "normalized": "Log-\u003eString",
@@ -4788,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Physical",
           "name": "Physical",
           "package": "buildbox",
@@ -4796,6 +5163,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Physical",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Physical",
           "name": "Physical",
           "package": "buildbox",
@@ -4810,6 +5178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBytes of data, pretty printed in engineering format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Physical",
           "name": "Bytes",
           "package": "buildbox",
@@ -4819,6 +5188,7 @@
         "index": {
           "description": "Bytes of data pretty printed in engineering format",
           "hierarchy": "BuildBox Data Physical",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Physical",
           "name": "Bytes",
           "package": "buildbox",
@@ -4833,6 +5203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeconds of time, pretty printed in engineering format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Physical",
           "name": "Seconds",
           "package": "buildbox",
@@ -4842,6 +5213,7 @@
         "index": {
           "description": "Seconds of time pretty printed in engineering format",
           "hierarchy": "BuildBox Data Physical",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Physical",
           "name": "Seconds",
           "package": "buildbox",
@@ -4855,6 +5227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Physical",
           "name": "Bytes",
           "package": "buildbox",
@@ -4864,6 +5237,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Physical",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Physical",
           "name": "Bytes",
           "package": "buildbox",
@@ -4877,6 +5251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Physical",
           "name": "Seconds",
           "package": "buildbox",
@@ -4886,6 +5261,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Physical",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Physical",
           "name": "Seconds",
           "package": "buildbox",
@@ -4899,6 +5275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Range",
           "name": "Range",
           "package": "buildbox",
@@ -4907,6 +5284,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Range",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Range",
           "name": "Range",
           "package": "buildbox",
@@ -4921,6 +5299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA range extracted from many-valued data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Range",
           "name": "Range",
           "package": "buildbox",
@@ -4930,6 +5309,7 @@
         "index": {
           "description": "range extracted from many-valued data",
           "hierarchy": "BuildBox Data Range",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Range",
           "name": "Range",
           "package": "buildbox",
@@ -4943,6 +5323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Range",
           "name": "Range",
           "package": "buildbox",
@@ -4952,6 +5333,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Range",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Range",
           "name": "Range",
           "package": "buildbox",
@@ -4966,6 +5348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten a \u003ccode\u003e\u003ca\u003eRange\u003c/a\u003e\u003c/code\u003e into a list of its min, avg and max values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Range",
           "name": "flattenRange",
           "package": "buildbox",
@@ -4976,6 +5359,7 @@
         "index": {
           "description": "Flatten Range into list of its min avg and max values",
           "hierarchy": "BuildBox Data Range",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Range",
           "name": "flattenRange",
           "normalized": "Range a-\u003e[a]",
@@ -4992,6 +5376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake statistics from a list of values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Range",
           "name": "makeRange",
           "package": "buildbox",
@@ -5002,6 +5387,7 @@
         "index": {
           "description": "Make statistics from list of values",
           "hierarchy": "BuildBox Data Range",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Range",
           "name": "makeRange",
           "normalized": "[a]-\u003eRange a",
@@ -5017,6 +5403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Range",
           "name": "rangeAvg",
           "package": "buildbox",
@@ -5026,6 +5413,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Range",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Range",
           "name": "rangeAvg",
           "package": "buildbox",
@@ -5039,6 +5427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Range",
           "name": "rangeMax",
           "package": "buildbox",
@@ -5048,6 +5437,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Range",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Range",
           "name": "rangeMax",
           "package": "buildbox",
@@ -5061,6 +5451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Range",
           "name": "rangeMin",
           "package": "buildbox",
@@ -5070,6 +5461,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Range",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Range",
           "name": "rangeMin",
           "package": "buildbox",
@@ -5084,6 +5476,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA schedule of commands that should be run at a certain time.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "Schedule",
           "package": "buildbox",
@@ -5093,6 +5486,7 @@
         "index": {
           "description": "schedule of commands that should be run at certain time",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "Schedule",
           "package": "buildbox",
@@ -5107,6 +5501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecords when an event should start, and when it last ran.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "Event",
           "package": "buildbox",
@@ -5116,6 +5511,7 @@
         "index": {
           "description": "Records when an event should start and when it last ran",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "Event",
           "package": "buildbox",
@@ -5129,6 +5525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "EventName",
           "package": "buildbox",
@@ -5137,6 +5534,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "EventName",
           "package": "buildbox",
@@ -5151,6 +5549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap of event names to their details and build commands.\t\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "Schedule",
           "package": "buildbox",
@@ -5160,6 +5559,7 @@
         "index": {
           "description": "Map of event names to their details and build commands",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "Schedule",
           "package": "buildbox",
@@ -5174,6 +5574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen to invoke some event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "When",
           "package": "buildbox",
@@ -5183,6 +5584,7 @@
         "index": {
           "description": "When to invoke some event",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "When",
           "package": "buildbox",
@@ -5197,6 +5599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifier to when.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "WhenModifier",
           "package": "buildbox",
@@ -5206,6 +5609,7 @@
         "index": {
           "description": "Modifier to when",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "WhenModifier",
           "package": "buildbox",
@@ -5220,6 +5624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo it some time after it last finished.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "After",
           "package": "buildbox",
@@ -5230,6 +5635,7 @@
         "index": {
           "description": "Do it some time after it last finished",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "After",
           "package": "buildbox",
@@ -5244,6 +5650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust keep doing it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "Always",
           "package": "buildbox",
@@ -5254,6 +5661,7 @@
         "index": {
           "description": "Just keep doing it",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "Always",
           "package": "buildbox",
@@ -5268,6 +5676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo it each day at this time. The ''days'' are UTC days, not local ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "Daily",
           "package": "buildbox",
@@ -5278,6 +5687,7 @@
         "index": {
           "description": "Do it each day at this time The days are UTC days not local ones",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "Daily",
           "package": "buildbox",
@@ -5291,6 +5701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "Event",
           "package": "buildbox",
@@ -5300,6 +5711,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "Event",
           "package": "buildbox",
@@ -5314,6 +5726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo it some time after we last started it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "Every",
           "package": "buildbox",
@@ -5324,6 +5737,7 @@
         "index": {
           "description": "Do it some time after we last started it",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "Every",
           "package": "buildbox",
@@ -5338,6 +5752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the event hasn't been invoked before then do it immediately\n   when we start the cron process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "Immediate",
           "package": "buildbox",
@@ -5348,6 +5763,7 @@
         "index": {
           "description": "If the event hasn been invoked before then do it immediately when we start the cron process",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "Immediate",
           "package": "buildbox",
@@ -5362,6 +5778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDon't do it, ever.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "Never",
           "package": "buildbox",
@@ -5372,6 +5789,7 @@
         "index": {
           "description": "Don do it ever",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "Never",
           "package": "buildbox",
@@ -5385,6 +5803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "Schedule",
           "package": "buildbox",
@@ -5394,6 +5813,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "Schedule",
           "normalized": "Schedule(Map EventName(Event,a))",
@@ -5410,6 +5830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait until after this time before doing it first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "WaitUntil",
           "package": "buildbox",
@@ -5420,6 +5841,7 @@
         "index": {
           "description": "Wait until after this time before doing it first",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "WaitUntil",
           "package": "buildbox",
@@ -5434,6 +5856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a new version of an event, update any matching event in the schedule.\n   If the event not already there then return the original schedule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "adjustEventOfSchedule",
           "package": "buildbox",
@@ -5444,6 +5867,7 @@
         "index": {
           "description": "Given new version of an event update any matching event in the schedule If the event not already there then return the original schedule",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "adjustEventOfSchedule",
           "normalized": "Event-\u003eSchedule a-\u003eSchedule a",
@@ -5459,6 +5883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "day",
           "package": "buildbox",
@@ -5468,6 +5893,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "day",
           "package": "buildbox",
@@ -5481,6 +5907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the current time and a list of events, determine which one should be started now.\n   If several events are avaliable then take the one with the earliest start time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "earliestEventToStartAt",
           "package": "buildbox",
@@ -5491,6 +5918,7 @@
         "index": {
           "description": "Given the current time and list of events determine which one should be started now If several events are avaliable then take the one with the earliest start time",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "earliestEventToStartAt",
           "normalized": "UTCTime-\u003e[Event]-\u003eMaybe Event",
@@ -5507,6 +5935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the current time, decide whether an event could be started.\n   If the \u003ccode\u003e\u003ca\u003eWhenModifier\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eImmediate\u003c/a\u003e\u003c/code\u003e this always returns true.\n   The \u003ccode\u003eSkipFirst\u003c/code\u003e modifier is ignored, as this is handled separately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "eventCouldStartAt",
           "package": "buildbox",
@@ -5517,6 +5946,7 @@
         "index": {
           "description": "Given the current time decide whether an event could be started If the WhenModifier is Immediate this always returns true The SkipFirst modifier is ignored as this is handled separately",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "eventCouldStartAt",
           "normalized": "UTCTime-\u003eEvent-\u003eBool",
@@ -5533,6 +5963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen the event last finished, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "eventLastEnded",
           "package": "buildbox",
@@ -5543,6 +5974,7 @@
         "index": {
           "description": "When the event last finished if any",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "eventLastEnded",
           "package": "buildbox",
@@ -5557,6 +5989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen the event was last started, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "eventLastStarted",
           "package": "buildbox",
@@ -5567,6 +6000,7 @@
         "index": {
           "description": "When the event was last started if any",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "eventLastStarted",
           "package": "buildbox",
@@ -5581,6 +6015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA unique name for this event.\n   Used when writing the schedule to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "eventName",
           "package": "buildbox",
@@ -5591,6 +6026,7 @@
         "index": {
           "description": "unique name for this event Used when writing the schedule to file",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "eventName",
           "package": "buildbox",
@@ -5605,6 +6041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen to run the command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "eventWhen",
           "package": "buildbox",
@@ -5615,6 +6052,7 @@
         "index": {
           "description": "When to run the command",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "eventWhen",
           "package": "buildbox",
@@ -5629,6 +6067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifier to the previous.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "eventWhenModifier",
           "package": "buildbox",
@@ -5639,6 +6078,7 @@
         "index": {
           "description": "Modifier to the previous",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "eventWhenModifier",
           "package": "buildbox",
@@ -5653,6 +6093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of events in a schedule, ignoring the build commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "eventsOfSchedule",
           "package": "buildbox",
@@ -5663,6 +6104,7 @@
         "index": {
           "description": "Get the list of events in schedule ignoring the build commands",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "eventsOfSchedule",
           "normalized": "Schedule a-\u003e[Event]",
@@ -5678,6 +6120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "hour",
           "package": "buildbox",
@@ -5687,6 +6130,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "hour",
           "package": "buildbox",
@@ -5700,6 +6144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an event name, lookup the associated build command from a schedule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "lookupCommandOfSchedule",
           "package": "buildbox",
@@ -5710,6 +6155,7 @@
         "index": {
           "description": "Given an event name lookup the associated build command from schedule",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "lookupCommandOfSchedule",
           "normalized": "EventName-\u003eSchedule a-\u003eMaybe a",
@@ -5726,6 +6172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an event name, lookup the associated event from a schedule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "lookupEventOfSchedule",
           "package": "buildbox",
@@ -5736,6 +6183,7 @@
         "index": {
           "description": "Given an event name lookup the associated event from schedule",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "lookupEventOfSchedule",
           "normalized": "EventName-\u003eSchedule a-\u003eMaybe Event",
@@ -5752,6 +6200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA nice way to produce a schedule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "makeSchedule",
           "package": "buildbox",
@@ -5762,6 +6211,7 @@
         "index": {
           "description": "nice way to produce schedule",
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "makeSchedule",
           "normalized": "[(EventName,When,Maybe WhenModifier,a)]-\u003eSchedule a",
@@ -5777,6 +6227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "minute",
           "package": "buildbox",
@@ -5786,6 +6237,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "minute",
           "package": "buildbox",
@@ -5798,6 +6250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Data.Schedule",
           "name": "second",
           "package": "buildbox",
@@ -5807,6 +6260,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Data Schedule",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Data.Schedule",
           "name": "second",
           "package": "buildbox",
@@ -5820,6 +6274,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDirectory utils that don't need to be in the Build monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.IO.Directory",
           "name": "Directory",
           "package": "buildbox",
@@ -5829,6 +6284,7 @@
         "index": {
           "description": "Directory utils that don need to be in the Build monad",
           "hierarchy": "BuildBox IO Directory",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.IO.Directory",
           "name": "Directory",
           "package": "buildbox",
@@ -5843,6 +6299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the names of all the dirs in this one.\n   This filters out the fake files like \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e and '..'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.IO.Directory",
           "name": "lsDirsIn",
           "package": "buildbox",
@@ -5853,6 +6310,7 @@
         "index": {
           "description": "Get the names of all the dirs in this one This filters out the fake files like and",
           "hierarchy": "BuildBox IO Directory",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.IO.Directory",
           "name": "lsDirsIn",
           "normalized": "String-\u003ea[String]",
@@ -5869,6 +6327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the names of all files in a directory.\n   This filters out the fake files like \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e and '..'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.IO.Directory",
           "name": "lsFilesIn",
           "package": "buildbox",
@@ -5879,6 +6338,7 @@
         "index": {
           "description": "Get the names of all files in directory This filters out the fake files like and",
           "hierarchy": "BuildBox IO Directory",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.IO.Directory",
           "name": "lsFilesIn",
           "normalized": "String-\u003ea[String]",
@@ -5895,6 +6355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all the files reachable from this directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.IO.Directory",
           "name": "traceFilesFrom",
           "package": "buildbox",
@@ -5905,6 +6366,7 @@
         "index": {
           "description": "Get all the files reachable from this directory",
           "hierarchy": "BuildBox IO Directory",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.IO.Directory",
           "name": "traceFilesFrom",
           "normalized": "FilePath-\u003eIO(Seq FilePath)",
@@ -5921,6 +6383,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty printing utils.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Pretty",
           "name": "Pretty",
           "package": "buildbox",
@@ -5930,6 +6393,7 @@
         "index": {
           "description": "Pretty printing utils",
           "hierarchy": "BuildBox Pretty",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Pretty",
           "name": "Pretty",
           "package": "buildbox",
@@ -5943,6 +6407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Pretty",
           "name": "Pretty",
           "package": "buildbox",
@@ -5951,6 +6416,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Pretty",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Pretty",
           "name": "Pretty",
           "package": "buildbox",
@@ -5965,6 +6431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlank text. This is different different from \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e because it comes out a a newline when used in a \u003ccode\u003e\u003ca\u003evcat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Pretty",
           "name": "blank",
           "package": "buildbox",
@@ -5975,6 +6442,7 @@
         "index": {
           "description": "Blank text This is different different from empty because it comes out newline when used in vcat",
           "hierarchy": "BuildBox Pretty",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Pretty",
           "name": "blank",
           "package": "buildbox",
@@ -5988,6 +6456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft justify a string with spaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Pretty",
           "name": "padL",
           "package": "buildbox",
@@ -5998,6 +6467,7 @@
         "index": {
           "description": "Left justify string with spaces",
           "hierarchy": "BuildBox Pretty",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Pretty",
           "name": "padL",
           "normalized": "Int-\u003eDoc-\u003eDoc",
@@ -6013,6 +6483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft justify a string, padding with a given character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Pretty",
           "name": "padLc",
           "package": "buildbox",
@@ -6023,6 +6494,7 @@
         "index": {
           "description": "Left justify string padding with given character",
           "hierarchy": "BuildBox Pretty",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Pretty",
           "name": "padLc",
           "normalized": "Int-\u003eChar-\u003eDoc-\u003eDoc",
@@ -6039,6 +6511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight justify a string with spaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Pretty",
           "name": "padR",
           "package": "buildbox",
@@ -6049,6 +6522,7 @@
         "index": {
           "description": "Right justify string with spaces",
           "hierarchy": "BuildBox Pretty",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Pretty",
           "name": "padR",
           "normalized": "Int-\u003eDoc-\u003eDoc",
@@ -6064,6 +6538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight justify a doc, padding with a given character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Pretty",
           "name": "padRc",
           "package": "buildbox",
@@ -6074,6 +6549,7 @@
         "index": {
           "description": "Right justify doc padding with given character",
           "hierarchy": "BuildBox Pretty",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Pretty",
           "name": "padRc",
           "normalized": "Int-\u003eChar-\u003eDoc-\u003eDoc",
@@ -6089,6 +6565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Pretty",
           "name": "ppr",
           "package": "buildbox",
@@ -6098,6 +6575,7 @@
         },
         "index": {
           "hierarchy": "BuildBox Pretty",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Pretty",
           "name": "ppr",
           "normalized": "a-\u003eDoc",
@@ -6113,6 +6591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print an engineering value, to 4 significant figures.\n   Valid range is  10^(-24) (y/yocto) to 10^(+24) (Y/Yotta).\n   Out of range values yield Nothing.\n\u003c/p\u003e\u003cp\u003eexamples:\n\u003c/p\u003e\u003cpre\u003e\n   liftM render $ pprEngDouble \"J\" 102400    ==\u003e   Just \"1.024MJ\"\n   liftM render $ pprEngDouble \"s\" 0.0000123 ==\u003e   Just \"12.30us\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Pretty",
           "name": "pprEngDouble",
           "package": "buildbox",
@@ -6123,6 +6602,7 @@
         "index": {
           "description": "Pretty print an engineering value to significant figures Valid range is yocto to Yotta Out of range values yield Nothing examples liftM render pprEngDouble Just MJ liftM render pprEngDouble Just us",
           "hierarchy": "BuildBox Pretty",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Pretty",
           "name": "pprEngDouble",
           "normalized": "String-\u003eDouble-\u003eMaybe Doc",
@@ -6139,6 +6619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003epprEngDouble\u003c/a\u003e\u003c/code\u003e but don't display fractional part when the value is \u003c 1000.\n   Good for units where fractional values might not make sense (like bytes).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Pretty",
           "name": "pprEngInteger",
           "package": "buildbox",
@@ -6149,6 +6630,7 @@
         "index": {
           "description": "Like pprEngDouble but don display fractional part when the value is Good for units where fractional values might not make sense like bytes",
           "hierarchy": "BuildBox Pretty",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Pretty",
           "name": "pprEngInteger",
           "normalized": "String-\u003eInteger-\u003eMaybe Doc",
@@ -6165,6 +6647,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTime utils useful for writing buildbots.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Time",
           "name": "Time",
           "package": "buildbox",
@@ -6174,6 +6657,7 @@
         "index": {
           "description": "Time utils useful for writing buildbots",
           "hierarchy": "BuildBox Time",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Time",
           "name": "Time",
           "package": "buildbox",
@@ -6188,6 +6672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the local midnight we've just had as a \u003ccode\u003e\u003ca\u003eLocalTime\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Time",
           "name": "getMidnightTodayLocal",
           "package": "buildbox",
@@ -6198,6 +6683,7 @@
         "index": {
           "description": "Get the local midnight we ve just had as LocalTime",
           "hierarchy": "BuildBox Time",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Time",
           "name": "getMidnightTodayLocal",
           "package": "buildbox",
@@ -6212,6 +6698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the local midnight that we've just had, as a \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Time",
           "name": "getMidnightTodayUTC",
           "package": "buildbox",
@@ -6222,6 +6709,7 @@
         "index": {
           "description": "Get the local midnight that we ve just had as UTCTime",
           "hierarchy": "BuildBox Time",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Time",
           "name": "getMidnightTodayUTC",
           "package": "buildbox",
@@ -6236,6 +6724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the local midnight we're about to have as a \u003ccode\u003e\u003ca\u003eLocalTime\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Time",
           "name": "getMidnightTomorrowLocal",
           "package": "buildbox",
@@ -6246,6 +6735,7 @@
         "index": {
           "description": "Get the local midnight we re about to have as LocalTime",
           "hierarchy": "BuildBox Time",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Time",
           "name": "getMidnightTomorrowLocal",
           "package": "buildbox",
@@ -6260,6 +6750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the local midnight we're about to have as a \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Time",
           "name": "getMidnightTomorrowUTC",
           "package": "buildbox",
@@ -6270,6 +6761,7 @@
         "index": {
           "description": "Get the local midnight we re about to have as UTCTime",
           "hierarchy": "BuildBox Time",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Time",
           "name": "getMidnightTomorrowUTC",
           "package": "buildbox",
@@ -6284,6 +6776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a local time stamp with format YYYYMMDD_HHMMSS. Good for naming files with.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Time",
           "name": "getStampyTime",
           "package": "buildbox",
@@ -6294,6 +6787,7 @@
         "index": {
           "description": "Get local time stamp with format YYYYMMDD HHMMSS Good for naming files with",
           "hierarchy": "BuildBox Time",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Time",
           "name": "getStampyTime",
           "package": "buildbox",
@@ -6308,6 +6802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a time of day string like \u003ccode\u003e17:34:05\u003c/code\u003e in the local time zone\n   and convert that to a UTC time of day. Good for parsing command line args to buildbots.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox.Time",
           "name": "readLocalTimeOfDayAsUTC",
           "package": "buildbox",
@@ -6318,6 +6813,7 @@
         "index": {
           "description": "Read time of day string like in the local time zone and convert that to UTC time of day Good for parsing command line args to buildbots",
           "hierarchy": "BuildBox Time",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox.Time",
           "name": "readLocalTimeOfDayAsUTC",
           "normalized": "String-\u003eIO TimeOfDay",
@@ -6333,6 +6829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox",
           "name": "BuildBox",
           "package": "buildbox",
@@ -6341,6 +6838,7 @@
         },
         "index": {
           "hierarchy": "BuildBox",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox",
           "name": "BuildBox",
           "package": "buildbox",
@@ -6355,6 +6853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe builder monad encapsulates and IO action that can fail with an error, \n   and also read some global configuration info.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox",
           "name": "Build",
           "package": "buildbox",
@@ -6364,6 +6863,7 @@
         "index": {
           "description": "The builder monad encapsulates and IO action that can fail with an error and also read some global configuration info",
           "hierarchy": "BuildBox",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox",
           "name": "Build",
           "package": "buildbox",
@@ -6378,6 +6878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe errors we recognise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:25:46 UTC 2014",
           "module": "BuildBox",
           "name": "BuildError",
           "package": "buildbox",
@@ -6387,6 +6888,7 @@
         "index": {
           "description": "The errors we recognise",
           "hierarchy": "BuildBox",
+          "indexed": "2014-03-11T17:25:46",
           "module": "BuildBox",
           "name": "BuildError",
           "package": "buildbox",

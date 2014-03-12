@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "schedyield"
+        "phrase": "schedyield",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:01 UTC 2014",
           "module": "System.Posix.SchedYield",
           "name": "SchedYield",
           "package": "schedyield",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Posix SchedYield",
+          "indexed": "2014-03-11T19:58:01",
           "module": "System.Posix.SchedYield",
           "name": "SchedYield",
           "package": "schedyield",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esched_yield yields processor and waits until all other processes, with a comparable or better nice value, could execute at least one time slice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:01 UTC 2014",
           "module": "System.Posix.SchedYield",
           "name": "sched_yield",
           "package": "schedyield",
@@ -50,6 +53,7 @@
         "index": {
           "description": "sched yield yields processor and waits until all other processes with comparable or better nice value could execute at least one time slice",
           "hierarchy": "System Posix SchedYield",
+          "indexed": "2014-03-11T19:58:01",
           "module": "System.Posix.SchedYield",
           "name": "sched_yield",
           "normalized": "IO()",

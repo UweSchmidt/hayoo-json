@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hmatrix-quadprogpp"
+        "phrase": "hmatrix-quadprogpp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:54 UTC 2014",
           "module": "Numeric.Minimization.QuadProgPP",
           "name": "QuadProgPP",
           "package": "hmatrix-quadprogpp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Numeric Minimization QuadProgPP",
+          "indexed": "2014-03-11T18:41:54",
           "module": "Numeric.Minimization.QuadProgPP",
           "name": "QuadProgPP",
           "package": "hmatrix-quadprogpp",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErrors that can happen in \u003ccode\u003e\u003ca\u003esolveQuadProg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:54 UTC 2014",
           "module": "Numeric.Minimization.QuadProgPP",
           "name": "QuadProgPPError",
           "package": "hmatrix-quadprogpp",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Errors that can happen in solveQuadProg",
           "hierarchy": "Numeric Minimization QuadProgPP",
+          "indexed": "2014-03-11T18:41:54",
           "module": "Numeric.Minimization.QuadProgPP",
           "name": "QuadProgPPError",
           "package": "hmatrix-quadprogpp",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe problem has no feasible solution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:54 UTC 2014",
           "module": "Numeric.Minimization.QuadProgPP",
           "name": "QuadProgInfeasible",
           "package": "hmatrix-quadprogpp",
@@ -73,6 +78,7 @@
         "index": {
           "description": "The problem has no feasible solution",
           "hierarchy": "Numeric Minimization QuadProgPP",
+          "indexed": "2014-03-11T18:41:54",
           "module": "Numeric.Minimization.QuadProgPP",
           "name": "QuadProgInfeasible",
           "package": "hmatrix-quadprogpp",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther errors. Currently this is used for C++ exceptions\n thrown by QuadProg++.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:54 UTC 2014",
           "module": "Numeric.Minimization.QuadProgPP",
           "name": "QuadProgOtherError",
           "package": "hmatrix-quadprogpp",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Other errors Currently this is used for exceptions thrown by QuadProg",
           "hierarchy": "Numeric Minimization QuadProgPP",
+          "indexed": "2014-03-11T18:41:54",
           "module": "Numeric.Minimization.QuadProgPP",
           "name": "QuadProgOtherError",
           "package": "hmatrix-quadprogpp",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe given matrices and vectors have inconsistent\n dimensionalities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:54 UTC 2014",
           "module": "Numeric.Minimization.QuadProgPP",
           "name": "QuadProgSizeMismatch",
           "package": "hmatrix-quadprogpp",
@@ -121,6 +130,7 @@
         "index": {
           "description": "The given matrices and vectors have inconsistent dimensionalities",
           "hierarchy": "Numeric Minimization QuadProgPP",
+          "indexed": "2014-03-11T18:41:54",
           "module": "Numeric.Minimization.QuadProgPP",
           "name": "QuadProgSizeMismatch",
           "package": "hmatrix-quadprogpp",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolve a strictly convex quadratic program with optional linear\n constraints. It returns a pair of the optimal solution and the\n value of the objective function at that point. On error it returns\n Left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:54 UTC 2014",
           "module": "Numeric.Minimization.QuadProgPP",
           "name": "solveQuadProg",
           "package": "hmatrix-quadprogpp",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Solve strictly convex quadratic program with optional linear constraints It returns pair of the optimal solution and the value of the objective function at that point On error it returns Left",
           "hierarchy": "Numeric Minimization QuadProgPP",
+          "indexed": "2014-03-11T18:41:54",
           "module": "Numeric.Minimization.QuadProgPP",
           "name": "solveQuadProg",
           "normalized": "(Matrix Double,Vector Double)-\u003eMaybe(Matrix Double,Vector Double)-\u003eMaybe(Matrix Double,Vector Double)-\u003eEither QuadProgPPError(Vector Double,Double)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "MissingPy"
+        "phrase": "MissingPy",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003eThis module interfaces \u003ca\u003eDatabase.AnyDBM\u003c/a\u003e to Python's anydbm.py.\nImplementations for specific Python *dbm modules are also available.\n\u003c/p\u003e\u003cp\u003eSee and import \u003ca\u003eDatabase.AnyDBM\u003c/a\u003e to use these features.\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "MissingPy.AnyDBM",
           "name": "AnyDBM",
           "package": "MissingPy",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable This module interfaces Database.AnyDBM to Python anydbm.py Implementations for specific Python dbm modules are also available See and import Database.AnyDBM to use these features Written by John Goerzen jgoerzen@complete.org",
           "hierarchy": "MissingPy AnyDBM",
+          "indexed": "2014-03-11T16:52:58",
           "module": "MissingPy.AnyDBM",
           "name": "AnyDBM",
           "package": "MissingPy",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags used to open a dbm-type database \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "MissingPy.AnyDBM",
           "name": "PyDBMOpenFlags",
           "package": "MissingPy",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Flags used to open dbm-type database",
           "hierarchy": "MissingPy AnyDBM",
+          "indexed": "2014-03-11T16:52:58",
           "module": "MissingPy.AnyDBM",
           "name": "PyDBMOpenFlags",
           "package": "MissingPy",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen an \u003cem\u003eexisting\u003c/em\u003e database for read only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "MissingPy.AnyDBM",
           "name": "DBM_ReadOnly",
           "package": "MissingPy",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Open an existing database for read only",
           "hierarchy": "MissingPy AnyDBM",
+          "indexed": "2014-03-11T16:52:58",
           "module": "MissingPy.AnyDBM",
           "name": "DBM_ReadOnly",
           "package": "MissingPy",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen an \u003cem\u003eexisting\u003c/em\u003e database for reading and writing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "MissingPy.AnyDBM",
           "name": "DBM_ReadWrite",
           "package": "MissingPy",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Open an existing database for reading and writing",
           "hierarchy": "MissingPy AnyDBM",
+          "indexed": "2014-03-11T16:52:58",
           "module": "MissingPy.AnyDBM",
           "name": "DBM_ReadWrite",
           "package": "MissingPy",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a database for reading and writing, creating if it doesn't exist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "MissingPy.AnyDBM",
           "name": "DBM_ReadWriteCreate",
           "package": "MissingPy",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Open database for reading and writing creating if it doesn exist",
           "hierarchy": "MissingPy AnyDBM",
+          "indexed": "2014-03-11T16:52:58",
           "module": "MissingPy.AnyDBM",
           "name": "DBM_ReadWriteCreate",
           "package": "MissingPy",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a database, creating it anew each time (deleting any existing data)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "MissingPy.AnyDBM",
           "name": "DBM_ReadWriteNew",
           "package": "MissingPy",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Open database creating it anew each time deleting any existing data",
           "hierarchy": "MissingPy AnyDBM",
+          "indexed": "2014-03-11T16:52:58",
           "module": "MissingPy.AnyDBM",
           "name": "DBM_ReadWriteNew",
           "package": "MissingPy",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a persistent storage database using the \"best\" storage mechanism\navailable to Python on this system.  This will usually be one of the *dbm\nservices, though in rare circumstances, could be \"dumbdbm\", which is\nonly marginally better than \u003ca\u003eDatabase.AnyDBM.StringDBM\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "MissingPy.AnyDBM",
           "name": "openAnyDBM",
           "package": "MissingPy",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Opens persistent storage database using the best storage mechanism available to Python on this system This will usually be one of the dbm services though in rare circumstances could be dumbdbm which is only marginally better than Database.AnyDBM.StringDBM",
           "hierarchy": "MissingPy AnyDBM",
+          "indexed": "2014-03-11T16:52:58",
           "module": "MissingPy.AnyDBM",
           "name": "openAnyDBM",
           "normalized": "FilePath-\u003ePyDBMOpenFlags-\u003eIO PyDict",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a database using a specific module given by the first parameter.  The\nmodule supported are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e dbhash\n\u003c/li\u003e\u003cli\u003e dbm\n\u003c/li\u003e\u003cli\u003e dumbdbm\n\u003c/li\u003e\u003cli\u003e gdbm\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eSECURITY NOTE: the string is not validated before being passed to Python.\nDo not pass an arbitrary value to this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "MissingPy.AnyDBM",
           "name": "openSpecificDBM",
           "package": "MissingPy",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Open database using specific module given by the first parameter The module supported are dbhash dbm dumbdbm gdbm SECURITY NOTE the string is not validated before being passed to Python Do not pass an arbitrary value to this function",
           "hierarchy": "MissingPy AnyDBM",
+          "indexed": "2014-03-11T16:52:58",
           "module": "MissingPy.AnyDBM",
           "name": "openSpecificDBM",
           "normalized": "String-\u003eFilePath-\u003ePyDBMOpenFlags-\u003eIO PyDict",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003eSupport for BZip2 files\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "MissingPy.FileArchive.BZip2",
           "name": "BZip2",
           "package": "MissingPy",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Support for BZip2 files Written by John Goerzen jgoerzen@complete.org",
           "hierarchy": "MissingPy FileArchive BZip2",
+          "indexed": "2014-03-11T16:52:58",
           "module": "MissingPy.FileArchive.BZip2",
           "name": "BZip2",
           "package": "MissingPy",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a BZip2 file.  The compression level should be from 1\n(least compression) to 9 (most compression).  This is ignored when the file\nis opened read-only.\n\u003c/p\u003e\u003cp\u003eOnce opened, the functions defined in \u003ca\u003eSystem.IO.HVIO\u003c/a\u003e can be used\nto work with it.\n\u003c/p\u003e\u003cp\u003eBZip2 supports only ReadMode and WriteMode for the IOMode. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "MissingPy.FileArchive.BZip2",
           "name": "openBz2",
           "package": "MissingPy",
@@ -244,6 +263,7 @@
         "index": {
           "description": "Open BZip2 file The compression level should be from least compression to most compression This is ignored when the file is opened read-only Once opened the functions defined in System.IO.HVIO can be used to work with it BZip2 supports only ReadMode and WriteMode for the IOMode",
           "hierarchy": "MissingPy FileArchive BZip2",
+          "indexed": "2014-03-11T16:52:58",
           "module": "MissingPy.FileArchive.BZip2",
           "name": "openBz2",
           "normalized": "FilePath-\u003eIOMode-\u003eInt-\u003eIO PyFile",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003eSupport for GZip files\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "MissingPy.FileArchive.GZip",
           "name": "GZip",
           "package": "MissingPy",
@@ -269,6 +290,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Support for GZip files Written by John Goerzen jgoerzen@complete.org",
           "hierarchy": "MissingPy FileArchive GZip",
+          "indexed": "2014-03-11T16:52:58",
           "module": "MissingPy.FileArchive.GZip",
           "name": "GZip",
           "package": "MissingPy",
@@ -283,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a GZip file.  The compression level should be from 1\n(least compression) to 9 (most compression).  This is ignored when the\nfile is opened read-only.\n\u003c/p\u003e\u003cp\u003eOnce opened, the functions defined in \u003ccode\u003e\u003ca\u003eHVIO\u003c/a\u003e\u003c/code\u003e can be used to \nwork with it. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "MissingPy.FileArchive.GZip",
           "name": "openGz",
           "package": "MissingPy",
@@ -292,6 +315,7 @@
         "index": {
           "description": "Open GZip file The compression level should be from least compression to most compression This is ignored when the file is opened read-only Once opened the functions defined in HVIO can be used to work with it",
           "hierarchy": "MissingPy FileArchive GZip",
+          "indexed": "2014-03-11T16:52:58",
           "module": "MissingPy.FileArchive.GZip",
           "name": "openGz",
           "normalized": "FilePath-\u003eIOMode-\u003eInt-\u003eIO PyFile",
@@ -308,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003ePython low-level exception definitions\n\u003c/p\u003e\u003cp\u003eThese are definitions of the built-in Python exception objects.  You can\nuse them with \u003ccode\u003e\u003ca\u003edoesExceptionMatch\u003c/a\u003e\u003c/code\u003e and\n\u003ccode\u003e\u003ca\u003ecatchSpecificPy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe meanings of these exceptions can be found at\n\u003ca\u003ehttp://www.python.org/doc/current/lib/module-exceptions.html\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003ePlease note that windowsError is available only on Microsoft platforms.\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "ExcTypes",
           "package": "MissingPy",
@@ -317,6 +342,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Python low-level exception definitions These are definitions of the built-in Python exception objects You can use them with doesExceptionMatch and catchSpecificPy The meanings of these exceptions can be found at http www.python.org doc current lib module-exceptions.html Please note that windowsError is available only on Microsoft platforms Written by John Goerzen jgoerzen@complete.org",
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "ExcTypes",
           "package": "MissingPy",
@@ -330,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "arithmeticError",
           "package": "MissingPy",
@@ -339,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "arithmeticError",
           "package": "MissingPy",
@@ -352,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "assertionError",
           "package": "MissingPy",
@@ -361,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "assertionError",
           "package": "MissingPy",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "attributeError",
           "package": "MissingPy",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "attributeError",
           "package": "MissingPy",
@@ -396,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "environmentError",
           "package": "MissingPy",
@@ -405,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "environmentError",
           "package": "MissingPy",
@@ -418,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "floatingPointError",
           "package": "MissingPy",
@@ -427,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "floatingPointError",
           "package": "MissingPy",
@@ -440,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "importError",
           "package": "MissingPy",
@@ -449,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "importError",
           "package": "MissingPy",
@@ -462,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "indexError",
           "package": "MissingPy",
@@ -471,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "indexError",
           "package": "MissingPy",
@@ -484,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "keyError",
           "package": "MissingPy",
@@ -493,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "keyError",
           "package": "MissingPy",
@@ -506,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "keyboardInterrupt",
           "package": "MissingPy",
@@ -515,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "keyboardInterrupt",
           "package": "MissingPy",
@@ -528,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "lookupError",
           "package": "MissingPy",
@@ -537,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "lookupError",
           "package": "MissingPy",
@@ -550,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "memoryError",
           "package": "MissingPy",
@@ -559,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "memoryError",
           "package": "MissingPy",
@@ -572,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "nameError",
           "package": "MissingPy",
@@ -581,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "nameError",
           "package": "MissingPy",
@@ -594,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "notImplementedError",
           "package": "MissingPy",
@@ -603,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "notImplementedError",
           "package": "MissingPy",
@@ -616,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "overflowError",
           "package": "MissingPy",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "overflowError",
           "package": "MissingPy",
@@ -638,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "pyEOFError",
           "package": "MissingPy",
@@ -647,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "pyEOFError",
           "package": "MissingPy",
@@ -660,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "pyIOError",
           "package": "MissingPy",
@@ -669,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "pyIOError",
           "package": "MissingPy",
@@ -683,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is Exception in Python; renamed to avoid naming conflicts here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "pyMainException",
           "package": "MissingPy",
@@ -693,6 +752,7 @@
         "index": {
           "description": "This is Exception in Python renamed to avoid naming conflicts here",
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "pyMainException",
           "package": "MissingPy",
@@ -706,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "pyOSError",
           "package": "MissingPy",
@@ -715,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "pyOSError",
           "package": "MissingPy",
@@ -728,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "referenceError",
           "package": "MissingPy",
@@ -737,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "referenceError",
           "package": "MissingPy",
@@ -750,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "runtimeError",
           "package": "MissingPy",
@@ -759,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "runtimeError",
           "package": "MissingPy",
@@ -772,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "standardError",
           "package": "MissingPy",
@@ -781,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "standardError",
           "package": "MissingPy",
@@ -794,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "syntaxError",
           "package": "MissingPy",
@@ -803,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "syntaxError",
           "package": "MissingPy",
@@ -816,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "systemError",
           "package": "MissingPy",
@@ -825,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "systemError",
           "package": "MissingPy",
@@ -838,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "systemExit",
           "package": "MissingPy",
@@ -847,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "systemExit",
           "package": "MissingPy",
@@ -860,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "typeError",
           "package": "MissingPy",
@@ -869,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "typeError",
           "package": "MissingPy",
@@ -882,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "valueError",
           "package": "MissingPy",
@@ -891,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "valueError",
           "package": "MissingPy",
@@ -904,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions.ExcTypes",
           "name": "zeroDivisionError",
           "package": "MissingPy",
@@ -913,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Python Exceptions ExcTypes",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions.ExcTypes",
           "name": "zeroDivisionError",
           "package": "MissingPy",
@@ -927,6 +1007,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003ePython low-level exception handling\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions",
           "name": "Exceptions",
           "package": "MissingPy",
@@ -936,6 +1017,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Python low-level exception handling Written by John Goerzen jgoerzen@complete.org",
           "hierarchy": "Python Exceptions",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions",
           "name": "Exceptions",
           "package": "MissingPy",
@@ -950,6 +1032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of Python exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions",
           "name": "PyException",
           "package": "MissingPy",
@@ -959,6 +1042,7 @@
         "index": {
           "description": "The type of Python exceptions",
           "hierarchy": "Python Exceptions",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions",
           "name": "PyException",
           "package": "MissingPy",
@@ -973,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the given IO action.\n\u003c/p\u003e\u003cp\u003eIf it raises a \u003ccode\u003e\u003ca\u003ePyException\u003c/a\u003e\u003c/code\u003e, then execute the supplied handler and return\nits return value.  Otherwise, process as normal. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions",
           "name": "catchPy",
           "package": "MissingPy",
@@ -983,6 +1068,7 @@
         "index": {
           "description": "Execute the given IO action If it raises PyException then execute the supplied handler and return its return value Otherwise process as normal",
           "hierarchy": "Python Exceptions",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions",
           "name": "catchPy",
           "normalized": "IO a-\u003e(PyException-\u003eIO a)-\u003eIO a",
@@ -999,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike catchPy, but catches only instances of the Python class given\n(see \u003ccode\u003e\u003ca\u003edoesExceptionMatch\u003c/a\u003e\u003c/code\u003e). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions",
           "name": "catchSpecificPy",
           "package": "MissingPy",
@@ -1009,6 +1096,7 @@
         "index": {
           "description": "Like catchPy but catches only instances of the Python class given see doesExceptionMatch",
           "hierarchy": "Python Exceptions",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions",
           "name": "catchSpecificPy",
           "normalized": "PyObject-\u003eIO a-\u003e(PyException-\u003eIO a)-\u003eIO a",
@@ -1025,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the passed \u003ccode\u003e\u003ca\u003ePyException\u003c/a\u003e\u003c/code\u003e matches the given Python\nexception class or one of its subclasses.  Standard Python exception classes\nare given in \u003ccode\u003e\u003ca\u003eExcTypes\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions",
           "name": "doesExceptionMatch",
           "package": "MissingPy",
@@ -1035,6 +1124,7 @@
         "index": {
           "description": "Returns true if the passed PyException matches the given Python exception class or one of its subclasses Standard Python exception classes are given in ExcTypes",
           "hierarchy": "Python Exceptions",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions",
           "name": "doesExceptionMatch",
           "normalized": "PyException-\u003ePyObject-\u003eIO Bool",
@@ -1051,6 +1141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handler for use in \u003ccode\u003e\u003ca\u003ecatchPy\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ehandlePy\u003c/a\u003e\u003c/code\u003e.  Grabs the Python exception,\ndescribes it, and raises the description in the IO monad with \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions",
           "name": "exc2ioerror",
           "package": "MissingPy",
@@ -1061,6 +1152,7 @@
         "index": {
           "description": "handler for use in catchPy or handlePy Grabs the Python exception describes it and raises the description in the IO monad with fail",
           "hierarchy": "Python Exceptions",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions",
           "name": "exc2ioerror",
           "normalized": "PyException-\u003eIO a",
@@ -1076,6 +1168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen an exception is thrown, it is not immediately formatted.\n\u003c/p\u003e\u003cp\u003eThis call will format it. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions",
           "name": "formatException",
           "package": "MissingPy",
@@ -1086,6 +1179,7 @@
         "index": {
           "description": "When an exception is thrown it is not immediately formatted This call will format it",
           "hierarchy": "Python Exceptions",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions",
           "name": "formatException",
           "normalized": "PyException-\u003eIO PyException",
@@ -1102,6 +1196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ecatchPy\u003c/a\u003e\u003c/code\u003e, with the order of arguments reversed. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions",
           "name": "handlePy",
           "package": "MissingPy",
@@ -1112,6 +1207,7 @@
         "index": {
           "description": "Like catchPy with the order of arguments reversed",
           "hierarchy": "Python Exceptions",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions",
           "name": "handlePy",
           "normalized": "(PyException-\u003eIO a)-\u003eIO a-\u003eIO a",
@@ -1128,6 +1224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUseful as the first argument to catchJust, tryJust, or handleJust.\nReturn Nothing if the given exception is not a \u003ccode\u003e\u003ca\u003ePyException\u003c/a\u003e\u003c/code\u003e, or \nthe exception otherwise. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Exceptions",
           "name": "pyExceptions",
           "package": "MissingPy",
@@ -1138,6 +1235,7 @@
         "index": {
           "description": "Useful as the first argument to catchJust tryJust or handleJust Return Nothing if the given exception is not PyException or the exception otherwise",
           "hierarchy": "Python Exceptions",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Exceptions",
           "name": "pyExceptions",
           "normalized": "Exception-\u003eMaybe PyException",
@@ -1154,6 +1252,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003eInterface to Python interpreter\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Interpreter",
           "name": "Interpreter",
           "package": "MissingPy",
@@ -1163,6 +1262,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Interface to Python interpreter Written by John Goerzen jgoerzen@complete.org",
           "hierarchy": "Python Interpreter",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Interpreter",
           "name": "Interpreter",
           "package": "MissingPy",
@@ -1177,6 +1277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to interpret a snippet of Python code. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Interpreter",
           "name": "StartFrom",
           "package": "MissingPy",
@@ -1186,6 +1287,7 @@
         "index": {
           "description": "How to interpret snippet of Python code",
           "hierarchy": "Python Interpreter",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Interpreter",
           "name": "StartFrom",
           "package": "MissingPy",
@@ -1269,6 +1371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a function or callable object by name. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Interpreter",
           "name": "callByName",
           "package": "MissingPy",
@@ -1278,6 +1381,7 @@
         "index": {
           "description": "Call function or callable object by name",
           "hierarchy": "Python Interpreter",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Interpreter",
           "name": "callByName",
           "normalized": "String-\u003e[PyObject]-\u003e[(String,PyObject)]-\u003eIO PyObject",
@@ -1294,6 +1398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a function or callable object by namem using Haskell args\nand return values..\n\u003c/p\u003e\u003cp\u003eYou can use \u003ccode\u003e\u003ca\u003enoParms\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003enoKwParms\u003c/a\u003e\u003c/code\u003e if you have no simple or\nkeyword parameters to pass, respectively. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Interpreter",
           "name": "callByNameHs",
           "package": "MissingPy",
@@ -1303,6 +1408,7 @@
         "index": {
           "description": "Call function or callable object by namem using Haskell args and return values You can use noParms and noKwParms if you have no simple or keyword parameters to pass respectively",
           "hierarchy": "Python Interpreter",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Interpreter",
           "name": "callByNameHs",
           "normalized": "String-\u003e[a]-\u003e[(String,b)]-\u003eIO c",
@@ -1318,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Interpreter",
           "name": "cpy_GILEnsure",
           "package": "MissingPy",
@@ -1327,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "Python Interpreter",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Interpreter",
           "name": "cpy_GILEnsure",
           "package": "MissingPy",
@@ -1340,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Interpreter",
           "name": "cpy_GILRelease",
           "package": "MissingPy",
@@ -1349,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Python Interpreter",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Interpreter",
           "name": "cpy_GILRelease",
           "normalized": "Ptr CPyGILState-\u003eIO()",
@@ -1415,6 +1525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport a module into the current environment in the normal sense\n(similar to \"import\" in Python).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Interpreter",
           "name": "pyImport",
           "package": "MissingPy",
@@ -1425,6 +1536,7 @@
         "index": {
           "description": "Import module into the current environment in the normal sense similar to import in Python",
           "hierarchy": "Python Interpreter",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Interpreter",
           "name": "pyImport",
           "normalized": "String-\u003eIO()",
@@ -1468,6 +1580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around C PyImport_ImportModule, which imports a module.\n\u003c/p\u003e\u003cp\u003eYou may want the higher-level \u003ccode\u003e\u003ca\u003epyImport\u003c/a\u003e\u003c/code\u003e instead. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Interpreter",
           "name": "pyImport_ImportModule",
           "package": "MissingPy",
@@ -1478,6 +1591,7 @@
         "index": {
           "description": "Wrapper around PyImport ImportModule which imports module You may want the higher-level pyImport instead",
           "hierarchy": "Python Interpreter",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Interpreter",
           "name": "pyImport_ImportModule",
           "normalized": "String-\u003eIO PyObject",
@@ -1520,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Interpreter",
           "name": "pyRun_SimpleString",
           "package": "MissingPy",
@@ -1529,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Python Interpreter",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Interpreter",
           "name": "pyRun_SimpleString",
           "normalized": "String-\u003eIO()",
@@ -1545,6 +1661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun some code in Python.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Interpreter",
           "name": "pyRun_String",
           "package": "MissingPy",
@@ -1554,6 +1671,7 @@
         "index": {
           "description": "Run some code in Python",
           "hierarchy": "Python Interpreter",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Interpreter",
           "name": "pyRun_String",
           "normalized": "String-\u003eStartFrom-\u003e[(String,PyObject)]-\u003eIO PyObject",
@@ -1570,6 +1688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003epyRun_String\u003c/a\u003e\u003c/code\u003e, but take more Haskellish args and results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Interpreter",
           "name": "pyRun_StringHs",
           "package": "MissingPy",
@@ -1579,6 +1698,7 @@
         "index": {
           "description": "Like pyRun String but take more Haskellish args and results",
           "hierarchy": "Python Interpreter",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Interpreter",
           "name": "pyRun_StringHs",
           "normalized": "String-\u003eStartFrom-\u003e[(String,a)]-\u003eIO b",
@@ -1595,6 +1715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the Python interpreter environment.\n\u003c/p\u003e\u003cp\u003eMUST BE DONE BEFORE DOING ANYTHING ELSE! \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Interpreter",
           "name": "py_initialize",
           "package": "MissingPy",
@@ -1605,6 +1726,7 @@
         "index": {
           "description": "Initialize the Python interpreter environment MUST BE DONE BEFORE DOING ANYTHING ELSE",
           "hierarchy": "Python Interpreter",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Interpreter",
           "name": "py_initialize",
           "normalized": "IO()",
@@ -1619,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Interpreter",
           "name": "py_initializeThreaded",
           "package": "MissingPy",
@@ -1628,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "Python Interpreter",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Interpreter",
           "name": "py_initializeThreaded",
           "normalized": "IO()",
@@ -1643,6 +1767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Interpreter",
           "name": "withGIL",
           "package": "MissingPy",
@@ -1652,6 +1777,7 @@
         },
         "index": {
           "hierarchy": "Python Interpreter",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Interpreter",
           "name": "withGIL",
           "normalized": "IO a-\u003eIO a",
@@ -1668,6 +1794,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003ePython dict-like objects\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003cp\u003eThis module can be used to access Python dicts and dict-like objects such as\ndbm databases.  For a higher-level interface to creating and working with these\ndbm interfaces, please see the functions in \u003ca\u003eMissingPy.AnyDBM\u003c/a\u003e.  Also,\nfor functions that use this, please see \u003ca\u003eDatabase.AnyDBM\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects.Dict",
           "name": "Dict",
           "package": "MissingPy",
@@ -1677,6 +1804,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Python dict-like objects Written by John Goerzen jgoerzen@complete.org This module can be used to access Python dicts and dict-like objects such as dbm databases For higher-level interface to creating and working with these dbm interfaces please see the functions in MissingPy.AnyDBM Also for functions that use this please see Database.AnyDBM",
           "hierarchy": "Python Objects Dict",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects.Dict",
           "name": "Dict",
           "package": "MissingPy",
@@ -1691,6 +1819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic type for a Python dict or dict-like object. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects.Dict",
           "name": "PyDict",
           "package": "MissingPy",
@@ -1700,6 +1829,7 @@
         "index": {
           "description": "The basic type for Python dict or dict-like object",
           "hierarchy": "Python Objects Dict",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects.Dict",
           "name": "PyDict",
           "package": "MissingPy",
@@ -1714,6 +1844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a \u003ccode\u003e\u003ca\u003ePyDict\u003c/a\u003e\u003c/code\u003e and returns its internal \u003ccode\u003e\u003ca\u003ePyObject\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects.Dict",
           "name": "fromPyDict",
           "package": "MissingPy",
@@ -1724,6 +1855,7 @@
         "index": {
           "description": "Takes PyDict and returns its internal PyObject",
           "hierarchy": "Python Objects Dict",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects.Dict",
           "name": "fromPyDict",
           "normalized": "PyDict-\u003ePyObject",
@@ -1740,6 +1872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a \u003ccode\u003e\u003ca\u003ePyObject\u003c/a\u003e\u003c/code\u003e representing a Python dict or dict-like objext\nand makes it into a \u003ccode\u003e\u003ca\u003ePyDict\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects.Dict",
           "name": "mkPyDict",
           "package": "MissingPy",
@@ -1750,6 +1883,7 @@
         "index": {
           "description": "Takes PyObject representing Python dict or dict-like objext and makes it into PyDict",
           "hierarchy": "Python Objects Dict",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects.Dict",
           "name": "mkPyDict",
           "normalized": "PyObject-\u003ePyDict",
@@ -1766,6 +1900,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003ePython file-like objects\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003cp\u003eThis module provides a Haskell interface to work with Python file-like objects.\nThe Haskell interface is a \u003ca\u003eSystem.IO.HVIO\u003c/a\u003e interface, which is similar\nin concept to the Python file-like object system.\n\u003c/p\u003e\u003cp\u003eYou can create such objects by using \u003ccode\u003e\u003ca\u003eopenPyFile\u003c/a\u003e\u003c/code\u003e from this module, or\n\u003ccode\u003e\u003ca\u003eopenGz\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eopenBz2\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFunctions that you can use to operate on these objects are defined at\n\u003ca\u003eSystem.IO.HVIO\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects.File",
           "name": "File",
           "package": "MissingPy",
@@ -1775,6 +1910,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Python file-like objects Written by John Goerzen jgoerzen@complete.org This module provides Haskell interface to work with Python file-like objects The Haskell interface is System.IO.HVIO interface which is similar in concept to the Python file-like object system You can create such objects by using openPyFile from this module or openGz or openBz2 Functions that you can use to operate on these objects are defined at System.IO.HVIO",
           "hierarchy": "Python Objects File",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects.File",
           "name": "File",
           "package": "MissingPy",
@@ -1789,6 +1925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic type for a Python file or file-like object.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ePyFile\u003c/a\u003e\u003c/code\u003es are a member of System.IO.HVIO and can be used as any other\nHaskell HVFS object such as a Handle.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ePyFile\u003c/a\u003e\u003c/code\u003e objects cannot reliably detect EOF when asked by \u003ccode\u003e\u003ca\u003evIsEOF\u003c/a\u003e\u003c/code\u003e, but\ncan detect it and raise the appropriate IOError when it is reached.\nAlso, \u003ccode\u003e\u003ca\u003ePyFile\u003c/a\u003e\u003c/code\u003e objects cannot determine if they are readable, writable,\nor seekable in advance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects.File",
           "name": "PyFile",
           "package": "MissingPy",
@@ -1798,6 +1935,7 @@
         "index": {
           "description": "The basic type for Python file or file-like object PyFile are member of System.IO.HVIO and can be used as any other Haskell HVFS object such as Handle PyFile objects cannot reliably detect EOF when asked by vIsEOF but can detect it and raise the appropriate IOError when it is reached Also PyFile objects cannot determine if they are readable writable or seekable in advance",
           "hierarchy": "Python Objects File",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects.File",
           "name": "PyFile",
           "package": "MissingPy",
@@ -1812,6 +1950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the \u003ccode\u003e\u003ca\u003ePyObject\u003c/a\u003e\u003c/code\u003e representing this \u003ccode\u003e\u003ca\u003ePyFile\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects.File",
           "name": "fromPyFile",
           "package": "MissingPy",
@@ -1822,6 +1961,7 @@
         "index": {
           "description": "Extracts the PyObject representing this PyFile",
           "hierarchy": "Python Objects File",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects.File",
           "name": "fromPyFile",
           "normalized": "PyFile-\u003ePyObject",
@@ -1838,6 +1978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a \u003ccode\u003e\u003ca\u003ePyObject\u003c/a\u003e\u003c/code\u003e representing a Python file or file-like object\nand makes it into a \u003ccode\u003e\u003ca\u003ePyFile\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects.File",
           "name": "mkPyFile",
           "package": "MissingPy",
@@ -1848,6 +1989,7 @@
         "index": {
           "description": "Takes PyObject representing Python file or file-like object and makes it into PyFile",
           "hierarchy": "Python Objects File",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects.File",
           "name": "mkPyFile",
           "normalized": "PyObject-\u003ePyFile",
@@ -1864,6 +2006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Haskell open mode to a Python mode string \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects.File",
           "name": "openModeConv",
           "package": "MissingPy",
@@ -1874,6 +2017,7 @@
         "index": {
           "description": "Convert Haskell open mode to Python mode string",
           "hierarchy": "Python Objects File",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects.File",
           "name": "openModeConv",
           "normalized": "IOMode-\u003e[Char]",
@@ -1890,6 +2034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a file on disk and return a \u003ccode\u003e\u003ca\u003ePyFile\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects.File",
           "name": "openPyFile",
           "package": "MissingPy",
@@ -1900,6 +2045,7 @@
         "index": {
           "description": "Open file on disk and return PyFile",
           "hierarchy": "Python Objects File",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects.File",
           "name": "openPyFile",
           "normalized": "FilePath-\u003eIOMode-\u003eIO PyFile",
@@ -1916,6 +2062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap an operation, raising exceptions in the IO monad as appropriate. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects.File",
           "name": "pyfwrap",
           "package": "MissingPy",
@@ -1926,6 +2073,7 @@
         "index": {
           "description": "Wrap an operation raising exceptions in the IO monad as appropriate",
           "hierarchy": "Python Objects File",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects.File",
           "name": "pyfwrap",
           "normalized": "PyFile-\u003e(PyObject-\u003eIO a)-\u003eIO a",
@@ -1941,6 +2089,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003ePython type instances and object utilities.\n\u003c/p\u003e\u003cp\u003eFor more similar utilities, see \u003ca\u003ePython.Objects.File\u003c/a\u003e and\n\u003ca\u003ePython.Objects.Dict\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "Objects",
           "package": "MissingPy",
@@ -1950,6 +2099,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Python type instances and object utilities For more similar utilities see Python.Objects.File and Python.Objects.Dict Written by John Goerzen jgoerzen@complete.org",
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "Objects",
           "package": "MissingPy",
@@ -1964,6 +2114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMembers of this class can be derived from a Python object. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "FromPyObject",
           "package": "MissingPy",
@@ -1973,6 +2124,7 @@
         "index": {
           "description": "Members of this class can be derived from Python object",
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "FromPyObject",
           "package": "MissingPy",
@@ -1987,6 +2139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of Python objects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "PyObject",
           "package": "MissingPy",
@@ -1996,6 +2149,7 @@
         "index": {
           "description": "The type of Python objects",
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "PyObject",
           "package": "MissingPy",
@@ -2010,6 +2164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMembers of this class can be converted from a Haskell type\nto a Python object. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "ToPyObject",
           "package": "MissingPy",
@@ -2019,6 +2174,7 @@
         "index": {
           "description": "Members of this class can be converted from Haskell type to Python object",
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "ToPyObject",
           "package": "MissingPy",
@@ -2033,6 +2189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalls the named method of the given object. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "callMethodHs",
           "package": "MissingPy",
@@ -2042,6 +2199,7 @@
         "index": {
           "description": "Calls the named method of the given object",
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "callMethodHs",
           "normalized": "PyObject-\u003eString-\u003e[a]-\u003e[(String,b)]-\u003eIO c",
@@ -2058,6 +2216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplays a list of keys contained in the Python object. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "dirPyObject",
           "package": "MissingPy",
@@ -2068,6 +2227,7 @@
         "index": {
           "description": "Displays list of keys contained in the Python object",
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "dirPyObject",
           "normalized": "PyObject-\u003eIO[String]",
@@ -2083,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "fromPyObject",
           "package": "MissingPy",
@@ -2092,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "fromPyObject",
           "normalized": "PyObject-\u003eIO a",
@@ -2108,6 +2270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn interface to a function similar to Python's getattr.  This will\nlook up an attribute (such as a method) of an object. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "getattr",
           "package": "MissingPy",
@@ -2118,6 +2281,7 @@
         "index": {
           "description": "An interface to function similar to Python getattr This will look up an attribute such as method of an object",
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "getattr",
           "normalized": "PyObject-\u003eString-\u003eIO PyObject",
@@ -2133,6 +2297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn interface to Python's hasattr.  Returns True if the named\nattribute exists; False otherwise. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "hasattr",
           "package": "MissingPy",
@@ -2143,6 +2308,7 @@
         "index": {
           "description": "An interface to Python hasattr Returns True if the named attribute exists False otherwise",
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "hasattr",
           "normalized": "PyObject-\u003eString-\u003eIO Bool",
@@ -2157,6 +2323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "pyList_AsTuple",
           "package": "MissingPy",
@@ -2166,6 +2333,7 @@
         },
         "index": {
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "pyList_AsTuple",
           "normalized": "PyObject-\u003eIO PyObject",
@@ -2182,6 +2350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a Python list to a tuple.\n\u003c/p\u003e\u003cp\u003eCall a Python object (function, etc).\n\u003c/p\u003e\u003cp\u003eFor a higher-level wrapper, see \u003ccode\u003e\u003ca\u003ecallByName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "pyObject_Call",
           "package": "MissingPy",
@@ -2191,6 +2360,7 @@
         "index": {
           "description": "Converts Python list to tuple Call Python object function etc For higher-level wrapper see callByName",
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "pyObject_Call",
           "normalized": "PyObject-\u003e[PyObject]-\u003e[(String,PyObject)]-\u003eIO PyObject",
@@ -2207,6 +2377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a Python object with all-Haskell parameters.\nSimilar to \u003ccode\u003ePyObject_Call\u003c/code\u003e.  This limits you to a single item type for\nthe regular arguments and another single item type for the keyword arguments. \nNevertheless, it could be a handy shortcut at times.\n\u003c/p\u003e\u003cp\u003eFor a higher-level wrapper, see \u003ccode\u003e\u003ca\u003ecallByName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eYou may find \u003ccode\u003e\u003ca\u003enoParms\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003enoKwParms\u003c/a\u003e\u003c/code\u003e useful if you aren't passing any\nparameters. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "pyObject_CallHs",
           "package": "MissingPy",
@@ -2216,6 +2387,7 @@
         "index": {
           "description": "Call Python object with all-Haskell parameters Similar to PyObject Call This limits you to single item type for the regular arguments and another single item type for the keyword arguments Nevertheless it could be handy shortcut at times For higher-level wrapper see callByName You may find noParms and noKwParms useful if you aren passing any parameters",
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "pyObject_CallHs",
           "normalized": "PyObject-\u003e[a]-\u003e[(String,b)]-\u003eIO c",
@@ -2232,6 +2404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003ePyObject_CallHs\u003c/code\u003e, but discards the return value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "pyObject_RunHs",
           "package": "MissingPy",
@@ -2241,6 +2414,7 @@
         "index": {
           "description": "Like PyObject CallHs but discards the return value",
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "pyObject_RunHs",
           "normalized": "PyObject-\u003e[a]-\u003e[(String,b)]-\u003eIO()",
@@ -2257,6 +2431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the Python representation of a Python object.\nSame as repr(x) in Python. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "reprOf",
           "package": "MissingPy",
@@ -2267,6 +2442,7 @@
         "index": {
           "description": "Gets the Python representation of Python object Same as repr in Python",
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "reprOf",
           "normalized": "PyObject-\u003eIO String",
@@ -2283,6 +2459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ecallMethodHs\u003c/a\u003e\u003c/code\u003e, but discards the return value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "runMethodHs",
           "package": "MissingPy",
@@ -2292,6 +2469,7 @@
         "index": {
           "description": "Like callMethodHs but discards the return value",
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "runMethodHs",
           "normalized": "PyObject-\u003eString-\u003e[a]-\u003e[(String,b)]-\u003eIO()",
@@ -2308,6 +2486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn interface to Python's setattr, used to set attributes of an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "setattr",
           "package": "MissingPy",
@@ -2317,6 +2496,7 @@
         "index": {
           "description": "An interface to Python setattr used to set attributes of an object",
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "setattr",
           "normalized": "PyObject-\u003eString-\u003ePyObject-\u003eIO()",
@@ -2332,6 +2512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplays a Python object and its type. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "showPyObject",
           "package": "MissingPy",
@@ -2342,6 +2523,7 @@
         "index": {
           "description": "Displays Python object and its type",
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "showPyObject",
           "normalized": "PyObject-\u003eIO String",
@@ -2358,6 +2540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a string representation of a Python object.  Same \nas str(x) in Python. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "strOf",
           "package": "MissingPy",
@@ -2368,6 +2551,7 @@
         "index": {
           "description": "Gets string representation of Python object Same as str in Python",
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "strOf",
           "normalized": "PyObject-\u003eIO String",
@@ -2383,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "toPyObject",
           "package": "MissingPy",
@@ -2392,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "toPyObject",
           "normalized": "a-\u003eIO PyObject",
@@ -2408,6 +2594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the type of a Python object.  Same as type(x) in Python. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Objects",
           "name": "typeOf",
           "package": "MissingPy",
@@ -2418,6 +2605,7 @@
         "index": {
           "description": "Gets the type of Python object Same as type in Python",
           "hierarchy": "Python Objects",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Objects",
           "name": "typeOf",
           "normalized": "PyObject-\u003eIO PyObject",
@@ -2434,6 +2622,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003eInterfaces to low-level Python types.  You should probably not use this module\ndirectly.  You probably want \u003ca\u003ePython.Objects\u003c/a\u003e instead.\n\u003c/p\u003e\u003cp\u003eYou'll only need this module directly if you are importing new functions\nfrom the Python C API.\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Types",
           "name": "Types",
           "package": "MissingPy",
@@ -2443,6 +2632,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Interfaces to low-level Python types You should probably not use this module directly You probably want Python.Objects instead You ll only need this module directly if you are importing new functions from the Python API Written by John Goerzen jgoerzen@complete.org",
           "hierarchy": "Python Types",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Types",
           "name": "Types",
           "package": "MissingPy",
@@ -2456,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Types",
           "name": "CPyGILState",
           "package": "MissingPy",
@@ -2464,6 +2655,7 @@
         },
         "index": {
           "hierarchy": "Python Types",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Types",
           "name": "CPyGILState",
           "package": "MissingPy",
@@ -2477,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Types",
           "name": "CPyObject",
           "package": "MissingPy",
@@ -2485,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Python Types",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Types",
           "name": "CPyObject",
           "package": "MissingPy",
@@ -2499,6 +2693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of Python exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Types",
           "name": "PyException",
           "package": "MissingPy",
@@ -2508,6 +2703,7 @@
         "index": {
           "description": "The type of Python exceptions",
           "hierarchy": "Python Types",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Types",
           "name": "PyException",
           "package": "MissingPy",
@@ -2521,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Types",
           "name": "PyGILState",
           "package": "MissingPy",
@@ -2529,6 +2726,7 @@
         },
         "index": {
           "hierarchy": "Python Types",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Types",
           "name": "PyGILState",
           "package": "MissingPy",
@@ -2543,6 +2741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of Python objects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Types",
           "name": "PyObject",
           "package": "MissingPy",
@@ -2552,6 +2751,7 @@
         "index": {
           "description": "The type of Python objects",
           "hierarchy": "Python Types",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Types",
           "name": "PyObject",
           "package": "MissingPy",
@@ -2566,6 +2766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to interpret a snippet of Python code. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Types",
           "name": "StartFrom",
           "package": "MissingPy",
@@ -2575,6 +2776,7 @@
         "index": {
           "description": "How to interpret snippet of Python code",
           "hierarchy": "Python Types",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Types",
           "name": "StartFrom",
           "package": "MissingPy",
@@ -2588,6 +2790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Types",
           "name": "PyException",
           "package": "MissingPy",
@@ -2597,6 +2800,7 @@
         },
         "index": {
           "hierarchy": "Python Types",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Types",
           "name": "PyException",
           "package": "MissingPy",
@@ -2610,6 +2814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Types",
           "name": "PyGILState",
           "package": "MissingPy",
@@ -2619,6 +2824,7 @@
         },
         "index": {
           "hierarchy": "Python Types",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Types",
           "name": "PyGILState",
           "package": "MissingPy",
@@ -2632,6 +2838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Types",
           "name": "PyObject",
           "package": "MissingPy",
@@ -2641,6 +2848,7 @@
         },
         "index": {
           "hierarchy": "Python Types",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Types",
           "name": "PyObject",
           "package": "MissingPy",
@@ -2655,6 +2863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormatted for display\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Types",
           "name": "excFormatted",
           "package": "MissingPy",
@@ -2665,6 +2874,7 @@
         "index": {
           "description": "Formatted for display",
           "hierarchy": "Python Types",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Types",
           "name": "excFormatted",
           "package": "MissingPy",
@@ -2679,6 +2889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraceback\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Types",
           "name": "excTraceBack",
           "package": "MissingPy",
@@ -2689,6 +2900,7 @@
         "index": {
           "description": "Traceback",
           "hierarchy": "Python Types",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Types",
           "name": "excTraceBack",
           "package": "MissingPy",
@@ -2703,6 +2915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Types",
           "name": "excType",
           "package": "MissingPy",
@@ -2713,6 +2926,7 @@
         "index": {
           "description": "Exception type",
           "hierarchy": "Python Types",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Types",
           "name": "excType",
           "package": "MissingPy",
@@ -2727,6 +2941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Types",
           "name": "excValue",
           "package": "MissingPy",
@@ -2737,6 +2952,7 @@
         "index": {
           "description": "Exception value",
           "hierarchy": "Python Types",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Types",
           "name": "excValue",
           "package": "MissingPy",
@@ -2751,6 +2967,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003ePython low-level utilities\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003cp\u003ePlease use sparingly and with caution.  The documentation for their behavior\nshould be considered to be the source code.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Utils",
           "name": "Utils",
           "package": "MissingPy",
@@ -2760,6 +2977,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Python low-level utilities Written by John Goerzen jgoerzen@complete.org Please use sparingly and with caution The documentation for their behavior should be considered to be the source code",
           "hierarchy": "Python Utils",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Utils",
           "name": "Utils",
           "package": "MissingPy",
@@ -2774,6 +2992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalled to make sure the passed CInt isn't -1.  Raise an exception if\nit is. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Utils",
           "name": "checkCInt",
           "package": "MissingPy",
@@ -2784,6 +3003,7 @@
         "index": {
           "description": "Called to make sure the passed CInt isn Raise an exception if it is",
           "hierarchy": "Python Utils",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Utils",
           "name": "checkCInt",
           "normalized": "CInt-\u003eIO CInt",
@@ -2800,6 +3020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Ptr \u003ccode\u003e\u003ca\u003eCPyObject\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003ePyObject\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Utils",
           "name": "fromCPyObject",
           "package": "MissingPy",
@@ -2810,6 +3031,7 @@
         "index": {
           "description": "Convert Ptr CPyObject to PyObject",
           "hierarchy": "Python Utils",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Utils",
           "name": "fromCPyObject",
           "normalized": "Ptr CPyObject-\u003eIO PyObject",
@@ -2826,6 +3048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the default globals environment. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Utils",
           "name": "getDefaultGlobals",
           "package": "MissingPy",
@@ -2836,6 +3059,7 @@
         "index": {
           "description": "Returns the default globals environment",
           "hierarchy": "Python Utils",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Utils",
           "name": "getDefaultGlobals",
           "package": "MissingPy",
@@ -2850,6 +3074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ewithPyObject\u003c/a\u003e\u003c/code\u003e, but uses nullPtr if the input is Nothing. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Utils",
           "name": "maybeWithPyObject",
           "package": "MissingPy",
@@ -2860,6 +3085,7 @@
         "index": {
           "description": "Same as withPyObject but uses nullPtr if the input is Nothing",
           "hierarchy": "Python Utils",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Utils",
           "name": "maybeWithPyObject",
           "normalized": "Maybe PyObject-\u003e(Ptr CPyObject-\u003eIO a)-\u003eIO a",
@@ -2875,6 +3101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Utils",
           "name": "py_incref",
           "package": "MissingPy",
@@ -2884,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "Python Utils",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Utils",
           "name": "py_incref",
           "normalized": "Ptr CPyObject-\u003eIO()",
@@ -2899,6 +3127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalled when a Python exception has been detected.  It will raise\nthe exception in Haskell. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Utils",
           "name": "raisePyException",
           "package": "MissingPy",
@@ -2909,6 +3138,7 @@
         "index": {
           "description": "Called when Python exception has been detected It will raise the exception in Haskell",
           "hierarchy": "Python Utils",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Utils",
           "name": "raisePyException",
           "package": "MissingPy",
@@ -2923,6 +3153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses a \u003ccode\u003e\u003ca\u003ePyObject\u003c/a\u003e\u003c/code\u003e in a function that needs Ptr \u003ccode\u003e\u003ca\u003eCPyObject\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:52:58 UTC 2014",
           "module": "Python.Utils",
           "name": "withPyObject",
           "package": "MissingPy",
@@ -2933,6 +3164,7 @@
         "index": {
           "description": "Uses PyObject in function that needs Ptr CPyObject",
           "hierarchy": "Python Utils",
+          "indexed": "2014-03-11T16:52:58",
           "module": "Python.Utils",
           "name": "withPyObject",
           "normalized": "PyObject-\u003e(Ptr CPyObject-\u003eIO a)-\u003eIO a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sizes"
+        "phrase": "sizes",
+        "type": "phrase"
       },
       "type": "context"
     }

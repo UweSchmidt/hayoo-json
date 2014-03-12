@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hledger-chart"
+        "phrase": "hledger-chart",
+        "type": "phrase"
       },
       "type": "context"
     }

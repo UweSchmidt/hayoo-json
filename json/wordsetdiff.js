@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wordsetdiff"
+        "phrase": "wordsetdiff",
+        "type": "phrase"
       },
       "type": "context"
     }

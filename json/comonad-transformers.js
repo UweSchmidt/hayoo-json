@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "comonad-transformers"
+        "phrase": "comonad-transformers",
+        "type": "phrase"
       },
       "type": "context"
     }

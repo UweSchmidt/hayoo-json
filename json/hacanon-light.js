@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hacanon-light"
+        "phrase": "hacanon-light",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.THUtils",
           "name": "THUtils",
           "package": "hacanon-light",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Common THUtils",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.THUtils",
           "name": "THUtils",
           "package": "hacanon-light",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.THUtils",
           "name": "createArrowType",
           "package": "hacanon-light",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Common THUtils",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.THUtils",
           "name": "createArrowType",
           "normalized": "[TypeQ]-\u003eTypeQ",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.THUtils",
           "name": "createSimpleExpr",
           "package": "hacanon-light",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Common THUtils",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.THUtils",
           "name": "createSimpleExpr",
           "normalized": "ExpQ-\u003e[ExpQ]-\u003eExpQ",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.THUtils",
           "name": "createSimpleType",
           "package": "hacanon-light",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Common THUtils",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.THUtils",
           "name": "createSimpleType",
           "normalized": "TypeQ-\u003e[TypeQ]-\u003eTypeQ",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.THUtils",
           "name": "createTupleType",
           "package": "hacanon-light",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Common THUtils",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.THUtils",
           "name": "createTupleType",
           "normalized": "[TypeQ]-\u003eTypeQ",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.THUtils",
           "name": "insertInField",
           "package": "hacanon-light",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Common THUtils",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.THUtils",
           "name": "insertInField",
           "normalized": "[String]-\u003eExpQ",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.THUtils",
           "name": "modifyField",
           "package": "hacanon-light",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Common THUtils",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.THUtils",
           "name": "modifyField",
           "normalized": "[String]-\u003eExpQ",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.THUtils",
           "name": "puts",
           "package": "hacanon-light",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Common THUtils",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.THUtils",
           "name": "puts",
           "normalized": "[String]-\u003eExpQ",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "Types",
           "package": "hacanon-light",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Common Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "Types",
           "package": "hacanon-light",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "FFIDecl",
           "package": "hacanon-light",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Common Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "FFIDecl",
           "package": "hacanon-light",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "HsDecl",
           "package": "hacanon-light",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Common Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "HsDecl",
           "package": "hacanon-light",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "FFIDecl",
           "package": "hacanon-light",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Common Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "FFIDecl",
           "package": "hacanon-light",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "HsDecl",
           "package": "hacanon-light",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Common Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "HsDecl",
           "package": "hacanon-light",
@@ -314,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalling convention. Specified in the state or with hints.c\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "ffiCallConv",
           "package": "hacanon-light",
@@ -324,6 +351,7 @@
         "index": {
           "description": "Calling convention Specified in the state or with hints.c",
           "hierarchy": "Foreign HacanonLight Common Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "ffiCallConv",
           "package": "hacanon-light",
@@ -338,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the C function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "ffiName",
           "package": "hacanon-light",
@@ -348,6 +377,7 @@
         "index": {
           "description": "Name of the function",
           "hierarchy": "Foreign HacanonLight Common Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "ffiName",
           "package": "hacanon-light",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "ffiPure",
           "package": "hacanon-light",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Common Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "ffiPure",
           "package": "hacanon-light",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "ffiSafety",
           "package": "hacanon-light",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Common Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "ffiSafety",
           "package": "hacanon-light",
@@ -406,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface scheme and hints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "ffiType",
           "package": "hacanon-light",
@@ -416,6 +451,7 @@
         "index": {
           "description": "Interface scheme and hints",
           "hierarchy": "Foreign HacanonLight Common Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "ffiType",
           "normalized": "[DIS]",
@@ -432,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique name of the FFI binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "ffiUnique",
           "package": "hacanon-light",
@@ -442,6 +479,7 @@
         "index": {
           "description": "Unique name of the FFI binding",
           "hierarchy": "Foreign HacanonLight Common Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "ffiUnique",
           "package": "hacanon-light",
@@ -456,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBody of the generated function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "hsBody",
           "package": "hacanon-light",
@@ -466,6 +505,7 @@
         "index": {
           "description": "Body of the generated function",
           "hierarchy": "Foreign HacanonLight Common Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "hsBody",
           "package": "hacanon-light",
@@ -480,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the raw ffi binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "hsFFIName",
           "package": "hacanon-light",
@@ -490,6 +531,7 @@
         "index": {
           "description": "Name of the raw ffi binding",
           "hierarchy": "Foreign HacanonLight Common Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "hsFFIName",
           "package": "hacanon-light",
@@ -504,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the generated Haskel function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "hsName",
           "package": "hacanon-light",
@@ -514,6 +557,7 @@
         "index": {
           "description": "Name of the generated Haskel function",
           "hierarchy": "Foreign HacanonLight Common Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "hsName",
           "package": "hacanon-light",
@@ -528,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the function pure? (using unsafePerformIO if it is)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "hsPure",
           "package": "hacanon-light",
@@ -538,6 +583,7 @@
         "index": {
           "description": "Is the function pure using unsafePerformIO if it is",
           "hierarchy": "Foreign HacanonLight Common Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "hsPure",
           "package": "hacanon-light",
@@ -552,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the generated function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "hsType",
           "package": "hacanon-light",
@@ -562,6 +609,7 @@
         "index": {
           "description": "Type of the generated function",
           "hierarchy": "Foreign HacanonLight Common Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common.Types",
           "name": "hsType",
           "package": "hacanon-light",
@@ -575,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Common",
           "name": "Common",
           "package": "hacanon-light",
@@ -583,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Common",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Common",
           "name": "Common",
           "package": "hacanon-light",
@@ -596,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "StdDIS",
           "package": "hacanon-light",
@@ -604,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "StdDIS",
           "package": "hacanon-light",
@@ -617,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "anonPtr",
           "package": "hacanon-light",
@@ -626,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "anonPtr",
           "package": "hacanon-light",
@@ -639,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "bool",
           "package": "hacanon-light",
@@ -648,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "bool",
           "package": "hacanon-light",
@@ -660,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "cPointer",
           "package": "hacanon-light",
@@ -669,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "cPointer",
           "normalized": "DIS-\u003eDIS",
@@ -684,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "cast",
           "package": "hacanon-light",
@@ -693,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "cast",
           "normalized": "TypeQ-\u003eDIS",
@@ -707,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "char",
           "package": "hacanon-light",
@@ -716,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "char",
           "package": "hacanon-light",
@@ -728,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "cstring",
           "package": "hacanon-light",
@@ -737,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "cstring",
           "package": "hacanon-light",
@@ -749,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "double",
           "package": "hacanon-light",
@@ -758,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "double",
           "package": "hacanon-light",
@@ -770,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "dynamic",
           "package": "hacanon-light",
@@ -779,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "dynamic",
           "normalized": "DIS-\u003eDIS",
@@ -793,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "emptyDIS",
           "package": "hacanon-light",
@@ -802,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "emptyDIS",
           "package": "hacanon-light",
@@ -815,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "enum",
           "package": "hacanon-light",
@@ -824,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "enum",
           "normalized": "String-\u003eDIS",
@@ -838,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "enum'",
           "package": "hacanon-light",
@@ -847,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "enum'",
           "normalized": "String-\u003eString-\u003eTypeQ-\u003eString-\u003eDIS",
@@ -861,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "float",
           "package": "hacanon-light",
@@ -870,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "float",
           "package": "hacanon-light",
@@ -882,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "foreignPtr",
           "package": "hacanon-light",
@@ -891,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "foreignPtr",
           "normalized": "String-\u003eString-\u003eString-\u003eDIS",
@@ -906,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "hsPointer",
           "package": "hacanon-light",
@@ -915,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "hsPointer",
           "normalized": "DIS-\u003eDIS",
@@ -930,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "hsStruct",
           "package": "hacanon-light",
@@ -939,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "hsStruct",
           "normalized": "[DIS]-\u003eString-\u003eDIS",
@@ -954,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "int",
           "package": "hacanon-light",
@@ -963,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "int",
           "package": "hacanon-light",
@@ -975,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "int16",
           "package": "hacanon-light",
@@ -984,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "int16",
           "package": "hacanon-light",
@@ -996,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "int32",
           "package": "hacanon-light",
@@ -1005,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "int32",
           "package": "hacanon-light",
@@ -1017,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "int8",
           "package": "hacanon-light",
@@ -1026,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "int8",
           "package": "hacanon-light",
@@ -1038,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "maybe",
           "package": "hacanon-light",
@@ -1047,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "maybe",
           "normalized": "ExpQ-\u003eDIS-\u003eDIS",
@@ -1061,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "maybeInt",
           "package": "hacanon-light",
@@ -1070,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "maybeInt",
           "normalized": "DIS-\u003eDIS",
@@ -1085,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "maybePtr",
           "package": "hacanon-light",
@@ -1094,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "maybePtr",
           "normalized": "DIS-\u003eDIS",
@@ -1109,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "mkIn",
           "package": "hacanon-light",
@@ -1118,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "mkIn",
           "normalized": "DIS-\u003eDIS",
@@ -1133,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "mkInOut",
           "package": "hacanon-light",
@@ -1142,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "mkInOut",
           "normalized": "DIS-\u003eDIS",
@@ -1157,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "mkOut",
           "package": "hacanon-light",
@@ -1166,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "mkOut",
           "normalized": "DIS-\u003eDIS",
@@ -1181,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "persistent",
           "package": "hacanon-light",
@@ -1190,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "persistent",
           "normalized": "DIS-\u003eDIS",
@@ -1204,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "string",
           "package": "hacanon-light",
@@ -1213,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "string",
           "package": "hacanon-light",
@@ -1225,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "tuple",
           "package": "hacanon-light",
@@ -1234,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "tuple",
           "normalized": "[DIS]-\u003eDIS",
@@ -1248,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "unit",
           "package": "hacanon-light",
@@ -1257,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "unit",
           "package": "hacanon-light",
@@ -1269,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "word16",
           "package": "hacanon-light",
@@ -1278,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "word16",
           "package": "hacanon-light",
@@ -1290,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "word32",
           "package": "hacanon-light",
@@ -1299,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "word32",
           "package": "hacanon-light",
@@ -1311,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "word8",
           "package": "hacanon-light",
@@ -1320,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS StdDIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.StdDIS",
           "name": "word8",
           "package": "hacanon-light",
@@ -1332,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "Types",
           "package": "hacanon-light",
@@ -1340,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "Types",
           "package": "hacanon-light",
@@ -1353,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "DIS",
           "package": "hacanon-light",
@@ -1361,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "DIS",
           "package": "hacanon-light",
@@ -1374,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "DISOperation",
           "package": "hacanon-light",
@@ -1382,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "DISOperation",
           "package": "hacanon-light",
@@ -1395,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "Func",
           "package": "hacanon-light",
@@ -1403,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "Func",
           "package": "hacanon-light",
@@ -1416,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "DISIgnore",
           "package": "hacanon-light",
@@ -1425,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "DISIgnore",
           "package": "hacanon-light",
@@ -1438,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "DISIn",
           "package": "hacanon-light",
@@ -1447,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "DISIn",
           "package": "hacanon-light",
@@ -1460,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "DISInOut",
           "package": "hacanon-light",
@@ -1469,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "DISInOut",
           "package": "hacanon-light",
@@ -1482,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "DISOut",
           "package": "hacanon-light",
@@ -1491,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "DISOut",
           "package": "hacanon-light",
@@ -1504,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "MkDIS",
           "package": "hacanon-light",
@@ -1513,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "MkDIS",
           "package": "hacanon-light",
@@ -1526,6 +1660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "disFFIType",
           "package": "hacanon-light",
@@ -1535,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "disFFIType",
           "package": "hacanon-light",
@@ -1548,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "disFree",
           "package": "hacanon-light",
@@ -1557,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "disFree",
           "package": "hacanon-light",
@@ -1570,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "disMarshal",
           "package": "hacanon-light",
@@ -1579,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "disMarshal",
           "package": "hacanon-light",
@@ -1592,6 +1732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "disMarshalP",
           "package": "hacanon-light",
@@ -1601,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "disMarshalP",
           "package": "hacanon-light",
@@ -1614,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "disOperation",
           "package": "hacanon-light",
@@ -1623,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "disOperation",
           "package": "hacanon-light",
@@ -1636,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "disType",
           "package": "hacanon-light",
@@ -1645,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "disType",
           "package": "hacanon-light",
@@ -1658,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "disUnMarshal",
           "package": "hacanon-light",
@@ -1667,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS Types",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS.Types",
           "name": "disUnMarshal",
           "package": "hacanon-light",
@@ -1680,6 +1828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS",
           "name": "DIS",
           "package": "hacanon-light",
@@ -1688,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS",
           "name": "DIS",
           "package": "hacanon-light",
@@ -1701,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS",
           "name": "isInDIS",
           "package": "hacanon-light",
@@ -1710,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS",
           "name": "isInDIS",
           "normalized": "DIS-\u003eBool",
@@ -1725,6 +1877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS",
           "name": "isOfOperation",
           "package": "hacanon-light",
@@ -1734,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS",
           "name": "isOfOperation",
           "normalized": "[DISOperation]-\u003eDIS-\u003eBool",
@@ -1749,6 +1903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.DIS",
           "name": "isOutDIS",
           "package": "hacanon-light",
@@ -1758,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight DIS",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.DIS",
           "name": "isOutDIS",
           "normalized": "DIS-\u003eBool",
@@ -1773,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.FFIToHs",
           "name": "FFIToHs",
           "package": "hacanon-light",
@@ -1781,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight FFIToHs",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.FFIToHs",
           "name": "FFIToHs",
           "package": "hacanon-light",
@@ -1794,6 +1952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.FFIToHs",
           "name": "applyArgs",
           "package": "hacanon-light",
@@ -1803,6 +1962,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight FFIToHs",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.FFIToHs",
           "name": "applyArgs",
           "normalized": "ExpQ-\u003e[ExpQ]-\u003eExpQ",
@@ -1818,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.FFIToHs",
           "name": "bindArgs",
           "package": "hacanon-light",
@@ -1827,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight FFIToHs",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.FFIToHs",
           "name": "bindArgs",
           "normalized": "[DIS]-\u003e([(DIS,Name)]-\u003eExpQ)-\u003eExpQ",
@@ -1842,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.FFIToHs",
           "name": "callFunc",
           "package": "hacanon-light",
@@ -1851,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight FFIToHs",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.FFIToHs",
           "name": "callFunc",
           "normalized": "([(DIS,Name)]-\u003eExpQ)-\u003eName-\u003eDIS-\u003e[(DIS,Name)]-\u003eExpQ",
@@ -1866,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.FFIToHs",
           "name": "createHsBody",
           "package": "hacanon-light",
@@ -1875,6 +2040,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight FFIToHs",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.FFIToHs",
           "name": "createHsBody",
           "normalized": "Name-\u003e[DIS]-\u003eDIS-\u003eExpQ",
@@ -1890,6 +2056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.FFIToHs",
           "name": "marshalArgs",
           "package": "hacanon-light",
@@ -1899,6 +2066,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight FFIToHs",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.FFIToHs",
           "name": "marshalArgs",
           "normalized": "([(DIS,Name)]-\u003eExpQ)-\u003e[(DIS,Name)]-\u003eExpQ",
@@ -1914,6 +2082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.FFIToHs",
           "name": "processFFIDecl",
           "package": "hacanon-light",
@@ -1923,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight FFIToHs",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.FFIToHs",
           "name": "processFFIDecl",
           "normalized": "String-\u003eFFIDecl-\u003eHsDecl",
@@ -1938,6 +2108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.FFIToHs",
           "name": "unmarshalArgs",
           "package": "hacanon-light",
@@ -1947,6 +2118,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight FFIToHs",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.FFIToHs",
           "name": "unmarshalArgs",
           "normalized": "[(DIS,Name)]-\u003eExpQ",
@@ -1962,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Generate",
           "name": "Generate",
           "package": "hacanon-light",
@@ -1970,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Generate",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Generate",
           "name": "Generate",
           "package": "hacanon-light",
@@ -1983,6 +2157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Generate",
           "name": "bind",
           "package": "hacanon-light",
@@ -1992,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Generate",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Generate",
           "name": "bind",
           "normalized": "String-\u003eString-\u003e[DIS]-\u003eQ[Dec]",
@@ -2006,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Generate",
           "name": "bindWithOptions",
           "package": "hacanon-light",
@@ -2015,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Generate",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Generate",
           "name": "bindWithOptions",
           "normalized": "String-\u003eString-\u003e[DIS]-\u003eBool-\u003eSafety-\u003eCallconv-\u003eQ[Dec]",
@@ -2030,6 +2208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Generate",
           "name": "safeBind",
           "package": "hacanon-light",
@@ -2039,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Generate",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Generate",
           "name": "safeBind",
           "normalized": "String-\u003eString-\u003e[DIS]-\u003eQ[Dec]",
@@ -2054,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Generate",
           "name": "simpleBind",
           "package": "hacanon-light",
@@ -2063,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Generate",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Generate",
           "name": "simpleBind",
           "normalized": "String-\u003e[DIS]-\u003eQ[Dec]",
@@ -2078,6 +2260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:55 UTC 2014",
           "module": "Foreign.HacanonLight.Generate",
           "name": "simpleSafeBind",
           "package": "hacanon-light",
@@ -2087,6 +2270,7 @@
         },
         "index": {
           "hierarchy": "Foreign HacanonLight Generate",
+          "indexed": "2014-03-11T18:24:55",
           "module": "Foreign.HacanonLight.Generate",
           "name": "simpleSafeBind",
           "normalized": "String-\u003e[DIS]-\u003eQ[Dec]",

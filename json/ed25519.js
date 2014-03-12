@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ed25519"
+        "phrase": "ed25519",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides bindings to the ed25519 public-key signature\n system, including detached signatures. The underlying\n implementation uses the \u003ccode\u003eref10\u003c/code\u003e implementation of ed25519 from\n SUPERCOP, and should be relatively fast.\n\u003c/p\u003e\u003cp\u003eFor more information (including how to get a copy of the software)\n visit \u003ca\u003ehttp://ed25519.cr.yp.to\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:00:33 UTC 2014",
           "module": "Crypto.Sign.Ed25519",
           "name": "Ed25519",
           "package": "ed25519",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides bindings to the ed25519 public-key signature system including detached signatures The underlying implementation uses the ref10 implementation of ed25519 from SUPERCOP and should be relatively fast For more information including how to get copy of the software visit http ed25519.cr.yp.to",
           "hierarchy": "Crypto Sign Ed25519",
+          "indexed": "2014-03-11T18:00:33",
           "module": "Crypto.Sign.Ed25519",
           "name": "Ed25519",
           "package": "ed25519",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003ePublicKey\u003c/a\u003e\u003c/code\u003e created by \u003ccode\u003e\u003ca\u003ecreateKeypair\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:33 UTC 2014",
           "module": "Crypto.Sign.Ed25519",
           "name": "PublicKey",
           "package": "ed25519",
@@ -51,6 +54,7 @@
         "index": {
           "description": "PublicKey created by createKeypair",
           "hierarchy": "Crypto Sign Ed25519",
+          "indexed": "2014-03-11T18:00:33",
           "module": "Crypto.Sign.Ed25519",
           "name": "PublicKey",
           "package": "ed25519",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSecretKey\u003c/a\u003e\u003c/code\u003e created by \u003ccode\u003e\u003ca\u003ecreateKeypair\u003c/a\u003e\u003c/code\u003e. Be sure to keep this\n safe!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:33 UTC 2014",
           "module": "Crypto.Sign.Ed25519",
           "name": "SecretKey",
           "package": "ed25519",
@@ -74,6 +79,7 @@
         "index": {
           "description": "SecretKey created by createKeypair Be sure to keep this safe",
           "hierarchy": "Crypto Sign Ed25519",
+          "indexed": "2014-03-11T18:00:33",
           "module": "Crypto.Sign.Ed25519",
           "name": "SecretKey",
           "package": "ed25519",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSignature\u003c/a\u003e\u003c/code\u003e which is detached from the message it signed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:33 UTC 2014",
           "module": "Crypto.Sign.Ed25519",
           "name": "Signature",
           "package": "ed25519",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Signature which is detached from the message it signed",
           "hierarchy": "Crypto Sign Ed25519",
+          "indexed": "2014-03-11T18:00:33",
           "module": "Crypto.Sign.Ed25519",
           "name": "Signature",
           "package": "ed25519",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:33 UTC 2014",
           "module": "Crypto.Sign.Ed25519",
           "name": "PublicKey",
           "package": "ed25519",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Crypto Sign Ed25519",
+          "indexed": "2014-03-11T18:00:33",
           "module": "Crypto.Sign.Ed25519",
           "name": "PublicKey",
           "package": "ed25519",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:33 UTC 2014",
           "module": "Crypto.Sign.Ed25519",
           "name": "SecretKey",
           "package": "ed25519",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Crypto Sign Ed25519",
+          "indexed": "2014-03-11T18:00:33",
           "module": "Crypto.Sign.Ed25519",
           "name": "SecretKey",
           "package": "ed25519",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:33 UTC 2014",
           "module": "Crypto.Sign.Ed25519",
           "name": "Signature",
           "package": "ed25519",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Crypto Sign Ed25519",
+          "indexed": "2014-03-11T18:00:33",
           "module": "Crypto.Sign.Ed25519",
           "name": "Signature",
           "package": "ed25519",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomly generate a public and private key for doing\n authenticated signing and verification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:33 UTC 2014",
           "module": "Crypto.Sign.Ed25519",
           "name": "createKeypair",
           "package": "ed25519",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Randomly generate public and private key for doing authenticated signing and verification",
           "hierarchy": "Crypto Sign Ed25519",
+          "indexed": "2014-03-11T18:00:33",
           "module": "Crypto.Sign.Ed25519",
           "name": "createKeypair",
           "normalized": "IO(PublicKey,SecretKey)",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSign a message with a particular \u003ccode\u003e\u003ca\u003eSecretKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:33 UTC 2014",
           "module": "Crypto.Sign.Ed25519",
           "name": "sign",
           "package": "ed25519",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Sign message with particular SecretKey",
           "hierarchy": "Crypto Sign Ed25519",
+          "indexed": "2014-03-11T18:00:33",
           "module": "Crypto.Sign.Ed25519",
           "name": "sign",
           "normalized": "SecretKey-\u003eByteString-\u003eByteString",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSign a message with a particular \u003ccode\u003e\u003ca\u003eSecretKey\u003c/a\u003e\u003c/code\u003e, only returning the\n signature without the message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:33 UTC 2014",
           "module": "Crypto.Sign.Ed25519",
           "name": "sign'",
           "package": "ed25519",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Sign message with particular SecretKey only returning the signature without the message",
           "hierarchy": "Crypto Sign Ed25519",
+          "indexed": "2014-03-11T18:00:33",
           "module": "Crypto.Sign.Ed25519",
           "name": "sign'",
           "normalized": "SecretKey-\u003eByteString-\u003eSignature",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:33 UTC 2014",
           "module": "Crypto.Sign.Ed25519",
           "name": "unPublicKey",
           "package": "ed25519",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Crypto Sign Ed25519",
+          "indexed": "2014-03-11T18:00:33",
           "module": "Crypto.Sign.Ed25519",
           "name": "unPublicKey",
           "package": "ed25519",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:33 UTC 2014",
           "module": "Crypto.Sign.Ed25519",
           "name": "unSecretKey",
           "package": "ed25519",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Crypto Sign Ed25519",
+          "indexed": "2014-03-11T18:00:33",
           "module": "Crypto.Sign.Ed25519",
           "name": "unSecretKey",
           "package": "ed25519",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:33 UTC 2014",
           "module": "Crypto.Sign.Ed25519",
           "name": "unSignature",
           "package": "ed25519",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Crypto Sign Ed25519",
+          "indexed": "2014-03-11T18:00:33",
           "module": "Crypto.Sign.Ed25519",
           "name": "unSignature",
           "package": "ed25519",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerifies a signed message against a \u003ccode\u003e\u003ca\u003ePublicKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:33 UTC 2014",
           "module": "Crypto.Sign.Ed25519",
           "name": "verify",
           "package": "ed25519",
@@ -326,6 +353,7 @@
         "index": {
           "description": "Verifies signed message against PublicKey",
           "hierarchy": "Crypto Sign Ed25519",
+          "indexed": "2014-03-11T18:00:33",
           "module": "Crypto.Sign.Ed25519",
           "name": "verify",
           "normalized": "PublicKey-\u003eByteString-\u003eBool",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerify a message with a detached \u003ccode\u003e\u003ca\u003eSignature\u003c/a\u003e\u003c/code\u003e, for a given\n \u003ccode\u003e\u003ca\u003ePublicKey\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:33 UTC 2014",
           "module": "Crypto.Sign.Ed25519",
           "name": "verify'",
           "package": "ed25519",
@@ -350,6 +379,7 @@
         "index": {
           "description": "Verify message with detached Signature for given PublicKey",
           "hierarchy": "Crypto Sign Ed25519",
+          "indexed": "2014-03-11T18:00:33",
           "module": "Crypto.Sign.Ed25519",
           "name": "verify'",
           "normalized": "PublicKey-\u003eByteString-\u003eSignature-\u003eBool",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pseudomacros"
+        "phrase": "pseudomacros",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe pseudo-macros in this module are meant to be used via Template\n Haskell (see \u003ca\u003ehttp://www.haskell.org/ghc/docs/latest/html/users_guide/template-haskell.html\u003c/a\u003e for more information).\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE TemplateHaskell #-}\n import PseudoMacros\n\n main :: IO ()\n main = putStrLn (\"Hello from \" ++ $__FILE__ ++ \", line \" ++ show $__LINE__ ++ \"!\")\n\u003c/pre\u003e\u003cp\u003eThat is, enable the \u003ccode\u003eTemplateHaskell\u003c/code\u003e extension and put a \u003ccode\u003e$\u003c/code\u003e before each\n pseudo-macro.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:45:43 UTC 2014",
           "module": "PseudoMacros",
           "name": "PseudoMacros",
           "package": "pseudomacros",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The pseudo-macros in this module are meant to be used via Template Haskell see http www.haskell.org ghc docs latest html users guide template-haskell.html for more information Example LANGUAGE TemplateHaskell import PseudoMacros main IO main putStrLn Hello from FILE line show LINE That is enable the TemplateHaskell extension and put before each pseudo-macro",
           "hierarchy": "PseudoMacros",
+          "indexed": "2014-03-11T19:45:43",
           "module": "PseudoMacros",
           "name": "PseudoMacros",
           "package": "pseudomacros",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string containing the current date in the format \u003cem\u003eYYYY-MM-DD\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:43 UTC 2014",
           "module": "PseudoMacros",
           "name": "__DATE__",
           "package": "pseudomacros",
@@ -52,6 +55,7 @@
         "index": {
           "description": "string containing the current date in the format YYYY-MM-DD",
           "hierarchy": "PseudoMacros",
+          "indexed": "2014-03-11T19:45:43",
           "module": "PseudoMacros",
           "name": "__DATE__",
           "package": "pseudomacros",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string containing the current file name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:43 UTC 2014",
           "module": "PseudoMacros",
           "name": "__FILE__",
           "package": "pseudomacros",
@@ -76,6 +81,7 @@
         "index": {
           "description": "string containing the current file name",
           "hierarchy": "PseudoMacros",
+          "indexed": "2014-03-11T19:45:43",
           "module": "PseudoMacros",
           "name": "__FILE__",
           "package": "pseudomacros",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn integer containing the current line number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:43 UTC 2014",
           "module": "PseudoMacros",
           "name": "__LINE__",
           "package": "pseudomacros",
@@ -100,6 +107,7 @@
         "index": {
           "description": "An integer containing the current line number",
           "hierarchy": "PseudoMacros",
+          "indexed": "2014-03-11T19:45:43",
           "module": "PseudoMacros",
           "name": "__LINE__",
           "package": "pseudomacros",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string containing the current module name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:43 UTC 2014",
           "module": "PseudoMacros",
           "name": "__MODULE__",
           "package": "pseudomacros",
@@ -124,6 +133,7 @@
         "index": {
           "description": "string containing the current module name",
           "hierarchy": "PseudoMacros",
+          "indexed": "2014-03-11T19:45:43",
           "module": "PseudoMacros",
           "name": "__MODULE__",
           "package": "pseudomacros",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string containing the current package name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:43 UTC 2014",
           "module": "PseudoMacros",
           "name": "__PACKAGE__",
           "package": "pseudomacros",
@@ -148,6 +159,7 @@
         "index": {
           "description": "string containing the current package name",
           "hierarchy": "PseudoMacros",
+          "indexed": "2014-03-11T19:45:43",
           "module": "PseudoMacros",
           "name": "__PACKAGE__",
           "package": "pseudomacros",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string containing the current time in the format \u003cem\u003eHH:MM:SS\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:45:43 UTC 2014",
           "module": "PseudoMacros",
           "name": "__TIME__",
           "package": "pseudomacros",
@@ -172,6 +185,7 @@
         "index": {
           "description": "string containing the current time in the format HH MM SS",
           "hierarchy": "PseudoMacros",
+          "indexed": "2014-03-11T19:45:43",
           "module": "PseudoMacros",
           "name": "__TIME__",
           "package": "pseudomacros",

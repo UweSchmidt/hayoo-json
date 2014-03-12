@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fixpoint"
+        "phrase": "fixpoint",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:09 UTC 2014",
           "module": "Data.Fixpoint.Algorithms",
           "name": "Algorithms",
           "package": "fixpoint",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Fixpoint Algorithms",
+          "indexed": "2014-03-11T18:10:09",
           "module": "Data.Fixpoint.Algorithms",
           "name": "Algorithms",
           "package": "fixpoint",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:09 UTC 2014",
           "module": "Data.Fixpoint.Algorithms",
           "name": "size",
           "package": "fixpoint",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Fixpoint Algorithms",
+          "indexed": "2014-03-11T18:10:09",
           "module": "Data.Fixpoint.Algorithms",
           "name": "size",
           "normalized": "a-\u003eInt",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:09 UTC 2014",
           "module": "Data.Fixpoint",
           "name": "Fixpoint",
           "package": "fixpoint",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Fixpoint",
+          "indexed": "2014-03-11T18:10:09",
           "module": "Data.Fixpoint",
           "name": "Fixpoint",
           "package": "fixpoint",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of data types representable by fixpoints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:09 UTC 2014",
           "module": "Data.Fixpoint",
           "name": "Fixpoint",
           "package": "fixpoint",
@@ -93,6 +100,7 @@
         "index": {
           "description": "The class of data types representable by fixpoints",
           "hierarchy": "Data Fixpoint",
+          "indexed": "2014-03-11T18:10:09",
           "module": "Data.Fixpoint",
           "name": "Fixpoint",
           "package": "fixpoint",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnamorphism (same as \u003ccode\u003e\u003ca\u003eunfold\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:09 UTC 2014",
           "module": "Data.Fixpoint",
           "name": "ana",
           "package": "fixpoint",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Anamorphism same as unfold",
           "hierarchy": "Data Fixpoint",
+          "indexed": "2014-03-11T18:10:09",
           "module": "Data.Fixpoint",
           "name": "ana",
           "normalized": "(a-\u003ePre b a)-\u003ea-\u003eb",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatamorphism (same as \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:09 UTC 2014",
           "module": "Data.Fixpoint",
           "name": "cata",
           "package": "fixpoint",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Catamorphism same as fold",
           "hierarchy": "Data Fixpoint",
+          "indexed": "2014-03-11T18:10:09",
           "module": "Data.Fixpoint",
           "name": "cata",
           "normalized": "(Pre a b-\u003eb)-\u003ea-\u003eb",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatamorphism (same as \u003ccode\u003e\u003ca\u003ecata\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:09 UTC 2014",
           "module": "Data.Fixpoint",
           "name": "fold",
           "package": "fixpoint",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Catamorphism same as cata",
           "hierarchy": "Data Fixpoint",
+          "indexed": "2014-03-11T18:10:09",
           "module": "Data.Fixpoint",
           "name": "fold",
           "normalized": "(Pre a b-\u003eb)-\u003ea-\u003eb",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHylomorphism\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:09 UTC 2014",
           "module": "Data.Fixpoint",
           "name": "hylo",
           "package": "fixpoint",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Hylomorphism",
           "hierarchy": "Data Fixpoint",
+          "indexed": "2014-03-11T18:10:09",
           "module": "Data.Fixpoint",
           "name": "hylo",
           "normalized": "(Pre a b-\u003eb)-\u003e(c-\u003ePre a c)-\u003ec-\u003eb",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInjection from the underlying functor into the data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:09 UTC 2014",
           "module": "Data.Fixpoint",
           "name": "inject",
           "package": "fixpoint",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Injection from the underlying functor into the data type",
           "hierarchy": "Data Fixpoint",
+          "indexed": "2014-03-11T18:10:09",
           "module": "Data.Fixpoint",
           "name": "inject",
           "normalized": "Pre a a-\u003ea",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParamorphism\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:09 UTC 2014",
           "module": "Data.Fixpoint",
           "name": "para",
           "package": "fixpoint",
@@ -242,6 +261,7 @@
         "index": {
           "description": "Paramorphism",
           "hierarchy": "Data Fixpoint",
+          "indexed": "2014-03-11T18:10:09",
           "module": "Data.Fixpoint",
           "name": "para",
           "normalized": "(Pre a(a,b)-\u003eb)-\u003ea-\u003eb",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProjection from the data type to its underlying functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:09 UTC 2014",
           "module": "Data.Fixpoint",
           "name": "project",
           "package": "fixpoint",
@@ -267,6 +288,7 @@
         "index": {
           "description": "Projection from the data type to its underlying functor",
           "hierarchy": "Data Fixpoint",
+          "indexed": "2014-03-11T18:10:09",
           "module": "Data.Fixpoint",
           "name": "project",
           "normalized": "a-\u003ePre a a",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnamorphism (same as \u003ccode\u003e\u003ca\u003eana\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:09 UTC 2014",
           "module": "Data.Fixpoint",
           "name": "unfold",
           "package": "fixpoint",
@@ -292,6 +315,7 @@
         "index": {
           "description": "Anamorphism same as ana",
           "hierarchy": "Data Fixpoint",
+          "indexed": "2014-03-11T18:10:09",
           "module": "Data.Fixpoint",
           "name": "unfold",
           "normalized": "(a-\u003ePre b a)-\u003ea-\u003eb",

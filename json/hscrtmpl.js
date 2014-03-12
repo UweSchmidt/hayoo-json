@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hscrtmpl"
+        "phrase": "hscrtmpl",
+        "type": "phrase"
       },
       "type": "context"
     }

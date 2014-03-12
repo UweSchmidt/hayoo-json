@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sndfile-enumerators"
+        "phrase": "sndfile-enumerators",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "Base",
           "package": "sndfile-enumerators",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "Base",
           "package": "sndfile-enumerators",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat of audio data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "AudioFormat",
           "package": "sndfile-enumerators",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Format of audio data",
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "AudioFormat",
           "package": "sndfile-enumerators",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAudio monad stack (for writing files)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "AudioMonad",
           "package": "sndfile-enumerators",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Audio monad stack for writing files",
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "AudioMonad",
           "package": "sndfile-enumerators",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about the AudioStream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "AudioStreamState",
           "package": "sndfile-enumerators",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Information about the AudioStream",
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "AudioStreamState",
           "package": "sndfile-enumerators",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "BitDepth",
           "package": "sndfile-enumerators",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "BitDepth",
           "package": "sndfile-enumerators",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "CorruptFileException",
           "package": "sndfile-enumerators",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "CorruptFileException",
           "package": "sndfile-enumerators",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "FrameCount",
           "package": "sndfile-enumerators",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "FrameCount",
           "package": "sndfile-enumerators",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "MissingFormatException",
           "package": "sndfile-enumerators",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "MissingFormatException",
           "package": "sndfile-enumerators",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "NumChannels",
           "package": "sndfile-enumerators",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "NumChannels",
           "package": "sndfile-enumerators",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "SampleRate",
           "package": "sndfile-enumerators",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "SampleRate",
           "package": "sndfile-enumerators",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "SupportedBitDepths",
           "package": "sndfile-enumerators",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "SupportedBitDepths",
           "package": "sndfile-enumerators",
@@ -256,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn enumeration of all file types supported for reading and writing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "SupportedFileFormat",
           "package": "sndfile-enumerators",
@@ -265,6 +288,7 @@
         "index": {
           "description": "An enumeration of all file types supported for reading and writing",
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "SupportedFileFormat",
           "package": "sndfile-enumerators",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "UnknownFileTypeException",
           "package": "sndfile-enumerators",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "UnknownFileTypeException",
           "package": "sndfile-enumerators",
@@ -300,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommon functions for writing audio data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "WritableAudio",
           "package": "sndfile-enumerators",
@@ -309,6 +336,7 @@
         "index": {
           "description": "Common functions for writing audio data",
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "WritableAudio",
           "package": "sndfile-enumerators",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "Any",
           "package": "sndfile-enumerators",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "Any",
           "package": "sndfile-enumerators",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "AudioFormat",
           "package": "sndfile-enumerators",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "AudioFormat",
           "package": "sndfile-enumerators",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "CorruptFileException",
           "package": "sndfile-enumerators",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "CorruptFileException",
           "package": "sndfile-enumerators",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "MissingFormatException",
           "package": "sndfile-enumerators",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "MissingFormatException",
           "package": "sndfile-enumerators",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "NoState",
           "package": "sndfile-enumerators",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "NoState",
           "package": "sndfile-enumerators",
@@ -432,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "Raw",
           "package": "sndfile-enumerators",
@@ -441,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "Raw",
           "package": "sndfile-enumerators",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "Supported",
           "package": "sndfile-enumerators",
@@ -463,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "Supported",
           "normalized": "Supported[BitDepth]",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "UnknownFileTypeException",
           "package": "sndfile-enumerators",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "UnknownFileTypeException",
           "package": "sndfile-enumerators",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "Wave",
           "package": "sndfile-enumerators",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "Wave",
           "package": "sndfile-enumerators",
@@ -523,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle, format, Total bytes written, data bytes written, data chunklen offset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "WaveState",
           "package": "sndfile-enumerators",
@@ -533,6 +580,7 @@
         "index": {
           "description": "Handle format Total bytes written data bytes written data chunklen offset",
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "WaveState",
           "package": "sndfile-enumerators",
@@ -547,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBit depth of the audio data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "bitDepth",
           "package": "sndfile-enumerators",
@@ -557,6 +606,7 @@
         "index": {
           "description": "Bit depth of the audio data",
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "bitDepth",
           "package": "sndfile-enumerators",
@@ -570,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "defaultChunkLength",
           "package": "sndfile-enumerators",
@@ -579,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "defaultChunkLength",
           "package": "sndfile-enumerators",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "emptyState",
           "package": "sndfile-enumerators",
@@ -601,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "emptyState",
           "normalized": "a-\u003eAudioStreamState",
@@ -616,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "fileType",
           "package": "sndfile-enumerators",
@@ -625,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "fileType",
           "normalized": "a-\u003eSupportedFileFormat",
@@ -641,6 +697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperate on a single channel of an audio stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "getChannel",
           "package": "sndfile-enumerators",
@@ -650,6 +707,7 @@
         "index": {
           "description": "Operate on single channel of an audio stream",
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "getChannel",
           "normalized": "Int-\u003eInt-\u003eEnumeratee(Vector Double)(Vector Double)a b",
@@ -665,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "initState",
           "package": "sndfile-enumerators",
@@ -674,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "initState",
           "normalized": "a-\u003eHandle-\u003eAudioStreamState",
@@ -690,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of channels in the audio data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "numberOfChannels",
           "package": "sndfile-enumerators",
@@ -700,6 +761,7 @@
         "index": {
           "description": "Number of channels in the audio data",
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "numberOfChannels",
           "package": "sndfile-enumerators",
@@ -714,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample rate of the audio data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "sampleRate",
           "package": "sndfile-enumerators",
@@ -724,6 +787,7 @@
         "index": {
           "description": "Sample rate of the audio data",
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "sampleRate",
           "package": "sndfile-enumerators",
@@ -737,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Base",
           "name": "supportedBitDepths",
           "package": "sndfile-enumerators",
@@ -746,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Base",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Base",
           "name": "supportedBitDepths",
           "normalized": "a-\u003eSupportedBitDepths",
@@ -761,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Raw",
           "name": "Raw",
           "package": "sndfile-enumerators",
@@ -769,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Codecs Raw",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Raw",
           "name": "Raw",
           "package": "sndfile-enumerators",
@@ -782,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Raw",
           "name": "RawCodec",
           "package": "sndfile-enumerators",
@@ -790,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Codecs Raw",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Raw",
           "name": "RawCodec",
           "package": "sndfile-enumerators",
@@ -803,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Raw",
           "name": "RawCodec",
           "package": "sndfile-enumerators",
@@ -812,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Codecs Raw",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Raw",
           "name": "RawCodec",
           "package": "sndfile-enumerators",
@@ -825,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Raw",
           "name": "readRaw",
           "package": "sndfile-enumerators",
@@ -834,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Codecs Raw",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Raw",
           "name": "readRaw",
           "normalized": "AudioFormat-\u003eIteratee(Vector Double)a b-\u003eIteratee(Vector Word)a b",
@@ -849,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "Wave",
           "package": "sndfile-enumerators",
@@ -857,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "Wave",
           "package": "sndfile-enumerators",
@@ -871,6 +947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard WAVE Chunks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WAVECHUNK",
           "package": "sndfile-enumerators",
@@ -880,6 +957,7 @@
         "index": {
           "description": "Standard WAVE Chunks",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WAVECHUNK",
           "package": "sndfile-enumerators",
@@ -893,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WAVEDE",
           "package": "sndfile-enumerators",
@@ -901,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WAVEDE",
           "package": "sndfile-enumerators",
@@ -914,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WAVEDEENUM",
           "package": "sndfile-enumerators",
@@ -922,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WAVEDEENUM",
           "package": "sndfile-enumerators",
@@ -936,6 +1018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA WAVE directory is a list associating WAVE chunks with\n a record WAVEDE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WAVEDict",
           "package": "sndfile-enumerators",
@@ -945,6 +1028,7 @@
         "index": {
           "description": "WAVE directory is list associating WAVE chunks with record WAVEDE",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WAVEDict",
           "package": "sndfile-enumerators",
@@ -959,6 +1043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type to specify WAVE-formatted data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WaveCodec",
           "package": "sndfile-enumerators",
@@ -968,6 +1053,7 @@
         "index": {
           "description": "Data type to specify WAVE-formatted data",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WaveCodec",
           "package": "sndfile-enumerators",
@@ -982,6 +1068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WAVEDATA",
           "package": "sndfile-enumerators",
@@ -992,6 +1079,7 @@
         "index": {
           "description": "Data",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WAVEDATA",
           "package": "sndfile-enumerators",
@@ -1005,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WAVEDE",
           "package": "sndfile-enumerators",
@@ -1014,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WAVEDE",
           "package": "sndfile-enumerators",
@@ -1028,6 +1118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WAVEFMT",
           "package": "sndfile-enumerators",
@@ -1038,6 +1129,7 @@
         "index": {
           "description": "Format",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WAVEFMT",
           "package": "sndfile-enumerators",
@@ -1052,6 +1144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WAVEOTHER",
           "package": "sndfile-enumerators",
@@ -1062,6 +1155,7 @@
         "index": {
           "description": "Other",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WAVEOTHER",
           "package": "sndfile-enumerators",
@@ -1075,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WENBYTE",
           "package": "sndfile-enumerators",
@@ -1084,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WENBYTE",
           "package": "sndfile-enumerators",
@@ -1097,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WENDUB",
           "package": "sndfile-enumerators",
@@ -1106,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WENDUB",
           "package": "sndfile-enumerators",
@@ -1119,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WaveCodec",
           "package": "sndfile-enumerators",
@@ -1128,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "WaveCodec",
           "package": "sndfile-enumerators",
@@ -1142,6 +1242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a WAVECHUNK to the representative string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "chunkToString",
           "package": "sndfile-enumerators",
@@ -1152,6 +1253,7 @@
         "index": {
           "description": "Convert WAVECHUNK to the representative string",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "chunkToString",
           "normalized": "WAVECHUNK-\u003eString",
@@ -1167,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "closeWave",
           "package": "sndfile-enumerators",
@@ -1176,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "closeWave",
           "normalized": "AudioMonad()",
@@ -1192,6 +1296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the length of data in a dictionary chunk, in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "dictGetLengthBytes",
           "package": "sndfile-enumerators",
@@ -1202,6 +1307,7 @@
         "index": {
           "description": "Get the length of data in dictionary chunk in bytes",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "dictGetLengthBytes",
           "normalized": "WAVECHUNK-\u003eInt-\u003eWAVEDict-\u003eMaybe Integer",
@@ -1218,6 +1324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the length of a data chunk, in samples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "dictGetLengthSamples",
           "package": "sndfile-enumerators",
@@ -1228,6 +1335,7 @@
         "index": {
           "description": "Get the length of data chunk in samples",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "dictGetLengthSamples",
           "normalized": "AudioFormat-\u003eInt-\u003eWAVEDict-\u003eMaybe Integer",
@@ -1244,6 +1352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the specified data chunk from the dictionary, applying the\n data to the specified Iteratee.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "dictProcessData",
           "package": "sndfile-enumerators",
@@ -1253,6 +1362,7 @@
         "index": {
           "description": "Read the specified data chunk from the dictionary applying the data to the specified Iteratee",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "dictProcessData",
           "normalized": "Int-\u003eWAVEDict-\u003eIteratee(Vector Double)a b-\u003eIteratee(Vector Word)a(Iteratee(Vector Double)a b)",
@@ -1268,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "dictProcessData_",
           "package": "sndfile-enumerators",
@@ -1276,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "dictProcessData_",
           "normalized": "Int-\u003eWAVEDict-\u003eIteratee(Vector Double)a b-\u003eIteratee(Vector Word)a(Maybe b)",
@@ -1292,6 +1404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the first format chunk in the WAVE dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "dictReadFirstFormat",
           "package": "sndfile-enumerators",
@@ -1302,6 +1415,7 @@
         "index": {
           "description": "Read the first format chunk in the WAVE dictionary",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "dictReadFirstFormat",
           "normalized": "WAVEDict-\u003eIteratee(Vector Word)a(Maybe AudioFormat)",
@@ -1318,6 +1432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the specified format chunk from the WAVE dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "dictReadFormat",
           "package": "sndfile-enumerators",
@@ -1327,6 +1442,7 @@
         "index": {
           "description": "Read the specified format chunk from the WAVE dictionary",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "dictReadFormat",
           "normalized": "Int-\u003eWAVEDict-\u003eIteratee(Vector Word)a(Maybe AudioFormat)",
@@ -1343,6 +1459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the last format chunk from the WAVE dictionary.  This is useful\n when parsing all chunks in the dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "dictReadLastFormat",
           "package": "sndfile-enumerators",
@@ -1353,6 +1470,7 @@
         "index": {
           "description": "Read the last format chunk from the WAVE dictionary This is useful when parsing all chunks in the dictionary",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "dictReadLastFormat",
           "normalized": "WAVEDict-\u003eIteratee(Vector Word)a(Maybe AudioFormat)",
@@ -1369,6 +1487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the AudioFormat and data length from a file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "dictSoundInfo",
           "package": "sndfile-enumerators",
@@ -1379,6 +1498,7 @@
         "index": {
           "description": "Get the AudioFormat and data length from file",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "dictSoundInfo",
           "normalized": "WAVEDict-\u003eIteratee(Vector Word)a(Maybe(AudioFormat,Integer))",
@@ -1395,6 +1515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a wave file for writing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "openWave",
           "package": "sndfile-enumerators",
@@ -1405,6 +1526,7 @@
         "index": {
           "description": "Open wave file for writing",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "openWave",
           "normalized": "FilePath-\u003eAudioMonad()",
@@ -1421,6 +1543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the RIFF header of a file.  Returns True if the file is a valid RIFF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "readRiff",
           "package": "sndfile-enumerators",
@@ -1431,6 +1554,7 @@
         "index": {
           "description": "Read the RIFF header of file Returns True if the file is valid RIFF",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "readRiff",
           "package": "sndfile-enumerators",
@@ -1444,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "runWaveAM",
           "package": "sndfile-enumerators",
@@ -1453,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "runWaveAM",
           "normalized": "AudioMonad a-\u003eIO a",
@@ -1469,6 +1595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a string to WAVECHUNK type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "waveChunk",
           "package": "sndfile-enumerators",
@@ -1479,6 +1606,7 @@
         "index": {
           "description": "Convert string to WAVECHUNK type",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "waveChunk",
           "normalized": "String-\u003eMaybe WAVECHUNK",
@@ -1495,6 +1623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe library function to read the WAVE dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "waveReader",
           "package": "sndfile-enumerators",
@@ -1505,6 +1634,7 @@
         "index": {
           "description": "The library function to read the WAVE dictionary",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "waveReader",
           "package": "sndfile-enumerators",
@@ -1519,6 +1649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elength of chunk\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "wavedeCount",
           "package": "sndfile-enumerators",
@@ -1529,6 +1660,7 @@
         "index": {
           "description": "length of chunk",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "wavedeCount",
           "package": "sndfile-enumerators",
@@ -1543,6 +1675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eenumerator to get values of chunk\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "wavedeEnum",
           "package": "sndfile-enumerators",
@@ -1553,6 +1686,7 @@
         "index": {
           "description": "enumerator to get values of chunk",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "wavedeEnum",
           "package": "sndfile-enumerators",
@@ -1567,6 +1701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype of chunk\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "wavedeType",
           "package": "sndfile-enumerators",
@@ -1577,6 +1712,7 @@
         "index": {
           "description": "type of chunk",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "wavedeType",
           "package": "sndfile-enumerators",
@@ -1591,6 +1727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a data chunk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "writeDataChunk",
           "package": "sndfile-enumerators",
@@ -1601,6 +1738,7 @@
         "index": {
           "description": "Write data chunk",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "writeDataChunk",
           "normalized": "Vector Double-\u003eAudioMonad()",
@@ -1617,6 +1755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite the header for a Data chunk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "writeDataHeader",
           "package": "sndfile-enumerators",
@@ -1627,6 +1766,7 @@
         "index": {
           "description": "Write the header for Data chunk",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "writeDataHeader",
           "normalized": "AudioMonad()",
@@ -1643,6 +1783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a data format block to the open wave file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "writeFormat",
           "package": "sndfile-enumerators",
@@ -1653,6 +1794,7 @@
         "index": {
           "description": "Write data format block to the open wave file",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "writeFormat",
           "normalized": "AudioFormat-\u003eAudioMonad()",
@@ -1669,6 +1811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an iteratee to write data to a wave file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "writeWave",
           "package": "sndfile-enumerators",
@@ -1679,6 +1822,7 @@
         "index": {
           "description": "Create an iteratee to write data to wave file",
           "hierarchy": "Sound Iteratee Codecs Wave",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs.Wave",
           "name": "writeWave",
           "normalized": "FilePath-\u003eAudioFormat-\u003eIteratee(Vector Double)AudioMonad()",
@@ -1694,6 +1838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs",
           "name": "Codecs",
           "package": "sndfile-enumerators",
@@ -1702,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Codecs",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs",
           "name": "Codecs",
           "package": "sndfile-enumerators",
@@ -1716,6 +1862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn existentially-wrapped codec.  This exists in order to get an arbitrary\n codec (and associated information, such as bit depths)\n from a SupportedFileFormat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs",
           "name": "Codec",
           "package": "sndfile-enumerators",
@@ -1725,6 +1872,7 @@
         "index": {
           "description": "An existentially-wrapped codec This exists in order to get an arbitrary codec and associated information such as bit depths from SupportedFileFormat",
           "hierarchy": "Sound Iteratee Codecs",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs",
           "name": "Codec",
           "package": "sndfile-enumerators",
@@ -1738,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs",
           "name": "Codec",
           "package": "sndfile-enumerators",
@@ -1747,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Codecs",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs",
           "name": "Codec",
           "package": "sndfile-enumerators",
@@ -1760,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs",
           "name": "getCodec",
           "package": "sndfile-enumerators",
@@ -1769,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Codecs",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs",
           "name": "getCodec",
           "normalized": "SupportedFileFormat-\u003eCodec",
@@ -1785,6 +1937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a writer iteratee for a SupportedFileFormat\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Codecs",
           "name": "getWriter",
           "package": "sndfile-enumerators",
@@ -1795,6 +1948,7 @@
         "index": {
           "description": "Get writer iteratee for SupportedFileFormat",
           "hierarchy": "Sound Iteratee Codecs",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Codecs",
           "name": "getWriter",
           "normalized": "SupportedFileFormat-\u003eFilePath-\u003eAudioFormat-\u003eIteratee(Vector Double)AudioMonad()",
@@ -1810,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.File",
           "name": "File",
           "package": "sndfile-enumerators",
@@ -1818,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee File",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.File",
           "name": "File",
           "package": "sndfile-enumerators",
@@ -1832,6 +1988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault buffer size.  The value from Data.Iteratee.IO is generally too\n small for good performance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.File",
           "name": "defaultBufSize",
           "package": "sndfile-enumerators",
@@ -1842,6 +1999,7 @@
         "index": {
           "description": "Default buffer size The value from Data.Iteratee.IO is generally too small for good performance",
           "hierarchy": "Sound Iteratee File",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.File",
           "name": "defaultBufSize",
           "package": "sndfile-enumerators",
@@ -1855,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.File",
           "name": "enumAudioIteratee",
           "package": "sndfile-enumerators",
@@ -1864,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee File",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.File",
           "name": "enumAudioIteratee",
           "normalized": "FilePath-\u003eIteratee(Vector Double)a b-\u003ea(Iteratee(Vector Double)a b)",
@@ -1879,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.File",
           "name": "enumAudioIterateeWithFormat",
           "package": "sndfile-enumerators",
@@ -1888,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee File",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.File",
           "name": "enumAudioIterateeWithFormat",
           "normalized": "FilePath-\u003e(AudioFormat-\u003eIteratee(Vector Double)a b)-\u003ea(Iteratee(Vector Double)a b)",
@@ -1904,6 +2066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget audio format information and audio length (samples, not frames)\n from a file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.File",
           "name": "getAudioInfo",
           "package": "sndfile-enumerators",
@@ -1914,6 +2077,7 @@
         "index": {
           "description": "get audio format information and audio length samples not frames from file",
           "hierarchy": "Sound Iteratee File",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.File",
           "name": "getAudioInfo",
           "normalized": "FilePath-\u003eIO(Maybe(AudioFormat,Integer))",
@@ -1930,6 +2094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the format from a file name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.File",
           "name": "getFormat",
           "package": "sndfile-enumerators",
@@ -1940,6 +2105,7 @@
         "index": {
           "description": "get the format from file name",
           "hierarchy": "Sound Iteratee File",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.File",
           "name": "getFormat",
           "normalized": "FilePath-\u003eMaybe SupportedFileFormat",
@@ -1955,6 +2121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.File",
           "name": "runAudioIteratee",
           "package": "sndfile-enumerators",
@@ -1964,6 +2131,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee File",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.File",
           "name": "runAudioIteratee",
           "normalized": "FilePath-\u003eIteratee(Vector Double)AudioMonad a-\u003eIO a",
@@ -1979,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.File",
           "name": "tryRunAudioIteratee",
           "package": "sndfile-enumerators",
@@ -1988,6 +2157,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee File",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.File",
           "name": "tryRunAudioIteratee",
           "normalized": "FilePath-\u003eIteratee(Vector Double)AudioMonad a-\u003eIO(Either b a)",
@@ -2003,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Utils",
           "name": "Utils",
           "package": "sndfile-enumerators",
@@ -2011,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Utils",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Utils",
           "name": "Utils",
           "package": "sndfile-enumerators",
@@ -2025,6 +2197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterleave multiple vectors.  The inputs must all have the same length,\n else Nothing.\n\u003c/p\u003e\u003cp\u003eif there are no input vectors, output \u003ccode\u003eJust V.empty\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Utils",
           "name": "interleave",
           "package": "sndfile-enumerators",
@@ -2035,6 +2208,7 @@
         "index": {
           "description": "interleave multiple vectors The inputs must all have the same length else Nothing if there are no input vectors output Just V.empty",
           "hierarchy": "Sound Iteratee Utils",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Utils",
           "name": "interleave",
           "normalized": "[Vector a]-\u003eMaybe(Vector a)",
@@ -2050,6 +2224,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric functions and iteratees to support writing files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Writer",
           "name": "Writer",
           "package": "sndfile-enumerators",
@@ -2059,6 +2234,7 @@
         "index": {
           "description": "Generic functions and iteratees to support writing files",
           "hierarchy": "Sound Iteratee Writer",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Writer",
           "name": "Writer",
           "package": "sndfile-enumerators",
@@ -2072,6 +2248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Writer",
           "name": "enumAudioFile",
           "package": "sndfile-enumerators",
@@ -2081,6 +2258,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Writer",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Writer",
           "name": "enumAudioFile",
           "normalized": "Int-\u003eFilePath-\u003eEnumerator(Vector Word)a b",
@@ -2097,6 +2275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simplified interface to running an audio iteratee\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Writer",
           "name": "fileDriverAudio",
           "package": "sndfile-enumerators",
@@ -2107,6 +2286,7 @@
         "index": {
           "description": "simplified interface to running an audio iteratee",
           "hierarchy": "Sound Iteratee Writer",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Writer",
           "name": "fileDriverAudio",
           "normalized": "Iteratee(Vector Word)AudioMonad a-\u003eFilePath-\u003eIO a",
@@ -2122,6 +2302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee.Writer",
           "name": "runAudioMonad",
           "package": "sndfile-enumerators",
@@ -2131,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee Writer",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee.Writer",
           "name": "runAudioMonad",
           "normalized": "AudioMonad a-\u003eIO a",
@@ -2146,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:37 UTC 2014",
           "module": "Sound.Iteratee",
           "name": "Iteratee",
           "package": "sndfile-enumerators",
@@ -2154,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Sound Iteratee",
+          "indexed": "2014-03-11T20:06:37",
           "module": "Sound.Iteratee",
           "name": "Iteratee",
           "package": "sndfile-enumerators",

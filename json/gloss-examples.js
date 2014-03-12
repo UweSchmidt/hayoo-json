@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gloss-examples"
+        "phrase": "gloss-examples",
+        "type": "phrase"
       },
       "type": "context"
     }

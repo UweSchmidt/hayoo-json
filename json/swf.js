@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "swf"
+        "phrase": "swf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembler",
           "name": "Assembler",
           "package": "swf",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembler",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembler",
           "name": "Assembler",
           "package": "swf",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembler",
           "name": "Label",
           "package": "swf",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembler",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembler",
           "name": "Label",
           "package": "swf",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembler",
           "name": "Position",
           "package": "swf",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembler",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembler",
           "name": "Position",
           "package": "swf",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembler",
           "name": "SymTbl",
           "package": "swf",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembler",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembler",
           "name": "SymTbl",
           "package": "swf",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembler",
           "name": "assemble",
           "package": "swf",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembler",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembler",
           "name": "assemble",
           "normalized": "[SwfAssembly]-\u003ePosition-\u003eSymTbl-\u003e(SymTbl,[Word])",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembler",
           "name": "assembleSimple",
           "package": "swf",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembler",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembler",
           "name": "assembleSimple",
           "normalized": "Word-\u003e[SwfAssembly]-\u003ePosition-\u003eSymTbl-\u003e(SymTbl,[Word])",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "Assembly",
           "package": "swf",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "Assembly",
           "package": "swf",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "PreSup",
           "package": "swf",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "PreSup",
           "package": "swf",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "SwfAssembly",
           "package": "swf",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "SwfAssembly",
           "package": "swf",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionAdd",
           "package": "swf",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionAdd",
           "package": "swf",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionAdd2",
           "package": "swf",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionAdd2",
           "package": "swf",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionAnd",
           "package": "swf",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionAnd",
           "package": "swf",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionAsciiToChar",
           "package": "swf",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionAsciiToChar",
           "package": "swf",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionBitAnd",
           "package": "swf",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionBitAnd",
           "package": "swf",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionBitLShift",
           "package": "swf",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionBitLShift",
           "package": "swf",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionBitOr",
           "package": "swf",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionBitOr",
           "package": "swf",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionBitRShift",
           "package": "swf",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionBitRShift",
           "package": "swf",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionBitURShift",
           "package": "swf",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionBitURShift",
           "package": "swf",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionBitXor",
           "package": "swf",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionBitXor",
           "package": "swf",
@@ -432,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionCall",
           "package": "swf",
@@ -441,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionCall",
           "package": "swf",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionCallFunction",
           "package": "swf",
@@ -463,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionCallFunction",
           "package": "swf",
@@ -476,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionCallMethod",
           "package": "swf",
@@ -485,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionCallMethod",
           "package": "swf",
@@ -498,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionCastOp",
           "package": "swf",
@@ -507,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionCastOp",
           "package": "swf",
@@ -520,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionCharToAscii",
           "package": "swf",
@@ -529,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionCharToAscii",
           "package": "swf",
@@ -542,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionCloneSprite",
           "package": "swf",
@@ -551,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionCloneSprite",
           "package": "swf",
@@ -564,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionConstantPool",
           "package": "swf",
@@ -573,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionConstantPool",
           "normalized": "ActionConstantPool[String]",
@@ -588,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionDecrement",
           "package": "swf",
@@ -597,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionDecrement",
           "package": "swf",
@@ -610,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionDefineFunction",
           "package": "swf",
@@ -619,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionDefineFunction",
           "normalized": "ActionDefineFunction(Maybe String)[String][SwfAssembly]",
@@ -634,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionDefineFunction2",
           "package": "swf",
@@ -643,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionDefineFunction2",
           "normalized": "ActionDefineFunction String[(String,Word)]Word Bool Bool PreSup PreSup PreSup Bool",
@@ -658,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionDefineLocal",
           "package": "swf",
@@ -667,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionDefineLocal",
           "package": "swf",
@@ -680,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionDefineLocal2",
           "package": "swf",
@@ -689,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionDefineLocal2",
           "package": "swf",
@@ -702,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionDelete",
           "package": "swf",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionDelete",
           "package": "swf",
@@ -724,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionDelete2",
           "package": "swf",
@@ -733,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionDelete2",
           "package": "swf",
@@ -746,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionDivide",
           "package": "swf",
@@ -755,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionDivide",
           "package": "swf",
@@ -768,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionEndDrag",
           "package": "swf",
@@ -777,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionEndDrag",
           "package": "swf",
@@ -790,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionEnumerate",
           "package": "swf",
@@ -799,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionEnumerate",
           "package": "swf",
@@ -812,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionEnumerate2",
           "package": "swf",
@@ -821,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionEnumerate2",
           "package": "swf",
@@ -834,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionEquals",
           "package": "swf",
@@ -843,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionEquals",
           "package": "swf",
@@ -856,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionEquals2",
           "package": "swf",
@@ -865,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionEquals2",
           "package": "swf",
@@ -878,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionExtends",
           "package": "swf",
@@ -887,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionExtends",
           "package": "swf",
@@ -900,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionGetMember",
           "package": "swf",
@@ -909,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionGetMember",
           "package": "swf",
@@ -922,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionGetProperty",
           "package": "swf",
@@ -931,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionGetProperty",
           "package": "swf",
@@ -944,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionGetTime",
           "package": "swf",
@@ -953,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionGetTime",
           "package": "swf",
@@ -966,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionGetURL",
           "package": "swf",
@@ -975,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionGetURL",
           "package": "swf",
@@ -988,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionGetURL2",
           "package": "swf",
@@ -997,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionGetURL2",
           "package": "swf",
@@ -1010,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionGetVariable",
           "package": "swf",
@@ -1019,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionGetVariable",
           "package": "swf",
@@ -1032,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionGotoFrame",
           "package": "swf",
@@ -1041,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionGotoFrame",
           "package": "swf",
@@ -1054,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionGotoFrame2",
           "package": "swf",
@@ -1063,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionGotoFrame2",
           "package": "swf",
@@ -1076,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionGotoLabel",
           "package": "swf",
@@ -1085,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionGotoLabel",
           "package": "swf",
@@ -1098,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionGreater",
           "package": "swf",
@@ -1107,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionGreater",
           "package": "swf",
@@ -1120,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionIf",
           "package": "swf",
@@ -1129,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionIf",
           "package": "swf",
@@ -1142,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionImplementsOp",
           "package": "swf",
@@ -1151,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionImplementsOp",
           "package": "swf",
@@ -1164,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionIncrement",
           "package": "swf",
@@ -1173,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionIncrement",
           "package": "swf",
@@ -1186,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionInitArray",
           "package": "swf",
@@ -1195,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionInitArray",
           "package": "swf",
@@ -1208,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionInitObject",
           "package": "swf",
@@ -1217,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionInitObject",
           "package": "swf",
@@ -1230,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionInstanceOf",
           "package": "swf",
@@ -1239,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionInstanceOf",
           "package": "swf",
@@ -1252,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionJump",
           "package": "swf",
@@ -1261,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionJump",
           "package": "swf",
@@ -1274,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionLess",
           "package": "swf",
@@ -1283,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionLess",
           "package": "swf",
@@ -1296,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionLess2",
           "package": "swf",
@@ -1305,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionLess2",
           "package": "swf",
@@ -1318,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionMBAsciiToChar",
           "package": "swf",
@@ -1327,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionMBAsciiToChar",
           "package": "swf",
@@ -1340,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionMBCharToAscii",
           "package": "swf",
@@ -1349,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionMBCharToAscii",
           "package": "swf",
@@ -1362,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionMBStringExtract",
           "package": "swf",
@@ -1371,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionMBStringExtract",
           "package": "swf",
@@ -1384,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionMBStringLength",
           "package": "swf",
@@ -1393,6 +1518,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionMBStringLength",
           "package": "swf",
@@ -1406,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionModulo",
           "package": "swf",
@@ -1415,6 +1542,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionModulo",
           "package": "swf",
@@ -1428,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionMultiply",
           "package": "swf",
@@ -1437,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionMultiply",
           "package": "swf",
@@ -1450,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionNewMethod",
           "package": "swf",
@@ -1459,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionNewMethod",
           "package": "swf",
@@ -1472,6 +1604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionNewObject",
           "package": "swf",
@@ -1481,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionNewObject",
           "package": "swf",
@@ -1494,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionNextFrame",
           "package": "swf",
@@ -1503,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionNextFrame",
           "package": "swf",
@@ -1516,6 +1652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionNot",
           "package": "swf",
@@ -1525,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionNot",
           "package": "swf",
@@ -1538,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionOr",
           "package": "swf",
@@ -1547,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionOr",
           "package": "swf",
@@ -1560,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionPlay",
           "package": "swf",
@@ -1569,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionPlay",
           "package": "swf",
@@ -1582,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionPop",
           "package": "swf",
@@ -1591,6 +1734,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionPop",
           "package": "swf",
@@ -1604,6 +1748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionPreviousFrame",
           "package": "swf",
@@ -1613,6 +1758,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionPreviousFrame",
           "package": "swf",
@@ -1626,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionPushBool",
           "package": "swf",
@@ -1635,6 +1782,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionPushBool",
           "package": "swf",
@@ -1648,6 +1796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionPushDouble",
           "package": "swf",
@@ -1657,6 +1806,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionPushDouble",
           "package": "swf",
@@ -1670,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionPushDuplicate",
           "package": "swf",
@@ -1679,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionPushDuplicate",
           "package": "swf",
@@ -1692,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionPushFloat",
           "package": "swf",
@@ -1701,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionPushFloat",
           "package": "swf",
@@ -1714,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionPushInt",
           "package": "swf",
@@ -1723,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionPushInt",
           "package": "swf",
@@ -1736,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionPushNull",
           "package": "swf",
@@ -1745,6 +1902,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionPushNull",
           "package": "swf",
@@ -1758,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionPushRegister",
           "package": "swf",
@@ -1767,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionPushRegister",
           "package": "swf",
@@ -1780,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionPushString",
           "package": "swf",
@@ -1789,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionPushString",
           "package": "swf",
@@ -1802,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionPushUndefined",
           "package": "swf",
@@ -1811,6 +1974,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionPushUndefined",
           "package": "swf",
@@ -1824,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionRandomNumber",
           "package": "swf",
@@ -1833,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionRandomNumber",
           "package": "swf",
@@ -1846,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionRemoveSprite",
           "package": "swf",
@@ -1855,6 +2022,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionRemoveSprite",
           "package": "swf",
@@ -1868,6 +2036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionReturn",
           "package": "swf",
@@ -1877,6 +2046,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionReturn",
           "package": "swf",
@@ -1890,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionSetMember",
           "package": "swf",
@@ -1899,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionSetMember",
           "package": "swf",
@@ -1912,6 +2084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionSetProperty",
           "package": "swf",
@@ -1921,6 +2094,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionSetProperty",
           "package": "swf",
@@ -1934,6 +2108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionSetTarget",
           "package": "swf",
@@ -1943,6 +2118,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionSetTarget",
           "package": "swf",
@@ -1956,6 +2132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionSetTarget2",
           "package": "swf",
@@ -1965,6 +2142,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionSetTarget2",
           "package": "swf",
@@ -1978,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionSetVariable",
           "package": "swf",
@@ -1987,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionSetVariable",
           "package": "swf",
@@ -2000,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionStackSwap",
           "package": "swf",
@@ -2009,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionStackSwap",
           "package": "swf",
@@ -2022,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionStartDrag",
           "package": "swf",
@@ -2031,6 +2214,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionStartDrag",
           "package": "swf",
@@ -2044,6 +2228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionStop",
           "package": "swf",
@@ -2053,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionStop",
           "package": "swf",
@@ -2066,6 +2252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionStopSounds",
           "package": "swf",
@@ -2075,6 +2262,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionStopSounds",
           "package": "swf",
@@ -2088,6 +2276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionStoreRegister",
           "package": "swf",
@@ -2097,6 +2286,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionStoreRegister",
           "package": "swf",
@@ -2110,6 +2300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionStrictEquals",
           "package": "swf",
@@ -2119,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionStrictEquals",
           "package": "swf",
@@ -2132,6 +2324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionStringAdd",
           "package": "swf",
@@ -2141,6 +2334,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionStringAdd",
           "package": "swf",
@@ -2154,6 +2348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionStringEquals",
           "package": "swf",
@@ -2163,6 +2358,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionStringEquals",
           "package": "swf",
@@ -2176,6 +2372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionStringExtract",
           "package": "swf",
@@ -2185,6 +2382,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionStringExtract",
           "package": "swf",
@@ -2198,6 +2396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionStringGreater",
           "package": "swf",
@@ -2207,6 +2406,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionStringGreater",
           "package": "swf",
@@ -2220,6 +2420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionStringLength",
           "package": "swf",
@@ -2229,6 +2430,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionStringLength",
           "package": "swf",
@@ -2242,6 +2444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionStringLess",
           "package": "swf",
@@ -2251,6 +2454,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionStringLess",
           "package": "swf",
@@ -2264,6 +2468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionSubtract",
           "package": "swf",
@@ -2273,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionSubtract",
           "package": "swf",
@@ -2286,6 +2492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionTargetPath",
           "package": "swf",
@@ -2295,6 +2502,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionTargetPath",
           "package": "swf",
@@ -2308,6 +2516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionThrow",
           "package": "swf",
@@ -2317,6 +2526,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionThrow",
           "package": "swf",
@@ -2330,6 +2540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionToInteger",
           "package": "swf",
@@ -2339,6 +2550,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionToInteger",
           "package": "swf",
@@ -2352,6 +2564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionToNumber",
           "package": "swf",
@@ -2361,6 +2574,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionToNumber",
           "package": "swf",
@@ -2374,6 +2588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionToString",
           "package": "swf",
@@ -2383,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionToString",
           "package": "swf",
@@ -2396,6 +2612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionToggleQuality",
           "package": "swf",
@@ -2405,6 +2622,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionToggleQuality",
           "package": "swf",
@@ -2418,6 +2636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionTrace",
           "package": "swf",
@@ -2427,6 +2646,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionTrace",
           "package": "swf",
@@ -2440,6 +2660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionTry",
           "package": "swf",
@@ -2449,6 +2670,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionTry",
           "normalized": "ActionTry(Either String Word)(Maybe[SwfAssembly])(Maybe[SwfAssembly])",
@@ -2464,6 +2686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionTypeOf",
           "package": "swf",
@@ -2473,6 +2696,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionTypeOf",
           "package": "swf",
@@ -2486,6 +2710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionWaitForFrame",
           "package": "swf",
@@ -2495,6 +2720,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionWaitForFrame",
           "package": "swf",
@@ -2508,6 +2734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionWaitForFrame2",
           "package": "swf",
@@ -2517,6 +2744,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionWaitForFrame2",
           "package": "swf",
@@ -2530,6 +2758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActionWith",
           "package": "swf",
@@ -2539,6 +2768,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActionWith",
           "package": "swf",
@@ -2552,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ActioninstanceOf",
           "package": "swf",
@@ -2561,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ActioninstanceOf",
           "package": "swf",
@@ -2574,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "Comment",
           "package": "swf",
@@ -2583,6 +2816,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "Comment",
           "package": "swf",
@@ -2596,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "Frame",
           "package": "swf",
@@ -2605,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "Frame",
           "normalized": "Frame Integer[SwfAssembly]",
@@ -2620,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "Label",
           "package": "swf",
@@ -2629,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "Label",
           "package": "swf",
@@ -2642,6 +2880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "Movie",
           "package": "swf",
@@ -2651,6 +2890,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "Movie",
           "normalized": "Movie String[SwfAssembly]",
@@ -2666,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "None",
           "package": "swf",
@@ -2675,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "None",
           "package": "swf",
@@ -2688,6 +2930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "Preload",
           "package": "swf",
@@ -2697,6 +2940,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "Preload",
           "package": "swf",
@@ -2710,6 +2954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "Suppress",
           "package": "swf",
@@ -2719,6 +2964,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "Suppress",
           "package": "swf",
@@ -2732,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Assembly",
           "name": "ppSwfAssemblies",
           "package": "swf",
@@ -2741,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "Swf Assembly",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Assembly",
           "name": "ppSwfAssemblies",
           "normalized": "[SwfAssembly]-\u003eDoc",
@@ -2756,6 +3004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "Bin",
           "package": "swf",
@@ -2764,6 +3013,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "Bin",
           "package": "swf",
@@ -2777,6 +3027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "Has",
           "package": "swf",
@@ -2785,6 +3036,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "Has",
           "package": "swf",
@@ -2798,6 +3050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "NBits",
           "package": "swf",
@@ -2806,6 +3059,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "NBits",
           "package": "swf",
@@ -2819,6 +3073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "SwfBin",
           "package": "swf",
@@ -2827,6 +3082,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "SwfBin",
           "package": "swf",
@@ -2840,6 +3096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "SwfBinPartial",
           "package": "swf",
@@ -2848,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "SwfBinPartial",
           "package": "swf",
@@ -2861,6 +3119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "SwfBool",
           "package": "swf",
@@ -2869,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "SwfBool",
           "package": "swf",
@@ -2882,6 +3142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "SwfDouble",
           "package": "swf",
@@ -2890,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "SwfDouble",
           "package": "swf",
@@ -2903,6 +3165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "SwfFloat",
           "package": "swf",
@@ -2911,6 +3174,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "SwfFloat",
           "package": "swf",
@@ -2924,6 +3188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "SwfLanguageCode",
           "package": "swf",
@@ -2932,6 +3197,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "SwfLanguageCode",
           "package": "swf",
@@ -2945,6 +3211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "SwfRGB",
           "package": "swf",
@@ -2953,6 +3220,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "SwfRGB",
           "package": "swf",
@@ -2966,6 +3234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "SwfRGBA",
           "package": "swf",
@@ -2974,6 +3243,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "SwfRGBA",
           "package": "swf",
@@ -2987,6 +3257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "SwfRect",
           "package": "swf",
@@ -2995,6 +3266,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "SwfRect",
           "package": "swf",
@@ -3008,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "SwfSB",
           "package": "swf",
@@ -3016,6 +3289,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "SwfSB",
           "package": "swf",
@@ -3029,6 +3303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "SwfString",
           "package": "swf",
@@ -3037,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "SwfString",
           "package": "swf",
@@ -3050,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "SwfU16",
           "package": "swf",
@@ -3058,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "SwfU16",
           "package": "swf",
@@ -3071,6 +3349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "SwfU32",
           "package": "swf",
@@ -3079,6 +3358,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "SwfU32",
           "package": "swf",
@@ -3092,6 +3372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "SwfU8",
           "package": "swf",
@@ -3100,6 +3381,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "SwfU8",
           "package": "swf",
@@ -3113,6 +3395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "SwfUB",
           "package": "swf",
@@ -3121,6 +3404,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "SwfUB",
           "package": "swf",
@@ -3134,6 +3418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "SwfRect",
           "package": "swf",
@@ -3143,6 +3428,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "SwfRect",
           "package": "swf",
@@ -3156,6 +3442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "SwfRectS",
           "package": "swf",
@@ -3165,6 +3452,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "SwfRectS",
           "package": "swf",
@@ -3178,6 +3466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "addBits",
           "package": "swf",
@@ -3187,6 +3476,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "addBits",
           "normalized": "([Word],Int)-\u003e(a,Int)-\u003e([Word],Int)",
@@ -3202,6 +3492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "finalizeBits",
           "package": "swf",
@@ -3211,6 +3502,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "finalizeBits",
           "normalized": "([Word],Int)-\u003e[Word]",
@@ -3226,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "has",
           "package": "swf",
@@ -3235,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "has",
           "normalized": "a-\u003eWord",
@@ -3249,6 +3543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "nBits",
           "package": "swf",
@@ -3258,6 +3553,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "nBits",
           "normalized": "a-\u003eWord",
@@ -3273,6 +3569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "nsBits",
           "package": "swf",
@@ -3282,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "nsBits",
           "normalized": "a-\u003eWord",
@@ -3297,6 +3595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "nuBits",
           "package": "swf",
@@ -3306,6 +3605,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "nuBits",
           "normalized": "a-\u003eWord",
@@ -3321,6 +3621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "toBin",
           "package": "swf",
@@ -3330,6 +3631,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "toBin",
           "normalized": "a-\u003e[Word]",
@@ -3345,6 +3647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Bin",
           "name": "toBinP",
           "package": "swf",
@@ -3354,6 +3657,7 @@
         },
         "index": {
           "hierarchy": "Swf Bin",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Bin",
           "name": "toBinP",
           "normalized": "Word-\u003eWord-\u003e([Word],Int)-\u003ea-\u003e([Word],Int)",
@@ -3369,6 +3673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "Tags",
           "package": "swf",
@@ -3377,6 +3682,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "Tags",
           "package": "swf",
@@ -3390,6 +3696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "Bitmaps",
           "package": "swf",
@@ -3398,6 +3705,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "Bitmaps",
           "package": "swf",
@@ -3411,6 +3719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "FillStyle",
           "package": "swf",
@@ -3419,6 +3728,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "FillStyle",
           "package": "swf",
@@ -3432,6 +3742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "GradientRecord",
           "package": "swf",
@@ -3440,6 +3751,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "GradientRecord",
           "package": "swf",
@@ -3453,6 +3765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "HeaderTag",
           "package": "swf",
@@ -3461,6 +3774,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "HeaderTag",
           "package": "swf",
@@ -3474,6 +3788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "LineStyle",
           "package": "swf",
@@ -3482,6 +3797,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "LineStyle",
           "package": "swf",
@@ -3495,6 +3811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "Shape",
           "package": "swf",
@@ -3503,6 +3820,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "Shape",
           "package": "swf",
@@ -3516,6 +3834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "ShapeRecord",
           "package": "swf",
@@ -3524,6 +3843,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "ShapeRecord",
           "package": "swf",
@@ -3537,6 +3857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "ShapeWithStyle",
           "package": "swf",
@@ -3545,6 +3866,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "ShapeWithStyle",
           "package": "swf",
@@ -3558,6 +3880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "SwfColorTransform",
           "package": "swf",
@@ -3566,6 +3889,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "SwfColorTransform",
           "package": "swf",
@@ -3579,6 +3903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "SwfMatrix",
           "package": "swf",
@@ -3587,6 +3912,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "SwfMatrix",
           "package": "swf",
@@ -3600,6 +3926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "Tag",
           "package": "swf",
@@ -3608,6 +3935,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "Tag",
           "package": "swf",
@@ -3621,6 +3949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "DefineEditText",
           "package": "swf",
@@ -3630,6 +3959,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "DefineEditText",
           "package": "swf",
@@ -3643,6 +3973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "DefineShape",
           "package": "swf",
@@ -3652,6 +3983,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "DefineShape",
           "package": "swf",
@@ -3665,6 +3997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "DoAction",
           "package": "swf",
@@ -3674,6 +4007,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "DoAction",
           "package": "swf",
@@ -3687,6 +4021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "End",
           "package": "swf",
@@ -3696,6 +4031,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "End",
           "package": "swf",
@@ -3709,6 +4045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "EndShapeRecord",
           "package": "swf",
@@ -3718,6 +4055,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "EndShapeRecord",
           "package": "swf",
@@ -3731,6 +4069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "FillStyleSolid",
           "package": "swf",
@@ -3740,6 +4079,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "FillStyleSolid",
           "package": "swf",
@@ -3753,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "FrameLabel",
           "package": "swf",
@@ -3762,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "FrameLabel",
           "package": "swf",
@@ -3775,6 +4117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "GradientRecordRGB",
           "package": "swf",
@@ -3784,6 +4127,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "GradientRecordRGB",
           "package": "swf",
@@ -3797,6 +4141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "GradientRecordRGBA",
           "package": "swf",
@@ -3806,6 +4151,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "GradientRecordRGBA",
           "package": "swf",
@@ -3819,6 +4165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "Int",
           "package": "swf",
@@ -3828,6 +4175,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "Int",
           "package": "swf",
@@ -3841,6 +4189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "LineStyle",
           "package": "swf",
@@ -3850,6 +4199,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "LineStyle",
           "package": "swf",
@@ -3863,6 +4213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "PlaceObject2",
           "package": "swf",
@@ -3872,6 +4223,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "PlaceObject2",
           "package": "swf",
@@ -3885,6 +4237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "SetBackgroundColor",
           "package": "swf",
@@ -3894,6 +4247,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "SetBackgroundColor",
           "package": "swf",
@@ -3907,6 +4261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "Shape",
           "package": "swf",
@@ -3916,6 +4271,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "Shape",
           "package": "swf",
@@ -3929,6 +4285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "ShapeWithStyle",
           "package": "swf",
@@ -3938,6 +4295,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "ShapeWithStyle",
           "package": "swf",
@@ -3951,6 +4309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "ShowFrame",
           "package": "swf",
@@ -3960,6 +4319,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "ShowFrame",
           "package": "swf",
@@ -3973,6 +4333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "StraightEdgeRecordG",
           "package": "swf",
@@ -3982,6 +4343,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "StraightEdgeRecordG",
           "package": "swf",
@@ -3995,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "StraightEdgeRecordH",
           "package": "swf",
@@ -4004,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "StraightEdgeRecordH",
           "package": "swf",
@@ -4017,6 +4381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "StraightEdgeRecordV",
           "package": "swf",
@@ -4026,6 +4391,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "StraightEdgeRecordV",
           "package": "swf",
@@ -4039,6 +4405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "StyleChangeRecord",
           "package": "swf",
@@ -4048,6 +4415,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "StyleChangeRecord",
           "package": "swf",
@@ -4061,6 +4429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "SwfColorTransform",
           "package": "swf",
@@ -4070,6 +4439,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "SwfColorTransform",
           "package": "swf",
@@ -4083,6 +4453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "SwfHeader",
           "package": "swf",
@@ -4092,6 +4463,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "SwfHeader",
           "package": "swf",
@@ -4105,6 +4477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "SwfMatrix",
           "package": "swf",
@@ -4114,6 +4487,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "SwfMatrix",
           "package": "swf",
@@ -4127,6 +4501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "addTagHeader",
           "package": "swf",
@@ -4136,6 +4511,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "addTagHeader",
           "normalized": "Word-\u003e[Word]-\u003e[Word]",
@@ -4151,6 +4527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "ctBlueAddTerm",
           "package": "swf",
@@ -4160,6 +4537,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "ctBlueAddTerm",
           "package": "swf",
@@ -4173,6 +4551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "ctBlueMultTrem",
           "package": "swf",
@@ -4182,6 +4561,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "ctBlueMultTrem",
           "package": "swf",
@@ -4195,6 +4575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "ctGreenAddTerm",
           "package": "swf",
@@ -4204,6 +4585,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "ctGreenAddTerm",
           "package": "swf",
@@ -4217,6 +4599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "ctGreenMultTerm",
           "package": "swf",
@@ -4226,6 +4609,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "ctGreenMultTerm",
           "package": "swf",
@@ -4239,6 +4623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "ctNbits",
           "package": "swf",
@@ -4248,6 +4633,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "ctNbits",
           "package": "swf",
@@ -4261,6 +4647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "ctRedAddTerm",
           "package": "swf",
@@ -4270,6 +4657,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "ctRedAddTerm",
           "package": "swf",
@@ -4283,6 +4671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "ctRedMultTerm",
           "package": "swf",
@@ -4292,6 +4681,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "ctRedMultTerm",
           "package": "swf",
@@ -4305,6 +4695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "daActions",
           "package": "swf",
@@ -4314,6 +4705,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "daActions",
           "normalized": "[SwfAssembly]",
@@ -4329,6 +4721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "deltaX",
           "package": "swf",
@@ -4338,6 +4731,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "deltaX",
           "package": "swf",
@@ -4350,6 +4744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "deltaY",
           "package": "swf",
@@ -4359,6 +4754,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "deltaY",
           "package": "swf",
@@ -4371,6 +4767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "detAutosize",
           "package": "swf",
@@ -4380,6 +4777,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "detAutosize",
           "package": "swf",
@@ -4393,6 +4791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "detBorder",
           "package": "swf",
@@ -4402,6 +4801,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "detBorder",
           "package": "swf",
@@ -4415,6 +4815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "detBounds",
           "package": "swf",
@@ -4424,6 +4825,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "detBounds",
           "package": "swf",
@@ -4437,6 +4839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "detCharacterId",
           "package": "swf",
@@ -4446,6 +4849,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "detCharacterId",
           "package": "swf",
@@ -4459,6 +4863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "detFont",
           "package": "swf",
@@ -4468,6 +4873,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "detFont",
           "normalized": "Maybe(SwfU,SwfU)",
@@ -4483,6 +4889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "detHTML",
           "package": "swf",
@@ -4492,6 +4899,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "detHTML",
           "package": "swf",
@@ -4505,6 +4913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "detInitialText",
           "package": "swf",
@@ -4514,6 +4923,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "detInitialText",
           "package": "swf",
@@ -4527,6 +4937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "detLayout",
           "package": "swf",
@@ -4536,6 +4947,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "detLayout",
           "normalized": "Maybe(SwfU,SwfU,SwfU,SwfU,SwfU)",
@@ -4551,6 +4963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "detMaxLength",
           "package": "swf",
@@ -4560,6 +4973,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "detMaxLength",
           "package": "swf",
@@ -4573,6 +4987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "detMultiline",
           "package": "swf",
@@ -4582,6 +4997,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "detMultiline",
           "package": "swf",
@@ -4595,6 +5011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "detNoSelect",
           "package": "swf",
@@ -4604,6 +5021,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "detNoSelect",
           "package": "swf",
@@ -4617,6 +5035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "detPassword",
           "package": "swf",
@@ -4626,6 +5045,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "detPassword",
           "package": "swf",
@@ -4639,6 +5059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "detReadOnly",
           "package": "swf",
@@ -4648,6 +5069,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "detReadOnly",
           "package": "swf",
@@ -4661,6 +5083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "detTextColor",
           "package": "swf",
@@ -4670,6 +5093,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "detTextColor",
           "package": "swf",
@@ -4683,6 +5107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "detUseOutlines",
           "package": "swf",
@@ -4692,6 +5117,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "detUseOutlines",
           "package": "swf",
@@ -4705,6 +5131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "detVariableName",
           "package": "swf",
@@ -4714,6 +5141,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "detVariableName",
           "package": "swf",
@@ -4727,6 +5155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "detWordWrap",
           "package": "swf",
@@ -4736,6 +5165,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "detWordWrap",
           "package": "swf",
@@ -4749,6 +5179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "dsShapeBounds",
           "package": "swf",
@@ -4758,6 +5189,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "dsShapeBounds",
           "package": "swf",
@@ -4771,6 +5203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "dsShapeId",
           "package": "swf",
@@ -4780,6 +5213,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "dsShapeId",
           "package": "swf",
@@ -4793,6 +5227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "dsShapes",
           "package": "swf",
@@ -4802,6 +5237,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "dsShapes",
           "package": "swf",
@@ -4815,6 +5251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "flName",
           "package": "swf",
@@ -4824,6 +5261,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "flName",
           "package": "swf",
@@ -4837,6 +5275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "fsColor",
           "package": "swf",
@@ -4846,6 +5285,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "fsColor",
           "package": "swf",
@@ -4859,6 +5299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "grRGB",
           "package": "swf",
@@ -4868,6 +5309,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "grRGB",
           "package": "swf",
@@ -4881,6 +5323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "grRGBA",
           "package": "swf",
@@ -4890,6 +5333,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "grRGBA",
           "package": "swf",
@@ -4903,6 +5347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "grRatio",
           "package": "swf",
@@ -4912,6 +5357,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "grRatio",
           "package": "swf",
@@ -4925,6 +5371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "lsColor",
           "package": "swf",
@@ -4934,6 +5381,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "lsColor",
           "package": "swf",
@@ -4947,6 +5395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "lsWidth",
           "package": "swf",
@@ -4956,6 +5405,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "lsWidth",
           "package": "swf",
@@ -4969,6 +5419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "mRotateSkew0",
           "package": "swf",
@@ -4978,6 +5429,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "mRotateSkew0",
           "package": "swf",
@@ -4991,6 +5443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "mRotateSkew1",
           "package": "swf",
@@ -5000,6 +5453,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "mRotateSkew1",
           "package": "swf",
@@ -5013,6 +5467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "mScaleX",
           "package": "swf",
@@ -5022,6 +5477,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "mScaleX",
           "package": "swf",
@@ -5035,6 +5491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "mScaleY",
           "package": "swf",
@@ -5044,6 +5501,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "mScaleY",
           "package": "swf",
@@ -5057,6 +5515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "mTranslateX",
           "package": "swf",
@@ -5066,6 +5525,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "mTranslateX",
           "package": "swf",
@@ -5079,6 +5539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "mTranslateY",
           "package": "swf",
@@ -5088,6 +5549,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "mTranslateY",
           "package": "swf",
@@ -5101,6 +5563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "po2CharacterId",
           "package": "swf",
@@ -5110,6 +5573,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "po2CharacterId",
           "package": "swf",
@@ -5123,6 +5587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "po2ClipDepth",
           "package": "swf",
@@ -5132,6 +5597,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "po2ClipDepth",
           "package": "swf",
@@ -5145,6 +5611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "po2ColorTransform",
           "package": "swf",
@@ -5154,6 +5621,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "po2ColorTransform",
           "package": "swf",
@@ -5167,6 +5635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "po2Depth",
           "package": "swf",
@@ -5176,6 +5645,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "po2Depth",
           "package": "swf",
@@ -5189,6 +5659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "po2Matrix",
           "package": "swf",
@@ -5198,6 +5669,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "po2Matrix",
           "package": "swf",
@@ -5211,6 +5683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "po2Name",
           "package": "swf",
@@ -5220,6 +5693,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "po2Name",
           "package": "swf",
@@ -5233,6 +5707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "po2PlaceMove",
           "package": "swf",
@@ -5242,6 +5717,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "po2PlaceMove",
           "package": "swf",
@@ -5255,6 +5731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "po2Ratio",
           "package": "swf",
@@ -5264,6 +5741,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "po2Ratio",
           "package": "swf",
@@ -5277,6 +5755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "sNumFillBits",
           "package": "swf",
@@ -5286,6 +5765,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "sNumFillBits",
           "package": "swf",
@@ -5299,6 +5779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "sNumLineBits",
           "package": "swf",
@@ -5308,6 +5789,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "sNumLineBits",
           "package": "swf",
@@ -5321,6 +5803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "sShapeRecords",
           "package": "swf",
@@ -5330,6 +5813,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "sShapeRecords",
           "normalized": "[ShapeRecord]",
@@ -5345,6 +5829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "sbcBackgroundColor",
           "package": "swf",
@@ -5354,6 +5839,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "sbcBackgroundColor",
           "package": "swf",
@@ -5367,6 +5853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "scrFillStyle0",
           "package": "swf",
@@ -5376,6 +5863,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "scrFillStyle0",
           "package": "swf",
@@ -5389,6 +5877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "scrFillStyle1",
           "package": "swf",
@@ -5398,6 +5887,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "scrFillStyle1",
           "package": "swf",
@@ -5411,6 +5901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "scrFillStyles",
           "package": "swf",
@@ -5420,6 +5911,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "scrFillStyles",
           "normalized": "Maybe[FillStyle]",
@@ -5435,6 +5927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "scrLineStyle",
           "package": "swf",
@@ -5444,6 +5937,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "scrLineStyle",
           "package": "swf",
@@ -5457,6 +5951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "scrLineStyles",
           "package": "swf",
@@ -5466,6 +5961,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "scrLineStyles",
           "normalized": "Maybe[LineStyle]",
@@ -5481,6 +5977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "scrMoveDelta",
           "package": "swf",
@@ -5490,6 +5987,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "scrMoveDelta",
           "normalized": "Maybe(SwfSB,SwfSB)",
@@ -5505,6 +6003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "shFrameCount",
           "package": "swf",
@@ -5514,6 +6013,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "shFrameCount",
           "package": "swf",
@@ -5527,6 +6027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "shFrameRate",
           "package": "swf",
@@ -5536,6 +6037,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "shFrameRate",
           "package": "swf",
@@ -5549,6 +6051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "shFrameSize",
           "package": "swf",
@@ -5558,6 +6061,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "shFrameSize",
           "package": "swf",
@@ -5571,6 +6075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "shTags",
           "package": "swf",
@@ -5580,6 +6085,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "shTags",
           "normalized": "[Tag]",
@@ -5595,6 +6101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "shVersion",
           "package": "swf",
@@ -5604,6 +6111,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "shVersion",
           "package": "swf",
@@ -5617,6 +6125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "swfWrite",
           "package": "swf",
@@ -5626,6 +6135,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "swfWrite",
           "normalized": "String-\u003e[Word]-\u003eIO()",
@@ -5641,6 +6151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "swsFillStyles",
           "package": "swf",
@@ -5650,6 +6161,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "swsFillStyles",
           "normalized": "[FillStyle]",
@@ -5665,6 +6177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "swsLineStyles",
           "package": "swf",
@@ -5674,6 +6187,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "swsLineStyles",
           "normalized": "[LineStyle]",
@@ -5689,6 +6203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Tags",
           "name": "swsShapeRecords",
           "package": "swf",
@@ -5698,6 +6213,7 @@
         },
         "index": {
           "hierarchy": "Swf Tags",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Tags",
           "name": "swsShapeRecords",
           "normalized": "[ShapeRecord]",
@@ -5713,6 +6229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:23 UTC 2014",
           "module": "Swf.Util",
           "name": "Util",
           "package": "swf",
@@ -5721,6 +6238,7 @@
         },
         "index": {
           "hierarchy": "Swf Util",
+          "indexed": "2014-03-11T20:14:23",
           "module": "Swf.Util",
           "name": "Util",
           "package": "swf",

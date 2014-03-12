@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "newports"
+        "phrase": "newports",
+        "type": "phrase"
       },
       "type": "context"
     }

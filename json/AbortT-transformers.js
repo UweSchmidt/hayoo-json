@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AbortT-transformers"
+        "phrase": "AbortT-transformers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a monad and a monad transformer that allow the\n user to abort a monadic computation and immediately return a\n result.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:32:47 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "Abort",
           "package": "AbortT-transformers",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides monad and monad transformer that allow the user to abort monadic computation and immediately return result",
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T16:32:47",
           "module": "Control.Monad.Trans.Abort",
           "name": "Abort",
           "package": "AbortT-transformers",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abort monad, parametrized by the type \u003ccode\u003er\u003c/code\u003e of the value to return.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:47 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "Abort",
           "package": "AbortT-transformers",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An abort monad parametrized by the type of the value to return",
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T16:32:47",
           "module": "Control.Monad.Trans.Abort",
           "name": "Abort",
           "package": "AbortT-transformers",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abort monad transformer parametrized by\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003er\u003c/code\u003e - the value that will ultimately be returned; and\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003em\u003c/code\u003e - the inner monad.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eAbortT\u003c/a\u003e\u003c/code\u003e type wraps a monadic value that is either\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e \u003ccode\u003er\u003c/code\u003e, which indicates that the monadic computation has\n     terminated with result \u003ccode\u003er\u003c/code\u003e and so all further steps in the computation\n     should be ignored; or\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e, which indicates that the computation is proceding normally\n     and that its current value is \u003ccode\u003ea\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:32:47 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "AbortT",
           "package": "AbortT-transformers",
@@ -74,6 +79,7 @@
         "index": {
           "description": "An abort monad transformer parametrized by the value that will ultimately be returned and the inner monad The AbortT type wraps monadic value that is either Left which indicates that the monadic computation has terminated with result and so all further steps in the computation should be ignored or Right which indicates that the computation is proceding normally and that its current value is",
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T16:32:47",
           "module": "Control.Monad.Trans.Abort",
           "name": "AbortT",
           "package": "AbortT-transformers",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:47 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "AbortT",
           "package": "AbortT-transformers",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T16:32:47",
           "module": "Control.Monad.Trans.Abort",
           "name": "AbortT",
           "package": "AbortT-transformers",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbort the computation and immediately return a result; all steps\n in the computation after this monadic computation will be ignored.\n\u003c/p\u003e\u003cp\u003eNote that since no further computation is performed after this, there is\n no way for subsequent computations to access the monadic value, and so it\n can be assigned an arbitrary type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:47 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "abort",
           "package": "AbortT-transformers",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Abort the computation and immediately return result all steps in the computation after this monadic computation will be ignored Note that since no further computation is performed after this there is no way for subsequent computations to access the monadic value and so it can be assigned an arbitrary type",
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T16:32:47",
           "module": "Control.Monad.Trans.Abort",
           "name": "abort",
           "normalized": "a-\u003eAbortT a b c",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts a \u003ccode\u003ecallCC\u003c/code\u003e operation to \u003ccode\u003e\u003ca\u003eAbortT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:47 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "liftCallCC",
           "package": "AbortT-transformers",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Lifts callCC operation to AbortT",
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T16:32:47",
           "module": "Control.Monad.Trans.Abort",
           "name": "liftCallCC",
           "normalized": "(((Either a b-\u003ec(Either a d))-\u003ec(Either a b))-\u003ec(Either a b))-\u003e((b-\u003eAbortT a c d)-\u003eAbortT a c b)-\u003eAbortT a c b",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003ecatchError\u003c/code\u003e operation to \u003ccode\u003e\u003ca\u003eAbortT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:47 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "liftCatch",
           "package": "AbortT-transformers",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Lift catchError operation to AbortT",
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T16:32:47",
           "module": "Control.Monad.Trans.Abort",
           "name": "liftCatch",
           "normalized": "(a(Either b c)-\u003e(d-\u003ea(Either b c))-\u003ea(Either b c))-\u003eAbortT b a c-\u003e(d-\u003eAbortT b a c)-\u003eAbortT b a c",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003elisten\u003c/code\u003e operation to the new monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:47 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "liftListen",
           "package": "AbortT-transformers",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Lift listen operation to the new monad",
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T16:32:47",
           "module": "Control.Monad.Trans.Abort",
           "name": "liftListen",
           "normalized": "(a(Either b c)-\u003ea(Either b c,d))-\u003eAbortT b a c-\u003eAbortT b a(c,d)",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003epass\u003c/code\u003e operation to the new monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:47 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "liftPass",
           "package": "AbortT-transformers",
@@ -218,6 +235,7 @@
         "index": {
           "description": "Lift pass operation to the new monad",
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T16:32:47",
           "module": "Control.Monad.Trans.Abort",
           "name": "liftPass",
           "normalized": "(a(Either b c,d-\u003ed)-\u003ea(Either b c))-\u003eAbortT b a(c,d-\u003ed)-\u003eAbortT b a c",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the abort monad computation and return the resulting value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:47 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "runAbort",
           "package": "AbortT-transformers",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Execute the abort monad computation and return the resulting value",
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T16:32:47",
           "module": "Control.Monad.Trans.Abort",
           "name": "runAbort",
           "normalized": "Abort a a-\u003ea",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the abort monad computation and return the resulting\n   (monadic) value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:47 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "runAbortT",
           "package": "AbortT-transformers",
@@ -268,6 +289,7 @@
         "index": {
           "description": "Execute the abort monad computation and return the resulting monadic value",
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T16:32:47",
           "module": "Control.Monad.Trans.Abort",
           "name": "runAbortT",
           "normalized": "AbortT a b a-\u003eb a",
@@ -283,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:47 UTC 2014",
           "module": "Control.Monad.Trans.Abort",
           "name": "unwrapAbortT",
           "package": "AbortT-transformers",
@@ -292,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Abort",
+          "indexed": "2014-03-11T16:32:47",
           "module": "Control.Monad.Trans.Abort",
           "name": "unwrapAbortT",
           "package": "AbortT-transformers",

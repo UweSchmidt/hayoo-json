@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "translate"
+        "phrase": "translate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Language.Detect",
           "name": "Detect",
           "package": "translate",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Language Detect",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Language.Detect",
           "name": "Detect",
           "package": "translate",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a triple where the first component is the language code associated with\n   given text, the second is a boolean representing whether or not the detection interval \n   believes the language code is reliable for the given text, and the third is a\n   numeric value between 0-1.0 that represents the confidence level in the language code\n   for the given text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Language.Detect",
           "name": "detect",
           "package": "translate",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Returns triple where the first component is the language code associated with given text the second is boolean representing whether or not the detection interval believes the language code is reliable for the given text and the third is numeric value between that represents the confidence level in the language code for the given text",
           "hierarchy": "Text Language Detect",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Language.Detect",
           "name": "detect",
           "normalized": "String-\u003eIO(Maybe(String,Bool,Double))",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the language code associated with the given text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Language.Detect",
           "name": "detectCode",
           "package": "translate",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Returns the language code associated with the given text",
           "hierarchy": "Text Language Detect",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Language.Detect",
           "name": "detectCode",
           "normalized": "String-\u003eIO(Maybe String)",
@@ -90,6 +96,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Language.Internals",
           "name": "Internals",
           "package": "translate",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Text Language Internals",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Language.Internals",
           "name": "Internals",
           "package": "translate",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Language.Internals",
           "name": "RBad",
           "package": "translate",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Text Language Internals",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Language.Internals",
           "name": "RBad",
           "package": "translate",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Language.Internals",
           "name": "RStatus",
           "package": "translate",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Text Language Internals",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Language.Internals",
           "name": "RStatus",
           "package": "translate",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Language.Internals",
           "name": "(-)",
           "package": "translate",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Text Language Internals",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Language.Internals",
           "name": "(-) -",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Language.Internals",
           "name": "(.)",
           "package": "translate",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Text Language Internals",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Language.Internals",
           "name": "(.) .",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Language.Internals",
           "name": "RBad",
           "package": "translate",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Text Language Internals",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Language.Internals",
           "name": "RBad",
           "package": "translate",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Language.Internals",
           "name": "RStatus",
           "package": "translate",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Text Language Internals",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Language.Internals",
           "name": "RStatus",
           "package": "translate",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a request using Network.Curl\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Language.Internals",
           "name": "curl",
           "package": "translate",
@@ -254,6 +275,7 @@
         "index": {
           "description": "Perform request using Network.Curl",
           "hierarchy": "Text Language Internals",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Language.Internals",
           "name": "curl",
           "normalized": "String-\u003eIO(Maybe String)",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscapes a special character with UTF-8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Language.Internals",
           "name": "escapeURIChar",
           "package": "translate",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Escapes special character with UTF-8",
           "hierarchy": "Text Language Internals",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Language.Internals",
           "name": "escapeURIChar",
           "normalized": "(Char-\u003eBool)-\u003eChar-\u003eString",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan be used to make a string valid for use in a URI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Language.Internals",
           "name": "escapeURIString",
           "package": "translate",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Can be used to make string valid for use in URI",
           "hierarchy": "Text Language Internals",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Language.Internals",
           "name": "escapeURIString",
           "normalized": "(Char-\u003eBool)-\u003eString-\u003eString",
@@ -320,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan be used to validate the URI sent to Google's API\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Language.Internals",
           "name": "escape_uri",
           "package": "translate",
@@ -330,6 +357,7 @@
         "index": {
           "description": "Can be used to validate the URI sent to Google API",
           "hierarchy": "Text Language Internals",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Language.Internals",
           "name": "escape_uri",
           "normalized": "String-\u003eString",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a string with the given arguments ready to be sent\n   to Google's APIs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Language.Internals",
           "name": "google_api",
           "package": "translate",
@@ -355,6 +384,7 @@
         "index": {
           "description": "Constructs string with the given arguments ready to be sent to Google APIs",
           "hierarchy": "Text Language Internals",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Language.Internals",
           "name": "google_api",
           "normalized": "String-\u003e[(String,String)]-\u003eString",
@@ -369,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Language.Internals",
           "name": "join",
           "package": "translate",
@@ -378,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Text Language Internals",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Language.Internals",
           "name": "join",
           "normalized": "[a]-\u003e[[a]]-\u003e[a]",
@@ -392,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Language.Internals",
           "name": "responseDetails",
           "package": "translate",
@@ -401,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Text Language Internals",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Language.Internals",
           "name": "responseDetails",
           "package": "translate",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Language.Internals",
           "name": "responseStatus",
           "package": "translate",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Text Language Internals",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Language.Internals",
           "name": "responseStatus",
           "package": "translate",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Language.Translate",
           "name": "Translate",
           "package": "translate",
@@ -444,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Text Language Translate",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Language.Translate",
           "name": "Translate",
           "package": "translate",
@@ -481,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:12 UTC 2014",
           "module": "Text.Translate",
           "name": "Translate",
           "package": "translate",
@@ -489,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Text Translate",
+          "indexed": "2014-03-11T20:25:12",
           "module": "Text.Translate",
           "name": "Translate",
           "package": "translate",

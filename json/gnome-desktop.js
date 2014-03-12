@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gnome-desktop"
+        "phrase": "gnome-desktop",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snaplet-postgresql-simple"
+        "phrase": "snaplet-postgresql-simple",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module allows you to use the auth snaplet with your user database stored\nin a PostgreSQL database.  When you run your application with this snaplet, a\nconfig file will be copied into the the \u003ccode\u003esnaplets/postgresql-auth\u003c/code\u003e directory.\nThis file contains all of the configurable options for the snaplet and allows\nyou to change them without recompiling your application.\n\u003c/p\u003e\u003cp\u003eTo use this snaplet in your application enable the session, postgres, and auth\nsnaplets as follows:\n\u003c/p\u003e\u003cpre\u003e data App = App\n     { ... -- your own application state here\n     , _sess :: Snaplet SessionManager\n     , _db   :: Snaplet Postgres\n     , _auth :: Snaplet (AuthManager App)\n     }\n\u003c/pre\u003e\u003cp\u003eThen in your initializer you'll have something like this:\n\u003c/p\u003e\u003cpre\u003e d \u003c- nestSnaplet \"db\" db pgsInit\n a \u003c- nestSnaplet \"auth\" auth $ initPostgresAuth sess d\n\u003c/pre\u003e\u003cp\u003eIf you have not already created the database table for users, it will\nautomatically be created for you the first time you run your application.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.PostgresqlSimple",
           "name": "PostgresqlSimple",
           "package": "snaplet-postgresql-simple",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module allows you to use the auth snaplet with your user database stored in PostgreSQL database When you run your application with this snaplet config file will be copied into the the snaplets postgresql-auth directory This file contains all of the configurable options for the snaplet and allows you to change them without recompiling your application To use this snaplet in your application enable the session postgres and auth snaplets as follows data App App your own application state here sess Snaplet SessionManager db Snaplet Postgres auth Snaplet AuthManager App Then in your initializer you ll have something like this nestSnaplet db db pgsInit nestSnaplet auth auth initPostgresAuth sess If you have not already created the database table for users it will automatically be created for you the first time you run your application",
           "hierarchy": "Snap Snaplet Auth Backends PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.Auth.Backends.PostgresqlSimple",
           "name": "PostgresqlSimple",
           "package": "snaplet-postgresql-simple",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializer for the postgres backend to the auth snaplet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.Auth.Backends.PostgresqlSimple",
           "name": "initPostgresAuth",
           "package": "snaplet-postgresql-simple",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Initializer for the postgres backend to the auth snaplet",
           "hierarchy": "Snap Snaplet Auth Backends PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.Auth.Backends.PostgresqlSimple",
           "name": "initPostgresAuth",
           "normalized": "SnapletLens a SessionManager-\u003eSnaplet Postgres-\u003eSnapletInit a(AuthManager a)",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis snaplet makes it simple to use a PostgreSQL database from your Snap\napplication and is based on the excellent postgresql-simple library\n(\u003ca\u003ehttp://hackage.haskell.org/package/postgresql-simple\u003c/a\u003e) by Leon Smith\n(adapted from Bryan O'Sullivan's mysql-simple).  Now, adding a database\nto your web app takes just two simple steps.\n\u003c/p\u003e\u003cp\u003eFirst, include this snaplet in your application's state.\n\u003c/p\u003e\u003cpre\u003e data App = App\n     { ... -- Other state needed in your app\n     , _db :: Snaplet Postgres\n     }\n\u003c/pre\u003e\u003cp\u003eNext, call the pgsInit from your application's initializer.\n\u003c/p\u003e\u003cpre\u003e appInit = makeSnaplet ... $ do\n     ...\n     d \u003c- nestSnaplet \"db\" db pgsInit\n     return $ App ... d\n\u003c/pre\u003e\u003cp\u003eNow you can use any of the postgresql-simple wrapper functions defined in this\nmodule anywhere in your application handlers.  For instance:\n\u003c/p\u003e\u003cpre\u003e postHandler :: Handler App App ()\n postHandler = do\n     posts \u003c- with db $ query_ \"select * from blog_post\"\n     ...\n\u003c/pre\u003e\u003cp\u003eOptionally, if you find yourself doing many database queries, you can eliminate some of the boilerplate by defining a HasPostgres instance for your application.\n\u003c/p\u003e\u003cpre\u003e instance HasPostgres (Handler b App) where\n   getPostgresState = with db get\n\u003c/pre\u003e\u003cp\u003eWith this code, our postHandler example no longer requires the \u003ccode\u003e\u003ca\u003ewith\u003c/a\u003e\u003c/code\u003e function:\n\u003c/p\u003e\u003cpre\u003e postHandler :: Handler App App ()\n postHandler = do\n     posts \u003c- query_ \"select * from blog_post\"\n     ...\n\u003c/pre\u003e\u003cp\u003eThe first time you run an application with the postgresql-simple snaplet, a\nconfiguration file \u003ccode\u003edevel.cfg\u003c/code\u003e is created in the \u003ccode\u003esnaplets/postgresql-simple\u003c/code\u003e\ndirectory underneath your project root.  It specifies how to connect to your\nPostgreSQL server and what user, password, and database to use.  Edit this\nfile and modify the values appropriately and you'll be off and running.\n\u003c/p\u003e\u003cp\u003eIf you want to have out-of-the-box authentication, look at the documentation\nfor the \u003ca\u003eSnap.Snaplet.Auth.Backends.PostgresqlSimple\u003c/a\u003e module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "PostgresqlSimple",
           "package": "snaplet-postgresql-simple",
@@ -76,6 +81,7 @@
         "index": {
           "description": "This snaplet makes it simple to use PostgreSQL database from your Snap application and is based on the excellent postgresql-simple library http hackage.haskell.org package postgresql-simple by Leon Smith adapted from Bryan Sullivan mysql-simple Now adding database to your web app takes just two simple steps First include this snaplet in your application state data App App Other state needed in your app db Snaplet Postgres Next call the pgsInit from your application initializer appInit makeSnaplet do nestSnaplet db db pgsInit return App Now you can use any of the postgresql-simple wrapper functions defined in this module anywhere in your application handlers For instance postHandler Handler App App postHandler do posts with db query select from blog post Optionally if you find yourself doing many database queries you can eliminate some of the boilerplate by defining HasPostgres instance for your application instance HasPostgres Handler App where getPostgresState with db get With this code our postHandler example no longer requires the with function postHandler Handler App App postHandler do posts query select from blog post The first time you run an application with the postgresql-simple snaplet configuration file devel.cfg is created in the snaplets postgresql-simple directory underneath your project root It specifies how to connect to your PostgreSQL server and what user password and database to use Edit this file and modify the values appropriately and you ll be off and running If you want to have out-of-the-box authentication look at the documentation for the Snap.Snaplet.Auth.Backends.PostgresqlSimple module",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "PostgresqlSimple",
           "package": "snaplet-postgresql-simple",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA composite type to parse your custom data structures without\n having to define dummy newtype wrappers every time.\n\u003c/p\u003e\u003cpre\u003e instance FromRow MyData where ...\n\u003c/pre\u003e\u003cpre\u003e instance FromRow MyData2 where ...\n\u003c/pre\u003e\u003cp\u003ethen I can do the following for free:\n\u003c/p\u003e\u003cpre\u003e\n res \u003c- query' c \u003ca\u003e...\u003c/a\u003e\n forM res $ \\(MyData{..} :. MyData2{..}) -\u003e do\n   ....\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": ":.",
           "package": "snaplet-postgresql-simple",
@@ -98,6 +105,7 @@
         "index": {
           "description": "composite type to parse your custom data structures without having to define dummy newtype wrappers every time instance FromRow MyData where instance FromRow MyData2 where then can do the following for free res query forM res MyData MyData2 do",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": ":.",
           "package": "snaplet-postgresql-simple",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap binary data for use as a \u003ccode\u003ebytea\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "Binary",
           "package": "snaplet-postgresql-simple",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Wrap binary data for use as bytea value",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "Binary",
           "package": "snaplet-postgresql-simple",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown if a \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e could not be formatted correctly.\n This may occur if the number of '\u003ccode\u003e?\u003c/code\u003e' characters in the query\n string does not match the number of parameters provided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "FormatError",
           "package": "snaplet-postgresql-simple",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Exception thrown if Query could not be formatted correctly This may occur if the number of characters in the query string does not match the number of parameters provided",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "FormatError",
           "package": "snaplet-postgresql-simple",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection type that can be converted from a sequence of fields.\n Instances are provided for tuples up to 10 elements and lists of any length.\n\u003c/p\u003e\u003cp\u003eNote that instances can be defined outside of postgresql-simple,  which is\n often useful.   For example, here's an instance for a user-defined pair:\n\u003c/p\u003e\u003cpre\u003edata User = User { name :: String, fileQuota :: Int }\n\ninstance \u003ccode\u003e\u003ca\u003eFromRow\u003c/a\u003e\u003c/code\u003e User where\n     fromRow = User \u003c$\u003e \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e \u003c*\u003e \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eThe number of calls to \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e must match the number of fields returned\n in a single row of the query result.  Otherwise,  a \u003ccode\u003e\u003ca\u003eConversionFailed\u003c/a\u003e\u003c/code\u003e\n exception will be thrown.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003efield\u003c/a\u003e\u003c/code\u003e evaluates it's result to WHNF, so the caveats listed in\n mysql-simple and very early versions of postgresql-simple no longer apply.\n Instead, look at the caveats associated with user-defined implementations\n of \u003ccode\u003e\u003ca\u003efromField\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "FromRow",
           "package": "snaplet-postgresql-simple",
@@ -163,6 +176,7 @@
         "index": {
           "description": "collection type that can be converted from sequence of fields Instances are provided for tuples up to elements and lists of any length Note that instances can be defined outside of postgresql-simple which is often useful For example here an instance for user-defined pair data User User name String fileQuota Int instance FromRow User where fromRow User field field The number of calls to field must match the number of fields returned in single row of the query result Otherwise ConversionFailed exception will be thrown Note that field evaluates it result to WHNF so the caveats listed in mysql-simple and very early versions of postgresql-simple no longer apply Instead look at the caveats associated with user-defined implementations of fromField",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "FromRow",
           "package": "snaplet-postgresql-simple",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstantiate this typeclass on 'Handler b YourAppState' so this snaplet\n can find the connection source.  If you need to have multiple instances of\n the postgres snaplet in your application, then don't provide this instance\n and leverage the default instance by using \"\u003ccode\u003ewith dbLens\u003c/code\u003e\" in front of calls\n to snaplet-postgresql-simple functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "HasPostgres",
           "package": "snaplet-postgresql-simple",
@@ -186,6 +201,7 @@
         "index": {
           "description": "Instantiate this typeclass on Handler YourAppState so this snaplet can find the connection source If you need to have multiple instances of the postgres snaplet in your application then don provide this instance and leverage the default instance by using with dbLens in front of calls to snaplet-postgresql-simple functions",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "HasPostgres",
           "package": "snaplet-postgresql-simple",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a list of values for use in an \u003ccode\u003eIN\u003c/code\u003e clause.  Replaces a\n single \"\u003ccode\u003e?\u003c/code\u003e\" character with a parenthesized list of rendered\n values.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e query c \"select * from whatever where id in ?\" (Only (In [3,4,5]))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "In",
           "package": "snaplet-postgresql-simple",
@@ -208,6 +225,7 @@
         "index": {
           "description": "Wrap list of values for use in an IN clause Replaces single character with parenthesized list of rendered values Example query select from whatever where id in Only In",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "In",
           "package": "snaplet-postgresql-simple",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOf the four isolation levels defined by the SQL standard,\n these are the three levels distinguished by PostgreSQL as of version 9.0.\n See \u003ca\u003ehttp://www.postgresql.org/docs/9.1/static/transaction-iso.html\u003c/a\u003e\n for more information.   Note that prior to PostgreSQL 9.0, \u003ccode\u003e\u003ca\u003eRepeatableRead\u003c/a\u003e\u003c/code\u003e\n was equivalent to \u003ccode\u003e\u003ca\u003eSerializable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "IsolationLevel",
           "package": "snaplet-postgresql-simple",
@@ -230,6 +249,7 @@
         "index": {
           "description": "Of the four isolation levels defined by the SQL standard these are the three levels distinguished by PostgreSQL as of version See http www.postgresql.org docs static transaction-iso.html for more information Note that prior to PostgreSQL RepeatableRead was equivalent to Serializable",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "IsolationLevel",
           "package": "snaplet-postgresql-simple",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single-value \"collection\".\n\u003c/p\u003e\u003cp\u003eThis is useful if you need to supply a single parameter to a SQL\n query, or extract a single column from a SQL result.\n\u003c/p\u003e\u003cp\u003eParameter example:\n\u003c/p\u003e\u003cpre\u003equery c \"select x from scores where x \u003e ?\" (\u003ccode\u003e\u003ca\u003eOnly\u003c/a\u003e\u003c/code\u003e (42::Int))\u003c/pre\u003e\u003cp\u003eResult example:\n\u003c/p\u003e\u003cpre\u003exs \u003c- query_ c \"select id from users\"\nforM_ xs $ \\(\u003ccode\u003e\u003ca\u003eOnly\u003c/a\u003e\u003c/code\u003e id) -\u003e {- ... -}\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "Only",
           "package": "snaplet-postgresql-simple",
@@ -252,6 +273,7 @@
         "index": {
           "description": "single-value collection This is useful if you need to supply single parameter to SQL query or extract single column from SQL result Parameter example query select from scores where Only Int Result example xs query select id from users forM xs Only id",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "Only",
           "package": "snaplet-postgresql-simple",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe state for the postgresql-simple snaplet. To use it in your app\n include this in your application state and use pgsInit to initialize it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "Postgres",
           "package": "snaplet-postgresql-simple",
@@ -275,6 +298,7 @@
         "index": {
           "description": "The state for the postgresql-simple snaplet To use it in your app include this in your application state and use pgsInit to initialize it",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "Postgres",
           "package": "snaplet-postgresql-simple",
@@ -289,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA query string. This type is intended to make it difficult to\n construct a SQL query by concatenating string fragments, as that is\n an extremely common way to accidentally introduce SQL injection\n vulnerabilities into an application.\n\u003c/p\u003e\u003cp\u003eThis type is an instance of \u003ccode\u003e\u003ca\u003eIsString\u003c/a\u003e\u003c/code\u003e, so the easiest way to\n construct a query is to enable the \u003ccode\u003eOverloadedStrings\u003c/code\u003e language\n extension and then simply write the query in double quotes.\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n\n import Database.PostgreSQL.Simple\n\n q :: Query\n q = \"select ?\"\n\u003c/pre\u003e\u003cp\u003eThe underlying type is a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, and literal Haskell strings\n that contain Unicode characters will be correctly transformed to\n UTF-8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "Query",
           "package": "snaplet-postgresql-simple",
@@ -297,6 +322,7 @@
         "index": {
           "description": "query string This type is intended to make it difficult to construct SQL query by concatenating string fragments as that is an extremely common way to accidentally introduce SQL injection vulnerabilities into an application This type is an instance of IsString so the easiest way to construct query is to enable the OverloadedStrings language extension and then simply write the query in double quotes LANGUAGE OverloadedStrings import Database.PostgreSQL.Simple Query select The underlying type is ByteString and literal Haskell strings that contain Unicode characters will be correctly transformed to UTF-8",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "Query",
           "package": "snaplet-postgresql-simple",
@@ -311,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown if \u003ccode\u003equery\u003c/code\u003e is used to perform an \u003ccode\u003eINSERT\u003c/code\u003e-like\n operation, or \u003ccode\u003eexecute\u003c/code\u003e is used to perform a \u003ccode\u003eSELECT\u003c/code\u003e-like operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "QueryError",
           "package": "snaplet-postgresql-simple",
@@ -319,6 +346,7 @@
         "index": {
           "description": "Exception thrown if query is used to perform an INSERT like operation or execute is used to perform SELECT like operation",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "QueryError",
           "package": "snaplet-postgresql-simple",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "ReadWriteMode",
           "package": "snaplet-postgresql-simple",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "ReadWriteMode",
           "package": "snaplet-postgresql-simple",
@@ -353,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException thrown if conversion from a SQL value to a Haskell\n value fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "ResultError",
           "package": "snaplet-postgresql-simple",
@@ -361,6 +392,7 @@
         "index": {
           "description": "Exception thrown if conversion from SQL value to Haskell value fails",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "ResultError",
           "package": "snaplet-postgresql-simple",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "SqlError",
           "package": "snaplet-postgresql-simple",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "SqlError",
           "package": "snaplet-postgresql-simple",
@@ -395,6 +429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection type that can be turned into a list of rendering\n \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eInstances should use the \u003ccode\u003erender\u003c/code\u003e method of the \u003ccode\u003eParam\u003c/code\u003e class\n to perform conversion of each element of the collection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "ToRow",
           "package": "snaplet-postgresql-simple",
@@ -403,6 +438,7 @@
         "index": {
           "description": "collection type that can be turned into list of rendering Action Instances should use the render method of the Param class to perform conversion of each element of the collection",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "ToRow",
           "package": "snaplet-postgresql-simple",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "TransactionMode",
           "package": "snaplet-postgresql-simple",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "TransactionMode",
           "package": "snaplet-postgresql-simple",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": ":.",
           "package": "snaplet-postgresql-simple",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": ":.",
           "package": "snaplet-postgresql-simple",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "Binary",
           "package": "snaplet-postgresql-simple",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "Binary",
           "package": "snaplet-postgresql-simple",
@@ -478,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe isolation level will be taken from\n   PostgreSQL's per-connection\n   \u003ccode\u003edefault_transaction_isolation\u003c/code\u003e variable,\n   which is initialized according to the\n   server's config.  The default configuration\n   is \u003ccode\u003e\u003ca\u003eReadCommitted\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "DefaultIsolationLevel",
           "package": "snaplet-postgresql-simple",
@@ -487,6 +530,7 @@
         "index": {
           "description": "the isolation level will be taken from PostgreSQL per-connection default transaction isolation variable which is initialized according to the server config The default configuration is ReadCommitted",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "DefaultIsolationLevel",
           "package": "snaplet-postgresql-simple",
@@ -501,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe read-write mode will be taken from\n   PostgreSQL's per-connection\n   \u003ccode\u003edefault_transaction_read_only\u003c/code\u003e variable,\n   which is initialized according to the\n   server's config.  The default configuration\n   is \u003ccode\u003e\u003ca\u003eReadWrite\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "DefaultReadWriteMode",
           "package": "snaplet-postgresql-simple",
@@ -510,6 +555,7 @@
         "index": {
           "description": "the read-write mode will be taken from PostgreSQL per-connection default transaction read only variable which is initialized according to the server config The default configuration is ReadWrite",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "DefaultReadWriteMode",
           "package": "snaplet-postgresql-simple",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "In",
           "package": "snaplet-postgresql-simple",
@@ -531,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "In",
           "package": "snaplet-postgresql-simple",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "Only",
           "package": "snaplet-postgresql-simple",
@@ -552,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "Only",
           "package": "snaplet-postgresql-simple",
@@ -565,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "Postgres",
           "package": "snaplet-postgresql-simple",
@@ -574,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "Postgres",
           "package": "snaplet-postgresql-simple",
@@ -587,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "ReadCommitted",
           "package": "snaplet-postgresql-simple",
@@ -595,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "ReadCommitted",
           "package": "snaplet-postgresql-simple",
@@ -608,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "ReadOnly",
           "package": "snaplet-postgresql-simple",
@@ -616,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "ReadOnly",
           "package": "snaplet-postgresql-simple",
@@ -629,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "ReadWrite",
           "package": "snaplet-postgresql-simple",
@@ -637,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "ReadWrite",
           "package": "snaplet-postgresql-simple",
@@ -650,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "RepeatableRead",
           "package": "snaplet-postgresql-simple",
@@ -658,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "RepeatableRead",
           "package": "snaplet-postgresql-simple",
@@ -671,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "Serializable",
           "package": "snaplet-postgresql-simple",
@@ -679,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "Serializable",
           "package": "snaplet-postgresql-simple",
@@ -692,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "SqlError",
           "package": "snaplet-postgresql-simple",
@@ -700,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "SqlError",
           "package": "snaplet-postgresql-simple",
@@ -713,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "TransactionMode",
           "package": "snaplet-postgresql-simple",
@@ -721,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "TransactionMode",
           "package": "snaplet-postgresql-simple",
@@ -734,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "begin",
           "package": "snaplet-postgresql-simple",
@@ -743,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "begin",
           "normalized": "a()",
@@ -757,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "beginLevel",
           "package": "snaplet-postgresql-simple",
@@ -766,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "beginLevel",
           "normalized": "IsolationLevel-\u003ea()",
@@ -781,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "beginMode",
           "package": "snaplet-postgresql-simple",
@@ -790,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "beginMode",
           "normalized": "TransactionMode-\u003ea()",
@@ -805,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "commit",
           "package": "snaplet-postgresql-simple",
@@ -814,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "commit",
           "normalized": "a()",
@@ -829,6 +903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault information for setting up a connection.\n\u003c/p\u003e\u003cp\u003eDefaults are as follows:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Server on \u003ccode\u003elocalhost\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Port on \u003ccode\u003e5432\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e User \u003ccode\u003epostgres\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e No password\n\u003c/li\u003e\u003cli\u003e Database \u003ccode\u003epostgres\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eUse as in the following example:\n\u003c/p\u003e\u003cpre\u003e connect defaultConnectInfo { connectHost = \"db.example.com\" }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "defaultConnectInfo",
           "package": "snaplet-postgresql-simple",
@@ -838,6 +913,7 @@
         "index": {
           "description": "Default information for setting up connection Defaults are as follows Server on localhost Port on User postgres No password Database postgres Use as in the following example connect defaultConnectInfo connectHost db.example.com",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "defaultConnectInfo",
           "package": "snaplet-postgresql-simple",
@@ -851,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "defaultIsolationLevel",
           "package": "snaplet-postgresql-simple",
@@ -859,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "defaultIsolationLevel",
           "package": "snaplet-postgresql-simple",
@@ -872,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "defaultReadWriteMode",
           "package": "snaplet-postgresql-simple",
@@ -880,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "defaultReadWriteMode",
           "package": "snaplet-postgresql-simple",
@@ -893,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "defaultTransactionMode",
           "package": "snaplet-postgresql-simple",
@@ -901,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "defaultTransactionMode",
           "package": "snaplet-postgresql-simple",
@@ -914,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "execute",
           "package": "snaplet-postgresql-simple",
@@ -923,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "execute",
           "normalized": "Query-\u003ea-\u003eb Int",
@@ -937,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "executeMany",
           "package": "snaplet-postgresql-simple",
@@ -946,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "executeMany",
           "normalized": "Query-\u003e[a]-\u003eb Int",
@@ -961,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "execute_",
           "package": "snaplet-postgresql-simple",
@@ -970,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "execute_",
           "normalized": "Query-\u003ea Int",
@@ -984,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "field",
           "package": "snaplet-postgresql-simple",
@@ -992,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "field",
           "package": "snaplet-postgresql-simple",
@@ -1004,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "fold",
           "package": "snaplet-postgresql-simple",
@@ -1013,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "fold",
           "normalized": "Query-\u003ea-\u003eb-\u003e(b-\u003ec-\u003eIO b)-\u003ed b",
@@ -1027,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "foldWithOptions",
           "package": "snaplet-postgresql-simple",
@@ -1036,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "foldWithOptions",
           "normalized": "FoldOptions-\u003eQuery-\u003ea-\u003eb-\u003e(b-\u003ec-\u003eIO b)-\u003ed b",
@@ -1051,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "foldWithOptions_",
           "package": "snaplet-postgresql-simple",
@@ -1060,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "foldWithOptions_",
           "normalized": "FoldOptions-\u003eQuery-\u003ea-\u003e(a-\u003eb-\u003eIO a)-\u003ec a",
@@ -1075,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "fold_",
           "package": "snaplet-postgresql-simple",
@@ -1084,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "fold_",
           "normalized": "Query-\u003ea-\u003e(a-\u003eb-\u003eIO a)-\u003ec a",
@@ -1098,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "forEach",
           "package": "snaplet-postgresql-simple",
@@ -1107,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "forEach",
           "normalized": "Query-\u003ea-\u003e(b-\u003eIO())-\u003ec()",
@@ -1122,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "forEach_",
           "package": "snaplet-postgresql-simple",
@@ -1131,6 +1232,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "forEach_",
           "normalized": "Query-\u003e(a-\u003eIO())-\u003eb()",
@@ -1146,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "formatMany",
           "package": "snaplet-postgresql-simple",
@@ -1155,6 +1258,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "formatMany",
           "normalized": "Query-\u003e[a]-\u003eb ByteString",
@@ -1170,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "formatQuery",
           "package": "snaplet-postgresql-simple",
@@ -1179,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "formatQuery",
           "normalized": "Query-\u003ea-\u003eb ByteString",
@@ -1194,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "fromBinary",
           "package": "snaplet-postgresql-simple",
@@ -1202,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "fromBinary",
           "package": "snaplet-postgresql-simple",
@@ -1215,6 +1323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "fromOnly",
           "package": "snaplet-postgresql-simple",
@@ -1223,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "fromOnly",
           "package": "snaplet-postgresql-simple",
@@ -1236,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "fromRow",
           "package": "snaplet-postgresql-simple",
@@ -1244,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "fromRow",
           "package": "snaplet-postgresql-simple",
@@ -1258,6 +1370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a connection string from a config\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "getConnectionString",
           "package": "snaplet-postgresql-simple",
@@ -1268,6 +1381,7 @@
         "index": {
           "description": "Produce connection string from config",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "getConnectionString",
           "normalized": "Config-\u003eIO ByteString",
@@ -1283,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "getPostgresState",
           "package": "snaplet-postgresql-simple",
@@ -1292,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "getPostgresState",
           "package": "snaplet-postgresql-simple",
@@ -1305,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "isolationLevel",
           "package": "snaplet-postgresql-simple",
@@ -1313,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "isolationLevel",
           "package": "snaplet-postgresql-simple",
@@ -1327,6 +1445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction for retrieving the connection pool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "pgPool",
           "package": "snaplet-postgresql-simple",
@@ -1337,6 +1456,7 @@
         "index": {
           "description": "Function for retrieving the connection pool",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "pgPool",
           "package": "snaplet-postgresql-simple",
@@ -1351,6 +1471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the snaplet\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "pgsInit",
           "package": "snaplet-postgresql-simple",
@@ -1361,6 +1482,7 @@
         "index": {
           "description": "Initialize the snaplet",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "pgsInit",
           "package": "snaplet-postgresql-simple",
@@ -1375,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the snaplet\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "pgsInit'",
           "package": "snaplet-postgresql-simple",
@@ -1385,6 +1508,7 @@
         "index": {
           "description": "Initialize the snaplet",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "pgsInit'",
           "normalized": "Config-\u003eSnapletInit a Postgres",
@@ -1401,6 +1525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003equery\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "query",
           "package": "snaplet-postgresql-simple",
@@ -1411,6 +1536,7 @@
         "index": {
           "description": "See query",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "query",
           "normalized": "Query-\u003ea-\u003eb[c]",
@@ -1426,6 +1552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003equery_\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "query_",
           "package": "snaplet-postgresql-simple",
@@ -1436,6 +1563,7 @@
         "index": {
           "description": "See query",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "query_",
           "normalized": "Query-\u003ea[b]",
@@ -1450,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "readWriteMode",
           "package": "snaplet-postgresql-simple",
@@ -1458,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "readWriteMode",
           "package": "snaplet-postgresql-simple",
@@ -1472,6 +1602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003ereturning\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "returning",
           "package": "snaplet-postgresql-simple",
@@ -1482,6 +1613,7 @@
         "index": {
           "description": "See returning",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "returning",
           "normalized": "Query-\u003e[a]-\u003eb[c]",
@@ -1496,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "rollback",
           "package": "snaplet-postgresql-simple",
@@ -1505,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "rollback",
           "normalized": "a()",
@@ -1519,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "sqlErrorDetail",
           "package": "snaplet-postgresql-simple",
@@ -1527,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "sqlErrorDetail",
           "package": "snaplet-postgresql-simple",
@@ -1540,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "sqlErrorHint",
           "package": "snaplet-postgresql-simple",
@@ -1548,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "sqlErrorHint",
           "package": "snaplet-postgresql-simple",
@@ -1561,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "sqlErrorMsg",
           "package": "snaplet-postgresql-simple",
@@ -1569,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "sqlErrorMsg",
           "package": "snaplet-postgresql-simple",
@@ -1582,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "sqlExecStatus",
           "package": "snaplet-postgresql-simple",
@@ -1590,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "sqlExecStatus",
           "package": "snaplet-postgresql-simple",
@@ -1603,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "sqlState",
           "package": "snaplet-postgresql-simple",
@@ -1611,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "sqlState",
           "package": "snaplet-postgresql-simple",
@@ -1625,6 +1769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToField a collection of values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "toRow",
           "package": "snaplet-postgresql-simple",
@@ -1634,6 +1779,7 @@
         "index": {
           "description": "ToField collection of values",
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "toRow",
           "normalized": "a-\u003e[Action]",
@@ -1649,6 +1795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "withTransaction",
           "package": "snaplet-postgresql-simple",
@@ -1658,6 +1805,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "withTransaction",
           "normalized": "a b-\u003ea b",
@@ -1673,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "withTransactionLevel",
           "package": "snaplet-postgresql-simple",
@@ -1682,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "withTransactionLevel",
           "normalized": "IsolationLevel-\u003ea b-\u003ea b",
@@ -1697,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:00 UTC 2014",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "withTransactionMode",
           "package": "snaplet-postgresql-simple",
@@ -1706,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet PostgresqlSimple",
+          "indexed": "2014-03-11T20:06:00",
           "module": "Snap.Snaplet.PostgresqlSimple",
           "name": "withTransactionMode",
           "normalized": "TransactionMode-\u003ea b-\u003ea b",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "regexpr-symbolic"
+        "phrase": "regexpr-symbolic",
+        "type": "phrase"
       },
       "type": "context"
     }

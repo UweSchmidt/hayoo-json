@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "turni"
+        "phrase": "turni",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yi-vty"
+        "phrase": "yi-vty",
+        "type": "phrase"
       },
       "type": "context"
     }

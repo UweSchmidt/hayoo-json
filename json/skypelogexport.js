@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "skypelogexport"
+        "phrase": "skypelogexport",
+        "type": "phrase"
       },
       "type": "context"
     }

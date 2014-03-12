@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "throttle"
+        "phrase": "throttle",
+        "type": "phrase"
       },
       "type": "context"
     }

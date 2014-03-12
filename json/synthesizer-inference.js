@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "synthesizer-inference"
+        "phrase": "synthesizer-inference",
+        "type": "phrase"
       },
       "type": "context"
     }

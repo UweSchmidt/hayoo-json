@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "test-framework-sandbox"
+        "phrase": "test-framework-sandbox",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "Internals",
           "package": "test-framework-sandbox",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "Internals",
           "package": "test-framework-sandbox",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "SandboxTest",
           "package": "test-framework-sandbox",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "SandboxTest",
           "package": "test-framework-sandbox",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "SandboxTestResult",
           "package": "test-framework-sandbox",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "SandboxTestResult",
           "package": "test-framework-sandbox",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "SandboxTestRunning",
           "package": "test-framework-sandbox",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "SandboxTestRunning",
           "package": "test-framework-sandbox",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "Failure",
           "package": "test-framework-sandbox",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "Failure",
           "package": "test-framework-sandbox",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "Passed",
           "package": "test-framework-sandbox",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "Passed",
           "package": "test-framework-sandbox",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "Running",
           "package": "test-framework-sandbox",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "Running",
           "package": "test-framework-sandbox",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "SandboxCleaning",
           "package": "test-framework-sandbox",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "SandboxCleaning",
           "package": "test-framework-sandbox",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "SandboxTest",
           "package": "test-framework-sandbox",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "SandboxTest",
           "package": "test-framework-sandbox",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "Skipped",
           "package": "test-framework-sandbox",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "Skipped",
           "package": "test-framework-sandbox",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "indent",
           "package": "test-framework-sandbox",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "indent",
           "package": "test-framework-sandbox",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "isExcluded",
           "package": "test-framework-sandbox",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "isExcluded",
           "normalized": "Either String(RunnerOptions,[String])-\u003eString-\u003eBool",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "prettyPrintVariable",
           "package": "test-framework-sandbox",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "prettyPrintVariable",
           "package": "test-framework-sandbox",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "printTestName",
           "package": "test-framework-sandbox",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "printTestName",
           "normalized": "Int-\u003eString-\u003eIO()",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "printTestResult",
           "package": "test-framework-sandbox",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "printTestResult",
           "normalized": "Either String a-\u003eIO()",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "putOptions",
           "package": "test-framework-sandbox",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "putOptions",
           "normalized": "Either String(RunnerOptions,[String])-\u003eSandbox()",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "putStrColor",
           "package": "test-framework-sandbox",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "putStrColor",
           "normalized": "ColorIntensity-\u003eColor-\u003eString-\u003eIO()",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "sandboxSeed",
           "package": "test-framework-sandbox",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "sandboxSeed",
           "normalized": "Maybe Seed-\u003eMaybe SandboxSeed",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "sandboxTestOptions",
           "package": "test-framework-sandbox",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "sandboxTestOptions",
           "normalized": "TestOptions-\u003eSandboxTestOptions",
@@ -445,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "testLevelVariable",
           "package": "test-framework-sandbox",
@@ -454,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "testLevelVariable",
           "package": "test-framework-sandbox",
@@ -467,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "testVariable",
           "package": "test-framework-sandbox",
@@ -476,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "testVariable",
           "package": "test-framework-sandbox",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "withTest",
           "package": "test-framework-sandbox",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Sandbox Internals",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox.Internals",
           "name": "withTest",
           "normalized": "String-\u003eSandbox a-\u003eSandbox a",
@@ -514,6 +558,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003etest-framework interface for test-sandbox\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox",
           "name": "Sandbox",
           "package": "test-framework-sandbox",
@@ -523,6 +568,7 @@
         "index": {
           "description": "test-framework interface for test-sandbox",
           "hierarchy": "Test Framework Providers Sandbox",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox",
           "name": "Sandbox",
           "package": "test-framework-sandbox",
@@ -537,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a test from a Sandbox action.\n Any exception (or error thrown with throwError) will mark the test as failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox",
           "name": "sandboxTest",
           "package": "test-framework-sandbox",
@@ -546,6 +593,7 @@
         "index": {
           "description": "Creates test from Sandbox action Any exception or error thrown with throwError will mark the test as failed",
           "hierarchy": "Test Framework Providers Sandbox",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox",
           "name": "sandboxTest",
           "normalized": "String-\u003eSandbox()-\u003eSandbox Test",
@@ -562,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroups tests in the Sandbox monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox",
           "name": "sandboxTestGroup",
           "package": "test-framework-sandbox",
@@ -571,6 +620,7 @@
         "index": {
           "description": "Groups tests in the Sandbox monad",
           "hierarchy": "Test Framework Providers Sandbox",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox",
           "name": "sandboxTestGroup",
           "normalized": "String-\u003e[Sandbox Test]-\u003eSandbox Test",
@@ -587,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of sandboxTestGroup: tests will be skipped if the condition is not verified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox",
           "name": "sandboxTestGroup'",
           "package": "test-framework-sandbox",
@@ -596,6 +647,7 @@
         "index": {
           "description": "Variant of sandboxTestGroup tests will be skipped if the condition is not verified",
           "hierarchy": "Test Framework Providers Sandbox",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox",
           "name": "sandboxTestGroup'",
           "normalized": "String-\u003eSandbox Bool-\u003e[Sandbox Test]-\u003eSandbox Test",
@@ -612,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes tests in the Sandbox monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox",
           "name": "sandboxTests",
           "package": "test-framework-sandbox",
@@ -621,6 +674,7 @@
         "index": {
           "description": "Executes tests in the Sandbox monad",
           "hierarchy": "Test Framework Providers Sandbox",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox",
           "name": "sandboxTests",
           "normalized": "String-\u003e[Sandbox Test]-\u003eTest",
@@ -637,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplays a progress update during a test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:22 UTC 2014",
           "module": "Test.Framework.Providers.Sandbox",
           "name": "yieldProgress",
           "package": "test-framework-sandbox",
@@ -646,6 +701,7 @@
         "index": {
           "description": "Displays progress update during test",
           "hierarchy": "Test Framework Providers Sandbox",
+          "indexed": "2014-03-11T20:19:22",
           "module": "Test.Framework.Providers.Sandbox",
           "name": "yieldProgress",
           "normalized": "String-\u003eSandbox()",

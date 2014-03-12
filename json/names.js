@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "names"
+        "phrase": "names",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType level names.\n\u003c/p\u003e\u003cp\u003eNames are like strings on the type level.\nThis is a name:\n\u003c/p\u003e\u003cpre\u003e H :& E :& L :& L :& O :& W_ :& O :& R :& L :& D\n\u003c/pre\u003e\u003cp\u003eThis package provides types which can be used\nas letters and a cons operator (\u003ccode\u003e:&\u003c/code\u003e). It also\nprovides syntactic sugar for using names via\ntemplate haskell:\n\u003c/p\u003e\u003cpre\u003e name \"helloWorld\"\n\u003c/pre\u003e\u003cp\u003eThis will create a value named \u003ccode\u003ehelloWorld\u003c/code\u003e\nwhich has the above type and can be used to\nwork with the name.\n\u003c/p\u003e\u003cp\u003eNames are useful for named records. See the\n\u003ccode\u003enamed-records\u003c/code\u003e package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "Name",
           "package": "names",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Type level names Names are like strings on the type level This is name This package provides types which can be used as letters and cons operator It also provides syntactic sugar for using names via template haskell name helloWorld This will create value named helloWorld which has the above type and can be used to work with the name Names are useful for named records See the named-records package",
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "Name",
           "package": "names",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": ":&",
           "package": "names",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": ":&",
           "package": "names",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "A",
           "package": "names",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "A",
           "package": "names",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "A_",
           "package": "names",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "A_",
           "package": "names",
@@ -101,6 +109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "B",
           "package": "names",
@@ -109,6 +118,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "B",
           "package": "names",
@@ -121,6 +131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "B_",
           "package": "names",
@@ -129,6 +140,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "B_",
           "package": "names",
@@ -141,6 +153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "C",
           "package": "names",
@@ -149,6 +162,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "C",
           "package": "names",
@@ -161,6 +175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "C_",
           "package": "names",
@@ -169,6 +184,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "C_",
           "package": "names",
@@ -181,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "D",
           "package": "names",
@@ -189,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "D",
           "package": "names",
@@ -201,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "D0",
           "package": "names",
@@ -209,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "D0",
           "package": "names",
@@ -221,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "D1",
           "package": "names",
@@ -229,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "D1",
           "package": "names",
@@ -241,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "D2",
           "package": "names",
@@ -249,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "D2",
           "package": "names",
@@ -261,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "D3",
           "package": "names",
@@ -269,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "D3",
           "package": "names",
@@ -281,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "D4",
           "package": "names",
@@ -289,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "D4",
           "package": "names",
@@ -301,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "D5",
           "package": "names",
@@ -309,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "D5",
           "package": "names",
@@ -321,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "D6",
           "package": "names",
@@ -329,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "D6",
           "package": "names",
@@ -341,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "D7",
           "package": "names",
@@ -349,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "D7",
           "package": "names",
@@ -361,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "D8",
           "package": "names",
@@ -369,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "D8",
           "package": "names",
@@ -381,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "D9",
           "package": "names",
@@ -389,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "D9",
           "package": "names",
@@ -401,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "D_",
           "package": "names",
@@ -409,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "D_",
           "package": "names",
@@ -421,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "E",
           "package": "names",
@@ -429,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "E",
           "package": "names",
@@ -441,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "E_",
           "package": "names",
@@ -449,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "E_",
           "package": "names",
@@ -461,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "F",
           "package": "names",
@@ -469,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "F",
           "package": "names",
@@ -481,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "F_",
           "package": "names",
@@ -489,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "F_",
           "package": "names",
@@ -501,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "G",
           "package": "names",
@@ -509,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "G",
           "package": "names",
@@ -521,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "G_",
           "package": "names",
@@ -529,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "G_",
           "package": "names",
@@ -541,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "H",
           "package": "names",
@@ -549,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "H",
           "package": "names",
@@ -561,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "H_",
           "package": "names",
@@ -569,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "H_",
           "package": "names",
@@ -581,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "I",
           "package": "names",
@@ -589,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "I",
           "package": "names",
@@ -601,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "I_",
           "package": "names",
@@ -609,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "I_",
           "package": "names",
@@ -621,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "J",
           "package": "names",
@@ -629,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "J",
           "package": "names",
@@ -641,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "J_",
           "package": "names",
@@ -649,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "J_",
           "package": "names",
@@ -661,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "K",
           "package": "names",
@@ -669,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "K",
           "package": "names",
@@ -681,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "K_",
           "package": "names",
@@ -689,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "K_",
           "package": "names",
@@ -701,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "L",
           "package": "names",
@@ -709,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "L",
           "package": "names",
@@ -721,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "L_",
           "package": "names",
@@ -729,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "L_",
           "package": "names",
@@ -741,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "M",
           "package": "names",
@@ -749,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "M",
           "package": "names",
@@ -761,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "M_",
           "package": "names",
@@ -769,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "M_",
           "package": "names",
@@ -781,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "N",
           "package": "names",
@@ -789,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "N",
           "package": "names",
@@ -801,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "N_",
           "package": "names",
@@ -809,6 +888,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "N_",
           "package": "names",
@@ -821,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "Name",
           "package": "names",
@@ -829,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "Name",
           "package": "names",
@@ -842,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "O",
           "package": "names",
@@ -850,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "O",
           "package": "names",
@@ -862,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "O_",
           "package": "names",
@@ -870,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "O_",
           "package": "names",
@@ -882,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "P",
           "package": "names",
@@ -890,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "P",
           "package": "names",
@@ -902,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "P_",
           "package": "names",
@@ -910,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "P_",
           "package": "names",
@@ -922,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "Q",
           "package": "names",
@@ -930,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "Q",
           "package": "names",
@@ -942,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "Q_",
           "package": "names",
@@ -950,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "Q_",
           "package": "names",
@@ -962,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "R",
           "package": "names",
@@ -970,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "R",
           "package": "names",
@@ -982,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "R_",
           "package": "names",
@@ -990,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "R_",
           "package": "names",
@@ -1002,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "S",
           "package": "names",
@@ -1010,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "S",
           "package": "names",
@@ -1022,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "S_",
           "package": "names",
@@ -1030,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "S_",
           "package": "names",
@@ -1042,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "T",
           "package": "names",
@@ -1050,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "T",
           "package": "names",
@@ -1062,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "T_",
           "package": "names",
@@ -1070,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "T_",
           "package": "names",
@@ -1082,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "U",
           "package": "names",
@@ -1090,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "U",
           "package": "names",
@@ -1102,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "U0",
           "package": "names",
@@ -1110,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "U0",
           "package": "names",
@@ -1122,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "U1",
           "package": "names",
@@ -1130,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "U1",
           "package": "names",
@@ -1142,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "U2",
           "package": "names",
@@ -1150,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "U2",
           "package": "names",
@@ -1162,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "U3",
           "package": "names",
@@ -1170,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "U3",
           "package": "names",
@@ -1182,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "U4",
           "package": "names",
@@ -1190,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "U4",
           "package": "names",
@@ -1202,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "U5",
           "package": "names",
@@ -1210,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "U5",
           "package": "names",
@@ -1222,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "U6",
           "package": "names",
@@ -1230,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "U6",
           "package": "names",
@@ -1242,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "U7",
           "package": "names",
@@ -1250,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "U7",
           "package": "names",
@@ -1262,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "U8",
           "package": "names",
@@ -1270,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "U8",
           "package": "names",
@@ -1282,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "U9",
           "package": "names",
@@ -1290,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "U9",
           "package": "names",
@@ -1302,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "UA",
           "package": "names",
@@ -1310,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "UA",
           "package": "names",
@@ -1323,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "UB",
           "package": "names",
@@ -1331,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "UB",
           "package": "names",
@@ -1344,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "UC",
           "package": "names",
@@ -1352,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "UC",
           "package": "names",
@@ -1365,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "UD",
           "package": "names",
@@ -1373,6 +1508,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "UD",
           "package": "names",
@@ -1386,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "UE",
           "package": "names",
@@ -1394,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "UE",
           "package": "names",
@@ -1407,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "UF",
           "package": "names",
@@ -1415,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "UF",
           "package": "names",
@@ -1428,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "U_",
           "package": "names",
@@ -1436,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "U_",
           "package": "names",
@@ -1448,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "V",
           "package": "names",
@@ -1456,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "V",
           "package": "names",
@@ -1468,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "V_",
           "package": "names",
@@ -1476,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "V_",
           "package": "names",
@@ -1488,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "W",
           "package": "names",
@@ -1496,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "W",
           "package": "names",
@@ -1508,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "W_",
           "package": "names",
@@ -1516,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "W_",
           "package": "names",
@@ -1528,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "X",
           "package": "names",
@@ -1536,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "X",
           "package": "names",
@@ -1548,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "X0",
           "package": "names",
@@ -1556,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "X0",
           "package": "names",
@@ -1568,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "X1",
           "package": "names",
@@ -1576,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "X1",
           "package": "names",
@@ -1588,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "X2",
           "package": "names",
@@ -1596,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "X2",
           "package": "names",
@@ -1608,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "X3",
           "package": "names",
@@ -1616,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "X3",
           "package": "names",
@@ -1628,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "X4",
           "package": "names",
@@ -1636,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "X4",
           "package": "names",
@@ -1648,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "X5",
           "package": "names",
@@ -1656,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "X5",
           "package": "names",
@@ -1668,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "X6",
           "package": "names",
@@ -1676,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "X6",
           "package": "names",
@@ -1688,6 +1854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "X7",
           "package": "names",
@@ -1696,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "X7",
           "package": "names",
@@ -1708,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "X8",
           "package": "names",
@@ -1716,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "X8",
           "package": "names",
@@ -1728,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "X9",
           "package": "names",
@@ -1736,6 +1907,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "X9",
           "package": "names",
@@ -1748,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "XA",
           "package": "names",
@@ -1756,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "XA",
           "package": "names",
@@ -1769,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "XB",
           "package": "names",
@@ -1777,6 +1952,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "XB",
           "package": "names",
@@ -1790,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "XC",
           "package": "names",
@@ -1798,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "XC",
           "package": "names",
@@ -1811,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "XD",
           "package": "names",
@@ -1819,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "XD",
           "package": "names",
@@ -1832,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "XE",
           "package": "names",
@@ -1840,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "XE",
           "package": "names",
@@ -1853,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "XF",
           "package": "names",
@@ -1861,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "XF",
           "package": "names",
@@ -1874,6 +2058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "X_",
           "package": "names",
@@ -1882,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "X_",
           "package": "names",
@@ -1894,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "Y",
           "package": "names",
@@ -1902,6 +2089,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "Y",
           "package": "names",
@@ -1914,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "Y_",
           "package": "names",
@@ -1922,6 +2111,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "Y_",
           "package": "names",
@@ -1934,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "Z",
           "package": "names",
@@ -1942,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "Z",
           "package": "names",
@@ -1954,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "Z_",
           "package": "names",
@@ -1962,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "Z_",
           "package": "names",
@@ -1974,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "__",
           "package": "names",
@@ -1983,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "__",
           "package": "names",
@@ -1995,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "name",
           "package": "names",
@@ -2004,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "name",
           "normalized": "String-\u003eQ[Dec]",
@@ -2018,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "nameOf",
           "package": "names",
@@ -2027,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "nameOf",
           "normalized": "a-\u003eString",
@@ -2042,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "nameT",
           "package": "names",
@@ -2051,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "nameT",
           "normalized": "String-\u003eQ Type",
@@ -2065,6 +2267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "nameV",
           "package": "names",
@@ -2074,6 +2277,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "nameV",
           "normalized": "String-\u003eQ Exp",
@@ -2088,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:42 UTC 2014",
           "module": "Data.Name",
           "name": "names",
           "package": "names",
@@ -2097,6 +2302,7 @@
         },
         "index": {
           "hierarchy": "Data Name",
+          "indexed": "2014-03-11T19:25:42",
           "module": "Data.Name",
           "name": "names",
           "package": "names",

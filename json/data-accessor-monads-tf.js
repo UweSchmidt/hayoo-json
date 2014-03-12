@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-accessor-monads-tf"
+        "phrase": "data-accessor-monads-tf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAccess helper functions in the State monad type family \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:47:21 UTC 2014",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "State",
           "package": "data-accessor-monads-tf",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Access helper functions in the State monad type family",
           "hierarchy": "Data Accessor Monad TF State",
+          "indexed": "2014-03-11T17:47:21",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "State",
           "package": "data-accessor-monads-tf",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix variant of \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:21 UTC 2014",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "(%=)",
           "package": "data-accessor-monads-tf",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Infix variant of set",
           "hierarchy": "Data Accessor Monad TF State",
+          "indexed": "2014-03-11T17:47:21",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "(%=) %=",
           "normalized": "T(StateType a)b-\u003eb-\u003ea()",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix variant of \u003ccode\u003e\u003ca\u003emodify\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:21 UTC 2014",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "(%:)",
           "package": "data-accessor-monads-tf",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Infix variant of modify",
           "hierarchy": "Data Accessor Monad TF State",
+          "indexed": "2014-03-11T17:47:21",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "(%:) %:",
           "normalized": "T(StateType a)b-\u003e(b-\u003eb)-\u003ea()",
@@ -91,6 +97,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:21 UTC 2014",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "get",
           "package": "data-accessor-monads-tf",
@@ -100,6 +107,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad TF State",
+          "indexed": "2014-03-11T17:47:21",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "get",
           "normalized": "T(StateType a)b-\u003ea b",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a record element and return its old value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:21 UTC 2014",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "getAndModify",
           "package": "data-accessor-monads-tf",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Modify record element and return its old value",
           "hierarchy": "Data Accessor Monad TF State",
+          "indexed": "2014-03-11T17:47:21",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "getAndModify",
           "normalized": "T(StateType a)b-\u003e(b-\u003eb)-\u003ea b",
@@ -140,6 +150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:21 UTC 2014",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "lift",
           "package": "data-accessor-monads-tf",
@@ -149,6 +160,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad TF State",
+          "indexed": "2014-03-11T17:47:21",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "lift",
           "normalized": "T(StateType a)b-\u003eState b c-\u003ea c",
@@ -163,6 +175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:21 UTC 2014",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "liftT",
           "package": "data-accessor-monads-tf",
@@ -172,6 +185,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad TF State",
+          "indexed": "2014-03-11T17:47:21",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "liftT",
           "normalized": "T(StateType(a b))c-\u003eStateT c b d-\u003ea b d",
@@ -186,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:21 UTC 2014",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "modify",
           "package": "data-accessor-monads-tf",
@@ -195,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad TF State",
+          "indexed": "2014-03-11T17:47:21",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "modify",
           "normalized": "T(StateType a)b-\u003e(b-\u003eb)-\u003ea()",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a record element and return its new value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:21 UTC 2014",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "modifyAndGet",
           "package": "data-accessor-monads-tf",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Modify record element and return its new value",
           "hierarchy": "Data Accessor Monad TF State",
+          "indexed": "2014-03-11T17:47:21",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "modifyAndGet",
           "normalized": "T(StateType a)b-\u003e(b-\u003eb)-\u003ea b",
@@ -235,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:21 UTC 2014",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "set",
           "package": "data-accessor-monads-tf",
@@ -244,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor Monad TF State",
+          "indexed": "2014-03-11T17:47:21",
           "module": "Data.Accessor.Monad.TF.State",
           "name": "set",
           "normalized": "T(StateType a)b-\u003eb-\u003ea()",

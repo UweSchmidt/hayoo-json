@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-libcddb"
+        "phrase": "bindings-libcddb",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://libcddb.sourceforge.net/API/cddb_8h.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.Cddb",
           "name": "Cddb",
           "package": "bindings-libcddb",
@@ -28,6 +29,7 @@
         "index": {
           "description": "http libcddb.sourceforge.net API cddb h.html",
           "hierarchy": "Bindings Libcddb Cddb",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.Cddb",
           "name": "Cddb",
           "package": "bindings-libcddb",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.Cddb",
           "name": "c'libcddb_init",
           "package": "bindings-libcddb",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb Cddb",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.Cddb",
           "name": "c'libcddb_init",
           "normalized": "IO()",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.Cddb",
           "name": "c'libcddb_shutdown",
           "package": "bindings-libcddb",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb Cddb",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.Cddb",
           "name": "c'libcddb_shutdown",
           "normalized": "IO()",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.Cddb",
           "name": "p'libcddb_init",
           "package": "bindings-libcddb",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb Cddb",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.Cddb",
           "name": "p'libcddb_init",
           "normalized": "FunPtr(IO())",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.Cddb",
           "name": "p'libcddb_shutdown",
           "package": "bindings-libcddb",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb Cddb",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.Cddb",
           "name": "p'libcddb_shutdown",
           "normalized": "FunPtr(IO())",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://libcddb.sourceforge.net/API/cddb__cmd_8h.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "CddbCmd",
           "package": "bindings-libcddb",
@@ -143,6 +154,7 @@
         "index": {
           "description": "http libcddb.sourceforge.net API cddb cmd h.html",
           "hierarchy": "Bindings Libcddb CddbCmd",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "CddbCmd",
           "package": "bindings-libcddb",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "c'cddb_query",
           "package": "bindings-libcddb",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbCmd",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "c'cddb_query",
           "normalized": "Ptr C'cddb_conn_t-\u003ePtr C'cddb_disc_t-\u003eIO CInt",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "c'cddb_query_next",
           "package": "bindings-libcddb",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbCmd",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "c'cddb_query_next",
           "normalized": "Ptr C'cddb_conn_t-\u003ePtr C'cddb_disc_t-\u003eIO CInt",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "c'cddb_read",
           "package": "bindings-libcddb",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbCmd",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "c'cddb_read",
           "normalized": "Ptr C'cddb_conn_t-\u003ePtr C'cddb_disc_t-\u003eIO CInt",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "c'cddb_search",
           "package": "bindings-libcddb",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbCmd",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "c'cddb_search",
           "normalized": "Ptr C'cddb_conn_t-\u003ePtr C'cddb_disc_t-\u003eCString-\u003eIO CInt",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "c'cddb_search_next",
           "package": "bindings-libcddb",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbCmd",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "c'cddb_search_next",
           "normalized": "Ptr C'cddb_conn_t-\u003ePtr C'cddb_disc_t-\u003eIO CInt",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "c'cddb_sites",
           "package": "bindings-libcddb",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbCmd",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "c'cddb_sites",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO CInt",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "c'cddb_write",
           "package": "bindings-libcddb",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbCmd",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "c'cddb_write",
           "normalized": "Ptr C'cddb_conn_t-\u003ePtr C'cddb_disc_t-\u003eIO CInt",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "p'cddb_query",
           "package": "bindings-libcddb",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbCmd",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "p'cddb_query",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003ePtr C'cddb_disc_t-\u003eIO CInt)",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "p'cddb_query_next",
           "package": "bindings-libcddb",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbCmd",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "p'cddb_query_next",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003ePtr C'cddb_disc_t-\u003eIO CInt)",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "p'cddb_read",
           "package": "bindings-libcddb",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbCmd",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "p'cddb_read",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003ePtr C'cddb_disc_t-\u003eIO CInt)",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "p'cddb_search",
           "package": "bindings-libcddb",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbCmd",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "p'cddb_search",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003ePtr C'cddb_disc_t-\u003eCString-\u003eIO CInt)",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "p'cddb_search_next",
           "package": "bindings-libcddb",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbCmd",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "p'cddb_search_next",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003ePtr C'cddb_disc_t-\u003eIO CInt)",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "p'cddb_sites",
           "package": "bindings-libcddb",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbCmd",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "p'cddb_sites",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO CInt)",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "p'cddb_write",
           "package": "bindings-libcddb",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbCmd",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbCmd",
           "name": "p'cddb_write",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003ePtr C'cddb_disc_t-\u003eIO CInt)",
@@ -479,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://libcddb.sourceforge.net/API/cddb__conn_8h.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "CddbConn",
           "package": "bindings-libcddb",
@@ -488,6 +529,7 @@
         "index": {
           "description": "http libcddb.sourceforge.net API cddb conn h.html",
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "CddbConn",
           "package": "bindings-libcddb",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "C'cddb_cache_mode_t",
           "package": "bindings-libcddb",
@@ -509,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "C'cddb_cache_mode_t",
           "package": "bindings-libcddb",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "C'cddb_conn_t",
           "package": "bindings-libcddb",
@@ -530,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "C'cddb_conn_t",
           "package": "bindings-libcddb",
@@ -543,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "C'cddb_iconv_t",
           "package": "bindings-libcddb",
@@ -551,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "C'cddb_iconv_t",
           "package": "bindings-libcddb",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "C'cddb_search_t",
           "package": "bindings-libcddb",
@@ -572,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "C'cddb_search_t",
           "package": "bindings-libcddb",
@@ -585,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "C'cddb_conn_t",
           "package": "bindings-libcddb",
@@ -594,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "C'cddb_conn_t",
           "package": "bindings-libcddb",
@@ -607,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'CACHE_OFF",
           "package": "bindings-libcddb",
@@ -616,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'CACHE_OFF",
           "package": "bindings-libcddb",
@@ -629,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'CACHE_ON",
           "package": "bindings-libcddb",
@@ -638,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'CACHE_ON",
           "package": "bindings-libcddb",
@@ -651,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'CACHE_ONLY",
           "package": "bindings-libcddb",
@@ -660,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'CACHE_ONLY",
           "package": "bindings-libcddb",
@@ -673,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'SEARCHCAT",
           "package": "bindings-libcddb",
@@ -682,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'SEARCHCAT",
           "normalized": "C'cddb_cat_t-\u003eC'cddb_cat_t",
@@ -697,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'SEARCH_ALL",
           "package": "bindings-libcddb",
@@ -706,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'SEARCH_ALL",
           "package": "bindings-libcddb",
@@ -719,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'SEARCH_ARTIST",
           "package": "bindings-libcddb",
@@ -728,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'SEARCH_ARTIST",
           "package": "bindings-libcddb",
@@ -741,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'SEARCH_NONE",
           "package": "bindings-libcddb",
@@ -750,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'SEARCH_NONE",
           "package": "bindings-libcddb",
@@ -763,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'SEARCH_OTHER",
           "package": "bindings-libcddb",
@@ -772,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'SEARCH_OTHER",
           "package": "bindings-libcddb",
@@ -785,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'SEARCH_TITLE",
           "package": "bindings-libcddb",
@@ -794,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'SEARCH_TITLE",
           "package": "bindings-libcddb",
@@ -807,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'SEARCH_TRACK",
           "package": "bindings-libcddb",
@@ -816,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'SEARCH_TRACK",
           "package": "bindings-libcddb",
@@ -829,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_cache_disable",
           "package": "bindings-libcddb",
@@ -838,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_cache_disable",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO()",
@@ -852,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_cache_enable",
           "package": "bindings-libcddb",
@@ -861,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_cache_enable",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO()",
@@ -875,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_cache_get_dir",
           "package": "bindings-libcddb",
@@ -884,6 +961,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_cache_get_dir",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO CString",
@@ -898,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_cache_mode",
           "package": "bindings-libcddb",
@@ -907,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_cache_mode",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO C'cddb_cache_mode_t",
@@ -921,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_cache_only",
           "package": "bindings-libcddb",
@@ -930,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_cache_only",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO()",
@@ -944,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_cache_set_dir",
           "package": "bindings-libcddb",
@@ -953,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_cache_set_dir",
           "normalized": "Ptr C'cddb_conn_t-\u003eCString-\u003eIO CInt",
@@ -967,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_destroy",
           "package": "bindings-libcddb",
@@ -976,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_destroy",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO()",
@@ -990,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_errno",
           "package": "bindings-libcddb",
@@ -999,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_errno",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO C'cddb_error_t",
@@ -1013,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_first_site",
           "package": "bindings-libcddb",
@@ -1022,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_first_site",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO(Ptr C'cddb_site_t)",
@@ -1036,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_get_http_path_query",
           "package": "bindings-libcddb",
@@ -1045,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_get_http_path_query",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO CString",
@@ -1059,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_get_http_path_submit",
           "package": "bindings-libcddb",
@@ -1068,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_get_http_path_submit",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO CString",
@@ -1082,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_get_http_proxy_password",
           "package": "bindings-libcddb",
@@ -1091,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_get_http_proxy_password",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO CString",
@@ -1105,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_get_http_proxy_server_name",
           "package": "bindings-libcddb",
@@ -1114,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_get_http_proxy_server_name",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO CString",
@@ -1128,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_get_http_proxy_server_port",
           "package": "bindings-libcddb",
@@ -1137,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_get_http_proxy_server_port",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO CUInt",
@@ -1151,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_get_http_proxy_username",
           "package": "bindings-libcddb",
@@ -1160,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_get_http_proxy_username",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO CString",
@@ -1174,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_get_server_name",
           "package": "bindings-libcddb",
@@ -1183,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_get_server_name",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO CString",
@@ -1197,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_get_server_port",
           "package": "bindings-libcddb",
@@ -1206,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_get_server_port",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO CUInt",
@@ -1220,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_get_timeout",
           "package": "bindings-libcddb",
@@ -1229,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_get_timeout",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO CUInt",
@@ -1243,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_http_disable",
           "package": "bindings-libcddb",
@@ -1252,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_http_disable",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO()",
@@ -1266,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_http_enable",
           "package": "bindings-libcddb",
@@ -1275,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_http_enable",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO()",
@@ -1289,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_http_proxy_disable",
           "package": "bindings-libcddb",
@@ -1298,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_http_proxy_disable",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO()",
@@ -1312,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_http_proxy_enable",
           "package": "bindings-libcddb",
@@ -1321,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_http_proxy_enable",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO()",
@@ -1335,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_is_http_enabled",
           "package": "bindings-libcddb",
@@ -1344,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_is_http_enabled",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO CUInt",
@@ -1358,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_is_http_proxy_enabled",
           "package": "bindings-libcddb",
@@ -1367,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_is_http_proxy_enabled",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO CUInt",
@@ -1381,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_new",
           "package": "bindings-libcddb",
@@ -1390,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_new",
           "package": "bindings-libcddb",
@@ -1402,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_next_site",
           "package": "bindings-libcddb",
@@ -1411,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_next_site",
           "normalized": "Ptr C'cddb_conn_t-\u003eIO(Ptr C'cddb_site_t)",
@@ -1425,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_search_set_categories",
           "package": "bindings-libcddb",
@@ -1434,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_search_set_categories",
           "normalized": "Ptr C'cddb_conn_t-\u003eCUInt-\u003eIO()",
@@ -1448,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_search_set_fields",
           "package": "bindings-libcddb",
@@ -1457,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_search_set_fields",
           "normalized": "Ptr C'cddb_conn_t-\u003eCUInt-\u003eIO()",
@@ -1471,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_buf_size",
           "package": "bindings-libcddb",
@@ -1480,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_buf_size",
           "normalized": "Ptr C'cddb_conn_t-\u003eCUInt-\u003eIO()",
@@ -1494,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_charset",
           "package": "bindings-libcddb",
@@ -1503,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_charset",
           "normalized": "Ptr C'cddb_conn_t-\u003eCString-\u003eIO CInt",
@@ -1517,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_client",
           "package": "bindings-libcddb",
@@ -1526,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_client",
           "normalized": "Ptr C'cddb_conn_t-\u003eCString-\u003eCString-\u003eIO()",
@@ -1540,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_email_address",
           "package": "bindings-libcddb",
@@ -1549,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_email_address",
           "normalized": "Ptr C'cddb_conn_t-\u003eCString-\u003eIO CInt",
@@ -1563,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_http_path_query",
           "package": "bindings-libcddb",
@@ -1572,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_http_path_query",
           "normalized": "Ptr C'cddb_conn_t-\u003eCString-\u003eIO()",
@@ -1586,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_http_path_submit",
           "package": "bindings-libcddb",
@@ -1595,6 +1734,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_http_path_submit",
           "normalized": "Ptr C'cddb_conn_t-\u003eCString-\u003eIO()",
@@ -1609,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_http_proxy_credentials",
           "package": "bindings-libcddb",
@@ -1618,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_http_proxy_credentials",
           "normalized": "Ptr C'cddb_conn_t-\u003eCString-\u003eCString-\u003eIO()",
@@ -1632,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_http_proxy_password",
           "package": "bindings-libcddb",
@@ -1641,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_http_proxy_password",
           "normalized": "Ptr C'cddb_conn_t-\u003eCString-\u003eIO()",
@@ -1655,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_http_proxy_server_name",
           "package": "bindings-libcddb",
@@ -1664,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_http_proxy_server_name",
           "normalized": "Ptr C'cddb_conn_t-\u003eCString-\u003eIO()",
@@ -1678,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_http_proxy_server_port",
           "package": "bindings-libcddb",
@@ -1687,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_http_proxy_server_port",
           "normalized": "Ptr C'cddb_conn_t-\u003eCInt-\u003eIO()",
@@ -1701,6 +1849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_http_proxy_username",
           "package": "bindings-libcddb",
@@ -1710,6 +1859,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_http_proxy_username",
           "normalized": "Ptr C'cddb_conn_t-\u003eCString-\u003eIO()",
@@ -1724,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_server_name",
           "package": "bindings-libcddb",
@@ -1733,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_server_name",
           "normalized": "Ptr C'cddb_conn_t-\u003eCString-\u003eIO()",
@@ -1747,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_server_port",
           "package": "bindings-libcddb",
@@ -1756,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_server_port",
           "normalized": "Ptr C'cddb_conn_t-\u003eCInt-\u003eIO()",
@@ -1770,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_site",
           "package": "bindings-libcddb",
@@ -1779,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_site",
           "normalized": "Ptr C'cddb_conn_t-\u003ePtr C'cddb_site_t-\u003eIO C'cddb_error_t",
@@ -1793,6 +1949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_timeout",
           "package": "bindings-libcddb",
@@ -1802,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "c'cddb_set_timeout",
           "normalized": "Ptr C'cddb_conn_t-\u003eCUInt-\u003eIO()",
@@ -1816,6 +1974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_cache_disable",
           "package": "bindings-libcddb",
@@ -1825,6 +1984,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_cache_disable",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO())",
@@ -1839,6 +1999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_cache_enable",
           "package": "bindings-libcddb",
@@ -1848,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_cache_enable",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO())",
@@ -1862,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_cache_get_dir",
           "package": "bindings-libcddb",
@@ -1871,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_cache_get_dir",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO CString)",
@@ -1885,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_cache_mode",
           "package": "bindings-libcddb",
@@ -1894,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_cache_mode",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO C'cddb_cache_mode_t)",
@@ -1908,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_cache_only",
           "package": "bindings-libcddb",
@@ -1917,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_cache_only",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO())",
@@ -1931,6 +2099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_cache_set_dir",
           "package": "bindings-libcddb",
@@ -1940,6 +2109,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_cache_set_dir",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eCString-\u003eIO CInt)",
@@ -1954,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_destroy",
           "package": "bindings-libcddb",
@@ -1963,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_destroy",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO())",
@@ -1977,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_errno",
           "package": "bindings-libcddb",
@@ -1986,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_errno",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO C'cddb_error_t)",
@@ -2000,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_first_site",
           "package": "bindings-libcddb",
@@ -2009,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_first_site",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO(Ptr C'cddb_site_t))",
@@ -2023,6 +2199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_get_http_path_query",
           "package": "bindings-libcddb",
@@ -2032,6 +2209,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_get_http_path_query",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO CString)",
@@ -2046,6 +2224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_get_http_path_submit",
           "package": "bindings-libcddb",
@@ -2055,6 +2234,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_get_http_path_submit",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO CString)",
@@ -2069,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_get_http_proxy_password",
           "package": "bindings-libcddb",
@@ -2078,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_get_http_proxy_password",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO CString)",
@@ -2092,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_get_http_proxy_server_name",
           "package": "bindings-libcddb",
@@ -2101,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_get_http_proxy_server_name",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO CString)",
@@ -2115,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_get_http_proxy_server_port",
           "package": "bindings-libcddb",
@@ -2124,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_get_http_proxy_server_port",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO CUInt)",
@@ -2138,6 +2324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_get_http_proxy_username",
           "package": "bindings-libcddb",
@@ -2147,6 +2334,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_get_http_proxy_username",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO CString)",
@@ -2161,6 +2349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_get_server_name",
           "package": "bindings-libcddb",
@@ -2170,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_get_server_name",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO CString)",
@@ -2184,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_get_server_port",
           "package": "bindings-libcddb",
@@ -2193,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_get_server_port",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO CUInt)",
@@ -2207,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_get_timeout",
           "package": "bindings-libcddb",
@@ -2216,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_get_timeout",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO CUInt)",
@@ -2230,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_http_disable",
           "package": "bindings-libcddb",
@@ -2239,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_http_disable",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO())",
@@ -2253,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_http_enable",
           "package": "bindings-libcddb",
@@ -2262,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_http_enable",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO())",
@@ -2276,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_http_proxy_disable",
           "package": "bindings-libcddb",
@@ -2285,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_http_proxy_disable",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO())",
@@ -2299,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_http_proxy_enable",
           "package": "bindings-libcddb",
@@ -2308,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_http_proxy_enable",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO())",
@@ -2322,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_is_http_enabled",
           "package": "bindings-libcddb",
@@ -2331,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_is_http_enabled",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO CUInt)",
@@ -2345,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_is_http_proxy_enabled",
           "package": "bindings-libcddb",
@@ -2354,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_is_http_proxy_enabled",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO CUInt)",
@@ -2368,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_new",
           "package": "bindings-libcddb",
@@ -2377,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_new",
           "package": "bindings-libcddb",
@@ -2389,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_next_site",
           "package": "bindings-libcddb",
@@ -2398,6 +2607,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_next_site",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eIO(Ptr C'cddb_site_t))",
@@ -2412,6 +2622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_search_set_categories",
           "package": "bindings-libcddb",
@@ -2421,6 +2632,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_search_set_categories",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eCUInt-\u003eIO())",
@@ -2435,6 +2647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_search_set_fields",
           "package": "bindings-libcddb",
@@ -2444,6 +2657,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_search_set_fields",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eCUInt-\u003eIO())",
@@ -2458,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_buf_size",
           "package": "bindings-libcddb",
@@ -2467,6 +2682,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_buf_size",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eCUInt-\u003eIO())",
@@ -2481,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_charset",
           "package": "bindings-libcddb",
@@ -2490,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_charset",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eCString-\u003eIO CInt)",
@@ -2504,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_client",
           "package": "bindings-libcddb",
@@ -2513,6 +2732,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_client",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eCString-\u003eCString-\u003eIO())",
@@ -2527,6 +2747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_email_address",
           "package": "bindings-libcddb",
@@ -2536,6 +2757,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_email_address",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eCString-\u003eIO CInt)",
@@ -2550,6 +2772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_http_path_query",
           "package": "bindings-libcddb",
@@ -2559,6 +2782,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_http_path_query",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eCString-\u003eIO())",
@@ -2573,6 +2797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_http_path_submit",
           "package": "bindings-libcddb",
@@ -2582,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_http_path_submit",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eCString-\u003eIO())",
@@ -2596,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_http_proxy_credentials",
           "package": "bindings-libcddb",
@@ -2605,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_http_proxy_credentials",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eCString-\u003eCString-\u003eIO())",
@@ -2619,6 +2847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_http_proxy_password",
           "package": "bindings-libcddb",
@@ -2628,6 +2857,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_http_proxy_password",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eCString-\u003eIO())",
@@ -2642,6 +2872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_http_proxy_server_name",
           "package": "bindings-libcddb",
@@ -2651,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_http_proxy_server_name",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eCString-\u003eIO())",
@@ -2665,6 +2897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_http_proxy_server_port",
           "package": "bindings-libcddb",
@@ -2674,6 +2907,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_http_proxy_server_port",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eCInt-\u003eIO())",
@@ -2688,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_http_proxy_username",
           "package": "bindings-libcddb",
@@ -2697,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_http_proxy_username",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eCString-\u003eIO())",
@@ -2711,6 +2947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_server_name",
           "package": "bindings-libcddb",
@@ -2720,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_server_name",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eCString-\u003eIO())",
@@ -2734,6 +2972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_server_port",
           "package": "bindings-libcddb",
@@ -2743,6 +2982,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_server_port",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eCInt-\u003eIO())",
@@ -2757,6 +2997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_site",
           "package": "bindings-libcddb",
@@ -2766,6 +3007,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_site",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003ePtr C'cddb_site_t-\u003eIO C'cddb_error_t)",
@@ -2780,6 +3022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_timeout",
           "package": "bindings-libcddb",
@@ -2789,6 +3032,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbConn",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbConn",
           "name": "p'cddb_set_timeout",
           "normalized": "FunPtr(Ptr C'cddb_conn_t-\u003eCUInt-\u003eIO())",
@@ -2804,6 +3048,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://libcddb.sourceforge.net/API/cddb__disc_8h.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "CddbDisc",
           "package": "bindings-libcddb",
@@ -2813,6 +3058,7 @@
         "index": {
           "description": "http libcddb.sourceforge.net API cddb disc h.html",
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "CddbDisc",
           "package": "bindings-libcddb",
@@ -2826,6 +3072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "C'cddb_cat_t",
           "package": "bindings-libcddb",
@@ -2834,6 +3081,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "C'cddb_cat_t",
           "package": "bindings-libcddb",
@@ -2847,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "C'cddb_disc_t",
           "package": "bindings-libcddb",
@@ -2855,6 +3104,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "C'cddb_disc_t",
           "package": "bindings-libcddb",
@@ -2868,6 +3118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "C'cddb_disc_t",
           "package": "bindings-libcddb",
@@ -2877,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "C'cddb_disc_t",
           "package": "bindings-libcddb",
@@ -2890,6 +3142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CATEGORY",
           "package": "bindings-libcddb",
@@ -2899,6 +3152,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CATEGORY",
           "package": "bindings-libcddb",
@@ -2912,6 +3166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_BLUES",
           "package": "bindings-libcddb",
@@ -2921,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_BLUES",
           "package": "bindings-libcddb",
@@ -2934,6 +3190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_CLASSICAL",
           "package": "bindings-libcddb",
@@ -2943,6 +3200,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_CLASSICAL",
           "package": "bindings-libcddb",
@@ -2956,6 +3214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_COUNTRY",
           "package": "bindings-libcddb",
@@ -2965,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_COUNTRY",
           "package": "bindings-libcddb",
@@ -2978,6 +3238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_DATA",
           "package": "bindings-libcddb",
@@ -2987,6 +3248,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_DATA",
           "package": "bindings-libcddb",
@@ -3000,6 +3262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_FOLK",
           "package": "bindings-libcddb",
@@ -3009,6 +3272,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_FOLK",
           "package": "bindings-libcddb",
@@ -3022,6 +3286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_INVALID",
           "package": "bindings-libcddb",
@@ -3031,6 +3296,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_INVALID",
           "package": "bindings-libcddb",
@@ -3044,6 +3310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_JAZZ",
           "package": "bindings-libcddb",
@@ -3053,6 +3320,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_JAZZ",
           "package": "bindings-libcddb",
@@ -3066,6 +3334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_LAST",
           "package": "bindings-libcddb",
@@ -3075,6 +3344,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_LAST",
           "package": "bindings-libcddb",
@@ -3088,6 +3358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_MISC",
           "package": "bindings-libcddb",
@@ -3097,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_MISC",
           "package": "bindings-libcddb",
@@ -3110,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_NEWAGE",
           "package": "bindings-libcddb",
@@ -3119,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_NEWAGE",
           "package": "bindings-libcddb",
@@ -3132,6 +3406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_REGGAE",
           "package": "bindings-libcddb",
@@ -3141,6 +3416,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_REGGAE",
           "package": "bindings-libcddb",
@@ -3154,6 +3430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_ROCK",
           "package": "bindings-libcddb",
@@ -3163,6 +3440,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_ROCK",
           "package": "bindings-libcddb",
@@ -3176,6 +3454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_SOUNDTRACK",
           "package": "bindings-libcddb",
@@ -3185,6 +3464,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'CDDB_CAT_SOUNDTRACK",
           "package": "bindings-libcddb",
@@ -3198,6 +3478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'FRAMES_PER_SECOND",
           "package": "bindings-libcddb",
@@ -3207,6 +3488,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'FRAMES_PER_SECOND",
           "package": "bindings-libcddb",
@@ -3220,6 +3502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_add_track",
           "package": "bindings-libcddb",
@@ -3229,6 +3512,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_add_track",
           "normalized": "Ptr C'cddb_disc_t-\u003ePtr C'cddb_track_t-\u003eIO()",
@@ -3243,6 +3527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_append_artist",
           "package": "bindings-libcddb",
@@ -3252,6 +3537,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_append_artist",
           "normalized": "Ptr C'cddb_disc_t-\u003eCString-\u003eIO()",
@@ -3266,6 +3552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_append_ext_data",
           "package": "bindings-libcddb",
@@ -3275,6 +3562,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_append_ext_data",
           "normalized": "Ptr C'cddb_disc_t-\u003eCString-\u003eIO()",
@@ -3289,6 +3577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_append_title",
           "package": "bindings-libcddb",
@@ -3298,6 +3587,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_append_title",
           "normalized": "Ptr C'cddb_disc_t-\u003eCString-\u003eIO()",
@@ -3312,6 +3602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_calc_discid",
           "package": "bindings-libcddb",
@@ -3321,6 +3612,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_calc_discid",
           "normalized": "Ptr C'cddb_disc_t-\u003eIO CInt",
@@ -3335,6 +3627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_clone",
           "package": "bindings-libcddb",
@@ -3344,6 +3637,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_clone",
           "normalized": "Ptr C'cddb_disc_t-\u003eIO(Ptr C'cddb_disc_t)",
@@ -3358,6 +3652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_copy",
           "package": "bindings-libcddb",
@@ -3367,6 +3662,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_copy",
           "normalized": "Ptr C'cddb_disc_t-\u003ePtr C'cddb_disc_t-\u003eIO()",
@@ -3381,6 +3677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_destroy",
           "package": "bindings-libcddb",
@@ -3390,6 +3687,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_destroy",
           "normalized": "Ptr C'cddb_disc_t-\u003eIO()",
@@ -3404,6 +3702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_artist",
           "package": "bindings-libcddb",
@@ -3413,6 +3712,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_artist",
           "normalized": "Ptr C'cddb_disc_t-\u003eIO CString",
@@ -3427,6 +3727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_category",
           "package": "bindings-libcddb",
@@ -3436,6 +3737,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_category",
           "normalized": "Ptr C'cddb_disc_t-\u003eIO C'cddb_cat_t",
@@ -3450,6 +3752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_category_str",
           "package": "bindings-libcddb",
@@ -3459,6 +3762,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_category_str",
           "normalized": "Ptr C'cddb_disc_t-\u003eIO CString",
@@ -3473,6 +3777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_discid",
           "package": "bindings-libcddb",
@@ -3482,6 +3787,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_discid",
           "normalized": "Ptr C'cddb_disc_t-\u003eIO CUInt",
@@ -3496,6 +3802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_ext_data",
           "package": "bindings-libcddb",
@@ -3505,6 +3812,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_ext_data",
           "normalized": "Ptr C'cddb_disc_t-\u003eIO CString",
@@ -3519,6 +3827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_genre",
           "package": "bindings-libcddb",
@@ -3528,6 +3837,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_genre",
           "normalized": "Ptr C'cddb_disc_t-\u003eIO CString",
@@ -3542,6 +3852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_length",
           "package": "bindings-libcddb",
@@ -3551,6 +3862,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_length",
           "normalized": "Ptr C'cddb_disc_t-\u003eIO CUInt",
@@ -3565,6 +3877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_title",
           "package": "bindings-libcddb",
@@ -3574,6 +3887,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_title",
           "normalized": "Ptr C'cddb_disc_t-\u003eIO CString",
@@ -3588,6 +3902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_track",
           "package": "bindings-libcddb",
@@ -3597,6 +3912,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_track",
           "normalized": "Ptr C'cddb_disc_t-\u003eCInt-\u003eIO(Ptr C'cddb_track_t)",
@@ -3611,6 +3927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_track_count",
           "package": "bindings-libcddb",
@@ -3620,6 +3937,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_track_count",
           "normalized": "Ptr C'cddb_disc_t-\u003eIO CInt",
@@ -3634,6 +3952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_track_first",
           "package": "bindings-libcddb",
@@ -3643,6 +3962,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_track_first",
           "normalized": "Ptr C'cddb_disc_t-\u003eIO(Ptr C'cddb_track_t)",
@@ -3657,6 +3977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_track_next",
           "package": "bindings-libcddb",
@@ -3666,6 +3987,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_track_next",
           "normalized": "Ptr C'cddb_disc_t-\u003eIO(Ptr C'cddb_track_t)",
@@ -3680,6 +4002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_year",
           "package": "bindings-libcddb",
@@ -3689,6 +4012,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_get_year",
           "normalized": "Ptr C'cddb_disc_t-\u003eIO CUInt",
@@ -3703,6 +4027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_new",
           "package": "bindings-libcddb",
@@ -3712,6 +4037,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_new",
           "package": "bindings-libcddb",
@@ -3724,6 +4050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_print",
           "package": "bindings-libcddb",
@@ -3733,6 +4060,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_print",
           "normalized": "Ptr C'cddb_disc_t-\u003eIO()",
@@ -3747,6 +4075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_set_artist",
           "package": "bindings-libcddb",
@@ -3756,6 +4085,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_set_artist",
           "normalized": "Ptr C'cddb_disc_t-\u003eCString-\u003eIO()",
@@ -3770,6 +4100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_set_category",
           "package": "bindings-libcddb",
@@ -3779,6 +4110,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_set_category",
           "normalized": "Ptr C'cddb_disc_t-\u003eC'cddb_cat_t-\u003eIO()",
@@ -3793,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_set_category_str",
           "package": "bindings-libcddb",
@@ -3802,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_set_category_str",
           "normalized": "Ptr C'cddb_disc_t-\u003eCString-\u003eIO()",
@@ -3816,6 +4150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_set_discid",
           "package": "bindings-libcddb",
@@ -3825,6 +4160,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_set_discid",
           "normalized": "Ptr C'cddb_disc_t-\u003eCUInt-\u003eIO()",
@@ -3839,6 +4175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_set_ext_data",
           "package": "bindings-libcddb",
@@ -3848,6 +4185,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_set_ext_data",
           "normalized": "Ptr C'cddb_disc_t-\u003eCString-\u003eIO()",
@@ -3862,6 +4200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_set_genre",
           "package": "bindings-libcddb",
@@ -3871,6 +4210,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_set_genre",
           "normalized": "Ptr C'cddb_disc_t-\u003eCString-\u003eIO()",
@@ -3885,6 +4225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_set_length",
           "package": "bindings-libcddb",
@@ -3894,6 +4235,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_set_length",
           "normalized": "Ptr C'cddb_disc_t-\u003eCUInt-\u003eIO()",
@@ -3908,6 +4250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_set_title",
           "package": "bindings-libcddb",
@@ -3917,6 +4260,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_set_title",
           "normalized": "Ptr C'cddb_disc_t-\u003eCString-\u003eIO()",
@@ -3931,6 +4275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_set_year",
           "package": "bindings-libcddb",
@@ -3940,6 +4285,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "c'cddb_disc_set_year",
           "normalized": "Ptr C'cddb_disc_t-\u003eCUInt-\u003eIO()",
@@ -3954,6 +4300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_add_track",
           "package": "bindings-libcddb",
@@ -3963,6 +4310,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_add_track",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003ePtr C'cddb_track_t-\u003eIO())",
@@ -3977,6 +4325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_append_artist",
           "package": "bindings-libcddb",
@@ -3986,6 +4335,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_append_artist",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eCString-\u003eIO())",
@@ -4000,6 +4350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_append_ext_data",
           "package": "bindings-libcddb",
@@ -4009,6 +4360,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_append_ext_data",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eCString-\u003eIO())",
@@ -4023,6 +4375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_append_title",
           "package": "bindings-libcddb",
@@ -4032,6 +4385,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_append_title",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eCString-\u003eIO())",
@@ -4046,6 +4400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_calc_discid",
           "package": "bindings-libcddb",
@@ -4055,6 +4410,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_calc_discid",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eIO CInt)",
@@ -4069,6 +4425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_clone",
           "package": "bindings-libcddb",
@@ -4078,6 +4435,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_clone",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eIO(Ptr C'cddb_disc_t))",
@@ -4092,6 +4450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_copy",
           "package": "bindings-libcddb",
@@ -4101,6 +4460,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_copy",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003ePtr C'cddb_disc_t-\u003eIO())",
@@ -4115,6 +4475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_destroy",
           "package": "bindings-libcddb",
@@ -4124,6 +4485,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_destroy",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eIO())",
@@ -4138,6 +4500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_artist",
           "package": "bindings-libcddb",
@@ -4147,6 +4510,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_artist",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eIO CString)",
@@ -4161,6 +4525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_category",
           "package": "bindings-libcddb",
@@ -4170,6 +4535,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_category",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eIO C'cddb_cat_t)",
@@ -4184,6 +4550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_category_str",
           "package": "bindings-libcddb",
@@ -4193,6 +4560,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_category_str",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eIO CString)",
@@ -4207,6 +4575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_discid",
           "package": "bindings-libcddb",
@@ -4216,6 +4585,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_discid",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eIO CUInt)",
@@ -4230,6 +4600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_ext_data",
           "package": "bindings-libcddb",
@@ -4239,6 +4610,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_ext_data",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eIO CString)",
@@ -4253,6 +4625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_genre",
           "package": "bindings-libcddb",
@@ -4262,6 +4635,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_genre",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eIO CString)",
@@ -4276,6 +4650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_length",
           "package": "bindings-libcddb",
@@ -4285,6 +4660,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_length",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eIO CUInt)",
@@ -4299,6 +4675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_title",
           "package": "bindings-libcddb",
@@ -4308,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_title",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eIO CString)",
@@ -4322,6 +4700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_track",
           "package": "bindings-libcddb",
@@ -4331,6 +4710,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_track",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eCInt-\u003eIO(Ptr C'cddb_track_t))",
@@ -4345,6 +4725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_track_count",
           "package": "bindings-libcddb",
@@ -4354,6 +4735,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_track_count",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eIO CInt)",
@@ -4368,6 +4750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_track_first",
           "package": "bindings-libcddb",
@@ -4377,6 +4760,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_track_first",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eIO(Ptr C'cddb_track_t))",
@@ -4391,6 +4775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_track_next",
           "package": "bindings-libcddb",
@@ -4400,6 +4785,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_track_next",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eIO(Ptr C'cddb_track_t))",
@@ -4414,6 +4800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_year",
           "package": "bindings-libcddb",
@@ -4423,6 +4810,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_get_year",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eIO CUInt)",
@@ -4437,6 +4825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_new",
           "package": "bindings-libcddb",
@@ -4446,6 +4835,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_new",
           "package": "bindings-libcddb",
@@ -4458,6 +4848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_print",
           "package": "bindings-libcddb",
@@ -4467,6 +4858,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_print",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eIO())",
@@ -4481,6 +4873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_set_artist",
           "package": "bindings-libcddb",
@@ -4490,6 +4883,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_set_artist",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eCString-\u003eIO())",
@@ -4504,6 +4898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_set_category",
           "package": "bindings-libcddb",
@@ -4513,6 +4908,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_set_category",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eC'cddb_cat_t-\u003eIO())",
@@ -4527,6 +4923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_set_category_str",
           "package": "bindings-libcddb",
@@ -4536,6 +4933,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_set_category_str",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eCString-\u003eIO())",
@@ -4550,6 +4948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_set_discid",
           "package": "bindings-libcddb",
@@ -4559,6 +4958,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_set_discid",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eCUInt-\u003eIO())",
@@ -4573,6 +4973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_set_ext_data",
           "package": "bindings-libcddb",
@@ -4582,6 +4983,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_set_ext_data",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eCString-\u003eIO())",
@@ -4596,6 +4998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_set_genre",
           "package": "bindings-libcddb",
@@ -4605,6 +5008,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_set_genre",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eCString-\u003eIO())",
@@ -4619,6 +5023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_set_length",
           "package": "bindings-libcddb",
@@ -4628,6 +5033,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_set_length",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eCUInt-\u003eIO())",
@@ -4642,6 +5048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_set_title",
           "package": "bindings-libcddb",
@@ -4651,6 +5058,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_set_title",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eCString-\u003eIO())",
@@ -4665,6 +5073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_set_year",
           "package": "bindings-libcddb",
@@ -4674,6 +5083,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbDisc",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbDisc",
           "name": "p'cddb_disc_set_year",
           "normalized": "FunPtr(Ptr C'cddb_disc_t-\u003eCUInt-\u003eIO())",
@@ -4689,6 +5099,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://libcddb.sourceforge.net/API/cddb__error_8h.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "CddbError",
           "package": "bindings-libcddb",
@@ -4698,6 +5109,7 @@
         "index": {
           "description": "http libcddb.sourceforge.net API cddb error h.html",
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "CddbError",
           "package": "bindings-libcddb",
@@ -4711,6 +5123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "C'cddb_error_t",
           "package": "bindings-libcddb",
@@ -4719,6 +5132,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "C'cddb_error_t",
           "package": "bindings-libcddb",
@@ -4732,6 +5146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_CONNECT",
           "package": "bindings-libcddb",
@@ -4741,6 +5156,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_CONNECT",
           "package": "bindings-libcddb",
@@ -4754,6 +5170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_DATA_MISSING",
           "package": "bindings-libcddb",
@@ -4763,6 +5180,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_DATA_MISSING",
           "package": "bindings-libcddb",
@@ -4776,6 +5194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_DISC_NOT_FOUND",
           "package": "bindings-libcddb",
@@ -4785,6 +5204,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_DISC_NOT_FOUND",
           "package": "bindings-libcddb",
@@ -4798,6 +5218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_EMAIL_INVALID",
           "package": "bindings-libcddb",
@@ -4807,6 +5228,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_EMAIL_INVALID",
           "package": "bindings-libcddb",
@@ -4820,6 +5242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_ICONV_FAIL",
           "package": "bindings-libcddb",
@@ -4829,6 +5252,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_ICONV_FAIL",
           "package": "bindings-libcddb",
@@ -4842,6 +5266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_INVALID",
           "package": "bindings-libcddb",
@@ -4851,6 +5276,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_INVALID",
           "package": "bindings-libcddb",
@@ -4864,6 +5290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_INVALID_CHARSET",
           "package": "bindings-libcddb",
@@ -4873,6 +5300,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_INVALID_CHARSET",
           "package": "bindings-libcddb",
@@ -4886,6 +5314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_INVALID_RESPONSE",
           "package": "bindings-libcddb",
@@ -4895,6 +5324,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_INVALID_RESPONSE",
           "package": "bindings-libcddb",
@@ -4908,6 +5338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_LAST",
           "package": "bindings-libcddb",
@@ -4917,6 +5348,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_LAST",
           "package": "bindings-libcddb",
@@ -4930,6 +5362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_LINE_SIZE",
           "package": "bindings-libcddb",
@@ -4939,6 +5372,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_LINE_SIZE",
           "package": "bindings-libcddb",
@@ -4952,6 +5386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_NOT_CONNECTED",
           "package": "bindings-libcddb",
@@ -4961,6 +5396,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_NOT_CONNECTED",
           "package": "bindings-libcddb",
@@ -4974,6 +5410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_NOT_IMPLEMENTED",
           "package": "bindings-libcddb",
@@ -4983,6 +5420,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_NOT_IMPLEMENTED",
           "package": "bindings-libcddb",
@@ -4996,6 +5434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_OK",
           "package": "bindings-libcddb",
@@ -5005,6 +5444,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_OK",
           "package": "bindings-libcddb",
@@ -5018,6 +5458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_OUT_OF_MEMORY",
           "package": "bindings-libcddb",
@@ -5027,6 +5468,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_OUT_OF_MEMORY",
           "package": "bindings-libcddb",
@@ -5040,6 +5482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_PERMISSION_DENIED",
           "package": "bindings-libcddb",
@@ -5049,6 +5492,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_PERMISSION_DENIED",
           "package": "bindings-libcddb",
@@ -5062,6 +5506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_PROXY_AUTH",
           "package": "bindings-libcddb",
@@ -5071,6 +5516,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_PROXY_AUTH",
           "package": "bindings-libcddb",
@@ -5084,6 +5530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_REJECTED",
           "package": "bindings-libcddb",
@@ -5093,6 +5540,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_REJECTED",
           "package": "bindings-libcddb",
@@ -5106,6 +5554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_SERVER_ERROR",
           "package": "bindings-libcddb",
@@ -5115,6 +5564,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_SERVER_ERROR",
           "package": "bindings-libcddb",
@@ -5128,6 +5578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_TRACK_NOT_FOUND",
           "package": "bindings-libcddb",
@@ -5137,6 +5588,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_TRACK_NOT_FOUND",
           "package": "bindings-libcddb",
@@ -5150,6 +5602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_UNEXPECTED_EOF",
           "package": "bindings-libcddb",
@@ -5159,6 +5612,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_UNEXPECTED_EOF",
           "package": "bindings-libcddb",
@@ -5172,6 +5626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_UNKNOWN",
           "package": "bindings-libcddb",
@@ -5181,6 +5636,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_UNKNOWN",
           "package": "bindings-libcddb",
@@ -5194,6 +5650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_UNKNOWN_HOST_NAME",
           "package": "bindings-libcddb",
@@ -5203,6 +5660,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'CDDB_ERR_UNKNOWN_HOST_NAME",
           "package": "bindings-libcddb",
@@ -5216,6 +5674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'cddb_error_print",
           "package": "bindings-libcddb",
@@ -5225,6 +5684,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'cddb_error_print",
           "normalized": "C'cddb_error_t-\u003eIO()",
@@ -5239,6 +5699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'cddb_error_str",
           "package": "bindings-libcddb",
@@ -5248,6 +5709,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'cddb_error_str",
           "normalized": "C'cddb_error_t-\u003eIO CString",
@@ -5262,6 +5724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'cddb_error_stream_print",
           "package": "bindings-libcddb",
@@ -5271,6 +5734,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "c'cddb_error_stream_print",
           "normalized": "Ptr CFile-\u003eC'cddb_error_t-\u003eIO()",
@@ -5285,6 +5749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "p'cddb_error_print",
           "package": "bindings-libcddb",
@@ -5294,6 +5759,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "p'cddb_error_print",
           "normalized": "FunPtr(C'cddb_error_t-\u003eIO())",
@@ -5308,6 +5774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "p'cddb_error_str",
           "package": "bindings-libcddb",
@@ -5317,6 +5784,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "p'cddb_error_str",
           "normalized": "FunPtr(C'cddb_error_t-\u003eIO CString)",
@@ -5331,6 +5799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbError",
           "name": "p'cddb_error_stream_print",
           "package": "bindings-libcddb",
@@ -5340,6 +5809,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbError",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbError",
           "name": "p'cddb_error_stream_print",
           "normalized": "FunPtr(Ptr CFile-\u003eC'cddb_error_t-\u003eIO())",
@@ -5355,6 +5825,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://libcddb.sourceforge.net/API/cddb__log_8h.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "CddbLog",
           "package": "bindings-libcddb",
@@ -5364,6 +5835,7 @@
         "index": {
           "description": "http libcddb.sourceforge.net API cddb log h.html",
           "hierarchy": "Bindings Libcddb CddbLog",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "CddbLog",
           "package": "bindings-libcddb",
@@ -5377,6 +5849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "C'cddb_log_handler_t",
           "package": "bindings-libcddb",
@@ -5385,6 +5858,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbLog",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "C'cddb_log_handler_t",
           "package": "bindings-libcddb",
@@ -5398,6 +5872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "C'cddb_log_level_t",
           "package": "bindings-libcddb",
@@ -5406,6 +5881,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbLog",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "C'cddb_log_level_t",
           "package": "bindings-libcddb",
@@ -5419,6 +5895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "c'CDDB_LOG_CRITICAL",
           "package": "bindings-libcddb",
@@ -5428,6 +5905,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbLog",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "c'CDDB_LOG_CRITICAL",
           "package": "bindings-libcddb",
@@ -5441,6 +5919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "c'CDDB_LOG_DEBUG",
           "package": "bindings-libcddb",
@@ -5450,6 +5929,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbLog",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "c'CDDB_LOG_DEBUG",
           "package": "bindings-libcddb",
@@ -5463,6 +5943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "c'CDDB_LOG_ERROR",
           "package": "bindings-libcddb",
@@ -5472,6 +5953,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbLog",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "c'CDDB_LOG_ERROR",
           "package": "bindings-libcddb",
@@ -5485,6 +5967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "c'CDDB_LOG_INFO",
           "package": "bindings-libcddb",
@@ -5494,6 +5977,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbLog",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "c'CDDB_LOG_INFO",
           "package": "bindings-libcddb",
@@ -5507,6 +5991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "c'CDDB_LOG_NONE",
           "package": "bindings-libcddb",
@@ -5516,6 +6001,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbLog",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "c'CDDB_LOG_NONE",
           "package": "bindings-libcddb",
@@ -5529,6 +6015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "c'CDDB_LOG_WARN",
           "package": "bindings-libcddb",
@@ -5538,6 +6025,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbLog",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "c'CDDB_LOG_WARN",
           "package": "bindings-libcddb",
@@ -5551,6 +6039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "c'cddb_log_set_handler",
           "package": "bindings-libcddb",
@@ -5560,6 +6049,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbLog",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "c'cddb_log_set_handler",
           "normalized": "C'cddb_log_handler_t-\u003eIO C'cddb_log_handler_t",
@@ -5574,6 +6064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "c'cddb_log_set_level",
           "package": "bindings-libcddb",
@@ -5583,6 +6074,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbLog",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "c'cddb_log_set_level",
           "normalized": "C'cddb_log_level_t-\u003eIO()",
@@ -5597,6 +6089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "mK'cddb_log_handler_t",
           "package": "bindings-libcddb",
@@ -5606,6 +6099,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbLog",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "mK'cddb_log_handler_t",
           "normalized": "C'cddb_log_handler_t-\u003eC'cddb_log_level_t-\u003eCString-\u003eIO()",
@@ -5621,6 +6115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "mk'cddb_log_handler_t",
           "package": "bindings-libcddb",
@@ -5630,6 +6125,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbLog",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "mk'cddb_log_handler_t",
           "normalized": "(C'cddb_log_level_t-\u003eCString-\u003eIO())-\u003eIO C'cddb_log_handler_t",
@@ -5644,6 +6140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "p'cddb_log_set_handler",
           "package": "bindings-libcddb",
@@ -5653,6 +6150,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbLog",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "p'cddb_log_set_handler",
           "normalized": "FunPtr(C'cddb_log_handler_t-\u003eIO C'cddb_log_handler_t)",
@@ -5667,6 +6165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "p'cddb_log_set_level",
           "package": "bindings-libcddb",
@@ -5676,6 +6175,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbLog",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbLog",
           "name": "p'cddb_log_set_level",
           "normalized": "FunPtr(C'cddb_log_level_t-\u003eIO())",
@@ -5691,6 +6191,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://libcddb.sourceforge.net/API/cddb__site_8h.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "CddbSite",
           "package": "bindings-libcddb",
@@ -5700,6 +6201,7 @@
         "index": {
           "description": "http libcddb.sourceforge.net API cddb site h.html",
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "CddbSite",
           "package": "bindings-libcddb",
@@ -5713,6 +6215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "C'cddb_protocol_t",
           "package": "bindings-libcddb",
@@ -5721,6 +6224,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "C'cddb_protocol_t",
           "package": "bindings-libcddb",
@@ -5734,6 +6238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "C'cddb_site_t",
           "package": "bindings-libcddb",
@@ -5742,6 +6247,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "C'cddb_site_t",
           "package": "bindings-libcddb",
@@ -5755,6 +6261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "C'cddb_site_t",
           "package": "bindings-libcddb",
@@ -5764,6 +6271,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "C'cddb_site_t",
           "package": "bindings-libcddb",
@@ -5777,6 +6285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'PROTO_CDDBP",
           "package": "bindings-libcddb",
@@ -5786,6 +6295,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'PROTO_CDDBP",
           "package": "bindings-libcddb",
@@ -5799,6 +6309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'PROTO_HTTP",
           "package": "bindings-libcddb",
@@ -5808,6 +6319,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'PROTO_HTTP",
           "package": "bindings-libcddb",
@@ -5821,6 +6333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'PROTO_UNKNOWN",
           "package": "bindings-libcddb",
@@ -5830,6 +6343,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'PROTO_UNKNOWN",
           "package": "bindings-libcddb",
@@ -5843,6 +6357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_clone",
           "package": "bindings-libcddb",
@@ -5852,6 +6367,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_clone",
           "normalized": "Ptr C'cddb_site_t-\u003eIO(Ptr C'cddb_site_t)",
@@ -5866,6 +6382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_destroy",
           "package": "bindings-libcddb",
@@ -5875,6 +6392,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_destroy",
           "normalized": "Ptr C'cddb_site_t-\u003eIO C'cddb_error_t",
@@ -5889,6 +6407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_get_address",
           "package": "bindings-libcddb",
@@ -5898,6 +6417,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_get_address",
           "normalized": "Ptr C'cddb_site_t-\u003ePtr CString-\u003ePtr CUInt-\u003eIO C'cddb_error_t",
@@ -5912,6 +6432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_get_description",
           "package": "bindings-libcddb",
@@ -5921,6 +6442,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_get_description",
           "normalized": "Ptr C'cddb_site_t-\u003ePtr CString-\u003eIO C'cddb_error_t",
@@ -5935,6 +6457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_get_location",
           "package": "bindings-libcddb",
@@ -5944,6 +6467,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_get_location",
           "normalized": "Ptr C'cddb_site_t-\u003ePtr CFloat-\u003ePtr CFloat-\u003eIO C'cddb_error_t",
@@ -5958,6 +6482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_get_protocol",
           "package": "bindings-libcddb",
@@ -5967,6 +6492,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_get_protocol",
           "normalized": "Ptr C'cddb_site_t-\u003eIO C'cddb_protocol_t",
@@ -5981,6 +6507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_get_query_path",
           "package": "bindings-libcddb",
@@ -5990,6 +6517,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_get_query_path",
           "normalized": "Ptr C'cddb_site_t-\u003ePtr CString-\u003eIO C'cddb_error_t",
@@ -6004,6 +6532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_get_submit_path",
           "package": "bindings-libcddb",
@@ -6013,6 +6542,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_get_submit_path",
           "normalized": "Ptr C'cddb_site_t-\u003ePtr CString-\u003eIO C'cddb_error_t",
@@ -6027,6 +6557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_new",
           "package": "bindings-libcddb",
@@ -6036,6 +6567,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_new",
           "package": "bindings-libcddb",
@@ -6048,6 +6580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_parse",
           "package": "bindings-libcddb",
@@ -6057,6 +6590,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_parse",
           "normalized": "Ptr C'cddb_site_t-\u003eCString-\u003eIO CInt",
@@ -6071,6 +6605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_print",
           "package": "bindings-libcddb",
@@ -6080,6 +6615,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_print",
           "normalized": "Ptr C'cddb_site_t-\u003eIO C'cddb_error_t",
@@ -6094,6 +6630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_set_address",
           "package": "bindings-libcddb",
@@ -6103,6 +6640,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_set_address",
           "normalized": "Ptr C'cddb_site_t-\u003eCString-\u003eCUInt-\u003eIO C'cddb_error_t",
@@ -6117,6 +6655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_set_description",
           "package": "bindings-libcddb",
@@ -6126,6 +6665,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_set_description",
           "normalized": "Ptr C'cddb_site_t-\u003eCString-\u003eIO C'cddb_error_t",
@@ -6140,6 +6680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_set_location",
           "package": "bindings-libcddb",
@@ -6149,6 +6690,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_set_location",
           "normalized": "Ptr C'cddb_site_t-\u003eCFloat-\u003eCFloat-\u003eIO C'cddb_error_t",
@@ -6163,6 +6705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_set_protocol",
           "package": "bindings-libcddb",
@@ -6172,6 +6715,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_set_protocol",
           "normalized": "Ptr C'cddb_site_t-\u003eC'cddb_protocol_t-\u003eIO C'cddb_error_t",
@@ -6186,6 +6730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_set_query_path",
           "package": "bindings-libcddb",
@@ -6195,6 +6740,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_set_query_path",
           "normalized": "Ptr C'cddb_site_t-\u003eCString-\u003eIO C'cddb_error_t",
@@ -6209,6 +6755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_set_submit_path",
           "package": "bindings-libcddb",
@@ -6218,6 +6765,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "c'cddb_site_set_submit_path",
           "normalized": "Ptr C'cddb_site_t-\u003eCString-\u003eIO C'cddb_error_t",
@@ -6232,6 +6780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_clone",
           "package": "bindings-libcddb",
@@ -6241,6 +6790,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_clone",
           "normalized": "FunPtr(Ptr C'cddb_site_t-\u003eIO(Ptr C'cddb_site_t))",
@@ -6255,6 +6805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_destroy",
           "package": "bindings-libcddb",
@@ -6264,6 +6815,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_destroy",
           "normalized": "FunPtr(Ptr C'cddb_site_t-\u003eIO C'cddb_error_t)",
@@ -6278,6 +6830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_get_address",
           "package": "bindings-libcddb",
@@ -6287,6 +6840,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_get_address",
           "normalized": "FunPtr(Ptr C'cddb_site_t-\u003ePtr CString-\u003ePtr CUInt-\u003eIO C'cddb_error_t)",
@@ -6301,6 +6855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_get_description",
           "package": "bindings-libcddb",
@@ -6310,6 +6865,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_get_description",
           "normalized": "FunPtr(Ptr C'cddb_site_t-\u003ePtr CString-\u003eIO C'cddb_error_t)",
@@ -6324,6 +6880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_get_location",
           "package": "bindings-libcddb",
@@ -6333,6 +6890,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_get_location",
           "normalized": "FunPtr(Ptr C'cddb_site_t-\u003ePtr CFloat-\u003ePtr CFloat-\u003eIO C'cddb_error_t)",
@@ -6347,6 +6905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_get_protocol",
           "package": "bindings-libcddb",
@@ -6356,6 +6915,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_get_protocol",
           "normalized": "FunPtr(Ptr C'cddb_site_t-\u003eIO C'cddb_protocol_t)",
@@ -6370,6 +6930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_get_query_path",
           "package": "bindings-libcddb",
@@ -6379,6 +6940,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_get_query_path",
           "normalized": "FunPtr(Ptr C'cddb_site_t-\u003ePtr CString-\u003eIO C'cddb_error_t)",
@@ -6393,6 +6955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_get_submit_path",
           "package": "bindings-libcddb",
@@ -6402,6 +6965,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_get_submit_path",
           "normalized": "FunPtr(Ptr C'cddb_site_t-\u003ePtr CString-\u003eIO C'cddb_error_t)",
@@ -6416,6 +6980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_new",
           "package": "bindings-libcddb",
@@ -6425,6 +6990,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_new",
           "package": "bindings-libcddb",
@@ -6437,6 +7003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_parse",
           "package": "bindings-libcddb",
@@ -6446,6 +7013,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_parse",
           "normalized": "FunPtr(Ptr C'cddb_site_t-\u003eCString-\u003eIO CInt)",
@@ -6460,6 +7028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_print",
           "package": "bindings-libcddb",
@@ -6469,6 +7038,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_print",
           "normalized": "FunPtr(Ptr C'cddb_site_t-\u003eIO C'cddb_error_t)",
@@ -6483,6 +7053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_set_address",
           "package": "bindings-libcddb",
@@ -6492,6 +7063,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_set_address",
           "normalized": "FunPtr(Ptr C'cddb_site_t-\u003eCString-\u003eCUInt-\u003eIO C'cddb_error_t)",
@@ -6506,6 +7078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_set_description",
           "package": "bindings-libcddb",
@@ -6515,6 +7088,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_set_description",
           "normalized": "FunPtr(Ptr C'cddb_site_t-\u003eCString-\u003eIO C'cddb_error_t)",
@@ -6529,6 +7103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_set_location",
           "package": "bindings-libcddb",
@@ -6538,6 +7113,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_set_location",
           "normalized": "FunPtr(Ptr C'cddb_site_t-\u003eCFloat-\u003eCFloat-\u003eIO C'cddb_error_t)",
@@ -6552,6 +7128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_set_protocol",
           "package": "bindings-libcddb",
@@ -6561,6 +7138,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_set_protocol",
           "normalized": "FunPtr(Ptr C'cddb_site_t-\u003eC'cddb_protocol_t-\u003eIO C'cddb_error_t)",
@@ -6575,6 +7153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_set_query_path",
           "package": "bindings-libcddb",
@@ -6584,6 +7163,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_set_query_path",
           "normalized": "FunPtr(Ptr C'cddb_site_t-\u003eCString-\u003eIO C'cddb_error_t)",
@@ -6598,6 +7178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_set_submit_path",
           "package": "bindings-libcddb",
@@ -6607,6 +7188,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbSite",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbSite",
           "name": "p'cddb_site_set_submit_path",
           "normalized": "FunPtr(Ptr C'cddb_site_t-\u003eCString-\u003eIO C'cddb_error_t)",
@@ -6622,6 +7204,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://libcddb.sourceforge.net/API/cddb__track_8h.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "CddbTrack",
           "package": "bindings-libcddb",
@@ -6631,6 +7214,7 @@
         "index": {
           "description": "http libcddb.sourceforge.net API cddb track h.html",
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "CddbTrack",
           "package": "bindings-libcddb",
@@ -6644,6 +7228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "C'cddb_track_t",
           "package": "bindings-libcddb",
@@ -6652,6 +7237,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "C'cddb_track_t",
           "package": "bindings-libcddb",
@@ -6665,6 +7251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "C'cddb_track_t",
           "package": "bindings-libcddb",
@@ -6674,6 +7261,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "C'cddb_track_t",
           "package": "bindings-libcddb",
@@ -6687,6 +7275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_append_artist",
           "package": "bindings-libcddb",
@@ -6696,6 +7285,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_append_artist",
           "normalized": "Ptr C'cddb_track_t-\u003eCString-\u003eIO()",
@@ -6710,6 +7300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_append_ext_data",
           "package": "bindings-libcddb",
@@ -6719,6 +7310,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_append_ext_data",
           "normalized": "Ptr C'cddb_track_t-\u003eCString-\u003eIO()",
@@ -6733,6 +7325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_append_title",
           "package": "bindings-libcddb",
@@ -6742,6 +7335,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_append_title",
           "normalized": "Ptr C'cddb_track_t-\u003eCString-\u003eIO()",
@@ -6756,6 +7350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_clone",
           "package": "bindings-libcddb",
@@ -6765,6 +7360,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_clone",
           "normalized": "Ptr C'cddb_track_t-\u003eIO(Ptr C'cddb_track_t)",
@@ -6779,6 +7375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_copy",
           "package": "bindings-libcddb",
@@ -6788,6 +7385,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_copy",
           "normalized": "Ptr C'cddb_track_t-\u003ePtr C'cddb_track_t-\u003eIO()",
@@ -6802,6 +7400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_destroy",
           "package": "bindings-libcddb",
@@ -6811,6 +7410,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_destroy",
           "normalized": "Ptr C'cddb_track_t-\u003eIO()",
@@ -6825,6 +7425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_get_artist",
           "package": "bindings-libcddb",
@@ -6834,6 +7435,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_get_artist",
           "normalized": "Ptr C'cddb_track_t-\u003eIO CString",
@@ -6848,6 +7450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_get_ext_data",
           "package": "bindings-libcddb",
@@ -6857,6 +7460,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_get_ext_data",
           "normalized": "Ptr C'cddb_track_t-\u003eIO CString",
@@ -6871,6 +7475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_get_frame_offset",
           "package": "bindings-libcddb",
@@ -6880,6 +7485,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_get_frame_offset",
           "normalized": "Ptr C'cddb_track_t-\u003eIO CInt",
@@ -6894,6 +7500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_get_length",
           "package": "bindings-libcddb",
@@ -6903,6 +7510,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_get_length",
           "normalized": "Ptr C'cddb_track_t-\u003eIO CInt",
@@ -6917,6 +7525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_get_number",
           "package": "bindings-libcddb",
@@ -6926,6 +7535,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_get_number",
           "normalized": "Ptr C'cddb_track_t-\u003eIO CInt",
@@ -6940,6 +7550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_get_title",
           "package": "bindings-libcddb",
@@ -6949,6 +7560,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_get_title",
           "normalized": "Ptr C'cddb_track_t-\u003eIO CString",
@@ -6963,6 +7575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_new",
           "package": "bindings-libcddb",
@@ -6972,6 +7585,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_new",
           "package": "bindings-libcddb",
@@ -6984,6 +7598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_print",
           "package": "bindings-libcddb",
@@ -6993,6 +7608,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_print",
           "normalized": "Ptr C'cddb_track_t-\u003eIO()",
@@ -7007,6 +7623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_set_artist",
           "package": "bindings-libcddb",
@@ -7016,6 +7633,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_set_artist",
           "normalized": "Ptr C'cddb_track_t-\u003eCString-\u003eIO()",
@@ -7030,6 +7648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_set_ext_data",
           "package": "bindings-libcddb",
@@ -7039,6 +7658,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_set_ext_data",
           "normalized": "Ptr C'cddb_track_t-\u003eCString-\u003eIO()",
@@ -7053,6 +7673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_set_frame_offset",
           "package": "bindings-libcddb",
@@ -7062,6 +7683,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_set_frame_offset",
           "normalized": "Ptr C'cddb_track_t-\u003eCInt-\u003eIO()",
@@ -7076,6 +7698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_set_length",
           "package": "bindings-libcddb",
@@ -7085,6 +7708,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_set_length",
           "normalized": "Ptr C'cddb_track_t-\u003eCInt-\u003eIO()",
@@ -7099,6 +7723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_set_title",
           "package": "bindings-libcddb",
@@ -7108,6 +7733,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "c'cddb_track_set_title",
           "normalized": "Ptr C'cddb_track_t-\u003eCString-\u003eIO()",
@@ -7122,6 +7748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_append_artist",
           "package": "bindings-libcddb",
@@ -7131,6 +7758,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_append_artist",
           "normalized": "FunPtr(Ptr C'cddb_track_t-\u003eCString-\u003eIO())",
@@ -7145,6 +7773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_append_ext_data",
           "package": "bindings-libcddb",
@@ -7154,6 +7783,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_append_ext_data",
           "normalized": "FunPtr(Ptr C'cddb_track_t-\u003eCString-\u003eIO())",
@@ -7168,6 +7798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_append_title",
           "package": "bindings-libcddb",
@@ -7177,6 +7808,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_append_title",
           "normalized": "FunPtr(Ptr C'cddb_track_t-\u003eCString-\u003eIO())",
@@ -7191,6 +7823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_clone",
           "package": "bindings-libcddb",
@@ -7200,6 +7833,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_clone",
           "normalized": "FunPtr(Ptr C'cddb_track_t-\u003eIO(Ptr C'cddb_track_t))",
@@ -7214,6 +7848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_copy",
           "package": "bindings-libcddb",
@@ -7223,6 +7858,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_copy",
           "normalized": "FunPtr(Ptr C'cddb_track_t-\u003ePtr C'cddb_track_t-\u003eIO())",
@@ -7237,6 +7873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_destroy",
           "package": "bindings-libcddb",
@@ -7246,6 +7883,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_destroy",
           "normalized": "FunPtr(Ptr C'cddb_track_t-\u003eIO())",
@@ -7260,6 +7898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_get_artist",
           "package": "bindings-libcddb",
@@ -7269,6 +7908,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_get_artist",
           "normalized": "FunPtr(Ptr C'cddb_track_t-\u003eIO CString)",
@@ -7283,6 +7923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_get_ext_data",
           "package": "bindings-libcddb",
@@ -7292,6 +7933,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_get_ext_data",
           "normalized": "FunPtr(Ptr C'cddb_track_t-\u003eIO CString)",
@@ -7306,6 +7948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_get_frame_offset",
           "package": "bindings-libcddb",
@@ -7315,6 +7958,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_get_frame_offset",
           "normalized": "FunPtr(Ptr C'cddb_track_t-\u003eIO CInt)",
@@ -7329,6 +7973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_get_length",
           "package": "bindings-libcddb",
@@ -7338,6 +7983,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_get_length",
           "normalized": "FunPtr(Ptr C'cddb_track_t-\u003eIO CInt)",
@@ -7352,6 +7998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_get_number",
           "package": "bindings-libcddb",
@@ -7361,6 +8008,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_get_number",
           "normalized": "FunPtr(Ptr C'cddb_track_t-\u003eIO CInt)",
@@ -7375,6 +8023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_get_title",
           "package": "bindings-libcddb",
@@ -7384,6 +8033,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_get_title",
           "normalized": "FunPtr(Ptr C'cddb_track_t-\u003eIO CString)",
@@ -7398,6 +8048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_new",
           "package": "bindings-libcddb",
@@ -7407,6 +8058,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_new",
           "package": "bindings-libcddb",
@@ -7419,6 +8071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_print",
           "package": "bindings-libcddb",
@@ -7428,6 +8081,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_print",
           "normalized": "FunPtr(Ptr C'cddb_track_t-\u003eIO())",
@@ -7442,6 +8096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_set_artist",
           "package": "bindings-libcddb",
@@ -7451,6 +8106,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_set_artist",
           "normalized": "FunPtr(Ptr C'cddb_track_t-\u003eCString-\u003eIO())",
@@ -7465,6 +8121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_set_ext_data",
           "package": "bindings-libcddb",
@@ -7474,6 +8131,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_set_ext_data",
           "normalized": "FunPtr(Ptr C'cddb_track_t-\u003eCString-\u003eIO())",
@@ -7488,6 +8146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_set_frame_offset",
           "package": "bindings-libcddb",
@@ -7497,6 +8156,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_set_frame_offset",
           "normalized": "FunPtr(Ptr C'cddb_track_t-\u003eCInt-\u003eIO())",
@@ -7511,6 +8171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_set_length",
           "package": "bindings-libcddb",
@@ -7520,6 +8181,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_set_length",
           "normalized": "FunPtr(Ptr C'cddb_track_t-\u003eCInt-\u003eIO())",
@@ -7534,6 +8196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_set_title",
           "package": "bindings-libcddb",
@@ -7543,6 +8206,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb CddbTrack",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb.CddbTrack",
           "name": "p'cddb_track_set_title",
           "normalized": "FunPtr(Ptr C'cddb_track_t-\u003eCString-\u003eIO())",
@@ -7557,6 +8221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:58 UTC 2014",
           "module": "Bindings.Libcddb",
           "name": "Libcddb",
           "package": "bindings-libcddb",
@@ -7565,6 +8230,7 @@
         },
         "index": {
           "hierarchy": "Bindings Libcddb",
+          "indexed": "2014-03-11T17:20:58",
           "module": "Bindings.Libcddb",
           "name": "Libcddb",
           "package": "bindings-libcddb",

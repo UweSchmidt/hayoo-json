@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack2-handler-happstack-server"
+        "phrase": "hack2-handler-happstack-server",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:59 UTC 2014",
           "module": "Hack2.Handler.HappstackServer",
           "name": "HappstackServer",
           "package": "hack2-handler-happstack-server",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler HappstackServer",
+          "indexed": "2014-03-11T18:25:59",
           "module": "Hack2.Handler.HappstackServer",
           "name": "HappstackServer",
           "package": "hack2-handler-happstack-server",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:59 UTC 2014",
           "module": "Hack2.Handler.HappstackServer",
           "name": "ServerConf",
           "package": "hack2-handler-happstack-server",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler HappstackServer",
+          "indexed": "2014-03-11T18:25:59",
           "module": "Hack2.Handler.HappstackServer",
           "name": "ServerConf",
           "package": "hack2-handler-happstack-server",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:59 UTC 2014",
           "module": "Hack2.Handler.HappstackServer",
           "name": "ServerConf",
           "package": "hack2-handler-happstack-server",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler HappstackServer",
+          "indexed": "2014-03-11T18:25:59",
           "module": "Hack2.Handler.HappstackServer",
           "name": "ServerConf",
           "package": "hack2-handler-happstack-server",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:59 UTC 2014",
           "module": "Hack2.Handler.HappstackServer",
           "name": "appToServerPart",
           "package": "hack2-handler-happstack-server",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler HappstackServer",
+          "indexed": "2014-03-11T18:25:59",
           "module": "Hack2.Handler.HappstackServer",
           "name": "appToServerPart",
           "normalized": "ServerConf-\u003eApplication-\u003eServerPart Response",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:59 UTC 2014",
           "module": "Hack2.Handler.HappstackServer",
           "name": "port",
           "package": "hack2-handler-happstack-server",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler HappstackServer",
+          "indexed": "2014-03-11T18:25:59",
           "module": "Hack2.Handler.HappstackServer",
           "name": "port",
           "package": "hack2-handler-happstack-server",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:59 UTC 2014",
           "module": "Hack2.Handler.HappstackServer",
           "name": "run",
           "package": "hack2-handler-happstack-server",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler HappstackServer",
+          "indexed": "2014-03-11T18:25:59",
           "module": "Hack2.Handler.HappstackServer",
           "name": "run",
           "normalized": "Application-\u003eIO()",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:59 UTC 2014",
           "module": "Hack2.Handler.HappstackServer",
           "name": "runWithConfig",
           "package": "hack2-handler-happstack-server",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler HappstackServer",
+          "indexed": "2014-03-11T18:25:59",
           "module": "Hack2.Handler.HappstackServer",
           "name": "runWithConfig",
           "normalized": "ServerConf-\u003eApplication-\u003eIO()",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:59 UTC 2014",
           "module": "Hack2.Handler.HappstackServer",
           "name": "serverName",
           "package": "hack2-handler-happstack-server",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Hack2 Handler HappstackServer",
+          "indexed": "2014-03-11T18:25:59",
           "module": "Hack2.Handler.HappstackServer",
           "name": "serverName",
           "package": "hack2-handler-happstack-server",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mbox-tools"
+        "phrase": "mbox-tools",
+        "type": "phrase"
       },
       "type": "context"
     }

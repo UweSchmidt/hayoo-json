@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "colors"
+        "phrase": "colors",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClasses for colors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Class",
           "name": "Class",
           "package": "colors",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Classes for colors",
           "hierarchy": "Data Color Class",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Class",
           "name": "Class",
           "package": "colors",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Class",
           "name": "HasAlpha",
           "package": "colors",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Color Class",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Class",
           "name": "HasAlpha",
           "package": "colors",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Class",
           "name": "HasHSB",
           "package": "colors",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Color Class",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Class",
           "name": "HasHSB",
           "package": "colors",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Class",
           "name": "HasRGB",
           "package": "colors",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Color Class",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Class",
           "name": "HasRGB",
           "package": "colors",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003e_8Bit\u003c/a\u003e\u003c/code\u003e :: Iso' \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Class",
           "name": "_8Bit",
           "package": "colors",
@@ -115,6 +124,7 @@
         "index": {
           "description": "Bit Iso Float Word8",
           "hierarchy": "Data Color Class",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Class",
           "name": "_8Bit",
           "normalized": "a Word(b Word)-\u003ea Float(b Float)",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003e_Alpha\u003c/a\u003e\u003c/code\u003e :: Lens' \u003ccode\u003ea\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Class",
           "name": "_Alpha",
           "package": "colors",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Alpha Lens Float",
           "hierarchy": "Data Color Class",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Class",
           "name": "_Alpha",
           "normalized": "(Float-\u003ea Float)-\u003eb-\u003ea b",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003e_Blue\u003c/a\u003e\u003c/code\u003e :: Lens' \u003ccode\u003ea\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Class",
           "name": "_Blue",
           "package": "colors",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Blue Lens Float",
           "hierarchy": "Data Color Class",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Class",
           "name": "_Blue",
           "normalized": "(Float-\u003ea Float)-\u003eb-\u003ea b",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003e_Brightness\u003c/a\u003e\u003c/code\u003e :: Lens' \u003ccode\u003ea\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Class",
           "name": "_Brightness",
           "package": "colors",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Brightness Lens Float",
           "hierarchy": "Data Color Class",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Class",
           "name": "_Brightness",
           "normalized": "(Float-\u003ea Float)-\u003eb-\u003ea b",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003e_Green\u003c/a\u003e\u003c/code\u003e :: Lens' \u003ccode\u003ea\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Class",
           "name": "_Green",
           "package": "colors",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Green Lens Float",
           "hierarchy": "Data Color Class",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Class",
           "name": "_Green",
           "normalized": "(Float-\u003ea Float)-\u003eb-\u003ea b",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003e_Hue\u003c/a\u003e\u003c/code\u003e :: Lens' \u003ccode\u003ea\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Class",
           "name": "_Hue",
           "package": "colors",
@@ -245,6 +264,7 @@
         "index": {
           "description": "Hue Lens Float",
           "hierarchy": "Data Color Class",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Class",
           "name": "_Hue",
           "normalized": "(Float-\u003ea Float)-\u003eb-\u003ea b",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003e_Red\u003c/a\u003e\u003c/code\u003e :: Lens' \u003ccode\u003ea\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Class",
           "name": "_Red",
           "package": "colors",
@@ -271,6 +292,7 @@
         "index": {
           "description": "Red Lens Float",
           "hierarchy": "Data Color Class",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Class",
           "name": "_Red",
           "normalized": "(Float-\u003ea Float)-\u003eb-\u003ea b",
@@ -287,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003e_Saturation\u003c/a\u003e\u003c/code\u003e :: Lens' \u003ccode\u003ea\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Class",
           "name": "_Saturation",
           "package": "colors",
@@ -297,6 +320,7 @@
         "index": {
           "description": "Saturation Lens Float",
           "hierarchy": "Data Color Class",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Class",
           "name": "_Saturation",
           "normalized": "(Float-\u003ea Float)-\u003eb-\u003ea b",
@@ -312,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Class",
           "name": "fromHSB",
           "package": "colors",
@@ -321,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Data Color Class",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Class",
           "name": "fromHSB",
           "normalized": "Float-\u003eFloat-\u003eFloat-\u003ea",
@@ -336,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Class",
           "name": "fromRGB",
           "package": "colors",
@@ -345,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Data Color Class",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Class",
           "name": "fromRGB",
           "normalized": "Float-\u003eFloat-\u003eFloat-\u003ea",
@@ -361,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEntities\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Names",
           "name": "Names",
           "package": "colors",
@@ -370,6 +399,7 @@
         "index": {
           "description": "Entities",
           "hierarchy": "Data Color Names",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Names",
           "name": "Names",
           "package": "colors",
@@ -383,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Names",
           "name": "black",
           "package": "colors",
@@ -392,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Data Color Names",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Names",
           "name": "black",
           "package": "colors",
@@ -404,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Names",
           "name": "blue",
           "package": "colors",
@@ -413,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Data Color Names",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Names",
           "name": "blue",
           "package": "colors",
@@ -425,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Names",
           "name": "cyan",
           "package": "colors",
@@ -434,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Data Color Names",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Names",
           "name": "cyan",
           "package": "colors",
@@ -446,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Names",
           "name": "gray",
           "package": "colors",
@@ -455,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Data Color Names",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Names",
           "name": "gray",
           "package": "colors",
@@ -467,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Names",
           "name": "green",
           "package": "colors",
@@ -476,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Data Color Names",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Names",
           "name": "green",
           "package": "colors",
@@ -488,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Names",
           "name": "magenta",
           "package": "colors",
@@ -497,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Data Color Names",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Names",
           "name": "magenta",
           "package": "colors",
@@ -509,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Names",
           "name": "red",
           "package": "colors",
@@ -518,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Data Color Names",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Names",
           "name": "red",
           "package": "colors",
@@ -530,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Names",
           "name": "white",
           "package": "colors",
@@ -539,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Data Color Names",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Names",
           "name": "white",
           "package": "colors",
@@ -551,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color.Names",
           "name": "yellow",
           "package": "colors",
@@ -560,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Data Color Names",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color.Names",
           "name": "yellow",
           "package": "colors",
@@ -573,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eColors and its operations\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color",
           "name": "Color",
           "package": "colors",
@@ -582,6 +631,7 @@
         "index": {
           "description": "Colors and its operations",
           "hierarchy": "Data Color",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color",
           "name": "Color",
           "package": "colors",
@@ -596,6 +646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA color that has red, green, blue, alpha as its components.\n It is an instance of \u003ccode\u003e\u003ca\u003eHasRGB\u003c/a\u003e\u003c/code\u003e so there are some lenses to tweak individual components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color",
           "name": "Color",
           "package": "colors",
@@ -605,6 +656,7 @@
         "index": {
           "description": "color that has red green blue alpha as its components It is an instance of HasRGB so there are some lenses to tweak individual components",
           "hierarchy": "Data Color",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color",
           "name": "Color",
           "package": "colors",
@@ -618,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color",
           "name": "Color",
           "package": "colors",
@@ -627,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Data Color",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color",
           "name": "Color",
           "package": "colors",
@@ -641,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlend two colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:04 UTC 2014",
           "module": "Data.Color",
           "name": "blend",
           "package": "colors",
@@ -651,6 +706,7 @@
         "index": {
           "description": "Blend two colors",
           "hierarchy": "Data Color",
+          "indexed": "2014-03-11T17:36:04",
           "module": "Data.Color",
           "name": "blend",
           "normalized": "Float-\u003eColor-\u003eColor-\u003eColor",

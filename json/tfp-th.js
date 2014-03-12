@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tfp-th"
+        "phrase": "tfp-th",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -17,9 +17,12 @@
     {
       "cmd": "insert",
       "document": {
-        "description": {},
+        "description": {
+          "indexed": "Tue Mar 11 20:20:51 UTC 2014"
+        },
         "index": {
           "hierarchy": "getContentsFromDoc",
+          "indexed": "2014-03-11T20:20:51",
           "module": "getContentsFromDoc"
         },
         "uri": "http://hackage.haskell.org/package/tfp-th/docs/Types-Data-Num-Decimal-Literals-Big.html"
@@ -29,6 +32,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:51 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals.TH",
           "name": "TH",
           "package": "tfp-th",
@@ -37,6 +41,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals TH",
+          "indexed": "2014-03-11T20:20:51",
           "module": "Types.Data.Num.Decimal.Literals.TH",
           "name": "TH",
           "package": "tfp-th",
@@ -50,6 +55,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:51 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals.TH",
           "name": "decLiteralD",
           "package": "tfp-th",
@@ -59,6 +65,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals TH",
+          "indexed": "2014-03-11T20:20:51",
           "module": "Types.Data.Num.Decimal.Literals.TH",
           "name": "decLiteralD",
           "normalized": "String-\u003eString-\u003eInteger-\u003eQ[Dec]",
@@ -74,6 +81,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:51 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals.TH",
           "name": "decLiteralT",
           "package": "tfp-th",
@@ -83,6 +91,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals TH",
+          "indexed": "2014-03-11T20:20:51",
           "module": "Types.Data.Num.Decimal.Literals.TH",
           "name": "decLiteralT",
           "normalized": "Integer-\u003eQ Type",
@@ -98,6 +107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:51 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals.TH",
           "name": "decLiteralV",
           "package": "tfp-th",
@@ -107,6 +117,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals TH",
+          "indexed": "2014-03-11T20:20:51",
           "module": "Types.Data.Num.Decimal.Literals.TH",
           "name": "decLiteralV",
           "normalized": "Integer-\u003eQ Exp",
@@ -122,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:51 UTC 2014",
           "module": "Types.Data.Num.Decimal.Literals.TH",
           "name": "decLiteralsD",
           "package": "tfp-th",
@@ -131,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Types Data Num Decimal Literals TH",
+          "indexed": "2014-03-11T20:20:51",
           "module": "Types.Data.Num.Decimal.Literals.TH",
           "name": "decLiteralsD",
           "normalized": "String-\u003eString-\u003eInteger-\u003eInteger-\u003eQ[Dec]",

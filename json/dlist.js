@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dlist"
+        "phrase": "dlist",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDifference lists: a data structure for \u003cem\u003eO(1)\u003c/em\u003e append on lists.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "DList",
           "package": "dlist",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Difference lists data structure for append on lists",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "DList",
           "package": "dlist",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA difference list is a function that, given a list, returns the original\n contents of the difference list prepended to the given list.\n\u003c/p\u003e\u003cp\u003eThis structure supports \u003cem\u003eO(1)\u003c/em\u003e append and snoc operations on lists, making it\n very useful for append-heavy uses (esp. left-nested uses of \u003ccode\u003e\u003ca\u003e++\u003c/a\u003e\u003c/code\u003e), such\n as logging and pretty printing.\n\u003c/p\u003e\u003cp\u003eHere is an example using DList as the state type when printing a tree with\n the Writer monad:\n\u003c/p\u003e\u003cpre\u003e import Control.Monad.Writer\n import Data.DList\n\n data Tree a = Leaf a | Branch (Tree a) (Tree a)\n\n flatten_writer :: Tree x -\u003e DList x\n flatten_writer = snd . runWriter . flatten\n     where\n       flatten (Leaf x)     = tell (singleton x)\n       flatten (Branch x y) = flatten x \u003e\u003e flatten y\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "DList",
           "package": "dlist",
@@ -51,6 +54,7 @@
         "index": {
           "description": "difference list is function that given list returns the original contents of the difference list prepended to the given list This structure supports append and snoc operations on lists making it very useful for append-heavy uses esp left-nested uses of such as logging and pretty printing Here is an example using DList as the state type when printing tree with the Writer monad import Control.Monad.Writer import Data.DList data Tree Leaf Branch Tree Tree flatten writer Tree DList flatten writer snd runWriter flatten where flatten Leaf tell singleton flatten Branch flatten flatten",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "DList",
           "package": "dlist",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: It will be removed in dlist-v0.7 (see \u003ca\u003e#4\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "DL",
           "package": "dlist",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Deprecated It will be removed in dlist-v0.7 see",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "DL",
           "package": "dlist",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Append dlists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "append",
           "package": "dlist",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Append dlists",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "append",
           "normalized": "DList a-\u003eDList a-\u003eDList a",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a dlist to a list to get the underlying list with an extension\n\u003c/p\u003e\u003cpre\u003e apply (fromList xs) ys = xs ++ ys\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "apply",
           "package": "dlist",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Apply dlist to list to get the underlying list with an extension apply fromList xs ys xs ys",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "apply",
           "normalized": "DList a-\u003e[a]-\u003e[a]",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(spine)\u003c/em\u003e. Concatenate dlists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "concat",
           "package": "dlist",
@@ -149,6 +160,7 @@
         "index": {
           "description": "spine Concatenate dlists",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "concat",
           "normalized": "[DList a]-\u003eDList a",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Prepend a single element to a dlist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "cons",
           "package": "dlist",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Prepend single element to dlist",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "cons",
           "normalized": "a-\u003eDList a-\u003eDList a",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a dlist containing no elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "empty",
           "package": "dlist",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Create dlist containing no elements",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "empty",
           "package": "dlist",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Foldr over difference lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "foldr",
           "package": "dlist",
@@ -222,6 +239,7 @@
         "index": {
           "description": "Foldr over difference lists",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eDList a-\u003eb",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list to a dlist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "fromList",
           "package": "dlist",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Convert list to dlist",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "fromList",
           "normalized": "[a]-\u003eDList a",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Return the head of the dlist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "head",
           "package": "dlist",
@@ -273,6 +294,7 @@
         "index": {
           "description": "Return the head of the dlist",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "head",
           "normalized": "DList a-\u003ea",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. List elimination for dlists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "list",
           "package": "dlist",
@@ -298,6 +321,7 @@
         "index": {
           "description": "List elimination for dlists",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "list",
           "normalized": "a-\u003e(b-\u003eDList b-\u003ea)-\u003eDList b-\u003ea",
@@ -313,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Map over difference lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "map",
           "package": "dlist",
@@ -323,6 +348,7 @@
         "index": {
           "description": "Map over difference lists",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eDList a-\u003eDList b",
@@ -338,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Create a dlist of the given number of elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "replicate",
           "package": "dlist",
@@ -348,6 +375,7 @@
         "index": {
           "description": "Create dlist of the given number of elements",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "replicate",
           "normalized": "Int-\u003ea-\u003eDList a",
@@ -363,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate dlist with a single element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "singleton",
           "package": "dlist",
@@ -373,6 +402,7 @@
         "index": {
           "description": "Create dlist with single element",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "singleton",
           "normalized": "a-\u003eDList a",
@@ -388,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Append a single element to a dlist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "snoc",
           "package": "dlist",
@@ -398,6 +429,7 @@
         "index": {
           "description": "Append single element to dlist",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "snoc",
           "normalized": "DList a-\u003ea-\u003eDList a",
@@ -413,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Return the tail of the dlist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "tail",
           "package": "dlist",
@@ -423,6 +456,7 @@
         "index": {
           "description": "Return the tail of the dlist",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "tail",
           "normalized": "DList a-\u003eDList a",
@@ -438,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a dlist to a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "toList",
           "package": "dlist",
@@ -448,6 +483,7 @@
         "index": {
           "description": "Convert dlist to list",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "toList",
           "normalized": "DList a-\u003e[a]",
@@ -464,6 +500,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: It will be removed in dlist-v0.7. Use \u003ccode\u003e\u003ca\u003eapply\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "unDL",
           "package": "dlist",
@@ -474,6 +511,7 @@
         "index": {
           "description": "Deprecated It will be removed in dlist-v0.7 Use apply instead",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "unDL",
           "normalized": "[a]-\u003e[a]",
@@ -490,6 +528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Unfoldr for dlists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:57:28 UTC 2014",
           "module": "Data.DList",
           "name": "unfoldr",
           "package": "dlist",
@@ -500,6 +539,7 @@
         "index": {
           "description": "Unfoldr for dlists",
           "hierarchy": "Data DList",
+          "indexed": "2014-03-11T17:57:28",
           "module": "Data.DList",
           "name": "unfoldr",
           "normalized": "(a-\u003eMaybe(b,a))-\u003ea-\u003eDList b",

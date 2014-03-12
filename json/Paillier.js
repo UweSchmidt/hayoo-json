@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Paillier"
+        "phrase": "Paillier",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "Paillier",
           "package": "Paillier",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "Paillier",
           "package": "Paillier",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "CipherText",
           "package": "Paillier",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "CipherText",
           "package": "Paillier",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "PlainText",
           "package": "Paillier",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "PlainText",
           "package": "Paillier",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "PrvKey",
           "package": "Paillier",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "PrvKey",
           "package": "Paillier",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "PubKey",
           "package": "Paillier",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "PubKey",
           "package": "Paillier",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "PrvKey",
           "package": "Paillier",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "PrvKey",
           "package": "Paillier",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "PubKey",
           "package": "Paillier",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "PubKey",
           "package": "Paillier",
@@ -168,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edeterministic version of encryption\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "_encrypt",
           "package": "Paillier",
@@ -178,6 +193,7 @@
         "index": {
           "description": "deterministic version of encryption",
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "_encrypt",
           "normalized": "PubKey-\u003ePlainText-\u003eInteger-\u003eCipherText",
@@ -193,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ee.g., 2048\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "bits",
           "package": "Paillier",
@@ -203,6 +220,7 @@
         "index": {
           "description": "e.g",
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "bits",
           "package": "Paillier",
@@ -216,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHomomorphic multiplication of plaintexts\n An encrypted plaintext raised to the power of another plaintext will decrypt to the product of the two plaintexts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "cipherExp",
           "package": "Paillier",
@@ -226,6 +245,7 @@
         "index": {
           "description": "Homomorphic multiplication of plaintexts An encrypted plaintext raised to the power of another plaintext will decrypt to the product of the two plaintexts",
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "cipherExp",
           "normalized": "PubKey-\u003eCipherText-\u003ePlainText-\u003eCipherText",
@@ -242,6 +262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eciphetext muliplication is known as homomorphic addition of plaintexts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "cipherMul",
           "package": "Paillier",
@@ -252,6 +273,7 @@
         "index": {
           "description": "ciphetext muliplication is known as homomorphic addition of plaintexts",
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "cipherMul",
           "normalized": "PubKey-\u003eCipherText-\u003eCipherText-\u003eCipherText",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "decrypt",
           "package": "Paillier",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "decrypt",
           "normalized": "PrvKey-\u003ePubKey-\u003eCipherText-\u003ePlainText",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "encrypt",
           "package": "Paillier",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "encrypt",
           "normalized": "PubKey-\u003ePlainText-\u003eIO CipherText",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "genKey",
           "package": "Paillier",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "genKey",
           "normalized": "Int-\u003eIO(PubKey,PrvKey)",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "generateR",
           "package": "Paillier",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "generateR",
           "normalized": "SystemRNG-\u003ePubKey-\u003eInteger-\u003eInteger",
@@ -361,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerator = n+1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "generator",
           "package": "Paillier",
@@ -371,6 +402,7 @@
         "index": {
           "description": "generator",
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "generator",
           "package": "Paillier",
@@ -384,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elambda(n) = lcm(p-1, q-1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "lambda",
           "package": "Paillier",
@@ -394,6 +427,7 @@
         "index": {
           "description": "lambda lcm p-1 q-1",
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "lambda",
           "package": "Paillier",
@@ -407,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003en = pq\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "nModulo",
           "package": "Paillier",
@@ -417,6 +452,7 @@
         "index": {
           "description": "pq",
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "nModulo",
           "package": "Paillier",
@@ -431,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003en^2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "nSquare",
           "package": "Paillier",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "nSquare",
           "package": "Paillier",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:32 UTC 2014",
           "module": "Crypto.Paillier",
           "name": "x",
           "package": "Paillier",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Crypto Paillier",
+          "indexed": "2014-03-11T16:56:32",
           "module": "Crypto.Paillier",
           "name": "x",
           "package": "Paillier",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ObjectIO"
+        "phrase": "ObjectIO",
+        "type": "phrase"
       },
       "type": "context"
     }

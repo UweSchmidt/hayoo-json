@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pam"
+        "phrase": "pam",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "Internals",
           "package": "pam",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "Internals",
           "package": "pam",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "CPamConv",
           "package": "pam",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "CPamConv",
           "package": "pam",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "CPamHandleT",
           "package": "pam",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "CPamHandleT",
           "package": "pam",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "CPamMessage",
           "package": "pam",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "CPamMessage",
           "package": "pam",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "CPamResponse",
           "package": "pam",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "CPamResponse",
           "package": "pam",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "ConvFunc",
           "package": "pam",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "ConvFunc",
           "package": "pam",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "CPamConv",
           "package": "pam",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "CPamConv",
           "package": "pam",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "CPamMessage",
           "package": "pam",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "CPamMessage",
           "package": "pam",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "CPamResponse",
           "package": "pam",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "CPamResponse",
           "package": "pam",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "appdata_ptr",
           "package": "pam",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "appdata_ptr",
           "normalized": "Ptr()",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "c_pam_acct_mgmt",
           "package": "pam",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "c_pam_acct_mgmt",
           "normalized": "Ptr CPamHandleT-\u003eCInt-\u003eIO CInt",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "c_pam_authenticate",
           "package": "pam",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "c_pam_authenticate",
           "normalized": "Ptr CPamHandleT-\u003eCInt-\u003eIO CInt",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "c_pam_end",
           "package": "pam",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "c_pam_end",
           "normalized": "Ptr CPamHandleT-\u003eCInt-\u003eIO CInt",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "c_pam_start",
           "package": "pam",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "c_pam_start",
           "normalized": "CString-\u003eCString-\u003ePtr CPamConv-\u003ePtr(Ptr CPamHandleT)-\u003eIO CInt",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "conv",
           "package": "pam",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "conv",
           "normalized": "FunPtr(CInt-\u003ePtr(Ptr())-\u003ePtr(Ptr())-\u003ePtr()-\u003eIO CInt)",
@@ -348,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "mkconvFunc",
           "package": "pam",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "mkconvFunc",
           "normalized": "ConvFunc-\u003eIO(FunPtr ConvFunc)",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "msg",
           "package": "pam",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "msg",
           "package": "pam",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "msg_style",
           "package": "pam",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "msg_style",
           "package": "pam",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "resp",
           "package": "pam",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "resp",
           "package": "pam",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Internals",
           "name": "resp_retcode",
           "package": "pam",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Internals",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Internals",
           "name": "resp_retcode",
           "package": "pam",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.LowLevel",
           "name": "LowLevel",
           "package": "pam",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM LowLevel",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.LowLevel",
           "name": "LowLevel",
           "package": "pam",
@@ -477,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.LowLevel",
           "name": "cConv",
           "package": "pam",
@@ -486,6 +529,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM LowLevel",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.LowLevel",
           "name": "cConv",
           "normalized": "(Ptr()-\u003e[PamMessage]-\u003eIO[PamResponse])-\u003eCInt-\u003ePtr(Ptr())-\u003ePtr(Ptr())-\u003ePtr()-\u003eIO CInt",
@@ -501,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.LowLevel",
           "name": "messageFromC",
           "package": "pam",
@@ -510,6 +555,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM LowLevel",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.LowLevel",
           "name": "messageFromC",
           "normalized": "CPamMessage-\u003eIO PamMessage",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.LowLevel",
           "name": "pamAcctMgmt",
           "package": "pam",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM LowLevel",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.LowLevel",
           "name": "pamAcctMgmt",
           "normalized": "PamHandle-\u003ePamFlag-\u003eIO PamRetCode",
@@ -549,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.LowLevel",
           "name": "pamAuthenticate",
           "package": "pam",
@@ -558,6 +607,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM LowLevel",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.LowLevel",
           "name": "pamAuthenticate",
           "normalized": "PamHandle-\u003ePamFlag-\u003eIO PamRetCode",
@@ -573,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.LowLevel",
           "name": "pamEnd",
           "package": "pam",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM LowLevel",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.LowLevel",
           "name": "pamEnd",
           "normalized": "PamHandle-\u003ePamRetCode-\u003eIO PamRetCode",
@@ -597,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.LowLevel",
           "name": "pamStart",
           "package": "pam",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM LowLevel",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.LowLevel",
           "name": "pamStart",
           "normalized": "String-\u003eString-\u003e(PamConv,Ptr())-\u003eIO(PamHandle,PamRetCode)",
@@ -621,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.LowLevel",
           "name": "responseToC",
           "package": "pam",
@@ -630,6 +685,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM LowLevel",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.LowLevel",
           "name": "responseToC",
           "normalized": "PamResponse-\u003eIO CPamResponse",
@@ -645,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.LowLevel",
           "name": "retCodeFromC",
           "package": "pam",
@@ -654,6 +711,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM LowLevel",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.LowLevel",
           "name": "retCodeFromC",
           "normalized": "CInt-\u003ePamRetCode",
@@ -669,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.LowLevel",
           "name": "retCodeToC",
           "package": "pam",
@@ -678,6 +737,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM LowLevel",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.LowLevel",
           "name": "retCodeToC",
           "normalized": "PamRetCode-\u003eCInt",
@@ -693,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "Types",
           "package": "pam",
@@ -701,6 +762,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "Types",
           "package": "pam",
@@ -714,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "PamConv",
           "package": "pam",
@@ -722,6 +785,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "PamConv",
           "package": "pam",
@@ -735,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "PamFlag",
           "package": "pam",
@@ -743,6 +808,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "PamFlag",
           "package": "pam",
@@ -756,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "PamHandle",
           "package": "pam",
@@ -764,6 +831,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "PamHandle",
           "package": "pam",
@@ -777,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "PamMessage",
           "package": "pam",
@@ -785,6 +854,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "PamMessage",
           "package": "pam",
@@ -799,6 +869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehttp:\u003cem/\u003ewww.kernel.org\u003cem\u003epub\u003c/em\u003elinux\u003cem\u003elibs\u003c/em\u003epam\u003cem\u003eLinux-PAM-html\u003c/em\u003eadg-interface-of-app-expected.html#adg-pam_conv\n - resp_code member in C sturct is unused and should be set to zero, that's why there is no code field in the haskell data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "PamResponse",
           "package": "pam",
@@ -808,6 +879,7 @@
         "index": {
           "description": "http www.kernel.org pub linux libs pam Linux-PAM-html adg-interface-of-app-expected.html adg-pam conv resp code member in sturct is unused and should be set to zero that why there is no code field in the haskell data type",
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "PamResponse",
           "package": "pam",
@@ -821,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "PamRetCode",
           "package": "pam",
@@ -829,6 +902,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "PamRetCode",
           "package": "pam",
@@ -842,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "PamStyle",
           "package": "pam",
@@ -850,6 +925,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "PamStyle",
           "package": "pam",
@@ -863,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "PamErrorMsg",
           "package": "pam",
@@ -872,6 +949,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "PamErrorMsg",
           "package": "pam",
@@ -885,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "PamFlag",
           "package": "pam",
@@ -894,6 +973,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "PamFlag",
           "package": "pam",
@@ -907,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "PamHandle",
           "package": "pam",
@@ -916,6 +997,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "PamHandle",
           "package": "pam",
@@ -929,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "PamMessage",
           "package": "pam",
@@ -938,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "PamMessage",
           "package": "pam",
@@ -951,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "PamPromptEchoOff",
           "package": "pam",
@@ -960,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "PamPromptEchoOff",
           "package": "pam",
@@ -973,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "PamPromptEchoOn",
           "package": "pam",
@@ -982,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "PamPromptEchoOn",
           "package": "pam",
@@ -995,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "PamResponse",
           "package": "pam",
@@ -1004,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "PamResponse",
           "package": "pam",
@@ -1017,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "PamRetCode",
           "package": "pam",
@@ -1026,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "PamRetCode",
           "package": "pam",
@@ -1039,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "PamSuccess",
           "package": "pam",
@@ -1048,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "PamSuccess",
           "package": "pam",
@@ -1061,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "PamTextInfo",
           "package": "pam",
@@ -1070,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "PamTextInfo",
           "package": "pam",
@@ -1083,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "cPamCallback",
           "package": "pam",
@@ -1092,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "cPamCallback",
           "normalized": "FunPtr(CInt-\u003ePtr(Ptr())-\u003ePtr(Ptr())-\u003ePtr()-\u003eIO CInt)",
@@ -1107,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "cPamHandle",
           "package": "pam",
@@ -1116,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "cPamHandle",
           "normalized": "Ptr()",
@@ -1131,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "pmString",
           "package": "pam",
@@ -1140,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "pmString",
           "package": "pam",
@@ -1153,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM.Types",
           "name": "pmStyle",
           "package": "pam",
@@ -1162,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM Types",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM.Types",
           "name": "pmStyle",
           "package": "pam",
@@ -1175,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM",
           "name": "PAM",
           "package": "pam",
@@ -1183,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM",
           "name": "PAM",
           "package": "pam",
@@ -1196,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM",
           "name": "authenticate",
           "package": "pam",
@@ -1205,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM",
           "name": "authenticate",
           "normalized": "String-\u003eString-\u003eString-\u003eIO(Either Int())",
@@ -1219,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM",
           "name": "checkAccount",
           "package": "pam",
@@ -1228,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM",
           "name": "checkAccount",
           "normalized": "String-\u003eString-\u003eIO(Either Int())",
@@ -1243,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM",
           "name": "pamCodeDetails",
           "package": "pam",
@@ -1252,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM",
           "name": "pamCodeDetails",
           "normalized": "Int-\u003e(String,String)",
@@ -1267,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM",
           "name": "pamCodeToCDefine",
           "package": "pam",
@@ -1276,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM",
           "name": "pamCodeToCDefine",
           "normalized": "Int-\u003eString",
@@ -1291,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:44 UTC 2014",
           "module": "System.Posix.PAM",
           "name": "pamCodeToMessage",
           "package": "pam",
@@ -1300,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "System Posix PAM",
+          "indexed": "2014-03-11T19:33:44",
           "module": "System.Posix.PAM",
           "name": "pamCodeToMessage",
           "normalized": "Int-\u003eString",

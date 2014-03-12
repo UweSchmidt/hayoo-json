@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sample-frame"
+        "phrase": "sample-frame",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame.MuLaw",
           "name": "MuLaw",
           "package": "sample-frame",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame MuLaw",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame.MuLaw",
           "name": "MuLaw",
           "package": "sample-frame",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame.MuLaw",
           "name": "T",
           "package": "sample-frame",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame MuLaw",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame.MuLaw",
           "name": "T",
           "package": "sample-frame",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame.MuLaw",
           "name": "cons",
           "package": "sample-frame",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame MuLaw",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame.MuLaw",
           "name": "cons",
           "normalized": "Word-\u003eT",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame.MuLaw",
           "name": "decons",
           "package": "sample-frame",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame MuLaw",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame.MuLaw",
           "name": "decons",
           "normalized": "T-\u003eWord",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame.MuLaw",
           "name": "fromLinear16",
           "package": "sample-frame",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame MuLaw",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame.MuLaw",
           "name": "fromLinear16",
           "normalized": "Int-\u003eT",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame.MuLaw",
           "name": "toLinear16",
           "package": "sample-frame",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame MuLaw",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame.MuLaw",
           "name": "toLinear16",
           "normalized": "T-\u003eInt",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame.Stereo",
           "name": "Stereo",
           "package": "sample-frame",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame Stereo",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame.Stereo",
           "name": "Stereo",
           "package": "sample-frame",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame.Stereo",
           "name": "T",
           "package": "sample-frame",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame Stereo",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame.Stereo",
           "name": "T",
           "package": "sample-frame",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame.Stereo",
           "name": "cons",
           "package": "sample-frame",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame Stereo",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame.Stereo",
           "name": "cons",
           "normalized": "a-\u003ea-\u003eT a",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame.Stereo",
           "name": "left",
           "package": "sample-frame",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame Stereo",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame.Stereo",
           "name": "left",
           "normalized": "T a-\u003ea",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame.Stereo",
           "name": "map",
           "package": "sample-frame",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame Stereo",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame.Stereo",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eT a-\u003eT b",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame.Stereo",
           "name": "right",
           "package": "sample-frame",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame Stereo",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame.Stereo",
           "name": "right",
           "normalized": "T a-\u003ea",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame",
           "name": "Frame",
           "package": "sample-frame",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame",
           "name": "Frame",
           "package": "sample-frame",
@@ -308,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a class for nested tuples used as sample frames.\n\u003c/p\u003e\u003cp\u003eShould we make Storable a superclass of \u003ccode\u003e\u003ca\u003eC\u003c/a\u003e\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame",
           "name": "C",
           "package": "sample-frame",
@@ -317,6 +344,7 @@
         "index": {
           "description": "This is class for nested tuples used as sample frames Should we make Storable superclass of",
           "hierarchy": "Sound Frame",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame",
           "name": "C",
           "package": "sample-frame",
@@ -330,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe argument is not touched and can be undefined \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame",
           "name": "numberOfChannels",
           "package": "sample-frame",
@@ -340,6 +369,7 @@
         "index": {
           "description": "The argument is not touched and can be undefined",
           "hierarchy": "Sound Frame",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame",
           "name": "numberOfChannels",
           "normalized": "a-\u003eInt",
@@ -356,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault implementations for a foldable Frame.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame",
           "name": "numberOfChannelsFoldable",
           "package": "sample-frame",
@@ -366,6 +397,7 @@
         "index": {
           "description": "Default implementations for foldable Frame",
           "hierarchy": "Sound Frame",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame",
           "name": "numberOfChannelsFoldable",
           "normalized": "a b-\u003eInt",
@@ -382,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpace that an element consumes in a Storable Array.\nThis is space for the element plus padding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame",
           "name": "paddedSizeOf",
           "package": "sample-frame",
@@ -392,6 +425,7 @@
         "index": {
           "description": "Space that an element consumes in Storable Array This is space for the element plus padding",
           "hierarchy": "Sound Frame",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame",
           "name": "paddedSizeOf",
           "normalized": "a-\u003eInt",
@@ -408,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of elements.\n   In a nested record type, like \u003ccode\u003eStereo (Stereo a)\u003c/code\u003e,\n   it is the size of the atomic element, in our example \u003ccode\u003ea\u003c/code\u003e.\n   We assume that the atomic element values all have the same size,\n   such that \u003ccode\u003esizeOfElement undefined\u003c/code\u003e is defined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame",
           "name": "sizeOfElement",
           "package": "sample-frame",
@@ -418,6 +453,7 @@
         "index": {
           "description": "Size of elements In nested record type like Stereo Stereo it is the size of the atomic element in our example We assume that the atomic element values all have the same size such that sizeOfElement undefined is defined",
           "hierarchy": "Sound Frame",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame",
           "name": "sizeOfElement",
           "normalized": "a-\u003eInt",
@@ -433,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame",
           "name": "sizeOfElementFoldable",
           "package": "sample-frame",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame",
           "name": "sizeOfElementFoldable",
           "normalized": "a b-\u003eInt",
@@ -458,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the size of an undefined element.\nThis might be more efficient than \u003ccode\u003e\u003ca\u003esizeOfElementFoldable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame",
           "name": "sizeOfElementType",
           "package": "sample-frame",
@@ -468,6 +507,7 @@
         "index": {
           "description": "Returns the size of an undefined element This might be more efficient than sizeOfElementFoldable",
           "hierarchy": "Sound Frame",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame",
           "name": "sizeOfElementType",
           "normalized": "a b-\u003eInt",
@@ -483,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:01 UTC 2014",
           "module": "Sound.Frame",
           "name": "withSignal",
           "package": "sample-frame",
@@ -492,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Sound Frame",
+          "indexed": "2014-03-11T19:57:01",
           "module": "Sound.Frame",
           "name": "withSignal",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",

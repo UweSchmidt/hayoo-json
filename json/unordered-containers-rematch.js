@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unordered-containers-rematch"
+        "phrase": "unordered-containers-rematch",
+        "type": "phrase"
       },
       "type": "context"
     }

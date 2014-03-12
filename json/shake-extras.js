@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shake-extras"
+        "phrase": "shake-extras",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a convenient cmdargs style interface for\n controlling shake build options.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:57 UTC 2014",
           "module": "Development.Shake.CLI",
           "name": "CLI",
           "package": "shake-extras",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides convenient cmdargs style interface for controlling shake build options",
           "hierarchy": "Development Shake CLI",
+          "indexed": "2014-03-11T20:00:57",
           "module": "Development.Shake.CLI",
           "name": "CLI",
           "package": "shake-extras",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eShakeOptions\u003c/a\u003e\u003c/code\u003e data structure with \n annotations for CmdArgs already included.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:57 UTC 2014",
           "module": "Development.Shake.CLI",
           "name": "options",
           "package": "shake-extras",
@@ -52,6 +55,7 @@
         "index": {
           "description": "ShakeOptions data structure with annotations for CmdArgs already included",
           "hierarchy": "Development Shake CLI",
+          "indexed": "2014-03-11T20:00:57",
           "module": "Development.Shake.CLI",
           "name": "options",
           "package": "shake-extras",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a set of Shake rules, and let cmdargs take care of\n parsing command line arguments that may influence the used\n \u003ccode\u003e\u003ca\u003eShakeOptions\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:57 UTC 2014",
           "module": "Development.Shake.CLI",
           "name": "shakeWithArgs",
           "package": "shake-extras",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Build set of Shake rules and let cmdargs take care of parsing command line arguments that may influence the used ShakeOptions",
           "hierarchy": "Development Shake CLI",
+          "indexed": "2014-03-11T20:00:57",
           "module": "Development.Shake.CLI",
           "name": "shakeWithArgs",
           "normalized": "Rules()-\u003eIO()",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule to search imports. Imports are files that are needed for\n compilation of a source code file.  (This module is experimental.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:57 UTC 2014",
           "module": "Development.Shake.Imports",
           "name": "Imports",
           "package": "shake-extras",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Module to search imports Imports are files that are needed for compilation of source code file This module is experimental",
           "hierarchy": "Development Shake Imports",
+          "indexed": "2014-03-11T20:00:57",
           "module": "Development.Shake.Imports",
           "name": "Imports",
           "package": "shake-extras",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearches for imports in a file. Before compiling, you still have to \u003ccode\u003e\u003ca\u003eneed\u003c/a\u003e\u003c/code\u003e the imports.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:57 UTC 2014",
           "module": "Development.Shake.Imports",
           "name": "directImports",
           "package": "shake-extras",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Searches for imports in file Before compiling you still have to need the imports",
           "hierarchy": "Development Shake Imports",
+          "indexed": "2014-03-11T20:00:57",
           "module": "Development.Shake.Imports",
           "name": "directImports",
           "normalized": "FilePath-\u003eAction[FilePath]",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegisters a defaultRule for imports in C++ source files (\".cpp\").\n Only returns the imported files that are found\n on disk in one of the directories specified by the first argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:57 UTC 2014",
           "module": "Development.Shake.Imports",
           "name": "importsDefaultCpp",
           "package": "shake-extras",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Registers defaultRule for imports in source files cpp Only returns the imported files that are found on disk in one of the directories specified by the first argument",
           "hierarchy": "Development Shake Imports",
+          "indexed": "2014-03-11T20:00:57",
           "module": "Development.Shake.Imports",
           "name": "importsDefaultCpp",
           "normalized": "[FilePath]-\u003eRules()",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegisters a defaultRule for imports in haskell source files (\".hs\").\n Only returns the imported files that are found\n on disk in one of the directories specified by the first argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:57 UTC 2014",
           "module": "Development.Shake.Imports",
           "name": "importsDefaultHaskell",
           "package": "shake-extras",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Registers defaultRule for imports in haskell source files hs Only returns the imported files that are found on disk in one of the directories specified by the first argument",
           "hierarchy": "Development Shake Imports",
+          "indexed": "2014-03-11T20:00:57",
           "module": "Development.Shake.Imports",
           "name": "importsDefaultHaskell",
           "normalized": "[FilePath]-\u003eRules()",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eimportsRule p searchImports\u003c/code\u003e registers a rule for how to look up imports\n for files matching p.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:57 UTC 2014",
           "module": "Development.Shake.Imports",
           "name": "importsRule",
           "package": "shake-extras",
@@ -202,6 +217,7 @@
         "index": {
           "description": "importsRule searchImports registers rule for how to look up imports for files matching",
           "hierarchy": "Development Shake Imports",
+          "indexed": "2014-03-11T20:00:57",
           "module": "Development.Shake.Imports",
           "name": "importsRule",
           "normalized": "(FilePath-\u003eBool)-\u003e(FilePath-\u003eAction[FilePath])-\u003eRules()",
@@ -218,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearches for transitive imports in a file. This might be useful for linking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:57 UTC 2014",
           "module": "Development.Shake.Imports",
           "name": "transitiveImports",
           "package": "shake-extras",
@@ -228,6 +245,7 @@
         "index": {
           "description": "Searches for transitive imports in file This might be useful for linking",
           "hierarchy": "Development Shake Imports",
+          "indexed": "2014-03-11T20:00:57",
           "module": "Development.Shake.Imports",
           "name": "transitiveImports",
           "normalized": "FilePath-\u003eAction[FilePath]",

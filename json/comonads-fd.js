@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "comonads-fd"
+        "phrase": "comonads-fd",
+        "type": "phrase"
       },
       "type": "context"
     }

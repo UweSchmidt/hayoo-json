@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "extemp"
+        "phrase": "extemp",
+        "type": "phrase"
       },
       "type": "context"
     }

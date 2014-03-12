@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hmark"
+        "phrase": "hmark",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:36 UTC 2014",
           "module": "Text.Generators.Markov",
           "name": "Markov",
           "package": "hmark",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Generators Markov",
+          "indexed": "2014-03-11T18:41:36",
           "module": "Text.Generators.Markov",
           "name": "Markov",
           "package": "hmark",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatabases set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:36 UTC 2014",
           "module": "Text.Generators.Markov",
           "name": "DBS",
           "package": "hmark",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Databases set",
           "hierarchy": "Text Generators Markov",
+          "indexed": "2014-03-11T18:41:36",
           "module": "Text.Generators.Markov",
           "name": "DBS",
           "package": "hmark",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to build a phrase using given two words and databases\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:36 UTC 2014",
           "module": "Text.Generators.Markov",
           "name": "build",
           "package": "hmark",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Attempts to build phrase using given two words and databases",
           "hierarchy": "Text Generators Markov",
+          "indexed": "2014-03-11T18:41:36",
           "module": "Text.Generators.Markov",
           "name": "build",
           "normalized": "DBS-\u003e(String,String)-\u003eIO[String]",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads newline-separated lines from STDIN and replies to STDOUT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:36 UTC 2014",
           "module": "Text.Generators.Markov",
           "name": "burstFromStdin",
           "package": "hmark",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Reads newline-separated lines from STDIN and replies to STDOUT",
           "hierarchy": "Text Generators Markov",
+          "indexed": "2014-03-11T18:41:36",
           "module": "Text.Generators.Markov",
           "name": "burstFromStdin",
           "normalized": "DBS-\u003eIO()",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCloses databases\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:36 UTC 2014",
           "module": "Text.Generators.Markov",
           "name": "closeDBs",
           "package": "hmark",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Closes databases",
           "hierarchy": "Text Generators Markov",
+          "indexed": "2014-03-11T18:41:36",
           "module": "Text.Generators.Markov",
           "name": "closeDBs",
           "normalized": "DBS-\u003eIO()",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens databases with given basename\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:36 UTC 2014",
           "module": "Text.Generators.Markov",
           "name": "openDBs",
           "package": "hmark",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Opens databases with given basename",
           "hierarchy": "Text Generators Markov",
+          "indexed": "2014-03-11T18:41:36",
           "module": "Text.Generators.Markov",
           "name": "openDBs",
           "normalized": "String-\u003eIO DBS",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to build a phrase based on given one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:36 UTC 2014",
           "module": "Text.Generators.Markov",
           "name": "riff",
           "package": "hmark",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Attempts to build phrase based on given one",
           "hierarchy": "Text Generators Markov",
+          "indexed": "2014-03-11T18:41:36",
           "module": "Text.Generators.Markov",
           "name": "riff",
           "normalized": "DBS-\u003e[String]-\u003eIO(Maybe[String])",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads newline-separated phrases from STDIN and learns from them\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:36 UTC 2014",
           "module": "Text.Generators.Markov",
           "name": "trainFromStdin",
           "package": "hmark",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Reads newline-separated phrases from STDIN and learns from them",
           "hierarchy": "Text Generators Markov",
+          "indexed": "2014-03-11T18:41:36",
           "module": "Text.Generators.Markov",
           "name": "trainFromStdin",
           "normalized": "DBS-\u003eIO()",

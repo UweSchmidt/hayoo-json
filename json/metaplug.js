@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "metaplug"
+        "phrase": "metaplug",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:12 UTC 2014",
           "module": "Metaplug.Eval",
           "name": "3Aeval",
           "package": "metaplug",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Metaplug Eval",
+          "indexed": "2014-03-11T19:17:12",
           "module": "Metaplug.Eval",
           "name": "3Aeval",
           "normalized": "String-\u003eFilePath-\u003eIO a",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:12 UTC 2014",
           "module": "Metaplug.Initialize",
           "name": "3AinitSession",
           "package": "metaplug",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Metaplug Initialize",
+          "indexed": "2014-03-11T19:17:12",
           "module": "Metaplug.Initialize",
           "name": "3AinitSession",
           "normalized": "FilePath-\u003e[String]-\u003eSessionMode-\u003eIO MetaSession",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:12 UTC 2014",
           "module": "Metaplug.Initialize",
           "name": "3AinitSession'",
           "package": "metaplug",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Metaplug Initialize",
+          "indexed": "2014-03-11T19:17:12",
           "module": "Metaplug.Initialize",
           "name": "3AinitSession'",
           "normalized": "FilePath-\u003e[String]-\u003eDynFlags-\u003eSessionMode-\u003eIO MetaSession",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:12 UTC 2014",
           "module": "Metaplug.Loader",
           "name": "3AcompileCall",
           "package": "metaplug",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Metaplug Loader",
+          "indexed": "2014-03-11T19:17:12",
           "module": "Metaplug.Loader",
           "name": "3AcompileCall",
           "normalized": "String-\u003eMetaSession-\u003eIO a",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:12 UTC 2014",
           "module": "Metaplug.Loader",
           "name": "3AloadFiles",
           "package": "metaplug",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Metaplug Loader",
+          "indexed": "2014-03-11T19:17:12",
           "module": "Metaplug.Loader",
           "name": "3AloadFiles",
           "normalized": "[String]-\u003eMetaSession-\u003eIO MetaSession",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:12 UTC 2014",
           "module": "Metaplug.Packages",
           "name": "3AgetPackages",
           "package": "metaplug",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Metaplug Packages",
+          "indexed": "2014-03-11T19:17:12",
           "module": "Metaplug.Packages",
           "name": "3AgetPackages",
           "normalized": "FilePath-\u003eIO[String]",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:12 UTC 2014",
           "module": "Metaplug.Packages",
           "name": "3AgetPkgAuthor",
           "package": "metaplug",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Metaplug Packages",
+          "indexed": "2014-03-11T19:17:12",
           "module": "Metaplug.Packages",
           "name": "3AgetPkgAuthor",
           "normalized": "FilePath-\u003eString-\u003eIO(Maybe String)",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:12 UTC 2014",
           "module": "Metaplug.Packages",
           "name": "3AgetPkgDepends",
           "package": "metaplug",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Metaplug Packages",
+          "indexed": "2014-03-11T19:17:12",
           "module": "Metaplug.Packages",
           "name": "3AgetPkgDepends",
           "normalized": "FilePath-\u003eString-\u003eIO(Maybe[String])",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:12 UTC 2014",
           "module": "Metaplug.Packages",
           "name": "3AgetPkgDesc",
           "package": "metaplug",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Metaplug Packages",
+          "indexed": "2014-03-11T19:17:12",
           "module": "Metaplug.Packages",
           "name": "3AgetPkgDesc",
           "normalized": "FilePath-\u003eString-\u003eIO(Maybe String)",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:12 UTC 2014",
           "module": "Metaplug.Packages",
           "name": "3AgetPkgExModules",
           "package": "metaplug",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Metaplug Packages",
+          "indexed": "2014-03-11T19:17:12",
           "module": "Metaplug.Packages",
           "name": "3AgetPkgExModules",
           "normalized": "FilePath-\u003eString-\u003eIO(Maybe[String])",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:12 UTC 2014",
           "module": "Metaplug.Types",
           "name": "3AMetaSession",
           "package": "metaplug",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Metaplug Types",
+          "indexed": "2014-03-11T19:17:12",
           "module": "Metaplug.Types",
           "name": "3AMetaSession",
           "package": "metaplug",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:12 UTC 2014",
           "module": "Metaplug.Types",
           "name": "3ASessionMode",
           "package": "metaplug",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Metaplug Types",
+          "indexed": "2014-03-11T19:17:12",
           "module": "Metaplug.Types",
           "name": "3ASessionMode",
           "package": "metaplug",

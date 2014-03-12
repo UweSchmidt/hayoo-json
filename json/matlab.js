@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "matlab"
+        "phrase": "matlab",
+        "type": "phrase"
       },
       "type": "context"
     }

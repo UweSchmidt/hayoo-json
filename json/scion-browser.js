@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scion-browser"
+        "phrase": "scion-browser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Build",
           "name": "Build",
           "package": "scion-browser",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser Build",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Build",
           "name": "Build",
           "package": "scion-browser",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the database from a set of Cabal packages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Build",
           "name": "createCabalDatabase",
           "package": "scion-browser",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Get the database from set of Cabal packages",
           "hierarchy": "Scion PersistentBrowser Build",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Build",
           "name": "createCabalDatabase",
           "normalized": "Version-\u003e[PackageIdentifier]-\u003eIO([Documented Package],[(String,ParseError)])",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDownloads the information for the entire Hackage database\n   creating an in-memory database with it.\n   It needs a temporary directory to work on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Build",
           "name": "createHackageDatabase",
           "package": "scion-browser",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Downloads the information for the entire Hackage database creating an in-memory database with it It needs temporary directory to work on",
           "hierarchy": "Scion PersistentBrowser Build",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Build",
           "name": "createHackageDatabase",
           "normalized": "FilePath-\u003eIO([Documented Package],[(FilePath,ParseError)])",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the database from a Cabal package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Build",
           "name": "getCabalHoogle",
           "package": "scion-browser",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Get the database from Cabal package",
           "hierarchy": "Scion PersistentBrowser Build",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Build",
           "name": "getCabalHoogle",
           "normalized": "Version-\u003ePackageIdentifier-\u003eBool-\u003eFilePath-\u003eIO(Either ParseError(Documented Package))",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDownloads the information for the entire Hackage database\n   and saves it to the specified location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Build",
           "name": "saveHackageDatabase",
           "package": "scion-browser",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Downloads the information for the entire Hackage database and saves it to the specified location",
           "hierarchy": "Scion PersistentBrowser Build",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Build",
           "name": "saveHackageDatabase",
           "normalized": "FilePath-\u003eIO()",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates a database with changes in the installed package base.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Build",
           "name": "updateDatabase",
           "package": "scion-browser",
@@ -154,6 +165,7 @@
         "index": {
           "description": "Updates database with changes in the installed package base",
           "hierarchy": "Scion PersistentBrowser Build",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Build",
           "name": "updateDatabase",
           "normalized": "FilePath-\u003e[InstalledPackageInfo]-\u003eIO()",
@@ -169,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "Query",
           "package": "scion-browser",
@@ -177,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "Query",
           "package": "scion-browser",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThings that reside on a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "HasDbModule",
           "package": "scion-browser",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Things that reside on module",
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "HasDbModule",
           "package": "scion-browser",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThings that reside on a package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "HasDbPackage",
           "package": "scion-browser",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Things that reside on package",
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "HasDbPackage",
           "package": "scion-browser",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the identifiers of all packages in the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "allPackageIds",
           "package": "scion-browser",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Get the identifiers of all packages in the database",
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "allPackageIds",
           "normalized": "Maybe DbPackageIdentifier-\u003eSQL[DbPackageIdentifier]",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information of all packages in the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "allPackages",
           "package": "scion-browser",
@@ -273,6 +294,7 @@
         "index": {
           "description": "Get information of all packages in the database",
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "allPackages",
           "normalized": "Maybe DbPackageIdentifier-\u003eSQL[DbPackage]",
@@ -289,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information about all constructors with that name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "constructorsByName",
           "package": "scion-browser",
@@ -299,6 +322,7 @@
         "index": {
           "description": "Get information about all constructors with that name",
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "constructorsByName",
           "normalized": "String-\u003eSQL[DbConstructor]",
@@ -314,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "createIndexes",
           "package": "scion-browser",
@@ -323,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "createIndexes",
           "normalized": "SQL()",
@@ -338,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "declAction",
           "package": "scion-browser",
@@ -347,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "declAction",
           "normalized": "[PersistValue]-\u003eDbDecl",
@@ -363,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information about all declaration with that name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "declsByName",
           "package": "scion-browser",
@@ -373,6 +402,7 @@
         "index": {
           "description": "Get information about all declaration with that name",
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "declsByName",
           "normalized": "String-\u003eMaybe DbPackageIdentifier-\u003eSQL[DbDecl]",
@@ -389,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets information from a text value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "fromDbText",
           "package": "scion-browser",
@@ -399,6 +430,7 @@
         "index": {
           "description": "Gets information from text value",
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "fromDbText",
           "normalized": "PersistValue-\u003eMaybe String",
@@ -414,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "getAllDeclInfo",
           "package": "scion-browser",
@@ -423,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "getAllDeclInfo",
           "normalized": "(DbDeclId,DbDecl)-\u003eSQL DbCompleteDecl",
@@ -438,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "getDbModule",
           "package": "scion-browser",
@@ -447,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "getDbModule",
           "normalized": "a-\u003eSQL DbModule",
@@ -462,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "getDbPackage",
           "package": "scion-browser",
@@ -471,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "getDbPackage",
           "normalized": "a-\u003eSQL DbPackage",
@@ -487,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist declarations matching the given prefix, useful for content assist\n the prefix either matches the declaration itself or any constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "getDeclsFromPrefix",
           "package": "scion-browser",
@@ -497,6 +536,7 @@
         "index": {
           "description": "list declarations matching the given prefix useful for content assist the prefix either matches the declaration itself or any constructor",
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "getDeclsFromPrefix",
           "normalized": "String-\u003eMaybe DbPackageIdentifier-\u003eSQL[(DbPackageIdentifier,DbModule,DbCompleteDecl)]",
@@ -513,6 +553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the declarations inside some module,\n  along with information about which package it lives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "getDeclsInModule",
           "package": "scion-browser",
@@ -523,6 +564,7 @@
         "index": {
           "description": "Gets the declarations inside some module along with information about which package it lives",
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "getDeclsInModule",
           "normalized": "String-\u003eMaybe DbPackageIdentifier-\u003eSQL[(DbPackageIdentifier,DbCompleteDecl)]",
@@ -539,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a list of modules where a declaration may live\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "getModulesWhereDeclarationIs",
           "package": "scion-browser",
@@ -549,6 +592,7 @@
         "index": {
           "description": "Gets list of modules where declaration may live",
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "getModulesWhereDeclarationIs",
           "normalized": "String-\u003eSQL[(DbModule,String,String)]",
@@ -565,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information about a package in the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "getPackage",
           "package": "scion-browser",
@@ -575,6 +620,7 @@
         "index": {
           "description": "Get information about package in the database",
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "getPackage",
           "normalized": "DbPackageIdentifier-\u003eSQL(Maybe DbPackage)",
@@ -590,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "getSubmodules",
           "package": "scion-browser",
@@ -599,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "getSubmodules",
           "normalized": "String-\u003eMaybe DbPackageIdentifier-\u003eSQL[DbModule]",
@@ -614,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "moduleAction",
           "package": "scion-browser",
@@ -623,6 +672,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "moduleAction",
           "normalized": "[PersistValue]-\u003eDbModule",
@@ -639,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information about all modules with that name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "modulesByName",
           "package": "scion-browser",
@@ -649,6 +700,7 @@
         "index": {
           "description": "Get information about all modules with that name",
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "modulesByName",
           "normalized": "String-\u003eMaybe DbPackageIdentifier-\u003eSQL[DbModule]",
@@ -665,6 +717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information of all versions of the package with that name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "packagesByName",
           "package": "scion-browser",
@@ -675,6 +728,7 @@
         "index": {
           "description": "Get information of all versions of the package with that name",
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "packagesByName",
           "normalized": "String-\u003eMaybe DbPackageIdentifier-\u003eSQL[DbPackage]",
@@ -691,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes a query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser.Query",
           "name": "queryDb",
           "package": "scion-browser",
@@ -701,6 +756,7 @@
         "index": {
           "description": "Executes query",
           "hierarchy": "Scion PersistentBrowser Query",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser.Query",
           "name": "queryDb",
           "normalized": "String-\u003e[String]-\u003e([PersistValue]-\u003ea)-\u003eSQL[a]",
@@ -716,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "PersistentBrowser",
           "package": "scion-browser",
@@ -724,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "PersistentBrowser",
           "package": "scion-browser",
@@ -738,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Database saves a list of packages. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "Database",
           "package": "scion-browser",
@@ -747,6 +806,7 @@
         "index": {
           "description": "Database saves list of packages",
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "Database",
           "package": "scion-browser",
@@ -761,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplete information for a declaration.\n  Look at its ToJSON instance to know which one is used in each kind of declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbCompleteDecl",
           "package": "scion-browser",
@@ -770,6 +831,7 @@
         "index": {
           "description": "Complete information for declaration Look at its ToJSON instance to know which one is used in each kind of declaration",
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbCompleteDecl",
           "package": "scion-browser",
@@ -783,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbConstructor",
           "package": "scion-browser",
@@ -791,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbConstructor",
           "package": "scion-browser",
@@ -804,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbConstructorGeneric",
           "package": "scion-browser",
@@ -812,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbConstructorGeneric",
           "package": "scion-browser",
@@ -825,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbConstructorId",
           "package": "scion-browser",
@@ -833,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbConstructorId",
           "package": "scion-browser",
@@ -846,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbContext",
           "package": "scion-browser",
@@ -854,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbContext",
           "package": "scion-browser",
@@ -867,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbContextGeneric",
           "package": "scion-browser",
@@ -875,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbContextGeneric",
           "package": "scion-browser",
@@ -888,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbContextId",
           "package": "scion-browser",
@@ -896,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbContextId",
           "package": "scion-browser",
@@ -909,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbDecl",
           "package": "scion-browser",
@@ -917,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbDecl",
           "package": "scion-browser",
@@ -930,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbDeclGeneric",
           "package": "scion-browser",
@@ -938,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbDeclGeneric",
           "package": "scion-browser",
@@ -951,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbDeclId",
           "package": "scion-browser",
@@ -959,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbDeclId",
           "package": "scion-browser",
@@ -972,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbDeclType",
           "package": "scion-browser",
@@ -980,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbDeclType",
           "package": "scion-browser",
@@ -993,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbFunDep",
           "package": "scion-browser",
@@ -1001,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbFunDep",
           "package": "scion-browser",
@@ -1014,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbFunDepGeneric",
           "package": "scion-browser",
@@ -1022,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbFunDepGeneric",
           "package": "scion-browser",
@@ -1035,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbFunDepId",
           "package": "scion-browser",
@@ -1043,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbFunDepId",
           "package": "scion-browser",
@@ -1056,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbModule",
           "package": "scion-browser",
@@ -1064,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbModule",
           "package": "scion-browser",
@@ -1077,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbModuleGeneric",
           "package": "scion-browser",
@@ -1085,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbModuleGeneric",
           "package": "scion-browser",
@@ -1098,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbModuleId",
           "package": "scion-browser",
@@ -1106,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbModuleId",
           "package": "scion-browser",
@@ -1119,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbPackage",
           "package": "scion-browser",
@@ -1127,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbPackage",
           "package": "scion-browser",
@@ -1140,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbPackageGeneric",
           "package": "scion-browser",
@@ -1148,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbPackageGeneric",
           "package": "scion-browser",
@@ -1161,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbPackageId",
           "package": "scion-browser",
@@ -1169,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbPackageId",
           "package": "scion-browser",
@@ -1183,6 +1283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation needed to search a package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbPackageIdentifier",
           "package": "scion-browser",
@@ -1192,6 +1293,7 @@
         "index": {
           "description": "Information needed to search package",
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbPackageIdentifier",
           "package": "scion-browser",
@@ -1205,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbTyVar",
           "package": "scion-browser",
@@ -1213,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbTyVar",
           "package": "scion-browser",
@@ -1226,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbTyVarGeneric",
           "package": "scion-browser",
@@ -1234,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbTyVarGeneric",
           "package": "scion-browser",
@@ -1247,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbTyVarId",
           "package": "scion-browser",
@@ -1255,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbTyVarId",
           "package": "scion-browser",
@@ -1269,6 +1377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocumentation for an item.\n Now it is simply a Text element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "Doc",
           "package": "scion-browser",
@@ -1278,6 +1387,7 @@
         "index": {
           "description": "Documentation for an item Now it is simply Text element",
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "Doc",
           "package": "scion-browser",
@@ -1291,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DocItem",
           "package": "scion-browser",
@@ -1299,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DocItem",
           "package": "scion-browser",
@@ -1313,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA documented item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "Documented",
           "package": "scion-browser",
@@ -1322,6 +1435,7 @@
         "index": {
           "description": "documented item",
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "Documented",
           "package": "scion-browser",
@@ -1335,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "Named",
           "package": "scion-browser",
@@ -1343,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "Named",
           "package": "scion-browser",
@@ -1357,6 +1473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "Package",
           "package": "scion-browser",
@@ -1366,6 +1483,7 @@
         "index": {
           "description": "package",
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "Package",
           "package": "scion-browser",
@@ -1379,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "SQL",
           "package": "scion-browser",
@@ -1387,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "SQL",
           "package": "scion-browser",
@@ -1400,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbClass",
           "package": "scion-browser",
@@ -1409,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbClass",
           "package": "scion-browser",
@@ -1422,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbCompleteDecl",
           "package": "scion-browser",
@@ -1431,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbCompleteDecl",
           "normalized": "DbCompleteDecl DbDecl[DbContext][DbTyVar][DbFunDep][DbConstructor]",
@@ -1446,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbConstructor",
           "package": "scion-browser",
@@ -1455,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbConstructor",
           "package": "scion-browser",
@@ -1468,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbContext",
           "package": "scion-browser",
@@ -1477,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbContext",
           "package": "scion-browser",
@@ -1490,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbData",
           "package": "scion-browser",
@@ -1499,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbData",
           "package": "scion-browser",
@@ -1512,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbDecl",
           "package": "scion-browser",
@@ -1521,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbDecl",
           "package": "scion-browser",
@@ -1534,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbFunDep",
           "package": "scion-browser",
@@ -1543,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbFunDep",
           "package": "scion-browser",
@@ -1556,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbInstance",
           "package": "scion-browser",
@@ -1565,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbInstance",
           "package": "scion-browser",
@@ -1578,6 +1714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbModule",
           "package": "scion-browser",
@@ -1587,6 +1724,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbModule",
           "package": "scion-browser",
@@ -1600,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbNewType",
           "package": "scion-browser",
@@ -1609,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbNewType",
           "package": "scion-browser",
@@ -1622,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbPackage",
           "package": "scion-browser",
@@ -1631,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbPackage",
           "package": "scion-browser",
@@ -1644,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbPackageIdentifier",
           "package": "scion-browser",
@@ -1653,6 +1796,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbPackageIdentifier",
           "package": "scion-browser",
@@ -1666,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbSignature",
           "package": "scion-browser",
@@ -1675,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbSignature",
           "package": "scion-browser",
@@ -1688,6 +1834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbTyVar",
           "package": "scion-browser",
@@ -1697,6 +1844,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbTyVar",
           "package": "scion-browser",
@@ -1710,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "DbType",
           "package": "scion-browser",
@@ -1719,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "DbType",
           "package": "scion-browser",
@@ -1732,6 +1882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "Doc",
           "package": "scion-browser",
@@ -1741,6 +1892,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "Doc",
           "package": "scion-browser",
@@ -1754,6 +1906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "NoDoc",
           "package": "scion-browser",
@@ -1763,6 +1916,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "NoDoc",
           "package": "scion-browser",
@@ -1776,6 +1930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "Package",
           "package": "scion-browser",
@@ -1785,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "Package",
           "package": "scion-browser",
@@ -1798,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbConstructorDeclId",
           "package": "scion-browser",
@@ -1807,6 +1964,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbConstructorDeclId",
           "package": "scion-browser",
@@ -1820,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbConstructorName",
           "package": "scion-browser",
@@ -1829,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbConstructorName",
           "package": "scion-browser",
@@ -1842,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbConstructorSignature",
           "package": "scion-browser",
@@ -1851,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbConstructorSignature",
           "package": "scion-browser",
@@ -1864,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbContextDeclId",
           "package": "scion-browser",
@@ -1873,6 +2036,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbContextDeclId",
           "package": "scion-browser",
@@ -1886,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbContextShown",
           "package": "scion-browser",
@@ -1895,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbContextShown",
           "package": "scion-browser",
@@ -1908,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbDeclDeclType",
           "package": "scion-browser",
@@ -1917,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbDeclDeclType",
           "package": "scion-browser",
@@ -1930,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbDeclDoc",
           "package": "scion-browser",
@@ -1939,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbDeclDoc",
           "package": "scion-browser",
@@ -1952,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbDeclEquals",
           "package": "scion-browser",
@@ -1961,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbDeclEquals",
           "package": "scion-browser",
@@ -1974,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbDeclKind",
           "package": "scion-browser",
@@ -1983,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbDeclKind",
           "package": "scion-browser",
@@ -1996,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbDeclModuleId",
           "package": "scion-browser",
@@ -2005,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbDeclModuleId",
           "package": "scion-browser",
@@ -2018,6 +2194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbDeclName",
           "package": "scion-browser",
@@ -2027,6 +2204,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbDeclName",
           "package": "scion-browser",
@@ -2040,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbDeclSignature",
           "package": "scion-browser",
@@ -2049,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbDeclSignature",
           "package": "scion-browser",
@@ -2062,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbFunDepDeclId",
           "package": "scion-browser",
@@ -2071,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbFunDepDeclId",
           "package": "scion-browser",
@@ -2084,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbFunDepName",
           "package": "scion-browser",
@@ -2093,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbFunDepName",
           "package": "scion-browser",
@@ -2106,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbModuleDoc",
           "package": "scion-browser",
@@ -2115,6 +2300,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbModuleDoc",
           "package": "scion-browser",
@@ -2128,6 +2314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbModuleName",
           "package": "scion-browser",
@@ -2137,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbModuleName",
           "package": "scion-browser",
@@ -2150,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbModulePackageId",
           "package": "scion-browser",
@@ -2159,6 +2348,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbModulePackageId",
           "package": "scion-browser",
@@ -2172,6 +2362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbPackageDoc",
           "package": "scion-browser",
@@ -2181,6 +2372,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbPackageDoc",
           "package": "scion-browser",
@@ -2194,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbPackageName",
           "package": "scion-browser",
@@ -2203,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbPackageName",
           "package": "scion-browser",
@@ -2216,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbPackageToIdentifier",
           "package": "scion-browser",
@@ -2225,6 +2420,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbPackageToIdentifier",
           "normalized": "DbPackage-\u003eDbPackageIdentifier",
@@ -2240,6 +2436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbPackageVersion",
           "package": "scion-browser",
@@ -2249,6 +2446,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbPackageVersion",
           "package": "scion-browser",
@@ -2262,6 +2460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbTyVarDeclId",
           "package": "scion-browser",
@@ -2271,6 +2470,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbTyVarDeclId",
           "package": "scion-browser",
@@ -2284,6 +2484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "dbTyVarName",
           "package": "scion-browser",
@@ -2293,6 +2494,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "dbTyVarName",
           "package": "scion-browser",
@@ -2306,6 +2508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "docFromString",
           "package": "scion-browser",
@@ -2315,6 +2518,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "docFromString",
           "normalized": "String-\u003eDoc",
@@ -2330,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "getChild",
           "package": "scion-browser",
@@ -2339,6 +2544,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "getChild",
           "normalized": "a b-\u003eString-\u003eMaybe(c b)",
@@ -2354,6 +2560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "getChildren",
           "package": "scion-browser",
@@ -2363,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "getChildren",
           "normalized": "a b-\u003e[c b]",
@@ -2378,6 +2586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "getName",
           "package": "scion-browser",
@@ -2387,6 +2596,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "getName",
           "normalized": "a b-\u003eString",
@@ -2403,6 +2613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the name inside a Name constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "getNameString",
           "package": "scion-browser",
@@ -2413,6 +2624,7 @@
         "index": {
           "description": "Gets the name inside Name constructor",
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "getNameString",
           "normalized": "Name a-\u003eString",
@@ -2429,6 +2641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the qualified name as a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "getQNameString",
           "package": "scion-browser",
@@ -2439,6 +2652,7 @@
         "index": {
           "description": "Gets the qualified name as string",
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "getQNameString",
           "normalized": "QName a-\u003eString",
@@ -2454,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "migrateAll",
           "package": "scion-browser",
@@ -2463,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "migrateAll",
           "package": "scion-browser",
@@ -2477,6 +2693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrapper around logging methods, so we can enable logging when we debug\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentBrowser",
           "name": "runLogging",
           "package": "scion-browser",
@@ -2487,6 +2704,7 @@
         "index": {
           "description": "wrapper around logging methods so we can enable logging when we debug",
           "hierarchy": "Scion PersistentBrowser",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentBrowser",
           "name": "runLogging",
           "normalized": "LoggingT a b-\u003ea b",
@@ -2502,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentHoogle",
           "name": "PersistentHoogle",
           "package": "scion-browser",
@@ -2510,6 +2729,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentHoogle",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentHoogle",
           "name": "PersistentHoogle",
           "package": "scion-browser",
@@ -2524,6 +2744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estatus of hoogle operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentHoogle",
           "name": "HoogleStatus",
           "package": "scion-browser",
@@ -2533,6 +2754,7 @@
         "index": {
           "description": "status of hoogle operation",
           "hierarchy": "Scion PersistentHoogle",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentHoogle",
           "name": "HoogleStatus",
           "package": "scion-browser",
@@ -2546,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentHoogle",
           "name": "Query",
           "package": "scion-browser",
@@ -2554,6 +2777,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentHoogle",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentHoogle",
           "name": "Query",
           "package": "scion-browser",
@@ -2567,6 +2791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentHoogle",
           "name": "Result",
           "package": "scion-browser",
@@ -2575,6 +2800,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentHoogle",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentHoogle",
           "name": "Result",
           "package": "scion-browser",
@@ -2588,6 +2814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentHoogle",
           "name": "Results",
           "package": "scion-browser",
@@ -2596,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentHoogle",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentHoogle",
           "name": "Results",
           "package": "scion-browser",
@@ -2609,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentHoogle",
           "name": "Error",
           "package": "scion-browser",
@@ -2618,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentHoogle",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentHoogle",
           "name": "Error",
           "package": "scion-browser",
@@ -2631,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentHoogle",
           "name": "Missing",
           "package": "scion-browser",
@@ -2640,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentHoogle",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentHoogle",
           "name": "Missing",
           "package": "scion-browser",
@@ -2653,6 +2885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentHoogle",
           "name": "OK",
           "package": "scion-browser",
@@ -2662,6 +2895,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentHoogle",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentHoogle",
           "name": "OK",
           "package": "scion-browser",
@@ -2675,6 +2909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentHoogle",
           "name": "Query",
           "package": "scion-browser",
@@ -2684,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentHoogle",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentHoogle",
           "name": "Query",
           "package": "scion-browser",
@@ -2697,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentHoogle",
           "name": "RConstructor",
           "package": "scion-browser",
@@ -2706,6 +2943,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentHoogle",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentHoogle",
           "name": "RConstructor",
           "normalized": "RConstructor[(DbPackageIdentifier,String,DbCompleteDecl,DbConstructor)]",
@@ -2721,6 +2959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentHoogle",
           "name": "RDeclaration",
           "package": "scion-browser",
@@ -2730,6 +2969,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentHoogle",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentHoogle",
           "name": "RDeclaration",
           "normalized": "RDeclaration[(DbPackageIdentifier,String,DbCompleteDecl)]",
@@ -2745,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentHoogle",
           "name": "RKeyword",
           "package": "scion-browser",
@@ -2754,6 +2995,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentHoogle",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentHoogle",
           "name": "RKeyword",
           "package": "scion-browser",
@@ -2767,6 +3009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentHoogle",
           "name": "RModule",
           "package": "scion-browser",
@@ -2776,6 +3019,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentHoogle",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentHoogle",
           "name": "RModule",
           "normalized": "RModule[(DbPackageIdentifier,DbModule)]",
@@ -2791,6 +3035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentHoogle",
           "name": "RPackage",
           "package": "scion-browser",
@@ -2800,6 +3045,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentHoogle",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentHoogle",
           "name": "RPackage",
           "normalized": "RPackage[DbPackage]",
@@ -2815,6 +3061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentHoogle",
           "name": "checkDatabase",
           "package": "scion-browser",
@@ -2824,6 +3071,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentHoogle",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentHoogle",
           "name": "checkDatabase",
           "normalized": "Maybe String-\u003eIO HoogleStatus",
@@ -2839,6 +3087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentHoogle",
           "name": "downloadData",
           "package": "scion-browser",
@@ -2848,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentHoogle",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentHoogle",
           "name": "downloadData",
           "normalized": "Maybe String-\u003eIO HoogleStatus",
@@ -2863,6 +3113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:14 UTC 2014",
           "module": "Scion.PersistentHoogle",
           "name": "query",
           "package": "scion-browser",
@@ -2872,6 +3123,7 @@
         },
         "index": {
           "hierarchy": "Scion PersistentHoogle",
+          "indexed": "2014-03-11T19:58:14",
           "module": "Scion.PersistentHoogle",
           "name": "query",
           "normalized": "Maybe String-\u003eString-\u003eSQL[Result]",

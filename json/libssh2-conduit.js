@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "libssh2-conduit"
+        "phrase": "libssh2-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }

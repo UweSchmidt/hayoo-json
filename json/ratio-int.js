@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ratio-int"
+        "phrase": "ratio-int",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a specialised version of \u003ccode\u003e\u003ca\u003eRatio\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eRuns about ten times faster than \u003ccode\u003e\u003ca\u003eRatio\u003c/a\u003e\u003c/code\u003e while being half as fast as\n floating-point types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:42 UTC 2014",
           "module": "Data.RatioInt",
           "name": "RatioInt",
           "package": "ratio-int",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides specialised version of Ratio for Int Runs about ten times faster than Ratio while being half as fast as floating-point types",
           "hierarchy": "Data RatioInt",
+          "indexed": "2014-03-11T19:48:42",
           "module": "Data.RatioInt",
           "name": "RatioInt",
           "package": "ratio-int",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRational numbers, with numerator and denominator of the \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:42 UTC 2014",
           "module": "Data.RatioInt",
           "name": "RatioInt",
           "package": "ratio-int",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Rational numbers with numerator and denominator of the Int type",
           "hierarchy": "Data RatioInt",
+          "indexed": "2014-03-11T19:48:42",
           "module": "Data.RatioInt",
           "name": "RatioInt",
           "package": "ratio-int",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForms the ratio of two \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:42 UTC 2014",
           "module": "Data.RatioInt",
           "name": "(%)",
           "package": "ratio-int",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Forms the ratio of two Int numbers",
           "hierarchy": "Data RatioInt",
+          "indexed": "2014-03-11T19:48:42",
           "module": "Data.RatioInt",
           "name": "(%) %",
           "normalized": "Int-\u003eInt-\u003eRatioInt",

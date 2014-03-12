@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HDBC-sqlite3"
+        "phrase": "HDBC-sqlite3",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHDBC driver interface for Sqlite 3.x.\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "Sqlite3",
           "package": "HDBC-sqlite3",
@@ -28,6 +29,7 @@
         "index": {
           "description": "HDBC driver interface for Sqlite Written by John Goerzen jgoerzen@complete.org",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "Sqlite3",
           "package": "HDBC-sqlite3",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "Connection",
           "package": "HDBC-sqlite3",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "Connection",
           "package": "HDBC-sqlite3",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to an Sqlite version 3 database.  The only parameter needed is\nthe filename of the database to connect to.\n\u003c/p\u003e\u003cp\u003eAll database accessor functions are provided in the main HDBC module. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "connectSqlite3",
           "package": "HDBC-sqlite3",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Connect to an Sqlite version database The only parameter needed is the filename of the database to connect to All database accessor functions are provided in the main HDBC module",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "connectSqlite3",
           "normalized": "FilePath-\u003eIO Connection",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnects to a Sqlite v3 database as with \u003ccode\u003e\u003ca\u003econnectSqlite3\u003c/a\u003e\u003c/code\u003e, but\ninstead of converting the supplied \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e to a C String by performing\na conversion to Unicode, instead converts it by simply dropping all bits past\nthe eighth.  This may be useful in rare situations\nif your application or filesystemare not running in Unicode space. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "connectSqlite3Raw",
           "package": "HDBC-sqlite3",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Connects to Sqlite v3 database as with connectSqlite3 but instead of converting the supplied FilePath to String by performing conversion to Unicode instead converts it by simply dropping all bits past the eighth This may be useful in rare situations if your application or filesystemare not running in Unicode space",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "connectSqlite3Raw",
           "normalized": "FilePath-\u003eIO Connection",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the timeout for a lock before returning a busy error.\n Give the time in milliseconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "setBusyTimeout",
           "package": "HDBC-sqlite3",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Sets the timeout for lock before returning busy error Give the time in milliseconds",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "setBusyTimeout",
           "normalized": "Connection-\u003eCInt-\u003eIO()",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCallback routine requested an abort\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_ABORT",
           "package": "HDBC-sqlite3",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Callback routine requested an abort",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_ABORT",
           "package": "HDBC-sqlite3",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthorization denied\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_AUTH",
           "package": "HDBC-sqlite3",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Authorization denied",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_AUTH",
           "package": "HDBC-sqlite3",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe database file is locked\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_BUSY",
           "package": "HDBC-sqlite3",
@@ -199,6 +214,7 @@
         "index": {
           "description": "The database file is locked",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_BUSY",
           "package": "HDBC-sqlite3",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnable to open the database file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_CANTOPEN",
           "package": "HDBC-sqlite3",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Unable to open the database file",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_CANTOPEN",
           "package": "HDBC-sqlite3",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbort due to constraint violation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_CONSTRAINT",
           "package": "HDBC-sqlite3",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Abort due to constraint violation",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_CONSTRAINT",
           "package": "HDBC-sqlite3",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe database disk image is malformed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_CORRUPT",
           "package": "HDBC-sqlite3",
@@ -271,6 +292,7 @@
         "index": {
           "description": "The database disk image is malformed",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_CORRUPT",
           "package": "HDBC-sqlite3",
@@ -285,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esqlite_step() has finished executing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_DONE",
           "package": "HDBC-sqlite3",
@@ -295,6 +318,7 @@
         "index": {
           "description": "sqlite step has finished executing",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_DONE",
           "package": "HDBC-sqlite3",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal Only) Database table is empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_EMPTY",
           "package": "HDBC-sqlite3",
@@ -319,6 +344,7 @@
         "index": {
           "description": "Internal Only Database table is empty",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_EMPTY",
           "package": "HDBC-sqlite3",
@@ -333,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSQL error or missing database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_ERROR",
           "package": "HDBC-sqlite3",
@@ -343,6 +370,7 @@
         "index": {
           "description": "SQL error or missing database",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_ERROR",
           "package": "HDBC-sqlite3",
@@ -357,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsertion failed because database is full\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_FULL",
           "package": "HDBC-sqlite3",
@@ -367,6 +396,7 @@
         "index": {
           "description": "Insertion failed because database is full",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_FULL",
           "package": "HDBC-sqlite3",
@@ -381,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn internal logic error in SQLite\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_INTERNAL",
           "package": "HDBC-sqlite3",
@@ -391,6 +422,7 @@
         "index": {
           "description": "An internal logic error in SQLite",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_INTERNAL",
           "package": "HDBC-sqlite3",
@@ -405,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperation terminated by sqlite_interrupt()\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_INTERRUPT",
           "package": "HDBC-sqlite3",
@@ -415,6 +448,7 @@
         "index": {
           "description": "Operation terminated by sqlite interrupt",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_INTERRUPT",
           "package": "HDBC-sqlite3",
@@ -429,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome kind of disk I/O error occurred\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_IOERR",
           "package": "HDBC-sqlite3",
@@ -439,6 +474,7 @@
         "index": {
           "description": "Some kind of disk error occurred",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_IOERR",
           "package": "HDBC-sqlite3",
@@ -453,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA table in the database is locked\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_LOCKED",
           "package": "HDBC-sqlite3",
@@ -463,6 +500,7 @@
         "index": {
           "description": "table in the database is locked",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_LOCKED",
           "package": "HDBC-sqlite3",
@@ -477,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type mismatch\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_MISMATCH",
           "package": "HDBC-sqlite3",
@@ -487,6 +526,7 @@
         "index": {
           "description": "Data type mismatch",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_MISMATCH",
           "package": "HDBC-sqlite3",
@@ -501,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLibrary used incorrectly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_MISUSE",
           "package": "HDBC-sqlite3",
@@ -511,6 +552,7 @@
         "index": {
           "description": "Library used incorrectly",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_MISUSE",
           "package": "HDBC-sqlite3",
@@ -525,6 +567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses OS features not supported on host\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_NOLFS",
           "package": "HDBC-sqlite3",
@@ -535,6 +578,7 @@
         "index": {
           "description": "Uses OS features not supported on host",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_NOLFS",
           "package": "HDBC-sqlite3",
@@ -549,6 +593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA malloc() failed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_NOMEM",
           "package": "HDBC-sqlite3",
@@ -559,6 +604,7 @@
         "index": {
           "description": "malloc failed",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_NOMEM",
           "package": "HDBC-sqlite3",
@@ -573,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Internal Only) Table or record not found\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_NOTFOUND",
           "package": "HDBC-sqlite3",
@@ -583,6 +630,7 @@
         "index": {
           "description": "Internal Only Table or record not found",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_NOTFOUND",
           "package": "HDBC-sqlite3",
@@ -597,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuccessful result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_OK",
           "package": "HDBC-sqlite3",
@@ -607,6 +656,7 @@
         "index": {
           "description": "Successful result",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_OK",
           "package": "HDBC-sqlite3",
@@ -621,6 +671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess permission denied\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_PERM",
           "package": "HDBC-sqlite3",
@@ -631,6 +682,7 @@
         "index": {
           "description": "Access permission denied",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_PERM",
           "package": "HDBC-sqlite3",
@@ -645,6 +697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatabase lock protocol error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_PROTOCOL",
           "package": "HDBC-sqlite3",
@@ -655,6 +708,7 @@
         "index": {
           "description": "Database lock protocol error",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_PROTOCOL",
           "package": "HDBC-sqlite3",
@@ -669,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to write a readonly database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_READONLY",
           "package": "HDBC-sqlite3",
@@ -679,6 +734,7 @@
         "index": {
           "description": "Attempt to write readonly database",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_READONLY",
           "package": "HDBC-sqlite3",
@@ -693,6 +749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esqlite_step() has another row ready\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_ROW",
           "package": "HDBC-sqlite3",
@@ -703,6 +760,7 @@
         "index": {
           "description": "sqlite step has another row ready",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_ROW",
           "package": "HDBC-sqlite3",
@@ -717,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe database schema changed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_SCHEMA",
           "package": "HDBC-sqlite3",
@@ -727,6 +786,7 @@
         "index": {
           "description": "The database schema changed",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_SCHEMA",
           "package": "HDBC-sqlite3",
@@ -741,6 +801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToo much data for one row of a table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:42 UTC 2014",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_TOOBIG",
           "package": "HDBC-sqlite3",
@@ -751,6 +812,7 @@
         "index": {
           "description": "Too much data for one row of table",
           "hierarchy": "Database HDBC Sqlite3",
+          "indexed": "2014-03-11T16:44:42",
           "module": "Database.HDBC.Sqlite3",
           "name": "sqlite_TOOBIG",
           "package": "HDBC-sqlite3",

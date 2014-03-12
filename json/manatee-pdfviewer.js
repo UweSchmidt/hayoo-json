@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "manatee-pdfviewer"
+        "phrase": "manatee-pdfviewer",
+        "type": "phrase"
       },
       "type": "context"
     }

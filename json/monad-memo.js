@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-memo"
+        "phrase": "monad-memo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefault instances of \u003ccode\u003e\u003ca\u003eArrayMemo\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eUArrayMemo\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Array.Instances",
           "name": "Instances",
           "package": "monad-memo",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Default instances of ArrayMemo and UArrayMemo",
           "hierarchy": "Control Monad Memo Array Instances",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Array.Instances",
           "name": "Instances",
           "package": "monad-memo",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eArrayCache - mutable-array-based (\u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e hosted) \u003ccode\u003e\u003ca\u003eMonadCache\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eVery fast memoization cache. Unfortunatelly it cannot suit every case (see limitations), but if you can use it, please do: it is generally an order of magnitude faster than \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e-based \u003ccode\u003e\u003ca\u003eMemo\u003c/a\u003e\u003c/code\u003e, especially \u003cem\u003eunboxed\u003c/em\u003e version - try to use it whenever you can.\n\u003c/p\u003e\u003cp\u003eLimitations: Since \u003ccode\u003e\u003ca\u003eMArray\u003c/a\u003e\u003c/code\u003e is used as \u003ccode\u003e\u003ca\u003eMonadCache\u003c/a\u003e\u003c/code\u003e the key range must be known beforehand and the array is allocated before the first call.\nIt is therefore most suitable for the cases when the distribution of possible key values is within reasonable range and is rather dense (the best case: all values withing some range will be used). If this is the case then \u003ccode\u003e\u003ca\u003eMArray\u003c/a\u003e\u003c/code\u003e has O(1) for both lookup and update operations.\nIn addition unboxed \u003ccode\u003e\u003ca\u003eUArrayCache\u003c/a\u003e\u003c/code\u003e can only store unboxed types (but it does it very efficiently).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Array",
           "name": "Array",
           "package": "monad-memo",
@@ -51,6 +54,7 @@
         "index": {
           "description": "ArrayCache mutable-array-based IO and ST hosted MonadCache Very fast memoization cache Unfortunatelly it cannot suit every case see limitations but if you can use it please do it is generally an order of magnitude faster than Map based Memo especially unboxed version try to use it whenever you can Limitations Since MArray is used as MonadCache the key range must be known beforehand and the array is allocated before the first call It is therefore most suitable for the cases when the distribution of possible key values is within reasonable range and is rather dense the best case all values withing some range will be used If this is the case then MArray has for both lookup and update operations In addition unboxed UArrayCache can only store unboxed types but it does it very efficiently",
           "hierarchy": "Control Monad Memo Array",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Array",
           "name": "Array",
           "package": "monad-memo",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA family of boxed arrays\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Array",
           "name": "Array",
           "package": "monad-memo",
@@ -74,6 +79,7 @@
         "index": {
           "description": "family of boxed arrays",
           "hierarchy": "Control Monad Memo Array",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Array",
           "name": "Array",
           "package": "monad-memo",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoization monad based on mutable boxed array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Array",
           "name": "ArrayCache",
           "package": "monad-memo",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Memoization monad based on mutable boxed array",
           "hierarchy": "Control Monad Memo Array",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Array",
           "name": "ArrayCache",
           "package": "monad-memo",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just to be able to infer the type of the \u003ccode\u003e\u003ca\u003eArrayCache\u003c/a\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eType families could be used instead but due to the bug in 7.4.* we cannot use them here\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Array",
           "name": "ArrayMemo",
           "package": "monad-memo",
@@ -120,6 +129,7 @@
         "index": {
           "description": "This is just to be able to infer the type of the ArrayCache element Type families could be used instead but due to the bug in we cannot use them here",
           "hierarchy": "Control Monad Memo Array",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Array",
           "name": "ArrayMemo",
           "package": "monad-memo",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric Array-based memo cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Array",
           "name": "Cache",
           "package": "monad-memo",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Generic Array-based memo cache",
           "hierarchy": "Control Monad Memo Array",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Array",
           "name": "Cache",
           "package": "monad-memo",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Array",
           "name": "Container",
           "package": "monad-memo",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Array",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Array",
           "name": "Container",
           "package": "monad-memo",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA family of unboxed arrays\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Array",
           "name": "UArray",
           "package": "monad-memo",
@@ -187,6 +202,7 @@
         "index": {
           "description": "family of unboxed arrays",
           "hierarchy": "Control Monad Memo Array",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Array",
           "name": "UArray",
           "package": "monad-memo",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoization monad based on mutable unboxed array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Array",
           "name": "UArrayCache",
           "package": "monad-memo",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Memoization monad based on mutable unboxed array",
           "hierarchy": "Control Monad Memo Array",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Array",
           "name": "UArrayCache",
           "package": "monad-memo",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just to be able to infer the type of the \u003ccode\u003e\u003ca\u003eUArrayCache\u003c/a\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eType families could be used instead but due to the bug in 7.4.* we cannot use them here\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Array",
           "name": "UArrayMemo",
           "package": "monad-memo",
@@ -233,6 +252,7 @@
         "index": {
           "description": "This is just to be able to infer the type of the UArrayCache element Type families could be used instead but due to the bug in we cannot use them here",
           "hierarchy": "Control Monad Memo Array",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Array",
           "name": "UArrayMemo",
           "package": "monad-memo",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Array",
           "name": "Container",
           "package": "monad-memo",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Array",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Array",
           "name": "Container",
           "package": "monad-memo",
@@ -320,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Array",
           "name": "genericEvalArrayMemo",
           "package": "monad-memo",
@@ -329,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Array",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Array",
           "name": "genericEvalArrayMemo",
           "normalized": "Cache a b c d e-\u003e(b,b)-\u003ed e",
@@ -344,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Array",
           "name": "genericRunArrayMemo",
           "package": "monad-memo",
@@ -353,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Array",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Array",
           "name": "genericRunArrayMemo",
           "normalized": "Cache a b c d e-\u003e(b,b)-\u003ed(e,a b c)",
@@ -420,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Array",
           "name": "toArray",
           "package": "monad-memo",
@@ -429,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Array",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Array",
           "name": "toArray",
           "package": "monad-memo",
@@ -443,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdl\u003e\u003cdt\u003eComputation type:\u003c/dt\u003e\u003cdd\u003e Interface for monadic computations which can be memoized.\n\u003c/dd\u003e\u003c/dl\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Class",
           "name": "Class",
           "package": "monad-memo",
@@ -452,6 +481,7 @@
         "index": {
           "description": "Computation type Interface for monadic computations which can be memoized",
           "hierarchy": "Control Monad Memo Class",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Class",
           "name": "Class",
           "package": "monad-memo",
@@ -466,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface for memoization cache\n Is necessary since memoization mechanism from one transformer can use a cache from other (further down the stack) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Class",
           "name": "MonadCache",
           "package": "monad-memo",
@@ -475,6 +506,7 @@
         "index": {
           "description": "Interface for memoization cache Is necessary since memoization mechanism from one transformer can use cache from other further down the stack",
           "hierarchy": "Control Monad Memo Class",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Class",
           "name": "MonadCache",
           "package": "monad-memo",
@@ -489,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoization interface\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Class",
           "name": "MonadMemo",
           "package": "monad-memo",
@@ -498,6 +531,7 @@
         "index": {
           "description": "Memoization interface",
           "hierarchy": "Control Monad Memo Class",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Class",
           "name": "MonadMemo",
           "package": "monad-memo",
@@ -511,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Class",
           "name": "add",
           "package": "monad-memo",
@@ -520,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Class",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Class",
           "name": "add",
           "normalized": "a-\u003eb-\u003ec()",
@@ -612,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Class",
           "name": "lookup",
           "package": "monad-memo",
@@ -621,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Class",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Class",
           "name": "lookup",
           "normalized": "a-\u003eb(Maybe c)",
@@ -635,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Class",
           "name": "memo",
           "package": "monad-memo",
@@ -644,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Class",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Class",
           "name": "memo",
           "normalized": "(a-\u003eb c)-\u003ea-\u003eb c",
@@ -815,6 +855,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVector-based \u003ccode\u003e\u003ca\u003eMonadCache\u003c/a\u003e\u003c/code\u003e implementation which dynamically expands the vector during the computation to accomodate all requested keys.\nThis implementation does not require to specify the length of the vector up front, but may be slower than \u003ca\u003eControl.Monad.Memo.Vector\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "Expandable",
           "package": "monad-memo",
@@ -824,6 +865,7 @@
         "index": {
           "description": "Vector-based MonadCache implementation which dynamically expands the vector during the computation to accomodate all requested keys This implementation does not require to specify the length of the vector up front but may be slower than Control.Monad.Memo.Vector",
           "hierarchy": "Control Monad Memo Vector Expandable",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "Expandable",
           "package": "monad-memo",
@@ -838,6 +880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric Vector-based memo cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "Cache",
           "package": "monad-memo",
@@ -847,6 +890,7 @@
         "index": {
           "description": "Generic Vector-based memo cache",
           "hierarchy": "Control Monad Memo Vector Expandable",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "Cache",
           "package": "monad-memo",
@@ -860,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "Container",
           "package": "monad-memo",
@@ -868,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Vector Expandable",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "Container",
           "package": "monad-memo",
@@ -882,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMonadCache\u003c/a\u003e\u003c/code\u003e based on unboxed vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "UVectorCache",
           "package": "monad-memo",
@@ -891,6 +938,7 @@
         "index": {
           "description": "MonadCache based on unboxed vector",
           "hierarchy": "Control Monad Memo Vector Expandable",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "UVectorCache",
           "package": "monad-memo",
@@ -905,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just to be able to infer the type of the \u003ccode\u003e\u003ca\u003eUVectorCache\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "UVectorMemo",
           "package": "monad-memo",
@@ -914,6 +963,7 @@
         "index": {
           "description": "This is just to be able to infer the type of the UVectorCache element",
           "hierarchy": "Control Monad Memo Vector Expandable",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "UVectorMemo",
           "package": "monad-memo",
@@ -928,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMonadCache\u003c/a\u003e\u003c/code\u003e based on boxed vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "VectorCache",
           "package": "monad-memo",
@@ -937,6 +988,7 @@
         "index": {
           "description": "MonadCache based on boxed vector",
           "hierarchy": "Control Monad Memo Vector Expandable",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "VectorCache",
           "package": "monad-memo",
@@ -951,6 +1003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just to be able to infer the type of the \u003ccode\u003e\u003ca\u003eVectorCache\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "VectorMemo",
           "package": "monad-memo",
@@ -960,6 +1013,7 @@
         "index": {
           "description": "This is just to be able to infer the type of the VectorCache element",
           "hierarchy": "Control Monad Memo Vector Expandable",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "VectorMemo",
           "package": "monad-memo",
@@ -973,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "Container",
           "package": "monad-memo",
@@ -982,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Vector Expandable",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "Container",
           "package": "monad-memo",
@@ -995,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "genericStartEvalVectorMemo",
           "package": "monad-memo",
@@ -1004,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Vector Expandable",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "genericStartEvalVectorMemo",
           "normalized": "Cache a(PrimState b)c b d-\u003eb d",
@@ -1019,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "genericStartRunVectorMemo",
           "package": "monad-memo",
@@ -1028,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Vector Expandable",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "genericStartRunVectorMemo",
           "normalized": "Cache a(PrimState b)c b d-\u003eb(d,a(PrimState b)c)",
@@ -1044,6 +1104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate computation using mutable unboxed vector\n which dynamically grows to accomodate all requested keys \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "startEvalUVectorMemo",
           "package": "monad-memo",
@@ -1054,6 +1115,7 @@
         "index": {
           "description": "Evaluate computation using mutable unboxed vector which dynamically grows to accomodate all requested keys",
           "hierarchy": "Control Monad Memo Vector Expandable",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "startEvalUVectorMemo",
           "normalized": "UVectorCache(PrimState a)b a c-\u003ea c",
@@ -1070,6 +1132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate computation using mutable boxed vector which dynamically grows to accomodate all requested keys \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "startEvalVectorMemo",
           "package": "monad-memo",
@@ -1080,6 +1143,7 @@
         "index": {
           "description": "Evaluate computation using mutable boxed vector which dynamically grows to accomodate all requested keys",
           "hierarchy": "Control Monad Memo Vector Expandable",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "startEvalVectorMemo",
           "normalized": "VectorCache(PrimState a)b a c-\u003ea c",
@@ -1096,6 +1160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate computation using mutable unboxed vector\n which dynamically grows to accomodate all requested keys.\n This function also returns the final content of the vector cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "startRunUVectorMemo",
           "package": "monad-memo",
@@ -1106,6 +1171,7 @@
         "index": {
           "description": "Evaluate computation using mutable unboxed vector which dynamically grows to accomodate all requested keys This function also returns the final content of the vector cache",
           "hierarchy": "Control Monad Memo Vector Expandable",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "startRunUVectorMemo",
           "normalized": "UVectorCache(PrimState a)b a c-\u003ea(c,UVector(PrimState a)b)",
@@ -1122,6 +1188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate computation using mutable boxed vector\n which dynamically grows to accomodate all requested keys. \n This function also returns the final content of the vector cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "startRunVectorMemo",
           "package": "monad-memo",
@@ -1132,6 +1199,7 @@
         "index": {
           "description": "Evaluate computation using mutable boxed vector which dynamically grows to accomodate all requested keys This function also returns the final content of the vector cache",
           "hierarchy": "Control Monad Memo Vector Expandable",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "startRunVectorMemo",
           "normalized": "VectorCache(PrimState a)b a c-\u003ea(c,Vector(PrimState a)b)",
@@ -1147,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "toVector",
           "package": "monad-memo",
@@ -1156,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Vector Expandable",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Expandable",
           "name": "toVector",
           "package": "monad-memo",
@@ -1170,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefault instances for \u003ccode\u003eVectorMemo\u003c/code\u003e and \u003ccode\u003eUVectorMemo\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Instances",
           "name": "Instances",
           "package": "monad-memo",
@@ -1179,6 +1250,7 @@
         "index": {
           "description": "Default instances for VectorMemo and UVectorMemo",
           "hierarchy": "Control Monad Memo Vector Instances",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Instances",
           "name": "Instances",
           "package": "monad-memo",
@@ -1193,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVectorCache - mutable-vector-based \u003ccode\u003e\u003ca\u003eMonadCache\u003c/a\u003e\u003c/code\u003e with unsafe operations.\n\u003c/p\u003e\u003cp\u003eThis is a version of \u003ca\u003eControl.Monad.Memo.Mutable.Vector\u003c/a\u003e but implemented using \u003cem\u003eunsafe*\u003c/em\u003e vector operations.\nFaster than default implementation but you must be sure that your code doesn't try to read/write outside vector boundaries.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "Unsafe",
           "package": "monad-memo",
@@ -1202,6 +1275,7 @@
         "index": {
           "description": "VectorCache mutable-vector-based MonadCache with unsafe operations This is version of Control.Monad.Memo.Mutable.Vector but implemented using unsafe vector operations Faster than default implementation but you must be sure that your code doesn try to read write outside vector boundaries",
           "hierarchy": "Control Monad Memo Vector Unsafe",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "Unsafe",
           "package": "monad-memo",
@@ -1216,6 +1290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric Vector-based memo cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "Cache",
           "package": "monad-memo",
@@ -1225,6 +1300,7 @@
         "index": {
           "description": "Generic Vector-based memo cache",
           "hierarchy": "Control Monad Memo Vector Unsafe",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "Cache",
           "package": "monad-memo",
@@ -1238,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "Container",
           "package": "monad-memo",
@@ -1246,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Vector Unsafe",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "Container",
           "package": "monad-memo",
@@ -1260,6 +1338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMonadCache\u003c/a\u003e\u003c/code\u003e based on unboxed vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "UVectorCache",
           "package": "monad-memo",
@@ -1269,6 +1348,7 @@
         "index": {
           "description": "MonadCache based on unboxed vector",
           "hierarchy": "Control Monad Memo Vector Unsafe",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "UVectorCache",
           "package": "monad-memo",
@@ -1283,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just to be able to infer the type of the \u003ccode\u003e\u003ca\u003eUVectorCache\u003c/a\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "UVectorMemo",
           "package": "monad-memo",
@@ -1292,6 +1373,7 @@
         "index": {
           "description": "This is just to be able to infer the type of the UVectorCache element",
           "hierarchy": "Control Monad Memo Vector Unsafe",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "UVectorMemo",
           "package": "monad-memo",
@@ -1306,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMonadCache\u003c/a\u003e\u003c/code\u003e based on boxed vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "VectorCache",
           "package": "monad-memo",
@@ -1315,6 +1398,7 @@
         "index": {
           "description": "MonadCache based on boxed vector",
           "hierarchy": "Control Monad Memo Vector Unsafe",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "VectorCache",
           "package": "monad-memo",
@@ -1329,6 +1413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just to be able to infer the type of the \u003ccode\u003e\u003ca\u003eVectorCache\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "VectorMemo",
           "package": "monad-memo",
@@ -1338,6 +1423,7 @@
         "index": {
           "description": "This is just to be able to infer the type of the VectorCache element",
           "hierarchy": "Control Monad Memo Vector Unsafe",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "VectorMemo",
           "package": "monad-memo",
@@ -1351,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "Container",
           "package": "monad-memo",
@@ -1360,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Vector Unsafe",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "Container",
           "package": "monad-memo",
@@ -1373,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "genericUnsafeEvalVectorMemo",
           "package": "monad-memo",
@@ -1382,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Vector Unsafe",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "genericUnsafeEvalVectorMemo",
           "normalized": "Cache a(PrimState b)c b d-\u003eInt-\u003eb d",
@@ -1397,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "genericUnsafeRunVectorMemo",
           "package": "monad-memo",
@@ -1406,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Vector Unsafe",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "genericUnsafeRunVectorMemo",
           "normalized": "Cache a(PrimState b)c b d-\u003eInt-\u003eb(d,a(PrimState b)c)",
@@ -1421,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "toVector",
           "package": "monad-memo",
@@ -1430,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Vector Unsafe",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "toVector",
           "package": "monad-memo",
@@ -1444,6 +1538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate computation using mutable unboxed vector and unsafe operations\n\u003c/p\u003e\u003cp\u003eVector length must covers all possible keys used in computation\n otherwise the behaviour is undefined (i.e. segfault)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "unsafeEvalUVectorMemo",
           "package": "monad-memo",
@@ -1453,6 +1548,7 @@
         "index": {
           "description": "Evaluate computation using mutable unboxed vector and unsafe operations Vector length must covers all possible keys used in computation otherwise the behaviour is undefined i.e segfault",
           "hierarchy": "Control Monad Memo Vector Unsafe",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "unsafeEvalUVectorMemo",
           "normalized": "UVectorCache(PrimState a)b a c-\u003eInt-\u003ea c",
@@ -1469,6 +1565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate computation using mutable boxed vector and unsafe operations\n\u003c/p\u003e\u003cp\u003eVector length must covers all possible keys used in computation\n otherwise the behaviour is undefined (i.e. segfault)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "unsafeEvalVectorMemo",
           "package": "monad-memo",
@@ -1478,6 +1575,7 @@
         "index": {
           "description": "Evaluate computation using mutable boxed vector and unsafe operations Vector length must covers all possible keys used in computation otherwise the behaviour is undefined i.e segfault",
           "hierarchy": "Control Monad Memo Vector Unsafe",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "unsafeEvalVectorMemo",
           "normalized": "VectorCache(PrimState a)b a c-\u003eInt-\u003ea c",
@@ -1494,6 +1592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate computation using mutable boxed vector and unsafe operations.\n It also returns the final content of the vector cache\n\u003c/p\u003e\u003cp\u003eVector length must covers all possible keys used in computation\n otherwise the behaviour is undefined (i.e. segfault)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "unsafeRunUVectorMemo",
           "package": "monad-memo",
@@ -1503,6 +1602,7 @@
         "index": {
           "description": "Evaluate computation using mutable boxed vector and unsafe operations It also returns the final content of the vector cache Vector length must covers all possible keys used in computation otherwise the behaviour is undefined i.e segfault",
           "hierarchy": "Control Monad Memo Vector Unsafe",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "unsafeRunUVectorMemo",
           "normalized": "UVectorCache(PrimState a)b a c-\u003eInt-\u003ea(c,UVector(PrimState a)b)",
@@ -1519,6 +1619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate computation using mutable boxed vector and unsafe operations.\n It also returns the final content of the vector cache\n\u003c/p\u003e\u003cp\u003eVector length must covers all possible keys used in computation\n otherwise the behaviour is undefined (i.e. segfault)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "unsafeRunVectorMemo",
           "package": "monad-memo",
@@ -1528,6 +1629,7 @@
         "index": {
           "description": "Evaluate computation using mutable boxed vector and unsafe operations It also returns the final content of the vector cache Vector length must covers all possible keys used in computation otherwise the behaviour is undefined i.e segfault",
           "hierarchy": "Control Monad Memo Vector Unsafe",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector.Unsafe",
           "name": "unsafeRunVectorMemo",
           "normalized": "VectorCache(PrimState a)b a c-\u003eInt-\u003ea(c,Vector(PrimState a)b)",
@@ -1544,6 +1646,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVectorCache - mutable-vector-based (\u003ccode\u003eIO\u003c/code\u003e and \u003ccode\u003eST\u003c/code\u003e hosted) \u003ccode\u003e\u003ca\u003eMonadCache\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThe fastest memoization cache, however it is even more limiting than \u003ca\u003eControl.Monad.Memo.Array\u003c/a\u003e due to nature of \u003ca\u003eData.Vector.Mutable\u003c/a\u003e. Still if you can use this cache please do since it will give you dramatic calculation speed up in comparison to pure \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e-based cache, especially when unboxed \u003ccode\u003e\u003ca\u003eUVectorCache\u003c/a\u003e\u003c/code\u003e is used.\n\u003c/p\u003e\u003cp\u003eLimitations: Since \u003ccode\u003e\u003ca\u003eMVector\u003c/a\u003e\u003c/code\u003e is used as \u003ccode\u003e\u003ca\u003eMonadCache\u003c/a\u003e\u003c/code\u003e the key must be \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e and the size of the cache's vector must be known beforehand with vector being allocated before the first call. In addition unboxed \u003ccode\u003e\u003ca\u003eUVectorCache\u003c/a\u003e\u003c/code\u003e can only store \u003ccode\u003e\u003ca\u003eUnbox\u003c/a\u003e\u003c/code\u003e values (but it does it very efficiently).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector",
           "name": "Vector",
           "package": "monad-memo",
@@ -1553,6 +1656,7 @@
         "index": {
           "description": "VectorCache mutable-vector-based IO and ST hosted MonadCache The fastest memoization cache however it is even more limiting than Control.Monad.Memo.Array due to nature of Data.Vector.Mutable Still if you can use this cache please do since it will give you dramatic calculation speed up in comparison to pure Map based cache especially when unboxed UVectorCache is used Limitations Since MVector is used as MonadCache the key must be Int and the size of the cache vector must be known beforehand with vector being allocated before the first call In addition unboxed UVectorCache can only store Unbox values but it does it very efficiently",
           "hierarchy": "Control Monad Memo Vector",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector",
           "name": "Vector",
           "package": "monad-memo",
@@ -1567,6 +1671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric Vector-based memo cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector",
           "name": "Cache",
           "package": "monad-memo",
@@ -1576,6 +1681,7 @@
         "index": {
           "description": "Generic Vector-based memo cache",
           "hierarchy": "Control Monad Memo Vector",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector",
           "name": "Cache",
           "package": "monad-memo",
@@ -1589,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector",
           "name": "Container",
           "package": "monad-memo",
@@ -1597,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Vector",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector",
           "name": "Container",
           "package": "monad-memo",
@@ -1611,6 +1719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnboxed vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector",
           "name": "UVector",
           "package": "monad-memo",
@@ -1620,6 +1729,7 @@
         "index": {
           "description": "Unboxed vector",
           "hierarchy": "Control Monad Memo Vector",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector",
           "name": "UVector",
           "package": "monad-memo",
@@ -1634,6 +1744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMonadCache\u003c/a\u003e\u003c/code\u003e based on unboxed vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector",
           "name": "UVectorCache",
           "package": "monad-memo",
@@ -1643,6 +1754,7 @@
         "index": {
           "description": "MonadCache based on unboxed vector",
           "hierarchy": "Control Monad Memo Vector",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector",
           "name": "UVectorCache",
           "package": "monad-memo",
@@ -1657,6 +1769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just to be able to infer the type of the \u003ccode\u003e\u003ca\u003eUVectorCache\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector",
           "name": "UVectorMemo",
           "package": "monad-memo",
@@ -1666,6 +1779,7 @@
         "index": {
           "description": "This is just to be able to infer the type of the UVectorCache element",
           "hierarchy": "Control Monad Memo Vector",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector",
           "name": "UVectorMemo",
           "package": "monad-memo",
@@ -1680,6 +1794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoxed vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector",
           "name": "Vector",
           "package": "monad-memo",
@@ -1689,6 +1804,7 @@
         "index": {
           "description": "Boxed vector",
           "hierarchy": "Control Monad Memo Vector",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector",
           "name": "Vector",
           "package": "monad-memo",
@@ -1703,6 +1819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMonadCache\u003c/a\u003e\u003c/code\u003e based on boxed vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector",
           "name": "VectorCache",
           "package": "monad-memo",
@@ -1712,6 +1829,7 @@
         "index": {
           "description": "MonadCache based on boxed vector",
           "hierarchy": "Control Monad Memo Vector",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector",
           "name": "VectorCache",
           "package": "monad-memo",
@@ -1726,6 +1844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just to be able to infer the type of the \u003ccode\u003e\u003ca\u003eVectorCache\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector",
           "name": "VectorMemo",
           "package": "monad-memo",
@@ -1735,6 +1854,7 @@
         "index": {
           "description": "This is just to be able to infer the type of the VectorCache element",
           "hierarchy": "Control Monad Memo Vector",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector",
           "name": "VectorMemo",
           "package": "monad-memo",
@@ -1748,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector",
           "name": "Container",
           "package": "monad-memo",
@@ -1757,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Vector",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector",
           "name": "Container",
           "package": "monad-memo",
@@ -1822,6 +1944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector",
           "name": "genericEvalVectorMemo",
           "package": "monad-memo",
@@ -1831,6 +1954,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Vector",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector",
           "name": "genericEvalVectorMemo",
           "normalized": "Cache a(PrimState b)c b d-\u003eInt-\u003eb d",
@@ -1846,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector",
           "name": "genericRunVectorMemo",
           "package": "monad-memo",
@@ -1855,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Vector",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector",
           "name": "genericRunVectorMemo",
           "normalized": "Cache a(PrimState b)c b d-\u003eInt-\u003eb(d,a(PrimState b)c)",
@@ -1922,6 +2048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo.Vector",
           "name": "toVector",
           "package": "monad-memo",
@@ -1931,6 +2058,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo Vector",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo.Vector",
           "name": "toVector",
           "package": "monad-memo",
@@ -1945,6 +2073,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImporting just this module is sufficient for most cases of the package usage\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo",
           "name": "Memo",
           "package": "monad-memo",
@@ -1954,6 +2083,7 @@
         "index": {
           "description": "Importing just this module is sufficient for most cases of the package usage",
           "hierarchy": "Control Monad Memo",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo",
           "name": "Memo",
           "package": "monad-memo",
@@ -1968,6 +2098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoization monad based on mutable boxed array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo",
           "name": "ArrayCache",
           "package": "monad-memo",
@@ -1977,6 +2108,7 @@
         "index": {
           "description": "Memoization monad based on mutable boxed array",
           "hierarchy": "Control Monad Memo",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo",
           "name": "ArrayCache",
           "package": "monad-memo",
@@ -1991,6 +2123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just to be able to infer the type of the \u003ccode\u003e\u003ca\u003eArrayCache\u003c/a\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eType families could be used instead but due to the bug in 7.4.* we cannot use them here\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo",
           "name": "ArrayMemo",
           "package": "monad-memo",
@@ -2000,6 +2133,7 @@
         "index": {
           "description": "This is just to be able to infer the type of the ArrayCache element Type families could be used instead but due to the bug in we cannot use them here",
           "hierarchy": "Control Monad Memo",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo",
           "name": "ArrayMemo",
           "package": "monad-memo",
@@ -2014,6 +2148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoization monad which uses \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e as a cache container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo",
           "name": "Memo",
           "package": "monad-memo",
@@ -2023,6 +2158,7 @@
         "index": {
           "description": "Memoization monad which uses Map as cache container",
           "hierarchy": "Control Monad Memo",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo",
           "name": "Memo",
           "package": "monad-memo",
@@ -2037,6 +2173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoization monad based on \u003ccode\u003e\u003ca\u003eStateCache\u003c/a\u003e\u003c/code\u003e\n to be used with pure cache containers which support \u003ccode\u003e\u003ca\u003eMapLike\u003c/a\u003e\u003c/code\u003e interface\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo",
           "name": "MemoState",
           "package": "monad-memo",
@@ -2046,6 +2183,7 @@
         "index": {
           "description": "Memoization monad based on StateCache to be used with pure cache containers which support MapLike interface",
           "hierarchy": "Control Monad Memo",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo",
           "name": "MemoState",
           "package": "monad-memo",
@@ -2060,6 +2198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoization monad transformer based on \u003ccode\u003e\u003ca\u003eStateCache\u003c/a\u003e\u003c/code\u003e\n to be used with pure cache containers which support \u003ccode\u003e\u003ca\u003eMapLike\u003c/a\u003e\u003c/code\u003e interface\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo",
           "name": "MemoStateT",
           "package": "monad-memo",
@@ -2069,6 +2208,7 @@
         "index": {
           "description": "Memoization monad transformer based on StateCache to be used with pure cache containers which support MapLike interface",
           "hierarchy": "Control Monad Memo",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo",
           "name": "MemoStateT",
           "package": "monad-memo",
@@ -2083,6 +2223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoization monad transformer which uses \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e as a cache container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo",
           "name": "MemoT",
           "package": "monad-memo",
@@ -2092,6 +2233,7 @@
         "index": {
           "description": "Memoization monad transformer which uses Map as cache container",
           "hierarchy": "Control Monad Memo",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo",
           "name": "MemoT",
           "package": "monad-memo",
@@ -2106,6 +2248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoization interface\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo",
           "name": "MonadMemo",
           "package": "monad-memo",
@@ -2115,6 +2258,7 @@
         "index": {
           "description": "Memoization interface",
           "hierarchy": "Control Monad Memo",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo",
           "name": "MonadMemo",
           "package": "monad-memo",
@@ -2129,6 +2273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoization monad based on mutable unboxed array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo",
           "name": "UArrayCache",
           "package": "monad-memo",
@@ -2138,6 +2283,7 @@
         "index": {
           "description": "Memoization monad based on mutable unboxed array",
           "hierarchy": "Control Monad Memo",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo",
           "name": "UArrayCache",
           "package": "monad-memo",
@@ -2152,6 +2298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just to be able to infer the type of the \u003ccode\u003e\u003ca\u003eUArrayCache\u003c/a\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eType families could be used instead but due to the bug in 7.4.* we cannot use them here\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo",
           "name": "UArrayMemo",
           "package": "monad-memo",
@@ -2161,6 +2308,7 @@
         "index": {
           "description": "This is just to be able to infer the type of the UArrayCache element Type families could be used instead but due to the bug in we cannot use them here",
           "hierarchy": "Control Monad Memo",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo",
           "name": "UArrayMemo",
           "package": "monad-memo",
@@ -2175,6 +2323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMonadCache\u003c/a\u003e\u003c/code\u003e based on unboxed vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo",
           "name": "UVectorCache",
           "package": "monad-memo",
@@ -2184,6 +2333,7 @@
         "index": {
           "description": "MonadCache based on unboxed vector",
           "hierarchy": "Control Monad Memo",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo",
           "name": "UVectorCache",
           "package": "monad-memo",
@@ -2198,6 +2348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just to be able to infer the type of the \u003ccode\u003e\u003ca\u003eUVectorCache\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo",
           "name": "UVectorMemo",
           "package": "monad-memo",
@@ -2207,6 +2358,7 @@
         "index": {
           "description": "This is just to be able to infer the type of the UVectorCache element",
           "hierarchy": "Control Monad Memo",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo",
           "name": "UVectorMemo",
           "package": "monad-memo",
@@ -2221,6 +2373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMonadCache\u003c/a\u003e\u003c/code\u003e based on boxed vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo",
           "name": "VectorCache",
           "package": "monad-memo",
@@ -2230,6 +2383,7 @@
         "index": {
           "description": "MonadCache based on boxed vector",
           "hierarchy": "Control Monad Memo",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo",
           "name": "VectorCache",
           "package": "monad-memo",
@@ -2244,6 +2398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just to be able to infer the type of the \u003ccode\u003e\u003ca\u003eVectorCache\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo",
           "name": "VectorMemo",
           "package": "monad-memo",
@@ -2253,6 +2408,7 @@
         "index": {
           "description": "This is just to be able to infer the type of the VectorCache element",
           "hierarchy": "Control Monad Memo",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo",
           "name": "VectorMemo",
           "package": "monad-memo",
@@ -2374,6 +2530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Memo",
           "name": "memo",
           "package": "monad-memo",
@@ -2383,6 +2540,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Memo",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Memo",
           "name": "memo",
           "normalized": "(a-\u003eb c)-\u003ea-\u003eb c",
@@ -2614,6 +2772,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSpecialization of \u003ccode\u003e\u003ca\u003eMemoStateT\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e as a container\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.Map",
           "name": "Map",
           "package": "monad-memo",
@@ -2623,6 +2782,7 @@
         "index": {
           "description": "Specialization of MemoStateT with Map as container",
           "hierarchy": "Control Monad Trans Memo Map",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.Map",
           "name": "Map",
           "package": "monad-memo",
@@ -2637,6 +2797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoization monad which uses \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e as a cache container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.Map",
           "name": "Memo",
           "package": "monad-memo",
@@ -2646,6 +2807,7 @@
         "index": {
           "description": "Memoization monad which uses Map as cache container",
           "hierarchy": "Control Monad Trans Memo Map",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.Map",
           "name": "Memo",
           "package": "monad-memo",
@@ -2660,6 +2822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoization monad transformer which uses \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e as a cache container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.Map",
           "name": "MemoT",
           "package": "monad-memo",
@@ -2669,6 +2832,7 @@
         "index": {
           "description": "Memoization monad transformer which uses Map as cache container",
           "hierarchy": "Control Monad Trans Memo Map",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.Map",
           "name": "MemoT",
           "package": "monad-memo",
@@ -2683,6 +2847,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric StateCache - similar to \u003ccode\u003e\u003ca\u003eReaderT\u003c/a\u003e\u003c/code\u003e but optimised for carrying cache container\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.ReaderCache",
           "name": "ReaderCache",
           "package": "monad-memo",
@@ -2692,6 +2857,7 @@
         "index": {
           "description": "Generic StateCache similar to ReaderT but optimised for carrying cache container",
           "hierarchy": "Control Monad Trans Memo ReaderCache",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.ReaderCache",
           "name": "ReaderCache",
           "package": "monad-memo",
@@ -2706,6 +2872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric memoization cache which uses provided container\n This is pretty much identical to \u003ccode\u003e\u003ca\u003eReaderT\u003c/a\u003e\u003c/code\u003e,\n but is tuned to speed up implementations which use unboxed mutable containers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.ReaderCache",
           "name": "ReaderCache",
           "package": "monad-memo",
@@ -2715,6 +2882,7 @@
         "index": {
           "description": "Generic memoization cache which uses provided container This is pretty much identical to ReaderT but is tuned to speed up implementations which use unboxed mutable containers",
           "hierarchy": "Control Monad Trans Memo ReaderCache",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.ReaderCache",
           "name": "ReaderCache",
           "package": "monad-memo",
@@ -2728,6 +2896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.ReaderCache",
           "name": "ReaderCache",
           "package": "monad-memo",
@@ -2737,6 +2906,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Memo ReaderCache",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.ReaderCache",
           "name": "ReaderCache",
           "package": "monad-memo",
@@ -2751,6 +2921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns internal container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.ReaderCache",
           "name": "container",
           "package": "monad-memo",
@@ -2761,6 +2932,7 @@
         "index": {
           "description": "Returns internal container",
           "hierarchy": "Control Monad Trans Memo ReaderCache",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.ReaderCache",
           "name": "container",
           "package": "monad-memo",
@@ -2773,6 +2945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.ReaderCache",
           "name": "evalReaderCache",
           "package": "monad-memo",
@@ -2782,6 +2955,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Memo ReaderCache",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.ReaderCache",
           "name": "evalReaderCache",
           "normalized": "a-\u003eb c",
@@ -2798,6 +2972,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines \u003ca\u003eMemoStateT\u003c/a\u003e - generalized (to any \u003ca\u003eData.MapLike\u003c/a\u003e content) memoization monad transformer\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.State",
           "name": "State",
           "package": "monad-memo",
@@ -2807,6 +2982,7 @@
         "index": {
           "description": "Defines MemoStateT generalized to any Data.MapLike content memoization monad transformer",
           "hierarchy": "Control Monad Trans Memo State",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.State",
           "name": "State",
           "package": "monad-memo",
@@ -2820,6 +2996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.State",
           "name": "Container",
           "package": "monad-memo",
@@ -2828,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Memo State",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.State",
           "name": "Container",
           "package": "monad-memo",
@@ -2842,6 +3020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoization monad based on \u003ccode\u003e\u003ca\u003eStateCache\u003c/a\u003e\u003c/code\u003e\n to be used with pure cache containers which support \u003ccode\u003e\u003ca\u003eMapLike\u003c/a\u003e\u003c/code\u003e interface\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.State",
           "name": "MemoState",
           "package": "monad-memo",
@@ -2851,6 +3030,7 @@
         "index": {
           "description": "Memoization monad based on StateCache to be used with pure cache containers which support MapLike interface",
           "hierarchy": "Control Monad Trans Memo State",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.State",
           "name": "MemoState",
           "package": "monad-memo",
@@ -2865,6 +3045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoization monad transformer based on \u003ccode\u003e\u003ca\u003eStateCache\u003c/a\u003e\u003c/code\u003e\n to be used with pure cache containers which support \u003ccode\u003e\u003ca\u003eMapLike\u003c/a\u003e\u003c/code\u003e interface\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.State",
           "name": "MemoStateT",
           "package": "monad-memo",
@@ -2874,6 +3055,7 @@
         "index": {
           "description": "Memoization monad transformer based on StateCache to be used with pure cache containers which support MapLike interface",
           "hierarchy": "Control Monad Trans Memo State",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.State",
           "name": "MemoStateT",
           "package": "monad-memo",
@@ -2887,6 +3069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.State",
           "name": "Container",
           "package": "monad-memo",
@@ -2896,6 +3079,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Memo State",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.State",
           "name": "Container",
           "package": "monad-memo",
@@ -2909,6 +3093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.State",
           "name": "toState",
           "package": "monad-memo",
@@ -2918,6 +3103,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Memo State",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.State",
           "name": "toState",
           "package": "monad-memo",
@@ -2932,6 +3118,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric StateCache - similar to \u003ccode\u003e\u003ca\u003eStateT\u003c/a\u003e\u003c/code\u003e but optimised for carrying cache container\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.StateCache",
           "name": "StateCache",
           "package": "monad-memo",
@@ -2941,6 +3128,7 @@
         "index": {
           "description": "Generic StateCache similar to StateT but optimised for carrying cache container",
           "hierarchy": "Control Monad Trans Memo StateCache",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.StateCache",
           "name": "StateCache",
           "package": "monad-memo",
@@ -2955,6 +3143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric memoization cache which uses provided container which can also be updated by the computation.\n This is pretty much identical to \u003ccode\u003e\u003ca\u003eStateT\u003c/a\u003e\u003c/code\u003e,\n but is tuned to speed up implementations which use unboxed mutable containers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.StateCache",
           "name": "StateCache",
           "package": "monad-memo",
@@ -2964,6 +3153,7 @@
         "index": {
           "description": "Generic memoization cache which uses provided container which can also be updated by the computation This is pretty much identical to StateT but is tuned to speed up implementations which use unboxed mutable containers",
           "hierarchy": "Control Monad Trans Memo StateCache",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.StateCache",
           "name": "StateCache",
           "package": "monad-memo",
@@ -2977,6 +3167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.StateCache",
           "name": "StateCache",
           "package": "monad-memo",
@@ -2986,6 +3177,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Memo StateCache",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.StateCache",
           "name": "StateCache",
           "package": "monad-memo",
@@ -3000,6 +3192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns internal container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.StateCache",
           "name": "container",
           "package": "monad-memo",
@@ -3010,6 +3203,7 @@
         "index": {
           "description": "Returns internal container",
           "hierarchy": "Control Monad Trans Memo StateCache",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.StateCache",
           "name": "container",
           "package": "monad-memo",
@@ -3023,6 +3217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates computation discarding the resulting container \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.StateCache",
           "name": "evalStateCache",
           "package": "monad-memo",
@@ -3033,6 +3228,7 @@
         "index": {
           "description": "Evaluates computation discarding the resulting container",
           "hierarchy": "Control Monad Trans Memo StateCache",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.StateCache",
           "name": "evalStateCache",
           "normalized": "StateCache a b c-\u003ea-\u003eb c",
@@ -3048,6 +3244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.StateCache",
           "name": "runStateCache",
           "package": "monad-memo",
@@ -3057,6 +3254,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Memo StateCache",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.StateCache",
           "name": "runStateCache",
           "normalized": "a-\u003eb(c,a)",
@@ -3073,6 +3271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssigns new value to internal container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Control.Monad.Trans.Memo.StateCache",
           "name": "setContainer",
           "package": "monad-memo",
@@ -3083,6 +3282,7 @@
         "index": {
           "description": "Assigns new value to internal container",
           "hierarchy": "Control Monad Trans Memo StateCache",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Control.Monad.Trans.Memo.StateCache",
           "name": "setContainer",
           "normalized": "a-\u003eStateCache a b()",
@@ -3099,6 +3299,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines MapLike instances declaration for standard data types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Data.MapLike.Instances",
           "name": "Instances",
           "package": "monad-memo",
@@ -3108,6 +3309,7 @@
         "index": {
           "description": "Defines MapLike instances declaration for standard data types",
           "hierarchy": "Data MapLike Instances",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Data.MapLike.Instances",
           "name": "Instances",
           "package": "monad-memo",
@@ -3122,6 +3324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract interface to the container which can store \u003ccode\u003ev\u003c/code\u003e indexed by \u003ccode\u003ek\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Data.MapLike.Instances",
           "name": "MapLike",
           "package": "monad-memo",
@@ -3131,6 +3334,7 @@
         "index": {
           "description": "An abstract interface to the container which can store indexed by",
           "hierarchy": "Data MapLike Instances",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Data.MapLike.Instances",
           "name": "MapLike",
           "package": "monad-memo",
@@ -3144,6 +3348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Data.MapLike.Instances",
           "name": "add",
           "package": "monad-memo",
@@ -3153,6 +3358,7 @@
         },
         "index": {
           "hierarchy": "Data MapLike Instances",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Data.MapLike.Instances",
           "name": "add",
           "normalized": "a-\u003eb-\u003ec-\u003ec",
@@ -3167,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Data.MapLike.Instances",
           "name": "lookup",
           "package": "monad-memo",
@@ -3176,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "Data MapLike Instances",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Data.MapLike.Instances",
           "name": "lookup",
           "normalized": "a-\u003eb-\u003eMaybe c",
@@ -3191,6 +3399,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines MapLike typeclass - generalized interface to Data.Map, Data.HashMap etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Data.MapLike",
           "name": "MapLike",
           "package": "monad-memo",
@@ -3200,6 +3409,7 @@
         "index": {
           "description": "Defines MapLike typeclass generalized interface to Data.Map Data.HashMap etc",
           "hierarchy": "Data MapLike",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Data.MapLike",
           "name": "MapLike",
           "package": "monad-memo",
@@ -3214,6 +3424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract interface to the container which can store \u003ccode\u003ev\u003c/code\u003e indexed by \u003ccode\u003ek\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Data.MapLike",
           "name": "MapLike",
           "package": "monad-memo",
@@ -3223,6 +3434,7 @@
         "index": {
           "description": "An abstract interface to the container which can store indexed by",
           "hierarchy": "Data MapLike",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Data.MapLike",
           "name": "MapLike",
           "package": "monad-memo",
@@ -3236,6 +3448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Data.MapLike",
           "name": "add",
           "package": "monad-memo",
@@ -3245,6 +3458,7 @@
         },
         "index": {
           "hierarchy": "Data MapLike",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Data.MapLike",
           "name": "add",
           "normalized": "a-\u003eb-\u003ec-\u003ec",
@@ -3259,6 +3473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Data.MapLike",
           "name": "lookup",
           "package": "monad-memo",
@@ -3268,6 +3483,7 @@
         },
         "index": {
           "hierarchy": "Data MapLike",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Data.MapLike",
           "name": "lookup",
           "normalized": "a-\u003eb-\u003eMaybe c",
@@ -3283,6 +3499,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines default instances of \u003ccode\u003e\u003ca\u003eMaybeLike\u003c/a\u003e\u003c/code\u003e for most primitive \u003ca\u003eUnboxed\u003c/a\u003e types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Data.MaybeLike.Instances",
           "name": "Instances",
           "package": "monad-memo",
@@ -3292,6 +3509,7 @@
         "index": {
           "description": "Defines default instances of MaybeLike for most primitive Unboxed types",
           "hierarchy": "Data MaybeLike Instances",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Data.MaybeLike.Instances",
           "name": "Instances",
           "package": "monad-memo",
@@ -3306,6 +3524,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines MaybeLike typeclass - a generic way to look at some types as if they were Maybe\n\u003c/p\u003e\u003cp\u003eIt is currently used to add maybe-ness to \u003ccode\u003eunboxed\u003c/code\u003e primitive types\nin cases when it isn't possuble to just use `Maybe a` (e.g. unboxed arrays) \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Data.MaybeLike",
           "name": "MaybeLike",
           "package": "monad-memo",
@@ -3315,6 +3534,7 @@
         "index": {
           "description": "Defines MaybeLike typeclass generic way to look at some types as if they were Maybe It is currently used to add maybe-ness to unboxed primitive types in cases when it isn possuble to just use Maybe e.g unboxed arrays",
           "hierarchy": "Data MaybeLike",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Data.MaybeLike",
           "name": "MaybeLike",
           "package": "monad-memo",
@@ -3329,6 +3549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract interface to a type which may not have a value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Data.MaybeLike",
           "name": "MaybeLike",
           "package": "monad-memo",
@@ -3338,6 +3559,7 @@
         "index": {
           "description": "An abstract interface to type which may not have value",
           "hierarchy": "Data MaybeLike",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Data.MaybeLike",
           "name": "MaybeLike",
           "package": "monad-memo",
@@ -3351,6 +3573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Data.MaybeLike",
           "name": "fromJust",
           "package": "monad-memo",
@@ -3360,6 +3583,7 @@
         },
         "index": {
           "hierarchy": "Data MaybeLike",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Data.MaybeLike",
           "name": "fromJust",
           "normalized": "a-\u003eb",
@@ -3375,6 +3599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Data.MaybeLike",
           "name": "isNothing",
           "package": "monad-memo",
@@ -3384,6 +3609,7 @@
         },
         "index": {
           "hierarchy": "Data MaybeLike",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Data.MaybeLike",
           "name": "isNothing",
           "normalized": "a-\u003eBool",
@@ -3399,6 +3625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Data.MaybeLike",
           "name": "just",
           "package": "monad-memo",
@@ -3408,6 +3635,7 @@
         },
         "index": {
           "hierarchy": "Data MaybeLike",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Data.MaybeLike",
           "name": "just",
           "normalized": "a-\u003eb",
@@ -3422,6 +3650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:08 UTC 2014",
           "module": "Data.MaybeLike",
           "name": "nothing",
           "package": "monad-memo",
@@ -3431,6 +3660,7 @@
         },
         "index": {
           "hierarchy": "Data MaybeLike",
+          "indexed": "2014-03-11T19:20:08",
           "module": "Data.MaybeLike",
           "name": "nothing",
           "package": "monad-memo",

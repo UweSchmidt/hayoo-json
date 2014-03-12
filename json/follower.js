@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "follower"
+        "phrase": "follower",
+        "type": "phrase"
       },
       "type": "context"
     }

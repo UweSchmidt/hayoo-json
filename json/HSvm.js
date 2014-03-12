@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HSvm"
+        "phrase": "HSvm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "Raw",
           "package": "HSvm",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "Raw",
           "package": "HSvm",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "CKernelType",
           "package": "HSvm",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "CKernelType",
           "package": "HSvm",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "CSvmModel",
           "package": "HSvm",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "CSvmModel",
           "package": "HSvm",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "CSvmNode",
           "package": "HSvm",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "CSvmNode",
           "package": "HSvm",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "CSvmParameter",
           "package": "HSvm",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "CSvmParameter",
           "package": "HSvm",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "CSvmProblem",
           "package": "HSvm",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "CSvmProblem",
           "package": "HSvm",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "CSvmType",
           "package": "HSvm",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "CSvmType",
           "package": "HSvm",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "CKernelType",
           "package": "HSvm",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "CKernelType",
           "package": "HSvm",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "CSvmNode",
           "package": "HSvm",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "CSvmNode",
           "package": "HSvm",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "CSvmParameter",
           "package": "HSvm",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "CSvmParameter",
           "package": "HSvm",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "CSvmProblem",
           "package": "HSvm",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "CSvmProblem",
           "package": "HSvm",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "CSvmType",
           "package": "HSvm",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "CSvmType",
           "package": "HSvm",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "c",
           "package": "HSvm",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "c",
           "package": "HSvm",
@@ -296,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "cSvc",
           "package": "HSvm",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "cSvc",
           "package": "HSvm",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "c_clone_model_support_vectors",
           "package": "HSvm",
@@ -327,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "c_clone_model_support_vectors",
           "normalized": "Ptr CSvmModel-\u003eIO()",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "c_svm_check_parameter",
           "package": "HSvm",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "c_svm_check_parameter",
           "normalized": "Ptr CSvmProblem-\u003ePtr CSvmParameter-\u003eCString",
@@ -364,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "c_svm_cross_validation",
           "package": "HSvm",
@@ -373,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "c_svm_cross_validation",
           "normalized": "Ptr CSvmProblem-\u003ePtr CSvmParameter-\u003eCInt-\u003ePtr CDouble-\u003eIO()",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "c_svm_destroy_model",
           "package": "HSvm",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "c_svm_destroy_model",
           "package": "HSvm",
@@ -408,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "c_svm_load_model",
           "package": "HSvm",
@@ -417,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "c_svm_load_model",
           "normalized": "CString-\u003eIO(Ptr CSvmModel)",
@@ -431,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "c_svm_predict",
           "package": "HSvm",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "c_svm_predict",
           "normalized": "Ptr CSvmModel-\u003ePtr CSvmNode-\u003eCDouble",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "c_svm_save_model",
           "package": "HSvm",
@@ -463,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "c_svm_save_model",
           "normalized": "CString-\u003ePtr CSvmModel-\u003eIO CInt",
@@ -477,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "c_svm_train",
           "package": "HSvm",
@@ -486,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "c_svm_train",
           "normalized": "Ptr CSvmProblem-\u003ePtr CSvmParameter-\u003eIO(Ptr CSvmModel)",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "cache_size",
           "package": "HSvm",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "cache_size",
           "package": "HSvm",
@@ -521,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "coef0",
           "package": "HSvm",
@@ -530,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "coef0",
           "package": "HSvm",
@@ -542,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "degree",
           "package": "HSvm",
@@ -551,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "degree",
           "package": "HSvm",
@@ -563,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "eps",
           "package": "HSvm",
@@ -572,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "eps",
           "package": "HSvm",
@@ -584,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "epsilonSvr",
           "package": "HSvm",
@@ -593,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "epsilonSvr",
           "package": "HSvm",
@@ -606,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "gamma",
           "package": "HSvm",
@@ -615,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "gamma",
           "package": "HSvm",
@@ -627,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "index",
           "package": "HSvm",
@@ -636,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "index",
           "package": "HSvm",
@@ -648,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "kernel_type",
           "package": "HSvm",
@@ -657,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "kernel_type",
           "package": "HSvm",
@@ -669,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "l",
           "package": "HSvm",
@@ -678,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "l",
           "package": "HSvm",
@@ -690,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "linear",
           "package": "HSvm",
@@ -699,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "linear",
           "package": "HSvm",
@@ -711,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "nr_weight",
           "package": "HSvm",
@@ -720,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "nr_weight",
           "package": "HSvm",
@@ -732,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "nu",
           "package": "HSvm",
@@ -741,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "nu",
           "package": "HSvm",
@@ -753,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "nuSvc",
           "package": "HSvm",
@@ -762,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "nuSvc",
           "package": "HSvm",
@@ -775,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "nuSvr",
           "package": "HSvm",
@@ -784,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "nuSvr",
           "package": "HSvm",
@@ -797,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "oneClass",
           "package": "HSvm",
@@ -806,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "oneClass",
           "package": "HSvm",
@@ -819,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "p",
           "package": "HSvm",
@@ -828,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "p",
           "package": "HSvm",
@@ -840,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "poly",
           "package": "HSvm",
@@ -849,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "poly",
           "package": "HSvm",
@@ -861,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "precomputed",
           "package": "HSvm",
@@ -870,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "precomputed",
           "package": "HSvm",
@@ -882,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "probability",
           "package": "HSvm",
@@ -891,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "probability",
           "package": "HSvm",
@@ -903,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "rbf",
           "package": "HSvm",
@@ -912,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "rbf",
           "package": "HSvm",
@@ -924,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "shrinking",
           "package": "HSvm",
@@ -933,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "shrinking",
           "package": "HSvm",
@@ -945,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "sigmoid",
           "package": "HSvm",
@@ -954,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "sigmoid",
           "package": "HSvm",
@@ -966,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "svm_type",
           "package": "HSvm",
@@ -975,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "svm_type",
           "package": "HSvm",
@@ -987,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "unCKernelType",
           "package": "HSvm",
@@ -996,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "unCKernelType",
           "package": "HSvm",
@@ -1009,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "unCSvmType",
           "package": "HSvm",
@@ -1018,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "unCSvmType",
           "package": "HSvm",
@@ -1031,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "value",
           "package": "HSvm",
@@ -1040,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "value",
           "package": "HSvm",
@@ -1052,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "weight",
           "package": "HSvm",
@@ -1061,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "weight",
           "package": "HSvm",
@@ -1073,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "weight_label",
           "package": "HSvm",
@@ -1082,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "weight_label",
           "package": "HSvm",
@@ -1094,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "x",
           "package": "HSvm",
@@ -1103,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "x",
           "package": "HSvm",
@@ -1115,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM.Raw",
           "name": "y",
           "package": "HSvm",
@@ -1124,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Data SVM Raw",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM.Raw",
           "name": "y",
           "package": "HSvm",
@@ -1136,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "SVM",
           "package": "HSvm",
@@ -1144,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "SVM",
           "package": "HSvm",
@@ -1157,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "Algorithm",
           "package": "HSvm",
@@ -1165,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "Algorithm",
           "package": "HSvm",
@@ -1178,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "ExtraParam",
           "package": "HSvm",
@@ -1186,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "ExtraParam",
           "package": "HSvm",
@@ -1199,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "KernelType",
           "package": "HSvm",
@@ -1207,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "KernelType",
           "package": "HSvm",
@@ -1220,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "Model",
           "package": "HSvm",
@@ -1228,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "Model",
           "package": "HSvm",
@@ -1241,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "Problem",
           "package": "HSvm",
@@ -1249,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "Problem",
           "package": "HSvm",
@@ -1262,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "Vector",
           "package": "HSvm",
@@ -1270,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "Vector",
           "package": "HSvm",
@@ -1283,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "CSvc",
           "package": "HSvm",
@@ -1292,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "CSvc",
           "package": "HSvm",
@@ -1305,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "EpsilonSvr",
           "package": "HSvm",
@@ -1314,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "EpsilonSvr",
           "package": "HSvm",
@@ -1327,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "ExtraParam",
           "package": "HSvm",
@@ -1336,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "ExtraParam",
           "package": "HSvm",
@@ -1349,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "Linear",
           "package": "HSvm",
@@ -1358,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "Linear",
           "package": "HSvm",
@@ -1371,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "Model",
           "package": "HSvm",
@@ -1380,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "Model",
           "package": "HSvm",
@@ -1393,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "NuSvc",
           "package": "HSvm",
@@ -1402,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "NuSvc",
           "package": "HSvm",
@@ -1415,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "NuSvr",
           "package": "HSvm",
@@ -1424,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "NuSvr",
           "package": "HSvm",
@@ -1437,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "OneClassSvm",
           "package": "HSvm",
@@ -1446,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "OneClassSvm",
           "package": "HSvm",
@@ -1459,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "Poly",
           "package": "HSvm",
@@ -1468,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "Poly",
           "package": "HSvm",
@@ -1481,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "RBF",
           "package": "HSvm",
@@ -1490,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "RBF",
           "package": "HSvm",
@@ -1503,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "Sigmoid",
           "package": "HSvm",
@@ -1512,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "Sigmoid",
           "package": "HSvm",
@@ -1525,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "c",
           "package": "HSvm",
@@ -1534,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "c",
           "package": "HSvm",
@@ -1546,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "cacheSize",
           "package": "HSvm",
@@ -1555,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "cacheSize",
           "package": "HSvm",
@@ -1568,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "checkParam",
           "package": "HSvm",
@@ -1577,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "checkParam",
           "normalized": "Ptr CSvmProblem-\u003ePtr CSvmParameter-\u003eIO()",
@@ -1592,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "coef0",
           "package": "HSvm",
@@ -1601,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "coef0",
           "package": "HSvm",
@@ -1613,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "crossValidate'",
           "package": "HSvm",
@@ -1622,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "crossValidate'",
           "normalized": "ExtraParam-\u003eAlgorithm-\u003eKernelType-\u003eProblem-\u003eInt-\u003eIO[Double]",
@@ -1637,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "degree",
           "package": "HSvm",
@@ -1646,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "degree",
           "package": "HSvm",
@@ -1658,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "epsilon",
           "package": "HSvm",
@@ -1667,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "epsilon",
           "package": "HSvm",
@@ -1679,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "freeCSVmProblem",
           "package": "HSvm",
@@ -1688,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "freeCSVmProblem",
           "normalized": "Ptr CSvmProblem-\u003eIO()",
@@ -1703,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "gamma",
           "package": "HSvm",
@@ -1712,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "gamma",
           "package": "HSvm",
@@ -1724,6 +1882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "loadModel",
           "package": "HSvm",
@@ -1733,6 +1892,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "loadModel",
           "normalized": "FilePath-\u003eIO Model",
@@ -1748,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "mergeAlgo",
           "package": "HSvm",
@@ -1757,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "mergeAlgo",
           "normalized": "Algorithm-\u003eCSvmParameter-\u003eCSvmParameter",
@@ -1772,6 +1934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "mergeKernel",
           "package": "HSvm",
@@ -1781,6 +1944,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "mergeKernel",
           "normalized": "KernelType-\u003eCSvmParameter-\u003eCSvmParameter",
@@ -1796,6 +1960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "newCSvmNodeArray",
           "package": "HSvm",
@@ -1805,6 +1970,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "newCSvmNodeArray",
           "normalized": "Vector-\u003eIO(Ptr CSvmNode)",
@@ -1820,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "newCSvmProblem",
           "package": "HSvm",
@@ -1829,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "newCSvmProblem",
           "normalized": "Problem-\u003eIO(Ptr CSvmProblem)",
@@ -1844,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "nu",
           "package": "HSvm",
@@ -1853,6 +2022,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "nu",
           "package": "HSvm",
@@ -1865,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "predict",
           "package": "HSvm",
@@ -1874,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "predict",
           "normalized": "Model-\u003eVector-\u003eDouble",
@@ -1888,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "probability",
           "package": "HSvm",
@@ -1897,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "probability",
           "package": "HSvm",
@@ -1909,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "saveModel",
           "package": "HSvm",
@@ -1918,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "saveModel",
           "normalized": "Model-\u003eFilePath-\u003eIO()",
@@ -1933,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "shrinking",
           "package": "HSvm",
@@ -1942,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "shrinking",
           "package": "HSvm",
@@ -1955,6 +2133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003etrain\u003c/a\u003e\u003c/code\u003e function allows training a \u003ccode\u003e\u003ca\u003eModel\u003c/a\u003e\u003c/code\u003e starting from a \u003ccode\u003e\u003ca\u003eProblem\u003c/a\u003e\u003c/code\u003e\n by specifying an \u003ccode\u003e\u003ca\u003eAlgorithm\u003c/a\u003e\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003eKernelType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "train",
           "package": "HSvm",
@@ -1965,6 +2144,7 @@
         "index": {
           "description": "The train function allows training Model starting from Problem by specifying an Algorithm and KernelType",
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "train",
           "normalized": "Algorithm-\u003eKernelType-\u003eProblem-\u003eIO Model",
@@ -1979,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "train'",
           "package": "HSvm",
@@ -1988,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "train'",
           "normalized": "ExtraParam-\u003eAlgorithm-\u003eKernelType-\u003eProblem-\u003eIO Model",
@@ -2002,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "withParam",
           "package": "HSvm",
@@ -2011,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "withParam",
           "normalized": "ExtraParam-\u003eAlgorithm-\u003eKernelType-\u003e(Ptr CSvmParameter-\u003eIO a)-\u003eIO a",
@@ -2026,6 +2210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:43 UTC 2014",
           "module": "Data.SVM",
           "name": "withProblem",
           "package": "HSvm",
@@ -2035,6 +2220,7 @@
         },
         "index": {
           "hierarchy": "Data SVM",
+          "indexed": "2014-03-11T16:46:43",
           "module": "Data.SVM",
           "name": "withProblem",
           "normalized": "Problem-\u003e(Ptr CSvmProblem-\u003eIO a)-\u003eIO a",

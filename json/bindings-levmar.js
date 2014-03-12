@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-levmar"
+        "phrase": "bindings-levmar",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA low level binding to the\n \u003ca\u003eC levmar (Levenberg-Marquardt) library\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "LevMar",
           "package": "bindings-levmar",
@@ -28,6 +29,7 @@
         "index": {
           "description": "low level binding to the levmar Levenberg-Marquardt library",
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "LevMar",
           "package": "bindings-levmar",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "AData",
           "package": "bindings-levmar",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "AData",
           "package": "bindings-levmar",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "BestFitParameterIx",
           "package": "bindings-levmar",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "BestFitParameterIx",
           "package": "bindings-levmar",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "ConstraintsMatrix",
           "package": "bindings-levmar",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "ConstraintsMatrix",
           "package": "bindings-levmar",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "ConstraintsVector",
           "package": "bindings-levmar",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "ConstraintsVector",
           "package": "bindings-levmar",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "Covar",
           "package": "bindings-levmar",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "Covar",
           "package": "bindings-levmar",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "Errors",
           "package": "bindings-levmar",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "Errors",
           "package": "bindings-levmar",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "Info",
           "package": "bindings-levmar",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "Info",
           "package": "bindings-levmar",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "Jacobian",
           "package": "bindings-levmar",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "Jacobian",
           "package": "bindings-levmar",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "LevMarBCDer",
           "package": "bindings-levmar",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "LevMarBCDer",
           "package": "bindings-levmar",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "LevMarBCDif",
           "package": "bindings-levmar",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "LevMarBCDif",
           "package": "bindings-levmar",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "LevMarBLecDer",
           "package": "bindings-levmar",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "LevMarBLecDer",
           "package": "bindings-levmar",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "LevMarBLecDif",
           "package": "bindings-levmar",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "LevMarBLecDif",
           "package": "bindings-levmar",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "LevMarChkJac",
           "package": "bindings-levmar",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "LevMarChkJac",
           "package": "bindings-levmar",
@@ -315,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePearson's correlation coefficient for best-fit parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "LevMarCorCoef",
           "package": "bindings-levmar",
@@ -324,6 +353,7 @@
         "index": {
           "description": "Pearson correlation coefficient for best-fit parameters",
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "LevMarCorCoef",
           "package": "bindings-levmar",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "LevMarDer",
           "package": "bindings-levmar",
@@ -345,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "LevMarDer",
           "package": "bindings-levmar",
@@ -358,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "LevMarDif",
           "package": "bindings-levmar",
@@ -366,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "LevMarDif",
           "package": "bindings-levmar",
@@ -379,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "LevMarLecDer",
           "package": "bindings-levmar",
@@ -387,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "LevMarLecDer",
           "package": "bindings-levmar",
@@ -400,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "LevMarLecDif",
           "package": "bindings-levmar",
@@ -408,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "LevMarLecDif",
           "package": "bindings-levmar",
@@ -422,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoefficient of determination (R2).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "LevMarR2",
           "package": "bindings-levmar",
@@ -431,6 +470,7 @@
         "index": {
           "description": "Coefficient of determination R2",
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "LevMarR2",
           "package": "bindings-levmar",
@@ -445,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard deviation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "LevMarStddev",
           "package": "bindings-levmar",
@@ -454,6 +495,7 @@
         "index": {
           "description": "Standard deviation",
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "LevMarStddev",
           "package": "bindings-levmar",
@@ -467,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "LowerBounds",
           "package": "bindings-levmar",
@@ -475,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "LowerBounds",
           "package": "bindings-levmar",
@@ -488,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "MaxIterations",
           "package": "bindings-levmar",
@@ -496,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "MaxIterations",
           "package": "bindings-levmar",
@@ -509,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "Measurements",
           "package": "bindings-levmar",
@@ -517,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "Measurements",
           "package": "bindings-levmar",
@@ -531,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctional relation describing measurements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "Model",
           "package": "bindings-levmar",
@@ -540,6 +589,7 @@
         "index": {
           "description": "Functional relation describing measurements",
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "Model",
           "package": "bindings-levmar",
@@ -553,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "NrOfConstraints",
           "package": "bindings-levmar",
@@ -561,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "NrOfConstraints",
           "package": "bindings-levmar",
@@ -574,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "NrOfMeasurements",
           "package": "bindings-levmar",
@@ -582,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "NrOfMeasurements",
           "package": "bindings-levmar",
@@ -595,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "NrOfParameters",
           "package": "bindings-levmar",
@@ -603,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "NrOfParameters",
           "package": "bindings-levmar",
@@ -616,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "Options",
           "package": "bindings-levmar",
@@ -624,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "Options",
           "package": "bindings-levmar",
@@ -637,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "Parameters",
           "package": "bindings-levmar",
@@ -645,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "Parameters",
           "package": "bindings-levmar",
@@ -658,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "Result",
           "package": "bindings-levmar",
@@ -666,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "Result",
           "package": "bindings-levmar",
@@ -679,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "UpperBounds",
           "package": "bindings-levmar",
@@ -687,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "UpperBounds",
           "package": "bindings-levmar",
@@ -700,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "Weights",
           "package": "bindings-levmar",
@@ -708,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "Weights",
           "package": "bindings-levmar",
@@ -721,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "Work",
           "package": "bindings-levmar",
@@ -729,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "Work",
           "package": "bindings-levmar",
@@ -742,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'LM_DIFF_DELTA",
           "package": "bindings-levmar",
@@ -751,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'LM_DIFF_DELTA",
           "package": "bindings-levmar",
@@ -764,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR",
           "package": "bindings-levmar",
@@ -773,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR",
           "package": "bindings-levmar",
@@ -786,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_CONSTRAINT_MATRIX_NOT_FULL_ROW_RANK",
           "package": "bindings-levmar",
@@ -795,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_CONSTRAINT_MATRIX_NOT_FULL_ROW_RANK",
           "package": "bindings-levmar",
@@ -808,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_CONSTRAINT_MATRIX_ROWS_GT_COLS",
           "package": "bindings-levmar",
@@ -817,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_CONSTRAINT_MATRIX_ROWS_GT_COLS",
           "package": "bindings-levmar",
@@ -830,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_FAILED_BOX_CHECK",
           "package": "bindings-levmar",
@@ -839,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_FAILED_BOX_CHECK",
           "package": "bindings-levmar",
@@ -852,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_LAPACK_ERROR",
           "package": "bindings-levmar",
@@ -861,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_LAPACK_ERROR",
           "package": "bindings-levmar",
@@ -874,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_MEMORY_ALLOCATION_FAILURE",
           "package": "bindings-levmar",
@@ -883,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_MEMORY_ALLOCATION_FAILURE",
           "package": "bindings-levmar",
@@ -896,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_NO_BOX_CONSTRAINTS",
           "package": "bindings-levmar",
@@ -905,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_NO_BOX_CONSTRAINTS",
           "package": "bindings-levmar",
@@ -918,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_NO_JACOBIAN",
           "package": "bindings-levmar",
@@ -927,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_NO_JACOBIAN",
           "package": "bindings-levmar",
@@ -940,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_SINGULAR_MATRIX",
           "package": "bindings-levmar",
@@ -949,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_SINGULAR_MATRIX",
           "package": "bindings-levmar",
@@ -962,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_SUM_OF_SQUARES_NOT_FINITE",
           "package": "bindings-levmar",
@@ -971,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_SUM_OF_SQUARES_NOT_FINITE",
           "package": "bindings-levmar",
@@ -984,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_TOO_FEW_MEASUREMENTS",
           "package": "bindings-levmar",
@@ -993,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'LM_ERROR_TOO_FEW_MEASUREMENTS",
           "package": "bindings-levmar",
@@ -1007,6 +1099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe size of the info array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'LM_INFO_SZ",
           "package": "bindings-levmar",
@@ -1017,6 +1110,7 @@
         "index": {
           "description": "The size of the info array",
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'LM_INFO_SZ",
           "package": "bindings-levmar",
@@ -1030,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'LM_INIT_MU",
           "package": "bindings-levmar",
@@ -1039,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'LM_INIT_MU",
           "package": "bindings-levmar",
@@ -1053,6 +1149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximum size of the options array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'LM_OPTS_SZ",
           "package": "bindings-levmar",
@@ -1063,6 +1160,7 @@
         "index": {
           "description": "The maximum size of the options array",
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'LM_OPTS_SZ",
           "package": "bindings-levmar",
@@ -1076,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'LM_STOP_THRESH",
           "package": "bindings-levmar",
@@ -1085,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'LM_STOP_THRESH",
           "package": "bindings-levmar",
@@ -1099,6 +1199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe version of the C levmar library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'LM_VERSION",
           "package": "bindings-levmar",
@@ -1109,6 +1210,7 @@
         "index": {
           "description": "The version of the levmar library",
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'LM_VERSION",
           "package": "bindings-levmar",
@@ -1122,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_R2",
           "package": "bindings-levmar",
@@ -1131,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_R2",
           "package": "bindings-levmar",
@@ -1143,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_bc_der",
           "package": "bindings-levmar",
@@ -1152,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_bc_der",
           "package": "bindings-levmar",
@@ -1164,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_bc_dif",
           "package": "bindings-levmar",
@@ -1173,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_bc_dif",
           "package": "bindings-levmar",
@@ -1185,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_blec_der",
           "package": "bindings-levmar",
@@ -1194,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_blec_der",
           "package": "bindings-levmar",
@@ -1206,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_blec_dif",
           "package": "bindings-levmar",
@@ -1215,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_blec_dif",
           "package": "bindings-levmar",
@@ -1227,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_chkjac",
           "package": "bindings-levmar",
@@ -1236,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_chkjac",
           "package": "bindings-levmar",
@@ -1248,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_corcoef",
           "package": "bindings-levmar",
@@ -1257,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_corcoef",
           "package": "bindings-levmar",
@@ -1269,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_der",
           "package": "bindings-levmar",
@@ -1278,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_der",
           "package": "bindings-levmar",
@@ -1290,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_dif",
           "package": "bindings-levmar",
@@ -1299,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_dif",
           "package": "bindings-levmar",
@@ -1311,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_lec_der",
           "package": "bindings-levmar",
@@ -1320,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_lec_der",
           "package": "bindings-levmar",
@@ -1332,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_lec_dif",
           "package": "bindings-levmar",
@@ -1341,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_lec_dif",
           "package": "bindings-levmar",
@@ -1353,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_stddev",
           "package": "bindings-levmar",
@@ -1362,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'dlevmar_stddev",
           "package": "bindings-levmar",
@@ -1374,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_R2",
           "package": "bindings-levmar",
@@ -1383,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_R2",
           "package": "bindings-levmar",
@@ -1395,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_bc_der",
           "package": "bindings-levmar",
@@ -1404,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_bc_der",
           "package": "bindings-levmar",
@@ -1416,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_bc_dif",
           "package": "bindings-levmar",
@@ -1425,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_bc_dif",
           "package": "bindings-levmar",
@@ -1437,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_blec_der",
           "package": "bindings-levmar",
@@ -1446,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_blec_der",
           "package": "bindings-levmar",
@@ -1458,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_blec_dif",
           "package": "bindings-levmar",
@@ -1467,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_blec_dif",
           "package": "bindings-levmar",
@@ -1479,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_chkjac",
           "package": "bindings-levmar",
@@ -1488,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_chkjac",
           "package": "bindings-levmar",
@@ -1500,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_corcoef",
           "package": "bindings-levmar",
@@ -1509,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_corcoef",
           "package": "bindings-levmar",
@@ -1521,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_der",
           "package": "bindings-levmar",
@@ -1530,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_der",
           "package": "bindings-levmar",
@@ -1542,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_dif",
           "package": "bindings-levmar",
@@ -1551,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_dif",
           "package": "bindings-levmar",
@@ -1563,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_lec_der",
           "package": "bindings-levmar",
@@ -1572,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_lec_der",
           "package": "bindings-levmar",
@@ -1584,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_lec_dif",
           "package": "bindings-levmar",
@@ -1593,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_lec_dif",
           "package": "bindings-levmar",
@@ -1605,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_stddev",
           "package": "bindings-levmar",
@@ -1614,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "c'slevmar_stddev",
           "package": "bindings-levmar",
@@ -1626,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "withJacobian",
           "package": "bindings-levmar",
@@ -1635,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "withJacobian",
           "normalized": "Jacobian a-\u003e(FunPtr(Jacobian a)-\u003eIO b)-\u003eIO b",
@@ -1650,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:55 UTC 2014",
           "module": "Bindings.LevMar",
           "name": "withModel",
           "package": "bindings-levmar",
@@ -1659,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Bindings LevMar",
+          "indexed": "2014-03-11T17:20:55",
           "module": "Bindings.LevMar",
           "name": "withModel",
           "normalized": "Model a-\u003e(FunPtr(Model a)-\u003eIO b)-\u003eIO b",

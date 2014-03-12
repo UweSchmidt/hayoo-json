@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "digest-pure"
+        "phrase": "digest-pure",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions to calculate Adler32 checksums.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:03 UTC 2014",
           "module": "Data.Digest.Pure.Adler32",
           "name": "Adler32",
           "package": "digest-pure",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides functions to calculate Adler32 checksums",
           "hierarchy": "Data Digest Pure Adler32",
+          "indexed": "2014-03-11T17:55:03",
           "module": "Data.Digest.Pure.Adler32",
           "name": "Adler32",
           "package": "digest-pure",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of values for which Adler32 checksums can be computed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:03 UTC 2014",
           "module": "Data.Digest.Pure.Adler32",
           "name": "Adler32",
           "package": "digest-pure",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The class of values for which Adler32 checksums can be computed",
           "hierarchy": "Data Digest Pure Adler32",
+          "indexed": "2014-03-11T17:55:03",
           "module": "Data.Digest.Pure.Adler32",
           "name": "Adler32",
           "package": "digest-pure",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the Adler32 checksum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:03 UTC 2014",
           "module": "Data.Digest.Pure.Adler32",
           "name": "adler32",
           "package": "digest-pure",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Compute the Adler32 checksum",
           "hierarchy": "Data Digest Pure Adler32",
+          "indexed": "2014-03-11T17:55:03",
           "module": "Data.Digest.Pure.Adler32",
           "name": "adler32",
           "normalized": "a-\u003eWord",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrementally update an Adler32 checksum. The Adler32 checksum of one\n \u003cem\u003eA\u003c/em\u003e updated with \u003cem\u003eB\u003c/em\u003e, equals the checksum of the concatenation of \u003cem\u003eA\u003c/em\u003e and\n \u003cem\u003eB\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:03 UTC 2014",
           "module": "Data.Digest.Pure.Adler32",
           "name": "adler32Update",
           "package": "digest-pure",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Incrementally update an Adler32 checksum The Adler32 checksum of one updated with equals the checksum of the concatenation of and",
           "hierarchy": "Data Digest Pure Adler32",
+          "indexed": "2014-03-11T17:55:03",
           "module": "Data.Digest.Pure.Adler32",
           "name": "adler32Update",
           "normalized": "Word-\u003ea-\u003eWord",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions to calculate CRC32 checksums.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:03 UTC 2014",
           "module": "Data.Digest.Pure.CRC32",
           "name": "CRC32",
           "package": "digest-pure",
@@ -125,6 +134,7 @@
         "index": {
           "description": "This module provides functions to calculate CRC32 checksums",
           "hierarchy": "Data Digest Pure CRC32",
+          "indexed": "2014-03-11T17:55:03",
           "module": "Data.Digest.Pure.CRC32",
           "name": "CRC32",
           "package": "digest-pure",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of values for which CRC-32 checksums can be computed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:03 UTC 2014",
           "module": "Data.Digest.Pure.CRC32",
           "name": "CRC32",
           "package": "digest-pure",
@@ -148,6 +159,7 @@
         "index": {
           "description": "The class of values for which CRC-32 checksums can be computed",
           "hierarchy": "Data Digest Pure CRC32",
+          "indexed": "2014-03-11T17:55:03",
           "module": "Data.Digest.Pure.CRC32",
           "name": "CRC32",
           "package": "digest-pure",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the CRC-32 checksum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:03 UTC 2014",
           "module": "Data.Digest.Pure.CRC32",
           "name": "crc32",
           "package": "digest-pure",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Compute the CRC-32 checksum",
           "hierarchy": "Data Digest Pure CRC32",
+          "indexed": "2014-03-11T17:55:03",
           "module": "Data.Digest.Pure.CRC32",
           "name": "crc32",
           "normalized": "a-\u003eWord",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrementally update an CRC-32 checksum. The CRC-32 checksum of one\n \u003cem\u003eA\u003c/em\u003e updated with \u003cem\u003eB\u003c/em\u003e, equals the checksum of the concatenation of \u003cem\u003eA\u003c/em\u003e and\n \u003cem\u003eB\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:03 UTC 2014",
           "module": "Data.Digest.Pure.CRC32",
           "name": "crc32Update",
           "package": "digest-pure",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Incrementally update an CRC-32 checksum The CRC-32 checksum of one updated with equals the checksum of the concatenation of and",
           "hierarchy": "Data Digest Pure CRC32",
+          "indexed": "2014-03-11T17:55:03",
           "module": "Data.Digest.Pure.CRC32",
           "name": "crc32Update",
           "normalized": "Word-\u003ea-\u003eWord",

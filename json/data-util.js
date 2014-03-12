@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-util"
+        "phrase": "data-util",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:06 UTC 2014",
           "module": "Data.Util.Size",
           "name": "Size",
           "package": "data-util",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Util Size",
+          "indexed": "2014-03-11T17:50:06",
           "module": "Data.Util.Size",
           "name": "Size",
           "package": "data-util",
@@ -89,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:06 UTC 2014",
           "module": "Data.Util",
           "name": "Util",
           "package": "data-util",
@@ -97,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data Util",
+          "indexed": "2014-03-11T17:50:06",
           "module": "Data.Util",
           "name": "Util",
           "package": "data-util",

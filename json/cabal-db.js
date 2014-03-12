@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabal-db"
+        "phrase": "cabal-db",
+        "type": "phrase"
       },
       "type": "context"
     }

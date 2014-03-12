@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hist-pl-transliter"
+        "phrase": "hist-pl-transliter",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA set of transliteration rules prepared for documents from the\n IMPACT project.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport NLP.HistPL.Transliter.Impact\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eputStrLn $ transliter impactRules \"angol\"\n\u003c/code\u003e\u003c/strong\u003e\"anjo&#322;\"\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:40:19 UTC 2014",
           "module": "NLP.HistPL.Transliter.Impact",
           "name": "Impact",
           "package": "hist-pl-transliter",
@@ -28,6 +29,7 @@
         "index": {
           "description": "set of transliteration rules prepared for documents from the IMPACT project import NLP.HistPL.Transliter.Impact putStrLn transliter impactRules angol anjo",
           "hierarchy": "NLP HistPL Transliter Impact",
+          "indexed": "2014-03-11T18:40:19",
           "module": "NLP.HistPL.Transliter.Impact",
           "name": "Impact",
           "package": "hist-pl-transliter",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of transliteration rules prepared for documents\n from the IMPACT project. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:19 UTC 2014",
           "module": "NLP.HistPL.Transliter.Impact",
           "name": "impactRules",
           "package": "hist-pl-transliter",
@@ -52,6 +55,7 @@
         "index": {
           "description": "set of transliteration rules prepared for documents from the IMPACT project",
           "hierarchy": "NLP HistPL Transliter Impact",
+          "indexed": "2014-03-11T18:40:19",
           "module": "NLP.HistPL.Transliter.Impact",
           "name": "impactRules",
           "package": "hist-pl-transliter",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module provides a simple embedded domain specific language for\n defining transliteration rules.  All parsers are case-insensitive\n by default.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:40:19 UTC 2014",
           "module": "NLP.HistPL.Transliter",
           "name": "Transliter",
           "package": "hist-pl-transliter",
@@ -75,6 +80,7 @@
         "index": {
           "description": "The module provides simple embedded domain specific language for defining transliteration rules All parsers are case-insensitive by default",
           "hierarchy": "NLP HistPL Transliter",
+          "indexed": "2014-03-11T18:40:19",
           "module": "NLP.HistPL.Transliter",
           "name": "Transliter",
           "package": "hist-pl-transliter",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:19 UTC 2014",
           "module": "NLP.HistPL.Transliter",
           "name": "Parser",
           "package": "hist-pl-transliter",
@@ -98,6 +105,7 @@
         "index": {
           "description": "parser data type",
           "hierarchy": "NLP HistPL Transliter",
+          "indexed": "2014-03-11T18:40:19",
           "module": "NLP.HistPL.Transliter",
           "name": "Parser",
           "package": "hist-pl-transliter",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of transliteration rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:19 UTC 2014",
           "module": "NLP.HistPL.Transliter",
           "name": "TrRules",
           "package": "hist-pl-transliter",
@@ -121,6 +130,7 @@
         "index": {
           "description": "set of transliteration rules",
           "hierarchy": "NLP HistPL Transliter",
+          "indexed": "2014-03-11T18:40:19",
           "module": "NLP.HistPL.Transliter",
           "name": "TrRules",
           "package": "hist-pl-transliter",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA transliteration rule, e.g. (\"abc\" #\u003e \"bcd\") will\n substitute all \"abc\" (sub)string instances with \"bcd\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:19 UTC 2014",
           "module": "NLP.HistPL.Transliter",
           "name": "(#\u003e)",
           "package": "hist-pl-transliter",
@@ -145,6 +156,7 @@
         "index": {
           "description": "transliteration rule e.g abc bcd will substitute all abc sub string instances with bcd",
           "hierarchy": "NLP HistPL Transliter",
+          "indexed": "2014-03-11T18:40:19",
           "module": "NLP.HistPL.Transliter",
           "name": "(#\u003e) #\u003e",
           "normalized": "String-\u003eString-\u003eParser String",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to `#\u003e`, but this function allows to define a custom\n parser for the string which should be substituted with another\n string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:19 UTC 2014",
           "module": "NLP.HistPL.Transliter",
           "name": "(\u003e#\u003e)",
           "package": "hist-pl-transliter",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Similar to but this function allows to define custom parser for the string which should be substituted with another string",
           "hierarchy": "NLP HistPL Transliter",
+          "indexed": "2014-03-11T18:40:19",
           "module": "NLP.HistPL.Transliter",
           "name": "(\u003e#\u003e) \u003e#\u003e",
           "normalized": "Parser String-\u003eString-\u003eParser String",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatentation of parsers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:19 UTC 2014",
           "module": "NLP.HistPL.Transliter",
           "name": "(\u003e+\u003e)",
           "package": "hist-pl-transliter",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Concatentation of parsers",
           "hierarchy": "NLP HistPL Transliter",
+          "indexed": "2014-03-11T18:40:19",
           "module": "NLP.HistPL.Transliter",
           "name": "(\u003e+\u003e) \u003e+\u003e",
           "normalized": "Parser String-\u003eParser String-\u003eParser String",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOR parser, i.e. a parser which tries to match the first string argument,\n and only tries the second one if the first match failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:19 UTC 2014",
           "module": "NLP.HistPL.Transliter",
           "name": "(.|)",
           "package": "hist-pl-transliter",
@@ -220,6 +237,7 @@
         "index": {
           "description": "OR parser i.e parser which tries to match the first string argument and only tries the second one if the first match failed",
           "hierarchy": "NLP HistPL Transliter",
+          "indexed": "2014-03-11T18:40:19",
           "module": "NLP.HistPL.Transliter",
           "name": "(.|) .|",
           "normalized": "String-\u003eString-\u003eParser String",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003e.|\u003c/a\u003e\u003c/code\u003e, but accepts a parser as the first argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:19 UTC 2014",
           "module": "NLP.HistPL.Transliter",
           "name": "(.|.)",
           "package": "hist-pl-transliter",
@@ -245,6 +264,7 @@
         "index": {
           "description": "Similar to but accepts parser as the first argument",
           "hierarchy": "NLP HistPL Transliter",
+          "indexed": "2014-03-11T18:40:19",
           "module": "NLP.HistPL.Transliter",
           "name": "(.|.) .|.",
           "normalized": "Parser String-\u003eString-\u003eParser String",
@@ -259,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:40:19 UTC 2014",
           "module": "NLP.HistPL.Transliter",
           "name": "TrRules",
           "package": "hist-pl-transliter",
@@ -268,6 +289,7 @@
         },
         "index": {
           "hierarchy": "NLP HistPL Transliter",
+          "indexed": "2014-03-11T18:40:19",
           "module": "NLP.HistPL.Transliter",
           "name": "TrRules",
           "package": "hist-pl-transliter",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter-level rule is always applied when a match is found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:19 UTC 2014",
           "module": "NLP.HistPL.Transliter",
           "name": "charRules",
           "package": "hist-pl-transliter",
@@ -292,6 +315,7 @@
         "index": {
           "description": "Character-level rule is always applied when match is found",
           "hierarchy": "NLP HistPL Transliter",
+          "indexed": "2014-03-11T18:40:19",
           "module": "NLP.HistPL.Transliter",
           "name": "charRules",
           "normalized": "[Parser String]",
@@ -308,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase insensitive character parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:19 UTC 2014",
           "module": "NLP.HistPL.Transliter",
           "name": "ciChar",
           "package": "hist-pl-transliter",
@@ -318,6 +343,7 @@
         "index": {
           "description": "Case insensitive character parser",
           "hierarchy": "NLP HistPL Transliter",
+          "indexed": "2014-03-11T18:40:19",
           "module": "NLP.HistPL.Transliter",
           "name": "ciChar",
           "normalized": "Char-\u003eParser Char",
@@ -334,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase insensitive string parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:19 UTC 2014",
           "module": "NLP.HistPL.Transliter",
           "name": "ciString",
           "package": "hist-pl-transliter",
@@ -344,6 +371,7 @@
         "index": {
           "description": "Case insensitive string parser",
           "hierarchy": "NLP HistPL Transliter",
+          "indexed": "2014-03-11T18:40:19",
           "module": "NLP.HistPL.Transliter",
           "name": "ciString",
           "normalized": "String-\u003eParser String",
@@ -360,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransliterate the word with the given set of transliteration rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:19 UTC 2014",
           "module": "NLP.HistPL.Transliter",
           "name": "transliter",
           "package": "hist-pl-transliter",
@@ -370,6 +399,7 @@
         "index": {
           "description": "Transliterate the word with the given set of transliteration rules",
           "hierarchy": "NLP HistPL Transliter",
+          "indexed": "2014-03-11T18:40:19",
           "module": "NLP.HistPL.Transliter",
           "name": "transliter",
           "normalized": "TrRules-\u003eString-\u003eString",
@@ -385,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWord-level rule is applied only when it matches the entire word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:40:19 UTC 2014",
           "module": "NLP.HistPL.Transliter",
           "name": "wordRules",
           "package": "hist-pl-transliter",
@@ -395,6 +426,7 @@
         "index": {
           "description": "Word-level rule is applied only when it matches the entire word",
           "hierarchy": "NLP HistPL Transliter",
+          "indexed": "2014-03-11T18:40:19",
           "module": "NLP.HistPL.Transliter",
           "name": "wordRules",
           "normalized": "[Parser String]",

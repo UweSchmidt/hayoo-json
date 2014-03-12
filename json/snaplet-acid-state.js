@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snaplet-acid-state"
+        "phrase": "snaplet-acid-state",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:27 UTC 2014",
           "module": "Snap.Snaplet.AcidState",
           "name": "AcidState",
           "package": "snaplet-acid-state",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet AcidState",
+          "indexed": "2014-03-11T20:05:27",
           "module": "Snap.Snaplet.AcidState",
           "name": "AcidState",
           "package": "snaplet-acid-state",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type holding acid-state snaplet data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:27 UTC 2014",
           "module": "Snap.Snaplet.AcidState",
           "name": "Acid",
           "package": "snaplet-acid-state",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Data type holding acid-state snaplet data",
           "hierarchy": "Snap Snaplet AcidState",
+          "indexed": "2014-03-11T20:05:27",
           "module": "Snap.Snaplet.AcidState",
           "name": "Acid",
           "package": "snaplet-acid-state",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class standardizing a context that holds an AcidState.\n\u003c/p\u003e\u003cp\u003eYou can minimize boilerplate in your application by adding an instance like\n the following:\n\u003c/p\u003e\u003cpre\u003e data App = App { ... _acid :: Snaplet (Acid MyState) ... }\n instance HasAcid App MyState where\n     getAcidStore = getL (snapletValue . acid)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:05:27 UTC 2014",
           "module": "Snap.Snaplet.AcidState",
           "name": "HasAcid",
           "package": "snaplet-acid-state",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Type class standardizing context that holds an AcidState You can minimize boilerplate in your application by adding an instance like the following data App App acid Snaplet Acid MyState instance HasAcid App MyState where getAcidStore getL snapletValue acid",
           "hierarchy": "Snap Snaplet AcidState",
+          "indexed": "2014-03-11T20:05:27",
           "module": "Snap.Snaplet.AcidState",
           "name": "HasAcid",
           "package": "snaplet-acid-state",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:27 UTC 2014",
           "module": "Snap.Snaplet.AcidState",
           "name": "Acid",
           "package": "snaplet-acid-state",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet AcidState",
+          "indexed": "2014-03-11T20:05:27",
           "module": "Snap.Snaplet.AcidState",
           "name": "Acid",
           "package": "snaplet-acid-state",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:27 UTC 2014",
           "module": "Snap.Snaplet.AcidState",
           "name": "_acidStore",
           "package": "snaplet-acid-state",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet AcidState",
+          "indexed": "2014-03-11T20:05:27",
           "module": "Snap.Snaplet.AcidState",
           "name": "_acidStore",
           "package": "snaplet-acid-state",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializer that stores the state in the \"state/[typeOf state]/\"\n directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:27 UTC 2014",
           "module": "Snap.Snaplet.AcidState",
           "name": "acidInit",
           "package": "snaplet-acid-state",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Initializer that stores the state in the state typeOf state directory",
           "hierarchy": "Snap Snaplet AcidState",
+          "indexed": "2014-03-11T20:05:27",
           "module": "Snap.Snaplet.AcidState",
           "name": "acidInit",
           "normalized": "a-\u003eSnapletInit b(Acid a)",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializer allowing you to specify the location of the acid-state store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:27 UTC 2014",
           "module": "Snap.Snaplet.AcidState",
           "name": "acidInit'",
           "package": "snaplet-acid-state",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Initializer allowing you to specify the location of the acid-state store",
           "hierarchy": "Snap Snaplet AcidState",
+          "indexed": "2014-03-11T20:05:27",
           "module": "Snap.Snaplet.AcidState",
           "name": "acidInit'",
           "normalized": "FilePath-\u003ea-\u003eSnapletInit b(Acid a)",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializer allowing you to specify the AcidState to use.  This AcidState\n must be initialized manually elsewhere.  It will not be automatically\n closed by the snaplet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:27 UTC 2014",
           "module": "Snap.Snaplet.AcidState",
           "name": "acidInitManual",
           "package": "snaplet-acid-state",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Initializer allowing you to specify the AcidState to use This AcidState must be initialized manually elsewhere It will not be automatically closed by the snaplet",
           "hierarchy": "Snap Snaplet AcidState",
+          "indexed": "2014-03-11T20:05:27",
           "module": "Snap.Snaplet.AcidState",
           "name": "acidInitManual",
           "normalized": "AcidState a-\u003eSnapletInit b(Acid a)",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializer allowing you to open an in-memory store (typically for testing)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:27 UTC 2014",
           "module": "Snap.Snaplet.AcidState",
           "name": "acidInitMemory",
           "package": "snaplet-acid-state",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Initializer allowing you to open an in-memory store typically for testing",
           "hierarchy": "Snap Snaplet AcidState",
+          "indexed": "2014-03-11T20:05:27",
           "module": "Snap.Snaplet.AcidState",
           "name": "acidInitMemory",
           "normalized": "a-\u003eSnapletInit b(Acid a)",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for acid-state's closeAcidState function that works for\n arbitrary instances of HasAcid.  The state is automatically closed by the\n snaplet's unload action, but this is here in case the user needs more\n control.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:27 UTC 2014",
           "module": "Snap.Snaplet.AcidState",
           "name": "closeAcidState",
           "package": "snaplet-acid-state",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Wrapper for acid-state closeAcidState function that works for arbitrary instances of HasAcid The state is automatically closed by the snaplet unload action but this is here in case the user needs more control",
           "hierarchy": "Snap Snaplet AcidState",
+          "indexed": "2014-03-11T20:05:27",
           "module": "Snap.Snaplet.AcidState",
           "name": "closeAcidState",
           "normalized": "a b c()",
@@ -256,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for acid-state's createCheckpoint function that works for\n arbitrary instances of HasAcid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:27 UTC 2014",
           "module": "Snap.Snaplet.AcidState",
           "name": "createCheckpoint",
           "package": "snaplet-acid-state",
@@ -266,6 +287,7 @@
         "index": {
           "description": "Wrapper for acid-state createCheckpoint function that works for arbitrary instances of HasAcid",
           "hierarchy": "Snap Snaplet AcidState",
+          "indexed": "2014-03-11T20:05:27",
           "module": "Snap.Snaplet.AcidState",
           "name": "createCheckpoint",
           "normalized": "a b c()",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower-level function providing direct access to the AcidState data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:27 UTC 2014",
           "module": "Snap.Snaplet.AcidState",
           "name": "getAcidState",
           "package": "snaplet-acid-state",
@@ -292,6 +315,7 @@
         "index": {
           "description": "Lower-level function providing direct access to the AcidState data type",
           "hierarchy": "Snap Snaplet AcidState",
+          "indexed": "2014-03-11T20:05:27",
           "module": "Snap.Snaplet.AcidState",
           "name": "getAcidState",
           "package": "snaplet-acid-state",
@@ -305,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:05:27 UTC 2014",
           "module": "Snap.Snaplet.AcidState",
           "name": "getAcidStore",
           "package": "snaplet-acid-state",
@@ -314,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Snap Snaplet AcidState",
+          "indexed": "2014-03-11T20:05:27",
           "module": "Snap.Snaplet.AcidState",
           "name": "getAcidStore",
           "normalized": "a-\u003eAcid b",
@@ -330,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCore init functionality common to both exported variants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:27 UTC 2014",
           "module": "Snap.Snaplet.AcidState",
           "name": "initWorker",
           "package": "snaplet-acid-state",
@@ -340,6 +367,7 @@
         "index": {
           "description": "Core init functionality common to both exported variants",
           "hierarchy": "Snap Snaplet AcidState",
+          "indexed": "2014-03-11T20:05:27",
           "module": "Snap.Snaplet.AcidState",
           "name": "initWorker",
           "normalized": "IO(AcidState a)-\u003eInitializer b c(Acid a)",
@@ -356,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for acid-state's query function that works for arbitrary\n instances of HasAcid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:27 UTC 2014",
           "module": "Snap.Snaplet.AcidState",
           "name": "query",
           "package": "snaplet-acid-state",
@@ -366,6 +395,7 @@
         "index": {
           "description": "Wrapper for acid-state query function that works for arbitrary instances of HasAcid",
           "hierarchy": "Snap Snaplet AcidState",
+          "indexed": "2014-03-11T20:05:27",
           "module": "Snap.Snaplet.AcidState",
           "name": "query",
           "normalized": "a-\u003eb c d(EventResult a)",
@@ -381,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for acid-state's update function that works for arbitrary\n instances of HasAcid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:05:27 UTC 2014",
           "module": "Snap.Snaplet.AcidState",
           "name": "update",
           "package": "snaplet-acid-state",
@@ -391,6 +422,7 @@
         "index": {
           "description": "Wrapper for acid-state update function that works for arbitrary instances of HasAcid",
           "hierarchy": "Snap Snaplet AcidState",
+          "indexed": "2014-03-11T20:05:27",
           "module": "Snap.Snaplet.AcidState",
           "name": "update",
           "normalized": "a-\u003eb c d(EventResult a)",

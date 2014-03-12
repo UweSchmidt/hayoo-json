@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "CSPM-Frontend"
+        "phrase": "CSPM-Frontend",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines an Abstract Syntax Tree for CSPM.\n This is the AST that is computed by the parser.\n For historical reasons, it is rather unstructured.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "AST",
           "package": "CSPM-Frontend",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines an Abstract Syntax Tree for CSPM This is the AST that is computed by the parser For historical reasons it is rather unstructured",
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "AST",
           "package": "CSPM-Frontend",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "AssertDecl",
           "package": "CSPM-Frontend",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "AssertDecl",
           "package": "CSPM-Frontend",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "AstAnnotation",
           "package": "CSPM-Frontend",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "AstAnnotation",
           "package": "CSPM-Frontend",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "BindType",
           "package": "CSPM-Frontend",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "BindType",
           "package": "CSPM-Frontend",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Bindings",
           "package": "CSPM-Frontend",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Bindings",
           "package": "CSPM-Frontend",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "BuiltIn",
           "package": "CSPM-Frontend",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "BuiltIn",
           "package": "CSPM-Frontend",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "CommField",
           "package": "CSPM-Frontend",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "CommField",
           "package": "CSPM-Frontend",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Comment",
           "package": "CSPM-Frontend",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Comment",
           "package": "CSPM-Frontend",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "CompGen",
           "package": "CSPM-Frontend",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "CompGen",
           "package": "CSPM-Frontend",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Const",
           "package": "CSPM-Frontend",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Const",
           "package": "CSPM-Frontend",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Constructor",
           "package": "CSPM-Frontend",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Constructor",
           "package": "CSPM-Frontend",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Decl",
           "package": "CSPM-Frontend",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Decl",
           "package": "CSPM-Frontend",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Exp",
           "package": "CSPM-Frontend",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Exp",
           "package": "CSPM-Frontend",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "FDRModels",
           "package": "CSPM-Frontend",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "FDRModels",
           "package": "CSPM-Frontend",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "FdrExt",
           "package": "CSPM-Frontend",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "FdrExt",
           "package": "CSPM-Frontend",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "FreeNames",
           "package": "CSPM-Frontend",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "FreeNames",
           "package": "CSPM-Frontend",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "FromParser",
           "package": "CSPM-Frontend",
@@ -364,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "FromParser",
           "package": "CSPM-Frontend",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "FunArgs",
           "package": "CSPM-Frontend",
@@ -385,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "FunArgs",
           "package": "CSPM-Frontend",
@@ -398,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "FunCase",
           "package": "CSPM-Frontend",
@@ -406,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "FunCase",
           "package": "CSPM-Frontend",
@@ -419,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "IDType",
           "package": "CSPM-Frontend",
@@ -427,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "IDType",
           "package": "CSPM-Frontend",
@@ -440,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Ident",
           "package": "CSPM-Frontend",
@@ -448,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Ident",
           "package": "CSPM-Frontend",
@@ -461,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LAssertDecl",
           "package": "CSPM-Frontend",
@@ -469,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LAssertDecl",
           "package": "CSPM-Frontend",
@@ -482,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LBuiltIn",
           "package": "CSPM-Frontend",
@@ -490,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LBuiltIn",
           "package": "CSPM-Frontend",
@@ -503,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LCommField",
           "package": "CSPM-Frontend",
@@ -511,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LCommField",
           "package": "CSPM-Frontend",
@@ -524,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LCompGen",
           "package": "CSPM-Frontend",
@@ -532,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LCompGen",
           "package": "CSPM-Frontend",
@@ -545,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LCompGenList",
           "package": "CSPM-Frontend",
@@ -553,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LCompGenList",
           "package": "CSPM-Frontend",
@@ -566,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LConstructor",
           "package": "CSPM-Frontend",
@@ -574,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LConstructor",
           "package": "CSPM-Frontend",
@@ -587,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LDecl",
           "package": "CSPM-Frontend",
@@ -595,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LDecl",
           "package": "CSPM-Frontend",
@@ -608,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LExp",
           "package": "CSPM-Frontend",
@@ -616,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LExp",
           "package": "CSPM-Frontend",
@@ -629,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LFDRModels",
           "package": "CSPM-Frontend",
@@ -637,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LFDRModels",
           "package": "CSPM-Frontend",
@@ -650,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LFdrExt",
           "package": "CSPM-Frontend",
@@ -658,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LFdrExt",
           "package": "CSPM-Frontend",
@@ -671,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LIdent",
           "package": "CSPM-Frontend",
@@ -679,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LIdent",
           "package": "CSPM-Frontend",
@@ -692,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LLink",
           "package": "CSPM-Frontend",
@@ -700,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LLink",
           "package": "CSPM-Frontend",
@@ -713,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LLinkList",
           "package": "CSPM-Frontend",
@@ -721,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LLinkList",
           "package": "CSPM-Frontend",
@@ -734,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LPattern",
           "package": "CSPM-Frontend",
@@ -742,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LPattern",
           "package": "CSPM-Frontend",
@@ -755,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LProc",
           "package": "CSPM-Frontend",
@@ -763,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LProc",
           "package": "CSPM-Frontend",
@@ -776,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LRange",
           "package": "CSPM-Frontend",
@@ -784,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LRange",
           "package": "CSPM-Frontend",
@@ -797,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LRefineOp",
           "package": "CSPM-Frontend",
@@ -805,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LRefineOp",
           "package": "CSPM-Frontend",
@@ -818,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LRename",
           "package": "CSPM-Frontend",
@@ -826,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LRename",
           "package": "CSPM-Frontend",
@@ -839,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LTauRefineOp",
           "package": "CSPM-Frontend",
@@ -847,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LTauRefineOp",
           "package": "CSPM-Frontend",
@@ -860,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LTypeDef",
           "package": "CSPM-Frontend",
@@ -868,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LTypeDef",
           "package": "CSPM-Frontend",
@@ -881,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Labeled",
           "package": "CSPM-Frontend",
@@ -889,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Labeled",
           "package": "CSPM-Frontend",
@@ -902,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Link",
           "package": "CSPM-Frontend",
@@ -910,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Link",
           "package": "CSPM-Frontend",
@@ -923,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LinkList",
           "package": "CSPM-Frontend",
@@ -931,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LinkList",
           "package": "CSPM-Frontend",
@@ -944,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LocComment",
           "package": "CSPM-Frontend",
@@ -952,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LocComment",
           "package": "CSPM-Frontend",
@@ -965,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Module",
           "package": "CSPM-Frontend",
@@ -973,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Module",
           "package": "CSPM-Frontend",
@@ -986,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ModuleFromParser",
           "package": "CSPM-Frontend",
@@ -994,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ModuleFromParser",
           "package": "CSPM-Frontend",
@@ -1007,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "NodeId",
           "package": "CSPM-Frontend",
@@ -1015,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "NodeId",
           "package": "CSPM-Frontend",
@@ -1028,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Pattern",
           "package": "CSPM-Frontend",
@@ -1036,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Pattern",
           "package": "CSPM-Frontend",
@@ -1049,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Pragma",
           "package": "CSPM-Frontend",
@@ -1057,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Pragma",
           "package": "CSPM-Frontend",
@@ -1070,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "PrologMode",
           "package": "CSPM-Frontend",
@@ -1078,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "PrologMode",
           "package": "CSPM-Frontend",
@@ -1091,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Range",
           "package": "CSPM-Frontend",
@@ -1099,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Range",
           "package": "CSPM-Frontend",
@@ -1112,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "RefineOp",
           "package": "CSPM-Frontend",
@@ -1120,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "RefineOp",
           "package": "CSPM-Frontend",
@@ -1133,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Rename",
           "package": "CSPM-Frontend",
@@ -1141,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Rename",
           "package": "CSPM-Frontend",
@@ -1154,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Selector",
           "package": "CSPM-Frontend",
@@ -1162,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Selector",
           "package": "CSPM-Frontend",
@@ -1175,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "TauRefineOp",
           "package": "CSPM-Frontend",
@@ -1183,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "TauRefineOp",
           "package": "CSPM-Frontend",
@@ -1196,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "TypeDef",
           "package": "CSPM-Frontend",
@@ -1204,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "TypeDef",
           "package": "CSPM-Frontend",
@@ -1217,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "UniqueIdent",
           "package": "CSPM-Frontend",
@@ -1225,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "UniqueIdent",
           "package": "CSPM-Frontend",
@@ -1238,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Also",
           "package": "CSPM-Frontend",
@@ -1247,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Also",
           "normalized": "Also[LPattern]",
@@ -1262,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "AndExp",
           "package": "CSPM-Frontend",
@@ -1271,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "AndExp",
           "package": "CSPM-Frontend",
@@ -1284,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Append",
           "package": "CSPM-Frontend",
@@ -1293,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Append",
           "normalized": "Append[LPattern]",
@@ -1308,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Assert",
           "package": "CSPM-Frontend",
@@ -1317,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Assert",
           "package": "CSPM-Frontend",
@@ -1330,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "AssertBool",
           "package": "CSPM-Frontend",
@@ -1339,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "AssertBool",
           "package": "CSPM-Frontend",
@@ -1352,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "AssertModelCheck",
           "package": "CSPM-Frontend",
@@ -1361,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "AssertModelCheck",
           "package": "CSPM-Frontend",
@@ -1374,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "AssertRefine",
           "package": "CSPM-Frontend",
@@ -1383,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "AssertRefine",
           "package": "CSPM-Frontend",
@@ -1396,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "AssertTauPrio",
           "package": "CSPM-Frontend",
@@ -1405,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "AssertTauPrio",
           "package": "CSPM-Frontend",
@@ -1418,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "BlockComment",
           "package": "CSPM-Frontend",
@@ -1427,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "BlockComment",
           "package": "CSPM-Frontend",
@@ -1440,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "BoolSet",
           "package": "CSPM-Frontend",
@@ -1449,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "BoolSet",
           "package": "CSPM-Frontend",
@@ -1462,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "BuiltIn",
           "package": "CSPM-Frontend",
@@ -1471,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "BuiltIn",
           "package": "CSPM-Frontend",
@@ -1484,6 +1622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "BuiltInID",
           "package": "CSPM-Frontend",
@@ -1493,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "BuiltInID",
           "package": "CSPM-Frontend",
@@ -1506,6 +1646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "CFalse",
           "package": "CSPM-Frontend",
@@ -1515,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "CFalse",
           "package": "CSPM-Frontend",
@@ -1528,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "CTrue",
           "package": "CSPM-Frontend",
@@ -1537,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "CTrue",
           "package": "CSPM-Frontend",
@@ -1550,6 +1694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "CallBuiltIn",
           "package": "CSPM-Frontend",
@@ -1559,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "CallBuiltIn",
           "normalized": "CallBuiltIn LBuiltIn[[LExp]]",
@@ -1574,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "CallFunction",
           "package": "CSPM-Frontend",
@@ -1583,6 +1730,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "CallFunction",
           "normalized": "CallFunction LExp[[LExp]]",
@@ -1598,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Channel",
           "package": "CSPM-Frontend",
@@ -1607,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Channel",
           "normalized": "Channel[LIdent](Maybe LTypeDef)",
@@ -1622,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ChannelID",
           "package": "CSPM-Frontend",
@@ -1631,6 +1782,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ChannelID",
           "package": "CSPM-Frontend",
@@ -1644,6 +1796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Closure",
           "package": "CSPM-Frontend",
@@ -1653,6 +1806,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Closure",
           "normalized": "Closure[LExp]",
@@ -1668,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ClosureComprehension",
           "package": "CSPM-Frontend",
@@ -1677,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ClosureComprehension",
           "normalized": "ClosureComprehension([LExp],[LCompGen])",
@@ -1692,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ConstrID",
           "package": "CSPM-Frontend",
@@ -1701,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ConstrID",
           "package": "CSPM-Frontend",
@@ -1714,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ConstrPat",
           "package": "CSPM-Frontend",
@@ -1723,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ConstrPat",
           "package": "CSPM-Frontend",
@@ -1736,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ConstrSel",
           "package": "CSPM-Frontend",
@@ -1745,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ConstrSel",
           "package": "CSPM-Frontend",
@@ -1758,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Constructor",
           "package": "CSPM-Frontend",
@@ -1767,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Constructor",
           "package": "CSPM-Frontend",
@@ -1780,6 +1944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "DataType",
           "package": "CSPM-Frontend",
@@ -1789,6 +1954,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "DataType",
           "normalized": "DataType LIdent[LConstructor]",
@@ -1804,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "DataTypeID",
           "package": "CSPM-Frontend",
@@ -1813,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "DataTypeID",
           "package": "CSPM-Frontend",
@@ -1826,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "DeadlockFree",
           "package": "CSPM-Frontend",
@@ -1835,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "DeadlockFree",
           "package": "CSPM-Frontend",
@@ -1848,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Deterministic",
           "package": "CSPM-Frontend",
@@ -1857,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Deterministic",
           "package": "CSPM-Frontend",
@@ -1870,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "DotPat",
           "package": "CSPM-Frontend",
@@ -1879,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "DotPat",
           "normalized": "DotPat[LPattern]",
@@ -1894,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "DotSel",
           "package": "CSPM-Frontend",
@@ -1903,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "DotSel",
           "package": "CSPM-Frontend",
@@ -1916,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "DotTuple",
           "package": "CSPM-Frontend",
@@ -1925,6 +2102,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "DotTuple",
           "normalized": "DotTuple[LExp]",
@@ -1940,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "EmptySetPat",
           "package": "CSPM-Frontend",
@@ -1949,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "EmptySetPat",
           "package": "CSPM-Frontend",
@@ -1962,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "EmptySetSel",
           "package": "CSPM-Frontend",
@@ -1971,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "EmptySetSel",
           "package": "CSPM-Frontend",
@@ -1984,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Events",
           "package": "CSPM-Frontend",
@@ -1993,6 +2176,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Events",
           "package": "CSPM-Frontend",
@@ -2006,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ExprWithFreeNames",
           "package": "CSPM-Frontend",
@@ -2015,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ExprWithFreeNames",
           "package": "CSPM-Frontend",
@@ -2028,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F",
           "package": "CSPM-Frontend",
@@ -2037,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F",
           "package": "CSPM-Frontend",
@@ -2049,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "FD",
           "package": "CSPM-Frontend",
@@ -2058,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "FD",
           "package": "CSPM-Frontend",
@@ -2071,6 +2261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Add",
           "package": "CSPM-Frontend",
@@ -2080,6 +2271,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Add",
           "package": "CSPM-Frontend",
@@ -2093,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Bool",
           "package": "CSPM-Frontend",
@@ -2102,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Bool",
           "package": "CSPM-Frontend",
@@ -2115,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_CHAOS",
           "package": "CSPM-Frontend",
@@ -2124,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_CHAOS",
           "package": "CSPM-Frontend",
@@ -2137,6 +2333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Concat",
           "package": "CSPM-Frontend",
@@ -2146,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Concat",
           "package": "CSPM-Frontend",
@@ -2159,6 +2357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Div",
           "package": "CSPM-Frontend",
@@ -2168,6 +2367,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Div",
           "package": "CSPM-Frontend",
@@ -2181,6 +2381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Eq",
           "package": "CSPM-Frontend",
@@ -2190,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Eq",
           "package": "CSPM-Frontend",
@@ -2203,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Events",
           "package": "CSPM-Frontend",
@@ -2212,6 +2415,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Events",
           "package": "CSPM-Frontend",
@@ -2225,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_ExtChoice",
           "package": "CSPM-Frontend",
@@ -2234,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_ExtChoice",
           "package": "CSPM-Frontend",
@@ -2247,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_GE",
           "package": "CSPM-Frontend",
@@ -2256,6 +2463,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_GE",
           "package": "CSPM-Frontend",
@@ -2269,6 +2477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_GT",
           "package": "CSPM-Frontend",
@@ -2278,6 +2487,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_GT",
           "package": "CSPM-Frontend",
@@ -2291,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Guard",
           "package": "CSPM-Frontend",
@@ -2300,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Guard",
           "package": "CSPM-Frontend",
@@ -2313,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Hiding",
           "package": "CSPM-Frontend",
@@ -2322,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Hiding",
           "package": "CSPM-Frontend",
@@ -2335,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Int",
           "package": "CSPM-Frontend",
@@ -2344,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Int",
           "package": "CSPM-Frontend",
@@ -2357,6 +2573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_IntChoice",
           "package": "CSPM-Frontend",
@@ -2366,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_IntChoice",
           "package": "CSPM-Frontend",
@@ -2379,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Inter",
           "package": "CSPM-Frontend",
@@ -2388,6 +2607,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Inter",
           "package": "CSPM-Frontend",
@@ -2401,6 +2621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Interleave",
           "package": "CSPM-Frontend",
@@ -2410,6 +2631,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Interleave",
           "package": "CSPM-Frontend",
@@ -2423,6 +2645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Interrupt",
           "package": "CSPM-Frontend",
@@ -2432,6 +2655,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Interrupt",
           "package": "CSPM-Frontend",
@@ -2445,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_LE",
           "package": "CSPM-Frontend",
@@ -2454,6 +2679,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_LE",
           "package": "CSPM-Frontend",
@@ -2467,6 +2693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_LT",
           "package": "CSPM-Frontend",
@@ -2476,6 +2703,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_LT",
           "package": "CSPM-Frontend",
@@ -2489,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Len2",
           "package": "CSPM-Frontend",
@@ -2498,6 +2727,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Len2",
           "package": "CSPM-Frontend",
@@ -2511,6 +2741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Mod",
           "package": "CSPM-Frontend",
@@ -2520,6 +2751,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Mod",
           "package": "CSPM-Frontend",
@@ -2533,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Mult",
           "package": "CSPM-Frontend",
@@ -2542,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Mult",
           "package": "CSPM-Frontend",
@@ -2555,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_NEq",
           "package": "CSPM-Frontend",
@@ -2564,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_NEq",
           "package": "CSPM-Frontend",
@@ -2577,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_SKIP",
           "package": "CSPM-Frontend",
@@ -2586,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_SKIP",
           "package": "CSPM-Frontend",
@@ -2599,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_STOP",
           "package": "CSPM-Frontend",
@@ -2608,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_STOP",
           "package": "CSPM-Frontend",
@@ -2621,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Seq",
           "package": "CSPM-Frontend",
@@ -2630,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Seq",
           "package": "CSPM-Frontend",
@@ -2643,6 +2885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Sequential",
           "package": "CSPM-Frontend",
@@ -2652,6 +2895,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Sequential",
           "package": "CSPM-Frontend",
@@ -2665,6 +2909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Set",
           "package": "CSPM-Frontend",
@@ -2674,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Set",
           "package": "CSPM-Frontend",
@@ -2687,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Sub",
           "package": "CSPM-Frontend",
@@ -2696,6 +2943,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Sub",
           "package": "CSPM-Frontend",
@@ -2709,6 +2957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Timeout",
           "package": "CSPM-Frontend",
@@ -2718,6 +2967,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Timeout",
           "package": "CSPM-Frontend",
@@ -2731,6 +2981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_Union",
           "package": "CSPM-Frontend",
@@ -2740,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_Union",
           "package": "CSPM-Frontend",
@@ -2753,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_and",
           "package": "CSPM-Frontend",
@@ -2762,6 +3015,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_and",
           "package": "CSPM-Frontend",
@@ -2774,6 +3028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_card",
           "package": "CSPM-Frontend",
@@ -2783,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_card",
           "package": "CSPM-Frontend",
@@ -2795,6 +3051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_concat",
           "package": "CSPM-Frontend",
@@ -2804,6 +3061,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_concat",
           "package": "CSPM-Frontend",
@@ -2816,6 +3074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_diff",
           "package": "CSPM-Frontend",
@@ -2825,6 +3084,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_diff",
           "package": "CSPM-Frontend",
@@ -2837,6 +3097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_elem",
           "package": "CSPM-Frontend",
@@ -2846,6 +3107,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_elem",
           "package": "CSPM-Frontend",
@@ -2858,6 +3120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_empty",
           "package": "CSPM-Frontend",
@@ -2867,6 +3130,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_empty",
           "package": "CSPM-Frontend",
@@ -2879,6 +3143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_false",
           "package": "CSPM-Frontend",
@@ -2888,6 +3153,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_false",
           "package": "CSPM-Frontend",
@@ -2900,6 +3166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_head",
           "package": "CSPM-Frontend",
@@ -2909,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_head",
           "package": "CSPM-Frontend",
@@ -2921,6 +3189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_inter",
           "package": "CSPM-Frontend",
@@ -2930,6 +3199,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_inter",
           "package": "CSPM-Frontend",
@@ -2942,6 +3212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_length",
           "package": "CSPM-Frontend",
@@ -2951,6 +3222,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_length",
           "package": "CSPM-Frontend",
@@ -2963,6 +3235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_member",
           "package": "CSPM-Frontend",
@@ -2972,6 +3245,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_member",
           "package": "CSPM-Frontend",
@@ -2984,6 +3258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_not",
           "package": "CSPM-Frontend",
@@ -2993,6 +3268,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_not",
           "package": "CSPM-Frontend",
@@ -3005,6 +3281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_null",
           "package": "CSPM-Frontend",
@@ -3014,6 +3291,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_null",
           "package": "CSPM-Frontend",
@@ -3026,6 +3304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_or",
           "package": "CSPM-Frontend",
@@ -3035,6 +3314,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_or",
           "package": "CSPM-Frontend",
@@ -3047,6 +3327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_set",
           "package": "CSPM-Frontend",
@@ -3056,6 +3337,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_set",
           "package": "CSPM-Frontend",
@@ -3068,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_tail",
           "package": "CSPM-Frontend",
@@ -3077,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_tail",
           "package": "CSPM-Frontend",
@@ -3089,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_true",
           "package": "CSPM-Frontend",
@@ -3098,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_true",
           "package": "CSPM-Frontend",
@@ -3110,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "F_union",
           "package": "CSPM-Frontend",
@@ -3119,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "F_union",
           "package": "CSPM-Frontend",
@@ -3131,6 +3419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Failure",
           "package": "CSPM-Frontend",
@@ -3140,6 +3429,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Failure",
           "package": "CSPM-Frontend",
@@ -3153,6 +3443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "FailureDivergence",
           "package": "CSPM-Frontend",
@@ -3162,6 +3453,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "FailureDivergence",
           "package": "CSPM-Frontend",
@@ -3175,6 +3467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "FalsePat",
           "package": "CSPM-Frontend",
@@ -3184,6 +3477,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "FalsePat",
           "package": "CSPM-Frontend",
@@ -3197,6 +3491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "FalseSel",
           "package": "CSPM-Frontend",
@@ -3206,6 +3501,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "FalseSel",
           "package": "CSPM-Frontend",
@@ -3219,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Fun1",
           "package": "CSPM-Frontend",
@@ -3228,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Fun1",
           "package": "CSPM-Frontend",
@@ -3241,6 +3539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Fun2",
           "package": "CSPM-Frontend",
@@ -3250,6 +3549,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Fun2",
           "package": "CSPM-Frontend",
@@ -3263,6 +3563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "FunBind",
           "package": "CSPM-Frontend",
@@ -3272,6 +3573,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "FunBind",
           "normalized": "FunBind LIdent[FunCase]",
@@ -3287,6 +3589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "FunCase",
           "package": "CSPM-Frontend",
@@ -3296,6 +3599,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "FunCase",
           "package": "CSPM-Frontend",
@@ -3309,6 +3613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "FunCaseI",
           "package": "CSPM-Frontend",
@@ -3318,6 +3623,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "FunCaseI",
           "normalized": "FunCaseI[LPattern]LExp",
@@ -3333,6 +3639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "FunID",
           "package": "CSPM-Frontend",
@@ -3342,6 +3649,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "FunID",
           "package": "CSPM-Frontend",
@@ -3355,6 +3663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Generator",
           "package": "CSPM-Frontend",
@@ -3364,6 +3673,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Generator",
           "package": "CSPM-Frontend",
@@ -3377,6 +3687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Guard",
           "package": "CSPM-Frontend",
@@ -3386,6 +3697,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Guard",
           "package": "CSPM-Frontend",
@@ -3399,6 +3711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "HeadNSel",
           "package": "CSPM-Frontend",
@@ -3408,6 +3721,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "HeadNSel",
           "package": "CSPM-Frontend",
@@ -3421,6 +3735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "HeadSel",
           "package": "CSPM-Frontend",
@@ -3430,6 +3745,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "HeadSel",
           "package": "CSPM-Frontend",
@@ -3443,6 +3759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Ident",
           "package": "CSPM-Frontend",
@@ -3452,6 +3769,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Ident",
           "package": "CSPM-Frontend",
@@ -3465,6 +3783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Ifte",
           "package": "CSPM-Frontend",
@@ -3474,6 +3793,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Ifte",
           "package": "CSPM-Frontend",
@@ -3487,6 +3807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "InComm",
           "package": "CSPM-Frontend",
@@ -3496,6 +3817,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "InComm",
           "package": "CSPM-Frontend",
@@ -3509,6 +3831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "InCommGuarded",
           "package": "CSPM-Frontend",
@@ -3518,6 +3841,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "InCommGuarded",
           "package": "CSPM-Frontend",
@@ -3531,6 +3855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "IntExp",
           "package": "CSPM-Frontend",
@@ -3540,6 +3865,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "IntExp",
           "package": "CSPM-Frontend",
@@ -3553,6 +3879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "IntPat",
           "package": "CSPM-Frontend",
@@ -3562,6 +3889,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "IntPat",
           "package": "CSPM-Frontend",
@@ -3575,6 +3903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "IntSel",
           "package": "CSPM-Frontend",
@@ -3584,6 +3913,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "IntSel",
           "package": "CSPM-Frontend",
@@ -3597,6 +3927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "IntSet",
           "package": "CSPM-Frontend",
@@ -3606,6 +3937,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "IntSet",
           "package": "CSPM-Frontend",
@@ -3642,6 +3974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Lambda",
           "package": "CSPM-Frontend",
@@ -3651,6 +3984,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Lambda",
           "normalized": "Lambda[LPattern]LExp",
@@ -3666,6 +4000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LambdaI",
           "package": "CSPM-Frontend",
@@ -3675,6 +4010,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LambdaI",
           "normalized": "LambdaI FreeNames[LPattern]LExp",
@@ -3690,6 +4026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Let",
           "package": "CSPM-Frontend",
@@ -3699,6 +4036,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Let",
           "normalized": "Let[LDecl]LExp",
@@ -3714,6 +4052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LetBound",
           "package": "CSPM-Frontend",
@@ -3723,6 +4062,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LetBound",
           "package": "CSPM-Frontend",
@@ -3736,6 +4076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LetI",
           "package": "CSPM-Frontend",
@@ -3745,6 +4086,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LetI",
           "normalized": "LetI[LDecl]FreeNames LExp",
@@ -3760,6 +4102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LineComment",
           "package": "CSPM-Frontend",
@@ -3769,6 +4112,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LineComment",
           "package": "CSPM-Frontend",
@@ -3782,6 +4126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Link",
           "package": "CSPM-Frontend",
@@ -3791,6 +4136,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Link",
           "package": "CSPM-Frontend",
@@ -3804,6 +4150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LinkList",
           "package": "CSPM-Frontend",
@@ -3813,6 +4160,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LinkList",
           "normalized": "LinkList[LLink]",
@@ -3828,6 +4176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LinkListComprehension",
           "package": "CSPM-Frontend",
@@ -3837,6 +4186,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LinkListComprehension",
           "normalized": "LinkListComprehension[LCompGen][LLink]",
@@ -3852,6 +4202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ListEnumPat",
           "package": "CSPM-Frontend",
@@ -3861,6 +4212,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ListEnumPat",
           "normalized": "ListEnumPat[LPattern]",
@@ -3876,6 +4228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ListExp",
           "package": "CSPM-Frontend",
@@ -3885,6 +4238,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ListExp",
           "normalized": "ListExp LRange(Maybe[LCompGen])",
@@ -3900,6 +4254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ListIthSel",
           "package": "CSPM-Frontend",
@@ -3909,6 +4264,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ListIthSel",
           "package": "CSPM-Frontend",
@@ -3922,6 +4278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ListLengthSel",
           "package": "CSPM-Frontend",
@@ -3931,6 +4288,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ListLengthSel",
           "package": "CSPM-Frontend",
@@ -3944,6 +4302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "LivelockFree",
           "package": "CSPM-Frontend",
@@ -3953,6 +4312,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "LivelockFree",
           "package": "CSPM-Frontend",
@@ -3966,6 +4326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Module",
           "package": "CSPM-Frontend",
@@ -3975,6 +4336,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Module",
           "package": "CSPM-Frontend",
@@ -3988,6 +4350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "NameType",
           "package": "CSPM-Frontend",
@@ -3997,6 +4360,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "NameType",
           "package": "CSPM-Frontend",
@@ -4010,6 +4374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "NameTypeID",
           "package": "CSPM-Frontend",
@@ -4019,6 +4384,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "NameTypeID",
           "package": "CSPM-Frontend",
@@ -4032,6 +4398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "NegExp",
           "package": "CSPM-Frontend",
@@ -4041,6 +4408,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "NegExp",
           "package": "CSPM-Frontend",
@@ -4054,6 +4422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "NodeId",
           "package": "CSPM-Frontend",
@@ -4063,6 +4432,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "NodeId",
           "package": "CSPM-Frontend",
@@ -4076,6 +4446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "NotExp",
           "package": "CSPM-Frontend",
@@ -4085,6 +4456,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "NotExp",
           "package": "CSPM-Frontend",
@@ -4098,6 +4470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "NotLetBound",
           "package": "CSPM-Frontend",
@@ -4107,6 +4480,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "NotLetBound",
           "package": "CSPM-Frontend",
@@ -4120,6 +4494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "OrExp",
           "package": "CSPM-Frontend",
@@ -4129,6 +4504,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "OrExp",
           "package": "CSPM-Frontend",
@@ -4142,6 +4518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "OutComm",
           "package": "CSPM-Frontend",
@@ -4151,6 +4528,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "OutComm",
           "package": "CSPM-Frontend",
@@ -4164,6 +4542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Parens",
           "package": "CSPM-Frontend",
@@ -4173,6 +4552,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Parens",
           "package": "CSPM-Frontend",
@@ -4186,6 +4566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "PatBind",
           "package": "CSPM-Frontend",
@@ -4195,6 +4576,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "PatBind",
           "package": "CSPM-Frontend",
@@ -4208,6 +4590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "PragmaComment",
           "package": "CSPM-Frontend",
@@ -4217,6 +4600,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "PragmaComment",
           "package": "CSPM-Frontend",
@@ -4230,6 +4614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "PrefixExp",
           "package": "CSPM-Frontend",
@@ -4239,6 +4624,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "PrefixExp",
           "normalized": "PrefixExp LExp[LCommField]LProc",
@@ -4254,6 +4640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "PrefixI",
           "package": "CSPM-Frontend",
@@ -4263,6 +4650,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "PrefixI",
           "normalized": "PrefixI FreeNames LExp[LCommField]LProc",
@@ -4278,6 +4666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "PrefixSel",
           "package": "CSPM-Frontend",
@@ -4287,6 +4676,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "PrefixSel",
           "package": "CSPM-Frontend",
@@ -4300,6 +4690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Print",
           "package": "CSPM-Frontend",
@@ -4309,6 +4700,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Print",
           "package": "CSPM-Frontend",
@@ -4322,6 +4714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ProcAParallel",
           "package": "CSPM-Frontend",
@@ -4331,6 +4724,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ProcAParallel",
           "package": "CSPM-Frontend",
@@ -4344,6 +4738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ProcException",
           "package": "CSPM-Frontend",
@@ -4353,6 +4748,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ProcException",
           "package": "CSPM-Frontend",
@@ -4366,6 +4762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ProcLinkParallel",
           "package": "CSPM-Frontend",
@@ -4375,6 +4772,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ProcLinkParallel",
           "package": "CSPM-Frontend",
@@ -4388,6 +4786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ProcRenaming",
           "package": "CSPM-Frontend",
@@ -4397,6 +4796,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ProcRenaming",
           "normalized": "ProcRenaming[LRename](Maybe LCompGenList)LProc",
@@ -4412,6 +4812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ProcRepAParallel",
           "package": "CSPM-Frontend",
@@ -4421,6 +4822,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ProcRepAParallel",
           "package": "CSPM-Frontend",
@@ -4434,6 +4836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ProcRepExternalChoice",
           "package": "CSPM-Frontend",
@@ -4443,6 +4846,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ProcRepExternalChoice",
           "package": "CSPM-Frontend",
@@ -4456,6 +4860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ProcRepInterleave",
           "package": "CSPM-Frontend",
@@ -4465,6 +4870,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ProcRepInterleave",
           "package": "CSPM-Frontend",
@@ -4478,6 +4884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ProcRepInternalChoice",
           "package": "CSPM-Frontend",
@@ -4487,6 +4894,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ProcRepInternalChoice",
           "package": "CSPM-Frontend",
@@ -4500,6 +4908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ProcRepLinkParallel",
           "package": "CSPM-Frontend",
@@ -4509,6 +4918,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ProcRepLinkParallel",
           "package": "CSPM-Frontend",
@@ -4522,6 +4932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ProcRepSequence",
           "package": "CSPM-Frontend",
@@ -4531,6 +4942,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ProcRepSequence",
           "package": "CSPM-Frontend",
@@ -4544,6 +4956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ProcRepSharing",
           "package": "CSPM-Frontend",
@@ -4553,6 +4966,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ProcRepSharing",
           "package": "CSPM-Frontend",
@@ -4566,6 +4980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "ProcSharing",
           "package": "CSPM-Frontend",
@@ -4575,6 +4990,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "ProcSharing",
           "package": "CSPM-Frontend",
@@ -4588,6 +5004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "PrologGround",
           "package": "CSPM-Frontend",
@@ -4597,6 +5014,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "PrologGround",
           "package": "CSPM-Frontend",
@@ -4610,6 +5028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "PrologVariable",
           "package": "CSPM-Frontend",
@@ -4619,6 +5038,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "PrologVariable",
           "package": "CSPM-Frontend",
@@ -4632,6 +5052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "RangeClosed",
           "package": "CSPM-Frontend",
@@ -4641,6 +5062,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "RangeClosed",
           "package": "CSPM-Frontend",
@@ -4654,6 +5076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "RangeEnum",
           "package": "CSPM-Frontend",
@@ -4663,6 +5086,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "RangeEnum",
           "normalized": "RangeEnum[LExp]",
@@ -4678,6 +5102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "RangeOpen",
           "package": "CSPM-Frontend",
@@ -4687,6 +5112,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "RangeOpen",
           "package": "CSPM-Frontend",
@@ -4700,6 +5126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "RefusalTesting",
           "package": "CSPM-Frontend",
@@ -4709,6 +5136,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "RefusalTesting",
           "package": "CSPM-Frontend",
@@ -4722,6 +5150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "RefusalTestingDiv",
           "package": "CSPM-Frontend",
@@ -4731,6 +5160,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "RefusalTestingDiv",
           "package": "CSPM-Frontend",
@@ -4744,6 +5174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Rename",
           "package": "CSPM-Frontend",
@@ -4753,6 +5184,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Rename",
           "package": "CSPM-Frontend",
@@ -4766,6 +5198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "RevivalTesting",
           "package": "CSPM-Frontend",
@@ -4775,6 +5208,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "RevivalTesting",
           "package": "CSPM-Frontend",
@@ -4788,6 +5222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "RevivalTestingDiv",
           "package": "CSPM-Frontend",
@@ -4797,6 +5232,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "RevivalTestingDiv",
           "package": "CSPM-Frontend",
@@ -4810,6 +5246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "SelectThis",
           "package": "CSPM-Frontend",
@@ -4819,6 +5256,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "SelectThis",
           "package": "CSPM-Frontend",
@@ -4832,6 +5270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Selector",
           "package": "CSPM-Frontend",
@@ -4841,6 +5280,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Selector",
           "package": "CSPM-Frontend",
@@ -4854,6 +5294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Selectors",
           "package": "CSPM-Frontend",
@@ -4863,6 +5304,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Selectors",
           "package": "CSPM-Frontend",
@@ -4876,6 +5318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "SetExp",
           "package": "CSPM-Frontend",
@@ -4885,6 +5328,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "SetExp",
           "normalized": "SetExp LRange(Maybe[LCompGen])",
@@ -4900,6 +5344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "SingleSetPat",
           "package": "CSPM-Frontend",
@@ -4909,6 +5354,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "SingleSetPat",
           "package": "CSPM-Frontend",
@@ -4922,6 +5368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "SingleSetSel",
           "package": "CSPM-Frontend",
@@ -4931,6 +5378,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "SingleSetSel",
           "package": "CSPM-Frontend",
@@ -4944,6 +5392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Skip",
           "package": "CSPM-Frontend",
@@ -4953,6 +5402,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Skip",
           "package": "CSPM-Frontend",
@@ -4966,6 +5416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "SliceSel",
           "package": "CSPM-Frontend",
@@ -4975,6 +5426,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "SliceSel",
           "package": "CSPM-Frontend",
@@ -4988,6 +5440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Stop",
           "package": "CSPM-Frontend",
@@ -4997,6 +5450,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Stop",
           "package": "CSPM-Frontend",
@@ -5010,6 +5464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "SubType",
           "package": "CSPM-Frontend",
@@ -5019,6 +5474,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "SubType",
           "normalized": "SubType LIdent[LConstructor]",
@@ -5034,6 +5490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "SuffixSel",
           "package": "CSPM-Frontend",
@@ -5043,6 +5500,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "SuffixSel",
           "package": "CSPM-Frontend",
@@ -5056,6 +5514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "T",
           "package": "CSPM-Frontend",
@@ -5065,6 +5524,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "T",
           "package": "CSPM-Frontend",
@@ -5077,6 +5537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "TailSel",
           "package": "CSPM-Frontend",
@@ -5086,6 +5547,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "TailSel",
           "package": "CSPM-Frontend",
@@ -5099,6 +5561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "TauPriorityOp",
           "package": "CSPM-Frontend",
@@ -5108,6 +5571,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "TauPriorityOp",
           "package": "CSPM-Frontend",
@@ -5121,6 +5585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "TauRefine",
           "package": "CSPM-Frontend",
@@ -5130,6 +5595,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "TauRefine",
           "package": "CSPM-Frontend",
@@ -5143,6 +5609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "TauTrace",
           "package": "CSPM-Frontend",
@@ -5152,6 +5619,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "TauTrace",
           "package": "CSPM-Frontend",
@@ -5165,6 +5633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Trace",
           "package": "CSPM-Frontend",
@@ -5174,6 +5643,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Trace",
           "package": "CSPM-Frontend",
@@ -5187,6 +5657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Transparent",
           "package": "CSPM-Frontend",
@@ -5196,6 +5667,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Transparent",
           "normalized": "Transparent[LIdent]",
@@ -5211,6 +5683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "TransparentID",
           "package": "CSPM-Frontend",
@@ -5220,6 +5693,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "TransparentID",
           "package": "CSPM-Frontend",
@@ -5233,6 +5707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "TruePat",
           "package": "CSPM-Frontend",
@@ -5242,6 +5717,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "TruePat",
           "package": "CSPM-Frontend",
@@ -5255,6 +5731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "TrueSel",
           "package": "CSPM-Frontend",
@@ -5264,6 +5741,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "TrueSel",
           "package": "CSPM-Frontend",
@@ -5277,6 +5755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "TupleExp",
           "package": "CSPM-Frontend",
@@ -5286,6 +5765,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "TupleExp",
           "normalized": "TupleExp[LExp]",
@@ -5301,6 +5781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "TupleIthSel",
           "package": "CSPM-Frontend",
@@ -5310,6 +5791,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "TupleIthSel",
           "package": "CSPM-Frontend",
@@ -5323,6 +5805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "TupleLengthSel",
           "package": "CSPM-Frontend",
@@ -5332,6 +5815,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "TupleLengthSel",
           "package": "CSPM-Frontend",
@@ -5345,6 +5829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "TuplePat",
           "package": "CSPM-Frontend",
@@ -5354,6 +5839,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "TuplePat",
           "normalized": "TuplePat[LPattern]",
@@ -5369,6 +5855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "TypeDot",
           "package": "CSPM-Frontend",
@@ -5378,6 +5865,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "TypeDot",
           "normalized": "TypeDot[LExp]",
@@ -5393,6 +5881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "TypeTuple",
           "package": "CSPM-Frontend",
@@ -5402,6 +5891,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "TypeTuple",
           "normalized": "TypeTuple[LExp]",
@@ -5417,6 +5907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "UIdent",
           "package": "CSPM-Frontend",
@@ -5426,6 +5917,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "UIdent",
           "package": "CSPM-Frontend",
@@ -5439,6 +5931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "UniqueIdent",
           "package": "CSPM-Frontend",
@@ -5448,6 +5941,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "UniqueIdent",
           "package": "CSPM-Frontend",
@@ -5461,6 +5955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "Var",
           "package": "CSPM-Frontend",
@@ -5470,6 +5965,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "Var",
           "package": "CSPM-Frontend",
@@ -5483,6 +5979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "VarID",
           "package": "CSPM-Frontend",
@@ -5492,6 +5989,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "VarID",
           "package": "CSPM-Frontend",
@@ -5505,6 +6003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "VarPat",
           "package": "CSPM-Frontend",
@@ -5514,6 +6013,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "VarPat",
           "package": "CSPM-Frontend",
@@ -5527,6 +6027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "WildCard",
           "package": "CSPM-Frontend",
@@ -5536,6 +6037,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "WildCard",
           "package": "CSPM-Frontend",
@@ -5549,6 +6051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "bindType",
           "package": "CSPM-Frontend",
@@ -5558,6 +6061,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "bindType",
           "package": "CSPM-Frontend",
@@ -5571,6 +6075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "bindingLoc",
           "package": "CSPM-Frontend",
@@ -5580,6 +6085,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "bindingLoc",
           "package": "CSPM-Frontend",
@@ -5593,6 +6099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "bindingSide",
           "package": "CSPM-Frontend",
@@ -5602,6 +6109,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "bindingSide",
           "package": "CSPM-Frontend",
@@ -5640,6 +6148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "idType",
           "package": "CSPM-Frontend",
@@ -5649,6 +6158,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "idType",
           "package": "CSPM-Frontend",
@@ -5662,6 +6172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "identId",
           "package": "CSPM-Frontend",
@@ -5671,6 +6182,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "identId",
           "normalized": "LIdent-\u003eInt",
@@ -5686,6 +6198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "idents",
           "package": "CSPM-Frontend",
@@ -5695,6 +6208,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "idents",
           "package": "CSPM-Frontend",
@@ -5707,6 +6221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "isLetBound",
           "package": "CSPM-Frontend",
@@ -5716,6 +6231,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "isLetBound",
           "normalized": "BindType-\u003eBool",
@@ -5731,6 +6247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "lBuiltInToConst",
           "package": "CSPM-Frontend",
@@ -5740,6 +6257,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "lBuiltInToConst",
           "normalized": "LBuiltIn-\u003eConst",
@@ -5756,6 +6274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a node with a dummyLabel.\n todo: Redo we need a specal case in DataConstructor Labeled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "labeled",
           "package": "CSPM-Frontend",
@@ -5766,6 +6285,7 @@
         "index": {
           "description": "Wrap node with dummyLabel todo Redo we need specal case in DataConstructor Labeled",
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "labeled",
           "normalized": "a-\u003eLabeled a",
@@ -5780,6 +6300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "mkNodeId",
           "package": "CSPM-Frontend",
@@ -5789,6 +6310,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "mkNodeId",
           "normalized": "Int-\u003eNodeId",
@@ -5804,6 +6326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "moduleComments",
           "package": "CSPM-Frontend",
@@ -5813,6 +6336,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "moduleComments",
           "normalized": "[LocComment]",
@@ -5828,6 +6352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "moduleDecls",
           "package": "CSPM-Frontend",
@@ -5837,6 +6362,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "moduleDecls",
           "normalized": "[LDecl]",
@@ -5852,6 +6378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "modulePragmas",
           "package": "CSPM-Frontend",
@@ -5861,6 +6388,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "modulePragmas",
           "normalized": "[Pragma]",
@@ -5876,6 +6404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "moduleSrcLoc",
           "package": "CSPM-Frontend",
@@ -5885,6 +6414,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "moduleSrcLoc",
           "package": "CSPM-Frontend",
@@ -5898,6 +6428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "moduleTokens",
           "package": "CSPM-Frontend",
@@ -5907,6 +6438,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "moduleTokens",
           "normalized": "Maybe[Token]",
@@ -5922,6 +6454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "newName",
           "package": "CSPM-Frontend",
@@ -5931,6 +6464,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "newName",
           "package": "CSPM-Frontend",
@@ -5967,6 +6501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "prologMode",
           "package": "CSPM-Frontend",
@@ -5976,6 +6511,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "prologMode",
           "package": "CSPM-Frontend",
@@ -5989,6 +6525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "realName",
           "package": "CSPM-Frontend",
@@ -5998,6 +6535,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "realName",
           "package": "CSPM-Frontend",
@@ -6011,6 +6549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "selectors",
           "package": "CSPM-Frontend",
@@ -6020,6 +6559,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "selectors",
           "package": "CSPM-Frontend",
@@ -6032,6 +6572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "setNode",
           "package": "CSPM-Frontend",
@@ -6041,6 +6582,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "setNode",
           "normalized": "Labeled a-\u003eb-\u003eLabeled b",
@@ -6079,6 +6621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "unIdent",
           "package": "CSPM-Frontend",
@@ -6088,6 +6631,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "unIdent",
           "package": "CSPM-Frontend",
@@ -6124,6 +6668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "unNodeId",
           "package": "CSPM-Frontend",
@@ -6133,6 +6678,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "unNodeId",
           "package": "CSPM-Frontend",
@@ -6146,6 +6692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "unUIdent",
           "package": "CSPM-Frontend",
@@ -6155,6 +6702,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "unUIdent",
           "normalized": "Ident-\u003eUniqueIdent",
@@ -6170,6 +6718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "uniqueIdentId",
           "package": "CSPM-Frontend",
@@ -6179,6 +6728,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "uniqueIdentId",
           "package": "CSPM-Frontend",
@@ -6192,6 +6742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AST",
           "name": "withLabel",
           "package": "CSPM-Frontend",
@@ -6201,6 +6752,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM AST",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AST",
           "name": "withLabel",
           "normalized": "(NodeId-\u003ea-\u003eb)-\u003eLabeled a-\u003eLabeled b",
@@ -6217,6 +6769,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome utility functions for converting the AST\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AstUtils",
           "name": "AstUtils",
           "package": "CSPM-Frontend",
@@ -6226,6 +6779,7 @@
         "index": {
           "description": "Some utility functions for converting the AST",
           "hierarchy": "Language CSPM AstUtils",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AstUtils",
           "name": "AstUtils",
           "package": "CSPM-Frontend",
@@ -6267,6 +6821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the assert declarations of a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AstUtils",
           "name": "getModuleAsserts",
           "package": "CSPM-Frontend",
@@ -6277,6 +6832,7 @@
         "index": {
           "description": "Get the assert declarations of module",
           "hierarchy": "Language CSPM AstUtils",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AstUtils",
           "name": "getModuleAsserts",
           "normalized": "Module a-\u003e[LAssertDecl]",
@@ -6293,6 +6849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove assert declarations from a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.AstUtils",
           "name": "removeModuleAsserts",
           "package": "CSPM-Frontend",
@@ -6303,6 +6860,7 @@
         "index": {
           "description": "Remove assert declarations from module",
           "hierarchy": "Language CSPM AstUtils",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.AstUtils",
           "name": "removeModuleAsserts",
           "normalized": "Module a-\u003eModule a",
@@ -6427,6 +6985,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe FDR supports some CSPM-built-ins that are NOT part of the CSPM-syntax.\n\u003c/p\u003e\u003cp\u003eCurrently those built-ins are hard-coded in CSPM-Frontend.\n We use Language.CSPM.BuiltIn as a compatibility layer to migrate to\n FDR-style built-ins.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.BuiltIn",
           "name": "BuiltIn",
           "package": "CSPM-Frontend",
@@ -6436,6 +6995,7 @@
         "index": {
           "description": "The FDR supports some CSPM-built-ins that are NOT part of the CSPM-syntax Currently those built-ins are hard-coded in CSPM-Frontend We use Language.CSPM.BuiltIn as compatibility layer to migrate to FDR-style built-ins",
           "hierarchy": "Language CSPM BuiltIn",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.BuiltIn",
           "name": "BuiltIn",
           "package": "CSPM-Frontend",
@@ -6450,6 +7010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eINCOMPLETE list of built-ins that are not CSPM-syntax.\n | Todo: add more BuiltIns here are migrate the AST.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.BuiltIn",
           "name": "builtIns",
           "package": "CSPM-Frontend",
@@ -6460,6 +7021,7 @@
         "index": {
           "description": "INCOMPLETE list of built-ins that are not CSPM-syntax Todo add more BuiltIns here are migrate the AST",
           "hierarchy": "Language CSPM BuiltIn",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.BuiltIn",
           "name": "builtIns",
           "normalized": "[String]",
@@ -6476,6 +7038,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFrontend contains some reexports from other modules\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Frontend",
           "name": "Frontend",
           "package": "CSPM-Frontend",
@@ -6485,6 +7048,7 @@
         "index": {
           "description": "Frontend contains some reexports from other modules",
           "hierarchy": "Language CSPM Frontend",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Frontend",
           "name": "Frontend",
           "package": "CSPM-Frontend",
@@ -6498,6 +7062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Frontend",
           "name": "Bindings",
           "package": "CSPM-Frontend",
@@ -6506,6 +7071,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Frontend",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Frontend",
           "name": "Bindings",
           "package": "CSPM-Frontend",
@@ -6519,6 +7085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Frontend",
           "name": "Labeled",
           "package": "CSPM-Frontend",
@@ -6527,6 +7094,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Frontend",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Frontend",
           "name": "Labeled",
           "package": "CSPM-Frontend",
@@ -6540,6 +7108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Frontend",
           "name": "LexError",
           "package": "CSPM-Frontend",
@@ -6548,6 +7117,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Frontend",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Frontend",
           "name": "LexError",
           "package": "CSPM-Frontend",
@@ -6561,6 +7131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Frontend",
           "name": "Module",
           "package": "CSPM-Frontend",
@@ -6569,6 +7140,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Frontend",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Frontend",
           "name": "Module",
           "package": "CSPM-Frontend",
@@ -6582,6 +7154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Frontend",
           "name": "ModuleFromParser",
           "package": "CSPM-Frontend",
@@ -6590,6 +7163,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Frontend",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Frontend",
           "name": "ModuleFromParser",
           "package": "CSPM-Frontend",
@@ -6604,6 +7178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA module that has gone through renaming\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Frontend",
           "name": "ModuleFromRenaming",
           "package": "CSPM-Frontend",
@@ -6613,6 +7188,7 @@
         "index": {
           "description": "module that has gone through renaming",
           "hierarchy": "Language CSPM Frontend",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Frontend",
           "name": "ModuleFromRenaming",
           "package": "CSPM-Frontend",
@@ -6627,6 +7203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParseError data type. This is an instance of Excpetion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Frontend",
           "name": "ParseError",
           "package": "CSPM-Frontend",
@@ -6636,6 +7213,7 @@
         "index": {
           "description": "ParseError data type This is an instance of Excpetion",
           "hierarchy": "Language CSPM Frontend",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Frontend",
           "name": "ParseError",
           "package": "CSPM-Frontend",
@@ -6649,6 +7227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Frontend",
           "name": "RenameError",
           "package": "CSPM-Frontend",
@@ -6657,6 +7236,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Frontend",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Frontend",
           "name": "RenameError",
           "package": "CSPM-Frontend",
@@ -6671,6 +7251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGather all information about an renaming. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Frontend",
           "name": "RenameInfo",
           "package": "CSPM-Frontend",
@@ -6680,6 +7261,7 @@
         "index": {
           "description": "Gather all information about an renaming",
           "hierarchy": "Language CSPM Frontend",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Frontend",
           "name": "RenameInfo",
           "package": "CSPM-Frontend",
@@ -6693,6 +7275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Frontend",
           "name": "SrcLoc",
           "package": "CSPM-Frontend",
@@ -6701,6 +7284,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Frontend",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Frontend",
           "name": "SrcLoc",
           "package": "CSPM-Frontend",
@@ -6714,6 +7298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Frontend",
           "name": "Token",
           "package": "CSPM-Frontend",
@@ -6722,6 +7307,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Frontend",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Frontend",
           "name": "Token",
           "package": "CSPM-Frontend",
@@ -7204,6 +7790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe version of the CSPM-Frontend library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Frontend",
           "name": "frontendVersion",
           "package": "CSPM-Frontend",
@@ -7214,6 +7801,7 @@
         "index": {
           "description": "The version of the CSPM-Frontend library",
           "hierarchy": "Language CSPM Frontend",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Frontend",
           "name": "frontendVersion",
           "package": "CSPM-Frontend",
@@ -7817,6 +8405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.LexHelper",
           "name": "LexHelper",
           "package": "CSPM-Frontend",
@@ -7825,6 +8414,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM LexHelper",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.LexHelper",
           "name": "LexHelper",
           "package": "CSPM-Frontend",
@@ -7839,6 +8429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a token to a String.\n   If the tokenClasss has a Unicode symbol return the default ASCII string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.LexHelper",
           "name": "asciiTokenString",
           "package": "CSPM-Frontend",
@@ -7849,6 +8440,7 @@
         "index": {
           "description": "Convert token to String If the tokenClasss has Unicode symbol return the default ASCII string",
           "hierarchy": "Language CSPM LexHelper",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.LexHelper",
           "name": "asciiTokenString",
           "normalized": "Token-\u003eString",
@@ -7865,6 +8457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the token a line-comment, block-comment or a Pragma?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.LexHelper",
           "name": "tokenIsComment",
           "package": "CSPM-Frontend",
@@ -7875,6 +8468,7 @@
         "index": {
           "description": "Is the token line-comment block-comment or Pragma",
           "hierarchy": "Language CSPM LexHelper",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.LexHelper",
           "name": "tokenIsComment",
           "normalized": "Token-\u003eBool",
@@ -7891,6 +8485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a token to a String.\n   If the tokenClasss has a Unicode symbol return the default Unicode string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.LexHelper",
           "name": "unicodeTokenString",
           "package": "CSPM-Frontend",
@@ -7901,6 +8496,7 @@
         "index": {
           "description": "Convert token to String If the tokenClasss has Unicode symbol return the default Unicode string",
           "hierarchy": "Language CSPM LexHelper",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.LexHelper",
           "name": "unicodeTokenString",
           "normalized": "Token-\u003eString",
@@ -7917,6 +8513,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis modules defines a Parser for CSP-M\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Parser",
           "name": "Parser",
           "package": "CSPM-Frontend",
@@ -7926,6 +8523,7 @@
         "index": {
           "description": "This modules defines Parser for CSP-M",
           "hierarchy": "Language CSPM Parser",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Parser",
           "name": "Parser",
           "package": "CSPM-Frontend",
@@ -7940,6 +8538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParseError data type. This is an instance of Excpetion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Parser",
           "name": "ParseError",
           "package": "CSPM-Frontend",
@@ -7949,6 +8548,7 @@
         "index": {
           "description": "ParseError data type This is an instance of Excpetion",
           "hierarchy": "Language CSPM Parser",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Parser",
           "name": "ParseError",
           "package": "CSPM-Frontend",
@@ -7963,6 +8563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for CSP-M expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Parser",
           "name": "parseExp",
           "package": "CSPM-Frontend",
@@ -7973,6 +8574,7 @@
         "index": {
           "description": "Parser for CSP-M expressions",
           "hierarchy": "Language CSPM Parser",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Parser",
           "name": "parseExp",
           "package": "CSPM-Frontend",
@@ -7987,6 +8589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for CSP-M patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Parser",
           "name": "parsePattern",
           "package": "CSPM-Frontend",
@@ -7997,6 +8600,7 @@
         "index": {
           "description": "Parser for CSP-M patterns",
           "hierarchy": "Language CSPM Parser",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Parser",
           "name": "parsePattern",
           "package": "CSPM-Frontend",
@@ -8011,6 +8615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for testing sub parsers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Parser",
           "name": "testParser",
           "package": "CSPM-Frontend",
@@ -8021,6 +8626,7 @@
         "index": {
           "description": "Wrapper for testing sub parsers",
           "hierarchy": "Language CSPM Parser",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Parser",
           "name": "testParser",
           "normalized": "PT a-\u003e[Token]-\u003eEither ParseError a",
@@ -8037,6 +8643,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines functions for pretty-printing the \n Abstract Syntax Tree to CSPM syntax.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.PrettyPrinter",
           "name": "PrettyPrinter",
           "package": "CSPM-Frontend",
@@ -8046,6 +8653,7 @@
         "index": {
           "description": "This module defines functions for pretty-printing the Abstract Syntax Tree to CSPM syntax",
           "hierarchy": "Language CSPM PrettyPrinter",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.PrettyPrinter",
           "name": "PrettyPrinter",
           "package": "CSPM-Frontend",
@@ -8059,6 +8667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.PrettyPrinter",
           "name": "pPrint",
           "package": "CSPM-Frontend",
@@ -8067,6 +8676,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM PrettyPrinter",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.PrettyPrinter",
           "name": "pPrint",
           "normalized": "a-\u003eDoc",
@@ -8083,6 +8693,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompute the mapping between the using occurences and the defining occurences of all Identifier in a Module\n Also decide whether to use ground or non-ground- representaions for the translation to Prolog.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Rename",
           "name": "Rename",
           "package": "CSPM-Frontend",
@@ -8092,6 +8703,7 @@
         "index": {
           "description": "Compute the mapping between the using occurences and the defining occurences of all Identifier in Module Also decide whether to use ground or non-ground representaions for the translation to Prolog",
           "hierarchy": "Language CSPM Rename",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Rename",
           "name": "Rename",
           "package": "CSPM-Frontend",
@@ -8106,6 +8718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTag that a module has gone through renaming.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Rename",
           "name": "FromRenaming",
           "package": "CSPM-Frontend",
@@ -8115,6 +8728,7 @@
         "index": {
           "description": "Tag that module has gone through renaming",
           "hierarchy": "Language CSPM Rename",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Rename",
           "name": "FromRenaming",
           "package": "CSPM-Frontend",
@@ -8129,6 +8743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA module that has gone through renaming\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Rename",
           "name": "ModuleFromRenaming",
           "package": "CSPM-Frontend",
@@ -8138,6 +8753,7 @@
         "index": {
           "description": "module that has gone through renaming",
           "hierarchy": "Language CSPM Rename",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Rename",
           "name": "ModuleFromRenaming",
           "package": "CSPM-Frontend",
@@ -8151,6 +8767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Rename",
           "name": "RenameError",
           "package": "CSPM-Frontend",
@@ -8159,6 +8776,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Rename",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Rename",
           "name": "RenameError",
           "package": "CSPM-Frontend",
@@ -8173,6 +8791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGather all information about an renaming. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Rename",
           "name": "RenameInfo",
           "package": "CSPM-Frontend",
@@ -8182,6 +8801,7 @@
         "index": {
           "description": "Gather all information about an renaming",
           "hierarchy": "Language CSPM Rename",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Rename",
           "name": "RenameInfo",
           "package": "CSPM-Frontend",
@@ -8196,6 +8816,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the datatype for sourcelocations and some utility functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "SrcLoc",
           "package": "CSPM-Frontend",
@@ -8205,6 +8826,7 @@
         "index": {
           "description": "This module contains the datatype for sourcelocations and some utility functions",
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "SrcLoc",
           "package": "CSPM-Frontend",
@@ -8218,6 +8840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "SrcCol",
           "package": "CSPM-Frontend",
@@ -8226,6 +8849,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "SrcCol",
           "package": "CSPM-Frontend",
@@ -8239,6 +8863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "SrcLine",
           "package": "CSPM-Frontend",
@@ -8247,6 +8872,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "SrcLine",
           "package": "CSPM-Frontend",
@@ -8260,6 +8886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "SrcLoc",
           "package": "CSPM-Frontend",
@@ -8268,6 +8895,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "SrcLoc",
           "package": "CSPM-Frontend",
@@ -8281,6 +8909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "SrcOffset",
           "package": "CSPM-Frontend",
@@ -8289,6 +8918,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "SrcOffset",
           "package": "CSPM-Frontend",
@@ -8302,6 +8932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "computeEndPos",
           "package": "CSPM-Frontend",
@@ -8311,6 +8942,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "computeEndPos",
           "normalized": "Token-\u003eAlexPosn",
@@ -8326,6 +8958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "getEndCol",
           "package": "CSPM-Frontend",
@@ -8335,6 +8968,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "getEndCol",
           "normalized": "SrcLoc-\u003eSrcCol",
@@ -8350,6 +8984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "getEndLine",
           "package": "CSPM-Frontend",
@@ -8359,6 +8994,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "getEndLine",
           "normalized": "SrcLoc-\u003eSrcLine",
@@ -8374,6 +9010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "getEndOffset",
           "package": "CSPM-Frontend",
@@ -8383,6 +9020,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "getEndOffset",
           "normalized": "SrcLoc-\u003eSrcOffset",
@@ -8398,6 +9036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "getEndToken",
           "package": "CSPM-Frontend",
@@ -8407,6 +9046,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "getEndToken",
           "normalized": "SrcLoc-\u003eToken",
@@ -8422,6 +9062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "getEndTokenId",
           "package": "CSPM-Frontend",
@@ -8431,6 +9072,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "getEndTokenId",
           "normalized": "SrcLoc-\u003eTokenId",
@@ -8446,6 +9088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "getStartCol",
           "package": "CSPM-Frontend",
@@ -8455,6 +9098,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "getStartCol",
           "normalized": "SrcLoc-\u003eSrcCol",
@@ -8470,6 +9114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "getStartLine",
           "package": "CSPM-Frontend",
@@ -8479,6 +9124,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "getStartLine",
           "normalized": "SrcLoc-\u003eSrcLine",
@@ -8494,6 +9140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "getStartOffset",
           "package": "CSPM-Frontend",
@@ -8503,6 +9150,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "getStartOffset",
           "normalized": "SrcLoc-\u003eSrcOffset",
@@ -8518,6 +9166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "getStartToken",
           "package": "CSPM-Frontend",
@@ -8527,6 +9176,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "getStartToken",
           "normalized": "SrcLoc-\u003eToken",
@@ -8542,6 +9192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "getStartTokenId",
           "package": "CSPM-Frontend",
@@ -8551,6 +9202,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "getStartTokenId",
           "normalized": "SrcLoc-\u003eTokenId",
@@ -8566,6 +9218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "getTokenLen",
           "package": "CSPM-Frontend",
@@ -8575,6 +9228,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "getTokenLen",
           "normalized": "SrcLoc-\u003eSrcOffset",
@@ -8590,6 +9244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "mkTokPos",
           "package": "CSPM-Frontend",
@@ -8599,6 +9254,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "mkTokPos",
           "normalized": "Token-\u003eSrcLoc",
@@ -8614,6 +9270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "mkTokSpan",
           "package": "CSPM-Frontend",
@@ -8623,6 +9280,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "mkTokSpan",
           "normalized": "Token-\u003eToken-\u003eSrcLoc",
@@ -8639,6 +9297,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: sourceLoc arithmetics is not reliable\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "srcLocBetween",
           "package": "CSPM-Frontend",
@@ -8649,6 +9308,7 @@
         "index": {
           "description": "Deprecated sourceLoc arithmetics is not reliable",
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "srcLocBetween",
           "normalized": "SrcLoc-\u003eSrcLoc-\u003eSrcLoc",
@@ -8665,6 +9325,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: sourceLoc arithmetics is not reliable\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.SrcLoc",
           "name": "srcLocFromTo",
           "package": "CSPM-Frontend",
@@ -8675,6 +9336,7 @@
         "index": {
           "description": "Deprecated sourceLoc arithmetics is not reliable",
           "hierarchy": "Language CSPM SrcLoc",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.SrcLoc",
           "name": "srcLocFromTo",
           "normalized": "SrcLoc-\u003eSrcLoc-\u003eSrcLoc",
@@ -8691,6 +9353,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the data type Tokens and some helper functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "Token",
           "package": "CSPM-Frontend",
@@ -8700,6 +9363,7 @@
         "index": {
           "description": "This module contains the data type Tokens and some helper functions",
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "Token",
           "package": "CSPM-Frontend",
@@ -8713,6 +9377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "AlexPosn",
           "package": "CSPM-Frontend",
@@ -8721,6 +9386,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "AlexPosn",
           "package": "CSPM-Frontend",
@@ -8734,6 +9400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "LexError",
           "package": "CSPM-Frontend",
@@ -8742,6 +9409,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "LexError",
           "package": "CSPM-Frontend",
@@ -8755,6 +9423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "Token",
           "package": "CSPM-Frontend",
@@ -8763,6 +9432,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "Token",
           "package": "CSPM-Frontend",
@@ -8776,6 +9446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "TokenId",
           "package": "CSPM-Frontend",
@@ -8784,6 +9455,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "TokenId",
           "package": "CSPM-Frontend",
@@ -8797,6 +9469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "AlexPn",
           "package": "CSPM-Frontend",
@@ -8806,6 +9479,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "AlexPn",
           "package": "CSPM-Frontend",
@@ -8819,6 +9493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "Token",
           "package": "CSPM-Frontend",
@@ -8828,6 +9503,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "Token",
           "package": "CSPM-Frontend",
@@ -8841,6 +9517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "TokenId",
           "package": "CSPM-Frontend",
@@ -8850,6 +9527,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "TokenId",
           "package": "CSPM-Frontend",
@@ -8863,6 +9541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "alexCol",
           "package": "CSPM-Frontend",
@@ -8872,6 +9551,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "alexCol",
           "package": "CSPM-Frontend",
@@ -8885,6 +9565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "alexLine",
           "package": "CSPM-Frontend",
@@ -8894,6 +9575,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "alexLine",
           "package": "CSPM-Frontend",
@@ -8907,6 +9589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "alexMove",
           "package": "CSPM-Frontend",
@@ -8916,6 +9599,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "alexMove",
           "normalized": "AlexPosn-\u003eChar-\u003eAlexPosn",
@@ -8931,6 +9615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "alexPos",
           "package": "CSPM-Frontend",
@@ -8940,6 +9625,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "alexPos",
           "package": "CSPM-Frontend",
@@ -8953,6 +9639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "alexStartPos",
           "package": "CSPM-Frontend",
@@ -8962,6 +9649,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "alexStartPos",
           "package": "CSPM-Frontend",
@@ -8975,6 +9663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "mkTokenId",
           "package": "CSPM-Frontend",
@@ -8984,6 +9673,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "mkTokenId",
           "normalized": "Int-\u003eTokenId",
@@ -8999,6 +9689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "pprintAlexPosn",
           "package": "CSPM-Frontend",
@@ -9008,6 +9699,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "pprintAlexPosn",
           "normalized": "AlexPosn-\u003eString",
@@ -9023,6 +9715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "showPosn",
           "package": "CSPM-Frontend",
@@ -9032,6 +9725,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "showPosn",
           "normalized": "AlexPosn-\u003eString",
@@ -9047,6 +9741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "showToken",
           "package": "CSPM-Frontend",
@@ -9056,6 +9751,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "showToken",
           "normalized": "Token-\u003eString",
@@ -9071,6 +9767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "tokenClass",
           "package": "CSPM-Frontend",
@@ -9080,6 +9777,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "tokenClass",
           "package": "CSPM-Frontend",
@@ -9093,6 +9791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "tokenId",
           "package": "CSPM-Frontend",
@@ -9102,6 +9801,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "tokenId",
           "package": "CSPM-Frontend",
@@ -9115,6 +9815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "tokenLen",
           "package": "CSPM-Frontend",
@@ -9124,6 +9825,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "tokenLen",
           "package": "CSPM-Frontend",
@@ -9137,6 +9839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "tokenSentinel",
           "package": "CSPM-Frontend",
@@ -9146,6 +9849,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "tokenSentinel",
           "package": "CSPM-Frontend",
@@ -9159,6 +9863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "tokenStart",
           "package": "CSPM-Frontend",
@@ -9168,6 +9873,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "tokenStart",
           "package": "CSPM-Frontend",
@@ -9181,6 +9887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "tokenString",
           "package": "CSPM-Frontend",
@@ -9190,6 +9897,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "tokenString",
           "package": "CSPM-Frontend",
@@ -9203,6 +9911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Token",
           "name": "unTokenId",
           "package": "CSPM-Frontend",
@@ -9212,6 +9921,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM Token",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Token",
           "name": "unTokenId",
           "package": "CSPM-Frontend",
@@ -9226,6 +9936,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the data type PrimToken.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "TokenClasses",
           "package": "CSPM-Frontend",
@@ -9235,6 +9946,7 @@
         "index": {
           "description": "This module contains the data type PrimToken",
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "TokenClasses",
           "package": "CSPM-Frontend",
@@ -9249,6 +9961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe token classes of the CSP-M lexer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "PrimToken",
           "package": "CSPM-Frontend",
@@ -9258,6 +9971,7 @@
         "index": {
           "description": "The token classes of the CSP-M lexer",
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "PrimToken",
           "package": "CSPM-Frontend",
@@ -9271,6 +9985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "L_BComment",
           "package": "CSPM-Frontend",
@@ -9280,6 +9995,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "L_BComment",
           "package": "CSPM-Frontend",
@@ -9293,6 +10009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "L_EOF",
           "package": "CSPM-Frontend",
@@ -9302,6 +10019,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "L_EOF",
           "package": "CSPM-Frontend",
@@ -9315,6 +10033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "L_Ident",
           "package": "CSPM-Frontend",
@@ -9324,6 +10043,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "L_Ident",
           "package": "CSPM-Frontend",
@@ -9337,6 +10057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "L_Include",
           "package": "CSPM-Frontend",
@@ -9346,6 +10067,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "L_Include",
           "package": "CSPM-Frontend",
@@ -9359,6 +10081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "L_Integer",
           "package": "CSPM-Frontend",
@@ -9368,6 +10091,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "L_Integer",
           "package": "CSPM-Frontend",
@@ -9381,6 +10105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "L_LComment",
           "package": "CSPM-Frontend",
@@ -9390,6 +10115,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "L_LComment",
           "package": "CSPM-Frontend",
@@ -9403,6 +10129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "L_Newline",
           "package": "CSPM-Frontend",
@@ -9412,6 +10139,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "L_Newline",
           "package": "CSPM-Frontend",
@@ -9425,6 +10153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "L_Pragma",
           "package": "CSPM-Frontend",
@@ -9434,6 +10163,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "L_Pragma",
           "package": "CSPM-Frontend",
@@ -9447,6 +10177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "L_String",
           "package": "CSPM-Frontend",
@@ -9456,6 +10187,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "L_String",
           "package": "CSPM-Frontend",
@@ -9469,6 +10201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_Bool",
           "package": "CSPM-Frontend",
@@ -9478,6 +10211,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_Bool",
           "package": "CSPM-Frontend",
@@ -9491,6 +10225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_CHAOS",
           "package": "CSPM-Frontend",
@@ -9500,6 +10235,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_CHAOS",
           "package": "CSPM-Frontend",
@@ -9513,6 +10249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_Events",
           "package": "CSPM-Frontend",
@@ -9522,6 +10259,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_Events",
           "package": "CSPM-Frontend",
@@ -9535,6 +10273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_F",
           "package": "CSPM-Frontend",
@@ -9544,6 +10283,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_F",
           "package": "CSPM-Frontend",
@@ -9556,6 +10296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_FD",
           "package": "CSPM-Frontend",
@@ -9565,6 +10306,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_FD",
           "package": "CSPM-Frontend",
@@ -9578,6 +10320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_Int",
           "package": "CSPM-Frontend",
@@ -9587,6 +10330,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_Int",
           "package": "CSPM-Frontend",
@@ -9600,6 +10344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_Inter",
           "package": "CSPM-Frontend",
@@ -9609,6 +10354,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_Inter",
           "package": "CSPM-Frontend",
@@ -9622,6 +10368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_Refine",
           "package": "CSPM-Frontend",
@@ -9631,6 +10378,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_Refine",
           "package": "CSPM-Frontend",
@@ -9644,6 +10392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_SKIP",
           "package": "CSPM-Frontend",
@@ -9653,6 +10402,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_SKIP",
           "package": "CSPM-Frontend",
@@ -9666,6 +10416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_STOP",
           "package": "CSPM-Frontend",
@@ -9675,6 +10426,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_STOP",
           "package": "CSPM-Frontend",
@@ -9688,6 +10440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_Seq",
           "package": "CSPM-Frontend",
@@ -9697,6 +10450,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_Seq",
           "package": "CSPM-Frontend",
@@ -9710,6 +10464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_Set",
           "package": "CSPM-Frontend",
@@ -9719,6 +10474,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_Set",
           "package": "CSPM-Frontend",
@@ -9732,6 +10488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_T",
           "package": "CSPM-Frontend",
@@ -9741,6 +10498,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_T",
           "package": "CSPM-Frontend",
@@ -9753,6 +10511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_Union",
           "package": "CSPM-Frontend",
@@ -9762,6 +10521,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_Union",
           "package": "CSPM-Frontend",
@@ -9775,6 +10535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_WhiteSpace",
           "package": "CSPM-Frontend",
@@ -9784,6 +10545,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_WhiteSpace",
           "package": "CSPM-Frontend",
@@ -9797,6 +10559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_amp",
           "package": "CSPM-Frontend",
@@ -9806,6 +10569,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_amp",
           "package": "CSPM-Frontend",
@@ -9818,6 +10582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_and",
           "package": "CSPM-Frontend",
@@ -9827,6 +10592,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_and",
           "package": "CSPM-Frontend",
@@ -9839,6 +10605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_assert",
           "package": "CSPM-Frontend",
@@ -9848,6 +10615,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_assert",
           "package": "CSPM-Frontend",
@@ -9860,6 +10628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_at",
           "package": "CSPM-Frontend",
@@ -9869,6 +10638,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_at",
           "package": "CSPM-Frontend",
@@ -9881,6 +10651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_atat",
           "package": "CSPM-Frontend",
@@ -9890,6 +10661,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_atat",
           "package": "CSPM-Frontend",
@@ -9902,6 +10674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_backslash",
           "package": "CSPM-Frontend",
@@ -9911,6 +10684,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_backslash",
           "package": "CSPM-Frontend",
@@ -9923,6 +10697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_box",
           "package": "CSPM-Frontend",
@@ -9932,6 +10707,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_box",
           "package": "CSPM-Frontend",
@@ -9944,6 +10720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_card",
           "package": "CSPM-Frontend",
@@ -9953,6 +10730,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_card",
           "package": "CSPM-Frontend",
@@ -9965,6 +10743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_channel",
           "package": "CSPM-Frontend",
@@ -9974,6 +10753,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_channel",
           "package": "CSPM-Frontend",
@@ -9986,6 +10766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_closeAssertBrack",
           "package": "CSPM-Frontend",
@@ -9995,6 +10776,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_closeAssertBrack",
           "package": "CSPM-Frontend",
@@ -10008,6 +10790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_closeBrace",
           "package": "CSPM-Frontend",
@@ -10017,6 +10800,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_closeBrace",
           "package": "CSPM-Frontend",
@@ -10030,6 +10814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_closeBrack",
           "package": "CSPM-Frontend",
@@ -10039,6 +10824,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_closeBrack",
           "package": "CSPM-Frontend",
@@ -10052,6 +10838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_closeBrackBrack",
           "package": "CSPM-Frontend",
@@ -10061,6 +10848,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_closeBrackBrack",
           "package": "CSPM-Frontend",
@@ -10074,6 +10862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_closeOxBrack",
           "package": "CSPM-Frontend",
@@ -10083,6 +10872,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_closeOxBrack",
           "package": "CSPM-Frontend",
@@ -10096,6 +10886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_closePBrace",
           "package": "CSPM-Frontend",
@@ -10105,6 +10896,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_closePBrace",
           "package": "CSPM-Frontend",
@@ -10118,6 +10910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_closeParen",
           "package": "CSPM-Frontend",
@@ -10127,6 +10920,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_closeParen",
           "package": "CSPM-Frontend",
@@ -10140,6 +10934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_closeSpecialBrack",
           "package": "CSPM-Frontend",
@@ -10149,6 +10944,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_closeSpecialBrack",
           "package": "CSPM-Frontend",
@@ -10162,6 +10958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_colon",
           "package": "CSPM-Frontend",
@@ -10171,6 +10968,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_colon",
           "package": "CSPM-Frontend",
@@ -10183,6 +10981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_comma",
           "package": "CSPM-Frontend",
@@ -10192,6 +10991,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_comma",
           "package": "CSPM-Frontend",
@@ -10204,6 +11004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_concat",
           "package": "CSPM-Frontend",
@@ -10213,6 +11014,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_concat",
           "package": "CSPM-Frontend",
@@ -10225,6 +11027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_datatype",
           "package": "CSPM-Frontend",
@@ -10234,6 +11037,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_datatype",
           "package": "CSPM-Frontend",
@@ -10246,6 +11050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_deadlock",
           "package": "CSPM-Frontend",
@@ -10255,6 +11060,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_deadlock",
           "package": "CSPM-Frontend",
@@ -10267,6 +11073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_deterministic",
           "package": "CSPM-Frontend",
@@ -10276,6 +11083,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_deterministic",
           "package": "CSPM-Frontend",
@@ -10288,6 +11096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_diff",
           "package": "CSPM-Frontend",
@@ -10297,6 +11106,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_diff",
           "package": "CSPM-Frontend",
@@ -10309,6 +11119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_dot",
           "package": "CSPM-Frontend",
@@ -10318,6 +11129,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_dot",
           "package": "CSPM-Frontend",
@@ -10330,6 +11142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_dotdot",
           "package": "CSPM-Frontend",
@@ -10339,6 +11152,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_dotdot",
           "package": "CSPM-Frontend",
@@ -10351,6 +11165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_elem",
           "package": "CSPM-Frontend",
@@ -10360,6 +11175,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_elem",
           "package": "CSPM-Frontend",
@@ -10372,6 +11188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_else",
           "package": "CSPM-Frontend",
@@ -10381,6 +11198,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_else",
           "package": "CSPM-Frontend",
@@ -10393,6 +11211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_empty",
           "package": "CSPM-Frontend",
@@ -10402,6 +11221,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_empty",
           "package": "CSPM-Frontend",
@@ -10414,6 +11234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_eq",
           "package": "CSPM-Frontend",
@@ -10423,6 +11244,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_eq",
           "package": "CSPM-Frontend",
@@ -10435,6 +11257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_exclamation",
           "package": "CSPM-Frontend",
@@ -10444,6 +11267,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_exclamation",
           "package": "CSPM-Frontend",
@@ -10456,6 +11280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_exp",
           "package": "CSPM-Frontend",
@@ -10465,6 +11290,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_exp",
           "package": "CSPM-Frontend",
@@ -10477,6 +11303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_external",
           "package": "CSPM-Frontend",
@@ -10486,6 +11313,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_external",
           "package": "CSPM-Frontend",
@@ -10498,6 +11326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_failure",
           "package": "CSPM-Frontend",
@@ -10507,6 +11336,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_failure",
           "package": "CSPM-Frontend",
@@ -10519,6 +11349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_failureDivergence",
           "package": "CSPM-Frontend",
@@ -10528,6 +11359,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_failureDivergence",
           "package": "CSPM-Frontend",
@@ -10541,6 +11373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_false",
           "package": "CSPM-Frontend",
@@ -10550,6 +11383,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_false",
           "package": "CSPM-Frontend",
@@ -10562,6 +11396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_free",
           "package": "CSPM-Frontend",
@@ -10571,6 +11406,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_free",
           "package": "CSPM-Frontend",
@@ -10583,6 +11419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_ge",
           "package": "CSPM-Frontend",
@@ -10592,6 +11429,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_ge",
           "package": "CSPM-Frontend",
@@ -10604,6 +11442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_gt",
           "package": "CSPM-Frontend",
@@ -10613,6 +11452,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_gt",
           "package": "CSPM-Frontend",
@@ -10625,6 +11465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_hash",
           "package": "CSPM-Frontend",
@@ -10634,6 +11475,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_hash",
           "package": "CSPM-Frontend",
@@ -10646,6 +11488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_hat",
           "package": "CSPM-Frontend",
@@ -10655,6 +11498,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_hat",
           "package": "CSPM-Frontend",
@@ -10667,6 +11511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_head",
           "package": "CSPM-Frontend",
@@ -10676,6 +11521,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_head",
           "package": "CSPM-Frontend",
@@ -10688,6 +11534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_if",
           "package": "CSPM-Frontend",
@@ -10697,6 +11544,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_if",
           "package": "CSPM-Frontend",
@@ -10709,6 +11557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_inter",
           "package": "CSPM-Frontend",
@@ -10718,6 +11567,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_inter",
           "package": "CSPM-Frontend",
@@ -10730,6 +11580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_interleave",
           "package": "CSPM-Frontend",
@@ -10739,6 +11590,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_interleave",
           "package": "CSPM-Frontend",
@@ -10751,6 +11603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_is",
           "package": "CSPM-Frontend",
@@ -10760,6 +11613,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_is",
           "package": "CSPM-Frontend",
@@ -10772,6 +11626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_le",
           "package": "CSPM-Frontend",
@@ -10781,6 +11636,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_le",
           "package": "CSPM-Frontend",
@@ -10793,6 +11649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_leftarrow",
           "package": "CSPM-Frontend",
@@ -10802,6 +11659,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_leftarrow",
           "package": "CSPM-Frontend",
@@ -10814,6 +11672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_leftrightarrow",
           "package": "CSPM-Frontend",
@@ -10823,6 +11682,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_leftrightarrow",
           "package": "CSPM-Frontend",
@@ -10835,6 +11695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_length",
           "package": "CSPM-Frontend",
@@ -10844,6 +11705,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_length",
           "package": "CSPM-Frontend",
@@ -10856,6 +11718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_let",
           "package": "CSPM-Frontend",
@@ -10865,6 +11728,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_let",
           "package": "CSPM-Frontend",
@@ -10877,6 +11741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_livelock",
           "package": "CSPM-Frontend",
@@ -10886,6 +11751,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_livelock",
           "package": "CSPM-Frontend",
@@ -10898,6 +11764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_lt",
           "package": "CSPM-Frontend",
@@ -10907,6 +11774,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_lt",
           "package": "CSPM-Frontend",
@@ -10919,6 +11787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_member",
           "package": "CSPM-Frontend",
@@ -10928,6 +11797,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_member",
           "package": "CSPM-Frontend",
@@ -10940,6 +11810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_mid",
           "package": "CSPM-Frontend",
@@ -10949,6 +11820,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_mid",
           "package": "CSPM-Frontend",
@@ -10961,6 +11833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_minus",
           "package": "CSPM-Frontend",
@@ -10970,6 +11843,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_minus",
           "package": "CSPM-Frontend",
@@ -10982,6 +11856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_nametype",
           "package": "CSPM-Frontend",
@@ -10991,6 +11866,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_nametype",
           "package": "CSPM-Frontend",
@@ -11003,6 +11879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_neq",
           "package": "CSPM-Frontend",
@@ -11012,6 +11889,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_neq",
           "package": "CSPM-Frontend",
@@ -11024,6 +11902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_not",
           "package": "CSPM-Frontend",
@@ -11033,6 +11912,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_not",
           "package": "CSPM-Frontend",
@@ -11045,6 +11925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_null",
           "package": "CSPM-Frontend",
@@ -11054,6 +11935,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_null",
           "package": "CSPM-Frontend",
@@ -11066,6 +11948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_openAssertBrack",
           "package": "CSPM-Frontend",
@@ -11075,6 +11958,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_openAssertBrack",
           "package": "CSPM-Frontend",
@@ -11088,6 +11972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_openBrace",
           "package": "CSPM-Frontend",
@@ -11097,6 +11982,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_openBrace",
           "package": "CSPM-Frontend",
@@ -11110,6 +11996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_openBrack",
           "package": "CSPM-Frontend",
@@ -11119,6 +12006,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_openBrack",
           "package": "CSPM-Frontend",
@@ -11132,6 +12020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_openBrackBrack",
           "package": "CSPM-Frontend",
@@ -11141,6 +12030,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_openBrackBrack",
           "package": "CSPM-Frontend",
@@ -11154,6 +12044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_openOxBrack",
           "package": "CSPM-Frontend",
@@ -11163,6 +12054,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_openOxBrack",
           "package": "CSPM-Frontend",
@@ -11176,6 +12068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_openPBrace",
           "package": "CSPM-Frontend",
@@ -11185,6 +12078,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_openPBrace",
           "package": "CSPM-Frontend",
@@ -11198,6 +12092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_openParen",
           "package": "CSPM-Frontend",
@@ -11207,6 +12102,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_openParen",
           "package": "CSPM-Frontend",
@@ -11220,6 +12116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_or",
           "package": "CSPM-Frontend",
@@ -11229,6 +12126,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_or",
           "package": "CSPM-Frontend",
@@ -11241,6 +12139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_over",
           "package": "CSPM-Frontend",
@@ -11250,6 +12149,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_over",
           "package": "CSPM-Frontend",
@@ -11262,6 +12162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_parallel",
           "package": "CSPM-Frontend",
@@ -11271,6 +12172,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_parallel",
           "package": "CSPM-Frontend",
@@ -11283,6 +12185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_percent",
           "package": "CSPM-Frontend",
@@ -11292,6 +12195,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_percent",
           "package": "CSPM-Frontend",
@@ -11304,6 +12208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_plus",
           "package": "CSPM-Frontend",
@@ -11313,6 +12218,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_plus",
           "package": "CSPM-Frontend",
@@ -11325,6 +12231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_pragma",
           "package": "CSPM-Frontend",
@@ -11334,6 +12241,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_pragma",
           "package": "CSPM-Frontend",
@@ -11346,6 +12254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_print",
           "package": "CSPM-Frontend",
@@ -11355,6 +12264,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_print",
           "package": "CSPM-Frontend",
@@ -11367,6 +12277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_priority",
           "package": "CSPM-Frontend",
@@ -11376,6 +12287,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_priority",
           "package": "CSPM-Frontend",
@@ -11388,6 +12300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_questionmark",
           "package": "CSPM-Frontend",
@@ -11397,6 +12310,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_questionmark",
           "package": "CSPM-Frontend",
@@ -11409,6 +12323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_refusalTesting",
           "package": "CSPM-Frontend",
@@ -11418,6 +12333,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_refusalTesting",
           "package": "CSPM-Frontend",
@@ -11431,6 +12347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_refusalTestingDiv",
           "package": "CSPM-Frontend",
@@ -11440,6 +12357,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_refusalTestingDiv",
           "package": "CSPM-Frontend",
@@ -11453,6 +12371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_revivalTesting",
           "package": "CSPM-Frontend",
@@ -11462,6 +12381,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_revivalTesting",
           "package": "CSPM-Frontend",
@@ -11475,6 +12395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_revivalTestingDiv",
           "package": "CSPM-Frontend",
@@ -11484,6 +12405,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_revivalTestingDiv",
           "package": "CSPM-Frontend",
@@ -11497,6 +12419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_rhd",
           "package": "CSPM-Frontend",
@@ -11506,6 +12429,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_rhd",
           "package": "CSPM-Frontend",
@@ -11518,6 +12442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_rightarrow",
           "package": "CSPM-Frontend",
@@ -11527,6 +12452,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_rightarrow",
           "package": "CSPM-Frontend",
@@ -11539,6 +12465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_semicolon",
           "package": "CSPM-Frontend",
@@ -11548,6 +12475,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_semicolon",
           "package": "CSPM-Frontend",
@@ -11560,6 +12488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_set",
           "package": "CSPM-Frontend",
@@ -11569,6 +12498,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_set",
           "package": "CSPM-Frontend",
@@ -11581,6 +12511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_slash",
           "package": "CSPM-Frontend",
@@ -11590,6 +12521,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_slash",
           "package": "CSPM-Frontend",
@@ -11602,6 +12534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_sqcap",
           "package": "CSPM-Frontend",
@@ -11611,6 +12544,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_sqcap",
           "package": "CSPM-Frontend",
@@ -11623,6 +12557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_subtype",
           "package": "CSPM-Frontend",
@@ -11632,6 +12567,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_subtype",
           "package": "CSPM-Frontend",
@@ -11644,6 +12580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_tail",
           "package": "CSPM-Frontend",
@@ -11653,6 +12590,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_tail",
           "package": "CSPM-Frontend",
@@ -11665,6 +12603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_tau",
           "package": "CSPM-Frontend",
@@ -11674,6 +12613,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_tau",
           "package": "CSPM-Frontend",
@@ -11686,6 +12626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_tauPriorityOp",
           "package": "CSPM-Frontend",
@@ -11695,6 +12636,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_tauPriorityOp",
           "package": "CSPM-Frontend",
@@ -11708,6 +12650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_then",
           "package": "CSPM-Frontend",
@@ -11717,6 +12660,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_then",
           "package": "CSPM-Frontend",
@@ -11729,6 +12673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_times",
           "package": "CSPM-Frontend",
@@ -11738,6 +12683,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_times",
           "package": "CSPM-Frontend",
@@ -11750,6 +12696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_trace",
           "package": "CSPM-Frontend",
@@ -11759,6 +12706,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_trace",
           "package": "CSPM-Frontend",
@@ -11771,6 +12719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_transparent",
           "package": "CSPM-Frontend",
@@ -11780,6 +12729,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_transparent",
           "package": "CSPM-Frontend",
@@ -11792,6 +12742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_triangle",
           "package": "CSPM-Frontend",
@@ -11801,6 +12752,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_triangle",
           "package": "CSPM-Frontend",
@@ -11813,6 +12765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_true",
           "package": "CSPM-Frontend",
@@ -11822,6 +12775,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_true",
           "package": "CSPM-Frontend",
@@ -11834,6 +12788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_underscore",
           "package": "CSPM-Frontend",
@@ -11843,6 +12798,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_underscore",
           "package": "CSPM-Frontend",
@@ -11855,6 +12811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_union",
           "package": "CSPM-Frontend",
@@ -11864,6 +12821,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_union",
           "package": "CSPM-Frontend",
@@ -11876,6 +12834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_within",
           "package": "CSPM-Frontend",
@@ -11885,6 +12844,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM TokenClasses",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.TokenClasses",
           "name": "T_within",
           "package": "CSPM-Frontend",
@@ -11898,6 +12858,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnicode symbols for CPSM operators\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.UnicodeSymbols",
           "name": "UnicodeSymbols",
           "package": "CSPM-Frontend",
@@ -11907,6 +12868,7 @@
         "index": {
           "description": "Unicode symbols for CPSM operators",
           "hierarchy": "Language CSPM UnicodeSymbols",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.UnicodeSymbols",
           "name": "UnicodeSymbols",
           "package": "CSPM-Frontend",
@@ -11920,6 +12882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.UnicodeSymbols",
           "name": "lookupDefaultSymbol",
           "package": "CSPM-Frontend",
@@ -11929,6 +12892,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM UnicodeSymbols",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.UnicodeSymbols",
           "name": "lookupDefaultSymbol",
           "normalized": "PrimToken-\u003eMaybe(Char,String)",
@@ -11944,6 +12908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.UnicodeSymbols",
           "name": "lookupToken",
           "package": "CSPM-Frontend",
@@ -11953,6 +12918,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM UnicodeSymbols",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.UnicodeSymbols",
           "name": "lookupToken",
           "normalized": "Char-\u003eMaybe PrimToken",
@@ -11968,6 +12934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.UnicodeSymbols",
           "name": "unicodeSymbols",
           "package": "CSPM-Frontend",
@@ -11977,6 +12944,7 @@
         },
         "index": {
           "hierarchy": "Language CSPM UnicodeSymbols",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.UnicodeSymbols",
           "name": "unicodeSymbols",
           "normalized": "[(Char,PrimToken,String)]",
@@ -11993,6 +12961,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome Utilities\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Utils",
           "name": "Utils",
           "package": "CSPM-Frontend",
@@ -12002,6 +12971,7 @@
         "index": {
           "description": "Some Utilities",
           "hierarchy": "Language CSPM Utils",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Utils",
           "name": "Utils",
           "package": "CSPM-Frontend",
@@ -12016,6 +12986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmall test function which just parses a String.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:51 UTC 2014",
           "module": "Language.CSPM.Utils",
           "name": "parseString",
           "package": "CSPM-Frontend",
@@ -12026,6 +12997,7 @@
         "index": {
           "description": "Small test function which just parses String",
           "hierarchy": "Language CSPM Utils",
+          "indexed": "2014-03-11T16:35:51",
           "module": "Language.CSPM.Utils",
           "name": "parseString",
           "normalized": "String-\u003eIO ModuleFromParser",

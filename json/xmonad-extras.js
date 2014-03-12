@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xmonad-extras"
+        "phrase": "xmonad-extras",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEvaluate haskell expressions at runtime in the running xmonad instance.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Eval",
           "name": "Eval",
           "package": "xmonad-extras",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Evaluate haskell expressions at runtime in the running xmonad instance",
           "hierarchy": "XMonad Actions Eval",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Eval",
           "name": "Eval",
           "package": "xmonad-extras",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Eval",
           "name": "EvalConfig",
           "package": "xmonad-extras",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Configuration structure",
           "hierarchy": "XMonad Actions Eval",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Eval",
           "name": "EvalConfig",
           "package": "xmonad-extras",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Eval",
           "name": "EvalConfig",
           "package": "xmonad-extras",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "XMonad Actions Eval",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Eval",
           "name": "EvalConfig",
           "package": "xmonad-extras",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults for evaluating expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Eval",
           "name": "defaultEvalConfig",
           "package": "xmonad-extras",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Defaults for evaluating expressions",
           "hierarchy": "XMonad Actions Eval",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Eval",
           "name": "defaultEvalConfig",
           "package": "xmonad-extras",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates a given expression, but discard the returned value. Provided for\n more convenient use in keybindings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Eval",
           "name": "evalExpression",
           "package": "xmonad-extras",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Evaluates given expression but discard the returned value Provided for more convenient use in keybindings",
           "hierarchy": "XMonad Actions Eval",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Eval",
           "name": "evalExpression",
           "normalized": "EvalConfig-\u003eString-\u003eX()",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates a given expression whose result type has to be an instance of Show\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Eval",
           "name": "evalExpressionWithReturn",
           "package": "xmonad-extras",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Evaluates given expression whose result type has to be an instance of Show",
           "hierarchy": "XMonad Actions Eval",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Eval",
           "name": "evalExpressionWithReturn",
           "normalized": "EvalConfig-\u003eString-\u003eX String",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to handle errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Eval",
           "name": "handleError",
           "package": "xmonad-extras",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Function to handle errors",
           "hierarchy": "XMonad Actions Eval",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Eval",
           "name": "handleError",
           "normalized": "InterpreterError-\u003eX String",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModules to import for interpreting the expression.\n The pair consists of the module name and an optional\n qualification of the imported module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Eval",
           "name": "imports",
           "package": "xmonad-extras",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Modules to import for interpreting the expression The pair consists of the module name and an optional qualification of the imported module",
           "hierarchy": "XMonad Actions Eval",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Eval",
           "name": "imports",
           "normalized": "[(ModuleName,Maybe String)]",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther source files that should be loaded\n The definitions of these modules will be visible\n regardless of whether they are exported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Eval",
           "name": "modules",
           "package": "xmonad-extras",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Other source files that should be loaded The definitions of these modules will be visible regardless of whether they are exported",
           "hierarchy": "XMonad Actions Eval",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Eval",
           "name": "modules",
           "normalized": "[String]",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA minimal interface to the \"amixer\" command-line utility.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "Volume",
           "package": "xmonad-extras",
@@ -248,6 +267,7 @@
         "index": {
           "description": "minimal interface to the amixer command-line utility",
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "Volume",
           "package": "xmonad-extras",
@@ -262,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChannels are what amixer calls \"simple controls\".  The most common ones are \"Master\", \"Wave\", and \"PCM\", so these are included in \u003ccode\u003e\u003ca\u003edefaultChannels\u003c/a\u003e\u003c/code\u003e.  It is guaranteed to be safe to pass channel names that don't exist on the default sound device to the *Channels family of functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "defaultChannels",
           "package": "xmonad-extras",
@@ -272,6 +293,7 @@
         "index": {
           "description": "Channels are what amixer calls simple controls The most common ones are Master Wave and PCM so these are included in defaultChannels It is guaranteed to be safe to pass channel names that don exist on the default sound device to the Channels family of functions",
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "defaultChannels",
           "normalized": "[String]",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault options for displaying the volume.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "defaultOSDOpts",
           "package": "xmonad-extras",
@@ -298,6 +321,7 @@
         "index": {
           "description": "Default options for displaying the volume",
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "defaultOSDOpts",
           "normalized": "Bool-\u003eString",
@@ -314,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the mutedness of the default channels.  Returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if any of the channels are muted, and \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "getMute",
           "package": "xmonad-extras",
@@ -324,6 +349,7 @@
         "index": {
           "description": "Get the mutedness of the default channels Returns True if any of the channels are muted and False otherwise",
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "getMute",
           "package": "xmonad-extras",
@@ -337,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "getMuteChannels",
           "package": "xmonad-extras",
@@ -346,6 +373,7 @@
         },
         "index": {
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "getMuteChannels",
           "normalized": "[String]-\u003ea Bool",
@@ -362,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the geometric mean of the volumes on the default channels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "getVolume",
           "package": "xmonad-extras",
@@ -372,6 +401,7 @@
         "index": {
           "description": "Get the geometric mean of the volumes on the default channels",
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "getVolume",
           "package": "xmonad-extras",
@@ -385,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "getVolumeChannels",
           "package": "xmonad-extras",
@@ -394,6 +425,7 @@
         },
         "index": {
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "getVolumeChannels",
           "normalized": "[String]-\u003ea Double",
@@ -410,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet both the volume and the mutedness of the default channels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "getVolumeMute",
           "package": "xmonad-extras",
@@ -420,6 +453,7 @@
         "index": {
           "description": "Get both the volume and the mutedness of the default channels",
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "getVolumeMute",
           "normalized": "a(Double,Bool)",
@@ -435,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "getVolumeMuteChannels",
           "package": "xmonad-extras",
@@ -444,6 +479,7 @@
         },
         "index": {
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "getVolumeMuteChannels",
           "normalized": "[String]-\u003ea(Double,Bool)",
@@ -460,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower the volume on the default channels the given number of percentage points.  Returns the volume it attempts to set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "lowerVolume",
           "package": "xmonad-extras",
@@ -470,6 +507,7 @@
         "index": {
           "description": "Lower the volume on the default channels the given number of percentage points Returns the volume it attempts to set",
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "lowerVolume",
           "normalized": "Double-\u003ea Double",
@@ -485,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "lowerVolumeChannels",
           "package": "xmonad-extras",
@@ -494,6 +533,7 @@
         },
         "index": {
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "lowerVolumeChannels",
           "normalized": "[String]-\u003eDouble-\u003ea Double",
@@ -510,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to the muting on the default channels, and return the modified value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "modifyMute",
           "package": "xmonad-extras",
@@ -520,6 +561,7 @@
         "index": {
           "description": "Apply function to the muting on the default channels and return the modified value",
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "modifyMute",
           "normalized": "(Bool-\u003eBool)-\u003ea Bool",
@@ -535,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "modifyMuteChannels",
           "package": "xmonad-extras",
@@ -544,6 +587,7 @@
         },
         "index": {
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "modifyMuteChannels",
           "normalized": "[String]-\u003e(Bool-\u003eBool)-\u003ea Bool",
@@ -560,6 +604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to the volume of the default channels, and return the modified value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "modifyVolume",
           "package": "xmonad-extras",
@@ -570,6 +615,7 @@
         "index": {
           "description": "Apply function to the volume of the default channels and return the modified value",
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "modifyVolume",
           "normalized": "(Double-\u003eDouble)-\u003ea Double",
@@ -585,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "modifyVolumeChannels",
           "package": "xmonad-extras",
@@ -594,6 +641,7 @@
         },
         "index": {
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "modifyVolumeChannels",
           "normalized": "[String]-\u003e(Double-\u003eDouble)-\u003ea Double",
@@ -610,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to both the volume and the muting of the default channels, and return the modified values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "modifyVolumeMute",
           "package": "xmonad-extras",
@@ -620,6 +669,7 @@
         "index": {
           "description": "Apply function to both the volume and the muting of the default channels and return the modified values",
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "modifyVolumeMute",
           "normalized": "(Double-\u003eBool-\u003e(Double,Bool))-\u003ea(Double,Bool)",
@@ -635,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "modifyVolumeMuteChannels",
           "package": "xmonad-extras",
@@ -644,6 +695,7 @@
         },
         "index": {
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "modifyVolumeMuteChannels",
           "normalized": "[String]-\u003e(Double-\u003eBool-\u003e(Double,Bool))-\u003ea(Double,Bool)",
@@ -660,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to output current volume via osd_cat.  (Needs the osd_cat executable).\n The second parameter is passed True when the speakers are muted and should\n return the options to pass to osd_cat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "osdCat",
           "package": "xmonad-extras",
@@ -670,6 +723,7 @@
         "index": {
           "description": "Helper function to output current volume via osd cat Needs the osd cat executable The second parameter is passed True when the speakers are muted and should return the options to pass to osd cat",
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "osdCat",
           "normalized": "Double-\u003e(Bool-\u003eString)-\u003ea()",
@@ -686,6 +740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise the volume on the default channels the given number of percentage points.  Returns the volume it attempts to set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "raiseVolume",
           "package": "xmonad-extras",
@@ -696,6 +751,7 @@
         "index": {
           "description": "Raise the volume on the default channels the given number of percentage points Returns the volume it attempts to set",
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "raiseVolume",
           "normalized": "Double-\u003ea Double",
@@ -711,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "raiseVolumeChannels",
           "package": "xmonad-extras",
@@ -720,6 +777,7 @@
         },
         "index": {
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "raiseVolumeChannels",
           "normalized": "[String]-\u003eDouble-\u003ea Double",
@@ -736,6 +794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to set the muting on the default channels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "setMute",
           "package": "xmonad-extras",
@@ -746,6 +805,7 @@
         "index": {
           "description": "Attempt to set the muting on the default channels",
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "setMute",
           "normalized": "Bool-\u003ea()",
@@ -761,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "setMuteChannels",
           "package": "xmonad-extras",
@@ -770,6 +831,7 @@
         },
         "index": {
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "setMuteChannels",
           "normalized": "[String]-\u003eBool-\u003ea()",
@@ -786,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to set the default channels to a volume given in percentage of maximum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "setVolume",
           "package": "xmonad-extras",
@@ -796,6 +859,7 @@
         "index": {
           "description": "Attempt to set the default channels to volume given in percentage of maximum",
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "setVolume",
           "normalized": "Double-\u003ea()",
@@ -811,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "setVolumeChannels",
           "package": "xmonad-extras",
@@ -820,6 +885,7 @@
         },
         "index": {
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "setVolumeChannels",
           "normalized": "[String]-\u003eDouble-\u003ea()",
@@ -836,6 +902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to set both the volume in percent and the muting on the default channels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "setVolumeMute",
           "package": "xmonad-extras",
@@ -846,6 +913,7 @@
         "index": {
           "description": "Attempt to set both the volume in percent and the muting on the default channels",
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "setVolumeMute",
           "normalized": "Double-\u003eBool-\u003ea()",
@@ -861,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "setVolumeMuteChannels",
           "package": "xmonad-extras",
@@ -870,6 +939,7 @@
         },
         "index": {
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "setVolumeMuteChannels",
           "normalized": "[String]-\u003eDouble-\u003eBool-\u003ea()",
@@ -886,6 +956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToggle mutedness on the default channels.  Returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e when this attempts to mute the speakers and \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e when this attempts to unmute the speakers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "toggleMute",
           "package": "xmonad-extras",
@@ -896,6 +967,7 @@
         "index": {
           "description": "Toggle mutedness on the default channels Returns True when this attempts to mute the speakers and False when this attempts to unmute the speakers",
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "toggleMute",
           "package": "xmonad-extras",
@@ -909,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Actions.Volume",
           "name": "toggleMuteChannels",
           "package": "xmonad-extras",
@@ -918,6 +991,7 @@
         },
         "index": {
           "hierarchy": "XMonad Actions Volume",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Actions.Volume",
           "name": "toggleMuteChannels",
           "normalized": "[String]-\u003ea Bool",
@@ -934,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA prompt for evaluating Haskell expressions(in the context of the running\n xmonad instance).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Prompt.Eval",
           "name": "Eval",
           "package": "xmonad-extras",
@@ -943,6 +1018,7 @@
         "index": {
           "description": "prompt for evaluating Haskell expressions in the context of the running xmonad instance",
           "hierarchy": "XMonad Prompt Eval",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Prompt.Eval",
           "name": "Eval",
           "package": "xmonad-extras",
@@ -957,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA prompt that evaluates the entered Haskell expression, whose type has\n to be an instance of Show.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Prompt.Eval",
           "name": "evalPrompt",
           "package": "xmonad-extras",
@@ -967,6 +1044,7 @@
         "index": {
           "description": "prompt that evaluates the entered Haskell expression whose type has to be an instance of Show",
           "hierarchy": "XMonad Prompt Eval",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Prompt.Eval",
           "name": "evalPrompt",
           "normalized": "EvalConfig-\u003eXPConfig-\u003eX()",
@@ -983,6 +1061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003eevalPrompt\u003c/a\u003e\u003c/code\u003e, but lets the user supply a function to be\n executed on the returned string, which is produced by applying show\n to the executed expression. (This is a crude solution, but the returned\n type has to be monomorphic)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Prompt.Eval",
           "name": "evalPromptWithOutput",
           "package": "xmonad-extras",
@@ -993,6 +1072,7 @@
         "index": {
           "description": "The same as evalPrompt but lets the user supply function to be executed on the returned string which is produced by applying show to the executed expression This is crude solution but the returned type has to be monomorphic",
           "hierarchy": "XMonad Prompt Eval",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Prompt.Eval",
           "name": "evalPromptWithOutput",
           "normalized": "EvalConfig-\u003eXPConfig-\u003e(String-\u003eX())-\u003eX()",
@@ -1009,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA nice default to have the result of an expression displayed by dzen,\n if it's interesting (i.e. not () or an empty string).\n The first parameter specifies the display time in microseconds, the second parameter\n allows to pass additional options to dzen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Prompt.Eval",
           "name": "showWithDzen",
           "package": "xmonad-extras",
@@ -1019,6 +1100,7 @@
         "index": {
           "description": "nice default to have the result of an expression displayed by dzen if it interesting i.e not or an empty string The first parameter specifies the display time in microseconds the second parameter allows to pass additional options to dzen",
           "hierarchy": "XMonad Prompt Eval",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Prompt.Eval",
           "name": "showWithDzen",
           "normalized": "Int-\u003e[String]-\u003eString-\u003eX()",
@@ -1035,6 +1117,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module lets the user select songs and have MPD add/play them by\n filtering them by user-supplied criteria(E.g. ask for an artist, then for\n the album..)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Prompt.MPD",
           "name": "MPD",
           "package": "xmonad-extras",
@@ -1044,6 +1127,7 @@
         "index": {
           "description": "This module lets the user select songs and have MPD add play them by filtering them by user-supplied criteria E.g ask for an artist then for the album",
           "hierarchy": "XMonad Prompt MPD",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Prompt.MPD",
           "name": "MPD",
           "package": "xmonad-extras",
@@ -1058,6 +1142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows the user to supply a custom way to connect to MPD (e.g. partially\n applied withMPDEx).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Prompt.MPD",
           "name": "RunMPD",
           "package": "xmonad-extras",
@@ -1067,6 +1152,7 @@
         "index": {
           "description": "Allows the user to supply custom way to connect to MPD e.g partially applied withMPDEx",
           "hierarchy": "XMonad Prompt MPD",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Prompt.MPD",
           "name": "RunMPD",
           "package": "xmonad-extras",
@@ -1081,6 +1167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd matching songs and play the first one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Prompt.MPD",
           "name": "addAndPlay",
           "package": "xmonad-extras",
@@ -1091,6 +1178,7 @@
         "index": {
           "description": "Add matching songs and play the first one",
           "hierarchy": "XMonad Prompt MPD",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Prompt.MPD",
           "name": "addAndPlay",
           "normalized": "RunMPD-\u003eXPConfig-\u003e[Metadata]-\u003eX()",
@@ -1107,6 +1195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd all selected songs to the playlist if they are not in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Prompt.MPD",
           "name": "addMatching",
           "package": "xmonad-extras",
@@ -1117,6 +1206,7 @@
         "index": {
           "description": "Add all selected songs to the playlist if they are not in it",
           "hierarchy": "XMonad Prompt MPD",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Prompt.MPD",
           "name": "addMatching",
           "normalized": "RunMPD-\u003eXPConfig-\u003e[Metadata]-\u003eX[Int]",
@@ -1133,6 +1223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLets the user filter out non-matching songs. For example, if given\n [Artist, Album] as third argument, this will prompt the user for an\n artist(with tab-completion), then for an album by that artist and then\n returns the songs from that album.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Prompt.MPD",
           "name": "findMatching",
           "package": "xmonad-extras",
@@ -1143,6 +1234,7 @@
         "index": {
           "description": "Lets the user filter out non-matching songs For example if given Artist Album as third argument this will prompt the user for an artist with tab-completion then for an album by that artist and then returns the songs from that album",
           "hierarchy": "XMonad Prompt MPD",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Prompt.MPD",
           "name": "findMatching",
           "normalized": "RunMPD-\u003eXPConfig-\u003e[Metadata]-\u003eX[Song]",
@@ -1159,6 +1251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine playlist position of the song and add it, if it isn't present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Prompt.MPD",
           "name": "findOrAdd",
           "package": "xmonad-extras",
@@ -1169,6 +1262,7 @@
         "index": {
           "description": "Determine playlist position of the song and add it if it isn present",
           "hierarchy": "XMonad Prompt MPD",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Prompt.MPD",
           "name": "findOrAdd",
           "normalized": "Song-\u003eMPD Int",
@@ -1185,6 +1279,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimilar to XMonad.Util.WindowProperties, but uses posix regular expressions matching\n instead of exact match.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Util.WindowPropertiesRE",
           "name": "WindowPropertiesRE",
           "package": "xmonad-extras",
@@ -1194,6 +1289,7 @@
         "index": {
           "description": "Similar to XMonad.Util.WindowProperties but uses posix regular expressions matching instead of exact match",
           "hierarchy": "XMonad Util WindowPropertiesRE",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Util.WindowPropertiesRE",
           "name": "WindowPropertiesRE",
           "package": "xmonad-extras",
@@ -1208,6 +1304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper for X.U.WindowProperties.Property.\n Checks using regular expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Util.WindowPropertiesRE",
           "name": "PropertyRE",
           "package": "xmonad-extras",
@@ -1217,6 +1314,7 @@
         "index": {
           "description": "wrapper for X.U.WindowProperties.Property Checks using regular expression",
           "hierarchy": "XMonad Util WindowPropertiesRE",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Util.WindowPropertiesRE",
           "name": "PropertyRE",
           "package": "xmonad-extras",
@@ -1231,6 +1329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegular expressions matching for ManageHooks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Util.WindowPropertiesRE",
           "name": "(~?)",
           "package": "xmonad-extras",
@@ -1241,6 +1340,7 @@
         "index": {
           "description": "Regular expressions matching for ManageHooks",
           "hierarchy": "XMonad Util WindowPropertiesRE",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Util.WindowPropertiesRE",
           "name": "(~?) ~?",
           "normalized": "a String-\u003eString-\u003ea Bool",
@@ -1255,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Util.WindowPropertiesRE",
           "name": "RE",
           "package": "xmonad-extras",
@@ -1264,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "XMonad Util WindowPropertiesRE",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Util.WindowPropertiesRE",
           "name": "RE",
           "package": "xmonad-extras",
@@ -1278,6 +1380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes given window have this property?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Util.WindowPropertiesRE",
           "name": "hasPropertyRE",
           "package": "xmonad-extras",
@@ -1288,6 +1391,7 @@
         "index": {
           "description": "Does given window have this property",
           "hierarchy": "XMonad Util WindowPropertiesRE",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Util.WindowPropertiesRE",
           "name": "hasPropertyRE",
           "normalized": "PropertyRE-\u003eWindow-\u003eX Bool",
@@ -1304,6 +1408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to XMonad.Util.WindowProperties.propertyToQuery, \n but uses regexp match instead of exact match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:28 UTC 2014",
           "module": "XMonad.Util.WindowPropertiesRE",
           "name": "propertyToQueryRE",
           "package": "xmonad-extras",
@@ -1314,6 +1419,7 @@
         "index": {
           "description": "Similar to XMonad.Util.WindowProperties.propertyToQuery but uses regexp match instead of exact match",
           "hierarchy": "XMonad Util WindowPropertiesRE",
+          "indexed": "2014-03-11T20:43:28",
           "module": "XMonad.Util.WindowPropertiesRE",
           "name": "propertyToQueryRE",
           "normalized": "Property-\u003eQuery Bool",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "clckwrks-dot-com"
+        "phrase": "clckwrks-dot-com",
+        "type": "phrase"
       },
       "type": "context"
     }

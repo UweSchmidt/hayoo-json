@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "control-bool"
+        "phrase": "control-bool",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUseful combinators for boolean expressions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:53 UTC 2014",
           "module": "Control.Bool",
           "name": "Bool",
           "package": "control-bool",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Useful combinators for boolean expressions",
           "hierarchy": "Control Bool",
+          "indexed": "2014-03-11T17:39:53",
           "module": "Control.Bool",
           "name": "Bool",
           "package": "control-bool",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lifted (\u003ccode\u003e\u003ca\u003e||\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:53 UTC 2014",
           "module": "Control.Bool",
           "name": "(\u003c||\u003e)",
           "package": "control-bool",
@@ -52,6 +55,7 @@
         "index": {
           "description": "lifted",
           "hierarchy": "Control Bool",
+          "indexed": "2014-03-11T17:39:53",
           "module": "Control.Bool",
           "name": "(\u003c||\u003e) \u003c||\u003e",
           "normalized": "a Bool-\u003ea Bool-\u003ea Bool",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lifted (\u003ccode\u003e\u003ca\u003e||\u003c/a\u003e\u003c/code\u003e), but short-circuited.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:53 UTC 2014",
           "module": "Control.Bool",
           "name": "(\u003c|=\u003e)",
           "package": "control-bool",
@@ -77,6 +82,7 @@
         "index": {
           "description": "lifted but short-circuited",
           "hierarchy": "Control Bool",
+          "indexed": "2014-03-11T17:39:53",
           "module": "Control.Bool",
           "name": "(\u003c|=\u003e) \u003c|=\u003e",
           "normalized": "a Bool-\u003ea Bool-\u003ea Bool",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lifted (\u003ccode\u003e\u003ca\u003e&&\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:53 UTC 2014",
           "module": "Control.Bool",
           "name": "(\u003c&&\u003e)",
           "package": "control-bool",
@@ -102,6 +109,7 @@
         "index": {
           "description": "lifted",
           "hierarchy": "Control Bool",
+          "indexed": "2014-03-11T17:39:53",
           "module": "Control.Bool",
           "name": "(\u003c&&\u003e) \u003c&&\u003e",
           "normalized": "a Bool-\u003ea Bool-\u003ea Bool",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lifted (\u003ccode\u003e\u003ca\u003e&&\u003c/a\u003e\u003c/code\u003e), but short-circuited.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:53 UTC 2014",
           "module": "Control.Bool",
           "name": "(\u003c&=\u003e)",
           "package": "control-bool",
@@ -127,6 +136,7 @@
         "index": {
           "description": "lifted but short-circuited",
           "hierarchy": "Control Bool",
+          "indexed": "2014-03-11T17:39:53",
           "module": "Control.Bool",
           "name": "(\u003c&=\u003e) \u003c&=\u003e",
           "normalized": "a Bool-\u003ea Bool-\u003ea Bool",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e analogue of \u003ccode\u003e\u003ca\u003eguard\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:53 UTC 2014",
           "module": "Control.Bool",
           "name": "aguard",
           "package": "control-bool",
@@ -152,6 +163,7 @@
         "index": {
           "description": "An Alternative analogue of guard",
           "hierarchy": "Control Bool",
+          "indexed": "2014-03-11T17:39:53",
           "module": "Control.Bool",
           "name": "aguard",
           "normalized": "Bool-\u003ea()",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eaguard'\u003c/a\u003e\u003c/code\u003e b returns the second argument if b is True, otherwise becomes \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:53 UTC 2014",
           "module": "Control.Bool",
           "name": "aguard'",
           "package": "control-bool",
@@ -177,6 +190,7 @@
         "index": {
           "description": "aguard returns the second argument if is True otherwise becomes empty",
           "hierarchy": "Control Bool",
+          "indexed": "2014-03-11T17:39:53",
           "module": "Control.Bool",
           "name": "aguard'",
           "normalized": "Bool-\u003ea-\u003eb a",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebool a b\u003c/code\u003e is a function that returns a if the argument is True, otherwise returns \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:53 UTC 2014",
           "module": "Control.Bool",
           "name": "bool",
           "package": "control-bool",
@@ -202,6 +217,7 @@
         "index": {
           "description": "bool is function that returns if the argument is True otherwise returns",
           "hierarchy": "Control Bool",
+          "indexed": "2014-03-11T17:39:53",
           "module": "Control.Bool",
           "name": "bool",
           "normalized": "a-\u003ea-\u003eBool-\u003ea",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eguard'\u003c/a\u003e\u003c/code\u003e b a returns a if b is True, otherwise becomes \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:53 UTC 2014",
           "module": "Control.Bool",
           "name": "guard'",
           "package": "control-bool",
@@ -227,6 +244,7 @@
         "index": {
           "description": "guard returns if is True otherwise becomes mzero",
           "hierarchy": "Control Bool",
+          "indexed": "2014-03-11T17:39:53",
           "module": "Control.Bool",
           "name": "guard'",
           "normalized": "Bool-\u003ea-\u003eb a",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eguard'\u003c/a\u003e\u003c/code\u003e b returns the second argument if b is True, otherwise becomes mzero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:53 UTC 2014",
           "module": "Control.Bool",
           "name": "guardM'",
           "package": "control-bool",
@@ -252,6 +271,7 @@
         "index": {
           "description": "guard returns the second argument if is True otherwise becomes mzero",
           "hierarchy": "Control Bool",
+          "indexed": "2014-03-11T17:39:53",
           "module": "Control.Bool",
           "name": "guardM'",
           "normalized": "a Bool-\u003eb-\u003ea b",
@@ -268,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn argument-permuted equivalent of \u003ccode\u003e\u003ca\u003ebool\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:53 UTC 2014",
           "module": "Control.Bool",
           "name": "ifThenElse",
           "package": "control-bool",
@@ -278,6 +299,7 @@
         "index": {
           "description": "An argument-permuted equivalent of bool",
           "hierarchy": "Control Bool",
+          "indexed": "2014-03-11T17:39:53",
           "module": "Control.Bool",
           "name": "ifThenElse",
           "normalized": "Bool-\u003ea-\u003ea-\u003ea",
@@ -293,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:53 UTC 2014",
           "module": "Control.Bool",
           "name": "ifThenElseM",
           "package": "control-bool",
@@ -302,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Control Bool",
+          "indexed": "2014-03-11T17:39:53",
           "module": "Control.Bool",
           "name": "ifThenElseM",
           "normalized": "a Bool-\u003ea b-\u003ea b-\u003ea b",
@@ -318,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lifted \u003ccode\u003e\u003ca\u003enot\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:53 UTC 2014",
           "module": "Control.Bool",
           "name": "notF",
           "package": "control-bool",
@@ -328,6 +353,7 @@
         "index": {
           "description": "lifted not",
           "hierarchy": "Control Bool",
+          "indexed": "2014-03-11T17:39:53",
           "module": "Control.Bool",
           "name": "notF",
           "normalized": "a Bool-\u003ea Bool",
@@ -343,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lifted \u003ccode\u003e\u003ca\u003enot\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:53 UTC 2014",
           "module": "Control.Bool",
           "name": "notM",
           "package": "control-bool",
@@ -353,6 +380,7 @@
         "index": {
           "description": "lifted not",
           "hierarchy": "Control Bool",
+          "indexed": "2014-03-11T17:39:53",
           "module": "Control.Bool",
           "name": "notM",
           "normalized": "a Bool-\u003ea Bool",
@@ -368,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the action if the given monadic condition becomes \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:53 UTC 2014",
           "module": "Control.Bool",
           "name": "unlessM",
           "package": "control-bool",
@@ -378,6 +407,7 @@
         "index": {
           "description": "Run the action if the given monadic condition becomes False",
           "hierarchy": "Control Bool",
+          "indexed": "2014-03-11T17:39:53",
           "module": "Control.Bool",
           "name": "unlessM",
           "normalized": "a Bool-\u003ea b-\u003ea b",
@@ -393,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the action if the given monadic condition becomes \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:53 UTC 2014",
           "module": "Control.Bool",
           "name": "whenM",
           "package": "control-bool",
@@ -403,6 +434,7 @@
         "index": {
           "description": "Run the action if the given monadic condition becomes True",
           "hierarchy": "Control Bool",
+          "indexed": "2014-03-11T17:39:53",
           "module": "Control.Bool",
           "name": "whenM",
           "normalized": "a Bool-\u003ea b-\u003ea b",

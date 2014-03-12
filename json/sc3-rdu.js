@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sc3-rdu"
+        "phrase": "sc3-rdu",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRDU UGen definitions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU.ID",
           "name": "ID",
           "package": "sc3-rdu",
@@ -28,6 +29,7 @@
         "index": {
           "description": "RDU UGen definitions",
           "hierarchy": "Sound SC3 UGen External RDU ID",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU.ID",
           "name": "ID",
           "package": "sc3-rdu",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU.ID",
           "name": "dustR",
           "package": "sc3-rdu",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU ID",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU.ID",
           "name": "dustR",
           "normalized": "a-\u003eRate-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU.ID",
           "name": "expRandN",
           "package": "sc3-rdu",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU ID",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU.ID",
           "name": "expRandN",
           "normalized": "Int-\u003ea-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU.ID",
           "name": "randN",
           "package": "sc3-rdu",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU ID",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU.ID",
           "name": "randN",
           "normalized": "Int-\u003ea-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU.ID",
           "name": "tScramble",
           "package": "sc3-rdu",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU ID",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU.ID",
           "name": "tScramble",
           "normalized": "a-\u003eRate-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRDU UGen definitions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU.Monad",
           "name": "Monad",
           "package": "sc3-rdu",
@@ -145,6 +156,7 @@
         "index": {
           "description": "RDU UGen definitions",
           "hierarchy": "Sound SC3 UGen External RDU Monad",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU.Monad",
           "name": "Monad",
           "package": "sc3-rdu",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU.Monad",
           "name": "dustR",
           "package": "sc3-rdu",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU Monad",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU.Monad",
           "name": "dustR",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU.Monad",
           "name": "expRandN",
           "package": "sc3-rdu",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU Monad",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU.Monad",
           "name": "expRandN",
           "normalized": "Int-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU.Monad",
           "name": "randN",
           "package": "sc3-rdu",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU Monad",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU.Monad",
           "name": "randN",
           "normalized": "Int-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU.Monad",
           "name": "tScramble",
           "package": "sc3-rdu",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU Monad",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU.Monad",
           "name": "tScramble",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRDU UGen definitions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "RDU",
           "package": "sc3-rdu",
@@ -262,6 +283,7 @@
         "index": {
           "description": "RDU UGen definitions",
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "RDU",
           "package": "sc3-rdu",
@@ -275,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "RShufflerB",
           "package": "sc3-rdu",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "RShufflerB",
           "package": "sc3-rdu",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "RShufflerB",
           "package": "sc3-rdu",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "RShufflerB",
           "package": "sc3-rdu",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "bufnum",
           "package": "sc3-rdu",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "bufnum",
           "package": "sc3-rdu",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "durationMaxima",
           "package": "sc3-rdu",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "durationMaxima",
           "package": "sc3-rdu",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "durationMinima",
           "package": "sc3-rdu",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "durationMinima",
           "package": "sc3-rdu",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "dustR_dsc",
           "package": "sc3-rdu",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "dustR_dsc",
           "package": "sc3-rdu",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "envelopeAmplitudeMaxima",
           "package": "sc3-rdu",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "envelopeAmplitudeMaxima",
           "package": "sc3-rdu",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "envelopeAmplitudeMinima",
           "package": "sc3-rdu",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "envelopeAmplitudeMinima",
           "package": "sc3-rdu",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "envelopeShapeMaxima",
           "package": "sc3-rdu",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "envelopeShapeMaxima",
           "package": "sc3-rdu",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "envelopeShapeMinima",
           "package": "sc3-rdu",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "envelopeShapeMinima",
           "package": "sc3-rdu",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "envelopeSkewMaxima",
           "package": "sc3-rdu",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "envelopeSkewMaxima",
           "package": "sc3-rdu",
@@ -514,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "envelopeSkewMinima",
           "package": "sc3-rdu",
@@ -523,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "envelopeSkewMinima",
           "package": "sc3-rdu",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "expRandN_dsc",
           "package": "sc3-rdu",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "expRandN_dsc",
           "package": "sc3-rdu",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "ftableReadLocationIncrement",
           "package": "sc3-rdu",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "ftableReadLocationIncrement",
           "package": "sc3-rdu",
@@ -580,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "interOffsetTimeMaxima",
           "package": "sc3-rdu",
@@ -589,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "interOffsetTimeMaxima",
           "package": "sc3-rdu",
@@ -602,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "interOffsetTimeMinima",
           "package": "sc3-rdu",
@@ -611,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "interOffsetTimeMinima",
           "package": "sc3-rdu",
@@ -624,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "interOffsetTimeQuanta",
           "package": "sc3-rdu",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "interOffsetTimeQuanta",
           "package": "sc3-rdu",
@@ -646,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "osc_U",
           "package": "sc3-rdu",
@@ -655,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "osc_U",
           "normalized": "String-\u003e[Rate]-\u003eRate-\u003e[I]-\u003eInt-\u003eString-\u003eU",
@@ -670,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNetwork of delay line operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rDelayMap",
           "package": "sc3-rdu",
@@ -680,6 +739,7 @@
         "index": {
           "description": "Network of delay line operations",
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rDelayMap",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -695,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rDelayMap_dsc",
           "package": "sc3-rdu",
@@ -704,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rDelayMap_dsc",
           "package": "sc3-rdu",
@@ -717,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rDelaySet",
           "package": "sc3-rdu",
@@ -726,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rDelaySet",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -741,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rDelaySetB",
           "package": "sc3-rdu",
@@ -750,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rDelaySetB",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -765,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rDelaySetB_dsc",
           "package": "sc3-rdu",
@@ -774,6 +841,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rDelaySetB_dsc",
           "package": "sc3-rdu",
@@ -787,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rDelaySet_dsc",
           "package": "sc3-rdu",
@@ -796,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rDelaySet_dsc",
           "package": "sc3-rdu",
@@ -809,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rFreezer",
           "package": "sc3-rdu",
@@ -818,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rFreezer",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -833,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rFreezer_dsc",
           "package": "sc3-rdu",
@@ -842,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rFreezer_dsc",
           "package": "sc3-rdu",
@@ -855,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rPlayTrace",
           "package": "sc3-rdu",
@@ -864,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rPlayTrace",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -879,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rPlayTrace_dsc",
           "package": "sc3-rdu",
@@ -888,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rPlayTrace_dsc",
           "package": "sc3-rdu",
@@ -901,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rShufflerB",
           "package": "sc3-rdu",
@@ -910,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rShufflerB",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -925,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rShufflerB_dsc",
           "package": "sc3-rdu",
@@ -934,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rShufflerB_dsc",
           "package": "sc3-rdu",
@@ -947,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rShufflerB_r",
           "package": "sc3-rdu",
@@ -956,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rShufflerB_r",
           "normalized": "RShufflerB UGen-\u003eUGen",
@@ -971,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rShufflerL",
           "package": "sc3-rdu",
@@ -980,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rShufflerL",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -995,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rShufflerL_dsc",
           "package": "sc3-rdu",
@@ -1004,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rShufflerL_dsc",
           "package": "sc3-rdu",
@@ -1017,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rTraceRd",
           "package": "sc3-rdu",
@@ -1026,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rTraceRd",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -1041,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rTraceRd_dsc",
           "package": "sc3-rdu",
@@ -1050,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rTraceRd_dsc",
           "package": "sc3-rdu",
@@ -1063,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "randN_dsc",
           "package": "sc3-rdu",
@@ -1072,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "randN_dsc",
           "package": "sc3-rdu",
@@ -1084,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rdl",
           "package": "sc3-rdu",
@@ -1093,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rdl",
           "normalized": "Int-\u003eUGen-\u003eUGen",
@@ -1107,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rdl_dsc",
           "package": "sc3-rdu",
@@ -1116,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "rdl_dsc",
           "package": "sc3-rdu",
@@ -1128,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "readIncrementMaxima",
           "package": "sc3-rdu",
@@ -1137,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "readIncrementMaxima",
           "package": "sc3-rdu",
@@ -1150,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "readIncrementMinima",
           "package": "sc3-rdu",
@@ -1159,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "readIncrementMinima",
           "package": "sc3-rdu",
@@ -1172,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "readIncrementQuanta",
           "package": "sc3-rdu",
@@ -1181,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "readIncrementQuanta",
           "package": "sc3-rdu",
@@ -1194,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "readLocationMaxima",
           "package": "sc3-rdu",
@@ -1203,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "readLocationMaxima",
           "package": "sc3-rdu",
@@ -1216,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "readLocationMinima",
           "package": "sc3-rdu",
@@ -1225,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "readLocationMinima",
           "package": "sc3-rdu",
@@ -1238,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "std_I",
           "package": "sc3-rdu",
@@ -1247,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "std_I",
           "normalized": "Int-\u003eString-\u003eDouble-\u003eI",
@@ -1261,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "stereoLocationMaxima",
           "package": "sc3-rdu",
@@ -1270,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "stereoLocationMaxima",
           "package": "sc3-rdu",
@@ -1283,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "stereoLocationMinima",
           "package": "sc3-rdu",
@@ -1292,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "stereoLocationMinima",
           "package": "sc3-rdu",
@@ -1306,6 +1420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of outputs is the length of the inputs array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:57:40 UTC 2014",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "tScramble_dsc",
           "package": "sc3-rdu",
@@ -1316,6 +1431,7 @@
         "index": {
           "description": "The number of outputs is the length of the inputs array",
           "hierarchy": "Sound SC3 UGen External RDU",
+          "indexed": "2014-03-11T19:57:40",
           "module": "Sound.SC3.UGen.External.RDU",
           "name": "tScramble_dsc",
           "package": "sc3-rdu",

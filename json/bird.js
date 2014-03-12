@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bird"
+        "phrase": "bird",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.BirdResponder",
           "name": "BirdResponder",
           "package": "bird",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Bird BirdResponder",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.BirdResponder",
           "name": "BirdResponder",
           "package": "bird",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.BirdResponder",
           "name": "BirdResponder",
           "package": "bird",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Bird BirdResponder",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.BirdResponder",
           "name": "BirdResponder",
           "package": "bird",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Config",
           "name": "Config",
           "package": "bird",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Bird Config",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Config",
           "name": "Config",
           "package": "bird",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Config",
           "name": "BirdConfig",
           "package": "bird",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Bird Config",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Config",
           "name": "BirdConfig",
           "package": "bird",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Config",
           "name": "Router",
           "package": "bird",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Bird Config",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Config",
           "name": "Router",
           "package": "bird",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Config",
           "name": "BirdConfig",
           "package": "bird",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Bird Config",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Config",
           "name": "BirdConfig",
           "package": "bird",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Config",
           "name": "birdLogger",
           "package": "bird",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Bird Config",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Config",
           "name": "birdLogger",
           "normalized": "Request-\u003eRouter-\u003eIO Reply",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Config",
           "name": "staticDir",
           "package": "bird",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Bird Config",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Config",
           "name": "staticDir",
           "package": "bird",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Logger",
           "name": "Logger",
           "package": "bird",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Bird Logger",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Logger",
           "name": "Logger",
           "package": "bird",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Reply",
           "name": "Reply",
           "package": "bird",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Bird Reply",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Reply",
           "name": "Reply",
           "package": "bird",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Reply",
           "name": "Reply",
           "package": "bird",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Bird Reply",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Reply",
           "name": "Reply",
           "package": "bird",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Reply",
           "name": "Reply",
           "package": "bird",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Bird Reply",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Reply",
           "name": "Reply",
           "package": "bird",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Reply",
           "name": "replyBody",
           "package": "bird",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Bird Reply",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Reply",
           "name": "replyBody",
           "package": "bird",
@@ -298,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Reply",
           "name": "replyHeaders",
           "package": "bird",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Bird Reply",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Reply",
           "name": "replyHeaders",
           "package": "bird",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Reply",
           "name": "replyStatus",
           "package": "bird",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Bird Reply",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Reply",
           "name": "replyStatus",
           "package": "bird",
@@ -342,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Request.QueryStringParser",
           "name": "QueryStringParser",
           "package": "bird",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Bird Request QueryStringParser",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Request.QueryStringParser",
           "name": "QueryStringParser",
           "package": "bird",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Request.QueryStringParser",
           "name": "parseQueryString",
           "package": "bird",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Bird Request QueryStringParser",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Request.QueryStringParser",
           "name": "parseQueryString",
           "normalized": "String-\u003e[(String,Maybe String)]",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Request.UrlencodedFormParser",
           "name": "UrlencodedFormParser",
           "package": "bird",
@@ -395,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Bird Request UrlencodedFormParser",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Request.UrlencodedFormParser",
           "name": "UrlencodedFormParser",
           "package": "bird",
@@ -408,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Request.UrlencodedFormParser",
           "name": "parseUrlencodedForm",
           "package": "bird",
@@ -417,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Bird Request UrlencodedFormParser",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Request.UrlencodedFormParser",
           "name": "parseUrlencodedForm",
           "normalized": "String-\u003e[(String,Maybe String)]",
@@ -432,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Request",
           "name": "Request",
           "package": "bird",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Bird Request",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Request",
           "name": "Request",
           "package": "bird",
@@ -453,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Request",
           "name": "Path",
           "package": "bird",
@@ -461,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Bird Request",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Request",
           "name": "Path",
           "package": "bird",
@@ -474,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Request",
           "name": "Request",
           "package": "bird",
@@ -482,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Bird Request",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Request",
           "name": "Request",
           "package": "bird",
@@ -495,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Request",
           "name": "RequestMethod",
           "package": "bird",
@@ -503,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Bird Request",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Request",
           "name": "RequestMethod",
           "package": "bird",
@@ -516,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Request",
           "name": "DELETE",
           "package": "bird",
@@ -525,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Bird Request",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Request",
           "name": "DELETE",
           "package": "bird",
@@ -538,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Request",
           "name": "GET",
           "package": "bird",
@@ -547,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Bird Request",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Request",
           "name": "GET",
           "package": "bird",
@@ -560,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Request",
           "name": "POST",
           "package": "bird",
@@ -569,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Bird Request",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Request",
           "name": "POST",
           "package": "bird",
@@ -582,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Request",
           "name": "PUT",
           "package": "bird",
@@ -591,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Bird Request",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Request",
           "name": "PUT",
           "package": "bird",
@@ -604,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Request",
           "name": "Request",
           "package": "bird",
@@ -613,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Bird Request",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Request",
           "name": "Request",
           "package": "bird",
@@ -626,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Request",
           "name": "params",
           "package": "bird",
@@ -635,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Bird Request",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Request",
           "name": "params",
           "normalized": "[(String,Maybe String)]",
@@ -649,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Request",
           "name": "path",
           "package": "bird",
@@ -658,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Bird Request",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Request",
           "name": "path",
           "package": "bird",
@@ -670,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Request",
           "name": "rawRequestUri",
           "package": "bird",
@@ -679,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Bird Request",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Request",
           "name": "rawRequestUri",
           "package": "bird",
@@ -692,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Request",
           "name": "verb",
           "package": "bird",
@@ -701,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Bird Request",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Request",
           "name": "verb",
           "package": "bird",
@@ -713,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Translator.Hack",
           "name": "Hack",
           "package": "bird",
@@ -721,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Bird Translator Hack",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Translator.Hack",
           "name": "Hack",
           "package": "bird",
@@ -734,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Translator.Hack",
           "name": "fromBirdReply",
           "package": "bird",
@@ -743,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Bird Translator Hack",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Translator.Hack",
           "name": "fromBirdReply",
           "normalized": "Reply-\u003ea",
@@ -758,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Translator.Hack",
           "name": "toBirdRequest",
           "package": "bird",
@@ -767,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Bird Translator Hack",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Translator.Hack",
           "name": "toBirdRequest",
           "normalized": "a-\u003eRequest",
@@ -782,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Translator",
           "name": "Translator",
           "package": "bird",
@@ -790,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Bird Translator",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Translator",
           "name": "Translator",
           "package": "bird",
@@ -803,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Translator",
           "name": "BirdReplyTranslator",
           "package": "bird",
@@ -811,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Bird Translator",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Translator",
           "name": "BirdReplyTranslator",
           "package": "bird",
@@ -824,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Translator",
           "name": "BirdRequestTranslator",
           "package": "bird",
@@ -832,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Bird Translator",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Translator",
           "name": "BirdRequestTranslator",
           "package": "bird",
@@ -845,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Translator",
           "name": "fromBirdReply",
           "package": "bird",
@@ -854,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Bird Translator",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Translator",
           "name": "fromBirdReply",
           "normalized": "Reply-\u003ea",
@@ -869,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird.Translator",
           "name": "toBirdRequest",
           "package": "bird",
@@ -878,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Bird Translator",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird.Translator",
           "name": "toBirdRequest",
           "normalized": "a-\u003eRequest",
@@ -893,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:30 UTC 2014",
           "module": "Bird",
           "name": "Bird",
           "package": "bird",
@@ -901,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Bird",
+          "indexed": "2014-03-11T17:22:30",
           "module": "Bird",
           "name": "Bird",
           "package": "bird",

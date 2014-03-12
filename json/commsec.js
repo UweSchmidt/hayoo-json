@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "commsec"
+        "phrase": "commsec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.BitWindow",
           "name": "BitWindow",
           "package": "commsec",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network CommSec BitWindow",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.BitWindow",
           "name": "BitWindow",
           "package": "commsec",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Bit Window is just an unpacked tuple of base and mask\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.BitWindow",
           "name": "BitWindow",
           "package": "commsec",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Bit Window is just an unpacked tuple of base and mask",
           "hierarchy": "Network CommSec BitWindow",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.BitWindow",
           "name": "BitWindow",
           "package": "commsec",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.BitWindow",
           "name": "updateBitWindow",
           "package": "commsec",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Network CommSec BitWindow",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.BitWindow",
           "name": "updateBitWindow",
           "normalized": "BitWindow-\u003eWord-\u003eEither CommSecError BitWindow",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.BitWindow",
           "name": "zeroWindow",
           "package": "commsec",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Network CommSec BitWindow",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.BitWindow",
           "name": "zeroWindow",
           "package": "commsec",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommSec is a package that provides communication security for\n use with Haskell sockets.  Using an ephemeral shared\n secret you can build contexts for sending or receiving data between one\n or more peers.\n\u003c/p\u003e\u003cp\u003eDo not reuse the shared secret!  Key agreement mechanisms that leverage\n PKI might be added later.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Package",
           "name": "Package",
           "package": "commsec",
@@ -118,6 +127,7 @@
         "index": {
           "description": "CommSec is package that provides communication security for use with Haskell sockets Using an ephemeral shared secret you can build contexts for sending or receiving data between one or more peers Do not reuse the shared secret Key agreement mechanisms that leverage PKI might be added later",
           "hierarchy": "Network CommSec Package",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Package",
           "name": "Package",
           "package": "commsec",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErrors that can be returned by the decoding/receicing operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Package",
           "name": "CommSecError",
           "package": "commsec",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Errors that can be returned by the decoding receicing operations",
           "hierarchy": "Network CommSec Package",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Package",
           "name": "CommSecError",
           "package": "commsec",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA context useful for receiving data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Package",
           "name": "InContext",
           "package": "commsec",
@@ -164,6 +177,7 @@
         "index": {
           "description": "context useful for receiving data",
           "hierarchy": "Network CommSec Package",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Package",
           "name": "InContext",
           "package": "commsec",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA context useful for sending data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Package",
           "name": "OutContext",
           "package": "commsec",
@@ -187,6 +202,7 @@
         "index": {
           "description": "context useful for sending data",
           "hierarchy": "Network CommSec Package",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Package",
           "name": "OutContext",
           "package": "commsec",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolicy for misordered packets.  Notice StrictOrdering does not mean\n every sequence numbered packet will be received, only that the sequence\n number will always increase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Package",
           "name": "SequenceMode",
           "package": "commsec",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Policy for misordered packets Notice StrictOrdering does not mean every sequence numbered packet will be received only that the sequence number will always increase",
           "hierarchy": "Network CommSec Package",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Package",
           "name": "SequenceMode",
           "package": "commsec",
@@ -408,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a package length, returns the number of bytes in the\n underlying message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Package",
           "name": "decBytes",
           "package": "commsec",
@@ -418,6 +437,7 @@
         "index": {
           "description": "Given package length returns the number of bytes in the underlying message",
           "hierarchy": "Network CommSec Package",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Package",
           "name": "decBytes",
           "normalized": "Int-\u003eInt",
@@ -434,6 +454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse an \u003ccode\u003e\u003ca\u003eInContext\u003c/a\u003e\u003c/code\u003e to decrypt a message, verifying the ICV and sequence\n number.  Unlike sending, receiving is more likely to result in an\n exceptional condition and thus it returns an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e\u003cp\u003eMessage format: [ctr, ct, tag].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Package",
           "name": "decode",
           "package": "commsec",
@@ -444,6 +465,7 @@
         "index": {
           "description": "Use an InContext to decrypt message verifying the ICV and sequence number Unlike sending receiving is more likely to result in an exceptional condition and thus it returns an Either value Message format ctr ct tag",
           "hierarchy": "Network CommSec Package",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Package",
           "name": "decode",
           "normalized": "InContext-\u003eByteString-\u003eEither CommSecError(ByteString,InContext)",
@@ -459,6 +481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edecodePtr inCtx pkg msg pkgLen\u003c/code\u003e decrypts and verifies a package at\n location \u003ccode\u003epkg\u003c/code\u003e of size \u003ccode\u003epkgLen\u003c/code\u003e.  The resulting message is placed at\n location \u003ccode\u003emsg\u003c/code\u003e and its size is returned along with a new context (or\n error).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Package",
           "name": "decodePtr",
           "package": "commsec",
@@ -469,6 +492,7 @@
         "index": {
           "description": "decodePtr inCtx pkg msg pkgLen decrypts and verifies package at location pkg of size pkgLen The resulting message is placed at location msg and its size is returned along with new context or error",
           "hierarchy": "Network CommSec Package",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Package",
           "name": "decodePtr",
           "normalized": "InContext-\u003ePtr Word-\u003ePtr Word-\u003eInt-\u003eIO(Either CommSecError(Int,InContext))",
@@ -485,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a message length, returns the number of bytes an encoded message\n will consume.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Package",
           "name": "encBytes",
           "package": "commsec",
@@ -495,6 +520,7 @@
         "index": {
           "description": "Given message length returns the number of bytes an encoded message will consume",
           "hierarchy": "Network CommSec Package",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Package",
           "name": "encBytes",
           "normalized": "Int-\u003eInt",
@@ -511,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse an \u003ccode\u003e\u003ca\u003eOutContext\u003c/a\u003e\u003c/code\u003e to protect a message for transport.\n Message format: [ctr, ct, tag].\n\u003c/p\u003e\u003cp\u003eThis routine can throw an exception of \u003ccode\u003e\u003ca\u003eOldContext\u003c/a\u003e\u003c/code\u003e if the context being\n used has expired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Package",
           "name": "encode",
           "package": "commsec",
@@ -521,6 +548,7 @@
         "index": {
           "description": "Use an OutContext to protect message for transport Message format ctr ct tag This routine can throw an exception of OldContext if the context being used has expired",
           "hierarchy": "Network CommSec Package",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Package",
           "name": "encode",
           "normalized": "OutContext-\u003eByteString-\u003e(ByteString,OutContext)",
@@ -536,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eencodePtr outCtx msg result msgLen\u003c/code\u003e will encode \u003ccode\u003emsgLen\u003c/code\u003e bytes at\n location \u003ccode\u003emsg\u003c/code\u003e, placing the result at location \u003ccode\u003eresult\u003c/code\u003e.  The buffer\n pointed to by \u003ccode\u003eresult\u003c/code\u003e must be at least \u003ccode\u003eencBytes msgLen\u003c/code\u003e bytes large,\n the actual package will be exactly \u003ccode\u003eencBytes msgLen\u003c/code\u003e in size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Package",
           "name": "encodePtr",
           "package": "commsec",
@@ -546,6 +575,7 @@
         "index": {
           "description": "encodePtr outCtx msg result msgLen will encode msgLen bytes at location msg placing the result at location result The buffer pointed to by result must be at least encBytes msgLen bytes large the actual package will be exactly encBytes msgLen in size",
           "hierarchy": "Network CommSec Package",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Package",
           "name": "encodePtr",
           "normalized": "OutContext-\u003ePtr Word-\u003ePtr Word-\u003eInt-\u003eIO OutContext",
@@ -562,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an in context from a counter, salt, and AES key.\n The in context will be \u003ccode\u003e\u003ca\u003eStrictOrdering\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Package",
           "name": "inContext",
           "package": "commsec",
@@ -572,6 +603,7 @@
         "index": {
           "description": "Construct an in context from counter salt and AES key The in context will be StrictOrdering",
           "hierarchy": "Network CommSec Package",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Package",
           "name": "inContext",
           "normalized": "Word-\u003eWord-\u003eAESKey-\u003eInContext",
@@ -588,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven at least 20 bytes of entropy, produce an in context that can\n communicate with an identically initialized out context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Package",
           "name": "newInContext",
           "package": "commsec",
@@ -598,6 +631,7 @@
         "index": {
           "description": "Given at least bytes of entropy produce an in context that can communicate with an identically initialized out context",
           "hierarchy": "Network CommSec Package",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Package",
           "name": "newInContext",
           "normalized": "ByteString-\u003eSequenceMode-\u003eInContext",
@@ -614,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven at least 24 bytes of entropy, produce an out context that can\n communicate with an identically initialized in context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Package",
           "name": "newOutContext",
           "package": "commsec",
@@ -624,6 +659,7 @@
         "index": {
           "description": "Given at least bytes of entropy produce an out context that can communicate with an identically initialized in context",
           "hierarchy": "Network CommSec Package",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Package",
           "name": "newOutContext",
           "normalized": "ByteString-\u003eOutContext",
@@ -640,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an out context from a counter, salt, and AES key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Package",
           "name": "outContext",
           "package": "commsec",
@@ -650,6 +687,7 @@
         "index": {
           "description": "Construct an out context from counter salt and AES key",
           "hierarchy": "Network CommSec Package",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Package",
           "name": "outContext",
           "normalized": "Word-\u003eWord-\u003eAESKey-\u003eOutContext",
@@ -665,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Package",
           "name": "peekBE",
           "package": "commsec",
@@ -674,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Network CommSec Package",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Package",
           "name": "peekBE",
           "normalized": "Ptr Word-\u003eIO Word",
@@ -689,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Package",
           "name": "peekBE32",
           "package": "commsec",
@@ -698,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Network CommSec Package",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Package",
           "name": "peekBE32",
           "normalized": "Ptr Word-\u003eIO Word",
@@ -713,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Package",
           "name": "pokeBE",
           "package": "commsec",
@@ -722,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Network CommSec Package",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Package",
           "name": "pokeBE",
           "normalized": "Ptr Word-\u003eWord-\u003eIO()",
@@ -737,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Package",
           "name": "pokeBE32",
           "package": "commsec",
@@ -746,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Network CommSec Package",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Package",
           "name": "pokeBE32",
           "normalized": "Ptr Word-\u003eWord-\u003eIO()",
@@ -761,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Types",
           "name": "Types",
           "package": "commsec",
@@ -769,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Network CommSec Types",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Types",
           "name": "Types",
           "package": "commsec",
@@ -783,6 +831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErrors that can be returned by the decoding/receicing operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Types",
           "name": "CommSecError",
           "package": "commsec",
@@ -792,6 +841,7 @@
         "index": {
           "description": "Errors that can be returned by the decoding receicing operations",
           "hierarchy": "Network CommSec Types",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Types",
           "name": "CommSecError",
           "package": "commsec",
@@ -806,6 +856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolicy for misordered packets.  Notice StrictOrdering does not mean\n every sequence numbered packet will be received, only that the sequence\n number will always increase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec.Types",
           "name": "SequenceMode",
           "package": "commsec",
@@ -815,6 +866,7 @@
         "index": {
           "description": "Policy for misordered packets Notice StrictOrdering does not mean every sequence numbered packet will be received only that the sequence number will always increase",
           "hierarchy": "Network CommSec Types",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec.Types",
           "name": "SequenceMode",
           "package": "commsec",
@@ -828,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec",
           "name": "CommSec",
           "package": "commsec",
@@ -836,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Network CommSec",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec",
           "name": "CommSec",
           "package": "commsec",
@@ -850,6 +904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErrors that can be returned by the decoding/receicing operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec",
           "name": "CommSecError",
           "package": "commsec",
@@ -859,6 +914,7 @@
         "index": {
           "description": "Errors that can be returned by the decoding receicing operations",
           "hierarchy": "Network CommSec",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec",
           "name": "CommSecError",
           "package": "commsec",
@@ -873,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA connection is a secure bidirectional communication channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec",
           "name": "Connection",
           "package": "commsec",
@@ -882,6 +939,7 @@
         "index": {
           "description": "connection is secure bidirectional communication channel",
           "hierarchy": "Network CommSec",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec",
           "name": "Connection",
           "package": "commsec",
@@ -895,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec",
           "name": "Conn",
           "package": "commsec",
@@ -904,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Network CommSec",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec",
           "name": "Conn",
           "package": "commsec",
@@ -918,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpands the provided 128 (or more) bit secret into two\n keys to create a connection.\n\u003c/p\u003e\u003cp\u003eex: accept ent 3134\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec",
           "name": "accept",
           "package": "commsec",
@@ -928,6 +989,7 @@
         "index": {
           "description": "Expands the provided or more bit secret into two keys to create connection ex accept ent",
           "hierarchy": "Network CommSec",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec",
           "name": "accept",
           "normalized": "ByteString-\u003ePortNumber-\u003eIO Connection",
@@ -943,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose a connection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec",
           "name": "close",
           "package": "commsec",
@@ -953,6 +1016,7 @@
         "index": {
           "description": "Close connection",
           "hierarchy": "Network CommSec",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec",
           "name": "close",
           "normalized": "Connection-\u003eIO()",
@@ -968,6 +1032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpands the provided 128 (or more) bit secret into two\n keys to create a connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec",
           "name": "connect",
           "package": "commsec",
@@ -978,6 +1043,7 @@
         "index": {
           "description": "Expands the provided or more bit secret into two keys to create connection",
           "hierarchy": "Network CommSec",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec",
           "name": "connect",
           "normalized": "ByteString-\u003eHostName-\u003ePortNumber-\u003eIO Connection",
@@ -992,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec",
           "name": "expandSecret",
           "package": "commsec",
@@ -1001,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Network CommSec",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec",
           "name": "expandSecret",
           "normalized": "ByteString-\u003eInt-\u003eByteString",
@@ -1016,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec",
           "name": "inCtx",
           "package": "commsec",
@@ -1025,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Network CommSec",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec",
           "name": "inCtx",
           "package": "commsec",
@@ -1038,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec",
           "name": "outCtx",
           "package": "commsec",
@@ -1047,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Network CommSec",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec",
           "name": "outCtx",
           "package": "commsec",
@@ -1060,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec",
           "name": "recv",
           "package": "commsec",
@@ -1069,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Network CommSec",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec",
           "name": "recv",
           "normalized": "Connection-\u003eIO ByteString",
@@ -1084,6 +1158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlocks till it receives a valid message, placing the resulting plaintext\n in the provided buffer.  If the incoming message is larger that the\n provided buffer then the message is truncated.  This process also incurs\n an additional copy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec",
           "name": "recvPtr",
           "package": "commsec",
@@ -1094,6 +1169,7 @@
         "index": {
           "description": "Blocks till it receives valid message placing the resulting plaintext in the provided buffer If the incoming message is larger that the provided buffer then the message is truncated This process also incurs an additional copy",
           "hierarchy": "Network CommSec",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec",
           "name": "recvPtr",
           "normalized": "Connection-\u003ePtr Word-\u003eInt-\u003eIO Int",
@@ -1110,6 +1186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a datagram, first encrypting it, using the given secure\n connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec",
           "name": "send",
           "package": "commsec",
@@ -1120,6 +1197,7 @@
         "index": {
           "description": "Send datagram first encrypting it using the given secure connection",
           "hierarchy": "Network CommSec",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec",
           "name": "send",
           "normalized": "Connection-\u003eByteString-\u003eIO()",
@@ -1135,6 +1213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a message over the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec",
           "name": "sendPtr",
           "package": "commsec",
@@ -1145,6 +1224,7 @@
         "index": {
           "description": "Sends message over the connection",
           "hierarchy": "Network CommSec",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec",
           "name": "sendPtr",
           "normalized": "Connection-\u003ePtr Word-\u003eInt-\u003eIO()",
@@ -1160,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec",
           "name": "socket",
           "package": "commsec",
@@ -1169,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Network CommSec",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec",
           "name": "socket",
           "package": "commsec",
@@ -1182,6 +1264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaddress of remote\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:36 UTC 2014",
           "module": "Network.CommSec",
           "name": "socketAddr",
           "package": "commsec",
@@ -1192,6 +1275,7 @@
         "index": {
           "description": "address of remote",
           "hierarchy": "Network CommSec",
+          "indexed": "2014-03-11T17:36:36",
           "module": "Network.CommSec",
           "name": "socketAddr",
           "package": "commsec",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "th-desugar"
+        "phrase": "th-desugar",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExpands type synonyms in desugared types, ignoring type families.\nSee also the package th-expand-syns for doing this to non-desugared types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar.Expand",
           "name": "Expand",
           "package": "th-desugar",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Expands type synonyms in desugared types ignoring type families See also the package th-expand-syns for doing this to non-desugared types",
           "hierarchy": "Language Haskell TH Desugar Expand",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar.Expand",
           "name": "Expand",
           "package": "th-desugar",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpand all type synonyms in the desugared abstract syntax tree provided.\n Normally, the first parameter should have a type like \u003ccode\u003e\u003ca\u003eDExp\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eDLetDec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar.Expand",
           "name": "expand",
           "package": "th-desugar",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Expand all type synonyms in the desugared abstract syntax tree provided Normally the first parameter should have type like DExp or DLetDec",
           "hierarchy": "Language Haskell TH Desugar Expand",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar.Expand",
           "name": "expand",
           "normalized": "a-\u003eb a",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpands all type synonyms in a desugared type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar.Expand",
           "name": "expandType",
           "package": "th-desugar",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Expands all type synonyms in desugared type",
           "hierarchy": "Language Haskell TH Desugar Expand",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar.Expand",
           "name": "expandType",
           "normalized": "DType-\u003ea DType",
@@ -93,6 +99,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCapture-avoiding substitution on types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar.Expand",
           "name": "substTy",
           "package": "th-desugar",
@@ -103,6 +110,7 @@
         "index": {
           "description": "Capture-avoiding substitution on types",
           "hierarchy": "Language Haskell TH Desugar Expand",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar.Expand",
           "name": "substTy",
           "normalized": "Map Name DType-\u003eDType-\u003ea DType",
@@ -119,6 +127,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe functions in this module convert desugared Template Haskell back into\n    proper Template Haskell. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "Sweeten",
           "package": "th-desugar",
@@ -128,6 +137,7 @@
         "index": {
           "description": "The functions in this module convert desugared Template Haskell back into proper Template Haskell",
           "hierarchy": "Language Haskell TH Desugar Sweeten",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "Sweeten",
           "package": "th-desugar",
@@ -141,6 +151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "clauseToTH",
           "package": "th-desugar",
@@ -150,6 +161,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar Sweeten",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "clauseToTH",
           "normalized": "DClause-\u003eClause",
@@ -165,6 +177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "expToTH",
           "package": "th-desugar",
@@ -174,6 +187,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar Sweeten",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "expToTH",
           "normalized": "DExp-\u003eExp",
@@ -189,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "kindToTH",
           "package": "th-desugar",
@@ -198,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar Sweeten",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "kindToTH",
           "normalized": "DKind-\u003eKind",
@@ -213,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "letDecToTH",
           "package": "th-desugar",
@@ -222,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar Sweeten",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "letDecToTH",
           "normalized": "DLetDec-\u003eDec",
@@ -237,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "matchToTH",
           "package": "th-desugar",
@@ -246,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar Sweeten",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "matchToTH",
           "normalized": "DMatch-\u003eMatch",
@@ -261,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "patToTH",
           "package": "th-desugar",
@@ -270,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar Sweeten",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "patToTH",
           "normalized": "DPat-\u003ePat",
@@ -285,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "predToTH",
           "package": "th-desugar",
@@ -294,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar Sweeten",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "predToTH",
           "normalized": "DPred-\u003ePred",
@@ -309,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "tvbToTH",
           "package": "th-desugar",
@@ -318,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar Sweeten",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "tvbToTH",
           "normalized": "DTyVarBndr-\u003eTyVarBndr",
@@ -333,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "typeToTH",
           "package": "th-desugar",
@@ -342,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar Sweeten",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar.Sweeten",
           "name": "typeToTH",
           "normalized": "DType-\u003eType",
@@ -358,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDesugars full Template Haskell syntax into a smaller core syntax for further\nprocessing. The desugared types and constructors are prefixed with a D.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "Desugar",
           "package": "th-desugar",
@@ -367,6 +396,7 @@
         "index": {
           "description": "Desugars full Template Haskell syntax into smaller core syntax for further processing The desugared types and constructors are prefixed with",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "Desugar",
           "package": "th-desugar",
@@ -381,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to TH's \u003ccode\u003eClause\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DClause",
           "package": "th-desugar",
@@ -390,6 +421,7 @@
         "index": {
           "description": "Corresponds to TH Clause type",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DClause",
           "package": "th-desugar",
@@ -404,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to TH's \u003ccode\u003eCxt\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DCxt",
           "package": "th-desugar",
@@ -413,6 +446,7 @@
         "index": {
           "description": "Corresponds to TH Cxt",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DCxt",
           "package": "th-desugar",
@@ -427,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to TH's \u003ccode\u003eExp\u003c/code\u003e type. Note that \u003ccode\u003eDLamE\u003c/code\u003e takes names, not patterns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DExp",
           "package": "th-desugar",
@@ -436,6 +471,7 @@
         "index": {
           "description": "Corresponds to TH Exp type Note that DLamE takes names not patterns",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DExp",
           "package": "th-desugar",
@@ -450,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to TH's \u003ccode\u003eKind\u003c/code\u003e type, which is a synonym for \u003ccode\u003eType\u003c/code\u003e. \u003ccode\u003e\u003ca\u003eDKind\u003c/a\u003e\u003c/code\u003e, though,\n   only contains constructors that make sense for kinds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DKind",
           "package": "th-desugar",
@@ -459,6 +496,7 @@
         "index": {
           "description": "Corresponds to TH Kind type which is synonym for Type DKind though only contains constructors that make sense for kinds",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DKind",
           "package": "th-desugar",
@@ -473,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclarations as used in a \u003ccode\u003elet\u003c/code\u003e statement. Other \u003ccode\u003eDec\u003c/code\u003es are not desugared.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DLetDec",
           "package": "th-desugar",
@@ -482,6 +521,7 @@
         "index": {
           "description": "Declarations as used in let statement Other Dec are not desugared",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DLetDec",
           "package": "th-desugar",
@@ -496,6 +536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to TH's \u003ccode\u003eMatch\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DMatch",
           "package": "th-desugar",
@@ -505,6 +546,7 @@
         "index": {
           "description": "Corresponds to TH Match type",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DMatch",
           "package": "th-desugar",
@@ -519,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to TH's \u003ccode\u003ePat\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DPat",
           "package": "th-desugar",
@@ -528,6 +571,7 @@
         "index": {
           "description": "Corresponds to TH Pat type",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DPat",
           "package": "th-desugar",
@@ -542,6 +586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to TH's \u003ccode\u003ePred\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DPred",
           "package": "th-desugar",
@@ -551,6 +596,7 @@
         "index": {
           "description": "Corresponds to TH Pred",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DPred",
           "package": "th-desugar",
@@ -565,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to TH's \u003ccode\u003eTyVarBndr\u003c/code\u003e. Note that \u003ccode\u003ePlainTV x\u003c/code\u003e and \u003ccode\u003eKindedTV x StarT\u003c/code\u003e are\n   distinct, so we retain that distinction here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DTyVarBndr",
           "package": "th-desugar",
@@ -574,6 +621,7 @@
         "index": {
           "description": "Corresponds to TH TyVarBndr Note that PlainTV and KindedTV StarT are distinct so we retain that distinction here",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DTyVarBndr",
           "package": "th-desugar",
@@ -588,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorresponds to TH's \u003ccode\u003eType\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DType",
           "package": "th-desugar",
@@ -597,6 +646,7 @@
         "index": {
           "description": "Corresponds to TH Type type",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DType",
           "package": "th-desugar",
@@ -611,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugaring a pattern also returns the list of variables bound in as-patterns\n and the values they should be bound to. This variables must be brought into\n scope in the \u003ca\u003ebody\u003c/a\u003e of the pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "PatM",
           "package": "th-desugar",
@@ -620,6 +671,7 @@
         "index": {
           "description": "Desugaring pattern also returns the list of variables bound in as-patterns and the values they should be bound to This variables must be brought into scope in the body of the pattern",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "PatM",
           "package": "th-desugar",
@@ -633,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DAppE",
           "package": "th-desugar",
@@ -642,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DAppE",
           "package": "th-desugar",
@@ -655,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DAppT",
           "package": "th-desugar",
@@ -664,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DAppT",
           "package": "th-desugar",
@@ -677,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DArrowK",
           "package": "th-desugar",
@@ -686,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DArrowK",
           "package": "th-desugar",
@@ -699,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DArrowT",
           "package": "th-desugar",
@@ -708,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DArrowT",
           "package": "th-desugar",
@@ -721,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DBangP",
           "package": "th-desugar",
@@ -730,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DBangP",
           "package": "th-desugar",
@@ -743,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DCaseE",
           "package": "th-desugar",
@@ -752,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DCaseE",
           "normalized": "DCaseE DExp[DMatch]",
@@ -767,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DClassP",
           "package": "th-desugar",
@@ -776,6 +841,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DClassP",
           "normalized": "DClassP Name[DType]",
@@ -791,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DClause",
           "package": "th-desugar",
@@ -800,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DClause",
           "normalized": "DClause[DPat]DExp",
@@ -815,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DConE",
           "package": "th-desugar",
@@ -824,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DConE",
           "package": "th-desugar",
@@ -837,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DConK",
           "package": "th-desugar",
@@ -846,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DConK",
           "normalized": "DConK Name[DKind]",
@@ -861,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DConP",
           "package": "th-desugar",
@@ -870,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DConP",
           "normalized": "DConP Name[DPat]",
@@ -885,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DConT",
           "package": "th-desugar",
@@ -894,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DConT",
           "package": "th-desugar",
@@ -907,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DEqualP",
           "package": "th-desugar",
@@ -916,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DEqualP",
           "package": "th-desugar",
@@ -929,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DForallK",
           "package": "th-desugar",
@@ -938,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DForallK",
           "normalized": "DForallK[Name]DKind",
@@ -953,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DForallT",
           "package": "th-desugar",
@@ -962,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DForallT",
           "normalized": "DForallT[DTyVarBndr]DCxt DType",
@@ -977,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DFunD",
           "package": "th-desugar",
@@ -986,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DFunD",
           "normalized": "DFunD Name[DClause]",
@@ -1001,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DInfixD",
           "package": "th-desugar",
@@ -1010,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DInfixD",
           "package": "th-desugar",
@@ -1023,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DKindedTV",
           "package": "th-desugar",
@@ -1032,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DKindedTV",
           "package": "th-desugar",
@@ -1045,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DLamE",
           "package": "th-desugar",
@@ -1054,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DLamE",
           "normalized": "DLamE[Name]DExp",
@@ -1069,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DLetE",
           "package": "th-desugar",
@@ -1078,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DLetE",
           "normalized": "DLetE[DLetDec]DExp",
@@ -1093,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DLitE",
           "package": "th-desugar",
@@ -1102,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DLitE",
           "package": "th-desugar",
@@ -1115,6 +1209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DLitP",
           "package": "th-desugar",
@@ -1124,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DLitP",
           "package": "th-desugar",
@@ -1137,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DLitT",
           "package": "th-desugar",
@@ -1146,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DLitT",
           "package": "th-desugar",
@@ -1159,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DMatch",
           "package": "th-desugar",
@@ -1168,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DMatch",
           "package": "th-desugar",
@@ -1181,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DPlainTV",
           "package": "th-desugar",
@@ -1190,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DPlainTV",
           "package": "th-desugar",
@@ -1203,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DSigD",
           "package": "th-desugar",
@@ -1212,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DSigD",
           "package": "th-desugar",
@@ -1225,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DSigE",
           "package": "th-desugar",
@@ -1234,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DSigE",
           "package": "th-desugar",
@@ -1247,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DSigT",
           "package": "th-desugar",
@@ -1256,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DSigT",
           "package": "th-desugar",
@@ -1269,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DStarK",
           "package": "th-desugar",
@@ -1278,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DStarK",
           "package": "th-desugar",
@@ -1291,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DTildeP",
           "package": "th-desugar",
@@ -1300,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DTildeP",
           "package": "th-desugar",
@@ -1313,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DValD",
           "package": "th-desugar",
@@ -1322,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DValD",
           "package": "th-desugar",
@@ -1335,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DVarE",
           "package": "th-desugar",
@@ -1344,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DVarE",
           "package": "th-desugar",
@@ -1357,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DVarK",
           "package": "th-desugar",
@@ -1366,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DVarK",
           "package": "th-desugar",
@@ -1379,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DVarP",
           "package": "th-desugar",
@@ -1388,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DVarP",
           "package": "th-desugar",
@@ -1401,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DVarT",
           "package": "th-desugar",
@@ -1410,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DVarT",
           "package": "th-desugar",
@@ -1423,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DWildP",
           "package": "th-desugar",
@@ -1432,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "DWildP",
           "package": "th-desugar",
@@ -1446,6 +1570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eDPat\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eDExp\u003c/a\u003e\u003c/code\u003e. Fails on \u003ccode\u003e\u003ca\u003eDWildP\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dPatToDExp",
           "package": "th-desugar",
@@ -1456,6 +1581,7 @@
         "index": {
           "description": "Convert DPat to DExp Fails on DWildP",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dPatToDExp",
           "normalized": "DPat-\u003eDExp",
@@ -1472,6 +1598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom the name of a data constructor, retrieve its definition as a \u003ccode\u003eCon\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dataConNameToCon",
           "package": "th-desugar",
@@ -1482,6 +1609,7 @@
         "index": {
           "description": "From the name of data constructor retrieve its definition as Con",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dataConNameToCon",
           "normalized": "Name-\u003ea Con",
@@ -1498,6 +1626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar a \u003ccode\u003eBody\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsBody",
           "package": "th-desugar",
@@ -1507,6 +1636,7 @@
         "index": {
           "description": "Desugar Body",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsBody",
           "normalized": "Body-\u003e[Dec]-\u003eDExp-\u003ea DExp",
@@ -1523,6 +1653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar clauses to a function definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsClauses",
           "package": "th-desugar",
@@ -1532,6 +1663,7 @@
         "index": {
           "description": "Desugar clauses to function definition",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsClauses",
           "normalized": "Name-\u003e[Clause]-\u003ea[DClause]",
@@ -1548,6 +1680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar the \u003ccode\u003eStmt\u003c/code\u003es in a list or monad comprehension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsComp",
           "package": "th-desugar",
@@ -1558,6 +1691,7 @@
         "index": {
           "description": "Desugar the Stmt in list or monad comprehension",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsComp",
           "normalized": "[Stmt]-\u003ea DExp",
@@ -1574,6 +1708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar the \u003ccode\u003eStmt\u003c/code\u003es in a \u003ccode\u003edo\u003c/code\u003e expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsDoStmts",
           "package": "th-desugar",
@@ -1584,6 +1719,7 @@
         "index": {
           "description": "Desugar the Stmt in do expression",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsDoStmts",
           "normalized": "[Stmt]-\u003ea DExp",
@@ -1600,6 +1736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar an expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsExp",
           "package": "th-desugar",
@@ -1610,6 +1747,7 @@
         "index": {
           "description": "Desugar an expression",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsExp",
           "normalized": "Exp-\u003ea DExp",
@@ -1626,6 +1764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar guarded expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsGuards",
           "package": "th-desugar",
@@ -1635,6 +1774,7 @@
         "index": {
           "description": "Desugar guarded expressions",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsGuards",
           "normalized": "[(Guard,Exp)]-\u003eDExp-\u003ea DExp",
@@ -1651,6 +1791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar a kind\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsKind",
           "package": "th-desugar",
@@ -1661,6 +1802,7 @@
         "index": {
           "description": "Desugar kind",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsKind",
           "normalized": "Kind-\u003ea DKind",
@@ -1677,6 +1819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar a single \u003ccode\u003eDec\u003c/code\u003e, perhaps producing multiple \u003ccode\u003e\u003ca\u003eDLetDec\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsLetDec",
           "package": "th-desugar",
@@ -1687,6 +1830,7 @@
         "index": {
           "description": "Desugar single Dec perhaps producing multiple DLetDec",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsLetDec",
           "normalized": "Dec-\u003ea[DLetDec]",
@@ -1703,6 +1847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar \u003ccode\u003eDec\u003c/code\u003es that can appear in a let expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsLetDecs",
           "package": "th-desugar",
@@ -1713,6 +1858,7 @@
         "index": {
           "description": "Desugar Dec that can appear in let expression",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsLetDecs",
           "normalized": "[Dec]-\u003ea[DLetDec]",
@@ -1729,6 +1875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar a list of matches for a \u003ccode\u003ecase\u003c/code\u003e statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsMatches",
           "package": "th-desugar",
@@ -1738,6 +1885,7 @@
         "index": {
           "description": "Desugar list of matches for case statement",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsMatches",
           "normalized": "Name-\u003e[Match]-\u003ea[DMatch]",
@@ -1754,6 +1902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar a pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsPat",
           "package": "th-desugar",
@@ -1764,6 +1913,7 @@
         "index": {
           "description": "Desugar pattern",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsPat",
           "normalized": "Pat-\u003ePatM a DPat",
@@ -1780,6 +1930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar a pattern, along with processing a (desugared) expression that\n is the entire scope of the variables bound in the pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsPatOverExp",
           "package": "th-desugar",
@@ -1790,6 +1941,7 @@
         "index": {
           "description": "Desugar pattern along with processing desugared expression that is the entire scope of the variables bound in the pattern",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsPatOverExp",
           "normalized": "Pat-\u003eDExp-\u003ea(DPat,DExp)",
@@ -1806,6 +1958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar a pattern, returning a list of (Name, DExp) pairs of extra\n variables that must be bound within the scope of the pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsPatX",
           "package": "th-desugar",
@@ -1816,6 +1969,7 @@
         "index": {
           "description": "Desugar pattern returning list of Name DExp pairs of extra variables that must be bound within the scope of the pattern",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsPatX",
           "normalized": "Pat-\u003ea(DPat,[(Name,DExp)])",
@@ -1832,6 +1986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar multiple patterns. Like \u003ccode\u003e\u003ca\u003edsPatOverExp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsPatsOverExp",
           "package": "th-desugar",
@@ -1842,6 +1997,7 @@
         "index": {
           "description": "Desugar multiple patterns Like dsPatOverExp",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsPatsOverExp",
           "normalized": "[Pat]-\u003eDExp-\u003ea([DPat],DExp)",
@@ -1858,6 +2014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar a \u003ccode\u003ePred\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsPred",
           "package": "th-desugar",
@@ -1868,6 +2025,7 @@
         "index": {
           "description": "Desugar Pred",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsPred",
           "normalized": "Pred-\u003ea DPred",
@@ -1884,6 +2042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar a \u003ccode\u003eTyVarBndr\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsTvb",
           "package": "th-desugar",
@@ -1894,6 +2053,7 @@
         "index": {
           "description": "Desugar TyVarBndr",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsTvb",
           "normalized": "TyVarBndr-\u003ea DTyVarBndr",
@@ -1910,6 +2070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDesugar a type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsType",
           "package": "th-desugar",
@@ -1920,6 +2081,7 @@
         "index": {
           "description": "Desugar type",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "dsType",
           "normalized": "Type-\u003ea DType",
@@ -1936,6 +2098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the names bound in a \u003ccode\u003eDec\u003c/code\u003e that could appear in a \u003ccode\u003elet\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "extractBoundNamesDec",
           "package": "th-desugar",
@@ -1946,6 +2109,7 @@
         "index": {
           "description": "Extract the names bound in Dec that could appear in let expression",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "extractBoundNamesDec",
           "normalized": "Dec-\u003eSet Name",
@@ -1962,6 +2126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the names bound in a \u003ccode\u003ePat\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "extractBoundNamesPat",
           "package": "th-desugar",
@@ -1972,6 +2137,7 @@
         "index": {
           "description": "Extract the names bound in Pat",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "extractBoundNamesPat",
           "normalized": "Pat-\u003eSet Name",
@@ -1988,6 +2154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the names bound in a \u003ccode\u003eStmt\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "extractBoundNamesStmt",
           "package": "th-desugar",
@@ -1998,6 +2165,7 @@
         "index": {
           "description": "Extract the names bound in Stmt",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "extractBoundNamesStmt",
           "normalized": "Stmt-\u003eSet Name",
@@ -2014,6 +2182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the \u003ccode\u003eTyVarBndr\u003c/code\u003es and constructors given the \u003ccode\u003eName\u003c/code\u003e of a type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "getDataD",
           "package": "th-desugar",
@@ -2023,6 +2192,7 @@
         "index": {
           "description": "Extract the TyVarBndr and constructors given the Name of type",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "getDataD",
           "normalized": "String-\u003eName-\u003ea([TyVarBndr],[Con])",
@@ -2039,6 +2209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf matches is non-empty, make a case statement; otherwise make an error statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "maybeDCaseE",
           "package": "th-desugar",
@@ -2049,6 +2220,7 @@
         "index": {
           "description": "If matches is non-empty make case statement otherwise make an error statement",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "maybeDCaseE",
           "normalized": "String-\u003eDExp-\u003e[DMatch]-\u003eDExp",
@@ -2065,6 +2237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf decs is non-empty, delcare them in a let:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "maybeDLetE",
           "package": "th-desugar",
@@ -2075,6 +2248,7 @@
         "index": {
           "description": "If decs is non-empty delcare them in let",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "maybeDLetE",
           "normalized": "[DLetDec]-\u003eDExp-\u003eDExp",
@@ -2091,6 +2265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a tuple \u003ccode\u003e\u003ca\u003eDExp\u003c/a\u003e\u003c/code\u003e from a list of \u003ccode\u003e\u003ca\u003eDExp\u003c/a\u003e\u003c/code\u003es. Avoids using a 1-tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "mkTupleDExp",
           "package": "th-desugar",
@@ -2101,6 +2276,7 @@
         "index": {
           "description": "Make tuple DExp from list of DExp Avoids using tuple",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "mkTupleDExp",
           "normalized": "[DExp]-\u003eDExp",
@@ -2117,6 +2293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a tuple \u003ccode\u003e\u003ca\u003eDPat\u003c/a\u003e\u003c/code\u003e from a list of \u003ccode\u003e\u003ca\u003eDPat\u003c/a\u003e\u003c/code\u003es. Avoids using a 1-tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "mkTupleDPat",
           "package": "th-desugar",
@@ -2127,6 +2304,7 @@
         "index": {
           "description": "Make tuple DPat from list of DPat Avoids using tuple",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "mkTupleDPat",
           "normalized": "[DPat]-\u003eDPat",
@@ -2143,6 +2321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReify a declaration, warning the user about splices if the reify fails.\n The warning says that reification can fail if you try to reify a type in\n the same splice as it is declared.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "reifyWithWarning",
           "package": "th-desugar",
@@ -2153,6 +2332,7 @@
         "index": {
           "description": "Reify declaration warning the user about splices if the reify fails The warning says that reification can fail if you try to reify type in the same splice as it is declared",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "reifyWithWarning",
           "normalized": "Name-\u003ea Info",
@@ -2169,6 +2349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all wildcards from a pattern, replacing any wildcard with a fresh\n   variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:00 UTC 2014",
           "module": "Language.Haskell.TH.Desugar",
           "name": "removeWilds",
           "package": "th-desugar",
@@ -2179,6 +2360,7 @@
         "index": {
           "description": "Remove all wildcards from pattern replacing any wildcard with fresh variable",
           "hierarchy": "Language Haskell TH Desugar",
+          "indexed": "2014-03-11T20:21:00",
           "module": "Language.Haskell.TH.Desugar",
           "name": "removeWilds",
           "normalized": "DPat-\u003ea DPat",

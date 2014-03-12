@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "charade"
+        "phrase": "charade",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:40 UTC 2014",
           "module": "Heist.Charade",
           "name": "Charade",
           "package": "charade",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Heist Charade",
+          "indexed": "2014-03-11T17:31:40",
           "module": "Heist.Charade",
           "name": "Charade",
           "package": "charade",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharade needs to provide a splice that can be bound to eliminate all\n charade-specific attributes from the markup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:40 UTC 2014",
           "module": "Heist.Charade",
           "name": "charadeProductionSplice",
           "package": "charade",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Charade needs to provide splice that can be bound to eliminate all charade-specific attributes from the markup",
           "hierarchy": "Heist Charade",
+          "indexed": "2014-03-11T17:31:40",
           "module": "Heist.Charade",
           "name": "charadeProductionSplice",
           "package": "charade",

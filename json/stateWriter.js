@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "stateWriter"
+        "phrase": "stateWriter",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLazy RSS monad.\n\u003c/p\u003e\u003cp\u003eThis is a variant of the classic \u003ca\u003eControl.Monad..RWS.Lazy\u003c/a\u003e transformer,\n where the Writer part rides with the State part.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:53 UTC 2014",
           "module": "Control.Monad.RSS.Lazy",
           "name": "Lazy",
           "package": "stateWriter",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Lazy RSS monad This is variant of the classic Control.Monad..RWS.Lazy transformer where the Writer part rides with the State part",
           "hierarchy": "Control Monad RSS Lazy",
+          "indexed": "2014-03-11T20:09:53",
           "module": "Control.Monad.RSS.Lazy",
           "name": "Lazy",
           "package": "stateWriter",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad containing an environment of type \u003ccode\u003er\u003c/code\u003e, output of type \u003ccode\u003ew\u003c/code\u003e\n and an updatable state of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:53 UTC 2014",
           "module": "Control.Monad.RSS.Lazy",
           "name": "RSS",
           "package": "stateWriter",
@@ -51,6 +54,7 @@
         "index": {
           "description": "monad containing an environment of type output of type and an updatable state of type",
           "hierarchy": "Control Monad RSS Lazy",
+          "indexed": "2014-03-11T20:09:53",
           "module": "Control.Monad.RSS.Lazy",
           "name": "RSS",
           "package": "stateWriter",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad transformer adding reading an environment of type \u003ccode\u003er\u003c/code\u003e,\n collecting an output of type \u003ccode\u003ew\u003c/code\u003e and updating a state of type \u003ccode\u003es\u003c/code\u003e\n to an inner monad \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:53 UTC 2014",
           "module": "Control.Monad.RSS.Lazy",
           "name": "RSST",
           "package": "stateWriter",
@@ -74,6 +79,7 @@
         "index": {
           "description": "monad transformer adding reading an environment of type collecting an output of type and updating state of type to an inner monad",
           "hierarchy": "Control Monad RSS Lazy",
+          "indexed": "2014-03-11T20:09:53",
           "module": "Control.Monad.RSS.Lazy",
           "name": "RSST",
           "package": "stateWriter",
@@ -297,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStrict RSS monad.\n\u003c/p\u003e\u003cp\u003eThis is a variant of the classic \u003ca\u003eControl.Monad..RWS.Strict\u003c/a\u003e transformer,\n where the Writer part rides with the State part.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:53 UTC 2014",
           "module": "Control.Monad.RSS.Strict",
           "name": "Strict",
           "package": "stateWriter",
@@ -306,6 +313,7 @@
         "index": {
           "description": "Strict RSS monad This is variant of the classic Control.Monad..RWS.Strict transformer where the Writer part rides with the State part",
           "hierarchy": "Control Monad RSS Strict",
+          "indexed": "2014-03-11T20:09:53",
           "module": "Control.Monad.RSS.Strict",
           "name": "Strict",
           "package": "stateWriter",
@@ -320,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad containing an environment of type \u003ccode\u003er\u003c/code\u003e, output of type \u003ccode\u003ew\u003c/code\u003e\n and an updatable state of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:53 UTC 2014",
           "module": "Control.Monad.RSS.Strict",
           "name": "RSS",
           "package": "stateWriter",
@@ -329,6 +338,7 @@
         "index": {
           "description": "monad containing an environment of type output of type and an updatable state of type",
           "hierarchy": "Control Monad RSS Strict",
+          "indexed": "2014-03-11T20:09:53",
           "module": "Control.Monad.RSS.Strict",
           "name": "RSS",
           "package": "stateWriter",
@@ -343,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad transformer adding reading an environment of type \u003ccode\u003er\u003c/code\u003e,\n collecting an output of type \u003ccode\u003ew\u003c/code\u003e and updating a state of type \u003ccode\u003es\u003c/code\u003e\n to an inner monad \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:53 UTC 2014",
           "module": "Control.Monad.RSS.Strict",
           "name": "RSST",
           "package": "stateWriter",
@@ -352,6 +363,7 @@
         "index": {
           "description": "monad transformer adding reading an environment of type collecting an output of type and updating state of type to an inner monad",
           "hierarchy": "Control Monad RSS Strict",
+          "indexed": "2014-03-11T20:09:53",
           "module": "Control.Monad.RSS.Strict",
           "name": "RSST",
           "package": "stateWriter",
@@ -470,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:53 UTC 2014",
           "module": "Control.Monad.RSS",
           "name": "RSS",
           "package": "stateWriter",
@@ -478,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Control Monad RSS",
+          "indexed": "2014-03-11T20:09:53",
           "module": "Control.Monad.RSS",
           "name": "RSS",
           "package": "stateWriter",
@@ -491,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:53 UTC 2014",
           "module": "Control.Monad.Trans.RSS.Lazy",
           "name": "Lazy",
           "package": "stateWriter",
@@ -499,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RSS Lazy",
+          "indexed": "2014-03-11T20:09:53",
           "module": "Control.Monad.Trans.RSS.Lazy",
           "name": "Lazy",
           "package": "stateWriter",
@@ -513,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad containing an environment of type \u003ccode\u003er\u003c/code\u003e, output of type \u003ccode\u003ew\u003c/code\u003e\n and an updatable state of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:53 UTC 2014",
           "module": "Control.Monad.Trans.RSS.Lazy",
           "name": "RSS",
           "package": "stateWriter",
@@ -522,6 +539,7 @@
         "index": {
           "description": "monad containing an environment of type output of type and an updatable state of type",
           "hierarchy": "Control Monad Trans RSS Lazy",
+          "indexed": "2014-03-11T20:09:53",
           "module": "Control.Monad.Trans.RSS.Lazy",
           "name": "RSS",
           "package": "stateWriter",
@@ -536,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad transformer adding reading an environment of type \u003ccode\u003er\u003c/code\u003e,\n collecting an output of type \u003ccode\u003ew\u003c/code\u003e and updating a state of type \u003ccode\u003es\u003c/code\u003e\n to an inner monad \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:53 UTC 2014",
           "module": "Control.Monad.Trans.RSS.Lazy",
           "name": "RSST",
           "package": "stateWriter",
@@ -545,6 +564,7 @@
         "index": {
           "description": "monad transformer adding reading an environment of type collecting an output of type and updating state of type to an inner monad",
           "hierarchy": "Control Monad Trans RSS Lazy",
+          "indexed": "2014-03-11T20:09:53",
           "module": "Control.Monad.Trans.RSS.Lazy",
           "name": "RSST",
           "package": "stateWriter",
@@ -558,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:53 UTC 2014",
           "module": "Control.Monad.Trans.RSS.Lazy",
           "name": "runRSST",
           "package": "stateWriter",
@@ -567,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RSS Lazy",
+          "indexed": "2014-03-11T20:09:53",
           "module": "Control.Monad.Trans.RSS.Lazy",
           "name": "runRSST",
           "normalized": "RSST a b c d e-\u003ea-\u003ec-\u003ed(e,c,b)",
@@ -582,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:53 UTC 2014",
           "module": "Control.Monad.Trans.RSS.Strict",
           "name": "Strict",
           "package": "stateWriter",
@@ -590,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RSS Strict",
+          "indexed": "2014-03-11T20:09:53",
           "module": "Control.Monad.Trans.RSS.Strict",
           "name": "Strict",
           "package": "stateWriter",
@@ -604,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad containing an environment of type \u003ccode\u003er\u003c/code\u003e, output of type \u003ccode\u003ew\u003c/code\u003e\n and an updatable state of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:53 UTC 2014",
           "module": "Control.Monad.Trans.RSS.Strict",
           "name": "RSS",
           "package": "stateWriter",
@@ -613,6 +638,7 @@
         "index": {
           "description": "monad containing an environment of type output of type and an updatable state of type",
           "hierarchy": "Control Monad Trans RSS Strict",
+          "indexed": "2014-03-11T20:09:53",
           "module": "Control.Monad.Trans.RSS.Strict",
           "name": "RSS",
           "package": "stateWriter",
@@ -627,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad transformer adding reading an environment of type \u003ccode\u003er\u003c/code\u003e,\n collecting an output of type \u003ccode\u003ew\u003c/code\u003e and updating a state of type \u003ccode\u003es\u003c/code\u003e\n to an inner monad \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:53 UTC 2014",
           "module": "Control.Monad.Trans.RSS.Strict",
           "name": "RSST",
           "package": "stateWriter",
@@ -636,6 +663,7 @@
         "index": {
           "description": "monad transformer adding reading an environment of type collecting an output of type and updating state of type to an inner monad",
           "hierarchy": "Control Monad Trans RSS Strict",
+          "indexed": "2014-03-11T20:09:53",
           "module": "Control.Monad.Trans.RSS.Strict",
           "name": "RSST",
           "package": "stateWriter",
@@ -649,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:53 UTC 2014",
           "module": "Control.Monad.Trans.RSS.Strict",
           "name": "runRSST",
           "package": "stateWriter",
@@ -658,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RSS Strict",
+          "indexed": "2014-03-11T20:09:53",
           "module": "Control.Monad.Trans.RSS.Strict",
           "name": "runRSST",
           "normalized": "RSST a b c d e-\u003ea-\u003ec-\u003ed(e,c,b)",
@@ -673,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:53 UTC 2014",
           "module": "Control.Monad.Trans.RSS",
           "name": "RSS",
           "package": "stateWriter",
@@ -681,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans RSS",
+          "indexed": "2014-03-11T20:09:53",
           "module": "Control.Monad.Trans.RSS",
           "name": "RSS",
           "package": "stateWriter",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "delicious"
+        "phrase": "delicious",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple GET/de-ref of URLs; abstracting out networking backend/package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Fetch",
           "name": "Fetch",
           "package": "delicious",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Simple GET de-ref of URLs abstracting out networking backend package",
           "hierarchy": "Network Delicious Fetch",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Fetch",
           "name": "Fetch",
           "package": "delicious",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Fetch",
           "name": "URLString",
           "package": "delicious",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Fetch",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Fetch",
           "name": "URLString",
           "package": "delicious",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ereadContentsURL\u003c/code\u003e fetches the content from the given URL, \u003ccode\u003eu\u003c/code\u003e.\n Via a standard, non-authenticated, \u003ccode\u003eGET\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Fetch",
           "name": "readContentsURL",
           "package": "delicious",
@@ -72,6 +77,7 @@
         "index": {
           "description": "readContentsURL fetches the content from the given URL Via standard non-authenticated GET",
           "hierarchy": "Network Delicious Fetch",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Fetch",
           "name": "readContentsURL",
           "normalized": "String-\u003eURLString-\u003eIO String",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ereadContentsURL\u003c/a\u003e\u003c/code\u003e, but HTTP authenticated using the supplied\n credentials.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Fetch",
           "name": "readUserContentsURL",
           "package": "delicious",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Like readContentsURL but HTTP authenticated using the supplied credentials",
           "hierarchy": "Network Delicious Fetch",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Fetch",
           "name": "readUserContentsURL",
           "normalized": "User-\u003eString-\u003eURLString-\u003eIO String",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAccess del.icio.us JSON services.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://del.icio.us/help/json/\u003c/a\u003e for more details on the API.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eYou can use JSON feeds at del.icio.us to fetch, remix, and mashup a\n variety of data for use in your own custom applications and\n browser-based presentation styles.\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "JSON",
           "package": "delicious",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Access del.icio.us JSON services See http del.icio.us help json for more details on the API You can use JSON feeds at del.icio.us to fetch remix and mashup variety of data for use in your own custom applications and browser-based presentation styles",
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "JSON",
           "package": "delicious",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "HtmlFeed",
           "package": "delicious",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "HtmlFeed",
           "package": "delicious",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA structure represening the the delicious tags associated with a url.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "URLDetails",
           "package": "delicious",
@@ -167,6 +180,7 @@
         "index": {
           "description": "structure represening the the delicious tags associated with url",
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "URLDetails",
           "package": "delicious",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "HtmlFeed",
           "package": "delicious",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "HtmlFeed",
           "package": "delicious",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "URLDetails",
           "package": "delicious",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "URLDetails",
           "package": "delicious",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "baseHtmlFeed",
           "package": "delicious",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "baseHtmlFeed",
           "package": "delicious",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "feed_html_url",
           "package": "delicious",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "feed_html_url",
           "package": "delicious",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getHotlist",
           "package": "delicious",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getHotlist",
           "normalized": "DM[Post]",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getHtmlForTag",
           "package": "delicious",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getHtmlForTag",
           "normalized": "HtmlFeed-\u003eMaybe Tag-\u003eDM String",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getNetworkFans",
           "package": "delicious",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getNetworkFans",
           "normalized": "String-\u003eDM[Post]",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getNetworkMemberBookmarks",
           "package": "delicious",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getNetworkMemberBookmarks",
           "normalized": "String-\u003eDM[Post]",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getNetworkMemberTaggedBookmarks",
           "package": "delicious",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getNetworkMemberTaggedBookmarks",
           "normalized": "String-\u003e[Tag]-\u003eDM[Post]",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getNetworkMembers",
           "package": "delicious",
@@ -396,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getNetworkMembers",
           "normalized": "String-\u003eDM[Post]",
@@ -411,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getPopularBookmarks",
           "package": "delicious",
@@ -420,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getPopularBookmarks",
           "normalized": "DM[Post]",
@@ -435,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getRecentBookmarks",
           "package": "delicious",
@@ -444,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getRecentBookmarks",
           "normalized": "DM[Post]",
@@ -459,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getSiteAlerts",
           "package": "delicious",
@@ -468,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getSiteAlerts",
           "normalized": "DM[Post]",
@@ -483,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getTagBookmarks",
           "package": "delicious",
@@ -492,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getTagBookmarks",
           "normalized": "Tag-\u003eDM[Post]",
@@ -507,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getTagPopularBookmarks",
           "package": "delicious",
@@ -516,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getTagPopularBookmarks",
           "normalized": "Tag-\u003eDM[Post]",
@@ -531,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getTagsBookmarks",
           "package": "delicious",
@@ -540,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getTagsBookmarks",
           "normalized": "[Tag]-\u003eDM[Post]",
@@ -555,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getURLBookmarks",
           "package": "delicious",
@@ -564,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getURLBookmarks",
           "normalized": "URLString-\u003eDM[Post]",
@@ -580,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve tags associated with a url from delicious.\n An example, extract the tags associated with \u003ccode\u003exmonad\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e \u003e getURLSummary \"http://xmonad.org/\"\n\n       (URLDetails {total = 283\n                   ,tags = [(\"haskell\",176)\n                           ,(\"windowmanager\",133)\n                           ,(\"x11\",126)\n                           ,(\"linux\",116)\n                           ,(\"wm\",74)\n                           ,(\"software\",55)\n                           ,(\"gui\",39)\n                           ,(\"desktop\",26)\n                           ,(\"programming\",25)\n                           ,(\"opensource\",23)\n                           ,(\"xmonad\",20)]\n                   }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getURLDetails",
           "package": "delicious",
@@ -590,6 +639,7 @@
         "index": {
           "description": "Retrieve tags associated with url from delicious An example extract the tags associated with xmonad getURLSummary http xmonad.org URLDetails total tags haskell windowmanager x11 linux wm software gui desktop programming opensource xmonad",
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getURLDetails",
           "normalized": "String-\u003eDM URLDetails",
@@ -605,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getURLSummary",
           "package": "delicious",
@@ -614,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getURLSummary",
           "normalized": "URLString-\u003eDM URLDetails",
@@ -629,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getUserBookmarks",
           "package": "delicious",
@@ -638,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getUserBookmarks",
           "normalized": "String-\u003eDM[Post]",
@@ -653,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getUserInboxBookmarks",
           "package": "delicious",
@@ -662,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getUserInboxBookmarks",
           "normalized": "String-\u003eString-\u003eDM[Post]",
@@ -677,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getUserInfo",
           "package": "delicious",
@@ -686,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getUserInfo",
           "normalized": "String-\u003eDM[Post]",
@@ -701,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getUserPublicTags",
           "package": "delicious",
@@ -710,6 +769,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getUserPublicTags",
           "normalized": "String-\u003eDM[Post]",
@@ -725,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getUserSubscriptions",
           "package": "delicious",
@@ -734,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getUserSubscriptions",
           "normalized": "String-\u003eDM[Post]",
@@ -749,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getUserTagBookmarks",
           "package": "delicious",
@@ -758,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getUserTagBookmarks",
           "normalized": "String-\u003eTag-\u003eDM[Post]",
@@ -773,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "getUserTaggedBookmarks",
           "package": "delicious",
@@ -782,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "getUserTaggedBookmarks",
           "normalized": "String-\u003e[Tag]-\u003eDM[Post]",
@@ -797,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "hash",
           "package": "delicious",
@@ -806,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "hash",
           "package": "delicious",
@@ -818,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "hf_aClass",
           "package": "delicious",
@@ -827,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "hf_aClass",
           "package": "delicious",
@@ -840,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "hf_bulletEnt",
           "package": "delicious",
@@ -849,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "hf_bulletEnt",
           "package": "delicious",
@@ -862,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "hf_delUrl",
           "package": "delicious",
@@ -871,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "hf_delUrl",
           "package": "delicious",
@@ -884,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "hf_divClass",
           "package": "delicious",
@@ -893,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "hf_divClass",
           "package": "delicious",
@@ -906,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "hf_extended",
           "package": "delicious",
@@ -915,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "hf_extended",
           "package": "delicious",
@@ -927,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "hf_extendedClass",
           "package": "delicious",
@@ -936,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "hf_extendedClass",
           "package": "delicious",
@@ -949,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "hf_extendedInDiv",
           "package": "delicious",
@@ -958,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "hf_extendedInDiv",
           "package": "delicious",
@@ -971,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "hf_showTags",
           "package": "delicious",
@@ -980,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "hf_showTags",
           "package": "delicious",
@@ -993,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "hf_tagClass",
           "package": "delicious",
@@ -1002,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "hf_tagClass",
           "package": "delicious",
@@ -1015,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "hf_tagSep",
           "package": "delicious",
@@ -1024,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "hf_tagSep",
           "package": "delicious",
@@ -1037,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "hf_tagSepClass",
           "package": "delicious",
@@ -1046,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "hf_tagSepClass",
           "package": "delicious",
@@ -1059,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "hf_withFeedButton",
           "package": "delicious",
@@ -1068,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "hf_withFeedButton",
           "package": "delicious",
@@ -1081,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "tags",
           "package": "delicious",
@@ -1090,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "tags",
           "normalized": "[(String,Integer)]",
@@ -1104,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "total",
           "package": "delicious",
@@ -1113,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "total",
           "package": "delicious",
@@ -1125,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.JSON",
           "name": "url",
           "package": "delicious",
@@ -1134,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious JSON",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.JSON",
           "name": "url",
           "package": "delicious",
@@ -1146,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "RSS",
           "package": "delicious",
@@ -1154,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "RSS",
           "package": "delicious",
@@ -1167,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "getHotlist",
           "package": "delicious",
@@ -1176,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "getHotlist",
           "normalized": "DM[Post]",
@@ -1191,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "getNetworkFans",
           "package": "delicious",
@@ -1200,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "getNetworkFans",
           "normalized": "String-\u003eDM[Post]",
@@ -1215,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "getNetworkMemberBookmarks",
           "package": "delicious",
@@ -1224,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "getNetworkMemberBookmarks",
           "normalized": "String-\u003eDM[Post]",
@@ -1239,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "getNetworkMemberTaggedBookmarks",
           "package": "delicious",
@@ -1248,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "getNetworkMemberTaggedBookmarks",
           "normalized": "String-\u003e[Tag]-\u003eDM[Post]",
@@ -1263,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "getNetworkMembers",
           "package": "delicious",
@@ -1272,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "getNetworkMembers",
           "normalized": "String-\u003eDM[Post]",
@@ -1287,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "getPopularBookmarks",
           "package": "delicious",
@@ -1296,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "getPopularBookmarks",
           "normalized": "DM[Post]",
@@ -1311,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "getRecentBookmarks",
           "package": "delicious",
@@ -1320,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "getRecentBookmarks",
           "normalized": "DM[Post]",
@@ -1335,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "getSiteAlerts",
           "package": "delicious",
@@ -1344,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "getSiteAlerts",
           "normalized": "DM[Post]",
@@ -1359,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "getTagBookmarks",
           "package": "delicious",
@@ -1368,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "getTagBookmarks",
           "normalized": "Tag-\u003eDM[Post]",
@@ -1383,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "getTagPopularBookmarks",
           "package": "delicious",
@@ -1392,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "getTagPopularBookmarks",
           "normalized": "Tag-\u003eDM[Post]",
@@ -1407,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "getTagsBookmarks",
           "package": "delicious",
@@ -1416,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "getTagsBookmarks",
           "normalized": "[Tag]-\u003eDM[Post]",
@@ -1431,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "getURLBookmarks",
           "package": "delicious",
@@ -1440,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "getURLBookmarks",
           "normalized": "URLString-\u003eDM[Post]",
@@ -1455,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "getUserBookmarks",
           "package": "delicious",
@@ -1464,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "getUserBookmarks",
           "normalized": "String-\u003eDM[Post]",
@@ -1479,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "getUserInboxBookmarks",
           "package": "delicious",
@@ -1488,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "getUserInboxBookmarks",
           "normalized": "String-\u003eString-\u003eDM[Post]",
@@ -1503,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "getUserInfo",
           "package": "delicious",
@@ -1512,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "getUserInfo",
           "normalized": "String-\u003eDM[Post]",
@@ -1527,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "getUserPublicTags",
           "package": "delicious",
@@ -1536,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "getUserPublicTags",
           "normalized": "String-\u003eDM[Post]",
@@ -1551,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "getUserSubscriptions",
           "package": "delicious",
@@ -1560,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "getUserSubscriptions",
           "normalized": "String-\u003eDM[Post]",
@@ -1575,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "getUserTagBookmarks",
           "package": "delicious",
@@ -1584,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "getUserTagBookmarks",
           "normalized": "String-\u003eTag-\u003eDM[Post]",
@@ -1599,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.RSS",
           "name": "getUserTaggedBookmarks",
           "package": "delicious",
@@ -1608,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious RSS",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.RSS",
           "name": "getUserTaggedBookmarks",
           "normalized": "String-\u003e[Tag]-\u003eDM[Post]",
@@ -1624,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes and data structures used by the Delicious API binding.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "Types",
           "package": "delicious",
@@ -1633,6 +1772,7 @@
         "index": {
           "description": "Types and data structures used by the Delicious API binding",
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "Types",
           "package": "delicious",
@@ -1646,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "Bundle",
           "package": "delicious",
@@ -1654,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "Bundle",
           "package": "delicious",
@@ -1667,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "DM",
           "package": "delicious",
@@ -1675,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "DM",
           "package": "delicious",
@@ -1688,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "DateString",
           "package": "delicious",
@@ -1696,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "DateString",
           "package": "delicious",
@@ -1709,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "Filter",
           "package": "delicious",
@@ -1717,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "Filter",
           "package": "delicious",
@@ -1730,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "Post",
           "package": "delicious",
@@ -1738,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "Post",
           "package": "delicious",
@@ -1751,6 +1901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "Tag",
           "package": "delicious",
@@ -1759,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "Tag",
           "package": "delicious",
@@ -1772,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "TagInfo",
           "package": "delicious",
@@ -1780,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "TagInfo",
           "package": "delicious",
@@ -1793,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "TimeString",
           "package": "delicious",
@@ -1801,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "TimeString",
           "package": "delicious",
@@ -1814,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "URLString",
           "package": "delicious",
@@ -1821,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "URLString",
           "package": "delicious",
@@ -1834,6 +1992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "User",
           "package": "delicious",
@@ -1842,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "User",
           "package": "delicious",
@@ -1855,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "Bundle",
           "package": "delicious",
@@ -1864,6 +2025,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "Bundle",
           "package": "delicious",
@@ -1877,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "Filter",
           "package": "delicious",
@@ -1886,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "Filter",
           "package": "delicious",
@@ -1899,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "Post",
           "package": "delicious",
@@ -1908,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "Post",
           "package": "delicious",
@@ -1921,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "TagInfo",
           "package": "delicious",
@@ -1930,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "TagInfo",
           "package": "delicious",
@@ -1943,6 +2111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "User",
           "package": "delicious",
@@ -1952,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "User",
           "package": "delicious",
@@ -1965,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "bundleName",
           "package": "delicious",
@@ -1974,6 +2145,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "bundleName",
           "package": "delicious",
@@ -1987,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "bundleTags",
           "package": "delicious",
@@ -1996,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "bundleTags",
           "normalized": "[Tag]",
@@ -2011,6 +2185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "catchDM",
           "package": "delicious",
@@ -2020,6 +2195,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "catchDM",
           "normalized": "DM a-\u003e(IOError-\u003eDM a)-\u003eDM a",
@@ -2035,6 +2211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "filterCount",
           "package": "delicious",
@@ -2044,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "filterCount",
           "package": "delicious",
@@ -2057,6 +2235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "filterDate",
           "package": "delicious",
@@ -2066,6 +2245,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "filterDate",
           "package": "delicious",
@@ -2079,6 +2259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "filterTag",
           "package": "delicious",
@@ -2088,6 +2269,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "filterTag",
           "package": "delicious",
@@ -2101,6 +2283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "filterURL",
           "package": "delicious",
@@ -2110,6 +2293,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "filterURL",
           "package": "delicious",
@@ -2123,6 +2307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "getBase",
           "package": "delicious",
@@ -2132,6 +2317,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "getBase",
           "package": "delicious",
@@ -2145,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "getCount",
           "package": "delicious",
@@ -2154,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "getCount",
           "package": "delicious",
@@ -2167,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "getUAgent",
           "package": "delicious",
@@ -2176,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "getUAgent",
           "package": "delicious",
@@ -2189,6 +2379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "getUser",
           "package": "delicious",
@@ -2198,6 +2389,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "getUser",
           "package": "delicious",
@@ -2211,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "liftIO",
           "package": "delicious",
@@ -2220,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "liftIO",
           "normalized": "IO a-\u003eDM a",
@@ -2235,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "nullFilter",
           "package": "delicious",
@@ -2244,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "nullFilter",
           "package": "delicious",
@@ -2257,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "nullPost",
           "package": "delicious",
@@ -2266,6 +2463,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "nullPost",
           "package": "delicious",
@@ -2279,6 +2477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "nullUser",
           "package": "delicious",
@@ -2288,6 +2487,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "nullUser",
           "package": "delicious",
@@ -2301,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "postDesc",
           "package": "delicious",
@@ -2310,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "postDesc",
           "package": "delicious",
@@ -2323,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "postHash",
           "package": "delicious",
@@ -2332,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "postHash",
           "package": "delicious",
@@ -2345,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "postHref",
           "package": "delicious",
@@ -2354,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "postHref",
           "package": "delicious",
@@ -2367,6 +2573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "postNotes",
           "package": "delicious",
@@ -2376,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "postNotes",
           "package": "delicious",
@@ -2389,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "postStamp",
           "package": "delicious",
@@ -2398,6 +2607,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "postStamp",
           "package": "delicious",
@@ -2411,6 +2621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "postTags",
           "package": "delicious",
@@ -2420,6 +2631,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "postTags",
           "normalized": "[Tag]",
@@ -2435,6 +2647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "postUser",
           "package": "delicious",
@@ -2444,6 +2657,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "postUser",
           "package": "delicious",
@@ -2457,6 +2671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "runDM",
           "package": "delicious",
@@ -2466,6 +2681,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "runDM",
           "normalized": "User-\u003eDM a-\u003eIO a",
@@ -2481,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "runDelic",
           "package": "delicious",
@@ -2490,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "runDelic",
           "normalized": "User-\u003eURLString-\u003eDM a-\u003eIO a",
@@ -2505,6 +2723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "tagName",
           "package": "delicious",
@@ -2514,6 +2733,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "tagName",
           "package": "delicious",
@@ -2527,6 +2747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "tagUses",
           "package": "delicious",
@@ -2536,6 +2757,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "tagUses",
           "package": "delicious",
@@ -2549,6 +2771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "userName",
           "package": "delicious",
@@ -2558,6 +2781,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "userName",
           "package": "delicious",
@@ -2571,6 +2795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "userPass",
           "package": "delicious",
@@ -2580,6 +2805,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "userPass",
           "package": "delicious",
@@ -2593,6 +2819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "withCount",
           "package": "delicious",
@@ -2602,6 +2829,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "withCount",
           "normalized": "Int-\u003eDM a-\u003eDM a",
@@ -2617,6 +2845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "withUAgent",
           "package": "delicious",
@@ -2626,6 +2855,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "withUAgent",
           "normalized": "String-\u003eDM a-\u003eDM a",
@@ -2641,6 +2871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.Types",
           "name": "withUser",
           "package": "delicious",
@@ -2650,6 +2881,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious Types",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.Types",
           "name": "withUser",
           "normalized": "User-\u003eDM a-\u003eDM a",
@@ -2666,6 +2898,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAccessing a user's tags and bookmarks\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.User",
           "name": "User",
           "package": "delicious",
@@ -2675,6 +2908,7 @@
         "index": {
           "description": "Accessing user tags and bookmarks",
           "hierarchy": "Network Delicious User",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.User",
           "name": "User",
           "package": "delicious",
@@ -2688,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.User",
           "name": "addPost",
           "package": "delicious",
@@ -2697,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious User",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.User",
           "name": "addPost",
           "normalized": "Post-\u003eBool-\u003eBool-\u003eDM()",
@@ -2712,6 +2948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.User",
           "name": "deleteBundle",
           "package": "delicious",
@@ -2721,6 +2958,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious User",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.User",
           "name": "deleteBundle",
           "normalized": "String-\u003eDM()",
@@ -2736,6 +2974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.User",
           "name": "deletePost",
           "package": "delicious",
@@ -2745,6 +2984,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious User",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.User",
           "name": "deletePost",
           "normalized": "URLString-\u003eDM()",
@@ -2760,6 +3000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.User",
           "name": "deleteTag",
           "package": "delicious",
@@ -2769,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious User",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.User",
           "name": "deleteTag",
           "normalized": "Tag-\u003eDM()",
@@ -2784,6 +3026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.User",
           "name": "getAll",
           "package": "delicious",
@@ -2793,6 +3036,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious User",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.User",
           "name": "getAll",
           "normalized": "Maybe Tag-\u003eDM[Post]",
@@ -2808,6 +3052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.User",
           "name": "getAllHashes",
           "package": "delicious",
@@ -2817,6 +3062,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious User",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.User",
           "name": "getAllHashes",
           "normalized": "DM[Post]",
@@ -2832,6 +3078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.User",
           "name": "getBundles",
           "package": "delicious",
@@ -2841,6 +3088,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious User",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.User",
           "name": "getBundles",
           "normalized": "DM[Bundle]",
@@ -2856,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.User",
           "name": "getByDate",
           "package": "delicious",
@@ -2865,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious User",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.User",
           "name": "getByDate",
           "normalized": "Maybe Tag-\u003eDM[(DateString,Integer)]",
@@ -2880,6 +3130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.User",
           "name": "getLastUpdate",
           "package": "delicious",
@@ -2889,6 +3140,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious User",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.User",
           "name": "getLastUpdate",
           "package": "delicious",
@@ -2902,6 +3154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.User",
           "name": "getPosts",
           "package": "delicious",
@@ -2911,6 +3164,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious User",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.User",
           "name": "getPosts",
           "normalized": "Filter-\u003eDM[Post]",
@@ -2926,6 +3180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.User",
           "name": "getRecent",
           "package": "delicious",
@@ -2935,6 +3190,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious User",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.User",
           "name": "getRecent",
           "normalized": "Maybe Tag-\u003eMaybe Integer-\u003eDM[Post]",
@@ -2950,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.User",
           "name": "getTags",
           "package": "delicious",
@@ -2959,6 +3216,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious User",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.User",
           "name": "getTags",
           "normalized": "DM[TagInfo]",
@@ -2974,6 +3232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.User",
           "name": "renameTag",
           "package": "delicious",
@@ -2983,6 +3242,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious User",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.User",
           "name": "renameTag",
           "normalized": "Tag-\u003eTag-\u003eDM()",
@@ -2998,6 +3258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.User",
           "name": "restReq",
           "package": "delicious",
@@ -3007,6 +3268,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious User",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.User",
           "name": "restReq",
           "normalized": "String-\u003e[(String,String)]-\u003eDM(Either Element String)",
@@ -3022,6 +3284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious.User",
           "name": "setBundle",
           "package": "delicious",
@@ -3031,6 +3294,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious User",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious.User",
           "name": "setBundle",
           "normalized": "String-\u003e[Tag]-\u003eDM()",
@@ -3046,6 +3310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:42 UTC 2014",
           "module": "Network.Delicious",
           "name": "Delicious",
           "package": "delicious",
@@ -3054,6 +3319,7 @@
         },
         "index": {
           "hierarchy": "Network Delicious",
+          "indexed": "2014-03-11T17:52:42",
           "module": "Network.Delicious",
           "name": "Delicious",
           "package": "delicious",

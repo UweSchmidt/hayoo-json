@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "regex-tdfa-rc"
+        "phrase": "regex-tdfa-rc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "CharMap2",
           "package": "regex-tdfa-rc",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "CharMap2",
           "package": "regex-tdfa-rc",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "CharMap",
           "package": "regex-tdfa-rc",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "CharMap",
           "package": "regex-tdfa-rc",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "Key",
           "package": "regex-tdfa-rc",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "Key",
           "package": "regex-tdfa-rc",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "(!)",
           "package": "regex-tdfa-rc",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "(!) !",
           "normalized": "CharMap a-\u003eKey-\u003ea",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "(\\\\)",
           "package": "regex-tdfa-rc",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "(\\\\) \\\\",
           "normalized": "CharMap a-\u003eCharMap b-\u003eCharMap a",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "CharMap",
           "package": "regex-tdfa-rc",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "CharMap",
           "package": "regex-tdfa-rc",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "adjust",
           "package": "regex-tdfa-rc",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eKey-\u003eCharMap a-\u003eCharMap a",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "adjustWithKey",
           "package": "regex-tdfa-rc",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "adjustWithKey",
           "normalized": "(Key-\u003ea-\u003ea)-\u003eKey-\u003eCharMap a-\u003eCharMap a",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "assocs",
           "package": "regex-tdfa-rc",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "assocs",
           "normalized": "CharMap a-\u003e[(Key,a)]",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "delete",
           "package": "regex-tdfa-rc",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "delete",
           "normalized": "Key-\u003eCharMap a-\u003eCharMap a",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "difference",
           "package": "regex-tdfa-rc",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "difference",
           "normalized": "CharMap a-\u003eCharMap b-\u003eCharMap a",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "differenceWith",
           "package": "regex-tdfa-rc",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "differenceWith",
           "normalized": "(a-\u003eb-\u003eMaybe a)-\u003eCharMap a-\u003eCharMap b-\u003eCharMap a",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "differenceWithKey",
           "package": "regex-tdfa-rc",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "differenceWithKey",
           "normalized": "(Key-\u003ea-\u003eb-\u003eMaybe a)-\u003eCharMap a-\u003eCharMap b-\u003eCharMap a",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "elems",
           "package": "regex-tdfa-rc",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "elems",
           "normalized": "CharMap a-\u003e[a]",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "empty",
           "package": "regex-tdfa-rc",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "empty",
           "package": "regex-tdfa-rc",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "filter",
           "package": "regex-tdfa-rc",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eCharMap a-\u003eCharMap a",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "filterWithKey",
           "package": "regex-tdfa-rc",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "filterWithKey",
           "normalized": "(Key-\u003ea-\u003eBool)-\u003eCharMap a-\u003eCharMap a",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "findWithDefault",
           "package": "regex-tdfa-rc",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "findWithDefault",
           "normalized": "a-\u003eKey-\u003eCharMap a-\u003ea",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "fold",
           "package": "regex-tdfa-rc",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "fold",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eCharMap a-\u003eb",
@@ -451,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "foldWithKey",
           "package": "regex-tdfa-rc",
@@ -460,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "foldWithKey",
           "normalized": "(Key-\u003ea-\u003eb-\u003eb)-\u003eb-\u003eCharMap a-\u003eb",
@@ -475,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "fromAscList",
           "package": "regex-tdfa-rc",
@@ -484,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "fromAscList",
           "normalized": "[(Key,a)]-\u003eCharMap a",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "fromAscListWith",
           "package": "regex-tdfa-rc",
@@ -508,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "fromAscListWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(Key,a)]-\u003eCharMap a",
@@ -523,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "fromAscListWithKey",
           "package": "regex-tdfa-rc",
@@ -532,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "fromAscListWithKey",
           "normalized": "(Key-\u003ea-\u003ea-\u003ea)-\u003e[(Key,a)]-\u003eCharMap a",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "fromDistinctAscList",
           "package": "regex-tdfa-rc",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "fromDistinctAscList",
           "normalized": "[(Key,a)]-\u003eCharMap a",
@@ -571,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "fromList",
           "package": "regex-tdfa-rc",
@@ -580,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "fromList",
           "normalized": "[(Key,a)]-\u003eCharMap a",
@@ -595,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "fromListWith",
           "package": "regex-tdfa-rc",
@@ -604,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "fromListWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(Key,a)]-\u003eCharMap a",
@@ -619,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "fromListWithKey",
           "package": "regex-tdfa-rc",
@@ -628,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "fromListWithKey",
           "normalized": "(Key-\u003ea-\u003ea-\u003ea)-\u003e[(Key,a)]-\u003eCharMap a",
@@ -643,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "insert",
           "package": "regex-tdfa-rc",
@@ -652,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "insert",
           "normalized": "Key-\u003ea-\u003eCharMap a-\u003eCharMap a",
@@ -666,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "insertLookupWithKey",
           "package": "regex-tdfa-rc",
@@ -675,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "insertLookupWithKey",
           "normalized": "(Key-\u003ea-\u003ea-\u003ea)-\u003eKey-\u003ea-\u003eCharMap a-\u003e(Maybe a,CharMap a)",
@@ -690,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "insertWith",
           "package": "regex-tdfa-rc",
@@ -699,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "insertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eKey-\u003ea-\u003eCharMap a-\u003eCharMap a",
@@ -714,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "insertWithKey",
           "package": "regex-tdfa-rc",
@@ -723,6 +784,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "insertWithKey",
           "normalized": "(Key-\u003ea-\u003ea-\u003ea)-\u003eKey-\u003ea-\u003eCharMap a-\u003eCharMap a",
@@ -738,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "intersection",
           "package": "regex-tdfa-rc",
@@ -747,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "intersection",
           "normalized": "CharMap a-\u003eCharMap b-\u003eCharMap a",
@@ -761,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "intersectionWith",
           "package": "regex-tdfa-rc",
@@ -770,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "intersectionWith",
           "normalized": "(a-\u003eb-\u003ea)-\u003eCharMap a-\u003eCharMap b-\u003eCharMap a",
@@ -785,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "intersectionWithKey",
           "package": "regex-tdfa-rc",
@@ -794,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "intersectionWithKey",
           "normalized": "(Key-\u003ea-\u003eb-\u003ea)-\u003eCharMap a-\u003eCharMap b-\u003eCharMap a",
@@ -809,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "isProperSubmapOf",
           "package": "regex-tdfa-rc",
@@ -818,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "isProperSubmapOf",
           "normalized": "CharMap a-\u003eCharMap a-\u003eBool",
@@ -833,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "isProperSubmapOfBy",
           "package": "regex-tdfa-rc",
@@ -842,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "isProperSubmapOfBy",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eCharMap a-\u003eCharMap b-\u003eBool",
@@ -857,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "isSubmapOf",
           "package": "regex-tdfa-rc",
@@ -866,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "isSubmapOf",
           "normalized": "CharMap a-\u003eCharMap a-\u003eBool",
@@ -881,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "isSubmapOfBy",
           "package": "regex-tdfa-rc",
@@ -890,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "isSubmapOfBy",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eCharMap a-\u003eCharMap b-\u003eBool",
@@ -905,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "keys",
           "package": "regex-tdfa-rc",
@@ -914,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "keys",
           "normalized": "CharMap a-\u003e[Key]",
@@ -928,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "keysSet",
           "package": "regex-tdfa-rc",
@@ -937,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "keysSet",
           "normalized": "CharMap a-\u003eIntSet",
@@ -952,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "lookup",
           "package": "regex-tdfa-rc",
@@ -961,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "lookup",
           "normalized": "Key-\u003eCharMap a-\u003eMaybe a",
@@ -975,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "map",
           "package": "regex-tdfa-rc",
@@ -984,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eCharMap a-\u003eCharMap b",
@@ -998,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "mapAccum",
           "package": "regex-tdfa-rc",
@@ -1007,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "mapAccum",
           "normalized": "(a-\u003eb-\u003e(a,c))-\u003ea-\u003eCharMap b-\u003e(a,CharMap c)",
@@ -1022,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "mapAccumWithKey",
           "package": "regex-tdfa-rc",
@@ -1031,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "mapAccumWithKey",
           "normalized": "(a-\u003eKey-\u003eb-\u003e(a,c))-\u003ea-\u003eCharMap b-\u003e(a,CharMap c)",
@@ -1046,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "mapEither",
           "package": "regex-tdfa-rc",
@@ -1055,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "mapEither",
           "normalized": "(a-\u003eEither b c)-\u003eCharMap a-\u003e(CharMap b,CharMap c)",
@@ -1070,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "mapEitherWithKey",
           "package": "regex-tdfa-rc",
@@ -1079,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "mapEitherWithKey",
           "normalized": "(Key-\u003ea-\u003eEither b c)-\u003eCharMap a-\u003e(CharMap b,CharMap c)",
@@ -1094,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "mapMaybe",
           "package": "regex-tdfa-rc",
@@ -1103,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "mapMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003eCharMap a-\u003eCharMap b",
@@ -1118,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "mapMaybeWithKey",
           "package": "regex-tdfa-rc",
@@ -1127,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "mapMaybeWithKey",
           "normalized": "(Key-\u003ea-\u003eMaybe b)-\u003eCharMap a-\u003eCharMap b",
@@ -1142,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "mapWithKey",
           "package": "regex-tdfa-rc",
@@ -1151,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "mapWithKey",
           "normalized": "(Key-\u003ea-\u003eb)-\u003eCharMap a-\u003eCharMap b",
@@ -1166,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "member",
           "package": "regex-tdfa-rc",
@@ -1175,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "member",
           "normalized": "Key-\u003eCharMap a-\u003eBool",
@@ -1189,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "notMember",
           "package": "regex-tdfa-rc",
@@ -1198,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "notMember",
           "normalized": "Key-\u003eCharMap a-\u003eBool",
@@ -1213,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "null",
           "package": "regex-tdfa-rc",
@@ -1222,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "null",
           "normalized": "CharMap a-\u003eBool",
@@ -1236,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "partition",
           "package": "regex-tdfa-rc",
@@ -1245,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "partition",
           "normalized": "(a-\u003eBool)-\u003eCharMap a-\u003e(CharMap a,CharMap a)",
@@ -1259,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "partitionWithKey",
           "package": "regex-tdfa-rc",
@@ -1268,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "partitionWithKey",
           "normalized": "(Key-\u003ea-\u003eBool)-\u003eCharMap a-\u003e(CharMap a,CharMap a)",
@@ -1283,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "showTree",
           "package": "regex-tdfa-rc",
@@ -1292,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "showTree",
           "normalized": "CharMap a-\u003eString",
@@ -1307,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "showTreeWith",
           "package": "regex-tdfa-rc",
@@ -1316,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "showTreeWith",
           "normalized": "Bool-\u003eBool-\u003eCharMap a-\u003eString",
@@ -1331,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "singleton",
           "package": "regex-tdfa-rc",
@@ -1340,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "singleton",
           "normalized": "Key-\u003ea-\u003eCharMap a",
@@ -1354,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "size",
           "package": "regex-tdfa-rc",
@@ -1363,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "size",
           "normalized": "CharMap a-\u003eInt",
@@ -1377,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "split",
           "package": "regex-tdfa-rc",
@@ -1386,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "split",
           "normalized": "Key-\u003eCharMap a-\u003e(CharMap a,CharMap a)",
@@ -1400,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "splitLookup",
           "package": "regex-tdfa-rc",
@@ -1409,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "splitLookup",
           "normalized": "Key-\u003eCharMap a-\u003e(CharMap a,Maybe a,CharMap a)",
@@ -1424,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "toAscList",
           "package": "regex-tdfa-rc",
@@ -1433,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "toAscList",
           "normalized": "CharMap a-\u003e[(Key,a)]",
@@ -1448,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "toList",
           "package": "regex-tdfa-rc",
@@ -1457,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "toList",
           "normalized": "CharMap a-\u003e[(Key,a)]",
@@ -1472,6 +1596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "unCharMap",
           "package": "regex-tdfa-rc",
@@ -1481,6 +1606,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "unCharMap",
           "package": "regex-tdfa-rc",
@@ -1494,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "union",
           "package": "regex-tdfa-rc",
@@ -1503,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "union",
           "normalized": "CharMap a-\u003eCharMap a-\u003eCharMap a",
@@ -1517,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "unionWith",
           "package": "regex-tdfa-rc",
@@ -1526,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "unionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eCharMap a-\u003eCharMap a-\u003eCharMap a",
@@ -1541,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "unionWithKey",
           "package": "regex-tdfa-rc",
@@ -1550,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "unionWithKey",
           "normalized": "(Key-\u003ea-\u003ea-\u003ea)-\u003eCharMap a-\u003eCharMap a-\u003eCharMap a",
@@ -1565,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "unions",
           "package": "regex-tdfa-rc",
@@ -1574,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "unions",
           "normalized": "[CharMap a]-\u003eCharMap a",
@@ -1588,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "unionsWith",
           "package": "regex-tdfa-rc",
@@ -1597,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "unionsWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[CharMap a]-\u003eCharMap a",
@@ -1612,6 +1748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "update",
           "package": "regex-tdfa-rc",
@@ -1621,6 +1758,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "update",
           "normalized": "(a-\u003eMaybe a)-\u003eKey-\u003eCharMap a-\u003eCharMap a",
@@ -1635,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "updateLookupWithKey",
           "package": "regex-tdfa-rc",
@@ -1644,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "updateLookupWithKey",
           "normalized": "(Key-\u003ea-\u003eMaybe a)-\u003eKey-\u003eCharMap a-\u003e(Maybe a,CharMap a)",
@@ -1659,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.CharMap2",
           "name": "updateWithKey",
           "package": "regex-tdfa-rc",
@@ -1668,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap CharMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.CharMap2",
           "name": "updateWithKey",
           "normalized": "(Key-\u003ea-\u003eMaybe a)-\u003eKey-\u003eCharMap a-\u003eCharMap a",
@@ -1683,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "EnumMap2",
           "package": "regex-tdfa-rc",
@@ -1691,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "EnumMap2",
           "package": "regex-tdfa-rc",
@@ -1704,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "EnumMap",
           "package": "regex-tdfa-rc",
@@ -1712,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "EnumMap",
           "package": "regex-tdfa-rc",
@@ -1725,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "(!)",
           "package": "regex-tdfa-rc",
@@ -1734,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "(!) !",
           "normalized": "EnumMap a b-\u003ea-\u003eb",
@@ -1748,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "(\\\\)",
           "package": "regex-tdfa-rc",
@@ -1757,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "(\\\\) \\\\",
           "normalized": "EnumMap a b-\u003eEnumMap a c-\u003eEnumMap a b",
@@ -1771,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "EnumMap",
           "package": "regex-tdfa-rc",
@@ -1780,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "EnumMap",
           "package": "regex-tdfa-rc",
@@ -1793,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "adjust",
           "package": "regex-tdfa-rc",
@@ -1802,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eb-\u003eEnumMap b a-\u003eEnumMap b a",
@@ -1816,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "adjustWithKey",
           "package": "regex-tdfa-rc",
@@ -1825,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "adjustWithKey",
           "normalized": "(a-\u003eb-\u003eb)-\u003ea-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -1840,6 +1996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "assocs",
           "package": "regex-tdfa-rc",
@@ -1849,6 +2006,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "assocs",
           "normalized": "EnumMap a b-\u003e[(a,b)]",
@@ -1863,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "delete",
           "package": "regex-tdfa-rc",
@@ -1872,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "delete",
           "normalized": "a-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -1886,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "difference",
           "package": "regex-tdfa-rc",
@@ -1895,6 +2056,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "difference",
           "normalized": "EnumMap a b-\u003eEnumMap a c-\u003eEnumMap a b",
@@ -1909,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "differenceWith",
           "package": "regex-tdfa-rc",
@@ -1918,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "differenceWith",
           "normalized": "(a-\u003eb-\u003eMaybe a)-\u003eEnumMap c a-\u003eEnumMap c b-\u003eEnumMap c a",
@@ -1933,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "differenceWithKey",
           "package": "regex-tdfa-rc",
@@ -1942,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "differenceWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003eMaybe b)-\u003eEnumMap a b-\u003eEnumMap a c-\u003eEnumMap a b",
@@ -1957,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "elems",
           "package": "regex-tdfa-rc",
@@ -1966,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "elems",
           "normalized": "EnumMap a b-\u003e[b]",
@@ -1980,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "empty",
           "package": "regex-tdfa-rc",
@@ -1989,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "empty",
           "package": "regex-tdfa-rc",
@@ -2001,6 +2171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "filter",
           "package": "regex-tdfa-rc",
@@ -2010,6 +2181,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eEnumMap b a-\u003eEnumMap b a",
@@ -2024,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "filterWithKey",
           "package": "regex-tdfa-rc",
@@ -2033,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "filterWithKey",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -2048,6 +2222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "findWithDefault",
           "package": "regex-tdfa-rc",
@@ -2057,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "findWithDefault",
           "normalized": "a-\u003eb-\u003eEnumMap b a-\u003ea",
@@ -2072,6 +2248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "fold",
           "package": "regex-tdfa-rc",
@@ -2081,6 +2258,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "fold",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eEnumMap c a-\u003eb",
@@ -2095,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "foldWithKey",
           "package": "regex-tdfa-rc",
@@ -2104,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "foldWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eEnumMap a b-\u003ec",
@@ -2119,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "fromAscList",
           "package": "regex-tdfa-rc",
@@ -2128,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "fromAscList",
           "normalized": "[(a,b)]-\u003eEnumMap a b",
@@ -2143,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "fromAscListWith",
           "package": "regex-tdfa-rc",
@@ -2152,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "fromAscListWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(b,a)]-\u003eEnumMap b a",
@@ -2167,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "fromAscListWithKey",
           "package": "regex-tdfa-rc",
@@ -2176,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "fromAscListWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003e[(a,b)]-\u003eEnumMap a b",
@@ -2191,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "fromDistinctAscList",
           "package": "regex-tdfa-rc",
@@ -2200,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "fromDistinctAscList",
           "normalized": "[(a,b)]-\u003eEnumMap a b",
@@ -2215,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "fromList",
           "package": "regex-tdfa-rc",
@@ -2224,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eEnumMap a b",
@@ -2239,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "fromListWith",
           "package": "regex-tdfa-rc",
@@ -2248,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "fromListWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(b,a)]-\u003eEnumMap b a",
@@ -2263,6 +2455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "fromListWithKey",
           "package": "regex-tdfa-rc",
@@ -2272,6 +2465,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "fromListWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003e[(a,b)]-\u003eEnumMap a b",
@@ -2287,6 +2481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "insert",
           "package": "regex-tdfa-rc",
@@ -2296,6 +2491,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -2310,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "insertLookupWithKey",
           "package": "regex-tdfa-rc",
@@ -2319,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "insertLookupWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003ea-\u003eb-\u003eEnumMap a b-\u003e(Maybe b,EnumMap a b)",
@@ -2334,6 +2532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "insertWith",
           "package": "regex-tdfa-rc",
@@ -2343,6 +2542,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "insertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb-\u003ea-\u003eEnumMap b a-\u003eEnumMap b a",
@@ -2358,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "insertWithKey",
           "package": "regex-tdfa-rc",
@@ -2367,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "insertWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003ea-\u003eb-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -2382,6 +2584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "intersection",
           "package": "regex-tdfa-rc",
@@ -2391,6 +2594,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "intersection",
           "normalized": "EnumMap a b-\u003eEnumMap a c-\u003eEnumMap a b",
@@ -2405,6 +2609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "intersectionWith",
           "package": "regex-tdfa-rc",
@@ -2414,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "intersectionWith",
           "normalized": "(a-\u003eb-\u003ea)-\u003eEnumMap c a-\u003eEnumMap c b-\u003eEnumMap c a",
@@ -2429,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "intersectionWithKey",
           "package": "regex-tdfa-rc",
@@ -2438,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "intersectionWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003eb)-\u003eEnumMap a b-\u003eEnumMap a c-\u003eEnumMap a b",
@@ -2453,6 +2661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "isProperSubmapOf",
           "package": "regex-tdfa-rc",
@@ -2462,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "isProperSubmapOf",
           "normalized": "EnumMap a b-\u003eEnumMap a b-\u003eBool",
@@ -2477,6 +2687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "isProperSubmapOfBy",
           "package": "regex-tdfa-rc",
@@ -2486,6 +2697,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "isProperSubmapOfBy",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eEnumMap c a-\u003eEnumMap c b-\u003eBool",
@@ -2501,6 +2713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "isSubmapOf",
           "package": "regex-tdfa-rc",
@@ -2510,6 +2723,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "isSubmapOf",
           "normalized": "EnumMap a b-\u003eEnumMap a b-\u003eBool",
@@ -2525,6 +2739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "isSubmapOfBy",
           "package": "regex-tdfa-rc",
@@ -2534,6 +2749,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "isSubmapOfBy",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eEnumMap c a-\u003eEnumMap c b-\u003eBool",
@@ -2549,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "keys",
           "package": "regex-tdfa-rc",
@@ -2558,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "keys",
           "normalized": "EnumMap a b-\u003e[a]",
@@ -2572,6 +2790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "keysSet",
           "package": "regex-tdfa-rc",
@@ -2581,6 +2800,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "keysSet",
           "normalized": "EnumMap a b-\u003eEnumSet a",
@@ -2596,6 +2816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "lookup",
           "package": "regex-tdfa-rc",
@@ -2605,6 +2826,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "lookup",
           "normalized": "a-\u003eEnumMap a b-\u003eMaybe b",
@@ -2619,6 +2841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "map",
           "package": "regex-tdfa-rc",
@@ -2628,6 +2851,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eEnumMap c a-\u003eEnumMap c b",
@@ -2642,6 +2866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "mapAccum",
           "package": "regex-tdfa-rc",
@@ -2651,6 +2876,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "mapAccum",
           "normalized": "(a-\u003eb-\u003e(a,c))-\u003ea-\u003eEnumMap d b-\u003e(a,EnumMap d c)",
@@ -2666,6 +2892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "mapAccumWithKey",
           "package": "regex-tdfa-rc",
@@ -2675,6 +2902,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "mapAccumWithKey",
           "normalized": "(a-\u003eb-\u003ec-\u003e(a,d))-\u003ea-\u003eEnumMap b c-\u003e(a,EnumMap b d)",
@@ -2690,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "mapEither",
           "package": "regex-tdfa-rc",
@@ -2699,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "mapEither",
           "normalized": "(a-\u003eEither b c)-\u003eEnumMap d a-\u003e(EnumMap d b,EnumMap d c)",
@@ -2714,6 +2944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "mapEitherWithKey",
           "package": "regex-tdfa-rc",
@@ -2723,6 +2954,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "mapEitherWithKey",
           "normalized": "(a-\u003eb-\u003eEither c d)-\u003eEnumMap a b-\u003e(EnumMap a c,EnumMap a d)",
@@ -2738,6 +2970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "mapMaybe",
           "package": "regex-tdfa-rc",
@@ -2747,6 +2980,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "mapMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003eEnumMap c a-\u003eEnumMap c b",
@@ -2762,6 +2996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "mapMaybeWithKey",
           "package": "regex-tdfa-rc",
@@ -2771,6 +3006,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "mapMaybeWithKey",
           "normalized": "(a-\u003eb-\u003eMaybe c)-\u003eEnumMap a b-\u003eEnumMap a c",
@@ -2786,6 +3022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "mapWithKey",
           "package": "regex-tdfa-rc",
@@ -2795,6 +3032,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "mapWithKey",
           "normalized": "(a-\u003eb-\u003ec)-\u003eEnumMap a b-\u003eEnumMap a c",
@@ -2810,6 +3048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "member",
           "package": "regex-tdfa-rc",
@@ -2819,6 +3058,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "member",
           "normalized": "a-\u003eEnumMap a b-\u003eBool",
@@ -2833,6 +3073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "notMember",
           "package": "regex-tdfa-rc",
@@ -2842,6 +3083,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "notMember",
           "normalized": "a-\u003eEnumMap a b-\u003eBool",
@@ -2857,6 +3099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "null",
           "package": "regex-tdfa-rc",
@@ -2866,6 +3109,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "null",
           "normalized": "EnumMap a b-\u003eBool",
@@ -2880,6 +3124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "partition",
           "package": "regex-tdfa-rc",
@@ -2889,6 +3134,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "partition",
           "normalized": "(a-\u003eBool)-\u003eEnumMap b a-\u003e(EnumMap b a,EnumMap b a)",
@@ -2903,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "partitionWithKey",
           "package": "regex-tdfa-rc",
@@ -2912,6 +3159,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "partitionWithKey",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eEnumMap a b-\u003e(EnumMap a b,EnumMap a b)",
@@ -2927,6 +3175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "showTree",
           "package": "regex-tdfa-rc",
@@ -2936,6 +3185,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "showTree",
           "normalized": "EnumMap a b-\u003eString",
@@ -2951,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "showTreeWith",
           "package": "regex-tdfa-rc",
@@ -2960,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "showTreeWith",
           "normalized": "Bool-\u003eBool-\u003eEnumMap a b-\u003eString",
@@ -2975,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "singleton",
           "package": "regex-tdfa-rc",
@@ -2984,6 +3237,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "singleton",
           "normalized": "a-\u003eb-\u003eEnumMap a b",
@@ -2998,6 +3252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "size",
           "package": "regex-tdfa-rc",
@@ -3007,6 +3262,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "size",
           "normalized": "EnumMap a b-\u003eInt",
@@ -3021,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "split",
           "package": "regex-tdfa-rc",
@@ -3030,6 +3287,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "split",
           "normalized": "a-\u003eEnumMap a b-\u003e(EnumMap a b,EnumMap a b)",
@@ -3044,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "splitLookup",
           "package": "regex-tdfa-rc",
@@ -3053,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "splitLookup",
           "normalized": "a-\u003eEnumMap a b-\u003e(EnumMap a b,Maybe b,EnumMap a b)",
@@ -3068,6 +3328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "toAscList",
           "package": "regex-tdfa-rc",
@@ -3077,6 +3338,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "toAscList",
           "normalized": "EnumMap a b-\u003e[(a,b)]",
@@ -3092,6 +3354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "toList",
           "package": "regex-tdfa-rc",
@@ -3101,6 +3364,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "toList",
           "normalized": "EnumMap a b-\u003e[(a,b)]",
@@ -3116,6 +3380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "unEnumMap",
           "package": "regex-tdfa-rc",
@@ -3125,6 +3390,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "unEnumMap",
           "package": "regex-tdfa-rc",
@@ -3138,6 +3404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "union",
           "package": "regex-tdfa-rc",
@@ -3147,6 +3414,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "union",
           "normalized": "EnumMap a b-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -3161,6 +3429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "unionWith",
           "package": "regex-tdfa-rc",
@@ -3170,6 +3439,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "unionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eEnumMap b a-\u003eEnumMap b a-\u003eEnumMap b a",
@@ -3185,6 +3455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "unionWithKey",
           "package": "regex-tdfa-rc",
@@ -3194,6 +3465,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "unionWithKey",
           "normalized": "(a-\u003eb-\u003eb-\u003eb)-\u003eEnumMap a b-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -3209,6 +3481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "unions",
           "package": "regex-tdfa-rc",
@@ -3218,6 +3491,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "unions",
           "normalized": "[EnumMap a b]-\u003eEnumMap a b",
@@ -3232,6 +3506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "unionsWith",
           "package": "regex-tdfa-rc",
@@ -3241,6 +3516,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "unionsWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[EnumMap b a]-\u003eEnumMap b a",
@@ -3256,6 +3532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "update",
           "package": "regex-tdfa-rc",
@@ -3265,6 +3542,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "update",
           "normalized": "(a-\u003eMaybe a)-\u003eb-\u003eEnumMap b a-\u003eEnumMap b a",
@@ -3279,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "updateLookupWithKey",
           "package": "regex-tdfa-rc",
@@ -3288,6 +3567,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "updateLookupWithKey",
           "normalized": "(a-\u003eb-\u003eMaybe b)-\u003ea-\u003eEnumMap a b-\u003e(Maybe b,EnumMap a b)",
@@ -3303,6 +3583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntMap.EnumMap2",
           "name": "updateWithKey",
           "package": "regex-tdfa-rc",
@@ -3312,6 +3593,7 @@
         },
         "index": {
           "hierarchy": "Data IntMap EnumMap2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntMap.EnumMap2",
           "name": "updateWithKey",
           "normalized": "(a-\u003eb-\u003eMaybe b)-\u003ea-\u003eEnumMap a b-\u003eEnumMap a b",
@@ -3327,6 +3609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "EnumSet2",
           "package": "regex-tdfa-rc",
@@ -3335,6 +3618,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "EnumSet2",
           "package": "regex-tdfa-rc",
@@ -3348,6 +3632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "EnumSet",
           "package": "regex-tdfa-rc",
@@ -3356,6 +3641,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "EnumSet",
           "package": "regex-tdfa-rc",
@@ -3369,6 +3655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "(\\\\)",
           "package": "regex-tdfa-rc",
@@ -3378,6 +3665,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "(\\\\) \\\\",
           "normalized": "EnumSet a-\u003eEnumSet a-\u003eEnumSet a",
@@ -3392,6 +3680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "EnumSet",
           "package": "regex-tdfa-rc",
@@ -3401,6 +3690,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "EnumSet",
           "package": "regex-tdfa-rc",
@@ -3414,6 +3704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "delete",
           "package": "regex-tdfa-rc",
@@ -3423,6 +3714,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "delete",
           "normalized": "a-\u003eEnumSet a-\u003eEnumSet a",
@@ -3437,6 +3729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "difference",
           "package": "regex-tdfa-rc",
@@ -3446,6 +3739,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "difference",
           "normalized": "EnumSet a-\u003eEnumSet a-\u003eEnumSet a",
@@ -3460,6 +3754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "elems",
           "package": "regex-tdfa-rc",
@@ -3469,6 +3764,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "elems",
           "normalized": "EnumSet a-\u003e[a]",
@@ -3483,6 +3779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "empty",
           "package": "regex-tdfa-rc",
@@ -3492,6 +3789,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "empty",
           "package": "regex-tdfa-rc",
@@ -3504,6 +3802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "filter",
           "package": "regex-tdfa-rc",
@@ -3513,6 +3812,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eEnumSet a-\u003eEnumSet a",
@@ -3527,6 +3827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "fold",
           "package": "regex-tdfa-rc",
@@ -3536,6 +3837,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "fold",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eEnumSet a-\u003eb",
@@ -3550,6 +3852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "fromAscList",
           "package": "regex-tdfa-rc",
@@ -3559,6 +3862,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "fromAscList",
           "normalized": "[a]-\u003eEnumSet a",
@@ -3574,6 +3878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "fromDistinctAscList",
           "package": "regex-tdfa-rc",
@@ -3583,6 +3888,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "fromDistinctAscList",
           "normalized": "[a]-\u003eEnumSet a",
@@ -3598,6 +3904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "fromList",
           "package": "regex-tdfa-rc",
@@ -3607,6 +3914,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "fromList",
           "normalized": "[a]-\u003eEnumSet a",
@@ -3622,6 +3930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "insert",
           "package": "regex-tdfa-rc",
@@ -3631,6 +3940,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "insert",
           "normalized": "a-\u003eEnumSet a-\u003eEnumSet a",
@@ -3645,6 +3955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "intersection",
           "package": "regex-tdfa-rc",
@@ -3654,6 +3965,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "intersection",
           "normalized": "EnumSet a-\u003eEnumSet a-\u003eEnumSet a",
@@ -3668,6 +3980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "isProperSubsetOf",
           "package": "regex-tdfa-rc",
@@ -3677,6 +3990,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "isProperSubsetOf",
           "normalized": "EnumSet a-\u003eEnumSet a-\u003eBool",
@@ -3692,6 +4006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "isSubsetOf",
           "package": "regex-tdfa-rc",
@@ -3701,6 +4016,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "isSubsetOf",
           "normalized": "EnumSet a-\u003eEnumSet a-\u003eBool",
@@ -3716,6 +4032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "map",
           "package": "regex-tdfa-rc",
@@ -3725,6 +4042,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "map",
           "normalized": "(a-\u003ea)-\u003eEnumSet a-\u003eEnumSet a",
@@ -3739,6 +4057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "member",
           "package": "regex-tdfa-rc",
@@ -3748,6 +4067,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "member",
           "normalized": "a-\u003eEnumSet a-\u003eBool",
@@ -3762,6 +4082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "notMember",
           "package": "regex-tdfa-rc",
@@ -3771,6 +4092,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "notMember",
           "normalized": "Int-\u003eEnumSet a-\u003eBool",
@@ -3786,6 +4108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "null",
           "package": "regex-tdfa-rc",
@@ -3795,6 +4118,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "null",
           "normalized": "EnumSet a-\u003eBool",
@@ -3809,6 +4133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "partition",
           "package": "regex-tdfa-rc",
@@ -3818,6 +4143,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "partition",
           "normalized": "(a-\u003eBool)-\u003eEnumSet a-\u003e(EnumSet a,EnumSet a)",
@@ -3832,6 +4158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "showTree",
           "package": "regex-tdfa-rc",
@@ -3841,6 +4168,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "showTree",
           "normalized": "EnumSet a-\u003eString",
@@ -3856,6 +4184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "showTreeWith",
           "package": "regex-tdfa-rc",
@@ -3865,6 +4194,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "showTreeWith",
           "normalized": "Bool-\u003eBool-\u003eEnumSet a-\u003eString",
@@ -3880,6 +4210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "singleton",
           "package": "regex-tdfa-rc",
@@ -3889,6 +4220,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "singleton",
           "normalized": "a-\u003eEnumSet a",
@@ -3903,6 +4235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "size",
           "package": "regex-tdfa-rc",
@@ -3912,6 +4245,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "size",
           "normalized": "EnumSet a-\u003eInt",
@@ -3926,6 +4260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "split",
           "package": "regex-tdfa-rc",
@@ -3935,6 +4270,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "split",
           "normalized": "a-\u003eEnumSet a-\u003e(EnumSet a,EnumSet a)",
@@ -3949,6 +4285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "splitMember",
           "package": "regex-tdfa-rc",
@@ -3958,6 +4295,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "splitMember",
           "normalized": "a-\u003eEnumSet a-\u003e(EnumSet a,Bool,EnumSet a)",
@@ -3973,6 +4311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "toAscList",
           "package": "regex-tdfa-rc",
@@ -3982,6 +4321,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "toAscList",
           "normalized": "EnumSet a-\u003e[a]",
@@ -3997,6 +4337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "toList",
           "package": "regex-tdfa-rc",
@@ -4006,6 +4347,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "toList",
           "normalized": "EnumSet a-\u003e[a]",
@@ -4021,6 +4363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "unEnumSet",
           "package": "regex-tdfa-rc",
@@ -4030,6 +4373,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "unEnumSet",
           "package": "regex-tdfa-rc",
@@ -4043,6 +4387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "union",
           "package": "regex-tdfa-rc",
@@ -4052,6 +4397,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "union",
           "normalized": "EnumSet a-\u003eEnumSet a-\u003eEnumSet a",
@@ -4066,6 +4412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Data.IntSet.EnumSet2",
           "name": "unions",
           "package": "regex-tdfa-rc",
@@ -4075,6 +4422,7 @@
         },
         "index": {
           "hierarchy": "Data IntSet EnumSet2",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Data.IntSet.EnumSet2",
           "name": "unions",
           "normalized": "[EnumSet a]-\u003eEnumSet a",
@@ -4090,6 +4438,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis modules provides \u003ccode\u003e\u003ca\u003eRegexMaker\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRegexLike\u003c/a\u003e\u003c/code\u003e instances for using\n\u003ccode\u003eByteString\u003c/code\u003e with the DFA backend (\u003ca\u003eText.Regex.Lib.WrapDFAEngine\u003c/a\u003e and\n\u003ca\u003eText.Regex.Lazy.DFAEngineFPS\u003c/a\u003e).  This module is usually used via\nimport \u003ca\u003eText.Regex.TDFA\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThis exports instances of the high level API and the medium level\nAPI of \u003ccode\u003e\u003ca\u003ecompile\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eexecute\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eregexec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.ByteString.Lazy",
           "name": "Lazy",
           "package": "regex-tdfa-rc",
@@ -4099,6 +4448,7 @@
         "index": {
           "description": "This modules provides RegexMaker and RegexLike instances for using ByteString with the DFA backend Text.Regex.Lib.WrapDFAEngine and Text.Regex.Lazy.DFAEngineFPS This module is usually used via import Text.Regex.TDFA This exports instances of the high level API and the medium level API of compile execute and regexec",
           "hierarchy": "Text Regex TDFA ByteString Lazy",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.ByteString.Lazy",
           "name": "Lazy",
           "package": "regex-tdfa-rc",
@@ -4113,6 +4463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl whether the pattern is multiline or case-sensitive like Text.Regex and whether to\n capture the subgroups (1, 2, etc).  Controls enabling extra anchor syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.ByteString.Lazy",
           "name": "CompOption",
           "package": "regex-tdfa-rc",
@@ -4122,6 +4473,7 @@
         "index": {
           "description": "Control whether the pattern is multiline or case-sensitive like Text.Regex and whether to capture the subgroups etc Controls enabling extra anchor syntax",
           "hierarchy": "Text Regex TDFA ByteString Lazy",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.ByteString.Lazy",
           "name": "CompOption",
           "package": "regex-tdfa-rc",
@@ -4135,6 +4487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.ByteString.Lazy",
           "name": "ExecOption",
           "package": "regex-tdfa-rc",
@@ -4143,6 +4496,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA ByteString Lazy",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.ByteString.Lazy",
           "name": "ExecOption",
           "package": "regex-tdfa-rc",
@@ -4157,6 +4511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TDFA backend specific \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e type, used by this module's RegexOptions and RegexMaker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.ByteString.Lazy",
           "name": "Regex",
           "package": "regex-tdfa-rc",
@@ -4166,6 +4521,7 @@
         "index": {
           "description": "The TDFA backend specific Regex type used by this module RegexOptions and RegexMaker",
           "hierarchy": "Text Regex TDFA ByteString Lazy",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.ByteString.Lazy",
           "name": "Regex",
           "package": "regex-tdfa-rc",
@@ -4249,6 +4605,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis modules provides \u003ccode\u003e\u003ca\u003eRegexMaker\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRegexLike\u003c/a\u003e\u003c/code\u003e instances for using\n\u003ccode\u003eByteString\u003c/code\u003e with the DFA backend (\u003ca\u003eText.Regex.Lib.WrapDFAEngine\u003c/a\u003e and\n\u003ca\u003eText.Regex.Lazy.DFAEngineFPS\u003c/a\u003e).  This module is usually used via\nimport \u003ca\u003eText.Regex.TDFA\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThis exports instances of the high level API and the medium level\nAPI of \u003ccode\u003e\u003ca\u003ecompile\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eexecute\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eregexec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.ByteString",
           "name": "ByteString",
           "package": "regex-tdfa-rc",
@@ -4258,6 +4615,7 @@
         "index": {
           "description": "This modules provides RegexMaker and RegexLike instances for using ByteString with the DFA backend Text.Regex.Lib.WrapDFAEngine and Text.Regex.Lazy.DFAEngineFPS This module is usually used via import Text.Regex.TDFA This exports instances of the high level API and the medium level API of compile execute and regexec",
           "hierarchy": "Text Regex TDFA ByteString",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.ByteString",
           "name": "ByteString",
           "package": "regex-tdfa-rc",
@@ -4272,6 +4630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl whether the pattern is multiline or case-sensitive like Text.Regex and whether to\n capture the subgroups (1, 2, etc).  Controls enabling extra anchor syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.ByteString",
           "name": "CompOption",
           "package": "regex-tdfa-rc",
@@ -4281,6 +4640,7 @@
         "index": {
           "description": "Control whether the pattern is multiline or case-sensitive like Text.Regex and whether to capture the subgroups etc Controls enabling extra anchor syntax",
           "hierarchy": "Text Regex TDFA ByteString",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.ByteString",
           "name": "CompOption",
           "package": "regex-tdfa-rc",
@@ -4294,6 +4654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.ByteString",
           "name": "ExecOption",
           "package": "regex-tdfa-rc",
@@ -4302,6 +4663,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA ByteString",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.ByteString",
           "name": "ExecOption",
           "package": "regex-tdfa-rc",
@@ -4316,6 +4678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TDFA backend specific \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e type, used by this module's RegexOptions and RegexMaker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.ByteString",
           "name": "Regex",
           "package": "regex-tdfa-rc",
@@ -4325,6 +4688,7 @@
         "index": {
           "description": "The TDFA backend specific Regex type used by this module RegexOptions and RegexMaker",
           "hierarchy": "Text Regex TDFA ByteString",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.ByteString",
           "name": "Regex",
           "package": "regex-tdfa-rc",
@@ -4339,6 +4703,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon provides simple functions to the backend.  It defines most\n of the data types.  All modules should call error via the\n common_error function below.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "Common",
           "package": "regex-tdfa-rc",
@@ -4348,6 +4713,7 @@
         "index": {
           "description": "Common provides simple functions to the backend It defines most of the data types All modules should call error via the common error function below",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "Common",
           "package": "regex-tdfa-rc",
@@ -4361,6 +4727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "Action",
           "package": "regex-tdfa-rc",
@@ -4369,6 +4736,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "Action",
           "package": "regex-tdfa-rc",
@@ -4383,6 +4751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl whether the pattern is multiline or case-sensitive like Text.Regex and whether to\n capture the subgroups (1, 2, etc).  Controls enabling extra anchor syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "CompOption",
           "package": "regex-tdfa-rc",
@@ -4392,6 +4761,7 @@
         "index": {
           "description": "Control whether the pattern is multiline or case-sensitive like Text.Regex and whether to capture the subgroups etc Controls enabling extra anchor syntax",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "CompOption",
           "package": "regex-tdfa-rc",
@@ -4406,6 +4776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal DFA node, identified by the Set of indices of the QNFA\n nodes it represents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "DFA",
           "package": "regex-tdfa-rc",
@@ -4415,6 +4786,7 @@
         "index": {
           "description": "Internal DFA node identified by the Set of indices of the QNFA nodes it represents",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "DFA",
           "package": "regex-tdfa-rc",
@@ -4429,6 +4801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal to the DFA node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "DT",
           "package": "regex-tdfa-rc",
@@ -4438,6 +4811,7 @@
         "index": {
           "description": "Internal to the DFA node",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "DT",
           "package": "regex-tdfa-rc",
@@ -4452,6 +4826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal type to repesent the commands for the tagged transition.\n The outer IntMap is for the destination Index and the inner IntMap\n is for the Source Index.  This is convenient since all runtime data\n going to the same destination must be compared to find the best.\n\u003c/p\u003e\u003cp\u003eA Destination IntMap entry may have an empty Source IntMap if and\n only if the destination is the starting index and the NFA/DFA.\n This instructs the matching engine to spawn a new entry starting at\n the post-update position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "DTrans",
           "package": "regex-tdfa-rc",
@@ -4461,6 +4836,7 @@
         "index": {
           "description": "Internal type to repesent the commands for the tagged transition The outer IntMap is for the destination Index and the inner IntMap is for the Source Index This is convenient since all runtime data going to the same destination must be compared to find the best Destination IntMap entry may have an empty Source IntMap if and only if the destination is the starting index and the NFA DFA This instructs the matching engine to spawn new entry starting at the post-update position",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "DTrans",
           "package": "regex-tdfa-rc",
@@ -4475,6 +4851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal convenience type for the text display code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "DTrans'",
           "package": "regex-tdfa-rc",
@@ -4484,6 +4861,7 @@
         "index": {
           "description": "Internal convenience type for the text display code",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "DTrans'",
           "package": "regex-tdfa-rc",
@@ -4498,6 +4876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to track elements of the pattern that accept characters or \n are anchors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "DoPa",
           "package": "regex-tdfa-rc",
@@ -4507,6 +4886,7 @@
         "index": {
           "description": "Used to track elements of the pattern that accept characters or are anchors",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "DoPa",
           "package": "regex-tdfa-rc",
@@ -4520,6 +4900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "ExecOption",
           "package": "regex-tdfa-rc",
@@ -4528,6 +4909,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "ExecOption",
           "package": "regex-tdfa-rc",
@@ -4542,6 +4924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroupIndex is for indexing submatches from capturing\n parenthesized groups (PGroup/Group)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "GroupIndex",
           "package": "regex-tdfa-rc",
@@ -4551,6 +4934,7 @@
         "index": {
           "description": "GroupIndex is for indexing submatches from capturing parenthesized groups PGroup Group",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "GroupIndex",
           "package": "regex-tdfa-rc",
@@ -4565,6 +4949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroupInfo collects the parent and tag information for an instance \n of a group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "GroupInfo",
           "package": "regex-tdfa-rc",
@@ -4574,6 +4959,7 @@
         "index": {
           "description": "GroupInfo collects the parent and tag information for an instance of group",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "GroupInfo",
           "package": "regex-tdfa-rc",
@@ -4588,6 +4974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal NFA node identity number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "Index",
           "package": "regex-tdfa-rc",
@@ -4597,6 +4984,7 @@
         "index": {
           "description": "Internal NFA node identity number",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "Index",
           "package": "regex-tdfa-rc",
@@ -4611,6 +4999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003enewPos\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003enewFlags\u003c/code\u003e lists in Instructions are sorted by, and unique in, the Tag values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "Instructions",
           "package": "regex-tdfa-rc",
@@ -4620,6 +5009,7 @@
         "index": {
           "description": "The newPos and newFlags lists in Instructions are sorted by and unique in the Tag values",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "Instructions",
           "package": "regex-tdfa-rc",
@@ -4634,6 +5024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal use to indicate type of tag and preference for larger or smaller Positions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "OP",
           "package": "regex-tdfa-rc",
@@ -4643,6 +5034,7 @@
         "index": {
           "description": "Internal use to indicate type of tag and preference for larger or smaller Positions",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "OP",
           "package": "regex-tdfa-rc",
@@ -4656,6 +5048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "OrbitLog",
           "package": "regex-tdfa-rc",
@@ -4664,6 +5057,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "OrbitLog",
           "package": "regex-tdfa-rc",
@@ -4677,6 +5071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "OrbitTransformer",
           "package": "regex-tdfa-rc",
@@ -4685,6 +5080,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "OrbitTransformer",
           "package": "regex-tdfa-rc",
@@ -4699,6 +5095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePositions for which a * was re-started while looping.  Need to\n append locations at back but compare starting with front, so use\n Seq as a Queue.  The initial position is saved in basePos (and a\n Maximize Tag), the middle positions in the Seq, and the final\n position is NOT saved in the Orbits (only in a Maximize Tag).\n\u003c/p\u003e\u003cp\u003eThe orderinal code is being written XXX TODO document it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "Orbits",
           "package": "regex-tdfa-rc",
@@ -4708,6 +5105,7 @@
         "index": {
           "description": "Positions for which was re-started while looping Need to append locations at back but compare starting with front so use Seq as Queue The initial position is saved in basePos and Maximize Tag the middle positions in the Seq and the final position is NOT saved in the Orbits only in Maximize Tag The orderinal code is being written XXX TODO document it",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "Orbits",
           "package": "regex-tdfa-rc",
@@ -4722,6 +5120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex into the text being searched\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "Position",
           "package": "regex-tdfa-rc",
@@ -4731,6 +5130,7 @@
         "index": {
           "description": "Index into the text being searched",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "Position",
           "package": "regex-tdfa-rc",
@@ -4745,6 +5145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal NFA node type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "QNFA",
           "package": "regex-tdfa-rc",
@@ -4754,6 +5155,7 @@
         "index": {
           "description": "Internal NFA node type",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "QNFA",
           "package": "regex-tdfa-rc",
@@ -4768,6 +5170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal to QNFA type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "QT",
           "package": "regex-tdfa-rc",
@@ -4777,6 +5180,7 @@
         "index": {
           "description": "Internal to QNFA type",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "QT",
           "package": "regex-tdfa-rc",
@@ -4791,6 +5195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal type to represent the tagged transition from one QNFA to\n another (or itself).  The key is the Index of the destination QNFA.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "QTrans",
           "package": "regex-tdfa-rc",
@@ -4800,6 +5205,7 @@
         "index": {
           "description": "Internal type to represent the tagged transition from one QNFA to another or itself The key is the Index of the destination QNFA",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "QTrans",
           "package": "regex-tdfa-rc",
@@ -4814,6 +5220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TDFA backend specific \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e type, used by this module's RegexOptions and RegexMaker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "Regex",
           "package": "regex-tdfa-rc",
@@ -4823,6 +5230,7 @@
         "index": {
           "description": "The TDFA backend specific Regex type used by this module RegexOptions and RegexMaker",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "Regex",
           "package": "regex-tdfa-rc",
@@ -4837,6 +5245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal DFA identity is this Set of NFA Index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "SetIndex",
           "package": "regex-tdfa-rc",
@@ -4846,6 +5255,7 @@
         "index": {
           "description": "Internal DFA identity is this Set of NFA Index",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "SetIndex",
           "package": "regex-tdfa-rc",
@@ -4860,6 +5270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by implementation to name certain Postions during\n matching. Identity of Position tag to set during a transition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "Tag",
           "package": "regex-tdfa-rc",
@@ -4869,6 +5280,7 @@
         "index": {
           "description": "Used by implementation to name certain Postions during matching Identity of Position tag to set during transition",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "Tag",
           "package": "regex-tdfa-rc",
@@ -4883,6 +5295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA TagList and the location of the item in the original pattern\n that is being accepted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "TagCommand",
           "package": "regex-tdfa-rc",
@@ -4892,6 +5305,7 @@
         "index": {
           "description": "TagList and the location of the item in the original pattern that is being accepted",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "TagCommand",
           "package": "regex-tdfa-rc",
@@ -4906,6 +5320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdered list of tags and their associated update operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "TagList",
           "package": "regex-tdfa-rc",
@@ -4915,6 +5330,7 @@
         "index": {
           "description": "Ordered list of tags and their associated update operation",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "TagList",
           "package": "regex-tdfa-rc",
@@ -4929,6 +5345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe things that can be done with a Tag.  TagTask and\n ResetGroupStopTask are for tags with Maximize or Minimize OP\n values.  ResetOrbitTask and EnterOrbitTask and LeaveOrbitTask are\n for tags with Orbit OP value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "TagTask",
           "package": "regex-tdfa-rc",
@@ -4938,6 +5355,7 @@
         "index": {
           "description": "The things that can be done with Tag TagTask and ResetGroupStopTask are for tags with Maximize or Minimize OP values ResetOrbitTask and EnterOrbitTask and LeaveOrbitTask are for tags with Orbit OP value",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "TagTask",
           "package": "regex-tdfa-rc",
@@ -4952,6 +5370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdered list of tags and their associated Task\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "TagTasks",
           "package": "regex-tdfa-rc",
@@ -4961,6 +5380,7 @@
         "index": {
           "description": "Ordered list of tags and their associated Task",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "TagTasks",
           "package": "regex-tdfa-rc",
@@ -4975,6 +5395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen attached to a QTrans the TagTask can be done before or after\n accepting the character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "TagUpdate",
           "package": "regex-tdfa-rc",
@@ -4984,6 +5405,7 @@
         "index": {
           "description": "When attached to QTrans the TagTask can be done before or after accepting the character",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "TagUpdate",
           "package": "regex-tdfa-rc",
@@ -4997,6 +5419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "Transition",
           "package": "regex-tdfa-rc",
@@ -5005,6 +5428,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "Transition",
           "package": "regex-tdfa-rc",
@@ -5019,6 +5443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKnown predicates, just Beginning of Line (^) and End of Line ($).\n Also support for GNU extensions is being added: ` beginning of\n buffer, ' end of buffer, \u003c and \u003e for begin and end of words, b\n and B for word boundary and not word boundary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "WhichTest",
           "package": "regex-tdfa-rc",
@@ -5028,6 +5453,7 @@
         "index": {
           "description": "Known predicates just Beginning of Line and End of Line Also support for GNU extensions is being added beginning of buffer end of buffer and for begin and end of words and for word boundary and not word boundary",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "WhichTest",
           "package": "regex-tdfa-rc",
@@ -5041,6 +5467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "WinEmpty",
           "package": "regex-tdfa-rc",
@@ -5049,6 +5476,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "WinEmpty",
           "package": "regex-tdfa-rc",
@@ -5063,6 +5491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdered list of tags and their associated update operation to\n perform on an empty transition to the virtual winning state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "WinTags",
           "package": "regex-tdfa-rc",
@@ -5072,6 +5501,7 @@
         "index": {
           "description": "Ordered list of tags and their associated update operation to perform on an empty transition to the virtual winning state",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "WinTags",
           "package": "regex-tdfa-rc",
@@ -5085,6 +5515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "CompOption",
           "package": "regex-tdfa-rc",
@@ -5094,6 +5525,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "CompOption",
           "package": "regex-tdfa-rc",
@@ -5153,6 +5585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "EnterOrbitTask",
           "package": "regex-tdfa-rc",
@@ -5162,6 +5595,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "EnterOrbitTask",
           "package": "regex-tdfa-rc",
@@ -5175,6 +5609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "ExecOption",
           "package": "regex-tdfa-rc",
@@ -5184,6 +5619,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "ExecOption",
           "package": "regex-tdfa-rc",
@@ -5197,6 +5633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "GroupInfo",
           "package": "regex-tdfa-rc",
@@ -5206,6 +5643,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "GroupInfo",
           "package": "regex-tdfa-rc",
@@ -5242,6 +5680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "Instructions",
           "package": "regex-tdfa-rc",
@@ -5251,6 +5690,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "Instructions",
           "package": "regex-tdfa-rc",
@@ -5264,6 +5704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "LeaveOrbitTask",
           "package": "regex-tdfa-rc",
@@ -5273,6 +5714,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "LeaveOrbitTask",
           "package": "regex-tdfa-rc",
@@ -5355,6 +5797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "Orbits",
           "package": "regex-tdfa-rc",
@@ -5364,6 +5807,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "Orbits",
           "package": "regex-tdfa-rc",
@@ -5446,6 +5890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "Regex",
           "package": "regex-tdfa-rc",
@@ -5455,6 +5900,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "Regex",
           "package": "regex-tdfa-rc",
@@ -5468,6 +5914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "ResetGroupStopTask",
           "package": "regex-tdfa-rc",
@@ -5477,6 +5924,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "ResetGroupStopTask",
           "package": "regex-tdfa-rc",
@@ -5490,6 +5938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "ResetOrbitTask",
           "package": "regex-tdfa-rc",
@@ -5499,6 +5948,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "ResetOrbitTask",
           "package": "regex-tdfa-rc",
@@ -5512,6 +5962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "SetGroupStopTask",
           "package": "regex-tdfa-rc",
@@ -5521,6 +5972,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "SetGroupStopTask",
           "package": "regex-tdfa-rc",
@@ -5534,6 +5986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "SetPost",
           "package": "regex-tdfa-rc",
@@ -5543,6 +5996,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "SetPost",
           "package": "regex-tdfa-rc",
@@ -5556,6 +6010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "SetPre",
           "package": "regex-tdfa-rc",
@@ -5565,6 +6020,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "SetPre",
           "package": "regex-tdfa-rc",
@@ -5578,6 +6034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "SetVal",
           "package": "regex-tdfa-rc",
@@ -5587,6 +6044,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "SetVal",
           "package": "regex-tdfa-rc",
@@ -5646,6 +6104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "TagTask",
           "package": "regex-tdfa-rc",
@@ -5655,6 +6114,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "TagTask",
           "package": "regex-tdfa-rc",
@@ -5898,6 +6358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "Transition",
           "package": "regex-tdfa-rc",
@@ -5907,6 +6368,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "Transition",
           "package": "regex-tdfa-rc",
@@ -5920,6 +6382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "WinEmpty",
           "package": "regex-tdfa-rc",
@@ -5929,6 +6392,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "WinEmpty",
           "package": "regex-tdfa-rc",
@@ -5942,6 +6406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "WinTest",
           "package": "regex-tdfa-rc",
@@ -5951,6 +6416,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "WinTest",
           "package": "regex-tdfa-rc",
@@ -5964,6 +6430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "basePos",
           "package": "regex-tdfa-rc",
@@ -5973,6 +6440,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "basePos",
           "package": "regex-tdfa-rc",
@@ -5987,6 +6455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue by default.  Set to False to improve speed (and space).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "captureGroups",
           "package": "regex-tdfa-rc",
@@ -5997,6 +6466,7 @@
         "index": {
           "description": "True by default Set to False to improve speed and space",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "captureGroups",
           "package": "regex-tdfa-rc",
@@ -6011,6 +6481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue in blankCompOpt and defaultCompOpt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "caseSensitive",
           "package": "regex-tdfa-rc",
@@ -6021,6 +6492,7 @@
         "index": {
           "description": "True in blankCompOpt and defaultCompOpt",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "caseSensitive",
           "package": "regex-tdfa-rc",
@@ -6034,6 +6506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "common_error",
           "package": "regex-tdfa-rc",
@@ -6043,6 +6516,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "common_error",
           "normalized": "String-\u003eString-\u003ea",
@@ -6292,6 +6766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "flagTag",
           "package": "regex-tdfa-rc",
@@ -6301,6 +6776,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "flagTag",
           "package": "regex-tdfa-rc",
@@ -6314,6 +6790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "flipOrder",
           "package": "regex-tdfa-rc",
@@ -6323,6 +6800,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "flipOrder",
           "normalized": "Ordering-\u003eOrdering",
@@ -6338,6 +6816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "fst3",
           "package": "regex-tdfa-rc",
@@ -6347,6 +6826,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "fst3",
           "normalized": "(a,b,c)-\u003ea",
@@ -6361,6 +6841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "getOrbits",
           "package": "regex-tdfa-rc",
@@ -6370,6 +6851,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "getOrbits",
           "package": "regex-tdfa-rc",
@@ -6383,6 +6865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "inOrbit",
           "package": "regex-tdfa-rc",
@@ -6392,6 +6875,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "inOrbit",
           "package": "regex-tdfa-rc",
@@ -6405,6 +6889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "indent",
           "package": "regex-tdfa-rc",
@@ -6414,6 +6899,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "indent",
           "normalized": "[String]-\u003eString",
@@ -6429,6 +6915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse by default.  This is POSIX correct but it takes space and is slower.\n Setting this to true will improve performance, and should be done\n if you plan to set the captureGroups execoption to False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "lastStarGreedy",
           "package": "regex-tdfa-rc",
@@ -6439,6 +6926,7 @@
         "index": {
           "description": "False by default This is POSIX correct but it takes space and is slower Setting this to true will improve performance and should be done if you plan to set the captureGroups execoption to False",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "lastStarGreedy",
           "package": "regex-tdfa-rc",
@@ -6452,6 +6940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "look",
           "package": "regex-tdfa-rc",
@@ -6461,6 +6950,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "look",
           "normalized": "Int-\u003eIntMap a-\u003ea",
@@ -6475,6 +6965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "mapFst",
           "package": "regex-tdfa-rc",
@@ -6484,6 +6975,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "mapFst",
           "normalized": "(a-\u003ea)-\u003eb(a,a)-\u003eb(a,a)",
@@ -6499,6 +6991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "mapSnd",
           "package": "regex-tdfa-rc",
@@ -6508,6 +7001,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "mapSnd",
           "normalized": "(a-\u003ea)-\u003eb(a,a)-\u003eb(a,a)",
@@ -6524,6 +7018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse in blankCompOpt, True in defaultCompOpt. Compile for\n                      newline-sensitive matching.  \u003ca\u003eBy default, newline is a completely ordinary\n                      character with no special meaning in either REs or strings.  With this flag,\n                      inverted bracket expressions and . never match newline, a ^ anchor matches the\n                      null string after any newline in the string in addition to its normal\n                      function, and the $ anchor matches the null string before any newline in the\n                      string in addition to its normal function.\u003c/a\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "multiline",
           "package": "regex-tdfa-rc",
@@ -6534,6 +7029,7 @@
         "index": {
           "description": "False in blankCompOpt True in defaultCompOpt Compile for newline-sensitive matching By default newline is completely ordinary character with no special meaning in either REs or strings With this flag inverted bracket expressions and never match newline anchor matches the null string after any newline in the string in addition to its normal function and the anchor matches the null string before any newline in the string in addition to its normal function",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "multiline",
           "package": "regex-tdfa-rc",
@@ -6546,6 +7042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "newOrbits",
           "package": "regex-tdfa-rc",
@@ -6555,6 +7052,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "newOrbits",
           "normalized": "(Maybe(Position-\u003eOrbitTransformer))",
@@ -6570,6 +7068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "newPos",
           "package": "regex-tdfa-rc",
@@ -6579,6 +7078,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "newPos",
           "normalized": "[(Tag,Action)]",
@@ -6595,6 +7095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse in blankCompOpt, True in defaultCompOpt. Add the extended non-POSIX syntax described in \u003ca\u003eText.Regex.TDFA\u003c/a\u003e haddock documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "newSyntax",
           "package": "regex-tdfa-rc",
@@ -6605,6 +7106,7 @@
         "index": {
           "description": "False in blankCompOpt True in defaultCompOpt Add the extended non-POSIX syntax described in Text.Regex.TDFA haddock documentation",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "newSyntax",
           "package": "regex-tdfa-rc",
@@ -6618,6 +7120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "noWin",
           "package": "regex-tdfa-rc",
@@ -6627,6 +7130,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "noWin",
           "normalized": "WinTags-\u003eBool",
@@ -6643,6 +7147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eafter sort or sortBy the use of nub\u003cem\u003enubBy can be replaced by norep\u003c/em\u003enorepBy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "norep",
           "package": "regex-tdfa-rc",
@@ -6653,6 +7158,7 @@
         "index": {
           "description": "after sort or sortBy the use of nub nubBy can be replaced by norep norepBy",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "norep",
           "normalized": "[a]-\u003e[a]",
@@ -6668,6 +7174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eafter sort or sortBy the use of nub\u003cem\u003enubBy can be replaced by norep\u003c/em\u003enorepBy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "norepBy",
           "package": "regex-tdfa-rc",
@@ -6678,6 +7185,7 @@
         "index": {
           "description": "after sort or sortBy the use of nub nubBy can be replaced by norep norepBy",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "norepBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -6693,6 +7201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "on",
           "package": "regex-tdfa-rc",
@@ -6702,6 +7211,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "on",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(a-\u003ea)-\u003ea-\u003ea-\u003ea",
@@ -6716,6 +7226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "ordinal",
           "package": "regex-tdfa-rc",
@@ -6725,6 +7236,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "ordinal",
           "package": "regex-tdfa-rc",
@@ -6737,6 +7249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "parentIndex",
           "package": "regex-tdfa-rc",
@@ -6746,6 +7259,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "parentIndex",
           "package": "regex-tdfa-rc",
@@ -6972,6 +7486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindexes of smallest and largest states\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_b_index",
           "package": "regex-tdfa-rc",
@@ -6982,6 +7497,7 @@
         "index": {
           "description": "indexes of smallest and largest states",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_b_index",
           "normalized": "(Index,Index)",
@@ -6997,6 +7513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindexes of smallest and largest tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_b_tags",
           "package": "regex-tdfa-rc",
@@ -7007,6 +7524,7 @@
         "index": {
           "description": "indexes of smallest and largest tags",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_b_tags",
           "normalized": "(Tag,Tag)",
@@ -7021,6 +7539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_compOptions",
           "package": "regex-tdfa-rc",
@@ -7030,6 +7549,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_compOptions",
           "package": "regex-tdfa-rc",
@@ -7044,6 +7564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estarting DFA state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_dfa",
           "package": "regex-tdfa-rc",
@@ -7054,6 +7575,7 @@
         "index": {
           "description": "starting DFA state",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_dfa",
           "package": "regex-tdfa-rc",
@@ -7066,6 +7588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_execOptions",
           "package": "regex-tdfa-rc",
@@ -7075,6 +7598,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_execOptions",
           "package": "regex-tdfa-rc",
@@ -7089,6 +7613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einformation about each group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_groups",
           "package": "regex-tdfa-rc",
@@ -7099,6 +7624,7 @@
         "index": {
           "description": "information about each group",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_groups",
           "normalized": "Array GroupIndex[GroupInfo]",
@@ -7114,6 +7640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindex of starting state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_init",
           "package": "regex-tdfa-rc",
@@ -7124,6 +7651,7 @@
         "index": {
           "description": "index of starting state",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_init",
           "package": "regex-tdfa-rc",
@@ -7137,6 +7665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused for optimizing execution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_isFrontAnchored",
           "package": "regex-tdfa-rc",
@@ -7147,6 +7676,7 @@
         "index": {
           "description": "used for optimizing execution",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_isFrontAnchored",
           "package": "regex-tdfa-rc",
@@ -7161,6 +7691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einformation about each tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_tags",
           "package": "regex-tdfa-rc",
@@ -7171,6 +7702,7 @@
         "index": {
           "description": "information about each tag",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_tags",
           "package": "regex-tdfa-rc",
@@ -7184,6 +7716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll DFA states\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_trie",
           "package": "regex-tdfa-rc",
@@ -7194,6 +7727,7 @@
         "index": {
           "description": "All DFA states",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "regex_trie",
           "package": "regex-tdfa-rc",
@@ -7207,6 +7741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue (and therefore Right associative) in blankCompOpt and defaultCompOpt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "rightAssoc",
           "package": "regex-tdfa-rc",
@@ -7217,6 +7752,7 @@
         "index": {
           "description": "True and therefore Right associative in blankCompOpt and defaultCompOpt",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "rightAssoc",
           "package": "regex-tdfa-rc",
@@ -7230,6 +7766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "seeDTrans",
           "package": "regex-tdfa-rc",
@@ -7239,6 +7776,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "seeDTrans",
           "normalized": "DTrans-\u003eString",
@@ -7254,6 +7792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "showDT",
           "package": "regex-tdfa-rc",
@@ -7263,6 +7802,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "showDT",
           "normalized": "DT-\u003eString",
@@ -7278,6 +7818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "showQT",
           "package": "regex-tdfa-rc",
@@ -7287,6 +7828,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "showQT",
           "normalized": "QT-\u003eString",
@@ -7302,6 +7844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "snd3",
           "package": "regex-tdfa-rc",
@@ -7311,6 +7854,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "snd3",
           "normalized": "(a,b,c)-\u003eb",
@@ -7325,6 +7869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "startTag",
           "package": "regex-tdfa-rc",
@@ -7334,6 +7879,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "startTag",
           "package": "regex-tdfa-rc",
@@ -7347,6 +7893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "stopTag",
           "package": "regex-tdfa-rc",
@@ -7356,6 +7903,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "stopTag",
           "package": "regex-tdfa-rc",
@@ -7369,6 +7917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "thd3",
           "package": "regex-tdfa-rc",
@@ -7378,6 +7927,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "thd3",
           "normalized": "(a,b,c)-\u003ec",
@@ -7392,6 +7942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "thisIndex",
           "package": "regex-tdfa-rc",
@@ -7401,6 +7952,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "thisIndex",
           "package": "regex-tdfa-rc",
@@ -7415,6 +7967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehow to go, including respawning\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "trans_how",
           "package": "regex-tdfa-rc",
@@ -7425,6 +7978,7 @@
         "index": {
           "description": "how to go including respawning",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "trans_how",
           "package": "regex-tdfa-rc",
@@ -7438,6 +7992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhere to go (maximal), including respawning\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "trans_many",
           "package": "regex-tdfa-rc",
@@ -7448,6 +8003,7 @@
         "index": {
           "description": "where to go maximal including respawning",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "trans_many",
           "package": "regex-tdfa-rc",
@@ -7461,6 +8017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhere to go, not including respawning\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Common",
           "name": "trans_single",
           "package": "regex-tdfa-rc",
@@ -7471,6 +8028,7 @@
         "index": {
           "description": "where to go not including respawning",
           "hierarchy": "Text Regex TDFA Common",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Common",
           "name": "trans_single",
           "package": "regex-tdfa-rc",
@@ -7484,6 +8042,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe CorePattern module deconstructs the Pattern tree created by\n ReadRegex.parseRegex and returns a simpler Q/P tree with\n annotations at each Q node.  This will be converted by the TNFA\n module into a QNFA finite automata.\n\u003c/p\u003e\u003cp\u003eOf particular note, this Pattern to Q/P conversion creates and\n assigns all the internal Tags that will be used during the matching\n process, and associates the captures groups with the tags that\n represent their starting and ending locations and with their\n immediate parent group.\n\u003c/p\u003e\u003cp\u003eEach Maximize and Minimize tag is held as either a preTag or a\n postTag by one and only one location in the Q/P tree.  The Orbit\n tags are each held by one and only one Star node.  Tags that stop a\n Group are also held in perhaps numerous preReset lists.\n\u003c/p\u003e\u003cp\u003eThe additional nullQ::nullView field of Q records the potentially\n complex information about what tests and tags must be used if the\n pattern unQ::P matches 0 zero characters.  There can be redundancy\n in nullView, which is eliminated by cleanNullView.\n\u003c/p\u003e\u003cp\u003eUses recursive do notation.\n\u003c/p\u003e\u003cp\u003e2009 XXX TODO: we can avoid needing tags in the part of the pattern\n after the last capturing group (when right-associative).  This is\n flipped for left-associative where the front of the pattern before\n the first capturing group needs no tags.  The edge of these regions\n is subtle: both case needs a Maximize tag.  One ought to be able to\n check the Pattern: if the root is PConcat then a scan from the end\n (start) looking for the first with an embedded PGroup can be found\n and the PGroup free elements can be wrapped in some new PNOTAG\n semantic indicator.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "CorePattern",
           "package": "regex-tdfa-rc",
@@ -7493,6 +8052,7 @@
         "index": {
           "description": "The CorePattern module deconstructs the Pattern tree created by ReadRegex.parseRegex and returns simpler tree with annotations at each node This will be converted by the TNFA module into QNFA finite automata Of particular note this Pattern to conversion creates and assigns all the internal Tags that will be used during the matching process and associates the captures groups with the tags that represent their starting and ending locations and with their immediate parent group Each Maximize and Minimize tag is held as either preTag or postTag by one and only one location in the tree The Orbit tags are each held by one and only one Star node Tags that stop Group are also held in perhaps numerous preReset lists The additional nullQ nullView field of records the potentially complex information about what tests and tags must be used if the pattern unQ matches zero characters There can be redundancy in nullView which is eliminated by cleanNullView Uses recursive do notation XXX TODO we can avoid needing tags in the part of the pattern after the last capturing group when right-associative This is flipped for left-associative where the front of the pattern before the first capturing group needs no tags The edge of these regions is subtle both case needs Maximize tag One ought to be able to check the Pattern if the root is PConcat then scan from the end start looking for the first with an embedded PGroup can be found and the PGroup free elements can be wrapped in some new PNOTAG semantic indicator",
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "CorePattern",
           "package": "regex-tdfa-rc",
@@ -7506,6 +8066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "NullView",
           "package": "regex-tdfa-rc",
@@ -7514,6 +8075,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "NullView",
           "package": "regex-tdfa-rc",
@@ -7528,6 +8090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal use to indicate type of tag and preference for larger or smaller Positions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "OP",
           "package": "regex-tdfa-rc",
@@ -7537,6 +8100,7 @@
         "index": {
           "description": "Internal use to indicate type of tag and preference for larger or smaller Positions",
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "OP",
           "package": "regex-tdfa-rc",
@@ -7550,6 +8114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "P",
           "package": "regex-tdfa-rc",
@@ -7558,6 +8123,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "P",
           "package": "regex-tdfa-rc",
@@ -7570,6 +8136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "Q",
           "package": "regex-tdfa-rc",
@@ -7578,6 +8145,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "Q",
           "package": "regex-tdfa-rc",
@@ -7590,6 +8158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "SetTestInfo",
           "package": "regex-tdfa-rc",
@@ -7598,6 +8167,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "SetTestInfo",
           "package": "regex-tdfa-rc",
@@ -7611,6 +8181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "TestInfo",
           "package": "regex-tdfa-rc",
@@ -7619,6 +8190,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "TestInfo",
           "package": "regex-tdfa-rc",
@@ -7632,6 +8204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "Wanted",
           "package": "regex-tdfa-rc",
@@ -7640,6 +8213,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "Wanted",
           "package": "regex-tdfa-rc",
@@ -7654,6 +8228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKnown predicates, just Beginning of Line (^) and End of Line ($).\n Also support for GNU extensions is being added: ` beginning of\n buffer, ' end of buffer, \u003c and \u003e for begin and end of words, b\n and B for word boundary and not word boundary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "WhichTest",
           "package": "regex-tdfa-rc",
@@ -7663,6 +8238,7 @@
         "index": {
           "description": "Known predicates just Beginning of Line and End of Line Also support for GNU extensions is being added beginning of buffer end of buffer and for begin and end of words and for word boundary and not word boundary",
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "WhichTest",
           "package": "regex-tdfa-rc",
@@ -7676,6 +8252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "Empty",
           "package": "regex-tdfa-rc",
@@ -7685,6 +8262,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "Empty",
           "package": "regex-tdfa-rc",
@@ -7698,6 +8276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "NonEmpty",
           "package": "regex-tdfa-rc",
@@ -7707,6 +8286,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "NonEmpty",
           "package": "regex-tdfa-rc",
@@ -7720,6 +8300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "OneChar",
           "package": "regex-tdfa-rc",
@@ -7729,6 +8310,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "OneChar",
           "package": "regex-tdfa-rc",
@@ -7742,6 +8324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "Or",
           "package": "regex-tdfa-rc",
@@ -7751,6 +8334,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "Or",
           "normalized": "Or[Q]",
@@ -7766,6 +8350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "Q",
           "package": "regex-tdfa-rc",
@@ -7775,6 +8360,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "Q",
           "package": "regex-tdfa-rc",
@@ -7787,6 +8373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "Seq",
           "package": "regex-tdfa-rc",
@@ -7796,6 +8383,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "Seq",
           "package": "regex-tdfa-rc",
@@ -7809,6 +8397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "SetTestInfo",
           "package": "regex-tdfa-rc",
@@ -7818,6 +8407,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "SetTestInfo",
           "package": "regex-tdfa-rc",
@@ -7831,6 +8421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "Star",
           "package": "regex-tdfa-rc",
@@ -7840,6 +8431,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "Star",
           "package": "regex-tdfa-rc",
@@ -7853,6 +8445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "Test",
           "package": "regex-tdfa-rc",
@@ -7862,6 +8455,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "Test",
           "package": "regex-tdfa-rc",
@@ -7875,6 +8469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "WantsBoth",
           "package": "regex-tdfa-rc",
@@ -7884,6 +8479,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "WantsBoth",
           "package": "regex-tdfa-rc",
@@ -7897,6 +8493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "WantsEither",
           "package": "regex-tdfa-rc",
@@ -7906,6 +8503,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "WantsEither",
           "package": "regex-tdfa-rc",
@@ -7919,6 +8517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "WantsQNFA",
           "package": "regex-tdfa-rc",
@@ -7928,6 +8527,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "WantsQNFA",
           "package": "regex-tdfa-rc",
@@ -7941,6 +8541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "WantsQT",
           "package": "regex-tdfa-rc",
@@ -7950,6 +8551,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "WantsQT",
           "package": "regex-tdfa-rc",
@@ -7963,6 +8565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "cannotAccept",
           "package": "regex-tdfa-rc",
@@ -7972,6 +8575,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "cannotAccept",
           "normalized": "Q-\u003eBool",
@@ -7987,6 +8591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "childGroups",
           "package": "regex-tdfa-rc",
@@ -7996,6 +8601,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "childGroups",
           "package": "regex-tdfa-rc",
@@ -8009,6 +8615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "cleanNullView",
           "package": "regex-tdfa-rc",
@@ -8018,6 +8625,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "cleanNullView",
           "normalized": "NullView-\u003eNullView",
@@ -8033,6 +8641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "firstNull",
           "package": "regex-tdfa-rc",
@@ -8042,6 +8651,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "firstNull",
           "package": "regex-tdfa-rc",
@@ -8055,6 +8665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "getOrbit",
           "package": "regex-tdfa-rc",
@@ -8064,6 +8675,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "getOrbit",
           "package": "regex-tdfa-rc",
@@ -8077,6 +8689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "getTests",
           "package": "regex-tdfa-rc",
@@ -8086,6 +8699,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "getTests",
           "package": "regex-tdfa-rc",
@@ -8099,6 +8713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "mustAccept",
           "package": "regex-tdfa-rc",
@@ -8108,6 +8723,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "mustAccept",
           "normalized": "Q-\u003eBool",
@@ -8123,6 +8739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "nullQ",
           "package": "regex-tdfa-rc",
@@ -8132,6 +8749,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "nullQ",
           "package": "regex-tdfa-rc",
@@ -8144,6 +8762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "patternToQ",
           "package": "regex-tdfa-rc",
@@ -8153,6 +8772,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "patternToQ",
           "normalized": "CompOption-\u003e(Pattern,(GroupIndex,DoPa))-\u003e(Q,Array Tag OP,Array GroupIndex[GroupInfo])",
@@ -8168,6 +8788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "postSet",
           "package": "regex-tdfa-rc",
@@ -8177,6 +8798,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "postSet",
           "normalized": "[Tag]",
@@ -8192,6 +8814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "postTag",
           "package": "regex-tdfa-rc",
@@ -8201,6 +8824,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "postTag",
           "package": "regex-tdfa-rc",
@@ -8214,6 +8838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "preReset",
           "package": "regex-tdfa-rc",
@@ -8223,6 +8848,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "preReset",
           "normalized": "[Tag]",
@@ -8238,6 +8864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "preTag",
           "package": "regex-tdfa-rc",
@@ -8247,6 +8874,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "preTag",
           "package": "regex-tdfa-rc",
@@ -8260,6 +8888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "resetOrbits",
           "package": "regex-tdfa-rc",
@@ -8269,6 +8898,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "resetOrbits",
           "normalized": "[Tag]",
@@ -8284,6 +8914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "tagged",
           "package": "regex-tdfa-rc",
@@ -8293,6 +8924,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "tagged",
           "package": "regex-tdfa-rc",
@@ -8305,6 +8937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "takes",
           "package": "regex-tdfa-rc",
@@ -8314,6 +8947,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "takes",
           "normalized": "(Position,Maybe Position)",
@@ -8328,6 +8962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "unQ",
           "package": "regex-tdfa-rc",
@@ -8337,6 +8972,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "unQ",
           "package": "regex-tdfa-rc",
@@ -8349,6 +8985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "unStar",
           "package": "regex-tdfa-rc",
@@ -8358,6 +8995,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "unStar",
           "package": "regex-tdfa-rc",
@@ -8371,6 +9009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "wants",
           "package": "regex-tdfa-rc",
@@ -8380,6 +9019,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA CorePattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.CorePattern",
           "name": "wants",
           "package": "regex-tdfa-rc",
@@ -8393,6 +9033,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis creates a lazy Trie based on a finite range of Ints and is used to\nmemorize a function over the subsets of this range.\n\u003c/p\u003e\u003cp\u003eTo create a Trie you need two supply 2 things\n  * Range of keys to bound\n  * A function or functions used to construct the value for a subset of keys\n\u003c/p\u003e\u003cp\u003eThe Trie uses the Array type internally.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.IntArrTrieSet",
           "name": "IntArrTrieSet",
           "package": "regex-tdfa-rc",
@@ -8402,6 +9043,7 @@
         "index": {
           "description": "This creates lazy Trie based on finite range of Ints and is used to memorize function over the subsets of this range To create Trie you need two supply things Range of keys to bound function or functions used to construct the value for subset of keys The Trie uses the Array type internally",
           "hierarchy": "Text Regex TDFA IntArrTrieSet",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.IntArrTrieSet",
           "name": "IntArrTrieSet",
           "package": "regex-tdfa-rc",
@@ -8415,6 +9057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.IntArrTrieSet",
           "name": "TrieSet",
           "package": "regex-tdfa-rc",
@@ -8423,6 +9066,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA IntArrTrieSet",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.IntArrTrieSet",
           "name": "TrieSet",
           "package": "regex-tdfa-rc",
@@ -8436,6 +9080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.IntArrTrieSet",
           "name": "TrieSet",
           "package": "regex-tdfa-rc",
@@ -8445,6 +9090,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA IntArrTrieSet",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.IntArrTrieSet",
           "name": "TrieSet",
           "package": "regex-tdfa-rc",
@@ -8459,6 +9105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a Trie constructor for a complete range of keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.IntArrTrieSet",
           "name": "fromBounds",
           "package": "regex-tdfa-rc",
@@ -8468,6 +9115,7 @@
         "index": {
           "description": "This is Trie constructor for complete range of keys",
           "hierarchy": "Text Regex TDFA IntArrTrieSet",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.IntArrTrieSet",
           "name": "fromBounds",
           "normalized": "(Int,Int)-\u003e([Int]-\u003ea)-\u003eTrieSet a",
@@ -8484,6 +9132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a Trie constructor for a complete range of keys that uses\n a function from single values and a merge operation on values to\n fill the Trie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.IntArrTrieSet",
           "name": "fromSinglesMerge",
           "package": "regex-tdfa-rc",
@@ -8493,6 +9142,7 @@
         "index": {
           "description": "This is Trie constructor for complete range of keys that uses function from single values and merge operation on values to fill the Trie",
           "hierarchy": "Text Regex TDFA IntArrTrieSet",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.IntArrTrieSet",
           "name": "fromSinglesMerge",
           "normalized": "a-\u003e(a-\u003ea-\u003ea)-\u003e(Int,Int)-\u003e(Int-\u003ea)-\u003eTrieSet a",
@@ -8509,6 +9159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a Trie constructor for a complete range of keys that uses\n a function from single values and a sum operation of values to fill\n the Trie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.IntArrTrieSet",
           "name": "fromSinglesSum",
           "package": "regex-tdfa-rc",
@@ -8518,6 +9169,7 @@
         "index": {
           "description": "This is Trie constructor for complete range of keys that uses function from single values and sum operation of values to fill the Trie",
           "hierarchy": "Text Regex TDFA IntArrTrieSet",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.IntArrTrieSet",
           "name": "fromSinglesSum",
           "normalized": "([a]-\u003ea)-\u003e(Int,Int)-\u003e(Int-\u003ea)-\u003eTrieSet a",
@@ -8534,6 +9186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the accessor for the Trie. The list of keys should be\n sorted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.IntArrTrieSet",
           "name": "lookupAsc",
           "package": "regex-tdfa-rc",
@@ -8544,6 +9197,7 @@
         "index": {
           "description": "This is the accessor for the Trie The list of keys should be sorted",
           "hierarchy": "Text Regex TDFA IntArrTrieSet",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.IntArrTrieSet",
           "name": "lookupAsc",
           "normalized": "TrieSet a-\u003e[Int]-\u003ea",
@@ -8559,6 +9213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.IntArrTrieSet",
           "name": "next",
           "package": "regex-tdfa-rc",
@@ -8568,6 +9223,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA IntArrTrieSet",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.IntArrTrieSet",
           "name": "next",
           "package": "regex-tdfa-rc",
@@ -8580,6 +9236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.IntArrTrieSet",
           "name": "value",
           "package": "regex-tdfa-rc",
@@ -8589,6 +9246,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA IntArrTrieSet",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.IntArrTrieSet",
           "name": "value",
           "package": "regex-tdfa-rc",
@@ -8602,6 +9260,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the code for the main engine.  This captures the posix subexpressions. This \u003ccode\u003e\u003ca\u003eexecMatch\u003c/a\u003e\u003c/code\u003e\n also dispatches to \u003ca\u003eEngine_NC\u003c/a\u003e, \u003ca\u003eEngine_FA\u003c/a\u003e, and \u003ca\u003eEngine_FC_NA\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eIt is polymorphic over the internal Uncons type class, and specialized to produce the needed\n variants.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.NewDFA.Engine",
           "name": "Engine",
           "package": "regex-tdfa-rc",
@@ -8611,6 +9270,7 @@
         "index": {
           "description": "This is the code for the main engine This captures the posix subexpressions This execMatch also dispatches to Engine NC Engine FA and Engine FC NA It is polymorphic over the internal Uncons type class and specialized to produce the needed variants",
           "hierarchy": "Text Regex TDFA NewDFA Engine",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.NewDFA.Engine",
           "name": "Engine",
           "package": "regex-tdfa-rc",
@@ -8624,6 +9284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.NewDFA.Engine",
           "name": "execMatch",
           "package": "regex-tdfa-rc",
@@ -8633,6 +9294,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA NewDFA Engine",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.NewDFA.Engine",
           "name": "execMatch",
           "normalized": "Regex-\u003ePosition-\u003eChar-\u003ea-\u003e[MatchArray]",
@@ -8649,6 +9311,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the code for the main engine.  This captures the posix\n subexpressions.  There is also a non-capturing engine, and a\n testing engine.\n\u003c/p\u003e\u003cp\u003eIt is polymorphic over the internal Uncons type class, and\n specialized to produce the needed variants.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.NewDFA.Engine_FA",
           "name": "Engine_FA",
           "package": "regex-tdfa-rc",
@@ -8658,6 +9321,7 @@
         "index": {
           "description": "This is the code for the main engine This captures the posix subexpressions There is also non-capturing engine and testing engine It is polymorphic over the internal Uncons type class and specialized to produce the needed variants",
           "hierarchy": "Text Regex TDFA NewDFA Engine_FA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.NewDFA.Engine_FA",
           "name": "Engine_FA",
           "package": "regex-tdfa-rc",
@@ -8671,6 +9335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.NewDFA.Engine_FA",
           "name": "execMatch",
           "package": "regex-tdfa-rc",
@@ -8680,6 +9345,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA NewDFA Engine_FA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.NewDFA.Engine_FA",
           "name": "execMatch",
           "normalized": "Regex-\u003ePosition-\u003eChar-\u003ea-\u003e[MatchArray]",
@@ -8696,6 +9362,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the non-capturing form of Text.Regex.TDFA.NewDFA.String\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.NewDFA.Engine_NC",
           "name": "Engine_NC",
           "package": "regex-tdfa-rc",
@@ -8705,6 +9372,7 @@
         "index": {
           "description": "This is the non-capturing form of Text.Regex.TDFA.NewDFA.String",
           "hierarchy": "Text Regex TDFA NewDFA Engine_NC",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.NewDFA.Engine_NC",
           "name": "Engine_NC",
           "package": "regex-tdfa-rc",
@@ -8718,6 +9386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.NewDFA.Engine_NC",
           "name": "execMatch",
           "package": "regex-tdfa-rc",
@@ -8727,6 +9396,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA NewDFA Engine_NC",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.NewDFA.Engine_NC",
           "name": "execMatch",
           "normalized": "Regex-\u003ePosition-\u003eChar-\u003ea-\u003e[MatchArray]",
@@ -8743,6 +9413,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the non-capturing form of Text.Regex.TDFA.NewDFA.String\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.NewDFA.Engine_NC_FA",
           "name": "Engine_NC_FA",
           "package": "regex-tdfa-rc",
@@ -8752,6 +9423,7 @@
         "index": {
           "description": "This is the non-capturing form of Text.Regex.TDFA.NewDFA.String",
           "hierarchy": "Text Regex TDFA NewDFA Engine_NC_FA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.NewDFA.Engine_NC_FA",
           "name": "Engine_NC_FA",
           "package": "regex-tdfa-rc",
@@ -8765,6 +9437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.NewDFA.Engine_NC_FA",
           "name": "execMatch",
           "package": "regex-tdfa-rc",
@@ -8774,6 +9447,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA NewDFA Engine_NC_FA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.NewDFA.Engine_NC_FA",
           "name": "execMatch",
           "normalized": "Regex-\u003ePosition-\u003eChar-\u003ea-\u003e[MatchArray]",
@@ -8789,6 +9463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.NewDFA.MakeTest",
           "name": "MakeTest",
           "package": "regex-tdfa-rc",
@@ -8797,6 +9472,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA NewDFA MakeTest",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.NewDFA.MakeTest",
           "name": "MakeTest",
           "package": "regex-tdfa-rc",
@@ -8810,6 +9486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.NewDFA.MakeTest",
           "name": "test_multiline",
           "package": "regex-tdfa-rc",
@@ -8819,6 +9496,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA NewDFA MakeTest",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.NewDFA.MakeTest",
           "name": "test_multiline",
           "normalized": "WhichTest-\u003eIndex-\u003eChar-\u003ea-\u003eBool",
@@ -8833,6 +9511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.NewDFA.MakeTest",
           "name": "test_singleline",
           "package": "regex-tdfa-rc",
@@ -8842,6 +9521,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA NewDFA MakeTest",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.NewDFA.MakeTest",
           "name": "test_singleline",
           "normalized": "WhichTest-\u003eIndex-\u003eChar-\u003ea-\u003eBool",
@@ -8857,6 +9537,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLike Engine, but merely checks to see whether any match at all is found.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.NewDFA.Tester",
           "name": "Tester",
           "package": "regex-tdfa-rc",
@@ -8866,6 +9547,7 @@
         "index": {
           "description": "Like Engine but merely checks to see whether any match at all is found",
           "hierarchy": "Text Regex TDFA NewDFA Tester",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.NewDFA.Tester",
           "name": "Tester",
           "package": "regex-tdfa-rc",
@@ -8879,6 +9561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.NewDFA.Tester",
           "name": "matchTest",
           "package": "regex-tdfa-rc",
@@ -8888,6 +9571,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA NewDFA Tester",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.NewDFA.Tester",
           "name": "matchTest",
           "normalized": "Regex-\u003ea-\u003eBool",
@@ -8903,6 +9587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.NewDFA.Uncons",
           "name": "Uncons",
           "package": "regex-tdfa-rc",
@@ -8911,6 +9596,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA NewDFA Uncons",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.NewDFA.Uncons",
           "name": "Uncons",
           "package": "regex-tdfa-rc",
@@ -8924,6 +9610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.NewDFA.Uncons",
           "name": "Uncons",
           "package": "regex-tdfa-rc",
@@ -8932,6 +9619,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA NewDFA Uncons",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.NewDFA.Uncons",
           "name": "Uncons",
           "package": "regex-tdfa-rc",
@@ -8945,6 +9633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.NewDFA.Uncons",
           "name": "uncons",
           "package": "regex-tdfa-rc",
@@ -8954,6 +9643,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA NewDFA Uncons",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.NewDFA.Uncons",
           "name": "uncons",
           "normalized": "a-\u003eMaybe(Char,a)",
@@ -8969,6 +9659,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis \u003ca\u003eText.Regex.TDFA.Pattern\u003c/a\u003e module provides the \u003ccode\u003e\u003ca\u003ePattern\u003c/a\u003e\u003c/code\u003e data\n type and its subtypes.  This \u003ccode\u003e\u003ca\u003ePattern\u003c/a\u003e\u003c/code\u003e type is used to represent\n the parsed form of a Regular Expression.  \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "Pattern",
           "package": "regex-tdfa-rc",
@@ -8978,6 +9669,7 @@
         "index": {
           "description": "This Text.Regex.TDFA.Pattern module provides the Pattern data type and its subtypes This Pattern type is used to represent the parsed form of Regular Expression",
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "Pattern",
           "package": "regex-tdfa-rc",
@@ -8992,6 +9684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to track elements of the pattern that accept characters or \n are anchors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "DoPa",
           "package": "regex-tdfa-rc",
@@ -9001,6 +9694,7 @@
         "index": {
           "description": "Used to track elements of the pattern that accept characters or are anchors",
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "DoPa",
           "package": "regex-tdfa-rc",
@@ -9015,6 +9709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroupIndex is for indexing submatches from capturing\n parenthesized groups (PGroup/Group)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "GroupIndex",
           "package": "regex-tdfa-rc",
@@ -9024,6 +9719,7 @@
         "index": {
           "description": "GroupIndex is for indexing submatches from capturing parenthesized groups PGroup Group",
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "GroupIndex",
           "package": "regex-tdfa-rc",
@@ -9038,6 +9734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePattern is the type returned by the regular expression parser.\n This is consumed by the CorePattern module and the tender leaves\n are nibbled by the TNFA module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "Pattern",
           "package": "regex-tdfa-rc",
@@ -9047,6 +9744,7 @@
         "index": {
           "description": "Pattern is the type returned by the regular expression parser This is consumed by the CorePattern module and the tender leaves are nibbled by the TNFA module",
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "Pattern",
           "package": "regex-tdfa-rc",
@@ -9060,6 +9758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PatternSet",
           "package": "regex-tdfa-rc",
@@ -9068,6 +9767,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PatternSet",
           "package": "regex-tdfa-rc",
@@ -9081,6 +9781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PatternSetCharacterClass",
           "package": "regex-tdfa-rc",
@@ -9089,6 +9790,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PatternSetCharacterClass",
           "package": "regex-tdfa-rc",
@@ -9102,6 +9804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PatternSetCollatingElement",
           "package": "regex-tdfa-rc",
@@ -9110,6 +9813,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PatternSetCollatingElement",
           "package": "regex-tdfa-rc",
@@ -9123,6 +9827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PatternSetEquivalenceClass",
           "package": "regex-tdfa-rc",
@@ -9131,6 +9836,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PatternSetEquivalenceClass",
           "package": "regex-tdfa-rc",
@@ -9144,6 +9850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PAny",
           "package": "regex-tdfa-rc",
@@ -9153,6 +9860,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PAny",
           "package": "regex-tdfa-rc",
@@ -9166,6 +9874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PAnyNot",
           "package": "regex-tdfa-rc",
@@ -9175,6 +9884,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PAnyNot",
           "package": "regex-tdfa-rc",
@@ -9188,6 +9898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PBound",
           "package": "regex-tdfa-rc",
@@ -9197,6 +9908,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PBound",
           "package": "regex-tdfa-rc",
@@ -9210,6 +9922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PCarat",
           "package": "regex-tdfa-rc",
@@ -9219,6 +9932,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PCarat",
           "package": "regex-tdfa-rc",
@@ -9232,6 +9946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PChar",
           "package": "regex-tdfa-rc",
@@ -9241,6 +9956,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PChar",
           "package": "regex-tdfa-rc",
@@ -9254,6 +9970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PConcat",
           "package": "regex-tdfa-rc",
@@ -9263,6 +9980,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PConcat",
           "normalized": "PConcat[Pattern]",
@@ -9278,6 +9996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PDollar",
           "package": "regex-tdfa-rc",
@@ -9287,6 +10006,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PDollar",
           "package": "regex-tdfa-rc",
@@ -9300,6 +10020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PDot",
           "package": "regex-tdfa-rc",
@@ -9309,6 +10030,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PDot",
           "package": "regex-tdfa-rc",
@@ -9322,6 +10044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PEmpty",
           "package": "regex-tdfa-rc",
@@ -9331,6 +10054,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PEmpty",
           "package": "regex-tdfa-rc",
@@ -9344,6 +10068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PEscape",
           "package": "regex-tdfa-rc",
@@ -9353,6 +10078,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PEscape",
           "package": "regex-tdfa-rc",
@@ -9366,6 +10092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PGroup",
           "package": "regex-tdfa-rc",
@@ -9375,6 +10102,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PGroup",
           "package": "regex-tdfa-rc",
@@ -9388,6 +10116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PNonCapture",
           "package": "regex-tdfa-rc",
@@ -9397,6 +10126,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PNonCapture",
           "package": "regex-tdfa-rc",
@@ -9410,6 +10140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PNonEmpty",
           "package": "regex-tdfa-rc",
@@ -9419,6 +10150,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PNonEmpty",
           "package": "regex-tdfa-rc",
@@ -9432,6 +10164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "POr",
           "package": "regex-tdfa-rc",
@@ -9441,6 +10174,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "POr",
           "normalized": "POr[Pattern]",
@@ -9456,6 +10190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PPlus",
           "package": "regex-tdfa-rc",
@@ -9465,6 +10200,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PPlus",
           "package": "regex-tdfa-rc",
@@ -9478,6 +10214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PQuest",
           "package": "regex-tdfa-rc",
@@ -9487,6 +10224,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PQuest",
           "package": "regex-tdfa-rc",
@@ -9500,6 +10238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PStar",
           "package": "regex-tdfa-rc",
@@ -9509,6 +10248,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PStar",
           "package": "regex-tdfa-rc",
@@ -9522,6 +10262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PatternSet",
           "package": "regex-tdfa-rc",
@@ -9531,6 +10272,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PatternSet",
           "package": "regex-tdfa-rc",
@@ -9544,6 +10286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PatternSetCharacterClass",
           "package": "regex-tdfa-rc",
@@ -9553,6 +10296,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PatternSetCharacterClass",
           "package": "regex-tdfa-rc",
@@ -9566,6 +10310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PatternSetCollatingElement",
           "package": "regex-tdfa-rc",
@@ -9575,6 +10320,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PatternSetCollatingElement",
           "package": "regex-tdfa-rc",
@@ -9588,6 +10334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PatternSetEquivalenceClass",
           "package": "regex-tdfa-rc",
@@ -9597,6 +10344,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "PatternSetEquivalenceClass",
           "package": "regex-tdfa-rc",
@@ -9611,6 +10359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a Pattern transfomation function depth first\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "dfsPattern",
           "package": "regex-tdfa-rc",
@@ -9620,6 +10369,7 @@
         "index": {
           "description": "Apply Pattern transfomation function depth first",
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "dfsPattern",
           "normalized": "(Pattern-\u003ePattern)-\u003ePattern-\u003ePattern",
@@ -9635,6 +10385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "getDoPa",
           "package": "regex-tdfa-rc",
@@ -9644,6 +10395,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "getDoPa",
           "package": "regex-tdfa-rc",
@@ -9657,6 +10409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "getPatternChar",
           "package": "regex-tdfa-rc",
@@ -9666,6 +10419,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "getPatternChar",
           "package": "regex-tdfa-rc",
@@ -9679,6 +10433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "getPatternSet",
           "package": "regex-tdfa-rc",
@@ -9688,6 +10443,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "getPatternSet",
           "package": "regex-tdfa-rc",
@@ -9702,6 +10458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eI have not been checking, but this should have the property that\n parsing the resulting string should result in an identical Pattern.\n This is not true if starTrans has created PNonCapture and PNonEmpty\n values or a (PStar False).  The contents of a \u003ca\u003e[ ]\u003c/a\u003e grouping are\n always shown in a sorted canonical order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "showPattern",
           "package": "regex-tdfa-rc",
@@ -9712,6 +10469,7 @@
         "index": {
           "description": "have not been checking but this should have the property that parsing the resulting string should result in an identical Pattern This is not true if starTrans has created PNonCapture and PNonEmpty values or PStar False The contents of grouping are always shown in sorted canonical order",
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "showPattern",
           "normalized": "Pattern-\u003eString",
@@ -9728,6 +10486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to transform a pattern into an equivalent, but less\n redundant form.  Nested \u003ccode\u003e\u003ca\u003ePOr\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePConcat\u003c/a\u003e\u003c/code\u003e are flattened. PEmpty\n is propagated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "simplify'",
           "package": "regex-tdfa-rc",
@@ -9738,6 +10497,7 @@
         "index": {
           "description": "Function to transform pattern into an equivalent but less redundant form Nested POr and PConcat are flattened PEmpty is propagated",
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "simplify'",
           "normalized": "Pattern-\u003ePattern",
@@ -9753,6 +10513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo the transformation and simplification in a single traversal.\n This removes the PPlus, PQuest, and PBound values, changing to POr\n and PEmpty and PStar True/False.  For some PBound values it adds\n PNonEmpty and PNonCapture semantic marker.  It also simplifies to\n flatten out nested POr and PConcat instances and eliminate some\n unneeded PEmpty values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "starTrans",
           "package": "regex-tdfa-rc",
@@ -9763,6 +10524,7 @@
         "index": {
           "description": "Do the transformation and simplification in single traversal This removes the PPlus PQuest and PBound values changing to POr and PEmpty and PStar True False For some PBound values it adds PNonEmpty and PNonCapture semantic marker It also simplifies to flatten out nested POr and PConcat instances and eliminate some unneeded PEmpty values",
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "starTrans",
           "normalized": "Pattern-\u003ePattern",
@@ -9778,6 +10540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "starTrans'",
           "package": "regex-tdfa-rc",
@@ -9787,6 +10550,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "starTrans'",
           "normalized": "Pattern-\u003ePattern",
@@ -9802,6 +10566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "unSCC",
           "package": "regex-tdfa-rc",
@@ -9811,6 +10576,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "unSCC",
           "package": "regex-tdfa-rc",
@@ -9824,6 +10590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "unSCE",
           "package": "regex-tdfa-rc",
@@ -9833,6 +10600,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "unSCE",
           "package": "regex-tdfa-rc",
@@ -9846,6 +10614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "unSEC",
           "package": "regex-tdfa-rc",
@@ -9855,6 +10624,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Pattern",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Pattern",
           "name": "unSEC",
           "package": "regex-tdfa-rc",
@@ -9869,6 +10639,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a POSIX version of parseRegex that allows NUL characters.\n Lazy\u003cem\u003ePossessive\u003c/em\u003eBackrefs are not recognized.  Anchors ^ and $ are\n recognized.\n\u003c/p\u003e\u003cp\u003eThe PGroup returned always have (Maybe GroupIndex) set to (Just _)\n and never to Nothing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.ReadRegex",
           "name": "ReadRegex",
           "package": "regex-tdfa-rc",
@@ -9878,6 +10649,7 @@
         "index": {
           "description": "This is POSIX version of parseRegex that allows NUL characters Lazy Possessive Backrefs are not recognized Anchors and are recognized The PGroup returned always have Maybe GroupIndex set to Just and never to Nothing",
           "hierarchy": "Text Regex TDFA ReadRegex",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.ReadRegex",
           "name": "ReadRegex",
           "package": "regex-tdfa-rc",
@@ -9892,6 +10664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn either an error message or a tuple of the Pattern and the\n largest group index and the largest DoPa index (both have smallest\n index of 1).  Since the regular expression is supplied as [Char] it\n automatically supports unicode and '\\NUL' characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.ReadRegex",
           "name": "parseRegex",
           "package": "regex-tdfa-rc",
@@ -9902,6 +10675,7 @@
         "index": {
           "description": "Return either an error message or tuple of the Pattern and the largest group index and the largest DoPa index both have smallest index of Since the regular expression is supplied as Char it automatically supports unicode and NUL characters",
           "hierarchy": "Text Regex TDFA ReadRegex",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.ReadRegex",
           "name": "parseRegex",
           "normalized": "String-\u003eEither ParseError(Pattern,(GroupIndex,DoPa))",
@@ -9918,6 +10692,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis modules provides \u003ccode\u003e\u003ca\u003eRegexMaker\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRegexLike\u003c/a\u003e\u003c/code\u003e instances for using\n\u003ccode\u003eByteString\u003c/code\u003e with the DFA backend (\u003ca\u003eText.Regex.Lib.WrapDFAEngine\u003c/a\u003e and\n\u003ca\u003eText.Regex.Lazy.DFAEngineFPS\u003c/a\u003e).  This module is usually used via\nimport \u003ca\u003eText.Regex.TDFA\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThis exports instances of the high level API and the medium level\nAPI of \u003ccode\u003e\u003ca\u003ecompile\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eexecute\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eregexec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Sequence",
           "name": "Sequence",
           "package": "regex-tdfa-rc",
@@ -9927,6 +10702,7 @@
         "index": {
           "description": "This modules provides RegexMaker and RegexLike instances for using ByteString with the DFA backend Text.Regex.Lib.WrapDFAEngine and Text.Regex.Lazy.DFAEngineFPS This module is usually used via import Text.Regex.TDFA This exports instances of the high level API and the medium level API of compile execute and regexec",
           "hierarchy": "Text Regex TDFA Sequence",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Sequence",
           "name": "Sequence",
           "package": "regex-tdfa-rc",
@@ -9941,6 +10717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl whether the pattern is multiline or case-sensitive like Text.Regex and whether to\n capture the subgroups (1, 2, etc).  Controls enabling extra anchor syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Sequence",
           "name": "CompOption",
           "package": "regex-tdfa-rc",
@@ -9950,6 +10727,7 @@
         "index": {
           "description": "Control whether the pattern is multiline or case-sensitive like Text.Regex and whether to capture the subgroups etc Controls enabling extra anchor syntax",
           "hierarchy": "Text Regex TDFA Sequence",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Sequence",
           "name": "CompOption",
           "package": "regex-tdfa-rc",
@@ -9963,6 +10741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Sequence",
           "name": "ExecOption",
           "package": "regex-tdfa-rc",
@@ -9971,6 +10750,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Sequence",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Sequence",
           "name": "ExecOption",
           "package": "regex-tdfa-rc",
@@ -9985,6 +10765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TDFA backend specific \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e type, used by this module's RegexOptions and RegexMaker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Sequence",
           "name": "Regex",
           "package": "regex-tdfa-rc",
@@ -9994,6 +10775,7 @@
         "index": {
           "description": "The TDFA backend specific Regex type used by this module RegexOptions and RegexMaker",
           "hierarchy": "Text Regex TDFA Sequence",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Sequence",
           "name": "Regex",
           "package": "regex-tdfa-rc",
@@ -10007,6 +10789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Sequence",
           "name": "compile",
           "package": "regex-tdfa-rc",
@@ -10015,6 +10798,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Sequence",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Sequence",
           "name": "compile",
           "normalized": "CompOption-\u003eExecOption-\u003eSeq Char-\u003eEither String Regex",
@@ -10029,6 +10813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Sequence",
           "name": "execute",
           "package": "regex-tdfa-rc",
@@ -10037,6 +10822,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Sequence",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Sequence",
           "name": "execute",
           "normalized": "Regex-\u003eSeq Char-\u003eEither String(Maybe MatchArray)",
@@ -10051,6 +10837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.Sequence",
           "name": "regexec",
           "package": "regex-tdfa-rc",
@@ -10059,6 +10846,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA Sequence",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.Sequence",
           "name": "regexec",
           "normalized": "Regex-\u003eSeq Char-\u003eEither String(Maybe(Seq Char,Seq Char,Seq Char,[Seq Char]))",
@@ -10074,6 +10862,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis modules provides \u003ccode\u003e\u003ca\u003eRegexMaker\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRegexLike\u003c/a\u003e\u003c/code\u003e instances for using\n\u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e with the TDFA backend.\n\u003c/p\u003e\u003cp\u003eThis exports instances of the high level API and the medium level\nAPI of \u003ccode\u003e\u003ca\u003ecompile\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003eexecute\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eregexec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.String",
           "name": "String",
           "package": "regex-tdfa-rc",
@@ -10083,6 +10872,7 @@
         "index": {
           "description": "This modules provides RegexMaker and RegexLike instances for using String with the TDFA backend This exports instances of the high level API and the medium level API of compile execute and regexec",
           "hierarchy": "Text Regex TDFA String",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.String",
           "name": "String",
           "package": "regex-tdfa-rc",
@@ -10097,6 +10887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl whether the pattern is multiline or case-sensitive like Text.Regex and whether to\n capture the subgroups (1, 2, etc).  Controls enabling extra anchor syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.String",
           "name": "CompOption",
           "package": "regex-tdfa-rc",
@@ -10106,6 +10897,7 @@
         "index": {
           "description": "Control whether the pattern is multiline or case-sensitive like Text.Regex and whether to capture the subgroups etc Controls enabling extra anchor syntax",
           "hierarchy": "Text Regex TDFA String",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.String",
           "name": "CompOption",
           "package": "regex-tdfa-rc",
@@ -10119,6 +10911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.String",
           "name": "ExecOption",
           "package": "regex-tdfa-rc",
@@ -10127,6 +10920,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA String",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.String",
           "name": "ExecOption",
           "package": "regex-tdfa-rc",
@@ -10141,6 +10935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon-negative length of a match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.String",
           "name": "MatchLength",
           "package": "regex-tdfa-rc",
@@ -10149,6 +10944,7 @@
         "index": {
           "description": "non-negative length of match",
           "hierarchy": "Text Regex TDFA String",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.String",
           "name": "MatchLength",
           "package": "regex-tdfa-rc",
@@ -10163,6 +10959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e0 based index from start of source, or (-1) for unused\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.String",
           "name": "MatchOffset",
           "package": "regex-tdfa-rc",
@@ -10171,6 +10968,7 @@
         "index": {
           "description": "based index from start of source or for unused",
           "hierarchy": "Text Regex TDFA String",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.String",
           "name": "MatchOffset",
           "package": "regex-tdfa-rc",
@@ -10185,6 +10983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TDFA backend specific \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e type, used by this module's RegexOptions and RegexMaker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.String",
           "name": "Regex",
           "package": "regex-tdfa-rc",
@@ -10194,6 +10993,7 @@
         "index": {
           "description": "The TDFA backend specific Regex type used by this module RegexOptions and RegexMaker",
           "hierarchy": "Text Regex TDFA String",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.String",
           "name": "Regex",
           "package": "regex-tdfa-rc",
@@ -10207,6 +11007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.String",
           "name": "compile",
           "package": "regex-tdfa-rc",
@@ -10215,6 +11016,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA String",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.String",
           "name": "compile",
           "normalized": "CompOption-\u003eExecOption-\u003eString-\u003eEither String Regex",
@@ -10229,6 +11031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.String",
           "name": "execute",
           "package": "regex-tdfa-rc",
@@ -10237,6 +11040,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA String",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.String",
           "name": "execute",
           "normalized": "Regex-\u003eString-\u003eEither String(Maybe MatchArray)",
@@ -10251,6 +11055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.String",
           "name": "regexec",
           "package": "regex-tdfa-rc",
@@ -10259,6 +11064,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA String",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.String",
           "name": "regexec",
           "normalized": "Regex-\u003eString-\u003eEither String(Maybe(String,String,String,[String]))",
@@ -10274,6 +11080,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003eText.Regex.TDFA.TDFA\u003c/a\u003e converts the QNFA from TNFA into the DFA.\n A DFA state corresponds to a Set of QNFA states, repesented as list\n of Index which are used to lookup the DFA state in a lazy Trie\n which holds all possible subsets of QNFA states.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.TDFA",
           "name": "TDFA",
           "package": "regex-tdfa-rc",
@@ -10283,6 +11090,7 @@
         "index": {
           "description": "Text.Regex.TDFA.TDFA converts the QNFA from TNFA into the DFA DFA state corresponds to Set of QNFA states repesented as list of Index which are used to lookup the DFA state in lazy Trie which holds all possible subsets of QNFA states",
           "hierarchy": "Text Regex TDFA TDFA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.TDFA",
           "name": "TDFA",
           "package": "regex-tdfa-rc",
@@ -10297,6 +11105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal DFA node, identified by the Set of indices of the QNFA\n nodes it represents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.TDFA",
           "name": "DFA",
           "package": "regex-tdfa-rc",
@@ -10306,6 +11115,7 @@
         "index": {
           "description": "Internal DFA node identified by the Set of indices of the QNFA nodes it represents",
           "hierarchy": "Text Regex TDFA TDFA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.TDFA",
           "name": "DFA",
           "package": "regex-tdfa-rc",
@@ -10320,6 +11130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal to the DFA node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.TDFA",
           "name": "DT",
           "package": "regex-tdfa-rc",
@@ -10329,6 +11140,7 @@
         "index": {
           "description": "Internal to the DFA node",
           "hierarchy": "Text Regex TDFA TDFA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.TDFA",
           "name": "DT",
           "package": "regex-tdfa-rc",
@@ -10342,6 +11154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.TDFA",
           "name": "dfaMap",
           "package": "regex-tdfa-rc",
@@ -10351,6 +11164,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA TDFA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.TDFA",
           "name": "dfaMap",
           "normalized": "DFA-\u003eMap SetIndex DFA",
@@ -10366,6 +11180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.TDFA",
           "name": "examineDFA",
           "package": "regex-tdfa-rc",
@@ -10375,6 +11190,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA TDFA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.TDFA",
           "name": "examineDFA",
           "normalized": "Regex-\u003eString",
@@ -10390,6 +11206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.TDFA",
           "name": "nfaToDFA",
           "package": "regex-tdfa-rc",
@@ -10399,6 +11216,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA TDFA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.TDFA",
           "name": "nfaToDFA",
           "normalized": "((Index,Array Index QNFA),Array Tag OP,Array GroupIndex[GroupInfo])-\u003eCompOption-\u003eExecOption-\u003eRegex",
@@ -10414,6 +11232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.TDFA",
           "name": "patternToRegex",
           "package": "regex-tdfa-rc",
@@ -10423,6 +11242,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA TDFA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.TDFA",
           "name": "patternToRegex",
           "normalized": "(Pattern,(GroupIndex,DoPa))-\u003eCompOption-\u003eExecOption-\u003eRegex",
@@ -10439,6 +11259,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003eText.Regex.TDFA.TNFA\u003c/a\u003e converts the CorePattern Q/P data (and its\n Pattern leafs) to a QNFA tagged non-deterministic finite automata.\n\u003c/p\u003e\u003cp\u003eThis holds every possible way to follow one state by another, while\n in the DFA these will be reduced by picking a single best\n transition for each (soure,destination) pair.  The transitions are\n heavily and often redundantly annotated with tasks to perform, and\n this redundancy is reduced when picking the best transition.  So\n far, keeping all this information has helped fix bugs in both the\n design and implementation.\n\u003c/p\u003e\u003cp\u003eThe QNFA for a Pattern with a starTraned Q/P form with N one\n character accepting leaves has at most N+1 nodes.  These nodes\n repesent the future choices after accepting a leaf.  The processing\n of Or nodes often reduces this number by sharing at the end of the\n different paths.  Turning off capturing while compiling the pattern\n may (future extension) reduce this further for some patterns by\n processing Star with optimizations.  This compact design also means\n that tags are assigned not just to be updated before taking a\n transition (PreUpdate) but also after the transition (PostUpdate).\n\u003c/p\u003e\u003cp\u003eUses recursive do notation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.TNFA",
           "name": "TNFA",
           "package": "regex-tdfa-rc",
@@ -10448,6 +11269,7 @@
         "index": {
           "description": "Text.Regex.TDFA.TNFA converts the CorePattern data and its Pattern leafs to QNFA tagged non-deterministic finite automata This holds every possible way to follow one state by another while in the DFA these will be reduced by picking single best transition for each soure destination pair The transitions are heavily and often redundantly annotated with tasks to perform and this redundancy is reduced when picking the best transition So far keeping all this information has helped fix bugs in both the design and implementation The QNFA for Pattern with starTraned form with one character accepting leaves has at most nodes These nodes repesent the future choices after accepting leaf The processing of Or nodes often reduces this number by sharing at the end of the different paths Turning off capturing while compiling the pattern may future extension reduce this further for some patterns by processing Star with optimizations This compact design also means that tags are assigned not just to be updated before taking transition PreUpdate but also after the transition PostUpdate Uses recursive do notation",
           "hierarchy": "Text Regex TDFA TNFA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.TNFA",
           "name": "TNFA",
           "package": "regex-tdfa-rc",
@@ -10462,6 +11284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal NFA node type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.TNFA",
           "name": "QNFA",
           "package": "regex-tdfa-rc",
@@ -10471,6 +11294,7 @@
         "index": {
           "description": "Internal NFA node type",
           "hierarchy": "Text Regex TDFA TNFA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.TNFA",
           "name": "QNFA",
           "package": "regex-tdfa-rc",
@@ -10485,6 +11309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal to QNFA type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.TNFA",
           "name": "QT",
           "package": "regex-tdfa-rc",
@@ -10494,6 +11319,7 @@
         "index": {
           "description": "Internal to QNFA type",
           "hierarchy": "Text Regex TDFA TNFA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.TNFA",
           "name": "QT",
           "package": "regex-tdfa-rc",
@@ -10508,6 +11334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal type to represent the tagged transition from one QNFA to\n another (or itself).  The key is the Index of the destination QNFA.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.TNFA",
           "name": "QTrans",
           "package": "regex-tdfa-rc",
@@ -10517,6 +11344,7 @@
         "index": {
           "description": "Internal type to represent the tagged transition from one QNFA to another or itself The key is the Index of the destination QNFA",
           "hierarchy": "Text Regex TDFA TNFA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.TNFA",
           "name": "QTrans",
           "package": "regex-tdfa-rc",
@@ -10531,6 +11359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen attached to a QTrans the TagTask can be done before or after\n accepting the character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.TNFA",
           "name": "TagUpdate",
           "package": "regex-tdfa-rc",
@@ -10540,6 +11369,7 @@
         "index": {
           "description": "When attached to QTrans the TagTask can be done before or after accepting the character",
           "hierarchy": "Text Regex TDFA TNFA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.TNFA",
           "name": "TagUpdate",
           "package": "regex-tdfa-rc",
@@ -10553,6 +11383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA.TNFA",
           "name": "patternToNFA",
           "package": "regex-tdfa-rc",
@@ -10562,6 +11393,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA TNFA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA.TNFA",
           "name": "patternToNFA",
           "normalized": "CompOption-\u003e(Pattern,(GroupIndex,DoPa))-\u003e((Index,Array Index QNFA),Array Tag OP,Array GroupIndex[GroupInfo])",
@@ -10578,6 +11410,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ca\u003eText.Regex.TDFA\u003c/a\u003e module provides a backend for regular\nexpressions. It provides instances for the classes defined and\ndocumented in \u003ca\u003eText.Regex.Base\u003c/a\u003e and re-exported by this module.  If\nyou import this along with other backends then you should do so with\nqualified imports (with renaming for convenience).\n\u003c/p\u003e\u003cp\u003eThis regex-tdfa package implements, correctly, POSIX extended regular\nexpressions.  It is highly unlikely that the regex-posix package on\nyour operating system is correct, see\nhttp:\u003cem/\u003ewww.haskell.org\u003cem\u003ehaskellwiki\u003c/em\u003eRegex_Posix for examples of your\nOS's bugs.\n\u003c/p\u003e\u003cp\u003eThis package does provide captured parenthesized subexpressions.\n\u003c/p\u003e\u003cp\u003eDepending on the text being searched this package supports Unicode.\nThe [Char] and (Seq Char) text types support Unicode.  The ByteString\nand ByteString.Lazy text types only support ASCII.  It is possible to\nsupport utf8 encoded ByteString.Lazy by using regex-tdfa and\nregex-tdfa-utf8 packages together  (required the utf8-string package).\n\u003c/p\u003e\u003cp\u003eAs of version 1.1.1 the following GNU extensions are recognized, all\nanchors:\n\u003c/p\u003e\u003cp\u003e\\` at beginning of entire text\n\u003c/p\u003e\u003cp\u003e\\' at end of entire text\n\u003c/p\u003e\u003cp\u003e\\\u003c at beginning of word\n\u003c/p\u003e\u003cp\u003e\\\u003e at end of word\n\u003c/p\u003e\u003cp\u003e\\b at either beginning or end of word\n\u003c/p\u003e\u003cp\u003e\\B at neither beginning nor end of word\n\u003c/p\u003e\u003cp\u003eThe above are controlled by the \u003ccode\u003e\u003ca\u003enewSyntax\u003c/a\u003e\u003c/code\u003e Bool in \u003ccode\u003e\u003ca\u003eCompOption\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWhere the \u003ca\u003eword\u003c/a\u003e boundaries means between characters that are and are\nnot in the [:word:] character class which contains [a-zA-Z0-9_].  Note\nthat \u003c and b may match before the entire text and \u003e and b may\nmatch at the end of the entire text.\n\u003c/p\u003e\u003cp\u003eThere is no locale support, so collating elements like [.ch.] are\nsimply ignored and equivalence classes like [=a=] are converted to\njust [a].  The character classes like [:alnum:] are supported over\nASCII only, valid classes are alnum, digit, punct, alpha, graph,\nspace, blank, lower, upper, cntrl, print, xdigit, word.\n\u003c/p\u003e\u003cp\u003eThis package does not provide \u003ca\u003ebasic\u003c/a\u003e regular expressions.  This\npackage does not provide back references inside regular expressions.\n\u003c/p\u003e\u003cp\u003eThe package does not provide Perl style regular expressions.  Please\nlook at the regex-pcre and pcre-light packages instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA",
           "name": "TDFA",
           "package": "regex-tdfa-rc",
@@ -10587,6 +11420,7 @@
         "index": {
           "description": "The Text.Regex.TDFA module provides backend for regular expressions It provides instances for the classes defined and documented in Text.Regex.Base and re-exported by this module If you import this along with other backends then you should do so with qualified imports with renaming for convenience This regex-tdfa package implements correctly POSIX extended regular expressions It is highly unlikely that the regex-posix package on your operating system is correct see http www.haskell.org haskellwiki Regex Posix for examples of your OS bugs This package does provide captured parenthesized subexpressions Depending on the text being searched this package supports Unicode The Char and Seq Char text types support Unicode The ByteString and ByteString.Lazy text types only support ASCII It is possible to support utf8 encoded ByteString.Lazy by using regex-tdfa and regex-tdfa-utf8 packages together required the utf8-string package As of version the following GNU extensions are recognized all anchors at beginning of entire text at end of entire text at beginning of word at end of word at either beginning or end of word at neither beginning nor end of word The above are controlled by the newSyntax Bool in CompOption Where the word boundaries means between characters that are and are not in the word character class which contains a-zA-Z0-9 Note that and may match before the entire text and and may match at the end of the entire text There is no locale support so collating elements like ch are simply ignored and equivalence classes like are converted to just The character classes like alnum are supported over ASCII only valid classes are alnum digit punct alpha graph space blank lower upper cntrl print xdigit word This package does not provide basic regular expressions This package does not provide back references inside regular expressions The package does not provide Perl style regular expressions Please look at the regex-pcre and pcre-light packages instead",
           "hierarchy": "Text Regex TDFA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA",
           "name": "TDFA",
           "package": "regex-tdfa-rc",
@@ -10601,6 +11435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the pure functional matching operator.  If the target\n cannot be produced then some empty result will be returned.  If\n there is an error in processing, then \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e will be called.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA",
           "name": "(=~)",
           "package": "regex-tdfa-rc",
@@ -10611,6 +11446,7 @@
         "index": {
           "description": "This is the pure functional matching operator If the target cannot be produced then some empty result will be returned If there is an error in processing then error will be called",
           "hierarchy": "Text Regex TDFA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA",
           "name": "(=~) =~",
           "normalized": "a-\u003ea-\u003eb",
@@ -10626,6 +11462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the monadic matching operator.  If a single match fails,\n then \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e will be called.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA",
           "name": "(=~~)",
           "package": "regex-tdfa-rc",
@@ -10636,6 +11473,7 @@
         "index": {
           "description": "This is the monadic matching operator If single match fails then fail will be called",
           "hierarchy": "Text Regex TDFA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA",
           "name": "(=~~) =~~",
           "normalized": "a-\u003ea-\u003eb c",
@@ -10650,6 +11488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:32 UTC 2014",
           "module": "Text.Regex.TDFA",
           "name": "getVersion_Text_Regex_TDFA",
           "package": "regex-tdfa-rc",
@@ -10659,6 +11498,7 @@
         },
         "index": {
           "hierarchy": "Text Regex TDFA",
+          "indexed": "2014-03-11T19:51:32",
           "module": "Text.Regex.TDFA",
           "name": "getVersion_Text_Regex_TDFA",
           "package": "regex-tdfa-rc",

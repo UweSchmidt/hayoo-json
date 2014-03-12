@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "enumerator-fd"
+        "phrase": "enumerator-fd",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEnumerator instances for monads-fd classes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:45 UTC 2014",
           "module": "Data.Enumerator.Instances.FD",
           "name": "FD",
           "package": "enumerator-fd",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Enumerator instances for monads-fd classes",
           "hierarchy": "Data Enumerator Instances FD",
+          "indexed": "2014-03-11T18:02:45",
           "module": "Data.Enumerator.Instances.FD",
           "name": "FD",
           "package": "enumerator-fd",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "binary-protocol"
+        "phrase": "binary-protocol",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonad to ease writing a binary network protocol.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:18:58 UTC 2014",
           "module": "Control.Monad.BinaryProtocol",
           "name": "BinaryProtocol",
           "package": "binary-protocol",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Monad to ease writing binary network protocol",
           "hierarchy": "Control Monad BinaryProtocol",
+          "indexed": "2014-03-11T17:18:58",
           "module": "Control.Monad.BinaryProtocol",
           "name": "BinaryProtocol",
           "package": "binary-protocol",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:58 UTC 2014",
           "module": "Control.Monad.BinaryProtocol",
           "name": "BinaryProtocol",
           "package": "binary-protocol",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Monad BinaryProtocol",
+          "indexed": "2014-03-11T17:18:58",
           "module": "Control.Monad.BinaryProtocol",
           "name": "BinaryProtocol",
           "package": "binary-protocol",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlush buffered send data down the connection.\n\u003c/p\u003e\u003cp\u003eNote: You need to make sure to call this between sending requests\n and receiving responses in order to ensure that the request has\n actually been sent down the connection; otherwise you might get\n stuck waiting for a response that will not come.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:58 UTC 2014",
           "module": "Control.Monad.BinaryProtocol",
           "name": "flush",
           "package": "binary-protocol",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Flush buffered send data down the connection Note You need to make sure to call this between sending requests and receiving responses in order to ensure that the request has actually been sent down the connection otherwise you might get stuck waiting for response that will not come",
           "hierarchy": "Control Monad BinaryProtocol",
+          "indexed": "2014-03-11T17:18:58",
           "module": "Control.Monad.BinaryProtocol",
           "name": "flush",
           "normalized": "BinaryProtocol()",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in a value of type \u003ccode\u003ea\u003c/code\u003e from the connection; \u003ccode\u003ea\u003c/code\u003e must be an\n   instance of the \u003ccode\u003eBinary\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:58 UTC 2014",
           "module": "Control.Monad.BinaryProtocol",
           "name": "receive",
           "package": "binary-protocol",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Read in value of type from the connection must be an instance of the Binary class",
           "hierarchy": "Control Monad BinaryProtocol",
+          "indexed": "2014-03-11T17:18:58",
           "module": "Control.Monad.BinaryProtocol",
           "name": "receive",
           "package": "binary-protocol",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a BinaryProtocol monad and run it on the given handles for\n   respectively reading and writing.  (The two given handles are\n   allowed to be the same if the same handle is used for reading and\n   writing.)\n\u003c/p\u003e\u003cp\u003eNote: We run L.hGetContents on the read handle, so don't expect to\n be able to use it after you have called this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:58 UTC 2014",
           "module": "Control.Monad.BinaryProtocol",
           "name": "runProtocol",
           "package": "binary-protocol",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Take BinaryProtocol monad and run it on the given handles for respectively reading and writing The two given handles are allowed to be the same if the same handle is used for reading and writing Note We run L.hGetContents on the read handle so don expect to be able to use it after you have called this function",
           "hierarchy": "Control Monad BinaryProtocol",
+          "indexed": "2014-03-11T17:18:58",
           "module": "Control.Monad.BinaryProtocol",
           "name": "runProtocol",
           "normalized": "BinaryProtocol a-\u003eHandle-\u003eHandle-\u003eIO a",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a value of type \u003ccode\u003ea\u003c/code\u003e down the connection; \u003ccode\u003ea\u003c/code\u003e must be an\n   instance of the \u003ccode\u003eBinary\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:58 UTC 2014",
           "module": "Control.Monad.BinaryProtocol",
           "name": "send",
           "package": "binary-protocol",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Send value of type down the connection must be an instance of the Binary class",
           "hierarchy": "Control Monad BinaryProtocol",
+          "indexed": "2014-03-11T17:18:58",
           "module": "Control.Monad.BinaryProtocol",
           "name": "send",
           "normalized": "a-\u003eBinaryProtocol()",

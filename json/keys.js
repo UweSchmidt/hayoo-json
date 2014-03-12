@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "keys"
+        "phrase": "keys",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "Key",
           "package": "keys",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "Key",
           "package": "keys",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "Adjustable",
           "package": "keys",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "Adjustable",
           "package": "keys",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "FoldableWithKey",
           "package": "keys",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "FoldableWithKey",
           "package": "keys",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "FoldableWithKey1",
           "package": "keys",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "FoldableWithKey1",
           "package": "keys",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "Indexable",
           "package": "keys",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "Indexable",
           "package": "keys",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "Key",
           "package": "keys",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "Key",
           "package": "keys",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "Keyed",
           "package": "keys",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "Keyed",
           "package": "keys",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "Lookup",
           "package": "keys",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "Lookup",
           "package": "keys",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "TraversableWithKey",
           "package": "keys",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "TraversableWithKey",
           "package": "keys",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "TraversableWithKey1",
           "package": "keys",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "TraversableWithKey1",
           "package": "keys",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "Zip",
           "package": "keys",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "Zip",
           "package": "keys",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "ZipWithKey",
           "package": "keys",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "ZipWithKey",
           "package": "keys",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "(!)",
           "package": "keys",
@@ -279,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "(!) !",
           "normalized": "a b-\u003eKey a-\u003eb",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "(\u003c#$\u003e)",
           "package": "keys",
@@ -302,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "(\u003c#$\u003e) \u003c#$\u003e",
           "normalized": "(Key a-\u003eb-\u003ec)-\u003ea b-\u003ea c",
@@ -316,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "adjust",
           "package": "keys",
@@ -325,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eKey b-\u003eb a-\u003eb a",
@@ -339,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "allWithKey",
           "package": "keys",
@@ -348,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "allWithKey",
           "normalized": "(Key a-\u003eb-\u003eBool)-\u003ea b-\u003eBool",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "anyWithKey",
           "package": "keys",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "anyWithKey",
           "normalized": "(Key a-\u003eb-\u003eBool)-\u003ea b-\u003eBool",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "concatMapWithKey",
           "package": "keys",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "concatMapWithKey",
           "normalized": "(Key a-\u003eb-\u003e[c])-\u003ea b-\u003e[c]",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "findWithKey",
           "package": "keys",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "findWithKey",
           "normalized": "(Key a-\u003eb-\u003eBool)-\u003ea b-\u003eMaybe b",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "foldMapWithKey",
           "package": "keys",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "foldMapWithKey",
           "normalized": "(Key a-\u003eb-\u003ec)-\u003ea b-\u003ec",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "foldMapWithKey1",
           "package": "keys",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "foldMapWithKey1",
           "normalized": "(Key a-\u003eb-\u003ec)-\u003ea b-\u003ec",
@@ -483,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "foldMapWithKey1Default",
           "package": "keys",
@@ -492,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "foldMapWithKey1Default",
           "normalized": "(Key a-\u003eb-\u003ec)-\u003ea b-\u003ec",
@@ -508,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function may be used as a value for \u003ccode\u003e\u003ca\u003efoldMapWithKey\u003c/a\u003e\u003c/code\u003e\n in a \u003ccode\u003e\u003ca\u003eFoldableWithKey\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "foldMapWithKeyDefault",
           "package": "keys",
@@ -518,6 +563,7 @@
         "index": {
           "description": "This function may be used as value for foldMapWithKey in FoldableWithKey instance",
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "foldMapWithKeyDefault",
           "normalized": "(Key a-\u003eb-\u003ec)-\u003ea b-\u003ec",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "foldMapWithKeyDefault1",
           "package": "keys",
@@ -542,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "foldMapWithKeyDefault1",
           "normalized": "(Key a-\u003eb-\u003ec)-\u003ea b-\u003ec",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "foldlWithKey",
           "package": "keys",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "foldlWithKey",
           "normalized": "(a-\u003eKey b-\u003ec-\u003ea)-\u003ea-\u003eb c-\u003ea",
@@ -581,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "foldlWithKey'",
           "package": "keys",
@@ -590,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "foldlWithKey'",
           "normalized": "(a-\u003eKey b-\u003ec-\u003ea)-\u003ea-\u003eb c-\u003ea",
@@ -605,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "foldlWithKeyM",
           "package": "keys",
@@ -614,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "foldlWithKeyM",
           "normalized": "(a-\u003eKey b-\u003ec-\u003ed a)-\u003ea-\u003eb c-\u003ed a",
@@ -629,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "foldrWithKey",
           "package": "keys",
@@ -638,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "foldrWithKey",
           "normalized": "(Key a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003ea b-\u003ec",
@@ -653,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "foldrWithKey'",
           "package": "keys",
@@ -662,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "foldrWithKey'",
           "normalized": "(Key a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003ea b-\u003ec",
@@ -677,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "foldrWithKeyM",
           "package": "keys",
@@ -686,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "foldrWithKeyM",
           "normalized": "(Key a-\u003eb-\u003ec-\u003ed c)-\u003ec-\u003ea b-\u003ed c",
@@ -701,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "forWithKey",
           "package": "keys",
@@ -710,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "forWithKey",
           "normalized": "a b-\u003e(Key a-\u003eb-\u003ec d)-\u003ec(a d)",
@@ -725,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "forWithKey1_",
           "package": "keys",
@@ -734,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "forWithKey1_",
           "normalized": "a b-\u003e(Key a-\u003eb-\u003ec d)-\u003ec()",
@@ -749,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "forWithKeyM",
           "package": "keys",
@@ -758,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "forWithKeyM",
           "normalized": "a b-\u003e(Key a-\u003eb-\u003ec d)-\u003ec(a d)",
@@ -773,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "forWithKeyM_",
           "package": "keys",
@@ -782,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "forWithKeyM_",
           "normalized": "a b-\u003e(Key a-\u003eb-\u003ec d)-\u003ec()",
@@ -797,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "forWithKey_",
           "package": "keys",
@@ -806,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "forWithKey_",
           "normalized": "a b-\u003e(Key a-\u003eb-\u003ec d)-\u003ec()",
@@ -821,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "index",
           "package": "keys",
@@ -830,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "index",
           "normalized": "a b-\u003eKey a-\u003eb",
@@ -844,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "keyed",
           "package": "keys",
@@ -853,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "keyed",
           "normalized": "a b-\u003ea(Key a,b)",
@@ -867,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "lookup",
           "package": "keys",
@@ -876,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "lookup",
           "normalized": "Key a-\u003ea b-\u003eMaybe b",
@@ -890,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "lookupDefault",
           "package": "keys",
@@ -899,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "lookupDefault",
           "normalized": "Key a-\u003ea b-\u003eMaybe b",
@@ -915,6 +993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003emapAccumWithKeyL\u003c/a\u003e\u003c/code\u003e function behaves like a combination of \u003ccode\u003e\u003ca\u003emapWithKey\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003efoldlWithKey\u003c/a\u003e\u003c/code\u003e; it applies a function to each element of a structure,\n passing an accumulating parameter from left to right, and returning\n a final value of this accumulator together with the new structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "mapAccumWithKeyL",
           "package": "keys",
@@ -925,6 +1004,7 @@
         "index": {
           "description": "The mapAccumWithKeyL function behaves like combination of mapWithKey and foldlWithKey it applies function to each element of structure passing an accumulating parameter from left to right and returning final value of this accumulator together with the new structure",
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "mapAccumWithKeyL",
           "normalized": "(Key a-\u003eb-\u003ec-\u003e(b,d))-\u003eb-\u003ea c-\u003e(b,a d)",
@@ -941,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003emapAccumWithKeyR\u003c/a\u003e\u003c/code\u003e function behaves like a combination of \u003ccode\u003e\u003ca\u003emapWithKey\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003efoldrWithKey\u003c/a\u003e\u003c/code\u003e; it applies a function to each element of a structure,\n passing an accumulating parameter from right to left, and returning\n a final value of this accumulator together with the new structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "mapAccumWithKeyR",
           "package": "keys",
@@ -951,6 +1032,7 @@
         "index": {
           "description": "The mapAccumWithKeyR function behaves like combination of mapWithKey and foldrWithKey it applies function to each element of structure passing an accumulating parameter from right to left and returning final value of this accumulator together with the new structure",
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "mapAccumWithKeyR",
           "normalized": "(Key a-\u003eb-\u003ec-\u003e(b,d))-\u003eb-\u003ea c-\u003e(b,a d)",
@@ -966,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "mapWithKey",
           "package": "keys",
@@ -975,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "mapWithKey",
           "normalized": "(Key a-\u003eb-\u003ec)-\u003ea b-\u003ea c",
@@ -990,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "mapWithKeyDefault",
           "package": "keys",
@@ -999,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "mapWithKeyDefault",
           "normalized": "(Key a-\u003eb-\u003ec)-\u003ea b-\u003ea c",
@@ -1014,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "mapWithKeyM",
           "package": "keys",
@@ -1023,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "mapWithKeyM",
           "normalized": "(Key a-\u003eb-\u003ec d)-\u003ea b-\u003ec(a d)",
@@ -1038,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "mapWithKeyM_",
           "package": "keys",
@@ -1047,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "mapWithKeyM_",
           "normalized": "(Key a-\u003eb-\u003ec d)-\u003ea b-\u003ec()",
@@ -1062,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "replace",
           "package": "keys",
@@ -1071,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "replace",
           "normalized": "Key a-\u003eb-\u003ea b-\u003ea b",
@@ -1085,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "toKeyedList",
           "package": "keys",
@@ -1094,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "toKeyedList",
           "normalized": "a b-\u003e[(Key a,b)]",
@@ -1109,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "traverseWithKey",
           "package": "keys",
@@ -1118,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "traverseWithKey",
           "normalized": "(Key a-\u003eb-\u003ec d)-\u003ea b-\u003ec(a d)",
@@ -1133,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "traverseWithKey1",
           "package": "keys",
@@ -1142,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "traverseWithKey1",
           "normalized": "(Key a-\u003eb-\u003ec d)-\u003ea b-\u003ec(a d)",
@@ -1157,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "traverseWithKey1_",
           "package": "keys",
@@ -1166,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "traverseWithKey1_",
           "normalized": "(Key a-\u003eb-\u003ec d)-\u003ea b-\u003ec()",
@@ -1181,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "traverseWithKey_",
           "package": "keys",
@@ -1190,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "traverseWithKey_",
           "normalized": "(Key a-\u003eb-\u003ec d)-\u003ea b-\u003ec()",
@@ -1205,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "zap",
           "package": "keys",
@@ -1214,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "zap",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -1228,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "zapWithKey",
           "package": "keys",
@@ -1237,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "zapWithKey",
           "normalized": "a(Key a-\u003eb-\u003ec)-\u003ea b-\u003ea c",
@@ -1252,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "zip",
           "package": "keys",
@@ -1261,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "zip",
           "normalized": "a b-\u003ea c-\u003ea(b,c)",
@@ -1275,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "zipWith",
           "package": "keys",
@@ -1284,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -1299,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:56 UTC 2014",
           "module": "Data.Key",
           "name": "zipWithKey",
           "package": "keys",
@@ -1308,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Data Key",
+          "indexed": "2014-03-11T19:02:56",
           "module": "Data.Key",
           "name": "zipWithKey",
           "normalized": "(Key a-\u003eb-\u003ec-\u003ed)-\u003ea b-\u003ea c-\u003ea d",

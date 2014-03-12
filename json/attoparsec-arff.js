@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "attoparsec-arff"
+        "phrase": "attoparsec-arff",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "ARFF",
           "package": "attoparsec-arff",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "ARFF",
           "package": "attoparsec-arff",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "Attribute",
           "package": "attoparsec-arff",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "Attribute",
           "package": "attoparsec-arff",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "AttributeType",
           "package": "attoparsec-arff",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "AttributeType",
           "package": "attoparsec-arff",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue of a single attribute in a single row\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "AttributeValue",
           "package": "attoparsec-arff",
@@ -91,6 +98,7 @@
         "index": {
           "description": "Value of single attribute in single row",
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "AttributeValue",
           "package": "attoparsec-arff",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the entire header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "Header",
           "package": "attoparsec-arff",
@@ -114,6 +123,7 @@
         "index": {
           "description": "Represents the entire header",
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "Header",
           "package": "attoparsec-arff",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "Attribute",
           "package": "attoparsec-arff",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "Attribute",
           "package": "attoparsec-arff",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "Header",
           "package": "attoparsec-arff",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "Header",
           "package": "attoparsec-arff",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "Nominal",
           "package": "attoparsec-arff",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "Nominal",
           "normalized": "Nominal[ByteString]",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "NominalValue",
           "package": "attoparsec-arff",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "NominalValue",
           "package": "attoparsec-arff",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "Numeric",
           "package": "attoparsec-arff",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "Numeric",
           "package": "attoparsec-arff",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "NumericValue",
           "package": "attoparsec-arff",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "NumericValue",
           "package": "attoparsec-arff",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "String",
           "package": "attoparsec-arff",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "String",
           "package": "attoparsec-arff",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "StringValue",
           "package": "attoparsec-arff",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "StringValue",
           "package": "attoparsec-arff",
@@ -306,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a tuple of Header data and a list of rows, composed of values or\n \u003ca\u003eNothing\u003c/a\u003e (for missing- ?- values).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "arff",
           "package": "attoparsec-arff",
@@ -316,6 +343,7 @@
         "index": {
           "description": "Parse tuple of Header data and list of rows composed of values or Nothing for missing values",
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "arff",
           "normalized": "Parser(Header,[[Maybe AttributeValue]])",
@@ -331,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an attribute: @ATTRIBUTE \u003ca\u003eName\u003c/a\u003e \u003ca\u003eType\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "attribute",
           "package": "attoparsec-arff",
@@ -341,6 +370,7 @@
         "index": {
           "description": "Parse an attribute ATTRIBUTE Name Type",
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "attribute",
           "package": "attoparsec-arff",
@@ -354,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the attribute type: @ATTRIBUTE \u003ca\u003ename\u003c/a\u003e \u003ca\u003etype\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "attributeType",
           "package": "attoparsec-arff",
@@ -364,6 +395,7 @@
         "index": {
           "description": "Parse the attribute type ATTRIBUTE name type",
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "attributeType",
           "package": "attoparsec-arff",
@@ -378,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapping of indexes to values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "attributes",
           "package": "attoparsec-arff",
@@ -388,6 +421,7 @@
         "index": {
           "description": "Mapping of indexes to values",
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "attributes",
           "normalized": "[Attribute]",
@@ -403,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse two expressions sequentially, returning the result of the first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "before",
           "package": "attoparsec-arff",
@@ -413,6 +448,7 @@
         "index": {
           "description": "Parse two expressions sequentially returning the result of the first",
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "before",
           "normalized": "Parser a-\u003eParser a-\u003eParser a",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "comment",
           "package": "attoparsec-arff",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "comment",
           "normalized": "Parser()",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "dataType",
           "package": "attoparsec-arff",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "dataType",
           "package": "attoparsec-arff",
@@ -473,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an ARFF header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "header",
           "package": "attoparsec-arff",
@@ -483,6 +524,7 @@
         "index": {
           "description": "Parse an ARFF header",
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "header",
           "package": "attoparsec-arff",
@@ -496,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eidentifier\u003c/code\u003e parses arguments to \u003ccode\u003e\\@\u003c/code\u003e directives, e.g. \u003ca\u003e@RELATION foo\u003c/a\u003e \n TODO: Check these rules against the spec!\n TODO: Allow quoted identifiers with spaces inside.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "identifier",
           "package": "attoparsec-arff",
@@ -506,6 +549,7 @@
         "index": {
           "description": "identifier parses arguments to directives e.g RELATION foo TODO Check these rules against the spec TODO Allow quoted identifiers with spaces inside",
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "identifier",
           "package": "attoparsec-arff",
@@ -519,6 +563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematches non-newline space characters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "isInlineSpace",
           "package": "attoparsec-arff",
@@ -529,6 +574,7 @@
         "index": {
           "description": "matches non-newline space characters",
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "isInlineSpace",
           "normalized": "Char-\u003eBool",
@@ -545,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses the next expected line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "line",
           "package": "attoparsec-arff",
@@ -555,6 +602,7 @@
         "index": {
           "description": "Parses the next expected line",
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "line",
           "normalized": "Parser a-\u003eParser a",
@@ -570,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches what should be the end of the line- optional comment then newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "lineEnd",
           "package": "attoparsec-arff",
@@ -580,6 +629,7 @@
         "index": {
           "description": "Matches what should be the end of the line optional comment then newline",
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "lineEnd",
           "normalized": "Parser()",
@@ -596,6 +646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a sequence of non-newline space characters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "lineSpace",
           "package": "attoparsec-arff",
@@ -606,6 +657,7 @@
         "index": {
           "description": "Parses sequence of non-newline space characters",
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "lineSpace",
           "normalized": "Parser()",
@@ -621,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "name",
           "package": "attoparsec-arff",
@@ -630,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "name",
           "package": "attoparsec-arff",
@@ -643,6 +697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the title of the relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "relation",
           "package": "attoparsec-arff",
@@ -653,6 +708,7 @@
         "index": {
           "description": "Parse the title of the relation",
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "relation",
           "package": "attoparsec-arff",
@@ -666,6 +722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a parser which parses a single row of AttributeValues, expecting\n each to be in order of the Attributes supplied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "row",
           "package": "attoparsec-arff",
@@ -676,6 +733,7 @@
         "index": {
           "description": "Create parser which parses single row of AttributeValues expecting each to be in order of the Attributes supplied",
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "row",
           "normalized": "[AttributeType]-\u003eParser[Maybe AttributeValue]",
@@ -691,6 +749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse all data rows in the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "rows",
           "package": "attoparsec-arff",
@@ -701,6 +760,7 @@
         "index": {
           "description": "Parse all data rows in the file",
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "rows",
           "normalized": "Header-\u003eParser[[Maybe AttributeValue]]",
@@ -715,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "showAttributeValue",
           "package": "attoparsec-arff",
@@ -724,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "showAttributeValue",
           "normalized": "AttributeValue-\u003eString",
@@ -740,6 +802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the relation (@RELATION foo)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "title",
           "package": "attoparsec-arff",
@@ -750,6 +813,7 @@
         "index": {
           "description": "Name of the relation RELATION foo",
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "title",
           "package": "attoparsec-arff",
@@ -763,6 +827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a value of the expected type, returning Nothing for missing values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "value",
           "package": "attoparsec-arff",
@@ -773,6 +838,7 @@
         "index": {
           "description": "Parse value of the expected type returning Nothing for missing values",
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "value",
           "normalized": "AttributeType-\u003eParser(Maybe AttributeValue)",
@@ -788,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a value of the expected type (not handling missings)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:28 UTC 2014",
           "module": "Text.ARFF",
           "name": "value'",
           "package": "attoparsec-arff",
@@ -798,6 +865,7 @@
         "index": {
           "description": "Parse value of the expected type not handling missings",
           "hierarchy": "Text ARFF",
+          "indexed": "2014-03-11T17:14:28",
           "module": "Text.ARFF",
           "name": "value'",
           "normalized": "AttributeType-\u003eParser AttributeValue",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hipe"
+        "phrase": "hipe",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "IGC",
           "package": "hipe",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IGC",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "IGC",
           "package": "hipe",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean ipe geometry collection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "IGC",
           "package": "hipe",
@@ -49,6 +52,7 @@
         "index": {
           "description": "an ipe geometry collection",
           "hierarchy": "Data Geometry Ipe IGC",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "IGC",
           "package": "hipe",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStuff that we can store in a IpGeometryCollection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "IsIpeGeometry",
           "package": "hipe",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Stuff that we can store in IpGeometryCollection",
           "hierarchy": "Data Geometry Ipe IGC",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "IsIpeGeometry",
           "package": "hipe",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshorhand for insert\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "(\u003c|)",
           "package": "hipe",
@@ -96,6 +103,7 @@
         "index": {
           "description": "shorhand for insert",
           "hierarchy": "Data Geometry Ipe IGC",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "(\u003c|) \u003c|",
           "normalized": "a b-\u003eIGC b-\u003eIGC b",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "IGC",
           "package": "hipe",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IGC",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "IGC",
           "package": "hipe",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "empty",
           "package": "hipe",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IGC",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "empty",
           "package": "hipe",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "fromList",
           "package": "hipe",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IGC",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "fromList",
           "normalized": "[a b]-\u003eIGC b",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "insert",
           "package": "hipe",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IGC",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "insert",
           "normalized": "a b-\u003eIGC b-\u003eIGC b",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "insertAll",
           "package": "hipe",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IGC",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "insertAll",
           "normalized": "[a b]-\u003eIGC b-\u003eIGC b",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "mergeAll",
           "package": "hipe",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IGC",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "mergeAll",
           "normalized": "[IGC a]-\u003eIGC a",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "multiPolygons",
           "package": "hipe",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IGC",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "multiPolygons",
           "normalized": "[IpeMultiPolygon' a]",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "name",
           "package": "hipe",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IGC",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "name",
           "package": "hipe",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "points",
           "package": "hipe",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IGC",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "points",
           "normalized": "[IpePoint' a]",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "polyLines",
           "package": "hipe",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IGC",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "polyLines",
           "normalized": "[IpePolyline' a]",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "simplePolygons",
           "package": "hipe",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IGC",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "simplePolygons",
           "normalized": "[IpeSimplePolygon' a]",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "singleton",
           "package": "hipe",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IGC",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "singleton",
           "normalized": "a b-\u003eIGC b",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "updateAll",
           "package": "hipe",
@@ -396,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IGC",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IGC",
           "name": "updateAll",
           "normalized": "a-\u003ea)-\u003eIGC b-\u003eIGC b",
@@ -411,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "InternalTypes",
           "package": "hipe",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "InternalTypes",
           "package": "hipe",
@@ -433,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttribute Map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "AMap",
           "package": "hipe",
@@ -442,6 +479,7 @@
         "index": {
           "description": "Attribute Map",
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "AMap",
           "package": "hipe",
@@ -456,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStuff with attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "HasAttributes",
           "package": "hipe",
@@ -465,6 +504,7 @@
         "index": {
           "description": "Stuff with attributes",
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "HasAttributes",
           "package": "hipe",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpeBitmap",
           "package": "hipe",
@@ -486,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpeBitmap",
           "package": "hipe",
@@ -500,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA complete ipe file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpeFile",
           "package": "hipe",
@@ -509,6 +552,7 @@
         "index": {
           "description": "complete ipe file",
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpeFile",
           "package": "hipe",
@@ -523,6 +567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn ipe-object. The main `\u003ccode\u003ething'\u003c/code\u003e that defines the drawings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpeObject",
           "package": "hipe",
@@ -532,6 +577,7 @@
         "index": {
           "description": "An ipe-object The main thing that defines the drawings",
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpeObject",
           "package": "hipe",
@@ -546,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the \u003ca\u003epage\u003c/a\u003e tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpePage",
           "package": "hipe",
@@ -555,6 +602,7 @@
         "index": {
           "description": "Represents the page tag",
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpePage",
           "package": "hipe",
@@ -569,6 +617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maybe string is the encoding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpePreamble",
           "package": "hipe",
@@ -578,6 +627,7 @@
         "index": {
           "description": "The maybe string is the encoding",
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpePreamble",
           "package": "hipe",
@@ -592,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe maybe string is the styles name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpeStyle",
           "package": "hipe",
@@ -601,6 +652,7 @@
         "index": {
           "description": "the maybe string is the styles name",
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpeStyle",
           "package": "hipe",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "LayerDefinition",
           "package": "hipe",
@@ -622,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "LayerDefinition",
           "package": "hipe",
@@ -636,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype that represents a path in ipe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "Operation",
           "package": "hipe",
@@ -645,6 +700,7 @@
         "index": {
           "description": "type that represents path in ipe",
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "Operation",
           "package": "hipe",
@@ -659,6 +715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe definition of a view\n make active layer into an index ?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "ViewDefinition",
           "package": "hipe",
@@ -668,6 +725,7 @@
         "index": {
           "description": "The definition of view make active layer into an index",
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "ViewDefinition",
           "package": "hipe",
@@ -681,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "ArcTo",
           "package": "hipe",
@@ -690,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "ArcTo",
           "package": "hipe",
@@ -703,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "ClosePath",
           "package": "hipe",
@@ -712,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "ClosePath",
           "package": "hipe",
@@ -725,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "ClosedSpline",
           "package": "hipe",
@@ -734,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "ClosedSpline",
           "normalized": "ClosedSpline[Point a]",
@@ -749,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "CurveTo",
           "package": "hipe",
@@ -758,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "CurveTo",
           "package": "hipe",
@@ -771,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "Ellipse",
           "package": "hipe",
@@ -780,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "Ellipse",
           "package": "hipe",
@@ -793,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "Group",
           "package": "hipe",
@@ -802,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "Group",
           "normalized": "Group[IpeObject a]AMap",
@@ -817,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpeFile",
           "package": "hipe",
@@ -826,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpeFile",
           "package": "hipe",
@@ -839,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpePage",
           "package": "hipe",
@@ -848,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpePage",
           "normalized": "IpePage[LayerDefinition][ViewDefinition][IpeObject a]",
@@ -863,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpePreamble",
           "package": "hipe",
@@ -872,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpePreamble",
           "package": "hipe",
@@ -885,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpeStyle",
           "package": "hipe",
@@ -894,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpeStyle",
           "normalized": "IpeStyle(Maybe String)[XmlTree]",
@@ -909,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpeText",
           "package": "hipe",
@@ -918,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "IpeText",
           "package": "hipe",
@@ -931,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "LineTo",
           "package": "hipe",
@@ -940,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "LineTo",
           "package": "hipe",
@@ -953,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "MoveTo",
           "package": "hipe",
@@ -962,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "MoveTo",
           "package": "hipe",
@@ -975,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "Path",
           "package": "hipe",
@@ -984,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "Path",
           "normalized": "Path[Operation a]AMap",
@@ -999,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "QCurveTo",
           "package": "hipe",
@@ -1008,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "QCurveTo",
           "package": "hipe",
@@ -1021,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "Spline",
           "package": "hipe",
@@ -1030,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "Spline",
           "normalized": "Spline[Point a]",
@@ -1045,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "Use",
           "package": "hipe",
@@ -1054,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "Use",
           "package": "hipe",
@@ -1113,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "attrs",
           "package": "hipe",
@@ -1122,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "attrs",
           "normalized": "a-\u003eAMap",
@@ -1136,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "extractAttr",
           "package": "hipe",
@@ -1145,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "extractAttr",
           "normalized": "String-\u003ea-\u003ea",
@@ -1160,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "getAttr",
           "package": "hipe",
@@ -1169,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "getAttr",
           "normalized": "String-\u003ea-\u003eMaybe String",
@@ -1184,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "hasAttr",
           "package": "hipe",
@@ -1193,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "hasAttr",
           "normalized": "String-\u003ea-\u003eBool",
@@ -1208,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "hasAttrWithValue",
           "package": "hipe",
@@ -1217,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "hasAttrWithValue",
           "normalized": "String-\u003eString-\u003ea-\u003eBool",
@@ -1232,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "ipePages",
           "package": "hipe",
@@ -1241,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "ipePages",
           "normalized": "[IpePage a]",
@@ -1281,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "preamble",
           "package": "hipe",
@@ -1290,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "preamble",
           "package": "hipe",
@@ -1302,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "setAttr",
           "package": "hipe",
@@ -1311,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "setAttr",
           "normalized": "String-\u003eString-\u003ea-\u003ea",
@@ -1326,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "setAttrs",
           "package": "hipe",
@@ -1335,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "setAttrs",
           "normalized": "[(String,String)]-\u003ea-\u003ea",
@@ -1350,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "styles",
           "package": "hipe",
@@ -1359,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "styles",
           "normalized": "[IpeStyle]",
@@ -1373,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "updateWith",
           "package": "hipe",
@@ -1382,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe InternalTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.InternalTypes",
           "name": "updateWith",
           "normalized": "(AMap-\u003eAMap)-\u003ea-\u003ea",
@@ -1397,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.Ipe",
           "name": "Ipe",
           "package": "hipe",
@@ -1405,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe Ipe",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.Ipe",
           "name": "Ipe",
           "package": "hipe",
@@ -1418,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "IpeGeometryTypes",
           "package": "hipe",
@@ -1426,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeGeometryTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "IpeGeometryTypes",
           "package": "hipe",
@@ -1439,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "IpeMultiPolygon'",
           "package": "hipe",
@@ -1447,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeGeometryTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "IpeMultiPolygon'",
           "package": "hipe",
@@ -1461,6 +1581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn ipe point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "IpePoint'",
           "package": "hipe",
@@ -1470,6 +1591,7 @@
         "index": {
           "description": "An ipe point",
           "hierarchy": "Data Geometry Ipe IpeGeometryTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "IpePoint'",
           "package": "hipe",
@@ -1484,6 +1606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA polyline\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "IpePolyline'",
           "package": "hipe",
@@ -1493,6 +1616,7 @@
         "index": {
           "description": "polyline",
           "hierarchy": "Data Geometry Ipe IpeGeometryTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "IpePolyline'",
           "package": "hipe",
@@ -1507,6 +1631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolygons\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "IpeSimplePolygon'",
           "package": "hipe",
@@ -1516,6 +1641,7 @@
         "index": {
           "description": "Polygons",
           "hierarchy": "Data Geometry Ipe IpeGeometryTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "IpeSimplePolygon'",
           "package": "hipe",
@@ -1529,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "IpeMultiPolygon",
           "package": "hipe",
@@ -1538,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeGeometryTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "IpeMultiPolygon",
           "normalized": "IpeMultiPolygon[SimplePolygon' a]AMap",
@@ -1553,6 +1681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "IpePoint",
           "package": "hipe",
@@ -1562,6 +1691,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeGeometryTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "IpePoint",
           "package": "hipe",
@@ -1575,6 +1705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "IpePolyline",
           "package": "hipe",
@@ -1584,6 +1715,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeGeometryTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "IpePolyline",
           "normalized": "IpePolyline[LineSegment a]AMap",
@@ -1599,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "IpeSimplePolygon",
           "package": "hipe",
@@ -1608,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeGeometryTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "IpeSimplePolygon",
           "normalized": "IpeSimplePolygon[Point a]AMap",
@@ -1624,6 +1758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a default ipe point from a given point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "fromPoint",
           "package": "hipe",
@@ -1634,6 +1769,7 @@
         "index": {
           "description": "create default ipe point from given point",
           "hierarchy": "Data Geometry Ipe IpeGeometryTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "fromPoint",
           "normalized": "Point a-\u003eIpePoint' a",
@@ -1649,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "fromPolyline",
           "package": "hipe",
@@ -1658,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeGeometryTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "fromPolyline",
           "normalized": "Polyline a-\u003eIpePolyline' a",
@@ -1673,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "toPolyLine",
           "package": "hipe",
@@ -1682,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeGeometryTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeGeometryTypes",
           "name": "toPolyLine",
           "normalized": "IpePolyline' a-\u003ePolyline a",
@@ -1697,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "IpeTypes",
           "package": "hipe",
@@ -1705,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "IpeTypes",
           "package": "hipe",
@@ -1719,6 +1861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttribute Map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "AMap",
           "package": "hipe",
@@ -1728,6 +1871,7 @@
         "index": {
           "description": "Attribute Map",
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "AMap",
           "package": "hipe",
@@ -1742,6 +1886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStuff with attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "HasAttributes",
           "package": "hipe",
@@ -1751,6 +1896,7 @@
         "index": {
           "description": "Stuff with attributes",
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "HasAttributes",
           "package": "hipe",
@@ -1765,6 +1911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting the content of pages/layers etc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "HasContent",
           "package": "hipe",
@@ -1774,6 +1921,7 @@
         "index": {
           "description": "Getting the content of pages layers etc",
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "HasContent",
           "package": "hipe",
@@ -1788,6 +1936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresenting ipe drawings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "IpeDrawing",
           "package": "hipe",
@@ -1797,6 +1946,7 @@
         "index": {
           "description": "Representing ipe drawings",
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "IpeDrawing",
           "package": "hipe",
@@ -1811,6 +1961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA complete ipe file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "IpeFile",
           "package": "hipe",
@@ -1820,6 +1971,7 @@
         "index": {
           "description": "complete ipe file",
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "IpeFile",
           "package": "hipe",
@@ -1833,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "Layer",
           "package": "hipe",
@@ -1841,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "Layer",
           "package": "hipe",
@@ -1854,6 +2008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "LayerDefinition",
           "package": "hipe",
@@ -1862,6 +2017,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "LayerDefinition",
           "package": "hipe",
@@ -1875,6 +2031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "Page",
           "package": "hipe",
@@ -1883,6 +2040,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "Page",
           "package": "hipe",
@@ -1897,6 +2055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe definition of a view\n make active layer into an index ?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "ViewDefinition",
           "package": "hipe",
@@ -1906,6 +2065,7 @@
         "index": {
           "description": "The definition of view make active layer into an index",
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "ViewDefinition",
           "package": "hipe",
@@ -1919,6 +2079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "IpeDrawing",
           "package": "hipe",
@@ -1928,6 +2089,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "IpeDrawing",
           "package": "hipe",
@@ -1941,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "Layer",
           "package": "hipe",
@@ -1950,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "Layer",
           "package": "hipe",
@@ -1963,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "Page",
           "package": "hipe",
@@ -1972,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "Page",
           "package": "hipe",
@@ -1985,6 +2151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "attrs",
           "package": "hipe",
@@ -1994,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "attrs",
           "normalized": "a-\u003eAMap",
@@ -2008,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "content",
           "package": "hipe",
@@ -2017,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "content",
           "normalized": "a-\u003eIGC(PM a)",
@@ -2032,6 +2202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA new blank ipe drawing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "emptyDrawing",
           "package": "hipe",
@@ -2042,6 +2213,7 @@
         "index": {
           "description": "new blank ipe drawing",
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "emptyDrawing",
           "package": "hipe",
@@ -2055,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "emptyLayer",
           "package": "hipe",
@@ -2064,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "emptyLayer",
           "package": "hipe",
@@ -2078,6 +2252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA new empty page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "emptyPage",
           "package": "hipe",
@@ -2088,6 +2263,7 @@
         "index": {
           "description": "new empty page",
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "emptyPage",
           "package": "hipe",
@@ -2102,6 +2278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerges the two drawings. i.e. page by page we merge the pages in the sense\n that objects on layers with the same names are *BOTH* included\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "extend",
           "package": "hipe",
@@ -2112,6 +2289,7 @@
         "index": {
           "description": "Merges the two drawings i.e page by page we merge the pages in the sense that objects on layers with the same names are BOTH included",
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "extend",
           "normalized": "IpeDrawing a-\u003eIpeDrawing a-\u003eIpeDrawing a",
@@ -2126,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "extractAttr",
           "package": "hipe",
@@ -2135,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "extractAttr",
           "normalized": "String-\u003ea-\u003ea",
@@ -2151,6 +2331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuerying a drawing for layers\u003cem\u003eviews\u003c/em\u003epages etc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "findLayer",
           "package": "hipe",
@@ -2161,6 +2342,7 @@
         "index": {
           "description": "Querying drawing for layers views pages etc",
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "findLayer",
           "normalized": "Int-\u003eLayerDefinition-\u003eIpeDrawing a-\u003eMaybe(Layer a)",
@@ -2176,6 +2358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "findLayer'",
           "package": "hipe",
@@ -2185,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "findLayer'",
           "normalized": "LayerDefinition-\u003ePage a-\u003eMaybe(Layer a)",
@@ -2200,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "getAttr",
           "package": "hipe",
@@ -2209,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "getAttr",
           "normalized": "String-\u003ea-\u003eMaybe String",
@@ -2224,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "hasAttr",
           "package": "hipe",
@@ -2233,6 +2420,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "hasAttr",
           "normalized": "String-\u003ea-\u003eBool",
@@ -2248,6 +2436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "hasAttrWithValue",
           "package": "hipe",
@@ -2257,6 +2446,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "hasAttrWithValue",
           "normalized": "String-\u003eString-\u003ea-\u003eBool",
@@ -2272,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "layerContent",
           "package": "hipe",
@@ -2281,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "layerContent",
           "package": "hipe",
@@ -2294,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "layerDef",
           "package": "hipe",
@@ -2303,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "layerDef",
           "package": "hipe",
@@ -2316,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "layers",
           "package": "hipe",
@@ -2325,6 +2520,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "layers",
           "normalized": "[Layer a]",
@@ -2339,6 +2535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "pages",
           "package": "hipe",
@@ -2348,6 +2545,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "pages",
           "normalized": "[Page a]",
@@ -2362,6 +2560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "runOnFile",
           "package": "hipe",
@@ -2371,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "runOnFile",
           "normalized": "a(IpeDrawing b)(IpeDrawing c)-\u003ea(IpeFile b)(IpeFile c)",
@@ -2387,6 +2587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eManipulating Ipe documents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "runOnPath",
           "package": "hipe",
@@ -2397,6 +2598,7 @@
         "index": {
           "description": "Manipulating Ipe documents",
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "runOnPath",
           "normalized": "Kleisli IO(IpeDrawing a)(IpeDrawing b)-\u003eKleisli IO FilePath(IpeFile b)",
@@ -2412,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "setAttr",
           "package": "hipe",
@@ -2421,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "setAttr",
           "normalized": "String-\u003eString-\u003ea-\u003ea",
@@ -2436,6 +2640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "setAttrs",
           "package": "hipe",
@@ -2445,6 +2650,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "setAttrs",
           "normalized": "[(String,String)]-\u003ea-\u003ea",
@@ -2460,6 +2666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "updateWith",
           "package": "hipe",
@@ -2469,6 +2676,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "updateWith",
           "normalized": "(AMap-\u003eAMap)-\u003ea-\u003ea",
@@ -2485,6 +2693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWorking with views\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "view",
           "package": "hipe",
@@ -2495,6 +2704,7 @@
         "index": {
           "description": "Working with views",
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "view",
           "normalized": "[LayerDefinition]-\u003eViewDefinition",
@@ -2509,6 +2719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "views",
           "package": "hipe",
@@ -2518,6 +2729,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe IpeTypes",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.IpeTypes",
           "name": "views",
           "normalized": "[ViewDefinition]",
@@ -2532,6 +2744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "Pickle",
           "package": "hipe",
@@ -2540,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe Pickle",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "Pickle",
           "package": "hipe",
@@ -2554,6 +2768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent stuff that can be used as a coordinate in ipe. (similar to show/read)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "Coordinate",
           "package": "hipe",
@@ -2563,6 +2778,7 @@
         "index": {
           "description": "Represent stuff that can be used as coordinate in ipe similar to show read",
           "hierarchy": "Data Geometry Ipe Pickle",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "Coordinate",
           "package": "hipe",
@@ -2576,6 +2792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "fromSeq",
           "package": "hipe",
@@ -2585,6 +2802,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe Pickle",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "fromSeq",
           "normalized": "Integer-\u003eMaybe Integer-\u003ea",
@@ -2601,6 +2819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad an ipe drawing from a file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "loadFile",
           "package": "hipe",
@@ -2611,6 +2830,7 @@
         "index": {
           "description": "Load an ipe drawing from file",
           "hierarchy": "Data Geometry Ipe Pickle",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "loadFile",
           "normalized": "FilePath-\u003eIO(IpeFile a)",
@@ -2626,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "loadFileA",
           "package": "hipe",
@@ -2635,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe Pickle",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "loadFileA",
           "package": "hipe",
@@ -2649,6 +2871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore an ipe drawing in a file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "storeFile",
           "package": "hipe",
@@ -2659,6 +2882,7 @@
         "index": {
           "description": "Store an ipe drawing in file",
           "hierarchy": "Data Geometry Ipe Pickle",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "storeFile",
           "normalized": "IpeFile a-\u003eFilePath-\u003eIO()",
@@ -2674,6 +2898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "storeFileA",
           "package": "hipe",
@@ -2683,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe Pickle",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "storeFileA",
           "normalized": "FilePath-\u003eKleisli IO(IpeFile a)()",
@@ -2698,6 +2924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "toIpeOut",
           "package": "hipe",
@@ -2707,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe Pickle",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "toIpeOut",
           "normalized": "a-\u003eString",
@@ -2722,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "unpickle",
           "package": "hipe",
@@ -2731,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe Pickle",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "unpickle",
           "normalized": "PU a-\u003eFilePath-\u003eIO[a]",
@@ -2745,6 +2975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "xpLoadSettings",
           "package": "hipe",
@@ -2754,6 +2985,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe Pickle",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "xpLoadSettings",
           "normalized": "[SysConfig]",
@@ -2769,6 +3001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "xpStoreSettings",
           "package": "hipe",
@@ -2778,6 +3011,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe Pickle",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.Pickle",
           "name": "xpStoreSettings",
           "normalized": "[SysConfig]",
@@ -2793,6 +3027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.ReadIpeGeometry",
           "name": "ReadIpeGeometry",
           "package": "hipe",
@@ -2801,6 +3036,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe ReadIpeGeometry",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.ReadIpeGeometry",
           "name": "ReadIpeGeometry",
           "package": "hipe",
@@ -2815,6 +3051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypeclass expressing which ipetypes we can convert into a IGC\n\u003c/p\u003e\u003cp\u003eminimal implementation: toIGC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.ReadIpeGeometry",
           "name": "IsConvertableToIGC",
           "package": "hipe",
@@ -2824,6 +3061,7 @@
         "index": {
           "description": "Typeclass expressing which ipetypes we can convert into IGC minimal implementation toIGC",
           "hierarchy": "Data Geometry Ipe ReadIpeGeometry",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.ReadIpeGeometry",
           "name": "IsConvertableToIGC",
           "package": "hipe",
@@ -2837,6 +3075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.ReadIpeGeometry",
           "name": "listToIGC",
           "package": "hipe",
@@ -2846,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe ReadIpeGeometry",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.ReadIpeGeometry",
           "name": "listToIGC",
           "normalized": "[a]-\u003eIGC(PM a)",
@@ -2861,6 +3101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.ReadIpeGeometry",
           "name": "perEntry",
           "package": "hipe",
@@ -2870,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe ReadIpeGeometry",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.ReadIpeGeometry",
           "name": "perEntry",
           "normalized": "[a]-\u003e[(a,IGC(PM a))]",
@@ -2885,6 +3127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.ReadIpeGeometry",
           "name": "toIGC",
           "package": "hipe",
@@ -2894,6 +3137,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe ReadIpeGeometry",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.ReadIpeGeometry",
           "name": "toIGC",
           "normalized": "a-\u003eIGC(PM a)",
@@ -2909,6 +3153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.WriteIpeGeometry",
           "name": "WriteIpeGeometry",
           "package": "hipe",
@@ -2917,6 +3162,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe WriteIpeGeometry",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.WriteIpeGeometry",
           "name": "WriteIpeGeometry",
           "package": "hipe",
@@ -2930,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.WriteIpeGeometry",
           "name": "IsConvertableToIpeObject",
           "package": "hipe",
@@ -2938,6 +3185,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe WriteIpeGeometry",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.WriteIpeGeometry",
           "name": "IsConvertableToIpeObject",
           "package": "hipe",
@@ -2951,6 +3199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.WriteIpeGeometry",
           "name": "toIpeObject",
           "package": "hipe",
@@ -2960,6 +3209,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe WriteIpeGeometry",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.WriteIpeGeometry",
           "name": "toIpeObject",
           "normalized": "a-\u003eMaybe(IpeObject(PM a))",
@@ -2975,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.WriteIpeGeometry",
           "name": "toIpeObjects",
           "package": "hipe",
@@ -2984,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe WriteIpeGeometry",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.WriteIpeGeometry",
           "name": "toIpeObjects",
           "normalized": "[a]-\u003e[IpeObject(PM a)]",
@@ -2999,6 +3251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:56 UTC 2014",
           "module": "Data.Geometry.Ipe.WriteIpeGeometry",
           "name": "toIpeObjects'",
           "package": "hipe",
@@ -3008,6 +3261,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Ipe WriteIpeGeometry",
+          "indexed": "2014-03-11T18:39:56",
           "module": "Data.Geometry.Ipe.WriteIpeGeometry",
           "name": "toIpeObjects'",
           "normalized": "IGC a-\u003e[IpeObject a]",

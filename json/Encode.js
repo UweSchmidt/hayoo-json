@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Encode"
+        "phrase": "Encode",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eEncode::Arabic::ArabTeX::ZDMG\u003c/em\u003e in Perl:\n \u003ca\u003ehttp://search.cpan.org/dist/Encode-Arabic/lib/Encode/Arabic/ArabTeX/ZDMG.pm\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eEncode.Extend\u003c/a\u003e\n \u003ca\u003eEncode.Mapper\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.ArabTeX.ZDMG",
           "name": "ZDMG",
           "package": "Encode",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Encode Arabic ArabTeX ZDMG in Perl http search.cpan.org dist Encode-Arabic lib Encode Arabic ArabTeX ZDMG.pm Encode.Extend Encode.Mapper",
           "hierarchy": "Encode Arabic ArabTeX ZDMG",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.ArabTeX.ZDMG",
           "name": "ZDMG",
           "package": "Encode",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.ArabTeX.ZDMG",
           "name": "ZDMG",
           "package": "Encode",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic ArabTeX ZDMG",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.ArabTeX.ZDMG",
           "name": "ZDMG",
           "package": "Encode",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.ArabTeX.ZDMG",
           "name": "ArabTeX_ZDMG",
           "package": "Encode",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic ArabTeX ZDMG",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.ArabTeX.ZDMG",
           "name": "ArabTeX_ZDMG",
           "package": "Encode",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.ArabTeX.ZDMG",
           "name": "ZDMG",
           "package": "Encode",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic ArabTeX ZDMG",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.ArabTeX.ZDMG",
           "name": "ZDMG",
           "package": "Encode",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eEncode::Arabic::ArabTeX\u003c/em\u003e in Perl:\n \u003ca\u003ehttp://search.cpan.org/dist/Encode-Arabic/lib/Encode/Arabic/ArabTeX.pm\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eEncode.Extend\u003c/a\u003e\n \u003ca\u003eEncode.Mapper\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.ArabTeX",
           "name": "ArabTeX",
           "package": "Encode",
@@ -116,6 +125,7 @@
         "index": {
           "description": "Encode Arabic ArabTeX in Perl http search.cpan.org dist Encode-Arabic lib Encode Arabic ArabTeX.pm Encode.Extend Encode.Mapper",
           "hierarchy": "Encode Arabic ArabTeX",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.ArabTeX",
           "name": "ArabTeX",
           "package": "Encode",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.ArabTeX",
           "name": "ArabTeX",
           "package": "Encode",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic ArabTeX",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.ArabTeX",
           "name": "ArabTeX",
           "package": "Encode",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.ArabTeX",
           "name": "ArabTeX",
           "package": "Encode",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic ArabTeX",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.ArabTeX",
           "name": "ArabTeX",
           "package": "Encode",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.ArabTeX",
           "name": "Lagally",
           "package": "Encode",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic ArabTeX",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.ArabTeX",
           "name": "Lagally",
           "package": "Encode",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.ArabTeX",
           "name": "TeX",
           "package": "Encode",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic ArabTeX",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.ArabTeX",
           "name": "TeX",
           "package": "Encode",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.ArabTeX",
           "name": "events",
           "package": "Encode",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic ArabTeX",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.ArabTeX",
           "name": "events",
           "normalized": "String-\u003e[[String]]",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.ArabTeX",
           "name": "tokens",
           "package": "Encode",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic ArabTeX",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.ArabTeX",
           "name": "tokens",
           "normalized": "String-\u003e[String]",
@@ -263,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTim Buckwalter's notation is a one-to-one transliteration of the graphemes\n of the Arabic script using lower ASCII characters only. This system is very\n popular in Natural Language Processing, however, there are limits to its\n applicability due to numerous non-alphabetic characters involved.\n\u003c/p\u003e\u003cp\u003eThe XML-friendly variant of the notation replaces codes \u003ccode\u003e\u003e\u003c/code\u003e, \u003ccode\u003e&\u003c/code\u003e, \u003ccode\u003e\u003c\u003c/code\u003e with\n \u003ccode\u003eO\u003c/code\u003e, \u003ccode\u003eW\u003c/code\u003e, \u003ccode\u003eI\u003c/code\u003e, respectively. In this implementation, the \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003e function\n considers both of these conventions and converts from them, while the\n \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e function produces the XML-friendly notation only.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eEncode::Arabic::Buckwalter\u003c/em\u003e in Perl:\n \u003ca\u003ehttp://search.cpan.org/dist/Encode-Arabic/lib/Encode/Arabic/Buckwalter.pm\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Buckwalter",
           "name": "Buckwalter",
           "package": "Encode",
@@ -272,6 +295,7 @@
         "index": {
           "description": "Tim Buckwalter notation is one-to-one transliteration of the graphemes of the Arabic script using lower ASCII characters only This system is very popular in Natural Language Processing however there are limits to its applicability due to numerous non-alphabetic characters involved The XML-friendly variant of the notation replaces codes with respectively In this implementation the decode function considers both of these conventions and converts from them while the encode function produces the XML-friendly notation only Encode Arabic Buckwalter in Perl http search.cpan.org dist Encode-Arabic lib Encode Arabic Buckwalter.pm",
           "hierarchy": "Encode Arabic Buckwalter",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Buckwalter",
           "name": "Buckwalter",
           "package": "Encode",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Buckwalter",
           "name": "Buckwalter",
           "package": "Encode",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Buckwalter",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Buckwalter",
           "name": "Buckwalter",
           "package": "Encode",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Buckwalter",
           "name": "Buckwalter",
           "package": "Encode",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Buckwalter",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Buckwalter",
           "name": "Buckwalter",
           "package": "Encode",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Buckwalter",
           "name": "Tim",
           "package": "Encode",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Buckwalter",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Buckwalter",
           "name": "Tim",
           "package": "Encode",
@@ -351,6 +381,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eEncode::Byte\u003c/em\u003e in Perl:\n \u003ca\u003ehttp://search.cpan.org/dist/Encode/Byte/Byte.pm\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://search.cpan.org/dist/Encode/lib/Encode/Supported.pod\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://129.69.218.213/arabtex/doc/arabdoc.pdf\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "Byte",
           "package": "Encode",
@@ -360,6 +391,7 @@
         "index": {
           "description": "Encode Byte in Perl http search.cpan.org dist Encode Byte Byte.pm http search.cpan.org dist Encode lib Encode Supported.pod http arabtex doc arabdoc.pdf",
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "Byte",
           "package": "Encode",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "ASMO449",
           "package": "Encode",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "ASMO449",
           "package": "Encode",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "DOSArabic",
           "package": "Encode",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "DOSArabic",
           "package": "Encode",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "DOSFarsi",
           "package": "Encode",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "DOSFarsi",
           "package": "Encode",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "ISIRI3342",
           "package": "Encode",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "ISIRI3342",
           "package": "Encode",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "ISOArabic",
           "package": "Encode",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "ISOArabic",
           "package": "Encode",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "MacArabic",
           "package": "Encode",
@@ -486,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "MacArabic",
           "package": "Encode",
@@ -499,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "MacFarsi",
           "package": "Encode",
@@ -507,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "MacFarsi",
           "package": "Encode",
@@ -520,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "WinArabic",
           "package": "Encode",
@@ -528,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "WinArabic",
           "package": "Encode",
@@ -541,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "ASMO449",
           "package": "Encode",
@@ -550,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "ASMO449",
           "package": "Encode",
@@ -563,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "CP1006",
           "package": "Encode",
@@ -572,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "CP1006",
           "package": "Encode",
@@ -585,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "CP1256",
           "package": "Encode",
@@ -594,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "CP1256",
           "package": "Encode",
@@ -607,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "CP864",
           "package": "Encode",
@@ -616,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "CP864",
           "package": "Encode",
@@ -629,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "DOSArabic",
           "package": "Encode",
@@ -638,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "DOSArabic",
           "package": "Encode",
@@ -651,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "DOSFarsi",
           "package": "Encode",
@@ -660,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "DOSFarsi",
           "package": "Encode",
@@ -673,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "ISIRI3342",
           "package": "Encode",
@@ -682,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "ISIRI3342",
           "package": "Encode",
@@ -695,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "ISOArabic",
           "package": "Encode",
@@ -704,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "ISOArabic",
           "package": "Encode",
@@ -717,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "ISO_8859_6",
           "package": "Encode",
@@ -726,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "ISO_8859_6",
           "package": "Encode",
@@ -739,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "MacArabic",
           "package": "Encode",
@@ -748,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "MacArabic",
           "package": "Encode",
@@ -761,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "MacFarsi",
           "package": "Encode",
@@ -770,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "MacFarsi",
           "package": "Encode",
@@ -783,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "WinArabic",
           "package": "Encode",
@@ -792,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "WinArabic",
           "package": "Encode",
@@ -805,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Byte",
           "name": "Windows_1256",
           "package": "Encode",
@@ -814,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Byte",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Byte",
           "name": "Windows_1256",
           "package": "Encode",
@@ -828,6 +902,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHabash-Soudi-Buckwalter notation is a one-to-one transliteration of the\n graphemes of the Arabic script into various symbols of Unicode defined in\n \u003ca\u003ehttp://scholar.google.com/scholar?q=habash+soudi+buckwalter\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eEncode::Arabic::Habash\u003c/em\u003e in Perl:\n \u003ca\u003ehttp://search.cpan.org/dist/Encode-Arabic/lib/Encode/Arabic/Habash.pm\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Habash",
           "name": "Habash",
           "package": "Encode",
@@ -837,6 +912,7 @@
         "index": {
           "description": "Habash-Soudi-Buckwalter notation is one-to-one transliteration of the graphemes of the Arabic script into various symbols of Unicode defined in http scholar.google.com scholar habash soudi buckwalter Encode Arabic Habash in Perl http search.cpan.org dist Encode-Arabic lib Encode Arabic Habash.pm",
           "hierarchy": "Encode Arabic Habash",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Habash",
           "name": "Habash",
           "package": "Encode",
@@ -850,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Habash",
           "name": "Habash",
           "package": "Encode",
@@ -858,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Habash",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Habash",
           "name": "Habash",
           "package": "Encode",
@@ -871,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Habash",
           "name": "HSB",
           "package": "Encode",
@@ -880,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Habash",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Habash",
           "name": "HSB",
           "package": "Encode",
@@ -893,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Habash",
           "name": "Habash",
           "package": "Encode",
@@ -902,6 +983,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Habash",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Habash",
           "name": "Habash",
           "package": "Encode",
@@ -915,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Habash",
           "name": "Soudi",
           "package": "Encode",
@@ -924,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Habash",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Habash",
           "name": "Soudi",
           "package": "Encode",
@@ -938,6 +1022,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDil Parkinson's notation is a one-to-one transliteration of the graphemes\n of the Arabic script using lower ASCII characters only.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eEncode::Arabic::Parkinson\u003c/em\u003e in Perl:\n \u003ca\u003ehttp://search.cpan.org/dist/Encode-Arabic/lib/Encode/Arabic/Parkinson.pm\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Parkinson",
           "name": "Parkinson",
           "package": "Encode",
@@ -947,6 +1032,7 @@
         "index": {
           "description": "Dil Parkinson notation is one-to-one transliteration of the graphemes of the Arabic script using lower ASCII characters only Encode Arabic Parkinson in Perl http search.cpan.org dist Encode-Arabic lib Encode Arabic Parkinson.pm",
           "hierarchy": "Encode Arabic Parkinson",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Parkinson",
           "name": "Parkinson",
           "package": "Encode",
@@ -960,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Parkinson",
           "name": "Parkinson",
           "package": "Encode",
@@ -968,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Parkinson",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Parkinson",
           "name": "Parkinson",
           "package": "Encode",
@@ -981,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Parkinson",
           "name": "Dil",
           "package": "Encode",
@@ -990,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Parkinson",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Parkinson",
           "name": "Dil",
           "package": "Encode",
@@ -1003,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic.Parkinson",
           "name": "Parkinson",
           "package": "Encode",
@@ -1012,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Encode Arabic Parkinson",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic.Parkinson",
           "name": "Parkinson",
           "package": "Encode",
@@ -1026,6 +1118,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Haskell version of \u003cem\u003eEncode::Arabic\u003c/em\u003e originally written in Perl:\n \u003ca\u003ehttp://search.cpan.org/dist/Encode-Arabic/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eEncode.Arabic.ArabTeX\u003c/a\u003e\n \u003ca\u003eEncode.Arabic.ArabTeX.ZDMG\u003c/a\u003e\n \u003ca\u003eEncode.Arabic.Buckwalter\u003c/a\u003e\n \u003ca\u003eEncode.Arabic.Parkinson\u003c/a\u003e\n \u003ca\u003eEncode.Arabic.Habash\u003c/a\u003e\n \u003ca\u003eEncode.Arabic.Byte\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Arabic",
           "name": "Arabic",
           "package": "Encode",
@@ -1035,6 +1128,7 @@
         "index": {
           "description": "The Haskell version of Encode Arabic originally written in Perl http search.cpan.org dist Encode-Arabic Encode.Arabic.ArabTeX Encode.Arabic.ArabTeX.ZDMG Encode.Arabic.Buckwalter Encode.Arabic.Parkinson Encode.Arabic.Habash Encode.Arabic.Byte",
           "hierarchy": "Encode Arabic",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Arabic",
           "name": "Arabic",
           "package": "Encode",
@@ -1049,6 +1143,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003eEncode.Extend\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.ExPlus",
           "name": "ExPlus",
           "package": "Encode",
@@ -1058,6 +1153,7 @@
         "index": {
           "description": "Encode.Extend",
           "hierarchy": "Encode ExPlus",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.ExPlus",
           "name": "ExPlus",
           "package": "Encode",
@@ -1071,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.ExPlus",
           "name": "ExtEnv",
           "package": "Encode",
@@ -1079,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Encode ExPlus",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.ExPlus",
           "name": "ExtEnv",
           "package": "Encode",
@@ -1092,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.ExPlus",
           "name": "Extend",
           "package": "Encode",
@@ -1100,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Encode ExPlus",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.ExPlus",
           "name": "Extend",
           "package": "Encode",
@@ -1113,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.ExPlus",
           "name": "(\u003c|\u003e)",
           "package": "Encode",
@@ -1122,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Encode ExPlus",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.ExPlus",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "Extend a b c-\u003eExtend a b c-\u003eExtend a b c",
@@ -1136,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.ExPlus",
           "name": "again",
           "package": "Encode",
@@ -1145,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Encode ExPlus",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.ExPlus",
           "name": "again",
           "normalized": "Extend a b c-\u003eExtend a b[c]",
@@ -1159,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.ExPlus",
           "name": "initEnv",
           "package": "Encode",
@@ -1168,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Encode ExPlus",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.ExPlus",
           "name": "initEnv",
           "package": "Encode",
@@ -1181,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.ExPlus",
           "name": "inspectEList",
           "package": "Encode",
@@ -1190,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Encode ExPlus",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.ExPlus",
           "name": "inspectEList",
           "normalized": "Extend a b[a b]",
@@ -1205,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.ExPlus",
           "name": "inspectEnv",
           "package": "Encode",
@@ -1214,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Encode ExPlus",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.ExPlus",
           "name": "inspectEnv",
           "package": "Encode",
@@ -1227,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.ExPlus",
           "name": "inspectIList",
           "package": "Encode",
@@ -1236,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Encode ExPlus",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.ExPlus",
           "name": "inspectIList",
           "normalized": "Extend a b[b]",
@@ -1251,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.ExPlus",
           "name": "lookupList",
           "package": "Encode",
@@ -1260,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Encode ExPlus",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.ExPlus",
           "name": "lookupList",
           "normalized": "a-\u003e[b a c]-\u003e[c]",
@@ -1275,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.ExPlus",
           "name": "lower",
           "package": "Encode",
@@ -1284,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "Encode ExPlus",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.ExPlus",
           "name": "lower",
           "normalized": "[a]-\u003e[a]-\u003eExtend b a[a]",
@@ -1298,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.ExPlus",
           "name": "oneof",
           "package": "Encode",
@@ -1307,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Encode ExPlus",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.ExPlus",
           "name": "oneof",
           "normalized": "[Map a b]-\u003ec a",
@@ -1321,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.ExPlus",
           "name": "oneof'",
           "package": "Encode",
@@ -1330,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Encode ExPlus",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.ExPlus",
           "name": "oneof'",
           "normalized": "a-\u003e[Map[a]b]-\u003ec[a]",
@@ -1344,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.ExPlus",
           "name": "resetEnv",
           "package": "Encode",
@@ -1353,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "Encode ExPlus",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.ExPlus",
           "name": "resetEnv",
           "normalized": "(a-\u003eb c-\u003eb c)-\u003ea-\u003eExtend b c(b c)",
@@ -1368,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.ExPlus",
           "name": "returnEList",
           "package": "Encode",
@@ -1377,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "Encode ExPlus",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.ExPlus",
           "name": "returnEList",
           "normalized": "[a b]-\u003eExtend a b[a b]",
@@ -1392,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.ExPlus",
           "name": "returnIList",
           "package": "Encode",
@@ -1401,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Encode ExPlus",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.ExPlus",
           "name": "returnIList",
           "normalized": "[a]-\u003eExtend b a[a]",
@@ -1416,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.ExPlus",
           "name": "upper",
           "package": "Encode",
@@ -1425,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "Encode ExPlus",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.ExPlus",
           "name": "upper",
           "normalized": "[a]-\u003e[b a[c]]-\u003eExtend d e([c]-\u003e[c])",
@@ -1439,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.ExPlus",
           "name": "upperWith",
           "package": "Encode",
@@ -1448,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "Encode ExPlus",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.ExPlus",
           "name": "upperWith",
           "normalized": "(a-\u003eb-\u003ec d-\u003e[[e]])-\u003e[a]-\u003eb-\u003eExtend c d([e]-\u003e[e])",
@@ -1464,6 +1594,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003eEncode.Arabic.ArabTeX\u003c/a\u003e\n \u003ca\u003eEncode.Arabic.ArabTeX.ZDMG\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Extend",
           "name": "Extend",
           "package": "Encode",
@@ -1473,6 +1604,7 @@
         "index": {
           "description": "Encode.Arabic.ArabTeX Encode.Arabic.ArabTeX.ZDMG",
           "hierarchy": "Encode Extend",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Extend",
           "name": "Extend",
           "package": "Encode",
@@ -1486,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Extend",
           "name": "ExtEnv",
           "package": "Encode",
@@ -1494,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Encode Extend",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Extend",
           "name": "ExtEnv",
           "package": "Encode",
@@ -1507,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Extend",
           "name": "Extend",
           "package": "Encode",
@@ -1515,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Encode Extend",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Extend",
           "name": "Extend",
           "package": "Encode",
@@ -1528,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Extend",
           "name": "(\u003c|\u003e)",
           "package": "Encode",
@@ -1537,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Encode Extend",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Extend",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "Extend a b c-\u003eExtend a b c-\u003eExtend a b c",
@@ -1551,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Extend",
           "name": "Ext",
           "package": "Encode",
@@ -1560,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Encode Extend",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Extend",
           "name": "Ext",
           "normalized": "Ext(InE a b-\u003e[(InE a b,c)])",
@@ -1575,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Extend",
           "name": "again",
           "package": "Encode",
@@ -1584,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "Encode Extend",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Extend",
           "name": "again",
           "normalized": "Extend a b c-\u003eExtend a b[c]",
@@ -1598,6 +1740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Extend",
           "name": "initEnv",
           "package": "Encode",
@@ -1607,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "Encode Extend",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Extend",
           "name": "initEnv",
           "package": "Encode",
@@ -1620,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Extend",
           "name": "inspectEList",
           "package": "Encode",
@@ -1629,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "Encode Extend",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Extend",
           "name": "inspectEList",
           "normalized": "Extend a b[a b]",
@@ -1644,6 +1790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Extend",
           "name": "inspectEnv",
           "package": "Encode",
@@ -1653,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "Encode Extend",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Extend",
           "name": "inspectEnv",
           "package": "Encode",
@@ -1666,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Extend",
           "name": "inspectIList",
           "package": "Encode",
@@ -1675,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Encode Extend",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Extend",
           "name": "inspectIList",
           "normalized": "Extend a b[b]",
@@ -1690,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Extend",
           "name": "lookupList",
           "package": "Encode",
@@ -1699,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Encode Extend",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Extend",
           "name": "lookupList",
           "normalized": "a-\u003e[b a c]-\u003e[c]",
@@ -1714,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Extend",
           "name": "lower",
           "package": "Encode",
@@ -1723,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Encode Extend",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Extend",
           "name": "lower",
           "normalized": "[a]-\u003e[a]-\u003eExtend b a[a]",
@@ -1737,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Extend",
           "name": "oneof",
           "package": "Encode",
@@ -1746,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "Encode Extend",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Extend",
           "name": "oneof",
           "normalized": "[Map a b]-\u003ec a",
@@ -1760,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Extend",
           "name": "oneof'",
           "package": "Encode",
@@ -1769,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Encode Extend",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Extend",
           "name": "oneof'",
           "normalized": "a-\u003e[Map[a]b]-\u003ec[a]",
@@ -1783,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Extend",
           "name": "resetEnv",
           "package": "Encode",
@@ -1792,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Encode Extend",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Extend",
           "name": "resetEnv",
           "normalized": "(a-\u003eb c-\u003eb c)-\u003ea-\u003eExtend b c(b c)",
@@ -1807,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Extend",
           "name": "returnEList",
           "package": "Encode",
@@ -1816,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Encode Extend",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Extend",
           "name": "returnEList",
           "normalized": "[a b]-\u003eExtend a b[a b]",
@@ -1831,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Extend",
           "name": "returnIList",
           "package": "Encode",
@@ -1840,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Encode Extend",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Extend",
           "name": "returnIList",
           "normalized": "[a]-\u003eExtend b a[a]",
@@ -1855,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Extend",
           "name": "upper",
           "package": "Encode",
@@ -1864,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Encode Extend",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Extend",
           "name": "upper",
           "normalized": "[a]-\u003e[b a[c]]-\u003eExtend d e([c]-\u003e[c])",
@@ -1878,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Extend",
           "name": "upperWith",
           "package": "Encode",
@@ -1887,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "Encode Extend",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Extend",
           "name": "upperWith",
           "normalized": "(a-\u003eb-\u003ec d-\u003e[[e]])-\u003e[a]-\u003eb-\u003eExtend c d([e]-\u003e[e])",
@@ -1903,6 +2071,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Haskell version of \u003cem\u003eEncode::Mapper\u003c/em\u003e originally written in Perl:\n \u003ca\u003ehttp://search.cpan.org/dist/Encode-Mapper/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eEncode.Arabic.ArabTeX\u003c/a\u003e\n \u003ca\u003eEncode.Arabic.ArabTeX.ZDMG\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "Mapper",
           "package": "Encode",
@@ -1912,6 +2081,7 @@
         "index": {
           "description": "The Haskell version of Encode Mapper originally written in Perl http search.cpan.org dist Encode-Mapper Encode.Arabic.ArabTeX Encode.Arabic.ArabTeX.ZDMG",
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "Mapper",
           "package": "Encode",
@@ -1925,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "Mapper",
           "package": "Encode",
@@ -1933,6 +2104,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "Mapper",
           "package": "Encode",
@@ -1946,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "Quit",
           "package": "Encode",
@@ -1954,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "Quit",
           "package": "Encode",
@@ -1967,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "(|+|)",
           "package": "Encode",
@@ -1976,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "(|+|) |+|",
           "normalized": "Mapper a b-\u003eMapper a b-\u003eMapper a b",
@@ -1990,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "(|-|)",
           "package": "Encode",
@@ -1999,6 +2176,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "(|-|) |-|",
           "normalized": "[a]-\u003e[a]-\u003eb-\u003eMapper a(Quit a b)",
@@ -2013,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "(|.|)",
           "package": "Encode",
@@ -2022,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "(|.|) |.|",
           "normalized": "[a]-\u003eb-\u003eMapper a(Quit a b)",
@@ -2036,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "(|:|)",
           "package": "Encode",
@@ -2045,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "(|:|) |:|",
           "normalized": "(a-\u003eMapper b(Quit b a))-\u003ea-\u003eMapper b(Quit b a)",
@@ -2059,6 +2241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "(\u003c-\u003e)",
           "package": "Encode",
@@ -2068,6 +2251,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "(\u003c-\u003e) \u003c-\u003e",
           "normalized": "a b-\u003ec-\u003ea([d],c)",
@@ -2082,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "(\u003c.\u003e)",
           "package": "Encode",
@@ -2091,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "(\u003c.\u003e) \u003c.\u003e",
           "normalized": "a b-\u003ea c-\u003ea c",
@@ -2105,6 +2291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "anySymbol",
           "package": "Encode",
@@ -2114,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "anySymbol",
           "normalized": "[a]-\u003eb a",
@@ -2129,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "initPD",
           "package": "Encode",
@@ -2138,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "initPD",
           "normalized": "Mapper a(Quit a b)-\u003e([b]-\u003e[b])-\u003eParseDeep a b",
@@ -2153,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "initPW",
           "package": "Encode",
@@ -2162,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "initPW",
           "normalized": "Mapper a(Quit a b)-\u003e([b]-\u003e[b])-\u003eParseWide a b",
@@ -2177,6 +2369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "lastPD",
           "package": "Encode",
@@ -2186,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "lastPD",
           "normalized": "[ParseDeep a b]-\u003eParseDeep a b-\u003e[ParseDeep a b]",
@@ -2201,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "lastPW",
           "package": "Encode",
@@ -2210,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "lastPW",
           "normalized": "[ParseWide a b]-\u003eParseWide a b-\u003e[ParseWide a b]",
@@ -2225,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "others",
           "package": "Encode",
@@ -2234,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "others",
           "normalized": "Mapper a b-\u003e(a-\u003eMaybe(Mapper a b))-\u003eMapper a b",
@@ -2248,6 +2446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "parseDeep",
           "package": "Encode",
@@ -2257,6 +2456,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "parseDeep",
           "normalized": "Mapper a(Quit a b)-\u003e[ParseDeep a b]-\u003e[a]-\u003e[ParseDeep a b]",
@@ -2272,6 +2472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "parseLongest",
           "package": "Encode",
@@ -2281,6 +2482,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "parseLongest",
           "normalized": "Mapper a(Quit a b)-\u003e[a]-\u003e[b]",
@@ -2296,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "parseLongestCheck",
           "package": "Encode",
@@ -2305,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "parseLongestCheck",
           "normalized": "Mapper a(Quit a b)-\u003e[a]-\u003e[b]",
@@ -2320,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "parseLongestCheckWith",
           "package": "Encode",
@@ -2329,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "parseLongestCheckWith",
           "normalized": "([[[a]]]-\u003e[b])-\u003eMapper c(Quit c a)-\u003e[c]-\u003e[b]",
@@ -2344,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "parseLongestDeep",
           "package": "Encode",
@@ -2353,6 +2560,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "parseLongestDeep",
           "normalized": "Mapper a(Quit a b)-\u003e[a]-\u003e[b]",
@@ -2368,6 +2576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "parseLongestDeepWith",
           "package": "Encode",
@@ -2377,6 +2586,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "parseLongestDeepWith",
           "normalized": "([[[a]]]-\u003e[b])-\u003eMapper c(Quit c a)-\u003e[c]-\u003e[b]",
@@ -2392,6 +2602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "parseLongestWide",
           "package": "Encode",
@@ -2401,6 +2612,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "parseLongestWide",
           "normalized": "Mapper a(Quit a b)-\u003e[a]-\u003e[b]",
@@ -2416,6 +2628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "parseLongestWideWith",
           "package": "Encode",
@@ -2425,6 +2638,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "parseLongestWideWith",
           "normalized": "([[[a]]]-\u003e[b])-\u003eMapper c(Quit c a)-\u003e[c]-\u003e[b]",
@@ -2440,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "parseLongestWith",
           "package": "Encode",
@@ -2449,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "parseLongestWith",
           "normalized": "([[[a]]]-\u003e[b])-\u003eMapper c(Quit c a)-\u003e[c]-\u003e[b]",
@@ -2464,6 +2680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "parseWide",
           "package": "Encode",
@@ -2473,6 +2690,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "parseWide",
           "normalized": "Mapper a(Quit a b)-\u003e[ParseWide a b]-\u003e[a]-\u003e[ParseWide a b]",
@@ -2488,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "some",
           "package": "Encode",
@@ -2497,6 +2716,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "some",
           "normalized": "a b-\u003ea[b]",
@@ -2511,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "unParseDeep",
           "package": "Encode",
@@ -2520,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "unParseDeep",
           "normalized": "Mapper a(Quit a b)-\u003e[ParseDeep a b]-\u003e[[[b]]]",
@@ -2535,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Mapper",
           "name": "unParseWide",
           "package": "Encode",
@@ -2544,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "Encode Mapper",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Mapper",
           "name": "unParseWide",
           "normalized": "Mapper a(Quit a b)-\u003e[ParseWide a b]-\u003e[[[b]]]",
@@ -2560,6 +2784,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModified version of John Meacham's \u003ca\u003ehttp://repetae.net/repos/jhc/UTF8.hs\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Unicode.UTF8",
           "name": "UTF8",
           "package": "Encode",
@@ -2569,6 +2794,7 @@
         "index": {
           "description": "Modified version of John Meacham http repetae.net repos jhc UTF8.hs",
           "hierarchy": "Encode Unicode UTF8",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Unicode.UTF8",
           "name": "UTF8",
           "package": "Encode",
@@ -2582,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Unicode.UTF8",
           "name": "UTF8",
           "package": "Encode",
@@ -2590,6 +2817,7 @@
         },
         "index": {
           "hierarchy": "Encode Unicode UTF8",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Unicode.UTF8",
           "name": "UTF8",
           "package": "Encode",
@@ -2603,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Unicode.UTF8",
           "name": "UTF",
           "package": "Encode",
@@ -2612,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "Encode Unicode UTF8",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Unicode.UTF8",
           "name": "UTF",
           "package": "Encode",
@@ -2625,6 +2855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Unicode.UTF8",
           "name": "UTF8",
           "package": "Encode",
@@ -2634,6 +2865,7 @@
         },
         "index": {
           "hierarchy": "Encode Unicode UTF8",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Unicode.UTF8",
           "name": "UTF8",
           "package": "Encode",
@@ -2648,6 +2880,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Haskell analogy to the \u003cem\u003eEncode::Unicode\u003c/em\u003e module in Perl:\n \u003ca\u003ehttp://search.cpan.org/dist/Encode/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eEncode.Unicode.UTF8\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Unicode",
           "name": "Unicode",
           "package": "Encode",
@@ -2657,6 +2890,7 @@
         "index": {
           "description": "The Haskell analogy to the Encode Unicode module in Perl http search.cpan.org dist Encode Encode.Unicode.UTF8",
           "hierarchy": "Encode Unicode",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Unicode",
           "name": "Unicode",
           "package": "Encode",
@@ -2670,6 +2904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Unicode",
           "name": "Unicode",
           "package": "Encode",
@@ -2678,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Encode Unicode",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Unicode",
           "name": "Unicode",
           "package": "Encode",
@@ -2691,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Unicode",
           "name": "UCS",
           "package": "Encode",
@@ -2700,6 +2937,7 @@
         },
         "index": {
           "hierarchy": "Encode Unicode",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Unicode",
           "name": "UCS",
           "package": "Encode",
@@ -2713,6 +2951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Unicode",
           "name": "Unicode",
           "package": "Encode",
@@ -2722,6 +2961,7 @@
         },
         "index": {
           "hierarchy": "Encode Unicode",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Unicode",
           "name": "Unicode",
           "package": "Encode",
@@ -2736,6 +2976,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExports the \u003ccode\u003e\u003ca\u003eversion\u003c/a\u003e\u003c/code\u003e of the \u003ca\u003eEncode\u003c/a\u003e library and provides support\n for working with the SVN/CVS revision keyword. The \u003ccode\u003e\u003ca\u003erevised\u003c/a\u003e\u003c/code\u003e method\n parses the '$Revision ... $' string supplied to it. Results have the\n type \u003ccode\u003e\u003ca\u003eVersion\u003c/a\u003e\u003c/code\u003e of the \u003ca\u003eData.Version\u003c/a\u003e module, which is exported, too.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Version",
           "name": "Version",
           "package": "Encode",
@@ -2745,6 +2986,7 @@
         "index": {
           "description": "Exports the version of the Encode library and provides support for working with the SVN CVS revision keyword The revised method parses the Revision string supplied to it Results have the type Version of the Data.Version module which is exported too",
           "hierarchy": "Encode Version",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Version",
           "name": "Version",
           "package": "Encode",
@@ -2758,6 +3000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Version",
           "name": "revised",
           "package": "Encode",
@@ -2767,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "Encode Version",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Version",
           "name": "revised",
           "normalized": "String-\u003eVersion",
@@ -2781,6 +3025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Version",
           "name": "showPretty",
           "package": "Encode",
@@ -2790,6 +3035,7 @@
         },
         "index": {
           "hierarchy": "Encode Version",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Version",
           "name": "showPretty",
           "normalized": "Version-\u003eString",
@@ -2805,6 +3051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode.Version",
           "name": "version",
           "package": "Encode",
@@ -2814,6 +3061,7 @@
         },
         "index": {
           "hierarchy": "Encode Version",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode.Version",
           "name": "version",
           "package": "Encode",
@@ -2827,6 +3075,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Haskell analogy to the \u003cem\u003eEncode\u003c/em\u003e module in Perl:\n \u003ca\u003ehttp://search.cpan.org/dist/Encode/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eEncode.Arabic\u003c/a\u003e \u003ca\u003eEncode.Mapper\u003c/a\u003e \u003ca\u003eEncode.Unicode\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode",
           "name": "Encode",
           "package": "Encode",
@@ -2836,6 +3085,7 @@
         "index": {
           "description": "The Haskell analogy to the Encode module in Perl http search.cpan.org dist Encode Encode.Arabic Encode.Mapper Encode.Unicode",
           "hierarchy": "Encode",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode",
           "name": "Encode",
           "package": "Encode",
@@ -2850,6 +3100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eCSpace\u003c/a\u003e\u003c/code\u003e type denotes the code space, and it is a synonym to \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode",
           "name": "CSpace",
           "package": "Encode",
@@ -2859,6 +3110,7 @@
         "index": {
           "description": "The CSpace type denotes the code space and it is synonym to Word",
           "hierarchy": "Encode",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode",
           "name": "CSpace",
           "package": "Encode",
@@ -2873,6 +3125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncodings are represented as distinct datatypes of the \u003ccode\u003e\u003ca\u003eEncoding\u003c/a\u003e\u003c/code\u003e class,\n   which defines two essential methods:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e turning a list of 'internal code points' into a \u003ccode\u003eString\u003c/code\u003e, and\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e converting the lists in the opposite direction.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eDeveloping a new encoding means to write a new module with a structure\n   similar to this:\n\u003c/p\u003e\u003cpre\u003e\n    module \u003cem\u003eMyEncModule\u003c/em\u003e (\u003cem\u003eMyEncType\u003c/em\u003e (..)) where\n \u003cem\u003e  \u003c/em\u003e\n    import \u003ca\u003eEncode\u003c/a\u003e\n \u003cem\u003e  \u003c/em\u003e\n    data \u003cem\u003eMyEncType\u003c/em\u003e = \u003cem\u003eMyEncName | MyEncAlias deriving (Enum, Show)\u003c/em\u003e\n \u003cem\u003e  \u003c/em\u003e\n    instance \u003ccode\u003e\u003ca\u003eEncoding\u003c/a\u003e\u003c/code\u003e \u003cem\u003eMyEncType\u003c/em\u003e where\n \u003cem\u003e  \u003c/em\u003e\n        \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e \u003cem\u003eenc data\u003c/em\u003e = \u003cem\u003eshow data\u003c/em\u003e         \u003cem\u003e-- your choices ...\u003c/em\u003e\n \u003cem\u003e  \u003c/em\u003e\n        \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003e \u003cem\u003eenc data\u003c/em\u003e = \u003cem\u003emap (toEnum . fromEnum) data\u003c/em\u003e\n\u003c/pre\u003e\u003cp\u003e\u003ca\u003eEncode.Unicode.UTF8\u003c/a\u003e is one concrete implementation that realizes\n   and illustrates this template. \u003ca\u003eEncode.Arabic.Buckwalter\u003c/a\u003e implements\n   symmetric recoding using finite maps, and \u003ca\u003eEncode.Arabic.ArabTeX\u003c/a\u003e\n   makes use of monadic parsing and the \u003ca\u003ePureFP\u003c/a\u003e library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode",
           "name": "Encoding",
           "package": "Encode",
@@ -2882,6 +3135,7 @@
         "index": {
           "description": "Encodings are represented as distinct datatypes of the Encoding class which defines two essential methods encode turning list of internal code points into String and decode converting the lists in the opposite direction Developing new encoding means to write new module with structure similar to this module MyEncModule MyEncType where import Encode data MyEncType MyEncName MyEncAlias deriving Enum Show instance Encoding MyEncType where encode enc data show data your choices decode enc data map toEnum fromEnum data Encode.Unicode.UTF8 is one concrete implementation that realizes and illustrates this template Encode.Arabic.Buckwalter implements symmetric recoding using finite maps and Encode.Arabic.ArabTeX makes use of monadic parsing and the PureFP library",
           "hierarchy": "Encode",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode",
           "name": "Encoding",
           "package": "Encode",
@@ -2896,6 +3150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe datatype introduced for the internal representation of Unicode code\n   points is currently defined as \u003ccode\u003enewtype \u003ccode\u003e\u003ca\u003eUPoint\u003c/a\u003e\u003c/code\u003e = UPoint CSpace\u003c/code\u003e. The\n   shift to code points \u003ccode\u003eUPoint\u003c/code\u003e from characters \u003ccode\u003eChar\u003c/code\u003e is intentional, as\n   Unicode support in Haskell is not yet fully implemented, and code points\n   are, anyway, different entities. Since the \u003ccode\u003e\u003ca\u003eUPoint\u003c/a\u003e\u003c/code\u003e type is an instance\n   of the \u003ccode\u003eEnum\u003c/code\u003e class, the type's constructor and destructor functions are\n   available as \u003ccode\u003e\u003ca\u003etoEnum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efromEnum\u003c/a\u003e\u003c/code\u003e, respectively.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eUPoint\u003c/a\u003e\u003c/code\u003e datatype should be the transfer point on the way from one\n   encoding into another. It should not be the terminal stop, though. The\n   \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e method should be used systematically, and not \u003ccode\u003eshow\u003c/code\u003e, even if\n   it might temporarily produce somehow appealing results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode",
           "name": "UPoint",
           "package": "Encode",
@@ -2905,6 +3160,7 @@
         "index": {
           "description": "The datatype introduced for the internal representation of Unicode code points is currently defined as newtype UPoint UPoint CSpace The shift to code points UPoint from characters Char is intentional as Unicode support in Haskell is not yet fully implemented and code points are anyway different entities Since the UPoint type is an instance of the Enum class the type constructor and destructor functions are available as toEnum and fromEnum respectively The UPoint datatype should be the transfer point on the way from one encoding into another It should not be the terminal stop though The encode method should be used systematically and not show even if it might temporarily produce somehow appealing results",
           "hierarchy": "Encode",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode",
           "name": "UPoint",
           "package": "Encode",
@@ -2918,6 +3174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode",
           "name": "decode",
           "package": "Encode",
@@ -2927,6 +3184,7 @@
         },
         "index": {
           "hierarchy": "Encode",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode",
           "name": "decode",
           "normalized": "a-\u003e[Char]-\u003e[UPoint]",
@@ -2941,6 +3199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Encode",
           "name": "encode",
           "package": "Encode",
@@ -2950,6 +3209,7 @@
         },
         "index": {
           "hierarchy": "Encode",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Encode",
           "name": "encode",
           "normalized": "a-\u003e[UPoint]-\u003e[Char]",
@@ -2965,6 +3225,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the \u003cem\u003eParsek\u003c/em\u003e library developed by Koen Claessen in his\n functional pearl article \u003cem\u003eParallel Parsing Processes\u003c/em\u003e, Journal of Functional\n Programming, 14(6), 741&#150;757, Cambridge University Press, 2004:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.cse.chalmers.se/edu/course/afp/Papers/parser-claessen.pdf\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eCopyright (C) 2003  Koen Claessen\n\u003c/p\u003e\u003cp\u003eThis program is free software; you can redistribute it and/or modify\n   it under the terms of the GNU General Public License as published by\n   the Free Software Foundation; either version 2 of the License, or\n   (at your option) any later version.\n\u003c/p\u003e\u003cp\u003eThis program is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\u003c/p\u003e\u003cp\u003eYou should have received a copy of the GNU General Public License along\n   with this program; if not, write to the Free Software Foundation, Inc.,\n   51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ePureFP.Parsers.Stream\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "Parsek",
           "package": "Encode",
@@ -2974,6 +3235,7 @@
         "index": {
           "description": "This module provides the Parsek library developed by Koen Claessen in his functional pearl article Parallel Parsing Processes Journal of Functional Programming Cambridge University Press http www.cse.chalmers.se edu course afp Papers parser-claessen.pdf Copyright Koen Claessen This program is free software you can redistribute it and or modify it under the terms of the GNU General Public License as published by the Free Software Foundation either version of the License or at your option any later version This program is distributed in the hope that it will be useful but WITHOUT ANY WARRANTY without even the implied warranty of MERCHANTABILITY or FITNESS FOR PARTICULAR PURPOSE See the GNU General Public License for more details You should have received copy of the GNU General Public License along with this program if not write to the Free Software Foundation Inc Franklin Street Fifth Floor Boston MA USA PureFP.Parsers.Stream",
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "Parsek",
           "package": "Encode",
@@ -2987,6 +3249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "Expect",
           "package": "Encode",
@@ -2995,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "Expect",
           "package": "Encode",
@@ -3008,6 +3272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "ParseMethod",
           "package": "Encode",
@@ -3016,6 +3281,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "ParseMethod",
           "package": "Encode",
@@ -3029,6 +3295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "ParseResult",
           "package": "Encode",
@@ -3037,6 +3304,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "ParseResult",
           "package": "Encode",
@@ -3050,6 +3318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "Parser",
           "package": "Encode",
@@ -3058,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "Parser",
           "package": "Encode",
@@ -3071,6 +3341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "Unexpect",
           "package": "Encode",
@@ -3079,6 +3350,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "Unexpect",
           "package": "Encode",
@@ -3092,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "(\u003c|\u003e)",
           "package": "Encode",
@@ -3101,6 +3374,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "Parser a b-\u003eParser a b-\u003eParser a b",
@@ -3115,6 +3389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "(\u003c\u003c|\u003e)",
           "package": "Encode",
@@ -3124,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "(\u003c\u003c|\u003e) \u003c\u003c|\u003e",
           "normalized": "Parser a b-\u003eParser a b-\u003eParser a b",
@@ -3138,6 +3414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "(\u003c?\u003e)",
           "package": "Encode",
@@ -3147,6 +3424,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "(\u003c?\u003e) \u003c?\u003e",
           "normalized": "Parser a b-\u003eString-\u003eParser a b",
@@ -3161,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "allResults",
           "package": "Encode",
@@ -3170,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "allResults",
           "normalized": "ParseMethod a b(Maybe a)[b]",
@@ -3185,6 +3465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "allResultsStaged",
           "package": "Encode",
@@ -3194,6 +3475,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "allResultsStaged",
           "normalized": "ParseMethod a b(Maybe a)[[b]]",
@@ -3209,6 +3491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "allResultsWithLeftover",
           "package": "Encode",
@@ -3218,6 +3501,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "allResultsWithLeftover",
           "normalized": "ParseMethod a b(Maybe a)[(b,[a])]",
@@ -3233,6 +3517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "alphaNum",
           "package": "Encode",
@@ -3242,6 +3527,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "alphaNum",
           "package": "Encode",
@@ -3255,6 +3541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "anyChar",
           "package": "Encode",
@@ -3264,6 +3551,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "anyChar",
           "package": "Encode",
@@ -3277,6 +3565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "anySymbol",
           "package": "Encode",
@@ -3286,6 +3575,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "anySymbol",
           "package": "Encode",
@@ -3299,6 +3589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "between",
           "package": "Encode",
@@ -3308,6 +3599,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "between",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a d-\u003eParser a d",
@@ -3322,6 +3614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "chainl",
           "package": "Encode",
@@ -3331,6 +3624,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "chainl",
           "normalized": "Parser a b-\u003eParser a(b-\u003eb-\u003eb)-\u003eb-\u003eParser a b",
@@ -3345,6 +3639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "chainl1",
           "package": "Encode",
@@ -3354,6 +3649,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "chainl1",
           "normalized": "Parser a b-\u003eParser a(b-\u003eb-\u003eb)-\u003eParser a b",
@@ -3368,6 +3664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "chainr",
           "package": "Encode",
@@ -3377,6 +3674,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "chainr",
           "normalized": "Parser a b-\u003eParser a(b-\u003eb-\u003eb)-\u003eb-\u003eParser a b",
@@ -3391,6 +3689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "chainr1",
           "package": "Encode",
@@ -3400,6 +3699,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "chainr1",
           "normalized": "Parser a b-\u003eParser a(b-\u003eb-\u003eb)-\u003eParser a b",
@@ -3414,6 +3714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "char",
           "package": "Encode",
@@ -3423,6 +3724,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "char",
           "normalized": "a-\u003eParser a a",
@@ -3437,6 +3739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "choice",
           "package": "Encode",
@@ -3446,6 +3749,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "choice",
           "normalized": "[Parser a b]-\u003eParser a b",
@@ -3460,6 +3764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "completeResults",
           "package": "Encode",
@@ -3469,6 +3774,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "completeResults",
           "normalized": "ParseMethod a b(Maybe a)[b]",
@@ -3484,6 +3790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "completeResultsWithLine",
           "package": "Encode",
@@ -3493,6 +3800,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "completeResultsWithLine",
           "normalized": "ParseMethod Char a Int[a]",
@@ -3508,6 +3816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "count",
           "package": "Encode",
@@ -3517,6 +3826,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "count",
           "normalized": "Int-\u003eParser a b-\u003eParser a[b]",
@@ -3531,6 +3841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "digit",
           "package": "Encode",
@@ -3540,6 +3851,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "digit",
           "package": "Encode",
@@ -3552,6 +3864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "hexDigit",
           "package": "Encode",
@@ -3561,6 +3874,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "hexDigit",
           "package": "Encode",
@@ -3574,6 +3888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "label",
           "package": "Encode",
@@ -3583,6 +3898,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "label",
           "normalized": "Parser a b-\u003eString-\u003eParser a b",
@@ -3597,6 +3913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "letter",
           "package": "Encode",
@@ -3606,6 +3923,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "letter",
           "package": "Encode",
@@ -3618,6 +3936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "longestResult",
           "package": "Encode",
@@ -3627,6 +3946,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "longestResult",
           "package": "Encode",
@@ -3640,6 +3960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "longestResultWithLeftover",
           "package": "Encode",
@@ -3649,6 +3970,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "longestResultWithLeftover",
           "normalized": "ParseMethod a b(Maybe a)(b,[a])",
@@ -3664,6 +3986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "longestResults",
           "package": "Encode",
@@ -3673,6 +3996,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "longestResults",
           "normalized": "ParseMethod a b(Maybe a)[b]",
@@ -3688,6 +4012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "longestResultsWithLeftover",
           "package": "Encode",
@@ -3697,6 +4022,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "longestResultsWithLeftover",
           "normalized": "ParseMethod a b(Maybe a)([b],Maybe[a])",
@@ -3712,6 +4038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "look",
           "package": "Encode",
@@ -3721,6 +4048,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "look",
           "normalized": "Parser a[a]",
@@ -3735,6 +4063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "lower",
           "package": "Encode",
@@ -3744,6 +4073,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "lower",
           "package": "Encode",
@@ -3756,6 +4086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "many",
           "package": "Encode",
@@ -3765,6 +4096,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "many",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -3779,6 +4111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "many1",
           "package": "Encode",
@@ -3788,6 +4121,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "many1",
           "normalized": "Parser a b-\u003eParser a[b]",
@@ -3802,6 +4136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "munch",
           "package": "Encode",
@@ -3811,6 +4146,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "munch",
           "normalized": "(a-\u003eBool)-\u003eParser a[a]",
@@ -3825,6 +4161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "munch1",
           "package": "Encode",
@@ -3834,6 +4171,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "munch1",
           "normalized": "(a-\u003eBool)-\u003eParser a[a]",
@@ -3848,6 +4186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "newline",
           "package": "Encode",
@@ -3857,6 +4196,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "newline",
           "package": "Encode",
@@ -3869,6 +4209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "noneOf",
           "package": "Encode",
@@ -3878,6 +4219,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "noneOf",
           "normalized": "[a]-\u003eParser a a",
@@ -3893,6 +4235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "octDigit",
           "package": "Encode",
@@ -3902,6 +4245,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "octDigit",
           "package": "Encode",
@@ -3915,6 +4259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "oneOf",
           "package": "Encode",
@@ -3924,6 +4269,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "oneOf",
           "normalized": "[a]-\u003eParser a a",
@@ -3939,6 +4285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "option",
           "package": "Encode",
@@ -3948,6 +4295,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "option",
           "normalized": "a-\u003eParser b a-\u003eParser b a",
@@ -3962,6 +4310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "optional",
           "package": "Encode",
@@ -3971,6 +4320,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "optional",
           "normalized": "Parser a b-\u003eParser a()",
@@ -3985,6 +4335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "parse",
           "package": "Encode",
@@ -3994,6 +4345,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "parse",
           "normalized": "Parser a b-\u003eParseMethod a b c d-\u003e[a]-\u003eParseResult c d",
@@ -4008,6 +4360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "parseFromFile",
           "package": "Encode",
@@ -4017,6 +4370,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "parseFromFile",
           "normalized": "Parser Char a-\u003eParseMethod Char a b c-\u003eFilePath-\u003eIO(ParseResult b c)",
@@ -4032,6 +4386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "pzero",
           "package": "Encode",
@@ -4041,6 +4396,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "pzero",
           "package": "Encode",
@@ -4053,6 +4409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "satisfy",
           "package": "Encode",
@@ -4062,6 +4419,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "satisfy",
           "normalized": "(a-\u003eBool)-\u003eParser a a",
@@ -4076,6 +4434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "sepBy",
           "package": "Encode",
@@ -4085,6 +4444,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "sepBy",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a[b]",
@@ -4100,6 +4460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "sepBy1",
           "package": "Encode",
@@ -4109,6 +4470,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "sepBy1",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a[b]",
@@ -4124,6 +4486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "shortestResult",
           "package": "Encode",
@@ -4133,6 +4496,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "shortestResult",
           "package": "Encode",
@@ -4146,6 +4510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "shortestResultWithLeftover",
           "package": "Encode",
@@ -4155,6 +4520,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "shortestResultWithLeftover",
           "normalized": "ParseMethod a b(Maybe a)(b,[a])",
@@ -4170,6 +4536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "skipMany",
           "package": "Encode",
@@ -4179,6 +4546,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "skipMany",
           "normalized": "Parser a b-\u003eParser a()",
@@ -4194,6 +4562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "skipMany1",
           "package": "Encode",
@@ -4203,6 +4572,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "skipMany1",
           "normalized": "Parser a b-\u003eParser a()",
@@ -4218,6 +4588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "space",
           "package": "Encode",
@@ -4227,6 +4598,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "space",
           "package": "Encode",
@@ -4239,6 +4611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "spaces",
           "package": "Encode",
@@ -4248,6 +4621,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "spaces",
           "normalized": "Parser Char()",
@@ -4262,6 +4636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "string",
           "package": "Encode",
@@ -4271,6 +4646,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "string",
           "normalized": "[a]-\u003eParser a[a]",
@@ -4285,6 +4661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "succeeds",
           "package": "Encode",
@@ -4294,6 +4671,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "succeeds",
           "normalized": "Parser a b-\u003eParser a(Maybe b)",
@@ -4308,6 +4686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "tab",
           "package": "Encode",
@@ -4317,6 +4696,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "tab",
           "package": "Encode",
@@ -4329,6 +4709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "try",
           "package": "Encode",
@@ -4338,6 +4719,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "try",
           "normalized": "Parser a b-\u003eParser a b",
@@ -4352,6 +4734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "Parsek",
           "name": "upper",
           "package": "Encode",
@@ -4361,6 +4744,7 @@
         },
         "index": {
           "hierarchy": "Parsek",
+          "indexed": "2014-03-11T16:40:02",
           "module": "Parsek",
           "name": "upper",
           "package": "Encode",
@@ -4374,6 +4758,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eChapter 1 and Appendix A of /Pure Functional Parsing &#150; an advanced\n tutorial/ by Peter Ljungl&#246;f\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/pubs/p02-lic-thesis.pdf\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdMap",
           "name": "OrdMap",
           "package": "Encode",
@@ -4383,6 +4768,7 @@
         "index": {
           "description": "Chapter and Appendix of Pure Functional Parsing an advanced tutorial by Peter Ljungl http www.ling.gu.se peb pubs p02-lic-thesis.pdf",
           "hierarchy": "PureFP OrdMap",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdMap",
           "name": "OrdMap",
           "package": "Encode",
@@ -4396,6 +4782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdMap",
           "name": "Map",
           "package": "Encode",
@@ -4404,6 +4791,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdMap",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdMap",
           "name": "Map",
           "package": "Encode",
@@ -4417,6 +4805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdMap",
           "name": "OrdMap",
           "package": "Encode",
@@ -4425,6 +4814,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdMap",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdMap",
           "name": "OrdMap",
           "package": "Encode",
@@ -4438,6 +4828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdMap",
           "name": "(|-\u003e)",
           "package": "Encode",
@@ -4447,6 +4838,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdMap",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdMap",
           "name": "(|-\u003e) |-\u003e",
           "normalized": "a-\u003eb-\u003ec a b",
@@ -4461,6 +4853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdMap",
           "name": "(?)",
           "package": "Encode",
@@ -4470,6 +4863,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdMap",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdMap",
           "name": "(?) ?",
           "normalized": "a b c-\u003eb-\u003eMaybe c",
@@ -4484,6 +4878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdMap",
           "name": "assocs",
           "package": "Encode",
@@ -4493,6 +4888,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdMap",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdMap",
           "name": "assocs",
           "normalized": "a b c-\u003e[(b,c)]",
@@ -4507,6 +4903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdMap",
           "name": "emptyMap",
           "package": "Encode",
@@ -4516,6 +4913,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdMap",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdMap",
           "name": "emptyMap",
           "package": "Encode",
@@ -4529,6 +4927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdMap",
           "name": "isEmptyMap",
           "package": "Encode",
@@ -4538,6 +4937,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdMap",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdMap",
           "name": "isEmptyMap",
           "normalized": "a b c-\u003eBool",
@@ -4553,6 +4953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdMap",
           "name": "lookupWith",
           "package": "Encode",
@@ -4562,6 +4963,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdMap",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdMap",
           "name": "lookupWith",
           "normalized": "a-\u003eb c a-\u003ec-\u003ea",
@@ -4577,6 +4979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdMap",
           "name": "makeMapWith",
           "package": "Encode",
@@ -4586,6 +4989,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdMap",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdMap",
           "name": "makeMapWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(b,a)]-\u003ec b a",
@@ -4601,6 +5005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdMap",
           "name": "mapMap",
           "package": "Encode",
@@ -4610,6 +5015,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdMap",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdMap",
           "name": "mapMap",
           "normalized": "(a-\u003eb)-\u003ec d a-\u003ec d b",
@@ -4625,6 +5031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdMap",
           "name": "mapMapWithKey",
           "package": "Encode",
@@ -4634,6 +5041,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdMap",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdMap",
           "name": "mapMapWithKey",
           "normalized": "(a-\u003eb-\u003ec)-\u003eMap a b-\u003eMap a c",
@@ -4649,6 +5057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdMap",
           "name": "mergeWith",
           "package": "Encode",
@@ -4658,6 +5067,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdMap",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdMap",
           "name": "mergeWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb c a-\u003eb c a-\u003eb c a",
@@ -4673,6 +5083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdMap",
           "name": "ordMap",
           "package": "Encode",
@@ -4682,6 +5093,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdMap",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdMap",
           "name": "ordMap",
           "normalized": "[(a,b)]-\u003ec a b",
@@ -4697,6 +5109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdMap",
           "name": "unionMapWith",
           "package": "Encode",
@@ -4706,6 +5119,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdMap",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdMap",
           "name": "unionMapWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[b c a]-\u003eb c a",
@@ -4722,6 +5136,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eChapter 1 and Appendix A of /Pure Functional Parsing &#150; an advanced\n tutorial/ by Peter Ljungl&#246;f\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/pubs/p02-lic-thesis.pdf\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdSet",
           "name": "OrdSet",
           "package": "Encode",
@@ -4731,6 +5146,7 @@
         "index": {
           "description": "Chapter and Appendix of Pure Functional Parsing an advanced tutorial by Peter Ljungl http www.ling.gu.se peb pubs p02-lic-thesis.pdf",
           "hierarchy": "PureFP OrdSet",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdSet",
           "name": "OrdSet",
           "package": "Encode",
@@ -4744,6 +5160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdSet",
           "name": "OrdSet",
           "package": "Encode",
@@ -4752,6 +5169,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdSet",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdSet",
           "name": "OrdSet",
           "package": "Encode",
@@ -4765,6 +5183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdSet",
           "name": "Set",
           "package": "Encode",
@@ -4773,6 +5192,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdSet",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdSet",
           "name": "Set",
           "package": "Encode",
@@ -4786,6 +5206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdSet",
           "name": "(\u003c++\u003e)",
           "package": "Encode",
@@ -4795,6 +5216,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdSet",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdSet",
           "name": "(\u003c++\u003e) \u003c++\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -4809,6 +5231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdSet",
           "name": "(\u003c\\\\\u003e)",
           "package": "Encode",
@@ -4818,6 +5241,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdSet",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdSet",
           "name": "(\u003c\\\\\u003e) \u003c\\\\\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -4832,6 +5256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdSet",
           "name": "elemSet",
           "package": "Encode",
@@ -4841,6 +5266,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdSet",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdSet",
           "name": "elemSet",
           "normalized": "a-\u003eb a-\u003eBool",
@@ -4856,6 +5282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdSet",
           "name": "elems",
           "package": "Encode",
@@ -4865,6 +5292,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdSet",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdSet",
           "name": "elems",
           "normalized": "a b-\u003e[b]",
@@ -4879,6 +5307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdSet",
           "name": "emptySet",
           "package": "Encode",
@@ -4888,6 +5317,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdSet",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdSet",
           "name": "emptySet",
           "package": "Encode",
@@ -4901,6 +5331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdSet",
           "name": "isEmpty",
           "package": "Encode",
@@ -4910,6 +5341,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdSet",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdSet",
           "name": "isEmpty",
           "normalized": "a b-\u003eBool",
@@ -4925,6 +5357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdSet",
           "name": "limit",
           "package": "Encode",
@@ -4934,6 +5367,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdSet",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdSet",
           "name": "limit",
           "normalized": "(a-\u003eb a)-\u003eb a-\u003eb a",
@@ -4948,6 +5382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdSet",
           "name": "makeSet",
           "package": "Encode",
@@ -4957,6 +5392,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdSet",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdSet",
           "name": "makeSet",
           "normalized": "[a]-\u003eb a",
@@ -4972,6 +5408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdSet",
           "name": "ordSet",
           "package": "Encode",
@@ -4981,6 +5418,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdSet",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdSet",
           "name": "ordSet",
           "normalized": "[a]-\u003eb a",
@@ -4996,6 +5434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdSet",
           "name": "plusMinus",
           "package": "Encode",
@@ -5005,6 +5444,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdSet",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdSet",
           "name": "plusMinus",
           "normalized": "a b-\u003ea b-\u003e(a b,a b)",
@@ -5020,6 +5460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdSet",
           "name": "union",
           "package": "Encode",
@@ -5029,6 +5470,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdSet",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdSet",
           "name": "union",
           "normalized": "[a b]-\u003ea b",
@@ -5043,6 +5485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.OrdSet",
           "name": "unitSet",
           "package": "Encode",
@@ -5052,6 +5495,7 @@
         },
         "index": {
           "hierarchy": "PureFP OrdSet",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.OrdSet",
           "name": "unitSet",
           "normalized": "a-\u003eb a",
@@ -5068,6 +5512,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eChapters 3 and 4 of \u003cem\u003ePure Functional Parsing &#150; an advanced tutorial\u003c/em\u003e\n by Peter Ljungl&#246;f\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/pubs/p02-lic-thesis.pdf\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/software/functional-parsing/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.AmbExTrie",
           "name": "AmbExTrie",
           "package": "Encode",
@@ -5077,6 +5522,7 @@
         "index": {
           "description": "Chapters and of Pure Functional Parsing an advanced tutorial by Peter Ljungl http www.ling.gu.se peb pubs p02-lic-thesis.pdf http www.ling.gu.se peb software functional-parsing",
           "hierarchy": "PureFP Parsers AmbExTrie",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.AmbExTrie",
           "name": "AmbExTrie",
           "package": "Encode",
@@ -5090,6 +5536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.AmbExTrie",
           "name": "AmbExTrie",
           "package": "Encode",
@@ -5098,6 +5545,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers AmbExTrie",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.AmbExTrie",
           "name": "AmbExTrie",
           "package": "Encode",
@@ -5111,6 +5559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.AmbExTrie",
           "name": ":&:",
           "package": "Encode",
@@ -5120,6 +5569,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers AmbExTrie",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.AmbExTrie",
           "name": ":&:",
           "normalized": "[a](Map b(AmbExTrie b a))",
@@ -5134,6 +5584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.AmbExTrie",
           "name": "FMap",
           "package": "Encode",
@@ -5143,6 +5594,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers AmbExTrie",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.AmbExTrie",
           "name": "FMap",
           "normalized": "a b FMap(b-\u003ec)(AmbExTrie d b)",
@@ -5158,6 +5610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.AmbExTrie",
           "name": "unfold",
           "package": "Encode",
@@ -5167,6 +5620,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers AmbExTrie",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.AmbExTrie",
           "name": "unfold",
           "normalized": "(a-\u003eb)-\u003eAmbExTrie c a-\u003eAmbExTrie c b",
@@ -5182,6 +5636,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eChapters 3 and 4 of \u003cem\u003ePure Functional Parsing &#150; an advanced tutorial\u003c/em\u003e\n by Peter Ljungl&#246;f\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/pubs/p02-lic-thesis.pdf\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/software/functional-parsing/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.AmbTrie",
           "name": "AmbTrie",
           "package": "Encode",
@@ -5191,6 +5646,7 @@
         "index": {
           "description": "Chapters and of Pure Functional Parsing an advanced tutorial by Peter Ljungl http www.ling.gu.se peb pubs p02-lic-thesis.pdf http www.ling.gu.se peb software functional-parsing",
           "hierarchy": "PureFP Parsers AmbTrie",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.AmbTrie",
           "name": "AmbTrie",
           "package": "Encode",
@@ -5204,6 +5660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.AmbTrie",
           "name": "AmbTrie",
           "package": "Encode",
@@ -5212,6 +5669,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers AmbTrie",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.AmbTrie",
           "name": "AmbTrie",
           "package": "Encode",
@@ -5225,6 +5683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.AmbTrie",
           "name": ":&:",
           "package": "Encode",
@@ -5234,6 +5693,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers AmbTrie",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.AmbTrie",
           "name": ":&:",
           "normalized": "[a](Map b(AmbTrie b a))",
@@ -5249,6 +5709,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eChapters 3 and 4 of \u003cem\u003ePure Functional Parsing &#150; an advanced tutorial\u003c/em\u003e\n by Peter Ljungl&#246;f\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/pubs/p02-lic-thesis.pdf\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/software/functional-parsing/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.ExTrie",
           "name": "ExTrie",
           "package": "Encode",
@@ -5258,6 +5719,7 @@
         "index": {
           "description": "Chapters and of Pure Functional Parsing an advanced tutorial by Peter Ljungl http www.ling.gu.se peb pubs p02-lic-thesis.pdf http www.ling.gu.se peb software functional-parsing",
           "hierarchy": "PureFP Parsers ExTrie",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.ExTrie",
           "name": "ExTrie",
           "package": "Encode",
@@ -5271,6 +5733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.ExTrie",
           "name": "ExTrie",
           "package": "Encode",
@@ -5279,6 +5742,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers ExTrie",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.ExTrie",
           "name": "ExTrie",
           "package": "Encode",
@@ -5293,6 +5757,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eChapters 3 and 4 of \u003cem\u003ePure Functional Parsing &#150; an advanced tutorial\u003c/em\u003e\n by Peter Ljungl&#246;f\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/pubs/p02-lic-thesis.pdf\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/software/functional-parsing/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.PairTrie",
           "name": "PairTrie",
           "package": "Encode",
@@ -5302,6 +5767,7 @@
         "index": {
           "description": "Chapters and of Pure Functional Parsing an advanced tutorial by Peter Ljungl http www.ling.gu.se peb pubs p02-lic-thesis.pdf http www.ling.gu.se peb software functional-parsing",
           "hierarchy": "PureFP Parsers PairTrie",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.PairTrie",
           "name": "PairTrie",
           "package": "Encode",
@@ -5315,6 +5781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.PairTrie",
           "name": "PairTrie",
           "package": "Encode",
@@ -5323,6 +5790,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers PairTrie",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.PairTrie",
           "name": "PairTrie",
           "package": "Encode",
@@ -5336,6 +5804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.PairTrie",
           "name": "ParserTrie",
           "package": "Encode",
@@ -5344,6 +5813,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers PairTrie",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.PairTrie",
           "name": "ParserTrie",
           "package": "Encode",
@@ -5358,6 +5828,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eChapters 3 and 4 of \u003cem\u003ePure Functional Parsing &#150; an advanced tutorial\u003c/em\u003e\n by Peter Ljungl&#246;f\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/pubs/p02-lic-thesis.pdf\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/software/functional-parsing/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "Parser",
           "package": "Encode",
@@ -5367,6 +5838,7 @@
         "index": {
           "description": "Chapters and of Pure Functional Parsing an advanced tutorial by Peter Ljungl http www.ling.gu.se peb pubs p02-lic-thesis.pdf http www.ling.gu.se peb software functional-parsing",
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "Parser",
           "package": "Encode",
@@ -5380,6 +5852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "InputSymbol",
           "package": "Encode",
@@ -5388,6 +5861,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "InputSymbol",
           "package": "Encode",
@@ -5401,6 +5875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "Lookahead",
           "package": "Encode",
@@ -5409,6 +5884,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "Lookahead",
           "package": "Encode",
@@ -5422,6 +5898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "Monoid",
           "package": "Encode",
@@ -5430,6 +5907,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "Monoid",
           "package": "Encode",
@@ -5443,6 +5921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "Parser",
           "package": "Encode",
@@ -5451,6 +5930,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "Parser",
           "package": "Encode",
@@ -5464,6 +5944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "Sequence",
           "package": "Encode",
@@ -5472,6 +5953,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "Sequence",
           "package": "Encode",
@@ -5485,6 +5967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "Symbol",
           "package": "Encode",
@@ -5493,6 +5976,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "Symbol",
           "package": "Encode",
@@ -5506,6 +5990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "SymbolCont",
           "package": "Encode",
@@ -5514,6 +5999,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "SymbolCont",
           "package": "Encode",
@@ -5527,6 +6013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "(*\u003e)",
           "package": "Encode",
@@ -5536,6 +6023,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "(*\u003e) *\u003e",
           "normalized": "a b-\u003ea c-\u003ea c",
@@ -5550,6 +6038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "(\u003c*\u003e)",
           "package": "Encode",
@@ -5559,6 +6048,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -5573,6 +6063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "(\u003c+\u003e)",
           "package": "Encode",
@@ -5582,6 +6073,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -5596,6 +6088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "(\u003c:\u003e)",
           "package": "Encode",
@@ -5605,6 +6098,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "(\u003c:\u003e) \u003c:\u003e",
           "normalized": "a b-\u003ea[b]-\u003ea[b]",
@@ -5619,6 +6113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "anyof",
           "package": "Encode",
@@ -5628,6 +6123,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "anyof",
           "normalized": "[a b]-\u003ea b",
@@ -5642,6 +6138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "lookahead",
           "package": "Encode",
@@ -5651,6 +6148,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "lookahead",
           "normalized": "([a]-\u003eb c)-\u003eb c",
@@ -5665,6 +6163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "many",
           "package": "Encode",
@@ -5674,6 +6173,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "many",
           "normalized": "a b-\u003ea[b]",
@@ -5688,6 +6188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "many0",
           "package": "Encode",
@@ -5697,6 +6198,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "many0",
           "normalized": "a b-\u003ea()",
@@ -5711,6 +6213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "minSym",
           "package": "Encode",
@@ -5720,6 +6223,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "minSym",
           "package": "Encode",
@@ -5733,6 +6237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "parse",
           "package": "Encode",
@@ -5742,6 +6247,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "parse",
           "normalized": "a b-\u003e[c]-\u003e[([c],b)]",
@@ -5756,6 +6262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "parseFull",
           "package": "Encode",
@@ -5765,6 +6272,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "parseFull",
           "normalized": "a b-\u003e[c]-\u003e[b]",
@@ -5780,6 +6288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "sat",
           "package": "Encode",
@@ -5789,6 +6298,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "sat",
           "normalized": "(a-\u003eBool)-\u003eb a",
@@ -5803,6 +6313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "satCont",
           "package": "Encode",
@@ -5812,6 +6323,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "satCont",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eb c)-\u003eb c",
@@ -5827,6 +6339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "skip",
           "package": "Encode",
@@ -5836,6 +6349,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "skip",
           "package": "Encode",
@@ -5848,6 +6362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "success",
           "package": "Encode",
@@ -5857,6 +6372,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "success",
           "normalized": "a()",
@@ -5871,6 +6387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "sym",
           "package": "Encode",
@@ -5880,6 +6397,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "sym",
           "normalized": "a-\u003eb a",
@@ -5894,6 +6412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "symbols",
           "package": "Encode",
@@ -5903,6 +6422,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "symbols",
           "normalized": "[a]",
@@ -5917,6 +6437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "syms",
           "package": "Encode",
@@ -5926,6 +6447,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "syms",
           "normalized": "[a]-\u003eb[a]",
@@ -5940,6 +6462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "syms0",
           "package": "Encode",
@@ -5949,6 +6472,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "syms0",
           "normalized": "[a]-\u003eb()",
@@ -5963,6 +6487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Parser",
           "name": "zero",
           "package": "Encode",
@@ -5972,6 +6497,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Parser",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Parser",
           "name": "zero",
           "package": "Encode",
@@ -5985,6 +6511,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eChapters 3 and 4 of \u003cem\u003ePure Functional Parsing &#150; an advanced tutorial\u003c/em\u003e\n by Peter Ljungl&#246;f\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/pubs/p02-lic-thesis.pdf\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/software/functional-parsing/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Standard",
           "name": "Standard",
           "package": "Encode",
@@ -5994,6 +6521,7 @@
         "index": {
           "description": "Chapters and of Pure Functional Parsing an advanced tutorial by Peter Ljungl http www.ling.gu.se peb pubs p02-lic-thesis.pdf http www.ling.gu.se peb software functional-parsing",
           "hierarchy": "PureFP Parsers Standard",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Standard",
           "name": "Standard",
           "package": "Encode",
@@ -6007,6 +6535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Standard",
           "name": "Standard",
           "package": "Encode",
@@ -6015,6 +6544,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Standard",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Standard",
           "name": "Standard",
           "package": "Encode",
@@ -6028,6 +6558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Standard",
           "name": "Std",
           "package": "Encode",
@@ -6037,6 +6568,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Standard",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Standard",
           "name": "Std",
           "normalized": "Std([a]-\u003e[([a],b)])",
@@ -6053,6 +6585,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eChapters 3 and 4 of \u003cem\u003ePure Functional Parsing &#150; an advanced tutorial\u003c/em\u003e\n by Peter Ljungl&#246;f\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/pubs/p02-lic-thesis.pdf\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/software/functional-parsing/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003eParsek\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Stream",
           "name": "Stream",
           "package": "Encode",
@@ -6062,6 +6595,7 @@
         "index": {
           "description": "Chapters and of Pure Functional Parsing an advanced tutorial by Peter Ljungl http www.ling.gu.se peb pubs p02-lic-thesis.pdf http www.ling.gu.se peb software functional-parsing Parsek",
           "hierarchy": "PureFP Parsers Stream",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Stream",
           "name": "Stream",
           "package": "Encode",
@@ -6075,6 +6609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Stream",
           "name": "Stream",
           "package": "Encode",
@@ -6083,6 +6618,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Stream",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Stream",
           "name": "Stream",
           "package": "Encode",
@@ -6097,6 +6633,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eChapters 3 and 4 of \u003cem\u003ePure Functional Parsing &#150; an advanced tutorial\u003c/em\u003e\n by Peter Ljungl&#246;f\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/pubs/p02-lic-thesis.pdf\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/software/functional-parsing/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Trie",
           "name": "Trie",
           "package": "Encode",
@@ -6106,6 +6643,7 @@
         "index": {
           "description": "Chapters and of Pure Functional Parsing an advanced tutorial by Peter Ljungl http www.ling.gu.se peb pubs p02-lic-thesis.pdf http www.ling.gu.se peb software functional-parsing",
           "hierarchy": "PureFP Parsers Trie",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Trie",
           "name": "Trie",
           "package": "Encode",
@@ -6119,6 +6657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers.Trie",
           "name": "Trie",
           "package": "Encode",
@@ -6127,6 +6666,7 @@
         },
         "index": {
           "hierarchy": "PureFP Parsers Trie",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers.Trie",
           "name": "Trie",
           "package": "Encode",
@@ -6141,6 +6681,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eChapters 3 and 4 of \u003cem\u003ePure Functional Parsing &#150; an advanced tutorial\u003c/em\u003e\n by Peter Ljungl&#246;f\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/pubs/p02-lic-thesis.pdf\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/software/functional-parsing/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eWith this limited distribution, you can create only some of the parsers\n described in the thesis. These include in particular:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003e\u003ca\u003eStandard\u003c/a\u003e\u003c/code\u003e \u003ccode\u003es\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n      \u003ca\u003ePureFP.Parsers.Standard\u003c/a\u003e,\n      the standard parser, sec. 3.2\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e \u003ccode\u003es\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n      \u003ca\u003ePureFP.Parsers.Stream\u003c/a\u003e,\n      the stream processor parser, sec. 3.5.2\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003e\u003ca\u003eTrie\u003c/a\u003e\u003c/code\u003e \u003ccode\u003es\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n      \u003ca\u003ePureFP.Parsers.Trie\u003c/a\u003e,\n      the trie parser, sec. 4.2.1\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003e\u003ca\u003eAmbTrie\u003c/a\u003e\u003c/code\u003e \u003ccode\u003es\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n      \u003ca\u003ePureFP.Parsers.AmbTrie\u003c/a\u003e,\n      the ambiguous trie parser, sec. 4.2.2\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003e\u003ca\u003eExTrie\u003c/a\u003e\u003c/code\u003e \u003ccode\u003es\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n      \u003ca\u003ePureFP.Parsers.ExTrie\u003c/a\u003e,\n      the extended trie parser, sec. 4.3.3\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003e\u003ca\u003eAmbExTrie\u003c/a\u003e\u003c/code\u003e \u003ccode\u003es\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n      \u003ca\u003ePureFP.Parsers.AmbExTrie\u003c/a\u003e,\n      the ambiguous extended trie parser, sec. 4.3.4\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003e\u003ca\u003ePairTrie\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eStandard\u003c/a\u003e\u003c/code\u003e \u003ccode\u003es\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n      \u003ca\u003ePureFP.Parsers.PairTrie\u003c/a\u003e, together with\n      \u003ca\u003ePureFP.Parsers.Standard\u003c/a\u003e,\n      the paired trie parser, sec. 4.4\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003e\u003ca\u003ePureFP.OrdMap\u003c/a\u003e \u003ca\u003ePureFP.Parsers.Parser\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP.Parsers",
           "name": "Parsers",
           "package": "Encode",
@@ -6150,6 +6691,7 @@
         "index": {
           "description": "Chapters and of Pure Functional Parsing an advanced tutorial by Peter Ljungl http www.ling.gu.se peb pubs p02-lic-thesis.pdf http www.ling.gu.se peb software functional-parsing With this limited distribution you can create only some of the parsers described in the thesis These include in particular Standard PureFP.Parsers.Standard the standard parser sec Stream PureFP.Parsers.Stream the stream processor parser sec Trie PureFP.Parsers.Trie the trie parser sec AmbTrie PureFP.Parsers.AmbTrie the ambiguous trie parser sec ExTrie PureFP.Parsers.ExTrie the extended trie parser sec AmbExTrie PureFP.Parsers.AmbExTrie the ambiguous extended trie parser sec PairTrie Standard PureFP.Parsers.PairTrie together with PureFP.Parsers.Standard the paired trie parser sec PureFP.OrdMap PureFP.Parsers.Parser",
           "hierarchy": "PureFP Parsers",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP.Parsers",
           "name": "Parsers",
           "package": "Encode",
@@ -6164,6 +6706,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library is an edited excerpt from the \u003cem\u003eFunctional Parsing\u003c/em\u003e library\n developed by Peter Ljungl&#246;f in his licenciate thesis /Pure Functional\n Parsing &#150; an advanced tutorial/, G&#246;teborg University and\n Chalmers University of Technology, April 2002:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/pubs/p02-lic-thesis.pdf\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/software.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ling.gu.se/~peb/software/functional-parsing/\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eCopyright (C) 2002  Peter Ljunglof  (C) 2005-2011  Otakar Smrz\n\u003c/p\u003e\u003cp\u003eThis program is free software; you can redistribute it and/or modify\n   it under the terms of the GNU General Public License as published by\n   the Free Software Foundation; either version 2 of the License, or\n   (at your option) any later version.\n\u003c/p\u003e\u003cp\u003eThis program is distributed in the hope that it will be useful,\n   but WITHOUT ANY WARRANTY; without even the implied warranty of\n   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n   GNU General Public License for more details.\n\u003c/p\u003e\u003cp\u003eYou should have received a copy of the GNU General Public License along\n   with this program; if not, write to the Free Software Foundation, Inc.,\n   51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ePureFP.OrdMap\u003c/a\u003e \u003ca\u003ePureFP.OrdSet\u003c/a\u003e \u003ca\u003ePureFP.Parsers\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:40:02 UTC 2014",
           "module": "PureFP",
           "name": "PureFP",
           "package": "Encode",
@@ -6173,6 +6716,7 @@
         "index": {
           "description": "This library is an edited excerpt from the Functional Parsing library developed by Peter Ljungl in his licenciate thesis Pure Functional Parsing an advanced tutorial teborg University and Chalmers University of Technology April http www.ling.gu.se peb pubs p02-lic-thesis.pdf http www.ling.gu.se peb software.html http www.ling.gu.se peb software functional-parsing Copyright Peter Ljunglof Otakar Smrz This program is free software you can redistribute it and or modify it under the terms of the GNU General Public License as published by the Free Software Foundation either version of the License or at your option any later version This program is distributed in the hope that it will be useful but WITHOUT ANY WARRANTY without even the implied warranty of MERCHANTABILITY or FITNESS FOR PARTICULAR PURPOSE See the GNU General Public License for more details You should have received copy of the GNU General Public License along with this program if not write to the Free Software Foundation Inc Franklin Street Fifth Floor Boston MA USA PureFP.OrdMap PureFP.OrdSet PureFP.Parsers",
           "hierarchy": "PureFP",
+          "indexed": "2014-03-11T16:40:02",
           "module": "PureFP",
           "name": "PureFP",
           "package": "Encode",

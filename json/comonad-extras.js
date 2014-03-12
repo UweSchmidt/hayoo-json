@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "comonad-extras"
+        "phrase": "comonad-extras",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe array-backed store (state-in-context/costate) comonad transformer is\n subject to the laws:\n\u003c/p\u003e\u003cpre\u003e x = seek (pos x) x\n y = pos (seek y x)\n seek y x = seek y (seek z x)\n\u003c/pre\u003e\u003cp\u003eThanks go to Russell O'Connor and Daniel Peebles for their help\n formulating and proving the laws for this comonad transformer.\n\u003c/p\u003e\u003cp\u003eThis basic version of this transformer first appeared on Dan Piponi's blog\n at \u003ca\u003ehttp://blog.sigfpe.com/2008/03/comonadic-arrays.html\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eSince this module relies on the non-Haskell 98 \u003ccode\u003earrays\u003c/code\u003e package, it is\n located here instead of in comonad-transformers.\n\u003c/p\u003e\u003cp\u003eNB: attempting to seek or peek out of bounds will yield an error.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:44 UTC 2014",
           "module": "Control.Comonad.Store.Pointer",
           "name": "Pointer",
           "package": "comonad-extras",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The array-backed store state-in-context costate comonad transformer is subject to the laws seek pos pos seek seek seek seek Thanks go to Russell Connor and Daniel Peebles for their help formulating and proving the laws for this comonad transformer This basic version of this transformer first appeared on Dan Piponi blog at http blog.sigfpe.com comonadic-arrays.html Since this module relies on the non-Haskell arrays package it is located here instead of in comonad-transformers NB attempting to seek or peek out of bounds will yield an error",
           "hierarchy": "Control Comonad Store Pointer",
+          "indexed": "2014-03-11T17:36:44",
           "module": "Control.Comonad.Store.Pointer",
           "name": "Pointer",
           "package": "comonad-extras",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:44 UTC 2014",
           "module": "Control.Comonad.Store.Pointer",
           "name": "Pointer",
           "package": "comonad-extras",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Pointer",
+          "indexed": "2014-03-11T17:36:44",
           "module": "Control.Comonad.Store.Pointer",
           "name": "Pointer",
           "package": "comonad-extras",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:44 UTC 2014",
           "module": "Control.Comonad.Store.Pointer",
           "name": "PointerT",
           "package": "comonad-extras",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Pointer",
+          "indexed": "2014-03-11T17:36:44",
           "module": "Control.Comonad.Store.Pointer",
           "name": "PointerT",
           "package": "comonad-extras",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:44 UTC 2014",
           "module": "Control.Comonad.Store.Pointer",
           "name": "PointerT",
           "package": "comonad-extras",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Pointer",
+          "indexed": "2014-03-11T17:36:44",
           "module": "Control.Comonad.Store.Pointer",
           "name": "PointerT",
           "package": "comonad-extras",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:44 UTC 2014",
           "module": "Control.Comonad.Store.Pointer",
           "name": "pointer",
           "package": "comonad-extras",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Pointer",
+          "indexed": "2014-03-11T17:36:44",
           "module": "Control.Comonad.Store.Pointer",
           "name": "pointer",
           "normalized": "Array a b-\u003ea-\u003ePointer a b",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the bounds of the currently focused array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:44 UTC 2014",
           "module": "Control.Comonad.Store.Pointer",
           "name": "pointerBounds",
           "package": "comonad-extras",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Extract the bounds of the currently focused array",
           "hierarchy": "Control Comonad Store Pointer",
+          "indexed": "2014-03-11T17:36:44",
           "module": "Control.Comonad.Store.Pointer",
           "name": "pointerBounds",
           "normalized": "PointerT a b c-\u003e(a,a)",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:44 UTC 2014",
           "module": "Control.Comonad.Store.Pointer",
           "name": "runPointer",
           "package": "comonad-extras",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Pointer",
+          "indexed": "2014-03-11T17:36:44",
           "module": "Control.Comonad.Store.Pointer",
           "name": "runPointer",
           "normalized": "Pointer a b-\u003e(Array a b,a)",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:44 UTC 2014",
           "module": "Control.Comonad.Store.Pointer",
           "name": "runPointerT",
           "package": "comonad-extras",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Pointer",
+          "indexed": "2014-03-11T17:36:44",
           "module": "Control.Comonad.Store.Pointer",
           "name": "runPointerT",
           "normalized": "PointerT a b c-\u003e(b(Array a c),a)",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:44 UTC 2014",
           "module": "Control.Comonad.Store.Zipper",
           "name": "Zipper",
           "package": "comonad-extras",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Zipper",
+          "indexed": "2014-03-11T17:36:44",
           "module": "Control.Comonad.Store.Zipper",
           "name": "Zipper",
           "package": "comonad-extras",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:44 UTC 2014",
           "module": "Control.Comonad.Store.Zipper",
           "name": "Zipper",
           "package": "comonad-extras",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Zipper",
+          "indexed": "2014-03-11T17:36:44",
           "module": "Control.Comonad.Store.Zipper",
           "name": "Zipper",
           "package": "comonad-extras",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:44 UTC 2014",
           "module": "Control.Comonad.Store.Zipper",
           "name": "size",
           "package": "comonad-extras",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Zipper",
+          "indexed": "2014-03-11T17:36:44",
           "module": "Control.Comonad.Store.Zipper",
           "name": "size",
           "normalized": "Zipper a b-\u003eInt",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:44 UTC 2014",
           "module": "Control.Comonad.Store.Zipper",
           "name": "unzipper",
           "package": "comonad-extras",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Zipper",
+          "indexed": "2014-03-11T17:36:44",
           "module": "Control.Comonad.Store.Zipper",
           "name": "unzipper",
           "normalized": "Zipper a b-\u003ea b",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:44 UTC 2014",
           "module": "Control.Comonad.Store.Zipper",
           "name": "zipper",
           "package": "comonad-extras",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Zipper",
+          "indexed": "2014-03-11T17:36:44",
           "module": "Control.Comonad.Store.Zipper",
           "name": "zipper",
           "normalized": "a b-\u003eMaybe(Zipper a b)",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:44 UTC 2014",
           "module": "Control.Comonad.Store.Zipper",
           "name": "zipper1",
           "package": "comonad-extras",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Store Zipper",
+          "indexed": "2014-03-11T17:36:44",
           "module": "Control.Comonad.Store.Zipper",
           "name": "zipper1",
           "normalized": "a b-\u003eZipper a b",

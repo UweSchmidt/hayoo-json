@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yi-contrib"
+        "phrase": "yi-contrib",
+        "type": "phrase"
       },
       "type": "context"
     }

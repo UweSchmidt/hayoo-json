@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "embeddock"
+        "phrase": "embeddock",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:19 UTC 2014",
           "module": "Embeddock",
           "name": "Embeddock",
           "package": "embeddock",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Embeddock",
+          "indexed": "2014-03-11T18:02:19",
           "module": "Embeddock",
           "name": "Embeddock",
           "package": "embeddock",

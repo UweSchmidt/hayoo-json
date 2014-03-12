@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xml2json"
+        "phrase": "xml2json",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "Builder",
           "package": "xml2json",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "Builder",
           "package": "xml2json",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eState\u003c/a\u003e\u003c/code\u003e monad to transform a \u003ccode\u003e\u003ca\u003eStack\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "Builder",
           "package": "xml2json",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Builder is State monad to transform Stack",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "Builder",
           "package": "xml2json",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresent a XML element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "Element",
           "package": "xml2json",
@@ -72,6 +77,7 @@
         "index": {
           "description": "represent XML element",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "Element",
           "package": "xml2json",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003exml element stack with recent opened element at the top.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "Stack",
           "package": "xml2json",
@@ -95,6 +102,7 @@
         "index": {
           "description": "xml element stack with recent opened element at the top",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "Stack",
           "package": "xml2json",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "Element",
           "package": "xml2json",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "Element",
           "package": "xml2json",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd attribute to top element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "addAttr",
           "package": "xml2json",
@@ -141,6 +152,7 @@
         "index": {
           "description": "add attribute to top element",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "addAttr",
           "normalized": "(Text,Text)-\u003eBuilder",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd an attribute to an element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "addAttr'",
           "package": "xml2json",
@@ -167,6 +180,7 @@
         "index": {
           "description": "add an attribute to an element",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "addAttr'",
           "normalized": "(Text,Text)-\u003eElement-\u003eElement",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd multiple attributes to top element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "addAttrs",
           "package": "xml2json",
@@ -193,6 +208,7 @@
         "index": {
           "description": "add multiple attributes to top element",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "addAttrs",
           "normalized": "[(Text,Text)]-\u003eBuilder",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd multiple attributes to an element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "addAttrs'",
           "package": "xml2json",
@@ -219,6 +236,7 @@
         "index": {
           "description": "add multiple attributes to an element",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "addAttrs'",
           "normalized": "[(Text,Text)]-\u003eElement-\u003eElement",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd child element to top element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "addChild",
           "package": "xml2json",
@@ -245,6 +264,7 @@
         "index": {
           "description": "add child element to top element",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "addChild",
           "normalized": "(Text,Element)-\u003eBuilder",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a child element to an element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "addChild'",
           "package": "xml2json",
@@ -271,6 +292,7 @@
         "index": {
           "description": "add child element to an element",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "addChild'",
           "normalized": "(Text,Element)-\u003eElement-\u003eElement",
@@ -287,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd value to top element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "addValue",
           "package": "xml2json",
@@ -297,6 +320,7 @@
         "index": {
           "description": "add value to top element",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "addValue",
           "normalized": "Text-\u003eBuilder",
@@ -313,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a text value to an element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "addValue'",
           "package": "xml2json",
@@ -323,6 +348,7 @@
         "index": {
           "description": "add text value to an element",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "addValue'",
           "normalized": "Text-\u003eElement-\u003eElement",
@@ -339,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eopen element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "beginElement",
           "package": "xml2json",
@@ -349,6 +376,7 @@
         "index": {
           "description": "open element",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "beginElement",
           "normalized": "Text-\u003eBuilder",
@@ -365,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclose all unclosed tags and return the root element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "closeStack",
           "package": "xml2json",
@@ -375,6 +404,7 @@
         "index": {
           "description": "close all unclosed tags and return the root element",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "closeStack",
           "normalized": "Stack-\u003eElement",
@@ -391,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etag attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "elAttrs",
           "package": "xml2json",
@@ -401,6 +432,7 @@
         "index": {
           "description": "tag attributes",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "elAttrs",
           "normalized": "[(Text,Text)]",
@@ -417,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echild elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "elChildren",
           "package": "xml2json",
@@ -427,6 +460,7 @@
         "index": {
           "description": "child elements",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "elChildren",
           "normalized": "[(Text,Element)]",
@@ -443,6 +477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etext values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "elValues",
           "package": "xml2json",
@@ -453,6 +488,7 @@
         "index": {
           "description": "text values",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "elValues",
           "normalized": "[Text]",
@@ -468,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "emptyElement",
           "package": "xml2json",
@@ -477,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "emptyElement",
           "package": "xml2json",
@@ -491,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclose element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "endElement",
           "package": "xml2json",
@@ -501,6 +540,7 @@
         "index": {
           "description": "close element",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "endElement",
           "package": "xml2json",
@@ -515,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eutil to modify top element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "modifyTopElement",
           "package": "xml2json",
@@ -525,6 +566,7 @@
         "index": {
           "description": "util to modify top element",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "modifyTopElement",
           "normalized": "(Element-\u003eElement)-\u003eBuilder",
@@ -541,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclose current tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "popStack",
           "package": "xml2json",
@@ -551,6 +594,7 @@
         "index": {
           "description": "close current tag",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "popStack",
           "normalized": "Stack-\u003eStack",
@@ -567,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexec the state monad and close the result stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON.Builder",
           "name": "runBuilder",
           "package": "xml2json",
@@ -577,6 +622,7 @@
         "index": {
           "description": "exec the state monad and close the result stack",
           "hierarchy": "Text XML ToJSON Builder",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON.Builder",
           "name": "runBuilder",
           "normalized": "Builder-\u003eElement",
@@ -592,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON",
           "name": "ToJSON",
           "package": "xml2json",
@@ -600,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Text XML ToJSON",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON",
           "name": "ToJSON",
           "package": "xml2json",
@@ -613,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON",
           "name": "JSONParseError",
           "package": "xml2json",
@@ -621,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Text XML ToJSON",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON",
           "name": "JSONParseError",
           "package": "xml2json",
@@ -635,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume a source and convert the content to aeson \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e, it try to inspect xml encoding from first tag.\n\u003c/p\u003e\u003cp\u003ee.g. \u003ccode\u003exmlStreamToJSONResumable (requestBody req)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON",
           "name": "bsRSourceToJSON",
           "package": "xml2json",
@@ -645,6 +696,7 @@
         "index": {
           "description": "Consume source and convert the content to aeson Value it try to inspect xml encoding from first tag e.g xmlStreamToJSONResumable requestBody req",
           "hierarchy": "Text XML ToJSON",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON",
           "name": "bsRSourceToJSON",
           "normalized": "ResumableSource a ByteString-\u003ea Value",
@@ -661,6 +713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume a source and convert the content to aeson \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e, it try to inspect xml encoding from first tag.\n\u003c/p\u003e\u003cp\u003ee.g. \u003ccode\u003ebsSourceToJSON (C.sourceFile path_to_xml_file)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON",
           "name": "bsSourceToJSON",
           "package": "xml2json",
@@ -671,6 +724,7 @@
         "index": {
           "description": "Consume source and convert the content to aeson Value it try to inspect xml encoding from first tag e.g bsSourceToJSON C.sourceFile path to xml file",
           "hierarchy": "Text XML ToJSON",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON",
           "name": "bsSourceToJSON",
           "normalized": "Source a ByteString-\u003ea Value",
@@ -687,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert xml \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003e to aeson \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e .\n\u003c/p\u003e\u003cp\u003exml attributes and text values are converted to special object attribute \u003ccode\u003e__attributes\u003c/code\u003e and \u003ccode\u003e__values\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON",
           "name": "elementToJSON",
           "package": "xml2json",
@@ -697,6 +752,7 @@
         "index": {
           "description": "Convert xml Element to aeson Value xml attributes and text values are converted to special object attribute attributes and values",
           "hierarchy": "Text XML ToJSON",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON",
           "name": "elementToJSON",
           "normalized": "Element-\u003eValue",
@@ -713,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse xml to haskell data type by using aeson's \u003ccode\u003e\u003ca\u003eFromJSON\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON",
           "name": "parseXML",
           "package": "xml2json",
@@ -723,6 +780,7 @@
         "index": {
           "description": "parse xml to haskell data type by using aeson FromJSON",
           "hierarchy": "Text XML ToJSON",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON",
           "name": "parseXML",
           "normalized": "ByteString-\u003ea b",
@@ -739,6 +797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert tagstream-conduit \u003ccode\u003eToken\u003c/code\u003e to xml element \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON",
           "name": "tokenToBuilder",
           "package": "xml2json",
@@ -749,6 +808,7 @@
         "index": {
           "description": "Convert tagstream-conduit Token to xml element Builder",
           "hierarchy": "Text XML ToJSON",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON",
           "name": "tokenToBuilder",
           "normalized": "Token-\u003eBuilder",
@@ -765,6 +825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert list of tagstream-conduit \u003ccode\u003eToken\u003c/code\u003e to aeson \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON",
           "name": "tokensToJSON",
           "package": "xml2json",
@@ -775,6 +836,7 @@
         "index": {
           "description": "Convert list of tagstream-conduit Token to aeson Value",
           "hierarchy": "Text XML ToJSON",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON",
           "name": "tokensToJSON",
           "normalized": "[Token]-\u003eValue",
@@ -791,6 +853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert lazy xml \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to aeson \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:42:43 UTC 2014",
           "module": "Text.XML.ToJSON",
           "name": "xmlToJSON",
           "package": "xml2json",
@@ -801,6 +864,7 @@
         "index": {
           "description": "convert lazy xml ByteString to aeson Value",
           "hierarchy": "Text XML ToJSON",
+          "indexed": "2014-03-11T20:42:43",
           "module": "Text.XML.ToJSON",
           "name": "xmlToJSON",
           "normalized": "ByteString-\u003ea Value",

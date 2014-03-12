@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vte"
+        "phrase": "vte",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA terminal widget\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "Vte",
           "package": "vte",
@@ -28,6 +29,7 @@
         "index": {
           "description": "terminal widget",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "Vte",
           "package": "vte",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags determining how the regular expression is to be interpreted. See\n \u003chttp:\n for an explanation of these flags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "RegexCompileFlags",
           "package": "vte",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Flags determining how the regular expression is to be interpreted See http for an explanation of these flags",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "RegexCompileFlags",
           "package": "vte",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags determining how the string is matched against the regular\n expression. See\n \u003chttp:\n for an explanation of these flags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "RegexMatchFlags",
           "package": "vte",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Flags determining how the string is matched against the regular expression See http for an explanation of these flags",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "RegexMatchFlags",
           "package": "vte",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "Terminal",
           "package": "vte",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "Terminal",
           "package": "vte",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues for the cursor blink setting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "TerminalCursorBlinkMode",
           "package": "vte",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Values for the cursor blink setting",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "TerminalCursorBlinkMode",
           "package": "vte",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues for the cursor shape setting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "TerminalCursorShape",
           "package": "vte",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Values for the cursor shape setting",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "TerminalCursorShape",
           "package": "vte",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues for what should happen when the user presses backspace/delete.\n Use \u003ccode\u003e\u003ca\u003eEraseAuto\u003c/a\u003e\u003c/code\u003e unless the user can cause them to be overridden.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "TerminalEraseBinding",
           "package": "vte",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Values for what should happen when the user presses backspace delete Use EraseAuto unless the user can cause them to be overridden",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "TerminalEraseBinding",
           "package": "vte",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA structure describing the individual characters in the visible part of\n a terminal window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "VteChar",
           "package": "vte",
@@ -187,6 +202,7 @@
         "index": {
           "description": "structure describing the individual characters in the visible part of terminal window",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "VteChar",
           "package": "vte",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate that states which characters are of interest. The predicate\n \u003ccode\u003ep c r\u003c/code\u003e where \u003ccode\u003ep :: VteSelect\u003c/code\u003e, should return \u003ccode\u003eTrue\u003c/code\u003e if the character at\n column \u003ccode\u003ec\u003c/code\u003e and row \u003ccode\u003er\u003c/code\u003e should be extracted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "VteSelect",
           "package": "vte",
@@ -210,6 +227,7 @@
         "index": {
           "description": "predicate that states which characters are of interest The predicate where VteSelect should return True if the character at column and row should be extracted",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "VteSelect",
           "package": "vte",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "CursorBlinkOff",
           "package": "vte",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "CursorBlinkOff",
           "package": "vte",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "CursorBlinkOn",
           "package": "vte",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "CursorBlinkOn",
           "package": "vte",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "CursorBlinkSystem",
           "package": "vte",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "CursorBlinkSystem",
           "package": "vte",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "CursorShapeBlock",
           "package": "vte",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "CursorShapeBlock",
           "package": "vte",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "CursorShapeIbeam",
           "package": "vte",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "CursorShapeIbeam",
           "package": "vte",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "CursorShapeUnderline",
           "package": "vte",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "CursorShapeUnderline",
           "package": "vte",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "EraseAsciiBackspace",
           "package": "vte",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "EraseAsciiBackspace",
           "package": "vte",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "EraseAsciiDelete",
           "package": "vte",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "EraseAsciiDelete",
           "package": "vte",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "EraseAuto",
           "package": "vte",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "EraseAuto",
           "package": "vte",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "EraseDeleteSequence",
           "package": "vte",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "EraseDeleteSequence",
           "package": "vte",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "EraseTty",
           "package": "vte",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "EraseTty",
           "package": "vte",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexAnchored",
           "package": "vte",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexAnchored",
           "package": "vte",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexCaseless",
           "package": "vte",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexCaseless",
           "package": "vte",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexDollarEndonly",
           "package": "vte",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexDollarEndonly",
           "package": "vte",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexDotall",
           "package": "vte",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexDotall",
           "package": "vte",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexDupnames",
           "package": "vte",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexDupnames",
           "package": "vte",
@@ -575,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexExtended",
           "package": "vte",
@@ -584,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexExtended",
           "package": "vte",
@@ -597,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMatchAnchored",
           "package": "vte",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMatchAnchored",
           "package": "vte",
@@ -619,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMatchNewlineAny",
           "package": "vte",
@@ -628,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMatchNewlineAny",
           "package": "vte",
@@ -641,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMatchNewlineCr",
           "package": "vte",
@@ -650,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMatchNewlineCr",
           "package": "vte",
@@ -663,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMatchNewlineCrlf",
           "package": "vte",
@@ -672,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMatchNewlineCrlf",
           "package": "vte",
@@ -685,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMatchNewlineLf",
           "package": "vte",
@@ -694,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMatchNewlineLf",
           "package": "vte",
@@ -707,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMatchNotbol",
           "package": "vte",
@@ -716,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMatchNotbol",
           "package": "vte",
@@ -729,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMatchNotempty",
           "package": "vte",
@@ -738,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMatchNotempty",
           "package": "vte",
@@ -751,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMatchNoteol",
           "package": "vte",
@@ -760,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMatchNoteol",
           "package": "vte",
@@ -773,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMatchPartial",
           "package": "vte",
@@ -782,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMatchPartial",
           "package": "vte",
@@ -795,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMultiline",
           "package": "vte",
@@ -804,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexMultiline",
           "package": "vte",
@@ -817,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexNewlineCr",
           "package": "vte",
@@ -826,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexNewlineCr",
           "package": "vte",
@@ -839,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexNewlineCrlf",
           "package": "vte",
@@ -848,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexNewlineCrlf",
           "package": "vte",
@@ -861,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexNewlineLf",
           "package": "vte",
@@ -870,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexNewlineLf",
           "package": "vte",
@@ -883,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexNoAutoCapture",
           "package": "vte",
@@ -892,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexNoAutoCapture",
           "package": "vte",
@@ -905,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexOptimize",
           "package": "vte",
@@ -914,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexOptimize",
           "package": "vte",
@@ -927,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexRaw",
           "package": "vte",
@@ -936,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexRaw",
           "package": "vte",
@@ -949,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexUngreedy",
           "package": "vte",
@@ -958,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "GRegexUngreedy",
           "package": "vte",
@@ -971,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "VteChar",
           "package": "vte",
@@ -980,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "VteChar",
           "package": "vte",
@@ -994,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis signal is emitted when the a child sends a beep request to the terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "beep",
           "package": "vte",
@@ -1004,6 +1093,7 @@
         "index": {
           "description": "This signal is emitted when the child sends beep request to the terminal",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "beep",
           "normalized": "Signal a(IO())",
@@ -1019,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted whenever selection of a new font causes the values of the char_width or char_height fields to change.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "charSizeChanged",
           "package": "vte",
@@ -1029,6 +1120,7 @@
         "index": {
           "description": "Emitted whenever selection of new font causes the values of the char width or char height fields to change",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "charSizeChanged",
           "normalized": "Signal a(Int-\u003eInt-\u003eIO())",
@@ -1045,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis signal is emitted when the terminal detects that a child started using \u003ccode\u003e\u003ca\u003eterminalForkCommand\u003c/a\u003e\u003c/code\u003e has exited.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "childExited",
           "package": "vte",
@@ -1055,6 +1148,7 @@
         "index": {
           "description": "This signal is emitted when the terminal detects that child started using terminalForkCommand has exited",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "childExited",
           "normalized": "Signal a(IO())",
@@ -1071,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted whenever the terminal receives input from the user and prepares to send it to the child process.\n The signal is emitted even when there is no child process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "commit",
           "package": "vte",
@@ -1081,6 +1176,7 @@
         "index": {
           "description": "Emitted whenever the terminal receives input from the user and prepares to send it to the child process The signal is emitted even when there is no child process",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "commit",
           "normalized": "Signal a(String-\u003eInt-\u003eIO())",
@@ -1096,6 +1192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted whenever the visible appearance of the terminal has changed. Used primarily by \u003ccode\u003eTerminalAccessible\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "contentsChanged",
           "package": "vte",
@@ -1106,6 +1203,7 @@
         "index": {
           "description": "Emitted whenever the visible appearance of the terminal has changed Used primarily by TerminalAccessible",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "contentsChanged",
           "normalized": "Signal a(IO())",
@@ -1122,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted whenever \u003ccode\u003e\u003ca\u003eterminalCopyClipboard\u003c/a\u003e\u003c/code\u003e is called.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "copyClipboard",
           "package": "vte",
@@ -1132,6 +1231,7 @@
         "index": {
           "description": "Emitted whenever terminalCopyClipboard is called",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "copyClipboard",
           "normalized": "Signal a(IO())",
@@ -1148,6 +1248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted whenever the cursor moves to a new character cell. Used primarily by \u003ccode\u003eTerminalAccessible\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "cursorMoved",
           "package": "vte",
@@ -1158,6 +1259,7 @@
         "index": {
           "description": "Emitted whenever the cursor moves to new character cell Used primarily by TerminalAccessible",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "cursorMoved",
           "normalized": "Signal a(IO())",
@@ -1174,6 +1276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted when the user hits the \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e key while holding the Control key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "decreaseFontSize",
           "package": "vte",
@@ -1184,6 +1287,7 @@
         "index": {
           "description": "Emitted when the user hits the key while holding the Control key",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "decreaseFontSize",
           "normalized": "Signal a(IO())",
@@ -1200,6 +1304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted at the child application's request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "deiconifyWindow",
           "package": "vte",
@@ -1210,6 +1315,7 @@
         "index": {
           "description": "Emitted at the child application request",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "deiconifyWindow",
           "normalized": "Signal a(IO())",
@@ -1226,6 +1332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted whenever the terminal's emulation changes, only possible at the parent application's request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "emulationChanged",
           "package": "vte",
@@ -1236,6 +1343,7 @@
         "index": {
           "description": "Emitted whenever the terminal emulation changes only possible at the parent application request",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "emulationChanged",
           "normalized": "Signal a(IO())",
@@ -1252,6 +1360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted whenever the terminal's current encoding has changed, \n either as a result of receiving a control sequence which toggled between the local and UTF-8 encodings, or at the parent application's request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "encodingChanged",
           "package": "vte",
@@ -1262,6 +1371,7 @@
         "index": {
           "description": "Emitted whenever the terminal current encoding has changed either as result of receiving control sequence which toggled between the local and UTF-8 encodings or at the parent application request",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "encodingChanged",
           "normalized": "Signal a(IO())",
@@ -1278,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted when the terminal receives an end-of-file from a child which is running in the terminal.\n This signal is frequently (but not always) emitted with a \u003ccode\u003e\u003ca\u003echildExited\u003c/a\u003e\u003c/code\u003e signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "eof",
           "package": "vte",
@@ -1288,6 +1399,7 @@
         "index": {
           "description": "Emitted when the terminal receives an end-of-file from child which is running in the terminal This signal is frequently but not always emitted with childExited signal",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "eof",
           "normalized": "Signal a(IO())",
@@ -1303,6 +1415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted when the terminal's icon_title field is modified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "iconTitleChanged",
           "package": "vte",
@@ -1313,6 +1426,7 @@
         "index": {
           "description": "Emitted when the terminal icon title field is modified",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "iconTitleChanged",
           "normalized": "Signal a(IO())",
@@ -1329,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted at the child application's request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "iconifyWindow",
           "package": "vte",
@@ -1339,6 +1454,7 @@
         "index": {
           "description": "Emitted at the child application request",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "iconifyWindow",
           "normalized": "Signal a(IO())",
@@ -1355,6 +1471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted when the user hits the \u003ccode\u003e\u003ca\u003e+\u003c/a\u003e\u003c/code\u003e key while holding the Control key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "increaseFontSize",
           "package": "vte",
@@ -1365,6 +1482,7 @@
         "index": {
           "description": "Emitted when the user hits the key while holding the Control key",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "increaseFontSize",
           "normalized": "Signal a(IO())",
@@ -1381,6 +1499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted at the child application's request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "lowerWindow",
           "package": "vte",
@@ -1391,6 +1510,7 @@
         "index": {
           "description": "Emitted at the child application request",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "lowerWindow",
           "normalized": "Signal a(IO())",
@@ -1407,6 +1527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted at the child application's request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "maximizeWindow",
           "package": "vte",
@@ -1417,6 +1538,7 @@
         "index": {
           "description": "Emitted at the child application request",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "maximizeWindow",
           "normalized": "Signal a(IO())",
@@ -1433,6 +1555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted when user move terminal window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "moveWindow",
           "package": "vte",
@@ -1443,6 +1566,7 @@
         "index": {
           "description": "Emitted when user move terminal window",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "moveWindow",
           "normalized": "Signal a(Word-\u003eWord-\u003eIO())",
@@ -1459,6 +1583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted whenever \u003ccode\u003e\u003ca\u003eterminalPasteClipboard\u003c/a\u003e\u003c/code\u003e is called.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "pasteClipboard",
           "package": "vte",
@@ -1469,6 +1594,7 @@
         "index": {
           "description": "Emitted whenever terminalPasteClipboard is called",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "pasteClipboard",
           "normalized": "Signal a(IO())",
@@ -1485,6 +1611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted at the child application's request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "raiseWindow",
           "package": "vte",
@@ -1495,6 +1622,7 @@
         "index": {
           "description": "Emitted at the child application request",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "raiseWindow",
           "normalized": "Signal a(IO())",
@@ -1511,6 +1639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted at the child application's request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "refreshWindow",
           "package": "vte",
@@ -1521,6 +1650,7 @@
         "index": {
           "description": "Emitted at the child application request",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "refreshWindow",
           "normalized": "Signal a(IO())",
@@ -1537,6 +1667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted at the child application's request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "resizeWidnow",
           "package": "vte",
@@ -1547,6 +1678,7 @@
         "index": {
           "description": "Emitted at the child application request",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "resizeWidnow",
           "normalized": "Signal a(Int-\u003eInt-\u003eIO())",
@@ -1563,6 +1695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted at the child application's request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "restoreWindow",
           "package": "vte",
@@ -1573,6 +1706,7 @@
         "index": {
           "description": "Emitted at the child application request",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "restoreWindow",
           "normalized": "Signal a(IO())",
@@ -1589,6 +1723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted at the child application's request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "selectionChanged",
           "package": "vte",
@@ -1599,6 +1734,7 @@
         "index": {
           "description": "Emitted at the child application request",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "selectionChanged",
           "normalized": "Signal a(IO())",
@@ -1615,6 +1751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the scroll adjustments for the terminal.\n Usually scrolled containers like \u003ccode\u003e\u003ca\u003eScrolledWindow\u003c/a\u003e\u003c/code\u003e will emit this\n signal to connect two instances of \u003ccode\u003e\u003ca\u003eScrollbar\u003c/a\u003e\u003c/code\u003e to the scroll directions of the \u003ccode\u003e\u003ca\u003eTerminal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "setScrollAdjustments",
           "package": "vte",
@@ -1625,6 +1762,7 @@
         "index": {
           "description": "Set the scroll adjustments for the terminal Usually scrolled containers like ScrolledWindow will emit this signal to connect two instances of Scrollbar to the scroll directions of the Terminal",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "setScrollAdjustments",
           "normalized": "Signal a(Adjustment-\u003eAdjustment-\u003eIO())",
@@ -1641,6 +1779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted whenever the contents of the status line are modified or cleared.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "statusLineChanged",
           "package": "vte",
@@ -1651,6 +1790,7 @@
         "index": {
           "description": "Emitted whenever the contents of the status line are modified or cleared",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "statusLineChanged",
           "normalized": "Signal a(IO())",
@@ -1667,6 +1807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls whether or not the terminal will attempt to draw bold text.\n This may happen either by using a bold font variant, or by repainting text with a different offset.\n\u003c/p\u003e\u003cp\u003eDefault value: \u003ccode\u003eTrue\u003c/code\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalAllowBold",
           "package": "vte",
@@ -1677,6 +1818,7 @@
         "index": {
           "description": "Controls whether or not the terminal will attempt to draw bold text This may happen either by using bold font variant or by repainting text with different offset Default value True Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalAllowBold",
           "package": "vte",
@@ -1691,6 +1833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls whether or not the terminal will beep when the child outputs the \"bl\" sequence.\n\u003c/p\u003e\u003cp\u003eDefault value: \u003ccode\u003eTrue\u003c/code\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalAudibleBell",
           "package": "vte",
@@ -1701,6 +1844,7 @@
         "index": {
           "description": "Controls whether or not the terminal will beep when the child outputs the bl sequence Default value True Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalAudibleBell",
           "package": "vte",
@@ -1715,6 +1859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a background image file for the widget.\n If specified by \u003ca\u003ebackground-saturation:\u003c/a\u003e, the terminal will tint its in-memory copy of the image before applying it to the terminal.\n\u003c/p\u003e\u003cp\u003eDefault value: \"\"\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalBackgroundImageFile",
           "package": "vte",
@@ -1725,6 +1870,7 @@
         "index": {
           "description": "Sets background image file for the widget If specified by background-saturation the terminal will tint its in-memory copy of the image before applying it to the terminal Default value Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalBackgroundImageFile",
           "package": "vte",
@@ -1739,6 +1885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a background image for the widget.\n Text which would otherwise be drawn using the default background color will instead be drawn over the specified image.\n If necessary, the image will be tiled to cover the widget's entire visible area. \n If specified by \u003ca\u003ebackground-saturation:\u003c/a\u003e, the terminal will tint its in-memory copy of the image before applying it to the terminal.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalBackgroundImagePixbuf",
           "package": "vte",
@@ -1749,6 +1896,7 @@
         "index": {
           "description": "Sets background image for the widget Text which would otherwise be drawn using the default background color will instead be drawn over the specified image If necessary the image will be tiled to cover the widget entire visible area If specified by background-saturation the terminal will tint its in-memory copy of the image before applying it to the terminal Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalBackgroundImagePixbuf",
           "package": "vte",
@@ -1763,6 +1911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the opacity of the terminal background, were 0.0 means completely transparent and 1.0 means completely opaque.\n\u003c/p\u003e\u003cp\u003eAllowed values: [0,1]\n\u003c/p\u003e\u003cp\u003eDefault values: 1\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalBackgroundOpacity",
           "package": "vte",
@@ -1773,6 +1922,7 @@
         "index": {
           "description": "Sets the opacity of the terminal background were means completely transparent and means completely opaque Allowed values Default values Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalBackgroundOpacity",
           "package": "vte",
@@ -1787,6 +1937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a background image has been set using \u003ca\u003ebackground-image-file:\u003c/a\u003e or \u003ca\u003ebackground-image-pixbuf:\u003c/a\u003e, or \u003ca\u003ebackground-transparent:\u003c/a\u003e,\n and the saturation value is less than 1.0, the terminal will adjust the colors of the image before drawing the image.\n To do so, the terminal will create a copy of the background image (or snapshot of the root window) and modify its pixel values.\n\u003c/p\u003e\u003cp\u003eAllowed values: [0,1]\n\u003c/p\u003e\u003cp\u003eDefault value: 0.4\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalBackgroundSaturation",
           "package": "vte",
@@ -1797,6 +1948,7 @@
         "index": {
           "description": "If background image has been set using background-image-file or background-image-pixbuf or background-transparent and the saturation value is less than the terminal will adjust the colors of the image before drawing the image To do so the terminal will create copy of the background image or snapshot of the root window and modify its pixel values Allowed values Default value Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalBackgroundSaturation",
           "package": "vte",
@@ -1811,6 +1963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a background image has been set using \u003ca\u003ebackground-image-file:\u003c/a\u003e or \u003ca\u003ebackground-image-pixbuf:\u003c/a\u003e, or \u003ca\u003ebackground-transparent:\u003c/a\u003e,\n and the value set by \u003ccode\u003e\u003ca\u003eTerminal\u003c/a\u003e\u003c/code\u003e background-saturation: is less than 1.0, the terminal will adjust the color of the image before drawing the image.\n To do so, the terminal will create a copy of the background image (or snapshot of the root window) and modify its pixel values.\n The initial tint color is black.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalBackgroundTintColor",
           "package": "vte",
@@ -1821,6 +1974,7 @@
         "index": {
           "description": "If background image has been set using background-image-file or background-image-pixbuf or background-transparent and the value set by Terminal background-saturation is less than the terminal will adjust the color of the image before drawing the image To do so the terminal will create copy of the background image or snapshot of the root window and modify its pixel values The initial tint color is black Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalBackgroundTintColor",
           "package": "vte",
@@ -1835,6 +1989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets whther the terminal uses the pixmap stored in the root window as the background,\n adjusted so that if there are no windows below your application, the widget will appear to be transparent.\n\u003c/p\u003e\u003cp\u003eNOTE: When using a compositing window manager, you should instead set a RGBA colourmap on the toplevel window, so you get real transparency.\n\u003c/p\u003e\u003cp\u003eDefault value: \u003ccode\u003eFalse\u003c/code\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalBackgroundTransparent",
           "package": "vte",
@@ -1845,6 +2000,7 @@
         "index": {
           "description": "Sets whther the terminal uses the pixmap stored in the root window as the background adjusted so that if there are no windows below your application the widget will appear to be transparent NOTE When using compositing window manager you should instead set RGBA colourmap on the toplevel window so you get real transparency Default value False Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalBackgroundTransparent",
           "package": "vte",
@@ -1859,6 +2015,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003eControls what string or control sequence the terminal sends to its child when the user presses the backspace key.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eDefault value: \u003ccode\u003e\u003ca\u003eEraseAuto\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalBackspaceBinding",
           "package": "vte",
@@ -1869,6 +2026,7 @@
         "index": {
           "description": "Controls what string or control sequence the terminal sends to its child when the user presses the backspace key Default value EraseAuto Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalBackspaceBinding",
           "package": "vte",
@@ -1883,6 +2041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlaces the selected text in the terminal in the \u003ccode\u003e\u003ca\u003eselectionClipboard\u003c/a\u003e\u003c/code\u003e\n selection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalCopyClipboard",
           "package": "vte",
@@ -1893,6 +2052,7 @@
         "index": {
           "description": "Places the selected text in the terminal in the selectionClipboard selection",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalCopyClipboard",
           "normalized": "a-\u003eIO()",
@@ -1909,6 +2069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlaces the selected text in the terminal in the\n \u003ccode\u003e\u003ca\u003eselectionPrimary\u003c/a\u003e\u003c/code\u003e selection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalCopyPrimary",
           "package": "vte",
@@ -1919,6 +2080,7 @@
         "index": {
           "description": "Places the selected text in the terminal in the selectionPrimary selection",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalCopyPrimary",
           "normalized": "a-\u003eIO()",
@@ -1935,6 +2097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets whether or not the cursor will blink.\n Using \u003ccode\u003e\u003ca\u003eCursorBlinkSystem\u003c/a\u003e\u003c/code\u003e will use the \u003ca\u003egtk-cursor-blink\u003c/a\u003e setting.\n\u003c/p\u003e\u003cp\u003eDefault value: \u003ccode\u003e\u003ca\u003eCursorBlinkSystem\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalCursorBlinkMode",
           "package": "vte",
@@ -1945,6 +2108,7 @@
         "index": {
           "description": "Sets whether or not the cursor will blink Using CursorBlinkSystem will use the gtk-cursor-blink setting Default value CursorBlinkSystem Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalCursorBlinkMode",
           "package": "vte",
@@ -1959,6 +2123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls the shape of the cursor.\n\u003c/p\u003e\u003cp\u003eDefault value: \u003ccode\u003e\u003ca\u003eCursorShapeBlock\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalCursorShape",
           "package": "vte",
@@ -1969,6 +2134,7 @@
         "index": {
           "description": "Controls the shape of the cursor Default value CursorShapeBlock Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalCursorShape",
           "package": "vte",
@@ -1983,6 +2149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls what string or control sequence the terminal sends to its child when the user presses the delete key.\n\u003c/p\u003e\u003cp\u003eDefault value: \u003ccode\u003e\u003ca\u003eEraseAuto\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalDeleteBinding",
           "package": "vte",
@@ -1993,6 +2160,7 @@
         "index": {
           "description": "Controls what string or control sequence the terminal sends to its child when the user presses the delete key Default value EraseAuto Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalDeleteBinding",
           "package": "vte",
@@ -2007,6 +2175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets what type of terminal the widget attempts to emulate by scanning for control sequences defined in the system's termcap file. \n Unless you are interested in this feature, always use the default which is \u003ca\u003exterm\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eDefault value: \u003ca\u003exterm\u003c/a\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalEmulation",
           "package": "vte",
@@ -2017,6 +2186,7 @@
         "index": {
           "description": "Sets what type of terminal the widget attempts to emulate by scanning for control sequences defined in the system termcap file Unless you are interested in this feature always use the default which is xterm Default value xterm Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalEmulation",
           "package": "vte",
@@ -2031,6 +2201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls the encoding the terminal will expect data from the child to be encoded with.\n For certain terminal types, applications executing in the terminal can change the encoding.\n The default is defined by the application's locale settings.\n\u003c/p\u003e\u003cp\u003eDefault value: \"\"\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalEncoding",
           "package": "vte",
@@ -2041,6 +2212,7 @@
         "index": {
           "description": "Controls the encoding the terminal will expect data from the child to be encoded with For certain terminal types applications executing in the terminal can change the encoding The default is defined by the application locale settings Default value Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalEncoding",
           "package": "vte",
@@ -2055,6 +2227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterprets data as if it were data received from a child process. This\n can either be used to drive the terminal without a child process, or just\n to mess with your users.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalFeed",
           "package": "vte",
@@ -2064,6 +2237,7 @@
         "index": {
           "description": "Interprets data as if it were data received from child process This can either be used to drive the terminal without child process or just to mess with your users",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalFeed",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -2080,6 +2254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a block of UTF-8 text to the child as if it were entered by the\n user at the keyboard.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalFeedChild",
           "package": "vte",
@@ -2089,6 +2264,7 @@
         "index": {
           "description": "Sends block of UTF-8 text to the child as if it were entered by the user at the keyboard",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalFeedChild",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -2105,6 +2281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a block of binary data to the child.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.12.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalFeedChildBinary",
           "package": "vte",
@@ -2114,6 +2291,7 @@
         "index": {
           "description": "Sends block of binary data to the child Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalFeedChildBinary",
           "normalized": "a-\u003e[Word]-\u003eIO()",
@@ -2130,6 +2308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the font used for rendering all text displayed by the terminal, overriding any fonts set using \u003ccode\u003ewidgetModifyFont\u003c/code\u003e.\n The terminal will immediately attempt to load the desired font, retrieve its metrics,\n and attempt to resize itself to keep the same number of rows and columns.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalFontDesc",
           "package": "vte",
@@ -2140,6 +2319,7 @@
         "index": {
           "description": "Specifies the font used for rendering all text displayed by the terminal overriding any fonts set using widgetModifyFont The terminal will immediately attempt to load the desired font retrieve its metrics and attempt to resize itself to keep the same number of rows and columns Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalFontDesc",
           "package": "vte",
@@ -2154,6 +2334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts the specified command under a newly-allocated controlling pseudo-terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalForkCommand",
           "package": "vte",
@@ -2163,6 +2344,7 @@
         "index": {
           "description": "Starts the specified command under newly-allocated controlling pseudo-terminal",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalForkCommand",
           "normalized": "a-\u003eMaybe String-\u003eMaybe[String]-\u003eMaybe[String]-\u003eMaybe String-\u003eBool-\u003eBool-\u003eBool-\u003eIO Int",
@@ -2179,6 +2361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts a new child process under a newly-allocated controlling pseudo-terminal.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.11.11\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalForkpty",
           "package": "vte",
@@ -2188,6 +2371,7 @@
         "index": {
           "description": "Starts new child process under newly-allocated controlling pseudo-terminal Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalForkpty",
           "normalized": "a-\u003eMaybe[String]-\u003eMaybe String-\u003eBool-\u003eBool-\u003eBool-\u003eIO Int",
@@ -2204,6 +2388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet \u003ccode\u003e\u003ca\u003eAdjustment\u003c/a\u003e\u003c/code\u003e of terminal widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetAdjustment",
           "package": "vte",
@@ -2213,6 +2398,7 @@
         "index": {
           "description": "Get Adjustment of terminal widget",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetAdjustment",
           "normalized": "a-\u003eIO Adjustment",
@@ -2229,6 +2415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether or not the terminal will attempt to draw bold text by repainting text with a one-pixel offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetAllowBold",
           "package": "vte",
@@ -2238,6 +2425,7 @@
         "index": {
           "description": "Checks whether or not the terminal will attempt to draw bold text by repainting text with one-pixel offset",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetAllowBold",
           "normalized": "a-\u003eIO Bool",
@@ -2254,6 +2442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether or not the terminal will beep when the child outputs the \"bl\" sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetAudibleBell",
           "package": "vte",
@@ -2263,6 +2452,7 @@
         "index": {
           "description": "Checks whether or not the terminal will beep when the child outputs the bl sequence",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetAudibleBell",
           "normalized": "a-\u003eIO Bool",
@@ -2279,6 +2469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet terminal's char height.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetCharHeight",
           "package": "vte",
@@ -2288,6 +2479,7 @@
         "index": {
           "description": "Get terminal char height",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetCharHeight",
           "normalized": "a-\u003eIO Int",
@@ -2304,6 +2496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet terminal's char width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetCharWidth",
           "package": "vte",
@@ -2313,6 +2506,7 @@
         "index": {
           "description": "Get terminal char width",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetCharWidth",
           "normalized": "a-\u003eIO Int",
@@ -2329,6 +2523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the exit status of the command started by \u003ccode\u003e\u003ca\u003eterminalForkCommand\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetChildExitStatus",
           "package": "vte",
@@ -2338,6 +2533,7 @@
         "index": {
           "description": "Gets the exit status of the command started by terminalForkCommand Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetChildExitStatus",
           "normalized": "a-\u003eIO Int",
@@ -2354,6 +2550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet terminal's column count.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetColumnCount",
           "package": "vte",
@@ -2363,6 +2560,7 @@
         "index": {
           "description": "Get terminal column count",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetColumnCount",
           "normalized": "a-\u003eIO Int",
@@ -2379,6 +2577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the currently set cursor blink mode.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.17.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetCursorBlinkMode",
           "package": "vte",
@@ -2388,6 +2587,7 @@
         "index": {
           "description": "Returns the currently set cursor blink mode Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetCursorBlinkMode",
           "normalized": "a-\u003eIO TerminalCursorBlinkMode",
@@ -2404,6 +2604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads the location of the insertion cursor and returns it. The row\n coordinate is absolute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetCursorPosition",
           "package": "vte",
@@ -2413,6 +2614,7 @@
         "index": {
           "description": "Reads the location of the insertion cursor and returns it The row coordinate is absolute",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetCursorPosition",
           "normalized": "a-\u003eIO(Int,Int)",
@@ -2429,6 +2631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the currently set cursor shape.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.17.6\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetCursorShape",
           "package": "vte",
@@ -2438,6 +2641,7 @@
         "index": {
           "description": "Returns the currently set cursor shape Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetCursorShape",
           "normalized": "a-\u003eIO TerminalCursorShape",
@@ -2454,6 +2658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQueries the terminal for its default emulation, which is attempted if the terminal type passed to \u003ccode\u003e\u003ca\u003eterminalSetEmulation\u003c/a\u003e\u003c/code\u003e emptry string.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.11.11\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetDefaultEmulation",
           "package": "vte",
@@ -2463,6 +2668,7 @@
         "index": {
           "description": "Queries the terminal for its default emulation which is attempted if the terminal type passed to terminalSetEmulation emptry string Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetDefaultEmulation",
           "normalized": "a-\u003eIO String",
@@ -2479,6 +2685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQueries the terminal for its current emulation, as last set by a call to \u003ccode\u003e\u003ca\u003eterminalSetEmulation\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetEmulation",
           "package": "vte",
@@ -2488,6 +2695,7 @@
         "index": {
           "description": "Queries the terminal for its current emulation as last set by call to terminalSetEmulation",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetEmulation",
           "normalized": "a-\u003eIO String",
@@ -2504,6 +2712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines the name of the encoding in which the terminal expects data to be encoded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetEncoding",
           "package": "vte",
@@ -2513,6 +2722,7 @@
         "index": {
           "description": "Determines the name of the encoding in which the terminal expects data to be encoded",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetEncoding",
           "normalized": "a-\u003eIO String",
@@ -2529,6 +2739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQueries the terminal for information about the fonts which will be used to draw text in the terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetFont",
           "package": "vte",
@@ -2538,6 +2749,7 @@
         "index": {
           "description": "Queries the terminal for information about the fonts which will be used to draw text in the terminal",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetFont",
           "normalized": "a-\u003eIO FontDescription",
@@ -2554,6 +2766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if the terminal currently contains selected text.\n Note that this is different from determining if the terminal is the owner of any \u003ccode\u003eGtkClipboard\u003c/code\u003e items.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetHasSelection",
           "package": "vte",
@@ -2563,6 +2776,7 @@
         "index": {
           "description": "Checks if the terminal currently contains selected text Note that this is different from determining if the terminal is the owner of any GtkClipboard items",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetHasSelection",
           "normalized": "a-\u003eIO Bool",
@@ -2579,6 +2793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet icon title.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetIconTitle",
           "package": "vte",
@@ -2588,6 +2803,7 @@
         "index": {
           "description": "Get icon title",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetIconTitle",
           "normalized": "a-\u003eIO String",
@@ -2604,6 +2820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines the value of the terminal's mouse autohide setting. \n When autohiding is enabled, the mouse cursor will be hidden when the user presses a key and shown when the user moves the mouse.\n This setting can be changed using \u003ccode\u003e\u003ca\u003eterminalSetMouseAutohide\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetMouseAutohide",
           "package": "vte",
@@ -2614,6 +2831,7 @@
         "index": {
           "description": "Determines the value of the terminal mouse autohide setting When autohiding is enabled the mouse cursor will be hidden when the user presses key and shown when the user moves the mouse This setting can be changed using terminalSetMouseAutohide",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetMouseAutohide",
           "normalized": "a-\u003eIO Bool",
@@ -2630,6 +2848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines the amount of additional space the widget is using to pad the edges of its visible area.\n This is necessary for cases where characters in the selected font don't themselves include a padding area and the text itself would otherwise be contiguous with the window border. \n Applications which use the widget's row_count, column_count, char_height, and char_width fields to set geometry hints using \u003ccode\u003ewindowSetGeometryHints\u003c/code\u003e will need to add this value to the base size. \n The values returned in xpad and ypad are the total padding used in each direction, and do not need to be doubled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetPadding",
           "package": "vte",
@@ -2639,6 +2858,7 @@
         "index": {
           "description": "Determines the amount of additional space the widget is using to pad the edges of its visible area This is necessary for cases where characters in the selected font don themselves include padding area and the text itself would otherwise be contiguous with the window border Applications which use the widget row count column count char height and char width fields to set geometry hints using windowSetGeometryHints will need to add this value to the base size The values returned in xpad and ypad are the total padding used in each direction and do not need to be doubled",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetPadding",
           "normalized": "a-\u003eIO(Int,Int)",
@@ -2655,6 +2875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the file descriptor of the master end of terminal's PTY.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetPty",
           "package": "vte",
@@ -2664,6 +2885,7 @@
         "index": {
           "description": "Returns the file descriptor of the master end of terminal PTY Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetPty",
           "normalized": "a-\u003eIO Int",
@@ -2680,6 +2902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet terminal's row count.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetRowCount",
           "package": "vte",
@@ -2689,6 +2912,7 @@
         "index": {
           "description": "Get terminal row count",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetRowCount",
           "normalized": "a-\u003eIO Int",
@@ -2705,6 +2929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome terminal emulations specify a status line which is separate from the main display area,\n and define a means for applications to move the cursor to the status line and back.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetStatusLine",
           "package": "vte",
@@ -2714,6 +2939,7 @@
         "index": {
           "description": "Some terminal emulations specify status line which is separate from the main display area and define means for applications to move the cursor to the status line and back",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetStatusLine",
           "normalized": "a-\u003eIO String",
@@ -2730,6 +2956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts a view of the visible part of the terminal. A selection\n predicate may be supplied to restrict the inspected characters. The\n return value is a list of \u003ccode\u003e\u003ca\u003eVteChar\u003c/a\u003e\u003c/code\u003e structures, each detailing the\n character's position, colors, and other characteristics.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetText",
           "package": "vte",
@@ -2739,6 +2966,7 @@
         "index": {
           "description": "Extracts view of the visible part of the terminal selection predicate may be supplied to restrict the inspected characters The return value is list of VteChar structures each detailing the character position colors and other characteristics",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetText",
           "normalized": "a-\u003eMaybe VteSelect-\u003eIO[VteChar]",
@@ -2755,6 +2983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts a view of the visible part of the terminal.\n If is_selected is not \u003ccode\u003eNothing\u003c/code\u003e, characters will only be read if is_selected returns \u003ccode\u003eTrue\u003c/code\u003e after being passed the column and row, respectively.\n A \u003ccode\u003eCharAttributes\u003c/code\u003e structure is added to attributes for each byte added to the returned string detailing the character's position, colors, and other characteristics. \n This function differs from \u003ccode\u003e\u003ca\u003eterminalGetText\u003c/a\u003e\u003c/code\u003e in that trailing spaces at the end of lines are included.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.11.11\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetTextIncludeTrailingSpaces",
           "package": "vte",
@@ -2764,6 +2993,7 @@
         "index": {
           "description": "Extracts view of the visible part of the terminal If is selected is not Nothing characters will only be read if is selected returns True after being passed the column and row respectively CharAttributes structure is added to attributes for each byte added to the returned string detailing the character position colors and other characteristics This function differs from terminalGetText in that trailing spaces at the end of lines are included Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetTextIncludeTrailingSpaces",
           "normalized": "a-\u003eMaybe VteSelect-\u003eIO[VteChar]",
@@ -2780,6 +3010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts a view of the visible part of the terminal.\n If is_selected is not \u003ccode\u003eNothing\u003c/code\u003e, characters will only be read if is_selected returns \u003ccode\u003eTrue\u003c/code\u003e after being passed the column and row, respectively.\n A \u003ccode\u003eCharAttributes\u003c/code\u003e structure is added to attributes for each byte added to the returned string detailing the character's position, colors, and other characteristics. \n The entire scrollback buffer is scanned, so it is possible to read the entire contents of the buffer using this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetTextRange",
           "package": "vte",
@@ -2789,6 +3020,7 @@
         "index": {
           "description": "Extracts view of the visible part of the terminal If is selected is not Nothing characters will only be read if is selected returns True after being passed the column and row respectively CharAttributes structure is added to attributes for each byte added to the returned string detailing the character position colors and other characteristics The entire scrollback buffer is scanned so it is possible to read the entire contents of the buffer using this function",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetTextRange",
           "normalized": "a-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eMaybe VteSelect-\u003eIO[VteChar]",
@@ -2805,6 +3037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether or not the terminal will present a visible bell to the user when the child outputs the \"bl\" sequence. \n The terminal will clear itself to the default foreground color and then repaint itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetVisibleBell",
           "package": "vte",
@@ -2814,6 +3047,7 @@
         "index": {
           "description": "Checks whether or not the terminal will present visible bell to the user when the child outputs the bl sequence The terminal will clear itself to the default foreground color and then repaint itself",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetVisibleBell",
           "normalized": "a-\u003eIO Bool",
@@ -2830,6 +3064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet window title.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetWindowTitle",
           "package": "vte",
@@ -2839,6 +3074,7 @@
         "index": {
           "description": "Get window title",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalGetWindowTitle",
           "normalized": "a-\u003eIO String",
@@ -2855,6 +3091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe terminal's so-called icon title, or empty if no icon title has been set.\n\u003c/p\u003e\u003cp\u003eDefault value: \"\"\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalIconTitle",
           "package": "vte",
@@ -2865,6 +3102,7 @@
         "index": {
           "description": "The terminal so-called icon title or empty if no icon title has been set Default value Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalIconTitle",
           "package": "vte",
@@ -2879,6 +3117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppends menu items for various input methods to the given menu.\n The user can select one of these items to modify the input method used by the terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalImAppendMenuitems",
           "package": "vte",
@@ -2888,6 +3127,7 @@
         "index": {
           "description": "Appends menu items for various input methods to the given menu The user can select one of these items to modify the input method used by the terminal",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalImAppendMenuitems",
           "normalized": "a-\u003eMenuShell-\u003eIO()",
@@ -2904,6 +3144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if a particular character is considered to be part of a word or not, based on the values last passed to \u003ccode\u003e\u003ca\u003eterminalSetWordChars\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalIsWordChar",
           "package": "vte",
@@ -2913,6 +3154,7 @@
         "index": {
           "description": "Checks if particular character is considered to be part of word or not based on the values last passed to terminalSetWordChars",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalIsWordChar",
           "normalized": "a-\u003eChar-\u003eIO Bool",
@@ -2929,6 +3171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds the regular expression to the list of matching expressions.\n When the user moves the mouse cursor over a section of displayed text which\n matches this expression, the text will be highlighted.\n\u003c/p\u003e\u003cp\u003eSee \u003chttp:\n details about the accepted syntex.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.17.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalMatchAddRegex",
           "package": "vte",
@@ -2938,6 +3181,7 @@
         "index": {
           "description": "Adds the regular expression to the list of matching expressions When the user moves the mouse cursor over section of displayed text which matches this expression the text will be highlighted See http details about the accepted syntex Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalMatchAddRegex",
           "normalized": "a-\u003eString-\u003e[RegexCompileFlags]-\u003e[RegexMatchFlags]-\u003eIO Int",
@@ -2954,6 +3198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if the text in and around the specified position matches any of\n the regular expressions previously registered using\n \u003ccode\u003e\u003ca\u003eterminalMatchAddRegex\u003c/a\u003e\u003c/code\u003e. If a match exists, the matching string is returned\n together with the number associated with the matched regular expression. If\n more than one regular expression matches, the expressions that was\n registered first will be returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalMatchCheck",
           "package": "vte",
@@ -2963,6 +3208,7 @@
         "index": {
           "description": "Checks if the text in and around the specified position matches any of the regular expressions previously registered using terminalMatchAddRegex If match exists the matching string is returned together with the number associated with the matched regular expression If more than one regular expression matches the expressions that was registered first will be returned",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalMatchCheck",
           "normalized": "a-\u003eInt-\u003eInt-\u003eIO(Maybe(String,Int))",
@@ -2979,6 +3225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClears the list of regular expressions the terminal uses to highlight\n text when the user moves the mouse cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalMatchClearAll",
           "package": "vte",
@@ -2989,6 +3236,7 @@
         "index": {
           "description": "Clears the list of regular expressions the terminal uses to highlight text when the user moves the mouse cursor",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalMatchClearAll",
           "normalized": "a-\u003eIO()",
@@ -3005,6 +3253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves the regular expression which is associated with the given tag from the list of expressions which the terminal will highlight when the user moves the mouse cursor over matching text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalMatchRemove",
           "package": "vte",
@@ -3014,6 +3263,7 @@
         "index": {
           "description": "Removes the regular expression which is associated with the given tag from the list of expressions which the terminal will highlight when the user moves the mouse cursor over matching text",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalMatchRemove",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -3030,6 +3280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets which cursor the terminal will use if the pointer is over the pattern specified by tag.\n The terminal keeps a reference to cursor.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.11\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalMatchSetCursor",
           "package": "vte",
@@ -3039,6 +3290,7 @@
         "index": {
           "description": "Sets which cursor the terminal will use if the pointer is over the pattern specified by tag The terminal keeps reference to cursor Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalMatchSetCursor",
           "normalized": "a-\u003eInt-\u003eCursor-\u003eIO()",
@@ -3055,6 +3307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets which cursor the terminal will use if the pointer is over the pattern specified by tag.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.17.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalMatchSetCursorName",
           "package": "vte",
@@ -3064,6 +3317,7 @@
         "index": {
           "description": "Sets which cursor the terminal will use if the pointer is over the pattern specified by tag Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalMatchSetCursorName",
           "normalized": "a-\u003eInt-\u003eString-\u003eIO()",
@@ -3080,6 +3334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets which cursor the terminal will use if the pointer is over the pattern specified by tag.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.11.9\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalMatchSetCursorType",
           "package": "vte",
@@ -3089,6 +3344,7 @@
         "index": {
           "description": "Sets which cursor the terminal will use if the pointer is over the pattern specified by tag Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalMatchSetCursorType",
           "normalized": "a-\u003eInt-\u003eCursorType-\u003eIO()",
@@ -3105,6 +3361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new terminal widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalNew",
           "package": "vte",
@@ -3115,6 +3372,7 @@
         "index": {
           "description": "Create new terminal widget",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalNew",
           "package": "vte",
@@ -3129,6 +3387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends the contents of the \u003ccode\u003e\u003ca\u003eselectionClipboard\u003c/a\u003e\u003c/code\u003e selection to the\n terminal's child. If necessary, the data is converted from UTF-8 to the\n terminal's current encoding. It's called on paste menu item, or when user\n presses Shift+Insert.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalPasteClipboard",
           "package": "vte",
@@ -3139,6 +3398,7 @@
         "index": {
           "description": "Sends the contents of the selectionClipboard selection to the terminal child If necessary the data is converted from UTF-8 to the terminal current encoding It called on paste menu item or when user presses Shift Insert",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalPasteClipboard",
           "normalized": "a-\u003eIO()",
@@ -3155,6 +3415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends the contents of the\n \u003ccode\u003e\u003ca\u003eselectionPrimary\u003c/a\u003e\u003c/code\u003e selection to the\n terminal's child. If necessary, the data is converted from UTF-8 to the\n terminal's current encoding. The terminal will call also paste the\n \u003ccode\u003eSelectionPrimary\u003c/code\u003e selection when the user clicks with the the second mouse\n button.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalPastePrimary",
           "package": "vte",
@@ -3165,6 +3426,7 @@
         "index": {
           "description": "Sends the contents of the selectionPrimary selection to the terminal child If necessary the data is converted from UTF-8 to the terminal current encoding The terminal will call also paste the SelectionPrimary selection when the user clicks with the the second mouse button",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalPastePrimary",
           "normalized": "a-\u003eIO()",
@@ -3181,6 +3443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls the value of the terminal's mouse autohide setting. \n When autohiding is enabled, the mouse cursor will be hidden when the user presses a key and shown when the user moves the mouse.\n\u003c/p\u003e\u003cp\u003eDefault value: \u003ccode\u003eFalse\u003c/code\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalPointerAutohide",
           "package": "vte",
@@ -3191,6 +3454,7 @@
         "index": {
           "description": "Controls the value of the terminal mouse autohide setting When autohiding is enabled the mouse cursor will be hidden when the user presses key and shown when the user moves the mouse Default value False Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalPointerAutohide",
           "package": "vte",
@@ -3205,6 +3469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe file descriptor of the master end of the terminal's PTY.\n\u003c/p\u003e\u003cp\u003eAllowed values: [-1 ...]\n\u003c/p\u003e\u003cp\u003eDefault values: -1\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalPty",
           "package": "vte",
@@ -3215,6 +3480,7 @@
         "index": {
           "description": "The file descriptor of the master end of the terminal PTY Allowed values Default values Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalPty",
           "package": "vte",
@@ -3229,6 +3495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResets as much of the terminal's internal state as possible, discarding any unprocessed input data, \n resetting character attributes, cursor state, national character set state, status line,\n terminal modes (insert/delete), selection state, and encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalReset",
           "package": "vte",
@@ -3238,6 +3505,7 @@
         "index": {
           "description": "Resets as much of the terminal internal state as possible discarding any unprocessed input data resetting character attributes cursor state national character set state status line terminal modes insert delete selection state and encoding",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalReset",
           "normalized": "a-\u003eBool-\u003eBool-\u003eIO()",
@@ -3254,6 +3522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls the value of the terminal's mouse autohide setting. \n When autohiding is enabled, the mouse cursor will be hidden when the user presses a key and shown when the user moves the mouse.\n\u003c/p\u003e\u003cp\u003eDefault value: \u003ccode\u003eFalse\u003c/code\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalScrollBackground",
           "package": "vte",
@@ -3264,6 +3533,7 @@
         "index": {
           "description": "Controls the value of the terminal mouse autohide setting When autohiding is enabled the mouse cursor will be hidden when the user presses key and shown when the user moves the mouse Default value False Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalScrollBackground",
           "package": "vte",
@@ -3278,6 +3548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls whether or not the terminal will forcibly scroll to the bottom of the viewable history when the user presses a key.\n Modifier keys do not trigger this behavior.\n\u003c/p\u003e\u003cp\u003eDefault value: \u003ccode\u003eFalse\u003c/code\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalScrollOnKeystroke",
           "package": "vte",
@@ -3288,6 +3559,7 @@
         "index": {
           "description": "Controls whether or not the terminal will forcibly scroll to the bottom of the viewable history when the user presses key Modifier keys do not trigger this behavior Default value False Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalScrollOnKeystroke",
           "package": "vte",
@@ -3302,6 +3574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls whether or not the terminal will forcibly scroll to the bottom of the viewable history when the new data is received from the child.\n\u003c/p\u003e\u003cp\u003eDefault value: \u003ccode\u003eTrue\u003c/code\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalScrollOnOutput",
           "package": "vte",
@@ -3312,6 +3585,7 @@
         "index": {
           "description": "Controls whether or not the terminal will forcibly scroll to the bottom of the viewable history when the new data is received from the child Default value True Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalScrollOnOutput",
           "package": "vte",
@@ -3326,6 +3600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe length of the scrollback buffer used by the terminal. The size of the\n scrollback buffer will be set to the larger of this value and the number of\n visible rows the widget can display, so 0 can safely be used to disable\n scrollback. Note that this setting only affects the normal screen buffer.\n For terminal types which have an alternate screen buffer, no scrollback is\n allowed on the alternate screen buffer.\n\u003c/p\u003e\u003cp\u003eDefault value: 100\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalScrollbackLines",
           "package": "vte",
@@ -3336,6 +3611,7 @@
         "index": {
           "description": "The length of the scrollback buffer used by the terminal The size of the scrollback buffer will be set to the larger of this value and the number of visible rows the widget can display so can safely be used to disable scrollback Note that this setting only affects the normal screen buffer For terminal types which have an alternate screen buffer no scrollback is allowed on the alternate screen buffer Default value Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalScrollbackLines",
           "package": "vte",
@@ -3350,6 +3626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects all text within the terminal (including the scrollback buffer).\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.16\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSelectAll",
           "package": "vte",
@@ -3360,6 +3637,7 @@
         "index": {
           "description": "Selects all text within the terminal including the scrollback buffer Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSelectAll",
           "normalized": "a-\u003eIO()",
@@ -3376,6 +3654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClears the current selection.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.16\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSelectNone",
           "package": "vte",
@@ -3386,6 +3665,7 @@
         "index": {
           "description": "Clears the current selection Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSelectNone",
           "normalized": "a-\u003eIO()",
@@ -3402,6 +3682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls whether or not the terminal will attempt to draw bold text,\n either by using a bold font variant or by repainting text with a different offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetAllowBold",
           "package": "vte",
@@ -3411,6 +3692,7 @@
         "index": {
           "description": "Controls whether or not the terminal will attempt to draw bold text either by using bold font variant or by repainting text with different offset",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetAllowBold",
           "normalized": "a-\u003eBool-\u003eIO()",
@@ -3427,6 +3709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls whether or not the terminal will beep when the child outputs the \"bl\" sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetAudibleBell",
           "package": "vte",
@@ -3436,6 +3719,7 @@
         "index": {
           "description": "Controls whether or not the terminal will beep when the child outputs the bl sequence",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetAudibleBell",
           "normalized": "a-\u003eBool-\u003eIO()",
@@ -3452,6 +3736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a background image for the widget.\n Text which would otherwise be drawn using the default background color will instead be drawn over the specified image.\n If necessary, the image will be tiled to cover the widget's entire visible area. \n If specified by \u003ccode\u003e\u003ca\u003eterminalSetBackgroundSaturation\u003c/a\u003e\u003c/code\u003e the terminal will tint its in-memory copy of the image before applying it to the terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetBackgroundImage",
           "package": "vte",
@@ -3461,6 +3746,7 @@
         "index": {
           "description": "Sets background image for the widget Text which would otherwise be drawn using the default background color will instead be drawn over the specified image If necessary the image will be tiled to cover the widget entire visible area If specified by terminalSetBackgroundSaturation the terminal will tint its in-memory copy of the image before applying it to the terminal",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetBackgroundImage",
           "normalized": "a-\u003eMaybe Pixbuf-\u003eIO()",
@@ -3477,6 +3763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a background image for the widget.\n If specified by \u003ccode\u003e\u003ca\u003eterminalSetBackgroundSaturation\u003c/a\u003e\u003c/code\u003e, the terminal will tint its in-memory copy of the image before applying it to the terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetBackgroundImageFile",
           "package": "vte",
@@ -3486,6 +3773,7 @@
         "index": {
           "description": "Sets background image for the widget If specified by terminalSetBackgroundSaturation the terminal will tint its in-memory copy of the image before applying it to the terminal",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetBackgroundImageFile",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -3502,6 +3790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a background image has been set using \u003ccode\u003e\u003ca\u003eterminalSetBackgroundImage\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eterminalSetBackgroundImageFile\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eterminalSetBackgroundTransparent\u003c/a\u003e\u003c/code\u003e,\n and the saturation value is less than 1.0, the terminal will adjust the colors of the image before drawing the image.\n To do so, the terminal will create a copy of the background image (or snapshot of the root window) and modify its pixel values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetBackgroundSaturation",
           "package": "vte",
@@ -3511,6 +3800,7 @@
         "index": {
           "description": "If background image has been set using terminalSetBackgroundImage terminalSetBackgroundImageFile or terminalSetBackgroundTransparent and the saturation value is less than the terminal will adjust the colors of the image before drawing the image To do so the terminal will create copy of the background image or snapshot of the root window and modify its pixel values",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetBackgroundSaturation",
           "normalized": "a-\u003eDouble-\u003eIO()",
@@ -3527,6 +3817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a background image has been set using \u003ccode\u003e\u003ca\u003eterminalSetBackgroundImage\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eterminalSetBackgroundImageFile\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eterminalSetBackgroundTransparent\u003c/a\u003e\u003c/code\u003e,\n and the value set by \u003ccode\u003e\u003ca\u003eterminalSetBackgroundSaturation\u003c/a\u003e\u003c/code\u003e is less than one, the terminal will adjust the color of the image before drawing the image.\n To do so, the terminal will create a copy of the background image (or snapshot of the root window) and modify its pixel values.\n The initial tint color is black.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.11\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetBackgroundTintColor",
           "package": "vte",
@@ -3536,6 +3827,7 @@
         "index": {
           "description": "If background image has been set using terminalSetBackgroundImage terminalSetBackgroundImageFile or terminalSetBackgroundTransparent and the value set by terminalSetBackgroundSaturation is less than one the terminal will adjust the color of the image before drawing the image To do so the terminal will create copy of the background image or snapshot of the root window and modify its pixel values The initial tint color is black Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetBackgroundTintColor",
           "normalized": "a-\u003eColor-\u003eIO()",
@@ -3552,6 +3844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the terminal's background image to the pixmap stored in the root window, adjusted so that if there are no windows below your application, \n the widget will appear to be transparent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetBackgroundTransparent",
           "package": "vte",
@@ -3561,6 +3854,7 @@
         "index": {
           "description": "Sets the terminal background image to the pixmap stored in the root window adjusted so that if there are no windows below your application the widget will appear to be transparent",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetBackgroundTransparent",
           "normalized": "a-\u003eBool-\u003eIO()",
@@ -3577,6 +3871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies the terminal's backspace key binding, \n which controls what string or control sequence the terminal sends to its child when the user presses the backspace key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetBackspaceBinding",
           "package": "vte",
@@ -3586,6 +3881,7 @@
         "index": {
           "description": "Modifies the terminal backspace key binding which controls what string or control sequence the terminal sends to its child when the user presses the backspace key",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetBackspaceBinding",
           "normalized": "a-\u003eTerminalEraseBinding-\u003eIO()",
@@ -3602,6 +3898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the background color for text which does not have a specific background color assigned.\n Only has effect when no background image is set and when the terminal is not transparent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetColorBackground",
           "package": "vte",
@@ -3611,6 +3908,7 @@
         "index": {
           "description": "Sets the background color for text which does not have specific background color assigned Only has effect when no background image is set and when the terminal is not transparent",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetColorBackground",
           "normalized": "a-\u003eColor-\u003eIO()",
@@ -3627,6 +3925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the color used to draw bold text in the default foreground color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetColorBold",
           "package": "vte",
@@ -3636,6 +3935,7 @@
         "index": {
           "description": "Sets the color used to draw bold text in the default foreground color",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetColorBold",
           "normalized": "a-\u003eColor-\u003eIO()",
@@ -3652,6 +3952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the background color for text which is under the cursor.\n If \u003ccode\u003eNothing\u003c/code\u003e, text under the cursor will be drawn with foreground and background colors reversed.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.11.11\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetColorCursor",
           "package": "vte",
@@ -3661,6 +3962,7 @@
         "index": {
           "description": "Sets the background color for text which is under the cursor If Nothing text under the cursor will be drawn with foreground and background colors reversed Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetColorCursor",
           "normalized": "a-\u003eColor-\u003eIO()",
@@ -3677,6 +3979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the color used to draw dim text in the default foreground color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetColorDim",
           "package": "vte",
@@ -3686,6 +3989,7 @@
         "index": {
           "description": "Sets the color used to draw dim text in the default foreground color",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetColorDim",
           "normalized": "a-\u003eColor-\u003eIO()",
@@ -3702,6 +4006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the foreground color used to draw normal text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetColorForeground",
           "package": "vte",
@@ -3711,6 +4016,7 @@
         "index": {
           "description": "Sets the foreground color used to draw normal text",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetColorForeground",
           "normalized": "a-\u003eColor-\u003eIO()",
@@ -3727,6 +4033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the background color for text which is highlighted.\n If \u003ccode\u003eNothing\u003c/code\u003e, highlighted text (which is usually highlighted because it is selected) will be drawn with foreground and background colors reversed.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.11.11\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetColorHighlight",
           "package": "vte",
@@ -3736,6 +4043,7 @@
         "index": {
           "description": "Sets the background color for text which is highlighted If Nothing highlighted text which is usually highlighted because it is selected will be drawn with foreground and background colors reversed Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetColorHighlight",
           "normalized": "a-\u003eColor-\u003eIO()",
@@ -3752,6 +4060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe terminal widget uses a 28-color model comprised of the default foreground and background colors,\n the bold foreground color, the dim foreground color, an eight color palette,\n bold versions of the eight color palette, and a dim version of the the eight color palette. palette_size must be either 0, 8, 16, or 24.\n If foreground is \u003ccode\u003eNothing\u003c/code\u003e and palette_size is greater than 0, the new foreground color is taken from palette[7].\n If background is \u003ccode\u003eNothing\u003c/code\u003e and palette_size is greater than 0, the new background color is taken from palette[0].\n If palette_size is 8 or 16, the third (dim) and possibly the second (bold) 8-color palettes are extrapolated from the new background color and the items in palette.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetColors",
           "package": "vte",
@@ -3761,6 +4070,7 @@
         "index": {
           "description": "The terminal widget uses color model comprised of the default foreground and background colors the bold foreground color the dim foreground color an eight color palette bold versions of the eight color palette and dim version of the the eight color palette palette size must be either or If foreground is Nothing and palette size is greater than the new foreground color is taken from palette If background is Nothing and palette size is greater than the new background color is taken from palette If palette size is or the third dim and possibly the second bold color palettes are extrapolated from the new background color and the items in palette",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetColors",
           "normalized": "a-\u003eColor-\u003eColor-\u003eColor-\u003eInt-\u003eIO()",
@@ -3777,6 +4087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets whether or not the cursor will blink.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.17.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetCursorBlinkMode",
           "package": "vte",
@@ -3786,6 +4097,7 @@
         "index": {
           "description": "Sets whether or not the cursor will blink Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetCursorBlinkMode",
           "normalized": "a-\u003eTerminalCursorBlinkMode-\u003eIO()",
@@ -3802,6 +4114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the shape of the cursor drawn.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetCursorShape",
           "package": "vte",
@@ -3811,6 +4124,7 @@
         "index": {
           "description": "Sets the shape of the cursor drawn Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetCursorShape",
           "normalized": "a-\u003eTerminalCursorShape-\u003eIO()",
@@ -3827,6 +4141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset the terminal palette to reasonable compiled-in defaults.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetDefaultColors",
           "package": "vte",
@@ -3837,6 +4152,7 @@
         "index": {
           "description": "Reset the terminal palette to reasonable compiled-in defaults",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetDefaultColors",
           "normalized": "a-\u003eIO()",
@@ -3853,6 +4169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifies the terminal's delete key binding, \n which controls what string or control sequence the terminal sends to its child when the user presses the delete key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetDeleteBinding",
           "package": "vte",
@@ -3862,6 +4179,7 @@
         "index": {
           "description": "Modifies the terminal delete key binding which controls what string or control sequence the terminal sends to its child when the user presses the delete key",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetDeleteBinding",
           "normalized": "a-\u003eTerminalEraseBinding-\u003eIO()",
@@ -3878,6 +4196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets what type of terminal the widget attempts to emulate by scanning for control sequences defined in the system's termcap file. \n Unless you are interested in this feature, always use \u003ca\u003exterm\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetEmulation",
           "package": "vte",
@@ -3887,6 +4206,7 @@
         "index": {
           "description": "Sets what type of terminal the widget attempts to emulate by scanning for control sequences defined in the system termcap file Unless you are interested in this feature always use xterm",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetEmulation",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -3903,6 +4223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges the encoding the terminal will expect data from the child to be encoded with.\n For certain terminal types, applications executing in the terminal can change the encoding.\n The default encoding is defined by the application's locale settings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetEncoding",
           "package": "vte",
@@ -3912,6 +4233,7 @@
         "index": {
           "description": "Changes the encoding the terminal will expect data from the child to be encoded with For certain terminal types applications executing in the terminal can change the encoding The default encoding is defined by the application locale settings",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetEncoding",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -3928,6 +4250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the font used for rendering all text displayed by the terminal, overriding any fonts set using \u003ccode\u003ewidgetModifyFont\u003c/code\u003e.\n The terminal will immediately attempt to load the desired font, retrieve its metrics, and attempt to resize itself to keep the same number of rows and columns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetFont",
           "package": "vte",
@@ -3937,6 +4260,7 @@
         "index": {
           "description": "Sets the font used for rendering all text displayed by the terminal overriding any fonts set using widgetModifyFont The terminal will immediately attempt to load the desired font retrieve its metrics and attempt to resize itself to keep the same number of rows and columns",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetFont",
           "normalized": "a-\u003eFontDescription-\u003eIO()",
@@ -3953,6 +4277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience function which converts name into a \u003ccode\u003e\u003ca\u003eFontDescription\u003c/a\u003e\u003c/code\u003e and passes it to \u003ccode\u003e\u003ca\u003eterminalSetFont\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetFontFromString",
           "package": "vte",
@@ -3962,6 +4287,7 @@
         "index": {
           "description": "convenience function which converts name into FontDescription and passes it to terminalSetFont",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetFontFromString",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -3978,6 +4304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges the value of the terminal's mouse autohide setting. \n When autohiding is enabled, the mouse cursor will be hidden when the user presses a key and shown when the user moves the mouse.\n This setting can be read using \u003ccode\u003e\u003ca\u003eterminalGetMouseAutohide\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetMouseAutohide",
           "package": "vte",
@@ -3987,6 +4314,7 @@
         "index": {
           "description": "Changes the value of the terminal mouse autohide setting When autohiding is enabled the mouse cursor will be hidden when the user presses key and shown when the user moves the mouse This setting can be read using terminalGetMouseAutohide",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetMouseAutohide",
           "normalized": "a-\u003eBool-\u003eIO()",
@@ -4003,6 +4331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the opacity of the terminal background, were 0 means completely transparent and 65535 means completely opaque.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetOpacity",
           "package": "vte",
@@ -4012,6 +4341,7 @@
         "index": {
           "description": "Sets the opacity of the terminal background were means completely transparent and means completely opaque",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetOpacity",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -4028,6 +4358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach an existing PTY master side to the terminal widget.\n Use instead of \u003ccode\u003e\u003ca\u003eterminalForkCommand\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eterminalForkpty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.12.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetPty",
           "package": "vte",
@@ -4037,6 +4368,7 @@
         "index": {
           "description": "Attach an existing PTY master side to the terminal widget Use instead of terminalForkCommand or terminalForkpty Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetPty",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -4053,6 +4385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls whether or not the terminal will scroll the background image (if one is set) when the text in the window must be scrolled.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.11\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetScrollBackground",
           "package": "vte",
@@ -4062,6 +4395,7 @@
         "index": {
           "description": "Controls whether or not the terminal will scroll the background image if one is set when the text in the window must be scrolled Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetScrollBackground",
           "normalized": "a-\u003eBool-\u003eIO()",
@@ -4078,6 +4412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls whether or not the terminal will forcibly scroll to the bottom of the viewable history when the user presses a key.\n Modifier keys do not trigger this behavior.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetScrollOnKeystroke",
           "package": "vte",
@@ -4087,6 +4422,7 @@
         "index": {
           "description": "Controls whether or not the terminal will forcibly scroll to the bottom of the viewable history when the user presses key Modifier keys do not trigger this behavior",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetScrollOnKeystroke",
           "normalized": "a-\u003eBool-\u003eIO()",
@@ -4103,6 +4439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls whether or not the terminal will forcibly scroll to the bottom of the viewable history when the new data is received from the child.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetScrollOnOutput",
           "package": "vte",
@@ -4112,6 +4449,7 @@
         "index": {
           "description": "Controls whether or not the terminal will forcibly scroll to the bottom of the viewable history when the new data is received from the child",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetScrollOnOutput",
           "normalized": "a-\u003eBool-\u003eIO()",
@@ -4128,6 +4466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the length of the scrollback buffer used by the terminal.\n The size of the scrollback buffer will be set to the larger of this value and the number of visible rows the widget can display,\n so 0 can safely be used to disable scrollback.\n Note that this setting only affects the normal screen buffer.\n For terminal types which have an alternate screen buffer, no scrollback is allowed on the alternate screen buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetScrollbackLines",
           "package": "vte",
@@ -4137,6 +4476,7 @@
         "index": {
           "description": "Sets the length of the scrollback buffer used by the terminal The size of the scrollback buffer will be set to the larger of this value and the number of visible rows the widget can display so can safely be used to disable scrollback Note that this setting only affects the normal screen buffer For terminal types which have an alternate screen buffer no scrollback is allowed on the alternate screen buffer",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetScrollbackLines",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -4153,6 +4493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to change the terminal's size in terms of rows and columns. \n If the attempt succeeds, the widget will resize itself to the proper size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetSize",
           "package": "vte",
@@ -4162,6 +4503,7 @@
         "index": {
           "description": "Attempts to change the terminal size in terms of rows and columns If the attempt succeeds the widget will resize itself to the proper size",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetSize",
           "normalized": "a-\u003eInt-\u003eInt-\u003eIO()",
@@ -4178,6 +4520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls whether or not the terminal will present a visible bell to the user when the child outputs the \"bl\" sequence. \n The terminal will clear itself to the default foreground color and then repaint itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetVisibleBell",
           "package": "vte",
@@ -4187,6 +4530,7 @@
         "index": {
           "description": "Controls whether or not the terminal will present visible bell to the user when the child outputs the bl sequence The terminal will clear itself to the default foreground color and then repaint itself",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetVisibleBell",
           "normalized": "a-\u003eBool-\u003eIO()",
@@ -4203,6 +4547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen the user double-clicks to start selection, the terminal will extend the selection on word boundaries.\n It will treat characters included in spec as parts of words, and all other characters as word separators.\n Ranges of characters can be specified by separating them with a hyphen.\n As a special case, if \u003ccode\u003espec\u003c/code\u003e is the empty string, the terminal will treat all graphic non-punctuation non-space characters as word characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetWordChars",
           "package": "vte",
@@ -4212,6 +4557,7 @@
         "index": {
           "description": "When the user double-clicks to start selection the terminal will extend the selection on word boundaries It will treat characters included in spec as parts of words and all other characters as word separators Ranges of characters can be specified by separating them with hyphen As special case if spec is the empty string the terminal will treat all graphic non-punctuation non-space characters as word characters",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalSetWordChars",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -4228,6 +4574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls whether the terminal will present a visible bell to the user when the child outputs the \"bl\" sequence. \n The terminal will clear itself to the default foreground color and then repaint itself.\n\u003c/p\u003e\u003cp\u003eDefault value: \u003ccode\u003eFalse\u003c/code\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalVisibleBell",
           "package": "vte",
@@ -4238,6 +4585,7 @@
         "index": {
           "description": "Controls whether the terminal will present visible bell to the user when the child outputs the bl sequence The terminal will clear itself to the default foreground color and then repaint itself Default value False Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalVisibleBell",
           "package": "vte",
@@ -4252,6 +4600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe terminal's title.\n\u003c/p\u003e\u003cp\u003eDefault value: \"\"\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalWindowTitle",
           "package": "vte",
@@ -4262,6 +4611,7 @@
         "index": {
           "description": "The terminal title Default value Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalWindowTitle",
           "package": "vte",
@@ -4276,6 +4626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen the user double-clicks to start selection, the terminal will extend the selection on word boundaries.\n It will treat characters the word-chars characters as parts of words, and all other characters as word separators.\n Ranges of characters can be specified by separating them with a hyphen.\n As a special case, when setting this to the empty string, the terminal will treat all graphic non-punctuation non-space characters as word\n characters.\n\u003c/p\u003e\u003cp\u003eDefalut value: \"\"\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Available since Vte version 0.19.1\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalWordChars",
           "package": "vte",
@@ -4286,6 +4637,7 @@
         "index": {
           "description": "When the user double-clicks to start selection the terminal will extend the selection on word boundaries It will treat characters the word-chars characters as parts of words and all other characters as word separators Ranges of characters can be specified by separating them with hyphen As special case when setting this to the empty string the terminal will treat all graphic non-punctuation non-space characters as word characters Defalut value Available since Vte version",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "terminalWordChars",
           "package": "vte",
@@ -4300,6 +4652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn internal signal used for communication between the terminal and its accessibility peer.\n May not be emitted under certain circumstances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "textDeleted",
           "package": "vte",
@@ -4310,6 +4663,7 @@
         "index": {
           "description": "An internal signal used for communication between the terminal and its accessibility peer May not be emitted under certain circumstances",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "textDeleted",
           "normalized": "Signal a(IO())",
@@ -4326,6 +4680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn internal signal used for communication between the terminal and its accessibility peer.\n May not be emitted under certain circumstances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "textInserted",
           "package": "vte",
@@ -4336,6 +4691,7 @@
         "index": {
           "description": "An internal signal used for communication between the terminal and its accessibility peer May not be emitted under certain circumstances",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "textInserted",
           "normalized": "Signal a(IO())",
@@ -4352,6 +4708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn internal signal used for communication between the terminal and its accessibility peer.\n May not be emitted under certain circumstances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "textModified",
           "package": "vte",
@@ -4362,6 +4719,7 @@
         "index": {
           "description": "An internal signal used for communication between the terminal and its accessibility peer May not be emitted under certain circumstances",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "textModified",
           "normalized": "Signal a(IO())",
@@ -4378,6 +4736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn internal signal used for communication between the terminal and its accessibility peer.\n May not be emitted under certain circumstances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "textScrolled",
           "package": "vte",
@@ -4388,6 +4747,7 @@
         "index": {
           "description": "An internal signal used for communication between the terminal and its accessibility peer May not be emitted under certain circumstances",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "textScrolled",
           "normalized": "Signal a(Int-\u003eIO())",
@@ -4403,6 +4763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "vcBack",
           "package": "vte",
@@ -4412,6 +4773,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "vcBack",
           "package": "vte",
@@ -4425,6 +4787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "vcChar",
           "package": "vte",
@@ -4434,6 +4797,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "vcChar",
           "package": "vte",
@@ -4447,6 +4811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "vcCol",
           "package": "vte",
@@ -4456,6 +4821,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "vcCol",
           "package": "vte",
@@ -4469,6 +4835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "vcFore",
           "package": "vte",
@@ -4478,6 +4845,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "vcFore",
           "package": "vte",
@@ -4491,6 +4859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "vcRow",
           "package": "vte",
@@ -4500,6 +4869,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "vcRow",
           "package": "vte",
@@ -4513,6 +4883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "vcStrikethrough",
           "package": "vte",
@@ -4522,6 +4893,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "vcStrikethrough",
           "package": "vte",
@@ -4535,6 +4907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "vcUnderline",
           "package": "vte",
@@ -4544,6 +4917,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "vcUnderline",
           "package": "vte",
@@ -4558,6 +4932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmitted when the terminal's window_title field is modified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:32 UTC 2014",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "windowTitleChanged",
           "package": "vte",
@@ -4568,6 +4943,7 @@
         "index": {
           "description": "Emitted when the terminal window title field is modified",
           "hierarchy": "Graphics UI Gtk Vte Vte",
+          "indexed": "2014-03-11T20:35:32",
           "module": "Graphics.UI.Gtk.Vte.Vte",
           "name": "windowTitleChanged",
           "normalized": "Signal a(IO())",

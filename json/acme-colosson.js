@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "acme-colosson"
+        "phrase": "acme-colosson",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDetermines whether it is numberwang.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:07:00 UTC 2014",
           "module": "Acme.Colosson",
           "name": "Colosson",
           "package": "acme-colosson",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Determines whether it is numberwang",
           "hierarchy": "Acme Colosson",
+          "indexed": "2014-03-11T17:07:00",
           "module": "Acme.Colosson",
           "name": "Colosson",
           "package": "acme-colosson",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs it numberwang?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:00 UTC 2014",
           "module": "Acme.Colosson",
           "name": "numberwang",
           "package": "acme-colosson",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Is it numberwang",
           "hierarchy": "Acme Colosson",
+          "indexed": "2014-03-11T17:07:00",
           "module": "Acme.Colosson",
           "name": "numberwang",
           "normalized": "Integer-\u003eBool",

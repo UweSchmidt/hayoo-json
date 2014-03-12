@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-libzip"
+        "phrase": "bindings-libzip",
+        "type": "phrase"
       },
       "type": "context"
     }

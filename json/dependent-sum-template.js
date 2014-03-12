@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dependent-sum-template"
+        "phrase": "dependent-sum-template",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:05 UTC 2014",
           "module": "Data.GADT.Compare.TH",
           "name": "TH",
           "package": "dependent-sum-template",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data GADT Compare TH",
+          "indexed": "2014-03-11T17:53:05",
           "module": "Data.GADT.Compare.TH",
           "name": "TH",
           "package": "dependent-sum-template",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:05 UTC 2014",
           "module": "Data.GADT.Compare.TH",
           "name": "DeriveGCompare",
           "package": "dependent-sum-template",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data GADT Compare TH",
+          "indexed": "2014-03-11T17:53:05",
           "module": "Data.GADT.Compare.TH",
           "name": "DeriveGCompare",
           "package": "dependent-sum-template",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:05 UTC 2014",
           "module": "Data.GADT.Compare.TH",
           "name": "DeriveGEQ",
           "package": "dependent-sum-template",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data GADT Compare TH",
+          "indexed": "2014-03-11T17:53:05",
           "module": "Data.GADT.Compare.TH",
           "name": "DeriveGEQ",
           "package": "dependent-sum-template",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:05 UTC 2014",
           "module": "Data.GADT.Compare.TH",
           "name": "GComparing",
           "package": "dependent-sum-template",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data GADT Compare TH",
+          "indexed": "2014-03-11T17:53:05",
           "module": "Data.GADT.Compare.TH",
           "name": "GComparing",
           "package": "dependent-sum-template",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:05 UTC 2014",
           "module": "Data.GADT.Compare.TH",
           "name": "compare'",
           "package": "dependent-sum-template",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Data GADT Compare TH",
+          "indexed": "2014-03-11T17:53:05",
           "module": "Data.GADT.Compare.TH",
           "name": "compare'",
           "normalized": "a-\u003ea-\u003eGComparing a b()",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:05 UTC 2014",
           "module": "Data.GADT.Compare.TH",
           "name": "deriveGCompare",
           "package": "dependent-sum-template",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Data GADT Compare TH",
+          "indexed": "2014-03-11T17:53:05",
           "module": "Data.GADT.Compare.TH",
           "name": "deriveGCompare",
           "normalized": "a-\u003eQ[Dec]",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:05 UTC 2014",
           "module": "Data.GADT.Compare.TH",
           "name": "deriveGEq",
           "package": "dependent-sum-template",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Data GADT Compare TH",
+          "indexed": "2014-03-11T17:53:05",
           "module": "Data.GADT.Compare.TH",
           "name": "deriveGEq",
           "normalized": "a-\u003eQ[Dec]",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:05 UTC 2014",
           "module": "Data.GADT.Compare.TH",
           "name": "geq'",
           "package": "dependent-sum-template",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Data GADT Compare TH",
+          "indexed": "2014-03-11T17:53:05",
           "module": "Data.GADT.Compare.TH",
           "name": "geq'",
           "normalized": "a b-\u003ea c-\u003eGComparing d e(b c)",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:05 UTC 2014",
           "module": "Data.GADT.Compare.TH",
           "name": "runGComparing",
           "package": "dependent-sum-template",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Data GADT Compare TH",
+          "indexed": "2014-03-11T17:53:05",
           "module": "Data.GADT.Compare.TH",
           "name": "runGComparing",
           "normalized": "GComparing a a(GOrdering a a)-\u003eGOrdering a a",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:05 UTC 2014",
           "module": "Data.GADT.Show.TH",
           "name": "TH",
           "package": "dependent-sum-template",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Data GADT Show TH",
+          "indexed": "2014-03-11T17:53:05",
           "module": "Data.GADT.Show.TH",
           "name": "TH",
           "package": "dependent-sum-template",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:05 UTC 2014",
           "module": "Data.GADT.Show.TH",
           "name": "DeriveGShow",
           "package": "dependent-sum-template",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Data GADT Show TH",
+          "indexed": "2014-03-11T17:53:05",
           "module": "Data.GADT.Show.TH",
           "name": "DeriveGShow",
           "package": "dependent-sum-template",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:05 UTC 2014",
           "module": "Data.GADT.Show.TH",
           "name": "deriveGShow",
           "package": "dependent-sum-template",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Data GADT Show TH",
+          "indexed": "2014-03-11T17:53:05",
           "module": "Data.GADT.Show.TH",
           "name": "deriveGShow",
           "normalized": "a-\u003eQ[Dec]",

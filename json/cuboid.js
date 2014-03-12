@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cuboid"
+        "phrase": "cuboid",
+        "type": "phrase"
       },
       "type": "context"
     }

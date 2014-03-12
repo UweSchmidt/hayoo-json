@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ddci-core"
+        "phrase": "ddci-core",
+        "type": "phrase"
       },
       "type": "context"
     }

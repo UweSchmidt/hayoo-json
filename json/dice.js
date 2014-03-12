@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dice"
+        "phrase": "dice",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "Dice",
           "package": "dice",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "Dice",
           "package": "dice",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "Expr",
           "package": "dice",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "Expr",
           "package": "dice",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "Const",
           "package": "dice",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "Const",
           "package": "dice",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "Divide",
           "package": "dice",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "Divide",
           "package": "dice",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "Minus",
           "package": "dice",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "Minus",
           "package": "dice",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "Plus",
           "package": "dice",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "Plus",
           "package": "dice",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "Times",
           "package": "dice",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "Times",
           "package": "dice",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "commute",
           "package": "dice",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "commute",
           "normalized": "(Expr a-\u003eExpr a-\u003eb)-\u003eExpr(c a)-\u003eExpr(c a)-\u003ec b",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "diceLang",
           "package": "dice",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "diceLang",
           "package": "dice",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "dieExp",
           "package": "dice",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "dieExp",
           "normalized": "CharParser Bool(Expr(RVar[a]))",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "evalExprWithDiv",
           "package": "dice",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "evalExprWithDiv",
           "normalized": "(a-\u003ea-\u003eb a)-\u003eExpr a-\u003eb a",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "evalFractionalExpr",
           "package": "dice",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "evalFractionalExpr",
           "normalized": "Expr a-\u003eb a",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "evalIntegralExpr",
           "package": "dice",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "evalIntegralExpr",
           "normalized": "Expr a-\u003eb a",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "expr",
           "package": "dice",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "expr",
           "normalized": "CharParser Bool(Expr(RVar[a]))",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "fmtExprPrec",
           "package": "dice",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "fmtExprPrec",
           "normalized": "(String-\u003ea-\u003eInt-\u003eShowS)-\u003eExpr a-\u003eInt-\u003eShowS",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "fmtIntegralExpr",
           "package": "dice",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "fmtIntegralExpr",
           "normalized": "Expr a-\u003eString",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "fmtIntegralListExpr",
           "package": "dice",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "fmtIntegralListExpr",
           "normalized": "Expr[a]-\u003eString",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "fmtSimple",
           "package": "dice",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "fmtSimple",
           "normalized": "Expr[a]-\u003eString",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "fmtSimpleRational",
           "package": "dice",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "fmtSimpleRational",
           "normalized": "Expr[Integer]-\u003eString",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "foldExpr",
           "package": "dice",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "foldExpr",
           "normalized": "(String-\u003ea-\u003ea)-\u003e(a-\u003ea-\u003ea)-\u003e(a-\u003ea-\u003ea)-\u003e(a-\u003ea-\u003ea)-\u003e(a-\u003ea-\u003ea)-\u003eExpr a-\u003ea",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "numExp",
           "package": "dice",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "numExp",
           "normalized": "CharParser a(Expr(RVar[b]))",
@@ -502,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "number",
           "package": "dice",
@@ -511,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "number",
           "normalized": "CharParser a(String,Integer)",
@@ -525,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "parseExpr",
           "package": "dice",
@@ -534,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "parseExpr",
           "normalized": "String-\u003eString-\u003eEither ParseError(Expr(RVar[a]))",
@@ -549,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "positiveNumber",
           "package": "dice",
@@ -558,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "positiveNumber",
           "normalized": "CharParser a(String,Integer)",
@@ -573,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "primExp",
           "package": "dice",
@@ -582,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "primExp",
           "normalized": "CharParser Bool(Expr(RVar[a]))",
@@ -597,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "roll",
           "package": "dice",
@@ -606,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "roll",
           "normalized": "a-\u003ea-\u003eRVar[a]",
@@ -620,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "rollEm",
           "package": "dice",
@@ -629,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "rollEm",
           "normalized": "String-\u003eIO(Either ParseError String)",
@@ -644,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "runExpr",
           "package": "dice",
@@ -653,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "runExpr",
           "normalized": "Expr(a b)-\u003ea(Expr b)",
@@ -668,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "showDouble",
           "package": "dice",
@@ -677,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "showDouble",
           "normalized": "Double-\u003eShowS",
@@ -692,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "showError",
           "package": "dice",
@@ -701,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "showError",
           "normalized": "ErrorT String Identity a-\u003eShowS",
@@ -716,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "showErrorWith",
           "package": "dice",
@@ -725,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "showErrorWith",
           "normalized": "(a-\u003eShowS)-\u003eErrorT String Identity a-\u003eShowS",
@@ -740,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "showListConst",
           "package": "dice",
@@ -749,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "showListConst",
           "normalized": "String-\u003ea-\u003eb-\u003eString-\u003eString",
@@ -764,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "showRational",
           "package": "dice",
@@ -773,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "showRational",
           "normalized": "a-\u003eRatio a-\u003eShowS",
@@ -788,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "showRationalWithDouble",
           "package": "dice",
@@ -797,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "showRationalWithDouble",
           "normalized": "Ratio Integer-\u003eShowS",
@@ -812,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "showScalarConst",
           "package": "dice",
@@ -821,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "showScalarConst",
           "normalized": "String-\u003ea-\u003eb-\u003eString-\u003eString",
@@ -836,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "showSimpleConst",
           "package": "dice",
@@ -845,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "showSimpleConst",
           "normalized": "(a-\u003ea-\u003eShowS)-\u003eb-\u003e[a]-\u003ea-\u003eShowS",
@@ -860,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "showSimpleListConst",
           "package": "dice",
@@ -869,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "showSimpleListConst",
           "normalized": "String-\u003e[a]-\u003eInt-\u003eShowS",
@@ -884,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "showSimpleRationalConst",
           "package": "dice",
@@ -893,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "showSimpleRationalConst",
           "normalized": "a-\u003e[Ratio Integer]-\u003eInteger-\u003eShowS",
@@ -908,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "summarizeRollsOver",
           "package": "dice",
@@ -917,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "summarizeRollsOver",
           "normalized": "Int-\u003e[a]-\u003e[a]",
@@ -932,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:41 UTC 2014",
           "module": "Data.Random.Dice",
           "name": "term",
           "package": "dice",
@@ -941,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Data Random Dice",
+          "indexed": "2014-03-11T17:54:41",
           "module": "Data.Random.Dice",
           "name": "term",
           "normalized": "CharParser Bool(Expr(RVar[a]))",

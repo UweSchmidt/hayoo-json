@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simple-rope"
+        "phrase": "simple-rope",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:01 UTC 2014",
           "module": "Data.Rope",
           "name": "Rope",
           "package": "simple-rope",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T20:03:01",
           "module": "Data.Rope",
           "name": "Rope",
           "package": "simple-rope",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:01 UTC 2014",
           "module": "Data.Rope",
           "name": "Rope",
           "package": "simple-rope",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T20:03:01",
           "module": "Data.Rope",
           "name": "Rope",
           "package": "simple-rope",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:01 UTC 2014",
           "module": "Data.Rope",
           "name": "StringLike",
           "package": "simple-rope",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T20:03:01",
           "module": "Data.Rope",
           "name": "StringLike",
           "package": "simple-rope",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:01 UTC 2014",
           "module": "Data.Rope",
           "name": "(\u003c\u003e)",
           "package": "simple-rope",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T20:03:01",
           "module": "Data.Rope",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:01 UTC 2014",
           "module": "Data.Rope",
           "name": "(\u003e.)",
           "package": "simple-rope",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T20:03:01",
           "module": "Data.Rope",
           "name": "(\u003e.) \u003e.",
           "normalized": "a-\u003eElem a-\u003ea",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:01 UTC 2014",
           "module": "Data.Rope",
           "name": "(.\u003c)",
           "package": "simple-rope",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T20:03:01",
           "module": "Data.Rope",
           "name": "(.\u003c) .\u003c",
           "normalized": "Elem a-\u003ea-\u003ea",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:01 UTC 2014",
           "module": "Data.Rope",
           "name": "decomposeAt",
           "package": "simple-rope",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T20:03:01",
           "module": "Data.Rope",
           "name": "decomposeAt",
           "normalized": "Int-\u003ea-\u003e(a,Elem a,a)",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:01 UTC 2014",
           "module": "Data.Rope",
           "name": "empty",
           "package": "simple-rope",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T20:03:01",
           "module": "Data.Rope",
           "name": "empty",
           "package": "simple-rope",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:01 UTC 2014",
           "module": "Data.Rope",
           "name": "pack",
           "package": "simple-rope",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T20:03:01",
           "module": "Data.Rope",
           "name": "pack",
           "normalized": "Int-\u003ea-\u003eRope a",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:01 UTC 2014",
           "module": "Data.Rope",
           "name": "size",
           "package": "simple-rope",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T20:03:01",
           "module": "Data.Rope",
           "name": "size",
           "normalized": "a-\u003eInt",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:01 UTC 2014",
           "module": "Data.Rope",
           "name": "splitAt",
           "package": "simple-rope",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T20:03:01",
           "module": "Data.Rope",
           "name": "splitAt",
           "normalized": "Int-\u003ea-\u003e(a,a)",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:01 UTC 2014",
           "module": "Data.Rope",
           "name": "unpack",
           "package": "simple-rope",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Data Rope",
+          "indexed": "2014-03-11T20:03:01",
           "module": "Data.Rope",
           "name": "unpack",
           "normalized": "Rope a-\u003ea",

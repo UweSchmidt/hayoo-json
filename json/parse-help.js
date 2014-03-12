@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "parse-help"
+        "phrase": "parse-help",
+        "type": "phrase"
       },
       "type": "context"
     }

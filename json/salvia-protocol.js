@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "salvia-protocol"
+        "phrase": "salvia-protocol",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFor more information: http:\u003cem/\u003ewww.ietf.org\u003cem\u003erfc\u003c/em\u003erfc2109.txt\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "Cookie",
           "package": "salvia-protocol",
@@ -28,6 +29,7 @@
         "index": {
           "description": "For more information http www.ietf.org rfc rfc2109.txt",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "Cookie",
           "package": "salvia-protocol",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eCookie\u003c/a\u003e\u003c/code\u003e data type containg one key/value pair with all the\n (potentially optional) meta-data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "Cookie",
           "package": "salvia-protocol",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The Cookie data type containg one key value pair with all the potentially optional meta-data",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "Cookie",
           "package": "salvia-protocol",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection of multiple cookies. These can all be set in one single HTTP\n \u003cem\u003eSet-Cookie\u003c/em\u003e header field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "Cookies",
           "package": "salvia-protocol",
@@ -74,6 +79,7 @@
         "index": {
           "description": "collection of multiple cookies These can all be set in one single HTTP Set-Cookie header field",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "Cookies",
           "package": "salvia-protocol",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "Cookie",
           "package": "salvia-protocol",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "Cookie",
           "normalized": "Cookie String String(Maybe String)(Maybe String)Bool(Maybe String)(Maybe Int)(Maybe String)(Maybe String)[Int]Bool Int",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess comment of a cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "comment",
           "package": "salvia-protocol",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Access comment of cookie",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "comment",
           "normalized": "Cookie-\u003eMaybe String",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess comment-URL of a cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "commentURL",
           "package": "salvia-protocol",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Access comment-URL of cookie",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "commentURL",
           "normalized": "Cookie-\u003eMaybe String",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCookie parser and pretty printer as a lens. To be used in combination with\n the \u003cem\u003eCookie\u003c/em\u003e header field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "cookie",
           "package": "salvia-protocol",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Cookie parser and pretty printer as lens To be used in combination with the Cookie header field",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "cookie",
           "normalized": "String-\u003eCookie",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel for printing and parsing collections of cookies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "cookies",
           "package": "salvia-protocol",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Label for printing and parsing collections of cookies",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "cookies",
           "normalized": "String-\u003eCookies",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess discard flag of a cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "discard",
           "package": "salvia-protocol",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Access discard flag of cookie",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "discard",
           "normalized": "Cookie-\u003eBool",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess domain of a cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "domain",
           "package": "salvia-protocol",
@@ -248,6 +267,7 @@
         "index": {
           "description": "Access domain of cookie",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "domain",
           "normalized": "Cookie-\u003eMaybe String",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an empty cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "empty",
           "package": "salvia-protocol",
@@ -273,6 +294,7 @@
         "index": {
           "description": "Create an empty cookie",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "empty",
           "package": "salvia-protocol",
@@ -286,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess expiration of a cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "expires",
           "package": "salvia-protocol",
@@ -296,6 +319,7 @@
         "index": {
           "description": "Access expiration of cookie",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "expires",
           "normalized": "Cookie-\u003eMaybe String",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list to a cookies collection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "fromList",
           "package": "salvia-protocol",
@@ -321,6 +346,7 @@
         "index": {
           "description": "Convert list to cookies collection",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "fromList",
           "normalized": "[Cookie]-\u003eCookies",
@@ -337,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess max-age of a cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "maxAge",
           "package": "salvia-protocol",
@@ -347,6 +374,7 @@
         "index": {
           "description": "Access max-age of cookie",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "maxAge",
           "normalized": "Cookie-\u003eMaybe Int",
@@ -363,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess name/key of a cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "name",
           "package": "salvia-protocol",
@@ -373,6 +402,7 @@
         "index": {
           "description": "Access name key of cookie",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "name",
           "normalized": "Cookie-\u003eString",
@@ -388,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess path of a cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "path",
           "package": "salvia-protocol",
@@ -398,6 +429,7 @@
         "index": {
           "description": "Access path of cookie",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "path",
           "normalized": "Cookie-\u003eMaybe String",
@@ -413,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase-insensitive way of getting a cookie out of a collection by name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "pickCookie",
           "package": "salvia-protocol",
@@ -423,6 +456,7 @@
         "index": {
           "description": "Case-insensitive way of getting cookie out of collection by name",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "pickCookie",
           "normalized": "String-\u003eCookies-\u003eMaybe Cookie",
@@ -439,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess port of a cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "port",
           "package": "salvia-protocol",
@@ -449,6 +484,7 @@
         "index": {
           "description": "Access port of cookie",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "port",
           "normalized": "Cookie-\u003e[Int]",
@@ -464,6 +500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess secure flag of a cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "secure",
           "package": "salvia-protocol",
@@ -474,6 +511,7 @@
         "index": {
           "description": "Access secure flag of cookie",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "secure",
           "normalized": "Cookie-\u003eBool",
@@ -489,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCookie parser and pretty printer as a lens. To be used in combination with\n the \u003cem\u003eSet-Cookie\u003c/em\u003e header field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "setCookie",
           "package": "salvia-protocol",
@@ -499,6 +538,7 @@
         "index": {
           "description": "Cookie parser and pretty printer as lens To be used in combination with the Set-Cookie header field",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "setCookie",
           "normalized": "String-\u003eCookie",
@@ -515,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCookies parser and pretty printer as a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "setCookies",
           "package": "salvia-protocol",
@@ -525,6 +566,7 @@
         "index": {
           "description": "Cookies parser and pretty printer as lens",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "setCookies",
           "normalized": "String-\u003eCookies",
@@ -541,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the cookies as a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "toList",
           "package": "salvia-protocol",
@@ -551,6 +594,7 @@
         "index": {
           "description": "Get the cookies as list",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "toList",
           "normalized": "Cookies-\u003e[Cookie]",
@@ -567,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess raw cookie mapping from collection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "unCookies",
           "package": "salvia-protocol",
@@ -577,6 +622,7 @@
         "index": {
           "description": "Access raw cookie mapping from collection",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "unCookies",
           "normalized": "Cookies-\u003eMap String Cookie",
@@ -593,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess value of a cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "value",
           "package": "salvia-protocol",
@@ -603,6 +650,7 @@
         "index": {
           "description": "Access value of cookie",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "value",
           "normalized": "Cookie-\u003eString",
@@ -618,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess version of a cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Cookie",
           "name": "version",
           "package": "salvia-protocol",
@@ -628,6 +677,7 @@
         "index": {
           "description": "Access version of cookie",
           "hierarchy": "Network Protocol Cookie",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Cookie",
           "name": "version",
           "normalized": "Cookie-\u003eInt",
@@ -642,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "Data",
           "package": "salvia-protocol",
@@ -650,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "Data",
           "package": "salvia-protocol",
@@ -664,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP headers as mapping from keys to values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "Headers",
           "package": "salvia-protocol",
@@ -673,6 +726,7 @@
         "index": {
           "description": "HTTP headers as mapping from keys to values",
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "Headers",
           "package": "salvia-protocol",
@@ -687,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn HTTP message. The message body is *not* included.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "Http",
           "package": "salvia-protocol",
@@ -696,6 +751,7 @@
         "index": {
           "description": "An HTTP message The message body is not included",
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "Http",
           "package": "salvia-protocol",
@@ -709,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "Key",
           "package": "salvia-protocol",
@@ -717,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "Key",
           "package": "salvia-protocol",
@@ -731,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of HTTP request methods.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "Method",
           "package": "salvia-protocol",
@@ -740,6 +799,7 @@
         "index": {
           "description": "List of HTTP request methods",
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "Method",
           "package": "salvia-protocol",
@@ -754,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest specific part of HTTP messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "Request",
           "package": "salvia-protocol",
@@ -763,6 +824,7 @@
         "index": {
           "description": "Request specific part of HTTP messages",
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "Request",
           "package": "salvia-protocol",
@@ -777,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponse specific part of HTTP messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "Response",
           "package": "salvia-protocol",
@@ -786,6 +849,7 @@
         "index": {
           "description": "Response specific part of HTTP messages",
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "Response",
           "package": "salvia-protocol",
@@ -799,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "Value",
           "package": "salvia-protocol",
@@ -807,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "Value",
           "package": "salvia-protocol",
@@ -821,6 +887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP protocol version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "Version",
           "package": "salvia-protocol",
@@ -830,6 +897,7 @@
         "index": {
           "description": "HTTP protocol version",
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "Version",
           "package": "salvia-protocol",
@@ -958,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "Http",
           "package": "salvia-protocol",
@@ -967,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "Http",
           "package": "salvia-protocol",
@@ -1072,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "Request",
           "package": "salvia-protocol",
@@ -1081,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "Request",
           "package": "salvia-protocol",
@@ -1094,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "Response",
           "package": "salvia-protocol",
@@ -1103,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "Response",
           "package": "salvia-protocol",
@@ -1139,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "Version",
           "package": "salvia-protocol",
@@ -1148,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "Version",
           "package": "salvia-protocol",
@@ -1161,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "__method",
           "package": "salvia-protocol",
@@ -1170,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "__method",
           "package": "salvia-protocol",
@@ -1182,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "__status",
           "package": "salvia-protocol",
@@ -1191,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "__status",
           "package": "salvia-protocol",
@@ -1203,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "__uri",
           "package": "salvia-protocol",
@@ -1212,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "__uri",
           "package": "salvia-protocol",
@@ -1224,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "_headers",
           "package": "salvia-protocol",
@@ -1233,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "_headers",
           "package": "salvia-protocol",
@@ -1245,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "_headline",
           "package": "salvia-protocol",
@@ -1254,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "_headline",
           "package": "salvia-protocol",
@@ -1266,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "_major",
           "package": "salvia-protocol",
@@ -1275,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "_major",
           "package": "salvia-protocol",
@@ -1287,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "_method",
           "package": "salvia-protocol",
@@ -1296,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "_method",
           "normalized": "Request-\u003eMethod",
@@ -1310,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "_minor",
           "package": "salvia-protocol",
@@ -1319,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "_minor",
           "package": "salvia-protocol",
@@ -1331,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "_status",
           "package": "salvia-protocol",
@@ -1340,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "_status",
           "normalized": "Response-\u003eStatus",
@@ -1354,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "_uri",
           "package": "salvia-protocol",
@@ -1363,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "_uri",
           "normalized": "Request-\u003eString",
@@ -1377,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Data",
           "name": "_version",
           "package": "salvia-protocol",
@@ -1386,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Data",
           "name": "_version",
           "package": "salvia-protocol",
@@ -1860,6 +1958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Headers",
           "name": "Headers",
           "package": "salvia-protocol",
@@ -1868,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Headers",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Headers",
           "name": "Headers",
           "package": "salvia-protocol",
@@ -2386,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Parser",
           "name": "Parser",
           "package": "salvia-protocol",
@@ -2394,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Parser",
           "name": "Parser",
           "package": "salvia-protocol",
@@ -2667,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Printer",
           "name": "Printer",
           "package": "salvia-protocol",
@@ -2675,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Printer",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Printer",
           "name": "Printer",
           "package": "salvia-protocol",
@@ -2742,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Status",
           "name": "Status",
           "package": "salvia-protocol",
@@ -2750,6 +2855,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http Status",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Status",
           "name": "Status",
           "package": "salvia-protocol",
@@ -2764,6 +2870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP status codes. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Status",
           "name": "Status",
           "package": "salvia-protocol",
@@ -2773,6 +2880,7 @@
         "index": {
           "description": "HTTP status codes",
           "hierarchy": "Network Protocol Http Status",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Status",
           "name": "Status",
           "package": "salvia-protocol",
@@ -3797,6 +3905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRFC2616 sec6.1.1 Status Code and Reason Phrase.\n\u003c/p\u003e\u003cp\u003eBidirectional mapping from status numbers to codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http.Status",
           "name": "statusCodes",
           "package": "salvia-protocol",
@@ -3807,6 +3916,7 @@
         "index": {
           "description": "RFC2616 sec6.1.1 Status Code and Reason Phrase Bidirectional mapping from status numbers to codes",
           "hierarchy": "Network Protocol Http Status",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http.Status",
           "name": "statusCodes",
           "package": "salvia-protocol",
@@ -3874,6 +3984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http",
           "name": "Http",
           "package": "salvia-protocol",
@@ -3882,6 +3993,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http",
           "name": "Http",
           "package": "salvia-protocol",
@@ -3896,6 +4008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP headers as mapping from keys to values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http",
           "name": "Headers",
           "package": "salvia-protocol",
@@ -3905,6 +4018,7 @@
         "index": {
           "description": "HTTP headers as mapping from keys to values",
           "hierarchy": "Network Protocol Http",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http",
           "name": "Headers",
           "package": "salvia-protocol",
@@ -3919,6 +4033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn HTTP message. The message body is *not* included.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http",
           "name": "Http",
           "package": "salvia-protocol",
@@ -3928,6 +4043,7 @@
         "index": {
           "description": "An HTTP message The message body is not included",
           "hierarchy": "Network Protocol Http",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http",
           "name": "Http",
           "package": "salvia-protocol",
@@ -3941,6 +4057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http",
           "name": "Key",
           "package": "salvia-protocol",
@@ -3949,6 +4066,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http",
           "name": "Key",
           "package": "salvia-protocol",
@@ -3963,6 +4081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of HTTP request methods.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http",
           "name": "Method",
           "package": "salvia-protocol",
@@ -3972,6 +4091,7 @@
         "index": {
           "description": "List of HTTP request methods",
           "hierarchy": "Network Protocol Http",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http",
           "name": "Method",
           "package": "salvia-protocol",
@@ -3986,6 +4106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest specific part of HTTP messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http",
           "name": "Request",
           "package": "salvia-protocol",
@@ -3995,6 +4116,7 @@
         "index": {
           "description": "Request specific part of HTTP messages",
           "hierarchy": "Network Protocol Http",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http",
           "name": "Request",
           "package": "salvia-protocol",
@@ -4009,6 +4131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponse specific part of HTTP messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http",
           "name": "Response",
           "package": "salvia-protocol",
@@ -4018,6 +4141,7 @@
         "index": {
           "description": "Response specific part of HTTP messages",
           "hierarchy": "Network Protocol Http",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http",
           "name": "Response",
           "package": "salvia-protocol",
@@ -4032,6 +4156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP status codes. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http",
           "name": "Status",
           "package": "salvia-protocol",
@@ -4041,6 +4166,7 @@
         "index": {
           "description": "HTTP status codes",
           "hierarchy": "Network Protocol Http",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http",
           "name": "Status",
           "package": "salvia-protocol",
@@ -4054,6 +4180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http",
           "name": "Value",
           "package": "salvia-protocol",
@@ -4062,6 +4189,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http",
           "name": "Value",
           "package": "salvia-protocol",
@@ -4076,6 +4204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP protocol version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http",
           "name": "Version",
           "package": "salvia-protocol",
@@ -4085,6 +4214,7 @@
         "index": {
           "description": "HTTP protocol version",
           "hierarchy": "Network Protocol Http",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http",
           "name": "Version",
           "package": "salvia-protocol",
@@ -4098,6 +4228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http",
           "name": "Http",
           "package": "salvia-protocol",
@@ -4107,6 +4238,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http",
           "name": "Http",
           "package": "salvia-protocol",
@@ -4120,6 +4252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http",
           "name": "Request",
           "package": "salvia-protocol",
@@ -4129,6 +4262,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http",
           "name": "Request",
           "package": "salvia-protocol",
@@ -4142,6 +4276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Http",
           "name": "Response",
           "package": "salvia-protocol",
@@ -4151,6 +4286,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Http",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Http",
           "name": "Response",
           "package": "salvia-protocol",
@@ -4165,6 +4301,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHandling mime types. This module contains a mapping from file extensions to\nmime-types taken from the Apache webserver project.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Mime",
           "name": "Mime",
           "package": "salvia-protocol",
@@ -4174,6 +4311,7 @@
         "index": {
           "description": "Handling mime types This module contains mapping from file extensions to mime-types taken from the Apache webserver project",
           "hierarchy": "Network Protocol Mime",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Mime",
           "name": "Mime",
           "package": "salvia-protocol",
@@ -4187,6 +4325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Mime",
           "name": "Mime",
           "package": "salvia-protocol",
@@ -4195,6 +4334,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Mime",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Mime",
           "name": "Mime",
           "package": "salvia-protocol",
@@ -4209,6 +4349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default mimetype is text/plain. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Mime",
           "name": "defaultMime",
           "package": "salvia-protocol",
@@ -4219,6 +4360,7 @@
         "index": {
           "description": "The default mimetype is text plain",
           "hierarchy": "Network Protocol Mime",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Mime",
           "name": "defaultMime",
           "package": "salvia-protocol",
@@ -4233,6 +4375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe mapping from extension to mimetype. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Mime",
           "name": "extensionToMime",
           "package": "salvia-protocol",
@@ -4243,6 +4386,7 @@
         "index": {
           "description": "The mapping from extension to mimetype",
           "hierarchy": "Network Protocol Mime",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Mime",
           "name": "extensionToMime",
           "package": "salvia-protocol",
@@ -4257,6 +4401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the mimetype for the specified extension. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Mime",
           "name": "mime",
           "package": "salvia-protocol",
@@ -4267,6 +4412,7 @@
         "index": {
           "description": "Get the mimetype for the specified extension",
           "hierarchy": "Network Protocol Mime",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Mime",
           "name": "mime",
           "normalized": "String-\u003eMaybe Mime",
@@ -4281,6 +4427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Chars",
           "name": "Chars",
           "package": "salvia-protocol",
@@ -4289,6 +4436,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Chars",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Chars",
           "name": "Chars",
           "package": "salvia-protocol",
@@ -4302,6 +4450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Chars",
           "name": "genDelims",
           "package": "salvia-protocol",
@@ -4311,6 +4460,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Chars",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Chars",
           "name": "genDelims",
           "normalized": "Char-\u003eBool",
@@ -4326,6 +4476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Chars",
           "name": "subDelims",
           "package": "salvia-protocol",
@@ -4335,6 +4486,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Chars",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Chars",
           "name": "subDelims",
           "normalized": "Char-\u003eBool",
@@ -4350,6 +4502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Chars",
           "name": "unreserved",
           "package": "salvia-protocol",
@@ -4359,6 +4512,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Chars",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Chars",
           "name": "unreserved",
           "normalized": "Char-\u003eBool",
@@ -4373,6 +4527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "Data",
           "package": "salvia-protocol",
@@ -4381,6 +4536,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "Data",
           "package": "salvia-protocol",
@@ -4394,6 +4550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "Authority",
           "package": "salvia-protocol",
@@ -4402,6 +4559,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "Authority",
           "package": "salvia-protocol",
@@ -4415,6 +4573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "Domain",
           "package": "salvia-protocol",
@@ -4423,6 +4582,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "Domain",
           "package": "salvia-protocol",
@@ -4436,6 +4596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "Fragment",
           "package": "salvia-protocol",
@@ -4444,6 +4605,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "Fragment",
           "package": "salvia-protocol",
@@ -4457,6 +4619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "Hash",
           "package": "salvia-protocol",
@@ -4465,6 +4628,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "Hash",
           "package": "salvia-protocol",
@@ -4478,6 +4642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "Host",
           "package": "salvia-protocol",
@@ -4486,6 +4651,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "Host",
           "package": "salvia-protocol",
@@ -4499,6 +4665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "IPv4",
           "package": "salvia-protocol",
@@ -4507,6 +4674,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "IPv4",
           "package": "salvia-protocol",
@@ -4520,6 +4688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "Path",
           "package": "salvia-protocol",
@@ -4528,6 +4697,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "Path",
           "package": "salvia-protocol",
@@ -4541,6 +4711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "PathSegment",
           "package": "salvia-protocol",
@@ -4549,6 +4720,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "PathSegment",
           "package": "salvia-protocol",
@@ -4562,6 +4734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "Port",
           "package": "salvia-protocol",
@@ -4570,6 +4743,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "Port",
           "package": "salvia-protocol",
@@ -4583,6 +4757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "Query",
           "package": "salvia-protocol",
@@ -4591,6 +4766,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "Query",
           "package": "salvia-protocol",
@@ -4604,6 +4780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "RegName",
           "package": "salvia-protocol",
@@ -4612,6 +4789,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "RegName",
           "package": "salvia-protocol",
@@ -4625,6 +4803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "Scheme",
           "package": "salvia-protocol",
@@ -4633,6 +4812,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "Scheme",
           "package": "salvia-protocol",
@@ -4646,6 +4826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "Uri",
           "package": "salvia-protocol",
@@ -4654,6 +4835,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "Uri",
           "package": "salvia-protocol",
@@ -4667,6 +4849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "UserInfo",
           "package": "salvia-protocol",
@@ -4675,6 +4858,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "UserInfo",
           "package": "salvia-protocol",
@@ -4688,6 +4872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "Authority",
           "package": "salvia-protocol",
@@ -4697,6 +4882,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "Authority",
           "package": "salvia-protocol",
@@ -4710,6 +4896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "Domain",
           "package": "salvia-protocol",
@@ -4719,6 +4906,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "Domain",
           "package": "salvia-protocol",
@@ -4732,6 +4920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "Hostname",
           "package": "salvia-protocol",
@@ -4741,6 +4930,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "Hostname",
           "package": "salvia-protocol",
@@ -4754,6 +4944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "IP",
           "package": "salvia-protocol",
@@ -4763,6 +4954,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "IP",
           "package": "salvia-protocol",
@@ -4799,6 +4991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "Path",
           "package": "salvia-protocol",
@@ -4808,6 +5001,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "Path",
           "package": "salvia-protocol",
@@ -4821,6 +5015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "RegName",
           "package": "salvia-protocol",
@@ -4830,6 +5025,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "RegName",
           "package": "salvia-protocol",
@@ -4843,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "Uri",
           "package": "salvia-protocol",
@@ -4852,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "Uri",
           "package": "salvia-protocol",
@@ -4865,6 +5063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "__domain",
           "package": "salvia-protocol",
@@ -4874,6 +5073,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "__domain",
           "package": "salvia-protocol",
@@ -4886,6 +5086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "__fragment",
           "package": "salvia-protocol",
@@ -4895,6 +5096,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "__fragment",
           "package": "salvia-protocol",
@@ -4907,6 +5109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "__host",
           "package": "salvia-protocol",
@@ -4916,6 +5119,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "__host",
           "package": "salvia-protocol",
@@ -4928,6 +5132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "__ipv4",
           "package": "salvia-protocol",
@@ -4937,6 +5142,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "__ipv4",
           "package": "salvia-protocol",
@@ -4949,6 +5155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "__parts",
           "package": "salvia-protocol",
@@ -4958,6 +5165,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "__parts",
           "normalized": "[String]",
@@ -4972,6 +5180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "__path",
           "package": "salvia-protocol",
@@ -4981,6 +5190,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "__path",
           "package": "salvia-protocol",
@@ -4993,6 +5203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "__port",
           "package": "salvia-protocol",
@@ -5002,6 +5213,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "__port",
           "package": "salvia-protocol",
@@ -5014,6 +5226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "__query",
           "package": "salvia-protocol",
@@ -5023,6 +5236,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "__query",
           "package": "salvia-protocol",
@@ -5035,6 +5249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "__regname",
           "package": "salvia-protocol",
@@ -5044,6 +5259,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "__regname",
           "package": "salvia-protocol",
@@ -5056,6 +5272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "__segments",
           "package": "salvia-protocol",
@@ -5065,6 +5282,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "__segments",
           "normalized": "[PathSegment]",
@@ -5079,6 +5297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "__userinfo",
           "package": "salvia-protocol",
@@ -5088,6 +5307,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "__userinfo",
           "package": "salvia-protocol",
@@ -5100,6 +5320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "_authority",
           "package": "salvia-protocol",
@@ -5109,6 +5330,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "_authority",
           "package": "salvia-protocol",
@@ -5121,6 +5343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "_domain",
           "package": "salvia-protocol",
@@ -5130,6 +5353,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "_domain",
           "normalized": "Host-\u003eDomain",
@@ -5145,6 +5369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess raw (URI-encoded) fragment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "_fragment",
           "package": "salvia-protocol",
@@ -5155,6 +5380,7 @@
         "index": {
           "description": "Access raw URI-encoded fragment",
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "_fragment",
           "normalized": "Uri-\u003eFragment",
@@ -5169,6 +5395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "_host",
           "package": "salvia-protocol",
@@ -5178,6 +5405,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "_host",
           "normalized": "Authority-\u003eHost",
@@ -5192,6 +5420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "_ipv4",
           "package": "salvia-protocol",
@@ -5201,6 +5430,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "_ipv4",
           "normalized": "Host-\u003eIPv",
@@ -5215,6 +5445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "_parts",
           "package": "salvia-protocol",
@@ -5224,6 +5455,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "_parts",
           "normalized": "Domain-\u003e[String]",
@@ -5238,6 +5470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "_path",
           "package": "salvia-protocol",
@@ -5247,6 +5480,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "_path",
           "normalized": "Uri-\u003ePath",
@@ -5261,6 +5495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "_port",
           "package": "salvia-protocol",
@@ -5270,6 +5505,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "_port",
           "normalized": "Authority-\u003eMaybe Port",
@@ -5285,6 +5521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess raw (URI-encoded) query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "_query",
           "package": "salvia-protocol",
@@ -5295,6 +5532,7 @@
         "index": {
           "description": "Access raw URI-encoded query",
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "_query",
           "normalized": "Uri-\u003eQuery",
@@ -5309,6 +5547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "_regname",
           "package": "salvia-protocol",
@@ -5318,6 +5557,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "_regname",
           "normalized": "Host-\u003eString",
@@ -5332,6 +5572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "_relative",
           "package": "salvia-protocol",
@@ -5341,6 +5582,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "_relative",
           "package": "salvia-protocol",
@@ -5353,6 +5595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "_scheme",
           "package": "salvia-protocol",
@@ -5362,6 +5605,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "_scheme",
           "package": "salvia-protocol",
@@ -5374,6 +5618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "_segments",
           "package": "salvia-protocol",
@@ -5383,6 +5628,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "_segments",
           "normalized": "Path-\u003e[PathSegment]",
@@ -5397,6 +5643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Data",
           "name": "_userinfo",
           "package": "salvia-protocol",
@@ -5406,6 +5653,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Data",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Data",
           "name": "_userinfo",
           "normalized": "Authority-\u003eUserInfo",
@@ -5931,6 +6179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Encode",
           "name": "Encode",
           "package": "salvia-protocol",
@@ -5939,6 +6188,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Encode",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Encode",
           "name": "Encode",
           "package": "salvia-protocol",
@@ -6030,6 +6280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "Parser",
           "package": "salvia-protocol",
@@ -6038,6 +6289,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "Parser",
           "package": "salvia-protocol",
@@ -6051,6 +6303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "_pSlashSegments",
           "package": "salvia-protocol",
@@ -6060,6 +6313,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "_pSlashSegments",
           "normalized": "GenParser Char a[PathSegment]",
@@ -6101,6 +6355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pAbsoluteUri",
           "package": "salvia-protocol",
@@ -6110,6 +6365,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pAbsoluteUri",
           "package": "salvia-protocol",
@@ -6123,6 +6379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pAlpha",
           "package": "salvia-protocol",
@@ -6132,6 +6389,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pAlpha",
           "package": "salvia-protocol",
@@ -6145,6 +6403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pAlphanum",
           "package": "salvia-protocol",
@@ -6154,6 +6413,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pAlphanum",
           "package": "salvia-protocol",
@@ -6167,6 +6427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pAuthority",
           "package": "salvia-protocol",
@@ -6176,6 +6437,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pAuthority",
           "package": "salvia-protocol",
@@ -6189,6 +6451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pDecOctet",
           "package": "salvia-protocol",
@@ -6198,6 +6461,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pDecOctet",
           "package": "salvia-protocol",
@@ -6211,6 +6475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pDigit",
           "package": "salvia-protocol",
@@ -6220,6 +6485,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pDigit",
           "package": "salvia-protocol",
@@ -6233,6 +6499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pDomainlabel",
           "package": "salvia-protocol",
@@ -6242,6 +6509,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pDomainlabel",
           "package": "salvia-protocol",
@@ -6255,6 +6523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pFragment",
           "package": "salvia-protocol",
@@ -6264,6 +6533,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pFragment",
           "package": "salvia-protocol",
@@ -6277,6 +6547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pGenDelims",
           "package": "salvia-protocol",
@@ -6286,6 +6557,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pGenDelims",
           "package": "salvia-protocol",
@@ -6299,6 +6571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pHex",
           "package": "salvia-protocol",
@@ -6308,6 +6581,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pHex",
           "package": "salvia-protocol",
@@ -6321,6 +6595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pHost",
           "package": "salvia-protocol",
@@ -6330,6 +6605,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pHost",
           "package": "salvia-protocol",
@@ -6343,6 +6619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pHostname",
           "package": "salvia-protocol",
@@ -6352,6 +6629,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pHostname",
           "normalized": "GenParser Char a[String]",
@@ -6367,6 +6645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pIPv4address",
           "package": "salvia-protocol",
@@ -6376,6 +6655,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pIPv4address",
           "normalized": "GenParser Char a[Int]",
@@ -6391,6 +6671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pPath",
           "package": "salvia-protocol",
@@ -6400,6 +6681,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pPath",
           "package": "salvia-protocol",
@@ -6413,6 +6695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pPathAbempty",
           "package": "salvia-protocol",
@@ -6422,6 +6705,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pPathAbempty",
           "package": "salvia-protocol",
@@ -6435,6 +6719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pPathAbsolute",
           "package": "salvia-protocol",
@@ -6444,6 +6729,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pPathAbsolute",
           "package": "salvia-protocol",
@@ -6457,6 +6743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pPathEmpty",
           "package": "salvia-protocol",
@@ -6466,6 +6753,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pPathEmpty",
           "package": "salvia-protocol",
@@ -6479,6 +6767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pPathNoscheme",
           "package": "salvia-protocol",
@@ -6488,6 +6777,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pPathNoscheme",
           "package": "salvia-protocol",
@@ -6501,6 +6791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pPathRootless",
           "package": "salvia-protocol",
@@ -6510,6 +6801,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pPathRootless",
           "package": "salvia-protocol",
@@ -6523,6 +6815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pPchar",
           "package": "salvia-protocol",
@@ -6532,6 +6825,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pPchar",
           "package": "salvia-protocol",
@@ -6545,6 +6839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pPctEncoded",
           "package": "salvia-protocol",
@@ -6554,6 +6849,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pPctEncoded",
           "package": "salvia-protocol",
@@ -6567,6 +6863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pPort",
           "package": "salvia-protocol",
@@ -6576,6 +6873,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pPort",
           "package": "salvia-protocol",
@@ -6589,6 +6887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pQuery",
           "package": "salvia-protocol",
@@ -6598,6 +6897,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pQuery",
           "package": "salvia-protocol",
@@ -6611,6 +6911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pRegName",
           "package": "salvia-protocol",
@@ -6620,6 +6921,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pRegName",
           "package": "salvia-protocol",
@@ -6633,6 +6935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pRelativePart",
           "package": "salvia-protocol",
@@ -6642,6 +6945,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pRelativePart",
           "normalized": "GenParser Char a(Query-\u003eFragment-\u003eUri)",
@@ -6657,6 +6961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pRelativeRef",
           "package": "salvia-protocol",
@@ -6666,6 +6971,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pRelativeRef",
           "package": "salvia-protocol",
@@ -6679,6 +6985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pReserved",
           "package": "salvia-protocol",
@@ -6688,6 +6995,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pReserved",
           "package": "salvia-protocol",
@@ -6701,6 +7009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pScheme",
           "package": "salvia-protocol",
@@ -6710,6 +7019,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pScheme",
           "package": "salvia-protocol",
@@ -6723,6 +7033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pSegment",
           "package": "salvia-protocol",
@@ -6732,6 +7043,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pSegment",
           "package": "salvia-protocol",
@@ -6745,6 +7057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pSegmentNz",
           "package": "salvia-protocol",
@@ -6754,6 +7067,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pSegmentNz",
           "package": "salvia-protocol",
@@ -6767,6 +7081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pSegmentNzNc",
           "package": "salvia-protocol",
@@ -6776,6 +7091,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pSegmentNzNc",
           "package": "salvia-protocol",
@@ -6789,6 +7105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pSubDelims",
           "package": "salvia-protocol",
@@ -6798,6 +7115,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pSubDelims",
           "package": "salvia-protocol",
@@ -6811,6 +7129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pUnreserved",
           "package": "salvia-protocol",
@@ -6820,6 +7139,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pUnreserved",
           "package": "salvia-protocol",
@@ -6833,6 +7153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pUri",
           "package": "salvia-protocol",
@@ -6842,6 +7163,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pUri",
           "package": "salvia-protocol",
@@ -6855,6 +7177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pUriReference",
           "package": "salvia-protocol",
@@ -6864,6 +7187,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pUriReference",
           "package": "salvia-protocol",
@@ -6877,6 +7201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pUserinfo",
           "package": "salvia-protocol",
@@ -6886,6 +7211,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Parser",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Parser",
           "name": "pUserinfo",
           "package": "salvia-protocol",
@@ -7114,6 +7440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Path",
           "name": "Path",
           "package": "salvia-protocol",
@@ -7122,6 +7449,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Path",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Path",
           "name": "Path",
           "package": "salvia-protocol",
@@ -7264,6 +7592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Printer",
           "name": "Printer",
           "package": "salvia-protocol",
@@ -7272,6 +7601,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Printer",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Printer",
           "name": "Printer",
           "package": "salvia-protocol",
@@ -7286,6 +7616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShowS version of intersperse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Printer",
           "name": "intersperseS",
           "package": "salvia-protocol",
@@ -7296,6 +7627,7 @@
         "index": {
           "description": "ShowS version of intersperse",
           "hierarchy": "Network Protocol Uri Printer",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Printer",
           "name": "intersperseS",
           "normalized": "ShowS-\u003e[ShowS]-\u003eShowS",
@@ -7310,6 +7642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Printer",
           "name": "sc",
           "package": "salvia-protocol",
@@ -7319,6 +7652,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Printer",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Printer",
           "name": "sc",
           "normalized": "Char-\u003eShowS",
@@ -7333,6 +7667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Printer",
           "name": "ss",
           "package": "salvia-protocol",
@@ -7342,6 +7677,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Printer",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Printer",
           "name": "ss",
           "normalized": "String-\u003eShowS",
@@ -7356,6 +7692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Query",
           "name": "Query",
           "package": "salvia-protocol",
@@ -7364,6 +7701,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Query",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Query",
           "name": "Query",
           "package": "salvia-protocol",
@@ -7377,6 +7715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Query",
           "name": "Parameters",
           "package": "salvia-protocol",
@@ -7385,6 +7724,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Query",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Query",
           "name": "Parameters",
           "package": "salvia-protocol",
@@ -7399,6 +7739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric label for accessing key value pairs encoded in a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Query",
           "name": "keyValues",
           "package": "salvia-protocol",
@@ -7409,6 +7750,7 @@
         "index": {
           "description": "Generic label for accessing key value pairs encoded in string",
           "hierarchy": "Network Protocol Uri Query",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Query",
           "name": "keyValues",
           "normalized": "String-\u003eString-\u003eString-\u003eParameters",
@@ -7477,6 +7819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Query",
           "name": "trim",
           "package": "salvia-protocol",
@@ -7486,6 +7829,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Query",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Query",
           "name": "trim",
           "normalized": "String-\u003eString",
@@ -7501,6 +7845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric label for accessing lists of values encoded in a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Query",
           "name": "values",
           "package": "salvia-protocol",
@@ -7511,6 +7856,7 @@
         "index": {
           "description": "Generic label for accessing lists of values encoded in string",
           "hierarchy": "Network Protocol Uri Query",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Query",
           "name": "values",
           "normalized": "String-\u003eString-\u003e[String]",
@@ -7525,6 +7871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri.Remap",
           "name": "Remap",
           "package": "salvia-protocol",
@@ -7533,6 +7880,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri Remap",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri.Remap",
           "name": "Remap",
           "package": "salvia-protocol",
@@ -7573,6 +7921,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSee rfc2396 for more info. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "Uri",
           "package": "salvia-protocol",
@@ -7582,6 +7931,7 @@
         "index": {
           "description": "See rfc2396 for more info",
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "Uri",
           "package": "salvia-protocol",
@@ -7595,6 +7945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "Authority",
           "package": "salvia-protocol",
@@ -7603,6 +7954,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "Authority",
           "package": "salvia-protocol",
@@ -7616,6 +7968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "Domain",
           "package": "salvia-protocol",
@@ -7624,6 +7977,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "Domain",
           "package": "salvia-protocol",
@@ -7637,6 +7991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "Fragment",
           "package": "salvia-protocol",
@@ -7645,6 +8000,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "Fragment",
           "package": "salvia-protocol",
@@ -7658,6 +8014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "Hash",
           "package": "salvia-protocol",
@@ -7666,6 +8023,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "Hash",
           "package": "salvia-protocol",
@@ -7679,6 +8037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "Host",
           "package": "salvia-protocol",
@@ -7687,6 +8046,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "Host",
           "package": "salvia-protocol",
@@ -7700,6 +8060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "IPv4",
           "package": "salvia-protocol",
@@ -7708,6 +8069,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "IPv4",
           "package": "salvia-protocol",
@@ -7721,6 +8083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "Parameters",
           "package": "salvia-protocol",
@@ -7729,6 +8092,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "Parameters",
           "package": "salvia-protocol",
@@ -7742,6 +8106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "Path",
           "package": "salvia-protocol",
@@ -7750,6 +8115,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "Path",
           "package": "salvia-protocol",
@@ -7763,6 +8129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "PathSegment",
           "package": "salvia-protocol",
@@ -7771,6 +8138,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "PathSegment",
           "package": "salvia-protocol",
@@ -7784,6 +8152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "Port",
           "package": "salvia-protocol",
@@ -7792,6 +8161,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "Port",
           "package": "salvia-protocol",
@@ -7805,6 +8175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "Query",
           "package": "salvia-protocol",
@@ -7813,6 +8184,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "Query",
           "package": "salvia-protocol",
@@ -7826,6 +8198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "RegName",
           "package": "salvia-protocol",
@@ -7834,6 +8207,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "RegName",
           "package": "salvia-protocol",
@@ -7847,6 +8221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "Scheme",
           "package": "salvia-protocol",
@@ -7855,6 +8230,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "Scheme",
           "package": "salvia-protocol",
@@ -7868,6 +8244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "Uri",
           "package": "salvia-protocol",
@@ -7876,6 +8253,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "Uri",
           "package": "salvia-protocol",
@@ -7889,6 +8267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "UserInfo",
           "package": "salvia-protocol",
@@ -7897,6 +8276,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "UserInfo",
           "package": "salvia-protocol",
@@ -7910,6 +8290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "Authority",
           "package": "salvia-protocol",
@@ -7919,6 +8300,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "Authority",
           "package": "salvia-protocol",
@@ -7932,6 +8314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "Domain",
           "package": "salvia-protocol",
@@ -7941,6 +8324,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "Domain",
           "normalized": "Domain[String]",
@@ -7956,6 +8340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "Hostname",
           "package": "salvia-protocol",
@@ -7965,6 +8350,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "Hostname",
           "package": "salvia-protocol",
@@ -7978,6 +8364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "IP",
           "package": "salvia-protocol",
@@ -7987,6 +8374,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "IP",
           "package": "salvia-protocol",
@@ -8000,6 +8388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "Path",
           "package": "salvia-protocol",
@@ -8009,6 +8398,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "Path",
           "normalized": "Path[PathSegment]",
@@ -8024,6 +8414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "RegName",
           "package": "salvia-protocol",
@@ -8033,6 +8424,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "RegName",
           "package": "salvia-protocol",
@@ -8046,6 +8438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:54 UTC 2014",
           "module": "Network.Protocol.Uri",
           "name": "Uri",
           "package": "salvia-protocol",
@@ -8055,6 +8448,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol Uri",
+          "indexed": "2014-03-11T19:56:54",
           "module": "Network.Protocol.Uri",
           "name": "Uri",
           "package": "salvia-protocol",

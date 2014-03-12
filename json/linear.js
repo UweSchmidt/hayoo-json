@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "linear"
+        "phrase": "linear",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOperations on affine spaces.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Affine",
           "name": "Affine",
           "package": "linear",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Operations on affine spaces",
           "hierarchy": "Linear Affine",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Affine",
           "name": "Affine",
           "package": "linear",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn affine space is roughly a vector space in which we have\n forgotten or at least pretend to have forgotten the origin.\n\u003c/p\u003e\u003cpre\u003e a .+^ (b .-. a)  =  b@\n (a .+^ u) .+^ v  =  a .+^ (u ^+^ v)@\n (a .-. b) ^+^ v  =  (a .+^ v) .-. q@\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Affine",
           "name": "Affine",
           "package": "linear",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An affine space is roughly vector space in which we have forgotten or at least pretend to have forgotten the origin",
           "hierarchy": "Linear Affine",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Affine",
           "name": "Affine",
           "package": "linear",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handy wrapper to help distinguish points from vectors at the\n type level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Affine",
           "name": "Point",
           "package": "linear",
@@ -74,6 +79,7 @@
         "index": {
           "description": "handy wrapper to help distinguish points from vectors at the type level",
           "hierarchy": "Linear Affine",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Affine",
           "name": "Point",
           "package": "linear",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a vector offset to a point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Affine",
           "name": "(.+^)",
           "package": "linear",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Add vector offset to point",
           "hierarchy": "Linear Affine",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Affine",
           "name": "(.+^) .+^",
           "normalized": "a b-\u003eDiff a b-\u003ea b",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract a vector offset from a point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Affine",
           "name": "(.-^)",
           "package": "linear",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Subtract vector offset from point",
           "hierarchy": "Linear Affine",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Affine",
           "name": "(.-^) .-^",
           "normalized": "a b-\u003eDiff a b-\u003ea b",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the difference between two points as a vector offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Affine",
           "name": "(.-.)",
           "package": "linear",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Get the difference between two points as vector offset",
           "hierarchy": "Linear Affine",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Affine",
           "name": "(.-.) .-.",
           "normalized": "a b-\u003ea b-\u003eDiff a b",
@@ -162,6 +174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Affine",
           "name": "P",
           "package": "linear",
@@ -171,6 +184,7 @@
         },
         "index": {
           "hierarchy": "Linear Affine",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Affine",
           "name": "P",
           "package": "linear",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistance between two points in an affine space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Affine",
           "name": "distanceA",
           "package": "linear",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Distance between two points in an affine space",
           "hierarchy": "Linear Affine",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Affine",
           "name": "distanceA",
           "normalized": "a b-\u003ea b-\u003eb",
@@ -208,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Affine",
           "name": "lensP",
           "package": "linear",
@@ -217,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Linear Affine",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Affine",
           "name": "lensP",
           "package": "linear",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector spaces have origins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Affine",
           "name": "origin",
           "package": "linear",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Vector spaces have origins",
           "hierarchy": "Linear Affine",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Affine",
           "name": "origin",
           "package": "linear",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the quadrance of the difference (the square of the distance)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Affine",
           "name": "qdA",
           "package": "linear",
@@ -263,6 +284,7 @@
         "index": {
           "description": "Compute the quadrance of the difference the square of the distance",
           "hierarchy": "Linear Affine",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Affine",
           "name": "qdA",
           "normalized": "a b-\u003ea b-\u003eb",
@@ -277,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Algebra",
           "name": "Algebra",
           "package": "linear",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Linear Algebra",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Algebra",
           "name": "Algebra",
           "package": "linear",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative unital algebra over a ring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Algebra",
           "name": "Algebra",
           "package": "linear",
@@ -308,6 +333,7 @@
         "index": {
           "description": "An associative unital algebra over ring",
           "hierarchy": "Linear Algebra",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Algebra",
           "name": "Algebra",
           "package": "linear",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA coassociative counital coalgebra over a ring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Algebra",
           "name": "Coalgebra",
           "package": "linear",
@@ -331,6 +358,7 @@
         "index": {
           "description": "coassociative counital coalgebra over ring",
           "hierarchy": "Linear Algebra",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Algebra",
           "name": "Coalgebra",
           "package": "linear",
@@ -344,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Algebra",
           "name": "comult",
           "package": "linear",
@@ -353,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Linear Algebra",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Algebra",
           "name": "comult",
           "normalized": "(a-\u003eb)-\u003ea-\u003ea-\u003eb",
@@ -367,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Algebra",
           "name": "comultRep",
           "package": "linear",
@@ -376,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Linear Algebra",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Algebra",
           "name": "comultRep",
           "normalized": "a b-\u003ea(a b)",
@@ -391,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Algebra",
           "name": "counital",
           "package": "linear",
@@ -400,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Linear Algebra",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Algebra",
           "name": "counital",
           "normalized": "(a-\u003eb)-\u003eb",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Algebra",
           "name": "counitalRep",
           "package": "linear",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Linear Algebra",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Algebra",
           "name": "counitalRep",
           "normalized": "a b-\u003eb",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Algebra",
           "name": "mult",
           "package": "linear",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Linear Algebra",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Algebra",
           "name": "mult",
           "normalized": "(a-\u003ea-\u003eb)-\u003ea-\u003eb",
@@ -461,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Algebra",
           "name": "multRep",
           "package": "linear",
@@ -470,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Linear Algebra",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Algebra",
           "name": "multRep",
           "normalized": "a(a b)-\u003ea b",
@@ -485,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Algebra",
           "name": "unital",
           "package": "linear",
@@ -494,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Linear Algebra",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Algebra",
           "name": "unital",
           "normalized": "a-\u003eb-\u003ea",
@@ -508,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Algebra",
           "name": "unitalRep",
           "package": "linear",
@@ -517,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Linear Algebra",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Algebra",
           "name": "unitalRep",
           "normalized": "a-\u003eb a",
@@ -533,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSerialization of statically-sized types with the \u003ca\u003eData.Binary\u003c/a\u003e\n library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Binary",
           "name": "Binary",
           "package": "linear",
@@ -542,6 +587,7 @@
         "index": {
           "description": "Serialization of statically-sized types with the Data.Binary library",
           "hierarchy": "Linear Binary",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Binary",
           "name": "Binary",
           "package": "linear",
@@ -556,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeserialize a linear type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Binary",
           "name": "getLinear",
           "package": "linear",
@@ -566,6 +613,7 @@
         "index": {
           "description": "Deserialize linear type",
           "hierarchy": "Linear Binary",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Binary",
           "name": "getLinear",
           "package": "linear",
@@ -580,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a linear type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Binary",
           "name": "putLinear",
           "package": "linear",
@@ -590,6 +639,7 @@
         "index": {
           "description": "Serialize linear type",
           "hierarchy": "Linear Binary",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Binary",
           "name": "putLinear",
           "normalized": "a b-\u003ePut",
@@ -606,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInvolutive rings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Conjugate",
           "name": "Conjugate",
           "package": "linear",
@@ -615,6 +666,7 @@
         "index": {
           "description": "Involutive rings",
           "hierarchy": "Linear Conjugate",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Conjugate",
           "name": "Conjugate",
           "package": "linear",
@@ -629,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn involutive ring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Conjugate",
           "name": "Conjugate",
           "package": "linear",
@@ -638,6 +691,7 @@
         "index": {
           "description": "An involutive ring",
           "hierarchy": "Linear Conjugate",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Conjugate",
           "name": "Conjugate",
           "package": "linear",
@@ -652,6 +706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequires and provides a default definition such that\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003econjugate\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Conjugate",
           "name": "TrivialConjugate",
           "package": "linear",
@@ -661,6 +716,7 @@
         "index": {
           "description": "Requires and provides default definition such that conjugate id",
           "hierarchy": "Linear Conjugate",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Conjugate",
           "name": "TrivialConjugate",
           "package": "linear",
@@ -675,6 +731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConjugate a value. This defaults to the trivial involution.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003econjugate (1 :+ 2)\n\u003c/code\u003e\u003c/strong\u003e1.0 :+ (-2.0)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003econjugate 1\n\u003c/code\u003e\u003c/strong\u003e1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Conjugate",
           "name": "conjugate",
           "package": "linear",
@@ -685,6 +742,7 @@
         "index": {
           "description": "Conjugate value This defaults to the trivial involution conjugate conjugate",
           "hierarchy": "Linear Conjugate",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Conjugate",
           "name": "conjugate",
           "normalized": "a-\u003ea",
@@ -699,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Covector",
           "name": "Covector",
           "package": "linear",
@@ -707,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Linear Covector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Covector",
           "name": "Covector",
           "package": "linear",
@@ -721,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear functionals from elements of an (infinite) free module to a scalar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Covector",
           "name": "Covector",
           "package": "linear",
@@ -730,6 +791,7 @@
         "index": {
           "description": "Linear functionals from elements of an infinite free module to scalar",
           "hierarchy": "Linear Covector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Covector",
           "name": "Covector",
           "package": "linear",
@@ -743,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Covector",
           "name": "($*)",
           "package": "linear",
@@ -752,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Linear Covector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Covector",
           "name": "($*) $*",
           "normalized": "Covector a(Rep b)-\u003eb a-\u003ea",
@@ -766,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Covector",
           "name": "Covector",
           "package": "linear",
@@ -775,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Linear Covector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Covector",
           "name": "Covector",
           "package": "linear",
@@ -788,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Covector",
           "name": "runCovector",
           "package": "linear",
@@ -797,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Linear Covector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Covector",
           "name": "runCovector",
           "normalized": "(a-\u003eb)-\u003eb",
@@ -813,6 +881,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTesting for values \u003ca\u003enear\u003c/a\u003e zero\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Epsilon",
           "name": "Epsilon",
           "package": "linear",
@@ -822,6 +891,7 @@
         "index": {
           "description": "Testing for values near zero",
           "hierarchy": "Linear Epsilon",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Epsilon",
           "name": "Epsilon",
           "package": "linear",
@@ -836,6 +906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides a fairly subjective test to see if a quantity is near zero.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003enearZero (1e-11 :: Double)\n\u003c/code\u003e\u003c/strong\u003eFalse\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003enearZero (1e-17 :: Double)\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003enearZero (1e-5 :: Float)\n\u003c/code\u003e\u003c/strong\u003eFalse\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003enearZero (1e-7 :: Float)\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Epsilon",
           "name": "Epsilon",
           "package": "linear",
@@ -845,6 +916,7 @@
         "index": {
           "description": "Provides fairly subjective test to see if quantity is near zero nearZero e-11 Double False nearZero e-17 Double True nearZero e-5 Float False nearZero e-7 Float True",
           "hierarchy": "Linear Epsilon",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Epsilon",
           "name": "Epsilon",
           "package": "linear",
@@ -859,6 +931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if a quantity is near zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Epsilon",
           "name": "nearZero",
           "package": "linear",
@@ -869,6 +942,7 @@
         "index": {
           "description": "Determine if quantity is near zero",
           "hierarchy": "Linear Epsilon",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Epsilon",
           "name": "nearZero",
           "normalized": "a-\u003eBool",
@@ -885,6 +959,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOrphans\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Instances",
           "name": "Instances",
           "package": "linear",
@@ -894,6 +969,7 @@
         "index": {
           "description": "Orphans",
           "hierarchy": "Linear Instances",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Instances",
           "name": "Instances",
           "package": "linear",
@@ -908,6 +984,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple matrix operation for low-dimensional primitives.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "Matrix",
           "package": "linear",
@@ -917,6 +994,7 @@
         "index": {
           "description": "Simple matrix operation for low-dimensional primitives",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "Matrix",
           "package": "linear",
@@ -931,6 +1009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2x2 matrix with row-major representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "M22",
           "package": "linear",
@@ -940,6 +1019,7 @@
         "index": {
           "description": "x2 matrix with row-major representation",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "M22",
           "package": "linear",
@@ -953,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 3x3 matrix with row-major representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "M33",
           "package": "linear",
@@ -962,6 +1043,7 @@
         "index": {
           "description": "x3 matrix with row-major representation",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "M33",
           "package": "linear",
@@ -975,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 4x3 matrix with row-major representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "M43",
           "package": "linear",
@@ -984,6 +1067,7 @@
         "index": {
           "description": "x3 matrix with row-major representation",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "M43",
           "package": "linear",
@@ -997,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 4x4 matrix with row-major representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "M44",
           "package": "linear",
@@ -1006,6 +1091,7 @@
         "index": {
           "description": "x4 matrix with row-major representation",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "M44",
           "package": "linear",
@@ -1018,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "Trace",
           "package": "linear",
@@ -1026,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "Trace",
           "package": "linear",
@@ -1040,6 +1128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix-scalar product\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 (V2 1 2) (V2 3 4) !!* 5\n\u003c/code\u003e\u003c/strong\u003eV2 (V2 5 10) (V2 15 20)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "(!!*)",
           "package": "linear",
@@ -1050,6 +1139,7 @@
         "index": {
           "description": "Matrix-scalar product V2 V2 V2 V2 V2 V2",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "(!!*) !!*",
           "normalized": "a(b c)-\u003ec-\u003ea(b c)",
@@ -1065,6 +1155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix * column vector\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 (V3 1 2 3) (V3 4 5 6) !* V3 7 8 9\n\u003c/code\u003e\u003c/strong\u003eV2 50 122\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "(!*)",
           "package": "linear",
@@ -1075,6 +1166,7 @@
         "index": {
           "description": "Matrix column vector V2 V3 V3 V3 V2",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "(!*) !*",
           "normalized": "a(b c)-\u003eb c-\u003ea c",
@@ -1090,6 +1182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix product. This can compute any combination of sparse and dense multiplication.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 (V3 1 2 3) (V3 4 5 6) !*! V3 (V2 1 2) (V2 3 4) (V2 4 5)\n\u003c/code\u003e\u003c/strong\u003eV2 (V2 19 25) (V2 43 58)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 (fromList [(1,2)]) (fromList [(2,3)]) !*! fromList [(1,V3 0 0 1), (2, V3 0 0 5)]\n\u003c/code\u003e\u003c/strong\u003eV2 (V3 0 0 2) (V3 0 0 15)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "(!*!)",
           "package": "linear",
@@ -1100,6 +1193,7 @@
         "index": {
           "description": "Matrix product This can compute any combination of sparse and dense multiplication V2 V3 V3 V3 V2 V2 V2 V2 V2 V2 V2 fromList fromList fromList V3 V3 V2 V3 V3",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "(!*!) !*!",
           "normalized": "a(b c)-\u003eb(d c)-\u003ea(d c)",
@@ -1115,6 +1209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntry-wise matrix addition.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 (V3 1 2 3) (V3 4 5 6) !+! V2 (V3 7 8 9) (V3 1 2 3)\n\u003c/code\u003e\u003c/strong\u003eV2 (V3 8 10 12) (V3 5 7 9)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "(!+!)",
           "package": "linear",
@@ -1125,6 +1220,7 @@
         "index": {
           "description": "Entry-wise matrix addition V2 V3 V3 V2 V3 V3 V2 V3 V3",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "(!+!) !+!",
           "normalized": "a(b c)-\u003ea(b c)-\u003ea(b c)",
@@ -1140,6 +1236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntry-wise matrix subtraction.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 (V3 1 2 3) (V3 4 5 6) !-! V2 (V3 7 8 9) (V3 1 2 3)\n\u003c/code\u003e\u003c/strong\u003eV2 (V3 (-6) (-6) (-6)) (V3 3 3 3)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "(!-!)",
           "package": "linear",
@@ -1150,6 +1247,7 @@
         "index": {
           "description": "Entry-wise matrix subtraction V2 V3 V3 V2 V3 V3 V2 V3 V3",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "(!-!) !-!",
           "normalized": "a(b c)-\u003ea(b c)-\u003ea(b c)",
@@ -1165,6 +1263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRow vector * matrix\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 1 2 *! V2 (V3 3 4 5) (V3 6 7 8)\n\u003c/code\u003e\u003c/strong\u003eV3 15 18 21\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "(*!)",
           "package": "linear",
@@ -1175,6 +1274,7 @@
         "index": {
           "description": "Row vector matrix V2 V2 V3 V3 V3",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "(*!) *!",
           "normalized": "a b-\u003ea(c b)-\u003ec b",
@@ -1190,6 +1290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalar-matrix product\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e5 *!! V2 (V2 1 2) (V2 3 4)\n\u003c/code\u003e\u003c/strong\u003eV2 (V2 5 10) (V2 15 20)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "(*!!)",
           "package": "linear",
@@ -1200,6 +1301,7 @@
         "index": {
           "description": "Scalar-matrix product V2 V2 V2 V2 V2 V2",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "(*!!) *!!",
           "normalized": "a-\u003eb(c a)-\u003eb(c a)",
@@ -1215,6 +1317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHermitian conjugate or conjugate transpose\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eadjoint (V2 (V2 (1 :+ 2) (3 :+ 4)) (V2 (5 :+ 6) (7 :+ 8)))\n\u003c/code\u003e\u003c/strong\u003eV2 (V2 (1.0 :+ (-2.0)) (5.0 :+ (-6.0))) (V2 (3.0 :+ (-4.0)) (7.0 :+ (-8.0)))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "adjoint",
           "package": "linear",
@@ -1225,6 +1328,7 @@
         "index": {
           "description": "Hermitian conjugate or conjugate transpose adjoint V2 V2 V2 V2 V2 V2",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "adjoint",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -1240,6 +1344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a generalization of \u003ccode\u003e\u003ca\u003einside\u003c/a\u003e\u003c/code\u003e to work over any corepresentable \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003ecolumn\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eRepresentable\u003c/a\u003e\u003c/code\u003e f =\u003e \u003ccode\u003e\u003ca\u003eLens\u003c/a\u003e\u003c/code\u003e s t a b -\u003e \u003ccode\u003e\u003ca\u003eLens\u003c/a\u003e\u003c/code\u003e (f s) (f t) (f a) (f b)\n\u003c/pre\u003e\u003cp\u003eIn practice it is used to access a column of a matrix.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 (V3 1 2 3) (V3 4 5 6) ^._x\n\u003c/code\u003e\u003c/strong\u003eV3 1 2 3\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 (V3 1 2 3) (V3 4 5 6) ^.column _x\n\u003c/code\u003e\u003c/strong\u003eV2 1 4\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "column",
           "package": "linear",
@@ -1250,6 +1355,7 @@
         "index": {
           "description": "This is generalization of inside to work over any corepresentable Functor column Representable Lens Lens In practice it is used to access column of matrix V2 V3 V3 V3 V2 V3 V3 column V2",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "column",
           "normalized": "LensLike(Context a b)c d a b-\u003eLens(e c)(e d)(e a)(e b)",
@@ -1265,6 +1371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2x2 matrix determinant.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edet22 (V2 (V2 a b) (V2 c d))\n\u003c/code\u003e\u003c/strong\u003ea * d - b * c\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "det22",
           "package": "linear",
@@ -1275,6 +1382,7 @@
         "index": {
           "description": "x2 matrix determinant det22 V2 V2 V2",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "det22",
           "normalized": "M a-\u003ea",
@@ -1290,6 +1398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e3x3 matrix determinant.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edet33 (V3 (V3 a b c) (V3 d e f) (V3 g h i))\n\u003c/code\u003e\u003c/strong\u003ea * (e * i - f * h) - d * (b * i - c * h) + g * (b * f - c * e)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "det33",
           "package": "linear",
@@ -1300,6 +1409,7 @@
         "index": {
           "description": "x3 matrix determinant det33 V3 V3 V3 V3",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "det33",
           "normalized": "M a-\u003ea",
@@ -1315,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the diagonal of a matrix\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ediagonal (V2 (V2 a b) (V2 c d))\n\u003c/code\u003e\u003c/strong\u003eV2 a d\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "diagonal",
           "package": "linear",
@@ -1325,6 +1436,7 @@
         "index": {
           "description": "Compute the diagonal of matrix diagonal V2 V2 V2 V2",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "diagonal",
           "normalized": "a(a b)-\u003ea b",
@@ -1340,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2x2 identity matrix.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eeye2\n\u003c/code\u003e\u003c/strong\u003eV2 (V2 1 0) (V2 0 1)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "eye2",
           "package": "linear",
@@ -1350,6 +1463,7 @@
         "index": {
           "description": "x2 identity matrix eye2 V2 V2 V2",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "eye2",
           "package": "linear",
@@ -1363,6 +1477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e3x3 identity matrix.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eeye3\n\u003c/code\u003e\u003c/strong\u003eV3 (V3 1 0 0) (V3 0 1 0) (V3 0 0 1)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "eye3",
           "package": "linear",
@@ -1373,6 +1488,7 @@
         "index": {
           "description": "x3 identity matrix eye3 V3 V3 V3 V3",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "eye3",
           "package": "linear",
@@ -1386,6 +1502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e4x4 identity matrix.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eeye4\n\u003c/code\u003e\u003c/strong\u003eV4 (V4 1 0 0 0) (V4 0 1 0 0) (V4 0 0 1 0) (V4 0 0 0 1)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "eye4",
           "package": "linear",
@@ -1396,6 +1513,7 @@
         "index": {
           "description": "x4 identity matrix eye4 V4 V4 V4 V4 V4",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "eye4",
           "package": "linear",
@@ -1409,6 +1527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a rotation matrix from a unit \u003ccode\u003e\u003ca\u003eQuaternion\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "fromQuaternion",
           "package": "linear",
@@ -1419,6 +1538,7 @@
         "index": {
           "description": "Build rotation matrix from unit Quaternion",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "fromQuaternion",
           "normalized": "Quaternion a-\u003eM a",
@@ -1435,6 +1555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2x2 matrix inverse.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003einv22 $ V2 (V2 1 2) (V2 3 4)\n\u003c/code\u003e\u003c/strong\u003eJust (V2 (V2 (-2.0) 1.0) (V2 1.5 (-0.5)))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "inv22",
           "package": "linear",
@@ -1445,6 +1566,7 @@
         "index": {
           "description": "x2 matrix inverse inv22 V2 V2 V2 Just V2 V2 V2",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "inv22",
           "normalized": "M a-\u003eMaybe(M a)",
@@ -1460,6 +1582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e3x3 matrix inverse.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003einv33 $ V3 (V3 1 2 4) (V3 4 2 2) (V3 1 1 1)\n\u003c/code\u003e\u003c/strong\u003eJust (V3 (V3 0.0 0.5 (-1.0)) (V3 (-0.5) (-0.75) 3.5) (V3 0.5 0.25 (-1.5)))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "inv33",
           "package": "linear",
@@ -1470,6 +1593,7 @@
         "index": {
           "description": "x3 matrix inverse inv33 V3 V3 V3 V3 Just V3 V3 V3 V3",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "inv33",
           "normalized": "M a-\u003eMaybe(M a)",
@@ -1485,6 +1609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a 3x3 matrix to a 4x4 matrix extending it with 0's in the new row and column.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "m33_to_m44",
           "package": "linear",
@@ -1495,6 +1620,7 @@
         "index": {
           "description": "Convert x3 matrix to x4 matrix extending it with in the new row and column",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "m33_to_m44",
           "normalized": "M a-\u003eM a",
@@ -1510,6 +1636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from a 4x3 matrix to a 4x4 matrix, extending it with the \u003ccode\u003e[ 0 0 0 1 ]\u003c/code\u003e column vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "m43_to_m44",
           "package": "linear",
@@ -1520,6 +1647,7 @@
         "index": {
           "description": "Convert from x3 matrix to x4 matrix extending it with the column vector",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "m43_to_m44",
           "normalized": "M a-\u003eM a",
@@ -1535,6 +1663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a transformation matrix from a rotation expressed as a\n \u003ccode\u003e\u003ca\u003eQuaternion\u003c/a\u003e\u003c/code\u003e and a translation vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "mkTransformation",
           "package": "linear",
@@ -1545,6 +1674,7 @@
         "index": {
           "description": "Build transformation matrix from rotation expressed as Quaternion and translation vector",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "mkTransformation",
           "normalized": "Quaternion a-\u003eV a-\u003eM a",
@@ -1561,6 +1691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a transformation matrix from a rotation matrix and a\n translation vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "mkTransformationMat",
           "package": "linear",
@@ -1571,6 +1702,7 @@
         "index": {
           "description": "Build transformation matrix from rotation matrix and translation vector",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "mkTransformationMat",
           "normalized": "M a-\u003eV a-\u003eM a",
@@ -1587,6 +1719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the trace of a matrix\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etrace (V2 (V2 a b) (V2 c d))\n\u003c/code\u003e\u003c/strong\u003ea + d\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "trace",
           "package": "linear",
@@ -1597,6 +1730,7 @@
         "index": {
           "description": "Compute the trace of matrix trace V2 V2 V2",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "trace",
           "normalized": "a(a b)-\u003eb",
@@ -1612,6 +1746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the translation vector (first three entries of the last\n column) from a 3x4 or 4x4 matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Matrix",
           "name": "translation",
           "package": "linear",
@@ -1622,6 +1757,7 @@
         "index": {
           "description": "Extract the translation vector first three entries of the last column from x4 or x4 matrix",
           "hierarchy": "Linear Matrix",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Matrix",
           "name": "translation",
           "package": "linear",
@@ -1635,6 +1771,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFree metric spaces\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Metric",
           "name": "Metric",
           "package": "linear",
@@ -1644,6 +1781,7 @@
         "index": {
           "description": "Free metric spaces",
           "hierarchy": "Linear Metric",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Metric",
           "name": "Metric",
           "package": "linear",
@@ -1658,6 +1796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree and sparse inner product/metric spaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Metric",
           "name": "Metric",
           "package": "linear",
@@ -1667,6 +1806,7 @@
         "index": {
           "description": "Free and sparse inner product metric spaces",
           "hierarchy": "Linear Metric",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Metric",
           "name": "Metric",
           "package": "linear",
@@ -1681,6 +1821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the distance between two vectors in a metric space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Metric",
           "name": "distance",
           "package": "linear",
@@ -1691,6 +1832,7 @@
         "index": {
           "description": "Compute the distance between two vectors in metric space",
           "hierarchy": "Linear Metric",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Metric",
           "name": "distance",
           "normalized": "a b-\u003ea b-\u003eb",
@@ -1706,6 +1848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the inner product of two vectors or (equivalently)\n convert a vector \u003ccode\u003ef a\u003c/code\u003e into a covector \u003ccode\u003ef a -\u003e a\u003c/code\u003e.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 1 2 `dot` V2 3 4\n\u003c/code\u003e\u003c/strong\u003e11\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Metric",
           "name": "dot",
           "package": "linear",
@@ -1716,6 +1859,7 @@
         "index": {
           "description": "Compute the inner product of two vectors or equivalently convert vector into covector V2 dot V2",
           "hierarchy": "Linear Metric",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Metric",
           "name": "dot",
           "normalized": "a b-\u003ea b-\u003eb",
@@ -1731,6 +1875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the norm of a vector in a metric space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Metric",
           "name": "norm",
           "package": "linear",
@@ -1741,6 +1886,7 @@
         "index": {
           "description": "Compute the norm of vector in metric space",
           "hierarchy": "Linear Metric",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Metric",
           "name": "norm",
           "normalized": "a b-\u003eb",
@@ -1756,6 +1902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalize a \u003ccode\u003e\u003ca\u003eMetric\u003c/a\u003e\u003c/code\u003e functor to have unit \u003ccode\u003e\u003ca\u003enorm\u003c/a\u003e\u003c/code\u003e. This function\n does not change the functor if its \u003ccode\u003e\u003ca\u003enorm\u003c/a\u003e\u003c/code\u003e is 0 or 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Metric",
           "name": "normalize",
           "package": "linear",
@@ -1766,6 +1913,7 @@
         "index": {
           "description": "Normalize Metric functor to have unit norm This function does not change the functor if its norm is or",
           "hierarchy": "Linear Metric",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Metric",
           "name": "normalize",
           "normalized": "a b-\u003ea b",
@@ -1781,6 +1929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the quadrance of the difference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Metric",
           "name": "qd",
           "package": "linear",
@@ -1791,6 +1940,7 @@
         "index": {
           "description": "Compute the quadrance of the difference",
           "hierarchy": "Linear Metric",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Metric",
           "name": "qd",
           "normalized": "a b-\u003ea b-\u003eb",
@@ -1806,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the squared norm. The name quadrance arises from\n Norman J. Wildberger's rational trigonometry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Metric",
           "name": "quadrance",
           "package": "linear",
@@ -1816,6 +1967,7 @@
         "index": {
           "description": "Compute the squared norm The name quadrance arises from Norman Wildberger rational trigonometry",
           "hierarchy": "Linear Metric",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Metric",
           "name": "quadrance",
           "normalized": "a b-\u003eb",
@@ -1831,6 +1983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a non-zero vector to unit vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Metric",
           "name": "signorm",
           "package": "linear",
@@ -1841,6 +1994,7 @@
         "index": {
           "description": "Convert non-zero vector to unit vector",
           "hierarchy": "Linear Metric",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Metric",
           "name": "signorm",
           "normalized": "a b-\u003ea b",
@@ -1856,6 +2010,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePl&#252;cker coordinates for lines in 3d homogeneous space.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "Plucker",
           "package": "linear",
@@ -1865,6 +2020,7 @@
         "index": {
           "description": "Pl cker coordinates for lines in homogeneous space",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "Plucker",
           "package": "linear",
@@ -1879,6 +2035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen lines are represented as Pl&#252;cker coordinates, we have the\n ability to check for both directed and undirected\n equality. Undirected equality between \u003ccode\u003e\u003ca\u003eLine\u003c/a\u003e\u003c/code\u003es (or a \u003ccode\u003e\u003ca\u003eLine\u003c/a\u003e\u003c/code\u003e and a\n \u003ccode\u003e\u003ca\u003eRay\u003c/a\u003e\u003c/code\u003e) checks that the two lines coincide in 3D space. Directed\n equality, between two \u003ccode\u003e\u003ca\u003eRay\u003c/a\u003e\u003c/code\u003es, checks that two lines coincide in 3D,\n and have the same direction. To accomodate these two notions of\n equality, we use an \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e instance on the \u003ccode\u003e\u003ca\u003eCoincides\u003c/a\u003e\u003c/code\u003e data type.\n\u003c/p\u003e\u003cp\u003eFor example, to check the \u003cem\u003edirected\u003c/em\u003e equality between two lines,\n \u003ccode\u003ep1\u003c/code\u003e and \u003ccode\u003ep2\u003c/code\u003e, we write, \u003ccode\u003eRay p1 == Ray p2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "Coincides",
           "package": "linear",
@@ -1888,6 +2045,7 @@
         "index": {
           "description": "When lines are represented as Pl cker coordinates we have the ability to check for both directed and undirected equality Undirected equality between Line or Line and Ray checks that the two lines coincide in space Directed equality between two Ray checks that two lines coincide in and have the same direction To accomodate these two notions of equality we use an Eq instance on the Coincides data type For example to check the directed equality between two lines p1 and p2 we write Ray p1 Ray p2",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "Coincides",
           "package": "linear",
@@ -1902,6 +2060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribe how two lines pass each other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "LinePass",
           "package": "linear",
@@ -1911,6 +2070,7 @@
         "index": {
           "description": "Describe how two lines pass each other",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "LinePass",
           "package": "linear",
@@ -1925,6 +2085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePl&#252;cker coordinates for lines in a 3-dimensional space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "Plucker",
           "package": "linear",
@@ -1934,6 +2095,7 @@
         "index": {
           "description": "Pl cker coordinates for lines in dimensional space",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "Plucker",
           "package": "linear",
@@ -1948,6 +2110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis isn't th actual metric because this bilinear form gives rise to an isotropic quadratic space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "(\u003e\u003c)",
           "package": "linear",
@@ -1958,6 +2121,7 @@
         "index": {
           "description": "This isn th actual metric because this bilinear form gives rise to an isotropic quadratic space",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "Plucker a-\u003ePlucker a-\u003ea",
@@ -1973,6 +2137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe lines pass each other clockwise (right-handed\n screw)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "Clockwise",
           "package": "linear",
@@ -1983,6 +2148,7 @@
         "index": {
           "description": "The lines pass each other clockwise right-handed screw",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "Clockwise",
           "package": "linear",
@@ -1997,6 +2163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe lines are coplanar (parallel or intersecting).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "Coplanar",
           "package": "linear",
@@ -2007,6 +2174,7 @@
         "index": {
           "description": "The lines are coplanar parallel or intersecting",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "Coplanar",
           "package": "linear",
@@ -2021,6 +2189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe lines pass each other counterclockwise\n (left-handed screw).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "Counterclockwise",
           "package": "linear",
@@ -2031,6 +2200,7 @@
         "index": {
           "description": "The lines pass each other counterclockwise left-handed screw",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "Counterclockwise",
           "package": "linear",
@@ -2044,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "Line",
           "package": "linear",
@@ -2053,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "Line",
           "normalized": "Plucker a-\u003eCoincides a",
@@ -2068,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "Plucker",
           "package": "linear",
@@ -2077,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "Plucker",
           "package": "linear",
@@ -2090,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "Ray",
           "package": "linear",
@@ -2099,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "Ray",
           "normalized": "Plucker a-\u003eCoincides a",
@@ -2115,6 +2291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe point where a line is closest to the origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "closestToOrigin",
           "package": "linear",
@@ -2125,6 +2302,7 @@
         "index": {
           "description": "The point where line is closest to the origin",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "closestToOrigin",
           "normalized": "Plucker a-\u003eV a",
@@ -2140,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "e01",
           "package": "linear",
@@ -2149,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "e01",
           "package": "linear",
@@ -2161,6 +2341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "e02",
           "package": "linear",
@@ -2170,6 +2351,7 @@
         },
         "index": {
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "e02",
           "package": "linear",
@@ -2182,6 +2364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "e03",
           "package": "linear",
@@ -2191,6 +2374,7 @@
         },
         "index": {
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "e03",
           "package": "linear",
@@ -2203,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "e12",
           "package": "linear",
@@ -2212,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "e12",
           "package": "linear",
@@ -2224,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "e23",
           "package": "linear",
@@ -2233,6 +2420,7 @@
         },
         "index": {
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "e23",
           "package": "linear",
@@ -2245,6 +2433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "e31",
           "package": "linear",
@@ -2254,6 +2443,7 @@
         },
         "index": {
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "e31",
           "package": "linear",
@@ -2267,6 +2457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if two lines intersect (or nearly intersect).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "intersects",
           "package": "linear",
@@ -2277,6 +2468,7 @@
         "index": {
           "description": "Checks if two lines intersect or nearly intersect",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "intersects",
           "normalized": "Plucker a-\u003ePlucker a-\u003eBool",
@@ -2292,6 +2484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot all 6-dimensional points correspond to a line in 3D. This\n predicate tests that a Pl&#252;cker coordinate lies on the Grassmann\n manifold, and does indeed represent a 3D line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "isLine",
           "package": "linear",
@@ -2302,6 +2495,7 @@
         "index": {
           "description": "Not all dimensional points correspond to line in This predicate tests that Pl cker coordinate lies on the Grassmann manifold and does indeed represent line",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "isLine",
           "normalized": "Plucker a-\u003eBool",
@@ -2318,6 +2512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if the line is near-isotropic (isotropic vectors in this\n quadratic space represent lines in real 3d space).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "isotropic",
           "package": "linear",
@@ -2328,6 +2523,7 @@
         "index": {
           "description": "Checks if the line is near-isotropic isotropic vectors in this quadratic space represent lines in real space",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "isotropic",
           "normalized": "Plucker a-\u003eBool",
@@ -2343,6 +2539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese elements form a basis for the Pl&#252;cker space, or the Grassmanian manifold \u003ccode\u003eGr(2,V4)\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003ep01\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep02\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep03\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep23\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep31\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep12\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "p01",
           "package": "linear",
@@ -2353,6 +2550,7 @@
         "index": {
           "description": "These elements form basis for the Pl cker space or the Grassmanian manifold Gr V4 p01 Lens Plucker p02 Lens Plucker p03 Lens Plucker p23 Lens Plucker p31 Lens Plucker p12 Lens Plucker",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "p01",
           "package": "linear",
@@ -2366,6 +2564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese elements form a basis for the Pl&#252;cker space, or the Grassmanian manifold \u003ccode\u003eGr(2,V4)\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003ep01\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep02\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep03\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep23\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep31\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep12\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "p02",
           "package": "linear",
@@ -2376,6 +2575,7 @@
         "index": {
           "description": "These elements form basis for the Pl cker space or the Grassmanian manifold Gr V4 p01 Lens Plucker p02 Lens Plucker p03 Lens Plucker p23 Lens Plucker p31 Lens Plucker p12 Lens Plucker",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "p02",
           "package": "linear",
@@ -2389,6 +2589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese elements form a basis for the Pl&#252;cker space, or the Grassmanian manifold \u003ccode\u003eGr(2,V4)\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003ep01\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep02\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep03\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep23\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep31\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep12\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "p03",
           "package": "linear",
@@ -2399,6 +2600,7 @@
         "index": {
           "description": "These elements form basis for the Pl cker space or the Grassmanian manifold Gr V4 p01 Lens Plucker p02 Lens Plucker p03 Lens Plucker p23 Lens Plucker p31 Lens Plucker p12 Lens Plucker",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "p03",
           "package": "linear",
@@ -2412,6 +2614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese elements form an alternate basis for the Pl&#252;cker space, or the Grassmanian manifold \u003ccode\u003eGr(2,V4)\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003ep10\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep20\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep30\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep32\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep13\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep21\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "p10",
           "package": "linear",
@@ -2422,6 +2625,7 @@
         "index": {
           "description": "These elements form an alternate basis for the Pl cker space or the Grassmanian manifold Gr V4 p10 Num Lens Plucker p20 Num Lens Plucker p30 Num Lens Plucker p32 Num Lens Plucker p13 Num Lens Plucker p21 Num Lens Plucker",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "p10",
           "normalized": "(a-\u003eb a)-\u003ePlucker a-\u003eb(Plucker a)",
@@ -2437,6 +2641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese elements form a basis for the Pl&#252;cker space, or the Grassmanian manifold \u003ccode\u003eGr(2,V4)\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003ep01\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep02\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep03\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep23\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep31\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep12\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "p12",
           "package": "linear",
@@ -2447,6 +2652,7 @@
         "index": {
           "description": "These elements form basis for the Pl cker space or the Grassmanian manifold Gr V4 p01 Lens Plucker p02 Lens Plucker p03 Lens Plucker p23 Lens Plucker p31 Lens Plucker p12 Lens Plucker",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "p12",
           "package": "linear",
@@ -2460,6 +2666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese elements form an alternate basis for the Pl&#252;cker space, or the Grassmanian manifold \u003ccode\u003eGr(2,V4)\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003ep10\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep20\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep30\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep32\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep13\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep21\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "p13",
           "package": "linear",
@@ -2470,6 +2677,7 @@
         "index": {
           "description": "These elements form an alternate basis for the Pl cker space or the Grassmanian manifold Gr V4 p10 Num Lens Plucker p20 Num Lens Plucker p30 Num Lens Plucker p32 Num Lens Plucker p13 Num Lens Plucker p21 Num Lens Plucker",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "p13",
           "normalized": "(a-\u003eb a)-\u003ePlucker a-\u003eb(Plucker a)",
@@ -2485,6 +2693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese elements form an alternate basis for the Pl&#252;cker space, or the Grassmanian manifold \u003ccode\u003eGr(2,V4)\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003ep10\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep20\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep30\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep32\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep13\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep21\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "p20",
           "package": "linear",
@@ -2495,6 +2704,7 @@
         "index": {
           "description": "These elements form an alternate basis for the Pl cker space or the Grassmanian manifold Gr V4 p10 Num Lens Plucker p20 Num Lens Plucker p30 Num Lens Plucker p32 Num Lens Plucker p13 Num Lens Plucker p21 Num Lens Plucker",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "p20",
           "normalized": "(a-\u003eb a)-\u003ePlucker a-\u003eb(Plucker a)",
@@ -2510,6 +2720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese elements form an alternate basis for the Pl&#252;cker space, or the Grassmanian manifold \u003ccode\u003eGr(2,V4)\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003ep10\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep20\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep30\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep32\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep13\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep21\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "p21",
           "package": "linear",
@@ -2520,6 +2731,7 @@
         "index": {
           "description": "These elements form an alternate basis for the Pl cker space or the Grassmanian manifold Gr V4 p10 Num Lens Plucker p20 Num Lens Plucker p30 Num Lens Plucker p32 Num Lens Plucker p13 Num Lens Plucker p21 Num Lens Plucker",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "p21",
           "normalized": "(a-\u003eb a)-\u003ePlucker a-\u003eb(Plucker a)",
@@ -2535,6 +2747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese elements form a basis for the Pl&#252;cker space, or the Grassmanian manifold \u003ccode\u003eGr(2,V4)\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003ep01\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep02\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep03\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep23\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep31\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep12\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "p23",
           "package": "linear",
@@ -2545,6 +2758,7 @@
         "index": {
           "description": "These elements form basis for the Pl cker space or the Grassmanian manifold Gr V4 p01 Lens Plucker p02 Lens Plucker p03 Lens Plucker p23 Lens Plucker p31 Lens Plucker p12 Lens Plucker",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "p23",
           "package": "linear",
@@ -2558,6 +2772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese elements form an alternate basis for the Pl&#252;cker space, or the Grassmanian manifold \u003ccode\u003eGr(2,V4)\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003ep10\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep20\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep30\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep32\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep13\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep21\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "p30",
           "package": "linear",
@@ -2568,6 +2783,7 @@
         "index": {
           "description": "These elements form an alternate basis for the Pl cker space or the Grassmanian manifold Gr V4 p10 Num Lens Plucker p20 Num Lens Plucker p30 Num Lens Plucker p32 Num Lens Plucker p13 Num Lens Plucker p21 Num Lens Plucker",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "p30",
           "normalized": "(a-\u003eb a)-\u003ePlucker a-\u003eb(Plucker a)",
@@ -2583,6 +2799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese elements form a basis for the Pl&#252;cker space, or the Grassmanian manifold \u003ccode\u003eGr(2,V4)\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003ep01\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep02\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep03\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep23\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep31\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep12\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "p31",
           "package": "linear",
@@ -2593,6 +2810,7 @@
         "index": {
           "description": "These elements form basis for the Pl cker space or the Grassmanian manifold Gr V4 p01 Lens Plucker p02 Lens Plucker p03 Lens Plucker p23 Lens Plucker p31 Lens Plucker p12 Lens Plucker",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "p31",
           "package": "linear",
@@ -2606,6 +2824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese elements form an alternate basis for the Pl&#252;cker space, or the Grassmanian manifold \u003ccode\u003eGr(2,V4)\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003ep10\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep20\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep30\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep32\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep13\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n \u003ccode\u003e\u003ca\u003ep21\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e a =\u003e Lens' (\u003ccode\u003e\u003ca\u003ePlucker\u003c/a\u003e\u003c/code\u003e a) a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "p32",
           "package": "linear",
@@ -2616,6 +2835,7 @@
         "index": {
           "description": "These elements form an alternate basis for the Pl cker space or the Grassmanian manifold Gr V4 p10 Num Lens Plucker p20 Num Lens Plucker p30 Num Lens Plucker p32 Num Lens Plucker p13 Num Lens Plucker p21 Num Lens Plucker",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "p32",
           "normalized": "(a-\u003eb a)-\u003ePlucker a-\u003eb(Plucker a)",
@@ -2631,6 +2851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if two lines are parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "parallel",
           "package": "linear",
@@ -2641,6 +2862,7 @@
         "index": {
           "description": "Checks if two lines are parallel",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "parallel",
           "normalized": "Plucker a-\u003ePlucker a-\u003eBool",
@@ -2656,6 +2878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck how two lines pass each other. \u003ccode\u003epasses l1 l2\u003c/code\u003e describes\n \u003ccode\u003el2\u003c/code\u003e when looking down \u003ccode\u003el1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "passes",
           "package": "linear",
@@ -2666,6 +2889,7 @@
         "index": {
           "description": "Check how two lines pass each other passes l1 l2 describes l2 when looking down l1",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "passes",
           "normalized": "Plucker a-\u003ePlucker a-\u003eLinePass",
@@ -2681,6 +2905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a pair of points represented by homogeneous coordinates\n generate Pl&#252;cker coordinates for the line through them, directed\n from the second towards the first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "plucker",
           "package": "linear",
@@ -2691,6 +2916,7 @@
         "index": {
           "description": "Given pair of points represented by homogeneous coordinates generate Pl cker coordinates for the line through them directed from the second towards the first",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "plucker",
           "normalized": "V a-\u003eV a-\u003ePlucker a",
@@ -2706,6 +2932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a pair of 3D points, generate Pl&#252;cker coordinates for the\n line through them, directed from the second towards the first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "plucker3D",
           "package": "linear",
@@ -2716,6 +2943,7 @@
         "index": {
           "description": "Given pair of points generate Pl cker coordinates for the line through them directed from the second towards the first",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "plucker3D",
           "normalized": "V a-\u003eV a-\u003ePlucker a",
@@ -2731,6 +2959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe minimum squared distance of a line from the origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "quadranceToOrigin",
           "package": "linear",
@@ -2741,6 +2970,7 @@
         "index": {
           "description": "The minimum squared distance of line from the origin",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "quadranceToOrigin",
           "normalized": "Plucker a-\u003ea",
@@ -2757,6 +2987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid Pl&#252;cker coordinates \u003ccode\u003ep\u003c/code\u003e will have \u003ccode\u003e\u003ccode\u003e\u003ca\u003esquaredError\u003c/a\u003e\u003c/code\u003e p \u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e 0\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThat said, floating point makes a mockery of this claim, so you may want to use \u003ccode\u003e\u003ca\u003enearZero\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Plucker",
           "name": "squaredError",
           "package": "linear",
@@ -2767,6 +2998,7 @@
         "index": {
           "description": "Valid Pl cker coordinates will have squaredError That said floating point makes mockery of this claim so you may want to use nearZero",
           "hierarchy": "Linear Plucker",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Plucker",
           "name": "squaredError",
           "normalized": "Plucker a-\u003ea",
@@ -2783,6 +3015,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eQuaternions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "Quaternion",
           "package": "linear",
@@ -2792,6 +3025,7 @@
         "index": {
           "description": "Quaternions",
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "Quaternion",
           "package": "linear",
@@ -2806,6 +3040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA vector space that includes the basis elements \u003ccode\u003e\u003ca\u003e_e\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e_i\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "Complicated",
           "package": "linear",
@@ -2815,6 +3050,7 @@
         "index": {
           "description": "vector space that includes the basis elements and",
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "Complicated",
           "package": "linear",
@@ -2829,6 +3065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA vector space that includes the basis elements \u003ccode\u003e\u003ca\u003e_e\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e_i\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e_j\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e_k\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "Hamiltonian",
           "package": "linear",
@@ -2838,6 +3075,7 @@
         "index": {
           "description": "vector space that includes the basis elements and",
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "Hamiltonian",
           "package": "linear",
@@ -2852,6 +3090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuaternions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "Quaternion",
           "package": "linear",
@@ -2861,6 +3100,7 @@
         "index": {
           "description": "Quaternions",
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "Quaternion",
           "package": "linear",
@@ -2874,6 +3114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "Quaternion",
           "package": "linear",
@@ -2883,6 +3124,7 @@
         },
         "index": {
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "Quaternion",
           "package": "linear",
@@ -2896,6 +3138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "_e",
           "package": "linear",
@@ -2905,6 +3148,7 @@
         },
         "index": {
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "_e",
           "package": "linear",
@@ -2917,6 +3161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "_ijk",
           "package": "linear",
@@ -2926,6 +3171,7 @@
         },
         "index": {
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "_ijk",
           "package": "linear",
@@ -2938,6 +3184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "_j",
           "package": "linear",
@@ -2947,6 +3194,7 @@
         },
         "index": {
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "_j",
           "package": "linear",
@@ -2960,6 +3208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enorm of the imaginary component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "absi",
           "package": "linear",
@@ -2970,6 +3219,7 @@
         "index": {
           "description": "norm of the imaginary component",
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "absi",
           "normalized": "Quaternion a-\u003ea",
@@ -2985,6 +3235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eacosh\u003c/a\u003e\u003c/code\u003e with a specified branch cut.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "acoshq",
           "package": "linear",
@@ -2995,6 +3246,7 @@
         "index": {
           "description": "acosh with specified branch cut",
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "acoshq",
           "normalized": "Quaternion a-\u003eQuaternion a-\u003eQuaternion a",
@@ -3010,6 +3262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eacos\u003c/a\u003e\u003c/code\u003e with a specified branch cut.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "acosq",
           "package": "linear",
@@ -3020,6 +3273,7 @@
         "index": {
           "description": "acos with specified branch cut",
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "acosq",
           "normalized": "Quaternion a-\u003eQuaternion a-\u003eQuaternion a",
@@ -3035,6 +3289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003easinh\u003c/a\u003e\u003c/code\u003e with a specified branch cut.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "asinhq",
           "package": "linear",
@@ -3045,6 +3300,7 @@
         "index": {
           "description": "asinh with specified branch cut",
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "asinhq",
           "normalized": "Quaternion a-\u003eQuaternion a-\u003eQuaternion a",
@@ -3060,6 +3316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003easin\u003c/a\u003e\u003c/code\u003e with a specified branch cut.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "asinq",
           "package": "linear",
@@ -3070,6 +3327,7 @@
         "index": {
           "description": "asin with specified branch cut",
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "asinq",
           "normalized": "Quaternion a-\u003eQuaternion a-\u003eQuaternion a",
@@ -3085,6 +3343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eatanh\u003c/a\u003e\u003c/code\u003e with a specified branch cut.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "atanhq",
           "package": "linear",
@@ -3095,6 +3354,7 @@
         "index": {
           "description": "atanh with specified branch cut",
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "atanhq",
           "normalized": "Quaternion a-\u003eQuaternion a-\u003eQuaternion a",
@@ -3110,6 +3370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eatan\u003c/a\u003e\u003c/code\u003e with a specified branch cut.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "atanq",
           "package": "linear",
@@ -3120,6 +3381,7 @@
         "index": {
           "description": "atan with specified branch cut",
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "atanq",
           "normalized": "Quaternion a-\u003eQuaternion a-\u003eQuaternion a",
@@ -3135,6 +3397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eaxisAngle\u003c/a\u003e\u003c/code\u003e axis theta\u003c/code\u003e builds a \u003ccode\u003e\u003ca\u003eQuaternion\u003c/a\u003e\u003c/code\u003e representing a\n rotation of \u003ccode\u003etheta\u003c/code\u003e radians about \u003ccode\u003eaxis\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "axisAngle",
           "package": "linear",
@@ -3145,6 +3408,7 @@
         "index": {
           "description": "axisAngle axis theta builds Quaternion representing rotation of theta radians about axis",
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "axisAngle",
           "normalized": "V a-\u003ea-\u003eQuaternion a",
@@ -3160,6 +3424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "ee",
           "package": "linear",
@@ -3169,6 +3434,7 @@
         },
         "index": {
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "ee",
           "package": "linear",
@@ -3181,6 +3447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "ei",
           "package": "linear",
@@ -3190,6 +3457,7 @@
         },
         "index": {
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "ei",
           "package": "linear",
@@ -3202,6 +3470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "ej",
           "package": "linear",
@@ -3211,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "ej",
           "package": "linear",
@@ -3223,6 +3493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "ek",
           "package": "linear",
@@ -3232,6 +3503,7 @@
         },
         "index": {
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "ek",
           "package": "linear",
@@ -3245,6 +3517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eraise a \u003ccode\u003e\u003ca\u003eQuaternion\u003c/a\u003e\u003c/code\u003e to a scalar power\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "pow",
           "package": "linear",
@@ -3255,6 +3528,7 @@
         "index": {
           "description": "raise Quaternion to scalar power",
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "pow",
           "normalized": "Quaternion a-\u003ea-\u003eQuaternion a",
@@ -3270,6 +3544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a rotation to a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "rotate",
           "package": "linear",
@@ -3280,6 +3555,7 @@
         "index": {
           "description": "Apply rotation to vector",
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "rotate",
           "normalized": "Quaternion a-\u003eV a-\u003eV a",
@@ -3295,6 +3571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpherical linear interpolation between two quaternions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Quaternion",
           "name": "slerp",
           "package": "linear",
@@ -3305,6 +3582,7 @@
         "index": {
           "description": "Spherical linear interpolation between two quaternions",
           "hierarchy": "Linear Quaternion",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Quaternion",
           "name": "slerp",
           "normalized": "Quaternion a-\u003eQuaternion a-\u003ea-\u003eQuaternion a",
@@ -3320,6 +3598,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple matrix operation for low-dimensional primitives.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Trace",
           "name": "Trace",
           "package": "linear",
@@ -3329,6 +3608,7 @@
         "index": {
           "description": "Simple matrix operation for low-dimensional primitives",
           "hierarchy": "Linear Trace",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Trace",
           "name": "Trace",
           "package": "linear",
@@ -3342,6 +3622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Trace",
           "name": "Trace",
           "package": "linear",
@@ -3350,6 +3631,7 @@
         },
         "index": {
           "hierarchy": "Linear Trace",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Trace",
           "name": "Trace",
           "package": "linear",
@@ -3364,6 +3646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the diagonal of a matrix\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ediagonal (V2 (V2 a b) (V2 c d))\n\u003c/code\u003e\u003c/strong\u003eV2 a d\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Trace",
           "name": "diagonal",
           "package": "linear",
@@ -3374,6 +3657,7 @@
         "index": {
           "description": "Compute the diagonal of matrix diagonal V2 V2 V2 V2",
           "hierarchy": "Linear Trace",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Trace",
           "name": "diagonal",
           "normalized": "a(a b)-\u003ea b",
@@ -3389,6 +3673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the trace of a matrix\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etrace (V2 (V2 a b) (V2 c d))\n\u003c/code\u003e\u003c/strong\u003ea + d\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Trace",
           "name": "trace",
           "package": "linear",
@@ -3399,6 +3684,7 @@
         "index": {
           "description": "Compute the trace of matrix trace V2 V2 V2",
           "hierarchy": "Linear Trace",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Trace",
           "name": "trace",
           "normalized": "a(a b)-\u003eb",
@@ -3414,6 +3700,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003en-D Vectors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V",
           "name": "V",
           "package": "linear",
@@ -3423,6 +3710,7 @@
         "index": {
           "description": "n-D Vectors",
           "hierarchy": "Linear V",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V",
           "name": "V",
           "package": "linear",
@@ -3435,6 +3723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V",
           "name": "Dim",
           "package": "linear",
@@ -3443,6 +3732,7 @@
         },
         "index": {
           "hierarchy": "Linear V",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V",
           "name": "Dim",
           "package": "linear",
@@ -3456,6 +3746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V",
           "name": "V",
           "package": "linear",
@@ -3464,6 +3755,7 @@
         },
         "index": {
           "hierarchy": "Linear V",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V",
           "name": "V",
           "package": "linear",
@@ -3476,6 +3768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V",
           "name": "dim",
           "package": "linear",
@@ -3485,6 +3778,7 @@
         },
         "index": {
           "hierarchy": "Linear V",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V",
           "name": "dim",
           "normalized": "V a b-\u003eInt",
@@ -3499,6 +3793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V",
           "name": "fromVector",
           "package": "linear",
@@ -3508,6 +3803,7 @@
         },
         "index": {
           "hierarchy": "Linear V",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V",
           "name": "fromVector",
           "normalized": "Vector a-\u003eMaybe(V b a)",
@@ -3524,6 +3820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis can be used to generate a template haskell splice for a type level version of a given \u003ccode\u003e\u003ca\u003eint\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis does not use GHC TypeLits, instead it generates a numeric type by hand similar to the ones used\n in the \"Functional Pearl: Implicit Configurations\" paper by Oleg Kiselyov and Chung-Chieh Shan.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003einstance Num (Q Exp)\u003c/code\u003e provided in this package allows writing \u003ccode\u003e$(3)\u003c/code\u003e\n instead of \u003ccode\u003e$(int 3)\u003c/code\u003e. Sometimes the two will produce the same\n representation (if compiled without the \u003ccode\u003e-DUSE_TYPE_LITS\u003c/code\u003e preprocessor\n directive).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V",
           "name": "int",
           "package": "linear",
@@ -3533,6 +3830,7 @@
         "index": {
           "description": "This can be used to generate template haskell splice for type level version of given int This does not use GHC TypeLits instead it generates numeric type by hand similar to the ones used in the Functional Pearl Implicit Configurations paper by Oleg Kiselyov and Chung-Chieh Shan instance Num Exp provided in this package allows writing instead of int Sometimes the two will produce the same representation if compiled without the DUSE TYPE LITS preprocessor directive",
           "hierarchy": "Linear V",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V",
           "name": "int",
           "normalized": "Int-\u003eTypeQ",
@@ -3547,6 +3845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V",
           "name": "reflectDim",
           "package": "linear",
@@ -3556,6 +3855,7 @@
         },
         "index": {
           "hierarchy": "Linear V",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V",
           "name": "reflectDim",
           "normalized": "a b-\u003eInt",
@@ -3571,6 +3871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V",
           "name": "reifyDim",
           "package": "linear",
@@ -3580,6 +3881,7 @@
         },
         "index": {
           "hierarchy": "Linear V",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V",
           "name": "reifyDim",
           "normalized": "Proxy a-\u003eb)-\u003eb",
@@ -3595,6 +3897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V",
           "name": "reifyVector",
           "package": "linear",
@@ -3604,6 +3907,7 @@
         },
         "index": {
           "hierarchy": "Linear V",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V",
           "name": "reifyVector",
           "normalized": "V a b-\u003ec)-\u003ec",
@@ -3620,6 +3924,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e0-D Vectors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V0",
           "name": "V0",
           "package": "linear",
@@ -3629,6 +3934,7 @@
         "index": {
           "description": "Vectors",
           "hierarchy": "Linear V0",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V0",
           "name": "V0",
           "package": "linear",
@@ -3642,6 +3948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 0-dimensional vector\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003epure 1 :: V0 Int\n\u003c/code\u003e\u003c/strong\u003eV0\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV0 + V0\n\u003c/code\u003e\u003c/strong\u003eV0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V0",
           "name": "V0",
           "package": "linear",
@@ -3651,6 +3958,7 @@
         "index": {
           "description": "dimensional vector pure V0 Int V0 V0 V0 V0",
           "hierarchy": "Linear V0",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V0",
           "name": "V0",
           "package": "linear",
@@ -3663,6 +3971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V0",
           "name": "V0",
           "package": "linear",
@@ -3672,6 +3981,7 @@
         },
         "index": {
           "hierarchy": "Linear V0",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V0",
           "name": "V0",
           "package": "linear",
@@ -3685,6 +3995,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e1-D Vectors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V1",
           "name": "V1",
           "package": "linear",
@@ -3694,6 +4005,7 @@
         "index": {
           "description": "Vectors",
           "hierarchy": "Linear V1",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V1",
           "name": "V1",
           "package": "linear",
@@ -3707,6 +4019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space that has at least 1 basis vector \u003ccode\u003e\u003ca\u003e_x\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V1",
           "name": "R1",
           "package": "linear",
@@ -3716,6 +4029,7 @@
         "index": {
           "description": "space that has at least basis vector",
           "hierarchy": "Linear V1",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V1",
           "name": "R1",
           "package": "linear",
@@ -3729,6 +4043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 1-dimensional vector\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003epure 1 :: V1 Int\n\u003c/code\u003e\u003c/strong\u003eV1 1\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV1 2 + V1 3\n\u003c/code\u003e\u003c/strong\u003eV1 5\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV1 2 * V1 3\n\u003c/code\u003e\u003c/strong\u003eV1 6\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esum (V1 2)\n\u003c/code\u003e\u003c/strong\u003e2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V1",
           "name": "V1",
           "package": "linear",
@@ -3738,6 +4053,7 @@
         "index": {
           "description": "dimensional vector pure V1 Int V1 V1 V1 V1 V1 V1 V1 sum V1",
           "hierarchy": "Linear V1",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V1",
           "name": "V1",
           "package": "linear",
@@ -3750,6 +4066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V1",
           "name": "V1",
           "package": "linear",
@@ -3759,6 +4076,7 @@
         },
         "index": {
           "hierarchy": "Linear V1",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V1",
           "name": "V1",
           "package": "linear",
@@ -3772,6 +4090,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV1 2 ^._x\n\u003c/code\u003e\u003c/strong\u003e2\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV1 2 & _x .~ 3\n\u003c/code\u003e\u003c/strong\u003eV1 3\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V1",
           "name": "_x",
           "package": "linear",
@@ -3782,6 +4101,7 @@
         "index": {
           "description": "V1 V1 V1",
           "hierarchy": "Linear V1",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V1",
           "name": "_x",
           "package": "linear",
@@ -3817,6 +4137,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e2-D Vectors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V2",
           "name": "V2",
           "package": "linear",
@@ -3826,6 +4147,7 @@
         "index": {
           "description": "Vectors",
           "hierarchy": "Linear V2",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V2",
           "name": "V2",
           "package": "linear",
@@ -3839,6 +4161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space that has at least 1 basis vector \u003ccode\u003e\u003ca\u003e_x\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V2",
           "name": "R1",
           "package": "linear",
@@ -3848,6 +4171,7 @@
         "index": {
           "description": "space that has at least basis vector",
           "hierarchy": "Linear V2",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V2",
           "name": "R1",
           "package": "linear",
@@ -3861,6 +4185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space that distinguishes 2 orthogonal basis vectors \u003ccode\u003e\u003ca\u003e_x\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e_y\u003c/a\u003e\u003c/code\u003e, but may have more.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V2",
           "name": "R2",
           "package": "linear",
@@ -3870,6 +4195,7 @@
         "index": {
           "description": "space that distinguishes orthogonal basis vectors and but may have more",
           "hierarchy": "Linear V2",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V2",
           "name": "R2",
           "package": "linear",
@@ -3883,6 +4209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 2-dimensional vector\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003epure 1 :: V2 Int\n\u003c/code\u003e\u003c/strong\u003eV2 1 1\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 1 2 + V2 3 4\n\u003c/code\u003e\u003c/strong\u003eV2 4 6\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 1 2 * V2 3 4\n\u003c/code\u003e\u003c/strong\u003eV2 3 8\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esum (V2 1 2)\n\u003c/code\u003e\u003c/strong\u003e3\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V2",
           "name": "V2",
           "package": "linear",
@@ -3892,6 +4219,7 @@
         "index": {
           "description": "dimensional vector pure V2 Int V2 V2 V2 V2 V2 V2 V2 sum V2",
           "hierarchy": "Linear V2",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V2",
           "name": "V2",
           "package": "linear",
@@ -3904,6 +4232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V2",
           "name": "V2",
           "package": "linear",
@@ -3913,6 +4242,7 @@
         },
         "index": {
           "hierarchy": "Linear V2",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V2",
           "name": "V2",
           "package": "linear",
@@ -3926,6 +4256,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV1 2 ^._x\n\u003c/code\u003e\u003c/strong\u003e2\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV1 2 & _x .~ 3\n\u003c/code\u003e\u003c/strong\u003eV1 3\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V2",
           "name": "_x",
           "package": "linear",
@@ -3936,6 +4267,7 @@
         "index": {
           "description": "V1 V1 V1",
           "hierarchy": "Linear V2",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V2",
           "name": "_x",
           "package": "linear",
@@ -3949,6 +4281,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003e_xy\u003c/a\u003e\u003c/code\u003e :: Lens' (t a) (\u003ccode\u003e\u003ca\u003eV2\u003c/a\u003e\u003c/code\u003e a)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V2",
           "name": "_xy",
           "package": "linear",
@@ -3959,6 +4292,7 @@
         "index": {
           "description": "xy Lens V2",
           "hierarchy": "Linear V2",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V2",
           "name": "_xy",
           "normalized": "(V a-\u003eb(V a))-\u003ec a-\u003eb(c a)",
@@ -3974,6 +4308,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 1 2 ^._y\n\u003c/code\u003e\u003c/strong\u003e2\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 1 2 & _y .~ 3\n\u003c/code\u003e\u003c/strong\u003eV2 1 3\n\u003c/pre\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003e_y\u003c/a\u003e\u003c/code\u003e :: Lens' (t a) a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V2",
           "name": "_y",
           "package": "linear",
@@ -3984,6 +4319,7 @@
         "index": {
           "description": "V2 V2 V2 Lens",
           "hierarchy": "Linear V2",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V2",
           "name": "_y",
           "normalized": "(a-\u003eb a)-\u003ec a-\u003eb(c a)",
@@ -4021,6 +4357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe counter-clockwise perpendicular vector\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eperp $ V2 10 20\n\u003c/code\u003e\u003c/strong\u003eV2 (-20) 10\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V2",
           "name": "perp",
           "package": "linear",
@@ -4031,6 +4368,7 @@
         "index": {
           "description": "the counter-clockwise perpendicular vector perp V2 V2",
           "hierarchy": "Linear V2",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V2",
           "name": "perp",
           "normalized": "V a-\u003eV a",
@@ -4046,6 +4384,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e3-D Vectors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V3",
           "name": "V3",
           "package": "linear",
@@ -4055,6 +4394,7 @@
         "index": {
           "description": "Vectors",
           "hierarchy": "Linear V3",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V3",
           "name": "V3",
           "package": "linear",
@@ -4068,6 +4408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space that has at least 1 basis vector \u003ccode\u003e\u003ca\u003e_x\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V3",
           "name": "R1",
           "package": "linear",
@@ -4077,6 +4418,7 @@
         "index": {
           "description": "space that has at least basis vector",
           "hierarchy": "Linear V3",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V3",
           "name": "R1",
           "package": "linear",
@@ -4090,6 +4432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space that distinguishes 2 orthogonal basis vectors \u003ccode\u003e\u003ca\u003e_x\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e_y\u003c/a\u003e\u003c/code\u003e, but may have more.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V3",
           "name": "R2",
           "package": "linear",
@@ -4099,6 +4442,7 @@
         "index": {
           "description": "space that distinguishes orthogonal basis vectors and but may have more",
           "hierarchy": "Linear V3",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V3",
           "name": "R2",
           "package": "linear",
@@ -4112,6 +4456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space that distinguishes 3 orthogonal basis vectors: \u003ccode\u003e\u003ca\u003e_x\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e_y\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003e_z\u003c/a\u003e\u003c/code\u003e. (It may have more)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V3",
           "name": "R3",
           "package": "linear",
@@ -4121,6 +4466,7 @@
         "index": {
           "description": "space that distinguishes orthogonal basis vectors and It may have more",
           "hierarchy": "Linear V3",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V3",
           "name": "R3",
           "package": "linear",
@@ -4134,6 +4480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 3-dimensional vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V3",
           "name": "V3",
           "package": "linear",
@@ -4143,6 +4490,7 @@
         "index": {
           "description": "dimensional vector",
           "hierarchy": "Linear V3",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V3",
           "name": "V3",
           "package": "linear",
@@ -4155,6 +4503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V3",
           "name": "V3",
           "package": "linear",
@@ -4164,6 +4513,7 @@
         },
         "index": {
           "hierarchy": "Linear V3",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V3",
           "name": "V3",
           "package": "linear",
@@ -4177,6 +4527,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV1 2 ^._x\n\u003c/code\u003e\u003c/strong\u003e2\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV1 2 & _x .~ 3\n\u003c/code\u003e\u003c/strong\u003eV1 3\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V3",
           "name": "_x",
           "package": "linear",
@@ -4187,6 +4538,7 @@
         "index": {
           "description": "V1 V1 V1",
           "hierarchy": "Linear V3",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V3",
           "name": "_x",
           "package": "linear",
@@ -4200,6 +4552,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003e_xy\u003c/a\u003e\u003c/code\u003e :: Lens' (t a) (\u003ccode\u003e\u003ca\u003eV2\u003c/a\u003e\u003c/code\u003e a)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V3",
           "name": "_xy",
           "package": "linear",
@@ -4210,6 +4563,7 @@
         "index": {
           "description": "xy Lens V2",
           "hierarchy": "Linear V3",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V3",
           "name": "_xy",
           "normalized": "(V a-\u003eb(V a))-\u003ec a-\u003eb(c a)",
@@ -4225,6 +4579,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003e_xyz\u003c/a\u003e\u003c/code\u003e :: Lens' (t a) (\u003ccode\u003e\u003ca\u003eV3\u003c/a\u003e\u003c/code\u003e a)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V3",
           "name": "_xyz",
           "package": "linear",
@@ -4235,6 +4590,7 @@
         "index": {
           "description": "xyz Lens V3",
           "hierarchy": "Linear V3",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V3",
           "name": "_xyz",
           "normalized": "(V a-\u003eb(V a))-\u003ec a-\u003eb(c a)",
@@ -4250,6 +4606,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 1 2 ^._y\n\u003c/code\u003e\u003c/strong\u003e2\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 1 2 & _y .~ 3\n\u003c/code\u003e\u003c/strong\u003eV2 1 3\n\u003c/pre\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003e_y\u003c/a\u003e\u003c/code\u003e :: Lens' (t a) a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V3",
           "name": "_y",
           "package": "linear",
@@ -4260,6 +4617,7 @@
         "index": {
           "description": "V2 V2 V2 Lens",
           "hierarchy": "Linear V3",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V3",
           "name": "_y",
           "normalized": "(a-\u003eb a)-\u003ec a-\u003eb(c a)",
@@ -4275,6 +4633,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003e_z\u003c/a\u003e\u003c/code\u003e :: Lens' (t a) a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V3",
           "name": "_z",
           "package": "linear",
@@ -4285,6 +4644,7 @@
         "index": {
           "description": "Lens",
           "hierarchy": "Linear V3",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V3",
           "name": "_z",
           "normalized": "(a-\u003eb a)-\u003ec a-\u003eb(c a)",
@@ -4300,6 +4660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecross product\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V3",
           "name": "cross",
           "package": "linear",
@@ -4310,6 +4671,7 @@
         "index": {
           "description": "cross product",
           "hierarchy": "Linear V3",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V3",
           "name": "cross",
           "normalized": "V a-\u003eV a-\u003eV a",
@@ -4347,6 +4709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003escalar triple product\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V3",
           "name": "triple",
           "package": "linear",
@@ -4357,6 +4720,7 @@
         "index": {
           "description": "scalar triple product",
           "hierarchy": "Linear V3",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V3",
           "name": "triple",
           "normalized": "V a-\u003eV a-\u003eV a-\u003ea",
@@ -4372,6 +4736,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e4-D Vectors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V4",
           "name": "V4",
           "package": "linear",
@@ -4381,6 +4746,7 @@
         "index": {
           "description": "Vectors",
           "hierarchy": "Linear V4",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V4",
           "name": "V4",
           "package": "linear",
@@ -4394,6 +4760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space that has at least 1 basis vector \u003ccode\u003e\u003ca\u003e_x\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V4",
           "name": "R1",
           "package": "linear",
@@ -4403,6 +4770,7 @@
         "index": {
           "description": "space that has at least basis vector",
           "hierarchy": "Linear V4",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V4",
           "name": "R1",
           "package": "linear",
@@ -4416,6 +4784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space that distinguishes 2 orthogonal basis vectors \u003ccode\u003e\u003ca\u003e_x\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e_y\u003c/a\u003e\u003c/code\u003e, but may have more.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V4",
           "name": "R2",
           "package": "linear",
@@ -4425,6 +4794,7 @@
         "index": {
           "description": "space that distinguishes orthogonal basis vectors and but may have more",
           "hierarchy": "Linear V4",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V4",
           "name": "R2",
           "package": "linear",
@@ -4438,6 +4808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space that distinguishes 3 orthogonal basis vectors: \u003ccode\u003e\u003ca\u003e_x\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e_y\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003e_z\u003c/a\u003e\u003c/code\u003e. (It may have more)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V4",
           "name": "R3",
           "package": "linear",
@@ -4447,6 +4818,7 @@
         "index": {
           "description": "space that distinguishes orthogonal basis vectors and It may have more",
           "hierarchy": "Linear V4",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V4",
           "name": "R3",
           "package": "linear",
@@ -4460,6 +4832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space that distinguishes orthogonal basis vectors \u003ccode\u003e\u003ca\u003e_x\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e_y\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e_z\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e_w\u003c/a\u003e\u003c/code\u003e. (It may have more.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V4",
           "name": "R4",
           "package": "linear",
@@ -4469,6 +4842,7 @@
         "index": {
           "description": "space that distinguishes orthogonal basis vectors It may have more",
           "hierarchy": "Linear V4",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V4",
           "name": "R4",
           "package": "linear",
@@ -4482,6 +4856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 4-dimensional vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V4",
           "name": "V4",
           "package": "linear",
@@ -4491,6 +4866,7 @@
         "index": {
           "description": "dimensional vector",
           "hierarchy": "Linear V4",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V4",
           "name": "V4",
           "package": "linear",
@@ -4503,6 +4879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V4",
           "name": "V4",
           "package": "linear",
@@ -4512,6 +4889,7 @@
         },
         "index": {
           "hierarchy": "Linear V4",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V4",
           "name": "V4",
           "package": "linear",
@@ -4525,6 +4903,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003e_w\u003c/a\u003e\u003c/code\u003e :: Lens' (t a) a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V4",
           "name": "_w",
           "package": "linear",
@@ -4535,6 +4914,7 @@
         "index": {
           "description": "Lens",
           "hierarchy": "Linear V4",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V4",
           "name": "_w",
           "normalized": "(a-\u003eb a)-\u003ec a-\u003eb(c a)",
@@ -4550,6 +4930,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV1 2 ^._x\n\u003c/code\u003e\u003c/strong\u003e2\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV1 2 & _x .~ 3\n\u003c/code\u003e\u003c/strong\u003eV1 3\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V4",
           "name": "_x",
           "package": "linear",
@@ -4560,6 +4941,7 @@
         "index": {
           "description": "V1 V1 V1",
           "hierarchy": "Linear V4",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V4",
           "name": "_x",
           "package": "linear",
@@ -4573,6 +4955,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003e_xy\u003c/a\u003e\u003c/code\u003e :: Lens' (t a) (\u003ccode\u003e\u003ca\u003eV2\u003c/a\u003e\u003c/code\u003e a)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V4",
           "name": "_xy",
           "package": "linear",
@@ -4583,6 +4966,7 @@
         "index": {
           "description": "xy Lens V2",
           "hierarchy": "Linear V4",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V4",
           "name": "_xy",
           "normalized": "(V a-\u003eb(V a))-\u003ec a-\u003eb(c a)",
@@ -4598,6 +4982,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003e_xyz\u003c/a\u003e\u003c/code\u003e :: Lens' (t a) (\u003ccode\u003e\u003ca\u003eV3\u003c/a\u003e\u003c/code\u003e a)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V4",
           "name": "_xyz",
           "package": "linear",
@@ -4608,6 +4993,7 @@
         "index": {
           "description": "xyz Lens V3",
           "hierarchy": "Linear V4",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V4",
           "name": "_xyz",
           "normalized": "(V a-\u003eb(V a))-\u003ec a-\u003eb(c a)",
@@ -4623,6 +5009,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003e_xyzw\u003c/a\u003e\u003c/code\u003e :: Lens' (t a) (\u003ccode\u003e\u003ca\u003eV4\u003c/a\u003e\u003c/code\u003e a)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V4",
           "name": "_xyzw",
           "package": "linear",
@@ -4633,6 +5020,7 @@
         "index": {
           "description": "xyzw Lens V4",
           "hierarchy": "Linear V4",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V4",
           "name": "_xyzw",
           "normalized": "(V a-\u003eb(V a))-\u003ec a-\u003eb(c a)",
@@ -4648,6 +5036,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 1 2 ^._y\n\u003c/code\u003e\u003c/strong\u003e2\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 1 2 & _y .~ 3\n\u003c/code\u003e\u003c/strong\u003eV2 1 3\n\u003c/pre\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003e_y\u003c/a\u003e\u003c/code\u003e :: Lens' (t a) a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V4",
           "name": "_y",
           "package": "linear",
@@ -4658,6 +5047,7 @@
         "index": {
           "description": "V2 V2 V2 Lens",
           "hierarchy": "Linear V4",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V4",
           "name": "_y",
           "normalized": "(a-\u003eb a)-\u003ec a-\u003eb(c a)",
@@ -4673,6 +5063,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003e_z\u003c/a\u003e\u003c/code\u003e :: Lens' (t a) a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V4",
           "name": "_z",
           "package": "linear",
@@ -4683,6 +5074,7 @@
         "index": {
           "description": "Lens",
           "hierarchy": "Linear V4",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V4",
           "name": "_z",
           "normalized": "(a-\u003eb a)-\u003ec a-\u003eb(c a)",
@@ -4697,6 +5089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V4",
           "name": "ew",
           "package": "linear",
@@ -4706,6 +5099,7 @@
         },
         "index": {
           "hierarchy": "Linear V4",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V4",
           "name": "ew",
           "package": "linear",
@@ -4719,6 +5113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert 4-dimensional projective coordinates to a 3-dimensional\n point. This operation may be denoted, \u003ccode\u003eeuclidean [x:y:z:w] = (x/w,\n y/w, z/w)\u003c/code\u003e where the projective, homogenous, coordinate\n \u003ccode\u003e[x:y:z:w]\u003c/code\u003e is one of many associated with a single point \u003ccode\u003e(x/w,\n y/w, z/w)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V4",
           "name": "normalizePoint",
           "package": "linear",
@@ -4729,6 +5124,7 @@
         "index": {
           "description": "Convert dimensional projective coordinates to dimensional point This operation may be denoted euclidean where the projective homogenous coordinate is one of many associated with single point",
           "hierarchy": "Linear V4",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V4",
           "name": "normalizePoint",
           "normalized": "V a-\u003eV a",
@@ -4745,6 +5141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a 3-dimensional affine point into a 4-dimensional homogeneous vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V4",
           "name": "point",
           "package": "linear",
@@ -4755,6 +5152,7 @@
         "index": {
           "description": "Convert dimensional affine point into dimensional homogeneous vector",
           "hierarchy": "Linear V4",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V4",
           "name": "point",
           "normalized": "V a-\u003eV a",
@@ -4770,6 +5168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a 3-dimensional affine vector into a 4-dimensional homogeneous vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.V4",
           "name": "vector",
           "package": "linear",
@@ -4780,6 +5179,7 @@
         "index": {
           "description": "Convert dimensional affine vector into dimensional homogeneous vector",
           "hierarchy": "Linear V4",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.V4",
           "name": "vector",
           "normalized": "V a-\u003eV a",
@@ -4795,6 +5195,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOperations on free vector spaces.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "Vector",
           "package": "linear",
@@ -4804,6 +5205,7 @@
         "index": {
           "description": "Operations on free vector spaces",
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "Vector",
           "package": "linear",
@@ -4818,6 +5220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA vector is an additive group with additional structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "Additive",
           "package": "linear",
@@ -4827,6 +5230,7 @@
         "index": {
           "description": "vector is an additive group with additional structure",
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "Additive",
           "package": "linear",
@@ -4841,6 +5245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasis element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "E",
           "package": "linear",
@@ -4850,6 +5255,7 @@
         "index": {
           "description": "Basis element",
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "E",
           "package": "linear",
@@ -4863,6 +5269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the left scalar product\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e2 *^ V2 3 4\n\u003c/code\u003e\u003c/strong\u003eV2 6 8\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "(*^)",
           "package": "linear",
@@ -4873,6 +5280,7 @@
         "index": {
           "description": "Compute the left scalar product V2 V2",
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "(*^) *^",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -4888,6 +5296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the right scalar product\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 3 4 ^* 2\n\u003c/code\u003e\u003c/strong\u003eV2 6 8\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "(^*)",
           "package": "linear",
@@ -4898,6 +5307,7 @@
         "index": {
           "description": "Compute the right scalar product V2 V2",
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "(^*) ^*",
           "normalized": "a b-\u003eb-\u003ea b",
@@ -4913,6 +5323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the sum of two vectors\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 1 2 ^+^ V2 3 4\n\u003c/code\u003e\u003c/strong\u003eV2 4 6\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "(^+^)",
           "package": "linear",
@@ -4923,6 +5334,7 @@
         "index": {
           "description": "Compute the sum of two vectors V2 V2 V2",
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "(^+^) ^+^",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -4938,6 +5350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the difference between two vectors\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eV2 4 5 - V2 3 1\n\u003c/code\u003e\u003c/strong\u003eV2 1 4\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "(^-^)",
           "package": "linear",
@@ -4948,6 +5361,7 @@
         "index": {
           "description": "Compute the difference between two vectors V2 V2 V2",
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "(^-^) ^-^",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -4963,6 +5377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute division by a scalar on the right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "(^/)",
           "package": "linear",
@@ -4973,6 +5388,7 @@
         "index": {
           "description": "Compute division by scalar on the right",
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "(^/) ^/",
           "normalized": "a b-\u003eb-\u003ea b",
@@ -4987,6 +5403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "E",
           "package": "linear",
@@ -4996,6 +5413,7 @@
         },
         "index": {
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "E",
           "package": "linear",
@@ -5009,6 +5427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a default basis for a vector space. If the dimensionality\n of the vector space is not statically known, see \u003ccode\u003e\u003ca\u003ebasisFor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "basis",
           "package": "linear",
@@ -5019,6 +5438,7 @@
         "index": {
           "description": "Produce default basis for vector space If the dimensionality of the vector space is not statically known see basisFor",
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "basis",
           "normalized": "[a b]",
@@ -5034,6 +5454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a default basis for a vector space from which the\n argument is drawn.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "basisFor",
           "package": "linear",
@@ -5044,6 +5465,7 @@
         "index": {
           "description": "Produce default basis for vector space from which the argument is drawn",
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "basisFor",
           "normalized": "a b-\u003e[a c]",
@@ -5059,6 +5481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "el",
           "package": "linear",
@@ -5068,6 +5491,7 @@
         },
         "index": {
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "el",
           "package": "linear",
@@ -5081,6 +5505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a diagonal matrix from a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "kronecker",
           "package": "linear",
@@ -5091,6 +5516,7 @@
         "index": {
           "description": "Produce diagonal matrix from vector",
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "kronecker",
           "normalized": "a b-\u003ea(a b)",
@@ -5106,6 +5532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinearly interpolate between two vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "lerp",
           "package": "linear",
@@ -5116,6 +5543,7 @@
         "index": {
           "description": "Linearly interpolate between two vectors",
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "lerp",
           "normalized": "a-\u003eb a-\u003eb a-\u003eb a",
@@ -5131,6 +5559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to the components of two vectors.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e For a dense vector this is equivalent to \u003ccode\u003e\u003ca\u003eliftA2\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e For a sparse vector this is equivalent to \u003ccode\u003e\u003ca\u003eintersectionWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "liftI2",
           "package": "linear",
@@ -5141,6 +5570,7 @@
         "index": {
           "description": "Apply function to the components of two vectors For dense vector this is equivalent to liftA2 For sparse vector this is equivalent to intersectionWith",
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "liftI2",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -5156,6 +5586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to merge the 'non-zero' components of two vectors, unioning the rest of the values.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e For a dense vector this is equivalent to \u003ccode\u003e\u003ca\u003eliftA2\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e For a sparse vector this is equivalent to \u003ccode\u003e\u003ca\u003eunionWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "liftU2",
           "package": "linear",
@@ -5166,6 +5597,7 @@
         "index": {
           "description": "Apply function to merge the non-zero components of two vectors unioning the rest of the values For dense vector this is equivalent to liftA2 For sparse vector this is equivalent to unionWith",
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "liftU2",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003eb a-\u003eb a",
@@ -5181,6 +5613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the negation of a vector\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003enegated (V2 2 4)\n\u003c/code\u003e\u003c/strong\u003eV2 (-2) (-4)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "negated",
           "package": "linear",
@@ -5191,6 +5624,7 @@
         "index": {
           "description": "Compute the negation of vector negated V2 V2",
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "negated",
           "normalized": "a b-\u003ea b",
@@ -5206,6 +5640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOuter (tensor) product of two vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "outer",
           "package": "linear",
@@ -5216,6 +5651,7 @@
         "index": {
           "description": "Outer tensor product of two vectors",
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "outer",
           "normalized": "a b-\u003ec b-\u003ea(c b)",
@@ -5231,6 +5667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum over multiple vectors\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esumV [V2 1 1, V2 3 4]\n\u003c/code\u003e\u003c/strong\u003eV2 4 5\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "sumV",
           "package": "linear",
@@ -5241,6 +5678,7 @@
         "index": {
           "description": "Sum over multiple vectors sumV V2 V2 V2",
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "sumV",
           "normalized": "a(b c)-\u003eb c",
@@ -5256,6 +5694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unit vector.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eunit _x :: V2 Int\n\u003c/code\u003e\u003c/strong\u003eV2 1 0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "unit",
           "package": "linear",
@@ -5266,6 +5705,7 @@
         "index": {
           "description": "Create unit vector unit V2 Int V2",
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "unit",
           "normalized": "Lens'(a b)b-\u003ea b",
@@ -5281,6 +5721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe zero vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear.Vector",
           "name": "zero",
           "package": "linear",
@@ -5291,6 +5732,7 @@
         "index": {
           "description": "The zero vector",
           "hierarchy": "Linear Vector",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear.Vector",
           "name": "zero",
           "package": "linear",
@@ -5304,6 +5746,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module simply re-exports everything from the various modules\n that make up the linear package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:50 UTC 2014",
           "module": "Linear",
           "name": "Linear",
           "package": "linear",
@@ -5313,6 +5756,7 @@
         "index": {
           "description": "This module simply re-exports everything from the various modules that make up the linear package",
           "hierarchy": "Linear",
+          "indexed": "2014-03-11T19:09:50",
           "module": "Linear",
           "name": "Linear",
           "package": "linear",

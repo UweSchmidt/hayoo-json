@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "css"
+        "phrase": "css",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCSS generation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "Properties",
           "package": "css",
@@ -28,6 +29,7 @@
         "index": {
           "description": "CSS generation",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "Properties",
           "package": "css",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: azimuth\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "azimuth",
           "package": "css",
@@ -52,6 +55,7 @@
         "index": {
           "description": "CSS property azimuth",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "azimuth",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: background\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "background",
           "package": "css",
@@ -77,6 +82,7 @@
         "index": {
           "description": "CSS property background",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "background",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: background-color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "backgroundColor",
           "package": "css",
@@ -102,6 +109,7 @@
         "index": {
           "description": "CSS property background-color",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "backgroundColor",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: background-image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "backgroundImage",
           "package": "css",
@@ -128,6 +137,7 @@
         "index": {
           "description": "CSS property background-image",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "backgroundImage",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: background-position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "backgroundPosition",
           "package": "css",
@@ -154,6 +165,7 @@
         "index": {
           "description": "CSS property background-position",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "backgroundPosition",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -170,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: background-repeat\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "backgroundRepeat",
           "package": "css",
@@ -180,6 +193,7 @@
         "index": {
           "description": "CSS property background-repeat",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "backgroundRepeat",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -196,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: border\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "border",
           "package": "css",
@@ -206,6 +221,7 @@
         "index": {
           "description": "CSS property border",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "border",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -221,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: border-bottom\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "borderBottom",
           "package": "css",
@@ -231,6 +248,7 @@
         "index": {
           "description": "CSS property border-bottom",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "borderBottom",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -247,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: border-bottom-leftradius\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "borderBottomLeftRadius",
           "package": "css",
@@ -257,6 +276,7 @@
         "index": {
           "description": "CSS property border-bottom-leftradius",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "borderBottomLeftRadius",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -273,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: border-bottom-rightradius\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "borderBottomRightRadius",
           "package": "css",
@@ -283,6 +304,7 @@
         "index": {
           "description": "CSS property border-bottom-rightradius",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "borderBottomRightRadius",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -299,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: border-collapse\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "borderCollapse",
           "package": "css",
@@ -309,6 +332,7 @@
         "index": {
           "description": "CSS property border-collapse",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "borderCollapse",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -325,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: border-color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "borderColor",
           "package": "css",
@@ -335,6 +360,7 @@
         "index": {
           "description": "CSS property border-color",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "borderColor",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -351,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: border-left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "borderLeft",
           "package": "css",
@@ -361,6 +388,7 @@
         "index": {
           "description": "CSS property border-left",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "borderLeft",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -377,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: border-radius\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "borderRadius",
           "package": "css",
@@ -387,6 +416,7 @@
         "index": {
           "description": "CSS property border-radius",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "borderRadius",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -403,6 +433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: border-right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "borderRight",
           "package": "css",
@@ -413,6 +444,7 @@
         "index": {
           "description": "CSS property border-right",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "borderRight",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -429,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: border-spacing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "borderSpacing",
           "package": "css",
@@ -439,6 +472,7 @@
         "index": {
           "description": "CSS property border-spacing",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "borderSpacing",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -455,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: border-style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "borderStyle",
           "package": "css",
@@ -465,6 +500,7 @@
         "index": {
           "description": "CSS property border-style",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "borderStyle",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -481,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: border-top\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "borderTop",
           "package": "css",
@@ -491,6 +528,7 @@
         "index": {
           "description": "CSS property border-top",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "borderTop",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -507,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: border-top-color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "borderTopColor",
           "package": "css",
@@ -517,6 +556,7 @@
         "index": {
           "description": "CSS property border-top-color",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "borderTopColor",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -533,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: border-top-leftradius\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "borderTopLeftRadius",
           "package": "css",
@@ -543,6 +584,7 @@
         "index": {
           "description": "CSS property border-top-leftradius",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "borderTopLeftRadius",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -559,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: border-top-rightradius\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "borderTopRightRadius",
           "package": "css",
@@ -569,6 +612,7 @@
         "index": {
           "description": "CSS property border-top-rightradius",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "borderTopRightRadius",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -585,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: border-top-style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "borderTopStyle",
           "package": "css",
@@ -595,6 +640,7 @@
         "index": {
           "description": "CSS property border-top-style",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "borderTopStyle",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -611,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: border-top-width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "borderTopWidth",
           "package": "css",
@@ -621,6 +668,7 @@
         "index": {
           "description": "CSS property border-top-width",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "borderTopWidth",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -637,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: border-width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "borderWidth",
           "package": "css",
@@ -647,6 +696,7 @@
         "index": {
           "description": "CSS property border-width",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "borderWidth",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -663,6 +713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: bottom\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "bottom",
           "package": "css",
@@ -673,6 +724,7 @@
         "index": {
           "description": "CSS property bottom",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "bottom",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -688,6 +740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: box-shadow\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "boxShadow",
           "package": "css",
@@ -698,6 +751,7 @@
         "index": {
           "description": "CSS property box-shadow",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "boxShadow",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -714,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: caption-side\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "captionSide",
           "package": "css",
@@ -724,6 +779,7 @@
         "index": {
           "description": "CSS property caption-side",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "captionSide",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -740,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: clear\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "clear",
           "package": "css",
@@ -750,6 +807,7 @@
         "index": {
           "description": "CSS property clear",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "clear",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -765,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: clip\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "clip",
           "package": "css",
@@ -775,6 +834,7 @@
         "index": {
           "description": "CSS property clip",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "clip",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -790,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "color",
           "package": "css",
@@ -800,6 +861,7 @@
         "index": {
           "description": "CSS property color",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "color",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -815,6 +877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "content",
           "package": "css",
@@ -825,6 +888,7 @@
         "index": {
           "description": "CSS property content",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "content",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -840,6 +904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: counter-increment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "counterIncrement",
           "package": "css",
@@ -850,6 +915,7 @@
         "index": {
           "description": "CSS property counter-increment",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "counterIncrement",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -866,6 +932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: counter-reset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "counterReset",
           "package": "css",
@@ -876,6 +943,7 @@
         "index": {
           "description": "CSS property counter-reset",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "counterReset",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -892,6 +960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: cue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "cue",
           "package": "css",
@@ -902,6 +971,7 @@
         "index": {
           "description": "CSS property cue",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "cue",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -917,6 +987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: cue-after\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "cueAfter",
           "package": "css",
@@ -927,6 +998,7 @@
         "index": {
           "description": "CSS property cue-after",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "cueAfter",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -943,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: cue-before\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "cueBefore",
           "package": "css",
@@ -953,6 +1026,7 @@
         "index": {
           "description": "CSS property cue-before",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "cueBefore",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -969,6 +1043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: cursor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "cursor",
           "package": "css",
@@ -979,6 +1054,7 @@
         "index": {
           "description": "CSS property cursor",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "cursor",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -994,6 +1070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: direction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "direction",
           "package": "css",
@@ -1004,6 +1081,7 @@
         "index": {
           "description": "CSS property direction",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "direction",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1019,6 +1097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: display\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "display",
           "package": "css",
@@ -1029,6 +1108,7 @@
         "index": {
           "description": "CSS property display",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "display",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1044,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: elevation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "elevation",
           "package": "css",
@@ -1054,6 +1135,7 @@
         "index": {
           "description": "CSS property elevation",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "elevation",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1069,6 +1151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: empty-cells\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "emptyCells",
           "package": "css",
@@ -1079,6 +1162,7 @@
         "index": {
           "description": "CSS property empty-cells",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "emptyCells",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1095,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: float\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "float",
           "package": "css",
@@ -1105,6 +1190,7 @@
         "index": {
           "description": "CSS property float",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "float",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1120,6 +1206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: font\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "font",
           "package": "css",
@@ -1130,6 +1217,7 @@
         "index": {
           "description": "CSS property font",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "font",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1145,6 +1233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: font-family\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "fontFamily",
           "package": "css",
@@ -1155,6 +1244,7 @@
         "index": {
           "description": "CSS property font-family",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "fontFamily",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1171,6 +1261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: font-size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "fontSize",
           "package": "css",
@@ -1181,6 +1272,7 @@
         "index": {
           "description": "CSS property font-size",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "fontSize",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1197,6 +1289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: font-style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "fontStyle",
           "package": "css",
@@ -1207,6 +1300,7 @@
         "index": {
           "description": "CSS property font-style",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "fontStyle",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1223,6 +1317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: font-variant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "fontVariant",
           "package": "css",
@@ -1233,6 +1328,7 @@
         "index": {
           "description": "CSS property font-variant",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "fontVariant",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1249,6 +1345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: font-weight\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "fontWeight",
           "package": "css",
@@ -1259,6 +1356,7 @@
         "index": {
           "description": "CSS property font-weight",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "fontWeight",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1275,6 +1373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: height\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "height",
           "package": "css",
@@ -1285,6 +1384,7 @@
         "index": {
           "description": "CSS property height",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "height",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1300,6 +1400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "left",
           "package": "css",
@@ -1310,6 +1411,7 @@
         "index": {
           "description": "CSS property left",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "left",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1325,6 +1427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: letter-spacing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "letterSpacing",
           "package": "css",
@@ -1335,6 +1438,7 @@
         "index": {
           "description": "CSS property letter-spacing",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "letterSpacing",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1351,6 +1455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: line-height\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "lineHeight",
           "package": "css",
@@ -1361,6 +1466,7 @@
         "index": {
           "description": "CSS property line-height",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "lineHeight",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1377,6 +1483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: list-style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "listStyle",
           "package": "css",
@@ -1387,6 +1494,7 @@
         "index": {
           "description": "CSS property list-style",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "listStyle",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1403,6 +1511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: list-style-image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "listStyleImage",
           "package": "css",
@@ -1413,6 +1522,7 @@
         "index": {
           "description": "CSS property list-style-image",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "listStyleImage",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1429,6 +1539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: list-style-position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "listStylePosition",
           "package": "css",
@@ -1439,6 +1550,7 @@
         "index": {
           "description": "CSS property list-style-position",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "listStylePosition",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1455,6 +1567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: list-style-type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "listStyleType",
           "package": "css",
@@ -1465,6 +1578,7 @@
         "index": {
           "description": "CSS property list-style-type",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "listStyleType",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1481,6 +1595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: margin\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "margin",
           "package": "css",
@@ -1491,6 +1606,7 @@
         "index": {
           "description": "CSS property margin",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "margin",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1506,6 +1622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: margin-bottom\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "marginBottom",
           "package": "css",
@@ -1516,6 +1633,7 @@
         "index": {
           "description": "CSS property margin-bottom",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "marginBottom",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1532,6 +1650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: margin-left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "marginLeft",
           "package": "css",
@@ -1542,6 +1661,7 @@
         "index": {
           "description": "CSS property margin-left",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "marginLeft",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1558,6 +1678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: margin-right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "marginRight",
           "package": "css",
@@ -1568,6 +1689,7 @@
         "index": {
           "description": "CSS property margin-right",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "marginRight",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1584,6 +1706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: margin-top\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "marginTop",
           "package": "css",
@@ -1594,6 +1717,7 @@
         "index": {
           "description": "CSS property margin-top",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "marginTop",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1610,6 +1734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: max-height\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "maxHeight",
           "package": "css",
@@ -1620,6 +1745,7 @@
         "index": {
           "description": "CSS property max-height",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "maxHeight",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1636,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: max-width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "maxWidth",
           "package": "css",
@@ -1646,6 +1773,7 @@
         "index": {
           "description": "CSS property max-width",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "maxWidth",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1662,6 +1790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: min-height\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "minHeight",
           "package": "css",
@@ -1672,6 +1801,7 @@
         "index": {
           "description": "CSS property min-height",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "minHeight",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1688,6 +1818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: min-width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "minWidth",
           "package": "css",
@@ -1698,6 +1829,7 @@
         "index": {
           "description": "CSS property min-width",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "minWidth",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1714,6 +1846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: -ms-filter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "msFilter",
           "package": "css",
@@ -1724,6 +1857,7 @@
         "index": {
           "description": "CSS property ms-filter",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "msFilter",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1740,6 +1874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: opacity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "opacity",
           "package": "css",
@@ -1750,6 +1885,7 @@
         "index": {
           "description": "CSS property opacity",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "opacity",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1765,6 +1901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: orphans\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "orphans",
           "package": "css",
@@ -1775,6 +1912,7 @@
         "index": {
           "description": "CSS property orphans",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "orphans",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1790,6 +1928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: outline\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "outline",
           "package": "css",
@@ -1800,6 +1939,7 @@
         "index": {
           "description": "CSS property outline",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "outline",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1815,6 +1955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: outline-color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "outlineColor",
           "package": "css",
@@ -1825,6 +1966,7 @@
         "index": {
           "description": "CSS property outline-color",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "outlineColor",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1841,6 +1983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: outline-style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "outlineStyle",
           "package": "css",
@@ -1851,6 +1994,7 @@
         "index": {
           "description": "CSS property outline-style",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "outlineStyle",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1867,6 +2011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: outline-width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "outlineWidth",
           "package": "css",
@@ -1877,6 +2022,7 @@
         "index": {
           "description": "CSS property outline-width",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "outlineWidth",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1893,6 +2039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: overflow\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "overflow",
           "package": "css",
@@ -1903,6 +2050,7 @@
         "index": {
           "description": "CSS property overflow",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "overflow",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1918,6 +2066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: padding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "padding",
           "package": "css",
@@ -1928,6 +2077,7 @@
         "index": {
           "description": "CSS property padding",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "padding",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1943,6 +2093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: padding-bottom\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "paddingBottom",
           "package": "css",
@@ -1953,6 +2104,7 @@
         "index": {
           "description": "CSS property padding-bottom",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "paddingBottom",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1969,6 +2121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: padding-left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "paddingLeft",
           "package": "css",
@@ -1979,6 +2132,7 @@
         "index": {
           "description": "CSS property padding-left",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "paddingLeft",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -1995,6 +2149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: padding-right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "paddingRight",
           "package": "css",
@@ -2005,6 +2160,7 @@
         "index": {
           "description": "CSS property padding-right",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "paddingRight",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2021,6 +2177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: padding-top\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "paddingTop",
           "package": "css",
@@ -2031,6 +2188,7 @@
         "index": {
           "description": "CSS property padding-top",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "paddingTop",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2047,6 +2205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: page-break-after\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "pageBreakAfter",
           "package": "css",
@@ -2057,6 +2216,7 @@
         "index": {
           "description": "CSS property page-break-after",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "pageBreakAfter",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2073,6 +2233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: page-break-before\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "pageBreakBefore",
           "package": "css",
@@ -2083,6 +2244,7 @@
         "index": {
           "description": "CSS property page-break-before",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "pageBreakBefore",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2099,6 +2261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: page-break-inside\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "pageBreakInside",
           "package": "css",
@@ -2109,6 +2272,7 @@
         "index": {
           "description": "CSS property page-break-inside",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "pageBreakInside",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2125,6 +2289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: pause\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "pause",
           "package": "css",
@@ -2135,6 +2300,7 @@
         "index": {
           "description": "CSS property pause",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "pause",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2150,6 +2316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: pause-after\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "pauseAfter",
           "package": "css",
@@ -2160,6 +2327,7 @@
         "index": {
           "description": "CSS property pause-after",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "pauseAfter",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2176,6 +2344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: pause-before\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "pauseBefore",
           "package": "css",
@@ -2186,6 +2355,7 @@
         "index": {
           "description": "CSS property pause-before",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "pauseBefore",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2202,6 +2372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: pitch\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "pitch",
           "package": "css",
@@ -2212,6 +2383,7 @@
         "index": {
           "description": "CSS property pitch",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "pitch",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2227,6 +2399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: pitch-range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "pitchRange",
           "package": "css",
@@ -2237,6 +2410,7 @@
         "index": {
           "description": "CSS property pitch-range",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "pitchRange",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2253,6 +2427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: play-during\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "playDuring",
           "package": "css",
@@ -2263,6 +2438,7 @@
         "index": {
           "description": "CSS property play-during",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "playDuring",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2279,6 +2455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "position",
           "package": "css",
@@ -2289,6 +2466,7 @@
         "index": {
           "description": "CSS property position",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "position",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2304,6 +2482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a CSS property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "prop",
           "package": "css",
@@ -2314,6 +2493,7 @@
         "index": {
           "description": "Make CSS property",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "prop",
           "normalized": "Text-\u003eText-\u003eCSS(Either Property Rule)",
@@ -2329,6 +2509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: quotes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "quotes",
           "package": "css",
@@ -2339,6 +2520,7 @@
         "index": {
           "description": "CSS property quotes",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "quotes",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2354,6 +2536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: richness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "richness",
           "package": "css",
@@ -2364,6 +2547,7 @@
         "index": {
           "description": "CSS property richness",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "richness",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2379,6 +2563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "right",
           "package": "css",
@@ -2389,6 +2574,7 @@
         "index": {
           "description": "CSS property right",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "right",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2404,6 +2590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: speak\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "speak",
           "package": "css",
@@ -2414,6 +2601,7 @@
         "index": {
           "description": "CSS property speak",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "speak",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2429,6 +2617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: speak-header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "speakHeader",
           "package": "css",
@@ -2439,6 +2628,7 @@
         "index": {
           "description": "CSS property speak-header",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "speakHeader",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2455,6 +2645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: speak-numeral\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "speakNumeral",
           "package": "css",
@@ -2465,6 +2656,7 @@
         "index": {
           "description": "CSS property speak-numeral",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "speakNumeral",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2481,6 +2673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: speak-punctuation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "speakPunctuation",
           "package": "css",
@@ -2491,6 +2684,7 @@
         "index": {
           "description": "CSS property speak-punctuation",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "speakPunctuation",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2507,6 +2701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: speech-rate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "speechRate",
           "package": "css",
@@ -2517,6 +2712,7 @@
         "index": {
           "description": "CSS property speech-rate",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "speechRate",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2533,6 +2729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: stress\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "stress",
           "package": "css",
@@ -2543,6 +2740,7 @@
         "index": {
           "description": "CSS property stress",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "stress",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2558,6 +2756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: table-layout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "tableLayout",
           "package": "css",
@@ -2568,6 +2767,7 @@
         "index": {
           "description": "CSS property table-layout",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "tableLayout",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2584,6 +2784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: text-align\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "textAlign",
           "package": "css",
@@ -2594,6 +2795,7 @@
         "index": {
           "description": "CSS property text-align",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "textAlign",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2610,6 +2812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: text-decoration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "textDecoration",
           "package": "css",
@@ -2620,6 +2823,7 @@
         "index": {
           "description": "CSS property text-decoration",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "textDecoration",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2636,6 +2840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: text-indent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "textIndent",
           "package": "css",
@@ -2646,6 +2851,7 @@
         "index": {
           "description": "CSS property text-indent",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "textIndent",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2662,6 +2868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: text-shadow\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "textShadow",
           "package": "css",
@@ -2672,6 +2879,7 @@
         "index": {
           "description": "CSS property text-shadow",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "textShadow",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2688,6 +2896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: text-transform\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "textTransform",
           "package": "css",
@@ -2698,6 +2907,7 @@
         "index": {
           "description": "CSS property text-transform",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "textTransform",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2714,6 +2924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: top\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "top",
           "package": "css",
@@ -2724,6 +2935,7 @@
         "index": {
           "description": "CSS property top",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "top",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2739,6 +2951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: unicode-bidi\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "unicodeBidi",
           "package": "css",
@@ -2749,6 +2962,7 @@
         "index": {
           "description": "CSS property unicode-bidi",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "unicodeBidi",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2765,6 +2979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: vertical-align\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "verticalAlign",
           "package": "css",
@@ -2775,6 +2990,7 @@
         "index": {
           "description": "CSS property vertical-align",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "verticalAlign",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2791,6 +3007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: visibility\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "visibility",
           "package": "css",
@@ -2801,6 +3018,7 @@
         "index": {
           "description": "CSS property visibility",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "visibility",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2816,6 +3034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: voice-family\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "voiceFamily",
           "package": "css",
@@ -2826,6 +3045,7 @@
         "index": {
           "description": "CSS property voice-family",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "voiceFamily",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2842,6 +3062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: volume\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "volume",
           "package": "css",
@@ -2852,6 +3073,7 @@
         "index": {
           "description": "CSS property volume",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "volume",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2867,6 +3089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: white-space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "whiteSpace",
           "package": "css",
@@ -2877,6 +3100,7 @@
         "index": {
           "description": "CSS property white-space",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "whiteSpace",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2893,6 +3117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: widows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "widows",
           "package": "css",
@@ -2903,6 +3128,7 @@
         "index": {
           "description": "CSS property widows",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "widows",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2918,6 +3144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "width",
           "package": "css",
@@ -2928,6 +3155,7 @@
         "index": {
           "description": "CSS property width",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "width",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2943,6 +3171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: word-spacing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "wordSpacing",
           "package": "css",
@@ -2953,6 +3182,7 @@
         "index": {
           "description": "CSS property word-spacing",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "wordSpacing",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2969,6 +3199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS property: z-index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Properties",
           "name": "zIndex",
           "package": "css",
@@ -2979,6 +3210,7 @@
         "index": {
           "description": "CSS property z-index",
           "hierarchy": "Language CSS Properties",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Properties",
           "name": "zIndex",
           "normalized": "Text-\u003eCSS(Either Property Rule)",
@@ -2995,6 +3227,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCSS generation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Types",
           "name": "Types",
           "package": "css",
@@ -3004,6 +3237,7 @@
         "index": {
           "description": "CSS generation",
           "hierarchy": "Language CSS Types",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Types",
           "name": "Types",
           "package": "css",
@@ -3017,6 +3251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Types",
           "name": "CSS",
           "package": "css",
@@ -3025,6 +3260,7 @@
         },
         "index": {
           "hierarchy": "Language CSS Types",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Types",
           "name": "CSS",
           "package": "css",
@@ -3039,6 +3275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe CSS writer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Types",
           "name": "CSSM",
           "package": "css",
@@ -3048,6 +3285,7 @@
         "index": {
           "description": "The CSS writer",
           "hierarchy": "Language CSS Types",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Types",
           "name": "CSSM",
           "package": "css",
@@ -3062,6 +3300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA CSS property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Types",
           "name": "Property",
           "package": "css",
@@ -3071,6 +3310,7 @@
         "index": {
           "description": "CSS property",
           "hierarchy": "Language CSS Types",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Types",
           "name": "Property",
           "package": "css",
@@ -3085,6 +3325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA CSS rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Types",
           "name": "Rule",
           "package": "css",
@@ -3094,6 +3335,7 @@
         "index": {
           "description": "CSS rule",
           "hierarchy": "Language CSS Types",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Types",
           "name": "Rule",
           "package": "css",
@@ -3107,6 +3349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Types",
           "name": "CSSM",
           "package": "css",
@@ -3116,6 +3359,7 @@
         },
         "index": {
           "hierarchy": "Language CSS Types",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Types",
           "name": "CSSM",
           "package": "css",
@@ -3129,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Types",
           "name": "Property",
           "package": "css",
@@ -3138,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "Language CSS Types",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Types",
           "name": "Property",
           "package": "css",
@@ -3151,6 +3397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Types",
           "name": "Rule",
           "package": "css",
@@ -3160,6 +3407,7 @@
         },
         "index": {
           "hierarchy": "Language CSS Types",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Types",
           "name": "Rule",
           "package": "css",
@@ -3173,6 +3421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Types",
           "name": "propertyName",
           "package": "css",
@@ -3182,6 +3431,7 @@
         },
         "index": {
           "hierarchy": "Language CSS Types",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Types",
           "name": "propertyName",
           "package": "css",
@@ -3195,6 +3445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Types",
           "name": "propertyValue",
           "package": "css",
@@ -3204,6 +3455,7 @@
         },
         "index": {
           "hierarchy": "Language CSS Types",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Types",
           "name": "propertyValue",
           "package": "css",
@@ -3217,6 +3469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Types",
           "name": "ruleExpr",
           "package": "css",
@@ -3226,6 +3479,7 @@
         },
         "index": {
           "hierarchy": "Language CSS Types",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Types",
           "name": "ruleExpr",
           "package": "css",
@@ -3239,6 +3493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Types",
           "name": "ruleProperties",
           "package": "css",
@@ -3248,6 +3503,7 @@
         },
         "index": {
           "hierarchy": "Language CSS Types",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Types",
           "name": "ruleProperties",
           "normalized": "[Property]",
@@ -3263,6 +3519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Types",
           "name": "ruleRules",
           "package": "css",
@@ -3272,6 +3529,7 @@
         },
         "index": {
           "hierarchy": "Language CSS Types",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Types",
           "name": "ruleRules",
           "normalized": "[Rule]",
@@ -3287,6 +3545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS.Types",
           "name": "unCSS",
           "package": "css",
@@ -3296,6 +3555,7 @@
         },
         "index": {
           "hierarchy": "Language CSS Types",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS.Types",
           "name": "unCSS",
           "normalized": "Writer[a]b",
@@ -3312,6 +3572,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCSS generation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS",
           "name": "CSS",
           "package": "css",
@@ -3321,6 +3582,7 @@
         "index": {
           "description": "CSS generation",
           "hierarchy": "Language CSS",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS",
           "name": "CSS",
           "package": "css",
@@ -3335,6 +3597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a CSS AST to text, flat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS",
           "name": "renderCSS",
           "package": "css",
@@ -3345,6 +3608,7 @@
         "index": {
           "description": "Render CSS AST to text flat",
           "hierarchy": "Language CSS",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS",
           "name": "renderCSS",
           "normalized": "[Rule]-\u003eText",
@@ -3361,6 +3625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a CSS AST to text, pretty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS",
           "name": "renderPrettyCSS",
           "package": "css",
@@ -3371,6 +3636,7 @@
         "index": {
           "description": "Render CSS AST to text pretty",
           "hierarchy": "Language CSS",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS",
           "name": "renderPrettyCSS",
           "normalized": "[Rule]-\u003eText",
@@ -3386,6 +3652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS",
           "name": "rule",
           "package": "css",
@@ -3395,6 +3662,7 @@
         },
         "index": {
           "hierarchy": "Language CSS",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS",
           "name": "rule",
           "normalized": "Text-\u003eCSS(Either Property Rule)-\u003eCSS a",
@@ -3409,6 +3677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS",
           "name": "rules",
           "package": "css",
@@ -3418,6 +3687,7 @@
         },
         "index": {
           "hierarchy": "Language CSS",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS",
           "name": "rules",
           "normalized": "[Text]-\u003eCSS(Either Property Rule)-\u003eCSS a",
@@ -3433,6 +3703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate CSS rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:44:50 UTC 2014",
           "module": "Language.CSS",
           "name": "runCSS",
           "package": "css",
@@ -3443,6 +3714,7 @@
         "index": {
           "description": "Generate CSS rules",
           "hierarchy": "Language CSS",
+          "indexed": "2014-03-11T17:44:50",
           "module": "Language.CSS",
           "name": "runCSS",
           "normalized": "CSS Rule-\u003e[Rule]",

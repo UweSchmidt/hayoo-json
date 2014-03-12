@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rss"
+        "phrase": "rss",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA libary for generating RSS 2.0 feeds.\n\u003c/p\u003e\u003cp\u003eOriginal module by Jeremy Shaw.\n\u003c/p\u003e\u003cp\u003eChanges by Bjorn Bringert:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e showXml just converts the RSS to a String, does not print it.\n\u003c/li\u003e\u003cli\u003e Added XML escaping.\n\u003c/li\u003e\u003cli\u003e Use RFC 2822 format for dates.\n\u003c/li\u003e\u003cli\u003e Added all elements from RSS 2.0.1-rv-6,\n   \u003ca\u003ehttp://www.rssboard.org/rss-2-0-1-rv-6\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Use HaXml.Verbatim instead of HaXml.Pretty, since\n   HaXml.Pretty seems to introduce spaces around entities.\n\u003c/li\u003e\u003cli\u003e Removed the use of content:encoded, since the description\n   tag is the recommented way to include HTML content in RSS 2.0.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eChanges by Bas van Dijk:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Use \u003ccode\u003eUTCTime\u003c/code\u003e from \u003ccode\u003etime\u003c/code\u003e instead of \u003ccode\u003eCalendarTime\u003c/code\u003e from \u003ccode\u003eold-time\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Add our own \u003ccode\u003eWeekday\u003c/code\u003e type instead of using the \u003ccode\u003eDay\u003c/code\u003e type from \u003ccode\u003eold-time\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "RSS",
           "package": "rss",
@@ -28,6 +29,7 @@
         "index": {
           "description": "libary for generating RSS feeds Original module by Jeremy Shaw Changes by Bjorn Bringert showXml just converts the RSS to String does not print it Added XML escaping Use RFC format for dates Added all elements from RSS rv-6 http www.rssboard.org rss-2-0-1-rv-6 Use HaXml.Verbatim instead of HaXml.Pretty since HaXml.Pretty seems to introduce spaces around entities Removed the use of content encoded since the description tag is the recommented way to include HTML content in RSS Changes by Bas van Dijk Use UTCTime from time instead of CalendarTime from old-time Add our own Weekday type instead of using the Day type from old-time",
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "RSS",
           "package": "rss",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "ChannelElem",
           "package": "rss",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "ChannelElem",
           "package": "rss",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "CloudHost",
           "package": "rss",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "CloudHost",
           "package": "rss",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "CloudPath",
           "package": "rss",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "CloudPath",
           "package": "rss",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "CloudPort",
           "package": "rss",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "CloudPort",
           "package": "rss",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "CloudProcedure",
           "package": "rss",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "CloudProcedure",
           "package": "rss",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "CloudProtocol",
           "package": "rss",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "CloudProtocol",
           "package": "rss",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Description",
           "package": "rss",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Description",
           "package": "rss",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Domain",
           "package": "rss",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Domain",
           "package": "rss",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Email",
           "package": "rss",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Email",
           "package": "rss",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Height",
           "package": "rss",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Height",
           "package": "rss",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Hour",
           "package": "rss",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Hour",
           "package": "rss",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "InputName",
           "package": "rss",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "InputName",
           "package": "rss",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Item",
           "package": "rss",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Item",
           "package": "rss",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "ItemElem",
           "package": "rss",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "ItemElem",
           "package": "rss",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Link",
           "package": "rss",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Link",
           "package": "rss",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "MIME_Type",
           "package": "rss",
@@ -364,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "MIME_Type",
           "package": "rss",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Minutes",
           "package": "rss",
@@ -385,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Minutes",
           "package": "rss",
@@ -398,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "RSS",
           "package": "rss",
@@ -406,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "RSS",
           "package": "rss",
@@ -419,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Title",
           "package": "rss",
@@ -427,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Title",
           "package": "rss",
@@ -441,6 +481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA day of the week.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Weekday",
           "package": "rss",
@@ -450,6 +491,7 @@
         "index": {
           "description": "day of the week",
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Weekday",
           "package": "rss",
@@ -463,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Width",
           "package": "rss",
@@ -471,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Width",
           "package": "rss",
@@ -484,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Author",
           "package": "rss",
@@ -493,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Author",
           "package": "rss",
@@ -506,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Category",
           "package": "rss",
@@ -515,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Category",
           "package": "rss",
@@ -528,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "ChannelCategory",
           "package": "rss",
@@ -537,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "ChannelCategory",
           "package": "rss",
@@ -550,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "ChannelPubDate",
           "package": "rss",
@@ -559,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "ChannelPubDate",
           "package": "rss",
@@ -572,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Cloud",
           "package": "rss",
@@ -581,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Cloud",
           "package": "rss",
@@ -594,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "CloudProtocolSOAP",
           "package": "rss",
@@ -603,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "CloudProtocolSOAP",
           "package": "rss",
@@ -616,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "CloudProtocolXmlRpc",
           "package": "rss",
@@ -625,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "CloudProtocolXmlRpc",
           "package": "rss",
@@ -638,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Comments",
           "package": "rss",
@@ -647,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Comments",
           "package": "rss",
@@ -660,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Copyright",
           "package": "rss",
@@ -669,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Copyright",
           "package": "rss",
@@ -682,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Description",
           "package": "rss",
@@ -691,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Description",
           "package": "rss",
@@ -704,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Enclosure",
           "package": "rss",
@@ -713,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Enclosure",
           "package": "rss",
@@ -726,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Friday",
           "package": "rss",
@@ -735,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Friday",
           "package": "rss",
@@ -748,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Generator",
           "package": "rss",
@@ -757,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Generator",
           "package": "rss",
@@ -770,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Guid",
           "package": "rss",
@@ -779,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Guid",
           "package": "rss",
@@ -792,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Image",
           "package": "rss",
@@ -801,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Image",
           "package": "rss",
@@ -814,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Language",
           "package": "rss",
@@ -823,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Language",
           "package": "rss",
@@ -836,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "LastBuildDate",
           "package": "rss",
@@ -845,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "LastBuildDate",
           "package": "rss",
@@ -858,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Link",
           "package": "rss",
@@ -867,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Link",
           "package": "rss",
@@ -880,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "ManagingEditor",
           "package": "rss",
@@ -889,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "ManagingEditor",
           "package": "rss",
@@ -902,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Monday",
           "package": "rss",
@@ -911,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Monday",
           "package": "rss",
@@ -924,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "PubDate",
           "package": "rss",
@@ -933,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "PubDate",
           "package": "rss",
@@ -946,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "RSS",
           "package": "rss",
@@ -955,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "RSS",
           "normalized": "RSS Title Link Description[ChannelElem][Item]",
@@ -970,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Rating",
           "package": "rss",
@@ -979,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Rating",
           "package": "rss",
@@ -992,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Saturday",
           "package": "rss",
@@ -1001,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Saturday",
           "package": "rss",
@@ -1014,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "SkipDays",
           "package": "rss",
@@ -1023,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "SkipDays",
           "normalized": "SkipDays[Weekday]",
@@ -1038,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "SkipHours",
           "package": "rss",
@@ -1047,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "SkipHours",
           "normalized": "SkipHours[Hour]",
@@ -1062,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Source",
           "package": "rss",
@@ -1071,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Source",
           "package": "rss",
@@ -1084,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Sunday",
           "package": "rss",
@@ -1093,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Sunday",
           "package": "rss",
@@ -1106,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "TTL",
           "package": "rss",
@@ -1115,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "TTL",
           "package": "rss",
@@ -1128,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "TextInput",
           "package": "rss",
@@ -1137,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "TextInput",
           "package": "rss",
@@ -1150,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Thursday",
           "package": "rss",
@@ -1159,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Thursday",
           "package": "rss",
@@ -1172,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Title",
           "package": "rss",
@@ -1181,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Title",
           "package": "rss",
@@ -1194,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Tuesday",
           "package": "rss",
@@ -1203,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Tuesday",
           "package": "rss",
@@ -1216,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "WebMaster",
           "package": "rss",
@@ -1225,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "WebMaster",
           "package": "rss",
@@ -1238,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "Wednesday",
           "package": "rss",
@@ -1247,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "Wednesday",
           "package": "rss",
@@ -1261,6 +1375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts RSS to XML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "rssToXML",
           "package": "rss",
@@ -1271,6 +1386,7 @@
         "index": {
           "description": "Converts RSS to XML",
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "rssToXML",
           "normalized": "RSS-\u003eCFilter()",
@@ -1287,6 +1403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender XML as a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:46 UTC 2014",
           "module": "Text.RSS",
           "name": "showXML",
           "package": "rss",
@@ -1297,6 +1414,7 @@
         "index": {
           "description": "Render XML as string",
           "hierarchy": "Text RSS",
+          "indexed": "2014-03-11T19:55:46",
           "module": "Text.RSS",
           "name": "showXML",
           "normalized": "CFilter()-\u003eString",

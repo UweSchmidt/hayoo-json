@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "digest"
+        "phrase": "digest",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAdler32 wrapper\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:01 UTC 2014",
           "module": "Data.Digest.Adler32",
           "name": "Adler32",
           "package": "digest",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Adler32 wrapper",
           "hierarchy": "Data Digest Adler32",
+          "indexed": "2014-03-11T17:55:01",
           "module": "Data.Digest.Adler32",
           "name": "Adler32",
           "package": "digest",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of values for which Adler32 may be computed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:01 UTC 2014",
           "module": "Data.Digest.Adler32",
           "name": "Adler32",
           "package": "digest",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The class of values for which Adler32 may be computed",
           "hierarchy": "Data Digest Adler32",
+          "indexed": "2014-03-11T17:55:01",
           "module": "Data.Digest.Adler32",
           "name": "Adler32",
           "package": "digest",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute Adler32 checksum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:01 UTC 2014",
           "module": "Data.Digest.Adler32",
           "name": "adler32",
           "package": "digest",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Compute Adler32 checksum",
           "hierarchy": "Data Digest Adler32",
+          "indexed": "2014-03-11T17:55:01",
           "module": "Data.Digest.Adler32",
           "name": "adler32",
           "normalized": "a-\u003eWord",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the Adler32 checksum of a string, compute Adler32 of its\n concatenation with another string (t.i., incrementally update the \n Adler32 hash value).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:01 UTC 2014",
           "module": "Data.Digest.Adler32",
           "name": "adler32Update",
           "package": "digest",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Given the Adler32 checksum of string compute Adler32 of its concatenation with another string t.i incrementally update the Adler32 hash value",
           "hierarchy": "Data Digest Adler32",
+          "indexed": "2014-03-11T17:55:01",
           "module": "Data.Digest.Adler32",
           "name": "adler32Update",
           "normalized": "Word-\u003ea-\u003eWord",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCRC32 wrapper\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:01 UTC 2014",
           "module": "Data.Digest.CRC32",
           "name": "CRC32",
           "package": "digest",
@@ -125,6 +134,7 @@
         "index": {
           "description": "CRC32 wrapper",
           "hierarchy": "Data Digest CRC32",
+          "indexed": "2014-03-11T17:55:01",
           "module": "Data.Digest.CRC32",
           "name": "CRC32",
           "package": "digest",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of values for which CRC32 may be computed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:01 UTC 2014",
           "module": "Data.Digest.CRC32",
           "name": "CRC32",
           "package": "digest",
@@ -148,6 +159,7 @@
         "index": {
           "description": "The class of values for which CRC32 may be computed",
           "hierarchy": "Data Digest CRC32",
+          "indexed": "2014-03-11T17:55:01",
           "module": "Data.Digest.CRC32",
           "name": "CRC32",
           "package": "digest",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute CRC32 checksum\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:01 UTC 2014",
           "module": "Data.Digest.CRC32",
           "name": "crc32",
           "package": "digest",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Compute CRC32 checksum",
           "hierarchy": "Data Digest CRC32",
+          "indexed": "2014-03-11T17:55:01",
           "module": "Data.Digest.CRC32",
           "name": "crc32",
           "normalized": "a-\u003eWord",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the CRC32 checksum of a string, compute CRC32 of its\n concatenation with another string (t.i., incrementally update \n the CRC32 hash value)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:01 UTC 2014",
           "module": "Data.Digest.CRC32",
           "name": "crc32Update",
           "package": "digest",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Given the CRC32 checksum of string compute CRC32 of its concatenation with another string t.i incrementally update the CRC32 hash value",
           "hierarchy": "Data Digest CRC32",
+          "indexed": "2014-03-11T17:55:01",
           "module": "Data.Digest.CRC32",
           "name": "crc32Update",
           "normalized": "Word-\u003ea-\u003eWord",

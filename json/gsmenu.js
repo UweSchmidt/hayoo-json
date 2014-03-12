@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gsmenu"
+        "phrase": "gsmenu",
+        "type": "phrase"
       },
       "type": "context"
     }

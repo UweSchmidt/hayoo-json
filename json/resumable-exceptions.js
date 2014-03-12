@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "resumable-exceptions"
+        "phrase": "resumable-exceptions",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA monadic interface for resumable exceptions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable.Class",
           "name": "Class",
           "package": "resumable-exceptions",
@@ -28,6 +29,7 @@
         "index": {
           "description": "monadic interface for resumable exceptions",
           "hierarchy": "Control Monad Resumable Class",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable.Class",
           "name": "Class",
           "package": "resumable-exceptions",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monadic interface for resumable exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable.Class",
           "name": "MonadResumable",
           "package": "resumable-exceptions",
@@ -51,6 +54,7 @@
         "index": {
           "description": "monadic interface for resumable exceptions",
           "hierarchy": "Control Monad Resumable Class",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable.Class",
           "name": "MonadResumable",
           "package": "resumable-exceptions",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstalls a handler to quiesce an exception before it percolates to the\n higher-level handlers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable.Class",
           "name": "handle",
           "package": "resumable-exceptions",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Installs handler to quiesce an exception before it percolates to the higher-level handlers",
           "hierarchy": "Control Monad Resumable Class",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable.Class",
           "name": "handle",
           "normalized": "a b-\u003e(c-\u003e(d-\u003ea b)-\u003ea b)-\u003ea b",
@@ -142,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise the exception: a request and a resumption to use if the request\n can be handled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable.Class",
           "name": "yield",
           "package": "resumable-exceptions",
@@ -152,6 +159,7 @@
         "index": {
           "description": "Raise the exception request and resumption to use if the request can be handled",
           "hierarchy": "Control Monad Resumable Class",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable.Class",
           "name": "yield",
           "normalized": "a-\u003e(b-\u003ec d)-\u003ec d",
@@ -167,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA class with an associated type for converting the phantom \u003ccode\u003escope\u003c/code\u003e type of the\n\u003ccode\u003e\u003ca\u003eResumableT\u003c/a\u003e\u003c/code\u003e transformer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "Scoped",
           "package": "resumable-exceptions",
@@ -176,6 +185,7 @@
         "index": {
           "description": "class with an associated type for converting the phantom scope type of the ResumableT transformer",
           "hierarchy": "Control Monad Resumable Scoped",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "Scoped",
           "package": "resumable-exceptions",
@@ -190,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToken type for dynamic scoping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "Dynamic",
           "package": "resumable-exceptions",
@@ -199,6 +210,7 @@
         "index": {
           "description": "Token type for dynamic scoping",
           "hierarchy": "Control Monad Resumable Scoped",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "Dynamic",
           "package": "resumable-exceptions",
@@ -213,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class with an associated type for setting the \u003ccode\u003escope\u003c/code\u003e phantom of the\n \u003ccode\u003e\u003ca\u003eResumableT\u003c/a\u003e\u003c/code\u003e transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "Scoped",
           "package": "resumable-exceptions",
@@ -222,6 +235,7 @@
         "index": {
           "description": "Type class with an associated type for setting the scope phantom of the ResumableT transformer",
           "hierarchy": "Control Monad Resumable Scoped",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "Scoped",
           "package": "resumable-exceptions",
@@ -236,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToken type for static scoping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "Static",
           "package": "resumable-exceptions",
@@ -245,6 +260,7 @@
         "index": {
           "description": "Token type for static scoping",
           "hierarchy": "Control Monad Resumable Scoped",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "Static",
           "package": "resumable-exceptions",
@@ -258,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "Dynamic",
           "package": "resumable-exceptions",
@@ -267,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Resumable Scoped",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "Dynamic",
           "package": "resumable-exceptions",
@@ -280,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "Static",
           "package": "resumable-exceptions",
@@ -289,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Resumable Scoped",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "Static",
           "package": "resumable-exceptions",
@@ -303,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAscribes the \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e scoping token to a \u003ccode\u003e\u003ca\u003eResumableT\u003c/a\u003e\u003c/code\u003e transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "asDynamic",
           "package": "resumable-exceptions",
@@ -313,6 +334,7 @@
         "index": {
           "description": "Ascribes the Dynamic scoping token to ResumableT transformer",
           "hierarchy": "Control Monad Resumable Scoped",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "asDynamic",
           "normalized": "ResumableT Dynamic a b c d-\u003eResumableT Dynamic a b c d",
@@ -329,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAscribes the \u003ccode\u003e\u003ca\u003eStatic\u003c/a\u003e\u003c/code\u003e scoping token to a \u003ccode\u003e\u003ca\u003eResumableT\u003c/a\u003e\u003c/code\u003e transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "asStatic",
           "package": "resumable-exceptions",
@@ -339,6 +362,7 @@
         "index": {
           "description": "Ascribes the Static scoping token to ResumableT transformer",
           "hierarchy": "Control Monad Resumable Scoped",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "asStatic",
           "normalized": "ResumableT Static a b c d-\u003eResumableT Static a b c d",
@@ -355,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAscribes the \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e scoping token to a monad transformer stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "dynamically",
           "package": "resumable-exceptions",
@@ -365,6 +390,7 @@
         "index": {
           "description": "Ascribes the Dynamic scoping token to monad transformer stack",
           "hierarchy": "Control Monad Resumable Scoped",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "dynamically",
           "normalized": "(ScopedAs Dynamic a b-\u003eScopedAs Dynamic a c)-\u003ea b-\u003ea c",
@@ -379,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "scoped",
           "package": "resumable-exceptions",
@@ -388,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Resumable Scoped",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "scoped",
           "normalized": "a-\u003e(ScopedAs a b c-\u003eScopedAs a b d)-\u003eb c-\u003eb d",
@@ -403,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAscribes the \u003ccode\u003e\u003ca\u003eStatic\u003c/a\u003e\u003c/code\u003e scoping token to a monad transformer stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "statically",
           "package": "resumable-exceptions",
@@ -413,6 +442,7 @@
         "index": {
           "description": "Ascribes the Static scoping token to monad transformer stack",
           "hierarchy": "Control Monad Resumable Scoped",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable.Scoped",
           "name": "statically",
           "normalized": "(ScopedAs Static a b-\u003eScopedAs Static a c)-\u003ea b-\u003ea c",
@@ -428,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA monad transformer for resumable exceptions. The \u003ccode\u003e\u003ca\u003eResumableT\u003c/a\u003e\u003c/code\u003e transformer is\nisomorphic to \u003ccode\u003eReactT\u003c/code\u003e, the dominant reactivity monad in the literature. The\ndifferences serve to match the \u003ccode\u003emtl\u003c/code\u003e style.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "Resumable",
           "package": "resumable-exceptions",
@@ -437,6 +468,7 @@
         "index": {
           "description": "monad transformer for resumable exceptions The ResumableT transformer is isomorphic to ReactT the dominant reactivity monad in the literature The differences serve to match the mtl style",
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "Resumable",
           "package": "resumable-exceptions",
@@ -450,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "Dynamic",
           "package": "resumable-exceptions",
@@ -458,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "Dynamic",
           "package": "resumable-exceptions",
@@ -472,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monadic interface for resumable exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "MonadResumable",
           "package": "resumable-exceptions",
@@ -481,6 +516,7 @@
         "index": {
           "description": "monadic interface for resumable exceptions",
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "MonadResumable",
           "package": "resumable-exceptions",
@@ -494,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "Resumable",
           "package": "resumable-exceptions",
@@ -502,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "Resumable",
           "package": "resumable-exceptions",
@@ -515,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "ResumableT",
           "package": "resumable-exceptions",
@@ -523,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "ResumableT",
           "package": "resumable-exceptions",
@@ -536,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "Static",
           "package": "resumable-exceptions",
@@ -544,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "Static",
           "package": "resumable-exceptions",
@@ -557,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "ResumableT",
           "package": "resumable-exceptions",
@@ -566,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "ResumableT",
           "package": "resumable-exceptions",
@@ -580,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEstablishes dynamic scoping as default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "asDynamic",
           "package": "resumable-exceptions",
@@ -590,6 +635,7 @@
         "index": {
           "description": "Establishes dynamic scoping as default",
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "asDynamic",
           "normalized": "ResumableT Dynamic a b c d-\u003eResumableT Dynamic a b c d",
@@ -606,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEstablishes static scoping as default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "asStatic",
           "package": "resumable-exceptions",
@@ -616,6 +663,7 @@
         "index": {
           "description": "Establishes static scoping as default",
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "asStatic",
           "normalized": "ResumableT Static a b c d-\u003eResumableT Static a b c d",
@@ -631,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "dynamically",
           "package": "resumable-exceptions",
@@ -640,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "dynamically",
           "normalized": "(ScopedAs Dynamic a b-\u003eScopedAs Dynamic a c)-\u003ea b-\u003ea c",
@@ -655,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstalls a handler to quiesce an exception before it percolates to the\n higher-level handlers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "handle",
           "package": "resumable-exceptions",
@@ -665,6 +716,7 @@
         "index": {
           "description": "Installs handler to quiesce an exception before it percolates to the higher-level handlers",
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "handle",
           "normalized": "a b-\u003e(c-\u003e(d-\u003ea b)-\u003ea b)-\u003ea b",
@@ -680,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis manipulation of the inner monad acheives dynamic scoping -- the\n manipulation is preserved in the resumption.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "mapResumableT_dynamic",
           "package": "resumable-exceptions",
@@ -690,6 +743,7 @@
         "index": {
           "description": "This manipulation of the inner monad acheives dynamic scoping the manipulation is preserved in the resumption",
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "mapResumableT_dynamic",
           "normalized": "(a(Either(b,c-\u003eResumableT d b c a e)e)-\u003ef(Either(b,c-\u003eResumableT d b c a e)g))-\u003eResumableT d b c a e-\u003eResumableT d b c f g",
@@ -706,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis manipulation of the inner monad acheives static scoping -- the\n manipulation is not preserved in the resumption.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "mapResumableT_static",
           "package": "resumable-exceptions",
@@ -716,6 +771,7 @@
         "index": {
           "description": "This manipulation of the inner monad acheives static scoping the manipulation is not preserved in the resumption",
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "mapResumableT_static",
           "normalized": "(a(Either(b,c-\u003eResumableT d b c a e)e)-\u003ef(Either(g,h-\u003eResumableT i g h f j)j))-\u003eResumableT d b c a e-\u003eResumableT i g h f j",
@@ -732,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe preferred top-level interface nevers allows exceptions to go\n unhandled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "runResumableT",
           "package": "resumable-exceptions",
@@ -742,6 +799,7 @@
         "index": {
           "description": "The preferred top-level interface nevers allows exceptions to go unhandled",
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "runResumableT",
           "normalized": "ResumableT a b c d e-\u003ed(b-\u003e(c-\u003eResumableT a b c d e)-\u003eResumableT a b c d e)-\u003ed e",
@@ -758,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe handler does not depend on the inner monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "runResumableT'",
           "package": "resumable-exceptions",
@@ -768,6 +827,7 @@
         "index": {
           "description": "The handler does not depend on the inner monad",
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "runResumableT'",
           "normalized": "ResumableT a b c d e-\u003e(b-\u003e(c-\u003eResumableT a b c d e)-\u003eResumableT a b c d e)-\u003ed e",
@@ -784,6 +844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis variation recognizes that the handling of requests primarily\n involves generating responses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "runResumableT_responder",
           "package": "resumable-exceptions",
@@ -794,6 +855,7 @@
         "index": {
           "description": "This variation recognizes that the handling of requests primarily involves generating responses",
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "runResumableT_responder",
           "normalized": "ResumableT a b c d e-\u003ed(b-\u003eResumableT a b c d c)-\u003ed e",
@@ -810,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe responder does not depend on the inner monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "runResumableT_responder'",
           "package": "resumable-exceptions",
@@ -820,6 +883,7 @@
         "index": {
           "description": "The responder does not depend on the inner monad",
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "runResumableT_responder'",
           "normalized": "ResumableT a b c d e-\u003e(b-\u003eResumableT a b c d c)-\u003ed e",
@@ -835,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "statically",
           "package": "resumable-exceptions",
@@ -844,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "statically",
           "normalized": "(ScopedAs Static a b-\u003eScopedAs Static a c)-\u003ea b-\u003ea c",
@@ -858,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "unResumableT",
           "package": "resumable-exceptions",
@@ -867,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "unResumableT",
           "normalized": "a(Either(b,c-\u003eResumableT d b c a e)e)",
@@ -883,6 +951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise the exception: a request and a resumption to use if the request\n can be handled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:55 UTC 2014",
           "module": "Control.Monad.Resumable",
           "name": "yield",
           "package": "resumable-exceptions",
@@ -893,6 +962,7 @@
         "index": {
           "description": "Raise the exception request and resumption to use if the request can be handled",
           "hierarchy": "Control Monad Resumable",
+          "indexed": "2014-03-11T19:53:55",
           "module": "Control.Monad.Resumable",
           "name": "yield",
           "normalized": "a-\u003e(b-\u003ec d)-\u003ec d",

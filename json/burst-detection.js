@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "burst-detection"
+        "phrase": "burst-detection",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:08 UTC 2014",
           "module": "Math.Bursts",
           "name": "Bursts",
           "package": "burst-detection",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Math Bursts",
+          "indexed": "2014-03-11T17:26:08",
           "module": "Math.Bursts",
           "name": "Bursts",
           "package": "burst-detection",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of ranges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:08 UTC 2014",
           "module": "Math.Bursts",
           "name": "Range",
           "package": "burst-detection",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Representation of ranges",
           "hierarchy": "Math Bursts",
+          "indexed": "2014-03-11T17:26:08",
           "module": "Math.Bursts",
           "name": "Range",
           "package": "burst-detection",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe window structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:08 UTC 2014",
           "module": "Math.Bursts",
           "name": "Window",
           "package": "burst-detection",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The window structure",
           "hierarchy": "Math Bursts",
+          "indexed": "2014-03-11T17:26:08",
           "module": "Math.Bursts",
           "name": "Window",
           "package": "burst-detection",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:08 UTC 2014",
           "module": "Math.Bursts",
           "name": "Range",
           "package": "burst-detection",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Math Bursts",
+          "indexed": "2014-03-11T17:26:08",
           "module": "Math.Bursts",
           "name": "Range",
           "package": "burst-detection",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:08 UTC 2014",
           "module": "Math.Bursts",
           "name": "defaultAggregate",
           "package": "burst-detection",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Math Bursts",
+          "indexed": "2014-03-11T17:26:08",
           "module": "Math.Bursts",
           "name": "defaultAggregate",
           "normalized": "a-\u003ea-\u003e(a,a)",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitial empty window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:08 UTC 2014",
           "module": "Math.Bursts",
           "name": "initialWindow",
           "package": "burst-detection",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Initial empty window",
           "hierarchy": "Math Bursts",
+          "indexed": "2014-03-11T17:26:08",
           "module": "Math.Bursts",
           "name": "initialWindow",
           "normalized": "Int-\u003ea-\u003ea-\u003e(a-\u003ea-\u003e(a,a))-\u003eWindow a",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:08 UTC 2014",
           "module": "Math.Bursts",
           "name": "rangeEnd",
           "package": "burst-detection",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Math Bursts",
+          "indexed": "2014-03-11T17:26:08",
           "module": "Math.Bursts",
           "name": "rangeEnd",
           "package": "burst-detection",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:08 UTC 2014",
           "module": "Math.Bursts",
           "name": "rangeMagn",
           "package": "burst-detection",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Math Bursts",
+          "indexed": "2014-03-11T17:26:08",
           "module": "Math.Bursts",
           "name": "rangeMagn",
           "package": "burst-detection",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:08 UTC 2014",
           "module": "Math.Bursts",
           "name": "rangeStart",
           "package": "burst-detection",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Math Bursts",
+          "indexed": "2014-03-11T17:26:08",
           "module": "Math.Bursts",
           "name": "rangeStart",
           "package": "burst-detection",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShifted Binary Tree burst analysis.\n Returns Maybe Range. Just range indicates a burst detected.\n Also returns a new window structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:26:08 UTC 2014",
           "module": "Math.Bursts",
           "name": "sbtBurstAnalysis",
           "package": "burst-detection",
@@ -234,6 +253,7 @@
         "index": {
           "description": "Shifted Binary Tree burst analysis Returns Maybe Range Just range indicates burst detected Also returns new window structure",
           "hierarchy": "Math Bursts",
+          "indexed": "2014-03-11T17:26:08",
           "module": "Math.Bursts",
           "name": "sbtBurstAnalysis",
           "normalized": "a-\u003eWindow a-\u003e(Window a,Maybe Range)",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:08 UTC 2014",
           "module": "Math.Bursts",
           "name": "sbtBurstAnalysisMany",
           "package": "burst-detection",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Math Bursts",
+          "indexed": "2014-03-11T17:26:08",
           "module": "Math.Bursts",
           "name": "sbtBurstAnalysisMany",
           "normalized": "[a]-\u003eWindow a-\u003e(Window a,Maybe Range)",

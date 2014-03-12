@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "OpenAFP-Utils"
+        "phrase": "OpenAFP-Utils",
+        "type": "phrase"
       },
       "type": "context"
     }

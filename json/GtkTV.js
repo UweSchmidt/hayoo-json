@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GtkTV"
+        "phrase": "GtkTV",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGtk-based GUIs in the TV (tangible value) framework\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "Gtk",
           "package": "GtkTV",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Gtk-based GUIs in the TV tangible value framework",
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "Gtk",
           "package": "GtkTV",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient shorthand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "Action",
           "package": "GtkTV",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Convenient shorthand",
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "Action",
           "package": "GtkTV",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "GTV",
           "package": "GtkTV",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "GTV",
           "package": "GtkTV",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "In",
           "package": "GtkTV",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "In",
           "package": "GtkTV",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "MkI",
           "package": "GtkTV",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "MkI",
           "package": "GtkTV",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "MkI'",
           "package": "GtkTV",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "MkI'",
           "package": "GtkTV",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "MkO",
           "package": "GtkTV",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "MkO",
           "package": "GtkTV",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "MkO'",
           "package": "GtkTV",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "MkO'",
           "package": "GtkTV",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "Out",
           "package": "GtkTV",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "Out",
           "package": "GtkTV",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "R",
           "package": "GtkTV",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "R",
           "package": "GtkTV",
@@ -232,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSink of information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "Sink",
           "package": "GtkTV",
@@ -241,6 +262,7 @@
         "index": {
           "description": "Sink of information",
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "Sink",
           "package": "GtkTV",
@@ -255,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA clock that updates every 1/60 second\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "clockIn",
           "package": "GtkTV",
@@ -265,6 +288,7 @@
         "index": {
           "description": "clock that updates every second",
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "clockIn",
           "package": "GtkTV",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "fileNameIn",
           "package": "GtkTV",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "fileNameIn",
           "normalized": "FilePath-\u003eIn FilePath",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "forget",
           "package": "GtkTV",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "forget",
           "normalized": "a b-\u003ea()",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "forget2",
           "package": "GtkTV",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "forget2",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ea-\u003eb-\u003ec()",
@@ -349,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialization of \u003ccode\u003e\u003ca\u003etv\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "gtv",
           "package": "GtkTV",
@@ -359,6 +390,7 @@
         "index": {
           "description": "Type specialization of tv",
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "gtv",
           "normalized": "Out a-\u003ea-\u003eGTV a",
@@ -374,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegral of an input.  Updates result (integral) 60 times per second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "integralIn",
           "package": "GtkTV",
@@ -384,6 +417,7 @@
         "index": {
           "description": "Integral of an input Updates result integral times per second",
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "integralIn",
           "normalized": "In a-\u003eIn a",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "primMkI",
           "package": "GtkTV",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "primMkI",
           "normalized": "MkI' a-\u003eIn a",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "primMkO",
           "package": "GtkTV",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "primMkO",
           "normalized": "MkO' a-\u003eOut a",
@@ -448,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRate slider.  Updates result (integral) 60 times per second.\n Specialization of \u003ccode\u003erateSliderDtIn\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "rateSliderIn",
           "package": "GtkTV",
@@ -458,6 +497,7 @@
         "index": {
           "description": "Rate slider Updates result integral times per second Specialization of rateSliderDtIn",
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "rateSliderIn",
           "normalized": "(R,R)-\u003eR-\u003eIn R",
@@ -474,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialization of \u003ccode\u003e\u003ca\u003erunTV\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "runGTV",
           "package": "GtkTV",
@@ -484,6 +525,7 @@
         "index": {
           "description": "Type specialization of runTV",
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "runGTV",
           "normalized": "GTV a-\u003eIO()",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "runOut",
           "package": "GtkTV",
@@ -508,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "runOut",
           "normalized": "String-\u003eOut a-\u003ea-\u003eAction",
@@ -524,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a visualization on a constructed (\u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e-extracted) value.  The\n action is executed just once, after the visualization is all set up,\n which allows for things like OpenGL shader compilation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "runOutIO",
           "package": "GtkTV",
@@ -534,6 +579,7 @@
         "index": {
           "description": "Run visualization on constructed IO extracted value The action is executed just once after the visualization is all set up which allows for things like OpenGL shader compilation",
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "runOutIO",
           "normalized": "String-\u003eOut a-\u003eIO a-\u003eAction",
@@ -549,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "sliderIIn",
           "package": "GtkTV",
@@ -558,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "sliderIIn",
           "normalized": "(Int,Int)-\u003eInt-\u003eIn Int",
@@ -573,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk",
           "name": "sliderRIn",
           "package": "GtkTV",
@@ -582,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk",
           "name": "sliderRIn",
           "normalized": "(R,R)-\u003eR-\u003eIn R",
@@ -598,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGtk-based GUIs in the TV (tangible value) framework\n\u003c/p\u003e\u003cp\u003eThis variation eliminates mdo by having MkI' produce a consumer of\n refresh actions rather than taking a refresh action as argument.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "Gtk2",
           "package": "GtkTV",
@@ -607,6 +658,7 @@
         "index": {
           "description": "Gtk-based GUIs in the TV tangible value framework This variation eliminates mdo by having MkI produce consumer of refresh actions rather than taking refresh action as argument",
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "Gtk2",
           "package": "GtkTV",
@@ -621,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient shorthand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "Action",
           "package": "GtkTV",
@@ -630,6 +683,7 @@
         "index": {
           "description": "Convenient shorthand",
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "Action",
           "package": "GtkTV",
@@ -643,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "GTV",
           "package": "GtkTV",
@@ -651,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "GTV",
           "package": "GtkTV",
@@ -664,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "In",
           "package": "GtkTV",
@@ -672,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "In",
           "package": "GtkTV",
@@ -685,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "MkI",
           "package": "GtkTV",
@@ -693,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "MkI",
           "package": "GtkTV",
@@ -706,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "MkI'",
           "package": "GtkTV",
@@ -714,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "MkI'",
           "package": "GtkTV",
@@ -727,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "MkO",
           "package": "GtkTV",
@@ -735,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "MkO",
           "package": "GtkTV",
@@ -748,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "MkO'",
           "package": "GtkTV",
@@ -756,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "MkO'",
           "package": "GtkTV",
@@ -769,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "Out",
           "package": "GtkTV",
@@ -777,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "Out",
           "package": "GtkTV",
@@ -790,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "R",
           "package": "GtkTV",
@@ -798,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "R",
           "package": "GtkTV",
@@ -811,6 +881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSink of information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "Sink",
           "package": "GtkTV",
@@ -820,6 +891,7 @@
         "index": {
           "description": "Sink of information",
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "Sink",
           "package": "GtkTV",
@@ -834,6 +906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA clock that updates every 1/60 second\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "clockIn",
           "package": "GtkTV",
@@ -844,6 +917,7 @@
         "index": {
           "description": "clock that updates every second",
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "clockIn",
           "package": "GtkTV",
@@ -857,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "fileNameIn",
           "package": "GtkTV",
@@ -866,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "fileNameIn",
           "normalized": "FilePath-\u003eIn FilePath",
@@ -881,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "forget",
           "package": "GtkTV",
@@ -890,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "forget",
           "normalized": "a b-\u003ea()",
@@ -904,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "forget2",
           "package": "GtkTV",
@@ -913,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "forget2",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ea-\u003eb-\u003ec()",
@@ -928,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialization of \u003ccode\u003e\u003ca\u003etv\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "gtv",
           "package": "GtkTV",
@@ -938,6 +1019,7 @@
         "index": {
           "description": "Type specialization of tv",
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "gtv",
           "normalized": "Out a-\u003ea-\u003eGTV a",
@@ -953,6 +1035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegral of an input.  Updates result (integral) 60 times per second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "integralIn",
           "package": "GtkTV",
@@ -963,6 +1046,7 @@
         "index": {
           "description": "Integral of an input Updates result integral times per second",
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "integralIn",
           "normalized": "In a-\u003eIn a",
@@ -978,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "primMkI",
           "package": "GtkTV",
@@ -987,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "primMkI",
           "normalized": "MkI' a-\u003eIn a",
@@ -1002,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "primMkO",
           "package": "GtkTV",
@@ -1011,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "primMkO",
           "normalized": "MkO' a-\u003eOut a",
@@ -1027,6 +1115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRate slider.  Updates result (integral) 60 times per second.\n Specialization of \u003ccode\u003erateSliderDtIn\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "rateSliderIn",
           "package": "GtkTV",
@@ -1037,6 +1126,7 @@
         "index": {
           "description": "Rate slider Updates result integral times per second Specialization of rateSliderDtIn",
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "rateSliderIn",
           "normalized": "(R,R)-\u003eR-\u003eIn R",
@@ -1053,6 +1143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specialization of \u003ccode\u003e\u003ca\u003erunTV\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "runGTV",
           "package": "GtkTV",
@@ -1063,6 +1154,7 @@
         "index": {
           "description": "Type specialization of runTV",
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "runGTV",
           "normalized": "GTV a-\u003eIO()",
@@ -1078,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "runOut",
           "package": "GtkTV",
@@ -1087,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "runOut",
           "normalized": "String-\u003eOut a-\u003ea-\u003eAction",
@@ -1103,6 +1197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a visualization on a constructed (\u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e-extracted) value.  The\n action is executed just once, after the visualization is all set up,\n which allows for things like OpenGL shader compilation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "runOutIO",
           "package": "GtkTV",
@@ -1113,6 +1208,7 @@
         "index": {
           "description": "Run visualization on constructed IO extracted value The action is executed just once after the visualization is all set up which allows for things like OpenGL shader compilation",
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "runOutIO",
           "normalized": "String-\u003eOut a-\u003eIO a-\u003eAction",
@@ -1128,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "sliderIIn",
           "package": "GtkTV",
@@ -1137,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "sliderIIn",
           "normalized": "(Int,Int)-\u003eInt-\u003eIn Int",
@@ -1152,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:03 UTC 2014",
           "module": "Interface.TV.Gtk2",
           "name": "sliderRIn",
           "package": "GtkTV",
@@ -1161,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Interface TV Gtk2",
+          "indexed": "2014-03-11T16:44:03",
           "module": "Interface.TV.Gtk2",
           "name": "sliderRIn",
           "normalized": "(R,R)-\u003eR-\u003eIn R",

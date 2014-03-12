@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "spine"
+        "phrase": "spine",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": "Base",
           "package": "spine",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": "Base",
           "package": "spine",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": "Constr",
           "package": "spine",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": "Constr",
           "package": "spine",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": "Datatype",
           "package": "spine",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": "Datatype",
           "package": "spine",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": "Signature",
           "package": "spine",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": "Signature",
           "package": "spine",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": "Spine",
           "package": "spine",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": "Spine",
           "package": "spine",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": "Type",
           "package": "spine",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": "Type",
           "package": "spine",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": "Typed",
           "package": "spine",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": "Typed",
           "package": "spine",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": ":&:",
           "package": "spine",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": ":&:",
           "normalized": "Signature(a-\u003eb)-\u003eType a-\u003eSignature b",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": ":\u003c\u003e:",
           "package": "spine",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": ":\u003c\u003e:",
           "normalized": "Spine(a-\u003eb)-\u003eTyped a-\u003eSpine b",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": ":\u003e",
           "package": "spine",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": ":\u003e",
           "package": "spine",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": "Bool",
           "package": "spine",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": "Bool",
           "package": "spine",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": "Char",
           "package": "spine",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": "Char",
           "package": "spine",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": "Con",
           "package": "spine",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": "Con",
           "normalized": "Constr a-\u003eSpine a",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": "Constr",
           "package": "spine",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": "Constr",
           "package": "spine",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": "Int",
           "package": "spine",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": "Int",
           "package": "spine",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": "List",
           "package": "spine",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": "List",
           "normalized": "Type a-\u003eType[a]",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": "Pair",
           "package": "spine",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": "Pair",
           "normalized": "Type a-\u003eType b-\u003eType(a,b)",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": "Sig",
           "package": "spine",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": "Sig",
           "normalized": "Constr a-\u003eSignature a",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": "constr",
           "package": "spine",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": "constr",
           "package": "spine",
@@ -437,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": "name",
           "package": "spine",
@@ -446,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": "name",
           "package": "spine",
@@ -458,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": "typeOf",
           "package": "spine",
@@ -467,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": "typeOf",
           "package": "spine",
@@ -480,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine.Base",
           "name": "val",
           "package": "spine",
@@ -489,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine Base",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine.Base",
           "name": "val",
           "package": "spine",
@@ -501,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:24 UTC 2014",
           "module": "Generics.Spine",
           "name": "Spine",
           "package": "spine",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Generics Spine",
+          "indexed": "2014-03-11T20:08:24",
           "module": "Generics.Spine",
           "name": "Spine",
           "package": "spine",

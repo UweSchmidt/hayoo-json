@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vector-conduit"
+        "phrase": "vector-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:14 UTC 2014",
           "module": "Data.Conduit.Vector",
           "name": "Vector",
           "package": "vector-conduit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Vector",
+          "indexed": "2014-03-11T20:34:14",
           "module": "Data.Conduit.Vector",
           "name": "Vector",
           "package": "vector-conduit",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsumes all values from the stream and returns as a mutable vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:14 UTC 2014",
           "module": "Data.Conduit.Vector",
           "name": "consumeMVector",
           "package": "vector-conduit",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Consumes all values from the stream and returns as mutable vector",
           "hierarchy": "Data Conduit Vector",
+          "indexed": "2014-03-11T20:34:14",
           "module": "Data.Conduit.Vector",
           "name": "consumeMVector",
           "package": "vector-conduit",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsumes all values from the stream and return as an immutable vector.\n Due to the way it operates, it requires the ST monad at the minimum,\n although it can also operate IO. This is due to its dependency on\n a mutable vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:14 UTC 2014",
           "module": "Data.Conduit.Vector",
           "name": "consumeVector",
           "package": "vector-conduit",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Consumes all values from the stream and return as an immutable vector Due to the way it operates it requires the ST monad at the minimum although it can also operate IO This is due to its dependency on mutable vector",
           "hierarchy": "Data Conduit Vector",
+          "indexed": "2014-03-11T20:34:14",
           "module": "Data.Conduit.Vector",
           "name": "consumeVector",
           "package": "vector-conduit",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConduit which freezes mutable vectors into immutable vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:14 UTC 2014",
           "module": "Data.Conduit.Vector",
           "name": "freezeConduit",
           "package": "vector-conduit",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Conduit which freezes mutable vectors into immutable vectors",
           "hierarchy": "Data Conduit Vector",
+          "indexed": "2014-03-11T20:34:14",
           "module": "Data.Conduit.Vector",
           "name": "freezeConduit",
           "package": "vector-conduit",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a mutable vector as a source in the ST or IO monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:14 UTC 2014",
           "module": "Data.Conduit.Vector",
           "name": "sourceMVector",
           "package": "vector-conduit",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Use mutable vector as source in the ST or IO monad",
           "hierarchy": "Data Conduit Vector",
+          "indexed": "2014-03-11T20:34:14",
           "module": "Data.Conduit.Vector",
           "name": "sourceMVector",
           "normalized": "a(PrimState b)c-\u003eSource b c",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse an immutable vector as a source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:14 UTC 2014",
           "module": "Data.Conduit.Vector",
           "name": "sourceVector",
           "package": "vector-conduit",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Use an immutable vector as source",
           "hierarchy": "Data Conduit Vector",
+          "indexed": "2014-03-11T20:34:14",
           "module": "Data.Conduit.Vector",
           "name": "sourceVector",
           "normalized": "a b-\u003eSource c b",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsumes the first n values from the stream and returns as a\n mutable vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:14 UTC 2014",
           "module": "Data.Conduit.Vector",
           "name": "takeMVector",
           "package": "vector-conduit",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Consumes the first values from the stream and returns as mutable vector",
           "hierarchy": "Data Conduit Vector",
+          "indexed": "2014-03-11T20:34:14",
           "module": "Data.Conduit.Vector",
           "name": "takeMVector",
           "normalized": "Int-\u003eSink a b(c(PrimState b)a)",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsumes the first n values from a source and returns as an immutable\n vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:14 UTC 2014",
           "module": "Data.Conduit.Vector",
           "name": "takeVector",
           "package": "vector-conduit",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Consumes the first values from source and returns as an immutable vector",
           "hierarchy": "Data Conduit Vector",
+          "indexed": "2014-03-11T20:34:14",
           "module": "Data.Conduit.Vector",
           "name": "takeVector",
           "normalized": "Int-\u003eSink a b(c a)",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConduit which thaws immutable vectors into mutable vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:14 UTC 2014",
           "module": "Data.Conduit.Vector",
           "name": "thawConduit",
           "package": "vector-conduit",
@@ -226,6 +243,7 @@
         "index": {
           "description": "Conduit which thaws immutable vectors into mutable vectors",
           "hierarchy": "Data Conduit Vector",
+          "indexed": "2014-03-11T20:34:14",
           "module": "Data.Conduit.Vector",
           "name": "thawConduit",
           "package": "vector-conduit",

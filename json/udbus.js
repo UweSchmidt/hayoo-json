@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "udbus"
+        "phrase": "udbus",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "Actions",
           "package": "udbus",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "Actions",
           "package": "udbus",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "DBusContext",
           "package": "udbus",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "DBusContext",
           "package": "udbus",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "DBusFields",
           "package": "udbus",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "DBusFields",
           "package": "udbus",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "DBusMessage",
           "package": "udbus",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "DBusMessage",
           "package": "udbus",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "DBusTransport",
           "package": "udbus",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "DBusTransport",
           "package": "udbus",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "DBusTypeable",
           "package": "udbus",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "DBusTypeable",
           "package": "udbus",
@@ -145,6 +157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDBus Types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "DBusValue",
           "package": "udbus",
@@ -154,6 +167,7 @@
         "index": {
           "description": "DBus Types",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "DBusValue",
           "package": "udbus",
@@ -168,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edbus message flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "MessageFlag",
           "package": "udbus",
@@ -177,6 +192,7 @@
         "index": {
           "description": "dbus message flags",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "MessageFlag",
           "package": "udbus",
@@ -191,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edbus message types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "MessageType",
           "package": "udbus",
@@ -200,6 +217,7 @@
         "index": {
           "description": "dbus message types",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "MessageType",
           "package": "udbus",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "ObjectPath",
           "package": "udbus",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "ObjectPath",
           "package": "udbus",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "PackedString",
           "package": "udbus",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "PackedString",
           "package": "udbus",
@@ -256,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edbus serial number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "Serial",
           "package": "udbus",
@@ -265,6 +288,7 @@
         "index": {
           "description": "dbus serial number",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "Serial",
           "package": "udbus",
@@ -279,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of signature element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "Signature",
           "package": "udbus",
@@ -288,6 +313,7 @@
         "index": {
           "description": "list of signature element",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "Signature",
           "package": "udbus",
@@ -302,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use Type instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "SignatureElem",
           "package": "udbus",
@@ -311,6 +338,7 @@
         "index": {
           "description": "Deprecated use Type instead",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "SignatureElem",
           "package": "udbus",
@@ -325,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne possible signature element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "Type",
           "package": "udbus",
@@ -334,6 +363,7 @@
         "index": {
           "description": "One possible signature element",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "Type",
           "package": "udbus",
@@ -487,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "DBusFields",
           "package": "udbus",
@@ -496,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "DBusFields",
           "package": "udbus",
@@ -578,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "DBusMessage",
           "package": "udbus",
@@ -587,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "DBusMessage",
           "package": "udbus",
@@ -694,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "DBusTransport",
           "package": "udbus",
@@ -703,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "DBusTransport",
           "package": "udbus",
@@ -831,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "FlagNoAutoStart",
           "package": "udbus",
@@ -840,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "FlagNoAutoStart",
           "package": "udbus",
@@ -853,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "FlagNoReplyExpected",
           "package": "udbus",
@@ -862,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "FlagNoReplyExpected",
           "package": "udbus",
@@ -1483,6 +1523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclose this DBus context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "busClose",
           "package": "udbus",
@@ -1493,6 +1534,7 @@
         "index": {
           "description": "close this DBus context",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "busClose",
           "normalized": "DBusContext-\u003eIO()",
@@ -1509,6 +1551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the next serial usable, and increment the serial state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "busGetNextSerial",
           "package": "udbus",
@@ -1519,6 +1562,7 @@
         "index": {
           "description": "get the next serial usable and increment the serial state",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "busGetNextSerial",
           "normalized": "DBusContext-\u003eIO Serial",
@@ -1585,6 +1629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econnect to the dbus session bus define by the environment variable DBUS_SESSION_BUS_ADDRESS\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "connectSession",
           "package": "udbus",
@@ -1595,6 +1640,7 @@
         "index": {
           "description": "connect to the dbus session bus define by the environment variable DBUS SESSION BUS ADDRESS",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "connectSession",
           "package": "udbus",
@@ -1609,6 +1655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econnect to the dbus system bus\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "connectSystem",
           "package": "udbus",
@@ -1619,6 +1666,7 @@
         "index": {
           "description": "connect to the dbus system bus",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "connectSystem",
           "package": "udbus",
@@ -1633,6 +1681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a new DBus context from an handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "contextNew",
           "package": "udbus",
@@ -1643,6 +1692,7 @@
         "index": {
           "description": "create new DBus context from an handle",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "contextNew",
           "normalized": "Handle-\u003eIO DBusContext",
@@ -1659,6 +1709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a new DBus context from a transport\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "contextNewWith",
           "package": "udbus",
@@ -1669,6 +1720,7 @@
         "index": {
           "description": "create new DBus context from transport",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "contextNewWith",
           "normalized": "DBusTransport-\u003eIO DBusContext",
@@ -1684,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "fieldsDestination",
           "package": "udbus",
@@ -1693,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "fieldsDestination",
           "package": "udbus",
@@ -1706,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "fieldsErrorName",
           "package": "udbus",
@@ -1715,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "fieldsErrorName",
           "package": "udbus",
@@ -1728,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "fieldsInterface",
           "package": "udbus",
@@ -1737,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "fieldsInterface",
           "package": "udbus",
@@ -1750,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "fieldsMember",
           "package": "udbus",
@@ -1759,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "fieldsMember",
           "package": "udbus",
@@ -1772,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "fieldsPath",
           "package": "udbus",
@@ -1781,6 +1842,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "fieldsPath",
           "package": "udbus",
@@ -1794,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "fieldsReplySerial",
           "package": "udbus",
@@ -1803,6 +1866,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "fieldsReplySerial",
           "package": "udbus",
@@ -1816,6 +1880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "fieldsSender",
           "package": "udbus",
@@ -1825,6 +1890,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "fieldsSender",
           "package": "udbus",
@@ -1838,6 +1904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "fieldsSignature",
           "package": "udbus",
@@ -1847,6 +1914,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "fieldsSignature",
           "package": "udbus",
@@ -1860,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "fieldsUnixFD",
           "package": "udbus",
@@ -1869,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "fieldsUnixFD",
           "package": "udbus",
@@ -1882,6 +1952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "fromDBusValue",
           "package": "udbus",
@@ -1891,6 +1962,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "fromDBusValue",
           "normalized": "DBusValue-\u003eMaybe a",
@@ -1907,6 +1979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereceive one single message from the bus\n it is not necessarily the reply from a previous sent message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "messageRecv",
           "package": "udbus",
@@ -1917,6 +1990,7 @@
         "index": {
           "description": "receive one single message from the bus it is not necessarily the reply from previous sent message",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "messageRecv",
           "normalized": "DBusContext-\u003eIO DBusMessage",
@@ -1933,6 +2007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esend one message to the bus\n note that the serial of the message sent is allocated here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "messageSend",
           "package": "udbus",
@@ -1943,6 +2018,7 @@
         "index": {
           "description": "send one message to the bus note that the serial of the message sent is allocated here",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "messageSend",
           "normalized": "DBusContext-\u003eDBusMessage-\u003eIO Serial",
@@ -1959,6 +2035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esend one message to the bus with a predefined serial number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "messageSendWithSerial",
           "package": "udbus",
@@ -1969,6 +2046,7 @@
         "index": {
           "description": "send one message to the bus with predefined serial number",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "messageSendWithSerial",
           "normalized": "DBusContext-\u003eSerial-\u003eDBusMessage-\u003eIO()",
@@ -1984,6 +2062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "msgBodyRaw",
           "package": "udbus",
@@ -1993,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "msgBodyRaw",
           "package": "udbus",
@@ -2006,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "msgEndian",
           "package": "udbus",
@@ -2015,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "msgEndian",
           "package": "udbus",
@@ -2028,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "msgFields",
           "package": "udbus",
@@ -2037,6 +2120,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "msgFields",
           "package": "udbus",
@@ -2050,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "msgFlags",
           "package": "udbus",
@@ -2059,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "msgFlags",
           "package": "udbus",
@@ -2072,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "msgSerial",
           "package": "udbus",
@@ -2081,6 +2168,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "msgSerial",
           "package": "udbus",
@@ -2094,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "msgType",
           "package": "udbus",
@@ -2103,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "msgType",
           "package": "udbus",
@@ -2116,6 +2206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "msgVersion",
           "package": "udbus",
@@ -2125,6 +2216,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "msgVersion",
           "package": "udbus",
@@ -2164,6 +2256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread message's body using the signature field as reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "readBody",
           "package": "udbus",
@@ -2174,6 +2267,7 @@
         "index": {
           "description": "read message body using the signature field as reference",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "readBody",
           "normalized": "DBusMessage-\u003eBody",
@@ -2190,6 +2284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread message's body with a defined signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "readBodyWith",
           "package": "udbus",
@@ -2200,6 +2295,7 @@
         "index": {
           "description": "read message body with defined signature",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "readBodyWith",
           "normalized": "DBusMessage-\u003eSignature-\u003eBody",
@@ -2216,6 +2312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eserialize a signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "serializeSignature",
           "package": "udbus",
@@ -2226,6 +2323,7 @@
         "index": {
           "description": "serialize signature",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "serializeSignature",
           "normalized": "Signature-\u003eByteString",
@@ -2241,6 +2339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "toDBusValue",
           "package": "udbus",
@@ -2250,6 +2349,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "toDBusValue",
           "normalized": "a-\u003eDBusValue",
@@ -2265,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "toSignature",
           "package": "udbus",
@@ -2274,6 +2375,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "toSignature",
           "normalized": "a-\u003eType",
@@ -2289,6 +2391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "transportClose",
           "package": "udbus",
@@ -2298,6 +2401,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "transportClose",
           "normalized": "IO()",
@@ -2313,6 +2417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "transportGet",
           "package": "udbus",
@@ -2322,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "transportGet",
           "normalized": "Int-\u003eIO ByteString",
@@ -2337,6 +2443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "transportPut",
           "package": "udbus",
@@ -2346,6 +2453,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "transportPut",
           "normalized": "ByteString-\u003eIO()",
@@ -2385,6 +2493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunserialize a signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus.Actions",
           "name": "unserializeSignature",
           "package": "udbus",
@@ -2395,6 +2504,7 @@
         "index": {
           "description": "unserialize signature",
           "hierarchy": "Network DBus Actions",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus.Actions",
           "name": "unserializeSignature",
           "normalized": "ByteString-\u003eEither String Signature",
@@ -2433,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "DBus",
           "package": "udbus",
@@ -2441,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "DBus",
           "package": "udbus",
@@ -2454,6 +2566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "BusName",
           "package": "udbus",
@@ -2462,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "BusName",
           "package": "udbus",
@@ -2475,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "DBusCall",
           "package": "udbus",
@@ -2483,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "DBusCall",
           "package": "udbus",
@@ -2497,6 +2613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eopaque type representing a connection to DBus and a receiving dispatcher thread.\n maintain table to route message between handlers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "DBusConnection",
           "package": "udbus",
@@ -2506,6 +2623,7 @@
         "index": {
           "description": "opaque type representing connection to DBus and receiving dispatcher thread maintain table to route message between handlers",
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "DBusConnection",
           "package": "udbus",
@@ -2519,6 +2637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "DBusError",
           "package": "udbus",
@@ -2527,6 +2646,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "DBusError",
           "package": "udbus",
@@ -2540,6 +2660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "DBusMatchRules",
           "package": "udbus",
@@ -2548,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "DBusMatchRules",
           "package": "udbus",
@@ -2561,6 +2683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "DBusMessageable",
           "package": "udbus",
@@ -2569,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "DBusMessageable",
           "package": "udbus",
@@ -2582,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "DBusReturn",
           "package": "udbus",
@@ -2590,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "DBusReturn",
           "package": "udbus",
@@ -2603,6 +2729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "DBusSignal",
           "package": "udbus",
@@ -2611,6 +2738,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "DBusSignal",
           "package": "udbus",
@@ -2624,6 +2752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "DBusTypeable",
           "package": "udbus",
@@ -2632,6 +2761,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "DBusTypeable",
           "package": "udbus",
@@ -2646,6 +2776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDBus Types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "DBusValue",
           "package": "udbus",
@@ -2655,6 +2786,7 @@
         "index": {
           "description": "DBus Types",
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "DBusValue",
           "package": "udbus",
@@ -2668,6 +2800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "ErrorName",
           "package": "udbus",
@@ -2676,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "ErrorName",
           "package": "udbus",
@@ -2689,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "Interface",
           "package": "udbus",
@@ -2697,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "Interface",
           "package": "udbus",
@@ -2710,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "Member",
           "package": "udbus",
@@ -2718,6 +2855,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "Member",
           "package": "udbus",
@@ -2732,6 +2870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edbus message types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "MessageType",
           "package": "udbus",
@@ -2741,6 +2880,7 @@
         "index": {
           "description": "dbus message types",
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "MessageType",
           "package": "udbus",
@@ -2754,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "ObjectPath",
           "package": "udbus",
@@ -2762,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "ObjectPath",
           "package": "udbus",
@@ -2775,6 +2917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "PackedString",
           "package": "udbus",
@@ -2783,6 +2926,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "PackedString",
           "package": "udbus",
@@ -2797,6 +2941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of signature element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "Signature",
           "package": "udbus",
@@ -2806,6 +2951,7 @@
         "index": {
           "description": "list of signature element",
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "Signature",
           "package": "udbus",
@@ -2820,6 +2966,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use Type instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "SignatureElem",
           "package": "udbus",
@@ -2829,6 +2976,7 @@
         "index": {
           "description": "Deprecated use Type instead",
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "SignatureElem",
           "package": "udbus",
@@ -2843,6 +2991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne possible signature element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "Type",
           "package": "udbus",
@@ -2852,6 +3001,7 @@
         "index": {
           "description": "One possible signature element",
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "Type",
           "package": "udbus",
@@ -2865,6 +3015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "BusName",
           "package": "udbus",
@@ -2874,6 +3025,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "BusName",
           "package": "udbus",
@@ -2887,6 +3039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "DBusCall",
           "package": "udbus",
@@ -2896,6 +3049,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "DBusCall",
           "package": "udbus",
@@ -2909,6 +3063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "DBusError",
           "package": "udbus",
@@ -2918,6 +3073,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "DBusError",
           "package": "udbus",
@@ -2931,6 +3087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "DBusMatchRules",
           "package": "udbus",
@@ -2940,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "DBusMatchRules",
           "package": "udbus",
@@ -2953,6 +3111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "DBusReturn",
           "package": "udbus",
@@ -2962,6 +3121,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "DBusReturn",
           "package": "udbus",
@@ -2975,6 +3135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "DBusSignal",
           "package": "udbus",
@@ -2984,6 +3145,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "DBusSignal",
           "package": "udbus",
@@ -2997,6 +3159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "ErrorName",
           "package": "udbus",
@@ -3006,6 +3169,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "ErrorName",
           "package": "udbus",
@@ -3019,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "Interface",
           "package": "udbus",
@@ -3028,6 +3193,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "Interface",
           "package": "udbus",
@@ -3041,6 +3207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "Member",
           "package": "udbus",
@@ -3050,6 +3217,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "Member",
           "package": "udbus",
@@ -3063,6 +3231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "addMatch",
           "package": "udbus",
@@ -3072,6 +3241,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "addMatch",
           "normalized": "DBusConnection-\u003eDBusMatchRules-\u003eIO()",
@@ -3088,6 +3258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euse the real user UID to authenticate to DBus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "authenticateWithRealUID",
           "package": "udbus",
@@ -3098,6 +3269,7 @@
         "index": {
           "description": "use the real user UID to authenticate to DBus",
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "authenticateWithRealUID",
           "normalized": "DBusContext-\u003eIO()",
@@ -3113,6 +3285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "call",
           "package": "udbus",
@@ -3122,6 +3295,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "call",
           "normalized": "DBusConnection-\u003eBusName-\u003eDBusCall-\u003eIO DBusReturn",
@@ -3136,6 +3310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "callBody",
           "package": "udbus",
@@ -3145,6 +3320,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "callBody",
           "package": "udbus",
@@ -3158,6 +3334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "callInterface",
           "package": "udbus",
@@ -3167,6 +3344,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "callInterface",
           "package": "udbus",
@@ -3180,6 +3358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "callMember",
           "package": "udbus",
@@ -3189,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "callMember",
           "package": "udbus",
@@ -3202,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "callPath",
           "package": "udbus",
@@ -3211,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "callPath",
           "package": "udbus",
@@ -3224,6 +3406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "calltableFromList",
           "package": "udbus",
@@ -3233,6 +3416,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "calltableFromList",
           "normalized": "[(Member,Interface,a)]-\u003eDispatchTable a",
@@ -3248,6 +3432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "defaultDBusMatchRules",
           "package": "udbus",
@@ -3257,6 +3442,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "defaultDBusMatchRules",
           "package": "udbus",
@@ -3270,6 +3456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "errorBody",
           "package": "udbus",
@@ -3279,6 +3466,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "errorBody",
           "package": "udbus",
@@ -3292,6 +3480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "errorName",
           "package": "udbus",
@@ -3301,6 +3490,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "errorName",
           "package": "udbus",
@@ -3314,6 +3504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "errorReplySerial",
           "package": "udbus",
@@ -3323,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "errorReplySerial",
           "package": "udbus",
@@ -3337,6 +3529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEstablish a new connection to dbus, using the two functions to\n first establish a new context, and second to authenticate to the bus.\n this will automatically create a mainloop thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "establish",
           "package": "udbus",
@@ -3346,6 +3539,7 @@
         "index": {
           "description": "Establish new connection to dbus using the two functions to first establish new context and second to authenticate to the bus this will automatically create mainloop thread",
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "establish",
           "normalized": "IO DBusContext-\u003e(DBusContext-\u003eIO())-\u003eIO DBusConnection",
@@ -3360,6 +3554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "establishWithCatchall",
           "package": "udbus",
@@ -3369,6 +3564,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "establishWithCatchall",
           "normalized": "(DBusMessage-\u003eIO())-\u003eIO DBusContext-\u003e(DBusContext-\u003eIO a)-\u003eIO DBusConnection",
@@ -3384,6 +3580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "fromDBusMessage",
           "package": "udbus",
@@ -3393,6 +3590,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "fromDBusMessage",
           "normalized": "DBusMessage-\u003eMaybe a",
@@ -3408,6 +3606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "fromDBusValue",
           "package": "udbus",
@@ -3417,6 +3616,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "fromDBusValue",
           "normalized": "DBusValue-\u003eMaybe a",
@@ -3432,6 +3632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "matchDestination",
           "package": "udbus",
@@ -3441,6 +3642,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "matchDestination",
           "package": "udbus",
@@ -3454,6 +3656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "matchInterface",
           "package": "udbus",
@@ -3463,6 +3666,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "matchInterface",
           "package": "udbus",
@@ -3476,6 +3680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "matchMember",
           "package": "udbus",
@@ -3485,6 +3690,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "matchMember",
           "package": "udbus",
@@ -3498,6 +3704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "matchPath",
           "package": "udbus",
@@ -3507,6 +3714,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "matchPath",
           "package": "udbus",
@@ -3520,6 +3728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "matchSender",
           "package": "udbus",
@@ -3529,6 +3738,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "matchSender",
           "package": "udbus",
@@ -3542,6 +3752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "matchType",
           "package": "udbus",
@@ -3551,6 +3762,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "matchType",
           "package": "udbus",
@@ -3564,6 +3776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "registerCall",
           "package": "udbus",
@@ -3573,6 +3786,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "registerCall",
           "normalized": "DBusConnection-\u003eObjectPath-\u003eDispatchTable Callback-\u003eIO()",
@@ -3589,6 +3803,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use registerCall\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "registerPath",
           "package": "udbus",
@@ -3599,6 +3814,7 @@
         "index": {
           "description": "Deprecated use registerCall",
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "registerPath",
           "normalized": "DBusConnection-\u003eObjectPath-\u003eDispatchTable Callback-\u003eIO()",
@@ -3614,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "registerSignal",
           "package": "udbus",
@@ -3623,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "registerSignal",
           "normalized": "DBusConnection-\u003eObjectPath-\u003eDispatchTable Signalback-\u003eIO()",
@@ -3638,6 +3856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "reply",
           "package": "udbus",
@@ -3647,6 +3866,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "reply",
           "normalized": "DBusConnection-\u003ea-\u003eIO Serial",
@@ -3661,6 +3881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "returnBody",
           "package": "udbus",
@@ -3670,6 +3891,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "returnBody",
           "package": "udbus",
@@ -3683,6 +3905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "returnReplySerial",
           "package": "udbus",
@@ -3692,6 +3915,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "returnReplySerial",
           "package": "udbus",
@@ -3705,6 +3929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "runMainLoop",
           "package": "udbus",
@@ -3714,6 +3939,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "runMainLoop",
           "normalized": "DBusContext-\u003eIO DBusConnection",
@@ -3729,6 +3955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "runMainLoopCatchall",
           "package": "udbus",
@@ -3738,6 +3965,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "runMainLoopCatchall",
           "normalized": "(DBusMessage-\u003eIO())-\u003eDBusContext-\u003eIO DBusConnection",
@@ -3753,6 +3981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "signalBody",
           "package": "udbus",
@@ -3762,6 +3991,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "signalBody",
           "package": "udbus",
@@ -3775,6 +4005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "signalInterface",
           "package": "udbus",
@@ -3784,6 +4015,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "signalInterface",
           "package": "udbus",
@@ -3797,6 +4029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "signalMember",
           "package": "udbus",
@@ -3806,6 +4039,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "signalMember",
           "package": "udbus",
@@ -3819,6 +4053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "signalPath",
           "package": "udbus",
@@ -3828,6 +4063,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "signalPath",
           "package": "udbus",
@@ -3841,6 +4077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "toDBusMessage",
           "package": "udbus",
@@ -3850,6 +4087,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "toDBusMessage",
           "normalized": "a-\u003eDBusMessage",
@@ -3865,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "toDBusValue",
           "package": "udbus",
@@ -3874,6 +4113,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "toDBusValue",
           "normalized": "a-\u003eDBusValue",
@@ -3889,6 +4129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "toSignature",
           "package": "udbus",
@@ -3898,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "toSignature",
           "normalized": "a-\u003eType",
@@ -3913,6 +4155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "unBusName",
           "package": "udbus",
@@ -3922,6 +4165,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "unBusName",
           "package": "udbus",
@@ -3935,6 +4179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "unErrorName",
           "package": "udbus",
@@ -3944,6 +4189,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "unErrorName",
           "package": "udbus",
@@ -3957,6 +4203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "unInterface",
           "package": "udbus",
@@ -3966,6 +4213,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "unInterface",
           "package": "udbus",
@@ -3979,6 +4227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "unMember",
           "package": "udbus",
@@ -3988,6 +4237,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "unMember",
           "package": "udbus",
@@ -4001,6 +4251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "unregisterCall",
           "package": "udbus",
@@ -4010,6 +4261,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "unregisterCall",
           "normalized": "DBusConnection-\u003eObjectPath-\u003eIO()",
@@ -4026,6 +4278,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use unregisterCall\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "unregisterPath",
           "package": "udbus",
@@ -4036,6 +4289,7 @@
         "index": {
           "description": "Deprecated use unregisterCall",
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "unregisterPath",
           "normalized": "DBusConnection-\u003eObjectPath-\u003eIO()",
@@ -4051,6 +4305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:34 UTC 2014",
           "module": "Network.DBus",
           "name": "unregisterSignal",
           "package": "udbus",
@@ -4060,6 +4315,7 @@
         },
         "index": {
           "hierarchy": "Network DBus",
+          "indexed": "2014-03-11T20:28:34",
           "module": "Network.DBus",
           "name": "unregisterSignal",
           "normalized": "DBusConnection-\u003eObjectPath-\u003eIO()",

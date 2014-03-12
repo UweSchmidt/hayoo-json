@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "richreports"
+        "phrase": "richreports",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRich Reports\n\u003c/p\u003e\u003cpre\u003eText/RichReports.hs\u003c/pre\u003e\u003cp\u003eDefinitions for the representation and construction of a\n   data structure corresponding to a structured representation\n   of the concrete syntax of a programming language, with\n   annotations corresponding to static analysis results.\n   Includes support for generation of ASCII text, as well as\n   formatted HTML with interactive messages.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "RichReports",
           "package": "richreports",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Rich Reports Text RichReports.hs Definitions for the representation and construction of data structure corresponding to structured representation of the concrete syntax of programming language with annotations corresponding to static analysis results Includes support for generation of ASCII text as well as formatted HTML with interactive messages",
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "RichReports",
           "package": "richreports",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Category",
           "package": "richreports",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Category",
           "package": "richreports",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Highlight",
           "package": "richreports",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Highlight",
           "package": "richreports",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData structures (also used for report construction process)\n   and classes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Message",
           "package": "richreports",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Data structures also used for report construction process and classes",
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Message",
           "package": "richreports",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Report",
           "package": "richreports",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Report",
           "package": "richreports",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "ToHighlights",
           "package": "richreports",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "ToHighlights",
           "package": "richreports",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "ToMessages",
           "package": "richreports",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "ToMessages",
           "package": "richreports",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "ToReport",
           "package": "richreports",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "ToReport",
           "package": "richreports",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Atom",
           "package": "richreports",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Atom",
           "normalized": "Atom[Highlight][Message][Report]",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Block",
           "package": "richreports",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Block",
           "normalized": "Block[Highlight][Message][Report]",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "BlockIndent",
           "package": "richreports",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "BlockIndent",
           "normalized": "BlockIndent[Highlight][Message][Report]",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "C",
           "package": "richreports",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "C",
           "normalized": "C Category[Highlight][Message]String",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Conc",
           "package": "richreports",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Conc",
           "normalized": "Conc[Report]",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Constant",
           "package": "richreports",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Constant",
           "package": "richreports",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Error",
           "package": "richreports",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Error",
           "package": "richreports",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Field",
           "package": "richreports",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Field",
           "package": "richreports",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Finalize",
           "package": "richreports",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Finalize",
           "package": "richreports",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Gt",
           "package": "richreports",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Gt",
           "package": "richreports",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Highlight",
           "package": "richreports",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Highlight",
           "normalized": "Highlight[Class]",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "HighlightDuplicate",
           "package": "richreports",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "HighlightDuplicate",
           "package": "richreports",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "HighlightError",
           "package": "richreports",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "HighlightError",
           "package": "richreports",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "HighlightUnbound",
           "package": "richreports",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "HighlightUnbound",
           "package": "richreports",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "HighlightUnreachable",
           "package": "richreports",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "HighlightUnreachable",
           "package": "richreports",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Indent",
           "package": "richreports",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Indent",
           "package": "richreports",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Intersperse",
           "package": "richreports",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Intersperse",
           "normalized": "Intersperse Report[Report]",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Keyword",
           "package": "richreports",
@@ -586,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Keyword",
           "package": "richreports",
@@ -599,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Line",
           "package": "richreports",
@@ -608,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Line",
           "normalized": "Line[String][Report]",
@@ -623,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "LineIfFlat",
           "package": "richreports",
@@ -632,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "LineIfFlat",
           "normalized": "LineIfFlat[String]Report",
@@ -647,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Literal",
           "package": "richreports",
@@ -656,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Literal",
           "package": "richreports",
@@ -669,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Lt",
           "package": "richreports",
@@ -678,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Lt",
           "package": "richreports",
@@ -691,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Row",
           "package": "richreports",
@@ -700,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Row",
           "normalized": "Row[Report]",
@@ -715,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Space",
           "package": "richreports",
@@ -724,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Space",
           "package": "richreports",
@@ -737,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Span",
           "package": "richreports",
@@ -746,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Span",
           "normalized": "Span[Highlight][Message][Report]",
@@ -761,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Table",
           "package": "richreports",
@@ -770,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Table",
           "normalized": "Table[Report]",
@@ -785,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Text",
           "package": "richreports",
@@ -794,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Text",
           "package": "richreports",
@@ -807,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "Variable",
           "package": "richreports",
@@ -816,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "Variable",
           "package": "richreports",
@@ -829,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "const",
           "package": "richreports",
@@ -838,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "const",
           "normalized": "String-\u003eReport",
@@ -852,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "const_",
           "package": "richreports",
@@ -861,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "const_",
           "normalized": "[Highlight]-\u003e[Message]-\u003eString-\u003eReport",
@@ -875,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "constant",
           "package": "richreports",
@@ -884,6 +961,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "constant",
           "normalized": "String-\u003eReport",
@@ -898,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "constant_",
           "package": "richreports",
@@ -907,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "constant_",
           "normalized": "[Highlight]-\u003e[Message]-\u003eString-\u003eReport",
@@ -921,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "err",
           "package": "richreports",
@@ -930,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "err",
           "normalized": "String-\u003eReport",
@@ -944,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "err_",
           "package": "richreports",
@@ -953,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "err_",
           "normalized": "[Highlight]-\u003e[Message]-\u003eString-\u003eReport",
@@ -967,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "error",
           "package": "richreports",
@@ -976,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "error",
           "normalized": "String-\u003eReport",
@@ -990,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "error_",
           "package": "richreports",
@@ -999,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "error_",
           "normalized": "[Highlight]-\u003e[Message]-\u003eString-\u003eReport",
@@ -1014,6 +1102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneration of an interactive HTML version of the report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "highlight",
           "package": "richreports",
@@ -1024,6 +1113,7 @@
         "index": {
           "description": "Generation of an interactive HTML version of the report",
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "highlight",
           "normalized": "Highlight-\u003e[Class]",
@@ -1038,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "highlights",
           "package": "richreports",
@@ -1047,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "highlights",
           "normalized": "a-\u003e[Highlight]",
@@ -1061,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "key",
           "package": "richreports",
@@ -1070,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "key",
           "normalized": "String-\u003eReport",
@@ -1084,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "key_",
           "package": "richreports",
@@ -1093,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "key_",
           "normalized": "[Highlight]-\u003e[Message]-\u003eString-\u003eReport",
@@ -1108,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcise synonyms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "keyword",
           "package": "richreports",
@@ -1118,6 +1215,7 @@
         "index": {
           "description": "Concise synonyms",
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "keyword",
           "normalized": "String-\u003eReport",
@@ -1132,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "keyword_",
           "package": "richreports",
@@ -1141,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "keyword_",
           "normalized": "[Highlight]-\u003e[Message]-\u003eString-\u003eReport",
@@ -1155,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "lit",
           "package": "richreports",
@@ -1164,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "lit",
           "normalized": "String-\u003eReport",
@@ -1178,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "lit_",
           "package": "richreports",
@@ -1187,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "lit_",
           "normalized": "[Highlight]-\u003e[Message]-\u003eString-\u003eReport",
@@ -1201,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "literal",
           "package": "richreports",
@@ -1210,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "literal",
           "normalized": "String-\u003eReport",
@@ -1224,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "literal_",
           "package": "richreports",
@@ -1233,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "literal_",
           "normalized": "[Highlight]-\u003e[Message]-\u003eString-\u003eReport",
@@ -1247,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "messageToAttr",
           "package": "richreports",
@@ -1256,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "messageToAttr",
           "normalized": "[Message]-\u003e(Property,Value)",
@@ -1271,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "messages",
           "package": "richreports",
@@ -1280,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "messages",
           "normalized": "a-\u003e[Message]",
@@ -1294,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "report",
           "package": "richreports",
@@ -1303,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "report",
           "normalized": "a-\u003eReport",
@@ -1317,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "var",
           "package": "richreports",
@@ -1326,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "var",
           "normalized": "String-\u003eReport",
@@ -1340,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "var_",
           "package": "richreports",
@@ -1349,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "var_",
           "normalized": "[Highlight]-\u003e[Message]-\u003eString-\u003eReport",
@@ -1363,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "variable",
           "package": "richreports",
@@ -1372,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "variable",
           "normalized": "String-\u003eReport",
@@ -1386,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:31 UTC 2014",
           "module": "Text.RichReports",
           "name": "variable_",
           "package": "richreports",
@@ -1395,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Text RichReports",
+          "indexed": "2014-03-11T19:54:31",
           "module": "Text.RichReports",
           "name": "variable_",
           "normalized": "[Highlight]-\u003e[Message]-\u003eString-\u003eReport",

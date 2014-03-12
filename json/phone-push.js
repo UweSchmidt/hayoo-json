@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "phone-push"
+        "phrase": "phone-push",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:22 UTC 2014",
           "module": "Android",
           "name": "Android",
           "package": "phone-push",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Android",
+          "indexed": "2014-03-11T19:38:22",
           "module": "Android",
           "name": "Android",
           "package": "phone-push",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:22 UTC 2014",
           "module": "Android",
           "name": "pushMess",
           "package": "phone-push",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Android",
+          "indexed": "2014-03-11T19:38:22",
           "module": "Android",
           "name": "pushMess",
           "normalized": "ByteString-\u003eByteString-\u003eIO()",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:22 UTC 2014",
           "module": "IOS",
           "name": "IOS",
           "package": "phone-push",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "IOS",
+          "indexed": "2014-03-11T19:38:22",
           "module": "IOS",
           "name": "IOS",
           "package": "phone-push",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:22 UTC 2014",
           "module": "IOS",
           "name": "pushMessLive",
           "package": "phone-push",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "IOS",
+          "indexed": "2014-03-11T19:38:22",
           "module": "IOS",
           "name": "pushMessLive",
           "normalized": "FilePath-\u003eFilePath-\u003eByteString-\u003e[ByteString]-\u003eIO()",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:38:22 UTC 2014",
           "module": "IOS",
           "name": "pushMessTest",
           "package": "phone-push",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "IOS",
+          "indexed": "2014-03-11T19:38:22",
           "module": "IOS",
           "name": "pushMessTest",
           "normalized": "FilePath-\u003eFilePath-\u003eByteString-\u003e[ByteString]-\u003eIO()",

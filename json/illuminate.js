@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "illuminate"
+        "phrase": "illuminate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Alex",
           "name": "Alex",
           "package": "illuminate",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Alex",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Alex",
           "name": "Alex",
           "package": "illuminate",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Alex",
           "name": "lexer",
           "package": "illuminate",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Alex",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Alex",
           "name": "lexer",
           "package": "illuminate",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.BibTeX",
           "name": "BibTeX",
           "package": "illuminate",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate BibTeX",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.BibTeX",
           "name": "BibTeX",
           "package": "illuminate",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.BibTeX",
           "name": "lexer",
           "package": "illuminate",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate BibTeX",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.BibTeX",
           "name": "lexer",
           "package": "illuminate",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.C",
           "name": "C",
           "package": "illuminate",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate C",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.C",
           "name": "C",
           "package": "illuminate",
@@ -122,6 +132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.C",
           "name": "lexer",
           "package": "illuminate",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate C",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.C",
           "name": "lexer",
           "package": "illuminate",
@@ -143,6 +155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.CPlusPlus",
           "name": "CPlusPlus",
           "package": "illuminate",
@@ -151,6 +164,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate CPlusPlus",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.CPlusPlus",
           "name": "CPlusPlus",
           "package": "illuminate",
@@ -164,6 +178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.CPlusPlus",
           "name": "lexer",
           "package": "illuminate",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate CPlusPlus",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.CPlusPlus",
           "name": "lexer",
           "package": "illuminate",
@@ -185,6 +201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.CSS",
           "name": "CSS",
           "package": "illuminate",
@@ -193,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate CSS",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.CSS",
           "name": "CSS",
           "package": "illuminate",
@@ -206,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.CSS",
           "name": "lexer",
           "package": "illuminate",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate CSS",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.CSS",
           "name": "lexer",
           "package": "illuminate",
@@ -227,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.CSharp",
           "name": "CSharp",
           "package": "illuminate",
@@ -235,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate CSharp",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.CSharp",
           "name": "CSharp",
           "package": "illuminate",
@@ -248,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.CSharp",
           "name": "lexer",
           "package": "illuminate",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate CSharp",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.CSharp",
           "name": "lexer",
           "package": "illuminate",
@@ -269,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Cabal",
           "name": "Cabal",
           "package": "illuminate",
@@ -277,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Cabal",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Cabal",
           "name": "Cabal",
           "package": "illuminate",
@@ -290,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Cabal",
           "name": "lexer",
           "package": "illuminate",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Cabal",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Cabal",
           "name": "lexer",
           "package": "illuminate",
@@ -311,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.D",
           "name": "D",
           "package": "illuminate",
@@ -319,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate D",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.D",
           "name": "D",
           "package": "illuminate",
@@ -331,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.D",
           "name": "lexer",
           "package": "illuminate",
@@ -340,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate D",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.D",
           "name": "lexer",
           "package": "illuminate",
@@ -352,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Diff",
           "name": "Diff",
           "package": "illuminate",
@@ -360,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Diff",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Diff",
           "name": "Diff",
           "package": "illuminate",
@@ -373,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Diff",
           "name": "lexer",
           "package": "illuminate",
@@ -382,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Diff",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Diff",
           "name": "lexer",
           "package": "illuminate",
@@ -394,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Format",
           "package": "illuminate",
@@ -402,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Format",
           "package": "illuminate",
@@ -415,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Color",
           "package": "illuminate",
@@ -423,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Color",
           "package": "illuminate",
@@ -436,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Options",
           "package": "illuminate",
@@ -444,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Options",
           "package": "illuminate",
@@ -458,6 +500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Style is a generic instruction for formatting a token of the given\n type.  The same style can be used for various output formats (HTML,\n ANSI, LaTeX...).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Style",
           "package": "illuminate",
@@ -467,6 +510,7 @@
         "index": {
           "description": "Style is generic instruction for formatting token of the given type The same style can be used for various output formats HTML ANSI LaTeX",
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Style",
           "package": "illuminate",
@@ -480,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Styling",
           "package": "illuminate",
@@ -488,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Styling",
           "package": "illuminate",
@@ -501,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Aqua",
           "package": "illuminate",
@@ -510,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Aqua",
           "package": "illuminate",
@@ -523,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Background",
           "package": "illuminate",
@@ -532,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Background",
           "package": "illuminate",
@@ -545,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Black",
           "package": "illuminate",
@@ -554,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Black",
           "package": "illuminate",
@@ -567,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Blue",
           "package": "illuminate",
@@ -576,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Blue",
           "package": "illuminate",
@@ -589,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Bold",
           "package": "illuminate",
@@ -598,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Bold",
           "package": "illuminate",
@@ -611,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Fixed",
           "package": "illuminate",
@@ -620,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Fixed",
           "package": "illuminate",
@@ -633,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Foreground",
           "package": "illuminate",
@@ -642,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Foreground",
           "package": "illuminate",
@@ -655,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Fuchsia",
           "package": "illuminate",
@@ -664,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Fuchsia",
           "package": "illuminate",
@@ -677,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Gray",
           "package": "illuminate",
@@ -686,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Gray",
           "package": "illuminate",
@@ -699,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Green",
           "package": "illuminate",
@@ -708,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Green",
           "package": "illuminate",
@@ -722,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecond argument is a fallback color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Hex",
           "package": "illuminate",
@@ -732,6 +799,7 @@
         "index": {
           "description": "Second argument is fallback color",
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Hex",
           "package": "illuminate",
@@ -745,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Italic",
           "package": "illuminate",
@@ -754,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Italic",
           "package": "illuminate",
@@ -767,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Lime",
           "package": "illuminate",
@@ -776,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Lime",
           "package": "illuminate",
@@ -789,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Maroon",
           "package": "illuminate",
@@ -798,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Maroon",
           "package": "illuminate",
@@ -811,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Navy",
           "package": "illuminate",
@@ -820,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Navy",
           "package": "illuminate",
@@ -833,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Olive",
           "package": "illuminate",
@@ -842,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Olive",
           "package": "illuminate",
@@ -855,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Options",
           "package": "illuminate",
@@ -864,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Options",
           "package": "illuminate",
@@ -877,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Purple",
           "package": "illuminate",
@@ -886,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Purple",
           "package": "illuminate",
@@ -899,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Red",
           "package": "illuminate",
@@ -908,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Red",
           "package": "illuminate",
@@ -921,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Silver",
           "package": "illuminate",
@@ -930,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Silver",
           "package": "illuminate",
@@ -943,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Teal",
           "package": "illuminate",
@@ -952,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Teal",
           "package": "illuminate",
@@ -965,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Underline",
           "package": "illuminate",
@@ -974,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Underline",
           "package": "illuminate",
@@ -987,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "White",
           "package": "illuminate",
@@ -996,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "White",
           "package": "illuminate",
@@ -1009,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Yellow",
           "package": "illuminate",
@@ -1018,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "Yellow",
           "package": "illuminate",
@@ -1032,6 +1126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA colorful style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "colorful",
           "package": "illuminate",
@@ -1042,6 +1137,7 @@
         "index": {
           "description": "colorful style",
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "colorful",
           "package": "illuminate",
@@ -1055,6 +1151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS snippet appropriate for the specificed options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "cssFor",
           "package": "illuminate",
@@ -1065,6 +1162,7 @@
         "index": {
           "description": "CSS snippet appropriate for the specificed options",
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "cssFor",
           "normalized": "Options-\u003eString",
@@ -1080,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "defaultOptions",
           "package": "illuminate",
@@ -1089,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "defaultOptions",
           "package": "illuminate",
@@ -1103,6 +1203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA style based on hscolour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "hscolour",
           "package": "illuminate",
@@ -1113,6 +1214,7 @@
         "index": {
           "description": "style based on hscolour",
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "hscolour",
           "package": "illuminate",
@@ -1126,6 +1228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA black and white style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "monochrome",
           "package": "illuminate",
@@ -1136,6 +1239,7 @@
         "index": {
           "description": "black and white style",
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "monochrome",
           "package": "illuminate",
@@ -1149,6 +1253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd anchor with number as ID to each line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "optAnchors",
           "package": "illuminate",
@@ -1159,6 +1264,7 @@
         "index": {
           "description": "Add anchor with number as ID to each line",
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "optAnchors",
           "package": "illuminate",
@@ -1173,6 +1279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber lines?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "optNumberLines",
           "package": "illuminate",
@@ -1183,6 +1290,7 @@
         "index": {
           "description": "Number lines",
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "optNumberLines",
           "package": "illuminate",
@@ -1197,6 +1305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of first line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "optStartNumber",
           "package": "illuminate",
@@ -1207,6 +1316,7 @@
         "index": {
           "description": "Number of first line",
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "optStartNumber",
           "package": "illuminate",
@@ -1221,6 +1331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHighlighting style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "optStyle",
           "package": "illuminate",
@@ -1231,6 +1342,7 @@
         "index": {
           "description": "Highlighting style",
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "optStyle",
           "package": "illuminate",
@@ -1245,6 +1357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHighlight tokens using ANSI control sequences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "toANSI",
           "package": "illuminate",
@@ -1255,6 +1368,7 @@
         "index": {
           "description": "Highlight tokens using ANSI control sequences",
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "toANSI",
           "normalized": "Options-\u003eTokens-\u003eString",
@@ -1271,6 +1385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHighlight as HTML with CSS classes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "toHtmlCSS",
           "package": "illuminate",
@@ -1281,6 +1396,7 @@
         "index": {
           "description": "Highlight as HTML with CSS classes",
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "toHtmlCSS",
           "normalized": "Options-\u003eTokens-\u003eHtml",
@@ -1297,6 +1413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHighlight as HTML with inline styles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "toHtmlInline",
           "package": "illuminate",
@@ -1307,6 +1424,7 @@
         "index": {
           "description": "Highlight as HTML with inline styles",
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "toHtmlInline",
           "normalized": "Options-\u003eTokens-\u003eHtml",
@@ -1323,6 +1441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHighlight as LaTeX.\n Use with\n\u003c/p\u003e\u003cpre\u003e \\usepackage{fancyvrb}\n \\usepackage[usenames,dvipsnames]{color}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "toLaTeX",
           "package": "illuminate",
@@ -1333,6 +1452,7 @@
         "index": {
           "description": "Highlight as LaTeX Use with usepackage fancyvrb usepackage usenames dvipsnames color",
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "toLaTeX",
           "normalized": "Options-\u003eTokens-\u003eString",
@@ -1349,6 +1469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHighlight as XHTML with CSS classes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "toXHtmlCSS",
           "package": "illuminate",
@@ -1359,6 +1480,7 @@
         "index": {
           "description": "Highlight as XHTML with CSS classes",
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "toXHtmlCSS",
           "normalized": "Options-\u003eTokens-\u003eHtml",
@@ -1375,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHighlight as XHTML with inline styles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "toXHtmlInline",
           "package": "illuminate",
@@ -1385,6 +1508,7 @@
         "index": {
           "description": "Highlight as XHTML with inline styles",
           "hierarchy": "Text Highlighting Illuminate Format",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Format",
           "name": "toXHtmlInline",
           "normalized": "Options-\u003eTokens-\u003eHtml",
@@ -1400,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.HTML",
           "name": "HTML",
           "package": "illuminate",
@@ -1408,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate HTML",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.HTML",
           "name": "HTML",
           "package": "illuminate",
@@ -1421,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.HTML",
           "name": "lexer",
           "package": "illuminate",
@@ -1430,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate HTML",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.HTML",
           "name": "lexer",
           "package": "illuminate",
@@ -1442,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Haskell",
           "name": "Haskell",
           "package": "illuminate",
@@ -1450,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Haskell",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Haskell",
           "name": "Haskell",
           "package": "illuminate",
@@ -1463,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Haskell",
           "name": "lexer",
           "package": "illuminate",
@@ -1472,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Haskell",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Haskell",
           "name": "lexer",
           "package": "illuminate",
@@ -1484,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Java",
           "name": "Java",
           "package": "illuminate",
@@ -1492,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Java",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Java",
           "name": "Java",
           "package": "illuminate",
@@ -1505,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Java",
           "name": "lexer",
           "package": "illuminate",
@@ -1514,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Java",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Java",
           "name": "lexer",
           "package": "illuminate",
@@ -1526,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Javascript",
           "name": "Javascript",
           "package": "illuminate",
@@ -1534,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Javascript",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Javascript",
           "name": "Javascript",
           "package": "illuminate",
@@ -1547,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Javascript",
           "name": "lexer",
           "package": "illuminate",
@@ -1556,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Javascript",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Javascript",
           "name": "lexer",
           "package": "illuminate",
@@ -1568,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.LiterateHaskell",
           "name": "LiterateHaskell",
           "package": "illuminate",
@@ -1576,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate LiterateHaskell",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.LiterateHaskell",
           "name": "LiterateHaskell",
           "package": "illuminate",
@@ -1589,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.LiterateHaskell",
           "name": "lexer",
           "package": "illuminate",
@@ -1598,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate LiterateHaskell",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.LiterateHaskell",
           "name": "lexer",
           "package": "illuminate",
@@ -1610,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Python",
           "name": "Python",
           "package": "illuminate",
@@ -1618,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Python",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Python",
           "name": "Python",
           "package": "illuminate",
@@ -1631,6 +1777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Python",
           "name": "lexer",
           "package": "illuminate",
@@ -1640,6 +1787,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Python",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Python",
           "name": "lexer",
           "package": "illuminate",
@@ -1652,6 +1800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.RHTML",
           "name": "RHTML",
           "package": "illuminate",
@@ -1660,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate RHTML",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.RHTML",
           "name": "RHTML",
           "package": "illuminate",
@@ -1673,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.RHTML",
           "name": "lexer",
           "package": "illuminate",
@@ -1682,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate RHTML",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.RHTML",
           "name": "lexer",
           "package": "illuminate",
@@ -1694,6 +1846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.RXML",
           "name": "RXML",
           "package": "illuminate",
@@ -1702,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate RXML",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.RXML",
           "name": "RXML",
           "package": "illuminate",
@@ -1715,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.RXML",
           "name": "lexer",
           "package": "illuminate",
@@ -1724,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate RXML",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.RXML",
           "name": "lexer",
           "package": "illuminate",
@@ -1736,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Ruby",
           "name": "Ruby",
           "package": "illuminate",
@@ -1744,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Ruby",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Ruby",
           "name": "Ruby",
           "package": "illuminate",
@@ -1757,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Ruby",
           "name": "lexer",
           "package": "illuminate",
@@ -1766,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Ruby",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Ruby",
           "name": "lexer",
           "package": "illuminate",
@@ -1778,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Sh",
           "name": "Sh",
           "package": "illuminate",
@@ -1786,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Sh",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Sh",
           "name": "Sh",
           "package": "illuminate",
@@ -1799,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Sh",
           "name": "lexer",
           "package": "illuminate",
@@ -1808,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Sh",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Sh",
           "name": "lexer",
           "package": "illuminate",
@@ -1820,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.TeX",
           "name": "TeX",
           "package": "illuminate",
@@ -1828,6 +1993,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate TeX",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.TeX",
           "name": "TeX",
           "package": "illuminate",
@@ -1841,6 +2007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.TeX",
           "name": "lexer",
           "package": "illuminate",
@@ -1850,6 +2017,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate TeX",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.TeX",
           "name": "lexer",
           "package": "illuminate",
@@ -1862,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Types",
           "package": "illuminate",
@@ -1870,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Types",
           "package": "illuminate",
@@ -1883,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Lexer",
           "package": "illuminate",
@@ -1891,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Lexer",
           "package": "illuminate",
@@ -1904,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Scanner",
           "package": "illuminate",
@@ -1912,6 +2085,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Scanner",
           "package": "illuminate",
@@ -1925,6 +2099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Token",
           "package": "illuminate",
@@ -1933,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Token",
           "package": "illuminate",
@@ -1946,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "TokenType",
           "package": "illuminate",
@@ -1954,6 +2131,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "TokenType",
           "package": "illuminate",
@@ -1967,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Tokens",
           "package": "illuminate",
@@ -1975,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Tokens",
           "package": "illuminate",
@@ -1988,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Alert",
           "package": "illuminate",
@@ -1997,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Alert",
           "package": "illuminate",
@@ -2010,6 +2192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "CBracket",
           "package": "illuminate",
@@ -2019,6 +2202,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "CBracket",
           "package": "illuminate",
@@ -2032,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Char",
           "package": "illuminate",
@@ -2041,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Char",
           "package": "illuminate",
@@ -2054,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Comment",
           "package": "illuminate",
@@ -2063,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Comment",
           "package": "illuminate",
@@ -2076,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "ConId",
           "package": "illuminate",
@@ -2085,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "ConId",
           "package": "illuminate",
@@ -2098,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "EOF",
           "package": "illuminate",
@@ -2107,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "EOF",
           "package": "illuminate",
@@ -2120,6 +2312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Entity",
           "package": "illuminate",
@@ -2129,6 +2322,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Entity",
           "package": "illuminate",
@@ -2142,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Function",
           "package": "illuminate",
@@ -2151,6 +2346,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Function",
           "package": "illuminate",
@@ -2164,6 +2360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Keyword",
           "package": "illuminate",
@@ -2173,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Keyword",
           "package": "illuminate",
@@ -2186,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Label",
           "package": "illuminate",
@@ -2195,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Label",
           "package": "illuminate",
@@ -2231,6 +2431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Math",
           "package": "illuminate",
@@ -2240,6 +2441,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Math",
           "package": "illuminate",
@@ -2253,6 +2455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "NewFile",
           "package": "illuminate",
@@ -2262,6 +2465,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "NewFile",
           "package": "illuminate",
@@ -2275,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Number",
           "package": "illuminate",
@@ -2284,6 +2489,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Number",
           "package": "illuminate",
@@ -2297,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "OldFile",
           "package": "illuminate",
@@ -2306,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "OldFile",
           "package": "illuminate",
@@ -2319,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Plain",
           "package": "illuminate",
@@ -2328,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Plain",
           "package": "illuminate",
@@ -2341,6 +2551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Preproc",
           "package": "illuminate",
@@ -2350,6 +2561,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Preproc",
           "package": "illuminate",
@@ -2363,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Property",
           "package": "illuminate",
@@ -2372,6 +2585,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Property",
           "package": "illuminate",
@@ -2385,6 +2599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Regex",
           "package": "illuminate",
@@ -2394,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Regex",
           "package": "illuminate",
@@ -2407,6 +2623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Selector",
           "package": "illuminate",
@@ -2416,6 +2633,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Selector",
           "package": "illuminate",
@@ -2429,6 +2647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "String",
           "package": "illuminate",
@@ -2438,6 +2657,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "String",
           "package": "illuminate",
@@ -2451,6 +2671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Symbol",
           "package": "illuminate",
@@ -2460,6 +2681,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Symbol",
           "package": "illuminate",
@@ -2473,6 +2695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Tag",
           "package": "illuminate",
@@ -2482,6 +2705,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Tag",
           "package": "illuminate",
@@ -2495,6 +2719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Type",
           "package": "illuminate",
@@ -2504,6 +2729,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Type",
           "package": "illuminate",
@@ -2517,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "VarId",
           "package": "illuminate",
@@ -2526,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "VarId",
           "package": "illuminate",
@@ -2539,6 +2767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Variable",
           "package": "illuminate",
@@ -2548,6 +2777,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Variable",
           "package": "illuminate",
@@ -2561,6 +2791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Whitespace",
           "package": "illuminate",
@@ -2570,6 +2801,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate Types",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.Types",
           "name": "Whitespace",
           "package": "illuminate",
@@ -2675,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.XML",
           "name": "XML",
           "package": "illuminate",
@@ -2683,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate XML",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.XML",
           "name": "XML",
           "package": "illuminate",
@@ -2696,6 +2930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate.XML",
           "name": "lexer",
           "package": "illuminate",
@@ -2705,6 +2940,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate XML",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate.XML",
           "name": "lexer",
           "package": "illuminate",
@@ -2717,6 +2953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate",
           "name": "Illuminate",
           "package": "illuminate",
@@ -2725,6 +2962,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate",
           "name": "Illuminate",
           "package": "illuminate",
@@ -2738,6 +2976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate",
           "name": "Lexer",
           "package": "illuminate",
@@ -2746,6 +2985,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate",
           "name": "Lexer",
           "package": "illuminate",
@@ -2760,6 +3000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches a lexer by the filename of the source file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate",
           "name": "lexerByFilename",
           "package": "illuminate",
@@ -2770,6 +3011,7 @@
         "index": {
           "description": "Matches lexer by the filename of the source file",
           "hierarchy": "Text Highlighting Illuminate",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate",
           "name": "lexerByFilename",
           "normalized": "String-\u003eMaybe Lexer",
@@ -2786,6 +3028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches a lexer by name or alias (case-insensitive).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate",
           "name": "lexerByName",
           "package": "illuminate",
@@ -2796,6 +3039,7 @@
         "index": {
           "description": "Matches lexer by name or alias case-insensitive",
           "hierarchy": "Text Highlighting Illuminate",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate",
           "name": "lexerByName",
           "normalized": "String-\u003eMaybe Lexer",
@@ -2811,6 +3055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate",
           "name": "lexers",
           "package": "illuminate",
@@ -2820,6 +3065,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Illuminate",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate",
           "name": "lexers",
           "normalized": "[Lexer]",
@@ -2835,6 +3081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTokenize a string, returning either an error or a sequence\n of tokens.  If the first argument is \u003ccode\u003eJust\u003c/code\u003e a lexer, use\n the lexer to tokenize.  If \u003ccode\u003eNothing\u003c/code\u003e, return a single \u003ccode\u003ePlain\u003c/code\u003e\n token with the whole source.  \u003ccode\u003e\u003ca\u003etokenize\u003c/a\u003e\u003c/code\u003e is designed to be\n used with \u003ccode\u003e\u003ca\u003elexerByName\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003elexerByFilename\u003c/a\u003e\u003c/code\u003e: for example,\n\u003c/p\u003e\u003cpre\u003e tokenize (lexerByName \"Haskell\") input\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:56:43 UTC 2014",
           "module": "Text.Highlighting.Illuminate",
           "name": "tokenize",
           "package": "illuminate",
@@ -2845,6 +3092,7 @@
         "index": {
           "description": "Tokenize string returning either an error or sequence of tokens If the first argument is Just lexer use the lexer to tokenize If Nothing return single Plain token with the whole source tokenize is designed to be used with lexerByName or lexerByFilename for example tokenize lexerByName Haskell input",
           "hierarchy": "Text Highlighting Illuminate",
+          "indexed": "2014-03-11T18:56:43",
           "module": "Text.Highlighting.Illuminate",
           "name": "tokenize",
           "normalized": "Maybe Lexer-\u003eString-\u003eEither String Tokens",

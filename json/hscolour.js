@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hscolour"
+        "phrase": "hscolour",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFormats Haskell source code as HTML with CSS and Mouseover Type Annotations\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ACSS",
           "name": "ACSS",
           "package": "hscolour",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Formats Haskell source code as HTML with CSS and Mouseover Type Annotations",
           "hierarchy": "Language Haskell HsColour ACSS",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ACSS",
           "name": "ACSS",
           "package": "hscolour",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ACSS",
           "name": "AnnMap",
           "package": "hscolour",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ACSS",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ACSS",
           "name": "AnnMap",
           "package": "hscolour",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ACSS",
           "name": "Loc",
           "package": "hscolour",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ACSS",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ACSS",
           "name": "Loc",
           "package": "hscolour",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ACSS",
           "name": "Ann",
           "package": "hscolour",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ACSS",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ACSS",
           "name": "Ann",
           "normalized": "Ann(Map Loc(String,String))",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ACSS",
           "name": "L",
           "package": "hscolour",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ACSS",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ACSS",
           "name": "L",
           "normalized": "L(Int,Int)",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ACSS",
           "name": "breakS",
           "package": "hscolour",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ACSS",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ACSS",
           "name": "breakS",
           "normalized": "[Char]",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormats Haskell source code using HTML and mouse-over annotations \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ACSS",
           "name": "hsannot",
           "package": "hscolour",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Formats Haskell source code using HTML and mouse-over annotations",
           "hierarchy": "Language Haskell HsColour ACSS",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ACSS",
           "name": "hsannot",
           "normalized": "Bool-\u003e(String,AnnMap)-\u003eString",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormats Haskell source code using HTML and mouse-over annotations \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ACSS",
           "name": "hscolour",
           "package": "hscolour",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Formats Haskell source code using HTML and mouse-over annotations",
           "hierarchy": "Language Haskell HsColour ACSS",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ACSS",
           "name": "hscolour",
           "normalized": "Bool-\u003eString-\u003eString",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ACSS",
           "name": "srcModuleName",
           "package": "hscolour",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ACSS",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ACSS",
           "name": "srcModuleName",
           "normalized": "String-\u003eString",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePartially taken from Hugs AnsiScreen.hs library:\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "ANSI",
           "package": "hscolour",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Partially taken from Hugs AnsiScreen.hs library",
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "ANSI",
           "package": "hscolour",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColours supported by ANSI codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "Colour",
           "package": "hscolour",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Colours supported by ANSI codes",
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "Colour",
           "package": "hscolour",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of highlighting supported by ANSI codes (and some extra styles).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "Highlight",
           "package": "hscolour",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Types of highlighting supported by ANSI codes and some extra styles",
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "Highlight",
           "package": "hscolour",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "TerminalType",
           "package": "hscolour",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "TerminalType",
           "package": "hscolour",
@@ -802,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "clearDown",
           "package": "hscolour",
@@ -811,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "clearDown",
           "normalized": "[Char]",
@@ -826,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "clearUp",
           "package": "hscolour",
@@ -835,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "clearUp",
           "normalized": "[Char]",
@@ -850,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "clearbol",
           "package": "hscolour",
@@ -859,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "clearbol",
           "normalized": "[Char]",
@@ -873,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "cleareol",
           "package": "hscolour",
@@ -882,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "cleareol",
           "normalized": "[Char]",
@@ -896,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "clearline",
           "package": "hscolour",
@@ -905,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "clearline",
           "normalized": "[Char]",
@@ -920,6 +956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear the screen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "cls",
           "package": "hscolour",
@@ -930,6 +967,7 @@
         "index": {
           "description": "Clear the screen",
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "cls",
           "package": "hscolour",
@@ -943,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infinite supply of colours.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "colourCycle",
           "package": "hscolour",
@@ -953,6 +992,7 @@
         "index": {
           "description": "An infinite supply of colours",
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "colourCycle",
           "normalized": "[Colour]",
@@ -968,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "cursorDown",
           "package": "hscolour",
@@ -977,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "cursorDown",
           "normalized": "[Char]",
@@ -992,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "cursorLeft",
           "package": "hscolour",
@@ -1001,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "cursorLeft",
           "normalized": "[Char]",
@@ -1016,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "cursorRight",
           "package": "hscolour",
@@ -1025,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "cursorRight",
           "normalized": "[Char]",
@@ -1040,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "cursorUp",
           "package": "hscolour",
@@ -1049,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "cursorUp",
           "normalized": "[Char]",
@@ -1065,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScrolling\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "enableScrollRegion",
           "package": "hscolour",
@@ -1075,6 +1124,7 @@
         "index": {
           "description": "Scrolling",
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "enableScrollRegion",
           "normalized": "Int-\u003eInt-\u003eString",
@@ -1091,6 +1141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the screen cursor to the given position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "goto",
           "package": "hscolour",
@@ -1101,6 +1152,7 @@
         "index": {
           "description": "Move the screen cursor to the given position",
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "goto",
           "normalized": "Int-\u003eInt-\u003eString",
@@ -1116,6 +1168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e= \u003ccode\u003e\u003ca\u003ehighlightG\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eAnsi16Colour\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "highlight",
           "package": "hscolour",
@@ -1126,6 +1179,7 @@
         "index": {
           "description": "highlightG Ansi16Colour",
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "highlight",
           "normalized": "[Highlight]-\u003eString-\u003eString",
@@ -1141,6 +1195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake the given string appear with all of the listed highlights\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "highlightG",
           "package": "hscolour",
@@ -1151,6 +1206,7 @@
         "index": {
           "description": "Make the given string appear with all of the listed highlights",
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "highlightG",
           "normalized": "TerminalType-\u003e[Highlight]-\u003eString-\u003eString",
@@ -1165,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "highlightOff",
           "package": "hscolour",
@@ -1174,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "highlightOff",
           "normalized": "[Char]",
@@ -1190,6 +1248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e= \u003ccode\u003e\u003ca\u003ehighlightOn\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eAnsi16Colour\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "highlightOn",
           "package": "hscolour",
@@ -1200,6 +1259,7 @@
         "index": {
           "description": "highlightOn Ansi16Colour",
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "highlightOn",
           "normalized": "[Highlight]-\u003eString",
@@ -1215,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "highlightOnG",
           "package": "hscolour",
@@ -1224,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "highlightOnG",
           "normalized": "TerminalType-\u003e[Highlight]-\u003eString",
@@ -1239,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "lineWrap",
           "package": "hscolour",
@@ -1248,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "lineWrap",
           "normalized": "Bool-\u003e[Char]",
@@ -1263,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "restorePosition",
           "package": "hscolour",
@@ -1272,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "restorePosition",
           "normalized": "[Char]",
@@ -1287,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "savePosition",
           "package": "hscolour",
@@ -1296,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "savePosition",
           "normalized": "[Char]",
@@ -1311,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "scrollDown",
           "package": "hscolour",
@@ -1320,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "scrollDown",
           "package": "hscolour",
@@ -1333,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "scrollUp",
           "package": "hscolour",
@@ -1342,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ANSI",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ANSI",
           "name": "scrollUp",
           "package": "hscolour",
@@ -1355,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Anchors",
           "name": "Anchors",
           "package": "hscolour",
@@ -1363,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Anchors",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Anchors",
           "name": "Anchors",
           "package": "hscolour",
@@ -1377,6 +1451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003einsertAnchors\u003c/a\u003e\u003c/code\u003e places an anchor marker in the token stream before the\n   first defining occurrence of any identifier.  Here, \u003cem\u003ebefore\u003c/em\u003e means\n   immediately preceding its type signature, or preceding a (haddock)\n   comment that comes immediately before the type signature, or failing\n   either of those, before the first equation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Anchors",
           "name": "insertAnchors",
           "package": "hscolour",
@@ -1387,6 +1462,7 @@
         "index": {
           "description": "insertAnchors places an anchor marker in the token stream before the first defining occurrence of any identifier Here before means immediately preceding its type signature or preceding haddock comment that comes immediately before the type signature or failing either of those before the first equation",
           "hierarchy": "Language Haskell HsColour Anchors",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Anchors",
           "name": "insertAnchors",
           "normalized": "[(TokenType,String)]-\u003e[Either Anchor(TokenType,String)]",
@@ -1403,6 +1479,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFormats Haskell source code as HTML with CSS.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.CSS",
           "name": "CSS",
           "package": "hscolour",
@@ -1412,6 +1489,7 @@
         "index": {
           "description": "Formats Haskell source code as HTML with CSS",
           "hierarchy": "Language Haskell HsColour CSS",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.CSS",
           "name": "CSS",
           "package": "hscolour",
@@ -1426,6 +1504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormats Haskell source code as a complete HTML document with CSS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.CSS",
           "name": "hscolour",
           "package": "hscolour",
@@ -1435,6 +1514,7 @@
         "index": {
           "description": "Formats Haskell source code as complete HTML document with CSS",
           "hierarchy": "Language Haskell HsColour CSS",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.CSS",
           "name": "hscolour",
           "normalized": "Bool-\u003eString-\u003eString",
@@ -1449,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.CSS",
           "name": "pre",
           "package": "hscolour",
@@ -1458,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour CSS",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.CSS",
           "name": "pre",
           "normalized": "String-\u003eString",
@@ -1472,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.CSS",
           "name": "renderToken",
           "package": "hscolour",
@@ -1481,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour CSS",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.CSS",
           "name": "renderToken",
           "normalized": "(TokenType,String)-\u003eString",
@@ -1496,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.CSS",
           "name": "top'n'tail",
           "package": "hscolour",
@@ -1505,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour CSS",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.CSS",
           "name": "top'n'tail",
           "normalized": "String-\u003eString-\u003eString",
@@ -1519,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Classify",
           "package": "hscolour",
@@ -1527,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Classify",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Classify",
           "package": "hscolour",
@@ -1541,6 +1629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClassification of tokens as lexical entities\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "TokenType",
           "package": "hscolour",
@@ -1550,6 +1639,7 @@
         "index": {
           "description": "Classification of tokens as lexical entities",
           "hierarchy": "Language Haskell HsColour Classify",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "TokenType",
           "package": "hscolour",
@@ -1563,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Char",
           "package": "hscolour",
@@ -1572,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Classify",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Char",
           "package": "hscolour",
@@ -1585,6 +1677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Comment",
           "package": "hscolour",
@@ -1594,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Classify",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Comment",
           "package": "hscolour",
@@ -1607,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Conid",
           "package": "hscolour",
@@ -1616,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Classify",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Conid",
           "package": "hscolour",
@@ -1629,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Conop",
           "package": "hscolour",
@@ -1638,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Classify",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Conop",
           "package": "hscolour",
@@ -1651,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Cpp",
           "package": "hscolour",
@@ -1660,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Classify",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Cpp",
           "package": "hscolour",
@@ -1673,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Definition",
           "package": "hscolour",
@@ -1682,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Classify",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Definition",
           "package": "hscolour",
@@ -1695,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Error",
           "package": "hscolour",
@@ -1704,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Classify",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Error",
           "package": "hscolour",
@@ -1717,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Keyglyph",
           "package": "hscolour",
@@ -1726,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Classify",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Keyglyph",
           "package": "hscolour",
@@ -1739,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Keyword",
           "package": "hscolour",
@@ -1748,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Classify",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Keyword",
           "package": "hscolour",
@@ -1761,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Layout",
           "package": "hscolour",
@@ -1770,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Classify",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Layout",
           "package": "hscolour",
@@ -1783,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Number",
           "package": "hscolour",
@@ -1792,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Classify",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Number",
           "package": "hscolour",
@@ -1805,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Space",
           "package": "hscolour",
@@ -1814,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Classify",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Space",
           "package": "hscolour",
@@ -1827,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "String",
           "package": "hscolour",
@@ -1836,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Classify",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "String",
           "package": "hscolour",
@@ -1849,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Varid",
           "package": "hscolour",
@@ -1858,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Classify",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Varid",
           "package": "hscolour",
@@ -1871,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Varop",
           "package": "hscolour",
@@ -1880,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Classify",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "Varop",
           "package": "hscolour",
@@ -1894,6 +2014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLex Haskell source code into an annotated token stream, without\n   discarding any characters or layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "tokenise",
           "package": "hscolour",
@@ -1904,6 +2025,7 @@
         "index": {
           "description": "Lex Haskell source code into an annotated token stream without discarding any characters or layout",
           "hierarchy": "Language Haskell HsColour Classify",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Classify",
           "name": "tokenise",
           "normalized": "String-\u003e[(TokenType,String)]",
@@ -1918,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ColourHighlight",
           "name": "ColourHighlight",
           "package": "hscolour",
@@ -1926,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour ColourHighlight",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ColourHighlight",
           "name": "ColourHighlight",
           "package": "hscolour",
@@ -1940,6 +2064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColours supported by ANSI codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ColourHighlight",
           "name": "Colour",
           "package": "hscolour",
@@ -1949,6 +2074,7 @@
         "index": {
           "description": "Colours supported by ANSI codes",
           "hierarchy": "Language Haskell HsColour ColourHighlight",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ColourHighlight",
           "name": "Colour",
           "package": "hscolour",
@@ -1963,6 +2089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of highlighting supported by ANSI codes (and some extra styles).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ColourHighlight",
           "name": "Highlight",
           "package": "hscolour",
@@ -1972,6 +2099,7 @@
         "index": {
           "description": "Types of highlighting supported by ANSI codes and some extra styles",
           "hierarchy": "Language Haskell HsColour ColourHighlight",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ColourHighlight",
           "name": "Highlight",
           "package": "hscolour",
@@ -1986,6 +2114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an integer in the range [0,2^24-1] to its base 256-triplet, passing the result to the given continuation (avoid unnecessary tupleism).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ColourHighlight",
           "name": "base256",
           "package": "hscolour",
@@ -1996,6 +2125,7 @@
         "index": {
           "description": "Convert an integer in the range to its base triplet passing the result to the given continuation avoid unnecessary tupleism",
           "hierarchy": "Language Haskell HsColour ColourHighlight",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ColourHighlight",
           "name": "base256",
           "normalized": "(Word-\u003eWord-\u003eWord-\u003ea)-\u003eb-\u003ea",
@@ -2011,6 +2141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift \u003ccode\u003e\u003ca\u003eprojectToBasicColour8\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eHighlight\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ColourHighlight",
           "name": "hlProjectToBasicColour8",
           "package": "hscolour",
@@ -2021,6 +2152,7 @@
         "index": {
           "description": "Lift projectToBasicColour8 to Highlight",
           "hierarchy": "Language Haskell HsColour ColourHighlight",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ColourHighlight",
           "name": "hlProjectToBasicColour8",
           "normalized": "Highlight-\u003eHighlight",
@@ -2037,6 +2169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAp\"proxi\"mate a 24-bit Rgb colour with an ANSI8 colour. Will leave other colours unchanged and will never return an \u003ccode\u003e\u003ca\u003eRgb\u003c/a\u003e\u003c/code\u003e constructor value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ColourHighlight",
           "name": "projectToBasicColour8",
           "package": "hscolour",
@@ -2047,6 +2180,7 @@
         "index": {
           "description": "Ap proxi mate bit Rgb colour with an ANSI8 colour Will leave other colours unchanged and will never return an Rgb constructor value",
           "hierarchy": "Language Haskell HsColour ColourHighlight",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ColourHighlight",
           "name": "projectToBasicColour8",
           "normalized": "Colour-\u003eColour",
@@ -2063,6 +2197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApproximate a 24-bit Rgb colour with a colour in the xterm256 6x6x6 colour cube, returning its index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ColourHighlight",
           "name": "rgb24bit_to_xterm256",
           "package": "hscolour",
@@ -2073,6 +2208,7 @@
         "index": {
           "description": "Approximate bit Rgb colour with colour in the xterm256 x6x6 colour cube returning its index",
           "hierarchy": "Language Haskell HsColour ColourHighlight",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ColourHighlight",
           "name": "rgb24bit_to_xterm256",
           "normalized": "Word-\u003eWord-\u003eWord-\u003ea",
@@ -2088,6 +2224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a three-digit numeral in the given (as arg 1) base to its integer value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.ColourHighlight",
           "name": "unbase",
           "package": "hscolour",
@@ -2098,6 +2235,7 @@
         "index": {
           "description": "Convert three-digit numeral in the given as arg base to its integer value",
           "hierarchy": "Language Haskell HsColour ColourHighlight",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.ColourHighlight",
           "name": "unbase",
           "normalized": "a-\u003eWord-\u003eWord-\u003eWord-\u003ea",
@@ -2112,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Colourise",
           "name": "Colourise",
           "package": "hscolour",
@@ -2120,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Colourise",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Colourise",
           "name": "Colourise",
           "package": "hscolour",
@@ -2134,6 +2274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColour preferences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Colourise",
           "name": "ColourPrefs",
           "package": "hscolour",
@@ -2143,6 +2284,7 @@
         "index": {
           "description": "Colour preferences",
           "hierarchy": "Language Haskell HsColour Colourise",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Colourise",
           "name": "ColourPrefs",
           "package": "hscolour",
@@ -2204,6 +2346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert token classification to colour highlights.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Colourise",
           "name": "colourise",
           "package": "hscolour",
@@ -2214,6 +2357,7 @@
         "index": {
           "description": "Convert token classification to colour highlights",
           "hierarchy": "Language Haskell HsColour Colourise",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Colourise",
           "name": "colourise",
           "normalized": "ColourPrefs-\u003eTokenType-\u003e[Highlight]",
@@ -2324,6 +2468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Colourise",
           "name": "defaultColourPrefs",
           "package": "hscolour",
@@ -2333,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Colourise",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Colourise",
           "name": "defaultColourPrefs",
           "package": "hscolour",
@@ -2467,6 +2613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead colour preferences from .hscolour file in the current directory, or failing that,\n   from $HOME/.hscolour, and failing that, returns a default set of prefs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Colourise",
           "name": "readColourPrefs",
           "package": "hscolour",
@@ -2477,6 +2624,7 @@
         "index": {
           "description": "Read colour preferences from hscolour file in the current directory or failing that from HOME hscolour and failing that returns default set of prefs",
           "hierarchy": "Language Haskell HsColour Colourise",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Colourise",
           "name": "readColourPrefs",
           "package": "hscolour",
@@ -2610,6 +2758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.General",
           "name": "General",
           "package": "hscolour",
@@ -2618,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour General",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.General",
           "name": "General",
           "package": "hscolour",
@@ -2631,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.General",
           "name": "dropFirst",
           "package": "hscolour",
@@ -2640,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour General",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.General",
           "name": "dropFirst",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -2655,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.General",
           "name": "dropLast",
           "package": "hscolour",
@@ -2664,6 +2817,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour General",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.General",
           "name": "dropLast",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -2680,6 +2834,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFormats Haskell source code using HTML with font tags.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.HTML",
           "name": "HTML",
           "package": "hscolour",
@@ -2689,6 +2844,7 @@
         "index": {
           "description": "Formats Haskell source code using HTML with font tags",
           "hierarchy": "Language Haskell HsColour HTML",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.HTML",
           "name": "HTML",
           "package": "hscolour",
@@ -2702,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.HTML",
           "name": "escape",
           "package": "hscolour",
@@ -2711,6 +2868,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour HTML",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.HTML",
           "name": "escape",
           "normalized": "String-\u003eString",
@@ -2726,6 +2884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormats Haskell source code using HTML with font tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.HTML",
           "name": "hscolour",
           "package": "hscolour",
@@ -2735,6 +2894,7 @@
         "index": {
           "description": "Formats Haskell source code using HTML with font tags",
           "hierarchy": "Language Haskell HsColour HTML",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.HTML",
           "name": "hscolour",
           "normalized": "ColourPrefs-\u003eBool-\u003eString-\u003eString",
@@ -2749,6 +2909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.HTML",
           "name": "renderAnchors",
           "package": "hscolour",
@@ -2758,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour HTML",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.HTML",
           "name": "renderAnchors",
           "normalized": "(a-\u003eString)-\u003eEither String a-\u003eString",
@@ -2773,6 +2935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.HTML",
           "name": "renderComment",
           "package": "hscolour",
@@ -2782,6 +2945,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour HTML",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.HTML",
           "name": "renderComment",
           "normalized": "String-\u003eString",
@@ -2797,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.HTML",
           "name": "renderNewLinesAnchors",
           "package": "hscolour",
@@ -2806,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour HTML",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.HTML",
           "name": "renderNewLinesAnchors",
           "normalized": "String-\u003eString",
@@ -2821,6 +2987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.HTML",
           "name": "top'n'tail",
           "package": "hscolour",
@@ -2830,6 +2997,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour HTML",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.HTML",
           "name": "top'n'tail",
           "normalized": "String-\u003eString-\u003eString",
@@ -2845,6 +3013,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFormats Haskell source code as HTML with inline CSS.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.InlineCSS",
           "name": "InlineCSS",
           "package": "hscolour",
@@ -2854,6 +3023,7 @@
         "index": {
           "description": "Formats Haskell source code as HTML with inline CSS",
           "hierarchy": "Language Haskell HsColour InlineCSS",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.InlineCSS",
           "name": "InlineCSS",
           "package": "hscolour",
@@ -2868,6 +3038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormats Haskell source code as a complete HTML document with inline styling\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.InlineCSS",
           "name": "hscolour",
           "package": "hscolour",
@@ -2877,6 +3048,7 @@
         "index": {
           "description": "Formats Haskell source code as complete HTML document with inline styling",
           "hierarchy": "Language Haskell HsColour InlineCSS",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.InlineCSS",
           "name": "hscolour",
           "normalized": "ColourPrefs-\u003eBool-\u003eString-\u003eString",
@@ -2891,6 +3063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.InlineCSS",
           "name": "top'n'tail",
           "package": "hscolour",
@@ -2900,6 +3073,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour InlineCSS",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.InlineCSS",
           "name": "top'n'tail",
           "normalized": "String-\u003eString-\u003eString",
@@ -2915,6 +3089,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFormats Haskell source code using LaTeX macros.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.LaTeX",
           "name": "LaTeX",
           "package": "hscolour",
@@ -2924,6 +3099,7 @@
         "index": {
           "description": "Formats Haskell source code using LaTeX macros",
           "hierarchy": "Language Haskell HsColour LaTeX",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.LaTeX",
           "name": "LaTeX",
           "package": "hscolour",
@@ -2938,6 +3114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormats Haskell source code as a complete LaTeX document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.LaTeX",
           "name": "hscolour",
           "package": "hscolour",
@@ -2947,6 +3124,7 @@
         "index": {
           "description": "Formats Haskell source code as complete LaTeX document",
           "hierarchy": "Language Haskell HsColour LaTeX",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.LaTeX",
           "name": "hscolour",
           "normalized": "ColourPrefs-\u003eString-\u003eString",
@@ -2961,6 +3139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.LaTeX",
           "name": "top'n'tail",
           "package": "hscolour",
@@ -2970,6 +3149,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour LaTeX",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.LaTeX",
           "name": "top'n'tail",
           "normalized": "String-\u003eString-\u003eString",
@@ -2985,6 +3165,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFormats Haskell source code using mIRC codes.\n   (see http://irssi.org/documentation/formats)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.MIRC",
           "name": "MIRC",
           "package": "hscolour",
@@ -2994,6 +3175,7 @@
         "index": {
           "description": "Formats Haskell source code using mIRC codes see http irssi.org documentation formats",
           "hierarchy": "Language Haskell HsColour MIRC",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.MIRC",
           "name": "MIRC",
           "package": "hscolour",
@@ -3008,6 +3190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormats Haskell source code using mIRC codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.MIRC",
           "name": "hscolour",
           "package": "hscolour",
@@ -3017,6 +3200,7 @@
         "index": {
           "description": "Formats Haskell source code using mIRC codes",
           "hierarchy": "Language Haskell HsColour MIRC",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.MIRC",
           "name": "hscolour",
           "normalized": "ColourPrefs-\u003eString-\u003eString",
@@ -3031,6 +3215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Options",
           "package": "hscolour",
@@ -3039,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Options",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Options",
           "package": "hscolour",
@@ -3053,6 +3239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand-line options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Option",
           "package": "hscolour",
@@ -3062,6 +3249,7 @@
         "index": {
           "description": "Command-line options",
           "hierarchy": "Language Haskell HsColour Options",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Option",
           "package": "hscolour",
@@ -3076,6 +3264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe supported output formats.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Output",
           "package": "hscolour",
@@ -3085,6 +3274,7 @@
         "index": {
           "description": "The supported output formats",
           "hierarchy": "Language Haskell HsColour Options",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Output",
           "package": "hscolour",
@@ -3098,6 +3288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Options",
           "name": "TerminalType",
           "package": "hscolour",
@@ -3106,6 +3297,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Options",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Options",
           "name": "TerminalType",
           "package": "hscolour",
@@ -3145,6 +3337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhether to add anchors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Anchors",
           "package": "hscolour",
@@ -3155,6 +3348,7 @@
         "index": {
           "description": "whether to add anchors",
           "hierarchy": "Language Haskell HsColour Options",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Anchors",
           "package": "hscolour",
@@ -3169,6 +3363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eannotations file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Annot",
           "package": "hscolour",
@@ -3179,6 +3374,7 @@
         "index": {
           "description": "annotations file",
           "hierarchy": "Language Haskell HsColour Options",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Annot",
           "package": "hscolour",
@@ -3218,6 +3414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhat type of output to produce\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Format",
           "package": "hscolour",
@@ -3228,6 +3425,7 @@
         "index": {
           "description": "what type of output to produce",
           "hierarchy": "Language Haskell HsColour Options",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Format",
           "package": "hscolour",
@@ -3267,6 +3465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprint usage message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Help",
           "package": "hscolour",
@@ -3277,6 +3476,7 @@
         "index": {
           "description": "print usage message",
           "hierarchy": "Language Haskell HsColour Options",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Help",
           "package": "hscolour",
@@ -3316,6 +3516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereport auxiliary information, e.g. CSS defaults\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Information",
           "package": "hscolour",
@@ -3326,6 +3527,7 @@
         "index": {
           "description": "report auxiliary information e.g CSS defaults",
           "hierarchy": "Language Haskell HsColour Options",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Information",
           "package": "hscolour",
@@ -3340,6 +3542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einput source file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Input",
           "package": "hscolour",
@@ -3350,6 +3553,7 @@
         "index": {
           "description": "input source file",
           "hierarchy": "Language Haskell HsColour Options",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Input",
           "package": "hscolour",
@@ -3364,6 +3568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eliterate input (i.e. multiple embedded fragments)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Options",
           "name": "LHS",
           "package": "hscolour",
@@ -3374,6 +3579,7 @@
         "index": {
           "description": "literate input i.e multiple embedded fragments",
           "hierarchy": "Language Haskell HsColour Options",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Options",
           "name": "LHS",
           "package": "hscolour",
@@ -3438,6 +3644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoutput source file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Output",
           "package": "hscolour",
@@ -3448,6 +3655,7 @@
         "index": {
           "description": "output source file",
           "hierarchy": "Language Haskell HsColour Options",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Output",
           "package": "hscolour",
@@ -3462,6 +3670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhether to produce a full document or partial\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Partial",
           "package": "hscolour",
@@ -3472,6 +3681,7 @@
         "index": {
           "description": "whether to produce full document or partial",
           "hierarchy": "Language Haskell HsColour Options",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Partial",
           "package": "hscolour",
@@ -3536,6 +3746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereport version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Version",
           "package": "hscolour",
@@ -3546,6 +3757,7 @@
         "index": {
           "description": "report version",
           "hierarchy": "Language Haskell HsColour Options",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Options",
           "name": "Version",
           "package": "hscolour",
@@ -3559,6 +3771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Output",
           "name": "Output",
           "package": "hscolour",
@@ -3567,6 +3780,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Output",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Output",
           "name": "Output",
           "package": "hscolour",
@@ -3581,6 +3795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe supported output formats.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Output",
           "name": "Output",
           "package": "hscolour",
@@ -3590,6 +3805,7 @@
         "index": {
           "description": "The supported output formats",
           "hierarchy": "Language Haskell HsColour Output",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Output",
           "name": "Output",
           "package": "hscolour",
@@ -3603,6 +3819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.Output",
           "name": "TerminalType",
           "package": "hscolour",
@@ -3611,6 +3828,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell HsColour Output",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.Output",
           "name": "TerminalType",
           "package": "hscolour",
@@ -3625,6 +3843,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHighlights Haskell code with ANSI terminal codes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.TTY",
           "name": "TTY",
           "package": "hscolour",
@@ -3634,6 +3853,7 @@
         "index": {
           "description": "Highlights Haskell code with ANSI terminal codes",
           "hierarchy": "Language Haskell HsColour TTY",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.TTY",
           "name": "TTY",
           "package": "hscolour",
@@ -3648,6 +3868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e= \u003ccode\u003e\u003ca\u003ehscolourG\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eAnsi16Colour\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.TTY",
           "name": "hscolour",
           "package": "hscolour",
@@ -3657,6 +3878,7 @@
         "index": {
           "description": "hscolourG Ansi16Colour",
           "hierarchy": "Language Haskell HsColour TTY",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.TTY",
           "name": "hscolour",
           "normalized": "ColourPrefs-\u003eString-\u003eString",
@@ -3672,6 +3894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHighlights Haskell code with ANSI terminal codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour.TTY",
           "name": "hscolourG",
           "package": "hscolour",
@@ -3682,6 +3905,7 @@
         "index": {
           "description": "Highlights Haskell code with ANSI terminal codes",
           "hierarchy": "Language Haskell HsColour TTY",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour.TTY",
           "name": "hscolourG",
           "normalized": "TerminalType-\u003eColourPrefs-\u003eString-\u003e[Char]",
@@ -3697,6 +3921,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a library which colourises Haskell code.\n   It currently has six output formats:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e ANSI terminal codes\n\u003c/li\u003e\u003cli\u003e LaTeX macros\n\u003c/li\u003e\u003cli\u003e HTML 3.2 with font tags\n\u003c/li\u003e\u003cli\u003e HTML 4.01 with external CSS.\n\u003c/li\u003e\u003cli\u003e XHTML 1.0 with internal CSS.\n\u003c/li\u003e\u003cli\u003e mIRC chat client colour codes.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour",
           "name": "HsColour",
           "package": "hscolour",
@@ -3706,6 +3931,7 @@
         "index": {
           "description": "This is library which colourises Haskell code It currently has six output formats ANSI terminal codes LaTeX macros HTML with font tags HTML with external CSS XHTML with internal CSS mIRC chat client colour codes",
           "hierarchy": "Language Haskell HsColour",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour",
           "name": "HsColour",
           "package": "hscolour",
@@ -3720,6 +3946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColour preferences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour",
           "name": "ColourPrefs",
           "package": "hscolour",
@@ -3729,6 +3956,7 @@
         "index": {
           "description": "Colour preferences",
           "hierarchy": "Language Haskell HsColour",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour",
           "name": "ColourPrefs",
           "package": "hscolour",
@@ -3743,6 +3971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe supported output formats.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour",
           "name": "Output",
           "package": "hscolour",
@@ -3752,6 +3981,7 @@
         "index": {
           "description": "The supported output formats",
           "hierarchy": "Language Haskell HsColour",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour",
           "name": "Output",
           "package": "hscolour",
@@ -3766,6 +3996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColourise Haskell source code with the given output format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:54 UTC 2014",
           "module": "Language.Haskell.HsColour",
           "name": "hscolour",
           "package": "hscolour",
@@ -3775,6 +4006,7 @@
         "index": {
           "description": "Colourise Haskell source code with the given output format",
           "hierarchy": "Language Haskell HsColour",
+          "indexed": "2014-03-11T18:47:54",
           "module": "Language.Haskell.HsColour",
           "name": "hscolour",
           "normalized": "Output-\u003eColourPrefs-\u003eBool-\u003eBool-\u003eString-\u003eBool-\u003eString-\u003eString",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghc-core"
+        "phrase": "ghc-core",
+        "type": "phrase"
       },
       "type": "context"
     }

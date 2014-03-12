@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Monatron"
+        "phrase": "Monatron",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoInstances",
           "name": "AutoInstances",
           "package": "Monatron",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoInstances",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoInstances",
           "name": "AutoInstances",
           "package": "Monatron",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "AutoLift",
           "package": "Monatron",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "AutoLift",
           "package": "Monatron",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "ContM",
           "package": "Monatron",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "ContM",
           "package": "Monatron",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "ExcM",
           "package": "Monatron",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "ExcM",
           "package": "Monatron",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "ListM",
           "package": "Monatron",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "ListM",
           "package": "Monatron",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "ReaderM",
           "package": "Monatron",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "ReaderM",
           "package": "Monatron",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "StateM",
           "package": "Monatron",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "StateM",
           "package": "Monatron",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "WriterM",
           "package": "Monatron",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "WriterM",
           "package": "Monatron",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "ask",
           "package": "Monatron",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "ask",
           "package": "Monatron",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "callCC",
           "package": "Monatron",
@@ -216,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "callCC",
           "normalized": "((a-\u003eb)-\u003ea)-\u003ec a",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "contModel",
           "package": "Monatron",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "contModel",
           "package": "Monatron",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "get",
           "package": "Monatron",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "get",
           "package": "Monatron",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "handle",
           "package": "Monatron",
@@ -283,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "handle",
           "normalized": "a b-\u003e(c-\u003ea b)-\u003ea b",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "handleModel",
           "package": "Monatron",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "handleModel",
           "package": "Monatron",
@@ -319,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "listModel",
           "package": "Monatron",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "listModel",
           "package": "Monatron",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "local",
           "package": "Monatron",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "local",
           "normalized": "(a-\u003ea)-\u003eb c-\u003eb c",
@@ -364,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "mPlus",
           "package": "Monatron",
@@ -373,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "mPlus",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "mZero",
           "package": "Monatron",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "mZero",
           "package": "Monatron",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "put",
           "package": "Monatron",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "put",
           "normalized": "a-\u003eb()",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "readerModel",
           "package": "Monatron",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "readerModel",
           "package": "Monatron",
@@ -455,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "stateModel",
           "package": "Monatron",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "stateModel",
           "package": "Monatron",
@@ -477,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "tell",
           "package": "Monatron",
@@ -486,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "tell",
           "normalized": "a-\u003eb()",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "throw",
           "package": "Monatron",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "throw",
           "normalized": "a-\u003eb c",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "throwModel",
           "package": "Monatron",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "throwModel",
           "package": "Monatron",
@@ -545,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.AutoLift",
           "name": "writerModel",
           "package": "Monatron",
@@ -554,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron AutoLift",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.AutoLift",
           "name": "writerModel",
           "package": "Monatron",
@@ -567,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Codensity",
           "name": "Codensity",
           "package": "Monatron",
@@ -575,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Codensity",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Codensity",
           "name": "Codensity",
           "package": "Monatron",
@@ -588,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Codensity",
           "name": "Codensity",
           "package": "Monatron",
@@ -596,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Codensity",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Codensity",
           "name": "Codensity",
           "package": "Monatron",
@@ -609,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Codensity",
           "name": "codensity",
           "package": "Monatron",
@@ -618,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Codensity",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Codensity",
           "name": "codensity",
           "normalized": "(a b(c-\u003ed e)-\u003ed e)-\u003eCodensity d c",
@@ -632,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Codensity",
           "name": "runCodensity",
           "package": "Monatron",
@@ -641,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Codensity",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Codensity",
           "name": "runCodensity",
           "normalized": "Codensity a b-\u003ea b",
@@ -656,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.IdT",
           "name": "IdT",
           "package": "Monatron",
@@ -664,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron IdT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.IdT",
           "name": "IdT",
           "package": "Monatron",
@@ -677,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.IdT",
           "name": "IdT",
           "package": "Monatron",
@@ -685,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron IdT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.IdT",
           "name": "IdT",
           "package": "Monatron",
@@ -698,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.IdT",
           "name": "IdT",
           "package": "Monatron",
@@ -707,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron IdT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.IdT",
           "name": "IdT",
           "package": "Monatron",
@@ -720,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.IdT",
           "name": "runIdT",
           "package": "Monatron",
@@ -729,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron IdT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.IdT",
           "name": "runIdT",
           "package": "Monatron",
@@ -742,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "Monad",
           "package": "Monatron",
@@ -750,6 +817,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "Monad",
           "package": "Monatron",
@@ -763,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "Cont",
           "package": "Monatron",
@@ -771,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "Cont",
           "package": "Monatron",
@@ -784,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "Exception",
           "package": "Monatron",
@@ -792,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "Exception",
           "package": "Monatron",
@@ -805,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "Id",
           "package": "Monatron",
@@ -813,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "Id",
           "package": "Monatron",
@@ -826,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "Lift",
           "package": "Monatron",
@@ -834,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "Lift",
           "package": "Monatron",
@@ -847,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "Reader",
           "package": "Monatron",
@@ -855,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "Reader",
           "package": "Monatron",
@@ -868,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "State",
           "package": "Monatron",
@@ -876,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "State",
           "package": "Monatron",
@@ -889,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "Writer",
           "package": "Monatron",
@@ -897,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "Writer",
           "package": "Monatron",
@@ -910,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "Id",
           "package": "Monatron",
@@ -919,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "Id",
           "package": "Monatron",
@@ -932,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "L",
           "package": "Monatron",
@@ -941,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "L",
           "package": "Monatron",
@@ -953,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "cont",
           "package": "Monatron",
@@ -962,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "cont",
           "normalized": "((a-\u003eb)-\u003eb)-\u003eCont b a",
@@ -976,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "exception",
           "package": "Monatron",
@@ -985,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "exception",
           "normalized": "Either a b-\u003eException a b",
@@ -999,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "reader",
           "package": "Monatron",
@@ -1008,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "reader",
           "normalized": "(a-\u003eb)-\u003eReader a b",
@@ -1022,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "runCont",
           "package": "Monatron",
@@ -1031,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "runCont",
           "normalized": "(a-\u003eb)-\u003eCont b a-\u003eb",
@@ -1046,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "runException",
           "package": "Monatron",
@@ -1055,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "runException",
           "normalized": "Exception a b-\u003eEither a b",
@@ -1070,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "runId",
           "package": "Monatron",
@@ -1079,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "runId",
           "package": "Monatron",
@@ -1092,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "runLift",
           "package": "Monatron",
@@ -1101,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "runLift",
           "package": "Monatron",
@@ -1114,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "runReader",
           "package": "Monatron",
@@ -1123,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "runReader",
           "normalized": "a-\u003eReader a b-\u003eb",
@@ -1138,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "runState",
           "package": "Monatron",
@@ -1147,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "runState",
           "normalized": "a-\u003eState a b-\u003e(b,a)",
@@ -1162,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "runWriter",
           "package": "Monatron",
@@ -1171,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "runWriter",
           "normalized": "Writer a b-\u003e(b,a)",
@@ -1186,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "state",
           "package": "Monatron",
@@ -1195,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "state",
           "normalized": "(a-\u003e(b,a))-\u003eState a b",
@@ -1209,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monad",
           "name": "writer",
           "package": "Monatron",
@@ -1218,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monad",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monad",
           "name": "writer",
           "normalized": "(a,b)-\u003eWriter b a",
@@ -1232,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.MonadT",
           "name": "MonadT",
           "package": "Monatron",
@@ -1240,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron MonadT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.MonadT",
           "name": "MonadT",
           "package": "Monatron",
@@ -1253,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.MonadT",
           "name": "FComp",
           "package": "Monatron",
@@ -1261,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron MonadT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.MonadT",
           "name": "FComp",
           "package": "Monatron",
@@ -1274,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.MonadT",
           "name": "FMonadT",
           "package": "Monatron",
@@ -1282,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron MonadT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.MonadT",
           "name": "FMonadT",
           "package": "Monatron",
@@ -1295,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.MonadT",
           "name": "FunctorD",
           "package": "Monatron",
@@ -1303,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron MonadT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.MonadT",
           "name": "FunctorD",
           "package": "Monatron",
@@ -1316,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.MonadT",
           "name": "MMonadT",
           "package": "Monatron",
@@ -1324,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron MonadT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.MonadT",
           "name": "MMonadT",
           "package": "Monatron",
@@ -1337,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.MonadT",
           "name": "MonadT",
           "package": "Monatron",
@@ -1345,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron MonadT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.MonadT",
           "name": "MonadT",
           "package": "Monatron",
@@ -1358,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.MonadT",
           "name": "Comp",
           "package": "Monatron",
@@ -1367,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron MonadT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.MonadT",
           "name": "Comp",
           "package": "Monatron",
@@ -1380,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.MonadT",
           "name": "FunctorD",
           "package": "Monatron",
@@ -1389,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron MonadT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.MonadT",
           "name": "FunctorD",
           "package": "Monatron",
@@ -1402,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.MonadT",
           "name": "deComp",
           "package": "Monatron",
@@ -1411,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron MonadT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.MonadT",
           "name": "deComp",
           "package": "Monatron",
@@ -1424,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.MonadT",
           "name": "flift",
           "package": "Monatron",
@@ -1433,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron MonadT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.MonadT",
           "name": "flift",
           "normalized": "a b-\u003ec a b",
@@ -1447,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.MonadT",
           "name": "fmapD",
           "package": "Monatron",
@@ -1456,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron MonadT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.MonadT",
           "name": "fmapD",
           "normalized": "a b c(b-\u003ed)-\u003ee b-\u003ee d",
@@ -1470,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.MonadT",
           "name": "lift",
           "package": "Monatron",
@@ -1479,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron MonadT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.MonadT",
           "name": "lift",
           "normalized": "a b-\u003ec a b",
@@ -1493,6 +1627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.MonadT",
           "name": "monoidalT",
           "package": "Monatron",
@@ -1502,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron MonadT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.MonadT",
           "name": "monoidalT",
           "normalized": "a b(a c d)-\u003ea(FComp b c)d",
@@ -1516,6 +1652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.MonadT",
           "name": "mtmap",
           "package": "Monatron",
@@ -1525,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron MonadT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.MonadT",
           "name": "mtmap",
           "normalized": "FunctorD a-\u003e(b-\u003ec)-\u003ed a b-\u003ed a c",
@@ -1539,6 +1677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.MonadT",
           "name": "tbind",
           "package": "Monatron",
@@ -1548,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron MonadT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.MonadT",
           "name": "tbind",
           "normalized": "a b c-\u003e(c-\u003ea b d)-\u003ea b d",
@@ -1562,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.MonadT",
           "name": "tmap",
           "package": "Monatron",
@@ -1571,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron MonadT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.MonadT",
           "name": "tmap",
           "normalized": "(a b c d-\u003ee d)-\u003ef c g-\u003ef e g",
@@ -1585,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.MonadT",
           "name": "tmap'",
           "package": "Monatron",
@@ -1594,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron MonadT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.MonadT",
           "name": "tmap'",
           "normalized": "FunctorD a-\u003eFunctorD b-\u003e(c-\u003ed)-\u003e(e f a g-\u003eb g)-\u003eh a c-\u003eh b d",
@@ -1608,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.MonadT",
           "name": "treturn",
           "package": "Monatron",
@@ -1617,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron MonadT",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.MonadT",
           "name": "treturn",
           "normalized": "a-\u003eb c a",
@@ -1631,6 +1777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monatron",
           "name": "Monatron",
           "package": "Monatron",
@@ -1639,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monatron",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monatron",
           "name": "Monatron",
           "package": "Monatron",
@@ -1652,6 +1800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Monatron",
           "name": "version",
           "package": "Monatron",
@@ -1661,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Monatron",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Monatron",
           "name": "version",
           "normalized": "(Int,Int,Int)",
@@ -1675,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Open",
           "name": "Open",
           "package": "Monatron",
@@ -1683,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Open",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Open",
           "name": "Open",
           "package": "Monatron",
@@ -1696,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Open",
           "name": ":+:",
           "package": "Monatron",
@@ -1704,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Open",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Open",
           "name": ":+:",
           "package": "Monatron",
@@ -1716,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Open",
           "name": ":\u003c:",
           "package": "Monatron",
@@ -1724,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Open",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Open",
           "name": ":\u003c:",
           "package": "Monatron",
@@ -1736,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Open",
           "name": "Fix",
           "package": "Monatron",
@@ -1744,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Open",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Open",
           "name": "Fix",
           "package": "Monatron",
@@ -1757,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Open",
           "name": "Open",
           "package": "Monatron",
@@ -1765,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Open",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Open",
           "name": "Open",
           "package": "Monatron",
@@ -1778,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Open",
           "name": "(\u003c@\u003e)",
           "package": "Monatron",
@@ -1787,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Open",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Open",
           "name": "(\u003c@\u003e) \u003c@\u003e",
           "normalized": "Open a b c-\u003eOpen a d c-\u003eOpen a(b d)c",
@@ -1801,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Open",
           "name": "In",
           "package": "Monatron",
@@ -1810,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Open",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Open",
           "name": "In",
           "package": "Monatron",
@@ -1823,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Open",
           "name": "Inl",
           "package": "Monatron",
@@ -1832,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Open",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Open",
           "name": "Inl",
           "package": "Monatron",
@@ -1845,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Open",
           "name": "Inr",
           "package": "Monatron",
@@ -1854,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Open",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Open",
           "name": "Inr",
           "package": "Monatron",
@@ -1867,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Open",
           "name": "fix",
           "package": "Monatron",
@@ -1876,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Open",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Open",
           "name": "fix",
           "normalized": "Open(Fix a)a b-\u003eFix a-\u003eb",
@@ -1890,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Open",
           "name": "foldFix",
           "package": "Monatron",
@@ -1899,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Open",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Open",
           "name": "foldFix",
           "normalized": "(a b-\u003eb)-\u003eFix a-\u003eb",
@@ -1914,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Open",
           "name": "inj",
           "package": "Monatron",
@@ -1923,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Open",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Open",
           "name": "inj",
           "normalized": "a b-\u003ec b",
@@ -1937,6 +2111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Open",
           "name": "inject",
           "package": "Monatron",
@@ -1946,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Open",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Open",
           "name": "inject",
           "normalized": "a(Fix b)-\u003eFix b",
@@ -1960,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Open",
           "name": "out",
           "package": "Monatron",
@@ -1969,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Open",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Open",
           "name": "out",
           "package": "Monatron",
@@ -1981,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "Operations",
           "package": "Monatron",
@@ -1989,6 +2168,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "Operations",
           "package": "Monatron",
@@ -2002,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "AlgModel",
           "package": "Monatron",
@@ -2010,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "AlgModel",
           "package": "Monatron",
@@ -2023,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "ContOp",
           "package": "Monatron",
@@ -2031,6 +2214,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "ContOp",
           "package": "Monatron",
@@ -2044,6 +2228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "ExtModel",
           "package": "Monatron",
@@ -2052,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "ExtModel",
           "package": "Monatron",
@@ -2065,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "HandleOp",
           "package": "Monatron",
@@ -2073,6 +2260,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "HandleOp",
           "package": "Monatron",
@@ -2086,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "ListOp",
           "package": "Monatron",
@@ -2094,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "ListOp",
           "package": "Monatron",
@@ -2107,6 +2297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "Model",
           "package": "Monatron",
@@ -2115,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "Model",
           "package": "Monatron",
@@ -2128,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "ReaderOp",
           "package": "Monatron",
@@ -2136,6 +2329,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "ReaderOp",
           "package": "Monatron",
@@ -2149,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "StateOp",
           "package": "Monatron",
@@ -2157,6 +2352,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "StateOp",
           "package": "Monatron",
@@ -2170,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "StepOp",
           "package": "Monatron",
@@ -2178,6 +2375,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "StepOp",
           "package": "Monatron",
@@ -2191,6 +2389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "ThrowOp",
           "package": "Monatron",
@@ -2199,6 +2398,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "ThrowOp",
           "package": "Monatron",
@@ -2212,6 +2412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "WriterOp",
           "package": "Monatron",
@@ -2220,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "WriterOp",
           "package": "Monatron",
@@ -2233,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "Abort",
           "package": "Monatron",
@@ -2242,6 +2445,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "Abort",
           "package": "Monatron",
@@ -2255,6 +2459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "Ask",
           "package": "Monatron",
@@ -2264,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "Ask",
           "normalized": "Ask(a-\u003eb)",
@@ -2279,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "CallCC",
           "package": "Monatron",
@@ -2288,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "CallCC",
           "normalized": "CallCC((a-\u003eb)-\u003ea)",
@@ -2303,6 +2511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "Get",
           "package": "Monatron",
@@ -2312,6 +2521,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "Get",
           "normalized": "Get(a-\u003eb)",
@@ -2327,6 +2537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "Handle",
           "package": "Monatron",
@@ -2336,6 +2547,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "Handle",
           "normalized": "Handle a(b-\u003ea)",
@@ -2351,6 +2563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "InEnv",
           "package": "Monatron",
@@ -2360,6 +2573,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "InEnv",
           "package": "Monatron",
@@ -2373,6 +2587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "PlusList",
           "package": "Monatron",
@@ -2382,6 +2597,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "PlusList",
           "package": "Monatron",
@@ -2395,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "Put",
           "package": "Monatron",
@@ -2404,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "Put",
           "package": "Monatron",
@@ -2417,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "StepOp",
           "package": "Monatron",
@@ -2426,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "StepOp",
           "package": "Monatron",
@@ -2439,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "Throw",
           "package": "Monatron",
@@ -2448,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "Throw",
           "package": "Monatron",
@@ -2461,6 +2683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "Trace",
           "package": "Monatron",
@@ -2470,6 +2693,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "Trace",
           "package": "Monatron",
@@ -2483,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "ZeroList",
           "package": "Monatron",
@@ -2492,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "ZeroList",
           "package": "Monatron",
@@ -2505,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "abortX",
           "package": "Monatron",
@@ -2514,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "abortX",
           "normalized": "AlgModel(ContOp a)b-\u003ea-\u003eb c",
@@ -2528,6 +2756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "askX",
           "package": "Monatron",
@@ -2537,6 +2766,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "askX",
           "normalized": "Model(ReaderOp a)b-\u003eb a",
@@ -2551,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "callCCX",
           "package": "Monatron",
@@ -2560,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "callCCX",
           "normalized": "AlgModel(ContOp a)b-\u003e((c-\u003ea)-\u003ec)-\u003eb c",
@@ -2575,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "callccX",
           "package": "Monatron",
@@ -2584,6 +2817,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "callccX",
           "normalized": "AlgModel(ContOp a)b-\u003e((c-\u003eb d)-\u003eb c)-\u003eb c",
@@ -2598,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "getX",
           "package": "Monatron",
@@ -2607,6 +2842,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "getX",
           "normalized": "AlgModel(StateOp a)b-\u003eb a",
@@ -2621,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "handleX",
           "package": "Monatron",
@@ -2630,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "handleX",
           "normalized": "Model(HandleOp a)b-\u003eb c-\u003e(a-\u003eb c)-\u003eb c",
@@ -2644,6 +2882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "inEnvX",
           "package": "Monatron",
@@ -2653,6 +2892,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "inEnvX",
           "normalized": "Model(ReaderOp a)b-\u003ea-\u003eb c-\u003eb c",
@@ -2668,6 +2908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "liftAlgModel",
           "package": "Monatron",
@@ -2677,6 +2918,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "liftAlgModel",
           "normalized": "AlgModel a b-\u003eAlgModel a(c b)",
@@ -2692,6 +2934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "liftExtModel",
           "package": "Monatron",
@@ -2701,6 +2944,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "liftExtModel",
           "normalized": "ExtModel a b c-\u003eExtModel a b(d c)",
@@ -2716,6 +2960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "liftModel",
           "package": "Monatron",
@@ -2725,6 +2970,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "liftModel",
           "normalized": "Model a b-\u003eModel a(c b)",
@@ -2740,6 +2986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "localX",
           "package": "Monatron",
@@ -2749,6 +2996,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "localX",
           "normalized": "Model(ReaderOp a)b-\u003e(a-\u003ea)-\u003eb c-\u003eb c",
@@ -2763,6 +3011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "modelContT",
           "package": "Monatron",
@@ -2772,6 +3021,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "modelContT",
           "package": "Monatron",
@@ -2785,6 +3035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "modelHandleExcT",
           "package": "Monatron",
@@ -2794,6 +3045,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "modelHandleExcT",
           "package": "Monatron",
@@ -2807,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "modelHandleIO",
           "package": "Monatron",
@@ -2816,6 +3069,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "modelHandleIO",
           "package": "Monatron",
@@ -2829,6 +3083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "modelListT",
           "package": "Monatron",
@@ -2838,6 +3093,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "modelListT",
           "package": "Monatron",
@@ -2851,6 +3107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "modelReaderT",
           "package": "Monatron",
@@ -2860,6 +3117,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "modelReaderT",
           "package": "Monatron",
@@ -2873,6 +3131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "modelStateT",
           "package": "Monatron",
@@ -2882,6 +3141,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "modelStateT",
           "package": "Monatron",
@@ -2895,6 +3155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "modelStepT",
           "package": "Monatron",
@@ -2904,6 +3165,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "modelStepT",
           "package": "Monatron",
@@ -2917,6 +3179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "modelThrowExcT",
           "package": "Monatron",
@@ -2926,6 +3189,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "modelThrowExcT",
           "package": "Monatron",
@@ -2939,6 +3203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "modelThrowIO",
           "package": "Monatron",
@@ -2948,6 +3213,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "modelThrowIO",
           "package": "Monatron",
@@ -2961,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "modelWriterT",
           "package": "Monatron",
@@ -2970,6 +3237,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "modelWriterT",
           "package": "Monatron",
@@ -2983,6 +3251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "plusListX",
           "package": "Monatron",
@@ -2992,6 +3261,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "plusListX",
           "normalized": "AlgModel ListOp a-\u003ea b-\u003ea b-\u003ea b",
@@ -3007,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "putX",
           "package": "Monatron",
@@ -3016,6 +3287,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "putX",
           "normalized": "AlgModel(StateOp a)b-\u003ea-\u003eb()",
@@ -3030,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "stepX",
           "package": "Monatron",
@@ -3039,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "stepX",
           "normalized": "Model(StepOp a)b-\u003ea(b c)-\u003eb c",
@@ -3053,6 +3327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "throwX",
           "package": "Monatron",
@@ -3062,6 +3337,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "throwX",
           "normalized": "AlgModel(ThrowOp a)b-\u003ea-\u003eb c",
@@ -3076,6 +3352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "toAlg",
           "package": "Monatron",
@@ -3085,6 +3362,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "toAlg",
           "normalized": "Model a b-\u003eAlgModel a(Codensity b)",
@@ -3100,6 +3378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "traceX",
           "package": "Monatron",
@@ -3109,6 +3388,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "traceX",
           "normalized": "AlgModel(WriterOp a)b-\u003ea-\u003eb()",
@@ -3123,6 +3403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Operations",
           "name": "zeroListX",
           "package": "Monatron",
@@ -3132,6 +3413,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Operations",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Operations",
           "name": "zeroListX",
           "normalized": "AlgModel ListOp a-\u003ea b",
@@ -3147,6 +3429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "Transformer",
           "package": "Monatron",
@@ -3155,6 +3438,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "Transformer",
           "package": "Monatron",
@@ -3168,6 +3452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "ContT",
           "package": "Monatron",
@@ -3176,6 +3461,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "ContT",
           "package": "Monatron",
@@ -3189,6 +3475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "ExcT",
           "package": "Monatron",
@@ -3197,6 +3484,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "ExcT",
           "package": "Monatron",
@@ -3210,6 +3498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "ListT",
           "package": "Monatron",
@@ -3218,6 +3507,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "ListT",
           "package": "Monatron",
@@ -3231,6 +3521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "ReaderT",
           "package": "Monatron",
@@ -3239,6 +3530,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "ReaderT",
           "package": "Monatron",
@@ -3252,6 +3544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "StateT",
           "package": "Monatron",
@@ -3260,6 +3553,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "StateT",
           "package": "Monatron",
@@ -3273,6 +3567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "StepT",
           "package": "Monatron",
@@ -3281,6 +3576,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "StepT",
           "package": "Monatron",
@@ -3294,6 +3590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "WriterT",
           "package": "Monatron",
@@ -3302,6 +3599,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "WriterT",
           "package": "Monatron",
@@ -3315,6 +3613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "appendL",
           "package": "Monatron",
@@ -3324,6 +3623,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "appendL",
           "normalized": "ListT a b-\u003eListT a b-\u003eListT a b",
@@ -3338,6 +3638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "caseStepT",
           "package": "Monatron",
@@ -3347,6 +3648,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "caseStepT",
           "normalized": "(a-\u003eStepT b c d)-\u003e(b(StepT b c a)-\u003eStepT b c d)-\u003eStepT b c a-\u003eStepT b c d",
@@ -3362,6 +3664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "collectListT",
           "package": "Monatron",
@@ -3371,6 +3674,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "collectListT",
           "normalized": "ListT a b-\u003ea[b]",
@@ -3386,6 +3690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "contT",
           "package": "Monatron",
@@ -3395,6 +3700,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "contT",
           "normalized": "((a-\u003eb c)-\u003eb c)-\u003eContT c b a",
@@ -3409,6 +3715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "emptyL",
           "package": "Monatron",
@@ -3418,6 +3725,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "emptyL",
           "package": "Monatron",
@@ -3430,6 +3738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "excT",
           "package": "Monatron",
@@ -3439,6 +3748,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "excT",
           "normalized": "a(Either b c)-\u003eExcT b a c",
@@ -3453,6 +3763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "foldListT",
           "package": "Monatron",
@@ -3462,6 +3773,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "foldListT",
           "normalized": "(a-\u003eb c-\u003eb c)-\u003eb c-\u003eListT b a-\u003eb c",
@@ -3477,6 +3789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "listT",
           "package": "Monatron",
@@ -3486,6 +3799,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "listT",
           "normalized": "a(LSig(ListT a)b())-\u003eListT a b",
@@ -3500,6 +3814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "readerT",
           "package": "Monatron",
@@ -3509,6 +3824,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "readerT",
           "normalized": "(a-\u003eb c)-\u003eReaderT a b c",
@@ -3523,6 +3839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "runContT",
           "package": "Monatron",
@@ -3532,6 +3849,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "runContT",
           "normalized": "(a-\u003eb c)-\u003eContT c b a-\u003eb c",
@@ -3547,6 +3865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "runExcT",
           "package": "Monatron",
@@ -3556,6 +3875,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "runExcT",
           "normalized": "ExcT a b c-\u003eb(Either a c)",
@@ -3571,6 +3891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "runListT",
           "package": "Monatron",
@@ -3580,6 +3901,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "runListT",
           "normalized": "ListT a b-\u003ea(LSig(ListT a)b())",
@@ -3595,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "runReaderT",
           "package": "Monatron",
@@ -3604,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "runReaderT",
           "normalized": "a-\u003eReaderT a b c-\u003eb c",
@@ -3619,6 +3943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "runStateT",
           "package": "Monatron",
@@ -3628,6 +3953,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "runStateT",
           "normalized": "a-\u003eStateT a b c-\u003eb(c,a)",
@@ -3643,6 +3969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "runStepT",
           "package": "Monatron",
@@ -3652,6 +3979,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "runStepT",
           "normalized": "StepT a b c-\u003eb(Either c(a(StepT a b c)))",
@@ -3667,6 +3995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "runWriterT",
           "package": "Monatron",
@@ -3676,6 +4005,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "runWriterT",
           "normalized": "WriterT a b c-\u003eb(c,a)",
@@ -3691,6 +4021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "stateT",
           "package": "Monatron",
@@ -3700,6 +4031,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "stateT",
           "normalized": "(a-\u003eb(c,a))-\u003eStateT a b c",
@@ -3714,6 +4046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "stepT",
           "package": "Monatron",
@@ -3723,6 +4056,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "stepT",
           "normalized": "a(Either b(c(StepT c a b)))-\u003eStepT c a b",
@@ -3737,6 +4071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "unfoldStepT",
           "package": "Monatron",
@@ -3746,6 +4081,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "unfoldStepT",
           "normalized": "(a-\u003eb(Either c(d a)))-\u003ea-\u003eStepT d b c",
@@ -3761,6 +4097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Transformer",
           "name": "writerT",
           "package": "Monatron",
@@ -3770,6 +4107,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Transformer",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Transformer",
           "name": "writerT",
           "normalized": "a(b,c)-\u003eWriterT c a b",
@@ -3784,6 +4122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": "Zipper",
           "package": "Monatron",
@@ -3792,6 +4131,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": "Zipper",
           "package": "Monatron",
@@ -3805,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": ":\u003e",
           "package": "Monatron",
@@ -3813,6 +4154,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": ":\u003e",
           "package": "Monatron",
@@ -3825,6 +4167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": ":\u003e\u003c:",
           "package": "Monatron",
@@ -3833,6 +4176,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": ":\u003e\u003c:",
           "package": "Monatron",
@@ -3845,6 +4189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": "L",
           "package": "Monatron",
@@ -3854,6 +4199,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": "L",
           "package": "Monatron",
@@ -3866,6 +4212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": "View",
           "package": "Monatron",
@@ -3875,6 +4222,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": "View",
           "package": "Monatron",
@@ -3888,6 +4236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": "from",
           "package": "Monatron",
@@ -3897,6 +4246,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": "from",
           "normalized": "a b c d-\u003ee d",
@@ -3911,6 +4261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": "getv",
           "package": "Monatron",
@@ -3920,6 +4271,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": "getv",
           "normalized": "(a b)-\u003ea c",
@@ -3934,6 +4286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": "hcomp",
           "package": "Monatron",
@@ -3943,6 +4296,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": "hcomp",
           "normalized": "(a b)-\u003e(c a)-\u003ec b",
@@ -3957,6 +4311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": "i",
           "package": "Monatron",
@@ -3966,6 +4321,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": "i",
           "package": "Monatron",
@@ -3979,6 +4335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshift focus to left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": "leftL",
           "package": "Monatron",
@@ -3989,6 +4346,7 @@
         "index": {
           "description": "shift focus to left",
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": "leftL",
           "normalized": "(a a)b c-\u003ea(a b)c",
@@ -4003,6 +4361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": "o",
           "package": "Monatron",
@@ -4012,6 +4371,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": "o",
           "package": "Monatron",
@@ -4024,6 +4384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": "putv",
           "package": "Monatron",
@@ -4033,6 +4394,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": "putv",
           "normalized": "(a b)-\u003ec-\u003ea()",
@@ -4047,6 +4409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": "r",
           "package": "Monatron",
@@ -4056,6 +4419,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": "r",
           "package": "Monatron",
@@ -4069,6 +4433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshift focus to right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": "rightL",
           "package": "Monatron",
@@ -4079,6 +4444,7 @@
         "index": {
           "description": "shift focus to right",
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": "rightL",
           "normalized": "a(a b)c-\u003e(a a)b c",
@@ -4093,6 +4459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": "runL",
           "package": "Monatron",
@@ -4102,6 +4469,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": "runL",
           "package": "Monatron",
@@ -4114,6 +4482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": "runZipper",
           "package": "Monatron",
@@ -4123,6 +4492,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": "runZipper",
           "normalized": "(a a)b c-\u003ea(a b)c",
@@ -4138,6 +4508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": "stateIso",
           "package": "Monatron",
@@ -4147,6 +4518,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": "stateIso",
           "normalized": "(a-\u003ea)-\u003e(a-\u003ea)-\u003eStateT a b StateT a b",
@@ -4162,6 +4534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": "to",
           "package": "Monatron",
@@ -4171,6 +4544,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": "to",
           "normalized": "a b c d-\u003ee d",
@@ -4185,6 +4559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": "vcomp",
           "package": "Monatron",
@@ -4194,6 +4569,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": "vcomp",
           "normalized": "(a b b)-\u003e(b b)-\u003ea b b",
@@ -4208,6 +4584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": "vlift",
           "package": "Monatron",
@@ -4217,6 +4594,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": "vlift",
           "normalized": "(a b)-\u003ec a c b",
@@ -4231,6 +4609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.Zipper",
           "name": "zipper",
           "package": "Monatron",
@@ -4240,6 +4619,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron Zipper",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.Zipper",
           "name": "zipper",
           "normalized": "a(a b)c-\u003e(a a)b c",
@@ -4254,6 +4634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "ZipperExamples",
           "package": "Monatron",
@@ -4262,6 +4643,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "ZipperExamples",
           "package": "Monatron",
@@ -4275,6 +4657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Add",
           "package": "Monatron",
@@ -4283,6 +4666,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Add",
           "package": "Monatron",
@@ -4296,6 +4680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Count",
           "package": "Monatron",
@@ -4304,6 +4689,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Count",
           "package": "Monatron",
@@ -4317,6 +4703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Env",
           "package": "Monatron",
@@ -4325,6 +4712,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Env",
           "package": "Monatron",
@@ -4338,6 +4726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Expr3",
           "package": "Monatron",
@@ -4346,6 +4735,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Expr3",
           "package": "Monatron",
@@ -4359,6 +4749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Lit",
           "package": "Monatron",
@@ -4367,6 +4758,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Lit",
           "package": "Monatron",
@@ -4380,6 +4772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "M4",
           "package": "Monatron",
@@ -4388,6 +4781,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "M4",
           "package": "Monatron",
@@ -4400,6 +4794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Mem",
           "package": "Monatron",
@@ -4408,6 +4803,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Mem",
           "package": "Monatron",
@@ -4421,6 +4817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Reg",
           "package": "Monatron",
@@ -4429,6 +4826,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Reg",
           "package": "Monatron",
@@ -4442,6 +4840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Var",
           "package": "Monatron",
@@ -4450,6 +4849,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Var",
           "package": "Monatron",
@@ -4463,6 +4863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Add",
           "package": "Monatron",
@@ -4472,6 +4873,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Add",
           "package": "Monatron",
@@ -4485,6 +4887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Lit",
           "package": "Monatron",
@@ -4494,6 +4897,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Lit",
           "package": "Monatron",
@@ -4507,6 +4911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Retrieve",
           "package": "Monatron",
@@ -4516,6 +4921,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Retrieve",
           "package": "Monatron",
@@ -4529,6 +4935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Store",
           "package": "Monatron",
@@ -4538,6 +4945,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Store",
           "package": "Monatron",
@@ -4551,6 +4959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Var",
           "package": "Monatron",
@@ -4560,6 +4969,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "Var",
           "package": "Monatron",
@@ -4573,6 +4983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "add",
           "package": "Monatron",
@@ -4582,6 +4993,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "add",
           "normalized": "Fix a-\u003eFix a-\u003eFix a",
@@ -4596,6 +5008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "eval4",
           "package": "Monatron",
@@ -4605,6 +5018,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "eval4",
           "normalized": "Expr-\u003eM Int",
@@ -4619,6 +5033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "evalMem2",
           "package": "Monatron",
@@ -4628,6 +5043,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "evalMem2",
           "package": "Monatron",
@@ -4641,6 +5057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "fmask",
           "package": "Monatron",
@@ -4650,6 +5067,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "fmask",
           "normalized": "(a b)-\u003eOpen c d(b e)-\u003eOpen c d(a e)",
@@ -4664,6 +5082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "handleExc",
           "package": "Monatron",
@@ -4673,6 +5092,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "handleExc",
           "normalized": "ExcT a b c-\u003eb c",
@@ -4688,6 +5108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "lit",
           "package": "Monatron",
@@ -4697,6 +5118,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "lit",
           "normalized": "Int-\u003eFix a",
@@ -4711,6 +5133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "retrieve",
           "package": "Monatron",
@@ -4720,6 +5143,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "retrieve",
           "package": "Monatron",
@@ -4732,6 +5156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "store",
           "package": "Monatron",
@@ -4741,6 +5166,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "store",
           "normalized": "Fix a-\u003eFix a",
@@ -4755,6 +5181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:30 UTC 2014",
           "module": "Control.Monatron.ZipperExamples",
           "name": "var",
           "package": "Monatron",
@@ -4764,6 +5191,7 @@
         },
         "index": {
           "hierarchy": "Control Monatron ZipperExamples",
+          "indexed": "2014-03-11T16:53:30",
           "module": "Control.Monatron.ZipperExamples",
           "name": "var",
           "normalized": "String-\u003eFix a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hakyll-convert"
+        "phrase": "hakyll-convert",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Blogger",
           "name": "Blogger",
           "package": "hakyll-convert",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Convert Blogger",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Blogger",
           "name": "Blogger",
           "package": "hakyll-convert",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA post and its comments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Blogger",
           "name": "FullPost",
           "package": "hakyll-convert",
@@ -49,6 +52,7 @@
         "index": {
           "description": "post and its comments",
           "hierarchy": "Hakyll Convert Blogger",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Blogger",
           "name": "FullPost",
           "package": "hakyll-convert",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Blogger",
           "name": "FullPost",
           "package": "hakyll-convert",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Convert Blogger",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Blogger",
           "name": "FullPost",
           "package": "hakyll-convert",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Blogger",
           "name": "distill",
           "package": "hakyll-convert",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Convert Blogger",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Blogger",
           "name": "distill",
           "normalized": "FullPost-\u003eDistilledPost",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Blogger",
           "name": "fpComments",
           "package": "hakyll-convert",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Convert Blogger",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Blogger",
           "name": "fpComments",
           "normalized": "[Entry]",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Blogger",
           "name": "fpPost",
           "package": "hakyll-convert",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Convert Blogger",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Blogger",
           "name": "fpPost",
           "package": "hakyll-convert",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Blogger",
           "name": "fpUri",
           "package": "hakyll-convert",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Convert Blogger",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Blogger",
           "name": "fpUri",
           "package": "hakyll-convert",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns only published posts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Blogger",
           "name": "readPosts",
           "package": "hakyll-convert",
@@ -186,6 +201,7 @@
         "index": {
           "description": "Returns only published posts",
           "hierarchy": "Hakyll Convert Blogger",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Blogger",
           "name": "readPosts",
           "normalized": "FilePath-\u003eIO(Maybe[FullPost])",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Common",
           "name": "Common",
           "package": "hakyll-convert",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Convert Common",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Common",
           "name": "Common",
           "package": "hakyll-convert",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Common",
           "name": "DistilledPost",
           "package": "hakyll-convert",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Convert Common",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Common",
           "name": "DistilledPost",
           "package": "hakyll-convert",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Common",
           "name": "DistilledPost",
           "package": "hakyll-convert",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Convert Common",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Common",
           "name": "DistilledPost",
           "package": "hakyll-convert",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Common",
           "name": "dpBody",
           "package": "hakyll-convert",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Convert Common",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Common",
           "name": "dpBody",
           "package": "hakyll-convert",
@@ -288,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCategories are coarser-grained than tags; you might be\n   interested in ignoring tags and just focusing on categories\n   in cases where you have lots of little uninteresting tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Common",
           "name": "dpCategories",
           "package": "hakyll-convert",
@@ -298,6 +323,7 @@
         "index": {
           "description": "Categories are coarser-grained than tags you might be interested in ignoring tags and just focusing on categories in cases where you have lots of little uninteresting tags",
           "hierarchy": "Hakyll Convert Common",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Common",
           "name": "dpCategories",
           "normalized": "[Text]",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Common",
           "name": "dpDate",
           "package": "hakyll-convert",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Convert Common",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Common",
           "name": "dpDate",
           "package": "hakyll-convert",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Common",
           "name": "dpTags",
           "package": "hakyll-convert",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Convert Common",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Common",
           "name": "dpTags",
           "normalized": "[Text]",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Common",
           "name": "dpTitle",
           "package": "hakyll-convert",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Convert Common",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Common",
           "name": "dpTitle",
           "package": "hakyll-convert",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Common",
           "name": "dpUri",
           "package": "hakyll-convert",
@@ -390,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Convert Common",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Common",
           "name": "dpUri",
           "package": "hakyll-convert",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Wordpress",
           "name": "Wordpress",
           "package": "hakyll-convert",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Convert Wordpress",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Wordpress",
           "name": "Wordpress",
           "package": "hakyll-convert",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Wordpress",
           "name": "distill",
           "package": "hakyll-convert",
@@ -433,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Convert Wordpress",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Wordpress",
           "name": "distill",
           "normalized": "RSSItem-\u003eDistilledPost",
@@ -448,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns only public posts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:18 UTC 2014",
           "module": "Hakyll.Convert.Wordpress",
           "name": "readPosts",
           "package": "hakyll-convert",
@@ -458,6 +497,7 @@
         "index": {
           "description": "Returns only public posts",
           "hierarchy": "Hakyll Convert Wordpress",
+          "indexed": "2014-03-11T18:27:18",
           "module": "Hakyll.Convert.Wordpress",
           "name": "readPosts",
           "normalized": "FilePath-\u003eIO(Maybe[RSSItem])",

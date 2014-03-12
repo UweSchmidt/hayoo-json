@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack-handler-fastcgi"
+        "phrase": "hack-handler-fastcgi",
+        "type": "phrase"
       },
       "type": "context"
     }

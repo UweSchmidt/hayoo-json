@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ObjectName"
+        "phrase": "ObjectName",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eObject names are explicitly handled identifiers for API objects, e.g. a\n texture object name in OpenGL or a buffer object name in OpenAL.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:01 UTC 2014",
           "module": "Data.ObjectName",
           "name": "ObjectName",
           "package": "ObjectName",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Object names are explicitly handled identifiers for API objects e.g texture object name in OpenGL or buffer object name in OpenAL",
           "hierarchy": "Data ObjectName",
+          "indexed": "2014-03-11T16:55:01",
           "module": "Data.ObjectName",
           "name": "ObjectName",
           "package": "ObjectName",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eObjectName\u003c/a\u003e\u003c/code\u003e is an explicitly handled identifier for API objects, e.g. a\n texture object name in OpenGL or a buffer object name in OpenAL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:01 UTC 2014",
           "module": "Data.ObjectName",
           "name": "ObjectName",
           "package": "ObjectName",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An ObjectName is an explicitly handled identifier for API objects e.g texture object name in OpenGL or buffer object name in OpenAL",
           "hierarchy": "Data ObjectName",
+          "indexed": "2014-03-11T16:55:01",
           "module": "Data.ObjectName",
           "name": "ObjectName",
           "package": "ObjectName",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake the given object names available again, declaring them as unused.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:01 UTC 2014",
           "module": "Data.ObjectName",
           "name": "deleteObjectNames",
           "package": "ObjectName",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Make the given object names available again declaring them as unused",
           "hierarchy": "Data ObjectName",
+          "indexed": "2014-03-11T16:55:01",
           "module": "Data.ObjectName",
           "name": "deleteObjectNames",
           "normalized": "[a]-\u003eIO()",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a given number of object names, which are guaranteed to be\n unused. By generating the names, they become used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:01 UTC 2014",
           "module": "Data.ObjectName",
           "name": "genObjectNames",
           "package": "ObjectName",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Generate given number of object names which are guaranteed to be unused By generating the names they become used",
           "hierarchy": "Data ObjectName",
+          "indexed": "2014-03-11T16:55:01",
           "module": "Data.ObjectName",
           "name": "genObjectNames",
           "normalized": "Int-\u003eIO[a]",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if the given object name is currently in use, i.e. test if it has\n been generated, but not been deleted so far.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:55:01 UTC 2014",
           "module": "Data.ObjectName",
           "name": "isObjectName",
           "package": "ObjectName",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Test if the given object name is currently in use i.e test if it has been generated but not been deleted so far",
           "hierarchy": "Data ObjectName",
+          "indexed": "2014-03-11T16:55:01",
           "module": "Data.ObjectName",
           "name": "isObjectName",
           "normalized": "a-\u003eIO Bool",

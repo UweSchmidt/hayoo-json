@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "splot"
+        "phrase": "splot",
+        "type": "phrase"
       },
       "type": "context"
     }

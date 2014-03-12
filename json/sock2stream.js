@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sock2stream"
+        "phrase": "sock2stream",
+        "type": "phrase"
       },
       "type": "context"
     }

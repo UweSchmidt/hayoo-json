@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "elm-get"
+        "phrase": "elm-get",
+        "type": "phrase"
       },
       "type": "context"
     }

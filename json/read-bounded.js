@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "read-bounded"
+        "phrase": "read-bounded",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:40 UTC 2014",
           "module": "Text.Read.Bounded",
           "name": "Bounded",
           "package": "read-bounded",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Read Bounded",
+          "indexed": "2014-03-11T19:49:40",
           "module": "Text.Read.Bounded",
           "name": "Bounded",
           "package": "read-bounded",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:40 UTC 2014",
           "module": "Text.Read.Bounded",
           "name": "BoundedRead",
           "package": "read-bounded",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Read Bounded",
+          "indexed": "2014-03-11T19:49:40",
           "module": "Text.Read.Bounded",
           "name": "BoundedRead",
           "package": "read-bounded",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:40 UTC 2014",
           "module": "Text.Read.Bounded",
           "name": "ReadBounded",
           "package": "read-bounded",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text Read Bounded",
+          "indexed": "2014-03-11T19:49:40",
           "module": "Text.Read.Bounded",
           "name": "ReadBounded",
           "package": "read-bounded",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:40 UTC 2014",
           "module": "Text.Read.Bounded",
           "name": "ClampedRead",
           "package": "read-bounded",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Text Read Bounded",
+          "indexed": "2014-03-11T19:49:40",
           "module": "Text.Read.Bounded",
           "name": "ClampedRead",
           "package": "read-bounded",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:40 UTC 2014",
           "module": "Text.Read.Bounded",
           "name": "ExactRead",
           "package": "read-bounded",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Text Read Bounded",
+          "indexed": "2014-03-11T19:49:40",
           "module": "Text.Read.Bounded",
           "name": "ExactRead",
           "package": "read-bounded",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:40 UTC 2014",
           "module": "Text.Read.Bounded",
           "name": "NoRead",
           "package": "read-bounded",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Text Read Bounded",
+          "indexed": "2014-03-11T19:49:40",
           "module": "Text.Read.Bounded",
           "name": "NoRead",
           "package": "read-bounded",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:40 UTC 2014",
           "module": "Text.Read.Bounded",
           "name": "readBounded",
           "package": "read-bounded",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Text Read Bounded",
+          "indexed": "2014-03-11T19:49:40",
           "module": "Text.Read.Bounded",
           "name": "readBounded",
           "normalized": "String-\u003eBoundedRead a",

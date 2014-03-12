@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ipython-kernel"
+        "phrase": "ipython-kernel",
+        "type": "phrase"
       },
       "type": "context"
     }

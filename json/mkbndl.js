@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mkbndl"
+        "phrase": "mkbndl",
+        "type": "phrase"
       },
       "type": "context"
     }

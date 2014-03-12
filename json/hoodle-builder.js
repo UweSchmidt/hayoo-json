@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hoodle-builder"
+        "phrase": "hoodle-builder",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "V0_1_1",
           "package": "hoodle-builder",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder V0_1_1",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "V0_1_1",
           "package": "hoodle-builder",
@@ -38,6 +40,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "(\u003c\u003e)",
           "package": "hoodle-builder",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder V0_1_1",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "build2D",
           "package": "hoodle-builder",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder V0_1_1",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "build2D",
           "normalized": "Pair Double Double-\u003eBuilder",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildBackground",
           "package": "hoodle-builder",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder V0_1_1",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildBackground",
           "normalized": "Background-\u003eBuilder",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildHoodle",
           "package": "hoodle-builder",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder V0_1_1",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildHoodle",
           "normalized": "Hoodle-\u003eBuilder",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildImage",
           "package": "hoodle-builder",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder V0_1_1",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildImage",
           "normalized": "Image-\u003eBuilder",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildItem",
           "package": "hoodle-builder",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder V0_1_1",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildItem",
           "normalized": "Item-\u003eBuilder",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildLayer",
           "package": "hoodle-builder",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder V0_1_1",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildLayer",
           "normalized": "Layer-\u003eBuilder",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildPage",
           "package": "hoodle-builder",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder V0_1_1",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildPage",
           "normalized": "Page-\u003eBuilder",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildSVG",
           "package": "hoodle-builder",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder V0_1_1",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildSVG",
           "normalized": "SVG-\u003eBuilder",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildStroke",
           "package": "hoodle-builder",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder V0_1_1",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildStroke",
           "normalized": "Stroke-\u003eBuilder",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildTitle",
           "package": "hoodle-builder",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder V0_1_1",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildTitle",
           "normalized": "ByteString-\u003eBuilder",
@@ -300,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildXYFrm3D",
           "package": "hoodle-builder",
@@ -309,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder V0_1_1",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildXYFrm3D",
           "normalized": "(Double,Double,Double)-\u003eBuilder",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildZFrm3D",
           "package": "hoodle-builder",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder V0_1_1",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "buildZFrm3D",
           "normalized": "(Double,Double,Double)-\u003eBuilder",
@@ -348,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "builder",
           "package": "hoodle-builder",
@@ -357,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder V0_1_1",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder.V0_1_1",
           "name": "builder",
           "normalized": "Hoodle-\u003eByteString",
@@ -371,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder",
           "name": "Builder",
           "package": "hoodle-builder",
@@ -379,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder",
           "name": "Builder",
           "package": "hoodle-builder",
@@ -392,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder",
           "name": "(\u003c\u003e)",
           "package": "hoodle-builder",
@@ -401,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -415,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder",
           "name": "build2D",
           "package": "hoodle-builder",
@@ -424,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder",
           "name": "build2D",
           "normalized": "Pair Double Double-\u003eBuilder",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder",
           "name": "buildBackground",
           "package": "hoodle-builder",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder",
           "name": "buildBackground",
           "normalized": "Background-\u003eBuilder",
@@ -462,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder",
           "name": "buildEmbeddedPdf",
           "package": "hoodle-builder",
@@ -471,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder",
           "name": "buildEmbeddedPdf",
           "normalized": "ByteString-\u003eBuilder",
@@ -486,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder",
           "name": "buildHoodle",
           "package": "hoodle-builder",
@@ -495,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder",
           "name": "buildHoodle",
           "normalized": "Hoodle-\u003eBuilder",
@@ -510,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder",
           "name": "buildImage",
           "package": "hoodle-builder",
@@ -519,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder",
           "name": "buildImage",
           "normalized": "Image-\u003eBuilder",
@@ -534,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder",
           "name": "buildItem",
           "package": "hoodle-builder",
@@ -543,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder",
           "name": "buildItem",
           "normalized": "Item-\u003eBuilder",
@@ -558,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder",
           "name": "buildLayer",
           "package": "hoodle-builder",
@@ -567,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder",
           "name": "buildLayer",
           "normalized": "Layer-\u003eBuilder",
@@ -582,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder",
           "name": "buildLink",
           "package": "hoodle-builder",
@@ -591,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder",
           "name": "buildLink",
           "normalized": "Link-\u003eBuilder",
@@ -606,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder",
           "name": "buildPage",
           "package": "hoodle-builder",
@@ -615,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder",
           "name": "buildPage",
           "normalized": "Page-\u003eBuilder",
@@ -630,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder",
           "name": "buildRevision",
           "package": "hoodle-builder",
@@ -639,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder",
           "name": "buildRevision",
           "normalized": "Revision-\u003eBuilder",
@@ -654,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder",
           "name": "buildSVG",
           "package": "hoodle-builder",
@@ -663,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder",
           "name": "buildSVG",
           "normalized": "SVG-\u003eBuilder",
@@ -678,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder",
           "name": "buildStroke",
           "package": "hoodle-builder",
@@ -687,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder",
           "name": "buildStroke",
           "normalized": "Stroke-\u003eBuilder",
@@ -702,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder",
           "name": "buildTitle",
           "package": "hoodle-builder",
@@ -711,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder",
           "name": "buildTitle",
           "normalized": "ByteString-\u003eBuilder",
@@ -726,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder",
           "name": "buildXYFrm3D",
           "package": "hoodle-builder",
@@ -735,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder",
           "name": "buildXYFrm3D",
           "normalized": "(Double,Double,Double)-\u003eBuilder",
@@ -750,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder",
           "name": "buildZFrm3D",
           "package": "hoodle-builder",
@@ -759,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder",
           "name": "buildZFrm3D",
           "normalized": "(Double,Double,Double)-\u003eBuilder",
@@ -774,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:34 UTC 2014",
           "module": "Text.Hoodle.Builder",
           "name": "builder",
           "package": "hoodle-builder",
@@ -783,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Text Hoodle Builder",
+          "indexed": "2014-03-11T18:43:34",
           "module": "Text.Hoodle.Builder",
           "name": "builder",
           "normalized": "Hoodle-\u003eByteString",

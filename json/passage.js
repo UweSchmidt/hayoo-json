@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "passage"
+        "phrase": "passage",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "Distribution",
           "package": "passage",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "Distribution",
           "package": "passage",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Bernoulli distribution with a mean\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "bernoulli",
           "package": "passage",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Bernoulli distribution with mean",
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "bernoulli",
           "normalized": "Expr-\u003eDistribution",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA beta distribution with the given prior sample sizes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "beta",
           "package": "passage",
@@ -75,6 +80,7 @@
         "index": {
           "description": "beta distribution with the given prior sample sizes",
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "beta",
           "normalized": "Expr-\u003eExpr-\u003eDistribution",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA binomial distribution with given number of samples and probability of success\n | Number of samples is assumed to be fixed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "binomial",
           "package": "passage",
@@ -100,6 +107,7 @@
         "index": {
           "description": "binomial distribution with given number of samples and probability of success Number of samples is assumed to be fixed",
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "binomial",
           "normalized": "Expr-\u003eExpr-\u003eDistribution",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA categorical distribution with given support size and probabilities\n | Probabilities are assumed to add to one (not checked here)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "categorical",
           "package": "passage",
@@ -125,6 +134,7 @@
         "index": {
           "description": "categorical distribution with given support size and probabilities Probabilities are assumed to add to one not checked here",
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "categorical",
           "normalized": "Expr-\u003e[Expr]-\u003eDistribution",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA gamma distribution with the given prior sample sizes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "dgamma",
           "package": "passage",
@@ -150,6 +161,7 @@
         "index": {
           "description": "gamma distribution with the given prior sample sizes",
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "dgamma",
           "normalized": "Expr-\u003eExpr-\u003eDistribution",
@@ -164,6 +176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "discreteUniform",
           "package": "passage",
@@ -173,6 +186,7 @@
         },
         "index": {
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "discreteUniform",
           "normalized": "Expr-\u003eDistribution",
@@ -188,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "geometric",
           "package": "passage",
@@ -197,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "geometric",
           "normalized": "Expr-\u003eDistribution",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn improper scale\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "improperScale",
           "package": "passage",
@@ -222,6 +239,7 @@
         "index": {
           "description": "An improper scale",
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "improperScale",
           "package": "passage",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn improper uniform distribution; has no impact on likelihood\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "improperUniform",
           "package": "passage",
@@ -246,6 +265,7 @@
         "index": {
           "description": "An improper uniform distribution has no impact on likelihood",
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "improperUniform",
           "package": "passage",
@@ -259,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "logBeta",
           "package": "passage",
@@ -268,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "logBeta",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -283,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "logComb",
           "package": "passage",
@@ -292,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "logComb",
           "normalized": "Expr-\u003eExpr-\u003eExpr",
@@ -307,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "logFact",
           "package": "passage",
@@ -316,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "logFact",
           "normalized": "Expr-\u003eExpr",
@@ -331,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "logit",
           "package": "passage",
@@ -340,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "logit",
           "normalized": "a-\u003ea",
@@ -354,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "negBinomial",
           "package": "passage",
@@ -363,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "negBinomial",
           "normalized": "Expr-\u003eExpr-\u003eDistribution",
@@ -379,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA normal distribution, with a mean and precision\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "normal",
           "package": "passage",
@@ -389,6 +420,7 @@
         "index": {
           "description": "normal distribution with mean and precision",
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "normal",
           "normalized": "Expr-\u003eExpr-\u003eDistribution",
@@ -403,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "poisson",
           "package": "passage",
@@ -412,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "poisson",
           "normalized": "Expr-\u003eDistribution",
@@ -426,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "standardUniform",
           "package": "passage",
@@ -435,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "standardUniform",
           "package": "passage",
@@ -449,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA normal distribution with mean 0 and precision 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "stdNormal",
           "package": "passage",
@@ -459,6 +496,7 @@
         "index": {
           "description": "normal distribution with mean and precision",
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "stdNormal",
           "package": "passage",
@@ -472,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.Distribution",
           "name": "uniform",
           "package": "passage",
@@ -481,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Language Passage Distribution",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.Distribution",
           "name": "uniform",
           "normalized": "Expr-\u003eExpr-\u003eDistribution",
@@ -495,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.UI",
           "name": "UI",
           "package": "passage",
@@ -503,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Language Passage UI",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.UI",
           "name": "UI",
           "package": "passage",
@@ -517,6 +559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Bernoulli distribution with a mean\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.UI",
           "name": "bernoulli",
           "package": "passage",
@@ -527,6 +570,7 @@
         "index": {
           "description": "Bernoulli distribution with mean",
           "hierarchy": "Language Passage UI",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.UI",
           "name": "bernoulli",
           "normalized": "Expr-\u003eBayesianNetwork Expr",
@@ -542,6 +586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA beta distribution with the given prior sample sizes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.UI",
           "name": "beta",
           "package": "passage",
@@ -552,6 +597,7 @@
         "index": {
           "description": "beta distribution with the given prior sample sizes",
           "hierarchy": "Language Passage UI",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.UI",
           "name": "beta",
           "normalized": "Expr-\u003eExpr-\u003eBayesianNetwork Expr",
@@ -567,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA chi-square distribution with the given degrees of freedom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.UI",
           "name": "chiSquare",
           "package": "passage",
@@ -577,6 +624,7 @@
         "index": {
           "description": "chi-square distribution with the given degrees of freedom",
           "hierarchy": "Language Passage UI",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.UI",
           "name": "chiSquare",
           "normalized": "Expr-\u003eBayesianNetwork Expr",
@@ -593,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exponential distribution with the given rate (inverse scale)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.UI",
           "name": "dexp",
           "package": "passage",
@@ -603,6 +652,7 @@
         "index": {
           "description": "An exponential distribution with the given rate inverse scale",
           "hierarchy": "Language Passage UI",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.UI",
           "name": "dexp",
           "normalized": "Expr-\u003eBayesianNetwork Expr",
@@ -618,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA gamma distribution with the given prior sample sizes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.UI",
           "name": "dgamma",
           "package": "passage",
@@ -628,6 +679,7 @@
         "index": {
           "description": "gamma distribution with the given prior sample sizes",
           "hierarchy": "Language Passage UI",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.UI",
           "name": "dgamma",
           "normalized": "Expr-\u003eExpr-\u003eBayesianNetwork Expr",
@@ -642,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.UI",
           "name": "improperScale",
           "package": "passage",
@@ -651,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Language Passage UI",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.UI",
           "name": "improperScale",
           "package": "passage",
@@ -665,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn improper uniform distribution; has no impact on likelihood\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.UI",
           "name": "improperUniform",
           "package": "passage",
@@ -675,6 +730,7 @@
         "index": {
           "description": "An improper uniform distribution has no impact on likelihood",
           "hierarchy": "Language Passage UI",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.UI",
           "name": "improperUniform",
           "package": "passage",
@@ -689,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA normal distribution, with a mean and precision\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.UI",
           "name": "normal",
           "package": "passage",
@@ -699,6 +756,7 @@
         "index": {
           "description": "normal distribution with mean and precision",
           "hierarchy": "Language Passage UI",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.UI",
           "name": "normal",
           "normalized": "Expr-\u003eExpr-\u003eBayesianNetwork Expr",
@@ -713,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.UI",
           "name": "standardUniform",
           "package": "passage",
@@ -722,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Language Passage UI",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.UI",
           "name": "standardUniform",
           "package": "passage",
@@ -736,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Student's T distribution, given the degrees of freedom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.UI",
           "name": "studentT",
           "package": "passage",
@@ -746,6 +807,7 @@
         "index": {
           "description": "Student distribution given the degrees of freedom",
           "hierarchy": "Language Passage UI",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.UI",
           "name": "studentT",
           "normalized": "Expr-\u003eBayesianNetwork Expr",
@@ -760,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.UI",
           "name": "symDirichlet",
           "package": "passage",
@@ -769,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Language Passage UI",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.UI",
           "name": "symDirichlet",
           "normalized": "Int-\u003eExpr-\u003eBayesianNetwork[Expr]",
@@ -784,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage.UI",
           "name": "uniform",
           "package": "passage",
@@ -793,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Language Passage UI",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage.UI",
           "name": "uniform",
           "normalized": "Expr-\u003eExpr-\u003eBayesianNetwork Expr",
@@ -807,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "Passage",
           "package": "passage",
@@ -815,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "Passage",
           "package": "passage",
@@ -829,6 +897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Bayesian Network is a collection of stochastic nodes.\n Stochastic nodes may be (optionally) grouped into arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "BayesianGraph",
           "package": "passage",
@@ -838,6 +907,7 @@
         "index": {
           "description": "Bayesian Network is collection of stochastic nodes Stochastic nodes may be optionally grouped into arrays",
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "BayesianGraph",
           "package": "passage",
@@ -851,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "BayesianNetwork",
           "package": "passage",
@@ -859,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "BayesianNetwork",
           "package": "passage",
@@ -872,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "BayesianSimulator",
           "package": "passage",
@@ -880,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "BayesianSimulator",
           "package": "passage",
@@ -893,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "LaTeX",
           "package": "passage",
@@ -901,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "LaTeX",
           "package": "passage",
@@ -914,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "Matrix",
           "package": "passage",
@@ -922,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "Matrix",
           "package": "passage",
@@ -935,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "Node",
           "package": "passage",
@@ -943,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "Node",
           "package": "passage",
@@ -956,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "NodeArray",
           "package": "passage",
@@ -964,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "NodeArray",
           "package": "passage",
@@ -978,6 +1060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty printing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "PP",
           "package": "passage",
@@ -987,6 +1070,7 @@
         "index": {
           "description": "Pretty printing",
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "PP",
           "package": "passage",
@@ -1001,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Stochastic variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "StoVar",
           "package": "passage",
@@ -1010,6 +1095,7 @@
         "index": {
           "description": "Stochastic variable",
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "StoVar",
           "package": "passage",
@@ -1023,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "Vector",
           "package": "passage",
@@ -1031,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "Vector",
           "package": "passage",
@@ -1044,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "(//)",
           "package": "passage",
@@ -1053,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "(//) //",
           "normalized": "BayesianNetwork Expr-\u003eString-\u003eBayesianNetwork Expr",
@@ -1067,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "BayesianGraph",
           "package": "passage",
@@ -1076,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "BayesianGraph",
           "package": "passage",
@@ -1089,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "StoVar",
           "package": "passage",
@@ -1098,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "StoVar",
           "package": "passage",
@@ -1111,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "buildBayesianGraph",
           "package": "passage",
@@ -1120,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "buildBayesianGraph",
           "normalized": "BayesianNetwork a-\u003e(a,BayesianGraph)",
@@ -1135,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "enableProfiling",
           "package": "passage",
@@ -1144,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "enableProfiling",
           "normalized": "Bool-\u003eBayesianSimulator()",
@@ -1159,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "genSimulator",
           "package": "passage",
@@ -1168,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "genSimulator",
           "normalized": "FilePath-\u003eBayesianSimulator()-\u003eIO()",
@@ -1183,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "latex",
           "package": "passage",
@@ -1192,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "latex",
           "normalized": "a-\u003eDoc",
@@ -1206,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "logGamma",
           "package": "passage",
@@ -1215,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "logGamma",
           "normalized": "Term a-\u003eTerm a",
@@ -1231,6 +1335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a 2D matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "matrix",
           "package": "passage",
@@ -1240,6 +1345,7 @@
         "index": {
           "description": "Create matrix",
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "matrix",
           "normalized": "(Int,Int)-\u003e(Int,Int)-\u003e([Int]-\u003eBayesianNetwork Expr)-\u003eBayesianNetwork([Expr]-\u003eExpr)",
@@ -1254,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "model",
           "package": "passage",
@@ -1263,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "model",
           "normalized": "BayesianNetwork a-\u003eBayesianSimulator a",
@@ -1277,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "monitor",
           "package": "passage",
@@ -1286,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "monitor",
           "normalized": "String-\u003eExpr-\u003eBayesianSimulator()",
@@ -1301,6 +1411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike monitor, but adds the indexes in the label of the variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "monitorVec",
           "package": "passage",
@@ -1311,6 +1422,7 @@
         "index": {
           "description": "Like monitor but adds the indexes in the label of the variable",
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "monitorVec",
           "normalized": "String-\u003eMatrix-\u003e[Int]-\u003eBayesianSimulator()",
@@ -1326,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "monitorVecs",
           "package": "passage",
@@ -1335,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "monitorVecs",
           "normalized": "String-\u003eNodeArray-\u003e[[Int]]-\u003eBayesianSimulator()",
@@ -1351,6 +1465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003e= 3D array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "nodeArray",
           "package": "passage",
@@ -1360,6 +1475,7 @@
         "index": {
           "description": "Create an array",
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "nodeArray",
           "normalized": "[(Int,Int)]-\u003e([Int]-\u003eBayesianNetwork Expr)-\u003eBayesianNetwork([Expr]-\u003eExpr)",
@@ -1375,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "observe",
           "package": "passage",
@@ -1384,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "observe",
           "normalized": "Term NodeIdx-\u003eDouble-\u003eBayesianSimulator()",
@@ -1398,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "pp",
           "package": "passage",
@@ -1407,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "pp",
           "normalized": "a-\u003eDoc",
@@ -1421,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "ppPrec",
           "package": "passage",
@@ -1430,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "ppPrec",
           "normalized": "Rational-\u003ea-\u003eDoc",
@@ -1445,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "runLatex",
           "package": "passage",
@@ -1454,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "runLatex",
           "normalized": "BayesianNetwork a-\u003eIO()",
@@ -1469,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "setIterationsPerSample",
           "package": "passage",
@@ -1478,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "setIterationsPerSample",
           "normalized": "Int-\u003eBayesianSimulator()",
@@ -1494,6 +1620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the random seed for a thread.  This function may be calledd\n multiple times to set the seeds for multiple threads.\n The seeds are used in order: first call is for thread 0, next for thread 1,\n etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "setRandomSeed",
           "package": "passage",
@@ -1504,6 +1631,7 @@
         "index": {
           "description": "Set the random seed for thread This function may be calledd multiple times to set the seeds for multiple threads The seeds are used in order first call is for thread next for thread etc",
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "setRandomSeed",
           "normalized": "Int-\u003eBayesianSimulator()",
@@ -1519,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "setSampleCount",
           "package": "passage",
@@ -1528,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "setSampleCount",
           "normalized": "Int-\u003eBayesianSimulator()",
@@ -1543,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "setThreadNum",
           "package": "passage",
@@ -1552,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "setThreadNum",
           "normalized": "Int-\u003eBayesianSimulator()",
@@ -1567,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "setWarmupCount",
           "package": "passage",
@@ -1576,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "setWarmupCount",
           "normalized": "Int-\u003eBayesianSimulator()",
@@ -1591,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "simulate",
           "package": "passage",
@@ -1600,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "simulate",
           "normalized": "FilePath-\u003eBayesianSimulator()-\u003eIO()",
@@ -1615,6 +1751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a separate file for each stochastic variable.\n The benefit of this flag is that it makes it possible to compile\n multiple files in parallel.  The drawback is that some optimizations\n may be lost because the files are compiled separately.  Also, there\n is some overhead for processing multiple files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "splitFiles",
           "package": "passage",
@@ -1625,6 +1762,7 @@
         "index": {
           "description": "Generate separate file for each stochastic variable The benefit of this flag is that it makes it possible to compile multiple files in parallel The drawback is that some optimizations may be lost because the files are compiled separately Also there is some overhead for processing multiple files",
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "splitFiles",
           "normalized": "Bool-\u003eBayesianSimulator()",
@@ -1640,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "stoArryas",
           "package": "passage",
@@ -1649,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "stoArryas",
           "package": "passage",
@@ -1662,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "stoNodes",
           "package": "passage",
@@ -1671,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "stoNodes",
           "package": "passage",
@@ -1685,6 +1827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps terms that mention the variable to their coefficients,\n which do not depend on the variable.  The term for the\n distribution is the sum of the products of the map elements\n (see \u003ccode\u003estoPostLL\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "stoPostDistLL",
           "package": "passage",
@@ -1695,6 +1838,7 @@
         "index": {
           "description": "Maps terms that mention the variable to their coefficients which do not depend on the variable The term for the distribution is the sum of the products of the map elements see stoPostLL",
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "stoPostDistLL",
           "package": "passage",
@@ -1708,6 +1852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "stoVarName",
           "package": "passage",
@@ -1717,6 +1862,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "stoVarName",
           "package": "passage",
@@ -1730,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "stoVarPrior",
           "package": "passage",
@@ -1739,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "stoVarPrior",
           "package": "passage",
@@ -1752,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "tcase",
           "package": "passage",
@@ -1761,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "tcase",
           "normalized": "Term a-\u003e[Term a]-\u003eTerm a",
@@ -1775,6 +1925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "tconst",
           "package": "passage",
@@ -1784,6 +1935,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "tconst",
           "normalized": "Double-\u003eTerm a",
@@ -1798,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "useMersenneTwister",
           "package": "passage",
@@ -1807,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "useMersenneTwister",
           "normalized": "Bool-\u003eBayesianSimulator()",
@@ -1823,6 +1977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen using a specialized slizer, we generate a custom slicer\n for each stochastic variable.  The benefit of this is that, in principle,\n this may result in more efficient code, at the cost of longer compilation\n time, and larger binary.  The alternative is to use a generic slicing\n function which is parameterized by the log-likelihood function for\n a variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "useSpecialSlicers",
           "package": "passage",
@@ -1833,6 +1988,7 @@
         "index": {
           "description": "When using specialized slizer we generate custom slicer for each stochastic variable The benefit of this is that in principle this may result in more efficient code at the cost of longer compilation time and larger binary The alternative is to use generic slicing function which is parameterized by the log-likelihood function for variable",
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "useSpecialSlicers",
           "normalized": "Bool-\u003eBayesianSimulator()",
@@ -1848,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "using",
           "package": "passage",
@@ -1857,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "using",
           "normalized": "Distribution-\u003eBayesianNetwork Expr",
@@ -1872,6 +2030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a 1D vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:42 UTC 2014",
           "module": "Language.Passage",
           "name": "vector",
           "package": "passage",
@@ -1881,6 +2040,7 @@
         "index": {
           "description": "Create vector",
           "hierarchy": "Language Passage",
+          "indexed": "2014-03-11T19:35:42",
           "module": "Language.Passage",
           "name": "vector",
           "normalized": "(Int,Int)-\u003e(Int-\u003eBayesianNetwork Expr)-\u003eBayesianNetwork([Expr]-\u003eExpr)",

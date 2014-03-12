@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "opentheory-char"
+        "phrase": "opentheory-char",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "UTF8",
           "package": "opentheory-char",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode UTF8",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "UTF8",
           "package": "opentheory-char",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "decode",
           "package": "opentheory-char",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode UTF8",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "decode",
           "normalized": "[Byte]-\u003eMaybe[Unicode]",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "decodeStream",
           "package": "opentheory-char",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode UTF8",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "decodeStream",
           "normalized": "Stream Byte-\u003eStream Unicode",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "decoder",
           "package": "opentheory-char",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode UTF8",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "decoder",
           "package": "opentheory-char",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "encode",
           "package": "opentheory-char",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode UTF8",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "encode",
           "normalized": "[Unicode]-\u003e[Byte]",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "encoder",
           "package": "opentheory-char",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode UTF8",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "encoder",
           "normalized": "Unicode-\u003e[Byte]",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "isContinuationByte",
           "package": "opentheory-char",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode UTF8",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "isContinuationByte",
           "normalized": "Byte-\u003eBool",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "parseContinuationByte",
           "package": "opentheory-char",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode UTF8",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "parseContinuationByte",
           "package": "opentheory-char",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "parseThreeContinuationBytes",
           "package": "opentheory-char",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode UTF8",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "parseThreeContinuationBytes",
           "normalized": "Parser Byte(Byte,(Byte,Byte))",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "parseTwoContinuationBytes",
           "package": "opentheory-char",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode UTF8",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode.UTF8",
           "name": "parseTwoContinuationBytes",
           "normalized": "Parser Byte(Byte,Byte)",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode",
           "name": "Unicode",
           "package": "opentheory-char",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode",
           "name": "Unicode",
           "package": "opentheory-char",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode",
           "name": "Plane",
           "package": "opentheory-char",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode",
           "name": "Plane",
           "package": "opentheory-char",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode",
           "name": "Position",
           "package": "opentheory-char",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode",
           "name": "Position",
           "package": "opentheory-char",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode",
           "name": "Unicode",
           "package": "opentheory-char",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode",
           "name": "Unicode",
           "package": "opentheory-char",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode",
           "name": "Plane",
           "package": "opentheory-char",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode",
           "name": "Plane",
           "package": "opentheory-char",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode",
           "name": "Position",
           "package": "opentheory-char",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode",
           "name": "Position",
           "package": "opentheory-char",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode",
           "name": "Unicode",
           "package": "opentheory-char",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode",
           "name": "Unicode",
           "package": "opentheory-char",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode",
           "name": "equal",
           "package": "opentheory-char",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode",
           "name": "equal",
           "normalized": "Unicode-\u003eUnicode-\u003eBool",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode",
           "name": "equalPlane",
           "package": "opentheory-char",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode",
           "name": "equalPlane",
           "normalized": "Plane-\u003ePlane-\u003eBool",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode",
           "name": "equalPosition",
           "package": "opentheory-char",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode",
           "name": "equalPosition",
           "normalized": "Position-\u003ePosition-\u003eBool",
@@ -468,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode",
           "name": "fromRandom",
           "package": "opentheory-char",
@@ -477,6 +518,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode",
           "name": "fromRandom",
           "normalized": "Random-\u003e(Unicode,Random)",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode",
           "name": "planeFromRandom",
           "package": "opentheory-char",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode",
           "name": "planeFromRandom",
           "normalized": "Random-\u003e(Plane,Random)",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode",
           "name": "positionFromRandom",
           "package": "opentheory-char",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode",
           "name": "positionFromRandom",
           "normalized": "Random-\u003e(Position,Random)",
@@ -540,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode",
           "name": "unPlane",
           "package": "opentheory-char",
@@ -549,6 +596,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode",
           "name": "unPlane",
           "package": "opentheory-char",
@@ -562,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode",
           "name": "unPosition",
           "package": "opentheory-char",
@@ -571,6 +620,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode",
           "name": "unPosition",
           "package": "opentheory-char",
@@ -584,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:24 UTC 2014",
           "module": "OpenTheory.Data.Unicode",
           "name": "unUnicode",
           "package": "opentheory-char",
@@ -593,6 +644,7 @@
         },
         "index": {
           "hierarchy": "OpenTheory Data Unicode",
+          "indexed": "2014-03-11T19:32:24",
           "module": "OpenTheory.Data.Unicode",
           "name": "unUnicode",
           "normalized": "(Plane,Position)",

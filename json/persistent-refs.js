@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "persistent-refs"
+        "phrase": "persistent-refs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library provides support for a persistent version of the\n \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e monad. Internally, references are backed by a\n \u003ccode\u003e\u003ca\u003eIntMap\u003c/a\u003e\u003c/code\u003e, rather than being mutable variables on the\n heap. This decreases performance, but can be useful in certain\n settings, particularly those involving backtracking.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:59 UTC 2014",
           "module": "Control.Monad.ST.Persistent",
           "name": "Persistent",
           "package": "persistent-refs",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This library provides support for persistent version of the ST monad Internally references are backed by IntMap rather than being mutable variables on the heap This decreases performance but can be useful in certain settings particularly those involving backtracking",
           "hierarchy": "Control Monad ST Persistent",
+          "indexed": "2014-03-11T19:37:59",
           "module": "Control.Monad.ST.Persistent",
           "name": "Persistent",
           "package": "persistent-refs",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA persistent version of the \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:59 UTC 2014",
           "module": "Control.Monad.ST.Persistent",
           "name": "ST",
           "package": "persistent-refs",
@@ -51,6 +54,7 @@
         "index": {
           "description": "persistent version of the ST monad",
           "hierarchy": "Control Monad ST Persistent",
+          "indexed": "2014-03-11T19:37:59",
           "module": "Control.Monad.ST.Persistent",
           "name": "ST",
           "package": "persistent-refs",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:59 UTC 2014",
           "module": "Control.Monad.ST.Persistent",
           "name": "STT",
           "package": "persistent-refs",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Persistent",
+          "indexed": "2014-03-11T19:37:59",
           "module": "Control.Monad.ST.Persistent",
           "name": "STT",
           "package": "persistent-refs",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a computation that uses persistent references, and return a\n pure value. The rank-2 type offers similar guarantees to\n \u003ccode\u003e\u003ca\u003erunST\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:59 UTC 2014",
           "module": "Control.Monad.ST.Persistent",
           "name": "runST",
           "package": "persistent-refs",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Run computation that uses persistent references and return pure value The rank-2 type offers similar guarantees to runST",
           "hierarchy": "Control Monad ST Persistent",
+          "indexed": "2014-03-11T19:37:59",
           "module": "Control.Monad.ST.Persistent",
           "name": "runST",
           "normalized": "(a b ST c d)-\u003ed",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a computation that uses persistent references, and return a\n pure value. The rank-2 type offers similar guarantees to\n \u003ccode\u003e\u003ca\u003erunST\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:59 UTC 2014",
           "module": "Control.Monad.ST.Persistent",
           "name": "runSTT",
           "package": "persistent-refs",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Run computation that uses persistent references and return pure value The rank-2 type offers similar guarantees to runST",
           "hierarchy": "Control Monad ST Persistent",
+          "indexed": "2014-03-11T19:37:59",
           "module": "Control.Monad.ST.Persistent",
           "name": "runSTT",
           "normalized": "(a b STT c d e)-\u003ed e",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMutable references in the persistent\n \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:59 UTC 2014",
           "module": "Data.STRef.Persistent",
           "name": "Persistent",
           "package": "persistent-refs",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Mutable references in the persistent ST monad",
           "hierarchy": "Data STRef Persistent",
+          "indexed": "2014-03-11T19:37:59",
           "module": "Data.STRef.Persistent",
           "name": "Persistent",
           "package": "persistent-refs",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMonadRef\u003c/a\u003e\u003c/code\u003e type class abstracts over the details of manipulating\n references, allowing one to write code that uses references and can operate\n in any monad that supports reference operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:59 UTC 2014",
           "module": "Data.STRef.Persistent",
           "name": "MonadRef",
           "package": "persistent-refs",
@@ -169,6 +182,7 @@
         "index": {
           "description": "The MonadRef type class abstracts over the details of manipulating references allowing one to write code that uses references and can operate in any monad that supports reference operations",
           "hierarchy": "Data STRef Persistent",
+          "indexed": "2014-03-11T19:37:59",
           "module": "Data.STRef.Persistent",
           "name": "MonadRef",
           "package": "persistent-refs",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:59 UTC 2014",
           "module": "Data.STRef.Persistent",
           "name": "STRef",
           "package": "persistent-refs",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Data STRef Persistent",
+          "indexed": "2014-03-11T19:37:59",
           "module": "Data.STRef.Persistent",
           "name": "STRef",
           "package": "persistent-refs",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the underlying \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e from an \u003ccode\u003e\u003ca\u003eSTRef\u003c/a\u003e\u003c/code\u003e. Useful for debugging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:59 UTC 2014",
           "module": "Data.STRef.Persistent",
           "name": "asInt",
           "package": "persistent-refs",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Get the underlying Int from an STRef Useful for debugging",
           "hierarchy": "Data STRef Persistent",
+          "indexed": "2014-03-11T19:37:59",
           "module": "Data.STRef.Persistent",
           "name": "asInt",
           "normalized": "STRef a b-\u003eInt",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutate the contents of a reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:59 UTC 2014",
           "module": "Data.STRef.Persistent",
           "name": "modifyRef",
           "package": "persistent-refs",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Mutate the contents of reference",
           "hierarchy": "Data STRef Persistent",
+          "indexed": "2014-03-11T19:37:59",
           "module": "Data.STRef.Persistent",
           "name": "modifyRef",
           "normalized": "a b-\u003e(b-\u003eb)-\u003ec()",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:59 UTC 2014",
           "module": "Data.STRef.Persistent",
           "name": "modifyRef'",
           "package": "persistent-refs",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Data STRef Persistent",
+          "indexed": "2014-03-11T19:37:59",
           "module": "Data.STRef.Persistent",
           "name": "modifyRef'",
           "normalized": "a b-\u003e(b-\u003eb)-\u003ec()",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:59 UTC 2014",
           "module": "Data.STRef.Persistent",
           "name": "newRef",
           "package": "persistent-refs",
@@ -288,6 +311,7 @@
         "index": {
           "description": "Create new reference",
           "hierarchy": "Data STRef Persistent",
+          "indexed": "2014-03-11T19:37:59",
           "module": "Data.STRef.Persistent",
           "name": "newRef",
           "normalized": "a-\u003eb(c a)",
@@ -304,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the value of a reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:59 UTC 2014",
           "module": "Data.STRef.Persistent",
           "name": "readRef",
           "package": "persistent-refs",
@@ -313,6 +338,7 @@
         "index": {
           "description": "Read the value of reference",
           "hierarchy": "Data STRef Persistent",
+          "indexed": "2014-03-11T19:37:59",
           "module": "Data.STRef.Persistent",
           "name": "readRef",
           "normalized": "a b-\u003ec b",
@@ -329,6 +355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a new value to a reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:59 UTC 2014",
           "module": "Data.STRef.Persistent",
           "name": "writeRef",
           "package": "persistent-refs",
@@ -338,6 +365,7 @@
         "index": {
           "description": "Write new value to reference",
           "hierarchy": "Data STRef Persistent",
+          "indexed": "2014-03-11T19:37:59",
           "module": "Data.STRef.Persistent",
           "name": "writeRef",
           "normalized": "a b-\u003eb-\u003ec()",

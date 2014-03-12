@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "clckwrks-plugin-media"
+        "phrase": "clckwrks-plugin-media",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Acid",
           "name": "Acid",
           "package": "clckwrks-plugin-media",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Acid",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Acid",
           "name": "Acid",
           "package": "clckwrks-plugin-media",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Acid",
           "name": "AllMediumIds",
           "package": "clckwrks-plugin-media",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Acid",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Acid",
           "name": "AllMediumIds",
           "package": "clckwrks-plugin-media",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Acid",
           "name": "GenMediumId",
           "package": "clckwrks-plugin-media",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Acid",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Acid",
           "name": "GenMediumId",
           "package": "clckwrks-plugin-media",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Acid",
           "name": "GetMediumById",
           "package": "clckwrks-plugin-media",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Acid",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Acid",
           "name": "GetMediumById",
           "package": "clckwrks-plugin-media",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Acid",
           "name": "MediaState",
           "package": "clckwrks-plugin-media",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Acid",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Acid",
           "name": "MediaState",
           "package": "clckwrks-plugin-media",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Acid",
           "name": "PutMedium",
           "package": "clckwrks-plugin-media",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Acid",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Acid",
           "name": "PutMedium",
           "package": "clckwrks-plugin-media",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Acid",
           "name": "AllMediumIds",
           "package": "clckwrks-plugin-media",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Acid",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Acid",
           "name": "AllMediumIds",
           "package": "clckwrks-plugin-media",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Acid",
           "name": "GenMediumId",
           "package": "clckwrks-plugin-media",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Acid",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Acid",
           "name": "GenMediumId",
           "package": "clckwrks-plugin-media",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Acid",
           "name": "GetMediumById",
           "package": "clckwrks-plugin-media",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Acid",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Acid",
           "name": "GetMediumById",
           "package": "clckwrks-plugin-media",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Acid",
           "name": "MediaState",
           "package": "clckwrks-plugin-media",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Acid",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Acid",
           "name": "MediaState",
           "package": "clckwrks-plugin-media",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Acid",
           "name": "PutMedium",
           "package": "clckwrks-plugin-media",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Acid",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Acid",
           "name": "PutMedium",
           "package": "clckwrks-plugin-media",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Acid",
           "name": "allMediumIds",
           "package": "clckwrks-plugin-media",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Acid",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Acid",
           "name": "allMediumIds",
           "normalized": "Query MediaState[MediumId]",
@@ -279,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the next unused \u003ccode\u003eMediaId\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Acid",
           "name": "genMediumId",
           "package": "clckwrks-plugin-media",
@@ -289,6 +314,7 @@
         "index": {
           "description": "get the next unused MediaId",
           "hierarchy": "Clckwrks Media Acid",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Acid",
           "name": "genMediumId",
           "package": "clckwrks-plugin-media",
@@ -303,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003ccode\u003eMedia\u003c/code\u003e by \u003ccode\u003e\u003ca\u003eMediumId\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Acid",
           "name": "getMediumById",
           "package": "clckwrks-plugin-media",
@@ -313,6 +340,7 @@
         "index": {
           "description": "get Media by MediumId",
           "hierarchy": "Clckwrks Media Acid",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Acid",
           "name": "getMediumById",
           "normalized": "MediumId-\u003eQuery MediaState(Maybe Medium)",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Acid",
           "name": "initialMediaState",
           "package": "clckwrks-plugin-media",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Acid",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Acid",
           "name": "initialMediaState",
           "package": "clckwrks-plugin-media",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Acid",
           "name": "media",
           "package": "clckwrks-plugin-media",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Acid",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Acid",
           "name": "media",
           "package": "clckwrks-plugin-media",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Acid",
           "name": "nextMediumId",
           "package": "clckwrks-plugin-media",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Acid",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Acid",
           "name": "nextMediumId",
           "package": "clckwrks-plugin-media",
@@ -394,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estore \u003ccode\u003eMedia\u003c/code\u003e in the state. Will overwrite an existing entry with the same \u003ccode\u003e\u003ca\u003eMediumId\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Acid",
           "name": "putMedium",
           "package": "clckwrks-plugin-media",
@@ -404,6 +439,7 @@
         "index": {
           "description": "store Media in the state Will overwrite an existing entry with the same MediumId",
           "hierarchy": "Clckwrks Media Acid",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Acid",
           "name": "putMedium",
           "normalized": "Medium-\u003eUpdate MediaState()",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Monad",
           "name": "Monad",
           "package": "clckwrks-plugin-media",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Monad",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Monad",
           "name": "Monad",
           "package": "clckwrks-plugin-media",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Monad",
           "name": "MediaConfig",
           "package": "clckwrks-plugin-media",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Monad",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Monad",
           "name": "MediaConfig",
           "package": "clckwrks-plugin-media",
@@ -461,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Monad",
           "name": "MediaForm",
           "package": "clckwrks-plugin-media",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Monad",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Monad",
           "name": "MediaForm",
           "package": "clckwrks-plugin-media",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Monad",
           "name": "MediaFormError",
           "package": "clckwrks-plugin-media",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Monad",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Monad",
           "name": "MediaFormError",
           "package": "clckwrks-plugin-media",
@@ -503,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Monad",
           "name": "MediaM",
           "package": "clckwrks-plugin-media",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Monad",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Monad",
           "name": "MediaM",
           "package": "clckwrks-plugin-media",
@@ -524,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Monad",
           "name": "MediaT",
           "package": "clckwrks-plugin-media",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Monad",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Monad",
           "name": "MediaT",
           "package": "clckwrks-plugin-media",
@@ -545,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Monad",
           "name": "MediaCFE",
           "package": "clckwrks-plugin-media",
@@ -554,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Monad",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Monad",
           "name": "MediaCFE",
           "normalized": "MediaCFE(CommonFormError[Input])",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Monad",
           "name": "MediaConfig",
           "package": "clckwrks-plugin-media",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Monad",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Monad",
           "name": "MediaConfig",
           "package": "clckwrks-plugin-media",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Monad",
           "name": "mediaClckURL",
           "package": "clckwrks-plugin-media",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Monad",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Monad",
           "name": "mediaClckURL",
           "normalized": "ClckURL-\u003e[(Text,Maybe Text)]-\u003eText",
@@ -616,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edirectory in which to store uploaded media files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Monad",
           "name": "mediaDirectory",
           "package": "clckwrks-plugin-media",
@@ -626,6 +681,7 @@
         "index": {
           "description": "directory in which to store uploaded media files",
           "hierarchy": "Clckwrks Media Monad",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Monad",
           "name": "mediaDirectory",
           "package": "clckwrks-plugin-media",
@@ -639,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Monad",
           "name": "mediaIOThread",
           "package": "clckwrks-plugin-media",
@@ -648,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Monad",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Monad",
           "name": "mediaIOThread",
           "normalized": "IOThread(Medium,PreviewSize)FilePath",
@@ -663,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Monad",
           "name": "mediaMagic",
           "package": "clckwrks-plugin-media",
@@ -672,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Monad",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Monad",
           "name": "mediaMagic",
           "package": "clckwrks-plugin-media",
@@ -685,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Monad",
           "name": "mediaState",
           "package": "clckwrks-plugin-media",
@@ -694,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Monad",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Monad",
           "name": "mediaState",
           "package": "clckwrks-plugin-media",
@@ -707,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Monad",
           "name": "runMediaT",
           "package": "clckwrks-plugin-media",
@@ -716,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Monad",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Monad",
           "name": "runMediaT",
           "normalized": "MediaConfig-\u003eMediaT a b-\u003eClckT MediaURL a b",
@@ -731,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Monad",
           "name": "withMediaConfig",
           "package": "clckwrks-plugin-media",
@@ -740,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Monad",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Monad",
           "name": "withMediaConfig",
           "normalized": "Maybe FilePath-\u003eFilePath-\u003e(MediaConfig-\u003eIO a)-\u003eIO a",
@@ -755,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Page.AllMedia",
           "name": "AllMedia",
           "package": "clckwrks-plugin-media",
@@ -763,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Page AllMedia",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Page.AllMedia",
           "name": "AllMedia",
           "package": "clckwrks-plugin-media",
@@ -776,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Page.AllMedia",
           "name": "allMedia",
           "package": "clckwrks-plugin-media",
@@ -785,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Page AllMedia",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Page.AllMedia",
           "name": "allMedia",
           "package": "clckwrks-plugin-media",
@@ -798,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Page.AllMedia",
           "name": "mkGallery",
           "package": "clckwrks-plugin-media",
@@ -807,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Page AllMedia",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Page.AllMedia",
           "name": "mkGallery",
           "normalized": "[MediumId]-\u003eXMLGenT MediaM XML",
@@ -822,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Page.AllMedia",
           "name": "mkPreview",
           "package": "clckwrks-plugin-media",
@@ -831,6 +904,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Page AllMedia",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Page.AllMedia",
           "name": "mkPreview",
           "normalized": "MediumId-\u003eXMLGenT MediaM XML",
@@ -846,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Page.GetMedium",
           "name": "GetMedium",
           "package": "clckwrks-plugin-media",
@@ -854,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Page GetMedium",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Page.GetMedium",
           "name": "GetMedium",
           "package": "clckwrks-plugin-media",
@@ -867,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Page.GetMedium",
           "name": "getMedium",
           "package": "clckwrks-plugin-media",
@@ -876,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Page GetMedium",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Page.GetMedium",
           "name": "getMedium",
           "normalized": "MediumId-\u003eMediaM Response",
@@ -891,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Page.Preview",
           "name": "Preview",
           "package": "clckwrks-plugin-media",
@@ -899,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Page Preview",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Page.Preview",
           "name": "Preview",
           "package": "clckwrks-plugin-media",
@@ -912,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Page.Preview",
           "name": "lookSize",
           "package": "clckwrks-plugin-media",
@@ -921,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Page Preview",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Page.Preview",
           "name": "lookSize",
           "package": "clckwrks-plugin-media",
@@ -934,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Page.Preview",
           "name": "previewMedium",
           "package": "clckwrks-plugin-media",
@@ -943,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Page Preview",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Page.Preview",
           "name": "previewMedium",
           "normalized": "MediumId-\u003eMediaM Response",
@@ -958,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Page.Preview",
           "name": "previewMediumFilePath",
           "package": "clckwrks-plugin-media",
@@ -967,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Page Preview",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Page.Preview",
           "name": "previewMediumFilePath",
           "normalized": "MediumId-\u003ePreviewSize-\u003eMediaM(Maybe FilePath)",
@@ -982,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Page.Upload",
           "name": "Upload",
           "package": "clckwrks-plugin-media",
@@ -990,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Page Upload",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Page.Upload",
           "name": "Upload",
           "package": "clckwrks-plugin-media",
@@ -1003,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Page.Upload",
           "name": "acceptedTypes",
           "package": "clckwrks-plugin-media",
@@ -1012,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Page Upload",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Page.Upload",
           "name": "acceptedTypes",
           "normalized": "[String]",
@@ -1027,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Page.Upload",
           "name": "contentTypeExtension",
           "package": "clckwrks-plugin-media",
@@ -1036,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Page Upload",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Page.Upload",
           "name": "contentTypeExtension",
           "normalized": "String-\u003eMaybe(String,MediumKind)",
@@ -1051,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Page.Upload",
           "name": "extensionMap",
           "package": "clckwrks-plugin-media",
@@ -1060,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Page Upload",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Page.Upload",
           "name": "extensionMap",
           "normalized": "Map String(String,MediumKind)",
@@ -1075,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Page.Upload",
           "name": "uploadForm",
           "package": "clckwrks-plugin-media",
@@ -1084,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Page Upload",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Page.Upload",
           "name": "uploadForm",
           "normalized": "MediaForm(FilePath,FilePath,ContentType)",
@@ -1099,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Page.Upload",
           "name": "uploadMedium",
           "package": "clckwrks-plugin-media",
@@ -1108,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Page Upload",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Page.Upload",
           "name": "uploadMedium",
           "normalized": "MediaURL-\u003eMediaM Response",
@@ -1123,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Plugin",
           "name": "Plugin",
           "package": "clckwrks-plugin-media",
@@ -1131,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Plugin",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Plugin",
           "name": "Plugin",
           "package": "clckwrks-plugin-media",
@@ -1144,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Plugin",
           "name": "addMediaAdminMenu",
           "package": "clckwrks-plugin-media",
@@ -1153,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Plugin",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Plugin",
           "name": "addMediaAdminMenu",
           "normalized": "ClckT a IO()",
@@ -1168,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Plugin",
           "name": "mediaHandler",
           "package": "clckwrks-plugin-media",
@@ -1177,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Plugin",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Plugin",
           "name": "mediaHandler",
           "normalized": "(MediaURL-\u003e[(Text,Maybe Text)]-\u003eText)-\u003eMediaConfig-\u003eClckPlugins-\u003e[Text]-\u003eClckT ClckURL(ServerPartT IO)Response",
@@ -1192,6 +1296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Plugin",
           "name": "mediaInit",
           "package": "clckwrks-plugin-media",
@@ -1201,6 +1306,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Plugin",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Plugin",
           "name": "mediaInit",
           "normalized": "ClckPlugins-\u003eIO(Maybe Text)",
@@ -1216,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Plugin",
           "name": "mediaPlugin",
           "package": "clckwrks-plugin-media",
@@ -1225,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Plugin",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Plugin",
           "name": "mediaPlugin",
           "normalized": "Plugin MediaURL Theme(ClckT ClckURL(ServerPartT IO)Response)(ClckT ClckURL IO())ClckwrksConfig ClckPluginsSt",
@@ -1240,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Plugin",
           "name": "plugin",
           "package": "clckwrks-plugin-media",
@@ -1248,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Plugin",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Plugin",
           "name": "plugin",
           "normalized": "ClckPlugins-\u003eText-\u003eIO(Maybe Text)",
@@ -1262,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.PreProcess",
           "name": "PreProcess",
           "package": "clckwrks-plugin-media",
@@ -1270,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media PreProcess",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.PreProcess",
           "name": "PreProcess",
           "package": "clckwrks-plugin-media",
@@ -1283,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.PreProcess",
           "name": "applyCmd",
           "package": "clckwrks-plugin-media",
@@ -1292,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media PreProcess",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.PreProcess",
           "name": "applyCmd",
           "normalized": "(MediaURL-\u003e[a]-\u003ea)-\u003e(MediumId,[Attribute])-\u003eb Builder",
@@ -1307,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.PreProcess",
           "name": "height",
           "package": "clckwrks-plugin-media",
@@ -1316,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media PreProcess",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.PreProcess",
           "name": "height",
           "package": "clckwrks-plugin-media",
@@ -1328,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.PreProcess",
           "name": "mediaCmd",
           "package": "clckwrks-plugin-media",
@@ -1337,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media PreProcess",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.PreProcess",
           "name": "mediaCmd",
           "normalized": "(MediaURL-\u003e[(Text,Maybe Text)]-\u003eText)-\u003eText-\u003eClckT a b Text",
@@ -1352,6 +1470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.PreProcess",
           "name": "parseAttr",
           "package": "clckwrks-plugin-media",
@@ -1361,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media PreProcess",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.PreProcess",
           "name": "parseAttr",
           "normalized": "Text-\u003eParser()",
@@ -1376,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.PreProcess",
           "name": "parseCmd",
           "package": "clckwrks-plugin-media",
@@ -1385,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media PreProcess",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.PreProcess",
           "name": "parseCmd",
           "normalized": "Parser(MediumId,[Attribute])",
@@ -1400,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.PreProcess",
           "name": "width",
           "package": "clckwrks-plugin-media",
@@ -1409,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media PreProcess",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.PreProcess",
           "name": "width",
           "package": "clckwrks-plugin-media",
@@ -1421,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Preview",
           "name": "Preview",
           "package": "clckwrks-plugin-media",
@@ -1429,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Preview",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Preview",
           "name": "Preview",
           "package": "clckwrks-plugin-media",
@@ -1442,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Preview",
           "name": "applyTransforms",
           "package": "clckwrks-plugin-media",
@@ -1451,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Preview",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Preview",
           "name": "applyTransforms",
           "normalized": "FilePath-\u003eFilePath-\u003e(Medium,PreviewSize)-\u003eIO FilePath",
@@ -1466,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Preview",
           "name": "gifThumbnail",
           "package": "clckwrks-plugin-media",
@@ -1475,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Preview",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Preview",
           "name": "gifThumbnail",
           "normalized": "PreviewSize-\u003eFilePath-\u003eFilePath-\u003eIO()",
@@ -1490,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Preview",
           "name": "jpgThumbnail",
           "package": "clckwrks-plugin-media",
@@ -1499,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Preview",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Preview",
           "name": "jpgThumbnail",
           "normalized": "PreviewSize-\u003eFilePath-\u003eFilePath-\u003eIO()",
@@ -1514,6 +1646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Preview",
           "name": "mkThumbnail",
           "package": "clckwrks-plugin-media",
@@ -1523,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Preview",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Preview",
           "name": "mkThumbnail",
           "normalized": "MediumKind-\u003ePreviewSize-\u003eFilePath-\u003eFilePath-\u003eIO()",
@@ -1538,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Preview",
           "name": "pngThumbnail",
           "package": "clckwrks-plugin-media",
@@ -1547,6 +1682,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Preview",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Preview",
           "name": "pngThumbnail",
           "normalized": "PreviewSize-\u003eFilePath-\u003eFilePath-\u003eIO()",
@@ -1562,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Route",
           "name": "Route",
           "package": "clckwrks-plugin-media",
@@ -1570,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Route",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Route",
           "name": "Route",
           "package": "clckwrks-plugin-media",
@@ -1583,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Route",
           "name": "checkAuth",
           "package": "clckwrks-plugin-media",
@@ -1592,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Route",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Route",
           "name": "checkAuth",
           "normalized": "MediaURL-\u003eMediaM MediaURL",
@@ -1607,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Route",
           "name": "routeMedia",
           "package": "clckwrks-plugin-media",
@@ -1616,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Route",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Route",
           "name": "routeMedia",
           "normalized": "MediaURL-\u003eMediaM Response",
@@ -1631,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Types",
           "name": "Types",
           "package": "clckwrks-plugin-media",
@@ -1639,6 +1782,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Types",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Types",
           "name": "Types",
           "package": "clckwrks-plugin-media",
@@ -1652,6 +1796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Types",
           "name": "Medium",
           "package": "clckwrks-plugin-media",
@@ -1660,6 +1805,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Types",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Types",
           "name": "Medium",
           "package": "clckwrks-plugin-media",
@@ -1673,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Types",
           "name": "MediumId",
           "package": "clckwrks-plugin-media",
@@ -1681,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Types",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Types",
           "name": "MediumId",
           "package": "clckwrks-plugin-media",
@@ -1694,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Types",
           "name": "MediumKind",
           "package": "clckwrks-plugin-media",
@@ -1702,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Types",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Types",
           "name": "MediumKind",
           "package": "clckwrks-plugin-media",
@@ -1715,6 +1865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Types",
           "name": "PreviewSize",
           "package": "clckwrks-plugin-media",
@@ -1723,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Types",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Types",
           "name": "PreviewSize",
           "package": "clckwrks-plugin-media",
@@ -1736,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Types",
           "name": "GIF",
           "package": "clckwrks-plugin-media",
@@ -1745,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Types",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Types",
           "name": "GIF",
           "package": "clckwrks-plugin-media",
@@ -1758,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Types",
           "name": "Grande",
           "package": "clckwrks-plugin-media",
@@ -1767,6 +1922,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Types",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Types",
           "name": "Grande",
           "package": "clckwrks-plugin-media",
@@ -1780,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Types",
           "name": "JPEG",
           "package": "clckwrks-plugin-media",
@@ -1789,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Types",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Types",
           "name": "JPEG",
           "package": "clckwrks-plugin-media",
@@ -1802,6 +1960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Types",
           "name": "Medium",
           "package": "clckwrks-plugin-media",
@@ -1811,6 +1970,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Types",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Types",
           "name": "Medium",
           "package": "clckwrks-plugin-media",
@@ -1824,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Types",
           "name": "MediumId",
           "package": "clckwrks-plugin-media",
@@ -1833,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Types",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Types",
           "name": "MediumId",
           "package": "clckwrks-plugin-media",
@@ -1846,6 +2008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Types",
           "name": "PNG",
           "package": "clckwrks-plugin-media",
@@ -1855,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Types",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Types",
           "name": "PNG",
           "package": "clckwrks-plugin-media",
@@ -1868,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Types",
           "name": "Tall",
           "package": "clckwrks-plugin-media",
@@ -1877,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Types",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Types",
           "name": "Tall",
           "package": "clckwrks-plugin-media",
@@ -1890,6 +2056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Types",
           "name": "Venti",
           "package": "clckwrks-plugin-media",
@@ -1899,6 +2066,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Types",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Types",
           "name": "Venti",
           "package": "clckwrks-plugin-media",
@@ -1912,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Types",
           "name": "mediumContentType",
           "package": "clckwrks-plugin-media",
@@ -1921,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Types",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Types",
           "name": "mediumContentType",
           "normalized": "MediumKind-\u003eString",
@@ -1936,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Types",
           "name": "mediumId",
           "package": "clckwrks-plugin-media",
@@ -1945,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Types",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Types",
           "name": "mediumId",
           "package": "clckwrks-plugin-media",
@@ -1958,6 +2130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Types",
           "name": "mediumKind",
           "package": "clckwrks-plugin-media",
@@ -1967,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Types",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Types",
           "name": "mediumKind",
           "package": "clckwrks-plugin-media",
@@ -1980,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Types",
           "name": "mediumPath",
           "package": "clckwrks-plugin-media",
@@ -1989,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Types",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Types",
           "name": "mediumPath",
           "package": "clckwrks-plugin-media",
@@ -2002,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Types",
           "name": "unMediumId",
           "package": "clckwrks-plugin-media",
@@ -2011,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Types",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Types",
           "name": "unMediumId",
           "package": "clckwrks-plugin-media",
@@ -2024,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.Types",
           "name": "uploadName",
           "package": "clckwrks-plugin-media",
@@ -2033,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media Types",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.Types",
           "name": "uploadName",
           "package": "clckwrks-plugin-media",
@@ -2046,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.URL",
           "name": "URL",
           "package": "clckwrks-plugin-media",
@@ -2054,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media URL",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.URL",
           "name": "URL",
           "package": "clckwrks-plugin-media",
@@ -2067,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.URL",
           "name": "MediaAdminURL",
           "package": "clckwrks-plugin-media",
@@ -2075,6 +2258,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media URL",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.URL",
           "name": "MediaAdminURL",
           "package": "clckwrks-plugin-media",
@@ -2088,6 +2272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.URL",
           "name": "MediaURL",
           "package": "clckwrks-plugin-media",
@@ -2096,6 +2281,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media URL",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.URL",
           "name": "MediaURL",
           "package": "clckwrks-plugin-media",
@@ -2109,6 +2295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.URL",
           "name": "AllMedia",
           "package": "clckwrks-plugin-media",
@@ -2118,6 +2305,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media URL",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.URL",
           "name": "AllMedia",
           "package": "clckwrks-plugin-media",
@@ -2131,6 +2319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.URL",
           "name": "GetMedium",
           "package": "clckwrks-plugin-media",
@@ -2140,6 +2329,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media URL",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.URL",
           "name": "GetMedium",
           "package": "clckwrks-plugin-media",
@@ -2153,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.URL",
           "name": "MediaAdmin",
           "package": "clckwrks-plugin-media",
@@ -2162,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media URL",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.URL",
           "name": "MediaAdmin",
           "package": "clckwrks-plugin-media",
@@ -2175,6 +2367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.URL",
           "name": "Preview",
           "package": "clckwrks-plugin-media",
@@ -2184,6 +2377,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media URL",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.URL",
           "name": "Preview",
           "package": "clckwrks-plugin-media",
@@ -2197,6 +2391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media.URL",
           "name": "Upload",
           "package": "clckwrks-plugin-media",
@@ -2206,6 +2401,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media URL",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media.URL",
           "name": "Upload",
           "package": "clckwrks-plugin-media",
@@ -2219,6 +2415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Clckwrks.Media",
           "name": "Media",
           "package": "clckwrks-plugin-media",
@@ -2227,6 +2424,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Media",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Clckwrks.Media",
           "name": "Media",
           "package": "clckwrks-plugin-media",
@@ -2240,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Paths_clckwrks_plugin_media",
           "name": "Paths_clckwrks_plugin_media",
           "package": "clckwrks-plugin-media",
@@ -2248,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_media",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Paths_clckwrks_plugin_media",
           "name": "Paths_clckwrks_plugin_media",
           "package": "clckwrks-plugin-media",
@@ -2261,6 +2461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Paths_clckwrks_plugin_media",
           "name": "getBinDir",
           "package": "clckwrks-plugin-media",
@@ -2270,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_media",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Paths_clckwrks_plugin_media",
           "name": "getBinDir",
           "package": "clckwrks-plugin-media",
@@ -2283,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Paths_clckwrks_plugin_media",
           "name": "getDataDir",
           "package": "clckwrks-plugin-media",
@@ -2292,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_media",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Paths_clckwrks_plugin_media",
           "name": "getDataDir",
           "package": "clckwrks-plugin-media",
@@ -2305,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Paths_clckwrks_plugin_media",
           "name": "getDataFileName",
           "package": "clckwrks-plugin-media",
@@ -2314,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_media",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Paths_clckwrks_plugin_media",
           "name": "getDataFileName",
           "normalized": "FilePath-\u003eIO FilePath",
@@ -2329,6 +2535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Paths_clckwrks_plugin_media",
           "name": "getLibDir",
           "package": "clckwrks-plugin-media",
@@ -2338,6 +2545,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_media",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Paths_clckwrks_plugin_media",
           "name": "getLibDir",
           "package": "clckwrks-plugin-media",
@@ -2351,6 +2559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Paths_clckwrks_plugin_media",
           "name": "getLibexecDir",
           "package": "clckwrks-plugin-media",
@@ -2360,6 +2569,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_media",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Paths_clckwrks_plugin_media",
           "name": "getLibexecDir",
           "package": "clckwrks-plugin-media",
@@ -2373,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:59 UTC 2014",
           "module": "Paths_clckwrks_plugin_media",
           "name": "version",
           "package": "clckwrks-plugin-media",
@@ -2382,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_media",
+          "indexed": "2014-03-11T17:33:59",
           "module": "Paths_clckwrks_plugin_media",
           "name": "version",
           "package": "clckwrks-plugin-media",

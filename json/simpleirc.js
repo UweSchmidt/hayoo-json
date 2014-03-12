@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simpleirc"
+        "phrase": "simpleirc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFor information on how to use this library please take a look at the readme file on github, \u003ca\u003ehttp://github.com/dom96/SimpleIRC#readme\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "Core",
           "package": "simpleirc",
@@ -28,6 +29,7 @@
         "index": {
           "description": "For information on how to use this library please take look at the readme file on github http github.com dom96 SimpleIRC readme",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "Core",
           "package": "simpleirc",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "EventFunc",
           "package": "simpleirc",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "EventFunc",
           "package": "simpleirc",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "IrcConfig",
           "package": "simpleirc",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "IrcConfig",
           "package": "simpleirc",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "IrcEvent",
           "package": "simpleirc",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "IrcEvent",
           "package": "simpleirc",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "MIrc",
           "package": "simpleirc",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "MIrc",
           "package": "simpleirc",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis event gets called whenever the\n   connection with the server is dropped\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "Disconnect",
           "package": "simpleirc",
@@ -136,6 +147,7 @@
         "index": {
           "description": "This event gets called whenever the connection with the server is dropped",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "Disconnect",
           "normalized": "Disconnect(MIrc-\u003eIO())",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eINVITE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "Invite",
           "package": "simpleirc",
@@ -162,6 +175,7 @@
         "index": {
           "description": "INVITE",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "Invite",
           "package": "simpleirc",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "IrcConfig",
           "package": "simpleirc",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "IrcConfig",
           "package": "simpleirc",
@@ -198,6 +214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJOIN\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "Join",
           "package": "simpleirc",
@@ -208,6 +225,7 @@
         "index": {
           "description": "JOIN",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "Join",
           "package": "simpleirc",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKICK\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "Kick",
           "package": "simpleirc",
@@ -232,6 +251,7 @@
         "index": {
           "description": "KICK",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "Kick",
           "package": "simpleirc",
@@ -246,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMODE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "Mode",
           "package": "simpleirc",
@@ -256,6 +277,7 @@
         "index": {
           "description": "MODE",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "Mode",
           "package": "simpleirc",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNICK\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "Nick",
           "package": "simpleirc",
@@ -280,6 +303,7 @@
         "index": {
           "description": "NICK",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "Nick",
           "package": "simpleirc",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNOTICE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "Notice",
           "package": "simpleirc",
@@ -304,6 +329,7 @@
         "index": {
           "description": "NOTICE",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "Notice",
           "package": "simpleirc",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumeric, 001, 002, 372 etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "Numeric",
           "package": "simpleirc",
@@ -328,6 +355,7 @@
         "index": {
           "description": "Numeric etc",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "Numeric",
           "package": "simpleirc",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePART\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "Part",
           "package": "simpleirc",
@@ -352,6 +381,7 @@
         "index": {
           "description": "PART",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "Part",
           "package": "simpleirc",
@@ -366,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePING\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "Ping",
           "package": "simpleirc",
@@ -376,6 +407,7 @@
         "index": {
           "description": "PING",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "Ping",
           "package": "simpleirc",
@@ -390,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePRIVMSG\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "Privmsg",
           "package": "simpleirc",
@@ -400,6 +433,7 @@
         "index": {
           "description": "PRIVMSG",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "Privmsg",
           "package": "simpleirc",
@@ -414,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQUIT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "Quit",
           "package": "simpleirc",
@@ -424,6 +459,7 @@
         "index": {
           "description": "QUIT",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "Quit",
           "package": "simpleirc",
@@ -438,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis event gets called on every message received\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "RawMsg",
           "package": "simpleirc",
@@ -448,6 +485,7 @@
         "index": {
           "description": "This event gets called on every message received",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "RawMsg",
           "package": "simpleirc",
@@ -462,6 +500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTOPIC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "Topic",
           "package": "simpleirc",
@@ -472,6 +511,7 @@
         "index": {
           "description": "TOPIC",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "Topic",
           "package": "simpleirc",
@@ -485,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "addEvent",
           "package": "simpleirc",
@@ -494,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "addEvent",
           "normalized": "MIrc-\u003eIrcEvent-\u003eIO Unique",
@@ -510,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer address to connect to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "cAddr",
           "package": "simpleirc",
@@ -520,6 +563,7 @@
         "index": {
           "description": "Server address to connect to",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "cAddr",
           "package": "simpleirc",
@@ -534,6 +578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat to send on CTCP TIME\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "cCTCPTime",
           "package": "simpleirc",
@@ -544,6 +589,7 @@
         "index": {
           "description": "What to send on CTCP TIME",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "cCTCPTime",
           "package": "simpleirc",
@@ -558,6 +604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat to send on CTCP VERSION\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "cCTCPVersion",
           "package": "simpleirc",
@@ -568,6 +615,7 @@
         "index": {
           "description": "What to send on CTCP VERSION",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "cCTCPVersion",
           "package": "simpleirc",
@@ -582,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of channels to join on connect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "cChannels",
           "package": "simpleirc",
@@ -592,6 +641,7 @@
         "index": {
           "description": "List of channels to join on connect",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "cChannels",
           "normalized": "[String]",
@@ -608,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvents to bind\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "cEvents",
           "package": "simpleirc",
@@ -618,6 +669,7 @@
         "index": {
           "description": "Events to bind",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "cEvents",
           "normalized": "[IrcEvent]",
@@ -634,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNickname\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "cNick",
           "package": "simpleirc",
@@ -644,6 +697,7 @@
         "index": {
           "description": "Nickname",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "cNick",
           "package": "simpleirc",
@@ -658,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional server password\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "cPass",
           "package": "simpleirc",
@@ -668,6 +723,7 @@
         "index": {
           "description": "Optional server password",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "cPass",
           "package": "simpleirc",
@@ -681,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "cPingTimeoutInterval",
           "package": "simpleirc",
@@ -690,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "cPingTimeoutInterval",
           "package": "simpleirc",
@@ -704,6 +762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer port to connect to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "cPort",
           "package": "simpleirc",
@@ -714,6 +773,7 @@
         "index": {
           "description": "Server port to connect to",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "cPort",
           "package": "simpleirc",
@@ -728,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRealname\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "cRealname",
           "package": "simpleirc",
@@ -738,6 +799,7 @@
         "index": {
           "description": "Realname",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "cRealname",
           "package": "simpleirc",
@@ -752,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsername\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "cUsername",
           "package": "simpleirc",
@@ -762,6 +825,7 @@
         "index": {
           "description": "Username",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "cUsername",
           "package": "simpleirc",
@@ -775,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "changeEvents",
           "package": "simpleirc",
@@ -784,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "changeEvents",
           "normalized": "MIrc-\u003e[IrcEvent]-\u003eIO()",
@@ -800,6 +866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnects to a server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "connect",
           "package": "simpleirc",
@@ -809,6 +876,7 @@
         "index": {
           "description": "Connects to server",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "connect",
           "normalized": "IrcConfig-\u003eBool-\u003eBool-\u003eIO(Either IOError MIrc)",
@@ -824,6 +892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a QUIT command to the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "disconnect",
           "package": "simpleirc",
@@ -833,6 +902,7 @@
         "index": {
           "description": "Sends QUIT command to the server",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "disconnect",
           "normalized": "MIrc-\u003eByteString-\u003eIO()",
@@ -848,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "getAddress",
           "package": "simpleirc",
@@ -858,6 +929,7 @@
         "index": {
           "description": "Returns the address",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "getAddress",
           "normalized": "MIrc-\u003eIO ByteString",
@@ -874,6 +946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of channels currently joined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "getChannels",
           "package": "simpleirc",
@@ -884,6 +957,7 @@
         "index": {
           "description": "Returns list of channels currently joined",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "getChannels",
           "normalized": "MIrc-\u003eIO[ByteString]",
@@ -900,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the current nickname.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "getNickname",
           "package": "simpleirc",
@@ -910,6 +985,7 @@
         "index": {
           "description": "Returns the current nickname",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "getNickname",
           "normalized": "MIrc-\u003eIO ByteString",
@@ -926,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "getPort",
           "package": "simpleirc",
@@ -936,6 +1013,7 @@
         "index": {
           "description": "Returns the address",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "getPort",
           "normalized": "MIrc-\u003eIO Int",
@@ -952,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the Real name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "getRealname",
           "package": "simpleirc",
@@ -962,6 +1041,7 @@
         "index": {
           "description": "Returns the Real name",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "getRealname",
           "normalized": "MIrc-\u003eIO ByteString",
@@ -978,6 +1058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the User name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "getUsername",
           "package": "simpleirc",
@@ -988,6 +1069,7 @@
         "index": {
           "description": "Returns the User name",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "getUsername",
           "normalized": "MIrc-\u003eIO ByteString",
@@ -1003,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "mkDefaultConfig",
           "package": "simpleirc",
@@ -1012,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "mkDefaultConfig",
           "normalized": "String-\u003eString-\u003eIrcConfig",
@@ -1028,6 +1112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReconnects to the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "reconnect",
           "package": "simpleirc",
@@ -1038,6 +1123,7 @@
         "index": {
           "description": "Reconnects to the server",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "reconnect",
           "normalized": "MIrc-\u003eIO(Either IOError MIrc)",
@@ -1052,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "remEvent",
           "package": "simpleirc",
@@ -1061,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "remEvent",
           "normalized": "MIrc-\u003eUnique-\u003eIO()",
@@ -1076,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "sendCmd",
           "package": "simpleirc",
@@ -1085,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "sendCmd",
           "normalized": "MIrc-\u003eCommand-\u003eIO()",
@@ -1101,6 +1191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a message to a channel\n\u003c/p\u003e\u003cp\u003eImplements flood control according to RFC 2813, chapter 5.8\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "sendMsg",
           "package": "simpleirc",
@@ -1110,6 +1201,7 @@
         "index": {
           "description": "Sends message to channel Implements flood control according to RFC chapter",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "sendMsg",
           "normalized": "MIrc-\u003eByteString-\u003eByteString-\u003eIO()",
@@ -1126,6 +1218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a raw command to the server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Core",
           "name": "sendRaw",
           "package": "simpleirc",
@@ -1136,6 +1229,7 @@
         "index": {
           "description": "Sends raw command to the server",
           "hierarchy": "Network SimpleIRC Core",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Core",
           "name": "sendRaw",
           "normalized": "MIrc-\u003eByteString-\u003eIO()",
@@ -1152,6 +1246,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMessages (parsing) module\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "Messages",
           "package": "simpleirc",
@@ -1161,6 +1256,7 @@
         "index": {
           "description": "Messages parsing module",
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "Messages",
           "package": "simpleirc",
@@ -1174,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "Command",
           "package": "simpleirc",
@@ -1182,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "Command",
           "package": "simpleirc",
@@ -1195,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "IrcMessage",
           "package": "simpleirc",
@@ -1203,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "IrcMessage",
           "package": "simpleirc",
@@ -1216,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "IrcMessage",
           "package": "simpleirc",
@@ -1225,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "IrcMessage",
           "package": "simpleirc",
@@ -1239,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePRIVMSG usr/#chan :ACTION msg\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "MAction",
           "package": "simpleirc",
@@ -1249,6 +1352,7 @@
         "index": {
           "description": "PRIVMSG usr chan ACTION msg",
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "MAction",
           "package": "simpleirc",
@@ -1263,6 +1367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eINVITE user #chan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "MInvite",
           "package": "simpleirc",
@@ -1273,6 +1378,7 @@
         "index": {
           "description": "INVITE user chan",
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "MInvite",
           "package": "simpleirc",
@@ -1287,6 +1393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJOIN #chan key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "MJoin",
           "package": "simpleirc",
@@ -1297,6 +1404,7 @@
         "index": {
           "description": "JOIN chan key",
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "MJoin",
           "package": "simpleirc",
@@ -1311,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKICK #chan user :msg\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "MKick",
           "package": "simpleirc",
@@ -1321,6 +1430,7 @@
         "index": {
           "description": "KICK chan user msg",
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "MKick",
           "package": "simpleirc",
@@ -1335,6 +1445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMODE #chan +o user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "MMode",
           "package": "simpleirc",
@@ -1345,6 +1456,7 @@
         "index": {
           "description": "MODE chan user",
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "MMode",
           "package": "simpleirc",
@@ -1359,6 +1471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNICK newnick\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "MNick",
           "package": "simpleirc",
@@ -1369,6 +1482,7 @@
         "index": {
           "description": "NICK newnick",
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "MNick",
           "package": "simpleirc",
@@ -1383,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNOTICE usr/#chan :msg\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "MNotice",
           "package": "simpleirc",
@@ -1393,6 +1508,7 @@
         "index": {
           "description": "NOTICE usr chan msg",
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "MNotice",
           "package": "simpleirc",
@@ -1407,6 +1523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePART #chan :msg\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "MPart",
           "package": "simpleirc",
@@ -1417,6 +1534,7 @@
         "index": {
           "description": "PART chan msg",
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "MPart",
           "package": "simpleirc",
@@ -1431,6 +1549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePRIVMSG #chan :msg\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "MPrivmsg",
           "package": "simpleirc",
@@ -1441,6 +1560,7 @@
         "index": {
           "description": "PRIVMSG chan msg",
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "MPrivmsg",
           "package": "simpleirc",
@@ -1455,6 +1575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQUIT :msg\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "MQuit",
           "package": "simpleirc",
@@ -1465,6 +1586,7 @@
         "index": {
           "description": "QUIT msg",
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "MQuit",
           "package": "simpleirc",
@@ -1479,6 +1601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTOPIC #chan :topic\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "MTopic",
           "package": "simpleirc",
@@ -1489,6 +1612,7 @@
         "index": {
           "description": "TOPIC chan topic",
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "MTopic",
           "package": "simpleirc",
@@ -1502,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "mChan",
           "package": "simpleirc",
@@ -1511,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "mChan",
           "package": "simpleirc",
@@ -1524,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "mCode",
           "package": "simpleirc",
@@ -1533,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "mCode",
           "package": "simpleirc",
@@ -1546,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "mHost",
           "package": "simpleirc",
@@ -1555,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "mHost",
           "package": "simpleirc",
@@ -1568,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "mMsg",
           "package": "simpleirc",
@@ -1577,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "mMsg",
           "package": "simpleirc",
@@ -1590,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "mNick",
           "package": "simpleirc",
@@ -1599,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "mNick",
           "package": "simpleirc",
@@ -1613,6 +1747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrigin of the message, this is mNick if a message was sent directly to the bot, otherwise if it got sent to the channel it's mChan.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "mOrigin",
           "package": "simpleirc",
@@ -1623,6 +1758,7 @@
         "index": {
           "description": "Origin of the message this is mNick if message was sent directly to the bot otherwise if it got sent to the channel it mChan",
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "mOrigin",
           "package": "simpleirc",
@@ -1636,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "mOther",
           "package": "simpleirc",
@@ -1645,6 +1782,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "mOther",
           "normalized": "Maybe[ByteString]",
@@ -1660,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "mRaw",
           "package": "simpleirc",
@@ -1669,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "mRaw",
           "package": "simpleirc",
@@ -1682,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "mServer",
           "package": "simpleirc",
@@ -1691,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "mServer",
           "package": "simpleirc",
@@ -1704,6 +1846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "mUser",
           "package": "simpleirc",
@@ -1713,6 +1856,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "mUser",
           "package": "simpleirc",
@@ -1727,6 +1871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a raw IRC message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "parse",
           "package": "simpleirc",
@@ -1737,6 +1882,7 @@
         "index": {
           "description": "Parse raw IRC message",
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "parse",
           "normalized": "ByteString-\u003eIrcMessage",
@@ -1751,6 +1897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC.Messages",
           "name": "showCommand",
           "package": "simpleirc",
@@ -1760,6 +1907,7 @@
         },
         "index": {
           "hierarchy": "Network SimpleIRC Messages",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC.Messages",
           "name": "showCommand",
           "normalized": "Command-\u003eByteString",
@@ -1776,6 +1924,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple and efficient IRC Library\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:03:29 UTC 2014",
           "module": "Network.SimpleIRC",
           "name": "SimpleIRC",
           "package": "simpleirc",
@@ -1785,6 +1934,7 @@
         "index": {
           "description": "Simple and efficient IRC Library",
           "hierarchy": "Network SimpleIRC",
+          "indexed": "2014-03-11T20:03:29",
           "module": "Network.SimpleIRC",
           "name": "SimpleIRC",
           "package": "simpleirc",

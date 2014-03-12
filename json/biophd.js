@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "biophd"
+        "phrase": "biophd",
+        "type": "phrase"
       },
       "type": "context"
     }

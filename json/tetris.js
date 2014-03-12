@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tetris"
+        "phrase": "tetris",
+        "type": "phrase"
       },
       "type": "context"
     }

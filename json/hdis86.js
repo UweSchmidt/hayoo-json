@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hdis86"
+        "phrase": "hdis86",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBare import of the \u003ccode\u003eudis86\u003c/code\u003e C library.\n\u003c/p\u003e\u003cp\u003eThis module is not recommended for most users. What you see is what you get.\n The modules \u003ca\u003eHdis86.IO\u003c/a\u003e and \u003ca\u003eHdis86.Pure\u003c/a\u003e provide a more Haskell-friendly\n interface to the same functionality.\n\u003c/p\u003e\u003cp\u003eIf you want to use this module, see the \u003ccode\u003eudis86\u003c/code\u003e documentation: \u003ca\u003ehttp://udis86.sourceforge.net\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eInstruction opcodes are not enumerated here. You can convert between the\n C-level integer codes and the type \u003ccode\u003e\u003ccode\u003eHdis86.Types.Opcode\u003c/code\u003e\u003c/code\u003e using the latter's\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEnum\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e instance.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "C",
           "package": "hdis86",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Bare import of the udis86 library This module is not recommended for most users What you see is what you get The modules Hdis86.IO and Hdis86.Pure provide more Haskell-friendly interface to the same functionality If you want to use this module see the udis86 documentation http udis86.sourceforge.net Instruction opcodes are not enumerated here You can convert between the C-level integer codes and the type Hdis86.Types.Opcode using the latter Enum instance",
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "C",
           "package": "hdis86",
@@ -40,6 +42,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "InputHook",
           "package": "hdis86",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "InputHook",
           "package": "hdis86",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnother pointer tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "Operand",
           "package": "hdis86",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Another pointer tag",
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "Operand",
           "package": "hdis86",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "Translator",
           "package": "hdis86",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "Translator",
           "package": "hdis86",
@@ -106,6 +114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust a pointer tag, with no Haskell representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "UD_t",
           "package": "hdis86",
@@ -115,6 +124,7 @@
         "index": {
           "description": "Just pointer tag with no Haskell representation",
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "UD_t",
           "package": "hdis86",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "UD_type",
           "package": "hdis86",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "UD_type",
           "package": "hdis86",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "UD_vendor",
           "package": "hdis86",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "UD_vendor",
           "package": "hdis86",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "disassemble",
           "package": "hdis86",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "disassemble",
           "normalized": "Ptr UD_t-\u003eIO CUInt",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "eoi",
           "package": "hdis86",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "eoi",
           "package": "hdis86",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_base",
           "package": "hdis86",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_base",
           "normalized": "Ptr Operand-\u003eIO UD_type",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_index",
           "package": "hdis86",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_index",
           "normalized": "Ptr Operand-\u003eIO UD_type",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_lval_ptr",
           "package": "hdis86",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_lval_ptr",
           "normalized": "Ptr Operand-\u003eIO(Word,Word)",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_lval_s16",
           "package": "hdis86",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_lval_s16",
           "normalized": "Ptr Operand-\u003eIO Int",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_lval_s32",
           "package": "hdis86",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_lval_s32",
           "normalized": "Ptr Operand-\u003eIO Int",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_lval_s64",
           "package": "hdis86",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_lval_s64",
           "normalized": "Ptr Operand-\u003eIO Int",
@@ -352,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_lval_s8",
           "package": "hdis86",
@@ -361,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_lval_s8",
           "normalized": "Ptr Operand-\u003eIO Int",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_lval_u16",
           "package": "hdis86",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_lval_u16",
           "normalized": "Ptr Operand-\u003eIO Word",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_lval_u32",
           "package": "hdis86",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_lval_u32",
           "normalized": "Ptr Operand-\u003eIO Word",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_lval_u64",
           "package": "hdis86",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_lval_u64",
           "normalized": "Ptr Operand-\u003eIO Word",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_lval_u8",
           "package": "hdis86",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_lval_u8",
           "normalized": "Ptr Operand-\u003eIO Word",
@@ -467,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_mnemonic",
           "package": "hdis86",
@@ -476,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_mnemonic",
           "normalized": "Ptr UD_t-\u003eIO CUInt",
@@ -490,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_offset",
           "package": "hdis86",
@@ -499,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_offset",
           "normalized": "Ptr Operand-\u003eIO Word",
@@ -513,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_operand1",
           "package": "hdis86",
@@ -522,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_operand1",
           "normalized": "Ptr UD_t-\u003ePtr Operand",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_operand2",
           "package": "hdis86",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_operand2",
           "normalized": "Ptr UD_t-\u003ePtr Operand",
@@ -559,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_operand3",
           "package": "hdis86",
@@ -568,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_operand3",
           "normalized": "Ptr UD_t-\u003ePtr Operand",
@@ -582,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_pc",
           "package": "hdis86",
@@ -591,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_pc",
           "normalized": "Ptr UD_t-\u003eIO Word",
@@ -605,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_pfx_adr",
           "package": "hdis86",
@@ -614,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_pfx_adr",
           "normalized": "Ptr UD_t-\u003eIO Word",
@@ -628,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_pfx_lock",
           "package": "hdis86",
@@ -637,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_pfx_lock",
           "normalized": "Ptr UD_t-\u003eIO Word",
@@ -651,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_pfx_opr",
           "package": "hdis86",
@@ -660,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_pfx_opr",
           "normalized": "Ptr UD_t-\u003eIO Word",
@@ -674,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_pfx_rep",
           "package": "hdis86",
@@ -683,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_pfx_rep",
           "normalized": "Ptr UD_t-\u003eIO Word",
@@ -697,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_pfx_repe",
           "package": "hdis86",
@@ -706,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_pfx_repe",
           "normalized": "Ptr UD_t-\u003eIO Word",
@@ -720,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_pfx_repne",
           "package": "hdis86",
@@ -729,6 +792,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_pfx_repne",
           "normalized": "Ptr UD_t-\u003eIO Word",
@@ -743,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_pfx_rex",
           "package": "hdis86",
@@ -752,6 +817,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_pfx_rex",
           "normalized": "Ptr UD_t-\u003eIO Word",
@@ -766,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_pfx_seg",
           "package": "hdis86",
@@ -775,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_pfx_seg",
           "normalized": "Ptr UD_t-\u003eIO Word",
@@ -789,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_scale",
           "package": "hdis86",
@@ -798,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_scale",
           "normalized": "Ptr Operand-\u003eIO Word",
@@ -812,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_size",
           "package": "hdis86",
@@ -821,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_size",
           "normalized": "Ptr Operand-\u003eIO Word",
@@ -835,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "get_type",
           "package": "hdis86",
@@ -844,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "get_type",
           "normalized": "Ptr Operand-\u003eIO UD_type",
@@ -858,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "init",
           "package": "hdis86",
@@ -867,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "init",
           "normalized": "Ptr UD_t-\u003eIO()",
@@ -881,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "input_skip",
           "package": "hdis86",
@@ -890,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "input_skip",
           "normalized": "Ptr UD_t-\u003eCSize-\u003eIO()",
@@ -904,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "insn_asm",
           "package": "hdis86",
@@ -913,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "insn_asm",
           "normalized": "Ptr UD_t-\u003eIO CString",
@@ -927,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "insn_hex",
           "package": "hdis86",
@@ -936,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "insn_hex",
           "normalized": "Ptr UD_t-\u003eIO CString",
@@ -950,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "insn_len",
           "package": "hdis86",
@@ -959,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "insn_len",
           "normalized": "Ptr UD_t-\u003eIO CUInt",
@@ -973,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "insn_off",
           "package": "hdis86",
@@ -982,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "insn_off",
           "normalized": "Ptr UD_t-\u003eIO Word",
@@ -996,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "insn_ptr",
           "package": "hdis86",
@@ -1005,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "insn_ptr",
           "normalized": "Ptr UD_t-\u003eIO(Ptr Word)",
@@ -1019,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "set_input_buffer",
           "package": "hdis86",
@@ -1028,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "set_input_buffer",
           "normalized": "Ptr UD_t-\u003ePtr CChar-\u003eCSize-\u003eIO()",
@@ -1042,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "set_input_file",
           "package": "hdis86",
@@ -1051,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "set_input_file",
           "normalized": "Ptr UD_t-\u003ePtr CFile-\u003eIO()",
@@ -1065,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "set_input_hook",
           "package": "hdis86",
@@ -1074,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "set_input_hook",
           "normalized": "Ptr UD_t-\u003eFunPtr InputHook-\u003eIO()",
@@ -1088,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "set_mode",
           "package": "hdis86",
@@ -1097,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "set_mode",
           "normalized": "Ptr UD_t-\u003eWord-\u003eIO()",
@@ -1111,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "set_pc",
           "package": "hdis86",
@@ -1120,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "set_pc",
           "normalized": "Ptr UD_t-\u003eWord-\u003eIO()",
@@ -1134,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "set_syntax",
           "package": "hdis86",
@@ -1143,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "set_syntax",
           "normalized": "Ptr UD_t-\u003eFunPtr Translator-\u003eIO()",
@@ -1157,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "set_vendor",
           "package": "hdis86",
@@ -1166,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "set_vendor",
           "normalized": "Ptr UD_t-\u003eUD_vendor-\u003eIO()",
@@ -1180,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "sizeof_ud_t",
           "package": "hdis86",
@@ -1189,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "sizeof_ud_t",
           "package": "hdis86",
@@ -1201,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "translate_att",
           "package": "hdis86",
@@ -1210,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "translate_att",
           "package": "hdis86",
@@ -1222,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "translate_intel",
           "package": "hdis86",
@@ -1231,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "translate_intel",
           "package": "hdis86",
@@ -1243,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udNone",
           "package": "hdis86",
@@ -1252,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udNone",
           "package": "hdis86",
@@ -1265,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udOpConst",
           "package": "hdis86",
@@ -1274,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udOpConst",
           "package": "hdis86",
@@ -1287,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udOpImm",
           "package": "hdis86",
@@ -1296,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udOpImm",
           "package": "hdis86",
@@ -1309,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udOpJimm",
           "package": "hdis86",
@@ -1318,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udOpJimm",
           "package": "hdis86",
@@ -1331,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udOpMem",
           "package": "hdis86",
@@ -1340,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udOpMem",
           "package": "hdis86",
@@ -1353,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udOpPtr",
           "package": "hdis86",
@@ -1362,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udOpPtr",
           "package": "hdis86",
@@ -1375,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udOpReg",
           "package": "hdis86",
@@ -1384,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udOpReg",
           "package": "hdis86",
@@ -1397,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRAh",
           "package": "hdis86",
@@ -1406,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRAh",
           "package": "hdis86",
@@ -1419,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRAl",
           "package": "hdis86",
@@ -1428,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRAl",
           "package": "hdis86",
@@ -1441,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRAx",
           "package": "hdis86",
@@ -1450,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRAx",
           "package": "hdis86",
@@ -1463,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRBh",
           "package": "hdis86",
@@ -1472,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRBh",
           "package": "hdis86",
@@ -1485,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRBl",
           "package": "hdis86",
@@ -1494,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRBl",
           "package": "hdis86",
@@ -1507,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRBp",
           "package": "hdis86",
@@ -1516,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRBp",
           "package": "hdis86",
@@ -1529,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRBpl",
           "package": "hdis86",
@@ -1538,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRBpl",
           "package": "hdis86",
@@ -1551,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRBx",
           "package": "hdis86",
@@ -1560,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRBx",
           "package": "hdis86",
@@ -1573,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCh",
           "package": "hdis86",
@@ -1582,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCh",
           "package": "hdis86",
@@ -1595,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCl",
           "package": "hdis86",
@@ -1604,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCl",
           "package": "hdis86",
@@ -1617,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCr0",
           "package": "hdis86",
@@ -1626,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCr0",
           "package": "hdis86",
@@ -1639,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCr1",
           "package": "hdis86",
@@ -1648,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCr1",
           "package": "hdis86",
@@ -1661,6 +1807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCr10",
           "package": "hdis86",
@@ -1670,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCr10",
           "package": "hdis86",
@@ -1683,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCr11",
           "package": "hdis86",
@@ -1692,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCr11",
           "package": "hdis86",
@@ -1705,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCr12",
           "package": "hdis86",
@@ -1714,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCr12",
           "package": "hdis86",
@@ -1727,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCr13",
           "package": "hdis86",
@@ -1736,6 +1889,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCr13",
           "package": "hdis86",
@@ -1749,6 +1903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCr14",
           "package": "hdis86",
@@ -1758,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCr14",
           "package": "hdis86",
@@ -1771,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCr15",
           "package": "hdis86",
@@ -1780,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCr15",
           "package": "hdis86",
@@ -1793,6 +1951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCr2",
           "package": "hdis86",
@@ -1802,6 +1961,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCr2",
           "package": "hdis86",
@@ -1815,6 +1975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCr3",
           "package": "hdis86",
@@ -1824,6 +1985,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCr3",
           "package": "hdis86",
@@ -1837,6 +1999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCr4",
           "package": "hdis86",
@@ -1846,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCr4",
           "package": "hdis86",
@@ -1859,6 +2023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCr5",
           "package": "hdis86",
@@ -1868,6 +2033,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCr5",
           "package": "hdis86",
@@ -1881,6 +2047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCr6",
           "package": "hdis86",
@@ -1890,6 +2057,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCr6",
           "package": "hdis86",
@@ -1903,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCr7",
           "package": "hdis86",
@@ -1912,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCr7",
           "package": "hdis86",
@@ -1925,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCr8",
           "package": "hdis86",
@@ -1934,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCr8",
           "package": "hdis86",
@@ -1947,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCr9",
           "package": "hdis86",
@@ -1956,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCr9",
           "package": "hdis86",
@@ -1969,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCs",
           "package": "hdis86",
@@ -1978,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCs",
           "package": "hdis86",
@@ -1991,6 +2167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRCx",
           "package": "hdis86",
@@ -2000,6 +2177,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRCx",
           "package": "hdis86",
@@ -2013,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDh",
           "package": "hdis86",
@@ -2022,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDh",
           "package": "hdis86",
@@ -2035,6 +2215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDi",
           "package": "hdis86",
@@ -2044,6 +2225,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDi",
           "package": "hdis86",
@@ -2057,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDil",
           "package": "hdis86",
@@ -2066,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDil",
           "package": "hdis86",
@@ -2079,6 +2263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDl",
           "package": "hdis86",
@@ -2088,6 +2273,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDl",
           "package": "hdis86",
@@ -2101,6 +2287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDr0",
           "package": "hdis86",
@@ -2110,6 +2297,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDr0",
           "package": "hdis86",
@@ -2123,6 +2311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDr1",
           "package": "hdis86",
@@ -2132,6 +2321,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDr1",
           "package": "hdis86",
@@ -2145,6 +2335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDr10",
           "package": "hdis86",
@@ -2154,6 +2345,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDr10",
           "package": "hdis86",
@@ -2167,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDr11",
           "package": "hdis86",
@@ -2176,6 +2369,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDr11",
           "package": "hdis86",
@@ -2189,6 +2383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDr12",
           "package": "hdis86",
@@ -2198,6 +2393,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDr12",
           "package": "hdis86",
@@ -2211,6 +2407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDr13",
           "package": "hdis86",
@@ -2220,6 +2417,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDr13",
           "package": "hdis86",
@@ -2233,6 +2431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDr14",
           "package": "hdis86",
@@ -2242,6 +2441,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDr14",
           "package": "hdis86",
@@ -2255,6 +2455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDr15",
           "package": "hdis86",
@@ -2264,6 +2465,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDr15",
           "package": "hdis86",
@@ -2277,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDr2",
           "package": "hdis86",
@@ -2286,6 +2489,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDr2",
           "package": "hdis86",
@@ -2299,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDr3",
           "package": "hdis86",
@@ -2308,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDr3",
           "package": "hdis86",
@@ -2321,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDr4",
           "package": "hdis86",
@@ -2330,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDr4",
           "package": "hdis86",
@@ -2343,6 +2551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDr5",
           "package": "hdis86",
@@ -2352,6 +2561,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDr5",
           "package": "hdis86",
@@ -2365,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDr6",
           "package": "hdis86",
@@ -2374,6 +2585,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDr6",
           "package": "hdis86",
@@ -2387,6 +2599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDr7",
           "package": "hdis86",
@@ -2396,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDr7",
           "package": "hdis86",
@@ -2409,6 +2623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDr8",
           "package": "hdis86",
@@ -2418,6 +2633,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDr8",
           "package": "hdis86",
@@ -2431,6 +2647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDr9",
           "package": "hdis86",
@@ -2440,6 +2657,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDr9",
           "package": "hdis86",
@@ -2453,6 +2671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDs",
           "package": "hdis86",
@@ -2462,6 +2681,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDs",
           "package": "hdis86",
@@ -2475,6 +2695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRDx",
           "package": "hdis86",
@@ -2484,6 +2705,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRDx",
           "package": "hdis86",
@@ -2497,6 +2719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udREax",
           "package": "hdis86",
@@ -2506,6 +2729,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udREax",
           "package": "hdis86",
@@ -2519,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udREbp",
           "package": "hdis86",
@@ -2528,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udREbp",
           "package": "hdis86",
@@ -2541,6 +2767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udREbx",
           "package": "hdis86",
@@ -2550,6 +2777,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udREbx",
           "package": "hdis86",
@@ -2563,6 +2791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udREcx",
           "package": "hdis86",
@@ -2572,6 +2801,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udREcx",
           "package": "hdis86",
@@ -2585,6 +2815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udREdi",
           "package": "hdis86",
@@ -2594,6 +2825,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udREdi",
           "package": "hdis86",
@@ -2607,6 +2839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udREdx",
           "package": "hdis86",
@@ -2616,6 +2849,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udREdx",
           "package": "hdis86",
@@ -2629,6 +2863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udREs",
           "package": "hdis86",
@@ -2638,6 +2873,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udREs",
           "package": "hdis86",
@@ -2651,6 +2887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udREsi",
           "package": "hdis86",
@@ -2660,6 +2897,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udREsi",
           "package": "hdis86",
@@ -2673,6 +2911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udREsp",
           "package": "hdis86",
@@ -2682,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udREsp",
           "package": "hdis86",
@@ -2695,6 +2935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRFs",
           "package": "hdis86",
@@ -2704,6 +2945,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRFs",
           "package": "hdis86",
@@ -2717,6 +2959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRGs",
           "package": "hdis86",
@@ -2726,6 +2969,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRGs",
           "package": "hdis86",
@@ -2739,6 +2983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRMm0",
           "package": "hdis86",
@@ -2748,6 +2993,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRMm0",
           "package": "hdis86",
@@ -2761,6 +3007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRMm1",
           "package": "hdis86",
@@ -2770,6 +3017,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRMm1",
           "package": "hdis86",
@@ -2783,6 +3031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRMm2",
           "package": "hdis86",
@@ -2792,6 +3041,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRMm2",
           "package": "hdis86",
@@ -2805,6 +3055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRMm3",
           "package": "hdis86",
@@ -2814,6 +3065,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRMm3",
           "package": "hdis86",
@@ -2827,6 +3079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRMm4",
           "package": "hdis86",
@@ -2836,6 +3089,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRMm4",
           "package": "hdis86",
@@ -2849,6 +3103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRMm5",
           "package": "hdis86",
@@ -2858,6 +3113,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRMm5",
           "package": "hdis86",
@@ -2871,6 +3127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRMm6",
           "package": "hdis86",
@@ -2880,6 +3137,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRMm6",
           "package": "hdis86",
@@ -2893,6 +3151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRMm7",
           "package": "hdis86",
@@ -2902,6 +3161,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRMm7",
           "package": "hdis86",
@@ -2915,6 +3175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR10",
           "package": "hdis86",
@@ -2924,6 +3185,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR10",
           "package": "hdis86",
@@ -2937,6 +3199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR10b",
           "package": "hdis86",
@@ -2946,6 +3209,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR10b",
           "package": "hdis86",
@@ -2959,6 +3223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR10d",
           "package": "hdis86",
@@ -2968,6 +3233,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR10d",
           "package": "hdis86",
@@ -2981,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR10w",
           "package": "hdis86",
@@ -2990,6 +3257,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR10w",
           "package": "hdis86",
@@ -3003,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR11",
           "package": "hdis86",
@@ -3012,6 +3281,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR11",
           "package": "hdis86",
@@ -3025,6 +3295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR11b",
           "package": "hdis86",
@@ -3034,6 +3305,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR11b",
           "package": "hdis86",
@@ -3047,6 +3319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR11d",
           "package": "hdis86",
@@ -3056,6 +3329,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR11d",
           "package": "hdis86",
@@ -3069,6 +3343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR11w",
           "package": "hdis86",
@@ -3078,6 +3353,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR11w",
           "package": "hdis86",
@@ -3091,6 +3367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR12",
           "package": "hdis86",
@@ -3100,6 +3377,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR12",
           "package": "hdis86",
@@ -3113,6 +3391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR12b",
           "package": "hdis86",
@@ -3122,6 +3401,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR12b",
           "package": "hdis86",
@@ -3135,6 +3415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR12d",
           "package": "hdis86",
@@ -3144,6 +3425,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR12d",
           "package": "hdis86",
@@ -3157,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR12w",
           "package": "hdis86",
@@ -3166,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR12w",
           "package": "hdis86",
@@ -3179,6 +3463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR13",
           "package": "hdis86",
@@ -3188,6 +3473,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR13",
           "package": "hdis86",
@@ -3201,6 +3487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR13b",
           "package": "hdis86",
@@ -3210,6 +3497,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR13b",
           "package": "hdis86",
@@ -3223,6 +3511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR13d",
           "package": "hdis86",
@@ -3232,6 +3521,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR13d",
           "package": "hdis86",
@@ -3245,6 +3535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR13w",
           "package": "hdis86",
@@ -3254,6 +3545,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR13w",
           "package": "hdis86",
@@ -3267,6 +3559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR14",
           "package": "hdis86",
@@ -3276,6 +3569,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR14",
           "package": "hdis86",
@@ -3289,6 +3583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR14b",
           "package": "hdis86",
@@ -3298,6 +3593,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR14b",
           "package": "hdis86",
@@ -3311,6 +3607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR14d",
           "package": "hdis86",
@@ -3320,6 +3617,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR14d",
           "package": "hdis86",
@@ -3333,6 +3631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR14w",
           "package": "hdis86",
@@ -3342,6 +3641,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR14w",
           "package": "hdis86",
@@ -3355,6 +3655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR15",
           "package": "hdis86",
@@ -3364,6 +3665,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR15",
           "package": "hdis86",
@@ -3377,6 +3679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR15b",
           "package": "hdis86",
@@ -3386,6 +3689,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR15b",
           "package": "hdis86",
@@ -3399,6 +3703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR15d",
           "package": "hdis86",
@@ -3408,6 +3713,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR15d",
           "package": "hdis86",
@@ -3421,6 +3727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR15w",
           "package": "hdis86",
@@ -3430,6 +3737,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR15w",
           "package": "hdis86",
@@ -3443,6 +3751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR8",
           "package": "hdis86",
@@ -3452,6 +3761,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR8",
           "package": "hdis86",
@@ -3465,6 +3775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR8b",
           "package": "hdis86",
@@ -3474,6 +3785,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR8b",
           "package": "hdis86",
@@ -3487,6 +3799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR8d",
           "package": "hdis86",
@@ -3496,6 +3809,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR8d",
           "package": "hdis86",
@@ -3509,6 +3823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR8w",
           "package": "hdis86",
@@ -3518,6 +3833,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR8w",
           "package": "hdis86",
@@ -3531,6 +3847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR9",
           "package": "hdis86",
@@ -3540,6 +3857,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR9",
           "package": "hdis86",
@@ -3553,6 +3871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR9b",
           "package": "hdis86",
@@ -3562,6 +3881,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR9b",
           "package": "hdis86",
@@ -3575,6 +3895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR9d",
           "package": "hdis86",
@@ -3584,6 +3905,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR9d",
           "package": "hdis86",
@@ -3597,6 +3919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRR9w",
           "package": "hdis86",
@@ -3606,6 +3929,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRR9w",
           "package": "hdis86",
@@ -3619,6 +3943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRRax",
           "package": "hdis86",
@@ -3628,6 +3953,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRRax",
           "package": "hdis86",
@@ -3641,6 +3967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRRbp",
           "package": "hdis86",
@@ -3650,6 +3977,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRRbp",
           "package": "hdis86",
@@ -3663,6 +3991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRRbx",
           "package": "hdis86",
@@ -3672,6 +4001,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRRbx",
           "package": "hdis86",
@@ -3685,6 +4015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRRcx",
           "package": "hdis86",
@@ -3694,6 +4025,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRRcx",
           "package": "hdis86",
@@ -3707,6 +4039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRRdi",
           "package": "hdis86",
@@ -3716,6 +4049,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRRdi",
           "package": "hdis86",
@@ -3729,6 +4063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRRdx",
           "package": "hdis86",
@@ -3738,6 +4073,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRRdx",
           "package": "hdis86",
@@ -3751,6 +4087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRRip",
           "package": "hdis86",
@@ -3760,6 +4097,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRRip",
           "package": "hdis86",
@@ -3773,6 +4111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRRsi",
           "package": "hdis86",
@@ -3782,6 +4121,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRRsi",
           "package": "hdis86",
@@ -3795,6 +4135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRRsp",
           "package": "hdis86",
@@ -3804,6 +4145,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRRsp",
           "package": "hdis86",
@@ -3817,6 +4159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRSi",
           "package": "hdis86",
@@ -3826,6 +4169,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRSi",
           "package": "hdis86",
@@ -3839,6 +4183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRSil",
           "package": "hdis86",
@@ -3848,6 +4193,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRSil",
           "package": "hdis86",
@@ -3861,6 +4207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRSp",
           "package": "hdis86",
@@ -3870,6 +4217,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRSp",
           "package": "hdis86",
@@ -3883,6 +4231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRSpl",
           "package": "hdis86",
@@ -3892,6 +4241,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRSpl",
           "package": "hdis86",
@@ -3905,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRSs",
           "package": "hdis86",
@@ -3914,6 +4265,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRSs",
           "package": "hdis86",
@@ -3927,6 +4279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRSt0",
           "package": "hdis86",
@@ -3936,6 +4289,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRSt0",
           "package": "hdis86",
@@ -3949,6 +4303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRSt1",
           "package": "hdis86",
@@ -3958,6 +4313,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRSt1",
           "package": "hdis86",
@@ -3971,6 +4327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRSt2",
           "package": "hdis86",
@@ -3980,6 +4337,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRSt2",
           "package": "hdis86",
@@ -3993,6 +4351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRSt3",
           "package": "hdis86",
@@ -4002,6 +4361,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRSt3",
           "package": "hdis86",
@@ -4015,6 +4375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRSt4",
           "package": "hdis86",
@@ -4024,6 +4385,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRSt4",
           "package": "hdis86",
@@ -4037,6 +4399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRSt5",
           "package": "hdis86",
@@ -4046,6 +4409,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRSt5",
           "package": "hdis86",
@@ -4059,6 +4423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRSt6",
           "package": "hdis86",
@@ -4068,6 +4433,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRSt6",
           "package": "hdis86",
@@ -4081,6 +4447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRSt7",
           "package": "hdis86",
@@ -4090,6 +4457,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRSt7",
           "package": "hdis86",
@@ -4103,6 +4471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRXmm0",
           "package": "hdis86",
@@ -4112,6 +4481,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRXmm0",
           "package": "hdis86",
@@ -4125,6 +4495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRXmm1",
           "package": "hdis86",
@@ -4134,6 +4505,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRXmm1",
           "package": "hdis86",
@@ -4147,6 +4519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRXmm10",
           "package": "hdis86",
@@ -4156,6 +4529,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRXmm10",
           "package": "hdis86",
@@ -4169,6 +4543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRXmm11",
           "package": "hdis86",
@@ -4178,6 +4553,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRXmm11",
           "package": "hdis86",
@@ -4191,6 +4567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRXmm12",
           "package": "hdis86",
@@ -4200,6 +4577,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRXmm12",
           "package": "hdis86",
@@ -4213,6 +4591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRXmm13",
           "package": "hdis86",
@@ -4222,6 +4601,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRXmm13",
           "package": "hdis86",
@@ -4235,6 +4615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRXmm14",
           "package": "hdis86",
@@ -4244,6 +4625,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRXmm14",
           "package": "hdis86",
@@ -4257,6 +4639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRXmm15",
           "package": "hdis86",
@@ -4266,6 +4649,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRXmm15",
           "package": "hdis86",
@@ -4279,6 +4663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRXmm2",
           "package": "hdis86",
@@ -4288,6 +4673,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRXmm2",
           "package": "hdis86",
@@ -4301,6 +4687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRXmm3",
           "package": "hdis86",
@@ -4310,6 +4697,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRXmm3",
           "package": "hdis86",
@@ -4323,6 +4711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRXmm4",
           "package": "hdis86",
@@ -4332,6 +4721,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRXmm4",
           "package": "hdis86",
@@ -4345,6 +4735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRXmm5",
           "package": "hdis86",
@@ -4354,6 +4745,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRXmm5",
           "package": "hdis86",
@@ -4367,6 +4759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRXmm6",
           "package": "hdis86",
@@ -4376,6 +4769,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRXmm6",
           "package": "hdis86",
@@ -4389,6 +4783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRXmm7",
           "package": "hdis86",
@@ -4398,6 +4793,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRXmm7",
           "package": "hdis86",
@@ -4411,6 +4807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRXmm8",
           "package": "hdis86",
@@ -4420,6 +4817,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRXmm8",
           "package": "hdis86",
@@ -4433,6 +4831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udRXmm9",
           "package": "hdis86",
@@ -4442,6 +4841,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udRXmm9",
           "package": "hdis86",
@@ -4455,6 +4855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udVendorAmd",
           "package": "hdis86",
@@ -4464,6 +4865,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udVendorAmd",
           "package": "hdis86",
@@ -4477,6 +4879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "udVendorIntel",
           "package": "hdis86",
@@ -4486,6 +4889,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "udVendorIntel",
           "package": "hdis86",
@@ -4499,6 +4903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "wrap_InputHook",
           "package": "hdis86",
@@ -4508,6 +4913,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "wrap_InputHook",
           "normalized": "InputHook-\u003eIO(FunPtr InputHook)",
@@ -4523,6 +4929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.C",
           "name": "wrap_Translator",
           "package": "hdis86",
@@ -4532,6 +4939,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 C",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.C",
           "name": "wrap_Translator",
           "normalized": "Translator-\u003eIO(FunPtr Translator)",
@@ -4548,6 +4956,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface to the \u003ccode\u003eudis86\u003c/code\u003e disassembler.\n\u003c/p\u003e\u003cp\u003eThe goal at this level of wrapping is to provide the\n maximum feature-set from the underlying C library,\n with the minimum of C-related headaches. Therefore,\n this module's API is thoroughly imperative, but uses\n Haskellish types and automatic resource management.\n\u003c/p\u003e\u003cp\u003eFor a higher-level, \u003ccode\u003eIO\u003c/code\u003e-free API, see \u003ca\u003eHdis86.Pure\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThis module is fully thread-safe: any number of threads\n may manipulate one or several \u003ccode\u003e\u003ccode\u003e\u003ca\u003eUD\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e objects at the same\n time.  The individual operations exported by this module\n are guaranteed to be atomic.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "IO",
           "package": "hdis86",
@@ -4557,6 +4966,7 @@
         "index": {
           "description": "Interface to the udis86 disassembler The goal at this level of wrapping is to provide the maximum feature-set from the underlying library with the minimum of C-related headaches Therefore this module API is thoroughly imperative but uses Haskellish types and automatic resource management For higher-level IO free API see Hdis86.Pure This module is fully thread-safe any number of threads may manipulate one or several UD objects at the same time The individual operations exported by this module are guaranteed to be atomic",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "IO",
           "package": "hdis86",
@@ -4571,6 +4981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA custom input source.\n\u003c/p\u003e\u003cp\u003eEach time this action is executed, it should return a single byte of\n input, or \u003ccode\u003e\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e if there are no more bytes to read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "InputHook",
           "package": "hdis86",
@@ -4580,6 +4991,7 @@
         "index": {
           "description": "custom input source Each time this action is executed it should return single byte of input or Nothing if there are no more bytes to read",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "InputHook",
           "package": "hdis86",
@@ -4594,6 +5006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type representing an instance of the disassembler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "UD",
           "package": "hdis86",
@@ -4603,6 +5016,7 @@
         "index": {
           "description": "Abstract type representing an instance of the disassembler",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "UD",
           "package": "hdis86",
@@ -4617,6 +5031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisassemble the next instruction and return its length in bytes, or\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e if there are no more instructions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "advance",
           "package": "hdis86",
@@ -4627,6 +5042,7 @@
         "index": {
           "description": "Disassemble the next instruction and return its length in bytes or Nothing if there are no more instructions",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "advance",
           "normalized": "UD-\u003eIO(Maybe Word)",
@@ -4642,6 +5058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the assembly syntax for the current instruction.\n\u003c/p\u003e\u003cp\u003eSee also \u003ccode\u003e\u003ccode\u003e\u003ca\u003esetSyntax\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "getAssembly",
           "package": "hdis86",
@@ -4652,6 +5069,7 @@
         "index": {
           "description": "Get the assembly syntax for the current instruction See also setSyntax",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "getAssembly",
           "normalized": "UD-\u003eIO String",
@@ -4668,6 +5086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current instruction's machine code as a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe bytes are copied out of internal state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "getBytes",
           "package": "hdis86",
@@ -4678,6 +5097,7 @@
         "index": {
           "description": "Get the current instruction machine code as ByteString The bytes are copied out of internal state",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "getBytes",
           "normalized": "UD-\u003eIO ByteString",
@@ -4694,6 +5114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current instruction's machine code as a hexadecimal string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "getHex",
           "package": "hdis86",
@@ -4704,6 +5125,7 @@
         "index": {
           "description": "Get the current instruction machine code as hexadecimal string",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "getHex",
           "normalized": "UD-\u003eIO String",
@@ -4720,6 +5142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "getInstruction",
           "package": "hdis86",
@@ -4730,6 +5153,7 @@
         "index": {
           "description": "Get the current instruction",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "getInstruction",
           "normalized": "UD-\u003eIO Instruction",
@@ -4746,6 +5170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the length of the current instruction in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "getLength",
           "package": "hdis86",
@@ -4756,6 +5181,7 @@
         "index": {
           "description": "Get the length of the current instruction in bytes",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "getLength",
           "normalized": "UD-\u003eIO Word",
@@ -4772,6 +5198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all metadata about the current instruction,\n along with the instruction itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "getMetadata",
           "package": "hdis86",
@@ -4782,6 +5209,7 @@
         "index": {
           "description": "Get all metadata about the current instruction along with the instruction itself",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "getMetadata",
           "normalized": "UD-\u003eIO Metadata",
@@ -4798,6 +5226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the offset of the current instruction.  This value is set\n by \u003ccode\u003e\u003ccode\u003egetIP\u003c/code\u003e\u003c/code\u003e and updated after each call to \u003ccode\u003e\u003ccode\u003e\u003ca\u003eadvance\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "getOffset",
           "package": "hdis86",
@@ -4808,6 +5237,7 @@
         "index": {
           "description": "Get the offset of the current instruction This value is set by getIP and updated after each call to advance",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "getOffset",
           "normalized": "UD-\u003eIO Word",
@@ -4824,6 +5254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new disassembler instance.\n\u003c/p\u003e\u003cp\u003eThere is no \u003ccode\u003edeleteUD\u003c/code\u003e.  Associated resources will be freed automatically\n after this \u003ccode\u003e\u003ccode\u003e\u003ca\u003eUD\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e value becomes unreachable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "newUD",
           "package": "hdis86",
@@ -4834,6 +5265,7 @@
         "index": {
           "description": "Create new disassembler instance There is no deleteUD Associated resources will be freed automatically after this UD value becomes unreachable",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "newUD",
           "package": "hdis86",
@@ -4848,6 +5280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience function which calls \u003ccode\u003e\u003ccode\u003e\u003ca\u003eadvance\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e repeatedly\n while instructions remain.\n\u003c/p\u003e\u003cp\u003eAt each instruction the user-specified action is performed,\n and the results are collected.  The \u003ccode\u003e\u003ccode\u003e\u003ca\u003eUD\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e value is\n not passed as an argument, but it's easy enough to close\n over it when defining your action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "run",
           "package": "hdis86",
@@ -4858,6 +5291,7 @@
         "index": {
           "description": "convenience function which calls advance repeatedly while instructions remain At each instruction the user-specified action is performed and the results are collected The UD value is not passed as an argument but it easy enough to close over it when defining your action",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "run",
           "normalized": "UD-\u003eIO a-\u003eIO[a]",
@@ -4873,6 +5307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the CPU mode, i.e. 16-bit, 32-bit, or 64-bit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "setCPUMode",
           "package": "hdis86",
@@ -4883,6 +5318,7 @@
         "index": {
           "description": "Set the CPU mode i.e bit bit or bit",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "setCPUMode",
           "normalized": "UD-\u003eCPUMode-\u003eIO()",
@@ -4899,6 +5335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister an action to be performed after each instruction is disassembled.\n\u003c/p\u003e\u003cp\u003eThis is not necessary for using the library.  An alternative is to perform\n the action in a loop which also calls \u003ccode\u003e\u003ccode\u003e\u003ca\u003eadvance\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis disables updating of the string returned by \u003ccode\u003e\u003ccode\u003e\u003ca\u003egetAssembly\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "setCallback",
           "package": "hdis86",
@@ -4909,6 +5346,7 @@
         "index": {
           "description": "Register an action to be performed after each instruction is disassembled This is not necessary for using the library An alternative is to perform the action in loop which also calls advance This disables updating of the string returned by getAssembly",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "setCallback",
           "normalized": "UD-\u003eIO()-\u003eIO()",
@@ -4925,6 +5363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet an overall configuration.\n\u003c/p\u003e\u003cp\u003eCalls each of \u003ccode\u003e\u003ccode\u003e\u003ca\u003esetVendor\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003esetCPUMode\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003esetSyntax\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003esetIP\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "setConfig",
           "package": "hdis86",
@@ -4935,6 +5374,7 @@
         "index": {
           "description": "Set an overall configuration Calls each of setVendor setCPUMode setSyntax setIP",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "setConfig",
           "normalized": "UD-\u003eConfig-\u003eIO()",
@@ -4951,6 +5391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the instruction pointer, i.e. the disassembler's idea of\n where the current instruction would live in memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "setIP",
           "package": "hdis86",
@@ -4961,6 +5402,7 @@
         "index": {
           "description": "Set the instruction pointer i.e the disassembler idea of where the current instruction would live in memory",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "setIP",
           "normalized": "UD-\u003eWord-\u003eIO()",
@@ -4977,6 +5419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet up the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eUD\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e instance to read machine code from a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis library does not copy the contents of the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n It will hold onto the value until another input source is selected,\n or until the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eUD\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e value becomes unreachable.\n\u003c/p\u003e\u003cp\u003eThis means that \u003ccode\u003e\u003ccode\u003e\u003ca\u003esetInputBuffer\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is both safe and efficient, but it\n may inhibit garbage collection of a larger \u003ccode\u003e\u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e containing\n the input.  To prevent this, use \u003ccode\u003eByteString.\u003c/code\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ecopy\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "setInputBuffer",
           "package": "hdis86",
@@ -4987,6 +5430,7 @@
         "index": {
           "description": "Set up the UD instance to read machine code from ByteString This library does not copy the contents of the ByteString It will hold onto the value until another input source is selected or until the UD value becomes unreachable This means that setInputBuffer is both safe and efficient but it may inhibit garbage collection of larger ByteString containing the input To prevent this use ByteString copy",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "setInputBuffer",
           "normalized": "UD-\u003eByteString-\u003eIO()",
@@ -5003,6 +5447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister an \u003ccode\u003e\u003ccode\u003e\u003ca\u003eInputHook\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e to provide machine code to disassemble.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "setInputHook",
           "package": "hdis86",
@@ -5013,6 +5458,7 @@
         "index": {
           "description": "Register an InputHook to provide machine code to disassemble",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "setInputHook",
           "normalized": "UD-\u003eInputHook-\u003eIO()",
@@ -5029,6 +5475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the assembly syntax to be used by \u003ccode\u003e\u003ccode\u003e\u003ca\u003egetAssembly\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis takes effect after the next call to \u003ccode\u003e\u003ccode\u003edisassemble\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "setSyntax",
           "package": "hdis86",
@@ -5039,6 +5486,7 @@
         "index": {
           "description": "Set the assembly syntax to be used by getAssembly This takes effect after the next call to disassemble",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "setSyntax",
           "normalized": "UD-\u003eSyntax-\u003eIO()",
@@ -5055,6 +5503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose an instruction set variation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "setVendor",
           "package": "hdis86",
@@ -5065,6 +5514,7 @@
         "index": {
           "description": "Choose an instruction set variation",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "setVendor",
           "normalized": "UD-\u003eVendor-\u003eIO()",
@@ -5081,6 +5531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkip the next \u003cem\u003en\u003c/em\u003e bytes of the input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "skip",
           "package": "hdis86",
@@ -5091,6 +5542,7 @@
         "index": {
           "description": "Skip the next bytes of the input",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "skip",
           "normalized": "UD-\u003eWord-\u003eIO()",
@@ -5106,6 +5558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazy version of \u003ccode\u003e\u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e; calls into the C library as\n elements of its result list are forced.\n\u003c/p\u003e\u003cp\u003eThis has roughly the same caveats as \u003ccode\u003e\u003ccode\u003e\u003ca\u003eunsafeInterleaveIO\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "unsafeRunLazy",
           "package": "hdis86",
@@ -5116,6 +5569,7 @@
         "index": {
           "description": "Lazy version of run calls into the library as elements of its result list are forced This has roughly the same caveats as unsafeInterleaveIO",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "unsafeRunLazy",
           "normalized": "UD-\u003eIO a-\u003eIO[a]",
@@ -5132,6 +5586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet up the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eUD\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e instance to read directly from memory.\n\u003c/p\u003e\u003cp\u003eGiven are a pointer to a memory region, and the length of that region.\n\u003c/p\u003e\u003cp\u003eThis is an unsafe operation because the contents of the memory region\n might change, especially if it's part of the heap managed by GHC's\n garbage collector.\n\u003c/p\u003e\u003cp\u003eYou are responsible for ensuring that the memory pointed to does not\n change or become invalid until another input source is selected.\n You cannot rely on garbage collection of the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eUD\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e value, because\n finalization may be delayed arbitrarily long after the value becomes\n unreachable.\n\u003c/p\u003e\u003cp\u003eIt should be safe to use this on the static code segment of your\n process, which is useful when your Haskell program needs to\n disassemble itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "unsafeSetInputPtr",
           "package": "hdis86",
@@ -5142,6 +5597,7 @@
         "index": {
           "description": "Set up the UD instance to read directly from memory Given are pointer to memory region and the length of that region This is an unsafe operation because the contents of the memory region might change especially if it part of the heap managed by GHC garbage collector You are responsible for ensuring that the memory pointed to does not change or become invalid until another input source is selected You cannot rely on garbage collection of the UD value because finalization may be delayed arbitrarily long after the value becomes unreachable It should be safe to use this on the static code segment of your process which is useful when your Haskell program needs to disassemble itself",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "unsafeSetInputPtr",
           "normalized": "UD-\u003ePtr Word-\u003eWord-\u003eIO()",
@@ -5158,6 +5614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear any previous input source setting.\n\u003c/p\u003e\u003cp\u003eThis allows the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eUD\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e instance to free any resources associated with\n the input source.  Those resources would be freed automatically after\n the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eUD\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e value becomes unreachable, but you can use \u003ccode\u003e\u003ccode\u003e\u003ca\u003eunsetInput\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n to force this to happen earlier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.IO",
           "name": "unsetInput",
           "package": "hdis86",
@@ -5168,6 +5625,7 @@
         "index": {
           "description": "Clear any previous input source setting This allows the UD instance to free any resources associated with the input source Those resources would be freed automatically after the UD value becomes unreachable but you can use unsetInput to force this to happen earlier",
           "hierarchy": "Hdis86 IO",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.IO",
           "name": "unsetInput",
           "normalized": "UD-\u003eIO()",
@@ -5184,6 +5642,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIncremental pure disassembly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Incremental",
           "name": "Incremental",
           "package": "hdis86",
@@ -5193,6 +5652,7 @@
         "index": {
           "description": "Incremental pure disassembly",
           "hierarchy": "Hdis86 Incremental",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Incremental",
           "name": "Incremental",
           "package": "hdis86",
@@ -5207,6 +5667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisassemble a lazy \u003ccode\u003e\u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe output is produced lazily.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Incremental",
           "name": "disassembleLazy",
           "package": "hdis86",
@@ -5217,6 +5678,7 @@
         "index": {
           "description": "Disassemble lazy ByteString The output is produced lazily",
           "hierarchy": "Hdis86 Incremental",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Incremental",
           "name": "disassembleLazy",
           "normalized": "Config-\u003eByteString-\u003e[Metadata]",
@@ -5233,6 +5695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e into an instruction and the remaining\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eReturns \u003ccode\u003e\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e if the input is empty or contains an\n incomplete instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Incremental",
           "name": "disassembleOne",
           "package": "hdis86",
@@ -5243,6 +5706,7 @@
         "index": {
           "description": "Split ByteString into an instruction and the remaining ByteString Returns Nothing if the input is empty or contains an incomplete instruction",
           "hierarchy": "Hdis86 Incremental",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Incremental",
           "name": "disassembleOne",
           "normalized": "Config-\u003eByteString-\u003eMaybe(Metadata,ByteString)",
@@ -5259,6 +5723,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal module; use at your own risk.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Internal.Map",
           "name": "Map",
           "package": "hdis86",
@@ -5268,6 +5733,7 @@
         "index": {
           "description": "Internal module use at your own risk",
           "hierarchy": "Hdis86 Internal Map",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Internal.Map",
           "name": "Map",
           "package": "hdis86",
@@ -5281,6 +5747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Internal.Map",
           "name": "UDTM",
           "package": "hdis86",
@@ -5289,6 +5756,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Internal Map",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Internal.Map",
           "name": "UDTM",
           "package": "hdis86",
@@ -5302,6 +5770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Internal.Map",
           "name": "lookupUDTM",
           "package": "hdis86",
@@ -5311,6 +5780,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Internal Map",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Internal.Map",
           "name": "lookupUDTM",
           "normalized": "UD_type-\u003eUDTM a-\u003eMaybe a",
@@ -5326,6 +5796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Internal.Map",
           "name": "makeUDTM",
           "package": "hdis86",
@@ -5335,6 +5806,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Internal Map",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Internal.Map",
           "name": "makeUDTM",
           "normalized": "[(UD_type,a)]-\u003eUDTM a",
@@ -5350,6 +5822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Internal.Map",
           "name": "opcode",
           "package": "hdis86",
@@ -5359,6 +5832,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Internal Map",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Internal.Map",
           "name": "opcode",
           "normalized": "CUInt-\u003eOpcode",
@@ -5373,6 +5847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Internal.Map",
           "name": "register",
           "package": "hdis86",
@@ -5382,6 +5857,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Internal Map",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Internal.Map",
           "name": "register",
           "normalized": "CUInt-\u003eRegister",
@@ -5397,6 +5873,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface to the \u003ccode\u003eudis86\u003c/code\u003e disassembler.\n\u003c/p\u003e\u003cp\u003eThis is the simplest, most high-level interface.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003eHdis86.IO\u003c/a\u003e if you need more control or performance.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Pure",
           "name": "Pure",
           "package": "hdis86",
@@ -5406,6 +5883,7 @@
         "index": {
           "description": "Interface to the udis86 disassembler This is the simplest most high-level interface See Hdis86.IO if you need more control or performance",
           "hierarchy": "Hdis86 Pure",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Pure",
           "name": "Pure",
           "package": "hdis86",
@@ -5420,6 +5898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn instruction with full metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Pure",
           "name": "Metadata",
           "package": "hdis86",
@@ -5429,6 +5908,7 @@
         "index": {
           "description": "An instruction with full metadata",
           "hierarchy": "Hdis86 Pure",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Pure",
           "name": "Metadata",
           "package": "hdis86",
@@ -5669,6 +6149,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes provided by the disassembler.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Types",
           "package": "hdis86",
@@ -5678,6 +6159,7 @@
         "index": {
           "description": "Types provided by the disassembler",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Types",
           "package": "hdis86",
@@ -5692,6 +6174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCPU execution mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "CPUMode",
           "package": "hdis86",
@@ -5701,6 +6184,7 @@
         "index": {
           "description": "CPU execution mode",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "CPUMode",
           "package": "hdis86",
@@ -5715,6 +6199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverall configuration of the disassembler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Config",
           "package": "hdis86",
@@ -5724,6 +6209,7 @@
         "index": {
           "description": "Overall configuration of the disassembler",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Config",
           "package": "hdis86",
@@ -5738,6 +6224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA control register.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "ControlRegister",
           "package": "hdis86",
@@ -5747,6 +6234,7 @@
         "index": {
           "description": "control register",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "ControlRegister",
           "package": "hdis86",
@@ -5761,6 +6249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA debug register.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "DebugRegister",
           "package": "hdis86",
@@ -5770,6 +6259,7 @@
         "index": {
           "description": "debug register",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "DebugRegister",
           "package": "hdis86",
@@ -5784,6 +6274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA general-purpose register.\n\u003c/p\u003e\u003cp\u003eThe names are taken from the 64-bit architecture, but they map onto\n other modes in the obvious way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "GPR",
           "package": "hdis86",
@@ -5793,6 +6284,7 @@
         "index": {
           "description": "general-purpose register The names are taken from the bit architecture but they map onto other modes in the obvious way",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "GPR",
           "package": "hdis86",
@@ -5807,6 +6299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates which half of a 16-bit register is used as an 8-bit register.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Half",
           "package": "hdis86",
@@ -5816,6 +6309,7 @@
         "index": {
           "description": "Indicates which half of bit register is used as an bit register",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Half",
           "package": "hdis86",
@@ -5830,6 +6324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn immediate operand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Immediate",
           "package": "hdis86",
@@ -5839,6 +6334,7 @@
         "index": {
           "description": "An immediate operand",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Immediate",
           "package": "hdis86",
@@ -5853,6 +6349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn x86 / AMD64 CPU instruction.\n\u003c/p\u003e\u003cp\u003eThe destination \u003ccode\u003e\u003ccode\u003e\u003ca\u003eOperand\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e (if any) will precede the source\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eOperand\u003c/a\u003e\u003c/code\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Instruction",
           "package": "hdis86",
@@ -5862,6 +6359,7 @@
         "index": {
           "description": "An x86 AMD64 CPU instruction The destination Operand if any will precede the source Operand",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Instruction",
           "package": "hdis86",
@@ -5876,6 +6374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn MMX register.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "MMXRegister",
           "package": "hdis86",
@@ -5885,6 +6384,7 @@
         "index": {
           "description": "An MMX register",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "MMXRegister",
           "package": "hdis86",
@@ -5899,6 +6399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA memory-access operand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Memory",
           "package": "hdis86",
@@ -5908,6 +6409,7 @@
         "index": {
           "description": "memory-access operand",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Memory",
           "package": "hdis86",
@@ -5922,6 +6424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn instruction with full metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Metadata",
           "package": "hdis86",
@@ -5931,6 +6434,7 @@
         "index": {
           "description": "An instruction with full metadata",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Metadata",
           "package": "hdis86",
@@ -5944,6 +6448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Opcode",
           "package": "hdis86",
@@ -5952,6 +6457,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Opcode",
           "package": "hdis86",
@@ -5966,6 +6472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstruction operands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Operand",
           "package": "hdis86",
@@ -5975,6 +6482,7 @@
         "index": {
           "description": "Instruction operands",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Operand",
           "package": "hdis86",
@@ -5989,6 +6497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA segmented pointer operand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Pointer",
           "package": "hdis86",
@@ -5998,6 +6507,7 @@
         "index": {
           "description": "segmented pointer operand",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Pointer",
           "package": "hdis86",
@@ -6012,6 +6522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefixes, used to modify an instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Prefix",
           "package": "hdis86",
@@ -6021,6 +6532,7 @@
         "index": {
           "description": "Prefixes used to modify an instruction",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Prefix",
           "package": "hdis86",
@@ -6035,6 +6547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn x86 / AMD64 register.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Register",
           "package": "hdis86",
@@ -6044,6 +6557,7 @@
         "index": {
           "description": "An x86 AMD64 register",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Register",
           "package": "hdis86",
@@ -6058,6 +6572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA segment register.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Segment",
           "package": "hdis86",
@@ -6067,6 +6582,7 @@
         "index": {
           "description": "segment register",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Segment",
           "package": "hdis86",
@@ -6081,6 +6597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelection of assembly output syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Syntax",
           "package": "hdis86",
@@ -6090,6 +6607,7 @@
         "index": {
           "description": "Selection of assembly output syntax",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Syntax",
           "package": "hdis86",
@@ -6104,6 +6622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCPU vendors, supporting slightly different instruction sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Vendor",
           "package": "hdis86",
@@ -6113,6 +6632,7 @@
         "index": {
           "description": "CPU vendors supporting slightly different instruction sets",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Vendor",
           "package": "hdis86",
@@ -6127,6 +6647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMachine word sizes.\n\u003c/p\u003e\u003cp\u003eSome fields, such as immediate operands, come in different\n widths.  We store the equivalent integer value in a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e,\n along with a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eWordSize\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e to indicate the original width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "WordSize",
           "package": "hdis86",
@@ -6136,6 +6657,7 @@
         "index": {
           "description": "Machine word sizes Some fields such as immediate operands come in different widths We store the equivalent integer value in Word64 along with WordSize to indicate the original width",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "WordSize",
           "package": "hdis86",
@@ -6150,6 +6672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003ex87\u003c/code\u003e floating-point unit register.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "X87Register",
           "package": "hdis86",
@@ -6159,6 +6682,7 @@
         "index": {
           "description": "An x87 floating-point unit register",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "X87Register",
           "package": "hdis86",
@@ -6173,6 +6697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn XMM register.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "XMMRegister",
           "package": "hdis86",
@@ -6182,6 +6707,7 @@
         "index": {
           "description": "An XMM register",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "XMMRegister",
           "package": "hdis86",
@@ -6195,6 +6721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "AMD",
           "package": "hdis86",
@@ -6204,6 +6731,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "AMD",
           "package": "hdis86",
@@ -6218,6 +6746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddress size override\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "AddrSize",
           "package": "hdis86",
@@ -6228,6 +6757,7 @@
         "index": {
           "description": "Address size override",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "AddrSize",
           "package": "hdis86",
@@ -6242,6 +6772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField not present, value will be 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Bits0",
           "package": "hdis86",
@@ -6252,6 +6783,7 @@
         "index": {
           "description": "Field not present value will be",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Bits0",
           "package": "hdis86",
@@ -6265,6 +6797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Bits16",
           "package": "hdis86",
@@ -6274,6 +6807,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Bits16",
           "package": "hdis86",
@@ -6287,6 +6821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Bits32",
           "package": "hdis86",
@@ -6296,6 +6831,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Bits32",
           "package": "hdis86",
@@ -6309,6 +6845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Bits48",
           "package": "hdis86",
@@ -6318,6 +6855,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Bits48",
           "package": "hdis86",
@@ -6331,6 +6869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Bits64",
           "package": "hdis86",
@@ -6340,6 +6879,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Bits64",
           "package": "hdis86",
@@ -6353,6 +6893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Bits8",
           "package": "hdis86",
@@ -6362,6 +6903,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Bits8",
           "package": "hdis86",
@@ -6375,6 +6917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Bits80",
           "package": "hdis86",
@@ -6384,6 +6927,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Bits80",
           "package": "hdis86",
@@ -6397,6 +6941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "CR0",
           "package": "hdis86",
@@ -6406,6 +6951,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "CR0",
           "package": "hdis86",
@@ -6419,6 +6965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "CR1",
           "package": "hdis86",
@@ -6428,6 +6975,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "CR1",
           "package": "hdis86",
@@ -6441,6 +6989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "CR10",
           "package": "hdis86",
@@ -6450,6 +6999,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "CR10",
           "package": "hdis86",
@@ -6463,6 +7013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "CR11",
           "package": "hdis86",
@@ -6472,6 +7023,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "CR11",
           "package": "hdis86",
@@ -6485,6 +7037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "CR12",
           "package": "hdis86",
@@ -6494,6 +7047,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "CR12",
           "package": "hdis86",
@@ -6507,6 +7061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "CR13",
           "package": "hdis86",
@@ -6516,6 +7071,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "CR13",
           "package": "hdis86",
@@ -6529,6 +7085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "CR14",
           "package": "hdis86",
@@ -6538,6 +7095,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "CR14",
           "package": "hdis86",
@@ -6551,6 +7109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "CR15",
           "package": "hdis86",
@@ -6560,6 +7119,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "CR15",
           "package": "hdis86",
@@ -6573,6 +7133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "CR2",
           "package": "hdis86",
@@ -6582,6 +7143,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "CR2",
           "package": "hdis86",
@@ -6595,6 +7157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "CR3",
           "package": "hdis86",
@@ -6604,6 +7167,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "CR3",
           "package": "hdis86",
@@ -6617,6 +7181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "CR4",
           "package": "hdis86",
@@ -6626,6 +7191,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "CR4",
           "package": "hdis86",
@@ -6639,6 +7205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "CR5",
           "package": "hdis86",
@@ -6648,6 +7215,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "CR5",
           "package": "hdis86",
@@ -6661,6 +7229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "CR6",
           "package": "hdis86",
@@ -6670,6 +7239,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "CR6",
           "package": "hdis86",
@@ -6683,6 +7253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "CR7",
           "package": "hdis86",
@@ -6692,6 +7263,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "CR7",
           "package": "hdis86",
@@ -6705,6 +7277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "CR8",
           "package": "hdis86",
@@ -6714,6 +7287,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "CR8",
           "package": "hdis86",
@@ -6727,6 +7301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "CR9",
           "package": "hdis86",
@@ -6736,6 +7311,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "CR9",
           "package": "hdis86",
@@ -6749,6 +7325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "CS",
           "package": "hdis86",
@@ -6758,6 +7335,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "CS",
           "package": "hdis86",
@@ -6771,6 +7349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Config",
           "package": "hdis86",
@@ -6780,6 +7359,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Config",
           "package": "hdis86",
@@ -6794,6 +7374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Const",
           "package": "hdis86",
@@ -6804,6 +7385,7 @@
         "index": {
           "description": "Constant value",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Const",
           "package": "hdis86",
@@ -6817,6 +7399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "DR0",
           "package": "hdis86",
@@ -6826,6 +7409,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "DR0",
           "package": "hdis86",
@@ -6839,6 +7423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "DR1",
           "package": "hdis86",
@@ -6848,6 +7433,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "DR1",
           "package": "hdis86",
@@ -6861,6 +7447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "DR10",
           "package": "hdis86",
@@ -6870,6 +7457,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "DR10",
           "package": "hdis86",
@@ -6883,6 +7471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "DR11",
           "package": "hdis86",
@@ -6892,6 +7481,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "DR11",
           "package": "hdis86",
@@ -6905,6 +7495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "DR12",
           "package": "hdis86",
@@ -6914,6 +7505,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "DR12",
           "package": "hdis86",
@@ -6927,6 +7519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "DR13",
           "package": "hdis86",
@@ -6936,6 +7529,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "DR13",
           "package": "hdis86",
@@ -6949,6 +7543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "DR14",
           "package": "hdis86",
@@ -6958,6 +7553,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "DR14",
           "package": "hdis86",
@@ -6971,6 +7567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "DR15",
           "package": "hdis86",
@@ -6980,6 +7577,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "DR15",
           "package": "hdis86",
@@ -6993,6 +7591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "DR2",
           "package": "hdis86",
@@ -7002,6 +7601,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "DR2",
           "package": "hdis86",
@@ -7015,6 +7615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "DR3",
           "package": "hdis86",
@@ -7024,6 +7625,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "DR3",
           "package": "hdis86",
@@ -7037,6 +7639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "DR4",
           "package": "hdis86",
@@ -7046,6 +7649,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "DR4",
           "package": "hdis86",
@@ -7059,6 +7663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "DR5",
           "package": "hdis86",
@@ -7068,6 +7673,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "DR5",
           "package": "hdis86",
@@ -7081,6 +7687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "DR6",
           "package": "hdis86",
@@ -7090,6 +7697,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "DR6",
           "package": "hdis86",
@@ -7103,6 +7711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "DR7",
           "package": "hdis86",
@@ -7112,6 +7721,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "DR7",
           "package": "hdis86",
@@ -7125,6 +7735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "DR8",
           "package": "hdis86",
@@ -7134,6 +7745,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "DR8",
           "package": "hdis86",
@@ -7147,6 +7759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "DR9",
           "package": "hdis86",
@@ -7156,6 +7769,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "DR9",
           "package": "hdis86",
@@ -7169,6 +7783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "DS",
           "package": "hdis86",
@@ -7178,6 +7793,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "DS",
           "package": "hdis86",
@@ -7191,6 +7807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "ES",
           "package": "hdis86",
@@ -7200,6 +7817,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "ES",
           "package": "hdis86",
@@ -7213,6 +7831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "FS",
           "package": "hdis86",
@@ -7222,6 +7841,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "FS",
           "package": "hdis86",
@@ -7235,6 +7855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "GS",
           "package": "hdis86",
@@ -7244,6 +7865,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "GS",
           "package": "hdis86",
@@ -7258,6 +7880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHigh or most significant 8 bits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "H",
           "package": "hdis86",
@@ -7268,6 +7891,7 @@
         "index": {
           "description": "High or most significant bits",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "H",
           "package": "hdis86",
@@ -7280,6 +7904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "I3dnow",
           "package": "hdis86",
@@ -7289,6 +7914,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "I3dnow",
           "package": "hdis86",
@@ -7301,6 +7927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iaaa",
           "package": "hdis86",
@@ -7310,6 +7937,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iaaa",
           "package": "hdis86",
@@ -7323,6 +7951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iaad",
           "package": "hdis86",
@@ -7332,6 +7961,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iaad",
           "package": "hdis86",
@@ -7345,6 +7975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iaam",
           "package": "hdis86",
@@ -7354,6 +7985,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iaam",
           "package": "hdis86",
@@ -7367,6 +7999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iaas",
           "package": "hdis86",
@@ -7376,6 +8009,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iaas",
           "package": "hdis86",
@@ -7389,6 +8023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iadc",
           "package": "hdis86",
@@ -7398,6 +8033,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iadc",
           "package": "hdis86",
@@ -7411,6 +8047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iadd",
           "package": "hdis86",
@@ -7420,6 +8057,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iadd",
           "package": "hdis86",
@@ -7433,6 +8071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iaddpd",
           "package": "hdis86",
@@ -7442,6 +8081,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iaddpd",
           "package": "hdis86",
@@ -7455,6 +8095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iaddps",
           "package": "hdis86",
@@ -7464,6 +8105,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iaddps",
           "package": "hdis86",
@@ -7477,6 +8119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iaddsd",
           "package": "hdis86",
@@ -7486,6 +8129,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iaddsd",
           "package": "hdis86",
@@ -7499,6 +8143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iaddss",
           "package": "hdis86",
@@ -7508,6 +8153,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iaddss",
           "package": "hdis86",
@@ -7521,6 +8167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iaddsubpd",
           "package": "hdis86",
@@ -7530,6 +8177,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iaddsubpd",
           "package": "hdis86",
@@ -7543,6 +8191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iaddsubps",
           "package": "hdis86",
@@ -7552,6 +8201,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iaddsubps",
           "package": "hdis86",
@@ -7565,6 +8215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iand",
           "package": "hdis86",
@@ -7574,6 +8225,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iand",
           "package": "hdis86",
@@ -7587,6 +8239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iandnpd",
           "package": "hdis86",
@@ -7596,6 +8249,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iandnpd",
           "package": "hdis86",
@@ -7609,6 +8263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iandnps",
           "package": "hdis86",
@@ -7618,6 +8273,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iandnps",
           "package": "hdis86",
@@ -7631,6 +8287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iandpd",
           "package": "hdis86",
@@ -7640,6 +8297,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iandpd",
           "package": "hdis86",
@@ -7653,6 +8311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iandps",
           "package": "hdis86",
@@ -7662,6 +8321,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iandps",
           "package": "hdis86",
@@ -7675,6 +8335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iarpl",
           "package": "hdis86",
@@ -7684,6 +8345,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iarpl",
           "package": "hdis86",
@@ -7697,6 +8359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ibound",
           "package": "hdis86",
@@ -7706,6 +8369,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ibound",
           "package": "hdis86",
@@ -7719,6 +8383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ibsf",
           "package": "hdis86",
@@ -7728,6 +8393,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ibsf",
           "package": "hdis86",
@@ -7741,6 +8407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ibsr",
           "package": "hdis86",
@@ -7750,6 +8417,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ibsr",
           "package": "hdis86",
@@ -7763,6 +8431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ibswap",
           "package": "hdis86",
@@ -7772,6 +8441,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ibswap",
           "package": "hdis86",
@@ -7785,6 +8455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ibt",
           "package": "hdis86",
@@ -7794,6 +8465,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ibt",
           "package": "hdis86",
@@ -7807,6 +8479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ibtc",
           "package": "hdis86",
@@ -7816,6 +8489,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ibtc",
           "package": "hdis86",
@@ -7829,6 +8503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ibtr",
           "package": "hdis86",
@@ -7838,6 +8513,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ibtr",
           "package": "hdis86",
@@ -7851,6 +8527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ibts",
           "package": "hdis86",
@@ -7860,6 +8537,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ibts",
           "package": "hdis86",
@@ -7873,6 +8551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icall",
           "package": "hdis86",
@@ -7882,6 +8561,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icall",
           "package": "hdis86",
@@ -7895,6 +8575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icbw",
           "package": "hdis86",
@@ -7904,6 +8585,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icbw",
           "package": "hdis86",
@@ -7917,6 +8599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icdq",
           "package": "hdis86",
@@ -7926,6 +8609,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icdq",
           "package": "hdis86",
@@ -7939,6 +8623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icdqe",
           "package": "hdis86",
@@ -7948,6 +8633,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icdqe",
           "package": "hdis86",
@@ -7961,6 +8647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iclc",
           "package": "hdis86",
@@ -7970,6 +8657,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iclc",
           "package": "hdis86",
@@ -7983,6 +8671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icld",
           "package": "hdis86",
@@ -7992,6 +8681,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icld",
           "package": "hdis86",
@@ -8005,6 +8695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iclflush",
           "package": "hdis86",
@@ -8014,6 +8705,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iclflush",
           "package": "hdis86",
@@ -8027,6 +8719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iclgi",
           "package": "hdis86",
@@ -8036,6 +8729,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iclgi",
           "package": "hdis86",
@@ -8049,6 +8743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icli",
           "package": "hdis86",
@@ -8058,6 +8753,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icli",
           "package": "hdis86",
@@ -8071,6 +8767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iclts",
           "package": "hdis86",
@@ -8080,6 +8777,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iclts",
           "package": "hdis86",
@@ -8093,6 +8791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmc",
           "package": "hdis86",
@@ -8102,6 +8801,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmc",
           "package": "hdis86",
@@ -8115,6 +8815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmova",
           "package": "hdis86",
@@ -8124,6 +8825,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmova",
           "package": "hdis86",
@@ -8137,6 +8839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmovae",
           "package": "hdis86",
@@ -8146,6 +8849,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmovae",
           "package": "hdis86",
@@ -8159,6 +8863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmovb",
           "package": "hdis86",
@@ -8168,6 +8873,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmovb",
           "package": "hdis86",
@@ -8181,6 +8887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmovbe",
           "package": "hdis86",
@@ -8190,6 +8897,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmovbe",
           "package": "hdis86",
@@ -8203,6 +8911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmovg",
           "package": "hdis86",
@@ -8212,6 +8921,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmovg",
           "package": "hdis86",
@@ -8225,6 +8935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmovge",
           "package": "hdis86",
@@ -8234,6 +8945,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmovge",
           "package": "hdis86",
@@ -8247,6 +8959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmovl",
           "package": "hdis86",
@@ -8256,6 +8969,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmovl",
           "package": "hdis86",
@@ -8269,6 +8983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmovle",
           "package": "hdis86",
@@ -8278,6 +8993,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmovle",
           "package": "hdis86",
@@ -8291,6 +9007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmovno",
           "package": "hdis86",
@@ -8300,6 +9017,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmovno",
           "package": "hdis86",
@@ -8313,6 +9031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmovnp",
           "package": "hdis86",
@@ -8322,6 +9041,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmovnp",
           "package": "hdis86",
@@ -8335,6 +9055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmovns",
           "package": "hdis86",
@@ -8344,6 +9065,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmovns",
           "package": "hdis86",
@@ -8357,6 +9079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmovnz",
           "package": "hdis86",
@@ -8366,6 +9089,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmovnz",
           "package": "hdis86",
@@ -8379,6 +9103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmovo",
           "package": "hdis86",
@@ -8388,6 +9113,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmovo",
           "package": "hdis86",
@@ -8401,6 +9127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmovp",
           "package": "hdis86",
@@ -8410,6 +9137,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmovp",
           "package": "hdis86",
@@ -8423,6 +9151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmovs",
           "package": "hdis86",
@@ -8432,6 +9161,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmovs",
           "package": "hdis86",
@@ -8445,6 +9175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmovz",
           "package": "hdis86",
@@ -8454,6 +9185,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmovz",
           "package": "hdis86",
@@ -8467,6 +9199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmp",
           "package": "hdis86",
@@ -8476,6 +9209,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmp",
           "package": "hdis86",
@@ -8489,6 +9223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmppd",
           "package": "hdis86",
@@ -8498,6 +9233,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmppd",
           "package": "hdis86",
@@ -8511,6 +9247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmpps",
           "package": "hdis86",
@@ -8520,6 +9257,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmpps",
           "package": "hdis86",
@@ -8533,6 +9271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmpsb",
           "package": "hdis86",
@@ -8542,6 +9281,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmpsb",
           "package": "hdis86",
@@ -8555,6 +9295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmpsd",
           "package": "hdis86",
@@ -8564,6 +9305,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmpsd",
           "package": "hdis86",
@@ -8577,6 +9319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmpsq",
           "package": "hdis86",
@@ -8586,6 +9329,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmpsq",
           "package": "hdis86",
@@ -8599,6 +9343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmpss",
           "package": "hdis86",
@@ -8608,6 +9353,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmpss",
           "package": "hdis86",
@@ -8621,6 +9367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmpsw",
           "package": "hdis86",
@@ -8630,6 +9377,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmpsw",
           "package": "hdis86",
@@ -8643,6 +9391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmpxchg",
           "package": "hdis86",
@@ -8652,6 +9401,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmpxchg",
           "package": "hdis86",
@@ -8665,6 +9415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icmpxchg8b",
           "package": "hdis86",
@@ -8674,6 +9425,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icmpxchg8b",
           "package": "hdis86",
@@ -8687,6 +9439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icomisd",
           "package": "hdis86",
@@ -8696,6 +9449,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icomisd",
           "package": "hdis86",
@@ -8709,6 +9463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icomiss",
           "package": "hdis86",
@@ -8718,6 +9473,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icomiss",
           "package": "hdis86",
@@ -8731,6 +9487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icpuid",
           "package": "hdis86",
@@ -8740,6 +9497,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icpuid",
           "package": "hdis86",
@@ -8753,6 +9511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icqo",
           "package": "hdis86",
@@ -8762,6 +9521,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icqo",
           "package": "hdis86",
@@ -8775,6 +9535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvtdq2pd",
           "package": "hdis86",
@@ -8784,6 +9545,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvtdq2pd",
           "package": "hdis86",
@@ -8797,6 +9559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvtdq2ps",
           "package": "hdis86",
@@ -8806,6 +9569,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvtdq2ps",
           "package": "hdis86",
@@ -8819,6 +9583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvtpd2dq",
           "package": "hdis86",
@@ -8828,6 +9593,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvtpd2dq",
           "package": "hdis86",
@@ -8841,6 +9607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvtpd2pi",
           "package": "hdis86",
@@ -8850,6 +9617,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvtpd2pi",
           "package": "hdis86",
@@ -8863,6 +9631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvtpd2ps",
           "package": "hdis86",
@@ -8872,6 +9641,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvtpd2ps",
           "package": "hdis86",
@@ -8885,6 +9655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvtpi2pd",
           "package": "hdis86",
@@ -8894,6 +9665,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvtpi2pd",
           "package": "hdis86",
@@ -8907,6 +9679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvtpi2ps",
           "package": "hdis86",
@@ -8916,6 +9689,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvtpi2ps",
           "package": "hdis86",
@@ -8929,6 +9703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvtps2dq",
           "package": "hdis86",
@@ -8938,6 +9713,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvtps2dq",
           "package": "hdis86",
@@ -8951,6 +9727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvtps2pd",
           "package": "hdis86",
@@ -8960,6 +9737,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvtps2pd",
           "package": "hdis86",
@@ -8973,6 +9751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvtps2pi",
           "package": "hdis86",
@@ -8982,6 +9761,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvtps2pi",
           "package": "hdis86",
@@ -8995,6 +9775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvtsd2si",
           "package": "hdis86",
@@ -9004,6 +9785,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvtsd2si",
           "package": "hdis86",
@@ -9017,6 +9799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvtsd2ss",
           "package": "hdis86",
@@ -9026,6 +9809,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvtsd2ss",
           "package": "hdis86",
@@ -9039,6 +9823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvtsi2sd",
           "package": "hdis86",
@@ -9048,6 +9833,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvtsi2sd",
           "package": "hdis86",
@@ -9061,6 +9847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvtsi2ss",
           "package": "hdis86",
@@ -9070,6 +9857,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvtsi2ss",
           "package": "hdis86",
@@ -9083,6 +9871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvtss2sd",
           "package": "hdis86",
@@ -9092,6 +9881,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvtss2sd",
           "package": "hdis86",
@@ -9105,6 +9895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvtss2si",
           "package": "hdis86",
@@ -9114,6 +9905,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvtss2si",
           "package": "hdis86",
@@ -9127,6 +9919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvttpd2dq",
           "package": "hdis86",
@@ -9136,6 +9929,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvttpd2dq",
           "package": "hdis86",
@@ -9149,6 +9943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvttpd2pi",
           "package": "hdis86",
@@ -9158,6 +9953,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvttpd2pi",
           "package": "hdis86",
@@ -9171,6 +9967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvttps2dq",
           "package": "hdis86",
@@ -9180,6 +9977,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvttps2dq",
           "package": "hdis86",
@@ -9193,6 +9991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvttps2pi",
           "package": "hdis86",
@@ -9202,6 +10001,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvttps2pi",
           "package": "hdis86",
@@ -9215,6 +10015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvttsd2si",
           "package": "hdis86",
@@ -9224,6 +10025,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvttsd2si",
           "package": "hdis86",
@@ -9237,6 +10039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icvttss2si",
           "package": "hdis86",
@@ -9246,6 +10049,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icvttss2si",
           "package": "hdis86",
@@ -9259,6 +10063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icwd",
           "package": "hdis86",
@@ -9268,6 +10073,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icwd",
           "package": "hdis86",
@@ -9281,6 +10087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Icwde",
           "package": "hdis86",
@@ -9290,6 +10097,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Icwde",
           "package": "hdis86",
@@ -9303,6 +10111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Id3vil",
           "package": "hdis86",
@@ -9312,6 +10121,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Id3vil",
           "package": "hdis86",
@@ -9325,6 +10135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Idaa",
           "package": "hdis86",
@@ -9334,6 +10145,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Idaa",
           "package": "hdis86",
@@ -9347,6 +10159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Idas",
           "package": "hdis86",
@@ -9356,6 +10169,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Idas",
           "package": "hdis86",
@@ -9369,6 +10183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Idb",
           "package": "hdis86",
@@ -9378,6 +10193,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Idb",
           "package": "hdis86",
@@ -9391,6 +10207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Idec",
           "package": "hdis86",
@@ -9400,6 +10217,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Idec",
           "package": "hdis86",
@@ -9413,6 +10231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Idiv",
           "package": "hdis86",
@@ -9422,6 +10241,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Idiv",
           "package": "hdis86",
@@ -9435,6 +10255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Idivpd",
           "package": "hdis86",
@@ -9444,6 +10265,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Idivpd",
           "package": "hdis86",
@@ -9457,6 +10279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Idivps",
           "package": "hdis86",
@@ -9466,6 +10289,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Idivps",
           "package": "hdis86",
@@ -9479,6 +10303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Idivsd",
           "package": "hdis86",
@@ -9488,6 +10313,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Idivsd",
           "package": "hdis86",
@@ -9501,6 +10327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Idivss",
           "package": "hdis86",
@@ -9510,6 +10337,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Idivss",
           "package": "hdis86",
@@ -9523,6 +10351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iemms",
           "package": "hdis86",
@@ -9532,6 +10361,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iemms",
           "package": "hdis86",
@@ -9545,6 +10375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ienter",
           "package": "hdis86",
@@ -9554,6 +10385,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ienter",
           "package": "hdis86",
@@ -9567,6 +10399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "If2xm1",
           "package": "hdis86",
@@ -9576,6 +10409,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "If2xm1",
           "package": "hdis86",
@@ -9589,6 +10423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifabs",
           "package": "hdis86",
@@ -9598,6 +10433,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifabs",
           "package": "hdis86",
@@ -9611,6 +10447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifadd",
           "package": "hdis86",
@@ -9620,6 +10457,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifadd",
           "package": "hdis86",
@@ -9633,6 +10471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifaddp",
           "package": "hdis86",
@@ -9642,6 +10481,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifaddp",
           "package": "hdis86",
@@ -9655,6 +10495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifbld",
           "package": "hdis86",
@@ -9664,6 +10505,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifbld",
           "package": "hdis86",
@@ -9677,6 +10519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifbstp",
           "package": "hdis86",
@@ -9686,6 +10529,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifbstp",
           "package": "hdis86",
@@ -9699,6 +10543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifchs",
           "package": "hdis86",
@@ -9708,6 +10553,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifchs",
           "package": "hdis86",
@@ -9721,6 +10567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifclex",
           "package": "hdis86",
@@ -9730,6 +10577,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifclex",
           "package": "hdis86",
@@ -9743,6 +10591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifcmovb",
           "package": "hdis86",
@@ -9752,6 +10601,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifcmovb",
           "package": "hdis86",
@@ -9765,6 +10615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifcmovbe",
           "package": "hdis86",
@@ -9774,6 +10625,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifcmovbe",
           "package": "hdis86",
@@ -9787,6 +10639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifcmove",
           "package": "hdis86",
@@ -9796,6 +10649,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifcmove",
           "package": "hdis86",
@@ -9809,6 +10663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifcmovnb",
           "package": "hdis86",
@@ -9818,6 +10673,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifcmovnb",
           "package": "hdis86",
@@ -9831,6 +10687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifcmovnbe",
           "package": "hdis86",
@@ -9840,6 +10697,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifcmovnbe",
           "package": "hdis86",
@@ -9853,6 +10711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifcmovne",
           "package": "hdis86",
@@ -9862,6 +10721,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifcmovne",
           "package": "hdis86",
@@ -9875,6 +10735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifcmovnu",
           "package": "hdis86",
@@ -9884,6 +10745,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifcmovnu",
           "package": "hdis86",
@@ -9897,6 +10759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifcmovu",
           "package": "hdis86",
@@ -9906,6 +10769,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifcmovu",
           "package": "hdis86",
@@ -9919,6 +10783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifcom",
           "package": "hdis86",
@@ -9928,6 +10793,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifcom",
           "package": "hdis86",
@@ -9941,6 +10807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifcom2",
           "package": "hdis86",
@@ -9950,6 +10817,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifcom2",
           "package": "hdis86",
@@ -9963,6 +10831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifcomi",
           "package": "hdis86",
@@ -9972,6 +10841,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifcomi",
           "package": "hdis86",
@@ -9985,6 +10855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifcomip",
           "package": "hdis86",
@@ -9994,6 +10865,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifcomip",
           "package": "hdis86",
@@ -10007,6 +10879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifcomp",
           "package": "hdis86",
@@ -10016,6 +10889,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifcomp",
           "package": "hdis86",
@@ -10029,6 +10903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifcomp3",
           "package": "hdis86",
@@ -10038,6 +10913,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifcomp3",
           "package": "hdis86",
@@ -10051,6 +10927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifcomp5",
           "package": "hdis86",
@@ -10060,6 +10937,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifcomp5",
           "package": "hdis86",
@@ -10073,6 +10951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifcompp",
           "package": "hdis86",
@@ -10082,6 +10961,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifcompp",
           "package": "hdis86",
@@ -10095,6 +10975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifcos",
           "package": "hdis86",
@@ -10104,6 +10985,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifcos",
           "package": "hdis86",
@@ -10117,6 +10999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifdecstp",
           "package": "hdis86",
@@ -10126,6 +11009,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifdecstp",
           "package": "hdis86",
@@ -10139,6 +11023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifdiv",
           "package": "hdis86",
@@ -10148,6 +11033,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifdiv",
           "package": "hdis86",
@@ -10161,6 +11047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifdivp",
           "package": "hdis86",
@@ -10170,6 +11057,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifdivp",
           "package": "hdis86",
@@ -10183,6 +11071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifdivr",
           "package": "hdis86",
@@ -10192,6 +11081,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifdivr",
           "package": "hdis86",
@@ -10205,6 +11095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifdivrp",
           "package": "hdis86",
@@ -10214,6 +11105,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifdivrp",
           "package": "hdis86",
@@ -10227,6 +11119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifemms",
           "package": "hdis86",
@@ -10236,6 +11129,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifemms",
           "package": "hdis86",
@@ -10249,6 +11143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iffree",
           "package": "hdis86",
@@ -10258,6 +11153,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iffree",
           "package": "hdis86",
@@ -10271,6 +11167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iffreep",
           "package": "hdis86",
@@ -10280,6 +11177,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iffreep",
           "package": "hdis86",
@@ -10293,6 +11191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifiadd",
           "package": "hdis86",
@@ -10302,6 +11201,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifiadd",
           "package": "hdis86",
@@ -10315,6 +11215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ificom",
           "package": "hdis86",
@@ -10324,6 +11225,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ificom",
           "package": "hdis86",
@@ -10337,6 +11239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ificomp",
           "package": "hdis86",
@@ -10346,6 +11249,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ificomp",
           "package": "hdis86",
@@ -10359,6 +11263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifidiv",
           "package": "hdis86",
@@ -10368,6 +11273,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifidiv",
           "package": "hdis86",
@@ -10381,6 +11287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifidivr",
           "package": "hdis86",
@@ -10390,6 +11297,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifidivr",
           "package": "hdis86",
@@ -10403,6 +11311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifild",
           "package": "hdis86",
@@ -10412,6 +11321,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifild",
           "package": "hdis86",
@@ -10425,6 +11335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifimul",
           "package": "hdis86",
@@ -10434,6 +11345,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifimul",
           "package": "hdis86",
@@ -10447,6 +11359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifist",
           "package": "hdis86",
@@ -10456,6 +11369,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifist",
           "package": "hdis86",
@@ -10469,6 +11383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifistp",
           "package": "hdis86",
@@ -10478,6 +11393,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifistp",
           "package": "hdis86",
@@ -10491,6 +11407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifisttp",
           "package": "hdis86",
@@ -10500,6 +11417,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifisttp",
           "package": "hdis86",
@@ -10513,6 +11431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifisub",
           "package": "hdis86",
@@ -10522,6 +11441,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifisub",
           "package": "hdis86",
@@ -10535,6 +11455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifisubr",
           "package": "hdis86",
@@ -10544,6 +11465,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifisubr",
           "package": "hdis86",
@@ -10557,6 +11479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifld",
           "package": "hdis86",
@@ -10566,6 +11489,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifld",
           "package": "hdis86",
@@ -10579,6 +11503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifld1",
           "package": "hdis86",
@@ -10588,6 +11513,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifld1",
           "package": "hdis86",
@@ -10601,6 +11527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifldcw",
           "package": "hdis86",
@@ -10610,6 +11537,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifldcw",
           "package": "hdis86",
@@ -10623,6 +11551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifldenv",
           "package": "hdis86",
@@ -10632,6 +11561,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifldenv",
           "package": "hdis86",
@@ -10645,6 +11575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifldl2e",
           "package": "hdis86",
@@ -10654,6 +11585,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifldl2e",
           "package": "hdis86",
@@ -10667,6 +11599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifldl2t",
           "package": "hdis86",
@@ -10676,6 +11609,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifldl2t",
           "package": "hdis86",
@@ -10689,6 +11623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifldlg2",
           "package": "hdis86",
@@ -10698,6 +11633,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifldlg2",
           "package": "hdis86",
@@ -10711,6 +11647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifldln2",
           "package": "hdis86",
@@ -10720,6 +11657,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifldln2",
           "package": "hdis86",
@@ -10733,6 +11671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifldlpi",
           "package": "hdis86",
@@ -10742,6 +11681,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifldlpi",
           "package": "hdis86",
@@ -10755,6 +11695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifldz",
           "package": "hdis86",
@@ -10764,6 +11705,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifldz",
           "package": "hdis86",
@@ -10777,6 +11719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifmul",
           "package": "hdis86",
@@ -10786,6 +11729,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifmul",
           "package": "hdis86",
@@ -10799,6 +11743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifmulp",
           "package": "hdis86",
@@ -10808,6 +11753,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifmulp",
           "package": "hdis86",
@@ -10821,6 +11767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifncstp",
           "package": "hdis86",
@@ -10830,6 +11777,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifncstp",
           "package": "hdis86",
@@ -10843,6 +11791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifninit",
           "package": "hdis86",
@@ -10852,6 +11801,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifninit",
           "package": "hdis86",
@@ -10865,6 +11815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifnop",
           "package": "hdis86",
@@ -10874,6 +11825,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifnop",
           "package": "hdis86",
@@ -10887,6 +11839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifnsave",
           "package": "hdis86",
@@ -10896,6 +11849,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifnsave",
           "package": "hdis86",
@@ -10909,6 +11863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifnstcw",
           "package": "hdis86",
@@ -10918,6 +11873,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifnstcw",
           "package": "hdis86",
@@ -10931,6 +11887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifnstenv",
           "package": "hdis86",
@@ -10940,6 +11897,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifnstenv",
           "package": "hdis86",
@@ -10953,6 +11911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifnstsw",
           "package": "hdis86",
@@ -10962,6 +11921,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifnstsw",
           "package": "hdis86",
@@ -10975,6 +11935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifpatan",
           "package": "hdis86",
@@ -10984,6 +11945,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifpatan",
           "package": "hdis86",
@@ -10997,6 +11959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifprem",
           "package": "hdis86",
@@ -11006,6 +11969,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifprem",
           "package": "hdis86",
@@ -11019,6 +11983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifprem1",
           "package": "hdis86",
@@ -11028,6 +11993,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifprem1",
           "package": "hdis86",
@@ -11041,6 +12007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifptan",
           "package": "hdis86",
@@ -11050,6 +12017,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifptan",
           "package": "hdis86",
@@ -11063,6 +12031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifpxtract",
           "package": "hdis86",
@@ -11072,6 +12041,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifpxtract",
           "package": "hdis86",
@@ -11085,6 +12055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifrndint",
           "package": "hdis86",
@@ -11094,6 +12065,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifrndint",
           "package": "hdis86",
@@ -11107,6 +12079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifrstor",
           "package": "hdis86",
@@ -11116,6 +12089,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifrstor",
           "package": "hdis86",
@@ -11129,6 +12103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifscale",
           "package": "hdis86",
@@ -11138,6 +12113,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifscale",
           "package": "hdis86",
@@ -11151,6 +12127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifsin",
           "package": "hdis86",
@@ -11160,6 +12137,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifsin",
           "package": "hdis86",
@@ -11173,6 +12151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifsincos",
           "package": "hdis86",
@@ -11182,6 +12161,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifsincos",
           "package": "hdis86",
@@ -11195,6 +12175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifsqrt",
           "package": "hdis86",
@@ -11204,6 +12185,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifsqrt",
           "package": "hdis86",
@@ -11217,6 +12199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifst",
           "package": "hdis86",
@@ -11226,6 +12209,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifst",
           "package": "hdis86",
@@ -11239,6 +12223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifstp",
           "package": "hdis86",
@@ -11248,6 +12233,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifstp",
           "package": "hdis86",
@@ -11261,6 +12247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifstp1",
           "package": "hdis86",
@@ -11270,6 +12257,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifstp1",
           "package": "hdis86",
@@ -11283,6 +12271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifstp8",
           "package": "hdis86",
@@ -11292,6 +12281,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifstp8",
           "package": "hdis86",
@@ -11305,6 +12295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifstp9",
           "package": "hdis86",
@@ -11314,6 +12305,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifstp9",
           "package": "hdis86",
@@ -11327,6 +12319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifsub",
           "package": "hdis86",
@@ -11336,6 +12329,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifsub",
           "package": "hdis86",
@@ -11349,6 +12343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifsubp",
           "package": "hdis86",
@@ -11358,6 +12353,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifsubp",
           "package": "hdis86",
@@ -11371,6 +12367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifsubr",
           "package": "hdis86",
@@ -11380,6 +12377,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifsubr",
           "package": "hdis86",
@@ -11393,6 +12391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifsubrp",
           "package": "hdis86",
@@ -11402,6 +12401,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifsubrp",
           "package": "hdis86",
@@ -11415,6 +12415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iftst",
           "package": "hdis86",
@@ -11424,6 +12425,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iftst",
           "package": "hdis86",
@@ -11437,6 +12439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifucom",
           "package": "hdis86",
@@ -11446,6 +12449,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifucom",
           "package": "hdis86",
@@ -11459,6 +12463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifucomi",
           "package": "hdis86",
@@ -11468,6 +12473,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifucomi",
           "package": "hdis86",
@@ -11481,6 +12487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifucomip",
           "package": "hdis86",
@@ -11490,6 +12497,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifucomip",
           "package": "hdis86",
@@ -11503,6 +12511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifucomp",
           "package": "hdis86",
@@ -11512,6 +12521,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifucomp",
           "package": "hdis86",
@@ -11525,6 +12535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifucompp",
           "package": "hdis86",
@@ -11534,6 +12545,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifucompp",
           "package": "hdis86",
@@ -11547,6 +12559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifxam",
           "package": "hdis86",
@@ -11556,6 +12569,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifxam",
           "package": "hdis86",
@@ -11569,6 +12583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifxch",
           "package": "hdis86",
@@ -11578,6 +12593,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifxch",
           "package": "hdis86",
@@ -11591,6 +12607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifxch4",
           "package": "hdis86",
@@ -11600,6 +12617,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifxch4",
           "package": "hdis86",
@@ -11613,6 +12631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifxch7",
           "package": "hdis86",
@@ -11622,6 +12641,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifxch7",
           "package": "hdis86",
@@ -11635,6 +12655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifxrstor",
           "package": "hdis86",
@@ -11644,6 +12665,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifxrstor",
           "package": "hdis86",
@@ -11657,6 +12679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifxsave",
           "package": "hdis86",
@@ -11666,6 +12689,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifxsave",
           "package": "hdis86",
@@ -11679,6 +12703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifyl2x",
           "package": "hdis86",
@@ -11688,6 +12713,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifyl2x",
           "package": "hdis86",
@@ -11701,6 +12727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ifyl2xp1",
           "package": "hdis86",
@@ -11710,6 +12737,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ifyl2xp1",
           "package": "hdis86",
@@ -11723,6 +12751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Igrp_asize",
           "package": "hdis86",
@@ -11732,6 +12761,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Igrp_asize",
           "package": "hdis86",
@@ -11745,6 +12775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Igrp_mod",
           "package": "hdis86",
@@ -11754,6 +12785,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Igrp_mod",
           "package": "hdis86",
@@ -11767,6 +12799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Igrp_mode",
           "package": "hdis86",
@@ -11776,6 +12809,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Igrp_mode",
           "package": "hdis86",
@@ -11789,6 +12823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Igrp_osize",
           "package": "hdis86",
@@ -11798,6 +12833,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Igrp_osize",
           "package": "hdis86",
@@ -11811,6 +12847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Igrp_reg",
           "package": "hdis86",
@@ -11820,6 +12857,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Igrp_reg",
           "package": "hdis86",
@@ -11833,6 +12871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Igrp_rm",
           "package": "hdis86",
@@ -11842,6 +12881,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Igrp_rm",
           "package": "hdis86",
@@ -11855,6 +12895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Igrp_vendor",
           "package": "hdis86",
@@ -11864,6 +12905,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Igrp_vendor",
           "package": "hdis86",
@@ -11877,6 +12919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Igrp_x87",
           "package": "hdis86",
@@ -11886,6 +12929,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Igrp_x87",
           "package": "hdis86",
@@ -11899,6 +12943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ihaddpd",
           "package": "hdis86",
@@ -11908,6 +12953,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ihaddpd",
           "package": "hdis86",
@@ -11921,6 +12967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ihaddps",
           "package": "hdis86",
@@ -11930,6 +12977,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ihaddps",
           "package": "hdis86",
@@ -11943,6 +12991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ihlt",
           "package": "hdis86",
@@ -11952,6 +13001,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ihlt",
           "package": "hdis86",
@@ -11965,6 +13015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ihsubpd",
           "package": "hdis86",
@@ -11974,6 +13025,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ihsubpd",
           "package": "hdis86",
@@ -11987,6 +13039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ihsubps",
           "package": "hdis86",
@@ -11996,6 +13049,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ihsubps",
           "package": "hdis86",
@@ -12009,6 +13063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iidiv",
           "package": "hdis86",
@@ -12018,6 +13073,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iidiv",
           "package": "hdis86",
@@ -12031,6 +13087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iimul",
           "package": "hdis86",
@@ -12040,6 +13097,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iimul",
           "package": "hdis86",
@@ -12053,6 +13111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iin",
           "package": "hdis86",
@@ -12062,6 +13121,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iin",
           "package": "hdis86",
@@ -12075,6 +13135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iinc",
           "package": "hdis86",
@@ -12084,6 +13145,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iinc",
           "package": "hdis86",
@@ -12097,6 +13159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iinsb",
           "package": "hdis86",
@@ -12106,6 +13169,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iinsb",
           "package": "hdis86",
@@ -12119,6 +13183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iinsd",
           "package": "hdis86",
@@ -12128,6 +13193,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iinsd",
           "package": "hdis86",
@@ -12141,6 +13207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iinsw",
           "package": "hdis86",
@@ -12150,6 +13217,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iinsw",
           "package": "hdis86",
@@ -12163,6 +13231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iint",
           "package": "hdis86",
@@ -12172,6 +13241,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iint",
           "package": "hdis86",
@@ -12185,6 +13255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iint1",
           "package": "hdis86",
@@ -12194,6 +13265,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iint1",
           "package": "hdis86",
@@ -12207,6 +13279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iint3",
           "package": "hdis86",
@@ -12216,6 +13289,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iint3",
           "package": "hdis86",
@@ -12229,6 +13303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iinto",
           "package": "hdis86",
@@ -12238,6 +13313,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iinto",
           "package": "hdis86",
@@ -12251,6 +13327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iinvalid",
           "package": "hdis86",
@@ -12260,6 +13337,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iinvalid",
           "package": "hdis86",
@@ -12273,6 +13351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iinvd",
           "package": "hdis86",
@@ -12282,6 +13361,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iinvd",
           "package": "hdis86",
@@ -12295,6 +13375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iinvlpg",
           "package": "hdis86",
@@ -12304,6 +13385,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iinvlpg",
           "package": "hdis86",
@@ -12317,6 +13399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iinvlpga",
           "package": "hdis86",
@@ -12326,6 +13409,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iinvlpga",
           "package": "hdis86",
@@ -12339,6 +13423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iiretd",
           "package": "hdis86",
@@ -12348,6 +13433,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iiretd",
           "package": "hdis86",
@@ -12361,6 +13447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iiretq",
           "package": "hdis86",
@@ -12370,6 +13457,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iiretq",
           "package": "hdis86",
@@ -12383,6 +13471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iiretw",
           "package": "hdis86",
@@ -12392,6 +13481,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iiretw",
           "package": "hdis86",
@@ -12405,6 +13495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ija",
           "package": "hdis86",
@@ -12414,6 +13505,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ija",
           "package": "hdis86",
@@ -12427,6 +13519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ijae",
           "package": "hdis86",
@@ -12436,6 +13529,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ijae",
           "package": "hdis86",
@@ -12449,6 +13543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ijb",
           "package": "hdis86",
@@ -12458,6 +13553,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ijb",
           "package": "hdis86",
@@ -12471,6 +13567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ijbe",
           "package": "hdis86",
@@ -12480,6 +13577,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ijbe",
           "package": "hdis86",
@@ -12493,6 +13591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ijcxz",
           "package": "hdis86",
@@ -12502,6 +13601,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ijcxz",
           "package": "hdis86",
@@ -12515,6 +13615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ijecxz",
           "package": "hdis86",
@@ -12524,6 +13625,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ijecxz",
           "package": "hdis86",
@@ -12537,6 +13639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ijg",
           "package": "hdis86",
@@ -12546,6 +13649,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ijg",
           "package": "hdis86",
@@ -12559,6 +13663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ijge",
           "package": "hdis86",
@@ -12568,6 +13673,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ijge",
           "package": "hdis86",
@@ -12581,6 +13687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ijl",
           "package": "hdis86",
@@ -12590,6 +13697,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ijl",
           "package": "hdis86",
@@ -12603,6 +13711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ijle",
           "package": "hdis86",
@@ -12612,6 +13721,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ijle",
           "package": "hdis86",
@@ -12625,6 +13735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ijmp",
           "package": "hdis86",
@@ -12634,6 +13745,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ijmp",
           "package": "hdis86",
@@ -12647,6 +13759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ijno",
           "package": "hdis86",
@@ -12656,6 +13769,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ijno",
           "package": "hdis86",
@@ -12669,6 +13783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ijnp",
           "package": "hdis86",
@@ -12678,6 +13793,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ijnp",
           "package": "hdis86",
@@ -12691,6 +13807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ijns",
           "package": "hdis86",
@@ -12700,6 +13817,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ijns",
           "package": "hdis86",
@@ -12713,6 +13831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ijnz",
           "package": "hdis86",
@@ -12722,6 +13841,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ijnz",
           "package": "hdis86",
@@ -12735,6 +13855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ijo",
           "package": "hdis86",
@@ -12744,6 +13865,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ijo",
           "package": "hdis86",
@@ -12757,6 +13879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ijp",
           "package": "hdis86",
@@ -12766,6 +13889,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ijp",
           "package": "hdis86",
@@ -12779,6 +13903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ijrcxz",
           "package": "hdis86",
@@ -12788,6 +13913,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ijrcxz",
           "package": "hdis86",
@@ -12801,6 +13927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ijs",
           "package": "hdis86",
@@ -12810,6 +13937,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ijs",
           "package": "hdis86",
@@ -12823,6 +13951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ijz",
           "package": "hdis86",
@@ -12832,6 +13961,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ijz",
           "package": "hdis86",
@@ -12845,6 +13975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ilahf",
           "package": "hdis86",
@@ -12854,6 +13985,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ilahf",
           "package": "hdis86",
@@ -12867,6 +13999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ilar",
           "package": "hdis86",
@@ -12876,6 +14009,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ilar",
           "package": "hdis86",
@@ -12889,6 +14023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ilddqu",
           "package": "hdis86",
@@ -12898,6 +14033,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ilddqu",
           "package": "hdis86",
@@ -12911,6 +14047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ildmxcsr",
           "package": "hdis86",
@@ -12920,6 +14057,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ildmxcsr",
           "package": "hdis86",
@@ -12933,6 +14071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ilds",
           "package": "hdis86",
@@ -12942,6 +14081,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ilds",
           "package": "hdis86",
@@ -12955,6 +14095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ilea",
           "package": "hdis86",
@@ -12964,6 +14105,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ilea",
           "package": "hdis86",
@@ -12977,6 +14119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ileave",
           "package": "hdis86",
@@ -12986,6 +14129,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ileave",
           "package": "hdis86",
@@ -12999,6 +14143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iles",
           "package": "hdis86",
@@ -13008,6 +14153,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iles",
           "package": "hdis86",
@@ -13021,6 +14167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ilfence",
           "package": "hdis86",
@@ -13030,6 +14177,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ilfence",
           "package": "hdis86",
@@ -13043,6 +14191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ilfs",
           "package": "hdis86",
@@ -13052,6 +14201,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ilfs",
           "package": "hdis86",
@@ -13065,6 +14215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ilgdt",
           "package": "hdis86",
@@ -13074,6 +14225,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ilgdt",
           "package": "hdis86",
@@ -13087,6 +14239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ilgs",
           "package": "hdis86",
@@ -13096,6 +14249,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ilgs",
           "package": "hdis86",
@@ -13109,6 +14263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ilidt",
           "package": "hdis86",
@@ -13118,6 +14273,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ilidt",
           "package": "hdis86",
@@ -13131,6 +14287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Illdt",
           "package": "hdis86",
@@ -13140,6 +14297,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Illdt",
           "package": "hdis86",
@@ -13153,6 +14311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ilmsw",
           "package": "hdis86",
@@ -13162,6 +14321,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ilmsw",
           "package": "hdis86",
@@ -13175,6 +14335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ilock",
           "package": "hdis86",
@@ -13184,6 +14345,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ilock",
           "package": "hdis86",
@@ -13197,6 +14359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ilodsb",
           "package": "hdis86",
@@ -13206,6 +14369,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ilodsb",
           "package": "hdis86",
@@ -13219,6 +14383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ilodsd",
           "package": "hdis86",
@@ -13228,6 +14393,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ilodsd",
           "package": "hdis86",
@@ -13241,6 +14407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ilodsq",
           "package": "hdis86",
@@ -13250,6 +14417,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ilodsq",
           "package": "hdis86",
@@ -13263,6 +14431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ilodsw",
           "package": "hdis86",
@@ -13272,6 +14441,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ilodsw",
           "package": "hdis86",
@@ -13285,6 +14455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iloop",
           "package": "hdis86",
@@ -13294,6 +14465,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iloop",
           "package": "hdis86",
@@ -13307,6 +14479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iloope",
           "package": "hdis86",
@@ -13316,6 +14489,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iloope",
           "package": "hdis86",
@@ -13329,6 +14503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iloopnz",
           "package": "hdis86",
@@ -13338,6 +14513,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iloopnz",
           "package": "hdis86",
@@ -13351,6 +14527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ilsl",
           "package": "hdis86",
@@ -13360,6 +14537,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ilsl",
           "package": "hdis86",
@@ -13373,6 +14551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ilss",
           "package": "hdis86",
@@ -13382,6 +14561,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ilss",
           "package": "hdis86",
@@ -13395,6 +14575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iltr",
           "package": "hdis86",
@@ -13404,6 +14585,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iltr",
           "package": "hdis86",
@@ -13417,6 +14599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imaskmovq",
           "package": "hdis86",
@@ -13426,6 +14609,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imaskmovq",
           "package": "hdis86",
@@ -13439,6 +14623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imaxpd",
           "package": "hdis86",
@@ -13448,6 +14633,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imaxpd",
           "package": "hdis86",
@@ -13461,6 +14647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imaxps",
           "package": "hdis86",
@@ -13470,6 +14657,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imaxps",
           "package": "hdis86",
@@ -13483,6 +14671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imaxsd",
           "package": "hdis86",
@@ -13492,6 +14681,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imaxsd",
           "package": "hdis86",
@@ -13505,6 +14695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imaxss",
           "package": "hdis86",
@@ -13514,6 +14705,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imaxss",
           "package": "hdis86",
@@ -13527,6 +14719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imfence",
           "package": "hdis86",
@@ -13536,6 +14729,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imfence",
           "package": "hdis86",
@@ -13549,6 +14743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iminpd",
           "package": "hdis86",
@@ -13558,6 +14753,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iminpd",
           "package": "hdis86",
@@ -13571,6 +14767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iminps",
           "package": "hdis86",
@@ -13580,6 +14777,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iminps",
           "package": "hdis86",
@@ -13593,6 +14791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iminsd",
           "package": "hdis86",
@@ -13602,6 +14801,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iminsd",
           "package": "hdis86",
@@ -13615,6 +14815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iminss",
           "package": "hdis86",
@@ -13624,6 +14825,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iminss",
           "package": "hdis86",
@@ -13638,6 +14840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImmediate value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imm",
           "package": "hdis86",
@@ -13648,6 +14851,7 @@
         "index": {
           "description": "Immediate value",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imm",
           "package": "hdis86",
@@ -13661,6 +14865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Immediate",
           "package": "hdis86",
@@ -13670,6 +14875,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Immediate",
           "package": "hdis86",
@@ -13683,6 +14889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imonitor",
           "package": "hdis86",
@@ -13692,6 +14899,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imonitor",
           "package": "hdis86",
@@ -13705,6 +14913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imov",
           "package": "hdis86",
@@ -13714,6 +14923,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imov",
           "package": "hdis86",
@@ -13727,6 +14937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovapd",
           "package": "hdis86",
@@ -13736,6 +14947,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovapd",
           "package": "hdis86",
@@ -13749,6 +14961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovaps",
           "package": "hdis86",
@@ -13758,6 +14971,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovaps",
           "package": "hdis86",
@@ -13771,6 +14985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovd",
           "package": "hdis86",
@@ -13780,6 +14995,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovd",
           "package": "hdis86",
@@ -13793,6 +15009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovddup",
           "package": "hdis86",
@@ -13802,6 +15019,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovddup",
           "package": "hdis86",
@@ -13815,6 +15033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovdq2q",
           "package": "hdis86",
@@ -13824,6 +15043,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovdq2q",
           "package": "hdis86",
@@ -13837,6 +15057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovdqa",
           "package": "hdis86",
@@ -13846,6 +15067,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovdqa",
           "package": "hdis86",
@@ -13859,6 +15081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovdqu",
           "package": "hdis86",
@@ -13868,6 +15091,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovdqu",
           "package": "hdis86",
@@ -13881,6 +15105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovhlps",
           "package": "hdis86",
@@ -13890,6 +15115,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovhlps",
           "package": "hdis86",
@@ -13903,6 +15129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovhpd",
           "package": "hdis86",
@@ -13912,6 +15139,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovhpd",
           "package": "hdis86",
@@ -13925,6 +15153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovhps",
           "package": "hdis86",
@@ -13934,6 +15163,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovhps",
           "package": "hdis86",
@@ -13947,6 +15177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovlhps",
           "package": "hdis86",
@@ -13956,6 +15187,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovlhps",
           "package": "hdis86",
@@ -13969,6 +15201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovlpd",
           "package": "hdis86",
@@ -13978,6 +15211,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovlpd",
           "package": "hdis86",
@@ -13991,6 +15225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovlps",
           "package": "hdis86",
@@ -14000,6 +15235,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovlps",
           "package": "hdis86",
@@ -14013,6 +15249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovmskpd",
           "package": "hdis86",
@@ -14022,6 +15259,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovmskpd",
           "package": "hdis86",
@@ -14035,6 +15273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovmskps",
           "package": "hdis86",
@@ -14044,6 +15283,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovmskps",
           "package": "hdis86",
@@ -14057,6 +15297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovntdq",
           "package": "hdis86",
@@ -14066,6 +15307,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovntdq",
           "package": "hdis86",
@@ -14079,6 +15321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovnti",
           "package": "hdis86",
@@ -14088,6 +15331,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovnti",
           "package": "hdis86",
@@ -14101,6 +15345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovntpd",
           "package": "hdis86",
@@ -14110,6 +15355,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovntpd",
           "package": "hdis86",
@@ -14123,6 +15369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovntps",
           "package": "hdis86",
@@ -14132,6 +15379,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovntps",
           "package": "hdis86",
@@ -14145,6 +15393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovntq",
           "package": "hdis86",
@@ -14154,6 +15403,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovntq",
           "package": "hdis86",
@@ -14167,6 +15417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovq",
           "package": "hdis86",
@@ -14176,6 +15427,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovq",
           "package": "hdis86",
@@ -14189,6 +15441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovq2dq",
           "package": "hdis86",
@@ -14198,6 +15451,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovq2dq",
           "package": "hdis86",
@@ -14211,6 +15465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovqa",
           "package": "hdis86",
@@ -14220,6 +15475,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovqa",
           "package": "hdis86",
@@ -14233,6 +15489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovsb",
           "package": "hdis86",
@@ -14242,6 +15499,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovsb",
           "package": "hdis86",
@@ -14255,6 +15513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovsd",
           "package": "hdis86",
@@ -14264,6 +15523,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovsd",
           "package": "hdis86",
@@ -14277,6 +15537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovshdup",
           "package": "hdis86",
@@ -14286,6 +15547,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovshdup",
           "package": "hdis86",
@@ -14299,6 +15561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovsldup",
           "package": "hdis86",
@@ -14308,6 +15571,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovsldup",
           "package": "hdis86",
@@ -14321,6 +15585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovsq",
           "package": "hdis86",
@@ -14330,6 +15595,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovsq",
           "package": "hdis86",
@@ -14343,6 +15609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovss",
           "package": "hdis86",
@@ -14352,6 +15619,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovss",
           "package": "hdis86",
@@ -14365,6 +15633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovsw",
           "package": "hdis86",
@@ -14374,6 +15643,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovsw",
           "package": "hdis86",
@@ -14387,6 +15657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovsx",
           "package": "hdis86",
@@ -14396,6 +15667,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovsx",
           "package": "hdis86",
@@ -14409,6 +15681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovsxd",
           "package": "hdis86",
@@ -14418,6 +15691,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovsxd",
           "package": "hdis86",
@@ -14431,6 +15705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovupd",
           "package": "hdis86",
@@ -14440,6 +15715,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovupd",
           "package": "hdis86",
@@ -14453,6 +15729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovups",
           "package": "hdis86",
@@ -14462,6 +15739,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovups",
           "package": "hdis86",
@@ -14475,6 +15753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imovzx",
           "package": "hdis86",
@@ -14484,6 +15763,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imovzx",
           "package": "hdis86",
@@ -14497,6 +15777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imul",
           "package": "hdis86",
@@ -14506,6 +15787,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imul",
           "package": "hdis86",
@@ -14519,6 +15801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imulpd",
           "package": "hdis86",
@@ -14528,6 +15811,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imulpd",
           "package": "hdis86",
@@ -14541,6 +15825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imulps",
           "package": "hdis86",
@@ -14550,6 +15835,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imulps",
           "package": "hdis86",
@@ -14563,6 +15849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imulsd",
           "package": "hdis86",
@@ -14572,6 +15859,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imulsd",
           "package": "hdis86",
@@ -14585,6 +15873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imulss",
           "package": "hdis86",
@@ -14594,6 +15883,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imulss",
           "package": "hdis86",
@@ -14607,6 +15897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Imwait",
           "package": "hdis86",
@@ -14616,6 +15907,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Imwait",
           "package": "hdis86",
@@ -14629,6 +15921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ina",
           "package": "hdis86",
@@ -14638,6 +15931,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ina",
           "package": "hdis86",
@@ -14651,6 +15945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ineg",
           "package": "hdis86",
@@ -14660,6 +15955,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ineg",
           "package": "hdis86",
@@ -14673,6 +15969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Inone",
           "package": "hdis86",
@@ -14682,6 +15979,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Inone",
           "package": "hdis86",
@@ -14695,6 +15993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Inop",
           "package": "hdis86",
@@ -14704,6 +16003,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Inop",
           "package": "hdis86",
@@ -14717,6 +16017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Inot",
           "package": "hdis86",
@@ -14726,6 +16027,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Inot",
           "package": "hdis86",
@@ -14739,6 +16041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Inst",
           "package": "hdis86",
@@ -14748,6 +16051,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Inst",
           "package": "hdis86",
@@ -14761,6 +16065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Intel",
           "package": "hdis86",
@@ -14770,6 +16075,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Intel",
           "package": "hdis86",
@@ -14783,6 +16089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ior",
           "package": "hdis86",
@@ -14792,6 +16099,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ior",
           "package": "hdis86",
@@ -14805,6 +16113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iorpd",
           "package": "hdis86",
@@ -14814,6 +16123,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iorpd",
           "package": "hdis86",
@@ -14827,6 +16137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iorps",
           "package": "hdis86",
@@ -14836,6 +16147,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iorps",
           "package": "hdis86",
@@ -14849,6 +16161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iout",
           "package": "hdis86",
@@ -14858,6 +16171,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iout",
           "package": "hdis86",
@@ -14871,6 +16185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ioutsb",
           "package": "hdis86",
@@ -14880,6 +16195,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ioutsb",
           "package": "hdis86",
@@ -14893,6 +16209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ioutsd",
           "package": "hdis86",
@@ -14902,6 +16219,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ioutsd",
           "package": "hdis86",
@@ -14915,6 +16233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ioutsq",
           "package": "hdis86",
@@ -14924,6 +16243,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ioutsq",
           "package": "hdis86",
@@ -14937,6 +16257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ioutsw",
           "package": "hdis86",
@@ -14946,6 +16267,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ioutsw",
           "package": "hdis86",
@@ -14959,6 +16281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipackssdw",
           "package": "hdis86",
@@ -14968,6 +16291,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipackssdw",
           "package": "hdis86",
@@ -14981,6 +16305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipacksswb",
           "package": "hdis86",
@@ -14990,6 +16315,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipacksswb",
           "package": "hdis86",
@@ -15003,6 +16329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipackuswb",
           "package": "hdis86",
@@ -15012,6 +16339,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipackuswb",
           "package": "hdis86",
@@ -15025,6 +16353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipaddb",
           "package": "hdis86",
@@ -15034,6 +16363,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipaddb",
           "package": "hdis86",
@@ -15047,6 +16377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipaddq",
           "package": "hdis86",
@@ -15056,6 +16387,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipaddq",
           "package": "hdis86",
@@ -15069,6 +16401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipaddsb",
           "package": "hdis86",
@@ -15078,6 +16411,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipaddsb",
           "package": "hdis86",
@@ -15091,6 +16425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipaddsw",
           "package": "hdis86",
@@ -15100,6 +16435,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipaddsw",
           "package": "hdis86",
@@ -15113,6 +16449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipaddusb",
           "package": "hdis86",
@@ -15122,6 +16459,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipaddusb",
           "package": "hdis86",
@@ -15135,6 +16473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipaddusw",
           "package": "hdis86",
@@ -15144,6 +16483,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipaddusw",
           "package": "hdis86",
@@ -15157,6 +16497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipaddw",
           "package": "hdis86",
@@ -15166,6 +16507,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipaddw",
           "package": "hdis86",
@@ -15179,6 +16521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipand",
           "package": "hdis86",
@@ -15188,6 +16531,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipand",
           "package": "hdis86",
@@ -15201,6 +16545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipandn",
           "package": "hdis86",
@@ -15210,6 +16555,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipandn",
           "package": "hdis86",
@@ -15223,6 +16569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipause",
           "package": "hdis86",
@@ -15232,6 +16579,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipause",
           "package": "hdis86",
@@ -15245,6 +16593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipavgb",
           "package": "hdis86",
@@ -15254,6 +16603,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipavgb",
           "package": "hdis86",
@@ -15267,6 +16617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipavgusb",
           "package": "hdis86",
@@ -15276,6 +16627,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipavgusb",
           "package": "hdis86",
@@ -15289,6 +16641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipavgw",
           "package": "hdis86",
@@ -15298,6 +16651,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipavgw",
           "package": "hdis86",
@@ -15311,6 +16665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipcmpeqb",
           "package": "hdis86",
@@ -15320,6 +16675,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipcmpeqb",
           "package": "hdis86",
@@ -15333,6 +16689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipcmpeqd",
           "package": "hdis86",
@@ -15342,6 +16699,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipcmpeqd",
           "package": "hdis86",
@@ -15355,6 +16713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipcmpeqw",
           "package": "hdis86",
@@ -15364,6 +16723,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipcmpeqw",
           "package": "hdis86",
@@ -15377,6 +16737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipcmpgtb",
           "package": "hdis86",
@@ -15386,6 +16747,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipcmpgtb",
           "package": "hdis86",
@@ -15399,6 +16761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipcmpgtd",
           "package": "hdis86",
@@ -15408,6 +16771,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipcmpgtd",
           "package": "hdis86",
@@ -15421,6 +16785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipcmpgtw",
           "package": "hdis86",
@@ -15430,6 +16795,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipcmpgtw",
           "package": "hdis86",
@@ -15443,6 +16809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipextrw",
           "package": "hdis86",
@@ -15452,6 +16819,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipextrw",
           "package": "hdis86",
@@ -15465,6 +16833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipf2id",
           "package": "hdis86",
@@ -15474,6 +16843,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipf2id",
           "package": "hdis86",
@@ -15487,6 +16857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipf2iw",
           "package": "hdis86",
@@ -15496,6 +16867,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipf2iw",
           "package": "hdis86",
@@ -15509,6 +16881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipfacc",
           "package": "hdis86",
@@ -15518,6 +16891,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipfacc",
           "package": "hdis86",
@@ -15531,6 +16905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipfadd",
           "package": "hdis86",
@@ -15540,6 +16915,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipfadd",
           "package": "hdis86",
@@ -15553,6 +16929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipfcmpeq",
           "package": "hdis86",
@@ -15562,6 +16939,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipfcmpeq",
           "package": "hdis86",
@@ -15575,6 +16953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipfcmpge",
           "package": "hdis86",
@@ -15584,6 +16963,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipfcmpge",
           "package": "hdis86",
@@ -15597,6 +16977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipfcmpgt",
           "package": "hdis86",
@@ -15606,6 +16987,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipfcmpgt",
           "package": "hdis86",
@@ -15619,6 +17001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipfmax",
           "package": "hdis86",
@@ -15628,6 +17011,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipfmax",
           "package": "hdis86",
@@ -15641,6 +17025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipfmin",
           "package": "hdis86",
@@ -15650,6 +17035,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipfmin",
           "package": "hdis86",
@@ -15663,6 +17049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipfmul",
           "package": "hdis86",
@@ -15672,6 +17059,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipfmul",
           "package": "hdis86",
@@ -15685,6 +17073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipfnacc",
           "package": "hdis86",
@@ -15694,6 +17083,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipfnacc",
           "package": "hdis86",
@@ -15707,6 +17097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipfpnacc",
           "package": "hdis86",
@@ -15716,6 +17107,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipfpnacc",
           "package": "hdis86",
@@ -15729,6 +17121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipfrcp",
           "package": "hdis86",
@@ -15738,6 +17131,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipfrcp",
           "package": "hdis86",
@@ -15751,6 +17145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipfrcpit1",
           "package": "hdis86",
@@ -15760,6 +17155,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipfrcpit1",
           "package": "hdis86",
@@ -15773,6 +17169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipfrcpit2",
           "package": "hdis86",
@@ -15782,6 +17179,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipfrcpit2",
           "package": "hdis86",
@@ -15795,6 +17193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipfrspit1",
           "package": "hdis86",
@@ -15804,6 +17203,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipfrspit1",
           "package": "hdis86",
@@ -15817,6 +17217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipfrsqrt",
           "package": "hdis86",
@@ -15826,6 +17227,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipfrsqrt",
           "package": "hdis86",
@@ -15839,6 +17241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipfsub",
           "package": "hdis86",
@@ -15848,6 +17251,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipfsub",
           "package": "hdis86",
@@ -15861,6 +17265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipfsubr",
           "package": "hdis86",
@@ -15870,6 +17275,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipfsubr",
           "package": "hdis86",
@@ -15883,6 +17289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipi2fd",
           "package": "hdis86",
@@ -15892,6 +17299,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipi2fd",
           "package": "hdis86",
@@ -15905,6 +17313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipi2fw",
           "package": "hdis86",
@@ -15914,6 +17323,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipi2fw",
           "package": "hdis86",
@@ -15927,6 +17337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipinsrw",
           "package": "hdis86",
@@ -15936,6 +17347,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipinsrw",
           "package": "hdis86",
@@ -15949,6 +17361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipmaddwd",
           "package": "hdis86",
@@ -15958,6 +17371,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipmaddwd",
           "package": "hdis86",
@@ -15971,6 +17385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipmaxsw",
           "package": "hdis86",
@@ -15980,6 +17395,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipmaxsw",
           "package": "hdis86",
@@ -15993,6 +17409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipmaxub",
           "package": "hdis86",
@@ -16002,6 +17419,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipmaxub",
           "package": "hdis86",
@@ -16015,6 +17433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipminsw",
           "package": "hdis86",
@@ -16024,6 +17443,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipminsw",
           "package": "hdis86",
@@ -16037,6 +17457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipminub",
           "package": "hdis86",
@@ -16046,6 +17467,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipminub",
           "package": "hdis86",
@@ -16059,6 +17481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipmovmskb",
           "package": "hdis86",
@@ -16068,6 +17491,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipmovmskb",
           "package": "hdis86",
@@ -16081,6 +17505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipmulhrw",
           "package": "hdis86",
@@ -16090,6 +17515,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipmulhrw",
           "package": "hdis86",
@@ -16103,6 +17529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipmulhuw",
           "package": "hdis86",
@@ -16112,6 +17539,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipmulhuw",
           "package": "hdis86",
@@ -16125,6 +17553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipmulhw",
           "package": "hdis86",
@@ -16134,6 +17563,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipmulhw",
           "package": "hdis86",
@@ -16147,6 +17577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipmullw",
           "package": "hdis86",
@@ -16156,6 +17587,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipmullw",
           "package": "hdis86",
@@ -16169,6 +17601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipmuludq",
           "package": "hdis86",
@@ -16178,6 +17611,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipmuludq",
           "package": "hdis86",
@@ -16191,6 +17625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipop",
           "package": "hdis86",
@@ -16200,6 +17635,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipop",
           "package": "hdis86",
@@ -16213,6 +17649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipopa",
           "package": "hdis86",
@@ -16222,6 +17659,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipopa",
           "package": "hdis86",
@@ -16235,6 +17673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipopad",
           "package": "hdis86",
@@ -16244,6 +17683,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipopad",
           "package": "hdis86",
@@ -16257,6 +17697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipopfd",
           "package": "hdis86",
@@ -16266,6 +17707,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipopfd",
           "package": "hdis86",
@@ -16279,6 +17721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipopfq",
           "package": "hdis86",
@@ -16288,6 +17731,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipopfq",
           "package": "hdis86",
@@ -16301,6 +17745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipopfw",
           "package": "hdis86",
@@ -16310,6 +17755,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipopfw",
           "package": "hdis86",
@@ -16323,6 +17769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipor",
           "package": "hdis86",
@@ -16332,6 +17779,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipor",
           "package": "hdis86",
@@ -16345,6 +17793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iprefetch",
           "package": "hdis86",
@@ -16354,6 +17803,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iprefetch",
           "package": "hdis86",
@@ -16367,6 +17817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iprefetchnta",
           "package": "hdis86",
@@ -16376,6 +17827,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iprefetchnta",
           "package": "hdis86",
@@ -16389,6 +17841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iprefetcht0",
           "package": "hdis86",
@@ -16398,6 +17851,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iprefetcht0",
           "package": "hdis86",
@@ -16411,6 +17865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iprefetcht1",
           "package": "hdis86",
@@ -16420,6 +17875,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iprefetcht1",
           "package": "hdis86",
@@ -16433,6 +17889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iprefetcht2",
           "package": "hdis86",
@@ -16442,6 +17899,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iprefetcht2",
           "package": "hdis86",
@@ -16455,6 +17913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipsadbw",
           "package": "hdis86",
@@ -16464,6 +17923,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipsadbw",
           "package": "hdis86",
@@ -16477,6 +17937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipshufd",
           "package": "hdis86",
@@ -16486,6 +17947,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipshufd",
           "package": "hdis86",
@@ -16499,6 +17961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipshufhw",
           "package": "hdis86",
@@ -16508,6 +17971,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipshufhw",
           "package": "hdis86",
@@ -16521,6 +17985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipshuflw",
           "package": "hdis86",
@@ -16530,6 +17995,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipshuflw",
           "package": "hdis86",
@@ -16543,6 +18009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipshufw",
           "package": "hdis86",
@@ -16552,6 +18019,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipshufw",
           "package": "hdis86",
@@ -16565,6 +18033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipslld",
           "package": "hdis86",
@@ -16574,6 +18043,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipslld",
           "package": "hdis86",
@@ -16587,6 +18057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipslldq",
           "package": "hdis86",
@@ -16596,6 +18067,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipslldq",
           "package": "hdis86",
@@ -16609,6 +18081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipsllq",
           "package": "hdis86",
@@ -16618,6 +18091,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipsllq",
           "package": "hdis86",
@@ -16631,6 +18105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipsllw",
           "package": "hdis86",
@@ -16640,6 +18115,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipsllw",
           "package": "hdis86",
@@ -16653,6 +18129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipsrad",
           "package": "hdis86",
@@ -16662,6 +18139,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipsrad",
           "package": "hdis86",
@@ -16675,6 +18153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipsraw",
           "package": "hdis86",
@@ -16684,6 +18163,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipsraw",
           "package": "hdis86",
@@ -16697,6 +18177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipsrld",
           "package": "hdis86",
@@ -16706,6 +18187,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipsrld",
           "package": "hdis86",
@@ -16719,6 +18201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipsrldq",
           "package": "hdis86",
@@ -16728,6 +18211,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipsrldq",
           "package": "hdis86",
@@ -16741,6 +18225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipsrlq",
           "package": "hdis86",
@@ -16750,6 +18235,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipsrlq",
           "package": "hdis86",
@@ -16763,6 +18249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipsrlw",
           "package": "hdis86",
@@ -16772,6 +18259,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipsrlw",
           "package": "hdis86",
@@ -16785,6 +18273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipsubb",
           "package": "hdis86",
@@ -16794,6 +18283,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipsubb",
           "package": "hdis86",
@@ -16807,6 +18297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipsubd",
           "package": "hdis86",
@@ -16816,6 +18307,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipsubd",
           "package": "hdis86",
@@ -16829,6 +18321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipsubq",
           "package": "hdis86",
@@ -16838,6 +18331,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipsubq",
           "package": "hdis86",
@@ -16851,6 +18345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipsubsb",
           "package": "hdis86",
@@ -16860,6 +18355,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipsubsb",
           "package": "hdis86",
@@ -16873,6 +18369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipsubsw",
           "package": "hdis86",
@@ -16882,6 +18379,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipsubsw",
           "package": "hdis86",
@@ -16895,6 +18393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipsubusb",
           "package": "hdis86",
@@ -16904,6 +18403,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipsubusb",
           "package": "hdis86",
@@ -16917,6 +18417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipsubusw",
           "package": "hdis86",
@@ -16926,6 +18427,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipsubusw",
           "package": "hdis86",
@@ -16939,6 +18441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipsubw",
           "package": "hdis86",
@@ -16948,6 +18451,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipsubw",
           "package": "hdis86",
@@ -16961,6 +18465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipswapd",
           "package": "hdis86",
@@ -16970,6 +18475,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipswapd",
           "package": "hdis86",
@@ -16983,6 +18489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipunpckhbw",
           "package": "hdis86",
@@ -16992,6 +18499,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipunpckhbw",
           "package": "hdis86",
@@ -17005,6 +18513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipunpckhdq",
           "package": "hdis86",
@@ -17014,6 +18523,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipunpckhdq",
           "package": "hdis86",
@@ -17027,6 +18537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipunpckhqdq",
           "package": "hdis86",
@@ -17036,6 +18547,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipunpckhqdq",
           "package": "hdis86",
@@ -17049,6 +18561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipunpckhwd",
           "package": "hdis86",
@@ -17058,6 +18571,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipunpckhwd",
           "package": "hdis86",
@@ -17071,6 +18585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipunpcklbw",
           "package": "hdis86",
@@ -17080,6 +18595,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipunpcklbw",
           "package": "hdis86",
@@ -17093,6 +18609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipunpckldq",
           "package": "hdis86",
@@ -17102,6 +18619,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipunpckldq",
           "package": "hdis86",
@@ -17115,6 +18633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipunpcklqdq",
           "package": "hdis86",
@@ -17124,6 +18643,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipunpcklqdq",
           "package": "hdis86",
@@ -17137,6 +18657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipunpcklwd",
           "package": "hdis86",
@@ -17146,6 +18667,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipunpcklwd",
           "package": "hdis86",
@@ -17159,6 +18681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipush",
           "package": "hdis86",
@@ -17168,6 +18691,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipush",
           "package": "hdis86",
@@ -17181,6 +18705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipusha",
           "package": "hdis86",
@@ -17190,6 +18715,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipusha",
           "package": "hdis86",
@@ -17203,6 +18729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipushad",
           "package": "hdis86",
@@ -17212,6 +18739,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipushad",
           "package": "hdis86",
@@ -17225,6 +18753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipushfd",
           "package": "hdis86",
@@ -17234,6 +18763,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipushfd",
           "package": "hdis86",
@@ -17247,6 +18777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipushfq",
           "package": "hdis86",
@@ -17256,6 +18787,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipushfq",
           "package": "hdis86",
@@ -17269,6 +18801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipushfw",
           "package": "hdis86",
@@ -17278,6 +18811,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipushfw",
           "package": "hdis86",
@@ -17291,6 +18825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ipxor",
           "package": "hdis86",
@@ -17300,6 +18835,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ipxor",
           "package": "hdis86",
@@ -17313,6 +18849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ircl",
           "package": "hdis86",
@@ -17322,6 +18859,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ircl",
           "package": "hdis86",
@@ -17335,6 +18873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ircpps",
           "package": "hdis86",
@@ -17344,6 +18883,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ircpps",
           "package": "hdis86",
@@ -17357,6 +18897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ircpss",
           "package": "hdis86",
@@ -17366,6 +18907,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ircpss",
           "package": "hdis86",
@@ -17379,6 +18921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ircr",
           "package": "hdis86",
@@ -17388,6 +18931,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ircr",
           "package": "hdis86",
@@ -17401,6 +18945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Irdmsr",
           "package": "hdis86",
@@ -17410,6 +18955,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Irdmsr",
           "package": "hdis86",
@@ -17423,6 +18969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Irdpmc",
           "package": "hdis86",
@@ -17432,6 +18979,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Irdpmc",
           "package": "hdis86",
@@ -17445,6 +18993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Irdtsc",
           "package": "hdis86",
@@ -17454,6 +19003,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Irdtsc",
           "package": "hdis86",
@@ -17467,6 +19017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Irdtscp",
           "package": "hdis86",
@@ -17476,6 +19027,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Irdtscp",
           "package": "hdis86",
@@ -17489,6 +19041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Irep",
           "package": "hdis86",
@@ -17498,6 +19051,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Irep",
           "package": "hdis86",
@@ -17511,6 +19065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Irepne",
           "package": "hdis86",
@@ -17520,6 +19075,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Irepne",
           "package": "hdis86",
@@ -17533,6 +19089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iret",
           "package": "hdis86",
@@ -17542,6 +19099,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iret",
           "package": "hdis86",
@@ -17555,6 +19113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iretf",
           "package": "hdis86",
@@ -17564,6 +19123,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iretf",
           "package": "hdis86",
@@ -17577,6 +19137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Irol",
           "package": "hdis86",
@@ -17586,6 +19147,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Irol",
           "package": "hdis86",
@@ -17599,6 +19161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iror",
           "package": "hdis86",
@@ -17608,6 +19171,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iror",
           "package": "hdis86",
@@ -17621,6 +19185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Irsm",
           "package": "hdis86",
@@ -17630,6 +19195,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Irsm",
           "package": "hdis86",
@@ -17643,6 +19209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Irsqrtps",
           "package": "hdis86",
@@ -17652,6 +19219,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Irsqrtps",
           "package": "hdis86",
@@ -17665,6 +19233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Irsqrtss",
           "package": "hdis86",
@@ -17674,6 +19243,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Irsqrtss",
           "package": "hdis86",
@@ -17687,6 +19257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isahf",
           "package": "hdis86",
@@ -17696,6 +19267,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isahf",
           "package": "hdis86",
@@ -17709,6 +19281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isal",
           "package": "hdis86",
@@ -17718,6 +19291,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isal",
           "package": "hdis86",
@@ -17731,6 +19305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isalc",
           "package": "hdis86",
@@ -17740,6 +19315,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isalc",
           "package": "hdis86",
@@ -17753,6 +19329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isar",
           "package": "hdis86",
@@ -17762,6 +19339,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isar",
           "package": "hdis86",
@@ -17775,6 +19353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isbb",
           "package": "hdis86",
@@ -17784,6 +19363,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isbb",
           "package": "hdis86",
@@ -17797,6 +19377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iscasb",
           "package": "hdis86",
@@ -17806,6 +19387,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iscasb",
           "package": "hdis86",
@@ -17819,6 +19401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iscasd",
           "package": "hdis86",
@@ -17828,6 +19411,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iscasd",
           "package": "hdis86",
@@ -17841,6 +19425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iscasq",
           "package": "hdis86",
@@ -17850,6 +19435,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iscasq",
           "package": "hdis86",
@@ -17863,6 +19449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iscasw",
           "package": "hdis86",
@@ -17872,6 +19459,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iscasw",
           "package": "hdis86",
@@ -17885,6 +19473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iseta",
           "package": "hdis86",
@@ -17894,6 +19483,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iseta",
           "package": "hdis86",
@@ -17907,6 +19497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isetb",
           "package": "hdis86",
@@ -17916,6 +19507,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isetb",
           "package": "hdis86",
@@ -17929,6 +19521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isetbe",
           "package": "hdis86",
@@ -17938,6 +19531,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isetbe",
           "package": "hdis86",
@@ -17951,6 +19545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isetg",
           "package": "hdis86",
@@ -17960,6 +19555,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isetg",
           "package": "hdis86",
@@ -17973,6 +19569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isetge",
           "package": "hdis86",
@@ -17982,6 +19579,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isetge",
           "package": "hdis86",
@@ -17995,6 +19593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isetl",
           "package": "hdis86",
@@ -18004,6 +19603,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isetl",
           "package": "hdis86",
@@ -18017,6 +19617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isetle",
           "package": "hdis86",
@@ -18026,6 +19627,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isetle",
           "package": "hdis86",
@@ -18039,6 +19641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isetnb",
           "package": "hdis86",
@@ -18048,6 +19651,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isetnb",
           "package": "hdis86",
@@ -18061,6 +19665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isetno",
           "package": "hdis86",
@@ -18070,6 +19675,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isetno",
           "package": "hdis86",
@@ -18083,6 +19689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isetnp",
           "package": "hdis86",
@@ -18092,6 +19699,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isetnp",
           "package": "hdis86",
@@ -18105,6 +19713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isetns",
           "package": "hdis86",
@@ -18114,6 +19723,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isetns",
           "package": "hdis86",
@@ -18127,6 +19737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isetnz",
           "package": "hdis86",
@@ -18136,6 +19747,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isetnz",
           "package": "hdis86",
@@ -18149,6 +19761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iseto",
           "package": "hdis86",
@@ -18158,6 +19771,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iseto",
           "package": "hdis86",
@@ -18171,6 +19785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isetp",
           "package": "hdis86",
@@ -18180,6 +19795,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isetp",
           "package": "hdis86",
@@ -18193,6 +19809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isets",
           "package": "hdis86",
@@ -18202,6 +19819,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isets",
           "package": "hdis86",
@@ -18215,6 +19833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isetz",
           "package": "hdis86",
@@ -18224,6 +19843,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isetz",
           "package": "hdis86",
@@ -18237,6 +19857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isfence",
           "package": "hdis86",
@@ -18246,6 +19867,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isfence",
           "package": "hdis86",
@@ -18259,6 +19881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isgdt",
           "package": "hdis86",
@@ -18268,6 +19891,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isgdt",
           "package": "hdis86",
@@ -18281,6 +19905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ishl",
           "package": "hdis86",
@@ -18290,6 +19915,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ishl",
           "package": "hdis86",
@@ -18303,6 +19929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ishld",
           "package": "hdis86",
@@ -18312,6 +19939,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ishld",
           "package": "hdis86",
@@ -18325,6 +19953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ishr",
           "package": "hdis86",
@@ -18334,6 +19963,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ishr",
           "package": "hdis86",
@@ -18347,6 +19977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ishrd",
           "package": "hdis86",
@@ -18356,6 +19987,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ishrd",
           "package": "hdis86",
@@ -18369,6 +20001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ishufpd",
           "package": "hdis86",
@@ -18378,6 +20011,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ishufpd",
           "package": "hdis86",
@@ -18391,6 +20025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ishufps",
           "package": "hdis86",
@@ -18400,6 +20035,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ishufps",
           "package": "hdis86",
@@ -18413,6 +20049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isidt",
           "package": "hdis86",
@@ -18422,6 +20059,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isidt",
           "package": "hdis86",
@@ -18435,6 +20073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iskinit",
           "package": "hdis86",
@@ -18444,6 +20083,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iskinit",
           "package": "hdis86",
@@ -18457,6 +20097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isldt",
           "package": "hdis86",
@@ -18466,6 +20107,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isldt",
           "package": "hdis86",
@@ -18479,6 +20121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ismsw",
           "package": "hdis86",
@@ -18488,6 +20131,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ismsw",
           "package": "hdis86",
@@ -18501,6 +20145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isqrtpd",
           "package": "hdis86",
@@ -18510,6 +20155,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isqrtpd",
           "package": "hdis86",
@@ -18523,6 +20169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isqrtps",
           "package": "hdis86",
@@ -18532,6 +20179,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isqrtps",
           "package": "hdis86",
@@ -18545,6 +20193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isqrtsd",
           "package": "hdis86",
@@ -18554,6 +20203,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isqrtsd",
           "package": "hdis86",
@@ -18567,6 +20217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isqrtss",
           "package": "hdis86",
@@ -18576,6 +20227,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isqrtss",
           "package": "hdis86",
@@ -18589,6 +20241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Istc",
           "package": "hdis86",
@@ -18598,6 +20251,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Istc",
           "package": "hdis86",
@@ -18611,6 +20265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Istd",
           "package": "hdis86",
@@ -18620,6 +20275,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Istd",
           "package": "hdis86",
@@ -18633,6 +20289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Istgi",
           "package": "hdis86",
@@ -18642,6 +20299,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Istgi",
           "package": "hdis86",
@@ -18655,6 +20313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isti",
           "package": "hdis86",
@@ -18664,6 +20323,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isti",
           "package": "hdis86",
@@ -18677,6 +20337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Istmxcsr",
           "package": "hdis86",
@@ -18686,6 +20347,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Istmxcsr",
           "package": "hdis86",
@@ -18699,6 +20361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Istosb",
           "package": "hdis86",
@@ -18708,6 +20371,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Istosb",
           "package": "hdis86",
@@ -18721,6 +20385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Istosd",
           "package": "hdis86",
@@ -18730,6 +20395,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Istosd",
           "package": "hdis86",
@@ -18743,6 +20409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Istosq",
           "package": "hdis86",
@@ -18752,6 +20419,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Istosq",
           "package": "hdis86",
@@ -18765,6 +20433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Istosw",
           "package": "hdis86",
@@ -18774,6 +20443,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Istosw",
           "package": "hdis86",
@@ -18787,6 +20457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Istr",
           "package": "hdis86",
@@ -18796,6 +20467,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Istr",
           "package": "hdis86",
@@ -18809,6 +20481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isub",
           "package": "hdis86",
@@ -18818,6 +20491,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isub",
           "package": "hdis86",
@@ -18831,6 +20505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isubpd",
           "package": "hdis86",
@@ -18840,6 +20515,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isubpd",
           "package": "hdis86",
@@ -18853,6 +20529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isubps",
           "package": "hdis86",
@@ -18862,6 +20539,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isubps",
           "package": "hdis86",
@@ -18875,6 +20553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isubsd",
           "package": "hdis86",
@@ -18884,6 +20563,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isubsd",
           "package": "hdis86",
@@ -18897,6 +20577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isubss",
           "package": "hdis86",
@@ -18906,6 +20587,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isubss",
           "package": "hdis86",
@@ -18919,6 +20601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iswapgs",
           "package": "hdis86",
@@ -18928,6 +20611,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iswapgs",
           "package": "hdis86",
@@ -18941,6 +20625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isyscall",
           "package": "hdis86",
@@ -18950,6 +20635,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isyscall",
           "package": "hdis86",
@@ -18963,6 +20649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isysenter",
           "package": "hdis86",
@@ -18972,6 +20659,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isysenter",
           "package": "hdis86",
@@ -18985,6 +20673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isysexit",
           "package": "hdis86",
@@ -18994,6 +20683,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isysexit",
           "package": "hdis86",
@@ -19007,6 +20697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Isysret",
           "package": "hdis86",
@@ -19016,6 +20707,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Isysret",
           "package": "hdis86",
@@ -19029,6 +20721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Itest",
           "package": "hdis86",
@@ -19038,6 +20731,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Itest",
           "package": "hdis86",
@@ -19051,6 +20745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iucomisd",
           "package": "hdis86",
@@ -19060,6 +20755,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iucomisd",
           "package": "hdis86",
@@ -19073,6 +20769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iucomiss",
           "package": "hdis86",
@@ -19082,6 +20779,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iucomiss",
           "package": "hdis86",
@@ -19095,6 +20793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iud2",
           "package": "hdis86",
@@ -19104,6 +20803,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iud2",
           "package": "hdis86",
@@ -19117,6 +20817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iunpckhpd",
           "package": "hdis86",
@@ -19126,6 +20827,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iunpckhpd",
           "package": "hdis86",
@@ -19139,6 +20841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iunpckhps",
           "package": "hdis86",
@@ -19148,6 +20851,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iunpckhps",
           "package": "hdis86",
@@ -19161,6 +20865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iunpcklpd",
           "package": "hdis86",
@@ -19170,6 +20875,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iunpcklpd",
           "package": "hdis86",
@@ -19183,6 +20889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iunpcklps",
           "package": "hdis86",
@@ -19192,6 +20899,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iunpcklps",
           "package": "hdis86",
@@ -19205,6 +20913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iverr",
           "package": "hdis86",
@@ -19214,6 +20923,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iverr",
           "package": "hdis86",
@@ -19227,6 +20937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iverw",
           "package": "hdis86",
@@ -19236,6 +20947,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iverw",
           "package": "hdis86",
@@ -19249,6 +20961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ivmcall",
           "package": "hdis86",
@@ -19258,6 +20971,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ivmcall",
           "package": "hdis86",
@@ -19271,6 +20985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ivmclear",
           "package": "hdis86",
@@ -19280,6 +20995,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ivmclear",
           "package": "hdis86",
@@ -19293,6 +21009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ivmload",
           "package": "hdis86",
@@ -19302,6 +21019,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ivmload",
           "package": "hdis86",
@@ -19315,6 +21033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ivmmcall",
           "package": "hdis86",
@@ -19324,6 +21043,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ivmmcall",
           "package": "hdis86",
@@ -19337,6 +21057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ivmptrld",
           "package": "hdis86",
@@ -19346,6 +21067,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ivmptrld",
           "package": "hdis86",
@@ -19359,6 +21081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ivmptrst",
           "package": "hdis86",
@@ -19368,6 +21091,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ivmptrst",
           "package": "hdis86",
@@ -19381,6 +21105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ivmresume",
           "package": "hdis86",
@@ -19390,6 +21115,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ivmresume",
           "package": "hdis86",
@@ -19403,6 +21129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ivmrun",
           "package": "hdis86",
@@ -19412,6 +21139,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ivmrun",
           "package": "hdis86",
@@ -19425,6 +21153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ivmsave",
           "package": "hdis86",
@@ -19434,6 +21163,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ivmsave",
           "package": "hdis86",
@@ -19447,6 +21177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ivmxoff",
           "package": "hdis86",
@@ -19456,6 +21187,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ivmxoff",
           "package": "hdis86",
@@ -19469,6 +21201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ivmxon",
           "package": "hdis86",
@@ -19478,6 +21211,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ivmxon",
           "package": "hdis86",
@@ -19491,6 +21225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iwait",
           "package": "hdis86",
@@ -19500,6 +21235,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iwait",
           "package": "hdis86",
@@ -19513,6 +21249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iwbinvd",
           "package": "hdis86",
@@ -19522,6 +21259,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iwbinvd",
           "package": "hdis86",
@@ -19535,6 +21273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Iwrmsr",
           "package": "hdis86",
@@ -19544,6 +21283,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Iwrmsr",
           "package": "hdis86",
@@ -19557,6 +21297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ixadd",
           "package": "hdis86",
@@ -19566,6 +21307,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ixadd",
           "package": "hdis86",
@@ -19579,6 +21321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ixchg",
           "package": "hdis86",
@@ -19588,6 +21331,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ixchg",
           "package": "hdis86",
@@ -19601,6 +21345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ixlatb",
           "package": "hdis86",
@@ -19610,6 +21355,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ixlatb",
           "package": "hdis86",
@@ -19623,6 +21369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ixor",
           "package": "hdis86",
@@ -19632,6 +21379,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ixor",
           "package": "hdis86",
@@ -19645,6 +21393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ixorpd",
           "package": "hdis86",
@@ -19654,6 +21403,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ixorpd",
           "package": "hdis86",
@@ -19667,6 +21417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ixorps",
           "package": "hdis86",
@@ -19676,6 +21427,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ixorps",
           "package": "hdis86",
@@ -19690,6 +21442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImmediate value, for a relative jump\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Jump",
           "package": "hdis86",
@@ -19700,6 +21453,7 @@
         "index": {
           "description": "Immediate value for relative jump",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Jump",
           "package": "hdis86",
@@ -19714,6 +21468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow or least significant 8 bits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "L",
           "package": "hdis86",
@@ -19724,6 +21479,7 @@
         "index": {
           "description": "Low or least significant bits",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "L",
           "package": "hdis86",
@@ -19737,6 +21493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform memory operations atomically\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Lock",
           "package": "hdis86",
@@ -19747,6 +21504,7 @@
         "index": {
           "description": "Perform memory operations atomically",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Lock",
           "package": "hdis86",
@@ -19760,6 +21518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "MM0",
           "package": "hdis86",
@@ -19769,6 +21528,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "MM0",
           "package": "hdis86",
@@ -19782,6 +21542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "MM1",
           "package": "hdis86",
@@ -19791,6 +21552,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "MM1",
           "package": "hdis86",
@@ -19804,6 +21566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "MM2",
           "package": "hdis86",
@@ -19813,6 +21576,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "MM2",
           "package": "hdis86",
@@ -19826,6 +21590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "MM3",
           "package": "hdis86",
@@ -19835,6 +21600,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "MM3",
           "package": "hdis86",
@@ -19848,6 +21614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "MM4",
           "package": "hdis86",
@@ -19857,6 +21624,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "MM4",
           "package": "hdis86",
@@ -19870,6 +21638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "MM5",
           "package": "hdis86",
@@ -19879,6 +21648,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "MM5",
           "package": "hdis86",
@@ -19892,6 +21662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "MM6",
           "package": "hdis86",
@@ -19901,6 +21672,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "MM6",
           "package": "hdis86",
@@ -19914,6 +21686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "MM7",
           "package": "hdis86",
@@ -19923,6 +21696,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "MM7",
           "package": "hdis86",
@@ -19937,6 +21711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemory access\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Mem",
           "package": "hdis86",
@@ -19947,6 +21722,7 @@
         "index": {
           "description": "Memory access",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Mem",
           "package": "hdis86",
@@ -19960,6 +21736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Memory",
           "package": "hdis86",
@@ -19969,6 +21746,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Memory",
           "package": "hdis86",
@@ -19983,6 +21761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e16-bit mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Mode16",
           "package": "hdis86",
@@ -19993,6 +21772,7 @@
         "index": {
           "description": "bit mode",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Mode16",
           "package": "hdis86",
@@ -20007,6 +21787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Mode32",
           "package": "hdis86",
@@ -20017,6 +21798,7 @@
         "index": {
           "description": "bit mode",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Mode32",
           "package": "hdis86",
@@ -20031,6 +21813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e64-bit mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Mode64",
           "package": "hdis86",
@@ -20041,6 +21824,7 @@
         "index": {
           "description": "bit mode",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Mode64",
           "package": "hdis86",
@@ -20055,6 +21839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperand size override\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "OperSize",
           "package": "hdis86",
@@ -20065,6 +21850,7 @@
         "index": {
           "description": "Operand size override",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "OperSize",
           "package": "hdis86",
@@ -20078,6 +21864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Pointer",
           "package": "hdis86",
@@ -20087,6 +21874,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Pointer",
           "package": "hdis86",
@@ -20101,6 +21889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegmented pointer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Ptr",
           "package": "hdis86",
@@ -20111,6 +21900,7 @@
         "index": {
           "description": "Segmented pointer",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Ptr",
           "package": "hdis86",
@@ -20124,6 +21914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "R10",
           "package": "hdis86",
@@ -20133,6 +21924,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "R10",
           "package": "hdis86",
@@ -20145,6 +21937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "R11",
           "package": "hdis86",
@@ -20154,6 +21947,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "R11",
           "package": "hdis86",
@@ -20166,6 +21960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "R12",
           "package": "hdis86",
@@ -20175,6 +21970,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "R12",
           "package": "hdis86",
@@ -20187,6 +21983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "R13",
           "package": "hdis86",
@@ -20196,6 +21993,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "R13",
           "package": "hdis86",
@@ -20208,6 +22006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "R14",
           "package": "hdis86",
@@ -20217,6 +22016,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "R14",
           "package": "hdis86",
@@ -20229,6 +22029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "R15",
           "package": "hdis86",
@@ -20238,6 +22039,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "R15",
           "package": "hdis86",
@@ -20250,6 +22052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "R8",
           "package": "hdis86",
@@ -20259,6 +22062,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "R8",
           "package": "hdis86",
@@ -20271,6 +22075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "R9",
           "package": "hdis86",
@@ -20280,6 +22085,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "R9",
           "package": "hdis86",
@@ -20292,6 +22098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "RAX",
           "package": "hdis86",
@@ -20301,6 +22108,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "RAX",
           "package": "hdis86",
@@ -20314,6 +22122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "RBP",
           "package": "hdis86",
@@ -20323,6 +22132,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "RBP",
           "package": "hdis86",
@@ -20336,6 +22146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "RBX",
           "package": "hdis86",
@@ -20345,6 +22156,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "RBX",
           "package": "hdis86",
@@ -20358,6 +22170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "RCX",
           "package": "hdis86",
@@ -20367,6 +22180,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "RCX",
           "package": "hdis86",
@@ -20380,6 +22194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "RDI",
           "package": "hdis86",
@@ -20389,6 +22204,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "RDI",
           "package": "hdis86",
@@ -20402,6 +22218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "RDX",
           "package": "hdis86",
@@ -20411,6 +22228,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "RDX",
           "package": "hdis86",
@@ -20424,6 +22242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "RSI",
           "package": "hdis86",
@@ -20433,6 +22252,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "RSI",
           "package": "hdis86",
@@ -20446,6 +22266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "RSP",
           "package": "hdis86",
@@ -20455,6 +22276,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "RSP",
           "package": "hdis86",
@@ -20469,6 +22291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Reg",
           "package": "hdis86",
@@ -20479,6 +22302,7 @@
         "index": {
           "description": "Register",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Reg",
           "package": "hdis86",
@@ -20493,6 +22317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow 16 bits of a general-purpose register\n   (full register in 16-bit mode)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Reg16",
           "package": "hdis86",
@@ -20503,6 +22328,7 @@
         "index": {
           "description": "Low bits of general-purpose register full register in bit mode",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Reg16",
           "package": "hdis86",
@@ -20517,6 +22343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow 32 bits of a general-purpose register\n   (full register in 32-bit mode)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Reg32",
           "package": "hdis86",
@@ -20527,6 +22354,7 @@
         "index": {
           "description": "Low bits of general-purpose register full register in bit mode",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Reg32",
           "package": "hdis86",
@@ -20541,6 +22369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFull 64-bit general-purpose register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Reg64",
           "package": "hdis86",
@@ -20551,6 +22380,7 @@
         "index": {
           "description": "Full bit general-purpose register",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Reg64",
           "package": "hdis86",
@@ -20565,6 +22395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither 8-bit half of the low 16 bits\n   of a general-purpose register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Reg8",
           "package": "hdis86",
@@ -20575,6 +22406,7 @@
         "index": {
           "description": "Either bit half of the low bits of general-purpose register",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Reg8",
           "package": "hdis86",
@@ -20589,6 +22421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "RegCtl",
           "package": "hdis86",
@@ -20599,6 +22432,7 @@
         "index": {
           "description": "Control register",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "RegCtl",
           "package": "hdis86",
@@ -20613,6 +22447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDebug register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "RegDbg",
           "package": "hdis86",
@@ -20623,6 +22458,7 @@
         "index": {
           "description": "Debug register",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "RegDbg",
           "package": "hdis86",
@@ -20637,6 +22473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstruction pointer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "RegIP",
           "package": "hdis86",
@@ -20647,6 +22484,7 @@
         "index": {
           "description": "Instruction pointer",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "RegIP",
           "package": "hdis86",
@@ -20661,6 +22499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMMX register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "RegMMX",
           "package": "hdis86",
@@ -20671,6 +22510,7 @@
         "index": {
           "description": "MMX register",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "RegMMX",
           "package": "hdis86",
@@ -20685,6 +22525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo register specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "RegNone",
           "package": "hdis86",
@@ -20695,6 +22536,7 @@
         "index": {
           "description": "No register specified",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "RegNone",
           "package": "hdis86",
@@ -20709,6 +22551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegment register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "RegSeg",
           "package": "hdis86",
@@ -20719,6 +22562,7 @@
         "index": {
           "description": "Segment register",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "RegSeg",
           "package": "hdis86",
@@ -20733,6 +22577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ex87\u003c/code\u003e floating point unit register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "RegX87",
           "package": "hdis86",
@@ -20743,6 +22588,7 @@
         "index": {
           "description": "x87 floating point unit register",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "RegX87",
           "package": "hdis86",
@@ -20757,6 +22603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXMM register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "RegXMM",
           "package": "hdis86",
@@ -20767,6 +22614,7 @@
         "index": {
           "description": "XMM register",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "RegXMM",
           "package": "hdis86",
@@ -20781,6 +22629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeat\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Rep",
           "package": "hdis86",
@@ -20791,6 +22640,7 @@
         "index": {
           "description": "Repeat",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Rep",
           "package": "hdis86",
@@ -20805,6 +22655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeat while equal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "RepE",
           "package": "hdis86",
@@ -20815,6 +22666,7 @@
         "index": {
           "description": "Repeat while equal",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "RepE",
           "package": "hdis86",
@@ -20829,6 +22681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeat while not equal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "RepNE",
           "package": "hdis86",
@@ -20839,6 +22692,7 @@
         "index": {
           "description": "Repeat while not equal",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "RepNE",
           "package": "hdis86",
@@ -20853,6 +22707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eREX\u003c/code\u003e prefix; enables certain 64-bit features\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Rex",
           "package": "hdis86",
@@ -20863,6 +22718,7 @@
         "index": {
           "description": "REX prefix enables certain bit features",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Rex",
           "package": "hdis86",
@@ -20876,6 +22732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "SS",
           "package": "hdis86",
@@ -20885,6 +22742,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "SS",
           "package": "hdis86",
@@ -20898,6 +22756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "ST0",
           "package": "hdis86",
@@ -20907,6 +22766,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "ST0",
           "package": "hdis86",
@@ -20920,6 +22780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "ST1",
           "package": "hdis86",
@@ -20929,6 +22790,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "ST1",
           "package": "hdis86",
@@ -20942,6 +22804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "ST2",
           "package": "hdis86",
@@ -20951,6 +22814,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "ST2",
           "package": "hdis86",
@@ -20964,6 +22828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "ST3",
           "package": "hdis86",
@@ -20973,6 +22838,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "ST3",
           "package": "hdis86",
@@ -20986,6 +22852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "ST4",
           "package": "hdis86",
@@ -20995,6 +22862,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "ST4",
           "package": "hdis86",
@@ -21008,6 +22876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "ST5",
           "package": "hdis86",
@@ -21017,6 +22886,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "ST5",
           "package": "hdis86",
@@ -21030,6 +22900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "ST6",
           "package": "hdis86",
@@ -21039,6 +22910,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "ST6",
           "package": "hdis86",
@@ -21052,6 +22924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "ST7",
           "package": "hdis86",
@@ -21061,6 +22934,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "ST7",
           "package": "hdis86",
@@ -21075,6 +22949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegment override\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "Seg",
           "package": "hdis86",
@@ -21085,6 +22960,7 @@
         "index": {
           "description": "Segment override",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "Seg",
           "package": "hdis86",
@@ -21099,6 +22975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAT&T- / \u003ccode\u003egas\u003c/code\u003e-like syntax\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "SyntaxATT",
           "package": "hdis86",
@@ -21109,6 +22986,7 @@
         "index": {
           "description": "AT gas like syntax",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "SyntaxATT",
           "package": "hdis86",
@@ -21123,6 +23001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntel- / NASM-like syntax\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "SyntaxIntel",
           "package": "hdis86",
@@ -21133,6 +23012,7 @@
         "index": {
           "description": "Intel NASM-like syntax",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "SyntaxIntel",
           "package": "hdis86",
@@ -21147,6 +23027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDon't generate assembly syntax\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "SyntaxNone",
           "package": "hdis86",
@@ -21157,6 +23038,7 @@
         "index": {
           "description": "Don generate assembly syntax",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "SyntaxNone",
           "package": "hdis86",
@@ -21170,6 +23052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "XMM0",
           "package": "hdis86",
@@ -21179,6 +23062,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "XMM0",
           "package": "hdis86",
@@ -21192,6 +23076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "XMM1",
           "package": "hdis86",
@@ -21201,6 +23086,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "XMM1",
           "package": "hdis86",
@@ -21214,6 +23100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "XMM10",
           "package": "hdis86",
@@ -21223,6 +23110,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "XMM10",
           "package": "hdis86",
@@ -21236,6 +23124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "XMM11",
           "package": "hdis86",
@@ -21245,6 +23134,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "XMM11",
           "package": "hdis86",
@@ -21258,6 +23148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "XMM12",
           "package": "hdis86",
@@ -21267,6 +23158,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "XMM12",
           "package": "hdis86",
@@ -21280,6 +23172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "XMM13",
           "package": "hdis86",
@@ -21289,6 +23182,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "XMM13",
           "package": "hdis86",
@@ -21302,6 +23196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "XMM14",
           "package": "hdis86",
@@ -21311,6 +23206,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "XMM14",
           "package": "hdis86",
@@ -21324,6 +23220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "XMM15",
           "package": "hdis86",
@@ -21333,6 +23230,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "XMM15",
           "package": "hdis86",
@@ -21346,6 +23244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "XMM2",
           "package": "hdis86",
@@ -21355,6 +23254,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "XMM2",
           "package": "hdis86",
@@ -21368,6 +23268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "XMM3",
           "package": "hdis86",
@@ -21377,6 +23278,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "XMM3",
           "package": "hdis86",
@@ -21390,6 +23292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "XMM4",
           "package": "hdis86",
@@ -21399,6 +23302,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "XMM4",
           "package": "hdis86",
@@ -21412,6 +23316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "XMM5",
           "package": "hdis86",
@@ -21421,6 +23326,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "XMM5",
           "package": "hdis86",
@@ -21434,6 +23340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "XMM6",
           "package": "hdis86",
@@ -21443,6 +23350,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "XMM6",
           "package": "hdis86",
@@ -21456,6 +23364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "XMM7",
           "package": "hdis86",
@@ -21465,6 +23374,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "XMM7",
           "package": "hdis86",
@@ -21478,6 +23388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "XMM8",
           "package": "hdis86",
@@ -21487,6 +23398,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "XMM8",
           "package": "hdis86",
@@ -21500,6 +23412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "XMM9",
           "package": "hdis86",
@@ -21509,6 +23422,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "XMM9",
           "package": "hdis86",
@@ -21522,6 +23436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "amd32",
           "package": "hdis86",
@@ -21531,6 +23446,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "amd32",
           "package": "hdis86",
@@ -21543,6 +23459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "amd64",
           "package": "hdis86",
@@ -21552,6 +23469,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "amd64",
           "package": "hdis86",
@@ -21565,6 +23483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of bits in a word of a given size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "bitsInWord",
           "package": "hdis86",
@@ -21575,6 +23494,7 @@
         "index": {
           "description": "Number of bits in word of given size",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "bitsInWord",
           "normalized": "WordSize-\u003eWord",
@@ -21591,6 +23511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisassemble 16-, 32-, or 64-bit code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "cfgCPUMode",
           "package": "hdis86",
@@ -21601,6 +23522,7 @@
         "index": {
           "description": "Disassemble or bit code",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "cfgCPUMode",
           "package": "hdis86",
@@ -21615,6 +23537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddress where the first instruction would live in memory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "cfgOrigin",
           "package": "hdis86",
@@ -21625,6 +23548,7 @@
         "index": {
           "description": "Address where the first instruction would live in memory",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "cfgOrigin",
           "package": "hdis86",
@@ -21639,6 +23563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyntax to use when generating assembly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "cfgSyntax",
           "package": "hdis86",
@@ -21649,6 +23574,7 @@
         "index": {
           "description": "Syntax to use when generating assembly",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "cfgSyntax",
           "package": "hdis86",
@@ -21663,6 +23589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCPU vendor; determines the instruction set used\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "cfgVendor",
           "package": "hdis86",
@@ -21673,6 +23600,7 @@
         "index": {
           "description": "CPU vendor determines the instruction set used",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "cfgVendor",
           "package": "hdis86",
@@ -21687,6 +23615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "iSize",
           "package": "hdis86",
@@ -21697,6 +23626,7 @@
         "index": {
           "description": "Size of the field",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "iSize",
           "package": "hdis86",
@@ -21711,6 +23641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImmediate value, e.g \u003ccode\u003e\u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e or \u003ccode\u003e\u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "iValue",
           "package": "hdis86",
@@ -21721,6 +23652,7 @@
         "index": {
           "description": "Immediate value e.g Int64 or Word64",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "iValue",
           "package": "hdis86",
@@ -21734,6 +23666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "inOpcode",
           "package": "hdis86",
@@ -21743,6 +23676,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "inOpcode",
           "package": "hdis86",
@@ -21756,6 +23690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "inOperands",
           "package": "hdis86",
@@ -21765,6 +23700,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "inOperands",
           "normalized": "[Operand]",
@@ -21780,6 +23716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "inPrefixes",
           "package": "hdis86",
@@ -21789,6 +23726,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "inPrefixes",
           "normalized": "[Prefix]",
@@ -21804,6 +23742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "intel32",
           "package": "hdis86",
@@ -21813,6 +23752,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "intel32",
           "package": "hdis86",
@@ -21825,6 +23765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "intel64",
           "package": "hdis86",
@@ -21834,6 +23775,7 @@
         },
         "index": {
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "intel64",
           "package": "hdis86",
@@ -21847,6 +23789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "mBase",
           "package": "hdis86",
@@ -21857,6 +23800,7 @@
         "index": {
           "description": "Base register",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "mBase",
           "package": "hdis86",
@@ -21871,6 +23815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "mIndex",
           "package": "hdis86",
@@ -21881,6 +23826,7 @@
         "index": {
           "description": "Index register",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "mIndex",
           "package": "hdis86",
@@ -21895,6 +23841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplacement / offset value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "mOffset",
           "package": "hdis86",
@@ -21905,6 +23852,7 @@
         "index": {
           "description": "Displacement offset value",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "mOffset",
           "package": "hdis86",
@@ -21919,6 +23867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale of index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "mScale",
           "package": "hdis86",
@@ -21929,6 +23878,7 @@
         "index": {
           "description": "Scale of index",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "mScale",
           "package": "hdis86",
@@ -21943,6 +23893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the word in memory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "mSize",
           "package": "hdis86",
@@ -21953,6 +23904,7 @@
         "index": {
           "description": "Size of the word in memory",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "mSize",
           "package": "hdis86",
@@ -21967,6 +23919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOffset, 16 or 32 bits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "pOffset",
           "package": "hdis86",
@@ -21977,6 +23930,7 @@
         "index": {
           "description": "Offset or bits",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "pOffset",
           "package": "hdis86",
@@ -21991,6 +23945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "pSegment",
           "package": "hdis86",
@@ -22001,6 +23956,7 @@
         "index": {
           "description": "Segment",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "pSegment",
           "package": "hdis86",
@@ -22015,6 +23971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a number of bits to a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eWordSize\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86.Types",
           "name": "wordSize",
           "package": "hdis86",
@@ -22025,6 +23982,7 @@
         "index": {
           "description": "Convert number of bits to WordSize",
           "hierarchy": "Hdis86 Types",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86.Types",
           "name": "wordSize",
           "normalized": "Word-\u003eMaybe WordSize",
@@ -22041,6 +23999,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface to the \u003ccode\u003eudis86\u003c/code\u003e disassembler.\n\u003c/p\u003e\u003cp\u003eExports the simplest, most high-level interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:35:50 UTC 2014",
           "module": "Hdis86",
           "name": "Hdis86",
           "package": "hdis86",
@@ -22050,6 +24009,7 @@
         "index": {
           "description": "Interface to the udis86 disassembler Exports the simplest most high-level interface",
           "hierarchy": "Hdis86",
+          "indexed": "2014-03-11T18:35:50",
           "module": "Hdis86",
           "name": "Hdis86",
           "package": "hdis86",

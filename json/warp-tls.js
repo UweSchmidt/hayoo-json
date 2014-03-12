@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "warp-tls"
+        "phrase": "warp-tls",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTTP over SSL/TLS support for Warp via the TLS package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:37:17 UTC 2014",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "WarpTLS",
           "package": "warp-tls",
@@ -28,6 +29,7 @@
         "index": {
           "description": "HTTP over SSL TLS support for Warp via the TLS package",
           "hierarchy": "Network Wai Handler WarpTLS",
+          "indexed": "2014-03-11T20:37:17",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "WarpTLS",
           "package": "warp-tls",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn action when a plain HTTP comes to HTTP over TLS/SSL port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:17 UTC 2014",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "OnInsecure",
           "package": "warp-tls",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An action when plain HTTP comes to HTTP over TLS SSL port",
           "hierarchy": "Network Wai Handler WarpTLS",
+          "indexed": "2014-03-11T20:37:17",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "OnInsecure",
           "package": "warp-tls",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:17 UTC 2014",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "TLSSettings",
           "package": "warp-tls",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler WarpTLS",
+          "indexed": "2014-03-11T20:37:17",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "TLSSettings",
           "package": "warp-tls",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:17 UTC 2014",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "WarpTLSException",
           "package": "warp-tls",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler WarpTLS",
+          "indexed": "2014-03-11T20:37:17",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "WarpTLSException",
           "package": "warp-tls",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:17 UTC 2014",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "AllowInsecure",
           "package": "warp-tls",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler WarpTLS",
+          "indexed": "2014-03-11T20:37:17",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "AllowInsecure",
           "package": "warp-tls",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:17 UTC 2014",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "DenyInsecure",
           "package": "warp-tls",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler WarpTLS",
+          "indexed": "2014-03-11T20:37:17",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "DenyInsecure",
           "package": "warp-tls",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:17 UTC 2014",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "InsecureConnectionDenied",
           "package": "warp-tls",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Handler WarpTLS",
+          "indexed": "2014-03-11T20:37:17",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "InsecureConnectionDenied",
           "package": "warp-tls",
@@ -173,6 +187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile containing the certificate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:17 UTC 2014",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "certFile",
           "package": "warp-tls",
@@ -183,6 +198,7 @@
         "index": {
           "description": "File containing the certificate",
           "hierarchy": "Network Wai Handler WarpTLS",
+          "indexed": "2014-03-11T20:37:17",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "certFile",
           "normalized": "TLSSettings-\u003eFilePath",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault \u003ccode\u003e\u003ca\u003eTLSSettings\u003c/a\u003e\u003c/code\u003e. Use this to create \u003ccode\u003e\u003ca\u003eTLSSettings\u003c/a\u003e\u003c/code\u003e with the field record name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:17 UTC 2014",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "defaultTlsSettings",
           "package": "warp-tls",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Default TLSSettings Use this to create TLSSettings with the field record name",
           "hierarchy": "Network Wai Handler WarpTLS",
+          "indexed": "2014-03-11T20:37:17",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "defaultTlsSettings",
           "package": "warp-tls",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile containing the key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:17 UTC 2014",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "keyFile",
           "package": "warp-tls",
@@ -233,6 +252,7 @@
         "index": {
           "description": "File containing the key",
           "hierarchy": "Network Wai Handler WarpTLS",
+          "indexed": "2014-03-11T20:37:17",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "keyFile",
           "normalized": "TLSSettings-\u003eFilePath",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo we allow insecure connections with this server as well? Default\n is a simple text response stating that a secure connection is required.\n\u003c/p\u003e\u003cp\u003eSince 1.4.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:17 UTC 2014",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "onInsecure",
           "package": "warp-tls",
@@ -259,6 +280,7 @@
         "index": {
           "description": "Do we allow insecure connections with this server as well Default is simple text response stating that secure connection is required Since",
           "hierarchy": "Network Wai Handler WarpTLS",
+          "indexed": "2014-03-11T20:37:17",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "onInsecure",
           "normalized": "TLSSettings-\u003eOnInsecure",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRunning \u003ccode\u003e\u003ca\u003eApplication\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eTLSSettings\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eSettings\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:17 UTC 2014",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "runTLS",
           "package": "warp-tls",
@@ -285,6 +308,7 @@
         "index": {
           "description": "Running Application with TLSSettings and Settings",
           "hierarchy": "Network Wai Handler WarpTLS",
+          "indexed": "2014-03-11T20:37:17",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "runTLS",
           "normalized": "TLSSettings-\u003eSettings-\u003eApplication-\u003eIO()",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRunning \u003ccode\u003e\u003ca\u003eApplication\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eTLSSettings\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eSettings\u003c/a\u003e\u003c/code\u003e using\n   specified \u003ccode\u003e\u003ca\u003eSocket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:17 UTC 2014",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "runTLSSocket",
           "package": "warp-tls",
@@ -311,6 +336,7 @@
         "index": {
           "description": "Running Application with TLSSettings and Settings using specified Socket",
           "hierarchy": "Network Wai Handler WarpTLS",
+          "indexed": "2014-03-11T20:37:17",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "runTLSSocket",
           "normalized": "TLSSettings-\u003eSettings-\u003eSocket-\u003eApplication-\u003eIO()",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe level of logging to turn on.\n\u003c/p\u003e\u003cp\u003eDefault: \u003ccode\u003e\u003ca\u003edefaultLogging\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.4.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:17 UTC 2014",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "tlsLogging",
           "package": "warp-tls",
@@ -337,6 +364,7 @@
         "index": {
           "description": "The level of logging to turn on Default defaultLogging Since",
           "hierarchy": "Network Wai Handler WarpTLS",
+          "indexed": "2014-03-11T20:37:17",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "tlsLogging",
           "normalized": "TLSSettings-\u003eLogging",
@@ -353,6 +381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA smart constructor for \u003ccode\u003e\u003ca\u003eTLSSettings\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:17 UTC 2014",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "tlsSettings",
           "package": "warp-tls",
@@ -362,6 +391,7 @@
         "index": {
           "description": "smart constructor for TLSSettings",
           "hierarchy": "Network Wai Handler WarpTLS",
+          "indexed": "2014-03-11T20:37:17",
           "module": "Network.Wai.Handler.WarpTLS",
           "name": "tlsSettings",
           "normalized": "FilePath-\u003eFilePath-\u003eTLSSettings",

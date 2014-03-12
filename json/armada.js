@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "armada"
+        "phrase": "armada",
+        "type": "phrase"
       },
       "type": "context"
     }

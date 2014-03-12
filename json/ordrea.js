@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ordrea"
+        "phrase": "ordrea",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is an internal module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea.Base",
           "name": "Base",
           "package": "ordrea",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This is an internal module",
           "hierarchy": "FRP Ordrea Base",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea.Base",
           "name": "Base",
           "package": "ordrea",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea.Base",
           "name": "Discrete",
           "package": "ordrea",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea Base",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea.Base",
           "name": "Discrete",
           "package": "ordrea",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea.Base",
           "name": "Event",
           "package": "ordrea",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea Base",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea.Base",
           "name": "Event",
           "package": "ordrea",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePush-based asynchronous events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea.Base",
           "name": "ExternalEvent",
           "package": "ordrea",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Push-based asynchronous events",
           "hierarchy": "FRP Ordrea Base",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea.Base",
           "name": "ExternalEvent",
           "package": "ordrea",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea.Base",
           "name": "OrderingViolation",
           "package": "ordrea",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea Base",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea.Base",
           "name": "OrderingViolation",
           "package": "ordrea",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea.Base",
           "name": "Signal",
           "package": "ordrea",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea Base",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea.Base",
           "name": "Signal",
           "package": "ordrea",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea.Base",
           "name": "SignalGen",
           "package": "ordrea",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea Base",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea.Base",
           "name": "SignalGen",
           "package": "ordrea",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea.Base",
           "name": "TimeFunction",
           "package": "ordrea",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea Base",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea.Base",
           "name": "TimeFunction",
           "package": "ordrea",
@@ -903,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea.Base",
           "name": "modifyRef",
           "package": "ordrea",
@@ -912,6 +929,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea Base",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea.Base",
           "name": "modifyRef",
           "normalized": "IORef a-\u003e(a-\u003ea)-\u003eb()",
@@ -1000,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea.Base",
           "name": "newRef",
           "package": "ordrea",
@@ -1009,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea Base",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea.Base",
           "name": "newRef",
           "normalized": "a-\u003eb(IORef a)",
@@ -1048,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea.Base",
           "name": "readRef",
           "package": "ordrea",
@@ -1057,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea Base",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea.Base",
           "name": "readRef",
           "normalized": "IORef a-\u003eb a",
@@ -1274,6 +1296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea.Base",
           "name": "toSignal",
           "package": "ordrea",
@@ -1283,6 +1306,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea Base",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea.Base",
           "name": "toSignal",
           "normalized": "a b-\u003eSignal b",
@@ -1323,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea.Base",
           "name": "weakToLike",
           "package": "ordrea",
@@ -1332,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea Base",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea.Base",
           "name": "weakToLike",
           "normalized": "Weak a-\u003eWeakLike a",
@@ -1347,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea.Base",
           "name": "writeRef",
           "package": "ordrea",
@@ -1356,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea Base",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea.Base",
           "name": "writeRef",
           "normalized": "IORef a-\u003ea-\u003eb()",
@@ -1372,6 +1400,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is an internal module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea.Weak",
           "name": "Weak",
           "package": "ordrea",
@@ -1381,6 +1410,7 @@
         "index": {
           "description": "This is an internal module",
           "hierarchy": "FRP Ordrea Weak",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea.Weak",
           "name": "Weak",
           "package": "ordrea",
@@ -1394,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea.Weak",
           "name": "mkWeakWithIORef",
           "package": "ordrea",
@@ -1403,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea Weak",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea.Weak",
           "name": "mkWeakWithIORef",
           "normalized": "IORef a-\u003eb-\u003eMaybe(IO())-\u003eIO(Weak b)",
@@ -1418,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea",
           "name": "Ordrea",
           "package": "ordrea",
@@ -1426,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea",
           "name": "Ordrea",
           "package": "ordrea",
@@ -1439,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea",
           "name": "Discrete",
           "package": "ordrea",
@@ -1447,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea",
           "name": "Discrete",
           "package": "ordrea",
@@ -1460,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea",
           "name": "Event",
           "package": "ordrea",
@@ -1468,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea",
           "name": "Event",
           "package": "ordrea",
@@ -1482,6 +1520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePush-based asynchronous events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea",
           "name": "ExternalEvent",
           "package": "ordrea",
@@ -1491,6 +1530,7 @@
         "index": {
           "description": "Push-based asynchronous events",
           "hierarchy": "FRP Ordrea",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea",
           "name": "ExternalEvent",
           "package": "ordrea",
@@ -1504,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea",
           "name": "OrderingViolation",
           "package": "ordrea",
@@ -1512,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea",
           "name": "OrderingViolation",
           "package": "ordrea",
@@ -1525,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea",
           "name": "Signal",
           "package": "ordrea",
@@ -1533,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea",
           "name": "Signal",
           "package": "ordrea",
@@ -1546,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea",
           "name": "SignalGen",
           "package": "ordrea",
@@ -1554,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea",
           "name": "SignalGen",
           "package": "ordrea",
@@ -1567,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea",
           "name": "TimeFunction",
           "package": "ordrea",
@@ -1575,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea",
           "name": "TimeFunction",
           "package": "ordrea",
@@ -1588,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:07 UTC 2014",
           "module": "FRP.Ordrea",
           "name": "toSignal",
           "package": "ordrea",
@@ -1597,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "FRP Ordrea",
+          "indexed": "2014-03-11T19:33:07",
           "module": "FRP.Ordrea",
           "name": "toSignal",
           "normalized": "a b-\u003eSignal b",

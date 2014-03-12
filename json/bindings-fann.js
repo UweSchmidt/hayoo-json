@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-fann"
+        "phrase": "bindings-fann",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_ERRORFUNC_LINEAR",
           "package": "bindings-fann",
@@ -27,6 +28,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_ERRORFUNC_LINEAR",
           "package": "bindings-fann",
@@ -40,6 +42,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_ERRORFUNC_TANH",
           "package": "bindings-fann",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_ERRORFUNC_TANH",
           "package": "bindings-fann",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_ALLOCATE_MEM",
           "package": "bindings-fann",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_ALLOCATE_MEM",
           "package": "bindings-fann",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_OPEN_CONFIG_R",
           "package": "bindings-fann",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_OPEN_CONFIG_R",
           "package": "bindings-fann",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_OPEN_CONFIG_W",
           "package": "bindings-fann",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_OPEN_CONFIG_W",
           "package": "bindings-fann",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_OPEN_TD_R",
           "package": "bindings-fann",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_OPEN_TD_R",
           "package": "bindings-fann",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_OPEN_TD_W",
           "package": "bindings-fann",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_OPEN_TD_W",
           "package": "bindings-fann",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_READ_CONFIG",
           "package": "bindings-fann",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_READ_CONFIG",
           "package": "bindings-fann",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_READ_CONNECTIONS",
           "package": "bindings-fann",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_READ_CONNECTIONS",
           "package": "bindings-fann",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_READ_NEURON",
           "package": "bindings-fann",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_READ_NEURON",
           "package": "bindings-fann",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_READ_TD",
           "package": "bindings-fann",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_READ_TD",
           "package": "bindings-fann",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_TRAIN_ACTIVATION",
           "package": "bindings-fann",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_TRAIN_ACTIVATION",
           "package": "bindings-fann",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_USE_ACTIVATION",
           "package": "bindings-fann",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_CANT_USE_ACTIVATION",
           "package": "bindings-fann",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_NO_ERROR",
           "package": "bindings-fann",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_NO_ERROR",
           "package": "bindings-fann",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_TRAIN_DATA_MISMATCH",
           "package": "bindings-fann",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_TRAIN_DATA_MISMATCH",
           "package": "bindings-fann",
@@ -348,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_WRONG_CONFIG_VERSION",
           "package": "bindings-fann",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_WRONG_CONFIG_VERSION",
           "package": "bindings-fann",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_WRONG_NUM_CONNECTIONS",
           "package": "bindings-fann",
@@ -379,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_E_WRONG_NUM_CONNECTIONS",
           "package": "bindings-fann",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_LINEAR",
           "package": "bindings-fann",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_LINEAR",
           "package": "bindings-fann",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_SIGMOID",
           "package": "bindings-fann",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_SIGMOID",
           "package": "bindings-fann",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_SIGMOID_STEPWISE",
           "package": "bindings-fann",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_SIGMOID_STEPWISE",
           "package": "bindings-fann",
@@ -458,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_SIGMOID_SYMMETRIC",
           "package": "bindings-fann",
@@ -467,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_SIGMOID_SYMMETRIC",
           "package": "bindings-fann",
@@ -480,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_SIGMOID_SYMMETRIC_STEPWISE",
           "package": "bindings-fann",
@@ -489,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_SIGMOID_SYMMETRIC_STEPWISE",
           "package": "bindings-fann",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_THRESHOLD",
           "package": "bindings-fann",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_THRESHOLD",
           "package": "bindings-fann",
@@ -524,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_THRESHOLD_SYMMETRIC",
           "package": "bindings-fann",
@@ -533,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_THRESHOLD_SYMMETRIC",
           "package": "bindings-fann",
@@ -546,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_TRAIN_BATCH",
           "package": "bindings-fann",
@@ -555,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_TRAIN_BATCH",
           "package": "bindings-fann",
@@ -568,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_TRAIN_INCREMENTAL",
           "package": "bindings-fann",
@@ -577,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_TRAIN_INCREMENTAL",
           "package": "bindings-fann",
@@ -590,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_TRAIN_QUICKPROP",
           "package": "bindings-fann",
@@ -599,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_TRAIN_QUICKPROP",
           "package": "bindings-fann",
@@ -612,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_TRAIN_RPROP",
           "package": "bindings-fann",
@@ -621,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Constants",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Constants",
           "name": "c'FANN_TRAIN_RPROP",
           "package": "bindings-fann",
@@ -634,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "c'fann_create_array",
           "package": "bindings-fann",
@@ -643,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann CreationDestructionExecution",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "c'fann_create_array",
           "normalized": "CFloat-\u003eCFloat-\u003eCUInt-\u003ePtr CUInt-\u003eIO(Ptr C'fann)",
@@ -657,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "c'fann_create_shortcut_array",
           "package": "bindings-fann",
@@ -666,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann CreationDestructionExecution",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "c'fann_create_shortcut_array",
           "normalized": "CFloat-\u003eCUInt-\u003ePtr CUInt-\u003eIO(Ptr C'fann)",
@@ -680,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "c'fann_destroy",
           "package": "bindings-fann",
@@ -689,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann CreationDestructionExecution",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "c'fann_destroy",
           "normalized": "Ptr C'fann-\u003eIO()",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "c'fann_init_weights",
           "package": "bindings-fann",
@@ -712,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann CreationDestructionExecution",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "c'fann_init_weights",
           "normalized": "Ptr C'fann-\u003ePtr C'fann_train_data-\u003eIO()",
@@ -726,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "c'fann_print_connections",
           "package": "bindings-fann",
@@ -735,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann CreationDestructionExecution",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "c'fann_print_connections",
           "normalized": "Ptr C'fann-\u003eIO()",
@@ -749,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "c'fann_randomize_weights",
           "package": "bindings-fann",
@@ -758,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann CreationDestructionExecution",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "c'fann_randomize_weights",
           "normalized": "Ptr C'fann-\u003eCFloat-\u003eCFloat-\u003eIO()",
@@ -772,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "c'fann_run",
           "package": "bindings-fann",
@@ -781,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann CreationDestructionExecution",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "c'fann_run",
           "normalized": "Ptr C'fann-\u003ePtr CFloat-\u003eIO(Ptr CFloat)",
@@ -795,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "p'fann_create_array",
           "package": "bindings-fann",
@@ -804,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann CreationDestructionExecution",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "p'fann_create_array",
           "normalized": "FunPtr(CFloat-\u003eCFloat-\u003eCUInt-\u003ePtr CUInt-\u003eIO(Ptr C'fann))",
@@ -818,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "p'fann_create_shortcut_array",
           "package": "bindings-fann",
@@ -827,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann CreationDestructionExecution",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "p'fann_create_shortcut_array",
           "normalized": "FunPtr(CFloat-\u003eCUInt-\u003ePtr CUInt-\u003eIO(Ptr C'fann))",
@@ -841,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "p'fann_destroy",
           "package": "bindings-fann",
@@ -850,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann CreationDestructionExecution",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "p'fann_destroy",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO())",
@@ -864,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "p'fann_init_weights",
           "package": "bindings-fann",
@@ -873,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann CreationDestructionExecution",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "p'fann_init_weights",
           "normalized": "FunPtr(Ptr C'fann-\u003ePtr C'fann_train_data-\u003eIO())",
@@ -887,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "p'fann_print_connections",
           "package": "bindings-fann",
@@ -896,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann CreationDestructionExecution",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "p'fann_print_connections",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO())",
@@ -910,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "p'fann_randomize_weights",
           "package": "bindings-fann",
@@ -919,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann CreationDestructionExecution",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "p'fann_randomize_weights",
           "normalized": "FunPtr(Ptr C'fann-\u003eCFloat-\u003eCFloat-\u003eIO())",
@@ -933,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "p'fann_run",
           "package": "bindings-fann",
@@ -942,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann CreationDestructionExecution",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.CreationDestructionExecution",
           "name": "p'fann_run",
           "normalized": "FunPtr(Ptr C'fann-\u003ePtr CFloat-\u003eIO(Ptr CFloat))",
@@ -956,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.DataStructures",
           "name": "C'fann",
           "package": "bindings-fann",
@@ -964,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann DataStructures",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.DataStructures",
           "name": "C'fann",
           "package": "bindings-fann",
@@ -977,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.DataStructures",
           "name": "C'fann_error",
           "package": "bindings-fann",
@@ -985,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann DataStructures",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.DataStructures",
           "name": "C'fann_error",
           "package": "bindings-fann",
@@ -998,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.DataStructures",
           "name": "C'fann_layer",
           "package": "bindings-fann",
@@ -1006,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann DataStructures",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.DataStructures",
           "name": "C'fann_layer",
           "package": "bindings-fann",
@@ -1019,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.DataStructures",
           "name": "C'fann_neuron",
           "package": "bindings-fann",
@@ -1027,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann DataStructures",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.DataStructures",
           "name": "C'fann_neuron",
           "package": "bindings-fann",
@@ -1040,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.DataStructures",
           "name": "C'fann_train_data",
           "package": "bindings-fann",
@@ -1048,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann DataStructures",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.DataStructures",
           "name": "C'fann_train_data",
           "package": "bindings-fann",
@@ -1061,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "c'fann_get_errno",
           "package": "bindings-fann",
@@ -1070,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann ErrorHandling",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "c'fann_get_errno",
           "normalized": "Ptr C'fann_error-\u003eIO CUInt",
@@ -1084,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "c'fann_get_errstr",
           "package": "bindings-fann",
@@ -1093,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann ErrorHandling",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "c'fann_get_errstr",
           "normalized": "Ptr C'fann_error-\u003eIO CString",
@@ -1107,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "c'fann_print_error",
           "package": "bindings-fann",
@@ -1116,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann ErrorHandling",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "c'fann_print_error",
           "normalized": "Ptr C'fann-\u003eIO()",
@@ -1130,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "c'fann_reset_errno",
           "package": "bindings-fann",
@@ -1139,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann ErrorHandling",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "c'fann_reset_errno",
           "normalized": "Ptr C'fann_error-\u003eIO()",
@@ -1153,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "c'fann_reset_errstr",
           "package": "bindings-fann",
@@ -1162,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann ErrorHandling",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "c'fann_reset_errstr",
           "normalized": "Ptr C'fann_error-\u003eIO()",
@@ -1176,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "c'fann_set_error_log",
           "package": "bindings-fann",
@@ -1185,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann ErrorHandling",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "c'fann_set_error_log",
           "normalized": "Ptr C'fann_error-\u003ePtr CFile-\u003eIO()",
@@ -1199,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "p'fann_get_errno",
           "package": "bindings-fann",
@@ -1208,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann ErrorHandling",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "p'fann_get_errno",
           "normalized": "FunPtr(Ptr C'fann_error-\u003eIO CUInt)",
@@ -1222,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "p'fann_get_errstr",
           "package": "bindings-fann",
@@ -1231,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann ErrorHandling",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "p'fann_get_errstr",
           "normalized": "FunPtr(Ptr C'fann_error-\u003eIO CString)",
@@ -1245,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "p'fann_print_error",
           "package": "bindings-fann",
@@ -1254,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann ErrorHandling",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "p'fann_print_error",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO())",
@@ -1268,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "p'fann_reset_errno",
           "package": "bindings-fann",
@@ -1277,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann ErrorHandling",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "p'fann_reset_errno",
           "normalized": "FunPtr(Ptr C'fann_error-\u003eIO())",
@@ -1291,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "p'fann_reset_errstr",
           "package": "bindings-fann",
@@ -1300,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann ErrorHandling",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "p'fann_reset_errstr",
           "normalized": "FunPtr(Ptr C'fann_error-\u003eIO())",
@@ -1314,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "p'fann_set_error_log",
           "package": "bindings-fann",
@@ -1323,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann ErrorHandling",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.ErrorHandling",
           "name": "p'fann_set_error_log",
           "normalized": "FunPtr(Ptr C'fann_error-\u003ePtr CFile-\u003eIO())",
@@ -1337,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.InputOutput",
           "name": "c'fann_create_from_file",
           "package": "bindings-fann",
@@ -1346,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann InputOutput",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.InputOutput",
           "name": "c'fann_create_from_file",
           "normalized": "CString-\u003eIO(Ptr C'fann)",
@@ -1360,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.InputOutput",
           "name": "c'fann_save",
           "package": "bindings-fann",
@@ -1369,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann InputOutput",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.InputOutput",
           "name": "c'fann_save",
           "normalized": "Ptr C'fann-\u003eCString-\u003eIO()",
@@ -1383,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.InputOutput",
           "name": "c'fann_save_to_fixed",
           "package": "bindings-fann",
@@ -1392,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann InputOutput",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.InputOutput",
           "name": "c'fann_save_to_fixed",
           "normalized": "Ptr C'fann-\u003eCString-\u003eIO()",
@@ -1406,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.InputOutput",
           "name": "p'fann_create_from_file",
           "package": "bindings-fann",
@@ -1415,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann InputOutput",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.InputOutput",
           "name": "p'fann_create_from_file",
           "normalized": "FunPtr(CString-\u003eIO(Ptr C'fann))",
@@ -1429,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.InputOutput",
           "name": "p'fann_save",
           "package": "bindings-fann",
@@ -1438,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann InputOutput",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.InputOutput",
           "name": "p'fann_save",
           "normalized": "FunPtr(Ptr C'fann-\u003eCString-\u003eIO())",
@@ -1452,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.InputOutput",
           "name": "p'fann_save_to_fixed",
           "package": "bindings-fann",
@@ -1461,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann InputOutput",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.InputOutput",
           "name": "p'fann_save_to_fixed",
           "normalized": "FunPtr(Ptr C'fann-\u003eCString-\u003eIO())",
@@ -1475,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_activation_function_hidden",
           "package": "bindings-fann",
@@ -1484,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_activation_function_hidden",
           "normalized": "Ptr C'fann-\u003eIO CUInt",
@@ -1498,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_activation_function_output",
           "package": "bindings-fann",
@@ -1507,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_activation_function_output",
           "normalized": "Ptr C'fann-\u003eIO CUInt",
@@ -1521,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_activation_steepness_hidden",
           "package": "bindings-fann",
@@ -1530,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_activation_steepness_hidden",
           "normalized": "Ptr C'fann-\u003eIO CFloat",
@@ -1544,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_activation_steepness_output",
           "package": "bindings-fann",
@@ -1553,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_activation_steepness_output",
           "normalized": "Ptr C'fann-\u003eIO CFloat",
@@ -1567,6 +1705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_learning_rate",
           "package": "bindings-fann",
@@ -1576,6 +1715,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_learning_rate",
           "normalized": "Ptr C'fann-\u003eIO CFloat",
@@ -1590,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_num_input",
           "package": "bindings-fann",
@@ -1599,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_num_input",
           "normalized": "Ptr C'fann-\u003eIO CUInt",
@@ -1613,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_num_output",
           "package": "bindings-fann",
@@ -1622,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_num_output",
           "normalized": "Ptr C'fann-\u003eIO CUInt",
@@ -1636,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_quickprop_decay",
           "package": "bindings-fann",
@@ -1645,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_quickprop_decay",
           "normalized": "Ptr C'fann-\u003eIO CFloat",
@@ -1659,6 +1805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_quickprop_mu",
           "package": "bindings-fann",
@@ -1668,6 +1815,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_quickprop_mu",
           "normalized": "Ptr C'fann-\u003eIO CFloat",
@@ -1682,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_rprop_decrease_factor",
           "package": "bindings-fann",
@@ -1691,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_rprop_decrease_factor",
           "normalized": "Ptr C'fann-\u003eIO CFloat",
@@ -1705,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_rprop_delta_max",
           "package": "bindings-fann",
@@ -1714,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_rprop_delta_max",
           "normalized": "Ptr C'fann-\u003eIO CFloat",
@@ -1728,6 +1880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_rprop_delta_min",
           "package": "bindings-fann",
@@ -1737,6 +1890,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_rprop_delta_min",
           "normalized": "Ptr C'fann-\u003eIO CFloat",
@@ -1751,6 +1905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_rprop_increase_factor",
           "package": "bindings-fann",
@@ -1760,6 +1915,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_rprop_increase_factor",
           "normalized": "Ptr C'fann-\u003eIO CFloat",
@@ -1774,6 +1930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_total_connections",
           "package": "bindings-fann",
@@ -1783,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_total_connections",
           "normalized": "Ptr C'fann-\u003eIO CUInt",
@@ -1797,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_total_neurons",
           "package": "bindings-fann",
@@ -1806,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_total_neurons",
           "normalized": "Ptr C'fann-\u003eIO CUInt",
@@ -1820,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_train_error_function",
           "package": "bindings-fann",
@@ -1829,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_train_error_function",
           "normalized": "Ptr C'fann-\u003eIO CUInt",
@@ -1843,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_training_algorithm",
           "package": "bindings-fann",
@@ -1852,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_get_training_algorithm",
           "normalized": "Ptr C'fann-\u003eIO CUInt",
@@ -1866,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_print_parameters",
           "package": "bindings-fann",
@@ -1875,6 +2040,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_print_parameters",
           "normalized": "Ptr C'fann-\u003eIO()",
@@ -1889,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_activation_function_hidden",
           "package": "bindings-fann",
@@ -1898,6 +2065,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_activation_function_hidden",
           "normalized": "Ptr C'fann-\u003eCUInt-\u003eIO()",
@@ -1912,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_activation_function_output",
           "package": "bindings-fann",
@@ -1921,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_activation_function_output",
           "normalized": "Ptr C'fann-\u003eCUInt-\u003eIO()",
@@ -1935,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_activation_steepness_hidden",
           "package": "bindings-fann",
@@ -1944,6 +2115,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_activation_steepness_hidden",
           "normalized": "Ptr C'fann-\u003eCFloat-\u003eIO()",
@@ -1958,6 +2130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_activation_steepness_output",
           "package": "bindings-fann",
@@ -1967,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_activation_steepness_output",
           "normalized": "Ptr C'fann-\u003eCFloat-\u003eIO()",
@@ -1981,6 +2155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_learning_rate",
           "package": "bindings-fann",
@@ -1990,6 +2165,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_learning_rate",
           "normalized": "Ptr C'fann-\u003eCFloat-\u003eIO()",
@@ -2004,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_quickprop_decay",
           "package": "bindings-fann",
@@ -2013,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_quickprop_decay",
           "normalized": "Ptr C'fann-\u003eCFloat-\u003eIO()",
@@ -2027,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_quickprop_mu",
           "package": "bindings-fann",
@@ -2036,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_quickprop_mu",
           "normalized": "Ptr C'fann-\u003eCFloat-\u003eIO()",
@@ -2050,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_rprop_decrease_factor",
           "package": "bindings-fann",
@@ -2059,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_rprop_decrease_factor",
           "normalized": "Ptr C'fann-\u003eCFloat-\u003eIO()",
@@ -2073,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_rprop_delta_max",
           "package": "bindings-fann",
@@ -2082,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_rprop_delta_max",
           "normalized": "Ptr C'fann-\u003eCFloat-\u003eIO()",
@@ -2096,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_rprop_delta_min",
           "package": "bindings-fann",
@@ -2105,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_rprop_delta_min",
           "normalized": "Ptr C'fann-\u003eCFloat-\u003eIO()",
@@ -2119,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_rprop_increase_factor",
           "package": "bindings-fann",
@@ -2128,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_rprop_increase_factor",
           "normalized": "Ptr C'fann-\u003eCFloat-\u003eIO()",
@@ -2142,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_train_error_function",
           "package": "bindings-fann",
@@ -2151,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_train_error_function",
           "normalized": "Ptr C'fann-\u003eCUInt-\u003eIO()",
@@ -2165,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_training_algorithm",
           "package": "bindings-fann",
@@ -2174,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "c'fann_set_training_algorithm",
           "normalized": "Ptr C'fann-\u003eCUInt-\u003eIO()",
@@ -2188,6 +2380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_activation_function_hidden",
           "package": "bindings-fann",
@@ -2197,6 +2390,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_activation_function_hidden",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO CUInt)",
@@ -2211,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_activation_function_output",
           "package": "bindings-fann",
@@ -2220,6 +2415,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_activation_function_output",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO CUInt)",
@@ -2234,6 +2430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_activation_steepness_hidden",
           "package": "bindings-fann",
@@ -2243,6 +2440,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_activation_steepness_hidden",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO CFloat)",
@@ -2257,6 +2455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_activation_steepness_output",
           "package": "bindings-fann",
@@ -2266,6 +2465,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_activation_steepness_output",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO CFloat)",
@@ -2280,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_learning_rate",
           "package": "bindings-fann",
@@ -2289,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_learning_rate",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO CFloat)",
@@ -2303,6 +2505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_num_input",
           "package": "bindings-fann",
@@ -2312,6 +2515,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_num_input",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO CUInt)",
@@ -2326,6 +2530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_num_output",
           "package": "bindings-fann",
@@ -2335,6 +2540,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_num_output",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO CUInt)",
@@ -2349,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_quickprop_decay",
           "package": "bindings-fann",
@@ -2358,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_quickprop_decay",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO CFloat)",
@@ -2372,6 +2580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_quickprop_mu",
           "package": "bindings-fann",
@@ -2381,6 +2590,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_quickprop_mu",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO CFloat)",
@@ -2395,6 +2605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_rprop_decrease_factor",
           "package": "bindings-fann",
@@ -2404,6 +2615,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_rprop_decrease_factor",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO CFloat)",
@@ -2418,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_rprop_delta_max",
           "package": "bindings-fann",
@@ -2427,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_rprop_delta_max",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO CFloat)",
@@ -2441,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_rprop_delta_min",
           "package": "bindings-fann",
@@ -2450,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_rprop_delta_min",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO CFloat)",
@@ -2464,6 +2680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_rprop_increase_factor",
           "package": "bindings-fann",
@@ -2473,6 +2690,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_rprop_increase_factor",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO CFloat)",
@@ -2487,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_total_connections",
           "package": "bindings-fann",
@@ -2496,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_total_connections",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO CUInt)",
@@ -2510,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_total_neurons",
           "package": "bindings-fann",
@@ -2519,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_total_neurons",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO CUInt)",
@@ -2533,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_train_error_function",
           "package": "bindings-fann",
@@ -2542,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_train_error_function",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO CUInt)",
@@ -2556,6 +2780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_training_algorithm",
           "package": "bindings-fann",
@@ -2565,6 +2790,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_get_training_algorithm",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO CUInt)",
@@ -2579,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_print_parameters",
           "package": "bindings-fann",
@@ -2588,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_print_parameters",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO())",
@@ -2602,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_activation_function_hidden",
           "package": "bindings-fann",
@@ -2611,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_activation_function_hidden",
           "normalized": "FunPtr(Ptr C'fann-\u003eCUInt-\u003eIO())",
@@ -2625,6 +2855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_activation_function_output",
           "package": "bindings-fann",
@@ -2634,6 +2865,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_activation_function_output",
           "normalized": "FunPtr(Ptr C'fann-\u003eCUInt-\u003eIO())",
@@ -2648,6 +2880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_activation_steepness_hidden",
           "package": "bindings-fann",
@@ -2657,6 +2890,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_activation_steepness_hidden",
           "normalized": "FunPtr(Ptr C'fann-\u003eCFloat-\u003eIO())",
@@ -2671,6 +2905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_activation_steepness_output",
           "package": "bindings-fann",
@@ -2680,6 +2915,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_activation_steepness_output",
           "normalized": "FunPtr(Ptr C'fann-\u003eCFloat-\u003eIO())",
@@ -2694,6 +2930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_learning_rate",
           "package": "bindings-fann",
@@ -2703,6 +2940,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_learning_rate",
           "normalized": "FunPtr(Ptr C'fann-\u003eCFloat-\u003eIO())",
@@ -2717,6 +2955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_quickprop_decay",
           "package": "bindings-fann",
@@ -2726,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_quickprop_decay",
           "normalized": "FunPtr(Ptr C'fann-\u003eCFloat-\u003eIO())",
@@ -2740,6 +2980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_quickprop_mu",
           "package": "bindings-fann",
@@ -2749,6 +2990,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_quickprop_mu",
           "normalized": "FunPtr(Ptr C'fann-\u003eCFloat-\u003eIO())",
@@ -2763,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_rprop_decrease_factor",
           "package": "bindings-fann",
@@ -2772,6 +3015,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_rprop_decrease_factor",
           "normalized": "FunPtr(Ptr C'fann-\u003eCFloat-\u003eIO())",
@@ -2786,6 +3030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_rprop_delta_max",
           "package": "bindings-fann",
@@ -2795,6 +3040,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_rprop_delta_max",
           "normalized": "FunPtr(Ptr C'fann-\u003eCFloat-\u003eIO())",
@@ -2809,6 +3055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_rprop_delta_min",
           "package": "bindings-fann",
@@ -2818,6 +3065,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_rprop_delta_min",
           "normalized": "FunPtr(Ptr C'fann-\u003eCFloat-\u003eIO())",
@@ -2832,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_rprop_increase_factor",
           "package": "bindings-fann",
@@ -2841,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_rprop_increase_factor",
           "normalized": "FunPtr(Ptr C'fann-\u003eCFloat-\u003eIO())",
@@ -2855,6 +3105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_train_error_function",
           "package": "bindings-fann",
@@ -2864,6 +3115,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_train_error_function",
           "normalized": "FunPtr(Ptr C'fann-\u003eCUInt-\u003eIO())",
@@ -2878,6 +3130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_training_algorithm",
           "package": "bindings-fann",
@@ -2887,6 +3140,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Options",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Options",
           "name": "p'fann_set_training_algorithm",
           "normalized": "FunPtr(Ptr C'fann-\u003eCUInt-\u003eIO())",
@@ -2901,6 +3155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Training",
           "name": "c'fann_get_MSE",
           "package": "bindings-fann",
@@ -2910,6 +3165,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Training",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Training",
           "name": "c'fann_get_MSE",
           "normalized": "Ptr C'fann-\u003eIO CFloat",
@@ -2925,6 +3181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Training",
           "name": "c'fann_reset_MSE",
           "package": "bindings-fann",
@@ -2934,6 +3191,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Training",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Training",
           "name": "c'fann_reset_MSE",
           "normalized": "Ptr C'fann-\u003eIO()",
@@ -2949,6 +3207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Training",
           "name": "c'fann_test",
           "package": "bindings-fann",
@@ -2958,6 +3217,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Training",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Training",
           "name": "c'fann_test",
           "normalized": "Ptr C'fann-\u003ePtr CFloat-\u003ePtr CFloat-\u003eIO(Ptr CFloat)",
@@ -2972,6 +3232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Training",
           "name": "c'fann_train",
           "package": "bindings-fann",
@@ -2981,6 +3242,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Training",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Training",
           "name": "c'fann_train",
           "normalized": "Ptr C'fann-\u003ePtr CFloat-\u003ePtr CFloat-\u003eIO()",
@@ -2995,6 +3257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Training",
           "name": "p'fann_get_MSE",
           "package": "bindings-fann",
@@ -3004,6 +3267,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Training",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Training",
           "name": "p'fann_get_MSE",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO CFloat)",
@@ -3019,6 +3283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Training",
           "name": "p'fann_reset_MSE",
           "package": "bindings-fann",
@@ -3028,6 +3293,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Training",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Training",
           "name": "p'fann_reset_MSE",
           "normalized": "FunPtr(Ptr C'fann-\u003eIO())",
@@ -3043,6 +3309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Training",
           "name": "p'fann_test",
           "package": "bindings-fann",
@@ -3052,6 +3319,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Training",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Training",
           "name": "p'fann_test",
           "normalized": "FunPtr(Ptr C'fann-\u003ePtr CFloat-\u003ePtr CFloat-\u003eIO(Ptr CFloat))",
@@ -3066,6 +3334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.Training",
           "name": "p'fann_train",
           "package": "bindings-fann",
@@ -3075,6 +3344,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann Training",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.Training",
           "name": "p'fann_train",
           "normalized": "FunPtr(Ptr C'fann-\u003ePtr CFloat-\u003ePtr CFloat-\u003eIO())",
@@ -3089,6 +3359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_destroy_train",
           "package": "bindings-fann",
@@ -3098,6 +3369,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_destroy_train",
           "normalized": "Ptr C'fann_train_data-\u003eIO()",
@@ -3112,6 +3384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_duplicate_train_data",
           "package": "bindings-fann",
@@ -3121,6 +3394,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_duplicate_train_data",
           "normalized": "Ptr C'fann_train_data-\u003eIO(Ptr C'fann_train_data)",
@@ -3135,6 +3409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_merge_train_data",
           "package": "bindings-fann",
@@ -3144,6 +3419,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_merge_train_data",
           "normalized": "Ptr C'fann_train_data-\u003ePtr C'fann_train_data-\u003eIO(Ptr C'fann_train_data)",
@@ -3158,6 +3434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_read_train_from_file",
           "package": "bindings-fann",
@@ -3167,6 +3444,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_read_train_from_file",
           "normalized": "CString-\u003eIO(Ptr C'fann_train_data)",
@@ -3181,6 +3459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_save_train",
           "package": "bindings-fann",
@@ -3190,6 +3469,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_save_train",
           "normalized": "Ptr C'fann_train_data-\u003ePtr CFile-\u003eIO()",
@@ -3204,6 +3484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_save_train_to_fixed",
           "package": "bindings-fann",
@@ -3213,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_save_train_to_fixed",
           "normalized": "Ptr C'fann_train_data-\u003ePtr CFile-\u003eCUInt-\u003eIO()",
@@ -3227,6 +3509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_shuffle_train_data",
           "package": "bindings-fann",
@@ -3236,6 +3519,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_shuffle_train_data",
           "normalized": "Ptr C'fann_train_data-\u003eIO()",
@@ -3250,6 +3534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_test_data",
           "package": "bindings-fann",
@@ -3259,6 +3544,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_test_data",
           "normalized": "Ptr C'fann-\u003ePtr C'fann_train_data-\u003eIO CFloat",
@@ -3273,6 +3559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_train_epoch",
           "package": "bindings-fann",
@@ -3282,6 +3569,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_train_epoch",
           "normalized": "Ptr C'fann-\u003ePtr C'fann_train_data-\u003eIO CFloat",
@@ -3296,6 +3584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_train_on_data",
           "package": "bindings-fann",
@@ -3305,6 +3594,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_train_on_data",
           "normalized": "Ptr C'fann-\u003ePtr C'fann_train_data-\u003eCUInt-\u003eCUInt-\u003eCFloat-\u003eIO()",
@@ -3319,6 +3609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_train_on_data_callback",
           "package": "bindings-fann",
@@ -3328,6 +3619,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_train_on_data_callback",
           "normalized": "Ptr C'fann-\u003ePtr C'fann_train_data-\u003eCUInt-\u003eCUInt-\u003eCFloat-\u003eFunPtr(CUInt-\u003eCFloat-\u003eIO CInt)-\u003eIO()",
@@ -3342,6 +3634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_train_on_file",
           "package": "bindings-fann",
@@ -3351,6 +3644,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_train_on_file",
           "normalized": "Ptr C'fann-\u003eCString-\u003eCUInt-\u003eCUInt-\u003eCFloat-\u003eIO()",
@@ -3365,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_train_on_file_callback",
           "package": "bindings-fann",
@@ -3374,6 +3669,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "c'fann_train_on_file_callback",
           "normalized": "Ptr C'fann-\u003eCString-\u003eCUInt-\u003eCUInt-\u003eCFloat-\u003eFunPtr(CUInt-\u003eCFloat-\u003eIO CInt)-\u003eIO()",
@@ -3388,6 +3684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_destroy_train",
           "package": "bindings-fann",
@@ -3397,6 +3694,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_destroy_train",
           "normalized": "FunPtr(Ptr C'fann_train_data-\u003eIO())",
@@ -3411,6 +3709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_duplicate_train_data",
           "package": "bindings-fann",
@@ -3420,6 +3719,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_duplicate_train_data",
           "normalized": "FunPtr(Ptr C'fann_train_data-\u003eIO(Ptr C'fann_train_data))",
@@ -3434,6 +3734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_merge_train_data",
           "package": "bindings-fann",
@@ -3443,6 +3744,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_merge_train_data",
           "normalized": "FunPtr(Ptr C'fann_train_data-\u003ePtr C'fann_train_data-\u003eIO(Ptr C'fann_train_data))",
@@ -3457,6 +3759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_read_train_from_file",
           "package": "bindings-fann",
@@ -3466,6 +3769,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_read_train_from_file",
           "normalized": "FunPtr(CString-\u003eIO(Ptr C'fann_train_data))",
@@ -3480,6 +3784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_save_train",
           "package": "bindings-fann",
@@ -3489,6 +3794,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_save_train",
           "normalized": "FunPtr(Ptr C'fann_train_data-\u003ePtr CFile-\u003eIO())",
@@ -3503,6 +3809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_save_train_to_fixed",
           "package": "bindings-fann",
@@ -3512,6 +3819,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_save_train_to_fixed",
           "normalized": "FunPtr(Ptr C'fann_train_data-\u003ePtr CFile-\u003eCUInt-\u003eIO())",
@@ -3526,6 +3834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_shuffle_train_data",
           "package": "bindings-fann",
@@ -3535,6 +3844,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_shuffle_train_data",
           "normalized": "FunPtr(Ptr C'fann_train_data-\u003eIO())",
@@ -3549,6 +3859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_test_data",
           "package": "bindings-fann",
@@ -3558,6 +3869,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_test_data",
           "normalized": "FunPtr(Ptr C'fann-\u003ePtr C'fann_train_data-\u003eIO CFloat)",
@@ -3572,6 +3884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_train_epoch",
           "package": "bindings-fann",
@@ -3581,6 +3894,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_train_epoch",
           "normalized": "FunPtr(Ptr C'fann-\u003ePtr C'fann_train_data-\u003eIO CFloat)",
@@ -3595,6 +3909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_train_on_data",
           "package": "bindings-fann",
@@ -3604,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_train_on_data",
           "normalized": "FunPtr(Ptr C'fann-\u003ePtr C'fann_train_data-\u003eCUInt-\u003eCUInt-\u003eCFloat-\u003eIO())",
@@ -3618,6 +3934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_train_on_data_callback",
           "package": "bindings-fann",
@@ -3627,6 +3944,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_train_on_data_callback",
           "normalized": "FunPtr(Ptr C'fann-\u003ePtr C'fann_train_data-\u003eCUInt-\u003eCUInt-\u003eCFloat-\u003eFunPtr(CUInt-\u003eCFloat-\u003eIO CInt)-\u003eIO())",
@@ -3641,6 +3959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_train_on_file",
           "package": "bindings-fann",
@@ -3650,6 +3969,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_train_on_file",
           "normalized": "FunPtr(Ptr C'fann-\u003eCString-\u003eCUInt-\u003eCUInt-\u003eCFloat-\u003eIO())",
@@ -3664,6 +3984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:11 UTC 2014",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_train_on_file_callback",
           "package": "bindings-fann",
@@ -3673,6 +3994,7 @@
         },
         "index": {
           "hierarchy": "Bindings Fann TrainingData",
+          "indexed": "2014-03-11T17:20:11",
           "module": "Bindings.Fann.TrainingData",
           "name": "p'fann_train_on_file_callback",
           "normalized": "FunPtr(Ptr C'fann-\u003eCString-\u003eCUInt-\u003eCUInt-\u003eCFloat-\u003eFunPtr(CUInt-\u003eCFloat-\u003eIO CInt)-\u003eIO())",

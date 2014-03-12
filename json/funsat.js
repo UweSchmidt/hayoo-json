@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "funsat"
+        "phrase": "funsat",
+        "type": "phrase"
       },
       "type": "context"
     }

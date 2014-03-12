@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "natural-numbers"
+        "phrase": "natural-numbers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for natural numbers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:14 UTC 2014",
           "module": "Data.Natural",
           "name": "Natural",
           "package": "natural-numbers",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Support for natural numbers",
           "hierarchy": "Data Natural",
+          "indexed": "2014-03-11T19:26:14",
           "module": "Data.Natural",
           "name": "Natural",
           "package": "natural-numbers",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of natural numbers.\n\u003c/p\u003e\u003cp\u003eNote that matching a natural number against a negative pattern might not work as you expect.\n        For example, evaluating the following expression results in a run-time error, instead of the\n        result \u003ccode\u003e\"plus five\"\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e\ncase 5 :: Natural of\n    -5 -\u003e \"minus five\"\n     5 -\u003e \"plus five\"\n\u003c/pre\u003e\u003cp\u003eThe reason is that the \u003ccode\u003e==\u003c/code\u003e operator of \u003ccode\u003eNatural\u003c/code\u003e is used for checking if the patterns\n        match, making it necessary to convert \u003ccode\u003e-5\u003c/code\u003e to Natural.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:14 UTC 2014",
           "module": "Data.Natural",
           "name": "Natural",
           "package": "natural-numbers",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The type of natural numbers Note that matching natural number against negative pattern might not work as you expect For example evaluating the following expression results in run-time error instead of the result plus five case Natural of minus five plus five The reason is that the operator of Natural is used for checking if the patterns match making it necessary to convert to Natural",
           "hierarchy": "Data Natural",
+          "indexed": "2014-03-11T19:26:14",
           "module": "Data.Natural",
           "name": "Natural",
           "package": "natural-numbers",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type for views of natural numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:14 UTC 2014",
           "module": "Data.Natural",
           "name": "View",
           "package": "natural-numbers",
@@ -74,6 +79,7 @@
         "index": {
           "description": "data type for views of natural numbers",
           "hierarchy": "Data Natural",
+          "indexed": "2014-03-11T19:26:14",
           "module": "Data.Natural",
           "name": "View",
           "package": "natural-numbers",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:14 UTC 2014",
           "module": "Data.Natural",
           "name": "Succ",
           "package": "natural-numbers",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data Natural",
+          "indexed": "2014-03-11T19:26:14",
           "module": "Data.Natural",
           "name": "Succ",
           "package": "natural-numbers",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:14 UTC 2014",
           "module": "Data.Natural",
           "name": "Zero",
           "package": "natural-numbers",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Data Natural",
+          "indexed": "2014-03-11T19:26:14",
           "module": "Data.Natural",
           "name": "Zero",
           "package": "natural-numbers",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFolding of natural numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:14 UTC 2014",
           "module": "Data.Natural",
           "name": "fold",
           "package": "natural-numbers",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Folding of natural numbers",
           "hierarchy": "Data Natural",
+          "indexed": "2014-03-11T19:26:14",
           "module": "Data.Natural",
           "name": "fold",
           "normalized": "a-\u003e(a-\u003ea)-\u003eNatural-\u003ea",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields the monus of two natural numbers, which is their difference if the first number is\n        greater than the second, and zero otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:14 UTC 2014",
           "module": "Data.Natural",
           "name": "monus",
           "package": "natural-numbers",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Yields the monus of two natural numbers which is their difference if the first number is greater than the second and zero otherwise",
           "hierarchy": "Data Natural",
+          "indexed": "2014-03-11T19:26:14",
           "module": "Data.Natural",
           "name": "monus",
           "normalized": "Natural-\u003eNatural-\u003eNatural",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields the view of a natural number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:14 UTC 2014",
           "module": "Data.Natural",
           "name": "view",
           "package": "natural-numbers",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Yields the view of natural number",
           "hierarchy": "Data Natural",
+          "indexed": "2014-03-11T19:26:14",
           "module": "Data.Natural",
           "name": "view",
           "normalized": "Natural-\u003eView",

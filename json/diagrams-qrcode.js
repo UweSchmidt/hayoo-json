@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "diagrams-qrcode"
+        "phrase": "diagrams-qrcode",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:31 UTC 2014",
           "module": "Diagrams.QRCode",
           "name": "QRCode",
           "package": "diagrams-qrcode",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Diagrams QRCode",
+          "indexed": "2014-03-11T17:54:31",
           "module": "Diagrams.QRCode",
           "name": "QRCode",
           "package": "diagrams-qrcode",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003epathList\u003c/a\u003e\u003c/code\u003e, but from an array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:31 UTC 2014",
           "module": "Diagrams.QRCode",
           "name": "pathArray",
           "package": "diagrams-qrcode",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Same as pathList but from an array",
           "hierarchy": "Diagrams QRCode",
+          "indexed": "2014-03-11T17:54:31",
           "module": "Diagrams.QRCode",
           "name": "pathArray",
           "normalized": "Array(a,a)b-\u003ePath R",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a QR code represented as a list of bounded values\n into a \u003ccode\u003ePath\u003c/code\u003e.  \u003ccode\u003e\u003ca\u003eminBound\u003c/a\u003e\u003c/code\u003e values are considered to be\n \"off\", while every other value is considered to be \"on\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:31 UTC 2014",
           "module": "Diagrams.QRCode",
           "name": "pathList",
           "package": "diagrams-qrcode",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Convert QR code represented as list of bounded values into Path minBound values are considered to be off while every other value is considered to be on",
           "hierarchy": "Diagrams QRCode",
+          "indexed": "2014-03-11T17:54:31",
           "module": "Diagrams.QRCode",
           "name": "pathList",
           "normalized": "[((a,a),b)]-\u003ePath R",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003epathList\u003c/a\u003e\u003c/code\u003e, but from a matrix represented as a list\n of lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:31 UTC 2014",
           "module": "Diagrams.QRCode",
           "name": "pathMatrix",
           "package": "diagrams-qrcode",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Same as pathList but from matrix represented as list of lists",
           "hierarchy": "Diagrams QRCode",
+          "indexed": "2014-03-11T17:54:31",
           "module": "Diagrams.QRCode",
           "name": "pathMatrix",
           "normalized": "[[a]]-\u003ePath R",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStroke using default QR code colors (black on white) and\n with the \"quiet\" region.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:31 UTC 2014",
           "module": "Diagrams.QRCode",
           "name": "stroke",
           "package": "diagrams-qrcode",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Stroke using default QR code colors black on white and with the quiet region",
           "hierarchy": "Diagrams QRCode",
+          "indexed": "2014-03-11T17:54:31",
           "module": "Diagrams.QRCode",
           "name": "stroke",
           "normalized": "Path R-\u003eDiagram a R",

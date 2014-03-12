@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "NoTrace"
+        "phrase": "NoTrace",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module introduce functions that have identical types with functions in the \u003ca\u003eDebug.Trace\u003c/a\u003e module.\n\u003c/p\u003e\u003cp\u003eYou might write some programs like this:\n\u003c/p\u003e\u003cpre\u003e import Debug.Trace\n\n fib 0 = 1\n fib 1 = 1\n fib n = (\"fib \" ++ show n) `trace` fib (n - 1) + fib (n - 2)\n\u003c/pre\u003e\u003cp\u003eAnd after you finish the debugging process, just change the line\n\u003c/p\u003e\u003cpre\u003e import Debug.Trace\n\u003c/pre\u003e\u003cp\u003einto\n\u003c/p\u003e\u003cpre\u003e import Debug.NoTrace\n\u003c/pre\u003e\u003cp\u003eThen all the tracing functions are silently removed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:16 UTC 2014",
           "module": "Debug.NoTrace",
           "name": "NoTrace",
           "package": "NoTrace",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module introduce functions that have identical types with functions in the Debug.Trace module You might write some programs like this import Debug.Trace fib fib fib fib show trace fib fib And after you finish the debugging process just change the line import Debug.Trace into import Debug.NoTrace Then all the tracing functions are silently removed",
           "hierarchy": "Debug NoTrace",
+          "indexed": "2014-03-11T16:54:16",
           "module": "Debug.NoTrace",
           "name": "NoTrace",
           "package": "NoTrace",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:16 UTC 2014",
           "module": "Debug.NoTrace",
           "name": "putTraceMsg",
           "package": "NoTrace",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Debug NoTrace",
+          "indexed": "2014-03-11T16:54:16",
           "module": "Debug.NoTrace",
           "name": "putTraceMsg",
           "normalized": "String-\u003eIO()",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:16 UTC 2014",
           "module": "Debug.NoTrace",
           "name": "trace",
           "package": "NoTrace",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Debug NoTrace",
+          "indexed": "2014-03-11T16:54:16",
           "module": "Debug.NoTrace",
           "name": "trace",
           "normalized": "String-\u003ea-\u003ea",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:16 UTC 2014",
           "module": "Debug.NoTrace",
           "name": "traceEvent",
           "package": "NoTrace",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Debug NoTrace",
+          "indexed": "2014-03-11T16:54:16",
           "module": "Debug.NoTrace",
           "name": "traceEvent",
           "normalized": "String-\u003ea-\u003ea",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:16 UTC 2014",
           "module": "Debug.NoTrace",
           "name": "traceEventIO",
           "package": "NoTrace",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Debug NoTrace",
+          "indexed": "2014-03-11T16:54:16",
           "module": "Debug.NoTrace",
           "name": "traceEventIO",
           "normalized": "String-\u003eIO()",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:16 UTC 2014",
           "module": "Debug.NoTrace",
           "name": "traceIO",
           "package": "NoTrace",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Debug NoTrace",
+          "indexed": "2014-03-11T16:54:16",
           "module": "Debug.NoTrace",
           "name": "traceIO",
           "normalized": "String-\u003eIO()",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:16 UTC 2014",
           "module": "Debug.NoTrace",
           "name": "traceShow",
           "package": "NoTrace",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Debug NoTrace",
+          "indexed": "2014-03-11T16:54:16",
           "module": "Debug.NoTrace",
           "name": "traceShow",
           "normalized": "a-\u003eb-\u003eb",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:16 UTC 2014",
           "module": "Debug.NoTrace",
           "name": "traceStack",
           "package": "NoTrace",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Debug NoTrace",
+          "indexed": "2014-03-11T16:54:16",
           "module": "Debug.NoTrace",
           "name": "traceStack",
           "normalized": "String-\u003ea-\u003ea",

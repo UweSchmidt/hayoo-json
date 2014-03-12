@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "exception-mailer"
+        "phrase": "exception-mailer",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule to catch uncaught exceptions and send a notification email\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:04:38 UTC 2014",
           "module": "System.ExceptionMailer",
           "name": "ExceptionMailer",
           "package": "exception-mailer",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Module to catch uncaught exceptions and send notification email",
           "hierarchy": "System ExceptionMailer",
+          "indexed": "2014-03-11T18:04:38",
           "module": "System.ExceptionMailer",
           "name": "ExceptionMailer",
           "package": "exception-mailer",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:38 UTC 2014",
           "module": "System.ExceptionMailer",
           "name": "Address",
           "package": "exception-mailer",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "System ExceptionMailer",
+          "indexed": "2014-03-11T18:04:38",
           "module": "System.ExceptionMailer",
           "name": "Address",
           "package": "exception-mailer",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString tag used for logging to \u003ca\u003eSystem.Log.Logger\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:38 UTC 2014",
           "module": "System.ExceptionMailer",
           "name": "exceptionMailerTag",
           "package": "exception-mailer",
@@ -72,6 +77,7 @@
         "index": {
           "description": "String tag used for logging to System.Log.Logger",
           "hierarchy": "System ExceptionMailer",
+          "indexed": "2014-03-11T18:04:38",
           "module": "System.ExceptionMailer",
           "name": "exceptionMailerTag",
           "package": "exception-mailer",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend an error email.  Exported so that it may be re-used from your own exception handling routines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:38 UTC 2014",
           "module": "System.ExceptionMailer",
           "name": "mailError",
           "package": "exception-mailer",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Send an error email Exported so that it may be re-used from your own exception handling routines",
           "hierarchy": "System ExceptionMailer",
+          "indexed": "2014-03-11T18:04:38",
           "module": "System.ExceptionMailer",
           "name": "mailError",
           "normalized": "Address-\u003eAddress-\u003eMaybe String-\u003eString-\u003eIO()",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to convert a name and email address into a proper \u003ccode\u003e\u003ca\u003eAddress\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:38 UTC 2014",
           "module": "System.ExceptionMailer",
           "name": "mkAddress",
           "package": "exception-mailer",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Helper function to convert name and email address into proper Address",
           "hierarchy": "System ExceptionMailer",
+          "indexed": "2014-03-11T18:04:38",
           "module": "System.ExceptionMailer",
           "name": "mkAddress",
           "normalized": "String-\u003eString-\u003eAddress",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetup the global exception notifier.  This will catch any otherwise uncaught exceptions and send an email to the\n given address.\n\u003c/p\u003e\u003cp\u003eFor example,\n\u003c/p\u003e\u003cpre\u003e setupExceptionMailer (mkAddress \"My Program\" \"noreply@example.com\")\n                        (mkAddress \"Sysadmin\" \"sysadmin@example.com\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:38 UTC 2014",
           "module": "System.ExceptionMailer",
           "name": "setupExceptionMailer",
           "package": "exception-mailer",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Setup the global exception notifier This will catch any otherwise uncaught exceptions and send an email to the given address For example setupExceptionMailer mkAddress My Program noreply@example.com mkAddress Sysadmin sysadmin@example.com",
           "hierarchy": "System ExceptionMailer",
+          "indexed": "2014-03-11T18:04:38",
           "module": "System.ExceptionMailer",
           "name": "setupExceptionMailer",
           "normalized": "Address-\u003eAddress-\u003eMaybe String-\u003eString-\u003eIO()",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience version of \u003ccode\u003e\u003ca\u003esetupExceptionMailer\u003c/a\u003e\u003c/code\u003e that just accepts the email addresses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:38 UTC 2014",
           "module": "System.ExceptionMailer",
           "name": "setupExceptionMailer'",
           "package": "exception-mailer",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Convenience version of setupExceptionMailer that just accepts the email addresses",
           "hierarchy": "System ExceptionMailer",
+          "indexed": "2014-03-11T18:04:38",
           "module": "System.ExceptionMailer",
           "name": "setupExceptionMailer'",
           "normalized": "String-\u003eString-\u003eMaybe String-\u003eString-\u003eIO()",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetup the global exception notifier.  Like \u003ccode\u003e\u003ca\u003esetupExceptionMailer\u003c/a\u003e\u003c/code\u003e but allows a\n custom action after the email is send\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:38 UTC 2014",
           "module": "System.ExceptionMailer",
           "name": "setupExceptionMailer_adv",
           "package": "exception-mailer",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Setup the global exception notifier Like setupExceptionMailer but allows custom action after the email is send",
           "hierarchy": "System ExceptionMailer",
+          "indexed": "2014-03-11T18:04:38",
           "module": "System.ExceptionMailer",
           "name": "setupExceptionMailer_adv",
           "normalized": "Address-\u003eAddress-\u003eMaybe String-\u003eString-\u003e(SomeException-\u003eIO())-\u003eIO()",

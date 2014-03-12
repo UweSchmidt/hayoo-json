@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "twitter"
+        "phrase": "twitter",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack-contrib-press"
+        "phrase": "hack-contrib-press",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:04 UTC 2014",
           "module": "Hack.Contrib.Press",
           "name": "defaultContext",
           "package": "hack-contrib-press",
@@ -27,6 +28,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Press",
+          "indexed": "2014-03-11T18:25:04",
           "module": "Hack.Contrib.Press",
           "name": "defaultContext",
           "normalized": "Env-\u003e[JSValue]",
@@ -42,6 +44,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:04 UTC 2014",
           "module": "Hack.Contrib.Press",
           "name": "envToJS",
           "package": "hack-contrib-press",
@@ -51,6 +54,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Press",
+          "indexed": "2014-03-11T18:25:04",
           "module": "Hack.Contrib.Press",
           "name": "envToJS",
           "normalized": "Env-\u003eJSValue",
@@ -66,6 +70,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:04 UTC 2014",
           "module": "Hack.Contrib.Press",
           "name": "renderToResponse",
           "package": "hack-contrib-press",
@@ -75,6 +80,7 @@
         },
         "index": {
           "hierarchy": "Hack Contrib Press",
+          "indexed": "2014-03-11T18:25:04",
           "module": "Hack.Contrib.Press",
           "name": "renderToResponse",
           "normalized": "Env-\u003eString-\u003e[JSValue]-\u003eIO Response",

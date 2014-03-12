@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HStringTemplate"
+        "phrase": "HStringTemplate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "Base",
           "package": "HStringTemplate",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "Base",
           "package": "HStringTemplate",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "SEnv",
           "package": "HStringTemplate",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "SEnv",
           "package": "HStringTemplate",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function that generates StringTemplates.\n This is conceptually a query function into a \"group\" of StringTemplates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "STGroup",
           "package": "HStringTemplate",
@@ -70,6 +75,7 @@
         "index": {
           "description": "function that generates StringTemplates This is conceptually query function into group of StringTemplates",
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "STGroup",
           "package": "HStringTemplate",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA String with \"holes\" in it. StringTemplates may be composed of any\n \u003ccode\u003e\u003ca\u003eStringable\u003c/a\u003e\u003c/code\u003e type, which at the moment includes \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es, \u003ccode\u003eByteString\u003c/code\u003es,\n PrettyPrinter \u003ccode\u003eDoc\u003c/code\u003es, and \u003ccode\u003e\u003ca\u003eEndo\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es, which are actually of type\n \u003ccode\u003e\u003ca\u003eShowS\u003c/a\u003e\u003c/code\u003e. When a StringTemplate is composed of a type, its internals are\n as well, so it is, so to speak \"turtles all the way down.\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "StringTemplate",
           "package": "HStringTemplate",
@@ -93,6 +100,7 @@
         "index": {
           "description": "String with holes in it StringTemplates may be composed of any Stringable type which at the moment includes String ByteString PrettyPrinter Doc and Endo String which are actually of type ShowS When StringTemplate is composed of type its internals are as well so it is so to speak turtles all the way down",
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "StringTemplate",
           "package": "HStringTemplate",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe StringTemplateShows class should be instantiated for all types that are\n directly displayed in a StringTemplate, but take an optional format string. Each such type must have an appropriate ToSElem method defined as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "StringTemplateShows",
           "package": "HStringTemplate",
@@ -116,6 +125,7 @@
         "index": {
           "description": "The StringTemplateShows class should be instantiated for all types that are directly displayed in StringTemplate but take an optional format string Each such type must have an appropriate ToSElem method defined as well",
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "StringTemplateShows",
           "package": "HStringTemplate",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Stringable class should be instantiated with care.\n Generally, the provided instances should be enough for anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "Stringable",
           "package": "HStringTemplate",
@@ -139,6 +150,7 @@
         "index": {
           "description": "The Stringable class should be instantiated with care Generally the provided instances should be enough for anything",
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "Stringable",
           "package": "HStringTemplate",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ToSElem class should be instantiated for all types that can be\n inserted as attributes into a StringTemplate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "ToSElem",
           "package": "HStringTemplate",
@@ -162,6 +175,7 @@
         "index": {
           "description": "The ToSElem class should be instantiated for all types that can be inserted as attributes into StringTemplate",
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "ToSElem",
           "package": "HStringTemplate",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "SEnv",
           "package": "HStringTemplate",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "SEnv",
           "package": "HStringTemplate",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "STMP",
           "package": "HStringTemplate",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "STMP",
           "package": "HStringTemplate",
@@ -273,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "chkSTMP",
           "package": "HStringTemplate",
@@ -282,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "chkSTMP",
           "normalized": "SEnv a-\u003e(Maybe String,Maybe[String],Maybe[String])",
@@ -376,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "inSGen",
           "package": "HStringTemplate",
@@ -385,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "inSGen",
           "normalized": "(STGroup a-\u003eSTGroup a)-\u003eStringTemplate a-\u003eStringTemplate a",
@@ -401,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults to  \u003ccode\u003e mconcatMap m k = foldr (mappend . k) mempty m \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "mconcatMap",
           "package": "HStringTemplate",
@@ -411,6 +434,7 @@
         "index": {
           "description": "Defaults to mconcatMap foldr mappend mempty",
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "mconcatMap",
           "normalized": "[a]-\u003e(a-\u003eb)-\u003eb",
@@ -427,6 +451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults to  \u003ccode\u003e (mconcat .) . intersperse \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "mintercalate",
           "package": "HStringTemplate",
@@ -437,6 +462,7 @@
         "index": {
           "description": "Defaults to mconcat intersperse",
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "mintercalate",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -452,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults to  \u003ccode\u003e  mlabel x y = mconcat [x, stFromString \u003ca\u003e[\u003c/a\u003e, y, stFromString \u003ca\u003e]\u003c/a\u003e] \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "mlabel",
           "package": "HStringTemplate",
@@ -462,6 +489,7 @@
         "index": {
           "description": "Defaults to mlabel mconcat stFromString stFromString",
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "mlabel",
           "normalized": "a-\u003ea-\u003ea",
@@ -557,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "paddedTrans",
           "package": "HStringTemplate",
@@ -566,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "paddedTrans",
           "normalized": "a-\u003e[[a]]-\u003e[[a]]",
@@ -581,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "parseSTMP",
           "package": "HStringTemplate",
@@ -590,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "parseSTMP",
           "normalized": "(Char,Char)-\u003eString-\u003eEither String(SEnv a-\u003ea)",
@@ -606,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets all quasiquoted names, normal names & templates used in a given template.\n Must be passed a pair of chars denoting the delimeters to be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "parseSTMPNames",
           "package": "HStringTemplate",
@@ -616,6 +649,7 @@
         "index": {
           "description": "Gets all quasiquoted names normal names templates used in given template Must be passed pair of chars denoting the delimeters to be used",
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "parseSTMPNames",
           "normalized": "(Char,Char)-\u003eString-\u003eEither ParseError([String],[String],[String])",
@@ -657,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "runSTMP",
           "package": "HStringTemplate",
@@ -666,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "runSTMP",
           "normalized": "Either String(SEnv a-\u003ea)",
@@ -681,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "senc",
           "package": "HStringTemplate",
@@ -690,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "senc",
           "normalized": "a-\u003ea",
@@ -704,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "senv",
           "package": "HStringTemplate",
@@ -713,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "senv",
           "package": "HStringTemplate",
@@ -860,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "sgen",
           "package": "HStringTemplate",
@@ -869,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "sgen",
           "package": "HStringTemplate",
@@ -881,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "smp",
           "package": "HStringTemplate",
@@ -890,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "smp",
           "package": "HStringTemplate",
@@ -902,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "sopts",
           "package": "HStringTemplate",
@@ -911,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "sopts",
           "normalized": "[(String,SEnv a-\u003eSElem a)]",
@@ -925,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "stFromByteString",
           "package": "HStringTemplate",
@@ -934,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "stFromByteString",
           "normalized": "ByteString-\u003ea",
@@ -949,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "stFromString",
           "package": "HStringTemplate",
@@ -958,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "stFromString",
           "normalized": "String-\u003ea",
@@ -973,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "stFromText",
           "package": "HStringTemplate",
@@ -982,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "stFromText",
           "normalized": "Text-\u003ea",
@@ -1024,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "stToString",
           "package": "HStringTemplate",
@@ -1033,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "stToString",
           "normalized": "a-\u003eString",
@@ -1049,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults to  \u003ccode\u003e  _ a -\u003e stringTemplateShow a \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "stringTemplateFormattedShow",
           "package": "HStringTemplate",
@@ -1059,6 +1114,7 @@
         "index": {
           "description": "Defaults to stringTemplateShow",
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "stringTemplateFormattedShow",
           "normalized": "String-\u003ea-\u003eString",
@@ -1075,6 +1131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults to \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "stringTemplateShow",
           "package": "HStringTemplate",
@@ -1085,6 +1142,7 @@
         "index": {
           "description": "Defaults to show",
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "stringTemplateShow",
           "normalized": "a-\u003eString",
@@ -1127,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "toSElem",
           "package": "HStringTemplate",
@@ -1136,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "toSElem",
           "normalized": "a-\u003eSElem b",
@@ -1151,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Base",
           "name": "toSElemList",
           "package": "HStringTemplate",
@@ -1160,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Base",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Base",
           "name": "toSElemList",
           "normalized": "[a]-\u003eSElem b",
@@ -1229,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "Classes",
           "package": "HStringTemplate",
@@ -1237,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "Classes",
           "package": "HStringTemplate",
@@ -1250,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "SElem",
           "package": "HStringTemplate",
@@ -1258,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "SElem",
           "package": "HStringTemplate",
@@ -1271,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "SMap",
           "package": "HStringTemplate",
@@ -1279,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "SMap",
           "package": "HStringTemplate",
@@ -1292,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "STShow",
           "package": "HStringTemplate",
@@ -1300,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "STShow",
           "package": "HStringTemplate",
@@ -1313,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "StFirst",
           "package": "HStringTemplate",
@@ -1321,6 +1392,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "StFirst",
           "package": "HStringTemplate",
@@ -1335,6 +1407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe StringTemplateShows class should be instantiated for all types that are\n directly displayed in a StringTemplate, but take an optional format string. Each such type must have an appropriate ToSElem method defined as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "StringTemplateShows",
           "package": "HStringTemplate",
@@ -1344,6 +1417,7 @@
         "index": {
           "description": "The StringTemplateShows class should be instantiated for all types that are directly displayed in StringTemplate but take an optional format string Each such type must have an appropriate ToSElem method defined as well",
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "StringTemplateShows",
           "package": "HStringTemplate",
@@ -1358,6 +1432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Stringable class should be instantiated with care.\n Generally, the provided instances should be enough for anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "Stringable",
           "package": "HStringTemplate",
@@ -1367,6 +1442,7 @@
         "index": {
           "description": "The Stringable class should be instantiated with care Generally the provided instances should be enough for anything",
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "Stringable",
           "package": "HStringTemplate",
@@ -1381,6 +1457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ToSElem class should be instantiated for all types that can be\n inserted as attributes into a StringTemplate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "ToSElem",
           "package": "HStringTemplate",
@@ -1390,6 +1467,7 @@
         "index": {
           "description": "The ToSElem class should be instantiated for all types that can be inserted as attributes into StringTemplate",
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "ToSElem",
           "package": "HStringTemplate",
@@ -1403,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "BS",
           "package": "HStringTemplate",
@@ -1412,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "BS",
           "package": "HStringTemplate",
@@ -1425,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "LI",
           "package": "HStringTemplate",
@@ -1434,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "LI",
           "normalized": "LI[SElem a]",
@@ -1449,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "SBLE",
           "package": "HStringTemplate",
@@ -1458,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "SBLE",
           "package": "HStringTemplate",
@@ -1471,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "SM",
           "package": "HStringTemplate",
@@ -1480,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "SM",
           "package": "HStringTemplate",
@@ -1493,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "SNAT",
           "package": "HStringTemplate",
@@ -1502,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "SNAT",
           "package": "HStringTemplate",
@@ -1515,6 +1603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "SNull",
           "package": "HStringTemplate",
@@ -1524,6 +1613,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "SNull",
           "package": "HStringTemplate",
@@ -1537,6 +1627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "STR",
           "package": "HStringTemplate",
@@ -1546,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "STR",
           "package": "HStringTemplate",
@@ -1559,6 +1651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "STSH",
           "package": "HStringTemplate",
@@ -1568,6 +1661,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "STSH",
           "package": "HStringTemplate",
@@ -1581,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "STShow",
           "package": "HStringTemplate",
@@ -1590,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "STShow",
           "package": "HStringTemplate",
@@ -1603,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "StFirst",
           "package": "HStringTemplate",
@@ -1612,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "StFirst",
           "package": "HStringTemplate",
@@ -1625,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "TXT",
           "package": "HStringTemplate",
@@ -1634,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "TXT",
           "package": "HStringTemplate",
@@ -1648,6 +1748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults to  \u003ccode\u003e mconcatMap m k = foldr (mappend . k) mempty m \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "mconcatMap",
           "package": "HStringTemplate",
@@ -1658,6 +1759,7 @@
         "index": {
           "description": "Defaults to mconcatMap foldr mappend mempty",
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "mconcatMap",
           "normalized": "[a]-\u003e(a-\u003eb)-\u003eb",
@@ -1674,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults to  \u003ccode\u003e (mconcat .) . intersperse \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "mintercalate",
           "package": "HStringTemplate",
@@ -1684,6 +1787,7 @@
         "index": {
           "description": "Defaults to mconcat intersperse",
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "mintercalate",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -1699,6 +1803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults to  \u003ccode\u003e  mlabel x y = mconcat [x, stFromString \u003ca\u003e[\u003c/a\u003e, y, stFromString \u003ca\u003e]\u003c/a\u003e] \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "mlabel",
           "package": "HStringTemplate",
@@ -1709,6 +1814,7 @@
         "index": {
           "description": "Defaults to mlabel mconcat stFromString stFromString",
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "mlabel",
           "normalized": "a-\u003ea-\u003ea",
@@ -1723,6 +1829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "stFromByteString",
           "package": "HStringTemplate",
@@ -1732,6 +1839,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "stFromByteString",
           "normalized": "ByteString-\u003ea",
@@ -1747,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "stFromString",
           "package": "HStringTemplate",
@@ -1756,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "stFromString",
           "normalized": "String-\u003ea",
@@ -1771,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "stFromText",
           "package": "HStringTemplate",
@@ -1780,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "stFromText",
           "normalized": "Text-\u003ea",
@@ -1795,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "stGetFirst",
           "package": "HStringTemplate",
@@ -1804,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "stGetFirst",
           "package": "HStringTemplate",
@@ -1817,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "stToString",
           "package": "HStringTemplate",
@@ -1826,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "stToString",
           "normalized": "a-\u003eString",
@@ -1842,6 +1958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults to  \u003ccode\u003e  _ a -\u003e stringTemplateShow a \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "stringTemplateFormattedShow",
           "package": "HStringTemplate",
@@ -1852,6 +1969,7 @@
         "index": {
           "description": "Defaults to stringTemplateShow",
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "stringTemplateFormattedShow",
           "normalized": "String-\u003ea-\u003eString",
@@ -1868,6 +1986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults to \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "stringTemplateShow",
           "package": "HStringTemplate",
@@ -1878,6 +1997,7 @@
         "index": {
           "description": "Defaults to show",
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "stringTemplateShow",
           "normalized": "a-\u003eString",
@@ -1893,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "toSElem",
           "package": "HStringTemplate",
@@ -1902,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "toSElem",
           "normalized": "a-\u003eSElem b",
@@ -1917,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.Classes",
           "name": "toSElemList",
           "package": "HStringTemplate",
@@ -1926,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate Classes",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.Classes",
           "name": "toSElemList",
           "normalized": "[a]-\u003eSElem b",
@@ -1942,6 +2066,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric Instance for ToSElem using standard Data.Generic libraries.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.GenericStandard",
           "name": "GenericStandard",
           "package": "HStringTemplate",
@@ -1951,6 +2076,7 @@
         "index": {
           "description": "Generic Instance for ToSElem using standard Data.Generic libraries",
           "hierarchy": "Text StringTemplate GenericStandard",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.GenericStandard",
           "name": "GenericStandard",
           "package": "HStringTemplate",
@@ -1965,6 +2091,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides stmp, a quasi-quoter for StringTemplate expressions.\n Quoted templates are guaranteed syntactically well-formed at compile time,\n and antiquotation (of identifiers only) is provided by backticks.\n Usage: \u003ccode\u003e let var = [0,1,2] in toString [$stmp|($`var`; separator = ', '$)|] === \"(0, 1, 2)\"\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.QQ",
           "name": "QQ",
           "package": "HStringTemplate",
@@ -1974,6 +2101,7 @@
         "index": {
           "description": "This module provides stmp quasi-quoter for StringTemplate expressions Quoted templates are guaranteed syntactically well-formed at compile time and antiquotation of identifiers only is provided by backticks Usage let var in toString stmp var separator",
           "hierarchy": "Text StringTemplate QQ",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.QQ",
           "name": "QQ",
           "package": "HStringTemplate",
@@ -1987,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate.QQ",
           "name": "stmp",
           "package": "HStringTemplate",
@@ -1996,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate QQ",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate.QQ",
           "name": "stmp",
           "package": "HStringTemplate",
@@ -2009,6 +2139,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA StringTemplate is a String with \"holes\" in it.\n This is a port of the Java StringTemplate library written by Terrence Parr.\n (\u003ca\u003ehttp://www.stringtemplate.org\u003c/a\u003e). User-contributed documentation available at\n \u003ca\u003ehttp://www.haskell.org/haskellwiki/HStringTemplate\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThis library implements the basic 3.1 grammar, lacking group files\n (though not groups themselves), Regions, and Interfaces.\n The goal is not to blindly copy the StringTemplate API, but rather to\n take its central ideas and implement them in a Haskellish manner.\n Indentation and wrapping, for example, are implemented through the\n HughesPJ Pretty Printing library. Calling toPPDoc on a StringTemplate\n yields a Doc with appropriate paragraph-fill wrapping that can be\n rendered in the usual fashion.\n\u003c/p\u003e\u003cp\u003eBasic instances are provided of the StringTemplateShows and ToSElem class.\n Any type deriving ToSElem can be passed automatically as a StringTemplate\n attribute. This package can be installed with syb-with-class bindings\n that provide a ToSElem instance for anything deriving\n \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e. When defining an instance of\n ToSElem that can take a format parameter, you should first define an\n instance of StringTemplateShows, and then define an instance of ToSElem\n where \u003ccode\u003e toSElem = stShowsToSE\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "StringTemplate",
           "package": "HStringTemplate",
@@ -2018,6 +2149,7 @@
         "index": {
           "description": "StringTemplate is String with holes in it This is port of the Java StringTemplate library written by Terrence Parr http www.stringtemplate.org User-contributed documentation available at http www.haskell.org haskellwiki HStringTemplate This library implements the basic grammar lacking group files though not groups themselves Regions and Interfaces The goal is not to blindly copy the StringTemplate API but rather to take its central ideas and implement them in Haskellish manner Indentation and wrapping for example are implemented through the HughesPJ Pretty Printing library Calling toPPDoc on StringTemplate yields Doc with appropriate paragraph-fill wrapping that can be rendered in the usual fashion Basic instances are provided of the StringTemplateShows and ToSElem class Any type deriving ToSElem can be passed automatically as StringTemplate attribute This package can be installed with syb-with-class bindings that provide ToSElem instance for anything deriving Data When defining an instance of ToSElem that can take format parameter you should first define an instance of StringTemplateShows and then define an instance of ToSElem where toSElem stShowsToSE",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "StringTemplate",
           "package": "HStringTemplate",
@@ -2031,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "SEType",
           "package": "HStringTemplate",
@@ -2039,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "SEType",
           "package": "HStringTemplate",
@@ -2053,6 +2187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function that generates StringTemplates.\n This is conceptually a query function into a \"group\" of StringTemplates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "STGroup",
           "package": "HStringTemplate",
@@ -2062,6 +2197,7 @@
         "index": {
           "description": "function that generates StringTemplates This is conceptually query function into group of StringTemplates",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "STGroup",
           "package": "HStringTemplate",
@@ -2076,6 +2212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA String with \"holes\" in it. StringTemplates may be composed of any\n \u003ccode\u003e\u003ca\u003eStringable\u003c/a\u003e\u003c/code\u003e type, which at the moment includes \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es, \u003ccode\u003eByteString\u003c/code\u003es,\n PrettyPrinter \u003ccode\u003eDoc\u003c/code\u003es, and \u003ccode\u003e\u003ca\u003eEndo\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es, which are actually of type\n \u003ccode\u003e\u003ca\u003eShowS\u003c/a\u003e\u003c/code\u003e. When a StringTemplate is composed of a type, its internals are\n as well, so it is, so to speak \"turtles all the way down.\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "StringTemplate",
           "package": "HStringTemplate",
@@ -2085,6 +2222,7 @@
         "index": {
           "description": "String with holes in it StringTemplates may be composed of any Stringable type which at the moment includes String ByteString PrettyPrinter Doc and Endo String which are actually of type ShowS When StringTemplate is composed of type its internals are as well so it is so to speak turtles all the way down",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "StringTemplate",
           "package": "HStringTemplate",
@@ -2099,6 +2237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe StringTemplateShows class should be instantiated for all types that are\n directly displayed in a StringTemplate, but take an optional format string. Each such type must have an appropriate ToSElem method defined as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "StringTemplateShows",
           "package": "HStringTemplate",
@@ -2108,6 +2247,7 @@
         "index": {
           "description": "The StringTemplateShows class should be instantiated for all types that are directly displayed in StringTemplate but take an optional format string Each such type must have an appropriate ToSElem method defined as well",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "StringTemplateShows",
           "package": "HStringTemplate",
@@ -2122,6 +2262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Stringable class should be instantiated with care.\n Generally, the provided instances should be enough for anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "Stringable",
           "package": "HStringTemplate",
@@ -2131,6 +2272,7 @@
         "index": {
           "description": "The Stringable class should be instantiated with care Generally the provided instances should be enough for anything",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "Stringable",
           "package": "HStringTemplate",
@@ -2145,6 +2287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ToSElem class should be instantiated for all types that can be\n inserted as attributes into a StringTemplate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "ToSElem",
           "package": "HStringTemplate",
@@ -2154,6 +2297,7 @@
         "index": {
           "description": "The ToSElem class should be instantiated for all types that can be inserted as attributes into StringTemplate",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "ToSElem",
           "package": "HStringTemplate",
@@ -2167,6 +2311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "(|=)",
           "package": "HStringTemplate",
@@ -2176,6 +2321,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "(|=) |=",
           "normalized": "a-\u003eb a-\u003eb(a,a)",
@@ -2191,6 +2337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a \"subgroup\" to any StringTemplate group such that templates from\n the original group now have template calls \"shadowed\" by the subgroup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "addSubGroup",
           "package": "HStringTemplate",
@@ -2201,6 +2348,7 @@
         "index": {
           "description": "Adds subgroup to any StringTemplate group such that templates from the original group now have template calls shadowed by the subgroup",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "addSubGroup",
           "normalized": "STGroup a-\u003eSTGroup a-\u003eSTGroup a",
@@ -2217,6 +2365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a supergroup to any StringTemplate group such that templates from\n the original group are now able to call ones from the supergroup as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "addSuperGroup",
           "package": "HStringTemplate",
@@ -2227,6 +2376,7 @@
         "index": {
           "description": "Adds supergroup to any StringTemplate group such that templates from the original group are now able to call ones from the supergroup as well",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "addSuperGroup",
           "normalized": "STGroup a-\u003eSTGroup a-\u003eSTGroup a",
@@ -2243,6 +2393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a path, returns a group which generates all files in said directory\n which have the proper \"st\" extension.\n This function is strict, with all files read once. As it performs file IO,\n expect it to throw the usual exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "directoryGroup",
           "package": "HStringTemplate",
@@ -2253,6 +2404,7 @@
         "index": {
           "description": "Given path returns group which generates all files in said directory which have the proper st extension This function is strict with all files read once As it performs file IO expect it to throw the usual exceptions",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "directoryGroup",
           "normalized": "FilePath-\u003eIO(STGroup a)",
@@ -2269,6 +2421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a path, returns a group which generates all files in said directory which have the supplied extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "directoryGroupExt",
           "package": "HStringTemplate",
@@ -2279,6 +2432,7 @@
         "index": {
           "description": "Given path returns group which generates all files in said directory which have the supplied extension",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "directoryGroupExt",
           "normalized": "FilePath-\u003eFilePath-\u003eIO(STGroup a)",
@@ -2295,6 +2449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a path, returns a group which generates all files in said directory\n which have the proper \"st\" extension.\n This function is lazy in the same way that readFile is lazy, with all\n files read on demand, but no more than once. The list of files, however,\n is generated at the time the function is called. As this performs file IO,\n expect it to throw the usual exceptions. And, as it is lazy, expect\n these exceptions in unexpected places.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "directoryGroupLazy",
           "package": "HStringTemplate",
@@ -2305,6 +2460,7 @@
         "index": {
           "description": "Given path returns group which generates all files in said directory which have the proper st extension This function is lazy in the same way that readFile is lazy with all files read on demand but no more than once The list of files however is generated at the time the function is called As this performs file IO expect it to throw the usual exceptions And as it is lazy expect these exceptions in unexpected places",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "directoryGroupLazy",
           "normalized": "FilePath-\u003eIO(STGroup a)",
@@ -2321,6 +2477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a path, returns a group which generates all files in said directory which have the supplied extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "directoryGroupLazyExt",
           "package": "HStringTemplate",
@@ -2331,6 +2488,7 @@
         "index": {
           "description": "Given path returns group which generates all files in said directory which have the supplied extension",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "directoryGroupLazyExt",
           "normalized": "FilePath-\u003eFilePath-\u003eIO(STGroup a)",
@@ -2347,6 +2505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs with \u003ccode\u003e\u003ca\u003edirectoryGroup\u003c/a\u003e\u003c/code\u003e, but traverses subdirectories as well. A template named\n \"foo\u003cem\u003ebar.st\\\" may be referenced by \\\"foo\u003c/em\u003ebar\" in the returned group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "directoryGroupRecursive",
           "package": "HStringTemplate",
@@ -2357,6 +2516,7 @@
         "index": {
           "description": "As with directoryGroup but traverses subdirectories as well template named foo bar.st may be referenced by foo bar in the returned group",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "directoryGroupRecursive",
           "normalized": "FilePath-\u003eIO(STGroup a)",
@@ -2373,6 +2533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs with \u003ccode\u003e\u003ca\u003edirectoryGroupRecursive\u003c/a\u003e\u003c/code\u003e, but a template extension is supplied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "directoryGroupRecursiveExt",
           "package": "HStringTemplate",
@@ -2383,6 +2544,7 @@
         "index": {
           "description": "As with directoryGroupRecursive but template extension is supplied",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "directoryGroupRecursiveExt",
           "normalized": "FilePath-\u003eFilePath-\u003eIO(STGroup a)",
@@ -2399,6 +2561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee documentation for \u003ccode\u003e\u003ca\u003edirectoryGroupRecursive\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "directoryGroupRecursiveLazy",
           "package": "HStringTemplate",
@@ -2409,6 +2572,7 @@
         "index": {
           "description": "See documentation for directoryGroupRecursive",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "directoryGroupRecursiveLazy",
           "normalized": "FilePath-\u003eIO(STGroup a)",
@@ -2425,6 +2589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs with \u003ccode\u003e\u003ca\u003edirectoryGroupRecursiveLazy\u003c/a\u003e\u003c/code\u003e, but a template extension is supplied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "directoryGroupRecursiveLazyExt",
           "package": "HStringTemplate",
@@ -2435,6 +2600,7 @@
         "index": {
           "description": "As with directoryGroupRecursiveLazy but template extension is supplied",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "directoryGroupRecursiveLazyExt",
           "normalized": "FilePath-\u003eFilePath-\u003eIO(STGroup a)",
@@ -2451,6 +2617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of named of StringTemplates, returns a group which generates\n them such that they can call one another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "groupStringTemplates",
           "package": "HStringTemplate",
@@ -2461,6 +2628,7 @@
         "index": {
           "description": "Given list of named of StringTemplates returns group which generates them such that they can call one another",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "groupStringTemplates",
           "normalized": "[(String,StringTemplate a)]-\u003eSTGroup a",
@@ -2477,6 +2645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults to  \u003ccode\u003e mconcatMap m k = foldr (mappend . k) mempty m \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "mconcatMap",
           "package": "HStringTemplate",
@@ -2487,6 +2656,7 @@
         "index": {
           "description": "Defaults to mconcatMap foldr mappend mempty",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "mconcatMap",
           "normalized": "[a]-\u003e(a-\u003eb)-\u003eb",
@@ -2503,6 +2673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerges two groups into a single group. This function is left-biased,\n prefering bindings from the first group when there is a conflict.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "mergeSTGroups",
           "package": "HStringTemplate",
@@ -2513,6 +2684,7 @@
         "index": {
           "description": "Merges two groups into single group This function is left-biased prefering bindings from the first group when there is conflict",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "mergeSTGroups",
           "normalized": "STGroup a-\u003eSTGroup a-\u003eSTGroup a",
@@ -2529,6 +2701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults to  \u003ccode\u003e (mconcat .) . intersperse \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "mintercalate",
           "package": "HStringTemplate",
@@ -2539,6 +2712,7 @@
         "index": {
           "description": "Defaults to mconcat intersperse",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "mintercalate",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -2554,6 +2728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults to  \u003ccode\u003e  mlabel x y = mconcat [x, stFromString \u003ca\u003e[\u003c/a\u003e, y, stFromString \u003ca\u003e]\u003c/a\u003e] \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "mlabel",
           "package": "HStringTemplate",
@@ -2564,6 +2739,7 @@
         "index": {
           "description": "Defaults to mlabel mconcat stFromString stFromString",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "mlabel",
           "normalized": "a-\u003ea-\u003ea",
@@ -2579,6 +2755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor any requested template, returns a message that the template was\n unable to be found. Useful to add as a super group for a set of templates\n under development, to aid in debugging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "nullGroup",
           "package": "HStringTemplate",
@@ -2589,6 +2766,7 @@
         "index": {
           "description": "For any requested template returns message that the template was unable to be found Useful to add as super group for set of templates under development to aid in debugging",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "nullGroup",
           "package": "HStringTemplate",
@@ -2603,6 +2781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a set of global options to a group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "optInsertGroup",
           "package": "HStringTemplate",
@@ -2613,6 +2792,7 @@
         "index": {
           "description": "Adds set of global options to group",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "optInsertGroup",
           "normalized": "[(String,String)]-\u003eSTGroup a-\u003eSTGroup a",
@@ -2628,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "renderf",
           "package": "HStringTemplate",
@@ -2637,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "renderf",
           "normalized": "StringTemplate a-\u003eb",
@@ -2652,6 +2834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets an encoding function of a group that all values are\n rendered with in each enclosed template\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "setEncoderGroup",
           "package": "HStringTemplate",
@@ -2662,6 +2845,7 @@
         "index": {
           "description": "Sets an encoding function of group that all values are rendered with in each enclosed template",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "setEncoderGroup",
           "normalized": "(a-\u003ea)-\u003eSTGroup a-\u003eSTGroup a",
@@ -2677,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "stFromByteString",
           "package": "HStringTemplate",
@@ -2686,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "stFromByteString",
           "normalized": "ByteString-\u003ea",
@@ -2701,6 +2887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "stFromString",
           "package": "HStringTemplate",
@@ -2710,6 +2897,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "stFromString",
           "normalized": "String-\u003ea",
@@ -2725,6 +2913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "stFromText",
           "package": "HStringTemplate",
@@ -2734,6 +2923,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "stFromText",
           "normalized": "Text-\u003ea",
@@ -2749,6 +2939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "stToString",
           "package": "HStringTemplate",
@@ -2758,6 +2949,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "stToString",
           "normalized": "a-\u003eString",
@@ -2774,6 +2966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults to  \u003ccode\u003e  _ a -\u003e stringTemplateShow a \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "stringTemplateFormattedShow",
           "package": "HStringTemplate",
@@ -2784,6 +2977,7 @@
         "index": {
           "description": "Defaults to stringTemplateShow",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "stringTemplateFormattedShow",
           "normalized": "String-\u003ea-\u003eString",
@@ -2800,6 +2994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults to \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "stringTemplateShow",
           "package": "HStringTemplate",
@@ -2810,6 +3005,7 @@
         "index": {
           "description": "Defaults to show",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "stringTemplateShow",
           "normalized": "a-\u003eString",
@@ -2825,6 +3021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "toSElem",
           "package": "HStringTemplate",
@@ -2834,6 +3031,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "toSElem",
           "normalized": "a-\u003eSElem b",
@@ -2849,6 +3047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "toSElemList",
           "package": "HStringTemplate",
@@ -2858,6 +3057,7 @@
         },
         "index": {
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "toSElemList",
           "normalized": "[a]-\u003eSElem b",
@@ -2874,6 +3074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an integral amount of seconds and a path, returns a group generating\n all files in said directory and subdirectories with the proper \"st\" extension,\n cached for that amount of seconds. IO errors are \"swallowed\" by this so\n that exceptions don't arise in unexpected places.\n This violates referential transparency, but can be very useful in developing\n templates for any sort of server application. It should be swapped out for\n production purposes. The dumpAttribs template is added to the returned group\n by default, as it should prove useful for debugging and developing templates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:38 UTC 2014",
           "module": "Text.StringTemplate",
           "name": "unsafeVolatileDirectoryGroup",
           "package": "HStringTemplate",
@@ -2884,6 +3085,7 @@
         "index": {
           "description": "Given an integral amount of seconds and path returns group generating all files in said directory and subdirectories with the proper st extension cached for that amount of seconds IO errors are swallowed by this so that exceptions don arise in unexpected places This violates referential transparency but can be very useful in developing templates for any sort of server application It should be swapped out for production purposes The dumpAttribs template is added to the returned group by default as it should prove useful for debugging and developing templates",
           "hierarchy": "Text StringTemplate",
+          "indexed": "2014-03-11T16:46:38",
           "module": "Text.StringTemplate",
           "name": "unsafeVolatileDirectoryGroup",
           "normalized": "FilePath-\u003eInt-\u003eIO(STGroup a)",

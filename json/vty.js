@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vty"
+        "phrase": "vty",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Codec.Binary.UTF8.Width",
           "name": "Width",
           "package": "vty",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Width",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Codec.Binary.UTF8.Width",
           "name": "Width",
           "package": "vty",
@@ -88,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDisplay attributes\n\u003c/p\u003e\u003cp\u003eFor efficiency, this could be encoded into a single 32 bit word. The 32 bit word is first divided\n into 4 groups of 8 bits where: The first group codes what action should be taken with regards to\n the other groups.\n      XXYYZZ__\n      XX - style action\n          00 =\u003e reset to default\n          01 =\u003e unchanged\n          10 =\u003e set\n      YY - foreground color action\n          00 =\u003e reset to default\n          01 =\u003e unchanged\n          10 =\u003e set\n      ZZ - background color action\n          00 =\u003e reset to default\n          01 =\u003e unchanged\n          10 =\u003e set\n      __ - unused\n\u003c/p\u003e\u003cp\u003eNext is the style flags\n      SURBDO__\n      S - standout\n      U - underline\n      R - reverse video\n      B - blink\n      D - dim\n      O - bold\n      __ - unused\n\u003c/p\u003e\u003cp\u003eThen the foreground color encoded into 8 bits.\n  Then the background color encoded into 8 bits.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "Attributes",
           "package": "vty",
@@ -97,6 +100,7 @@
         "index": {
           "description": "Display attributes For efficiency this could be encoded into single bit word The bit word is first divided into groups of bits where The first group codes what action should be taken with regards to the other groups XXYYZZ XX style action reset to default unchanged set YY foreground color action reset to default unchanged set ZZ background color action reset to default unchanged set unused Next is the style flags SURBDO standout underline reverse video blink dim bold unused Then the foreground color encoded into bits Then the background color encoded into bits",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "Attributes",
           "package": "vty",
@@ -111,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA display attribute defines the Color and Style of all the characters rendered after the\n attribute is applied.\n\u003c/p\u003e\u003cp\u003eAt most 256 colors, picked from a 240 and 16 color palette, are possible for the background and\n  foreground. The 240 colors and 16 colors are points in different palettes. See Color for more\n  information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "Attr",
           "package": "vty",
@@ -120,6 +125,7 @@
         "index": {
           "description": "display attribute defines the Color and Style of all the characters rendered after the attribute is applied At most colors picked from and color palette are possible for the background and foreground The colors and colors are points in different palettes See Color for more information",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "Attr",
           "package": "vty",
@@ -134,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data type representing a color.\n\u003c/p\u003e\u003cp\u003eCurrently the foreground and background color are specified as points in either a:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 16 color palette. Where the first 8 colors are equal to the 8 colors of the ISO 6429 (ANSI) 8\n  color palette and the second 8 colors are bright/vivid versions of the first 8 colors.\n\u003c/li\u003e\u003cli\u003e 240 color palette. This palette is a regular sampling of the full RGB colorspace. \n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe 8 ISO 6429 (ANSI) colors are as follows:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e black\n\u003c/li\u003e\u003cli\u003e red\n\u003c/li\u003e\u003cli\u003e green\n\u003c/li\u003e\u003cli\u003e yellow\n\u003c/li\u003e\u003cli\u003e blue\n\u003c/li\u003e\u003cli\u003e magenta\n\u003c/li\u003e\u003cli\u003e cyan\n\u003c/li\u003e\u003cli\u003e white\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eThe mapping from points in the 240 color palette to colors actually displayable by the terminal\n depends on the number of colors the terminal claims to support. Which is usually determined by\n the terminfo \u003ca\u003ecolors\u003c/a\u003e property. If this property is not being accurately reported then the color\n reproduction will be incorrect.\n\u003c/p\u003e\u003cp\u003eIf the terminal reports \u003c= 16 colors then the 240 color palette points are only mapped to the 8\n color pallete. I'm not sure of the RGB points for the \u003ca\u003ebright\u003c/a\u003e colors which is why they are not\n addressable via the 240 color palette. \n\u003c/p\u003e\u003cp\u003eIf the terminal reports \u003e 16 colors then the 240 color palette points are mapped to the nearest\n points in a (\u003ca\u003ecolor count\u003c/a\u003e - 16) subsampling of the 240 color palette.\n\u003c/p\u003e\u003cp\u003eAll of this assumes the terminals are behaving similarly to xterm and rxvt when handling colors.\n And that the individual colors have not been remapped by the user. There may be a way to verify\n this through terminfo but I don't know it.\n\u003c/p\u003e\u003cp\u003eSeriously, terminal color support is INSANE.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "Color",
           "package": "vty",
@@ -143,6 +150,7 @@
         "index": {
           "description": "Abstract data type representing color Currently the foreground and background color are specified as points in either color palette Where the first colors are equal to the colors of the ISO ANSI color palette and the second colors are bright vivid versions of the first colors color palette This palette is regular sampling of the full RGB colorspace The ISO ANSI colors are as follows black red green yellow blue magenta cyan white The mapping from points in the color palette to colors actually displayable by the terminal depends on the number of colors the terminal claims to support Which is usually determined by the terminfo colors property If this property is not being accurately reported then the color reproduction will be incorrect If the terminal reports colors then the color palette points are only mapped to the color pallete not sure of the RGB points for the bright colors which is why they are not addressable via the color palette If the terminal reports colors then the color palette points are mapped to the nearest points in color count subsampling of the color palette All of this assumes the terminals are behaving similarly to xterm and rxvt when handling colors And that the individual colors have not been remapped by the user There may be way to verify this through terminfo but don know it Seriously terminal color support is INSANE",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "Color",
           "package": "vty",
@@ -157,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the display attributes such that the final style and color values do not depend on\n the previously applied display attribute. The display attributes can still depend on the\n terminal's default colors (unfortunately).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "FixedAttr",
           "package": "vty",
@@ -166,6 +175,7 @@
         "index": {
           "description": "Specifies the display attributes such that the final style and color values do not depend on the previously applied display attribute The display attributes can still depend on the terminal default colors unfortunately",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "FixedAttr",
           "package": "vty",
@@ -180,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe style and color attributes can either be the terminal defaults. Or be equivalent to the\n previously applied style. Or be a specific value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "MaybeDefault",
           "package": "vty",
@@ -189,6 +200,7 @@
         "index": {
           "description": "The style and color attributes can either be the terminal defaults Or be equivalent to the previously applied style Or be specific value",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "MaybeDefault",
           "package": "vty",
@@ -203,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyles are represented as an 8 bit word. Each bit in the word is 1 if the style attribute\n assigned to that bit should be applied and 0 if the style attribute should not be applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "Style",
           "package": "vty",
@@ -212,6 +225,7 @@
         "index": {
           "description": "Styles are represented as an bit word Each bit in the word is if the style attribute assigned to that bit should be applied and if the style attribute should not be applied",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "Style",
           "package": "vty",
@@ -225,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "Attr",
           "package": "vty",
@@ -234,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "Attr",
           "package": "vty",
@@ -247,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "Color240",
           "package": "vty",
@@ -256,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "Color240",
           "package": "vty",
@@ -269,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "Default",
           "package": "vty",
@@ -278,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "Default",
           "package": "vty",
@@ -291,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "FixedAttr",
           "package": "vty",
@@ -300,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "FixedAttr",
           "package": "vty",
@@ -313,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "ISOColor",
           "package": "vty",
@@ -322,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "ISOColor",
           "package": "vty",
@@ -335,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "KeepCurrent",
           "package": "vty",
@@ -344,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "KeepCurrent",
           "package": "vty",
@@ -357,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "SetTo",
           "package": "vty",
@@ -366,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "SetTo",
           "normalized": "a-\u003eMaybeDefault a",
@@ -381,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "attr_back_color",
           "package": "vty",
@@ -390,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "attr_back_color",
           "package": "vty",
@@ -402,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "attr_fore_color",
           "package": "vty",
@@ -411,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "attr_fore_color",
           "package": "vty",
@@ -423,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "attr_style",
           "package": "vty",
@@ -432,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "attr_style",
           "package": "vty",
@@ -445,6 +479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard 8-color ANSI terminal color codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "black",
           "package": "vty",
@@ -455,6 +490,7 @@
         "index": {
           "description": "Standard color ANSI terminal color codes",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "black",
           "package": "vty",
@@ -468,6 +504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe 6 possible style attributes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e standout\n\u003c/li\u003e\u003cli\u003e underline\n\u003c/li\u003e\u003cli\u003e reverse_video\n\u003c/li\u003e\u003cli\u003e blink\n\u003c/li\u003e\u003cli\u003e dim\n\u003c/li\u003e\u003cli\u003e bold/bright\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e( The invisible, protect, and altcharset display attributes some terminals support are not\n  supported via VTY.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "blink",
           "package": "vty",
@@ -478,6 +515,7 @@
         "index": {
           "description": "The possible style attributes standout underline reverse video blink dim bold bright The invisible protect and altcharset display attributes some terminals support are not supported via VTY",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "blink",
           "package": "vty",
@@ -491,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard 8-color ANSI terminal color codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "blue",
           "package": "vty",
@@ -501,6 +540,7 @@
         "index": {
           "description": "Standard color ANSI terminal color codes",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "blue",
           "package": "vty",
@@ -514,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe 6 possible style attributes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e standout\n\u003c/li\u003e\u003cli\u003e underline\n\u003c/li\u003e\u003cli\u003e reverse_video\n\u003c/li\u003e\u003cli\u003e blink\n\u003c/li\u003e\u003cli\u003e dim\n\u003c/li\u003e\u003cli\u003e bold/bright\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e( The invisible, protect, and altcharset display attributes some terminals support are not\n  supported via VTY.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "bold",
           "package": "vty",
@@ -524,6 +565,7 @@
         "index": {
           "description": "The possible style attributes standout underline reverse video blink dim bold bright The invisible protect and altcharset display attributes some terminals support are not supported via VTY",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "bold",
           "package": "vty",
@@ -537,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBright/Vivid variants of the standard 8-color ANSI \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "bright_black",
           "package": "vty",
@@ -547,6 +590,7 @@
         "index": {
           "description": "Bright Vivid variants of the standard color ANSI",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "bright_black",
           "package": "vty",
@@ -559,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "bright_blue",
           "package": "vty",
@@ -568,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "bright_blue",
           "package": "vty",
@@ -580,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "bright_cyan",
           "package": "vty",
@@ -589,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "bright_cyan",
           "package": "vty",
@@ -602,6 +650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBright/Vivid variants of the standard 8-color ANSI \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "bright_green",
           "package": "vty",
@@ -612,6 +661,7 @@
         "index": {
           "description": "Bright Vivid variants of the standard color ANSI",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "bright_green",
           "package": "vty",
@@ -624,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "bright_magenta",
           "package": "vty",
@@ -633,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "bright_magenta",
           "package": "vty",
@@ -646,6 +698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBright/Vivid variants of the standard 8-color ANSI \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "bright_red",
           "package": "vty",
@@ -656,6 +709,7 @@
         "index": {
           "description": "Bright Vivid variants of the standard color ANSI",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "bright_red",
           "package": "vty",
@@ -668,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "bright_white",
           "package": "vty",
@@ -677,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "bright_white",
           "package": "vty",
@@ -690,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBright/Vivid variants of the standard 8-color ANSI \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "bright_yellow",
           "package": "vty",
@@ -700,6 +757,7 @@
         "index": {
           "description": "Bright Vivid variants of the standard color ANSI",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "bright_yellow",
           "package": "vty",
@@ -713,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeeps the style, background color and foreground color that was previously set. Used to\n override some part of the previous style.\n\u003c/p\u003e\u003cp\u003eEG: current_style \u003ccode\u003e\u003ca\u003ewith_fore_color\u003c/a\u003e\u003c/code\u003e bright_magenta\n\u003c/p\u003e\u003cp\u003eWould be the currently applied style (be it underline, bold, etc) but with the foreground color\n set to bright_magenta.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "current_attr",
           "package": "vty",
@@ -723,6 +782,7 @@
         "index": {
           "description": "Keeps the style background color and foreground color that was previously set Used to override some part of the previous style EG current style with fore color bright magenta Would be the currently applied style be it underline bold etc but with the foreground color set to bright magenta",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "current_attr",
           "package": "vty",
@@ -736,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard 8-color ANSI terminal color codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "cyan",
           "package": "vty",
@@ -746,6 +807,7 @@
         "index": {
           "description": "Standard color ANSI terminal color codes",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "cyan",
           "package": "vty",
@@ -759,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the style, background color and foreground color to the default values for the terminal.\n There is no easy way to determine what the default background and foreground colors are.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "def_attr",
           "package": "vty",
@@ -769,6 +832,7 @@
         "index": {
           "description": "Sets the style background color and foreground color to the default values for the terminal There is no easy way to determine what the default background and foreground colors are",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "def_attr",
           "package": "vty",
@@ -781,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "default_style_mask",
           "package": "vty",
@@ -790,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "default_style_mask",
           "package": "vty",
@@ -803,6 +869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe 6 possible style attributes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e standout\n\u003c/li\u003e\u003cli\u003e underline\n\u003c/li\u003e\u003cli\u003e reverse_video\n\u003c/li\u003e\u003cli\u003e blink\n\u003c/li\u003e\u003cli\u003e dim\n\u003c/li\u003e\u003cli\u003e bold/bright\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e( The invisible, protect, and altcharset display attributes some terminals support are not\n  supported via VTY.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "dim",
           "package": "vty",
@@ -813,6 +880,7 @@
         "index": {
           "description": "The possible style attributes standout underline reverse video blink dim bold bright The invisible protect and altcharset display attributes some terminals support are not supported via VTY",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "dim",
           "package": "vty",
@@ -825,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "fixed_back_color",
           "package": "vty",
@@ -834,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "fixed_back_color",
           "package": "vty",
@@ -846,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "fixed_fore_color",
           "package": "vty",
@@ -855,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "fixed_fore_color",
           "package": "vty",
@@ -867,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "fixed_style",
           "package": "vty",
@@ -876,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "fixed_style",
           "package": "vty",
@@ -889,6 +963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard 8-color ANSI terminal color codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "green",
           "package": "vty",
@@ -899,6 +974,7 @@
         "index": {
           "description": "Standard color ANSI terminal color codes",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "green",
           "package": "vty",
@@ -912,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etrue if the given Style value has the specified Style set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "has_style",
           "package": "vty",
@@ -922,6 +999,7 @@
         "index": {
           "description": "true if the given Style value has the specified Style set",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "has_style",
           "normalized": "Style-\u003eStyle-\u003eBool",
@@ -937,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard 8-color ANSI terminal color codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "magenta",
           "package": "vty",
@@ -947,6 +1026,7 @@
         "index": {
           "description": "Standard color ANSI terminal color codes",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "magenta",
           "package": "vty",
@@ -960,6 +1040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard 8-color ANSI terminal color codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "red",
           "package": "vty",
@@ -970,6 +1051,7 @@
         "index": {
           "description": "Standard color ANSI terminal color codes",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "red",
           "package": "vty",
@@ -983,6 +1065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe 6 possible style attributes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e standout\n\u003c/li\u003e\u003cli\u003e underline\n\u003c/li\u003e\u003cli\u003e reverse_video\n\u003c/li\u003e\u003cli\u003e blink\n\u003c/li\u003e\u003cli\u003e dim\n\u003c/li\u003e\u003cli\u003e bold/bright\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e( The invisible, protect, and altcharset display attributes some terminals support are not\n  supported via VTY.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "reverse_video",
           "package": "vty",
@@ -993,6 +1076,7 @@
         "index": {
           "description": "The possible style attributes standout underline reverse video blink dim bold bright The invisible protect and altcharset display attributes some terminals support are not supported via VTY",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "reverse_video",
           "package": "vty",
@@ -1006,6 +1090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe 6 possible style attributes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e standout\n\u003c/li\u003e\u003cli\u003e underline\n\u003c/li\u003e\u003cli\u003e reverse_video\n\u003c/li\u003e\u003cli\u003e blink\n\u003c/li\u003e\u003cli\u003e dim\n\u003c/li\u003e\u003cli\u003e bold/bright\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e( The invisible, protect, and altcharset display attributes some terminals support are not\n  supported via VTY.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "standout",
           "package": "vty",
@@ -1016,6 +1101,7 @@
         "index": {
           "description": "The possible style attributes standout underline reverse video blink dim bold bright The invisible protect and altcharset display attributes some terminals support are not supported via VTY",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "standout",
           "package": "vty",
@@ -1028,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "style_mask",
           "package": "vty",
@@ -1037,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "style_mask",
           "normalized": "Attr-\u003eWord",
@@ -1052,6 +1140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe 6 possible style attributes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e standout\n\u003c/li\u003e\u003cli\u003e underline\n\u003c/li\u003e\u003cli\u003e reverse_video\n\u003c/li\u003e\u003cli\u003e blink\n\u003c/li\u003e\u003cli\u003e dim\n\u003c/li\u003e\u003cli\u003e bold/bright\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e( The invisible, protect, and altcharset display attributes some terminals support are not\n  supported via VTY.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "underline",
           "package": "vty",
@@ -1062,6 +1151,7 @@
         "index": {
           "description": "The possible style attributes standout underline reverse video blink dim bold bright The invisible protect and altcharset display attributes some terminals support are not supported via VTY",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "underline",
           "package": "vty",
@@ -1075,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard 8-color ANSI terminal color codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "white",
           "package": "vty",
@@ -1085,6 +1176,7 @@
         "index": {
           "description": "Standard color ANSI terminal color codes",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "white",
           "package": "vty",
@@ -1098,6 +1190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the background color of an \u003ccode\u003e\u003ca\u003eAttr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "with_back_color",
           "package": "vty",
@@ -1108,6 +1201,7 @@
         "index": {
           "description": "Set the background color of an Attr",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "with_back_color",
           "normalized": "Attr-\u003eColor-\u003eAttr",
@@ -1123,6 +1217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the foreground color of an \u003ccode\u003e\u003ca\u003eAttr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "with_fore_color",
           "package": "vty",
@@ -1133,6 +1228,7 @@
         "index": {
           "description": "Set the foreground color of an Attr",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "with_fore_color",
           "normalized": "Attr-\u003eColor-\u003eAttr",
@@ -1148,6 +1244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the given style attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "with_style",
           "package": "vty",
@@ -1158,6 +1255,7 @@
         "index": {
           "description": "Add the given style attribute",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "with_style",
           "normalized": "Attr-\u003eStyle-\u003eAttr",
@@ -1173,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard 8-color ANSI terminal color codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Attributes",
           "name": "yellow",
           "package": "vty",
@@ -1183,6 +1282,7 @@
         "index": {
           "description": "Standard color ANSI terminal color codes",
           "hierarchy": "Graphics Vty Attributes",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Attributes",
           "name": "yellow",
           "package": "vty",
@@ -1195,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.DisplayRegion",
           "name": "DisplayRegion",
           "package": "vty",
@@ -1203,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty DisplayRegion",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.DisplayRegion",
           "name": "DisplayRegion",
           "package": "vty",
@@ -1217,6 +1319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegion of the terminal that vty will output to. Units are columns not characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.DisplayRegion",
           "name": "DisplayRegion",
           "package": "vty",
@@ -1226,6 +1329,7 @@
         "index": {
           "description": "Region of the terminal that vty will output to Units are columns not characters",
           "hierarchy": "Graphics Vty DisplayRegion",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.DisplayRegion",
           "name": "DisplayRegion",
           "package": "vty",
@@ -1239,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.DisplayRegion",
           "name": "DisplayRegion",
           "package": "vty",
@@ -1248,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty DisplayRegion",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.DisplayRegion",
           "name": "DisplayRegion",
           "package": "vty",
@@ -1261,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.DisplayRegion",
           "name": "region_height",
           "package": "vty",
@@ -1270,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty DisplayRegion",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.DisplayRegion",
           "name": "region_height",
           "package": "vty",
@@ -1282,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.DisplayRegion",
           "name": "region_width",
           "package": "vty",
@@ -1291,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty DisplayRegion",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.DisplayRegion",
           "name": "region_width",
           "package": "vty",
@@ -1303,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "Image",
           "package": "vty",
@@ -1311,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "Image",
           "package": "vty",
@@ -1325,6 +1437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe pair each character with it's display length. This way we only compute the length once per\n character.\n * Though currently the width of some strings is still compute multiple times. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "DisplayString",
           "package": "vty",
@@ -1334,6 +1447,7 @@
         "index": {
           "description": "We pair each character with it display length This way we only compute the length once per character Though currently the width of some strings is still compute multiple times",
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "DisplayString",
           "package": "vty",
@@ -1348,6 +1462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn image in VTY defines:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e properties required to display the image. These are properties that effect the output image\n    but are independent of position \n\u003c/li\u003e\u003cli\u003e A set of position-dependent text and attribute regions. The possible regions are:\n\u003c/li\u003e\u003cli\u003e a point. ( char )\n\u003c/li\u003e\u003cli\u003e a horizontal line of characters with a single attribute. (string, utf8_string,\n      utf8_bytestring )\n\u003c/li\u003e\u003cli\u003e a fill of a single character. (char_fill)\n\u003c/li\u003e\u003cli\u003e a fill of the picture's background. (background_fill)\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003etodo: increase the number of encoded bytestring formats supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "Image",
           "package": "vty",
@@ -1357,6 +1472,7 @@
         "index": {
           "description": "An image in VTY defines properties required to display the image These are properties that effect the output image but are independent of position set of position-dependent text and attribute regions The possible regions are point char horizontal line of characters with single attribute string utf8 string utf8 bytestring fill of single character char fill fill of the picture background background fill todo increase the number of encoded bytestring formats supported",
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "Image",
           "package": "vty",
@@ -1422,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "BGFill",
           "package": "vty",
@@ -1431,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "BGFill",
           "package": "vty",
@@ -1444,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "EmptyImage",
           "package": "vty",
@@ -1453,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "EmptyImage",
           "package": "vty",
@@ -1466,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "HorizJoin",
           "package": "vty",
@@ -1475,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "HorizJoin",
           "package": "vty",
@@ -1488,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "HorizText",
           "package": "vty",
@@ -1497,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "HorizText",
           "package": "vty",
@@ -1510,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "ImageCrop",
           "package": "vty",
@@ -1519,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "ImageCrop",
           "normalized": "ImageCrop(Word,Word)Image",
@@ -1534,6 +1660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "ImagePad",
           "package": "vty",
@@ -1543,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "ImagePad",
           "normalized": "ImagePad(Word,Word)Image",
@@ -1558,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "Translation",
           "package": "vty",
@@ -1567,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "Translation",
           "normalized": "Translation(Int,Int)Image",
@@ -1582,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "VertJoin",
           "package": "vty",
@@ -1591,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "VertJoin",
           "package": "vty",
@@ -1604,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "attr",
           "package": "vty",
@@ -1613,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "attr",
           "package": "vty",
@@ -1703,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "char_width",
           "package": "vty",
@@ -1712,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "char_width",
           "package": "vty",
@@ -1878,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "output_height",
           "package": "vty",
@@ -1887,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "output_height",
           "package": "vty",
@@ -1899,6 +2037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "output_width",
           "package": "vty",
@@ -1908,6 +2047,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "output_width",
           "package": "vty",
@@ -1946,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "part_bottom",
           "package": "vty",
@@ -1955,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "part_bottom",
           "package": "vty",
@@ -1967,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "part_left",
           "package": "vty",
@@ -1976,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "part_left",
           "package": "vty",
@@ -1988,6 +2132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "part_right",
           "package": "vty",
@@ -1997,6 +2142,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "part_right",
           "package": "vty",
@@ -2009,6 +2155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "part_top",
           "package": "vty",
@@ -2018,6 +2165,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "part_top",
           "package": "vty",
@@ -2031,6 +2179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the display width of a string. Assumes all characters with unknown widths are 1 width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "safe_wcswidth",
           "package": "vty",
@@ -2041,6 +2190,7 @@
         "index": {
           "description": "Returns the display width of string Assumes all characters with unknown widths are width",
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "safe_wcswidth",
           "normalized": "String-\u003eWord",
@@ -2056,6 +2206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the display width of a character. Assumes all characters with unknown widths are 1 width\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "safe_wcwidth",
           "package": "vty",
@@ -2066,6 +2217,7 @@
         "index": {
           "description": "Returns the display width of character Assumes all characters with unknown widths are width",
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "safe_wcwidth",
           "normalized": "Char-\u003eWord",
@@ -2106,6 +2258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Image",
           "name": "text",
           "package": "vty",
@@ -2115,6 +2268,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Image",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Image",
           "name": "text",
           "package": "vty",
@@ -2232,6 +2386,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe inline module provides a limited interface to changing the style of terminal output. The\n intention is for this interface to be used inline with other output systems. \n\u003c/p\u003e\u003cp\u003eThe changes specified by the InlineM monad are applied to the terminals display attributes. These\n display attributes effect the display of all following text output to the terminal file\n descriptor.\n\u003c/p\u003e\u003cp\u003eFor example, in an IO monad the following code with print the text \"Not styled. \" Followed by the\n text \" Styled! \" drawn over a red background and underlined.\n\u003c/p\u003e\u003cpre\u003e\n      t \u003c- terminal_handle\n      putStr \"Not styled. \"\n      put_attr_change t $ do\n          back_color red \n          apply_style underline\n      putStr \" Styled! \"\n      put_attr_change t $ default_all\n      putStrLn \"Not styled.\"\n      release_terminal t\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eput_attr_change\u003c/a\u003e\u003c/code\u003e outputs the control codes to the terminal device \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e. This is a duplicate\n of the \u003ccode\u003e\u003ca\u003estdout\u003c/a\u003e\u003c/code\u003e handle when the \u003ccode\u003eterminal_handle\u003c/code\u003e was (first) acquired. If \u003ccode\u003e\u003ca\u003estdout\u003c/a\u003e\u003c/code\u003e has since been\n changed then \u003ccode\u003e\u003ca\u003eputStr\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eputStrLn\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eprint\u003c/a\u003e\u003c/code\u003e etc.. will output to a different \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e than\n \u003ccode\u003e\u003ca\u003eput_attr_change\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCopyright 2009-2010 Corey O'Connor\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Inline",
           "name": "Inline",
           "package": "vty",
@@ -2241,6 +2396,7 @@
         "index": {
           "description": "The inline module provides limited interface to changing the style of terminal output The intention is for this interface to be used inline with other output systems The changes specified by the InlineM monad are applied to the terminals display attributes These display attributes effect the display of all following text output to the terminal file descriptor For example in an IO monad the following code with print the text Not styled Followed by the text Styled drawn over red background and underlined terminal handle putStr Not styled put attr change do back color red apply style underline putStr Styled put attr change default all putStrLn Not styled release terminal put attr change outputs the control codes to the terminal device Handle This is duplicate of the stdout handle when the terminal handle was first acquired If stdout has since been changed then putStr putStrLn print etc will output to different Handle than put attr change Copyright Corey Connor",
           "hierarchy": "Graphics Vty Inline",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Inline",
           "name": "Inline",
           "package": "vty",
@@ -2254,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Inline",
           "name": "InlineM",
           "package": "vty",
@@ -2262,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Inline",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Inline",
           "name": "InlineM",
           "package": "vty",
@@ -2276,6 +2434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to change the \u003ccode\u003e\u003ca\u003eStyle\u003c/a\u003e\u003c/code\u003e of the following text.\n\u003c/p\u003e\u003cp\u003eIf the terminal does not support the style change no error is produced. The style can still be\n removed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Inline",
           "name": "apply_style",
           "package": "vty",
@@ -2286,6 +2445,7 @@
         "index": {
           "description": "Attempt to change the Style of the following text If the terminal does not support the style change no error is produced The style can still be removed",
           "hierarchy": "Graphics Vty Inline",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Inline",
           "name": "apply_style",
           "normalized": "Style-\u003eInlineM()",
@@ -2301,6 +2461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the background color to the provided \u003ccode\u003e\u003ca\u003eColor\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Inline",
           "name": "back_color",
           "package": "vty",
@@ -2311,6 +2472,7 @@
         "index": {
           "description": "Set the background color to the provided Color",
           "hierarchy": "Graphics Vty Inline",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Inline",
           "name": "back_color",
           "normalized": "Color-\u003eInlineM()",
@@ -2326,6 +2488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset the display attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Inline",
           "name": "default_all",
           "package": "vty",
@@ -2336,6 +2499,7 @@
         "index": {
           "description": "Reset the display attributes",
           "hierarchy": "Graphics Vty Inline",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Inline",
           "name": "default_all",
           "normalized": "InlineM()",
@@ -2351,6 +2515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the foreground color to the provided \u003ccode\u003e\u003ca\u003eColor\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Inline",
           "name": "fore_color",
           "package": "vty",
@@ -2361,6 +2526,7 @@
         "index": {
           "description": "Set the foreground color to the provided Color",
           "hierarchy": "Graphics Vty Inline",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Inline",
           "name": "fore_color",
           "normalized": "Color-\u003eInlineM()",
@@ -2376,6 +2542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the provided display attribute changes to the terminal.\n\u003c/p\u003e\u003cp\u003eThis also flushes the \u003ccode\u003e\u003ca\u003estdout\u003c/a\u003e\u003c/code\u003e handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Inline",
           "name": "put_attr_change",
           "package": "vty",
@@ -2386,6 +2553,7 @@
         "index": {
           "description": "Apply the provided display attribute changes to the terminal This also flushes the stdout handle",
           "hierarchy": "Graphics Vty Inline",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Inline",
           "name": "put_attr_change",
           "normalized": "TerminalHandle-\u003eInlineM()-\u003ea()",
@@ -2401,6 +2569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to remove the specified \u003ccode\u003e\u003ca\u003eStyle\u003c/a\u003e\u003c/code\u003e from the display of the following text.\n\u003c/p\u003e\u003cp\u003eThis will fail if apply_style for the given style has not been previously called. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Inline",
           "name": "remove_style",
           "package": "vty",
@@ -2411,6 +2580,7 @@
         "index": {
           "description": "Attempt to remove the specified Style from the display of the following text This will fail if apply style for the given style has not been previously called",
           "hierarchy": "Graphics Vty Inline",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Inline",
           "name": "remove_style",
           "normalized": "Style-\u003eInlineM()",
@@ -2425,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.LLInput",
           "name": "LLInput",
           "package": "vty",
@@ -2433,6 +2604,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty LLInput",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.LLInput",
           "name": "LLInput",
           "package": "vty",
@@ -2447,6 +2619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMouse buttons.  Not yet used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.LLInput",
           "name": "Button",
           "package": "vty",
@@ -2456,6 +2629,7 @@
         "index": {
           "description": "Mouse buttons Not yet used",
           "hierarchy": "Graphics Vty LLInput",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.LLInput",
           "name": "Button",
           "package": "vty",
@@ -2470,6 +2644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.LLInput",
           "name": "Event",
           "package": "vty",
@@ -2479,6 +2654,7 @@
         "index": {
           "description": "Generic events",
           "hierarchy": "Graphics Vty LLInput",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.LLInput",
           "name": "Event",
           "package": "vty",
@@ -2493,6 +2669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentations of non-modifier keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.LLInput",
           "name": "Key",
           "package": "vty",
@@ -2502,6 +2679,7 @@
         "index": {
           "description": "Representations of non-modifier keys",
           "hierarchy": "Graphics Vty LLInput",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.LLInput",
           "name": "Key",
           "package": "vty",
@@ -2516,6 +2694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifier keys.  Key codes are interpreted such that users are more likely to\n have Meta than Alt; for instance on the PC Linux console, \u003ccode\u003e\u003ca\u003eMMeta\u003c/a\u003e\u003c/code\u003e will\n generally correspond to the physical Alt key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.LLInput",
           "name": "Modifier",
           "package": "vty",
@@ -2525,6 +2704,7 @@
         "index": {
           "description": "Modifier keys Key codes are interpreted such that users are more likely to have Meta than Alt for instance on the PC Linux console MMeta will generally correspond to the physical Alt key",
           "hierarchy": "Graphics Vty LLInput",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.LLInput",
           "name": "Modifier",
           "package": "vty",
@@ -3256,6 +3436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet up the terminal for input.  Returns a function which reads key\n events, and a function for shutting down the terminal access.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.LLInput",
           "name": "initTermInput",
           "package": "vty",
@@ -3266,6 +3447,7 @@
         "index": {
           "description": "Set up the terminal for input Returns function which reads key events and function for shutting down the terminal access",
           "hierarchy": "Graphics Vty LLInput",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.LLInput",
           "name": "initTermInput",
           "normalized": "Int-\u003eTerminal-\u003eIO(IO Event,IO())",
@@ -3282,6 +3464,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Picture data structure is representative of the final terminal view.\n\u003c/p\u003e\u003cp\u003eThis module re-exports most of the Graphics.Vty.Image and Graphics.Vty.Attributes modules.\n\u003c/p\u003e\u003cp\u003eCopyright 2009-2010 Corey O'Connor\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Picture",
           "name": "Picture",
           "package": "vty",
@@ -3291,6 +3474,7 @@
         "index": {
           "description": "The Picture data structure is representative of the final terminal view This module re-exports most of the Graphics.Vty.Image and Graphics.Vty.Attributes modules Copyright Corey Connor",
           "hierarchy": "Graphics Vty Picture",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Picture",
           "name": "Picture",
           "package": "vty",
@@ -3305,6 +3489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnspecified regions are filled with the picture's background pattern.  The background pattern\n can specify a character and a display attribute. If the display attribute used previously should\n be used for a background fill then use \u003ccode\u003e\u003ca\u003ecurrent_attr\u003c/a\u003e\u003c/code\u003e for the background attribute. This is the\n default background display attribute.\n\u003c/p\u003e\u003cp\u003etodo The current attribute is always set to the default attributes at the start of updating the\n screen to a picture.\n\u003c/p\u003e\u003cp\u003etodo The background character *must* occupy a single column and no more.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Picture",
           "name": "Background",
           "package": "vty",
@@ -3314,6 +3499,7 @@
         "index": {
           "description": "Unspecified regions are filled with the picture background pattern The background pattern can specify character and display attribute If the display attribute used previously should be used for background fill then use current attr for the background attribute This is the default background display attribute todo The current attribute is always set to the default attributes at the start of updating the screen to picture todo The background character must occupy single column and no more",
           "hierarchy": "Graphics Vty Picture",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Picture",
           "name": "Background",
           "package": "vty",
@@ -3328,6 +3514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA picture can be configured either to not show the cursor or show the cursor at the specified\n character position. \n\u003c/p\u003e\u003cp\u003eThere is not a 1 to 1 map from character positions to a row and column on the screen due to\n characters that take more than 1 column.\n\u003c/p\u003e\u003cp\u003etodo: The Cursor can be given a (character,row) offset outside of the visible bounds of the\n output region. In this case the cursor will not be shown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Picture",
           "name": "Cursor",
           "package": "vty",
@@ -3337,6 +3524,7 @@
         "index": {
           "description": "picture can be configured either to not show the cursor or show the cursor at the specified character position There is not to map from character positions to row and column on the screen due to characters that take more than column todo The Cursor can be given character row offset outside of the visible bounds of the output region In this case the cursor will not be shown",
           "hierarchy": "Graphics Vty Picture",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Picture",
           "name": "Cursor",
           "package": "vty",
@@ -3351,6 +3539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn image in VTY defines:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e properties required to display the image. These are properties that effect the output image\n    but are independent of position \n\u003c/li\u003e\u003cli\u003e A set of position-dependent text and attribute regions. The possible regions are:\n\u003c/li\u003e\u003cli\u003e a point. ( char )\n\u003c/li\u003e\u003cli\u003e a horizontal line of characters with a single attribute. (string, utf8_string,\n      utf8_bytestring )\n\u003c/li\u003e\u003cli\u003e a fill of a single character. (char_fill)\n\u003c/li\u003e\u003cli\u003e a fill of the picture's background. (background_fill)\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003etodo: increase the number of encoded bytestring formats supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Picture",
           "name": "Image",
           "package": "vty",
@@ -3360,6 +3549,7 @@
         "index": {
           "description": "An image in VTY defines properties required to display the image These are properties that effect the output image but are independent of position set of position-dependent text and attribute regions The possible regions are point char horizontal line of characters with single attribute string utf8 string utf8 bytestring fill of single character char fill fill of the picture background background fill todo increase the number of encoded bytestring formats supported",
           "hierarchy": "Graphics Vty Picture",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Picture",
           "name": "Image",
           "package": "vty",
@@ -3374,6 +3564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of images to be displayed using \u003ccode\u003eupdate\u003c/code\u003e.  \n Can be constructed directly or using \u003ccode\u003e\u003ca\u003epic_for_image\u003c/a\u003e\u003c/code\u003e. Which provides an initial instance with\n reasonable defaults for pic_cursor and pic_background.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Picture",
           "name": "Picture",
           "package": "vty",
@@ -3383,6 +3574,7 @@
         "index": {
           "description": "The type of images to be displayed using update Can be constructed directly or using pic for image Which provides an initial instance with reasonable defaults for pic cursor and pic background",
           "hierarchy": "Graphics Vty Picture",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Picture",
           "name": "Picture",
           "package": "vty",
@@ -3396,6 +3588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Picture",
           "name": "Background",
           "package": "vty",
@@ -3405,6 +3598,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Picture",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Picture",
           "name": "Background",
           "package": "vty",
@@ -3418,6 +3612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Picture",
           "name": "Cursor",
           "package": "vty",
@@ -3427,6 +3622,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Picture",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Picture",
           "name": "Cursor",
           "package": "vty",
@@ -3440,6 +3636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Picture",
           "name": "NoCursor",
           "package": "vty",
@@ -3449,6 +3646,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Picture",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Picture",
           "name": "NoCursor",
           "package": "vty",
@@ -3462,6 +3660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Picture",
           "name": "Picture",
           "package": "vty",
@@ -3471,6 +3670,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Picture",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Picture",
           "name": "Picture",
           "package": "vty",
@@ -3484,6 +3684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Picture",
           "name": "background_attr",
           "package": "vty",
@@ -3493,6 +3694,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Picture",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Picture",
           "name": "background_attr",
           "package": "vty",
@@ -3505,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Picture",
           "name": "background_char",
           "package": "vty",
@@ -3514,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Picture",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Picture",
           "name": "background_char",
           "package": "vty",
@@ -3526,6 +3730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Picture",
           "name": "pic_background",
           "package": "vty",
@@ -3535,6 +3740,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Picture",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Picture",
           "name": "pic_background",
           "package": "vty",
@@ -3547,6 +3753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Picture",
           "name": "pic_cursor",
           "package": "vty",
@@ -3556,6 +3763,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Picture",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Picture",
           "name": "pic_cursor",
           "package": "vty",
@@ -3569,6 +3777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a picture for display for the given image. The picture will not have a displayed cursor\n and the background display attribute will be \u003ccode\u003e\u003ca\u003ecurrent_attr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Picture",
           "name": "pic_for_image",
           "package": "vty",
@@ -3579,6 +3788,7 @@
         "index": {
           "description": "Create picture for display for the given image The picture will not have displayed cursor and the background display attribute will be current attr",
           "hierarchy": "Graphics Vty Picture",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Picture",
           "name": "pic_for_image",
           "normalized": "Image-\u003ePicture",
@@ -3593,6 +3803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Picture",
           "name": "pic_image",
           "package": "vty",
@@ -3602,6 +3813,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Picture",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Picture",
           "name": "pic_image",
           "package": "vty",
@@ -3614,6 +3826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "Terminal",
           "package": "vty",
@@ -3622,6 +3835,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "Terminal",
           "package": "vty",
@@ -3635,6 +3849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "DisplayHandle",
           "package": "vty",
@@ -3643,6 +3858,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "DisplayHandle",
           "package": "vty",
@@ -3656,6 +3872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "Terminal",
           "package": "vty",
@@ -3664,6 +3881,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "Terminal",
           "package": "vty",
@@ -3678,6 +3896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn handle to a terminal that hides the implementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "TerminalHandle",
           "package": "vty",
@@ -3687,6 +3906,7 @@
         "index": {
           "description": "An handle to terminal that hides the implementation",
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "TerminalHandle",
           "package": "vty",
@@ -3700,6 +3920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "DisplayHandle",
           "package": "vty",
@@ -3709,6 +3930,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "DisplayHandle",
           "normalized": "a-\u003eTerminalHandle-\u003eDisplayState-\u003eDisplayHandle",
@@ -3724,6 +3946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "TerminalHandle",
           "package": "vty",
@@ -3733,6 +3956,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "TerminalHandle",
           "normalized": "a-\u003eIORef TerminalState-\u003eTerminalHandle",
@@ -3749,6 +3973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the current display bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "display_bounds",
           "package": "vty",
@@ -3759,6 +3984,7 @@
         "index": {
           "description": "Returns the current display bounds",
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "display_bounds",
           "normalized": "a-\u003eb DisplayRegion",
@@ -3774,6 +4000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcquire display access to the given region of the display.\n Currently all regions have the upper left corner of (0,0) and the lower right corner at \n (max display_width provided_width, max display_height provided_height)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "display_context",
           "package": "vty",
@@ -3784,6 +4011,7 @@
         "index": {
           "description": "Acquire display access to the given region of the display Currently all regions have the upper left corner of and the lower right corner at max display width provided width max display height provided height",
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "display_context",
           "normalized": "TerminalHandle-\u003eDisplayRegion-\u003ea DisplayHandle",
@@ -3798,6 +4026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "display_terminal_instance",
           "package": "vty",
@@ -3807,6 +4036,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "display_terminal_instance",
           "normalized": "a-\u003eDisplayHandle)-\u003eb DisplayHandle",
@@ -3822,6 +4052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHides the cursor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "hide_cursor",
           "package": "vty",
@@ -3832,6 +4063,7 @@
         "index": {
           "description": "Hides the cursor",
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "hide_cursor",
           "normalized": "TerminalHandle-\u003ea()",
@@ -3847,6 +4079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the byte buffer of the specified size to the terminal device.  The size is equal to\n end_ptr - start_ptr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "output_byte_buffer",
           "package": "vty",
@@ -3857,6 +4090,7 @@
         "index": {
           "description": "Output the byte buffer of the specified size to the terminal device The size is equal to end ptr start ptr",
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "output_byte_buffer",
           "normalized": "a-\u003eOutputBuffer-\u003eWord-\u003eIO()",
@@ -3872,6 +4106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle of output device\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "output_handle",
           "package": "vty",
@@ -3882,6 +4117,7 @@
         "index": {
           "description": "Handle of output device",
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "output_handle",
           "normalized": "a-\u003eIO Handle",
@@ -3897,6 +4133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplays the given \u003ccode\u003e\u003ca\u003ePicture\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e The image is cropped to the display size. \n\u003c/li\u003e\u003cli\u003e Converted into a sequence of attribute changes and text spans.\n\u003c/li\u003e\u003cli\u003e The cursor is hidden.\n\u003c/li\u003e\u003cli\u003e Serialized to the display.\n\u003c/li\u003e\u003cli\u003e The cursor is then shown and positioned or kept hidden.\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003etodo: specify possible IO exceptions.\n abstract from IO monad to a MonadIO instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "output_picture",
           "package": "vty",
@@ -3907,6 +4144,7 @@
         "index": {
           "description": "Displays the given Picture The image is cropped to the display size Converted into sequence of attribute changes and text spans The cursor is hidden Serialized to the display The cursor is then shown and positioned or kept hidden todo specify possible IO exceptions abstract from IO monad to MonadIO instance",
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "output_picture",
           "normalized": "DisplayHandle-\u003ePicture-\u003ea()",
@@ -3922,6 +4160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the display to the state before reserve_display\n If no previous state then set the display state to the initial state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "release_display",
           "package": "vty",
@@ -3932,6 +4171,7 @@
         "index": {
           "description": "Return the display to the state before reserve display If no previous state then set the display state to the initial state",
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "release_display",
           "normalized": "a-\u003eb()",
@@ -3946,6 +4186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "release_terminal",
           "package": "vty",
@@ -3955,6 +4196,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "release_terminal",
           "normalized": "a-\u003eb()",
@@ -3970,6 +4212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear the display and initialize the terminal to some initial display state. \n\u003c/p\u003e\u003cp\u003eThe expectation of a program is that the display starts in some initial state. \n The initial state would consist of fixed values:\n  - cursor at top left\n  - UTF-8 character encoding\n  - drawing characteristics are the default\n The abstract operation I think all these behaviors are instances of is reserving exclusive\n access to a display such that:\n  - The previous state cannot be determined\n  - When exclusive access to a display is release the display returns to the previous state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "reserve_display",
           "package": "vty",
@@ -3980,6 +4223,7 @@
         "index": {
           "description": "Clear the display and initialize the terminal to some initial display state The expectation of program is that the display starts in some initial state The initial state would consist of fixed values cursor at top left UTF-8 character encoding drawing characteristics are the default The abstract operation think all these behaviors are instances of is reserving exclusive access to display such that The previous state cannot be determined When exclusive access to display is release the display returns to the previous state",
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "reserve_display",
           "normalized": "a-\u003eb()",
@@ -3995,6 +4239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the cursor position to the given output column and row. \n\u003c/p\u003e\u003cp\u003eThis is not necessarially the same as the character position with the same coordinates.\n Characters can be a variable number of columns in width.\n\u003c/p\u003e\u003cp\u003eCurrently, the only way to set the cursor position to a given character coordinate is to specify\n the coordinate in the Picture instance provided to output_picture or refresh.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "set_cursor_pos",
           "package": "vty",
@@ -4005,6 +4250,7 @@
         "index": {
           "description": "Sets the cursor position to the given output column and row This is not necessarially the same as the character position with the same coordinates Characters can be variable number of columns in width Currently the only way to set the cursor position to given character coordinate is to specify the coordinate in the Picture instance provided to output picture or refresh",
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "set_cursor_pos",
           "normalized": "TerminalHandle-\u003eWord-\u003eWord-\u003ea()",
@@ -4020,6 +4266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows the cursor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "show_cursor",
           "package": "vty",
@@ -4030,6 +4277,7 @@
         "index": {
           "description": "Shows the cursor",
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "show_cursor",
           "normalized": "TerminalHandle-\u003ea()",
@@ -4045,6 +4293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText identifier for the terminal. Used for debugging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "terminal_ID",
           "package": "vty",
@@ -4055,6 +4304,7 @@
         "index": {
           "description": "Text identifier for the terminal Used for debugging",
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "terminal_ID",
           "normalized": "a-\u003eString",
@@ -4071,6 +4321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a TerminalHandle (an abstract Terminal instance) for the current terminal.\n\u003c/p\u003e\u003cp\u003eThe specific Terminal implementation used is hidden from the API user. All terminal\n implementations are assumed to perform more, or less, the same. Currently all implementations use\n terminfo for at least some terminal specific information. This is why platforms without terminfo\n are not supported. However, as mentioned before, any specifics about it being based on terminfo\n are hidden from the API user.  If a terminal implementation is developed for a terminal for a\n platform without terminfo support then Vty should work as expected on that terminal.\n\u003c/p\u003e\u003cp\u003eSelection of a terminal is done as follows:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e If TERM == xterm\n          then the terminal might be one of the Mac OS X .app terminals. Check if that might be\n          the case and use MacOSX if so.\n          otherwise use XTermColor.\n\u003c/li\u003e\u003cli\u003e for any other TERM value TerminfoBased is used.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe terminal has to be determined dynamically at runtime. To satisfy this requirement all\n terminals instances are lifted into an abstract terminal handle via existential qualification.\n This implies that the only equations that can used are those in the terminal class.\n\u003c/p\u003e\u003cp\u003eTo differentiate between Mac OS X terminals this uses the TERM_PROGRAM environment variable.\n However, an xterm started by Terminal or iTerm *also* has TERM_PROGRAM defined since the\n environment variable is not reset/cleared by xterm. However a Terminal.app or iTerm.app started\n from an xterm under X11 on mac os x will likely be done via open. Since this does not propogate\n environment variables (I think?) this assumes that XTERM_VERSION will never be set for a true\n Terminal.app or iTerm.app session.\n\u003c/p\u003e\u003cp\u003eThe file descriptor used for output will a duplicate of the current stdout file descriptor.\n\u003c/p\u003e\u003cp\u003etodo: add an implementation for windows that does not depend on terminfo. Should be installable\n with only what is provided in the haskell platform.\n\u003c/p\u003e\u003cp\u003etodo: The Terminal interface does not provide any input support.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty.Terminal",
           "name": "terminal_handle",
           "package": "vty",
@@ -4081,6 +4332,7 @@
         "index": {
           "description": "Returns TerminalHandle an abstract Terminal instance for the current terminal The specific Terminal implementation used is hidden from the API user All terminal implementations are assumed to perform more or less the same Currently all implementations use terminfo for at least some terminal specific information This is why platforms without terminfo are not supported However as mentioned before any specifics about it being based on terminfo are hidden from the API user If terminal implementation is developed for terminal for platform without terminfo support then Vty should work as expected on that terminal Selection of terminal is done as follows If TERM xterm then the terminal might be one of the Mac OS app terminals Check if that might be the case and use MacOSX if so otherwise use XTermColor for any other TERM value TerminfoBased is used The terminal has to be determined dynamically at runtime To satisfy this requirement all terminals instances are lifted into an abstract terminal handle via existential qualification This implies that the only equations that can used are those in the terminal class To differentiate between Mac OS terminals this uses the TERM PROGRAM environment variable However an xterm started by Terminal or iTerm also has TERM PROGRAM defined since the environment variable is not reset cleared by xterm However Terminal.app or iTerm.app started from an xterm under X11 on mac os will likely be done via open Since this does not propogate environment variables think this assumes that XTERM VERSION will never be set for true Terminal.app or iTerm.app session The file descriptor used for output will duplicate of the current stdout file descriptor todo add an implementation for windows that does not depend on terminfo Should be installable with only what is provided in the haskell platform todo The Terminal interface does not provide any input support",
           "hierarchy": "Graphics Vty Terminal",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty.Terminal",
           "name": "terminal_handle",
           "package": "vty",
@@ -4093,6 +4345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty",
           "name": "Vty",
           "package": "vty",
@@ -4101,6 +4354,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty",
           "name": "Vty",
           "package": "vty",
@@ -4115,6 +4369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMouse buttons.  Not yet used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty",
           "name": "Button",
           "package": "vty",
@@ -4124,6 +4379,7 @@
         "index": {
           "description": "Mouse buttons Not yet used",
           "hierarchy": "Graphics Vty",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty",
           "name": "Button",
           "package": "vty",
@@ -4138,6 +4394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty",
           "name": "Event",
           "package": "vty",
@@ -4147,6 +4404,7 @@
         "index": {
           "description": "Generic events",
           "hierarchy": "Graphics Vty",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty",
           "name": "Event",
           "package": "vty",
@@ -4161,6 +4419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentations of non-modifier keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty",
           "name": "Key",
           "package": "vty",
@@ -4170,6 +4429,7 @@
         "index": {
           "description": "Representations of non-modifier keys",
           "hierarchy": "Graphics Vty",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty",
           "name": "Key",
           "package": "vty",
@@ -4184,6 +4444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifier keys.  Key codes are interpreted such that users are more likely to\n have Meta than Alt; for instance on the PC Linux console, \u003ccode\u003e\u003ca\u003eMMeta\u003c/a\u003e\u003c/code\u003e will\n generally correspond to the physical Alt key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty",
           "name": "Modifier",
           "package": "vty",
@@ -4193,6 +4454,7 @@
         "index": {
           "description": "Modifier keys Key codes are interpreted such that users are more likely to have Meta than Alt for instance on the PC Linux console MMeta will generally correspond to the physical Alt key",
           "hierarchy": "Graphics Vty",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty",
           "name": "Modifier",
           "package": "vty",
@@ -4207,6 +4469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main object.  At most one should be created.\n An alternative is to use unsafePerformIO to automatically create a singleton Vty instance when\n required.\n\u003c/p\u003e\u003cp\u003eThis does not assure any thread safety. In theory, as long as an update action is not executed\n when another update action is already then it's safe to call this on multiple threads.\n\u003c/p\u003e\u003cp\u003etodo: Once the Terminal interface encompasses input this interface will be deprecated.\n Currently, just using the Terminal interface there is no support for input events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty",
           "name": "Vty",
           "package": "vty",
@@ -4216,6 +4479,7 @@
         "index": {
           "description": "The main object At most one should be created An alternative is to use unsafePerformIO to automatically create singleton Vty instance when required This does not assure any thread safety In theory as long as an update action is not executed when another update action is already then it safe to call this on multiple threads todo Once the Terminal interface encompasses input this interface will be deprecated Currently just using the Terminal interface there is no support for input events",
           "hierarchy": "Graphics Vty",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty",
           "name": "Vty",
           "package": "vty",
@@ -4229,6 +4493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty",
           "name": "Vty",
           "package": "vty",
@@ -4238,6 +4503,7 @@
         },
         "index": {
           "hierarchy": "Graphics Vty",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty",
           "name": "Vty",
           "package": "vty",
@@ -4252,6 +4518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet up the state object for using vty.  At most one state object should be\n created at a time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty",
           "name": "mkVty",
           "package": "vty",
@@ -4262,6 +4529,7 @@
         "index": {
           "description": "Set up the state object for using vty At most one state object should be created at time",
           "hierarchy": "Graphics Vty",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty",
           "name": "mkVty",
           "package": "vty",
@@ -4276,6 +4544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet up the state object for using vty.  At most one state object should be\n created at a time. The delay, in microseconds, specifies the period of time to wait for a key\n following reading ESC from the terminal before considering the ESC key press as a discrete event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty",
           "name": "mkVtyEscDelay",
           "package": "vty",
@@ -4286,6 +4555,7 @@
         "index": {
           "description": "Set up the state object for using vty At most one state object should be created at time The delay in microseconds specifies the period of time to wait for key following reading ESC from the terminal before considering the ESC key press as discrete event",
           "hierarchy": "Graphics Vty",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty",
           "name": "mkVtyEscDelay",
           "normalized": "Int-\u003eIO Vty",
@@ -4302,6 +4572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet one Event object, blocking if necessary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty",
           "name": "next_event",
           "package": "vty",
@@ -4312,6 +4583,7 @@
         "index": {
           "description": "Get one Event object blocking if necessary",
           "hierarchy": "Graphics Vty",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty",
           "name": "next_event",
           "package": "vty",
@@ -4325,6 +4597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRefresh the display. Normally the library takes care of refreshing.  Nonetheless, some\n other program might output to the terminal and mess the display.  In that case the user\n might want to force a refresh.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty",
           "name": "refresh",
           "package": "vty",
@@ -4335,6 +4608,7 @@
         "index": {
           "description": "Refresh the display Normally the library takes care of refreshing Nonetheless some other program might output to the terminal and mess the display In that case the user might want to force refresh",
           "hierarchy": "Graphics Vty",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty",
           "name": "refresh",
           "normalized": "IO()",
@@ -4350,6 +4624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClean up after vty.\n The above methods will throw an exception if executed after this is executed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty",
           "name": "shutdown",
           "package": "vty",
@@ -4360,6 +4635,7 @@
         "index": {
           "description": "Clean up after vty The above methods will throw an exception if executed after this is executed",
           "hierarchy": "Graphics Vty",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty",
           "name": "shutdown",
           "normalized": "IO()",
@@ -4375,6 +4651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle to the terminal interface. See \u003ccode\u003e\u003ca\u003eTerminal\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThe use of Vty typically follows this process:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e initialize vty\n\u003c/li\u003e\u003cli\u003e use the update equation of Vty to display a picture\n\u003c/li\u003e\u003cli\u003e repeat\n\u003c/li\u003e\u003cli\u003e shutdown vty. \n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003etodo: provide a similar abstraction to Graphics.Vty.Terminal for input. Use haskeline's\n input backend for implementation.\n\u003c/p\u003e\u003cp\u003etodo: remove explicit \u003ccode\u003e\u003ca\u003eshutdown\u003c/a\u003e\u003c/code\u003e requirement. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty",
           "name": "terminal",
           "package": "vty",
@@ -4385,6 +4662,7 @@
         "index": {
           "description": "Handle to the terminal interface See Terminal The use of Vty typically follows this process initialize vty use the update equation of Vty to display picture repeat shutdown vty todo provide similar abstraction to Graphics.Vty.Terminal for input Use haskeline input backend for implementation todo remove explicit shutdown requirement",
           "hierarchy": "Graphics Vty",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty",
           "name": "terminal",
           "package": "vty",
@@ -4398,6 +4676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutputs the given Picture. Equivalent to output_picture applied to a display context\n implicitly managed by Vty.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:34 UTC 2014",
           "module": "Graphics.Vty",
           "name": "update",
           "package": "vty",
@@ -4408,6 +4687,7 @@
         "index": {
           "description": "Outputs the given Picture Equivalent to output picture applied to display context implicitly managed by Vty",
           "hierarchy": "Graphics Vty",
+          "indexed": "2014-03-11T20:35:34",
           "module": "Graphics.Vty",
           "name": "update",
           "normalized": "Picture-\u003eIO()",

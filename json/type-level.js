@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "type-level"
+        "phrase": "type-level",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level Booleans.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "Bool",
           "package": "type-level",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Type-level Booleans",
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "Bool",
           "package": "type-level",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAnd\u003c/a\u003e\u003c/code\u003e type-level relation. \u003ccode\u003eAnd b1 b2 b3\u003c/code\u003e establishes that\n   \u003ccode\u003eb1 && b2 = b3\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "And",
           "package": "type-level",
@@ -51,6 +54,7 @@
         "index": {
           "description": "And type-level relation And b1 b2 b3 establishes that b1 b2 b3",
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "And",
           "package": "type-level",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-level Booleans\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "Bool",
           "package": "type-level",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Type-level Booleans",
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "Bool",
           "package": "type-level",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean equality type-level relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "Eq",
           "package": "type-level",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Boolean equality type-level relation",
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "Eq",
           "package": "type-level",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse type-level value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "False",
           "package": "type-level",
@@ -120,6 +129,7 @@
         "index": {
           "description": "False type-level value",
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "False",
           "package": "type-level",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplication type-level relation. \u003ccode\u003eImp b1 b2 b3\u003c/code\u003e establishes that\n \u003ccode\u003eb1 =\u003eb2 = b3\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "Imp",
           "package": "type-level",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Implication type-level relation Imp b1 b2 b3 establishes that b1 b2 b3",
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "Imp",
           "package": "type-level",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean negation type-level relation. \u003ccode\u003eNot b1 b2\u003c/code\u003e establishes that\n \u003ccode\u003enot b1 = b2\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "Not",
           "package": "type-level",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Boolean negation type-level relation Not b1 b2 establishes that not b1 b2",
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "Not",
           "package": "type-level",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOr type-level relation. \u003ccode\u003eOr b1 b2 b3\u003c/code\u003e establishes that\n   \u003ccode\u003eb1 || b2 = b3\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "Or",
           "package": "type-level",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Or type-level relation Or b1 b2 b3 establishes that b1 b2 b3",
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "Or",
           "package": "type-level",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue type-level value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "True",
           "package": "type-level",
@@ -212,6 +229,7 @@
         "index": {
           "description": "True type-level value",
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "True",
           "package": "type-level",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExclusive or type-level relation. \u003ccode\u003eXor b1 b2 b3\u003c/code\u003e establishes that\n   \u003ccode\u003exor b1 b2 = b3\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "Xor",
           "package": "type-level",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Exclusive or type-level relation Xor b1 b2 b3 establishes that xor b1 b2 b3",
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "Xor",
           "package": "type-level",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the \u003ccode\u003e\u003ca\u003eOr\u003c/a\u003e\u003c/code\u003e type-level relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "(||)",
           "package": "type-level",
@@ -259,6 +280,7 @@
         "index": {
           "description": "value-level reflection function for the Or type-level relation",
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "(||) ||",
           "normalized": "a-\u003ea-\u003ea",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the \u003ccode\u003e\u003ca\u003eAnd\u003c/a\u003e\u003c/code\u003e type-level relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "(&&)",
           "package": "type-level",
@@ -284,6 +307,7 @@
         "index": {
           "description": "value-level reflection function for the And type-level relation",
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "(&&) &&",
           "normalized": "a-\u003ea-\u003ea",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e type-level relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "eq",
           "package": "type-level",
@@ -309,6 +334,7 @@
         "index": {
           "description": "value-level reflection function for the Eq type-level relation",
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "eq",
           "normalized": "a-\u003ea-\u003ea",
@@ -324,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse value-level reflecting function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "false",
           "package": "type-level",
@@ -334,6 +361,7 @@
         "index": {
           "description": "False value-level reflecting function",
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "false",
           "package": "type-level",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the Imp type-level relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "imp",
           "package": "type-level",
@@ -357,6 +386,7 @@
         "index": {
           "description": "value-level reflection function for the Imp type-level relation",
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "imp",
           "normalized": "a-\u003ea-\u003ea",
@@ -372,6 +402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the \u003ccode\u003e\u003ca\u003eNot\u003c/a\u003e\u003c/code\u003e type-level relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "not",
           "package": "type-level",
@@ -382,6 +413,7 @@
         "index": {
           "description": "value-level reflection function for the Not type-level relation",
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "not",
           "normalized": "a-\u003ea",
@@ -397,6 +429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReification function. In CPS style (best possible solution)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "reifyBool",
           "package": "type-level",
@@ -407,6 +440,7 @@
         "index": {
           "description": "Reification function In CPS style best possible solution",
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "reifyBool",
           "normalized": "a-\u003eb)-\u003eb",
@@ -422,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "toBool",
           "package": "type-level",
@@ -431,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "toBool",
           "normalized": "a-\u003eBool",
@@ -447,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue value-level reflecting function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "true",
           "package": "type-level",
@@ -457,6 +494,7 @@
         "index": {
           "description": "True value-level reflecting function",
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "true",
           "package": "type-level",
@@ -470,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the \u003ccode\u003e\u003ca\u003eXor\u003c/a\u003e\u003c/code\u003e type-level relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Bool",
           "name": "xor",
           "package": "type-level",
@@ -480,6 +519,7 @@
         "index": {
           "description": "value-level reflection function for the Xor type-level relation",
           "hierarchy": "Data TypeLevel Bool",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Bool",
           "name": "xor",
           "normalized": "a-\u003ea-\u003ea",
@@ -495,6 +535,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal template haskell functions to generate type-level numeral aliases\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Aliases.TH",
           "name": "TH",
           "package": "type-level",
@@ -504,6 +545,7 @@
         "index": {
           "description": "Internal template haskell functions to generate type-level numeral aliases",
           "hierarchy": "Data TypeLevel Num Aliases TH",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Aliases.TH",
           "name": "TH",
           "package": "type-level",
@@ -518,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the type-level decimal representation for a value-level \n   natural number. \n NOTE: This function could be useful by itself avoiding to generate \n aliases. However, type-splicing is not yet supported by template haskell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Aliases.TH",
           "name": "dec2TypeLevel",
           "package": "type-level",
@@ -528,6 +571,7 @@
         "index": {
           "description": "Generate the type-level decimal representation for value-level natural number NOTE This function could be useful by itself avoiding to generate aliases However type-splicing is not yet supported by template haskell",
           "hierarchy": "Data TypeLevel Num Aliases TH",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Aliases.TH",
           "name": "dec2TypeLevel",
           "normalized": "Int-\u003eQ Type",
@@ -543,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Aliases.TH",
           "name": "genAliases",
           "package": "type-level",
@@ -552,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Data TypeLevel Num Aliases TH",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Aliases.TH",
           "name": "genAliases",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eQ[Dec]",
@@ -566,9 +612,12 @@
     {
       "cmd": "insert",
       "document": {
-        "description": {},
+        "description": {
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014"
+        },
         "index": {
           "hierarchy": "getContentsFromDoc",
+          "indexed": "2014-03-11T20:27:29",
           "module": "getContentsFromDoc"
         },
         "uri": "http://hackage.haskell.org/package/type-level/docs/Data-TypeLevel-Num-Aliases.html"
@@ -579,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level numerical operations and its value-level reflection functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Ops",
           "package": "type-level",
@@ -588,6 +638,7 @@
         "index": {
           "description": "Type-level numerical operations and its value-level reflection functions",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Ops",
           "package": "type-level",
@@ -602,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower-than or equal abbreviated type-level assertion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": ":\u003c=:",
           "package": "type-level",
@@ -611,6 +663,7 @@
         "index": {
           "description": "Lower-than or equal abbreviated type-level assertion",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": ":\u003c=:",
           "package": "type-level",
@@ -624,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower-than abbreviated type-level assertion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": ":\u003c:",
           "package": "type-level",
@@ -633,6 +687,7 @@
         "index": {
           "description": "Lower-than abbreviated type-level assertion",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": ":\u003c:",
           "package": "type-level",
@@ -646,6 +701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality abbreviated type-level assertion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": ":==:",
           "package": "type-level",
@@ -655,6 +711,7 @@
         "index": {
           "description": "Equality abbreviated type-level assertion",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": ":==:",
           "package": "type-level",
@@ -668,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreater-than or equal abbreviated type-level assertion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": ":\u003e=:",
           "package": "type-level",
@@ -677,6 +735,7 @@
         "index": {
           "description": "Greater-than or equal abbreviated type-level assertion",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": ":\u003e=:",
           "package": "type-level",
@@ -690,6 +749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreater-than abbreviated type-level assertion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": ":\u003e:",
           "package": "type-level",
@@ -699,6 +759,7 @@
         "index": {
           "description": "Greater-than abbreviated type-level assertion",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": ":\u003e:",
           "package": "type-level",
@@ -712,6 +773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddition type-level relation.  \u003ccode\u003eAdd x y z\u003c/code\u003e establishes\n  that \u003ccode\u003ex + y = z\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Add",
           "package": "type-level",
@@ -721,6 +783,7 @@
         "index": {
           "description": "Addition type-level relation Add establishes that",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Add",
           "package": "type-level",
@@ -735,6 +798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision type-level relation. Remainder-discarding version of \u003ccode\u003e\u003ca\u003eDivMod\u003c/a\u003e\u003c/code\u003e. \n   Note it is not relational (due to DivMod not being relational)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Div",
           "package": "type-level",
@@ -744,6 +808,7 @@
         "index": {
           "description": "Division type-level relation Remainder-discarding version of DivMod Note it is not relational due to DivMod not being relational",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Div",
           "package": "type-level",
@@ -758,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision by 10 type-level relation (based on DivMod10)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Div10",
           "package": "type-level",
@@ -767,6 +833,7 @@
         "index": {
           "description": "Division by type-level relation based on DivMod10",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Div10",
           "package": "type-level",
@@ -781,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision and Remainder type-level relation. \u003ccode\u003eDivMod x y q r\u003c/code\u003e establishes\n  that \u003ccode\u003ex\u003cem\u003ey = q + r\u003c/em\u003ey\u003c/code\u003e\n   Note it is not relational (i.e. its inverse cannot be used \n   for multiplication). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "DivMod",
           "package": "type-level",
@@ -790,6 +858,7 @@
         "index": {
           "description": "Division and Remainder type-level relation DivMod establishes that Note it is not relational i.e its inverse cannot be used for multiplication",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "DivMod",
           "package": "type-level",
@@ -804,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision by 10 and Remainer type-level relation (similar to \u003ccode\u003e\u003ca\u003eDivMod\u003c/a\u003e\u003c/code\u003e). \n\u003c/p\u003e\u003cp\u003eThis operation is much faster than DivMod. Furthermore, it is \n   the general, non-structural, constructor/deconstructor since it\n   splits a decimal numeral into its initial digits and last digit.\n   Thus, it allows to inspect the structure of a number and is normally\n   used to create type-level operations.\n\u003c/p\u003e\u003cp\u003eNote that contrary to \u003ccode\u003e\u003ca\u003eDivMod\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eDivMod10\u003c/a\u003e\u003c/code\u003e is relational (it can be used to\n   multiply by 10)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "DivMod10",
           "package": "type-level",
@@ -813,6 +883,7 @@
         "index": {
           "description": "Division by and Remainer type-level relation similar to DivMod This operation is much faster than DivMod Furthermore it is the general non-structural constructor deconstructor since it splits decimal numeral into its initial digits and last digit Thus it allows to inspect the structure of number and is normally used to create type-level operations Note that contrary to DivMod DivMod10 is relational it can be used to multiply by",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "DivMod10",
           "package": "type-level",
@@ -827,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEqual\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "EQ",
           "package": "type-level",
@@ -836,6 +908,7 @@
         "index": {
           "description": "Equal",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "EQ",
           "package": "type-level",
@@ -850,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase-10 Exponentiation type-level relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Exp10",
           "package": "type-level",
@@ -859,6 +933,7 @@
         "index": {
           "description": "Base-10 Exponentiation type-level relation",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Exp10",
           "package": "type-level",
@@ -873,6 +948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExponentation type-level relation. \u003ccode\u003eExpBase b e r\u003c/code\u003e establishes\n  that \u003ccode\u003eb^e = r\u003c/code\u003e\n  Note it is not relational (i.e. it cannot be used to express logarithms)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "ExpBase",
           "package": "type-level",
@@ -882,6 +958,7 @@
         "index": {
           "description": "Exponentation type-level relation ExpBase establishes that Note it is not relational i.e it cannot be used to express logarithms",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "ExpBase",
           "package": "type-level",
@@ -896,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreatest Common Divisor type-level relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "GCD",
           "package": "type-level",
@@ -905,6 +983,7 @@
         "index": {
           "description": "Greatest Common Divisor type-level relation",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "GCD",
           "package": "type-level",
@@ -919,6 +998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGreater than\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "GT",
           "package": "type-level",
@@ -928,6 +1008,7 @@
         "index": {
           "description": "Greater than",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "GT",
           "package": "type-level",
@@ -942,6 +1023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs-divisible-by type-level assertion. e.g \u003ccode\u003eIsDivBy d x\u003c/code\u003e establishes that\n   \u003ccode\u003ex\u003c/code\u003e is divisible by \u003ccode\u003ed\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "IsDivBy",
           "package": "type-level",
@@ -951,6 +1033,7 @@
         "index": {
           "description": "Is-divisible-by type-level assertion e.g IsDivBy establishes that is divisible by",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "IsDivBy",
           "package": "type-level",
@@ -965,6 +1048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssert that a number (\u003ccode\u003ex\u003c/code\u003e) can be expressed as the power of another one\n   (\u003ccode\u003eb\u003c/code\u003e) (i.e. the fractional part of \u003ccode\u003elog_base_b x = 0\u003c/code\u003e, or, \n   in a different way, \u003ccode\u003eexists y . b^y = x\u003c/code\u003e). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "IsPowOf",
           "package": "type-level",
@@ -974,6 +1058,7 @@
         "index": {
           "description": "Assert that number can be expressed as the power of another one i.e the fractional part of log base or in different way exists",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "IsPowOf",
           "package": "type-level",
@@ -988,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower than \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "LT",
           "package": "type-level",
@@ -997,6 +1083,7 @@
         "index": {
           "description": "Lower than",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "LT",
           "package": "type-level",
@@ -1011,6 +1098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase-10 logarithm type-level relation\n   Note it is not relational (cannot be used to express Exponentation to 10)\n   However, it works with any positive numeral (not just powers of 10)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Log10",
           "package": "type-level",
@@ -1020,6 +1108,7 @@
         "index": {
           "description": "Base-10 logarithm type-level relation Note it is not relational cannot be used to express Exponentation to However it works with any positive numeral not just powers of",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Log10",
           "package": "type-level",
@@ -1033,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "LogBase",
           "package": "type-level",
@@ -1041,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "LogBase",
           "package": "type-level",
@@ -1055,6 +1146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of LogBase which also outputs if the logarithm\n calculated was exact.\n f indicates if the resulting logarithm has no fractional part (i.e.\n tells if the result provided is exact)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "LogBaseF",
           "package": "type-level",
@@ -1064,6 +1156,7 @@
         "index": {
           "description": "Version of LogBase which also outputs if the logarithm calculated was exact indicates if the resulting logarithm has no fractional part i.e tells if the result provided is exact",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "LogBaseF",
           "package": "type-level",
@@ -1078,6 +1171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum type-level relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Max",
           "package": "type-level",
@@ -1087,6 +1181,7 @@
         "index": {
           "description": "Maximum type-level relation",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Max",
           "package": "type-level",
@@ -1101,6 +1196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimum type-level relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Min",
           "package": "type-level",
@@ -1110,6 +1206,7 @@
         "index": {
           "description": "Minimum type-level relation",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Min",
           "package": "type-level",
@@ -1124,6 +1221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemainder of division, type-level relation. \u003ccode\u003eMod x y r\u003c/code\u003e establishes that\n   \u003ccode\u003er\u003c/code\u003e is the reminder of dividing \u003ccode\u003ex\u003c/code\u003e by \u003ccode\u003ey\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Mod",
           "package": "type-level",
@@ -1133,6 +1231,7 @@
         "index": {
           "description": "Remainder of division type-level relation Mod establishes that is the reminder of dividing by",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Mod",
           "package": "type-level",
@@ -1147,6 +1246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication type-level relation. \u003ccode\u003eMul x y z\u003c/code\u003e establishes\n  that \u003ccode\u003ex * y = z\u003c/code\u003e.\n   Note it isn't relational (i.e. its inverse cannot be used for division,\n   however, even if it could, the resulting division would only\n   work for zero-remainder divisions)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Mul",
           "package": "type-level",
@@ -1156,6 +1256,7 @@
         "index": {
           "description": "Multiplication type-level relation Mul establishes that Note it isn relational i.e its inverse cannot be used for division however even if it could the resulting division would only work for zero-remainder divisions",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Mul",
           "package": "type-level",
@@ -1170,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication by 10 type-level relation (based on \u003ccode\u003e\u003ca\u003eDivMod10\u003c/a\u003e\u003c/code\u003e).\n   \u003ccode\u003eMul10 x y\u003c/code\u003e establishes that \u003ccode\u003e10 * x = y\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Mul10",
           "package": "type-level",
@@ -1179,6 +1281,7 @@
         "index": {
           "description": "Multiplication by type-level relation based on DivMod10 Mul10 establishes that",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Mul10",
           "package": "type-level",
@@ -1193,6 +1296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredecessor type-level relation. \u003ccode\u003ePred x y\u003c/code\u003e establishes\n  that \u003ccode\u003epred x = y\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Pred",
           "package": "type-level",
@@ -1202,6 +1306,7 @@
         "index": {
           "description": "Predecessor type-level relation Pred establishes that pred",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Pred",
           "package": "type-level",
@@ -1216,6 +1321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtraction type-level relation. \u003ccode\u003eSub x y z\u003c/code\u003e establishes\n  that \u003ccode\u003ex - y = z\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Sub",
           "package": "type-level",
@@ -1225,6 +1331,7 @@
         "index": {
           "description": "Subtraction type-level relation Sub establishes that",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Sub",
           "package": "type-level",
@@ -1239,6 +1346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuccessor type-level relation. \u003ccode\u003eSucc x y\u003c/code\u003e establishes\n  that \u003ccode\u003esucc x = y\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Succ",
           "package": "type-level",
@@ -1248,6 +1356,7 @@
         "index": {
           "description": "Successor type-level relation Succ establishes that succ",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Succ",
           "package": "type-level",
@@ -1262,6 +1371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrichotomy type-level relation. 'Trich x y r' establishes\n   the relation (\u003ccode\u003er\u003c/code\u003e) between \u003ccode\u003ex\u003c/code\u003e and \u003ccode\u003ey\u003c/code\u003e. The obtained relation (\u003ccode\u003er\u003c/code\u003e)\n   Can be \u003ccode\u003e\u003ca\u003eLT\u003c/a\u003e\u003c/code\u003e (if \u003ccode\u003ex\u003c/code\u003e is lower than \u003ccode\u003ey\u003c/code\u003e), \u003ccode\u003e\u003ca\u003eEQ\u003c/a\u003e\u003c/code\u003e (if \u003ccode\u003ex\u003c/code\u003e equals \u003ccode\u003ey\u003c/code\u003e) or\n   \u003ccode\u003e\u003ca\u003eGT\u003c/a\u003e\u003c/code\u003e (if \u003ccode\u003ex\u003c/code\u003e is greater than \u003ccode\u003ey\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Trich",
           "package": "type-level",
@@ -1271,6 +1381,7 @@
         "index": {
           "description": "Trichotomy type-level relation Trich establishes the relation between and The obtained relation Can be LT if is lower than EQ if equals or GT if is greater than",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "Trich",
           "package": "type-level",
@@ -1285,6 +1396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the multiplication type-level relation \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "(*)",
           "package": "type-level",
@@ -1295,6 +1407,7 @@
         "index": {
           "description": "value-level reflection function for the multiplication type-level relation",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "(*) *",
           "normalized": "a-\u003eb-\u003ec",
@@ -1310,6 +1423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the \u003ccode\u003e\u003ca\u003eAdd\u003c/a\u003e\u003c/code\u003e type-level relation \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "(+)",
           "package": "type-level",
@@ -1320,6 +1434,7 @@
         "index": {
           "description": "value-level reflection function for the Add type-level relation",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "(+) +",
           "normalized": "a-\u003eb-\u003ec",
@@ -1335,6 +1450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the \u003ccode\u003e\u003ca\u003eSub\u003c/a\u003e\u003c/code\u003e type-level relation \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "(-)",
           "package": "type-level",
@@ -1345,6 +1461,7 @@
         "index": {
           "description": "value-level reflection function for the Sub type-level relation",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "(-) -",
           "normalized": "a-\u003eb-\u003ec",
@@ -1360,6 +1477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the lower-than abbreviated \n   type-level assertion \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "(\u003c)",
           "package": "type-level",
@@ -1370,6 +1488,7 @@
         "index": {
           "description": "value-level reflection function for the lower-than abbreviated type-level assertion",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "(\u003c) \u003c",
           "normalized": "a-\u003eb-\u003e()",
@@ -1385,6 +1504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the lower-than or equal abbreviated \n   type-level assertion \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "(\u003c=)",
           "package": "type-level",
@@ -1395,6 +1515,7 @@
         "index": {
           "description": "value-level reflection function for the lower-than or equal abbreviated type-level assertion",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "(\u003c=) \u003c=",
           "normalized": "a-\u003eb-\u003e()",
@@ -1410,6 +1531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the equality abbreviated \n   type-level assertion \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "(==)",
           "package": "type-level",
@@ -1420,6 +1542,7 @@
         "index": {
           "description": "value-level reflection function for the equality abbreviated type-level assertion",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "(==) ==",
           "normalized": "a-\u003eb-\u003e()",
@@ -1435,6 +1558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the equality abbreviated \n   type-level assertion \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "(\u003e)",
           "package": "type-level",
@@ -1445,6 +1569,7 @@
         "index": {
           "description": "value-level reflection function for the equality abbreviated type-level assertion",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "(\u003e) \u003e",
           "normalized": "a-\u003eb-\u003e()",
@@ -1460,6 +1585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the greater-than or equal abbreviated \n   type-level assertion \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "(\u003e=)",
           "package": "type-level",
@@ -1470,6 +1596,7 @@
         "index": {
           "description": "value-level reflection function for the greater-than or equal abbreviated type-level assertion",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "(\u003e=) \u003e=",
           "normalized": "a-\u003eb-\u003e()",
@@ -1485,6 +1612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the ExpBase type-level relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "(^)",
           "package": "type-level",
@@ -1495,6 +1623,7 @@
         "index": {
           "description": "value-level reflection function for the ExpBase type-level relation",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "(^) ^",
           "normalized": "a-\u003eb-\u003ec",
@@ -1510,6 +1639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the \u003ccode\u003e\u003ca\u003eDiv\u003c/a\u003e\u003c/code\u003e type-level relation \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "div",
           "package": "type-level",
@@ -1520,6 +1650,7 @@
         "index": {
           "description": "value-level reflection function for the Div type-level relation",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "div",
           "normalized": "a-\u003eb-\u003ec",
@@ -1535,6 +1666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for Mul10 \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "div10",
           "package": "type-level",
@@ -1545,6 +1677,7 @@
         "index": {
           "description": "value-level reflection function for Mul10",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "div10",
           "normalized": "a-\u003eb",
@@ -1560,6 +1693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the \u003ccode\u003e\u003ca\u003eDivMod\u003c/a\u003e\u003c/code\u003e type-level relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "divMod",
           "package": "type-level",
@@ -1570,6 +1704,7 @@
         "index": {
           "description": "value-level reflection function for the DivMod type-level relation",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "divMod",
           "normalized": "a-\u003eb-\u003e(c,d)",
@@ -1586,6 +1721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for DivMod10 \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "divMod10",
           "package": "type-level",
@@ -1596,6 +1732,7 @@
         "index": {
           "description": "value-level reflection function for DivMod10",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "divMod10",
           "normalized": "a-\u003e(b,c)",
@@ -1612,6 +1749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for Exp10\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "exp10",
           "package": "type-level",
@@ -1622,6 +1760,7 @@
         "index": {
           "description": "value-level reflection function for Exp10",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "exp10",
           "normalized": "a-\u003eb",
@@ -1637,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the GCD type-level relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "gcd",
           "package": "type-level",
@@ -1647,6 +1787,7 @@
         "index": {
           "description": "value-level reflection function for the GCD type-level relation",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "gcd",
           "normalized": "a-\u003eb-\u003ec",
@@ -1662,6 +1803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for IsDivBy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "isDivBy",
           "package": "type-level",
@@ -1672,6 +1814,7 @@
         "index": {
           "description": "value-level reflection function for IsDivBy",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "isDivBy",
           "normalized": "a-\u003eb",
@@ -1687,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "isPowOf",
           "package": "type-level",
@@ -1696,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "isPowOf",
           "normalized": "a-\u003eb-\u003e()",
@@ -1712,6 +1857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for \u003ccode\u003e\u003ca\u003eLog10\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "log10",
           "package": "type-level",
@@ -1722,6 +1868,7 @@
         "index": {
           "description": "value-level reflection function for Log10",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "log10",
           "normalized": "a-\u003eb",
@@ -1737,6 +1884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for LogBase\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "logBase",
           "package": "type-level",
@@ -1747,6 +1895,7 @@
         "index": {
           "description": "value-level reflection function for LogBase",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "logBase",
           "normalized": "a-\u003eb-\u003ec",
@@ -1763,6 +1912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for LogBaseF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "logBaseF",
           "package": "type-level",
@@ -1773,6 +1923,7 @@
         "index": {
           "description": "value-level reflection function for LogBaseF",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "logBaseF",
           "normalized": "a-\u003eb-\u003e(c,d)",
@@ -1789,6 +1940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the maximum type-level relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "max",
           "package": "type-level",
@@ -1799,6 +1951,7 @@
         "index": {
           "description": "value-level reflection function for the maximum type-level relation",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "max",
           "normalized": "a-\u003eb-\u003ec",
@@ -1814,6 +1967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the minimum type-level relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "min",
           "package": "type-level",
@@ -1824,6 +1978,7 @@
         "index": {
           "description": "value-level reflection function for the minimum type-level relation",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "min",
           "normalized": "a-\u003eb-\u003ec",
@@ -1839,6 +1994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the \u003ccode\u003e\u003ca\u003eMod\u003c/a\u003e\u003c/code\u003e type-level relation \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "mod",
           "package": "type-level",
@@ -1849,6 +2005,7 @@
         "index": {
           "description": "value-level reflection function for the Mod type-level relation",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "mod",
           "normalized": "a-\u003eb-\u003ec",
@@ -1864,6 +2021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for \u003ccode\u003e\u003ca\u003eMul10\u003c/a\u003e\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "mul10",
           "package": "type-level",
@@ -1874,6 +2032,7 @@
         "index": {
           "description": "value-level reflection function for Mul10",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "mul10",
           "normalized": "a-\u003eb",
@@ -1889,6 +2048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the \u003ccode\u003e\u003ca\u003ePred\u003c/a\u003e\u003c/code\u003e type-level relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "pred",
           "package": "type-level",
@@ -1899,6 +2059,7 @@
         "index": {
           "description": "value-level reflection function for the Pred type-level relation",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "pred",
           "normalized": "a-\u003eb",
@@ -1914,6 +2075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the \u003ccode\u003e\u003ca\u003eSucc\u003c/a\u003e\u003c/code\u003e type-level relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "succ",
           "package": "type-level",
@@ -1924,6 +2086,7 @@
         "index": {
           "description": "value-level reflection function for the Succ type-level relation",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "succ",
           "normalized": "a-\u003eb",
@@ -1939,6 +2102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue-level reflection function for the comparison type-level assertion \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "trich",
           "package": "type-level",
@@ -1949,6 +2113,7 @@
         "index": {
           "description": "value-level reflection function for the comparison type-level assertion",
           "hierarchy": "Data TypeLevel Num Ops",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Ops",
           "name": "trich",
           "normalized": "a-\u003eb-\u003ec",
@@ -1964,6 +2129,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level numerical representations. Currently, only decimals are \n supported.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "Reps",
           "package": "type-level",
@@ -1973,6 +2139,7 @@
         "index": {
           "description": "Type-level numerical representations Currently only decimals are supported",
           "hierarchy": "Data TypeLevel Num Reps",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "Reps",
           "package": "type-level",
@@ -1987,6 +2154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnective to glue digits together.\n   For example, \u003ccode\u003eD1 :* D0 :* D0\u003c/code\u003e represents the decimal number 100\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Reps",
           "name": ":*",
           "package": "type-level",
@@ -1996,6 +2164,7 @@
         "index": {
           "description": "Connective to glue digits together For example D1 D0 D0 represents the decimal number",
           "hierarchy": "Data TypeLevel Num Reps",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Reps",
           "name": ":*",
           "package": "type-level",
@@ -2009,6 +2178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D0",
           "package": "type-level",
@@ -2018,6 +2188,7 @@
         "index": {
           "description": "Decimal digit zero",
           "hierarchy": "Data TypeLevel Num Reps",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D0",
           "package": "type-level",
@@ -2031,6 +2202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D1",
           "package": "type-level",
@@ -2040,6 +2212,7 @@
         "index": {
           "description": "Decimal digit one",
           "hierarchy": "Data TypeLevel Num Reps",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D1",
           "package": "type-level",
@@ -2053,6 +2226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit two\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D2",
           "package": "type-level",
@@ -2062,6 +2236,7 @@
         "index": {
           "description": "Decimal digit two",
           "hierarchy": "Data TypeLevel Num Reps",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D2",
           "package": "type-level",
@@ -2075,6 +2250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit three \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D3",
           "package": "type-level",
@@ -2084,6 +2260,7 @@
         "index": {
           "description": "Decimal digit three",
           "hierarchy": "Data TypeLevel Num Reps",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D3",
           "package": "type-level",
@@ -2097,6 +2274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit four \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D4",
           "package": "type-level",
@@ -2106,6 +2284,7 @@
         "index": {
           "description": "Decimal digit four",
           "hierarchy": "Data TypeLevel Num Reps",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D4",
           "package": "type-level",
@@ -2119,6 +2298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit five\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D5",
           "package": "type-level",
@@ -2128,6 +2308,7 @@
         "index": {
           "description": "Decimal digit five",
           "hierarchy": "Data TypeLevel Num Reps",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D5",
           "package": "type-level",
@@ -2141,6 +2322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit six\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D6",
           "package": "type-level",
@@ -2150,6 +2332,7 @@
         "index": {
           "description": "Decimal digit six",
           "hierarchy": "Data TypeLevel Num Reps",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D6",
           "package": "type-level",
@@ -2163,6 +2346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit seven\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D7",
           "package": "type-level",
@@ -2172,6 +2356,7 @@
         "index": {
           "description": "Decimal digit seven",
           "hierarchy": "Data TypeLevel Num Reps",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D7",
           "package": "type-level",
@@ -2185,6 +2370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit eight\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D8",
           "package": "type-level",
@@ -2194,6 +2380,7 @@
         "index": {
           "description": "Decimal digit eight",
           "hierarchy": "Data TypeLevel Num Reps",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D8",
           "package": "type-level",
@@ -2207,6 +2394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecimal digit nine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D9",
           "package": "type-level",
@@ -2216,6 +2404,7 @@
         "index": {
           "description": "Decimal digit nine",
           "hierarchy": "Data TypeLevel Num Reps",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Reps",
           "name": "D9",
           "package": "type-level",
@@ -2228,6 +2417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Reps",
           "name": ":*",
           "package": "type-level",
@@ -2237,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "Data TypeLevel Num Reps",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Reps",
           "name": ":*",
           "package": "type-level",
@@ -2250,6 +2441,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level numerical sets. Currently there is only support for Naturals and \n Positives.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Sets",
           "name": "Sets",
           "package": "type-level",
@@ -2259,6 +2451,7 @@
         "index": {
           "description": "Type-level numerical sets Currently there is only support for Naturals and Positives",
           "hierarchy": "Data TypeLevel Num Sets",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Sets",
           "name": "Sets",
           "package": "type-level",
@@ -2273,6 +2466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNaturals (Positives and zero)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Sets",
           "name": "Nat",
           "package": "type-level",
@@ -2282,6 +2476,7 @@
         "index": {
           "description": "Naturals Positives and zero",
           "hierarchy": "Data TypeLevel Num Sets",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Sets",
           "name": "Nat",
           "package": "type-level",
@@ -2296,6 +2491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePositives (Naturals without zero)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Sets",
           "name": "Pos",
           "package": "type-level",
@@ -2305,6 +2501,7 @@
         "index": {
           "description": "Positives Naturals without zero",
           "hierarchy": "Data TypeLevel Num Sets",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Sets",
           "name": "Pos",
           "package": "type-level",
@@ -2319,6 +2516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReification function. In CPS style (best possible solution)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Sets",
           "name": "reifyIntegral",
           "package": "type-level",
@@ -2329,6 +2527,7 @@
         "index": {
           "description": "Reification function In CPS style best possible solution",
           "hierarchy": "Data TypeLevel Num Sets",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Sets",
           "name": "reifyIntegral",
           "normalized": "a-\u003eb)-\u003eb",
@@ -2345,6 +2544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLess generic reflecting function (Int)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Sets",
           "name": "toInt",
           "package": "type-level",
@@ -2355,6 +2555,7 @@
         "index": {
           "description": "Less generic reflecting function Int",
           "hierarchy": "Data TypeLevel Num Sets",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Sets",
           "name": "toInt",
           "normalized": "a-\u003eInt",
@@ -2371,6 +2572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReflecting function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num.Sets",
           "name": "toNum",
           "package": "type-level",
@@ -2381,6 +2583,7 @@
         "index": {
           "description": "Reflecting function",
           "hierarchy": "Data TypeLevel Num Sets",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num.Sets",
           "name": "toNum",
           "normalized": "a-\u003eb",
@@ -2397,6 +2600,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is a wrapper for all the publicly usable numerical types and \n functions of the type-level library.\n\u003c/p\u003e\u003cp\u003eHere is a tutorial on type-level numerals and how to use them to\n  implement numerically-parameterized vectors: \u003ca\u003ehttp://www.ict.kth.se/org/ict/ecs/sam/projects/forsyde/www/files/tutorial/tutorial.html#FSVec\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel.Num",
           "name": "Num",
           "package": "type-level",
@@ -2406,6 +2610,7 @@
         "index": {
           "description": "This module is wrapper for all the publicly usable numerical types and functions of the type-level library Here is tutorial on type-level numerals and how to use them to implement numerically-parameterized vectors http www.ict.kth.se org ict ecs sam projects forsyde www files tutorial tutorial.html FSVec",
           "hierarchy": "Data TypeLevel Num",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel.Num",
           "name": "Num",
           "package": "type-level",
@@ -2420,6 +2625,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is a wrapper for all the publicly usable types and functions\n of the type-level library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:29 UTC 2014",
           "module": "Data.TypeLevel",
           "name": "TypeLevel",
           "package": "type-level",
@@ -2429,6 +2635,7 @@
         "index": {
           "description": "This module is wrapper for all the publicly usable types and functions of the type-level library",
           "hierarchy": "Data TypeLevel",
+          "indexed": "2014-03-11T20:27:29",
           "module": "Data.TypeLevel",
           "name": "TypeLevel",
           "package": "type-level",

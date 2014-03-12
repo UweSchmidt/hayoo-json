@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mueval"
+        "phrase": "mueval",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.ArgsParse",
           "name": "ArgsParse",
           "package": "mueval",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Mueval ArgsParse",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.ArgsParse",
           "name": "ArgsParse",
           "package": "mueval",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee the results of --help for information on what each option means.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.ArgsParse",
           "name": "Options",
           "package": "mueval",
@@ -49,6 +52,7 @@
         "index": {
           "description": "See the results of help for information on what each option means",
           "hierarchy": "Mueval ArgsParse",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.ArgsParse",
           "name": "Options",
           "package": "mueval",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.ArgsParse",
           "name": "Options",
           "package": "mueval",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Mueval ArgsParse",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.ArgsParse",
           "name": "Options",
           "package": "mueval",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.ArgsParse",
           "name": "expression",
           "package": "mueval",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Mueval ArgsParse",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.ArgsParse",
           "name": "expression",
           "package": "mueval",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.ArgsParse",
           "name": "extensions",
           "package": "mueval",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Mueval ArgsParse",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.ArgsParse",
           "name": "extensions",
           "package": "mueval",
@@ -127,6 +137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust give us the end result options; this parsing for\n   us. Bonus points for handling UTF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.ArgsParse",
           "name": "getOptions",
           "package": "mueval",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Just give us the end result options this parsing for us Bonus points for handling UTF",
           "hierarchy": "Mueval ArgsParse",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.ArgsParse",
           "name": "getOptions",
           "normalized": "[String]-\u003eEither(Bool,String)Options",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.ArgsParse",
           "name": "help",
           "package": "mueval",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Mueval ArgsParse",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.ArgsParse",
           "name": "help",
           "package": "mueval",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.ArgsParse",
           "name": "interpreterOpts",
           "package": "mueval",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Mueval ArgsParse",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.ArgsParse",
           "name": "interpreterOpts",
           "normalized": "[String]-\u003eEither(Bool,String)Options",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.ArgsParse",
           "name": "loadFile",
           "package": "mueval",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Mueval ArgsParse",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.ArgsParse",
           "name": "loadFile",
           "package": "mueval",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.ArgsParse",
           "name": "modules",
           "package": "mueval",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Mueval ArgsParse",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.ArgsParse",
           "name": "modules",
           "normalized": "Maybe[String]",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.ArgsParse",
           "name": "namedExtensions",
           "package": "mueval",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Mueval ArgsParse",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.ArgsParse",
           "name": "namedExtensions",
           "normalized": "[String]",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.ArgsParse",
           "name": "noImports",
           "package": "mueval",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Mueval ArgsParse",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.ArgsParse",
           "name": "noImports",
           "package": "mueval",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.ArgsParse",
           "name": "packageTrust",
           "package": "mueval",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Mueval ArgsParse",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.ArgsParse",
           "name": "packageTrust",
           "package": "mueval",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.ArgsParse",
           "name": "printType",
           "package": "mueval",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Mueval ArgsParse",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.ArgsParse",
           "name": "printType",
           "package": "mueval",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.ArgsParse",
           "name": "rLimits",
           "package": "mueval",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Mueval ArgsParse",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.ArgsParse",
           "name": "rLimits",
           "package": "mueval",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.ArgsParse",
           "name": "timeLimit",
           "package": "mueval",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Mueval ArgsParse",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.ArgsParse",
           "name": "timeLimit",
           "package": "mueval",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.ArgsParse",
           "name": "trustedPackages",
           "package": "mueval",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Mueval ArgsParse",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.ArgsParse",
           "name": "trustedPackages",
           "normalized": "[String]",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.ArgsParse",
           "name": "user",
           "package": "mueval",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Mueval ArgsParse",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.ArgsParse",
           "name": "user",
           "package": "mueval",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Context",
           "name": "Context",
           "package": "mueval",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Mueval Context",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Context",
           "name": "Context",
           "package": "mueval",
@@ -443,6 +481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn false if any of the listed modules cannot be found in the whitelist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Context",
           "name": "cleanModules",
           "package": "mueval",
@@ -453,6 +492,7 @@
         "index": {
           "description": "Return false if any of the listed modules cannot be found in the whitelist",
           "hierarchy": "Mueval Context",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Context",
           "name": "cleanModules",
           "normalized": "[String]-\u003eBool",
@@ -469,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModules which we should load by default. These are of course whitelisted.\n   Specifically, we want the Prelude because otherwise things are horribly\n   crippled; we want SimpleReflect so we can do neat things (for said neat\n   things, see\n   \u003ca\u003ehttp://twan.home.fmf.nl/blog/haskell/simple-reflection-of-expressions.details\u003c/a\u003e);\n   and we want ShowFun to neuter IO stuff even more.\n   The rest should be safe to import without clashes, according to the Lambdabot\n   sources. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Context",
           "name": "defaultModules",
           "package": "mueval",
@@ -479,6 +520,7 @@
         "index": {
           "description": "Modules which we should load by default These are of course whitelisted Specifically we want the Prelude because otherwise things are horribly crippled we want SimpleReflect so we can do neat things for said neat things see http twan.home.fmf.nl blog haskell simple-reflection-of-expressions.details and we want ShowFun to neuter IO stuff even more The rest should be safe to import without clashes according to the Lambdabot sources",
           "hierarchy": "Mueval Context",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Context",
           "name": "defaultModules",
           "normalized": "[String]",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Context",
           "name": "defaultPackages",
           "package": "mueval",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Mueval Context",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Context",
           "name": "defaultPackages",
           "normalized": "[String]",
@@ -519,6 +563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBorrowed from Lambdabot, this is the whitelist of modules which should be\n   safe to import functions from, but which we don't want to import by\n   default.\n   FIXME: make these qualified imports. The GHC API & Hint currently do not\n   support qualified imports.\n   WARNING: You can import these with --module, certainly, but the onus is on\n   the user to make sure they fully disambiguate function names; ie:\n\u003c/p\u003e\u003cpre\u003e mueval  --module Data.Map -e \"Prelude.map (+1) [1..100]\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Context",
           "name": "qualifiedModules",
           "package": "mueval",
@@ -529,6 +574,7 @@
         "index": {
           "description": "Borrowed from Lambdabot this is the whitelist of modules which should be safe to import functions from but which we don want to import by default FIXME make these qualified imports The GHC API Hint currently do not support qualified imports WARNING You can import these with module certainly but the onus is on the user to make sure they fully disambiguate function names ie mueval module Data.Map Prelude.map",
           "hierarchy": "Mueval Context",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Context",
           "name": "qualifiedModules",
           "normalized": "[(String,Maybe String)]",
@@ -544,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Interpreter",
           "name": "Interpreter",
           "package": "mueval",
@@ -552,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Mueval Interpreter",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Interpreter",
           "name": "Interpreter",
           "package": "mueval",
@@ -565,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Interpreter",
           "name": "Stream",
           "package": "mueval",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Mueval Interpreter",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Interpreter",
           "name": "Stream",
           "package": "mueval",
@@ -586,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Interpreter",
           "name": "Cons",
           "package": "mueval",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Mueval Interpreter",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Interpreter",
           "name": "Cons",
           "package": "mueval",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Interpreter",
           "name": "End",
           "package": "mueval",
@@ -617,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Mueval Interpreter",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Interpreter",
           "name": "End",
           "package": "mueval",
@@ -630,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Interpreter",
           "name": "Exception",
           "package": "mueval",
@@ -639,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Mueval Interpreter",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Interpreter",
           "name": "Exception",
           "package": "mueval",
@@ -652,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Interpreter",
           "name": "exceptionMsg",
           "package": "mueval",
@@ -661,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Mueval Interpreter",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Interpreter",
           "name": "exceptionMsg",
           "package": "mueval",
@@ -675,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actual calling of Hint functionality. The heart of this just calls\n   \u003ccode\u003e\u003ca\u003eeval\u003c/a\u003e\u003c/code\u003e, but we do so much more - we disable Haskell extensions,\n   hide all packages, make sure one cannot call unimported\n   functions, typecheck, set resource limits for this\n   thread, and do some error handling. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Interpreter",
           "name": "interpreter",
           "package": "mueval",
@@ -685,6 +744,7 @@
         "index": {
           "description": "The actual calling of Hint functionality The heart of this just calls eval but we do so much more we disable Haskell extensions hide all packages make sure one cannot call unimported functions typecheck set resource limits for this thread and do some error handling",
           "hierarchy": "Mueval Interpreter",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Interpreter",
           "name": "interpreter",
           "normalized": "Options-\u003eInterpreter(String,String,String)",
@@ -700,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around \u003ccode\u003e\u003ca\u003einterpreter\u003c/a\u003e\u003c/code\u003e; supplies a fresh GHC API session and\n error-handling. The arguments are largely passed on, and the results lightly parsed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Interpreter",
           "name": "interpreterSession",
           "package": "mueval",
@@ -710,6 +771,7 @@
         "index": {
           "description": "Wrapper around interpreter supplies fresh GHC API session and error-handling The arguments are largely passed on and the results lightly parsed",
           "hierarchy": "Mueval Interpreter",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Interpreter",
           "name": "interpreterSession",
           "normalized": "Options-\u003eIO()",
@@ -725,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Interpreter",
           "name": "mvload",
           "package": "mueval",
@@ -734,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Mueval Interpreter",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Interpreter",
           "name": "mvload",
           "normalized": "FilePath-\u003eIO()",
@@ -749,6 +813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOh no, something has gone wrong. If it's a compilation error pretty print\n the first 1024 chars of it and throw an \u003ca\u003eExitException\u003c/a\u003e\n otherwise rethrow the exception in String form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Interpreter",
           "name": "printInterpreterError",
           "package": "mueval",
@@ -759,6 +824,7 @@
         "index": {
           "description": "Oh no something has gone wrong If it compilation error pretty print the first chars of it and throw an ExitException otherwise rethrow the exception in String form",
           "hierarchy": "Mueval Interpreter",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Interpreter",
           "name": "printInterpreterError",
           "normalized": "InterpreterError-\u003eIO()",
@@ -774,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Interpreter",
           "name": "readExt",
           "package": "mueval",
@@ -783,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Mueval Interpreter",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Interpreter",
           "name": "readExt",
           "normalized": "String-\u003eExtension",
@@ -799,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders the input String including its exceptions using \u003ccode\u003eexceptionMsg\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Interpreter",
           "name": "render",
           "package": "mueval",
@@ -808,6 +877,7 @@
         "index": {
           "description": "Renders the input String including its exceptions using exceptionMsg",
           "hierarchy": "Mueval Interpreter",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Interpreter",
           "name": "render",
           "normalized": "Int-\u003eString-\u003ea(String,Bool)",
@@ -823,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the String (presumably the result\n of interpreting something), but only print the first 1024 characters to avoid\n flooding. Lambdabot has a similar limit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Interpreter",
           "name": "sayIO",
           "package": "mueval",
@@ -833,6 +904,7 @@
         "index": {
           "description": "Print the String presumably the result of interpreting something but only print the first characters to avoid flooding Lambdabot has similar limit",
           "hierarchy": "Mueval Interpreter",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Interpreter",
           "name": "sayIO",
           "normalized": "String-\u003eIO()",
@@ -848,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Interpreter",
           "name": "toStream",
           "package": "mueval",
@@ -857,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Mueval Interpreter",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Interpreter",
           "name": "toStream",
           "normalized": "String-\u003eIO Stream",
@@ -872,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Parallel",
           "name": "Parallel",
           "package": "mueval",
@@ -880,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Mueval Parallel",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Parallel",
           "name": "Parallel",
           "package": "mueval",
@@ -894,6 +970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic blocking operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Parallel",
           "name": "block",
           "package": "mueval",
@@ -904,6 +981,7 @@
         "index": {
           "description": "basic blocking operation",
           "hierarchy": "Mueval Parallel",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Parallel",
           "name": "block",
           "normalized": "(a-\u003eMVar b-\u003eIO a)-\u003ea-\u003eIO b",
@@ -919,6 +997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsing MVars, block on \u003ccode\u003e\u003ca\u003eforkedMain\u003c/a\u003e\u003c/code\u003e until it finishes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Parallel",
           "name": "forkedMain",
           "package": "mueval",
@@ -929,6 +1008,7 @@
         "index": {
           "description": "Using MVars block on forkedMain until it finishes",
           "hierarchy": "Mueval Parallel",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Parallel",
           "name": "forkedMain",
           "normalized": "Options-\u003eIO()",
@@ -945,6 +1025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a \u003ccode\u003e\u003ca\u003ewatchDog\u003c/a\u003e\u003c/code\u003e on this thread, and then continue on with whatever.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Parallel",
           "name": "forkedMain'",
           "package": "mueval",
@@ -955,6 +1036,7 @@
         "index": {
           "description": "Set watchDog on this thread and then continue on with whatever",
           "hierarchy": "Mueval Parallel",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Parallel",
           "name": "forkedMain'",
           "normalized": "Options-\u003eMVar String-\u003eIO ThreadId",
@@ -971,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFork off a thread which will sleep and then kill off the specified thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Parallel",
           "name": "watchDog",
           "package": "mueval",
@@ -981,6 +1064,7 @@
         "index": {
           "description": "Fork off thread which will sleep and then kill off the specified thread",
           "hierarchy": "Mueval Parallel",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Parallel",
           "name": "watchDog",
           "normalized": "Int-\u003eThreadId-\u003eIO()",
@@ -996,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Resources",
           "name": "Resources",
           "package": "mueval",
@@ -1004,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Mueval Resources",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Resources",
           "name": "Resources",
           "package": "mueval",
@@ -1018,6 +1104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePull together several methods of reducing priority and easy access to resources:\n  \u003ccode\u003e\u003ca\u003enice\u003c/a\u003e\u003c/code\u003e, and the rlimit bindings,\n  If called with False, \u003ccode\u003e\u003ca\u003elimitResources\u003c/a\u003e\u003c/code\u003e will not use POSIX rlimits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:37 UTC 2014",
           "module": "Mueval.Resources",
           "name": "limitResources",
           "package": "mueval",
@@ -1028,6 +1115,7 @@
         "index": {
           "description": "Pull together several methods of reducing priority and easy access to resources nice and the rlimit bindings If called with False limitResources will not use POSIX rlimits",
           "hierarchy": "Mueval Resources",
+          "indexed": "2014-03-11T19:23:37",
           "module": "Mueval.Resources",
           "name": "limitResources",
           "normalized": "Bool-\u003eIO()",

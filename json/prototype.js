@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "prototype"
+        "phrase": "prototype",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "Prototype",
           "package": "prototype",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "Prototype",
           "package": "prototype",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "Member",
           "package": "prototype",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "Member",
           "package": "prototype",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "Method",
           "package": "prototype",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "Method",
           "package": "prototype",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "Object",
           "package": "prototype",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "Object",
           "package": "prototype",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "Prot",
           "package": "prototype",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "Prot",
           "package": "prototype",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "ProtEnv",
           "package": "prototype",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "ProtEnv",
           "package": "prototype",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "clone",
           "package": "prototype",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "clone",
           "normalized": "Object-\u003eProt a Object",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "evalProt",
           "package": "prototype",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "evalProt",
           "normalized": "Prot a b-\u003eProtEnv a-\u003ea b",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "execProt",
           "package": "prototype",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "execProt",
           "normalized": "Prot a b-\u003eProtEnv a-\u003ea(ProtEnv a)",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "fromPrimBool",
           "package": "prototype",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "fromPrimBool",
           "normalized": "Object-\u003eBool",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "fromPrimInt",
           "package": "prototype",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "fromPrimInt",
           "normalized": "Object-\u003eInt",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "fromPrimStr",
           "package": "prototype",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "fromPrimStr",
           "normalized": "Object-\u003eString",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "initProtEnv",
           "package": "prototype",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "initProtEnv",
           "package": "prototype",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "liftProt",
           "package": "prototype",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "liftProt",
           "normalized": "a b-\u003eProt a b",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "makeMember",
           "package": "prototype",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "makeMember",
           "normalized": "String-\u003eProt a Member",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "makeMethod",
           "package": "prototype",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "makeMethod",
           "normalized": "Method a-\u003eProt a Object",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "member",
           "package": "prototype",
@@ -390,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "member",
           "normalized": "Object-\u003eMember-\u003eProt a Object",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "method",
           "package": "prototype",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "method",
           "normalized": "Object-\u003eMember-\u003e[Object]-\u003eProt a[Object]",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "object",
           "package": "prototype",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "object",
           "package": "prototype",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "package",
           "package": "prototype",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "package",
           "normalized": "String-\u003eProt a b-\u003eProt a b",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "primBool",
           "package": "prototype",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "primBool",
           "normalized": "Bool-\u003eObject",
@@ -495,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "primInt",
           "package": "prototype",
@@ -504,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "primInt",
           "normalized": "Int-\u003eObject",
@@ -519,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "primStr",
           "package": "prototype",
@@ -528,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "primStr",
           "normalized": "String-\u003eObject",
@@ -543,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "printMember",
           "package": "prototype",
@@ -552,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "printMember",
           "normalized": "Member-\u003ea()",
@@ -567,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "runProt",
           "package": "prototype",
@@ -576,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "runProt",
           "normalized": "Prot a b-\u003eProtEnv a-\u003ea(b,ProtEnv a)",
@@ -591,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "setMember",
           "package": "prototype",
@@ -600,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "setMember",
           "normalized": "Object-\u003eMember-\u003eObject-\u003eProt a()",
@@ -615,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:39 UTC 2014",
           "module": "Control.Prototype",
           "name": "setMethod",
           "package": "prototype",
@@ -624,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Control Prototype",
+          "indexed": "2014-03-11T19:45:39",
           "module": "Control.Prototype",
           "name": "setMethod",
           "normalized": "Object-\u003eMember-\u003eMethod a-\u003eProt a()",

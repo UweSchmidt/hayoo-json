@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ShellCheck"
+        "phrase": "ShellCheck",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "AST",
           "package": "ShellCheck",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "AST",
           "package": "ShellCheck",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "Annotation",
           "package": "ShellCheck",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "Annotation",
           "package": "ShellCheck",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "AssignmentMode",
           "package": "ShellCheck",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "AssignmentMode",
           "package": "ShellCheck",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "ConditionType",
           "package": "ShellCheck",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "ConditionType",
           "package": "ShellCheck",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "Dashed",
           "package": "ShellCheck",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "Dashed",
           "package": "ShellCheck",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "FunctionKeyword",
           "package": "ShellCheck",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "FunctionKeyword",
           "package": "ShellCheck",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "FunctionParentheses",
           "package": "ShellCheck",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "FunctionParentheses",
           "package": "ShellCheck",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "Id",
           "package": "ShellCheck",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "Id",
           "package": "ShellCheck",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "Quoted",
           "package": "ShellCheck",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "Quoted",
           "package": "ShellCheck",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "Token",
           "package": "ShellCheck",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "Token",
           "package": "ShellCheck",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "Append",
           "package": "ShellCheck",
@@ -237,6 +258,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "Append",
           "package": "ShellCheck",
@@ -250,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "Assign",
           "package": "ShellCheck",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "Assign",
           "package": "ShellCheck",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "Dashed",
           "package": "ShellCheck",
@@ -281,6 +306,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "Dashed",
           "package": "ShellCheck",
@@ -294,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "DisableComment",
           "package": "ShellCheck",
@@ -303,6 +330,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "DisableComment",
           "package": "ShellCheck",
@@ -316,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "DoubleBracket",
           "package": "ShellCheck",
@@ -325,6 +354,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "DoubleBracket",
           "package": "ShellCheck",
@@ -338,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "FunctionKeyword",
           "package": "ShellCheck",
@@ -347,6 +378,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "FunctionKeyword",
           "package": "ShellCheck",
@@ -360,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "FunctionParentheses",
           "package": "ShellCheck",
@@ -369,6 +402,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "FunctionParentheses",
           "package": "ShellCheck",
@@ -382,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "Id",
           "package": "ShellCheck",
@@ -391,6 +426,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "Id",
           "package": "ShellCheck",
@@ -404,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "Quoted",
           "package": "ShellCheck",
@@ -413,6 +450,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "Quoted",
           "package": "ShellCheck",
@@ -426,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "SingleBracket",
           "package": "ShellCheck",
@@ -435,6 +474,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "SingleBracket",
           "package": "ShellCheck",
@@ -448,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "TA_Base",
           "package": "ShellCheck",
@@ -457,6 +498,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "TA_Base",
           "package": "ShellCheck",
@@ -470,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "TA_Binary",
           "package": "ShellCheck",
@@ -479,6 +522,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "TA_Binary",
           "package": "ShellCheck",
@@ -492,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "TA_Expansion",
           "package": "ShellCheck",
@@ -501,6 +546,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "TA_Expansion",
           "package": "ShellCheck",
@@ -514,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "TA_Literal",
           "package": "ShellCheck",
@@ -523,6 +570,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "TA_Literal",
           "package": "ShellCheck",
@@ -536,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "TA_Sequence",
           "package": "ShellCheck",
@@ -545,6 +594,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "TA_Sequence",
           "normalized": "TA_Sequence Id[Token]",
@@ -560,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "TA_Trinary",
           "package": "ShellCheck",
@@ -569,6 +620,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "TA_Trinary",
           "package": "ShellCheck",
@@ -582,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "TA_Unary",
           "package": "ShellCheck",
@@ -591,6 +644,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "TA_Unary",
           "package": "ShellCheck",
@@ -604,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "TA_Variable",
           "package": "ShellCheck",
@@ -613,6 +668,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "TA_Variable",
           "package": "ShellCheck",
@@ -626,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "TC_And",
           "package": "ShellCheck",
@@ -635,6 +692,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "TC_And",
           "package": "ShellCheck",
@@ -648,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "TC_Binary",
           "package": "ShellCheck",
@@ -657,6 +716,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "TC_Binary",
           "package": "ShellCheck",
@@ -670,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "TC_Group",
           "package": "ShellCheck",
@@ -679,6 +740,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "TC_Group",
           "package": "ShellCheck",
@@ -692,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "TC_Noary",
           "package": "ShellCheck",
@@ -701,6 +764,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "TC_Noary",
           "package": "ShellCheck",
@@ -714,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "TC_Or",
           "package": "ShellCheck",
@@ -723,6 +788,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "TC_Or",
           "package": "ShellCheck",
@@ -736,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "TC_Unary",
           "package": "ShellCheck",
@@ -745,6 +812,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "TC_Unary",
           "package": "ShellCheck",
@@ -758,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_AND_IF",
           "package": "ShellCheck",
@@ -767,6 +836,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_AND_IF",
           "package": "ShellCheck",
@@ -780,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_AndIf",
           "package": "ShellCheck",
@@ -789,6 +860,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_AndIf",
           "package": "ShellCheck",
@@ -802,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Annotation",
           "package": "ShellCheck",
@@ -811,6 +884,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Annotation",
           "normalized": "T_Annotation Id[Annotation]Token",
@@ -826,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Arithmetic",
           "package": "ShellCheck",
@@ -835,6 +910,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Arithmetic",
           "package": "ShellCheck",
@@ -848,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Array",
           "package": "ShellCheck",
@@ -857,6 +934,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Array",
           "normalized": "T_Array Id[Token]",
@@ -872,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Assignment",
           "package": "ShellCheck",
@@ -881,6 +960,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Assignment",
           "package": "ShellCheck",
@@ -894,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Backgrounded",
           "package": "ShellCheck",
@@ -903,6 +984,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Backgrounded",
           "package": "ShellCheck",
@@ -916,6 +998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Backticked",
           "package": "ShellCheck",
@@ -925,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Backticked",
           "normalized": "T_Backticked Id[Token]",
@@ -940,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Bang",
           "package": "ShellCheck",
@@ -949,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Bang",
           "package": "ShellCheck",
@@ -962,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Banged",
           "package": "ShellCheck",
@@ -971,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Banged",
           "package": "ShellCheck",
@@ -984,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_BraceExpansion",
           "package": "ShellCheck",
@@ -993,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_BraceExpansion",
           "package": "ShellCheck",
@@ -1006,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_BraceGroup",
           "package": "ShellCheck",
@@ -1015,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_BraceGroup",
           "normalized": "T_BraceGroup Id[Token]",
@@ -1030,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_CLOBBER",
           "package": "ShellCheck",
@@ -1039,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_CLOBBER",
           "package": "ShellCheck",
@@ -1052,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Case",
           "package": "ShellCheck",
@@ -1061,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Case",
           "package": "ShellCheck",
@@ -1074,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_CaseExpression",
           "package": "ShellCheck",
@@ -1083,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_CaseExpression",
           "normalized": "T_CaseExpression Id Token[([Token],[Token])]",
@@ -1098,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Condition",
           "package": "ShellCheck",
@@ -1107,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Condition",
           "package": "ShellCheck",
@@ -1120,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_DGREAT",
           "package": "ShellCheck",
@@ -1129,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_DGREAT",
           "package": "ShellCheck",
@@ -1142,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_DLESS",
           "package": "ShellCheck",
@@ -1151,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_DLESS",
           "package": "ShellCheck",
@@ -1164,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_DLESSDASH",
           "package": "ShellCheck",
@@ -1173,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_DLESSDASH",
           "package": "ShellCheck",
@@ -1186,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_DSEMI",
           "package": "ShellCheck",
@@ -1195,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_DSEMI",
           "package": "ShellCheck",
@@ -1208,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Do",
           "package": "ShellCheck",
@@ -1217,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Do",
           "package": "ShellCheck",
@@ -1230,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_DollarArithmetic",
           "package": "ShellCheck",
@@ -1239,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_DollarArithmetic",
           "package": "ShellCheck",
@@ -1252,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_DollarBraced",
           "package": "ShellCheck",
@@ -1261,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_DollarBraced",
           "package": "ShellCheck",
@@ -1274,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_DollarBracket",
           "package": "ShellCheck",
@@ -1283,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_DollarBracket",
           "package": "ShellCheck",
@@ -1296,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_DollarDoubleQuoted",
           "package": "ShellCheck",
@@ -1305,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_DollarDoubleQuoted",
           "normalized": "T_DollarDoubleQuoted Id[Token]",
@@ -1320,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_DollarExpansion",
           "package": "ShellCheck",
@@ -1329,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_DollarExpansion",
           "normalized": "T_DollarExpansion Id[Token]",
@@ -1344,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_DollarSingleQuoted",
           "package": "ShellCheck",
@@ -1353,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_DollarSingleQuoted",
           "package": "ShellCheck",
@@ -1366,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Done",
           "package": "ShellCheck",
@@ -1375,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Done",
           "package": "ShellCheck",
@@ -1388,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_DoubleQuoted",
           "package": "ShellCheck",
@@ -1397,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_DoubleQuoted",
           "normalized": "T_DoubleQuoted Id[Token]",
@@ -1412,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_EOF",
           "package": "ShellCheck",
@@ -1421,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_EOF",
           "package": "ShellCheck",
@@ -1434,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Elif",
           "package": "ShellCheck",
@@ -1443,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Elif",
           "package": "ShellCheck",
@@ -1456,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Else",
           "package": "ShellCheck",
@@ -1465,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Else",
           "package": "ShellCheck",
@@ -1478,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Esac",
           "package": "ShellCheck",
@@ -1487,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Esac",
           "package": "ShellCheck",
@@ -1500,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Extglob",
           "package": "ShellCheck",
@@ -1509,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Extglob",
           "normalized": "T_Extglob Id String[Token]",
@@ -1524,6 +1660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_FdRedirect",
           "package": "ShellCheck",
@@ -1533,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_FdRedirect",
           "package": "ShellCheck",
@@ -1546,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Fi",
           "package": "ShellCheck",
@@ -1555,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Fi",
           "package": "ShellCheck",
@@ -1568,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_For",
           "package": "ShellCheck",
@@ -1577,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_For",
           "package": "ShellCheck",
@@ -1590,6 +1732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_ForArithmetic",
           "package": "ShellCheck",
@@ -1599,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_ForArithmetic",
           "normalized": "T_ForArithmetic Id Token Token Token[Token]",
@@ -1614,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_ForIn",
           "package": "ShellCheck",
@@ -1623,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_ForIn",
           "normalized": "T_ForIn Id String[Token][Token]",
@@ -1638,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Function",
           "package": "ShellCheck",
@@ -1647,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Function",
           "package": "ShellCheck",
@@ -1660,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_GREATAND",
           "package": "ShellCheck",
@@ -1669,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_GREATAND",
           "package": "ShellCheck",
@@ -1682,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Glob",
           "package": "ShellCheck",
@@ -1691,6 +1842,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Glob",
           "package": "ShellCheck",
@@ -1704,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Greater",
           "package": "ShellCheck",
@@ -1713,6 +1866,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Greater",
           "package": "ShellCheck",
@@ -1726,6 +1880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_HereDoc",
           "package": "ShellCheck",
@@ -1735,6 +1890,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_HereDoc",
           "normalized": "T_HereDoc Id Dashed Quoted String[Token]",
@@ -1750,6 +1906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_HereString",
           "package": "ShellCheck",
@@ -1759,6 +1916,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_HereString",
           "package": "ShellCheck",
@@ -1772,6 +1930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_If",
           "package": "ShellCheck",
@@ -1781,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_If",
           "package": "ShellCheck",
@@ -1794,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_IfExpression",
           "package": "ShellCheck",
@@ -1803,6 +1964,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_IfExpression",
           "normalized": "T_IfExpression Id[([Token],[Token])][Token]",
@@ -1818,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_In",
           "package": "ShellCheck",
@@ -1827,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_In",
           "package": "ShellCheck",
@@ -1840,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_IoFile",
           "package": "ShellCheck",
@@ -1849,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_IoFile",
           "package": "ShellCheck",
@@ -1862,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_LESSAND",
           "package": "ShellCheck",
@@ -1871,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_LESSAND",
           "package": "ShellCheck",
@@ -1884,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_LESSGREAT",
           "package": "ShellCheck",
@@ -1893,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_LESSGREAT",
           "package": "ShellCheck",
@@ -1906,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Lbrace",
           "package": "ShellCheck",
@@ -1915,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Lbrace",
           "package": "ShellCheck",
@@ -1928,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Less",
           "package": "ShellCheck",
@@ -1937,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Less",
           "package": "ShellCheck",
@@ -1950,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Literal",
           "package": "ShellCheck",
@@ -1959,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Literal",
           "package": "ShellCheck",
@@ -1972,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Lparen",
           "package": "ShellCheck",
@@ -1981,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Lparen",
           "package": "ShellCheck",
@@ -1994,6 +2172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_NEWLINE",
           "package": "ShellCheck",
@@ -2003,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_NEWLINE",
           "package": "ShellCheck",
@@ -2016,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_NormalWord",
           "package": "ShellCheck",
@@ -2025,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_NormalWord",
           "normalized": "T_NormalWord Id[Token]",
@@ -2040,6 +2222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_OR_IF",
           "package": "ShellCheck",
@@ -2049,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_OR_IF",
           "package": "ShellCheck",
@@ -2062,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_OrIf",
           "package": "ShellCheck",
@@ -2071,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_OrIf",
           "package": "ShellCheck",
@@ -2084,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Pipeline",
           "package": "ShellCheck",
@@ -2093,6 +2280,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Pipeline",
           "normalized": "T_Pipeline Id[Token]",
@@ -2108,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_ProcSub",
           "package": "ShellCheck",
@@ -2117,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_ProcSub",
           "normalized": "T_ProcSub Id String[Token]",
@@ -2132,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Rbrace",
           "package": "ShellCheck",
@@ -2141,6 +2332,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Rbrace",
           "package": "ShellCheck",
@@ -2154,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Redirecting",
           "package": "ShellCheck",
@@ -2163,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Redirecting",
           "normalized": "T_Redirecting Id[Token]Token",
@@ -2178,6 +2372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Rparen",
           "package": "ShellCheck",
@@ -2187,6 +2382,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Rparen",
           "package": "ShellCheck",
@@ -2200,6 +2396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Script",
           "package": "ShellCheck",
@@ -2209,6 +2406,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Script",
           "normalized": "T_Script Id String[Token]",
@@ -2224,6 +2422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Select",
           "package": "ShellCheck",
@@ -2233,6 +2432,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Select",
           "package": "ShellCheck",
@@ -2246,6 +2446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_SelectIn",
           "package": "ShellCheck",
@@ -2255,6 +2456,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_SelectIn",
           "normalized": "T_SelectIn Id String[Token][Token]",
@@ -2270,6 +2472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Semi",
           "package": "ShellCheck",
@@ -2279,6 +2482,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Semi",
           "package": "ShellCheck",
@@ -2292,6 +2496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_SimpleCommand",
           "package": "ShellCheck",
@@ -2301,6 +2506,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_SimpleCommand",
           "normalized": "T_SimpleCommand Id[Token][Token]",
@@ -2316,6 +2522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_SingleQuoted",
           "package": "ShellCheck",
@@ -2325,6 +2532,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_SingleQuoted",
           "package": "ShellCheck",
@@ -2338,6 +2546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Subshell",
           "package": "ShellCheck",
@@ -2347,6 +2556,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Subshell",
           "normalized": "T_Subshell Id[Token]",
@@ -2362,6 +2572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Then",
           "package": "ShellCheck",
@@ -2371,6 +2582,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Then",
           "package": "ShellCheck",
@@ -2384,6 +2596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_Until",
           "package": "ShellCheck",
@@ -2393,6 +2606,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_Until",
           "package": "ShellCheck",
@@ -2406,6 +2620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_UntilExpression",
           "package": "ShellCheck",
@@ -2415,6 +2630,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_UntilExpression",
           "normalized": "T_UntilExpression Id[Token][Token]",
@@ -2430,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_While",
           "package": "ShellCheck",
@@ -2439,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_While",
           "package": "ShellCheck",
@@ -2452,6 +2670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "T_WhileExpression",
           "package": "ShellCheck",
@@ -2461,6 +2680,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "T_WhileExpression",
           "normalized": "T_WhileExpression Id[Token][Token]",
@@ -2476,6 +2696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "Undashed",
           "package": "ShellCheck",
@@ -2485,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "Undashed",
           "package": "ShellCheck",
@@ -2498,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "Unquoted",
           "package": "ShellCheck",
@@ -2507,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "Unquoted",
           "package": "ShellCheck",
@@ -2520,6 +2744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "analyze",
           "package": "ShellCheck",
@@ -2529,6 +2754,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "analyze",
           "normalized": "(Token-\u003ea())-\u003e(Token-\u003ea())-\u003e(Token-\u003eToken)-\u003eToken-\u003ea Token",
@@ -2543,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "blank",
           "package": "ShellCheck",
@@ -2552,6 +2779,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "blank",
           "normalized": "Token-\u003ea()",
@@ -2566,6 +2794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "doAnalysis",
           "package": "ShellCheck",
@@ -2575,6 +2804,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "doAnalysis",
           "normalized": "(Token-\u003ea())-\u003eToken-\u003ea Token",
@@ -2590,6 +2820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "doStackAnalysis",
           "package": "ShellCheck",
@@ -2599,6 +2830,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "doStackAnalysis",
           "normalized": "(Token-\u003ea())-\u003e(Token-\u003ea())-\u003eToken-\u003ea Token",
@@ -2614,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "doTransform",
           "package": "ShellCheck",
@@ -2623,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "doTransform",
           "normalized": "(Token-\u003eToken)-\u003eToken-\u003eToken",
@@ -2638,6 +2872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "getId",
           "package": "ShellCheck",
@@ -2647,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "getId",
           "normalized": "Token-\u003eId",
@@ -2662,6 +2898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "isLoop",
           "package": "ShellCheck",
@@ -2671,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "isLoop",
           "normalized": "Token-\u003eBool",
@@ -2686,6 +2924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.AST",
           "name": "lolHax",
           "package": "ShellCheck",
@@ -2695,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck AST",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.AST",
           "name": "lolHax",
           "normalized": "a-\u003eString",
@@ -2710,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Analytics",
           "name": "Analytics",
           "package": "ShellCheck",
@@ -2718,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Analytics",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Analytics",
           "name": "Analytics",
           "package": "ShellCheck",
@@ -2731,6 +2973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Analytics",
           "name": "AnalysisOption",
           "package": "ShellCheck",
@@ -2739,6 +2982,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Analytics",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Analytics",
           "name": "AnalysisOption",
           "package": "ShellCheck",
@@ -2752,6 +2996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Analytics",
           "name": "ForceShell",
           "package": "ShellCheck",
@@ -2761,6 +3006,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Analytics",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Analytics",
           "name": "ForceShell",
           "package": "ShellCheck",
@@ -2774,6 +3020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Analytics",
           "name": "filterByAnnotation",
           "package": "ShellCheck",
@@ -2783,6 +3030,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Analytics",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Analytics",
           "name": "filterByAnnotation",
           "normalized": "Token-\u003e[Note]-\u003e[Note]",
@@ -2798,6 +3046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Analytics",
           "name": "runAnalytics",
           "package": "ShellCheck",
@@ -2807,6 +3056,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Analytics",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Analytics",
           "name": "runAnalytics",
           "normalized": "[AnalysisOption]-\u003eToken-\u003e[Note]",
@@ -2822,6 +3072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Analytics",
           "name": "shellForExecutable",
           "package": "ShellCheck",
@@ -2831,6 +3082,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Analytics",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Analytics",
           "name": "shellForExecutable",
           "normalized": "[Char]-\u003eMaybe Shell",
@@ -2846,6 +3098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Data",
           "name": "Data",
           "package": "ShellCheck",
@@ -2854,6 +3107,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Data",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Data",
           "name": "Data",
           "package": "ShellCheck",
@@ -2867,6 +3121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Data",
           "name": "commonCommands",
           "package": "ShellCheck",
@@ -2876,6 +3131,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Data",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Data",
           "name": "commonCommands",
           "normalized": "[[Char]]",
@@ -2891,6 +3147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Data",
           "name": "internalVariables",
           "package": "ShellCheck",
@@ -2900,6 +3157,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Data",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Data",
           "name": "internalVariables",
           "normalized": "[[Char]]",
@@ -2915,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Data",
           "name": "shellcheckVersion",
           "package": "ShellCheck",
@@ -2924,6 +3183,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Data",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Data",
           "name": "shellcheckVersion",
           "normalized": "[Char]",
@@ -2939,6 +3199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Data",
           "name": "variablesWithoutSpaces",
           "package": "ShellCheck",
@@ -2948,6 +3209,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Data",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Data",
           "name": "variablesWithoutSpaces",
           "normalized": "[[Char]]",
@@ -2963,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Parser",
           "name": "Parser",
           "package": "ShellCheck",
@@ -2971,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Parser",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Parser",
           "name": "Parser",
           "package": "ShellCheck",
@@ -2984,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Parser",
           "name": "Note",
           "package": "ShellCheck",
@@ -2992,6 +3257,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Parser",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Parser",
           "name": "Note",
           "package": "ShellCheck",
@@ -3005,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Parser",
           "name": "ParseNote",
           "package": "ShellCheck",
@@ -3013,6 +3280,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Parser",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Parser",
           "name": "ParseNote",
           "package": "ShellCheck",
@@ -3026,6 +3294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Parser",
           "name": "ParseResult",
           "package": "ShellCheck",
@@ -3034,6 +3303,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Parser",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Parser",
           "name": "ParseResult",
           "package": "ShellCheck",
@@ -3047,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Parser",
           "name": "Severity",
           "package": "ShellCheck",
@@ -3055,6 +3326,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Parser",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Parser",
           "name": "Severity",
           "package": "ShellCheck",
@@ -3068,6 +3340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Parser",
           "name": "ErrorC",
           "package": "ShellCheck",
@@ -3077,6 +3350,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Parser",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Parser",
           "name": "ErrorC",
           "package": "ShellCheck",
@@ -3090,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Parser",
           "name": "InfoC",
           "package": "ShellCheck",
@@ -3099,6 +3374,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Parser",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Parser",
           "name": "InfoC",
           "package": "ShellCheck",
@@ -3112,6 +3388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Parser",
           "name": "Note",
           "package": "ShellCheck",
@@ -3121,6 +3398,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Parser",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Parser",
           "name": "Note",
           "package": "ShellCheck",
@@ -3134,6 +3412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Parser",
           "name": "ParseNote",
           "package": "ShellCheck",
@@ -3143,6 +3422,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Parser",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Parser",
           "name": "ParseNote",
           "package": "ShellCheck",
@@ -3156,6 +3436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Parser",
           "name": "ParseResult",
           "package": "ShellCheck",
@@ -3165,6 +3446,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Parser",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Parser",
           "name": "ParseResult",
           "package": "ShellCheck",
@@ -3178,6 +3460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Parser",
           "name": "StyleC",
           "package": "ShellCheck",
@@ -3187,6 +3470,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Parser",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Parser",
           "name": "StyleC",
           "package": "ShellCheck",
@@ -3200,6 +3484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Parser",
           "name": "WarningC",
           "package": "ShellCheck",
@@ -3209,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Parser",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Parser",
           "name": "WarningC",
           "package": "ShellCheck",
@@ -3222,6 +3508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Parser",
           "name": "noteToParseNote",
           "package": "ShellCheck",
@@ -3231,6 +3518,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Parser",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Parser",
           "name": "noteToParseNote",
           "normalized": "Map Id SourcePos-\u003eNote-\u003eParseNote",
@@ -3246,6 +3534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Parser",
           "name": "parseNotes",
           "package": "ShellCheck",
@@ -3255,6 +3544,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Parser",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Parser",
           "name": "parseNotes",
           "normalized": "[ParseNote]",
@@ -3270,6 +3560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Parser",
           "name": "parseResult",
           "package": "ShellCheck",
@@ -3279,6 +3570,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Parser",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Parser",
           "name": "parseResult",
           "normalized": "Maybe(Token,Map Id SourcePos)",
@@ -3294,6 +3586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Parser",
           "name": "parseShell",
           "package": "ShellCheck",
@@ -3303,6 +3596,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Parser",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Parser",
           "name": "parseShell",
           "normalized": "SourceName-\u003e[Char]-\u003eParseResult",
@@ -3318,6 +3612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Parser",
           "name": "sortNotes",
           "package": "ShellCheck",
@@ -3327,6 +3622,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Parser",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Parser",
           "name": "sortNotes",
           "normalized": "[ParseNote]-\u003e[ParseNote]",
@@ -3342,6 +3638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Simple",
           "name": "Simple",
           "package": "ShellCheck",
@@ -3350,6 +3647,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Simple",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Simple",
           "name": "Simple",
           "package": "ShellCheck",
@@ -3363,6 +3661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Simple",
           "name": "ShellCheckComment",
           "package": "ShellCheck",
@@ -3371,6 +3670,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Simple",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Simple",
           "name": "ShellCheckComment",
           "package": "ShellCheck",
@@ -3384,6 +3684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Simple",
           "name": "scCode",
           "package": "ShellCheck",
@@ -3393,6 +3694,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Simple",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Simple",
           "name": "scCode",
           "normalized": "ShellCheckComment-\u003eInt",
@@ -3408,6 +3710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Simple",
           "name": "scColumn",
           "package": "ShellCheck",
@@ -3417,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Simple",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Simple",
           "name": "scColumn",
           "normalized": "ShellCheckComment-\u003eInt",
@@ -3432,6 +3736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Simple",
           "name": "scLine",
           "package": "ShellCheck",
@@ -3441,6 +3746,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Simple",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Simple",
           "name": "scLine",
           "normalized": "ShellCheckComment-\u003eInt",
@@ -3456,6 +3762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Simple",
           "name": "scMessage",
           "package": "ShellCheck",
@@ -3465,6 +3772,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Simple",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Simple",
           "name": "scMessage",
           "normalized": "ShellCheckComment-\u003eString",
@@ -3480,6 +3788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Simple",
           "name": "scSeverity",
           "package": "ShellCheck",
@@ -3489,6 +3798,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Simple",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Simple",
           "name": "scSeverity",
           "normalized": "ShellCheckComment-\u003eString",
@@ -3504,6 +3814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:20 UTC 2014",
           "module": "ShellCheck.Simple",
           "name": "shellCheck",
           "package": "ShellCheck",
@@ -3513,6 +3824,7 @@
         },
         "index": {
           "hierarchy": "ShellCheck Simple",
+          "indexed": "2014-03-11T17:00:20",
           "module": "ShellCheck.Simple",
           "name": "shellCheck",
           "normalized": "String-\u003e[AnalysisOption]-\u003e[ShellCheckComment]",

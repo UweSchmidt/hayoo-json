@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "salvia-demo"
+        "phrase": "salvia-demo",
+        "type": "phrase"
       },
       "type": "context"
     }

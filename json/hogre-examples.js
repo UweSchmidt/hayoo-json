@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hogre-examples"
+        "phrase": "hogre-examples",
+        "type": "phrase"
       },
       "type": "context"
     }

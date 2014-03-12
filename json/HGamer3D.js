@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HGamer3D"
+        "phrase": "HGamer3D",
+        "type": "phrase"
       },
       "type": "context"
     }

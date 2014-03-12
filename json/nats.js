@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nats"
+        "phrase": "nats",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exposes the potentially unsafe operations that are sometimes\n needed for efficiency: The Natural data constructor and unsafePred.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:09 UTC 2014",
           "module": "Numeric.Natural.Internal",
           "name": "Internal",
           "package": "nats",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module exposes the potentially unsafe operations that are sometimes needed for efficiency The Natural data constructor and unsafePred",
           "hierarchy": "Numeric Natural Internal",
+          "indexed": "2014-03-11T19:26:09",
           "module": "Numeric.Natural.Internal",
           "name": "Internal",
           "package": "nats",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:09 UTC 2014",
           "module": "Numeric.Natural.Internal",
           "name": "Natural",
           "package": "nats",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Numeric Natural Internal",
+          "indexed": "2014-03-11T19:26:09",
           "module": "Numeric.Natural.Internal",
           "name": "Natural",
           "package": "nats",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA refinement of \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e to represent types that do not contain negative numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:09 UTC 2014",
           "module": "Numeric.Natural.Internal",
           "name": "Whole",
           "package": "nats",
@@ -72,6 +77,7 @@
         "index": {
           "description": "refinement of Integral to represent types that do not contain negative numbers",
           "hierarchy": "Numeric Natural Internal",
+          "indexed": "2014-03-11T19:26:09",
           "module": "Numeric.Natural.Internal",
           "name": "Whole",
           "package": "nats",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:09 UTC 2014",
           "module": "Numeric.Natural.Internal",
           "name": "Natural",
           "package": "nats",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Numeric Natural Internal",
+          "indexed": "2014-03-11T19:26:09",
           "module": "Numeric.Natural.Internal",
           "name": "Natural",
           "package": "nats",
@@ -133,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:09 UTC 2014",
           "module": "Numeric.Natural.Internal",
           "name": "runNatural",
           "package": "nats",
@@ -142,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Numeric Natural Internal",
+          "indexed": "2014-03-11T19:26:09",
           "module": "Numeric.Natural.Internal",
           "name": "runNatural",
           "package": "nats",
@@ -155,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:09 UTC 2014",
           "module": "Numeric.Natural.Internal",
           "name": "toNatural",
           "package": "nats",
@@ -164,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Numeric Natural Internal",
+          "indexed": "2014-03-11T19:26:09",
           "module": "Numeric.Natural.Internal",
           "name": "toNatural",
           "normalized": "a-\u003eNatural",
@@ -179,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:09 UTC 2014",
           "module": "Numeric.Natural.Internal",
           "name": "unsafePred",
           "package": "nats",
@@ -188,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Numeric Natural Internal",
+          "indexed": "2014-03-11T19:26:09",
           "module": "Numeric.Natural.Internal",
           "name": "unsafePred",
           "normalized": "a-\u003ea",
@@ -204,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNatural numbers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:09 UTC 2014",
           "module": "Numeric.Natural",
           "name": "Natural",
           "package": "nats",
@@ -213,6 +228,7 @@
         "index": {
           "description": "Natural numbers",
           "hierarchy": "Numeric Natural",
+          "indexed": "2014-03-11T19:26:09",
           "module": "Numeric.Natural",
           "name": "Natural",
           "package": "nats",
@@ -226,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:09 UTC 2014",
           "module": "Numeric.Natural",
           "name": "Natural",
           "package": "nats",
@@ -234,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Numeric Natural",
+          "indexed": "2014-03-11T19:26:09",
           "module": "Numeric.Natural",
           "name": "Natural",
           "package": "nats",
@@ -248,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA refinement of \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e to represent types that do not contain negative numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:09 UTC 2014",
           "module": "Numeric.Natural",
           "name": "Whole",
           "package": "nats",
@@ -257,6 +276,7 @@
         "index": {
           "description": "refinement of Integral to represent types that do not contain negative numbers",
           "hierarchy": "Numeric Natural",
+          "indexed": "2014-03-11T19:26:09",
           "module": "Numeric.Natural",
           "name": "Whole",
           "package": "nats",
@@ -270,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:09 UTC 2014",
           "module": "Numeric.Natural",
           "name": "toNatural",
           "package": "nats",
@@ -279,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Numeric Natural",
+          "indexed": "2014-03-11T19:26:09",
           "module": "Numeric.Natural",
           "name": "toNatural",
           "normalized": "a-\u003eNatural",

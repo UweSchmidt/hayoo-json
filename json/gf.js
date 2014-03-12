@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gf"
+        "phrase": "gf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is an Application Programming Interface to \n load and interpret grammars compiled in Portable Grammar Format (PGF).\n The PGF format is produced as a final output from the GF compiler.\n The API is meant to be used for embedding GF grammars in Haskell \n programs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "PGF",
           "package": "gf",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module is an Application Programming Interface to load and interpret grammars compiled in Portable Grammar Format PGF The PGF format is produced as final output from the GF compiler The API is meant to be used for embedding GF grammars in Haskell programs",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "PGF",
           "package": "gf",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "Analysis",
           "package": "gf",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "Analysis",
           "package": "gf",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBracketedString represents a sentence that is linearized\n as usual but we also want to retain the ''brackets'' that\n mark the beginning and the end of each constituent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "BracketedString",
           "package": "gf",
@@ -72,6 +77,7 @@
         "index": {
           "description": "BracketedString represents sentence that is linearized as usual but we also want to retain the brackets that mark the beginning and the end of each constituent",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "BracketedString",
           "package": "gf",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract data type that represents\n identifiers for functions and categories in PGF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "CId",
           "package": "gf",
@@ -95,6 +102,7 @@
         "index": {
           "description": "An abstract data type that represents identifiers for functions and categories in PGF",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "CId",
           "package": "gf",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn expression in the abstract syntax of the grammar. It could be\n both parameter of a dependent type or an abstract syntax tree for\n for some sentence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "Expr",
           "package": "gf",
@@ -118,6 +127,7 @@
         "index": {
           "description": "An expression in the abstract syntax of the grammar It could be both parameter of dependent type or an abstract syntax tree for for some sentence",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "Expr",
           "package": "gf",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "FId",
           "package": "gf",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "FId",
           "package": "gf",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "GraphvizOptions",
           "package": "gf",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "GraphvizOptions",
           "package": "gf",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eHypo\u003c/a\u003e\u003c/code\u003e represents a hypothesis in a type i.e. in the type A -\u003e B, A is the hypothesis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "Hypo",
           "package": "gf",
@@ -183,6 +198,7 @@
         "index": {
           "description": "Hypo represents hypothesis in type i.e in the type is the hypothesis",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "Hypo",
           "package": "gf",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "LIndex",
           "package": "gf",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "LIndex",
           "package": "gf",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just a \u003ccode\u003e\u003ca\u003eCId\u003c/a\u003e\u003c/code\u003e with the language name.\n A language name is the identifier that you write in the \n top concrete or abstract module in GF after the \n concrete/abstract keyword. Example:\n\u003c/p\u003e\u003cpre\u003e abstract Lang = ...\n concrete LangEng of Lang = ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "Language",
           "package": "gf",
@@ -227,6 +246,7 @@
         "index": {
           "description": "This is just CId with the language name language name is the identifier that you write in the top concrete or abstract module in GF after the concrete abstract keyword Example abstract Lang concrete LangEng of Lang",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "Language",
           "package": "gf",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "Lemma",
           "package": "gf",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "Lemma",
           "package": "gf",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "Morpho",
           "package": "gf",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "Morpho",
           "package": "gf",
@@ -283,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract data type representing multilingual grammar\n in Portable Grammar Format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "PGF",
           "package": "gf",
@@ -292,6 +317,7 @@
         "index": {
           "description": "An abstract data type representing multilingual grammar in Portable Grammar Format",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "PGF",
           "package": "gf",
@@ -306,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe input to the parser is a pair of predicates. The first one\n \u003ccode\u003e\u003ca\u003epiToken\u003c/a\u003e\u003c/code\u003e selects a token from a list of suggestions from the grammar,\n actually appears at the current position in the input string.\n The second one \u003ccode\u003e\u003ca\u003epiLiteral\u003c/a\u003e\u003c/code\u003e recognizes whether a literal with forest id \u003ccode\u003e\u003ca\u003eFId\u003c/a\u003e\u003c/code\u003e\n could be matched at the current position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "ParseInput",
           "package": "gf",
@@ -315,6 +342,7 @@
         "index": {
           "description": "The input to the parser is pair of predicates The first one piToken selects token from list of suggestions from the grammar actually appears at the current position in the input string The second one piLiteral recognizes whether literal with forest id FId could be matched at the current position",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "ParseInput",
           "package": "gf",
@@ -329,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis data type encodes the different outcomes which you could get from the parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "ParseOutput",
           "package": "gf",
@@ -338,6 +367,7 @@
         "index": {
           "description": "This data type encodes the different outcomes which you could get from the parser",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "ParseOutput",
           "package": "gf",
@@ -352,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract data type whose values represent\n the current state in an incremental parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "ParseState",
           "package": "gf",
@@ -361,6 +392,7 @@
         "index": {
           "description": "An abstract data type whose values represent the current state in an incremental parser",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "ParseState",
           "package": "gf",
@@ -375,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract data structure which represents\n the probabilities for the different functions in a grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "Probabilities",
           "package": "gf",
@@ -384,6 +417,7 @@
         "index": {
           "description": "An abstract data structure which represents the probabilities for the different functions in grammar",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "Probabilities",
           "package": "gf",
@@ -398,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf an error occurs in the typechecking phase\n the type checker returns not a plain text error message\n but a \u003ccode\u003e\u003ca\u003eTcError\u003c/a\u003e\u003c/code\u003e structure which describes the error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "TcError",
           "package": "gf",
@@ -407,6 +442,7 @@
         "index": {
           "description": "If an error occurs in the typechecking phase the type checker returns not plain text error message but TcError structure which describes the error",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "TcError",
           "package": "gf",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "Token",
           "package": "gf",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "Token",
           "package": "gf",
@@ -442,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTree is the abstract syntax representation of a given sentence\n in some concrete syntax. Technically \u003ccode\u003e\u003ca\u003eTree\u003c/a\u003e\u003c/code\u003e is a type synonym\n of \u003ccode\u003e\u003ca\u003eExpr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "Tree",
           "package": "gf",
@@ -451,6 +490,7 @@
         "index": {
           "description": "Tree is the abstract syntax representation of given sentence in some concrete syntax Technically Tree is type synonym of Expr",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "Tree",
           "package": "gf",
@@ -465,6 +505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo read a type from a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, use \u003ccode\u003e\u003ca\u003ereadType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "Type",
           "package": "gf",
@@ -474,6 +515,7 @@
         "index": {
           "description": "To read type from String use readType",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "Type",
           "package": "gf",
@@ -488,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis is a bracket. The \u003ccode\u003e\u003ca\u003eCId\u003c/a\u003e\u003c/code\u003e is the category of\n the phrase. The \u003ccode\u003e\u003ca\u003eFId\u003c/a\u003e\u003c/code\u003e is an unique identifier for\n every phrase in the sentence. For context-free grammars\n i.e. without discontinuous constituents this identifier\n is also unique for every bracket. When there are discontinuous \n phrases then the identifiers are unique for every phrase but\n not for every bracket since the bracket represents a constituent.\n The different constituents could still be distinguished by using\n the constituent index i.e. \u003ccode\u003e\u003ca\u003eLIndex\u003c/a\u003e\u003c/code\u003e. If the grammar is reduplicating\n then the constituent indices will be the same for all brackets\n that represents the same constituent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "Bracket",
           "package": "gf",
@@ -498,6 +541,7 @@
         "index": {
           "description": "this is bracket The CId is the category of the phrase The FId is an unique identifier for every phrase in the sentence For context-free grammars i.e without discontinuous constituents this identifier is also unique for every bracket When there are discontinuous phrases then the identifiers are unique for every phrase but not for every bracket since the bracket represents constituent The different constituents could still be distinguished by using the constituent index i.e LIndex If the grammar is reduplicating then the constituent indices will be the same for all brackets that represents the same constituent",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "Bracket",
           "normalized": "Bracket CId FId LIndex CId[Expr][BracketedString]",
@@ -514,6 +558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt is not possible to infer the type of an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "CannotInferType",
           "package": "gf",
@@ -524,6 +569,7 @@
         "index": {
           "description": "It is not possible to infer the type of an expression",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "CannotInferType",
           "normalized": "CannotInferType[CId]Expr",
@@ -539,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "GraphvizOptions",
           "package": "gf",
@@ -548,6 +595,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "GraphvizOptions",
           "package": "gf",
@@ -562,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis is the leaf i.e. a single token\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "Leaf",
           "package": "gf",
@@ -572,6 +621,7 @@
         "index": {
           "description": "this is the leaf i.e single token",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "Leaf",
           "package": "gf",
@@ -586,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSomething that is not of function type was applied to an argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "NotFunType",
           "package": "gf",
@@ -596,6 +647,7 @@
         "index": {
           "description": "Something that is not of function type was applied to an argument",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "NotFunType",
           "normalized": "NotFunType[CId]Expr Type",
@@ -612,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe integer is the position in number of tokens where the parser failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "ParseFailed",
           "package": "gf",
@@ -622,6 +675,7 @@
         "index": {
           "description": "The integer is the position in number of tokens where the parser failed",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "ParseFailed",
           "package": "gf",
@@ -636,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sentence is not complete. Only partial output is produced\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "ParseIncomplete",
           "package": "gf",
@@ -646,6 +701,7 @@
         "index": {
           "description": "The sentence is not complete Only partial output is produced",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "ParseIncomplete",
           "package": "gf",
@@ -659,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "ParseInput",
           "package": "gf",
@@ -668,6 +725,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "ParseInput",
           "package": "gf",
@@ -682,6 +740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the parsing and the type checking are successful we get a list of abstract syntax trees.\n The list should be non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "ParseOk",
           "package": "gf",
@@ -692,6 +751,7 @@
         "index": {
           "description": "If the parsing and the type checking are successful we get list of abstract syntax trees The list should be non-empty",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "ParseOk",
           "normalized": "ParseOk[Tree]",
@@ -708,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parsing was successful but none of the trees is type correct. \n The forest id (\u003ccode\u003e\u003ca\u003eFId\u003c/a\u003e\u003c/code\u003e) points to the bracketed string from the parser\n where the type checking failed. More than one error is returned\n if there are many analizes for some phrase but they all are not type correct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "TypeError",
           "package": "gf",
@@ -718,6 +779,7 @@
         "index": {
           "description": "The parsing was successful but none of the trees is type correct The forest id FId points to the bracketed string from the parser where the type checking failed More than one error is returned if there are many analizes for some phrase but they all are not type correct",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "TypeError",
           "normalized": "TypeError[(FId,TcError)]",
@@ -734,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe expression is not of the expected type.\n The first type is the expected type, while\n the second is the inferred. The \u003ccode\u003e[CId]\u003c/code\u003e argument is the list\n of free variables in both the expression and the type. \n It should be used for the \u003ccode\u003e\u003ca\u003eshowType\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eshowExpr\u003c/a\u003e\u003c/code\u003e functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "TypeMismatch",
           "package": "gf",
@@ -744,6 +807,7 @@
         "index": {
           "description": "The expression is not of the expected type The first type is the expected type while the second is the inferred The CId argument is the list of free variables in both the expression and the type It should be used for the showType and showExpr functions",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "TypeMismatch",
           "normalized": "TypeMismatch[CId]Expr Type Type",
@@ -760,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplicit argument was passed where the type doesn't allow it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "UnexpectedImplArg",
           "package": "gf",
@@ -770,6 +835,7 @@
         "index": {
           "description": "Implicit argument was passed where the type doesn allow it",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "UnexpectedImplArg",
           "normalized": "UnexpectedImplArg[CId]Expr",
@@ -786,6 +852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnknown category name was found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "UnknownCat",
           "package": "gf",
@@ -796,6 +863,7 @@
         "index": {
           "description": "Unknown category name was found",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "UnknownCat",
           "package": "gf",
@@ -810,6 +878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnknown function name was found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "UnknownFun",
           "package": "gf",
@@ -820,6 +889,7 @@
         "index": {
           "description": "Unknown function name was found",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "UnknownFun",
           "package": "gf",
@@ -834,6 +904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome metavariables have to be instantiated in order to complete the typechecking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "UnresolvedMetaVars",
           "package": "gf",
@@ -844,6 +915,7 @@
         "index": {
           "description": "Some metavariables have to be instantiated in order to complete the typechecking",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "UnresolvedMetaVars",
           "normalized": "UnresolvedMetaVars[CId]Expr[MetaId]",
@@ -860,6 +932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere is a goal that cannot be solved\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "UnsolvableGoal",
           "package": "gf",
@@ -870,6 +943,7 @@
         "index": {
           "description": "There is goal that cannot be solved",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "UnsolvableGoal",
           "normalized": "UnsolvableGoal[CId]MetaId Type",
@@ -886,6 +960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA category was applied to wrong number of arguments.\n The first integer is the number of expected arguments and\n the second the number of given arguments.\n The \u003ccode\u003e[CId]\u003c/code\u003e argument is the list of free variables\n in the type. It should be used for the \u003ccode\u003e\u003ca\u003eshowType\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "WrongCatArgs",
           "package": "gf",
@@ -896,6 +971,7 @@
         "index": {
           "description": "category was applied to wrong number of arguments The first integer is the number of expected arguments and the second the number of given arguments The CId argument is the list of free variables in the type It should be used for the showType function",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "WrongCatArgs",
           "normalized": "WrongCatArgs[CId]Type CId Int Int",
@@ -912,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract language name is the name of the top-level\n abstract module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "abstractName",
           "package": "gf",
@@ -922,6 +999,7 @@
         "index": {
           "description": "The abstract language name is the name of the top-level abstract module",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "abstractName",
           "normalized": "PGF-\u003eLanguage",
@@ -938,6 +1016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinearizes given expression as a bracketed string in the language\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "bracketedLinearize",
           "package": "gf",
@@ -948,6 +1027,7 @@
         "index": {
           "description": "Linearizes given expression as bracketed string in the language",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "bracketedLinearize",
           "normalized": "PGF-\u003eLanguage-\u003eTree-\u003eBracketedString",
@@ -963,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "browse",
           "package": "gf",
@@ -972,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "browse",
           "normalized": "PGF-\u003eCId-\u003eMaybe(String,[CId],[CId])",
@@ -986,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "buildMorpho",
           "package": "gf",
@@ -995,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "buildMorpho",
           "normalized": "PGF-\u003eLanguage-\u003eMorpho",
@@ -1011,6 +1095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of all categories defined in the given grammar.\n The categories are defined in the abstract syntax\n with the 'cat' keyword.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "categories",
           "package": "gf",
@@ -1021,6 +1106,7 @@
         "index": {
           "description": "List of all categories defined in the given grammar The categories are defined in the abstract syntax with the cat keyword",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "categories",
           "normalized": "PGF-\u003e[CId]",
@@ -1036,6 +1122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks an expression against a specified type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "checkExpr",
           "package": "gf",
@@ -1046,6 +1133,7 @@
         "index": {
           "description": "Checks an expression against specified type",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "checkExpr",
           "normalized": "PGF-\u003eExpr-\u003eType-\u003eEither TcError Expr",
@@ -1062,6 +1150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a given type is consistent with the abstract\n syntax of the grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "checkType",
           "package": "gf",
@@ -1072,6 +1161,7 @@
         "index": {
           "description": "Check whether given type is consistent with the abstract syntax of the grammar",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "checkType",
           "normalized": "PGF-\u003eType-\u003eEither TcError Type",
@@ -1088,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an expression to normal form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "compute",
           "package": "gf",
@@ -1098,6 +1189,7 @@
         "index": {
           "description": "Converts an expression to normal form",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "compute",
           "normalized": "PGF-\u003eExpr-\u003eExpr",
@@ -1113,6 +1205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the default even distibution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "defaultProbabilities",
           "package": "gf",
@@ -1123,6 +1216,7 @@
         "index": {
           "description": "Returns the default even distibution",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "defaultProbabilities",
           "normalized": "PGF-\u003eProbabilities",
@@ -1138,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "flattenBracketedString",
           "package": "gf",
@@ -1147,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "flattenBracketedString",
           "normalized": "BracketedString-\u003e[String]",
@@ -1162,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "fullFormLexicon",
           "package": "gf",
@@ -1171,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "fullFormLexicon",
           "normalized": "Morpho-\u003e[(String,[(Lemma,Analysis)])]",
@@ -1187,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a given function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "functionType",
           "package": "gf",
@@ -1197,6 +1296,7 @@
         "index": {
           "description": "The type of given function",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "functionType",
           "normalized": "PGF-\u003eCId-\u003eMaybe Type",
@@ -1213,6 +1313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of all functions defined in the abstract syntax\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "functions",
           "package": "gf",
@@ -1223,6 +1324,7 @@
         "index": {
           "description": "List of all functions defined in the abstract syntax",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "functions",
           "normalized": "PGF-\u003e[CId]",
@@ -1238,6 +1340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of all functions defined for a given category\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "functionsByCat",
           "package": "gf",
@@ -1248,6 +1351,7 @@
         "index": {
           "description": "List of all functions defined for given category",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "functionsByCat",
           "normalized": "PGF-\u003eCId-\u003e[CId]",
@@ -1264,6 +1368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates an exhaustive possibly infinite list of\n abstract syntax expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "generateAll",
           "package": "gf",
@@ -1274,6 +1379,7 @@
         "index": {
           "description": "Generates an exhaustive possibly infinite list of abstract syntax expressions",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "generateAll",
           "normalized": "PGF-\u003eType-\u003e[Expr]",
@@ -1290,6 +1396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003egenerateAll\u003c/a\u003e\u003c/code\u003e which also takes as argument\n the upper limit of the depth of the generated expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "generateAllDepth",
           "package": "gf",
@@ -1300,6 +1407,7 @@
         "index": {
           "description": "variant of generateAll which also takes as argument the upper limit of the depth of the generated expression",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "generateAllDepth",
           "normalized": "PGF-\u003eType-\u003eMaybe Int-\u003e[Expr]",
@@ -1316,6 +1424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a list of abstract syntax expressions\n in a way similar to \u003ccode\u003e\u003ca\u003egenerateAll\u003c/a\u003e\u003c/code\u003e but instead of\n generating all instances of a given type, this\n function uses a template. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "generateFrom",
           "package": "gf",
@@ -1326,6 +1435,7 @@
         "index": {
           "description": "Generates list of abstract syntax expressions in way similar to generateAll but instead of generating all instances of given type this function uses template",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "generateFrom",
           "normalized": "PGF-\u003eExpr-\u003e[Expr]",
@@ -1342,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003egenerateFrom\u003c/a\u003e\u003c/code\u003e which also takes as argument\n the upper limit of the depth of the generated subexpressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "generateFromDepth",
           "package": "gf",
@@ -1352,6 +1463,7 @@
         "index": {
           "description": "variant of generateFrom which also takes as argument the upper limit of the depth of the generated subexpressions",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "generateFromDepth",
           "normalized": "PGF-\u003eExpr-\u003eMaybe Int-\u003e[Expr]",
@@ -1368,6 +1480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates an infinite list of random abstract syntax expressions.\n This is usefull for tree bank generation which after that can be used\n for grammar testing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "generateRandom",
           "package": "gf",
@@ -1378,6 +1491,7 @@
         "index": {
           "description": "Generates an infinite list of random abstract syntax expressions This is usefull for tree bank generation which after that can be used for grammar testing",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "generateRandom",
           "normalized": "a-\u003ePGF-\u003eType-\u003e[Expr]",
@@ -1394,6 +1508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003egenerateRandom\u003c/a\u003e\u003c/code\u003e which also takes as argument\n the upper limit of the depth of the generated expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "generateRandomDepth",
           "package": "gf",
@@ -1404,6 +1519,7 @@
         "index": {
           "description": "variant of generateRandom which also takes as argument the upper limit of the depth of the generated expression",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "generateRandomDepth",
           "normalized": "a-\u003ePGF-\u003eType-\u003eMaybe Int-\u003e[Expr]",
@@ -1420,6 +1536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom generation based on template\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "generateRandomFrom",
           "package": "gf",
@@ -1430,6 +1547,7 @@
         "index": {
           "description": "Random generation based on template",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "generateRandomFrom",
           "normalized": "a-\u003ePGF-\u003eExpr-\u003e[Expr]",
@@ -1446,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom generation based on template with a limitation in the depth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "generateRandomFromDepth",
           "package": "gf",
@@ -1456,6 +1575,7 @@
         "index": {
           "description": "Random generation based on template with limitation in the depth",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "generateRandomFromDepth",
           "normalized": "a-\u003ePGF-\u003eExpr-\u003eMaybe Int-\u003e[Expr]",
@@ -1472,6 +1592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the next token is not known but only its prefix (possible empty prefix)\n then the \u003ccode\u003e\u003ca\u003egetCompletions\u003c/a\u003e\u003c/code\u003e function can be used to calculate the possible\n next words and the consequent states. This is used for word completions in\n the GF interpreter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "getCompletions",
           "package": "gf",
@@ -1482,6 +1603,7 @@
         "index": {
           "description": "If the next token is not known but only its prefix possible empty prefix then the getCompletions function can be used to calculate the possible next words and the consequent states This is used for word completions in the GF interpreter",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "getCompletions",
           "normalized": "ParseState-\u003eString-\u003eMap Token ParseState",
@@ -1498,6 +1620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function extracts the list of all completed parse trees\n that spans the whole input consumed so far. The trees are also\n limited by the category specified, which is usually\n the same as the startup category.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "getParseOutput",
           "package": "gf",
@@ -1508,6 +1631,7 @@
         "index": {
           "description": "This function extracts the list of all completed parse trees that spans the whole input consumed so far The trees are also limited by the category specified which is usually the same as the startup category",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "getParseOutput",
           "normalized": "ParseState-\u003eType-\u003eMaybe Int-\u003e(ParseOutput,BracketedString)",
@@ -1523,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "gizaAlignment",
           "package": "gf",
@@ -1532,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "gizaAlignment",
           "normalized": "PGF-\u003e(Language,Language)-\u003eExpr-\u003e(String,String,String)",
@@ -1548,6 +1674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders abstract syntax tree in Graphviz format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "graphvizAbstractTree",
           "package": "gf",
@@ -1558,6 +1685,7 @@
         "index": {
           "description": "Renders abstract syntax tree in Graphviz format",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "graphvizAbstractTree",
           "normalized": "PGF-\u003e(Bool,Bool)-\u003eTree-\u003eString",
@@ -1573,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "graphvizAlignment",
           "package": "gf",
@@ -1582,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "graphvizAlignment",
           "normalized": "PGF-\u003e[Language]-\u003eExpr-\u003eString",
@@ -1597,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "graphvizBracketedString",
           "package": "gf",
@@ -1606,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "graphvizBracketedString",
           "normalized": "GraphvizOptions-\u003eBracketedString-\u003eString",
@@ -1621,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "graphvizDefaults",
           "package": "gf",
@@ -1630,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "graphvizDefaults",
           "package": "gf",
@@ -1643,6 +1777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "graphvizDependencyTree",
           "package": "gf",
@@ -1652,6 +1787,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "graphvizDependencyTree",
           "normalized": "String-\u003eBool-\u003eMaybe Labels-\u003eMaybe String-\u003ePGF-\u003eCId-\u003eTree-\u003eString",
@@ -1667,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "graphvizParseTree",
           "package": "gf",
@@ -1676,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "graphvizParseTree",
           "normalized": "PGF-\u003eLanguage-\u003eGraphvizOptions-\u003eTree-\u003eString",
@@ -1691,6 +1829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "groupResults",
           "package": "gf",
@@ -1700,6 +1839,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "groupResults",
           "normalized": "[[(Language,String)]]-\u003e[(Language,[String])]",
@@ -1716,6 +1856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to infer the type of a given expression. Note that\n even if the expression is type correct it is not always\n possible to infer its type in the GF type system.\n In this case the function returns the \u003ccode\u003e\u003ca\u003eCannotInferType\u003c/a\u003e\u003c/code\u003e error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "inferExpr",
           "package": "gf",
@@ -1726,6 +1867,7 @@
         "index": {
           "description": "Tries to infer the type of given expression Note that even if the expression is type correct it is not always possible to infer its type in the GF type system In this case the function returns the CannotInferType error",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "inferExpr",
           "normalized": "PGF-\u003eExpr-\u003eEither TcError(Expr,Type)",
@@ -1742,6 +1884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an initial parsing state for a given language and\n startup category.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "initState",
           "package": "gf",
@@ -1752,6 +1895,7 @@
         "index": {
           "description": "Creates an initial parsing state for given language and startup category",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "initState",
           "normalized": "PGF-\u003eLanguage-\u003eType-\u003eParseState",
@@ -1768,6 +1912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the RFC 4646 language tag \n of the language which the given concrete syntax implements,\n if this is listed in the source grammar.\n Example language tags include \u003ccode\u003e\"en\"\u003c/code\u003e for English,\n and \u003ccode\u003e\"en-UK\"\u003c/code\u003e for British English.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "languageCode",
           "package": "gf",
@@ -1778,6 +1923,7 @@
         "index": {
           "description": "Gets the RFC language tag of the language which the given concrete syntax implements if this is listed in the source grammar Example language tags include en for English and en-UK for British English",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "languageCode",
           "normalized": "PGF-\u003eLanguage-\u003eMaybe String",
@@ -1794,6 +1940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of all languages available in the given grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "languages",
           "package": "gf",
@@ -1804,6 +1951,7 @@
         "index": {
           "description": "List of all languages available in the given grammar",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "languages",
           "normalized": "PGF-\u003e[Language]",
@@ -1818,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "leafColor",
           "package": "gf",
@@ -1827,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "leafColor",
           "package": "gf",
@@ -1840,6 +1990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "leafEdgeStyle",
           "package": "gf",
@@ -1849,6 +2000,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "leafEdgeStyle",
           "package": "gf",
@@ -1862,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "leafFont",
           "package": "gf",
@@ -1871,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "leafFont",
           "package": "gf",
@@ -1885,6 +2039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinearizes given expression as string in the language\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "linearize",
           "package": "gf",
@@ -1895,6 +2050,7 @@
         "index": {
           "description": "Linearizes given expression as string in the language",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "linearize",
           "normalized": "PGF-\u003eLanguage-\u003eTree-\u003eString",
@@ -1910,6 +2066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003elinearizeAllLang\u003c/a\u003e\u003c/code\u003e but does not return\n the language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "linearizeAll",
           "package": "gf",
@@ -1920,6 +2077,7 @@
         "index": {
           "description": "The same as linearizeAllLang but does not return the language",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "linearizeAll",
           "normalized": "PGF-\u003eTree-\u003e[String]",
@@ -1936,6 +2094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinearizes given expression as string in all languages\n available in the grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "linearizeAllLang",
           "package": "gf",
@@ -1946,6 +2105,7 @@
         "index": {
           "description": "Linearizes given expression as string in all languages available in the grammar",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "linearizeAllLang",
           "normalized": "PGF-\u003eTree-\u003e[(Language,String)]",
@@ -1961,6 +2121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "lookupMorpho",
           "package": "gf",
@@ -1970,6 +2131,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "lookupMorpho",
           "normalized": "Morpho-\u003eString-\u003e[(Lemma,Analysis)]",
@@ -1986,6 +2148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of functions that lack linearizations in the given language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "missingLins",
           "package": "gf",
@@ -1996,6 +2159,7 @@
         "index": {
           "description": "List of functions that lack linearizations in the given language",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "missingLins",
           "normalized": "PGF-\u003eLanguage-\u003e[CId]",
@@ -2011,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "mkAbs",
           "package": "gf",
@@ -2020,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "mkAbs",
           "normalized": "BindType-\u003eCId-\u003eExpr-\u003eExpr",
@@ -2036,6 +2202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an expression by applying a function to a list of expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "mkApp",
           "package": "gf",
@@ -2046,6 +2213,7 @@
         "index": {
           "description": "Constructs an expression by applying function to list of expressions",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "mkApp",
           "normalized": "CId-\u003e[Expr]-\u003eExpr",
@@ -2062,6 +2230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new identifier from \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "mkCId",
           "package": "gf",
@@ -2072,6 +2241,7 @@
         "index": {
           "description": "Creates new identifier from String",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "mkCId",
           "normalized": "String-\u003eCId",
@@ -2088,6 +2258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates hypothesis for dependent type i.e. (x : A)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "mkDepHypo",
           "package": "gf",
@@ -2098,6 +2269,7 @@
         "index": {
           "description": "creates hypothesis for dependent type i.e",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "mkDepHypo",
           "normalized": "CId-\u003eType-\u003eHypo",
@@ -2114,6 +2286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an expression from real number literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "mkDouble",
           "package": "gf",
@@ -2124,6 +2297,7 @@
         "index": {
           "description": "Constructs an expression from real number literal",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "mkDouble",
           "normalized": "Double-\u003eExpr",
@@ -2140,6 +2314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates hypothesis for non-dependent type i.e. A\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "mkHypo",
           "package": "gf",
@@ -2150,6 +2325,7 @@
         "index": {
           "description": "creates hypothesis for non-dependent type i.e",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "mkHypo",
           "normalized": "Type-\u003eHypo",
@@ -2166,6 +2342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates hypothesis for dependent type with implicit argument i.e. ({x} : A)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "mkImplHypo",
           "package": "gf",
@@ -2176,6 +2353,7 @@
         "index": {
           "description": "creates hypothesis for dependent type with implicit argument i.e",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "mkImplHypo",
           "normalized": "CId-\u003eType-\u003eHypo",
@@ -2192,6 +2370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an expression from integer literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "mkInt",
           "package": "gf",
@@ -2202,6 +2381,7 @@
         "index": {
           "description": "Constructs an expression from integer literal",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "mkInt",
           "normalized": "Int-\u003eExpr",
@@ -2218,6 +2398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an expression which is meta variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "mkMeta",
           "package": "gf",
@@ -2228,6 +2409,7 @@
         "index": {
           "description": "Constructs an expression which is meta variable",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "mkMeta",
           "normalized": "Int-\u003eExpr",
@@ -2243,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "mkParseInput",
           "package": "gf",
@@ -2252,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "mkParseInput",
           "normalized": "PGF-\u003eLanguage-\u003e(a b c-\u003eMap Token d-\u003eMaybe d)-\u003e[(CId,c-\u003eMaybe(Tree,[Token]))]-\u003ec-\u003eParseInput",
@@ -2268,6 +2452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilds probability tables. The second argument is a map\n which contains the know probabilities. If some function is\n not in the map then it gets assigned some probability based\n on the even distribution of the unallocated probability mass\n for the result category.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "mkProbabilities",
           "package": "gf",
@@ -2278,6 +2463,7 @@
         "index": {
           "description": "Builds probability tables The second argument is map which contains the know probabilities If some function is not in the map then it gets assigned some probability based on the even distribution of the unallocated probability mass for the result category",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "mkProbabilities",
           "normalized": "PGF-\u003eMap CId Double-\u003eProbabilities",
@@ -2294,6 +2480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an expression from string literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "mkStr",
           "package": "gf",
@@ -2304,6 +2491,7 @@
         "index": {
           "description": "Constructs an expression from string literal",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "mkStr",
           "normalized": "String-\u003eExpr",
@@ -2320,6 +2508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the construction function. Given a PGF and a Language, it \n extract the lexicon for this language and build a tokenization fst\n from it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "mkTokenizer",
           "package": "gf",
@@ -2330,6 +2519,7 @@
         "index": {
           "description": "This is the construction function Given PGF and Language it extract the lexicon for this language and build tokenization fst from it",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "mkTokenizer",
           "normalized": "PGF-\u003eLanguage-\u003eString-\u003eMaybe[String]",
@@ -2346,6 +2536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates a type from list of hypothesises, category and \n list of arguments for the category. The operation \n \u003ccode\u003emkType [h_1,...,h_n] C [e_1,...,e_m]\u003c/code\u003e will create \n \u003ccode\u003eh_1 -\u003e ... -\u003e h_n -\u003e C e_1 ... e_m\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "mkType",
           "package": "gf",
@@ -2356,6 +2547,7 @@
         "index": {
           "description": "creates type from list of hypothesises category and list of arguments for the category The operation mkType will create",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "mkType",
           "normalized": "[Hypo]-\u003eCId-\u003e[Expr]-\u003eType",
@@ -2371,6 +2563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "morphoMissing",
           "package": "gf",
@@ -2380,6 +2573,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "morphoMissing",
           "normalized": "Morpho-\u003e[String]-\u003e[String]",
@@ -2396,6 +2590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom the current state and the next token\n \u003ccode\u003e\u003ca\u003enextState\u003c/a\u003e\u003c/code\u003e computes a new state, where the token\n is consumed and the current position is shifted by one.\n If the new token cannot be accepted then an error state \n is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "nextState",
           "package": "gf",
@@ -2406,6 +2601,7 @@
         "index": {
           "description": "From the current state and the next token nextState computes new state where the token is consumed and the current position is shifted by one If the new token cannot be accepted then an error state is returned",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "nextState",
           "normalized": "ParseState-\u003eParseInput-\u003eEither ErrorState ParseState",
@@ -2421,6 +2617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "noCat",
           "package": "gf",
@@ -2430,6 +2627,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "noCat",
           "package": "gf",
@@ -2443,6 +2641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "noFun",
           "package": "gf",
@@ -2452,6 +2651,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "noFun",
           "package": "gf",
@@ -2465,6 +2665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "noLeaves",
           "package": "gf",
@@ -2474,6 +2675,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "noLeaves",
           "package": "gf",
@@ -2487,6 +2689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "nodeColor",
           "package": "gf",
@@ -2496,6 +2699,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "nodeColor",
           "package": "gf",
@@ -2509,6 +2713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "nodeEdgeStyle",
           "package": "gf",
@@ -2518,6 +2723,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "nodeEdgeStyle",
           "package": "gf",
@@ -2531,6 +2737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "nodeFont",
           "package": "gf",
@@ -2540,6 +2747,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "nodeFont",
           "package": "gf",
@@ -2553,6 +2761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "paraphrase",
           "package": "gf",
@@ -2562,6 +2771,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "paraphrase",
           "normalized": "PGF-\u003eExpr-\u003e[Expr]",
@@ -2577,6 +2787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to parse the given string in the specified language\n and to produce abstract syntax expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "parse",
           "package": "gf",
@@ -2587,6 +2798,7 @@
         "index": {
           "description": "Tries to parse the given string in the specified language and to produce abstract syntax expression",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "parse",
           "normalized": "PGF-\u003eLanguage-\u003eType-\u003eString-\u003e[Tree]",
@@ -2602,6 +2814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003eparseAllLang\u003c/a\u003e\u003c/code\u003e but does not return\n the language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "parseAll",
           "package": "gf",
@@ -2612,6 +2825,7 @@
         "index": {
           "description": "The same as parseAllLang but does not return the language",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "parseAll",
           "normalized": "PGF-\u003eType-\u003eString-\u003e[[Tree]]",
@@ -2628,6 +2842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to parse the given string with all available languages.\n The returned list contains pairs of language\n and list of abstract syntax expressions \n (this is a list, since grammars can be ambiguous). \n Only those languages\n for which at least one parsing is possible are listed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "parseAllLang",
           "package": "gf",
@@ -2638,6 +2853,7 @@
         "index": {
           "description": "Tries to parse the given string with all available languages The returned list contains pairs of language and list of abstract syntax expressions this is list since grammars can be ambiguous Only those languages for which at least one parsing is possible are listed",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "parseAllLang",
           "normalized": "PGF-\u003eType-\u003eString-\u003e[(Language,[Tree])]",
@@ -2654,6 +2870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is an experimental function. Use it on your own risk\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "parseWithRecovery",
           "package": "gf",
@@ -2664,6 +2881,7 @@
         "index": {
           "description": "This is an experimental function Use it on your own risk",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "parseWithRecovery",
           "normalized": "PGF-\u003eLanguage-\u003eType-\u003e[Type]-\u003eMaybe Int-\u003eString-\u003e(ParseOutput,BracketedString)",
@@ -2680,6 +2898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003eparse\u003c/a\u003e\u003c/code\u003e but returns more detailed information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "parse_",
           "package": "gf",
@@ -2690,6 +2909,7 @@
         "index": {
           "description": "The same as parse but returns more detailed information",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "parse_",
           "normalized": "PGF-\u003eLanguage-\u003eType-\u003eMaybe Int-\u003eString-\u003e(ParseOutput,BracketedString)",
@@ -2704,6 +2924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "piLiteral",
           "package": "gf",
@@ -2713,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "piLiteral",
           "normalized": "FId-\u003eMaybe(CId,Tree,[Token])",
@@ -2728,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "piToken",
           "package": "gf",
@@ -2737,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "piToken",
           "normalized": "a b Map Token c-\u003eMaybe c",
@@ -2753,6 +2977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders the type checking error to a document. See \u003ccode\u003e\u003ca\u003ePrettyPrint\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "ppTcError",
           "package": "gf",
@@ -2763,6 +2988,7 @@
         "index": {
           "description": "Renders the type checking error to document See PrettyPrint",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "ppTcError",
           "normalized": "TcError-\u003eDoc",
@@ -2779,6 +3005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads an identifier from \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e. The function returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the string is not valid identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "readCId",
           "package": "gf",
@@ -2789,6 +3016,7 @@
         "index": {
           "description": "Reads an identifier from String The function returns Nothing if the string is not valid identifier",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "readCId",
           "normalized": "String-\u003eMaybe CId",
@@ -2805,6 +3033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparses \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e as an expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "readExpr",
           "package": "gf",
@@ -2815,6 +3044,7 @@
         "index": {
           "description": "parses String as an expression",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "readExpr",
           "normalized": "String-\u003eMaybe Expr",
@@ -2830,6 +3060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "readLanguage",
           "package": "gf",
@@ -2839,6 +3070,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "readLanguage",
           "normalized": "String-\u003eMaybe Language",
@@ -2855,6 +3087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads file in Portable Grammar Format and produces\n \u003ccode\u003e\u003ca\u003ePGF\u003c/a\u003e\u003c/code\u003e structure. The file is usually produced with:\n\u003c/p\u003e\u003cpre\u003e $ gf -make \u003cgrammar file name\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "readPGF",
           "package": "gf",
@@ -2865,6 +3098,7 @@
         "index": {
           "description": "Reads file in Portable Grammar Format and produces PGF structure The file is usually produced with gf make grammar file name",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "readPGF",
           "normalized": "FilePath-\u003eIO PGF",
@@ -2881,6 +3115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads the probabilities from a file.\n This should be a text file where on every line\n there is a function name followed by a real number.\n The number represents the probability mass allocated for that function.\n The function name and the probability should be separated by a whitespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "readProbabilitiesFromFile",
           "package": "gf",
@@ -2891,6 +3126,7 @@
         "index": {
           "description": "Reads the probabilities from file This should be text file where on every line there is function name followed by real number The number represents the probability mass allocated for that function The function name and the probability should be separated by whitespace",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "readProbabilitiesFromFile",
           "normalized": "FilePath-\u003ePGF-\u003eIO Probabilities",
@@ -2907,6 +3143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "readType",
           "package": "gf",
@@ -2917,6 +3154,7 @@
         "index": {
           "description": "Reads Type from String",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "readType",
           "normalized": "String-\u003eMaybe Type",
@@ -2932,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "recoveryStates",
           "package": "gf",
@@ -2941,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "recoveryStates",
           "normalized": "[Type]-\u003eErrorState-\u003e(ParseState,Map Token ParseState)",
@@ -2957,6 +3197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders the bracketed string as string where \n the brackets are shown as \u003ccode\u003e(S ...)\u003c/code\u003e where\n \u003ccode\u003eS\u003c/code\u003e is the category.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "showBracketedString",
           "package": "gf",
@@ -2967,6 +3208,7 @@
         "index": {
           "description": "Renders the bracketed string as string where the brackets are shown as where is the category",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "showBracketedString",
           "normalized": "BracketedString-\u003eString",
@@ -2983,6 +3225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders the identifier as \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "showCId",
           "package": "gf",
@@ -2993,6 +3236,7 @@
         "index": {
           "description": "Renders the identifier as String",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "showCId",
           "normalized": "CId-\u003eString",
@@ -3009,6 +3253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erenders expression as \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e. The list\n of identifiers is the list of all free variables\n in the expression in order reverse to the order\n of binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "showExpr",
           "package": "gf",
@@ -3019,6 +3264,7 @@
         "index": {
           "description": "renders expression as String The list of identifiers is the list of all free variables in the expression in order reverse to the order of binding",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "showExpr",
           "normalized": "[CId]-\u003eExpr-\u003eString",
@@ -3034,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "showLanguage",
           "package": "gf",
@@ -3043,6 +3290,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "showLanguage",
           "normalized": "Language-\u003eString",
@@ -3059,6 +3307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the printname of function or category\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "showPrintName",
           "package": "gf",
@@ -3069,6 +3318,7 @@
         "index": {
           "description": "Show the printname of function or category",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "showPrintName",
           "normalized": "PGF-\u003eLanguage-\u003eCId-\u003eString",
@@ -3085,6 +3335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders the probability structure as string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "showProbabilities",
           "package": "gf",
@@ -3095,6 +3346,7 @@
         "index": {
           "description": "Renders the probability structure as string",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "showProbabilities",
           "normalized": "Probabilities-\u003eString",
@@ -3111,6 +3363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erenders type as \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e. The list\n of identifiers is the list of all free variables\n in the expression in order reverse to the order\n of binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "showType",
           "package": "gf",
@@ -3121,6 +3374,7 @@
         "index": {
           "description": "renders type as String The list of identifiers is the list of all free variables in the expression in order reverse to the order of binding",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "showType",
           "normalized": "[CId]-\u003eType-\u003eString",
@@ -3137,6 +3391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function constructs the simplest possible parser input. \n It checks the tokens for exact matching and recognizes only \u003ccode\u003eString\u003c/code\u003e, \u003ccode\u003eInt\u003c/code\u003e and \u003ccode\u003eFloat\u003c/code\u003e literals.\n The \u003ccode\u003eInt\u003c/code\u003e and \u003ccode\u003eFloat\u003c/code\u003e literals match only if the token passed is some number.\n The \u003ccode\u003eString\u003c/code\u003e literal always match but the length of the literal could be only one token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "simpleParseInput",
           "package": "gf",
@@ -3147,6 +3402,7 @@
         "index": {
           "description": "This function constructs the simplest possible parser input It checks the tokens for exact matching and recognizes only String Int and Float literals The Int and Float literals match only if the token passed is some number The String literal always match but the length of the literal could be only one token",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "simpleParseInput",
           "normalized": "Token-\u003eParseInput",
@@ -3163,6 +3419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe start category is defined in the grammar with\n the 'startcat' flag. This is usually the sentence category\n but it is not necessary. Despite that there is a start category\n defined you can parse with any category. The start category\n definition is just for convenience.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "startCat",
           "package": "gf",
@@ -3173,6 +3430,7 @@
         "index": {
           "description": "The start category is defined in the grammar with the startcat flag This is usually the sentence category but it is not necessary Despite that there is start category defined you can parse with any category The start category definition is just for convenience",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "startCat",
           "normalized": "PGF-\u003eType",
@@ -3189,6 +3447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a table from feature name to linearization. \n The outher list encodes the variations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "tabularLinearizes",
           "package": "gf",
@@ -3199,6 +3458,7 @@
         "index": {
           "description": "Creates table from feature name to linearization The outher list encodes the variations",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "tabularLinearizes",
           "normalized": "PGF-\u003eLanguage-\u003eExpr-\u003e[[(String,String)]]",
@@ -3214,6 +3474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "unAbs",
           "package": "gf",
@@ -3223,6 +3484,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "unAbs",
           "normalized": "Expr-\u003eMaybe(BindType,CId,Expr)",
@@ -3239,6 +3501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecomposes an expression into application of function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "unApp",
           "package": "gf",
@@ -3249,6 +3512,7 @@
         "index": {
           "description": "Decomposes an expression into application of function",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "unApp",
           "normalized": "Expr-\u003eMaybe(CId,[Expr])",
@@ -3265,6 +3529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecomposes an expression into real number literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "unDouble",
           "package": "gf",
@@ -3275,6 +3540,7 @@
         "index": {
           "description": "Decomposes an expression into real number literal",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "unDouble",
           "normalized": "Expr-\u003eMaybe Double",
@@ -3291,6 +3557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecomposes an expression into integer literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "unInt",
           "package": "gf",
@@ -3301,6 +3568,7 @@
         "index": {
           "description": "Decomposes an expression into integer literal",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "unInt",
           "normalized": "Expr-\u003eMaybe Int",
@@ -3317,6 +3585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether an expression is a meta variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "unMeta",
           "package": "gf",
@@ -3327,6 +3596,7 @@
         "index": {
           "description": "Checks whether an expression is meta variable",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "unMeta",
           "normalized": "Expr-\u003eMaybe Int",
@@ -3343,6 +3613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecomposes an expression into string literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "unStr",
           "package": "gf",
@@ -3353,6 +3624,7 @@
         "index": {
           "description": "Decomposes an expression into string literal",
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "unStr",
           "normalized": "Expr-\u003eMaybe String",
@@ -3368,6 +3640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "unType",
           "package": "gf",
@@ -3377,6 +3650,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "unType",
           "normalized": "Type-\u003e([Hypo],CId,[Expr])",
@@ -3392,6 +3666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:44 UTC 2014",
           "module": "PGF",
           "name": "wildCId",
           "package": "gf",
@@ -3401,6 +3676,7 @@
         },
         "index": {
           "hierarchy": "PGF",
+          "indexed": "2014-03-11T18:15:44",
           "module": "PGF",
           "name": "wildCId",
           "package": "gf",

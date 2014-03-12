@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "th-sccs"
+        "phrase": "th-sccs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:20 UTC 2014",
           "module": "Language.Haskell.TH.SCCs",
           "name": "SCCs",
           "package": "th-sccs",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH SCCs",
+          "indexed": "2014-03-11T20:21:20",
           "module": "Language.Haskell.TH.SCCs",
           "name": "SCCs",
           "package": "th-sccs",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the type declarations upon which this construct syntactically\n depends. The first argument tracks the bindings traversed; use \u003ccode\u003e\u003ca\u003etd_descend\u003c/a\u003e\u003c/code\u003e\n to maintain it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:20 UTC 2014",
           "module": "Language.Haskell.TH.SCCs",
           "name": "Dependencies",
           "package": "th-sccs",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Calculate the type declarations upon which this construct syntactically depends The first argument tracks the bindings traversed use td descend to maintain it",
           "hierarchy": "Language Haskell TH SCCs",
+          "indexed": "2014-03-11T20:21:20",
           "module": "Language.Haskell.TH.SCCs",
           "name": "Dependencies",
           "package": "th-sccs",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is semantically murky: it's just the name of anything that\n \"naturally\" \u003cem\u003edefines\u003c/em\u003e a name; error if it doesn't.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:20 UTC 2014",
           "module": "Language.Haskell.TH.SCCs",
           "name": "Named",
           "package": "th-sccs",
@@ -72,6 +77,7 @@
         "index": {
           "description": "This is semantically murky it just the name of anything that naturally defines name error if it doesn",
           "hierarchy": "Language Haskell TH SCCs",
+          "indexed": "2014-03-11T20:21:20",
           "module": "Language.Haskell.TH.SCCs",
           "name": "Named",
           "package": "th-sccs",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for \u003ccode\u003e\u003ca\u003escc\u003c/a\u003e\u003c/code\u003e that forgets the distinction between a single acyclic\n SCC and a singly recursive SCC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:20 UTC 2014",
           "module": "Language.Haskell.TH.SCCs",
           "name": "binding_group",
           "package": "th-sccs",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Wrapper for scc that forgets the distinction between single acyclic SCC and singly recursive SCC",
           "hierarchy": "Language Haskell TH SCCs",
+          "indexed": "2014-03-11T20:21:20",
           "module": "Language.Haskell.TH.SCCs",
           "name": "binding_group",
           "normalized": "Name-\u003eQ(Set Name)",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for \u003ccode\u003e\u003ca\u003esccs\u003c/a\u003e\u003c/code\u003e that forgets the distinction between a single acyclic\n SCC and a singly recursive SCC\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:20 UTC 2014",
           "module": "Language.Haskell.TH.SCCs",
           "name": "binding_groups",
           "package": "th-sccs",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Wrapper for sccs that forgets the distinction between single acyclic SCC and singly recursive SCC",
           "hierarchy": "Language Haskell TH SCCs",
+          "indexed": "2014-03-11T20:21:20",
           "module": "Language.Haskell.TH.SCCs",
           "name": "binding_groups",
           "normalized": "[Name]-\u003eQ[Set Name]",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:20 UTC 2014",
           "module": "Language.Haskell.TH.SCCs",
           "name": "name_of",
           "package": "th-sccs",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH SCCs",
+          "indexed": "2014-03-11T20:21:20",
           "module": "Language.Haskell.TH.SCCs",
           "name": "name_of",
           "normalized": "a-\u003eName",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelpful for debugging generated code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:20 UTC 2014",
           "module": "Language.Haskell.TH.SCCs",
           "name": "printQ",
           "package": "th-sccs",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Helpful for debugging generated code",
           "hierarchy": "Language Haskell TH SCCs",
+          "indexed": "2014-03-11T20:21:20",
           "module": "Language.Haskell.TH.SCCs",
           "name": "printQ",
           "normalized": "Maybe String-\u003eQ a-\u003eQ[Dec]",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the SCC that includes the declaration of the given name; \u003ccode\u003eLeft\u003c/code\u003e\n is a singly acyclic declaration, \u003ccode\u003eRight\u003c/code\u003e is a mutually recursive group\n (possibly of size one: singly recursion).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:20 UTC 2014",
           "module": "Language.Haskell.TH.SCCs",
           "name": "scc",
           "package": "th-sccs",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Computes the SCC that includes the declaration of the given name Left is singly acyclic declaration Right is mutually recursive group possibly of size one singly recursion",
           "hierarchy": "Language Haskell TH SCCs",
+          "indexed": "2014-03-11T20:21:20",
           "module": "Language.Haskell.TH.SCCs",
           "name": "scc",
           "normalized": "Name-\u003eQ(Either Name(Set Name))",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes all SCCs for the given names (including those it dominates)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:20 UTC 2014",
           "module": "Language.Haskell.TH.SCCs",
           "name": "sccs",
           "package": "th-sccs",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Computes all SCCs for the given names including those it dominates",
           "hierarchy": "Language Haskell TH SCCs",
+          "indexed": "2014-03-11T20:21:20",
           "module": "Language.Haskell.TH.SCCs",
           "name": "sccs",
           "normalized": "[Name]-\u003eQ[Either Name(Set Name)]",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorter than \u003ccode\u003e\u003ca\u003etype_dependencies'\u003c/a\u003e\u003c/code\u003e and also adds the name of the seconda\n argument to the tracked bindings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:20 UTC 2014",
           "module": "Language.Haskell.TH.SCCs",
           "name": "td_descend",
           "package": "th-sccs",
@@ -244,6 +263,7 @@
         "index": {
           "description": "Shorter than type dependencies and also adds the name of the seconda argument to the tracked bindings",
           "hierarchy": "Language Haskell TH SCCs",
+          "indexed": "2014-03-11T20:21:20",
           "module": "Language.Haskell.TH.SCCs",
           "name": "td_descend",
           "normalized": "[Name]-\u003ea-\u003eb-\u003eSet Name",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust a bit shorter than \u003ccode\u003e\u003ca\u003etype_dependencies'\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:20 UTC 2014",
           "module": "Language.Haskell.TH.SCCs",
           "name": "td_recur",
           "package": "th-sccs",
@@ -269,6 +290,7 @@
         "index": {
           "description": "Just bit shorter than type dependencies",
           "hierarchy": "Language Haskell TH SCCs",
+          "indexed": "2014-03-11T20:21:20",
           "module": "Language.Haskell.TH.SCCs",
           "name": "td_recur",
           "normalized": "[Name]-\u003ea-\u003eSet Name",
@@ -283,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:20 UTC 2014",
           "module": "Language.Haskell.TH.SCCs",
           "name": "type_dependencies",
           "package": "th-sccs",
@@ -292,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH SCCs",
+          "indexed": "2014-03-11T20:21:20",
           "module": "Language.Haskell.TH.SCCs",
           "name": "type_dependencies",
           "normalized": "a-\u003eSet Name",
@@ -306,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:20 UTC 2014",
           "module": "Language.Haskell.TH.SCCs",
           "name": "type_dependencies'",
           "package": "th-sccs",
@@ -315,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH SCCs",
+          "indexed": "2014-03-11T20:21:20",
           "module": "Language.Haskell.TH.SCCs",
           "name": "type_dependencies'",
           "normalized": "[Name]-\u003ea-\u003eSet Name",

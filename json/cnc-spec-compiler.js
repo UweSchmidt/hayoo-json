@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cnc-spec-compiler"
+        "phrase": "cnc-spec-compiler",
+        "type": "phrase"
       },
       "type": "context"
     }

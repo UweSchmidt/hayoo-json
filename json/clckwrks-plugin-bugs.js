@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "clckwrks-plugin-bugs"
+        "phrase": "clckwrks-plugin-bugs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "Acid",
           "package": "clckwrks-plugin-bugs",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "Acid",
           "package": "clckwrks-plugin-bugs",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "AllBugIds",
           "package": "clckwrks-plugin-bugs",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "AllBugIds",
           "package": "clckwrks-plugin-bugs",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "AllBugMeta",
           "package": "clckwrks-plugin-bugs",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "AllBugMeta",
           "package": "clckwrks-plugin-bugs",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "BugsForMilestones",
           "package": "clckwrks-plugin-bugs",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "BugsForMilestones",
           "package": "clckwrks-plugin-bugs",
@@ -103,6 +111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eBugsState\u003c/a\u003e\u003c/code\u003e stores all the bugs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "BugsState",
           "package": "clckwrks-plugin-bugs",
@@ -112,6 +121,7 @@
         "index": {
           "description": "BugsState stores all the bugs",
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "BugsState",
           "package": "clckwrks-plugin-bugs",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "BugsState_0",
           "package": "clckwrks-plugin-bugs",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "BugsState_0",
           "package": "clckwrks-plugin-bugs",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "GenBugId",
           "package": "clckwrks-plugin-bugs",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "GenBugId",
           "package": "clckwrks-plugin-bugs",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "GetBugById",
           "package": "clckwrks-plugin-bugs",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "GetBugById",
           "package": "clckwrks-plugin-bugs",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "GetMilestoneTitle",
           "package": "clckwrks-plugin-bugs",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "GetMilestoneTitle",
           "package": "clckwrks-plugin-bugs",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "GetMilestones",
           "package": "clckwrks-plugin-bugs",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "GetMilestones",
           "package": "clckwrks-plugin-bugs",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "MilestoneCompletion",
           "package": "clckwrks-plugin-bugs",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "MilestoneCompletion",
           "package": "clckwrks-plugin-bugs",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "NewMilestone",
           "package": "clckwrks-plugin-bugs",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "NewMilestone",
           "package": "clckwrks-plugin-bugs",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "PutBug",
           "package": "clckwrks-plugin-bugs",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "PutBug",
           "package": "clckwrks-plugin-bugs",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "SetMilestones",
           "package": "clckwrks-plugin-bugs",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "SetMilestones",
           "package": "clckwrks-plugin-bugs",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "SortBugsBy",
           "package": "clckwrks-plugin-bugs",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "SortBugsBy",
           "package": "clckwrks-plugin-bugs",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "SortOrder",
           "package": "clckwrks-plugin-bugs",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "SortOrder",
           "package": "clckwrks-plugin-bugs",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "AllBugIds",
           "package": "clckwrks-plugin-bugs",
@@ -365,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "AllBugIds",
           "package": "clckwrks-plugin-bugs",
@@ -378,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "AllBugMeta",
           "package": "clckwrks-plugin-bugs",
@@ -387,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "AllBugMeta",
           "package": "clckwrks-plugin-bugs",
@@ -400,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "Asc",
           "package": "clckwrks-plugin-bugs",
@@ -409,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "Asc",
           "package": "clckwrks-plugin-bugs",
@@ -422,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "BugsForMilestones",
           "package": "clckwrks-plugin-bugs",
@@ -431,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "BugsForMilestones",
           "normalized": "BugsForMilestones[MilestoneId]",
@@ -446,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "BugsState",
           "package": "clckwrks-plugin-bugs",
@@ -455,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "BugsState",
           "package": "clckwrks-plugin-bugs",
@@ -468,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "BugsState_0",
           "package": "clckwrks-plugin-bugs",
@@ -477,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "BugsState_0",
           "package": "clckwrks-plugin-bugs",
@@ -490,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "Desc",
           "package": "clckwrks-plugin-bugs",
@@ -499,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "Desc",
           "package": "clckwrks-plugin-bugs",
@@ -512,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "GenBugId",
           "package": "clckwrks-plugin-bugs",
@@ -521,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "GenBugId",
           "package": "clckwrks-plugin-bugs",
@@ -534,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "GetBugById",
           "package": "clckwrks-plugin-bugs",
@@ -543,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "GetBugById",
           "package": "clckwrks-plugin-bugs",
@@ -556,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "GetMilestoneTitle",
           "package": "clckwrks-plugin-bugs",
@@ -565,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "GetMilestoneTitle",
           "package": "clckwrks-plugin-bugs",
@@ -578,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "GetMilestones",
           "package": "clckwrks-plugin-bugs",
@@ -587,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "GetMilestones",
           "package": "clckwrks-plugin-bugs",
@@ -600,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "MilestoneCompletion",
           "package": "clckwrks-plugin-bugs",
@@ -609,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "MilestoneCompletion",
           "package": "clckwrks-plugin-bugs",
@@ -622,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "NewMilestone",
           "package": "clckwrks-plugin-bugs",
@@ -631,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "NewMilestone",
           "package": "clckwrks-plugin-bugs",
@@ -644,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "PutBug",
           "package": "clckwrks-plugin-bugs",
@@ -653,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "PutBug",
           "package": "clckwrks-plugin-bugs",
@@ -666,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "SetMilestones",
           "package": "clckwrks-plugin-bugs",
@@ -675,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "SetMilestones",
           "normalized": "SetMilestones[Milestone]",
@@ -690,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "SortByBugId",
           "package": "clckwrks-plugin-bugs",
@@ -699,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "SortByBugId",
           "package": "clckwrks-plugin-bugs",
@@ -712,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "allBugIds",
           "package": "clckwrks-plugin-bugs",
@@ -721,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "allBugIds",
           "normalized": "Query BugsState[BugId]",
@@ -736,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "allBugMeta",
           "package": "clckwrks-plugin-bugs",
@@ -745,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "allBugMeta",
           "normalized": "SortOrder SortBugsBy-\u003eQuery BugsState[BugMeta]",
@@ -760,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "bugs",
           "package": "clckwrks-plugin-bugs",
@@ -769,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "bugs",
           "package": "clckwrks-plugin-bugs",
@@ -782,6 +852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget all the \u003ccode\u003e\u003ca\u003eBug\u003c/a\u003e\u003c/code\u003es with one of the target \u003ccode\u003e\u003ca\u003eMilestoneId\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "bugsForMilestones",
           "package": "clckwrks-plugin-bugs",
@@ -792,6 +863,7 @@
         "index": {
           "description": "get all the Bug with one of the target MilestoneId",
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "bugsForMilestones",
           "normalized": "[MilestoneId]-\u003eQuery BugsState(IxSet Bug)",
@@ -807,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "bugs_0",
           "package": "clckwrks-plugin-bugs",
@@ -816,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "bugs_0",
           "package": "clckwrks-plugin-bugs",
@@ -829,6 +903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the next unused \u003ccode\u003eBugsId\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "genBugId",
           "package": "clckwrks-plugin-bugs",
@@ -839,6 +914,7 @@
         "index": {
           "description": "get the next unused BugsId",
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "genBugId",
           "package": "clckwrks-plugin-bugs",
@@ -853,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget \u003ccode\u003eBugs\u003c/code\u003e by \u003ccode\u003e\u003ca\u003eBugId\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "getBugById",
           "package": "clckwrks-plugin-bugs",
@@ -863,6 +940,7 @@
         "index": {
           "description": "get Bugs by BugId",
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "getBugById",
           "normalized": "BugId-\u003eQuery BugsState(Maybe Bug)",
@@ -879,6 +957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget all the \u003ccode\u003e\u003ca\u003eMilestoneId\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "getMilestoneIds",
           "package": "clckwrks-plugin-bugs",
@@ -889,6 +968,7 @@
         "index": {
           "description": "get all the MilestoneId",
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "getMilestoneIds",
           "normalized": "Query BugsState[MilestoneId]",
@@ -905,6 +985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the \u003ccode\u003e\u003ca\u003emilestoneTitle\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e\u003ca\u003eMilestoneId\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "getMilestoneTitle",
           "package": "clckwrks-plugin-bugs",
@@ -915,6 +996,7 @@
         "index": {
           "description": "get the milestoneTitle for MilestoneId",
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "getMilestoneTitle",
           "normalized": "MilestoneId-\u003eQuery BugsState(Maybe Text)",
@@ -931,6 +1013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the milestones\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "getMilestones",
           "package": "clckwrks-plugin-bugs",
@@ -941,6 +1024,7 @@
         "index": {
           "description": "get the milestones",
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "getMilestones",
           "normalized": "Query BugsState[Milestone]",
@@ -957,6 +1041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einitial \u003ccode\u003e\u003ca\u003eBugsState\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "initialBugsState",
           "package": "clckwrks-plugin-bugs",
@@ -967,6 +1052,7 @@
         "index": {
           "description": "initial BugsState",
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "initialBugsState",
           "package": "clckwrks-plugin-bugs",
@@ -981,6 +1067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the percentage completion of a \u003ccode\u003e\u003ca\u003eMilestoneId\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eWill return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no bugs were found for the \u003ccode\u003e\u003ca\u003eMilestoneId\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "milestoneCompletion",
           "package": "clckwrks-plugin-bugs",
@@ -991,6 +1078,7 @@
         "index": {
           "description": "return the percentage completion of MilestoneId Will return Nothing if no bugs were found for the MilestoneId",
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "milestoneCompletion",
           "normalized": "MilestoneId-\u003eQuery BugsState(Maybe Rational)",
@@ -1006,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "milestones",
           "package": "clckwrks-plugin-bugs",
@@ -1015,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "milestones",
           "package": "clckwrks-plugin-bugs",
@@ -1028,6 +1118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a new, empty \u003ccode\u003e\u003ca\u003eMilestone\u003c/a\u003e\u003c/code\u003e to the database and return the \u003ccode\u003e\u003ca\u003eMilestoneId\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "newMilestone",
           "package": "clckwrks-plugin-bugs",
@@ -1038,6 +1129,7 @@
         "index": {
           "description": "add new empty Milestone to the database and return the MilestoneId",
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "newMilestone",
           "package": "clckwrks-plugin-bugs",
@@ -1051,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "nextBugId",
           "package": "clckwrks-plugin-bugs",
@@ -1060,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "nextBugId",
           "package": "clckwrks-plugin-bugs",
@@ -1073,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "nextBugId_0",
           "package": "clckwrks-plugin-bugs",
@@ -1082,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "nextBugId_0",
           "package": "clckwrks-plugin-bugs",
@@ -1095,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "nextMilestoneId",
           "package": "clckwrks-plugin-bugs",
@@ -1104,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "nextMilestoneId",
           "package": "clckwrks-plugin-bugs",
@@ -1118,6 +1216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estore \u003ccode\u003eBugs\u003c/code\u003e in the state. Will overwrite an existing entry with the same \u003ccode\u003e\u003ca\u003eBugId\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "putBug",
           "package": "clckwrks-plugin-bugs",
@@ -1128,6 +1227,7 @@
         "index": {
           "description": "store Bugs in the state Will overwrite an existing entry with the same BugId",
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "putBug",
           "normalized": "Bug-\u003eUpdate BugsState()",
@@ -1144,6 +1244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the milestones sorted by target date\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Acid",
           "name": "setMilestones",
           "package": "clckwrks-plugin-bugs",
@@ -1154,6 +1255,7 @@
         "index": {
           "description": "get the milestones sorted by target date",
           "hierarchy": "Clckwrks Bugs Acid",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Acid",
           "name": "setMilestones",
           "normalized": "[Milestone]-\u003eUpdate BugsState()",
@@ -1169,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Monad",
           "name": "Monad",
           "package": "clckwrks-plugin-bugs",
@@ -1177,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Monad",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Monad",
           "name": "Monad",
           "package": "clckwrks-plugin-bugs",
@@ -1190,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Monad",
           "name": "BugsConfig",
           "package": "clckwrks-plugin-bugs",
@@ -1198,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Monad",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Monad",
           "name": "BugsConfig",
           "package": "clckwrks-plugin-bugs",
@@ -1211,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Monad",
           "name": "BugsForm",
           "package": "clckwrks-plugin-bugs",
@@ -1219,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Monad",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Monad",
           "name": "BugsForm",
           "package": "clckwrks-plugin-bugs",
@@ -1232,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Monad",
           "name": "BugsFormError",
           "package": "clckwrks-plugin-bugs",
@@ -1240,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Monad",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Monad",
           "name": "BugsFormError",
           "package": "clckwrks-plugin-bugs",
@@ -1253,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Monad",
           "name": "BugsM",
           "package": "clckwrks-plugin-bugs",
@@ -1261,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Monad",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Monad",
           "name": "BugsM",
           "package": "clckwrks-plugin-bugs",
@@ -1274,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Monad",
           "name": "BugsT",
           "package": "clckwrks-plugin-bugs",
@@ -1282,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Monad",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Monad",
           "name": "BugsT",
           "package": "clckwrks-plugin-bugs",
@@ -1295,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Monad",
           "name": "BugsCFE",
           "package": "clckwrks-plugin-bugs",
@@ -1304,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Monad",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Monad",
           "name": "BugsCFE",
           "normalized": "BugsCFE(CommonFormError[Input])",
@@ -1319,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Monad",
           "name": "BugsConfig",
           "package": "clckwrks-plugin-bugs",
@@ -1328,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Monad",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Monad",
           "name": "BugsConfig",
           "package": "clckwrks-plugin-bugs",
@@ -1341,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Monad",
           "name": "bugsClckURL",
           "package": "clckwrks-plugin-bugs",
@@ -1350,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Monad",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Monad",
           "name": "bugsClckURL",
           "normalized": "ClckURL-\u003e[(Text,Maybe Text)]-\u003eText",
@@ -1366,6 +1486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edirectory in which to store uploaded attachments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Monad",
           "name": "bugsDirectory",
           "package": "clckwrks-plugin-bugs",
@@ -1376,6 +1497,7 @@
         "index": {
           "description": "directory in which to store uploaded attachments",
           "hierarchy": "Clckwrks Bugs Monad",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Monad",
           "name": "bugsDirectory",
           "package": "clckwrks-plugin-bugs",
@@ -1389,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Monad",
           "name": "bugsState",
           "package": "clckwrks-plugin-bugs",
@@ -1398,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Monad",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Monad",
           "name": "bugsState",
           "package": "clckwrks-plugin-bugs",
@@ -1411,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Monad",
           "name": "runBugsT",
           "package": "clckwrks-plugin-bugs",
@@ -1420,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Monad",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Monad",
           "name": "runBugsT",
           "normalized": "BugsConfig-\u003eBugsT a b-\u003eClckT BugsURL a b",
@@ -1435,6 +1561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.BugList",
           "name": "BugList",
           "package": "clckwrks-plugin-bugs",
@@ -1443,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page BugList",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.BugList",
           "name": "BugList",
           "package": "clckwrks-plugin-bugs",
@@ -1456,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.BugList",
           "name": "bugList",
           "package": "clckwrks-plugin-bugs",
@@ -1465,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page BugList",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.BugList",
           "name": "bugList",
           "package": "clckwrks-plugin-bugs",
@@ -1478,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.BugList",
           "name": "bugListWidget",
           "package": "clckwrks-plugin-bugs",
@@ -1487,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page BugList",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.BugList",
           "name": "bugListWidget",
           "package": "clckwrks-plugin-bugs",
@@ -1500,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.BugList",
           "name": "showBugMeta",
           "package": "clckwrks-plugin-bugs",
@@ -1509,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page BugList",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.BugList",
           "name": "showBugMeta",
           "normalized": "BugMeta-\u003eXMLGenT BugsM XML",
@@ -1524,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.EditBug",
           "name": "EditBug",
           "package": "clckwrks-plugin-bugs",
@@ -1532,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page EditBug",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.EditBug",
           "name": "EditBug",
           "package": "clckwrks-plugin-bugs",
@@ -1545,6 +1681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.EditBug",
           "name": "editBug",
           "package": "clckwrks-plugin-bugs",
@@ -1554,6 +1691,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page EditBug",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.EditBug",
           "name": "editBug",
           "normalized": "BugsURL-\u003eBugId-\u003eBugsM Response",
@@ -1569,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.EditBug",
           "name": "editBugForm",
           "package": "clckwrks-plugin-bugs",
@@ -1578,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page EditBug",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.EditBug",
           "name": "editBugForm",
           "normalized": "[(Maybe UserId,Text)]-\u003e[Milestone]-\u003eBug-\u003eBugsForm Bug",
@@ -1593,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.EditBug",
           "name": "impure",
           "package": "clckwrks-plugin-bugs",
@@ -1602,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page EditBug",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.EditBug",
           "name": "impure",
           "normalized": "a b-\u003eForm a c d e()b",
@@ -1616,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.EditMilestones",
           "name": "EditMilestones",
           "package": "clckwrks-plugin-bugs",
@@ -1624,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page EditMilestones",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.EditMilestones",
           "name": "EditMilestones",
           "package": "clckwrks-plugin-bugs",
@@ -1637,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.EditMilestones",
           "name": "editMilestones",
           "package": "clckwrks-plugin-bugs",
@@ -1646,6 +1791,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page EditMilestones",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.EditMilestones",
           "name": "editMilestones",
           "normalized": "BugsURL-\u003eBugsM Response",
@@ -1661,6 +1807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.EditMilestones",
           "name": "editMilestonesForm",
           "package": "clckwrks-plugin-bugs",
@@ -1670,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page EditMilestones",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.EditMilestones",
           "name": "editMilestonesForm",
           "normalized": "[Milestone]-\u003eBugsForm([Milestone],(Bool,Bool))",
@@ -1685,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.EditMilestones",
           "name": "impure",
           "package": "clckwrks-plugin-bugs",
@@ -1694,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page EditMilestones",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.EditMilestones",
           "name": "impure",
           "normalized": "a b-\u003eForm a c d e()b",
@@ -1708,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.SubmitBug",
           "name": "SubmitBug",
           "package": "clckwrks-plugin-bugs",
@@ -1716,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page SubmitBug",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.SubmitBug",
           "name": "SubmitBug",
           "package": "clckwrks-plugin-bugs",
@@ -1729,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.SubmitBug",
           "name": "impure",
           "package": "clckwrks-plugin-bugs",
@@ -1738,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page SubmitBug",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.SubmitBug",
           "name": "impure",
           "normalized": "a b-\u003eForm a c d e()b",
@@ -1752,6 +1906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.SubmitBug",
           "name": "submitBug",
           "package": "clckwrks-plugin-bugs",
@@ -1761,6 +1916,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page SubmitBug",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.SubmitBug",
           "name": "submitBug",
           "normalized": "BugsURL-\u003eBugsM Response",
@@ -1776,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.SubmitBug",
           "name": "submitForm",
           "package": "clckwrks-plugin-bugs",
@@ -1785,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page SubmitBug",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.SubmitBug",
           "name": "submitForm",
           "package": "clckwrks-plugin-bugs",
@@ -1798,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.Template",
           "name": "Template",
           "package": "clckwrks-plugin-bugs",
@@ -1806,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page Template",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.Template",
           "name": "Template",
           "package": "clckwrks-plugin-bugs",
@@ -1819,6 +1979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.Template",
           "name": "template",
           "package": "clckwrks-plugin-bugs",
@@ -1828,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page Template",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.Template",
           "name": "template",
           "normalized": "Text-\u003ea-\u003eb-\u003eBugsM Response",
@@ -1842,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.Timeline",
           "name": "Timeline",
           "package": "clckwrks-plugin-bugs",
@@ -1850,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page Timeline",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.Timeline",
           "name": "Timeline",
           "package": "clckwrks-plugin-bugs",
@@ -1863,6 +2027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.Timeline",
           "name": "meter",
           "package": "clckwrks-plugin-bugs",
@@ -1872,6 +2037,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page Timeline",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.Timeline",
           "name": "meter",
           "normalized": "a-\u003eXMLGenT BugsM XML",
@@ -1886,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.Timeline",
           "name": "showBugSummary",
           "package": "clckwrks-plugin-bugs",
@@ -1895,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page Timeline",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.Timeline",
           "name": "showBugSummary",
           "normalized": "Bug-\u003eXMLGenT BugsM XML",
@@ -1910,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.Timeline",
           "name": "showMilestone",
           "package": "clckwrks-plugin-bugs",
@@ -1919,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page Timeline",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.Timeline",
           "name": "showMilestone",
           "normalized": "[Milestone]-\u003e(MilestoneId,[Bug])-\u003eXMLGenT BugsM[ChildType BugsM]",
@@ -1934,6 +2104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.Timeline",
           "name": "timeline",
           "package": "clckwrks-plugin-bugs",
@@ -1943,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page Timeline",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.Timeline",
           "name": "timeline",
           "package": "clckwrks-plugin-bugs",
@@ -1955,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.Timeline",
           "name": "timelineWidget",
           "package": "clckwrks-plugin-bugs",
@@ -1964,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page Timeline",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.Timeline",
           "name": "timelineWidget",
           "package": "clckwrks-plugin-bugs",
@@ -1977,6 +2151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.ViewBug",
           "name": "ViewBug",
           "package": "clckwrks-plugin-bugs",
@@ -1985,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page ViewBug",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.ViewBug",
           "name": "ViewBug",
           "package": "clckwrks-plugin-bugs",
@@ -1998,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.ViewBug",
           "name": "bugHtml",
           "package": "clckwrks-plugin-bugs",
@@ -2007,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page ViewBug",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.ViewBug",
           "name": "bugHtml",
           "normalized": "Bug-\u003eBugsM Response",
@@ -2022,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.ViewBug",
           "name": "viewBug",
           "package": "clckwrks-plugin-bugs",
@@ -2031,6 +2210,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page ViewBug",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.ViewBug",
           "name": "viewBug",
           "normalized": "BugId-\u003eBugsM Response",
@@ -2046,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Page.ViewBug",
           "name": "whenHasRole",
           "package": "clckwrks-plugin-bugs",
@@ -2055,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Page ViewBug",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Page.ViewBug",
           "name": "whenHasRole",
           "normalized": "Set Role-\u003ea XML-\u003ea XML",
@@ -2070,6 +2252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Plugin",
           "name": "Plugin",
           "package": "clckwrks-plugin-bugs",
@@ -2078,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Plugin",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Plugin",
           "name": "Plugin",
           "package": "clckwrks-plugin-bugs",
@@ -2091,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Plugin",
           "name": "addBugsAdminMenu",
           "package": "clckwrks-plugin-bugs",
@@ -2100,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Plugin",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Plugin",
           "name": "addBugsAdminMenu",
           "normalized": "ClckT a IO()",
@@ -2115,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Plugin",
           "name": "bugsHandler",
           "package": "clckwrks-plugin-bugs",
@@ -2124,6 +2311,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Plugin",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Plugin",
           "name": "bugsHandler",
           "normalized": "(BugsURL-\u003e[(Text,Maybe Text)]-\u003eText)-\u003eBugsConfig-\u003eClckPlugins-\u003e[Text]-\u003eClckT ClckURL(ServerPartT IO)Response",
@@ -2139,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Plugin",
           "name": "bugsInit",
           "package": "clckwrks-plugin-bugs",
@@ -2148,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Plugin",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Plugin",
           "name": "bugsInit",
           "normalized": "ClckPlugins-\u003eIO(Maybe Text)",
@@ -2163,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Plugin",
           "name": "bugsPlugin",
           "package": "clckwrks-plugin-bugs",
@@ -2172,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Plugin",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Plugin",
           "name": "bugsPlugin",
           "normalized": "Plugin BugsURL Theme(ClckT ClckURL(ServerPartT IO)Response)(ClckT ClckURL IO())ClckwrksConfig ClckPluginsSt",
@@ -2187,6 +2379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Plugin",
           "name": "navBarCallback",
           "package": "clckwrks-plugin-bugs",
@@ -2196,6 +2389,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Plugin",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Plugin",
           "name": "navBarCallback",
           "normalized": "AcidState BugsState-\u003e(BugsURL-\u003e[(Text,Maybe Text)]-\u003eText)-\u003eClckT ClckURL IO(String,[NamedLink])",
@@ -2211,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Plugin",
           "name": "plugin",
           "package": "clckwrks-plugin-bugs",
@@ -2219,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Plugin",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Plugin",
           "name": "plugin",
           "normalized": "ClckPlugins-\u003eText-\u003eIO(Maybe Text)",
@@ -2233,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.PreProcess",
           "name": "PreProcess",
           "package": "clckwrks-plugin-bugs",
@@ -2241,6 +2438,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs PreProcess",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.PreProcess",
           "name": "PreProcess",
           "package": "clckwrks-plugin-bugs",
@@ -2254,6 +2452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.PreProcess",
           "name": "BugsCmd",
           "package": "clckwrks-plugin-bugs",
@@ -2262,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs PreProcess",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.PreProcess",
           "name": "BugsCmd",
           "package": "clckwrks-plugin-bugs",
@@ -2275,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.PreProcess",
           "name": "BugListLink",
           "package": "clckwrks-plugin-bugs",
@@ -2284,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs PreProcess",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.PreProcess",
           "name": "BugListLink",
           "package": "clckwrks-plugin-bugs",
@@ -2297,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.PreProcess",
           "name": "ShowBug",
           "package": "clckwrks-plugin-bugs",
@@ -2306,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs PreProcess",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.PreProcess",
           "name": "ShowBug",
           "package": "clckwrks-plugin-bugs",
@@ -2319,6 +2523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.PreProcess",
           "name": "ShowTimeline",
           "package": "clckwrks-plugin-bugs",
@@ -2328,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs PreProcess",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.PreProcess",
           "name": "ShowTimeline",
           "package": "clckwrks-plugin-bugs",
@@ -2341,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.PreProcess",
           "name": "applyCmd",
           "package": "clckwrks-plugin-bugs",
@@ -2350,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs PreProcess",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.PreProcess",
           "name": "applyCmd",
           "normalized": "(BugsURL-\u003e[a]-\u003ea)-\u003eBugsCmd-\u003eb Builder",
@@ -2365,6 +2573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.PreProcess",
           "name": "bugsCmd",
           "package": "clckwrks-plugin-bugs",
@@ -2374,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs PreProcess",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.PreProcess",
           "name": "bugsCmd",
           "normalized": "(BugsURL-\u003e[(Text,Maybe Text)]-\u003eText)-\u003eText-\u003eClckT a b Text",
@@ -2389,6 +2599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.PreProcess",
           "name": "parseAttr",
           "package": "clckwrks-plugin-bugs",
@@ -2398,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs PreProcess",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.PreProcess",
           "name": "parseAttr",
           "normalized": "Text-\u003eParser()",
@@ -2413,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.PreProcess",
           "name": "parseCmd",
           "package": "clckwrks-plugin-bugs",
@@ -2422,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs PreProcess",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.PreProcess",
           "name": "parseCmd",
           "package": "clckwrks-plugin-bugs",
@@ -2435,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Route",
           "name": "Route",
           "package": "clckwrks-plugin-bugs",
@@ -2443,6 +2658,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Route",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Route",
           "name": "Route",
           "package": "clckwrks-plugin-bugs",
@@ -2456,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Route",
           "name": "checkAuth",
           "package": "clckwrks-plugin-bugs",
@@ -2465,6 +2682,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Route",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Route",
           "name": "checkAuth",
           "normalized": "BugsURL-\u003eBugsM BugsURL",
@@ -2480,6 +2698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Route",
           "name": "routeBugs",
           "package": "clckwrks-plugin-bugs",
@@ -2489,6 +2708,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Route",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Route",
           "name": "routeBugs",
           "normalized": "BugsURL-\u003eBugsM Response",
@@ -2504,6 +2724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "Types",
           "package": "clckwrks-plugin-bugs",
@@ -2512,6 +2733,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "Types",
           "package": "clckwrks-plugin-bugs",
@@ -2525,6 +2747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "Bug",
           "package": "clckwrks-plugin-bugs",
@@ -2533,6 +2756,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "Bug",
           "package": "clckwrks-plugin-bugs",
@@ -2546,6 +2770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "BugId",
           "package": "clckwrks-plugin-bugs",
@@ -2554,6 +2779,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "BugId",
           "package": "clckwrks-plugin-bugs",
@@ -2567,6 +2793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "BugMeta",
           "package": "clckwrks-plugin-bugs",
@@ -2575,6 +2802,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "BugMeta",
           "package": "clckwrks-plugin-bugs",
@@ -2588,6 +2816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "BugStatus",
           "package": "clckwrks-plugin-bugs",
@@ -2596,6 +2825,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "BugStatus",
           "package": "clckwrks-plugin-bugs",
@@ -2609,6 +2839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "BugTag",
           "package": "clckwrks-plugin-bugs",
@@ -2617,6 +2848,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "BugTag",
           "package": "clckwrks-plugin-bugs",
@@ -2630,6 +2862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "Bug_0",
           "package": "clckwrks-plugin-bugs",
@@ -2638,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "Bug_0",
           "package": "clckwrks-plugin-bugs",
@@ -2651,6 +2885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "Milestone",
           "package": "clckwrks-plugin-bugs",
@@ -2659,6 +2894,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "Milestone",
           "package": "clckwrks-plugin-bugs",
@@ -2672,6 +2908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "MilestoneId",
           "package": "clckwrks-plugin-bugs",
@@ -2680,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "MilestoneId",
           "package": "clckwrks-plugin-bugs",
@@ -2693,6 +2931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "TargetDate",
           "package": "clckwrks-plugin-bugs",
@@ -2701,6 +2940,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "TargetDate",
           "package": "clckwrks-plugin-bugs",
@@ -2714,6 +2954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "Accepted",
           "package": "clckwrks-plugin-bugs",
@@ -2723,6 +2964,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "Accepted",
           "package": "clckwrks-plugin-bugs",
@@ -2736,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "Bug",
           "package": "clckwrks-plugin-bugs",
@@ -2745,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "Bug",
           "package": "clckwrks-plugin-bugs",
@@ -2758,6 +3002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "BugId",
           "package": "clckwrks-plugin-bugs",
@@ -2767,6 +3012,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "BugId",
           "package": "clckwrks-plugin-bugs",
@@ -2780,6 +3026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "BugMeta",
           "package": "clckwrks-plugin-bugs",
@@ -2789,6 +3036,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "BugMeta",
           "package": "clckwrks-plugin-bugs",
@@ -2802,6 +3050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "BugTag",
           "package": "clckwrks-plugin-bugs",
@@ -2811,6 +3060,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "BugTag",
           "package": "clckwrks-plugin-bugs",
@@ -2824,6 +3074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "Bug_0",
           "package": "clckwrks-plugin-bugs",
@@ -2833,6 +3084,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "Bug_0",
           "package": "clckwrks-plugin-bugs",
@@ -2846,6 +3098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "Closed",
           "package": "clckwrks-plugin-bugs",
@@ -2855,6 +3108,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "Closed",
           "package": "clckwrks-plugin-bugs",
@@ -2868,6 +3122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "Invalid",
           "package": "clckwrks-plugin-bugs",
@@ -2877,6 +3132,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "Invalid",
           "package": "clckwrks-plugin-bugs",
@@ -2890,6 +3146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "Milestone",
           "package": "clckwrks-plugin-bugs",
@@ -2899,6 +3156,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "Milestone",
           "package": "clckwrks-plugin-bugs",
@@ -2912,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "MilestoneId",
           "package": "clckwrks-plugin-bugs",
@@ -2921,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "MilestoneId",
           "package": "clckwrks-plugin-bugs",
@@ -2934,6 +3194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "New",
           "package": "clckwrks-plugin-bugs",
@@ -2943,6 +3204,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "New",
           "package": "clckwrks-plugin-bugs",
@@ -2956,6 +3218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "TargetDate",
           "package": "clckwrks-plugin-bugs",
@@ -2965,6 +3228,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "TargetDate",
           "package": "clckwrks-plugin-bugs",
@@ -2978,6 +3242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "WontFix",
           "package": "clckwrks-plugin-bugs",
@@ -2987,6 +3252,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "WontFix",
           "package": "clckwrks-plugin-bugs",
@@ -3000,6 +3266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugAssigned",
           "package": "clckwrks-plugin-bugs",
@@ -3009,6 +3276,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugAssigned",
           "package": "clckwrks-plugin-bugs",
@@ -3022,6 +3290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugAssigned_0",
           "package": "clckwrks-plugin-bugs",
@@ -3031,6 +3300,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugAssigned_0",
           "package": "clckwrks-plugin-bugs",
@@ -3044,6 +3314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugBody",
           "package": "clckwrks-plugin-bugs",
@@ -3053,6 +3324,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugBody",
           "package": "clckwrks-plugin-bugs",
@@ -3066,6 +3338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugBody_0",
           "package": "clckwrks-plugin-bugs",
@@ -3075,6 +3348,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugBody_0",
           "package": "clckwrks-plugin-bugs",
@@ -3088,6 +3362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugId",
           "package": "clckwrks-plugin-bugs",
@@ -3097,6 +3372,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugId",
           "package": "clckwrks-plugin-bugs",
@@ -3110,6 +3386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugId_0",
           "package": "clckwrks-plugin-bugs",
@@ -3119,6 +3396,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugId_0",
           "package": "clckwrks-plugin-bugs",
@@ -3132,6 +3410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugMeta",
           "package": "clckwrks-plugin-bugs",
@@ -3141,6 +3420,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugMeta",
           "package": "clckwrks-plugin-bugs",
@@ -3154,6 +3434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugMilestone",
           "package": "clckwrks-plugin-bugs",
@@ -3163,6 +3444,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugMilestone",
           "package": "clckwrks-plugin-bugs",
@@ -3176,6 +3458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugMilestone_0",
           "package": "clckwrks-plugin-bugs",
@@ -3185,6 +3468,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugMilestone_0",
           "package": "clckwrks-plugin-bugs",
@@ -3198,6 +3482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugStatus",
           "package": "clckwrks-plugin-bugs",
@@ -3207,6 +3492,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugStatus",
           "package": "clckwrks-plugin-bugs",
@@ -3220,6 +3506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugStatus_0",
           "package": "clckwrks-plugin-bugs",
@@ -3229,6 +3516,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugStatus_0",
           "package": "clckwrks-plugin-bugs",
@@ -3242,6 +3530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugSubmitted",
           "package": "clckwrks-plugin-bugs",
@@ -3251,6 +3540,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugSubmitted",
           "package": "clckwrks-plugin-bugs",
@@ -3264,6 +3554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugSubmitted_0",
           "package": "clckwrks-plugin-bugs",
@@ -3273,6 +3564,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugSubmitted_0",
           "package": "clckwrks-plugin-bugs",
@@ -3286,6 +3578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugSubmitter",
           "package": "clckwrks-plugin-bugs",
@@ -3295,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugSubmitter",
           "package": "clckwrks-plugin-bugs",
@@ -3308,6 +3602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugSubmittor_0",
           "package": "clckwrks-plugin-bugs",
@@ -3317,6 +3612,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugSubmittor_0",
           "package": "clckwrks-plugin-bugs",
@@ -3330,6 +3626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugTags",
           "package": "clckwrks-plugin-bugs",
@@ -3339,6 +3636,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugTags",
           "package": "clckwrks-plugin-bugs",
@@ -3352,6 +3650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugTags_0",
           "package": "clckwrks-plugin-bugs",
@@ -3361,6 +3660,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugTags_0",
           "package": "clckwrks-plugin-bugs",
@@ -3374,6 +3674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugTitle",
           "package": "clckwrks-plugin-bugs",
@@ -3383,6 +3684,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugTitle",
           "package": "clckwrks-plugin-bugs",
@@ -3396,6 +3698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugTitle_0",
           "package": "clckwrks-plugin-bugs",
@@ -3405,6 +3708,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "bugTitle_0",
           "package": "clckwrks-plugin-bugs",
@@ -3418,6 +3722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "milestoneId",
           "package": "clckwrks-plugin-bugs",
@@ -3427,6 +3732,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "milestoneId",
           "package": "clckwrks-plugin-bugs",
@@ -3440,6 +3746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "milestoneReached",
           "package": "clckwrks-plugin-bugs",
@@ -3449,6 +3756,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "milestoneReached",
           "package": "clckwrks-plugin-bugs",
@@ -3462,6 +3770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "milestoneTarget",
           "package": "clckwrks-plugin-bugs",
@@ -3471,6 +3780,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "milestoneTarget",
           "package": "clckwrks-plugin-bugs",
@@ -3484,6 +3794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "milestoneTitle",
           "package": "clckwrks-plugin-bugs",
@@ -3493,6 +3804,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "milestoneTitle",
           "package": "clckwrks-plugin-bugs",
@@ -3506,6 +3818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "tagText",
           "package": "clckwrks-plugin-bugs",
@@ -3515,6 +3828,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "tagText",
           "package": "clckwrks-plugin-bugs",
@@ -3528,6 +3842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "unBugId",
           "package": "clckwrks-plugin-bugs",
@@ -3537,6 +3852,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "unBugId",
           "package": "clckwrks-plugin-bugs",
@@ -3550,6 +3866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.Types",
           "name": "unMilestoneId",
           "package": "clckwrks-plugin-bugs",
@@ -3559,6 +3876,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs Types",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.Types",
           "name": "unMilestoneId",
           "package": "clckwrks-plugin-bugs",
@@ -3572,6 +3890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.URL",
           "name": "URL",
           "package": "clckwrks-plugin-bugs",
@@ -3580,6 +3899,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs URL",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.URL",
           "name": "URL",
           "package": "clckwrks-plugin-bugs",
@@ -3593,6 +3913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.URL",
           "name": "BugsAdminURL",
           "package": "clckwrks-plugin-bugs",
@@ -3601,6 +3922,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs URL",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.URL",
           "name": "BugsAdminURL",
           "package": "clckwrks-plugin-bugs",
@@ -3614,6 +3936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.URL",
           "name": "BugsURL",
           "package": "clckwrks-plugin-bugs",
@@ -3622,6 +3945,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs URL",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.URL",
           "name": "BugsURL",
           "package": "clckwrks-plugin-bugs",
@@ -3635,6 +3959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.URL",
           "name": "BugList",
           "package": "clckwrks-plugin-bugs",
@@ -3644,6 +3969,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs URL",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.URL",
           "name": "BugList",
           "package": "clckwrks-plugin-bugs",
@@ -3657,6 +3983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.URL",
           "name": "BugsAdmin",
           "package": "clckwrks-plugin-bugs",
@@ -3666,6 +3993,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs URL",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.URL",
           "name": "BugsAdmin",
           "package": "clckwrks-plugin-bugs",
@@ -3679,6 +4007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.URL",
           "name": "BugsData",
           "package": "clckwrks-plugin-bugs",
@@ -3688,6 +4017,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs URL",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.URL",
           "name": "BugsData",
           "package": "clckwrks-plugin-bugs",
@@ -3701,6 +4031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.URL",
           "name": "EditBug",
           "package": "clckwrks-plugin-bugs",
@@ -3710,6 +4041,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs URL",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.URL",
           "name": "EditBug",
           "package": "clckwrks-plugin-bugs",
@@ -3723,6 +4055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.URL",
           "name": "EditMilestones",
           "package": "clckwrks-plugin-bugs",
@@ -3732,6 +4065,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs URL",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.URL",
           "name": "EditMilestones",
           "package": "clckwrks-plugin-bugs",
@@ -3745,6 +4079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.URL",
           "name": "SearchBugs",
           "package": "clckwrks-plugin-bugs",
@@ -3754,6 +4089,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs URL",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.URL",
           "name": "SearchBugs",
           "package": "clckwrks-plugin-bugs",
@@ -3767,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.URL",
           "name": "SubmitBug",
           "package": "clckwrks-plugin-bugs",
@@ -3776,6 +4113,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs URL",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.URL",
           "name": "SubmitBug",
           "package": "clckwrks-plugin-bugs",
@@ -3789,6 +4127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.URL",
           "name": "Timeline",
           "package": "clckwrks-plugin-bugs",
@@ -3798,6 +4137,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs URL",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.URL",
           "name": "Timeline",
           "package": "clckwrks-plugin-bugs",
@@ -3811,6 +4151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs.URL",
           "name": "ViewBug",
           "package": "clckwrks-plugin-bugs",
@@ -3820,6 +4161,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs URL",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs.URL",
           "name": "ViewBug",
           "package": "clckwrks-plugin-bugs",
@@ -3833,6 +4175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Clckwrks.Bugs",
           "name": "Bugs",
           "package": "clckwrks-plugin-bugs",
@@ -3841,6 +4184,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Bugs",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Clckwrks.Bugs",
           "name": "Bugs",
           "package": "clckwrks-plugin-bugs",
@@ -3854,6 +4198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Paths_clckwrks_plugin_bugs",
           "name": "Paths_clckwrks_plugin_bugs",
           "package": "clckwrks-plugin-bugs",
@@ -3862,6 +4207,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_bugs",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Paths_clckwrks_plugin_bugs",
           "name": "Paths_clckwrks_plugin_bugs",
           "package": "clckwrks-plugin-bugs",
@@ -3875,6 +4221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Paths_clckwrks_plugin_bugs",
           "name": "getBinDir",
           "package": "clckwrks-plugin-bugs",
@@ -3884,6 +4231,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_bugs",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Paths_clckwrks_plugin_bugs",
           "name": "getBinDir",
           "package": "clckwrks-plugin-bugs",
@@ -3897,6 +4245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Paths_clckwrks_plugin_bugs",
           "name": "getDataDir",
           "package": "clckwrks-plugin-bugs",
@@ -3906,6 +4255,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_bugs",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Paths_clckwrks_plugin_bugs",
           "name": "getDataDir",
           "package": "clckwrks-plugin-bugs",
@@ -3919,6 +4269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Paths_clckwrks_plugin_bugs",
           "name": "getDataFileName",
           "package": "clckwrks-plugin-bugs",
@@ -3928,6 +4279,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_bugs",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Paths_clckwrks_plugin_bugs",
           "name": "getDataFileName",
           "normalized": "FilePath-\u003eIO FilePath",
@@ -3943,6 +4295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Paths_clckwrks_plugin_bugs",
           "name": "getLibDir",
           "package": "clckwrks-plugin-bugs",
@@ -3952,6 +4305,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_bugs",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Paths_clckwrks_plugin_bugs",
           "name": "getLibDir",
           "package": "clckwrks-plugin-bugs",
@@ -3965,6 +4319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Paths_clckwrks_plugin_bugs",
           "name": "getLibexecDir",
           "package": "clckwrks-plugin-bugs",
@@ -3974,6 +4329,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_bugs",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Paths_clckwrks_plugin_bugs",
           "name": "getLibexecDir",
           "package": "clckwrks-plugin-bugs",
@@ -3987,6 +4343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:52 UTC 2014",
           "module": "Paths_clckwrks_plugin_bugs",
           "name": "version",
           "package": "clckwrks-plugin-bugs",
@@ -3996,6 +4353,7 @@
         },
         "index": {
           "hierarchy": "Paths_clckwrks_plugin_bugs",
+          "indexed": "2014-03-11T17:33:52",
           "module": "Paths_clckwrks_plugin_bugs",
           "name": "version",
           "package": "clckwrks-plugin-bugs",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-named"
+        "phrase": "data-named",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation of a graph with each internal node identified by a\n unique key and each leaf represented by a position in the sentence.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Graph",
           "name": "Graph",
           "package": "data-named",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implementation of graph with each internal node identified by unique key and each leaf represented by position in the sentence",
           "hierarchy": "Data Named Graph",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Graph",
           "name": "Graph",
           "package": "data-named",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA graph over a sentence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Graph",
           "name": "Graph",
           "package": "data-named",
@@ -51,6 +54,7 @@
         "index": {
           "description": "graph over sentence",
           "hierarchy": "Data Named Graph",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Graph",
           "name": "Graph",
           "package": "data-named",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Graph",
           "name": "Graph",
           "package": "data-named",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data Named Graph",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Graph",
           "name": "Graph",
           "package": "data-named",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Graph",
           "name": "bounds",
           "package": "data-named",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data Named Graph",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Graph",
           "name": "bounds",
           "normalized": "(a,a)",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Graph",
           "name": "edgeMap",
           "package": "data-named",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Data Named Graph",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Graph",
           "name": "edgeMap",
           "normalized": "Map a[Either a b]",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet keys of adjacent nodes for the given node key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Graph",
           "name": "edges",
           "package": "data-named",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Get keys of adjacent nodes for the given node key",
           "hierarchy": "Data Named Graph",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Graph",
           "name": "edges",
           "normalized": "Graph a b-\u003ea-\u003e[Either a b]",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a graph given the bounds and list of edges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Graph",
           "name": "mkGraph",
           "package": "data-named",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Make graph given the bounds and list of edges",
           "hierarchy": "Data Named Graph",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Graph",
           "name": "mkGraph",
           "normalized": "(a,a)-\u003e[(b,[Either b a])]-\u003eGraph b a",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all graph roots (i.e. nodes with no parents).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Graph",
           "name": "roots",
           "package": "data-named",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Return all graph roots i.e nodes with no parents",
           "hierarchy": "Data Named Graph",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Graph",
           "name": "roots",
           "normalized": "Graph a b-\u003e[a]",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform graph into a disjoint forest, i.e. with no mutually\n overlapping trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Graph",
           "name": "toForest",
           "package": "data-named",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Transform graph into disjoint forest i.e with no mutually overlapping trees",
           "hierarchy": "Data Named Graph",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Graph",
           "name": "toForest",
           "normalized": "Graph a b-\u003eNeForest a b",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIOB encoding method extended to forests.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:m Data.Named.IOB Data.Named.Tree Text.Named.Enamex Data.Text.Lazy\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet enamex = pack \"\u003cx\u003ew1.1\\\\ w1.2\u003c/x\u003e w2 \u003cy\u003e\u003cz\u003ew3\u003c/z\u003e w4\u003c/y\u003e\"\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eputStr . drawForest . mapForest show . parseForest $ enamex\n\u003c/code\u003e\u003c/strong\u003eLeft \"x\"\n|\n`- Right \"w1.1 w1.2\"\n,\nRight \"w2\"\n,\nLeft \"y\"\n|\n+- Left \"z\"\n|  |\n|  `- Right \"w3\"\n|\n`- Right \"w4\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emapM_ print . encodeForest . parseForest $ enamex\n\u003c/code\u003e\u003c/strong\u003eIOB {word = \"w1.1 w1.2\", label = [B \"x\"]}\nIOB {word = \"w2\", label = []}\nIOB {word = \"w3\", label = [B \"y\",B \"z\"]}\nIOB {word = \"w4\", label = [I \"y\"]}\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.IOB",
           "name": "IOB",
           "package": "data-named",
@@ -245,6 +264,7 @@
         "index": {
           "description": "IOB encoding method extended to forests Example Data.Named.IOB Data.Named.Tree Text.Named.Enamex Data.Text.Lazy let enamex pack w1.1 w1.2 w2 w3 w4 putStr drawForest mapForest show parseForest enamex Left Right w1.1 w1.2 Right w2 Left Left Right w3 Right w4 mapM print encodeForest parseForest enamex IOB word w1.1 w1.2 label IOB word w2 label IOB word w3 label IOB word w4 label",
           "hierarchy": "Data Named IOB",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.IOB",
           "name": "IOB",
           "package": "data-named",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eAtom\u003c/a\u003e\u003c/code\u003e is the atomic label with additional marker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.IOB",
           "name": "Atom",
           "package": "data-named",
@@ -268,6 +289,7 @@
         "index": {
           "description": "An Atom is the atomic label with additional marker",
           "hierarchy": "Data Named IOB",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.IOB",
           "name": "Atom",
           "package": "data-named",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eIOB\u003c/a\u003e\u003c/code\u003e data structure consists of a word with a corresponding\n compound label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.IOB",
           "name": "IOB",
           "package": "data-named",
@@ -291,6 +314,7 @@
         "index": {
           "description": "An IOB data structure consists of word with corresponding compound label",
           "hierarchy": "Data Named IOB",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.IOB",
           "name": "IOB",
           "package": "data-named",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e consists of a list of atomic \u003ccode\u003e\u003ca\u003eAtom\u003c/a\u003e\u003c/code\u003e labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.IOB",
           "name": "Label",
           "package": "data-named",
@@ -314,6 +339,7 @@
         "index": {
           "description": "Label consists of list of atomic Atom labels",
           "hierarchy": "Data Named IOB",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.IOB",
           "name": "Label",
           "package": "data-named",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBeginning marker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.IOB",
           "name": "B",
           "package": "data-named",
@@ -338,6 +365,7 @@
         "index": {
           "description": "Beginning marker",
           "hierarchy": "Data Named IOB",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.IOB",
           "name": "B",
           "package": "data-named",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInside marker \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.IOB",
           "name": "I",
           "package": "data-named",
@@ -361,6 +390,7 @@
         "index": {
           "description": "Inside marker",
           "hierarchy": "Data Named IOB",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.IOB",
           "name": "I",
           "package": "data-named",
@@ -373,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.IOB",
           "name": "IOB",
           "package": "data-named",
@@ -382,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Data Named IOB",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.IOB",
           "name": "IOB",
           "package": "data-named",
@@ -396,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode the forest using the IOB method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.IOB",
           "name": "decodeForest",
           "package": "data-named",
@@ -406,6 +439,7 @@
         "index": {
           "description": "Decode the forest using the IOB method",
           "hierarchy": "Data Named IOB",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.IOB",
           "name": "decodeForest",
           "normalized": "[IOB a b]-\u003eNeForest b a",
@@ -422,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the forest with the IOB method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.IOB",
           "name": "encodeForest",
           "package": "data-named",
@@ -432,6 +467,7 @@
         "index": {
           "description": "Encode the forest with the IOB method",
           "hierarchy": "Data Named IOB",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.IOB",
           "name": "encodeForest",
           "normalized": "NeForest a b-\u003e[IOB b a]",
@@ -447,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.IOB",
           "name": "label",
           "package": "data-named",
@@ -456,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Data Named IOB",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.IOB",
           "name": "label",
           "package": "data-named",
@@ -468,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.IOB",
           "name": "word",
           "package": "data-named",
@@ -477,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Data Named IOB",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.IOB",
           "name": "word",
           "package": "data-named",
@@ -490,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWorking with NE trees and forests.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "Tree",
           "package": "data-named",
@@ -499,6 +540,7 @@
         "index": {
           "description": "Working with NE trees and forests",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "Tree",
           "package": "data-named",
@@ -513,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA forest with a values in internal nodes and b values in leaves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "NeForest",
           "package": "data-named",
@@ -522,6 +565,7 @@
         "index": {
           "description": "forest with values in internal nodes and values in leaves",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "NeForest",
           "package": "data-named",
@@ -536,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tree with a values in internal nodes and b values in leaves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "NeTree",
           "package": "data-named",
@@ -545,6 +590,7 @@
         "index": {
           "description": "tree with values in internal nodes and values in leaves",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "NeTree",
           "package": "data-named",
@@ -559,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpanning of a tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "Span",
           "package": "data-named",
@@ -568,6 +615,7 @@
         "index": {
           "description": "Spanning of tree",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "Span",
           "package": "data-named",
@@ -582,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimum span overlapping both input spans.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "(\u003c\u003e)",
           "package": "data-named",
@@ -592,6 +641,7 @@
         "index": {
           "description": "Minimum span overlapping both input spans",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "Span a-\u003eSpan a-\u003eSpan a",
@@ -606,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "Span",
           "package": "data-named",
@@ -615,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "Span",
           "package": "data-named",
@@ -628,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "beg",
           "package": "data-named",
@@ -637,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "beg",
           "package": "data-named",
@@ -649,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "end",
           "package": "data-named",
@@ -658,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "end",
           "package": "data-named",
@@ -671,6 +727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroup leaves with respect to the given equality function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "groupForestLeaves",
           "package": "data-named",
@@ -681,6 +738,7 @@
         "index": {
           "description": "Group leaves with respect to the given equality function",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "groupForestLeaves",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eNeForest b a-\u003eNeForest b[a]",
@@ -697,6 +755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroup leaves with respect to the given equality function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "groupTreeLeaves",
           "package": "data-named",
@@ -707,6 +766,7 @@
         "index": {
           "description": "Group leaves with respect to the given equality function",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "groupTreeLeaves",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eNeTree b a-\u003eNeTree b[a]",
@@ -723,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake span for a leaf node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "leafSpan",
           "package": "data-named",
@@ -733,6 +794,7 @@
         "index": {
           "description": "Make span for leaf node",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "leafSpan",
           "normalized": "a-\u003eSpan a",
@@ -749,6 +811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap function over each tree from the forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "mapForest",
           "package": "data-named",
@@ -759,6 +822,7 @@
         "index": {
           "description": "Map function over each tree from the forest",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "mapForest",
           "normalized": "(a-\u003eb)-\u003eForest a-\u003eForest b",
@@ -775,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap function over the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "mapTree",
           "package": "data-named",
@@ -785,6 +850,7 @@
         "index": {
           "description": "Map function over the tree",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "mapTree",
           "normalized": "(a-\u003eb)-\u003eTree a-\u003eTree b",
@@ -801,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap one function over both node and leaf values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "onBoth",
           "package": "data-named",
@@ -811,6 +878,7 @@
         "index": {
           "description": "Map one function over both node and leaf values",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "onBoth",
           "normalized": "(a-\u003eb)-\u003eEither a a-\u003eEither b b",
@@ -827,6 +895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the first function over internal node value\n and the second one over leaf value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "onEither",
           "package": "data-named",
@@ -837,6 +906,7 @@
         "index": {
           "description": "Map the first function over internal node value and the second one over leaf value",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "onEither",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003eEither a c-\u003eEither b d",
@@ -853,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap function over the leaf value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "onLeaf",
           "package": "data-named",
@@ -863,6 +934,7 @@
         "index": {
           "description": "Map function over the leaf value",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "onLeaf",
           "normalized": "(a-\u003eb)-\u003eEither c a-\u003eEither c b",
@@ -879,6 +951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap function over the internal node value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "onNode",
           "package": "data-named",
@@ -889,6 +962,7 @@
         "index": {
           "description": "Map function over the internal node value",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "onNode",
           "normalized": "(a-\u003eb)-\u003eEither a c-\u003eEither b c",
@@ -905,6 +979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort the forest with respect to spanning info.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "sortForest",
           "package": "data-named",
@@ -915,6 +990,7 @@
         "index": {
           "description": "Sort the forest with respect to spanning info",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "sortForest",
           "normalized": "Forest(a,Span b)-\u003eForest(a,Span b)",
@@ -931,6 +1007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort the tree with respect to spanning info.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "sortTree",
           "package": "data-named",
@@ -941,6 +1018,7 @@
         "index": {
           "description": "Sort the tree with respect to spanning info",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "sortTree",
           "normalized": "Tree(a,Span b)-\u003eTree(a,Span b)",
@@ -957,6 +1035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet span of the span-annotated tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "span",
           "package": "data-named",
@@ -967,6 +1046,7 @@
         "index": {
           "description": "Get span of the span-annotated tree",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "span",
           "normalized": "Tree(a,Span b)-\u003eSpan b",
@@ -982,6 +1062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotate forest nodes with spanning info.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "spanForest",
           "package": "data-named",
@@ -992,6 +1073,7 @@
         "index": {
           "description": "Annotate forest nodes with spanning info",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "spanForest",
           "normalized": "Forest(Either a b)-\u003eForest(Either a b,Span b)",
@@ -1008,6 +1090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of positions covered by the span.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "spanSet",
           "package": "data-named",
@@ -1018,6 +1101,7 @@
         "index": {
           "description": "Set of positions covered by the span",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "spanSet",
           "normalized": "Span a-\u003eSet a",
@@ -1034,6 +1118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotate tree nodes with spanning info given the function\n which assignes indices to leaf nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "spanTree",
           "package": "data-named",
@@ -1044,6 +1129,7 @@
         "index": {
           "description": "Annotate tree nodes with spanning info given the function which assignes indices to leaf nodes",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "spanTree",
           "normalized": "Tree(Either a b)-\u003eTree(Either a b,Span b)",
@@ -1060,6 +1146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove span annotations from the forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "unSpanForest",
           "package": "data-named",
@@ -1070,6 +1157,7 @@
         "index": {
           "description": "Remove span annotations from the forest",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "unSpanForest",
           "normalized": "Forest(a,Span b)-\u003eForest a",
@@ -1086,6 +1174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove span annotations from the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Data.Named.Tree",
           "name": "unSpanTree",
           "package": "data-named",
@@ -1096,6 +1185,7 @@
         "index": {
           "description": "Remove span annotations from the tree",
           "hierarchy": "Data Named Tree",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Data.Named.Tree",
           "name": "unSpanTree",
           "normalized": "Tree(a,Span b)-\u003eTree a",
@@ -1112,6 +1202,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing text in the Enamex data format.  Each node is enclosed between\n    opening and closing tags with tag name representing the label and contents\n    representing children of the node.  Both leaf and label values should be\n    escaped by prepending the \\ character before special \u003e, \u003c, \\ and space\n    characters.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:m Text.Named.Enamex Data.Named.Tree Data.Text.Lazy\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet drawIt = putStr . drawForest . mapForest show . parseForest\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edrawIt $ pack \"\u003cx\u003ew1.1\\\\ w1.2\u003c/x\u003e \u003cy\u003e\u003cz\u003ew2\u003c/z\u003e w3\u003c/y\u003e\"\n\u003c/code\u003e\u003c/strong\u003eLeft \"x\"\n|\n`- Right \"w1.1 w1.2\"\n,\nLeft \"y\"\n|\n+- Left \"z\"\n|  |\n|  `- Right \"w2\"\n|\n`- Right \"w3\"\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Text.Named.Enamex",
           "name": "Enamex",
           "package": "data-named",
@@ -1121,6 +1212,7 @@
         "index": {
           "description": "Parsing text in the Enamex data format Each node is enclosed between opening and closing tags with tag name representing the label and contents representing children of the node Both leaf and label values should be escaped by prepending the character before special and space characters Example Text.Named.Enamex Data.Named.Tree Data.Text.Lazy let drawIt putStr drawForest mapForest show parseForest drawIt pack w1.1 w1.2 w2 w3 Left Right w1.1 w1.2 Left Left Right w2 Right w3",
           "hierarchy": "Text Named Enamex",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Text.Named.Enamex",
           "name": "Enamex",
           "package": "data-named",
@@ -1135,6 +1227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the enamex file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Text.Named.Enamex",
           "name": "parseEnamex",
           "package": "data-named",
@@ -1145,6 +1238,7 @@
         "index": {
           "description": "Parse the enamex file",
           "hierarchy": "Text Named Enamex",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Text.Named.Enamex",
           "name": "parseEnamex",
           "normalized": "Text-\u003e[NeForest Text Text]",
@@ -1161,6 +1255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the enamex forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Text.Named.Enamex",
           "name": "parseForest",
           "package": "data-named",
@@ -1171,6 +1266,7 @@
         "index": {
           "description": "Parse the enamex forest",
           "hierarchy": "Text Named Enamex",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Text.Named.Enamex",
           "name": "parseForest",
           "normalized": "Text-\u003eNeForest Text Text",
@@ -1187,6 +1283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the enamex file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Text.Named.Enamex",
           "name": "showEnamex",
           "package": "data-named",
@@ -1197,6 +1294,7 @@
         "index": {
           "description": "Show the enamex file",
           "hierarchy": "Text Named Enamex",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Text.Named.Enamex",
           "name": "showEnamex",
           "normalized": "[NeForest Text Text]-\u003eText",
@@ -1213,6 +1311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:09 UTC 2014",
           "module": "Text.Named.Enamex",
           "name": "showForest",
           "package": "data-named",
@@ -1223,6 +1322,7 @@
         "index": {
           "description": "Show the forest",
           "hierarchy": "Text Named Enamex",
+          "indexed": "2014-03-11T17:49:09",
           "module": "Text.Named.Enamex",
           "name": "showForest",
           "normalized": "NeForest Text Text-\u003eText",

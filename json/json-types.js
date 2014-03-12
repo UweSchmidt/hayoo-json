@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "json-types"
+        "phrase": "json-types",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "Types",
           "package": "json-types",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "Types",
           "package": "json-types",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArrays are ordered sequences of \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "Array",
           "package": "json-types",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Arrays are ordered sequences of Value",
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "Array",
           "package": "json-types",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "Atom",
           "package": "json-types",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "Atom",
           "package": "json-types",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "Event",
           "package": "json-types",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "Event",
           "package": "json-types",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObjects store unordered associations between textual keys and \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "Object",
           "package": "json-types",
@@ -114,6 +123,7 @@
         "index": {
           "description": "Objects store unordered associations between textual keys and Value",
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "Object",
           "package": "json-types",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach JSON document has a single \u003cem\u003eroot\u003c/em\u003e, which may be either an \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e\n or \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSome parsers allow non-container roots, but portable libraries should\n not depend on this incorrect behavior.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "Root",
           "package": "json-types",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Each JSON document has single root which may be either an Object or Array Some parsers allow non-container roots but portable libraries should not depend on this incorrect behavior",
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "Root",
           "package": "json-types",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "Value",
           "package": "json-types",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "Value",
           "package": "json-types",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "AtomBoolean",
           "package": "json-types",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "AtomBoolean",
           "package": "json-types",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "AtomNull",
           "package": "json-types",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "AtomNull",
           "package": "json-types",
@@ -216,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJSON numbers may be of arbitrary length and precision. Using\n \u003ccode\u003e\u003ca\u003eRational\u003c/a\u003e\u003c/code\u003e allows any valid parsed number to be stored; however,\n note that only rationals with a finite decimal expansion can be\n fully serialized. For example, attempting to serialize \u003ccode\u003e(1 % 3)\u003c/code\u003e\n will lose precision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "AtomNumber",
           "package": "json-types",
@@ -226,6 +245,7 @@
         "index": {
           "description": "JSON numbers may be of arbitrary length and precision Using Rational allows any valid parsed number to be stored however note that only rationals with finite decimal expansion can be fully serialized For example attempting to serialize will lose precision",
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "AtomNumber",
           "package": "json-types",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "AtomText",
           "package": "json-types",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "AtomText",
           "package": "json-types",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "EventAtom",
           "package": "json-types",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "EventAtom",
           "package": "json-types",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "EventAttributeName",
           "package": "json-types",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "EventAttributeName",
           "package": "json-types",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "EventBeginArray",
           "package": "json-types",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "EventBeginArray",
           "package": "json-types",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "EventBeginObject",
           "package": "json-types",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "EventBeginObject",
           "package": "json-types",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "EventEndArray",
           "package": "json-types",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "EventEndArray",
           "package": "json-types",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "EventEndObject",
           "package": "json-types",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "EventEndObject",
           "package": "json-types",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "RootArray",
           "package": "json-types",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "RootArray",
           "package": "json-types",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "RootObject",
           "package": "json-types",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "RootObject",
           "package": "json-types",
@@ -437,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "ValueArray",
           "package": "json-types",
@@ -446,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "ValueArray",
           "package": "json-types",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "ValueAtom",
           "package": "json-types",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "ValueAtom",
           "package": "json-types",
@@ -481,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:12 UTC 2014",
           "module": "Data.JSON.Types",
           "name": "ValueObject",
           "package": "json-types",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Data JSON Types",
+          "indexed": "2014-03-11T19:02:12",
           "module": "Data.JSON.Types",
           "name": "ValueObject",
           "package": "json-types",

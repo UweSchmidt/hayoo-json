@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rungekutta"
+        "phrase": "rungekutta",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsubconvert"
+        "phrase": "hsubconvert",
+        "type": "phrase"
       },
       "type": "context"
     }

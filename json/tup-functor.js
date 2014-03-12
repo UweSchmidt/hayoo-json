@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tup-functor"
+        "phrase": "tup-functor",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Class",
           "name": "Class",
           "package": "tup-functor",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Class",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Class",
           "name": "Class",
           "package": "tup-functor",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Class",
           "name": "Tup",
           "package": "tup-functor",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Class",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Class",
           "name": "Tup",
           "package": "tup-functor",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Class",
           "name": "maybeTupConcat",
           "package": "tup-functor",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Concatenation",
           "hierarchy": "Data Tup Tup Class",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Class",
           "name": "maybeTupConcat",
           "normalized": "a b-\u003ec b-\u003eMaybe(d b)",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSafe version of \u003ccode\u003e\u003ca\u003etupFromList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Class",
           "name": "maybeTupFromList",
           "package": "tup-functor",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Safe version of tupFromList",
           "hierarchy": "Data Tup Tup Class",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Class",
           "name": "maybeTupFromList",
           "normalized": "[a]-\u003eMaybe(b a)",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranspose a Tup of Tups.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Class",
           "name": "transposeTup",
           "package": "tup-functor",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Transpose Tup of Tups",
           "hierarchy": "Data Tup Tup Class",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Class",
           "name": "transposeTup",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -138,6 +148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Class",
           "name": "tupFromList",
           "package": "tup-functor",
@@ -147,6 +158,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Class",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Class",
           "name": "tupFromList",
           "normalized": "[a]-\u003eb a",
@@ -162,6 +174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Class",
           "name": "tupSize",
           "package": "tup-functor",
@@ -171,6 +184,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Class",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Class",
           "name": "tupSize",
           "normalized": "a b-\u003eInt",
@@ -186,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Class",
           "name": "tupToList",
           "package": "tup-functor",
@@ -195,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Class",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Class",
           "name": "tupToList",
           "normalized": "a b-\u003e[b]",
@@ -210,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Class",
           "name": "tupUndef",
           "package": "tup-functor",
@@ -219,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Class",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Class",
           "name": "tupUndef",
           "normalized": "a b-\u003eb",
@@ -234,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Class",
           "name": "unsafeTupConcat",
           "package": "tup-functor",
@@ -243,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Class",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Class",
           "name": "unsafeTupConcat",
           "normalized": "a b-\u003ec b-\u003ed b",
@@ -258,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Class",
           "name": "zipTup",
           "package": "tup-functor",
@@ -267,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Class",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Class",
           "name": "zipTup",
           "normalized": "a b-\u003ea c-\u003ea(b,c)",
@@ -282,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Class",
           "name": "zipTup3",
           "package": "tup-functor",
@@ -291,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Class",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Class",
           "name": "zipTup3",
           "normalized": "a b-\u003ea c-\u003ea d-\u003ea(b,c,d)",
@@ -306,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Class",
           "name": "zipTup4",
           "package": "tup-functor",
@@ -315,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Class",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Class",
           "name": "zipTup4",
           "normalized": "a b-\u003ea c-\u003ea d-\u003ea e-\u003ea(b,c,d,e)",
@@ -330,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Class",
           "name": "zipTupWith",
           "package": "tup-functor",
@@ -339,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Class",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Class",
           "name": "zipTupWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -354,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Class",
           "name": "zipTupWith3",
           "package": "tup-functor",
@@ -363,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Class",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Class",
           "name": "zipTupWith3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ee a-\u003ee b-\u003ee c-\u003ee d",
@@ -378,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Class",
           "name": "zipTupWith4",
           "package": "tup-functor",
@@ -387,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Class",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Class",
           "name": "zipTupWith4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003ef a-\u003ef b-\u003ef c-\u003ef d-\u003ef e",
@@ -403,6 +435,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConcatenation of tuples. Requires MPTCs and FunDeps. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Concat",
           "name": "Concat",
           "package": "tup-functor",
@@ -412,6 +445,7 @@
         "index": {
           "description": "Concatenation of tuples Requires MPTCs and FunDeps",
           "hierarchy": "Data Tup Tup Concat",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Concat",
           "name": "Concat",
           "package": "tup-functor",
@@ -425,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Concat",
           "name": "TupConcat",
           "package": "tup-functor",
@@ -433,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Concat",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Concat",
           "name": "TupConcat",
           "package": "tup-functor",
@@ -446,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Concat",
           "name": "tupConcat",
           "package": "tup-functor",
@@ -455,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Concat",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Concat",
           "name": "tupConcat",
           "normalized": "a b-\u003ec b-\u003ed b",
@@ -470,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Lazy",
           "package": "tup-functor",
@@ -478,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Lazy",
           "package": "tup-functor",
@@ -491,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup0",
           "package": "tup-functor",
@@ -499,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup0",
           "package": "tup-functor",
@@ -512,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup1",
           "package": "tup-functor",
@@ -520,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup1",
           "package": "tup-functor",
@@ -533,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup2",
           "package": "tup-functor",
@@ -541,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup2",
           "package": "tup-functor",
@@ -554,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup3",
           "package": "tup-functor",
@@ -562,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup3",
           "package": "tup-functor",
@@ -575,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup4",
           "package": "tup-functor",
@@ -583,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup4",
           "package": "tup-functor",
@@ -596,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup5",
           "package": "tup-functor",
@@ -604,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup5",
           "package": "tup-functor",
@@ -617,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup6",
           "package": "tup-functor",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup6",
           "package": "tup-functor",
@@ -638,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup7",
           "package": "tup-functor",
@@ -646,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup7",
           "package": "tup-functor",
@@ -659,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup8",
           "package": "tup-functor",
@@ -667,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup8",
           "package": "tup-functor",
@@ -680,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup9",
           "package": "tup-functor",
@@ -688,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup9",
           "package": "tup-functor",
@@ -701,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup0",
           "package": "tup-functor",
@@ -710,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup0",
           "package": "tup-functor",
@@ -723,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup1",
           "package": "tup-functor",
@@ -732,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup1",
           "package": "tup-functor",
@@ -745,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup2",
           "package": "tup-functor",
@@ -754,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup2",
           "package": "tup-functor",
@@ -767,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup3",
           "package": "tup-functor",
@@ -776,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup3",
           "package": "tup-functor",
@@ -789,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup4",
           "package": "tup-functor",
@@ -798,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup4",
           "package": "tup-functor",
@@ -811,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup5",
           "package": "tup-functor",
@@ -820,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup5",
           "package": "tup-functor",
@@ -833,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup6",
           "package": "tup-functor",
@@ -842,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup6",
           "package": "tup-functor",
@@ -855,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup7",
           "package": "tup-functor",
@@ -864,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup7",
           "package": "tup-functor",
@@ -877,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup8",
           "package": "tup-functor",
@@ -886,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup8",
           "package": "tup-functor",
@@ -899,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup9",
           "package": "tup-functor",
@@ -908,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "Tup9",
           "package": "tup-functor",
@@ -921,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "tupTup",
           "package": "tup-functor",
@@ -930,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "tupTup",
           "normalized": "a b-\u003ea b-\u003ea(Tup b)",
@@ -945,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "tupTup3",
           "package": "tup-functor",
@@ -954,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "tupTup3",
           "normalized": "a b-\u003ea b-\u003ea b-\u003ea(Tup b)",
@@ -969,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "tupTup4",
           "package": "tup-functor",
@@ -978,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "tupTup4",
           "normalized": "a b-\u003ea b-\u003ea b-\u003ea b-\u003ea(Tup b)",
@@ -993,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Lazy",
           "name": "tupTup5",
           "package": "tup-functor",
@@ -1002,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Lazy",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Lazy",
           "name": "tupTup5",
           "normalized": "a b-\u003ea b-\u003ea b-\u003ea b-\u003ea b-\u003ea(Tup b)",
@@ -1017,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Strict",
           "package": "tup-functor",
@@ -1025,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Strict",
           "package": "tup-functor",
@@ -1038,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup0",
           "package": "tup-functor",
@@ -1046,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup0",
           "package": "tup-functor",
@@ -1059,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup1",
           "package": "tup-functor",
@@ -1067,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup1",
           "package": "tup-functor",
@@ -1080,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup2",
           "package": "tup-functor",
@@ -1088,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup2",
           "package": "tup-functor",
@@ -1101,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup3",
           "package": "tup-functor",
@@ -1109,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup3",
           "package": "tup-functor",
@@ -1122,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup4",
           "package": "tup-functor",
@@ -1130,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup4",
           "package": "tup-functor",
@@ -1143,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup5",
           "package": "tup-functor",
@@ -1151,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup5",
           "package": "tup-functor",
@@ -1164,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup6",
           "package": "tup-functor",
@@ -1172,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup6",
           "package": "tup-functor",
@@ -1185,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup7",
           "package": "tup-functor",
@@ -1193,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup7",
           "package": "tup-functor",
@@ -1206,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup8",
           "package": "tup-functor",
@@ -1214,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup8",
           "package": "tup-functor",
@@ -1227,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup9",
           "package": "tup-functor",
@@ -1235,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup9",
           "package": "tup-functor",
@@ -1248,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup0",
           "package": "tup-functor",
@@ -1257,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup0",
           "package": "tup-functor",
@@ -1270,6 +1382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup1",
           "package": "tup-functor",
@@ -1279,6 +1392,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup1",
           "package": "tup-functor",
@@ -1292,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup2",
           "package": "tup-functor",
@@ -1301,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup2",
           "package": "tup-functor",
@@ -1314,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup3",
           "package": "tup-functor",
@@ -1323,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup3",
           "package": "tup-functor",
@@ -1336,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup4",
           "package": "tup-functor",
@@ -1345,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup4",
           "package": "tup-functor",
@@ -1358,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup5",
           "package": "tup-functor",
@@ -1367,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup5",
           "package": "tup-functor",
@@ -1380,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup6",
           "package": "tup-functor",
@@ -1389,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup6",
           "package": "tup-functor",
@@ -1402,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup7",
           "package": "tup-functor",
@@ -1411,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup7",
           "package": "tup-functor",
@@ -1424,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup8",
           "package": "tup-functor",
@@ -1433,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup8",
           "package": "tup-functor",
@@ -1446,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup9",
           "package": "tup-functor",
@@ -1455,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "Tup9",
           "package": "tup-functor",
@@ -1468,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "tupTup",
           "package": "tup-functor",
@@ -1477,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "tupTup",
           "normalized": "a b-\u003ea b-\u003ea(Tup b)",
@@ -1492,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "tupTup3",
           "package": "tup-functor",
@@ -1501,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "tupTup3",
           "normalized": "a b-\u003ea b-\u003ea b-\u003ea(Tup b)",
@@ -1516,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "tupTup4",
           "package": "tup-functor",
@@ -1525,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "tupTup4",
           "normalized": "a b-\u003ea b-\u003ea b-\u003ea b-\u003ea(Tup b)",
@@ -1540,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup.Strict",
           "name": "tupTup5",
           "package": "tup-functor",
@@ -1549,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Tup Strict",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup.Strict",
           "name": "tupTup5",
           "normalized": "a b-\u003ea b-\u003ea b-\u003ea b-\u003ea b-\u003ea(Tup b)",
@@ -1565,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis small library defines data types \u003ccode\u003e\u003ca\u003eTup1\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eTup2\u003c/a\u003e\u003c/code\u003e ... \u003ccode\u003e\u003ca\u003eTup9\u003c/a\u003e\u003c/code\u003e for homogeneous tuples of small size (both strict and lazy), \n and various instances for them, most notably \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e. We also have a \u003ccode\u003e\u003ca\u003eTup\u003c/a\u003e\u003c/code\u003e type class:\n\u003c/p\u003e\u003cpre\u003e class Tup f where\n   tupSize     :: f a -\u003e Int\n   tupToList   :: f a -\u003e [a]\n   tupFromList :: [a] -\u003e f a \n   tupUndef    :: f a -\u003e a\n\u003c/pre\u003e\u003cp\u003eAlso included is a very simple preprocesszor \u003ccode\u003etuplepp\u003c/code\u003e which translates\n the syntax \u003ccode\u003e{{a,b,c}}\u003c/code\u003e into \u003ccode\u003e(Tup3 a b c)\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Tup",
           "name": "Tup",
           "package": "tup-functor",
@@ -1574,6 +1713,7 @@
         "index": {
           "description": "This small library defines data types Tup1 Tup2 Tup9 for homogeneous tuples of small size both strict and lazy and various instances for them most notably Functor and Applicative We also have Tup type class class Tup where tupSize Int tupToList tupFromList tupUndef Also included is very simple preprocesszor tuplepp which translates the syntax into Tup3",
           "hierarchy": "Data Tup Tup",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Tup",
           "name": "Tup",
           "package": "tup-functor",
@@ -1588,6 +1728,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHomogeneous lists with the length encoded in the type.\n\u003c/p\u003e\u003cp\u003eThis can be considered as a different implementation of \u003ca\u003eData.Tup.Tup\u003c/a\u003e \n (one which also scales for vectors/tuples longer than 9 elements)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "Vec",
           "package": "tup-functor",
@@ -1597,6 +1738,7 @@
         "index": {
           "description": "Homogeneous lists with the length encoded in the type This can be considered as different implementation of Data.Tup.Tup one which also scales for vectors tuples longer than elements",
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "Vec",
           "package": "tup-functor",
@@ -1610,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "Cons",
           "package": "tup-functor",
@@ -1618,6 +1761,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "Cons",
           "package": "tup-functor",
@@ -1631,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "Empty",
           "package": "tup-functor",
@@ -1639,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "Empty",
           "package": "tup-functor",
@@ -1652,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "Vec",
           "package": "tup-functor",
@@ -1660,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "Vec",
           "package": "tup-functor",
@@ -1673,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "Vec0",
           "package": "tup-functor",
@@ -1681,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "Vec0",
           "package": "tup-functor",
@@ -1694,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "Vec1",
           "package": "tup-functor",
@@ -1702,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "Vec1",
           "package": "tup-functor",
@@ -1715,6 +1867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "Vec2",
           "package": "tup-functor",
@@ -1723,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "Vec2",
           "package": "tup-functor",
@@ -1736,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "Vec3",
           "package": "tup-functor",
@@ -1744,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "Vec3",
           "package": "tup-functor",
@@ -1757,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "Vec4",
           "package": "tup-functor",
@@ -1765,6 +1922,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "Vec4",
           "package": "tup-functor",
@@ -1778,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "Vec5",
           "package": "tup-functor",
@@ -1786,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "Vec5",
           "package": "tup-functor",
@@ -1799,6 +1959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "Vec6",
           "package": "tup-functor",
@@ -1807,6 +1968,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "Vec6",
           "package": "tup-functor",
@@ -1820,6 +1982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "Vec7",
           "package": "tup-functor",
@@ -1828,6 +1991,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "Vec7",
           "package": "tup-functor",
@@ -1841,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "Vec8",
           "package": "tup-functor",
@@ -1849,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "Vec8",
           "package": "tup-functor",
@@ -1862,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "Vec9",
           "package": "tup-functor",
@@ -1870,6 +2037,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "Vec9",
           "package": "tup-functor",
@@ -1884,6 +2052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econcatenation with type class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "VecConcat",
           "package": "tup-functor",
@@ -1893,6 +2062,7 @@
         "index": {
           "description": "concatenation with type class",
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "VecConcat",
           "package": "tup-functor",
@@ -1906,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "Cons",
           "package": "tup-functor",
@@ -1915,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "Cons",
           "package": "tup-functor",
@@ -1928,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "Empty",
           "package": "tup-functor",
@@ -1937,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "Empty",
           "package": "tup-functor",
@@ -1950,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "consUndefTail",
           "package": "tup-functor",
@@ -1959,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "consUndefTail",
           "normalized": "Cons a b-\u003ea b",
@@ -1975,6 +2151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esafe concatenation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "maybeVecConcat",
           "package": "tup-functor",
@@ -1985,6 +2162,7 @@
         "index": {
           "description": "safe concatenation",
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "maybeVecConcat",
           "normalized": "a b-\u003ec b-\u003eMaybe(d b)",
@@ -2001,6 +2179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSafe version of \u003ccode\u003e\u003ca\u003evecFromList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "maybeVecFromList",
           "package": "tup-functor",
@@ -2011,6 +2190,7 @@
         "index": {
           "description": "Safe version of vecFromList",
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "maybeVecFromList",
           "normalized": "[a]-\u003eMaybe(b a)",
@@ -2027,6 +2207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranspose a Vec of Vecs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "transposeVec",
           "package": "tup-functor",
@@ -2037,6 +2218,7 @@
         "index": {
           "description": "Transpose Vec of Vecs",
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "transposeVec",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -2052,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "undefinedVec",
           "package": "tup-functor",
@@ -2061,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "undefinedVec",
           "package": "tup-functor",
@@ -2075,6 +2259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunsafe concatenation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "unsafeVecConcat",
           "package": "tup-functor",
@@ -2085,6 +2270,7 @@
         "index": {
           "description": "unsafe concatenation",
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "unsafeVecConcat",
           "normalized": "a b-\u003ec b-\u003ed b",
@@ -2100,6 +2286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "vec0",
           "package": "tup-functor",
@@ -2109,6 +2296,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "vec0",
           "package": "tup-functor",
@@ -2121,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "vec1",
           "package": "tup-functor",
@@ -2130,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "vec1",
           "normalized": "a-\u003eVec a",
@@ -2144,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "vec2",
           "package": "tup-functor",
@@ -2153,6 +2344,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "vec2",
           "normalized": "a-\u003ea-\u003eVec a",
@@ -2167,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "vec3",
           "package": "tup-functor",
@@ -2176,6 +2369,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "vec3",
           "normalized": "a-\u003ea-\u003ea-\u003eVec a",
@@ -2190,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "vec4",
           "package": "tup-functor",
@@ -2199,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "vec4",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eVec a",
@@ -2213,6 +2409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "vec5",
           "package": "tup-functor",
@@ -2222,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "vec5",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003eVec a",
@@ -2236,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "vec6",
           "package": "tup-functor",
@@ -2245,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "vec6",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eVec a",
@@ -2259,6 +2459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "vec7",
           "package": "tup-functor",
@@ -2268,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "vec7",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eVec a",
@@ -2282,6 +2484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "vec8",
           "package": "tup-functor",
@@ -2291,6 +2494,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "vec8",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eVec a",
@@ -2305,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "vec9",
           "package": "tup-functor",
@@ -2314,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "vec9",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eVec a",
@@ -2328,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "vecConcat",
           "package": "tup-functor",
@@ -2337,6 +2544,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "vecConcat",
           "normalized": "a b-\u003ec b-\u003ed b",
@@ -2352,6 +2560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "vecFromList",
           "package": "tup-functor",
@@ -2361,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "vecFromList",
           "normalized": "[a]-\u003eb a",
@@ -2376,6 +2586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "vecSize",
           "package": "tup-functor",
@@ -2385,6 +2596,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "vecSize",
           "normalized": "a b-\u003eInt",
@@ -2400,6 +2612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "vecToList",
           "package": "tup-functor",
@@ -2409,6 +2622,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "vecToList",
           "normalized": "a b-\u003e[b]",
@@ -2424,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "vecUndef",
           "package": "tup-functor",
@@ -2433,6 +2648,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "vecUndef",
           "normalized": "a b-\u003eb",
@@ -2448,6 +2664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "vecVec",
           "package": "tup-functor",
@@ -2457,6 +2674,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "vecVec",
           "normalized": "a b-\u003ea b-\u003ea(Vec b)",
@@ -2472,6 +2690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "vecVec3",
           "package": "tup-functor",
@@ -2481,6 +2700,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "vecVec3",
           "normalized": "a b-\u003ea b-\u003ea b-\u003ea(Vec b)",
@@ -2496,6 +2716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "vecVec4",
           "package": "tup-functor",
@@ -2505,6 +2726,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "vecVec4",
           "normalized": "a b-\u003ea b-\u003ea b-\u003ea b-\u003ea(Vec b)",
@@ -2520,6 +2742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "vecVec5",
           "package": "tup-functor",
@@ -2529,6 +2752,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "vecVec5",
           "normalized": "a b-\u003ea b-\u003ea b-\u003ea b-\u003ea b-\u003ea(Vec b)",
@@ -2544,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "zipVec",
           "package": "tup-functor",
@@ -2553,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "zipVec",
           "normalized": "a b-\u003ea c-\u003ea(b,c)",
@@ -2568,6 +2794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "zipVec3",
           "package": "tup-functor",
@@ -2577,6 +2804,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "zipVec3",
           "normalized": "a b-\u003ea c-\u003ea d-\u003ea(b,c,d)",
@@ -2592,6 +2820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "zipVec4",
           "package": "tup-functor",
@@ -2601,6 +2830,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "zipVec4",
           "normalized": "a b-\u003ea c-\u003ea d-\u003ea e-\u003ea(b,c,d,e)",
@@ -2616,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "zipVecWith",
           "package": "tup-functor",
@@ -2625,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "zipVecWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -2640,6 +2872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "zipVecWith3",
           "package": "tup-functor",
@@ -2649,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "zipVecWith3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ee a-\u003ee b-\u003ee c-\u003ee d",
@@ -2664,6 +2898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup.Vec",
           "name": "zipVecWith4",
           "package": "tup-functor",
@@ -2673,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "Data Tup Vec",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup.Vec",
           "name": "zipVecWith4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003ef a-\u003ef b-\u003ef c-\u003ef d-\u003ef e",
@@ -2689,6 +2925,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis small library defines data types \u003ccode\u003e\u003ca\u003eTup1\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eTup2\u003c/a\u003e\u003c/code\u003e ... \u003ccode\u003e\u003ca\u003eTup9\u003c/a\u003e\u003c/code\u003e for homogeneous tuples of small size (both strict and lazy), \n and various instances for them, most notably \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e. We also have a \u003ccode\u003e\u003ca\u003eTup\u003c/a\u003e\u003c/code\u003e type class:\n\u003c/p\u003e\u003cpre\u003e class Tup f where\n   tupSize     :: f a -\u003e Int\n   tupToList   :: f a -\u003e [a]\n   tupFromList :: [a] -\u003e f a \n   tupUndef    :: f a -\u003e a\n\u003c/pre\u003e\u003cp\u003eAlso included is a very simple preprocesszor \u003ccode\u003etuplepp\u003c/code\u003e which translates\n the syntax \u003ccode\u003e{{a,b,c}}\u003c/code\u003e into \u003ccode\u003e(Tup3 a b c)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eA different implementation is also given in the module \u003ca\u003eData.Tup.Vec\u003c/a\u003e; this basically implements\n lists which encode their length in their types. For this, just replace \u003ccode\u003e\u003ca\u003eTup\u003c/a\u003e\u003c/code\u003e by \u003ccode\u003eVec\u003c/code\u003e everywhere.\n The same instances and functions are provided.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:25:56 UTC 2014",
           "module": "Data.Tup",
           "name": "Tup",
           "package": "tup-functor",
@@ -2698,6 +2935,7 @@
         "index": {
           "description": "This small library defines data types Tup1 Tup2 Tup9 for homogeneous tuples of small size both strict and lazy and various instances for them most notably Functor and Applicative We also have Tup type class class Tup where tupSize Int tupToList tupFromList tupUndef Also included is very simple preprocesszor tuplepp which translates the syntax into Tup3 different implementation is also given in the module Data.Tup.Vec this basically implements lists which encode their length in their types For this just replace Tup by Vec everywhere The same instances and functions are provided",
           "hierarchy": "Data Tup",
+          "indexed": "2014-03-11T20:25:56",
           "module": "Data.Tup",
           "name": "Tup",
           "package": "tup-functor",

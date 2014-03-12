@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bits-conduit"
+        "phrase": "bits-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:54 UTC 2014",
           "module": "Data.Conduit.Bits",
           "name": "Bits",
           "package": "bits-conduit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Bits",
+          "indexed": "2014-03-11T17:22:54",
           "module": "Data.Conduit.Bits",
           "name": "Bits",
           "package": "bits-conduit",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eawait specified amount of bits (LSB first)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:54 UTC 2014",
           "module": "Data.Conduit.Bits",
           "name": "awaitBits",
           "package": "bits-conduit",
@@ -50,6 +53,7 @@
         "index": {
           "description": "await specified amount of bits LSB first",
           "hierarchy": "Data Conduit Bits",
+          "indexed": "2014-03-11T17:22:54",
           "module": "Data.Conduit.Bits",
           "name": "awaitBits",
           "normalized": "Int-\u003eGSink Bool a(Maybe b)",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBitstream decoder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:54 UTC 2014",
           "module": "Data.Conduit.Bits",
           "name": "decodeBits",
           "package": "bits-conduit",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Bitstream decoder",
           "hierarchy": "Data Conduit Bits",
+          "indexed": "2014-03-11T17:22:54",
           "module": "Data.Conduit.Bits",
           "name": "decodeBits",
           "package": "bits-conduit",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBitstream encoder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:54 UTC 2014",
           "module": "Data.Conduit.Bits",
           "name": "encodeBits",
           "package": "bits-conduit",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Bitstream encoder",
           "hierarchy": "Data Conduit Bits",
+          "indexed": "2014-03-11T17:22:54",
           "module": "Data.Conduit.Bits",
           "name": "encodeBits",
           "package": "bits-conduit",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields specified amount of bits (LSB first)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:54 UTC 2014",
           "module": "Data.Conduit.Bits",
           "name": "yieldBits",
           "package": "bits-conduit",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Yields specified amount of bits LSB first",
           "hierarchy": "Data Conduit Bits",
+          "indexed": "2014-03-11T17:22:54",
           "module": "Data.Conduit.Bits",
           "name": "yieldBits",
           "normalized": "a-\u003eInt-\u003eGSource b Bool",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "depends"
+        "phrase": "depends",
+        "type": "phrase"
       },
       "type": "context"
     }

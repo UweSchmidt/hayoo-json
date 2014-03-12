@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SessionLogger"
+        "phrase": "SessionLogger",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExample of Usage:\n\u003c/p\u003e\u003cpre\u003e\n runIOLogger \u003ca\u003eApplicationname\u003c/a\u003e $ do\n   initLogger\n   logNotice \u003ca\u003eJust a small notice\u003c/a\u003e\n   logWarn \u003ca\u003eSomething more important\u003c/a\u003e\n   logData \u003ca\u003efilename\u003c/a\u003e \u003ca\u003eLogfile Info\u003c/a\u003e \u003ca\u003edata which is logged to file\u003c/a\u003e\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "SessionLogger",
           "package": "SessionLogger",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Example of Usage runIOLogger Applicationname do initLogger logNotice Just small notice logWarn Something more important logData filename Logfile Info data which is logged to file",
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "SessionLogger",
           "package": "SessionLogger",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "ExtraData",
           "package": "SessionLogger",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "ExtraData",
           "package": "SessionLogger",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "Logger",
           "package": "SessionLogger",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "Logger",
           "package": "SessionLogger",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "LoggerData",
           "package": "SessionLogger",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "LoggerData",
           "package": "SessionLogger",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "(\u003e\u003e\u003e=)",
           "package": "SessionLogger",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "(\u003e\u003e\u003e=) \u003e\u003e\u003e=",
           "normalized": "String-\u003eIO a-\u003eLogger b a",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "(\u003e\u003e\u003e\u003e=)",
           "package": "SessionLogger",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "(\u003e\u003e\u003e\u003e=) \u003e\u003e\u003e\u003e=",
           "normalized": "String-\u003eIO a-\u003eLogger b a",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "Logger",
           "package": "SessionLogger",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "Logger",
           "package": "SessionLogger",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "LoggerData",
           "package": "SessionLogger",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "LoggerData",
           "package": "SessionLogger",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "generateLogId",
           "package": "SessionLogger",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "generateLogId",
           "package": "SessionLogger",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "getLogId",
           "package": "SessionLogger",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "getLogId",
           "package": "SessionLogger",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "initLogger",
           "package": "SessionLogger",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "initLogger",
           "normalized": "Logger a()",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "ld_appName",
           "package": "SessionLogger",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "ld_appName",
           "package": "SessionLogger",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "ld_extraDatas",
           "package": "SessionLogger",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "ld_extraDatas",
           "normalized": "[ExtraData]",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "ld_logId",
           "package": "SessionLogger",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "ld_logId",
           "package": "SessionLogger",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "ld_nolog",
           "package": "SessionLogger",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "ld_nolog",
           "package": "SessionLogger",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "logData",
           "package": "SessionLogger",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "logData",
           "normalized": "String-\u003eString-\u003eString-\u003eLogger a()",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "logError",
           "package": "SessionLogger",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "logError",
           "normalized": "String-\u003eLogger a()",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "logGlobInfo",
           "package": "SessionLogger",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "logGlobInfo",
           "normalized": "String-\u003eLogger a()",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "logInfo",
           "package": "SessionLogger",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "logInfo",
           "normalized": "String-\u003eLogger a()",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "logInternalInfo",
           "package": "SessionLogger",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "logInternalInfo",
           "normalized": "String-\u003eLogger a()",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "logNotice",
           "package": "SessionLogger",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "logNotice",
           "normalized": "String-\u003eLogger a()",
@@ -495,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "logWarn",
           "package": "SessionLogger",
@@ -504,6 +547,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "logWarn",
           "normalized": "String-\u003eLogger a()",
@@ -519,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "runIOLogger",
           "package": "SessionLogger",
@@ -528,6 +573,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "runIOLogger",
           "normalized": "String-\u003eLogger a b-\u003ea b",
@@ -543,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "testLogger",
           "package": "SessionLogger",
@@ -552,6 +599,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "testLogger",
           "normalized": "Logger a b-\u003ea b",
@@ -567,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:17 UTC 2014",
           "module": "System.Log.SessionLogger",
           "name": "withExtraData",
           "package": "SessionLogger",
@@ -576,6 +625,7 @@
         },
         "index": {
           "hierarchy": "System Log SessionLogger",
+          "indexed": "2014-03-11T17:00:17",
           "module": "System.Log.SessionLogger",
           "name": "withExtraData",
           "normalized": "ExtraData-\u003eLogger a b-\u003eLogger a b",

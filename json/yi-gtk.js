@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yi-gtk"
+        "phrase": "yi-gtk",
+        "type": "phrase"
       },
       "type": "context"
     }

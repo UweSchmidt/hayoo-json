@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ProxN"
+        "phrase": "ProxN",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Peano",
           "name": "Peano",
           "package": "ProxN",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Peano",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Peano",
           "name": "Peano",
           "package": "ProxN",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Peano",
           "name": "Eight",
           "package": "ProxN",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Peano",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Peano",
           "name": "Eight",
           "package": "ProxN",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Peano",
           "name": "Five",
           "package": "ProxN",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Peano",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Peano",
           "name": "Five",
           "package": "ProxN",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Peano",
           "name": "Four",
           "package": "ProxN",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Peano",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Peano",
           "name": "Four",
           "package": "ProxN",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Peano",
           "name": "Logarithm",
           "package": "ProxN",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Peano",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Peano",
           "name": "Logarithm",
           "package": "ProxN",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Peano",
           "name": "Nine",
           "package": "ProxN",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Peano",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Peano",
           "name": "Nine",
           "package": "ProxN",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Peano",
           "name": "One",
           "package": "ProxN",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Peano",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Peano",
           "name": "One",
           "package": "ProxN",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Peano",
           "name": "Peano",
           "package": "ProxN",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Peano",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Peano",
           "name": "Peano",
           "package": "ProxN",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Peano",
           "name": "Seven",
           "package": "ProxN",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Peano",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Peano",
           "name": "Seven",
           "package": "ProxN",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Peano",
           "name": "Six",
           "package": "ProxN",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Peano",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Peano",
           "name": "Six",
           "package": "ProxN",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Peano",
           "name": "Succ",
           "package": "ProxN",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Peano",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Peano",
           "name": "Succ",
           "package": "ProxN",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Peano",
           "name": "Ten",
           "package": "ProxN",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Peano",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Peano",
           "name": "Ten",
           "package": "ProxN",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Peano",
           "name": "Three",
           "package": "ProxN",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Peano",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Peano",
           "name": "Three",
           "package": "ProxN",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Peano",
           "name": "Two",
           "package": "ProxN",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Peano",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Peano",
           "name": "Two",
           "package": "ProxN",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Peano",
           "name": "Zero",
           "package": "ProxN",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Peano",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Peano",
           "name": "Zero",
           "package": "ProxN",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Peano",
           "name": "fromPeano",
           "package": "ProxN",
@@ -342,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Peano",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Peano",
           "name": "fromPeano",
           "normalized": "a-\u003eInt",
@@ -357,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Peano",
           "name": "logarithm",
           "package": "ProxN",
@@ -366,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Peano",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Peano",
           "name": "logarithm",
           "normalized": "a-\u003eDouble-\u003eDouble",
@@ -380,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Pretty",
           "name": "Pretty",
           "package": "ProxN",
@@ -388,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Pretty",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Pretty",
           "name": "Pretty",
           "package": "ProxN",
@@ -401,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Pretty",
           "name": "Pretty",
           "package": "ProxN",
@@ -409,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Pretty",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Pretty",
           "name": "Pretty",
           "package": "ProxN",
@@ -422,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Pretty",
           "name": "Pretty1",
           "package": "ProxN",
@@ -430,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Pretty",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Pretty",
           "name": "Pretty1",
           "package": "ProxN",
@@ -443,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Pretty",
           "name": "pretty",
           "package": "ProxN",
@@ -452,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Pretty",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Pretty",
           "name": "pretty",
           "normalized": "(String-\u003eString)-\u003ea-\u003eString",
@@ -466,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Pretty",
           "name": "pretty1",
           "package": "ProxN",
@@ -475,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Pretty",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Pretty",
           "name": "pretty1",
           "normalized": "(String-\u003eString)-\u003ea a-\u003eString",
@@ -489,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Pretty",
           "name": "prettyIndent",
           "package": "ProxN",
@@ -498,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Pretty",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Pretty",
           "name": "prettyIndent",
           "normalized": "PrettyM a-\u003ePrettyM a",
@@ -513,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Pretty",
           "name": "prettyNl",
           "package": "ProxN",
@@ -522,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Pretty",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Pretty",
           "name": "prettyNl",
           "normalized": "PrettyM()",
@@ -537,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Pretty",
           "name": "prettyPrint",
           "package": "ProxN",
@@ -546,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Pretty",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Pretty",
           "name": "prettyPrint",
           "normalized": "a-\u003ePrettyM()",
@@ -561,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Pretty",
           "name": "prettyPrint1",
           "package": "ProxN",
@@ -570,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Pretty",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Pretty",
           "name": "prettyPrint1",
           "normalized": "a a-\u003ePrettyM()",
@@ -585,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Pretty",
           "name": "prettyPut",
           "package": "ProxN",
@@ -594,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Pretty",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Pretty",
           "name": "prettyPut",
           "normalized": "String-\u003ePrettyM()",
@@ -609,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Pretty",
           "name": "prettySimp",
           "package": "ProxN",
@@ -618,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Pretty",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Pretty",
           "name": "prettySimp",
           "normalized": "a-\u003eString",
@@ -633,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Pretty",
           "name": "prettySimp1",
           "package": "ProxN",
@@ -642,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Pretty",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Pretty",
           "name": "prettySimp1",
           "normalized": "a a-\u003eString",
@@ -657,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Proximity",
           "name": "Proximity",
           "package": "ProxN",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Proximity",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Proximity",
           "name": "Proximity",
           "package": "ProxN",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Proximity",
           "name": "prox",
           "package": "ProxN",
@@ -687,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Proximity",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Proximity",
           "name": "prox",
           "normalized": "Double-\u003eVecN a Double-\u003eVecTree a Double-\u003e[VecN a Double]",
@@ -701,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Proximity",
           "name": "proximity",
           "package": "ProxN",
@@ -710,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Proximity",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Proximity",
           "name": "proximity",
           "normalized": "Double-\u003eVecN a Double-\u003eVecTree a Double-\u003e[VecN a Double]-\u003e[VecN a Double]",
@@ -724,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Show1",
           "name": "Show1",
           "package": "ProxN",
@@ -732,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Show1",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Show1",
           "name": "Show1",
           "package": "ProxN",
@@ -745,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Show1",
           "name": "Show1",
           "package": "ProxN",
@@ -753,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Show1",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Show1",
           "name": "Show1",
           "package": "ProxN",
@@ -766,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Show1",
           "name": "show1",
           "package": "ProxN",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Show1",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Show1",
           "name": "show1",
           "normalized": "a b-\u003eString",
@@ -789,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Tree2N",
           "name": "Tree2N",
           "package": "ProxN",
@@ -797,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Tree2N",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Tree2N",
           "name": "Tree2N",
           "package": "ProxN",
@@ -810,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Tree2N",
           "name": "Tree2N",
           "package": "ProxN",
@@ -818,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Tree2N",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Tree2N",
           "name": "Tree2N",
           "package": "ProxN",
@@ -831,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Tree2N",
           "name": "Tree2NClass",
           "package": "ProxN",
@@ -839,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Tree2N",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Tree2N",
           "name": "Tree2NClass",
           "package": "ProxN",
@@ -852,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Tree2N",
           "name": "VecTree",
           "package": "ProxN",
@@ -860,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Tree2N",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Tree2N",
           "name": "VecTree",
           "package": "ProxN",
@@ -873,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Tree2N",
           "name": "Tree2NBranch",
           "package": "ProxN",
@@ -882,6 +961,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Tree2N",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Tree2N",
           "name": "Tree2NBranch",
           "package": "ProxN",
@@ -895,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Tree2N",
           "name": "Tree2NLeaf",
           "package": "ProxN",
@@ -904,6 +985,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Tree2N",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Tree2N",
           "name": "Tree2NLeaf",
           "package": "ProxN",
@@ -917,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Tree2N",
           "name": "chooseNode",
           "package": "ProxN",
@@ -926,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Tree2N",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Tree2N",
           "name": "chooseNode",
           "normalized": "VecN a b-\u003eVecN a b-\u003eTreed a c-\u003ec",
@@ -941,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Tree2N",
           "name": "depth",
           "package": "ProxN",
@@ -950,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Tree2N",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Tree2N",
           "name": "depth",
           "normalized": "Tree N a b-\u003eInt",
@@ -964,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Tree2N",
           "name": "fold2NTree",
           "package": "ProxN",
@@ -973,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Tree2N",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Tree2N",
           "name": "fold2NTree",
           "normalized": "a-\u003eVecN b(a-\u003ea-\u003ea)-\u003e(c-\u003ea-\u003ea)-\u003eTree N b c-\u003ea",
@@ -988,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Tree2N",
           "name": "foldTree",
           "package": "ProxN",
@@ -997,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Tree2N",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Tree2N",
           "name": "foldTree",
           "normalized": "(a-\u003eb)-\u003eVecN c(b-\u003eb-\u003eb)-\u003eTreed c a-\u003eb",
@@ -1012,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Tree2N",
           "name": "fromList",
           "package": "ProxN",
@@ -1021,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Tree2N",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Tree2N",
           "name": "fromList",
           "normalized": "[VecN a b]-\u003eVecTree a b",
@@ -1036,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Tree2N",
           "name": "size",
           "package": "ProxN",
@@ -1045,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Tree2N",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Tree2N",
           "name": "size",
           "normalized": "Tree N a b-\u003eInt",
@@ -1059,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Tree2N",
           "name": "swapNode",
           "package": "ProxN",
@@ -1068,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Tree2N",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Tree2N",
           "name": "swapNode",
           "normalized": "(a-\u003ea)-\u003eVecN b c-\u003eVecN b c-\u003eTreed b a-\u003eTreed b a",
@@ -1083,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Tree2N",
           "name": "tree0",
           "package": "ProxN",
@@ -1092,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Tree2N",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Tree2N",
           "name": "tree0",
           "package": "ProxN",
@@ -1104,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Tree2N",
           "name": "tree1",
           "package": "ProxN",
@@ -1113,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Tree2N",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Tree2N",
           "name": "tree1",
           "package": "ProxN",
@@ -1125,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Tree2N",
           "name": "tree2",
           "package": "ProxN",
@@ -1134,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Tree2N",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Tree2N",
           "name": "tree2",
           "package": "ProxN",
@@ -1146,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.Tree2N",
           "name": "tree3",
           "package": "ProxN",
@@ -1155,6 +1258,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN Tree2N",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.Tree2N",
           "name": "tree3",
           "package": "ProxN",
@@ -1167,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.VecN",
           "name": "VecN",
           "package": "ProxN",
@@ -1175,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN VecN",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.VecN",
           "name": "VecN",
           "package": "ProxN",
@@ -1188,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.VecN",
           "name": "VecNClass",
           "package": "ProxN",
@@ -1196,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN VecN",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.VecN",
           "name": "VecNClass",
           "package": "ProxN",
@@ -1209,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.VecN",
           "name": "distance2",
           "package": "ProxN",
@@ -1218,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN VecN",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.VecN",
           "name": "distance2",
           "normalized": "VecN a b-\u003eVecN a b-\u003eb",
@@ -1232,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.VecN",
           "name": "fromList",
           "package": "ProxN",
@@ -1241,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN VecN",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.VecN",
           "name": "fromList",
           "normalized": "[a]-\u003eMaybe(VecN b a)",
@@ -1256,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:32 UTC 2014",
           "module": "Data.ProxN.VecN",
           "name": "vecCartProd",
           "package": "ProxN",
@@ -1265,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Data ProxN VecN",
+          "indexed": "2014-03-11T16:57:32",
           "module": "Data.ProxN.VecN",
           "name": "vecCartProd",
           "normalized": "VecN a[b]-\u003e[VecN a b]",

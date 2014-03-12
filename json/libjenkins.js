@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "libjenkins"
+        "phrase": "libjenkins",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDiscover Jenkins on the network\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Discover",
           "name": "Discover",
           "package": "libjenkins",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Discover Jenkins on the network",
           "hierarchy": "Jenkins Discover",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Discover",
           "name": "Discover",
           "package": "libjenkins",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJenkins information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Discover",
           "name": "Discover",
           "package": "libjenkins",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Jenkins information",
           "hierarchy": "Jenkins Discover",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Discover",
           "name": "Discover",
           "package": "libjenkins",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Discover",
           "name": "Discover",
           "package": "libjenkins",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Discover",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Discover",
           "name": "Discover",
           "package": "libjenkins",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscover Jenkins on the network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Discover",
           "name": "discover",
           "package": "libjenkins",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Discover Jenkins on the network",
           "hierarchy": "Jenkins Discover",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Discover",
           "name": "discover",
           "normalized": "Int-\u003eIO[Discover]",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Discover",
           "name": "server_id",
           "package": "libjenkins",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Discover",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Discover",
           "name": "server_id",
           "package": "libjenkins",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Discover",
           "name": "url",
           "package": "libjenkins",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Discover",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Discover",
           "name": "url",
           "package": "libjenkins",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Discover",
           "name": "version",
           "package": "libjenkins",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Discover",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Discover",
           "name": "version",
           "package": "libjenkins",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eJenkins REST API interface internals\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "Internal",
           "package": "libjenkins",
@@ -183,6 +198,7 @@
         "index": {
           "description": "Jenkins REST API interface internals",
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "Internal",
           "package": "libjenkins",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJenkins connection settings\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003e_jenkinsApiToken\u003c/a\u003e\u003c/code\u003e may be user's password, Jenkins\n does not make any distinction between these concepts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "ConnectInfo",
           "package": "libjenkins",
@@ -206,6 +223,7 @@
         "index": {
           "description": "Jenkins connection settings jenkinsApiToken may be user password Jenkins does not make any distinction between these concepts",
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "ConnectInfo",
           "package": "libjenkins",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience class aimed at elimination of long\n chains of lenses to access jenkins connection configuration\n\u003c/p\u003e\u003cp\u003eFor example, if you have a configuration record in your application:\n\u003c/p\u003e\u003cpre\u003e\n data Config = Config\n   { ...\n   , _jenkinsConnectInfo :: ConnectInfo\n   , ...\n   }\n\u003c/pre\u003e\u003cp\u003eyou can make it an instance of \u003ccode\u003e\u003ca\u003eHasConnectInfo\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e\n instance HasConnectInfo Config where\n   connectInfo f x = (p -\u003e x { _jenkinsConnectInfo = p }) \u003c$\u003e f (_jenkinsConnectInfo x)\n\u003c/pre\u003e\u003cp\u003eand then use e.g. \u003ccode\u003eview jenkinsUrl config\u003c/code\u003e to get the url part of the jenkins connection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "HasConnectInfo",
           "package": "libjenkins",
@@ -229,6 +248,7 @@
         "index": {
           "description": "Convenience class aimed at elimination of long chains of lenses to access jenkins connection configuration For example if you have configuration record in your application data Config Config jenkinsConnectInfo ConnectInfo you can make it an instance of HasConnectInfo instance HasConnectInfo Config where connectInfo jenkinsConnectInfo jenkinsConnectInfo and then use e.g view jenkinsUrl config to get the url part of the jenkins connection",
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "HasConnectInfo",
           "package": "libjenkins",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJenkins REST API query sequence description\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "Jenkins",
           "package": "libjenkins",
@@ -252,6 +273,7 @@
         "index": {
           "description": "Jenkins REST API query sequence description",
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "Jenkins",
           "package": "libjenkins",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJenkins REST API query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "JenkinsF",
           "package": "libjenkins",
@@ -275,6 +298,7 @@
         "index": {
           "description": "Jenkins REST API query",
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "JenkinsF",
           "package": "libjenkins",
@@ -289,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of Jenkins REST API queries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "Result",
           "package": "libjenkins",
@@ -298,6 +323,7 @@
         "index": {
           "description": "The result of Jenkins REST API queries",
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "Result",
           "package": "libjenkins",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "Conc",
           "package": "libjenkins",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "Conc",
           "normalized": "Jenkins a-\u003eJenkins b-\u003e(a-\u003eb-\u003ec)-\u003eJenkinsF c",
@@ -358,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "Dcon",
           "package": "libjenkins",
@@ -367,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "Dcon",
           "package": "libjenkins",
@@ -430,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "Get",
           "package": "libjenkins",
@@ -439,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "Get",
           "normalized": "Method Complete a-\u003e(ByteString-\u003eb)-\u003eJenkinsF b",
@@ -454,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "IO",
           "package": "libjenkins",
@@ -463,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "IO",
           "normalized": "IO a-\u003eJenkinsF a",
@@ -478,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "Jenkins",
           "package": "libjenkins",
@@ -487,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "Jenkins",
           "package": "libjenkins",
@@ -500,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "Post",
           "package": "libjenkins",
@@ -509,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "Post",
           "normalized": "(a b Method Complete c)-\u003eByteString-\u003e(ByteString-\u003ed)-\u003eJenkinsF d",
@@ -549,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "With",
           "package": "libjenkins",
@@ -558,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "With",
           "normalized": "(Request-\u003eRequest)-\u003eJenkins a-\u003e(a-\u003eb)-\u003eJenkinsF b",
@@ -750,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "connectInfo",
           "package": "libjenkins",
@@ -759,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "connectInfo",
           "package": "libjenkins",
@@ -798,6 +840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eJenkinsF\u003c/a\u003e\u003c/code\u003e AST interpreter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "interpreter",
           "package": "libjenkins",
@@ -808,6 +851,7 @@
         "index": {
           "description": "JenkinsF AST interpreter",
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "interpreter",
           "normalized": "Manager-\u003eJenkinsF(MaybeT(ReaderT Request(ResourceT IO))a)-\u003eMaybeT(ReaderT Request(ResourceT IO))a",
@@ -823,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTear down \u003ccode\u003e\u003ca\u003eJenkinsF\u003c/a\u003e\u003c/code\u003e AST with a \u003ccode\u003e\u003ca\u003eJenkinsF\u003c/a\u003e\u003c/code\u003e-algebra\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "iterJenkins",
           "package": "libjenkins",
@@ -833,6 +878,7 @@
         "index": {
           "description": "Tear down JenkinsF AST with JenkinsF algebra",
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "iterJenkins",
           "normalized": "(JenkinsF(a b)-\u003ea b)-\u003eJenkins b-\u003ea b",
@@ -849,6 +895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpret \u003ccode\u003e\u003ca\u003eJenkinsF\u003c/a\u003e\u003c/code\u003e AST in \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "iterJenkinsIO",
           "package": "libjenkins",
@@ -859,6 +906,7 @@
         "index": {
           "description": "Interpret JenkinsF AST in IO",
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "iterJenkinsIO",
           "normalized": "Manager-\u003eJenkins a-\u003eMaybeT(ReaderT Request(ResourceT IO))a",
@@ -1000,6 +1048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift \u003ccode\u003e\u003ca\u003eJenkinsF\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eJenkins\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "liftJ",
           "package": "libjenkins",
@@ -1010,6 +1059,7 @@
         "index": {
           "description": "Lift JenkinsF to Jenkins",
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "liftJ",
           "normalized": "JenkinsF a-\u003eJenkins a",
@@ -1051,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "runJenkinsInternal",
           "package": "libjenkins",
@@ -1060,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "runJenkinsInternal",
           "normalized": "a-\u003eJenkins b-\u003eIO(Maybe b)",
@@ -1102,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Internal",
           "name": "unJenkins",
           "package": "libjenkins",
@@ -1111,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Rest Internal",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Internal",
           "name": "unJenkins",
           "package": "libjenkins",
@@ -1125,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eJenkins REST API method construction\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "Method",
           "package": "libjenkins",
@@ -1134,6 +1189,7 @@
         "index": {
           "description": "Jenkins REST API method construction",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "Method",
           "package": "libjenkins",
@@ -1148,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponse format singleton type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "As",
           "package": "libjenkins",
@@ -1157,6 +1214,7 @@
         "index": {
           "description": "Response format singleton type",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "As",
           "package": "libjenkins",
@@ -1171,6 +1229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponse formats\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "Format",
           "package": "libjenkins",
@@ -1180,6 +1239,7 @@
         "index": {
           "description": "Response formats",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "Format",
           "package": "libjenkins",
@@ -1194,6 +1254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJSON response format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "JSONy",
           "package": "libjenkins",
@@ -1203,6 +1264,7 @@
         "index": {
           "description": "JSON response format",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "JSONy",
           "package": "libjenkins",
@@ -1217,6 +1279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJenkins RESTFul API method encoding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "Method",
           "package": "libjenkins",
@@ -1226,6 +1289,7 @@
         "index": {
           "description": "Jenkins RESTFul API method encoding",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "Method",
           "package": "libjenkins",
@@ -1240,6 +1304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePython response format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "Pythony",
           "package": "libjenkins",
@@ -1249,6 +1314,7 @@
         "index": {
           "description": "Python response format",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "Pythony",
           "package": "libjenkins",
@@ -1263,6 +1329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMethod types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "Type",
           "package": "libjenkins",
@@ -1272,6 +1339,7 @@
         "index": {
           "description": "Method types",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "Type",
           "package": "libjenkins",
@@ -1286,6 +1354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXML response format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "XMLy",
           "package": "libjenkins",
@@ -1295,6 +1364,7 @@
         "index": {
           "description": "XML response format",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "XMLy",
           "package": "libjenkins",
@@ -1309,6 +1379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine 2 queries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "(-&-)",
           "package": "libjenkins",
@@ -1319,6 +1390,7 @@
         "index": {
           "description": "Combine queries",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "(-&-) -&-",
           "normalized": "Method Query a-\u003eMethod Query a-\u003eMethod Query a",
@@ -1334,6 +1406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine 2 paths\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "(-/-)",
           "package": "libjenkins",
@@ -1344,6 +1417,7 @@
         "index": {
           "description": "Combine paths",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "(-/-) -/-",
           "normalized": "Method Complete a-\u003eMethod Complete a-\u003eMethod Complete a",
@@ -1359,6 +1433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a field-value pair\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "(-=-)",
           "package": "libjenkins",
@@ -1369,6 +1444,7 @@
         "index": {
           "description": "Make field-value pair",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "(-=-) -=-",
           "normalized": "Text-\u003eText-\u003eMethod Query a",
@@ -1384,6 +1460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine path and query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "(-?-)",
           "package": "libjenkins",
@@ -1394,6 +1471,7 @@
         "index": {
           "description": "Combine path and query",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "(-?-) -?-",
           "normalized": "Method Complete a-\u003eMethod Query a-\u003eMethod Complete a",
@@ -1408,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "Complete",
           "package": "libjenkins",
@@ -1417,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "Complete",
           "package": "libjenkins",
@@ -1430,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "Query",
           "package": "libjenkins",
@@ -1439,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "Query",
           "package": "libjenkins",
@@ -1453,6 +1535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose response format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "as",
           "package": "libjenkins",
@@ -1463,6 +1546,7 @@
         "index": {
           "description": "Choose response format",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "as",
           "normalized": "Method Complete a-\u003eAs a-\u003eMethod Complete a",
@@ -1478,6 +1562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJob build API method\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erender (build \"name\" 4 `as` json)\n\u003c/code\u003e\u003c/strong\u003e\"job/name/4/api/json\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "build",
           "package": "libjenkins",
@@ -1488,6 +1573,7 @@
         "index": {
           "description": "Job build API method render build name as json job name api json",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "build",
           "normalized": "Text-\u003ea-\u003eMethod Complete b",
@@ -1503,6 +1589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNode API method\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erender (computer `as` python)\n\u003c/code\u003e\u003c/strong\u003e\"computer/api/python\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "computer",
           "package": "libjenkins",
@@ -1513,6 +1600,7 @@
         "index": {
           "description": "Node API method render computer as python computer api python",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "computer",
           "package": "libjenkins",
@@ -1526,6 +1614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "int",
           "package": "libjenkins",
@@ -1536,6 +1625,7 @@
         "index": {
           "description": "Convert Integer to Method",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "int",
           "normalized": "Integer-\u003eMethod Complete a",
@@ -1551,6 +1641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJob API method\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erender (job \"name\" `as` json)\n\u003c/code\u003e\u003c/strong\u003e\"job/name/api/json\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "job",
           "package": "libjenkins",
@@ -1561,6 +1652,7 @@
         "index": {
           "description": "Job API method render job name as json job name api json",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "job",
           "normalized": "Text-\u003eMethod Complete a",
@@ -1575,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "json",
           "package": "libjenkins",
@@ -1584,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "json",
           "package": "libjenkins",
@@ -1597,6 +1691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatistics API method\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erender (overallLoad `as` xml)\n\u003c/code\u003e\u003c/strong\u003e\"overallLoad/api/xml\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "overallLoad",
           "package": "libjenkins",
@@ -1607,6 +1702,7 @@
         "index": {
           "description": "Statistics API method render overallLoad as xml overallLoad api xml",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "overallLoad",
           "package": "libjenkins",
@@ -1620,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "python",
           "package": "libjenkins",
@@ -1629,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "python",
           "package": "libjenkins",
@@ -1642,6 +1740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList-to-query convenience combinator\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erender (query [(\"foo\", Nothing), (\"bar\", Just \"baz\"), (\"quux\", Nothing)])\n\u003c/code\u003e\u003c/strong\u003e\"foo&bar=baz&quux\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erender (query [])\n\u003c/code\u003e\u003c/strong\u003e\"\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "query",
           "package": "libjenkins",
@@ -1652,6 +1751,7 @@
         "index": {
           "description": "List-to-query convenience combinator render query foo Nothing bar Just baz quux Nothing foo bar baz quux render query",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "query",
           "normalized": "[(Text,Maybe Text)]-\u003eMethod Query a",
@@ -1667,6 +1767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQueue API method\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erender (queue `as` python)\n\u003c/code\u003e\u003c/strong\u003e\"queue/api/python\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "queue",
           "package": "libjenkins",
@@ -1677,6 +1778,7 @@
         "index": {
           "description": "Queue API method render queue as python queue api python",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "queue",
           "package": "libjenkins",
@@ -1690,6 +1792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e to something that can be sent over the wire\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erender (\"\" `as` xml)\n\u003c/code\u003e\u003c/strong\u003e\"api/xml\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erender xml\n\u003c/code\u003e\u003c/strong\u003e\"api/xml\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erender (\"job\" -/- 7 `as` xml)\n\u003c/code\u003e\u003c/strong\u003e\"job/7/api/xml\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erender (\"job\" -/- 7 `as` xml)\n\u003c/code\u003e\u003c/strong\u003e\"job/7/api/xml\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erender (\"job\" -/- 7 `as` json)\n\u003c/code\u003e\u003c/strong\u003e\"job/7/api/json\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erender (text \"restart\")\n\u003c/code\u003e\u003c/strong\u003e\"restart\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erender (\"job\" -?- \"name\" -=- \"foo\" -&- \"title\" -=- \"bar\")\n\u003c/code\u003e\u003c/strong\u003e\"job?name=foo&title=bar\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erender (\"job\" -?- \"name\" -&- \"title\" -=- \"bar\")\n\u003c/code\u003e\u003c/strong\u003e\"job?name&title=bar\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erender (\"job\" -/- 7 `as` json -?- \"name\" -&- \"title\" -=- \"bar\")\n\u003c/code\u003e\u003c/strong\u003e\"job/7/api/json?name&title=bar\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erender (\"job\" -/- \"&#1044;&#1052;&#1048;&#1058;&#1056;&#1048;&#1049;\" `as` xml)\n\u003c/code\u003e\u003c/strong\u003e\"job/%D0%94%D0%9C%D0%98%D0%A2%D0%A0%D0%98%D0%99/api/xml\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "render",
           "package": "libjenkins",
@@ -1700,6 +1803,7 @@
         "index": {
           "description": "Render Method to something that can be sent over the wire render as xml api xml render xml api xml render job as xml job api xml render job as xml job api xml render job as json job api json render text restart restart render job name foo title bar job name foo title bar render job name title bar job name title bar render job as json name title bar job api json name title bar render job as xml job D0 D0 D0 D0 A2 D0 A0 D0 D0 api xml",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "render",
           "normalized": "Method a b-\u003eByteString",
@@ -1715,6 +1819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert \"/\" between two \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e-like things and concatenate everything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "slash",
           "package": "libjenkins",
@@ -1725,6 +1830,7 @@
         "index": {
           "description": "Insert between two String like things and concatenate everything",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "slash",
           "normalized": "a-\u003ea-\u003ea",
@@ -1740,6 +1846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "text",
           "package": "libjenkins",
@@ -1750,6 +1857,7 @@
         "index": {
           "description": "Convert Text to Method",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "text",
           "normalized": "Text-\u003eMethod Complete a",
@@ -1765,6 +1873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eView API method\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erender (view \"name\" `as` xml)\n\u003c/code\u003e\u003c/strong\u003e\"view/name/api/xml\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "view",
           "package": "libjenkins",
@@ -1775,6 +1884,7 @@
         "index": {
           "description": "View API method render view name as xml view name api xml",
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "view",
           "normalized": "Text-\u003eMethod Complete a",
@@ -1789,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest.Method",
           "name": "xml",
           "package": "libjenkins",
@@ -1798,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Rest Method",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest.Method",
           "name": "xml",
           "package": "libjenkins",
@@ -1811,6 +1923,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eJenkins REST API interface\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "Rest",
           "package": "libjenkins",
@@ -1820,6 +1933,7 @@
         "index": {
           "description": "Jenkins REST API interface",
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "Rest",
           "package": "libjenkins",
@@ -1834,6 +1948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJenkins connection settings\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003e_jenkinsApiToken\u003c/a\u003e\u003c/code\u003e may be user's password, Jenkins\n does not make any distinction between these concepts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "ConnectInfo",
           "package": "libjenkins",
@@ -1843,6 +1958,7 @@
         "index": {
           "description": "Jenkins connection settings jenkinsApiToken may be user password Jenkins does not make any distinction between these concepts",
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "ConnectInfo",
           "package": "libjenkins",
@@ -1857,6 +1973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience class aimed at elimination of long\n chains of lenses to access jenkins connection configuration\n\u003c/p\u003e\u003cp\u003eFor example, if you have a configuration record in your application:\n\u003c/p\u003e\u003cpre\u003e\n data Config = Config\n   { ...\n   , _jenkinsConnectInfo :: ConnectInfo\n   , ...\n   }\n\u003c/pre\u003e\u003cp\u003eyou can make it an instance of \u003ccode\u003e\u003ca\u003eHasConnectInfo\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e\n instance HasConnectInfo Config where\n   connectInfo f x = (p -\u003e x { _jenkinsConnectInfo = p }) \u003c$\u003e f (_jenkinsConnectInfo x)\n\u003c/pre\u003e\u003cp\u003eand then use e.g. \u003ccode\u003eview jenkinsUrl config\u003c/code\u003e to get the url part of the jenkins connection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "HasConnectInfo",
           "package": "libjenkins",
@@ -1866,6 +1983,7 @@
         "index": {
           "description": "Convenience class aimed at elimination of long chains of lenses to access jenkins connection configuration For example if you have configuration record in your application data Config Config jenkinsConnectInfo ConnectInfo you can make it an instance of HasConnectInfo instance HasConnectInfo Config where connectInfo jenkinsConnectInfo jenkinsConnectInfo and then use e.g view jenkinsUrl config to get the url part of the jenkins connection",
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "HasConnectInfo",
           "package": "libjenkins",
@@ -1879,6 +1997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "HttpException",
           "package": "libjenkins",
@@ -1886,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "HttpException",
           "package": "libjenkins",
@@ -1900,6 +2020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJenkins REST API query sequence description\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "Jenkins",
           "package": "libjenkins",
@@ -1909,6 +2030,7 @@
         "index": {
           "description": "Jenkins REST API query sequence description",
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "Jenkins",
           "package": "libjenkins",
@@ -1923,6 +2045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll information on how to connect to a host and what should be sent in the\n HTTP request.\n\u003c/p\u003e\u003cp\u003eIf you simply wish to download from a URL, see \u003ccode\u003eparseUrl\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe constructor for this data type is not exposed. Instead, you should use\n either the \u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e method to retrieve a default instance, or \u003ccode\u003eparseUrl\u003c/code\u003e to\n construct from a URL, and then use the records below to make modifications.\n This approach allows http-client to add configuration options without\n breaking backwards compatibility.\n\u003c/p\u003e\u003cp\u003eFor example, to construct a POST request, you could do something like:\n\u003c/p\u003e\u003cpre\u003e initReq \u003c- parseUrl \"http://www.example.com/path\"\n let req = initReq\n             { method = \"POST\"\n             }\n\u003c/pre\u003e\u003cp\u003eFor more information, please see\n \u003ca\u003ehttp://www.yesodweb.com/book/settings-types\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "Request",
           "package": "libjenkins",
@@ -1931,6 +2054,7 @@
         "index": {
           "description": "All information on how to connect to host and what should be sent in the HTTP request If you simply wish to download from URL see parseUrl The constructor for this data type is not exposed Instead you should use either the def method to retrieve default instance or parseUrl to construct from URL and then use the records below to make modifications This approach allows http-client to add configuration options without breaking backwards compatibility For example to construct POST request you could do something like initReq parseUrl http www.example.com path let req initReq method POST For more information please see http www.yesodweb.com book settings-types Since",
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "Request",
           "package": "libjenkins",
@@ -1945,6 +2069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of Jenkins REST API queries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "Result",
           "package": "libjenkins",
@@ -1954,6 +2079,7 @@
         "index": {
           "description": "The result of Jenkins REST API queries",
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "Result",
           "package": "libjenkins",
@@ -1968,6 +2094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo both queries \u003ccode\u003e\u003ca\u003econcurrently\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "concurrently",
           "package": "libjenkins",
@@ -1978,6 +2105,7 @@
         "index": {
           "description": "Do both queries concurrently",
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "concurrently",
           "normalized": "Jenkins a-\u003eJenkins b-\u003eJenkins(a,b)",
@@ -1993,6 +2121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a list of queries \u003ccode\u003e\u003ca\u003econcurrently\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "concurrentlys",
           "package": "libjenkins",
@@ -2003,6 +2132,7 @@
         "index": {
           "description": "Send list of queries concurrently",
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "concurrentlys",
           "normalized": "a(Jenkins b)-\u003eJenkins[b]",
@@ -2018,6 +2148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a list of queries \u003ccode\u003e\u003ca\u003econcurrently\u003c/a\u003e\u003c/code\u003e ignoring their results\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: exceptions are still raised\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "concurrentlys_",
           "package": "libjenkins",
@@ -2028,6 +2159,7 @@
         "index": {
           "description": "Send list of queries concurrently ignoring their results Note exceptions are still raised",
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "concurrentlys_",
           "normalized": "a(Jenkins b)-\u003eJenkins()",
@@ -2042,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "connectInfo",
           "package": "libjenkins",
@@ -2051,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "connectInfo",
           "package": "libjenkins",
@@ -2065,6 +2199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisconnect from Jenkins\n\u003c/p\u003e\u003cp\u003eAny following queries won't be executed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "disconnect",
           "package": "libjenkins",
@@ -2075,6 +2210,7 @@
         "index": {
           "description": "Disconnect from Jenkins Any following queries won be executed",
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "disconnect",
           "package": "libjenkins",
@@ -2088,6 +2224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce jenkins to restart without waiting for running jobs to finish\n\u003c/p\u003e\u003cp\u003eCalls \u003ccode\u003e/restart\u003c/code\u003e and disconnects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "forceRestart",
           "package": "libjenkins",
@@ -2098,6 +2235,7 @@
         "index": {
           "description": "Force jenkins to restart without waiting for running jobs to finish Calls restart and disconnects",
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "forceRestart",
           "package": "libjenkins",
@@ -2112,6 +2250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eGET\u003c/code\u003e query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "get",
           "package": "libjenkins",
@@ -2122,6 +2261,7 @@
         "index": {
           "description": "GET query",
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "get",
           "normalized": "Method Complete a-\u003eJenkins ByteString",
@@ -2137,6 +2277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift an arbitrary \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action to the \u003ccode\u003e\u003ca\u003eJenkins\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e\u003cpre\u003e\n io :: \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e a -\u003e \u003ccode\u003e\u003ca\u003eJenkins\u003c/a\u003e\u003c/code\u003e a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "io",
           "package": "libjenkins",
@@ -2147,6 +2288,7 @@
         "index": {
           "description": "Lift an arbitrary IO action to the Jenkins monad io IO Jenkins",
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "io",
           "normalized": "IO a-\u003eb a",
@@ -2162,6 +2304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePOST\u003c/code\u003e query (with a payload)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "post",
           "package": "libjenkins",
@@ -2172,6 +2315,7 @@
         "index": {
           "description": "POST query with payload",
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "post",
           "normalized": "(a b Method Complete c)-\u003eByteString-\u003eJenkins()",
@@ -2187,6 +2331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePOST\u003c/code\u003e job's \u003ccode\u003econfig.xml\u003c/code\u003e (or any other xml, really) in \u003ccode\u003exml-conduit\u003c/code\u003e format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "postXML",
           "package": "libjenkins",
@@ -2197,6 +2342,7 @@
         "index": {
           "description": "POST job config.xml or any other xml really in xml-conduit format",
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "postXML",
           "normalized": "(a b Method Complete c)-\u003eDocument-\u003eJenkins()",
@@ -2213,6 +2359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePOST\u003c/code\u003e query (without payload)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "post_",
           "package": "libjenkins",
@@ -2223,6 +2370,7 @@
         "index": {
           "description": "POST query without payload",
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "post_",
           "normalized": "(a b Method Complete c)-\u003eJenkins()",
@@ -2238,6 +2386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReload jenkins configuration from disk\n\u003c/p\u003e\u003cp\u003eCalls \u003ccode\u003e/reload\u003c/code\u003e and disconnects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "reload",
           "package": "libjenkins",
@@ -2248,6 +2397,7 @@
         "index": {
           "description": "Reload jenkins configuration from disk Calls reload and disconnects",
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "reload",
           "package": "libjenkins",
@@ -2261,6 +2411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestart jenkins safely\n\u003c/p\u003e\u003cp\u003eCalls \u003ccode\u003e/safeRestart\u003c/code\u003e and disconnects\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e/safeRestart\u003c/code\u003e allows all running jobs to complete\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "restart",
           "package": "libjenkins",
@@ -2271,6 +2422,7 @@
         "index": {
           "description": "Restart jenkins safely Calls safeRestart and disconnects safeRestart allows all running jobs to complete",
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "restart",
           "package": "libjenkins",
@@ -2284,6 +2436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake local changes to the \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Jenkins.Rest",
           "name": "with",
           "package": "libjenkins",
@@ -2294,6 +2447,7 @@
         "index": {
           "description": "Make local changes to the Request",
           "hierarchy": "Jenkins Rest",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Jenkins.Rest",
           "name": "with",
           "normalized": "(Request-\u003eRequest)-\u003eJenkins a-\u003eJenkins a",
@@ -2309,6 +2463,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOptics for \u003ccode\u003ehttp-conduit\u003c/code\u003e types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "Lens",
           "package": "libjenkins",
@@ -2318,6 +2473,7 @@
         "index": {
           "description": "Optics for http-conduit types",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "Lens",
           "package": "libjenkins",
@@ -2332,6 +2488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ehttp-conduit\u003c/code\u003e exceptions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "AsHttpException",
           "package": "libjenkins",
@@ -2341,6 +2498,7 @@
         "index": {
           "description": "http-conduit exceptions",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "AsHttpException",
           "package": "libjenkins",
@@ -2355,6 +2513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eExpectedBlankAfter100Continue\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_ExpectedBlankAfter100Continue",
           "package": "libjenkins",
@@ -2365,6 +2524,7 @@
         "index": {
           "description": "ExpectedBlankAfter100Continue exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_ExpectedBlankAfter100Continue",
           "normalized": "Prism' a()",
@@ -2381,6 +2541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFailedConnectionException\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_FailedConnectionException",
           "package": "libjenkins",
@@ -2391,6 +2552,7 @@
         "index": {
           "description": "FailedConnectionException exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_FailedConnectionException",
           "normalized": "Prism' a(String,Int)",
@@ -2407,6 +2569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eHandshakeFailed\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_HandshakeFailed",
           "package": "libjenkins",
@@ -2417,6 +2580,7 @@
         "index": {
           "description": "HandshakeFailed exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_HandshakeFailed",
           "normalized": "Prism' a()",
@@ -2433,6 +2597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ehttp-conduit\u003c/code\u003e exceptions overloading\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_HttpException",
           "package": "libjenkins",
@@ -2443,6 +2608,7 @@
         "index": {
           "description": "http-conduit exceptions overloading",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_HttpException",
           "package": "libjenkins",
@@ -2457,6 +2623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eHttpParserException\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_HttpParserException",
           "package": "libjenkins",
@@ -2467,6 +2634,7 @@
         "index": {
           "description": "HttpParserException exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_HttpParserException",
           "package": "libjenkins",
@@ -2481,6 +2649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eIncompleteHeaders\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_IncompleteHeaders",
           "package": "libjenkins",
@@ -2491,6 +2660,7 @@
         "index": {
           "description": "IncompleteHeaders exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_IncompleteHeaders",
           "normalized": "Prism' a()",
@@ -2507,6 +2677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInternalIOException\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_InternalIOException",
           "package": "libjenkins",
@@ -2517,6 +2688,7 @@
         "index": {
           "description": "InternalIOException exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_InternalIOException",
           "package": "libjenkins",
@@ -2531,6 +2703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInvalidChunkHeaders\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_InvalidChunkHeaders",
           "package": "libjenkins",
@@ -2541,6 +2714,7 @@
         "index": {
           "description": "InvalidChunkHeaders exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_InvalidChunkHeaders",
           "normalized": "Prism' a()",
@@ -2557,6 +2731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInvalidHeader\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_InvalidHeader",
           "package": "libjenkins",
@@ -2567,6 +2742,7 @@
         "index": {
           "description": "InvalidHeader exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_InvalidHeader",
           "package": "libjenkins",
@@ -2581,6 +2757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInvalidStatusLine\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_InvalidStatusLine",
           "package": "libjenkins",
@@ -2591,6 +2768,7 @@
         "index": {
           "description": "InvalidStatusLine exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_InvalidStatusLine",
           "package": "libjenkins",
@@ -2605,6 +2783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInvalidUrlException\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_InvalidUrlException",
           "package": "libjenkins",
@@ -2615,6 +2794,7 @@
         "index": {
           "description": "InvalidUrlException exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_InvalidUrlException",
           "normalized": "Prism' a(String,String)",
@@ -2631,6 +2811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eNoResponseDataReceived\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_NoResponseDataReceived",
           "package": "libjenkins",
@@ -2641,6 +2822,7 @@
         "index": {
           "description": "NoResponseDataReceived exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_NoResponseDataReceived",
           "normalized": "Prism' a()",
@@ -2657,6 +2839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eOverlongHeaders\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_OverlongHeaders",
           "package": "libjenkins",
@@ -2667,6 +2850,7 @@
         "index": {
           "description": "OverlongHeaders exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_OverlongHeaders",
           "normalized": "Prism' a()",
@@ -2683,6 +2867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eProxyConnectException\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_ProxyConnectException",
           "package": "libjenkins",
@@ -2693,6 +2878,7 @@
         "index": {
           "description": "ProxyConnectException exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_ProxyConnectException",
           "normalized": "Prism' a(ByteString,Int,Either ByteString HttpException)",
@@ -2709,6 +2895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eResponseBodyTooShort\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_ResponseBodyTooShort",
           "package": "libjenkins",
@@ -2719,6 +2906,7 @@
         "index": {
           "description": "ResponseBodyTooShort exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_ResponseBodyTooShort",
           "normalized": "Prism' a(Word,Word)",
@@ -2735,6 +2923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eResponseTimeout\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_ResponseTimeout",
           "package": "libjenkins",
@@ -2745,6 +2934,7 @@
         "index": {
           "description": "ResponseTimeout exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_ResponseTimeout",
           "normalized": "Prism' a()",
@@ -2761,6 +2951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eStatusCodeException\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_StatusCodeException",
           "package": "libjenkins",
@@ -2771,6 +2962,7 @@
         "index": {
           "description": "StatusCodeException exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_StatusCodeException",
           "normalized": "Prism' a(Status,ResponseHeaders,CookieJar)",
@@ -2787,6 +2979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTlsException\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_TlsException",
           "package": "libjenkins",
@@ -2797,6 +2990,7 @@
         "index": {
           "description": "TlsException exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_TlsException",
           "package": "libjenkins",
@@ -2811,6 +3005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTlsNotSupported\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_TlsNotSupported",
           "package": "libjenkins",
@@ -2821,6 +3016,7 @@
         "index": {
           "description": "TlsNotSupported exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_TlsNotSupported",
           "normalized": "Prism' a()",
@@ -2837,6 +3033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTooManyRedirects\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_TooManyRedirects",
           "package": "libjenkins",
@@ -2847,6 +3044,7 @@
         "index": {
           "description": "TooManyRedirects exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_TooManyRedirects",
           "normalized": "Prism' a[Response ByteString]",
@@ -2863,6 +3061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTooManyRetries\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_TooManyRetries",
           "package": "libjenkins",
@@ -2873,6 +3072,7 @@
         "index": {
           "description": "TooManyRetries exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_TooManyRetries",
           "normalized": "Prism' a()",
@@ -2889,6 +3089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eUnparseableRedirect\u003c/a\u003e\u003c/code\u003e exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_UnparseableRedirect",
           "package": "libjenkins",
@@ -2899,6 +3100,7 @@
         "index": {
           "description": "UnparseableRedirect exception",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "_UnparseableRedirect",
           "package": "libjenkins",
@@ -2913,6 +3115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003echeckStatus\u003c/a\u003e\u003c/code\u003e lens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "checkStatus",
           "package": "libjenkins",
@@ -2923,6 +3126,7 @@
         "index": {
           "description": "checkStatus lens",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "checkStatus",
           "normalized": "Lens' Request(Status-\u003eResponseHeaders-\u003eCookieJar-\u003eMaybe SomeException)",
@@ -2939,6 +3143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecookieJar\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "cookieJar",
           "package": "libjenkins",
@@ -2949,6 +3154,7 @@
         "index": {
           "description": "cookieJar",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "cookieJar",
           "package": "libjenkins",
@@ -2963,6 +3169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edecompress\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "decompress",
           "package": "libjenkins",
@@ -2973,6 +3180,7 @@
         "index": {
           "description": "decompress",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "decompress",
           "normalized": "Lens' Request(ByteString-\u003eBool)",
@@ -2988,6 +3196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetConnectionWrapper\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "getConnectionWrapper",
           "package": "libjenkins",
@@ -2998,6 +3207,7 @@
         "index": {
           "description": "getConnectionWrapper",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "getConnectionWrapper",
           "normalized": "Lens' Request(Maybe Int-\u003eHttpException-\u003eIO(ConnRelease,Connection,ManagedConn)-\u003eIO(Maybe Int,(ConnRelease,Connection,ManagedConn)))",
@@ -3014,6 +3224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ehost\u003c/a\u003e\u003c/code\u003e lens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "host",
           "package": "libjenkins",
@@ -3024,6 +3235,7 @@
         "index": {
           "description": "host lens",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "host",
           "package": "libjenkins",
@@ -3037,6 +3249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ehostAddress\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "hostAddress",
           "package": "libjenkins",
@@ -3047,6 +3260,7 @@
         "index": {
           "description": "hostAddress",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "hostAddress",
           "package": "libjenkins",
@@ -3061,6 +3275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emethod\u003c/a\u003e\u003c/code\u003e lens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "method",
           "package": "libjenkins",
@@ -3071,6 +3286,7 @@
         "index": {
           "description": "method lens",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "method",
           "package": "libjenkins",
@@ -3084,6 +3300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003epath\u003c/a\u003e\u003c/code\u003e lens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "path",
           "package": "libjenkins",
@@ -3094,6 +3311,7 @@
         "index": {
           "description": "path lens",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "path",
           "package": "libjenkins",
@@ -3107,6 +3325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eport\u003c/a\u003e\u003c/code\u003e lens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "port",
           "package": "libjenkins",
@@ -3117,6 +3336,7 @@
         "index": {
           "description": "port lens",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "port",
           "package": "libjenkins",
@@ -3130,6 +3350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eproxy\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "proxy",
           "package": "libjenkins",
@@ -3140,6 +3361,7 @@
         "index": {
           "description": "proxy",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "proxy",
           "package": "libjenkins",
@@ -3153,6 +3375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003equeryString\u003c/a\u003e\u003c/code\u003e lens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "queryString",
           "package": "libjenkins",
@@ -3163,6 +3386,7 @@
         "index": {
           "description": "queryString lens",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "queryString",
           "package": "libjenkins",
@@ -3177,6 +3401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erawBody\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "rawBody",
           "package": "libjenkins",
@@ -3187,6 +3412,7 @@
         "index": {
           "description": "rawBody",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "rawBody",
           "package": "libjenkins",
@@ -3201,6 +3427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eredirectCount\u003c/a\u003e\u003c/code\u003e lens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "redirectCount",
           "package": "libjenkins",
@@ -3211,6 +3438,7 @@
         "index": {
           "description": "redirectCount lens",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "redirectCount",
           "package": "libjenkins",
@@ -3225,6 +3453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erequestBody\u003c/a\u003e\u003c/code\u003e lens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "requestBody",
           "package": "libjenkins",
@@ -3235,6 +3464,7 @@
         "index": {
           "description": "requestBody lens",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "requestBody",
           "package": "libjenkins",
@@ -3249,6 +3479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erequestHeaders\u003c/a\u003e\u003c/code\u003e lens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "requestHeaders",
           "package": "libjenkins",
@@ -3259,6 +3490,7 @@
         "index": {
           "description": "requestHeaders lens",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "requestHeaders",
           "package": "libjenkins",
@@ -3273,6 +3505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eresponseTimeout\u003c/a\u003e\u003c/code\u003e lens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "responseTimeout",
           "package": "libjenkins",
@@ -3283,6 +3516,7 @@
         "index": {
           "description": "responseTimeout lens",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "responseTimeout",
           "package": "libjenkins",
@@ -3297,6 +3531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esecure\u003c/a\u003e\u003c/code\u003e lens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:29 UTC 2014",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "secure",
           "package": "libjenkins",
@@ -3307,6 +3542,7 @@
         "index": {
           "description": "secure lens",
           "hierarchy": "Network HTTP Conduit Lens",
+          "indexed": "2014-03-11T19:08:29",
           "module": "Network.HTTP.Conduit.Lens",
           "name": "secure",
           "package": "libjenkins",

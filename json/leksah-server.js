@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "leksah-server"
+        "phrase": "leksah-server",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "CTypes",
           "package": "leksah-server",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "CTypes",
           "package": "leksah-server",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Descr",
           "package": "leksah-server",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Descr",
           "package": "leksah-server",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "DescrType",
           "package": "leksah-server",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "DescrType",
           "package": "leksah-server",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "GenScope",
           "package": "leksah-server",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "GenScope",
           "package": "leksah-server",
@@ -103,6 +111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn import declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ImportDecl",
           "package": "leksah-server",
@@ -112,6 +121,7 @@
         "index": {
           "description": "An import declaration",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ImportDecl",
           "package": "leksah-server",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn import specification, representing a single explicit item imported\n   (or hidden) from a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ImportSpec",
           "package": "leksah-server",
@@ -135,6 +146,7 @@
         "index": {
           "description": "An import specification representing single explicit item imported or hidden from module",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ImportSpec",
           "package": "leksah-server",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn explicit import specification list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ImportSpecList",
           "package": "leksah-server",
@@ -158,6 +171,7 @@
         "index": {
           "description": "An explicit import specification list",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ImportSpecList",
           "package": "leksah-server",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Location",
           "package": "leksah-server",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Location",
           "package": "leksah-server",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ModuleDescr",
           "package": "leksah-server",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ModuleDescr",
           "package": "leksah-server",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "PackModule",
           "package": "leksah-server",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "PackModule",
           "package": "leksah-server",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "PackScope",
           "package": "leksah-server",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "PackScope",
           "package": "leksah-server",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "PackageDescr",
           "package": "leksah-server",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "PackageDescr",
           "package": "leksah-server",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Present",
           "package": "leksah-server",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Present",
           "package": "leksah-server",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "RealDescr",
           "package": "leksah-server",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "RealDescr",
           "package": "leksah-server",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ReexportedDescr",
           "package": "leksah-server",
@@ -326,6 +355,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ReexportedDescr",
           "package": "leksah-server",
@@ -339,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "RetrieveStrategy",
           "package": "leksah-server",
@@ -347,6 +378,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "RetrieveStrategy",
           "package": "leksah-server",
@@ -360,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Scope",
           "package": "leksah-server",
@@ -368,6 +401,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Scope",
           "package": "leksah-server",
@@ -381,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ServerAnswer",
           "package": "leksah-server",
@@ -389,6 +424,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ServerAnswer",
           "package": "leksah-server",
@@ -402,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ServerCommand",
           "package": "leksah-server",
@@ -410,6 +447,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ServerCommand",
           "package": "leksah-server",
@@ -423,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "SimpleDescr",
           "package": "leksah-server",
@@ -431,6 +470,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "SimpleDescr",
           "package": "leksah-server",
@@ -445,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA portion of the source, spanning one or more lines and zero or more columns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "SrcSpan",
           "package": "leksah-server",
@@ -454,6 +495,7 @@
         "index": {
           "description": "portion of the source spanning one or more lines and zero or more columns",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "SrcSpan",
           "package": "leksah-server",
@@ -467,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "SymbolTable",
           "package": "leksah-server",
@@ -475,6 +518,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "SymbolTable",
           "package": "leksah-server",
@@ -488,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "TypeDescr",
           "package": "leksah-server",
@@ -496,6 +541,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "TypeDescr",
           "package": "leksah-server",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Class",
           "package": "leksah-server",
@@ -541,6 +588,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Class",
           "package": "leksah-server",
@@ -555,6 +603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efirst super, then methods\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ClassDescr",
           "package": "leksah-server",
@@ -565,6 +614,7 @@
         "index": {
           "description": "first super then methods",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ClassDescr",
           "normalized": "ClassDescr[String][SimpleDescr]",
@@ -580,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Constructor",
           "package": "leksah-server",
@@ -589,6 +640,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Constructor",
           "package": "leksah-server",
@@ -602,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ConstructorDescr",
           "package": "leksah-server",
@@ -611,6 +664,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ConstructorDescr",
           "package": "leksah-server",
@@ -624,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Data",
           "package": "leksah-server",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Data",
           "package": "leksah-server",
@@ -647,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efirst constructors, then fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "DataDescr",
           "package": "leksah-server",
@@ -657,6 +714,7 @@
         "index": {
           "description": "first constructors then fields",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "DataDescr",
           "normalized": "DataDescr[SimpleDescr][SimpleDescr]",
@@ -672,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Error",
           "package": "leksah-server",
@@ -681,6 +740,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Error",
           "package": "leksah-server",
@@ -694,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ErrorDescr",
           "package": "leksah-server",
@@ -703,6 +764,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ErrorDescr",
           "package": "leksah-server",
@@ -716,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Extension",
           "package": "leksah-server",
@@ -725,6 +788,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Extension",
           "package": "leksah-server",
@@ -738,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ExtensionDescr",
           "package": "leksah-server",
@@ -747,6 +812,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ExtensionDescr",
           "package": "leksah-server",
@@ -760,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Field",
           "package": "leksah-server",
@@ -769,6 +836,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Field",
           "package": "leksah-server",
@@ -782,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "FieldDescr",
           "package": "leksah-server",
@@ -791,6 +860,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "FieldDescr",
           "package": "leksah-server",
@@ -804,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "GenScopeC",
           "package": "leksah-server",
@@ -813,6 +884,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "GenScopeC",
           "package": "leksah-server",
@@ -827,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eT\u003c/code\u003e:\n   the name of a class, datatype or type synonym.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "IAbs",
           "package": "leksah-server",
@@ -837,6 +910,7 @@
         "index": {
           "description": "the name of class datatype or type synonym",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "IAbs",
           "package": "leksah-server",
@@ -851,6 +925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eT(..)\u003c/code\u003e:\n   a class imported with all of its methods, or\n   a datatype imported with all of its constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "IThingAll",
           "package": "leksah-server",
@@ -861,6 +936,7 @@
         "index": {
           "description": "class imported with all of its methods or datatype imported with all of its constructors",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "IThingAll",
           "package": "leksah-server",
@@ -875,6 +951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eT(C_1,...,C_n)\u003c/code\u003e:\n   a class imported with some of its methods, or\n   a datatype imported with some of its constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "IThingWith",
           "package": "leksah-server",
@@ -885,6 +962,7 @@
         "index": {
           "description": "class imported with some of its methods or datatype imported with some of its constructors",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "IThingWith",
           "normalized": "IThingWith String[String]",
@@ -901,6 +979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "IVar",
           "package": "leksah-server",
@@ -911,6 +990,7 @@
         "index": {
           "description": "variable",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "IVar",
           "package": "leksah-server",
@@ -924,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ImportDecl",
           "package": "leksah-server",
@@ -933,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ImportDecl",
           "package": "leksah-server",
@@ -946,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ImportSpecList",
           "package": "leksah-server",
@@ -955,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ImportSpecList",
           "normalized": "ImportSpecList Bool[ImportSpec]",
@@ -970,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Instance",
           "package": "leksah-server",
@@ -979,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Instance",
           "package": "leksah-server",
@@ -993,6 +1079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebinds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "InstanceDescr",
           "package": "leksah-server",
@@ -1003,6 +1090,7 @@
         "index": {
           "description": "binds",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "InstanceDescr",
           "normalized": "InstanceDescr[String]",
@@ -1018,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Keyword",
           "package": "leksah-server",
@@ -1027,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Keyword",
           "package": "leksah-server",
@@ -1040,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "KeywordDescr",
           "package": "leksah-server",
@@ -1049,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "KeywordDescr",
           "package": "leksah-server",
@@ -1062,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Location",
           "package": "leksah-server",
@@ -1071,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Location",
           "package": "leksah-server",
@@ -1084,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Method",
           "package": "leksah-server",
@@ -1093,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Method",
           "package": "leksah-server",
@@ -1107,6 +1203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclassDescr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "MethodDescr",
           "package": "leksah-server",
@@ -1117,6 +1214,7 @@
         "index": {
           "description": "classDescr",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "MethodDescr",
           "package": "leksah-server",
@@ -1130,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ModName",
           "package": "leksah-server",
@@ -1139,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ModName",
           "package": "leksah-server",
@@ -1152,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ModNameDescr",
           "package": "leksah-server",
@@ -1161,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ModNameDescr",
           "package": "leksah-server",
@@ -1174,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ModuleDescr",
           "package": "leksah-server",
@@ -1183,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ModuleDescr",
           "package": "leksah-server",
@@ -1219,6 +1323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Newtype",
           "package": "leksah-server",
@@ -1228,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Newtype",
           "package": "leksah-server",
@@ -1242,6 +1348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efirst constructors, then maybe field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "NewtypeDescr",
           "package": "leksah-server",
@@ -1252,6 +1359,7 @@
         "index": {
           "description": "first constructors then maybe field",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "NewtypeDescr",
           "package": "leksah-server",
@@ -1265,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "PM",
           "package": "leksah-server",
@@ -1274,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "PM",
           "package": "leksah-server",
@@ -1287,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "PackScope",
           "package": "leksah-server",
@@ -1296,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "PackScope",
           "package": "leksah-server",
@@ -1309,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "PackageDescr",
           "package": "leksah-server",
@@ -1318,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "PackageDescr",
           "package": "leksah-server",
@@ -1331,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "PackageScope",
           "package": "leksah-server",
@@ -1340,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "PackageScope",
           "package": "leksah-server",
@@ -1353,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ParseHeaderCommand",
           "package": "leksah-server",
@@ -1362,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ParseHeaderCommand",
           "package": "leksah-server",
@@ -1375,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Present",
           "package": "leksah-server",
@@ -1384,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Present",
           "package": "leksah-server",
@@ -1397,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "QualModName",
           "package": "leksah-server",
@@ -1406,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "QualModName",
           "package": "leksah-server",
@@ -1419,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "QualModNameDescr",
           "package": "leksah-server",
@@ -1428,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "QualModNameDescr",
           "package": "leksah-server",
@@ -1441,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Real",
           "package": "leksah-server",
@@ -1450,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Real",
           "package": "leksah-server",
@@ -1463,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "RealDescr",
           "package": "leksah-server",
@@ -1472,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "RealDescr",
           "package": "leksah-server",
@@ -1485,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Reexported",
           "package": "leksah-server",
@@ -1494,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Reexported",
           "package": "leksah-server",
@@ -1507,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ReexportedDescr",
           "package": "leksah-server",
@@ -1516,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ReexportedDescr",
           "package": "leksah-server",
@@ -1552,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ServerFailed",
           "package": "leksah-server",
@@ -1561,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ServerFailed",
           "package": "leksah-server",
@@ -1574,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ServerHeader",
           "package": "leksah-server",
@@ -1583,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ServerHeader",
           "normalized": "ServerHeader(Either[ImportDecl]Int)",
@@ -1598,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "ServerOK",
           "package": "leksah-server",
@@ -1607,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "ServerOK",
           "package": "leksah-server",
@@ -1620,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "SimpleDescr",
           "package": "leksah-server",
@@ -1629,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "SimpleDescr",
           "package": "leksah-server",
@@ -1642,6 +1782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "SrcSpan",
           "package": "leksah-server",
@@ -1651,6 +1792,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "SrcSpan",
           "package": "leksah-server",
@@ -1664,6 +1806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "SystemCommand",
           "package": "leksah-server",
@@ -1673,6 +1816,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "SystemCommand",
           "package": "leksah-server",
@@ -1686,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "SystemScope",
           "package": "leksah-server",
@@ -1695,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "SystemScope",
           "package": "leksah-server",
@@ -1708,6 +1854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Type",
           "package": "leksah-server",
@@ -1717,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Type",
           "package": "leksah-server",
@@ -1730,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "TypeDescr",
           "package": "leksah-server",
@@ -1739,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "TypeDescr",
           "package": "leksah-server",
@@ -1752,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "Variable",
           "package": "leksah-server",
@@ -1761,6 +1912,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "Variable",
           "package": "leksah-server",
@@ -1774,6 +1926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "VariableDescr",
           "package": "leksah-server",
@@ -1783,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "VariableDescr",
           "package": "leksah-server",
@@ -1796,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "WorkspaceCommand",
           "package": "leksah-server",
@@ -1805,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "WorkspaceCommand",
           "package": "leksah-server",
@@ -1818,6 +1974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "WorkspaceScope",
           "package": "leksah-server",
@@ -1827,6 +1984,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "WorkspaceScope",
           "package": "leksah-server",
@@ -1840,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "configDirName",
           "package": "leksah-server",
@@ -1849,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "configDirName",
           "package": "leksah-server",
@@ -1862,6 +2022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "descrType",
           "package": "leksah-server",
@@ -1871,6 +2032,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "descrType",
           "normalized": "TypeDescr-\u003eDescrType",
@@ -1887,6 +2049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe exporting module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "dsMbModu",
           "package": "leksah-server",
@@ -1897,6 +2060,7 @@
         "index": {
           "description": "The exporting module",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "dsMbModu",
           "normalized": "Descr-\u003eMaybe PackModule",
@@ -1912,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "dscExported",
           "package": "leksah-server",
@@ -1921,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "dscExported",
           "normalized": "Descr-\u003eBool",
@@ -1936,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "dscExported'",
           "package": "leksah-server",
@@ -1945,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "dscExported'",
           "package": "leksah-server",
@@ -1958,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "dscMbComment",
           "package": "leksah-server",
@@ -1967,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "dscMbComment",
           "normalized": "Descr-\u003eMaybe ByteString",
@@ -1982,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "dscMbComment'",
           "package": "leksah-server",
@@ -1991,6 +2162,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "dscMbComment'",
           "package": "leksah-server",
@@ -2004,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "dscMbLocation",
           "package": "leksah-server",
@@ -2013,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "dscMbLocation",
           "normalized": "Descr-\u003eMaybe Location",
@@ -2028,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "dscMbLocation'",
           "package": "leksah-server",
@@ -2037,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "dscMbLocation'",
           "package": "leksah-server",
@@ -2051,6 +2227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe definition module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "dscMbModu",
           "package": "leksah-server",
@@ -2061,6 +2238,7 @@
         "index": {
           "description": "The definition module",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "dscMbModu",
           "normalized": "Descr-\u003eMaybe PackModule",
@@ -2076,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "dscMbModu'",
           "package": "leksah-server",
@@ -2085,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "dscMbModu'",
           "package": "leksah-server",
@@ -2098,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "dscMbTypeStr",
           "package": "leksah-server",
@@ -2107,6 +2288,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "dscMbTypeStr",
           "normalized": "Descr-\u003eMaybe ByteString",
@@ -2122,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "dscMbTypeStr'",
           "package": "leksah-server",
@@ -2131,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "dscMbTypeStr'",
           "package": "leksah-server",
@@ -2144,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "dscName",
           "package": "leksah-server",
@@ -2153,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "dscName",
           "normalized": "Descr-\u003eString",
@@ -2168,6 +2354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "dscName'",
           "package": "leksah-server",
@@ -2177,6 +2364,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "dscName'",
           "package": "leksah-server",
@@ -2190,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "dscTypeHint",
           "package": "leksah-server",
@@ -2199,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "dscTypeHint",
           "normalized": "Descr-\u003eTypeDescr",
@@ -2214,6 +2404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "dscTypeHint'",
           "package": "leksah-server",
@@ -2223,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "dscTypeHint'",
           "package": "leksah-server",
@@ -2236,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "dsrDescr",
           "package": "leksah-server",
@@ -2245,6 +2438,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "dsrDescr",
           "package": "leksah-server",
@@ -2258,6 +2452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "dsrMbModu",
           "package": "leksah-server",
@@ -2267,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "dsrMbModu",
           "package": "leksah-server",
@@ -2280,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "getThisPackage",
           "package": "leksah-server",
@@ -2289,6 +2486,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "getThisPackage",
           "normalized": "PackageConfig-\u003ePackageIdentifier",
@@ -2304,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "hcFilePath",
           "package": "leksah-server",
@@ -2313,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "hcFilePath",
           "package": "leksah-server",
@@ -2327,6 +2527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoptional alias name in an \u003ccode\u003eas\u003c/code\u003e clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "importAs",
           "package": "leksah-server",
@@ -2337,6 +2538,7 @@
         "index": {
           "description": "optional alias name in an as clause",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "importAs",
           "package": "leksah-server",
@@ -2350,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "importLoc",
           "package": "leksah-server",
@@ -2359,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "importLoc",
           "package": "leksah-server",
@@ -2373,6 +2577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename of the module imported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "importModule",
           "package": "leksah-server",
@@ -2383,6 +2588,7 @@
         "index": {
           "description": "name of the module imported",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "importModule",
           "package": "leksah-server",
@@ -2397,6 +2603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimported with explicit package name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "importPkg",
           "package": "leksah-server",
@@ -2407,6 +2614,7 @@
         "index": {
           "description": "imported with explicit package name",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "importPkg",
           "package": "leksah-server",
@@ -2421,6 +2629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimported \u003ccode\u003equalified\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "importQualified",
           "package": "leksah-server",
@@ -2431,6 +2640,7 @@
         "index": {
           "description": "imported qualified",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "importQualified",
           "package": "leksah-server",
@@ -2445,6 +2655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoptional list of import specifications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "importSpecs",
           "package": "leksah-server",
@@ -2455,6 +2666,7 @@
         "index": {
           "description": "optional list of import specifications",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "importSpecs",
           "package": "leksah-server",
@@ -2469,6 +2681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimported with \u003ccode\u003e{-# SOURCE #-}\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "importSrc",
           "package": "leksah-server",
@@ -2479,6 +2692,7 @@
         "index": {
           "description": "imported with SOURCE",
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "importSrc",
           "package": "leksah-server",
@@ -2492,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "isReexported",
           "package": "leksah-server",
@@ -2501,6 +2716,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "isReexported",
           "normalized": "Descr-\u003eBool",
@@ -2516,6 +2732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "leksahVersion",
           "package": "leksah-server",
@@ -2525,6 +2742,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "leksahVersion",
           "package": "leksah-server",
@@ -2538,6 +2756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "locationECol",
           "package": "leksah-server",
@@ -2547,6 +2766,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "locationECol",
           "package": "leksah-server",
@@ -2560,6 +2780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "locationELine",
           "package": "leksah-server",
@@ -2569,6 +2790,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "locationELine",
           "package": "leksah-server",
@@ -2582,6 +2804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "locationSCol",
           "package": "leksah-server",
@@ -2591,6 +2814,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "locationSCol",
           "package": "leksah-server",
@@ -2604,6 +2828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "locationSLine",
           "package": "leksah-server",
@@ -2613,6 +2838,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "locationSLine",
           "package": "leksah-server",
@@ -2626,6 +2852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "mdIdDescriptions",
           "package": "leksah-server",
@@ -2635,6 +2862,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "mdIdDescriptions",
           "normalized": "[Descr]",
@@ -2650,6 +2878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "mdMbSourcePath",
           "package": "leksah-server",
@@ -2659,6 +2888,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "mdMbSourcePath",
           "package": "leksah-server",
@@ -2672,6 +2902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "mdModuleId",
           "package": "leksah-server",
@@ -2681,6 +2912,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "mdModuleId",
           "package": "leksah-server",
@@ -2694,6 +2926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "mdReferences",
           "package": "leksah-server",
@@ -2703,6 +2936,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "mdReferences",
           "package": "leksah-server",
@@ -2716,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "metadataVersion",
           "package": "leksah-server",
@@ -2725,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "metadataVersion",
           "package": "leksah-server",
@@ -2738,6 +2974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "modu",
           "package": "leksah-server",
@@ -2747,6 +2984,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "modu",
           "package": "leksah-server",
@@ -2759,6 +2997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "pack",
           "package": "leksah-server",
@@ -2768,6 +3007,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "pack",
           "package": "leksah-server",
@@ -2780,6 +3020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "packageIdentifierFromString",
           "package": "leksah-server",
@@ -2789,6 +3030,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "packageIdentifierFromString",
           "normalized": "String-\u003eMaybe PackageIdentifier",
@@ -2804,6 +3046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "packageIdentifierToString",
           "package": "leksah-server",
@@ -2813,6 +3056,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "packageIdentifierToString",
           "normalized": "PackageIdentifier-\u003eString",
@@ -2828,6 +3072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "parsePackModule",
           "package": "leksah-server",
@@ -2837,6 +3082,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "parsePackModule",
           "normalized": "String-\u003ePackModule",
@@ -2852,6 +3098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "pdBuildDepends",
           "package": "leksah-server",
@@ -2861,6 +3108,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "pdBuildDepends",
           "normalized": "[PackageIdentifier]",
@@ -2876,6 +3124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "pdMbSourcePath",
           "package": "leksah-server",
@@ -2885,6 +3134,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "pdMbSourcePath",
           "package": "leksah-server",
@@ -2898,6 +3148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "pdModules",
           "package": "leksah-server",
@@ -2907,6 +3158,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "pdModules",
           "normalized": "[ModuleDescr]",
@@ -2922,6 +3174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "pdPackage",
           "package": "leksah-server",
@@ -2931,6 +3184,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "pdPackage",
           "package": "leksah-server",
@@ -2944,6 +3198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "scExtract",
           "package": "leksah-server",
@@ -2953,6 +3208,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "scExtract",
           "package": "leksah-server",
@@ -2966,6 +3222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "scRebuild",
           "package": "leksah-server",
@@ -2975,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "scRebuild",
           "package": "leksah-server",
@@ -2988,6 +3246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "scSources",
           "package": "leksah-server",
@@ -2997,6 +3256,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "scSources",
           "package": "leksah-server",
@@ -3010,6 +3270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "sdComment",
           "package": "leksah-server",
@@ -3019,6 +3280,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "sdComment",
           "package": "leksah-server",
@@ -3032,6 +3294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "sdExported",
           "package": "leksah-server",
@@ -3041,6 +3304,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "sdExported",
           "package": "leksah-server",
@@ -3054,6 +3318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "sdLocation",
           "package": "leksah-server",
@@ -3063,6 +3328,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "sdLocation",
           "package": "leksah-server",
@@ -3076,6 +3342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "sdName",
           "package": "leksah-server",
@@ -3085,6 +3352,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "sdName",
           "package": "leksah-server",
@@ -3098,6 +3366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "sdType",
           "package": "leksah-server",
@@ -3107,6 +3376,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "sdType",
           "package": "leksah-server",
@@ -3120,6 +3390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "showPackModule",
           "package": "leksah-server",
@@ -3129,6 +3400,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "showPackModule",
           "normalized": "PackModule-\u003eString",
@@ -3144,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "srcSpanEndColumn",
           "package": "leksah-server",
@@ -3153,6 +3426,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "srcSpanEndColumn",
           "package": "leksah-server",
@@ -3166,6 +3440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "srcSpanEndLine",
           "package": "leksah-server",
@@ -3175,6 +3450,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "srcSpanEndLine",
           "package": "leksah-server",
@@ -3188,6 +3464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "srcSpanFilename",
           "package": "leksah-server",
@@ -3197,6 +3474,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "srcSpanFilename",
           "package": "leksah-server",
@@ -3210,6 +3488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "srcSpanStartColumn",
           "package": "leksah-server",
@@ -3219,6 +3498,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "srcSpanStartColumn",
           "package": "leksah-server",
@@ -3232,6 +3512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "srcSpanStartLine",
           "package": "leksah-server",
@@ -3241,6 +3522,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "srcSpanStartLine",
           "package": "leksah-server",
@@ -3254,6 +3536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "symElems",
           "package": "leksah-server",
@@ -3263,6 +3546,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "symElems",
           "normalized": "a-\u003e[[Descr]]",
@@ -3278,6 +3562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "symEmpty",
           "package": "leksah-server",
@@ -3287,6 +3572,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "symEmpty",
           "package": "leksah-server",
@@ -3300,6 +3586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "symInsert",
           "package": "leksah-server",
@@ -3309,6 +3596,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "symInsert",
           "normalized": "String-\u003e[Descr]-\u003ea-\u003ea",
@@ -3324,6 +3612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "symLookup",
           "package": "leksah-server",
@@ -3333,6 +3622,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "symLookup",
           "normalized": "String-\u003ea-\u003e[Descr]",
@@ -3348,6 +3638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "symSplitLookup",
           "package": "leksah-server",
@@ -3357,6 +3648,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "symSplitLookup",
           "normalized": "String-\u003ea-\u003e(a,Maybe[Descr],a)",
@@ -3372,6 +3664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "symUnion",
           "package": "leksah-server",
@@ -3381,6 +3674,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "symUnion",
           "normalized": "a-\u003ea-\u003ea",
@@ -3396,6 +3690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "symbols",
           "package": "leksah-server",
@@ -3405,6 +3700,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "symbols",
           "normalized": "a-\u003eSet String",
@@ -3419,6 +3715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "wcModList",
           "package": "leksah-server",
@@ -3428,6 +3725,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "wcModList",
           "normalized": "[(String,FilePath)]",
@@ -3443,6 +3741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "wcPackage",
           "package": "leksah-server",
@@ -3452,6 +3751,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "wcPackage",
           "package": "leksah-server",
@@ -3465,6 +3765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "wcPath",
           "package": "leksah-server",
@@ -3474,6 +3775,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "wcPath",
           "package": "leksah-server",
@@ -3487,6 +3789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.CTypes",
           "name": "wcRebuild",
           "package": "leksah-server",
@@ -3496,6 +3799,7 @@
         },
         "index": {
           "hierarchy": "IDE Core CTypes",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.CTypes",
           "name": "wcRebuild",
           "package": "leksah-server",
@@ -3509,6 +3813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Core.Serializable",
           "name": "Serializable",
           "package": "leksah-server",
@@ -3517,6 +3822,7 @@
         },
         "index": {
           "hierarchy": "IDE Core Serializable",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Core.Serializable",
           "name": "Serializable",
           "package": "leksah-server",
@@ -3530,6 +3836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Metainfo.PackageCollector",
           "name": "PackageCollector",
           "package": "leksah-server",
@@ -3538,6 +3845,7 @@
         },
         "index": {
           "hierarchy": "IDE Metainfo PackageCollector",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Metainfo.PackageCollector",
           "name": "PackageCollector",
           "package": "leksah-server",
@@ -3551,6 +3859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Metainfo.PackageCollector",
           "name": "collectPackage",
           "package": "leksah-server",
@@ -3560,6 +3869,7 @@
         },
         "index": {
           "hierarchy": "IDE Metainfo PackageCollector",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Metainfo.PackageCollector",
           "name": "collectPackage",
           "normalized": "Bool-\u003ePrefs-\u003eInt-\u003e(PackageConfig,Int)-\u003eIO PackageCollectStats",
@@ -3575,6 +3885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.StrippedPrefs",
           "name": "StrippedPrefs",
           "package": "leksah-server",
@@ -3583,6 +3894,7 @@
         },
         "index": {
           "hierarchy": "IDE StrippedPrefs",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.StrippedPrefs",
           "name": "StrippedPrefs",
           "package": "leksah-server",
@@ -3597,6 +3909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePreferences is a data structure to hold configuration data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.StrippedPrefs",
           "name": "Prefs",
           "package": "leksah-server",
@@ -3606,6 +3919,7 @@
         "index": {
           "description": "Preferences is data structure to hold configuration data",
           "hierarchy": "IDE StrippedPrefs",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.StrippedPrefs",
           "name": "Prefs",
           "package": "leksah-server",
@@ -3619,6 +3933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.StrippedPrefs",
           "name": "RetrieveStrategy",
           "package": "leksah-server",
@@ -3627,6 +3942,7 @@
         },
         "index": {
           "hierarchy": "IDE StrippedPrefs",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.StrippedPrefs",
           "name": "RetrieveStrategy",
           "package": "leksah-server",
@@ -3640,6 +3956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.StrippedPrefs",
           "name": "Prefs",
           "package": "leksah-server",
@@ -3649,6 +3966,7 @@
         },
         "index": {
           "hierarchy": "IDE StrippedPrefs",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.StrippedPrefs",
           "name": "Prefs",
           "package": "leksah-server",
@@ -3662,6 +3980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.StrippedPrefs",
           "name": "endWithLastConn",
           "package": "leksah-server",
@@ -3671,6 +3990,7 @@
         },
         "index": {
           "hierarchy": "IDE StrippedPrefs",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.StrippedPrefs",
           "name": "endWithLastConn",
           "package": "leksah-server",
@@ -3684,6 +4004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.StrippedPrefs",
           "name": "getSourceDirectories",
           "package": "leksah-server",
@@ -3693,6 +4014,7 @@
         },
         "index": {
           "hierarchy": "IDE StrippedPrefs",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.StrippedPrefs",
           "name": "getSourceDirectories",
           "normalized": "Prefs-\u003eIO[FilePath]",
@@ -3708,6 +4030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.StrippedPrefs",
           "name": "getUnpackDirectory",
           "package": "leksah-server",
@@ -3717,6 +4040,7 @@
         },
         "index": {
           "hierarchy": "IDE StrippedPrefs",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.StrippedPrefs",
           "name": "getUnpackDirectory",
           "normalized": "Prefs-\u003eIO(Maybe FilePath)",
@@ -3732,6 +4056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.StrippedPrefs",
           "name": "readStrippedPrefs",
           "package": "leksah-server",
@@ -3741,6 +4066,7 @@
         },
         "index": {
           "hierarchy": "IDE StrippedPrefs",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.StrippedPrefs",
           "name": "readStrippedPrefs",
           "normalized": "FilePath-\u003eIO Prefs",
@@ -3756,6 +4082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.StrippedPrefs",
           "name": "retrieveStrategy",
           "package": "leksah-server",
@@ -3765,6 +4092,7 @@
         },
         "index": {
           "hierarchy": "IDE StrippedPrefs",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.StrippedPrefs",
           "name": "retrieveStrategy",
           "package": "leksah-server",
@@ -3778,6 +4106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.StrippedPrefs",
           "name": "retrieveURL",
           "package": "leksah-server",
@@ -3787,6 +4116,7 @@
         },
         "index": {
           "hierarchy": "IDE StrippedPrefs",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.StrippedPrefs",
           "name": "retrieveURL",
           "package": "leksah-server",
@@ -3800,6 +4130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.StrippedPrefs",
           "name": "serverPort",
           "package": "leksah-server",
@@ -3809,6 +4140,7 @@
         },
         "index": {
           "hierarchy": "IDE StrippedPrefs",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.StrippedPrefs",
           "name": "serverPort",
           "package": "leksah-server",
@@ -3822,6 +4154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.StrippedPrefs",
           "name": "sourceDirectories",
           "package": "leksah-server",
@@ -3831,6 +4164,7 @@
         },
         "index": {
           "hierarchy": "IDE StrippedPrefs",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.StrippedPrefs",
           "name": "sourceDirectories",
           "normalized": "[FilePath]",
@@ -3846,6 +4180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.StrippedPrefs",
           "name": "unpackDirectory",
           "package": "leksah-server",
@@ -3855,6 +4190,7 @@
         },
         "index": {
           "hierarchy": "IDE StrippedPrefs",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.StrippedPrefs",
           "name": "unpackDirectory",
           "package": "leksah-server",
@@ -3868,6 +4204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.StrippedPrefs",
           "name": "writeStrippedPrefs",
           "package": "leksah-server",
@@ -3877,6 +4214,7 @@
         },
         "index": {
           "hierarchy": "IDE StrippedPrefs",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.StrippedPrefs",
           "name": "writeStrippedPrefs",
           "normalized": "FilePath-\u003ePrefs-\u003eIO()",
@@ -3892,6 +4230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "FileUtils",
           "package": "leksah-server",
@@ -3900,6 +4239,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "FileUtils",
           "package": "leksah-server",
@@ -3913,6 +4253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "allCabalFiles",
           "package": "leksah-server",
@@ -3922,6 +4263,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "allCabalFiles",
           "normalized": "FilePath-\u003eIO[FilePath]",
@@ -3937,6 +4279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "allFilesWithExtensions",
           "package": "leksah-server",
@@ -3946,6 +4289,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "allFilesWithExtensions",
           "normalized": "[String]-\u003eBool-\u003e[FilePath]-\u003eFilePath-\u003eIO[FilePath]",
@@ -3961,6 +4305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "allHaskellSourceFiles",
           "package": "leksah-server",
@@ -3970,6 +4315,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "allHaskellSourceFiles",
           "normalized": "FilePath-\u003eIO[FilePath]",
@@ -3985,6 +4331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "allHiFiles",
           "package": "leksah-server",
@@ -3994,6 +4341,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "allHiFiles",
           "normalized": "FilePath-\u003eIO[FilePath]",
@@ -4009,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "allModules",
           "package": "leksah-server",
@@ -4018,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "allModules",
           "normalized": "FilePath-\u003eIO[ModuleName]",
@@ -4033,6 +4383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "autoExtractCabalTarFiles",
           "package": "leksah-server",
@@ -4042,6 +4393,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "autoExtractCabalTarFiles",
           "normalized": "FilePath-\u003eIO()",
@@ -4057,6 +4409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "autoExtractTarFiles",
           "package": "leksah-server",
@@ -4066,6 +4419,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "autoExtractTarFiles",
           "normalized": "FilePath-\u003eIO()",
@@ -4081,6 +4435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "cabalFileName",
           "package": "leksah-server",
@@ -4090,6 +4445,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "cabalFileName",
           "normalized": "FilePath-\u003eIO(Maybe FilePath)",
@@ -4105,6 +4461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "figureOutGhcOpts",
           "package": "leksah-server",
@@ -4114,6 +4471,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "figureOutGhcOpts",
           "normalized": "IO[String]",
@@ -4129,6 +4487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "figureOutHaddockOpts",
           "package": "leksah-server",
@@ -4138,6 +4497,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "figureOutHaddockOpts",
           "normalized": "IO[String]",
@@ -4153,6 +4513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "findKnownPackages",
           "package": "leksah-server",
@@ -4162,6 +4523,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "findKnownPackages",
           "normalized": "FilePath-\u003eIO(Set String)",
@@ -4177,6 +4539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "findSourceFile",
           "package": "leksah-server",
@@ -4186,6 +4549,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "findSourceFile",
           "normalized": "[FilePath]-\u003e[String]-\u003eModuleName-\u003eIO(Maybe FilePath)",
@@ -4201,6 +4565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "findSourceFile'",
           "package": "leksah-server",
@@ -4210,6 +4575,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "findSourceFile'",
           "normalized": "[FilePath]-\u003eString-\u003eIO(Maybe FilePath)",
@@ -4225,6 +4591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "getCabalUserPackageDir",
           "package": "leksah-server",
@@ -4234,6 +4601,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "getCabalUserPackageDir",
           "package": "leksah-server",
@@ -4247,6 +4615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "getCollectorPath",
           "package": "leksah-server",
@@ -4256,6 +4625,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "getCollectorPath",
           "package": "leksah-server",
@@ -4270,6 +4640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe directory where config files reside\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "getConfigDir",
           "package": "leksah-server",
@@ -4280,6 +4651,7 @@
         "index": {
           "description": "The directory where config files reside",
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "getConfigDir",
           "package": "leksah-server",
@@ -4293,6 +4665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "getConfigFilePathForLoad",
           "package": "leksah-server",
@@ -4302,6 +4675,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "getConfigFilePathForLoad",
           "normalized": "String-\u003eMaybe FilePath-\u003eFilePath-\u003eIO FilePath",
@@ -4317,6 +4691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "getConfigFilePathForSave",
           "package": "leksah-server",
@@ -4326,6 +4701,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "getConfigFilePathForSave",
           "normalized": "String-\u003eIO FilePath",
@@ -4341,6 +4717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "getInstalledPackageIds",
           "package": "leksah-server",
@@ -4350,6 +4727,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "getInstalledPackageIds",
           "normalized": "IO[PackageIdentifier]",
@@ -4365,6 +4743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "getSysLibDir",
           "package": "leksah-server",
@@ -4374,6 +4753,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "getSysLibDir",
           "package": "leksah-server",
@@ -4387,6 +4767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "hasSavedConfigFile",
           "package": "leksah-server",
@@ -4396,6 +4777,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "hasSavedConfigFile",
           "normalized": "String-\u003eIO Bool",
@@ -4411,6 +4793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "haskellSrcExts",
           "package": "leksah-server",
@@ -4420,6 +4803,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "haskellSrcExts",
           "normalized": "[String]",
@@ -4435,6 +4819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "isEmptyDirectory",
           "package": "leksah-server",
@@ -4444,6 +4829,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "isEmptyDirectory",
           "normalized": "FilePath-\u003eIO Bool",
@@ -4460,6 +4846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the second path is a location which starts with the first path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "isSubPath",
           "package": "leksah-server",
@@ -4470,6 +4857,7 @@
         "index": {
           "description": "Returns True if the second path is location which starts with the first path",
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "isSubPath",
           "normalized": "FilePath-\u003eFilePath-\u003eBool",
@@ -4485,6 +4873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "moduleNameFromFilePath",
           "package": "leksah-server",
@@ -4494,6 +4883,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "moduleNameFromFilePath",
           "normalized": "FilePath-\u003eIO(Maybe String)",
@@ -4509,6 +4899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "moduleNameFromFilePath'",
           "package": "leksah-server",
@@ -4518,6 +4909,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "moduleNameFromFilePath'",
           "normalized": "FilePath-\u003eString-\u003eIO(Maybe String)",
@@ -4534,6 +4926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecanonicalizePath without crashing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.FileUtils",
           "name": "myCanonicalizePath",
           "package": "leksah-server",
@@ -4544,6 +4937,7 @@
         "index": {
           "description": "canonicalizePath without crashing",
           "hierarchy": "IDE Utils FileUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.FileUtils",
           "name": "myCanonicalizePath",
           "normalized": "String-\u003eIO String",
@@ -4559,6 +4953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.GHCUtils",
           "name": "GHCUtils",
           "package": "leksah-server",
@@ -4567,6 +4962,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils GHCUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.GHCUtils",
           "name": "GHCUtils",
           "package": "leksah-server",
@@ -4580,6 +4976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.GHCUtils",
           "name": "findFittingPackages",
           "package": "leksah-server",
@@ -4589,6 +4986,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils GHCUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.GHCUtils",
           "name": "findFittingPackages",
           "normalized": "[Dependency]-\u003eGhc[PackageIdentifier]",
@@ -4604,6 +5002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.GHCUtils",
           "name": "getInstalledPackageInfos",
           "package": "leksah-server",
@@ -4613,6 +5012,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils GHCUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.GHCUtils",
           "name": "getInstalledPackageInfos",
           "normalized": "Ghc[PackageConfig]",
@@ -4628,6 +5028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.GHCUtils",
           "name": "inGhcIO",
           "package": "leksah-server",
@@ -4637,6 +5038,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils GHCUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.GHCUtils",
           "name": "inGhcIO",
           "normalized": "[String]-\u003e[DynFlag]-\u003e(DynFlags-\u003eGhc a)-\u003eIO a",
@@ -4652,6 +5054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.GHCUtils",
           "name": "myParseHeader",
           "package": "leksah-server",
@@ -4661,6 +5064,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils GHCUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.GHCUtils",
           "name": "myParseHeader",
           "normalized": "FilePath-\u003eString-\u003e[String]-\u003eIO(Either String(HsModule RdrName))",
@@ -4676,6 +5080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.GHCUtils",
           "name": "myParseModule",
           "package": "leksah-server",
@@ -4685,6 +5090,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils GHCUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.GHCUtils",
           "name": "myParseModule",
           "normalized": "DynFlags-\u003eFilePath-\u003eMaybe StringBuffer-\u003eIO(Either ErrMsg(Located(HsModule RdrName)))",
@@ -4700,6 +5106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Server",
           "name": "Server",
           "package": "leksah-server",
@@ -4708,6 +5115,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Server",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Server",
           "name": "Server",
           "package": "leksah-server",
@@ -4722,6 +5130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe specification of a serving process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Server",
           "name": "Server",
           "package": "leksah-server",
@@ -4731,6 +5140,7 @@
         "index": {
           "description": "the specification of serving process",
           "hierarchy": "IDE Utils Server",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Server",
           "name": "Server",
           "package": "leksah-server",
@@ -4745,6 +5155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe functionality of a server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Server",
           "name": "ServerRoutine",
           "package": "leksah-server",
@@ -4754,6 +5165,7 @@
         "index": {
           "description": "the functionality of server",
           "hierarchy": "IDE Utils Server",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Server",
           "name": "ServerRoutine",
           "package": "leksah-server",
@@ -4767,6 +5179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Server",
           "name": "UserAndGroup",
           "package": "leksah-server",
@@ -4775,6 +5188,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Server",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Server",
           "name": "UserAndGroup",
           "package": "leksah-server",
@@ -4788,6 +5202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Server",
           "name": "WaitFor",
           "package": "leksah-server",
@@ -4796,6 +5211,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Server",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Server",
           "name": "WaitFor",
           "package": "leksah-server",
@@ -4809,6 +5225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Server",
           "name": "Server",
           "package": "leksah-server",
@@ -4818,6 +5235,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Server",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Server",
           "name": "Server",
           "package": "leksah-server",
@@ -4831,6 +5249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Server",
           "name": "UserAndGroup",
           "package": "leksah-server",
@@ -4840,6 +5259,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Server",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Server",
           "name": "UserAndGroup",
           "package": "leksah-server",
@@ -4853,6 +5273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Server",
           "name": "UserWithDefaultGroup",
           "package": "leksah-server",
@@ -4862,6 +5283,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Server",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Server",
           "name": "UserWithDefaultGroup",
           "package": "leksah-server",
@@ -4876,6 +5298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake an IP Address: (127,0,0,1) is the localhost\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Server",
           "name": "ipAddress",
           "package": "leksah-server",
@@ -4886,6 +5309,7 @@
         "index": {
           "description": "make an IP Address is the localhost",
           "hierarchy": "IDE Utils Server",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Server",
           "name": "ipAddress",
           "normalized": "(Word,Word,Word,Word)-\u003eHostAddress",
@@ -4901,6 +5325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Server",
           "name": "serveMany",
           "package": "leksah-server",
@@ -4910,6 +5335,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Server",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Server",
           "name": "serveMany",
           "normalized": "Maybe UserAndGroup-\u003e[Server]-\u003eIO[(ThreadId,MVar())]",
@@ -4925,6 +5351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Server",
           "name": "serveOne",
           "package": "leksah-server",
@@ -4934,6 +5361,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Server",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Server",
           "name": "serveOne",
           "normalized": "Maybe UserAndGroup-\u003eServer-\u003eIO(ThreadId,MVar())",
@@ -4949,6 +5377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Server",
           "name": "serverAddr",
           "package": "leksah-server",
@@ -4958,6 +5387,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Server",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Server",
           "name": "serverAddr",
           "package": "leksah-server",
@@ -4971,6 +5401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Server",
           "name": "serverRoutine",
           "package": "leksah-server",
@@ -4980,6 +5411,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Server",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Server",
           "name": "serverRoutine",
           "package": "leksah-server",
@@ -4993,6 +5425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Server",
           "name": "serverTyp",
           "package": "leksah-server",
@@ -5002,6 +5435,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Server",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Server",
           "name": "serverTyp",
           "package": "leksah-server",
@@ -5015,6 +5449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Server",
           "name": "waitFor",
           "package": "leksah-server",
@@ -5024,6 +5459,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Server",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Server",
           "name": "waitFor",
           "normalized": "a-\u003eIO()",
@@ -5040,6 +5476,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for running external tools.  Written mainly for GHCi but with\n | support for others in mind.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "Tool",
           "package": "leksah-server",
@@ -5049,6 +5486,7 @@
         "index": {
           "description": "Support for running external tools Written mainly for GHCi but with support for others in mind",
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "Tool",
           "package": "leksah-server",
@@ -5062,6 +5500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "ProcessHandle",
           "package": "leksah-server",
@@ -5069,6 +5508,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "ProcessHandle",
           "package": "leksah-server",
@@ -5082,6 +5522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "ToolCommand",
           "package": "leksah-server",
@@ -5090,6 +5531,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "ToolCommand",
           "package": "leksah-server",
@@ -5103,6 +5545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "ToolOutput",
           "package": "leksah-server",
@@ -5111,6 +5554,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "ToolOutput",
           "package": "leksah-server",
@@ -5124,6 +5568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "ToolState",
           "package": "leksah-server",
@@ -5132,6 +5577,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "ToolState",
           "package": "leksah-server",
@@ -5145,6 +5591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "ToolCommand",
           "package": "leksah-server",
@@ -5154,6 +5601,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "ToolCommand",
           "normalized": "ToolCommand String String(Iteratee ToolOutput IO())",
@@ -5169,6 +5617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "ToolError",
           "package": "leksah-server",
@@ -5178,6 +5627,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "ToolError",
           "package": "leksah-server",
@@ -5191,6 +5641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "ToolExit",
           "package": "leksah-server",
@@ -5200,6 +5651,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "ToolExit",
           "package": "leksah-server",
@@ -5213,6 +5665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "ToolInput",
           "package": "leksah-server",
@@ -5222,6 +5675,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "ToolInput",
           "package": "leksah-server",
@@ -5235,6 +5689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "ToolOutput",
           "package": "leksah-server",
@@ -5244,6 +5699,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "ToolOutput",
           "package": "leksah-server",
@@ -5257,6 +5713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "ToolPrompt",
           "package": "leksah-server",
@@ -5266,6 +5723,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "ToolPrompt",
           "package": "leksah-server",
@@ -5279,6 +5737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "ToolState",
           "package": "leksah-server",
@@ -5288,6 +5747,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "ToolState",
           "package": "leksah-server",
@@ -5301,6 +5761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "currentToolCommand",
           "package": "leksah-server",
@@ -5310,6 +5771,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "currentToolCommand",
           "package": "leksah-server",
@@ -5323,6 +5785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "escapeQuotes",
           "package": "leksah-server",
@@ -5332,6 +5795,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "escapeQuotes",
           "normalized": "String-\u003eString",
@@ -5347,6 +5811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "executeCommand",
           "package": "leksah-server",
@@ -5356,6 +5821,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "executeCommand",
           "normalized": "ToolState-\u003eString-\u003eString-\u003eIteratee ToolOutput IO()-\u003eIO()",
@@ -5371,6 +5837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "executeGhciCommand",
           "package": "leksah-server",
@@ -5380,6 +5847,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "executeGhciCommand",
           "normalized": "ToolState-\u003eString-\u003eIteratee ToolOutput IO()-\u003eIO()",
@@ -5396,6 +5864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a non-blocking version of \u003ccode\u003e\u003ca\u003ewaitForProcess\u003c/a\u003e\u003c/code\u003e.  If the process is\nstill running, \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is returned.  If the process has exited, then\n\u003ccode\u003e\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e e\u003c/code\u003e is returned where \u003ccode\u003ee\u003c/code\u003e is the exit code of the process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "getProcessExitCode",
           "package": "leksah-server",
@@ -5405,6 +5874,7 @@
         "index": {
           "description": "This is non-blocking version of waitForProcess If the process is still running Nothing is returned If the process has exited then Just is returned where is the exit code of the process",
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "getProcessExitCode",
           "normalized": "ProcessHandle-\u003eIO(Maybe ExitCode)",
@@ -5421,6 +5891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends an interrupt signal to the process group of the given process.\n\u003c/p\u003e\u003cp\u003eOn Unix systems, it sends the group the SIGINT signal.\n\u003c/p\u003e\u003cp\u003eOn Windows systems, it generates a CTRL_BREAK_EVENT and will only work for\n processes created using \u003ccode\u003e\u003ca\u003ecreateProcess\u003c/a\u003e\u003c/code\u003e and setting the \u003ccode\u003e\u003ca\u003ecreate_group\u003c/a\u003e\u003c/code\u003e flag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "interruptProcessGroupOf",
           "package": "leksah-server",
@@ -5430,6 +5901,7 @@
         "index": {
           "description": "Sends an interrupt signal to the process group of the given process On Unix systems it sends the group the SIGINT signal On Windows systems it generates CTRL BREAK EVENT and will only work for processes created using createProcess and setting the create group flag",
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "interruptProcessGroupOf",
           "normalized": "ProcessHandle-\u003eIO()",
@@ -5445,6 +5917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "newGhci",
           "package": "leksah-server",
@@ -5454,6 +5927,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "newGhci",
           "normalized": "[String]-\u003e[String]-\u003eIteratee ToolOutput IO()-\u003eIO ToolState",
@@ -5469,6 +5943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "newGhci'",
           "package": "leksah-server",
@@ -5478,6 +5953,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "newGhci'",
           "normalized": "[String]-\u003eIteratee ToolOutput IO()-\u003eIO ToolState",
@@ -5493,6 +5969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "newToolState",
           "package": "leksah-server",
@@ -5502,6 +5979,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "newToolState",
           "package": "leksah-server",
@@ -5515,6 +5993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "outputClosed",
           "package": "leksah-server",
@@ -5524,6 +6003,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "outputClosed",
           "package": "leksah-server",
@@ -5537,6 +6017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "quoteArg",
           "package": "leksah-server",
@@ -5546,6 +6027,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "quoteArg",
           "normalized": "String-\u003eString",
@@ -5562,6 +6044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a command using the shell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "runCommand",
           "package": "leksah-server",
@@ -5571,6 +6054,7 @@
         "index": {
           "description": "Runs command using the shell",
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "runCommand",
           "normalized": "String-\u003eIO ProcessHandle",
@@ -5587,6 +6071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a raw command, and returns \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003es that may be used to communicate\n     with the process via its \u003ccode\u003estdin\u003c/code\u003e, \u003ccode\u003estdout\u003c/code\u003e and \u003ccode\u003estderr\u003c/code\u003e respectively.\n\u003c/p\u003e\u003cp\u003eFor example, to start a process and feed a string to its stdin:\n\u003c/p\u003e\u003cpre\u003e   (inp,out,err,pid) \u003c- runInteractiveProcess \"...\"\n   forkIO (hPutStr inp str)\n\u003c/pre\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003es are initially in binary mode; if you need them to be\n    in text mode then use \u003ccode\u003e\u003ca\u003ehSetBinaryMode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "runInteractiveProcess",
           "package": "leksah-server",
@@ -5596,6 +6081,7 @@
         "index": {
           "description": "Runs raw command and returns Handle that may be used to communicate with the process via its stdin stdout and stderr respectively For example to start process and feed string to its stdin inp out err pid runInteractiveProcess forkIO hPutStr inp str The Handle are initially in binary mode if you need them to be in text mode then use hSetBinaryMode",
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "runInteractiveProcess",
           "normalized": "FilePath-\u003e[String]-\u003eMaybe FilePath-\u003eMaybe[(String,String)]-\u003eIO(Handle,Handle,Handle,ProcessHandle)",
@@ -5611,6 +6097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "runInteractiveTool",
           "package": "leksah-server",
@@ -5620,6 +6107,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "runInteractiveTool",
           "normalized": "ToolState-\u003eCommandLineReader-\u003eFilePath-\u003e[String]-\u003eIO()",
@@ -5636,6 +6124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a raw command, optionally specifying \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003es from which to\n     take the \u003ccode\u003estdin\u003c/code\u003e, \u003ccode\u003estdout\u003c/code\u003e and \u003ccode\u003estderr\u003c/code\u003e channels for the new\n     process (otherwise these handles are inherited from the current\n     process).\n\u003c/p\u003e\u003cp\u003eAny \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003es passed to \u003ccode\u003e\u003ca\u003erunProcess\u003c/a\u003e\u003c/code\u003e are placed immediately in the \n     closed state.\n\u003c/p\u003e\u003cp\u003eNote: consider using the more general \u003ccode\u003e\u003ca\u003ecreateProcess\u003c/a\u003e\u003c/code\u003e instead of\n     \u003ccode\u003e\u003ca\u003erunProcess\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "runProcess",
           "package": "leksah-server",
@@ -5645,6 +6134,7 @@
         "index": {
           "description": "Runs raw command optionally specifying Handle from which to take the stdin stdout and stderr channels for the new process otherwise these handles are inherited from the current process Any Handle passed to runProcess are placed immediately in the closed state Note consider using the more general createProcess instead of runProcess",
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "runProcess",
           "normalized": "FilePath-\u003e[String]-\u003eMaybe FilePath-\u003eMaybe[(String,String)]-\u003eMaybe Handle-\u003eMaybe Handle-\u003eMaybe Handle-\u003eIO ProcessHandle",
@@ -5660,6 +6150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "runTool",
           "package": "leksah-server",
@@ -5669,6 +6160,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "runTool",
           "normalized": "FilePath-\u003e[String]-\u003eMaybe FilePath-\u003eIO(Enumerator ToolOutput a b,ProcessHandle)",
@@ -5684,6 +6176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "runTool'",
           "package": "leksah-server",
@@ -5693,6 +6186,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "runTool'",
           "normalized": "FilePath-\u003e[String]-\u003eMaybe FilePath-\u003eIO([ToolOutput],ProcessHandle)",
@@ -5708,6 +6202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "toolCommands",
           "package": "leksah-server",
@@ -5717,6 +6212,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "toolCommands",
           "package": "leksah-server",
@@ -5730,6 +6226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "toolCommandsRead",
           "package": "leksah-server",
@@ -5739,6 +6236,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "toolCommandsRead",
           "package": "leksah-server",
@@ -5752,6 +6250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "toolProcess",
           "package": "leksah-server",
@@ -5761,6 +6260,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "toolProcess",
           "normalized": "ToolState-\u003eIO ProcessHandle",
@@ -5776,6 +6276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "toolProcessMVar",
           "package": "leksah-server",
@@ -5785,6 +6286,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "toolProcessMVar",
           "package": "leksah-server",
@@ -5798,6 +6300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "toolline",
           "package": "leksah-server",
@@ -5807,6 +6310,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "toolline",
           "normalized": "ToolOutput-\u003eString",
@@ -5822,6 +6326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWaits for the specified process to terminate, and returns its exit code.\n\u003c/p\u003e\u003cp\u003eGHC Note: in order to call \u003ccode\u003ewaitForProcess\u003c/code\u003e without blocking all the\n     other threads in the system, you must compile the program with\n     \u003ccode\u003e-threaded\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Tool",
           "name": "waitForProcess",
           "package": "leksah-server",
@@ -5831,6 +6336,7 @@
         "index": {
           "description": "Waits for the specified process to terminate and returns its exit code GHC Note in order to call waitForProcess without blocking all the other threads in the system you must compile the program with threaded",
           "hierarchy": "IDE Utils Tool",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Tool",
           "name": "waitForProcess",
           "normalized": "ProcessHandle-\u003eIO ExitCode",
@@ -5846,6 +6352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "Utils",
           "package": "leksah-server",
@@ -5854,6 +6361,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "Utils",
           "package": "leksah-server",
@@ -5867,6 +6375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "emptySessionFilename",
           "package": "leksah-server",
@@ -5876,6 +6385,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "emptySessionFilename",
           "normalized": "[Char]",
@@ -5891,6 +6401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "leksahCandyFileExtension",
           "package": "leksah-server",
@@ -5900,6 +6411,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "leksahCandyFileExtension",
           "normalized": "[Char]",
@@ -5915,6 +6427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "leksahFlagFileExtension",
           "package": "leksah-server",
@@ -5924,6 +6437,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "leksahFlagFileExtension",
           "normalized": "[Char]",
@@ -5939,6 +6453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "leksahKeymapFileExtension",
           "package": "leksah-server",
@@ -5948,6 +6463,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "leksahKeymapFileExtension",
           "normalized": "[Char]",
@@ -5963,6 +6479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "leksahMetadataDebugExtension",
           "package": "leksah-server",
@@ -5972,6 +6489,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "leksahMetadataDebugExtension",
           "normalized": "[Char]",
@@ -5987,6 +6505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "leksahMetadataPathFileExtension",
           "package": "leksah-server",
@@ -5996,6 +6515,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "leksahMetadataPathFileExtension",
           "normalized": "[Char]",
@@ -6011,6 +6531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "leksahMetadataSystemFileExtension",
           "package": "leksah-server",
@@ -6020,6 +6541,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "leksahMetadataSystemFileExtension",
           "normalized": "[Char]",
@@ -6035,6 +6557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "leksahMetadataWorkspaceFileExtension",
           "package": "leksah-server",
@@ -6044,6 +6567,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "leksahMetadataWorkspaceFileExtension",
           "normalized": "[Char]",
@@ -6059,6 +6583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "leksahPreferencesFileExtension",
           "package": "leksah-server",
@@ -6068,6 +6593,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "leksahPreferencesFileExtension",
           "normalized": "[Char]",
@@ -6083,6 +6609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "leksahSessionFileExtension",
           "package": "leksah-server",
@@ -6092,6 +6619,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "leksahSessionFileExtension",
           "normalized": "[Char]",
@@ -6107,6 +6635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "leksahSourcesFileExtension",
           "package": "leksah-server",
@@ -6116,6 +6645,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "leksahSourcesFileExtension",
           "normalized": "[Char]",
@@ -6131,6 +6661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "leksahTemplateFileExtension",
           "package": "leksah-server",
@@ -6140,6 +6671,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "leksahTemplateFileExtension",
           "normalized": "[Char]",
@@ -6155,6 +6687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "leksahWorkspaceFileExtension",
           "package": "leksah-server",
@@ -6164,6 +6697,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "leksahWorkspaceFileExtension",
           "normalized": "[Char]",
@@ -6179,6 +6713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "packageSessionFilename",
           "package": "leksah-server",
@@ -6188,6 +6723,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "packageSessionFilename",
           "normalized": "[Char]",
@@ -6203,6 +6739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "standardCandyFilename",
           "package": "leksah-server",
@@ -6212,6 +6749,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "standardCandyFilename",
           "normalized": "[Char]",
@@ -6227,6 +6765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "standardKeymapFilename",
           "package": "leksah-server",
@@ -6236,6 +6775,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "standardKeymapFilename",
           "normalized": "[Char]",
@@ -6251,6 +6791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "standardModuleTemplateFilename",
           "package": "leksah-server",
@@ -6260,6 +6801,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "standardModuleTemplateFilename",
           "normalized": "[Char]",
@@ -6275,6 +6817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "standardPreferencesFilename",
           "package": "leksah-server",
@@ -6284,6 +6827,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "standardPreferencesFilename",
           "normalized": "[Char]",
@@ -6299,6 +6843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "standardSessionFilename",
           "package": "leksah-server",
@@ -6308,6 +6853,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "standardSessionFilename",
           "normalized": "[Char]",
@@ -6323,6 +6869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "standardSourcesFilename",
           "package": "leksah-server",
@@ -6332,6 +6879,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "standardSourcesFilename",
           "normalized": "[Char]",
@@ -6347,6 +6895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.Utils",
           "name": "strippedPreferencesFilename",
           "package": "leksah-server",
@@ -6356,6 +6905,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils Utils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.Utils",
           "name": "strippedPreferencesFilename",
           "normalized": "[Char]",
@@ -6371,6 +6921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.VersionUtils",
           "name": "VersionUtils",
           "package": "leksah-server",
@@ -6379,6 +6930,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils VersionUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.VersionUtils",
           "name": "VersionUtils",
           "package": "leksah-server",
@@ -6392,6 +6944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.VersionUtils",
           "name": "getGhcVersion",
           "package": "leksah-server",
@@ -6401,6 +6954,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils VersionUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.VersionUtils",
           "name": "getGhcVersion",
           "package": "leksah-server",
@@ -6414,6 +6968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:19 UTC 2014",
           "module": "IDE.Utils.VersionUtils",
           "name": "getHaddockVersion",
           "package": "leksah-server",
@@ -6423,6 +6978,7 @@
         },
         "index": {
           "hierarchy": "IDE Utils VersionUtils",
+          "indexed": "2014-03-11T19:07:19",
           "module": "IDE.Utils.VersionUtils",
           "name": "getHaddockVersion",
           "package": "leksah-server",

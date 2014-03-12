@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-paginate"
+        "phrase": "yesod-paginate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a pagination subsite for Yesod.\n\u003c/p\u003e\u003cp\u003eRoute layout:\n\u003c/p\u003e\u003cpre\u003e /           PaginateHomeR   GET\n /#Int       PaginateStartR  GET\n /#Int/#Int  PaginateR       GET\n\u003c/pre\u003e\u003cp\u003eIf no numbers are given, display the items starting from the beginning with the default count. If one number is given,\n display the items starting from that index with the default count. If two numbers are given, the first one is the count\n and the second is the starting index. (This is so the user can modify the end of the URL to move forward in the pagination.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:08 UTC 2014",
           "module": "Yesod.Paginate",
           "name": "Paginate",
           "package": "yesod-paginate",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides pagination subsite for Yesod Route layout PaginateHomeR GET Int PaginateStartR GET Int Int PaginateR GET If no numbers are given display the items starting from the beginning with the default count If one number is given display the items starting from that index with the default count If two numbers are given the first one is the count and the second is the starting index This is so the user can modify the end of the URL to move forward in the pagination",
           "hierarchy": "Yesod Paginate",
+          "indexed": "2014-03-11T20:46:08",
           "module": "Yesod.Paginate",
           "name": "Paginate",
           "package": "yesod-paginate",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:08 UTC 2014",
           "module": "Yesod.Paginate",
           "name": "Paginate",
           "package": "yesod-paginate",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Yesod Paginate",
+          "indexed": "2014-03-11T20:46:08",
           "module": "Yesod.Paginate",
           "name": "Paginate",
           "package": "yesod-paginate",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:08 UTC 2014",
           "module": "Yesod.Paginate",
           "name": "PaginateRoute",
           "package": "yesod-paginate",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Yesod Paginate",
+          "indexed": "2014-03-11T20:46:08",
           "module": "Yesod.Paginate",
           "name": "PaginateRoute",
           "package": "yesod-paginate",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:08 UTC 2014",
           "module": "Yesod.Paginate",
           "name": "Paginate",
           "package": "yesod-paginate",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Yesod Paginate",
+          "indexed": "2014-03-11T20:46:08",
           "module": "Yesod.Paginate",
           "name": "Paginate",
           "package": "yesod-paginate",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:08 UTC 2014",
           "module": "Yesod.Paginate",
           "name": "PaginateHomeR",
           "package": "yesod-paginate",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Yesod Paginate",
+          "indexed": "2014-03-11T20:46:08",
           "module": "Yesod.Paginate",
           "name": "PaginateHomeR",
           "package": "yesod-paginate",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:08 UTC 2014",
           "module": "Yesod.Paginate",
           "name": "PaginateR",
           "package": "yesod-paginate",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Yesod Paginate",
+          "indexed": "2014-03-11T20:46:08",
           "module": "Yesod.Paginate",
           "name": "PaginateR",
           "package": "yesod-paginate",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:08 UTC 2014",
           "module": "Yesod.Paginate",
           "name": "PaginateStartR",
           "package": "yesod-paginate",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Yesod Paginate",
+          "indexed": "2014-03-11T20:46:08",
           "module": "Yesod.Paginate",
           "name": "PaginateStartR",
           "package": "yesod-paginate",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:08 UTC 2014",
           "module": "Yesod.Paginate",
           "name": "defaultPaginate",
           "package": "yesod-paginate",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Yesod Paginate",
+          "indexed": "2014-03-11T20:46:08",
           "module": "Yesod.Paginate",
           "name": "defaultPaginate",
           "normalized": "Int-\u003e[Filter a]-\u003e[Order a]-\u003e(Int-\u003eInt-\u003e[a]-\u003eGHandler(Paginate b c a)b c)-\u003ePaginate b c a",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink to the next page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:08 UTC 2014",
           "module": "Yesod.Paginate",
           "name": "nextLink",
           "package": "yesod-paginate",
@@ -205,6 +222,7 @@
         "index": {
           "description": "Link to the next page",
           "hierarchy": "Yesod Paginate",
+          "indexed": "2014-03-11T20:46:08",
           "module": "Yesod.Paginate",
           "name": "nextLink",
           "normalized": "Paginate a b c-\u003eInt-\u003eInt-\u003eGHandler(Paginate a b c)a(Maybe(Route(Paginate a b c)))",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow many items to show per page by default\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:08 UTC 2014",
           "module": "Yesod.Paginate",
           "name": "pgnDefaultCount",
           "package": "yesod-paginate",
@@ -231,6 +250,7 @@
         "index": {
           "description": "How many items to show per page by default",
           "hierarchy": "Yesod Paginate",
+          "indexed": "2014-03-11T20:46:08",
           "module": "Yesod.Paginate",
           "name": "pgnDefaultCount",
           "package": "yesod-paginate",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the items on a page given the count and offset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:08 UTC 2014",
           "module": "Yesod.Paginate",
           "name": "pgnDisplayItems",
           "package": "yesod-paginate",
@@ -255,6 +276,7 @@
         "index": {
           "description": "Render the items on page given the count and offset",
           "hierarchy": "Yesod Paginate",
+          "indexed": "2014-03-11T20:46:08",
           "module": "Yesod.Paginate",
           "name": "pgnDisplayItems",
           "normalized": "Int-\u003eInt-\u003e[a]-\u003eGHandler(Paginate b c a)b c",
@@ -271,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a certain count of items at a certain offset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:08 UTC 2014",
           "module": "Yesod.Paginate",
           "name": "pgnGetItems",
           "package": "yesod-paginate",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Get certain count of items at certain offset",
           "hierarchy": "Yesod Paginate",
+          "indexed": "2014-03-11T20:46:08",
           "module": "Yesod.Paginate",
           "name": "pgnGetItems",
           "normalized": "Int-\u003eInt-\u003eGHandler(Paginate a b c)a[c]",
@@ -297,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow many items there are in all\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:08 UTC 2014",
           "module": "Yesod.Paginate",
           "name": "pgnItemCount",
           "package": "yesod-paginate",
@@ -307,6 +332,7 @@
         "index": {
           "description": "How many items there are in all",
           "hierarchy": "Yesod Paginate",
+          "indexed": "2014-03-11T20:46:08",
           "module": "Yesod.Paginate",
           "name": "pgnItemCount",
           "package": "yesod-paginate",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink to the previous page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:08 UTC 2014",
           "module": "Yesod.Paginate",
           "name": "prevLink",
           "package": "yesod-paginate",
@@ -331,6 +358,7 @@
         "index": {
           "description": "Link to the previous page",
           "hierarchy": "Yesod Paginate",
+          "indexed": "2014-03-11T20:46:08",
           "module": "Yesod.Paginate",
           "name": "prevLink",
           "normalized": "Paginate a b c-\u003eInt-\u003eInt-\u003eMaybe(Route(Paginate a b c))",

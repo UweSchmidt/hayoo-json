@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hesql"
+        "phrase": "hesql",
+        "type": "phrase"
       },
       "type": "context"
     }

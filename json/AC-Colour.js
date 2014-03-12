@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AC-Colour"
+        "phrase": "AC-Colour",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e, which stores linear RGB\n  (red, green, blue) colour values where each channel is a \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e.\n  It also provides arithmetic over such colours, and a few predefined\n  colours.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Double",
           "name": "Double",
           "package": "AC-Colour",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides Colour which stores linear RGB red green blue colour values where each channel is Double It also provides arithmetic over such colours and few predefined colours",
           "hierarchy": "Data Colour Double",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Double",
           "name": "Double",
           "package": "AC-Colour",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main colour type. It stores three channels (red, green and\n  blue) as linear \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e values normally ranging from 0 to 1.\n  (0 represents minimum intensity, 1 represents maximum. Black is\n  therefore \u003ccode\u003eColour 0 0 0\u003c/code\u003e and white is \u003ccode\u003eColour 1 1 1\u003c/code\u003e.)\n\u003c/p\u003e\u003cp\u003eThe channel values are stored as strict, unboxed fields, so\n  operating on \u003ccode\u003eColour\u003c/code\u003es should be quite efficient in time and space.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eFractional\u003c/a\u003e\u003c/code\u003e instances provide arithmetic for\n  \u003ccode\u003eColour\u003c/code\u003es. Note that \u003ccode\u003e(*)\u003c/code\u003e acts channel-wise; this is usually what\n  is wanted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Double",
           "name": "Colour",
           "package": "AC-Colour",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The main colour type It stores three channels red green and blue as linear Double values normally ranging from to represents minimum intensity represents maximum Black is therefore Colour and white is Colour The channel values are stored as strict unboxed fields so operating on Colour should be quite efficient in time and space The Num and Fractional instances provide arithmetic for Colour Note that acts channel-wise this is usually what is wanted",
           "hierarchy": "Data Colour Double",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Double",
           "name": "Colour",
           "package": "AC-Colour",
@@ -310,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a function to collapse a \u003ccode\u003eColour\u003c/code\u003e into a \u003ccode\u003eDouble\u003c/code\u003e. No\n  particular order of application is promised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Double",
           "name": "cfold",
           "package": "AC-Colour",
@@ -320,6 +325,7 @@
         "index": {
           "description": "Use function to collapse Colour into Double No particular order of application is promised",
           "hierarchy": "Data Colour Double",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Double",
           "name": "cfold",
           "normalized": "(Double-\u003eDouble-\u003eDouble)-\u003eColour-\u003eDouble",
@@ -361,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to every channel in a colour. (Mostly used\n  internally, but exposed here in case it may be useful.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Double",
           "name": "cmap",
           "package": "AC-Colour",
@@ -371,6 +378,7 @@
         "index": {
           "description": "Apply function to every channel in colour Mostly used internally but exposed here in case it may be useful",
           "hierarchy": "Data Colour Double",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Double",
           "name": "cmap",
           "normalized": "(Double-\u003eDouble)-\u003eColour-\u003eColour",
@@ -412,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is similar to \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e. (Mostly used internally,\n  but exposed here in case it may be useful.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Double",
           "name": "czip",
           "package": "AC-Colour",
@@ -422,6 +431,7 @@
         "index": {
           "description": "This is similar to zipWith Mostly used internally but exposed here in case it may be useful",
           "hierarchy": "Data Colour Double",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Double",
           "name": "czip",
           "normalized": "(Double-\u003eDouble-\u003eDouble)-\u003eColour-\u003eColour-\u003eColour",
@@ -559,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides 1-dimensional colour maps with\n  smooth (linear) colour blending between control points.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Map",
           "name": "Map",
           "package": "AC-Colour",
@@ -568,6 +579,7 @@
         "index": {
           "description": "This module provides dimensional colour maps with smooth linear colour blending between control points",
           "hierarchy": "Data Colour Map",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Map",
           "name": "Map",
           "package": "AC-Colour",
@@ -582,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the basic colour map type. It consists of a list of\n  control points, each one being a parameter value and the\n  colour at that parameter value. The colour at other\n  parameter values is linearly interpolated between the\n  control points.\n\u003c/p\u003e\u003cp\u003eParameter values outside the range (i.e., below the first\n  point or above the last point) take the colour of the\n  end control point. This means that in the degenerate\n  case of a single control point, the colour is applied\n  everywhere (and the parameter value is ignored).\n\u003c/p\u003e\u003cp\u003eA map with \u003cem\u003ezero\u003c/em\u003e control points is not permitted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Map",
           "name": "ColourMap",
           "package": "AC-Colour",
@@ -591,6 +604,7 @@
         "index": {
           "description": "This is the basic colour map type It consists of list of control points each one being parameter value and the colour at that parameter value The colour at other parameter values is linearly interpolated between the control points Parameter values outside the range i.e below the first point or above the last point take the colour of the end control point This means that in the degenerate case of single control point the colour is applied everywhere and the parameter value is ignored map with zero control points is not permitted",
           "hierarchy": "Data Colour Map",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Map",
           "name": "ColourMap",
           "package": "AC-Colour",
@@ -605,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a colour map with has optional repeating behaviour using\n  \u003ccode\u003e\u003ca\u003erange_cycle\u003c/a\u003e\u003c/code\u003e above.\n\u003c/p\u003e\u003cp\u003eNotice that the parameter range that gets repeated need not cover\n  the entire range of the underlying \u003ccode\u003e\u003ca\u003eColourMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Map",
           "name": "FullColourMap",
           "package": "AC-Colour",
@@ -614,6 +629,7 @@
         "index": {
           "description": "This is colour map with has optional repeating behaviour using range cycle above Notice that the parameter range that gets repeated need not cover the entire range of the underlying ColourMap",
           "hierarchy": "Data Colour Map",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Map",
           "name": "FullColourMap",
           "package": "AC-Colour",
@@ -628,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColour map which repeats.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Map",
           "name": "RepeatingMap",
           "package": "AC-Colour",
@@ -638,6 +655,7 @@
         "index": {
           "description": "Colour map which repeats",
           "hierarchy": "Data Colour Map",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Map",
           "name": "RepeatingMap",
           "normalized": "RepeatingMap(Double,Double)ColourMap",
@@ -654,6 +672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColour map which does not repeat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Map",
           "name": "SimpleMap",
           "package": "AC-Colour",
@@ -664,6 +683,7 @@
         "index": {
           "description": "Colour map which does not repeat",
           "hierarchy": "Data Colour Map",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Map",
           "name": "SimpleMap",
           "package": "AC-Colour",
@@ -678,6 +698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the value of a colour map at a particular\n  parameter value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Map",
           "name": "colour_map",
           "package": "AC-Colour",
@@ -688,6 +709,7 @@
         "index": {
           "description": "Compute the value of colour map at particular parameter value",
           "hierarchy": "Data Colour Map",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Map",
           "name": "colour_map",
           "normalized": "ColourMap-\u003eDouble-\u003eColour",
@@ -703,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the value of a full colour map at a particular\n  parameter value, similar to \u003ccode\u003e\u003ca\u003ecolour_map\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Map",
           "name": "full_colour_map",
           "package": "AC-Colour",
@@ -713,6 +736,7 @@
         "index": {
           "description": "Compute the value of full colour map at particular parameter value similar to colour map",
           "hierarchy": "Data Colour Map",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Map",
           "name": "full_colour_map",
           "normalized": "FullColourMap-\u003eDouble-\u003eColour",
@@ -728,6 +752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a range and a value, and returns a value inside\n  the given range. If the value is already in the range,\n  it is unchanged. Otherwise it \"wraps around\". For\n  example, if the range is \u003ccode\u003e(0, 1)\u003c/code\u003e then, in effect,\n  the fractional part of the value is returned.\n\u003c/p\u003e\u003cp\u003eNote that extremely narrow ranges may exhibit numerical\n  instability.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Map",
           "name": "range_cycle",
           "package": "AC-Colour",
@@ -738,6 +763,7 @@
         "index": {
           "description": "Takes range and value and returns value inside the given range If the value is already in the range it is unchanged Otherwise it wraps around For example if the range is then in effect the fractional part of the value is returned Note that extremely narrow ranges may exhibit numerical instability",
           "hierarchy": "Data Colour Map",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Map",
           "name": "range_cycle",
           "normalized": "(Double,Double)-\u003eDouble-\u003eDouble",
@@ -753,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for the \"sRGB\" colour space.\n\u003c/p\u003e\u003cp\u003eThis colour space is the \u003cem\u003ede facto\u003c/em\u003e standard colour space for\n  computer data, unless some more specific colour space is explicitly\n  specified. Unless you know differently, any image data received\n  from the outside world is probably sRGB, and and data output is\n  probably expected to be sRGB.\n\u003c/p\u003e\u003cp\u003eUnfortunately, sRGB is a non-linear colour space, so it is not\n  feasible to perform arithmetic in it directly. (The sRGB colour\n  space basically standardises the defective non-linear behaviour of\n  obsolete CRT display technology.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Nonlinear",
           "name": "Nonlinear",
           "package": "AC-Colour",
@@ -762,6 +789,7 @@
         "index": {
           "description": "Support for the sRGB colour space This colour space is the de facto standard colour space for computer data unless some more specific colour space is explicitly specified Unless you know differently any image data received from the outside world is probably sRGB and and data output is probably expected to be sRGB Unfortunately sRGB is non-linear colour space so it is not feasible to perform arithmetic in it directly The sRGB colour space basically standardises the defective non-linear behaviour of obsolete CRT display technology",
           "hierarchy": "Data Colour Nonlinear",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Nonlinear",
           "name": "Nonlinear",
           "package": "AC-Colour",
@@ -776,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for holding sRGB colour values (with \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e components).\n\u003c/p\u003e\u003cp\u003eThe standard \u003ccode\u003e\u003ca\u003eColour8\u003c/a\u003e\u003c/code\u003e type is for \u003cem\u003elinear\u003c/em\u003e RGB values. This type\n  is for sRGB colours, which are non-linear.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Nonlinear",
           "name": "Colour8_sRGB",
           "package": "AC-Colour",
@@ -785,6 +814,7 @@
         "index": {
           "description": "Type for holding sRGB colour values with Word8 components The standard Colour8 type is for linear RGB values This type is for sRGB colours which are non-linear",
           "hierarchy": "Data Colour Nonlinear",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Nonlinear",
           "name": "Colour8_sRGB",
           "package": "AC-Colour",
@@ -799,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for holding sRGB colour values (with \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e components).\n\u003c/p\u003e\u003cp\u003eThe standard \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e type is for \u003cem\u003elinear\u003c/em\u003e RGB values. This type\n  is for sRGB colours, which are non-linear.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Nonlinear",
           "name": "Colour_sRGB",
           "package": "AC-Colour",
@@ -808,6 +839,7 @@
         "index": {
           "description": "Type for holding sRGB colour values with Double components The standard Colour type is for linear RGB values This type is for sRGB colours which are non-linear",
           "hierarchy": "Data Colour Nonlinear",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Nonlinear",
           "name": "Colour_sRGB",
           "package": "AC-Colour",
@@ -821,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Nonlinear",
           "name": "Colour8_sRGB",
           "package": "AC-Colour",
@@ -830,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Nonlinear",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Nonlinear",
           "name": "Colour8_sRGB",
           "package": "AC-Colour",
@@ -843,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Nonlinear",
           "name": "Colour_sRGB",
           "package": "AC-Colour",
@@ -852,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Data Colour Nonlinear",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Nonlinear",
           "name": "Colour_sRGB",
           "package": "AC-Colour",
@@ -866,6 +902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e components to \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Nonlinear",
           "name": "cdemote_sRGB",
           "package": "AC-Colour",
@@ -876,6 +913,7 @@
         "index": {
           "description": "Convert from Double components to Word8 components",
           "hierarchy": "Data Colour Nonlinear",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Nonlinear",
           "name": "cdemote_sRGB",
           "normalized": "Colour_sRGB-\u003eColour a",
@@ -892,6 +930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a non-linear sRGB value into a linear RGB value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Nonlinear",
           "name": "colour_from_sRGB",
           "package": "AC-Colour",
@@ -902,6 +941,7 @@
         "index": {
           "description": "Convert non-linear sRGB value into linear RGB value",
           "hierarchy": "Data Colour Nonlinear",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Nonlinear",
           "name": "colour_from_sRGB",
           "normalized": "Colour_sRGB-\u003eColour",
@@ -918,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a linear RGB value into a non-linear sRGB value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Nonlinear",
           "name": "colour_to_sRGB",
           "package": "AC-Colour",
@@ -928,6 +969,7 @@
         "index": {
           "description": "Convert linear RGB value into non-linear sRGB value",
           "hierarchy": "Data Colour Nonlinear",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Nonlinear",
           "name": "colour_to_sRGB",
           "normalized": "Colour-\u003eColour_sRGB",
@@ -944,6 +986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e components to \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Nonlinear",
           "name": "cpromote_sRGB",
           "package": "AC-Colour",
@@ -954,6 +997,7 @@
         "index": {
           "description": "Convert from Word8 components to Double components",
           "hierarchy": "Data Colour Nonlinear",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Nonlinear",
           "name": "cpromote_sRGB",
           "normalized": "Colour a-\u003eColour_sRGB",
@@ -970,6 +1014,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides \u003ccode\u003e\u003ca\u003eColour8\u003c/a\u003e\u003c/code\u003e, which stores linear RGB (red,\n  green, blue) colour values where each channel is a \u003ccode\u003eWord8\u003c/code\u003e. It also\n  provides arithmetic over such colours, and a few predefined\n  colours.\n\u003c/p\u003e\u003cp\u003eIt is the general intention that \"most\" work will be done with\n  \u003ca\u003eData.Colour.Double\u003c/a\u003e, with values converted to \u003ccode\u003eColour8\u003c/code\u003e only as a\n  final step. However, full arithmetic is supported anyway, in case\n  anybody wants to work that way. It is slightly less efficient and\n  flexible, however.\n\u003c/p\u003e\u003cp\u003eBeware that \"most\" RGB data found in external sources is in the\n  (non-linear) sRGB colour space, not the \u003cem\u003elinear\u003c/em\u003e RGB colour space\n  used here. See \u003ca\u003eData.Colour.Nonlinear\u003c/a\u003e for conversion functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Word8",
           "name": "Word8",
           "package": "AC-Colour",
@@ -979,6 +1024,7 @@
         "index": {
           "description": "This module provides Colour8 which stores linear RGB red green blue colour values where each channel is Word8 It also provides arithmetic over such colours and few predefined colours It is the general intention that most work will be done with Data.Colour.Double with values converted to Colour8 only as final step However full arithmetic is supported anyway in case anybody wants to work that way It is slightly less efficient and flexible however Beware that most RGB data found in external sources is in the non-linear sRGB colour space not the linear RGB colour space used here See Data.Colour.Nonlinear for conversion functions",
           "hierarchy": "Data Colour Word8",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Word8",
           "name": "Word8",
           "package": "AC-Colour",
@@ -993,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe integral colour. It stores three channels (red, green and\n  blue) as linear \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e values ranging from 0 to 255. (0 represents\n  minimum intensity, 255 represents maximum. Black is therefore\n  \u003ccode\u003eColour8 0 0 0\u003c/code\u003e and white is \u003ccode\u003eColour8 255 255 255\u003c/code\u003e.)\n\u003c/p\u003e\u003cp\u003eThe channel values are stored as strict, unboxed fields, so\n  operating on \u003ccode\u003eColour8\u003c/code\u003es should be quite efficient in time and\n  space.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eFractional\u003c/a\u003e\u003c/code\u003e instances provide arithmetic for\n  \u003ccode\u003eColour8\u003c/code\u003es. Note that \u003ccode\u003e(*)\u003c/code\u003e acts channel-wise; this is usually what\n  is wanted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Word8",
           "name": "Colour8",
           "package": "AC-Colour",
@@ -1002,6 +1049,7 @@
         "index": {
           "description": "The integral colour It stores three channels red green and blue as linear Word8 values ranging from to represents minimum intensity represents maximum Black is therefore Colour8 and white is Colour8 The channel values are stored as strict unboxed fields so operating on Colour8 should be quite efficient in time and space The Num and Fractional instances provide arithmetic for Colour8 Note that acts channel-wise this is usually what is wanted",
           "hierarchy": "Data Colour Word8",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Word8",
           "name": "Colour8",
           "package": "AC-Colour",
@@ -1261,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a function to fold the three values in a \u003ccode\u003eColour8\u003c/code\u003e into\n  a single value. No particular order of application is promised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Word8",
           "name": "c8fold",
           "package": "AC-Colour",
@@ -1271,6 +1320,7 @@
         "index": {
           "description": "Use function to fold the three values in Colour8 into single value No particular order of application is promised",
           "hierarchy": "Data Colour Word8",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Word8",
           "name": "c8fold",
           "normalized": "(Word-\u003eWord-\u003eWord)-\u003eColour-\u003eWord",
@@ -1286,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to every channel of a \u003ccode\u003eColour8\u003c/code\u003e. (Mostly used\n  internally; exposed here in case it might be useful.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Word8",
           "name": "c8map",
           "package": "AC-Colour",
@@ -1296,6 +1347,7 @@
         "index": {
           "description": "Apply function to every channel of Colour8 Mostly used internally exposed here in case it might be useful",
           "hierarchy": "Data Colour Word8",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Word8",
           "name": "c8map",
           "normalized": "(Word-\u003eWord)-\u003eColour-\u003eColour",
@@ -1337,6 +1389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe colour equivilent of \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e. (Mostly used\n  internally; exposed here in case it might be useful.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour.Word8",
           "name": "c8zip",
           "package": "AC-Colour",
@@ -1347,6 +1400,7 @@
         "index": {
           "description": "The colour equivilent of zipWith Mostly used internally exposed here in case it might be useful",
           "hierarchy": "Data Colour Word8",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour.Word8",
           "name": "c8zip",
           "normalized": "(Word-\u003eWord-\u003eWord)-\u003eColour-\u003eColour-\u003eColour",
@@ -1484,6 +1538,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports all the main interesting parts of the various\n  colour modules. It also provides functions for converting between\n  \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eColour8\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIt is the general intention that \"most\" work will be done with\n  \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e, with values converted to \u003ccode\u003eColour8\u003c/code\u003e only as a final step.\n  However, full arithmetic on \u003ccode\u003e\u003ca\u003eColour8\u003c/a\u003e\u003c/code\u003e is supported anyway,\n  in case anybody wants to work that way. It is slightly less\n  efficient and flexible, however.\n\u003c/p\u003e\u003cp\u003eNote that most colour values from external sources are typically\n  colour values in the non-linear sRGB colour space, rather than the\n  linear RGB values handled here. See \u003ca\u003eData.Colour.Nonlinear\u003c/a\u003e for\n  conversion functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour",
           "name": "Colour",
           "package": "AC-Colour",
@@ -1493,6 +1548,7 @@
         "index": {
           "description": "This module exports all the main interesting parts of the various colour modules It also provides functions for converting between Colour and Colour8 It is the general intention that most work will be done with Colour with values converted to Colour8 only as final step However full arithmetic on Colour8 is supported anyway in case anybody wants to work that way It is slightly less efficient and flexible however Note that most colour values from external sources are typically colour values in the non-linear sRGB colour space rather than the linear RGB values handled here See Data.Colour.Nonlinear for conversion functions",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour",
           "name": "Colour",
           "package": "AC-Colour",
@@ -1507,6 +1563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main colour type. It stores three channels (red, green and\n  blue) as linear \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e values normally ranging from 0 to 1.\n  (0 represents minimum intensity, 1 represents maximum. Black is\n  therefore \u003ccode\u003eColour 0 0 0\u003c/code\u003e and white is \u003ccode\u003eColour 1 1 1\u003c/code\u003e.)\n\u003c/p\u003e\u003cp\u003eThe channel values are stored as strict, unboxed fields, so\n  operating on \u003ccode\u003eColour\u003c/code\u003es should be quite efficient in time and space.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eFractional\u003c/a\u003e\u003c/code\u003e instances provide arithmetic for\n  \u003ccode\u003eColour\u003c/code\u003es. Note that \u003ccode\u003e(*)\u003c/code\u003e acts channel-wise; this is usually what\n  is wanted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour",
           "name": "Colour",
           "package": "AC-Colour",
@@ -1516,6 +1573,7 @@
         "index": {
           "description": "The main colour type It stores three channels red green and blue as linear Double values normally ranging from to represents minimum intensity represents maximum Black is therefore Colour and white is Colour The channel values are stored as strict unboxed fields so operating on Colour should be quite efficient in time and space The Num and Fractional instances provide arithmetic for Colour Note that acts channel-wise this is usually what is wanted",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour",
           "name": "Colour",
           "package": "AC-Colour",
@@ -1530,6 +1588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe integral colour. It stores three channels (red, green and\n  blue) as linear \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e values ranging from 0 to 255. (0 represents\n  minimum intensity, 255 represents maximum. Black is therefore\n  \u003ccode\u003eColour8 0 0 0\u003c/code\u003e and white is \u003ccode\u003eColour8 255 255 255\u003c/code\u003e.)\n\u003c/p\u003e\u003cp\u003eThe channel values are stored as strict, unboxed fields, so\n  operating on \u003ccode\u003eColour8\u003c/code\u003es should be quite efficient in time and\n  space.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eFractional\u003c/a\u003e\u003c/code\u003e instances provide arithmetic for\n  \u003ccode\u003eColour8\u003c/code\u003es. Note that \u003ccode\u003e(*)\u003c/code\u003e acts channel-wise; this is usually what\n  is wanted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour",
           "name": "Colour8",
           "package": "AC-Colour",
@@ -1539,6 +1598,7 @@
         "index": {
           "description": "The integral colour It stores three channels red green and blue as linear Word8 values ranging from to represents minimum intensity represents maximum Black is therefore Colour8 and white is Colour8 The channel values are stored as strict unboxed fields so operating on Colour8 should be quite efficient in time and space The Num and Fractional instances provide arithmetic for Colour8 Note that acts channel-wise this is usually what is wanted",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour",
           "name": "Colour8",
           "package": "AC-Colour",
@@ -1553,6 +1613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eColour8\u003c/a\u003e\u003c/code\u003e. Any values outside\n  the range 0--1 will be \u003ccode\u003ewrapped\u003c/code\u003e to that range. You may\n  want to run \u003ccode\u003e\u003ca\u003eclip\u003c/a\u003e\u003c/code\u003e before calling this function to\n  prevent this behaviour (unless you know the values can't\n  be outside the permitted range). This function is the\n  exact inverse of \u003ccode\u003e\u003ca\u003ecpromote\u003c/a\u003e\u003c/code\u003e; 0 is mapped to 0x00 and\n  1 is mapped to 0xFF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour",
           "name": "cdemote",
           "package": "AC-Colour",
@@ -1563,6 +1624,7 @@
         "index": {
           "description": "Convert Colour into Colour8 Any values outside the range will be wrapped to that range You may want to run clip before calling this function to prevent this behaviour unless you know the values can be outside the permitted range This function is the exact inverse of cpromote is mapped to x00 and is mapped to xFF",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour",
           "name": "cdemote",
           "normalized": "Colour-\u003eColour",
@@ -1578,6 +1640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eColour8\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eColour\u003c/a\u003e\u003c/code\u003e. Recall that\n  0x00 means zero and 0xFF means one; this function will\n  remap such values appropriately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:31:40 UTC 2014",
           "module": "Data.Colour",
           "name": "cpromote",
           "package": "AC-Colour",
@@ -1588,6 +1651,7 @@
         "index": {
           "description": "Convert Colour8 into Colour Recall that x00 means zero and xFF means one this function will remap such values appropriately",
           "hierarchy": "Data Colour",
+          "indexed": "2014-03-11T16:31:40",
           "module": "Data.Colour",
           "name": "cpromote",
           "normalized": "Colour-\u003eColour",

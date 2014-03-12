@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-spelling"
+        "phrase": "language-spelling",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module lets you tamper with \u003ccode\u003e\u003ca\u003eDistance\u003c/a\u003e\u003c/code\u003e - in other words you can give\n   it whatever phantom type since the constructor is exported.\n\u003c/p\u003e\u003cp\u003eThe only use for this module is to construct new \u003ccode\u003e\u003ca\u003eDistance\u003c/a\u003e\u003c/code\u003e data when\n   writing \u003ccode\u003eEditDistance\u003c/code\u003e instances, but be careful not to change the phantom\n   type of existing \u003ccode\u003e\u003ca\u003eDistance\u003c/a\u003e\u003c/code\u003es!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Internal",
           "name": "Internal",
           "package": "language-spelling",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module lets you tamper with Distance in other words you can give it whatever phantom type since the constructor is exported The only use for this module is to construct new Distance data when writing EditDistance instances but be careful not to change the phantom type of existing Distance",
           "hierarchy": "Language Distance Internal",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Internal",
           "name": "Internal",
           "package": "language-spelling",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Internal",
           "name": "Distance",
           "package": "language-spelling",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Internal",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Internal",
           "name": "Distance",
           "package": "language-spelling",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Internal",
           "name": "Distance",
           "package": "language-spelling",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Internal",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Internal",
           "name": "Distance",
           "package": "language-spelling",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Internal",
           "name": "getDistance",
           "package": "language-spelling",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Internal",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Internal",
           "name": "getDistance",
           "package": "language-spelling",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn implementation of \u003ccode\u003e\u003ca\u003eSearch\u003c/a\u003e\u003c/code\u003e based on a BK-tree:\n   \u003ca\u003ehttps://en.wikipedia.org/wiki/Bk-tree\u003c/a\u003e.  It performs reasonably, and it\n   scales decently as the query distance increases.  Moreover the data\n   structure can work on any instance of \u003ccode\u003e\u003ca\u003eEditDistance\u003c/a\u003e\u003c/code\u003e, or in fact any metric\n   space - a generic interface is provided in \u003ccode\u003e\u003ca\u003eBKTree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eHowever, for very short distances (less than 3),\n   \u003ccode\u003e\u003ca\u003eTST\u003c/a\u003e\u003c/code\u003e is faster.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.BK",
           "name": "BK",
           "package": "language-spelling",
@@ -116,6 +125,7 @@
         "index": {
           "description": "An implementation of Search based on BK-tree https en.wikipedia.org wiki Bk-tree It performs reasonably and it scales decently as the query distance increases Moreover the data structure can work on any instance of EditDistance or in fact any metric space generic interface is provided in BKTree However for very short distances less than TST is faster",
           "hierarchy": "Language Distance Search BK",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.BK",
           "name": "BK",
           "package": "language-spelling",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.BK",
           "name": "BKTree",
           "package": "language-spelling",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search BK",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.BK",
           "name": "BKTree",
           "package": "language-spelling",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.BK",
           "name": "damerauLevenshtein",
           "package": "language-spelling",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search BK",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.BK",
           "name": "damerauLevenshtein",
           "normalized": "Int-\u003ea-\u003eBKTree a DamerauLevenshtein-\u003e[(a,Distance DamerauLevenshtein)]",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.BK",
           "name": "empty",
           "package": "language-spelling",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search BK",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.BK",
           "name": "empty",
           "package": "language-spelling",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.BK",
           "name": "insert",
           "package": "language-spelling",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search BK",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.BK",
           "name": "insert",
           "normalized": "a-\u003eBKTree a b-\u003eBKTree a b",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.BK",
           "name": "levenshtein",
           "package": "language-spelling",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search BK",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.BK",
           "name": "levenshtein",
           "normalized": "Int-\u003ea-\u003eBKTree a Levenshtein-\u003e[(a,Distance Levenshtein)]",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.BK",
           "name": "query",
           "package": "language-spelling",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search BK",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.BK",
           "name": "query",
           "normalized": "Int-\u003ea-\u003eBKTree a b-\u003e[(a,Distance b)]",
@@ -265,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn implementation of \u003ccode\u003eSearch\u003c/code\u003e based on a ternary search tree\n   (\u003ccode\u003e\u003ca\u003eTSTSet\u003c/a\u003e\u003c/code\u003e): \u003ca\u003ehttps://en.wikipedia.org/wiki/Ternary_search_tree\u003c/a\u003e.  \n\u003c/p\u003e\u003cp\u003eThe searches are performed by manually generating the close word by\n   deleting, transposing, or adding wildcards to match additional characters.\n\u003c/p\u003e\u003cp\u003eThis makes this structure fast for small distances with a small number of\n   generated candidates, but impractical for even slightly larger distances -\n   in my tests \u003ccode\u003e\u003ca\u003eBK\u003c/a\u003e\u003c/code\u003e outpeforms this module when the\n   distance is greater than 2.\n\u003c/p\u003e\u003cp\u003eThe data structure has no knowledge of the distance and thus it does not\n   need to be rebuilt if different edit distances are needed.  However this\n   means that it cannot work with arbitrary \u003ccode\u003eEditDistance\u003c/code\u003e instances are\n   functions need to be defined manually to generate the candidates.  In this\n   case \u003ccode\u003e\u003ca\u003elevenshtein\u003c/a\u003e\u003c/code\u003e uses \u003ccode\u003e\u003ca\u003edeletions\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ereplaces\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003einsertions\u003c/a\u003e\u003c/code\u003e to\n   generate the candidates; while \u003ccode\u003e\u003ca\u003edamerauLevenshtein\u003c/a\u003e\u003c/code\u003e also uses\n   \u003ccode\u003e\u003ca\u003etranspositions\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.TST",
           "name": "TST",
           "package": "language-spelling",
@@ -274,6 +297,7 @@
         "index": {
           "description": "An implementation of Search based on ternary search tree TSTSet https en.wikipedia.org wiki Ternary search tree The searches are performed by manually generating the close word by deleting transposing or adding wildcards to match additional characters This makes this structure fast for small distances with small number of generated candidates but impractical for even slightly larger distances in my tests BK outpeforms this module when the distance is greater than The data structure has no knowledge of the distance and thus it does not need to be rebuilt if different edit distances are needed However this means that it cannot work with arbitrary EditDistance instances are functions need to be defined manually to generate the candidates In this case levenshtein uses deletions replaces and insertions to generate the candidates while damerauLevenshtein also uses transpositions",
           "hierarchy": "Language Distance Search TST",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.TST",
           "name": "TST",
           "package": "language-spelling",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.TST",
           "name": "TSTSet",
           "package": "language-spelling",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search TST",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.TST",
           "name": "TSTSet",
           "package": "language-spelling",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.TST",
           "name": "WildCard",
           "package": "language-spelling",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search TST",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.TST",
           "name": "WildCard",
           "package": "language-spelling",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.TST",
           "name": "WildList",
           "package": "language-spelling",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search TST",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.TST",
           "name": "WildList",
           "package": "language-spelling",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.TST",
           "name": "El",
           "package": "language-spelling",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search TST",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.TST",
           "name": "El",
           "package": "language-spelling",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.TST",
           "name": "WildCard",
           "package": "language-spelling",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search TST",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.TST",
           "name": "WildCard",
           "package": "language-spelling",
@@ -389,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.TST",
           "name": "damerauLevenshtein",
           "package": "language-spelling",
@@ -398,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search TST",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.TST",
           "name": "damerauLevenshtein",
           "normalized": "Int-\u003ea-\u003eTSTSet b-\u003e[(a,Distance DamerauLevenshtein)]",
@@ -413,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.TST",
           "name": "deletions",
           "package": "language-spelling",
@@ -422,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search TST",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.TST",
           "name": "deletions",
           "normalized": "[a]-\u003e[[a]]",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.TST",
           "name": "empty",
           "package": "language-spelling",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search TST",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.TST",
           "name": "empty",
           "package": "language-spelling",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.TST",
           "name": "insert",
           "package": "language-spelling",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search TST",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.TST",
           "name": "insert",
           "normalized": "a-\u003eTSTSet b-\u003eTSTSet b",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.TST",
           "name": "insertions",
           "package": "language-spelling",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search TST",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.TST",
           "name": "insertions",
           "normalized": "WildList a-\u003e[WildList a]",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.TST",
           "name": "levenshtein",
           "package": "language-spelling",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search TST",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.TST",
           "name": "levenshtein",
           "normalized": "Int-\u003ea-\u003eTSTSet b-\u003e[(a,Distance Levenshtein)]",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.TST",
           "name": "replaces",
           "package": "language-spelling",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search TST",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.TST",
           "name": "replaces",
           "normalized": "WildList a-\u003e[WildList a]",
@@ -548,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search.TST",
           "name": "transpositions",
           "package": "language-spelling",
@@ -557,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search TST",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search.TST",
           "name": "transpositions",
           "normalized": "[a]-\u003e[[a]]",
@@ -572,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eSearch\u003c/a\u003e\u003c/code\u003e typeclass lets you build dictinaries and then query them to\n   find words close to a given one.\n\u003c/p\u003e\u003cp\u003eRight now two data types are provided: \u003ccode\u003e\u003ca\u003eTST\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eBK\u003c/a\u003e\u003c/code\u003e, monomorphic\n   functions are provided as well.  The difference is in performance:\n   \u003ccode\u003e\u003ca\u003eTST\u003c/a\u003e\u003c/code\u003e is faster for low distances (less than 3) but impractical for\n   larger ones, where \u003ccode\u003e\u003ca\u003eBK\u003c/a\u003e\u003c/code\u003e is more suited.  See the specific modules for\n   more info.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search",
           "name": "Search",
           "package": "language-spelling",
@@ -581,6 +632,7 @@
         "index": {
           "description": "The Search typeclass lets you build dictinaries and then query them to find words close to given one Right now two data types are provided TST and BK monomorphic functions are provided as well The difference is in performance TST is faster for low distances less than but impractical for larger ones where BK is more suited See the specific modules for more info",
           "hierarchy": "Language Distance Search",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search",
           "name": "Search",
           "package": "language-spelling",
@@ -595,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAgain, wrapping \u003ccode\u003e\u003ca\u003eBKTree\u003c/a\u003e\u003c/code\u003e to have the phantom types in place.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search",
           "name": "BKDist",
           "package": "language-spelling",
@@ -604,6 +657,7 @@
         "index": {
           "description": "Again wrapping BKTree to have the phantom types in place",
           "hierarchy": "Language Distance Search",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search",
           "name": "BKDist",
           "package": "language-spelling",
@@ -618,6 +672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric class for data structures that can perform queries retrieving words\n   close to a given one.\n\u003c/p\u003e\u003cp\u003eMinimal definition: \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003equery\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search",
           "name": "Search",
           "package": "language-spelling",
@@ -627,6 +682,7 @@
         "index": {
           "description": "Generic class for data structures that can perform queries retrieving words close to given one Minimal definition empty insert and query",
           "hierarchy": "Language Distance Search",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search",
           "name": "Search",
           "package": "language-spelling",
@@ -641,6 +697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe need to wrap \u003ccode\u003e\u003ca\u003eTSTSet\u003c/a\u003e\u003c/code\u003e in a newtype because we need the algorithm and the\n   container have to depend on the type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search",
           "name": "TSTDist",
           "package": "language-spelling",
@@ -650,6 +707,7 @@
         "index": {
           "description": "We need to wrap TSTSet in newtype because we need the algorithm and the container have to depend on the type",
           "hierarchy": "Language Distance Search",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search",
           "name": "TSTDist",
           "package": "language-spelling",
@@ -663,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search",
           "name": "BKDist",
           "package": "language-spelling",
@@ -672,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search",
           "name": "BKDist",
           "package": "language-spelling",
@@ -685,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search",
           "name": "TSTDist",
           "package": "language-spelling",
@@ -694,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search",
           "name": "TSTDist",
           "package": "language-spelling",
@@ -707,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search",
           "name": "empty",
           "package": "language-spelling",
@@ -716,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search",
           "name": "empty",
           "package": "language-spelling",
@@ -728,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search",
           "name": "fromList",
           "package": "language-spelling",
@@ -737,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search",
           "name": "fromList",
           "normalized": "[a]-\u003eb",
@@ -752,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search",
           "name": "getBK",
           "package": "language-spelling",
@@ -761,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search",
           "name": "getBK",
           "package": "language-spelling",
@@ -774,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search",
           "name": "getTST",
           "package": "language-spelling",
@@ -783,6 +852,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search",
           "name": "getTST",
           "package": "language-spelling",
@@ -796,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search",
           "name": "insert",
           "package": "language-spelling",
@@ -805,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eb",
@@ -819,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search",
           "name": "member",
           "package": "language-spelling",
@@ -828,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search",
           "name": "member",
           "normalized": "a-\u003eb-\u003eBool",
@@ -842,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search",
           "name": "query",
           "package": "language-spelling",
@@ -851,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search",
           "name": "query",
           "package": "language-spelling",
@@ -863,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance.Search",
           "name": "singleton",
           "package": "language-spelling",
@@ -872,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Language Distance Search",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance.Search",
           "name": "singleton",
           "normalized": "a-\u003eb",
@@ -887,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric interface to calculate the edit instance between two list-like\n   things using various algorithms.\n\u003c/p\u003e\u003cp\u003eRight now, two algorithms are provided, \u003ccode\u003e\u003ca\u003eLevenshtein\u003c/a\u003e\u003c/code\u003e and\n   \u003ccode\u003e\u003ca\u003eDamerauLevenshtein\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance",
           "name": "Distance",
           "package": "language-spelling",
@@ -896,6 +975,7 @@
         "index": {
           "description": "Generic interface to calculate the edit instance between two list-like things using various algorithms Right now two algorithms are provided Levenshtein and DamerauLevenshtein",
           "hierarchy": "Language Distance",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance",
           "name": "Distance",
           "package": "language-spelling",
@@ -910,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eLevenshtein\u003c/a\u003e\u003c/code\u003e, but transpositions are also taken into account:\n   \u003ca\u003ehttps://en.wikipedia.org/wiki/Damerau-Levenshtein_distance\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance",
           "name": "DamerauLevenshtein",
           "package": "language-spelling",
@@ -919,6 +1000,7 @@
         "index": {
           "description": "Like Levenshtein but transpositions are also taken into account https en.wikipedia.org wiki Damerau-Levenshtein distance",
           "hierarchy": "Language Distance",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance",
           "name": "DamerauLevenshtein",
           "package": "language-spelling",
@@ -932,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance",
           "name": "Distance",
           "package": "language-spelling",
@@ -940,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Language Distance",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance",
           "name": "Distance",
           "package": "language-spelling",
@@ -954,6 +1038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric typeclass for edit distances.  Specify the type manually to use a\nspecific algorithm, for instance\n\u003c/p\u003e\u003cpre\u003e\ndistance \"foo\" \"bar\" :: \u003ccode\u003e\u003ca\u003eDistance\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eDamerauLevenshtein\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eMonomorphic functions are also provided, see \u003ccode\u003e\u003ca\u003elevenshtein\u003c/a\u003e\u003c/code\u003e and\n\u003ccode\u003e\u003ca\u003edamerauLevenshtein\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance",
           "name": "EditDistance",
           "package": "language-spelling",
@@ -963,6 +1048,7 @@
         "index": {
           "description": "Generic typeclass for edit distances Specify the type manually to use specific algorithm for instance distance foo bar Distance DamerauLevenshtein Monomorphic functions are also provided see levenshtein and damerauLevenshtein",
           "hierarchy": "Language Distance",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance",
           "name": "EditDistance",
           "package": "language-spelling",
@@ -977,6 +1063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe classic Levenshtein distance, where adding, removing or changing a\n   character are taken into account.\n\u003c/p\u003e\u003cp\u003eMore information: \u003ca\u003ehttps://en.wikipedia.org/wiki/Levenshtein_distance\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance",
           "name": "Levenshtein",
           "package": "language-spelling",
@@ -986,6 +1073,7 @@
         "index": {
           "description": "The classic Levenshtein distance where adding removing or changing character are taken into account More information https en.wikipedia.org wiki Levenshtein distance",
           "hierarchy": "Language Distance",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance",
           "name": "Levenshtein",
           "package": "language-spelling",
@@ -999,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance",
           "name": "damerauLevenshtein",
           "package": "language-spelling",
@@ -1008,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Language Distance",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance",
           "name": "damerauLevenshtein",
           "normalized": "a-\u003ea-\u003eDistance DamerauLevenshtein",
@@ -1023,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance",
           "name": "distance",
           "package": "language-spelling",
@@ -1032,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Language Distance",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance",
           "name": "distance",
           "normalized": "a-\u003ea-\u003eDistance b",
@@ -1046,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance",
           "name": "getDistance",
           "package": "language-spelling",
@@ -1055,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Language Distance",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance",
           "name": "getDistance",
           "normalized": "Distance a-\u003eInt",
@@ -1070,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Distance",
           "name": "levenshtein",
           "package": "language-spelling",
@@ -1079,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Language Distance",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Distance",
           "name": "levenshtein",
           "normalized": "a-\u003ea-\u003eDistance Levenshtein",
@@ -1094,6 +1190,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSee the documentation for \u003ccode\u003e\u003ca\u003eInternal\u003c/a\u003e\u003c/code\u003e to see why this\n   module is potentially dangerous.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Phonetic.Internal",
           "name": "Internal",
           "package": "language-spelling",
@@ -1103,6 +1200,7 @@
         "index": {
           "description": "See the documentation for Internal to see why this module is potentially dangerous",
           "hierarchy": "Language Phonetic Internal",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Phonetic.Internal",
           "name": "Internal",
           "package": "language-spelling",
@@ -1117,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapped \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Phonetic.Internal",
           "name": "Alphabet",
           "package": "language-spelling",
@@ -1126,6 +1225,7 @@
         "index": {
           "description": "wrapped Set Char",
           "hierarchy": "Language Phonetic Internal",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Phonetic.Internal",
           "name": "Alphabet",
           "package": "language-spelling",
@@ -1140,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapped \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Phonetic.Internal",
           "name": "Code",
           "package": "language-spelling",
@@ -1149,6 +1250,7 @@
         "index": {
           "description": "wrapped ByteString",
           "hierarchy": "Language Phonetic Internal",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Phonetic.Internal",
           "name": "Code",
           "package": "language-spelling",
@@ -1162,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Phonetic.Internal",
           "name": "Alphabet",
           "package": "language-spelling",
@@ -1171,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "Language Phonetic Internal",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Phonetic.Internal",
           "name": "Alphabet",
           "package": "language-spelling",
@@ -1184,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Phonetic.Internal",
           "name": "Code",
           "package": "language-spelling",
@@ -1193,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "Language Phonetic Internal",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Phonetic.Internal",
           "name": "Code",
           "package": "language-spelling",
@@ -1206,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Phonetic.Internal",
           "name": "getAlphabet",
           "package": "language-spelling",
@@ -1215,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Language Phonetic Internal",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Phonetic.Internal",
           "name": "getAlphabet",
           "package": "language-spelling",
@@ -1228,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Phonetic.Internal",
           "name": "getCode",
           "package": "language-spelling",
@@ -1237,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "Language Phonetic Internal",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Phonetic.Internal",
           "name": "getCode",
           "package": "language-spelling",
@@ -1251,6 +1361,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\"A phonetic algorithm is an algorithm for indexing of words by their\n   pronunciation\": \u003ca\u003ehttps://en.wikipedia.org/wiki/Phonetic_algorithm\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eRight now only a very rudimental one is provided, \u003ccode\u003e\u003ca\u003eSoundex\u003c/a\u003e\u003c/code\u003e; plus\n   \u003ccode\u003e\u003ca\u003eEncoder\u003c/a\u003e\u003c/code\u003e, a generic interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Phonetic",
           "name": "Phonetic",
           "package": "language-spelling",
@@ -1260,6 +1371,7 @@
         "index": {
           "description": "phonetic algorithm is an algorithm for indexing of words by their pronunciation https en.wikipedia.org wiki Phonetic algorithm Right now only very rudimental one is provided Soundex plus Encoder generic interface",
           "hierarchy": "Language Phonetic",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Phonetic",
           "name": "Phonetic",
           "package": "language-spelling",
@@ -1274,6 +1386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapped \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Phonetic",
           "name": "Alphabet",
           "package": "language-spelling",
@@ -1283,6 +1396,7 @@
         "index": {
           "description": "wrapped Set Char",
           "hierarchy": "Language Phonetic",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Phonetic",
           "name": "Alphabet",
           "package": "language-spelling",
@@ -1297,6 +1411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapped \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Phonetic",
           "name": "Code",
           "package": "language-spelling",
@@ -1306,6 +1421,7 @@
         "index": {
           "description": "wrapped ByteString",
           "hierarchy": "Language Phonetic",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Phonetic",
           "name": "Code",
           "package": "language-spelling",
@@ -1320,6 +1436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for algorithms that encode words based on their pronunciation.\n\u003c/p\u003e\u003cp\u003eMinimal definition: \u003ccode\u003e\u003ca\u003ealphabet\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eencodeUnsafe\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Phonetic",
           "name": "Encoder",
           "package": "language-spelling",
@@ -1329,6 +1446,7 @@
         "index": {
           "description": "Type class for algorithms that encode words based on their pronunciation Minimal definition alphabet encodeUnsafe",
           "hierarchy": "Language Phonetic",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Phonetic",
           "name": "Encoder",
           "package": "language-spelling",
@@ -1343,6 +1461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ca\u003ehttps://en.wikipedia.org/wiki/Soundex\u003c/a\u003e for more info.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Phonetic",
           "name": "Soundex",
           "package": "language-spelling",
@@ -1352,6 +1471,7 @@
         "index": {
           "description": "See https en.wikipedia.org wiki Soundex for more info",
           "hierarchy": "Language Phonetic",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Phonetic",
           "name": "Soundex",
           "package": "language-spelling",
@@ -1366,6 +1486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe range of characters that the algorithm will accept\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Phonetic",
           "name": "alphabet",
           "package": "language-spelling",
@@ -1376,6 +1497,7 @@
         "index": {
           "description": "The range of characters that the algorithm will accept",
           "hierarchy": "Language Phonetic",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Phonetic",
           "name": "alphabet",
           "package": "language-spelling",
@@ -1389,6 +1511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSafe \u003ccode\u003e\u003ca\u003eencodeUnsafe\u003c/a\u003e\u003c/code\u003e: checks that all the characters are in \u003ccode\u003e\u003ca\u003ealphabet\u003c/a\u003e\u003c/code\u003e\n   first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Phonetic",
           "name": "encode",
           "package": "language-spelling",
@@ -1399,6 +1522,7 @@
         "index": {
           "description": "Safe encodeUnsafe checks that all the characters are in alphabet first",
           "hierarchy": "Language Phonetic",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Phonetic",
           "name": "encode",
           "normalized": "a-\u003eMaybe(Code b)",
@@ -1414,6 +1538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnchecked encoding: if characters not in \u003ccode\u003e\u003ca\u003ealphabet\u003c/a\u003e\u003c/code\u003e are in the word the\n   behaviour is undefined.  You should use \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:12 UTC 2014",
           "module": "Language.Phonetic",
           "name": "encodeUnsafe",
           "package": "language-spelling",
@@ -1424,6 +1549,7 @@
         "index": {
           "description": "Unchecked encoding if characters not in alphabet are in the word the behaviour is undefined You should use encode",
           "hierarchy": "Language Phonetic",
+          "indexed": "2014-03-11T19:06:12",
           "module": "Language.Phonetic",
           "name": "encodeUnsafe",
           "normalized": "a-\u003eCode b",

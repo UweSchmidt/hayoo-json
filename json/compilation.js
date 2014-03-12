@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "compilation"
+        "phrase": "compilation",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompilation\n   Monad and combinators for quickly assembling simple\n   compilers.\n\u003c/p\u003e\u003cpre\u003eControl/Compilation/Environment.hs\u003c/pre\u003e\u003cp\u003eState extension class and combinators for implementations\n   of a state that support an environment (i.e., lookup table\n   or dictionary) data structure or structures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Environment",
           "name": "Environment",
           "package": "compilation",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Compilation Monad and combinators for quickly assembling simple compilers Control Compilation Environment.hs State extension class and combinators for implementations of state that support an environment i.e lookup table or dictionary data structure or structures",
           "hierarchy": "Control Compilation Environment",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Environment",
           "name": "Environment",
           "package": "compilation",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState extension class definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Environment",
           "name": "HasEnvironment",
           "package": "compilation",
@@ -51,6 +54,7 @@
         "index": {
           "description": "State extension class definition",
           "hierarchy": "Control Compilation Environment",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Environment",
           "name": "HasEnvironment",
           "package": "compilation",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonyms and class memberships.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Environment",
           "name": "StateExtensionEnv",
           "package": "compilation",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Type synonyms and class memberships",
           "hierarchy": "Control Compilation Environment",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Environment",
           "name": "StateExtensionEnv",
           "package": "compilation",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Environment",
           "name": "addEnv",
           "package": "compilation",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Environment",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Environment",
           "name": "addEnv",
           "normalized": "String-\u003ea-\u003eCompilation b()",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Environment",
           "name": "dropEnv",
           "package": "compilation",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Environment",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Environment",
           "name": "dropEnv",
           "normalized": "Int-\u003eCompilation a()",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Environment",
           "name": "getEnv",
           "package": "compilation",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Environment",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Environment",
           "name": "getEnv",
           "package": "compilation",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Environment",
           "name": "inject",
           "package": "compilation",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Environment",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Environment",
           "name": "inject",
           "normalized": "StateExtensionEnv a-\u003eb-\u003eb",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Environment",
           "name": "lookupEnv",
           "package": "compilation",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Environment",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Environment",
           "name": "lookupEnv",
           "normalized": "String-\u003eCompilation a(Maybe b)",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Environment",
           "name": "popEnv",
           "package": "compilation",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Environment",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Environment",
           "name": "popEnv",
           "normalized": "Compilation a()",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Environment",
           "name": "project",
           "package": "compilation",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Environment",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Environment",
           "name": "project",
           "normalized": "a-\u003eStateExtensionEnv b",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Environment",
           "name": "setEnv",
           "package": "compilation",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Environment",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Environment",
           "name": "setEnv",
           "normalized": "StateExtensionEnv a-\u003eCompilation b()",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompilation\n   Monad and combinators for quickly assembling simple\n   compilers.\n\u003c/p\u003e\u003cpre\u003eControl/Compilation/Fresh.hs\u003c/pre\u003e\u003cp\u003eState extension class and combinators for implementations\n   of a state that support generation of fresh (i.e., unique)\n   values (integers and strings).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Fresh",
           "name": "Fresh",
           "package": "compilation",
@@ -285,6 +308,7 @@
         "index": {
           "description": "Compilation Monad and combinators for quickly assembling simple compilers Control Compilation Fresh.hs State extension class and combinators for implementations of state that support generation of fresh i.e unique values integers and strings",
           "hierarchy": "Control Compilation Fresh",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Fresh",
           "name": "Fresh",
           "package": "compilation",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonyms and class memberships.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Fresh",
           "name": "FreshIndex",
           "package": "compilation",
@@ -308,6 +333,7 @@
         "index": {
           "description": "Type synonyms and class memberships",
           "hierarchy": "Control Compilation Fresh",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Fresh",
           "name": "FreshIndex",
           "package": "compilation",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState extension class definition, including combinators\n   and convenient synonyms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Fresh",
           "name": "HasFresh",
           "package": "compilation",
@@ -331,6 +358,7 @@
         "index": {
           "description": "State extension class definition including combinators and convenient synonyms",
           "hierarchy": "Control Compilation Fresh",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Fresh",
           "name": "HasFresh",
           "package": "compilation",
@@ -344,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Fresh",
           "name": "StateExtensionFresh",
           "package": "compilation",
@@ -352,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Fresh",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Fresh",
           "name": "StateExtensionFresh",
           "package": "compilation",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Fresh",
           "name": "fresh",
           "package": "compilation",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Fresh",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Fresh",
           "name": "fresh",
           "package": "compilation",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Fresh",
           "name": "freshInteger",
           "package": "compilation",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Fresh",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Fresh",
           "name": "freshInteger",
           "package": "compilation",
@@ -408,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Fresh",
           "name": "freshString",
           "package": "compilation",
@@ -417,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Fresh",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Fresh",
           "name": "freshString",
           "package": "compilation",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Fresh",
           "name": "freshStringWithPrefix",
           "package": "compilation",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Fresh",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Fresh",
           "name": "freshStringWithPrefix",
           "normalized": "String-\u003eCompilation a String",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Fresh",
           "name": "freshWithPrefix",
           "package": "compilation",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Fresh",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Fresh",
           "name": "freshWithPrefix",
           "normalized": "String-\u003eCompilation a String",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Fresh",
           "name": "fresh_",
           "package": "compilation",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Fresh",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Fresh",
           "name": "fresh_",
           "normalized": "String-\u003eCompilation a String",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Fresh",
           "name": "freshes",
           "package": "compilation",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Fresh",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Fresh",
           "name": "freshes",
           "normalized": "Integer-\u003eCompilation a[String]",
@@ -524,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Fresh",
           "name": "freshes_",
           "package": "compilation",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Fresh",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Fresh",
           "name": "freshes_",
           "normalized": "String-\u003eInteger-\u003eCompilation a[String]",
@@ -547,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Fresh",
           "name": "inject",
           "package": "compilation",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Fresh",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Fresh",
           "name": "inject",
           "normalized": "StateExtensionFresh-\u003ea-\u003ea",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Fresh",
           "name": "project",
           "package": "compilation",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Fresh",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Fresh",
           "name": "project",
           "normalized": "a-\u003eStateExtensionFresh",
@@ -594,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompilation\n   Monad and combinators for quickly assembling simple\n   compilers.\n\u003c/p\u003e\u003cpre\u003eControl/Compilation/Module.hs\u003c/pre\u003e\u003cp\u003eState extension class and combinators for implementations\n   of a state that support module name specification.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Module",
           "name": "Module",
           "package": "compilation",
@@ -603,6 +654,7 @@
         "index": {
           "description": "Compilation Monad and combinators for quickly assembling simple compilers Control Compilation Module.hs State extension class and combinators for implementations of state that support module name specification",
           "hierarchy": "Control Compilation Module",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Module",
           "name": "Module",
           "package": "compilation",
@@ -617,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState extension class definition, including combinators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Module",
           "name": "HasModule",
           "package": "compilation",
@@ -626,6 +679,7 @@
         "index": {
           "description": "State extension class definition including combinators",
           "hierarchy": "Control Compilation Module",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Module",
           "name": "HasModule",
           "package": "compilation",
@@ -640,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonyms and class memberships.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Module",
           "name": "ModuleName",
           "package": "compilation",
@@ -649,6 +704,7 @@
         "index": {
           "description": "Type synonyms and class memberships",
           "hierarchy": "Control Compilation Module",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Module",
           "name": "ModuleName",
           "package": "compilation",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Module",
           "name": "StateExtensionModule",
           "package": "compilation",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Module",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Module",
           "name": "StateExtensionModule",
           "package": "compilation",
@@ -683,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Module",
           "name": "getModule",
           "package": "compilation",
@@ -692,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Module",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Module",
           "name": "getModule",
           "package": "compilation",
@@ -705,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Module",
           "name": "inject",
           "package": "compilation",
@@ -714,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Module",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Module",
           "name": "inject",
           "normalized": "StateExtensionModule-\u003ea-\u003ea",
@@ -728,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Module",
           "name": "project",
           "package": "compilation",
@@ -737,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Module",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Module",
           "name": "project",
           "normalized": "a-\u003eStateExtensionModule",
@@ -751,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Module",
           "name": "setModule",
           "package": "compilation",
@@ -760,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Module",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Module",
           "name": "setModule",
           "normalized": "String-\u003eCompilation a()",
@@ -776,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompilation\n   Monad and combinators for quickly assembling simple\n   compilers.\n\u003c/p\u003e\u003cpre\u003eControl/Compilation/Sequences.hs\u003c/pre\u003e\u003cp\u003eA generic compilation monad for quickly assembling simple\n   compilers for target languages that are primarily\n   sequences of instructions (possibly with nesting, e.g., \n   loop constructs or procedures).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Sequences",
           "name": "Sequences",
           "package": "compilation",
@@ -785,6 +852,7 @@
         "index": {
           "description": "Compilation Monad and combinators for quickly assembling simple compilers Control Compilation Sequences.hs generic compilation monad for quickly assembling simple compilers for target languages that are primarily sequences of instructions possibly with nesting e.g loop constructs or procedures",
           "hierarchy": "Control Compilation Sequences",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Sequences",
           "name": "Sequences",
           "package": "compilation",
@@ -799,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState extension class definition, and combinators for\n   compiling into a sequence (possibly with nested blocks)\n   of instructions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Sequences",
           "name": "HasSequences",
           "package": "compilation",
@@ -808,6 +877,7 @@
         "index": {
           "description": "State extension class definition and combinators for compiling into sequence possibly with nested blocks of instructions",
           "hierarchy": "Control Compilation Sequences",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Sequences",
           "name": "HasSequences",
           "package": "compilation",
@@ -822,6 +892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonyms and class memberships.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Sequences",
           "name": "StateExtensionSequences",
           "package": "compilation",
@@ -831,6 +902,7 @@
         "index": {
           "description": "Type synonyms and class memberships",
           "hierarchy": "Control Compilation Sequences",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Sequences",
           "name": "StateExtensionSequences",
           "package": "compilation",
@@ -844,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Sequences",
           "name": "depth",
           "package": "compilation",
@@ -853,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Sequences",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Sequences",
           "name": "depth",
           "package": "compilation",
@@ -865,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Sequences",
           "name": "inject",
           "package": "compilation",
@@ -874,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Sequences",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Sequences",
           "name": "inject",
           "normalized": "StateExtensionSequences a-\u003eb-\u003eb",
@@ -888,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Sequences",
           "name": "nest",
           "package": "compilation",
@@ -897,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Sequences",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Sequences",
           "name": "nest",
           "normalized": "[a]-\u003eCompilation b()",
@@ -911,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Sequences",
           "name": "project",
           "package": "compilation",
@@ -920,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Sequences",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Sequences",
           "name": "project",
           "normalized": "a-\u003eStateExtensionSequences b",
@@ -934,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Sequences",
           "name": "unnest",
           "package": "compilation",
@@ -943,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation Sequences",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Sequences",
           "name": "unnest",
           "normalized": "Compilation a[b]",
@@ -958,6 +1040,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompilation\n   Monad and combinators for quickly assembling simple\n   compilers.\n\u003c/p\u003e\u003cpre\u003eControl/Compilation/String.hs\u003c/pre\u003e\u003cp\u003eA generic compilation monad and combinators for quickly\n   assembling simple compilers that emit an ASCII string\n   representation of the target language (well-suited for\n   direct syntax translators).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.String",
           "name": "String",
           "package": "compilation",
@@ -967,6 +1050,7 @@
         "index": {
           "description": "Compilation Monad and combinators for quickly assembling simple compilers Control Compilation String.hs generic compilation monad and combinators for quickly assembling simple compilers that emit an ASCII string representation of the target language well-suited for direct syntax translators",
           "hierarchy": "Control Compilation String",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.String",
           "name": "String",
           "package": "compilation",
@@ -981,6 +1065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState extension class definition, including combinators\n   and convenient synonyms for compiling directly into a raw\n   ASCII string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.String",
           "name": "HasString",
           "package": "compilation",
@@ -990,6 +1075,7 @@
         "index": {
           "description": "State extension class definition including combinators and convenient synonyms for compiling directly into raw ASCII string",
           "hierarchy": "Control Compilation String",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.String",
           "name": "HasString",
           "package": "compilation",
@@ -1004,6 +1090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonyms and class memberships.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.String",
           "name": "Indentation",
           "package": "compilation",
@@ -1013,6 +1100,7 @@
         "index": {
           "description": "Type synonyms and class memberships",
           "hierarchy": "Control Compilation String",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.String",
           "name": "Indentation",
           "package": "compilation",
@@ -1026,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.String",
           "name": "StateExtensionString",
           "package": "compilation",
@@ -1034,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation String",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.String",
           "name": "StateExtensionString",
           "package": "compilation",
@@ -1047,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.String",
           "name": "compiled",
           "package": "compilation",
@@ -1056,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation String",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.String",
           "name": "compiled",
           "normalized": "Compilation a b-\u003eString",
@@ -1070,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.String",
           "name": "indent",
           "package": "compilation",
@@ -1079,6 +1172,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation String",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.String",
           "name": "indent",
           "normalized": "Compilation a()",
@@ -1093,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.String",
           "name": "inject",
           "package": "compilation",
@@ -1102,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation String",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.String",
           "name": "inject",
           "normalized": "StateExtensionString-\u003ea-\u003ea",
@@ -1116,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.String",
           "name": "newline",
           "package": "compilation",
@@ -1125,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation String",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.String",
           "name": "newline",
           "normalized": "Compilation a()",
@@ -1139,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.String",
           "name": "newlines",
           "package": "compilation",
@@ -1148,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation String",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.String",
           "name": "newlines",
           "normalized": "Int-\u003eCompilation a()",
@@ -1162,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.String",
           "name": "project",
           "package": "compilation",
@@ -1171,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation String",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.String",
           "name": "project",
           "normalized": "a-\u003eStateExtensionString",
@@ -1185,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.String",
           "name": "raw",
           "package": "compilation",
@@ -1194,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation String",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.String",
           "name": "raw",
           "normalized": "String-\u003eCompilation a()",
@@ -1208,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.String",
           "name": "space",
           "package": "compilation",
@@ -1217,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation String",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.String",
           "name": "space",
           "normalized": "Compilation a()",
@@ -1231,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.String",
           "name": "spaces",
           "package": "compilation",
@@ -1240,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation String",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.String",
           "name": "spaces",
           "normalized": "Int-\u003eCompilation a()",
@@ -1254,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.String",
           "name": "string",
           "package": "compilation",
@@ -1263,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation String",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.String",
           "name": "string",
           "normalized": "String-\u003eCompilation a()",
@@ -1277,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.String",
           "name": "unindent",
           "package": "compilation",
@@ -1286,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation String",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.String",
           "name": "unindent",
           "normalized": "Compilation a()",
@@ -1301,6 +1413,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompilation\n   Monad and combinators for quickly assembling simple\n   compilers.\n\u003c/p\u003e\u003cpre\u003eControl/Compilation/Trees.hs\u003c/pre\u003e\u003cp\u003eA generic compilation monad for quickly assembling simple\n   compilers for target languages that are primarily\n   expression trees.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation.Trees",
           "name": "Trees",
           "package": "compilation",
@@ -1310,6 +1423,7 @@
         "index": {
           "description": "Compilation Monad and combinators for quickly assembling simple compilers Control Compilation Trees.hs generic compilation monad for quickly assembling simple compilers for target languages that are primarily expression trees",
           "hierarchy": "Control Compilation Trees",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation.Trees",
           "name": "Trees",
           "package": "compilation",
@@ -1324,6 +1438,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompilation\n   Monad and combinators for quickly assembling simple\n   compilers.\n\u003c/p\u003e\u003cpre\u003eControl/Compilation.hs\u003c/pre\u003e\u003cp\u003eA generic compilation monad for quickly assembling simple\n   compilers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation",
           "name": "Compilation",
           "package": "compilation",
@@ -1333,6 +1448,7 @@
         "index": {
           "description": "Compilation Monad and combinators for quickly assembling simple compilers Control Compilation.hs generic compilation monad for quickly assembling simple compilers",
           "hierarchy": "Control Compilation",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation",
           "name": "Compilation",
           "package": "compilation",
@@ -1346,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation",
           "name": "Compilation",
           "package": "compilation",
@@ -1354,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation",
           "name": "Compilation",
           "package": "compilation",
@@ -1367,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation",
           "name": "Compile",
           "package": "compilation",
@@ -1375,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation",
           "name": "Compile",
           "package": "compilation",
@@ -1389,6 +1509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState data structure wrapper.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation",
           "name": "State",
           "package": "compilation",
@@ -1398,6 +1519,7 @@
         "index": {
           "description": "State data structure wrapper",
           "hierarchy": "Control Compilation",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation",
           "name": "State",
           "package": "compilation",
@@ -1412,6 +1534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData types, class declarations, and class memberships.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation",
           "name": "StateExtension",
           "package": "compilation",
@@ -1421,6 +1544,7 @@
         "index": {
           "description": "Data types class declarations and class memberships",
           "hierarchy": "Control Compilation",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation",
           "name": "StateExtension",
           "package": "compilation",
@@ -1434,6 +1558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation",
           "name": "Compilation",
           "package": "compilation",
@@ -1443,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation",
           "name": "Compilation",
           "normalized": "Compilation(State a-\u003e(State a,b))",
@@ -1458,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation",
           "name": "Error",
           "package": "compilation",
@@ -1467,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation",
           "name": "Error",
           "package": "compilation",
@@ -1480,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation",
           "name": "State",
           "package": "compilation",
@@ -1489,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation",
           "name": "State",
           "package": "compilation",
@@ -1502,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation",
           "name": "error",
           "package": "compilation",
@@ -1511,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation",
           "name": "error",
           "normalized": "String-\u003eCompilation a()",
@@ -1526,6 +1658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric combinators and functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation",
           "name": "extract",
           "package": "compilation",
@@ -1536,6 +1669,7 @@
         "index": {
           "description": "Generic combinators and functions",
           "hierarchy": "Control Compilation",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation",
           "name": "extract",
           "normalized": "Compilation a b-\u003ea",
@@ -1550,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation",
           "name": "extractFromState",
           "package": "compilation",
@@ -1559,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation",
           "name": "extractFromState",
           "normalized": "a-\u003eCompilation a b-\u003ea",
@@ -1574,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation",
           "name": "get",
           "package": "compilation",
@@ -1583,6 +1720,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation",
           "name": "get",
           "package": "compilation",
@@ -1595,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation",
           "name": "initial",
           "package": "compilation",
@@ -1604,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation",
           "name": "initial",
           "package": "compilation",
@@ -1616,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation",
           "name": "nothing",
           "package": "compilation",
@@ -1625,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation",
           "name": "nothing",
           "normalized": "Compilation a()",
@@ -1639,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:15 UTC 2014",
           "module": "Control.Compilation",
           "name": "set",
           "package": "compilation",
@@ -1648,6 +1791,7 @@
         },
         "index": {
           "hierarchy": "Control Compilation",
+          "indexed": "2014-03-11T17:37:15",
           "module": "Control.Compilation",
           "name": "set",
           "normalized": "a-\u003eCompilation a()",

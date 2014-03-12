@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "udbus-model"
+        "phrase": "udbus-model",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModel parsing for introspections and definition\n of DBus interfaces.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Model",
           "package": "udbus-model",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Model parsing for introspections and definition of DBus interfaces",
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Model",
           "package": "udbus-model",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperty access type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Access",
           "package": "udbus-model",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Property access type",
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Access",
           "package": "udbus-model",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a DBus Method's Annotation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Annotation",
           "package": "udbus-model",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Represent DBus Method Annotation",
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Annotation",
           "package": "udbus-model",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a DBus Arg (Parameter)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Arg",
           "package": "udbus-model",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Represent DBus Arg Parameter",
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Arg",
           "package": "udbus-model",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Doc",
           "package": "udbus-model",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Doc",
           "package": "udbus-model",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDBus Enumeration value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "EnumValue",
           "package": "udbus-model",
@@ -141,6 +152,7 @@
         "index": {
           "description": "DBus Enumeration value",
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "EnumValue",
           "package": "udbus-model",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDBus Enumeration (Telepathy extension)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Enumeration",
           "package": "udbus-model",
@@ -164,6 +177,7 @@
         "index": {
           "description": "DBus Enumeration Telepathy extension",
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Enumeration",
           "package": "udbus-model",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Flag",
           "package": "udbus-model",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Flag",
           "package": "udbus-model",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDBus Flags (Telepathy extension)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Flags",
           "package": "udbus-model",
@@ -208,6 +225,7 @@
         "index": {
           "description": "DBus Flags Telepathy extension",
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Flags",
           "package": "udbus-model",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn DBus XML interface containing methods, signals and properties\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Interface",
           "package": "udbus-model",
@@ -231,6 +250,7 @@
         "index": {
           "description": "An DBus XML interface containing methods signals and properties",
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Interface",
           "package": "udbus-model",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDBus Struct Member\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Member",
           "package": "udbus-model",
@@ -254,6 +275,7 @@
         "index": {
           "description": "DBus Struct Member",
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Member",
           "package": "udbus-model",
@@ -268,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a DBus Method\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Method",
           "package": "udbus-model",
@@ -277,6 +300,7 @@
         "index": {
           "description": "Represent DBus Method",
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Method",
           "package": "udbus-model",
@@ -291,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe whole XML model\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Model",
           "package": "udbus-model",
@@ -300,6 +325,7 @@
         "index": {
           "description": "The whole XML model",
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Model",
           "package": "udbus-model",
@@ -314,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a DBus Property\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Property",
           "package": "udbus-model",
@@ -323,6 +350,7 @@
         "index": {
           "description": "Represent DBus Property",
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Property",
           "package": "udbus-model",
@@ -337,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a DBus Signal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Signal",
           "package": "udbus-model",
@@ -346,6 +375,7 @@
         "index": {
           "description": "Represent DBus Signal",
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Signal",
           "package": "udbus-model",
@@ -360,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDBus Struct (Telepathy extension)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Struct",
           "package": "udbus-model",
@@ -369,6 +400,7 @@
         "index": {
           "description": "DBus Struct Telepathy extension",
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Struct",
           "package": "udbus-model",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Annotation",
           "package": "udbus-model",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Annotation",
           "package": "udbus-model",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Arg",
           "package": "udbus-model",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Arg",
           "package": "udbus-model",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "EnumValue",
           "package": "udbus-model",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "EnumValue",
           "package": "udbus-model",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Enumeration",
           "package": "udbus-model",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Enumeration",
           "package": "udbus-model",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Flag",
           "package": "udbus-model",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Flag",
           "package": "udbus-model",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Flags",
           "package": "udbus-model",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Flags",
           "package": "udbus-model",
@@ -514,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Interface",
           "package": "udbus-model",
@@ -523,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Interface",
           "package": "udbus-model",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Member",
           "package": "udbus-model",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Member",
           "package": "udbus-model",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Method",
           "package": "udbus-model",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Method",
           "package": "udbus-model",
@@ -580,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Model",
           "package": "udbus-model",
@@ -589,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Model",
           "package": "udbus-model",
@@ -602,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Property",
           "package": "udbus-model",
@@ -611,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Property",
           "package": "udbus-model",
@@ -624,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Read",
           "package": "udbus-model",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Read",
           "package": "udbus-model",
@@ -646,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "ReadWrite",
           "package": "udbus-model",
@@ -655,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "ReadWrite",
           "package": "udbus-model",
@@ -668,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Signal",
           "package": "udbus-model",
@@ -677,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Signal",
           "package": "udbus-model",
@@ -690,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Struct",
           "package": "udbus-model",
@@ -699,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Struct",
           "package": "udbus-model",
@@ -712,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "Write",
           "package": "udbus-model",
@@ -721,6 +784,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "Write",
           "package": "udbus-model",
@@ -734,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "annotationName",
           "package": "udbus-model",
@@ -743,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "annotationName",
           "package": "udbus-model",
@@ -756,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "annotationValue",
           "package": "udbus-model",
@@ -765,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "annotationValue",
           "package": "udbus-model",
@@ -778,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "argDoc",
           "package": "udbus-model",
@@ -787,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "argDoc",
           "package": "udbus-model",
@@ -800,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "argName",
           "package": "udbus-model",
@@ -809,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "argName",
           "package": "udbus-model",
@@ -822,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "argType",
           "package": "udbus-model",
@@ -831,6 +904,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "argType",
           "package": "udbus-model",
@@ -844,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "enumName",
           "package": "udbus-model",
@@ -853,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "enumName",
           "package": "udbus-model",
@@ -866,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "enumSuffix",
           "package": "udbus-model",
@@ -875,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "enumSuffix",
           "package": "udbus-model",
@@ -888,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "enumType",
           "package": "udbus-model",
@@ -897,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "enumType",
           "package": "udbus-model",
@@ -910,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "enumValue",
           "package": "udbus-model",
@@ -919,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "enumValue",
           "package": "udbus-model",
@@ -932,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "enumValues",
           "package": "udbus-model",
@@ -941,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "enumValues",
           "normalized": "[EnumValue]",
@@ -956,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "flagDoc",
           "package": "udbus-model",
@@ -965,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "flagDoc",
           "package": "udbus-model",
@@ -978,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "flagSuffix",
           "package": "udbus-model",
@@ -987,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "flagSuffix",
           "package": "udbus-model",
@@ -1000,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "flagValue",
           "package": "udbus-model",
@@ -1009,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "flagValue",
           "package": "udbus-model",
@@ -1022,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "flagsDoc",
           "package": "udbus-model",
@@ -1031,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "flagsDoc",
           "package": "udbus-model",
@@ -1044,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "flagsFlags",
           "package": "udbus-model",
@@ -1053,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "flagsFlags",
           "normalized": "[Flag]",
@@ -1068,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "flagsName",
           "package": "udbus-model",
@@ -1077,6 +1172,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "flagsName",
           "package": "udbus-model",
@@ -1090,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "flagsType",
           "package": "udbus-model",
@@ -1099,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "flagsType",
           "package": "udbus-model",
@@ -1112,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "flagsValuePrefix",
           "package": "udbus-model",
@@ -1121,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "flagsValuePrefix",
           "package": "udbus-model",
@@ -1134,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "fromXML",
           "package": "udbus-model",
@@ -1143,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "fromXML",
           "normalized": "String-\u003eMaybe Model",
@@ -1158,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "interfaceEnums",
           "package": "udbus-model",
@@ -1167,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "interfaceEnums",
           "normalized": "[Enumeration]",
@@ -1183,6 +1287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of list of flag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "interfaceFlagss",
           "package": "udbus-model",
@@ -1193,6 +1298,7 @@
         "index": {
           "description": "List of list of flag",
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "interfaceFlagss",
           "normalized": "[Flags]",
@@ -1208,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "interfaceMethods",
           "package": "udbus-model",
@@ -1217,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "interfaceMethods",
           "normalized": "[Method]",
@@ -1232,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "interfaceName",
           "package": "udbus-model",
@@ -1241,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "interfaceName",
           "package": "udbus-model",
@@ -1254,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "interfaceProperties",
           "package": "udbus-model",
@@ -1263,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "interfaceProperties",
           "normalized": "[Property]",
@@ -1278,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "interfaceSignals",
           "package": "udbus-model",
@@ -1287,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "interfaceSignals",
           "normalized": "[Signal]",
@@ -1302,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "interfaceStructs",
           "package": "udbus-model",
@@ -1311,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "interfaceStructs",
           "normalized": "[Struct]",
@@ -1326,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "interfaces",
           "package": "udbus-model",
@@ -1335,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "interfaces",
           "normalized": "[Interface]",
@@ -1349,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "memberDoc",
           "package": "udbus-model",
@@ -1358,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "memberDoc",
           "package": "udbus-model",
@@ -1371,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "memberName",
           "package": "udbus-model",
@@ -1380,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "memberName",
           "package": "udbus-model",
@@ -1393,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "memberRawType",
           "package": "udbus-model",
@@ -1402,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "memberRawType",
           "package": "udbus-model",
@@ -1415,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "memberType",
           "package": "udbus-model",
@@ -1424,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "memberType",
           "package": "udbus-model",
@@ -1437,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "methodAnnotations",
           "package": "udbus-model",
@@ -1446,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "methodAnnotations",
           "normalized": "[Annotation]",
@@ -1461,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "methodDoc",
           "package": "udbus-model",
@@ -1470,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "methodDoc",
           "package": "udbus-model",
@@ -1483,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "methodName",
           "package": "udbus-model",
@@ -1492,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "methodName",
           "package": "udbus-model",
@@ -1505,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "methodParamsIn",
           "package": "udbus-model",
@@ -1514,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "methodParamsIn",
           "normalized": "[Arg]",
@@ -1529,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "methodParamsOut",
           "package": "udbus-model",
@@ -1538,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "methodParamsOut",
           "normalized": "[Arg]",
@@ -1553,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "nodeName",
           "package": "udbus-model",
@@ -1562,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "nodeName",
           "package": "udbus-model",
@@ -1575,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "nodeXmlns",
           "package": "udbus-model",
@@ -1584,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "nodeXmlns",
           "package": "udbus-model",
@@ -1597,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "propertyAccess",
           "package": "udbus-model",
@@ -1606,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "propertyAccess",
           "package": "udbus-model",
@@ -1619,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "propertyName",
           "package": "udbus-model",
@@ -1628,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "propertyName",
           "package": "udbus-model",
@@ -1641,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "propertyRawType",
           "package": "udbus-model",
@@ -1650,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "propertyRawType",
           "package": "udbus-model",
@@ -1663,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "propertyType",
           "package": "udbus-model",
@@ -1672,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "propertyType",
           "package": "udbus-model",
@@ -1685,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "signalDoc",
           "package": "udbus-model",
@@ -1694,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "signalDoc",
           "package": "udbus-model",
@@ -1707,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "signalName",
           "package": "udbus-model",
@@ -1716,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "signalName",
           "package": "udbus-model",
@@ -1729,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "signalParams",
           "package": "udbus-model",
@@ -1738,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "signalParams",
           "normalized": "[Arg]",
@@ -1753,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "structMembers",
           "package": "udbus-model",
@@ -1762,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "structMembers",
           "normalized": "[Member]",
@@ -1777,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:36 UTC 2014",
           "module": "Network.DBus.Model",
           "name": "structName",
           "package": "udbus-model",
@@ -1786,6 +1943,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Model",
+          "indexed": "2014-03-11T20:28:36",
           "module": "Network.DBus.Model",
           "name": "structName",
           "package": "udbus-model",

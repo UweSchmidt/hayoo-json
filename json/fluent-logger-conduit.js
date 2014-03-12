@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fluent-logger-conduit"
+        "phrase": "fluent-logger-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFluent Logger with Conduit Interface\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:55 UTC 2014",
           "module": "Network.Fluent.Conduit",
           "name": "Conduit",
           "package": "fluent-logger-conduit",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Fluent Logger with Conduit Interface",
           "hierarchy": "Network Fluent Conduit",
+          "indexed": "2014-03-11T18:10:55",
           "module": "Network.Fluent.Conduit",
           "name": "Conduit",
           "package": "fluent-logger-conduit",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream all incoming pair ( label, data ) to the given Fluent.\n\u003c/p\u003e\u003cp\u003eSince 0.2.0.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:55 UTC 2014",
           "module": "Network.Fluent.Conduit",
           "name": "sinkFluent",
           "package": "fluent-logger-conduit",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Stream all incoming pair label data to the given Fluent Since",
           "hierarchy": "Network Fluent Conduit",
+          "indexed": "2014-03-11T18:10:55",
           "module": "Network.Fluent.Conduit",
           "name": "sinkFluent",
           "normalized": "FluentSettings-\u003eConsumer(ByteString,a)b()",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream all incoming pair ( label, data ) to the given Fluent logger.\n\u003c/p\u003e\u003cp\u003eSince 0.2.0.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:55 UTC 2014",
           "module": "Network.Fluent.Conduit",
           "name": "sinkFluentWithLogger",
           "package": "fluent-logger-conduit",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Stream all incoming pair label data to the given Fluent logger Since",
           "hierarchy": "Network Fluent Conduit",
+          "indexed": "2014-03-11T18:10:55",
           "module": "Network.Fluent.Conduit",
           "name": "sinkFluentWithLogger",
           "normalized": "FluentLogger-\u003eConsumer(ByteString,a)b()",

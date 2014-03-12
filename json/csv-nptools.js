@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "csv-nptools"
+        "phrase": "csv-nptools",
+        "type": "phrase"
       },
       "type": "context"
     }

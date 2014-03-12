@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "prelude-plus"
+        "phrase": "prelude-plus",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library provides couple utility functions and re-exports some\n  useful modules.\n\u003c/p\u003e\u003cp\u003eSome modules are useful but names of functions in them are\n  confliting to Prelude's one. So if we want to use them, we need\n  qualified import or specifing no implict importing prelude.\n\u003c/p\u003e\u003cp\u003eThis library takes over these boilerplates.\n\u003c/p\u003e\u003cp\u003eSo, write after your module header\n\u003c/p\u003e\u003cpre\u003e import Prelude ()\n import Prelude.Plus\n\n -- Then your code goes here.\n\u003c/pre\u003e\u003cp\u003eSo you can use function \u003ccode\u003eor\u003c/code\u003e has type \u003ccode\u003eTraversable t =\u003e t Bool -\u003e\n  Bool\u003c/code\u003e, \u003ccode\u003eputStrLn\u003c/code\u003e works for any utf8 strings, even Applicative\n  operators, etc.\n\u003c/p\u003e\u003cp\u003eYes, \u003ca\u003eControl.Applicative\u003c/a\u003e doesn't need qualified importing but\n  importing such modules are also boilerplates, IMO.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:11 UTC 2014",
           "module": "Prelude.Plus",
           "name": "Plus",
           "package": "prelude-plus",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This library provides couple utility functions and re-exports some useful modules Some modules are useful but names of functions in them are confliting to Prelude one So if we want to use them we need qualified import or specifing no implict importing prelude This library takes over these boilerplates So write after your module header import Prelude import Prelude.Plus Then your code goes here So you can use function or has type Traversable Bool Bool putStrLn works for any utf8 strings even Applicative operators etc Yes Control.Applicative doesn need qualified importing but importing such modules are also boilerplates IMO",
           "hierarchy": "Prelude Plus",
+          "indexed": "2014-03-11T19:43:11",
           "module": "Prelude.Plus",
           "name": "Plus",
           "package": "prelude-plus",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:11 UTC 2014",
           "module": "Prelude.Plus",
           "name": "dup",
           "package": "prelude-plus",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Prelude Plus",
+          "indexed": "2014-03-11T19:43:11",
           "module": "Prelude.Plus",
           "name": "dup",
           "normalized": "a-\u003e(a,a)",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:11 UTC 2014",
           "module": "Prelude.Plus",
           "name": "null",
           "package": "prelude-plus",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Prelude Plus",
+          "indexed": "2014-03-11T19:43:11",
           "module": "Prelude.Plus",
           "name": "null",
           "normalized": "a b-\u003eBool",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:11 UTC 2014",
           "module": "Prelude.Plus",
           "name": "size",
           "package": "prelude-plus",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Prelude Plus",
+          "indexed": "2014-03-11T19:43:11",
           "module": "Prelude.Plus",
           "name": "size",
           "normalized": "a b-\u003eInt",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:11 UTC 2014",
           "module": "Prelude.Plus",
           "name": "swap",
           "package": "prelude-plus",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Prelude Plus",
+          "indexed": "2014-03-11T19:43:11",
           "module": "Prelude.Plus",
           "name": "swap",
           "normalized": "(a,b)-\u003e(b,a)",

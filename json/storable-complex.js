@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "storable-complex"
+        "phrase": "storable-complex",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a Storable instance for Complex which is binary\n compatible with C99, C++ and Fortran complex data types.  It's only purpose\n is to provide a standard location for this instance so that other packages\n needing this instance can play nicely together.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:11:37 UTC 2014",
           "module": "Foreign.Storable.Complex",
           "name": "Complex",
           "package": "storable-complex",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides Storable instance for Complex which is binary compatible with C99 and Fortran complex data types It only purpose is to provide standard location for this instance so that other packages needing this instance can play nicely together",
           "hierarchy": "Foreign Storable Complex",
+          "indexed": "2014-03-11T20:11:37",
           "module": "Foreign.Storable.Complex",
           "name": "Complex",
           "package": "storable-complex",

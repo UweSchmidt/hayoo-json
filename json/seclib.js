@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "seclib"
+        "phrase": "seclib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefine the classic two-point lattice that refers to public and secret information. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.LatticeLH",
           "name": "LatticeLH",
           "package": "seclib",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Define the classic two-point lattice that refers to public and secret information",
           "hierarchy": "SecLib LatticeLH",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.LatticeLH",
           "name": "LatticeLH",
           "package": "seclib",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type representing the security level associated to secret information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.LatticeLH",
           "name": "H",
           "package": "seclib",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Data type representing the security level associated to secret information",
           "hierarchy": "SecLib LatticeLH",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.LatticeLH",
           "name": "H",
           "package": "seclib",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type representing the security level associated to public information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.LatticeLH",
           "name": "L",
           "package": "seclib",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Data type representing the security level associated to public information",
           "hierarchy": "SecLib LatticeLH",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.LatticeLH",
           "name": "L",
           "package": "seclib",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe attacker is at the terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.LatticeLH",
           "name": "scr",
           "package": "seclib",
@@ -96,6 +103,7 @@
         "index": {
           "description": "The attacker is at the terminal",
           "hierarchy": "SecLib LatticeLH",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.LatticeLH",
           "name": "scr",
           "package": "seclib",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe security library interface for \u003cem\u003etrustworthy modules\u003c/em\u003e. \n     It is the same interface as the one for untrustworthy code (module \u003ca\u003eUntrustworthy\u003c/a\u003e) with the addition of \n     functions \u003ccode\u003e\u003ca\u003ereveal\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erevealIO\u003c/a\u003e\u003c/code\u003e to respectively break the abstraction of the security monads \u003ccode\u003e\u003ca\u003eSec\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eSecIO\u003c/a\u003e\u003c/code\u003e \n     as well as the declassification \n     combinators \u003ccode\u003e\u003ca\u003ehatch\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003entimes\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eflock\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003edlm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "Trustworthy",
           "package": "seclib",
@@ -118,6 +127,7 @@
         "index": {
           "description": "The security library interface for trustworthy modules It is the same interface as the one for untrustworthy code module Untrustworthy with the addition of functions reveal and revealIO to respectively break the abstraction of the security monads Sec and SecIO as well as the declassification combinators hatch ntimes flock and dlm",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "Trustworthy",
           "package": "seclib",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "Attacker",
           "package": "seclib",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "Attacker",
           "package": "seclib",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by \u003ccode\u003e\u003ca\u003edlm\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "Authority",
           "package": "seclib",
@@ -162,6 +175,7 @@
         "index": {
           "description": "Used by dlm",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "Authority",
           "package": "seclib",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by \u003ccode\u003e\u003ca\u003eflock\u003c/a\u003e\u003c/code\u003e. It represents computations that close flow locks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "Close",
           "package": "seclib",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Used by flock It represents computations that close flow locks",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "Close",
           "package": "seclib",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocations that represent files   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "File",
           "package": "seclib",
@@ -208,6 +225,7 @@
         "index": {
           "description": "Locations that represent files",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "File",
           "package": "seclib",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "Less",
           "package": "seclib",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "Less",
           "package": "seclib",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent secure locations.\n    This data type is internally used to easily introduce new side-effects into this module.\n    Type \u003ccode\u003et\u003c/code\u003e is the raw type needed to perform side-effects. For instance, \n    \u003ccode\u003et\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e for files and \u003ccode\u003e\u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e for references. Type \u003ccode\u003es\u003c/code\u003e is the confidentiality level of the \n    location. Type \u003ccode\u003ea\u003c/code\u003e is the type of values written and read form \u003ccode\u003et\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "Loc",
           "package": "seclib",
@@ -252,6 +273,7 @@
         "index": {
           "description": "Represent secure locations This data type is internally used to easily introduce new side-effects into this module Type is the raw type needed to perform side-effects For instance is FilePath for files and IORef for references Type is the confidentiality level of the location Type is the type of values written and read form",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "Loc",
           "package": "seclib",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by \u003ccode\u003e\u003ca\u003eflock\u003c/a\u003e\u003c/code\u003e. It represents computations that open flow locks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "Open",
           "package": "seclib",
@@ -275,6 +298,7 @@
         "index": {
           "description": "Used by flock It represents computations that open flow locks",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "Open",
           "package": "seclib",
@@ -289,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocations that represent references. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "Ref",
           "package": "seclib",
@@ -298,6 +323,7 @@
         "index": {
           "description": "Locations that represent references",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "Ref",
           "package": "seclib",
@@ -312,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocation that represents the screen-keyword. Here, we can choose between \n     a) The attacker is on the screen-keyword, which implies that when taking input \n     from the screen has an effect -- the attacker can see when the input is required. \n     Therefore, we need to implement taking input from the keyword using \u003ccode\u003eeffectful_read\u003c/code\u003e.\n     b) The attacker is not on the screen-keyword. In this case, we implement \n     reading using \u003ccode\u003eeffectless_read\u003c/code\u003e. We choose option a) as a model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "Screen",
           "package": "seclib",
@@ -321,6 +348,7 @@
         "index": {
           "description": "Location that represents the screen-keyword Here we can choose between The attacker is on the screen-keyword which implies that when taking input from the screen has an effect the attacker can see when the input is required Therefore we need to implement taking input from the keyword using effectful read The attacker is not on the screen-keyword In this case we implement reading using effectless read We choose option as model",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "Screen",
           "package": "seclib",
@@ -335,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents pure values of type \u003ccode\u003ea\u003c/code\u003e at confidentiality level \u003ccode\u003es\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "Sec",
           "package": "seclib",
@@ -344,6 +373,7 @@
         "index": {
           "description": "This type represents pure values of type at confidentiality level",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "Sec",
           "package": "seclib",
@@ -358,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents secure side-effect computations. \n    These computations perform side-effects at security level, at least, \u003ccode\u003es\u003c/code\u003e and return\n    a value of type \u003ccode\u003ea\u003c/code\u003e with confidentiality level, at least, \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "SecIO",
           "package": "seclib",
@@ -367,6 +398,7 @@
         "index": {
           "description": "This type represents secure side-effect computations These computations perform side-effects at security level at least and return value of type with confidentiality level at least",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "SecIO",
           "package": "seclib",
@@ -381,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt defines a socket address at confidentiality level \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "SecSockAddr",
           "package": "seclib",
@@ -390,6 +423,7 @@
         "index": {
           "description": "It defines socket address at confidentiality level",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "SecSockAddr",
           "package": "seclib",
@@ -404,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocations that represent network communications via sockets. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "SecSocket",
           "package": "seclib",
@@ -413,6 +448,7 @@
         "index": {
           "description": "Locations that represent network communications via sockets",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "SecSocket",
           "package": "seclib",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "MkLoc",
           "package": "seclib",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "MkLoc",
           "package": "seclib",
@@ -554,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function allows to an escape hatch to be applied only when \n      the running code can be certified with some authority. The certification process is just to show that \n      the code has access to a constructor of type \u003ccode\u003esh\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "dlm",
           "package": "seclib",
@@ -564,6 +603,7 @@
         "index": {
           "description": "This function allows to an escape hatch to be applied only when the running code can be certified with some authority The certification process is just to show that the code has access to constructor of type sh",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "dlm",
           "normalized": "(Sec a b-\u003eSecIO c(Sec d e))-\u003eIO(Sec a b-\u003eSecIO c(Sec d e),Authority a)",
@@ -579,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function associates a flow lock to an escape hatch. \n      Then, the escape hatch \n      can be successfully applied when the flow lock is open. \n      The escape hatch cannot by applied after closing the flock lock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "flock",
           "package": "seclib",
@@ -589,6 +630,7 @@
         "index": {
           "description": "This function associates flow lock to an escape hatch Then the escape hatch can be successfully applied when the flow lock is open The escape hatch cannot by applied after closing the flock lock",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "flock",
           "normalized": "(Sec a b-\u003eSecIO c(Sec d e))-\u003eIO(Sec a b-\u003eSecIO c(Sec d e),Open c,Close c)",
@@ -631,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an escape hatch. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "hatch",
           "package": "seclib",
@@ -641,6 +684,7 @@
         "index": {
           "description": "Create an escape hatch",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "hatch",
           "normalized": "(a-\u003eb)-\u003eSec c a-\u003eSecIO d(Sec e b)",
@@ -683,6 +727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis method determines that information at security level \u003ccode\u003es\u003c/code\u003e can flow to security level \u003ccode\u003es'\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "less",
           "package": "seclib",
@@ -693,6 +738,7 @@
         "index": {
           "description": "This method determines that information at security level can flow to security level",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "less",
           "normalized": "a-\u003eb-\u003e()",
@@ -708,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreation of files is only allowed by trustworhty code. \nObserve that by creating a file, the \nconfidentiality level of its content is being established.\nTherefore, the attacker can create a public file using the name \nof a secret file and just read it! |\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "mkFile",
           "package": "seclib",
@@ -718,6 +765,7 @@
         "index": {
           "description": "Creation of files is only allowed by trustworhty code Observe that by creating file the confidentiality level of its content is being established Therefore the attacker can create public file using the name of secret file and just read it",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "mkFile",
           "normalized": "FilePath-\u003eFile a",
@@ -734,6 +782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt sets the security level of the standard input/output \n(usually the keyboard/screen).\nTo be used only by trustworthy code. |\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "mkScreen",
           "package": "seclib",
@@ -744,6 +793,7 @@
         "index": {
           "description": "It sets the security level of the standard input output usually the keyboard screen To be used only by trustworthy code",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "mkScreen",
           "normalized": "()-\u003eScreen a",
@@ -787,6 +837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimit the number of times that an escape hatch can be applied by \n      a single run of the program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "ntimes",
           "package": "seclib",
@@ -797,6 +848,7 @@
         "index": {
           "description": "Limit the number of times that an escape hatch can be applied by single run of the program",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "ntimes",
           "normalized": "Int-\u003e(Sec a b-\u003eSecIO c(Sec d e))-\u003eIO(Sec a b-\u003eSecIO c(Sec d e))",
@@ -812,6 +864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis method determines the observational power of the attacker.\n       Attackers are then capable to break the abstraction of the \n       security monads in module \u003ca\u003eSec\u003c/a\u003e and \u003ca\u003eSecIO\u003c/a\u003e for security levels\n       below or equal than \u003ccode\u003es\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "observe",
           "package": "seclib",
@@ -822,6 +875,7 @@
         "index": {
           "description": "This method determines the observational power of the attacker Attackers are then capable to break the abstraction of the security monads in module Sec and SecIO for security levels below or equal than",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "observe",
           "normalized": "a-\u003e()",
@@ -1051,6 +1105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreak the abstraction provide by \u003ccode\u003e\u003ca\u003eSec\u003c/a\u003e\u003c/code\u003e. \u003cem\u003eIt is used only in trustworthy code\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "reveal",
           "package": "seclib",
@@ -1061,6 +1116,7 @@
         "index": {
           "description": "Break the abstraction provide by Sec It is used only in trustworthy code",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "reveal",
           "normalized": "Sec a b-\u003eb",
@@ -1076,6 +1132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreak the abstraction provided by \u003ccode\u003e\u003ca\u003eSecIO\u003c/a\u003e\u003c/code\u003e. It is used only in trustworthy code!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Trustworthy",
           "name": "revealIO",
           "package": "seclib",
@@ -1086,6 +1143,7 @@
         "index": {
           "description": "Break the abstraction provided by SecIO It is used only in trustworthy code",
           "hierarchy": "SecLib Trustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Trustworthy",
           "name": "revealIO",
           "normalized": "SecIO a b-\u003eIO(Sec a b)",
@@ -1394,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe security library.  This is the \u003cem\u003eonly\u003c/em\u003e module of the library to be imported by untrustworthy code.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Untrustworthy",
           "name": "Untrustworthy",
           "package": "seclib",
@@ -1403,6 +1462,7 @@
         "index": {
           "description": "The security library This is the only module of the library to be imported by untrustworthy code",
           "hierarchy": "SecLib Untrustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Untrustworthy",
           "name": "Untrustworthy",
           "package": "seclib",
@@ -1416,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Untrustworthy",
           "name": "Attacker",
           "package": "seclib",
@@ -1424,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "SecLib Untrustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Untrustworthy",
           "name": "Attacker",
           "package": "seclib",
@@ -1438,6 +1500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed by \u003ccode\u003e\u003ca\u003edlm\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Untrustworthy",
           "name": "Authority",
           "package": "seclib",
@@ -1447,6 +1510,7 @@
         "index": {
           "description": "Used by dlm",
           "hierarchy": "SecLib Untrustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Untrustworthy",
           "name": "Authority",
           "package": "seclib",
@@ -1461,6 +1525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocations that represent files   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Untrustworthy",
           "name": "File",
           "package": "seclib",
@@ -1470,6 +1535,7 @@
         "index": {
           "description": "Locations that represent files",
           "hierarchy": "SecLib Untrustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Untrustworthy",
           "name": "File",
           "package": "seclib",
@@ -1483,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Untrustworthy",
           "name": "Less",
           "package": "seclib",
@@ -1491,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "SecLib Untrustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Untrustworthy",
           "name": "Less",
           "package": "seclib",
@@ -1505,6 +1573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocations that represent references. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Untrustworthy",
           "name": "Ref",
           "package": "seclib",
@@ -1514,6 +1583,7 @@
         "index": {
           "description": "Locations that represent references",
           "hierarchy": "SecLib Untrustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Untrustworthy",
           "name": "Ref",
           "package": "seclib",
@@ -1528,6 +1598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocation that represents the screen-keyword. Here, we can choose between \n     a) The attacker is on the screen-keyword, which implies that when taking input \n     from the screen has an effect -- the attacker can see when the input is required. \n     Therefore, we need to implement taking input from the keyword using \u003ccode\u003eeffectful_read\u003c/code\u003e.\n     b) The attacker is not on the screen-keyword. In this case, we implement \n     reading using \u003ccode\u003eeffectless_read\u003c/code\u003e. We choose option a) as a model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Untrustworthy",
           "name": "Screen",
           "package": "seclib",
@@ -1537,6 +1608,7 @@
         "index": {
           "description": "Location that represents the screen-keyword Here we can choose between The attacker is on the screen-keyword which implies that when taking input from the screen has an effect the attacker can see when the input is required Therefore we need to implement taking input from the keyword using effectful read The attacker is not on the screen-keyword In this case we implement reading using effectless read We choose option as model",
           "hierarchy": "SecLib Untrustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Untrustworthy",
           "name": "Screen",
           "package": "seclib",
@@ -1551,6 +1623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents pure values of type \u003ccode\u003ea\u003c/code\u003e at confidentiality level \u003ccode\u003es\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Untrustworthy",
           "name": "Sec",
           "package": "seclib",
@@ -1560,6 +1633,7 @@
         "index": {
           "description": "This type represents pure values of type at confidentiality level",
           "hierarchy": "SecLib Untrustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Untrustworthy",
           "name": "Sec",
           "package": "seclib",
@@ -1574,6 +1648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents secure side-effect computations. \n    These computations perform side-effects at security level, at least, \u003ccode\u003es\u003c/code\u003e and return\n    a value of type \u003ccode\u003ea\u003c/code\u003e with confidentiality level, at least, \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Untrustworthy",
           "name": "SecIO",
           "package": "seclib",
@@ -1583,6 +1658,7 @@
         "index": {
           "description": "This type represents secure side-effect computations These computations perform side-effects at security level at least and return value of type with confidentiality level at least",
           "hierarchy": "SecLib Untrustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Untrustworthy",
           "name": "SecIO",
           "package": "seclib",
@@ -1597,6 +1673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt defines a socket address at confidentiality level \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Untrustworthy",
           "name": "SecSockAddr",
           "package": "seclib",
@@ -1606,6 +1683,7 @@
         "index": {
           "description": "It defines socket address at confidentiality level",
           "hierarchy": "SecLib Untrustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Untrustworthy",
           "name": "SecSockAddr",
           "package": "seclib",
@@ -1620,6 +1698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocations that represent network communications via sockets. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:03 UTC 2014",
           "module": "SecLib.Untrustworthy",
           "name": "SecSocket",
           "package": "seclib",
@@ -1629,6 +1708,7 @@
         "index": {
           "description": "Locations that represent network communications via sockets",
           "hierarchy": "SecLib Untrustworthy",
+          "indexed": "2014-03-11T19:59:03",
           "module": "SecLib.Untrustworthy",
           "name": "SecSocket",
           "package": "seclib",

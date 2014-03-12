@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cqrs-sqlite3"
+        "phrase": "cqrs-sqlite3",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation of an SQLite3-based event store. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:23 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.Sqlite3",
           "name": "Sqlite3",
           "package": "cqrs-sqlite3",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Implementation of an SQLite3-based event store",
           "hierarchy": "Data CQRS EventStore Backend Sqlite3",
+          "indexed": "2014-03-11T17:42:23",
           "module": "Data.CQRS.EventStore.Backend.Sqlite3",
           "name": "Sqlite3",
           "package": "cqrs-sqlite3",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSQLite3 event store backend type alias.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:23 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.Sqlite3",
           "name": "SQLite3EventStoreBackend",
           "package": "cqrs-sqlite3",
@@ -51,6 +54,7 @@
         "index": {
           "description": "SQLite3 event store backend type alias",
           "hierarchy": "Data CQRS EventStore Backend Sqlite3",
+          "indexed": "2014-03-11T17:42:23",
           "module": "Data.CQRS.EventStore.Backend.Sqlite3",
           "name": "SQLite3EventStoreBackend",
           "package": "cqrs-sqlite3",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a pool of SQLite3-based event store backends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:23 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.Sqlite3",
           "name": "createBackendPool",
           "package": "cqrs-sqlite3",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Create pool of SQLite3-based event store backends",
           "hierarchy": "Data CQRS EventStore Backend Sqlite3",
+          "indexed": "2014-03-11T17:42:23",
           "module": "Data.CQRS.EventStore.Backend.Sqlite3",
           "name": "createBackendPool",
           "normalized": "Int-\u003eText-\u003eIO(Pool SQLite EventStoreBackend)",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation of an SQLite3-based event store. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:23 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.Sqlite3Utils",
           "name": "Sqlite3Utils",
           "package": "cqrs-sqlite3",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Implementation of an SQLite3-based event store",
           "hierarchy": "Data CQRS EventStore Backend Sqlite3Utils",
+          "indexed": "2014-03-11T17:42:23",
           "module": "Data.CQRS.EventStore.Backend.Sqlite3Utils",
           "name": "Sqlite3Utils",
           "package": "cqrs-sqlite3",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an SQL statement for which no result is expected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:23 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.Sqlite3Utils",
           "name": "execSql",
           "package": "cqrs-sqlite3",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Execute an SQL statement for which no result is expected",
           "hierarchy": "Data CQRS EventStore Backend Sqlite3Utils",
+          "indexed": "2014-03-11T17:42:23",
           "module": "Data.CQRS.EventStore.Backend.Sqlite3Utils",
           "name": "execSql",
           "normalized": "Database-\u003eText-\u003e[SQLData]-\u003eIO()",
@@ -139,6 +149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:23 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.Sqlite3Utils",
           "name": "sourceQuery",
           "package": "cqrs-sqlite3",
@@ -148,6 +159,7 @@
         },
         "index": {
           "hierarchy": "Data CQRS EventStore Backend Sqlite3Utils",
+          "indexed": "2014-03-11T17:42:23",
           "module": "Data.CQRS.EventStore.Backend.Sqlite3Utils",
           "name": "sourceQuery",
           "normalized": "Database-\u003eText-\u003e[SQLData]-\u003eSource(ResourceT IO)[SQLData]",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an IO action with an active transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:23 UTC 2014",
           "module": "Data.CQRS.EventStore.Backend.Sqlite3Utils",
           "name": "withTransaction",
           "package": "cqrs-sqlite3",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Execute an IO action with an active transaction",
           "hierarchy": "Data CQRS EventStore Backend Sqlite3Utils",
+          "indexed": "2014-03-11T17:42:23",
           "module": "Data.CQRS.EventStore.Backend.Sqlite3Utils",
           "name": "withTransaction",
           "normalized": "Database-\u003eIO a-\u003eIO a",

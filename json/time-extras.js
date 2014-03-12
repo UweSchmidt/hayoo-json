@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "time-extras"
+        "phrase": "time-extras",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:34 UTC 2014",
           "module": "Data.Time.Instances",
           "name": "Instances",
           "package": "time-extras",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Time Instances",
+          "indexed": "2014-03-11T20:22:34",
           "module": "Data.Time.Instances",
           "name": "Instances",
           "package": "time-extras",

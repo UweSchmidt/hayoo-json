@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "alsa-mixer"
+        "phrase": "alsa-mixer",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library provides bindings to the Advanced Linux Sound Architecture\n (ALSA) library API. The portability of this library is limited to\n systems with ALSA (i.e., Linux systems).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "Mixer",
           "package": "alsa-mixer",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This library provides bindings to the Advanced Linux Sound Architecture ALSA library API The portability of this library is limited to systems with ALSA i.e Linux systems",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "Mixer",
           "package": "alsa-mixer",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "Channel",
           "package": "alsa-mixer",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "Channel",
           "package": "alsa-mixer",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eControl\u003c/a\u003e\u003c/code\u003e represents one of the controls belonging to an ALSA mixer\n element. Each control has a number of playback and capture channels.\n The control may also have a switch and/or a volume capability associated\n with it. The capability can be common to both playback and capture, or\n there can be separate capabilities for each.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "Control",
           "package": "alsa-mixer",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Control represents one of the controls belonging to an ALSA mixer element Each control has number of playback and capture channels The control may also have switch and or volume capability associated with it The capability can be common to both playback and capture or there can be separate capabilities for each",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "Control",
           "package": "alsa-mixer",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "Mixer",
           "package": "alsa-mixer",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "Mixer",
           "package": "alsa-mixer",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ePerChannel\u003c/a\u003e\u003c/code\u003e represents a capability that with either a separate value for\n each channel or with a common value for all channels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "PerChannel",
           "package": "alsa-mixer",
@@ -116,6 +125,7 @@
         "index": {
           "description": "PerChannel represents capability that with either separate value for each channel or with common value for all channels",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "PerChannel",
           "package": "alsa-mixer",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSwitch\u003c/a\u003e\u003c/code\u003e represents a switch capability for controls and channels that can\n be muted and unmuted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "Switch",
           "package": "alsa-mixer",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Switch represents switch capability for controls and channels that can be muted and unmuted",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "Switch",
           "package": "alsa-mixer",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eVolume\u003c/a\u003e\u003c/code\u003e represents a volume capability. There may be a separate value per\n channel, but each capability has only one range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "Volume",
           "package": "alsa-mixer",
@@ -162,6 +175,7 @@
         "index": {
           "description": "Volume represents volume capability There may be separate value per channel but each capability has only one range",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "Volume",
           "package": "alsa-mixer",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "Control",
           "package": "alsa-mixer",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "Control",
           "package": "alsa-mixer",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "FrontCenter",
           "package": "alsa-mixer",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "FrontCenter",
           "package": "alsa-mixer",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "FrontLeft",
           "package": "alsa-mixer",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "FrontLeft",
           "package": "alsa-mixer",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "FrontRight",
           "package": "alsa-mixer",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "FrontRight",
           "package": "alsa-mixer",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "Joined",
           "package": "alsa-mixer",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "Joined",
           "package": "alsa-mixer",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "Last",
           "package": "alsa-mixer",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "Last",
           "package": "alsa-mixer",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "PerChannel",
           "package": "alsa-mixer",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "PerChannel",
           "package": "alsa-mixer",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "RearCenter",
           "package": "alsa-mixer",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "RearCenter",
           "package": "alsa-mixer",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "RearLeft",
           "package": "alsa-mixer",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "RearLeft",
           "package": "alsa-mixer",
@@ -373,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "RearRight",
           "package": "alsa-mixer",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "RearRight",
           "package": "alsa-mixer",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "SND_MIXER_SCHN_MONO",
           "package": "alsa-mixer",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "SND_MIXER_SCHN_MONO",
           "package": "alsa-mixer",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "SideLeft",
           "package": "alsa-mixer",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "SideLeft",
           "package": "alsa-mixer",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "SideRight",
           "package": "alsa-mixer",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "SideRight",
           "package": "alsa-mixer",
@@ -461,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "Unknown",
           "package": "alsa-mixer",
@@ -470,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "Unknown",
           "package": "alsa-mixer",
@@ -483,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "Volume",
           "package": "alsa-mixer",
@@ -492,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "Volume",
           "package": "alsa-mixer",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "Woofer",
           "package": "alsa-mixer",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "Woofer",
           "package": "alsa-mixer",
@@ -527,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "allChannels",
           "package": "alsa-mixer",
@@ -536,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "allChannels",
           "normalized": "[Channel]",
@@ -552,6 +600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a given capability, which may be for either playback or capture, or\n common to both, return the capture capability if it exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "capture",
           "package": "alsa-mixer",
@@ -562,6 +611,7 @@
         "index": {
           "description": "For given capability which may be for either playback or capture or common to both return the capture capability if it exists",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "capture",
           "normalized": "Either a(Maybe a,Maybe a)-\u003eMaybe a",
@@ -577,6 +627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll channels supported by a \u003ccode\u003e\u003ca\u003ePerChannel\u003c/a\u003e\u003c/code\u003e object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "channels",
           "package": "alsa-mixer",
@@ -587,6 +638,7 @@
         "index": {
           "description": "All channels supported by PerChannel object",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "channels",
           "normalized": "PerChannel a-\u003e[Channel]",
@@ -602,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a given capability, which may be for either playback or capture, or\n common to both, return the common capability if it exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "common",
           "package": "alsa-mixer",
@@ -612,6 +665,7 @@
         "index": {
           "description": "For given capability which may be for either playback or capture or common to both return the common capability if it exists",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "common",
           "normalized": "Either a(Maybe a,Maybe a)-\u003eMaybe a",
@@ -627,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the \u003ccode\u003e\u003ca\u003eControl\u003c/a\u003e\u003c/code\u003e objects associated with a particular \u003ccode\u003e\u003ca\u003eMixer\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "controls",
           "package": "alsa-mixer",
@@ -637,6 +692,7 @@
         "index": {
           "description": "All the Control objects associated with particular Mixer",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "controls",
           "normalized": "Mixer-\u003eIO[Control]",
@@ -652,6 +708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVolume values for each channel in hundredths of\n a decibel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "dB",
           "package": "alsa-mixer",
@@ -662,6 +719,7 @@
         "index": {
           "description": "Volume values for each channel in hundredths of decibel",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "dB",
           "package": "alsa-mixer",
@@ -675,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value associated with a particular channel, if that channel exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "getChannel",
           "package": "alsa-mixer",
@@ -685,6 +744,7 @@
         "index": {
           "description": "Get the value associated with particular channel if that channel exists",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "getChannel",
           "normalized": "Channel-\u003ePerChannel a-\u003eIO(Maybe a)",
@@ -701,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the named \u003ccode\u003e\u003ca\u003eControl\u003c/a\u003e\u003c/code\u003e, if it exists, from the named \u003ccode\u003e\u003ca\u003eMixer\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "getControlByName",
           "package": "alsa-mixer",
@@ -710,6 +771,7 @@
         "index": {
           "description": "Get the named Control if it exists from the named Mixer",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "getControlByName",
           "normalized": "Mixer-\u003eString-\u003eIO(Maybe Control)",
@@ -725,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "getJoined",
           "package": "alsa-mixer",
@@ -734,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "getJoined",
           "package": "alsa-mixer",
@@ -747,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "getPerChannel",
           "package": "alsa-mixer",
@@ -756,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "getPerChannel",
           "normalized": "IO[(Channel,a)]",
@@ -772,6 +838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the minimum and maximum volumes (unitless).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "getRange",
           "package": "alsa-mixer",
@@ -782,6 +849,7 @@
         "index": {
           "description": "Returns the minimum and maximum volumes unitless",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "getRange",
           "normalized": "IO(Integer,Integer)",
@@ -798,6 +866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the minimum and maximum volumes in\n hundredths of a decibel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "getRangeDb",
           "package": "alsa-mixer",
@@ -808,6 +877,7 @@
         "index": {
           "description": "Returns the minimum and maximum volumes in hundredths of decibel",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "getRangeDb",
           "normalized": "IO(Integer,Integer)",
@@ -823,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "index",
           "package": "alsa-mixer",
@@ -832,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "index",
           "package": "alsa-mixer",
@@ -845,6 +917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the \u003ccode\u003e\u003ca\u003ePerChannel\u003c/a\u003e\u003c/code\u003e object has a common value for all channels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "joined",
           "package": "alsa-mixer",
@@ -855,6 +928,7 @@
         "index": {
           "description": "True if the PerChannel object has common value for all channels",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "joined",
           "normalized": "PerChannel a-\u003eBool",
@@ -869,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "joinedChannels",
           "package": "alsa-mixer",
@@ -878,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "joinedChannels",
           "normalized": "[Channel]",
@@ -893,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "name",
           "package": "alsa-mixer",
@@ -902,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "name",
           "package": "alsa-mixer",
@@ -915,6 +993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the \u003ccode\u003e\u003ca\u003ePerChannel\u003c/a\u003e\u003c/code\u003e object has a separate value for each channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "perChannel",
           "package": "alsa-mixer",
@@ -925,6 +1004,7 @@
         "index": {
           "description": "True if the PerChannel object has separate value for each channel",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "perChannel",
           "normalized": "PerChannel a-\u003eBool",
@@ -940,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "perChannels",
           "package": "alsa-mixer",
@@ -949,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "perChannels",
           "normalized": "[Channel]",
@@ -965,6 +1047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a given capability, which may be for either playback or capture, or\n common to both, return the playback capability if it exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "playback",
           "package": "alsa-mixer",
@@ -975,6 +1058,7 @@
         "index": {
           "description": "For given capability which may be for either playback or capture or common to both return the playback capability if it exists",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "playback",
           "normalized": "Either a(Maybe a,Maybe a)-\u003eMaybe a",
@@ -990,6 +1074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the value associated with a particular channel, if that channel exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "setChannel",
           "package": "alsa-mixer",
@@ -1000,6 +1085,7 @@
         "index": {
           "description": "Set the value associated with particular channel if that channel exists",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "setChannel",
           "normalized": "Channel-\u003ePerChannel a-\u003ea-\u003eIO()",
@@ -1015,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "setJoined",
           "package": "alsa-mixer",
@@ -1024,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "setJoined",
           "normalized": "a-\u003eIO()",
@@ -1039,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "setPerChannel",
           "package": "alsa-mixer",
@@ -1048,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "setPerChannel",
           "normalized": "[(Channel,a)]-\u003eIO()",
@@ -1064,6 +1154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the minimum and maximum volumes (unitless).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "setRange",
           "package": "alsa-mixer",
@@ -1074,6 +1165,7 @@
         "index": {
           "description": "Sets the minimum and maximum volumes unitless",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "setRange",
           "normalized": "(Integer,Integer)-\u003eIO()",
@@ -1089,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "switch",
           "package": "alsa-mixer",
@@ -1098,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "switch",
           "normalized": "Either Switch(Maybe Switch,Maybe Switch)",
@@ -1113,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVolume values for each channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "value",
           "package": "alsa-mixer",
@@ -1123,6 +1218,7 @@
         "index": {
           "description": "Volume values for each channel",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "value",
           "package": "alsa-mixer",
@@ -1135,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "volume",
           "package": "alsa-mixer",
@@ -1144,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "volume",
           "normalized": "Either Volume(Maybe Volume,Maybe Volume)",
@@ -1159,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action with the named mixer. An exception will be\n thrown if the named mixer cannot be found. A mixer named \"default\"\n should always exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:20 UTC 2014",
           "module": "Sound.ALSA.Mixer",
           "name": "withMixer",
           "package": "alsa-mixer",
@@ -1169,6 +1268,7 @@
         "index": {
           "description": "Perform an IO action with the named mixer An exception will be thrown if the named mixer cannot be found mixer named default should always exist",
           "hierarchy": "Sound ALSA Mixer",
+          "indexed": "2014-03-11T17:10:20",
           "module": "Sound.ALSA.Mixer",
           "name": "withMixer",
           "normalized": "String-\u003e(Mixer-\u003eIO a)-\u003eIO a",

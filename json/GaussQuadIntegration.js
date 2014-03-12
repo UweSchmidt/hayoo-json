@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GaussQuadIntegration"
+        "phrase": "GaussQuadIntegration",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:50 UTC 2014",
           "module": "Math.GaussianQuadratureIntegration",
           "name": "GaussianQuadratureIntegration",
           "package": "GaussQuadIntegration",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Math GaussianQuadratureIntegration",
+          "indexed": "2014-03-11T16:42:50",
           "module": "Math.GaussianQuadratureIntegration",
           "name": "GaussianQuadratureIntegration",
           "package": "GaussQuadIntegration",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:50 UTC 2014",
           "module": "Math.GaussianQuadratureIntegration",
           "name": "nIntegrate1024",
           "package": "GaussQuadIntegration",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Math GaussianQuadratureIntegration",
+          "indexed": "2014-03-11T16:42:50",
           "module": "Math.GaussianQuadratureIntegration",
           "name": "nIntegrate1024",
           "normalized": "(a-\u003ea)-\u003ea-\u003ea-\u003ea",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:50 UTC 2014",
           "module": "Math.GaussianQuadratureIntegration",
           "name": "nIntegrate128",
           "package": "GaussQuadIntegration",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Math GaussianQuadratureIntegration",
+          "indexed": "2014-03-11T16:42:50",
           "module": "Math.GaussianQuadratureIntegration",
           "name": "nIntegrate128",
           "normalized": "(a-\u003ea)-\u003ea-\u003ea-\u003ea",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:50 UTC 2014",
           "module": "Math.GaussianQuadratureIntegration",
           "name": "nIntegrate256",
           "package": "GaussQuadIntegration",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Math GaussianQuadratureIntegration",
+          "indexed": "2014-03-11T16:42:50",
           "module": "Math.GaussianQuadratureIntegration",
           "name": "nIntegrate256",
           "normalized": "(a-\u003ea)-\u003ea-\u003ea-\u003ea",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:50 UTC 2014",
           "module": "Math.GaussianQuadratureIntegration",
           "name": "nIntegrate512",
           "package": "GaussQuadIntegration",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Math GaussianQuadratureIntegration",
+          "indexed": "2014-03-11T16:42:50",
           "module": "Math.GaussianQuadratureIntegration",
           "name": "nIntegrate512",
           "normalized": "(a-\u003ea)-\u003ea-\u003ea-\u003ea",

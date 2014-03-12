@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "connection"
+        "phrase": "connection",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple connection abstraction\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "Connection",
           "package": "connection",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Simple connection abstraction",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "Connection",
           "package": "connection",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis opaque type represent a connection to a destination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "Connection",
           "package": "connection",
@@ -51,6 +54,7 @@
         "index": {
           "description": "This opaque type represent connection to destination",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "Connection",
           "package": "connection",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShared values (certificate store, sessions, ..) between connections\n\u003c/p\u003e\u003cp\u003eAt the moment, this is only strictly needed to shared sessions and certificates\n when using a TLS enabled connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "ConnectionContext",
           "package": "connection",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Shared values certificate store sessions between connections At the moment this is only strictly needed to shared sessions and certificates when using TLS enabled connection",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "ConnectionContext",
           "package": "connection",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection Parameters to establish a Connection.\n\u003c/p\u003e\u003cp\u003eThe strict minimum is an hostname and the port.\n\u003c/p\u003e\u003cp\u003eIf you need to establish a TLS connection, you should make sure\n connectionUseSecure is correctly set.\n\u003c/p\u003e\u003cp\u003eIf you need to connect through a SOCKS, you should make sure\n connectionUseSocks is correctly set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "ConnectionParams",
           "package": "connection",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Connection Parameters to establish Connection The strict minimum is an hostname and the port If you need to establish TLS connection you should make sure connectionUseSecure is correctly set If you need to connect through SOCKS you should make sure connectionUseSocks is correctly set",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "ConnectionParams",
           "package": "connection",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the exception raised if we reached the user specified limit for\n the line in ConnectionGetLine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "LineTooLong",
           "package": "connection",
@@ -120,6 +129,7 @@
         "index": {
           "description": "This is the exception raised if we reached the user specified limit for the line in ConnectionGetLine",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "LineTooLong",
           "package": "connection",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSocks settings for the connection.\n\u003c/p\u003e\u003cp\u003eThe simple settings is just the hostname and portnumber of the proxy server.\n\u003c/p\u003e\u003cp\u003eThat's for now the only settings in the SOCKS package,\n socks password, or any sort of other authentications is not yet implemented.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "SockSettings",
           "package": "connection",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Socks settings for the connection The simple settings is just the hostname and portnumber of the proxy server That for now the only settings in the SOCKS package socks password or any sort of other authentications is not yet implemented",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "SockSettings",
           "package": "connection",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTLS Settings that can be either expressed as simple settings,\n or as full blown TLS.Params settings.\n\u003c/p\u003e\u003cp\u003eUnless you need access to parameters that are not accessible through the\n simple settings, you should use TLSSettingsSimple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "TLSSettings",
           "package": "connection",
@@ -166,6 +179,7 @@
         "index": {
           "description": "TLS Settings that can be either expressed as simple settings or as full blown TLS.Params settings Unless you need access to parameters that are not accessible through the simple settings you should use TLSSettingsSimple",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "TLSSettings",
           "package": "connection",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "ConnectionParams",
           "package": "connection",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "ConnectionParams",
           "package": "connection",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "LineTooLong",
           "package": "connection",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "LineTooLong",
           "package": "connection",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "SockSettingsSimple",
           "package": "connection",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "SockSettingsSimple",
           "package": "connection",
@@ -246,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efull blown TLS Settings directly using TLS.Params. for power users.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "TLSSettings",
           "package": "connection",
@@ -256,6 +277,7 @@
         "index": {
           "description": "full blown TLS Settings directly using TLS.Params for power users",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "TLSSettings",
           "package": "connection",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple TLS settings. recommended to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "TLSSettingsSimple",
           "package": "connection",
@@ -280,6 +303,7 @@
         "index": {
           "description": "Simple TLS settings recommended to use",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "TLSSettingsSimple",
           "package": "connection",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse an already established handle to create a connection object.\n\u003c/p\u003e\u003cp\u003eif the TLS Settings is set, it will do the handshake with the server.\n The SOCKS settings have no impact here, as the handle is already established\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "connectFromHandle",
           "package": "connection",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Use an already established handle to create connection object if the TLS Settings is set it will do the handshake with the server The SOCKS settings have no impact here as the handle is already established",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "connectFromHandle",
           "normalized": "ConnectionContext-\u003eHandle-\u003eConnectionParams-\u003eIO Connection",
@@ -320,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econnect to a destination using the parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "connectTo",
           "package": "connection",
@@ -329,6 +356,7 @@
         "index": {
           "description": "connect to destination using the parameter",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "connectTo",
           "normalized": "ConnectionContext-\u003eConnectionParams-\u003eIO Connection",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose a connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "connectionClose",
           "package": "connection",
@@ -355,6 +384,7 @@
         "index": {
           "description": "Close connection",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "connectionClose",
           "normalized": "Connection-\u003eIO()",
@@ -371,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet some bytes from a connection.\n\u003c/p\u003e\u003cp\u003eThe size argument is just the maximum that could be returned to the user.\n The call will return as soon as there's data, even if there's less\n than requested.  Hence, it behaves like \u003ccode\u003e\u003ca\u003ehGetSome\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eOn end of input, \u003ccode\u003e\u003ca\u003econnectionGet\u003c/a\u003e\u003c/code\u003e returns 0, but subsequent calls will throw\n an \u003ccode\u003e\u003ca\u003eisEOFError\u003c/a\u003e\u003c/code\u003e exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "connectionGet",
           "package": "connection",
@@ -381,6 +412,7 @@
         "index": {
           "description": "Get some bytes from connection The size argument is just the maximum that could be returned to the user The call will return as soon as there data even if there less than requested Hence it behaves like hGetSome On end of input connectionGet returns but subsequent calls will throw an isEOFError exception",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "connectionGet",
           "normalized": "Connection-\u003eInt-\u003eIO ByteString",
@@ -397,6 +429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next block of data from the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "connectionGetChunk",
           "package": "connection",
@@ -407,6 +440,7 @@
         "index": {
           "description": "Get the next block of data from the connection",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "connectionGetChunk",
           "normalized": "Connection-\u003eIO ByteString",
@@ -423,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003econnectionGetChunk\u003c/a\u003e\u003c/code\u003e, but return the unused portion to the buffer,\n where it will be the next chunk read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "connectionGetChunk'",
           "package": "connection",
@@ -433,6 +468,7 @@
         "index": {
           "description": "Like connectionGetChunk but return the unused portion to the buffer where it will be the next chunk read",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "connectionGetChunk'",
           "normalized": "Connection-\u003e(ByteString-\u003e(a,ByteString))-\u003eIO a",
@@ -449,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next line, using ASCII LF as the line terminator.\n\u003c/p\u003e\u003cp\u003eThis throws an \u003ccode\u003eisEOFError\u003c/code\u003e exception on end of input, and LineTooLong when\n the number of bytes gathered is over the limit without a line terminator.\n\u003c/p\u003e\u003cp\u003eThe actual line returned can be bigger than the limit specified, provided\n that the last chunk returned by the underlaying backend contains a LF.\n In another world only when we need more input and limit is reached that the\n LineTooLong exception will be raised.\n\u003c/p\u003e\u003cp\u003eAn end of file will be considered as a line terminator too, if line is\n not empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "connectionGetLine",
           "package": "connection",
@@ -458,6 +495,7 @@
         "index": {
           "description": "Get the next line using ASCII LF as the line terminator This throws an isEOFError exception on end of input and LineTooLong when the number of bytes gathered is over the limit without line terminator The actual line returned can be bigger than the limit specified provided that the last chunk returned by the underlaying backend contains LF In another world only when we need more input and limit is reached that the LineTooLong exception will be raised An end of file will be considered as line terminator too if line is not empty",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "connectionGetLine",
           "normalized": "Int-\u003eConnection-\u003eIO ByteString",
@@ -474,6 +512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehost name to connect to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "connectionHostname",
           "package": "connection",
@@ -484,6 +523,7 @@
         "index": {
           "description": "host name to connect to",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "connectionHostname",
           "package": "connection",
@@ -498,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn a simple tuple of the port and hostname that we're connected to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "connectionID",
           "package": "connection",
@@ -508,6 +549,7 @@
         "index": {
           "description": "return simple tuple of the port and hostname that we re connected to",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "connectionID",
           "normalized": "Connection-\u003eConnectionID",
@@ -524,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns if the connection is establish securely or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "connectionIsSecure",
           "package": "connection",
@@ -534,6 +577,7 @@
         "index": {
           "description": "Returns if the connection is establish securely or not",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "connectionIsSecure",
           "normalized": "Connection-\u003eIO Bool",
@@ -550,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eport number to connect to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "connectionPort",
           "package": "connection",
@@ -560,6 +605,7 @@
         "index": {
           "description": "port number to connect to",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "connectionPort",
           "package": "connection",
@@ -574,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a block of data in the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "connectionPut",
           "package": "connection",
@@ -584,6 +631,7 @@
         "index": {
           "description": "Put block of data in the connection",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "connectionPut",
           "normalized": "Connection-\u003eByteString-\u003eIO()",
@@ -600,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActivate secure layer using the parameters specified.\n\u003c/p\u003e\u003cp\u003eThis is typically used to negociate a TLS channel on an already\n establish channel, e.g. supporting a STARTTLS command. it also\n flush the received buffer to prevent application confusing\n received data before and after the setSecure call.\n\u003c/p\u003e\u003cp\u003eIf the connection is already using TLS, nothing else happens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "connectionSetSecure",
           "package": "connection",
@@ -610,6 +659,7 @@
         "index": {
           "description": "Activate secure layer using the parameters specified This is typically used to negociate TLS channel on an already establish channel e.g supporting STARTTLS command it also flush the received buffer to prevent application confusing received data before and after the setSecure call If the connection is already using TLS nothing else happens",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "connectionSetSecure",
           "normalized": "ConnectionContext-\u003eConnection-\u003eTLSSettings-\u003eIO()",
@@ -626,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoptional TLS parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "connectionUseSecure",
           "package": "connection",
@@ -636,6 +687,7 @@
         "index": {
           "description": "optional TLS parameters",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "connectionUseSecure",
           "package": "connection",
@@ -650,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoptional Socks configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "connectionUseSocks",
           "package": "connection",
@@ -660,6 +713,7 @@
         "index": {
           "description": "optional Socks configuration",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "connectionUseSocks",
           "package": "connection",
@@ -674,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the library with shared parameters between connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "initConnectionContext",
           "package": "connection",
@@ -684,6 +739,7 @@
         "index": {
           "description": "Initialize the library with shared parameters between connection",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "initConnectionContext",
           "package": "connection",
@@ -698,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisable certificate verification completely,\n   this make TLS/SSL vulnerable to a MITM attack.\n   not recommended to use, but for testing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "settingDisableCertificateValidation",
           "package": "connection",
@@ -708,6 +765,7 @@
         "index": {
           "description": "Disable certificate verification completely this make TLS SSL vulnerable to MITM attack not recommended to use but for testing",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "settingDisableCertificateValidation",
           "package": "connection",
@@ -722,6 +780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisable session management. TLS/SSL connections\n   will always re-established their context.\n   Not Implemented Yet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "settingDisableSession",
           "package": "connection",
@@ -732,6 +791,7 @@
         "index": {
           "description": "Disable session management TLS SSL connections will always re-established their context Not Implemented Yet",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "settingDisableSession",
           "package": "connection",
@@ -746,6 +806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse server name extension. Not Implemented Yet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:07 UTC 2014",
           "module": "Network.Connection",
           "name": "settingUseServerName",
           "package": "connection",
@@ -756,6 +817,7 @@
         "index": {
           "description": "Use server name extension Not Implemented Yet",
           "hierarchy": "Network Connection",
+          "indexed": "2014-03-11T17:39:07",
           "module": "Network.Connection",
           "name": "settingUseServerName",
           "package": "connection",

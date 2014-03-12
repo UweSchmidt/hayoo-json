@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "XMMS"
+        "phrase": "XMMS",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client.Glib",
           "name": "Glib",
           "package": "XMMS",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client Glib",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client.Glib",
           "name": "Glib",
           "package": "XMMS",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client.Glib",
           "name": "mainLoopGmainInit",
           "package": "XMMS",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client Glib",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client.Glib",
           "name": "mainLoopGmainInit",
           "normalized": "Connection-\u003eIO()",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "Client",
           "package": "XMMS",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "Client",
           "package": "XMMS",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "Connection",
           "package": "XMMS",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "Connection",
           "package": "XMMS",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "Result",
           "package": "XMMS",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "Result",
           "package": "XMMS",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "SeekMode",
           "package": "XMMS",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "SeekMode",
           "package": "XMMS",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "XMMSCV",
           "package": "XMMS",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "XMMSCV",
           "package": "XMMS",
@@ -214,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "XMMSDict",
           "package": "XMMS",
@@ -223,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "XMMSDict",
           "package": "XMMS",
@@ -236,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "XMMSError",
           "package": "XMMS",
@@ -245,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "XMMSError",
           "package": "XMMS",
@@ -258,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "XMMSInt",
           "package": "XMMS",
@@ -267,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "XMMSInt",
           "package": "XMMS",
@@ -280,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "XMMSList",
           "package": "XMMS",
@@ -289,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "XMMSList",
           "package": "XMMS",
@@ -302,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "XMMSNothing",
           "package": "XMMS",
@@ -311,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "XMMSNothing",
           "package": "XMMS",
@@ -324,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "XMMSString",
           "package": "XMMS",
@@ -333,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "XMMSString",
           "package": "XMMS",
@@ -347,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest the quit broadcast.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "broadcastQuit",
           "package": "XMMS",
@@ -357,6 +384,7 @@
         "index": {
           "description": "Request the quit broadcast",
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "broadcastQuit",
           "normalized": "Connection-\u003eIO Result",
@@ -373,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnects to the XMMS server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "connect",
           "package": "XMMS",
@@ -383,6 +412,7 @@
         "index": {
           "description": "Connects to the XMMS server",
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "connect",
           "normalized": "Connection-\u003eString-\u003eIO Int",
@@ -398,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a string that descibes the last error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "getLastError",
           "package": "XMMS",
@@ -408,6 +439,7 @@
         "index": {
           "description": "Returns string that descibes the last error",
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "getLastError",
           "normalized": "Connection-\u003eIO String",
@@ -424,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializes a connection. With the coresponding name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "init",
           "package": "XMMS",
@@ -434,6 +467,7 @@
         "index": {
           "description": "Initializes connection With the coresponding name",
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "init",
           "normalized": "String-\u003eIO Connection",
@@ -448,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "propdictToDict",
           "package": "XMMS",
@@ -457,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "propdictToDict",
           "normalized": "Map String XMMSCV-\u003eMap String XMMSCV",
@@ -473,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTell the server to quit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "quit",
           "package": "XMMS",
@@ -483,6 +520,7 @@
         "index": {
           "description": "Tell the server to quit",
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "quit",
           "normalized": "Connection-\u003eIO Result",
@@ -497,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "resultGetConnection",
           "package": "XMMS",
@@ -506,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "resultGetConnection",
           "normalized": "Result-\u003eIO Connection",
@@ -521,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "resultGetValue",
           "package": "XMMS",
@@ -530,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "resultGetValue",
           "normalized": "Result-\u003eIO XMMSCV",
@@ -545,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "resultNotifierSet",
           "package": "XMMS",
@@ -554,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "resultNotifierSet",
           "normalized": "Result-\u003e(XMMSCV-\u003eIO Bool)-\u003eIO()",
@@ -570,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlock for the reply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "resultWait",
           "package": "XMMS",
@@ -580,6 +625,7 @@
         "index": {
           "description": "Block for the reply",
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "resultWait",
           "normalized": "Result-\u003eIO()",
@@ -596,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the absolute path to the user config dir. \n\u003c/p\u003e\u003cp\u003e\u003cem\u003eThe Int parameter is the buffer length and should probably go away... \u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "userConfigDirGet",
           "package": "XMMS",
@@ -606,6 +653,7 @@
         "index": {
           "description": "Get the absolute path to the user config dir The Int parameter is the buffer length and should probably go away",
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "userConfigDirGet",
           "normalized": "Int-\u003eIO String",
@@ -621,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "xmmsDict",
           "package": "XMMS",
@@ -630,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "xmmsDict",
           "package": "XMMS",
@@ -643,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "xmmsError",
           "package": "XMMS",
@@ -652,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "xmmsError",
           "package": "XMMS",
@@ -665,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "xmmsInt",
           "package": "XMMS",
@@ -674,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "xmmsInt",
           "package": "XMMS",
@@ -687,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "xmmsList",
           "package": "XMMS",
@@ -696,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "xmmsList",
           "normalized": "[XMMSCV]",
@@ -711,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Client",
           "name": "xmmsString",
           "package": "XMMS",
@@ -720,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Client",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Client",
           "name": "xmmsString",
           "package": "XMMS",
@@ -733,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Config",
           "name": "Config",
           "package": "XMMS",
@@ -741,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Config",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Config",
           "name": "Config",
           "package": "XMMS",
@@ -755,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequests the config_value_changed broadcast. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Config",
           "name": "broadcastValueChanged",
           "package": "XMMS",
@@ -765,6 +826,7 @@
         "index": {
           "description": "Requests the config value changed broadcast",
           "hierarchy": "Network XMMS Config",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Config",
           "name": "broadcastValueChanged",
           "normalized": "Connection-\u003eIO Result",
@@ -781,6 +843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves a configvalue from the server. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Config",
           "name": "getValue",
           "package": "XMMS",
@@ -791,6 +854,7 @@
         "index": {
           "description": "Retrieves configvalue from the server",
           "hierarchy": "Network XMMS Config",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Config",
           "name": "getValue",
           "normalized": "Connection-\u003eString-\u003eIO Result",
@@ -807,6 +871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLists all configuration values. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Config",
           "name": "listValues",
           "package": "XMMS",
@@ -817,6 +882,7 @@
         "index": {
           "description": "Lists all configuration values",
           "hierarchy": "Network XMMS Config",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Config",
           "name": "listValues",
           "normalized": "Connection-\u003eIO Result",
@@ -833,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegisters a configvalue in the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Config",
           "name": "registerValue",
           "package": "XMMS",
@@ -843,6 +910,7 @@
         "index": {
           "description": "Registers configvalue in the server",
           "hierarchy": "Network XMMS Config",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Config",
           "name": "registerValue",
           "normalized": "Connection-\u003eString-\u003eString-\u003eIO Result",
@@ -859,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a configvalue in the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Config",
           "name": "setValue",
           "package": "XMMS",
@@ -869,6 +938,7 @@
         "index": {
           "description": "Sets configvalue in the server",
           "hierarchy": "Network XMMS Config",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Config",
           "name": "setValue",
           "normalized": "Connection-\u003eString-\u003eString-\u003eIO Result",
@@ -884,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Medialib",
           "name": "Medialib",
           "package": "XMMS",
@@ -892,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Medialib",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Medialib",
           "name": "Medialib",
           "package": "XMMS",
@@ -906,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve information about an entry from the medialib. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Medialib",
           "name": "medialibGetInfo",
           "package": "XMMS",
@@ -916,6 +989,7 @@
         "index": {
           "description": "Retrieve information about an entry from the medialib",
           "hierarchy": "Network XMMS Medialib",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Medialib",
           "name": "medialibGetInfo",
           "normalized": "Connection-\u003eInt-\u003eIO Result",
@@ -931,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "Playback",
           "package": "XMMS",
@@ -939,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "Playback",
           "package": "XMMS",
@@ -952,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "SeekMode",
           "package": "XMMS",
@@ -960,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "SeekMode",
           "package": "XMMS",
@@ -974,6 +1052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest the current id broadcast. \t\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "broadcastCurrentID",
           "package": "XMMS",
@@ -984,6 +1063,7 @@
         "index": {
           "description": "Request the current id broadcast",
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "broadcastCurrentID",
           "normalized": "Connection-\u003eIO Result",
@@ -1000,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequests the playback status broadcast.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "broadcastStatus",
           "package": "XMMS",
@@ -1010,6 +1091,7 @@
         "index": {
           "description": "Requests the playback status broadcast",
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "broadcastStatus",
           "normalized": "Connection-\u003eIO Result",
@@ -1025,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "broadcastVolumeChanged",
           "package": "XMMS",
@@ -1034,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "broadcastVolumeChanged",
           "normalized": "Connection-\u003eIO Result",
@@ -1050,6 +1134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake server emit the current id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "currentID",
           "package": "XMMS",
@@ -1060,6 +1145,7 @@
         "index": {
           "description": "Make server emit the current id",
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "currentID",
           "normalized": "Connection-\u003eIO Result",
@@ -1076,6 +1162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePause the current playback, will tell the output to not read nor write. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "pause",
           "package": "XMMS",
@@ -1086,6 +1173,7 @@
         "index": {
           "description": "Pause the current playback will tell the output to not read nor write",
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "pause",
           "normalized": "Connection-\u003eIO Result",
@@ -1101,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake server emit the current playtime.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "playtime",
           "package": "XMMS",
@@ -1111,6 +1200,7 @@
         "index": {
           "description": "Make server emit the current playtime",
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "playtime",
           "normalized": "Connection-\u003eIO Result",
@@ -1126,6 +1216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeek to a position given in samples in the current playback. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "seekSamples",
           "package": "XMMS",
@@ -1136,6 +1227,7 @@
         "index": {
           "description": "Seek to position given in samples in the current playback",
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "seekSamples",
           "normalized": "Connection-\u003eInt-\u003eSeekMode-\u003eIO Result",
@@ -1152,6 +1244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeek to a absoulte number of samples in the current playback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "seekSamplesAbs",
           "package": "XMMS",
@@ -1162,6 +1255,7 @@
         "index": {
           "description": "Seek to absoulte number of samples in the current playback",
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "seekSamplesAbs",
           "normalized": "Connection-\u003eInt-\u003eIO Result",
@@ -1178,6 +1272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeek to a number of samples relative to the current position in the current playback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "seekSamplesRel",
           "package": "XMMS",
@@ -1188,6 +1283,7 @@
         "index": {
           "description": "Seek to number of samples relative to the current position in the current playback",
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "seekSamplesRel",
           "normalized": "Connection-\u003eInt-\u003eIO Result",
@@ -1204,6 +1300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeek to a position given in milliseconds in the current playback. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "seekms",
           "package": "XMMS",
@@ -1214,6 +1311,7 @@
         "index": {
           "description": "Seek to position given in milliseconds in the current playback",
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "seekms",
           "normalized": "Connection-\u003eInt-\u003eSeekMode-\u003eIO Result",
@@ -1229,6 +1327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeek to an absolute time in the current playback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "seekmsAbs",
           "package": "XMMS",
@@ -1239,6 +1338,7 @@
         "index": {
           "description": "Seek to an absolute time in the current playback",
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "seekmsAbs",
           "normalized": "Connection-\u003eInt-\u003eIO Result",
@@ -1255,6 +1355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeek to a time relative to the current position in the current playback. \t\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "seekmsRel",
           "package": "XMMS",
@@ -1265,6 +1366,7 @@
         "index": {
           "description": "Seek to time relative to the current position in the current playback",
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "seekmsRel",
           "normalized": "Connection-\u003eInt-\u003eIO Result",
@@ -1281,6 +1383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest the playback_playtime signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "signalPlaytime",
           "package": "XMMS",
@@ -1291,6 +1394,7 @@
         "index": {
           "description": "Request the playback playtime signal",
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "signalPlaytime",
           "normalized": "Connection-\u003eIO Result",
@@ -1307,6 +1411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts playback if server is idle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "start",
           "package": "XMMS",
@@ -1317,6 +1422,7 @@
         "index": {
           "description": "Starts playback if server is idle",
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "start",
           "normalized": "Connection-\u003eIO Result",
@@ -1332,6 +1438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake server emit the playback status.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "status",
           "package": "XMMS",
@@ -1342,6 +1449,7 @@
         "index": {
           "description": "Make server emit the playback status",
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "status",
           "normalized": "Connection-\u003eIO Result",
@@ -1357,6 +1465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStops the current playback. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "stop",
           "package": "XMMS",
@@ -1367,6 +1476,7 @@
         "index": {
           "description": "Stops the current playback",
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "stop",
           "normalized": "Connection-\u003eIO Result",
@@ -1382,6 +1492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop decoding of current song. \n \u003cem\u003eUsefull to implement things like next, prev etc\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "tickle",
           "package": "XMMS",
@@ -1392,6 +1503,7 @@
         "index": {
           "description": "Stop decoding of current song Usefull to implement things like next prev etc",
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "tickle",
           "normalized": "Connection-\u003eIO Result",
@@ -1406,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "volumeGet",
           "package": "XMMS",
@@ -1415,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "volumeGet",
           "normalized": "Connection-\u003eIO Result",
@@ -1430,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playback",
           "name": "volumeSet",
           "package": "XMMS",
@@ -1439,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playback",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playback",
           "name": "volumeSet",
           "normalized": "Connection-\u003eString-\u003eInt-\u003eIO Result",
@@ -1454,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "Playlist",
           "package": "XMMS",
@@ -1462,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "Playlist",
           "package": "XMMS",
@@ -1475,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "Change",
           "package": "XMMS",
@@ -1483,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "Change",
           "package": "XMMS",
@@ -1496,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "Add",
           "package": "XMMS",
@@ -1505,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "Add",
           "package": "XMMS",
@@ -1518,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "Clear",
           "package": "XMMS",
@@ -1527,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "Clear",
           "package": "XMMS",
@@ -1540,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "Insert",
           "package": "XMMS",
@@ -1549,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "Insert",
           "package": "XMMS",
@@ -1562,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "Move",
           "package": "XMMS",
@@ -1571,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "Move",
           "package": "XMMS",
@@ -1584,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "NoChange",
           "package": "XMMS",
@@ -1593,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "NoChange",
           "package": "XMMS",
@@ -1606,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "Remove",
           "package": "XMMS",
@@ -1615,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "Remove",
           "package": "XMMS",
@@ -1628,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "Shuffle",
           "package": "XMMS",
@@ -1637,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "Shuffle",
           "package": "XMMS",
@@ -1650,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "Sort",
           "package": "XMMS",
@@ -1659,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "Sort",
           "package": "XMMS",
@@ -1672,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "Update",
           "package": "XMMS",
@@ -1681,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "Update",
           "package": "XMMS",
@@ -1695,6 +1833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the url to the playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "addEncoded",
           "package": "XMMS",
@@ -1705,6 +1844,7 @@
         "index": {
           "description": "Add the url to the playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "addEncoded",
           "normalized": "Connection-\u003eString-\u003eString-\u003eIO Result",
@@ -1721,6 +1861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a medialib id to the playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "addID",
           "package": "XMMS",
@@ -1731,6 +1872,7 @@
         "index": {
           "description": "Add medialib id to the playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "addID",
           "normalized": "Connection-\u003eString-\u003eInt-\u003eIO Result",
@@ -1747,6 +1889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the url to the playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "addURL",
           "package": "XMMS",
@@ -1757,6 +1900,7 @@
         "index": {
           "description": "Add the url to the playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "addURL",
           "normalized": "Connection-\u003eString-\u003eString-\u003eIO Result",
@@ -1773,6 +1917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest the playlist changed broadcast from the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "broadcastChanged",
           "package": "XMMS",
@@ -1783,6 +1928,7 @@
         "index": {
           "description": "Request the playlist changed broadcast from the server",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "broadcastChanged",
           "normalized": "Connection-\u003eIO Result",
@@ -1799,6 +1945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest the playlist current pos broadcast.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "broadcastCurrentPos",
           "package": "XMMS",
@@ -1809,6 +1956,7 @@
         "index": {
           "description": "Request the playlist current pos broadcast",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "broadcastCurrentPos",
           "normalized": "Connection-\u003eIO Result",
@@ -1825,6 +1973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClears the current playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "clear",
           "package": "XMMS",
@@ -1835,6 +1984,7 @@
         "index": {
           "description": "Clears the current playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "clear",
           "normalized": "Connection-\u003eString-\u003eIO Result",
@@ -1850,6 +2000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new empty playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "create",
           "package": "XMMS",
@@ -1860,6 +2011,7 @@
         "index": {
           "description": "Create new empty playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "create",
           "normalized": "Connection-\u003eString-\u003eIO Result",
@@ -1875,6 +2027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrive the name of the active playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "currentActive",
           "package": "XMMS",
@@ -1885,6 +2038,7 @@
         "index": {
           "description": "Retrive the name of the active playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "currentActive",
           "normalized": "Connection-\u003eIO Result",
@@ -1901,6 +2055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrive the current position in the playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "currentPos",
           "package": "XMMS",
@@ -1911,6 +2066,7 @@
         "index": {
           "description": "Retrive the current position in the playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "currentPos",
           "normalized": "Connection-\u003eString-\u003eIO Result",
@@ -1926,6 +2082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "id",
           "package": "XMMS",
@@ -1935,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "id",
           "package": "XMMS",
@@ -1948,6 +2106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert entry at given position in playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "insertEncoded",
           "package": "XMMS",
@@ -1958,6 +2117,7 @@
         "index": {
           "description": "Insert entry at given position in playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "insertEncoded",
           "normalized": "Connection-\u003eString-\u003eInt-\u003eString-\u003eIO Result",
@@ -1974,6 +2134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a medialib id at given position in playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "insertID",
           "package": "XMMS",
@@ -1984,6 +2145,7 @@
         "index": {
           "description": "Insert medialib id at given position in playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "insertID",
           "normalized": "Connection-\u003eString-\u003eInt-\u003eInt-\u003eIO Result",
@@ -2000,6 +2162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert entry at given position in playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "insertURL",
           "package": "XMMS",
@@ -2010,6 +2173,7 @@
         "index": {
           "description": "Insert entry at given position in playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "insertURL",
           "normalized": "Connection-\u003eString-\u003eInt-\u003eString-\u003eIO Result",
@@ -2026,6 +2190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList the existing playlists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "list",
           "package": "XMMS",
@@ -2036,6 +2201,7 @@
         "index": {
           "description": "List the existing playlists",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "list",
           "normalized": "Connection-\u003eIO Result",
@@ -2051,6 +2217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList current playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "listEntries",
           "package": "XMMS",
@@ -2061,6 +2228,7 @@
         "index": {
           "description": "List current playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "listEntries",
           "normalized": "Connection-\u003eString-\u003eIO Result",
@@ -2077,6 +2245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a playlist as the current active playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "load",
           "package": "XMMS",
@@ -2087,6 +2256,7 @@
         "index": {
           "description": "Load playlist as the current active playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "load",
           "normalized": "Connection-\u003eString-\u003eIO Result",
@@ -2102,6 +2272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove a playlist entry to a new position (absolute move).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "moveEntry",
           "package": "XMMS",
@@ -2112,6 +2283,7 @@
         "index": {
           "description": "Move playlist entry to new position absolute move",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "moveEntry",
           "normalized": "Connection-\u003eString-\u003eInt-\u003eInt-\u003eIO Result",
@@ -2127,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "name",
           "package": "XMMS",
@@ -2136,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "name",
           "package": "XMMS",
@@ -2148,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "newPosition",
           "package": "XMMS",
@@ -2157,6 +2332,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "newPosition",
           "package": "XMMS",
@@ -2170,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "position",
           "package": "XMMS",
@@ -2179,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "position",
           "package": "XMMS",
@@ -2192,6 +2370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a directory recursivly to the playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "rAdd",
           "package": "XMMS",
@@ -2202,6 +2381,7 @@
         "index": {
           "description": "Adds directory recursivly to the playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "rAdd",
           "normalized": "Connection-\u003eString-\u003eString-\u003eIO Result",
@@ -2218,6 +2398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a directory recursivly to the playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "rAddEncoded",
           "package": "XMMS",
@@ -2228,6 +2409,7 @@
         "index": {
           "description": "Adds directory recursivly to the playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "rAddEncoded",
           "normalized": "Connection-\u003eString-\u003eString-\u003eIO Result",
@@ -2244,6 +2426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a directory recursivly at a given position in the playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "rInsert",
           "package": "XMMS",
@@ -2254,6 +2437,7 @@
         "index": {
           "description": "Insert directory recursivly at given position in the playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "rInsert",
           "normalized": "Connection-\u003eString-\u003eInt-\u003eString-\u003eIO Result",
@@ -2270,6 +2454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a directory recursivly at a given position in the playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "rInsertEncoded",
           "package": "XMMS",
@@ -2280,6 +2465,7 @@
         "index": {
           "description": "Insert directory recursivly at given position in the playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "rInsertEncoded",
           "normalized": "Connection-\u003eString-\u003eInt-\u003eString-\u003eIO Result",
@@ -2296,6 +2482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the given playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "remove",
           "package": "XMMS",
@@ -2306,6 +2493,7 @@
         "index": {
           "description": "Remove the given playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "remove",
           "normalized": "Connection-\u003eString-\u003eIO Result",
@@ -2321,6 +2509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove an entry from the playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "removeEntry",
           "package": "XMMS",
@@ -2331,6 +2520,7 @@
         "index": {
           "description": "Remove an entry from the playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "removeEntry",
           "normalized": "Connection-\u003eString-\u003eInt-\u003eIO Result",
@@ -2346,6 +2536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "retrieveChange",
           "package": "XMMS",
@@ -2355,6 +2546,7 @@
         },
         "index": {
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "retrieveChange",
           "normalized": "XMMSCV-\u003eChange",
@@ -2371,6 +2563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet next entry in the playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "setNext",
           "package": "XMMS",
@@ -2381,6 +2574,7 @@
         "index": {
           "description": "Set next entry in the playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "setNext",
           "normalized": "Connection-\u003eInt-\u003eIO Result",
@@ -2397,6 +2591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as setNextRel but relative to the current postion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "setNextRel",
           "package": "XMMS",
@@ -2407,6 +2602,7 @@
         "index": {
           "description": "Same as setNextRel but relative to the current postion",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "setNextRel",
           "normalized": "Connection-\u003eInt-\u003eIO Result",
@@ -2423,6 +2619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShuffles the current playlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "shuffle",
           "package": "XMMS",
@@ -2433,6 +2630,7 @@
         "index": {
           "description": "Shuffles the current playlist",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "shuffle",
           "normalized": "Connection-\u003eString-\u003eIO Result",
@@ -2448,6 +2646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSorts the playlist according to the list of properties \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:32 UTC 2014",
           "module": "Network.XMMS.Playlist",
           "name": "sort",
           "package": "XMMS",
@@ -2458,6 +2657,7 @@
         "index": {
           "description": "Sorts the playlist according to the list of properties",
           "hierarchy": "Network XMMS Playlist",
+          "indexed": "2014-03-11T17:05:32",
           "module": "Network.XMMS.Playlist",
           "name": "sort",
           "normalized": "Connection-\u003eString-\u003e[String]-\u003eIO Result",

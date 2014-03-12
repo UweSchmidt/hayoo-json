@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "generic-tree"
+        "phrase": "generic-tree",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:03 UTC 2014",
           "module": "Data.LTree",
           "name": "LTree",
           "package": "generic-tree",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data LTree",
+          "indexed": "2014-03-11T18:15:03",
           "module": "Data.LTree",
           "name": "LTree",
           "package": "generic-tree",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:03 UTC 2014",
           "module": "Data.LTree",
           "name": "LForest",
           "package": "generic-tree",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data LTree",
+          "indexed": "2014-03-11T18:15:03",
           "module": "Data.LTree",
           "name": "LForest",
           "package": "generic-tree",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultary (Rose) Tree, with data solely in leaves\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:03 UTC 2014",
           "module": "Data.LTree",
           "name": "LTree",
           "package": "generic-tree",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Multary Rose Tree with data solely in leaves",
           "hierarchy": "Data LTree",
+          "indexed": "2014-03-11T18:15:03",
           "module": "Data.LTree",
           "name": "LTree",
           "package": "generic-tree",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:03 UTC 2014",
           "module": "Data.LTree",
           "name": "Leaf",
           "package": "generic-tree",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data LTree",
+          "indexed": "2014-03-11T18:15:03",
           "module": "Data.LTree",
           "name": "Leaf",
           "package": "generic-tree",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:03 UTC 2014",
           "module": "Data.LTree",
           "name": "Stem",
           "package": "generic-tree",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data LTree",
+          "indexed": "2014-03-11T18:15:03",
           "module": "Data.LTree",
           "name": "Stem",
           "package": "generic-tree",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:03 UTC 2014",
           "module": "Data.LTree",
           "name": "unfoldLTree",
           "package": "generic-tree",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data LTree",
+          "indexed": "2014-03-11T18:15:03",
           "module": "Data.LTree",
           "name": "unfoldLTree",
           "normalized": "(a-\u003eEither b(c a))-\u003ea-\u003eLTree c b",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:03 UTC 2014",
           "module": "Data.LTree",
           "name": "unfoldLTreeM",
           "package": "generic-tree",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data LTree",
+          "indexed": "2014-03-11T18:15:03",
           "module": "Data.LTree",
           "name": "unfoldLTreeM",
           "normalized": "(a-\u003eb(Either c(d a)))-\u003ea-\u003eb(LTree d c)",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:03 UTC 2014",
           "module": "Data.Tree",
           "name": "Tree",
           "package": "generic-tree",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Data Tree",
+          "indexed": "2014-03-11T18:15:03",
           "module": "Data.Tree",
           "name": "Tree",
           "package": "generic-tree",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:03 UTC 2014",
           "module": "Data.Tree",
           "name": "Forest",
           "package": "generic-tree",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Data Tree",
+          "indexed": "2014-03-11T18:15:03",
           "module": "Data.Tree",
           "name": "Forest",
           "package": "generic-tree",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultary (Rose) Tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:03 UTC 2014",
           "module": "Data.Tree",
           "name": "Tree",
           "package": "generic-tree",
@@ -227,6 +246,7 @@
         "index": {
           "description": "Multary Rose Tree",
           "hierarchy": "Data Tree",
+          "indexed": "2014-03-11T18:15:03",
           "module": "Data.Tree",
           "name": "Tree",
           "package": "generic-tree",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:03 UTC 2014",
           "module": "Data.Tree",
           "name": "Node",
           "package": "generic-tree",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Data Tree",
+          "indexed": "2014-03-11T18:15:03",
           "module": "Data.Tree",
           "name": "Node",
           "package": "generic-tree",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:15:03 UTC 2014",
           "module": "Data.Tree",
           "name": "flatten",
           "package": "generic-tree",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Data Tree",
+          "indexed": "2014-03-11T18:15:03",
           "module": "Data.Tree",
           "name": "flatten",
           "normalized": "Tree a b-\u003e[b]",
@@ -286,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLists of nodes at each level of tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:03 UTC 2014",
           "module": "Data.Tree",
           "name": "levels",
           "package": "generic-tree",
@@ -296,6 +321,7 @@
         "index": {
           "description": "Lists of nodes at each level of tree",
           "hierarchy": "Data Tree",
+          "indexed": "2014-03-11T18:15:03",
           "module": "Data.Tree",
           "name": "levels",
           "normalized": "Tree a b-\u003e[a b]",
@@ -311,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild tree from seed value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:03 UTC 2014",
           "module": "Data.Tree",
           "name": "unfoldTree",
           "package": "generic-tree",
@@ -321,6 +348,7 @@
         "index": {
           "description": "Build tree from seed value",
           "hierarchy": "Data Tree",
+          "indexed": "2014-03-11T18:15:03",
           "module": "Data.Tree",
           "name": "unfoldTree",
           "normalized": "(a-\u003e(b,c a))-\u003ea-\u003eTree c b",
@@ -337,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a tree from seed value, monadically\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:15:03 UTC 2014",
           "module": "Data.Tree",
           "name": "unfoldTreeM",
           "package": "generic-tree",
@@ -347,6 +376,7 @@
         "index": {
           "description": "Build tree from seed value monadically",
           "hierarchy": "Data Tree",
+          "indexed": "2014-03-11T18:15:03",
           "module": "Data.Tree",
           "name": "unfoldTreeM",
           "normalized": "(a-\u003eb(c,d a))-\u003ea-\u003eb(Tree d c)",

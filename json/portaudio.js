@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "portaudio"
+        "phrase": "portaudio",
+        "type": "phrase"
       },
       "type": "context"
     }

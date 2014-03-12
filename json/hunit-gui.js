@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hunit-gui"
+        "phrase": "hunit-gui",
+        "type": "phrase"
       },
       "type": "context"
     }

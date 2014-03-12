@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mandulia"
+        "phrase": "mandulia",
+        "type": "phrase"
       },
       "type": "context"
     }

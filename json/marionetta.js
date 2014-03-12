@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "marionetta"
+        "phrase": "marionetta",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cascading"
+        "phrase": "cascading",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Build",
           "name": "Build",
           "package": "cascading",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Build",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Build",
           "name": "Build",
           "package": "cascading",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the given property to the given value.  (infix 2)\n\u003c/p\u003e\u003cp\u003eInfix version of \u003ccode\u003e\u003ca\u003esetProp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Build",
           "name": "($=)",
           "package": "cascading",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Set the given property to the given value infix Infix version of setProp",
           "hierarchy": "Data CSS Build",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Build",
           "name": "($=) $=",
           "normalized": "PropName-\u003ea-\u003eSetProp",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven children of the current selector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Build",
           "name": "below",
           "package": "cascading",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Given children of the current selector",
           "hierarchy": "Data CSS Build",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Build",
           "name": "below",
           "normalized": "[Selector]-\u003ea b-\u003ea b",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport the given style sheet for the given media type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Build",
           "name": "importFrom",
           "package": "cascading",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Import the given style sheet for the given media type",
           "hierarchy": "Data CSS Build",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Build",
           "name": "importFrom",
           "normalized": "MediaType-\u003eText-\u003ea()",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport the given style sheet for the given media type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Build",
           "name": "importUrl",
           "package": "cascading",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Import the given style sheet for the given media type",
           "hierarchy": "Data CSS Build",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Build",
           "name": "importUrl",
           "normalized": "MediaType-\u003eURL a-\u003ea()",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMark all property values important.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Build",
           "name": "important",
           "package": "cascading",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Mark all property values important",
           "hierarchy": "Data CSS Build",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Build",
           "name": "important",
           "normalized": "a b-\u003ea b",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the given property to be inherited.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Build",
           "name": "inherit",
           "package": "cascading",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Set the given property to be inherited",
           "hierarchy": "Data CSS Build",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Build",
           "name": "inherit",
           "normalized": "PropName-\u003ea()",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes a computation in a modified environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Build",
           "name": "local",
           "package": "cascading",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Executes computation in modified environment",
           "hierarchy": "Data CSS Build",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Build",
           "name": "local",
           "normalized": "(a-\u003ea)-\u003eb c-\u003eb c",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify stylesheets for all media,\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Build",
           "name": "onAll",
           "package": "cascading",
@@ -225,6 +242,7 @@
         "index": {
           "description": "Specify stylesheets for all media",
           "hierarchy": "Data CSS Build",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Build",
           "name": "onAll",
           "normalized": "ReaderT(Set MediaType)a b-\u003ea b",
@@ -241,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify stylesheets for the given media.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Build",
           "name": "onMedia",
           "package": "cascading",
@@ -251,6 +270,7 @@
         "index": {
           "description": "Specify stylesheets for the given media",
           "hierarchy": "Data CSS Build",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Build",
           "name": "onMedia",
           "normalized": "[MediaType]-\u003eReaderT(Set MediaType)a b-\u003ea b",
@@ -267,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the selector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Build",
           "name": "select",
           "package": "cascading",
@@ -277,6 +298,7 @@
         "index": {
           "description": "Specify the selector",
           "hierarchy": "Data CSS Build",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Build",
           "name": "select",
           "normalized": "[Selector]-\u003eReaderT BuildCfg a b-\u003eReaderT(Set MediaType)a b",
@@ -292,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the given property to the given value.\n\u003c/p\u003e\u003cp\u003eNon-infix version of \u003ccode\u003e\u003ca\u003e$=\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Build",
           "name": "setProp",
           "package": "cascading",
@@ -301,6 +324,7 @@
         "index": {
           "description": "Set the given property to the given value Non-infix version of",
           "hierarchy": "Data CSS Build",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Build",
           "name": "setProp",
           "normalized": "PropName-\u003ea-\u003eSetProp",
@@ -316,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Classes",
           "name": "Classes",
           "package": "cascading",
@@ -324,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Classes",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Classes",
           "name": "Classes",
           "package": "cascading",
@@ -338,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for length types with a notion of automatic length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Classes",
           "name": "HasAutoLength",
           "package": "cascading",
@@ -347,6 +374,7 @@
         "index": {
           "description": "Class for length types with notion of automatic length",
           "hierarchy": "Data CSS Properties Classes",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Classes",
           "name": "HasAutoLength",
           "package": "cascading",
@@ -361,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types, which feature CSS lengths.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition:  \u003ccode\u003e\u003ca\u003e_Em\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e_Ex\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e_Mm\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e_Px\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ezeroLen\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Classes",
           "name": "HasLength",
           "package": "cascading",
@@ -370,6 +399,7 @@
         "index": {
           "description": "Class of types which feature CSS lengths Minimal complete definition Em Ex Mm Px zeroLen",
           "hierarchy": "Data CSS Properties Classes",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Classes",
           "name": "HasLength",
           "package": "cascading",
@@ -384,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for length types with percentages.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003e_Factor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Classes",
           "name": "HasPercent",
           "package": "cascading",
@@ -393,6 +424,7 @@
         "index": {
           "description": "Class for length types with percentages Minimal complete definition Factor",
           "hierarchy": "Data CSS Properties Classes",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Classes",
           "name": "HasPercent",
           "package": "cascading",
@@ -407,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eLength\u003c/code\u003e in centimeters (\u003ccode\u003ecm\u003c/code\u003e).  Compatible with \u003ccode\u003e\u003ca\u003e_In\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e_Mm\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003e_Pc\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e_Pt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Classes",
           "name": "_Cm",
           "package": "cascading",
@@ -417,6 +450,7 @@
         "index": {
           "description": "Length in centimeters cm Compatible with In Mm Pc and Pt",
           "hierarchy": "Data CSS Properties Classes",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Classes",
           "name": "_Cm",
           "package": "cascading",
@@ -431,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eLength\u003c/code\u003e in units of the font size (\u003ccode\u003eem\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Classes",
           "name": "_Em",
           "package": "cascading",
@@ -441,6 +476,7 @@
         "index": {
           "description": "Length in units of the font size em",
           "hierarchy": "Data CSS Properties Classes",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Classes",
           "name": "_Em",
           "package": "cascading",
@@ -455,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eLength\u003c/code\u003e in units of the height of the \u003ccode\u003ex\u003c/code\u003e character in the\n current font (\u003ccode\u003eex\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Classes",
           "name": "_Ex",
           "package": "cascading",
@@ -465,6 +502,7 @@
         "index": {
           "description": "Length in units of the height of the character in the current font ex",
           "hierarchy": "Data CSS Properties Classes",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Classes",
           "name": "_Ex",
           "package": "cascading",
@@ -479,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelative \u003ccode\u003eLength\u003c/code\u003e by factor where 1 means 100% (\u003ccode\u003e%\u003c/code\u003e).\n Compatible with \u003ccode\u003e\u003ca\u003e_Percent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Classes",
           "name": "_Factor",
           "package": "cascading",
@@ -489,6 +528,7 @@
         "index": {
           "description": "Relative Length by factor where means Compatible with Percent",
           "hierarchy": "Data CSS Properties Classes",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Classes",
           "name": "_Factor",
           "package": "cascading",
@@ -503,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eLength\u003c/code\u003e in inches (\u003ccode\u003ein\u003c/code\u003e).  Compatible with \u003ccode\u003e\u003ca\u003e_Cm\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e_Mm\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e_Pc\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003e_Pt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Classes",
           "name": "_In",
           "package": "cascading",
@@ -513,6 +554,7 @@
         "index": {
           "description": "Length in inches in Compatible with Cm Mm Pc and Pt",
           "hierarchy": "Data CSS Properties Classes",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Classes",
           "name": "_In",
           "package": "cascading",
@@ -527,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eLength\u003c/code\u003e in millimeters (\u003ccode\u003emm\u003c/code\u003e).  Compatible with \u003ccode\u003e\u003ca\u003e_Cm\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e_In\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003e_Pc\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e_Pt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Classes",
           "name": "_Mm",
           "package": "cascading",
@@ -537,6 +580,7 @@
         "index": {
           "description": "Length in millimeters mm Compatible with Cm In Pc and Pt",
           "hierarchy": "Data CSS Properties Classes",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Classes",
           "name": "_Mm",
           "package": "cascading",
@@ -551,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eLength\u003c/code\u003e in picas (\u003ccode\u003epc\u003c/code\u003e).  Compatible with \u003ccode\u003e\u003ca\u003e_Cm\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e_In\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e_Mm\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003e_Pt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Classes",
           "name": "_Pc",
           "package": "cascading",
@@ -561,6 +606,7 @@
         "index": {
           "description": "Length in picas pc Compatible with Cm In Mm and Pt",
           "hierarchy": "Data CSS Properties Classes",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Classes",
           "name": "_Pc",
           "package": "cascading",
@@ -575,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelative \u003ccode\u003eLength\u003c/code\u003e in percent (\u003ccode\u003e%\u003c/code\u003e).  Compatible with \u003ccode\u003e\u003ca\u003e_Factor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Classes",
           "name": "_Percent",
           "package": "cascading",
@@ -585,6 +632,7 @@
         "index": {
           "description": "Relative Length in percent Compatible with Factor",
           "hierarchy": "Data CSS Properties Classes",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Classes",
           "name": "_Percent",
           "package": "cascading",
@@ -599,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eLength\u003c/code\u003e in points (\u003ccode\u003ept\u003c/code\u003e).  Compatible with \u003ccode\u003e\u003ca\u003e_Cm\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e_In\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e_Mm\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003e_Pc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Classes",
           "name": "_Pt",
           "package": "cascading",
@@ -609,6 +658,7 @@
         "index": {
           "description": "Length in points pt Compatible with Cm In Mm and Pc",
           "hierarchy": "Data CSS Properties Classes",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Classes",
           "name": "_Pt",
           "package": "cascading",
@@ -623,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eLength\u003c/code\u003e in pixels (\u003ccode\u003epx\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Classes",
           "name": "_Px",
           "package": "cascading",
@@ -633,6 +684,7 @@
         "index": {
           "description": "Length in pixels px",
           "hierarchy": "Data CSS Properties Classes",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Classes",
           "name": "_Px",
           "package": "cascading",
@@ -647,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAutomatic length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Classes",
           "name": "autoLen",
           "package": "cascading",
@@ -657,6 +710,7 @@
         "index": {
           "description": "Automatic length",
           "hierarchy": "Data CSS Properties Classes",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Classes",
           "name": "autoLen",
           "package": "cascading",
@@ -671,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Classes",
           "name": "zeroLen",
           "package": "cascading",
@@ -681,6 +736,7 @@
         "index": {
           "description": "Zero length",
           "hierarchy": "Data CSS Properties Classes",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Classes",
           "name": "zeroLen",
           "package": "cascading",
@@ -694,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Compat",
           "name": "Compat",
           "package": "cascading",
@@ -702,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Compat",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Compat",
           "name": "Compat",
           "package": "cascading",
@@ -716,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds vendor-prefixed properties for all properties in the given\n style sheet.  The following vendors are currently added:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Microsoft (\u003ccode\u003e-ms-\u003c/code\u003e),\n\u003c/li\u003e\u003cli\u003e Mozilla (\u003ccode\u003e-moz-\u003c/code\u003e),\n\u003c/li\u003e\u003cli\u003e Opera (\u003ccode\u003e-o-\u003c/code\u003e),\n\u003c/li\u003e\u003cli\u003e WebKit (\u003ccode\u003e-webkit-\u003c/code\u003e).\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThis combinator keeps the original (non-prefixed) property and does\n not prefix properties that already have a vendor prefix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Compat",
           "name": "vendors",
           "package": "cascading",
@@ -726,6 +785,7 @@
         "index": {
           "description": "Adds vendor-prefixed properties for all properties in the given style sheet The following vendors are currently added Microsoft ms Mozilla moz Opera WebKit webkit This combinator keeps the original non-prefixed property and does not prefix properties that already have vendor prefix",
           "hierarchy": "Data CSS Properties Compat",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Compat",
           "name": "vendors",
           "normalized": "a b-\u003ea b",
@@ -740,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Font",
           "name": "Font",
           "package": "cascading",
@@ -748,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Font",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Font",
           "name": "Font",
           "package": "cascading",
@@ -762,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003ebackground-attachment\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Font",
           "name": "backgroundAttachment",
           "package": "cascading",
@@ -772,6 +835,7 @@
         "index": {
           "description": "Set the background-attachment",
           "hierarchy": "Data CSS Properties Font",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Font",
           "name": "backgroundAttachment",
           "normalized": "BackgroundAttachment-\u003eSetProp",
@@ -788,6 +852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003ebackground-color\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Font",
           "name": "backgroundColor",
           "package": "cascading",
@@ -798,6 +863,7 @@
         "index": {
           "description": "Set the background-color",
           "hierarchy": "Data CSS Properties Font",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Font",
           "name": "backgroundColor",
           "normalized": "a b-\u003eSetProp",
@@ -814,6 +880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003ebackground-image\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Font",
           "name": "backgroundImage",
           "package": "cascading",
@@ -824,6 +891,7 @@
         "index": {
           "description": "Set the background-image",
           "hierarchy": "Data CSS Properties Font",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Font",
           "name": "backgroundImage",
           "normalized": "Maybe(CssUrl Text)-\u003eSetProp",
@@ -840,6 +908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003ebackground-image\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Font",
           "name": "backgroundImageUrl",
           "package": "cascading",
@@ -850,6 +919,7 @@
         "index": {
           "description": "Set the background-image",
           "hierarchy": "Data CSS Properties Font",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Font",
           "name": "backgroundImageUrl",
           "normalized": "Maybe(URL a)-\u003eSetPropM a",
@@ -866,6 +936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003ebackground-position\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Font",
           "name": "backgroundPosition",
           "package": "cascading",
@@ -876,6 +947,7 @@
         "index": {
           "description": "Set the background-position",
           "hierarchy": "Data CSS Properties Font",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Font",
           "name": "backgroundPosition",
           "normalized": "FactorLen Length a-\u003eFactorLen Length b-\u003eSetProp",
@@ -892,6 +964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet \u003ccode\u003ebackground-repeat\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Font",
           "name": "backgroundRepeat",
           "package": "cascading",
@@ -902,6 +975,7 @@
         "index": {
           "description": "Set background-repeat",
           "hierarchy": "Data CSS Properties Font",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Font",
           "name": "backgroundRepeat",
           "normalized": "BackgroundRepeat-\u003eSetProp",
@@ -918,6 +992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the foreground \u003ccode\u003ecolor\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Font",
           "name": "color",
           "package": "cascading",
@@ -928,6 +1003,7 @@
         "index": {
           "description": "Set the foreground color",
           "hierarchy": "Data CSS Properties Font",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Font",
           "name": "color",
           "normalized": "a b-\u003eSetProp",
@@ -943,6 +1019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003efont-family\u003c/code\u003e choices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Font",
           "name": "fontFamily",
           "package": "cascading",
@@ -953,6 +1030,7 @@
         "index": {
           "description": "Set the font-family choices",
           "hierarchy": "Data CSS Properties Font",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Font",
           "name": "fontFamily",
           "normalized": "[FontFamily]-\u003eSetProp",
@@ -969,6 +1047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003efont-size\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Font",
           "name": "fontSize",
           "package": "cascading",
@@ -979,6 +1058,7 @@
         "index": {
           "description": "Set the font-size",
           "hierarchy": "Data CSS Properties Font",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Font",
           "name": "fontSize",
           "normalized": "FontSize a-\u003eSetProp",
@@ -995,6 +1075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003efont-style\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Font",
           "name": "fontStyle",
           "package": "cascading",
@@ -1005,6 +1086,7 @@
         "index": {
           "description": "Set the font-style",
           "hierarchy": "Data CSS Properties Font",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Font",
           "name": "fontStyle",
           "normalized": "FontStyle-\u003eSetProp",
@@ -1021,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003efont-variant\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Font",
           "name": "fontVariant",
           "package": "cascading",
@@ -1031,6 +1114,7 @@
         "index": {
           "description": "Set the font-variant",
           "hierarchy": "Data CSS Properties Font",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Font",
           "name": "fontVariant",
           "normalized": "FontVariant-\u003eSetProp",
@@ -1047,6 +1131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003efont-weight\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Font",
           "name": "fontWeight",
           "package": "cascading",
@@ -1057,6 +1142,7 @@
         "index": {
           "description": "Set the font-weight",
           "hierarchy": "Data CSS Properties Font",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Font",
           "name": "fontWeight",
           "normalized": "FontWeight-\u003eSetProp",
@@ -1073,6 +1159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003etext-decoration\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Font",
           "name": "textDecoration",
           "package": "cascading",
@@ -1083,6 +1170,7 @@
         "index": {
           "description": "Set the text-decoration",
           "hierarchy": "Data CSS Properties Font",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Font",
           "name": "textDecoration",
           "normalized": "Maybe TextDecoration-\u003eSetProp",
@@ -1098,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "Layout",
           "package": "cascading",
@@ -1106,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "Layout",
           "package": "cascading",
@@ -1120,6 +1210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet all \u003ccode\u003eborder\u003c/code\u003e properties for all edges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "border",
           "package": "cascading",
@@ -1129,6 +1220,7 @@
         "index": {
           "description": "Set all border properties for all edges",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "border",
           "normalized": "BorderWidth a-\u003eBorderStyle-\u003eb c-\u003eSetProp",
@@ -1144,6 +1236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollapse borders for tables (\u003ccode\u003eborder-collapse\u003c/code\u003e)?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "borderCollapse",
           "package": "cascading",
@@ -1154,6 +1247,7 @@
         "index": {
           "description": "Collapse borders for tables border-collapse",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "borderCollapse",
           "normalized": "Bool-\u003eSetProp",
@@ -1170,6 +1264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the border color for the given edges (\u003ccode\u003eborder*-color\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "borderColor",
           "package": "cascading",
@@ -1180,6 +1275,7 @@
         "index": {
           "description": "Set the border color for the given edges border color",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "borderColor",
           "normalized": "Edge(a b)-\u003eSetProp",
@@ -1196,6 +1292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the table's \u003ccode\u003eborder-spacing\u003c/code\u003e (up to two values).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "borderSpacing",
           "package": "cascading",
@@ -1206,6 +1303,7 @@
         "index": {
           "description": "Set the table border-spacing up to two values",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "borderSpacing",
           "normalized": "[Length a]-\u003eSetProp",
@@ -1222,6 +1320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the border style for the given edges (\u003ccode\u003eborder*-style\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "borderStyle",
           "package": "cascading",
@@ -1232,6 +1331,7 @@
         "index": {
           "description": "Set the border style for the given edges border style",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "borderStyle",
           "normalized": "Edge BorderStyle-\u003eSetProp",
@@ -1248,6 +1348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the border width for the given edges (\u003ccode\u003eborder*-width\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "borderWidth",
           "package": "cascading",
@@ -1258,6 +1359,7 @@
         "index": {
           "description": "Set the border width for the given edges border width",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "borderWidth",
           "normalized": "Edge(BorderWidth a)-\u003eSetProp",
@@ -1274,6 +1376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003ecaption-side\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "captionSide",
           "package": "cascading",
@@ -1284,6 +1387,7 @@
         "index": {
           "description": "Set the caption-side",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "captionSide",
           "normalized": "CaptionSide-\u003eSetProp",
@@ -1300,6 +1404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the sides to \u003ccode\u003eclear\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "clear",
           "package": "cascading",
@@ -1310,6 +1415,7 @@
         "index": {
           "description": "Set the sides to clear",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "clear",
           "normalized": "[FloatEdge]-\u003eSetProp",
@@ -1325,6 +1431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003eclip\u003c/code\u003e mode to the given shape or \u003ccode\u003eauto\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "clip",
           "package": "cascading",
@@ -1335,6 +1442,7 @@
         "index": {
           "description": "Set the clip mode to the given shape or auto",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "clip",
           "normalized": "Maybe(ClipMode a)-\u003eSetProp",
@@ -1350,6 +1458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003edisplay\u003c/code\u003e mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "display",
           "package": "cascading",
@@ -1360,6 +1469,7 @@
         "index": {
           "description": "Set the display mode",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "display",
           "normalized": "DisplayMode-\u003eSetProp",
@@ -1375,6 +1485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet edge positions (\u003ccode\u003etop\u003c/code\u003e, \u003ccode\u003eright\u003c/code\u003e, \u003ccode\u003ebottom\u003c/code\u003e, \u003ccode\u003eleft\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "edgePos",
           "package": "cascading",
@@ -1385,6 +1496,7 @@
         "index": {
           "description": "Set edge positions top right bottom left",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "edgePos",
           "normalized": "Edge(AutoLen(FactorLen Length)a)-\u003eSetProp",
@@ -1401,6 +1513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow \u003ccode\u003eempty-cells\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "emptyCells",
           "package": "cascading",
@@ -1411,6 +1524,7 @@
         "index": {
           "description": "Show empty-cells",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "emptyCells",
           "normalized": "Bool-\u003eSetProp",
@@ -1427,6 +1541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet \u003ccode\u003efloat\u003c/code\u003e side.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "float",
           "package": "cascading",
@@ -1437,6 +1552,7 @@
         "index": {
           "description": "Set float side",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "float",
           "normalized": "Maybe FloatEdge-\u003eSetProp",
@@ -1452,6 +1568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003eheight\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "height",
           "package": "cascading",
@@ -1462,6 +1579,7 @@
         "index": {
           "description": "Set the height",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "height",
           "normalized": "AutoLen(FactorLen Length)a-\u003eSetProp",
@@ -1477,6 +1595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003eline-height\u003c/code\u003e to the given length or \u003ccode\u003enormal\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "lineHeight",
           "package": "cascading",
@@ -1487,6 +1606,7 @@
         "index": {
           "description": "Set the line-height to the given length or normal",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "lineHeight",
           "normalized": "Maybe(FactorLen Length a)-\u003eSetProp",
@@ -1503,6 +1623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the margin for the given edges (\u003ccode\u003emargin*\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "margin",
           "package": "cascading",
@@ -1513,6 +1634,7 @@
         "index": {
           "description": "Set the margin for the given edges margin",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "margin",
           "normalized": "Edge(AutoLen(FactorLen Length)a)-\u003eSetProp",
@@ -1528,6 +1650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003emax-height\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "maxHeight",
           "package": "cascading",
@@ -1538,6 +1661,7 @@
         "index": {
           "description": "Set the max-height",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "maxHeight",
           "normalized": "Maybe(FactorLen Length a)-\u003eSetProp",
@@ -1554,6 +1678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003emax-width\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "maxWidth",
           "package": "cascading",
@@ -1564,6 +1689,7 @@
         "index": {
           "description": "Set the max-width",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "maxWidth",
           "normalized": "Maybe(FactorLen Length a)-\u003eSetProp",
@@ -1580,6 +1706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003emin-height\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "minHeight",
           "package": "cascading",
@@ -1590,6 +1717,7 @@
         "index": {
           "description": "Set the min-height",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "minHeight",
           "normalized": "FactorLen Length a-\u003eSetProp",
@@ -1606,6 +1734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003emin-width\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "minWidth",
           "package": "cascading",
@@ -1616,6 +1745,7 @@
         "index": {
           "description": "Set the min-width",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "minWidth",
           "normalized": "FactorLen Length a-\u003eSetProp",
@@ -1632,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003eoverflow\u003c/code\u003e handling mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "overflow",
           "package": "cascading",
@@ -1642,6 +1773,7 @@
         "index": {
           "description": "Set the overflow handling mode",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "overflow",
           "normalized": "OverflowMode-\u003eSetProp",
@@ -1657,6 +1789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the padding for the given edges (\u003ccode\u003epadding*\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "padding",
           "package": "cascading",
@@ -1667,6 +1800,7 @@
         "index": {
           "description": "Set the padding for the given edges padding",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "padding",
           "normalized": "Edge(FactorLen Length a)-\u003eSetProp",
@@ -1682,6 +1816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet page breaking behaviour after the element (\u003ccode\u003epage-break-after\u003c/code\u003e)\n to the given value or \u003ccode\u003eauto\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "pageBreakAfter",
           "package": "cascading",
@@ -1692,6 +1827,7 @@
         "index": {
           "description": "Set page breaking behaviour after the element page-break-after to the given value or auto",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "pageBreakAfter",
           "normalized": "Maybe(PageBreak a)-\u003eSetProp",
@@ -1708,6 +1844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet page breaking behaviour before the element\n (\u003ccode\u003epage-break-before\u003c/code\u003e) to the given value or \u003ccode\u003eauto\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "pageBreakBefore",
           "package": "cascading",
@@ -1718,6 +1855,7 @@
         "index": {
           "description": "Set page breaking behaviour before the element page-break-before to the given value or auto",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "pageBreakBefore",
           "normalized": "Maybe(PageBreak a)-\u003eSetProp",
@@ -1734,6 +1872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet page breaking behaviour inside the element\n (\u003ccode\u003epage-break-inside\u003c/code\u003e) to the given value or \u003ccode\u003eauto\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "pageBreakInside",
           "package": "cascading",
@@ -1744,6 +1883,7 @@
         "index": {
           "description": "Set page breaking behaviour inside the element page-break-inside to the given value or auto",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "pageBreakInside",
           "normalized": "Maybe(PageBreak InsideBreak)-\u003eSetProp",
@@ -1760,6 +1900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the page margins for paged media.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "pageMargins",
           "package": "cascading",
@@ -1769,6 +1910,7 @@
         "index": {
           "description": "Specify the page margins for paged media",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "pageMargins",
           "normalized": "PageSelector-\u003eEdge(AutoLen(FactorLen Length)a)-\u003eReaderT(Set MediaType)b()",
@@ -1785,6 +1927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003eposition\u003c/code\u003e mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "position",
           "package": "cascading",
@@ -1795,6 +1938,7 @@
         "index": {
           "description": "Set the position mode",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "position",
           "normalized": "PositionMode-\u003eSetProp",
@@ -1810,6 +1954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003etable-layout\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "tableLayout",
           "package": "cascading",
@@ -1820,6 +1965,7 @@
         "index": {
           "description": "Set the table-layout",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "tableLayout",
           "normalized": "TableLayout-\u003eSetProp",
@@ -1836,6 +1982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003evertical-align\u003c/code\u003e mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "verticalAlign",
           "package": "cascading",
@@ -1846,6 +1993,7 @@
         "index": {
           "description": "Set the vertical-align mode",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "verticalAlign",
           "normalized": "VerticalAlign a-\u003eSetProp",
@@ -1862,6 +2010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003evisibility\u003c/code\u003e mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "visibility",
           "package": "cascading",
@@ -1872,6 +2021,7 @@
         "index": {
           "description": "Set the visibility mode",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "visibility",
           "normalized": "VisibilityMode-\u003eSetProp",
@@ -1887,6 +2037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003ewidth\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "width",
           "package": "cascading",
@@ -1897,6 +2048,7 @@
         "index": {
           "description": "Set the width",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "width",
           "normalized": "AutoLen(FactorLen Length)a-\u003eSetProp",
@@ -1912,6 +2064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003ez-index\u003c/code\u003e to the given integer or \u003ccode\u003eauto\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Layout",
           "name": "zIndex",
           "package": "cascading",
@@ -1922,6 +2075,7 @@
         "index": {
           "description": "Set the z-index to the given integer or auto",
           "hierarchy": "Data CSS Properties Layout",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Layout",
           "name": "zIndex",
           "normalized": "Maybe a-\u003eSetProp",
@@ -1937,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "Text",
           "package": "cascading",
@@ -1945,6 +2100,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "Text",
           "package": "cascading",
@@ -1959,6 +2115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the generated \u003ccode\u003econtent\u003c/code\u003e to the given list of parts or \u003ccode\u003enormal\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "content",
           "package": "cascading",
@@ -1969,6 +2126,7 @@
         "index": {
           "description": "Set the generated content to the given list of parts or normal",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "content",
           "normalized": "Maybe[ContentPart(CssUrl Text)]-\u003eSetProp",
@@ -1984,6 +2142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the generated \u003ccode\u003econtent\u003c/code\u003e to the given list of parts or \u003ccode\u003enormal\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "contentUrl",
           "package": "cascading",
@@ -1994,6 +2153,7 @@
         "index": {
           "description": "Set the generated content to the given list of parts or normal",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "contentUrl",
           "normalized": "Maybe[ContentPart(URL a)]-\u003eSetPropM a",
@@ -2010,6 +2170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement the given counters by the given value\n (\u003ccode\u003ecounter-increment\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "counterIncrement",
           "package": "cascading",
@@ -2020,6 +2181,7 @@
         "index": {
           "description": "Increment the given counters by the given value counter-increment",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "counterIncrement",
           "normalized": "[(ByteString,a)]-\u003eSetProp",
@@ -2036,6 +2198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset the given counters to the given value (\u003ccode\u003ecounter-reset\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "counterReset",
           "package": "cascading",
@@ -2046,6 +2209,7 @@
         "index": {
           "description": "Reset the given counters to the given value counter-reset",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "counterReset",
           "normalized": "[(ByteString,a)]-\u003eSetProp",
@@ -2062,6 +2226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the text \u003ccode\u003edirection\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "direction",
           "package": "cascading",
@@ -2072,6 +2237,7 @@
         "index": {
           "description": "Set the text direction",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "direction",
           "normalized": "TextDirection-\u003eSetProp",
@@ -2087,6 +2253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003eletter-spacing\u003c/code\u003e to the specified value or \u003ccode\u003enormal\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "letterSpacing",
           "package": "cascading",
@@ -2097,6 +2264,7 @@
         "index": {
           "description": "Set the letter-spacing to the specified value or normal",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "letterSpacing",
           "normalized": "Maybe(Length a)-\u003eSetProp",
@@ -2113,6 +2281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet all \u003ccode\u003elist-style\u003c/code\u003e properties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "listStyle",
           "package": "cascading",
@@ -2123,6 +2292,7 @@
         "index": {
           "description": "Set all list-style properties",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "listStyle",
           "normalized": "ListStyle-\u003eListPosition-\u003eMaybe(CssUrl Text)-\u003eSetProp",
@@ -2139,6 +2309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003elist-style-image\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "listStyleImage",
           "package": "cascading",
@@ -2149,6 +2320,7 @@
         "index": {
           "description": "Set the list-style-image",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "listStyleImage",
           "normalized": "Maybe(CssUrl Text)-\u003eSetProp",
@@ -2165,6 +2337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003elist-style-image\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "listStyleImageUrl",
           "package": "cascading",
@@ -2175,6 +2348,7 @@
         "index": {
           "description": "Set the list-style-image",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "listStyleImageUrl",
           "normalized": "Maybe(URL a)-\u003eSetPropM a",
@@ -2191,6 +2365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003elist-style-position\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "listStylePosition",
           "package": "cascading",
@@ -2201,6 +2376,7 @@
         "index": {
           "description": "Set the list-style-position",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "listStylePosition",
           "normalized": "ListPosition-\u003eSetProp",
@@ -2217,6 +2393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003elist-style-type\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "listStyleType",
           "package": "cascading",
@@ -2227,6 +2404,7 @@
         "index": {
           "description": "Set the list-style-type",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "listStyleType",
           "normalized": "ListStyle-\u003eSetProp",
@@ -2243,6 +2421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet all \u003ccode\u003elist-style\u003c/code\u003e properties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "listStyleUrl",
           "package": "cascading",
@@ -2253,6 +2432,7 @@
         "index": {
           "description": "Set all list-style properties",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "listStyleUrl",
           "normalized": "ListStyle-\u003eListPosition-\u003eMaybe(URL a)-\u003eSetPropM a",
@@ -2269,6 +2449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003eorphans\u003c/code\u003e threshold (minimum number of lines at the bottom\n of a page).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "orphans",
           "package": "cascading",
@@ -2279,6 +2460,7 @@
         "index": {
           "description": "Set the orphans threshold minimum number of lines at the bottom of page",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "orphans",
           "normalized": "a-\u003eSetProp",
@@ -2294,6 +2476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003equotes\u003c/code\u003e pairs (\u003ccode\u003enone\u003c/code\u003e if empty).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "quotes",
           "package": "cascading",
@@ -2304,6 +2487,7 @@
         "index": {
           "description": "Set the quotes pairs none if empty",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "quotes",
           "normalized": "[(CssString Text,CssString Text)]-\u003eSetProp",
@@ -2319,6 +2503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet \u003ccode\u003etext-align\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "textAlign",
           "package": "cascading",
@@ -2329,6 +2514,7 @@
         "index": {
           "description": "Set text-align",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "textAlign",
           "normalized": "TextAlign-\u003eSetProp",
@@ -2345,6 +2531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003etext-indent\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "textIndent",
           "package": "cascading",
@@ -2355,6 +2542,7 @@
         "index": {
           "description": "Set the text-indent",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "textIndent",
           "normalized": "FactorLen Length a-\u003eSetProp",
@@ -2371,6 +2559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003etext-transform\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "textTransform",
           "package": "cascading",
@@ -2381,6 +2570,7 @@
         "index": {
           "description": "Set the text-transform",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "textTransform",
           "normalized": "Maybe TextTransform-\u003eSetProp",
@@ -2397,6 +2587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003eunicode-bidi\u003c/code\u003e mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "unicodeBidi",
           "package": "cascading",
@@ -2407,6 +2598,7 @@
         "index": {
           "description": "Set the unicode-bidi mode",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "unicodeBidi",
           "normalized": "UnicodeBidiMode-\u003eSetProp",
@@ -2423,6 +2615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the white space collapse and text wrapping modes\n (\u003ccode\u003ewhite-space\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "whiteSpace",
           "package": "cascading",
@@ -2433,6 +2626,7 @@
         "index": {
           "description": "Set the white space collapse and text wrapping modes white-space",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "whiteSpace",
           "normalized": "TextWrapMode-\u003eSetProp",
@@ -2449,6 +2643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003ewidows\u003c/code\u003e threshold (minimum number of lines at the top of a\n page).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "widows",
           "package": "cascading",
@@ -2459,6 +2654,7 @@
         "index": {
           "description": "Set the widows threshold minimum number of lines at the top of page",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "widows",
           "normalized": "a-\u003eSetProp",
@@ -2474,6 +2670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003eword-spacing\u003c/code\u003e to the specified value or \u003ccode\u003enormal\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Text",
           "name": "wordSpacing",
           "package": "cascading",
@@ -2484,6 +2681,7 @@
         "index": {
           "description": "Set the word-spacing to the specified value or normal",
           "hierarchy": "Data CSS Properties Text",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Text",
           "name": "wordSpacing",
           "normalized": "Maybe(Length a)-\u003eSetProp",
@@ -2499,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "Types",
           "package": "cascading",
@@ -2507,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "Types",
           "package": "cascading",
@@ -2521,6 +2721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePage break context: any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "AnyBreak",
           "package": "cascading",
@@ -2530,6 +2731,7 @@
         "index": {
           "description": "Page break context any",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "AnyBreak",
           "package": "cascading",
@@ -2544,6 +2746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength transformer to add automatic lengths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "AutoLen",
           "package": "cascading",
@@ -2553,6 +2756,7 @@
         "index": {
           "description": "Length transformer to add automatic lengths",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "AutoLen",
           "package": "cascading",
@@ -2567,6 +2771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBackground attachment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "BackgroundAttachment",
           "package": "cascading",
@@ -2576,6 +2781,7 @@
         "index": {
           "description": "Background attachment",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "BackgroundAttachment",
           "package": "cascading",
@@ -2590,6 +2796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBackground repeating.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "BackgroundRepeat",
           "package": "cascading",
@@ -2599,6 +2806,7 @@
         "index": {
           "description": "Background repeating",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "BackgroundRepeat",
           "package": "cascading",
@@ -2613,6 +2821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBorder style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "BorderStyle",
           "package": "cascading",
@@ -2622,6 +2831,7 @@
         "index": {
           "description": "Border style",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "BorderStyle",
           "package": "cascading",
@@ -2636,6 +2846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBorder widths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "BorderWidth",
           "package": "cascading",
@@ -2645,6 +2856,7 @@
         "index": {
           "description": "Border widths",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "BorderWidth",
           "package": "cascading",
@@ -2659,6 +2871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable caption sides.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "CaptionSide",
           "package": "cascading",
@@ -2668,6 +2881,7 @@
         "index": {
           "description": "Table caption sides",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "CaptionSide",
           "package": "cascading",
@@ -2682,6 +2896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClipping modes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "ClipMode",
           "package": "cascading",
@@ -2691,6 +2906,7 @@
         "index": {
           "description": "Clipping modes",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "ClipMode",
           "package": "cascading",
@@ -2705,6 +2921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParts for the \u003ccode\u003econtent\u003c/code\u003e property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "ContentPart",
           "package": "cascading",
@@ -2714,6 +2931,7 @@
         "index": {
           "description": "Parts for the content property",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "ContentPart",
           "package": "cascading",
@@ -2728,6 +2946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "CssString",
           "package": "cascading",
@@ -2737,6 +2956,7 @@
         "index": {
           "description": "CSS strings",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "CssString",
           "package": "cascading",
@@ -2751,6 +2971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS URLs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "CssUrl",
           "package": "cascading",
@@ -2760,6 +2981,7 @@
         "index": {
           "description": "CSS URLs",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "CssUrl",
           "package": "cascading",
@@ -2774,6 +2996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCursors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "Cursor",
           "package": "cascading",
@@ -2783,6 +3006,7 @@
         "index": {
           "description": "Cursors",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "Cursor",
           "package": "cascading",
@@ -2797,6 +3021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay modes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "DisplayMode",
           "package": "cascading",
@@ -2806,6 +3031,7 @@
         "index": {
           "description": "Display modes",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "DisplayMode",
           "package": "cascading",
@@ -2820,6 +3046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEdge-oriented specifications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "Edge",
           "package": "cascading",
@@ -2829,6 +3056,7 @@
         "index": {
           "description": "Edge-oriented specifications",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "Edge",
           "package": "cascading",
@@ -2843,6 +3071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength transformer to add percental lengths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "FactorLen",
           "package": "cascading",
@@ -2852,6 +3081,7 @@
         "index": {
           "description": "Length transformer to add percental lengths",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "FactorLen",
           "package": "cascading",
@@ -2866,6 +3096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloating edge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "FloatEdge",
           "package": "cascading",
@@ -2875,6 +3106,7 @@
         "index": {
           "description": "Floating edge",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "FloatEdge",
           "package": "cascading",
@@ -2889,6 +3121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFont families.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "FontFamily",
           "package": "cascading",
@@ -2898,6 +3131,7 @@
         "index": {
           "description": "Font families",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "FontFamily",
           "package": "cascading",
@@ -2912,6 +3146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFont sizes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "FontSize",
           "package": "cascading",
@@ -2921,6 +3156,7 @@
         "index": {
           "description": "Font sizes",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "FontSize",
           "package": "cascading",
@@ -2935,6 +3171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFont styles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "FontStyle",
           "package": "cascading",
@@ -2944,6 +3181,7 @@
         "index": {
           "description": "Font styles",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "FontStyle",
           "package": "cascading",
@@ -2958,6 +3196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFont variants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "FontVariant",
           "package": "cascading",
@@ -2967,6 +3206,7 @@
         "index": {
           "description": "Font variants",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "FontVariant",
           "package": "cascading",
@@ -2981,6 +3221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFont weight.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "FontWeight",
           "package": "cascading",
@@ -2990,6 +3231,7 @@
         "index": {
           "description": "Font weight",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "FontWeight",
           "package": "cascading",
@@ -3004,6 +3246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePage break context: \u003ccode\u003epage-break-inside\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "InsideBreak",
           "package": "cascading",
@@ -3013,6 +3256,7 @@
         "index": {
           "description": "Page break context page-break-inside",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "InsideBreak",
           "package": "cascading",
@@ -3027,6 +3271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength transformer to add lengths in various CSS units.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "Length",
           "package": "cascading",
@@ -3036,6 +3281,7 @@
         "index": {
           "description": "Length transformer to add lengths in various CSS units",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "Length",
           "package": "cascading",
@@ -3050,6 +3296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList number/bullet position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "ListPosition",
           "package": "cascading",
@@ -3059,6 +3306,7 @@
         "index": {
           "description": "List number bullet position",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "ListPosition",
           "package": "cascading",
@@ -3073,6 +3321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList number/bullet styles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "ListStyle",
           "package": "cascading",
@@ -3082,6 +3331,7 @@
         "index": {
           "description": "List number bullet styles",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "ListStyle",
           "package": "cascading",
@@ -3096,6 +3346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverflow handling mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "OverflowMode",
           "package": "cascading",
@@ -3105,6 +3356,7 @@
         "index": {
           "description": "Overflow handling mode",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "OverflowMode",
           "package": "cascading",
@@ -3119,6 +3371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePage break rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "PageBreak",
           "package": "cascading",
@@ -3128,6 +3381,7 @@
         "index": {
           "description": "Page break rules",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "PageBreak",
           "package": "cascading",
@@ -3142,6 +3396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePage selectors for paged media.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "PageSelector",
           "package": "cascading",
@@ -3151,6 +3406,7 @@
         "index": {
           "description": "Page selectors for paged media",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "PageSelector",
           "package": "cascading",
@@ -3165,6 +3421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition modes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "PositionMode",
           "package": "cascading",
@@ -3174,6 +3431,7 @@
         "index": {
           "description": "Position modes",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "PositionMode",
           "package": "cascading",
@@ -3188,6 +3446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TableLayout",
           "package": "cascading",
@@ -3197,6 +3456,7 @@
         "index": {
           "description": "Table layout",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TableLayout",
           "package": "cascading",
@@ -3211,6 +3471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText alignment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TextAlign",
           "package": "cascading",
@@ -3220,6 +3481,7 @@
         "index": {
           "description": "Text alignment",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TextAlign",
           "package": "cascading",
@@ -3234,6 +3496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText decoration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TextDecoration",
           "package": "cascading",
@@ -3243,6 +3506,7 @@
         "index": {
           "description": "Text decoration",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TextDecoration",
           "package": "cascading",
@@ -3257,6 +3521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TextDirection",
           "package": "cascading",
@@ -3266,6 +3531,7 @@
         "index": {
           "description": "Text direction",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TextDirection",
           "package": "cascading",
@@ -3280,6 +3546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText transformation modes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TextTransform",
           "package": "cascading",
@@ -3289,6 +3556,7 @@
         "index": {
           "description": "Text transformation modes",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TextTransform",
           "package": "cascading",
@@ -3303,6 +3571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText wrapping modes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TextWrapMode",
           "package": "cascading",
@@ -3312,6 +3581,7 @@
         "index": {
           "description": "Text wrapping modes",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TextWrapMode",
           "package": "cascading",
@@ -3326,6 +3596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnicode bidi embedding mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "UnicodeBidiMode",
           "package": "cascading",
@@ -3335,6 +3606,7 @@
         "index": {
           "description": "Unicode bidi embedding mode",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "UnicodeBidiMode",
           "package": "cascading",
@@ -3349,6 +3621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertical text/box alignment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "VerticalAlign",
           "package": "cascading",
@@ -3358,6 +3631,7 @@
         "index": {
           "description": "Vertical text box alignment",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "VerticalAlign",
           "package": "cascading",
@@ -3372,6 +3646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVisibility modes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "VisibilityMode",
           "package": "cascading",
@@ -3381,6 +3656,7 @@
         "index": {
           "description": "Visibility modes",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "VisibilityMode",
           "package": "cascading",
@@ -3395,6 +3671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eabsolute\u003c/code\u003e positioning.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "AbsolutePos",
           "package": "cascading",
@@ -3405,6 +3682,7 @@
         "index": {
           "description": "absolute positioning",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "AbsolutePos",
           "package": "cascading",
@@ -3419,6 +3697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect all pages (\u003ccode\u003e@page\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "AllPages",
           "package": "cascading",
@@ -3429,6 +3708,7 @@
         "index": {
           "description": "Select all pages page",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "AllPages",
           "package": "cascading",
@@ -3442,6 +3722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "AlwaysBreak",
           "package": "cascading",
@@ -3451,6 +3732,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "AlwaysBreak",
           "package": "cascading",
@@ -3465,6 +3747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003earmenian\u003c/code\u003e numbering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "ArmenianList",
           "package": "cascading",
@@ -3475,6 +3758,7 @@
         "index": {
           "description": "armenian numbering",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "ArmenianList",
           "package": "cascading",
@@ -3489,6 +3773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eattr(x)\u003c/code\u003e part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "AttrPart",
           "package": "cascading",
@@ -3499,6 +3784,7 @@
         "index": {
           "description": "attr part",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "AttrPart",
           "package": "cascading",
@@ -3513,6 +3799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eauto\u003c/code\u003e layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "AutoLayout",
           "package": "cascading",
@@ -3523,6 +3810,7 @@
         "index": {
           "description": "auto layout",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "AutoLayout",
           "package": "cascading",
@@ -3537,6 +3825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eauto\u003c/code\u003e overflow handling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "AutoOverflow",
           "package": "cascading",
@@ -3547,6 +3836,7 @@
         "index": {
           "description": "auto overflow handling",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "AutoOverflow",
           "package": "cascading",
@@ -3560,6 +3850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "AvoidBreak",
           "package": "cascading",
@@ -3569,6 +3860,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "AvoidBreak",
           "package": "cascading",
@@ -3582,6 +3874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "BaselineAlign",
           "package": "cascading",
@@ -3591,6 +3884,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "BaselineAlign",
           "package": "cascading",
@@ -3605,6 +3899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eblink\u003c/code\u003e text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "BlinkText",
           "package": "cascading",
@@ -3615,6 +3910,7 @@
         "index": {
           "description": "blink text",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "BlinkText",
           "package": "cascading",
@@ -3629,6 +3925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eblock\u003c/code\u003e display.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "BlockDisplay",
           "package": "cascading",
@@ -3639,6 +3936,7 @@
         "index": {
           "description": "block display",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "BlockDisplay",
           "package": "cascading",
@@ -3653,6 +3951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelatively \u003ccode\u003ebolder\u003c/code\u003e font weight.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "BolderWeight",
           "package": "cascading",
@@ -3663,6 +3962,7 @@
         "index": {
           "description": "Relatively bolder font weight",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "BolderWeight",
           "package": "cascading",
@@ -3677,6 +3977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustom border width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "BorderWidth",
           "package": "cascading",
@@ -3687,6 +3988,7 @@
         "index": {
           "description": "Custom border width",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "BorderWidth",
           "package": "cascading",
@@ -3700,6 +4002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "BottomAlign",
           "package": "cascading",
@@ -3709,6 +4012,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "BottomAlign",
           "package": "cascading",
@@ -3723,6 +4027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBottom edge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "BottomEdge",
           "package": "cascading",
@@ -3733,6 +4038,7 @@
         "index": {
           "description": "Bottom edge",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "BottomEdge",
           "package": "cascading",
@@ -3747,6 +4053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable's \u003ccode\u003ebottom\u003c/code\u003e side.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "BottomSide",
           "package": "cascading",
@@ -3757,6 +4064,7 @@
         "index": {
           "description": "Table bottom side",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "BottomSide",
           "package": "cascading",
@@ -3771,6 +4079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecapitalize\u003c/code\u003e transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "CapitalizeText",
           "package": "cascading",
@@ -3781,6 +4090,7 @@
         "index": {
           "description": "capitalize transform",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "CapitalizeText",
           "package": "cascading",
@@ -3795,6 +4105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecenter\u003c/code\u003e alignment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "CenterAlign",
           "package": "cascading",
@@ -3805,6 +4116,7 @@
         "index": {
           "description": "center alignment",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "CenterAlign",
           "package": "cascading",
@@ -3819,6 +4131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecircle\u003c/code\u003e bullets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "CircleList",
           "package": "cascading",
@@ -3829,6 +4142,7 @@
         "index": {
           "description": "circle bullets",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "CircleList",
           "package": "cascading",
@@ -3843,6 +4157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRectangular clipping region.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "ClipRect",
           "package": "cascading",
@@ -3853,6 +4168,7 @@
         "index": {
           "description": "Rectangular clipping region",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "ClipRect",
           "package": "cascading",
@@ -3867,6 +4183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eclose-quote\u003c/code\u003e part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "CloseQuotePart",
           "package": "cascading",
@@ -3877,6 +4194,7 @@
         "index": {
           "description": "close-quote part",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "CloseQuotePart",
           "package": "cascading",
@@ -3891,6 +4209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecollapse\u003c/code\u003e visibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "CollapseVisibility",
           "package": "cascading",
@@ -3901,6 +4220,7 @@
         "index": {
           "description": "collapse visibility",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "CollapseVisibility",
           "package": "cascading",
@@ -3915,6 +4235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecounter(x, y)\u003c/code\u003e part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "CounterPart",
           "package": "cascading",
@@ -3925,6 +4246,7 @@
         "index": {
           "description": "counter part",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "CounterPart",
           "package": "cascading",
@@ -3939,6 +4261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecounters(x, y)\u003c/code\u003e part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "CountersPart",
           "package": "cascading",
@@ -3949,6 +4272,7 @@
         "index": {
           "description": "counters part",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "CountersPart",
           "package": "cascading",
@@ -3963,6 +4287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecrosshair\u003c/code\u003e cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "CrosshairCursor",
           "package": "cascading",
@@ -3973,6 +4298,7 @@
         "index": {
           "description": "crosshair cursor",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "CrosshairCursor",
           "package": "cascading",
@@ -3986,6 +4312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "CssString",
           "package": "cascading",
@@ -3995,6 +4322,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "CssString",
           "package": "cascading",
@@ -4008,6 +4336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "CssUrl",
           "package": "cascading",
@@ -4017,6 +4346,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "CssUrl",
           "package": "cascading",
@@ -4031,6 +4361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric \u003ccode\u003ecursive\u003c/code\u003e font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "CursiveFont",
           "package": "cascading",
@@ -4041,6 +4372,7 @@
         "index": {
           "description": "Generic cursive font",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "CursiveFont",
           "package": "cascading",
@@ -4055,6 +4387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCursor from one of the given URLs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "CursorFrom",
           "package": "cascading",
@@ -4065,6 +4398,7 @@
         "index": {
           "description": "Cursor from one of the given URLs",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "CursorFrom",
           "normalized": "CursorFrom[a]",
@@ -4080,6 +4414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "DashedBorder",
           "package": "cascading",
@@ -4089,6 +4424,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "DashedBorder",
           "package": "cascading",
@@ -4103,6 +4439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edecimal-leading-zero\u003c/code\u003e numbering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "DecimalLeadingZeroList",
           "package": "cascading",
@@ -4113,6 +4450,7 @@
         "index": {
           "description": "decimal-leading-zero numbering",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "DecimalLeadingZeroList",
           "package": "cascading",
@@ -4127,6 +4465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edecimal\u003c/code\u003e numbering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "DecimalList",
           "package": "cascading",
@@ -4137,6 +4476,7 @@
         "index": {
           "description": "decimal numbering",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "DecimalList",
           "package": "cascading",
@@ -4151,6 +4491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edefault\u003c/code\u003e cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "DefaultCursor",
           "package": "cascading",
@@ -4161,6 +4502,7 @@
         "index": {
           "description": "default cursor",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "DefaultCursor",
           "package": "cascading",
@@ -4175,6 +4517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edisc\u003c/code\u003e bullets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "DiscList",
           "package": "cascading",
@@ -4185,6 +4528,7 @@
         "index": {
           "description": "disc bullets",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "DiscList",
           "package": "cascading",
@@ -4198,6 +4542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "DottedBorder",
           "package": "cascading",
@@ -4207,6 +4552,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "DottedBorder",
           "package": "cascading",
@@ -4220,6 +4566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "DoubleBorder",
           "package": "cascading",
@@ -4229,6 +4576,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "DoubleBorder",
           "package": "cascading",
@@ -4243,6 +4591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ee-resize\u003c/code\u003e cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "EResizeCursor",
           "package": "cascading",
@@ -4253,6 +4602,7 @@
         "index": {
           "description": "e-resize cursor",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "EResizeCursor",
           "package": "cascading",
@@ -4267,6 +4617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll edges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "Edges",
           "package": "cascading",
@@ -4277,6 +4628,7 @@
         "index": {
           "description": "All edges",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "Edges",
           "normalized": "Edges[a]",
@@ -4293,6 +4645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eembed\u003c/code\u003e mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "EmbedBidi",
           "package": "cascading",
@@ -4303,6 +4656,7 @@
         "index": {
           "description": "embed mode",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "EmbedBidi",
           "package": "cascading",
@@ -4317,6 +4671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric \u003ccode\u003efantasy\u003c/code\u003e font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "FantasyFont",
           "package": "cascading",
@@ -4327,6 +4682,7 @@
         "index": {
           "description": "Generic fantasy font",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "FantasyFont",
           "package": "cascading",
@@ -4341,6 +4697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect first page (\u003ccode\u003e@page :first\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "FirstPage",
           "package": "cascading",
@@ -4351,6 +4708,7 @@
         "index": {
           "description": "Select first page page first",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "FirstPage",
           "package": "cascading",
@@ -4365,6 +4723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efixed\u003c/code\u003e background.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "FixedBgr",
           "package": "cascading",
@@ -4375,6 +4734,7 @@
         "index": {
           "description": "fixed background",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "FixedBgr",
           "package": "cascading",
@@ -4389,6 +4749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efixed\u003c/code\u003e layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "FixedLayout",
           "package": "cascading",
@@ -4399,6 +4760,7 @@
         "index": {
           "description": "fixed layout",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "FixedLayout",
           "package": "cascading",
@@ -4413,6 +4775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efixed\u003c/code\u003e positioning.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "FixedPos",
           "package": "cascading",
@@ -4423,6 +4786,7 @@
         "index": {
           "description": "fixed positioning",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "FixedPos",
           "package": "cascading",
@@ -4437,6 +4801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecific font weight (1-9), 4 = \u003ccode\u003enormal\u003c/code\u003e, 7 = \u003ccode\u003ebold\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "FontWeight",
           "package": "cascading",
@@ -4447,6 +4812,7 @@
         "index": {
           "description": "Specific font weight normal bold",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "FontWeight",
           "package": "cascading",
@@ -4461,6 +4827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egeorgian\u003c/code\u003e numbering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "GeorgianList",
           "package": "cascading",
@@ -4471,6 +4838,7 @@
         "index": {
           "description": "georgian numbering",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "GeorgianList",
           "package": "cascading",
@@ -4484,6 +4852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "GrooveBorder",
           "package": "cascading",
@@ -4493,6 +4862,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "GrooveBorder",
           "package": "cascading",
@@ -4507,6 +4877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ehelp\u003c/code\u003e cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "HelpCursor",
           "package": "cascading",
@@ -4517,6 +4888,7 @@
         "index": {
           "description": "help cursor",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "HelpCursor",
           "package": "cascading",
@@ -4530,6 +4902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "HiddenBorder",
           "package": "cascading",
@@ -4539,6 +4912,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "HiddenBorder",
           "package": "cascading",
@@ -4553,6 +4927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ehidden\u003c/code\u003e overflow handling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "HiddenOverflow",
           "package": "cascading",
@@ -4563,6 +4938,7 @@
         "index": {
           "description": "hidden overflow handling",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "HiddenOverflow",
           "package": "cascading",
@@ -4577,6 +4953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ehidden\u003c/code\u003e visibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "HiddenVisibility",
           "package": "cascading",
@@ -4587,6 +4964,7 @@
         "index": {
           "description": "hidden visibility",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "HiddenVisibility",
           "package": "cascading",
@@ -4601,6 +4979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003einline-block\u003c/code\u003e display.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "InlineBlockDisplay",
           "package": "cascading",
@@ -4611,6 +4990,7 @@
         "index": {
           "description": "inline-block display",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "InlineBlockDisplay",
           "package": "cascading",
@@ -4625,6 +5005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003einline\u003c/code\u003e display.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "InlineDisplay",
           "package": "cascading",
@@ -4635,6 +5016,7 @@
         "index": {
           "description": "inline display",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "InlineDisplay",
           "package": "cascading",
@@ -4649,6 +5031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003einline-table\u003c/code\u003e display.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "InlineTableDisplay",
           "package": "cascading",
@@ -4659,6 +5042,7 @@
         "index": {
           "description": "inline-table display",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "InlineTableDisplay",
           "package": "cascading",
@@ -4672,6 +5056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "InsetBorder",
           "package": "cascading",
@@ -4681,6 +5066,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "InsetBorder",
           "package": "cascading",
@@ -4695,6 +5081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003einside\u003c/code\u003e the box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "InsideList",
           "package": "cascading",
@@ -4705,6 +5092,7 @@
         "index": {
           "description": "inside the box",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "InsideList",
           "package": "cascading",
@@ -4719,6 +5107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect \u003ccode\u003eitalic\u003c/code\u003e style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "ItalicStyle",
           "package": "cascading",
@@ -4729,6 +5118,7 @@
         "index": {
           "description": "Select italic style",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "ItalicStyle",
           "package": "cascading",
@@ -4743,6 +5133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ejustify\u003c/code\u003e alignment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "JustifyAlign",
           "package": "cascading",
@@ -4753,6 +5144,7 @@
         "index": {
           "description": "justify alignment",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "JustifyAlign",
           "package": "cascading",
@@ -4767,6 +5159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolutely \u003ccode\u003elarge\u003c/code\u003e size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "LargeSize",
           "package": "cascading",
@@ -4777,6 +5170,7 @@
         "index": {
           "description": "Absolutely large size",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "LargeSize",
           "package": "cascading",
@@ -4791,6 +5185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelatively \u003ccode\u003elarger\u003c/code\u003e size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "LargerSize",
           "package": "cascading",
@@ -4801,6 +5196,7 @@
         "index": {
           "description": "Relatively larger size",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "LargerSize",
           "package": "cascading",
@@ -4815,6 +5211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eleft\u003c/code\u003e alignment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "LeftAlign",
           "package": "cascading",
@@ -4825,6 +5222,7 @@
         "index": {
           "description": "left alignment",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "LeftAlign",
           "package": "cascading",
@@ -4838,6 +5236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "LeftBreak",
           "package": "cascading",
@@ -4847,6 +5246,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "LeftBreak",
           "package": "cascading",
@@ -4861,6 +5261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft edge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "LeftEdge",
           "package": "cascading",
@@ -4871,6 +5272,7 @@
         "index": {
           "description": "Left edge",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "LeftEdge",
           "package": "cascading",
@@ -4884,6 +5286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "LeftFloat",
           "package": "cascading",
@@ -4893,6 +5296,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "LeftFloat",
           "package": "cascading",
@@ -4907,6 +5311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect all left pages (\u003ccode\u003e@page :left\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "LeftPages",
           "package": "cascading",
@@ -4917,6 +5322,7 @@
         "index": {
           "description": "Select all left pages page left",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "LeftPages",
           "package": "cascading",
@@ -4930,6 +5336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "LeftToRight",
           "package": "cascading",
@@ -4939,6 +5346,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "LeftToRight",
           "package": "cascading",
@@ -4952,6 +5360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "LengthAlign",
           "package": "cascading",
@@ -4961,6 +5370,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "LengthAlign",
           "package": "cascading",
@@ -4975,6 +5385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecific font size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "LengthSize",
           "package": "cascading",
@@ -4985,6 +5396,7 @@
         "index": {
           "description": "Specific font size",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "LengthSize",
           "package": "cascading",
@@ -4999,6 +5411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelatively \u003ccode\u003elighter\u003c/code\u003e font weight.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "LighterWeight",
           "package": "cascading",
@@ -5009,6 +5422,7 @@
         "index": {
           "description": "Relatively lighter font weight",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "LighterWeight",
           "package": "cascading",
@@ -5023,6 +5437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eline-through\u003c/code\u003e text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "LineThroughText",
           "package": "cascading",
@@ -5033,6 +5448,7 @@
         "index": {
           "description": "line-through text",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "LineThroughText",
           "package": "cascading",
@@ -5047,6 +5463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elist-item\u003c/code\u003e display\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "ListItemDisplay",
           "package": "cascading",
@@ -5057,6 +5474,7 @@
         "index": {
           "description": "list-item display",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "ListItemDisplay",
           "package": "cascading",
@@ -5071,6 +5489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elower-alpha\u003c/code\u003e numbering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "LowerAlphaList",
           "package": "cascading",
@@ -5081,6 +5500,7 @@
         "index": {
           "description": "lower-alpha numbering",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "LowerAlphaList",
           "package": "cascading",
@@ -5095,6 +5515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elower-greek\u003c/code\u003e numbering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "LowerGreekList",
           "package": "cascading",
@@ -5105,6 +5526,7 @@
         "index": {
           "description": "lower-greek numbering",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "LowerGreekList",
           "package": "cascading",
@@ -5119,6 +5541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elower-latin\u003c/code\u003e numbering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "LowerLatinList",
           "package": "cascading",
@@ -5129,6 +5552,7 @@
         "index": {
           "description": "lower-latin numbering",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "LowerLatinList",
           "package": "cascading",
@@ -5143,6 +5567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elower-roman\u003c/code\u003e numbering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "LowerRomanList",
           "package": "cascading",
@@ -5153,6 +5578,7 @@
         "index": {
           "description": "lower-roman numbering",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "LowerRomanList",
           "package": "cascading",
@@ -5167,6 +5593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elowercase\u003c/code\u003e transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "LowercaseText",
           "package": "cascading",
@@ -5177,6 +5604,7 @@
         "index": {
           "description": "lowercase transform",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "LowercaseText",
           "package": "cascading",
@@ -5191,6 +5619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolutely \u003ccode\u003emedium\u003c/code\u003e size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "MediumSize",
           "package": "cascading",
@@ -5201,6 +5630,7 @@
         "index": {
           "description": "Absolutely medium size",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "MediumSize",
           "package": "cascading",
@@ -5215,6 +5645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMedium border width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "MediumWidth",
           "package": "cascading",
@@ -5225,6 +5656,7 @@
         "index": {
           "description": "Medium border width",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "MediumWidth",
           "package": "cascading",
@@ -5238,6 +5670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "MiddleAlign",
           "package": "cascading",
@@ -5247,6 +5680,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "MiddleAlign",
           "package": "cascading",
@@ -5261,6 +5695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric \u003ccode\u003emonospace\u003c/code\u003e font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "MonospaceFont",
           "package": "cascading",
@@ -5271,6 +5706,7 @@
         "index": {
           "description": "Generic monospace font",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "MonospaceFont",
           "package": "cascading",
@@ -5285,6 +5721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emove\u003c/code\u003e cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "MoveCursor",
           "package": "cascading",
@@ -5295,6 +5732,7 @@
         "index": {
           "description": "move cursor",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "MoveCursor",
           "package": "cascading",
@@ -5309,6 +5747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003en-resize\u003c/code\u003e cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "NResizeCursor",
           "package": "cascading",
@@ -5319,6 +5758,7 @@
         "index": {
           "description": "n-resize cursor",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "NResizeCursor",
           "package": "cascading",
@@ -5333,6 +5773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecific named font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "NamedFont",
           "package": "cascading",
@@ -5343,6 +5784,7 @@
         "index": {
           "description": "Specific named font",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "NamedFont",
           "package": "cascading",
@@ -5357,6 +5799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ene-resize\u003c/code\u003e cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "NeResizeCursor",
           "package": "cascading",
@@ -5367,6 +5810,7 @@
         "index": {
           "description": "ne-resize cursor",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "NeResizeCursor",
           "package": "cascading",
@@ -5380,6 +5824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "NoBorder",
           "package": "cascading",
@@ -5389,6 +5834,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "NoBorder",
           "package": "cascading",
@@ -5403,6 +5849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eno-close-quote\u003c/code\u003e part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "NoCloseQuotePart",
           "package": "cascading",
@@ -5413,6 +5860,7 @@
         "index": {
           "description": "no-close-quote part",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "NoCloseQuotePart",
           "package": "cascading",
@@ -5427,6 +5875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eno-open-quote\u003c/code\u003e part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "NoOpenQuotePart",
           "package": "cascading",
@@ -5437,6 +5886,7 @@
         "index": {
           "description": "no-open-quote part",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "NoOpenQuotePart",
           "package": "cascading",
@@ -5451,6 +5901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eno-repeat\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "NoRepeat",
           "package": "cascading",
@@ -5461,6 +5912,7 @@
         "index": {
           "description": "no-repeat",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "NoRepeat",
           "package": "cascading",
@@ -5475,6 +5927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enone\u003c/code\u003e display.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "NoneDisplay",
           "package": "cascading",
@@ -5485,6 +5938,7 @@
         "index": {
           "description": "none display",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "NoneDisplay",
           "package": "cascading",
@@ -5499,6 +5953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enormal\u003c/code\u003e mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "NormalBidi",
           "package": "cascading",
@@ -5509,6 +5964,7 @@
         "index": {
           "description": "normal mode",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "NormalBidi",
           "package": "cascading",
@@ -5523,6 +5979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect \u003ccode\u003enormal\u003c/code\u003e style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "NormalStyle",
           "package": "cascading",
@@ -5533,6 +5990,7 @@
         "index": {
           "description": "Select normal style",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "NormalStyle",
           "package": "cascading",
@@ -5547,6 +6005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect \u003ccode\u003enormal\u003c/code\u003e font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "NormalVariant",
           "package": "cascading",
@@ -5557,6 +6016,7 @@
         "index": {
           "description": "Select normal font",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "NormalVariant",
           "package": "cascading",
@@ -5571,6 +6031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enormal\u003c/code\u003e wrapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "NormalWrapping",
           "package": "cascading",
@@ -5581,6 +6042,7 @@
         "index": {
           "description": "normal wrapping",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "NormalWrapping",
           "package": "cascading",
@@ -5595,6 +6057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enowrap\u003c/code\u003e wrapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "NowrapWrapping",
           "package": "cascading",
@@ -5605,6 +6068,7 @@
         "index": {
           "description": "nowrap wrapping",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "NowrapWrapping",
           "package": "cascading",
@@ -5619,6 +6083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enw-resize\u003c/code\u003e cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "NwResizeCursor",
           "package": "cascading",
@@ -5629,6 +6094,7 @@
         "index": {
           "description": "nw-resize cursor",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "NwResizeCursor",
           "package": "cascading",
@@ -5643,6 +6109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect \u003ccode\u003eoblique\u003c/code\u003e style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "ObliqueStyle",
           "package": "cascading",
@@ -5653,6 +6120,7 @@
         "index": {
           "description": "Select oblique style",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "ObliqueStyle",
           "package": "cascading",
@@ -5667,6 +6135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eopen-quote\u003c/code\u003e part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "OpenQuotePart",
           "package": "cascading",
@@ -5677,6 +6146,7 @@
         "index": {
           "description": "open-quote part",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "OpenQuotePart",
           "package": "cascading",
@@ -5690,6 +6160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "OutsetBorder",
           "package": "cascading",
@@ -5699,6 +6170,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "OutsetBorder",
           "package": "cascading",
@@ -5713,6 +6185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eoutside\u003c/code\u003e of the box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "OutsideList",
           "package": "cascading",
@@ -5723,6 +6196,7 @@
         "index": {
           "description": "outside of the box",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "OutsideList",
           "package": "cascading",
@@ -5737,6 +6211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eoverline\u003c/code\u003e text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "OverlineText",
           "package": "cascading",
@@ -5747,6 +6222,7 @@
         "index": {
           "description": "overline text",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "OverlineText",
           "package": "cascading",
@@ -5761,6 +6237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebidi-override\u003c/code\u003e mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "OverrideBidi",
           "package": "cascading",
@@ -5771,6 +6248,7 @@
         "index": {
           "description": "bidi-override mode",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "OverrideBidi",
           "package": "cascading",
@@ -5785,6 +6263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epointer\u003c/code\u003e cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "PointerCursor",
           "package": "cascading",
@@ -5795,6 +6274,7 @@
         "index": {
           "description": "pointer cursor",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "PointerCursor",
           "package": "cascading",
@@ -5809,6 +6289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epre-line\u003c/code\u003e wrapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "PreLineWrapping",
           "package": "cascading",
@@ -5819,6 +6300,7 @@
         "index": {
           "description": "pre-line wrapping",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "PreLineWrapping",
           "package": "cascading",
@@ -5833,6 +6315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epre-wrap\u003c/code\u003e wrapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "PreWrapWrapping",
           "package": "cascading",
@@ -5843,6 +6326,7 @@
         "index": {
           "description": "pre-wrap wrapping",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "PreWrapWrapping",
           "package": "cascading",
@@ -5857,6 +6341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epre\u003c/code\u003e wrapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "PreWrapping",
           "package": "cascading",
@@ -5867,6 +6352,7 @@
         "index": {
           "description": "pre wrapping",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "PreWrapping",
           "package": "cascading",
@@ -5881,6 +6367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprogress\u003c/code\u003e cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "ProgressCursor",
           "package": "cascading",
@@ -5891,6 +6378,7 @@
         "index": {
           "description": "progress cursor",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "ProgressCursor",
           "package": "cascading",
@@ -5905,6 +6393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erelative\u003c/code\u003e positioning.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "RelativePos",
           "package": "cascading",
@@ -5915,6 +6404,7 @@
         "index": {
           "description": "relative positioning",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "RelativePos",
           "package": "cascading",
@@ -5929,6 +6419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erepeat\u003c/code\u003e both axes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "Repeat",
           "package": "cascading",
@@ -5939,6 +6430,7 @@
         "index": {
           "description": "repeat both axes",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "Repeat",
           "package": "cascading",
@@ -5953,6 +6445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erepeat-x\u003c/code\u003e axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "RepeatX",
           "package": "cascading",
@@ -5963,6 +6456,7 @@
         "index": {
           "description": "repeat-x axis",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "RepeatX",
           "package": "cascading",
@@ -5977,6 +6471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erepeat-y\u003c/code\u003e axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "RepeatY",
           "package": "cascading",
@@ -5987,6 +6482,7 @@
         "index": {
           "description": "repeat-y axis",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "RepeatY",
           "package": "cascading",
@@ -6000,6 +6496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "RidgeBorder",
           "package": "cascading",
@@ -6009,6 +6506,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "RidgeBorder",
           "package": "cascading",
@@ -6023,6 +6521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eright\u003c/code\u003e alignment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "RightAlign",
           "package": "cascading",
@@ -6033,6 +6532,7 @@
         "index": {
           "description": "right alignment",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "RightAlign",
           "package": "cascading",
@@ -6046,6 +6546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "RightBreak",
           "package": "cascading",
@@ -6055,6 +6556,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "RightBreak",
           "package": "cascading",
@@ -6069,6 +6571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight edge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "RightEdge",
           "package": "cascading",
@@ -6079,6 +6582,7 @@
         "index": {
           "description": "Right edge",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "RightEdge",
           "package": "cascading",
@@ -6092,6 +6596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "RightFloat",
           "package": "cascading",
@@ -6101,6 +6606,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "RightFloat",
           "package": "cascading",
@@ -6115,6 +6621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect all right pages (\u003ccode\u003e@page :right\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "RightPages",
           "package": "cascading",
@@ -6125,6 +6632,7 @@
         "index": {
           "description": "Select all right pages page right",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "RightPages",
           "package": "cascading",
@@ -6138,6 +6646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "RightToLeft",
           "package": "cascading",
@@ -6147,6 +6656,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "RightToLeft",
           "package": "cascading",
@@ -6161,6 +6671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003es-resize\u003c/code\u003e cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "SResizeCursor",
           "package": "cascading",
@@ -6171,6 +6682,7 @@
         "index": {
           "description": "s-resize cursor",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "SResizeCursor",
           "package": "cascading",
@@ -6185,6 +6697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric \u003ccode\u003esans-serif\u003c/code\u003e font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "SansSerifFont",
           "package": "cascading",
@@ -6195,6 +6708,7 @@
         "index": {
           "description": "Generic sans-serif font",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "SansSerifFont",
           "package": "cascading",
@@ -6209,6 +6723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003escroll\u003c/code\u003e background.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "ScrollBgr",
           "package": "cascading",
@@ -6219,6 +6734,7 @@
         "index": {
           "description": "scroll background",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "ScrollBgr",
           "package": "cascading",
@@ -6233,6 +6749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003escroll\u003c/code\u003e overflow handling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "ScrollOverflow",
           "package": "cascading",
@@ -6243,6 +6760,7 @@
         "index": {
           "description": "scroll overflow handling",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "ScrollOverflow",
           "package": "cascading",
@@ -6257,6 +6775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ese-resize\u003c/code\u003e cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "SeResizeCursor",
           "package": "cascading",
@@ -6267,6 +6786,7 @@
         "index": {
           "description": "se-resize cursor",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "SeResizeCursor",
           "package": "cascading",
@@ -6281,6 +6801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric \u003ccode\u003eserif\u003c/code\u003e font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "SerifFont",
           "package": "cascading",
@@ -6291,6 +6812,7 @@
         "index": {
           "description": "Generic serif font",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "SerifFont",
           "package": "cascading",
@@ -6305,6 +6827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect \u003ccode\u003esmall-caps\u003c/code\u003e font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "SmallCapsVariant",
           "package": "cascading",
@@ -6315,6 +6838,7 @@
         "index": {
           "description": "Select small-caps font",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "SmallCapsVariant",
           "package": "cascading",
@@ -6329,6 +6853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolutely \u003ccode\u003esmall\u003c/code\u003e size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "SmallSize",
           "package": "cascading",
@@ -6339,6 +6864,7 @@
         "index": {
           "description": "Absolutely small size",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "SmallSize",
           "package": "cascading",
@@ -6353,6 +6879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelatively \u003ccode\u003esmaller\u003c/code\u003e size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "SmallerSize",
           "package": "cascading",
@@ -6363,6 +6890,7 @@
         "index": {
           "description": "Relatively smaller size",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "SmallerSize",
           "package": "cascading",
@@ -6376,6 +6904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "SolidBorder",
           "package": "cascading",
@@ -6385,6 +6914,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "SolidBorder",
           "package": "cascading",
@@ -6399,6 +6929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esquare\u003c/code\u003e bullets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "SquareList",
           "package": "cascading",
@@ -6409,6 +6940,7 @@
         "index": {
           "description": "square bullets",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "SquareList",
           "package": "cascading",
@@ -6423,6 +6955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003estatic\u003c/code\u003e positioning.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "StaticPos",
           "package": "cascading",
@@ -6433,6 +6966,7 @@
         "index": {
           "description": "static positioning",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "StaticPos",
           "package": "cascading",
@@ -6446,6 +6980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "SubAlign",
           "package": "cascading",
@@ -6455,6 +6990,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "SubAlign",
           "package": "cascading",
@@ -6468,6 +7004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "SuperAlign",
           "package": "cascading",
@@ -6477,6 +7014,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "SuperAlign",
           "package": "cascading",
@@ -6491,6 +7029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esw-resize\u003c/code\u003e cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "SwResizeCursor",
           "package": "cascading",
@@ -6501,6 +7040,7 @@
         "index": {
           "description": "sw-resize cursor",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "SwResizeCursor",
           "package": "cascading",
@@ -6515,6 +7055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etable-caption\u003c/code\u003e display.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TableCaptionDisplay",
           "package": "cascading",
@@ -6525,6 +7066,7 @@
         "index": {
           "description": "table-caption display",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TableCaptionDisplay",
           "package": "cascading",
@@ -6539,6 +7081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etable-cell\u003c/code\u003e display.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TableCellDisplay",
           "package": "cascading",
@@ -6549,6 +7092,7 @@
         "index": {
           "description": "table-cell display",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TableCellDisplay",
           "package": "cascading",
@@ -6563,6 +7107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etable-column\u003c/code\u003e display.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TableColumnDisplay",
           "package": "cascading",
@@ -6573,6 +7118,7 @@
         "index": {
           "description": "table-column display",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TableColumnDisplay",
           "package": "cascading",
@@ -6587,6 +7133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etable-column-group\u003c/code\u003e display.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TableColumnGroupDisplay",
           "package": "cascading",
@@ -6597,6 +7144,7 @@
         "index": {
           "description": "table-column-group display",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TableColumnGroupDisplay",
           "package": "cascading",
@@ -6611,6 +7159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etable\u003c/code\u003e display.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TableDisplay",
           "package": "cascading",
@@ -6621,6 +7170,7 @@
         "index": {
           "description": "table display",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TableDisplay",
           "package": "cascading",
@@ -6635,6 +7185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etable-footer-group\u003c/code\u003e display.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TableFooterGroupDisplay",
           "package": "cascading",
@@ -6645,6 +7196,7 @@
         "index": {
           "description": "table-footer-group display",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TableFooterGroupDisplay",
           "package": "cascading",
@@ -6659,6 +7211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etable-header-group\u003c/code\u003e display.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TableHeaderGroupDisplay",
           "package": "cascading",
@@ -6669,6 +7222,7 @@
         "index": {
           "description": "table-header-group display",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TableHeaderGroupDisplay",
           "package": "cascading",
@@ -6683,6 +7237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etable-row\u003c/code\u003e display.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TableRowDisplay",
           "package": "cascading",
@@ -6693,6 +7248,7 @@
         "index": {
           "description": "table-row display",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TableRowDisplay",
           "package": "cascading",
@@ -6707,6 +7263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etable-row-group\u003c/code\u003e display.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TableRowGroupDisplay",
           "package": "cascading",
@@ -6717,6 +7274,7 @@
         "index": {
           "description": "table-row-group display",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TableRowGroupDisplay",
           "package": "cascading",
@@ -6730,6 +7288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TextBottomAlign",
           "package": "cascading",
@@ -6739,6 +7298,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TextBottomAlign",
           "package": "cascading",
@@ -6753,6 +7313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etext\u003c/code\u003e cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TextCursor",
           "package": "cascading",
@@ -6763,6 +7324,7 @@
         "index": {
           "description": "text cursor",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TextCursor",
           "package": "cascading",
@@ -6777,6 +7339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TextPart",
           "package": "cascading",
@@ -6787,6 +7350,7 @@
         "index": {
           "description": "Text part",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TextPart",
           "package": "cascading",
@@ -6800,6 +7364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TextTopAlign",
           "package": "cascading",
@@ -6809,6 +7374,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TextTopAlign",
           "package": "cascading",
@@ -6823,6 +7389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThick border width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "ThickWidth",
           "package": "cascading",
@@ -6833,6 +7400,7 @@
         "index": {
           "description": "Thick border width",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "ThickWidth",
           "package": "cascading",
@@ -6847,6 +7415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThin border width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "ThinWidth",
           "package": "cascading",
@@ -6857,6 +7426,7 @@
         "index": {
           "description": "Thin border width",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "ThinWidth",
           "package": "cascading",
@@ -6870,6 +7440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TopAlign",
           "package": "cascading",
@@ -6879,6 +7450,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TopAlign",
           "package": "cascading",
@@ -6893,6 +7465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop edge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TopEdge",
           "package": "cascading",
@@ -6903,6 +7476,7 @@
         "index": {
           "description": "Top edge",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TopEdge",
           "package": "cascading",
@@ -6917,6 +7491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable's \u003ccode\u003etop\u003c/code\u003e side.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "TopSide",
           "package": "cascading",
@@ -6927,6 +7502,7 @@
         "index": {
           "description": "Table top side",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "TopSide",
           "package": "cascading",
@@ -6941,6 +7517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eunderline\u003c/code\u003e text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "UnderlineText",
           "package": "cascading",
@@ -6951,6 +7528,7 @@
         "index": {
           "description": "underline text",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "UnderlineText",
           "package": "cascading",
@@ -6965,6 +7543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eupper-alpha\u003c/code\u003e numbering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "UpperAlphaList",
           "package": "cascading",
@@ -6975,6 +7554,7 @@
         "index": {
           "description": "upper-alpha numbering",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "UpperAlphaList",
           "package": "cascading",
@@ -6989,6 +7569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eupper-latin\u003c/code\u003e numbering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "UpperLatinList",
           "package": "cascading",
@@ -6999,6 +7580,7 @@
         "index": {
           "description": "upper-latin numbering",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "UpperLatinList",
           "package": "cascading",
@@ -7013,6 +7595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eupper-roman\u003c/code\u003e numbering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "UpperRomanList",
           "package": "cascading",
@@ -7023,6 +7606,7 @@
         "index": {
           "description": "upper-roman numbering",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "UpperRomanList",
           "package": "cascading",
@@ -7037,6 +7621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003euppercase\u003c/code\u003e transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "UppercaseText",
           "package": "cascading",
@@ -7047,6 +7632,7 @@
         "index": {
           "description": "uppercase transform",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "UppercaseText",
           "package": "cascading",
@@ -7061,6 +7647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eurl(x)\u003c/code\u003e part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "UriPart",
           "package": "cascading",
@@ -7071,6 +7658,7 @@
         "index": {
           "description": "url part",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "UriPart",
           "package": "cascading",
@@ -7085,6 +7673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003evisible\u003c/code\u003e overflow handling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "VisibleOverflow",
           "package": "cascading",
@@ -7095,6 +7684,7 @@
         "index": {
           "description": "visible overflow handling",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "VisibleOverflow",
           "package": "cascading",
@@ -7109,6 +7699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003evisible\u003c/code\u003e visibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "VisibleVisibility",
           "package": "cascading",
@@ -7119,6 +7710,7 @@
         "index": {
           "description": "visible visibility",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "VisibleVisibility",
           "package": "cascading",
@@ -7133,6 +7725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ew-resize\u003c/code\u003e cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "WResizeCursor",
           "package": "cascading",
@@ -7143,6 +7736,7 @@
         "index": {
           "description": "w-resize cursor",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "WResizeCursor",
           "package": "cascading",
@@ -7157,6 +7751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ewait\u003c/code\u003e cursor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "WaitCursor",
           "package": "cascading",
@@ -7167,6 +7762,7 @@
         "index": {
           "description": "wait cursor",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "WaitCursor",
           "package": "cascading",
@@ -7181,6 +7777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolutely \u003ccode\u003ex-large\u003c/code\u003e size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "XLargeSize",
           "package": "cascading",
@@ -7191,6 +7788,7 @@
         "index": {
           "description": "Absolutely x-large size",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "XLargeSize",
           "package": "cascading",
@@ -7205,6 +7803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolutely \u003ccode\u003ex-small\u003c/code\u003e size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "XSmallSize",
           "package": "cascading",
@@ -7215,6 +7814,7 @@
         "index": {
           "description": "Absolutely x-small size",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "XSmallSize",
           "package": "cascading",
@@ -7229,6 +7829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolutely \u003ccode\u003exx-large\u003c/code\u003e size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "XXLargeSize",
           "package": "cascading",
@@ -7239,6 +7840,7 @@
         "index": {
           "description": "Absolutely xx-large size",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "XXLargeSize",
           "package": "cascading",
@@ -7253,6 +7855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolutely \u003ccode\u003exx-small\u003c/code\u003e size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "XXSmallSize",
           "package": "cascading",
@@ -7263,6 +7866,7 @@
         "index": {
           "description": "Absolutely xx-small size",
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "XXSmallSize",
           "package": "cascading",
@@ -7276,6 +7880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "getCssString",
           "package": "cascading",
@@ -7285,6 +7890,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "getCssString",
           "package": "cascading",
@@ -7298,6 +7904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Types",
           "name": "getCssUrl",
           "package": "cascading",
@@ -7307,6 +7914,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Types",
           "name": "getCssUrl",
           "package": "cascading",
@@ -7320,6 +7928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.UI",
           "name": "UI",
           "package": "cascading",
@@ -7328,6 +7937,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties UI",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.UI",
           "name": "UI",
           "package": "cascading",
@@ -7342,6 +7952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003ecursor\u003c/code\u003e to the specified value or \u003ccode\u003eauto\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.UI",
           "name": "cursor",
           "package": "cascading",
@@ -7352,6 +7963,7 @@
         "index": {
           "description": "Set the cursor to the specified value or auto",
           "hierarchy": "Data CSS Properties UI",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.UI",
           "name": "cursor",
           "normalized": "Maybe(Cursor(CssUrl Text))-\u003eSetProp",
@@ -7367,6 +7979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003ecursor\u003c/code\u003e to the specified value or \u003ccode\u003eauto\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.UI",
           "name": "cursorUrl",
           "package": "cascading",
@@ -7377,6 +7990,7 @@
         "index": {
           "description": "Set the cursor to the specified value or auto",
           "hierarchy": "Data CSS Properties UI",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.UI",
           "name": "cursorUrl",
           "normalized": "Maybe(Cursor(URL a))-\u003eSetPropM a",
@@ -7393,6 +8007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003eoutline\u003c/code\u003e properties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.UI",
           "name": "outline",
           "package": "cascading",
@@ -7402,6 +8017,7 @@
         "index": {
           "description": "Set the outline properties",
           "hierarchy": "Data CSS Properties UI",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.UI",
           "name": "outline",
           "normalized": "Maybe(a b)-\u003eBorderStyle-\u003eBorderWidth c-\u003eSetProp",
@@ -7417,6 +8033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003eoutline-color\u003c/code\u003e to the given color or \u003ccode\u003einvert\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.UI",
           "name": "outlineColor",
           "package": "cascading",
@@ -7427,6 +8044,7 @@
         "index": {
           "description": "Set the outline-color to the given color or invert",
           "hierarchy": "Data CSS Properties UI",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.UI",
           "name": "outlineColor",
           "normalized": "Maybe(a b)-\u003eSetProp",
@@ -7443,6 +8061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003eoutline-style\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.UI",
           "name": "outlineStyle",
           "package": "cascading",
@@ -7453,6 +8072,7 @@
         "index": {
           "description": "Set the outline-style",
           "hierarchy": "Data CSS Properties UI",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.UI",
           "name": "outlineStyle",
           "normalized": "BorderStyle-\u003eSetProp",
@@ -7469,6 +8089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the \u003ccode\u003eoutline-width\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.UI",
           "name": "outlineWidth",
           "package": "cascading",
@@ -7479,6 +8100,7 @@
         "index": {
           "description": "Set the outline-width",
           "hierarchy": "Data CSS Properties UI",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.UI",
           "name": "outlineWidth",
           "normalized": "BorderWidth a-\u003eSetProp",
@@ -7494,6 +8116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Utils",
           "name": "Utils",
           "package": "cascading",
@@ -7502,6 +8125,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties Utils",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Utils",
           "name": "Utils",
           "package": "cascading",
@@ -7516,6 +8140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience wrapper around \u003ccode\u003e\u003ca\u003emaybe\u003c/a\u003e\u003c/code\u003e for properties.  Renders as the\n given bytestring if \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Utils",
           "name": "maybeBuilder",
           "package": "cascading",
@@ -7526,6 +8151,7 @@
         "index": {
           "description": "Convenience wrapper around maybe for properties Renders as the given bytestring if Nothing",
           "hierarchy": "Data CSS Properties Utils",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Utils",
           "name": "maybeBuilder",
           "normalized": "ByteString-\u003eMaybe a-\u003eBuilder",
@@ -7542,6 +8168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience wrapper around \u003ccode\u003e\u003ca\u003emaybe\u003c/a\u003e\u003c/code\u003e for properties.  Renders as the\n given bytestring if \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties.Utils",
           "name": "maybeProp",
           "package": "cascading",
@@ -7552,6 +8179,7 @@
         "index": {
           "description": "Convenience wrapper around maybe for properties Renders as the given bytestring if Nothing",
           "hierarchy": "Data CSS Properties Utils",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties.Utils",
           "name": "maybeProp",
           "normalized": "ByteString-\u003eMaybe a-\u003ePropValue",
@@ -7567,6 +8195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Properties",
           "name": "Properties",
           "package": "cascading",
@@ -7575,6 +8204,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Properties",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Properties",
           "name": "Properties",
           "package": "cascading",
@@ -7588,6 +8218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Render",
           "name": "Render",
           "package": "cascading",
@@ -7596,6 +8227,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Render",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Render",
           "name": "Render",
           "package": "cascading",
@@ -7610,6 +8242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the given raw stylesheet to a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Render",
           "name": "fromCSS",
           "package": "cascading",
@@ -7620,6 +8253,7 @@
         "index": {
           "description": "Render the given raw stylesheet to Builder",
           "hierarchy": "Data CSS Render",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Render",
           "name": "fromCSS",
           "normalized": "CSS-\u003eBuilder",
@@ -7636,6 +8270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the given stylesheet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Render",
           "name": "renderCSS",
           "package": "cascading",
@@ -7646,6 +8281,7 @@
         "index": {
           "description": "Render the given stylesheet",
           "hierarchy": "Data CSS Render",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Render",
           "name": "renderCSS",
           "normalized": "Writer CSS a-\u003eBuilder",
@@ -7662,6 +8298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the given stylesheet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Render",
           "name": "renderCSST",
           "package": "cascading",
@@ -7672,6 +8309,7 @@
         "index": {
           "description": "Render the given stylesheet",
           "hierarchy": "Data CSS Render",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Render",
           "name": "renderCSST",
           "normalized": "WriterT CSS a b-\u003ea Builder",
@@ -7687,6 +8325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "Types",
           "package": "cascading",
@@ -7695,6 +8334,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "Types",
           "package": "cascading",
@@ -7709,6 +8349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCSS builder configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "BuildCfg",
           "package": "cascading",
@@ -7718,6 +8359,7 @@
         "index": {
           "description": "CSS builder configuration",
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "BuildCfg",
           "package": "cascading",
@@ -7732,6 +8374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCascading style sheets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "CSS",
           "package": "cascading",
@@ -7741,6 +8384,7 @@
         "index": {
           "description": "Cascading style sheets",
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "CSS",
           "package": "cascading",
@@ -7755,6 +8399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMedia types, e.g. \u003ccode\u003eall\u003c/code\u003e or \u003ccode\u003eprint\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "MediaType",
           "package": "cascading",
@@ -7764,6 +8409,7 @@
         "index": {
           "description": "Media types e.g all or print",
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "MediaType",
           "package": "cascading",
@@ -7778,6 +8424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperty names, e.g. \u003ccode\u003efont-family\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "PropName",
           "package": "cascading",
@@ -7787,6 +8434,7 @@
         "index": {
           "description": "Property names e.g font-family",
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "PropName",
           "package": "cascading",
@@ -7801,6 +8449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperty values, e.g. \u003ccode\u003esans-serif\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "PropValue",
           "package": "cascading",
@@ -7810,6 +8459,7 @@
         "index": {
           "description": "Property values e.g sans-serif",
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "PropValue",
           "package": "cascading",
@@ -7824,6 +8474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle properties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "Property",
           "package": "cascading",
@@ -7833,6 +8484,7 @@
         "index": {
           "description": "Style properties",
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "Property",
           "package": "cascading",
@@ -7847,6 +8499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelectors, e.g. \u003ccode\u003e*\u003c/code\u003e or \u003ccode\u003e#content p\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "Selector",
           "package": "cascading",
@@ -7856,6 +8509,7 @@
         "index": {
           "description": "Selectors e.g or content",
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "Selector",
           "package": "cascading",
@@ -7870,6 +8524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperty setter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "SetProp",
           "package": "cascading",
@@ -7879,6 +8534,7 @@
         "index": {
           "description": "Property setter",
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "SetProp",
           "package": "cascading",
@@ -7893,6 +8549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParametric property setter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "SetPropM",
           "package": "cascading",
@@ -7902,6 +8559,7 @@
         "index": {
           "description": "Parametric property setter",
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "SetPropM",
           "package": "cascading",
@@ -7916,6 +8574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes that feature a conversion function to \u003ccode\u003e\u003ca\u003ePropValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "ToPropValue",
           "package": "cascading",
@@ -7925,6 +8584,7 @@
         "index": {
           "description": "Types that feature conversion function to PropValue",
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "ToPropValue",
           "package": "cascading",
@@ -7938,6 +8598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "BuildCfg",
           "package": "cascading",
@@ -7947,6 +8608,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "BuildCfg",
           "package": "cascading",
@@ -7960,6 +8622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "CSS",
           "package": "cascading",
@@ -7969,6 +8632,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "CSS",
           "package": "cascading",
@@ -7982,6 +8646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "MediaType",
           "package": "cascading",
@@ -7991,6 +8656,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "MediaType",
           "package": "cascading",
@@ -8004,6 +8670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "PropName",
           "package": "cascading",
@@ -8013,6 +8680,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "PropName",
           "package": "cascading",
@@ -8026,6 +8694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "PropValue",
           "package": "cascading",
@@ -8035,6 +8704,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "PropValue",
           "package": "cascading",
@@ -8048,6 +8718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "Property",
           "package": "cascading",
@@ -8057,6 +8728,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "Property",
           "package": "cascading",
@@ -8070,6 +8742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "Selector",
           "package": "cascading",
@@ -8079,6 +8752,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "Selector",
           "package": "cascading",
@@ -8093,6 +8767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent media type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "_bcMedia",
           "package": "cascading",
@@ -8103,6 +8778,7 @@
         "index": {
           "description": "Current media type",
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "_bcMedia",
           "package": "cascading",
@@ -8117,6 +8793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent selector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "_bcSelector",
           "package": "cascading",
@@ -8127,6 +8804,7 @@
         "index": {
           "description": "Current selector",
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "_bcSelector",
           "normalized": "[Selector]",
@@ -8143,6 +8821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal stylesheets (url, media-type).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "_cssImports",
           "package": "cascading",
@@ -8153,6 +8832,7 @@
         "index": {
           "description": "External stylesheets url media-type",
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "_cssImports",
           "package": "cascading",
@@ -8167,6 +8847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "_cssProps",
           "package": "cascading",
@@ -8177,6 +8858,7 @@
         "index": {
           "description": "Properties",
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "_cssProps",
           "normalized": "Map(Set MediaType)[Property]",
@@ -8192,6 +8874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "_mediaTypeStr",
           "package": "cascading",
@@ -8201,6 +8884,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "_mediaTypeStr",
           "package": "cascading",
@@ -8215,6 +8899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e!important\u003c/code\u003e property?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "_propImportant",
           "package": "cascading",
@@ -8225,6 +8910,7 @@
         "index": {
           "description": "important property",
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "_propImportant",
           "package": "cascading",
@@ -8239,6 +8925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperty name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "_propName",
           "package": "cascading",
@@ -8249,6 +8936,7 @@
         "index": {
           "description": "Property name",
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "_propName",
           "package": "cascading",
@@ -8262,6 +8950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "_propNameStr",
           "package": "cascading",
@@ -8271,6 +8960,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "_propNameStr",
           "package": "cascading",
@@ -8285,6 +8975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelector for this property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "_propSelector",
           "package": "cascading",
@@ -8295,6 +8986,7 @@
         "index": {
           "description": "Selector for this property",
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "_propSelector",
           "normalized": "[Selector]",
@@ -8311,6 +9003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperty value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "_propValue",
           "package": "cascading",
@@ -8321,6 +9014,7 @@
         "index": {
           "description": "Property value",
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "_propValue",
           "package": "cascading",
@@ -8334,6 +9028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "_propValueStr",
           "package": "cascading",
@@ -8343,6 +9038,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "_propValueStr",
           "package": "cascading",
@@ -8356,6 +9052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "_selectorStr",
           "package": "cascading",
@@ -8365,6 +9062,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "_selectorStr",
           "package": "cascading",
@@ -8378,6 +9076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "bcMedia",
           "package": "cascading",
@@ -8387,6 +9086,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "bcMedia",
           "package": "cascading",
@@ -8400,6 +9100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "bcSelector",
           "package": "cascading",
@@ -8409,6 +9110,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "bcSelector",
           "normalized": "Lens' BuildCfg[Selector]",
@@ -8424,6 +9126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "cssImports",
           "package": "cascading",
@@ -8433,6 +9136,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "cssImports",
           "package": "cascading",
@@ -8446,6 +9150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "cssProps",
           "package": "cascading",
@@ -8455,6 +9160,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "cssProps",
           "normalized": "Lens' CSS(Map(Set MediaType)[Property])",
@@ -8470,6 +9176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "mediaTypeStr",
           "package": "cascading",
@@ -8479,6 +9186,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "mediaTypeStr",
           "package": "cascading",
@@ -8492,6 +9200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "propImportant",
           "package": "cascading",
@@ -8501,6 +9210,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "propImportant",
           "package": "cascading",
@@ -8514,6 +9224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "propName",
           "package": "cascading",
@@ -8523,6 +9234,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "propName",
           "package": "cascading",
@@ -8536,6 +9248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "propNameStr",
           "package": "cascading",
@@ -8545,6 +9258,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "propNameStr",
           "package": "cascading",
@@ -8558,6 +9272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "propSelector",
           "package": "cascading",
@@ -8567,6 +9282,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "propSelector",
           "normalized": "Lens' Property[Selector]",
@@ -8582,6 +9298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "propValue",
           "package": "cascading",
@@ -8591,6 +9308,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "propValue",
           "package": "cascading",
@@ -8604,6 +9322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "propValueStr",
           "package": "cascading",
@@ -8613,6 +9332,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "propValueStr",
           "package": "cascading",
@@ -8626,6 +9346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "selectorStr",
           "package": "cascading",
@@ -8635,6 +9356,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "selectorStr",
           "package": "cascading",
@@ -8648,6 +9370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "toPropBuilder",
           "package": "cascading",
@@ -8657,6 +9380,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "toPropBuilder",
           "normalized": "a-\u003eBuilder",
@@ -8672,6 +9396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Types",
           "name": "toPropValue",
           "package": "cascading",
@@ -8681,6 +9406,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Types",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Types",
           "name": "toPropValue",
           "normalized": "a-\u003ePropValue",
@@ -8696,6 +9422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Utils",
           "name": "Utils",
           "package": "cascading",
@@ -8704,6 +9431,7 @@
         },
         "index": {
           "hierarchy": "Data CSS Utils",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Utils",
           "name": "Utils",
           "package": "cascading",
@@ -8718,6 +9446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the given list of builders separated by commas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Utils",
           "name": "commas",
           "package": "cascading",
@@ -8728,6 +9457,7 @@
         "index": {
           "description": "Render the given list of builders separated by commas",
           "hierarchy": "Data CSS Utils",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Utils",
           "name": "commas",
           "normalized": "[Builder]-\u003eBuilder",
@@ -8743,6 +9473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the given list of builders separated by commas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Utils",
           "name": "commasBS",
           "package": "cascading",
@@ -8753,6 +9484,7 @@
         "index": {
           "description": "Render the given list of builders separated by commas",
           "hierarchy": "Data CSS Utils",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Utils",
           "name": "commasBS",
           "normalized": "[ByteString]-\u003eBuilder",
@@ -8769,6 +9501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders the given CSS string in double-quotes, escaped as\n necessary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Utils",
           "name": "cssString",
           "package": "cascading",
@@ -8779,6 +9512,7 @@
         "index": {
           "description": "Renders the given CSS string in double-quotes escaped as necessary",
           "hierarchy": "Data CSS Utils",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Utils",
           "name": "cssString",
           "normalized": "Text-\u003eBuilder",
@@ -8795,6 +9529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eshowHexInt p n\u003c/code\u003e builds the hexadecimal representation of \u003ccode\u003en\u003c/code\u003e with\n at least \u003ccode\u003ep\u003c/code\u003e digits.  Prepends zeroes to fill.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Utils",
           "name": "showHexInt",
           "package": "cascading",
@@ -8805,6 +9540,7 @@
         "index": {
           "description": "showHexInt builds the hexadecimal representation of with at least digits Prepends zeroes to fill",
           "hierarchy": "Data CSS Utils",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Utils",
           "name": "showHexInt",
           "normalized": "Int-\u003ea-\u003eBuilder",
@@ -8821,6 +9557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLossily convert the given \u003ccode\u003e\u003ca\u003eReal\u003c/a\u003e\u003c/code\u003e number into a decimal\n representation suitable for CSS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS.Utils",
           "name": "showReal",
           "package": "cascading",
@@ -8831,6 +9568,7 @@
         "index": {
           "description": "Lossily convert the given Real number into decimal representation suitable for CSS",
           "hierarchy": "Data CSS Utils",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS.Utils",
           "name": "showReal",
           "normalized": "a-\u003eBuilder",
@@ -8847,6 +9585,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library implements a domain-specific language for cascading\n style sheets as used in web pages.  It allows you to specify your\n style sheets in regular Haskell syntax and gives you all the\n additional power of server-side document generation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:29:57 UTC 2014",
           "module": "Data.CSS",
           "name": "CSS",
           "package": "cascading",
@@ -8856,6 +9595,7 @@
         "index": {
           "description": "This library implements domain-specific language for cascading style sheets as used in web pages It allows you to specify your style sheets in regular Haskell syntax and gives you all the additional power of server-side document generation",
           "hierarchy": "Data CSS",
+          "indexed": "2014-03-11T17:29:57",
           "module": "Data.CSS",
           "name": "CSS",
           "package": "cascading",

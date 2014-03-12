@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "crypto-pubkey-openssh"
+        "phrase": "crypto-pubkey-openssh",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:51 UTC 2014",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "OpenSsh",
           "package": "crypto-pubkey-openssh",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Crypto PubKey OpenSsh",
+          "indexed": "2014-03-11T17:43:51",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "OpenSsh",
           "package": "crypto-pubkey-openssh",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:51 UTC 2014",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "OpenSshPrivateKey",
           "package": "crypto-pubkey-openssh",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Crypto PubKey OpenSsh",
+          "indexed": "2014-03-11T17:43:51",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "OpenSshPrivateKey",
           "package": "crypto-pubkey-openssh",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:51 UTC 2014",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "OpenSshPublicKey",
           "package": "crypto-pubkey-openssh",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Crypto PubKey OpenSsh",
+          "indexed": "2014-03-11T17:43:51",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "OpenSshPublicKey",
           "package": "crypto-pubkey-openssh",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:51 UTC 2014",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "OpenSshPrivateKeyDsa",
           "package": "crypto-pubkey-openssh",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Crypto PubKey OpenSsh",
+          "indexed": "2014-03-11T17:43:51",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "OpenSshPrivateKeyDsa",
           "package": "crypto-pubkey-openssh",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:51 UTC 2014",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "OpenSshPrivateKeyRsa",
           "package": "crypto-pubkey-openssh",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Crypto PubKey OpenSsh",
+          "indexed": "2014-03-11T17:43:51",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "OpenSshPrivateKeyRsa",
           "package": "crypto-pubkey-openssh",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:51 UTC 2014",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "OpenSshPublicKeyDsa",
           "package": "crypto-pubkey-openssh",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Crypto PubKey OpenSsh",
+          "indexed": "2014-03-11T17:43:51",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "OpenSshPublicKeyDsa",
           "package": "crypto-pubkey-openssh",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:51 UTC 2014",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "OpenSshPublicKeyRsa",
           "package": "crypto-pubkey-openssh",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Crypto PubKey OpenSsh",
+          "indexed": "2014-03-11T17:43:51",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "OpenSshPublicKeyRsa",
           "package": "crypto-pubkey-openssh",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:51 UTC 2014",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "decodePrivate",
           "package": "crypto-pubkey-openssh",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Crypto PubKey OpenSsh",
+          "indexed": "2014-03-11T17:43:51",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "decodePrivate",
           "normalized": "ByteString-\u003eEither String OpenSshPrivateKey",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:51 UTC 2014",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "decodePublic",
           "package": "crypto-pubkey-openssh",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Crypto PubKey OpenSsh",
+          "indexed": "2014-03-11T17:43:51",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "decodePublic",
           "normalized": "ByteString-\u003eEither String OpenSshPublicKey",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:51 UTC 2014",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "encodePrivate",
           "package": "crypto-pubkey-openssh",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Crypto PubKey OpenSsh",
+          "indexed": "2014-03-11T17:43:51",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "encodePrivate",
           "normalized": "OpenSshPrivateKey-\u003eByteString",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:51 UTC 2014",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "encodePublic",
           "package": "crypto-pubkey-openssh",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Crypto PubKey OpenSsh",
+          "indexed": "2014-03-11T17:43:51",
           "module": "Crypto.PubKey.OpenSsh",
           "name": "encodePublic",
           "normalized": "OpenSshPublicKey-\u003eByteString",

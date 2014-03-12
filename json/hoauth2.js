@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hoauth2"
+        "phrase": "hoauth2",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple http client to request OAuth2 tokens and several utils.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "HttpClient",
           "package": "hoauth2",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simple http client to request OAuth2 tokens and several utils",
           "hierarchy": "Network OAuth OAuth2 HttpClient",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "HttpClient",
           "package": "hoauth2",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConduct GET request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "authGetBS",
           "package": "hoauth2",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Conduct GET request",
           "hierarchy": "Network OAuth OAuth2 HttpClient",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "authGetBS",
           "normalized": "AccessToken-\u003eURI-\u003eIO(OAuth Result ByteString)",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConduct GET request and return response as JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "authGetJSON",
           "package": "hoauth2",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Conduct GET request and return response as JSON",
           "hierarchy": "Network OAuth OAuth2 HttpClient",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "authGetJSON",
           "normalized": "AccessToken-\u003eURI-\u003eIO(OAuth Result a)",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConduct POST request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "authPostBS",
           "package": "hoauth2",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Conduct POST request",
           "hierarchy": "Network OAuth OAuth2 HttpClient",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "authPostBS",
           "normalized": "AccessToken-\u003eURI-\u003ePostBody-\u003eIO(OAuth Result ByteString)",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConduct POST request and return response as JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "authPostJSON",
           "package": "hoauth2",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Conduct POST request and return response as JSON",
           "hierarchy": "Network OAuth OAuth2 HttpClient",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "authPostJSON",
           "normalized": "AccessToken-\u003eURI-\u003ePostBody-\u003eIO(OAuth Result a)",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a HTTP request including the Authorization header with the specified\n  access token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "authenticatedRequest",
           "package": "hoauth2",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Sends HTTP request including the Authorization header with the specified access token",
           "hierarchy": "Network OAuth OAuth2 HttpClient",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "authenticatedRequest",
           "normalized": "AccessToken-\u003eStdMethod-\u003eRequest-\u003eIO(Response ByteString)",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConduct post request and return response as JSON.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "doJSONPostRequest",
           "package": "hoauth2",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Conduct post request and return response as JSON",
           "hierarchy": "Network OAuth OAuth2 HttpClient",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "doJSONPostRequest",
           "normalized": "URI-\u003ePostBody-\u003eIO(OAuth Result a)",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConduct post request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "doSimplePostRequest",
           "package": "hoauth2",
@@ -201,6 +216,7 @@
         "index": {
           "description": "Conduct post request",
           "hierarchy": "Network OAuth OAuth2 HttpClient",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "doSimplePostRequest",
           "normalized": "URI-\u003ePostBody-\u003eIO(OAuth Result ByteString)",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest (via POST method) \u003ca\u003eAccess Token\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "fetchAccessToken",
           "package": "hoauth2",
@@ -226,6 +243,7 @@
         "index": {
           "description": "Request via POST method Access Token",
           "hierarchy": "Network OAuth OAuth2 HttpClient",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "fetchAccessToken",
           "normalized": "OAuth-\u003eByteString-\u003eIO(OAuth Result AccessToken)",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest the \u003ca\u003eRefresh Token\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "fetchRefreshToken",
           "package": "hoauth2",
@@ -251,6 +270,7 @@
         "index": {
           "description": "Request the Refresh Token",
           "hierarchy": "Network OAuth OAuth2 HttpClient",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "fetchRefreshToken",
           "normalized": "OAuth-\u003eByteString-\u003eIO(OAuth Result AccessToken)",
@@ -267,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a \u003ccode\u003eResponse\u003c/code\u003e to to \u003ccode\u003eOAuth2Result\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "handleResponse",
           "package": "hoauth2",
@@ -277,6 +298,7 @@
         "index": {
           "description": "Parses Response to to OAuth2Result",
           "hierarchy": "Network OAuth OAuth2 HttpClient",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "handleResponse",
           "normalized": "Response ByteString-\u003eOAuth Result ByteString",
@@ -293,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a \u003ccode\u003eOAuth2Result BSL.ByteString\u003c/code\u003e into \u003ccode\u003eFromJSON a =\u003e a\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "parseResponseJSON",
           "package": "hoauth2",
@@ -303,6 +326,7 @@
         "index": {
           "description": "Parses OAuth2Result BSL.ByteString into FromJSON",
           "hierarchy": "Network OAuth OAuth2 HttpClient",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "parseResponseJSON",
           "normalized": "OAuth Result ByteString-\u003eOAuth Result a",
@@ -319,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the HTTP method to use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "setMethod",
           "package": "hoauth2",
@@ -329,6 +354,7 @@
         "index": {
           "description": "Sets the HTTP method to use",
           "hierarchy": "Network OAuth OAuth2 HttpClient",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "setMethod",
           "normalized": "StdMethod-\u003eRequest-\u003eRequest",
@@ -345,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset several header values.\n   + userAgennt : hoauth2\n   + accept     : application/json\n   + authorization : Bearer xxxxx  if AccessToken provided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "updateRequestHeaders",
           "package": "hoauth2",
@@ -355,6 +382,7 @@
         "index": {
           "description": "set several header values userAgennt hoauth2 accept application json authorization Bearer xxxxx if AccessToken provided",
           "hierarchy": "Network OAuth OAuth2 HttpClient",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.HttpClient",
           "name": "updateRequestHeaders",
           "normalized": "Maybe AccessToken-\u003eRequest-\u003eRequest",
@@ -371,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple OAuth2 Haskell binding.\n   (This is supposed to be independent with http client.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "Internal",
           "package": "hoauth2",
@@ -380,6 +409,7 @@
         "index": {
           "description": "simple OAuth2 Haskell binding This is supposed to be independent with http client",
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "Internal",
           "package": "hoauth2",
@@ -394,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe gained Access Token. Use \u003ccode\u003eData.Aeson.decode\u003c/code\u003e to decode string to \u003ccode\u003eAccessToken\u003c/code\u003e.\n   The \u003ccode\u003erefresheToken\u003c/code\u003e is special at some case.\n   e.g. https:\u003cem/\u003edevelopers.google.com\u003cem\u003eaccounts\u003c/em\u003edocs/OAuth2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "AccessToken",
           "package": "hoauth2",
@@ -403,6 +434,7 @@
         "index": {
           "description": "The gained Access Token Use Data.Aeson.decode to decode string to AccessToken The refresheToken is special at some case e.g https developers.google.com accounts docs OAuth2",
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "AccessToken",
           "package": "hoauth2",
@@ -417,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery Parameter Representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "OAuth2",
           "package": "hoauth2",
@@ -426,6 +459,7 @@
         "index": {
           "description": "Query Parameter Representation",
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "OAuth2",
           "package": "hoauth2",
@@ -440,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs either \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e containing an error or \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e containg a result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "OAuth2Result",
           "package": "hoauth2",
@@ -449,6 +484,7 @@
         "index": {
           "description": "Is either Left containing an error or Right containg result",
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "OAuth2Result",
           "package": "hoauth2",
@@ -463,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype synonym of post body content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "PostBody",
           "package": "hoauth2",
@@ -472,6 +509,7 @@
         "index": {
           "description": "type synonym of post body content",
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "PostBody",
           "package": "hoauth2",
@@ -486,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype synonym of query parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "QueryParams",
           "package": "hoauth2",
@@ -495,6 +534,7 @@
         "index": {
           "description": "type synonym of query parameters",
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "QueryParams",
           "package": "hoauth2",
@@ -509,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype synonym of a URI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "URI",
           "package": "hoauth2",
@@ -518,6 +559,7 @@
         "index": {
           "description": "type synonym of URI",
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "URI",
           "package": "hoauth2",
@@ -531,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "AccessToken",
           "package": "hoauth2",
@@ -540,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "AccessToken",
           "package": "hoauth2",
@@ -553,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "OAuth2",
           "package": "hoauth2",
@@ -562,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "OAuth2",
           "package": "hoauth2",
@@ -575,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "accessToken",
           "package": "hoauth2",
@@ -584,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "accessToken",
           "package": "hoauth2",
@@ -598,6 +646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate QueryParams with given access token value.\n\u003c/p\u003e\u003cp\u003eaccessTokenToParam :: BS.ByteString -\u003e QueryParams\naccessTokenToParam token = [(\u003ca\u003eaccess_token\u003c/a\u003e, token)]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "accessTokenToParam",
           "package": "hoauth2",
@@ -608,6 +657,7 @@
         "index": {
           "description": "Create QueryParams with given access token value accessTokenToParam BS.ByteString QueryParams accessTokenToParam token access token token",
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "accessTokenToParam",
           "normalized": "AccessToken-\u003eQueryParams",
@@ -624,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare URL and the request body query for fetching access token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "accessTokenUrl",
           "package": "hoauth2",
@@ -633,6 +684,7 @@
         "index": {
           "description": "Prepare URL and the request body query for fetching access token",
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "accessTokenUrl",
           "normalized": "OAuth-\u003eByteString-\u003e(URI,PostBody)",
@@ -648,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "accessTokenUrl'",
           "package": "hoauth2",
@@ -656,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "accessTokenUrl'",
           "normalized": "OAuth-\u003eByteString-\u003eMaybe ByteString-\u003e(URI,PostBody)",
@@ -672,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend query parameters with \u003ccode\u003e&\u003c/code\u003e.\n appendQueryParam' :: URI -\u003e QueryParams -\u003e URI\n appendQueryParam' uri q = uri \u003ccode\u003e\u003ca\u003eappend\u003c/a\u003e\u003c/code\u003e \u003ca\u003e&\u003c/a\u003e \u003ccode\u003e\u003ca\u003eappend\u003c/a\u003e\u003c/code\u003e renderSimpleQuery False q\n\u003c/p\u003e\u003cp\u003eFor GET method API.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "appendAccessToken",
           "package": "hoauth2",
@@ -681,6 +736,7 @@
         "index": {
           "description": "Append query parameters with appendQueryParam URI QueryParams URI appendQueryParam uri uri append append renderSimpleQuery False For GET method API",
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "appendAccessToken",
           "normalized": "URI-\u003eAccessToken-\u003eURI",
@@ -697,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend query parameters with \u003ccode\u003e?\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "appendQueryParam",
           "package": "hoauth2",
@@ -707,6 +764,7 @@
         "index": {
           "description": "Append query parameters with",
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "appendQueryParam",
           "normalized": "URI-\u003eQueryParams-\u003eURI",
@@ -723,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare the authorization URL.\n   Redirect to this URL asking for user interactive authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "authorizationUrl",
           "package": "hoauth2",
@@ -733,6 +792,7 @@
         "index": {
           "description": "Prepare the authorization URL Redirect to this URL asking for user interactive authentication",
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "authorizationUrl",
           "normalized": "OAuth-\u003eURI",
@@ -748,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "oauthAccessTokenEndpoint",
           "package": "hoauth2",
@@ -757,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "oauthAccessTokenEndpoint",
           "package": "hoauth2",
@@ -770,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "oauthCallback",
           "package": "hoauth2",
@@ -779,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "oauthCallback",
           "package": "hoauth2",
@@ -792,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "oauthClientId",
           "package": "hoauth2",
@@ -801,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "oauthClientId",
           "package": "hoauth2",
@@ -814,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "oauthClientSecret",
           "package": "hoauth2",
@@ -823,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "oauthClientSecret",
           "package": "hoauth2",
@@ -836,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "oauthOAuthorizeEndpoint",
           "package": "hoauth2",
@@ -845,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "oauthOAuthorizeEndpoint",
           "package": "hoauth2",
@@ -859,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsing a Refresh Token.\n   obtain a new access token by sending a refresh token to the Authorization server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "refreshAccessTokenUrl",
           "package": "hoauth2",
@@ -868,6 +939,7 @@
         "index": {
           "description": "Using Refresh Token obtain new access token by sending refresh token to the Authorization server",
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "refreshAccessTokenUrl",
           "normalized": "OAuth-\u003eByteString-\u003e(URI,PostBody)",
@@ -883,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "refreshToken",
           "package": "hoauth2",
@@ -892,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "refreshToken",
           "package": "hoauth2",
@@ -906,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elift value in the Maybe and abonda Nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "transform'",
           "package": "hoauth2",
@@ -916,6 +991,7 @@
         "index": {
           "description": "lift value in the Maybe and abonda Nothing",
           "hierarchy": "Network OAuth OAuth2 Internal",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2.Internal",
           "name": "transform'",
           "normalized": "[(a,Maybe b)]-\u003e[(a,b)]",
@@ -930,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:49 UTC 2014",
           "module": "Network.OAuth.OAuth2",
           "name": "OAuth2",
           "package": "hoauth2",
@@ -938,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Network OAuth OAuth2",
+          "indexed": "2014-03-11T18:42:49",
           "module": "Network.OAuth.OAuth2",
           "name": "OAuth2",
           "package": "hoauth2",

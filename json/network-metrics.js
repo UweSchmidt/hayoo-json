@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-metrics"
+        "phrase": "network-metrics",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "Internal",
           "package": "network-metrics",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "Internal",
           "package": "network-metrics",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny instance of the Measurable type class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "AnyMeasurable",
           "package": "network-metrics",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Any instance of the Measurable type class",
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "AnyMeasurable",
           "package": "network-metrics",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny instance of the Sink type class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "AnySink",
           "package": "network-metrics",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Any instance of the Sink type class",
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "AnySink",
           "package": "network-metrics",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetric bucket\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "Bucket",
           "package": "network-metrics",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Metric bucket",
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "Bucket",
           "package": "network-metrics",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetric value to be encoded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "Encodable",
           "package": "network-metrics",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Metric value to be encoded",
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "Encodable",
           "package": "network-metrics",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetric group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "Group",
           "package": "network-metrics",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Metric group",
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "Group",
           "package": "network-metrics",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSocket handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "Handle",
           "package": "network-metrics",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Socket handle",
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "Handle",
           "package": "network-metrics",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetric host\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "Host",
           "package": "network-metrics",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Metric host",
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "Host",
           "package": "network-metrics",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither a host name e.g., \u003ccode\u003e\"haskell.org\"\u003c/code\u003e or a numeric host\n address string consisting of a dotted decimal IPv4 address or an\n IPv6 address e.g., \u003ccode\u003e\"192.168.0.1\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "HostName",
           "package": "network-metrics",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Either host name e.g haskell.org or numeric host address string consisting of dotted decimal IPv4 address or an IPv6 address e.g",
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "HostName",
           "package": "network-metrics",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeasure a type for a collection of metrics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "Measurable",
           "package": "network-metrics",
@@ -232,6 +251,7 @@
         "index": {
           "description": "Measure type for collection of metrics",
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "Measurable",
           "package": "network-metrics",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "Metric",
           "package": "network-metrics",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "Metric",
           "package": "network-metrics",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "PortNumber",
           "package": "network-metrics",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "PortNumber",
           "package": "network-metrics",
@@ -287,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSink resource to write metrics to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "Sink",
           "package": "network-metrics",
@@ -296,6 +321,7 @@
         "index": {
           "description": "Sink resource to write metrics to",
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "Sink",
           "package": "network-metrics",
@@ -401,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "Handle",
           "package": "network-metrics",
@@ -410,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "Handle",
           "package": "network-metrics",
@@ -447,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the sink - subsequent writes will throw an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "close",
           "package": "network-metrics",
@@ -457,6 +486,7 @@
         "index": {
           "description": "Close the sink subsequent writes will throw an error",
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "close",
           "normalized": "a-\u003eIO()",
@@ -472,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the value as a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "encode",
           "package": "network-metrics",
@@ -482,6 +513,7 @@
         "index": {
           "description": "Encode the value as bytestring",
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "encode",
           "normalized": "a-\u003eByteString",
@@ -497,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper to curry a constructor function for a sink\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "fOpen",
           "package": "network-metrics",
@@ -507,6 +540,7 @@
         "index": {
           "description": "Helper to curry constructor function for sink",
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "fOpen",
           "normalized": "(Handle-\u003ea)-\u003eSocketType-\u003eHostName-\u003ePortNumber-\u003eIO AnySink",
@@ -523,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose a socket handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "hClose",
           "package": "network-metrics",
@@ -533,6 +568,7 @@
         "index": {
           "description": "Close socket handle",
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "hClose",
           "normalized": "Handle-\u003eIO()",
@@ -549,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new socket handle (in a disconnected state) for UDP communication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "hOpen",
           "package": "network-metrics",
@@ -559,6 +596,7 @@
         "index": {
           "description": "Create new socket handle in disconnected state for UDP communication",
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "hOpen",
           "normalized": "SocketType-\u003eHostName-\u003ePortNumber-\u003eIO Handle",
@@ -575,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirect access for writing a bytestring to a socket handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "hPush",
           "package": "network-metrics",
@@ -585,6 +624,7 @@
         "index": {
           "description": "Direct access for writing bytestring to socket handle",
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "hPush",
           "normalized": "Handle-\u003eByteString-\u003eIO()",
@@ -601,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine a Host, Group and Bucket into a single key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "key",
           "package": "network-metrics",
@@ -611,6 +652,7 @@
         "index": {
           "description": "Combine Host Group and Bucket into single key",
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "key",
           "normalized": "Host-\u003eGroup-\u003eBucket-\u003eByteString",
@@ -626,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a measurable instance from a host into a list of metrics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "measure",
           "package": "network-metrics",
@@ -636,6 +679,7 @@
         "index": {
           "description": "Convert measurable instance from host into list of metrics",
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "measure",
           "normalized": "a-\u003e[Metric]",
@@ -651,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a metric to the sink.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Internal",
           "name": "push",
           "package": "network-metrics",
@@ -661,6 +706,7 @@
         "index": {
           "description": "Write metric to the sink",
           "hierarchy": "Network Metric Internal",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Internal",
           "name": "push",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -675,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Ganglia",
           "package": "network-metrics",
@@ -683,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Ganglia",
           "package": "network-metrics",
@@ -697,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetric bucket\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Bucket",
           "package": "network-metrics",
@@ -706,6 +755,7 @@
         "index": {
           "description": "Metric bucket",
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Bucket",
           "package": "network-metrics",
@@ -720,6 +770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle to a Ganglia sink\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Ganglia",
           "package": "network-metrics",
@@ -729,6 +780,7 @@
         "index": {
           "description": "handle to Ganglia sink",
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Ganglia",
           "package": "network-metrics",
@@ -743,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcrete metric type used to emit metadata and value packets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "GangliaMetric",
           "package": "network-metrics",
@@ -752,6 +805,7 @@
         "index": {
           "description": "Concrete metric type used to emit metadata and value packets",
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "GangliaMetric",
           "package": "network-metrics",
@@ -766,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetric types supported by Ganglia\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "GangliaType",
           "package": "network-metrics",
@@ -775,6 +830,7 @@
         "index": {
           "description": "Metric types supported by Ganglia",
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "GangliaType",
           "package": "network-metrics",
@@ -789,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetric group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Group",
           "package": "network-metrics",
@@ -798,6 +855,7 @@
         "index": {
           "description": "Metric group",
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Group",
           "package": "network-metrics",
@@ -811,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Metric",
           "package": "network-metrics",
@@ -819,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Metric",
           "package": "network-metrics",
@@ -833,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSink resource to write metrics to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Sink",
           "package": "network-metrics",
@@ -842,6 +903,7 @@
         "index": {
           "description": "Sink resource to write metrics to",
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Sink",
           "package": "network-metrics",
@@ -856,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows gmetad and the PHP webfrontend to efficiently separate\n constant data metrics from volatile ones\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Slope",
           "package": "network-metrics",
@@ -865,6 +928,7 @@
         "index": {
           "description": "Allows gmetad and the PHP webfrontend to efficiently separate constant data metrics from volatile ones",
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Slope",
           "package": "network-metrics",
@@ -878,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Both",
           "package": "network-metrics",
@@ -887,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Both",
           "package": "network-metrics",
@@ -900,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Double",
           "package": "network-metrics",
@@ -909,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Double",
           "package": "network-metrics",
@@ -922,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Float",
           "package": "network-metrics",
@@ -931,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Float",
           "package": "network-metrics",
@@ -944,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Ganglia",
           "package": "network-metrics",
@@ -953,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Ganglia",
           "package": "network-metrics",
@@ -966,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "GangliaMetric",
           "package": "network-metrics",
@@ -975,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "GangliaMetric",
           "package": "network-metrics",
@@ -988,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Int16",
           "package": "network-metrics",
@@ -997,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Int16",
           "package": "network-metrics",
@@ -1010,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Int32",
           "package": "network-metrics",
@@ -1019,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Int32",
           "package": "network-metrics",
@@ -1032,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Int8",
           "package": "network-metrics",
@@ -1041,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Int8",
           "package": "network-metrics",
@@ -1054,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Negative",
           "package": "network-metrics",
@@ -1063,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Negative",
           "package": "network-metrics",
@@ -1076,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Positive",
           "package": "network-metrics",
@@ -1085,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Positive",
           "package": "network-metrics",
@@ -1098,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "String",
           "package": "network-metrics",
@@ -1107,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "String",
           "package": "network-metrics",
@@ -1120,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "UInt16",
           "package": "network-metrics",
@@ -1129,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "UInt16",
           "package": "network-metrics",
@@ -1142,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "UInt32",
           "package": "network-metrics",
@@ -1151,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "UInt32",
           "package": "network-metrics",
@@ -1164,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "UInt8",
           "package": "network-metrics",
@@ -1173,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "UInt8",
           "package": "network-metrics",
@@ -1186,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Unspecified",
           "package": "network-metrics",
@@ -1195,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Unspecified",
           "package": "network-metrics",
@@ -1208,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Zero",
           "package": "network-metrics",
@@ -1217,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "Zero",
           "package": "network-metrics",
@@ -1231,6 +1327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the sink - subsequent writes will throw an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "close",
           "package": "network-metrics",
@@ -1241,6 +1338,7 @@
         "index": {
           "description": "Close the sink subsequent writes will throw an error",
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "close",
           "normalized": "a-\u003eIO()",
@@ -1256,6 +1354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSensible defaults for a GangliaMetric\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "defaultMetric",
           "package": "network-metrics",
@@ -1266,6 +1365,7 @@
         "index": {
           "description": "Sensible defaults for GangliaMetric",
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "defaultMetric",
           "package": "network-metrics",
@@ -1279,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "dmax",
           "package": "network-metrics",
@@ -1288,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "dmax",
           "package": "network-metrics",
@@ -1300,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "group",
           "package": "network-metrics",
@@ -1309,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "group",
           "package": "network-metrics",
@@ -1321,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "host",
           "package": "network-metrics",
@@ -1330,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "host",
           "package": "network-metrics",
@@ -1342,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "name",
           "package": "network-metrics",
@@ -1351,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "name",
           "package": "network-metrics",
@@ -1364,6 +1472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a new Ganglia sink\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "open",
           "package": "network-metrics",
@@ -1374,6 +1483,7 @@
         "index": {
           "description": "Open new Ganglia sink",
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "open",
           "normalized": "Host-\u003eHostName-\u003ePortNumber-\u003eIO AnySink",
@@ -1389,6 +1499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a metric to the sink.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "push",
           "package": "network-metrics",
@@ -1399,6 +1510,7 @@
         "index": {
           "description": "Write metric to the sink",
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "push",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -1414,6 +1526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a GangliaMetric's metadata into a Binary.Put monad\n\u003c/p\u003e\u003cp\u003eThe format for this can be found in either:\n * gm_protocol.x in the Ganglia 3.1 sources\n * https:\u003cem/\u003egithub.com\u003cem\u003elookfirst\u003c/em\u003ejmxtrans\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "putMetaData",
           "package": "network-metrics",
@@ -1424,6 +1537,7 @@
         "index": {
           "description": "Encode GangliaMetric metadata into Binary.Put monad The format for this can be found in either gm protocol.x in the Ganglia sources https github.com lookfirst jmxtrans",
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "putMetaData",
           "normalized": "GangliaMetric-\u003ePut",
@@ -1440,6 +1554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a GangliaMetric's value into a Binary.Put monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "putValue",
           "package": "network-metrics",
@@ -1450,6 +1565,7 @@
         "index": {
           "description": "Encode GangliaMetric value into Binary.Put monad",
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "putValue",
           "normalized": "GangliaMetric-\u003ePut",
@@ -1465,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "slope",
           "package": "network-metrics",
@@ -1474,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "slope",
           "package": "network-metrics",
@@ -1486,6 +1604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "spoof",
           "package": "network-metrics",
@@ -1495,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "spoof",
           "package": "network-metrics",
@@ -1507,6 +1627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "tmax",
           "package": "network-metrics",
@@ -1516,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "tmax",
           "package": "network-metrics",
@@ -1528,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "type'",
           "package": "network-metrics",
@@ -1537,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "type'",
           "package": "network-metrics",
@@ -1549,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "units",
           "package": "network-metrics",
@@ -1558,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "units",
           "package": "network-metrics",
@@ -1570,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "value",
           "package": "network-metrics",
@@ -1579,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Ganglia",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Ganglia",
           "name": "value",
           "package": "network-metrics",
@@ -1591,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Graphite",
           "name": "Graphite",
           "package": "network-metrics",
@@ -1599,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Graphite",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Graphite",
           "name": "Graphite",
           "package": "network-metrics",
@@ -1613,6 +1743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetric bucket\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Graphite",
           "name": "Bucket",
           "package": "network-metrics",
@@ -1622,6 +1753,7 @@
         "index": {
           "description": "Metric bucket",
           "hierarchy": "Network Metric Sink Graphite",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Graphite",
           "name": "Bucket",
           "package": "network-metrics",
@@ -1636,6 +1768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetric group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Graphite",
           "name": "Group",
           "package": "network-metrics",
@@ -1645,6 +1778,7 @@
         "index": {
           "description": "Metric group",
           "hierarchy": "Network Metric Sink Graphite",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Graphite",
           "name": "Group",
           "package": "network-metrics",
@@ -1658,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Graphite",
           "name": "Metric",
           "package": "network-metrics",
@@ -1666,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Graphite",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Graphite",
           "name": "Metric",
           "package": "network-metrics",
@@ -1680,6 +1816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSink resource to write metrics to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Graphite",
           "name": "Sink",
           "package": "network-metrics",
@@ -1689,6 +1826,7 @@
         "index": {
           "description": "Sink resource to write metrics to",
           "hierarchy": "Network Metric Sink Graphite",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Graphite",
           "name": "Sink",
           "package": "network-metrics",
@@ -1703,6 +1841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the sink - subsequent writes will throw an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Graphite",
           "name": "close",
           "package": "network-metrics",
@@ -1713,6 +1852,7 @@
         "index": {
           "description": "Close the sink subsequent writes will throw an error",
           "hierarchy": "Network Metric Sink Graphite",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Graphite",
           "name": "close",
           "normalized": "a-\u003eIO()",
@@ -1728,6 +1868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a new Graphite sink\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Graphite",
           "name": "open",
           "package": "network-metrics",
@@ -1738,6 +1879,7 @@
         "index": {
           "description": "Open new Graphite sink",
           "hierarchy": "Network Metric Sink Graphite",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Graphite",
           "name": "open",
           "normalized": "Host-\u003eHostName-\u003ePortNumber-\u003eIO AnySink",
@@ -1753,6 +1895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a metric to the sink.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Graphite",
           "name": "push",
           "package": "network-metrics",
@@ -1763,6 +1906,7 @@
         "index": {
           "description": "Write metric to the sink",
           "hierarchy": "Network Metric Sink Graphite",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Graphite",
           "name": "push",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -1777,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Handle",
           "name": "Handle",
           "package": "network-metrics",
@@ -1785,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Handle",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Handle",
           "name": "Handle",
           "package": "network-metrics",
@@ -1799,6 +1945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetric bucket\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Handle",
           "name": "Bucket",
           "package": "network-metrics",
@@ -1808,6 +1955,7 @@
         "index": {
           "description": "Metric bucket",
           "hierarchy": "Network Metric Sink Handle",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Handle",
           "name": "Bucket",
           "package": "network-metrics",
@@ -1822,6 +1970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetric group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Handle",
           "name": "Group",
           "package": "network-metrics",
@@ -1831,6 +1980,7 @@
         "index": {
           "description": "Metric group",
           "hierarchy": "Network Metric Sink Handle",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Handle",
           "name": "Group",
           "package": "network-metrics",
@@ -1844,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Handle",
           "name": "Metric",
           "package": "network-metrics",
@@ -1852,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Handle",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Handle",
           "name": "Metric",
           "package": "network-metrics",
@@ -1866,6 +2018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSink resource to write metrics to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Handle",
           "name": "Sink",
           "package": "network-metrics",
@@ -1875,6 +2028,7 @@
         "index": {
           "description": "Sink resource to write metrics to",
           "hierarchy": "Network Metric Sink Handle",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Handle",
           "name": "Sink",
           "package": "network-metrics",
@@ -1889,6 +2043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic sink handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Handle",
           "name": "SinkHandle",
           "package": "network-metrics",
@@ -1898,6 +2053,7 @@
         "index": {
           "description": "generic sink handle",
           "hierarchy": "Network Metric Sink Handle",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Handle",
           "name": "SinkHandle",
           "package": "network-metrics",
@@ -1911,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Handle",
           "name": "SinkHandle",
           "package": "network-metrics",
@@ -1920,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Handle",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Handle",
           "name": "SinkHandle",
           "normalized": "SinkHandle Host(String-\u003eIO())",
@@ -1936,6 +2094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the sink - subsequent writes will throw an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Handle",
           "name": "close",
           "package": "network-metrics",
@@ -1946,6 +2105,7 @@
         "index": {
           "description": "Close the sink subsequent writes will throw an error",
           "hierarchy": "Network Metric Sink Handle",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Handle",
           "name": "close",
           "normalized": "a-\u003eIO()",
@@ -1961,6 +2121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a metric to the sink.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Handle",
           "name": "push",
           "package": "network-metrics",
@@ -1971,6 +2132,7 @@
         "index": {
           "description": "Write metric to the sink",
           "hierarchy": "Network Metric Sink Handle",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Handle",
           "name": "push",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -1985,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Statsd",
           "name": "Statsd",
           "package": "network-metrics",
@@ -1993,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Network Metric Sink Statsd",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Statsd",
           "name": "Statsd",
           "package": "network-metrics",
@@ -2007,6 +2171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny instance of the Sink type class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Statsd",
           "name": "AnySink",
           "package": "network-metrics",
@@ -2016,6 +2181,7 @@
         "index": {
           "description": "Any instance of the Sink type class",
           "hierarchy": "Network Metric Sink Statsd",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Statsd",
           "name": "AnySink",
           "package": "network-metrics",
@@ -2030,6 +2196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetric bucket\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Statsd",
           "name": "Bucket",
           "package": "network-metrics",
@@ -2039,6 +2206,7 @@
         "index": {
           "description": "Metric bucket",
           "hierarchy": "Network Metric Sink Statsd",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Statsd",
           "name": "Bucket",
           "package": "network-metrics",
@@ -2053,6 +2221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetric group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Statsd",
           "name": "Group",
           "package": "network-metrics",
@@ -2062,6 +2231,7 @@
         "index": {
           "description": "Metric group",
           "hierarchy": "Network Metric Sink Statsd",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Statsd",
           "name": "Group",
           "package": "network-metrics",
@@ -2076,6 +2246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSink resource to write metrics to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Statsd",
           "name": "Sink",
           "package": "network-metrics",
@@ -2085,6 +2256,7 @@
         "index": {
           "description": "Sink resource to write metrics to",
           "hierarchy": "Network Metric Sink Statsd",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Statsd",
           "name": "Sink",
           "package": "network-metrics",
@@ -2099,6 +2271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the sink - subsequent writes will throw an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Statsd",
           "name": "close",
           "package": "network-metrics",
@@ -2109,6 +2282,7 @@
         "index": {
           "description": "Close the sink subsequent writes will throw an error",
           "hierarchy": "Network Metric Sink Statsd",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Statsd",
           "name": "close",
           "normalized": "a-\u003eIO()",
@@ -2124,6 +2298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a new Statsd sink\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Statsd",
           "name": "open",
           "package": "network-metrics",
@@ -2134,6 +2309,7 @@
         "index": {
           "description": "Open new Statsd sink",
           "hierarchy": "Network Metric Sink Statsd",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Statsd",
           "name": "open",
           "normalized": "Host-\u003eHostName-\u003ePortNumber-\u003eIO AnySink",
@@ -2149,6 +2325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a metric to the sink.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric.Sink.Statsd",
           "name": "push",
           "package": "network-metrics",
@@ -2159,6 +2336,7 @@
         "index": {
           "description": "Write metric to the sink",
           "hierarchy": "Network Metric Sink Statsd",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric.Sink.Statsd",
           "name": "push",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -2173,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric",
           "name": "Metric",
           "package": "network-metrics",
@@ -2181,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "Network Metric",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric",
           "name": "Metric",
           "package": "network-metrics",
@@ -2195,6 +2375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny instance of the Measurable type class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric",
           "name": "AnyMeasurable",
           "package": "network-metrics",
@@ -2204,6 +2385,7 @@
         "index": {
           "description": "Any instance of the Measurable type class",
           "hierarchy": "Network Metric",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric",
           "name": "AnyMeasurable",
           "package": "network-metrics",
@@ -2218,6 +2400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny instance of the Sink type class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric",
           "name": "AnySink",
           "package": "network-metrics",
@@ -2227,6 +2410,7 @@
         "index": {
           "description": "Any instance of the Sink type class",
           "hierarchy": "Network Metric",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric",
           "name": "AnySink",
           "package": "network-metrics",
@@ -2241,6 +2425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetric bucket\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric",
           "name": "Bucket",
           "package": "network-metrics",
@@ -2250,6 +2435,7 @@
         "index": {
           "description": "Metric bucket",
           "hierarchy": "Network Metric",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric",
           "name": "Bucket",
           "package": "network-metrics",
@@ -2264,6 +2450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetric value to be encoded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric",
           "name": "Encodable",
           "package": "network-metrics",
@@ -2273,6 +2460,7 @@
         "index": {
           "description": "Metric value to be encoded",
           "hierarchy": "Network Metric",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric",
           "name": "Encodable",
           "package": "network-metrics",
@@ -2287,6 +2475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetric group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric",
           "name": "Group",
           "package": "network-metrics",
@@ -2296,6 +2485,7 @@
         "index": {
           "description": "Metric group",
           "hierarchy": "Network Metric",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric",
           "name": "Group",
           "package": "network-metrics",
@@ -2310,6 +2500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeasure a type for a collection of metrics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric",
           "name": "Measurable",
           "package": "network-metrics",
@@ -2319,6 +2510,7 @@
         "index": {
           "description": "Measure type for collection of metrics",
           "hierarchy": "Network Metric",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric",
           "name": "Measurable",
           "package": "network-metrics",
@@ -2332,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric",
           "name": "Metric",
           "package": "network-metrics",
@@ -2340,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "Network Metric",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric",
           "name": "Metric",
           "package": "network-metrics",
@@ -2354,6 +2548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSink resource to write metrics to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric",
           "name": "Sink",
           "package": "network-metrics",
@@ -2363,6 +2558,7 @@
         "index": {
           "description": "Sink resource to write metrics to",
           "hierarchy": "Network Metric",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric",
           "name": "Sink",
           "package": "network-metrics",
@@ -2377,6 +2573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn enumeration of supplied sink types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric",
           "name": "SinkType",
           "package": "network-metrics",
@@ -2386,6 +2583,7 @@
         "index": {
           "description": "An enumeration of supplied sink types",
           "hierarchy": "Network Metric",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric",
           "name": "SinkType",
           "package": "network-metrics",
@@ -2399,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric",
           "name": "Ganglia",
           "package": "network-metrics",
@@ -2408,6 +2607,7 @@
         },
         "index": {
           "hierarchy": "Network Metric",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric",
           "name": "Ganglia",
           "package": "network-metrics",
@@ -2421,6 +2621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric",
           "name": "Graphite",
           "package": "network-metrics",
@@ -2430,6 +2631,7 @@
         },
         "index": {
           "hierarchy": "Network Metric",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric",
           "name": "Graphite",
           "package": "network-metrics",
@@ -2443,6 +2645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric",
           "name": "Statsd",
           "package": "network-metrics",
@@ -2452,6 +2655,7 @@
         },
         "index": {
           "hierarchy": "Network Metric",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric",
           "name": "Statsd",
           "package": "network-metrics",
@@ -2465,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric",
           "name": "Stdout",
           "package": "network-metrics",
@@ -2474,6 +2679,7 @@
         },
         "index": {
           "hierarchy": "Network Metric",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric",
           "name": "Stdout",
           "package": "network-metrics",
@@ -2488,6 +2694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the sink - subsequent writes will throw an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric",
           "name": "close",
           "package": "network-metrics",
@@ -2498,6 +2705,7 @@
         "index": {
           "description": "Close the sink subsequent writes will throw an error",
           "hierarchy": "Network Metric",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric",
           "name": "close",
           "normalized": "a-\u003eIO()",
@@ -2513,6 +2721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode the value as a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric",
           "name": "encode",
           "package": "network-metrics",
@@ -2523,6 +2732,7 @@
         "index": {
           "description": "Encode the value as bytestring",
           "hierarchy": "Network Metric",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric",
           "name": "encode",
           "normalized": "a-\u003eByteString",
@@ -2538,6 +2748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a measurable instance from a host into a list of metrics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric",
           "name": "measure",
           "package": "network-metrics",
@@ -2548,6 +2759,7 @@
         "index": {
           "description": "Convert measurable instance from host into list of metrics",
           "hierarchy": "Network Metric",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric",
           "name": "measure",
           "normalized": "a-\u003e[Metric]",
@@ -2563,6 +2775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a new sink specified by SinkType\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric",
           "name": "open",
           "package": "network-metrics",
@@ -2573,6 +2786,7 @@
         "index": {
           "description": "Open new sink specified by SinkType",
           "hierarchy": "Network Metric",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric",
           "name": "open",
           "normalized": "SinkType-\u003eHost-\u003eHostName-\u003ePortNumber-\u003eIO AnySink",
@@ -2588,6 +2802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a metric to the sink.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:06 UTC 2014",
           "module": "Network.Metric",
           "name": "push",
           "package": "network-metrics",
@@ -2598,6 +2813,7 @@
         "index": {
           "description": "Write metric to the sink",
           "hierarchy": "Network Metric",
+          "indexed": "2014-03-11T19:28:06",
           "module": "Network.Metric",
           "name": "push",
           "normalized": "a-\u003eb-\u003eIO()",

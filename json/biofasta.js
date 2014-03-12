@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "biofasta"
+        "phrase": "biofasta",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module incorporates functionality for reading and writing\n   sequence data in the Fasta format.\n   Each sequence consists of a header (with a \u003ccode\u003e\u003ca\u003e\u003e\u003c/a\u003e\u003c/code\u003e prefix)\n   and a set of lines containing the sequence data..\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:16 UTC 2014",
           "module": "Bio.Sequence.Fasta",
           "name": "Fasta",
           "package": "biofasta",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module incorporates functionality for reading and writing sequence data in the Fasta format Each sequence consists of header with prefix and set of lines containing the sequence data",
           "hierarchy": "Bio Sequence Fasta",
+          "indexed": "2014-03-11T17:22:16",
           "module": "Bio.Sequence.Fasta",
           "name": "Fasta",
           "package": "biofasta",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:16 UTC 2014",
           "module": "Bio.Sequence.Fasta",
           "name": "Sequence",
           "package": "biofasta",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence Fasta",
+          "indexed": "2014-03-11T17:22:16",
           "module": "Bio.Sequence.Fasta",
           "name": "Sequence",
           "package": "biofasta",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:16 UTC 2014",
           "module": "Bio.Sequence.Fasta",
           "name": "Seq",
           "package": "biofasta",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence Fasta",
+          "indexed": "2014-03-11T17:22:16",
           "module": "Bio.Sequence.Fasta",
           "name": "Seq",
           "package": "biofasta",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:16 UTC 2014",
           "module": "Bio.Sequence.Fasta",
           "name": "countSeqs",
           "package": "biofasta",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence Fasta",
+          "indexed": "2014-03-11T17:22:16",
           "module": "Bio.Sequence.Fasta",
           "name": "countSeqs",
           "normalized": "FilePath-\u003eIO Int",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazily read sequence from handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:16 UTC 2014",
           "module": "Bio.Sequence.Fasta",
           "name": "hReadFasta",
           "package": "biofasta",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Lazily read sequence from handle",
           "hierarchy": "Bio Sequence Fasta",
+          "indexed": "2014-03-11T17:22:16",
           "module": "Bio.Sequence.Fasta",
           "name": "hReadFasta",
           "normalized": "Handle-\u003eIO[Sequence]",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite sequences in FASTA format to a handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:16 UTC 2014",
           "module": "Bio.Sequence.Fasta",
           "name": "hWriteFasta",
           "package": "biofasta",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Write sequences in FASTA format to handle",
           "hierarchy": "Bio Sequence Fasta",
+          "indexed": "2014-03-11T17:22:16",
           "module": "Bio.Sequence.Fasta",
           "name": "hWriteFasta",
           "normalized": "Handle-\u003e[Sequence]-\u003eIO()",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list of FASTA-formatted lines into a list of sequences.\n   Blank lines are ignored.\n   Comment lines start with \u003ca/\u003e are allowed between sequences (and ignored).\n   Lines starting with \u003ca\u003e\u003e\u003c/a\u003e initiate a new sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:16 UTC 2014",
           "module": "Bio.Sequence.Fasta",
           "name": "mkSeqs",
           "package": "biofasta",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Convert list of FASTA-formatted lines into list of sequences Blank lines are ignored Comment lines start with are allowed between sequences and ignored Lines starting with initiate new sequence",
           "hierarchy": "Bio Sequence Fasta",
+          "indexed": "2014-03-11T17:22:16",
           "module": "Bio.Sequence.Fasta",
           "name": "mkSeqs",
           "normalized": "[ByteString]-\u003e[Sequence]",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazily read sequences from a FASTA-formatted file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:16 UTC 2014",
           "module": "Bio.Sequence.Fasta",
           "name": "readFasta",
           "package": "biofasta",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Lazily read sequences from FASTA-formatted file",
           "hierarchy": "Bio Sequence Fasta",
+          "indexed": "2014-03-11T17:22:16",
           "module": "Bio.Sequence.Fasta",
           "name": "readFasta",
           "normalized": "FilePath-\u003eIO[Sequence]",
@@ -212,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:16 UTC 2014",
           "module": "Bio.Sequence.Fasta",
           "name": "seqdata",
           "package": "biofasta",
@@ -220,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence Fasta",
+          "indexed": "2014-03-11T17:22:16",
           "module": "Bio.Sequence.Fasta",
           "name": "seqdata",
           "normalized": "a-\u003eSeqData",
@@ -234,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:16 UTC 2014",
           "module": "Bio.Sequence.Fasta",
           "name": "seqheader",
           "package": "biofasta",
@@ -242,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence Fasta",
+          "indexed": "2014-03-11T17:22:16",
           "module": "Bio.Sequence.Fasta",
           "name": "seqheader",
           "normalized": "a-\u003eSeqLabel",
@@ -256,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:16 UTC 2014",
           "module": "Bio.Sequence.Fasta",
           "name": "seqid",
           "package": "biofasta",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence Fasta",
+          "indexed": "2014-03-11T17:22:16",
           "module": "Bio.Sequence.Fasta",
           "name": "seqid",
           "normalized": "a-\u003eSeqLabel",
@@ -278,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:16 UTC 2014",
           "module": "Bio.Sequence.Fasta",
           "name": "seqlength",
           "package": "biofasta",
@@ -286,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence Fasta",
+          "indexed": "2014-03-11T17:22:16",
           "module": "Bio.Sequence.Fasta",
           "name": "seqlength",
           "normalized": "a-\u003eOffset",
@@ -300,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:16 UTC 2014",
           "module": "Bio.Sequence.Fasta",
           "name": "toStr",
           "package": "biofasta",
@@ -309,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence Fasta",
+          "indexed": "2014-03-11T17:22:16",
           "module": "Bio.Sequence.Fasta",
           "name": "toStr",
           "normalized": "SeqData-\u003eString",
@@ -325,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite sequences to a FASTA-formatted file.\n   Line length is 60.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:16 UTC 2014",
           "module": "Bio.Sequence.Fasta",
           "name": "writeFasta",
           "package": "biofasta",
@@ -335,6 +362,7 @@
         "index": {
           "description": "Write sequences to FASTA-formatted file Line length is",
           "hierarchy": "Bio Sequence Fasta",
+          "indexed": "2014-03-11T17:22:16",
           "module": "Bio.Sequence.Fasta",
           "name": "writeFasta",
           "normalized": "FilePath-\u003e[Sequence]-\u003eIO()",

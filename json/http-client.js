@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "http-client"
+        "phrase": "http-client",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNote that this is essentially the \"kitchen sink\" export module,\n including many functions intended only to be used internally by this\n package. No API stability is guaranteed for this module. If you see\n functions here which you believe should be promoted to a stable API, please\n contact the author.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "Internal",
           "package": "http-client",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Note that this is essentially the kitchen sink export module including many functions intended only to be used internally by this package No API stability is guaranteed for this module If you see functions here which you believe should be promoted to stable API please contact the author",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "Internal",
           "package": "http-client",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstraction for representing an incoming response body coming from the\n server. Data provided by this abstraction has already been gunzipped and\n de-chunked, and respects any content-length headers present.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "BodyReader",
           "package": "http-client",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An abstraction for representing an incoming response body coming from the server Data provided by this abstraction has already been gunzipped and de-chunked and respects any content-length headers present Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "BodyReader",
           "package": "http-client",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHostname or resolved host address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "ConnHost",
           "package": "http-client",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Hostname or resolved host address",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "ConnHost",
           "package": "http-client",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eConnKey\u003c/code\u003e consists of a hostname, a port and a \u003ccode\u003eBool\u003c/code\u003e\n specifying whether to use SSL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "ConnKey",
           "package": "http-client",
@@ -97,6 +104,7 @@
         "index": {
           "description": "ConnKey consists of hostname port and Bool specifying whether to use SSL",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "ConnKey",
           "package": "http-client",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "ConnRelease",
           "package": "http-client",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "ConnRelease",
           "package": "http-client",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "ConnReuse",
           "package": "http-client",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "ConnReuse",
           "package": "http-client",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "Connection",
           "package": "http-client",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "Connection",
           "package": "http-client",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "Cookie",
           "package": "http-client",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "Cookie",
           "package": "http-client",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "CookieJar",
           "package": "http-client",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "CookieJar",
           "package": "http-client",
@@ -216,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function which will provide a \u003ccode\u003e\u003ca\u003ePopper\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eNeedsPopper\u003c/a\u003e\u003c/code\u003e. This\n seemingly convoluted structure allows for creation of request bodies which\n allocate scarce resources in an exception safe manner.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "GivesPopper",
           "package": "http-client",
@@ -225,6 +244,7 @@
         "index": {
           "description": "function which will provide Popper to NeedsPopper This seemingly convoluted structure allows for creation of request bodies which allocate scarce resources in an exception safe manner Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "GivesPopper",
           "package": "http-client",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "HttpException",
           "package": "http-client",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "HttpException",
           "package": "http-client",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "ManagedConn",
           "package": "http-client",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "ManagedConn",
           "package": "http-client",
@@ -281,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeeps track of open connections for keep-alive.\n\u003c/p\u003e\u003cp\u003eIf possible, you should share a single \u003ccode\u003e\u003ca\u003eManager\u003c/a\u003e\u003c/code\u003e between multiple threads and requests.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "Manager",
           "package": "http-client",
@@ -290,6 +315,7 @@
         "index": {
           "description": "Keeps track of open connections for keep-alive If possible you should share single Manager between multiple threads and requests Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "Manager",
           "package": "http-client",
@@ -304,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSettings for a \u003ccode\u003eManager\u003c/code\u003e. Please use the \u003ccode\u003edefaultManagerSettings\u003c/code\u003e function and then modify\n individual settings. For more information, see \u003ca\u003ehttp://www.yesodweb.com/book/settings-types\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "ManagerSettings",
           "package": "http-client",
@@ -313,6 +340,7 @@
         "index": {
           "description": "Settings for Manager Please use the defaultManagerSettings function and then modify individual settings For more information see http www.yesodweb.com book settings-types Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "ManagerSettings",
           "package": "http-client",
@@ -327,6 +355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function which must be provided with a \u003ccode\u003e\u003ca\u003ePopper\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "NeedsPopper",
           "package": "http-client",
@@ -336,6 +365,7 @@
         "index": {
           "description": "function which must be provided with Popper Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "NeedsPopper",
           "package": "http-client",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "NonEmptyList",
           "package": "http-client",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "NonEmptyList",
           "package": "http-client",
@@ -371,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function which generates successive chunks of a request body, provider a\n single empty bytestring when no more data is available.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "Popper",
           "package": "http-client",
@@ -380,6 +413,7 @@
         "index": {
           "description": "function which generates successive chunks of request body provider single empty bytestring when no more data is available Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "Popper",
           "package": "http-client",
@@ -394,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a HTTP proxy, consisting of a hostname and port number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "Proxy",
           "package": "http-client",
@@ -403,6 +438,7 @@
         "index": {
           "description": "Define HTTP proxy consisting of hostname and port number",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "Proxy",
           "package": "http-client",
@@ -417,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll information on how to connect to a host and what should be sent in the\n HTTP request.\n\u003c/p\u003e\u003cp\u003eIf you simply wish to download from a URL, see \u003ccode\u003eparseUrl\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe constructor for this data type is not exposed. Instead, you should use\n either the \u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e method to retrieve a default instance, or \u003ccode\u003eparseUrl\u003c/code\u003e to\n construct from a URL, and then use the records below to make modifications.\n This approach allows http-client to add configuration options without\n breaking backwards compatibility.\n\u003c/p\u003e\u003cp\u003eFor example, to construct a POST request, you could do something like:\n\u003c/p\u003e\u003cpre\u003e initReq \u003c- parseUrl \"http://www.example.com/path\"\n let req = initReq\n             { method = \"POST\"\n             }\n\u003c/pre\u003e\u003cp\u003eFor more information, please see\n \u003ca\u003ehttp://www.yesodweb.com/book/settings-types\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "Request",
           "package": "http-client",
@@ -426,6 +463,7 @@
         "index": {
           "description": "All information on how to connect to host and what should be sent in the HTTP request If you simply wish to download from URL see parseUrl The constructor for this data type is not exposed Instead you should use either the def method to retrieve default instance or parseUrl to construct from URL and then use the records below to make modifications This approach allows http-client to add configuration options without breaking backwards compatibility For example to construct POST request you could do something like initReq parseUrl http www.example.com path let req initReq method POST For more information please see http www.yesodweb.com book settings-types Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "Request",
           "package": "http-client",
@@ -440,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen using one of the \u003ccode\u003e\u003ca\u003eRequestBodyStream\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003e\u003ca\u003eRequestBodyStreamChunked\u003c/a\u003e\u003c/code\u003e\n constructors, you must ensure that the \u003ccode\u003e\u003ca\u003eGivesPopper\u003c/a\u003e\u003c/code\u003e can be called multiple\n times.  Usually this is not a problem.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eRequestBodyStreamChunked\u003c/a\u003e\u003c/code\u003e will send a chunked request body. Note that\n not all servers support this. Only use \u003ccode\u003e\u003ca\u003eRequestBodyStreamChunked\u003c/a\u003e\u003c/code\u003e if you\n know the server you're sending to supports chunked request bodies.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "RequestBody",
           "package": "http-client",
@@ -449,6 +488,7 @@
         "index": {
           "description": "When using one of the RequestBodyStream RequestBodyStreamChunked constructors you must ensure that the GivesPopper can be called multiple times Usually this is not problem The RequestBodyStreamChunked will send chunked request body Note that not all servers support this Only use RequestBodyStreamChunked if you know the server you re sending to supports chunked request bodies Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "RequestBody",
           "package": "http-client",
@@ -463,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple representation of the HTTP response.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "Response",
           "package": "http-client",
@@ -472,6 +513,7 @@
         "index": {
           "description": "simple representation of the HTTP response Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "Response",
           "package": "http-client",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "ResponseClose",
           "package": "http-client",
@@ -493,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "ResponseClose",
           "package": "http-client",
@@ -506,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "StatusHeaders",
           "package": "http-client",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "StatusHeaders",
           "package": "http-client",
@@ -527,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "(\u003c\u003e)",
           "package": "http-client",
@@ -536,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -550,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "BodyReader",
           "package": "http-client",
@@ -559,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "BodyReader",
           "package": "http-client",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "CJ",
           "package": "http-client",
@@ -581,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "CJ",
           "package": "http-client",
@@ -594,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "ConnKey",
           "package": "http-client",
@@ -603,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "ConnKey",
           "package": "http-client",
@@ -616,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "Connection",
           "package": "http-client",
@@ -625,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "Connection",
           "package": "http-client",
@@ -638,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "Cons",
           "package": "http-client",
@@ -647,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "Cons",
           "package": "http-client",
@@ -683,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "DontReuse",
           "package": "http-client",
@@ -692,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "DontReuse",
           "package": "http-client",
@@ -753,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "Fresh",
           "package": "http-client",
@@ -762,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "Fresh",
           "package": "http-client",
@@ -798,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "HostAddress",
           "package": "http-client",
@@ -807,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "HostAddress",
           "package": "http-client",
@@ -820,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "HostName",
           "package": "http-client",
@@ -829,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "HostName",
           "package": "http-client",
@@ -1005,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "Manager",
           "package": "http-client",
@@ -1014,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "Manager",
           "package": "http-client",
@@ -1027,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "ManagerSettings",
           "package": "http-client",
@@ -1036,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "ManagerSettings",
           "package": "http-client",
@@ -1072,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "One",
           "package": "http-client",
@@ -1081,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "One",
           "package": "http-client",
@@ -1165,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "Request",
           "package": "http-client",
@@ -1174,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "Request",
           "package": "http-client",
@@ -1306,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "Response",
           "package": "http-client",
@@ -1315,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "Response",
           "package": "http-client",
@@ -1353,6 +1429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "ResponseClose",
           "package": "http-client",
@@ -1362,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "ResponseClose",
           "package": "http-client",
@@ -1398,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "Reuse",
           "package": "http-client",
@@ -1407,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "Reuse",
           "package": "http-client",
@@ -1420,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "Reused",
           "package": "http-client",
@@ -1429,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "Reused",
           "package": "http-client",
@@ -1465,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "StatusHeaders",
           "package": "http-client",
@@ -1474,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "StatusHeaders",
           "package": "http-client",
@@ -1609,6 +1693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a proxy to the Request so that the Request when executed will use\n the provided proxy.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "addProxy",
           "package": "http-client",
@@ -1619,6 +1704,7 @@
         "index": {
           "description": "Add proxy to the Request so that the Request when executed will use the provided proxy Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "addProxy",
           "normalized": "ByteString-\u003eInt-\u003eRequest-\u003eRequest",
@@ -1635,6 +1721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlways decompress a compressed stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "alwaysDecompress",
           "package": "http-client",
@@ -1645,6 +1732,7 @@
         "index": {
           "description": "Always decompress compressed stream",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "alwaysDecompress",
           "normalized": "ByteString-\u003eBool",
@@ -1688,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply 'Request'\\'s \u003ccode\u003e\u003ca\u003echeckStatus\u003c/a\u003e\u003c/code\u003e and return resulting exception if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "applyCheckStatus",
           "package": "http-client",
@@ -1698,6 +1787,7 @@
         "index": {
           "description": "Apply Request checkStatus and return resulting exception if any",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "applyCheckStatus",
           "normalized": "(Status-\u003eResponseHeaders-\u003eCookieJar-\u003eMaybe SomeException)-\u003eResponse BodyReader-\u003eIO(Maybe SomeException)",
@@ -1713,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "brAddCleanup",
           "package": "http-client",
@@ -1722,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "brAddCleanup",
           "normalized": "IO()-\u003eBodyReader-\u003eBodyReader",
@@ -1737,6 +1829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "brComplete",
           "package": "http-client",
@@ -1746,6 +1839,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "brComplete",
           "package": "http-client",
@@ -1786,6 +1880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "brEmpty",
           "package": "http-client",
@@ -1795,6 +1890,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "brEmpty",
           "package": "http-client",
@@ -1809,6 +1905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a single chunk of data from the response body, or an empty\n bytestring if no more data is available.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "brRead",
           "package": "http-client",
@@ -1819,6 +1916,7 @@
         "index": {
           "description": "Get single chunk of data from the response body or an empty bytestring if no more data is available Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "brRead",
           "package": "http-client",
@@ -1832,6 +1930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "brReadSome",
           "package": "http-client",
@@ -1841,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "brReadSome",
           "normalized": "BodyReader-\u003eInt-\u003eIO ByteString",
@@ -1857,6 +1957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompress a compressed stream unless the content-type is 'application/x-tar'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "browserDecompress",
           "package": "http-client",
@@ -1867,6 +1968,7 @@
         "index": {
           "description": "Decompress compressed stream unless the content-type is application x-tar",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "browserDecompress",
           "normalized": "ByteString-\u003eBool",
@@ -1883,6 +1985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck the status code. Note that this will run after all redirects are\n performed. Default: return a \u003ccode\u003eStatusCodeException\u003c/code\u003e on non-2XX responses.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "checkStatus",
           "package": "http-client",
@@ -1893,6 +1996,7 @@
         "index": {
           "description": "Check the status code Note that this will run after all redirects are performed Default return StatusCodeException on non-2XX responses Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "checkStatus",
           "normalized": "Status-\u003eResponseHeaders-\u003eCookieJar-\u003eMaybe SomeException",
@@ -1961,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "connectionClose",
           "package": "http-client",
@@ -1970,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "connectionClose",
           "normalized": "(IO())",
@@ -1986,6 +2092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf no more data, return empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "connectionRead",
           "package": "http-client",
@@ -1996,6 +2103,7 @@
         "index": {
           "description": "If no more data return empty",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "connectionRead",
           "package": "http-client",
@@ -2009,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "connectionReadLine",
           "package": "http-client",
@@ -2018,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "connectionReadLine",
           "normalized": "Connection-\u003eIO ByteString",
@@ -2033,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "connectionReadLineWith",
           "package": "http-client",
@@ -2042,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "connectionReadLineWith",
           "normalized": "Connection-\u003eByteString-\u003eIO ByteString",
@@ -2058,6 +2170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn data to be read next time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "connectionUnread",
           "package": "http-client",
@@ -2068,6 +2181,7 @@
         "index": {
           "description": "Return data to be read next time",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "connectionUnread",
           "normalized": "(ByteString-\u003eIO())",
@@ -2084,6 +2198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend data to server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "connectionWrite",
           "package": "http-client",
@@ -2094,6 +2209,7 @@
         "index": {
           "description": "Send data to server",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "connectionWrite",
           "normalized": "(ByteString-\u003eIO())",
@@ -2110,6 +2226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA user-defined cookie jar.\n If \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, no cookie handling will take place, \"Cookie\" headers\n in \u003ccode\u003e\u003ca\u003erequestHeaders\u003c/a\u003e\u003c/code\u003e will be sent raw, and \u003ccode\u003e\u003ca\u003eresponseCookieJar\u003c/a\u003e\u003c/code\u003e will be\n empty.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "cookieJar",
           "package": "http-client",
@@ -2120,6 +2237,7 @@
         "index": {
           "description": "user-defined cookie jar If Nothing no cookie handling will take place Cookie headers in requestHeaders will be sent raw and responseCookieJar will be empty Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "cookieJar",
           "package": "http-client",
@@ -2401,6 +2519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate to specify whether gzipped data should be\n decompressed on the fly (see \u003ccode\u003ealwaysDecompress\u003c/code\u003e and\n \u003ccode\u003ebrowserDecompress\u003c/code\u003e). Argument is the mime type.\n Default: browserDecompress.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "decompress",
           "package": "http-client",
@@ -2411,6 +2530,7 @@
         "index": {
           "description": "Predicate to specify whether gzipped data should be decompressed on the fly see alwaysDecompress and browserDecompress Argument is the mime type Default browserDecompress Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "decompress",
           "normalized": "ByteString-\u003eBool",
@@ -2530,6 +2650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor testing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "dummyConnection",
           "package": "http-client",
@@ -2539,6 +2660,7 @@
         "index": {
           "description": "For testing",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "dummyConnection",
           "normalized": "[ByteString]-\u003eIO(Connection,IO[ByteString],IO[ByteString])",
@@ -2580,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "expose",
           "package": "http-client",
@@ -2589,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "expose",
           "normalized": "[Cookie]",
@@ -2604,6 +2728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an exception to be thrown if the connection for the given request\n fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "failedConnectionException",
           "package": "http-client",
@@ -2614,6 +2739,7 @@
         "index": {
           "description": "Create an exception to be thrown if the connection for the given request fails",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "failedConnectionException",
           "normalized": "Request-\u003eHttpException",
@@ -2630,6 +2756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Convert a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "fromStrict",
           "package": "http-client",
@@ -2639,6 +2766,7 @@
         "index": {
           "description": "Convert strict ByteString into lazy ByteString",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "fromStrict",
           "normalized": "ByteString-\u003eByteString",
@@ -2680,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "getConn",
           "package": "http-client",
@@ -2689,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "getConn",
           "normalized": "Request-\u003eManager-\u003eIO(ConnRelease,Connection,ManagedConn)",
@@ -2705,6 +2835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps the calls for getting new connections. This can be useful for\n instituting some kind of timeouts. The first argument is the value of\n \u003ccode\u003eresponseTimeout\u003c/code\u003e. Second argument is the exception to be thrown on\n failure.\n\u003c/p\u003e\u003cp\u003eDefault: If \u003ccode\u003eresponseTimeout\u003c/code\u003e is \u003ccode\u003eNothing\u003c/code\u003e, does nothing. Otherwise,\n institutes timeout, and returns remaining time for \u003ccode\u003eresponseTimeout\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "getConnectionWrapper",
           "package": "http-client",
@@ -2715,6 +2846,7 @@
         "index": {
           "description": "Wraps the calls for getting new connections This can be useful for instituting some kind of timeouts The first argument is the value of responseTimeout Second argument is the exception to be thrown on failure Default If responseTimeout is Nothing does nothing Otherwise institutes timeout and returns remaining time for responseTimeout Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "getConnectionWrapper",
           "normalized": "Maybe Int-\u003eHttpException-\u003eIO(ConnRelease,Connection,ManagedConn)-\u003eIO(Maybe Int,(ConnRelease,Connection,ManagedConn))",
@@ -2731,6 +2863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a request is a redirection (status code 3xx) this function will create\n a new request from the old request, the server headers returned with the\n redirection, and the redirection code itself. This function returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n if the code is not a 3xx, there is no \u003ccode\u003elocation\u003c/code\u003e header included, or if the\n redirected response couldn't be parsed with \u003ccode\u003e\u003ca\u003eparseUrl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf a user of this library wants to know the url chain that results from a\n specific request, that user has to re-implement the redirect-following logic\n themselves. An example of that might look like this:\n\u003c/p\u003e\u003cpre\u003e myHttp req man = do\n    (res, redirectRequests) \u003c- (`runStateT` []) $\n         'httpRedirect'\n             9000\n             (\\req' -\u003e do\n                res \u003c- http req'{redirectCount=0} man\n                modify (\\rqs -\u003e req' : rqs)\n                return (res, getRedirectedRequest req' (responseHeaders res) (responseCookieJar res) (W.statusCode (responseStatus res))\n                )\n             'lift'\n             req\n    applyCheckStatus (checkStatus req) res\n    return redirectRequests\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "getRedirectedRequest",
           "package": "http-client",
@@ -2741,6 +2874,7 @@
         "index": {
           "description": "If request is redirection status code xx this function will create new request from the old request the server headers returned with the redirection and the redirection code itself This function returns Nothing if the code is not xx there is no location header included or if the redirected response couldn be parsed with parseUrl If user of this library wants to know the url chain that results from specific request that user has to re-implement the redirect-following logic themselves An example of that might look like this myHttp req man do res redirectRequests runStateT httpRedirect req do res http req redirectCount man modify rqs req rqs return res getRedirectedRequest req responseHeaders res responseCookieJar res W.statusCode responseStatus res lift req applyCheckStatus checkStatus req res return redirectRequests",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "getRedirectedRequest",
           "normalized": "Request-\u003eResponseHeaders-\u003eCookieJar-\u003eInt-\u003eMaybe Request",
@@ -2756,6 +2890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "getResponse",
           "package": "http-client",
@@ -2765,6 +2900,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "getResponse",
           "normalized": "ConnRelease-\u003eMaybe Int-\u003eRequest-\u003eConnection-\u003eIO(Response BodyReader)",
@@ -2808,6 +2944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ehGet\u003c/a\u003e\u003c/code\u003e, except that a shorter \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e may be returned\n if there are not enough bytes immediately available to satisfy the\n whole request.  \u003ccode\u003e\u003ca\u003ehGetSome\u003c/a\u003e\u003c/code\u003e only blocks if there is no data\n available, and EOF has not yet been reached.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "hGetSome",
           "package": "http-client",
@@ -2817,6 +2954,7 @@
         "index": {
           "description": "Like hGet except that shorter ByteString may be returned if there are not enough bytes immediately available to satisfy the whole request hGetSome only blocks if there is no data available and EOF has not yet been reached",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "hGetSome",
           "normalized": "Handle-\u003eInt-\u003eIO ByteString",
@@ -2832,6 +2970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "hasNoBody",
           "package": "http-client",
@@ -2840,6 +2979,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "hasNoBody",
           "normalized": "ByteString-\u003eInt-\u003eBool",
@@ -2856,6 +2996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequested host name, used for both the IP address to connect to and\n the \u003ccode\u003ehost\u003c/code\u003e request header.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "host",
           "package": "http-client",
@@ -2866,6 +3007,7 @@
         "index": {
           "description": "Requested host name used for both the IP address to connect to and the host request header Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "host",
           "package": "http-client",
@@ -2879,6 +3021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional resolved host address. May not be used by all backends.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "hostAddress",
           "package": "http-client",
@@ -2889,6 +3032,7 @@
         "index": {
           "description": "Optional resolved host address May not be used by all backends Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "hostAddress",
           "package": "http-client",
@@ -2930,6 +3074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e without any redirect following.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "httpRaw",
           "package": "http-client",
@@ -2940,6 +3085,7 @@
         "index": {
           "description": "Get Response without any redirect following",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "httpRaw",
           "normalized": "Request-\u003eManager-\u003eIO(Response BodyReader)",
@@ -2956,6 +3102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirect loop\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "httpRedirect",
           "package": "http-client",
@@ -2965,6 +3112,7 @@
         "index": {
           "description": "Redirect loop",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "httpRedirect",
           "normalized": "Int-\u003e(Request-\u003eIO(Response BodyReader,Maybe Request))-\u003eRequest-\u003eIO(Response BodyReader)",
@@ -3058,6 +3206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eResponse\u003c/a\u003e\u003c/code\u003e that has a \u003ccode\u003eSource\u003c/code\u003e body to one with a lazy\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "lbsResponse",
           "package": "http-client",
@@ -3068,6 +3217,7 @@
         "index": {
           "description": "Convert Response that has Source body to one with lazy ByteString body",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "lbsResponse",
           "normalized": "Response BodyReader-\u003eIO(Response ByteString)",
@@ -3084,6 +3234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNothing\u003c/code\u003e indicates that the manager is closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "mConns",
           "package": "http-client",
@@ -3094,6 +3245,7 @@
         "index": {
           "description": "Nothing indicates that the manager is closed",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "mConns",
           "package": "http-client",
@@ -3108,6 +3260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a per-\u003ccode\u003eConnKey\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "mMaxConns",
           "package": "http-client",
@@ -3118,6 +3271,7 @@
         "index": {
           "description": "This is per ConnKey value",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "mMaxConns",
           "package": "http-client",
@@ -3131,6 +3285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "mRawConnection",
           "package": "http-client",
@@ -3140,6 +3295,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "mRawConnection",
           "normalized": "(Maybe HostAddress-\u003eString-\u003eInt-\u003eIO Connection)",
@@ -3156,6 +3312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopied from \u003ccode\u003e\u003ca\u003emanagerResponseTimeout\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "mResponseTimeout",
           "package": "http-client",
@@ -3166,6 +3323,7 @@
         "index": {
           "description": "Copied from managerResponseTimeout",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "mResponseTimeout",
           "package": "http-client",
@@ -3179,6 +3337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "mRetryableException",
           "package": "http-client",
@@ -3188,6 +3347,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "mRetryableException",
           "normalized": "(SomeException-\u003eBool)",
@@ -3203,6 +3363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "mTlsConnection",
           "package": "http-client",
@@ -3212,6 +3373,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "mTlsConnection",
           "normalized": "(Maybe HostAddress-\u003eString-\u003eInt-\u003eIO Connection)",
@@ -3227,6 +3389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "mTlsProxyConnection",
           "package": "http-client",
@@ -3236,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "mTlsProxyConnection",
           "normalized": "(ByteString-\u003e(Connection-\u003eIO())-\u003eMaybe HostAddress-\u003eString-\u003eInt-\u003eIO Connection)",
@@ -3251,6 +3415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "mWrapIOException",
           "package": "http-client",
@@ -3260,6 +3425,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "mWrapIOException",
           "normalized": "(a b IO c-\u003eIO c)",
@@ -3275,6 +3441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "makeChunkedReader",
           "package": "http-client",
@@ -3283,6 +3450,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "makeChunkedReader",
           "normalized": "Bool-\u003eConnection-\u003eIO BodyReader",
@@ -3298,6 +3466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "makeConnection",
           "package": "http-client",
@@ -3306,6 +3475,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "makeConnection",
           "normalized": "IO ByteString-\u003e(ByteString-\u003eIO())-\u003eIO()-\u003eIO Connection",
@@ -3321,6 +3491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "makeGzipReader",
           "package": "http-client",
@@ -3330,6 +3501,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "makeGzipReader",
           "normalized": "BodyReader-\u003eIO BodyReader",
@@ -3345,6 +3517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "makeLengthReader",
           "package": "http-client",
@@ -3354,6 +3527,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "makeLengthReader",
           "normalized": "Int-\u003eConnection-\u003eIO BodyReader",
@@ -3369,6 +3543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "makeUnlimitedReader",
           "package": "http-client",
@@ -3378,6 +3553,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "makeUnlimitedReader",
           "normalized": "Connection-\u003eIO BodyReader",
@@ -3394,6 +3570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of connections to a single host to keep alive. Default: 10.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "managerConnCount",
           "package": "http-client",
@@ -3404,6 +3581,7 @@
         "index": {
           "description": "Number of connections to single host to keep alive Default Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "managerConnCount",
           "package": "http-client",
@@ -3418,6 +3596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an insecure connection.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n FIXME in the future, combine managerTlsConnection and managerTlsProxyConnection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "managerRawConnection",
           "package": "http-client",
@@ -3428,6 +3607,7 @@
         "index": {
           "description": "Create an insecure connection Since FIXME in the future combine managerTlsConnection and managerTlsProxyConnection",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "managerRawConnection",
           "normalized": "(IO(Maybe HostAddress-\u003eString-\u003eInt-\u003eIO Connection))",
@@ -3444,6 +3624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault timeout (in microseconds) to be applied to requests which do\n not provide a timeout value.\n\u003c/p\u003e\u003cp\u003eDefault is 5 seconds\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "managerResponseTimeout",
           "package": "http-client",
@@ -3454,6 +3635,7 @@
         "index": {
           "description": "Default timeout in microseconds to be applied to requests which do not provide timeout value Default is seconds Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "managerResponseTimeout",
           "package": "http-client",
@@ -3468,6 +3650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExceptions for which we should retry our request if we were reusing an\n already open connection. In the case of IOExceptions, for example, we\n assume that the connection was closed on the server and therefore open a\n new one.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "managerRetryableException",
           "package": "http-client",
@@ -3478,6 +3661,7 @@
         "index": {
           "description": "Exceptions for which we should retry our request if we were reusing an already open connection In the case of IOExceptions for example we assume that the connection was closed on the server and therefore open new one Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "managerRetryableException",
           "normalized": "(SomeException-\u003eBool)",
@@ -3494,6 +3678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a TLS connection. Default behavior: throw an exception that TLS is not supported.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "managerTlsConnection",
           "package": "http-client",
@@ -3504,6 +3689,7 @@
         "index": {
           "description": "Create TLS connection Default behavior throw an exception that TLS is not supported Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "managerTlsConnection",
           "normalized": "(IO(Maybe HostAddress-\u003eString-\u003eInt-\u003eIO Connection))",
@@ -3520,6 +3706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a TLS proxy connection. Default behavior: throw an exception that TLS is not supported.\n\u003c/p\u003e\u003cp\u003eSince 0.2.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "managerTlsProxyConnection",
           "package": "http-client",
@@ -3530,6 +3717,7 @@
         "index": {
           "description": "Create TLS proxy connection Default behavior throw an exception that TLS is not supported Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "managerTlsProxyConnection",
           "normalized": "(IO(ByteString-\u003e(Connection-\u003eIO())-\u003eMaybe HostAddress-\u003eString-\u003eInt-\u003eIO Connection))",
@@ -3546,6 +3734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction wrapped around all attempted \u003ccode\u003eRequest\u003c/code\u003es, usually used to wrap\n up exceptions in library-specific types.\n\u003c/p\u003e\u003cp\u003eDefault: wrap all \u003ccode\u003eIOException\u003c/code\u003es in the \u003ccode\u003eInternalIOException\u003c/code\u003e constructor.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "managerWrapIOException",
           "package": "http-client",
@@ -3556,6 +3745,7 @@
         "index": {
           "description": "Action wrapped around all attempted Request usually used to wrap up exceptions in library-specific types Default wrap all IOException in the InternalIOException constructor Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "managerWrapIOException",
           "normalized": "(a b IO c-\u003eIO c)",
@@ -3572,6 +3762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP request method, eg GET, POST.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "method",
           "package": "http-client",
@@ -3582,6 +3773,7 @@
         "index": {
           "description": "HTTP request method eg GET POST Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "method",
           "package": "http-client",
@@ -3594,6 +3786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "needsGunzip",
           "package": "http-client",
@@ -3602,6 +3795,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "needsGunzip",
           "normalized": "Request-\u003e[Header]-\u003eBool",
@@ -3644,6 +3838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "openSocketConnection",
           "package": "http-client",
@@ -3652,6 +3847,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "openSocketConnection",
           "normalized": "Maybe HostAddress-\u003eString-\u003eInt-\u003eIO Connection",
@@ -3667,6 +3863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "parseStatusHeaders",
           "package": "http-client",
@@ -3676,6 +3873,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "parseStatusHeaders",
           "normalized": "Connection-\u003eIO StatusHeaders",
@@ -3719,6 +3917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEverything from the host to the query string.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "path",
           "package": "http-client",
@@ -3729,6 +3928,7 @@
         "index": {
           "description": "Everything from the host to the query string Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "path",
           "package": "http-client",
@@ -3769,6 +3969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe port to connect to. Also used for generating the \u003ccode\u003ehost\u003c/code\u003e request header.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "port",
           "package": "http-client",
@@ -3779,6 +3980,7 @@
         "index": {
           "description": "The port to connect to Also used for generating the host request header Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "port",
           "package": "http-client",
@@ -3792,6 +3994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional HTTP proxy.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "proxy",
           "package": "http-client",
@@ -3802,6 +4005,7 @@
         "index": {
           "description": "Optional HTTP proxy Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "proxy",
           "package": "http-client",
@@ -3865,6 +4069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery string appended to the path.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "queryString",
           "package": "http-client",
@@ -3875,6 +4080,7 @@
         "index": {
           "description": "Query string appended to the path Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "queryString",
           "package": "http-client",
@@ -3889,6 +4095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003eTrue\u003c/code\u003e, a chunked and/or gzipped body will not be\n decoded. Use with caution.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "rawBody",
           "package": "http-client",
@@ -3899,6 +4106,7 @@
         "index": {
           "description": "If True chunked and or gzipped body will not be decoded Use with caution Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "rawBody",
           "package": "http-client",
@@ -3912,6 +4120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "readDec",
           "package": "http-client",
@@ -3921,6 +4130,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "readDec",
           "normalized": "String-\u003eMaybe a",
@@ -3963,6 +4173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow many redirects to follow when getting a resource. 0 means follow\n no redirects. Default value: 10.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "redirectCount",
           "package": "http-client",
@@ -3973,6 +4184,7 @@
         "index": {
           "description": "How many redirects to follow when getting resource means follow no redirects Default value Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "redirectCount",
           "package": "http-client",
@@ -4012,6 +4224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest body to be sent to the server.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "requestBody",
           "package": "http-client",
@@ -4022,6 +4235,7 @@
         "index": {
           "description": "Request body to be sent to the server Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "requestBody",
           "package": "http-client",
@@ -4035,6 +4249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "requestBuilder",
           "package": "http-client",
@@ -4044,6 +4259,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "requestBuilder",
           "normalized": "Request-\u003eConnection-\u003eIO()",
@@ -4060,6 +4276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustom HTTP request headers\n\u003c/p\u003e\u003cp\u003eThe Content-Length and Transfer-Encoding headers are set automatically\n by this module, and shall not be added to \u003ccode\u003erequestHeaders\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf not provided by the user, \u003ccode\u003eHost\u003c/code\u003e will automatically be set based on\n the \u003ccode\u003ehost\u003c/code\u003e and \u003ccode\u003eport\u003c/code\u003e fields.\n\u003c/p\u003e\u003cp\u003eMoreover, the Accept-Encoding header is set implicitly to gzip for\n convenience by default. This behaviour can be overridden if needed, by\n setting the header explicitly to a different value. In order to omit the\n Accept-Header altogether, set it to the empty string \"\". If you need an\n empty Accept-Header (i.e. requesting the identity encoding), set it to a\n non-empty white-space string, e.g. \" \". See RFC 2616 section 14.3 for\n details about the semantics of the Accept-Header field. If you request a\n content-encoding not supported by this module, you will have to decode\n it yourself (see also the \u003ccode\u003e\u003ca\u003edecompress\u003c/a\u003e\u003c/code\u003e field).\n\u003c/p\u003e\u003cp\u003eNote: Multiple header fields with the same field-name will result in\n multiple header fields being sent and therefore it's the responsibility\n of the client code to ensure that the rules from RFC 2616 section 4.2\n are honoured.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "requestHeaders",
           "package": "http-client",
@@ -4070,6 +4287,7 @@
         "index": {
           "description": "Custom HTTP request headers The Content-Length and Transfer-Encoding headers are set automatically by this module and shall not be added to requestHeaders If not provided by the user Host will automatically be set based on the host and port fields Moreover the Accept-Encoding header is set implicitly to gzip for convenience by default This behaviour can be overridden if needed by setting the header explicitly to different value In order to omit the Accept-Header altogether set it to the empty string If you need an empty Accept-Header i.e requesting the identity encoding set it to non-empty white-space string e.g See RFC section for details about the semantics of the Accept-Header field If you request content-encoding not supported by this module you will have to decode it yourself see also the decompress field Note Multiple header fields with the same field-name will result in multiple header fields being sent and therefore it the responsibility of the client code to ensure that the rules from RFC section are honoured Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "requestHeaders",
           "package": "http-client",
@@ -4084,6 +4302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponse body sent by the server.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "responseBody",
           "package": "http-client",
@@ -4094,6 +4313,7 @@
         "index": {
           "description": "Response body sent by the server Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "responseBody",
           "package": "http-client",
@@ -4135,6 +4355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReleases any resource held by this response. If the response body\n has not been fully read yet, doing so after this call will likely\n be impossible.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "responseClose'",
           "package": "http-client",
@@ -4145,6 +4366,7 @@
         "index": {
           "description": "Releases any resource held by this response If the response body has not been fully read yet doing so after this call will likely be impossible Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "responseClose'",
           "package": "http-client",
@@ -4159,6 +4381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCookies set on the client after interacting with the server. If\n cookies have been disabled by setting \u003ccode\u003e\u003ca\u003ecookieJar\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003eNothing\u003c/code\u003e, then\n this will always be empty.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "responseCookieJar",
           "package": "http-client",
@@ -4169,6 +4392,7 @@
         "index": {
           "description": "Cookies set on the client after interacting with the server If cookies have been disabled by setting cookieJar to Nothing then this will always be empty Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "responseCookieJar",
           "package": "http-client",
@@ -4183,6 +4407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponse headers sent by the server.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "responseHeaders",
           "package": "http-client",
@@ -4193,6 +4418,7 @@
         "index": {
           "description": "Response headers sent by the server Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "responseHeaders",
           "package": "http-client",
@@ -4234,6 +4460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus code of the response.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "responseStatus",
           "package": "http-client",
@@ -4244,6 +4471,7 @@
         "index": {
           "description": "Status code of the response Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "responseStatus",
           "package": "http-client",
@@ -4258,6 +4486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of microseconds to wait for a response. If \u003ccode\u003eNothing\u003c/code\u003e, will wait\n indefinitely. Default: 5 seconds.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "responseTimeout",
           "package": "http-client",
@@ -4268,6 +4497,7 @@
         "index": {
           "description": "Number of microseconds to wait for response If Nothing will wait indefinitely Default seconds Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "responseTimeout",
           "package": "http-client",
@@ -4282,6 +4512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP version used by the server.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "responseVersion",
           "package": "http-client",
@@ -4292,6 +4523,7 @@
         "index": {
           "description": "HTTP version used by the server Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "responseVersion",
           "package": "http-client",
@@ -4305,6 +4537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "runResponseClose",
           "package": "http-client",
@@ -4314,6 +4547,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "runResponseClose",
           "normalized": "IO()",
@@ -4330,6 +4564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to use HTTPS (ie, SSL).\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "secure",
           "package": "http-client",
@@ -4340,6 +4575,7 @@
         "index": {
           "description": "Whether to use HTTPS ie SSL Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "secure",
           "package": "http-client",
@@ -4353,6 +4589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidate a \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e, then add it to the request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "setUri",
           "package": "http-client",
@@ -4363,6 +4600,7 @@
         "index": {
           "description": "Validate URI then add it to the request",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "setUri",
           "normalized": "Request-\u003eURI-\u003ea Request",
@@ -4379,6 +4617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e to the request. If it is absolute (includes a host name), add\n it as per \u003ccode\u003e\u003ca\u003esetUri\u003c/a\u003e\u003c/code\u003e; if it is relative, merge it with the existing request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "setUriRelative",
           "package": "http-client",
@@ -4389,6 +4628,7 @@
         "index": {
           "description": "Add URI to the request If it is absolute includes host name add it as per setUri if it is relative merge it with the existing request",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "setUriRelative",
           "normalized": "Request-\u003eURI-\u003ea Request",
@@ -4458,6 +4698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMagic value to be placed in a \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e to indicate that we should use the\n timeout value in the \u003ccode\u003eManager\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.9.3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client.Internal",
           "name": "useDefaultTimeout",
           "package": "http-client",
@@ -4468,6 +4709,7 @@
         "index": {
           "description": "Magic value to be placed in Request to indicate that we should use the timeout value in the Manager Since",
           "hierarchy": "Network HTTP Client Internal",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client.Internal",
           "name": "useDefaultTimeout",
           "package": "http-client",
@@ -4536,6 +4778,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the main entry point for using http-client. Used by itself, this\n module provides low-level access for streaming request and response bodies,\n and only non-secure HTTP connections. Helper packages such as http-conduit\n provided higher level streaming approaches, while other helper packages like\n http-client-tls provide secure connections.\n\u003c/p\u003e\u003cp\u003eThere are three core components to be understood here: requests, responses,\n and managers. A \u003ccode\u003eManager\u003c/code\u003e keeps track of open connections to various hosts,\n and when requested, will provide either an existing open connection or\n create a new connection on demand. A \u003ccode\u003eManager\u003c/code\u003e also automatically reaps\n connections which have been unused for a certain period of time. A \u003ccode\u003eManager\u003c/code\u003e\n allows for more efficient HTTP usage by allowing for keep-alive connections.\n Secure HTTP connections can be allowed by modifying the settings used for\n creating a manager. The simplest way to create a \u003ccode\u003eManager\u003c/code\u003e is with:\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003enewManager\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edefaultManagerSettings\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eor using the \u003ccode\u003ebracket\u003c/code\u003e pattern with\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003ewithManager\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edefaultManagerSettings\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eThe next core component is a \u003ccode\u003eRequest\u003c/code\u003e, which represents a single HTTP\n request to be sent to a specific server. \u003ccode\u003eRequest\u003c/code\u003es allow for many settings\n to control exact how they function, but usually the simplest approach for\n creating a \u003ccode\u003eRequest\u003c/code\u003e is to use \u003ccode\u003e\u003ca\u003eparseUrl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFinally, a \u003ccode\u003eResponse\u003c/code\u003e is the result of sending a single \u003ccode\u003eRequest\u003c/code\u003e to a\n server, over a connection which was acquired from a \u003ccode\u003eManager\u003c/code\u003e. Note that you\n must close the response when you're done with it to ensure that the\n connection is recycled to the \u003ccode\u003eManager\u003c/code\u003e to either be used by another\n request, or to be reaped. Usage of \u003ccode\u003ewithResponse\u003c/code\u003e will ensure that this\n happens automatically.\n\u003c/p\u003e\u003cp\u003eHelper packages may provide replacements for various recommendations listed\n above. For example, if using http-client-tls, instead of using\n \u003ccode\u003e\u003ca\u003edefaultManagerSettings\u003c/a\u003e\u003c/code\u003e, you would want to use \u003ccode\u003etlsManagerSettings\u003c/code\u003e. Be\n sure to read the relevant helper library documentation for more information.\n\u003c/p\u003e\u003cp\u003eA note on exceptions: for the most part, all actions that perform I/O should\n be assumed to throw an \u003ccode\u003eHttpException\u003c/code\u003e in the event of some problem, and all\n pure functions will be total. For example, \u003ccode\u003ewithResponse\u003c/code\u003e, \u003ccode\u003ehttpLbs\u003c/code\u003e, and\n \u003ccode\u003ebrRead\u003c/code\u003e can all throw exceptions. Functions like \u003ccode\u003eresponseStatus\u003c/code\u003e and\n \u003ccode\u003eapplyBasicAuth\u003c/code\u003e are guaranteed to be total (or there's a bug in the\n library).\n\u003c/p\u003e\u003cp\u003eOne thing to be cautioned about: the type of \u003ccode\u003eparseUrl\u003c/code\u003e allows it to work in\n different monads. If used in the \u003ccode\u003eIO\u003c/code\u003e monad, it will throw an exception in\n the case of an invalid URI. In addition, if you leverage the \u003ccode\u003eIsString\u003c/code\u003e\n instance of the \u003ccode\u003eRequest\u003c/code\u003e value via \u003ccode\u003eOverloadedStrings\u003c/code\u003e, an invalid URI will\n result in a partial value. Caveat emptor!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "Client",
           "package": "http-client",
@@ -4545,6 +4788,7 @@
         "index": {
           "description": "This is the main entry point for using http-client Used by itself this module provides low-level access for streaming request and response bodies and only non-secure HTTP connections Helper packages such as http-conduit provided higher level streaming approaches while other helper packages like http-client-tls provide secure connections There are three core components to be understood here requests responses and managers Manager keeps track of open connections to various hosts and when requested will provide either an existing open connection or create new connection on demand Manager also automatically reaps connections which have been unused for certain period of time Manager allows for more efficient HTTP usage by allowing for keep-alive connections Secure HTTP connections can be allowed by modifying the settings used for creating manager The simplest way to create Manager is with newManager defaultManagerSettings or using the bracket pattern with withManager defaultManagerSettings The next core component is Request which represents single HTTP request to be sent to specific server Request allow for many settings to control exact how they function but usually the simplest approach for creating Request is to use parseUrl Finally Response is the result of sending single Request to server over connection which was acquired from Manager Note that you must close the response when you re done with it to ensure that the connection is recycled to the Manager to either be used by another request or to be reaped Usage of withResponse will ensure that this happens automatically Helper packages may provide replacements for various recommendations listed above For example if using http-client-tls instead of using defaultManagerSettings you would want to use tlsManagerSettings Be sure to read the relevant helper library documentation for more information note on exceptions for the most part all actions that perform should be assumed to throw an HttpException in the event of some problem and all pure functions will be total For example withResponse httpLbs and brRead can all throw exceptions Functions like responseStatus and applyBasicAuth are guaranteed to be total or there bug in the library One thing to be cautioned about the type of parseUrl allows it to work in different monads If used in the IO monad it will throw an exception in the case of an invalid URI In addition if you leverage the IsString instance of the Request value via OverloadedStrings an invalid URI will result in partial value Caveat emptor",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "Client",
           "package": "http-client",
@@ -4559,6 +4803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstraction for representing an incoming response body coming from the\n server. Data provided by this abstraction has already been gunzipped and\n de-chunked, and respects any content-length headers present.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "BodyReader",
           "package": "http-client",
@@ -4568,6 +4813,7 @@
         "index": {
           "description": "An abstraction for representing an incoming response body coming from the server Data provided by this abstraction has already been gunzipped and de-chunked and respects any content-length headers present Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "BodyReader",
           "package": "http-client",
@@ -4581,6 +4827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "Cookie",
           "package": "http-client",
@@ -4589,6 +4836,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "Cookie",
           "package": "http-client",
@@ -4602,6 +4850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "CookieJar",
           "package": "http-client",
@@ -4610,6 +4859,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "CookieJar",
           "package": "http-client",
@@ -4624,6 +4874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function which will provide a \u003ccode\u003e\u003ca\u003ePopper\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eNeedsPopper\u003c/a\u003e\u003c/code\u003e. This\n seemingly convoluted structure allows for creation of request bodies which\n allocate scarce resources in an exception safe manner.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "GivesPopper",
           "package": "http-client",
@@ -4633,6 +4884,7 @@
         "index": {
           "description": "function which will provide Popper to NeedsPopper This seemingly convoluted structure allows for creation of request bodies which allocate scarce resources in an exception safe manner Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "GivesPopper",
           "package": "http-client",
@@ -4646,6 +4898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "HttpException",
           "package": "http-client",
@@ -4654,6 +4907,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "HttpException",
           "package": "http-client",
@@ -4668,6 +4922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeeps track of open connections for keep-alive.\n\u003c/p\u003e\u003cp\u003eIf possible, you should share a single \u003ccode\u003e\u003ca\u003eManager\u003c/a\u003e\u003c/code\u003e between multiple threads and requests.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "Manager",
           "package": "http-client",
@@ -4677,6 +4932,7 @@
         "index": {
           "description": "Keeps track of open connections for keep-alive If possible you should share single Manager between multiple threads and requests Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "Manager",
           "package": "http-client",
@@ -4691,6 +4947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSettings for a \u003ccode\u003eManager\u003c/code\u003e. Please use the \u003ccode\u003edefaultManagerSettings\u003c/code\u003e function and then modify\n individual settings. For more information, see \u003ca\u003ehttp://www.yesodweb.com/book/settings-types\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "ManagerSettings",
           "package": "http-client",
@@ -4700,6 +4957,7 @@
         "index": {
           "description": "Settings for Manager Please use the defaultManagerSettings function and then modify individual settings For more information see http www.yesodweb.com book settings-types Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "ManagerSettings",
           "package": "http-client",
@@ -4714,6 +4972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function which must be provided with a \u003ccode\u003e\u003ca\u003ePopper\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "NeedsPopper",
           "package": "http-client",
@@ -4723,6 +4982,7 @@
         "index": {
           "description": "function which must be provided with Popper Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "NeedsPopper",
           "package": "http-client",
@@ -4737,6 +4997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function which generates successive chunks of a request body, provider a\n single empty bytestring when no more data is available.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "Popper",
           "package": "http-client",
@@ -4746,6 +5007,7 @@
         "index": {
           "description": "function which generates successive chunks of request body provider single empty bytestring when no more data is available Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "Popper",
           "package": "http-client",
@@ -4760,6 +5022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a HTTP proxy, consisting of a hostname and port number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "Proxy",
           "package": "http-client",
@@ -4769,6 +5032,7 @@
         "index": {
           "description": "Define HTTP proxy consisting of hostname and port number",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "Proxy",
           "package": "http-client",
@@ -4783,6 +5047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll information on how to connect to a host and what should be sent in the\n HTTP request.\n\u003c/p\u003e\u003cp\u003eIf you simply wish to download from a URL, see \u003ccode\u003eparseUrl\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe constructor for this data type is not exposed. Instead, you should use\n either the \u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e method to retrieve a default instance, or \u003ccode\u003eparseUrl\u003c/code\u003e to\n construct from a URL, and then use the records below to make modifications.\n This approach allows http-client to add configuration options without\n breaking backwards compatibility.\n\u003c/p\u003e\u003cp\u003eFor example, to construct a POST request, you could do something like:\n\u003c/p\u003e\u003cpre\u003e initReq \u003c- parseUrl \"http://www.example.com/path\"\n let req = initReq\n             { method = \"POST\"\n             }\n\u003c/pre\u003e\u003cp\u003eFor more information, please see\n \u003ca\u003ehttp://www.yesodweb.com/book/settings-types\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "Request",
           "package": "http-client",
@@ -4792,6 +5057,7 @@
         "index": {
           "description": "All information on how to connect to host and what should be sent in the HTTP request If you simply wish to download from URL see parseUrl The constructor for this data type is not exposed Instead you should use either the def method to retrieve default instance or parseUrl to construct from URL and then use the records below to make modifications This approach allows http-client to add configuration options without breaking backwards compatibility For example to construct POST request you could do something like initReq parseUrl http www.example.com path let req initReq method POST For more information please see http www.yesodweb.com book settings-types Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "Request",
           "package": "http-client",
@@ -4806,6 +5072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen using one of the \u003ccode\u003e\u003ca\u003eRequestBodyStream\u003c/a\u003e\u003c/code\u003e / \u003ccode\u003e\u003ca\u003eRequestBodyStreamChunked\u003c/a\u003e\u003c/code\u003e\n constructors, you must ensure that the \u003ccode\u003e\u003ca\u003eGivesPopper\u003c/a\u003e\u003c/code\u003e can be called multiple\n times.  Usually this is not a problem.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eRequestBodyStreamChunked\u003c/a\u003e\u003c/code\u003e will send a chunked request body. Note that\n not all servers support this. Only use \u003ccode\u003e\u003ca\u003eRequestBodyStreamChunked\u003c/a\u003e\u003c/code\u003e if you\n know the server you're sending to supports chunked request bodies.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "RequestBody",
           "package": "http-client",
@@ -4815,6 +5082,7 @@
         "index": {
           "description": "When using one of the RequestBodyStream RequestBodyStreamChunked constructors you must ensure that the GivesPopper can be called multiple times Usually this is not problem The RequestBodyStreamChunked will send chunked request body Note that not all servers support this Only use RequestBodyStreamChunked if you know the server you re sending to supports chunked request bodies Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "RequestBody",
           "package": "http-client",
@@ -4829,6 +5097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple representation of the HTTP response.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "Response",
           "package": "http-client",
@@ -4838,6 +5107,7 @@
         "index": {
           "description": "simple representation of the HTTP response Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "Response",
           "package": "http-client",
@@ -4852,6 +5122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a single chunk of data from the response body, or an empty\n bytestring if no more data is available.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "brRead",
           "package": "http-client",
@@ -4862,6 +5133,7 @@
         "index": {
           "description": "Get single chunk of data from the response body or an empty bytestring if no more data is available Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "brRead",
           "normalized": "BodyReader-\u003eIO ByteString",
@@ -4878,6 +5150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck the status code. Note that this will run after all redirects are\n performed. Default: return a \u003ccode\u003eStatusCodeException\u003c/code\u003e on non-2XX responses.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "checkStatus",
           "package": "http-client",
@@ -4888,6 +5161,7 @@
         "index": {
           "description": "Check the status code Note that this will run after all redirects are performed Default return StatusCodeException on non-2XX responses Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "checkStatus",
           "normalized": "Request-\u003eStatus-\u003eResponseHeaders-\u003eCookieJar-\u003eMaybe SomeException",
@@ -4904,6 +5178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA user-defined cookie jar.\n If \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, no cookie handling will take place, \"Cookie\" headers\n in \u003ccode\u003e\u003ca\u003erequestHeaders\u003c/a\u003e\u003c/code\u003e will be sent raw, and \u003ccode\u003e\u003ca\u003eresponseCookieJar\u003c/a\u003e\u003c/code\u003e will be\n empty.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "cookieJar",
           "package": "http-client",
@@ -4914,6 +5189,7 @@
         "index": {
           "description": "user-defined cookie jar If Nothing no cookie handling will take place Cookie headers in requestHeaders will be sent raw and responseCookieJar will be empty Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "cookieJar",
           "normalized": "Request-\u003eMaybe CookieJar",
@@ -4930,6 +5206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate to specify whether gzipped data should be\n decompressed on the fly (see \u003ccode\u003ealwaysDecompress\u003c/code\u003e and\n \u003ccode\u003ebrowserDecompress\u003c/code\u003e). Argument is the mime type.\n Default: browserDecompress.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "decompress",
           "package": "http-client",
@@ -4940,6 +5217,7 @@
         "index": {
           "description": "Predicate to specify whether gzipped data should be decompressed on the fly see alwaysDecompress and browserDecompress Argument is the mime type Default browserDecompress Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "decompress",
           "normalized": "Request-\u003eByteString-\u003eBool",
@@ -4955,6 +5233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequested host name, used for both the IP address to connect to and\n the \u003ccode\u003ehost\u003c/code\u003e request header.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "host",
           "package": "http-client",
@@ -4965,6 +5244,7 @@
         "index": {
           "description": "Requested host name used for both the IP address to connect to and the host request header Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "host",
           "normalized": "Request-\u003eByteString",
@@ -4980,6 +5260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of connections to a single host to keep alive. Default: 10.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "managerConnCount",
           "package": "http-client",
@@ -4990,6 +5271,7 @@
         "index": {
           "description": "Number of connections to single host to keep alive Default Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "managerConnCount",
           "normalized": "ManagerSettings-\u003eInt",
@@ -5006,6 +5288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an insecure connection.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n FIXME in the future, combine managerTlsConnection and managerTlsProxyConnection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "managerRawConnection",
           "package": "http-client",
@@ -5016,6 +5299,7 @@
         "index": {
           "description": "Create an insecure connection Since FIXME in the future combine managerTlsConnection and managerTlsProxyConnection",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "managerRawConnection",
           "normalized": "ManagerSettings-\u003eIO(Maybe HostAddress-\u003eString-\u003eInt-\u003eIO Connection)",
@@ -5032,6 +5316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault timeout (in microseconds) to be applied to requests which do\n not provide a timeout value.\n\u003c/p\u003e\u003cp\u003eDefault is 5 seconds\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "managerResponseTimeout",
           "package": "http-client",
@@ -5042,6 +5327,7 @@
         "index": {
           "description": "Default timeout in microseconds to be applied to requests which do not provide timeout value Default is seconds Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "managerResponseTimeout",
           "normalized": "ManagerSettings-\u003eMaybe Int",
@@ -5058,6 +5344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExceptions for which we should retry our request if we were reusing an\n already open connection. In the case of IOExceptions, for example, we\n assume that the connection was closed on the server and therefore open a\n new one.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "managerRetryableException",
           "package": "http-client",
@@ -5068,6 +5355,7 @@
         "index": {
           "description": "Exceptions for which we should retry our request if we were reusing an already open connection In the case of IOExceptions for example we assume that the connection was closed on the server and therefore open new one Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "managerRetryableException",
           "normalized": "ManagerSettings-\u003eSomeException-\u003eBool",
@@ -5084,6 +5372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a TLS connection. Default behavior: throw an exception that TLS is not supported.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "managerTlsConnection",
           "package": "http-client",
@@ -5094,6 +5383,7 @@
         "index": {
           "description": "Create TLS connection Default behavior throw an exception that TLS is not supported Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "managerTlsConnection",
           "normalized": "ManagerSettings-\u003eIO(Maybe HostAddress-\u003eString-\u003eInt-\u003eIO Connection)",
@@ -5110,6 +5400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction wrapped around all attempted \u003ccode\u003eRequest\u003c/code\u003es, usually used to wrap\n up exceptions in library-specific types.\n\u003c/p\u003e\u003cp\u003eDefault: wrap all \u003ccode\u003eIOException\u003c/code\u003es in the \u003ccode\u003eInternalIOException\u003c/code\u003e constructor.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "managerWrapIOException",
           "package": "http-client",
@@ -5120,6 +5411,7 @@
         "index": {
           "description": "Action wrapped around all attempted Request usually used to wrap up exceptions in library-specific types Default wrap all IOException in the InternalIOException constructor Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "managerWrapIOException",
           "normalized": "ManagerSettings-\u003ea b IO c-\u003eIO c",
@@ -5136,6 +5428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP request method, eg GET, POST.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "method",
           "package": "http-client",
@@ -5146,6 +5439,7 @@
         "index": {
           "description": "HTTP request method eg GET POST Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "method",
           "normalized": "Request-\u003eMethod",
@@ -5161,6 +5455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEverything from the host to the query string.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "path",
           "package": "http-client",
@@ -5171,6 +5466,7 @@
         "index": {
           "description": "Everything from the host to the query string Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "path",
           "normalized": "Request-\u003eByteString",
@@ -5186,6 +5482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe port to connect to. Also used for generating the \u003ccode\u003ehost\u003c/code\u003e request header.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "port",
           "package": "http-client",
@@ -5196,6 +5493,7 @@
         "index": {
           "description": "The port to connect to Also used for generating the host request header Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "port",
           "normalized": "Request-\u003eInt",
@@ -5211,6 +5509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional HTTP proxy.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "proxy",
           "package": "http-client",
@@ -5221,6 +5520,7 @@
         "index": {
           "description": "Optional HTTP proxy Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "proxy",
           "normalized": "Request-\u003eMaybe Proxy",
@@ -5236,6 +5536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery string appended to the path.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "queryString",
           "package": "http-client",
@@ -5246,6 +5547,7 @@
         "index": {
           "description": "Query string appended to the path Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "queryString",
           "normalized": "Request-\u003eByteString",
@@ -5262,6 +5564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow many redirects to follow when getting a resource. 0 means follow\n no redirects. Default value: 10.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "redirectCount",
           "package": "http-client",
@@ -5272,6 +5575,7 @@
         "index": {
           "description": "How many redirects to follow when getting resource means follow no redirects Default value Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "redirectCount",
           "normalized": "Request-\u003eInt",
@@ -5288,6 +5592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest body to be sent to the server.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "requestBody",
           "package": "http-client",
@@ -5298,6 +5603,7 @@
         "index": {
           "description": "Request body to be sent to the server Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "requestBody",
           "normalized": "Request-\u003eRequestBody",
@@ -5314,6 +5620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustom HTTP request headers\n\u003c/p\u003e\u003cp\u003eThe Content-Length and Transfer-Encoding headers are set automatically\n by this module, and shall not be added to \u003ccode\u003erequestHeaders\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf not provided by the user, \u003ccode\u003eHost\u003c/code\u003e will automatically be set based on\n the \u003ccode\u003ehost\u003c/code\u003e and \u003ccode\u003eport\u003c/code\u003e fields.\n\u003c/p\u003e\u003cp\u003eMoreover, the Accept-Encoding header is set implicitly to gzip for\n convenience by default. This behaviour can be overridden if needed, by\n setting the header explicitly to a different value. In order to omit the\n Accept-Header altogether, set it to the empty string \"\". If you need an\n empty Accept-Header (i.e. requesting the identity encoding), set it to a\n non-empty white-space string, e.g. \" \". See RFC 2616 section 14.3 for\n details about the semantics of the Accept-Header field. If you request a\n content-encoding not supported by this module, you will have to decode\n it yourself (see also the \u003ccode\u003e\u003ca\u003edecompress\u003c/a\u003e\u003c/code\u003e field).\n\u003c/p\u003e\u003cp\u003eNote: Multiple header fields with the same field-name will result in\n multiple header fields being sent and therefore it's the responsibility\n of the client code to ensure that the rules from RFC 2616 section 4.2\n are honoured.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "requestHeaders",
           "package": "http-client",
@@ -5324,6 +5631,7 @@
         "index": {
           "description": "Custom HTTP request headers The Content-Length and Transfer-Encoding headers are set automatically by this module and shall not be added to requestHeaders If not provided by the user Host will automatically be set based on the host and port fields Moreover the Accept-Encoding header is set implicitly to gzip for convenience by default This behaviour can be overridden if needed by setting the header explicitly to different value In order to omit the Accept-Header altogether set it to the empty string If you need an empty Accept-Header i.e requesting the identity encoding set it to non-empty white-space string e.g See RFC section for details about the semantics of the Accept-Header field If you request content-encoding not supported by this module you will have to decode it yourself see also the decompress field Note Multiple header fields with the same field-name will result in multiple header fields being sent and therefore it the responsibility of the client code to ensure that the rules from RFC section are honoured Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "requestHeaders",
           "normalized": "Request-\u003eRequestHeaders",
@@ -5340,6 +5648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponse body sent by the server.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "responseBody",
           "package": "http-client",
@@ -5350,6 +5659,7 @@
         "index": {
           "description": "Response body sent by the server Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "responseBody",
           "normalized": "Response a-\u003ea",
@@ -5366,6 +5676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCookies set on the client after interacting with the server. If\n cookies have been disabled by setting \u003ccode\u003e\u003ca\u003ecookieJar\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003eNothing\u003c/code\u003e, then\n this will always be empty.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "responseCookieJar",
           "package": "http-client",
@@ -5376,6 +5687,7 @@
         "index": {
           "description": "Cookies set on the client after interacting with the server If cookies have been disabled by setting cookieJar to Nothing then this will always be empty Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "responseCookieJar",
           "normalized": "Response a-\u003eCookieJar",
@@ -5392,6 +5704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponse headers sent by the server.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "responseHeaders",
           "package": "http-client",
@@ -5402,6 +5715,7 @@
         "index": {
           "description": "Response headers sent by the server Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "responseHeaders",
           "normalized": "Response a-\u003eResponseHeaders",
@@ -5418,6 +5732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus code of the response.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "responseStatus",
           "package": "http-client",
@@ -5428,6 +5743,7 @@
         "index": {
           "description": "Status code of the response Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "responseStatus",
           "normalized": "Response a-\u003eStatus",
@@ -5444,6 +5760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of microseconds to wait for a response. If \u003ccode\u003eNothing\u003c/code\u003e, will wait\n indefinitely. Default: 5 seconds.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "responseTimeout",
           "package": "http-client",
@@ -5454,6 +5771,7 @@
         "index": {
           "description": "Number of microseconds to wait for response If Nothing will wait indefinitely Default seconds Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "responseTimeout",
           "normalized": "Request-\u003eMaybe Int",
@@ -5470,6 +5788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP version used by the server.\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "responseVersion",
           "package": "http-client",
@@ -5480,6 +5799,7 @@
         "index": {
           "description": "HTTP version used by the server Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "responseVersion",
           "normalized": "Response a-\u003eHttpVersion",
@@ -5496,6 +5816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to use HTTPS (ie, SSL).\n\u003c/p\u003e\u003cp\u003eSince 0.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:11 UTC 2014",
           "module": "Network.HTTP.Client",
           "name": "secure",
           "package": "http-client",
@@ -5506,6 +5827,7 @@
         "index": {
           "description": "Whether to use HTTPS ie SSL Since",
           "hierarchy": "Network HTTP Client",
+          "indexed": "2014-03-11T18:52:11",
           "module": "Network.HTTP.Client",
           "name": "secure",
           "normalized": "Request-\u003eBool",

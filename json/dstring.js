@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dstring"
+        "phrase": "dstring",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDifference strings: a data structure for O(1) append on strings. Note that a\n \u003ccode\u003e\u003ca\u003eDString\u003c/a\u003e\u003c/code\u003e is just a newtype wrapper around a \u003ccode\u003e\u003ca\u003eDList\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e. The reason we\n need a new type instead of just a type synonym is that we can have an\n \u003ccode\u003einstance \u003ccode\u003e\u003ca\u003eIsString\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eDString\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e without using language extensions\n (\u003ccode\u003eTypeSynonymInstances\u003c/code\u003e or \u003ccode\u003eFlexibleInstances\u003c/code\u003e) so we can write overloaded\n string literals of type \u003ccode\u003e\u003ca\u003eDString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:59:16 UTC 2014",
           "module": "Data.DString",
           "name": "DString",
           "package": "dstring",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Difference strings data structure for append on strings Note that DString is just newtype wrapper around DList Char The reason we need new type instead of just type synonym is that we can have an instance IsString DString without using language extensions TypeSynonymInstances or FlexibleInstances so we can write overloaded string literals of type DString",
           "hierarchy": "Data DString",
+          "indexed": "2014-03-11T17:59:16",
           "module": "Data.DString",
           "name": "DString",
           "package": "dstring",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA difference string is a function that given a string, returns the original\n contents of the difference string prepended at the given string.\n\u003c/p\u003e\u003cp\u003eThis structure supports O(1) \u003ccode\u003emappend\u003c/code\u003e en \u003ccode\u003esnoc\u003c/code\u003e operations on strings making\n it very usefull for append-heavy uses such as logging and pretty printing.\n\u003c/p\u003e\u003cp\u003eYou can use it to efficiently show a tree for example: (Note that we use some\n handy functions from the \u003ccode\u003estring-combinators\u003c/code\u003e package)\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n\n import Data.DString (toShowS, fromShowS)\n import Data.String.Combinators ((\u003c+\u003e), parens, thenParens)\n\n data Tree a = Leaf a | Branch (Tree a) (Tree a)\n\n instance Show a =\u003e Show (Tree a) where\n     showsPrec prec t = toShowS $ (prec \u003e= funAppPrec) `thenParens` go t\n         where\n           go (Leaf x)     = \"Leaf\" \u003c+\u003e fromShowS (showsPrec funAppPrec x)\n           go (Branch l r) = \"Branch\" \u003c+\u003e parens (go l) \u003c+\u003e parens (go r)\n\n           funAppPrec = 10\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:59:16 UTC 2014",
           "module": "Data.DString",
           "name": "DString",
           "package": "dstring",
@@ -51,6 +54,7 @@
         "index": {
           "description": "difference string is function that given string returns the original contents of the difference string prepended at the given string This structure supports mappend en snoc operations on strings making it very usefull for append-heavy uses such as logging and pretty printing You can use it to efficiently show tree for example Note that we use some handy functions from the string-combinators package LANGUAGE OverloadedStrings import Data.DString toShowS fromShowS import Data.String.Combinators parens thenParens data Tree Leaf Branch Tree Tree instance Show Show Tree where showsPrec prec toShowS prec funAppPrec thenParens go where go Leaf Leaf fromShowS showsPrec funAppPrec go Branch Branch parens go parens go funAppPrec",
           "hierarchy": "Data DString",
+          "indexed": "2014-03-11T17:59:16",
           "module": "Data.DString",
           "name": "DString",
           "package": "dstring",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(spine)\u003c/em\u003e, Concatenate difference strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:16 UTC 2014",
           "module": "Data.DString",
           "name": "concat",
           "package": "dstring",
@@ -75,6 +80,7 @@
         "index": {
           "description": "spine Concatenate difference strings",
           "hierarchy": "Data DString",
+          "indexed": "2014-03-11T17:59:16",
           "module": "Data.DString",
           "name": "concat",
           "normalized": "[DString]-\u003eDString",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e, Prepend a Char to a difference string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:16 UTC 2014",
           "module": "Data.DString",
           "name": "cons",
           "package": "dstring",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Prepend Char to difference string",
           "hierarchy": "Data DString",
+          "indexed": "2014-03-11T17:59:16",
           "module": "Data.DString",
           "name": "cons",
           "normalized": "Char-\u003eDString-\u003eDString",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFoldr over difference strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:16 UTC 2014",
           "module": "Data.DString",
           "name": "foldr",
           "package": "dstring",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Foldr over difference strings",
           "hierarchy": "Data DString",
+          "indexed": "2014-03-11T17:59:16",
           "module": "Data.DString",
           "name": "foldr",
           "normalized": "(Char-\u003ea-\u003ea)-\u003ea-\u003eDString-\u003ea",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) Convert a difference list of \u003ccode\u003eChar\u003c/code\u003es to a difference string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:16 UTC 2014",
           "module": "Data.DString",
           "name": "fromDList",
           "package": "dstring",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Convert difference list of Char to difference string",
           "hierarchy": "Data DString",
+          "indexed": "2014-03-11T17:59:16",
           "module": "Data.DString",
           "name": "fromDList",
           "normalized": "DList Char-\u003eDString",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) Convert a \u003ccode\u003eShowS\u003c/code\u003e to a difference string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:16 UTC 2014",
           "module": "Data.DString",
           "name": "fromShowS",
           "package": "dstring",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Convert ShowS to difference string",
           "hierarchy": "Data DString",
+          "indexed": "2014-03-11T17:59:16",
           "module": "Data.DString",
           "name": "fromShowS",
           "normalized": "ShowS-\u003eDString",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the head of the difference string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:16 UTC 2014",
           "module": "Data.DString",
           "name": "head",
           "package": "dstring",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Return the head of the difference string",
           "hierarchy": "Data DString",
+          "indexed": "2014-03-11T17:59:16",
           "module": "Data.DString",
           "name": "head",
           "normalized": "DString-\u003eChar",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(length ds)\u003c/em\u003e, difference list elimination, head, tail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:16 UTC 2014",
           "module": "Data.DString",
           "name": "list",
           "package": "dstring",
@@ -227,6 +244,7 @@
         "index": {
           "description": "length ds difference list elimination head tail",
           "hierarchy": "Data DString",
+          "indexed": "2014-03-11T17:59:16",
           "module": "Data.DString",
           "name": "list",
           "normalized": "a-\u003e(Char-\u003eDString-\u003ea)-\u003eDString-\u003ea",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) Build a difference string from a single \u003ccode\u003eChar\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:16 UTC 2014",
           "module": "Data.DString",
           "name": "singleton",
           "package": "dstring",
@@ -252,6 +271,7 @@
         "index": {
           "description": "Build difference string from single Char",
           "hierarchy": "Data DString",
+          "indexed": "2014-03-11T17:59:16",
           "module": "Data.DString",
           "name": "singleton",
           "normalized": "Char-\u003eDString",
@@ -267,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e, Append a \u003ccode\u003eChar\u003c/code\u003e to a difference string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:16 UTC 2014",
           "module": "Data.DString",
           "name": "snoc",
           "package": "dstring",
@@ -277,6 +298,7 @@
         "index": {
           "description": "Append Char to difference string",
           "hierarchy": "Data DString",
+          "indexed": "2014-03-11T17:59:16",
           "module": "Data.DString",
           "name": "snoc",
           "normalized": "DString-\u003eChar-\u003eDString",
@@ -292,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the tail of the difference string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:16 UTC 2014",
           "module": "Data.DString",
           "name": "tail",
           "package": "dstring",
@@ -302,6 +325,7 @@
         "index": {
           "description": "Return the tail of the difference string",
           "hierarchy": "Data DString",
+          "indexed": "2014-03-11T17:59:16",
           "module": "Data.DString",
           "name": "tail",
           "normalized": "DString-\u003eDString",
@@ -317,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) Convert a difference string to a difference list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:16 UTC 2014",
           "module": "Data.DString",
           "name": "toDList",
           "package": "dstring",
@@ -327,6 +352,7 @@
         "index": {
           "description": "Convert difference string to difference list",
           "hierarchy": "Data DString",
+          "indexed": "2014-03-11T17:59:16",
           "module": "Data.DString",
           "name": "toDList",
           "normalized": "DString-\u003eDList Char",
@@ -343,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1) Convert a difference string to a \u003ccode\u003eShowS\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:16 UTC 2014",
           "module": "Data.DString",
           "name": "toShowS",
           "package": "dstring",
@@ -353,6 +380,7 @@
         "index": {
           "description": "Convert difference string to ShowS",
           "hierarchy": "Data DString",
+          "indexed": "2014-03-11T17:59:16",
           "module": "Data.DString",
           "name": "toShowS",
           "normalized": "DString-\u003eShowS",
@@ -369,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n) Convert a difference string to a normal string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:16 UTC 2014",
           "module": "Data.DString",
           "name": "toString",
           "package": "dstring",
@@ -379,6 +408,7 @@
         "index": {
           "description": "Convert difference string to normal string",
           "hierarchy": "Data DString",
+          "indexed": "2014-03-11T17:59:16",
           "module": "Data.DString",
           "name": "toString",
           "normalized": "DString-\u003eString",
@@ -395,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfoldr for difference strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:16 UTC 2014",
           "module": "Data.DString",
           "name": "unfoldr",
           "package": "dstring",
@@ -405,6 +436,7 @@
         "index": {
           "description": "Unfoldr for difference strings",
           "hierarchy": "Data DString",
+          "indexed": "2014-03-11T17:59:16",
           "module": "Data.DString",
           "name": "unfoldr",
           "normalized": "(a-\u003eMaybe(Char,a))-\u003ea-\u003eDString",

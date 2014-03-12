@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BiobaseTrainingData"
+        "phrase": "BiobaseTrainingData",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProspective \u003ccode\u003e\u003ca\u003eTrainingData\u003c/a\u003e\u003c/code\u003e elements need to be filtered as there are a\n number of entries which do not provide good training.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:32 UTC 2014",
           "module": "Biobase.TrainingData.Filter",
           "name": "Filter",
           "package": "BiobaseTrainingData",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Prospective TrainingData elements need to be filtered as there are number of entries which do not provide good training",
           "hierarchy": "Biobase TrainingData Filter",
+          "indexed": "2014-03-11T16:34:32",
           "module": "Biobase.TrainingData.Filter",
           "name": "Filter",
           "package": "BiobaseTrainingData",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError-checking filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:32 UTC 2014",
           "module": "Biobase.TrainingData.Filter",
           "name": "fErrorCheck",
           "package": "BiobaseTrainingData",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Error-checking filter",
           "hierarchy": "Biobase TrainingData Filter",
+          "indexed": "2014-03-11T16:34:32",
           "module": "Biobase.TrainingData.Filter",
           "name": "fErrorCheck",
           "normalized": "TDmanip-\u003eTDmanip",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter out elements containing not enough base pairs (in relative terms)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:32 UTC 2014",
           "module": "Biobase.TrainingData.Filter",
           "name": "fMinRelPairs",
           "package": "BiobaseTrainingData",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Filter out elements containing not enough base pairs in relative terms",
           "hierarchy": "Biobase TrainingData Filter",
+          "indexed": "2014-03-11T16:34:32",
           "module": "Biobase.TrainingData.Filter",
           "name": "fMinRelPairs",
           "normalized": "Maybe Double-\u003eTDmanip-\u003eTDmanip",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFancy importer for TrainingData.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:32 UTC 2014",
           "module": "Biobase.TrainingData.Import",
           "name": "Import",
           "package": "BiobaseTrainingData",
@@ -103,6 +110,7 @@
         "index": {
           "description": "Fancy importer for TrainingData",
           "hierarchy": "Biobase TrainingData Import",
+          "indexed": "2014-03-11T16:34:32",
           "module": "Biobase.TrainingData.Import",
           "name": "Import",
           "package": "BiobaseTrainingData",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeratee producing \u003ccode\u003e\u003ca\u003eTrainingData\u003c/a\u003e\u003c/code\u003e from a bytestring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:32 UTC 2014",
           "module": "Biobase.TrainingData.Import",
           "name": "eneeTrainingData",
           "package": "BiobaseTrainingData",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Enumeratee producing TrainingData from bytestring",
           "hierarchy": "Biobase TrainingData Import",
+          "indexed": "2014-03-11T16:34:32",
           "module": "Biobase.TrainingData.Import",
           "name": "eneeTrainingData",
           "normalized": "Enumeratee ByteString[TrainingData]a b",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:32 UTC 2014",
           "module": "Biobase.TrainingData.Import",
           "name": "fromFile",
           "package": "BiobaseTrainingData",
@@ -153,6 +164,7 @@
         "index": {
           "description": "Convenience function",
           "hierarchy": "Biobase TrainingData Import",
+          "indexed": "2014-03-11T16:34:32",
           "module": "Biobase.TrainingData.Import",
           "name": "fromFile",
           "normalized": "FilePath-\u003eIO[TrainingData]",
@@ -168,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:32 UTC 2014",
           "module": "Biobase.TrainingData.Manip",
           "name": "Manip",
           "package": "BiobaseTrainingData",
@@ -176,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Biobase TrainingData Manip",
+          "indexed": "2014-03-11T16:34:32",
           "module": "Biobase.TrainingData.Manip",
           "name": "Manip",
           "package": "BiobaseTrainingData",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft elements are filtered out, Right elements are kept.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:32 UTC 2014",
           "module": "Biobase.TrainingData.Manip",
           "name": "TDmanip",
           "package": "BiobaseTrainingData",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Left elements are filtered out Right elements are kept",
           "hierarchy": "Biobase TrainingData Manip",
+          "indexed": "2014-03-11T16:34:32",
           "module": "Biobase.TrainingData.Manip",
           "name": "TDmanip",
           "package": "BiobaseTrainingData",
@@ -212,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:32 UTC 2014",
           "module": "Biobase.TrainingData",
           "name": "TrainingData",
           "package": "BiobaseTrainingData",
@@ -220,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Biobase TrainingData",
+          "indexed": "2014-03-11T16:34:32",
           "module": "Biobase.TrainingData",
           "name": "TrainingData",
           "package": "BiobaseTrainingData",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate \u003ccode\u003e\u003ca\u003eTrainingData\u003c/a\u003e\u003c/code\u003e from various sources.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:32 UTC 2014",
           "module": "Biobase.TrainingData",
           "name": "MkTrainingData",
           "package": "BiobaseTrainingData",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Create TrainingData from various sources",
           "hierarchy": "Biobase TrainingData",
+          "indexed": "2014-03-11T16:34:32",
           "module": "Biobase.TrainingData",
           "name": "MkTrainingData",
           "package": "BiobaseTrainingData",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne training data element. We can store sequence and known structure\n (primary, secondary) as well as a predicted structure (stored, if\n \u003ca\u003enot.null\u003c/a\u003e). The \u003ccode\u003e\u003ca\u003eweight\u003c/a\u003e\u003c/code\u003e is how strongly this element should influence a\n training system. \u003ccode\u003e\u003ca\u003eextendedKnowledge\u003c/a\u003e\u003c/code\u003e is True, if the data element comes from\n a source which knows about extended secondary structures, like the PDB.\n Otherwise it is False.\n\u003c/p\u003e\u003cp\u003eNOTE During training, one should not penalize non-canonical predictions in\n interior loops and multibranch loops, unless they hinder formation of true\n pairs.\n\u003c/p\u003e\u003cp\u003eTODO at some point we will move toward pseudoknots and other fun\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:32 UTC 2014",
           "module": "Biobase.TrainingData",
           "name": "TrainingData",
           "package": "BiobaseTrainingData",
@@ -266,6 +287,7 @@
         "index": {
           "description": "One training data element We can store sequence and known structure primary secondary as well as predicted structure stored if not.null The weight is how strongly this element should influence training system extendedKnowledge is True if the data element comes from source which knows about extended secondary structures like the PDB Otherwise it is False NOTE During training one should not penalize non-canonical predictions in interior loops and multibranch loops unless they hinder formation of true pairs TODO at some point we will move toward pseudoknots and other fun",
           "hierarchy": "Biobase TrainingData",
+          "indexed": "2014-03-11T16:34:32",
           "module": "Biobase.TrainingData",
           "name": "TrainingData",
           "package": "BiobaseTrainingData",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:32 UTC 2014",
           "module": "Biobase.TrainingData",
           "name": "TrainingData",
           "package": "BiobaseTrainingData",
@@ -288,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Biobase TrainingData",
+          "indexed": "2014-03-11T16:34:32",
           "module": "Biobase.TrainingData",
           "name": "TrainingData",
           "package": "BiobaseTrainingData",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:32 UTC 2014",
           "module": "Biobase.TrainingData",
           "name": "comments",
           "package": "BiobaseTrainingData",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Biobase TrainingData",
+          "indexed": "2014-03-11T16:34:32",
           "module": "Biobase.TrainingData",
           "name": "comments",
           "normalized": "[String]",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:32 UTC 2014",
           "module": "Biobase.TrainingData",
           "name": "extendedKnowledge",
           "package": "BiobaseTrainingData",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Biobase TrainingData",
+          "indexed": "2014-03-11T16:34:32",
           "module": "Biobase.TrainingData",
           "name": "extendedKnowledge",
           "package": "BiobaseTrainingData",
@@ -346,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:32 UTC 2014",
           "module": "Biobase.TrainingData",
           "name": "mkTrainingData",
           "package": "BiobaseTrainingData",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Biobase TrainingData",
+          "indexed": "2014-03-11T16:34:32",
           "module": "Biobase.TrainingData",
           "name": "mkTrainingData",
           "normalized": "a-\u003eTrainingData",
@@ -370,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:32 UTC 2014",
           "module": "Biobase.TrainingData",
           "name": "predicted",
           "package": "BiobaseTrainingData",
@@ -379,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Biobase TrainingData",
+          "indexed": "2014-03-11T16:34:32",
           "module": "Biobase.TrainingData",
           "name": "predicted",
           "normalized": "[ExtPairIdx]",
@@ -393,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:32 UTC 2014",
           "module": "Biobase.TrainingData",
           "name": "primary",
           "package": "BiobaseTrainingData",
@@ -402,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Biobase TrainingData",
+          "indexed": "2014-03-11T16:34:32",
           "module": "Biobase.TrainingData",
           "name": "primary",
           "package": "BiobaseTrainingData",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:32 UTC 2014",
           "module": "Biobase.TrainingData",
           "name": "secondary",
           "package": "BiobaseTrainingData",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Biobase TrainingData",
+          "indexed": "2014-03-11T16:34:32",
           "module": "Biobase.TrainingData",
           "name": "secondary",
           "normalized": "[ExtPairIdx]",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:32 UTC 2014",
           "module": "Biobase.TrainingData",
           "name": "weight",
           "package": "BiobaseTrainingData",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Biobase TrainingData",
+          "indexed": "2014-03-11T16:34:32",
           "module": "Biobase.TrainingData",
           "name": "weight",
           "package": "BiobaseTrainingData",

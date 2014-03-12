@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "timberc"
+        "phrase": "timberc",
+        "type": "phrase"
       },
       "type": "context"
     }

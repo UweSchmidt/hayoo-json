@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-xmpp"
+        "phrase": "haskell-xmpp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBase64 encoding and decoding functions provided by Warwick Gray. \n See \u003ca\u003ehttp://homepages.paradise.net.nz/warrickg/haskell/http/#base64\u003c/a\u003e \n and \u003ca\u003ehttp://www.faqs.org/rfcs/rfc2045.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Base64",
           "name": "Base64",
           "package": "haskell-xmpp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Base64 encoding and decoding functions provided by Warwick Gray See http homepages.paradise.net.nz warrickg haskell http base64 and http www.faqs.org rfcs rfc2045.html",
           "hierarchy": "Network XMPP Base64",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Base64",
           "name": "Base64",
           "package": "haskell-xmpp",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCut up a string into 72 char lines, each line terminated by CRLF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Base64",
           "name": "chop72",
           "package": "haskell-xmpp",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Cut up string into char lines each line terminated by CRLF",
           "hierarchy": "Network XMPP Base64",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Base64",
           "name": "chop72",
           "normalized": "String-\u003eString",
@@ -66,6 +70,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Base64",
           "name": "decode",
           "package": "haskell-xmpp",
@@ -75,6 +80,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Base64",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Base64",
           "name": "decode",
           "normalized": "String-\u003eString",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Base64",
           "name": "encode",
           "package": "haskell-xmpp",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Base64",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Base64",
           "name": "encode",
           "normalized": "String-\u003eString",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConcurrent actions over single IO channel\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Concurrent",
           "name": "Concurrent",
           "package": "haskell-xmpp",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Concurrent actions over single IO channel",
           "hierarchy": "Network XMPP Concurrent",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Concurrent",
           "name": "Concurrent",
           "package": "haskell-xmpp",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Concurrent",
           "name": "Thread",
           "package": "haskell-xmpp",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Concurrent",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Concurrent",
           "name": "Thread",
           "package": "haskell-xmpp",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Concurrent",
           "name": "XmppThreadT",
           "package": "haskell-xmpp",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Concurrent",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Concurrent",
           "name": "XmppThreadT",
           "package": "haskell-xmpp",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns action into infinite loop\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Concurrent",
           "name": "loop",
           "package": "haskell-xmpp",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Turns action into infinite loop",
           "hierarchy": "Network XMPP Concurrent",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Concurrent",
           "name": "loop",
           "normalized": "XmppThreadT()-\u003eXmppThreadT()",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Concurrent",
           "name": "readChanS",
           "package": "haskell-xmpp",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Concurrent",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Concurrent",
           "name": "readChanS",
           "package": "haskell-xmpp",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns thread in XmppState monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Concurrent",
           "name": "runThreaded",
           "package": "haskell-xmpp",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Runs thread in XmppState monad",
           "hierarchy": "Network XMPP Concurrent",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Concurrent",
           "name": "runThreaded",
           "normalized": "XmppThreadT()-\u003eXmppStateT()",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Concurrent",
           "name": "waitFor",
           "package": "haskell-xmpp",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Concurrent",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Concurrent",
           "name": "waitFor",
           "normalized": "(Stanza-\u003eBool)-\u003eXmppThreadT Stanza",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns specified action in parallel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Concurrent",
           "name": "withNewThread",
           "package": "haskell-xmpp",
@@ -285,6 +308,7 @@
         "index": {
           "description": "Runs specified action in parallel",
           "hierarchy": "Network XMPP Concurrent",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Concurrent",
           "name": "withNewThread",
           "normalized": "XmppThreadT()-\u003eXmppThreadT ThreadId",
@@ -300,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Concurrent",
           "name": "writeChanS",
           "package": "haskell-xmpp",
@@ -309,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Concurrent",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Concurrent",
           "name": "writeChanS",
           "normalized": "Stanza-\u003eXmppThreadT()",
@@ -325,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation of XMPP Core Protocol (RFC 3920)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Core",
           "name": "Core",
           "package": "haskell-xmpp",
@@ -334,6 +361,7 @@
         "index": {
           "description": "Implementation of XMPP Core Protocol RFC",
           "hierarchy": "Network XMPP Core",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Core",
           "name": "Core",
           "package": "haskell-xmpp",
@@ -348,6 +376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen connection to specified server and return \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e coming from it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Core",
           "name": "initiateStream",
           "package": "haskell-xmpp",
@@ -357,6 +386,7 @@
         "index": {
           "description": "Open connection to specified server and return Stream coming from it",
           "hierarchy": "Network XMPP Core",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Core",
           "name": "initiateStream",
           "normalized": "Handle-\u003eString-\u003eString-\u003eString-\u003eString-\u003eXmppStateT(JID,Stream)",
@@ -373,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious \u003ca\u003econnection helpers\u003c/a\u003e that let user obtain a handle to pass to \u003ccode\u003einitiateStream\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Helpers",
           "name": "Helpers",
           "package": "haskell-xmpp",
@@ -382,6 +413,7 @@
         "index": {
           "description": "Various connection helpers that let user obtain handle to pass to initiateStream",
           "hierarchy": "Network XMPP Helpers",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Helpers",
           "name": "Helpers",
           "package": "haskell-xmpp",
@@ -396,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to XMPP server on specified host / port\n  via HTTP 1.0 proxy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Helpers",
           "name": "connectViaHttpProxy",
           "package": "haskell-xmpp",
@@ -406,6 +439,7 @@
         "index": {
           "description": "Connect to XMPP server on specified host port via HTTP proxy",
           "hierarchy": "Network XMPP Helpers",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Helpers",
           "name": "connectViaHttpProxy",
           "normalized": "HostName-\u003ea-\u003e[Char]-\u003ea-\u003eIO Handle",
@@ -422,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to XMPP server on specified host / port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Helpers",
           "name": "connectViaTcp",
           "package": "haskell-xmpp",
@@ -431,6 +466,7 @@
         "index": {
           "description": "Connect to XMPP server on specified host port",
           "hierarchy": "Network XMPP Helpers",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Helpers",
           "name": "connectViaTcp",
           "normalized": "String-\u003eInt-\u003eIO Handle",
@@ -447,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen file with pre-captured server-to-client XMPP stream. For debugging\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Helpers",
           "name": "openStreamFile",
           "package": "haskell-xmpp",
@@ -457,6 +494,7 @@
         "index": {
           "description": "Open file with pre-captured server-to-client XMPP stream For debugging",
           "hierarchy": "Network XMPP Helpers",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Helpers",
           "name": "openStreamFile",
           "normalized": "FilePath-\u003eIO Handle",
@@ -473,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eXMPP presence utilities\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.IM.Presence",
           "name": "Presence",
           "package": "haskell-xmpp",
@@ -482,6 +521,7 @@
         "index": {
           "description": "XMPP presence utilities",
           "hierarchy": "Network XMPP IM Presence",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.IM.Presence",
           "name": "Presence",
           "package": "haskell-xmpp",
@@ -496,6 +536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault presence, should be sent at first\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.IM.Presence",
           "name": "presAvailable",
           "package": "haskell-xmpp",
@@ -505,6 +546,7 @@
         "index": {
           "description": "Default presence should be sent at first",
           "hierarchy": "Network XMPP IM Presence",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.IM.Presence",
           "name": "presAvailable",
           "normalized": "String-\u003eStanza",
@@ -520,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.IM.Presence",
           "name": "presAway",
           "package": "haskell-xmpp",
@@ -529,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP IM Presence",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.IM.Presence",
           "name": "presAway",
           "normalized": "String-\u003eStanza",
@@ -544,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.IM.Presence",
           "name": "presChat",
           "package": "haskell-xmpp",
@@ -553,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP IM Presence",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.IM.Presence",
           "name": "presChat",
           "normalized": "String-\u003eStanza",
@@ -568,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.IM.Presence",
           "name": "presDND",
           "package": "haskell-xmpp",
@@ -577,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP IM Presence",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.IM.Presence",
           "name": "presDND",
           "normalized": "String-\u003eStanza",
@@ -593,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould be sent at last\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.IM.Presence",
           "name": "presUnavailable",
           "package": "haskell-xmpp",
@@ -603,6 +652,7 @@
         "index": {
           "description": "Should be sent at last",
           "hierarchy": "Network XMPP IM Presence",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.IM.Presence",
           "name": "presUnavailable",
           "normalized": "String-\u003eStanza",
@@ -618,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.IM.Presence",
           "name": "presXa",
           "package": "haskell-xmpp",
@@ -627,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP IM Presence",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.IM.Presence",
           "name": "presXa",
           "normalized": "String-\u003eStanza",
@@ -643,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eXMPP IQ utilites\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.IQ",
           "name": "IQ",
           "package": "haskell-xmpp",
@@ -652,6 +705,7 @@
         "index": {
           "description": "XMPP IQ utilites",
           "hierarchy": "Network XMPP IQ",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.IQ",
           "name": "IQ",
           "package": "haskell-xmpp",
@@ -665,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.IQ",
           "name": "iqReplyTo",
           "package": "haskell-xmpp",
@@ -673,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP IQ",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.IQ",
           "name": "iqReplyTo",
           "normalized": "(Stanza-\u003eBool)-\u003e(Stanza-\u003e[CFilter Posn])-\u003eXmppThreadT()",
@@ -689,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend IQ of specified type with supplied data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.IQ",
           "name": "iqSend",
           "package": "haskell-xmpp",
@@ -698,6 +755,7 @@
         "index": {
           "description": "Send IQ of specified type with supplied data",
           "hierarchy": "Network XMPP IQ",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.IQ",
           "name": "iqSend",
           "normalized": "String-\u003eIQType-\u003e[CFilter Posn]-\u003eXmppStateT()",
@@ -714,6 +772,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eJID datatype and functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.JID",
           "name": "JID",
           "package": "haskell-xmpp",
@@ -723,6 +782,7 @@
         "index": {
           "description": "JID datatype and functions",
           "hierarchy": "Network XMPP JID",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.JID",
           "name": "JID",
           "package": "haskell-xmpp",
@@ -737,6 +797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJabber ID (JID) datatype\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.JID",
           "name": "JID",
           "package": "haskell-xmpp",
@@ -746,6 +807,7 @@
         "index": {
           "description": "Jabber ID JID datatype",
           "hierarchy": "Network XMPP JID",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.JID",
           "name": "JID",
           "package": "haskell-xmpp",
@@ -759,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.JID",
           "name": "JID",
           "package": "haskell-xmpp",
@@ -768,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP JID",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.JID",
           "name": "JID",
           "package": "haskell-xmpp",
@@ -782,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccount name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.JID",
           "name": "name",
           "package": "haskell-xmpp",
@@ -792,6 +857,7 @@
         "index": {
           "description": "Account name",
           "hierarchy": "Network XMPP JID",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.JID",
           "name": "name",
           "package": "haskell-xmpp",
@@ -805,6 +871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResource name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.JID",
           "name": "resource",
           "package": "haskell-xmpp",
@@ -815,6 +882,7 @@
         "index": {
           "description": "Resource name",
           "hierarchy": "Network XMPP JID",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.JID",
           "name": "resource",
           "package": "haskell-xmpp",
@@ -828,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer adress\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.JID",
           "name": "server",
           "package": "haskell-xmpp",
@@ -838,6 +907,7 @@
         "index": {
           "description": "Server adress",
           "hierarchy": "Network XMPP JID",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.JID",
           "name": "server",
           "package": "haskell-xmpp",
@@ -851,6 +921,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTakes the MD5 module supplied by Ian Lynagh and strips it a bit to reduce \n number of imports\n See \u003ca\u003ehttp://web.comlab.ox.ac.uk/oucl/work/ian.lynagh/\u003c/a\u003e\n and \u003ca\u003ehttp://www.ietf.org/rfc/rfc1321.txt\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.MD5",
           "name": "MD5",
           "package": "haskell-xmpp",
@@ -860,6 +931,7 @@
         "index": {
           "description": "Takes the MD5 module supplied by Ian Lynagh and strips it bit to reduce number of imports See http web.comlab.ox.ac.uk oucl work ian.lynagh and http www.ietf.org rfc rfc1321.txt",
           "hierarchy": "Network XMPP MD5",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.MD5",
           "name": "MD5",
           "package": "haskell-xmpp",
@@ -873,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.MD5",
           "name": "ABCD",
           "package": "haskell-xmpp",
@@ -881,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MD5",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.MD5",
           "name": "ABCD",
           "package": "haskell-xmpp",
@@ -894,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.MD5",
           "name": "BoolList",
           "package": "haskell-xmpp",
@@ -902,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MD5",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.MD5",
           "name": "BoolList",
           "package": "haskell-xmpp",
@@ -915,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.MD5",
           "name": "MD5",
           "package": "haskell-xmpp",
@@ -923,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MD5",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.MD5",
           "name": "MD5",
           "package": "haskell-xmpp",
@@ -936,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.MD5",
           "name": "Str",
           "package": "haskell-xmpp",
@@ -944,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MD5",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.MD5",
           "name": "Str",
           "package": "haskell-xmpp",
@@ -957,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.MD5",
           "name": "WordList",
           "package": "haskell-xmpp",
@@ -965,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MD5",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.MD5",
           "name": "WordList",
           "package": "haskell-xmpp",
@@ -978,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.MD5",
           "name": "Zord64",
           "package": "haskell-xmpp",
@@ -986,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MD5",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.MD5",
           "name": "Zord64",
           "package": "haskell-xmpp",
@@ -999,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.MD5",
           "name": "ABCD",
           "package": "haskell-xmpp",
@@ -1008,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MD5",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.MD5",
           "name": "ABCD",
           "normalized": "ABCD(Word,Word,Word,Word)",
@@ -1023,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.MD5",
           "name": "BoolList",
           "package": "haskell-xmpp",
@@ -1032,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MD5",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.MD5",
           "name": "BoolList",
           "normalized": "BoolList[Bool]",
@@ -1047,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.MD5",
           "name": "Str",
           "package": "haskell-xmpp",
@@ -1056,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MD5",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.MD5",
           "name": "Str",
           "package": "haskell-xmpp",
@@ -1069,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.MD5",
           "name": "WordList",
           "package": "haskell-xmpp",
@@ -1078,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MD5",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.MD5",
           "name": "WordList",
           "normalized": "WordList([Word],Zord)",
@@ -1093,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.MD5",
           "name": "finished",
           "package": "haskell-xmpp",
@@ -1102,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MD5",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.MD5",
           "name": "finished",
           "normalized": "a-\u003eBool",
@@ -1116,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.MD5",
           "name": "get_next",
           "package": "haskell-xmpp",
@@ -1125,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MD5",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.MD5",
           "name": "get_next",
           "normalized": "a-\u003e([Word],Int,a)",
@@ -1139,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.MD5",
           "name": "len_pad",
           "package": "haskell-xmpp",
@@ -1148,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MD5",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.MD5",
           "name": "len_pad",
           "normalized": "Zord-\u003ea-\u003ea",
@@ -1162,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.MD5",
           "name": "md5",
           "package": "haskell-xmpp",
@@ -1171,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MD5",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.MD5",
           "name": "md5",
           "normalized": "a-\u003eABCD",
@@ -1185,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.MD5",
           "name": "md5i",
           "package": "haskell-xmpp",
@@ -1194,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MD5",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.MD5",
           "name": "md5i",
           "normalized": "a-\u003eInteger",
@@ -1208,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.MD5",
           "name": "md5s",
           "package": "haskell-xmpp",
@@ -1217,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP MD5",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.MD5",
           "name": "md5s",
           "normalized": "a-\u003eString",
@@ -1232,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn XMPP pretty-printing combinators\n Ported from Text.HTML to HaXML combinatiors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Print",
           "name": "Print",
           "package": "haskell-xmpp",
@@ -1241,6 +1346,7 @@
         "index": {
           "description": "An XMPP pretty-printing combinators Ported from Text.HTML to HaXML combinatiors",
           "hierarchy": "Network XMPP Print",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Print",
           "name": "Print",
           "package": "haskell-xmpp",
@@ -1254,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Print",
           "name": "from",
           "package": "haskell-xmpp",
@@ -1263,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Print",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Print",
           "name": "from",
           "normalized": "String-\u003e([Char],CFilter a)",
@@ -1278,6 +1386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the internal representation (built using HaXml combinators) into string, \n and print it to the specified Handle, without trailing newline\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Print",
           "name": "hPutXmpp",
           "package": "haskell-xmpp",
@@ -1288,6 +1397,7 @@
         "index": {
           "description": "Convert the internal representation built using HaXml combinators into string and print it to the specified Handle without trailing newline",
           "hierarchy": "Network XMPP Print",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Print",
           "name": "hPutXmpp",
           "normalized": "Handle-\u003eXmppMessage-\u003eIO()",
@@ -1303,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Print",
           "name": "id_",
           "package": "haskell-xmpp",
@@ -1312,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Print",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Print",
           "name": "id_",
           "normalized": "String-\u003e([Char],CFilter a)",
@@ -1326,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Print",
           "name": "language",
           "package": "haskell-xmpp",
@@ -1335,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Print",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Print",
           "name": "language",
           "normalized": "String-\u003e([Char],CFilter a)",
@@ -1349,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Print",
           "name": "mechanism",
           "package": "haskell-xmpp",
@@ -1358,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Print",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Print",
           "name": "mechanism",
           "normalized": "String-\u003e([Char],CFilter a)",
@@ -1373,6 +1489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the internal representation (built using HaXml combinators) into string, \n and print it out\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Print",
           "name": "putXmppLn",
           "package": "haskell-xmpp",
@@ -1383,6 +1500,7 @@
         "index": {
           "description": "Convert the internal representation built using HaXml combinators into string and print it out",
           "hierarchy": "Network XMPP Print",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Print",
           "name": "putXmppLn",
           "normalized": "XmppMessage-\u003eIO()",
@@ -1399,6 +1517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender HaXML combinators into string, hacked for XMPP\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Print",
           "name": "renderXmpp",
           "package": "haskell-xmpp",
@@ -1409,6 +1528,7 @@
         "index": {
           "description": "Render HaXML combinators into string hacked for XMPP",
           "hierarchy": "Network XMPP Print",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Print",
           "name": "renderXmpp",
           "normalized": "XmppMessage-\u003eString",
@@ -1424,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Print",
           "name": "stream",
           "package": "haskell-xmpp",
@@ -1433,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Print",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Print",
           "name": "stream",
           "normalized": "a-\u003eString-\u003eCFilter b",
@@ -1447,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Print",
           "name": "streamEnd",
           "package": "haskell-xmpp",
@@ -1456,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Print",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Print",
           "name": "streamEnd",
           "package": "haskell-xmpp",
@@ -1469,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Print",
           "name": "stream_version",
           "package": "haskell-xmpp",
@@ -1478,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Print",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Print",
           "name": "stream_version",
           "normalized": "String-\u003e([Char],CFilter a)",
@@ -1492,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Print",
           "name": "to",
           "package": "haskell-xmpp",
@@ -1501,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Print",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Print",
           "name": "to",
           "normalized": "String-\u003e([Char],CFilter a)",
@@ -1515,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Print",
           "name": "type_",
           "package": "haskell-xmpp",
@@ -1524,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Print",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Print",
           "name": "type_",
           "normalized": "String-\u003e([Char],CFilter a)",
@@ -1538,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Print",
           "name": "xmllang",
           "package": "haskell-xmpp",
@@ -1547,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Print",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Print",
           "name": "xmllang",
           "normalized": "String-\u003e([Char],CFilter a)",
@@ -1561,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Print",
           "name": "xmlns",
           "package": "haskell-xmpp",
@@ -1570,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Print",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Print",
           "name": "xmlns",
           "normalized": "String-\u003e([Char],CFilter a)",
@@ -1585,6 +1719,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSASL Authentication for XMPP\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Sasl",
           "name": "Sasl",
           "package": "haskell-xmpp",
@@ -1594,6 +1729,7 @@
         "index": {
           "description": "SASL Authentication for XMPP",
           "hierarchy": "Network XMPP Sasl",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Sasl",
           "name": "Sasl",
           "package": "haskell-xmpp",
@@ -1608,6 +1744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform authentication over already-open channel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Sasl",
           "name": "saslAuth",
           "package": "haskell-xmpp",
@@ -1617,6 +1754,7 @@
         "index": {
           "description": "Perform authentication over already-open channel",
           "hierarchy": "Network XMPP Sasl",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Sasl",
           "name": "saslAuth",
           "normalized": "[String]-\u003eString-\u003eString-\u003eString-\u003eXmppStateT()",
@@ -1633,6 +1771,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eXMPP stanzas parsing \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stanza",
           "name": "Stanza",
           "package": "haskell-xmpp",
@@ -1642,6 +1781,7 @@
         "index": {
           "description": "XMPP stanzas parsing",
           "hierarchy": "Network XMPP Stanza",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stanza",
           "name": "Stanza",
           "package": "haskell-xmpp",
@@ -1656,6 +1796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts stanza to XML and outputs it \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stanza",
           "name": "outStanza",
           "package": "haskell-xmpp",
@@ -1666,6 +1807,7 @@
         "index": {
           "description": "Converts stanza to XML and outputs it",
           "hierarchy": "Network XMPP Stanza",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stanza",
           "name": "outStanza",
           "normalized": "Stanza-\u003eXmppStateT()",
@@ -1682,6 +1824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses XML element producing Stanza\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stanza",
           "name": "parse",
           "package": "haskell-xmpp",
@@ -1692,6 +1835,7 @@
         "index": {
           "description": "Parses XML element producing Stanza",
           "hierarchy": "Network XMPP Stanza",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stanza",
           "name": "parse",
           "normalized": "XmppMessage-\u003eStanza",
@@ -1707,6 +1851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets next message from stream and parses it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stanza",
           "name": "parseM",
           "package": "haskell-xmpp",
@@ -1717,6 +1862,7 @@
         "index": {
           "description": "Gets next message from stream and parses it",
           "hierarchy": "Network XMPP Stanza",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stanza",
           "name": "parseM",
           "package": "haskell-xmpp",
@@ -1730,6 +1876,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn XMPP stream: means to create and use one\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "Stream",
           "package": "haskell-xmpp",
@@ -1739,6 +1886,7 @@
         "index": {
           "description": "An XMPP stream means to create and use one",
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "Stream",
           "package": "haskell-xmpp",
@@ -1752,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "Plugin",
           "package": "haskell-xmpp",
@@ -1760,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "Plugin",
           "package": "haskell-xmpp",
@@ -1773,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "Plugin",
           "package": "haskell-xmpp",
@@ -1782,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "Plugin",
           "package": "haskell-xmpp",
@@ -1795,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "body",
           "package": "haskell-xmpp",
@@ -1804,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "body",
           "normalized": "XmppMessage-\u003eXmppStateT()",
@@ -1818,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "getNextId",
           "package": "haskell-xmpp",
@@ -1827,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "getNextId",
           "package": "haskell-xmpp",
@@ -1890,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "lookupAttr",
           "package": "haskell-xmpp",
@@ -1899,6 +2056,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "lookupAttr",
           "normalized": "String-\u003e[Attribute]-\u003eMaybe String",
@@ -1914,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "loopWithPlugins",
           "package": "haskell-xmpp",
@@ -1923,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "loopWithPlugins",
           "normalized": "[Plugin]-\u003eXmppStateT()",
@@ -1938,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "newStream",
           "package": "haskell-xmpp",
@@ -1947,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "newStream",
           "package": "haskell-xmpp",
@@ -1961,6 +2123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects next messages from stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "nextM",
           "package": "haskell-xmpp",
@@ -1971,6 +2134,7 @@
         "index": {
           "description": "Selects next messages from stream",
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "nextM",
           "package": "haskell-xmpp",
@@ -1984,6 +2148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends message into Stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "out",
           "package": "haskell-xmpp",
@@ -1994,6 +2159,7 @@
         "index": {
           "description": "Sends message into Stream",
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "out",
           "normalized": "XmppMessage-\u003eXmppStateT()",
@@ -2009,6 +2175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplaces contents of the Stream with the contents\n   coming from given handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "resetStreamHandle",
           "package": "haskell-xmpp",
@@ -2019,6 +2186,7 @@
         "index": {
           "description": "Replaces contents of the Stream with the contents coming from given handle",
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "resetStreamHandle",
           "normalized": "Handle-\u003ea()",
@@ -2035,6 +2203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects next message matching predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "selectM",
           "package": "haskell-xmpp",
@@ -2045,6 +2214,7 @@
         "index": {
           "description": "Selects next message matching predicate",
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "selectM",
           "normalized": "(XmppMessage-\u003eBool)-\u003eXmppStateT XmppMessage",
@@ -2060,6 +2230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estartM is a special accessor case, since it has to retrieve only opening tag of the '\u003cstream\u003e' message,\n which encloses the whole XMPP stream. That's why it does it's own parsing, and does not rely on \u003ccode\u003e\u003ca\u003enextM\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "startM",
           "package": "haskell-xmpp",
@@ -2070,6 +2241,7 @@
         "index": {
           "description": "startM is special accessor case since it has to retrieve only opening tag of the stream message which encloses the whole XMPP stream That why it does it own parsing and does not rely on nextM",
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "startM",
           "normalized": "XmppStateT[Attribute]",
@@ -2084,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "textractM",
           "package": "haskell-xmpp",
@@ -2093,6 +2266,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "textractM",
           "normalized": "String-\u003eXmppStateT String",
@@ -2107,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "trigger",
           "package": "haskell-xmpp",
@@ -2116,6 +2291,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "trigger",
           "package": "haskell-xmpp",
@@ -2129,6 +2305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience wrappers which allow for nicer code like:\n  withNewStream $ do ...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "withNewStream",
           "package": "haskell-xmpp",
@@ -2139,6 +2316,7 @@
         "index": {
           "description": "Convenience wrappers which allow for nicer code like withNewStream do",
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "withNewStream",
           "normalized": "XmppStateT a-\u003eIO(a,Stream)",
@@ -2154,6 +2332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "withNextM",
           "package": "haskell-xmpp",
@@ -2163,6 +2342,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "withNextM",
           "normalized": "(XmppMessage-\u003ea)-\u003eStateT Stream IO a",
@@ -2178,6 +2358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "withSelectM",
           "package": "haskell-xmpp",
@@ -2187,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "withSelectM",
           "normalized": "(XmppMessage-\u003eBool)-\u003e(XmppMessage-\u003ea)-\u003eStateT Stream IO a",
@@ -2202,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "withStream",
           "package": "haskell-xmpp",
@@ -2211,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "withStream",
           "normalized": "Stream-\u003eXmppStateT a-\u003eIO(a,Stream)",
@@ -2227,6 +2411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass in xtract query, return query result from the first message where it returns non-empty results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Stream",
           "name": "xtractM",
           "package": "haskell-xmpp",
@@ -2237,6 +2422,7 @@
         "index": {
           "description": "Pass in xtract query return query result from the first message where it returns non-empty results",
           "hierarchy": "Network XMPP Stream",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Stream",
           "name": "xtractM",
           "normalized": "String-\u003eXmppStateT[XmppMessage]",
@@ -2251,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Types",
           "package": "haskell-xmpp",
@@ -2259,6 +2446,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Types",
           "package": "haskell-xmpp",
@@ -2272,6 +2460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "IQType",
           "package": "haskell-xmpp",
@@ -2280,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "IQType",
           "package": "haskell-xmpp",
@@ -2293,6 +2483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "MessageType",
           "package": "haskell-xmpp",
@@ -2301,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "MessageType",
           "package": "haskell-xmpp",
@@ -2314,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "PresenceType",
           "package": "haskell-xmpp",
@@ -2322,6 +2515,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "PresenceType",
           "package": "haskell-xmpp",
@@ -2336,6 +2530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoster item type (7.1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "RosterItem",
           "package": "haskell-xmpp",
@@ -2345,6 +2540,7 @@
         "index": {
           "description": "Roster item type",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "RosterItem",
           "package": "haskell-xmpp",
@@ -2358,6 +2554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "ShowType",
           "package": "haskell-xmpp",
@@ -2366,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "ShowType",
           "package": "haskell-xmpp",
@@ -2380,6 +2578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric XMPP stream atom\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Stanza",
           "package": "haskell-xmpp",
@@ -2389,6 +2588,7 @@
         "index": {
           "description": "Generic XMPP stream atom",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Stanza",
           "package": "haskell-xmpp",
@@ -2403,6 +2603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXMPP stream, used as a state in XmppStateT state transformer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Stream",
           "package": "haskell-xmpp",
@@ -2412,6 +2613,7 @@
         "index": {
           "description": "XMPP stream used as state in XmppStateT state transformer",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Stream",
           "package": "haskell-xmpp",
@@ -2426,6 +2628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXMPP Stream type, used in \u003ccode\u003estream\u003c/code\u003e pretty-printing combinator and the likes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "StreamType",
           "package": "haskell-xmpp",
@@ -2435,6 +2638,7 @@
         "index": {
           "description": "XMPP Stream type used in stream pretty-printing combinator and the likes",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "StreamType",
           "package": "haskell-xmpp",
@@ -2449,6 +2653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXMPP message in the parsed form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "XmppMessage",
           "package": "haskell-xmpp",
@@ -2458,6 +2663,7 @@
         "index": {
           "description": "XMPP message in the parsed form",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "XmppMessage",
           "package": "haskell-xmpp",
@@ -2472,6 +2678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXmppStateT is a state transformer over IO monad, using Stream as a \u003ca\u003estate holder\u003c/a\u003e.\n  For API, look into \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "XmppStateT",
           "package": "haskell-xmpp",
@@ -2481,6 +2688,7 @@
         "index": {
           "description": "XmppStateT is state transformer over IO monad using Stream as state holder For API look into Stream",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "XmppStateT",
           "package": "haskell-xmpp",
@@ -2494,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Available",
           "package": "haskell-xmpp",
@@ -2503,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Available",
           "package": "haskell-xmpp",
@@ -2516,6 +2726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Away",
           "package": "haskell-xmpp",
@@ -2525,6 +2736,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Away",
           "package": "haskell-xmpp",
@@ -2538,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Chat",
           "package": "haskell-xmpp",
@@ -2547,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Chat",
           "package": "haskell-xmpp",
@@ -2561,6 +2775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClient-to-server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Client",
           "package": "haskell-xmpp",
@@ -2571,6 +2786,7 @@
         "index": {
           "description": "Client-to-server",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Client",
           "package": "haskell-xmpp",
@@ -2585,6 +2801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFIXME\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "ComponentAccept",
           "package": "haskell-xmpp",
@@ -2595,6 +2812,7 @@
         "index": {
           "description": "FIXME",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "ComponentAccept",
           "package": "haskell-xmpp",
@@ -2609,6 +2827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFIXME\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "ComponentConnect",
           "package": "haskell-xmpp",
@@ -2619,6 +2838,7 @@
         "index": {
           "description": "FIXME",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "ComponentConnect",
           "package": "haskell-xmpp",
@@ -2632,6 +2852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "DND",
           "package": "haskell-xmpp",
@@ -2641,6 +2862,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "DND",
           "package": "haskell-xmpp",
@@ -2654,6 +2876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Default",
           "package": "haskell-xmpp",
@@ -2663,6 +2886,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Default",
           "package": "haskell-xmpp",
@@ -2676,6 +2900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "FreeChat",
           "package": "haskell-xmpp",
@@ -2685,6 +2910,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "FreeChat",
           "package": "haskell-xmpp",
@@ -2698,6 +2924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Get",
           "package": "haskell-xmpp",
@@ -2707,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Get",
           "package": "haskell-xmpp",
@@ -2720,6 +2948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "GroupChat",
           "package": "haskell-xmpp",
@@ -2729,6 +2958,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "GroupChat",
           "package": "haskell-xmpp",
@@ -2742,6 +2972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Headline",
           "package": "haskell-xmpp",
@@ -2751,6 +2982,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Headline",
           "package": "haskell-xmpp",
@@ -2764,6 +2996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "IQ",
           "package": "haskell-xmpp",
@@ -2773,6 +3006,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "IQ",
           "package": "haskell-xmpp",
@@ -2786,6 +3020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "IQError",
           "package": "haskell-xmpp",
@@ -2795,6 +3030,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "IQError",
           "package": "haskell-xmpp",
@@ -2808,6 +3044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Message",
           "package": "haskell-xmpp",
@@ -2817,6 +3054,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Message",
           "package": "haskell-xmpp",
@@ -2830,6 +3068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "MessageError",
           "package": "haskell-xmpp",
@@ -2839,6 +3078,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "MessageError",
           "package": "haskell-xmpp",
@@ -2852,6 +3092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Normal",
           "package": "haskell-xmpp",
@@ -2861,6 +3102,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Normal",
           "package": "haskell-xmpp",
@@ -2874,6 +3116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Presence",
           "package": "haskell-xmpp",
@@ -2883,6 +3126,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Presence",
           "package": "haskell-xmpp",
@@ -2896,6 +3140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "PresenceError",
           "package": "haskell-xmpp",
@@ -2905,6 +3150,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "PresenceError",
           "package": "haskell-xmpp",
@@ -2918,6 +3164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Probe",
           "package": "haskell-xmpp",
@@ -2927,6 +3174,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Probe",
           "package": "haskell-xmpp",
@@ -2940,6 +3188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Result",
           "package": "haskell-xmpp",
@@ -2949,6 +3198,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Result",
           "package": "haskell-xmpp",
@@ -2962,6 +3212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "RosterItem",
           "package": "haskell-xmpp",
@@ -2971,6 +3222,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "RosterItem",
           "package": "haskell-xmpp",
@@ -2984,6 +3236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Set",
           "package": "haskell-xmpp",
@@ -2993,6 +3246,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Set",
           "package": "haskell-xmpp",
@@ -3006,6 +3260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Stream",
           "package": "haskell-xmpp",
@@ -3015,6 +3270,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Stream",
           "package": "haskell-xmpp",
@@ -3028,6 +3284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Subscribe",
           "package": "haskell-xmpp",
@@ -3037,6 +3294,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Subscribe",
           "package": "haskell-xmpp",
@@ -3050,6 +3308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Subscribed",
           "package": "haskell-xmpp",
@@ -3059,6 +3318,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Subscribed",
           "package": "haskell-xmpp",
@@ -3072,6 +3332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Unavailable",
           "package": "haskell-xmpp",
@@ -3081,6 +3342,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Unavailable",
           "package": "haskell-xmpp",
@@ -3094,6 +3356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Unsubscribe",
           "package": "haskell-xmpp",
@@ -3103,6 +3366,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Unsubscribe",
           "package": "haskell-xmpp",
@@ -3116,6 +3380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "Unsubscribed",
           "package": "haskell-xmpp",
@@ -3125,6 +3390,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "Unsubscribed",
           "package": "haskell-xmpp",
@@ -3138,6 +3404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "XAway",
           "package": "haskell-xmpp",
@@ -3147,6 +3414,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "XAway",
           "package": "haskell-xmpp",
@@ -3161,6 +3429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince XMPP is network-oriented, block size is equal to maximal MTU\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "defaultStreamBlockSize",
           "package": "haskell-xmpp",
@@ -3171,6 +3440,7 @@
         "index": {
           "description": "Since XMPP is network-oriented block size is equal to maximal MTU",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "defaultStreamBlockSize",
           "package": "haskell-xmpp",
@@ -3185,6 +3455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003egroup\u003c/a\u003e elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "groups",
           "package": "haskell-xmpp",
@@ -3195,6 +3466,7 @@
         "index": {
           "description": "group elements",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "groups",
           "normalized": "[String]",
@@ -3210,6 +3482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIO handle to the underlying file or socket\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "handle",
           "package": "haskell-xmpp",
@@ -3220,6 +3493,7 @@
         "index": {
           "description": "IO handle to the underlying file or socket",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "handle",
           "package": "haskell-xmpp",
@@ -3233,6 +3507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eid of the next message (if needed)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "idx",
           "package": "haskell-xmpp",
@@ -3243,6 +3518,7 @@
         "index": {
           "description": "id of the next message if needed",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "idx",
           "package": "haskell-xmpp",
@@ -3256,6 +3532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChild element (Core-9.2.3)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "iqBody",
           "package": "haskell-xmpp",
@@ -3266,6 +3543,7 @@
         "index": {
           "description": "Child element Core-9.2.3",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "iqBody",
           "normalized": "[Content Posn]",
@@ -3281,6 +3559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "iqFrom",
           "package": "haskell-xmpp",
@@ -3290,6 +3569,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "iqFrom",
           "package": "haskell-xmpp",
@@ -3304,6 +3584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIQ id (Core-9.2.3)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "iqId",
           "package": "haskell-xmpp",
@@ -3314,6 +3595,7 @@
         "index": {
           "description": "IQ id Core-9.2.3",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "iqId",
           "package": "haskell-xmpp",
@@ -3327,6 +3609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "iqTo",
           "package": "haskell-xmpp",
@@ -3336,6 +3619,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "iqTo",
           "package": "haskell-xmpp",
@@ -3350,6 +3634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIQ type (Core-9.2.3)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "iqType",
           "package": "haskell-xmpp",
@@ -3360,6 +3645,7 @@
         "index": {
           "description": "IQ type Core-9.2.3",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "iqType",
           "package": "haskell-xmpp",
@@ -3373,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "isIQ",
           "package": "haskell-xmpp",
@@ -3382,6 +3669,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "isIQ",
           "normalized": "Stanza-\u003eBool",
@@ -3398,6 +3686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUtility functions                \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "isMessage",
           "package": "haskell-xmpp",
@@ -3408,6 +3697,7 @@
         "index": {
           "description": "Utility functions",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "isMessage",
           "normalized": "Stanza-\u003eBool",
@@ -3423,6 +3713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "isPresence",
           "package": "haskell-xmpp",
@@ -3432,6 +3723,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "isPresence",
           "normalized": "Stanza-\u003eBool",
@@ -3448,6 +3740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntry's JID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "jid",
           "package": "haskell-xmpp",
@@ -3458,6 +3751,7 @@
         "index": {
           "description": "Entry JID",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "jid",
           "package": "haskell-xmpp",
@@ -3471,6 +3765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream of the lexemes coming from server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "lexemes",
           "package": "haskell-xmpp",
@@ -3481,6 +3776,7 @@
         "index": {
           "description": "Stream of the lexemes coming from server",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "lexemes",
           "normalized": "[Token]",
@@ -3496,6 +3792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBody element (2.1.2.2)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "mBody",
           "package": "haskell-xmpp",
@@ -3506,6 +3803,7 @@
         "index": {
           "description": "Body element",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "mBody",
           "package": "haskell-xmpp",
@@ -3520,6 +3818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional contents, used for extensions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "mExt",
           "package": "haskell-xmpp",
@@ -3530,6 +3829,7 @@
         "index": {
           "description": "Additional contents used for extensions",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "mExt",
           "normalized": "[Content Posn]",
@@ -3545,6 +3845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "mFrom",
           "package": "haskell-xmpp",
@@ -3554,6 +3855,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "mFrom",
           "package": "haskell-xmpp",
@@ -3568,6 +3870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage \u003ccode\u003efrom\u003c/code\u003e, \u003ccode\u003eto\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e attributes                              \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "mId",
           "package": "haskell-xmpp",
@@ -3578,6 +3881,7 @@
         "index": {
           "description": "Message from to id attributes",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "mId",
           "package": "haskell-xmpp",
@@ -3592,6 +3896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubject element (2.1.2.1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "mSubject",
           "package": "haskell-xmpp",
@@ -3602,6 +3907,7 @@
         "index": {
           "description": "Subject element",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "mSubject",
           "package": "haskell-xmpp",
@@ -3616,6 +3922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThread element (2.1.2.3)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "mThread",
           "package": "haskell-xmpp",
@@ -3626,6 +3933,7 @@
         "index": {
           "description": "Thread element",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "mThread",
           "package": "haskell-xmpp",
@@ -3639,6 +3947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "mTo",
           "package": "haskell-xmpp",
@@ -3648,6 +3957,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "mTo",
           "package": "haskell-xmpp",
@@ -3662,6 +3972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage type (2.1.1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "mType",
           "package": "haskell-xmpp",
@@ -3672,6 +3983,7 @@
         "index": {
           "description": "Message type",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "mType",
           "package": "haskell-xmpp",
@@ -3686,6 +3998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntry's nickname\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "nickname",
           "package": "haskell-xmpp",
@@ -3696,6 +4009,7 @@
         "index": {
           "description": "Entry nickname",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "nickname",
           "package": "haskell-xmpp",
@@ -3709,6 +4023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional contents, used for extensions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "pExt",
           "package": "haskell-xmpp",
@@ -3719,6 +4034,7 @@
         "index": {
           "description": "Additional contents used for extensions",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "pExt",
           "normalized": "[Content Posn]",
@@ -3734,6 +4050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "pFrom",
           "package": "haskell-xmpp",
@@ -3743,6 +4060,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "pFrom",
           "package": "haskell-xmpp",
@@ -3757,6 +4075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePresence \u003ccode\u003efrom\u003c/code\u003e, \u003ccode\u003eto\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "pId",
           "package": "haskell-xmpp",
@@ -3767,6 +4086,7 @@
         "index": {
           "description": "Presence from to id attributes",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "pId",
           "package": "haskell-xmpp",
@@ -3781,6 +4101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePresence priority (2.2.2.3)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "pPriority",
           "package": "haskell-xmpp",
@@ -3791,6 +4112,7 @@
         "index": {
           "description": "Presence priority",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "pPriority",
           "package": "haskell-xmpp",
@@ -3805,6 +4127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow element (2.2.2.1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "pShowType",
           "package": "haskell-xmpp",
@@ -3815,6 +4138,7 @@
         "index": {
           "description": "Show element",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "pShowType",
           "package": "haskell-xmpp",
@@ -3829,6 +4153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus element (2.2.2.2)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "pStatus",
           "package": "haskell-xmpp",
@@ -3839,6 +4164,7 @@
         "index": {
           "description": "Status element",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "pStatus",
           "package": "haskell-xmpp",
@@ -3852,6 +4178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "pTo",
           "package": "haskell-xmpp",
@@ -3861,6 +4188,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "pTo",
           "package": "haskell-xmpp",
@@ -3875,6 +4203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePresence type (2.2.1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "pType",
           "package": "haskell-xmpp",
@@ -3885,6 +4214,7 @@
         "index": {
           "description": "Presence type",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "pType",
           "package": "haskell-xmpp",
@@ -3899,6 +4229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubscribtion type \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Types",
           "name": "subscribtion",
           "package": "haskell-xmpp",
@@ -3909,6 +4240,7 @@
         "index": {
           "description": "Subscribtion type",
           "hierarchy": "Network XMPP Types",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Types",
           "name": "subscribtion",
           "package": "haskell-xmpp",
@@ -3921,6 +4253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.UTF8",
           "name": "UTF8",
           "package": "haskell-xmpp",
@@ -3929,6 +4262,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP UTF8",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.UTF8",
           "name": "UTF8",
           "package": "haskell-xmpp",
@@ -3942,6 +4276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.UTF8",
           "name": "fromUTF8",
           "package": "haskell-xmpp",
@@ -3951,6 +4286,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP UTF8",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.UTF8",
           "name": "fromUTF8",
           "normalized": "String-\u003eString",
@@ -3966,6 +4302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.UTF8",
           "name": "toUTF8",
           "package": "haskell-xmpp",
@@ -3975,6 +4312,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP UTF8",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.UTF8",
           "name": "toUTF8",
           "normalized": "String-\u003eString",
@@ -3991,6 +4329,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious XMPP/XML utilities \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Utils",
           "name": "Utils",
           "package": "haskell-xmpp",
@@ -4000,6 +4339,7 @@
         "index": {
           "description": "Various XMPP XML utilities",
           "hierarchy": "Network XMPP Utils",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Utils",
           "name": "Utils",
           "package": "haskell-xmpp",
@@ -4013,6 +4353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Utils",
           "name": "debug",
           "package": "haskell-xmpp",
@@ -4022,6 +4363,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Utils",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Utils",
           "name": "debug",
           "normalized": "String-\u003eXmppStateT()",
@@ -4036,6 +4378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Utils",
           "name": "debugIO",
           "package": "haskell-xmpp",
@@ -4045,6 +4388,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Utils",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Utils",
           "name": "debugIO",
           "normalized": "String-\u003eIO()",
@@ -4061,6 +4405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns strings extracted by xtract query \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Utils",
           "name": "getVals",
           "package": "haskell-xmpp",
@@ -4071,6 +4416,7 @@
         "index": {
           "description": "Returns strings extracted by xtract query",
           "hierarchy": "Network XMPP Utils",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Utils",
           "name": "getVals",
           "normalized": "String-\u003e[Content Posn]-\u003e[String]",
@@ -4087,6 +4433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQueries xml for specific value\n \u003ccode\u003eisVal str = any (== str) . getVals\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Utils",
           "name": "isVal",
           "package": "haskell-xmpp",
@@ -4097,6 +4444,7 @@
         "index": {
           "description": "Queries xml for specific value isVal str any str getVals",
           "hierarchy": "Network XMPP Utils",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Utils",
           "name": "isVal",
           "normalized": "String-\u003eString-\u003e[Content Posn]-\u003eBool",
@@ -4112,6 +4460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Utils",
           "name": "itag",
           "package": "haskell-xmpp",
@@ -4121,6 +4470,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Utils",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Utils",
           "name": "itag",
           "normalized": "String-\u003e[(String,CFilter a)]-\u003eCFilter a",
@@ -4136,6 +4486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild some textual content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Utils",
           "name": "literal",
           "package": "haskell-xmpp",
@@ -4145,6 +4496,7 @@
         "index": {
           "description": "Build some textual content",
           "hierarchy": "Network XMPP Utils",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Utils",
           "name": "literal",
           "normalized": "String-\u003eCFilter a",
@@ -4159,6 +4511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Utils",
           "name": "mattr",
           "package": "haskell-xmpp",
@@ -4168,6 +4521,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Utils",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Utils",
           "name": "mattr",
           "normalized": "a-\u003eMaybe b-\u003e[(a,CFilter c)]",
@@ -4182,6 +4536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Utils",
           "name": "mattr'",
           "package": "haskell-xmpp",
@@ -4191,6 +4546,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Utils",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Utils",
           "name": "mattr'",
           "normalized": "a-\u003eMaybe String-\u003e[(a,CFilter b)]",
@@ -4205,6 +4561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Utils",
           "name": "mread",
           "package": "haskell-xmpp",
@@ -4214,6 +4571,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Utils",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Utils",
           "name": "mread",
           "normalized": "[Char]-\u003eMaybe a",
@@ -4228,6 +4586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Utils",
           "name": "noelem",
           "package": "haskell-xmpp",
@@ -4237,6 +4596,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Utils",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Utils",
           "name": "noelem",
           "package": "haskell-xmpp",
@@ -4249,6 +4609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Utils",
           "name": "ptag",
           "package": "haskell-xmpp",
@@ -4258,6 +4619,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Utils",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Utils",
           "name": "ptag",
           "normalized": "String-\u003e[(String,CFilter a)]-\u003e[CFilter a]-\u003eCFilter a",
@@ -4272,6 +4634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Utils",
           "name": "sattr",
           "package": "haskell-xmpp",
@@ -4281,6 +4644,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Utils",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Utils",
           "name": "sattr",
           "normalized": "a-\u003eString-\u003e(a,CFilter b)",
@@ -4295,6 +4659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Utils",
           "name": "strAttr",
           "package": "haskell-xmpp",
@@ -4304,6 +4669,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Utils",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Utils",
           "name": "strAttr",
           "normalized": "a-\u003eString-\u003e(a,CFilter b)",
@@ -4320,6 +4686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion from/to HaXML's Content and CFilter \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Utils",
           "name": "toContent",
           "package": "haskell-xmpp",
@@ -4330,6 +4697,7 @@
         "index": {
           "description": "Conversion from to HaXML Content and CFilter",
           "hierarchy": "Network XMPP Utils",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Utils",
           "name": "toContent",
           "normalized": "CFilter Posn-\u003eContent Posn",
@@ -4345,6 +4713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.Utils",
           "name": "toFilter",
           "package": "haskell-xmpp",
@@ -4354,6 +4723,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP Utils",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.Utils",
           "name": "toFilter",
           "normalized": "Content Posn-\u003eCFilter Posn",
@@ -4370,6 +4740,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eXEP-0091, old delayed delivery\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.XEP.Delayed",
           "name": "Delayed",
           "package": "haskell-xmpp",
@@ -4379,6 +4750,7 @@
         "index": {
           "description": "XEP-0091 old delayed delivery",
           "hierarchy": "Network XMPP XEP Delayed",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.XEP.Delayed",
           "name": "Delayed",
           "package": "haskell-xmpp",
@@ -4393,6 +4765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue, if stanza is delivered delayed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.XEP.Delayed",
           "name": "isDelayed",
           "package": "haskell-xmpp",
@@ -4403,6 +4776,7 @@
         "index": {
           "description": "True if stanza is delivered delayed",
           "hierarchy": "Network XMPP XEP Delayed",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.XEP.Delayed",
           "name": "isDelayed",
           "normalized": "Stanza-\u003eBool",
@@ -4419,6 +4793,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eXEP-0045, join/kick/ban/leave functionality\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.XEP.MUC",
           "name": "MUC",
           "package": "haskell-xmpp",
@@ -4428,6 +4803,7 @@
         "index": {
           "description": "XEP-0045 join kick ban leave functionality",
           "hierarchy": "Network XMPP XEP MUC",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.XEP.MUC",
           "name": "MUC",
           "package": "haskell-xmpp",
@@ -4442,6 +4818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoins MUC room named by JID (conference@server/nick)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.XEP.MUC",
           "name": "mucJoin",
           "package": "haskell-xmpp",
@@ -4452,6 +4829,7 @@
         "index": {
           "description": "Joins MUC room named by JID conference@server nick",
           "hierarchy": "Network XMPP XEP MUC",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.XEP.MUC",
           "name": "mucJoin",
           "normalized": "JID-\u003eXmppStateT()",
@@ -4468,6 +4846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStanza sent by \u003ccode\u003e\u003ca\u003emucJoin\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.XEP.MUC",
           "name": "mucJoinStanza",
           "package": "haskell-xmpp",
@@ -4478,6 +4857,7 @@
         "index": {
           "description": "Stanza sent by mucJoin",
           "hierarchy": "Network XMPP XEP MUC",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.XEP.MUC",
           "name": "mucJoinStanza",
           "normalized": "JID-\u003eStanza",
@@ -4494,6 +4874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeaves MUC room named by JID (conference@server/nick)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.XEP.MUC",
           "name": "mucLeave",
           "package": "haskell-xmpp",
@@ -4504,6 +4885,7 @@
         "index": {
           "description": "Leaves MUC room named by JID conference@server nick",
           "hierarchy": "Network XMPP XEP MUC",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.XEP.MUC",
           "name": "mucLeave",
           "normalized": "JID-\u003eXmppStateT()",
@@ -4520,6 +4902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStanza sent by \u003ccode\u003e\u003ca\u003emucLeave\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.XEP.MUC",
           "name": "mucLeaveStanza",
           "package": "haskell-xmpp",
@@ -4530,6 +4913,7 @@
         "index": {
           "description": "Stanza sent by mucLeave",
           "hierarchy": "Network XMPP XEP MUC",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.XEP.MUC",
           "name": "mucLeaveStanza",
           "normalized": "JID-\u003eStanza",
@@ -4546,6 +4930,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eXEP-0092, version request\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.XEP.Version",
           "name": "Version",
           "package": "haskell-xmpp",
@@ -4555,6 +4940,7 @@
         "index": {
           "description": "XEP-0092 version request",
           "hierarchy": "Network XMPP XEP Version",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.XEP.Version",
           "name": "Version",
           "package": "haskell-xmpp",
@@ -4569,6 +4955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue, if stanza is a version request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.XEP.Version",
           "name": "isVersionReq",
           "package": "haskell-xmpp",
@@ -4579,6 +4966,7 @@
         "index": {
           "description": "True if stanza is version request",
           "hierarchy": "Network XMPP XEP Version",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.XEP.Version",
           "name": "isVersionReq",
           "normalized": "Stanza-\u003eBool",
@@ -4595,6 +4983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplies to version request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP.XEP.Version",
           "name": "versionAnswer",
           "package": "haskell-xmpp",
@@ -4605,6 +4994,7 @@
         "index": {
           "description": "Replies to version request",
           "hierarchy": "Network XMPP XEP Version",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP.XEP.Version",
           "name": "versionAnswer",
           "normalized": "String-\u003eString-\u003eString-\u003eStanza-\u003e[CFilter a]",
@@ -4621,6 +5011,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience module that re-exports all things XMPP\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP",
           "name": "XMPP",
           "package": "haskell-xmpp",
@@ -4630,6 +5021,7 @@
         "index": {
           "description": "Convenience module that re-exports all things XMPP",
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP",
           "name": "XMPP",
           "package": "haskell-xmpp",
@@ -4643,6 +5035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:51 UTC 2014",
           "module": "Network.XMPP",
           "name": "version",
           "package": "haskell-xmpp",
@@ -4652,6 +5045,7 @@
         },
         "index": {
           "hierarchy": "Network XMPP",
+          "indexed": "2014-03-11T18:31:51",
           "module": "Network.XMPP",
           "name": "version",
           "package": "haskell-xmpp",

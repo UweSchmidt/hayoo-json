@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskelldb-hsql-odbc"
+        "phrase": "haskelldb-hsql-odbc",
+        "type": "phrase"
       },
       "type": "context"
     }

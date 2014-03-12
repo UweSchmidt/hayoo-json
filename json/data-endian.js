@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-endian"
+        "phrase": "data-endian",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:12 UTC 2014",
           "module": "Data.Endian",
           "name": "Endian",
           "package": "data-endian",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Endian",
+          "indexed": "2014-03-11T17:48:12",
           "module": "Data.Endian",
           "name": "Endian",
           "package": "data-endian",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw, endian-sensitive data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:12 UTC 2014",
           "module": "Data.Endian",
           "name": "EndianSensitive",
           "package": "data-endian",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Raw endian-sensitive data",
           "hierarchy": "Data Endian",
+          "indexed": "2014-03-11T17:48:12",
           "module": "Data.Endian",
           "name": "EndianSensitive",
           "package": "data-endian",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from big-endian to the native format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:12 UTC 2014",
           "module": "Data.Endian",
           "name": "fromBigEndian",
           "package": "data-endian",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Convert from big-endian to the native format",
           "hierarchy": "Data Endian",
+          "indexed": "2014-03-11T17:48:12",
           "module": "Data.Endian",
           "name": "fromBigEndian",
           "normalized": "a-\u003ea",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from little-endian to the native format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:12 UTC 2014",
           "module": "Data.Endian",
           "name": "fromLittleEndian",
           "package": "data-endian",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Convert from little-endian to the native format",
           "hierarchy": "Data Endian",
+          "indexed": "2014-03-11T17:48:12",
           "module": "Data.Endian",
           "name": "fromLittleEndian",
           "normalized": "a-\u003ea",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the endianness of the argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:12 UTC 2014",
           "module": "Data.Endian",
           "name": "swapEndian",
           "package": "data-endian",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Change the endianness of the argument",
           "hierarchy": "Data Endian",
+          "indexed": "2014-03-11T17:48:12",
           "module": "Data.Endian",
           "name": "swapEndian",
           "normalized": "a-\u003ea",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from the native format to big-endian\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:12 UTC 2014",
           "module": "Data.Endian",
           "name": "toBigEndian",
           "package": "data-endian",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Convert from the native format to big-endian",
           "hierarchy": "Data Endian",
+          "indexed": "2014-03-11T17:48:12",
           "module": "Data.Endian",
           "name": "toBigEndian",
           "normalized": "a-\u003ea",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from the native format to little-endian\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:12 UTC 2014",
           "module": "Data.Endian",
           "name": "toLittleEndian",
           "package": "data-endian",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Convert from the native format to little-endian",
           "hierarchy": "Data Endian",
+          "indexed": "2014-03-11T17:48:12",
           "module": "Data.Endian",
           "name": "toLittleEndian",
           "normalized": "a-\u003ea",

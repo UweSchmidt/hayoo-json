@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tablestorage"
+        "phrase": "tablestorage",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions wrapping the Azure REST API web methods.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.API",
           "name": "API",
           "package": "tablestorage",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides functions wrapping the Azure REST API web methods",
           "hierarchy": "Network TableStorage API",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.API",
           "name": "API",
           "package": "tablestorage",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new table with the specified name or returns an error message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.API",
           "name": "createTable",
           "package": "tablestorage",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Creates new table with the specified name or returns an error message",
           "hierarchy": "Network TableStorage API",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.API",
           "name": "createTable",
           "normalized": "String-\u003eTableStorage()",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new table with the specified name if it does not already exist, or returns an erro message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.API",
           "name": "createTableIfNecessary",
           "package": "tablestorage",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Creates new table with the specified name if it does not already exist or returns an erro message",
           "hierarchy": "Network TableStorage API",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.API",
           "name": "createTableIfNecessary",
           "normalized": "String-\u003eTableStorage()",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an Account with the default values for Port and Resource Prefix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.API",
           "name": "defaultAccount",
           "package": "tablestorage",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Constructs an Account with the default values for Port and Resource Prefix",
           "hierarchy": "Network TableStorage API",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.API",
           "name": "defaultAccount",
           "normalized": "AccountKey-\u003eString-\u003eString-\u003eAccount",
@@ -119,6 +127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.API",
           "name": "defaultConf",
           "package": "tablestorage",
@@ -128,6 +137,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage API",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.API",
           "name": "defaultConf",
           "normalized": "AccountKey-\u003eString-\u003eString-\u003eTableConf",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty query with no filters and no specified page size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.API",
           "name": "defaultEntityQuery",
           "package": "tablestorage",
@@ -154,6 +165,7 @@
         "index": {
           "description": "An empty query with no filters and no specified page size",
           "hierarchy": "Network TableStorage API",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.API",
           "name": "defaultEntityQuery",
           "package": "tablestorage",
@@ -168,6 +180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes the entity with the specified key or returns an error message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.API",
           "name": "deleteEntity",
           "package": "tablestorage",
@@ -178,6 +191,7 @@
         "index": {
           "description": "Deletes the entity with the specified key or returns an error message",
           "hierarchy": "Network TableStorage API",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.API",
           "name": "deleteEntity",
           "normalized": "String-\u003eEntityKey-\u003eTableStorage()",
@@ -194,6 +208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes the table with the specified name or returns an error message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.API",
           "name": "deleteTable",
           "package": "tablestorage",
@@ -204,6 +219,7 @@
         "index": {
           "description": "Deletes the table with the specified name or returns an error message",
           "hierarchy": "Network TableStorage API",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.API",
           "name": "deleteTable",
           "normalized": "String-\u003eTableStorage()",
@@ -220,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts an entity into the table with the specified name or returns an error message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.API",
           "name": "insertEntity",
           "package": "tablestorage",
@@ -230,6 +247,7 @@
         "index": {
           "description": "Inserts an entity into the table with the specified name or returns an error message",
           "hierarchy": "Network TableStorage API",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.API",
           "name": "insertEntity",
           "normalized": "String-\u003eEntity-\u003eTableStorage()",
@@ -246,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerges the specified entity (without removing columns) or returns an error message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.API",
           "name": "mergeEntity",
           "package": "tablestorage",
@@ -256,6 +275,7 @@
         "index": {
           "description": "Merges the specified entity without removing columns or returns an error message",
           "hierarchy": "Network TableStorage API",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.API",
           "name": "mergeEntity",
           "normalized": "String-\u003eEntity-\u003eTableStorage()",
@@ -272,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a collection of entities by executing the specified query or returns an error message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.API",
           "name": "queryEntities",
           "package": "tablestorage",
@@ -282,6 +303,7 @@
         "index": {
           "description": "Returns collection of entities by executing the specified query or returns an error message",
           "hierarchy": "Network TableStorage API",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.API",
           "name": "queryEntities",
           "normalized": "String-\u003eEntityQuery-\u003eTableStorage[Entity]",
@@ -298,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the entity with the specified table name and key or an error message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.API",
           "name": "queryEntity",
           "package": "tablestorage",
@@ -308,6 +331,7 @@
         "index": {
           "description": "Returns the entity with the specified table name and key or an error message",
           "hierarchy": "Network TableStorage API",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.API",
           "name": "queryEntity",
           "normalized": "String-\u003eEntityKey-\u003eTableStorage Entity",
@@ -324,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList the names of tables for an account or returns an error message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.API",
           "name": "queryTables",
           "package": "tablestorage",
@@ -334,6 +359,7 @@
         "index": {
           "description": "List the names of tables for an account or returns an error message",
           "hierarchy": "Network TableStorage API",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.API",
           "name": "queryTables",
           "normalized": "TableStorage[String]",
@@ -350,6 +376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates the specified entity (possibly removing columns) or returns an error message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.API",
           "name": "updateEntity",
           "package": "tablestorage",
@@ -360,6 +387,7 @@
         "index": {
           "description": "Updates the specified entity possibly removing columns or returns an error message",
           "hierarchy": "Network TableStorage API",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.API",
           "name": "updateEntity",
           "normalized": "String-\u003eEntity-\u003eTableStorage()",
@@ -376,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns TableStorage actions given a configuration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.API",
           "name": "withTableStorage",
           "package": "tablestorage",
@@ -386,6 +415,7 @@
         "index": {
           "description": "Runs TableStorage actions given configuration",
           "hierarchy": "Network TableStorage API",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.API",
           "name": "withTableStorage",
           "normalized": "TableConf-\u003eTableStorage a-\u003eIO(Either TableError a)",
@@ -402,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions to create authenticated requests to the Table\n Storage REST API.\n\u003c/p\u003e\u003cp\u003eFunctions are provided to create Shared Key authorization tokens, and to add the\n required headers for the various requests.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Auth",
           "name": "Auth",
           "package": "tablestorage",
@@ -411,6 +442,7 @@
         "index": {
           "description": "This module provides functions to create authenticated requests to the Table Storage REST API Functions are provided to create Shared Key authorization tokens and to add the required headers for the various requests",
           "hierarchy": "Network TableStorage Auth",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Auth",
           "name": "Auth",
           "package": "tablestorage",
@@ -425,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates and executes an authenticated request including the Authorization header.\n\u003c/p\u003e\u003cp\u003eThe function takes the account information, request method, additional headers,\n resource, canonicalized resource and request body as parameters, and returns\n an error message or the response object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Auth",
           "name": "authenticatedRequest",
           "package": "tablestorage",
@@ -435,6 +468,7 @@
         "index": {
           "description": "Creates and executes an authenticated request including the Authorization header The function takes the account information request method additional headers resource canonicalized resource and request body as parameters and returns an error message or the response object",
           "hierarchy": "Network TableStorage Auth",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Auth",
           "name": "authenticatedRequest",
           "normalized": "Method-\u003e[Header]-\u003eString-\u003eString-\u003eString-\u003eTableStorage QueryResponse",
@@ -451,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains constants for working with the storage emulator.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Development",
           "name": "Development",
           "package": "tablestorage",
@@ -460,6 +495,7 @@
         "index": {
           "description": "This module contains constants for working with the storage emulator",
           "hierarchy": "Network TableStorage Development",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Development",
           "name": "Development",
           "package": "tablestorage",
@@ -474,6 +510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn account for the storage emulator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Development",
           "name": "developmentAccount",
           "package": "tablestorage",
@@ -484,6 +521,7 @@
         "index": {
           "description": "An account for the storage emulator",
           "hierarchy": "Network TableStorage Development",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Development",
           "name": "developmentAccount",
           "package": "tablestorage",
@@ -497,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Development",
           "name": "developmentConf",
           "package": "tablestorage",
@@ -506,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Development",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Development",
           "name": "developmentConf",
           "package": "tablestorage",
@@ -520,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions which help when unmarshalling query responses\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Query",
           "name": "Query",
           "package": "tablestorage",
@@ -529,6 +570,7 @@
         "index": {
           "description": "This module contains functions which help when unmarshalling query responses",
           "hierarchy": "Network TableStorage Query",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Query",
           "name": "Query",
           "package": "tablestorage",
@@ -543,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the value in a binary-valued column or return Nothing if no such column exists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Query",
           "name": "edmBinary",
           "package": "tablestorage",
@@ -553,6 +596,7 @@
         "index": {
           "description": "Find the value in binary-valued column or return Nothing if no such column exists",
           "hierarchy": "Network TableStorage Query",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Query",
           "name": "edmBinary",
           "normalized": "String-\u003eEntity-\u003eMaybe String",
@@ -569,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the value in a boolean-valued column or return Nothing if no such column exists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Query",
           "name": "edmBoolean",
           "package": "tablestorage",
@@ -579,6 +624,7 @@
         "index": {
           "description": "Find the value in boolean-valued column or return Nothing if no such column exists",
           "hierarchy": "Network TableStorage Query",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Query",
           "name": "edmBoolean",
           "normalized": "String-\u003eEntity-\u003eMaybe Bool",
@@ -595,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the value in a date-valued column or return Nothing if no such column exists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Query",
           "name": "edmDateTime",
           "package": "tablestorage",
@@ -605,6 +652,7 @@
         "index": {
           "description": "Find the value in date-valued column or return Nothing if no such column exists",
           "hierarchy": "Network TableStorage Query",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Query",
           "name": "edmDateTime",
           "normalized": "String-\u003eEntity-\u003eMaybe UTCTime",
@@ -621,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the value in a double-valued column or return Nothing if no such column exists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Query",
           "name": "edmDouble",
           "package": "tablestorage",
@@ -631,6 +680,7 @@
         "index": {
           "description": "Find the value in double-valued column or return Nothing if no such column exists",
           "hierarchy": "Network TableStorage Query",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Query",
           "name": "edmDouble",
           "normalized": "String-\u003eEntity-\u003eMaybe Double",
@@ -647,6 +697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the value in a Guid-valued column or return Nothing if no such column exists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Query",
           "name": "edmGuid",
           "package": "tablestorage",
@@ -657,6 +708,7 @@
         "index": {
           "description": "Find the value in Guid-valued column or return Nothing if no such column exists",
           "hierarchy": "Network TableStorage Query",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Query",
           "name": "edmGuid",
           "normalized": "String-\u003eEntity-\u003eMaybe String",
@@ -673,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the value in an integer-valued column or return Nothing if no such column exists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Query",
           "name": "edmInt32",
           "package": "tablestorage",
@@ -683,6 +736,7 @@
         "index": {
           "description": "Find the value in an integer-valued column or return Nothing if no such column exists",
           "hierarchy": "Network TableStorage Query",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Query",
           "name": "edmInt32",
           "normalized": "String-\u003eEntity-\u003eMaybe Int",
@@ -699,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the value in an integer-valued column or return Nothing if no such column exists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Query",
           "name": "edmInt64",
           "package": "tablestorage",
@@ -709,6 +764,7 @@
         "index": {
           "description": "Find the value in an integer-valued column or return Nothing if no such column exists",
           "hierarchy": "Network TableStorage Query",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Query",
           "name": "edmInt64",
           "normalized": "String-\u003eEntity-\u003eMaybe Int",
@@ -725,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the value in a string-valued column or return Nothing if no such column exists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Query",
           "name": "edmString",
           "package": "tablestorage",
@@ -735,6 +792,7 @@
         "index": {
           "description": "Find the value in string-valued column or return Nothing if no such column exists",
           "hierarchy": "Network TableStorage Query",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Query",
           "name": "edmString",
           "normalized": "String-\u003eEntity-\u003eMaybe String",
@@ -751,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData types used to construct the various web method requests.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "Types",
           "package": "tablestorage",
@@ -760,6 +819,7 @@
         "index": {
           "description": "Data types used to construct the various web method requests",
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "Types",
           "package": "tablestorage",
@@ -774,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccount information: host, port, secret key and account name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "Account",
           "package": "tablestorage",
@@ -783,6 +844,7 @@
         "index": {
           "description": "Account information host port secret key and account name",
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "Account",
           "package": "tablestorage",
@@ -797,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Base-64 encoded account secret key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "AccountKey",
           "package": "tablestorage",
@@ -806,6 +869,7 @@
         "index": {
           "description": "The Base-64 encoded account secret key",
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "AccountKey",
           "package": "tablestorage",
@@ -820,6 +884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of authorization headers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "AuthHeader",
           "package": "tablestorage",
@@ -829,6 +894,7 @@
         "index": {
           "description": "The type of authorization headers",
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "AuthHeader",
           "package": "tablestorage",
@@ -843,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe various comparisons supported in entity queries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "ComparisonType",
           "package": "tablestorage",
@@ -852,6 +919,7 @@
         "index": {
           "description": "The various comparisons supported in entity queries",
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "ComparisonType",
           "package": "tablestorage",
@@ -866,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn entity consists of a key and zero or more additional columns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "Entity",
           "package": "tablestorage",
@@ -875,6 +944,7 @@
         "index": {
           "description": "An entity consists of key and zero or more additional columns",
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "Entity",
           "package": "tablestorage",
@@ -889,6 +959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a column in an entity.\n\u003c/p\u003e\u003cp\u003eThe constructor used indicates the data type of the column represented.\n\u003c/p\u003e\u003cp\u003eFor certain operations, the type must match the type of data stored in the table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "EntityColumn",
           "package": "tablestorage",
@@ -898,6 +969,7 @@
         "index": {
           "description": "Represents column in an entity The constructor used indicates the data type of the column represented For certain operations the type must match the type of data stored in the table",
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "EntityColumn",
           "package": "tablestorage",
@@ -912,6 +984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data type of entity filters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "EntityFilter",
           "package": "tablestorage",
@@ -921,6 +994,7 @@
         "index": {
           "description": "The data type of entity filters",
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "EntityFilter",
           "package": "tablestorage",
@@ -935,6 +1009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniquely identifies an entity in a table : a partition key and row key pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "EntityKey",
           "package": "tablestorage",
@@ -944,6 +1019,7 @@
         "index": {
           "description": "Uniquely identifies an entity in table partition key and row key pair",
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "EntityKey",
           "package": "tablestorage",
@@ -958,6 +1034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn entity query consists of an optional filter and an optional number of entities to return.\n\u003c/p\u003e\u003cp\u003eProjections are not currently supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "EntityQuery",
           "package": "tablestorage",
@@ -967,6 +1044,7 @@
         "index": {
           "description": "An entity query consists of an optional filter and an optional number of entities to return Projections are not currently supported",
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "EntityQuery",
           "package": "tablestorage",
@@ -981,6 +1059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException handling type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "QueryResponse",
           "package": "tablestorage",
@@ -990,6 +1069,7 @@
         "index": {
           "description": "Exception handling type",
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "QueryResponse",
           "package": "tablestorage",
@@ -1004,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unencrypted content of the Shared Key authorization header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "SharedKeyAuth",
           "package": "tablestorage",
@@ -1013,6 +1094,7 @@
         "index": {
           "description": "The unencrypted content of the Shared Key authorization header",
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "SharedKeyAuth",
           "package": "tablestorage",
@@ -1027,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of authorization header signatures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "Signature",
           "package": "tablestorage",
@@ -1036,6 +1119,7 @@
         "index": {
           "description": "The type of authorization header signatures",
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "Signature",
           "package": "tablestorage",
@@ -1050,6 +1134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTableStorage configuration data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "TableConf",
           "package": "tablestorage",
@@ -1059,6 +1144,7 @@
         "index": {
           "description": "TableStorage configuration data",
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "TableConf",
           "package": "tablestorage",
@@ -1073,6 +1159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "TableError",
           "package": "tablestorage",
@@ -1082,6 +1169,7 @@
         "index": {
           "description": "Error type",
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "TableError",
           "package": "tablestorage",
@@ -1096,6 +1184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad stack and return type of operations on azure tables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "TableStorage",
           "package": "tablestorage",
@@ -1105,6 +1194,7 @@
         "index": {
           "description": "Monad stack and return type of operations on azure tables",
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "TableStorage",
           "package": "tablestorage",
@@ -1118,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "Account",
           "package": "tablestorage",
@@ -1127,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "Account",
           "package": "tablestorage",
@@ -1140,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "AccountKey",
           "package": "tablestorage",
@@ -1149,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "AccountKey",
           "package": "tablestorage",
@@ -1162,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "And",
           "package": "tablestorage",
@@ -1171,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "And",
           "normalized": "And[EntityFilter]",
@@ -1186,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "AuthHeader",
           "package": "tablestorage",
@@ -1195,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "AuthHeader",
           "package": "tablestorage",
@@ -1208,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "CompareBoolean",
           "package": "tablestorage",
@@ -1217,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "CompareBoolean",
           "package": "tablestorage",
@@ -1230,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "CompareDateTime",
           "package": "tablestorage",
@@ -1239,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "CompareDateTime",
           "package": "tablestorage",
@@ -1252,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "CompareDouble",
           "package": "tablestorage",
@@ -1261,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "CompareDouble",
           "package": "tablestorage",
@@ -1274,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "CompareGuid",
           "package": "tablestorage",
@@ -1283,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "CompareGuid",
           "package": "tablestorage",
@@ -1296,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "CompareInt32",
           "package": "tablestorage",
@@ -1305,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "CompareInt32",
           "package": "tablestorage",
@@ -1318,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "CompareInt64",
           "package": "tablestorage",
@@ -1327,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "CompareInt64",
           "package": "tablestorage",
@@ -1340,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "CompareString",
           "package": "tablestorage",
@@ -1349,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "CompareString",
           "package": "tablestorage",
@@ -1362,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "EdmBinary",
           "package": "tablestorage",
@@ -1371,6 +1484,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "EdmBinary",
           "package": "tablestorage",
@@ -1384,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "EdmBoolean",
           "package": "tablestorage",
@@ -1393,6 +1508,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "EdmBoolean",
           "package": "tablestorage",
@@ -1406,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "EdmDateTime",
           "package": "tablestorage",
@@ -1415,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "EdmDateTime",
           "package": "tablestorage",
@@ -1428,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "EdmDouble",
           "package": "tablestorage",
@@ -1437,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "EdmDouble",
           "package": "tablestorage",
@@ -1450,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "EdmGuid",
           "package": "tablestorage",
@@ -1459,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "EdmGuid",
           "package": "tablestorage",
@@ -1472,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "EdmInt32",
           "package": "tablestorage",
@@ -1481,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "EdmInt32",
           "package": "tablestorage",
@@ -1494,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "EdmInt64",
           "package": "tablestorage",
@@ -1503,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "EdmInt64",
           "package": "tablestorage",
@@ -1516,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "EdmString",
           "package": "tablestorage",
@@ -1525,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "EdmString",
           "package": "tablestorage",
@@ -1538,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "Entity",
           "package": "tablestorage",
@@ -1547,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "Entity",
           "package": "tablestorage",
@@ -1560,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "EntityKey",
           "package": "tablestorage",
@@ -1569,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "EntityKey",
           "package": "tablestorage",
@@ -1582,6 +1714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "EntityQuery",
           "package": "tablestorage",
@@ -1591,6 +1724,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "EntityQuery",
           "package": "tablestorage",
@@ -1604,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "Equal",
           "package": "tablestorage",
@@ -1613,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "Equal",
           "package": "tablestorage",
@@ -1626,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "GreaterThan",
           "package": "tablestorage",
@@ -1635,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "GreaterThan",
           "package": "tablestorage",
@@ -1648,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "GreaterThanOrEqual",
           "package": "tablestorage",
@@ -1657,6 +1796,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "GreaterThanOrEqual",
           "package": "tablestorage",
@@ -1670,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "LessThan",
           "package": "tablestorage",
@@ -1679,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "LessThan",
           "package": "tablestorage",
@@ -1692,6 +1834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "LessThanOrEqual",
           "package": "tablestorage",
@@ -1701,6 +1844,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "LessThanOrEqual",
           "package": "tablestorage",
@@ -1714,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "Not",
           "package": "tablestorage",
@@ -1723,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "Not",
           "package": "tablestorage",
@@ -1736,6 +1882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "NotEqual",
           "package": "tablestorage",
@@ -1745,6 +1892,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "NotEqual",
           "package": "tablestorage",
@@ -1758,6 +1906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "Or",
           "package": "tablestorage",
@@ -1767,6 +1916,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "Or",
           "normalized": "Or[EntityFilter]",
@@ -1782,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "QueryResponse",
           "package": "tablestorage",
@@ -1791,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "QueryResponse",
           "package": "tablestorage",
@@ -1804,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "SharedKeyAuth",
           "package": "tablestorage",
@@ -1813,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "SharedKeyAuth",
           "package": "tablestorage",
@@ -1826,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "Signature",
           "package": "tablestorage",
@@ -1835,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "Signature",
           "package": "tablestorage",
@@ -1848,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "TableConf",
           "package": "tablestorage",
@@ -1857,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "TableConf",
           "package": "tablestorage",
@@ -1870,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "TableOtherError",
           "package": "tablestorage",
@@ -1879,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "TableOtherError",
           "package": "tablestorage",
@@ -1892,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "TableParseError",
           "package": "tablestorage",
@@ -1901,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "TableParseError",
           "package": "tablestorage",
@@ -1914,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "TableUnknownError",
           "package": "tablestorage",
@@ -1923,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "TableUnknownError",
           "package": "tablestorage",
@@ -1936,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "accountHost",
           "package": "tablestorage",
@@ -1945,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "accountHost",
           "package": "tablestorage",
@@ -1958,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "accountKey",
           "package": "tablestorage",
@@ -1967,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "accountKey",
           "package": "tablestorage",
@@ -1980,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "accountName",
           "package": "tablestorage",
@@ -1989,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "accountName",
           "package": "tablestorage",
@@ -2002,6 +2172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "accountPort",
           "package": "tablestorage",
@@ -2011,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "accountPort",
           "package": "tablestorage",
@@ -2024,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "accountResourcePrefix",
           "package": "tablestorage",
@@ -2033,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "accountResourcePrefix",
           "package": "tablestorage",
@@ -2046,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "accountScheme",
           "package": "tablestorage",
@@ -2055,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "accountScheme",
           "package": "tablestorage",
@@ -2068,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "ekPartitionKey",
           "package": "tablestorage",
@@ -2077,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "ekPartitionKey",
           "package": "tablestorage",
@@ -2090,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "ekRowKey",
           "package": "tablestorage",
@@ -2099,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "ekRowKey",
           "package": "tablestorage",
@@ -2112,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "entityColumns",
           "package": "tablestorage",
@@ -2121,6 +2302,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "entityColumns",
           "normalized": "[(String,EntityColumn)]",
@@ -2136,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "entityKey",
           "package": "tablestorage",
@@ -2145,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "entityKey",
           "package": "tablestorage",
@@ -2158,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "eqFilter",
           "package": "tablestorage",
@@ -2167,6 +2352,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "eqFilter",
           "package": "tablestorage",
@@ -2180,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "eqPageSize",
           "package": "tablestorage",
@@ -2189,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "eqPageSize",
           "package": "tablestorage",
@@ -2202,6 +2390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "httpManager",
           "package": "tablestorage",
@@ -2211,6 +2400,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "httpManager",
           "package": "tablestorage",
@@ -2224,6 +2414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "httpProxy",
           "package": "tablestorage",
@@ -2233,6 +2424,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "httpProxy",
           "package": "tablestorage",
@@ -2246,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "sharedKeyAuthCanonicalizedResource",
           "package": "tablestorage",
@@ -2255,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "sharedKeyAuthCanonicalizedResource",
           "package": "tablestorage",
@@ -2268,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "sharedKeyAuthContentMD5",
           "package": "tablestorage",
@@ -2277,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "sharedKeyAuthContentMD5",
           "package": "tablestorage",
@@ -2290,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "sharedKeyAuthContentType",
           "package": "tablestorage",
@@ -2299,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "sharedKeyAuthContentType",
           "package": "tablestorage",
@@ -2312,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "sharedKeyAuthDate",
           "package": "tablestorage",
@@ -2321,6 +2520,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "sharedKeyAuthDate",
           "package": "tablestorage",
@@ -2334,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "sharedKeyAuthVerb",
           "package": "tablestorage",
@@ -2343,6 +2544,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "sharedKeyAuthVerb",
           "package": "tablestorage",
@@ -2356,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "tableAccount",
           "package": "tablestorage",
@@ -2365,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "tableAccount",
           "package": "tablestorage",
@@ -2378,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "unAccountKey",
           "package": "tablestorage",
@@ -2387,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "unAccountKey",
           "package": "tablestorage",
@@ -2400,6 +2606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "unAuthHeader",
           "package": "tablestorage",
@@ -2409,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "unAuthHeader",
           "package": "tablestorage",
@@ -2422,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage.Types",
           "name": "unSignature",
           "package": "tablestorage",
@@ -2431,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "Network TableStorage Types",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage.Types",
           "name": "unSignature",
           "package": "tablestorage",
@@ -2445,6 +2655,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple wrapper for the Azure Table Storage REST API\n\u003c/p\u003e\u003cp\u003eThis module exists simply to re-export the following:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eNetwork.TableStorage.Types\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eNetwork.TableStorage.API\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eNetwork.TableStorage.Development\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:10 UTC 2014",
           "module": "Network.TableStorage",
           "name": "TableStorage",
           "package": "tablestorage",
@@ -2454,6 +2665,7 @@
         "index": {
           "description": "simple wrapper for the Azure Table Storage REST API This module exists simply to re-export the following Network.TableStorage.Types Network.TableStorage.API Network.TableStorage.Development",
           "hierarchy": "Network TableStorage",
+          "indexed": "2014-03-11T20:16:10",
           "module": "Network.TableStorage",
           "name": "TableStorage",
           "package": "tablestorage",

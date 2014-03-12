@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-address"
+        "phrase": "network-address",
+        "type": "phrase"
       },
       "type": "context"
     }

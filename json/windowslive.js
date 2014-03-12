@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "windowslive"
+        "phrase": "windowslive",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.App",
           "name": "App",
           "package": "windowslive",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network WindowsLive App",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.App",
           "name": "App",
           "package": "windowslive",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.App",
           "name": "AppID",
           "package": "windowslive",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network WindowsLive App",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.App",
           "name": "AppID",
           "package": "windowslive",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.App",
           "name": "appId",
           "package": "windowslive",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Network WindowsLive App",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.App",
           "name": "appId",
           "normalized": "App-\u003eAppID",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "Decode, validate, and parse a String containing x-www-urlencoded\n |data encrypted with this application's secret\n",
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.App",
           "name": "decode",
           "package": "windowslive",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Decode validate and parse String containing x-www-urlencoded data encrypted with this application secret",
           "hierarchy": "Network WindowsLive App",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.App",
           "name": "decode",
           "normalized": "App-\u003eString-\u003ea URLEncoded",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "Create a new \u003ctt\u003e\u003ca\u003eApp\u003c/a\u003e\u003c/tt\u003e, validating the Application ID and Secret key\n",
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.App",
           "name": "new",
           "package": "windowslive",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Create new App validating the Application ID and Secret key",
           "hierarchy": "Network WindowsLive App",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.App",
           "name": "new",
           "normalized": "String-\u003eString-\u003ea App",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "Generate an application verifier to prove to the server that we\n know the secret and application ID\n",
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.App",
           "name": "verifier",
           "package": "windowslive",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Generate an application verifier to prove to the server that we know the secret and application ID",
           "hierarchy": "Network WindowsLive App",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.App",
           "name": "verifier",
           "normalized": "App-\u003ePOSIXTime-\u003eURLEncoded",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "ConsentQuery",
           "package": "windowslive",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Network WindowsLive ConsentToken",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "ConsentQuery",
           "package": "windowslive",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "ConsentToken",
           "package": "windowslive",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Network WindowsLive ConsentToken",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "ConsentToken",
           "package": "windowslive",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "DelegationToken",
           "package": "windowslive",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Network WindowsLive ConsentToken",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "DelegationToken",
           "package": "windowslive",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "Offer",
           "package": "windowslive",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Network WindowsLive ConsentToken",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "Offer",
           "package": "windowslive",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "OfferType",
           "package": "windowslive",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Network WindowsLive ConsentToken",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "OfferType",
           "package": "windowslive",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "RefreshToken",
           "package": "windowslive",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Network WindowsLive ConsentToken",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "RefreshToken",
           "package": "windowslive",
@@ -286,6 +310,7 @@
       "document": {
         "description": {
           "description": "Generate a consent query with the minimum information filled in\n",
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "consentQuery",
           "package": "windowslive",
@@ -296,6 +321,7 @@
         "index": {
           "description": "Generate consent query with the minimum information filled in",
           "hierarchy": "Network WindowsLive ConsentToken",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "consentQuery",
           "normalized": "[OfferType]-\u003eURI-\u003eURI-\u003eConsentQuery",
@@ -312,6 +338,7 @@
       "document": {
         "description": {
           "description": "The base consent URL for consent requests\n",
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "consentUrl",
           "package": "windowslive",
@@ -322,6 +349,7 @@
         "index": {
           "description": "The base consent URL for consent requests",
           "hierarchy": "Network WindowsLive ConsentToken",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "consentUrl",
           "package": "windowslive",
@@ -336,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a consent query, generate a (relative) \u003ctt\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/tt\u003e to initiate\n Delegated Authentication. This URI must be turned into an absolute\n URI by e.g:\n\u003c/p\u003e\u003cpre\u003e\n   let relConsentUrl = getConsentUrl app ts consentQuery\n   in relConsentUrl `relativeTo` \u003ctt\u003e\u003ca\u003econsentUrl\u003c/a\u003e\u003c/tt\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "getConsentUrl",
           "package": "windowslive",
@@ -346,6 +375,7 @@
         "index": {
           "description": "Given consent query generate relative URI to initiate Delegated Authentication This URI must be turned into an absolute URI by e.g let relConsentUrl getConsentUrl app ts consentQuery in relConsentUrl relativeTo consentUrl",
           "hierarchy": "Network WindowsLive ConsentToken",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "getConsentUrl",
           "normalized": "App-\u003ePOSIXTime-\u003eConsentQuery-\u003eURI",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "Extract and validate an encrypted consent token. This function\n does not check to see if the token has expired.\n",
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "processConsentToken",
           "package": "windowslive",
@@ -372,6 +403,7 @@
         "index": {
           "description": "Extract and validate an encrypted consent token This function does not check to see if the token has expired",
           "hierarchy": "Network WindowsLive ConsentToken",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.ConsentToken",
           "name": "processConsentToken",
           "normalized": "App-\u003eString-\u003ea ConsentToken",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.Login",
           "name": "User",
           "package": "windowslive",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Network WindowsLive Login",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.Login",
           "name": "User",
           "package": "windowslive",
@@ -408,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.Login",
           "name": "baseUrl",
           "package": "windowslive",
@@ -417,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Network WindowsLive Login",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.Login",
           "name": "baseUrl",
           "package": "windowslive",
@@ -431,6 +467,7 @@
       "document": {
         "description": {
           "description": "The application context\nThe locale in which to display the\n authentication UI\n",
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.Login",
           "name": "getLoginUrl",
           "package": "windowslive",
@@ -441,6 +478,7 @@
         "index": {
           "description": "The application context The locale in which to display the authentication UI",
           "hierarchy": "Network WindowsLive Login",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.Login",
           "name": "getLoginUrl",
           "normalized": "App-\u003eMaybe String-\u003eMaybe String-\u003eURI",
@@ -457,6 +495,7 @@
       "document": {
         "description": {
           "description": "The locale in which to display\n the sign out process\n",
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.Login",
           "name": "getLogoutUrl",
           "package": "windowslive",
@@ -467,6 +506,7 @@
         "index": {
           "description": "The locale in which to display the sign out process",
           "hierarchy": "Network WindowsLive Login",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.Login",
           "name": "getLogoutUrl",
           "normalized": "App-\u003eMaybe String-\u003eURI",
@@ -483,6 +523,7 @@
       "document": {
         "description": {
           "description": "Parse and validate a token from an authentication response. Throws\n an error on failure.\n",
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.Login",
           "name": "processToken",
           "package": "windowslive",
@@ -493,6 +534,7 @@
         "index": {
           "description": "Parse and validate token from an authentication response Throws an error on failure",
           "hierarchy": "Network WindowsLive Login",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.Login",
           "name": "processToken",
           "normalized": "App-\u003eString-\u003ea User",
@@ -508,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:06 UTC 2014",
           "module": "Network.WindowsLive.Login",
           "name": "secureUrl",
           "package": "windowslive",
@@ -517,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Network WindowsLive Login",
+          "indexed": "2014-03-11T20:39:06",
           "module": "Network.WindowsLive.Login",
           "name": "secureUrl",
           "package": "windowslive",

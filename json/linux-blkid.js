@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "linux-blkid"
+        "phrase": "linux-blkid",
+        "type": "phrase"
       },
       "type": "context"
     }

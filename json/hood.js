@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hood"
+        "phrase": "hood",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "Observe",
           "package": "hood",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "Observe",
           "package": "hood",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "CDS",
           "package": "hood",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "CDS",
           "package": "hood",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "Observable",
           "package": "hood",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "Observable",
           "package": "hood",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "Observer",
           "package": "hood",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "Observer",
           "package": "hood",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "Observing",
           "package": "hood",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "Observing",
           "package": "hood",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "(\u003c\u003c)",
           "package": "hood",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "(\u003c\u003c) \u003c\u003c",
           "normalized": "ObserverM(a-\u003eb)-\u003ea-\u003eObserverM b",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "CDSCons",
           "package": "hood",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "CDSCons",
           "normalized": "CDSCons Int String[CDSSet]",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "CDSEntered",
           "package": "hood",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "CDSEntered",
           "package": "hood",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "CDSFun",
           "package": "hood",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "CDSFun",
           "package": "hood",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "CDSNamed",
           "package": "hood",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "CDSNamed",
           "package": "hood",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "O",
           "package": "hood",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "O",
           "normalized": "String-\u003ea-\u003ea)",
@@ -260,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun some code and return the CDS structure (for when you want to write your own debugger).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "debugO",
           "package": "hood",
@@ -270,6 +293,7 @@
         "index": {
           "description": "run some code and return the CDS structure for when you want to write your own debugger",
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "debugO",
           "normalized": "IO a-\u003eIO[CDS]",
@@ -285,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eobserve\u003c/a\u003e\u003c/code\u003e observes data structures in flight.\n\u003c/p\u003e\u003cp\u003eAn example of use is \n  \u003ccode\u003e\n    map (+1) . observe \"intermeduate\" . map (+2)\n  \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eIn this example, we observe the value that flows from the producer\n \u003ccode\u003emap (+2)\u003c/code\u003e to the consumer \u003ccode\u003emap (+1)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eobserve\u003c/a\u003e\u003c/code\u003e can also observe functions as well a structural values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "observe",
           "package": "hood",
@@ -295,6 +320,7 @@
         "index": {
           "description": "observe observes data structures in flight An example of use is map observe intermeduate map In this example we observe the value that flows from the producer map to the consumer map observe can also observe functions as well structural values",
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "observe",
           "normalized": "String-\u003ea-\u003ea",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "observeBase",
           "package": "hood",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "observeBase",
           "normalized": "a-\u003eParent-\u003ea",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "observeOpaque",
           "package": "hood",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "observeOpaque",
           "normalized": "String-\u003ea-\u003eParent-\u003ea",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "observer",
           "package": "hood",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "observer",
           "normalized": "a-\u003eParent-\u003ea",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "observers",
           "package": "hood",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "observers",
           "normalized": "String-\u003e(Observer-\u003ea)-\u003ea",
@@ -404,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprint a value, with debugging \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "printO",
           "package": "hood",
@@ -414,6 +449,7 @@
         "index": {
           "description": "print value with debugging",
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "printO",
           "normalized": "a-\u003eIO()",
@@ -429,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprint a string, with debugging \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "putStrO",
           "package": "hood",
@@ -439,6 +476,7 @@
         "index": {
           "description": "print string with debugging",
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "putStrO",
           "normalized": "String-\u003eIO()",
@@ -455,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main entry point; run some IO code, and debug inside it.\n\u003c/p\u003e\u003cp\u003eAn example of using this debugger is \n\u003c/p\u003e\u003cpre\u003erunO (print [ observe \u003ca\u003e+1\u003c/a\u003e (+1) x | x \u003c- observe \u003ca\u003exs\u003c/a\u003e [1..3]])\u003c/pre\u003e\u003cpre\u003e[2,3,4]\n -- +1\n  {  1  -\u003e 2\n  }\n -- +1\n  {  2  -\u003e 3\n  }\n -- +1\n  {  3  -\u003e 4\n  }\n -- xs\n  1 : 2 : 3 : []\u003c/pre\u003e\u003cp\u003eWhich says, the return is \u003ccode\u003e[2,3,4]\u003c/code\u003e, there were \u003ccode\u003e3\u003c/code\u003e calls to +1\n (showing arguments and results), and \u003ccode\u003exs\u003c/code\u003e, which was the list\n \u003ccode\u003e1 : 2 : 3 : []\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "runO",
           "package": "hood",
@@ -465,6 +504,7 @@
         "index": {
           "description": "The main entry point run some IO code and debug inside it An example of using this debugger is runO print observe observe xs xs Which says the return is there were calls to showing arguments and results and xs which was the list",
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "runO",
           "normalized": "IO a-\u003eIO()",
@@ -479,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "send",
           "package": "hood",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "send",
           "normalized": "String-\u003eObserverM a-\u003eParent-\u003ea",
@@ -502,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:27 UTC 2014",
           "module": "Debug.Hood.Observe",
           "name": "thunk",
           "package": "hood",
@@ -511,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Debug Hood Observe",
+          "indexed": "2014-03-11T18:43:27",
           "module": "Debug.Hood.Observe",
           "name": "thunk",
           "normalized": "a-\u003eObserverM a",

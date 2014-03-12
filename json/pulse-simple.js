@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pulse-simple"
+        "phrase": "pulse-simple",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBinding to PulseAudio Simple API (original documentation:\n  \u003ca\u003ehttp://freedesktop.org/software/pulseaudio/doxygen/simple_8h.html\u003c/a\u003e)\n\u003c/p\u003e\u003cp\u003eplayback example(output 440Hz sine wave for 10 seconds):\n\u003c/p\u003e\u003cpre\u003e\n  main=do\n      s\u003c-simpleNew Nothing \"example\" Play Nothing \"this is an example application\"\n          (SampleSpec (F32 LittleEndian) 44100 1) Nothing Nothing\n      simpleWrite s ([sin $ 2*pi*440*(t/44100)|t\u003c-[1..44100*10]] :: [Float])\n      simpleDrain s\n      simpleFree s\n\u003c/pre\u003e\u003cp\u003erecording example(record for 10 seconds):\n\u003c/p\u003e\u003cpre\u003e\n  main=do\n      s\u003c-simpleNew Nothing \"example\" Record Nothing \"this is an example application\"\n          (SampleSpec (F32 LittleEndian) 44100 1) Nothing Nothing\n      xs\u003c-simpleRead s $ 44100*10 :: IO [Float]\n      simpleFree s\n\u003c/pre\u003e\u003cp\u003eNote that recording starts when \u003ccode\u003e\u003ca\u003esimpleNew\u003c/a\u003e\u003c/code\u003e is called.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "Simple",
           "package": "pulse-simple",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Binding to PulseAudio Simple API original documentation http freedesktop.org software pulseaudio doxygen simple h.html playback example output Hz sine wave for seconds main do simpleNew Nothing example Play Nothing this is an example application SampleSpec F32 LittleEndian Nothing Nothing simpleWrite sin pi Float simpleDrain simpleFree recording example record for seconds main do simpleNew Nothing example Record Nothing this is an example application SampleSpec F32 LittleEndian Nothing Nothing xs simpleRead IO Float simpleFree Note that recording starts when simpleNew is called",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "Simple",
           "package": "pulse-simple",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emax length, target length, prebuffer, minimum request, fragment size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "BufferAttr",
           "package": "pulse-simple",
@@ -51,6 +54,7 @@
         "index": {
           "description": "max length target length prebuffer minimum request fragment size",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "BufferAttr",
           "package": "pulse-simple",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelPan",
           "package": "pulse-simple",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelPan",
           "package": "pulse-simple",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelPosition",
           "package": "pulse-simple",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelPosition",
           "package": "pulse-simple",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "Compression",
           "package": "pulse-simple",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "Compression",
           "package": "pulse-simple",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "Direction",
           "package": "pulse-simple",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "Direction",
           "package": "pulse-simple",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "Endian",
           "package": "pulse-simple",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "Endian",
           "package": "pulse-simple",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "SampleFormat",
           "package": "pulse-simple",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "SampleFormat",
           "package": "pulse-simple",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "SampleSpec",
           "package": "pulse-simple",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "SampleSpec",
           "package": "pulse-simple",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "Simple",
           "package": "pulse-simple",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "Simple",
           "package": "pulse-simple",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "ALaw",
           "package": "pulse-simple",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "ALaw",
           "package": "pulse-simple",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "BigEndian",
           "package": "pulse-simple",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "BigEndian",
           "package": "pulse-simple",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "BufferAttr",
           "package": "pulse-simple",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "BufferAttr",
           "package": "pulse-simple",
@@ -298,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelAux",
           "package": "pulse-simple",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelAux",
           "package": "pulse-simple",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelFront",
           "package": "pulse-simple",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelFront",
           "package": "pulse-simple",
@@ -343,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eequivalent to PA_CHANNEL_POSITION_FRONT_LEFT_OF_CENTER\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelFrontCenterLeft",
           "package": "pulse-simple",
@@ -353,6 +384,7 @@
         "index": {
           "description": "equivalent to PA CHANNEL POSITION FRONT LEFT OF CENTER",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelFrontCenterLeft",
           "package": "pulse-simple",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelFrontCenterRight",
           "package": "pulse-simple",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelFrontCenterRight",
           "package": "pulse-simple",
@@ -389,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elow frequency effects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelLFE",
           "package": "pulse-simple",
@@ -399,6 +434,7 @@
         "index": {
           "description": "low frequency effects",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelLFE",
           "package": "pulse-simple",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelMono",
           "package": "pulse-simple",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelMono",
           "package": "pulse-simple",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelNormal",
           "package": "pulse-simple",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelNormal",
           "package": "pulse-simple",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelRear",
           "package": "pulse-simple",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelRear",
           "package": "pulse-simple",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelSideLeft",
           "package": "pulse-simple",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelSideLeft",
           "package": "pulse-simple",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelSideRight",
           "package": "pulse-simple",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelSideRight",
           "package": "pulse-simple",
@@ -522,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelSubwoofer",
           "package": "pulse-simple",
@@ -531,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelSubwoofer",
           "package": "pulse-simple",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelTopCenter",
           "package": "pulse-simple",
@@ -553,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelTopCenter",
           "package": "pulse-simple",
@@ -566,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelTopFront",
           "package": "pulse-simple",
@@ -575,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelTopFront",
           "package": "pulse-simple",
@@ -588,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelTopRear",
           "package": "pulse-simple",
@@ -597,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "ChannelTopRear",
           "package": "pulse-simple",
@@ -611,6 +665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32 bit float in [-1,1]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "F32",
           "package": "pulse-simple",
@@ -621,6 +676,7 @@
         "index": {
           "description": "bit float in",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "F32",
           "package": "pulse-simple",
@@ -633,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "LittleEndian",
           "package": "pulse-simple",
@@ -642,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "LittleEndian",
           "package": "pulse-simple",
@@ -655,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "MuLaw",
           "package": "pulse-simple",
@@ -664,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "MuLaw",
           "package": "pulse-simple",
@@ -677,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "PanCenter",
           "package": "pulse-simple",
@@ -686,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "PanCenter",
           "package": "pulse-simple",
@@ -699,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "PanLeft",
           "package": "pulse-simple",
@@ -708,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "PanLeft",
           "package": "pulse-simple",
@@ -721,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "PanRight",
           "package": "pulse-simple",
@@ -730,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "PanRight",
           "package": "pulse-simple",
@@ -743,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "Play",
           "package": "pulse-simple",
@@ -752,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "Play",
           "package": "pulse-simple",
@@ -765,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "Raw",
           "package": "pulse-simple",
@@ -774,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "Raw",
           "package": "pulse-simple",
@@ -787,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "Record",
           "package": "pulse-simple",
@@ -796,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "Record",
           "package": "pulse-simple",
@@ -810,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e16 bit signed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "S16",
           "package": "pulse-simple",
@@ -820,6 +893,7 @@
         "index": {
           "description": "bit signed",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "S16",
           "package": "pulse-simple",
@@ -833,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e24 bit signed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "S24",
           "package": "pulse-simple",
@@ -843,6 +918,7 @@
         "index": {
           "description": "bit signed",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "S24",
           "package": "pulse-simple",
@@ -856,6 +932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e24 bit signed padded to 32 bit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "S2432",
           "package": "pulse-simple",
@@ -866,6 +943,7 @@
         "index": {
           "description": "bit signed padded to bit",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "S2432",
           "package": "pulse-simple",
@@ -879,6 +957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32 bit signed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "S32",
           "package": "pulse-simple",
@@ -889,6 +968,7 @@
         "index": {
           "description": "bit signed",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "S32",
           "package": "pulse-simple",
@@ -902,6 +982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformat, sampling rate, #channels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "SampleSpec",
           "package": "pulse-simple",
@@ -912,6 +993,7 @@
         "index": {
           "description": "format sampling rate channels",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "SampleSpec",
           "package": "pulse-simple",
@@ -926,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8 bit unsigned (optionally compressed using \u003ccode\u003e\u003ca\u003eCompression\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "U8",
           "package": "pulse-simple",
@@ -936,6 +1019,7 @@
         "index": {
           "description": "bit unsigned optionally compressed using Compression",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "U8",
           "package": "pulse-simple",
@@ -949,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlock until playback buffer is completely consumed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "simpleDrain",
           "package": "pulse-simple",
@@ -959,6 +1044,7 @@
         "index": {
           "description": "Block until playback buffer is completely consumed",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "simpleDrain",
           "normalized": "Simple-\u003eIO()",
@@ -975,6 +1061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlush playback buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "simpleFlush",
           "package": "pulse-simple",
@@ -985,6 +1072,7 @@
         "index": {
           "description": "Flush playback buffer",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "simpleFlush",
           "normalized": "Simple-\u003eIO()",
@@ -1001,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "simpleFree",
           "package": "pulse-simple",
@@ -1011,6 +1100,7 @@
         "index": {
           "description": "Close the connection",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "simpleFree",
           "normalized": "Simple-\u003eIO()",
@@ -1027,6 +1117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet current latency in microseconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "simpleGetLatency",
           "package": "pulse-simple",
@@ -1037,6 +1128,7 @@
         "index": {
           "description": "Get current latency in microseconds",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "simpleGetLatency",
           "normalized": "Simple-\u003eIO Integer",
@@ -1053,6 +1145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEstablish connection to pulseaudio server. You usually don't need to specify optional fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "simpleNew",
           "package": "pulse-simple",
@@ -1062,6 +1155,7 @@
         "index": {
           "description": "Establish connection to pulseaudio server You usually don need to specify optional fields",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "simpleNew",
           "normalized": "Maybe String-\u003eString-\u003eDirection-\u003eMaybe String-\u003eString-\u003eSampleSpec-\u003eMaybe[ChannelPosition]-\u003eMaybe BufferAttr-\u003eIO Simple",
@@ -1078,6 +1172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead from buffer. (non-blocking if specified # of samples already exist in the internal buffer)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "simpleRead",
           "package": "pulse-simple",
@@ -1087,6 +1182,7 @@
         "index": {
           "description": "Read from buffer non-blocking if specified of samples already exist in the internal buffer",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "simpleRead",
           "normalized": "Simple-\u003eInt-\u003eIO[a]",
@@ -1103,6 +1199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead raw data from buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "simpleReadRaw",
           "package": "pulse-simple",
@@ -1113,6 +1210,7 @@
         "index": {
           "description": "Read raw data from buffer",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "simpleReadRaw",
           "normalized": "Simple-\u003eInt-\u003eIO ByteString",
@@ -1129,6 +1227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite to buffer. (blocks until buffer is \u003cem\u003ealmost\u003c/em\u003e consumed)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "simpleWrite",
           "package": "pulse-simple",
@@ -1139,6 +1238,7 @@
         "index": {
           "description": "Write to buffer blocks until buffer is almost consumed",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "simpleWrite",
           "normalized": "Simple-\u003e[a]-\u003eIO()",
@@ -1155,6 +1255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite raw data to buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:03 UTC 2014",
           "module": "Sound.Pulse.Simple",
           "name": "simpleWriteRaw",
           "package": "pulse-simple",
@@ -1165,6 +1266,7 @@
         "index": {
           "description": "Write raw data to buffer",
           "hierarchy": "Sound Pulse Simple",
+          "indexed": "2014-03-11T19:46:03",
           "module": "Sound.Pulse.Simple",
           "name": "simpleWriteRaw",
           "normalized": "Simple-\u003eByteString-\u003eIO()",

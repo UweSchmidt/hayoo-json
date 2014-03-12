@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "life"
+        "phrase": "life",
+        "type": "phrase"
       },
       "type": "context"
     }

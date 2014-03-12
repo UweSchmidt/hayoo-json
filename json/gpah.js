@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gpah"
+        "phrase": "gpah",
+        "type": "phrase"
       },
       "type": "context"
     }

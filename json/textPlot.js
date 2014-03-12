@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "textPlot"
+        "phrase": "textPlot",
+        "type": "phrase"
       },
       "type": "context"
     }

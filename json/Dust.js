@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Dust"
+        "phrase": "Dust",
+        "type": "phrase"
       },
       "type": "context"
     }

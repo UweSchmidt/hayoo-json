@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wl-pprint-terminfo"
+        "phrase": "wl-pprint-terminfo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "PrettyPrint",
           "package": "wl-pprint-terminfo",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "PrettyPrint",
           "package": "wl-pprint-terminfo",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Bell",
           "package": "wl-pprint-terminfo",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Bell",
           "package": "wl-pprint-terminfo",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Effect",
           "package": "wl-pprint-terminfo",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Effect",
           "package": "wl-pprint-terminfo",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "PrettyTerm",
           "package": "wl-pprint-terminfo",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "PrettyTerm",
           "package": "wl-pprint-terminfo",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "ScopedEffect",
           "package": "wl-pprint-terminfo",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "ScopedEffect",
           "package": "wl-pprint-terminfo",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "SimpleTermDoc",
           "package": "wl-pprint-terminfo",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "SimpleTermDoc",
           "package": "wl-pprint-terminfo",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "TermDoc",
           "package": "wl-pprint-terminfo",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "TermDoc",
           "package": "wl-pprint-terminfo",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "AudibleBellOnly",
           "package": "wl-pprint-terminfo",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "AudibleBellOnly",
           "package": "wl-pprint-terminfo",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "AudibleBellPreferred",
           "package": "wl-pprint-terminfo",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "AudibleBellPreferred",
           "package": "wl-pprint-terminfo",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Background",
           "package": "wl-pprint-terminfo",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Background",
           "package": "wl-pprint-terminfo",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Blink",
           "package": "wl-pprint-terminfo",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Blink",
           "package": "wl-pprint-terminfo",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Bold",
           "package": "wl-pprint-terminfo",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Bold",
           "package": "wl-pprint-terminfo",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Dim",
           "package": "wl-pprint-terminfo",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Dim",
           "package": "wl-pprint-terminfo",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Else",
           "package": "wl-pprint-terminfo",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Else",
           "package": "wl-pprint-terminfo",
@@ -319,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Foreground",
           "package": "wl-pprint-terminfo",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Foreground",
           "package": "wl-pprint-terminfo",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Invisible",
           "package": "wl-pprint-terminfo",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Invisible",
           "package": "wl-pprint-terminfo",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Nop",
           "package": "wl-pprint-terminfo",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Nop",
           "package": "wl-pprint-terminfo",
@@ -385,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Pop",
           "package": "wl-pprint-terminfo",
@@ -394,6 +429,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Pop",
           "package": "wl-pprint-terminfo",
@@ -407,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Protected",
           "package": "wl-pprint-terminfo",
@@ -416,6 +453,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Protected",
           "package": "wl-pprint-terminfo",
@@ -429,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Push",
           "package": "wl-pprint-terminfo",
@@ -438,6 +477,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Push",
           "package": "wl-pprint-terminfo",
@@ -451,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Reverse",
           "package": "wl-pprint-terminfo",
@@ -460,6 +501,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Reverse",
           "package": "wl-pprint-terminfo",
@@ -473,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Ring",
           "package": "wl-pprint-terminfo",
@@ -482,6 +525,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Ring",
           "package": "wl-pprint-terminfo",
@@ -495,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Standout",
           "package": "wl-pprint-terminfo",
@@ -504,6 +549,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Standout",
           "package": "wl-pprint-terminfo",
@@ -517,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Underline",
           "package": "wl-pprint-terminfo",
@@ -526,6 +573,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "Underline",
           "package": "wl-pprint-terminfo",
@@ -539,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "VisibleBellOnly",
           "package": "wl-pprint-terminfo",
@@ -548,6 +597,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "VisibleBellOnly",
           "package": "wl-pprint-terminfo",
@@ -561,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "VisibleBellPreferred",
           "package": "wl-pprint-terminfo",
@@ -570,6 +621,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "VisibleBellPreferred",
           "package": "wl-pprint-terminfo",
@@ -583,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "background",
           "package": "wl-pprint-terminfo",
@@ -592,6 +645,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "background",
           "normalized": "Color-\u003eTermDoc-\u003eTermDoc",
@@ -606,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "black",
           "package": "wl-pprint-terminfo",
@@ -615,6 +670,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "black",
           "normalized": "TermDoc-\u003eTermDoc",
@@ -629,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "blink",
           "package": "wl-pprint-terminfo",
@@ -638,6 +695,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "blink",
           "normalized": "TermDoc-\u003eTermDoc",
@@ -652,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "blue",
           "package": "wl-pprint-terminfo",
@@ -661,6 +720,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "blue",
           "normalized": "TermDoc-\u003eTermDoc",
@@ -675,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "bold",
           "package": "wl-pprint-terminfo",
@@ -684,6 +745,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "bold",
           "normalized": "TermDoc-\u003eTermDoc",
@@ -698,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "cyan",
           "package": "wl-pprint-terminfo",
@@ -707,6 +770,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "cyan",
           "normalized": "TermDoc-\u003eTermDoc",
@@ -721,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "dim",
           "package": "wl-pprint-terminfo",
@@ -730,6 +795,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "dim",
           "normalized": "TermDoc-\u003eTermDoc",
@@ -744,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "display",
           "package": "wl-pprint-terminfo",
@@ -753,6 +820,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "display",
           "normalized": "a-\u003eb()",
@@ -767,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "displayCap",
           "package": "wl-pprint-terminfo",
@@ -776,6 +845,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "displayCap",
           "normalized": "SimpleTermDoc-\u003eStateT TermState Capability TermOutput",
@@ -791,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "displayDoc",
           "package": "wl-pprint-terminfo",
@@ -800,6 +871,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "displayDoc",
           "normalized": "Float-\u003ea-\u003eb()",
@@ -815,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "displayDoc'",
           "package": "wl-pprint-terminfo",
@@ -824,6 +897,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "displayDoc'",
           "normalized": "Terminal-\u003eFloat-\u003ea-\u003eb()",
@@ -839,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "displayDoc''",
           "package": "wl-pprint-terminfo",
@@ -848,6 +923,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "displayDoc''",
           "normalized": "Terminal-\u003eFloat-\u003eInt-\u003ea-\u003eb()",
@@ -863,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "displayLn",
           "package": "wl-pprint-terminfo",
@@ -872,6 +949,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "displayLn",
           "normalized": "a-\u003eb()",
@@ -887,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "evalTermState",
           "package": "wl-pprint-terminfo",
@@ -896,6 +975,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "evalTermState",
           "normalized": "StateT TermState a b-\u003ea b",
@@ -911,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "foreground",
           "package": "wl-pprint-terminfo",
@@ -920,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "foreground",
           "normalized": "Color-\u003eTermDoc-\u003eTermDoc",
@@ -934,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "green",
           "package": "wl-pprint-terminfo",
@@ -943,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "green",
           "normalized": "TermDoc-\u003eTermDoc",
@@ -957,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "invisible",
           "package": "wl-pprint-terminfo",
@@ -966,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "invisible",
           "normalized": "TermDoc-\u003eTermDoc",
@@ -980,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "magenta",
           "package": "wl-pprint-terminfo",
@@ -989,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "magenta",
           "normalized": "TermDoc-\u003eTermDoc",
@@ -1003,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "prettyTerm",
           "package": "wl-pprint-terminfo",
@@ -1012,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "prettyTerm",
           "normalized": "a-\u003eTermDoc",
@@ -1027,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "prettyTermList",
           "package": "wl-pprint-terminfo",
@@ -1036,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "prettyTermList",
           "normalized": "[a]-\u003eTermDoc",
@@ -1051,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "protected",
           "package": "wl-pprint-terminfo",
@@ -1060,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "protected",
           "normalized": "TermDoc-\u003eTermDoc",
@@ -1074,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "red",
           "package": "wl-pprint-terminfo",
@@ -1083,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "red",
           "normalized": "TermDoc-\u003eTermDoc",
@@ -1097,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "reversed",
           "package": "wl-pprint-terminfo",
@@ -1106,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "reversed",
           "normalized": "TermDoc-\u003eTermDoc",
@@ -1120,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "ring",
           "package": "wl-pprint-terminfo",
@@ -1129,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "ring",
           "normalized": "Bell-\u003eTermDoc",
@@ -1143,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "soft",
           "package": "wl-pprint-terminfo",
@@ -1152,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "soft",
           "normalized": "ScopedEffect-\u003eScopedEffect",
@@ -1166,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "standout",
           "package": "wl-pprint-terminfo",
@@ -1175,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "standout",
           "normalized": "TermDoc-\u003eTermDoc",
@@ -1189,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "underline",
           "package": "wl-pprint-terminfo",
@@ -1198,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "underline",
           "normalized": "TermDoc-\u003eTermDoc",
@@ -1212,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "white",
           "package": "wl-pprint-terminfo",
@@ -1221,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "white",
           "normalized": "TermDoc-\u003eTermDoc",
@@ -1235,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "with",
           "package": "wl-pprint-terminfo",
@@ -1244,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "with",
           "normalized": "ScopedEffect-\u003eTermDoc-\u003eTermDoc",
@@ -1258,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:39:25 UTC 2014",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "yellow",
           "package": "wl-pprint-terminfo",
@@ -1267,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "System Console Terminfo PrettyPrint",
+          "indexed": "2014-03-11T20:39:25",
           "module": "System.Console.Terminfo.PrettyPrint",
           "name": "yellow",
           "normalized": "TermDoc-\u003eTermDoc",

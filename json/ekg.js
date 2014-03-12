@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ekg"
+        "phrase": "ekg",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a type for mutable, integer-valued counters.\n Counters are non-negative, monotonically increasing values and can\n be used to track e.g. the number of requests served since program\n start.  All operations on counters are thread-safe.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Counter",
           "name": "Counter",
           "package": "ekg",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines type for mutable integer-valued counters Counters are non-negative monotonically increasing values and can be used to track e.g the number of requests served since program start All operations on counters are thread-safe",
           "hierarchy": "System Remote Counter",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Counter",
           "name": "Counter",
           "package": "ekg",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutable, integer-valued counter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Counter",
           "name": "Counter",
           "package": "ekg",
@@ -51,6 +54,7 @@
         "index": {
           "description": "mutable integer-valued counter",
           "hierarchy": "System Remote Counter",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Counter",
           "name": "Counter",
           "package": "ekg",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrease the counter by the given amount.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Counter",
           "name": "add",
           "package": "ekg",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Increase the counter by the given amount",
           "hierarchy": "System Remote Counter",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Counter",
           "name": "add",
           "normalized": "Counter-\u003eInt-\u003eIO()",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrease the counter by one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Counter",
           "name": "inc",
           "package": "ekg",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Increase the counter by one",
           "hierarchy": "System Remote Counter",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Counter",
           "name": "inc",
           "normalized": "Counter-\u003eIO()",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a type for mutable, integer-valued gauges.\n Gauges are variable values and can be used to track e.g. the\n current number of concurrent connections. All operations on gauges\n are thread-safe.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Gauge",
           "name": "Gauge",
           "package": "ekg",
@@ -124,6 +133,7 @@
         "index": {
           "description": "This module defines type for mutable integer-valued gauges Gauges are variable values and can be used to track e.g the current number of concurrent connections All operations on gauges are thread-safe",
           "hierarchy": "System Remote Gauge",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Gauge",
           "name": "Gauge",
           "package": "ekg",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutable, integer-valued gauge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Gauge",
           "name": "Gauge",
           "package": "ekg",
@@ -147,6 +158,7 @@
         "index": {
           "description": "mutable integer-valued gauge",
           "hierarchy": "System Remote Gauge",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Gauge",
           "name": "Gauge",
           "package": "ekg",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrease the gauge by the given amount.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Gauge",
           "name": "add",
           "package": "ekg",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Increase the gauge by the given amount",
           "hierarchy": "System Remote Gauge",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Gauge",
           "name": "add",
           "normalized": "Gauge-\u003eInt-\u003eIO()",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrease the gauge by one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Gauge",
           "name": "dec",
           "package": "ekg",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Decrease the gauge by one",
           "hierarchy": "System Remote Gauge",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Gauge",
           "name": "dec",
           "normalized": "Gauge-\u003eIO()",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrease the gauge by one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Gauge",
           "name": "inc",
           "package": "ekg",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Increase the gauge by one",
           "hierarchy": "System Remote Gauge",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Gauge",
           "name": "inc",
           "normalized": "Gauge-\u003eIO()",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the gauge to the result of applying the given function to the\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Gauge",
           "name": "modify",
           "package": "ekg",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Set the gauge to the result of applying the given function to the value",
           "hierarchy": "System Remote Gauge",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Gauge",
           "name": "modify",
           "normalized": "(Int-\u003eInt)-\u003eGauge-\u003eIO()",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the gauge to the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Gauge",
           "name": "set",
           "package": "ekg",
@@ -271,6 +292,7 @@
         "index": {
           "description": "Set the gauge to the given value",
           "hierarchy": "System Remote Gauge",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Gauge",
           "name": "set",
           "normalized": "Gauge-\u003eInt-\u003eIO()",
@@ -286,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrease the gauge by the given amount.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Gauge",
           "name": "subtract",
           "package": "ekg",
@@ -296,6 +319,7 @@
         "index": {
           "description": "Decrease the gauge by the given amount",
           "hierarchy": "System Remote Gauge",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Gauge",
           "name": "subtract",
           "normalized": "Gauge-\u003eInt-\u003eIO()",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a type for mutable, string-valued labels.\n Labels are variable values and can be used to track e.g. the\n command line arguments or other free-form values. All operations on\n labels are thread-safe.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Label",
           "name": "Label",
           "package": "ekg",
@@ -320,6 +345,7 @@
         "index": {
           "description": "This module defines type for mutable string-valued labels Labels are variable values and can be used to track e.g the command line arguments or other free-form values All operations on labels are thread-safe",
           "hierarchy": "System Remote Label",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Label",
           "name": "Label",
           "package": "ekg",
@@ -334,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutable, text-valued label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Label",
           "name": "Label",
           "package": "ekg",
@@ -343,6 +370,7 @@
         "index": {
           "description": "mutable text-valued label",
           "hierarchy": "System Remote Label",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Label",
           "name": "Label",
           "package": "ekg",
@@ -357,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the label to the result of applying the given function to the\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Label",
           "name": "modify",
           "package": "ekg",
@@ -367,6 +396,7 @@
         "index": {
           "description": "Set the label to the result of applying the given function to the value",
           "hierarchy": "System Remote Label",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Label",
           "name": "modify",
           "normalized": "(Text-\u003eText)-\u003eLabel-\u003eIO()",
@@ -382,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the label to the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Label",
           "name": "set",
           "package": "ekg",
@@ -392,6 +423,7 @@
         "index": {
           "description": "Set the label to the given value",
           "hierarchy": "System Remote Label",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Label",
           "name": "set",
           "normalized": "Label-\u003eText-\u003eIO()",
@@ -407,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides remote monitoring of a running process over\n HTTP.  It can be used to run an HTTP server that provides both a\n web-based user interface and a machine-readable API (e.g. JSON.)\n The former can be used by a human to get an overview of what the\n program is doing and the latter can be used by automated monitoring\n tools.\n\u003c/p\u003e\u003cp\u003eTypical usage is to start the monitoring server at program startup\n\u003c/p\u003e\u003cpre\u003e main = do\n     forkServer \"localhost\" 8000\n     ...\n\u003c/pre\u003e\u003cp\u003eand then periodically check the stats using a web browser or a\n command line tool (e.g. curl)\n\u003c/p\u003e\u003cpre\u003e $ curl -H \"Accept: application/json\" http://localhost:8000/\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Monitoring",
           "name": "Monitoring",
           "package": "ekg",
@@ -416,6 +449,7 @@
         "index": {
           "description": "This module provides remote monitoring of running process over HTTP It can be used to run an HTTP server that provides both web-based user interface and machine-readable API e.g JSON The former can be used by human to get an overview of what the program is doing and the latter can be used by automated monitoring tools Typical usage is to start the monitoring server at program startup main do forkServer localhost and then periodically check the stats using web browser or command line tool e.g curl curl Accept application json http localhost",
           "hierarchy": "System Remote Monitoring",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Monitoring",
           "name": "Monitoring",
           "package": "ekg",
@@ -430,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle that can be used to control the monitoring server.\n Created by \u003ccode\u003eforkServer\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Monitoring",
           "name": "Server",
           "package": "ekg",
@@ -439,6 +474,7 @@
         "index": {
           "description": "handle that can be used to control the monitoring server Created by forkServer",
           "hierarchy": "System Remote Monitoring",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Monitoring",
           "name": "Server",
           "package": "ekg",
@@ -453,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart an HTTP server in a new thread.  The server replies to GET\n requests to the given host and port.  The host argument can be\n either a numeric network address (dotted quad for IPv4,\n colon-separated hex for IPv6) or a hostname (e.g. \"localhost\".)\n The client can control the Content-Type used in responses by\n setting the Accept header.  At the moment three content types are\n available: \"application/json\", \"text/html\", and\n \"text/plain\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Monitoring",
           "name": "forkServer",
           "package": "ekg",
@@ -462,6 +499,7 @@
         "index": {
           "description": "Start an HTTP server in new thread The server replies to GET requests to the given host and port The host argument can be either numeric network address dotted quad for IPv4 colon-separated hex for IPv6 or hostname e.g localhost The client can control the Content-Type used in responses by setting the Accept header At the moment three content types are available application json text html and text plain",
           "hierarchy": "System Remote Monitoring",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Monitoring",
           "name": "forkServer",
           "normalized": "ByteString-\u003eInt-\u003eIO Server",
@@ -478,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the counter associated with the given name and server.\n Multiple calls to \u003ccode\u003e\u003ca\u003egetCounter\u003c/a\u003e\u003c/code\u003e with the same arguments will return\n the same counter.  The first time \u003ccode\u003e\u003ca\u003egetCounter\u003c/a\u003e\u003c/code\u003e is called for a\n given name and server, a new, zero-initialized counter will be\n returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Monitoring",
           "name": "getCounter",
           "package": "ekg",
@@ -487,6 +526,7 @@
         "index": {
           "description": "Return the counter associated with the given name and server Multiple calls to getCounter with the same arguments will return the same counter The first time getCounter is called for given name and server new zero-initialized counter will be returned",
           "hierarchy": "System Remote Monitoring",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Monitoring",
           "name": "getCounter",
           "normalized": "Text-\u003eServer-\u003eIO Counter",
@@ -503,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the gauge associated with the given name and server.\n Multiple calls to \u003ccode\u003e\u003ca\u003egetGauge\u003c/a\u003e\u003c/code\u003e with the same arguments will return\n the same gauge.  The first time \u003ccode\u003e\u003ca\u003egetGauge\u003c/a\u003e\u003c/code\u003e is called for a given\n name and server, a new, zero-initialized gauge will be returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Monitoring",
           "name": "getGauge",
           "package": "ekg",
@@ -512,6 +553,7 @@
         "index": {
           "description": "Return the gauge associated with the given name and server Multiple calls to getGauge with the same arguments will return the same gauge The first time getGauge is called for given name and server new zero-initialized gauge will be returned",
           "hierarchy": "System Remote Monitoring",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Monitoring",
           "name": "getGauge",
           "normalized": "Text-\u003eServer-\u003eIO Gauge",
@@ -528,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the label associated with the given name and server.\n Multiple calls to \u003ccode\u003e\u003ca\u003egetLabel\u003c/a\u003e\u003c/code\u003e with the same arguments will return\n the same label.  The first time \u003ccode\u003e\u003ca\u003egetLabel\u003c/a\u003e\u003c/code\u003e is called for a given\n name and server, a new, empty label will be returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Monitoring",
           "name": "getLabel",
           "package": "ekg",
@@ -537,6 +580,7 @@
         "index": {
           "description": "Return the label associated with the given name and server Multiple calls to getLabel with the same arguments will return the same label The first time getLabel is called for given name and server new empty label will be returned",
           "hierarchy": "System Remote Monitoring",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Monitoring",
           "name": "getLabel",
           "normalized": "Text-\u003eServer-\u003eIO Label",
@@ -553,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe thread ID of the server.  You can kill the server by killing\n this thread (i.e. by throwing it an asynchronous exception.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:46 UTC 2014",
           "module": "System.Remote.Monitoring",
           "name": "serverThreadId",
           "package": "ekg",
@@ -563,6 +608,7 @@
         "index": {
           "description": "The thread ID of the server You can kill the server by killing this thread i.e by throwing it an asynchronous exception",
           "hierarchy": "System Remote Monitoring",
+          "indexed": "2014-03-11T18:01:46",
           "module": "System.Remote.Monitoring",
           "name": "serverThreadId",
           "normalized": "Server-\u003eThreadId",

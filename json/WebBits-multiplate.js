@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "WebBits-multiplate"
+        "phrase": "WebBits-multiplate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "Multiplate",
           "package": "WebBits-multiplate",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Multiplate",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "Multiplate",
           "package": "WebBits-multiplate",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "Plate",
           "package": "WebBits-multiplate",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Multiplate",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "Plate",
           "package": "WebBits-multiplate",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "Plate",
           "package": "WebBits-multiplate",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Multiplate",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "Plate",
           "package": "WebBits-multiplate",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pAssignOp",
           "package": "WebBits-multiplate",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Multiplate",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pAssignOp",
           "normalized": "AssignOp-\u003ea AssignOp",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pCaseClause",
           "package": "WebBits-multiplate",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Multiplate",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pCaseClause",
           "normalized": "a b CaseClause c-\u003ed(CaseClause c)",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pCatchClause",
           "package": "WebBits-multiplate",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Multiplate",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pCatchClause",
           "normalized": "a b CatchClause c-\u003ed(CatchClause c)",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pExpression",
           "package": "WebBits-multiplate",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Multiplate",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pExpression",
           "normalized": "a b Expression c-\u003ed(Expression c)",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pForInInit",
           "package": "WebBits-multiplate",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Multiplate",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pForInInit",
           "normalized": "a b ForInInit c-\u003ed(ForInInit c)",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pForInit",
           "package": "WebBits-multiplate",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Multiplate",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pForInit",
           "normalized": "a b ForInit c-\u003ed(ForInit c)",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pId",
           "package": "WebBits-multiplate",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Multiplate",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pId",
           "normalized": "a b Id c-\u003ed(Id c)",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pInfixOp",
           "package": "WebBits-multiplate",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Multiplate",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pInfixOp",
           "normalized": "InfixOp-\u003ea InfixOp",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pJavaScript",
           "package": "WebBits-multiplate",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Multiplate",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pJavaScript",
           "normalized": "a b JavaScript c-\u003ed(JavaScript c)",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pLValue",
           "package": "WebBits-multiplate",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Multiplate",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pLValue",
           "normalized": "a b LValue c-\u003ed(LValue c)",
@@ -322,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pPrefixOp",
           "package": "WebBits-multiplate",
@@ -331,6 +358,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Multiplate",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pPrefixOp",
           "normalized": "PrefixOp-\u003ea PrefixOp",
@@ -346,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pProp",
           "package": "WebBits-multiplate",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Multiplate",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pProp",
           "normalized": "a b Prop c-\u003ed(Prop c)",
@@ -370,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pStatement",
           "package": "WebBits-multiplate",
@@ -379,6 +410,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Multiplate",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pStatement",
           "normalized": "a b Statement c-\u003ed(Statement c)",
@@ -394,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pUnaryAssignOp",
           "package": "WebBits-multiplate",
@@ -403,6 +436,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Multiplate",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pUnaryAssignOp",
           "normalized": "UnaryAssignOp-\u003ea UnaryAssignOp",
@@ -418,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pVarDecl",
           "package": "WebBits-multiplate",
@@ -427,6 +462,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript Multiplate",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.Multiplate",
           "name": "pVarDecl",
           "normalized": "a b VarDecl c-\u003ed(VarDecl c)",
@@ -442,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "MultiplateSimplified",
           "package": "WebBits-multiplate",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript MultiplateSimplified",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "MultiplateSimplified",
           "package": "WebBits-multiplate",
@@ -463,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "Plate",
           "package": "WebBits-multiplate",
@@ -471,6 +510,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript MultiplateSimplified",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "Plate",
           "package": "WebBits-multiplate",
@@ -484,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "Plate",
           "package": "WebBits-multiplate",
@@ -493,6 +534,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript MultiplateSimplified",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "Plate",
           "package": "WebBits-multiplate",
@@ -506,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pAssignOp",
           "package": "WebBits-multiplate",
@@ -515,6 +558,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript MultiplateSimplified",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pAssignOp",
           "normalized": "AssignOp-\u003ea AssignOp",
@@ -530,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pCaseClause",
           "package": "WebBits-multiplate",
@@ -539,6 +584,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript MultiplateSimplified",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pCaseClause",
           "normalized": "a b CaseClause c-\u003ed(CaseClause c)",
@@ -554,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pCatchClause",
           "package": "WebBits-multiplate",
@@ -563,6 +610,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript MultiplateSimplified",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pCatchClause",
           "normalized": "a b CatchClause c-\u003ed(CatchClause c)",
@@ -578,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pExpression",
           "package": "WebBits-multiplate",
@@ -587,6 +636,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript MultiplateSimplified",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pExpression",
           "normalized": "a b Expression c-\u003ed(Expression c)",
@@ -602,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pForInInit",
           "package": "WebBits-multiplate",
@@ -611,6 +662,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript MultiplateSimplified",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pForInInit",
           "normalized": "a b ForInInit c-\u003ed(ForInInit c)",
@@ -626,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pForInit",
           "package": "WebBits-multiplate",
@@ -635,6 +688,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript MultiplateSimplified",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pForInit",
           "normalized": "a b ForInit c-\u003ed(ForInit c)",
@@ -650,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pId",
           "package": "WebBits-multiplate",
@@ -659,6 +714,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript MultiplateSimplified",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pId",
           "normalized": "a b Id c-\u003ed(Id c)",
@@ -674,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pInfixOp",
           "package": "WebBits-multiplate",
@@ -683,6 +740,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript MultiplateSimplified",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pInfixOp",
           "normalized": "InfixOp-\u003ea InfixOp",
@@ -698,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pJavaScript",
           "package": "WebBits-multiplate",
@@ -707,6 +766,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript MultiplateSimplified",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pJavaScript",
           "normalized": "a b JavaScript c-\u003ed(JavaScript c)",
@@ -722,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pLValue",
           "package": "WebBits-multiplate",
@@ -731,6 +792,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript MultiplateSimplified",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pLValue",
           "normalized": "a b LValue c-\u003ed(LValue c)",
@@ -746,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pPrefixOp",
           "package": "WebBits-multiplate",
@@ -755,6 +818,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript MultiplateSimplified",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pPrefixOp",
           "normalized": "PrefixOp-\u003ea PrefixOp",
@@ -770,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pProp",
           "package": "WebBits-multiplate",
@@ -779,6 +844,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript MultiplateSimplified",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pProp",
           "normalized": "a b Prop c-\u003ed(Prop c)",
@@ -794,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pStatement",
           "package": "WebBits-multiplate",
@@ -803,6 +870,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript MultiplateSimplified",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pStatement",
           "normalized": "a b Statement c-\u003ed(Statement c)",
@@ -818,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pUnaryAssignOp",
           "package": "WebBits-multiplate",
@@ -827,6 +896,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript MultiplateSimplified",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pUnaryAssignOp",
           "normalized": "UnaryAssignOp-\u003ea UnaryAssignOp",
@@ -842,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:21 UTC 2014",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pVarDecl",
           "package": "WebBits-multiplate",
@@ -851,6 +922,7 @@
         },
         "index": {
           "hierarchy": "BrownPLT JavaScript MultiplateSimplified",
+          "indexed": "2014-03-11T17:04:21",
           "module": "BrownPLT.JavaScript.MultiplateSimplified",
           "name": "pVarDecl",
           "normalized": "a b VarDecl c-\u003ed(VarDecl c)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "himerge"
+        "phrase": "himerge",
+        "type": "phrase"
       },
       "type": "context"
     }

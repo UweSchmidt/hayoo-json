@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "email-postmark"
+        "phrase": "email-postmark",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:12 UTC 2014",
           "module": "Network.Mail.Postmark",
           "name": "Postmark",
           "package": "email-postmark",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Postmark",
+          "indexed": "2014-03-11T18:02:12",
           "module": "Network.Mail.Postmark",
           "name": "Postmark",
           "package": "email-postmark",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:02:12 UTC 2014",
           "module": "Network.Mail.Postmark",
           "name": "postmark",
           "package": "email-postmark",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network Mail Postmark",
+          "indexed": "2014-03-11T18:02:12",
           "module": "Network.Mail.Postmark",
           "name": "postmark",
           "normalized": "String-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eIO Bool",

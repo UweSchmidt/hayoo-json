@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HSGEP"
+        "phrase": "HSGEP",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExpression related code.  These are helpers to turn linear sequences\n into trees.\n\u003c/p\u003e\u003cp\u003eAuthor: mjsottile@computer.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Expression",
           "name": "Expression",
           "package": "HSGEP",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Expression related code These are helpers to turn linear sequences into trees Author mjsottile@computer.org",
           "hierarchy": "GEP Expression",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Expression",
           "name": "Expression",
           "package": "HSGEP",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Expression",
           "name": "levelize",
           "package": "HSGEP",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "GEP Expression",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Expression",
           "name": "levelize",
           "normalized": "(Symbol-\u003eInt)-\u003eSequence-\u003eInt-\u003e[Sequence]",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains code related to fitness evaluation.  The\n   main purpose of the code is to both evaluate fitnesses of individuals\n   and to sort individuals by fitness.  These are intended to all be\n   higher order functions that assume nothing about the purpose of the\n   individuals or the types of inputs being used for fitness testing.\n   The only assumption made currently is that the outputs for test cases\n   are floating point numbers.  That likely should change for general\n   purpose usage.\n\u003c/p\u003e\u003cp\u003emjsottile@computer.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Fitness",
           "name": "Fitness",
           "package": "HSGEP",
@@ -74,6 +79,7 @@
         "index": {
           "description": "This module contains code related to fitness evaluation The main purpose of the code is to both evaluate fitnesses of individuals and to sort individuals by fitness These are intended to all be higher order functions that assume nothing about the purpose of the individuals or the types of inputs being used for fitness testing The only assumption made currently is that the outputs for test cases are floating point numbers That likely should change for general purpose usage mjsottile@computer.org",
           "hierarchy": "GEP Fitness",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Fitness",
           "name": "Fitness",
           "package": "HSGEP",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFitness function type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Fitness",
           "name": "FitnessFunction",
           "package": "HSGEP",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Fitness function type",
           "hierarchy": "GEP Fitness",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Fitness",
           "name": "FitnessFunction",
           "package": "HSGEP",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA test case maps a list of terminals to float values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Fitness",
           "name": "TestCase",
           "package": "HSGEP",
@@ -120,6 +129,7 @@
         "index": {
           "description": "test case maps list of terminals to float values",
           "hierarchy": "GEP Fitness",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Fitness",
           "name": "TestCase",
           "package": "HSGEP",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA test dictionary is a set of test cases\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Fitness",
           "name": "TestDict",
           "package": "HSGEP",
@@ -143,6 +154,7 @@
         "index": {
           "description": "test dictionary is set of test cases",
           "hierarchy": "GEP Fitness",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Fitness",
           "name": "TestDict",
           "package": "HSGEP",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe set of outputs expected for each entry in the test dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Fitness",
           "name": "TestOuts",
           "package": "HSGEP",
@@ -166,6 +179,7 @@
         "index": {
           "description": "The set of outputs expected for each entry in the test dictionary",
           "hierarchy": "GEP Fitness",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Fitness",
           "name": "TestOuts",
           "package": "HSGEP",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of fitness values and a corresponding list of individuals,\n  return a list of tuples pairing the fitness value with the individuals for\n  only those individuals that have a valid fitness value.  This means those\n  that are +/- infinity or NaN are removed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Fitness",
           "name": "fitness_filter",
           "package": "HSGEP",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Given list of fitness values and corresponding list of individuals return list of tuples pairing the fitness value with the individuals for only those individuals that have valid fitness value This means those that are infinity or NaN are removed",
           "hierarchy": "GEP Fitness",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Fitness",
           "name": "fitness_filter",
           "normalized": "[Double]-\u003e[Chromosome]-\u003e[(Double,Chromosome)]",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFitness evaluator for generic individuals.  This needs to go away\n  and use a more general approach like evaluateFitness above.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Fitness",
           "name": "fitness_tester",
           "package": "HSGEP",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Fitness evaluator for generic individuals This needs to go away and use more general approach like evaluateFitness above",
           "hierarchy": "GEP Fitness",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Fitness",
           "name": "fitness_tester",
           "normalized": "a-\u003eFitnessFunction a b-\u003eTestDict b-\u003eTestOuts-\u003eDouble-\u003eDouble",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort a set of individuals with fitness values by their fitness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Fitness",
           "name": "sortByFitness",
           "package": "HSGEP",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Sort set of individuals with fitness values by their fitness",
           "hierarchy": "GEP Fitness",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Fitness",
           "name": "sortByFitness",
           "normalized": "[(Double,Chromosome)]-\u003e[(Double,Chromosome)]",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOperations on the chromosomes of individuals.  The following assumptions\n  are made.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Symbols are numbered 1 through n for a chromosome of length n.\n\u003c/li\u003e\u003cli\u003e Genes are numbered 0 through m-1 for a chromosome with m genes.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe functions provided in this module are purely functional.  See\n  \u003ca\u003eGEP.MonadicGeneOperations\u003c/a\u003e for code that invokes these from within the\n  \u003ca\u003eGEP.Rmonad\u003c/a\u003e monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.GeneOperations",
           "name": "GeneOperations",
           "package": "HSGEP",
@@ -263,6 +284,7 @@
         "index": {
           "description": "Operations on the chromosomes of individuals The following assumptions are made Symbols are numbered through for chromosome of length Genes are numbered through m-1 for chromosome with genes The functions provided in this module are purely functional See GEP.MonadicGeneOperations for code that invokes these from within the GEP.Rmonad monad",
           "hierarchy": "GEP GeneOperations",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.GeneOperations",
           "name": "GeneOperations",
           "package": "HSGEP",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne-point crossover\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.GeneOperations",
           "name": "crossover1pt",
           "package": "HSGEP",
@@ -286,6 +309,7 @@
         "index": {
           "description": "One-point crossover",
           "hierarchy": "GEP GeneOperations",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.GeneOperations",
           "name": "crossover1pt",
           "normalized": "(Chromosome,Chromosome)-\u003eInt-\u003e(Chromosome,Chromosome)",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo-point crossover\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.GeneOperations",
           "name": "crossover2pt",
           "package": "HSGEP",
@@ -310,6 +335,7 @@
         "index": {
           "description": "Two-point crossover",
           "hierarchy": "GEP GeneOperations",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.GeneOperations",
           "name": "crossover2pt",
           "normalized": "(Chromosome,Chromosome)-\u003eInt-\u003eInt-\u003e(Chromosome,Chromosome)",
@@ -325,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGene crossover\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.GeneOperations",
           "name": "crossoverGene",
           "package": "HSGEP",
@@ -334,6 +361,7 @@
         "index": {
           "description": "Gene crossover",
           "hierarchy": "GEP GeneOperations",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.GeneOperations",
           "name": "crossoverGene",
           "normalized": "(Sequence,Sequence)-\u003eInt-\u003eInt-\u003e(Sequence,Sequence)",
@@ -350,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGene transposition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.GeneOperations",
           "name": "transposeGene",
           "package": "HSGEP",
@@ -359,6 +388,7 @@
         "index": {
           "description": "Gene transposition",
           "hierarchy": "GEP GeneOperations",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.GeneOperations",
           "name": "transposeGene",
           "normalized": "Chromosome-\u003eGenome-\u003eInt-\u003eChromosome",
@@ -375,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsertion sequence transposition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.GeneOperations",
           "name": "transposeIS",
           "package": "HSGEP",
@@ -384,6 +415,7 @@
         "index": {
           "description": "Insertion sequence transposition",
           "hierarchy": "GEP GeneOperations",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.GeneOperations",
           "name": "transposeIS",
           "normalized": "Chromosome-\u003eGenome-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eChromosome",
@@ -400,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoot insertion sequence transposition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.GeneOperations",
           "name": "transposeRIS",
           "package": "HSGEP",
@@ -409,6 +442,7 @@
         "index": {
           "description": "Root insertion sequence transposition",
           "hierarchy": "GEP GeneOperations",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.GeneOperations",
           "name": "transposeRIS",
           "normalized": "Sequence-\u003eGenome-\u003eInt-\u003eInt-\u003eInt-\u003eSequence",
@@ -424,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.GenericDriver",
           "name": "GenericDriver",
           "package": "HSGEP",
@@ -432,6 +467,7 @@
         },
         "index": {
           "hierarchy": "GEP GenericDriver",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.GenericDriver",
           "name": "GenericDriver",
           "package": "HSGEP",
@@ -446,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric driver to be called from specific GEP program instances in their\n  main routine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.GenericDriver",
           "name": "gepDriver",
           "package": "HSGEP",
@@ -455,6 +492,7 @@
         "index": {
           "description": "Generic driver to be called from specific GEP program instances in their main routine",
           "hierarchy": "GEP GenericDriver",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.GenericDriver",
           "name": "gepDriver",
           "normalized": "SimParams-\u003eRates-\u003eGenome-\u003eTestDict a-\u003eTestOuts-\u003eFitnessFunction b a-\u003eExpressionFunction b-\u003eIO(Double,[Chromosome])",
@@ -471,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains wrappers around the purely functional gene operations\n   in \u003ca\u003eGEP.GeneOperations\u003c/a\u003e in order to string the random number generation\n   state through via the \u003ca\u003eGEP.Rmonad\u003c/a\u003e.  These helper functions are responsible\n   for sampling the random number generator to determine the parameters for\n   applying the genetic operators.\n\u003c/p\u003e\u003cp\u003eThe reasoning behind using a specialized Random monad instead of the\n   system generator provided by IO is that this allows independent\n   generators to be used should we support multiple threads of execution.\n   Parallel random number generation requires distinct generators, not a\n   shared one.\n\u003c/p\u003e\u003cp\u003eAuthor: mjsottile@computer.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.MonadicGeneOperations",
           "name": "MonadicGeneOperations",
           "package": "HSGEP",
@@ -480,6 +519,7 @@
         "index": {
           "description": "This module contains wrappers around the purely functional gene operations in GEP.GeneOperations in order to string the random number generation state through via the GEP.Rmonad These helper functions are responsible for sampling the random number generator to determine the parameters for applying the genetic operators The reasoning behind using specialized Random monad instead of the system generator provided by IO is that this allows independent generators to be used should we support multiple threads of execution Parallel random number generation requires distinct generators not shared one Author mjsottile@computer.org",
           "hierarchy": "GEP MonadicGeneOperations",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.MonadicGeneOperations",
           "name": "MonadicGeneOperations",
           "package": "HSGEP",
@@ -494,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGene transposition helper\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.MonadicGeneOperations",
           "name": "geneTransposer",
           "package": "HSGEP",
@@ -504,6 +545,7 @@
         "index": {
           "description": "Gene transposition helper",
           "hierarchy": "GEP MonadicGeneOperations",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.MonadicGeneOperations",
           "name": "geneTransposer",
           "normalized": "Genome-\u003eChromosome-\u003eGEPMonad Chromosome",
@@ -520,6 +562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIS Transposition helper\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.MonadicGeneOperations",
           "name": "isTransposer",
           "package": "HSGEP",
@@ -530,6 +573,7 @@
         "index": {
           "description": "IS Transposition helper",
           "hierarchy": "GEP MonadicGeneOperations",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.MonadicGeneOperations",
           "name": "isTransposer",
           "normalized": "Genome-\u003eSimParams-\u003eChromosome-\u003eGEPMonad Chromosome",
@@ -546,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRIS Transposition helper\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.MonadicGeneOperations",
           "name": "risTransposer",
           "package": "HSGEP",
@@ -556,6 +601,7 @@
         "index": {
           "description": "RIS Transposition helper",
           "hierarchy": "GEP MonadicGeneOperations",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.MonadicGeneOperations",
           "name": "risTransposer",
           "normalized": "Genome-\u003eSimParams-\u003eChromosome-\u003eGEPMonad Chromosome",
@@ -572,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne-point crossover helper.  Takes a genome, a pair of individuals,\n  and selects the crossover point before generating the new pair of\n  resulting individuals after crossover.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.MonadicGeneOperations",
           "name": "x1PHelper",
           "package": "HSGEP",
@@ -582,6 +629,7 @@
         "index": {
           "description": "One-point crossover helper Takes genome pair of individuals and selects the crossover point before generating the new pair of resulting individuals after crossover",
           "hierarchy": "GEP MonadicGeneOperations",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.MonadicGeneOperations",
           "name": "x1PHelper",
           "normalized": "Genome-\u003e(Chromosome,Chromosome)-\u003eGEPMonad(Chromosome,Chromosome)",
@@ -598,6 +646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo-point crossover helper.  Takes a genome, a pair of individuals,\n  and selects the crossover points before generating the new pair of\n  resulting individuals after crossover.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.MonadicGeneOperations",
           "name": "x2PHelper",
           "package": "HSGEP",
@@ -608,6 +657,7 @@
         "index": {
           "description": "Two-point crossover helper Takes genome pair of individuals and selects the crossover points before generating the new pair of resulting individuals after crossover",
           "hierarchy": "GEP MonadicGeneOperations",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.MonadicGeneOperations",
           "name": "x2PHelper",
           "normalized": "Genome-\u003e(Chromosome,Chromosome)-\u003eGEPMonad(Chromosome,Chromosome)",
@@ -624,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGene crossover helper.  Takes a genome, a pair of individuals, and\n  selects the crossover gene before generating the new pair of\n  individuals resulting after crossover.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.MonadicGeneOperations",
           "name": "xGHelper",
           "package": "HSGEP",
@@ -634,6 +685,7 @@
         "index": {
           "description": "Gene crossover helper Takes genome pair of individuals and selects the crossover gene before generating the new pair of individuals resulting after crossover",
           "hierarchy": "GEP MonadicGeneOperations",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.MonadicGeneOperations",
           "name": "xGHelper",
           "normalized": "Genome-\u003e(Chromosome,Chromosome)-\u003eGEPMonad(Chromosome,Chromosome)",
@@ -650,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGEP parameters.  These are related to both population management,\n selection, and rates of genetic operators.  The rates are a set of\n probabilities of each operator being applied during each step of the\n selection and reproduction phase.\n\u003c/p\u003e\u003cp\u003eAuthor: mjsottile@computer.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Params",
           "name": "Params",
           "package": "HSGEP",
@@ -659,6 +712,7 @@
         "index": {
           "description": "GEP parameters These are related to both population management selection and rates of genetic operators The rates are set of probabilities of each operator being applied during each step of the selection and reproduction phase Author mjsottile@computer.org",
           "hierarchy": "GEP Params",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Params",
           "name": "Params",
           "package": "HSGEP",
@@ -673,6 +727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Rates structure is used to hold the probability of various events\n   occurring during the evolution of the GEP algorithm.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Params",
           "name": "Rates",
           "package": "HSGEP",
@@ -682,6 +737,7 @@
         "index": {
           "description": "The Rates structure is used to hold the probability of various events occurring during the evolution of the GEP algorithm",
           "hierarchy": "GEP Params",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Params",
           "name": "Rates",
           "package": "HSGEP",
@@ -696,6 +752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SimParams structure reprents the parameters for a run of the GEP\n   algorithm.  This includes gross parameters unrelated to individuals\n   such as the population size, parameters related to selection, and\n   parameters related to specific genetic operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Params",
           "name": "SimParams",
           "package": "HSGEP",
@@ -705,6 +762,7 @@
         "index": {
           "description": "The SimParams structure reprents the parameters for run of the GEP algorithm This includes gross parameters unrelated to individuals such as the population size parameters related to selection and parameters related to specific genetic operators",
           "hierarchy": "GEP Params",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Params",
           "name": "SimParams",
           "package": "HSGEP",
@@ -718,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Params",
           "name": "Rates",
           "package": "HSGEP",
@@ -727,6 +786,7 @@
         },
         "index": {
           "hierarchy": "GEP Params",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Params",
           "name": "Rates",
           "package": "HSGEP",
@@ -740,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Params",
           "name": "SimParams",
           "package": "HSGEP",
@@ -749,6 +810,7 @@
         },
         "index": {
           "hierarchy": "GEP Params",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Params",
           "name": "SimParams",
           "package": "HSGEP",
@@ -763,6 +825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFitness of the ideal individual\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Params",
           "name": "maxFitness",
           "package": "HSGEP",
@@ -773,6 +836,7 @@
         "index": {
           "description": "Fitness of the ideal individual",
           "hierarchy": "GEP Params",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Params",
           "name": "maxFitness",
           "package": "HSGEP",
@@ -787,6 +851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum length of an IS transpose seq.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Params",
           "name": "maxISLen",
           "package": "HSGEP",
@@ -797,6 +862,7 @@
         "index": {
           "description": "Maximum length of an IS transpose seq",
           "hierarchy": "GEP Params",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Params",
           "name": "maxISLen",
           "package": "HSGEP",
@@ -811,6 +877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum length of an RIS transpose seq.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Params",
           "name": "maxRISLen",
           "package": "HSGEP",
@@ -821,6 +888,7 @@
         "index": {
           "description": "Maximum length of an RIS transpose seq",
           "hierarchy": "GEP Params",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Params",
           "name": "maxRISLen",
           "package": "HSGEP",
@@ -835,6 +903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of generations to run the\n   algorithm for\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Params",
           "name": "numGenerations",
           "package": "HSGEP",
@@ -845,6 +914,7 @@
         "index": {
           "description": "Number of generations to run the algorithm for",
           "hierarchy": "GEP Params",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Params",
           "name": "numGenerations",
           "package": "HSGEP",
@@ -859,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProbability of a 1pt recombination event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Params",
           "name": "p1R",
           "package": "HSGEP",
@@ -869,6 +940,7 @@
         "index": {
           "description": "Probability of pt recombination event",
           "hierarchy": "GEP Params",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Params",
           "name": "p1R",
           "package": "HSGEP",
@@ -882,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProbability of a 2pt recombination event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Params",
           "name": "p2R",
           "package": "HSGEP",
@@ -892,6 +965,7 @@
         "index": {
           "description": "Probability of pt recombination event",
           "hierarchy": "GEP Params",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Params",
           "name": "p2R",
           "package": "HSGEP",
@@ -905,6 +979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProbability of a gene recombination event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Params",
           "name": "pGR",
           "package": "HSGEP",
@@ -915,6 +990,7 @@
         "index": {
           "description": "Probability of gene recombination event",
           "hierarchy": "GEP Params",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Params",
           "name": "pGR",
           "package": "HSGEP",
@@ -929,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProbability of an individual experiencing\n   gene transposition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Params",
           "name": "pGT",
           "package": "HSGEP",
@@ -939,6 +1016,7 @@
         "index": {
           "description": "Probability of an individual experiencing gene transposition",
           "hierarchy": "GEP Params",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Params",
           "name": "pGT",
           "package": "HSGEP",
@@ -953,6 +1031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProbability of an individual experiencing\n   insertion sequence transposition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Params",
           "name": "pIS",
           "package": "HSGEP",
@@ -963,6 +1042,7 @@
         "index": {
           "description": "Probability of an individual experiencing insertion sequence transposition",
           "hierarchy": "GEP Params",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Params",
           "name": "pIS",
           "package": "HSGEP",
@@ -977,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProbability of any single symbol being mutated\n   per individual\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Params",
           "name": "pMutate",
           "package": "HSGEP",
@@ -987,6 +1068,7 @@
         "index": {
           "description": "Probability of any single symbol being mutated per individual",
           "hierarchy": "GEP Params",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Params",
           "name": "pMutate",
           "package": "HSGEP",
@@ -1001,6 +1083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProbability of an individual experiencing\n   root insertion sequence transposition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Params",
           "name": "pRIS",
           "package": "HSGEP",
@@ -1011,6 +1094,7 @@
         "index": {
           "description": "Probability of an individual experiencing root insertion sequence transposition",
           "hierarchy": "GEP Params",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Params",
           "name": "pRIS",
           "package": "HSGEP",
@@ -1025,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePopulation size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Params",
           "name": "popSize",
           "package": "HSGEP",
@@ -1035,6 +1120,7 @@
         "index": {
           "description": "Population size",
           "hierarchy": "GEP Params",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Params",
           "name": "popSize",
           "package": "HSGEP",
@@ -1049,6 +1135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExponent for defining the roulette\n   wheel bin sizes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Params",
           "name": "rouletteExponent",
           "package": "HSGEP",
@@ -1059,6 +1146,7 @@
         "index": {
           "description": "Exponent for defining the roulette wheel bin sizes",
           "hierarchy": "GEP Params",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Params",
           "name": "rouletteExponent",
           "package": "HSGEP",
@@ -1073,6 +1161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameter m for fitness value\n   computation from the GEP paper.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Params",
           "name": "selectionRange",
           "package": "HSGEP",
@@ -1083,6 +1172,7 @@
         "index": {
           "description": "Parameter for fitness value computation from the GEP paper",
           "hierarchy": "GEP Params",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Params",
           "name": "selectionRange",
           "package": "HSGEP",
@@ -1097,6 +1187,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRandomized functions for GEP applications.  Attempting to\n    isolate all code that needs to be run under the Rmonad here.\n\u003c/p\u003e\u003cp\u003eAuthor: mjsottile@computer.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Random",
           "name": "Random",
           "package": "HSGEP",
@@ -1106,6 +1197,7 @@
         "index": {
           "description": "Randomized functions for GEP applications Attempting to isolate all code that needs to be run under the Rmonad here Author mjsottile@computer.org",
           "hierarchy": "GEP Random",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Random",
           "name": "Random",
           "package": "HSGEP",
@@ -1119,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Random",
           "name": "mutate",
           "package": "HSGEP",
@@ -1128,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "GEP Random",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Random",
           "name": "mutate",
           "normalized": "Genome-\u003eRates-\u003eChromosome-\u003eGEPMonad Chromosome",
@@ -1143,6 +1237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a new individual given a genome specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Random",
           "name": "newIndividual",
           "package": "HSGEP",
@@ -1152,6 +1247,7 @@
         "index": {
           "description": "Generate new individual given genome specification",
           "hierarchy": "GEP Random",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Random",
           "name": "newIndividual",
           "normalized": "Genome-\u003eInt-\u003eGEPMonad Chromosome",
@@ -1168,6 +1264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a population of fresh random individuals given a genome\n |specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Random",
           "name": "newPopulation",
           "package": "HSGEP",
@@ -1177,6 +1274,7 @@
         "index": {
           "description": "Create population of fresh random individuals given genome specification",
           "hierarchy": "GEP Random",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Random",
           "name": "newPopulation",
           "normalized": "Genome-\u003eInt-\u003eGEPMonad[Chromosome]",
@@ -1193,6 +1291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect a random symbol from the provided list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Random",
           "name": "randomSymbol",
           "package": "HSGEP",
@@ -1202,6 +1301,7 @@
         "index": {
           "description": "Select random symbol from the provided list",
           "hierarchy": "GEP Random",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Random",
           "name": "randomSymbol",
           "normalized": "[a]-\u003eGEPMonad a",
@@ -1218,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect a sequence of random symbols from the provided list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Random",
           "name": "randomSymbolList",
           "package": "HSGEP",
@@ -1227,6 +1328,7 @@
         "index": {
           "description": "Select sequence of random symbols from the provided list",
           "hierarchy": "GEP Random",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Random",
           "name": "randomSymbolList",
           "normalized": "[a]-\u003eInt-\u003eGEPMonad[a]",
@@ -1243,6 +1345,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonad based on state for passing random number state around for GEP.\n  The choice of Mersenne.Pure64 was for performance, and the pure version\n  will play nicely with threading.\n\u003c/p\u003e\u003cp\u003eAuthor: mjsottile@computer.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Rmonad",
           "name": "Rmonad",
           "package": "HSGEP",
@@ -1252,6 +1355,7 @@
         "index": {
           "description": "Monad based on state for passing random number state around for GEP The choice of Mersenne.Pure64 was for performance and the pure version will play nicely with threading Author mjsottile@computer.org",
           "hierarchy": "GEP Rmonad",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Rmonad",
           "name": "Rmonad",
           "package": "HSGEP",
@@ -1265,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Rmonad",
           "name": "GEPMonad",
           "package": "HSGEP",
@@ -1273,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "GEP Rmonad",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Rmonad",
           "name": "GEPMonad",
           "package": "HSGEP",
@@ -1287,6 +1393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument me!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Rmonad",
           "name": "generatePairs",
           "package": "HSGEP",
@@ -1297,6 +1404,7 @@
         "index": {
           "description": "Document me",
           "hierarchy": "GEP Rmonad",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Rmonad",
           "name": "generatePairs",
           "normalized": "Int-\u003eRand[(Int,Int)]",
@@ -1313,6 +1421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a random number as a Double between 0.0 and the given upper\n   bound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Rmonad",
           "name": "nextF",
           "package": "HSGEP",
@@ -1322,6 +1431,7 @@
         "index": {
           "description": "Generate random number as Double between and the given upper bound",
           "hierarchy": "GEP Rmonad",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Rmonad",
           "name": "nextF",
           "normalized": "Double-\u003eRand Double",
@@ -1337,6 +1447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a random integer between 1 and the upper bound (inclusive).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Rmonad",
           "name": "nextR",
           "package": "HSGEP",
@@ -1346,6 +1457,7 @@
         "index": {
           "description": "Generate random integer between and the upper bound inclusive",
           "hierarchy": "GEP Rmonad",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Rmonad",
           "name": "nextR",
           "normalized": "Int-\u003eRand Int",
@@ -1361,6 +1473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a random integer in the specified range that is NOT equal to\n   the integer provided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Rmonad",
           "name": "nextRDifferent",
           "package": "HSGEP",
@@ -1370,6 +1483,7 @@
         "index": {
           "description": "Generate random integer in the specified range that is NOT equal to the integer provided",
           "hierarchy": "GEP Rmonad",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Rmonad",
           "name": "nextRDifferent",
           "normalized": "Int-\u003eInt-\u003eRand Int",
@@ -1386,6 +1500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a list of random integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Rmonad",
           "name": "nextRList",
           "package": "HSGEP",
@@ -1395,6 +1510,7 @@
         "index": {
           "description": "Generate list of random integers",
           "hierarchy": "GEP Rmonad",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Rmonad",
           "name": "nextRList",
           "normalized": "Int-\u003eInt-\u003eRand[Int]",
@@ -1410,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Rmonad",
           "name": "nextRListPairs",
           "package": "HSGEP",
@@ -1419,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "GEP Rmonad",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Rmonad",
           "name": "nextRListPairs",
           "normalized": "Int-\u003eInt-\u003eRand[(Int,Int)]",
@@ -1435,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a list of n random integers such that each entry occurs at most\n   once.  Each number in the list must be unique.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Rmonad",
           "name": "nextRListUnique",
           "package": "HSGEP",
@@ -1445,6 +1564,7 @@
         "index": {
           "description": "Generate list of random integers such that each entry occurs at most once Each number in the list must be unique",
           "hierarchy": "GEP Rmonad",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Rmonad",
           "name": "nextRListUnique",
           "normalized": "Int-\u003e[Int]-\u003eInt-\u003eRand[Int]",
@@ -1460,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Rmonad",
           "name": "runRmonad",
           "package": "HSGEP",
@@ -1469,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "GEP Rmonad",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Rmonad",
           "name": "runRmonad",
           "normalized": "Rand a-\u003ePureMT-\u003e(a,PureMT)",
@@ -1485,6 +1607,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRoutines for selection after fitness evaluation.  Selection is the process\n of taking some input population P, a set of fitness values such that\n each p in P has a fitness score f(p,X) under some fitness test X, and\n selecting which members of P participate in the creation of the next\n population P'.\n\u003c/p\u003e\u003cp\u003eA common technique is roulette wheel selection.  In essence, this means that\n we create a roulette wheel with one slot per individual where the width of\n each slot is a function of the fitness of the individuals.  So, those\n individuals with very good fitness will have wide slots and a correspondingly\n high likelihood of selection, while poor fitness individuals will have tiny\n slots and a low probability of being selected.\n\u003c/p\u003e\u003cp\u003eFitness testing takes place outside this module.  This module is only\n concerned with the selection process (ie: generating the roulette wheel).\n\u003c/p\u003e\u003cp\u003eAuthor: mjsottile@computer.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Selection",
           "name": "Selection",
           "package": "HSGEP",
@@ -1494,6 +1617,7 @@
         "index": {
           "description": "Routines for selection after fitness evaluation Selection is the process of taking some input population set of fitness values such that each in has fitness score under some fitness test and selecting which members of participate in the creation of the next population common technique is roulette wheel selection In essence this means that we create roulette wheel with one slot per individual where the width of each slot is function of the fitness of the individuals So those individuals with very good fitness will have wide slots and correspondingly high likelihood of selection while poor fitness individuals will have tiny slots and low probability of being selected Fitness testing takes place outside this module This module is only concerned with the selection process ie generating the roulette wheel Author mjsottile@computer.org",
           "hierarchy": "GEP Selection",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Selection",
           "name": "Selection",
           "package": "HSGEP",
@@ -1508,6 +1632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate n roulette weights with a generator exponent e.  A helper function\n  weight_function is used to generate the actual weights.  For example,\n  w = (k^e)^(-1) for k from 1 to n leads to a set of weights such that the\n  size of the slots decreases exponentially as fitness decreases.  When e=1,\n  this decrease is linear.  The list that is returned is the width of each slot\n  such that the total of the weights adds to 1.0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Selection",
           "name": "generate_roulette_weights",
           "package": "HSGEP",
@@ -1518,6 +1643,7 @@
         "index": {
           "description": "Generate roulette weights with generator exponent helper function weight function is used to generate the actual weights For example for from to leads to set of weights such that the size of the slots decreases exponentially as fitness decreases When this decrease is linear The list that is returned is the width of each slot such that the total of the weights adds to",
           "hierarchy": "GEP Selection",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Selection",
           "name": "generate_roulette_weights",
           "normalized": "Double-\u003eDouble-\u003e[Double]",
@@ -1533,6 +1659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a set of pairs (f,i) where f is the fitness of the individual i,\n  return the pair representing the individual with the best fitness.\n  We may return nothing if an empty set is passed in to begin with, so\n  the return type is a Maybe pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Selection",
           "name": "getBest",
           "package": "HSGEP",
@@ -1542,6 +1669,7 @@
         "index": {
           "description": "Given set of pairs where is the fitness of the individual return the pair representing the individual with the best fitness We may return nothing if an empty set is passed in to begin with so the return type is Maybe pair",
           "hierarchy": "GEP Selection",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Selection",
           "name": "getBest",
           "normalized": "[(Double,Chromosome)]-\u003eMaybe(Double,Chromosome)",
@@ -1558,6 +1686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a set of roulette weights and a number of spins of the wheel, return\n  a list of indices corresponding to the winning slot for each spin.  This\n  is used to perform the actual selection after a set of roulette weights are\n  generated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Selection",
           "name": "roulette",
           "package": "HSGEP",
@@ -1568,6 +1697,7 @@
         "index": {
           "description": "Given set of roulette weights and number of spins of the wheel return list of indices corresponding to the winning slot for each spin This is used to perform the actual selection after set of roulette weights are generated",
           "hierarchy": "GEP Selection",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Selection",
           "name": "roulette",
           "normalized": "[Double]-\u003eInt-\u003eGEPMonad[Int]",
@@ -1583,6 +1713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of indices and a list of data elements, create a new list\n  of data elements composed of the elements listed in the index list.\n  The output list may contain duplicates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Selection",
           "name": "selector",
           "package": "HSGEP",
@@ -1592,6 +1723,7 @@
         "index": {
           "description": "Given list of indices and list of data elements create new list of data elements composed of the elements listed in the index list The output list may contain duplicates",
           "hierarchy": "GEP Selection",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Selection",
           "name": "selector",
           "normalized": "[Int]-\u003e[a]-\u003e[a]",
@@ -1607,6 +1739,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCode representing a single step of the GEP algorithm resides here.\n\u003c/p\u003e\u003cp\u003esingle step of fitness evaluation, selection and reproduction to make\n a new population\n\u003c/p\u003e\u003cp\u003eprocess includes:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e expression of individuals\n\u003c/li\u003e\u003cli\u003e fitness evaluation\n\u003c/li\u003e\u003cli\u003e filtration to eliminate individuals yielding impossible\n       fitness values (infinite or NaN)\n\u003c/li\u003e\u003cli\u003e preservation of best individual\n\u003c/li\u003e\u003cli\u003e generation of roulette selection weights\n\u003c/li\u003e\u003cli\u003e roulette selection of individuals\n\u003c/li\u003e\u003cli\u003e perform mutation operator\n\u003c/li\u003e\u003cli\u003e IS transposition\n\u003c/li\u003e\u003cli\u003e RIS transposition\n\u003c/li\u003e\u003cli\u003e Gene transposition\n\u003c/li\u003e\u003cli\u003e 1Pt recombination\n\u003c/li\u003e\u003cli\u003e 2Pt recombination\n\u003c/li\u003e\u003cli\u003e Gene recombination\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eAuthor: mjsottile@computer.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.TimeStep",
           "name": "TimeStep",
           "package": "HSGEP",
@@ -1616,6 +1749,7 @@
         "index": {
           "description": "Code representing single step of the GEP algorithm resides here single step of fitness evaluation selection and reproduction to make new population process includes expression of individuals fitness evaluation filtration to eliminate individuals yielding impossible fitness values infinite or NaN preservation of best individual generation of roulette selection weights roulette selection of individuals perform mutation operator IS transposition RIS transposition Gene transposition Pt recombination Pt recombination Gene recombination Author mjsottile@computer.org",
           "hierarchy": "GEP TimeStep",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.TimeStep",
           "name": "TimeStep",
           "package": "HSGEP",
@@ -1629,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.TimeStep",
           "name": "multiStep",
           "package": "HSGEP",
@@ -1637,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "GEP TimeStep",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.TimeStep",
           "name": "multiStep",
           "normalized": "[Chromosome]-\u003eGenome-\u003eSimParams-\u003eRates-\u003eExpressionFunction a-\u003eFitnessFunction a b-\u003eTestDict b-\u003eTestOuts-\u003eInt-\u003eDouble-\u003eGEPMonad(Double,[Chromosome])",
@@ -1653,6 +1789,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the types used for implementing GEP problems\n   and operations.  A few functions are also provided for convenience\n   here for performing common operations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "Types",
           "package": "HSGEP",
@@ -1662,6 +1799,7 @@
         "index": {
           "description": "This module defines the types used for implementing GEP problems and operations few functions are also provided for convenience here for performing common operations",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "Types",
           "package": "HSGEP",
@@ -1676,6 +1814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA chromosome is a list of symbols.  We avoided using a list of genes to\n   maintain the view of a chromosome as nothing more than a flattened,\n   linear sequence of genes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "Chromosome",
           "package": "HSGEP",
@@ -1685,6 +1824,7 @@
         "index": {
           "description": "chromosome is list of symbols We avoided using list of genes to maintain the view of chromosome as nothing more than flattened linear sequence of genes",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "Chromosome",
           "package": "HSGEP",
@@ -1699,6 +1839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to express an individual into a list of ET structures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "ExpressionFunction",
           "package": "HSGEP",
@@ -1708,6 +1849,7 @@
         "index": {
           "description": "Function to express an individual into list of ET structures",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "ExpressionFunction",
           "package": "HSGEP",
@@ -1722,6 +1864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA gene in a chromosome is a list of symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "Gene",
           "package": "HSGEP",
@@ -1731,6 +1874,7 @@
         "index": {
           "description": "gene in chromosome is list of symbols",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "Gene",
           "package": "HSGEP",
@@ -1745,6 +1889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type representing a genome.  The genome contains all necessary\n   parameters to interpret a chromosome.  These include the alphabet (split\n   between terminal and nonterminal characters), connective characters for\n   multi-gene chromosomes, the maximum arity of any nonterminal, the length\n   of the head of a gene, and the number of genes per chromosome.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "Genome",
           "package": "HSGEP",
@@ -1754,6 +1899,7 @@
         "index": {
           "description": "Data type representing genome The genome contains all necessary parameters to interpret chromosome These include the alphabet split between terminal and nonterminal characters connective characters for multi-gene chromosomes the maximum arity of any nonterminal the length of the head of gene and the number of genes per chromosome",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "Genome",
           "package": "HSGEP",
@@ -1768,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sequence of symbols not neccessaryly a gene or chromosome. Used in gene\n   operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "Sequence",
           "package": "HSGEP",
@@ -1777,6 +1924,7 @@
         "index": {
           "description": "sequence of symbols not neccessaryly gene or chromosome Used in gene operations",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "Sequence",
           "package": "HSGEP",
@@ -1791,6 +1939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymbol table used for fitness tests.  We assume that there is exactly\n   one pair per symbol.  If there are symbols missing, fitness testing\n   may fail (the library does not have facilities yet to allow for\n   default values).  If a symbol occurs multiple times in the symbol\n   table, no guarantee is provided for which value will be chosen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "SymTable",
           "package": "HSGEP",
@@ -1800,6 +1949,7 @@
         "index": {
           "description": "Symbol table used for fitness tests We assume that there is exactly one pair per symbol If there are symbols missing fitness testing may fail the library does not have facilities yet to allow for default values If symbol occurs multiple times in the symbol table no guarantee is provided for which value will be chosen",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "SymTable",
           "package": "HSGEP",
@@ -1814,6 +1964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA symbol in a chromosome\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "Symbol",
           "package": "HSGEP",
@@ -1823,6 +1974,7 @@
         "index": {
           "description": "symbol in chromosome",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "Symbol",
           "package": "HSGEP",
@@ -1836,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "Genome",
           "package": "HSGEP",
@@ -1845,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "Genome",
           "package": "HSGEP",
@@ -1859,6 +2013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a genome, provide the list of all symbols possible in a chromosome.\n   This is just nonterminals ++ terminals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "allsymbols",
           "package": "HSGEP",
@@ -1868,6 +2023,7 @@
         "index": {
           "description": "Given genome provide the list of all symbols possible in chromosome This is just nonterminals terminals",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "allsymbols",
           "normalized": "Genome-\u003e[Symbol]",
@@ -1883,6 +2039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFracture a chromosome into a set of genes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "chromToGenes",
           "package": "HSGEP",
@@ -1892,6 +2049,7 @@
         "index": {
           "description": "Fracture chromosome into set of genes",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "chromToGenes",
           "normalized": "Chromosome-\u003eInt-\u003e[Gene]",
@@ -1908,6 +2066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymbol connecting genes in a chromosome\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "geneConnector",
           "package": "HSGEP",
@@ -1918,6 +2077,7 @@
         "index": {
           "description": "Symbol connecting genes in chromosome",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "geneConnector",
           "package": "HSGEP",
@@ -1932,6 +2092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn length of a gene (tail + head) for a given genome\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "geneLength",
           "package": "HSGEP",
@@ -1941,6 +2102,7 @@
         "index": {
           "description": "Return length of gene tail head for given genome",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "geneLength",
           "normalized": "Genome-\u003eInt",
@@ -1957,6 +2119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssemble a chromosome from a set of genes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "genesToChrom",
           "package": "HSGEP",
@@ -1966,6 +2129,7 @@
         "index": {
           "description": "Assemble chromosome from set of genes",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "genesToChrom",
           "normalized": "[Gene]-\u003eChromosome",
@@ -1982,6 +2146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of gene head sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "headLength",
           "package": "HSGEP",
@@ -1992,6 +2157,7 @@
         "index": {
           "description": "Length of gene head sequence",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "headLength",
           "package": "HSGEP",
@@ -2006,6 +2172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a symbol is a nonterminal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "isNonterminal",
           "package": "HSGEP",
@@ -2015,6 +2182,7 @@
         "index": {
           "description": "Test if symbol is nonterminal",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "isNonterminal",
           "normalized": "Symbol-\u003eGenome-\u003eBool",
@@ -2031,6 +2199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHighest arity nonterminal function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "maxArity",
           "package": "HSGEP",
@@ -2041,6 +2210,7 @@
         "index": {
           "description": "Highest arity nonterminal function",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "maxArity",
           "package": "HSGEP",
@@ -2055,6 +2225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of nonterminal symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "nonterminals",
           "package": "HSGEP",
@@ -2065,6 +2236,7 @@
         "index": {
           "description": "Set of nonterminal symbols",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "nonterminals",
           "normalized": "[Symbol]",
@@ -2080,6 +2252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of genes per chromosome\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "numGenes",
           "package": "HSGEP",
@@ -2090,6 +2263,7 @@
         "index": {
           "description": "Number of genes per chromosome",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "numGenes",
           "package": "HSGEP",
@@ -2104,6 +2278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the length of the tail of a gene for a given genome\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "tailLength",
           "package": "HSGEP",
@@ -2113,6 +2288,7 @@
         "index": {
           "description": "Return the length of the tail of gene for given genome",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "tailLength",
           "normalized": "Genome-\u003eInt",
@@ -2129,6 +2305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of terminal symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Types",
           "name": "terminals",
           "package": "HSGEP",
@@ -2139,6 +2316,7 @@
         "index": {
           "description": "Set of terminal symbols",
           "hierarchy": "GEP Types",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Types",
           "name": "terminals",
           "normalized": "[Symbol]",
@@ -2154,6 +2332,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCode to read configuration files.\n\u003c/p\u003e\u003cp\u003eAuthor: mjsottile@computer.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Util.ConfigurationReader",
           "name": "ConfigurationReader",
           "package": "HSGEP",
@@ -2163,6 +2342,7 @@
         "index": {
           "description": "Code to read configuration files Author mjsottile@computer.org",
           "hierarchy": "GEP Util ConfigurationReader",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Util.ConfigurationReader",
           "name": "ConfigurationReader",
           "package": "HSGEP",
@@ -2176,6 +2356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:46:24 UTC 2014",
           "module": "GEP.Util.ConfigurationReader",
           "name": "readParameters",
           "package": "HSGEP",
@@ -2185,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "GEP Util ConfigurationReader",
+          "indexed": "2014-03-11T16:46:24",
           "module": "GEP.Util.ConfigurationReader",
           "name": "readParameters",
           "normalized": "String-\u003eIO(Rates,Genome,SimParams)",

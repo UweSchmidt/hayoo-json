@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "PermuteEffects"
+        "phrase": "PermuteEffects",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:54 UTC 2014",
           "module": "Control.Permute",
           "name": "Permute",
           "package": "PermuteEffects",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Permute",
+          "indexed": "2014-03-11T16:56:54",
           "module": "Control.Permute",
           "name": "Permute",
           "package": "PermuteEffects",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA chain of effectful \u003ccode\u003ef\u003c/code\u003e-computations with composite result \u003ccode\u003ea\u003c/code\u003e.\n Individual computations (lifted into \u003ccode\u003eEffects\u003c/code\u003e using \u003ccode\u003e\u003ca\u003e*.\u003c/a\u003e\u003c/code\u003e below) have their\n own result types, which fit together in standard \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e fashion.\n Although these result types are lost in the composite type, the\n computations can still be moved around within the list (see \u003ccode\u003eswap\u003c/code\u003e and\n \u003ccode\u003efirsts\u003c/code\u003e in the source code for examples). This allows their permutations\n to be computed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:54 UTC 2014",
           "module": "Control.Permute",
           "name": "Effects",
           "package": "PermuteEffects",
@@ -49,6 +52,7 @@
         "index": {
           "description": "chain of effectful computations with composite result Individual computations lifted into Effects using below have their own result types which fit together in standard Applicative fashion Although these result types are lost in the composite type the computations can still be moved around within the list see swap and firsts in the source code for examples This allows their permutations to be computed",
           "hierarchy": "Control Permute",
+          "indexed": "2014-03-11T16:56:54",
           "module": "Control.Permute",
           "name": "Effects",
           "package": "PermuteEffects",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow a computation to be occur so many times in each permutation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:54 UTC 2014",
           "module": "Control.Permute",
           "name": "(*.)",
           "package": "PermuteEffects",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Allow computation to be occur so many times in each permutation",
           "hierarchy": "Control Permute",
+          "indexed": "2014-03-11T16:56:54",
           "module": "Control.Permute",
           "name": "(*.) *.",
           "normalized": "Replicate a b-\u003ec a-\u003eEffects c b",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a tree (using \u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e for branching) of all permutations of the\n computations. The tree shape allows permutations to share common prefixes.\n This allows clever computations to quickly prune away uninteresting\n branches of permutations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:54 UTC 2014",
           "module": "Control.Permute",
           "name": "perms",
           "package": "PermuteEffects",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Build tree using for branching of all permutations of the computations The tree shape allows permutations to share common prefixes This allows clever computations to quickly prune away uninteresting branches of permutations",
           "hierarchy": "Control Permute",
+          "indexed": "2014-03-11T16:56:54",
           "module": "Control.Permute",
           "name": "perms",
           "normalized": "Effects a b-\u003ea b",

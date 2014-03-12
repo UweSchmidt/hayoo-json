@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lrucache"
+        "phrase": "lrucache",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains a mutable wrapping of an LRU in the IO\n monad, providing atomic access in a concurrent environment.  All\n calls preserve the same semantics as those in \u003ca\u003eData.Cache.LRU\u003c/a\u003e, but\n perform updates in place.\n\u003c/p\u003e\u003cp\u003eThis module contains the internal implementation details.  It's\n possible to put an \u003ccode\u003e\u003ca\u003eAtomicLRU\u003c/a\u003e\u003c/code\u003e into a bad state with this module.\n It is highly recommended that the external interface,\n \u003ca\u003eData.Cache.LRU.IO\u003c/a\u003e, be used instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.IO.Internal",
           "name": "Internal",
           "package": "lrucache",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains mutable wrapping of an LRU in the IO monad providing atomic access in concurrent environment All calls preserve the same semantics as those in Data.Cache.LRU but perform updates in place This module contains the internal implementation details It possible to put an AtomicLRU into bad state with this module It is highly recommended that the external interface Data.Cache.LRU.IO be used instead",
           "hierarchy": "Data Cache LRU IO Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.IO.Internal",
           "name": "Internal",
           "package": "lrucache",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opaque wrapper type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.IO.Internal",
           "name": "AtomicLRU",
           "package": "lrucache",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The opaque wrapper type",
           "hierarchy": "Data Cache LRU IO Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.IO.Internal",
           "name": "AtomicLRU",
           "package": "lrucache",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.IO.Internal",
           "name": "C",
           "package": "lrucache",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data Cache LRU IO Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.IO.Internal",
           "name": "C",
           "package": "lrucache",
@@ -269,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003emodifyMVar\u003c/a\u003e\u003c/code\u003e that forces the result of the\n function application to WHNF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.IO.Internal",
           "name": "modifyMVar'",
           "package": "lrucache",
@@ -279,6 +286,7 @@
         "index": {
           "description": "version of modifyMVar that forces the result of the function application to WHNF",
           "hierarchy": "Data Cache LRU IO Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.IO.Internal",
           "name": "modifyMVar'",
           "normalized": "MVar a-\u003e(a-\u003eIO(a,b))-\u003eIO b",
@@ -295,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003emodifyMVar_\u003c/a\u003e\u003c/code\u003e that forces the result of the\n function application to WHNF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.IO.Internal",
           "name": "modifyMVar_'",
           "package": "lrucache",
@@ -305,6 +314,7 @@
         "index": {
           "description": "version of modifyMVar that forces the result of the function application to WHNF",
           "hierarchy": "Data Cache LRU IO Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.IO.Internal",
           "name": "modifyMVar_'",
           "normalized": "MVar a-\u003e(a-\u003eIO a)-\u003eIO()",
@@ -426,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains a mutable wrapping of an LRU in the IO\n monad, providing atomic access in a concurrent environment.  All\n calls preserve the same semantics as those in \u003ca\u003eData.Cache.LRU\u003c/a\u003e, but\n perform updates in place.  All functions use a single atomic update\n of the backing structure.\n\u003c/p\u003e\u003cp\u003eThe interface this module provides is opaque.  If further control\n is desired, the \u003ca\u003eData.Cache.LRU.IO.Internal\u003c/a\u003e module can be used in\n combination with \u003ca\u003eData.Cache.LRU.Internal\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003e(This implementation uses an MVar for coarse locking. It's unclear\n if anything else would give better performance, given that many\n calls alter the head of the access list.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.IO",
           "name": "IO",
           "package": "lrucache",
@@ -435,6 +446,7 @@
         "index": {
           "description": "This module contains mutable wrapping of an LRU in the IO monad providing atomic access in concurrent environment All calls preserve the same semantics as those in Data.Cache.LRU but perform updates in place All functions use single atomic update of the backing structure The interface this module provides is opaque If further control is desired the Data.Cache.LRU.IO.Internal module can be used in combination with Data.Cache.LRU.Internal This implementation uses an MVar for coarse locking It unclear if anything else would give better performance given that many calls alter the head of the access list",
           "hierarchy": "Data Cache LRU IO",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.IO",
           "name": "IO",
           "package": "lrucache",
@@ -449,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opaque wrapper type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.IO",
           "name": "AtomicLRU",
           "package": "lrucache",
@@ -458,6 +471,7 @@
         "index": {
           "description": "The opaque wrapper type",
           "hierarchy": "Data Cache LRU IO",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.IO",
           "name": "AtomicLRU",
           "package": "lrucache",
@@ -472,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides access to all the internals use by the LRU\n type.  This can be used to create data structures that violate the\n invariants the public interface maintains.  Be careful when using\n this module.  The \u003ccode\u003e\u003ca\u003evalid\u003c/a\u003e\u003c/code\u003e function can be used to check if an LRU\n structure satisfies the invariants the public interface maintains.\n\u003c/p\u003e\u003cp\u003eIf this degree of control isn't needed, consider using\n \u003ca\u003eData.Cache.LRU\u003c/a\u003e instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.Internal",
           "name": "Internal",
           "package": "lrucache",
@@ -481,6 +496,7 @@
         "index": {
           "description": "This module provides access to all the internals use by the LRU type This can be used to create data structures that violate the invariants the public interface maintains Be careful when using this module The valid function can be used to check if an LRU structure satisfies the invariants the public interface maintains If this degree of control isn needed consider using Data.Cache.LRU instead",
           "hierarchy": "Data Cache LRU Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.Internal",
           "name": "Internal",
           "package": "lrucache",
@@ -495,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStores the information that makes up an LRU cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.Internal",
           "name": "LRU",
           "package": "lrucache",
@@ -504,6 +521,7 @@
         "index": {
           "description": "Stores the information that makes up an LRU cache",
           "hierarchy": "Data Cache LRU Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.Internal",
           "name": "LRU",
           "package": "lrucache",
@@ -518,6 +536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe values stored in the Map of the LRU cache.  They embed a\n doubly-linked list through the values of the \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.Internal",
           "name": "LinkedVal",
           "package": "lrucache",
@@ -527,6 +546,7 @@
         "index": {
           "description": "The values stored in the Map of the LRU cache They embed doubly-linked list through the values of the Map",
           "hierarchy": "Data Cache LRU Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.Internal",
           "name": "LinkedVal",
           "package": "lrucache",
@@ -540,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.Internal",
           "name": "LRU",
           "package": "lrucache",
@@ -549,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Data Cache LRU Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.Internal",
           "name": "LRU",
           "package": "lrucache",
@@ -562,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.Internal",
           "name": "Link",
           "package": "lrucache",
@@ -571,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Data Cache LRU Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.Internal",
           "name": "Link",
           "package": "lrucache",
@@ -585,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal function.  This is very similar to \u003ccode\u003e\u003ca\u003eadjust\u003c/a\u003e\u003c/code\u003e, with\n two major differences.  First, it's strict in the application of\n the function, which is a huge win when working with this structure.\n\u003c/p\u003e\u003cp\u003eSecond, it requires that the key be present in order to work.  If\n the key isn't present, \u003ccode\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/code\u003e will be inserted into the \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e,\n which will cause problems later.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.Internal",
           "name": "adjust'",
           "package": "lrucache",
@@ -595,6 +620,7 @@
         "index": {
           "description": "Internal function This is very similar to adjust with two major differences First it strict in the application of the function which is huge win when working with this structure Second it requires that the key be present in order to work If the key isn present undefined will be inserted into the Map which will cause problems later",
           "hierarchy": "Data Cache LRU Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.Internal",
           "name": "adjust'",
           "normalized": "(a-\u003ea)-\u003eb-\u003eMap b a-\u003eMap b a",
@@ -610,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe backing \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.Internal",
           "name": "content",
           "package": "lrucache",
@@ -620,6 +647,7 @@
         "index": {
           "description": "the backing Map",
           "hierarchy": "Data Cache LRU Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.Internal",
           "name": "content",
           "package": "lrucache",
@@ -659,6 +687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn internal function used by \u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e (when the cache is full)\n and \u003ccode\u003e\u003ca\u003edelete\u003c/a\u003e\u003c/code\u003e.  This function has strict requirements on its\n arguments in order to work properly.\n\u003c/p\u003e\u003cp\u003eAs this is intended to be an internal function, the arguments were\n chosen to avoid repeated computation, rather than for simplicity of\n calling this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.Internal",
           "name": "delete'",
           "package": "lrucache",
@@ -668,6 +697,7 @@
         "index": {
           "description": "An internal function used by insert when the cache is full and delete This function has strict requirements on its arguments in order to work properly As this is intended to be an internal function the arguments were chosen to avoid repeated computation rather than for simplicity of calling this function",
           "hierarchy": "Data Cache LRU Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.Internal",
           "name": "delete'",
           "normalized": "a-\u003eLRU a b-\u003eMap a(LinkedVal a b)-\u003eLinkedVal a b-\u003eLRU a b",
@@ -683,6 +713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe key of the most recently accessed entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.Internal",
           "name": "first",
           "package": "lrucache",
@@ -693,6 +724,7 @@
         "index": {
           "description": "the key of the most recently accessed entry",
           "hierarchy": "Data Cache LRU Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.Internal",
           "name": "first",
           "package": "lrucache",
@@ -732,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal function.  The key passed in must be present in the\n LRU.  Moves the item associated with that key to the most\n recently accessed position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.Internal",
           "name": "hit'",
           "package": "lrucache",
@@ -742,6 +775,7 @@
         "index": {
           "description": "Internal function The key passed in must be present in the LRU Moves the item associated with that key to the most recently accessed position",
           "hierarchy": "Data Cache LRU Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.Internal",
           "name": "hit'",
           "normalized": "a-\u003eLRU a b-\u003eLRU a b",
@@ -783,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe key of the least recently accessed entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.Internal",
           "name": "last",
           "package": "lrucache",
@@ -793,6 +828,7 @@
         "index": {
           "description": "the key of the least recently accessed entry",
           "hierarchy": "Data Cache LRU Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.Internal",
           "name": "last",
           "package": "lrucache",
@@ -832,6 +868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe maximum size of the LRU cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.Internal",
           "name": "maxSize",
           "package": "lrucache",
@@ -842,6 +879,7 @@
         "index": {
           "description": "the maximum size of the LRU cache",
           "hierarchy": "Data Cache LRU Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.Internal",
           "name": "maxSize",
           "package": "lrucache",
@@ -882,6 +920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe key of the value after this one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.Internal",
           "name": "next",
           "package": "lrucache",
@@ -892,6 +931,7 @@
         "index": {
           "description": "the key of the value after this one",
           "hierarchy": "Data Cache LRU Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.Internal",
           "name": "next",
           "package": "lrucache",
@@ -931,6 +971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe key of the value before this one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.Internal",
           "name": "prev",
           "package": "lrucache",
@@ -941,6 +982,7 @@
         "index": {
           "description": "the key of the value before this one",
           "hierarchy": "Data Cache LRU Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.Internal",
           "name": "prev",
           "package": "lrucache",
@@ -1007,6 +1049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal function.  This checks the four structural invariants\n of the LRU cache structure:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e The cache's size does not exceed the specified max size.\n\u003c/li\u003e\u003cli\u003e The linked list through the nodes is consistent in both directions.\n\u003c/li\u003e\u003cli\u003e The linked list contains the same number of nodes as the cache.\n\u003c/li\u003e\u003cli\u003e Every key in the linked list is in the \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.Internal",
           "name": "valid",
           "package": "lrucache",
@@ -1017,6 +1060,7 @@
         "index": {
           "description": "Internal function This checks the four structural invariants of the LRU cache structure The cache size does not exceed the specified max size The linked list through the nodes is consistent in both directions The linked list contains the same number of nodes as the cache Every key in the linked list is in the Map",
           "hierarchy": "Data Cache LRU Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.Internal",
           "name": "valid",
           "normalized": "LRU a b-\u003eBool",
@@ -1032,6 +1076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actual value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU.Internal",
           "name": "value",
           "package": "lrucache",
@@ -1042,6 +1087,7 @@
         "index": {
           "description": "The actual value",
           "hierarchy": "Data Cache LRU Internal",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU.Internal",
           "name": "value",
           "package": "lrucache",
@@ -1055,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplements an LRU cache.\n\u003c/p\u003e\u003cp\u003eThis module provides a pure LRU cache based on a doubly-linked list\n through a Data.Map structure.  This gives O(log n) operations on\n \u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003elookup\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003edelete\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003epop\u003c/a\u003e\u003c/code\u003e, and O(n * log n) for \u003ccode\u003e\u003ca\u003etoList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe interface this module provides is opaque.  If further control\n is desired, the \u003ca\u003eData.Cache.LRU.Internal\u003c/a\u003e module can be used.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU",
           "name": "LRU",
           "package": "lrucache",
@@ -1064,6 +1111,7 @@
         "index": {
           "description": "Implements an LRU cache This module provides pure LRU cache based on doubly-linked list through Data.Map structure This gives log operations on insert lookup delete and pop and log for toList The interface this module provides is opaque If further control is desired the Data.Cache.LRU.Internal module can be used",
           "hierarchy": "Data Cache LRU",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU",
           "name": "LRU",
           "package": "lrucache",
@@ -1078,6 +1126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStores the information that makes up an LRU cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU",
           "name": "LRU",
           "package": "lrucache",
@@ -1087,6 +1136,7 @@
         "index": {
           "description": "Stores the information that makes up an LRU cache",
           "hierarchy": "Data Cache LRU",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU",
           "name": "LRU",
           "package": "lrucache",
@@ -1101,6 +1151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe maximum size of the LRU cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:35 UTC 2014",
           "module": "Data.Cache.LRU",
           "name": "maxSize",
           "package": "lrucache",
@@ -1111,6 +1162,7 @@
         "index": {
           "description": "the maximum size of the LRU cache",
           "hierarchy": "Data Cache LRU",
+          "indexed": "2014-03-11T19:12:35",
           "module": "Data.Cache.LRU",
           "name": "maxSize",
           "normalized": "LRU a b-\u003eMaybe Integer",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pretty-show"
+        "phrase": "pretty-show",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for human-readable derived \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "Pretty",
           "package": "pretty-show",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Functions for human-readable derived Show instances",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "Pretty",
           "package": "pretty-show",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "Html",
           "package": "pretty-show",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "Html",
           "package": "pretty-show",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions on how to generate Html (more to come).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "HtmlOpts",
           "package": "pretty-show",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Options on how to generate Html more to come",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "HtmlOpts",
           "package": "pretty-show",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "Name",
           "package": "pretty-show",
@@ -95,6 +102,7 @@
         "index": {
           "description": "name",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "Name",
           "package": "pretty-show",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for types that may be reified into a value.\n Instances of this class may be derived automatically,\n for datatypes that support \u003ccode\u003eGenerics\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "PrettyVal",
           "package": "pretty-show",
@@ -118,6 +127,7 @@
         "index": {
           "description": "class for types that may be reified into value Instances of this class may be derived automatically for datatypes that support Generics",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "PrettyVal",
           "package": "pretty-show",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric Haskell values.\n \u003ccode\u003eNaN\u003c/code\u003e and \u003ccode\u003eInfinity\u003c/code\u003e are represented as constructors.\n The \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e in the literals is the text for the literals \"as is\".\n\u003c/p\u003e\u003cp\u003eA chain of infix constructors means that they appeared in the input string\n without parentheses, i.e\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e1 :+: 2 :*: 3\u003c/code\u003e is represented with \u003ccode\u003eInfixCons 1 [(\u003ca\u003e:+:\u003c/a\u003e,2),(\u003ca\u003e:*:\u003c/a\u003e,3)]\u003c/code\u003e, whereas\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e1 :+: (2 :*: 3)\u003c/code\u003e is represented with \u003ccode\u003eInfixCons 1 [(\u003ca\u003e:+:\u003c/a\u003e,InfixCons 2 [(\u003ca\u003e:*:\u003c/a\u003e,3)])]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "Value",
           "package": "pretty-show",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Generic Haskell values NaN and Infinity are represented as constructors The String in the literals is the text for the literals as is chain of infix constructors means that they appeared in the input string without parentheses i.e is represented with InfixCons whereas is represented with InfixCons InfixCons",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "Value",
           "package": "pretty-show",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "Char",
           "package": "pretty-show",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Character",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "Char",
           "package": "pretty-show",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "Con",
           "package": "pretty-show",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Data constructor",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "Con",
           "normalized": "Con Name[Value]",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-negative floating num.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "Float",
           "package": "pretty-show",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Non-negative floating num",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "Float",
           "package": "pretty-show",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "Html",
           "package": "pretty-show",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "Html",
           "package": "pretty-show",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "HtmlOpts",
           "package": "pretty-show",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "HtmlOpts",
           "package": "pretty-show",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix data constructor chain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "InfixCons",
           "package": "pretty-show",
@@ -283,6 +306,7 @@
         "index": {
           "description": "Infix data constructor chain",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "InfixCons",
           "normalized": "InfixCons Value[(Name,Value)]",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-negative integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "Integer",
           "package": "pretty-show",
@@ -309,6 +334,7 @@
         "index": {
           "description": "Non-negative integer",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "Integer",
           "package": "pretty-show",
@@ -323,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "List",
           "package": "pretty-show",
@@ -333,6 +360,7 @@
         "index": {
           "description": "List",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "List",
           "normalized": "List[Value]",
@@ -349,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegated value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "Neg",
           "package": "pretty-show",
@@ -359,6 +388,7 @@
         "index": {
           "description": "Negated value",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "Neg",
           "package": "pretty-show",
@@ -373,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRational\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "Ratio",
           "package": "pretty-show",
@@ -383,6 +414,7 @@
         "index": {
           "description": "Rational",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "Ratio",
           "package": "pretty-show",
@@ -397,6 +429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "Rec",
           "package": "pretty-show",
@@ -407,6 +440,7 @@
         "index": {
           "description": "Record value",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "Rec",
           "normalized": "Rec Name[(Name,Value)]",
@@ -423,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "String",
           "package": "pretty-show",
@@ -433,6 +468,7 @@
         "index": {
           "description": "String",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "String",
           "package": "pretty-show",
@@ -447,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTuple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "Tuple",
           "package": "pretty-show",
@@ -457,6 +494,7 @@
         "index": {
           "description": "Tuple",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "Tuple",
           "normalized": "Tuple[Value]",
@@ -473,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath for extra files.  If empty, we look in\n directory \u003ccode\u003estyle\u003c/code\u003e, relative to document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "dataDir",
           "package": "pretty-show",
@@ -483,6 +522,7 @@
         "index": {
           "description": "Path for extra files If empty we look in directory style relative to document",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "dataDir",
           "package": "pretty-show",
@@ -497,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "defaultHtmlOpts",
           "package": "pretty-show",
@@ -507,6 +548,7 @@
         "index": {
           "description": "Default options",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "defaultHtmlOpts",
           "package": "pretty-show",
@@ -521,6 +563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a value in the \u003ccode\u003e\u003ca\u003ePrettyVal\u003c/a\u003e\u003c/code\u003e class to a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e.\n The benefit of this function is that \u003ccode\u003e\u003ca\u003ePrettyVal\u003c/a\u003e\u003c/code\u003e instances may\n be derived automatically using generics.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "dumpDoc",
           "package": "pretty-show",
@@ -531,6 +574,7 @@
         "index": {
           "description": "Render value in the PrettyVal class to Doc The benefit of this function is that PrettyVal instances may be derived automatically using generics",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "dumpDoc",
           "normalized": "a-\u003eDoc",
@@ -547,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a value in the \u003ccode\u003e\u003ca\u003ePrettyVal\u003c/a\u003e\u003c/code\u003e class to a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n The benefit of this function is that \u003ccode\u003e\u003ca\u003ePrettyVal\u003c/a\u003e\u003c/code\u003e instances may\n be derived automatically using generics.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "dumpStr",
           "package": "pretty-show",
@@ -557,6 +602,7 @@
         "index": {
           "description": "Render value in the PrettyVal class to String The benefit of this function is that PrettyVal instances may be derived automatically using generics",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "dumpStr",
           "normalized": "a-\u003eString",
@@ -572,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "exportHtml",
           "package": "pretty-show",
@@ -581,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "exportHtml",
           "package": "pretty-show",
@@ -594,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "getDataDir",
           "package": "pretty-show",
@@ -603,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "getDataDir",
           "package": "pretty-show",
@@ -617,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap an Html fragment to make an Html page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "htmlPage",
           "package": "pretty-show",
@@ -627,6 +678,7 @@
         "index": {
           "description": "Wrap an Html fragment to make an Html page",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "htmlPage",
           "normalized": "HtmlOpts-\u003eHtml-\u003eString",
@@ -642,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "parseValue",
           "package": "pretty-show",
@@ -651,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "parseValue",
           "normalized": "String-\u003eMaybe Value",
@@ -667,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to show a value, prettily. If we do not understand the value, then we\n   just use its standard \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "ppDoc",
           "package": "pretty-show",
@@ -677,6 +732,7 @@
         "index": {
           "description": "Try to show value prettily If we do not understand the value then we just use its standard Show instance",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "ppDoc",
           "normalized": "a-\u003eDoc",
@@ -693,6 +749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a generic value into a pretty \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "ppShow",
           "package": "pretty-show",
@@ -703,6 +760,7 @@
         "index": {
           "description": "Convert generic value into pretty String if possible",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "ppShow",
           "normalized": "a-\u003eString",
@@ -719,6 +777,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Please use \u003ccode\u003e\u003ca\u003evalToDoc\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "ppValue",
           "package": "pretty-show",
@@ -729,6 +788,7 @@
         "index": {
           "description": "Deprecated Please use valToDoc instead",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "ppValue",
           "normalized": "Value-\u003eDoc",
@@ -744,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "prettyVal",
           "package": "pretty-show",
@@ -753,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "prettyVal",
           "normalized": "a-\u003eValue",
@@ -768,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "reify",
           "package": "pretty-show",
@@ -777,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "reify",
           "normalized": "a-\u003eMaybe Value",
@@ -792,6 +856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a generic value. Our intention is that the result is\n   equivalent to the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance for the original value, except possibly\n   easier to understand by a human.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "valToDoc",
           "package": "pretty-show",
@@ -802,6 +867,7 @@
         "index": {
           "description": "Pretty print generic value Our intention is that the result is equivalent to the Show instance for the original value except possibly easier to understand by human",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "valToDoc",
           "normalized": "Value-\u003eDoc",
@@ -818,6 +884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value into an Html fragment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "valToHtml",
           "package": "pretty-show",
@@ -828,6 +895,7 @@
         "index": {
           "description": "Convert value into an Html fragment",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "valToHtml",
           "normalized": "HtmlOpts-\u003eValue-\u003eHtml",
@@ -844,6 +912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an Html page representing the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "valToHtmlPage",
           "package": "pretty-show",
@@ -854,6 +923,7 @@
         "index": {
           "description": "Make an Html page representing the given value",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "valToHtmlPage",
           "normalized": "HtmlOpts-\u003eValue-\u003eString",
@@ -870,6 +940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a generic value. Our intention is that the result is\n   equivalent to the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance for the original value, except possibly\n   easier to understand by a human.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "valToStr",
           "package": "pretty-show",
@@ -880,6 +951,7 @@
         "index": {
           "description": "Pretty print generic value Our intention is that the result is equivalent to the Show instance for the original value except possibly easier to understand by human",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "valToStr",
           "normalized": "Value-\u003eString",
@@ -896,6 +968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMax. number of columns in wide lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:37 UTC 2014",
           "module": "Text.Show.Pretty",
           "name": "wideListWidth",
           "package": "pretty-show",
@@ -906,6 +979,7 @@
         "index": {
           "description": "Max number of columns in wide lists",
           "hierarchy": "Text Show Pretty",
+          "indexed": "2014-03-11T19:43:37",
           "module": "Text.Show.Pretty",
           "name": "wideListWidth",
           "package": "pretty-show",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "quickspec"
+        "phrase": "quickspec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Approximate",
           "name": "Approximate",
           "package": "quickspec",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Approximate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Approximate",
           "name": "Approximate",
           "package": "quickspec",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Approximate",
           "name": "GP",
           "package": "quickspec",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Approximate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Approximate",
           "name": "GP",
           "package": "quickspec",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Approximate",
           "name": "Partial",
           "package": "quickspec",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Approximate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Approximate",
           "name": "Partial",
           "package": "quickspec",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Approximate",
           "name": "Plug",
           "package": "quickspec",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Approximate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Approximate",
           "name": "Plug",
           "package": "quickspec",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Approximate",
           "name": "Plug",
           "package": "quickspec",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Approximate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Approximate",
           "name": "Plug",
           "package": "quickspec",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Approximate",
           "name": "approximate",
           "package": "quickspec",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Approximate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Approximate",
           "name": "approximate",
           "normalized": "a-\u003eMaybe a)-\u003eStdGen-\u003eInt-\u003ea-\u003ea",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Approximate",
           "name": "genPartial",
           "package": "quickspec",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Approximate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Approximate",
           "name": "genPartial",
           "normalized": "a-\u003eGen a",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Approximate",
           "name": "lifted",
           "package": "quickspec",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Approximate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Approximate",
           "name": "lifted",
           "normalized": "a-\u003eGP a",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Approximate",
           "name": "plug",
           "package": "quickspec",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Approximate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Approximate",
           "name": "plug",
           "normalized": "GP a-\u003eGP a",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Approximate",
           "name": "pobserver",
           "package": "quickspec",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Approximate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Approximate",
           "name": "pobserver",
           "normalized": "a-\u003eSig",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Approximate",
           "name": "pvars",
           "package": "quickspec",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Approximate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Approximate",
           "name": "pvars",
           "normalized": "[String]-\u003ea-\u003eSig",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Approximate",
           "name": "unPlug",
           "package": "quickspec",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Approximate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Approximate",
           "name": "unPlug",
           "normalized": "Gen a-\u003eGen a",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Approximate",
           "name": "unlifted",
           "package": "quickspec",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Approximate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Approximate",
           "name": "unlifted",
           "normalized": "a-\u003eGP a",
@@ -311,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEquations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Equation",
           "name": "Equation",
           "package": "quickspec",
@@ -320,6 +347,7 @@
         "index": {
           "description": "Equations",
           "hierarchy": "Test QuickSpec Equation",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Equation",
           "name": "Equation",
           "package": "quickspec",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Equation",
           "name": "Equation",
           "package": "quickspec",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Equation",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Equation",
           "name": "Equation",
           "package": "quickspec",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Equation",
           "name": "TypedEquation",
           "package": "quickspec",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Equation",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Equation",
           "name": "TypedEquation",
           "package": "quickspec",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Equation",
           "name": ":==:",
           "package": "quickspec",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Equation",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Equation",
           "name": ":==:",
           "package": "quickspec",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Equation",
           "name": ":=:",
           "package": "quickspec",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Equation",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Equation",
           "name": ":=:",
           "package": "quickspec",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Equation",
           "name": "equations",
           "package": "quickspec",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Equation",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Equation",
           "name": "equations",
           "normalized": "[Several Expr]-\u003e[Some TypedEquation]",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Equation",
           "name": "eraseEquation",
           "package": "quickspec",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Equation",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Equation",
           "name": "eraseEquation",
           "normalized": "TypedEquation a-\u003eEquation",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Equation",
           "name": "showEquation",
           "package": "quickspec",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Equation",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Equation",
           "name": "showEquation",
           "normalized": "Sig-\u003eEquation-\u003eString",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Equation",
           "name": "showTypedEquation",
           "package": "quickspec",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Equation",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Equation",
           "name": "showTypedEquation",
           "normalized": "Sig-\u003eTypedEquation a-\u003eString",
@@ -513,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe testing loop and term generation of QuickSpec.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Generate",
           "name": "Generate",
           "package": "quickspec",
@@ -522,6 +567,7 @@
         "index": {
           "description": "The testing loop and term generation of QuickSpec",
           "hierarchy": "Test QuickSpec Generate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Generate",
           "name": "Generate",
           "package": "quickspec",
@@ -535,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Generate",
           "name": "eraseClasses",
           "package": "quickspec",
@@ -544,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Generate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Generate",
           "name": "eraseClasses",
           "normalized": "TypeMap(TestResults O Expr)-\u003e[[Tagged Term]]",
@@ -559,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Generate",
           "name": "genSeeds",
           "package": "quickspec",
@@ -568,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Generate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Generate",
           "name": "genSeeds",
           "normalized": "Int-\u003eIO[(StdGen,Int)]",
@@ -583,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Generate",
           "name": "generate",
           "package": "quickspec",
@@ -592,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Generate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Generate",
           "name": "generate",
           "normalized": "Strategy-\u003eSig-\u003eIO(TypeMap(TestResults O Expr))",
@@ -606,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Generate",
           "name": "terms",
           "package": "quickspec",
@@ -615,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Generate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Generate",
           "name": "terms",
           "normalized": "Sig-\u003eTypeRel Expr-\u003eTypeRel Expr",
@@ -629,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Generate",
           "name": "terms'",
           "package": "quickspec",
@@ -638,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Generate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Generate",
           "name": "terms'",
           "normalized": "Sig-\u003eTypeRel Expr-\u003ea-\u003e[Expr a]",
@@ -652,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Generate",
           "name": "test",
           "package": "quickspec",
@@ -661,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Generate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Generate",
           "name": "test",
           "normalized": "[(Valuation,StdGen,Int)]-\u003eSig-\u003eTypeMap(List O Expr)-\u003eTypeMap(TestResults O Expr)",
@@ -675,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Generate",
           "name": "test'",
           "package": "quickspec",
@@ -684,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Generate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Generate",
           "name": "test'",
           "normalized": "[(Valuation,StdGen,Int)]-\u003eSig-\u003e[Expr a]-\u003eTestResults(Expr a)",
@@ -698,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Generate",
           "name": "toValuation",
           "package": "quickspec",
@@ -707,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Generate",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Generate",
           "name": "toValuation",
           "normalized": "Strategy-\u003eSig-\u003e(StdGen,Int)-\u003e(Valuation,StdGen,Int)",
@@ -723,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe main implementation of QuickSpec.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Main",
           "name": "Main",
           "package": "quickspec",
@@ -732,6 +795,7 @@
         "index": {
           "description": "The main implementation of QuickSpec",
           "hierarchy": "Test QuickSpec Main",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Main",
           "name": "Main",
           "package": "quickspec",
@@ -745,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Main",
           "name": "Target",
           "package": "quickspec",
@@ -753,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Main",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Main",
           "name": "Target",
           "package": "quickspec",
@@ -766,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Main",
           "name": "NoTarget",
           "package": "quickspec",
@@ -775,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Main",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Main",
           "name": "NoTarget",
           "package": "quickspec",
@@ -788,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Main",
           "name": "Target",
           "package": "quickspec",
@@ -797,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Main",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Main",
           "name": "Target",
           "package": "quickspec",
@@ -810,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Main",
           "name": "defines",
           "package": "quickspec",
@@ -819,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Main",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Main",
           "name": "defines",
           "normalized": "Equation-\u003eMaybe Symbol",
@@ -833,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Main",
           "name": "definitions",
           "package": "quickspec",
@@ -842,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Main",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Main",
           "name": "definitions",
           "normalized": "[Equation]-\u003e[Equation]",
@@ -856,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Main",
           "name": "innerZip",
           "package": "quickspec",
@@ -865,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Main",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Main",
           "name": "innerZip",
           "normalized": "[a]-\u003e[[b]]-\u003e[[(a,b)]]",
@@ -880,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Main",
           "name": "prune",
           "package": "quickspec",
@@ -889,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Main",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Main",
           "name": "prune",
           "normalized": "Context-\u003e[Term]-\u003e(a-\u003eEquation)-\u003e[a]-\u003e[a]",
@@ -930,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Main",
           "name": "runTool",
           "package": "quickspec",
@@ -939,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Main",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Main",
           "name": "runTool",
           "normalized": "(Sig-\u003eIO())-\u003ea-\u003eIO()",
@@ -954,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Main",
           "name": "sampleList",
           "package": "quickspec",
@@ -963,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Main",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Main",
           "name": "sampleList",
           "normalized": "StdGen-\u003eInt-\u003e[a]-\u003e[a]",
@@ -1005,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Main",
           "name": "target",
           "package": "quickspec",
@@ -1014,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Main",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Main",
           "name": "target",
           "normalized": "Equation-\u003eTarget",
@@ -1028,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Main",
           "name": "undefinedsSig",
           "package": "quickspec",
@@ -1037,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Main",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Main",
           "name": "undefinedsSig",
           "normalized": "Sig-\u003eSig",
@@ -1052,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Main",
           "name": "universe",
           "package": "quickspec",
@@ -1061,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Main",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Main",
           "name": "universe",
           "normalized": "[[Tagged Term]]-\u003e[Tagged Term]",
@@ -1076,6 +1164,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \"prelude\": a standard signature containing useful functions\n   like \u003ccode\u003e\u003ca\u003e++\u003c/a\u003e\u003c/code\u003e, which can be used as background theory.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Prelude",
           "name": "Prelude",
           "package": "quickspec",
@@ -1085,6 +1174,7 @@
         "index": {
           "description": "The prelude standard signature containing useful functions like which can be used as background theory",
           "hierarchy": "Test QuickSpec Prelude",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Prelude",
           "name": "Prelude",
           "package": "quickspec",
@@ -1099,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust a type.\n   You can instantiate your polymorphic functions at this type\n   to include them in a signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Prelude",
           "name": "A",
           "package": "quickspec",
@@ -1108,6 +1199,7 @@
         "index": {
           "description": "Just type You can instantiate your polymorphic functions at this type to include them in signature",
           "hierarchy": "Test QuickSpec Prelude",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Prelude",
           "name": "A",
           "package": "quickspec",
@@ -1120,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Prelude",
           "name": "B",
           "package": "quickspec",
@@ -1128,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Prelude",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Prelude",
           "name": "B",
           "package": "quickspec",
@@ -1140,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Prelude",
           "name": "C",
           "package": "quickspec",
@@ -1148,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Prelude",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Prelude",
           "name": "C",
           "package": "quickspec",
@@ -1161,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type with two elements.\n   Use this instead of \u003ccode\u003eA\u003c/code\u003e if testing doesn't work well because\n   the domain of \u003ccode\u003eA\u003c/code\u003e is too large.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Prelude",
           "name": "Two",
           "package": "quickspec",
@@ -1170,6 +1267,7 @@
         "index": {
           "description": "type with two elements Use this instead of if testing doesn work well because the domain of is too large",
           "hierarchy": "Test QuickSpec Prelude",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Prelude",
           "name": "Two",
           "package": "quickspec",
@@ -1183,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Prelude",
           "name": "A",
           "package": "quickspec",
@@ -1192,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Prelude",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Prelude",
           "name": "A",
           "package": "quickspec",
@@ -1204,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Prelude",
           "name": "B",
           "package": "quickspec",
@@ -1213,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Prelude",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Prelude",
           "name": "B",
           "package": "quickspec",
@@ -1225,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Prelude",
           "name": "C",
           "package": "quickspec",
@@ -1234,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Prelude",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Prelude",
           "name": "C",
           "package": "quickspec",
@@ -1246,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Prelude",
           "name": "One",
           "package": "quickspec",
@@ -1255,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Prelude",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Prelude",
           "name": "One",
           "package": "quickspec",
@@ -1268,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Prelude",
           "name": "Two",
           "package": "quickspec",
@@ -1277,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Prelude",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Prelude",
           "name": "Two",
           "package": "quickspec",
@@ -1419,6 +1527,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA decision procedure for ground equality,\n   based on the paper \u003ca\u003eProof-producing Congruence Closure\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "CongruenceClosure",
           "package": "quickspec",
@@ -1428,6 +1537,7 @@
         "index": {
           "description": "decision procedure for ground equality based on the paper Proof-producing Congruence Closure",
           "hierarchy": "Test QuickSpec Reasoning CongruenceClosure",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "CongruenceClosure",
           "package": "quickspec",
@@ -1441,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "CC",
           "package": "quickspec",
@@ -1449,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning CongruenceClosure",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "CC",
           "package": "quickspec",
@@ -1462,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "S",
           "package": "quickspec",
@@ -1470,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning CongruenceClosure",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "S",
           "package": "quickspec",
@@ -1482,6 +1596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "($$)",
           "package": "quickspec",
@@ -1491,6 +1606,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning CongruenceClosure",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "($$) $$",
           "normalized": "Int-\u003eInt-\u003eCC Int",
@@ -1505,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "(=?=)",
           "package": "quickspec",
@@ -1514,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning CongruenceClosure",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "(=?=) =?=",
           "normalized": "Int-\u003eInt-\u003eCC Bool",
@@ -1528,6 +1646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "(=:=)",
           "package": "quickspec",
@@ -1537,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning CongruenceClosure",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "(=:=) =:=",
           "normalized": "Int-\u003eInt-\u003eCC Bool",
@@ -1551,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "argUse",
           "package": "quickspec",
@@ -1560,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning CongruenceClosure",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "argUse",
           "normalized": "S-\u003eIntMap[(Int,Int)]",
@@ -1575,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "evalCC",
           "package": "quickspec",
@@ -1584,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning CongruenceClosure",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "evalCC",
           "normalized": "S-\u003eCC a-\u003ea",
@@ -1599,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "execCC",
           "package": "quickspec",
@@ -1608,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning CongruenceClosure",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "execCC",
           "normalized": "S-\u003eCC a-\u003eS",
@@ -1623,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "frozen",
           "package": "quickspec",
@@ -1632,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning CongruenceClosure",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "frozen",
           "normalized": "CC a-\u003eCC a",
@@ -1646,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "funUse",
           "package": "quickspec",
@@ -1655,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning CongruenceClosure",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "funUse",
           "normalized": "S-\u003eIntMap[(Int,Int)]",
@@ -1670,6 +1800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "initial",
           "package": "quickspec",
@@ -1679,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning CongruenceClosure",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "initial",
           "normalized": "Int-\u003eS",
@@ -1693,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "lookup",
           "package": "quickspec",
@@ -1702,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning CongruenceClosure",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "lookup",
           "normalized": "S-\u003eIntMap(IntMap Int)",
@@ -1716,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "newSym",
           "package": "quickspec",
@@ -1725,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning CongruenceClosure",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "newSym",
           "package": "quickspec",
@@ -1738,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "rep",
           "package": "quickspec",
@@ -1747,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning CongruenceClosure",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "rep",
           "normalized": "Int-\u003eCC Int",
@@ -1761,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "runCC",
           "package": "quickspec",
@@ -1770,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning CongruenceClosure",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.CongruenceClosure",
           "name": "runCC",
           "normalized": "S-\u003eCC a-\u003e(a,S)",
@@ -1786,6 +1926,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEquational reasoning built on top of congruence closure.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "NaiveEquationalReasoning",
           "package": "quickspec",
@@ -1795,6 +1936,7 @@
         "index": {
           "description": "Equational reasoning built on top of congruence closure",
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "NaiveEquationalReasoning",
           "package": "quickspec",
@@ -1808,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "Context",
           "package": "quickspec",
@@ -1816,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "Context",
           "package": "quickspec",
@@ -1829,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "EQ",
           "package": "quickspec",
@@ -1837,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "EQ",
           "package": "quickspec",
@@ -1850,6 +1996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "Subst",
           "package": "quickspec",
@@ -1858,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "Subst",
           "package": "quickspec",
@@ -1871,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "Universe",
           "package": "quickspec",
@@ -1879,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "Universe",
           "package": "quickspec",
@@ -1892,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "(=?=)",
           "package": "quickspec",
@@ -1901,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "(=?=) =?=",
           "normalized": "Term-\u003eTerm-\u003eEQ Bool",
@@ -1915,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "(=:=)",
           "package": "quickspec",
@@ -1924,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "(=:=) =:=",
           "normalized": "Term-\u003eTerm-\u003eEQ Bool",
@@ -1938,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "Context",
           "package": "quickspec",
@@ -1947,6 +2102,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "Context",
           "package": "quickspec",
@@ -1960,6 +2116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "createUniverse",
           "package": "quickspec",
@@ -1969,6 +2126,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "createUniverse",
           "normalized": "[Term]-\u003eCC Universe",
@@ -1984,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "equal",
           "package": "quickspec",
@@ -1993,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "equal",
           "normalized": "Equation-\u003eEQ Bool",
@@ -2007,6 +2167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "evalEQ",
           "package": "quickspec",
@@ -2016,6 +2177,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "evalEQ",
           "normalized": "Context-\u003eEQ a-\u003ea",
@@ -2031,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "execEQ",
           "package": "quickspec",
@@ -2040,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "execEQ",
           "normalized": "Context-\u003eEQ a-\u003eContext",
@@ -2055,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "flatten",
           "package": "quickspec",
@@ -2064,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "flatten",
           "normalized": "Term-\u003eCC Int",
@@ -2078,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "get",
           "package": "quickspec",
@@ -2087,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "get",
           "package": "quickspec",
@@ -2099,6 +2267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "initial",
           "package": "quickspec",
@@ -2108,6 +2277,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "initial",
           "normalized": "Int-\u003e[Symbol]-\u003e[Tagged Term]-\u003eContext",
@@ -2122,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "liftCC",
           "package": "quickspec",
@@ -2131,6 +2302,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "liftCC",
           "normalized": "CC a-\u003eEQ a",
@@ -2146,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "maxDepth",
           "package": "quickspec",
@@ -2155,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "maxDepth",
           "package": "quickspec",
@@ -2168,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "put",
           "package": "quickspec",
@@ -2177,6 +2352,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "put",
           "normalized": "S-\u003eEQ()",
@@ -2191,6 +2367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "rel",
           "package": "quickspec",
@@ -2200,6 +2377,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "rel",
           "package": "quickspec",
@@ -2212,6 +2390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "rep",
           "package": "quickspec",
@@ -2221,6 +2400,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "rep",
           "normalized": "Term-\u003eEQ Int",
@@ -2235,6 +2415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "runEQ",
           "package": "quickspec",
@@ -2244,6 +2425,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "runEQ",
           "normalized": "Context-\u003eEQ a-\u003e(a,Context)",
@@ -2259,6 +2441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "subst",
           "package": "quickspec",
@@ -2268,6 +2451,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "subst",
           "normalized": "Subst-\u003eTerm-\u003eCC Int",
@@ -2282,6 +2466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "substs",
           "package": "quickspec",
@@ -2291,6 +2476,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "substs",
           "normalized": "Term-\u003eIntMap Universe-\u003eInt-\u003e[Subst]",
@@ -2305,6 +2491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "unify",
           "package": "quickspec",
@@ -2314,6 +2501,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "unify",
           "normalized": "Equation-\u003eEQ Bool",
@@ -2328,6 +2516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "universe",
           "package": "quickspec",
@@ -2337,6 +2526,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning NaiveEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.NaiveEquationalReasoning",
           "name": "universe",
           "package": "quickspec",
@@ -2350,6 +2540,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEquational reasoning that deals with partial functions.\n   Only used in HipSpec at the moment.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "PartialEquationalReasoning",
           "package": "quickspec",
@@ -2359,6 +2550,7 @@
         "index": {
           "description": "Equational reasoning that deals with partial functions Only used in HipSpec at the moment",
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "PartialEquationalReasoning",
           "package": "quickspec",
@@ -2372,6 +2564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "Context",
           "package": "quickspec",
@@ -2380,6 +2573,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "Context",
           "package": "quickspec",
@@ -2393,6 +2587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "PEQ",
           "package": "quickspec",
@@ -2401,6 +2596,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "PEQ",
           "package": "quickspec",
@@ -2414,6 +2610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "PEquation",
           "package": "quickspec",
@@ -2422,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "PEquation",
           "package": "quickspec",
@@ -2435,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "Precondition",
           "package": "quickspec",
@@ -2443,6 +2642,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "Precondition",
           "package": "quickspec",
@@ -2456,6 +2656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "Totality",
           "package": "quickspec",
@@ -2464,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "Totality",
           "package": "quickspec",
@@ -2477,6 +2679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": ":\\/:",
           "package": "quickspec",
@@ -2486,6 +2689,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": ":\\/:",
           "package": "quickspec",
@@ -2498,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "Context",
           "package": "quickspec",
@@ -2507,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "Context",
           "package": "quickspec",
@@ -2520,6 +2726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "Partial",
           "package": "quickspec",
@@ -2529,6 +2736,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "Partial",
           "package": "quickspec",
@@ -2542,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "Total",
           "package": "quickspec",
@@ -2551,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "Total",
           "normalized": "Total[Int]",
@@ -2566,6 +2776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "Variable",
           "package": "quickspec",
@@ -2575,6 +2786,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "Variable",
           "package": "quickspec",
@@ -2588,6 +2800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "equal",
           "package": "quickspec",
@@ -2597,6 +2810,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "equal",
           "normalized": "PEquation-\u003ePEQ Bool",
@@ -2611,6 +2825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "evalPEQ",
           "package": "quickspec",
@@ -2620,6 +2835,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "evalPEQ",
           "normalized": "Context-\u003ePEQ a-\u003ea",
@@ -2635,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "execPEQ",
           "package": "quickspec",
@@ -2644,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "execPEQ",
           "normalized": "Context-\u003ePEQ a-\u003eContext",
@@ -2659,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "get",
           "package": "quickspec",
@@ -2668,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "get",
           "package": "quickspec",
@@ -2680,6 +2900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "initial",
           "package": "quickspec",
@@ -2689,6 +2910,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "initial",
           "normalized": "Int-\u003e[(Symbol,Totality)]-\u003e[Tagged Term]-\u003eContext",
@@ -2703,6 +2925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "irrelevant",
           "package": "quickspec",
@@ -2712,6 +2935,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "irrelevant",
           "normalized": "Equation-\u003ePEQ Precondition",
@@ -2726,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "liftEQ",
           "package": "quickspec",
@@ -2735,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "liftEQ",
           "normalized": "[Int]-\u003e(Maybe Int-\u003eEQ a)-\u003ePEQ[a]",
@@ -2750,6 +2976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "partial",
           "package": "quickspec",
@@ -2759,6 +2986,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "partial",
           "package": "quickspec",
@@ -2771,6 +2999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "precondition",
           "package": "quickspec",
@@ -2780,6 +3009,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "precondition",
           "normalized": "Equation-\u003ePEQ Precondition",
@@ -2794,6 +3024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "put",
           "package": "quickspec",
@@ -2803,6 +3034,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "put",
           "normalized": "Context-\u003ePEQ()",
@@ -2817,6 +3049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "rep",
           "package": "quickspec",
@@ -2826,6 +3059,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "rep",
           "normalized": "Precondition-\u003eTerm-\u003ePEQ[Int]",
@@ -2840,6 +3074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "runPEQ",
           "package": "quickspec",
@@ -2849,6 +3084,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "runPEQ",
           "normalized": "Context-\u003ePEQ a-\u003e(a,Context)",
@@ -2864,6 +3100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "showPEquation",
           "package": "quickspec",
@@ -2873,6 +3110,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "showPEquation",
           "normalized": "Sig-\u003ePEquation-\u003eString",
@@ -2888,6 +3126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "total",
           "package": "quickspec",
@@ -2897,6 +3136,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "total",
           "package": "quickspec",
@@ -2909,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "unify",
           "package": "quickspec",
@@ -2918,6 +3159,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "unify",
           "normalized": "PEquation-\u003ePEQ Bool",
@@ -2932,6 +3174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "vars",
           "package": "quickspec",
@@ -2941,6 +3184,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning PartialEquationalReasoning",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.PartialEquationalReasoning",
           "name": "vars",
           "package": "quickspec",
@@ -2954,6 +3198,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA union-find data structure.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "UnionFind",
           "package": "quickspec",
@@ -2963,6 +3208,7 @@
         "index": {
           "description": "union-find data structure",
           "hierarchy": "Test QuickSpec Reasoning UnionFind",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "UnionFind",
           "package": "quickspec",
@@ -2976,6 +3222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "Replacement",
           "package": "quickspec",
@@ -2984,6 +3231,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning UnionFind",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "Replacement",
           "package": "quickspec",
@@ -2997,6 +3245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "S",
           "package": "quickspec",
@@ -3005,6 +3254,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning UnionFind",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "S",
           "package": "quickspec",
@@ -3017,6 +3267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "UF",
           "package": "quickspec",
@@ -3025,6 +3276,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning UnionFind",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "UF",
           "package": "quickspec",
@@ -3038,6 +3290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "(=:=)",
           "package": "quickspec",
@@ -3047,6 +3300,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning UnionFind",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "(=:=) =:=",
           "normalized": "Int-\u003eInt-\u003eUF(Maybe Replacement)",
@@ -3061,6 +3315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": ":\u003e",
           "package": "quickspec",
@@ -3070,6 +3325,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning UnionFind",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": ":\u003e",
           "package": "quickspec",
@@ -3082,6 +3338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "evalUF",
           "package": "quickspec",
@@ -3091,6 +3348,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning UnionFind",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "evalUF",
           "normalized": "S-\u003eUF a-\u003ea",
@@ -3106,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "execUF",
           "package": "quickspec",
@@ -3115,6 +3374,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning UnionFind",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "execUF",
           "normalized": "S-\u003eUF a-\u003eS",
@@ -3130,6 +3390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "initial",
           "package": "quickspec",
@@ -3139,6 +3400,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning UnionFind",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "initial",
           "normalized": "Int-\u003eS",
@@ -3153,6 +3415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "isRep",
           "package": "quickspec",
@@ -3162,6 +3425,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning UnionFind",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "isRep",
           "normalized": "Int-\u003eUF Bool",
@@ -3177,6 +3441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "newSym",
           "package": "quickspec",
@@ -3186,6 +3451,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning UnionFind",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "newSym",
           "package": "quickspec",
@@ -3199,6 +3465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "rep",
           "package": "quickspec",
@@ -3208,6 +3475,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning UnionFind",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "rep",
           "normalized": "Int-\u003eUF Int",
@@ -3222,6 +3490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "runUF",
           "package": "quickspec",
@@ -3231,6 +3500,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Reasoning UnionFind",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Reasoning.UnionFind",
           "name": "runUF",
           "normalized": "S-\u003eUF a-\u003e(a,S)",
@@ -3247,6 +3517,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for constructing and analysing signatures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "Signature",
           "package": "quickspec",
@@ -3256,6 +3527,7 @@
         "index": {
           "description": "Functions for constructing and analysing signatures",
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "Signature",
           "package": "quickspec",
@@ -3269,6 +3541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "Observer",
           "package": "quickspec",
@@ -3277,6 +3550,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "Observer",
           "package": "quickspec",
@@ -3291,6 +3565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "Sig",
           "package": "quickspec",
@@ -3300,6 +3575,7 @@
         "index": {
           "description": "signature",
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "Sig",
           "package": "quickspec",
@@ -3314,6 +3590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of things that can be used as a signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "Signature",
           "package": "quickspec",
@@ -3323,6 +3600,7 @@
         "index": {
           "description": "The class of things that can be used as signature",
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "Signature",
           "package": "quickspec",
@@ -3336,6 +3614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "Summary",
           "package": "quickspec",
@@ -3344,6 +3623,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "Summary",
           "package": "quickspec",
@@ -3357,6 +3637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "Used",
           "package": "quickspec",
@@ -3365,6 +3646,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "Used",
           "package": "quickspec",
@@ -3378,6 +3660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "Observer",
           "package": "quickspec",
@@ -3387,6 +3670,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "Observer",
           "normalized": "Observer(PGen(a-\u003eb))",
@@ -3402,6 +3686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "Sig",
           "package": "quickspec",
@@ -3411,6 +3696,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "Sig",
           "package": "quickspec",
@@ -3424,6 +3710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "Summary",
           "package": "quickspec",
@@ -3433,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "Summary",
           "package": "quickspec",
@@ -3446,6 +3734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "Used",
           "package": "quickspec",
@@ -3455,6 +3744,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "Used",
           "normalized": "Used Witness[Symbol]",
@@ -3470,6 +3760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "argumentTypes",
           "package": "quickspec",
@@ -3479,6 +3770,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "argumentTypes",
           "normalized": "Sig-\u003e[Witness]",
@@ -3676,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "constantApplications",
           "package": "quickspec",
@@ -3685,6 +3978,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "constantApplications",
           "normalized": "Sig-\u003eConstant a-\u003e[Witness]",
@@ -3700,6 +3994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "constantArgs",
           "package": "quickspec",
@@ -3709,6 +4004,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "constantArgs",
           "normalized": "Sig-\u003eConstant a-\u003e[Witness]",
@@ -3724,6 +4020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "constantRes",
           "package": "quickspec",
@@ -3733,6 +4030,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "constantRes",
           "normalized": "Sig-\u003eConstant a-\u003eWitness",
@@ -3748,6 +4046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "constantSig",
           "package": "quickspec",
@@ -3757,6 +4056,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "constantSig",
           "normalized": "Constant a-\u003eSig",
@@ -3772,6 +4072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "constantSymbols",
           "package": "quickspec",
@@ -3781,6 +4082,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "constantSymbols",
           "normalized": "Sig-\u003e[Symbol]",
@@ -3796,6 +4098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "constants",
           "package": "quickspec",
@@ -3805,6 +4108,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "constants",
           "package": "quickspec",
@@ -3817,6 +4121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "disambiguate",
           "package": "quickspec",
@@ -3826,6 +4131,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "disambiguate",
           "normalized": "Sig-\u003e[Symbol]-\u003eSymbol-\u003eSymbol",
@@ -3840,6 +4146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "emptySig",
           "package": "quickspec",
@@ -3849,6 +4156,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "emptySig",
           "package": "quickspec",
@@ -3862,6 +4170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "findWitness",
           "package": "quickspec",
@@ -3871,6 +4180,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "findWitness",
           "normalized": "Sig-\u003eTypeRep-\u003eWitness",
@@ -4043,6 +4353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003evars\u003c/a\u003e\u003c/code\u003e, but takes a generator as a parameter.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003egvars xs (arbitrary :: Gen a)\u003c/code\u003e is the same as\n \u003ccode\u003evars xs (undefined :: a)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "gvars0",
           "package": "quickspec",
@@ -4053,6 +4364,7 @@
         "index": {
           "description": "Similar to vars but takes generator as parameter gvars xs arbitrary Gen is the same as vars xs undefined",
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "gvars0",
           "normalized": "[String]-\u003eGen a-\u003eSig",
@@ -4067,6 +4379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "gvars1",
           "package": "quickspec",
@@ -4076,6 +4389,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "gvars1",
           "normalized": "[String]-\u003eGen(a-\u003eb)-\u003eSig",
@@ -4090,6 +4404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "gvars2",
           "package": "quickspec",
@@ -4099,6 +4414,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "gvars2",
           "normalized": "[String]-\u003eGen(a-\u003eb-\u003ec)-\u003eSig",
@@ -4113,6 +4429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "inhabitedTypes",
           "package": "quickspec",
@@ -4122,6 +4439,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "inhabitedTypes",
           "normalized": "Sig-\u003e[Witness]",
@@ -4137,6 +4455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "lhsWitnesses",
           "package": "quickspec",
@@ -4146,6 +4465,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "lhsWitnesses",
           "normalized": "Sig-\u003ea-\u003e[Witness]",
@@ -4161,6 +4481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "lookupWitness",
           "package": "quickspec",
@@ -4170,6 +4491,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "lookupWitness",
           "normalized": "Sig-\u003eTypeRep-\u003eMaybe Witness",
@@ -4185,6 +4507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "maxDepth",
           "package": "quickspec",
@@ -4194,6 +4517,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "maxDepth",
           "normalized": "Sig-\u003eInt",
@@ -4209,6 +4533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "maxDepth_",
           "package": "quickspec",
@@ -4218,6 +4543,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "maxDepth_",
           "package": "quickspec",
@@ -4231,6 +4557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "maxQuickCheckSize",
           "package": "quickspec",
@@ -4240,6 +4567,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "maxQuickCheckSize",
           "normalized": "Sig-\u003eInt",
@@ -4255,6 +4583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "maxQuickCheckSize_",
           "package": "quickspec",
@@ -4264,6 +4593,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "maxQuickCheckSize_",
           "package": "quickspec",
@@ -4277,6 +4607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "maxSize",
           "package": "quickspec",
@@ -4286,6 +4617,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "maxSize",
           "normalized": "Sig-\u003eInt",
@@ -4301,6 +4633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "maxSize_",
           "package": "quickspec",
@@ -4310,6 +4643,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "maxSize_",
           "package": "quickspec",
@@ -4323,6 +4657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "minTests",
           "package": "quickspec",
@@ -4332,6 +4667,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "minTests",
           "normalized": "Sig-\u003eInt",
@@ -4347,6 +4683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "minTests_",
           "package": "quickspec",
@@ -4356,6 +4693,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "minTests_",
           "package": "quickspec",
@@ -4369,6 +4707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "observe",
           "package": "quickspec",
@@ -4378,6 +4717,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "observe",
           "normalized": "a-\u003eSig-\u003eObserver a",
@@ -4496,6 +4836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "observerSig",
           "package": "quickspec",
@@ -4505,6 +4846,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "observerSig",
           "normalized": "Observer a-\u003eSig",
@@ -4520,6 +4862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "observers",
           "package": "quickspec",
@@ -4529,6 +4872,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "observers",
           "package": "quickspec",
@@ -4541,6 +4885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "observing",
           "package": "quickspec",
@@ -4550,6 +4895,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "observing",
           "normalized": "Observer a-\u003ea-\u003eObserver a",
@@ -4564,6 +4910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "ord",
           "package": "quickspec",
@@ -4573,6 +4920,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "ord",
           "normalized": "a-\u003eSig",
@@ -4587,6 +4935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "ordSig",
           "package": "quickspec",
@@ -4596,6 +4945,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "ordSig",
           "normalized": "Observer a-\u003eSig",
@@ -4611,6 +4961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "ords",
           "package": "quickspec",
@@ -4620,6 +4971,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "ords",
           "package": "quickspec",
@@ -4632,6 +4984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "partial",
           "package": "quickspec",
@@ -4641,6 +4994,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "partial",
           "package": "quickspec",
@@ -4653,6 +5007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "partialSig",
           "package": "quickspec",
@@ -4662,6 +5017,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "partialSig",
           "normalized": "Gen a-\u003eSig",
@@ -4677,6 +5033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "primCon0",
           "package": "quickspec",
@@ -4686,6 +5043,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "primCon0",
           "normalized": "Int-\u003eString-\u003ea-\u003eSig",
@@ -4701,6 +5059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "primCon1",
           "package": "quickspec",
@@ -4710,6 +5069,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "primCon1",
           "normalized": "Int-\u003eString-\u003e(a-\u003eb)-\u003eSig",
@@ -4725,6 +5085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "primCon2",
           "package": "quickspec",
@@ -4734,6 +5095,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "primCon2",
           "normalized": "Int-\u003eString-\u003e(a-\u003eb-\u003ec)-\u003eSig",
@@ -4749,6 +5111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "primCon3",
           "package": "quickspec",
@@ -4758,6 +5121,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "primCon3",
           "normalized": "Int-\u003eString-\u003e(a-\u003eb-\u003ec-\u003ed)-\u003eSig",
@@ -4773,6 +5137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "primCon4",
           "package": "quickspec",
@@ -4782,6 +5147,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "primCon4",
           "normalized": "Int-\u003eString-\u003e(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eSig",
@@ -4797,6 +5163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "primVars0",
           "package": "quickspec",
@@ -4806,6 +5173,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "primVars0",
           "normalized": "Int-\u003e[String]-\u003ePGen a-\u003eSig",
@@ -4821,6 +5189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "primVars1",
           "package": "quickspec",
@@ -4830,6 +5199,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "primVars1",
           "normalized": "Int-\u003e[String]-\u003ePGen(a-\u003eb)-\u003eSig",
@@ -4845,6 +5215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "primVars2",
           "package": "quickspec",
@@ -4854,6 +5225,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "primVars2",
           "normalized": "Int-\u003e[String]-\u003ePGen(a-\u003eb-\u003ec)-\u003eSig",
@@ -4869,6 +5241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "saturatedTypes",
           "package": "quickspec",
@@ -4878,6 +5251,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "saturatedTypes",
           "normalized": "Sig-\u003e[Witness]",
@@ -4893,6 +5267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "sigToHaskell",
           "package": "quickspec",
@@ -4902,6 +5277,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "sigToHaskell",
           "normalized": "a-\u003eString",
@@ -4917,6 +5293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "signature",
           "package": "quickspec",
@@ -4926,6 +5303,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "signature",
           "normalized": "a-\u003eSig",
@@ -4940,6 +5318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "summarise",
           "package": "quickspec",
@@ -4949,6 +5328,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "summarise",
           "normalized": "Sig-\u003eSummary",
@@ -4963,6 +5343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryBackground",
           "package": "quickspec",
@@ -4972,6 +5353,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryBackground",
           "normalized": "[Symbol]",
@@ -4987,6 +5369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryDepth",
           "package": "quickspec",
@@ -4996,6 +5379,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryDepth",
           "package": "quickspec",
@@ -5009,6 +5393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryFunctions",
           "package": "quickspec",
@@ -5018,6 +5403,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryFunctions",
           "normalized": "[Symbol]",
@@ -5033,6 +5419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryNoVars",
           "package": "quickspec",
@@ -5042,6 +5429,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryNoVars",
           "normalized": "[TypeRep]",
@@ -5057,6 +5445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryObserved",
           "package": "quickspec",
@@ -5066,6 +5455,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryObserved",
           "normalized": "[TypeRep]",
@@ -5081,6 +5471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryQuickCheckSize",
           "package": "quickspec",
@@ -5090,6 +5481,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryQuickCheckSize",
           "package": "quickspec",
@@ -5103,6 +5495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "summarySize",
           "package": "quickspec",
@@ -5112,6 +5505,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "summarySize",
           "package": "quickspec",
@@ -5125,6 +5519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryTests",
           "package": "quickspec",
@@ -5134,6 +5529,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryTests",
           "package": "quickspec",
@@ -5147,6 +5543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryUninhabited",
           "package": "quickspec",
@@ -5156,6 +5553,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryUninhabited",
           "normalized": "[Used]",
@@ -5171,6 +5569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryUntestable",
           "package": "quickspec",
@@ -5180,6 +5579,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryUntestable",
           "normalized": "[TypeRep]",
@@ -5195,6 +5595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryVariables",
           "package": "quickspec",
@@ -5204,6 +5605,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "summaryVariables",
           "normalized": "[Symbol]",
@@ -5219,6 +5621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "symbols",
           "package": "quickspec",
@@ -5228,6 +5631,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "symbols",
           "normalized": "Sig-\u003e[Symbol]",
@@ -5242,6 +5646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "testable",
           "package": "quickspec",
@@ -5251,6 +5656,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "testable",
           "normalized": "Sig-\u003ea-\u003eBool",
@@ -5265,6 +5671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "total",
           "package": "quickspec",
@@ -5274,6 +5681,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "total",
           "package": "quickspec",
@@ -5286,6 +5694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "totalSig",
           "package": "quickspec",
@@ -5295,6 +5704,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "totalSig",
           "normalized": "Gen a-\u003eSig",
@@ -5310,6 +5720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "typeSig",
           "package": "quickspec",
@@ -5319,6 +5730,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "typeSig",
           "normalized": "a-\u003eSig",
@@ -5334,6 +5746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "undefinedSig",
           "package": "quickspec",
@@ -5343,6 +5756,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "undefinedSig",
           "normalized": "String-\u003ea-\u003eSig",
@@ -5358,6 +5772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "updateDepth",
           "package": "quickspec",
@@ -5367,6 +5782,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "updateDepth",
           "normalized": "Int-\u003eSig-\u003eSig",
@@ -5382,6 +5798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "updateSize",
           "package": "quickspec",
@@ -5391,6 +5808,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "updateSize",
           "normalized": "Int-\u003eSig-\u003eSig",
@@ -5406,6 +5824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "uses",
           "package": "quickspec",
@@ -5415,6 +5834,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "uses",
           "normalized": "Sig-\u003eWitness-\u003eUsed",
@@ -5429,6 +5849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "variableSig",
           "package": "quickspec",
@@ -5438,6 +5859,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "variableSig",
           "normalized": "[Variable a]-\u003eSig",
@@ -5453,6 +5875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "variableSymbols",
           "package": "quickspec",
@@ -5462,6 +5885,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "variableSymbols",
           "normalized": "Sig-\u003e[Symbol]",
@@ -5477,6 +5901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "variableTypes",
           "package": "quickspec",
@@ -5486,6 +5911,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "variableTypes",
           "normalized": "Sig-\u003e[Witness]",
@@ -5501,6 +5927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "variables",
           "package": "quickspec",
@@ -5510,6 +5937,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "variables",
           "package": "quickspec",
@@ -5549,6 +5977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclare a set of variables of a particular type.\n\u003c/p\u003e\u003cp\u003eFor example, \u003ccode\u003evars [\"x\",\"y\",\"z\"] (undefined :: Int)\u003c/code\u003e\n defines three variables, \u003ccode\u003ex\u003c/code\u003e, \u003ccode\u003ey\u003c/code\u003e and \u003ccode\u003ez\u003c/code\u003e, of type \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "vars0",
           "package": "quickspec",
@@ -5559,6 +5988,7 @@
         "index": {
           "description": "Declare set of variables of particular type For example vars undefined Int defines three variables and of type Int",
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "vars0",
           "normalized": "[String]-\u003ea-\u003eSig",
@@ -5573,6 +6003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "vars1",
           "package": "quickspec",
@@ -5582,6 +6013,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "vars1",
           "normalized": "[String]-\u003e(a-\u003eb)-\u003eSig",
@@ -5596,6 +6028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "vars2",
           "package": "quickspec",
@@ -5605,6 +6038,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "vars2",
           "normalized": "[String]-\u003e(a-\u003eb-\u003ec)-\u003eSig",
@@ -5753,6 +6187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "witnessArrow",
           "package": "quickspec",
@@ -5762,6 +6197,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "witnessArrow",
           "normalized": "Sig-\u003ea-\u003eMaybe(Witness,Witness)",
@@ -5777,6 +6213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Signature",
           "name": "witnesses",
           "package": "quickspec",
@@ -5786,6 +6223,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Signature",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Signature",
           "name": "witnesses",
           "package": "quickspec",
@@ -5799,6 +6237,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTerms and evaluation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "Term",
           "package": "quickspec",
@@ -5808,6 +6247,7 @@
         "index": {
           "description": "Terms and evaluation",
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "Term",
           "package": "quickspec",
@@ -5821,6 +6261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "Atom",
           "package": "quickspec",
@@ -5829,6 +6270,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "Atom",
           "package": "quickspec",
@@ -5842,6 +6284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "Constant",
           "package": "quickspec",
@@ -5850,6 +6293,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "Constant",
           "package": "quickspec",
@@ -5863,6 +6307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "Expr",
           "package": "quickspec",
@@ -5871,6 +6316,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "Expr",
           "package": "quickspec",
@@ -5884,6 +6330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "PGen",
           "package": "quickspec",
@@ -5892,6 +6339,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "PGen",
           "package": "quickspec",
@@ -5905,6 +6353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "Strategy",
           "package": "quickspec",
@@ -5913,6 +6362,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "Strategy",
           "package": "quickspec",
@@ -5926,6 +6376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "Symbol",
           "package": "quickspec",
@@ -5934,6 +6385,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "Symbol",
           "package": "quickspec",
@@ -5947,6 +6399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "Term",
           "package": "quickspec",
@@ -5955,6 +6408,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "Term",
           "package": "quickspec",
@@ -5968,6 +6422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "Valuation",
           "package": "quickspec",
@@ -5976,6 +6431,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "Valuation",
           "package": "quickspec",
@@ -5989,6 +6445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "Variable",
           "package": "quickspec",
@@ -5997,6 +6454,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "Variable",
           "package": "quickspec",
@@ -6010,6 +6468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "App",
           "package": "quickspec",
@@ -6019,6 +6478,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "App",
           "package": "quickspec",
@@ -6032,6 +6492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "Atom",
           "package": "quickspec",
@@ -6041,6 +6502,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "Atom",
           "package": "quickspec",
@@ -6054,6 +6516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "Const",
           "package": "quickspec",
@@ -6063,6 +6526,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "Const",
           "package": "quickspec",
@@ -6076,6 +6540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "Constant",
           "package": "quickspec",
@@ -6085,6 +6550,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "Constant",
           "package": "quickspec",
@@ -6098,6 +6564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "Expr",
           "package": "quickspec",
@@ -6107,6 +6574,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "Expr",
           "package": "quickspec",
@@ -6120,6 +6588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "PGen",
           "package": "quickspec",
@@ -6129,6 +6598,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "PGen",
           "package": "quickspec",
@@ -6142,6 +6612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "Symbol",
           "package": "quickspec",
@@ -6151,6 +6622,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "Symbol",
           "package": "quickspec",
@@ -6164,6 +6636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "Valuation",
           "package": "quickspec",
@@ -6173,6 +6646,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "Valuation",
           "package": "quickspec",
@@ -6186,6 +6660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "Var",
           "package": "quickspec",
@@ -6195,6 +6670,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "Var",
           "package": "quickspec",
@@ -6208,6 +6684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "Variable",
           "package": "quickspec",
@@ -6217,6 +6694,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "Variable",
           "package": "quickspec",
@@ -6230,6 +6708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "app",
           "package": "quickspec",
@@ -6239,6 +6718,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "app",
           "normalized": "Expr(a-\u003eb)-\u003eExpr a-\u003eExpr b",
@@ -6253,6 +6733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "args",
           "package": "quickspec",
@@ -6262,6 +6743,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "args",
           "normalized": "Term-\u003e[Term]",
@@ -6276,6 +6758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "arity",
           "package": "quickspec",
@@ -6285,6 +6768,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "arity",
           "package": "quickspec",
@@ -6297,6 +6781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "con",
           "package": "quickspec",
@@ -6306,6 +6791,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "con",
           "normalized": "Constant a-\u003eExpr a",
@@ -6320,6 +6806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "depth",
           "package": "quickspec",
@@ -6329,6 +6816,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "depth",
           "normalized": "Term-\u003eInt",
@@ -6343,6 +6831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "eval",
           "package": "quickspec",
@@ -6352,6 +6841,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "eval",
           "normalized": "Valuation-\u003ea",
@@ -6366,6 +6856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "functor",
           "package": "quickspec",
@@ -6375,6 +6866,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "functor",
           "normalized": "Term-\u003eSymbol",
@@ -6389,6 +6881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "funs",
           "package": "quickspec",
@@ -6398,6 +6891,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "funs",
           "normalized": "Term-\u003e[Symbol]",
@@ -6412,6 +6906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "holes",
           "package": "quickspec",
@@ -6421,6 +6916,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "holes",
           "normalized": "Term-\u003e[(Symbol,Int)]",
@@ -6435,6 +6931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "index",
           "package": "quickspec",
@@ -6444,6 +6941,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "index",
           "package": "quickspec",
@@ -6456,6 +6954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "isOp",
           "package": "quickspec",
@@ -6465,6 +6964,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "isOp",
           "normalized": "String-\u003eBool",
@@ -6480,6 +6980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "isUndefined",
           "package": "quickspec",
@@ -6489,6 +6990,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "isUndefined",
           "normalized": "Term-\u003eBool",
@@ -6504,6 +7006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "mapConstant",
           "package": "quickspec",
@@ -6513,6 +7016,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "mapConstant",
           "normalized": "(Symbol-\u003eSymbol)-\u003eConstant a-\u003eConstant a",
@@ -6528,6 +7032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "mapVariable",
           "package": "quickspec",
@@ -6537,6 +7042,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "mapVariable",
           "normalized": "(Symbol-\u003eSymbol)-\u003eVariable a-\u003eVariable a",
@@ -6552,6 +7058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "mapVars",
           "package": "quickspec",
@@ -6561,6 +7068,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "mapVars",
           "normalized": "(Symbol-\u003eSymbol)-\u003eTerm-\u003eTerm",
@@ -6576,6 +7084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "name",
           "package": "quickspec",
@@ -6585,6 +7094,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "name",
           "package": "quickspec",
@@ -6597,6 +7107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "partialGen",
           "package": "quickspec",
@@ -6606,6 +7117,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "partialGen",
           "package": "quickspec",
@@ -6619,6 +7131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "pgen",
           "package": "quickspec",
@@ -6628,6 +7141,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "pgen",
           "normalized": "Gen a-\u003ePGen a",
@@ -6642,6 +7156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "promoteVal",
           "package": "quickspec",
@@ -6651,6 +7166,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "promoteVal",
           "normalized": "(a b Gen(Variable c-\u003ec))-\u003eGen Valuation",
@@ -6666,6 +7182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "showOp",
           "package": "quickspec",
@@ -6675,6 +7192,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "showOp",
           "normalized": "String-\u003eString",
@@ -6690,6 +7208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "silent",
           "package": "quickspec",
@@ -6699,6 +7218,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "silent",
           "package": "quickspec",
@@ -6711,6 +7231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "size",
           "package": "quickspec",
@@ -6720,6 +7241,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "size",
           "normalized": "Int-\u003eTerm-\u003eInt",
@@ -6734,6 +7256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "sym",
           "package": "quickspec",
@@ -6743,6 +7266,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "sym",
           "package": "quickspec",
@@ -6755,6 +7279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "symbol",
           "package": "quickspec",
@@ -6764,6 +7289,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "symbol",
           "normalized": "String-\u003eInt-\u003ea-\u003eSymbol",
@@ -6778,6 +7304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "symbolArity",
           "package": "quickspec",
@@ -6787,6 +7314,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "symbolArity",
           "package": "quickspec",
@@ -6800,6 +7328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "symbolType",
           "package": "quickspec",
@@ -6809,6 +7338,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "symbolType",
           "package": "quickspec",
@@ -6822,6 +7352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "symbols",
           "package": "quickspec",
@@ -6831,6 +7362,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "symbols",
           "normalized": "Term-\u003e[Symbol]",
@@ -6845,6 +7377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "term",
           "package": "quickspec",
@@ -6854,6 +7387,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "term",
           "package": "quickspec",
@@ -6866,6 +7400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "totalGen",
           "package": "quickspec",
@@ -6875,6 +7410,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "totalGen",
           "package": "quickspec",
@@ -6888,6 +7424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "unConstant",
           "package": "quickspec",
@@ -6897,6 +7434,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "unConstant",
           "package": "quickspec",
@@ -6910,6 +7448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "unValuation",
           "package": "quickspec",
@@ -6919,6 +7458,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "unValuation",
           "normalized": "a b Variable c-\u003ec",
@@ -6934,6 +7474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "unVariable",
           "package": "quickspec",
@@ -6943,6 +7484,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "unVariable",
           "package": "quickspec",
@@ -6956,6 +7498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "undef",
           "package": "quickspec",
@@ -6965,6 +7508,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "undef",
           "package": "quickspec",
@@ -6977,6 +7521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "valuation",
           "package": "quickspec",
@@ -6986,6 +7531,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "valuation",
           "normalized": "Strategy-\u003eGen Valuation",
@@ -7000,6 +7546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "value",
           "package": "quickspec",
@@ -7009,6 +7556,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "value",
           "package": "quickspec",
@@ -7021,6 +7569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "var",
           "package": "quickspec",
@@ -7030,6 +7579,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "var",
           "normalized": "Variable a-\u003eExpr a",
@@ -7044,6 +7594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Term",
           "name": "vars",
           "package": "quickspec",
@@ -7053,6 +7604,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Term",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Term",
           "name": "vars",
           "normalized": "Term-\u003e[Symbol]",
@@ -7068,6 +7620,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTest whether functions are total.\n   Used by HipSpec.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.TestTotality",
           "name": "TestTotality",
           "package": "quickspec",
@@ -7077,6 +7630,7 @@
         "index": {
           "description": "Test whether functions are total Used by HipSpec",
           "hierarchy": "Test QuickSpec TestTotality",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.TestTotality",
           "name": "TestTotality",
           "package": "quickspec",
@@ -7090,6 +7644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.TestTotality",
           "name": "always",
           "package": "quickspec",
@@ -7099,6 +7654,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec TestTotality",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.TestTotality",
           "name": "always",
           "normalized": "Sig-\u003eGen Bool-\u003eIO Bool",
@@ -7113,6 +7669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.TestTotality",
           "name": "testEquation",
           "package": "quickspec",
@@ -7122,6 +7679,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec TestTotality",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.TestTotality",
           "name": "testEquation",
           "normalized": "Sig-\u003eExpr a-\u003eExpr a-\u003eSymbol-\u003eIO Bool",
@@ -7137,6 +7695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.TestTotality",
           "name": "testTotality",
           "package": "quickspec",
@@ -7146,6 +7705,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec TestTotality",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.TestTotality",
           "name": "testTotality",
           "normalized": "Sig-\u003eIO[(Symbol,Totality)]",
@@ -7162,6 +7722,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA data structure to represent refining a set of terms into\n   equivalence classes by testing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.TestTree",
           "name": "TestTree",
           "package": "quickspec",
@@ -7171,6 +7732,7 @@
         "index": {
           "description": "data structure to represent refining set of terms into equivalence classes by testing",
           "hierarchy": "Test QuickSpec TestTree",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.TestTree",
           "name": "TestTree",
           "package": "quickspec",
@@ -7184,6 +7746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.TestTree",
           "name": "TestResults",
           "package": "quickspec",
@@ -7192,6 +7755,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec TestTree",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.TestTree",
           "name": "TestResults",
           "package": "quickspec",
@@ -7205,6 +7769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.TestTree",
           "name": "TestTree",
           "package": "quickspec",
@@ -7213,6 +7778,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec TestTree",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.TestTree",
           "name": "TestTree",
           "package": "quickspec",
@@ -7226,6 +7792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.TestTree",
           "name": "classes",
           "package": "quickspec",
@@ -7235,6 +7802,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec TestTree",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.TestTree",
           "name": "classes",
           "normalized": "TestResults a-\u003e[[a]]",
@@ -7249,6 +7817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.TestTree",
           "name": "cutOff",
           "package": "quickspec",
@@ -7258,6 +7827,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec TestTree",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.TestTree",
           "name": "cutOff",
           "normalized": "Int-\u003eInt-\u003eTestTree a-\u003eTestResults a",
@@ -7273,6 +7843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.TestTree",
           "name": "discrete",
           "package": "quickspec",
@@ -7282,6 +7853,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec TestTree",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.TestTree",
           "name": "discrete",
           "normalized": "[a]-\u003eTestResults a",
@@ -7296,6 +7868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.TestTree",
           "name": "numResults",
           "package": "quickspec",
@@ -7305,6 +7878,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec TestTree",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.TestTree",
           "name": "numResults",
           "normalized": "TestResults a-\u003eInt",
@@ -7320,6 +7894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.TestTree",
           "name": "numTests",
           "package": "quickspec",
@@ -7329,6 +7904,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec TestTree",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.TestTree",
           "name": "numTests",
           "normalized": "TestResults a-\u003eInt",
@@ -7344,6 +7920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.TestTree",
           "name": "reps",
           "package": "quickspec",
@@ -7353,6 +7930,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec TestTree",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.TestTree",
           "name": "reps",
           "normalized": "TestResults a-\u003e[a]",
@@ -7367,6 +7945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.TestTree",
           "name": "terms",
           "package": "quickspec",
@@ -7376,6 +7955,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec TestTree",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.TestTree",
           "name": "terms",
           "normalized": "TestTree a-\u003e[a]",
@@ -7390,6 +7970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.TestTree",
           "name": "test",
           "package": "quickspec",
@@ -7399,6 +7980,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec TestTree",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.TestTree",
           "name": "test",
           "normalized": "[a-\u003eb]-\u003e[a]-\u003eTestTree a",
@@ -7413,6 +7995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.TestTree",
           "name": "union",
           "package": "quickspec",
@@ -7422,6 +8005,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec TestTree",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.TestTree",
           "name": "union",
           "normalized": "[a-\u003eb]-\u003eTestTree a-\u003eTestTree a-\u003eTestTree a",
@@ -7437,6 +8021,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA map from types to values.\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003eTypeMap\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e maps each type \u003ccode\u003ea\u003c/code\u003e to a value of type \u003ccode\u003ef a\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeMap",
           "name": "TypeMap",
           "package": "quickspec",
@@ -7446,6 +8031,7 @@
         "index": {
           "description": "map from types to values TypeMap maps each type to value of type",
           "hierarchy": "Test QuickSpec Utils TypeMap",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeMap",
           "name": "TypeMap",
           "package": "quickspec",
@@ -7459,6 +8045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeMap",
           "name": "TypeMap",
           "package": "quickspec",
@@ -7467,6 +8054,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils TypeMap",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeMap",
           "name": "TypeMap",
           "package": "quickspec",
@@ -7480,6 +8068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeMap",
           "name": "empty",
           "package": "quickspec",
@@ -7489,6 +8078,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils TypeMap",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeMap",
           "name": "empty",
           "package": "quickspec",
@@ -7501,6 +8091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeMap",
           "name": "fromList",
           "package": "quickspec",
@@ -7510,6 +8101,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils TypeMap",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeMap",
           "name": "fromList",
           "normalized": "[Some a]-\u003eTypeMap a",
@@ -7525,6 +8117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeMap",
           "name": "lookup",
           "package": "quickspec",
@@ -7534,6 +8127,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils TypeMap",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeMap",
           "name": "lookup",
           "normalized": "a b-\u003eb-\u003eTypeMap a-\u003ea b",
@@ -7548,6 +8142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeMap",
           "name": "mapValues",
           "package": "quickspec",
@@ -7557,6 +8152,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils TypeMap",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeMap",
           "name": "mapValues",
           "normalized": "a b-\u003ec b)-\u003eTypeMap a-\u003eTypeMap c",
@@ -7572,6 +8168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeMap",
           "name": "mapValues2",
           "package": "quickspec",
@@ -7581,6 +8178,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils TypeMap",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeMap",
           "name": "mapValues2",
           "normalized": "a(b c)-\u003ed(e c))-\u003eTypeMap(a O b)-\u003eTypeMap(d O e)",
@@ -7596,6 +8194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeMap",
           "name": "singleton",
           "package": "quickspec",
@@ -7605,6 +8204,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils TypeMap",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeMap",
           "name": "singleton",
           "normalized": "a b-\u003eTypeMap a",
@@ -7619,6 +8219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeMap",
           "name": "toList",
           "package": "quickspec",
@@ -7628,6 +8229,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils TypeMap",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeMap",
           "name": "toList",
           "normalized": "TypeMap a-\u003e[Some a]",
@@ -7644,6 +8246,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA relation between types and values.\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003eTypeRel\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e relates each type \u003ccode\u003ea\u003c/code\u003e to a set of values\n   of type \u003ccode\u003ef a\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "TypeRel",
           "package": "quickspec",
@@ -7653,6 +8256,7 @@
         "index": {
           "description": "relation between types and values TypeRel relates each type to set of values of type",
           "hierarchy": "Test QuickSpec Utils TypeRel",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "TypeRel",
           "package": "quickspec",
@@ -7666,6 +8270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "TypeRel",
           "package": "quickspec",
@@ -7674,6 +8279,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils TypeRel",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "TypeRel",
           "package": "quickspec",
@@ -7687,6 +8293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "classify",
           "package": "quickspec",
@@ -7696,6 +8303,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils TypeRel",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "classify",
           "normalized": "[Some a]-\u003e[Some(List O a)]",
@@ -7710,6 +8318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "disperse",
           "package": "quickspec",
@@ -7719,6 +8328,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils TypeRel",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "disperse",
           "normalized": "Some(List O a)-\u003e[Some a]",
@@ -7733,6 +8343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "empty",
           "package": "quickspec",
@@ -7742,6 +8353,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils TypeRel",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "empty",
           "package": "quickspec",
@@ -7754,6 +8366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "fromList",
           "package": "quickspec",
@@ -7763,6 +8376,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils TypeRel",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "fromList",
           "normalized": "[Some a]-\u003eTypeRel a",
@@ -7778,6 +8392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "gather",
           "package": "quickspec",
@@ -7787,6 +8402,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils TypeRel",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "gather",
           "normalized": "[Some a]-\u003eSome(List O a)",
@@ -7801,6 +8417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "lookup",
           "package": "quickspec",
@@ -7810,6 +8427,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils TypeRel",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "lookup",
           "normalized": "a-\u003eTypeRel b-\u003e[b a]",
@@ -7824,6 +8442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "mapValues",
           "package": "quickspec",
@@ -7833,6 +8452,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils TypeRel",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "mapValues",
           "normalized": "a b-\u003ec b)-\u003eTypeRel a-\u003eTypeRel c",
@@ -7848,6 +8468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "singleton",
           "package": "quickspec",
@@ -7857,6 +8478,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils TypeRel",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "singleton",
           "normalized": "a b-\u003eTypeRel a",
@@ -7871,6 +8493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "toList",
           "package": "quickspec",
@@ -7880,6 +8503,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils TypeRel",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.TypeRel",
           "name": "toList",
           "normalized": "TypeRel a-\u003e[Some a]",
@@ -7896,6 +8520,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA wrapper around \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e, to work around:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e The lack of an \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e instance in older GHCs,\n\u003c/li\u003e\u003cli\u003e bug #5962 in new GHCs.\n\u003c/li\u003e\u003c/ol\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "Typeable",
           "package": "quickspec",
@@ -7905,6 +8530,7 @@
         "index": {
           "description": "wrapper around Typeable to work around The lack of an Ord instance in older GHCs bug in new GHCs",
           "hierarchy": "Test QuickSpec Utils Typeable",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "Typeable",
           "package": "quickspec",
@@ -7918,6 +8544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "TypeRep",
           "package": "quickspec",
@@ -7926,6 +8553,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typeable",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "TypeRep",
           "package": "quickspec",
@@ -7940,6 +8568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e allows a concrete representation of a type to\n be calculated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "Typeable",
           "package": "quickspec",
@@ -7948,6 +8577,7 @@
         "index": {
           "description": "The class Typeable allows concrete representation of type to be calculated",
           "hierarchy": "Test QuickSpec Utils Typeable",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "Typeable",
           "package": "quickspec",
@@ -7962,6 +8592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant for unary type constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "Typeable1",
           "package": "quickspec",
@@ -7970,6 +8601,7 @@
         "index": {
           "description": "Variant for unary type constructors",
           "hierarchy": "Test QuickSpec Utils Typeable",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "Typeable1",
           "package": "quickspec",
@@ -7984,6 +8616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant for binary type constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "Typeable2",
           "package": "quickspec",
@@ -7992,6 +8625,7 @@
         "index": {
           "description": "Variant for binary type constructors",
           "hierarchy": "Test QuickSpec Utils Typeable",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "Typeable2",
           "package": "quickspec",
@@ -8005,6 +8639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "cast",
           "package": "quickspec",
@@ -8014,6 +8649,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typeable",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "cast",
           "normalized": "a-\u003eMaybe b",
@@ -8028,6 +8664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "gcast",
           "package": "quickspec",
@@ -8037,6 +8674,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typeable",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "gcast",
           "normalized": "a b-\u003eMaybe(a c)",
@@ -8051,6 +8689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "mkFunTy",
           "package": "quickspec",
@@ -8060,6 +8699,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typeable",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "mkFunTy",
           "normalized": "TypeRep-\u003eTypeRep-\u003eTypeRep",
@@ -8075,6 +8715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "mkTyConApp",
           "package": "quickspec",
@@ -8084,6 +8725,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typeable",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "mkTyConApp",
           "normalized": "TyCon-\u003e[TypeRep]-\u003eTypeRep",
@@ -8099,6 +8741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "splitTyConApp",
           "package": "quickspec",
@@ -8108,6 +8751,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typeable",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "splitTyConApp",
           "normalized": "TypeRep-\u003e(TyCon,[TypeRep])",
@@ -8123,6 +8767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "typeOf",
           "package": "quickspec",
@@ -8132,6 +8777,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typeable",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "typeOf",
           "normalized": "a-\u003eTypeRep",
@@ -8147,6 +8793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "typeOf1",
           "package": "quickspec",
@@ -8156,6 +8803,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typeable",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "typeOf1",
           "normalized": "a b-\u003eTypeRep",
@@ -8171,6 +8819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "typeRepTyCon",
           "package": "quickspec",
@@ -8180,6 +8829,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typeable",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "typeRepTyCon",
           "normalized": "TypeRep-\u003eTyCon",
@@ -8195,6 +8845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "unTypeRep",
           "package": "quickspec",
@@ -8204,6 +8855,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typeable",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typeable",
           "name": "unTypeRep",
           "normalized": "TypeRep-\u003eTypeRep",
@@ -8220,6 +8872,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for working with existentially-quantified types\n   and similar.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "Typed",
           "package": "quickspec",
@@ -8229,6 +8882,7 @@
         "index": {
           "description": "Functions for working with existentially-quantified types and similar",
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "Typed",
           "package": "quickspec",
@@ -8242,6 +8896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "List",
           "package": "quickspec",
@@ -8250,6 +8905,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "List",
           "package": "quickspec",
@@ -8263,6 +8919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "O",
           "package": "quickspec",
@@ -8271,6 +8928,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "O",
           "package": "quickspec",
@@ -8283,6 +8941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "Several",
           "package": "quickspec",
@@ -8291,6 +8950,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "Several",
           "package": "quickspec",
@@ -8304,6 +8964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "Some",
           "package": "quickspec",
@@ -8312,6 +8973,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "Some",
           "package": "quickspec",
@@ -8325,6 +8987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "Tagged",
           "package": "quickspec",
@@ -8333,6 +8996,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "Tagged",
           "package": "quickspec",
@@ -8346,6 +9010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "Witness",
           "package": "quickspec",
@@ -8354,6 +9019,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "Witness",
           "package": "quickspec",
@@ -8367,6 +9033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "Witnessed",
           "package": "quickspec",
@@ -8375,6 +9042,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "Witnessed",
           "package": "quickspec",
@@ -8388,6 +9056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "O",
           "package": "quickspec",
@@ -8397,6 +9066,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "O",
           "package": "quickspec",
@@ -8409,6 +9079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "Some",
           "package": "quickspec",
@@ -8418,6 +9089,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "Some",
           "package": "quickspec",
@@ -8431,6 +9103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "Tagged",
           "package": "quickspec",
@@ -8440,6 +9113,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "Tagged",
           "package": "quickspec",
@@ -8453,6 +9127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "Witness",
           "package": "quickspec",
@@ -8462,6 +9137,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "Witness",
           "package": "quickspec",
@@ -8475,6 +9151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "erase",
           "package": "quickspec",
@@ -8484,6 +9161,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "erase",
           "package": "quickspec",
@@ -8496,6 +9174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "mapSome",
           "package": "quickspec",
@@ -8505,6 +9184,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "mapSome",
           "normalized": "a b-\u003ec b)-\u003eSome a-\u003eSome c",
@@ -8520,6 +9200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "mapSome2",
           "package": "quickspec",
@@ -8529,6 +9210,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "mapSome2",
           "normalized": "a(b c)-\u003ed(e c))-\u003eSome(a O b)-\u003eSome(d O e)",
@@ -8544,6 +9226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "mapSomeM",
           "package": "quickspec",
@@ -8553,6 +9236,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "mapSomeM",
           "normalized": "a b-\u003ec(d b))-\u003eSome a-\u003ec(Some d)",
@@ -8568,6 +9252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "rightArrow",
           "package": "quickspec",
@@ -8577,6 +9262,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "rightArrow",
           "normalized": "TypeRep-\u003eTypeRep",
@@ -8592,6 +9278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "several",
           "package": "quickspec",
@@ -8601,6 +9288,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "several",
           "normalized": "[a b]-\u003ec)-\u003eSeveral a-\u003ec",
@@ -8615,6 +9303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "some",
           "package": "quickspec",
@@ -8624,6 +9313,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "some",
           "normalized": "a b-\u003ec)-\u003eSome a-\u003ec",
@@ -8638,6 +9328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "some2",
           "package": "quickspec",
@@ -8647,6 +9338,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "some2",
           "normalized": "a(b c)-\u003ed)-\u003eSome(a O b)-\u003ed",
@@ -8661,6 +9353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "someType",
           "package": "quickspec",
@@ -8670,6 +9363,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "someType",
           "normalized": "Some a-\u003eTypeRep",
@@ -8685,6 +9379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "someWitness",
           "package": "quickspec",
@@ -8694,6 +9389,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "someWitness",
           "normalized": "Some a-\u003eWitness",
@@ -8709,6 +9405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "splitArrow",
           "package": "quickspec",
@@ -8718,6 +9415,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "splitArrow",
           "normalized": "TypeRep-\u003eMaybe(TypeRep,TypeRep)",
@@ -8733,6 +9431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "tag",
           "package": "quickspec",
@@ -8742,6 +9441,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "tag",
           "package": "quickspec",
@@ -8754,6 +9454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "tagged",
           "package": "quickspec",
@@ -8763,6 +9464,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "tagged",
           "normalized": "(a b-\u003ec)-\u003ea b-\u003eTagged c",
@@ -8777,6 +9479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "typeRepTyCons",
           "package": "quickspec",
@@ -8786,6 +9489,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "typeRepTyCons",
           "normalized": "TypeRep-\u003e[TyCon]",
@@ -8801,6 +9505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "unO",
           "package": "quickspec",
@@ -8810,6 +9515,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "unO",
           "package": "quickspec",
@@ -8822,6 +9528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "witness",
           "package": "quickspec",
@@ -8831,6 +9538,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "witness",
           "package": "quickspec",
@@ -8843,6 +9551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "witnessType",
           "package": "quickspec",
@@ -8852,6 +9561,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils Typed",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils.Typed",
           "name": "witnessType",
           "normalized": "Witness-\u003eTypeRep",
@@ -8868,6 +9578,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMiscellaneous utility functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils",
           "name": "Utils",
           "package": "quickspec",
@@ -8877,6 +9588,7 @@
         "index": {
           "description": "Miscellaneous utility functions",
           "hierarchy": "Test QuickSpec Utils",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils",
           "name": "Utils",
           "package": "quickspec",
@@ -8890,6 +9602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils",
           "name": "isSorted",
           "package": "quickspec",
@@ -8899,6 +9612,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils",
           "name": "isSorted",
           "normalized": "[a]-\u003eBool",
@@ -8914,6 +9628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils",
           "name": "isSortedBy",
           "package": "quickspec",
@@ -8923,6 +9638,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils",
           "name": "isSortedBy",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003eBool",
@@ -8938,6 +9654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils",
           "name": "merge",
           "package": "quickspec",
@@ -8947,6 +9664,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils",
           "name": "merge",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(a-\u003eb)-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -8961,6 +9679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils",
           "name": "orElse",
           "package": "quickspec",
@@ -8970,6 +9689,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils",
           "name": "orElse",
           "normalized": "Ordering-\u003eOrdering-\u003eOrdering",
@@ -8985,6 +9705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils",
           "name": "partitionBy",
           "package": "quickspec",
@@ -8994,6 +9715,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils",
           "name": "partitionBy",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[[a]]",
@@ -9009,6 +9731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils",
           "name": "repeatM",
           "package": "quickspec",
@@ -9018,6 +9741,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils",
           "name": "repeatM",
           "normalized": "a b-\u003ea[b]",
@@ -9032,6 +9756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils",
           "name": "spoony",
           "package": "quickspec",
@@ -9041,6 +9766,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils",
           "name": "spoony",
           "normalized": "a-\u003eMaybe a",
@@ -9055,6 +9781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils",
           "name": "unbuffered",
           "package": "quickspec",
@@ -9064,6 +9791,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils",
           "name": "unbuffered",
           "normalized": "IO a-\u003eIO a",
@@ -9078,6 +9806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec.Utils",
           "name": "usort",
           "package": "quickspec",
@@ -9087,6 +9816,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec Utils",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec.Utils",
           "name": "usort",
           "normalized": "[a]-\u003e[a]",
@@ -9102,6 +9832,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe main QuickSpec module.\n\u003c/p\u003e\u003cp\u003eThis will not make sense if you haven't seen some examples!\n Look at \u003ca\u003ehttp://github.com/nick8325/quickspec/tree/master/examples\u003c/a\u003e,\n or read the paper at \u003ca\u003ehttp://www.cse.chalmers.se/~nicsma/quickspec.pdf\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec",
           "name": "QuickSpec",
           "package": "quickspec",
@@ -9111,6 +9842,7 @@
         "index": {
           "description": "The main QuickSpec module This will not make sense if you haven seen some examples Look at http github.com nick8325 quickspec tree master examples or read the paper at http www.cse.chalmers.se nicsma quickspec.pdf",
           "hierarchy": "Test QuickSpec",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec",
           "name": "QuickSpec",
           "package": "quickspec",
@@ -9125,6 +9857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust a type.\n   You can instantiate your polymorphic functions at this type\n   to include them in a signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec",
           "name": "A",
           "package": "quickspec",
@@ -9134,6 +9867,7 @@
         "index": {
           "description": "Just type You can instantiate your polymorphic functions at this type to include them in signature",
           "hierarchy": "Test QuickSpec",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec",
           "name": "A",
           "package": "quickspec",
@@ -9146,6 +9880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec",
           "name": "B",
           "package": "quickspec",
@@ -9154,6 +9889,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec",
           "name": "B",
           "package": "quickspec",
@@ -9166,6 +9902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec",
           "name": "C",
           "package": "quickspec",
@@ -9174,6 +9911,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec",
           "name": "C",
           "package": "quickspec",
@@ -9187,6 +9925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec",
           "name": "Sig",
           "package": "quickspec",
@@ -9196,6 +9935,7 @@
         "index": {
           "description": "signature",
           "hierarchy": "Test QuickSpec",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec",
           "name": "Sig",
           "package": "quickspec",
@@ -9210,6 +9950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of things that can be used as a signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec",
           "name": "Signature",
           "package": "quickspec",
@@ -9219,6 +9960,7 @@
         "index": {
           "description": "The class of things that can be used as signature",
           "hierarchy": "Test QuickSpec",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec",
           "name": "Signature",
           "package": "quickspec",
@@ -9233,6 +9975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type with two elements.\n   Use this instead of \u003ccode\u003eA\u003c/code\u003e if testing doesn't work well because\n   the domain of \u003ccode\u003eA\u003c/code\u003e is too large.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec",
           "name": "Two",
           "package": "quickspec",
@@ -9242,6 +9985,7 @@
         "index": {
           "description": "type with two elements Use this instead of if testing doesn work well because the domain of is too large",
           "hierarchy": "Test QuickSpec",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec",
           "name": "Two",
           "package": "quickspec",
@@ -9255,6 +9999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:41 UTC 2014",
           "module": "Test.QuickSpec",
           "name": "signature",
           "package": "quickspec",
@@ -9264,6 +10009,7 @@
         },
         "index": {
           "hierarchy": "Test QuickSpec",
+          "indexed": "2014-03-11T19:47:41",
           "module": "Test.QuickSpec",
           "name": "signature",
           "normalized": "a-\u003eSig",
